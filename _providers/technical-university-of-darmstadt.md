@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 5.0
-  scored_at: '2026-10-04'
+  score: 3.1
+  scored_at: '2026-10-17'
 api_count: 10
 apis:
 - description: 'REST API of TUdatalib, the institutional research-data repository of TU Darmstadt. Verified live 2026-09-01: the API root returns HAL/JSON with dspaceName "TUdatalib System", dspaceVersion "DSpace 9.3'
@@ -160,9 +160,13 @@ created: '2026-06-03'
 description: 'The Technical University of Darmstadt (Technische Universitaet Darmstadt, TU Darmstadt) is a public technical research university in Darmstadt, Hesse, Germany, founded in 1877 and registered as ROR 05n911h24. It operates no central developer portal, publishes no OpenAPI description of its own, and its GitHub organization (TU-Darmstadt) is live but holds zero public repositories. What it does operate, and what makes this profile non-empty, is scholarly and identity infrastructure on its own domain: TUdatalib, the institutional research-data repository, runs DSpace 9.3 and exposes both a live HAL/JSON REST API and an OAI-PMH 2.0 interface; a DBRepo deployment at dbrepo.ulb.tu-darmstadt.de serves a live JSON API for research databases; and the Hochschulrechenzentrum (HRZ) runs the university''s own Shibboleth SAML 2.0 identity provider, whose metadata is publicly retrievable and published into the German DFN-AAI federation and eduGAIN. TUbiblio and tuprints run on EPrints with
   OAI-PMH endpoints that are WAF-protected. The ULB is a DataCite consortium member (provider HLQC) registering DOIs for six repositories. TUjournals is real, machine-readable and busy, but it is a tenancy on Janeway shared hosting, not TU Darmstadt engineering. Every surface below is labelled with who actually operates it.'
 finops:
-- name: Technical University Of Darmstadt Finops
+- has_sources: true
+  method: generated
+  name: Technical University Of Darmstadt Finops
+  primary_unit: ''
   service_category: Education
   slug: technical-university-of-darmstadt-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/technical-university-of-darmstadt.png
 jsonld:
 - class_count: 19
@@ -174,7 +178,7 @@ modified: '2026-09-01'
 name: Technical University of Darmstadt
 nav: Providers
 network: true
-overview: 'Technical University of Darmstadt publishes 10 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Higher Education, University, Technical University, and Germany.
+overview: 'Technical University of Darmstadt is listed with 10 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Higher Education, University, Technical University, and Germany.
 
 
   The Technical University of Darmstadt catalog on APIs.io includes 1 JSON-LD context.
@@ -191,23 +195,23 @@ rate_limits:
   name: Technical University Of Darmstadt Rate Limits
   slug: technical-university-of-darmstadt-rate-limits
 score:
-  band: thin
-  composite: 30.0
+  band: emerging
+  composite: 24.0
   coverage:
-    artifact_dirs: 10
-    catalog_earned: 65.4
+    artifact_dirs: 11
+    catalog_earned: 52.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 49.6
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -2.9
+  delta: -6.0
   facets:
-    access_clarity: 47.9
+    access_clarity: 26.3
     contract_governance: 0.0
     contract_quality: 14.3
     developer_ergonomics: 28.6
     discoverability: 71.4
-    operational_transparency: 24.2
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -216,7 +220,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 32.9
+  previous_composite: 30.0
   provenance:
     conformance: first-party
   regulatory:
@@ -225,9 +229,9 @@ score:
     regime: Education & Research
     regime_id: education
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

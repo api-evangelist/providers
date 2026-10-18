@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.seamflow.com/blog
 - group: company
   title: ''
   type: Website
@@ -67,31 +71,31 @@ created: '2026-07-17'
 description: 'Seamflow builds AI-native software for the Testing, Inspection, and Certification (TIC) industry, automating end-to-end regulatory certification workflows for notified bodies and certification organizations while preserving human oversight and accreditation compliance. Its platform spans four core products: the Notified Body Suite (intake-to-certificate workflow management), Scheduling Agents (automated auditor assignment and travel optimization), Tech File Review (structured technical-documentation assessment against regulatory requirements), and Report Writing (AI-assisted drafting of compliance reports). Seamflow is an early-stage enterprise-SaaS company ($4.5M seed) backed by Initialized Capital and Northzone. As of this profile it publishes no public API, developer portal, SDKs, or OpenAPI specification; this record captures its verified public company surface.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/seamflow.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Seamflow
 nav: Providers
 network: true
 overview: 'Seamflow is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise Saas, Artificial Intelligence, Compliance, and Certification.
 
 
-  Seamflow''s developer surface includes support and 5 more developer resources.'
+  Seamflow''s developer surface includes engineering blog, support, and 5 more developer resources.'
 random_paper: 4
 score:
   band: minimal
-  composite: 7.4
+  composite: 7.9
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 4.8
+    developer_ergonomics: 7.1
     discoverability: 55.4
     operational_transparency: 0.0
   previous_composite: 7.4
@@ -101,8 +105,8 @@ score:
     regime: Health
     regime_id: health
     score: 8.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

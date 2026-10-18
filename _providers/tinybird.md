@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: verified
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.7
-  scored_at: '2026-10-04'
+  score: 29.8
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 23
+- acting_count: 22
   human_in_the_loop: 0
   name: Tinybird Agentic Access
   operation_count: 38
   slug: tinybird-agentic-access
-  summary_line: 38 operations · 23 acting
+  summary_line: 38 operations · 22 acting
 api_count: 1
 apis:
 - baseURL: https://api.tinybird.co
@@ -164,6 +164,21 @@ collections:
   name: Tinybird API
   slug: open-tinybird
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/tinybird/refs/heads/main/plans/tinybird-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/tinybird-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/tinybird/refs/heads/main/rate-limits/tinybird-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/tinybird-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/tinybird/refs/heads/main/finops/tinybird-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/tinybird-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/tinybird/refs/heads/main/capabilities/tinybird-capability-edges.yml
   title: ''
@@ -258,9 +273,13 @@ examples:
   name: Tinybird List Data Sources Example
   slug: tinybird-list-data-sources-example
 finops:
-- name: Tinybird Finops
+- has_sources: false
+  method: generated
+  name: Tinybird Finops
+  primary_unit: ''
   service_category: API
   slug: tinybird-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tinybird.png
 json_schemas:
 - name: Tinybird Data Source
@@ -293,13 +312,13 @@ modified: '2026-05-19'
 name: Tinybird
 nav: Providers
 network: true
-overview: 'Tinybird publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Analyze API, Data Sources API, Environment Variables API, and 7 more. Tagged areas include Analytics, Data, Real-Time, SQL, and Streaming.
+overview: 'Tinybird publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Analyze API, Data Sources API, Environment Variables API, and 7 more. Tagged areas include Analytics, Data, Real-Time, SQL, and Streaming.
 
 
   The Tinybird catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Tinybird''s developer surface includes authentication, documentation, getting-started guide, signup flow, engineering blog, and 14 more developer resources.'
+  Tinybird''s developer surface includes authentication, documentation, getting-started guide, signup flow, engineering blog, and 17 more developer resources.'
 plans:
 - name: Tinybird Plans Pricing
   plan_count: 3
@@ -310,9 +329,10 @@ rate_limits:
   name: Tinybird Rate Limits
   slug: tinybird-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Tinybird API Rules
+  name: Tinybird — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -320,7 +340,8 @@ rules:
     info: 1
     warn: 4
   slug: tinybird-jsonschema-spectral-rules
-- effective_rule_count: 53
+- authorship: unmarked
+  effective_rule_count: 53
   extends:
   - spectral:oas
   name: Tinybird API Rules
@@ -333,17 +354,17 @@ rules:
   slug: tinybird-rules
 score:
   band: developing
-  composite: 43.0
+  composite: 41.5
   coverage:
     artifact_dirs: 21
-    catalog_earned: 68.4
+    catalog_earned: 65.4
     catalog_earned_first_party: 0.0
-    catalog_gap: 46.6
+    catalog_gap: 49.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 36.8
+    access_clarity: 28.9
     contract_governance: 27.3
     contract_quality: 61.4
     developer_ergonomics: 43.3
@@ -364,8 +385,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

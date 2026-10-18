@@ -1,0 +1,105 @@
+---
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 0.0
+  scored_at: '2026-10-17'
+api_count: 0
+artifact_total: 1
+common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/compa976a/refs/heads/main/hosts/compa976a-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/compa976a-hosts.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/compa976a/refs/heads/main/vendors/compa976a-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/compa976a-vendors.yml
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/compa976a/refs/heads/main/security/compa976a-domain-security.yml
+  title: ''
+  type: DomainSecurity
+  url: security/compa976a-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://equityzen.com/company/compa976a
+created: '2026-10-09'
+description: Compa976a is a placeholder company entry harvested from secondary-market sources and added to the API Evangelist network for full profiling. The company currently lacks publicly available documentation, website, or API specifications. This stub serves as a starting point for future enrichment once more information becomes available, including potential API endpoints, authentication methods, and service offerings.
+layout: provider
+modified: '2026-10-09'
+name: Compa976a
+nav: Providers
+network: true
+overview: Compa976a is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Technology, Data, and Services.
+random_paper: 21
+score:
+  band: minimal
+  composite: 2.2
+  coverage:
+    artifact_dirs: 3
+    catalog_earned: 20.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 95.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  facets:
+    access_clarity: 0.0
+    contract_governance: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 35.7
+    operational_transparency: 0.0
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: venue_as_website
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 5.9
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+security:
+- kind: domain-security
+  name: Compa976A Domain Security
+  slug: compa976a-domain-security
+  summary_line: TLSv1.3 · DMARC
+slug: compa976a
+tags:
+- Company
+- Technology
+- Data
+- Services
+website: https://equityzen.com/company/compa976a
+---

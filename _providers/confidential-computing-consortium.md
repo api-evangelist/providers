@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 7.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: A portfolio of open source projects governed by the Confidential Computing Consortium covering Trusted Execution Environment runtimes, remote attestation services, trustworthy workload identity, and s
@@ -44,6 +44,11 @@ apis:
   slug: trustworthy-workload-identity
 artifact_total: 6
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/confidential-computing-consortium/refs/heads/main/finops/confidential-computing-consortium-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/confidential-computing-consortium-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/confidential-computing-consortium/refs/heads/main/security/confidential-computing-consortium-domain-security.yml
   title: ''
@@ -175,19 +180,23 @@ common:
 created: '2026-03-16'
 description: The Confidential Computing Consortium (CCC) is a Linux Foundation project that brings together hardware vendors, cloud providers, and software developers to accelerate the adoption of confidential computing. CCC defines, advances, and standardizes hardware-based Trusted Execution Environments (TEEs) that protect data and code while in use, complementing existing protections for data at rest and in transit. The consortium governs open source projects and specifications spanning attestation, trustworthy workload identity, and TEE runtimes.
 finops:
-- name: Confidential Computing Consortium Finops
+- has_sources: false
+  method: generated
+  name: Confidential Computing Consortium Finops
+  primary_unit: ''
   service_category: API
   slug: confidential-computing-consortium-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/confidential-computing-consortium.png
 layout: provider
 modified: '2026-09-05'
 name: Confidential Computing Consortium
 nav: Providers
 network: true
-overview: 'Confidential Computing Consortium publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Attestation, Confidential Computing, Hardware, Linux Foundation, and Open Source.
+overview: 'Confidential Computing Consortium is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Attestation, Confidential Computing, Hardware, Linux Foundation, and Open Source.
 
 
-  Confidential Computing Consortium''s developer surface includes documentation, GitHub presence, engineering blog, support, pricing, signup flow, and 24 more developer resources.'
+  Confidential Computing Consortium''s developer surface includes documentation, GitHub presence, engineering blog, support, pricing, signup flow, and 25 more developer resources.'
 plans:
 - name: Confidential Computing Consortium Plans Pricing
   plan_count: 4
@@ -199,17 +208,17 @@ rate_limits:
   slug: confidential-computing-consortium-rate-limits
 score:
   band: thin
-  composite: 31.5
+  composite: 30.0
   coverage:
     artifact_dirs: 11
-    catalog_earned: 52.0
+    catalog_earned: 49.0
     catalog_earned_first_party: 17.0
-    catalog_gap: 63.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 84.2
+    access_clarity: 76.3
     contract_governance: 33.3
     contract_quality: 0.0
     developer_ergonomics: 16.7
@@ -224,8 +233,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

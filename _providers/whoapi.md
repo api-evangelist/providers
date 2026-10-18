@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -64,6 +64,10 @@ collections:
   name: WhoAPI Domain Intelligence API
   slug: open-whoapi-domain-intelligence-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://whoapi.com/blog/feed/
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/whoapi/refs/heads/main/agentic-access/whoapi-agentic-access.yml
   title: ''
@@ -199,17 +203,17 @@ created: '2026-07-17'
 description: WhoAPI (founded 2011, WhoAPI Inc.) is a domain-intelligence API company that exposes WHOIS records, real-time domain availability across hundreds of TLDs, domain age, domain reputation/score, SSL certificate inspection, email score, IP/domain blacklist checks, and website screenshots through a single key-authenticated REST endpoint (api.whoapi.com). Every request is an HTTP GET selecting a task with the `r` parameter and returning gzip-compressed JSON with a numeric `status` and human-readable `status_desc`. It serves cybersecurity teams, domain registrars, SEO agencies, and fraud-detection systems, with first-party and community SDKs for Ruby, Python, Go, and R.
 image: https://whoapi.com/wp-content/uploads/2024/04/API-company-illustration.svg
 layout: provider
-modified: '2026-08-14'
+modified: '2026-10-06'
 name: WhoAPI
 nav: Providers
 network: true
-overview: 'WhoAPI publishes 1 API on the [APIs.io](https://apis.io/) network: Domain Intelligence API. Tagged areas include Company, Domains, WHOIS, Domain Availability, and SSL.
+overview: 'WhoAPI publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Domain Intelligence API. Tagged areas include Company, Domains, WHOIS, Domain Availability, and SSL.
 
 
   The WhoAPI catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  WhoAPI''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, CLI, and 22 more developer resources.'
+  WhoAPI''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, CLI, and 23 more developer resources.'
 plans:
 - name: Whoapi Plans Pricing
   plan_count: 0
@@ -221,7 +225,7 @@ rate_limits:
   slug: whoapi-rate-limits
 score:
   band: developing
-  composite: 46.3
+  composite: 46.4
   coverage:
     artifact_dirs: 24
     catalog_earned: 49.0
@@ -229,7 +233,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 44.7
     contract_governance: 4.5
@@ -254,8 +258,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

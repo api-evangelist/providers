@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.8
-  scored_at: '2026-10-04'
+  score: 22.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -84,6 +84,25 @@ collections:
   name: Diamond Search IDEX Onsite Full Feed API
   slug: open-idex-onsite-full-feed-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/diamond-search/refs/heads/main/plans/diamond-search-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/diamond-search-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/diamond-search/refs/heads/main/rate-limits/diamond-search-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/diamond-search-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/diamond-search/refs/heads/main/finops/diamond-search-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/diamond-search-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.idexonline.com/newsroom
 - group: company
   title: ''
   type: Website
@@ -126,19 +145,23 @@ common:
 created: '2024-11-13'
 description: IDEX Online is the leading polished diamonds trading platform for professionals, providing unbiased, market-driven diamond pricing tools, news and research. The IDEX Onsite and Data Report APIs deliver natural diamond, lab grown diamond, and market data feeds to subscribers of the IDEX trading platform.
 finops:
-- name: Diamond Search Finops
+- has_sources: true
+  method: generated
+  name: Diamond Search Finops
+  primary_unit: ''
   service_category: Market Data / Diamond Trading
   slug: diamond-search-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/diamond-search.png
 layout: provider
-modified: '2026-05-19'
+modified: '2026-10-06'
 name: Diamond Search
 nav: Providers
 network: true
-overview: 'Diamond Search publishes 3 APIs on the [APIs.io](https://apis.io/) network: Fullfeed API, Getreport3 API, and Labgrownfullfile API. Tagged areas include Diamonds, Lab Grown, Pricing, and Trading.
+overview: 'Diamond Search publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Fullfeed API, Getreport3 API, and Labgrownfullfile API. Tagged areas include Diamonds, Lab Grown, Pricing, and Trading.
 
 
-  Diamond Search''s developer surface includes authentication, signup flow, and 7 more developer resources.'
+  Diamond Search''s developer surface includes engineering blog, authentication, signup flow, and 10 more developer resources.'
 plans:
 - name: Diamond Search Plans Pricing
   plan_count: 4
@@ -150,20 +173,20 @@ rate_limits:
   slug: diamond-search-rate-limits
 score:
   band: thin
-  composite: 32.9
+  composite: 31.8
   coverage:
     artifact_dirs: 11
-    catalog_earned: 43.0
+    catalog_earned: 40.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 72.0
+    catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.1
   facets:
-    access_clarity: 50.0
+    access_clarity: 42.1
     contract_governance: 0.0
     contract_quality: 46.9
-    developer_ergonomics: 21.4
+    developer_ergonomics: 23.8
     discoverability: 64.3
     operational_transparency: 5.3
   previous_composite: 32.9
@@ -180,8 +203,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 24.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

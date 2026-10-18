@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 1172
+- acting_count: 1166
   human_in_the_loop: 7
   name: Infisical Agentic Access
   operation_count: 1996
   slug: infisical-agentic-access
-  summary_line: 1996 operations · 1172 acting · 7 human-in-the-loop
+  summary_line: 1996 operations · 1166 acting · 7 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://app.infisical.com
@@ -770,9 +770,13 @@ examples:
   name: Infisical Universal Auth Login Example
   slug: infisical-universal-auth-login-example
 finops:
-- name: Infisical Finops
+- has_sources: false
+  method: generated
+  name: Infisical Finops
+  primary_unit: ''
   service_category: ''
   slug: infisical-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/infisical.png
 json_schemas:
 - name: Dynamic Secret Create
@@ -800,7 +804,7 @@ modified: 2026-06-13
 name: Infisical
 nav: Providers
 network: true
-overview: 'Infisical publishes 73 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Alibaba Cloud Auth API, App Connections API, and 70 more. Tagged areas include Secrets Management, Security, DevOps, Developer Tools, and Open Source.
+overview: 'Infisical publishes 73 API contracts indexed on the [APIs.io](https://apis.io/) network, including Admin API, Alibaba Cloud Auth API, App Connections API, and 70 more. Tagged areas include Secrets Management, Security, DevOps, Developer Tools, and Open Source.
 
 
   The Infisical catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -820,9 +824,10 @@ rate_limits:
   name: Infisical Rate Limits
   slug: infisical-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Infisical API Rules
+  name: Infisical — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -832,23 +837,23 @@ rules:
   slug: infisical-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 45.4
+  composite: 43.9
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 79.8
+    artifact_dirs: 19
+    catalog_earned: 76.8
     catalog_earned_first_party: 24.0
-    catalog_gap: 35.3
+    catalog_gap: 38.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: -1.5
   facets:
-    access_clarity: 50.0
+    access_clarity: 42.1
     contract_governance: 23.5
     contract_quality: 56.0
     developer_ergonomics: 23.8
     discoverability: 66.1
     operational_transparency: 52.6
-  previous_composite: 44.8
+  previous_composite: 45.4
   provenance:
     agentic_access: derived
     contracts:
@@ -862,8 +867,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

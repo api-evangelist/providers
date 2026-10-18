@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 16
   slug: bybe-agentic-access
   summary_line: 16 operations · 3 acting
-api_count: 1
+api_count: 2
 apis:
 - baseURL: https://api.bybe.io
   baseurl_source: declared
@@ -223,7 +223,7 @@ modified: '2026-08-13'
 name: BYBE
 nav: Providers
 network: true
-overview: 'BYBE publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Clips API, Consumers API, Manufacturers API, and 4 more. Tagged areas include Company, Alcohol, Beverages, Promotions, and Rebates.
+overview: 'BYBE publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Clips API, Consumers API, Manufacturers API, and 4 more. Tagged areas include Company, Alcohol, Beverages, Promotions, and Rebates.
 
 
   BYBE''s developer surface includes documentation, API reference, getting-started guide, pricing, support, authentication, sandbox, and 22 more developer resources.'
@@ -271,8 +271,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 15.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

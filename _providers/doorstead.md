@@ -35,10 +35,15 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 3
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/doorstead/refs/heads/main/rate-limits/doorstead-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/doorstead-rate-limits.yml
 - group: company
   title: ''
   type: Website
@@ -120,7 +125,7 @@ network: true
 overview: 'Doorstead is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Property Management, Real Estate, PropTech, and Rentals.
 
 
-  Doorstead''s developer surface includes engineering blog, pricing, support, and 10 more developer resources.'
+  Doorstead''s developer surface includes engineering blog, pricing, support, and 11 more developer resources.'
 plans:
 - name: Doorstead Plans Pricing
   plan_count: 2
@@ -162,8 +167,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

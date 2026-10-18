@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.4
-  scored_at: '2026-10-04'
+  score: 30.5
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 38
+- acting_count: 28
   human_in_the_loop: 0
   name: University Of Calgary Agentic Access
-  operation_count: 67
+  operation_count: 73
   slug: university-of-calgary-agentic-access
-  summary_line: 67 operations · 38 acting
+  summary_line: 73 operations · 28 acting
 api_count: 2
 apis:
 - baseURL: https://api.phys.ucalgary.ca
@@ -328,9 +328,13 @@ examples:
   name: University Of Calgary Hapi Catalog Example
   slug: university-of-calgary-hapi-catalog-example
 finops:
-- name: University Of Calgary Finops
+- has_sources: true
+  method: generated
+  name: University Of Calgary Finops
+  primary_unit: ''
   service_category: Education
   slug: university-of-calgary-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/university-of-calgary.png
 json_schemas:
 - name: DataSource
@@ -359,7 +363,7 @@ modified: '2026-08-30'
 name: University of Calgary
 nav: Providers
 network: true
-overview: 'University of Calgary publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Auroral Transport Model (ATM) API, Data Distribution API, SRS HAPI (Heliophysics API) Server, and 17 more. Tagged areas include Education, Higher Education, University, Public Research University, and Canada.
+overview: 'University of Calgary publishes 20 API contracts indexed on the [APIs.io](https://apis.io/) network, including Auroral Transport Model (ATM) API, Data Distribution API, SRS HAPI (Heliophysics API) Server, and 17 more. Tagged areas include Education, Higher Education, University, Public Research University, and Canada.
 
 
   The University of Calgary catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -376,9 +380,10 @@ rate_limits:
   name: University Of Calgary Rate Limits
   slug: university-of-calgary-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: University of Calgary API Rules
+  name: University of Calgary — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -386,7 +391,8 @@ rules:
     info: 1
     warn: 4
   slug: university-of-calgary-jsonschema-spectral-rules
-- effective_rule_count: 6
+- authorship: unmarked
+  effective_rule_count: 6
   extends: []
   name: University of Calgary API Rules
   rule_count: 6
@@ -397,23 +403,23 @@ rules:
     warn: 3
   slug: university-of-calgary-rules
 score:
-  band: developing
-  composite: 39.9
+  band: thin
+  composite: 33.9
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 70.2
+    artifact_dirs: 19
+    catalog_earned: 56.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 44.8
+    catalog_gap: 58.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.0
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 28.0
     contract_quality: 54.3
     developer_ergonomics: 35.7
     discoverability: 66.1
-    operational_transparency: 21.6
+    operational_transparency: 7.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -436,9 +442,9 @@ score:
     regime: Education & Research
     regime_id: education
     score: 30.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

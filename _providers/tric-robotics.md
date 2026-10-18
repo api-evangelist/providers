@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://tricrobotics.com/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/tric-robotics/refs/heads/main/security/tric-robotics-domain-security.yml
   title: ''
@@ -62,20 +66,20 @@ description: TRIC Robotics builds autonomous agricultural robots that replace ch
   profile captures its company identity in the API Evangelist network.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tric-robotics.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: TRIC Robotics
 nav: Providers
 network: true
 overview: 'TRIC Robotics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Robotics, Agriculture, AgTech, and Automation.
 
 
-  TRIC Robotics'' developer surface includes support and 4 more developer resources.'
+  TRIC Robotics'' developer surface includes support and 5 more developer resources.'
 random_paper: 6
 score:
   band: minimal
   composite: 6.1
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -101,8 +105,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 9.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

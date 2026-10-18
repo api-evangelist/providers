@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -71,7 +71,7 @@ apis:
 - description: Redirect checkout hosted by Genome, opened with an HS256 JWT signed with the SHA-256 digest of the payment page secret. Keeps card data out of merchant scope. Supports card and Pay by Bank.
   name: Genome Hosted Payment Page
   slug: genome-hosted-payment-page
-artifact_total: 20
+artifact_total: 26
 asyncapis:
 - description: ''
   name: Genome Webhooks
@@ -90,6 +90,45 @@ collections:
   name: Genome Payments API
   slug: open-genome
 common:
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/genome/refs/heads/main/rules/genome-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/genome-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/genome/refs/heads/main/json-ld/genome-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/genome-context.jsonld
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/genome/refs/heads/main/vocabulary/genome-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/genome-vocabulary.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/genome/refs/heads/main/lifecycle/genome-lifecycle.yml
+  title: ''
+  type: Deprecation
+  url: lifecycle/genome-lifecycle.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/genome/refs/heads/main/errors/genome-problem-types.yml
+  title: ''
+  type: ErrorCatalog
+  url: errors/genome-problem-types.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/genome/refs/heads/main/hosts/genome-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/genome-hosts.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/genome/refs/heads/main/vendors/genome-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/genome-vendors.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://blog.genome.eu/category/security/
 - group: company
   title: ''
   type: Website
@@ -247,11 +286,6 @@ common:
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/genome/refs/heads/main/llms/genome-llms.txt
-  title: ''
-  type: LLMsTxt
-  url: llms/genome-llms.txt
-- group: agent
   href: https://raw.githubusercontent.com/api-evangelist/genome/refs/heads/main/agentic-access/genome-agentic-access.yml
   title: ''
   type: AgenticAccess
@@ -264,22 +298,44 @@ common:
 created: '2025-03-01'
 description: 'Genome, operated by UAB "Maneuver LT" of Vilnius, is an Electronic Money Institution licensed and supervised by the Bank of Lithuania. It runs multi-currency personal and business accounts, issues Visa cards, and sells a merchant payments stack that is documented as six public API surfaces: the Host-to-Host API for direct card processing (AUTH, AUTH3D, SALE, SALE3D, SETTLE, REFUND, VOID and CHECK), the Payout API for sending funds to cardholders, the SEPA Payout API, the Query on Demand reporting API, a Verification of Payee API returning the EPC scheme''s match outcomes, and a Berlin Group NextGenPSD2 dedicated interface offered free of charge to registered AISPs and PISPs. Batch transfers are submitted as ISO 20022 pain.001.001.03. Outcomes are carried in a proprietary 137-code response envelope rather than HTTP status codes, and Genome publishes no OpenAPI, AsyncAPI, MCP server or /.well-known/ document on any of its hosts.'
 finops:
-- name: Genome Finops
+- has_sources: false
+  method: generated
+  name: Genome Finops
+  primary_unit: ''
   service_category: API
   slug: genome-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/genome.png
+json_schemas:
+- name: HostToHostRequest
+  property_count: 12
+  slug: genome-host-to-host-request
+- name: PayoutRequest
+  property_count: 16
+  slug: genome-payout-request
+- name: PayoutResponse
+  property_count: 5
+  slug: genome-payout-response
+- name: TransactionResponse
+  property_count: 6
+  slug: genome-transaction-response
+jsonld:
+- class_count: 5
+  name: Genome Context
+  property_count: 19
+  slug: genome-context
 layout: provider
 modified: '2026-09-12'
 name: Genome
 nav: Providers
 network: true
-overview: 'Genome publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Host-to-Host API, Payouts API, and 6 more. Tagged areas include Finance, Payments, Banking, Open Banking, and PSD2.
+overview: 'Genome publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Host-to-Host API, Payouts API, and 6 more. Tagged areas include Finance, Payments, Banking, Open Banking, and PSD2.
 
 
-  The Genome catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Genome catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Genome''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 30 more developer resources.'
+  Genome''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 37 more developer resources.'
 plans:
 - name: Genome Plans Pricing
   plan_count: 3
@@ -289,24 +345,37 @@ rate_limits:
 - limit_count: 0
   name: Genome Rate Limits
   slug: genome-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 57
+  extends:
+  - spectral:oas
+  name: Genome API Rules
+  rule_count: 16
+  severity_counts:
+    error: 14
+    hint: 0
+    info: 1
+    warn: 1
+  slug: genome-rules
 score:
   band: strong
-  composite: 55.4
+  composite: 63.9
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 52.0
+    artifact_dirs: 31
+    catalog_earned: 74.8
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 40.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 8.5
   facets:
-    access_clarity: 86.8
-    contract_governance: 0.0
-    contract_quality: 54.6
+    access_clarity: 78.9
+    contract_governance: 35.6
+    contract_quality: 68.0
     developer_ergonomics: 73.2
     discoverability: 66.1
-    operational_transparency: 26.3
+    operational_transparency: 44.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
@@ -329,9 +398,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 23.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

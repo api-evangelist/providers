@@ -17,7 +17,7 @@ description: 'HV Capital is one of Europe''s leading early-stage and growth vent
   philosophy — "too new is our baseline, too bold is our reason, too complex is our edge" — reflects a willingness to back complex, category-defining companies. Early and notable investments include Zalando, Delivery Hero, FlixBus, SumUp, Depop, Scalable Capital, Enpal, and Isar Aerospace. This profile tracks HV Capital''s identity and its portfolio graph across the API Evangelist network.'
 image: https://a.storyblok.com/f/330117/2380x2380/7da52419d7/hv-logo-on-white-background.png
 layout: provider
-modified: '2026-07-17'
+modified: '2026-10-06'
 name: HV Capital
 nav: Providers
 network: true

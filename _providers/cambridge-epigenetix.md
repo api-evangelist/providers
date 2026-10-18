@@ -23,10 +23,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 0
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://biomodal.com/news/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://biomodal.com/feed/
 - group: company
   title: ''
   type: Website
@@ -50,28 +58,31 @@ coverage:
 created: '2026-08-09'
 description: 'Cambridge Epigenetix is the Cambridge, UK genomics and epigenetics company founded on the six-base genome — resolving the four canonical DNA bases plus 5-methylcytosine and 5-hydroxymethylcytosine from a single low-input sample in one experiment — and it rebranded to biomodal in 2023. DUPLICATE RECORD: this stub was created from the secondary-market harvest backlog (Forge Global listing) under the company''s former name and profiles the same company already held in the API Evangelist network as all/biomodal, which carries the live profile (CLI command surface, domain security, blog archive, screenshots and Kin Score history). The legacy domain cambridge-epigenetix.com now 301-redirects to biomodal.com, so there is no independent Cambridge Epigenetix surface to profile. No API surface has been registered here and no artifacts have been generated, so this record does not split the company across two Kin Scores. It is queued for the duplicate-retirement procedure (survivor: biomodal).'
 layout: provider
-modified: '2026-08-09'
+modified: '2026-10-06'
 name: Cambridge Epigenetix
 nav: Providers
 network: true
-overview: Cambridge Epigenetix is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Life Sciences, Genomics, Epigenetics, and Multiomics.
+overview: 'Cambridge Epigenetix is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Life Sciences, Genomics, Epigenetics, and Multiomics.
+
+
+  Cambridge Epigenetix''s developer surface includes engineering blog and 3 more developer resources.'
 random_paper: 21
 score:
   band: minimal
-  composite: 2.6
+  composite: 3.1
   coverage:
-    artifact_dirs: 2
+    artifact_dirs: 3
     catalog_earned: 25.0
     catalog_earned_first_party: 0.0
     catalog_gap: 90.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 44.6
     operational_transparency: 0.0
   needs_work:
@@ -87,8 +98,8 @@ score:
     regime: Health
     regime_id: health
     score: 0.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://api.yokoy.ai/v1/organizations/{organizationId}
@@ -218,6 +218,10 @@ collections:
   name: Yokoy Card account User API
   slug: open-yokoy-user-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.perk.com/blog/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/yokoy/refs/heads/main/capabilities/yokoy-capability-edges.yml
   title: ''
@@ -336,14 +340,14 @@ created: '2026-07-17'
 description: Yokoy (now part of Perk / TravelPerk) is an AI-powered spend-management platform for expenses, supplier invoices and corporate cards. Its public REST API (OpenAPI 3.0, 105 operations) imports master and configuration data into Yokoy and exports financial data — expenses, trips, invoices, transactions, journal entries and FX rates — to third-party ERP and accounting systems. Authentication uses the OAuth2 client-credentials flow; every request is scoped to an organization ID and most resources to a legal entity (company). The API spans expenses, invoices, trips, transactions, company cards and card accounts, cost centers, categories, tax rates, suppliers, users, policies, tags and finance-export tasks.
 image: https://yokoy.io/favicon.ico
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Yokoy
 nav: Providers
 network: true
-overview: 'Yokoy publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Card account API, Company card API, Cost center API, and 19 more. Tagged areas include Company, Spend Management, Expense Management, Invoice Management, and Finance Automation.
+overview: 'Yokoy publishes 22 API contracts indexed on the [APIs.io](https://apis.io/) network, including Card account API, Company card API, Cost center API, and 19 more. Tagged areas include Company, Spend Management, Expense Management, Invoice Management, and Finance Automation.
 
 
-  Yokoy''s developer surface includes documentation, API reference, getting-started guide, support, changelog, authentication, and 19 more developer resources.'
+  Yokoy''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, changelog, authentication, and 19 more developer resources.'
 random_paper: 21
 scopes:
 - name: Yokoy Scopes
@@ -352,20 +356,20 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 38.3
+  composite: 38.8
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 15.8
     contract_governance: 18.2
     contract_quality: 50.2
-    developer_ergonomics: 25.6
+    developer_ergonomics: 28.0
     discoverability: 73.2
     operational_transparency: 28.9
   previous_composite: 38.3
@@ -388,8 +392,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 33.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

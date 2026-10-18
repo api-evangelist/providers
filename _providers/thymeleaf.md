@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: The core Thymeleaf template engine library providing HTML, XML, TEXT, JavaScript, and CSS template mode processing. Includes the Standard Dialect with th:text, th:each, th:if, th:unless, th:switch, th
@@ -47,6 +47,21 @@ apis:
   slug: thymeleaf-extras
 artifact_total: 12
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/thymeleaf/refs/heads/main/plans/thymeleaf-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/thymeleaf-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/thymeleaf/refs/heads/main/rate-limits/thymeleaf-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/thymeleaf-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/thymeleaf/refs/heads/main/finops/thymeleaf-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/thymeleaf-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/thymeleaf/refs/heads/main/security/thymeleaf-domain-security.yml
   title: ''
@@ -95,9 +110,13 @@ examples:
   name: Thymeleaf Spring Boot Example
   slug: thymeleaf-spring-boot-example
 finops:
-- name: Thymeleaf Finops
+- has_sources: false
+  method: generated
+  name: Thymeleaf Finops
+  primary_unit: ''
   service_category: API
   slug: thymeleaf-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/thymeleaf.png
 json_schemas:
 - name: Thymeleaf Template Configuration
@@ -117,13 +136,13 @@ modified: '2026-05-03'
 name: Thymeleaf
 nav: Providers
 network: true
-overview: 'Thymeleaf publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include HTML, Java, Open Source, Server-Side Rendering, and Spring.
+overview: 'Thymeleaf is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include HTML, Java, Open Source, Server-Side Rendering, and Spring.
 
 
   The Thymeleaf catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Thymeleaf''s developer surface includes documentation and 9 more developer resources.'
+  Thymeleaf''s developer surface includes documentation and 12 more developer resources.'
 plans:
 - name: Thymeleaf Plans Pricing
   plan_count: 3
@@ -134,9 +153,10 @@ rate_limits:
   name: Thymeleaf Rate Limits
   slug: thymeleaf-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: Thymeleaf API Rules
+  name: Thymeleaf — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -146,17 +166,17 @@ rules:
   slug: thymeleaf-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 21.2
+  composite: 19.7
   coverage:
     artifact_dirs: 11
-    catalog_earned: 58.3
+    catalog_earned: 55.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 56.8
+    catalog_gap: 59.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 9.8
     contract_quality: 14.7
     developer_ergonomics: 21.4
@@ -169,8 +189,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

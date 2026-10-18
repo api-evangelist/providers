@@ -17,7 +17,7 @@ description: IDG Capital is a global investment firm founded in Boston in 1993 a
   Studios, and Insta360.
 image: https://idgcapital.com/wp-content/uploads/2024/03/logo.svg
 layout: provider
-modified: '2026-07-17'
+modified: '2026-10-06'
 name: IDG Capital
 nav: Providers
 network: true

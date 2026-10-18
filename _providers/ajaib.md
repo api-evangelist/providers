@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -212,7 +212,7 @@ modified: '2026-08-06'
 name: Ajaib
 nav: Providers
 network: true
-overview: 'Ajaib publishes 3 APIs on the [APIs.io](https://apis.io/) network: Market Info API, Spot Trading API, and Wallet API. Tagged areas include Company, Financial Services, Investing, Brokerage, and Trading.
+overview: 'Ajaib publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Market Info API, Spot Trading API, and Wallet API. Tagged areas include Company, Financial Services, Investing, Brokerage, and Trading.
 
 
   Ajaib''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 21 more developer resources.'
@@ -221,7 +221,7 @@ score:
   band: thin
   composite: 31.3
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -259,8 +259,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -287,7 +287,7 @@ tags:
 - Brokerage
 - Trading
 - Cryptocurrency
-- Crypto Exchange
+- Cryptocurrency Exchange
 - Stocks
 - Mutual Funds
 - Fintech

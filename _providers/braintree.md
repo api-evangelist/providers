@@ -32,13 +32,13 @@ agent_readiness:
     mcp_server: verified
     openapi_examples: partial
     protected_resource_metadata: verified
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 52.8
-  scored_at: '2026-10-04'
+  score: 50.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -153,6 +153,21 @@ collections:
   name: Braintree Payments Add-Ons Transactions API
   slug: open-braintree-transactions-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/braintree/refs/heads/main/plans/braintree-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/braintree-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/braintree/refs/heads/main/rate-limits/braintree-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/braintree-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/braintree/refs/heads/main/finops/braintree-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/braintree-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/braintree/refs/heads/main/capabilities/braintree-capability-edges.yml
   title: ''
@@ -248,9 +263,13 @@ common:
   url: json-schema/braintree-subscription-schema.json
 description: Our mission is to empower developers with the tools, resources, and simple-to-use SDKs and APIs to build on one platform, so they can serve merchants from around the world.
 finops:
-- name: Braintree Finops
+- has_sources: true
+  method: generated
+  name: Braintree Finops
+  primary_unit: ''
   service_category: Payments
   slug: braintree-finops
+  template: false
 graphqls:
 - description: The Braintree GraphQL API provides a modern, flexible interface for interacting with the Braintree payment gateway. It exposes a single HTTP endpoint that handles all queries and mutations, allowing d
   name: braintree GraphQL API
@@ -344,13 +363,13 @@ modified: '2026-09-16'
 name: Braintree
 nav: Providers
 network: true
-overview: 'Braintree publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Webhooks, Add-Ons API, Client Tokens API, and 11 more. Tagged areas include Payments, Transaction, Mobile, Subscription, and Payment Processing.
+overview: 'Braintree publishes 14 API contracts indexed on the [APIs.io](https://apis.io/) network, including Webhooks, Add-Ons API, Client Tokens API, and 11 more. Tagged areas include Payments, Transaction, Mobile, Subscription, and Payment Processing.
 
 
   The Braintree catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Braintree''s developer surface includes sandbox, changelog, authentication, and 16 more developer resources.'
+  Braintree''s developer surface includes sandbox, changelog, authentication, and 19 more developer resources.'
 plans:
 - name: Braintree Plans Pricing
   plan_count: 6
@@ -361,10 +380,11 @@ rate_limits:
   name: Braintree Rate Limits
   slug: braintree-rate-limits
 rules:
-- effective_rule_count: 33
+- authorship: generated
+  effective_rule_count: 33
   extends:
   - spectral:asyncapi
-  name: Braintree API Rules
+  name: Braintree — asyncapi rules
   rule_count: 6
   severity_counts:
     error: 1
@@ -372,9 +392,10 @@ rules:
     info: 0
     warn: 5
   slug: braintree-asyncapi-spectral-rules
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: Braintree API Rules
+  name: Braintree — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -389,23 +410,23 @@ scopes:
   summary_line: 40 scopes
 score:
   band: thin
-  composite: 38.7
+  composite: 37.1
   coverage:
     artifact_dirs: 27
-    catalog_earned: 47.5
+    catalog_earned: 44.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 67.5
+    catalog_gap: 70.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -2.1
+  delta: -1.6
   facets:
-    access_clarity: 23.7
+    access_clarity: 15.8
     contract_governance: 13.6
     contract_quality: 64.9
     developer_ergonomics: 28.6
     discoverability: 55.0
     operational_transparency: 26.3
-  previous_composite: 40.8
+  previous_composite: 38.7
   provenance:
     agentic_access: derived
     contracts:
@@ -420,8 +441,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 33.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

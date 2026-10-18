@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: Access ERS data products in machine-readable formats for analysis or integration into your own applications. Delivered via api.data.gov as REST endpoints. Requires an api.data.gov key.
@@ -171,16 +171,20 @@ common:
 created: '2024-12-25'
 description: The Economic Research Service (ERS) is a division of the United States Department of Agriculture (USDA) that conducts economic research and analysis related to agriculture, food, and rural development. ERS provides policymakers, stakeholders, and the public with valuable information and data to help inform decision-making and policy development.
 finops:
-- name: Economic Research Service Finops
+- has_sources: false
+  method: generated
+  name: Economic Research Service Finops
+  primary_unit: ''
   service_category: API
   slug: economic-research-service-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/economic-research-service.png
 layout: provider
 modified: '2026-09-06'
 name: Economic Research Service
 nav: Providers
 network: true
-overview: 'Economic Research Service publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Agriculture, Economics, Federal Government, Research, and Open Data.
+overview: 'Economic Research Service is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Agriculture, Economics, Federal Government, Research, and Open Data.
 
 
   Economic Research Service''s developer surface includes documentation, engineering blog, support, authentication, changelog, sandbox, and 21 more developer resources.'
@@ -195,17 +199,17 @@ rate_limits:
   slug: economic-research-service-rate-limits
 score:
   band: developing
-  composite: 42.6
+  composite: 41.0
   coverage:
     artifact_dirs: 21
-    catalog_earned: 52.0
+    catalog_earned: 49.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 42.1
+    access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 24.0
     developer_ergonomics: 52.4
@@ -226,8 +230,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

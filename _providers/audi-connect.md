@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.audi.com/en/feeds/press-releases
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/audi-connect/refs/heads/main/security/audi-connect-domain-security.yml
   title: ''
@@ -130,20 +134,20 @@ description: Audi Connect is the connected-vehicle services platform from Audi A
   adds charging-station search, remote charge monitoring, and cabin pre-conditioning. Audi does not publish a public developer portal, OpenAPI specification, OAuth program, or partner SDK for myAudi/Audi Connect; programmatic access today is brokered by third-party connected-car aggregators (Smartcar, High Mobility, Enode, Mojio) under Audi's commercial agreements, and community projects reverse-engineer the mobile-app endpoints. Audi has publicly discussed an internal OpenAPI-driven API management strategy (with Nagarro) but the surface remains private to Audi, VW Group brands, and authorized partners.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/audi-connect.png
 layout: provider
-modified: '2026-05-25'
+modified: '2026-10-06'
 name: Audi Connect / myAudi
 nav: Providers
 network: true
-overview: 'Audi Connect / myAudi is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Automotive, Connected Vehicles, Connected Car, Telematics, and Mobility.
+overview: 'Audi Connect / myAudi is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Automotive, Connected Vehicles, Telematics, Mobility, and Remote Control.
 
 
-  Audi Connect / myAudi''s developer surface includes privacy policy, terms of service, GitHub presence, YouTube channel, and 18 more developer resources.'
+  Audi Connect / myAudi''s developer surface includes privacy policy, terms of service, GitHub presence, YouTube channel, and 19 more developer resources.'
 random_paper: 0
 score:
   band: minimal
   composite: 6.9
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -172,8 +176,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 8.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -189,7 +193,6 @@ slug: audi-connect
 tags:
 - Automotive
 - Connected Vehicles
-- Connected Car
 - Telematics
 - Mobility
 - Remote Control

@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Ross Stores operates a sophisticated supply chain technology stack including AI-driven inventory allocation, distribution center automation, and merchandise analytics. The company is investing approxi
@@ -41,6 +41,21 @@ apis:
   slug: ross-stores-supply-chain-api
 artifact_total: 9
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/ross-stores/refs/heads/main/plans/ross-stores-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/ross-stores-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/ross-stores/refs/heads/main/rate-limits/ross-stores-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/ross-stores-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/ross-stores/refs/heads/main/finops/ross-stores-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/ross-stores-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/ross-stores/refs/heads/main/security/ross-stores-domain-security.yml
   title: ''
@@ -93,9 +108,13 @@ common:
 created: '2025-01-01'
 description: 'Ross Stores, Inc. (NASDAQ: ROST) is the largest off-price apparel and home fashion retailer in the United States, operating over 1,700 Ross Dress for Less and 320+ dd''s DISCOUNTS stores across 43 states, the District of Columbia, and Guam. The company sources a broad assortment of in-season, name-brand merchandise at deep discounts (20-60% below department and specialty store prices) through opportunistic buying. Ross operates a highly efficient supply chain powered by AI-driven inventory management, distribution automation, and integrated supplier and partner technology platforms.'
 finops:
-- name: Ross Stores Finops
+- has_sources: true
+  method: generated
+  name: Ross Stores Finops
+  primary_unit: ''
   service_category: Off-Price Retail / Supplier Integration
   slug: ross-stores-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ross-stores.png
 json_schemas:
 - name: Ross Stores Supplier Integration Schema
@@ -115,7 +134,7 @@ modified: '2026-07-25'
 name: Ross Stores
 nav: Providers
 network: true
-overview: 'Ross Stores publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Fashion, Fortune 500, Off-Price Retail, Retail, and Supply Chain.
+overview: 'Ross Stores is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Fashion, Fortune 500, Off-Price Retail, Retail, and Supply Chain.
 
 
   The Ross Stores catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.'
@@ -145,9 +164,10 @@ rate_limits:
   name: Ross Stores Rate Limits
   slug: ross-stores-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: Ross Stores API Rules
+  name: Ross Stores — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -157,17 +177,17 @@ rules:
   slug: ross-stores-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 13.8
+  composite: 12.3
   coverage:
     artifact_dirs: 14
-    catalog_earned: 51.8
+    catalog_earned: 48.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 63.3
+    catalog_gap: 66.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 13.2
+    access_clarity: 5.3
     contract_governance: 23.5
     contract_quality: 6.7
     developer_ergonomics: 4.8
@@ -180,8 +200,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

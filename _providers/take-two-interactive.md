@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: An undocumented Take-Two API host. api.take2games.com resolves to a Google Cloud load balancer that returns a bare 403 Forbidden on every path probed, including the root. The sibling T2GP platform hos
@@ -41,6 +41,21 @@ apis:
   slug: take-two-interactive-api
 artifact_total: 5
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/take-two-interactive/refs/heads/main/plans/take-two-interactive-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/take-two-interactive-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/take-two-interactive/refs/heads/main/rate-limits/take-two-interactive-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/take-two-interactive-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/take-two-interactive/refs/heads/main/finops/take-two-interactive-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/take-two-interactive-finops.yml
 - group: company
   title: ''
   type: InvestorRelations
@@ -111,19 +126,23 @@ coverage:
 created: '2026-04-19'
 description: 'Take-Two Interactive Software, Inc. (NASDAQ: TTWO) is a US interactive-entertainment holding company headquartered in New York City that develops and publishes video games through its labels Rockstar Games, 2K, Zynga and Ghost Story Games. It is a Fortune 1000 corporation. Take-Two operates real API infrastructure — api.take2games.com and the T2GP (Take-Two Game Platform) API at api.t2gp.take2games.com, the backend behind its launcher and account system — but it runs no public developer program: no developer portal, no published reference, no machine-readable contract, no SDKs, and no plans or rate limits. Its developer-surface hosts (docs.take2games.com, dev.take2games.com) redirect every request to a FusionAuth SSO login.'
 finops:
-- name: Take Two Interactive Finops
+- has_sources: true
+  method: generated
+  name: Take Two Interactive Finops
+  primary_unit: ''
   service_category: Interactive Entertainment
   slug: take-two-interactive-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/take-two-interactive.png
 layout: provider
 modified: '2026-09-06'
 name: Take-Two Interactive Software
 nav: Providers
 network: true
-overview: 'Take-Two Interactive Software publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Gaming, Video Games, Interactive Entertainment, Entertainment, and Publishing.
+overview: 'Take-Two Interactive Software is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Gaming, Video Games, Entertainment, Publishing, and Software.
 
 
-  Take-Two Interactive Software''s developer surface includes support, engineering blog, and 10 more developer resources.'
+  Take-Two Interactive Software''s developer surface includes support, engineering blog, and 13 more developer resources.'
 plans:
 - name: Take Two Interactive Plans Pricing
   plan_count: 0
@@ -135,17 +154,17 @@ rate_limits:
   slug: take-two-interactive-rate-limits
 score:
   band: emerging
-  composite: 13.9
+  composite: 12.4
   coverage:
     artifact_dirs: 10
-    catalog_earned: 40.0
+    catalog_earned: 37.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 28.9
+    access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
@@ -165,13 +184,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/take-two-interactive/refs/heads/main/screenshots/take-two-interactive-2026-10-11T194409.png
 security:
 - kind: domain-security
   name: Take Two Interactive Domain Security
@@ -181,7 +201,6 @@ slug: take-two-interactive
 tags:
 - Gaming
 - Video Games
-- Interactive Entertainment
 - Entertainment
 - Publishing
 - Software

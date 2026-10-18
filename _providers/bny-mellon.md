@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 5
 apis:
 - description: Treasury Services API family covering payments (USD clearing, global ACH, RTP, wires, Pay by Bank), liquidity, cash management, trade finance, and FX, exposed to corporate and financial-institution cl
@@ -125,7 +125,7 @@ modified: '2026-07-24'
 name: BNY Mellon
 nav: Providers
 network: true
-overview: 'BNY Mellon publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Services, Banking, United States, Custody Bank, and Treasury Services.
+overview: 'BNY Mellon is listed with 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Services, Banking, United States, Custody Bank, and Treasury Services.
 
 
   BNY Mellon''s developer surface includes documentation, support, sandbox, and 12 more developer resources.'
@@ -134,7 +134,7 @@ score:
   band: emerging
   composite: 20.5
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -162,8 +162,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 15.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 3
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 170
   slug: one-codex-agentic-access
   summary_line: 170 operations · 64 acting · 3 human-in-the-loop
-api_count: 1
+api_count: 2
 apis:
 - baseURL: https://app.onecodex.com/api/v1/
   baseurl_source: declared
@@ -254,6 +254,14 @@ collections:
   name: One Codex API (v1) Account Workflows API
   slug: open-one-codex-workflows-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.onecodex.com/blog/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.onecodex.com/blog/index.xml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -409,21 +417,21 @@ created: '2026-07-17'
 description: One Codex is a microbial genomics data platform for fast, reproducible microbiome sequencing and analysis. Its cloud platform pairs the "world's largest microbial reference database" with automated shotgun and amplicon pipelines, sample management, and collaboration for academic institutions, biotech companies, and clinical laboratories. Beyond the web application, One Codex exposes a RESTful JSON API (self-described with JSON Schema) covering samples, analyses, classifications, panels, alignments, MLST, functional profiles, jobs/workflows, projects, metadata, tags, documents, sequencing batches, events, and webhooks — plus an official `onecodex` Python client and CLI. The company also offers a Genome Library and end-to-end microbiome sequencing services. One Codex is a portfolio company of DCVC.
 image: https://www.onecodex.com/wp-content/uploads/2019/03/one-codex-logo.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: One Codex
 nav: Providers
 network: true
-overview: 'One Codex publishes 25 APIs on the [APIs.io](https://apis.io/) network, including Account API, Alignments API, Analyses API, and 22 more. Tagged areas include Company, Genomics, Microbiome, Bioinformatics, and Metagenomics.
+overview: 'One Codex publishes 25 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Alignments API, Analyses API, and 22 more. Tagged areas include Company, Genomics, Microbiome, Bioinformatics, and Metagenomics.
 
 
   The One Codex catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  One Codex''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, authentication, and 26 more developer resources.'
+  One Codex''s developer surface includes engineering blog, documentation, API reference, getting-started guide, signup flow, pricing, authentication, and 28 more developer resources.'
 random_paper: 18
 score:
   band: strong
-  composite: 55.8
+  composite: 55.9
   coverage:
     artifact_dirs: 21
     catalog_earned: 37.0
@@ -431,7 +439,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 52.6
     contract_governance: 18.2
@@ -460,8 +468,8 @@ score:
     regime: Health
     regime_id: health
     score: 28.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

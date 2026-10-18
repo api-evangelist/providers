@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.3
-  scored_at: '2026-10-04'
+  score: 24.1
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -153,16 +153,20 @@ common:
 created: '2026-06-21'
 description: CharlieHR is a small-business HR platform that handles people management, time off, onboarding, and employee records. Its REST API exposes a company's team members, leave requests, leave allowances, and company structure (offices and teams) using OAuth 2.0 client credentials over HTTPS.
 finops:
-- name: Charliehr Finops
+- has_sources: true
+  method: generated
+  name: Charliehr Finops
+  primary_unit: ''
   service_category: Business Applications
   slug: charliehr-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/charliehr.png
 layout: provider
 modified: '2026-06-21'
 name: CharlieHR
 nav: Providers
 network: true
-overview: 'CharlieHR publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Company API, Leave / Absences API, Leave Allowances API, and 1 more. Tagged areas include Human Resources, HRIS, People, Leave, and Time Off.
+overview: 'CharlieHR publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Company API, Leave / Absences API, Leave Allowances API, and 1 more. Tagged areas include Human Resources, HRIS, People, Leave, and Time Off.
 
 
   CharlieHR''s developer surface includes authentication, documentation, engineering blog, and 11 more developer resources.'
@@ -182,22 +186,22 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 36.8
+  composite: 29.4
   coverage:
     artifact_dirs: 13
-    catalog_earned: 58.0
+    catalog_earned: 42.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.0
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.4
   facets:
-    access_clarity: 44.2
+    access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 49.6
     developer_ergonomics: 25.0
     discoverability: 66.1
-    operational_transparency: 21.6
+    operational_transparency: 7.9
   previous_composite: 36.8
   provenance:
     agentic_access: derived
@@ -212,9 +216,9 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 26.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

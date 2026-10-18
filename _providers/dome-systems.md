@@ -33,10 +33,19 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 9.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
-artifact_total: 4
+artifact_total: 5
 common:
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.domesystems.ai/pricing
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/dome-systems/refs/heads/main/plans/dome-systems-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/dome-systems-plans-pricing.yml
 - group: company
   title: ''
   type: Website
@@ -179,21 +188,25 @@ network: true
 overview: 'Dome Systems is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI Agents, Agent Governance, AI Operations, and Authorization.
 
 
-  Dome Systems'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 21 more developer resources.'
+  Dome Systems'' developer surface includes pricing, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 23 more developer resources.'
+plans:
+- name: Dome Systems Plans Pricing
+  plan_count: 4
+  slug: dome-systems-plans-pricing
 random_paper: 4
 score:
-  band: thin
-  composite: 33.8
+  band: developing
+  composite: 42.3
   coverage:
-    artifact_dirs: 15
-    catalog_earned: 27.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 88.0
+    artifact_dirs: 16
+    catalog_earned: 39.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 8.5
   facets:
-    access_clarity: 34.2
+    access_clarity: 76.3
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 71.4
@@ -209,9 +222,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 28.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

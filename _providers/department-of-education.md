@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-04'
+  score: 20.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -71,6 +71,21 @@ collections:
   name: U.S. Department of Education — College Scorecard API
   slug: open-department-of-education
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/department-of-education/refs/heads/main/plans/department-of-education-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/department-of-education-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/department-of-education/refs/heads/main/rate-limits/department-of-education-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/department-of-education-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/department-of-education/refs/heads/main/finops/department-of-education-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/department-of-education-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/department-of-education/refs/heads/main/agentic-access/department-of-education-agentic-access.yml
   title: ''
@@ -155,9 +170,13 @@ common:
 created: '2024-12-03'
 description: The U.S. Department of Education (ED) is a federal agency that manages and coordinates federal assistance to education and establishes policy for it. ED's mission is to promote student achievement and preparation for global competitiveness, and to ensure equal access to education. The Department exposes a portfolio of public APIs through api.data.gov, NCES, and the Open Data Platform (ODP) at data.ed.gov for postsecondary outcomes, institutional characteristics, and federal education programs.
 finops:
-- name: Department Of Education Finops
+- has_sources: false
+  method: generated
+  name: Department Of Education Finops
+  primary_unit: ''
   service_category: API
   slug: department-of-education-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/department-of-education.png
 jsonld:
 - class_count: 0
@@ -169,13 +188,13 @@ modified: '2026-07-25'
 name: Department of Education
 nav: Providers
 network: true
-overview: 'Department of Education publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Schools API, and 3 more. Tagged areas include College Scorecard, Education, Federal Government, Higher Education, and IPEDS.
+overview: 'Department of Education publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Schools API, and 3 more. Tagged areas include College Scorecard, Education, Federal Government, Higher Education, and IPEDS.
 
 
   The Department of Education catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Department of Education''s developer surface includes authentication, product news, engineering blog, and 16 more developer resources.'
+  Department of Education''s developer surface includes authentication, product news, engineering blog, and 19 more developer resources.'
 plans:
 - name: Department Of Education Plans Pricing
   plan_count: 3
@@ -187,17 +206,17 @@ rate_limits:
   slug: department-of-education-rate-limits
 score:
   band: thin
-  composite: 35.1
+  composite: 33.6
   coverage:
     artifact_dirs: 13
-    catalog_earned: 55.5
+    catalog_earned: 52.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 59.5
+    catalog_gap: 62.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 28.9
+    access_clarity: 21.1
     contract_governance: 13.6
     contract_quality: 53.0
     developer_ergonomics: 33.3
@@ -222,8 +241,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

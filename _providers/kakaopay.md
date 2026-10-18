@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 4
 apis:
 - description: REST API for integrating KakaoPay online payment functionality into PC and mobile web or app environments. Supports single payments, subscription (recurring) billing, order inquiry, and payment cancel
@@ -105,16 +105,20 @@ common:
 created: '2026-06-13'
 description: KakaoPay is a Korean mobile payment platform and fintech service by Kakao Corp providing REST APIs for payment processing, QR code payments, online checkout, subscription billing, money transfers, and financial product management. The platform enables merchants and developers to integrate KakaoPay's payment infrastructure via secure REST APIs authenticated with admin keys or bearer tokens.
 finops:
-- name: Kakaopay Finops
+- has_sources: false
+  method: generated
+  name: Kakaopay Finops
+  primary_unit: ''
   service_category: ''
   slug: kakaopay-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kakaopay.png
 layout: provider
 modified: '2026-06-13'
 name: KakaoPay
 nav: Providers
 network: true
-overview: 'KakaoPay publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Payments, Mobile Payments, QR Code Payments, Subscription Billing, and Money Transfer.
+overview: 'KakaoPay is listed with 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Payments, Mobile Payments, QR Code Payments, Subscription Billing, and Money Transfer.
 
 
   KakaoPay''s developer surface includes documentation, engineering blog, pricing, and 9 more developer resources.'
@@ -129,22 +133,22 @@ rate_limits:
   slug: kakaopay-rate-limits
 score:
   band: emerging
-  composite: 20.1
+  composite: 14.0
   coverage:
     artifact_dirs: 8
-    catalog_earned: 57.4
+    catalog_earned: 44.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.6
+    catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.1
   facets:
-    access_clarity: 37.4
+    access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
     discoverability: 71.4
-    operational_transparency: 40.0
+    operational_transparency: 26.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -157,9 +161,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 5.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

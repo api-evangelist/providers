@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -92,6 +92,14 @@ collections:
   name: Subbly Storefront API (Modeled)
   slug: open-subbly
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.subbly.co/blog/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.subbly.co/blog/feed/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/subbly/refs/heads/main/capabilities/subbly-capability-edges.yml
   title: ''
@@ -162,19 +170,23 @@ common:
 created: '2026-07-10'
 description: 'Subbly is a subscription-first commerce platform for building and running subscription boxes, memberships, and recurring-product businesses without code. Alongside the no-code storefront and merchant admin, Subbly ships a developer surface for headless and custom builds: the SubblyCart.js embeddable cart widget and the Subbly.js SDK (@subbly/sdk), a browser-side client that talks to Subbly''s REST backend to manage products, bundles, carts, checkout and purchase, customers, and subscriptions. Subbly also exposes a public Orders API for integrating directly with any 3PL / fulfillment provider (documentation is provided by Subbly on request), plus an in-app webhook platform for notifying external services of order and subscription events. Subbly does not publish a fully open, self-serve REST reference or an OpenAPI definition; the SDK abstracts the underlying endpoints, so the API surface modeled here is derived from the documented SDK operations and is flagged as modeled.'
 finops:
-- name: Subbly Finops
+- has_sources: true
+  method: generated
+  name: Subbly Finops
+  primary_unit: ''
   service_category: Ecommerce and Subscription Commerce
   slug: subbly-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/subbly.png
 layout: provider
-modified: '2026-07-10'
+modified: '2026-10-06'
 name: Subbly
 nav: Providers
 network: true
-overview: 'Subbly publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Cart API, Customers API, Products API, and 3 more. Tagged areas include Subscription, Subscription Commerce, E-Commerce, Subscription Box, and Recurring Billing.
+overview: 'Subbly publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Cart API, Customers API, Products API, and 3 more. Tagged areas include Subscription, Subscription Commerce, E-Commerce, Subscription Box, and Recurring Billing.
 
 
-  Subbly''s developer surface includes authentication, documentation, SDKs, pricing, engineering blog, and 10 more developer resources.'
+  Subbly''s developer surface includes engineering blog, authentication, documentation, SDKs, pricing, and 12 more developer resources.'
 plans:
 - name: Subbly Plans Pricing
   plan_count: 5
@@ -185,23 +197,23 @@ rate_limits:
   name: Subbly Rate Limits
   slug: subbly-rate-limits
 score:
-  band: thin
-  composite: 27.0
+  band: emerging
+  composite: 18.7
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 56.6
+    artifact_dirs: 13
+    catalog_earned: 38.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 58.4
+    catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 46.8
+    access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 47.6
     discoverability: 57.1
-    operational_transparency: 28.4
+    operational_transparency: 7.9
   previous_composite: 27.0
   provenance:
     agentic_access: derived
@@ -216,9 +228,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

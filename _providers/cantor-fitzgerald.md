@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 9
 apis:
 - description: Cantor Fitzgerald, L.P. is a privately held global financial services firm founded in 1945. It is a U.S. Federal Reserve primary dealer in U.S. government securities and operates investment banking, f
@@ -65,6 +65,25 @@ apis:
   slug: hollywood-stock-exchange
 artifact_total: 15
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/cantor-fitzgerald/refs/heads/main/plans/cantor-fitzgerald-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/cantor-fitzgerald-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cantor-fitzgerald/refs/heads/main/rate-limits/cantor-fitzgerald-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/cantor-fitzgerald-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/cantor-fitzgerald/refs/heads/main/finops/cantor-fitzgerald-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/cantor-fitzgerald-finops.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.cantor.com/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/cantor-fitzgerald/refs/heads/main/security/cantor-fitzgerald-vulnerability-disclosure.yml
   title: ''
@@ -87,9 +106,13 @@ created: '2026-05-19'
 description: 'Cantor Fitzgerald, L.P. is a privately held global financial services firm founded in 1945 by Bernard Gerald Cantor and John Fitzgerald, headquartered in New York with more than 12,000 employees across 60+ offices in 20+ countries. The firm is a U.S. Federal Reserve primary dealer and operates investment banking, fixed-income and equities trading, prime brokerage, commercial real-estate lending (CCRE / Cantor Fitzgerald Income Trust), asset management, a SPAC franchise (Cantor Equity Partners), and corporate-venture investing (Cantor Ventures, Hollywood Stock Exchange). Cantor spun out its voice-brokerage business in 2004 to form BGC Partners (now BGC Group, NASDAQ: BGC), which in turn acquired Newmark in 2011 and spun it out as Newmark Group (NASDAQ: NMRK) in 2017. Long-time chairman/CEO Howard Lutnick became the 41st U.S. Secretary of Commerce on February 18, 2025; his sons Brandon and Kyle Lutnick assumed chairman and executive vice chairman roles, with Pascal Bandelier,
   Sage Kelly, and Christian Wall serving as co-CEOs. Cantor has no public developer portal — all electronic-trading, market-data, and prime-brokerage connectivity is delivered B2B under institutional client agreements; the closest public data surface is Fenics Market Data, sold by BGC affiliate Fenics under negotiated entitlement.'
 finops:
-- name: Cantor Fitzgerald Finops
+- has_sources: true
+  method: generated
+  name: Cantor Fitzgerald Finops
+  primary_unit: ''
   service_category: Financial Services
   slug: cantor-fitzgerald-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cantor-fitzgerald.png
 jsonld:
 - class_count: 8
@@ -97,11 +120,11 @@ jsonld:
   property_count: 0
   slug: cantor-fitzgerald-context
 layout: provider
-modified: '2026-05-23'
+modified: '2026-10-06'
 name: Cantor Fitzgerald
 nav: Providers
 network: true
-overview: 'Cantor Fitzgerald publishes 9 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Services, Investment Banking, Prime Brokerage, Fixed Income, and Stocks.
+overview: 'Cantor Fitzgerald is listed with 9 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Services, Investment Banking, Prime Brokerage, Fixed Income, and Stocks.
 
 
   The Cantor Fitzgerald catalog on APIs.io includes 1 JSON-LD context.'
@@ -116,22 +139,22 @@ rate_limits:
   slug: cantor-fitzgerald-rate-limits
 score:
   band: emerging
-  composite: 21.8
+  composite: 13.5
   coverage:
-    artifact_dirs: 8
-    catalog_earned: 67.6
+    artifact_dirs: 10
+    catalog_earned: 49.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 47.4
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 10.7
     developer_ergonomics: 9.5
     discoverability: 62.5
-    operational_transparency: 28.4
+    operational_transparency: 7.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -146,13 +169,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 21.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/cantor-fitzgerald/refs/heads/main/screenshots/cantor-fitzgerald-2026-10-11T183702.png
 security:
 - kind: domain-security
   name: Cantor Fitzgerald Domain Security

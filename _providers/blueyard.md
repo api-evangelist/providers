@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 0
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blueyard.medium.com/feed
 - group: other
   title: ''
   type: ParentCompany
@@ -60,20 +64,20 @@ created: '2026-07-17'
 description: 'BlueYard Capital is a venture capital firm founded in 2016, operating as a small, equal partnership with offices in Europe and the United States. Managing roughly $500M in AUM, it invests $500K-$5M at pre-seed to Series A as lead or co-lead investor, backing two kinds of technologies: those that move us toward utopia and those that hold the line against oblivion. Its focus areas span computation & intelligence, engineering/aerospace & defense, biology & chemistry, and crypto. Notable portfolio companies and exits include Privy (acquired by Stripe), Groq, IonQ, Filecoin, Castelion, and Marvel Fusion. This profile was surfaced as a portfolio relationship of foundry-group and enriched from BlueYard''s public website; it exposes no public developer API.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/blueyard.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: BlueYard
 nav: Providers
 network: true
 overview: 'BlueYard is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Venture Capital, Deep Tech, Computation, and Aerospace.
 
 
-  BlueYard''s developer surface includes engineering blog and 4 more developer resources.'
+  BlueYard''s developer surface includes engineering blog and 5 more developer resources.'
 random_paper: 20
 score:
   band: minimal
   composite: 3.0
   coverage:
-    artifact_dirs: 2
+    artifact_dirs: 3
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -100,13 +104,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 0.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/blueyard/refs/heads/main/screenshots/blueyard-2026-10-11T183607.png
 slug: blueyard
 tags:
 - Company
@@ -116,7 +121,7 @@ tags:
 - Aerospace
 - Defense
 - Biology
-- Crypto
+- Cryptocurrency
 - Pre-Seed
 - Seed
 website: https://blueyard.com

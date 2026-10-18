@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: The GraphQL API the Strangeworks Python SDK is built on. Exposes the workspace a user's API key belongs to, the compute backends available to it, and mutations for uploading workspace files, initiatin
@@ -52,6 +52,10 @@ asyncapis:
   name: Strangeworks Webhooks
   slug: strangeworks-webhooks
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://strangeworks.com/press
 - group: company
   title: ''
   type: Website
@@ -176,34 +180,34 @@ created: '2026-08-05'
 description: Strangeworks is an Austin, Texas based optimization and quantum computing company founded in 2018 by whurley (William Hurley). It operates a "heterogeneous hybrid compute" platform that gives enterprises and governments managed access to quantum processors, quantum-inspired annealers and classical optimization solvers from a single API and Python SDK, alongside its Compute, Workflows, Decisions and HybridSolver products and an expert services practice. The platform is organized around workspaces, products, resources, jobs and backends, and is programmable through three public GraphQL endpoints (sdk, platform, products) at api.strangeworks.com plus a REST proxy that forwards calls to an activated resource. Compute partners reachable through the platform include IBM Quantum, Amazon Braket, Azure Quantum, IonQ, Rigetti, Quantinuum, QuEra, IQM, AQT, Pasqal, D-Wave, Toshiba, Hitachi, Fujitsu, NEC, Gurobi, JIJ, LightSolver and Quantagonia (acquired 2025).
 image: https://strangeworks.com/og-image.png
 layout: provider
-modified: '2026-08-05'
+modified: '2026-10-06'
 name: Strangeworks
 nav: Providers
 network: true
-overview: 'Strangeworks publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Quantum Computing, Optimization, High Performance Computing, and Artificial Intelligence.
+overview: 'Strangeworks is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Quantum Computing, Optimization, High Performance Computing, and Artificial Intelligence.
 
 
   The Strangeworks catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Strangeworks'' developer surface includes documentation, getting-started guide, signup flow, support, changelog, authentication, and 20 more developer resources.'
+  Strangeworks'' developer surface includes engineering blog, documentation, getting-started guide, signup flow, support, changelog, authentication, and 20 more developer resources.'
 random_paper: 2
 score:
   band: developing
-  composite: 42.7
+  composite: 43.3
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 46.9
-    developer_ergonomics: 56.5
+    developer_ergonomics: 58.9
     discoverability: 78.6
     operational_transparency: 26.3
   previous_composite: 42.7
@@ -217,8 +221,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

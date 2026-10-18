@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Chargefox's Open Charge Point Interface implementation in the Charge Point Operator role, used for roaming so that another network's drivers can authorise, charge and be billed on Chargefox infrastruc
@@ -227,7 +227,7 @@ modified: '2026-07-27'
 name: Chargefox
 nav: Providers
 network: true
-overview: 'Chargefox publishes 2 APIs on the [APIs.io](https://apis.io/) network, including Fleets API, and 1 more. Tagged areas include Energy, Australia, EV Charging, Electricity, and Utilities.
+overview: 'Chargefox publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network, including Fleets API, and 1 more. Tagged areas include Energy, Australia, EV Charging, Electricity, and Utilities.
 
 
   Chargefox''s developer surface includes authentication, documentation, API reference, engineering blog, support, getting-started guide, code examples, and 27 more developer resources.'
@@ -240,7 +240,7 @@ score:
   band: developing
   composite: 47.9
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -277,8 +277,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 24.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

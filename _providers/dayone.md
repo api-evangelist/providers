@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://dayonedc.com/feed.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/dayone/refs/heads/main/security/dayone-domain-security.yml
   title: ''
@@ -69,14 +73,14 @@ created: '2026-07-17'
 description: DayOne is a hyperscale data center company delivering next-generation digital infrastructure for cloud, AI, and edge computing workloads. Spun out of the GDS International business and backed by SoftBank Vision Fund 2, DayOne develops and operates strategically located, interconnected data center campuses across Asia-Pacific — Singapore, Johor (Malaysia), Batam (Indonesia), Hong Kong, Tokyo, and Bangkok — and is expanding into Europe with a launch market in Finland. The company positions itself as a build-to-suit and hyperscale partner focused on power availability, connectivity, and sustainable operations rather than as a public API or developer-platform provider; there is no public developer portal, API, or SDK surface at this time.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dayone.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: DayOne
 nav: Providers
 network: true
 overview: 'DayOne is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Frontier Tech, Data Center, Digital Infrastructure, and Hyperscale.
 
 
-  DayOne''s developer surface includes engineering blog, support, and 5 more developer resources.'
+  DayOne''s developer surface includes engineering blog, support, and 6 more developer resources.'
 random_paper: 2
 score:
   band: minimal
@@ -103,8 +107,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 9.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

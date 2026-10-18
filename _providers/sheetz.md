@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: Sheetz Distribution Services EDI and API integration capabilities enable suppliers and trading partners to exchange electronic data interchange documents including purchase orders, invoices, advance s
@@ -44,6 +44,21 @@ apis:
   slug: sheetz-loyalty-api
 artifact_total: 20
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sheetz/refs/heads/main/plans/sheetz-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/sheetz-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/sheetz/refs/heads/main/rate-limits/sheetz-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/sheetz-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sheetz/refs/heads/main/finops/sheetz-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/sheetz-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/sheetz/refs/heads/main/security/sheetz-domain-security.yml
   title: ''
@@ -105,9 +120,13 @@ features:
 - description: Access current fuel prices across Sheetz locations for integration with third-party mapping and fleet services.
   name: Fuel Price API
 finops:
-- name: Sheetz Finops
+- has_sources: false
+  method: generated
+  name: Sheetz Finops
+  primary_unit: ''
   service_category: API
   slug: sheetz-finops
+  template: true
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Sheetz_logo.svg/2560px-Sheetz_logo.svg.png
 integrations:
 - description: Loyalty platform powering MySheetz Rewards with unified data insights across POS, mobile, and digital.
@@ -126,13 +145,13 @@ modified: '2026-05-02'
 name: Sheetz
 nav: Providers
 network: true
-overview: 'Sheetz publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Convenience Stores, Energy, Food Service, Fortune 500, and Fuel.
+overview: 'Sheetz is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Convenience Stores, Energy, Food Service, Fortune 500, and Fuel.
 
 
   The Sheetz catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Sheetz''s developer surface includes engineering blog and 10 more developer resources.'
+  Sheetz''s developer surface includes engineering blog and 13 more developer resources.'
 plans:
 - name: Sheetz Plans Pricing
   plan_count: 3
@@ -144,17 +163,17 @@ rate_limits:
   slug: sheetz-rate-limits
 score:
   band: emerging
-  composite: 20.9
+  composite: 19.3
   coverage:
-    artifact_dirs: 9
-    catalog_earned: 49.0
+    artifact_dirs: 10
+    catalog_earned: 46.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 66.0
+    catalog_gap: 69.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 36.8
+    access_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 10.7
     developer_ergonomics: 11.9
@@ -172,8 +191,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 15.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

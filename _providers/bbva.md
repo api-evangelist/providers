@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 4
 apis:
 - description: PSD2-compliant account information service (AIS) API for Spain. Allows authorized third parties to access customer payment account information including account lists, balances, transaction history, a
@@ -48,8 +48,23 @@ apis:
 - description: Open data API providing access to BBVA branch and ATM location data. Available for Spain and Mexico, this API returns geolocation data, operating hours, services available, and accessibility informati
   name: BBVA Locations API
   slug: locations
-artifact_total: 26
+artifact_total: 27
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/bbva/refs/heads/main/plans/bbva-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/bbva-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/bbva/refs/heads/main/rate-limits/bbva-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/bbva-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/bbva/refs/heads/main/finops/bbva-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/bbva-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/bbva/refs/heads/main/security/bbva-domain-security.yml
   title: ''
@@ -110,6 +125,10 @@ common:
   title: ''
   type: JSONLD
   url: json-ld/bbva-context.jsonld
+- group: design
+  title: ''
+  type: SpectralRules
+  url: https://github.com/BBVA/apicheck/blob/8f455e8d3863c56ed75fc5d68df0a52830c7749b/tools-edge/oas-checker/spectral.yml
 created: '2025-02-08'
 description: BBVA is a multinational Spanish financial services group operating in over 30 countries. The BBVA API Market provides a comprehensive catalog of banking APIs covering accounts, payments, collections, financing, identity, and open data across Spain, Mexico, Latin America, and other global markets. BBVA is a recognized open banking leader offering PSD2-compliant APIs, treasury management solutions, and digital ecosystem integrations.
 examples:
@@ -130,9 +149,13 @@ features:
 - description: Publicly accessible location and branch data APIs available without authentication for branch/ATM locators.
   name: Open Data APIs
 finops:
-- name: Bbva Finops
+- has_sources: false
+  method: generated
+  name: Bbva Finops
+  primary_unit: ''
   service_category: API
   slug: bbva-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bbva.png
 integrations:
 - description: Spanish payment gateway and PSD2 infrastructure through which BBVA PSD2 APIs are registered and deployed.
@@ -153,13 +176,13 @@ modified: '2026-07-25'
 name: BBVA
 nav: Providers
 network: true
-overview: 'BBVA publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Banking, Financial Services, Open Banking, PSD2, and Spain.
+overview: 'BBVA is listed with 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Banking, Financial Services, Open Banking, PSD2, and Spain.
 
 
-  The BBVA catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+  The BBVA catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  BBVA''s developer surface includes developer portal, documentation, getting-started guide, sandbox, engineering blog, and 9 more developer resources.'
+  BBVA''s developer surface includes developer portal, documentation, getting-started guide, sandbox, engineering blog, and 13 more developer resources.'
 plans:
 - name: Bbva Plans Pricing
   plan_count: 3
@@ -170,7 +193,20 @@ rate_limits:
   name: Bbva Rate Limits
   slug: bbva-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: provider
+  effective_rule_count: 64
+  extends:
+  - spectral:oas
+  name: BBVA — apicheck rules
+  rule_count: 23
+  severity_counts:
+    error: 9
+    hint: 5
+    info: 0
+    warn: 9
+  slug: bbva-apicheck-spectral-rules
+- authorship: unmarked
+  effective_rule_count: 6
   extends: []
   name: BBVA API Rules
   rule_count: 6
@@ -182,18 +218,18 @@ rules:
   slug: bbva-spectral-rules
 score:
   band: thin
-  composite: 28.2
+  composite: 29.0
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 68.2
-    catalog_earned_first_party: 0.0
-    catalog_gap: 46.8
+    artifact_dirs: 13
+    catalog_earned: 71.5
+    catalog_earned_first_party: 18.0
+    catalog_gap: 43.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.8
   facets:
-    access_clarity: 26.3
-    contract_governance: 49.1
+    access_clarity: 18.4
+    contract_governance: 68.2
     contract_quality: 10.7
     developer_ergonomics: 40.5
     discoverability: 62.5
@@ -215,8 +251,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://ollin.bio/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/ollin-bio/refs/heads/main/security/ollin-bio-domain-security.yml
   title: ''
@@ -57,7 +61,7 @@ created: '2026-07-17'
 description: Ollin Bio is a privately held biotechnology company developing novel therapeutics, organizing its work around defined therapeutic areas and a product pipeline of drug candidates in development. Backed by a16z, the company was added to the API Evangelist network as a portfolio-company lead. As a research-stage therapeutics company, Ollin Bio publishes a marketing and corporate website but does not expose a public developer program, API, documentation, or SDKs at this time. This profile records the company's public identity and web properties; it will be re-enriched if a public API surface ever appears.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ollin-bio.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Ollin Bio
 nav: Providers
 network: true
@@ -65,15 +69,15 @@ overview: Ollin Bio is profiled on the [APIs.io](https://apis.io/) network. Tagg
 random_paper: 21
 score:
   band: minimal
-  composite: 8.8
+  composite: 8.9
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
@@ -88,8 +92,8 @@ score:
     regime: Health
     regime_id: health
     score: 10.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

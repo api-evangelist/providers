@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 9.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -106,7 +106,7 @@ modified: '2026-08-28'
 name: Group 1 Automotive
 nav: Providers
 network: true
-overview: 'Group 1 Automotive publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500, Automotive, Automotive Retail, Vehicle Inventory, and Dealership.
+overview: 'Group 1 Automotive is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500, Automotive, Automotive Retail, Vehicle Inventory, and Dealership.
 
 
   Group 1 Automotive''s developer surface includes support and 10 more developer resources.'
@@ -163,13 +163,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/group-1-automotive/refs/heads/main/screenshots/group-1-automotive-2026-10-11T185917.png
 security:
 - kind: domain-security
   name: Group 1 Automotive Domain Security

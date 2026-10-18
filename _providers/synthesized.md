@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: REST API (OpenAPI 3.0.1, "Governor External API" v1.0.0) for the self-hosted Synthesized Governor. Trigger TDK masking/generation workflows, list workers, and check health. Authenticated with an X-Acc
@@ -42,6 +42,10 @@ apis:
   slug: governor-external-api
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.synthesized.io/post/rss.xml
 - group: company
   title: ''
   type: Website
@@ -146,26 +150,26 @@ created: '2026-07-17'
 description: Synthesized is an AI-native test data management (TDM) platform that automates the provisioning of production-realistic, privacy-preserving data for software testing, database migrations, CI/CD pipelines, and AI/ML validation. Its Test Data Kit (TDK) masks, subsets, and generates data across databases including PostgreSQL, MySQL, Oracle, SQL Server, SAP HANA and Db2, and enterprise applications like SAP, Oracle Fusion, Workday, Microsoft D365, ServiceNow and Salesforce. The Governor External API and first-party Python SDK (published to PyPI) let teams trigger masking and generation workflows programmatically and embed compliant synthetic data into their pipelines, with policy-driven masking aligned to GDPR, CCPA and CPRA.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/synthesized.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Synthesized
 nav: Providers
 network: true
-overview: 'Synthesized publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Test Data, Synthetic Data, Data Masking, and Privacy.
+overview: 'Synthesized is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Test Data, Synthetic Data, Data Masking, and Privacy.
 
 
-  Synthesized''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, changelog, and 15 more developer resources.'
+  Synthesized''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, changelog, and 16 more developer resources.'
 random_paper: 0
 score:
   band: thin
-  composite: 30.1
+  composite: 30.2
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 21.1
     contract_governance: 18.2
@@ -183,8 +187,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

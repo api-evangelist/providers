@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 12
 apis:
 - description: 'Seller authorization flow: a Lazada seller grants a registered Lazada Open Platform app permission to call Lazada APIs on their shop''s behalf, issuing access and refresh tokens scoped per region.'
@@ -74,6 +74,21 @@ apis:
   slug: push-message
 artifact_total: 17
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/lazada/refs/heads/main/plans/lazada-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/lazada-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/lazada/refs/heads/main/rate-limits/lazada-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/lazada-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/lazada/refs/heads/main/finops/lazada-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/lazada-finops.yml
 - group: company
   title: ''
   type: Website
@@ -127,19 +142,23 @@ common:
 created: '2026-05-23'
 description: Lazada Group is a Southeast Asian e-commerce platform owned by Alibaba Group since 2016, operating localized marketplaces in Singapore, Malaysia, Indonesia, Thailand, the Philippines, and Vietnam. Lazada Open Platform (openapi.lazada.com) provides a partner-facing REST API for sellers, brands, ERP / OMS vendors, and TP (TaoBao Partner) developers — covering Product / Category catalog, Order processing, Logistics and shipping label generation, Finance and payout reconciliation, Shop and Seller profile, Promotion management (vouchers, FlexiCombo, Sponsored Solutions), Image / asset upload, Returns and reverse logistics, and Bidirectional message webhooks. Authentication uses an App Key + App Secret plus a per-seller access token issued via OAuth-style seller authorization, with all requests signed using HMAC-SHA256 in Alibaba's TOP signature scheme.
 finops:
-- name: Lazada Finops
+- has_sources: false
+  method: generated
+  name: Lazada Finops
+  primary_unit: ''
   service_category: API
   slug: lazada-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lazada.png
 layout: provider
 modified: '2026-05-23'
 name: Lazada
 nav: Providers
 network: true
-overview: 'Lazada publishes 12 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include E-Commerce, Marketplace, Southeast Asia, Alibaba, and Order.
+overview: 'Lazada is listed with 12 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include E-Commerce, Marketplace, Southeast Asia, Alibaba, and Order.
 
 
-  Lazada''s developer surface includes documentation and 11 more developer resources.'
+  Lazada''s developer surface includes documentation and 14 more developer resources.'
 plans:
 - name: Lazada Plans Pricing
   plan_count: 1
@@ -151,22 +170,22 @@ rate_limits:
   slug: lazada-rate-limits
 score:
   band: emerging
-  composite: 18.3
+  composite: 12.3
   coverage:
-    artifact_dirs: 6
-    catalog_earned: 57.4
+    artifact_dirs: 7
+    catalog_earned: 44.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.6
+    catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.0
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 19.0
     discoverability: 72.3
-    operational_transparency: 18.9
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
@@ -179,9 +198,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

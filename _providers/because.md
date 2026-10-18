@@ -33,10 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 4
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://becausemarket.com/blogs/news.atom
 - group: company
   title: ''
   type: Website
@@ -117,14 +121,14 @@ mcp_servers:
 - description: Remote MCP server at becausemarket.com over HTTP; 5 tools listed.
   name: Because UCP shopping MCP
   slug: because-ucp-shopping
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Because
 nav: Providers
 network: true
 overview: 'Because is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Retail, E-Commerce, Health, and Incontinence.
 
 
-  Because''s developer surface includes engineering blog, support, signup flow, authentication, and 12 more developer resources.'
+  Because''s developer surface includes engineering blog, support, signup flow, authentication, and 13 more developer resources.'
 random_paper: 2
 scopes:
 - name: Because Scopes
@@ -135,7 +139,7 @@ score:
   band: emerging
   composite: 23.2
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -160,8 +164,8 @@ score:
     regime: Health
     regime_id: health
     score: 32.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

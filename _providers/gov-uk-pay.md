@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 42.7
-  scored_at: '2026-10-04'
+  score: 40.8
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -70,7 +70,7 @@ apis:
   description: The Refunding card payments API from GOV.UK Pay — 3 operation(s) for refunding card payments.
   name: GOV.UK Pay Refunding card payments API
   slug: gov-uk-pay-refunding-card-payments-api
-artifact_total: 66
+artifact_total: 67
 collections:
 - collection_type: open
   name: API Collection
@@ -91,6 +91,21 @@ collections:
   name: GOV.UK Pay Agreements Refunding card payments API
   slug: open-gov-uk-pay-refunding-card-payments-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/gov-uk-pay/refs/heads/main/plans/plans.yml
+  title: ''
+  type: Plans
+  url: plans/plans.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/gov-uk-pay/refs/heads/main/rate-limits/rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/gov-uk-pay/refs/heads/main/finops/finops.yml
+  title: ''
+  type: FinOps
+  url: finops/finops.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -134,9 +149,13 @@ common:
 created: '2026-06-13'
 description: UK government digital payment service providing a REST API for accepting card payments, managing payment links, and processing refunds for government digital services. Built and operated by the Government Digital Service (GDS), GOV.UK Pay enables over 1,500 public sector organisations to take payments securely without managing their own PCI DSS compliance.
 finops:
-- name: Finops
+- has_sources: false
+  method: generated
+  name: Finops
+  primary_unit: ''
   service_category: ''
   slug: finops
+  template: true
 image: https://www.payments.service.gov.uk/assets/images/govuk-pay-logo.png
 json_schemas:
 - name: Address
@@ -291,22 +310,27 @@ modified: '2026-06-13'
 name: GOV.UK Pay
 nav: Providers
 network: true
-overview: 'GOV.UK Pay publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Agreements API, Authorise card payments API, Card payments API, and 2 more. Tagged areas include Payments, Government, United Kingdom, Public Sector, and REST.
+overview: 'GOV.UK Pay publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agreements API, Authorise card payments API, Card payments API, and 2 more. Tagged areas include Payments, Government, United Kingdom, Public Sector, and REST.
 
 
   The GOV.UK Pay catalog on APIs.io includes 2 JSON-LD contexts and 1 Spectral governance ruleset.
 
 
-  GOV.UK Pay''s developer surface includes authentication and 8 more developer resources.'
+  GOV.UK Pay''s developer surface includes authentication and 11 more developer resources.'
 plans:
 - name: Plans
   plan_count: 1
   slug: plans
 random_paper: 8
+rate_limits:
+- limit_count: 3
+  name: Rate Limits
+  slug: rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: GOV.UK Pay API Rules
+  name: GOV.UK Pay — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -316,22 +340,22 @@ rules:
   slug: gov-uk-pay-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 42.9
+  composite: 40.0
   coverage:
-    artifact_dirs: 14
-    catalog_earned: 58.5
+    artifact_dirs: 15
+    catalog_earned: 53.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 56.6
+    catalog_gap: 61.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.9
   facets:
-    access_clarity: 45.3
+    access_clarity: 23.7
     contract_governance: 9.8
     contract_quality: 54.9
     developer_ergonomics: 21.4
     discoverability: 66.1
-    operational_transparency: 44.7
+    operational_transparency: 52.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -357,8 +381,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 23.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

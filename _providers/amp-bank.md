@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://api.cdr-api.amp.com.au/cds-au/v1/banking/products
@@ -98,6 +98,10 @@ collections:
   name: CDR Banking Banking Account Balances Banking Products API
   slug: open-amp-bank-banking-products-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.amp.com.au/about-amp/news
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/amp-bank/refs/heads/main/capabilities/amp-bank-capability-edges.yml
   title: ''
@@ -222,14 +226,14 @@ created: '2026-07-20'
 description: AMP Bank Limited is the retail and business banking arm of AMP Limited (ASX:AMP), a diversified Australian financial services group operating since 1849 and headquartered in Sydney. AMP Bank is a publicly listed (shareholder-owned, not a mutual) authorised deposit-taking institution (ADI) regulated by APRA, offering home loans, deposit and savings accounts, and the digital AMP Bank GO small-business and everyday banking brand. As an active ADI, AMP participates in Australia's Consumer Data Right (CDR / Open Banking) regime and exposes public, unauthenticated Product Reference Data (PRD) APIs conforming to the DSB Consumer Data Standards, alongside the accredited, FAPI-secured consumer data sharing surface used by authorised data recipients.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amp-bank.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: AMP Bank
 nav: Providers
 network: true
-overview: 'AMP Bank publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Banking Account Balances API, Banking Account Direct Debits API, Banking Account Scheduled Payments API, and 4 more. Tagged areas include Finance, Banks, Open Banking, CDR, and Consumer Banking.
+overview: 'AMP Bank publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Banking Account Balances API, Banking Account Direct Debits API, Banking Account Scheduled Payments API, and 4 more. Tagged areas include Finance, Banks, Open Banking, CDR, and Consumer Banking.
 
 
-  AMP Bank''s developer surface includes documentation, getting-started guide, support, authentication, and 22 more developer resources.'
+  AMP Bank''s developer surface includes engineering blog, documentation, getting-started guide, support, authentication, and 22 more developer resources.'
 random_paper: 5
 scopes:
 - name: Amp Bank Scopes
@@ -237,21 +241,21 @@ scopes:
   slug: amp-bank-scopes
   summary_line: 5 scopes
 score:
-  band: thin
-  composite: 38.8
+  band: developing
+  composite: 39.3
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 20
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
     contract_quality: 44.7
-    developer_ergonomics: 56.5
+    developer_ergonomics: 58.9
     discoverability: 73.2
     operational_transparency: 18.4
   jurisdiction:
@@ -277,8 +281,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 37.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 5.0
-  scored_at: '2026-10-04'
+  score: 3.1
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: 'Core REST API for generating price quotes for truckload shipments, tendering loads to Uber Freight''s carrier network, and cancelling tenders. Returns guaranteed spot rates with expiration timestamps. '
@@ -102,16 +102,20 @@ common:
 created: '2026-06-13'
 description: Uber Freight is a digital freight brokerage platform providing 24/7 access to truckload freight with instant quoting and booking, real-time shipment visibility, lane management, and carrier network pricing. Its REST APIs enable shippers and TMS platforms to generate price quotes, tender loads, cancel tenders, and automate facility scheduling — all backed by a network of 50,000+ carriers across the U.S. and Europe. API access uses OAuth 2.0 client credentials and requires approval of the freight.loads scope through the Uber developer portal.
 finops:
-- name: Uber Freight Finops
+- has_sources: false
+  method: generated
+  name: Uber Freight Finops
+  primary_unit: ''
   service_category: ''
   slug: uber-freight-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/uber-freight.png
 layout: provider
 modified: '2026-06-13'
 name: Uber Freight
 nav: Providers
 network: true
-overview: 'Uber Freight publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Freight, Logistics, Trucking, Shipping, and Transportation.
+overview: 'Uber Freight is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Freight, Logistics, Trucking, Shipping, and Transportation.
 
 
   Uber Freight''s developer surface includes documentation, engineering blog, pricing, and 9 more developer resources.'
@@ -126,22 +130,22 @@ rate_limits:
   slug: uber-freight-rate-limits
 score:
   band: emerging
-  composite: 24.3
+  composite: 17.3
   coverage:
     artifact_dirs: 8
-    catalog_earned: 61.0
+    catalog_earned: 45.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 54.0
+    catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.0
   facets:
-    access_clarity: 37.4
+    access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 23.8
     discoverability: 71.4
-    operational_transparency: 49.5
+    operational_transparency: 28.9
   previous_composite: 24.3
   regulatory:
     applies: true
@@ -149,9 +153,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 10.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

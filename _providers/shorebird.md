@@ -33,10 +33,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://shorebird.dev/blog/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://shorebird.dev/rss.xml
 - group: company
   title: ''
   type: Website
@@ -150,14 +158,14 @@ created: '2026-07-17'
 description: Shorebird is a code push (over-the-air update) service for Flutter apps that lets teams ship Dart code and asset fixes straight to users' devices in minutes, without waiting for App Store or Play Store review. It works across Android, iOS, macOS, Linux, and Windows and is driven by the Shorebird CLI and a web console, with staging tracks, percentage-based rollouts, instant rollback, and signed patches. Shorebird also offers Shorebird CI for automated Flutter builds and releases. The service is CLI/console-first (no public REST OpenAPI) and is backed by Accel.
 image: https://cdn.prod.website-files.com/694e589e299270321119525e/6967c87b2985d35fc4de9479_shared%20image.jpg
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Shorebird
 nav: Providers
 network: true
 overview: 'Shorebird is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cloud Saas, Flutter, Code Push, and OTA Updates.
 
 
-  Shorebird''s developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, support, CLI, and 17 more developer resources.'
+  Shorebird''s developer surface includes engineering blog, documentation, getting-started guide, pricing, signup flow, support, CLI, and 19 more developer resources.'
 random_paper: 16
 score:
   band: thin
@@ -184,8 +192,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

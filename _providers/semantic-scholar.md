@@ -27,21 +27,21 @@ agent_readiness:
     mcp_server: verified
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 34.2
-  scored_at: '2026-10-04'
+  score: 32.3
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 3
+- acting_count: 1
   human_in_the_loop: 0
   name: Semantic Scholar Agentic Access
   operation_count: 20
   slug: semantic-scholar-agentic-access
-  summary_line: 20 operations · 3 acting
-api_count: 3
+  summary_line: 20 operations · 1 acting
+api_count: 5
 apis:
 - baseURL: https://api.semanticscholar.org/graph/v1
   baseurl_source: declared
@@ -193,9 +193,13 @@ examples:
   name: Semantic Scholar Recommendations Example
   slug: semantic-scholar-recommendations-example
 finops:
-- name: Semantic Scholar Finops
+- has_sources: false
+  method: generated
+  name: Semantic Scholar Finops
+  primary_unit: ''
   service_category: ''
   slug: semantic-scholar-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/semantic-scholar.png
 json_schemas:
 - name: AuthorWithPapers
@@ -224,7 +228,7 @@ modified: '2026-06-12'
 name: Semantic Scholar
 nav: Providers
 network: true
-overview: 'Semantic Scholar publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Author Data API, Incremental Updates API, Paper Data API, and 3 more. Tagged areas include Academic, Research, Paper, Citations, and Authors.
+overview: 'Semantic Scholar publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Author Data API, Incremental Updates API, Paper Data API, and 3 more. Tagged areas include Academic, Research, Paper, Citations, and Authors.
 
 
   The Semantic Scholar catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -241,9 +245,10 @@ rate_limits:
   name: Semantic Scholar Rate Limits
   slug: semantic-scholar-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: Semantic Scholar API Rules
+  name: Semantic Scholar — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -252,23 +257,23 @@ rules:
     warn: 4
   slug: semantic-scholar-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 39.9
+  band: thin
+  composite: 31.6
   coverage:
     artifact_dirs: 17
-    catalog_earned: 75.9
+    catalog_earned: 57.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 39.1
+    catalog_gap: 57.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 57.4
+    access_clarity: 28.9
     contract_governance: 9.8
     contract_quality: 48.5
     developer_ergonomics: 11.9
     discoverability: 73.3
-    operational_transparency: 46.8
+    operational_transparency: 26.3
   previous_composite: 39.9
   provenance:
     agentic_access: derived
@@ -284,9 +289,9 @@ score:
     regime: Education & Research
     regime_id: education
     score: 19.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.1
-  scored_at: '2026-10-04'
+  score: 20.2
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 72
   human_in_the_loop: 10
@@ -1335,9 +1335,13 @@ features:
 - Three cloud plans (Starter EUR 215/mo, Business, Enterprise) plus Edge Connected and Edge Air-Gapped
 - 30-day full-feature free trial with up to 10 devices
 finops:
-- name: Cumulocity Finops
+- has_sources: true
+  method: generated
+  name: Cumulocity Finops
+  primary_unit: message
   service_category: Internet of Things
   slug: cumulocity-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cumulocity.png
 json_schemas:
 - name: Cumulocity Alarm
@@ -1369,7 +1373,7 @@ modified: '2026-05-25'
 name: Cumulocity
 nav: Providers
 network: true
-overview: 'Cumulocity publishes 39 APIs on the [APIs.io](https://apis.io/) network, including MQTT and SmartREST API, MQTT Service API, Alarms API, and 36 more. Tagged areas include IoT, Industrial IoT, AIoT, Device Management, and Digital Twin.
+overview: 'Cumulocity publishes 39 API contracts indexed on the [APIs.io](https://apis.io/) network, including MQTT and SmartREST API, MQTT Service API, Alarms API, and 36 more. Tagged areas include IoT, Industrial IoT, AIoT, Device Management, and Digital Twin.
 
 
   The Cumulocity catalog on APIs.io includes 3 event-driven AsyncAPI specifications, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -1389,10 +1393,11 @@ rate_limits:
   name: Cumulocity Rate Limits
   slug: cumulocity-rate-limits
 rules:
-- effective_rule_count: 33
+- authorship: generated
+  effective_rule_count: 33
   extends:
   - spectral:asyncapi
-  name: Cumulocity API Rules
+  name: Cumulocity — asyncapi rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -1400,9 +1405,10 @@ rules:
     info: 0
     warn: 6
   slug: cumulocity-asyncapi-spectral-rules
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Cumulocity API Rules
+  name: Cumulocity — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1410,7 +1416,8 @@ rules:
     info: 2
     warn: 3
   slug: cumulocity-jsonschema-spectral-rules
-- effective_rule_count: 53
+- authorship: unmarked
+  effective_rule_count: 53
   extends:
   - spectral:oas
   name: Cumulocity API Rules
@@ -1423,15 +1430,15 @@ rules:
   slug: cumulocity-rules
 score:
   band: exemplar
-  composite: 67.5
+  composite: 67.6
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 79.5
     catalog_earned_first_party: 12.0
     catalog_gap: 35.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.1
   facets:
     access_clarity: 92.1
     contract_governance: 13.6
@@ -1439,7 +1446,7 @@ score:
     developer_ergonomics: 63.1
     discoverability: 73.2
     operational_transparency: 47.4
-  previous_composite: 67.0
+  previous_composite: 67.5
   provenance:
     agentic_access: derived
     contracts:
@@ -1453,8 +1460,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

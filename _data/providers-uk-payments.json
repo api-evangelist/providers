@@ -8,27 +8,27 @@
    "label": "Exemplar",
    "range": "66.5+",
    "blurb": "Reference-quality API operations across every facet.",
-   "count": 1,
-   "shown": 1,
+   "count": 3,
+   "shown": 3,
    "providers": [
     {
      "name": "Token.io",
      "slug": "token-io",
      "description": "Token.io is an Open Banking infrastructure provider offering A2A (Account-to-Account) payments and account information services across Europe. Founded in 2016 and FCA-authorised since 2018, Token.io was the first payment initiation service provider to conduct an end-to-end PSD2-compliant Open Banking transaction. The Token.io platform connects developers and TPPs to over 4,000 banks via a single standardised API supporting Payment Initiation Services (PIS), Account Information Services (AIS), Variable Recurring Payments (VRP), refunds, payouts, settlement accounts, account verification, and Pay-by-Link checkout. Used by merchants, PSPs, fintechs, PFM apps, and platform businesses to replace card-rail payments and aggregate multibank data.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/screenshots/token-io-2026-06-20T195438.png",
-     "score": 70.0,
+     "score": 71.6,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
-      "discoverability": 66.7,
+      "discoverability": 73.3,
       "contract_quality": 62.5,
-      "contract_governance": 28.0,
+      "contract_governance": 35.6,
       "operational_transparency": 68.4,
       "developer_ergonomics": 83.9,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
+     "scored_at": "2026-10-17",
+     "schema_version": "0.24.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -61,41 +61,30 @@
      },
      "tier": "Open Banking & A2A Payments",
      "rank": 1
-    }
-   ],
-   "open": true
-  },
-  {
-   "band": "strong",
-   "label": "Strong",
-   "range": "54.3 – 66.4",
-   "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 3,
-   "shown": 3,
-   "providers": [
+    },
     {
      "name": "Revolut",
      "slug": "revolut",
      "description": "Revolut is a global financial technology company providing banking, payments, cards, foreign exchange, savings, and crypto services to retail and business customers. Its developer platform publishes several distinct REST APIs: the Business API (accounts, transfers, payments, counterparties, cards, webhooks), the Merchant API (online card acquiring, orders, captures, refunds, subscriptions), the Open Banking API (UK Open Banking / PSD2 account information and payment initiation, FAPI-secured with detached JWS), the Crypto Ramp API (fiat-to-crypto on/off ramp for partners), and the Revolut X crypto exchange API (balances, orders, trades, market data). Revolut publishes official OpenAPI specifications and Agent Skills on GitHub.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/revolut/refs/heads/main/screenshots/revolut-2026-08-17T081548.png",
-     "score": 59.3,
-     "band": "strong",
-     "band_label": "Strong",
+     "score": 70.0,
+     "band": "exemplar",
+     "band_label": "Exemplar",
      "facets": {
-      "discoverability": 78.6,
-      "contract_quality": 64.6,
-      "contract_governance": 4.5,
+      "discoverability": 71.4,
+      "contract_quality": 77.9,
+      "contract_governance": 22.0,
       "operational_transparency": 44.7,
-      "developer_ergonomics": 67.9,
-      "access_clarity": 50.0
+      "developer_ergonomics": 75.0,
+      "access_clarity": 60.5
      },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
+     "scored_at": "2026-10-17",
+     "schema_version": "0.24.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
-      "score": 42.5,
+      "score": 59.1,
       "matched_via": "tags",
       "jurisdictions_satisfied": 1,
       "jurisdictions": [
@@ -105,14 +94,14 @@
        }
       ]
      },
-     "agent_score": 49.2,
+     "agent_score": 53.9,
      "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": "documented",
       "mcp_server": false,
-      "auth_clarity": "bearer",
+      "auth_clarity": "bound",
       "idempotency": "verified",
       "error_semantics": "verified",
       "openapi_examples": "verified",
@@ -136,19 +125,19 @@
      "slug": "moneyhub",
      "description": "Moneyhub is a UK open banking and open finance platform, headquartered in London with offices in Bristol and Ljubljana, that lets banks, pension providers, wealth managers, insurers and fintechs embed account aggregation, transaction data enrichment, financial insight and account-to-account payment initiation into their own products. Regulated by the FCA as an Account Information Service Provider (AISP), Payment Initiation Service Provider (PISP) and Credit Information Services Provider (CISP), Moneyhub ships a genuinely API-first surface: a RESTful, Swagger/OpenAPI-documented Data & Intelligence API for AIS aggregation, enrichment and affordability, and an Open Banking Payments API that initiates instant Faster Payments over the UK's Open Banking rails as a cheaper alternative to cards and direct debits. Authentication and payment consent run entirely through an OpenID Connect / OAuth2 identity layer at identity.moneyhub.co.uk, with client-credentials, authorization-code and jwt-bearer grants and fine-grained scopes for data and payment initiation.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/moneyhub/refs/heads/main/screenshots/moneyhub-2026-08-07T184155.png",
-     "score": 57.1,
-     "band": "strong",
-     "band_label": "Strong",
+     "score": 67.8,
+     "band": "exemplar",
+     "band_label": "Exemplar",
      "facets": {
       "discoverability": 73.2,
-      "contract_quality": 60.5,
-      "contract_governance": 18.2,
-      "operational_transparency": 48.7,
-      "developer_ergonomics": 60.2,
-      "access_clarity": 50.0
+      "contract_quality": 74.0,
+      "contract_governance": 35.6,
+      "operational_transparency": 69.7,
+      "developer_ergonomics": 62.0,
+      "access_clarity": 60.5
      },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
+     "scored_at": "2026-10-17",
+     "schema_version": "0.24.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -167,7 +156,7 @@
        }
       ]
      },
-     "agent_score": 42.4,
+     "agent_score": 45.9,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -178,9 +167,9 @@
       "idempotency": false,
       "error_semantics": "verified",
       "openapi_examples": "partial",
-      "rate_limit_signal": false,
+      "rate_limit_signal": "documented",
       "event_surface_described": true,
-      "agent_skills": false,
+      "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -192,7 +181,18 @@
      },
      "tier": "Open Banking & A2A Payments",
      "rank": 3
-    },
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "strong",
+   "label": "Strong",
+   "range": "54.3 – 66.4",
+   "blurb": "Solid contracts, transparent operations, and an easy start.",
+   "count": 1,
+   "shown": 1,
+   "providers": [
     {
      "name": "Paymentsense",
      "slug": "paymentsense",
@@ -209,8 +209,8 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 46.1
      },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
+     "scored_at": "2026-10-17",
+     "schema_version": "0.24.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -271,8 +271,8 @@
       "developer_ergonomics": 48.2,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
+     "scored_at": "2026-10-17",
+     "schema_version": "0.24.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -322,8 +322,8 @@
       "developer_ergonomics": 61.3,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
+     "scored_at": "2026-10-17",
+     "schema_version": "0.24.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -358,62 +358,11 @@
      "rank": 6
     },
     {
-     "name": "Yapily",
-     "slug": "yapily",
-     "description": "Yapily is a UK-headquartered Open Banking platform that exposes a single REST API across 2,000+ banks in the UK and 18+ European countries. The platform provides AISP (Account Information) and PISP (Payment Initiation) capabilities, Variable Recurring Payments (VRP), transaction enrichment (Data Plus), Account Validation, and Hosted Payment/Consent Pages. Yapily Connect Ltd is FCA-authorised in the UK and Yapily Connect UAB is authorised by the Bank of Lithuania for EU coverage, allowing customers to launch without holding their own PSD2 permissions.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/yapily/refs/heads/main/screenshots/yapily-2026-06-20T201736.png",
-     "score": 50.4,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 71.4,
-      "contract_quality": 68.4,
-      "contract_governance": 27.3,
-      "operational_transparency": 33.7,
-      "developer_ergonomics": 52.4,
-      "access_clarity": 46.8
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 16.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 37.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "verified",
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Open Banking & A2A Payments",
-     "rank": 7
-    },
-    {
      "name": "GoCardless",
      "slug": "gocardless",
      "description": "GoCardless is a global account-to-account payments platform specializing in pull-based bank debit (UK Bacs, SEPA Direct Debit, ACH, BECS, PAD, Autogiro) and open-banking instant bank payments, used by businesses to collect recurring subscriptions, invoices, and one-off payments directly from customer bank accounts. The GoCardless REST API exposes customers, bank accounts, mandates, payments, payouts, subscriptions, refunds, events, webhooks, and verification flows. Authentication uses Bearer access tokens issued from the dashboard, with separate sandbox and live environments; every request must include a GoCardless-Version header.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/gocardless/refs/heads/main/screenshots/gocardless-2026-06-20T181944.png",
-     "score": 49.1,
+     "score": 49.2,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
@@ -424,8 +373,8 @@
       "developer_ergonomics": 45.2,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
+     "scored_at": "2026-10-17",
+     "schema_version": "0.24.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -457,7 +406,7 @@
       "agentic_commerce": false
      },
      "tier": "Open Banking & A2A Payments",
-     "rank": 8
+     "rank": 7
     },
     {
      "name": "Trust Payments",
@@ -475,8 +424,8 @@
       "developer_ergonomics": 71.4,
       "access_clarity": 46.1
      },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
+     "scored_at": "2026-10-17",
+     "schema_version": "0.24.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -515,14 +464,14 @@
       "agentic_commerce": false
      },
      "tier": "Gateways & PSPs",
-     "rank": 9
+     "rank": 8
     },
     {
      "name": "Cardstream",
      "slug": "cardstream",
      "description": "Cardstream is an independent United Kingdom payment gateway providing a white-label payment platform that banks, PSPs, ISOs, acquirers and software companies resell under their own brand. It connects merchants to card schemes (Visa, Mastercard), digital wallets and 150+ Alternative Payment Methods from a single integration, with PCI DSS Level 1 processing, tokenisation, recurring billing, 3-D Secure 2 authentication, risk and fraud checking, and dynamic currency conversion. Its developer surface is a mature form-post gateway API exposed through three integration methods — Hosted (Hosted Payment Pages and Hosted Payment Fields), Direct (server-to-server), and Batch — documented in a public GitBook integration guide and supported by SDKs for PHP, Java, Node.js, Go, Ruby, C#, iOS and Android plus e-commerce modules. Requests are HTTP POST with application/x-www-form-urlencoded fields authenticated by merchantID plus optional password, HMAC message signing and IP allow-listing; the gateway does not publish a downloadable OpenAPI/Swagger definition or a JSON/REST surface.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/cardstream/refs/heads/main/screenshots/cardstream-2026-07-25T204520.png",
-     "score": 46.9,
+     "score": 47.0,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
@@ -533,8 +482,8 @@
       "developer_ergonomics": 71.4,
       "access_clarity": 25.0
      },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
+     "scored_at": "2026-10-17",
+     "schema_version": "0.24.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -573,58 +522,7 @@
       "agentic_commerce": false
      },
      "tier": "Gateways & PSPs",
-     "rank": 10
-    },
-    {
-     "name": "Primer",
-     "slug": "primer",
-     "description": "Primer is a payment orchestration platform that enables merchants to build flexible payment flows across multiple processors through a single REST API integration. The platform provides intelligent routing, automatic fallback logic, fraud detection integrations, and a no-code Workflows builder for managing payment rules without engineering effort. Primer supports 60+ payment methods including cards, digital wallets, and regional alternatives such as iDEAL, Klarna, and Alipay. The platform delivers unified observability, reconciliation, and analytics across all connected payment providers, and processes billions of dollars monthly with 99.99% uptime.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/primer/refs/heads/main/screenshots/primer-2026-06-20T192104.png",
-     "score": 46.7,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 66.1,
-      "contract_quality": 55.2,
-      "contract_governance": 23.5,
-      "operational_transparency": 62.6,
-      "developer_ergonomics": 31.0,
-      "access_clarity": 45.3
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 25.0,
-      "matched_via": "tags"
-     },
-     "agent_score": 36.3,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "verified",
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Gateways & PSPs",
-     "rank": 11
+     "rank": 9
     },
     {
      "name": "Cashflows",
@@ -642,8 +540,8 @@
       "developer_ergonomics": 71.4,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
+     "scored_at": "2026-10-17",
+     "schema_version": "0.24.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -682,77 +580,77 @@
       "agentic_commerce": false
      },
      "tier": "Gateways & PSPs",
-     "rank": 12
+     "rank": 10
     },
     {
-     "name": "SumUp",
-     "slug": "sumup",
-     "description": "European mobile payment and POS platform with REST APIs for creating checkout links, managing card readers, processing payments, tracking transactions, and accessing payout data. SumUp serves over 4 million merchants in 37 markets with built-in fraud protection, sandbox environments for testing, and SDKs for multiple programming languages.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sumup/refs/heads/main/screenshots/sumup-2026-06-20T194647.png",
-     "score": 46.0,
+     "name": "Yapily",
+     "slug": "yapily",
+     "description": "Yapily is a UK-headquartered Open Banking platform that exposes a single REST API across 2,000+ banks in the UK and 18+ European countries. The platform provides AISP (Account Information) and PISP (Payment Initiation) capabilities, Variable Recurring Payments (VRP), transaction enrichment (Data Plus), Account Validation, and Hosted Payment/Consent Pages. Yapily Connect Ltd is FCA-authorised in the UK and Yapily Connect UAB is authorised by the Bank of Lithuania for EU coverage, allowing customers to launch without holding their own PSD2 permissions.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/yapily/refs/heads/main/screenshots/yapily-2026-06-20T201736.png",
+     "score": 42.1,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 68.3,
-      "contract_quality": 55.1,
-      "contract_governance": 9.8,
-      "operational_transparency": 66.3,
-      "developer_ergonomics": 28.6,
-      "access_clarity": 46.8
+      "discoverability": 71.4,
+      "contract_quality": 68.4,
+      "contract_governance": 27.3,
+      "operational_transparency": 13.2,
+      "developer_ergonomics": 52.4,
+      "access_clarity": 18.4
      },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
+     "scored_at": "2026-10-17",
+     "schema_version": "0.24.0",
      "regulatory": {
       "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 25.0,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 16.5,
       "matched_via": "tags"
      },
-     "agent_score": 57.1,
+     "agent_score": 35.2,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": "verified",
-      "auth_clarity": "served",
-      "idempotency": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": "verified",
       "error_semantics": "verified",
       "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
+      "rate_limit_signal": "derived",
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "tier": "Gateways & PSPs",
-     "rank": 13
+     "tier": "Open Banking & A2A Payments",
+     "rank": 11
     },
     {
      "name": "TrueLayer",
      "slug": "truelayer",
      "description": "TrueLayer is Europe's leading open banking platform providing unified access to bank data, payments, payouts, refunds, and variable recurring payments across the UK and EU. TrueLayer connects to 69+ financial institutions and enables instant bank payments, data enrichment, and account verification through a single API.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/truelayer/refs/heads/main/screenshots/truelayer-2026-06-20T195753.png",
-     "score": 42.9,
+     "score": 41.7,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 71.7,
+      "discoverability": 75.0,
       "contract_quality": 58.5,
       "contract_governance": 27.3,
       "operational_transparency": 22.4,
       "developer_ergonomics": 51.2,
-      "access_clarity": 23.7
+      "access_clarity": 15.8
      },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
+     "scored_at": "2026-10-17",
+     "schema_version": "0.24.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -760,18 +658,18 @@
       "score": 25.2,
       "matched_via": "tags"
      },
-     "agent_score": 35.0,
+     "agent_score": 38.6,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": "documented",
-      "mcp_server": "documented",
+      "mcp_server": "verified",
       "auth_clarity": "bearer",
       "idempotency": "verified",
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": "documented",
+      "rate_limit_signal": "derived",
       "event_surface_described": "unknown",
       "agent_skills": false,
       "well_known_catalog": false,
@@ -784,84 +682,26 @@
       "agentic_commerce": false
      },
      "tier": "Open Banking & A2A Payments",
-     "rank": 14
-    },
-    {
-     "name": "Form3",
-     "slug": "form3",
-     "description": "Form3 is a United Kingdom-headquartered, cloud-native payments technology company offering account-to-account payment processing as a single, unified REST API to banks and fintechs. Founded in 2016 and headquartered in London, Form3 runs a fully managed, Payments-as-a-Service platform that connects customers to domestic and cross-border schemes - UK Faster Payments, Bacs and CHAPS, SEPA Credit Transfer, SEPA Instant and SEPA Direct Debit, and US instant rails - alongside Confirmation of Payee / Verification of Payee name-checking, direct debit mandate management, scheme-addressable account identification, event notifications (webhooks), and full audit trails. Its public API is REST built on the json:api specification, documented at api-docs.form3.tech with a downloadable Swagger 2.0 definition, and authenticated with OAuth2 client-credentials plus HTTP Message Signatures request signing and, in some environments, mutual TLS. Form3 is API-native and developer-facing but is a regulated B2B rail rather than an open self-serve signup product; production access is contracted.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/form3/refs/heads/main/screenshots/form3-2026-07-25T214957.png",
-     "score": 40.8,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 73.2,
-      "contract_quality": 50.9,
-      "contract_governance": 4.5,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 28.0,
-      "access_clarity": 36.8
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 41.1,
-      "matched_via": "tags",
-      "jurisdictions_satisfied": 1,
-      "jurisdictions": [
-       {
-        "standard": "psd2",
-        "jurisdiction": "EU"
-       }
-      ]
-     },
-     "agent_score": 33.7,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "negotiable",
-      "idempotency": "derived",
-      "error_semantics": "verified",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Embedded Finance & BaaS",
-     "rank": 15
+     "rank": 12
     },
     {
      "name": "Tribe Payments",
      "slug": "tribe-payments",
      "description": "Tribe Payments is a London, United Kingdom-based payments technology company and issuer/acquirer processor that gives banks, acquirers, and fintechs a modular, API-driven platform to launch card and payment products without building core processing in-house. Built around its ISAAC processing engine, Tribe spans card issuing (issuer processing), merchant acquiring and a payment gateway, POS/SoftPOS terminal management, tokenization, fraud and risk monitoring, 3D Secure, digital wallets, Open Banking (PSD2 account-to-account payment initiation and account information), and Bank Connect / Banking-as-a-Service. Tribe positions itself as developer-led, publishing an extensive public API reference at doc.tribepayments.com; sandbox access is granted on request rather than through fully open self-service signup. Its home market is the United Kingdom, where PSD2/Open Banking and the Faster Payments and Bacs rails operated by Pay.UK anchor a dense cluster of API-native payment providers.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/tribe-payments/refs/heads/main/screenshots/tribe-payments-2026-08-17T082436.png",
-     "score": 40.8,
+     "score": 41.3,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 64.3,
+      "discoverability": 69.6,
       "contract_quality": 51.5,
       "contract_governance": 18.2,
       "operational_transparency": 39.5,
       "developer_ergonomics": 28.0,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
+     "scored_at": "2026-10-17",
+     "schema_version": "0.24.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -908,7 +748,65 @@
       "agentic_commerce": false
      },
      "tier": "Issuer-Processors",
-     "rank": 16
+     "rank": 13
+    },
+    {
+     "name": "Form3",
+     "slug": "form3",
+     "description": "Form3 is a United Kingdom-headquartered, cloud-native payments technology company offering account-to-account payment processing as a single, unified REST API to banks and fintechs. Founded in 2016 and headquartered in London, Form3 runs a fully managed, Payments-as-a-Service platform that connects customers to domestic and cross-border schemes - UK Faster Payments, Bacs and CHAPS, SEPA Credit Transfer, SEPA Instant and SEPA Direct Debit, and US instant rails - alongside Confirmation of Payee / Verification of Payee name-checking, direct debit mandate management, scheme-addressable account identification, event notifications (webhooks), and full audit trails. Its public API is REST built on the json:api specification, documented at api-docs.form3.tech with a downloadable Swagger 2.0 definition, and authenticated with OAuth2 client-credentials plus HTTP Message Signatures request signing and, in some environments, mutual TLS. Form3 is API-native and developer-facing but is a regulated B2B rail rather than an open self-serve signup product; production access is contracted.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/form3/refs/heads/main/screenshots/form3-2026-07-25T214957.png",
+     "score": 40.9,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 73.2,
+      "contract_quality": 50.9,
+      "contract_governance": 4.5,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 28.0,
+      "access_clarity": 36.8
+     },
+     "scored_at": "2026-10-17",
+     "schema_version": "0.24.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 41.1,
+      "matched_via": "tags",
+      "jurisdictions_satisfied": 1,
+      "jurisdictions": [
+       {
+        "standard": "psd2",
+        "jurisdiction": "EU"
+       }
+      ]
+     },
+     "agent_score": 33.7,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "negotiable",
+      "idempotency": "derived",
+      "error_semantics": "verified",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Embedded Finance & BaaS",
+     "rank": 14
     },
     {
      "name": "Volt",
@@ -926,8 +824,8 @@
       "developer_ergonomics": 56.5,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
+     "scored_at": "2026-10-17",
+     "schema_version": "0.24.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -959,44 +857,34 @@
       "agentic_commerce": false
      },
      "tier": "Open Banking & A2A Payments",
-     "rank": 17
-    }
-   ]
-  },
-  {
-   "band": "thin",
-   "label": "Thin",
-   "range": "26.2 – 39.2",
-   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 8,
-   "shown": 8,
-   "providers": [
+     "rank": 15
+    },
     {
-     "name": "Wise",
-     "slug": "wise",
-     "description": "Wise (formerly TransferWise) provides cross-border payments and multi-currency accounts for personal and business customers. The Wise Platform API exposes profiles, balances, transfers, recipients, quotes, multi-currency accounts, cards, statements, and webhooks.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/wise/refs/heads/main/screenshots/wise-2026-06-20T201536.png",
-     "score": 39.1,
-     "band": "thin",
-     "band_label": "Thin",
+     "name": "Primer",
+     "slug": "primer",
+     "description": "Primer is a payment orchestration platform that enables merchants to build flexible payment flows across multiple processors through a single REST API integration. The platform provides intelligent routing, automatic fallback logic, fraud detection integrations, and a no-code Workflows builder for managing payment rules without engineering effort. Primer supports 60+ payment methods including cards, digital wallets, and regional alternatives such as iDEAL, Klarna, and Alipay. The platform delivers unified observability, reconciliation, and analytics across all connected payment providers, and processes billions of dollars monthly with 99.99% uptime.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/primer/refs/heads/main/screenshots/primer-2026-06-20T192104.png",
+     "score": 39.8,
+     "band": "developing",
+     "band_label": "Developing",
      "facets": {
-      "discoverability": 73.2,
-      "contract_quality": 58.2,
-      "contract_governance": 11.4,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 21.4,
+      "discoverability": 66.1,
+      "contract_quality": 55.2,
+      "contract_governance": 23.5,
+      "operational_transparency": 42.1,
+      "developer_ergonomics": 31.0,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
+     "scored_at": "2026-10-17",
+     "schema_version": "0.24.0",
      "regulatory": {
       "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 18.1,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 25.0,
       "matched_via": "tags"
      },
-     "agent_score": 39.9,
+     "agent_score": 34.4,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -1005,10 +893,10 @@
       "mcp_server": false,
       "auth_clarity": "bearer",
       "idempotency": "verified",
-      "error_semantics": false,
-      "openapi_examples": "verified",
-      "rate_limit_signal": "verified",
-      "event_surface_described": true,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "derived",
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -1019,9 +907,70 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "tier": "Cross-Border & Money Movement",
-     "rank": 18
+     "tier": "Gateways & PSPs",
+     "rank": 16
     },
+    {
+     "name": "SumUp",
+     "slug": "sumup",
+     "description": "European mobile payment and POS platform with REST APIs for creating checkout links, managing card readers, processing payments, tracking transactions, and accessing payout data. SumUp serves over 4 million merchants in 37 markets with built-in fraud protection, sandbox environments for testing, and SDKs for multiple programming languages.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sumup/refs/heads/main/screenshots/sumup-2026-06-20T194647.png",
+     "score": 39.3,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 68.3,
+      "contract_quality": 55.1,
+      "contract_governance": 9.8,
+      "operational_transparency": 52.6,
+      "developer_ergonomics": 28.6,
+      "access_clarity": 18.4
+     },
+     "scored_at": "2026-10-17",
+     "schema_version": "0.24.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 25.0,
+      "matched_via": "tags"
+     },
+     "agent_score": 55.2,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": "verified",
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "derived",
+      "event_surface_described": true,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Gateways & PSPs",
+     "rank": 17
+    }
+   ]
+  },
+  {
+   "band": "thin",
+   "label": "Thin",
+   "range": "26.2 – 39.2",
+   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
+   "count": 7,
+   "shown": 7,
+   "providers": [
     {
      "name": "WorldFirst",
      "slug": "worldfirst",
@@ -1038,8 +987,8 @@
       "developer_ergonomics": 59.5,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
+     "scored_at": "2026-10-17",
+     "schema_version": "0.24.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1071,6 +1020,57 @@
       "agentic_commerce": false
      },
      "tier": "Cross-Border & Money Movement",
+     "rank": 18
+    },
+    {
+     "name": "Wise",
+     "slug": "wise",
+     "description": "Wise (formerly TransferWise) provides cross-border payments and multi-currency accounts for personal and business customers. The Wise Platform API exposes profiles, balances, transfers, recipients, quotes, multi-currency accounts, cards, statements, and webhooks.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/wise/refs/heads/main/screenshots/wise-2026-06-20T201536.png",
+     "score": 38.5,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 73.2,
+      "contract_quality": 58.2,
+      "contract_governance": 11.4,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 23.8,
+      "access_clarity": 15.8
+     },
+     "scored_at": "2026-10-17",
+     "schema_version": "0.24.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 18.1,
+      "matched_via": "tags"
+     },
+     "agent_score": 39.9,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": "verified",
+      "error_semantics": false,
+      "openapi_examples": "verified",
+      "rate_limit_signal": "verified",
+      "event_surface_described": true,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Cross-Border & Money Movement",
      "rank": 19
     },
     {
@@ -1089,8 +1089,8 @@
       "developer_ergonomics": 64.3,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
+     "scored_at": "2026-10-17",
+     "schema_version": "0.24.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1136,62 +1136,11 @@
      "rank": 20
     },
     {
-     "name": "Banked",
-     "slug": "banked",
-     "description": "Banked is a global account-to-account (A2A) payments network built on open banking that enables real-time pay-by-bank payments for consumers, businesses, and banks. Its API-first platform provides hosted Checkout, Payment Links and QR codes, Payouts, Refunds, Reporting, loyalty (Incentivize), and fraud protection, using bank-native biometric authentication and Strong Customer Authentication (SCA) to move money securely with minimal chargebacks. A single Payments API and Partner API integration gives merchants and platforms access across multiple markets, and Banked ships an official hosted MCP server so agents can create, search, and refund payments over OAuth 2.0.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/banked/refs/heads/main/screenshots/banked-2026-07-25T202342.png",
-     "score": 37.8,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 75.0,
-      "contract_quality": 39.0,
-      "contract_governance": 18.2,
-      "operational_transparency": 44.7,
-      "developer_ergonomics": 45.2,
-      "access_clarity": 17.1
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 21.3,
-      "matched_via": "tags"
-     },
-     "agent_score": 28.4,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": "verified",
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": true,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Open Banking & A2A Payments",
-     "rank": 21
-    },
-    {
      "name": "Thredd",
      "slug": "thredd",
      "description": "Thredd (formerly Global Processing Services / GPS) is a London-headquartered issuer-processor and next-generation payments technology company, founded in 2007, rebranded to Thredd in 2023, and backed by Advent International. It provides card issuing and issuer processing for fintechs, neobanks, banking-as-a-service platforms, and program managers across Mastercard, Visa, and Discover, spanning 40+ countries, with real-time transaction authorization (External Host Interface / EHI), digital-wallet tokenization (Apple Pay, Google Pay), 3-D Secure / strong customer authentication, card controls, and fraud / scam detection. Its home market is the United Kingdom. Thredd ships a genuine public developer surface: a self-serve Developer Portal (devportal.thredd.com) that grants a sandbox client id and secret, an API Hub REST API at api.thredd.com, and a ReadMe-hosted API reference (cardsapidocs.thredd.com) documenting roughly 129 endpoints across more than a dozen product OpenAPI definitions (core cards, transactions, credit, custom PAN, card limits, card controls, digital wallets, 3DS, ACH, open banking, alias directory, and web services). Authentication is FAPI-grade OAuth2 client-credentials using private_key_jwt client assertions over mutual TLS, brokered by Cloudentity with Raidiam Connect acting as the certificate authority; webhooks and event subscriptions are supported. The underlying OpenAPI files render only through the hub and are not anonymously downloadable.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/thredd/refs/heads/main/screenshots/thredd-2026-08-17T082352.png",
-     "score": 37.8,
+     "score": 37.9,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
@@ -1202,8 +1151,8 @@
       "developer_ergonomics": 32.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
+     "scored_at": "2026-10-17",
+     "schema_version": "0.24.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1242,6 +1191,57 @@
       "agentic_commerce": false
      },
      "tier": "Issuer-Processors",
+     "rank": 21
+    },
+    {
+     "name": "Banked",
+     "slug": "banked",
+     "description": "Banked is a global account-to-account (A2A) payments network built on open banking that enables real-time pay-by-bank payments for consumers, businesses, and banks. Its API-first platform provides hosted Checkout, Payment Links and QR codes, Payouts, Refunds, Reporting, loyalty (Incentivize), and fraud protection, using bank-native biometric authentication and Strong Customer Authentication (SCA) to move money securely with minimal chargebacks. A single Payments API and Partner API integration gives merchants and platforms access across multiple markets, and Banked ships an official hosted MCP server so agents can create, search, and refund payments over OAuth 2.0.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/banked/refs/heads/main/screenshots/banked-2026-07-25T202342.png",
+     "score": 37.8,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 75.0,
+      "contract_quality": 39.0,
+      "contract_governance": 18.2,
+      "operational_transparency": 44.7,
+      "developer_ergonomics": 45.2,
+      "access_clarity": 17.1
+     },
+     "scored_at": "2026-10-17",
+     "schema_version": "0.24.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 21.3,
+      "matched_via": "tags"
+     },
+     "agent_score": 28.4,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "verified",
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": true,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Open Banking & A2A Payments",
      "rank": 22
     },
     {
@@ -1260,8 +1260,8 @@
       "developer_ergonomics": 52.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
+     "scored_at": "2026-10-17",
+     "schema_version": "0.24.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1303,57 +1303,6 @@
      "rank": 23
     },
     {
-     "name": "Paddle",
-     "slug": "paddle",
-     "description": "Paddle is a merchant-of-record billing platform for SaaS and digital products. The Paddle Billing API manages the full revenue lifecycle - products, prices, customers, subscriptions, transactions, invoices, adjustments, and discounts - while Paddle handles global sales tax, payment processing, fraud, and compliance on the seller's behalf.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/paddle/refs/heads/main/screenshots/paddle-2026-08-07T191251.png",
-     "score": 32.7,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 68.3,
-      "contract_quality": 45.9,
-      "contract_governance": 0.0,
-      "operational_transparency": 31.1,
-      "developer_ergonomics": 31.0,
-      "access_clarity": 26.8
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 16.1,
-      "matched_via": "tags"
-     },
-     "agent_score": 46.3,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": "verified",
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": true,
-      "agentic_commerce": false
-     },
-     "tier": "Billing & Subscriptions",
-     "rank": 24
-    },
-    {
      "name": "takepayments",
      "slug": "takepayments",
      "description": "takepayments (a trading name of Payzone UK Limited) is a United Kingdom payment gateway and merchant-services provider that lets businesses accept card payments online, in person, and over the phone. Its online payment gateway offers Hosted (redirect) and Direct (server-to-server) integrations for e-commerce checkouts, delivered as SOAP v1.1 XML and HTTPS form-POST requests authenticated with a merchant ID and a pre-shared-key signature hash, alongside ready-made shopping-cart plugins and backend SDK code packs. Its newer Terminal API is a modern REST/JSON surface hosted on Azure API Management, secured with OAuth 2.0 client-credentials via Microsoft Azure AD, that pairs and drives card machines (Move5000, PAX A920 Pro) for Start-Transaction, Pairing, Split Bill & Gratuity, and Pay at Table flows. takepayments runs a real public developer portal at developer.takepayments.com but does not publish a downloadable OpenAPI/Swagger definition; its API reference is documentation-only, and merchant onboarding is sales-led rather than open self-serve.",
@@ -1369,8 +1318,8 @@
       "developer_ergonomics": 59.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
+     "scored_at": "2026-10-17",
+     "schema_version": "0.24.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1402,7 +1351,7 @@
       "agentic_commerce": false
      },
      "tier": "Gateways & PSPs",
-     "rank": 25
+     "rank": 24
     }
    ]
   },
@@ -1411,44 +1360,44 @@
    "label": "Emerging",
    "range": "11 – 26.1",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 4,
-   "shown": 4,
+   "count": 5,
+   "shown": 5,
    "providers": [
     {
-     "name": "Checkout.com",
-     "slug": "checkout-com",
-     "description": "Checkout.com is a global payment processor offering card acquiring, alternative payments, fraud, and connected accounts via a single API. Direct integrations with Visa, Mastercard, and APMs.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/checkout-com/refs/heads/main/screenshots/checkout-com-2026-06-20T174248.png",
-     "score": 18.7,
+     "name": "Paddle",
+     "slug": "paddle",
+     "description": "Paddle is a merchant-of-record billing platform for SaaS and digital products. The Paddle Billing API manages the full revenue lifecycle - products, prices, customers, subscriptions, transactions, invoices, adjustments, and discounts - while Paddle handles global sales tax, payment processing, fraud, and compliance on the seller's behalf.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/paddle/refs/heads/main/screenshots/paddle-2026-08-07T191251.png",
+     "score": 25.7,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 60.0,
-      "contract_quality": 2.1,
+      "discoverability": 68.3,
+      "contract_quality": 45.9,
       "contract_governance": 0.0,
-      "operational_transparency": 7.9,
+      "operational_transparency": 10.5,
       "developer_ergonomics": 31.0,
-      "access_clarity": 21.1
+      "access_clarity": 5.3
      },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
+     "scored_at": "2026-10-17",
+     "schema_version": "0.24.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
       "regime_id": "payments",
-      "score": 29.5,
+      "score": 16.1,
       "matched_via": "tags"
      },
-     "agent_score": 31.1,
+     "agent_score": 44.4,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": "documented",
       "mcp_server": "verified",
-      "auth_clarity": "bearer",
+      "auth_clarity": "served",
       "idempotency": false,
-      "error_semantics": "documented",
+      "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": "derived",
       "event_surface_described": false,
@@ -1457,20 +1406,20 @@
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "tier": "Gateways & PSPs",
-     "rank": 26
+     "tier": "Billing & Subscriptions",
+     "rank": 25
     },
     {
      "name": "Pay.UK",
      "slug": "pay-uk",
      "description": "Pay.UK Limited is the recognised operator and standards body for the United Kingdom's interbank retail payment systems. It runs the domestic rails that move most of the money in the UK economy: Bacs (batch Direct Debit and Direct Credit), the Faster Payment System (24/7 real-time account-to-account payments), and the Image Clearing System for cheques, alongside the Current Account Switch Service. On top of the rails it owns industry overlay services including Confirmation of Payee (the API-based account name-checking service that fights Authorised Push Payment fraud) and Request to Pay, and through its Standards Authority it defines UK payments standards and the ISO 20022 migration underpinning the New Payments Architecture. Pay.UK is a scheme and standards operator, not a self-serve API platform: it publishes rulebooks, participation requirements, and ISO 20022 message specifications rather than an open public API, and its technical standards are distributed through the gated Standards Source and Faster Payment System Standards Library portals (single-login, registration required). Confirmation of Payee is a documented, API-based peer-to-peer scheme that participants and approved vendors implement against Pay.UK's technical standards. Home market is the United Kingdom.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/pay-uk/refs/heads/main/screenshots/pay-uk-2026-08-07T191623.png",
-     "score": 18.3,
+     "score": 18.4,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
@@ -1481,8 +1430,8 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
+     "scored_at": "2026-10-17",
+     "schema_version": "0.24.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1514,6 +1463,57 @@
       "agentic_commerce": false
      },
      "tier": "Domestic Rails & Schemes",
+     "rank": 26
+    },
+    {
+     "name": "Checkout.com",
+     "slug": "checkout-com",
+     "description": "Checkout.com is a global payment processor offering card acquiring, alternative payments, fraud, and connected accounts via a single API. Direct integrations with Visa, Mastercard, and APMs.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/checkout-com/refs/heads/main/screenshots/checkout-com-2026-06-20T174248.png",
+     "score": 17.2,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 60.0,
+      "contract_quality": 2.1,
+      "contract_governance": 0.0,
+      "operational_transparency": 7.9,
+      "developer_ergonomics": 31.0,
+      "access_clarity": 13.2
+     },
+     "scored_at": "2026-10-17",
+     "schema_version": "0.24.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 29.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 31.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": "verified",
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "derived",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Gateways & PSPs",
      "rank": 27
     },
     {
@@ -1532,8 +1532,8 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
+     "scored_at": "2026-10-17",
+     "schema_version": "0.24.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1572,7 +1572,7 @@
      "slug": "curve",
      "description": "Curve is a London-based fintech, founded in 2015 by Shachar Bialick, that consolidates multiple debit and credit cards into a single smart card and mobile wallet. Its \"over-the-top\" banking platform lets customers spend from any linked Mastercard or Visa card, switch the funding source of a past purchase up to 120 days later with \"Go Back in Time\", avoid foreign-exchange fees, earn cashback, and pay in instalments with Curve Flex. Premium tiers (Curve Pay X / Pro / Pro+) add insurance, lounge access, and richer rewards. Curve is backed by Seedcamp and Speedinvest among others. Curve does not publish a public developer API — it acts as an open-banking consumer to aggregate customer account balances rather than exposing a provider API.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/curve/refs/heads/main/screenshots/curve-2026-07-25T210952.png",
-     "score": 11.4,
+     "score": 11.5,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
@@ -1583,8 +1583,8 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
+     "scored_at": "2026-10-17",
+     "schema_version": "0.24.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1633,7 +1633,7 @@
      "slug": "rapyd",
      "description": "Rapyd is a global Fintech-as-a-Service network offering collect, disburse, hold, and issue capabilities across 100+ countries with local payment methods, cards, and bank transfers.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/rapyd/refs/heads/main/screenshots/rapyd-2026-06-20T192606.png",
-     "score": 10.9,
+     "score": 9.3,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -1642,10 +1642,10 @@
       "contract_governance": 0.0,
       "operational_transparency": 7.9,
       "developer_ergonomics": 11.9,
-      "access_clarity": 13.2
+      "access_clarity": 5.3
      },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
+     "scored_at": "2026-10-17",
+     "schema_version": "0.24.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1695,8 +1695,8 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
+     "scored_at": "2026-10-17",
+     "schema_version": "0.24.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1757,8 +1757,8 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
+     "scored_at": "2026-10-17",
+     "schema_version": "0.24.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",

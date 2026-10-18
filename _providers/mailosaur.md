@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 13
+- acting_count: 12
   human_in_the_loop: 0
   name: Mailosaur Agentic Access
   operation_count: 28
   slug: mailosaur-agentic-access
-  summary_line: 28 operations · 13 acting
+  summary_line: 28 operations · 12 acting
 api_count: 1
 apis:
 - baseURL: https://mailosaur.com/api
@@ -435,9 +435,13 @@ examples:
   name: Mailosaur Search Messages Example
   slug: mailosaur-search-messages-example
 finops:
-- name: Mailosaur Finops
+- has_sources: false
+  method: generated
+  name: Mailosaur Finops
+  primary_unit: ''
   service_category: ''
   slug: mailosaur-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mailosaur.png
 json_schemas:
 - name: Device
@@ -459,7 +463,7 @@ modified: 2026-08-14
 name: Mailosaur
 nav: Providers
 network: true
-overview: 'Mailosaur publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Analysis API, Devices API, Files API, and 4 more. Tagged areas include Email Testing, SMS Testing, Developer Tools, QA Automation, and CI/CD.
+overview: 'Mailosaur publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Analysis API, Devices API, Files API, and 4 more. Tagged areas include Email Testing, SMS Testing, Developer Tools, QA Automation, and CI/CD.
 
 
   The Mailosaur catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -476,9 +480,10 @@ rate_limits:
   name: Mailosaur Rate Limits
   slug: mailosaur-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: Mailosaur API Rules
+  name: Mailosaur — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -488,17 +493,17 @@ rules:
   slug: mailosaur-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 69.2
+  composite: 67.7
   coverage:
-    artifact_dirs: 29
-    catalog_earned: 76.5
+    artifact_dirs: 30
+    catalog_earned: 73.5
     catalog_earned_first_party: 24.0
-    catalog_gap: 38.5
+    catalog_gap: 41.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 100.0
+    access_clarity: 92.1
     contract_governance: 31.8
     contract_quality: 59.1
     developer_ergonomics: 75.6
@@ -527,8 +532,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

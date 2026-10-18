@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 45.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -90,6 +90,10 @@ collections:
   name: Supernormal Agent Sessions Posts API
   slug: open-supernormal-posts-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.supernormal.com/blog
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/supernormal/refs/heads/main/agentic-access/supernormal-agentic-access.yml
   title: ''
@@ -205,14 +209,14 @@ created: '2026-07-17'
 description: Supernormal is an AI meeting assistant and AI-agents platform (backed by Balderton Capital and EQT Ventures) that joins Google Meet, Zoom, and Microsoft Teams calls to capture, transcribe, and summarize meetings into shareable notes with action items. Beyond meeting notes, Supernormal offers configurable AI voice agents that can host or join calls, run surveys and screening interviews, and produce transcripts and structured posts. Its public REST API (https://api.supernormal.com/api/v1) exposes the current user, upcoming calendar events, meeting posts with notes and transcripts, agents, and agent sessions, authenticated with a scoped X-API-TOKEN API key. Supernormal additionally runs an OAuth 2.0 authorization server with dynamic client registration and PKCE, and a published, OAuth-protected Model Context Protocol (MCP) server so agents can access recordings and projects.
 image: https://supernormal.com/og-card.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: supernormal
 nav: Providers
 network: true
-overview: 'supernormal publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Agent Sessions API, Agents API, Calendar Events API, and 2 more. Tagged areas include Company, Meetings, Meeting Notes, Transcription, and AI Agents.
+overview: 'supernormal publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agent Sessions API, Agents API, Calendar Events API, and 2 more. Tagged areas include Company, Meetings, Meeting Notes, Transcription, and AI Agents.
 
 
-  supernormal''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, and 18 more developer resources.'
+  supernormal''s developer surface includes engineering blog, documentation, API reference, getting-started guide, signup flow, support, authentication, and 18 more developer resources.'
 random_paper: 20
 scopes:
 - name: Supernormal Scopes
@@ -221,20 +225,20 @@ scopes:
   summary_line: 11 scopes
 score:
   band: thin
-  composite: 35.9
+  composite: 36.0
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 20
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 13.2
     contract_governance: 4.5
     contract_quality: 43.6
-    developer_ergonomics: 56.5
+    developer_ergonomics: 58.9
     discoverability: 75.0
     operational_transparency: 15.8
   previous_composite: 35.9
@@ -250,12 +254,12 @@ score:
     skills: derived
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 26.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

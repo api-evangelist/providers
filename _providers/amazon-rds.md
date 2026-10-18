@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.4
-  scored_at: '2026-10-04'
+  score: 22.2
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -138,6 +138,21 @@ collections:
   name: Amazon RDS API
   slug: open-amazon-rds
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rds/refs/heads/main/plans/amazon-rds-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/amazon-rds-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rds/refs/heads/main/rate-limits/amazon-rds-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/amazon-rds-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rds/refs/heads/main/finops/amazon-rds-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/amazon-rds-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/amazon-rds/refs/heads/main/capabilities/amazon-rds-capability-edges.yml
   title: ''
@@ -558,9 +573,13 @@ examples:
   name: Amazon Rds Openapi Tag Example
   slug: amazon-rds-openapi-tag-example
 finops:
-- name: Amazon Rds Finops
+- has_sources: false
+  method: generated
+  name: Amazon Rds Finops
+  primary_unit: ''
   service_category: API
   slug: amazon-rds-finops
+  template: true
 image: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png
 json_schemas:
 - name: Amazon RDS DB Instance
@@ -650,13 +669,13 @@ modified: '2026-09-16'
 name: Amazon RDS
 nav: Providers
 network: true
-overview: 'Amazon RDS publishes 4 APIs on the [APIs.io](https://apis.io/) network, including DB Clusters API, DB Engine Versions API, DB Instances API, and 1 more. Tagged areas include Cloud Databases, Database Service, Database-as-a-Service, Managed Database, and Relational Databases.
+overview: 'Amazon RDS publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including DB Clusters API, DB Engine Versions API, DB Instances API, and 1 more. Tagged areas include Cloud Databases, Database Service, Database-as-a-Service, Managed Database, and Relational Databases.
 
 
   The Amazon RDS catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Amazon RDS''s developer surface includes authentication, developer portal, documentation, support, engineering blog, signup flow, YouTube channel, and 73 more developer resources.'
+  Amazon RDS''s developer surface includes authentication, developer portal, documentation, support, engineering blog, signup flow, YouTube channel, and 76 more developer resources.'
 plans:
 - name: Amazon Rds Plans Pricing
   plan_count: 3
@@ -667,9 +686,10 @@ rate_limits:
   name: Amazon Rds Rate Limits
   slug: amazon-rds-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: Amazon RDS API Rules
+  name: Amazon RDS — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -677,7 +697,8 @@ rules:
     info: 2
     warn: 4
   slug: amazon-rds-jsonschema-spectral-rules
-- effective_rule_count: 68
+- authorship: generated
+  effective_rule_count: 68
   extends:
   - spectral:oas
   name: Amazon RDS API Rules
@@ -690,17 +711,17 @@ rules:
   slug: amazon-rds-spectral-rules
 score:
   band: strong
-  composite: 61.3
+  composite: 59.8
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 71.4
+    artifact_dirs: 21
+    catalog_earned: 68.4
     catalog_earned_first_party: 0.0
-    catalog_gap: 43.6
+    catalog_gap: 46.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 69.7
+    access_clarity: 61.8
     contract_governance: 27.3
     contract_quality: 66.4
     developer_ergonomics: 65.5
@@ -720,8 +741,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

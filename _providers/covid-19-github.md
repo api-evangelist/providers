@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Covid 19 cases, deaths and recovery per country
@@ -56,7 +56,7 @@ modified: '2026-05-28'
 name: Covid-19
 nav: Providers
 network: true
-overview: Covid-19 publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Health and Public APIs.
+overview: Covid-19 is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Health and Public APIs.
 random_paper: 8
 score:
   band: minimal
@@ -89,8 +89,8 @@ score:
     regime: Health
     regime_id: health
     score: 0.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

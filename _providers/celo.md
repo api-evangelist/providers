@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Ethereum-compatible JSON-RPC API for the Celo Layer 2 network, served over the public Forno endpoints. Supports the standard eth_* / net_* / web3_* method set for reading chain state, submitting trans
@@ -40,6 +40,10 @@ apis:
   slug: celo-json-rpc-api
 artifact_total: 4
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.celo.org/feed
 - group: other
   title: ''
   type: Whitepaper
@@ -165,14 +169,14 @@ mcp_servers:
 - description: 'Model Context Protocol server providing AI assistants and IDEs comprehensive access to the Celo blockchain: blockchain data, token operations, NFTs, smart contracts, transactions, and governance. Publ'
   name: Celo MCP Server
   slug: celo-mcp
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Celo
 nav: Providers
 network: true
-overview: 'Celo publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Blockchain, Ethereum L2, Web3, and Stablecoins.
+overview: 'Celo is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Blockchain, Ethereum L2, Web3, and Stablecoins.
 
 
-  Celo''s developer surface includes sandbox, documentation, API reference, getting-started guide, engineering blog, support, CLI, and 19 more developer resources.'
+  Celo''s developer surface includes sandbox, documentation, API reference, getting-started guide, engineering blog, support, CLI, and 20 more developer resources.'
 random_paper: 1
 score:
   band: thin
@@ -202,8 +206,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 22.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

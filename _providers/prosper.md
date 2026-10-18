@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 9.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: RESTful API for Prosper investors and third-party agents to view account information, search active loan listings, place orders to purchase Notes, and retrieve owned Notes, invested loans, and loan pa
@@ -41,6 +41,10 @@ apis:
   slug: prosper-investor-api
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.prosper.com/feed
 - group: company
   title: ''
   type: Website
@@ -132,14 +136,14 @@ created: '2026-07-17'
 description: Prosper Marketplace operates one of the largest peer-to-peer (marketplace) lending platforms in the United States, matching individual and institutional investors with consumers seeking personal loans, and also offering a HELOC and a credit-card product. For investors, Prosper publishes a RESTful Investor API that lets individual, institutional, and third-party agents connect directly to the platform to view account balances, search active loan listings, place orders (bids) to purchase Notes, and track owned Notes, loans, and payments. The API uses OAuth 2.0 over SSL with comprehensive filtering and sorting, and offers a sandbox environment for integration testing. This profile was surfaced as a portfolio company of Emergence Capital, IVP, and QED Investors and enriched from Prosper's public developer documentation.
 image: https://www.prosper.com/favicon.ico
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Prosper
 nav: Providers
 network: true
-overview: 'Prosper publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Lending, Peer-to-Peer Lending, and Marketplace Lending.
+overview: 'Prosper is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Lending, Peer-to-Peer Lending, and Marketplace Lending.
 
 
-  Prosper''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, pricing, and 13 more developer resources.'
+  Prosper''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, pricing, and 14 more developer resources.'
 random_paper: 9
 score:
   band: thin
@@ -170,8 +174,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

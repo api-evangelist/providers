@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The SwiftConnect Developer API provides programmatic access to access credentials, permissions, people, buildings, readers and devices across the connected access network, so provisioning workflows ca
@@ -44,6 +44,10 @@ apis:
   slug: swiftconnect-api
 artifact_total: 5
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://swiftconnect.com/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/swiftconnect/refs/heads/main/security/swiftconnect-domain-security.yml
   title: ''
@@ -149,14 +153,14 @@ description: SwiftConnect operates a "connected access network" that unifies dig
   no machine-readable contract is public.
 image: https://swiftconnect.com/wp-content/uploads/2025/04/swiftconnect-icon.svg
 layout: provider
-modified: '2026-08-29'
+modified: '2026-10-06'
 name: SwiftConnect
 nav: Providers
 network: true
-overview: 'SwiftConnect publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Access Control, Physical Security, Identity, and Credentials.
+overview: 'SwiftConnect is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Access Control, Physical Security, Identity, and Credentials.
 
 
-  SwiftConnect''s developer surface includes documentation, engineering blog, support, authentication, and 15 more developer resources.'
+  SwiftConnect''s developer surface includes documentation, engineering blog, support, authentication, and 16 more developer resources.'
 plans:
 - name: Swiftconnect Plans Pricing
   plan_count: 0
@@ -201,8 +205,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 22.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

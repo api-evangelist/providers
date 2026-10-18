@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 44.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 8
+- acting_count: 6
   human_in_the_loop: 0
   name: Spider Cloud Agentic Access
   operation_count: 11
   slug: spider-cloud-agentic-access
-  summary_line: 11 operations · 8 acting
+  summary_line: 11 operations · 6 acting
 api_count: 1
 apis:
 - description: 'Spider''s hosted Model Context Protocol server exposes 22 tools — eight core operations (crawl, scrape, search, links, screenshot, unblocker, transform, get_credits), five AI-routed variants, and nine '
@@ -231,9 +231,13 @@ common:
 created: '2026-05-25'
 description: Spider is a Rust-based, AI-friendly web scraping and crawling cloud. Point it at a URL and get back clean markdown, structured JSON, screenshots, or links — at up to 100K pages per second — with anti-bot bypass, residential proxies, headless browsers, and native MCP, LangChain, LlamaIndex, CrewAI, and AutoGen integrations.
 finops:
-- name: Spider Cloud Finops
+- has_sources: false
+  method: generated
+  name: Spider Cloud Finops
+  primary_unit: ''
   service_category: API
   slug: spider-cloud-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/spider-cloud.png
 layout: provider
 mcp_servers:
@@ -244,7 +248,7 @@ modified: '2026-05-25'
 name: Spider
 nav: Providers
 network: true
-overview: 'Spider publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Crawling API, Data API, Fetch API, and 7 more. Tagged areas include Crawling, Scraping, Data Extraction, URLs, and Artificial Intelligence.
+overview: 'Spider publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Crawling API, Data API, Fetch API, and 7 more. Tagged areas include Crawling, Web Scraping, Data Extraction, URLs, and Artificial Intelligence.
 
 
   Spider''s developer surface includes authentication, documentation, API reference, pricing, support, engineering blog, and 17 more developer resources.'
@@ -258,23 +262,23 @@ rate_limits:
   name: Spider Cloud Rate Limits
   slug: spider-cloud-rate-limits
 score:
-  band: developing
-  composite: 39.4
+  band: thin
+  composite: 31.9
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 61.6
+    artifact_dirs: 14
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.4
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.5
   facets:
-    access_clarity: 46.8
+    access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 50.2
     developer_ergonomics: 52.4
     discoverability: 68.3
-    operational_transparency: 46.8
+    operational_transparency: 26.3
   open_source:
     applies: true
     score: 0.0
@@ -293,9 +297,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0
@@ -312,7 +316,7 @@ security:
 slug: spider-cloud
 tags:
 - Crawling
-- Scraping
+- Web Scraping
 - Data Extraction
 - URLs
 - Artificial Intelligence

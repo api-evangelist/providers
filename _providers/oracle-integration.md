@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.8
-  scored_at: '2026-10-04'
+  score: 22.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 1
@@ -283,6 +283,21 @@ collections:
   name: Oracle Integration Developer Adapters Trading Partners API
   slug: open-oracle-integration-trading-partners-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-integration/refs/heads/main/plans/oracle-integration-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/oracle-integration-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-integration/refs/heads/main/rate-limits/oracle-integration-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/oracle-integration-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-integration/refs/heads/main/finops/oracle-integration-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/oracle-integration-finops.yml
 - group: company
   title: ''
   type: Website
@@ -532,9 +547,13 @@ features:
 - description: Native Fast Healthcare Interoperability Resources support for healthcare integration workflows.
   name: FHIR Support
 finops:
-- name: Oracle Integration Finops
+- has_sources: true
+  method: generated
+  name: Oracle Integration Finops
+  primary_unit: ''
   service_category: Integration / iPaaS
   slug: oracle-integration-finops
+  template: false
 image: /assets/icons/oracle-integration.png
 integrations:
 - description: Native adapter for Oracle Enterprise Resource Planning Cloud including financials, procurement, and supply chain.
@@ -617,13 +636,13 @@ modified: '2026-09-16'
 name: Oracle Integration
 nav: Providers
 network: true
-overview: 'Oracle Integration publishes 25 APIs on the [APIs.io](https://apis.io/) network, including Adapters API, Analytics API, B2B Documents API, and 22 more. Tagged areas include API Management, Automation, B2B Integration, Cloud Integration, and Enterprise Integration.
+overview: 'Oracle Integration is listed with 25 APIs on the [APIs.io](https://apis.io/) network, including Adapters API, Analytics API, B2B Documents API, and 22 more. Tagged areas include API Management, Automation, B2B Integration, Cloud Integration, and Enterprise Integration.
 
 
   The Oracle Integration catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Oracle Integration''s developer surface includes authentication, developer portal, getting-started guide, documentation, engineering blog, changelog, support, and 38 more developer resources.'
+  Oracle Integration''s developer surface includes authentication, developer portal, getting-started guide, documentation, engineering blog, changelog, support, and 41 more developer resources.'
 plans:
 - name: Oracle Integration Plans Pricing
   plan_count: 4
@@ -634,9 +653,10 @@ rate_limits:
   name: Oracle Integration Rate Limits
   slug: oracle-integration-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Oracle Integration API Rules
+  name: Oracle Integration — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -644,7 +664,8 @@ rules:
     info: 2
     warn: 3
   slug: oracle-integration-jsonschema-spectral-rules
-- effective_rule_count: 83
+- authorship: generated
+  effective_rule_count: 83
   extends:
   - spectral:oas
   name: Oracle Integration API Rules
@@ -662,23 +683,23 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 53.4
+  composite: 51.9
   coverage:
     artifact_dirs: 20
-    catalog_earned: 78.0
+    catalog_earned: 75.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 37.0
+    catalog_gap: 40.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: -1.5
   facets:
-    access_clarity: 47.4
+    access_clarity: 39.5
     contract_governance: 27.3
     contract_quality: 31.2
     developer_ergonomics: 72.6
     discoverability: 71.4
     operational_transparency: 52.6
-  previous_composite: 52.8
+  previous_composite: 53.4
   provenance:
     agentic_access: derived
     contracts:
@@ -692,8 +713,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

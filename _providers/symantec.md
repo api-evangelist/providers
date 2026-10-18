@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.3
-  scored_at: '2026-10-04'
+  score: 20.4
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -103,6 +103,21 @@ collections:
   name: Symantec Endpoint Protection Manager API
   slug: open-symantec-sepm-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/symantec/refs/heads/main/plans/symantec-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/symantec-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/symantec/refs/heads/main/rate-limits/symantec-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/symantec-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/symantec/refs/heads/main/finops/symantec-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/symantec-finops.yml
 - group: other
   title: ''
   type: ParentCompany
@@ -204,9 +219,13 @@ examples:
   name: Symantec List Computers Example
   slug: symantec-list-computers-example
 finops:
-- name: Symantec Finops
+- has_sources: true
+  method: generated
+  name: Symantec Finops
+  primary_unit: ''
   service_category: Cybersecurity / Endpoint Security
   slug: symantec-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/symantec.png
 json_schemas:
 - name: Symantec SEPM Computer
@@ -226,13 +245,13 @@ modified: '2026-08-21'
 name: Symantec
 nav: Providers
 network: true
-overview: 'Symantec publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Administrators API, API Version API, Authentication API, and 5 more. Tagged areas include Broadcom, Cybersecurity, DLP, EDR, and Endpoint Protection.
+overview: 'Symantec publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Administrators API, API Version API, Authentication API, and 5 more. Tagged areas include Broadcom, Cybersecurity, DLP, Endpoint Detection and Response, and Endpoint Security.
 
 
   The Symantec catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Symantec''s developer surface includes authentication, documentation, support, GitHub presence, engineering blog, and 17 more developer resources.'
+  Symantec''s developer surface includes authentication, documentation, support, GitHub presence, engineering blog, and 20 more developer resources.'
 plans:
 - name: Symantec Plans Pricing
   plan_count: 1
@@ -259,9 +278,10 @@ rate_limits:
   name: Symantec Rate Limits
   slug: symantec-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Symantec API Rules
+  name: Symantec — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -269,7 +289,8 @@ rules:
     info: 1
     warn: 4
   slug: symantec-jsonschema-spectral-rules
-- effective_rule_count: 48
+- authorship: unmarked
+  effective_rule_count: 48
   extends:
   - spectral:oas
   name: Symantec API Rules
@@ -281,18 +302,18 @@ rules:
     warn: 6
   slug: symantec-rules
 score:
-  band: developing
-  composite: 40.5
+  band: thin
+  composite: 39.0
   coverage:
     artifact_dirs: 21
-    catalog_earned: 51.5
+    catalog_earned: 48.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 63.5
+    catalog_gap: 66.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 40.8
+    access_clarity: 32.9
     contract_governance: 13.6
     contract_quality: 54.1
     developer_ergonomics: 33.3
@@ -312,8 +333,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -333,8 +354,7 @@ tags:
 - Broadcom
 - Cybersecurity
 - DLP
-- EDR
-- Endpoint Protection
+- Endpoint Detection and Response
 - Endpoint Security
 - Security
 - Symantec

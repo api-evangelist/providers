@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: verified
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: false
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.2
-  scored_at: '2026-10-04'
+  score: 29.9
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 57
-  human_in_the_loop: 5
+- acting_count: 53
+  human_in_the_loop: 4
   name: Timescale Agentic Access
-  operation_count: 87
+  operation_count: 83
   slug: timescale-agentic-access
-  summary_line: 87 operations · 57 acting · 5 human-in-the-loop
+  summary_line: 83 operations · 53 acting · 4 human-in-the-loop
 api_count: 2
 apis:
 - description: A publicly reachable, anonymous Model Context Protocol server (server name pg-aiguide) serving hybrid semantic + BM25 search over Tiger Cloud, TimescaleDB, PostgreSQL and PostGIS documentation, plus a
@@ -103,7 +103,10 @@ apis:
   description: Manage VPCs and their peering connections.
   name: Timescale VP Cs API
   slug: timescale-vpcs-api
-artifact_total: 30
+- description: The database itself is accessed via the PostgreSQL wire protocol (port 5432), with TimescaleDB SQL functions for hypertable management, compression, continuous aggregates and hyperfunctions. Not a RES
+  name: Timescale PostgreSQL Wire Interface
+  slug: timescale-postgres-wire
+artifact_total: 67
 collections:
 - collection_type: open
   name: API Collection
@@ -142,6 +145,40 @@ collections:
   name: Tiger Cloud VP Cs API
   slug: open-timescale-vpcs-api
 common:
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/timescale/refs/heads/main/rules/timescale-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/timescale-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/timescale/refs/heads/main/json-ld/timescale-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/timescale-context.jsonld
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/timescale/refs/heads/main/vocabulary/timescale-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/timescale-vocabulary.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/timescale/refs/heads/main/lifecycle/timescale-lifecycle.yml
+  title: ''
+  type: Deprecation
+  url: lifecycle/timescale-lifecycle.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/timescale/refs/heads/main/llms/timescale-ghost-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/timescale-ghost-llms.txt
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/timescale/refs/heads/main/integrations/timescale-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/timescale-integration-edges.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.tigerdata.com/blog/rss
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/timescale/refs/heads/main/capabilities/timescale-capability-edges.yml
   title: ''
@@ -349,41 +386,187 @@ common:
   title: ''
   type: SecondaryMarket
   url: https://forgeglobal.com/timescale_stock/
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/timescale/refs/heads/main/plans/timescale-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/timescale-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/timescale/refs/heads/main/rate-limits/timescale-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/timescale-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/timescale/refs/heads/main/finops/timescale-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/timescale-finops.yml
 created: '2026-08-05'
 description: Timescale — rebranded as Tiger Data in 2025 — is the PostgreSQL data platform company behind TimescaleDB, the open-source PostgreSQL extension for time-series and real-time analytics, and Tiger Cloud, a fully managed PostgreSQL cloud service on AWS and Azure. The platform adds hypertables (automatic time-based partitioning), Hypercore hybrid row-columnar storage, native columnar compression, continuous aggregates, tiered storage to S3, database forks, read replica sets and connection pooling on top of standard PostgreSQL. The company also ships pg_textsearch (BM25 full-text search in Postgres), pgvectorscale and pgai for vector and AI workloads, the Tiger Cloud REST API for programmatic service management, the Tiger CLI with a built-in MCP server, and Ghost, an agent-oriented Postgres provisioning service at ghost.build.
+finops:
+- has_sources: true
+  method: generated
+  name: Timescale Finops
+  primary_unit: ''
+  service_category: Database (Time-Series)
+  slug: timescale-finops
+  template: false
 image: https://www.tigerdata.com/favicon.ico
+json_schemas:
+- name: AuthInfo
+  property_count: 3
+  slug: timescale-auth-info
+- name: Database
+  property_count: 9
+  slug: timescale-database
+- name: DatabaseShare
+  property_count: 6
+  slug: timescale-database-share
+- name: FeedbackRequest
+  property_count: 4
+  slug: timescale-feedback-request
+- name: ForkServiceCreate
+  property_count: 6
+  slug: timescale-fork-service-create
+- name: IdentifyRequest
+  property_count: 1
+  slug: timescale-identify-request
+- name: InviteActionResult
+  property_count: 2
+  slug: timescale-invite-action-result
+- name: LogoutRequest
+  property_count: 1
+  slug: timescale-logout-request
+- name: MetricSeries
+  property_count: 2
+  slug: timescale-metric-series
+- name: MetricsSeriesRequest
+  property_count: 6
+  slug: timescale-metrics-series-request
+- name: PaymentMethod
+  property_count: 7
+  slug: timescale-payment-method
+- name: PeeringCreate
+  property_count: 3
+  slug: timescale-peering-create
+- name: Peering
+  property_count: 7
+  slug: timescale-peering
+- name: Pricing
+  property_count: 2
+  slug: timescale-pricing
+- name: Project
+  property_count: 2
+  slug: timescale-project
+- name: ReadReplicaSetCreate
+  property_count: 4
+  slug: timescale-read-replica-set-create
+- name: ReadReplicaSet
+  property_count: 9
+  slug: timescale-read-replica-set
+- name: ReceivedInvite
+  property_count: 6
+  slug: timescale-received-invite
+- name: ResizeInput
+  property_count: 2
+  slug: timescale-resize-input
+- name: ServiceCreate
+  property_count: 7
+  slug: timescale-service-create
+- name: ServiceLogs
+  property_count: 3
+  slug: timescale-service-logs
+- name: Service
+  property_count: 16
+  slug: timescale-service
+- name: SetEnvironmentInput
+  property_count: 1
+  slug: timescale-set-environment-input
+- name: SpaceDetail
+  property_count: 4
+  slug: timescale-space-detail
+- name: SpaceUsage
+  property_count: 10
+  slug: timescale-space-usage
+- name: StatusResponse
+  property_count: 1
+  slug: timescale-status-response
+- name: TrackRequest
+  property_count: 2
+  slug: timescale-track-request
+- name: UpdateOverageSettingsRequest
+  property_count: 2
+  slug: timescale-update-overage-settings-request
+- name: VPC
+  property_count: 4
+  slug: timescale-vpc
+- name: VPCCreate
+  property_count: 3
+  slug: timescale-vpccreate
+- name: VPCRename
+  property_count: 1
+  slug: timescale-vpcrename
+jsonld:
+- class_count: 87
+  name: Timescale Context
+  property_count: 132
+  slug: timescale-context
 layout: provider
 mcp_servers:
 - description: Remote MCP server at mcp.tigerdata.com.
   name: Timescale MCP Server
   slug: timescale-mcp-yml
-modified: '2026-08-05'
+modified: '2026-10-06'
 name: Timescale
 nav: Providers
 network: true
-overview: 'Timescale publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Auth API, Feedback API, and 9 more. Tagged areas include Company, Database, PostgreSQL, Time Series, and Analytics.
+overview: 'Timescale publishes 13 API contracts indexed on the [APIs.io](https://apis.io/) network, including Analytics API, Auth API, Feedback API, and 10 more. Tagged areas include Company, Database, PostgreSQL, Time Series, and Analytics.
 
 
-  Timescale''s developer surface includes authentication, CLI, changelog, release notes, sandbox, developer console, documentation, and 39 more developer resources.'
+  The Timescale catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+
+
+  Timescale''s developer surface includes authentication, CLI, changelog, release notes, sandbox, developer console, documentation, and 49 more developer resources.'
+plans:
+- name: Timescale Plans Pricing
+  plan_count: 6
+  slug: timescale-plans-pricing
 random_paper: 5
+rate_limits:
+- limit_count: 4
+  name: Timescale Rate Limits
+  slug: timescale-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 52
+  extends:
+  - spectral:oas
+  name: Timescale API Rules
+  rule_count: 11
+  severity_counts:
+    error: 10
+    hint: 0
+    info: 1
+    warn: 0
+  slug: timescale-rules
 score:
   band: strong
-  composite: 54.9
+  composite: 63.9
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 37.0
+    artifact_dirs: 33
+    catalog_earned: 68.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 47.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 9.0
   facets:
-    access_clarity: 53.9
-    contract_governance: 4.5
-    contract_quality: 46.0
+    access_clarity: 61.8
+    contract_governance: 19.7
+    contract_quality: 59.6
     developer_ergonomics: 82.7
     discoverability: 75.0
-    operational_transparency: 44.7
+    operational_transparency: 60.5
   previous_composite: 54.9
   provenance:
     agentic_access: derived
@@ -409,9 +592,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

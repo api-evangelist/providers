@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Bardeen is an AI-powered automation platform for automating repetitive tasks across web applications.
@@ -41,6 +41,11 @@ apis:
   slug: bardeen
 artifact_total: 7
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/bardeen/refs/heads/main/finops/bardeen-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/bardeen-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/bardeen/refs/heads/main/security/bardeen-trust-center.yml
   title: ''
@@ -154,19 +159,23 @@ coverage:
 created: '2026-03-27'
 description: Bardeen is an AI automation platform from Bardeen Inc (San Francisco, CA) that automates repetitive go-to-market work — web scraping, web search, contact and company enrichment, and AI-assisted data tasks — from a browser extension that runs against the sites and SaaS tools a user is already signed in to. Work is metered in credits rather than API calls, and automations can run locally in the browser or in Bardeen's cloud. The company also ships WIQ (getwiq.ai), a Workflow Intelligence Platform that reconstructs how work actually happens from browser and system-of-record data. Bardeen consumes other people's APIs through native connectors and generic HTTP actions; it publishes no public API of its own.
 finops:
-- name: Bardeen Finops
+- has_sources: false
+  method: generated
+  name: Bardeen Finops
+  primary_unit: ''
   service_category: API
   slug: bardeen-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bardeen.png
 layout: provider
 modified: '2026-08-29'
 name: Bardeen
 nav: Providers
 network: true
-overview: 'Bardeen publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include AI Automation, Workflow Automation, Web Scraping, Data Enrichment, and Browser Extension.
+overview: 'Bardeen is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include AI Automation, Workflow Automation, Web Scraping, Data Enrichment, and Browser Extension.
 
 
-  Bardeen''s developer surface includes changelog, pricing, signup flow, support, engineering blog, and 16 more developer resources.'
+  Bardeen''s developer surface includes changelog, pricing, signup flow, support, engineering blog, and 17 more developer resources.'
 plans:
 - name: Bardeen Plans Pricing
   plan_count: 4
@@ -178,17 +187,17 @@ rate_limits:
   slug: bardeen-rate-limits
 score:
   band: thin
-  composite: 35.9
+  composite: 34.4
   coverage:
     artifact_dirs: 14
-    catalog_earned: 47.0
+    catalog_earned: 44.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 68.0
+    catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 100.0
+    access_clarity: 92.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 7.1
@@ -203,8 +212,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

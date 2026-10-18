@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'MHS Genesis, the Department of Defense electronic health record built on Oracle Health (Cerner), exposes a SMART on FHIR interface for authorized clinical applications to read and write patient data. '
@@ -46,6 +46,11 @@ collections:
   name: API Collection
   slug: open-defense-health-agency
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/defense-health-agency/refs/heads/main/finops/defense-health-agency-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/defense-health-agency-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/defense-health-agency/refs/heads/main/security/defense-health-agency-domain-security.yml
   title: ''
@@ -130,19 +135,23 @@ coverage:
 created: '2024-12-03'
 description: 'The Defense Health Agency (DHA) is a joint, integrated combat support agency that enables the Army, Navy, and Air Force medical services to provide a medically ready force and ready medical force to combatant commands. DHA operates the Military Health System (MHS), MHS Genesis electronic health record, the Military Health System Data Repository (MDR), and the Enterprise Intelligence and Data Solutions (EIDS) program. Data exchange inside MHS Genesis uses SMART on FHIR APIs, but DHA does not currently publish a general-purpose public developer API, a developer portal, or any machine-readable API contract. What it does publish is human-readable interface documentation: 32 Interface Control Documents for MHS Data Repository feeds, plus MDR and M2 data dictionaries and access guides, all distributed as .DOCX and .PDF through the Health.mil Reference Center.'
 finops:
-- name: Defense Health Agency Finops
+- has_sources: false
+  method: generated
+  name: Defense Health Agency Finops
+  primary_unit: ''
   service_category: API
   slug: defense-health-agency-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/defense-health-agency.png
 layout: provider
 modified: '2026-09-07'
 name: Defense Health Agency
 nav: Providers
 network: true
-overview: 'Defense Health Agency publishes 1 API on the [APIs.io](https://apis.io/) network: MHS Genesis SMART on FHIR API. Tagged areas include Federal Government, Defense, Department of Defense, Health, and Military Health System.
+overview: 'Defense Health Agency is listed with 1 API on the [APIs.io](https://apis.io/) network: MHS Genesis SMART on FHIR API. Tagged areas include Federal Government, Defense, Department of Defense, Health, and Military Health System.
 
 
-  Defense Health Agency''s developer surface includes engineering blog and 14 more developer resources.'
+  Defense Health Agency''s developer surface includes engineering blog and 15 more developer resources.'
 plans:
 - name: Defense Health Agency Plans Pricing
   plan_count: 0
@@ -154,17 +163,17 @@ rate_limits:
   slug: defense-health-agency-rate-limits
 score:
   band: emerging
-  composite: 20.6
+  composite: 19.1
   coverage:
     artifact_dirs: 12
-    catalog_earned: 35.0
+    catalog_earned: 32.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 80.0
+    catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 18.4
+    access_clarity: 10.5
     contract_governance: 18.2
     contract_quality: 24.0
     developer_ergonomics: 11.9
@@ -184,8 +193,8 @@ score:
     regime: Health
     regime_id: health
     score: 16.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

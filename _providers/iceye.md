@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.5
-  scored_at: '2026-10-04'
+  score: 19.6
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 5
+- acting_count: 3
   human_in_the_loop: 0
   name: Iceye Agentic Access
   operation_count: 14
   slug: iceye-agentic-access
-  summary_line: 14 operations · 5 acting
+  summary_line: 14 operations · 3 acting
 api_count: 1
 apis:
 - description: Search, list, purchase, and retrieve products from ICEYE's archive of 60,000+ SAR scenes. Endpoints cover catalog item search, listing, purchase, and retrieval of purchased items for download.
@@ -90,6 +90,21 @@ collections:
   name: ICEYE Constellation API
   slug: open-iceye
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/iceye/refs/heads/main/plans/iceye-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/iceye-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/iceye/refs/heads/main/rate-limits/iceye-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/iceye-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/iceye/refs/heads/main/finops/iceye-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/iceye-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/iceye/refs/heads/main/agentic-access/iceye-agentic-access.yml
   title: ''
@@ -177,19 +192,23 @@ common:
 created: '2026-05-23'
 description: ICEYE operates the world's largest constellation of small Synthetic Aperture Radar (SAR) satellites, delivering all-weather day-and-night imagery down to 25 cm resolution across multiple modes. The ICEYE API Platform at api.iceye.com exposes a Catalog API over an archive of 60,000+ SAR scenes and a Tasking API that lets customers schedule the constellation up to 14 days in advance without a feasibility study or human-in-the-loop. A companion Company API exposes account context. Beyond raw imagery, ICEYE publishes natural catastrophe products - Flood Insights, Wildfire Insights, and Hurricane Insights - used by insurance, government, banking, and utilities customers, and ships Gen 4 ISR, ISR Cell, Connect, and Federate sovereign mission systems for defense and intelligence.
 finops:
-- name: Iceye Finops
+- has_sources: false
+  method: generated
+  name: Iceye Finops
+  primary_unit: ''
   service_category: API
   slug: iceye-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/iceye.png
 layout: provider
 modified: '2026-05-23'
 name: ICEYE
 nav: Providers
 network: true
-overview: 'ICEYE publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Catalog API, Company API, Tasking API, and 4 more. Tagged areas include SAR, Satellite Imagery, Earth Observation, Tasking, and Catalog.
+overview: 'ICEYE publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Catalog API, Company API, Tasking API, and 4 more. Tagged areas include SAR, Satellite Imagery, Earth Observation, Tasking, and Catalog.
 
 
-  ICEYE''s developer surface includes authentication, documentation, engineering blog, and 17 more developer resources.'
+  ICEYE''s developer surface includes authentication, documentation, engineering blog, and 20 more developer resources.'
 plans:
 - name: Iceye Plans Pricing
   plan_count: 1
@@ -200,23 +219,23 @@ rate_limits:
   name: Iceye Rate Limits
   slug: iceye-rate-limits
 score:
-  band: thin
-  composite: 30.9
+  band: emerging
+  composite: 24.9
   coverage:
     artifact_dirs: 11
-    catalog_earned: 54.4
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 60.6
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.0
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 42.2
     developer_ergonomics: 31.0
     discoverability: 67.0
-    operational_transparency: 18.9
+    operational_transparency: 5.3
   previous_composite: 30.9
   provenance:
     agentic_access: derived
@@ -231,9 +250,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 17.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

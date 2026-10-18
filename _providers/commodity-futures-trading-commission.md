@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.0
-  scored_at: '2026-10-04'
+  score: 17.8
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -78,6 +78,25 @@ collections:
   name: CFTC Commitments of Traders () SODA COT TFF API
   slug: open-commodity-futures-trading-commission-tff-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/commodity-futures-trading-commission/refs/heads/main/plans/commodity-futures-trading-commission-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/commodity-futures-trading-commission-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/commodity-futures-trading-commission/refs/heads/main/rate-limits/commodity-futures-trading-commission-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/commodity-futures-trading-commission-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/commodity-futures-trading-commission/refs/heads/main/finops/commodity-futures-trading-commission-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/commodity-futures-trading-commission-finops.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.cftc.gov/rss.xml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/commodity-futures-trading-commission/refs/heads/main/agentic-access/commodity-futures-trading-commission-agentic-access.yml
   title: ''
@@ -131,9 +150,13 @@ common:
 created: '2024-12-03'
 description: The Commodity Futures Trading Commission (CFTC) is the U.S. federal regulator for commodity futures and options markets. The CFTC publishes the weekly Commitments of Traders (COT) report and other public data through a Socrata Open Data API at publicreporting.cftc.gov, providing programmatic access to Legacy, Disaggregated, Traders in Financial Futures, and Supplemental Commodity Index Trader datasets, as well as swap data and large trader reports.
 finops:
-- name: Commodity Futures Trading Commission Finops
+- has_sources: false
+  method: generated
+  name: Commodity Futures Trading Commission Finops
+  primary_unit: ''
   service_category: API
   slug: commodity-futures-trading-commission-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/commodity-futures-trading-commission.png
 json_schemas:
 - name: CFTC Commitments of Traders Row
@@ -145,17 +168,17 @@ jsonld:
   property_count: 5
   slug: cftc-cot-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-10-06'
 name: Commodity Futures Trading Commission
 nav: Providers
 network: true
-overview: 'Commodity Futures Trading Commission publishes 3 APIs on the [APIs.io](https://apis.io/) network, including COT API, and 2 more. Tagged areas include CFTC, Commitments of Traders, Federal Government, Finance, and Futures.
+overview: 'Commodity Futures Trading Commission publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network, including COT API, and 2 more. Tagged areas include CFTC, Commitments of Traders, Federal Government, Finance, and Futures.
 
 
   The Commodity Futures Trading Commission catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Commodity Futures Trading Commission''s developer surface includes documentation and 10 more developer resources.'
+  Commodity Futures Trading Commission''s developer surface includes documentation and 14 more developer resources.'
 plans:
 - name: Commodity Futures Trading Commission Plans Pricing
   plan_count: 3
@@ -166,10 +189,11 @@ rate_limits:
   name: Commodity Futures Trading Commission Rate Limits
   slug: commodity-futures-trading-commission-rate-limits
 rules:
-- effective_rule_count: 47
+- authorship: unmarked
+  effective_rule_count: 47
   extends:
   - spectral:oas
-  name: Commodity Futures Trading Commission API Rules
+  name: Commodity Futures Trading Commission — cftc cot rules
   rule_count: 6
   severity_counts:
     error: 4
@@ -177,9 +201,10 @@ rules:
     info: 0
     warn: 2
   slug: cftc-cot-rules
-- effective_rule_count: 4
+- authorship: generated
+  effective_rule_count: 4
   extends: []
-  name: Commodity Futures Trading Commission API Rules
+  name: Commodity Futures Trading Commission — jsonschema rules
   rule_count: 4
   severity_counts:
     error: 0
@@ -189,18 +214,18 @@ rules:
   slug: commodity-futures-trading-commission-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 29.9
+  composite: 27.2
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 66.1
+    artifact_dirs: 15
+    catalog_earned: 57.4
     catalog_earned_first_party: 0.0
-    catalog_gap: 33.9
-    catalog_max: 100.0
+    catalog_gap: 57.6
+    catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.7
   facets:
-    access_clarity: 0.0
-    contract_governance: 62.7
+    access_clarity: 7.9
+    contract_governance: 27.3
     contract_quality: 50.5
     developer_ergonomics: 16.7
     discoverability: 57.1
@@ -224,8 +249,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

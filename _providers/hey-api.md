@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.6
-  scored_at: '2026-10-04'
+  score: 30.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -104,6 +104,21 @@ collections:
   name: Hey Users API
   slug: open-hey-api-users-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/hey-api/refs/heads/main/plans/hey-api-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/hey-api-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/hey-api/refs/heads/main/rate-limits/hey-api-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/hey-api-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/hey-api/refs/heads/main/finops/hey-api-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/hey-api-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/hey-api/refs/heads/main/vendor-facets/hey-api-vendor-facets.yml
   title: ''
@@ -258,22 +273,26 @@ common:
 created: '2025-05-02'
 description: 'Hey API builds open-source OpenAPI code generators and a hosted specification registry. @hey-api/openapi-ts turns an OpenAPI document into production-grade TypeScript — SDKs, types, Zod/Valibot/TypeBox validators, TanStack Query and SWR hooks, MSW and Playwright test doubles, and Fastify/NestJS/Hono/Express server handlers — across more than twenty plugins and eight HTTP client runtimes, with a sibling Python generator emitting Pydantic models. It draws over four million npm downloads a week and is used by Vercel, PayPal, AWS, Autodesk and OpenCode. The Hey API Platform (api.heyapi.dev) adds a build-attested registry: CI uploads each OpenAPI document with its repository, branch, commit and workflow provenance, and consumers resolve it back by branch, tag, version or exact commit for reproducible client generation.'
 finops:
-- name: Hey Api Finops
+- has_sources: false
+  method: generated
+  name: Hey Api Finops
+  primary_unit: ''
   service_category: API
   slug: hey-api-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hey-api.png
 layout: provider
 modified: '2026-09-16'
 name: Hey API
 nav: Providers
 network: true
-overview: 'Hey API publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Get API, Hey API, Internal API, and 4 more. Tagged areas include Code Generation, Developer Tools, OpenAPI, SDK, and TypeScript.
+overview: 'Hey API publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Get API, Hey API, Internal API, and 4 more. Tagged areas include Code Generation, Developer Tools, OpenAPI, SDK, and TypeScript.
 
 
   The Hey API catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Hey API''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, changelog, CLI, and 26 more developer resources.'
+  Hey API''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, changelog, CLI, and 29 more developer resources.'
 plans:
 - name: Hey Api Plans Pricing
   plan_count: 3
@@ -285,17 +304,17 @@ rate_limits:
   slug: hey-api-rate-limits
 score:
   band: developing
-  composite: 42.8
+  composite: 41.5
   coverage:
     artifact_dirs: 25
-    catalog_earned: 41.0
+    catalog_earned: 38.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.3
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 4.5
     contract_quality: 50.2
     developer_ergonomics: 78.0
@@ -320,8 +339,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -33,15 +33,15 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 3
+- acting_count: 0
   human_in_the_loop: 0
   name: 1Worldsync Agentic Access
   operation_count: 3
   slug: 1worldsync-agentic-access
-  summary_line: 3 operations · 3 acting
-api_count: 1
+  summary_line: 3 operations
+api_count: 2
 apis:
 - baseURL: https://content1-api.1worldsync.com
   baseurl_source: declared
@@ -57,6 +57,10 @@ collections:
   name: 1WorldSync Content1 FetchProduct API
   slug: open-1worldsync-fetchproduct-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://1worldsync.com/feed/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/1worldsync/refs/heads/main/capabilities/1worldsync-capability-edges.yml
   title: ''
@@ -202,26 +206,26 @@ created: '2026-07-17'
 description: 1WorldSync is the leading product content network and a GS1-certified GDSN data pool, helping consumer goods brands, manufacturers, and retailers create, manage, syndicate, and verify trusted product content across the digital shelf and the physical supply chain. Its Content1 platform exposes REST APIs for product master data — the Content1 Read API (product search, fetch, count, and hierarchy retrieval), the Item Management Inbound API (add, update, delete, and link items and hierarchies), a Digital Asset Management (DAM) API for images and rich media, and a User Management API (UMA) — all authenticated with HMAC-signed requests using an app_id and a secret key. 1WorldSync serves CPG, grocery, healthcare, foodservice, and DIY sectors and is SOC 2 Type 2 and ISO/IEC 27001:2022 certified.
 image: https://1worldsync.com/wp-content/uploads/2024/10/Untitled-design-49.png
 layout: provider
-modified: '2026-07-17'
+modified: '2026-10-06'
 name: 1WorldSync
 nav: Providers
 network: true
-overview: '1WorldSync publishes 1 API on the [APIs.io](https://apis.io/) network: FetchProduct API. Tagged areas include Company, Product Content, GDSN, Data Syndication, and Master Data.
+overview: '1WorldSync publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: FetchProduct API. Tagged areas include Company, Product Content, GDSN, Data Syndication, and Master Data.
 
 
-  1WorldSync''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, pricing, authentication, and 24 more developer resources.'
+  1WorldSync''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, pricing, authentication, and 25 more developer resources.'
 random_paper: 12
 score:
   band: developing
-  composite: 50.2
+  composite: 50.3
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 22
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 60.5
     contract_governance: 18.2
@@ -246,8 +250,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

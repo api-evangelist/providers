@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -84,6 +84,10 @@ collections:
   name: Ualá Bis API v2 Authentication Refunds API
   slug: open-ual-refunds-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.uala.com.ar/aula-uala/blog
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/ual/refs/heads/main/overlays/ual-bis-auth-v2-overlay.yaml
   title: ''
@@ -226,23 +230,23 @@ created: '2026-07-17'
 description: Ualá is a Latin American fintech founded in Argentina in 2017 by Pierpaolo Barbieri, offering a neobank super-app (prepaid and credit cards, savings, investments, loans, insurance) in Argentina and Mexico, where it operates as Ualá ABC through the acquired ABC Capital bank. Its merchant arm, Ualá Bis, provides payments acceptance — link de pago, POS, e-commerce plugins, and the API Cobros Online v2, a checkout API with hosted payment links, order retrieval and listing, refunds, and webhook status notifications, documented at developers.ualabis.com.ar with official Node.js and PHP SDKs.
 image: https://developers.ualabis.com.ar/logo-large.png
 layout: provider
-modified: '2026-09-16'
+modified: '2026-10-06'
 name: Ualá
 nav: Providers
 network: true
-overview: 'Ualá publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Orders API, Refunds API, and 1 more. Tagged areas include Company, Fintech, Payments, Banking, and Neobank.
+overview: 'Ualá publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authentication API, Orders API, Refunds API, and 1 more. Tagged areas include Company, Fintech, Payments, Banking, and Neobank.
 
 
   The Ualá catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Ualá''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, changelog, and 23 more developer resources.'
+  Ualá''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, pricing, changelog, and 24 more developer resources.'
 random_paper: 14
 score:
   band: thin
   composite: 36.8
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -281,8 +285,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 19.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

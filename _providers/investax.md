@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://investax.io/blog/rss.xml
 - group: company
   title: ''
   type: Website
@@ -86,14 +90,14 @@ created: '2026-07-17'
 description: InvestaX is a Singapore-based, MAS-licensed tokenization platform for real-world assets (RWAs), operated by IC SG Pte. Ltd. under a Capital Markets Services license (CMS100635) and a Recognised Market Operator license from the Monetary Authority of Singapore. The platform provides end-to-end infrastructure for the issuance, distribution, secondary trading, and custody of security tokens and tokenized securities, plus a Tokenization SaaS product for institutional issuers and RWA investment products such as tokenized money market funds and private credit. It supports multiple blockchain protocols including Ethereum, Polygon, BASE, Algorand, Tezos, and Hedera. Backed by 500 Global.
 image: https://cdn.prod.website-files.com/65682eda7c0dcf7ed63a11de/695baf02b045aeec429924ec_opengraph.webp
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: InvestaX
 nav: Providers
 network: true
 overview: 'InvestaX is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Tokenization, Digital Securities, Real World Assets, and Blockchain.
 
 
-  InvestaX''s developer surface includes signup flow, support, engineering blog, and 8 more developer resources.'
+  InvestaX''s developer surface includes signup flow, support, engineering blog, and 9 more developer resources.'
 random_paper: 2
 score:
   band: emerging
@@ -125,8 +129,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 17.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

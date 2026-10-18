@@ -24,28 +24,48 @@ agent_readiness:
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: documented
-    event_surface_described: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 7.9
-  scored_at: '2026-10-04'
+  score: 21.9
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
-- description: The HTX Spot REST API provides HTTP access to reference data (system status, symbols, currencies, chains), market data (klines, tickers, depth, trades, 24h summaries), account and balance information,
+- baseURL: https://api.huobi.pro
+  baseurl_source: declared
+  description: The HTX Spot REST API provides HTTP access to reference data (system status, symbols, currencies, chains), market data (klines, tickers, depth, trades, 24h summaries), account and balance information,
   name: HTX Spot REST API
   slug: htx-spot-api
 - description: The HTX WebSocket API provides a two-way real-time channel for subscribing to market data (klines, market depth, trade detail, best bid/offer) and to authenticated account and order update topics. Pub
   name: HTX WebSocket API
   slug: htx-websocket-api
-artifact_total: 5
+artifact_total: 6
+asyncapis:
+- description: 'AsyncAPI 2.6 specification for Huobi (HTX) public WebSocket Market Data API and WebSocket v2 Asset & Order subscription API. ## Envelope conventions ### Market data (v1, /ws) - Subscribe: `{ "sub": "<'
+  name: Huobi / HTX WebSocket API
+  slug: htx-websocket-asyncapi
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/htx/refs/heads/main/lifecycle/htx-lifecycle.yml
+  title: ''
+  type: Deprecation
+  url: lifecycle/htx-lifecycle.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/htx/refs/heads/main/integrations/htx-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/htx-integration-edges.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.htx.com/news/
 - group: company
   title: ''
   type: Website
@@ -140,37 +160,40 @@ created: '2026-07-17'
 description: HTX (formerly Huobi Global) is a cryptocurrency exchange founded in 2013 that offers spot trading, futures and derivatives, margin trading, trading bots, copy trading, and earn/staking products across BTC, ETH, XRP and 600+ digital assets. HTX exposes a public developer platform (HTX Open Platform) with a REST API and a WebSocket streaming API covering market data, account and wallet management, sub-user administration, spot and conditional order placement, and cross/isolated margin lending. Requests are authenticated with an AccessKey and an HMAC-SHA256 (Signature Version 2) request signature. Official client SDKs are published under the HuobiRDCenter GitHub organization for Java, Python, Go, C++ and C#, with separate contract/futures variants. HTX was surfaced as a portfolio company of Hongshan (formerly Sequoia Capital China).
 image: https://www.htx.com/favicon.ico
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: HTX
 nav: Providers
 network: true
-overview: 'HTX publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Technology, Cryptocurrency, Crypto Exchange, and Trading.
+overview: 'HTX is listed with 2 APIs on the [APIs.io](https://apis.io/) network, including Spot REST API, and 1 more. Tagged areas include Company, Technology, Cryptocurrency, Cryptocurrency Exchange, and Trading.
 
 
-  HTX''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, changelog, authentication, and 13 more developer resources.'
+  The HTX catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  HTX''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, signup flow, changelog, and 16 more developer resources.'
 random_paper: 10
 rate_limits:
 - limit_count: 2
   name: Htx Rate Limits
   slug: htx-rate-limits
 score:
-  band: thin
-  composite: 31.8
+  band: developing
+  composite: 44.3
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 15
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 12.5
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
-    contract_quality: 0.0
-    developer_ergonomics: 61.9
+    contract_quality: 43.8
+    developer_ergonomics: 64.3
     discoverability: 66.1
-    operational_transparency: 39.5
+    operational_transparency: 47.4
   previous_composite: 31.8
   provenance:
     conformance: derived
@@ -180,9 +203,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 23.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -202,7 +225,7 @@ tags:
 - Company
 - Technology
 - Cryptocurrency
-- Crypto Exchange
+- Cryptocurrency Exchange
 - Trading
 - Digital Assets
 - Blockchain

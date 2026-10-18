@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: The Binance.US REST API is the primary programmatic interface to the exchange. It exposes general system and exchange information, market and trade data (recent/aggregate/historical trades, order book
@@ -207,7 +207,7 @@ modified: '2026-08-07'
 name: Binance.US
 nav: Providers
 network: true
-overview: 'Binance.US publishes 3 APIs on the [APIs.io](https://apis.io/) network, including WebSocket API, WebSocket Streams, and 1 more. Tagged areas include Company, Cryptocurrency, Digital Assets, Exchange, and Trading.
+overview: 'Binance.US is listed with 3 APIs on the [APIs.io](https://apis.io/) network, including WebSocket API, WebSocket Streams, and 1 more. Tagged areas include Company, Cryptocurrency, Digital Assets, Exchange, and Trading.
 
 
   The Binance.US catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
@@ -223,7 +223,7 @@ score:
   band: developing
   composite: 49.9
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -246,8 +246,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 33.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

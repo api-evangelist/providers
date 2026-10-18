@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -341,7 +341,7 @@ modified: '2026-07-23'
 name: Hampden & Co
 nav: Providers
 network: true
-overview: 'Hampden & Co publishes 29 APIs on the [APIs.io](https://apis.io/) network, including Account Access Consents API, Accounts API, Balances API, and 26 more. Tagged areas include Financial Services, Banking, Private Banking, Open Banking, and PSD2.
+overview: 'Hampden & Co publishes 29 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account Access Consents API, Accounts API, Balances API, and 26 more. Tagged areas include Financial Services, Banking, Private Banking, Open Banking, and PSD2.
 
 
   Hampden & Co''s developer surface includes authentication, documentation, signup flow, engineering blog, support, API reference, and 23 more developer resources.'
@@ -355,7 +355,7 @@ score:
   band: thin
   composite: 38.1
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -398,8 +398,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 48.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

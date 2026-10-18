@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: OAuth 2.0 / OpenID Connect protected API surface serving Mudflap's partner, fleet, and merchant dashboards. Discovered via the published RFC 8414 authorization-server metadata; no public OpenAPI refer
@@ -41,6 +41,10 @@ apis:
   slug: mudflap-partner-api
 artifact_total: 4
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.mudflapinc.com/press
 - group: company
   title: ''
   type: Website
@@ -109,14 +113,14 @@ created: '2026-07-17'
 description: Mudflap is a fintech company operating a diesel fuel-discount network for truckers, owner-operators, and fleets. Its mobile app delivers instant cost-plus diesel discounts (up to $1.00/gallon) at 3,600+ truck stops using a driver's existing debit or credit card, and its Mudflap Fuel Card extends fleet credit terms, driver spend controls, and fraud protection across 70,000+ fuel stops nationwide, managed through a fleet dashboard. Mudflap reports $1B+ saved by 515,000+ active drivers and is recommended by 94% of owner-operators and fleets. It also runs a truck-stop merchant program and a Geotab telematics integration. Mudflap is backed by Matrix Partners. The company exposes an OAuth 2.0 / OpenID Connect authorization server at api.mudflapinc.com for its partner, fleet, and merchant surfaces; no public developer OpenAPI is published.
 image: https://cdn.prod.website-files.com/663e75126ab14bc3a56a0e08/66bfbffec2941b37b6c31a3c_og-brand.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Mudflap
 nav: Providers
 network: true
-overview: 'Mudflap publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Fuel, Trucking, and Payments.
+overview: 'Mudflap is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Fuel, Trucking, and Payments.
 
 
-  Mudflap''s developer surface includes developer portal, getting-started guide, support, authentication, and 10 more developer resources.'
+  Mudflap''s developer surface includes engineering blog, developer portal, getting-started guide, support, authentication, and 10 more developer resources.'
 random_paper: 19
 scopes:
 - name: Mudflap Scopes
@@ -125,20 +129,20 @@ scopes:
   summary_line: 3 scopes · authorizationCode/password
 score:
   band: emerging
-  composite: 23.1
+  composite: 23.6
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 11
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 21.1
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 38.1
+    developer_ergonomics: 40.5
     discoverability: 73.2
     operational_transparency: 0.0
   previous_composite: 23.1
@@ -150,8 +154,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 31.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

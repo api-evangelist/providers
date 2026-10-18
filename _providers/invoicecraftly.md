@@ -20,10 +20,10 @@ agent_readiness:
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: '0.2'
-  score: 23.9
-  scored_at: '2026-10-04'
+  score: 26.8
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -31,7 +31,7 @@ agentic_access:
   operation_count: 3
   slug: invoicecraftly-agentic-access
   summary_line: 3 operations · 3 acting
-api_count: 2
+api_count: 5
 apis:
 - baseURL: https://invoicecraftly.com
   baseurl_source: declared
@@ -45,6 +45,19 @@ apis:
   slug: invoicecraftly-structured-invoicing-api
 artifact_total: 12
 common:
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/invoicecraftly/refs/heads/main/well-known/invoicecraftly-well-known.yml
+  title: ''
+  type: WellKnown
+  url: well-known/invoicecraftly-well-known.yml
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://invoicecraftly.com/developers/recipes/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://invoicecraftly.com/feed.xml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/invoicecraftly/refs/heads/main/capabilities/invoicecraftly-capability-edges.yml
   title: ''
@@ -194,24 +207,25 @@ jsonld:
   property_count: 64
   slug: invoicecraftly-context
 layout: provider
-modified: '2026-09-25'
+modified: '2026-10-06'
 name: InvoiceCraftly Developer Document API
 nav: Providers
 network: true
-overview: 'InvoiceCraftly Developer Document API publishes 2 APIs on the [APIs.io](https://apis.io/) network: Documents API and Structured invoicing API. Tagged areas include Invoicing, Invoice Generator, Free Tools, DocumentExport, and Payment QR.
+overview: 'InvoiceCraftly Developer Document API publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Documents API and Structured invoicing API. Tagged areas include Invoicing, Invoice Generator, Free Tools, DocumentExport, and Payment QR.
 
 
   The InvoiceCraftly Developer Document API catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  InvoiceCraftly Developer Document API''s developer surface includes changelog, documentation, API reference, authentication, getting-started guide, support, and 21 more developer resources.'
+  InvoiceCraftly Developer Document API''s developer surface includes pricing, changelog, documentation, API reference, authentication, getting-started guide, support, and 23 more developer resources.'
 plans:
 - name: Invoicecraftly Plans Pricing
   plan_count: 1
   slug: invoicecraftly-plans-pricing
 random_paper: 10
 rules:
-- effective_rule_count: 57
+- authorship: generated
+  effective_rule_count: 57
   extends:
   - spectral:oas
   name: InvoiceCraftly Developer Document API API Rules
@@ -224,21 +238,23 @@ rules:
   slug: invoicecraftly-rules
 score:
   band: developing
-  composite: 45.8
+  composite: 48.5
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 70.8
+    artifact_dirs: 25
+    catalog_earned: 73.8
     catalog_earned_first_party: 8.0
-    catalog_gap: 44.3
+    catalog_gap: 41.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 2.7
   facets:
-    access_clarity: 31.6
+    access_clarity: 42.1
     contract_governance: 22.0
     contract_quality: 64.4
     developer_ergonomics: 54.2
-    discoverability: 73.2
+    discoverability: 78.6
     operational_transparency: 26.3
+  previous_composite: 45.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -255,11 +271,13 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: flat
   upsert:
     applies: true
     score: 0.0
+screenshot: https://raw.githubusercontent.com/api-evangelist/invoicecraftly/refs/heads/main/screenshots/invoicecraftly-2026-10-11T105827.png
 security:
 - kind: authentication
   name: Invoicecraftly Authentication

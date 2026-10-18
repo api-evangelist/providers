@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -237,9 +237,13 @@ features:
 - description: Real-time event delivery secured with HMAC-SHA1 signatures and per-event-type endpoint registration.
   name: Signed Webhooks
 finops:
-- name: Revel Systems Finops
+- has_sources: true
+  method: generated
+  name: Revel Systems Finops
+  primary_unit: ''
   service_category: Payments & POS
   slug: revel-systems-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/revel-systems.png
 integrations:
 - description: Push order and sales data into accounting and ERP systems.
@@ -372,7 +376,7 @@ modified: '2026-06-03'
 name: Revel Systems
 nav: Providers
 network: true
-overview: 'Revel Systems publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Revel Webhooks, Customers API, Establishments API, and 4 more. Tagged areas include Point-of-Sale, Restaurant, Retail, and iPad.
+overview: 'Revel Systems is listed with 7 APIs on the [APIs.io](https://apis.io/) network, including Revel Webhooks, Customers API, Establishments API, and 4 more. Tagged areas include Point-of-Sale, Restaurant, Retail, and iPad.
 
 
   The Revel Systems catalog on APIs.io includes 1 event-driven AsyncAPI specification, 2 JSON-LD contexts, and 3 Spectral governance rulesets.
@@ -389,10 +393,11 @@ rate_limits:
   name: Revel Systems Rate Limits
   slug: revel-systems-rate-limits
 rules:
-- effective_rule_count: 32
+- authorship: generated
+  effective_rule_count: 32
   extends:
   - spectral:asyncapi
-  name: Revel Systems API Rules
+  name: Revel Systems — asyncapi rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -400,9 +405,10 @@ rules:
     info: 0
     warn: 5
   slug: revel-systems-asyncapi-spectral-rules
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Revel Systems API Rules
+  name: Revel Systems — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -410,7 +416,8 @@ rules:
     info: 1
     warn: 4
   slug: revel-systems-jsonschema-spectral-rules
-- effective_rule_count: 75
+- authorship: unmarked
+  effective_rule_count: 75
   extends:
   - spectral:oas
   name: Revel Systems API Rules
@@ -423,17 +430,17 @@ rules:
   slug: revel-systems-rules
 score:
   band: emerging
-  composite: 22.0
+  composite: 20.5
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 66.0
+    artifact_dirs: 19
+    catalog_earned: 63.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 49.0
+    catalog_gap: 52.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 13.2
+    access_clarity: 5.3
     contract_governance: 27.3
     contract_quality: 39.9
     developer_ergonomics: 1.2
@@ -453,8 +460,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

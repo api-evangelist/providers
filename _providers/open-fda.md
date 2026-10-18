@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 11.0
-  scored_at: '2026-10-04'
+  score: 9.1
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -283,9 +283,13 @@ examples:
   name: Tobacco Problem
   slug: tobacco-problem
 finops:
-- name: Open Fda Finops
+- has_sources: false
+  method: generated
+  name: Open Fda Finops
+  primary_unit: ''
   service_category: ''
   slug: open-fda-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/open-fda.png
 json_schemas:
 - name: Device 510K Clearance
@@ -325,7 +329,7 @@ modified: '2026-06-13'
 name: openFDA
 nav: Providers
 network: true
-overview: 'openFDA publishes 17 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include FDA, Food and Drug Administration, Drug Safety, Adverse Events, and Drug Labels.
+overview: 'openFDA is listed with 17 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include FDA, Food and Drug Administration, Drug Safety, Adverse Events, and Drug Labels.
 
 
   The openFDA catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -342,9 +346,10 @@ rate_limits:
   name: Open Fda Rate Limits
   slug: open-fda-rate-limits
 rules:
-- effective_rule_count: 2
+- authorship: generated
+  effective_rule_count: 2
   extends: []
-  name: openFDA API Rules
+  name: openFDA — jsonschema rules
   rule_count: 2
   severity_counts:
     error: 0
@@ -352,7 +357,8 @@ rules:
     info: 0
     warn: 2
   slug: open-fda-jsonschema-spectral-rules
-- effective_rule_count: 0
+- authorship: unmarked
+  effective_rule_count: 0
   extends: []
   name: openFDA API Rules
   rule_count: 0
@@ -363,18 +369,18 @@ rules:
     warn: 0
   slug: open-fda-rules
 score:
-  band: developing
-  composite: 43.4
+  band: thin
+  composite: 39.1
   coverage:
     artifact_dirs: 13
-    catalog_earned: 68.2
+    catalog_earned: 60.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 46.8
+    catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -4.3
   facets:
-    access_clarity: 50.5
+    access_clarity: 28.9
     contract_governance: 21.2
     contract_quality: 21.2
     developer_ergonomics: 57.1
@@ -389,8 +395,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

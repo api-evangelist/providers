@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -142,6 +142,16 @@ collections:
   name: Azure Log Analytics Ingestion Workspaces API
   slug: open-azure-log-analytics-workspaces-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/azure-log-analytics/refs/heads/main/plans/azure-log-analytics-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/azure-log-analytics-plans-pricing.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/azure-log-analytics/refs/heads/main/finops/azure-log-analytics-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/azure-log-analytics-finops.yml
 - group: company
   title: ''
   type: Website
@@ -386,9 +396,13 @@ features:
 - description: Export query results to Excel, CSV, Power BI, and Grafana dashboards for external analysis.
   name: Data Export
 finops:
-- name: Azure Log Analytics Finops
+- has_sources: true
+  method: generated
+  name: Azure Log Analytics Finops
+  primary_unit: ''
   service_category: Observability
   slug: azure-log-analytics-finops
+  template: false
 image: /assets/icons/azure-log-analytics.png
 integrations:
 - description: Core integration with Azure Monitor for unified observability across metrics, logs, and traces.
@@ -461,13 +475,13 @@ modified: '2026-05-19'
 name: Azure Log Analytics
 nav: Providers
 network: true
-overview: 'Azure Log Analytics publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Ingestion API, Query API, Saved Searches API, and 2 more. Tagged areas include Analytics, Azure, Cloud, Logging, and Monitoring.
+overview: 'Azure Log Analytics is listed with 5 APIs on the [APIs.io](https://apis.io/) network, including Ingestion API, Query API, Saved Searches API, and 2 more. Tagged areas include Analytics, Microsoft Azure, Cloud, Logging, and Monitoring.
 
 
   The Azure Log Analytics catalog on APIs.io includes 3 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Azure Log Analytics'' developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, support, engineering blog, and 39 more developer resources.'
+  Azure Log Analytics'' developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, support, engineering blog, and 41 more developer resources.'
 plans:
 - name: Azure Log Analytics Plans Pricing
   plan_count: 4
@@ -478,9 +492,10 @@ rate_limits:
   name: Azure Log Analytics Rate Limits
   slug: azure-log-analytics-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Azure Log Analytics API Rules
+  name: Azure Log Analytics — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -488,7 +503,8 @@ rules:
     info: 2
     warn: 3
   slug: azure-log-analytics-jsonschema-spectral-rules
-- effective_rule_count: 86
+- authorship: generated
+  effective_rule_count: 86
   extends:
   - spectral:oas
   name: Azure Log Analytics API Rules
@@ -506,17 +522,17 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: strong
-  composite: 60.3
+  composite: 58.9
   coverage:
     artifact_dirs: 20
-    catalog_earned: 78.0
+    catalog_earned: 75.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 37.0
+    catalog_gap: 40.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.4
   facets:
-    access_clarity: 47.4
+    access_clarity: 39.5
     contract_governance: 27.3
     contract_quality: 30.5
     developer_ergonomics: 79.8
@@ -539,8 +555,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -558,7 +574,7 @@ security:
 slug: azure-log-analytics
 tags:
 - Analytics
-- Azure
+- Microsoft Azure
 - Cloud
 - Logging
 - Monitoring

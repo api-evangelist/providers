@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.high5health.com/blog
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/high5health/refs/heads/main/security/high5health-domain-security.yml
   title: ''
@@ -49,28 +53,31 @@ created: '2026-07-17'
 description: High5health (HighFive Healthcare) is a dental support organization that partners with endodontists and oral surgeons to run the business side of their specialty practices so the doctors can focus on patient care. Its managed services span human resources, accounting and legal, payroll, payor negotiations and credentialing, marketing, recruiting, revenue cycle management, IT and cybersecurity, procurement, insurance and risk management, and tax preparation. The company is a Norwest Venture Partners portfolio company. It operates as a healthcare business-services provider and does not publish a public developer platform, API, or SDK.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/high5health.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: High5health
 nav: Providers
 network: true
-overview: High5health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Dental, Dental Support Organization, and Oral Surgery.
+overview: 'High5health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Dental, Dental Support Organization, and Oral Surgery.
+
+
+  High5health''s developer surface includes engineering blog and 2 more developer resources.'
 random_paper: 21
 score:
   band: minimal
-  composite: 3.7
+  composite: 4.2
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 48.2
     operational_transparency: 0.0
   previous_composite: 3.7
@@ -80,8 +87,8 @@ score:
     regime: Health
     regime_id: health
     score: 4.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Replica API v2 (OpenAPI 3.0.0) — REST API for AI text-to-speech, speech-to-speech, and voice-library operations. Historical; the service was sunset on 2025-06-30.
@@ -94,14 +94,14 @@ modified: '2026-07-20'
 name: Replica Studios
 nav: Providers
 network: true
-overview: 'Replica Studios publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Voice, Text-to-Speech, Speech to Speech, and Artificial Intelligence.
+overview: 'Replica Studios is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Voice, Text-to-Speech, Speech to Speech, and Artificial Intelligence.
 
 
   Replica Studios'' developer surface includes documentation, API reference, getting-started guide, support, authentication, and 5 more developer resources.'
 random_paper: 20
 score:
   band: emerging
-  composite: 13.8
+  composite: 13.4
   coverage:
     artifact_dirs: 6
     catalog_earned: 37.0
@@ -109,7 +109,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.9
+  delta: -0.4
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
@@ -117,15 +117,15 @@ score:
     developer_ergonomics: 35.7
     discoverability: 73.2
     operational_transparency: 0.0
-  previous_composite: 14.7
+  previous_composite: 13.8
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 10.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

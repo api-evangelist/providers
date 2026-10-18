@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 6
 apis:
 - description: API Spyder is a SaaS-based, agentless external discovery service that provides an attacker's view into an organization's public-facing API hosts, hosting providers, and API-specific exposures includin
@@ -56,6 +56,16 @@ apis:
   slug: cequence-ai-gateway
 artifact_total: 15
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cequence/refs/heads/main/rate-limits/cequence-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/cequence-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/cequence/refs/heads/main/finops/cequence-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/cequence-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/cequence/refs/heads/main/security/cequence-trust-center.yml
   title: ''
@@ -174,9 +184,13 @@ common:
 created: '2025-01-08'
 description: Cequence Security delivers the Unified API Protection (UAP) platform, combining external API attack-surface discovery, posture and compliance analysis, inline runtime protection, and testing into a single solution for defending web applications, APIs, and AI endpoints against business logic abuse, bot attacks, and fraud. The Cequence product family is organized into API Spyder (agentless external discovery), API Sentinel (API inventory, posture, and compliance), API Spartan (runtime bot and abuse defense), API Security Testing (shift-left OpenAPI conformance and vulnerability testing), and Cequence Defender (inline reverse-proxy enforcement of API policy).
 finops:
-- name: Cequence Finops
+- has_sources: false
+  method: generated
+  name: Cequence Finops
+  primary_unit: ''
   service_category: API
   slug: cequence-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cequence.png
 layout: provider
 mcp_servers:
@@ -187,10 +201,10 @@ modified: '2026-09-05'
 name: Cequence Security
 nav: Providers
 network: true
-overview: 'Cequence Security publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include AI Protection, API Discovery, API Security, Application Security, and Attack Surface.
+overview: 'Cequence Security is listed with 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include AI Protection, API Discovery, API Security, Application Security, and Attack Surface.
 
 
-  Cequence Security''s developer surface includes engineering blog, documentation, API reference, and 23 more developer resources.'
+  Cequence Security''s developer surface includes engineering blog, documentation, API reference, and 25 more developer resources.'
 plans:
 - name: Cequence Plans Pricing
   plan_count: 0
@@ -207,17 +221,17 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: developing
-  composite: 42.7
+  composite: 41.2
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 50.0
+    artifact_dirs: 20
+    catalog_earned: 47.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 65.0
+    catalog_gap: 68.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 51.3
+    access_clarity: 43.4
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 63.7
@@ -234,8 +248,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -212,7 +212,7 @@ modified: '2026-05-11'
 name: Employment Hero
 nav: Providers
 network: true
-overview: 'Employment Hero publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Bank Accounts API, Certifications API, Cost Centres API, and 9 more. Tagged areas include Human Resources, HRIS, Payroll, Recruiting, and Employee Benefits.
+overview: 'Employment Hero publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including Bank Accounts API, Certifications API, Cost Centres API, and 9 more. Tagged areas include Human Resources, HRIS, Payroll, Recruiting, and Employee Benefits.
 
 
   Employment Hero''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 10 more developer resources.'
@@ -226,7 +226,7 @@ score:
   band: thin
   composite: 33.5
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -261,8 +261,8 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 27.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

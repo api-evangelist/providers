@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 87
   slug: hifi-agentic-access
   summary_line: 87 operations · 42 acting
-api_count: 1
+api_count: 2
 apis:
 - baseURL: https://production.hifibridge.com
   baseurl_source: declared
@@ -322,7 +322,7 @@ modified: '2026-07-19'
 name: Hifi
 nav: Providers
 network: true
-overview: 'Hifi publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Account API, Common API, Cross-Chain Bridge API, and 12 more. Tagged areas include Company, Stablecoins, Payments, Money Movement, and On-Ramp.
+overview: 'Hifi publishes 15 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Common API, Cross-Chain Bridge API, and 12 more. Tagged areas include Company, Stablecoins, Payments, Money Movement, and On-Ramp.
 
 
   The Hifi catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -332,15 +332,15 @@ overview: 'Hifi publishes 15 APIs on the [APIs.io](https://apis.io/) network, in
 random_paper: 20
 score:
   band: developing
-  composite: 48.6
+  composite: 48.7
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
@@ -365,8 +365,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 22.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -389,7 +389,7 @@ tags:
 - Money Movement
 - On-Ramp
 - Off-Ramp
-- Crypto
+- Cryptocurrency
 - Fintech
 - KYC
 - Virtual Accounts

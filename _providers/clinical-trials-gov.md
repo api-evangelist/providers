@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -88,6 +88,14 @@ collections:
   name: ClinicalTrials.gov Data API v2
   slug: open-clinical-trials-gov
 common:
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://clinicaltrials.gov/about-site/terms-conditions
+- group: company
+  title: ''
+  type: Blog
+  url: https://clinicaltrials.gov/blog/
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/clinical-trials-gov/refs/heads/main/agentic-access/clinical-trials-gov-agentic-access.yml
   title: ''
@@ -241,17 +249,17 @@ mcp_servers:
 - description: A CANDIDATE tool list derived from the ClinicalTrials.gov Data API v2 OpenAPI operations. The National Library of Medicine does not publish an MCP server for ClinicalTrials.gov — no hosted endpoint, n
   name: ClinicalTrials.gov Data API v2 (candidate MCP surface)
   slug: clinicaltrials-gov-data-api-v2-candidate-mcp-surface
-modified: '2026-09-06'
+modified: '2026-10-06'
 name: ClinicalTrials.gov
 nav: Providers
 network: true
-overview: 'ClinicalTrials.gov publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Stats API, Studies API, Version API, and 3 more. Tagged areas include Clinical Trials, Government, Health, NIH, and Open Data.
+overview: 'ClinicalTrials.gov publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Stats API, Studies API, Version API, and 3 more. Tagged areas include Clinical Trials, Government, Health, NIH, and Open Data.
 
 
   The ClinicalTrials.gov catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  ClinicalTrials.gov''s developer surface includes documentation, developer portal, API reference, getting-started guide, support, FAQ, release notes, and 24 more developer resources.'
+  ClinicalTrials.gov''s developer surface includes pricing, engineering blog, documentation, developer portal, API reference, getting-started guide, support, and 26 more developer resources.'
 plans:
 - name: Clinical Trials Gov Plans Pricing
   plan_count: 1
@@ -262,7 +270,8 @@ rate_limits:
   name: Clinical Trials Gov Rate Limits
   slug: clinical-trials-gov-rate-limits
 rules:
-- effective_rule_count: 50
+- authorship: unmarked
+  effective_rule_count: 50
   extends:
   - spectral:oas
   name: ClinicalTrials.gov API Rules
@@ -275,20 +284,20 @@ rules:
   slug: clinical-trials-gov-rules
 score:
   band: thin
-  composite: 38.1
+  composite: 36.4
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 61.2
+    artifact_dirs: 25
+    catalog_earned: 49.5
     catalog_earned_first_party: 8.0
-    catalog_gap: 53.8
+    catalog_gap: 65.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.7
   facets:
-    access_clarity: 31.6
-    contract_governance: 67.3
+    access_clarity: 42.1
+    contract_governance: 31.8
     contract_quality: 42.0
-    developer_ergonomics: 28.0
+    developer_ergonomics: 30.4
     discoverability: 65.2
     operational_transparency: 0.0
   previous_composite: 38.1
@@ -308,8 +317,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

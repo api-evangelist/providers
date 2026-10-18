@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 37.1
-  scored_at: '2026-10-04'
+  score: 35.2
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 52
+- acting_count: 51
   human_in_the_loop: 2
   name: Yapily Agentic Access
   operation_count: 97
   slug: yapily-agentic-access
-  summary_line: 97 operations · 52 acting · 2 human-in-the-loop
+  summary_line: 97 operations · 51 acting · 2 human-in-the-loop
 api_count: 5
 apis:
 - baseURL: https://api.yapily.com
@@ -308,9 +308,13 @@ examples:
   name: Yapily Get Institutions Example
   slug: yapily-get-institutions-example
 finops:
-- name: Yapily Finops
+- has_sources: false
+  method: generated
+  name: Yapily Finops
+  primary_unit: ''
   service_category: ''
   slug: yapily-finops
+  template: true
 image: https://www.yapily.com/favicon.ico
 json_schemas:
 - name: Yapily AccountBalance
@@ -348,7 +352,7 @@ modified: 2026-05-25 00:00:00+00:00
 name: Yapily
 nav: Providers
 network: true
-overview: 'Yapily publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Institutions API, Consents and Authorisations API, Payments API (PIS), and 13 more. Tagged areas include Open Banking, AISP, PISP, Payments, and Account Information.
+overview: 'Yapily publishes 16 API contracts indexed on the [APIs.io](https://apis.io/) network, including Institutions API, Consents and Authorisations API, Payments API (PIS), and 13 more. Tagged areas include Open Banking, AISP, PISP, Payments, and Account Information.
 
 
   The Yapily catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -365,9 +369,10 @@ rate_limits:
   name: Yapily Rate Limits
   slug: yapily-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Yapily API Rules
+  name: Yapily — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -375,7 +380,8 @@ rules:
     info: 2
     warn: 3
   slug: yapily-jsonschema-spectral-rules
-- effective_rule_count: 48
+- authorship: unmarked
+  effective_rule_count: 48
   extends:
   - spectral:oas
   name: Yapily API Rules
@@ -388,22 +394,22 @@ rules:
   slug: yapily-rules
 score:
   band: developing
-  composite: 50.4
+  composite: 42.1
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 90.6
+    artifact_dirs: 19
+    catalog_earned: 72.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 24.4
+    catalog_gap: 43.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 46.8
+    access_clarity: 18.4
     contract_governance: 27.3
     contract_quality: 68.4
     developer_ergonomics: 52.4
     discoverability: 71.4
-    operational_transparency: 33.7
+    operational_transparency: 13.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -426,9 +432,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 16.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

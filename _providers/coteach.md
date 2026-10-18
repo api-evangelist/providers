@@ -33,10 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 4
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://coteach.ai/blog/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/coteach/refs/heads/main/security/coteach-domain-security.yml
   title: ''
@@ -112,14 +116,14 @@ mcp_servers:
 - description: Remote MCP server at www.coteach.ai over HTTP.
   name: Coteach Claude connector
   slug: coteach-claude-connector
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: CoTeach
 nav: Providers
 network: true
 overview: 'CoTeach is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, EdTech, Mathematics, and K-12.
 
 
-  CoTeach''s developer surface includes pricing, engineering blog, support, authentication, and 11 more developer resources.'
+  CoTeach''s developer surface includes pricing, engineering blog, support, authentication, and 12 more developer resources.'
 random_paper: 1
 scopes:
 - name: Coteach Scopes
@@ -154,8 +158,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 34.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

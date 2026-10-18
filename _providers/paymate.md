@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'Legacy India API (PMXClients service). Twelve JSON-over-POST methods let a business add vendors and customers as contacts, book and approve vendor payments, raise collection requests, generate hosted '
@@ -203,7 +203,7 @@ modified: '2026-08-26'
 name: PayMate
 nav: Providers
 network: true
-overview: 'PayMate publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Businesses API, Cards API, Collections API, and 4 more. Tagged areas include Payments, B2B Payments, Accounts Payable, Accounts Receivable, and Supply Chain Finance.
+overview: 'PayMate publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Businesses API, Cards API, Collections API, and 4 more. Tagged areas include Payments, B2B Payments, Accounts Payable, Accounts Receivable, and Supply Chain Finance.
 
 
   PayMate''s developer surface includes documentation, API reference, support, engineering blog, pricing, authentication, sandbox, and 19 more developer resources.'
@@ -220,7 +220,7 @@ score:
   band: developing
   composite: 53.9
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 61.0
     catalog_earned_first_party: 24.0
     catalog_gap: 54.0
@@ -257,8 +257,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 32.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

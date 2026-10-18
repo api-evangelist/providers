@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -85,6 +85,10 @@ collections:
   name: GridX Enterprise Rate Platform API
   slug: open-gridx
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://gridx.com/blog/
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/gridx/refs/heads/main/agentic-access/gridx-agentic-access.yml
   title: ''
@@ -130,19 +134,23 @@ common:
 created: '2026-06-20'
 description: GridX Inc. (Walnut Creek, California) is the Enterprise Rate Platform for modern utilities. Its cloud-based Rate Engine replicates utility billing-system (CIS) bill calculations to design, measure, implement, and bill advanced rates and programs. GridX exposes a partner/enterprise developer API (the Calculate / Empower APIs) for rate calculation, pricing retrieval, customer info/usage, bill and cost analysis, and OpenADR demand-response program subscriptions, currently documented for specific utility deployments (e.g., PG&E, SCE).
 finops:
-- name: Gridx Finops
+- has_sources: true
+  method: generated
+  name: Gridx Finops
+  primary_unit: ''
   service_category: Energy and Utilities Software
   slug: gridx-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/gridx.png
 layout: provider
-modified: '2026-06-20'
+modified: '2026-10-06'
 name: GridX
 nav: Providers
 network: true
-overview: 'GridX publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Customer API, OpenADR API, and 1 more. Tagged areas include Energy, Utilities, Rate Engine, Billing, and Rate Analytics.
+overview: 'GridX publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authentication API, Customer API, OpenADR API, and 1 more. Tagged areas include Energy, Utilities, Rate Engine, Billing, and Rate Analytics.
 
 
-  GridX''s developer surface includes authentication, documentation, and 7 more developer resources.'
+  GridX''s developer surface includes engineering blog, authentication, documentation, and 7 more developer resources.'
 plans:
 - name: Gridx Plans Pricing
   plan_count: 1
@@ -153,23 +161,23 @@ rate_limits:
   name: Gridx Rate Limits
   slug: gridx-rate-limits
 score:
-  band: thin
-  composite: 32.3
+  band: emerging
+  composite: 25.9
   coverage:
-    artifact_dirs: 10
-    catalog_earned: 58.0
+    artifact_dirs: 11
+    catalog_earned: 42.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.0
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.4
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 47.8
-    developer_ergonomics: 29.8
+    developer_ergonomics: 32.1
     discoverability: 66.1
-    operational_transparency: 28.4
+    operational_transparency: 7.9
   previous_composite: 32.3
   provenance:
     agentic_access: derived
@@ -184,9 +192,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 9.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

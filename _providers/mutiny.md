@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'Mutiny''s first-party hosted, remote Model Context Protocol server — the company''s only machine-callable surface. It lets an MCP-compatible assistant (Claude web, Claude Desktop, Claude Code, ChatGPT) '
@@ -173,7 +173,7 @@ modified: '2026-08-13'
 name: Mutiny
 nav: Providers
 network: true
-overview: 'Mutiny publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Sales, Marketing, and Go-To-Market.
+overview: 'Mutiny is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Sales, Marketing, and Go-To-Market.
 
 
   Mutiny''s developer surface includes authentication, documentation, getting-started guide, support, engineering blog, pricing, signup flow, and 19 more developer resources.'
@@ -195,7 +195,7 @@ score:
   band: developing
   composite: 40.9
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 61.0
     catalog_earned_first_party: 24.0
     catalog_gap: 54.0
@@ -224,8 +224,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 36.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

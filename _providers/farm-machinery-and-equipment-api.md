@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-04'
+  score: 20.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -65,6 +65,21 @@ collections:
   name: APIFarmer Farm Machinery and Equipment API
   slug: open-farm-machinery-and-equipment-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/farm-machinery-and-equipment-api/refs/heads/main/plans/farm-machinery-and-equipment-api-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/farm-machinery-and-equipment-api-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/farm-machinery-and-equipment-api/refs/heads/main/rate-limits/farm-machinery-and-equipment-api-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/farm-machinery-and-equipment-api-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/farm-machinery-and-equipment-api/refs/heads/main/finops/farm-machinery-and-equipment-api-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/farm-machinery-and-equipment-api-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/farm-machinery-and-equipment-api/refs/heads/main/agentic-access/farm-machinery-and-equipment-api-agentic-access.yml
   title: ''
@@ -83,19 +98,23 @@ common:
 created: '2025-02-12'
 description: The Farm Machinery and Equipment API is a software solution that provides developers with access to a database of information related to various types of farm machinery and equipment. This API allows users to retrieve detailed specifications, usage instructions, maintenance tips, and other relevant data for a wide range of agricultural tools and devices.
 finops:
-- name: Farm Machinery And Equipment Api Finops
+- has_sources: false
+  method: generated
+  name: Farm Machinery And Equipment Api Finops
+  primary_unit: ''
   service_category: API
   slug: farm-machinery-and-equipment-api-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/farm-machinery-and-equipment-api.png
 layout: provider
 modified: '2026-04-28'
 name: Farm Machinery and Equipment API
 nav: Providers
 network: true
-overview: 'Farm Machinery and Equipment API publishes 2 APIs on the [APIs.io](https://apis.io/) network, including Farm Machinery API, and 1 more. Tagged areas include Equipment, Farms, and Machinery.
+overview: 'Farm Machinery and Equipment API publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network, including Farm Machinery API, and 1 more. Tagged areas include Equipment, Farms, and Machinery.
 
 
-  Farm Machinery and Equipment API''s developer surface includes authentication and 2 more developer resources.'
+  Farm Machinery and Equipment API''s developer surface includes authentication and 5 more developer resources.'
 plans:
 - name: Farm Machinery And Equipment Api Plans Pricing
   plan_count: 3
@@ -106,18 +125,18 @@ rate_limits:
   name: Farm Machinery And Equipment Api Rate Limits
   slug: farm-machinery-and-equipment-api-rate-limits
 score:
-  band: thin
-  composite: 27.3
+  band: emerging
+  composite: 25.8
   coverage:
     artifact_dirs: 10
-    catalog_earned: 41.0
+    catalog_earned: 38.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 26.3
+    access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 46.5
     developer_ergonomics: 21.4
@@ -137,8 +156,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

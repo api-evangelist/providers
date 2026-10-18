@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -273,16 +273,20 @@ common:
 created: '2026-06-25'
 description: 'Publer is a social-media scheduling and management platform for planning, creating, publishing and analyzing content across Facebook, Instagram, X/Twitter, LinkedIn, TikTok, YouTube, Pinterest, Threads, Bluesky, Mastodon, Google Business Profiles, WordPress and Telegram. The Publer API (v1) is a RESTful JSON interface at https://app.publer.com/api/v1 covering 21 operations: schedule and publish posts, update and delete them, manage connected social accounts and workspaces, upload and list media, resolve asynchronous jobs, and read analytics including post insights, hashtag performance, best times to post and competitor comparison. Authentication is an API key sent as Authorization: Bearer-API with a Publer-Workspace-Id header, scoped per key. Publer also ships a first-party hosted MCP server in beta. API access is limited to Enterprise plan users, Business plan users in good standing, and Top Ambassadors.'
 finops:
-- name: Publer Finops
+- has_sources: true
+  method: generated
+  name: Publer Finops
+  primary_unit: ''
   service_category: Management and Governance
   slug: publer-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/publer.png
 layout: provider
 modified: '2026-08-13'
 name: Publer
 nav: Providers
 network: true
-overview: 'Publer publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Analytics API, Competitors API, and 5 more. Tagged areas include Social Media, Scheduling, Publishing, Content Management, and Marketing.
+overview: 'Publer publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, Analytics API, Competitors API, and 5 more. Tagged areas include Social Media, Scheduling, Publishing, Content Management, and Marketing.
 
 
   Publer''s developer surface includes authentication, documentation, engineering blog, API reference, getting-started guide, support, pricing, and 26 more developer resources.'
@@ -301,18 +305,18 @@ scopes:
   slug: publer-scopes
   summary_line: 5 scopes
 score:
-  band: developing
-  composite: 40.4
+  band: thin
+  composite: 38.9
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 64.0
+    artifact_dirs: 25
+    catalog_earned: 61.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 51.0
+    catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 39.5
+    access_clarity: 31.6
     contract_governance: 4.5
     contract_quality: 51.9
     developer_ergonomics: 22.0
@@ -335,8 +339,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: Conceptual (modeled) surface for Phind's AI answer engine - the developer-focused conversational search that powered phind.com and the VS Code extension. Phind never published an official public or pa
@@ -75,7 +75,7 @@ modified: '2026-07-11'
 name: Phind
 nav: Providers
 network: true
-overview: Phind publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include AI Coding Assistant, AI Search, Developer Tools, LLM, and Answer Engine.
+overview: Phind is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include AI Coding Assistant, AI Search, Developer Tools, LLM, and Answer Engine.
 plans:
 - name: Phind Plans Pricing
   plan_count: 5
@@ -85,13 +85,13 @@ score:
   band: minimal
   composite: 0.0
   coverage:
-    artifact_dirs: 2
-    catalog_earned: 42.8
+    artifact_dirs: 3
+    catalog_earned: 35.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 72.2
+    catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -14.8
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
@@ -100,20 +100,21 @@ score:
     discoverability: 0.0
     operational_transparency: 0.0
   lifecycle: defunct
-  previous_composite: 14.8
+  previous_composite: 0.0
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 0.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: falling
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/phind/refs/heads/main/screenshots/phind-2026-10-11T192146.png
 slug: phind
 tags:
 - AI Coding Assistant

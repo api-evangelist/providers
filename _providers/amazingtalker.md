@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.0
-  scored_at: '2026-10-04'
-api_count: 1
+  scored_at: '2026-10-17'
+api_count: 2
 apis:
 - baseURL: https://en.amazingtalker.com
   baseurl_source: spec
@@ -118,7 +118,7 @@ modified: '2026-07-17'
 name: AmazingTalker
 nav: Providers
 network: true
-overview: 'AmazingTalker publishes 1 API on the [APIs.io](https://apis.io/) network: Pages API. Tagged areas include Company, Education, Tutoring, Language Learning, and Marketplace.
+overview: 'AmazingTalker publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Pages API. Tagged areas include Company, Education, Tutoring, Language Learning, and Marketplace.
 
 
   AmazingTalker''s developer surface includes authentication, engineering blog, and 11 more developer resources.'
@@ -164,8 +164,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

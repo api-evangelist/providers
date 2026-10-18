@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The El Dorado onramp/offramp trading API for converting between Latin American fiat currencies and crypto (USDT on Arbitrum). Create buy/sell quotes and orders, manage KYC, and fetch supported currenc
@@ -156,7 +156,7 @@ modified: '2026-07-19'
 name: Eldorado
 nav: Providers
 network: true
-overview: 'Eldorado publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto Web3, Stablecoins, Payments, and On-Ramp.
+overview: 'Eldorado is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Web3, Stablecoins, Payments, and On-Ramp.
 
 
   The Eldorado catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -198,8 +198,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 15.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -218,7 +218,7 @@ security:
 slug: eldorado
 tags:
 - Company
-- Crypto Web3
+- Web3
 - Stablecoins
 - Payments
 - On-Ramp
@@ -229,6 +229,5 @@ tags:
 - Compliance
 - Fintech
 - Trading
-- Web3
 website: https://eldorado.io
 ---

@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.6
-  scored_at: '2026-10-04'
+  score: 28.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -87,6 +87,25 @@ collections:
   name: AgeChecker.Net Age Verification Sessions Webhooks API
   slug: open-agechecker-net-webhooks-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/agechecker-net/refs/heads/main/plans/agechecker-net-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/agechecker-net-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/agechecker-net/refs/heads/main/rate-limits/agechecker-net-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/agechecker-net-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/agechecker-net/refs/heads/main/finops/agechecker-net-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/agechecker-net-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://agechecker.net/blog
 - group: company
   title: ''
   type: Website
@@ -189,9 +208,13 @@ examples:
   name: Age Verification Webhook Config Example
   slug: age-verification-webhook-config-example
 finops:
-- name: Agechecker Net Finops
+- has_sources: false
+  method: generated
+  name: Agechecker Net Finops
+  primary_unit: ''
   service_category: API
   slug: agechecker-net-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/agechecker-net.png
 json_schemas:
 - name: SessionList
@@ -231,17 +254,17 @@ jsonld:
   property_count: 25
   slug: agechecker-net-age-context
 layout: provider
-modified: '2026-09-16'
+modified: '2026-10-06'
 name: AgeChecker.Net
 nav: Providers
 network: true
-overview: 'AgeChecker.Net publishes 3 APIs on the [APIs.io](https://apis.io/) network: Sessions API, Verification API, and Webhooks API. Tagged areas include Age Verification, Identity, Compliance, Regulatory, and E-Commerce.
+overview: 'AgeChecker.Net publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Sessions API, Verification API, and Webhooks API. Tagged areas include Age Verification, Identity, Compliance, Regulatory, and E-Commerce.
 
 
   The AgeChecker.Net catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  AgeChecker.Net''s developer surface includes authentication, developer portal, getting-started guide, code examples, and 16 more developer resources.'
+  AgeChecker.Net''s developer surface includes engineering blog, authentication, developer portal, getting-started guide, code examples, and 19 more developer resources.'
 plans:
 - name: Agechecker Net Plans Pricing
   plan_count: 3
@@ -252,9 +275,10 @@ rate_limits:
   name: Agechecker Net Rate Limits
   slug: agechecker-net-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: AgeChecker.Net API Rules
+  name: AgeChecker.Net — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -262,7 +286,8 @@ rules:
     info: 1
     warn: 4
   slug: agechecker-net-jsonschema-spectral-rules
-- effective_rule_count: 70
+- authorship: generated
+  effective_rule_count: 70
   extends:
   - spectral:oas
   name: AgeChecker.Net API Rules
@@ -275,20 +300,20 @@ rules:
   slug: agechecker-net-spectral-rules
 score:
   band: developing
-  composite: 44.2
+  composite: 43.2
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 66.0
+    artifact_dirs: 20
+    catalog_earned: 63.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 49.0
+    catalog_gap: 52.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.0
   facets:
-    access_clarity: 36.8
+    access_clarity: 28.9
     contract_governance: 27.3
     contract_quality: 63.3
-    developer_ergonomics: 44.0
+    developer_ergonomics: 46.4
     discoverability: 73.2
     operational_transparency: 7.9
   previous_composite: 44.2
@@ -305,8 +330,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

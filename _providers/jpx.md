@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 8
 apis:
 - description: Listed issue master, daily and morning-session OHLCV, minute bars and tick trades (add-on), earnings calendar, and weekly trading by investor type for Tokyo Stock Exchange equities, under /v2/equities
@@ -216,7 +216,7 @@ modified: '2026-07-22'
 name: JPX (Japan Exchange Group)
 nav: Providers
 network: true
-overview: 'JPX (Japan Exchange Group) publishes 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Finance, Market Data, Stocks, Exchange, and Trading.
+overview: 'JPX (Japan Exchange Group) is listed with 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Finance, Market Data, Stocks, Exchange, and Trading.
 
 
   JPX (Japan Exchange Group)''s developer surface includes CLI, authentication, changelog, release notes, getting-started guide, API reference, developer portal, and 24 more developer resources.'
@@ -233,7 +233,7 @@ score:
   band: developing
   composite: 51.6
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 64.0
     catalog_earned_first_party: 24.0
     catalog_gap: 51.0
@@ -265,8 +265,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

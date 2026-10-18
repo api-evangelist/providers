@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 4
 apis:
 - baseURL: https://parcelservices-se.dbschenker.com/Apipartner
@@ -143,7 +143,7 @@ modified: '2026-07-30'
 name: DB Schenker
 nav: Providers
 network: true
-overview: 'DB Schenker publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Delivery Point API, Delivery Point2 API, Delivery Point3 API, and 7 more. Tagged areas include Logistics, Supply Chain, Germany, Freight Forwarding, and Parcel.
+overview: 'DB Schenker publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Delivery Point API, Delivery Point2 API, Delivery Point3 API, and 7 more. Tagged areas include Logistics, Supply Chain, Germany, Freight Forwarding, and Parcel.
 
 
   DB Schenker''s developer surface includes API reference, documentation, and 6 more developer resources.'
@@ -152,7 +152,7 @@ score:
   band: emerging
   composite: 21.5
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -187,8 +187,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 0.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

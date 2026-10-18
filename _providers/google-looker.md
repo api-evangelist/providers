@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -81,6 +81,21 @@ collections:
   name: Google Looker API
   slug: open-openapi
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/google-looker/refs/heads/main/plans/google-looker-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/google-looker-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/google-looker/refs/heads/main/rate-limits/google-looker-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/google-looker-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/google-looker/refs/heads/main/finops/google-looker-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/google-looker-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/google-looker/refs/heads/main/capabilities/google-looker-capability-edges.yml
   title: ''
@@ -153,9 +168,13 @@ common:
 created: '2024-01-01'
 description: A collection of APIs for Google Looker, a modern business intelligence and analytics platform.
 finops:
-- name: Google Looker Finops
+- has_sources: true
+  method: generated
+  name: Google Looker Finops
+  primary_unit: ''
   service_category: Analytics
   slug: google-looker-finops
+  template: false
 image: https://cloud.google.com/images/social-icon-google-cloud-1200-630.png
 json_schemas:
 - name: Look
@@ -171,13 +190,13 @@ modified: '2026-09-16'
 name: Google Looker
 nav: Providers
 network: true
-overview: 'Google Looker publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Looks API, Users API, and 1 more. Tagged areas include Analytics, Business Intelligence, Data Visualization, and Reporting.
+overview: 'Google Looker publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authentication API, Looks API, Users API, and 1 more. Tagged areas include Analytics, Business Intelligence, Data Visualization, and Reporting.
 
 
   The Google Looker catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Google Looker''s developer surface includes authentication, developer portal, getting-started guide, engineering blog, release notes, and 11 more developer resources.'
+  Google Looker''s developer surface includes authentication, developer portal, getting-started guide, engineering blog, release notes, and 14 more developer resources.'
 plans:
 - name: Google Looker Plans Pricing
   plan_count: 4
@@ -188,9 +207,10 @@ rate_limits:
   name: Google Looker Rate Limits
   slug: google-looker-rate-limits
 rules:
-- effective_rule_count: 4
+- authorship: generated
+  effective_rule_count: 4
   extends: []
-  name: Google Looker API Rules
+  name: Google Looker — jsonschema rules
   rule_count: 4
   severity_counts:
     error: 0
@@ -198,7 +218,8 @@ rules:
     info: 1
     warn: 3
   slug: google-looker-jsonschema-spectral-rules
-- effective_rule_count: 59
+- authorship: generated
+  effective_rule_count: 59
   extends:
   - spectral:oas
   name: Google Looker API Rules
@@ -211,17 +232,17 @@ rules:
   slug: google-looker-spectral-rules
 score:
   band: developing
-  composite: 45.6
+  composite: 44.1
   coverage:
-    artifact_dirs: 15
-    catalog_earned: 48.5
+    artifact_dirs: 16
+    catalog_earned: 45.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 66.5
+    catalog_gap: 69.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 47.4
+    access_clarity: 39.5
     contract_governance: 13.6
     contract_quality: 51.4
     developer_ergonomics: 52.4
@@ -241,8 +262,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

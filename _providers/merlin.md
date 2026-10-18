@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: API for Merlin's digital music licensing platform, documented on the Technology page.
@@ -31,6 +31,14 @@ apis:
   slug: merlin-api
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://merlinnetwork.org/news/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://merlinnetwork.org/news/feed/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/merlin/refs/heads/main/hosts/merlin-hosts.yml
   title: ''
@@ -86,32 +94,34 @@ created: '2026-09-23'
 description: Merlin is a global digital music licensing organization that represents independent music companies, providing them access to licensing deals, tools, and data insights. It operates a membership platform called Wizard, offers technology solutions, and publishes reports and industry insights to support its members in navigating the digital music ecosystem.
 image: https://merlinnetwork.org/wp-content/uploads/2023/09/merlin-site-image.png
 layout: provider
-modified: '2026-09-23'
+modified: '2026-10-06'
 name: Merlin
 nav: Providers
 network: true
-overview: 'Merlin publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Music, Licensing, Technology, and Membership.
+overview: 'Merlin is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Music, Licensing, Technology, and Membership.
 
 
-  Merlin''s developer surface includes documentation, getting-started guide, support, and 7 more developer resources.'
+  Merlin''s developer surface includes engineering blog, documentation, getting-started guide, support, and 8 more developer resources.'
 random_paper: 9
 score:
   band: emerging
-  composite: 15.1
+  composite: 15.6
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 10
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.5
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 26.2
+    developer_ergonomics: 28.6
     discoverability: 58.9
     operational_transparency: 0.0
+  previous_composite: 15.1
   provenance:
     mcp: derived
   regulatory:
@@ -120,12 +130,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/merlin/refs/heads/main/screenshots/merlin-2026-10-11T111023.png
 security:
 - kind: domain-security
   name: Merlin Domain Security

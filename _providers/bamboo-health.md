@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://bamboohealth.com/feed/
 - group: company
   title: ''
   type: Website
@@ -78,20 +82,20 @@ created: '2026-07-17'
 description: Bamboo Health (formerly Appriss Health + PatientPing) is a healthcare technology company delivering Real-Time Care Intelligence across the physical and behavioral health continuum. It operates one of the nation's largest care-collaboration networks, connecting health systems, health plans, pharmacies, and state agencies through prescription drug monitoring (PDMP), care coordination, and behavioral healthcare navigation. Flagship solutions include Bamboo Bridge, OpenBeds, Pings, NarxCare, and the PMP AWARxE state monitoring platform. Backed by Insight Partners, the company supports over a billion patient encounters annually. Bamboo Health does not publish a public developer API; integrations are delivered through EHR workflows and partner/state programs. Security posture is documented in a public Trust Center (SOC 2 Type II, HITRUST CSF, HIPAA, NIST 800-53).
 image: https://bamboohealth.com/wp-content/uploads/2025/08/bamboo_KO_green_text.svg
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Bamboo Health
 nav: Providers
 network: true
 overview: 'Bamboo Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Care Coordination, Behavioral Health, and Prescription Drug Monitoring.
 
 
-  Bamboo Health''s developer surface includes support, engineering blog, and 7 more developer resources.'
+  Bamboo Health''s developer surface includes support, engineering blog, and 8 more developer resources.'
 random_paper: 1
 score:
   band: emerging
   composite: 11.0
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -112,8 +116,8 @@ score:
     regime: Health
     regime_id: health
     score: 10.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

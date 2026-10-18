@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.8
-  scored_at: '2026-10-04'
+  score: 20.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -99,6 +99,21 @@ collections:
   name: OANDA v20 REST Accounts Users API
   slug: open-oanda-users-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/oanda/refs/heads/main/plans/oanda-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/oanda-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/oanda/refs/heads/main/rate-limits/oanda-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/oanda-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/oanda/refs/heads/main/finops/oanda-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/oanda-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/oanda/refs/heads/main/capabilities/oanda-capability-edges.yml
   title: ''
@@ -316,9 +331,13 @@ features:
 - FIX API for institutional customers
 - MT4 integration for backtesting support
 finops:
-- name: Oanda Finops
+- has_sources: true
+  method: generated
+  name: Oanda Finops
+  primary_unit: ''
   service_category: Financial Services
   slug: oanda-finops
+  template: false
 image: https://www.oanda.com/img/oanda-logo.png
 json_schemas:
 - name: AcceptDatetimeFormat
@@ -799,13 +818,13 @@ modified: '2026-06-13'
 name: OANDA
 nav: Providers
 network: true
-overview: 'OANDA publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Instruments API, Pricing API, and 7 more. Tagged areas include Forex, FX Trading, CFD Trading, Financial Services, and Trading APIs.
+overview: 'OANDA publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, Instruments API, Pricing API, and 7 more. Tagged areas include Foreign Exchange, FX Trading, CFD Trading, Financial Services, and Trading APIs.
 
 
   The OANDA catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  OANDA''s developer surface includes developer portal, documentation, getting-started guide, API reference, authentication, pricing, signup flow, and 12 more developer resources.'
+  OANDA''s developer surface includes developer portal, documentation, getting-started guide, API reference, authentication, pricing, signup flow, and 15 more developer resources.'
 plans:
 - name: Oanda Plans Pricing
   plan_count: 6
@@ -816,9 +835,10 @@ rate_limits:
   name: Oanda Rate Limits
   slug: oanda-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: OANDA API Rules
+  name: OANDA — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -827,23 +847,23 @@ rules:
     warn: 3
   slug: oanda-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 44.9
+  band: thin
+  composite: 36.6
   coverage:
-    artifact_dirs: 14
-    catalog_earned: 65.9
+    artifact_dirs: 16
+    catalog_earned: 47.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 49.1
+    catalog_gap: 67.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 60.0
+    access_clarity: 31.6
     contract_governance: 9.8
     contract_quality: 50.7
     developer_ergonomics: 50.0
     discoverability: 53.6
-    operational_transparency: 33.7
+    operational_transparency: 13.2
   previous_composite: 44.9
   provenance:
     agentic_access: derived
@@ -858,9 +878,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 21.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0
@@ -872,7 +892,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: oanda
 tags:
-- Forex
+- Foreign Exchange
 - FX Trading
 - CFD Trading
 - Financial Services

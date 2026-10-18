@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -213,7 +213,7 @@ modified: '2026-08-23'
 name: Kite Hill
 nav: Providers
 network: true
-overview: 'Kite Hill publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer Packaged Goods, Plant Based Foods, Dairy Alternatives, and Food and Beverage.
+overview: 'Kite Hill is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer Packaged Goods, Plant Based Foods, Dairy Alternatives, and Food and Beverage.
 
 
   Kite Hill''s developer surface includes documentation, authentication, FAQ, engineering blog, support, signup flow, and 25 more developer resources.'
@@ -235,7 +235,7 @@ score:
   band: thin
   composite: 28.4
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 48.0
     catalog_earned_first_party: 8.0
     catalog_gap: 67.0
@@ -268,8 +268,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

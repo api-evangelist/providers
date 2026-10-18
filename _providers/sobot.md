@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 4
 apis:
 - baseURL: https://sg.sobot.io
@@ -84,6 +84,10 @@ collections:
   name: OpenAPI Plant Store Agent User API
   slug: open-sobot-user-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.sobot.io/blog/feed/
 - group: company
   title: ''
   type: Website
@@ -227,21 +231,21 @@ created: '2026-07-17'
 description: Sobot is an all-in-one AI-powered contact center and customer engagement platform used by more than 100,000 companies worldwide. Its products span an omnichannel Live Chat workspace, a multilingual AI Chatbot, cloud Voice / call-center with global numbers, a collaborative Ticketing system, a WhatsApp Business API, and outbound Voicebot / telemarketing. Sobot exposes developer APIs for online chat sessions, agent and department management, and voice extension administration, plus first-party SDKs for Android, iOS, HarmonyOS NEXT, Flutter, and Web (JavaScript) so teams can embed chat, voice, and ticketing into their own applications. The developer surface is documented on a Mintlify docs site and secured with HTTP bearer tokens.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sobot.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Sobot
 nav: Providers
 network: true
-overview: 'Sobot publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Agent API, basic-public/service/坐席信息管理 API, Exts API, and 2 more. Tagged areas include Company, Enterprise, Contact Center, Customer Service, and Live Chat.
+overview: 'Sobot publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agent API, basic-public/service/坐席信息管理 API, Exts API, and 2 more. Tagged areas include Company, Enterprise, Contact Center, Customer Service, and Live Chat.
 
 
   The Sobot catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Sobot''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 23 more developer resources.'
+  Sobot''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 24 more developer resources.'
 random_paper: 1
 score:
   band: thin
-  composite: 35.2
+  composite: 34.9
   coverage:
     artifact_dirs: 22
     catalog_earned: 40.0
@@ -249,7 +253,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 27.6
     contract_governance: 4.5
@@ -269,12 +273,12 @@ score:
     skills: derived
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 22.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

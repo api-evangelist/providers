@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -243,6 +243,16 @@ collections:
   name: WhatsApp Business Management Analytics Two-Step Verification API
   slug: open-whatsapp-two-step-verification-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/whatsapp/refs/heads/main/plans/whatsapp-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/whatsapp-plans-pricing.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/whatsapp/refs/heads/main/finops/whatsapp-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/whatsapp-finops.yml
 - group: company
   title: ''
   type: Website
@@ -599,9 +609,13 @@ features:
 - description: Route conversations to multiple agents with conversation assignment.
   name: Multi-Agent Support
 finops:
-- name: Whatsapp Finops
+- has_sources: true
+  method: generated
+  name: Whatsapp Finops
+  primary_unit: ''
   service_category: Business Messaging
   slug: whatsapp-finops
+  template: false
 image: /assets/icons/whatsapp.png
 integrations:
 - description: Manage WhatsApp alongside Facebook and Instagram from a unified dashboard.
@@ -836,13 +850,13 @@ modified: '2026-09-16'
 name: WhatsApp
 nav: Providers
 network: true
-overview: 'WhatsApp publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Flows API, On-Premises API, Analytics API, and 14 more. Tagged areas include Messaging, Analytics, WhatsApp, Business Messaging, and Meta.
+overview: 'WhatsApp publishes 17 API contracts indexed on the [APIs.io](https://apis.io/) network, including Flows API, On-Premises API, Analytics API, and 14 more. Tagged areas include Messaging, Analytics, WhatsApp, Business Messaging, and Meta.
 
 
   The WhatsApp catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  WhatsApp''s developer surface includes authentication, getting-started guide, changelog, engineering blog, support, developer console, Stack Overflow tag, and 45 more developer resources.'
+  WhatsApp''s developer surface includes authentication, getting-started guide, changelog, engineering blog, support, developer console, Stack Overflow tag, and 47 more developer resources.'
 plans:
 - name: Whatsapp Plans Pricing
   plan_count: 2
@@ -853,10 +867,11 @@ rate_limits:
   name: Whatsapp Rate Limits
   slug: whatsapp-rate-limits
 rules:
-- effective_rule_count: 35
+- authorship: generated
+  effective_rule_count: 35
   extends:
   - spectral:asyncapi
-  name: WhatsApp API Rules
+  name: WhatsApp — asyncapi rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -864,9 +879,10 @@ rules:
     info: 0
     warn: 7
   slug: whatsapp-asyncapi-spectral-rules
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: WhatsApp API Rules
+  name: WhatsApp — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -874,7 +890,8 @@ rules:
     info: 1
     warn: 5
   slug: whatsapp-jsonschema-spectral-rules
-- effective_rule_count: 63
+- authorship: generated
+  effective_rule_count: 63
   extends:
   - spectral:oas
   name: WhatsApp API Rules
@@ -887,26 +904,26 @@ rules:
   slug: whatsapp-spectral-rules
 score:
   band: developing
-  composite: 52.0
+  composite: 51.1
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 56.5
     catalog_earned_first_party: 0.0
     catalog_gap: 58.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: -1.4
   facets:
-    access_clarity: 44.7
+    access_clarity: 36.8
     contract_governance: 13.6
     contract_quality: 71.0
     developer_ergonomics: 76.2
-    discoverability: 42.9
+    discoverability: 48.2
     operational_transparency: 36.8
   open_source:
     applies: true
     score: 40.0
-  previous_composite: 51.4
+  previous_composite: 52.5
   provenance:
     agentic_access: derived
     contracts:
@@ -920,8 +937,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

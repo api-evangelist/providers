@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.0
-  scored_at: '2026-10-04'
+  score: 17.8
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -100,6 +100,25 @@ collections:
   name: Reclamation Information Sharing Environment (RISE) API
   slug: open-bureau-of-reclamation
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/bureau-of-reclamation/refs/heads/main/plans/bureau-of-reclamation-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/bureau-of-reclamation-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/bureau-of-reclamation/refs/heads/main/rate-limits/bureau-of-reclamation-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/bureau-of-reclamation-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/bureau-of-reclamation/refs/heads/main/finops/bureau-of-reclamation-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/bureau-of-reclamation-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.usbr.gov/newsroom/
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/bureau-of-reclamation/refs/heads/main/agentic-access/bureau-of-reclamation-agentic-access.yml
   title: ''
@@ -137,19 +156,23 @@ common:
 created: '2024-11-30'
 description: Established in 1902, the Bureau of Reclamation is best known for the dams, powerplants, and canals it constructed in the 17 western states. These water projects led to homesteading and promoted the economic development of the West. Reclamation has constructed more than 600 dams and reservoirs including Hoover Dam on the Colorado River and Grand Coulee on the Columbia River.
 finops:
-- name: Bureau Of Reclamation Finops
+- has_sources: false
+  method: generated
+  name: Bureau Of Reclamation Finops
+  primary_unit: ''
   service_category: API
   slug: bureau-of-reclamation-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bureau-of-reclamation.png
 layout: provider
-modified: '2026-05-19'
+modified: '2026-10-06'
 name: Bureau of Reclamation
 nav: Providers
 network: true
-overview: 'Bureau of Reclamation publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Catalog API, Locations API, Model Runs API, and 3 more. Tagged areas include Energy, Federal Government, Infrastructure, Water, and Hydrology.
+overview: 'Bureau of Reclamation is listed with 6 APIs on the [APIs.io](https://apis.io/) network, including Catalog API, Locations API, Model Runs API, and 3 more. Tagged areas include Energy, Federal Government, Infrastructure, Water, and Hydrology.
 
 
-  Bureau of Reclamation''s developer surface includes developer portal and 7 more developer resources.'
+  Bureau of Reclamation''s developer surface includes engineering blog, developer portal, and 10 more developer resources.'
 plans:
 - name: Bureau Of Reclamation Plans Pricing
   plan_count: 3
@@ -161,20 +184,20 @@ rate_limits:
   slug: bureau-of-reclamation-rate-limits
 score:
   band: emerging
-  composite: 20.7
+  composite: 22.8
   coverage:
-    artifact_dirs: 9
-    catalog_earned: 43.0
+    artifact_dirs: 10
+    catalog_earned: 46.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.0
-    catalog_max: 100.0
+    catalog_gap: 69.0
+    catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.1
   facets:
-    access_clarity: 0.0
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 38.6
-    developer_ergonomics: 19.0
+    developer_ergonomics: 21.4
     discoverability: 71.4
     operational_transparency: 10.5
   jurisdiction:
@@ -196,8 +219,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 4.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

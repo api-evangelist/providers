@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: 'Razer Chroma REST API for controlling 16.8-million-color RGB lighting effects across Chroma-enabled keyboards, mice, headsets, mousepads, keypads and ChromaLink devices. Clients POST application info '
@@ -44,6 +44,10 @@ apis:
   slug: razer-gold-api
 artifact_total: 4
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.razer.com/blog/feed
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/razer/refs/heads/main/security/razer-domain-security.yml
   title: ''
@@ -107,26 +111,26 @@ created: '2026-07-17'
 description: Razer is a global lifestyle brand for gamers that designs gaming hardware (Blade laptops, mice, keyboards, headsets and other peripherals), software (Synapse, Cortex) and services. For developers Razer operates the WYVRN immersive gaming platform, exposing the Razer Chroma RGB SDK and REST API for controlling 16.8-million-color lighting across devices, the Razer Sensa HD Haptics and THX Spatial Audio SDKs, Razer ID for user sign-in, and the Razer Gold / Razer Silver virtual-currency payment and rewards APIs for in-app monetization across 34,000+ integrated games and apps.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/razer.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Razer
 nav: Providers
 network: true
-overview: 'Razer publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Gaming, Hardware, and Peripherals.
+overview: 'Razer is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Gaming, Hardware, and Peripherals.
 
 
-  Razer''s developer surface includes documentation, engineering blog, support, authentication, and 9 more developer resources.'
+  Razer''s developer surface includes documentation, engineering blog, support, authentication, and 10 more developer resources.'
 random_paper: 20
 score:
   band: emerging
-  composite: 15.3
+  composite: 15.4
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
@@ -141,8 +145,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 10.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

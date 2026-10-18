@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: REST API (v3) for HackerRank for Work. Lets customers programmatically manage tests, candidates, questions, interviews, and results, and integrate coding assessments into their own hiring and applican
@@ -42,6 +42,10 @@ apis:
   slug: hackerrank-for-work-api
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.hackerrank.com/blog/feed/
 - group: company
   title: ''
   type: Website
@@ -105,26 +109,26 @@ created: '2026-07-17'
 description: HackerRank is a developer skills platform used by companies to screen, interview, and upskill technical talent, and by more than 26 million developers to practice coding and earn skill certifications. Its products include Screen (automated coding assessments), Interview (collaborative real-time coding interviews), Engage (technical hiring events and hackathons), and SkillUp. HackerRank for Work exposes a public REST API (v3) so customers can programmatically manage tests, candidates, questions, interviews, and results, and integrate assessments into their own applicant-tracking and hiring workflows. This API Evangelist profile catalogs HackerRank's developer surface and the enrichment artifacts derived from it.
 image: https://www.hackerrank.com/wp-content/uploads/2018/08/hackerrank_logo.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: HackerRank
 nav: Providers
 network: true
-overview: 'HackerRank publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Developer Skills, Technical Hiring, Coding Assessment, and Recruiting.
+overview: 'HackerRank is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Developer Skills, Technical Hiring, Coding Assessment, and Recruiting.
 
 
-  HackerRank''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, authentication, and 7 more developer resources.'
+  HackerRank''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, authentication, and 8 more developer resources.'
 random_paper: 16
 score:
   band: emerging
-  composite: 21.4
+  composite: 21.5
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 44.7
     contract_governance: 0.0
@@ -139,8 +143,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 19.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

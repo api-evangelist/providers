@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.mavenoid.com/en/blog/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/mavenoid/refs/heads/main/security/mavenoid-domain-security.yml
   title: ''
@@ -73,26 +77,26 @@ created: '2026-07-17'
 description: Mavenoid is an AI agent platform for product support, helping hardware and consumer-electronics companies deflect and resolve customer issues through self-service troubleshooting across voice, text, image, and video. Its products include Voice Assist (AI call routing and self-service), a Dynamic Help Center that surfaces AI-powered support in search results, an embeddable Virtual Assistant, and an Insights analytics dashboard. Mavenoid connects to CRM, ticketing, ERP, e-commerce, and IoT systems. The company is backed by Creandum and Point Nine. As of this enrichment pass Mavenoid publishes no public developer API, OpenAPI/AsyncAPI specification, SDK, or well-known discovery surface; integrations are configured within its product rather than via a documented public REST API.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mavenoid.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Mavenoid
 nav: Providers
 network: true
-overview: 'Mavenoid is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Software-as-a-Service, Customer Support, AI Agents, and Self-Service.
+overview: 'Mavenoid is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Software-as-a-Service, Customer Service, AI Agents, and Self-Service.
 
 
-  Mavenoid''s developer surface includes engineering blog, support, signup flow, and 5 more developer resources.'
+  Mavenoid''s developer surface includes engineering blog, support, signup flow, and 6 more developer resources.'
 random_paper: 15
 score:
   band: minimal
-  composite: 10.1
+  composite: 10.2
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 23.7
     contract_governance: 0.0
@@ -107,8 +111,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 9.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -124,7 +128,7 @@ slug: mavenoid
 tags:
 - Company
 - Software-as-a-Service
-- Customer Support
+- Customer Service
 - AI Agents
 - Self-Service
 - Troubleshooting

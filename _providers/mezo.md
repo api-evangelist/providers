@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: EVM-compatible Ethereum JSON-RPC interface to the Mezo chain (eth_* methods) for reading chain state and submitting transactions. Mainnet EVM chain ID 31612, testnet 31611; BTC is the native gas token
@@ -43,6 +43,10 @@ apis:
   slug: mezo-block-explorer-api
 artifact_total: 4
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://mezo.org/blog/rss/
 - group: company
   title: ''
   type: Website
@@ -163,18 +167,18 @@ created: '2026-07-17'
 description: 'Mezo is Bitcoin''s economic layer — a Cosmos SDK-based appchain with full EVM compatibility, built by Thesis (creators of tBTC, Fold, and Taho). It lets Bitcoiners borrow, lend, spend, save, and earn yield without selling their BTC: BTC is used natively for gas, tBTC provides reliable bridging, and MUSD is a Bitcoin-backed stablecoin pegged 1:1 to the U.S. dollar. The chain runs the mezod reference client (forked from Evmos) on CometBFT consensus with a dual-staking model, and exposes Ethereum JSON-RPC, Cosmos REST/gRPC + CometBFT RPC, and a Blockscout explorer API. Developers deploy Solidity contracts with Hardhat or Foundry against mainnet EVM chain ID 31612 and testnet 31611, and can accept MUSD payments over the x402 (HTTP 402) protocol.'
 image: https://avatars.githubusercontent.com/u/175807022?v=4
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Mezo
 nav: Providers
 network: true
-overview: 'Mezo publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto Web3, Blockchain, Bitcoin, and DeFi.
+overview: 'Mezo is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Web3, Blockchain, Bitcoin, and DeFi.
 
 
-  Mezo''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, CLI, and 19 more developer resources.'
+  Mezo''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, CLI, and 20 more developer resources.'
 random_paper: 3
 score:
   band: thin
-  composite: 33.7
+  composite: 33.8
   coverage:
     artifact_dirs: 12
     catalog_earned: 37.0
@@ -182,7 +186,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
@@ -199,8 +203,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -219,7 +223,7 @@ security:
 slug: mezo
 tags:
 - Company
-- Crypto Web3
+- Web3
 - Blockchain
 - Bitcoin
 - DeFi
@@ -228,7 +232,6 @@ tags:
 - Stablecoins
 - JSON-RPC
 - Layer 2
-- Web3
 - Cryptocurrency
 website: https://mezo.org
 ---

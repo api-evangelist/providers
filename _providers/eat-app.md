@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.0
-  scored_at: '2026-10-04'
+  score: 26.1
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 4
+- acting_count: 3
   human_in_the_loop: 0
   name: Eat App Agentic Access
   operation_count: 15
   slug: eat-app-agentic-access
-  summary_line: 15 operations · 4 acting
+  summary_line: 15 operations · 3 acting
 api_count: 1
 apis:
 - baseURL: https://api.eatapp.co/partners/v2
@@ -107,6 +107,10 @@ collections:
   name: Eat App Platform Concierge - Availability Tables and Floor Plans (Modeled) API
   slug: open-eat-app-tables-and-floor-plans-modeled-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://restaurant.eatapp.co/blog/rss.xml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/eat-app/refs/heads/main/capabilities/eat-app-capability-edges.yml
   title: ''
@@ -169,19 +173,23 @@ common:
 created: '2026-07-05'
 description: Eat App is a restaurant reservation and table management platform used by restaurants and restaurant groups to take bookings, manage floor plans and tables, build guest CRM profiles, and run front-of-house operations. Its developer surface is a partner/key-gated REST platform - a Partner API for booking channels to read availability and post reservations, and a Concierge API for restaurants, vendors, and groups to sync reservations, guests, availability, restaurants, and groups. Both use JSON:API-style responses, Bearer-token authentication, and an api.eat-sandbox.co sandbox mirroring api.eatapp.co production. Eat App also exposes a Restaurant MCP server for connecting AI assistants. API access is granted on request rather than fully self-serve.
 finops:
-- name: Eat App Finops
+- has_sources: true
+  method: generated
+  name: Eat App Finops
+  primary_unit: ''
   service_category: Business Applications
   slug: eat-app-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/eat-app.png
 layout: provider
-modified: '2026-07-05'
+modified: '2026-10-06'
 name: Eat App
 nav: Providers
 network: true
-overview: 'Eat App publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Concierge - Availability API, Concierge - Guests API, Concierge - Reference API, and 4 more. Tagged areas include Restaurant, Reservations, Table Management, Hospitality, and Booking.
+overview: 'Eat App publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Concierge - Availability API, Concierge - Guests API, Concierge - Reference API, and 4 more. Tagged areas include Restaurant, Reservations, Table Management, Hospitality, and Booking.
 
 
-  Eat App''s developer surface includes authentication, documentation, signup flow, engineering blog, and 9 more developer resources.'
+  Eat App''s developer surface includes authentication, documentation, signup flow, engineering blog, and 10 more developer resources.'
 plans:
 - name: Eat App Plans Pricing
   plan_count: 5
@@ -193,22 +201,22 @@ rate_limits:
   slug: eat-app-rate-limits
 score:
   band: thin
-  composite: 38.4
+  composite: 30.1
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 61.6
+    artifact_dirs: 13
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.4
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 49.5
+    access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 50.7
     developer_ergonomics: 32.1
     discoverability: 66.1
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   previous_composite: 38.4
   provenance:
     agentic_access: derived
@@ -223,9 +231,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 34
+- acting_count: 25
   human_in_the_loop: 3
   name: Clearml Agentic Access
   operation_count: 34
   slug: clearml-agentic-access
-  summary_line: 34 operations · 34 acting · 3 human-in-the-loop
+  summary_line: 34 operations · 25 acting · 3 human-in-the-loop
 api_count: 1
 apis:
 - description: 'The ClearML REST API is organized into services: auth (login/credentials), projects, tasks (experiments), workers, models, queues, events, pipelines, and reports. Authentication uses access/secret-key'
@@ -200,16 +200,20 @@ common:
 created: '2026-05-08'
 description: ClearML is an open-source MLOps platform with experiment tracking, datasets, model serving, and orchestration. The ClearML Server exposes a versioned REST API split across services (auth, projects, tasks, workers, models, queues, events, pipelines).
 finops:
-- name: Clearml Finops
+- has_sources: true
+  method: generated
+  name: Clearml Finops
+  primary_unit: ''
   service_category: ML
   slug: clearml-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/clearml.png
 layout: provider
 modified: '2026-05-08'
 name: ClearML
 nav: Providers
 network: true
-overview: 'ClearML publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Debug API, Events API, and 6 more. Tagged areas include Machine Learning, MLOps, Open Source, Experiment Tracking, and Orchestration.
+overview: 'ClearML publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Auth API, Debug API, Events API, and 6 more. Tagged areas include Machine Learning, MLOps, Open Source, Experiment Tracking, and Orchestration.
 
 
   ClearML''s developer surface includes authentication, developer portal, pricing, engineering blog, and 13 more developer resources.'
@@ -224,17 +228,17 @@ rate_limits:
   slug: clearml-rate-limits
 score:
   band: thin
-  composite: 34.6
+  composite: 33.1
   coverage:
     artifact_dirs: 13
-    catalog_earned: 44.0
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 71.0
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 23.7
+    access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 45.3
     developer_ergonomics: 31.0
@@ -254,8 +258,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

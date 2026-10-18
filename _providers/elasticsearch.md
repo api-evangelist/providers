@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: documented
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.1
-  scored_at: '2026-10-04'
+  score: 24.2
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 7
+- acting_count: 6
   human_in_the_loop: 0
   name: Elasticsearch Agentic Access
   operation_count: 17
   slug: elasticsearch-agentic-access
-  summary_line: 17 operations · 7 acting
+  summary_line: 17 operations · 6 acting
 api_count: 1
 apis:
 - baseURL: https://localhost:9200
@@ -122,6 +122,21 @@ collections:
   name: Elasticsearch REST API
   slug: open-elasticsearch
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/elasticsearch/refs/heads/main/plans/elasticsearch-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/elasticsearch-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/elasticsearch/refs/heads/main/rate-limits/elasticsearch-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/elasticsearch-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/elasticsearch/refs/heads/main/finops/elasticsearch-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/elasticsearch-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/elasticsearch/refs/heads/main/agentic-access/elasticsearch-agentic-access.yml
   title: ''
@@ -312,9 +327,13 @@ features:
 - 'Service: Canvas'
 - 'Service: Stack Monitoring'
 finops:
-- name: Elasticsearch Finops
+- has_sources: true
+  method: generated
+  name: Elasticsearch Finops
+  primary_unit: ''
   service_category: Search and Observability
   slug: elasticsearch-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/elasticsearch.png
 layout: provider
 mcp_servers:
@@ -325,10 +344,10 @@ modified: '2026-06-20'
 name: Elasticsearch
 nav: Providers
 network: true
-overview: 'Elasticsearch publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Cat API, Cluster API, Document API, and 2 more. Tagged areas include Analytics, Database, Full-Text Search, NoSQL, and Search.
+overview: 'Elasticsearch publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Cat API, Cluster API, Document API, and 2 more. Tagged areas include Analytics, Database, Full-Text Search, NoSQL, and Search.
 
 
-  Elasticsearch''s developer surface includes changelog, CLI, authentication, documentation, getting-started guide, engineering blog, pricing, and 30 more developer resources.'
+  Elasticsearch''s developer surface includes changelog, CLI, authentication, documentation, getting-started guide, engineering blog, pricing, and 33 more developer resources.'
 plans:
 - name: Elasticsearch Plans Pricing
   plan_count: 3
@@ -340,17 +359,17 @@ rate_limits:
   slug: elasticsearch-rate-limits
 score:
   band: developing
-  composite: 42.7
+  composite: 41.2
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 40.0
+    artifact_dirs: 26
+    catalog_earned: 37.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 44.7
+    access_clarity: 36.8
     contract_governance: 4.5
     contract_quality: 42.2
     developer_ergonomics: 47.6
@@ -372,8 +391,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 31.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

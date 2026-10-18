@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'Enterprise REST API for the Storyclash influencer marketing platform. Three documented endpoints under https://app.storyclash.com/external-api/: GET /campaigns lists the authenticated customer''s campa'
@@ -47,6 +47,14 @@ asyncapis:
   name: Storyclash Webhooks
   slug: storyclash-webhooks
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.storyclash.com/blog/en/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.storyclash.com/blog/en/feed/
 - group: company
   title: ''
   type: Website
@@ -173,17 +181,17 @@ description: 'Storyclash is an AI-powered influencer marketing software platform
   the outcome of a bulk creator import. The company, headquartered in Linz, Austria, was surfaced as a portfolio company of Speedinvest and has since been acquired by Kolsquare, a team.blue brand, and now trades as "Storyclash by Kolsquare".'
 image: https://www.storyclash.com/favicon.ico
 layout: provider
-modified: '2026-08-13'
+modified: '2026-10-06'
 name: Storyclash
 nav: Providers
 network: true
-overview: 'Storyclash publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Influencer Marketing, Creator Economy, Social Media Analytics, and Marketing Analytics.
+overview: 'Storyclash is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Influencer Marketing, Creator Economy, Social Media Analytics, and Marketing Analytics.
 
 
   The Storyclash catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Storyclash''s developer surface includes documentation, pricing, engineering blog, support, authentication, API reference, signup flow, and 20 more developer resources.'
+  Storyclash''s developer surface includes engineering blog, documentation, pricing, support, authentication, API reference, signup flow, and 22 more developer resources.'
 plans:
 - name: Storyclash Plans Pricing
   plan_count: 3
@@ -195,7 +203,7 @@ rate_limits:
   slug: storyclash-rate-limits
 score:
   band: developing
-  composite: 54.0
+  composite: 54.1
   coverage:
     artifact_dirs: 18
     catalog_earned: 61.0
@@ -203,7 +211,7 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 76.3
     contract_governance: 18.2
@@ -233,8 +241,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -34,8 +34,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 40.2
-  scored_at: '2026-10-04'
-api_count: 1
+  scored_at: '2026-10-17'
+api_count: 2
 apis:
 - description: Energy Storage Resource public data, launched May 29, 2025 per the ERCOT Public Data API release notes, beginning with four-second ESR charging MW telemetry (GET /rptesr-m/4_sec_esr_charging_mw). Docu
   name: ERCOT ESR Public Data API
@@ -244,6 +244,10 @@ collections:
   name: ERCOT Public API Client/Developer Documentation
   slug: open-ercot-public-data-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.ercot.com/news
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/ercot/refs/heads/main/capabilities/ercot-capability-edges.yml
   title: ''
@@ -424,17 +428,17 @@ created: '2026-07-27'
 description: 'The Electric Reliability Council of Texas (ERCOT) is the independent system operator that manages the flow of electric power to roughly 27 million Texas customers on the ERCOT Interconnection, running the wholesale Day-Ahead and Real-Time energy markets, ancillary services, congestion revenue rights, and retail switching for the competitive Texas market. Its home market is the United States (Texas). ERCOT sits at the wholesale/system-operator layer of the energy value chain, upstream of the transmission and distribution utilities (Oncor, CenterPoint, AEP Texas, TNMP) and the retail electric providers that serve end customers. Its API posture is a clean split: market and grid data are genuinely open — ERCOT publishes a real, versioned OpenAPI 3.0 for the Public Data API covering 106 EMIL data-product endpoints (locational marginal prices, settlement point prices, system load, wind and solar production, ancillary services, outage capacity), and the Market Information System still
   serves public report archives anonymously with no account at all. Consumer energy data is a different story: ERCOT operates no consumer usage API and implements no Green Button / ESPI surface. Texas residential interval data lives in Smart Meter Texas, which is operated by the joint Transmission and Distribution Utilities under PUCT oversight, not by ERCOT. The market-participant SOAP estate (ERCOT Web Services, MarkeTrak, Retail API) is documented publicly on GitHub but reachable only by certified market participants.'
 layout: provider
-modified: '2026-07-27'
+modified: '2026-10-06'
 name: ERCOT
 nav: Providers
 network: true
-overview: 'ERCOT publishes 41 APIs on the [APIs.io](https://apis.io/) network, including EMIL Products API, NP3 233 CD API, NP3 565 CD API, and 38 more. Tagged areas include Energy, United States, Electricity, Energy Markets, and Grid.
+overview: 'ERCOT publishes 41 API contracts indexed on the [APIs.io](https://apis.io/) network, including EMIL Products API, NP3 233 CD API, NP3 565 CD API, and 38 more. Tagged areas include Energy, United States, Electricity, Energy Markets, and Grid.
 
 
   The ERCOT catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  ERCOT''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, signup flow, support, and 32 more developer resources.'
+  ERCOT''s developer surface includes engineering blog, authentication, changelog, documentation, API reference, getting-started guide, signup flow, and 33 more developer resources.'
 random_paper: 13
 rate_limits:
 - limit_count: 2
@@ -447,20 +451,20 @@ scopes:
   summary_line: 3 scopes · password
 score:
   band: developing
-  composite: 49.7
+  composite: 50.2
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 38.0
     catalog_earned_first_party: 8.0
     catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: 0.5
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 54.3
-    developer_ergonomics: 56.5
+    developer_ergonomics: 58.9
     discoverability: 60.7
     operational_transparency: 55.3
   jurisdiction:
@@ -470,7 +474,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 49.1
+  previous_composite: 49.7
   provenance:
     conformance: derived
     contracts:
@@ -486,8 +490,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 41.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

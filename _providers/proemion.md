@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -26,14 +26,14 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: false
+    protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.1
-  scored_at: '2026-10-04'
+  score: 31.7
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: Obtain and configure machine data from the DataPlatform, Proemion's API-first telematics cloud. Secured with OAuth2 client credentials (OpenID Connect / Keycloak).
@@ -177,7 +177,7 @@ modified: '2026-07-20'
 name: Proemion
 nav: Providers
 network: true
-overview: 'Proemion publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Telematics, IoT, Off-Highway Equipment, and CAN Bus.
+overview: 'Proemion is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Telematics, IoT, Off-Highway Equipment, and CAN Bus.
 
 
   Proemion''s developer surface includes documentation, API reference, engineering blog, support, CLI, authentication, and 20 more developer resources.'
@@ -215,8 +215,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 36.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

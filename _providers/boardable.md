@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: private
+  gated_source:
+  - tag:No Public API
   label: Paid
   onboarding: unknown
   pricing: paid
@@ -33,10 +36,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 4
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://boardable.com/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/boardable/refs/heads/main/security/boardable-trust-center.yml
   title: ''
@@ -74,32 +81,32 @@ description: 'Boardable is board management software for nonprofits, association
   are delivered through pre-built connectors (Salesforce, Microsoft 365 / Teams / Outlook / SharePoint / OneDrive, Google Drive & Calendar, Zoom, Dropbox, LinkedIn) rather than a documented API. This entry is therefore an honest stub: no APIs are listed because none are publicly documented.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/boardable.png
 layout: provider
-modified: '2026-07-05'
+modified: '2026-10-06'
 name: Boardable
 nav: Providers
 network: true
 overview: 'Boardable is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Board Management, Governance, Non-Profit, Meetings, and Board Portal.
 
 
-  Boardable''s developer surface includes documentation and 6 more developer resources.'
+  Boardable''s developer surface includes documentation and 7 more developer resources.'
 plans:
 - name: Boardable Plans Pricing
   plan_count: 4
   slug: boardable-plans-pricing
 random_paper: 0
 score:
-  band: emerging
-  composite: 12.2
+  band: minimal
+  composite: 8.2
   coverage:
-    artifact_dirs: 4
-    catalog_earned: 37.8
+    artifact_dirs: 6
+    catalog_earned: 30.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 77.2
+    catalog_gap: 85.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -4.0
   facets:
-    access_clarity: 36.3
+    access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
@@ -112,8 +119,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -141,6 +148,5 @@ tags:
 - Meetings
 - Board Portal
 - Collaboration
-- No Public API
 website: https://boardable.com
 ---

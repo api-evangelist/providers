@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.5
-  scored_at: '2026-10-04'
+  score: 19.6
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 30
+- acting_count: 28
   human_in_the_loop: 0
   name: Systran Agentic Access
   operation_count: 55
   slug: systran-agentic-access
-  summary_line: 55 operations · 30 acting
+  summary_line: 55 operations · 28 acting
 api_count: 1
 apis:
 - baseURL: https://api-translate.systran.net
@@ -167,16 +167,20 @@ common:
 created: '2026-07-03'
 description: SYSTRAN is a machine translation and natural language processing company offering neural (Pure Neural Machine Translation / PNMT) translation across 50+ languages. The SYSTRAN Translate API is a RESTful service (base https://api-translate.systran.net) that translates text, files, and HTML, detects and lists supported languages, and manages translation profiles, user dictionaries, and corpora. The broader SYSTRAN Platform / SYSTRAN.io surface adds NLP operations - morphology, tokenization, segmentation, named entity recognition, and language identification. Requests authenticate with an API key (key query parameter or Authorization header). SYSTRAN sells access as a Developer cloud subscription (14-day / 500,000-character free trial) plus Professional SaaS and Enterprise cloud/on-premise plans, billed per character.
 finops:
-- name: Systran Finops
+- has_sources: true
+  method: generated
+  name: Systran Finops
+  primary_unit: ''
   service_category: Machine Learning and AI
   slug: systran-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/systran.png
 layout: provider
 modified: '2026-07-03'
 name: SYSTRAN
 nav: Providers
 network: true
-overview: 'SYSTRAN publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Corpus API, Dictionary API, File Translation API, and 5 more. Tagged areas include Machine Translation, Translation, NLP, Neural Machine Translation, and Localization.
+overview: 'SYSTRAN publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Corpus API, Dictionary API, File Translation API, and 5 more. Tagged areas include Machine Translation, Translation, Natural Language Processing, Neural Machine Translation, and Localization.
 
 
   SYSTRAN''s developer surface includes authentication, documentation, and 8 more developer resources.'
@@ -190,23 +194,23 @@ rate_limits:
   name: Systran Rate Limits
   slug: systran-rate-limits
 score:
-  band: thin
-  composite: 33.0
+  band: emerging
+  composite: 24.9
   coverage:
-    artifact_dirs: 10
-    catalog_earned: 61.6
+    artifact_dirs: 11
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.4
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.1
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 42.2
     developer_ergonomics: 29.8
     discoverability: 66.1
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   previous_composite: 33.0
   provenance:
     agentic_access: derived
@@ -220,10 +224,10 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 10.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+    score: 11.8
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0
@@ -241,7 +245,7 @@ slug: systran
 tags:
 - Machine Translation
 - Translation
-- NLP
+- Natural Language Processing
 - Neural Machine Translation
 - Localization
 - Language Detection

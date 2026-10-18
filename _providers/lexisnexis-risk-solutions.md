@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: partner
+  gated_source:
+  - tag:Partner Gated
   label: Self-serve signup
   onboarding: self-serve
   pricing: unknown
@@ -35,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 7
 apis:
 - description: C.L.U.E. Auto is a contributory claim-history information exchange containing up to seven years of personal automobile claims matching the search criteria, used by carriers during quoting and underwri
@@ -231,7 +234,7 @@ modified: '2026-07-25'
 name: LexisNexis Risk Solutions
 nav: Providers
 network: true
-overview: 'LexisNexis Risk Solutions publishes 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, United States, Risk Data, Property and Casualty, and Underwriting.
+overview: 'LexisNexis Risk Solutions is listed with 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, United States, Risk Data, Property and Casualty, and Underwriting.
 
 
   LexisNexis Risk Solutions'' developer surface includes documentation, support, engineering blog, authentication, sandbox, and 32 more developer resources.'
@@ -240,7 +243,7 @@ score:
   band: thin
   composite: 35.0
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -270,8 +273,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 31.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -306,6 +309,5 @@ tags:
 - Life Insurance
 - Auto Insurance
 - Data Analytics
-- Partner Gated
 website: https://risk.lexisnexis.com/
 ---

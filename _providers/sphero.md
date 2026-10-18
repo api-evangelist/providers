@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://sphero.com/blogs/news.atom
 - group: company
   title: ''
   type: Website
@@ -88,20 +92,20 @@ created: '2026-07-17'
 description: Sphero designs programmable robots and STEAM (science, technology, engineering, arts and math) learning tools for K-12 education. Its product line spans indi, Mini, Snap, BOLT+, littleBits, RVR+ and Blueprint robots, paired with standards-aligned curriculum (NGSS, CSTA, ISTE) delivered through Sphero Central. For developers and educators, Sphero publishes a public robot-control SDK (sdk.sphero.com) that programs Sphero RVR+ / RVR robots from development boards — Raspberry Pi, micro:bit and Arduino — using Python, Node.js/TypeScript and C++. Sphero exposes robot-control SDKs and a locally-run Node.js RESTful interface rather than a hosted public web API. This profile is maintained by API Evangelist as part of the APIs.io network.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sphero.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Sphero
 nav: Providers
 network: true
 overview: 'Sphero is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Hardware, Robotics, Education, and STEAM.
 
 
-  Sphero''s developer surface includes documentation, support, engineering blog, and 8 more developer resources.'
+  Sphero''s developer surface includes documentation, support, engineering blog, and 9 more developer resources.'
 random_paper: 19
 score:
   band: emerging
   composite: 12.4
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -122,8 +126,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 9.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: REST API for Logility's AI-powered supply chain planning platform, enabling integration with demand sensing, inventory optimization, supply planning, S&OP process management, and supply chain analytic
@@ -89,16 +89,20 @@ common:
 created: 2026-06-13
 description: Logility is an AI-powered supply chain planning platform providing solutions for demand sensing, inventory optimization, supply planning, S&OP process management, and supply chain analytics. Part of Aptean, Logility serves 600+ clients across 80 countries with capabilities for demand planning, inventory optimization, scenario planning, manufacturing execution, and supplier management across 12+ industry verticals.
 finops:
-- name: Logility Finops
+- has_sources: false
+  method: generated
+  name: Logility Finops
+  primary_unit: ''
   service_category: ''
   slug: logility-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/logility.png
 layout: provider
 modified: 2026-06-13
 name: Logility
 nav: Providers
 network: true
-overview: 'Logility publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Supply Chain, Demand Planning, Inventory Optimization, Supply Planning, and S&OP.
+overview: 'Logility is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Supply Chain, Demand Planning, Inventory Optimization, Supply Planning, and S&OP.
 
 
   Logility''s developer surface includes documentation, engineering blog, pricing, and 8 more developer resources.'
@@ -113,17 +117,17 @@ rate_limits:
   slug: logility-rate-limits
 score:
   band: minimal
-  composite: 10.5
+  composite: 6.2
   coverage:
     artifact_dirs: 8
-    catalog_earned: 47.2
+    catalog_earned: 39.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 67.8
+    catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -4.3
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
@@ -136,8 +140,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

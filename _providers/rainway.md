@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 2
   slug: rainway-agentic-access
   summary_line: 2 operations
-api_count: 1
+api_count: 2
 apis:
 - baseURL: https://hub-api.rainway.com/v0
   baseurl_source: declared
@@ -168,7 +168,7 @@ modified: '2026-07-20'
 name: Rainway
 nav: Providers
 network: true
-overview: 'Rainway publishes 1 API on the [APIs.io](https://apis.io/) network: Peers API. Tagged areas include Company, Streaming, Application Streaming, WebRTC, and Game Streaming.
+overview: 'Rainway publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Peers API. Tagged areas include Company, Streaming, Application Streaming, WebRTC, and Game Streaming.
 
 
   Rainway''s developer surface includes documentation, getting-started guide, API reference, signup flow, authentication, and 17 more developer resources.'
@@ -208,8 +208,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

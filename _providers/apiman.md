@@ -33,15 +33,15 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 76
+- acting_count: 69
   human_in_the_loop: 2
   name: Apiman Agentic Access
-  operation_count: 177
+  operation_count: 199
   slug: apiman-agentic-access
-  summary_line: 177 operations · 76 acting · 2 human-in-the-loop
-api_count: 1
+  summary_line: 199 operations · 69 acting · 2 human-in-the-loop
+api_count: 2
 apis:
 - description: Apiman is an open source API management platform with a developer portal, API gateway, and management UI supporting policies, plans, organizations, multi-tenancy, and extensible Java-based plugin arch
   name: Apiman
@@ -175,6 +175,11 @@ collections:
   name: API Manager REST API
   slug: open-apiman
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/apiman/refs/heads/main/finops/apiman-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/apiman-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/apiman/refs/heads/main/capabilities/apiman-capability-edges.yml
   title: ''
@@ -361,9 +366,13 @@ features:
 - description: Configurable approval workflows for API subscriptions with notification and event support.
   name: Approval Workflows
 finops:
-- name: Apiman Finops
+- has_sources: false
+  method: generated
+  name: Apiman Finops
+  primary_unit: ''
   service_category: API
   slug: apiman-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/apiman.png
 json_schemas:
 - name: Apiman API
@@ -389,13 +398,13 @@ modified: '2026-09-06'
 name: Apiman
 nav: Providers
 network: true
-overview: 'Apiman publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Actions API, Blobs API, Developers API, and 13 more. Tagged areas include API Gateway, API Management, Developer Portal, Java, and Open Source.
+overview: 'Apiman publishes 16 API contracts indexed on the [APIs.io](https://apis.io/) network, including Actions API, Blobs API, Developers API, and 13 more. Tagged areas include API Gateway, API Management, Developer Portal, Java, and Open Source.
 
 
   The Apiman catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Apiman''s developer surface includes support, engineering blog, documentation, API reference, getting-started guide, changelog, authentication, and 29 more developer resources.'
+  Apiman''s developer surface includes support, engineering blog, documentation, API reference, getting-started guide, changelog, authentication, and 30 more developer resources.'
 plans:
 - name: Apiman Plans Pricing
   plan_count: 0
@@ -406,9 +415,10 @@ rate_limits:
   name: Apiman Rate Limits
   slug: apiman-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Apiman API Rules
+  name: Apiman — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -418,17 +428,17 @@ rules:
   slug: apiman-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 45.5
+  composite: 44.2
   coverage:
     artifact_dirs: 32
-    catalog_earned: 60.3
+    catalog_earned: 57.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 54.8
+    catalog_gap: 57.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.3
   facets:
-    access_clarity: 7.9
+    access_clarity: 0.0
     contract_governance: 28.0
     contract_quality: 48.4
     developer_ergonomics: 63.7
@@ -454,8 +464,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

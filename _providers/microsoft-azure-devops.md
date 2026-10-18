@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 43
+- acting_count: 47
   human_in_the_loop: 0
   name: Microsoft Azure Devops Agentic Access
-  operation_count: 93
+  operation_count: 105
   slug: microsoft-azure-devops-agentic-access
-  summary_line: 93 operations · 43 acting
+  summary_line: 105 operations · 47 acting
 api_count: 11
 apis:
 - description: API for managing users, groups, and memberships within an Azure DevOps organization. Enables programmatic administration of identities and group membership.
@@ -914,6 +914,11 @@ collections:
   name: Azure DevOps Artifacts Attachments Work Items API
   slug: open-microsoft-azure-devops-work-items-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-devops/refs/heads/main/finops/microsoft-azure-devops-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/microsoft-azure-devops-finops.yml
 - group: operate
   href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-devops/refs/heads/main/rate-limits/microsoft-azure-devops-rate-limits.yml
   title: ''
@@ -1308,9 +1313,13 @@ examples:
   name: Microsoft Azure Devops Workitems Update Example
   slug: microsoft-azure-devops-workitems-update-example
 finops:
-- name: Microsoft Azure Devops Finops
+- has_sources: true
+  method: generated
+  name: Microsoft Azure Devops Finops
+  primary_unit: ''
   service_category: DevOps / Developer Tools
   slug: microsoft-azure-devops-finops
+  template: false
 image: https://azure.microsoft.com/svghandler/devops/
 json_schemas:
 - name: Azure DevOps Pipeline Run
@@ -1571,13 +1580,13 @@ modified: '2026-05-19'
 name: Azure DevOps
 nav: Providers
 network: true
-overview: 'Azure DevOps publishes 67 APIs on the [APIs.io](https://apis.io/) network, including Attachments API, Build Artifacts API, Build Definitions API, and 64 more. Tagged areas include Agile, CI/CD, Developer Tools, DevOps, and Project Management.
+overview: 'Azure DevOps publishes 67 API contracts indexed on the [APIs.io](https://apis.io/) network, including Attachments API, Build Artifacts API, Build Definitions API, and 64 more. Tagged areas include Agile, CI/CD, Developer Tools, DevOps, and Project Management.
 
 
   The Azure DevOps catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Azure DevOps'' developer surface includes API reference, authentication, developer portal, documentation, getting-started guide, support, engineering blog, and 68 more developer resources.'
+  Azure DevOps'' developer surface includes API reference, authentication, developer portal, documentation, getting-started guide, support, engineering blog, and 69 more developer resources.'
 plans:
 - name: Microsoft Azure Devops Plans Pricing
   plan_count: 7
@@ -1591,10 +1600,11 @@ rate_limits:
   name: Microsoft Azure Devops Rate Limits
   slug: microsoft-azure-devops-rate-limits
 rules:
-- effective_rule_count: 34
+- authorship: generated
+  effective_rule_count: 34
   extends:
   - spectral:asyncapi
-  name: Azure DevOps API Rules
+  name: Azure DevOps — asyncapi rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -1602,9 +1612,10 @@ rules:
     info: 1
     warn: 5
   slug: microsoft-azure-devops-asyncapi-spectral-rules
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: Azure DevOps API Rules
+  name: Azure DevOps — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -1612,7 +1623,8 @@ rules:
     info: 2
     warn: 4
   slug: microsoft-azure-devops-jsonschema-spectral-rules
-- effective_rule_count: 57
+- authorship: generated
+  effective_rule_count: 57
   extends:
   - spectral:oas
   name: Azure DevOps API Rules
@@ -1630,17 +1642,17 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 76.7
+  composite: 75.4
   coverage:
     artifact_dirs: 23
-    catalog_earned: 79.0
+    catalog_earned: 76.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 36.0
+    catalog_gap: 39.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.4
+  delta: -1.3
   facets:
-    access_clarity: 84.2
+    access_clarity: 76.3
     contract_governance: 27.3
     contract_quality: 71.5
     developer_ergonomics: 82.1
@@ -1649,7 +1661,7 @@ score:
   open_source:
     applies: true
     score: 75.0
-  previous_composite: 76.3
+  previous_composite: 76.7
   provenance:
     agentic_access: derived
     contracts:
@@ -1663,8 +1675,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

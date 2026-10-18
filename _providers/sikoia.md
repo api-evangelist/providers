@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 39.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 31
+- acting_count: 30
   human_in_the_loop: 0
   name: Sikoia Agentic Access
   operation_count: 71
   slug: sikoia-agentic-access
-  summary_line: 71 operations · 31 acting
+  summary_line: 71 operations · 30 acting
 api_count: 1
 apis:
 - baseURL: https://api.sikoia.com
@@ -370,7 +370,7 @@ modified: '2026-07-21'
 name: Sikoia
 nav: Providers
 network: true
-overview: 'Sikoia publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Adverse Media API, Affordability Insights API, Authentication API, and 16 more. Tagged areas include Company, Financial Services, Identity Verification, KYC, and KYB.
+overview: 'Sikoia publishes 19 API contracts indexed on the [APIs.io](https://apis.io/) network, including Adverse Media API, Affordability Insights API, Authentication API, and 16 more. Tagged areas include Company, Financial Services, Identity Verification, KYC, and KYB.
 
 
   The Sikoia catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -386,7 +386,7 @@ score:
   band: developing
   composite: 53.1
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
@@ -422,8 +422,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 23.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

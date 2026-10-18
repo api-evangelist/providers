@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.5
-  scored_at: '2026-10-04'
+  score: 19.6
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -133,6 +133,10 @@ collections:
   name: Nuvemshop / Tiendanube Admin API
   slug: open-nuvemshop
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.tiendanube.com/blog/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/nuvemshop/refs/heads/main/capabilities/nuvemshop-capability-edges.yml
   title: ''
@@ -187,19 +191,23 @@ common:
 created: '2026-07-12'
 description: Nuvemshop (Tiendanube in Spanish-speaking markets) is the leading Latin American e-commerce platform, powering online stores for merchants across Brazil, Argentina, Mexico, Chile, and Colombia. Its public REST Admin API lets apps and integrations manage products, variants, images, categories, orders, customers, coupons, scripts, webhooks, and store settings on a per-store basis. Apps authenticate with OAuth 2 (authorization code grant) and pass a non-expiring access token in a non-standard `Authentication` header (lowercase bearer prefix) along with a required `User-Agent`. The API is store-scoped - every path is prefixed with the store id - and is rate limited with a per-store leaky bucket.
 finops:
-- name: Nuvemshop Finops
+- has_sources: true
+  method: generated
+  name: Nuvemshop Finops
+  primary_unit: ''
   service_category: E-commerce Platform (SaaS)
   slug: nuvemshop-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nuvemshop.png
 layout: provider
-modified: '2026-07-12'
+modified: '2026-10-06'
 name: Nuvemshop / Tiendanube
 nav: Providers
 network: true
-overview: 'Nuvemshop / Tiendanube publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Categories API, Coupons API, Customers API, and 7 more. Tagged areas include E-Commerce, Online Store, Latin America, Brazil, and Argentina.
+overview: 'Nuvemshop / Tiendanube publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Categories API, Coupons API, Customers API, and 7 more. Tagged areas include E-Commerce, Online Store, Latin America, Brazil, and Argentina.
 
 
-  Nuvemshop / Tiendanube''s developer surface includes authentication, documentation, and 9 more developer resources.'
+  Nuvemshop / Tiendanube''s developer surface includes engineering blog, authentication, documentation, and 9 more developer resources.'
 plans:
 - name: Nuvemshop Plans Pricing
   plan_count: 6
@@ -211,22 +219,22 @@ rate_limits:
   slug: nuvemshop-rate-limits
 score:
   band: thin
-  composite: 35.3
+  composite: 27.4
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 61.6
+    artifact_dirs: 13
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.4
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.9
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 54.0
-    developer_ergonomics: 29.8
+    developer_ergonomics: 32.1
     discoverability: 66.1
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -249,9 +257,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 10.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

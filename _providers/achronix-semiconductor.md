@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.achronix.com/rss.xml
 - group: start
   title: ''
   type: GettingStarted
@@ -102,20 +106,20 @@ created: '2026-07-17'
 description: Achronix Semiconductor is a fabless semiconductor company specializing in high-performance FPGA (field-programmable gate array) products and embedded FPGA (eFPGA) intellectual property. Its portfolio includes the Speedster7t family of standalone FPGAs, Speedcore eFPGA IP for system-on-chip integration, VectorPath PCIe accelerator cards, and the ACE design tools suite for synthesis, verification, and optimization. Achronix technology targets AI/ML inference, 5G/6G networking, data-center compute acceleration, automotive, SmartNICs, and test-and-measurement workloads. The company is privately held and backed by investors including Battery Ventures. It exposes no public web/REST API or developer API portal; its developer surface is a hardware support portal, product documentation, datasheets, and design tools.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/achronix-semiconductor.png
 layout: provider
-modified: '2026-07-17'
+modified: '2026-10-06'
 name: Achronix Semiconductor
 nav: Providers
 network: true
 overview: 'Achronix Semiconductor is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductors, FPGA, eFPGA, and Hardware.
 
 
-  Achronix Semiconductor''s developer surface includes getting-started guide, signup flow, YouTube channel, support, documentation, engineering blog, and 9 more developer resources.'
+  Achronix Semiconductor''s developer surface includes getting-started guide, signup flow, YouTube channel, support, documentation, engineering blog, and 10 more developer resources.'
 random_paper: 2
 score:
   band: emerging
   composite: 17.7
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -136,8 +140,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 12.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

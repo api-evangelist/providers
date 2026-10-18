@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The Acorn Finance partner REST API. Basic-authenticated JSON endpoints on api.acornfinance.com let point-of-sale and contractor-software partners create companies and company users, retrieve loan appl
@@ -179,7 +179,7 @@ modified: '2026-09-06'
 name: Acorn Finance
 nav: Providers
 network: true
-overview: 'Acorn Finance publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Lending, Loans, and Home Improvement.
+overview: 'Acorn Finance is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Lending, Loans, and Home Improvement.
 
 
   The Acorn Finance catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -199,7 +199,7 @@ score:
   band: thin
   composite: 38.5
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 20
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
@@ -223,13 +223,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/acorn-finance/refs/heads/main/screenshots/acorn-finance-2026-10-11T092659.png
 security:
 - kind: authentication
   name: Acorn Finance Authentication

@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://moderncampus.com/blog/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/presence/refs/heads/main/security/presence-domain-security.yml
   title: ''
@@ -61,18 +65,18 @@ created: '2026-07-17'
 description: Presence is a student engagement and co-curricular involvement platform for higher education, now part of Modern Campus. It helps colleges and universities manage student organizations, campus events, involvement and attendance tracking, co-curricular records, forms, and engagement analytics so institutions can attract, engage, and retain learners. Modern Campus serves more than 1,700 colleges, universities, and education providers. Presence is delivered as a closed SaaS product with support and reference code available through the Modern Campus customer support portal; there is no public developer portal, OpenAPI, or self-service API surface published at this time, so this profile captures company identity and probed domain security rather than API artifacts.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/presence.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Presence
 nav: Providers
 network: true
 overview: 'Presence is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Higher Education, Student Engagement, EdTech, and Campus Life.
 
 
-  Presence''s developer surface includes support, engineering blog, and 3 more developer resources.'
+  Presence''s developer surface includes support, engineering blog, and 4 more developer resources.'
 random_paper: 17
 score:
   band: minimal
-  composite: 7.0
+  composite: 7.1
   coverage:
     artifact_dirs: 4
     catalog_earned: 27.0
@@ -80,7 +84,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 10.5
     contract_governance: 0.0
@@ -95,8 +99,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 9.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

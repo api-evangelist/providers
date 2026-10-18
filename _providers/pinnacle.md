@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.4
-  scored_at: '2026-10-04'
+  score: 23.5
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 2
+- acting_count: 0
   human_in_the_loop: 0
   name: Pinnacle Agentic Access
   operation_count: 18
   slug: pinnacle-agentic-access
-  summary_line: 18 operations · 2 acting
+  summary_line: 18 operations
 api_count: 12
 apis:
 - description: Pinnacle is an online gaming website that was founded in 1998. Since its inception, Pinnacle has become a medium-sized, fully licensed, online sportsbook.
@@ -143,6 +143,21 @@ collections:
   name: Pinnacle Lines API
   slug: open-pinnacle
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/pinnacle/refs/heads/main/plans/pinnacle-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/pinnacle-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/pinnacle/refs/heads/main/rate-limits/pinnacle-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/pinnacle-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/pinnacle/refs/heads/main/finops/pinnacle-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/pinnacle-finops.yml
 - group: company
   title: ''
   type: Website
@@ -173,19 +188,23 @@ common:
 created: '2024-11-07T00:00:00.000Z'
 description: Pinnacle is an online gaming website that was founded in 1998. Since its inception, Pinnacle has become a medium-sized, fully licensed, online sportsbook.
 finops:
-- name: Pinnacle Finops
+- has_sources: false
+  method: generated
+  name: Pinnacle Finops
+  primary_unit: ''
   service_category: API
   slug: pinnacle-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pinnacle.png
 layout: provider
 modified: '2026-09-16'
 name: Pinnacle Sports Betting
 nav: Providers
 network: true
-overview: 'Pinnacle Sports Betting publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Pinnacle Lines API, g Cancellationreasons API, g Currencies API, and 9 more. Tagged areas include Gambling and Sports Betting.
+overview: 'Pinnacle Sports Betting is listed with 12 APIs on the [APIs.io](https://apis.io/) network, including Pinnacle Lines API, g Cancellationreasons API, g Currencies API, and 9 more. Tagged areas include Gambling and Sports Betting.
 
 
-  Pinnacle Sports Betting''s developer surface includes authentication and 5 more developer resources.'
+  Pinnacle Sports Betting''s developer surface includes authentication and 8 more developer resources.'
 plans:
 - name: Pinnacle Plans Pricing
   plan_count: 3
@@ -197,17 +216,17 @@ rate_limits:
   slug: pinnacle-rate-limits
 score:
   band: emerging
-  composite: 25.2
+  composite: 23.7
   coverage:
     artifact_dirs: 10
-    catalog_earned: 34.0
+    catalog_earned: 31.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 81.0
+    catalog_gap: 84.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 51.6
     developer_ergonomics: 21.4
@@ -227,8 +246,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

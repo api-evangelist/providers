@@ -34,18 +34,23 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 50.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: REST API for programmatic access to an organization's accounting data across setup (accounts, items, classifications), master data (companies, customers, vendors), transactions (invoices, bills, journ
   name: DualEntry Public API
   slug: dualentry-public-api
-artifact_total: 6
+artifact_total: 7
 asyncapis:
 - description: ''
   name: Dualentry Webhooks
   slug: dualentry-webhooks
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/dualentry/refs/heads/main/plans/dualentry-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/dualentry-plans-pricing.yml
 - group: company
   title: ''
   type: Website
@@ -185,13 +190,17 @@ modified: '2026-07-18'
 name: DualEntry
 nav: Providers
 network: true
-overview: 'DualEntry publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Accounting, ERP, and Finance.
+overview: 'DualEntry is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Accounting, ERP, and Finance.
 
 
   The DualEntry catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  DualEntry''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, CLI, and 21 more developer resources.'
+  DualEntry''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, CLI, and 22 more developer resources.'
+plans:
+- name: Dualentry Plans Pricing
+  plan_count: 3
+  slug: dualentry-plans-pricing
 random_paper: 16
 rate_limits:
 - limit_count: 3
@@ -199,17 +208,17 @@ rate_limits:
   slug: dualentry-rate-limits
 score:
   band: developing
-  composite: 43.3
+  composite: 49.7
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 49.0
-    catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    artifact_dirs: 20
+    catalog_earned: 61.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.4
   facets:
-    access_clarity: 52.6
+    access_clarity: 84.2
     contract_governance: 4.5
     contract_quality: 39.0
     developer_ergonomics: 28.6
@@ -225,9 +234,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

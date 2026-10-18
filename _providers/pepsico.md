@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-04'
+  score: 20.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -62,6 +62,25 @@ collections:
   name: PepsiCo API
   slug: open-pepsico-pepsico-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/pepsico/refs/heads/main/plans/pepsico-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/pepsico-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/pepsico/refs/heads/main/rate-limits/pepsico-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/pepsico-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/pepsico/refs/heads/main/finops/pepsico-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/pepsico-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.pepsico.com/newsroom
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/pepsico/refs/heads/main/agentic-access/pepsico-agentic-access.yml
   title: ''
@@ -88,19 +107,23 @@ common:
 created: '2026-03-21'
 description: PepsiCo is one of the world's largest food and beverage companies, with a portfolio of brands including Pepsi-Cola, Mountain Dew, Frito-Lay, Quaker, Tropicana, and Gatorade.
 finops:
-- name: Pepsico Finops
+- has_sources: true
+  method: generated
+  name: Pepsico Finops
+  primary_unit: ''
   service_category: B2B Integration
   slug: pepsico-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pepsico.png
 layout: provider
-modified: '2026-05-19'
+modified: '2026-10-06'
 name: PepsiCo
 nav: Providers
 network: true
-overview: 'PepsiCo publishes 1 API on the [APIs.io](https://apis.io/) network: Food API. Tagged areas include Beverages, Food, Retail, Supply Chain, and Fortune 100.
+overview: 'PepsiCo publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Food API. Tagged areas include Beverages, Food, Retail, Supply Chain, and Fortune 100.
 
 
-  PepsiCo''s developer surface includes authentication and 4 more developer resources.'
+  PepsiCo''s developer surface includes engineering blog, authentication, and 7 more developer resources.'
 plans:
 - name: Pepsico Plans Pricing
   plan_count: 1
@@ -128,20 +151,20 @@ rate_limits:
   slug: pepsico-rate-limits
 score:
   band: emerging
-  composite: 22.9
+  composite: 21.9
   coverage:
     artifact_dirs: 13
-    catalog_earned: 39.0
+    catalog_earned: 36.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 76.0
+    catalog_gap: 79.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.0
   facets:
-    access_clarity: 13.2
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 48.4
-    developer_ergonomics: 11.9
+    developer_ergonomics: 14.3
     discoverability: 57.1
     operational_transparency: 5.3
   previous_composite: 22.9
@@ -158,8 +181,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

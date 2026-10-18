@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -128,7 +128,7 @@ modified: '2026-09-27'
 name: AlyawmGold Public API
 nav: Providers
 network: true
-overview: 'AlyawmGold Public API publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Gold, Prices, and Finance.
+overview: 'AlyawmGold Public API is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Gold, Prices, and Finance.
 
 
   The AlyawmGold Public API catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -137,7 +137,8 @@ overview: 'AlyawmGold Public API publishes 1 API on the [APIs.io](https://apis.i
   AlyawmGold Public API''s developer surface includes API reference and 14 more developer resources.'
 random_paper: 17
 rules:
-- effective_rule_count: 53
+- authorship: generated
+  effective_rule_count: 53
   extends:
   - spectral:oas
   name: AlyawmGold Public API API Rules
@@ -150,14 +151,15 @@ rules:
   slug: alyawmgold-rules
 score:
   band: emerging
-  composite: 16.8
+  composite: 16.9
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 42.8
     catalog_earned_first_party: 0.0
     catalog_gap: 72.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.1
   facets:
     access_clarity: 21.1
     contract_governance: 22.0
@@ -165,6 +167,7 @@ score:
     developer_ergonomics: 7.1
     discoverability: 57.1
     operational_transparency: 5.3
+  previous_composite: 16.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -175,12 +178,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/alyawmgold/refs/heads/main/screenshots/alyawmgold-2026-10-11T093804.png
 security:
 - kind: domain-security
   name: Alyawmgold Domain Security

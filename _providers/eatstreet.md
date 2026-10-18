@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'The live EatStreet API, served under https://eatstreet.com/api/v2 and protected by OAuth 2.0 authorization code with PKCE. EatStreet publishes no reference, no OpenAPI and no developer portal for it; '
@@ -44,6 +44,10 @@ apis:
   slug: eatstreet-api-v2
 artifact_total: 6
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://eatstreet.com/blog/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/eatstreet/refs/heads/main/security/eatstreet-domain-security.yml
   title: ''
@@ -136,14 +140,14 @@ created: '2026-08-12'
 description: 'EatStreet is a Madison, Wisconsin online food ordering and delivery marketplace, founded in 2010, that connects diners with local restaurants for takeout and delivery across US college towns and midsize metros, and sells restaurants an ordering, menu and point-of-sale integration platform on the merchant side. It once ran a documented public API — restaurant search, menus, order placement and tracking, and user management — at api.eatstreet.com/publicapi/v1, documented at developers.eatstreet.com. That surface is retired: the documentation host and every documented v1 path now return 404, though the company GitHub organization still points developers at the dead portal. What remains live is an OAuth 2.0 protected v2 API on the consumer host, whose only public, machine-readable contract is the RFC 8414 authorization server metadata EatStreet serves at /.well-known/oauth-authorization-server, advertising merchant_integration and customer scopes with PKCE.'
 image: https://eatstreet.com/apple-touch-icon.png
 layout: provider
-modified: '2026-08-12'
+modified: '2026-10-06'
 name: EatStreet
 nav: Providers
 network: true
-overview: 'EatStreet publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food Delivery, Restaurant, Online Ordering, and Marketplace.
+overview: 'EatStreet is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food Delivery, Restaurant, Online Ordering, and Marketplace.
 
 
-  EatStreet''s developer surface includes support, engineering blog, authentication, and 16 more developer resources.'
+  EatStreet''s developer surface includes engineering blog, support, authentication, and 17 more developer resources.'
 plans:
 - name: Eatstreet Plans Pricing
   plan_count: 0
@@ -160,15 +164,15 @@ scopes:
   summary_line: 3 scopes
 score:
   band: emerging
-  composite: 19.0
+  composite: 19.1
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 21.1
     contract_governance: 18.2
@@ -185,8 +189,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

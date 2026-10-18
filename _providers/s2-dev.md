@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 32.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 1
@@ -44,7 +44,7 @@ agentic_access:
   operation_count: 24
   slug: s2-dev-agentic-access
   summary_line: 24 operations · 12 acting · 1 human-in-the-loop
-api_count: 1
+api_count: 2
 apis:
 - baseURL: https://a.s2.dev/v1
   baseurl_source: declared
@@ -100,6 +100,10 @@ collections:
   name: S2, the durable access-tokens streams API
   slug: open-s2-dev-streams-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://s2.dev/blog/feed.xml
 - group: company
   title: ''
   type: Website
@@ -284,14 +288,14 @@ created: '2026-07-17'
 description: S2 ("Stream Store") is the API for unlimited, durable, real-time streams. Where object storage deals with blobs, S2 provides append-able, ordered record streams that can be tailed in real time and replayed from any retained point. Core data-plane operations are append, read, and check-tail; the control plane manages accounts, basins (stream namespaces), streams, scoped access tokens, locations, and metrics. It targets agent session logs, live views and build logs, event sourcing and sync, data feeds, resumable LLM token streaming, and observability. Access is over a REST/JSON + Protobuf HTTP API, an S2S binary protocol over HTTP/2, SSE tailing, first-party TypeScript, Python, Go, and Rust SDKs, a CLI, and a Terraform provider. S2 is a Y Combinator-backed company.
 image: https://avatars.githubusercontent.com/u/136030139?v=4
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: S2 Dev
 nav: Providers
 network: true
-overview: 'S2 Dev publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Access Tokens API, Basins API, Locations API, and 3 more. Tagged areas include Company, Streaming, Real-Time, Event Streaming, and Durable Storage.
+overview: 'S2 Dev publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Access Tokens API, Basins API, Locations API, and 3 more. Tagged areas include Company, Streaming, Real-Time, Event Streaming, and Durable Storage.
 
 
-  S2 Dev''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 32 more developer resources.'
+  S2 Dev''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 33 more developer resources.'
 random_paper: 1
 rate_limits:
 - limit_count: 5
@@ -301,7 +305,7 @@ score:
   band: strong
   composite: 60.8
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 25
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -338,8 +342,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

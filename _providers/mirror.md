@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Read-only GraphQL data service (Mirror Graph) exposing Mirror Protocol state — synthetic assets (mAssets), prices, positions, and staking — from a single unauthenticated HTTP POST endpoint, with a Gra
@@ -141,7 +141,7 @@ modified: '2026-07-20'
 name: Mirror
 nav: Providers
 network: true
-overview: 'Mirror publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, DeFi, Cryptocurrency, Blockchain, and Synthetic Assets.
+overview: 'Mirror is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, DeFi, Cryptocurrency, Blockchain, and Synthetic Assets.
 
 
   Mirror''s developer surface includes documentation, API reference, getting-started guide, engineering blog, CLI, authentication, sandbox, and 13 more developer resources.'
@@ -174,8 +174,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

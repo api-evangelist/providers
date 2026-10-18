@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 49.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 136
+- acting_count: 138
   human_in_the_loop: 4
   name: Modulr Agentic Access
-  operation_count: 207
+  operation_count: 212
   slug: modulr-agentic-access
-  summary_line: 207 operations · 136 acting · 4 human-in-the-loop
+  summary_line: 212 operations · 138 acting · 4 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://api.modulrfinance.com
@@ -186,6 +186,14 @@ collections:
   name: Modulr API
   slug: open-modulr-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.modulrfinance.com/newsroom
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.modulrfinance.com/newsroom/rss.xml
 - group: commercial
   href: https://raw.githubusercontent.com/api-evangelist/modulr/refs/heads/main/plans/modulr-plans-pricing.yml
   title: ''
@@ -371,17 +379,17 @@ mcp_servers:
 - description: Remote MCP server at modulr.readme.io over HTTP; 6 tools listed.
   name: Modulr MCP Server
   slug: modulr
-modified: '2026-09-16'
+modified: '2026-10-06'
 name: Modulr
 nav: Providers
 network: true
-overview: 'Modulr publishes 26 APIs on the [APIs.io](https://apis.io/) network, including Access Group API, Accounts API, Async API, and 23 more. Tagged areas include Payments, United Kingdom, Banking as a Service, Embedded Finance, and Payment Processing.
+overview: 'Modulr publishes 26 API contracts indexed on the [APIs.io](https://apis.io/) network, including Access Group API, Accounts API, Async API, and 23 more. Tagged areas include Payments, United Kingdom, Banking as a Service, Embedded Finance, and Payment Processing.
 
 
   The Modulr catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Modulr''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, pricing, engineering blog, and 31 more developer resources.'
+  Modulr''s developer surface includes engineering blog, authentication, documentation, API reference, getting-started guide, changelog, pricing, and 33 more developer resources.'
 plans:
 - name: Modulr Plans Pricing
   plan_count: 12
@@ -398,7 +406,7 @@ score:
   band: developing
   composite: 53.9
   coverage:
-    artifact_dirs: 25
+    artifact_dirs: 26
     catalog_earned: 57.0
     catalog_earned_first_party: 20.0
     catalog_gap: 58.0
@@ -437,8 +445,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 29.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: JupiterOne's public GraphQL API for querying the security asset graph with J1QL, managing entities and relationships, running alert rules, ingesting data via sync jobs, and administering integrations,
@@ -47,6 +47,10 @@ asyncapis:
   name: Jupiterone Webhooks
   slug: jupiterone-webhooks
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.jupiterone.com/blog/rss.xml
 - group: company
   title: ''
   type: Website
@@ -187,17 +191,17 @@ mcp_servers:
 - description: Official Model Context Protocol server for JupiterOne. Exposes JupiterOne account rules and rule details to MCP-compatible agents and clients.
   name: JupiterOne MCP Server
   slug: jupiterone-mcp
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: JupiterOne
 nav: Providers
 network: true
-overview: 'JupiterOne publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, CAASM, Cyber Asset Management, and Attack Surface Management.
+overview: 'JupiterOne is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, CAASM, Cyber Asset Management, and Attack Surface Management.
 
 
   The JupiterOne catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  JupiterOne''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, pricing, and 22 more developer resources.'
+  JupiterOne''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, pricing, and 23 more developer resources.'
 random_paper: 15
 rate_limits:
 - limit_count: 3
@@ -205,15 +209,15 @@ rate_limits:
   slug: jupiterone-rate-limits
 score:
   band: strong
-  composite: 55.8
+  composite: 55.9
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 18
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 47.4
     contract_governance: 18.2
@@ -238,8 +242,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

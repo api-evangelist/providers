@@ -33,14 +33,23 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Single task-based endpoint for image, video, audio, 3D, and text inference across 400K+ models, reachable over HTTP, WebSocket, and Server-Sent Events.
   name: Runware Inference API
   slug: runware-inference-api
-artifact_total: 6
+artifact_total: 7
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/runware/refs/heads/main/plans/runware-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/runware-plans-pricing.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://runware.ai/blog/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/runware/refs/heads/main/security/runware-domain-security.yml
   title: ''
@@ -188,28 +197,32 @@ mcp_servers:
 - description: Remote MCP server at mcp.runware.ai over HTTP; 8 tools listed.
   name: Runware MCP Server
   slug: runware
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Runware
 nav: Providers
 network: true
-overview: 'Runware publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, Inference, and Image Generation.
+overview: 'Runware is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, Inference, and Image Generation.
 
 
-  Runware''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, pricing, signup flow, and 24 more developer resources.'
+  Runware''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, pricing, signup flow, and 26 more developer resources.'
+plans:
+- name: Runware Plans Pricing
+  plan_count: 10
+  slug: runware-plans-pricing
 random_paper: 2
 score:
   band: developing
-  composite: 43.5
+  composite: 49.5
   coverage:
-    artifact_dirs: 16
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 18
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.0
   facets:
-    access_clarity: 60.5
+    access_clarity: 92.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 66.7
@@ -226,13 +239,13 @@ score:
     - jurisdiction: EU
       standard: gdpr
     jurisdictions_satisfied: 1
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 32.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

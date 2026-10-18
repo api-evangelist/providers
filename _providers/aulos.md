@@ -23,10 +23,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://aulosbio.com/feed/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/aulos/refs/heads/main/hosts/aulos-hosts.yml
   title: ''
@@ -81,25 +85,26 @@ created: '2026-09-26'
 description: Aulos Bioscience develops an immune‑activating antibody therapeutic, imneskibart (AU‑007), that binds the interleukin‑2 region interacting with the CD25 receptor to shift IL‑2 activity toward immune activation and away from suppression. The company is advancing this investigational product in Phase 1/2 trials for patients with unresectable locally advanced or metastatic solid‑tumor cancers, including melanoma and renal cell carcinoma. Its focus is on delivering a novel IL‑2‑based therapy to cancer patients and the clinical research community.
 image: https://aulos.b-cdn.net/wp-content/uploads/2021/12/Aulos-Bio-logo-for-social-share-300-x-300.jpg
 layout: provider
-modified: '2026-09-26'
+modified: '2026-10-06'
 name: Aulos
 nav: Providers
 network: true
 overview: 'Aulos is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Oncology, Biopharma, Antibody Therapeutics, IL-2 Therapeutics, and Clinical Trials.
 
 
-  Aulos'' developer surface includes documentation and 9 more developer resources.'
+  Aulos'' developer surface includes documentation and 10 more developer resources.'
 random_paper: 20
 score:
   band: emerging
   composite: 11.1
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 8
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
@@ -107,6 +112,7 @@ score:
     developer_ergonomics: 9.5
     discoverability: 51.8
     operational_transparency: 0.0
+  previous_composite: 11.1
   provenance:
     mcp: unknown
   regulatory:
@@ -115,12 +121,14 @@ score:
     regime: Health
     regime_id: health
     score: 10.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/aulos/refs/heads/main/screenshots/aulos-2026-10-11T100830.png
 security:
 - kind: domain-security
   name: Aulos Domain Security

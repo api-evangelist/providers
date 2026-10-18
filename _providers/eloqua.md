@@ -34,15 +34,15 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 335
+- acting_count: 329
   human_in_the_loop: 5
   name: Eloqua Agentic Access
   operation_count: 760
   slug: eloqua-agentic-access
-  summary_line: 760 operations · 335 acting · 5 human-in-the-loop
-api_count: 3
+  summary_line: 760 operations · 329 acting · 5 human-in-the-loop
+api_count: 4
 apis:
 - baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
   baseurl_source: declared
@@ -912,6 +912,11 @@ collections:
   name: Oracle Eloqua Bulk Account Exports Users API
   slug: open-eloqua-users-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/eloqua/refs/heads/main/finops/eloqua-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/eloqua-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/eloqua/refs/heads/main/capabilities/eloqua-capability-edges.yml
   title: ''
@@ -1056,9 +1061,13 @@ common:
 created: '2025-01-01'
 description: Oracle Eloqua is a marketing automation platform that provides tools for lead management, email marketing, and marketing campaign management through comprehensive REST APIs. It enables marketing teams to create, execute, and measure the effectiveness of marketing programs and campaigns.
 finops:
-- name: Eloqua Finops
+- has_sources: false
+  method: generated
+  name: Eloqua Finops
+  primary_unit: ''
   service_category: API
   slug: eloqua-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/eloqua.png
 json_schemas:
 - name: Eloqua Campaign
@@ -1080,13 +1089,13 @@ modified: '2026-08-21'
 name: Oracle Eloqua
 nav: Providers
 network: true
-overview: 'Oracle Eloqua publishes 158 APIs on the [APIs.io](https://apis.io/) network, including Account Exports API, Account Fields API, Account Imports API, and 155 more. Tagged areas include CRM, Email Marketing, Lead Management, Marketing Automation, and Campaign Management.
+overview: 'Oracle Eloqua publishes 158 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account Exports API, Account Fields API, Account Imports API, and 155 more. Tagged areas include CRM, Email Marketing, Lead Management, Marketing Automation, and Campaign Management.
 
 
   The Oracle Eloqua catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Oracle Eloqua''s developer surface includes documentation, signup flow, authentication, getting-started guide, support, API reference, changelog, and 24 more developer resources.'
+  Oracle Eloqua''s developer surface includes documentation, signup flow, authentication, getting-started guide, support, API reference, changelog, and 25 more developer resources.'
 plans:
 - name: Eloqua Plans Pricing
   plan_count: 0
@@ -1097,9 +1106,10 @@ rate_limits:
   name: Eloqua Rate Limits
   slug: eloqua-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: Oracle Eloqua API Rules
+  name: Oracle Eloqua — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -1114,23 +1124,23 @@ scopes:
   summary_line: 1 scope · authorizationCode/implicit/password
 score:
   band: developing
-  composite: 51.1
+  composite: 49.6
   coverage:
-    artifact_dirs: 27
-    catalog_earned: 66.3
+    artifact_dirs: 28
+    catalog_earned: 63.3
     catalog_earned_first_party: 12.0
-    catalog_gap: 48.8
+    catalog_gap: 51.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: -1.5
   facets:
-    access_clarity: 42.1
+    access_clarity: 34.2
     contract_governance: 14.4
     contract_quality: 48.5
     developer_ergonomics: 56.5
     discoverability: 78.6
     operational_transparency: 57.9
-  previous_composite: 50.5
+  previous_composite: 51.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1147,8 +1157,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

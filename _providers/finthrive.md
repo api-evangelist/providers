@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The FinThrive API, published through a Microsoft Azure API Management instance. The developer portal at api-portal.nthrive.com is publicly reachable and describes auto-generated API documentation, mul
@@ -44,6 +44,10 @@ apis:
   slug: finthrive-api
 artifact_total: 6
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://finthrive.com/blog/rss.xml
 - group: company
   title: ''
   type: Website
@@ -134,14 +138,14 @@ description: FinThrive is a healthcare revenue cycle management (RCM) technology
   or FinThrive-issued evaluation sign-in, so no machine-readable contract is published to the public.
 image: https://finthrive.com/hs-fs/hubfs/social-suggested-images/finthrive.comhubfsFinThrive_primary_logo_TM_darkBG_RGB_400x60%5B82%5D.png
 layout: provider
-modified: '2026-08-12'
+modified: '2026-10-06'
 name: FinThrive
 nav: Providers
 network: true
-overview: 'FinThrive publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Revenue Cycle Management, Health IT, and Claims.
+overview: 'FinThrive is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Revenue Cycle Management, Health IT, and Claims.
 
 
-  FinThrive''s developer surface includes support, engineering blog, and 14 more developer resources.'
+  FinThrive''s developer surface includes support, engineering blog, and 15 more developer resources.'
 plans:
 - name: Finthrive Plans Pricing
   plan_count: 0
@@ -191,8 +195,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 21.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

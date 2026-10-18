@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 15.5
-  scored_at: '2026-10-04'
+  score: 13.6
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: The UserVoice Admin API v2 provides a fast and easy way of working with your feedback data, enabling you to build client applications and custom integrations for administrative operations including da
@@ -102,9 +102,13 @@ common:
 created: '2026-06-13'
 description: UserVoice is a product feedback and ideation platform with a REST API for managing ideas, gathering votes, tracking status updates, and syncing user feedback with product roadmaps. It provides an Admin API v2 for administrative operations, a Helpdesk API for end-user and support functionality, and an Idea Collection API for custom feedback capture experiences across web and mobile platforms.
 finops:
-- name: Uservoice Finops
+- has_sources: false
+  method: generated
+  name: Uservoice Finops
+  primary_unit: ''
   service_category: ''
   slug: uservoice-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/uservoice.png
 jsonld:
 - class_count: 30
@@ -116,7 +120,7 @@ modified: '2026-06-13'
 name: UserVoice
 nav: Providers
 network: true
-overview: 'UserVoice publishes 3 APIs on the [APIs.io](https://apis.io/) network, including Admin API, and 2 more. Tagged areas include Product Feedback, Idea Management, Customer Feedback, Product Roadmap, and Voting.
+overview: 'UserVoice is listed with 3 APIs on the [APIs.io](https://apis.io/) network, including Admin API, and 2 more. Tagged areas include Product Feedback, Idea Management, Customer Feedback, Product Roadmap, and Voting.
 
 
   The UserVoice catalog on APIs.io includes 1 JSON-LD context.
@@ -134,17 +138,17 @@ rate_limits:
   slug: uservoice-rate-limits
 score:
   band: thin
-  composite: 32.0
+  composite: 26.4
   coverage:
-    artifact_dirs: 8
-    catalog_earned: 61.8
+    artifact_dirs: 9
+    catalog_earned: 51.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.2
+    catalog_gap: 64.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.6
   facets:
-    access_clarity: 46.8
+    access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 34.7
     developer_ergonomics: 23.8
@@ -157,9 +161,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

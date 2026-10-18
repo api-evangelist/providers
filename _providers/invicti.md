@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The Invicti API provides programmatic access to Invicti security scanning capabilities, including API Discovery which helps build a complete inventory of an organization's internal and external API as
@@ -41,6 +41,21 @@ apis:
   slug: invicti-api
 artifact_total: 7
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/invicti/refs/heads/main/plans/invicti-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/invicti-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/invicti/refs/heads/main/rate-limits/invicti-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/invicti-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/invicti/refs/heads/main/finops/invicti-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/invicti-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/invicti/refs/heads/main/security/invicti-trust-center.yml
   title: ''
@@ -83,19 +98,23 @@ common:
 created: '2025-01-08'
 description: Invicti is an enterprise web application security solution providing automated vulnerability scanning, DAST, and API security testing. The Invicti platform includes API Discovery capabilities that help build a complete inventory of an organization's internal and external API assets.
 finops:
-- name: Invicti Finops
+- has_sources: false
+  method: generated
+  name: Invicti Finops
+  primary_unit: ''
   service_category: API
   slug: invicti-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/invicti.png
 layout: provider
 modified: '2026-04-28'
 name: Invicti
 nav: Providers
 network: true
-overview: 'Invicti publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include API Security, DAST, Security, and Vulnerability Scanning.
+overview: 'Invicti is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include API Security, DAST, Security, and Vulnerability Scanning.
 
 
-  Invicti''s developer surface includes engineering blog, documentation, support, and 6 more developer resources.'
+  Invicti''s developer surface includes engineering blog, documentation, support, and 9 more developer resources.'
 plans:
 - name: Invicti Plans Pricing
   plan_count: 3
@@ -107,17 +126,17 @@ rate_limits:
   slug: invicti-rate-limits
 score:
   band: emerging
-  composite: 16.8
+  composite: 15.3
   coverage:
-    artifact_dirs: 7
-    catalog_earned: 36.0
+    artifact_dirs: 8
+    catalog_earned: 33.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 79.0
+    catalog_gap: 82.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 23.7
+    access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 28.6
@@ -130,8 +149,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

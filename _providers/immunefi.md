@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: An unauthenticated, read-only JSON endpoint published on Immunefi's own domain that returns the complete catalog of bug bounty programs listed on the platform. Each record carries the project name and
@@ -47,6 +47,11 @@ asyncapis:
   name: Immunefi Webhooks
   slug: immunefi-webhooks
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/immunefi/refs/heads/main/rate-limits/immunefi-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/immunefi-rate-limits.yml
 - group: company
   title: ''
   type: Website
@@ -140,13 +145,13 @@ modified: '2026-08-23'
 name: Immunefi
 nav: Providers
 network: true
-overview: 'Immunefi publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Bug Bounty, Vulnerability Disclosure, and Web3.
+overview: 'Immunefi is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Bug Bounty, Vulnerability Disclosure, and Web3.
 
 
   The Immunefi catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Immunefi''s developer surface includes engineering blog, support, signup flow, and 15 more developer resources.'
+  Immunefi''s developer surface includes engineering blog, support, signup flow, and 16 more developer resources.'
 plans:
 - name: Immunefi Plans Pricing
   plan_count: 0
@@ -158,7 +163,7 @@ rate_limits:
   slug: immunefi-rate-limits
 score:
   band: thin
-  composite: 34.1
+  composite: 34.2
   coverage:
     artifact_dirs: 18
     catalog_earned: 37.0
@@ -166,7 +171,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
@@ -184,8 +189,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -204,7 +209,7 @@ security:
 - kind: vulnerability-disclosure
   name: Immunefi Vulnerability Disclosure
   slug: immunefi-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 slug: immunefi
 tags:
 - Company

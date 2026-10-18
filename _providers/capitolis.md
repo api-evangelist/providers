@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://capitolis.com/feed/
 - group: company
   title: ''
   type: Website
@@ -73,20 +77,20 @@ created: '2026-07-17'
 description: Capitolis is a financial technology company for the capital markets that helps banks and institutional investors optimize how capital is used across their trading portfolios. Its two flagship offerings are a Capital Marketplace that connects banks with origination capabilities to institutional providers of capital, and a Portfolio Optimization service that offsets redundant and offsetting derivatives positions to reduce capital requirements, counterparty exposure, and systemic risk. By combining technology with financial expertise, Capitolis aims to create a safer, more efficient financial system and broaden access to more diversified pools of capital. The platform is delivered as a secure, login-gated web application to regulated financial institutions rather than as a public developer API.
 image: https://capitolis.com/wp-content/uploads/2018/03/Capitolis-Logo.jpeg
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Capitolis
 nav: Providers
 network: true
 overview: 'Capitolis is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Capital Markets, Fintech, and Capital Optimization.
 
 
-  Capitolis'' developer surface includes support, engineering blog, and 6 more developer resources.'
+  Capitolis'' developer surface includes support, engineering blog, and 7 more developer resources.'
 random_paper: 0
 score:
   band: minimal
   composite: 10.6
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -107,8 +111,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 13.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

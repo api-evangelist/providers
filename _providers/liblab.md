@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 13
 apis:
 - description: Cloud-based generator that produces customizable, type-safe SDKs in seven target stacks (TypeScript, Python, Java, .NET, Go, PHP, Terraform) from OpenAPI 2.0/3.0/3.1 or Postman Collections. CLI and CI
@@ -311,9 +311,13 @@ coverage:
 created: '2026-03-03'
 description: liblab generates and publishes type-safe, idiomatic SDKs in TypeScript, Python, Java, .NET, Go, PHP, and Terraform from OpenAPI/Swagger/Postman specs, plus MCP servers that expose those APIs to AI agents. The platform ships a CLI, hosted portal, and CI/CD GitHub Action that publish SDKs to customer repos via pull requests. liblab joined Postman in November 2025 to complete the API lifecycle. It offers a unified developer experience with extensive documentation, pricing transparency, and community support.
 finops:
-- name: Liblab Finops
+- has_sources: false
+  method: generated
+  name: Liblab Finops
+  primary_unit: ''
   service_category: Developer Tools / SDK Generation
   slug: liblab-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/liblab.png
 json_schemas:
 - name: GetCollectionsResponse
@@ -333,7 +337,7 @@ modified: '2026-05-22'
 name: Liblab
 nav: Providers
 network: true
-overview: 'Liblab publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Api Docs API, Api Json API, Collections API, and 10 more. Tagged areas include SDK, SDK Generation, Code Generation, OpenAPI, and Developer Tools.
+overview: 'Liblab is listed with 13 APIs on the [APIs.io](https://apis.io/) network, including Api Docs API, Api Json API, Collections API, and 10 more. Tagged areas include SDK, SDK Generation, Code Generation, OpenAPI, and Developer Tools.
 
 
   The Liblab catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -350,7 +354,8 @@ rate_limits:
   name: Liblab Rate Limits
   slug: liblab-rate-limits
 rules:
-- effective_rule_count: 52
+- authorship: generated
+  effective_rule_count: 52
   extends:
   - spectral:oas
   name: Liblab API Rules
@@ -363,23 +368,23 @@ rules:
   slug: liblab-rules
 score:
   band: developing
-  composite: 47.6
+  composite: 46.1
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 60.2
+    artifact_dirs: 26
+    catalog_earned: 57.2
     catalog_earned_first_party: 0.0
-    catalog_gap: 54.9
+    catalog_gap: 57.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 18.8
+  delta: -6.8
   facets:
-    access_clarity: 60.5
+    access_clarity: 52.6
     contract_governance: 35.6
     contract_quality: 19.1
     developer_ergonomics: 66.7
     discoverability: 69.6
     operational_transparency: 36.8
-  previous_composite: 28.8
+  previous_composite: 52.9
   provenance:
     conformance: first-party
     contracts:
@@ -394,9 +399,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: rising
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

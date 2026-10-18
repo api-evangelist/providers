@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 9
 apis:
 - description: Enables integration of the Google Pay payment method into web applications, allowing merchants to accept payments from cards saved to Google Accounts. The API provides JavaScript client methods for im
@@ -65,6 +65,10 @@ apis:
   slug: google-universal-commerce-protocol
 artifact_total: 18
 common:
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://developers.google.com/pay/api/faq
 - group: company
   title: ''
   type: Website
@@ -255,9 +259,13 @@ common:
 created: '2024-01-01'
 description: Google Pay is Google's digital wallet and payment surface, exposed to developers as a family of distinct APIs rather than one endpoint. The Google Pay API for Web and Android is a client-side payment sheet that returns a signed, ECIES-encrypted payment token for a merchant's gateway to decrypt; the Google Wallet API is a REST service on walletobjects.googleapis.com for issuing loyalty cards, event tickets, boarding passes, transit tickets, gift cards and offers; Google Standard Payments carries the integrator APIs for issuers and PSPs; and the Google Pay & Wallet Developer MCP server gives AI coding agents live access to merchant profiles, integration status and the official documentation.
 finops:
-- name: Google Pay Finops
+- has_sources: false
+  method: generated
+  name: Google Pay Finops
+  primary_unit: ''
   service_category: API
   slug: google-pay-finops
+  template: true
 image: https://developers.google.com/pay/api/images/brand-guidelines/google-pay-mark.png
 json_schemas:
 - name: Google Pay Payment Handler Configuration
@@ -272,10 +280,10 @@ modified: '2026-09-12'
 name: Google Pay
 nav: Providers
 network: true
-overview: 'Google Pay publishes 9 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Agentic Commerce, Checkout, Contactless Payments, Digital Wallet, and Merchants.
+overview: 'Google Pay is listed with 9 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Agentic Commerce, Checkout, Contactless Payments, Digital Wallet, and Merchants.
 
 
-  Google Pay''s developer surface includes developer portal, getting-started guide, developer console, support, engineering blog, changelog, FAQ, and 34 more developer resources.'
+  Google Pay''s developer surface includes pricing, developer portal, getting-started guide, developer console, support, engineering blog, changelog, and 35 more developer resources.'
 plans:
 - name: Google Pay Plans Pricing
   plan_count: 1
@@ -292,17 +300,17 @@ scopes:
   summary_line: 3 scopes
 score:
   band: developing
-  composite: 49.2
+  composite: 49.8
   coverage:
     artifact_dirs: 23
-    catalog_earned: 59.0
+    catalog_earned: 56.0
     catalog_earned_first_party: 16.0
-    catalog_gap: 56.0
+    catalog_gap: 59.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
-    access_clarity: 63.2
+    access_clarity: 65.8
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 73.2
@@ -319,8 +327,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 36.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

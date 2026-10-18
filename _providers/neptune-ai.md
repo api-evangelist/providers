@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: The Neptune REST API backs the Neptune Python client. It exposes runs, projects, fields, and metadata logging. Authentication uses an API token from the user profile.
@@ -103,16 +103,20 @@ common:
 created: '2026-05-08'
 description: Neptune.ai is an experiment tracker for ML and foundation-model training. As of 2025, Neptune.ai is being acquired by OpenAI and the public pricing page redirects to the OpenAI announcement. Customers continue to use the Neptune Python client and REST API during the transition.
 finops:
-- name: Neptune Ai Finops
+- has_sources: true
+  method: generated
+  name: Neptune Ai Finops
+  primary_unit: ''
   service_category: ML
   slug: neptune-ai-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/neptune-ai.png
 layout: provider
 modified: '2026-05-08'
 name: Neptune.ai
 nav: Providers
 network: true
-overview: Neptune.ai publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Machine Learning, MLOps, Experiment Tracking, Foundation Models, and Acquired.
+overview: Neptune.ai is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Machine Learning, MLOps, Experiment Tracking, Foundation Models, and Acquired.
 plans:
 - name: Neptune Ai Plans Pricing
   plan_count: 1
@@ -124,17 +128,17 @@ rate_limits:
   slug: neptune-ai-rate-limits
 score:
   band: emerging
-  composite: 16.4
+  composite: 14.6
   coverage:
     artifact_dirs: 6
-    catalog_earned: 44.0
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 71.0
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.8
   facets:
-    access_clarity: 13.2
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
@@ -146,12 +150,12 @@ score:
   previous_composite: 16.4
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 5.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

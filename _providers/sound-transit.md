@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.0
-  scored_at: '2026-10-04'
+  score: 17.8
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -108,6 +108,21 @@ collections:
   name: Sound Transit OneBusAway Agencies Vehicles API
   slug: open-sound-transit-vehicles-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sound-transit/refs/heads/main/plans/sound-transit-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/sound-transit-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/sound-transit/refs/heads/main/rate-limits/sound-transit-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/sound-transit-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sound-transit/refs/heads/main/finops/sound-transit-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/sound-transit-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/sound-transit/refs/heads/main/agentic-access/sound-transit-agentic-access.yml
   title: ''
@@ -181,9 +196,13 @@ examples:
   name: Sound Transit Get Arrivals Example
   slug: sound-transit-get-arrivals-example
 finops:
-- name: Sound Transit Finops
+- has_sources: false
+  method: generated
+  name: Sound Transit Finops
+  primary_unit: ''
   service_category: API
   slug: sound-transit-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sound-transit.png
 json_schemas:
 - name: Sound Transit Arrival And Departure
@@ -206,13 +225,13 @@ modified: '2026-05-19'
 name: Sound Transit
 nav: Providers
 network: true
-overview: 'Sound Transit publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Agencies API, Arrivals And Departures API, Routes API, and 4 more. Tagged areas include Transit, Transportation, GTFS, Real-Time, and Public Transit.
+overview: 'Sound Transit publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agencies API, Arrivals And Departures API, Routes API, and 4 more. Tagged areas include Transit, Transportation, GTFS, Real-Time, and Public Transit.
 
 
   The Sound Transit catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Sound Transit''s developer surface includes developer portal, support, and 14 more developer resources.'
+  Sound Transit''s developer surface includes developer portal, support, and 17 more developer resources.'
 plans:
 - name: Sound Transit Plans Pricing
   plan_count: 3
@@ -223,9 +242,10 @@ rate_limits:
   name: Sound Transit Rate Limits
   slug: sound-transit-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Sound Transit API Rules
+  name: Sound Transit — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -233,7 +253,8 @@ rules:
     info: 2
     warn: 3
   slug: sound-transit-jsonschema-spectral-rules
-- effective_rule_count: 51
+- authorship: unmarked
+  effective_rule_count: 51
   extends:
   - spectral:oas
   name: Sound Transit API Rules
@@ -246,17 +267,17 @@ rules:
   slug: sound-transit-rules
 score:
   band: thin
-  composite: 34.9
+  composite: 32.8
   coverage:
     artifact_dirs: 16
-    catalog_earned: 55.5
+    catalog_earned: 58.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 44.5
-    catalog_max: 100.0
+    catalog_gap: 56.5
+    catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.1
   facets:
-    access_clarity: 28.6
+    access_clarity: 18.4
     contract_governance: 13.6
     contract_quality: 52.4
     developer_ergonomics: 31.0
@@ -276,8 +297,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 14.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: REST API for connecting small businesses with lenders. Supports loan application submission, eligibility checking, lender matching, and loan product management. The Embedded Financing API allows servi
@@ -99,16 +99,20 @@ common:
 created: '2026-06-13'
 description: Lendio is a small business lending marketplace that connects businesses with funding through a network of 75+ lenders. The platform offers a REST API for submitting loan applications, checking eligibility, connecting businesses with lenders, and managing loan products. Lendio provides Embedded Financing for service providers to integrate loan marketplace functionality, Intelligent Lending software for banks and lenders, and a Loan Performance Tracking API for high-volume lenders submitting bulk data records.
 finops:
-- name: Lendio Finops
+- has_sources: false
+  method: generated
+  name: Lendio Finops
+  primary_unit: ''
   service_category: ''
   slug: lendio-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lendio.png
 layout: provider
 modified: '2026-06-13'
 name: Lendio
 nav: Providers
 network: true
-overview: 'Lendio publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Lending, Small Business, Loans, Fintech, and Marketplace.
+overview: 'Lendio is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Lending, Small Business, Loans, Fintech, and Marketplace.
 
 
   Lendio''s developer surface includes documentation, engineering blog, pricing, and 9 more developer resources.'
@@ -123,22 +127,22 @@ rate_limits:
   slug: lendio-rate-limits
 score:
   band: emerging
-  composite: 24.1
+  composite: 16.8
   coverage:
-    artifact_dirs: 8
-    catalog_earned: 58.0
+    artifact_dirs: 9
+    catalog_earned: 42.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.0
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.3
   facets:
-    access_clarity: 46.8
+    access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
     discoverability: 66.1
-    operational_transparency: 55.8
+    operational_transparency: 42.1
   previous_composite: 24.1
   regulatory:
     applies: true
@@ -146,9 +150,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

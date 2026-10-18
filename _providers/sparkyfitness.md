@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: A first-party Model Context Protocol server running in-process inside the SparkyFitness API server, mounted at POST /mcp over a stateless streamable HTTP transport. 56 tools across food, exercise, che
@@ -148,6 +148,11 @@ apis:
   slug: sparkyfitness-wellness-metrics-api
 artifact_total: 28
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/sparkyfitness/refs/heads/main/rate-limits/sparkyfitness-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/sparkyfitness-rate-limits.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/sparkyfitness/refs/heads/main/capabilities/sparkyfitness-capability-edges.yml
   title: ''
@@ -262,10 +267,10 @@ modified: '2026-08-27'
 name: SparkyFitness
 nav: Providers
 network: true
-overview: 'SparkyFitness publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Admin API, AI API, AI & Insights API, and 19 more. Tagged areas include Company, Health, Fitness, Nutrition, and Self-Hosted.
+overview: 'SparkyFitness publishes 22 API contracts indexed on the [APIs.io](https://apis.io/) network, including Admin API, AI API, AI & Insights API, and 19 more. Tagged areas include Company, Health, Fitness, Nutrition, and Self-Hosted.
 
 
-  SparkyFitness'' developer surface includes documentation, API reference, getting-started guide, support, FAQ, changelog, and 17 more developer resources.'
+  SparkyFitness'' developer surface includes documentation, API reference, getting-started guide, support, FAQ, changelog, and 18 more developer resources.'
 plans:
 - name: Sparkyfitness Plans Pricing
   plan_count: 0
@@ -309,8 +314,8 @@ score:
     regime: Health
     regime_id: health
     score: 16.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

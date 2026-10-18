@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 4
 apis:
 - description: Retrieve a web store's product catalog for building custom catalog and product-detail pages. Documented API 2 methods include GetProductCategoryList (all categories and subcategories in a store with c
@@ -50,6 +50,10 @@ apis:
   slug: inksoft-users-sso-api
 artifact_total: 8
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.inksoft.com/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/inksoft/refs/heads/main/security/inksoft-domain-security.yml
   title: ''
@@ -97,19 +101,23 @@ common:
 created: '2026-07-11'
 description: InkSoft is a custom apparel e-commerce, online store, and design platform for screen printers, embroiderers, and print shops - part of the Inktavo family alongside Printful and GraphicsFlow. It provides hosted online stores, a browser-based Design Studio, product catalogs, art/clip-art libraries, and order management. InkSoft exposes a documented but license-gated developer surface, the InkSoft API 2, a per-store RPC-style HTTP API returning XML or JSON with CORS support. It lets partners and store owners build custom storefronts, product catalog pages, design galleries, cart and checkout flows, and single sign-on against a specific web store. API access requires an InkSoft Unlimited license and an additional monthly fee, so the reference is public but production use is account-gated.
 finops:
-- name: Inksoft Finops
+- has_sources: true
+  method: generated
+  name: Inksoft Finops
+  primary_unit: ''
   service_category: ''
   slug: inksoft-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/inksoft.png
 layout: provider
-modified: '2026-07-11'
+modified: '2026-10-06'
 name: InkSoft
 nav: Providers
 network: true
-overview: 'InkSoft publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Custom Apparel, E-Commerce, Online Store, Print Shop, and Design Studio.
+overview: 'InkSoft is listed with 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Custom Apparel, E-Commerce, Online Store, Print Shop, and Design Studio.
 
 
-  InkSoft''s developer surface includes documentation, API reference, engineering blog, and 7 more developer resources.'
+  InkSoft''s developer surface includes documentation, API reference, engineering blog, and 8 more developer resources.'
 plans:
 - name: Inksoft Plans Pricing
   plan_count: 3
@@ -120,18 +128,18 @@ rate_limits:
   name: Inksoft Rate Limits
   slug: inksoft-rate-limits
 score:
-  band: emerging
-  composite: 14.3
+  band: minimal
+  composite: 8.7
   coverage:
-    artifact_dirs: 6
-    catalog_earned: 48.8
+    artifact_dirs: 8
+    catalog_earned: 38.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 66.2
+    catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.6
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 9.5
@@ -144,9 +152,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

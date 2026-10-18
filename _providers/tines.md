@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -192,9 +192,13 @@ examples:
   name: Tines Story Example
   slug: tines-story-example
 finops:
-- name: Tines Finops
+- has_sources: false
+  method: generated
+  name: Tines Finops
+  primary_unit: ''
   service_category: ''
   slug: tines-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tines.png
 json_schemas:
 - name: Tines Action
@@ -216,7 +220,7 @@ modified: '2026-06-13'
 name: Tines
 nav: Providers
 network: true
-overview: 'Tines publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Actions API, Audit Logs API, Credentials API, and 4 more. Tagged areas include Security Automation, No-Code, Workflow Automation, Security Operations, and SOAR.
+overview: 'Tines publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Actions API, Audit Logs API, Credentials API, and 4 more. Tagged areas include Security Automation, No-Code, Workflow Automation, Security Operations, and SOAR.
 
 
   The Tines catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -233,9 +237,10 @@ rate_limits:
   name: Tines Rate Limits
   slug: tines-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Tines API Rules
+  name: Tines — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -244,18 +249,18 @@ rules:
     warn: 4
   slug: tines-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 41.9
+  band: thin
+  composite: 36.3
   coverage:
-    artifact_dirs: 16
-    catalog_earned: 65.1
+    artifact_dirs: 17
+    catalog_earned: 54.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 49.9
+    catalog_gap: 60.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.6
   facets:
-    access_clarity: 54.7
+    access_clarity: 26.3
     contract_governance: 9.8
     contract_quality: 58.4
     developer_ergonomics: 23.8
@@ -275,9 +280,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -170,9 +170,13 @@ examples:
   name: Substructure Search
   slug: substructure-search
 finops:
-- name: Finops
+- has_sources: false
+  method: generated
+  name: Finops
+  primary_unit: ''
   service_category: ''
   slug: finops
+  template: true
 image: https://pubchem.ncbi.nlm.nih.gov/favicon.ico
 json_schemas:
 - name: PubChem Compound Properties
@@ -188,7 +192,7 @@ modified: '2026-06-13'
 name: PubChem
 nav: Providers
 network: true
-overview: 'PubChem publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Compounds API, Structure Search API, Utilities API, and 4 more. Tagged areas include Chemistry, Chemical Compounds, Drug Discovery, Bioassay, and Life Sciences.
+overview: 'PubChem publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Compounds API, Structure Search API, Utilities API, and 4 more. Tagged areas include Chemistry, Chemical Compounds, Drug Discovery, Bioassay, and Life Sciences.
 
 
   The PubChem catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -205,9 +209,10 @@ rate_limits:
   name: Rate Limits
   slug: rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: PubChem API Rules
+  name: PubChem — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -216,23 +221,23 @@ rules:
     warn: 4
   slug: pubchem-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 41.9
+  band: thin
+  composite: 35.0
   coverage:
     artifact_dirs: 15
-    catalog_earned: 69.3
+    catalog_earned: 53.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 45.7
+    catalog_gap: 61.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.9
   facets:
-    access_clarity: 61.1
+    access_clarity: 39.5
     contract_governance: 9.8
     contract_quality: 54.4
     developer_ergonomics: 14.3
     discoverability: 73.2
-    operational_transparency: 33.7
+    operational_transparency: 13.2
   previous_composite: 41.9
   provenance:
     agentic_access: derived
@@ -247,9 +252,9 @@ score:
     regime: Health
     regime_id: health
     score: 14.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

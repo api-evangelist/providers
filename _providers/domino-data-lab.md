@@ -34,14 +34,23 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: REST Platform API exposing apps, projects, model serving, environments, workspaces, cost, users, orgs, extensions, and data sources.
   name: Domino Platform API
   slug: domino-platform-api
-artifact_total: 5
+artifact_total: 6
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/domino-data-lab/refs/heads/main/plans/domino-data-lab-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/domino-data-lab-plans-pricing.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://domino.ai/feed.xml
 - group: build
   href: https://raw.githubusercontent.com/api-evangelist/domino-data-lab/refs/heads/main/cli/domino-data-lab-cli.yml
   title: ''
@@ -188,34 +197,38 @@ mcp_servers:
 - description: Local (stdio) MCP server; 4 tools listed.
   name: Domino Data Lab MCP Server
   slug: domino
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Domino Data Lab
 nav: Providers
 network: true
-overview: 'Domino Data Lab publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, MLOps, Data Science, Machine Learning, and AI Platform.
+overview: 'Domino Data Lab is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, MLOps, Data Science, Machine Learning, and AI Platform.
 
 
-  Domino Data Lab''s developer surface includes CLI, changelog, support, documentation, API reference, getting-started guide, engineering blog, and 22 more developer resources.'
+  Domino Data Lab''s developer surface includes CLI, changelog, support, documentation, API reference, getting-started guide, engineering blog, and 24 more developer resources.'
+plans:
+- name: Domino Data Lab Plans Pricing
+  plan_count: 3
+  slug: domino-data-lab-plans-pricing
 random_paper: 19
 score:
   band: thin
-  composite: 29.5
+  composite: 35.9
   coverage:
-    artifact_dirs: 16
-    catalog_earned: 32.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 83.0
+    artifact_dirs: 18
+    catalog_earned: 44.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 12.0
+  delta: 6.6
   facets:
-    access_clarity: 15.8
+    access_clarity: 47.4
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 73.8
     discoverability: 63.3
     operational_transparency: 18.4
-  previous_composite: 17.5
+  previous_composite: 29.3
   provenance:
     conformance: first-party
     mcp: first-party
@@ -231,8 +244,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: rising
   upsert:
     applies: false

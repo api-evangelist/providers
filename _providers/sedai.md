@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Sedai is an AI-driven autonomous cloud optimization platform using reinforcement learning to continuously adjust resources in real-time.
@@ -45,6 +45,21 @@ asyncapis:
   name: Sedai Webhooks
   slug: sedai-webhooks
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sedai/refs/heads/main/plans/sedai-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/sedai-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/sedai/refs/heads/main/rate-limits/sedai-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/sedai-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sedai/refs/heads/main/finops/sedai-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/sedai-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/sedai/refs/heads/main/security/sedai-domain-security.yml
   title: ''
@@ -130,22 +145,26 @@ common:
 created: '2026-03-27'
 description: 'Sedai is an autonomous cloud and AI optimization platform. It continuously analyzes application behavior — traffic, resource utilization, latency and errors — and then adjusts cloud configuration in real time to cut cost, improve performance and protect availability, across Kubernetes, VMs, serverless, storage, databases, GPUs and AI agent workloads on AWS, Azure and GCP. It operates in three modes: Datapilot (observe only), Copilot (human approves each change) and Autopilot (fully autonomous). Sedai exposes a tenant-scoped platform API at https://{tenant}.sedai.app reached through first-party Python and TypeScript SDKs, a Terraform provider and a Helm chart for its in-cluster Smart Agent, but publishes no OpenAPI and no public API reference on its documentation site.'
 finops:
-- name: Sedai Finops
+- has_sources: false
+  method: generated
+  name: Sedai Finops
+  primary_unit: ''
   service_category: API
   slug: sedai-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sedai.png
 layout: provider
 modified: '2026-08-29'
 name: Sedai
 nav: Providers
 network: true
-overview: 'Sedai publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Cloud Optimization, FinOps, Kubernetes, Cloud Cost Management, and Autonomous Operations.
+overview: 'Sedai is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Cloud Optimization, FinOps, Kubernetes, Cloud Cost Management, and Autonomous Operations.
 
 
   The Sedai catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Sedai''s developer surface includes documentation, engineering blog, pricing, signup flow, support, YouTube channel, and 13 more developer resources.'
+  Sedai''s developer surface includes documentation, engineering blog, pricing, signup flow, support, YouTube channel, and 16 more developer resources.'
 plans:
 - name: Sedai Plans Pricing
   plan_count: 0
@@ -157,17 +176,17 @@ rate_limits:
   slug: sedai-rate-limits
 score:
   band: developing
-  composite: 44.9
+  composite: 43.4
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 40.0
+    artifact_dirs: 19
+    catalog_earned: 37.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 47.4
+    access_clarity: 39.5
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 54.8
@@ -183,8 +202,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

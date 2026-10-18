@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 1
@@ -44,7 +44,7 @@ agentic_access:
   operation_count: 57
   slug: valimail-agentic-access
   summary_line: 57 operations · 29 acting · 1 human-in-the-loop
-api_count: 3
+api_count: 4
 apis:
 - description: Retrieve email authentication metrics, sender reports, and unidentified sender reports for compliance dashboards and security insights. Documented for customers in the Valimail help center; credential
   name: Valimail Reporting Data API
@@ -384,7 +384,7 @@ modified: '2026-08-14'
 name: Valimail
 nav: Providers
 network: true
-overview: 'Valimail publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Authentication API, DKIMs by Domain API, and 15 more. Tagged areas include Email Authentication, DMARC, Email Security, SPF, and DKIM.
+overview: 'Valimail publishes 18 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, Authentication API, DKIMs by Domain API, and 15 more. Tagged areas include Email Authentication, DMARC, Email Security, SPF, and DKIM.
 
 
   The Valimail catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -404,7 +404,7 @@ score:
   band: strong
   composite: 64.2
   coverage:
-    artifact_dirs: 25
+    artifact_dirs: 26
     catalog_earned: 52.0
     catalog_earned_first_party: 12.0
     catalog_gap: 63.0
@@ -439,8 +439,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

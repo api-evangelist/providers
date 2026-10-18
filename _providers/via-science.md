@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'VIA''s OpenID Connect / OAuth 2.0 identity layer, operated on a VIA-run Keycloak server. It is the only machine-readable contract VIA publishes: each product realm serves an anonymous OIDC discovery do'
@@ -157,7 +157,7 @@ modified: '2026-09-02'
 name: Via Science
 nav: Providers
 network: true
-overview: 'Via Science publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Identity, Authentication, and Zero Trust.
+overview: 'Via Science is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Identity, Authentication, and Zero Trust.
 
 
   Via Science''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, pricing, and 19 more developer resources.'
@@ -179,7 +179,7 @@ score:
   band: thin
   composite: 35.9
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -203,13 +203,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 31.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/via-science/refs/heads/main/screenshots/via-science-2026-10-11T132930.png
 security:
 - kind: authentication
   name: Via Science Authentication

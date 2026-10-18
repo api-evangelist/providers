@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 1
@@ -96,6 +96,10 @@ collections:
   name: Monta Public API
   slug: open-monta
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://monta.com/en/blog/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/monta/refs/heads/main/capabilities/monta-capability-edges.yml
   title: ''
@@ -150,19 +154,23 @@ common:
 created: '2026-06-21'
 description: Monta is an EV-charging software platform that operates charge points, a consumer driver app, and back-office tools for installers, businesses, and charge point operators. The Monta Public API exposes charge points, charges (charging sessions), EVSE availability and pricing, and wallet transactions via a REST interface secured with OAuth2 client-credentials bearer tokens, plus signed webhooks for real-time platform events.
 finops:
-- name: Monta Finops
+- has_sources: true
+  method: generated
+  name: Monta Finops
+  primary_unit: ''
   service_category: EV Charging and Energy
   slug: monta-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/monta.png
 layout: provider
-modified: '2026-06-21'
+modified: '2026-10-06'
 name: Monta
 nav: Providers
 network: true
-overview: 'Monta publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Charge Points API, Charges API, and 3 more. Tagged areas include EV Charging, Electric Vehicles, Charge Points, Energy, and Mobility.
+overview: 'Monta publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authentication API, Charge Points API, Charges API, and 3 more. Tagged areas include EV Charging, Electric Vehicles, Charge Points, Energy, and Mobility.
 
 
-  Monta''s developer surface includes authentication, documentation, and 9 more developer resources.'
+  Monta''s developer surface includes engineering blog, authentication, documentation, and 9 more developer resources.'
 plans:
 - name: Monta Plans Pricing
   plan_count: 2
@@ -173,23 +181,23 @@ rate_limits:
   name: Monta Rate Limits
   slug: monta-rate-limits
 score:
-  band: thin
-  composite: 31.1
+  band: emerging
+  composite: 24.6
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 58.0
+    artifact_dirs: 13
+    catalog_earned: 42.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.0
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.5
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 48.2
-    developer_ergonomics: 21.4
+    developer_ergonomics: 23.8
     discoverability: 66.1
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   previous_composite: 31.1
   provenance:
     agentic_access: derived
@@ -204,9 +212,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 9.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

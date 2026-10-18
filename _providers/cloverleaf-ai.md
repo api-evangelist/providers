@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: A remote, OAuth-protected Model Context Protocol server that exposes Cloverleaf AI's government meeting intelligence to AI agents and assistants. Found by host discovery (mcp.cloverleaf.ai) rather tha
@@ -45,6 +45,10 @@ apis:
   slug: cloverleaf-ai-mcp-server
 artifact_total: 8
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.cloverleaf.ai/blog/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/cloverleaf-ai/refs/heads/main/security/cloverleaf-ai-domain-security.yml
   title: ''
@@ -166,14 +170,14 @@ mcp_servers:
 - description: Remote MCP server at mcp.cloverleaf.ai over HTTP requiring OAuth.
   name: Cloverleaf AI MCP Server
   slug: cloverleaf-ai-mcp
-modified: '2026-08-14'
+modified: '2026-10-06'
 name: Cloverleaf AI
 nav: Providers
 network: true
-overview: 'Cloverleaf AI publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Government, B2G, Sales Intelligence, and Public Sector.
+overview: 'Cloverleaf AI is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Government, B2G, Sales Intelligence, and Public Sector.
 
 
-  Cloverleaf AI''s developer surface includes signup flow, getting-started guide, support, authentication, and 21 more developer resources.'
+  Cloverleaf AI''s developer surface includes engineering blog, signup flow, getting-started guide, support, authentication, and 21 more developer resources.'
 plans:
 - name: Cloverleaf Ai Plans Pricing
   plan_count: 0
@@ -189,8 +193,8 @@ scopes:
   slug: cloverleaf-ai-scopes
   summary_line: 4 scopes · authorizationCode
 score:
-  band: emerging
-  composite: 26.1
+  band: thin
+  composite: 26.5
   coverage:
     artifact_dirs: 16
     catalog_earned: 37.0
@@ -198,12 +202,12 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.4
   facets:
     access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 28.6
+    developer_ergonomics: 31.0
     discoverability: 75.0
     operational_transparency: 7.9
   jurisdiction:
@@ -223,8 +227,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 3.8
-  scored_at: '2026-10-04'
+  score: 1.9
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: The IATA Open API Hub aggregates airline-published APIs covering flight status, customer flight info, destinations, port lists, ticket validation, baggage claims, pet travel, and verifiable credential
@@ -47,6 +47,21 @@ apis:
   slug: ndc
 artifact_total: 8
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/iata/refs/heads/main/plans/iata-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/iata-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/iata/refs/heads/main/rate-limits/iata-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/iata-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/iata/refs/heads/main/finops/iata-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/iata-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/iata/refs/heads/main/security/iata-vulnerability-disclosure.yml
   title: ''
@@ -88,19 +103,23 @@ common:
 created: '2025-03-01'
 description: The International Air Transport Association (IATA) is the global trade association representing and serving the airline industry. IATA sets standards for the aviation industry, promotes cooperation among airlines, and operates an Open API Hub providing access to airline-published APIs for flight status, destinations, baggage, ticket validation, cargo, digital identity, and related aviation data services.
 finops:
-- name: Iata Finops
+- has_sources: false
+  method: generated
+  name: Iata Finops
+  primary_unit: ''
   service_category: API
   slug: iata-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/iata.png
 layout: provider
 modified: '2026-04-28'
 name: IATA
 nav: Providers
 network: true
-overview: 'IATA publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Airlines, Airports, Aviation, Cargo, and Standards.
+overview: 'IATA is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Airlines, Airports, Aviation, Cargo, and Standards.
 
 
-  IATA''s developer surface includes developer portal, support, code examples, engineering blog, and 5 more developer resources.'
+  IATA''s developer surface includes developer portal, support, code examples, engineering blog, and 8 more developer resources.'
 plans:
 - name: Iata Plans Pricing
   plan_count: 3
@@ -112,17 +131,17 @@ rate_limits:
   slug: iata-rate-limits
 score:
   band: emerging
-  composite: 15.8
+  composite: 14.3
   coverage:
-    artifact_dirs: 7
-    catalog_earned: 44.0
+    artifact_dirs: 8
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 71.0
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 6.5
     developer_ergonomics: 21.4
@@ -135,8 +154,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

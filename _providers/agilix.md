@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'The Buzz API is the programmable surface of the Agilix Learning Suite. It is a command-style HTTP API rather than a path-and-method REST API: every one of its 291 documented operations is issued as PO'
@@ -35,6 +35,11 @@ asyncapis:
   name: Agilix Datastream Webhooks
   slug: agilix-datastream-webhooks
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/agilix/refs/heads/main/rate-limits/agilix-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/agilix-rate-limits.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/agilix/refs/heads/main/security/agilix-vulnerability-disclosure.yml
   title: ''
@@ -165,13 +170,13 @@ modified: '2026-09-12'
 name: Agilix
 nav: Providers
 network: true
-overview: 'Agilix publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, EdTech, Learning Management System, and K-12.
+overview: 'Agilix is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, EdTech, LMS, and K-12.
 
 
   The Agilix catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Agilix''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, product news, and 21 more developer resources.'
+  Agilix''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, product news, and 22 more developer resources.'
 plans:
 - name: Agilix Plans Pricing
   plan_count: 0
@@ -185,7 +190,7 @@ score:
   band: developing
   composite: 48.6
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 21
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -210,13 +215,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 29.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/agilix/refs/heads/main/screenshots/agilix-2026-10-11T093115.png
 security:
 - kind: authentication
   name: Agilix Authentication
@@ -239,9 +245,9 @@ tags:
 - Company
 - Education
 - EdTech
-- Learning Management System
+- LMS
 - K-12
-- Online Learning
+- E-Learning
 - Tutoring
 - Assessment
 - LTI

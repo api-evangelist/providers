@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: First Hawaiian Bank exposes no public first-party API. Consumer-permissioned account and transaction data is available only through third-party financial data aggregators such as Plaid, which handle a
@@ -89,7 +89,7 @@ modified: '2026-07-23'
 name: First Hawaiian Bank
 nav: Providers
 network: true
-overview: 'First Hawaiian Bank publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Services, Banking, United States, Hawaii, and Regional Bank.
+overview: 'First Hawaiian Bank is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Services, Banking, United States, Hawaii, and Regional Bank.
 
 
   First Hawaiian Bank''s developer surface includes documentation, support, and 7 more developer resources.'
@@ -98,7 +98,7 @@ score:
   band: emerging
   composite: 12.1
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -126,8 +126,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 11.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

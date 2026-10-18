@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.8
-  scored_at: '2026-10-04'
+  score: 22.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -196,16 +196,20 @@ common:
 created: '2026-07-03'
 description: TrainingPeaks is an endurance-athlete training platform for cyclists, runners, triathletes, and their coaches - used to plan structured workouts, track completed activities, analyze fitness with TSS/CTL/ATL and power/heart-rate/pace zones, log metrics, and manage coach-athlete relationships. The TrainingPeaks Partners API (Public API) is an OAuth 2.0, JSON/HTTPS REST API at api.trainingpeaks.com (sandbox at api.sandbox.trainingpeaks.com) that lets approved third parties read and write athlete profiles, planned and completed workouts, structured workout files, metrics, nutrition, events, routes, and coach data on behalf of a user. API access is partner-gated - developers must apply for credentials and are not accepting requests for personal use - but the API surface is publicly documented on the PartnersAPI GitHub wiki.
 finops:
-- name: Trainingpeaks Finops
+- has_sources: true
+  method: generated
+  name: Trainingpeaks Finops
+  primary_unit: ''
   service_category: Fitness and Endurance Training
   slug: trainingpeaks-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/trainingpeaks.png
 layout: provider
 modified: '2026-07-03'
 name: TrainingPeaks
 nav: Providers
 network: true
-overview: 'TrainingPeaks publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Athlete API, Coach API, Events API, and 7 more. Tagged areas include Fitness, Endurance Training, Workouts, Coaching, and Sports.
+overview: 'TrainingPeaks publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Athlete API, Coach API, Events API, and 7 more. Tagged areas include Fitness, Endurance Training, Workouts, Coaching, and Sports.
 
 
   TrainingPeaks'' developer surface includes authentication, documentation, engineering blog, and 10 more developer resources.'
@@ -225,22 +229,22 @@ scopes:
   summary_line: 17 scopes · authorizationCode
 score:
   band: thin
-  composite: 36.9
+  composite: 28.6
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 61.6
+    artifact_dirs: 14
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.4
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 47.0
     developer_ergonomics: 32.1
     discoverability: 66.1
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   previous_composite: 36.9
   provenance:
     agentic_access: derived
@@ -255,9 +259,9 @@ score:
     regime: Health
     regime_id: health
     score: 22.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

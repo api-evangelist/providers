@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 46.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -413,7 +413,7 @@ modified: '2026-09-16'
 name: rtcStats
 nav: Providers
 network: true
-overview: 'rtcStats publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include WebRTC, Observability, Monitoring, Debugging, and Real-Time Communication.
+overview: 'rtcStats publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network. Tagged areas include WebRTC, Observability, Monitoring, Debugging, and Real-Time Communication.
 
 
   The rtcStats catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -433,7 +433,8 @@ rate_limits:
   name: Rtcstats Rate Limits
   slug: rtcstats-rate-limits
 rules:
-- effective_rule_count: 57
+- authorship: generated
+  effective_rule_count: 57
   extends:
   - spectral:oas
   name: rtcStats API Rules
@@ -448,13 +449,13 @@ score:
   band: exemplar
   composite: 69.2
   coverage:
-    artifact_dirs: 32
+    artifact_dirs: 33
     catalog_earned: 90.8
     catalog_earned_first_party: 24.0
     catalog_gap: 24.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 16.1
+  delta: 0.0
   facets:
     access_clarity: 92.1
     contract_governance: 34.1
@@ -465,7 +466,7 @@ score:
   open_source:
     applies: true
     score: 25.0
-  previous_composite: 53.1
+  previous_composite: 69.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -482,9 +483,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 36.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: rising
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: flat
   upsert:
     applies: true
     score: 0.0

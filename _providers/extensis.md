@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.5
-  scored_at: '2026-10-04'
+  score: 23.7
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 1
+- acting_count: 0
   human_in_the_loop: 0
   name: Extensis Agentic Access
   operation_count: 4
   slug: extensis-agentic-access
-  summary_line: 4 operations · 1 acting
+  summary_line: 4 operations
 api_count: 1
 apis:
 - baseURL: https://doc.extensis.com/api/portfolio/rest/index.html
@@ -170,9 +170,13 @@ examples:
   name: Search Assets Response
   slug: search-assets-response
 finops:
-- name: Extensis Finops
+- has_sources: false
+  method: generated
+  name: Extensis Finops
+  primary_unit: ''
   service_category: ''
   slug: extensis-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/extensis.png
 json_schemas:
 - name: Asset
@@ -194,7 +198,7 @@ modified: 2026-06-13
 name: Extensis
 nav: Providers
 network: true
-overview: 'Extensis publishes 3 APIs on the [APIs.io](https://apis.io/) network: Assets API, Catalogs API, and Search API. Tagged areas include Digital Asset Management, Font Management, Creative Assets, Font Licensing, and Design Workflows.
+overview: 'Extensis publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Assets API, Catalogs API, and Search API. Tagged areas include Digital Asset Management, Font Management, Creative Assets, Font Licensing, and Design Workflows.
 
 
   The Extensis catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -211,9 +215,10 @@ rate_limits:
   name: Extensis Rate Limits
   slug: extensis-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Extensis API Rules
+  name: Extensis — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -223,17 +228,17 @@ rules:
   slug: extensis-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 38.6
+  composite: 33.0
   coverage:
     artifact_dirs: 16
-    catalog_earned: 57.1
+    catalog_earned: 46.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 58.0
+    catalog_gap: 68.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.6
   facets:
-    access_clarity: 54.7
+    access_clarity: 26.3
     contract_governance: 9.8
     contract_quality: 49.5
     developer_ergonomics: 28.6
@@ -253,9 +258,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

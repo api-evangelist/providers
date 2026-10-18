@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: REST API behind the Alkira Portal (Cloud Services Exchange). Manages tenant networks, segments, cloud and site connectors (AWS, Azure, GCP, OCI, and SD-WAN vendors), integrated network services, routi
@@ -42,6 +42,10 @@ apis:
   slug: alkira-portal-api
 artifact_total: 4
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.alkira.com/news/
 - group: company
   title: ''
   type: Website
@@ -127,31 +131,31 @@ mcp_servers:
 - description: Local (stdio) MCP server; 193 tools listed.
   name: Alkira MCP Server
   slug: mcp-alkira
-modified: '2026-07-17'
+modified: '2026-10-06'
 name: Alkira
 nav: Providers
 network: true
-overview: 'Alkira publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Networking, Cloud, and Multi-Cloud.
+overview: 'Alkira is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Networking, Cloud, and Multi-Cloud.
 
 
-  Alkira''s developer surface includes authentication, changelog, and 14 more developer resources.'
+  Alkira''s developer surface includes engineering blog, authentication, changelog, and 14 more developer resources.'
 random_paper: 12
 score:
   band: emerging
-  composite: 17.5
+  composite: 18.1
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 16
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 0.0
     contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 20.8
+    developer_ergonomics: 23.2
     discoverability: 71.7
     operational_transparency: 42.1
   previous_composite: 17.5
@@ -165,8 +169,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

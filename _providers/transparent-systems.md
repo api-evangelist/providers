@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -58,7 +58,7 @@ modified: '2026-07-21'
 name: Transparent Systems
 nav: Providers
 network: true
-overview: Transparent Systems is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto, Fintech, Payments, and Settlement.
+overview: Transparent Systems is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cryptocurrency, Fintech, Payments, and Settlement.
 random_paper: 15
 score:
   band: minimal
@@ -93,8 +93,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 5.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -109,7 +109,7 @@ security:
 slug: transparent-systems
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Fintech
 - Payments
 - Settlement

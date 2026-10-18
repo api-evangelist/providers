@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: REST + JSON API for GroupMe groups, memberships, messages, chats, likes, blocks, users, and bots, plus a Bayeux push service and bot webhook callbacks.
@@ -45,6 +45,10 @@ asyncapis:
   name: Groupme Push Webhooks
   slug: groupme-push-webhooks
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://groupme.com/updates
 - group: company
   title: ''
   type: Website
@@ -146,34 +150,34 @@ created: '2026-07-17'
 description: GroupMe is a group messaging application, owned by Microsoft, that lets people chat in named groups and direct conversations across iOS, Android, and the web, including over SMS. For developers, GroupMe publishes the GroupMe API v3 — a REST + JSON API at https://api.groupme.com/v3 authenticated with a per-user access token in the X-Access-Token header. The API covers groups and former groups, memberships and nicknames, group and direct messages with attachments, likes, blocks, user profiles, and bots. A Bayeux/Faye push service delivers realtime message and typing events, and bots receive HTTP webhook callbacks for every group message. GroupMe was surfaced as a portfolio company of Thrive Capital and enriched here from its public developer documentation.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/groupme.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: GroupMe
 nav: Providers
 network: true
-overview: 'GroupMe publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Messaging, Chat, and Bots.
+overview: 'GroupMe is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Messaging, Chat, and Bots.
 
 
   The GroupMe catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  GroupMe''s developer surface includes documentation, API reference, getting-started guide, signup flow, authentication, and 16 more developer resources.'
+  GroupMe''s developer surface includes engineering blog, documentation, API reference, getting-started guide, signup flow, authentication, and 16 more developer resources.'
 random_paper: 19
 score:
   band: thin
-  composite: 34.2
+  composite: 34.7
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
     contract_quality: 39.0
-    developer_ergonomics: 50.0
+    developer_ergonomics: 52.4
     discoverability: 73.2
     operational_transparency: 7.9
   previous_composite: 34.2
@@ -186,8 +190,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.7
-  scored_at: '2026-10-04'
+  score: 30.8
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -96,6 +96,21 @@ collections:
   name: Microsoft Defender for Endpoint Alerts Vulnerabilities API
   slug: open-microsoft-defender-vulnerabilities-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-defender/refs/heads/main/plans/microsoft-defender-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/microsoft-defender-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-defender/refs/heads/main/rate-limits/microsoft-defender-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/microsoft-defender-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-defender/refs/heads/main/finops/microsoft-defender-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/microsoft-defender-finops.yml
 - group: company
   title: ''
   type: Website
@@ -177,9 +192,13 @@ common:
 created: '2024-01-15'
 description: Collection of Microsoft Defender security APIs for threat protection, endpoint security, and security operations.
 finops:
-- name: Microsoft Defender Finops
+- has_sources: true
+  method: generated
+  name: Microsoft Defender Finops
+  primary_unit: ''
   service_category: Security / XDR
   slug: microsoft-defender-finops
+  template: false
 image: https://www.microsoft.com/favicon.ico
 json_schemas:
 - name: Microsoft Defender for Endpoint Alert
@@ -223,13 +242,13 @@ modified: '2026-09-16'
 name: Microsoft Defender
 nav: Providers
 network: true
-overview: 'Microsoft Defender publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Alerts API, Machines API, Vulnerabilities API, and 6 more. Tagged areas include Cloud Security, Data Protection, Threat Intelligence, Email Security, and Endpoint Security.
+overview: 'Microsoft Defender publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Alerts API, Machines API, Vulnerabilities API, and 6 more. Tagged areas include Cloud Security, Data Protection, Threat Intelligence, Email Security, and Endpoint Security.
 
 
   The Microsoft Defender catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Microsoft Defender''s developer surface includes authentication, developer portal, and 16 more developer resources.'
+  Microsoft Defender''s developer surface includes authentication, developer portal, and 19 more developer resources.'
 plans:
 - name: Microsoft Defender Plans Pricing
   plan_count: 17
@@ -240,9 +259,10 @@ rate_limits:
   name: Microsoft Defender Rate Limits
   slug: microsoft-defender-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Microsoft Defender API Rules
+  name: Microsoft Defender — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -257,23 +277,23 @@ scopes:
   summary_line: 1 scope · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 51.4
+  composite: 49.9
   coverage:
     artifact_dirs: 19
-    catalog_earned: 44.7
+    catalog_earned: 41.7
     catalog_earned_first_party: 0.0
-    catalog_gap: 70.4
+    catalog_gap: 73.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 2.9
+  delta: -1.5
   facets:
-    access_clarity: 47.4
+    access_clarity: 39.5
     contract_governance: 9.8
     contract_quality: 67.6
     developer_ergonomics: 57.1
     discoverability: 39.3
     operational_transparency: 42.1
-  previous_composite: 48.5
+  previous_composite: 51.4
   provenance:
     agentic_access: derived
     contracts:
@@ -287,8 +307,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

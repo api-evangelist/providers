@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 2
@@ -286,7 +286,7 @@ modified: '2026-07-21'
 name: Recall Labs
 nav: Providers
 network: true
-overview: 'Recall Labs publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Agent API, Agents API, and 10 more. Tagged areas include Company, Infra Devtools, Artificial Intelligence, AI Agents, and Trading.
+overview: 'Recall Labs publishes 13 API contracts indexed on the [APIs.io](https://apis.io/) network, including Admin API, Agent API, Agents API, and 10 more. Tagged areas include Company, Infra Devtools, Artificial Intelligence, AI Agents, and Trading.
 
 
   Recall Labs'' developer surface includes quickstart, documentation, API reference, engineering blog, changelog, signup flow, support, and 20 more developer resources.'
@@ -326,8 +326,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 21.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

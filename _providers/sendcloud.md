@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 47.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -44,7 +44,7 @@ agentic_access:
   operation_count: 94
   slug: sendcloud-agentic-access
   summary_line: 94 operations · 42 acting
-api_count: 20
+api_count: 30
 apis:
 - baseURL: https://panel.sendcloud.sc/api/v3
   baseurl_source: declared
@@ -968,9 +968,13 @@ features:
 - description: Sendcloud-Partner-Id header for third-party platforms calling on behalf of merchants.
   name: Marketplace integration guidelines
 finops:
-- name: Sendcloud Finops
+- has_sources: true
+  method: generated
+  name: Sendcloud Finops
+  primary_unit: ''
   service_category: Shipping API
   slug: sendcloud-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 json_schemas:
 - name: DeliveryOption
@@ -1021,7 +1025,7 @@ modified: '2026-05-25'
 name: Sendcloud
 nav: Providers
 network: true
-overview: 'Sendcloud publishes 26 APIs on the [APIs.io](https://apis.io/) network, including Address API, Analytics API, Broadcast API, and 23 more. Tagged areas include Shipping, Logistics, E-Commerce, Carrier, and Labels.
+overview: 'Sendcloud publishes 26 API contracts indexed on the [APIs.io](https://apis.io/) network, including Address API, Analytics API, Broadcast API, and 23 more. Tagged areas include Shipping, Logistics, E-Commerce, Carrier, and Labels.
 
 
   The Sendcloud catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -1041,9 +1045,10 @@ rate_limits:
   name: Sendcloud Rate Limits
   slug: sendcloud-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Sendcloud API Rules
+  name: Sendcloud — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1051,7 +1056,8 @@ rules:
     info: 1
     warn: 4
   slug: sendcloud-jsonschema-spectral-rules
-- effective_rule_count: 56
+- authorship: unmarked
+  effective_rule_count: 56
   extends:
   - spectral:oas
   name: Sendcloud API Rules
@@ -1068,18 +1074,18 @@ scopes:
   slug: sendcloud-scopes
   summary_line: 1 scope · clientCredentials
 score:
-  band: exemplar
-  composite: 68.0
+  band: strong
+  composite: 66.4
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 96.0
+    artifact_dirs: 26
+    catalog_earned: 93.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 19.0
+    catalog_gap: 22.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -1.6
   facets:
-    access_clarity: 57.9
+    access_clarity: 50.0
     contract_governance: 27.3
     contract_quality: 70.4
     developer_ergonomics: 69.0
@@ -1093,7 +1099,7 @@ score:
     regions:
     - benelux
     - europe
-  previous_composite: 67.5
+  previous_composite: 68.0
   provenance:
     agentic_access: derived
     contracts:
@@ -1108,8 +1114,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 32.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

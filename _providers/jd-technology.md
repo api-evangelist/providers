@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: JD Cloud OpenAPI is the programmatic control plane for JD Technology's public cloud — compute (VM), storage, databases (RDS), networking, containers, CDN, AI and security services. Each product expose
@@ -42,6 +42,10 @@ apis:
   slug: jd-cloud-openapi
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.jdt.com.cn/blog/
 - group: start
   title: ''
   type: DeveloperPortal
@@ -100,31 +104,31 @@ created: '2026-07-17'
 description: JD Technology Group (京东科技集团) is the technology and cloud subsidiary of JD.com, delivering digital-transformation services to government, financial institutions, and enterprises. Its primary developer surface is JD Cloud (京东云), a full-stack public cloud offering compute, storage, databases, networking, AI, security, and industry solutions exposed through the JD Cloud OpenAPI. Developers integrate via signed (access-key / secret-key) OpenAPI calls to per-service endpoints, and JD Technology publishes first-party SDKs for Java, Go, Python, PHP, .NET, Node.js and iOS plus a cross-platform command line (jdc) on GitHub. This profile was surfaced as a portfolio company of hongshan and enriched from JD Technology's public developer surfaces.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/jd-technology.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: JD Technology
 nav: Providers
 network: true
-overview: 'JD Technology publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Technology, Cloud, Cloud Computing, and Infrastructure.
+overview: 'JD Technology is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Technology, Cloud, Cloud Computing, and Infrastructure.
 
 
-  JD Technology''s developer surface includes documentation, API reference, signup flow, CLI, authentication, and 7 more developer resources.'
+  JD Technology''s developer surface includes engineering blog, documentation, API reference, signup flow, CLI, authentication, and 7 more developer resources.'
 random_paper: 15
 score:
   band: emerging
-  composite: 12.2
+  composite: 12.7
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 26.2
+    developer_ergonomics: 28.6
     discoverability: 73.2
     operational_transparency: 2.6
   jurisdiction:
@@ -141,8 +145,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

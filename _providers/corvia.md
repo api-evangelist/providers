@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://corviamedical.com/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/corvia/refs/heads/main/security/corvia-domain-security.yml
   title: ''
@@ -77,14 +81,14 @@ created: '2026-07-17'
 description: Corvia Medical, Inc. is a medical device company headquartered in Tewksbury, Massachusetts that develops interventional cardiology solutions for heart failure. Its lead product is the Corvia Atrial Shunt System (IASD), a transcatheter implant indicated for improving quality of life and reducing heart-failure symptoms in patients with elevated left atrial pressures who remain symptomatic despite guideline-directed medical therapy. The company has been backed by General Catalyst since 2009. Corvia Medical publishes no public API, developer portal, or machine-readable interface; its web presence is clinical, patient, and regulatory information only.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/corvia.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Corvia Medical
 nav: Providers
 network: true
 overview: 'Corvia Medical is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, Health, Cardiology, and Heart Failure.
 
 
-  Corvia Medical''s developer surface includes support, engineering blog, YouTube channel, and 6 more developer resources.'
+  Corvia Medical''s developer surface includes support, engineering blog, YouTube channel, and 7 more developer resources.'
 random_paper: 6
 score:
   band: minimal
@@ -118,8 +122,8 @@ score:
     regime: Health
     regime_id: health
     score: 7.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -139,6 +143,6 @@ tags:
 - Cardiology
 - Heart Failure
 - Interventional Cardiology
-- MedTech
+- Medical Technology
 website: https://corviamedical.com/
 ---

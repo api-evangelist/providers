@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: GraphQL API for Anyplace services
@@ -31,6 +31,10 @@ apis:
   slug: anyplace-graphql-api
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.anyplace.com/feed
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/anyplace/refs/heads/main/llms/anyplace-llms.txt
   title: ''
@@ -91,25 +95,26 @@ created: '2026-09-25'
 description: Anyplace provides flexible‑term, fully furnished apartments designed for remote workers, corporate teams, and digital nomads. Founded in 2017, the platform offers move‑in ready rentals with dedicated workspaces, high‑speed internet, utilities, and all‑inclusive amenities. Users can book month‑to‑month leases in major cities worldwide, enjoying premium furnishings, private high‑speed internet, and 24/7 support. The service simplifies housing by handling utilities, internet, and furniture, allowing professionals to focus on work and travel. Anyplace also offers corporate housing solutions, partner networks for property owners, and a seamless online booking experience with transparent pricing and flexible terms.
 image: https://www.anyplace.com/home/thumbnail.webp
 layout: provider
-modified: '2026-09-25'
+modified: '2026-10-06'
 name: Anyplace
 nav: Providers
 network: true
-overview: 'Anyplace publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Housing, Remote Work, FlexibleLease, and Apartments.
+overview: 'Anyplace is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Housing, Remote Work, FlexibleLease, and Apartments.
 
 
-  Anyplace''s developer surface includes support, engineering blog, documentation, and 8 more developer resources.'
+  Anyplace''s developer surface includes support, engineering blog, documentation, and 9 more developer resources.'
 random_paper: 9
 score:
   band: emerging
-  composite: 14.8
+  composite: 14.9
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.1
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
@@ -117,6 +122,7 @@ score:
     developer_ergonomics: 16.7
     discoverability: 75.0
     operational_transparency: 0.0
+  previous_composite: 14.8
   provenance:
     mcp: unknown
   regulatory:
@@ -125,12 +131,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/anyplace/refs/heads/main/screenshots/anyplace-2026-10-11T095818.png
 security:
 - kind: domain-security
   name: Anyplace Domain Security

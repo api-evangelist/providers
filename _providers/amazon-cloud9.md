@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -279,7 +279,7 @@ modified: '2026-06-20'
 name: Amazon Cloud9
 nav: Providers
 network: true
-overview: 'Amazon Cloud9 publishes 2 APIs on the [APIs.io](https://apis.io/) network, including Environments API, and 1 more. Tagged areas include Cloud9, IDE, Development, Browser-Based, and Developer Tools.
+overview: 'Amazon Cloud9 is listed with 2 APIs on the [APIs.io](https://apis.io/) network, including Environments API, and 1 more. Tagged areas include Cloud9, IDE, Development, Browser-Based, and Developer Tools.
 
 
   The Amazon Cloud9 catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -288,9 +288,10 @@ overview: 'Amazon Cloud9 publishes 2 APIs on the [APIs.io](https://apis.io/) net
   Amazon Cloud9''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 23 more developer resources.'
 random_paper: 7
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Amazon Cloud9 API Rules
+  name: Amazon Cloud9 — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -298,7 +299,8 @@ rules:
     info: 2
     warn: 3
   slug: amazon-cloud9-jsonschema-spectral-rules
-- effective_rule_count: 65
+- authorship: generated
+  effective_rule_count: 65
   extends:
   - spectral:oas
   name: Amazon Cloud9 API Rules
@@ -343,8 +345,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

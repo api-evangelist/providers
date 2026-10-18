@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.9
-  scored_at: '2026-10-04'
+  score: 20.1
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 4
@@ -142,6 +142,21 @@ collections:
   name: JupyterHub REST Activity Users API
   slug: open-jupyterhub-users-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/jupyterhub/refs/heads/main/plans/jupyterhub-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/jupyterhub-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/jupyterhub/refs/heads/main/rate-limits/jupyterhub-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/jupyterhub-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/jupyterhub/refs/heads/main/finops/jupyterhub-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/jupyterhub-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/jupyterhub/refs/heads/main/capabilities/jupyterhub-capability-edges.yml
   title: ''
@@ -231,9 +246,13 @@ common:
 created: '2024-01-01'
 description: JupyterHub is a multi-user server for Jupyter notebooks. It manages authentication, spawns and proxies multiple instances of the single-user Jupyter notebook server, and exposes a REST API for managing users, groups, services, tokens, and the proxy.
 finops:
-- name: Jupyterhub Finops
+- has_sources: false
+  method: generated
+  name: Jupyterhub Finops
+  primary_unit: ''
   service_category: API
   slug: jupyterhub-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/jupyterhub.png
 json_schemas:
 - name: JupyterHub Group
@@ -255,13 +274,13 @@ modified: '2026-05-19'
 name: JupyterHub
 nav: Providers
 network: true
-overview: 'JupyterHub publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Activity API, Admin API, Authorizations API, and 8 more. Tagged areas include Authentication, Data Science, Education, Hub, and Multi-User.
+overview: 'JupyterHub publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Activity API, Admin API, Authorizations API, and 8 more. Tagged areas include Authentication, Data Science, Education, Hub, and Multi-User.
 
 
   The JupyterHub catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  JupyterHub''s developer surface includes authentication, documentation, getting-started guide, engineering blog, and 16 more developer resources.'
+  JupyterHub''s developer surface includes authentication, documentation, getting-started guide, engineering blog, and 19 more developer resources.'
 plans:
 - name: Jupyterhub Plans Pricing
   plan_count: 3
@@ -272,9 +291,10 @@ rate_limits:
   name: Jupyterhub Rate Limits
   slug: jupyterhub-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: JupyterHub API Rules
+  name: JupyterHub — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -288,18 +308,18 @@ scopes:
   slug: jupyterhub-scopes
   summary_line: 9 scopes · authorizationCode
 score:
-  band: developing
-  composite: 40.5
+  band: thin
+  composite: 39.1
   coverage:
     artifact_dirs: 16
-    catalog_earned: 61.3
+    catalog_earned: 58.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.8
+    catalog_gap: 56.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.4
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 9.8
     contract_quality: 58.8
     developer_ergonomics: 38.1
@@ -322,8 +342,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 32.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

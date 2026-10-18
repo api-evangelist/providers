@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.8
-  scored_at: '2026-10-04'
+  score: 22.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -167,9 +167,13 @@ common:
 created: '2026-06-13'
 description: API3 is a first-party blockchain oracle network that connects real-world APIs directly to smart contracts without intermediary nodes. Its core technology is Airnode, a serverless oracle node that API providers operate themselves, cryptographically signing data before serving it on-chain. The API3 Market enables dApp developers to subscribe to managed decentralized APIs (dAPIs) — aggregated, multi-source data feeds covering 150+ price pairs across 40+ EVM chains — without speaking to a sales rep or signing a contract. API3's OEV (Oracle Extractable Value) mechanism captures MEV that traditionally leaks to bots around oracle updates and redistributes 80% of that revenue to the dApps reading the feeds, creating a net-positive oracle revenue model. The DAO governs the network via staked API3 tokens.
 finops:
-- name: Api3 Finops
+- has_sources: true
+  method: generated
+  name: Api3 Finops
+  primary_unit: ''
   service_category: Blockchain & Data Infrastructure
   slug: api3-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/api3.png
 jsonld:
 - class_count: 6
@@ -181,7 +185,7 @@ modified: '2026-06-13'
 name: API3
 nav: Providers
 network: true
-overview: 'API3 publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Airnodes API, Signed Data API, Status API, and 3 more. Tagged areas include Blockchain, Oracle, Decentralized, Data Feed, and Price Feeds.
+overview: 'API3 publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Airnodes API, Signed Data API, Status API, and 3 more. Tagged areas include Blockchain, Oracle, Decentralized, Data Feed, and Price Feeds.
 
 
   The API3 catalog on APIs.io includes 1 JSON-LD context.
@@ -198,23 +202,23 @@ rate_limits:
   name: Api3 Rate Limits
   slug: api3-rate-limits
 score:
-  band: developing
-  composite: 39.7
+  band: thin
+  composite: 31.5
   coverage:
     artifact_dirs: 12
-    catalog_earned: 69.6
+    catalog_earned: 51.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 45.4
+    catalog_gap: 64.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.2
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 57.1
     developer_ergonomics: 40.5
     discoverability: 66.1
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   previous_composite: 39.7
   provenance:
     agentic_access: derived
@@ -229,9 +233,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: GraphQL API exposing occupancy and space-utilization insights across sites, buildings, floors, zones, and groups. Available to customers with an active contract; authenticated with OAuth 2.0 client cr
@@ -41,6 +41,10 @@ apis:
   slug: innerspace-api-v2
 artifact_total: 5
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.innerspace.io/rss.xml
 - group: company
   title: ''
   type: Website
@@ -157,20 +161,20 @@ created: '2026-07-17'
 description: InnerSpace (InnerSpace Technologies Inc.) is a workplace analytics company that measures how physical space is used by leveraging a building's existing Wi-Fi infrastructure rather than dedicated occupancy sensors. Its patented Predictive Hyperbolic Location Fingerprinting (PHLF) technology locates and counts people to within roughly four feet to reveal occupancy, movement, and space-utilization patterns across sites, buildings, floors, and zones. The InnerSpace platform serves hybrid-workplace management, real-estate portfolio optimization, higher-education, and employee-experience use cases for enterprises including Microsoft, KPMG, Indeed, and LinkedIn. A GraphQL API (v2) at api.innerspace.io exposes building, zone, site, floor, group, and insights data to customers with active contracts, authenticated via an OAuth 2.0 client-credentials exchange that returns a session token.
 image: https://innerspace.io/hubfs/favicon.ico
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: InnerSpace
 nav: Providers
 network: true
-overview: 'InnerSpace publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Workplace Analytics, Occupancy, Space Utilization, and Real Estate.
+overview: 'InnerSpace is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Workplace Analytics, Occupancy, Space Utilization, and Real Estate.
 
 
-  InnerSpace''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, pricing, support, and 18 more developer resources.'
+  InnerSpace''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, pricing, support, and 19 more developer resources.'
 random_paper: 8
 score:
   band: thin
   composite: 35.8
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -198,8 +202,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

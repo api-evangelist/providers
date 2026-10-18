@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -208,7 +208,7 @@ modified: '2026-05-11'
 name: Hewlett Packard Enterprise
 nav: Providers
 network: true
-overview: 'Hewlett Packard Enterprise publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Authorization API, Identity API, Workspaces API, and 1 more. Tagged areas include Cloud, Edge to Cloud, Infrastructure-as-a-Service, Compute, and Storage.
+overview: 'Hewlett Packard Enterprise publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authorization API, Identity API, Workspaces API, and 1 more. Tagged areas include Cloud, Edge to Cloud, Infrastructure-as-a-Service, Compute, and Storage.
 
 
   The Hewlett Packard Enterprise catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -221,7 +221,8 @@ rate_limits:
   name: Hpe Rate Limits
   slug: hpe-rate-limits
 rules:
-- effective_rule_count: 53
+- authorship: generated
+  effective_rule_count: 53
   extends:
   - spectral:oas
   name: Hewlett Packard Enterprise API Rules
@@ -234,15 +235,15 @@ rules:
   slug: hpe-rules
 score:
   band: developing
-  composite: 41.2
+  composite: 41.3
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 57.8
     catalog_earned_first_party: 12.0
     catalog_gap: 57.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 12.5
+  delta: -7.3
   facets:
     access_clarity: 13.2
     contract_governance: 22.0
@@ -250,7 +251,7 @@ score:
     developer_ergonomics: 44.6
     discoverability: 78.6
     operational_transparency: 57.9
-  previous_composite: 28.7
+  previous_composite: 48.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -267,9 +268,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: rising
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

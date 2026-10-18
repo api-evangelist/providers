@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 5
 apis:
 - description: Semantic Versioning is a versioning scheme using a MAJOR.MINOR.PATCH format where MAJOR increments denote breaking changes, MINOR increments indicate new backward-compatible features, and PATCH increm
@@ -53,6 +53,21 @@ apis:
   slug: openapi-versioning
 artifact_total: 39
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/versioning-protocols/refs/heads/main/plans/versioning-protocols-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/versioning-protocols-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/versioning-protocols/refs/heads/main/rate-limits/versioning-protocols-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/versioning-protocols-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/versioning-protocols/refs/heads/main/finops/versioning-protocols-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/versioning-protocols-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/versioning-protocols/refs/heads/main/security/versioning-protocols-domain-security.yml
   title: ''
@@ -100,9 +115,13 @@ features:
 - description: Support policy maintaining the current major version plus the two previous versions before retirement.
   name: N-2 Support Policy
 finops:
-- name: Versioning Protocols Finops
+- has_sources: false
+  method: generated
+  name: Versioning Protocols Finops
+  primary_unit: ''
   service_category: API
   slug: versioning-protocols-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/versioning-protocols.png
 integrations:
 - description: Deploy version routing plugins, deprecation headers, and logging in Kong for API versioning.
@@ -147,13 +166,13 @@ modified: '2026-05-03'
 name: Versioning Protocols
 nav: Providers
 network: true
-overview: 'Versioning Protocols publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include API Design, Backward Compatibility, Software Development, Version Control, and Semantic Versioning.
+overview: 'Versioning Protocols is listed with 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include API Design, Backward Compatibility, Software Development, Version Control, and Semantic Versioning.
 
 
   The Versioning Protocols catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Versioning Protocols'' developer surface includes documentation and 3 more developer resources.'
+  Versioning Protocols'' developer surface includes documentation and 6 more developer resources.'
 plans:
 - name: Versioning Protocols Plans Pricing
   plan_count: 3
@@ -164,9 +183,10 @@ rate_limits:
   name: Versioning Protocols Rate Limits
   slug: versioning-protocols-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Versioning Protocols API Rules
+  name: Versioning Protocols — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -176,17 +196,17 @@ rules:
   slug: versioning-protocols-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 18.9
+  composite: 17.4
   coverage:
     artifact_dirs: 12
-    catalog_earned: 65.2
+    catalog_earned: 62.2
     catalog_earned_first_party: 0.0
-    catalog_gap: 49.9
+    catalog_gap: 52.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 23.5
     contract_quality: 17.9
     developer_ergonomics: 9.5
@@ -199,8 +219,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 4
 apis:
 - description: The Notary Project specification defines the signature envelope format, trust store and trust policy for container image signing and verification. It supports multiple signature formats and integrates
@@ -50,6 +50,21 @@ apis:
   slug: notation-plugin-framework
 artifact_total: 14
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/notary/refs/heads/main/plans/notary-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/notary-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/notary/refs/heads/main/rate-limits/notary-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/notary-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/notary/refs/heads/main/finops/notary-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/notary-finops.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -135,9 +150,13 @@ common:
 created: '2026-03-16'
 description: The Notary Project is a CNCF incubating set of specifications and tools for signing and verifying container images and other OCI artifacts. It provides Notation, a CLI and library for signing artifacts stored in OCI-compliant registries. The project defines standards for signature formats, trust policies, and verification workflows to secure software supply chains.
 finops:
-- name: Notary Finops
+- has_sources: false
+  method: generated
+  name: Notary Finops
+  primary_unit: ''
   service_category: API
   slug: notary-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/notary.png
 json_schemas:
 - name: Notary Project Plugin Protocol
@@ -162,13 +181,13 @@ modified: '2026-04-28'
 name: Notary Project
 nav: Providers
 network: true
-overview: 'Notary Project publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Cloud-Native, Container Security, Image Signing, Incubating, and OCI.
+overview: 'Notary Project is listed with 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Cloud-Native, Container Security, Image Signing, Incubating, and OCI.
 
 
   The Notary Project catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Notary Project''s developer surface includes documentation, getting-started guide, engineering blog, FAQ, changelog, and 14 more developer resources.'
+  Notary Project''s developer surface includes documentation, getting-started guide, engineering blog, FAQ, changelog, and 17 more developer resources.'
 plans:
 - name: Notary Plans Pricing
   plan_count: 3
@@ -179,9 +198,10 @@ rate_limits:
   name: Notary Rate Limits
   slug: notary-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: Notary Project API Rules
+  name: Notary Project — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -191,17 +211,17 @@ rules:
   slug: notary-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 34.1
+  composite: 32.8
   coverage:
-    artifact_dirs: 10
-    catalog_earned: 67.3
+    artifact_dirs: 11
+    catalog_earned: 64.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 47.8
+    catalog_gap: 50.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.3
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 9.8
     contract_quality: 26.7
     developer_ergonomics: 31.0
@@ -217,8 +237,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

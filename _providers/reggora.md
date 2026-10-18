@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 8
 apis:
 - description: Create and manage the loan records that appraisal orders are placed against - sync loan data from the LOS, retrieve loan detail, update loan fields, and receive a webhook when a loan is deleted. Endpo
@@ -106,16 +106,20 @@ common:
 created: '2026-07-04'
 description: Reggora is a modern appraisal management platform that connects mortgage lenders and appraisal vendors on a single system, automating the appraisal lifecycle from order placement and product selection through payment, document submission, revision review, and delivery back into the loan origination system (LOS). Reggora exposes a documented Lender API and Vendor API so lenders can manage 100% of their appraisal orders directly from their own LOS or proprietary tech stack. All key platform functionality is available via secure REST endpoints (JWT bearer token plus a per-integration API key), with sandbox and production environments and webhook callbacks for loan and order events. Endpoint paths in this catalog are modeled from Reggora's documented resource areas; the full reference is partner-facing at api.reggora.io/docs.
 finops:
-- name: Reggora Finops
+- has_sources: true
+  method: generated
+  name: Reggora Finops
+  primary_unit: ''
   service_category: Financial Services Software
   slug: reggora-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/reggora.png
 layout: provider
 modified: '2026-07-04'
 name: Reggora
 nav: Providers
 network: true
-overview: 'Reggora publishes 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Appraisal Management, Mortgage, Lending, Real Estate, and Valuation.
+overview: 'Reggora is listed with 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Appraisal Management, Mortgage, Lending, Real Estate, and Valuation.
 
 
   Reggora''s developer surface includes documentation, engineering blog, and 7 more developer resources.'
@@ -130,22 +134,22 @@ rate_limits:
   slug: reggora-rate-limits
 score:
   band: emerging
-  composite: 20.4
+  composite: 13.5
   coverage:
-    artifact_dirs: 6
-    catalog_earned: 61.0
+    artifact_dirs: 7
+    catalog_earned: 45.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 54.0
+    catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.9
   facets:
-    access_clarity: 34.7
+    access_clarity: 13.2
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 16.7
     discoverability: 71.4
-    operational_transparency: 28.4
+    operational_transparency: 7.9
   previous_composite: 20.4
   regulatory:
     applies: true
@@ -153,9 +157,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

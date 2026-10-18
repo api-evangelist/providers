@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 2
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 67
   slug: howler-agentic-access
   summary_line: 67 operations · 37 acting · 2 human-in-the-loop
-api_count: 1
+api_count: 2
 apis:
 - baseURL: https://www.howler.co.za/api/v3/consumer_portal
   baseurl_source: declared
@@ -315,7 +315,7 @@ modified: '2026-07-19'
 name: Howler
 nav: Providers
 network: true
-overview: 'Howler publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Artists API, Assign Ticket API, Bank Account API, and 14 more. Tagged areas include Company, Event, Ticketing, Payments, and Cashless.
+overview: 'Howler publishes 17 API contracts indexed on the [APIs.io](https://apis.io/) network, including Artists API, Assign Ticket API, Bank Account API, and 14 more. Tagged areas include Company, Event, Ticketing, Payments, and Cashless.
 
 
   Howler''s developer surface includes documentation, API reference, developer portal, support, signup flow, authentication, and 20 more developer resources.'
@@ -367,8 +367,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 31.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

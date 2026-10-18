@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://app.qawolf.com
@@ -63,6 +63,10 @@ collections:
   name: QA Wolf REST CI Webhooks API
   slug: open-qa-wolf-webhooks-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.qawolf.com/blog/rss.xml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/qa-wolf/refs/heads/main/overlays/qa-wolf-rest-overlay.yaml
   title: ''
@@ -207,29 +211,29 @@ created: '2026-07-17'
 description: 'QA Wolf is a hybrid platform and service that takes QA off software teams'' plates: AI maps an application''s user journeys, converts plain-language prompts into Playwright and Appium tests, and runs those flows in massively parallel cloud infrastructure across web, iOS, and Android. Alongside the platform QA Wolf offers coverage-as-a-service staffed by dedicated QA engineers. For developers it ships a first-party TypeScript toolchain — the qawolf CLI, a CI SDK, and the @qawolf/flows, @qawolf/emails, @qawolf/testkit, and @qawolf/pom libraries — plus a small v0 REST API and CI webhooks for triggering runs and gating deployment pipelines. This profile was enriched by the API Evangelist pipeline from QA Wolf''s public developer surface.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/qa-wolf.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: QA Wolf
 nav: Providers
 network: true
-overview: 'QA Wolf publishes 2 APIs on the [APIs.io](https://apis.io/) network: CI API and Webhooks API. Tagged areas include Company, DevTools, Testing, Test Automation, and QA.
+overview: 'QA Wolf publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: CI API and Webhooks API. Tagged areas include Company, DevTools, Testing, Test Automation, and QA.
 
 
   The QA Wolf catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  QA Wolf''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 24 more developer resources.'
+  QA Wolf''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 25 more developer resources.'
 random_paper: 13
 score:
   band: developing
-  composite: 43.9
+  composite: 44.0
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 60.5
     contract_governance: 4.5
@@ -257,8 +261,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

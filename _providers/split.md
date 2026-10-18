@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.0
-  scored_at: '2026-10-04'
+  score: 22.1
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 12
+- acting_count: 9
   human_in_the_loop: 1
   name: Split Agentic Access
   operation_count: 23
   slug: split-agentic-access
-  summary_line: 23 operations · 12 acting · 1 human-in-the-loop
+  summary_line: 23 operations · 9 acting · 1 human-in-the-loop
 api_count: 2
 apis:
 - baseURL: http://localhost:7548
@@ -193,6 +193,21 @@ collections:
   name: Split Admin Workspaces API
   slug: open-split-workspaces-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/split/refs/heads/main/plans/split-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/split-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/split/refs/heads/main/rate-limits/split-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/split-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/split/refs/heads/main/finops/split-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/split-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/split/refs/heads/main/capabilities/split-capability-edges.yml
   title: ''
@@ -327,9 +342,13 @@ features:
 - Causal Impact analysis for treatment effect
 - Integration with Datadog, NewRelic, Segment for guardrails
 finops:
-- name: Split Finops
+- has_sources: true
+  method: generated
+  name: Split Finops
+  primary_unit: ''
   service_category: Feature Management
   slug: split-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/split.png
 json_schemas:
 - name: AllTreatmentsResult
@@ -490,13 +509,13 @@ modified: '2026-05-19'
 name: Split
 nav: Providers
 network: true
-overview: 'Split publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Evaluation API, Events API, and 7 more. Tagged areas include Experimentation, Feature Flags, Feature Management, Rollouts, and SDK.
+overview: 'Split publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Admin API, Evaluation API, Events API, and 7 more. Tagged areas include Experimentation, Feature Flags, Feature Management, Rollouts, and SDK.
 
 
   The Split catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Split''s developer surface includes authentication, developer portal, documentation, engineering blog, and 19 more developer resources.'
+  Split''s developer surface includes authentication, developer portal, documentation, engineering blog, and 22 more developer resources.'
 plans:
 - name: Split Plans Pricing
   plan_count: 3
@@ -507,9 +526,10 @@ rate_limits:
   name: Split Rate Limits
   slug: split-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: Split API Rules
+  name: Split — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -517,7 +537,8 @@ rules:
     info: 2
     warn: 4
   slug: split-jsonschema-spectral-rules
-- effective_rule_count: 52
+- authorship: unmarked
+  effective_rule_count: 52
   extends:
   - spectral:oas
   name: Split API Rules
@@ -530,17 +551,17 @@ rules:
   slug: split-rules
 score:
   band: thin
-  composite: 38.0
+  composite: 36.5
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 58.0
+    artifact_dirs: 21
+    catalog_earned: 55.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.0
+    catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 32.9
+    access_clarity: 25.0
     contract_governance: 27.3
     contract_quality: 53.6
     developer_ergonomics: 34.5
@@ -560,8 +581,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.5
-  scored_at: '2026-10-04'
+  score: 30.3
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -84,6 +84,21 @@ collections:
   name: AbilityOne Procurement List Agencies Services API
   slug: open-us-abilityone-commission-services-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/us-abilityone-commission/refs/heads/main/plans/us-abilityone-commission-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/us-abilityone-commission-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/us-abilityone-commission/refs/heads/main/rate-limits/us-abilityone-commission-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/us-abilityone-commission-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/us-abilityone-commission/refs/heads/main/finops/us-abilityone-commission-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/us-abilityone-commission-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/us-abilityone-commission/refs/heads/main/agentic-access/us-abilityone-commission-agentic-access.yml
   title: ''
@@ -165,9 +180,13 @@ features:
 - description: Downloadable Excel reports of the Procurement List products and services, nonprofit agency rosters, and distributor lists.
   name: Reports and Data Downloads
 finops:
-- name: Us Abilityone Commission Finops
+- has_sources: false
+  method: generated
+  name: Us Abilityone Commission Finops
+  primary_unit: ''
   service_category: API
   slug: us-abilityone-commission-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/us-abilityone-commission.png
 integrations:
 - description: Central nonprofit agency managing blind-employing organizations participating in the AbilityOne program.
@@ -234,13 +253,13 @@ modified: '2026-05-19'
 name: US AbilityOne Commission
 nav: Providers
 network: true
-overview: 'US AbilityOne Commission publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Agencies API, Products API, Reports API, and 1 more. Tagged areas include Federal Government, Disability Employment, Procurement, Non-Profit, and Accessibility.
+overview: 'US AbilityOne Commission is listed with 4 APIs on the [APIs.io](https://apis.io/) network, including Agencies API, Products API, Reports API, and 1 more. Tagged areas include Federal Government, Disability Employment, Procurement, Non-Profit, and Accessibility.
 
 
   The US AbilityOne Commission catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  US AbilityOne Commission''s developer surface includes developer portal, documentation, and 8 more developer resources.'
+  US AbilityOne Commission''s developer surface includes developer portal, documentation, and 11 more developer resources.'
 plans:
 - name: Us Abilityone Commission Plans Pricing
   plan_count: 3
@@ -251,9 +270,10 @@ rate_limits:
   name: Us Abilityone Commission Rate Limits
   slug: us-abilityone-commission-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: US AbilityOne Commission API Rules
+  name: US AbilityOne Commission — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -261,7 +281,8 @@ rules:
     info: 2
     warn: 3
   slug: us-abilityone-commission-jsonschema-spectral-rules
-- effective_rule_count: 74
+- authorship: generated
+  effective_rule_count: 74
   extends:
   - spectral:oas
   name: US AbilityOne Commission API Rules
@@ -274,17 +295,17 @@ rules:
   slug: us-abilityone-commission-spectral-rules
 score:
   band: emerging
-  composite: 21.7
+  composite: 23.3
   coverage:
     artifact_dirs: 15
-    catalog_earned: 72.0
+    catalog_earned: 75.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 28.0
-    catalog_max: 100.0
+    catalog_gap: 40.0
+    catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.6
   facets:
-    access_clarity: 0.0
+    access_clarity: 7.9
     contract_governance: 27.3
     contract_quality: 27.4
     developer_ergonomics: 19.0
@@ -309,8 +330,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -33,10 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 0
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://stakekings.com/news
 - group: company
   title: ''
   type: Website
@@ -45,28 +49,31 @@ created: '2026-07-17'
 description: YouStake is a peer-to-peer sports staking and sponsorship marketplace, founded in 2013, that lets fans invest in skilled poker and esports players in exchange for a share of their tournament winnings. Players list their buy-ins and backers can stake them for as little as $20, structured as a person-to-person sponsorship agreement rather than gambling. The consumer platform has since rebranded and now operates as StakeKings (youstake.com redirects to stakekings.com), which also offers white-label staking-marketplace software to partners. It is a business-to-consumer web application with no public API, developer portal, SDKs, or published API documentation.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/youstake.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: YouStake
 nav: Providers
 network: true
-overview: YouStake is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Sports, Staking, Poker, and Esports.
+overview: 'YouStake is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Sports, Staking, Poker, and Esports.
+
+
+  YouStake''s developer surface includes engineering blog and 1 more developer resources.'
 random_paper: 5
 score:
   band: minimal
-  composite: 2.5
+  composite: 3.0
   coverage:
-    artifact_dirs: 2
+    artifact_dirs: 3
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 48.2
     operational_transparency: 0.0
   needs_work:
@@ -82,8 +89,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 0.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

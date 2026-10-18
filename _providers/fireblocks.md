@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 160
+- acting_count: 159
   human_in_the_loop: 3
   name: Fireblocks Agentic Access
   operation_count: 303
   slug: fireblocks-agentic-access
-  summary_line: 303 operations · 160 acting · 3 human-in-the-loop
+  summary_line: 303 operations · 159 acting · 3 human-in-the-loop
 api_count: 7
 apis:
 - baseURL: https://api.fireblocks.io/v1
@@ -220,7 +220,7 @@ apis:
   description: The Workspace Management API from fireblocks — 13 operation(s) for workspace management.
   name: fireblocks Workspace Management API
   slug: fireblocks-workspace-management-api
-artifact_total: 156
+artifact_total: 157
 collections:
 - collection_type: postman
   name: Fireblocks Blockchains and Assets Approval Requests API
@@ -770,6 +770,10 @@ common:
   title: ''
   type: FinOps
   url: https://finops/fireblocks-finops.yml
+- group: design
+  title: ''
+  type: SpectralRules
+  url: https://github.com/fireblocks/fireblocks-network-link/blob/b2b60ccd079efe2f3ec327a632850791cddb9ee6/v2/openapi/fireblocks-openapi-ruleset.yaml
 created: '2026-05-25'
 description: Fireblocks is an institutional digital-asset and stablecoin infrastructure company providing MPC-secured custody, wallets (custodial and non-custodial / embedded), payments, tokenization, staking, smart contracts, off-exchange settlement, and DeFi security to trading firms, fintechs, exchanges, payment service providers, banks, financial institutions, and Web3 companies. The Fireblocks REST API exposes 236+ operations across 15 surface areas — Vaults, Transactions, Wallets, Assets, Exchange, Tokenization, Contracts, Staking, NFTs, Payments, Network/Off-Exchange, Compliance, Gas Station, Workspace Management, and Webhooks — alongside the separate Non-Custodial Wallet (NCW) API for embedded wallets.
 features:
@@ -804,9 +808,13 @@ features:
 - 'Production and Sandbox base URLs: https://api.fireblocks.io/v1, https://sandbox-api.fireblocks.io/v1'
 - 'Pricing tiers: Developer Sandbox (free), Essentials ($699/mo + $1M outbound), Pro (from $18k/yr), Enterprise, Enterprise+'
 finops:
-- name: Fireblocks Finops
+- has_sources: true
+  method: generated
+  name: Fireblocks Finops
+  primary_unit: usd_transferred
   service_category: Digital Asset Infrastructure
   slug: fireblocks-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fireblocks.png
 json_schemas:
 - name: Fireblocks Transaction
@@ -828,13 +836,13 @@ modified: '2026-09-16'
 name: Fireblocks
 nav: Providers
 network: true
-overview: 'Fireblocks publishes 35 APIs on the [APIs.io](https://apis.io/) network, including Vaults API, Transactions API, Tokenization API, and 32 more. Tagged areas include Digital Assets, Custody, Vault, Transaction, and Tokenization.
+overview: 'Fireblocks publishes 35 API contracts indexed on the [APIs.io](https://apis.io/) network, including Vaults API, Transactions API, Tokenization API, and 32 more. Tagged areas include Digital Assets, Custody, Vault, Transaction, and Tokenization.
 
 
-  The Fireblocks catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+  The Fireblocks catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Fireblocks'' developer surface includes pricing, changelog, authentication, developer portal, documentation, getting-started guide, engineering blog, and 70 more developer resources.'
+  Fireblocks'' developer surface includes pricing, changelog, authentication, developer portal, documentation, getting-started guide, engineering blog, and 71 more developer resources.'
 plans:
 - name: Fireblocks Plans Pricing
   plan_count: 2
@@ -848,9 +856,22 @@ rate_limits:
   name: Fireblocks Rate Limits
   slug: fireblocks-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: provider
+  effective_rule_count: 51
+  extends:
+  - spectral:oas
+  name: Fireblocks — fireblocks network link rules
+  rule_count: 10
+  severity_counts:
+    error: 10
+    hint: 0
+    info: 0
+    warn: 0
+  slug: fireblocks-fireblocks-network-link-spectral-rules
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Fireblocks API Rules
+  name: Fireblocks — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -859,24 +880,24 @@ rules:
     warn: 3
   slug: fireblocks-jsonschema-spectral-rules
 score:
-  band: strong
-  composite: 65.0
+  band: exemplar
+  composite: 67.8
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 78.5
-    catalog_earned_first_party: 8.0
-    catalog_gap: 36.6
+    artifact_dirs: 18
+    catalog_earned: 85.4
+    catalog_earned_first_party: 26.0
+    catalog_gap: 29.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 2.8
   facets:
     access_clarity: 68.4
-    contract_governance: 9.8
+    contract_governance: 54.5
     contract_quality: 61.7
     developer_ergonomics: 70.2
     discoverability: 80.4
-    operational_transparency: 65.3
-  previous_composite: 64.5
+    operational_transparency: 44.7
+  previous_composite: 65.0
   provenance:
     agentic_access: derived
     contracts:
@@ -890,8 +911,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

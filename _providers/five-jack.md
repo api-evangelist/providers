@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.itemku.com/blog/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/five-jack/refs/heads/main/security/five-jack-domain-security.yml
   title: ''
@@ -69,20 +73,20 @@ created: '2026-07-17'
 description: 'Five Jack (PT. Five Jack) is the Indonesian company behind itemku, one of Southeast Asia''s largest digital-goods marketplaces for gamers. Founded in 2014 as a game price-comparison and classifieds platform, itemku grew into a full marketplace where buyers and sellers trade in-game items, currency, account top-ups, game keys, and vouchers across 200+ game categories including Roblox, Genshin Impact, Mobile Legends, Dota 2, Steam, and Growtopia. The company reached one million orders in 2018, launched its Android app and gaming blog in 2020, and became part of Bukalapak (IDX: BUKA) in May 2021. Five Jack was surfaced as a portfolio company of 500 Global and added to the API Evangelist network. It operates a consumer-facing marketplace and does not currently publish a public developer API, SDKs, or developer portal.'
 image: https://files.itemku.com/images/itemku-og-image.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Five Jack
 nav: Providers
 network: true
 overview: 'Five Jack is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketplace, Gaming, Digital Goods, and E-Commerce.
 
 
-  Five Jack''s developer surface includes engineering blog and 6 more developer resources.'
+  Five Jack''s developer surface includes engineering blog and 7 more developer resources.'
 random_paper: 0
 score:
   band: minimal
   composite: 7.9
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -110,8 +114,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 9.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

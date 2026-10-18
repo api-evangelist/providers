@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: The Indian Affairs GIS Open Data Hub publishes authoritative geospatial datasets as downloadable and machine-readable resources via Esri ArcGIS Hub, including federally recognized tribal boundaries, l
@@ -47,6 +47,21 @@ apis:
   slug: bureau-of-indian-education
 artifact_total: 7
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/bureau-of-indian-affairs/refs/heads/main/plans/bureau-of-indian-affairs-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/bureau-of-indian-affairs-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/bureau-of-indian-affairs/refs/heads/main/rate-limits/bureau-of-indian-affairs-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/bureau-of-indian-affairs-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/bureau-of-indian-affairs/refs/heads/main/finops/bureau-of-indian-affairs-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/bureau-of-indian-affairs-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/bureau-of-indian-affairs/refs/heads/main/security/bureau-of-indian-affairs-domain-security.yml
   title: ''
@@ -95,19 +110,23 @@ common:
 created: '2024-11-25'
 description: The Bureau of Indian Affairs (BIA) is the oldest bureau in the U.S. Department of the Interior. Its mission is to enhance the quality of life, promote economic opportunity, and carry out the federal responsibility to protect and improve the trust assets of American Indians, Indian tribes, and Alaska Natives. The BIA administers services directly or through contracts, grants, and compacts with 574 federally recognized tribes serving approximately 2.5 million people. BIA publishes geospatial datasets, directories, and forms through the Indian Affairs GIS Open Data portal, the Tribal Leader Directory, and official agency websites.
 finops:
-- name: Bureau Of Indian Affairs Finops
+- has_sources: false
+  method: generated
+  name: Bureau Of Indian Affairs Finops
+  primary_unit: ''
   service_category: API
   slug: bureau-of-indian-affairs-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bureau-of-indian-affairs.png
 layout: provider
 modified: '2026-07-25'
 name: Bureau of Indian Affairs
 nav: Providers
 network: true
-overview: 'Bureau of Indian Affairs publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Federal Government, GIS, ICWA, Indigenous, and Tribal.
+overview: 'Bureau of Indian Affairs is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Federal Government, GIS, ICWA, Indigenous, and Tribal.
 
 
-  Bureau of Indian Affairs'' developer surface includes engineering blog and 10 more developer resources.'
+  Bureau of Indian Affairs'' developer surface includes engineering blog and 13 more developer resources.'
 plans:
 - name: Bureau Of Indian Affairs Plans Pricing
   plan_count: 3
@@ -119,17 +138,17 @@ rate_limits:
   slug: bureau-of-indian-affairs-rate-limits
 score:
   band: emerging
-  composite: 12.6
+  composite: 11.0
   coverage:
     artifact_dirs: 7
-    catalog_earned: 44.0
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 71.0
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 26.3
+    access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 2.4
@@ -148,8 +167,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 9.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

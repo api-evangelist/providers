@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: API reference for Brainboxes products and services
@@ -166,7 +166,7 @@ modified: '2026-10-03'
 name: Brainbox3ae3
 nav: Providers
 network: true
-overview: 'Brainbox3ae3 publishes 2 APIs on the [APIs.io](https://apis.io/) network, including Io API, and 1 more. Tagged areas include Company, Industrial, Connectivity, IoT, and Automation.
+overview: 'Brainbox3ae3 is listed with 2 APIs on the [APIs.io](https://apis.io/) network, including Io API, and 1 more. Tagged areas include Company, Industrial, Connectivity, IoT, and Automation.
 
 
   The Brainbox3ae3 catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -175,7 +175,8 @@ overview: 'Brainbox3ae3 publishes 2 APIs on the [APIs.io](https://apis.io/) netw
   Brainbox3ae3''s developer surface includes changelog, getting-started guide, documentation, API reference, support, pricing, engineering blog, and 18 more developer resources.'
 random_paper: 9
 rules:
-- effective_rule_count: 50
+- authorship: generated
+  effective_rule_count: 50
   extends:
   - spectral:oas
   name: Brainbox3ae3 API Rules
@@ -196,6 +197,7 @@ score:
     catalog_gap: 78.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -10.1
   facets:
     access_clarity: 44.7
     contract_governance: 18.2
@@ -203,6 +205,12 @@ score:
     developer_ergonomics: 42.9
     discoverability: 64.3
     operational_transparency: 31.6
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-kingdom
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 44.2
   provenance:
     conformance: derived
     contracts:
@@ -217,8 +225,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

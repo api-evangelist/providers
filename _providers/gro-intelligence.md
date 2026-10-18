@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Read-only REST API over the Gro ontology and its agricultural, climate and trade time series. Every operation was an HTTP GET under /v2/, authenticated with a bearer token issued from the Gro web appl
@@ -154,7 +154,7 @@ modified: '2026-09-16'
 name: Gro Intelligence
 nav: Providers
 network: true
-overview: 'Gro Intelligence publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Agriculture, Climate, Data, and Analytics.
+overview: 'Gro Intelligence is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Agriculture, Climate, Data, and Analytics.
 
 
   Gro Intelligence''s developer surface includes documentation, CLI, authentication, changelog, and 13 more developer resources.'
@@ -202,8 +202,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

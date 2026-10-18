@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Tuum's modular, API-first core banking platform. Per-module REST APIs (auth, person, employee, account, payment, card, loan, deposit, data-import, notification) versioned independently in the URL path
@@ -140,7 +140,7 @@ modified: '2026-07-21'
 name: Tuum
 nav: Providers
 network: true
-overview: 'Tuum publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Core Banking, Banking as a Service, Payments, and Lending.
+overview: 'Tuum is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Core Banking, Banking as a Service, Payments, and Lending.
 
 
   The Tuum catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -175,8 +175,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

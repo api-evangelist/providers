@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.3
-  scored_at: '2026-10-04'
+  score: 30.4
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 4
@@ -62,6 +62,21 @@ collections:
   name: AWS Elemental MediaLive Prod API
   slug: open-amazon-medialive-prod-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/plans/amazon-medialive-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/amazon-medialive-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/rate-limits/amazon-medialive-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/amazon-medialive-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/finops/amazon-medialive-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/amazon-medialive-finops.yml
 - group: company
   title: ''
   type: Website
@@ -2026,9 +2041,13 @@ features:
 - description: Dynamically switch between input sources during a live event without interruption.
   name: Input Switching
 finops:
-- name: Amazon Medialive Finops
+- has_sources: false
+  method: generated
+  name: Amazon Medialive Finops
+  primary_unit: ''
   service_category: API
   slug: amazon-medialive-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amazon-medialive.png
 json_schemas:
 - name: AacCodingMode
@@ -5762,13 +5781,13 @@ modified: '2026-09-16'
 name: Amazon MediaLive
 nav: Providers
 network: true
-overview: 'Amazon MediaLive publishes 1 API on the [APIs.io](https://apis.io/) network: Prod API. Tagged areas include Broadcasting, Media Processing, and Media.
+overview: 'Amazon MediaLive publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Prod API. Tagged areas include Broadcasting, Media Processing, and Media.
 
 
   The Amazon MediaLive catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon MediaLive''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 13 more developer resources.'
+  Amazon MediaLive''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 16 more developer resources.'
 plans:
 - name: Amazon Medialive Plans Pricing
   plan_count: 3
@@ -5779,9 +5798,10 @@ rate_limits:
   name: Amazon Medialive Rate Limits
   slug: amazon-medialive-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Amazon MediaLive API Rules
+  name: Amazon MediaLive — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -5789,7 +5809,8 @@ rules:
     info: 1
     warn: 4
   slug: amazon-medialive-jsonschema-spectral-rules
-- effective_rule_count: 67
+- authorship: generated
+  effective_rule_count: 67
   extends:
   - spectral:oas
   name: Amazon MediaLive API Rules
@@ -5801,18 +5822,18 @@ rules:
     warn: 12
   slug: amazon-medialive-spectral-rules
 score:
-  band: strong
-  composite: 54.8
+  band: developing
+  composite: 53.3
   coverage:
     artifact_dirs: 18
-    catalog_earned: 56.0
+    catalog_earned: 53.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 59.0
+    catalog_gap: 62.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 68.4
+    access_clarity: 60.5
     contract_governance: 27.3
     contract_quality: 62.9
     developer_ergonomics: 58.3
@@ -5832,8 +5853,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

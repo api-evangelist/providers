@@ -36,15 +36,15 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 116
+- acting_count: 110
   human_in_the_loop: 1
   name: Siro Agentic Access
   operation_count: 213
   slug: siro-agentic-access
-  summary_line: 213 operations · 116 acting · 1 human-in-the-loop
-api_count: 5
+  summary_line: 213 operations · 110 acting · 1 human-in-the-loop
+api_count: 7
 apis:
 - baseURL: https://functions.siro.ai/api-externalApi
   baseurl_source: declared
@@ -322,7 +322,7 @@ modified: '2026-08-13'
 name: Siro
 nav: Providers
 network: true
-overview: 'Siro publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Audit API, Core API, Folders API, and 13 more. Tagged areas include Company, Sales, Sales Coaching, Conversation Intelligence, and Field Sales.
+overview: 'Siro publishes 16 API contracts indexed on the [APIs.io](https://apis.io/) network, including Audit API, Core API, Folders API, and 13 more. Tagged areas include Company, Sales, Sales Coaching, Conversation Intelligence, and Field Sales.
 
 
   Siro''s developer surface includes documentation, API reference, getting-started guide, quickstart, support, engineering blog, authentication, and 30 more developer resources.'
@@ -339,7 +339,7 @@ score:
   band: strong
   composite: 56.6
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_earned: 48.0
     catalog_earned_first_party: 8.0
     catalog_gap: 67.0
@@ -370,8 +370,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

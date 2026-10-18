@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.3
-  scored_at: '2026-10-04'
+  score: 20.4
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -94,6 +94,21 @@ collections:
   name: Scispot API
   slug: open-scispot
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/scispot/refs/heads/main/plans/scispot-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/scispot-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/scispot/refs/heads/main/rate-limits/scispot-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/scispot-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/scispot/refs/heads/main/finops/scispot-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/scispot-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/scispot/refs/heads/main/agentic-access/scispot-agentic-access.yml
   title: ''
@@ -139,9 +154,13 @@ examples:
   name: Scispot List Labsheets Example
   slug: scispot-list-labsheets-example
 finops:
-- name: Scispot Finops
+- has_sources: false
+  method: generated
+  name: Scispot Finops
+  primary_unit: ''
   service_category: API
   slug: scispot-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/scispot.png
 json_schemas:
 - name: Scispot Labsheet
@@ -164,13 +183,13 @@ modified: '2026-05-19'
 name: Scispot
 nav: Providers
 network: true
-overview: 'Scispot publishes 5 APIs on the [APIs.io](https://apis.io/) network, including ELN API, Labsheets API, Manifests API, and 2 more. Tagged areas include Laboratory, Life Sciences, LIMS, ELN, and Biotechnology.
+overview: 'Scispot publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including ELN API, Labsheets API, Manifests API, and 2 more. Tagged areas include Laboratory, Life Sciences, LIMS, ELN, and Biotechnology.
 
 
   The Scispot catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Scispot''s developer surface includes authentication, documentation, engineering blog, and 5 more developer resources.'
+  Scispot''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
 plans:
 - name: Scispot Plans Pricing
   plan_count: 3
@@ -181,9 +200,10 @@ rate_limits:
   name: Scispot Rate Limits
   slug: scispot-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Scispot API Rules
+  name: Scispot — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -191,7 +211,8 @@ rules:
     info: 2
     warn: 3
   slug: scispot-jsonschema-spectral-rules
-- effective_rule_count: 54
+- authorship: unmarked
+  effective_rule_count: 54
   extends:
   - spectral:oas
   name: Scispot API Rules
@@ -204,17 +225,17 @@ rules:
   slug: scispot-rules
 score:
   band: thin
-  composite: 34.8
+  composite: 33.3
   coverage:
     artifact_dirs: 17
-    catalog_earned: 68.4
+    catalog_earned: 65.4
     catalog_earned_first_party: 0.0
-    catalog_gap: 46.6
+    catalog_gap: 49.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 27.3
     contract_quality: 58.5
     developer_ergonomics: 33.3
@@ -234,8 +255,8 @@ score:
     regime: Health
     regime_id: health
     score: 13.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

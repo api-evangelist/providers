@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.2
-  scored_at: '2026-10-04'
+  score: 23.3
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 21
+- acting_count: 20
   human_in_the_loop: 0
   name: Encompass Agentic Access
   operation_count: 43
   slug: encompass-agentic-access
-  summary_line: 43 operations · 21 acting
+  summary_line: 43 operations · 20 acting
 api_count: 1
 apis:
 - baseURL: https://api.elliemae.com
@@ -209,16 +209,20 @@ common:
 created: '2026-07-04'
 description: Encompass is the dominant mortgage loan origination system (LOS), a product of ICE Mortgage Technology (formerly Ellie Mae, acquired by Intercontinental Exchange / ICE in 2020). Its developer program, Encompass Developer Connect, exposes REST APIs that let partners and lenders configure, customize, and administer loan information and resources programmatically - loan manufacturing, loan pipeline, borrower pairs, contacts, eFolder documents and attachments, milestones, conditions, users, product and pricing, and event webhooks. Access is partner/tenant-gated (OAuth 2.0 credentials issued per Encompass instance by a super administrator), but the API reference is publicly documented at developer.icemortgagetechnology.com.
 finops:
-- name: Encompass Finops
+- has_sources: true
+  method: generated
+  name: Encompass Finops
+  primary_unit: ''
   service_category: Software as a Service - Mortgage Loan Origination
   slug: encompass-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/encompass.png
 layout: provider
 modified: '2026-07-04'
 name: Encompass
 nav: Providers
 network: true
-overview: 'Encompass publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Borrower Pairs API, Conditions API, and 7 more. Tagged areas include Mortgage, Loan Origination, LOS, Fintech, and ICE Mortgage Technology.
+overview: 'Encompass publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authentication API, Borrower Pairs API, Conditions API, and 7 more. Tagged areas include Mortgage, Loan Origination, LOS, Fintech, and ICE Mortgage Technology.
 
 
   Encompass'' developer surface includes authentication, documentation, engineering blog, and 13 more developer resources.'
@@ -238,22 +242,22 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: thin
-  composite: 34.8
+  composite: 27.9
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 58.0
+    artifact_dirs: 13
+    catalog_earned: 42.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.0
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.9
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 48.7
     developer_ergonomics: 32.1
     discoverability: 66.1
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   previous_composite: 34.8
   provenance:
     agentic_access: derived
@@ -268,9 +272,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

@@ -32,10 +32,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.getfocalpoint.com/category/news/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.getfocalpoint.com/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/focal-point-procurement-solutions/refs/heads/main/security/focal-point-procurement-solutions-domain-security.yml
   title: ''
@@ -69,18 +77,18 @@ created: '2026-07-17'
 description: 'Focal Point is an AI-powered procurement orchestration platform for enterprise procurement teams. Founded in 2020 and headquartered in Atlanta, Georgia, the SaaS platform sits on top of a company''s existing S2P and ERP systems to centralize procurement data, intake, and workflows across six core modules: Request Intake Management, Procurement Activity Management, Sourcing Event Management, Supplier Relationship Management, Third-Party Risk Management, and Contract Lifecycle Management. It connects existing systems and data via API integrations, automates tactical no-code workflows, and provides total spend visibility, intelligent intake, and smart routing so procurement teams can focus on strategic work. Focal Point does not currently publish a public developer API, OpenAPI definition, or developer portal; integrations are delivered through the platform. This profile was surfaced as a Techstars portfolio company and added to the API Evangelist network.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/focal-point-procurement-solutions.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Focal Point Procurement Solutions
 nav: Providers
 network: true
 overview: 'Focal Point Procurement Solutions is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Procurement, Source-to-Pay, Supplier Management, and Contract Lifecycle Management.
 
 
-  Focal Point Procurement Solutions'' developer surface includes engineering blog, support, and 5 more developer resources.'
+  Focal Point Procurement Solutions'' developer surface includes engineering blog, support, and 7 more developer resources.'
 random_paper: 8
 score:
   band: minimal
-  composite: 8.8
+  composite: 8.9
   coverage:
     artifact_dirs: 4
     catalog_earned: 27.0
@@ -88,7 +96,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 17.1
     contract_governance: 0.0
@@ -108,8 +116,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 9.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

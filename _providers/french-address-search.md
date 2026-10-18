@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Address search via the French Government
@@ -66,7 +66,7 @@ modified: '2026-05-28'
 name: French Address Search
 nav: Providers
 network: true
-overview: 'French Address Search publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Open Data and Public APIs.
+overview: 'French Address Search is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Open Data and Public APIs.
 
 
   French Address Search''s developer surface includes engineering blog and 3 more developer resources.'
@@ -102,8 +102,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

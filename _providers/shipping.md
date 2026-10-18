@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 3.8
-  scored_at: '2026-10-04'
+  score: 1.9
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: Shipping.com provides a marketplace and intelligence platform for the ocean freight and logistics industry. The platform aggregates freight rates from major carriers and provides rate comparison, mark
@@ -47,6 +47,21 @@ apis:
   slug: world-bank-commodity-markets
 artifact_total: 12
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/shipping/refs/heads/main/plans/shipping-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/shipping-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/shipping/refs/heads/main/rate-limits/shipping-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/shipping-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/shipping/refs/heads/main/finops/shipping-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/shipping-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/shipping/refs/heads/main/security/shipping-domain-security.yml
   title: ''
@@ -96,9 +111,13 @@ examples:
   name: Shipping Rate Example
   slug: shipping-rate-example
 finops:
-- name: Shipping Finops
+- has_sources: false
+  method: generated
+  name: Shipping Finops
+  primary_unit: ''
   service_category: API
   slug: shipping-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/shipping.png
 json_schemas:
 - name: Shipping Rate
@@ -118,13 +137,13 @@ modified: '2026-05-02'
 name: Shipping.com
 nav: Providers
 network: true
-overview: 'Shipping.com publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Shipping, Freight, Logistics, Transportation, and Marketplace.
+overview: 'Shipping.com is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Shipping, Freight, Logistics, Transportation, and Marketplace.
 
 
   The Shipping.com catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Shipping.com''s developer surface includes engineering blog, code examples, and 7 more developer resources.'
+  Shipping.com''s developer surface includes engineering blog, code examples, and 10 more developer resources.'
 plans:
 - name: Shipping Plans Pricing
   plan_count: 3
@@ -135,9 +154,10 @@ rate_limits:
   name: Shipping Rate Limits
   slug: shipping-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Shipping.com API Rules
+  name: Shipping.com — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -147,17 +167,17 @@ rules:
   slug: shipping-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 20.4
+  composite: 18.9
   coverage:
     artifact_dirs: 13
-    catalog_earned: 59.8
+    catalog_earned: 56.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 55.3
+    catalog_gap: 58.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 23.5
     contract_quality: 17.2
     developer_ergonomics: 17.9
@@ -177,8 +197,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

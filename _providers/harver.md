@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 26
+- acting_count: 25
   human_in_the_loop: 0
   name: Harver Agentic Access
   operation_count: 54
   slug: harver-agentic-access
-  summary_line: 54 operations · 26 acting
+  summary_line: 54 operations · 25 acting
 api_count: 1
 apis:
 - baseURL: https://api.harver.com/api/v1.0/
@@ -125,6 +125,14 @@ collections:
   name: Harver Public accounts webhook API
   slug: open-harver-webhook-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://harver.com/newsroom/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://harver.com/feed/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/harver/refs/heads/main/capabilities/harver-capability-edges.yml
   title: ''
@@ -255,23 +263,23 @@ created: '2026-07-17'
 description: Harver is a Talent Intelligence platform for pre-employment assessment, automated interview scheduling and reference checking that helps organizations make data-driven, less-biased hiring decisions at scale. Harver's Public API (OpenAPI 3.0, v1.37.0) is available to Harver customers and lets ATS and HR systems submit candidates, create applications and magic-links, retrieve matching scores, module results and report links, manage vacancies, locations, regions and job functions, and subscribe to candidate-lifecycle webhooks. Authentication is OAuth2 client_credentials; resources use a JSON:API-style envelope, responses are rate-limited (Ratelimit-Limit/Reset, 429) and carry an X-Correlation-Id. Harver was surfaced as an Insight Partners portfolio company.
 image: https://harver.com/wp-content/uploads/2026/01/harver-lp-brand-V2-1.jpg
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Harver
 nav: Providers
 network: true
-overview: 'Harver publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Applications API, Candidate Statuses API, and 6 more. Tagged areas include Company, Human Resources, Recruiting, Hiring, and Talent Intelligence.
+overview: 'Harver publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, Applications API, Candidate Statuses API, and 6 more. Tagged areas include Company, Human Resources, Recruiting, Hiring, and Talent Intelligence.
 
 
   The Harver catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Harver''s developer surface includes documentation, API reference, engineering blog, support, authentication, sandbox, and 21 more developer resources.'
+  Harver''s developer surface includes engineering blog, documentation, API reference, support, authentication, sandbox, and 23 more developer resources.'
 random_paper: 10
 score:
   band: developing
   composite: 41.3
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -308,8 +316,8 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 28.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

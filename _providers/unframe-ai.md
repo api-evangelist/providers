@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.unframe.ai/blog/rss.xml
 - group: company
   title: ''
   type: Website
@@ -102,18 +106,18 @@ created: '2026-07-17'
 description: Unframe AI is an enterprise AI platform (Unframe AI OS) that assembles production-ready AI solutions from modular building blocks — an Agent Orchestrator, Knowledge Fabric, AI-native Data Store, and Voice Agents — so companies can deploy agentic AI across unstructured data, cross-system workflows, and legacy systems without rebuilding core software. Deployments run in cloud, private VPC, or fully on-premises, are model-agnostic, and are governed with RBAC, SSO, lineage tracking, and audit logs. Founded by Shay Levi, Larissa Schneider, and Adi Azarya, with offices in Cupertino, Tel Aviv, and Berlin; backed by Bessemer Venture Partners and others; acquired Swish AI. Sales-led platform with no public developer API surface today.
 image: https://cdn.prod.website-files.com/66b34f2ad59081546d14c723/66bbcee5004380f883afccbe_favicon%20larger%20source%20file.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Unframe AI
 nav: Providers
 network: true
-overview: 'Unframe AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Ml, Enterprise AI, AI Agents, and Workflow Automation.
+overview: 'Unframe AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Enterprise AI, AI Agents, and Workflow Automation.
 
 
-  Unframe AI''s developer surface includes engineering blog, support, and 12 more developer resources.'
+  Unframe AI''s developer surface includes engineering blog, support, and 13 more developer resources.'
 random_paper: 7
 score:
   band: emerging
-  composite: 20.3
+  composite: 20.7
   coverage:
     artifact_dirs: 7
     catalog_earned: 27.0
@@ -121,7 +125,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.4
   facets:
     access_clarity: 36.8
     contract_governance: 18.2
@@ -138,12 +142,12 @@ score:
     - jurisdiction: US
       standard: hipaa
     jurisdictions_satisfied: 1
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
-    score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
+    score: 34.5
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -166,7 +170,7 @@ security:
 slug: unframe-ai
 tags:
 - Company
-- Ai Ml
+- Artificial Intelligence
 - Enterprise AI
 - AI Agents
 - Workflow Automation

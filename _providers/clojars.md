@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.8
-  scored_at: '2026-10-04'
+  score: 23.6
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -90,6 +90,21 @@ collections:
   name: Clojars REST Artifacts Users API
   slug: open-clojars-users-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/clojars/refs/heads/main/plans/free.yml
+  title: ''
+  type: Plans
+  url: plans/free.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/clojars/refs/heads/main/rate-limits/default.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/default.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/clojars/refs/heads/main/finops/overview.yml
+  title: ''
+  type: FinOps
+  url: finops/overview.yml
 - group: company
   title: ''
   type: Website
@@ -157,9 +172,13 @@ examples:
   name: Search Artifacts
   slug: search-artifacts
 finops:
-- name: Overview
+- has_sources: false
+  method: generated
+  name: Overview
+  primary_unit: ''
   service_category: ''
   slug: overview
+  template: true
 image: https://clojars.org/images/clojars-logo.png
 json_schemas:
 - name: Artifact
@@ -181,13 +200,13 @@ modified: '2026-09-16'
 name: Clojars
 nav: Providers
 network: true
-overview: 'Clojars publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Artifacts API, Feeds API, Groups API, and 2 more. Tagged areas include Clojure, Package Registry, Artifact Repository, and Open Source.
+overview: 'Clojars publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Artifacts API, Feeds API, Groups API, and 2 more. Tagged areas include Clojure, Package Registry, Artifact Repository, and Open Source.
 
 
   The Clojars catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Clojars'' developer surface includes authentication and 11 more developer resources.'
+  Clojars'' developer surface includes authentication and 14 more developer resources.'
 plans:
 - name: Free
   plan_count: 0
@@ -198,9 +217,10 @@ rate_limits:
   name: Default
   slug: default
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: Clojars API Rules
+  name: Clojars — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -210,22 +230,22 @@ rules:
   slug: clojars-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 32.9
+  composite: 28.7
   coverage:
     artifact_dirs: 14
-    catalog_earned: 54.1
+    catalog_earned: 43.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 61.0
+    catalog_gap: 71.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -4.2
   facets:
-    access_clarity: 7.9
+    access_clarity: 0.0
     contract_governance: 9.8
     contract_quality: 53.6
     developer_ergonomics: 21.4
     discoverability: 58.9
-    operational_transparency: 49.5
+    operational_transparency: 28.9
   previous_composite: 32.9
   provenance:
     agentic_access: derived
@@ -240,8 +260,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

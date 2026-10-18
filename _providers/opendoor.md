@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'Opendoor for Agents is the partner program that lets licensed real-estate agents submit clients to Opendoor for a cash offer, list Opendoor-owned inventory, and earn referral commissions. Integration '
@@ -41,6 +41,21 @@ apis:
   slug: opendoor-for-agents
 artifact_total: 5
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/opendoor/refs/heads/main/plans/opendoor-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/opendoor-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/opendoor/refs/heads/main/rate-limits/opendoor-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/opendoor-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/opendoor/refs/heads/main/finops/opendoor-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/opendoor-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/opendoor/refs/heads/main/security/opendoor-domain-security.yml
   title: ''
@@ -109,19 +124,23 @@ common:
 created: '2024-01-01'
 description: Opendoor is an iBuyer that lets U.S. homeowners request a near-instant cash offer on their home, sell directly to Opendoor, list with Opendoor through its agent network, or browse off-market inventory via Opendoor Exclusives. Founded in 2014 and publicly traded on NASDAQ as OPEN, the company runs buying, renovation, listing, and resale at scale and partners with third-party agents and brokerages through its Opendoor for Agents program and Opendoor Exclusives marketplace. Opendoor does not publish a self-serve public developer portal or open REST API; partner and agent integrations are arranged directly through Opendoor's business development and partnerships teams. This profile documents what is publicly findable on Opendoor's partner-facing surfaces.
 finops:
-- name: Opendoor Finops
+- has_sources: false
+  method: generated
+  name: Opendoor Finops
+  primary_unit: ''
   service_category: API
   slug: opendoor-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/opendoor.png
 layout: provider
 modified: '2026-07-25'
 name: Opendoor
 nav: Providers
 network: true
-overview: 'Opendoor publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Agents, Cash Offer, Exclusives, Homes, and iBuyer.
+overview: 'Opendoor is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Agents, Cash Offer, Exclusives, Homes, and iBuyer.
 
 
-  Opendoor''s developer surface includes engineering blog, support, and 14 more developer resources.'
+  Opendoor''s developer surface includes engineering blog, support, and 17 more developer resources.'
 plans:
 - name: Opendoor Plans Pricing
   plan_count: 1
@@ -133,22 +152,22 @@ rate_limits:
   slug: opendoor-rate-limits
 score:
   band: emerging
-  composite: 24.6
+  composite: 18.6
   coverage:
-    artifact_dirs: 6
-    catalog_earned: 49.4
+    artifact_dirs: 8
+    catalog_earned: 36.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 65.6
+    catalog_gap: 79.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.0
   facets:
-    access_clarity: 47.9
+    access_clarity: 26.3
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 28.6
     discoverability: 64.3
-    operational_transparency: 24.2
+    operational_transparency: 10.5
   previous_composite: 24.6
   regulatory:
     applies: true
@@ -156,9 +175,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

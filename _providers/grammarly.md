@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 5
 apis:
 - description: Programmatic access to Grammarly usage and communication-performance analytics for integration into business-intelligence systems.
@@ -51,8 +51,17 @@ apis:
 - description: Detect plagiarism against published sources to help teams produce original work (Beta).
   name: Grammarly Plagiarism Detection API
   slug: grammarly-plagiarism-detection-api
-artifact_total: 10
+artifact_total: 11
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/grammarly/refs/heads/main/plans/grammarly-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/grammarly-plans-pricing.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.grammarly.com/blog/feed/
 - group: company
   title: ''
   type: Website
@@ -187,14 +196,18 @@ created: '2026-07-17'
 description: Grammarly is an AI writing-assistance company whose enterprise developer platform exposes a set of REST APIs that bring Grammarly's writing intelligence into an organization's own applications, business-intelligence systems, and IT tooling. The Grammarly APIs cover writing-quality scoring, AI generated-content detection, plagiarism detection, communication analytics, and license management, all secured with OAuth 2.0 client credentials and scoped permissions against the base URL https://api.grammarly.com/ecosystem/api/. Certified Readability Score and Tone Analysis APIs are announced as coming soon. Grammarly was surfaced as a portfolio company of IVP.
 image: https://www.grammarly.com/favicon.ico
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Grammarly
 nav: Providers
 network: true
-overview: 'Grammarly publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Writing Assistance, Productivity, and Natural Language Processing.
+overview: 'Grammarly is listed with 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Writing Assistance, Productivity, and Natural Language Processing.
 
 
-  Grammarly''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
+  Grammarly''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 24 more developer resources.'
+plans:
+- name: Grammarly Plans Pricing
+  plan_count: 3
+  slug: grammarly-plans-pricing
 random_paper: 4
 scopes:
 - name: Grammarly Scopes
@@ -203,17 +216,17 @@ scopes:
   summary_line: 5 scopes
 score:
   band: developing
-  composite: 41.1
+  composite: 47.5
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 40.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    artifact_dirs: 14
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.4
   facets:
-    access_clarity: 50.0
+    access_clarity: 81.6
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 64.3
@@ -232,9 +245,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 38.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

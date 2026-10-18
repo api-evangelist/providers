@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -219,7 +219,7 @@ modified: '2026-07-19'
 name: Fave
 nav: Providers
 network: true
-overview: 'Fave publishes 2 APIs on the [APIs.io](https://apis.io/) network: Payments API and Transactions API. Tagged areas include Company, Payments, Fintech, QR Payments, and Loyalty.
+overview: 'Fave publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Payments API and Transactions API. Tagged areas include Company, Payments, Fintech, QR Payments, and Loyalty.
 
 
   The Fave catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
@@ -269,8 +269,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 22.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

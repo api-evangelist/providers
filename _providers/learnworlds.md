@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.7
-  scored_at: '2026-10-04'
+  score: 20.8
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -109,6 +109,10 @@ collections:
   name: LearnWorlds API
   slug: open-learnworlds
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.learnworlds.com/feed/
 - group: commercial
   title: ''
   type: Pricing
@@ -172,19 +176,23 @@ common:
 created: '2026-07-05'
 description: LearnWorlds is an online course and learning management (LMS) platform that lets creators, trainers, and businesses build, sell, and run branded online schools. Its REST API (v2) is served per-school from https://{school}.learnworlds.com/admin/api/v2 and exposes school entities - users, courses, enrollments, subscriptions, payments, course progress, tags, bundles, and certificates - plus webhooks for real-time events. Requests are authenticated with OAuth2 client credentials (a bearer access token) together with an Lw-Client header identifying the client application. API and webhook access is a plan-gated feature available on the Learning Center and High Volume & Corporate plans.
 finops:
-- name: Learnworlds Finops
+- has_sources: true
+  method: generated
+  name: Learnworlds Finops
+  primary_unit: ''
   service_category: Education and Learning Management
   slug: learnworlds-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/learnworlds.png
 layout: provider
-modified: '2026-07-05'
+modified: '2026-10-06'
 name: LearnWorlds
 nav: Providers
 network: true
-overview: 'LearnWorlds publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Courses API, Enrollments API, Payments API, and 4 more. Tagged areas include Online Courses, LMS, E-Learning, Education, and Course Platform.
+overview: 'LearnWorlds publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Courses API, Enrollments API, Payments API, and 4 more. Tagged areas include Online Courses, LMS, E-Learning, Education, and Course Platform.
 
 
-  LearnWorlds'' developer surface includes pricing, authentication, documentation, engineering blog, and 9 more developer resources.'
+  LearnWorlds'' developer surface includes pricing, authentication, documentation, engineering blog, and 10 more developer resources.'
 plans:
 - name: Learnworlds Plans Pricing
   plan_count: 7
@@ -201,22 +209,22 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 33.8
+  composite: 30.5
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 59.2
+    artifact_dirs: 14
+    catalog_earned: 51.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 55.8
+    catalog_gap: 64.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.3
   facets:
-    access_clarity: 50.0
+    access_clarity: 42.1
     contract_governance: 0.0
     contract_quality: 48.5
     developer_ergonomics: 14.3
     discoverability: 66.1
-    operational_transparency: 18.9
+    operational_transparency: 5.3
   previous_composite: 33.8
   provenance:
     agentic_access: derived
@@ -231,8 +239,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 21.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

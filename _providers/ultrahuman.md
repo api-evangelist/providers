@@ -30,13 +30,13 @@ agent_readiness:
     mcp_server: verified
     openapi_examples: false
     protected_resource_metadata: verified
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 44.6
-  scored_at: '2026-10-04'
+  score: 42.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 1
@@ -138,9 +138,13 @@ common:
 created: '2026-07-03'
 description: Ultrahuman makes the Ring AIR and Ring Pro smart rings and the M1 continuous glucose monitor (CGM), a subscription-free metabolic-health wearable ecosystem. Its Partner (UltraSignal) API lets approved partners read user-consented health metrics - sleep, HRV, resting heart rate, skin temperature, SpO2, movement/recovery indexes, VO2 max, and (with the M1 patch) continuous glucose - over an OAuth 2.0-secured REST API. A separate UltraSignal developer program offers raw sensor streams (PPG, temperature, accelerometer) from the Ring AIR via a loaned developer kit. API access is not self-serve - partners apply and are onboarded with client credentials; end users authorize data sharing from the Ultrahuman app.
 finops:
-- name: Ultrahuman Finops
+- has_sources: true
+  method: generated
+  name: Ultrahuman Finops
+  primary_unit: ''
   service_category: Health and Wearables
   slug: ultrahuman-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ultrahuman.png
 layout: provider
 mcp_servers:
@@ -151,7 +155,7 @@ modified: '2026-07-03'
 name: Ultrahuman
 nav: Providers
 network: true
-overview: 'Ultrahuman publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Metrics API, User API, O Auth API, and 1 more. Tagged areas include Wearables, Smart Ring, Health, Metabolic Health, and Sleep.
+overview: 'Ultrahuman publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Metrics API, User API, O Auth API, and 1 more. Tagged areas include Wearables, Smart Ring, Health, Metabolic Health, and Sleep.
 
 
   Ultrahuman''s developer surface includes authentication, documentation, signup flow, and 9 more developer resources.'
@@ -166,22 +170,22 @@ rate_limits:
   slug: ultrahuman-rate-limits
 score:
   band: thin
-  composite: 38.9
+  composite: 30.6
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 61.6
+    artifact_dirs: 13
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.4
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 50.8
+    access_clarity: 22.4
     contract_governance: 0.0
     contract_quality: 48.6
     developer_ergonomics: 29.8
     discoverability: 68.3
-    operational_transparency: 28.4
+    operational_transparency: 7.9
   previous_composite: 38.9
   provenance:
     agentic_access: derived
@@ -197,9 +201,9 @@ score:
     regime: Health
     regime_id: health
     score: 18.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 12
 apis:
 - description: 'Create, enroll, retrieve, update, delete, search, and merge loyalty members, and read a member''s activity and activity summary. Documented operations include POST /users, GET/PATCH /users/{memberId}, '
@@ -113,16 +113,20 @@ common:
 created: '2026-07-10'
 description: Annex Cloud is an enterprise loyalty and customer retention platform. Its Loyalty Experience Platform is built on a set of RESTful APIs that let brands enroll and manage loyalty members, issue and redeem points, track member activity and transactions, run referral (Refer A Friend) programs, and wire loyalty into commerce and marketing stacks. The APIs are documented publicly on a Redocly developer portal, but access is gated - credentials are provisioned per customer and the base host is tenant-specific. Authentication is JWT-based, created through the Tenant API, and prospective users are directed to "Contact your Customer Success Manager for assistance with API Connectors." No public self-serve signup, sandbox, or published pricing is offered; this is an enterprise, partner/customer-gated API.
 finops:
-- name: Annex Cloud Finops
+- has_sources: true
+  method: generated
+  name: Annex Cloud Finops
+  primary_unit: ''
   service_category: Loyalty and Customer Retention
   slug: annex-cloud-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/annex-cloud.png
 layout: provider
 modified: '2026-07-10'
 name: Annex Cloud
 nav: Providers
 network: true
-overview: 'Annex Cloud publishes 12 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Loyalty, Customer Retention, Rewards, Points, and Referrals.
+overview: 'Annex Cloud is listed with 12 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Loyalty, Customer Retention, Rewards, Points, and Referrals.
 
 
   Annex Cloud''s developer surface includes documentation, signup flow, and 6 more developer resources.'
@@ -137,22 +141,22 @@ rate_limits:
   slug: annex-cloud-rate-limits
 score:
   band: emerging
-  composite: 18.6
+  composite: 12.6
   coverage:
-    artifact_dirs: 6
-    catalog_earned: 52.4
+    artifact_dirs: 7
+    catalog_earned: 39.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 62.6
+    catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.0
   facets:
-    access_clarity: 40.0
+    access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 16.7
     discoverability: 62.5
-    operational_transparency: 18.9
+    operational_transparency: 5.3
   previous_composite: 18.6
   regulatory:
     applies: true
@@ -160,9 +164,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

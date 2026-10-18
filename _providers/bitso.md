@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.1
-  scored_at: '2026-10-04'
+  score: 23.2
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -83,6 +83,21 @@ collections:
   name: Bitso Trading API
   slug: open-bitso
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/bitso/refs/heads/main/plans/bitso-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/bitso-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/bitso/refs/heads/main/rate-limits/bitso-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/bitso-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/bitso/refs/heads/main/finops/bitso-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/bitso-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/bitso/refs/heads/main/agentic-access/bitso-agentic-access.yml
   title: ''
@@ -138,22 +153,26 @@ common:
 created: '2026-05-23'
 description: Bitso is one of Latin America's largest cryptocurrency exchanges and stablecoin-rail providers, serving Mexico, Argentina, Brazil, Colombia, and other LATAM markets. Bitso exposes a public REST trading API and a WebSocket feed at bitso.com/api/v3 for market data, order management, conversions, OTC / RFQ, and account operations; a Payouts & Pay-Ins API for cross-border crypto and fiat disbursements; and the Juno API for Mexican peso (MXN) rails and stablecoin programmable money. API and OpenAPI references are catalogued at docs.bitso.com.
 finops:
-- name: Bitso Finops
+- has_sources: false
+  method: generated
+  name: Bitso Finops
+  primary_unit: ''
   service_category: API
   slug: bitso-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bitso.png
 layout: provider
 modified: '2026-05-23'
 name: Bitso
 nav: Providers
 network: true
-overview: 'Bitso publishes 5 APIs on the [APIs.io](https://apis.io/) network, including WebSocket API, Private API, Public API, and 2 more. Tagged areas include Cryptocurrency, Exchange, Trading, Stablecoins, and Payouts.
+overview: 'Bitso publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including WebSocket API, Private API, Public API, and 2 more. Tagged areas include Cryptocurrency, Exchange, Trading, Stablecoins, and Payouts.
 
 
   The Bitso catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Bitso''s developer surface includes authentication, documentation, GitHub presence, status page, engineering blog, and 7 more developer resources.'
+  Bitso''s developer surface includes authentication, documentation, GitHub presence, status page, engineering blog, and 10 more developer resources.'
 plans:
 - name: Bitso Plans Pricing
   plan_count: 1
@@ -164,10 +183,11 @@ rate_limits:
   name: Bitso Rate Limits
   slug: bitso-rate-limits
 rules:
-- effective_rule_count: 32
+- authorship: generated
+  effective_rule_count: 32
   extends:
   - spectral:asyncapi
-  name: Bitso API Rules
+  name: Bitso — asyncapi rules
   rule_count: 5
   severity_counts:
     error: 1
@@ -177,22 +197,22 @@ rules:
   slug: bitso-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 34.0
+  composite: 28.0
   coverage:
-    artifact_dirs: 14
-    catalog_earned: 55.2
+    artifact_dirs: 15
+    catalog_earned: 41.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 59.9
+    catalog_gap: 73.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.0
   facets:
-    access_clarity: 34.7
+    access_clarity: 13.2
     contract_governance: 11.4
     contract_quality: 49.4
     developer_ergonomics: 23.8
     discoverability: 60.7
-    operational_transparency: 24.2
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -214,9 +234,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 21.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

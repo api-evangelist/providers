@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Rho exposes APIs for partners and customers to embed Rho banking and payments capabilities, including a Virtual Card API for programmatically issuing cards and a Vendor Onboarding API for embedding pa
@@ -41,6 +41,25 @@ apis:
   slug: rho-platform-api
 artifact_total: 5
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/rho-co/refs/heads/main/plans/rho-co-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/rho-co-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/rho-co/refs/heads/main/rate-limits/rho-co-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/rho-co-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/rho-co/refs/heads/main/finops/rho-co-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/rho-co-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.rho.co/blog
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/rho-co/refs/heads/main/security/rho-co-domain-security.yml
   title: ''
@@ -61,19 +80,23 @@ common:
 created: '2026-05-23'
 description: Rho is an all-in-one finance platform for businesses that combines business banking, treasury, corporate cards, expense management, bill pay, invoicing, and automated month-end close. Customers get a business checking account with high FDIC sweep insurance, a yield-bearing treasury product, corporate cards with cash back, and zero-fee bill pay, all reconciled against connected accounting systems. Rho serves startups, small businesses, enterprises, accountants, banks, and consumer brands, with no per-seat fees. The platform exposes APIs for use cases such as vendor onboarding and virtual card issuance so partners can embed Rho capabilities into their own portals. Native integrations exist for QuickBooks Online, NetSuite, Sage Intacct, and Microsoft Dynamics 365 Business Central.
 finops:
-- name: Rho Co Finops
+- has_sources: false
+  method: generated
+  name: Rho Co Finops
+  primary_unit: ''
   service_category: API
   slug: rho-co-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rho-co.png
 layout: provider
-modified: '2026-05-23'
+modified: '2026-10-06'
 name: Rho
 nav: Providers
 network: true
-overview: 'Rho publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Rho, Business Banking, Treasury, Corporate Cards, and Expense Management.
+overview: 'Rho is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Rho, Business Banking, Treasury, Corporate Cards, and Expense Management.
 
 
-  Rho''s developer surface includes pricing, signup flow, and 2 more developer resources.'
+  Rho''s developer surface includes engineering blog, pricing, signup flow, and 5 more developer resources.'
 plans:
 - name: Rho Co Plans Pricing
   plan_count: 1
@@ -84,23 +107,23 @@ rate_limits:
   name: Rho Co Rate Limits
   slug: rho-co-rate-limits
 score:
-  band: emerging
-  composite: 15.9
+  band: minimal
+  composite: 10.3
   coverage:
-    artifact_dirs: 6
-    catalog_earned: 49.4
+    artifact_dirs: 8
+    catalog_earned: 36.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 65.6
+    catalog_gap: 79.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.6
   facets:
-    access_clarity: 50.5
+    access_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 57.1
-    operational_transparency: 18.9
+    operational_transparency: 5.3
   previous_composite: 15.9
   regulatory:
     applies: true
@@ -108,9 +131,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 4.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

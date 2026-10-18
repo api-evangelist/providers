@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://weareher.com/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/her/refs/heads/main/security/her-domain-security.yml
   title: ''
@@ -65,14 +69,14 @@ created: '2026-07-17'
 description: HER is a dating and community platform built exclusively for queer women, non-binary, and trans people, with more than 15 million users across 125+ countries. The app pairs sapphic dating with community spaces, events, and richly customizable profiles (pronouns, gender identity, sexual orientation, and Pride Pins). Core features are free, with optional HER Premium tiers. HER was surfaced as a portfolio company of Initialized Capital and added to the API Evangelist network. It is a consumer mobile application and publishes no public developer API, developer portal, or API documentation at this time.
 image: https://weareher.com/wp-content/uploads/2022/04/logoher.svg
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: HER
 nav: Providers
 network: true
 overview: 'HER is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Dating, LGBTQ, and Social.
 
 
-  HER''s developer surface includes support, engineering blog, and 4 more developer resources.'
+  HER''s developer surface includes support, engineering blog, and 5 more developer resources.'
 random_paper: 11
 score:
   band: minimal
@@ -99,8 +103,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 9.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

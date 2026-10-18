@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -78,6 +78,21 @@ collections:
   name: Grapes Knowledge Base API
   slug: open-grapes-knowledge-base
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/grapes-knowledge-base/refs/heads/main/plans/grapes-knowledge-base-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/grapes-knowledge-base-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/grapes-knowledge-base/refs/heads/main/rate-limits/grapes-knowledge-base-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/grapes-knowledge-base-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/grapes-knowledge-base/refs/heads/main/finops/grapes-knowledge-base-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/grapes-knowledge-base-finops.yml
 - group: company
   title: ''
   type: Website
@@ -136,9 +151,13 @@ common:
 created: '2025-02-24'
 description: Grapes is a knowledge management platform with administrative, configuration, and project management capabilities. The Grapes API allows automation of recurring operations including project administration, agent configuration, and dataset import/export. Documentation is available in English and French.
 finops:
-- name: Grapes Knowledge Base Finops
+- has_sources: false
+  method: generated
+  name: Grapes Knowledge Base Finops
+  primary_unit: ''
   service_category: API
   slug: grapes-knowledge-base-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/grapes-knowledge-base.png
 json_schemas:
 - name: Grapes Project
@@ -154,13 +173,13 @@ modified: '2026-05-19'
 name: Grapes Knowledge Base
 nav: Providers
 network: true
-overview: 'Grapes Knowledge Base publishes 3 APIs on the [APIs.io](https://apis.io/) network: Agents API, Datasets API, and Projects API. Tagged areas include Knowledge Management, Knowledge Base, Data Management, Automation, and HATEOAS.
+overview: 'Grapes Knowledge Base publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Agents API, Datasets API, and Projects API. Tagged areas include Knowledge Management, Knowledge Base, Data Management, Automation, and HATEOAS.
 
 
   The Grapes Knowledge Base catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Grapes Knowledge Base''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
+  Grapes Knowledge Base''s developer surface includes authentication, documentation, engineering blog, and 12 more developer resources.'
 plans:
 - name: Grapes Knowledge Base Plans Pricing
   plan_count: 3
@@ -171,9 +190,10 @@ rate_limits:
   name: Grapes Knowledge Base Rate Limits
   slug: grapes-knowledge-base-rate-limits
 rules:
-- effective_rule_count: 4
+- authorship: generated
+  effective_rule_count: 4
   extends: []
-  name: Grapes Knowledge Base API Rules
+  name: Grapes Knowledge Base — jsonschema rules
   rule_count: 4
   severity_counts:
     error: 0
@@ -183,17 +203,17 @@ rules:
   slug: grapes-knowledge-base-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 29.3
+  composite: 27.8
   coverage:
     artifact_dirs: 14
-    catalog_earned: 52.3
+    catalog_earned: 49.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 62.8
+    catalog_gap: 65.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 9.8
     contract_quality: 50.7
     developer_ergonomics: 23.8
@@ -213,8 +233,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

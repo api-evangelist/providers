@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 5
 apis:
 - description: UON's institutional identity provider, publishing machine-readable SAML 2.0 metadata at a stable URL. entityID https://idp.newcastle.edu.au/idp/shibboleth, shibmd:Scope newcastle.edu.au, SingleSignOnS
@@ -120,16 +120,20 @@ created: '2026-06-03'
 description: 'The University of Newcastle (UON) is a public research university in Callaghan and Newcastle, New South Wales, ranked #179 in the QS World University Rankings order used by this cohort. It is a federation of buyers rather than an API producer: there is no central developer portal and no institutional API gateway — api.newcastle.edu.au, apis.newcastle.edu.au, developer.newcastle.edu.au, data.newcastle.edu.au and status.newcastle.edu.au all fail to resolve — and UON publishes no OpenAPI description for anything. What it genuinely operates is small and specific: a Shibboleth identity provider at idp.newcastle.edu.au serving live SAML 2.0 metadata under its own entityID and scope, registered in the Australian Access Federation; and a self-hosted XNAT 1.9.1.1 imaging-informatics platform at xnat.newcastle.edu.au, run with the Hunter Medical Research Institute on the university''s own AWS estate, whose REST API answers on UON''s host and is registered as a SAML service provider in
   the same federation. UON also holds two DataCite repository clients in its own name, ARDCX.UON and UONAU.FIGSHARE. Everything else that looks programmable is a tenancy on someone else''s platform and is recorded as such, never as UON engineering: Open Research Newcastle is a Figshare tenancy, the course handbook is a CourseLoop tenancy, the learning management system is an Instructure Canvas tenancy, library guides are Springshare, site search is Squiz Funnelback, the student portal is PeopleSoft behind Okta, and the service desk is Oracle B2C Service. This profile was corrected on 2026-08-30: ten OpenAPI documents previously held here were Figshare''s generic api.figshare.com/v2 contract, not the university''s, and were removed along with everything derived from them.'
 finops:
-- name: Uon Finops
+- has_sources: true
+  method: generated
+  name: Uon Finops
+  primary_unit: ''
   service_category: Education
   slug: uon-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/uon.png
 layout: provider
 modified: '2026-08-30'
 name: University of Newcastle Australia
 nav: Providers
 network: true
-overview: 'University of Newcastle Australia publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include University, Higher Education, Education, Research, and Australia.
+overview: 'University of Newcastle Australia is listed with 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include University, Higher Education, Education, Research, and Australia.
 
 
   University of Newcastle Australia''s developer surface includes documentation and 13 more developer resources.'
@@ -144,22 +148,22 @@ rate_limits:
   slug: uon-rate-limits
 score:
   band: emerging
-  composite: 18.3
+  composite: 12.3
   coverage:
     artifact_dirs: 8
-    catalog_earned: 57.4
+    catalog_earned: 44.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.6
+    catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -2.1
+  delta: -6.0
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 4.4
     developer_ergonomics: 9.5
     discoverability: 71.4
-    operational_transparency: 21.6
+    operational_transparency: 7.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -167,7 +171,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 20.4
+  previous_composite: 18.3
   provenance:
     conformance: first-party
   regulatory:
@@ -176,9 +180,9 @@ score:
     regime: Education & Research
     regime_id: education
     score: 18.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

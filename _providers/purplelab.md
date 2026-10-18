@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Subscription-based, pre-built healthcare data feeds and scoring APIs that augment a client's internal datasets with PurpleLab's proprietary claims scoring, forecasting, ranking and segmentation. Purpl
@@ -164,7 +164,7 @@ modified: '2026-08-26'
 name: PurpleLab
 nav: Providers
 network: true
-overview: 'PurpleLab publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Healthcare, Health Data, Real-World Data, Real-World Evidence, and Medical Claims.
+overview: 'PurpleLab is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Healthcare, Health Data, Real-World Data, Real-World Evidence, and Medical Claims.
 
 
   PurpleLab''s developer surface includes support, engineering blog, and 20 more developer resources.'
@@ -212,8 +212,8 @@ score:
     regime: Health
     regime_id: health
     score: 18.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

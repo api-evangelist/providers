@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.3
-  scored_at: '2026-10-04'
+  score: 26.5
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 1
@@ -206,6 +206,21 @@ collections:
   name: Kalshi Trade API Manual Endpoints
   slug: open-kalshi
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/kalshi/refs/heads/main/plans/kalshi-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/kalshi-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/kalshi/refs/heads/main/rate-limits/kalshi-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/kalshi-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/kalshi/refs/heads/main/finops/kalshi-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/kalshi-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/kalshi/refs/heads/main/capabilities/kalshi-capability-edges.yml
   title: ''
@@ -261,22 +276,26 @@ common:
 created: '2026-05-23'
 description: Kalshi is a CFTC-regulated US exchange for binary event contracts on real-world outcomes - elections, economics, weather, sports, and more. The platform exposes a public REST trading API and WebSocket streams for market data, orders, positions, and portfolio actions, with a published OpenAPI 3 specification and AsyncAPI definition for the streaming surface. A demo environment mirrors production for safe development. Official Python and community SDKs are provided.
 finops:
-- name: Kalshi Finops
+- has_sources: false
+  method: generated
+  name: Kalshi Finops
+  primary_unit: ''
   service_category: API
   slug: kalshi-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kalshi.png
 layout: provider
 modified: '2026-05-29'
 name: Kalshi
 nav: Providers
 network: true
-overview: 'Kalshi publishes 21 APIs on the [APIs.io](https://apis.io/) network, including WebSocket Streaming API, AsyncAPI Specification, Account API, and 18 more. Tagged areas include Prediction Markets, Event Contracts, Exchange, CFTC, and Trading.
+overview: 'Kalshi publishes 21 API contracts indexed on the [APIs.io](https://apis.io/) network, including WebSocket Streaming API, AsyncAPI Specification, Account API, and 18 more. Tagged areas include Prediction Markets, Event Contracts, Exchange, CFTC, and Trading.
 
 
   The Kalshi catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Kalshi''s developer surface includes authentication, documentation, API reference, GitHub presence, and 8 more developer resources.'
+  Kalshi''s developer surface includes authentication, documentation, API reference, GitHub presence, and 11 more developer resources.'
 plans:
 - name: Kalshi Plans Pricing
   plan_count: 1
@@ -287,10 +306,11 @@ rate_limits:
   name: Kalshi Rate Limits
   slug: kalshi-rate-limits
 rules:
-- effective_rule_count: 34
+- authorship: generated
+  effective_rule_count: 34
   extends:
   - spectral:asyncapi
-  name: Kalshi API Rules
+  name: Kalshi — asyncapi rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -300,22 +320,22 @@ rules:
   slug: kalshi-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 35.5
+  composite: 29.5
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 58.2
+    artifact_dirs: 15
+    catalog_earned: 44.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 56.9
+    catalog_gap: 70.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.0
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 11.4
     contract_quality: 55.7
     developer_ergonomics: 28.6
     discoverability: 73.2
-    operational_transparency: 24.2
+    operational_transparency: 10.5
   previous_composite: 35.5
   provenance:
     agentic_access: derived
@@ -330,9 +350,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

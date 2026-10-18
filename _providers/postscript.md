@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 41.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -89,6 +89,11 @@ asyncapis:
   name: Postscript Webhooks
   slug: postscript-webhooks
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/postscript/refs/heads/main/finops/postscript-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/postscript-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/postscript/refs/heads/main/capabilities/postscript-capability-edges.yml
   title: ''
@@ -285,22 +290,26 @@ common:
 created: '2025-01-01'
 description: Postscript is an SMS and RCS marketing platform built for Shopify brands, covering list growth, campaign and automation delivery, conversational messaging, AI shopping assistants and TCPA compliance. Its developer surface is the Partner API v2 at api.postscript.io, a twenty-operation REST API authenticated with private API keys, through which partners and enterprise shops read and update SMS subscribers, read opt-in keywords, push custom events into Flow Builder, send promotional, transactional and conversational messages, manage webhook subscriptions for shop and subscriber lifecycle events, and run compliance unsubscribe and redaction operations. A browser JavaScript SDK carries the onsite opt-in popups, the checkout consent checkbox and browse-behaviour event tracking.
 finops:
-- name: Postscript Finops
+- has_sources: false
+  method: generated
+  name: Postscript Finops
+  primary_unit: ''
   service_category: API
   slug: postscript-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/postscript.png
 layout: provider
 modified: '2026-08-13'
 name: Postscript
 nav: Providers
 network: true
-overview: 'Postscript publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Subscribers API, Events API, Keywords API, and 4 more. Tagged areas include SMS, Marketing, Messaging, E-Commerce, and Shopify.
+overview: 'Postscript publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Subscribers API, Events API, Keywords API, and 4 more. Tagged areas include SMS, Marketing, Messaging, E-Commerce, and Shopify.
 
 
   The Postscript catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Postscript''s developer surface includes authentication, changelog, documentation, getting-started guide, API reference, pricing, engineering blog, and 36 more developer resources.'
+  Postscript''s developer surface includes authentication, changelog, documentation, getting-started guide, API reference, pricing, engineering blog, and 37 more developer resources.'
 plans:
 - name: Postscript Plans Pricing
   plan_count: 4
@@ -312,17 +321,17 @@ rate_limits:
   slug: postscript-rate-limits
 score:
   band: strong
-  composite: 62.5
+  composite: 60.9
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 60.0
+    artifact_dirs: 27
+    catalog_earned: 57.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 55.0
+    catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 96.1
+    access_clarity: 88.2
     contract_governance: 4.5
     contract_quality: 62.2
     developer_ergonomics: 41.1
@@ -349,8 +358,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 27.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -368,7 +377,7 @@ security:
 - kind: vulnerability-disclosure
   name: Postscript Vulnerability Disclosure
   slug: postscript-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 - kind: trust-center
   name: Postscript Trust Center
   slug: postscript-trust-center

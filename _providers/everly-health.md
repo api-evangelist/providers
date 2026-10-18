@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: The OAuth 2.0 authorization server and OpenID Connect provider that fronts the Everlywell member account. It is not a documented developer product — Everly Health publishes no API reference for it — b
@@ -191,7 +191,7 @@ modified: '2026-08-04'
 name: Everly Health
 nav: Providers
 network: true
-overview: 'Everly Health publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Healthcare, Digital Health, and Diagnostics.
+overview: 'Everly Health is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Healthcare, Digital Health, and Diagnostics.
 
 
   Everly Health''s developer surface includes engineering blog, support, signup flow, authentication, and 21 more developer resources.'
@@ -237,8 +237,8 @@ score:
     regime: Health
     regime_id: health
     score: 36.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

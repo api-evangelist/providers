@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.3
-  scored_at: '2026-10-04'
+  score: 15.4
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -60,6 +60,21 @@ collections:
   name: Google Cloud Scheduler API
   slug: open-openapi
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-scheduler/refs/heads/main/plans/google-cloud-scheduler-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/google-cloud-scheduler-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-scheduler/refs/heads/main/rate-limits/google-cloud-scheduler-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/google-cloud-scheduler-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-scheduler/refs/heads/main/finops/google-cloud-scheduler-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/google-cloud-scheduler-finops.yml
 - group: company
   title: ''
   type: Website
@@ -99,22 +114,26 @@ common:
 created: '2026-03-13'
 description: Google Cloud Scheduler is a fully managed enterprise-grade cron job scheduler. It allows you to schedule virtually any job, including batch, big data jobs, cloud infrastructure operations, and more. Cloud Scheduler reliably sends requests to HTTP endpoints, Pub/Sub topics, or App Engine applications on a recurring schedule, with automatic retries in case of failure and configurable retry policies.
 finops:
-- name: Google Cloud Scheduler Finops
+- has_sources: false
+  method: generated
+  name: Google Cloud Scheduler Finops
+  primary_unit: ''
   service_category: API
   slug: google-cloud-scheduler-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/google-cloud-scheduler.png
 layout: provider
 modified: '2026-05-19'
 name: Google Cloud Scheduler
 nav: Providers
 network: true
-overview: 'Google Cloud Scheduler publishes 1 API on the [APIs.io](https://apis.io/) network: Projects API. Tagged areas include Automation, Cron, Google Cloud, Job, and Scheduler.
+overview: 'Google Cloud Scheduler publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Projects API. Tagged areas include Automation, Cron, Google Cloud, Job, and Scheduler.
 
 
   The Google Cloud Scheduler catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Google Cloud Scheduler''s developer surface includes getting-started guide, pricing, and 6 more developer resources.'
+  Google Cloud Scheduler''s developer surface includes getting-started guide, pricing, and 9 more developer resources.'
 plans:
 - name: Google Cloud Scheduler Plans Pricing
   plan_count: 3
@@ -125,9 +144,10 @@ rate_limits:
   name: Google Cloud Scheduler Rate Limits
   slug: google-cloud-scheduler-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: Google Cloud Scheduler API Rules
+  name: Google Cloud Scheduler — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -137,17 +157,17 @@ rules:
   slug: google-cloud-scheduler-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 28.1
+  composite: 26.6
   coverage:
     artifact_dirs: 12
-    catalog_earned: 54.7
+    catalog_earned: 51.7
     catalog_earned_first_party: 0.0
-    catalog_gap: 60.4
+    catalog_gap: 63.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 26.3
+    access_clarity: 18.4
     contract_governance: 9.8
     contract_quality: 50.2
     developer_ergonomics: 11.9
@@ -167,8 +187,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

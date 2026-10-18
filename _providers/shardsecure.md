@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://shardsecure.com/blog/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/shardsecure/refs/heads/main/security/shardsecure-domain-security.yml
   title: ''
@@ -65,18 +69,18 @@ created: '2026-07-17'
 description: ShardSecure is a data security company providing agentless, file-level data protection that keeps sensitive data private, resilient, and compliant across on-premises, cloud, and hybrid or multi-cloud environments. Its platform uses microsharding to cryptographically fragment and distribute data so exfiltrated fragments are unintelligible, adds ransomware detection with self-healing data integrity, and extends to securing AI inference data through an MCP Secure Gateway. ShardSecure is a portfolio company of 500 Global and is tracked in the API Evangelist network; it publishes no public API or developer portal as of this enrichment pass.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/shardsecure.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: ShardSecure
 nav: Providers
 network: true
 overview: 'ShardSecure is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data Security, Encryption, Ransomware Protection, and Data Resilience.
 
 
-  ShardSecure''s developer surface includes engineering blog, support, signup flow, and 3 more developer resources.'
+  ShardSecure''s developer surface includes engineering blog, support, signup flow, and 4 more developer resources.'
 random_paper: 11
 score:
   band: minimal
-  composite: 10.1
+  composite: 10.2
   coverage:
     artifact_dirs: 4
     catalog_earned: 27.0
@@ -84,7 +88,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 23.7
     contract_governance: 0.0
@@ -99,8 +103,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 9.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -70,6 +70,21 @@ collections:
   name: virusapi
   slug: open-cloudmersive-virus-scan
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/cloudmersive/refs/heads/main/plans/cloudmersive-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/cloudmersive-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cloudmersive/refs/heads/main/rate-limits/cloudmersive-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/cloudmersive-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/cloudmersive/refs/heads/main/finops/cloudmersive-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/cloudmersive-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/cloudmersive/refs/heads/main/capabilities/cloudmersive-capability-edges.yml
   title: ''
@@ -131,9 +146,13 @@ common:
 created: '2024-11-13'
 description: Cloudmersive provides a portfolio of utility APIs covering virus and malware scanning, document conversion, OCR, image recognition, NLP, validation, security threat detection (spam, phishing, fraud, DLP, CDR), speech, video, barcode, currency, and data integration. Each API is documented with a Swagger 2.0 / OpenAPI specification, has SDKs in multiple languages, and is consumable on api.cloudmersive.com behind an API key (`Apikey` header).
 finops:
-- name: Cloudmersive Finops
+- has_sources: true
+  method: generated
+  name: Cloudmersive Finops
+  primary_unit: ''
   service_category: Developer Tools / API
   slug: cloudmersive-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cloudmersive.png
 json_structures:
 - name: Cloudmersive Structure
@@ -149,13 +168,13 @@ modified: '2026-05-19'
 name: Cloudmersive
 nav: Providers
 network: true
-overview: 'Cloudmersive publishes 2 APIs on the [APIs.io](https://apis.io/) network: Scan API and ScanCloudStorage API. Tagged areas include Barcodes, Conversion, Documents, Image Recognition, and Natural-Language.
+overview: 'Cloudmersive publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Scan API and ScanCloudStorage API. Tagged areas include Barcodes, Conversion, Documents, Image Recognition, and Natural-Language.
 
 
   The Cloudmersive catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Cloudmersive''s developer surface includes authentication, developer portal, developer console, and 10 more developer resources.'
+  Cloudmersive''s developer surface includes authentication, developer portal, developer console, and 13 more developer resources.'
 plans:
 - name: Cloudmersive Plans Pricing
   plan_count: 8
@@ -166,7 +185,8 @@ rate_limits:
   name: Cloudmersive Rate Limits
   slug: cloudmersive-rate-limits
 rules:
-- effective_rule_count: 49
+- authorship: unmarked
+  effective_rule_count: 49
   extends:
   - spectral:oas
   name: Cloudmersive API Rules
@@ -179,18 +199,18 @@ rules:
   slug: cloudmersive-rules
 score:
   band: thin
-  composite: 35.9
+  composite: 30.8
   coverage:
-    artifact_dirs: 16
-    catalog_earned: 59.5
+    artifact_dirs: 17
+    catalog_earned: 46.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 55.5
+    catalog_gap: 68.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.1
   facets:
-    access_clarity: 26.3
-    contract_governance: 40.9
+    access_clarity: 18.4
+    contract_governance: 11.4
     contract_quality: 43.8
     developer_ergonomics: 38.1
     discoverability: 57.1
@@ -209,9 +229,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

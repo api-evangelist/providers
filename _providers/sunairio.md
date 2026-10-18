@@ -25,17 +25,21 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: false
+    protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 8.6
-  scored_at: '2026-10-04'
+  score: 12.2
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://sunairio.com/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/sunairio/refs/heads/main/security/sunairio-domain-security.yml
   title: ''
@@ -77,14 +81,14 @@ mcp_servers:
 - description: Remote MCP server at mcp.sunairio.com over HTTP.
   name: Sunairio MCP Server
   slug: sunairio
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Sunairio
 nav: Providers
 network: true
 overview: 'Sunairio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Energy, Weather, Climate, and Forecasting.
 
 
-  Sunairio''s developer surface includes developer portal, pricing, support, engineering blog, and 4 more developer resources.'
+  Sunairio''s developer surface includes developer portal, pricing, support, engineering blog, and 5 more developer resources.'
 random_paper: 16
 score:
   band: emerging
@@ -113,8 +117,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 8.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

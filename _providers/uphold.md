@@ -18,7 +18,7 @@ agent_readiness:
   dimensions:
     agent_card: conformant
     agent_skills: true
-    agentic_access: false
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: negotiable
     consent_identity: false
@@ -36,9 +36,16 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 42.1
-  scored_at: '2026-10-04'
-api_count: 5
+  score: 43.9
+  scored_at: '2026-10-17'
+agentic_access:
+- acting_count: 42
+  human_in_the_loop: 0
+  name: Uphold Agentic Access
+  operation_count: 92
+  slug: uphold-agentic-access
+  summary_line: 92 operations · 42 acting
+api_count: 9
 apis:
 - description: The long-standing public Uphold API at api.uphold.com/v0 — tickers and exchange rates, supported currencies and assets, plus OAuth 2.0 authenticated access to a member's cards, transactions and accoun
   name: Uphold Public API (v0)
@@ -440,7 +447,7 @@ apis:
     question: How do I configure webhooks for event notifications?
   phrasing_ops: 1
   slug: uphold-webhooks-api
-artifact_total: 57
+artifact_total: 61
 asyncapis:
 - description: ''
   name: Uphold Core Webhooks
@@ -519,6 +526,41 @@ collections:
   name: Core Webhooks API
   slug: open-uphold-webhooks-api
 common:
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/uphold/refs/heads/main/agentic-access/uphold-agentic-access.yml
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/uphold-agentic-access.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/uphold/refs/heads/main/rate-limits/uphold-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/uphold-rate-limits.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/uphold/refs/heads/main/rules/uphold-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/uphold-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/uphold/refs/heads/main/json-ld/uphold-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/uphold-context.jsonld
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/uphold/refs/heads/main/vocabulary/uphold-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/uphold-vocabulary.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/uphold/refs/heads/main/hosts/uphold-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/uphold-hosts.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/uphold/refs/heads/main/vendors/uphold-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/uphold-vendors.yml
 - group: commercial
   href: https://raw.githubusercontent.com/api-evangelist/uphold/refs/heads/main/plans/uphold-plans-pricing.yml
   title: ''
@@ -740,6 +782,11 @@ common:
 created: '2026-08-05'
 description: Uphold is a multi-asset digital money platform and regulated crypto exchange that lets consumers and businesses hold, trade, send and spend more than 300 cryptocurrencies, national currencies and precious metals from a single account. Its Enterprise API Suite ("Move on chain") is a modular set of OpenAPI 3.1 REST APIs — Core, Widgets, Topper, Market Pulse and KYC Connector — that partners embed to onboard and KYC/KYB-verify users, move value across bank rails (ACH, FedNow/RTP, Wire, FPS, SEPA), debit and credit cards, alternative payment methods (Apple Pay, PayPal) and 50+ blockchain networks, and to run buy/sell, trade, send, portfolio, statements and FATF Travel Rule flows. Uphold also runs a public legacy market-data and wallet API at api.uphold.com/v0, publishes embeddable Payment, KYC and Travel Rule widgets, a Svix-backed webhook event surface, a full Sandbox with test helpers, a public Postman workspace, an llms.txt, an A2A agent card and a documentation MCP server.
 image: https://cdn.prod.website-files.com/65116a8935747aeda81c6865/65a8ffa13ea101b31a905d2f_UPHOLD%20LOGO-2.png
+jsonld:
+- class_count: 120
+  name: Uphold Context
+  property_count: 136
+  slug: uphold-context
 layout: provider
 mcp_servers:
 - description: Remote MCP server at developer.uphold.com over HTTP; 3 tools listed.
@@ -749,18 +796,35 @@ modified: '2026-08-05'
 name: Uphold
 nav: Providers
 network: true
-overview: 'Uphold publishes 25 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Assets API, Authentication API, and 22 more. Tagged areas include Company, Cryptocurrency, Digital Assets, Payments, and Banking.
+overview: 'Uphold publishes 25 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, Assets API, Authentication API, and 22 more. Tagged areas include Company, Cryptocurrency, Digital Assets, Payments, and Banking.
 
 
-  The Uphold catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Uphold catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Uphold''s developer surface includes documentation, API reference, getting-started guide, quickstart, support, engineering blog, pricing, and 41 more developer resources.'
+  Uphold''s developer surface includes documentation, API reference, getting-started guide, quickstart, support, engineering blog, pricing, and 48 more developer resources.'
 plans:
 - name: Uphold Plans Pricing
-  plan_count: 15
+  plan_count: 7
   slug: uphold-plans-pricing
 random_paper: 14
+rate_limits:
+- limit_count: 3
+  name: Uphold Rate Limits
+  slug: uphold-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 58
+  extends:
+  - spectral:oas
+  name: Uphold API Rules
+  rule_count: 17
+  severity_counts:
+    error: 14
+    hint: 0
+    info: 2
+    warn: 1
+  slug: uphold-rules
 scopes:
 - name: Uphold Scopes
   scope_count: 64
@@ -768,24 +832,25 @@ scopes:
   summary_line: 64 scopes · clientCredentials
 score:
   band: exemplar
-  composite: 71.1
+  composite: 79.2
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 52.0
-    catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    artifact_dirs: 34
+    catalog_earned: 80.8
+    catalog_earned_first_party: 24.0
+    catalog_gap: 34.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 8.1
   facets:
     access_clarity: 92.1
-    contract_governance: 18.2
-    contract_quality: 60.3
+    contract_governance: 35.6
+    contract_quality: 67.7
     developer_ergonomics: 81.0
     discoverability: 80.0
-    operational_transparency: 60.5
-  previous_composite: 70.6
+    operational_transparency: 92.1
+  previous_composite: 71.1
   provenance:
+    agentic_access: derived
     conformance: first-party
     contracts:
       callable: 100.0
@@ -800,9 +865,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 48.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: true
     score: 0.0
@@ -834,7 +899,7 @@ tags:
 - Fintech
 - KYC
 - Compliance
-- Crypto Exchange
+- Cryptocurrency Exchange
 - Market Data
 - Embedded Finance
 - Travel Rule

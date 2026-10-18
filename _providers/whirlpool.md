@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: The Whirlpool connected appliances cloud API enables control and monitoring of Whirlpool, Maytag, KitchenAid, and Consul smart appliances including washers, dryers, ovens, refrigerators, and air condi
@@ -47,6 +47,21 @@ apis:
   slug: amazon-dash-replenishment
 artifact_total: 11
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/whirlpool/refs/heads/main/plans/whirlpool-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/whirlpool-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/whirlpool/refs/heads/main/rate-limits/whirlpool-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/whirlpool-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/whirlpool/refs/heads/main/finops/whirlpool-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/whirlpool-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/whirlpool/refs/heads/main/security/whirlpool-domain-security.yml
   title: ''
@@ -95,9 +110,13 @@ common:
 created: '2026-03-21'
 description: Whirlpool Corporation is the world's only major U.S.-based manufacturer of kitchen and laundry appliances, with approximately $16 billion in annual net sales and 41,000 employees globally. Its brand portfolio includes Whirlpool, KitchenAid, JennAir, Maytag, Amana, Brastemp, Consul, and InSinkErator. Whirlpool offers connected smart appliances integrating with Amazon Alexa, Amazon Dash Replenishment, Google Assistant, and Matter for smart home automation, and provides a cloud-connected appliance API used by the Whirlpool mobile app and third-party integrations.
 finops:
-- name: Whirlpool Finops
+- has_sources: true
+  method: generated
+  name: Whirlpool Finops
+  primary_unit: ''
   service_category: Connected Appliances
   slug: whirlpool-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/whirlpool.png
 json_schemas:
 - name: Whirlpool Connected Appliance
@@ -117,13 +136,13 @@ modified: '2026-05-03'
 name: Whirlpool
 nav: Providers
 network: true
-overview: 'Whirlpool publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Appliances, Smart Home, IoT, Connected Devices, and Fortune 500.
+overview: 'Whirlpool is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Appliances, Smart Home, IoT, Connected Devices, and Fortune 500.
 
 
   The Whirlpool catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Whirlpool''s developer surface includes engineering blog and 10 more developer resources.'
+  Whirlpool''s developer surface includes engineering blog and 13 more developer resources.'
 plans:
 - name: Whirlpool Plans Pricing
   plan_count: 1
@@ -150,9 +169,10 @@ rate_limits:
   name: Whirlpool Rate Limits
   slug: whirlpool-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Whirlpool API Rules
+  name: Whirlpool — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -162,17 +182,17 @@ rules:
   slug: whirlpool-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 16.9
+  composite: 15.4
   coverage:
     artifact_dirs: 14
-    catalog_earned: 57.8
+    catalog_earned: 54.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.3
+    catalog_gap: 60.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 13.2
+    access_clarity: 5.3
     contract_governance: 23.5
     contract_quality: 10.7
     developer_ergonomics: 11.9
@@ -190,8 +210,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

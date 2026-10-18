@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 68
   human_in_the_loop: 0
@@ -781,6 +781,11 @@ collections:
   name: Contentstack Analytics Accounts Voice Profiles API
   slug: open-contentstack-voice-profiles-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/finops/contentstack-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/contentstack-finops.yml
 - group: company
   title: ''
   type: Website
@@ -994,9 +999,13 @@ common:
 created: '2026-05-04'
 description: Contentstack is a composable, API-first content platform — an Agentic Experience Platform built around a headless CMS, a real-time customer data layer and an agent runtime. Developers reach it through a read-only Content Delivery API on a global CDN, a write-side Content Management API, a read-only GraphQL delivery surface, an on-the-fly Image Delivery API, and product APIs for Launch (front-end hosting), Automation Hub, Personalize, BrandKit AI and SCIM 2.0 user provisioning. Contentstack publishes a 95-scope OAuth 2.0 reference, an llms.txt, markdown twins of its API reference pages, and a first-party Model Context Protocol server exposing 206 tools whose definitions — including the REST call each one makes — it serves anonymously as JSON.
 finops:
-- name: Contentstack Finops
+- has_sources: true
+  method: generated
+  name: Contentstack Finops
+  primary_unit: ''
   service_category: Headless CMS / Digital Experience Platform
   slug: contentstack-finops
+  template: false
 graphqls:
 - description: The Contentstack GraphQL Content Delivery API enables developers to query content from their Contentstack stack using GraphQL syntax, allowing precise retrieval of only the fields and relationships ne
   name: contentstack GraphQL API
@@ -1318,13 +1327,13 @@ modified: '2026-09-17'
 name: Contentstack
 nav: Providers
 network: true
-overview: 'Contentstack publishes 35 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Accounts API, Assets API, and 32 more. Tagged areas include Headless CMS, Content Management, Content Delivery, Digital Experience, and Personalization.
+overview: 'Contentstack publishes 35 API contracts indexed on the [APIs.io](https://apis.io/) network, including Analytics API, Accounts API, Assets API, and 32 more. Tagged areas include Headless CMS, Content Management, Content Delivery, Digital Experience, and Personalization.
 
 
   The Contentstack catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Contentstack''s developer surface includes authentication, CLI, changelog, documentation, API reference, pricing, support, and 38 more developer resources.'
+  Contentstack''s developer surface includes authentication, CLI, changelog, documentation, API reference, pricing, support, and 39 more developer resources.'
 plans:
 - name: Contentstack Plans Pricing
   plan_count: 3
@@ -1335,10 +1344,11 @@ rate_limits:
   name: Contentstack Rate Limits
   slug: contentstack-rate-limits
 rules:
-- effective_rule_count: 32
+- authorship: generated
+  effective_rule_count: 32
   extends:
   - spectral:asyncapi
-  name: Contentstack API Rules
+  name: Contentstack — asyncapi rules
   rule_count: 5
   severity_counts:
     error: 1
@@ -1346,9 +1356,10 @@ rules:
     info: 0
     warn: 4
   slug: contentstack-asyncapi-spectral-rules
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: Contentstack API Rules
+  name: Contentstack — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -1356,7 +1367,8 @@ rules:
     info: 1
     warn: 5
   slug: contentstack-jsonschema-spectral-rules
-- effective_rule_count: 49
+- authorship: unmarked
+  effective_rule_count: 49
   extends:
   - spectral:oas
   name: Contentstack API Rules
@@ -1374,23 +1386,23 @@ scopes:
   summary_line: 105 scopes · authorization_code
 score:
   band: exemplar
-  composite: 75.1
+  composite: 73.6
   coverage:
-    artifact_dirs: 36
-    catalog_earned: 84.0
+    artifact_dirs: 37
+    catalog_earned: 81.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 31.0
+    catalog_gap: 34.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.5
+  delta: -1.5
   facets:
-    access_clarity: 100.0
+    access_clarity: 92.1
     contract_governance: 27.3
     contract_quality: 70.5
     developer_ergonomics: 63.7
     discoverability: 76.7
     operational_transparency: 84.2
-  previous_composite: 73.6
+  previous_composite: 75.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1411,8 +1423,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

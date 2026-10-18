@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 41.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 5
+- acting_count: 4
   human_in_the_loop: 0
   name: Groww Agentic Access
   operation_count: 20
   slug: groww-agentic-access
-  summary_line: 20 operations · 5 acting
+  summary_line: 20 operations · 4 acting
 api_count: 1
 apis:
 - baseURL: https://api.groww.in
@@ -116,6 +116,11 @@ collections:
   name: Groww Trading Authentication Portfolio API
   slug: open-groww-portfolio-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/groww/refs/heads/main/plans/groww-plans.yml
+  title: ''
+  type: Plans
+  url: plans/groww-plans.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -272,10 +277,10 @@ modified: '2026-07-19'
 name: Groww
 nav: Providers
 network: true
-overview: 'Groww publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Historical Data API, Live Data API, and 3 more. Tagged areas include Company, Fintech, Trading, Investing, and Stock Broking.
+overview: 'Groww publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authentication API, Historical Data API, Live Data API, and 3 more. Tagged areas include Company, Fintech, Trading, Investing, and Stock Broking.
 
 
-  Groww''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, engineering blog, and 25 more developer resources.'
+  Groww''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, engineering blog, and 26 more developer resources.'
 plans:
 - name: Groww Plans
   plan_count: 1
@@ -332,8 +337,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 38.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

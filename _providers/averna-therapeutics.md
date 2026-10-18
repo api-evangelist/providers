@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 0
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://avernatx.com/news/
 - group: company
   title: ''
   type: Website
@@ -60,14 +64,14 @@ created: '2026-07-17'
 description: Averna Therapeutics is a genetic-medicine biotechnology company creating what it calls the last, great missing tool required to break through the most persistent barriers in genetic medicine. Backed by Insight Partners, the company was recognized as an Endpoints 11 Most Promising Biotech Company in 2025 and has presented at the 44th Annual J.P. Morgan Healthcare Conference. As a therapeutics R&D company it does not currently publish any public developer program, API, SDK, or API documentation surface; this API Evangelist profile tracks it as a company identity record only.
 image: https://avernatx.com/wp-content/uploads/img-AboutUs.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Averna Therapeutics
 nav: Providers
 network: true
 overview: 'Averna Therapeutics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotech Therapeutics, Genetic Medicine, Biotechnology, and Life Sciences.
 
 
-  Averna Therapeutics'' developer surface includes engineering blog and 4 more developer resources.'
+  Averna Therapeutics'' developer surface includes engineering blog and 5 more developer resources.'
 random_paper: 21
 score:
   band: minimal
@@ -100,8 +104,8 @@ score:
     regime: Health
     regime_id: health
     score: 6.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

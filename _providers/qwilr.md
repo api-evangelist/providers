@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 44.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: REST API for programmatically creating and managing Qwilr pages (proposals, quotes, contracts, reports) from templates and saved blocks, managing quote taxes, listing payment gateways and users, and s
@@ -192,7 +192,7 @@ modified: '2026-07-20'
 name: Qwilr
 nav: Providers
 network: true
-overview: 'Qwilr publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Proposals, Documents, Sales, and Quotes.
+overview: 'Qwilr is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Proposals, Documents, Sales, and Quotes.
 
 
   The Qwilr catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -209,7 +209,7 @@ score:
   band: developing
   composite: 52.6
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -239,8 +239,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -62,6 +62,21 @@ collections:
   name: Products API
   slug: open-products-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/apiops-cycles-canvas/refs/heads/main/plans/apiops-cycles-canvas-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/apiops-cycles-canvas-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/apiops-cycles-canvas/refs/heads/main/rate-limits/apiops-cycles-canvas-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/apiops-cycles-canvas-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/apiops-cycles-canvas/refs/heads/main/finops/apiops-cycles-canvas-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/apiops-cycles-canvas-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/apiops-cycles-canvas/refs/heads/main/agentic-access/apiops-cycles-canvas-agentic-access.yml
   title: ''
@@ -148,9 +163,13 @@ common:
 created: '2024-12-29'
 description: APIOps Cycles Canvases are structured workshop tools for API strategy, design, and business modeling. The collection includes 10 canvas types covering API business models, value propositions, capacity planning, customer journeys, domain design, event modeling, interaction design, location analysis, and REST API design, enabling teams to collaborate and align on API decisions using visual canvas methodologies.
 finops:
-- name: Apiops Cycles Canvas Finops
+- has_sources: false
+  method: generated
+  name: Apiops Cycles Canvas Finops
+  primary_unit: ''
   service_category: API
   slug: apiops-cycles-canvas-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/apiops-cycles-canvas.png
 json_schemas:
 - name: APIOps Canvas
@@ -170,13 +189,13 @@ modified: '2026-05-19'
 name: APIOps Cycles Canvas
 nav: Providers
 network: true
-overview: 'APIOps Cycles Canvas publishes 1 API on the [APIs.io](https://apis.io/) network: Products API. Tagged areas include API Design, API Strategy, Business Model, Canvas, and Developer Tools.
+overview: 'APIOps Cycles Canvas publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Products API. Tagged areas include API Design, API Strategy, Business Model, Canvas, and Developer Tools.
 
 
   The APIOps Cycles Canvas catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  APIOps Cycles Canvas'' developer surface includes authentication and 16 more developer resources.'
+  APIOps Cycles Canvas'' developer surface includes authentication and 19 more developer resources.'
 plans:
 - name: Apiops Cycles Canvas Plans Pricing
   plan_count: 1
@@ -187,9 +206,10 @@ rate_limits:
   name: Apiops Cycles Canvas Rate Limits
   slug: apiops-cycles-canvas-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: APIOps Cycles Canvas API Rules
+  name: APIOps Cycles Canvas — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -198,23 +218,23 @@ rules:
     warn: 3
   slug: apiops-cycles-canvas-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 31.3
+  band: emerging
+  composite: 25.3
   coverage:
     artifact_dirs: 19
-    catalog_earned: 55.7
+    catalog_earned: 42.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 59.4
+    catalog_gap: 72.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.0
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 9.8
     contract_quality: 61.1
     developer_ergonomics: 11.9
     discoverability: 48.2
-    operational_transparency: 21.6
+    operational_transparency: 7.9
   previous_composite: 31.3
   provenance:
     agentic_access: derived
@@ -229,9 +249,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

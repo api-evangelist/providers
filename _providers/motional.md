@@ -27,16 +27,31 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 5
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/motional/refs/heads/main/plans/motional-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/motional-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/motional/refs/heads/main/rate-limits/motional-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/motional-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/motional/refs/heads/main/finops/motional-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/motional-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/motional/refs/heads/main/security/motional-vulnerability-disclosure.yml
   title: ''
@@ -123,9 +138,13 @@ created: '2026-05-23'
 description: Motional is a Boston-headquartered autonomous-vehicle company formed as a joint venture between Hyundai Motor Group and Aptiv. Its core product is an all-electric IONIQ 5 robotaxi built on a Hyundai E-GMP platform with Motional's full Level 4 autonomous driving stack and a sensor suite including lidar, radar, and cameras. Motional operates commercial robotaxi service in Las Vegas in partnership with Uber, Uber Eats, and Lyft, with additional operations in Boston, Pittsburgh, Santa Monica, Singapore, and Seoul. The company's most influential developer artifact is nuScenes, the open large-scale multimodal autonomous-driving dataset originally released by nuTonomy (a Motional predecessor), now a de facto benchmark for 3D perception research. Motional also publishes the nuscenes-devkit Python library and AVCDL cybersecurity development lifecycle materials on GitHub. Motional does not publish a traditional public developer API; the developer surface is research-dataset access plus
   open-source devkits.
 finops:
-- name: Motional Finops
+- has_sources: false
+  method: generated
+  name: Motional Finops
+  primary_unit: ''
   service_category: API
   slug: motional-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/motional.png
 layout: provider
 modified: '2026-07-25'
@@ -135,7 +154,7 @@ network: true
 overview: 'Motional is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Autonomous Vehicles, Robotaxi, Self-Driving, Hyundai, and Aptiv.
 
 
-  Motional''s developer surface includes product news, engineering blog, YouTube channel, and 17 more developer resources.'
+  Motional''s developer surface includes product news, engineering blog, YouTube channel, and 20 more developer resources.'
 plans:
 - name: Motional Plans Pricing
   plan_count: 1
@@ -146,23 +165,23 @@ rate_limits:
   name: Motional Rate Limits
   slug: motional-rate-limits
 score:
-  band: emerging
-  composite: 13.0
+  band: minimal
+  composite: 7.0
   coverage:
     artifact_dirs: 7
-    catalog_earned: 44.4
+    catalog_earned: 31.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 70.6
+    catalog_gap: 84.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.0
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 2.4
     discoverability: 49.1
-    operational_transparency: 21.6
+    operational_transparency: 7.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -177,9 +196,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

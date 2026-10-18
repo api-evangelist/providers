@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://uplimit.com/api/organization
@@ -205,7 +205,7 @@ modified: '2026-07-21'
 name: Uplimit
 nav: Providers
 network: true
-overview: 'Uplimit publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Course API, Export API, Platform API, and 2 more. Tagged areas include Company, Future Of Work, Learning, Education, and Training.
+overview: 'Uplimit publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Course API, Export API, Platform API, and 2 more. Tagged areas include Company, Future Of Work, Learning, Education, and Training.
 
 
   Uplimit''s developer surface includes engineering blog, authentication, and 22 more developer resources.'
@@ -214,7 +214,7 @@ score:
   band: thin
   composite: 32.8
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -244,8 +244,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 22.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -278,7 +278,7 @@ modified: '2026-07-25'
 name: ACMA
 nav: Providers
 network: true
-overview: 'ACMA publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Access areas API, Antennas API, Clients API, and 5 more. Tagged areas include Telecommunications, Australia, Regulator, Spectrum, and Broadcasting.
+overview: 'ACMA publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Access areas API, Antennas API, Clients API, and 5 more. Tagged areas include Telecommunications, Australia, Regulator, Spectrum, and Broadcasting.
 
 
   ACMA''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, pricing, signup flow, and 24 more developer resources.'
@@ -295,7 +295,7 @@ score:
   band: developing
   composite: 47.9
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_earned: 61.0
     catalog_earned_first_party: 24.0
     catalog_gap: 54.0
@@ -333,8 +333,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 26.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Single GraphQL endpoint (Elixir/Absinthe, introspection enabled) covering datasets, submissions, models, leaderboards, staking, and Compute webhooks for Numerai Classic, Signals, and Crypto Signals. A
@@ -48,6 +48,10 @@ asyncapis:
   name: Numerai Webhooks
   slug: numerai-webhooks
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.numer.ai/rss/
 - group: company
   title: ''
   type: Website
@@ -199,17 +203,17 @@ created: '2026-07-17'
 description: Numerai is a San Francisco hedge fund that crowdsources its stock-market trading models from a global community of data scientists. Participants download obfuscated, regularized financial datasets, train machine-learning models, and submit predictions each weekly round through a single GraphQL API at api-tournament.numer.ai. Models are staked with the Ethereum-based NMR token and earn performance-based payouts for accurate, original signals. The platform spans Numerai Classic, Numerai Signals (bring-your-own stock signals), and Crypto Signals, with official Python tooling (numerapi, numerai-cli, numerai-tools) and cloud Compute Prediction Nodes for fully automated round submissions.
 image: https://numer.ai/img/social-card.jpg
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Numerai
 nav: Providers
 network: true
-overview: 'Numerai publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Machine Learning, Data Science, and Hedge Funds.
+overview: 'Numerai is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Machine Learning, Data Science, and Hedge Funds.
 
 
   The Numerai catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Numerai''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, CLI, and 25 more developer resources.'
+  Numerai''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, CLI, and 26 more developer resources.'
 random_paper: 5
 rate_limits:
 - limit_count: 150
@@ -222,15 +226,15 @@ scopes:
   summary_line: 8 scopes
 score:
   band: developing
-  composite: 49.3
+  composite: 49.4
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
@@ -249,8 +253,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 37.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -278,7 +282,7 @@ tags:
 - Data Science
 - Hedge Funds
 - GraphQL
-- Crypto
+- Cryptocurrency
 - Quantitative Finance
 - Tournament
 website: https://numer.ai

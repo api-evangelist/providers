@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'The OpenDBM REST API is a self-hosted FastAPI service published inside AiCure''s open-source OpenDBM repository (rest_api/). It exposes the OpenDBM digital-biomarker pipeline over HTTP: an OAuth2 passw'
@@ -166,7 +166,7 @@ modified: '2026-09-14'
 name: AiCure
 nav: Providers
 network: true
-overview: 'AiCure publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Clinical Trials, Medication Adherence, and Digital Biomarkers.
+overview: 'AiCure is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Clinical Trials, Medication Adherence, and Digital Biomarkers.
 
 
   AiCure''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, authentication, and 21 more developer resources.'
@@ -183,7 +183,7 @@ score:
   band: thin
   composite: 35.6
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 19
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -213,13 +213,14 @@ score:
     regime: Health
     regime_id: health
     score: 22.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/aicure/refs/heads/main/screenshots/aicure-2026-10-11T093446.png
 security:
 - kind: authentication
   name: Aicure Authentication

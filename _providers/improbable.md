@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.improbable.io/news?format=rss
 - group: company
   title: ''
   type: Website
@@ -79,20 +83,20 @@ created: '2026-07-17'
 description: Improbable (Improbable Worlds Ltd) is a London-based technology company and venture builder. Founded in 2012, it originally built SpatialOS, a distributed simulation and networking platform for large-scale real-time multiplayer games, and later Morpheus / M² (MSquared), a network of interoperable metaverse worlds. Today Improbable operates primarily as a venture builder and capital allocator, partnering with founders to launch and scale companies across AI, Web3 and the metaverse. It is backed by Andreessen Horowitz (a16z) and the SoftBank Vision Fund. Its historical developer surface centered on the SpatialOS Platform SDK, Worker SDK and the `spatial` CLI (distributed via NuGet), plus the improbable-eng and spatialos GitHub organizations; the standalone documentation, status and IMS subdomains have since been retired as the company pivoted away from a standalone developer platform.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/improbable.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Improbable
 nav: Providers
 network: true
 overview: 'Improbable is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Venture Builder, Metaverse, Gaming, and Simulation.
 
 
-  Improbable''s developer surface includes product news, support, and 7 more developer resources.'
+  Improbable''s developer surface includes product news, support, and 8 more developer resources.'
 random_paper: 19
 score:
   band: emerging
   composite: 11.6
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -121,8 +125,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

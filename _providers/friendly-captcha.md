@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -74,6 +74,21 @@ collections:
   name: Friendly Captcha Siteverify API
   slug: open-friendly-captcha
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/friendly-captcha/refs/heads/main/plans/friendly-captcha-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/friendly-captcha-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/friendly-captcha/refs/heads/main/rate-limits/friendly-captcha-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/friendly-captcha-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/friendly-captcha/refs/heads/main/finops/friendly-captcha-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/friendly-captcha-finops.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -136,19 +151,23 @@ common:
 created: '2026-05-23'
 description: Friendly Captcha is a privacy-first, GDPR-compliant bot protection service from Germany that uses proof-of-work cryptographic puzzles instead of image-labeling challenges. The widget solves a puzzle in the background while a user fills out a form, then submits a token the server validates against the Friendly Captcha siteverify endpoint. The result includes a risk verdict and additional signal intelligence (IP, bot detection, browser identification, anonymization detection). Friendly Captcha publishes open-source widgets and framework integrations for React, Vue, and Angular, plus pre-built plugins for WordPress, Magento, and other CMS platforms.
 finops:
-- name: Friendly Captcha Finops
+- has_sources: false
+  method: generated
+  name: Friendly Captcha Finops
+  primary_unit: ''
   service_category: API
   slug: friendly-captcha-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/friendly-captcha.png
 layout: provider
 modified: '2026-05-23'
 name: Friendly Captcha
 nav: Providers
 network: true
-overview: 'Friendly Captcha publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Siteverify API, and 4 more. Tagged areas include CAPTCHA, Bot Defense, Privacy, Proof of Work, and GDPR.
+overview: 'Friendly Captcha publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Siteverify API, and 4 more. Tagged areas include CAPTCHA, Bot Defense, Privacy, Proof of Work, and GDPR.
 
 
-  Friendly Captcha''s developer surface includes authentication, documentation, API reference, pricing, engineering blog, privacy policy, and 8 more developer resources.'
+  Friendly Captcha''s developer surface includes authentication, documentation, API reference, pricing, engineering blog, privacy policy, and 11 more developer resources.'
 plans:
 - name: Friendly Captcha Plans Pricing
   plan_count: 1
@@ -160,22 +179,22 @@ rate_limits:
   slug: friendly-captcha-rate-limits
 score:
   band: thin
-  composite: 32.7
+  composite: 26.7
   coverage:
     artifact_dirs: 12
-    catalog_earned: 49.4
+    catalog_earned: 36.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 65.6
+    catalog_gap: 79.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.0
   facets:
-    access_clarity: 37.4
+    access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 47.8
     developer_ergonomics: 23.8
     discoverability: 64.3
-    operational_transparency: 21.6
+    operational_transparency: 7.9
   previous_composite: 32.7
   provenance:
     agentic_access: derived
@@ -190,9 +209,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

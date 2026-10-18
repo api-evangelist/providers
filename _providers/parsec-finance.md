@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 16.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Pro GraphQL API for on-chain DeFi and NFT market data — DEX trades, candles, lending markets, liquidity pools and positions, NFT collections and trades, token holders, transfers, transactions, contrac
@@ -129,7 +129,7 @@ modified: '2026-07-20'
 name: Parsec Finance
 nav: Providers
 network: true
-overview: 'Parsec Finance publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Analytics, DeFi, NFT, and Blockchain.
+overview: 'Parsec Finance is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Analytics, DeFi, NFT, and Blockchain.
 
 
   Parsec Finance''s developer surface includes documentation, API reference, pricing, authentication, and 13 more developer resources.'
@@ -138,7 +138,7 @@ score:
   band: emerging
   composite: 20.1
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -163,13 +163,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 15.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/parsec-finance/refs/heads/main/screenshots/parsec-finance-2026-10-11T191747.png
 security:
 - kind: authentication
   name: Parsec Finance Authentication

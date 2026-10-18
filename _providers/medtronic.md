@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The Medtronic API provides access to platform services and data for enterprise integration and automation.
@@ -41,6 +41,21 @@ apis:
   slug: medtronic-api
 artifact_total: 5
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/medtronic/refs/heads/main/plans/medtronic-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/medtronic-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/medtronic/refs/heads/main/rate-limits/medtronic-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/medtronic-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/medtronic/refs/heads/main/finops/medtronic-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/medtronic-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/medtronic/refs/heads/main/security/medtronic-domain-security.yml
   title: ''
@@ -65,19 +80,23 @@ common:
 created: '2026-04-19'
 description: Medtronic is a major US corporation and Fortune 1000 company. The Medtronic API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.
 finops:
-- name: Medtronic Finops
+- has_sources: true
+  method: generated
+  name: Medtronic Finops
+  primary_unit: ''
   service_category: Medical Devices / Connected Health
   slug: medtronic-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/medtronic.png
 layout: provider
 modified: '2026-04-19'
 name: Medtronic
 nav: Providers
 network: true
-overview: 'Medtronic publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Healthcare and Medical Devices.
+overview: 'Medtronic is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Healthcare and Medical Devices.
 
 
-  Medtronic''s developer surface includes engineering blog and 4 more developer resources.'
+  Medtronic''s developer surface includes engineering blog and 7 more developer resources.'
 plans:
 - name: Medtronic Plans Pricing
   plan_count: 1
@@ -89,17 +108,17 @@ rate_limits:
   slug: medtronic-rate-limits
 score:
   band: minimal
-  composite: 9.7
+  composite: 8.2
   coverage:
-    artifact_dirs: 7
-    catalog_earned: 34.0
+    artifact_dirs: 8
+    catalog_earned: 31.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 81.0
+    catalog_gap: 84.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 13.2
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
@@ -112,8 +131,8 @@ score:
     regime: Health
     regime_id: health
     score: 4.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

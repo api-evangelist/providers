@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.8
-  scored_at: '2026-10-04'
+  score: 23.6
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 5
   slug: holidays-agentic-access
   summary_line: 5 operations
-api_count: 1
+api_count: 2
 apis:
 - baseURL: https://holidayapi.com/v1
   baseurl_source: declared
@@ -93,6 +93,11 @@ collections:
   name: Holiday Countries Workdays API
   slug: open-holidays-workdays-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/holidays/refs/heads/main/finops/holidays-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/holidays-finops.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -257,9 +262,13 @@ features:
 - description: Enterprise-grade infrastructure designed for 99.999% availability.
   name: Five-Nines Uptime
 finops:
-- name: Holidays Finops
+- has_sources: true
+  method: generated
+  name: Holidays Finops
+  primary_unit: ''
   service_category: Reference Data / Calendar
   slug: holidays-finops
+  template: false
 image: https://holidayapi.com/images/calendar.svg
 integrations:
 - description: Pull holiday data into Google Sheets / Excel via the JSON, CSV, or TSV format options.
@@ -312,13 +321,13 @@ modified: '2026-05-29'
 name: Holiday API
 nav: Providers
 network: true
-overview: 'Holiday API publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Countries API, Holidays API, Languages API, and 1 more. Tagged areas include Calendar, Holidays, Public Holidays, Observances, and Reference Data.
+overview: 'Holiday API publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Countries API, Holidays API, Languages API, and 1 more. Tagged areas include Calendar, Holidays, Public Holidays, Observances, and Reference Data.
 
 
   The Holiday API catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Holiday API''s developer surface includes developer portal, documentation, pricing, signup flow, code examples, and 23 more developer resources.'
+  Holiday API''s developer surface includes developer portal, documentation, pricing, signup flow, code examples, and 24 more developer resources.'
 plans:
 - name: Holidays Plans Pricing
   plan_count: 3
@@ -329,9 +338,10 @@ rate_limits:
   name: Holidays Rate Limits
   slug: holidays-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Holiday API API Rules
+  name: Holiday API — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -339,7 +349,8 @@ rules:
     info: 1
     warn: 4
   slug: holidays-jsonschema-spectral-rules
-- effective_rule_count: 57
+- authorship: unmarked
+  effective_rule_count: 57
   extends:
   - spectral:oas
   name: Holiday API API Rules
@@ -352,22 +363,22 @@ rules:
   slug: holidays-rules
 score:
   band: developing
-  composite: 47.7
+  composite: 40.3
   coverage:
     artifact_dirs: 16
-    catalog_earned: 87.0
+    catalog_earned: 71.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 28.0
+    catalog_gap: 44.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.4
   facets:
-    access_clarity: 63.9
+    access_clarity: 35.5
     contract_governance: 27.3
     contract_quality: 59.8
     developer_ergonomics: 36.9
     discoverability: 66.1
-    operational_transparency: 21.6
+    operational_transparency: 7.9
   previous_composite: 47.7
   provenance:
     agentic_access: derived
@@ -382,9 +393,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 14.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

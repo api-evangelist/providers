@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -313,9 +313,13 @@ examples:
   name: Trustradius Visitor Insights Report Pages Get Example
   slug: trustradius-visitor-insights-report-pages-get-example
 finops:
-- name: Trustradius Finops
+- has_sources: true
+  method: searched
+  name: Trustradius Finops
+  primary_unit: ''
   service_category: B2B Software Reviews
   slug: trustradius-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/trustradius.png
 json_schemas:
 - name: Account
@@ -386,7 +390,7 @@ modified: '2026-08-14'
 name: TrustRadius
 nav: Providers
 network: true
-overview: 'TrustRadius publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Product Data API, Downstream Intent Data API, TrustQuotes Content Syndication API, and 2 more. Tagged areas include B2B Software Reviews, Buyer Intelligence, Intent Data, Software Reviews, and Reviews.
+overview: 'TrustRadius publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Product Data API, Downstream Intent Data API, TrustQuotes Content Syndication API, and 2 more. Tagged areas include B2B Software Reviews, Buyer Intelligence, Intent Data, Software Reviews, and Reviews.
 
 
   The TrustRadius catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -403,9 +407,10 @@ rate_limits:
   name: Trustradius Rate Limits
   slug: trustradius-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: TrustRadius API Rules
+  name: TrustRadius — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -413,7 +418,8 @@ rules:
     info: 2
     warn: 3
   slug: trustradius-jsonschema-spectral-rules
-- effective_rule_count: 55
+- authorship: derived
+  effective_rule_count: 55
   extends:
   - spectral:oas
   name: TrustRadius API Rules
@@ -426,17 +432,17 @@ rules:
   slug: trustradius-rules
 score:
   band: strong
-  composite: 58.0
+  composite: 56.5
   coverage:
-    artifact_dirs: 29
-    catalog_earned: 76.0
+    artifact_dirs: 31
+    catalog_earned: 73.0
     catalog_earned_first_party: 16.0
-    catalog_gap: 39.0
+    catalog_gap: 42.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 73.7
+    access_clarity: 65.8
     contract_governance: 31.8
     contract_quality: 58.4
     developer_ergonomics: 67.3
@@ -466,8 +472,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -37,15 +37,15 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
   name: Biconomy Agentic Access
-  operation_count: 5
+  operation_count: 6
   slug: biconomy-agentic-access
-  summary_line: 5 operations · 5 acting
-api_count: 2
+  summary_line: 6 operations · 5 acting
+api_count: 4
 apis:
 - description: Biconomy's open-source ERC-4337 TypeScript Bundler. Implements eth_sendUserOperation, eth_estimateUserOperationGas, eth_getUserOperationByHash, eth_getUserOperationReceipt, and eth_supportedEntryPoint
   name: Biconomy Bundler API
@@ -83,7 +83,7 @@ apis:
 - description: 'Status and tracking surface for a submitted supertransaction. GET /v1/explorer/{supertxHash} returns the terminal execution state (SUCCESS, FAILED) with execution details, authenticated with the same '
   name: Biconomy MEE Explorer API
   slug: biconomy-mee-explorer-api
-artifact_total: 30
+artifact_total: 29
 collections:
 - collection_type: open
   name: API Collection
@@ -445,9 +445,13 @@ examples:
   name: Biconomy Quote Eoa 7702 Example
   slug: biconomy-quote-eoa-7702-example
 finops:
-- name: Biconomy Finops
+- has_sources: true
+  method: generated
+  name: Biconomy Finops
+  primary_unit: supertransaction
   service_category: Web3 Infrastructure
   slug: biconomy-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/biconomy.png
 json_schemas:
 - name: Biconomy MEE Quote Request
@@ -470,14 +474,11 @@ mcp_servers:
 - description: 'Biconomy runs a hosted, anonymous-access MCP server on its documentation host. It is a DOCUMENTATION server, not an execution server: the three tools search, browse and give feedback on the docs corpu'
   name: Biconomy Docs MCP Server
   slug: biconomy-docs-mcp-server
-- description: ''
-  name: Biconomy Docs MCP endpoint
-  slug: biconomy-docs-mcp-endpoint
 modified: '2026-08-24'
 name: Biconomy
 nav: Providers
 network: true
-overview: 'Biconomy publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Instructions API, Mee API, Root API, and 7 more. Tagged areas include Account Abstraction, Blockchain, Bundler, Cross-Chain, and DeFi.
+overview: 'Biconomy publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Instructions API, Mee API, Root API, and 7 more. Tagged areas include Account Abstraction, Blockchain, Bundler, Cross-Chain, and DeFi.
 
 
   The Biconomy catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -494,9 +495,10 @@ rate_limits:
   name: Biconomy Rate Limits
   slug: biconomy-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Biconomy API Rules
+  name: Biconomy — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -504,7 +506,8 @@ rules:
     info: 2
     warn: 3
   slug: biconomy-jsonschema-spectral-rules
-- effective_rule_count: 47
+- authorship: unmarked
+  effective_rule_count: 47
   extends:
   - spectral:oas
   name: Biconomy API Rules
@@ -517,21 +520,21 @@ rules:
   slug: biconomy-rules
 score:
   band: strong
-  composite: 56.5
+  composite: 57.0
   coverage:
-    artifact_dirs: 31
-    catalog_earned: 81.0
+    artifact_dirs: 32
+    catalog_earned: 84.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 34.0
+    catalog_gap: 31.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 28.9
     contract_governance: 45.5
     contract_quality: 65.1
     developer_ergonomics: 79.0
-    discoverability: 66.7
+    discoverability: 71.7
     operational_transparency: 60.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -555,8 +558,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 15.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

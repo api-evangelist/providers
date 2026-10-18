@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://api.romit.io/v1
@@ -171,7 +171,7 @@ modified: '2026-09-16'
 name: Romit
 nav: Providers
 network: true
-overview: 'Romit publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Application API, Banking API, Identity API, and 6 more. Tagged areas include Company, Payments, Fintech, Digital Wallet, and Payment Gateway.
+overview: 'Romit publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Application API, Banking API, Identity API, and 6 more. Tagged areas include Company, Payments, Fintech, Digital Wallet, and Payment Gateway.
 
 
   Romit''s developer surface includes authentication, sandbox, and 8 more developer resources.'
@@ -214,8 +214,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 24.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

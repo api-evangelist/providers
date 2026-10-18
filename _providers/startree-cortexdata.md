@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://broker.pinot.celpxu.cp.s7e.startree.cloud
@@ -51,6 +51,14 @@ collections:
   name: StarTree Cloud Query Query API API
   slug: open-startree-cortexdata-query-api-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://startree.ai/news/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://startree.ai/feed/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/startree-cortexdata/refs/heads/main/overlays/startree-cortexdata-query-overlay.yaml
   title: ''
@@ -176,18 +184,18 @@ mcp_servers:
 - description: Open-source Model Context Protocol server for Apache Pinot / StarTree Cloud, maintained in the StarTree (startreedata) GitHub org. Lets Claude and other MCP-compatible clients query a Pinot cluster ov
   name: StarTree (Cortexdata) MCP Server
   slug: mcp-pinot
-modified: '2026-09-16'
+modified: '2026-10-06'
 name: StarTree (Cortexdata)
 nav: Providers
 network: true
-overview: 'StarTree (Cortexdata) publishes 1 API on the [APIs.io](https://apis.io/) network: Query API. Tagged areas include Company, AI Infrastructure, Real-Time Analytics, Apache Pinot, and OLAP.
+overview: 'StarTree (Cortexdata) publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Query API. Tagged areas include Company, AI Infrastructure, Real-Time Analytics, Apache Pinot, and OLAP.
 
 
-  StarTree (Cortexdata)''s developer surface includes authentication, changelog, documentation, API reference, support, engineering blog, pricing, and 19 more developer resources.'
+  StarTree (Cortexdata)''s developer surface includes engineering blog, authentication, changelog, documentation, API reference, support, pricing, and 21 more developer resources.'
 random_paper: 10
 score:
   band: developing
-  composite: 46.4
+  composite: 46.5
   coverage:
     artifact_dirs: 17
     catalog_earned: 37.0
@@ -195,7 +203,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 46.1
     contract_governance: 18.2
@@ -219,8 +227,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -238,7 +246,7 @@ security:
 - kind: vulnerability-disclosure
   name: Startree Cortexdata Vulnerability Disclosure
   slug: startree-cortexdata-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 slug: startree-cortexdata
 tags:
 - Company

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://seeclickfix.com/api/v2
@@ -82,6 +82,10 @@ collections:
   name: Open311 GeoReport Request Tokens API
   slug: open-civicplus-tokens-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.civicplus.com/feed/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/civicplus/refs/heads/main/capabilities/civicplus-capability-edges.yml
   title: ''
@@ -199,20 +203,20 @@ created: '2026-07-17'
 description: CivicPlus is a govtech company providing an integrated platform for local, state, and education government operations, serving 13,000+ public-sector customers. Its product suite spans municipal websites, agenda and meeting management, recreation management, community development (permitting, licensing, code enforcement), utility billing, mass notification, public records requests (NextRequest), Municode codification, payments (CivicPlus Pay), and the SeeClickFix 311 resident-request CRM. The most developer-facing public interface in the CivicPlus family is the SeeClickFix API v2, a REST API over civic service requests (issues), comments, users, places, and questions, which additionally exposes an Open311 GeoReport v2 compatible endpoint for interoperable civic-issue reporting.
 image: https://www.civicplus.com/favicon.ico
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: CivicPlus
 nav: Providers
 network: true
-overview: 'CivicPlus publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Request API, Requests.{response Format} API, Services API, and 2 more. Tagged areas include Company, Government, GovTech, Local Government, and 311.
+overview: 'CivicPlus publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Request API, Requests.{response Format} API, Services API, and 2 more. Tagged areas include Company, Government, GovTech, Local Government, and 311.
 
 
-  CivicPlus'' developer surface includes support, authentication, sandbox, and 21 more developer resources.'
+  CivicPlus'' developer surface includes support, authentication, sandbox, and 22 more developer resources.'
 random_paper: 10
 score:
   band: thin
   composite: 32.7
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 20
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -241,8 +245,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

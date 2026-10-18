@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: 'The current AIQ SOAP 1.1 integration web service. 219 operations covering customers, suppliers, stock items, sales and purchase invoices, credit and debit notes, orders, deliveries, general journals, '
@@ -170,7 +170,7 @@ modified: '2026-09-06'
 name: AccountsIQ
 nav: Providers
 network: true
-overview: 'AccountsIQ publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Accounting, Financial Management, Cloud Accounting, and ERP.
+overview: 'AccountsIQ is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Accounting, Financial Management, Cloud Accounting, and ERP.
 
 
   AccountsIQ''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
@@ -187,7 +187,7 @@ score:
   band: developing
   composite: 54.2
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 21
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -220,13 +220,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/accountsiq/refs/heads/main/screenshots/accountsiq-2026-10-11T092528.png
 security:
 - kind: authentication
   name: Accountsiq Authentication

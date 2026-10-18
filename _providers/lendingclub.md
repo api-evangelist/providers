@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'No public contract or reference is published for this API. api.lendingclub.com is live and gated - /api/investor/v1/accounts/1/summary answers HTTP 401 and /api/investor/v1/loans/listing answers HTTP '
@@ -42,6 +42,21 @@ apis:
   slug: lendingclub-api
 artifact_total: 5
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/lendingclub/refs/heads/main/plans/lendingclub-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/lendingclub-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/lendingclub/refs/heads/main/rate-limits/lendingclub-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/lendingclub-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/lendingclub/refs/heads/main/finops/lendingclub-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/lendingclub-finops.yml
 - group: company
   title: ''
   type: About
@@ -125,19 +140,23 @@ coverage:
 created: '2026-04-19'
 description: 'LendingClub is a US consumer-finance company and national bank, founded in 2006 as a peer-to-peer marketplace lender and now a Fortune 1000 digital bank following its 2021 acquisition of Radius Bancorp. In 2026 it rebranded as Happen Bank, N.A. and moved its web presence from lendingclub.com to happen.com. It no longer operates a public developer program: the /developers tree and the LCX Primary and Secondary Market API technical documentation were withdrawn during the rebrand and now return HTTP 404, while the legacy investor host api.lendingclub.com remains live but gated and undocumented. The API the company still markets - "API-driven purchasing" inside Marketplace Connect for institutional loan buyers - is reachable only through an institutional contact-sales form, with no published reference or machine-readable contract.'
 finops:
-- name: Lendingclub Finops
+- has_sources: true
+  method: generated
+  name: Lendingclub Finops
+  primary_unit: ''
   service_category: Financial Services / API
   slug: lendingclub-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lendingclub.png
 layout: provider
 modified: '2026-09-06'
 name: LendingClub
 nav: Providers
 network: true
-overview: 'LendingClub publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Fintech, Personal Loans, Banking, Financial Services, and Marketplace Lending.
+overview: 'LendingClub is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Fintech, Personal Loans, Banking, Financial Services, and Marketplace Lending.
 
 
-  LendingClub''s developer surface includes support, engineering blog, and 13 more developer resources.'
+  LendingClub''s developer surface includes support, engineering blog, and 16 more developer resources.'
 plans:
 - name: Lendingclub Plans Pricing
   plan_count: 0
@@ -149,17 +168,17 @@ rate_limits:
   slug: lendingclub-rate-limits
 score:
   band: minimal
-  composite: 7.5
+  composite: 5.9
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 40.0
+    artifact_dirs: 12
+    catalog_earned: 37.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 14.5
+    access_clarity: 6.6
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
@@ -172,8 +191,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 4.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

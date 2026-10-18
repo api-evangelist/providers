@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 51.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 60
   human_in_the_loop: 12
@@ -44,7 +44,7 @@ agentic_access:
   operation_count: 107
   slug: smithery-agentic-access
   summary_line: 107 operations · 60 acting · 12 human-in-the-loop
-api_count: 2
+api_count: 3
 apis:
 - baseURL: https://api.smithery.ai
   baseurl_source: declared
@@ -130,6 +130,21 @@ collections:
   name: Smithery Platform API
   slug: open-smithery
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/smithery/refs/heads/main/plans/smithery-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/smithery-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/smithery/refs/heads/main/rate-limits/smithery-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/smithery-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/smithery/refs/heads/main/finops/smithery-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/smithery-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/smithery/refs/heads/main/vendor-facets/smithery-vendor-facets.yml
   title: ''
@@ -283,9 +298,13 @@ examples:
   name: Smithery Mcp Endpoint Example
   slug: smithery-mcp-endpoint-example
 finops:
-- name: Smithery Finops
+- has_sources: false
+  method: generated
+  name: Smithery Finops
+  primary_unit: ''
   service_category: API
   slug: smithery-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/smithery.png
 json_schemas:
 - name: Smithery MCP Server
@@ -318,13 +337,13 @@ modified: '2026-05-22'
 name: Smithery
 nav: Providers
 network: true
-overview: 'Smithery publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Connect API, connect.mcp API, Domains API, and 6 more. Tagged areas include Artificial Intelligence, LLM, MCP, AI Agents, and Developer Tools.
+overview: 'Smithery publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Connect API, connect.mcp API, Domains API, and 6 more. Tagged areas include Artificial Intelligence, LLM, MCP, AI Agents, and Developer Tools.
 
 
   The Smithery catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Smithery''s developer surface includes authentication, documentation, CLI, engineering blog, tooling, and 26 more developer resources.'
+  Smithery''s developer surface includes authentication, documentation, CLI, engineering blog, tooling, and 29 more developer resources.'
 plans:
 - name: Smithery Plans Pricing
   plan_count: 3
@@ -335,9 +354,10 @@ rate_limits:
   name: Smithery Rate Limits
   slug: smithery-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Smithery API Rules
+  name: Smithery — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -345,7 +365,8 @@ rules:
     info: 2
     warn: 3
   slug: smithery-jsonschema-spectral-rules
-- effective_rule_count: 49
+- authorship: unmarked
+  effective_rule_count: 49
   extends:
   - spectral:oas
   name: Smithery API Rules
@@ -358,21 +379,21 @@ rules:
   slug: smithery-rules
 score:
   band: developing
-  composite: 44.0
+  composite: 43.0
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 72.0
     catalog_earned_first_party: 0.0
     catalog_gap: 43.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.0
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 27.3
     contract_quality: 64.7
     developer_ergonomics: 53.6
-    discoverability: 75.0
+    discoverability: 80.0
     operational_transparency: 13.2
   previous_composite: 44.0
   provenance:
@@ -389,8 +410,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

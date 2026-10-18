@@ -35,10 +35,15 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 4
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/acuitymd/refs/heads/main/rate-limits/acuitymd-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/acuitymd-rate-limits.yml
 - group: company
   title: ''
   type: Website
@@ -136,10 +141,10 @@ modified: '2026-08-14'
 name: AcuityMD
 nav: Providers
 network: true
-overview: 'AcuityMD is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, MedTech, Medical Devices, and Market Intelligence.
+overview: 'AcuityMD is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Medical Technology, Medical Devices, and Market Intelligence.
 
 
-  AcuityMD''s developer surface includes support, engineering blog, changelog, and 14 more developer resources.'
+  AcuityMD''s developer surface includes support, engineering blog, changelog, and 15 more developer resources.'
 plans:
 - name: Acuitymd Plans Pricing
   plan_count: 0
@@ -153,7 +158,7 @@ score:
   band: emerging
   composite: 19.6
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -177,8 +182,8 @@ score:
     regime: Health
     regime_id: health
     score: 18.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -198,7 +203,7 @@ slug: acuitymd
 tags:
 - Company
 - Healthcare
-- MedTech
+- Medical Technology
 - Medical Devices
 - Market Intelligence
 - Sales Intelligence

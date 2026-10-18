@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.6
-  scored_at: '2026-10-04'
+  score: 28.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -106,6 +106,21 @@ collections:
   name: Google Data Studio Assets Reports API
   slug: open-google-data-studio-reports-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/google-data-studio/refs/heads/main/plans/google-data-studio-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/google-data-studio-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/google-data-studio/refs/heads/main/rate-limits/google-data-studio-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/google-data-studio-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/google-data-studio/refs/heads/main/finops/google-data-studio-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/google-data-studio-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/google-data-studio/refs/heads/main/capabilities/google-data-studio-capability-edges.yml
   title: ''
@@ -251,9 +266,13 @@ common:
 created: '2024-01-01'
 description: Google Data Studio, now rebranded as Looker Studio, is a free data visualization and business intelligence tool from Google that transforms data into customizable, shareable dashboards and reports. It connects to a wide range of data sources and supports community connectors and visualizations for extensibility.
 finops:
-- name: Google Data Studio Finops
+- has_sources: true
+  method: generated
+  name: Google Data Studio Finops
+  primary_unit: ''
   service_category: Business Intelligence / Analytics
   slug: google-data-studio-finops
+  template: false
 image: https://www.gstatic.com/analytics-suite/header/suite/v2/ic_data_studio.svg
 json_schemas:
 - name: Looker Studio Asset
@@ -281,13 +300,13 @@ modified: '2026-05-19'
 name: Google Data Studio
 nav: Providers
 network: true
-overview: 'Google Data Studio publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Assets API, Embedding API, Permissions API, and 3 more. Tagged areas include Analytics, Business Intelligence, Dashboards, Data, and Reporting.
+overview: 'Google Data Studio publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Assets API, Embedding API, Permissions API, and 3 more. Tagged areas include Analytics, Business Intelligence, Dashboards, Data, and Reporting.
 
 
   The Google Data Studio catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Google Data Studio''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, support, changelog, and 25 more developer resources.'
+  Google Data Studio''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, support, changelog, and 28 more developer resources.'
 plans:
 - name: Google Data Studio Plans Pricing
   plan_count: 6
@@ -298,9 +317,10 @@ rate_limits:
   name: Google Data Studio Rate Limits
   slug: google-data-studio-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: Google Data Studio API Rules
+  name: Google Data Studio — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -315,17 +335,17 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: developing
-  composite: 48.8
+  composite: 47.3
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 52.3
+    artifact_dirs: 18
+    catalog_earned: 49.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 62.8
+    catalog_gap: 65.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 43.4
+    access_clarity: 35.5
     contract_governance: 9.8
     contract_quality: 53.7
     developer_ergonomics: 56.0
@@ -345,8 +365,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 36.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

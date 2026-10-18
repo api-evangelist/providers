@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 52.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 68
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 164
   slug: dwolla-agentic-access
   summary_line: 164 operations · 68 acting
-api_count: 19
+api_count: 20
 apis:
 - baseURL: https://api.dwolla.com
   baseurl_source: declared
@@ -133,7 +133,7 @@ apis:
   description: Operations related to Webhooks
   name: Dwolla Webhooks API
   slug: dwolla-webhooks-api
-artifact_total: 63
+artifact_total: 119
 asyncapis:
 - description: ''
   name: Dwolla Webhooks
@@ -251,6 +251,53 @@ collections:
   name: Dwolla API
   slug: open-dwolla
 common:
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/scopes/dwolla-scopes.yml
+  title: ''
+  type: OAuthScopes
+  url: scopes/dwolla-scopes.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/integrations/dwolla-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/dwolla-integration-edges.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/rules/dwolla-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/dwolla-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/json-ld/dwolla-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/dwolla-context.jsonld
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/vocabulary/dwolla-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/dwolla-vocabulary.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/a2a/dwolla-a2a.yml
+  title: ''
+  type: AgentCard
+  url: a2a/dwolla-a2a.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/vendors/dwolla-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/dwolla-vendors.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.dwolla.com/features/security
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.dwolla.com/updates
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.dwolla.com/updates/rss.xml
 - group: commercial
   href: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/plans/dwolla-plans-pricing.yml
   title: ''
@@ -462,10 +509,6 @@ common:
   title: ''
   type: LinkedIn
   url: https://www.linkedin.com/company/dwolla
-- group: company
-  title: ''
-  type: Blog
-  url: https://www.dwolla.com/blog/
 - group: docs
   href: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/openapi/_original/dwolla-openapi.yml
   title: ''
@@ -483,49 +526,232 @@ common:
 created: '2026-07-17'
 description: Dwolla is a Des Moines-based fintech providing an account-to-account (A2A) payments platform that lets businesses programmatically move money across the U.S. banking system. Its v2 REST API — a JSON-HAL hypermedia API secured with OAuth 2.0 client-credentials — supports ACH (standard and Same-Day), instant/real-time payments over the RTP Network and FedNow Service, bank funding sources with micro-deposit and Open Banking (Plaid/MX) verification, verified Customers (personal and business with beneficial-owner/KYC flows), mass payments, labels and ledgers, virtual account numbers, and webhook event notifications. Dwolla ships official SDKs for Node, Python, Ruby, PHP, C#, and Kotlin, low-code Drop-in Components, and a read-only MCP server for AI agents.
 image: https://github.com/Dwolla.png
+json_schemas:
+- name: Account
+  property_count: 5
+  slug: dwolla-account
+- name: AvailableExchangeConnections
+  property_count: 2
+  slug: dwolla-available-exchange-connections
+- name: BeneficialOwner
+  property_count: 7
+  slug: dwolla-beneficial-owner
+- name: BeneficialOwners
+  property_count: 2
+  slug: dwolla-beneficial-owners
+- name: BeneficialOwnership
+  property_count: 2
+  slug: dwolla-beneficial-ownership
+- name: CreateAccountFundingSource
+  property_count: 6
+  slug: dwolla-create-account-funding-source
+- name: CreateCustomerExchangeSessionForWeb
+  property_count: 1
+  slug: dwolla-create-customer-exchange-session-for-web
+- name: CreateCustomerExchangeSessionWithRedirect
+  property_count: 1
+  slug: dwolla-create-customer-exchange-session-with-redirect
+- name: Create Customer Funding Source
+  property_count: 0
+  slug: dwolla-create-customer-funding-source
+- name: CreateFinicitySecureExchange
+  property_count: 2
+  slug: dwolla-create-finicity-secure-exchange
+- name: CreateInternationalBeneficialOwner
+  property_count: 5
+  slug: dwolla-create-international-beneficial-owner
+- name: CreateMXOpenBankingExchange
+  property_count: 2
+  slug: dwolla-create-mxopen-banking-exchange
+- name: CreatePlaidOpenBankingExchange
+  property_count: 2
+  slug: dwolla-create-plaid-open-banking-exchange
+- name: CreateReAuthExchangeSessionForWeb
+  property_count: 0
+  slug: dwolla-create-re-auth-exchange-session-for-web
+- name: CreateReAuthExchangeSessionWithRedirect
+  property_count: 1
+  slug: dwolla-create-re-auth-exchange-session-with-redirect
+- name: CreateTokenBasedExchange
+  property_count: 2
+  slug: dwolla-create-token-based-exchange
+- name: CreateUSBeneficialOwner
+  property_count: 5
+  slug: dwolla-create-usbeneficial-owner
+- name: CreateVerifiedBusinessCustomerWithController
+  property_count: 19
+  slug: dwolla-create-verified-business-customer-with-controller
+- name: CreateVerifiedBusinessCustomerWithInternationalController
+  property_count: 19
+  slug: dwolla-create-verified-business-customer-with-international-controller
+- name: Document
+  property_count: 8
+  slug: dwolla-document
+- name: Documents
+  property_count: 3
+  slug: dwolla-documents
+- name: Event
+  property_count: 5
+  slug: dwolla-event
+- name: Events
+  property_count: 4
+  slug: dwolla-events
+- name: ExchangePartner
+  property_count: 5
+  slug: dwolla-exchange-partner
+- name: Exchange
+  property_count: 4
+  slug: dwolla-exchange
+- name: ExchangeSession
+  property_count: 4
+  slug: dwolla-exchange-session
+- name: FundingSource
+  property_count: 13
+  slug: dwolla-funding-source
+- name: FundingSources
+  property_count: 3
+  slug: dwolla-funding-sources
+- name: HalLink
+  property_count: 3
+  slug: dwolla-hal-link
+- name: LabelLedgerEntries
+  property_count: 3
+  slug: dwolla-label-ledger-entries
+- name: LabelLedgerEntry
+  property_count: 4
+  slug: dwolla-label-ledger-entry
+- name: Label
+  property_count: 4
+  slug: dwolla-label
+- name: Labels
+  property_count: 3
+  slug: dwolla-labels
+- name: MassPaymentItem
+  property_count: 6
+  slug: dwolla-mass-payment-item
+- name: MassPayment
+  property_count: 8
+  slug: dwolla-mass-payment
+- name: MassPayments
+  property_count: 3
+  slug: dwolla-mass-payments
+- name: OnDemandAuthorization
+  property_count: 3
+  slug: dwolla-on-demand-authorization
+- name: RetryVerifiedBusinessWithController
+  property_count: 14
+  slug: dwolla-retry-verified-business-with-controller
+- name: RetryVerifiedBusinessWithInternationalController
+  property_count: 14
+  slug: dwolla-retry-verified-business-with-international-controller
+- name: Root
+  property_count: 1
+  slug: dwolla-root
+- name: SandboxSimulationBankProcessingResponse
+  property_count: 2
+  slug: dwolla-sandbox-simulation-bank-processing-response
+- name: SandboxSimulationCustomerVerificationResponse
+  property_count: 2
+  slug: dwolla-sandbox-simulation-customer-verification-response
+- name: SandboxSimulationRequest
+  property_count: 0
+  slug: dwolla-sandbox-simulation-request
+- name: TransferAmount
+  property_count: 2
+  slug: dwolla-transfer-amount
+- name: Transfer
+  property_count: 12
+  slug: dwolla-transfer
+- name: Transfers
+  property_count: 3
+  slug: dwolla-transfers
+- name: UpdateUnverifiedBank
+  property_count: 4
+  slug: dwolla-update-unverified-bank
+- name: UpgradeToVerifiedBusiness
+  property_count: 14
+  slug: dwolla-upgrade-to-verified-business
+- name: VerifiedBusinessCustomer
+  property_count: 0
+  slug: dwolla-verified-business-customer
+- name: VerifyMicroDeposits
+  property_count: 2
+  slug: dwolla-verify-micro-deposits
+- name: WebhookRetries
+  property_count: 3
+  slug: dwolla-webhook-retries
+- name: Webhook
+  property_count: 7
+  slug: dwolla-webhook
+- name: WebhookSubscription
+  property_count: 5
+  slug: dwolla-webhook-subscription
+jsonld:
+- class_count: 120
+  name: Dwolla Context
+  property_count: 81
+  slug: dwolla-context
 layout: provider
 mcp_servers:
-- description: Local (stdio) MCP server; 14 tools listed.
+- description: Local (stdio) MCP server requiring an API key; 14 tools listed.
   name: Dwolla MCP Server
   slug: dwolla
-modified: '2026-09-16'
+modified: '2026-10-06'
 name: Dwolla
 nav: Providers
 network: true
-overview: 'Dwolla publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, beneficial owners API, client tokens API, and 15 more. Tagged areas include Payments, ACH, Bank Transfers, Fintech, and Account-to-Account Payments.
+overview: 'Dwolla publishes 18 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, beneficial owners API, client tokens API, and 15 more. Tagged areas include Payments, ACH, Bank Transfers, Fintech, and Account-to-Account Payments.
 
 
-  The Dwolla catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Dwolla catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Dwolla''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, changelog, and 43 more developer resources.'
+  Dwolla''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, pricing, signup flow, and 52 more developer resources.'
 plans:
 - name: Dwolla Plans Pricing
   plan_count: 1
   slug: dwolla-plans-pricing
 random_paper: 5
 rate_limits:
-- limit_count: 0
+- limit_count: 2
   name: Dwolla Rate Limits
   slug: dwolla-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 58
+  extends:
+  - spectral:oas
+  name: Dwolla API Rules
+  rule_count: 17
+  severity_counts:
+    error: 13
+    hint: 0
+    info: 1
+    warn: 3
+  slug: dwolla-rules
+scopes:
+- name: Dwolla Scopes
+  scope_count: 0
+  slug: dwolla-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 61.6
+  band: exemplar
+  composite: 72.9
   coverage:
-    artifact_dirs: 27
-    catalog_earned: 48.0
-    catalog_earned_first_party: 8.0
-    catalog_gap: 67.0
+    artifact_dirs: 35
+    catalog_earned: 81.8
+    catalog_earned_first_party: 16.0
+    catalog_gap: 33.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 11.3
   facets:
     access_clarity: 81.6
-    contract_governance: 18.2
-    contract_quality: 57.9
+    contract_governance: 35.6
+    contract_quality: 71.3
     developer_ergonomics: 72.0
-    discoverability: 80.0
-    operational_transparency: 50.0
+    discoverability: 76.7
+    operational_transparency: 81.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -549,10 +775,10 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 23.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+    score: 37.0
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-04'
+  score: 20.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -168,6 +168,21 @@ collections:
   name: Rakuten Web Services API
   slug: open-rakuten
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/rakuten/refs/heads/main/plans/rakuten-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/rakuten-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/rakuten/refs/heads/main/rate-limits/rakuten-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/rakuten-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/rakuten/refs/heads/main/finops/rakuten-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/rakuten-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/rakuten/refs/heads/main/agentic-access/rakuten-agentic-access.yml
   title: ''
@@ -246,19 +261,23 @@ common:
 created: '2026-05-23'
 description: Rakuten Group is a Japan-headquartered internet conglomerate spanning e-commerce (Rakuten Ichiba), fintech (Rakuten Bank, Rakuten Card, Rakuten Securities), digital content (Rakuten Books, Kobo, Viki), travel (Rakuten Travel), telecom (Rakuten Mobile, Rakuten Symphony), and advertising (Rakuten Advertising). Rakuten exposes a long-standing public developer platform — Rakuten Web Services (webservice.rakuten.co.jp) — that offers REST/JSON APIs for searching Ichiba items and genres, books, CDs, DVDs, games, software, magazines, Kobo eBooks, Rakuten Travel hotels (simple, detail, vacant, keyword), Rakuten Recipe, and Rakuten GORA golf courses. All RWS APIs use a Rakuten application ID for authentication and are read-only. Rakuten separately operates merchant-facing RMS (Rakuten Merchant Server) APIs and Rakuten Pay merchant APIs, which are partner-gated.
 finops:
-- name: Rakuten Finops
+- has_sources: false
+  method: generated
+  name: Rakuten Finops
+  primary_unit: ''
   service_category: API
   slug: rakuten-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rakuten.png
 layout: provider
 modified: '2026-05-23'
 name: Rakuten
 nav: Providers
 network: true
-overview: 'Rakuten publishes 33 APIs on the [APIs.io](https://apis.io/) network, including Ichibagt API, Ichibams API, Ichibaranking API, and 30 more. Tagged areas include E-Commerce, Travel, Books, Recipes, and Golf.
+overview: 'Rakuten publishes 33 API contracts indexed on the [APIs.io](https://apis.io/) network, including Ichibagt API, Ichibams API, Ichibaranking API, and 30 more. Tagged areas include E-Commerce, Travel, Books, Recipes, and Golf.
 
 
-  Rakuten''s developer surface includes authentication, documentation, signup flow, product news, GitHub presence, and 13 more developer resources.'
+  Rakuten''s developer surface includes authentication, documentation, signup flow, product news, GitHub presence, and 16 more developer resources.'
 plans:
 - name: Rakuten Plans Pricing
   plan_count: 1
@@ -270,22 +289,22 @@ rate_limits:
   slug: rakuten-rate-limits
 score:
   band: thin
-  composite: 34.3
+  composite: 28.2
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 54.4
+    artifact_dirs: 12
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 60.6
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.1
   facets:
-    access_clarity: 40.0
+    access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 47.1
     developer_ergonomics: 31.0
     discoverability: 67.0
-    operational_transparency: 24.2
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -307,9 +326,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 10.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

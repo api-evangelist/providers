@@ -30,20 +30,20 @@ agent_readiness:
     mcp_server: verified
     openapi_examples: false
     protected_resource_metadata: verified
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 52.1
-  scored_at: '2026-10-04'
+  score: 50.2
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 60
+- acting_count: 53
   human_in_the_loop: 1
   name: Mixedbread Ai Agentic Access
   operation_count: 93
   slug: mixedbread-ai-agentic-access
-  summary_line: 93 operations · 60 acting · 1 human-in-the-loop
+  summary_line: 93 operations · 53 acting · 1 human-in-the-loop
 api_count: 12
 apis:
 - baseURL: https://api.mixedbread.com
@@ -390,9 +390,13 @@ examples:
   name: Mixedbread Stores Search Example
   slug: mixedbread-stores-search-example
 finops:
-- name: Mixedbread Ai Finops
+- has_sources: true
+  method: generated
+  name: Mixedbread Ai Finops
+  primary_unit: token
   service_category: AI and Machine Learning
   slug: mixedbread-ai-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mixedbread-ai.png
 json_schemas:
 - name: Mixedbread Embedding
@@ -418,7 +422,7 @@ modified: '2026-09-16'
 name: Mixedbread
 nav: Providers
 network: true
-overview: 'Mixedbread publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Admin API, API Keys API, Billing API, and 11 more. Tagged areas include Artificial Intelligence, Embeddings, Reranking, Search, and Retrieval.
+overview: 'Mixedbread publishes 14 API contracts indexed on the [APIs.io](https://apis.io/) network, including Admin API, API Keys API, Billing API, and 11 more. Tagged areas include Artificial Intelligence, Embeddings, Reranking, Search, and Retrieval.
 
 
   The Mixedbread catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -427,7 +431,7 @@ overview: 'Mixedbread publishes 14 APIs on the [APIs.io](https://apis.io/) netwo
   Mixedbread''s developer surface includes authentication, developer portal, documentation, signup flow, pricing, engineering blog, GitHub presence, and 25 more developer resources.'
 plans:
 - name: Mixedbread Ai Plans Pricing
-  plan_count: 4
+  plan_count: 12
   slug: mixedbread-ai-plans-pricing
 random_paper: 16
 rate_limits:
@@ -435,9 +439,10 @@ rate_limits:
   name: Mixedbread Ai Rate Limits
   slug: mixedbread-ai-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: Mixedbread API Rules
+  name: Mixedbread — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -445,7 +450,8 @@ rules:
     info: 1
     warn: 5
   slug: mixedbread-ai-jsonschema-spectral-rules
-- effective_rule_count: 47
+- authorship: unmarked
+  effective_rule_count: 47
   extends:
   - spectral:oas
   name: Mixedbread API Rules
@@ -457,23 +463,23 @@ rules:
     warn: 3
   slug: mixedbread-ai-rules
 score:
-  band: strong
-  composite: 55.5
+  band: developing
+  composite: 53.1
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 80.1
-    catalog_earned_first_party: 0.0
-    catalog_gap: 34.9
+    artifact_dirs: 21
+    catalog_earned: 73.5
+    catalog_earned_first_party: 12.0
+    catalog_gap: 41.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.4
   facets:
-    access_clarity: 60.0
+    access_clarity: 63.2
     contract_governance: 13.6
     contract_quality: 59.5
     developer_ergonomics: 63.1
     discoverability: 68.3
-    operational_transparency: 33.7
+    operational_transparency: 13.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -493,12 +499,12 @@ score:
     mcp: first-party
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 15.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

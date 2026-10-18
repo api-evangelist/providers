@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: Management and orchestration REST API of the Versa Director control plane — SD-WAN workflows, appliance/device management, templates and device groups, dashboard/live status, health, assets, audit log
@@ -44,6 +44,10 @@ apis:
   slug: versa-analytics-rest-api
 artifact_total: 6
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://versa-networks.com/blog/feed/
 - group: company
   title: ''
   type: Website
@@ -156,20 +160,20 @@ mcp_servers:
 - description: First-party Model Context Protocol server published by Versa Networks that exposes a read-only subset of the Versa Director / Concerto REST API as MCP tools. It authenticates to a Versa Director using
   name: Versa API MCP Server
   slug: versa-api-server
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Versa Networks
 nav: Providers
 network: true
-overview: 'Versa Networks publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Networking, Security, SASE, and SD-WAN.
+overview: 'Versa Networks is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Networking, Security, SASE, and SD-WAN.
 
 
-  Versa Networks'' developer surface includes documentation, API reference, support, engineering blog, signup flow, authentication, and 17 more developer resources.'
+  Versa Networks'' developer surface includes documentation, API reference, support, engineering blog, signup flow, authentication, and 18 more developer resources.'
 random_paper: 9
 score:
   band: thin
   composite: 30.1
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -194,8 +198,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 25.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

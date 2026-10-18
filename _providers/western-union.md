@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.0
-  scored_at: '2026-10-04'
+  score: 25.1
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -112,6 +112,21 @@ collections:
   name: Western Union Mass Payments Balances Quotes API
   slug: open-western-union-quotes-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/western-union/refs/heads/main/plans/western-union-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/western-union-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/western-union/refs/heads/main/rate-limits/western-union-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/western-union-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/western-union/refs/heads/main/finops/western-union-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/western-union-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/western-union/refs/heads/main/capabilities/western-union-capability-edges.yml
   title: ''
@@ -180,9 +195,13 @@ examples:
   name: Western Union Create Quote Example
   slug: western-union-create-quote-example
 finops:
-- name: Western Union Finops
+- has_sources: true
+  method: generated
+  name: Western Union Finops
+  primary_unit: ''
   service_category: Payments
   slug: western-union-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/western-union.png
 json_schemas:
 - name: Western Union Payment Batch
@@ -205,13 +224,13 @@ modified: '2026-05-19'
 name: The Western Union Company
 nav: Providers
 network: true
-overview: 'The Western Union Company publishes 8 APIs on the [APIs.io](https://apis.io/) network, including western-union Balances API, western-union Batches API, western-union Customers API, and 5 more. Tagged areas include Fortune 500, Financial Services, Payments, Money Transfer, and Remittances.
+overview: 'The Western Union Company publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including western-union Balances API, western-union Batches API, western-union Customers API, and 5 more. Tagged areas include Fortune 500, Financial Services, Payments, Money Transfer, and Remittances.
 
 
   The The Western Union Company catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  The Western Union Company''s developer surface includes authentication, developer portal, getting-started guide, and 10 more developer resources.'
+  The Western Union Company''s developer surface includes authentication, developer portal, getting-started guide, and 13 more developer resources.'
 plans:
 - name: Western Union Plans Pricing
   plan_count: 1
@@ -238,9 +257,10 @@ rate_limits:
   name: Western Union Rate Limits
   slug: western-union-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: The Western Union Company API Rules
+  name: The Western Union Company — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -248,7 +268,8 @@ rules:
     info: 2
     warn: 3
   slug: western-union-jsonschema-spectral-rules
-- effective_rule_count: 49
+- authorship: unmarked
+  effective_rule_count: 49
   extends:
   - spectral:oas
   name: The Western Union Company API Rules
@@ -261,23 +282,30 @@ rules:
   slug: western-union-rules
 score:
   band: thin
-  composite: 36.5
+  composite: 34.9
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 53.5
+    artifact_dirs: 21
+    catalog_earned: 50.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 61.5
+    catalog_gap: 64.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.9
+  delta: -1.6
   facets:
-    access_clarity: 34.2
+    access_clarity: 26.3
     contract_governance: 13.6
     contract_quality: 57.5
     developer_ergonomics: 36.9
     discoverability: 60.7
     operational_transparency: 7.9
-  previous_composite: 37.4
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 36.5
   provenance:
     agentic_access: derived
     contracts:
@@ -291,8 +319,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 19.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

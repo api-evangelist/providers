@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.5
-  scored_at: '2026-10-04'
+  score: 19.6
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 76
+- acting_count: 74
   human_in_the_loop: 5
   name: Hvault Agentic Access
   operation_count: 116
   slug: hvault-agentic-access
-  summary_line: 116 operations · 76 acting · 5 human-in-the-loop
+  summary_line: 116 operations · 74 acting · 5 human-in-the-loop
 api_count: 4
 apis:
 - baseURL: https://vault.example.com/v1/sys
@@ -287,6 +287,21 @@ collections:
   name: HashiCorp Vault Vault Auth Methods AppRole Userpass API
   slug: open-hvault-userpass-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/hvault/refs/heads/main/plans/hvault-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/hvault-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/hvault/refs/heads/main/rate-limits/hvault-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/hvault-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/hvault/refs/heads/main/finops/hvault-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/hvault-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/hvault/refs/heads/main/capabilities/hvault-capability-edges.yml
   title: ''
@@ -393,9 +408,13 @@ common:
 created: '2024-01-15'
 description: HashiCorp Vault secures, stores, and tightly controls access to tokens, passwords, certificates, API keys, and other secrets in modern computing. Vault handles leasing, key revocation, key rolling, and auditing. Through a unified API, users can access an encrypted Key/Value store and network encryption-as-a-service, or generate AWS IAM/STS credentials, SQL/NoSQL databases, X.509 certificates, SSH credentials, and more.
 finops:
-- name: Hvault Finops
+- has_sources: true
+  method: generated
+  name: Hvault Finops
+  primary_unit: ''
   service_category: Security & Identity
   slug: hvault-finops
+  template: false
 image: https://www.vaultproject.io/img/logo-hashicorp.svg
 json_schemas:
 - name: Vault Entity Alias
@@ -426,13 +445,13 @@ modified: '2026-05-19'
 name: HashiCorp Vault
 nav: Providers
 network: true
-overview: 'HashiCorp Vault publishes 28 APIs on the [APIs.io](https://apis.io/) network, including AppRole API, Audit API, Auth API, and 25 more. Tagged areas include Encryption, Identity, Infrastructure, Secrets Management, and Security.
+overview: 'HashiCorp Vault publishes 28 API contracts indexed on the [APIs.io](https://apis.io/) network, including AppRole API, Audit API, Auth API, and 25 more. Tagged areas include Encryption, Identity, Infrastructure, Secrets Management, and Security.
 
 
   The HashiCorp Vault catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  HashiCorp Vault''s developer surface includes authentication and 22 more developer resources.'
+  HashiCorp Vault''s developer surface includes authentication and 25 more developer resources.'
 plans:
 - name: Hvault Plans Pricing
   plan_count: 4
@@ -443,9 +462,10 @@ rate_limits:
   name: Hvault Rate Limits
   slug: hvault-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: HashiCorp Vault API Rules
+  name: HashiCorp Vault — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -455,23 +475,23 @@ rules:
   slug: hvault-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 32.5
+  composite: 31.0
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 60.3
+    artifact_dirs: 14
+    catalog_earned: 57.3
     catalog_earned_first_party: 0.0
     catalog_gap: 57.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 9.8
     contract_quality: 53.4
     developer_ergonomics: 21.4
     discoverability: 78.6
     operational_transparency: 7.9
-  previous_composite: 32.0
+  previous_composite: 32.5
   provenance:
     agentic_access: derived
     contracts:
@@ -485,12 +505,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
     score: 22.2
+screenshot: https://raw.githubusercontent.com/api-evangelist/hvault/refs/heads/main/screenshots/hvault-2026-10-11T190546.png
 security:
 - kind: authentication
   name: Hvault Authentication

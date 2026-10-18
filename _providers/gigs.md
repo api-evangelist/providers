@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'REST API for embedded mobile connectivity: manage projects, plans, users, subscriptions, SIMs (eSIM/pSIM), devices, number portings, add-ons, usage and vouchers. Bearer API-key auth, cursor pagination'
@@ -200,7 +200,7 @@ modified: '2026-07-19'
 name: Gigs
 nav: Providers
 network: true
-overview: 'Gigs publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Telecommunications, Connectivity, eSIM, and MVNO.
+overview: 'Gigs is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Telecommunications, Connectivity, eSIM, and MVNO.
 
 
   The Gigs catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -212,7 +212,7 @@ score:
   band: developing
   composite: 44.5
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -237,8 +237,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 30.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

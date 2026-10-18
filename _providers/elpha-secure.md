@@ -34,10 +34,20 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 3
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/elpha-secure/refs/heads/main/plans/elpha-secure-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/elpha-secure-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/elpha-secure/refs/heads/main/rate-limits/elpha-secure-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/elpha-secure-rate-limits.yml
 - group: company
   title: ''
   type: Website
@@ -122,7 +132,7 @@ network: true
 overview: 'Elpha Secure is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cybersecurity, Cyber Insurance, Insurance, and Insurtech.
 
 
-  Elpha Secure''s developer surface includes engineering blog, support, and 12 more developer resources.'
+  Elpha Secure''s developer surface includes engineering blog, support, and 14 more developer resources.'
 plans:
 - name: Elpha Secure Plans Pricing
   plan_count: 0
@@ -166,8 +176,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 21.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: verified
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.0
-  scored_at: '2026-10-04'
+  score: 27.8
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 1
   slug: geoapify-agentic-access
   summary_line: 1 operation
-api_count: 1
+api_count: 2
 apis:
 - description: Retrieve map tiles for various types and styles.
   name: Map Tiles API
@@ -75,7 +75,7 @@ apis:
   description: The Geocode API from Geoapify — 1 operation(s) for geocode.
   name: Geoapify Geocode API
   slug: geoapify-geocode-api
-artifact_total: 36
+artifact_total: 37
 collections:
 - collection_type: open
   name: API Collection
@@ -87,6 +87,21 @@ collections:
   name: Geoapify Forward Geocoding Geocode API
   slug: open-geoapify-geocode-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/geoapify/refs/heads/main/plans/geoapify-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/geoapify-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/geoapify/refs/heads/main/rate-limits/geoapify-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/geoapify-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/geoapify/refs/heads/main/finops/geoapify-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/geoapify-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/geoapify/refs/heads/main/agentic-access/geoapify-agentic-access.yml
   title: ''
@@ -141,6 +156,10 @@ common:
   title: ''
   type: MCPDocumentation
   url: https://www.geoapify.com/mcp/
+- group: design
+  title: ''
+  type: SpectralRules
+  url: https://github.com/geoapify/geoapify-openapi-specs/blob/e8255e614648084d86bae2155c20347d5203ec1d/ruleset.spectral.yaml
 created: '2024-01-01'
 description: Geoapify Location Platform APIs for location-based services and mapping solutions.
 features:
@@ -161,9 +180,13 @@ features:
 - Boundaries API
 - OpenStreetMap-based data with global coverage
 finops:
-- name: Geoapify Finops
+- has_sources: true
+  method: generated
+  name: Geoapify Finops
+  primary_unit: ''
   service_category: Maps
   slug: geoapify-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/geoapify.png
 json_structures:
 - name: Geoapify Structure
@@ -178,10 +201,13 @@ modified: '2026-07-12'
 name: Geoapify
 nav: Providers
 network: true
-overview: 'Geoapify publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Geocode API, and 9 more. Tagged areas include Geocoding, Geospatial, Location, and Maps.
+overview: 'Geoapify publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Geocode API, and 9 more. Tagged areas include Geocoding, Geospatial, Location, and Maps.
 
 
-  Geoapify''s developer surface includes documentation, signup flow, engineering blog, and 10 more developer resources.'
+  The Geoapify catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
+  Geoapify''s developer surface includes documentation, signup flow, engineering blog, and 14 more developer resources.'
 plans:
 - name: Geoapify Plans Pricing
   plan_count: 7
@@ -191,20 +217,33 @@ rate_limits:
 - limit_count: 6
   name: Geoapify Rate Limits
   slug: geoapify-rate-limits
+rules:
+- authorship: provider
+  effective_rule_count: 41
+  extends:
+  - spectral:oas
+  name: Geoapify — geoapify openapi specs rules
+  rule_count: 0
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 0
+    warn: 0
+  slug: geoapify-geoapify-openapi-specs-spectral-rules
 score:
   band: emerging
-  composite: 23.5
+  composite: 23.8
   coverage:
-    artifact_dirs: 15
-    catalog_earned: 36.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 79.0
+    artifact_dirs: 17
+    catalog_earned: 38.0
+    catalog_earned_first_party: 5.0
+    catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.3
   facets:
-    access_clarity: 28.9
-    contract_governance: 0.0
+    access_clarity: 21.1
+    contract_governance: 15.2
     contract_quality: 45.9
     developer_ergonomics: 2.4
     discoverability: 58.3
@@ -224,8 +263,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

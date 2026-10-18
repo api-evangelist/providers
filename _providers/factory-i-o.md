@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.1
-  scored_at: '2026-10-04'
+  score: 26.2
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -76,6 +76,21 @@ collections:
   name: FACTORY I/O Web Tag Values Tags API
   slug: open-factory-i-o-tags-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/factory-i-o/refs/heads/main/plans/factory-i-o-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/factory-i-o-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/factory-i-o/refs/heads/main/rate-limits/factory-i-o-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/factory-i-o-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/factory-i-o/refs/heads/main/finops/factory-i-o-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/factory-i-o-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/factory-i-o/refs/heads/main/agentic-access/factory-i-o-agentic-access.yml
   title: ''
@@ -115,9 +130,13 @@ examples:
   name: Factory I O Set Tag Values Example
   slug: factory-i-o-set-tag-values-example
 finops:
-- name: Factory I O Finops
+- has_sources: false
+  method: generated
+  name: Factory I O Finops
+  primary_unit: ''
   service_category: API
   slug: factory-i-o-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/factory-i-o.png
 json_schemas:
 - name: Tag
@@ -143,13 +162,13 @@ modified: '2026-04-28'
 name: FACTORY I/O
 nav: Providers
 network: true
-overview: 'FACTORY I/O publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Tag Values API, Tag Values by Name API, Tags API, and 1 more. Tagged areas include Industrial Automation, Simulation, and Software Simulation.
+overview: 'FACTORY I/O publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Tag Values API, Tag Values by Name API, Tags API, and 1 more. Tagged areas include Industrial Automation, Simulation, and Software Simulation.
 
 
   The FACTORY I/O catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  FACTORY I/O''s developer surface includes documentation, engineering blog, and 4 more developer resources.'
+  FACTORY I/O''s developer surface includes documentation, engineering blog, and 7 more developer resources.'
 plans:
 - name: Factory I O Plans Pricing
   plan_count: 3
@@ -160,9 +179,10 @@ rate_limits:
   name: Factory I O Rate Limits
   slug: factory-i-o-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: FACTORY I/O API Rules
+  name: FACTORY I/O — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -170,7 +190,8 @@ rules:
     info: 2
     warn: 3
   slug: factory-i-o-jsonschema-spectral-rules
-- effective_rule_count: 6
+- authorship: unmarked
+  effective_rule_count: 6
   extends: []
   name: FACTORY I/O API Rules
   rule_count: 6
@@ -182,17 +203,17 @@ rules:
   slug: factory-i-o-rules
 score:
   band: emerging
-  composite: 23.5
+  composite: 22.0
   coverage:
     artifact_dirs: 16
-    catalog_earned: 50.3
+    catalog_earned: 47.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 64.8
+    catalog_gap: 67.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 9.8
     contract_quality: 50.1
     developer_ergonomics: 9.5
@@ -212,8 +233,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

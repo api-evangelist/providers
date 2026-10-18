@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: 'REST API for managing Ivanti Connect Secure (formerly Pulse Connect Secure) VPN appliances. Provides endpoints for system configuration, user and role management, authentication server configuration, '
@@ -50,6 +50,11 @@ apis:
   slug: ivanti-neurons-zero-trust-rest-api
 artifact_total: 20
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/pulse/refs/heads/main/finops/pulse-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/pulse-finops.yml
 - group: other
   title: ''
   type: ParentCompany
@@ -207,19 +212,23 @@ features:
 - description: Define granular access policies based on user roles, device type, and compliance status.
   name: Role-Based Access Control
 finops:
-- name: Pulse Finops
+- has_sources: false
+  method: generated
+  name: Pulse Finops
+  primary_unit: ''
   service_category: API
   slug: pulse-finops
+  template: true
 image: /assets/icons/pulse.png
 layout: provider
 modified: '2026-08-29'
 name: Pulse
 nav: Providers
 network: true
-overview: 'Pulse publishes 3 APIs on the [APIs.io](https://apis.io/) network, including Ivanti Connect Secure REST API, and 2 more. Tagged areas include Ivanti, Network Security, Secure Access, SSL VPN, and VPN.
+overview: 'Pulse is listed with 3 APIs on the [APIs.io](https://apis.io/) network, including Ivanti Connect Secure REST API, and 2 more. Tagged areas include Ivanti, Network Security, Secure Access, SSL VPN, and VPN.
 
 
-  Pulse''s developer surface includes authentication, changelog, API reference, getting-started guide, support, documentation, engineering blog, and 24 more developer resources.'
+  Pulse''s developer surface includes authentication, changelog, API reference, getting-started guide, support, documentation, engineering blog, and 25 more developer resources.'
 plans:
 - name: Pulse Plans Pricing
   plan_count: 0
@@ -230,18 +239,18 @@ rate_limits:
   name: Pulse Rate Limits
   slug: pulse-rate-limits
 score:
-  band: developing
-  composite: 40.0
+  band: thin
+  composite: 38.5
   coverage:
     artifact_dirs: 17
-    catalog_earned: 43.0
+    catalog_earned: 40.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 72.0
+    catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 51.3
+    access_clarity: 43.4
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 61.9
@@ -257,8 +266,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

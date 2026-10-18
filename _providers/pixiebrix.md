@@ -37,8 +37,8 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 27.2
-  scored_at: '2026-10-04'
-api_count: 1
+  scored_at: '2026-10-17'
+api_count: 2
 apis:
 - baseURL: https://app.pixiebrix.com/api/
   baseurl_source: declared
@@ -197,6 +197,14 @@ apis:
   slug: pixiebrix-tours-api
 artifact_total: 37
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://blog.pixiebrix.com/blog
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.pixiebrix.com/blog/rss.xml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/pixiebrix/refs/heads/main/capabilities/pixiebrix-capability-edges.yml
   title: ''
@@ -343,14 +351,14 @@ created: '2026-08-26'
 description: PixieBrix is a browser-based platform for customer care and enterprise operations teams that layers automation, AI assistance, integrations and real-time policy enforcement onto the web applications a team already uses, deployed as a lightweight browser extension and companion web app rather than an endpoint agent. Teams build "mods" from a library of prebuilt "bricks" — DOM readers, UI components, HTTP request bricks, AI/LLM bricks and data connectors — and administrators govern them centrally through activity policies, deployments, groups and audit trails. The public PixieBrix Developer API is a token-authenticated REST surface at https://app.pixiebrix.com/api/ covering team management, package/registry publishing, deployments, databases, activity policy and health checks, described by a published OpenAPI 3.0.2 specification.
 image: https://cdn.prod.website-files.com/627def74bc73d85070c65929/697cf1b5cee0b7370cdc763a_pixiebrixog.png
 layout: provider
-modified: '2026-08-26'
+modified: '2026-10-06'
 name: PixieBrix
 nav: Providers
 network: true
-overview: 'PixieBrix publishes 31 APIs on the [APIs.io](https://apis.io/) network, including Activity API, Audit API, Bricks API, and 28 more. Tagged areas include Company, Browser Extension, Low-Code, Automation, and Artificial Intelligence.
+overview: 'PixieBrix publishes 31 API contracts indexed on the [APIs.io](https://apis.io/) network, including Activity API, Audit API, Bricks API, and 28 more. Tagged areas include Company, Browser Extension, Low-Code, Automation, and Artificial Intelligence.
 
 
-  PixieBrix''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, pricing, and 25 more developer resources.'
+  PixieBrix''s developer surface includes engineering blog, documentation, API reference, getting-started guide, signup flow, support, pricing, and 27 more developer resources.'
 plans:
 - name: Pixiebrix Plans Pricing
   plan_count: 4
@@ -362,15 +370,15 @@ rate_limits:
   slug: pixiebrix-rate-limits
 score:
   band: strong
-  composite: 62.2
+  composite: 62.3
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 57.0
     catalog_earned_first_party: 20.0
     catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 78.9
     contract_governance: 18.2
@@ -394,8 +402,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -413,7 +421,7 @@ security:
 - kind: vulnerability-disclosure
   name: Pixiebrix Vulnerability Disclosure
   slug: pixiebrix-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 - kind: trust-center
   name: Pixiebrix Trust Center
   slug: pixiebrix-trust-center
@@ -425,7 +433,7 @@ tags:
 - Low-Code
 - Automation
 - Artificial Intelligence
-- Customer Support
+- Customer Service
 - Enterprise Operations
 - Workflow Automation
 - Agent Governance

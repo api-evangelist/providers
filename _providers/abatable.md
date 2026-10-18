@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: A hosted Model Context Protocol endpoint operated by Abatable at mcp.abatable.com, fronted by Cloudflare Access. It advertises itself as an OAuth protected resource under RFC 9728 and publishes RFC 84
@@ -143,7 +143,7 @@ modified: '2026-09-05'
 name: Abatable
 nav: Providers
 network: true
-overview: 'Abatable publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Carbon Markets, Carbon Credits, Carbon Offsets, Environmental Assets, and Voluntary Carbon Market.
+overview: 'Abatable is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Carbon Markets, Carbon Credits, Carbon Offsets, Environmental Assets, and Voluntary Carbon Market.
 
 
   Abatable''s developer surface includes engineering blog, support, YouTube channel, authentication, and 18 more developer resources.'
@@ -165,7 +165,7 @@ score:
   band: emerging
   composite: 23.2
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 16
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -189,13 +189,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/abatable/refs/heads/main/screenshots/abatable-2026-10-11T092400.png
 security:
 - kind: authentication
   name: Abatable Authentication

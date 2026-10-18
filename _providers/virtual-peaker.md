@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 15
+- acting_count: 30
   human_in_the_loop: 0
   name: Virtual Peaker Agentic Access
-  operation_count: 23
+  operation_count: 47
   slug: virtual-peaker-agentic-access
-  summary_line: 23 operations · 15 acting
+  summary_line: 47 operations · 30 acting
 api_count: 2
 apis:
 - baseURL: https://partner.virtualpeaker.io/v1
@@ -276,7 +276,7 @@ modified: '2026-07-27'
 name: Virtual Peaker
 nav: Providers
 network: true
-overview: 'Virtual Peaker publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Commands API, Devices API, Energy Interval Endpoint API, and 5 more. Tagged areas include Energy, United States, Utilities, Electricity, and Grid.
+overview: 'Virtual Peaker publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Commands API, Devices API, Energy Interval Endpoint API, and 5 more. Tagged areas include Energy, United States, Utilities, Electricity, and Grid.
 
 
   The Virtual Peaker catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -293,7 +293,7 @@ score:
   band: developing
   composite: 46.4
   coverage:
-    artifact_dirs: 25
+    artifact_dirs: 26
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -331,8 +331,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 45.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

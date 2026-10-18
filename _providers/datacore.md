@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.datacore.com/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/datacore/refs/heads/main/security/datacore-domain-security.yml
   title: ''
@@ -77,20 +81,20 @@ created: '2026-07-17'
 description: DataCore Software is a software-defined storage and data management vendor serving approximately 15,000 customers worldwide, from Fortune 500 enterprises to small and medium businesses. Its portfolio includes SANsymphony (SAN and HCI storage virtualization), Swarm (scalable S3-compatible object storage for archives and backups), Nexus (a high-performance parallel file system for HPC and AI workloads), Puls8 (container-native persistent storage for Kubernetes), and StarWind hyperconverged infrastructure for edge, ROBO, and SMB deployments. DataCore does not publish a public developer portal or OpenAPI-described REST API; programmatic access is delivered through product-embedded interfaces and open-source integration plugins (CSI, Docker Volume Plugin, OpenStack Cinder) maintained on its GitHub organization.
 image: https://s26500.pcdn.co/wp-content/uploads/2025/12/2025-DC-OG-Default-Image.jpg.optimal.jpg
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Datacore
 nav: Providers
 network: true
 overview: 'Datacore is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Storage, Software-Defined Storage, Object Storage, and Data Management.
 
 
-  Datacore''s developer surface includes documentation, support, engineering blog, signup flow, and 5 more developer resources.'
+  Datacore''s developer surface includes documentation, support, engineering blog, signup flow, and 6 more developer resources.'
 random_paper: 21
 score:
   band: emerging
   composite: 15.1
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -111,8 +115,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.4
-  scored_at: '2026-10-04'
+  score: 19.5
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://api.imgur.com/3/
@@ -122,6 +122,21 @@ collections:
   name: Imgur Topic API
   slug: open-imgur-topic-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/imgur/refs/heads/main/plans/imgur-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/imgur-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/imgur/refs/heads/main/rate-limits/imgur-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/imgur-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/imgur/refs/heads/main/finops/imgur-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/imgur-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/imgur/refs/heads/main/security/imgur-domain-security.yml
   title: ''
@@ -247,9 +262,13 @@ features:
 - description: GET /3/credits returns current client and user quota usage.
   name: Rate-Limit Introspection
 finops:
-- name: Imgur Finops
+- has_sources: false
+  method: generated
+  name: Imgur Finops
+  primary_unit: ''
   service_category: ''
   slug: imgur-finops
+  template: true
 image: https://s.imgur.com/images/favicon-152.png
 integrations:
 - description: Imgur grew up alongside Reddit; Reddit posts frequently embed Imgur links.
@@ -310,13 +329,13 @@ modified: '2026-05-30'
 name: Imgur
 nav: Providers
 network: true
-overview: 'Imgur publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Account API, Album API, Auth API, and 7 more. Tagged areas include Photography, Image, Image Hosting, Albums, and Gallery.
+overview: 'Imgur publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Album API, Auth API, and 7 more. Tagged areas include Photography, Image, Image Hosting, Albums, and Gallery.
 
 
   The Imgur catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Imgur''s developer surface includes developer portal, documentation, support, engineering blog, Stack Overflow tag, and 14 more developer resources.'
+  Imgur''s developer surface includes developer portal, documentation, support, engineering blog, Stack Overflow tag, and 17 more developer resources.'
 plans:
 - name: Imgur Plans Pricing
   plan_count: 4
@@ -327,9 +346,10 @@ rate_limits:
   name: Imgur Rate Limits
   slug: imgur-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Imgur API Rules
+  name: Imgur — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -337,7 +357,8 @@ rules:
     info: 1
     warn: 4
   slug: imgur-jsonschema-spectral-rules
-- effective_rule_count: 51
+- authorship: unmarked
+  effective_rule_count: 51
   extends:
   - spectral:oas
   name: Imgur API Rules
@@ -349,23 +370,23 @@ rules:
     warn: 5
   slug: imgur-rules
 score:
-  band: strong
-  composite: 54.6
+  band: developing
+  composite: 46.3
   coverage:
     artifact_dirs: 15
-    catalog_earned: 90.6
+    catalog_earned: 72.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 24.4
+    catalog_gap: 43.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 70.5
+    access_clarity: 42.1
     contract_governance: 27.3
     contract_quality: 62.0
     developer_ergonomics: 48.8
     discoverability: 73.2
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   previous_composite: 54.6
   provenance:
     contracts:
@@ -379,9 +400,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

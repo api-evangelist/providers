@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 6
 apis:
 - description: Daily-updated CSV dataset containing information on 85,000+ airports worldwide, including ICAO/IATA codes, coordinates, elevation, type, scheduled service status, and links to official and Wikipedia p
@@ -56,6 +56,21 @@ apis:
   slug: ourairports-regions-dataset
 artifact_total: 11
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/ourairports/refs/heads/main/plans/plans.yml
+  title: ''
+  type: Plans
+  url: plans/plans.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/ourairports/refs/heads/main/rate-limits/rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/ourairports/refs/heads/main/finops/finops.yml
+  title: ''
+  type: FinOps
+  url: finops/finops.yml
 - group: company
   title: ''
   type: Website
@@ -96,9 +111,13 @@ common:
 created: '2026-06-13'
 description: OurAirports is an open airport data platform maintained by a global community of aviation enthusiasts. It provides a comprehensive, community-maintained database of 85,000+ airports, runways, radio navigation aids (navaids), and communication frequencies worldwide. All data is released to the public domain and is available as daily-updated CSV datasets hosted on GitHub Pages. The platform covers airports of every type — from large commercial hubs to small private airstrips, heliports, seaplane bases, and balloon ports — across every country and territory on Earth.
 finops:
-- name: Finops
+- has_sources: false
+  method: generated
+  name: Finops
+  primary_unit: ''
   service_category: ''
   slug: finops
+  template: true
 image: https://ourairports.com/favicon.ico
 jsonld:
 - class_count: 0
@@ -110,7 +129,7 @@ modified: '2026-09-16'
 name: OurAirports
 nav: Providers
 network: true
-overview: 'OurAirports publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Aviation, Airports, Open Data, CSV, and Geospatial.
+overview: 'OurAirports is listed with 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Aviation, Airports, Open Data, CSV, and Geospatial.
 
 
   The OurAirports catalog on APIs.io includes 1 JSON-LD context.'
@@ -125,17 +144,17 @@ rate_limits:
   slug: rate-limits
 score:
   band: emerging
-  composite: 20.3
+  composite: 16.0
   coverage:
     artifact_dirs: 8
-    catalog_earned: 55.2
+    catalog_earned: 47.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 59.8
+    catalog_gap: 68.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -4.3
   facets:
-    access_clarity: 37.4
+    access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 6.7
     developer_ergonomics: 11.9
@@ -148,8 +167,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 14.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

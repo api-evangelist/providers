@@ -38,8 +38,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 42.6
-  scored_at: '2026-10-04'
-api_count: 2
+  scored_at: '2026-10-17'
+api_count: 4
 apis:
 - description: 'Hosted Model Context Protocol endpoint served from the Playable web property and advertised through RFC 9728 protected-resource metadata at playable.com/.well-known/oauth-protected-resource. Requires '
   name: Playable MCP Server
@@ -77,6 +77,10 @@ collections:
   name: Swagger with Laravel
   slug: open-playable-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://playable.com/learn/blog/feed/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/playable/refs/heads/main/capabilities/playable-capability-edges.yml
   title: ''
@@ -260,17 +264,17 @@ mcp_servers:
 - description: Remote MCP server at playable.com over HTTP.
   name: Playable MCP Server
   slug: playable
-modified: '2026-08-12'
+modified: '2026-10-06'
 name: Playable
 nav: Providers
 network: true
-overview: 'Playable publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Campaigns API, Media API, User API, and 3 more. Tagged areas include Company, marketing-gamification, interactive-marketing, Campaign Management, and Zero-Party Data.
+overview: 'Playable publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Campaigns API, Media API, User API, and 3 more. Tagged areas include Company, marketing-gamification, interactive-marketing, Campaign Management, and Zero-Party Data.
 
 
   The Playable catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Playable''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 31 more developer resources.'
+  Playable''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 32 more developer resources.'
 plans:
 - name: Playable Plans Pricing
   plan_count: 3
@@ -287,21 +291,21 @@ scopes:
   summary_line: 37 scopes · clientCredentials
 score:
   band: strong
-  composite: 63.1
+  composite: 63.7
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 57.0
+    artifact_dirs: 26
+    catalog_earned: 60.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 58.0
+    catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 92.1
     contract_governance: 4.5
     contract_quality: 56.0
     developer_ergonomics: 73.2
-    discoverability: 68.3
+    discoverability: 73.3
     operational_transparency: 44.7
   previous_composite: 63.1
   provenance:
@@ -323,8 +327,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

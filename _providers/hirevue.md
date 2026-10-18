@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 7
 apis:
 - description: Creates, manages, and retrieves on-demand and live video interviews, including structured interview guides, candidate invitations, and recorded responses. Exposed to customers and certified ATS partne
@@ -59,6 +59,21 @@ apis:
   slug: webhooks
 artifact_total: 12
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/hirevue/refs/heads/main/plans/hirevue-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/hirevue-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/hirevue/refs/heads/main/rate-limits/hirevue-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/hirevue-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/hirevue/refs/heads/main/finops/hirevue-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/hirevue-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/hirevue/refs/heads/main/security/hirevue-trust-center.yml
   title: ''
@@ -92,19 +107,23 @@ common:
 created: '2026-05-23'
 description: HireVue is an AI-driven hiring platform built around video interviewing, conversational AI, structured assessments, automated scheduling, and an AI Hiring Agent. The platform plugs into the major ATS systems (Workday, SAP SuccessFactors, Oracle/Taleo, iCIMS, Greenhouse, SmartRecruiters, PageUp, Cornerstone, Avature, Oleeo, BrassRing) and exposes REST APIs and webhooks to customers and certified partners via the HireVue developer portal at developer.hirevue.com. At the time of this profile the public developer portal was not responding to crawl, so APIs are listed at the product/capability level and the developer portal URL is captured as the canonical reference.
 finops:
-- name: Hirevue Finops
+- has_sources: false
+  method: generated
+  name: Hirevue Finops
+  primary_unit: ''
   service_category: API
   slug: hirevue-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hirevue.png
 layout: provider
 modified: '2026-05-23'
 name: HireVue
 nav: Providers
 network: true
-overview: 'HireVue publishes 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Video Interviewing, Assessment, AI Hiring, Scheduling, and Conversational AI.
+overview: 'HireVue is listed with 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Video Interviewing, Assessment, AI Hiring, Scheduling, and Conversational AI.
 
 
-  HireVue''s developer surface includes engineering blog and 6 more developer resources.'
+  HireVue''s developer surface includes engineering blog and 9 more developer resources.'
 plans:
 - name: Hirevue Plans Pricing
   plan_count: 1
@@ -115,23 +134,23 @@ rate_limits:
   name: Hirevue Rate Limits
   slug: hirevue-rate-limits
 score:
-  band: emerging
-  composite: 16.8
+  band: minimal
+  composite: 10.7
   coverage:
-    artifact_dirs: 7
-    catalog_earned: 57.4
+    artifact_dirs: 8
+    catalog_earned: 44.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.6
+    catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.1
   facets:
-    access_clarity: 34.7
+    access_clarity: 13.2
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
     discoverability: 71.4
-    operational_transparency: 18.9
+    operational_transparency: 5.3
   previous_composite: 16.8
   regulatory:
     applies: true
@@ -139,9 +158,9 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

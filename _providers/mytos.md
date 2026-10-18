@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.mytos.bio/newsroom
 - group: company
   title: ''
   type: Website
@@ -67,28 +71,31 @@ created: '2026-07-17'
 description: Mytos is a contract development and manufacturing organization (CDMO) for regenerative medicine and cell therapy. Its iDEM automation platform automates every unit operation of cell culture — coating, seeding, feeding, imaging, passaging and harvesting — in standard 2D T-flask formats, letting clinical-stage biotech companies transfer their manual protocols to automated GMP production at up to 50% lower batch cost, with 10x less labor and cleanroom footprint per batch. Mytos operates a CDMO facility within the Cell and Gene Therapy Catapult site and is backed by Wing Venture Capital. No public developer/API surface was found during enrichment; the profile captures the company's verified security posture (trust center, SOC 2/SOC 3/21 CFR Part 11, domain security, vulnerability disclosure).
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mytos.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Mytos
 nav: Providers
 network: true
-overview: Mytos is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Cell Therapy, Regenerative Medicine, and Manufacturing Automation.
+overview: 'Mytos is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Cell Therapy, Regenerative Medicine, and Manufacturing Automation.
+
+
+  Mytos'' developer surface includes engineering blog and 6 more developer resources.'
 random_paper: 0
 score:
   band: minimal
-  composite: 9.5
+  composite: 10.0
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 48.2
     operational_transparency: 10.5
   previous_composite: 9.5
@@ -98,8 +105,8 @@ score:
     regime: Health
     regime_id: health
     score: 13.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

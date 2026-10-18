@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 92
   human_in_the_loop: 0
@@ -393,7 +393,7 @@ modified: '2026-09-16'
 name: Wingspan
 nav: Providers
 network: true
-overview: 'Wingspan publishes 15 APIs on the [APIs.io](https://apis.io/) network, including 1099 Operations API, Banking Management API, Bulk Operations API, and 12 more. Tagged areas include Company, Payments, Payroll, Contractors, and Invoicing.
+overview: 'Wingspan publishes 15 API contracts indexed on the [APIs.io](https://apis.io/) network, including 1099 Operations API, Banking Management API, Bulk Operations API, and 12 more. Tagged areas include Company, Payments, Payroll, Contractors, and Invoicing.
 
 
   The Wingspan catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -444,8 +444,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

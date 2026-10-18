@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 7
 apis:
 - description: The core toolkit for building reactive, event-driven applications on the JVM. Provides the event loop, verticle deployment, event bus, HTTP server and client, TCP/UDP networking, and the fundamental a
@@ -59,6 +59,21 @@ apis:
   slug: vertx-health-check
 artifact_total: 45
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/vert-x/refs/heads/main/plans/vert-x-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/vert-x-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/vert-x/refs/heads/main/rate-limits/vert-x-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/vert-x-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/vert-x/refs/heads/main/finops/vert-x-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/vert-x-finops.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -171,9 +186,13 @@ features:
 - description: Java 21 virtual thread support enabling synchronous-style code in Vert.x worker verticles.
   name: Virtual Threads
 finops:
-- name: Vert X Finops
+- has_sources: false
+  method: generated
+  name: Vert X Finops
+  primary_unit: ''
   service_category: API
   slug: vert-x-finops
+  template: true
 image: https://vertx.io/images/logo-wide.png
 integrations:
 - description: Vert.x is the reactive engine underlying Quarkus, providing the event loop and HTTP server for Quarkus applications.
@@ -218,13 +237,13 @@ modified: '2026-05-03'
 name: Vert.x
 nav: Providers
 network: true
-overview: 'Vert.x publishes 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Event-Driven, Framework, Java, JVM, and Microservices.
+overview: 'Vert.x is listed with 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Event-Driven, Framework, Java, JVM, and Microservices.
 
 
   The Vert.x catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Vert.x''s developer surface includes documentation, getting-started guide, engineering blog, changelog, Stack Overflow tag, and 14 more developer resources.'
+  Vert.x''s developer surface includes documentation, getting-started guide, engineering blog, changelog, Stack Overflow tag, and 17 more developer resources.'
 plans:
 - name: Vert X Plans Pricing
   plan_count: 3
@@ -235,9 +254,10 @@ rate_limits:
   name: Vert X Rate Limits
   slug: vert-x-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Vert.x API Rules
+  name: Vert.x — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -245,7 +265,8 @@ rules:
     info: 2
     warn: 3
   slug: vert-x-jsonschema-spectral-rules
-- effective_rule_count: 67
+- authorship: unmarked
+  effective_rule_count: 67
   extends:
   - spectral:oas
   name: Vert.x API Rules
@@ -258,17 +279,17 @@ rules:
   slug: vert-x-spectral-rules
 score:
   band: thin
-  composite: 32.0
+  composite: 30.5
   coverage:
     artifact_dirs: 13
-    catalog_earned: 73.0
+    catalog_earned: 70.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 42.0
+    catalog_gap: 45.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 36.8
+    access_clarity: 28.9
     contract_governance: 27.3
     contract_quality: 26.7
     developer_ergonomics: 28.6
@@ -281,8 +302,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

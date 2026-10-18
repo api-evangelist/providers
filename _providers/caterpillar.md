@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: The Cat Digital Marketplace publishes a catalog of Caterpillar APIs spanning asset telematics, fleet management, fuel data, utilization, hours/odometer, and geofencing. Developers subscribe via the Ca
@@ -48,6 +48,15 @@ apis:
   slug: visionlink-apis
 artifact_total: 10
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/caterpillar/refs/heads/main/finops/caterpillar-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/caterpillar-finops.yml
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://digital.cat.com/api-catalog-overview
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/caterpillar/refs/heads/main/security/caterpillar-domain-security.yml
   title: ''
@@ -224,19 +233,23 @@ common:
 created: '2026-03-21'
 description: 'Caterpillar Inc. (NYSE: CAT) is the world''s leading manufacturer of construction and mining equipment, off-highway diesel and natural gas engines, industrial gas turbines, and diesel-electric locomotives. Its digital arm, Cat Digital, publishes developer APIs through the Cat Digital Marketplace (digital.cat.com) covering fleet, asset, fuel, and worksite telematics built on top of the Cat Connect and VisionLink data platforms. The callable surface runs on an Apigee gateway at services.cat.com (mirrored at api.cat.com) and is authorized by a PingFederate OAuth 2.0 / OpenID Connect authorization server at fedlogin.cat.com. Caterpillar implements the ISO 15143-3 (AEMP 2.0) mixed-fleet telematics standard, so a consumer that already speaks AEMP can read Cat machine data with no bespoke connector.'
 finops:
-- name: Caterpillar Finops
+- has_sources: true
+  method: generated
+  name: Caterpillar Finops
+  primary_unit: ''
   service_category: Equipment Telematics + Fleet Data
   slug: caterpillar-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/caterpillar.png
 layout: provider
 modified: '2026-09-05'
 name: Caterpillar
 nav: Providers
 network: true
-overview: 'Caterpillar publishes 3 APIs on the [APIs.io](https://apis.io/) network, including ISO 15143-3 (AEMP 2.0) API, VisionLink APIs, and 1 more. Tagged areas include Construction, Engines, Fortune 500, Heavy Equipment, and Locomotives.
+overview: 'Caterpillar is listed with 3 APIs on the [APIs.io](https://apis.io/) network, including ISO 15143-3 (AEMP 2.0) API, VisionLink APIs, and 1 more. Tagged areas include Construction, Engines, Fortune 500, Heavy Equipment, and Locomotives.
 
 
-  Caterpillar''s developer surface includes authentication, changelog, developer portal, documentation, API reference, getting-started guide, support, and 32 more developer resources.'
+  Caterpillar''s developer surface includes pricing, authentication, changelog, developer portal, documentation, API reference, getting-started guide, and 34 more developer resources.'
 plans:
 - name: Caterpillar Plans Pricing
   plan_count: 1
@@ -269,17 +282,17 @@ scopes:
   summary_line: 13 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 44.6
+  composite: 45.2
   coverage:
     artifact_dirs: 21
-    catalog_earned: 63.0
+    catalog_earned: 60.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 52.0
+    catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
-    access_clarity: 50.0
+    access_clarity: 52.6
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 59.5
@@ -295,8 +308,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

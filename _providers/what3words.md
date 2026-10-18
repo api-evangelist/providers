@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-04'
+  score: 20.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -139,6 +139,10 @@ collections:
   name: what3words Public API
   slug: open-what3words
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://what3words.com/news
 - group: operate
   title: ''
   type: IssueTracker
@@ -192,19 +196,23 @@ common:
 created: '2026-05-23'
 description: what3words has divided the world into a grid of three-metre squares and given each one a unique three-word address (e.g. ///filled.count.soap). The what3words Public API converts between three-word addresses and latitude / longitude coordinates, offers an AutoSuggest with autocorrect for voice/typing input, exposes supported languages and locale variants, and returns grid sections as GeoJSON. The API is HTTPS GET only, authenticated by API key in a query parameter or X-Api-Key header, and is wrapped by official SDKs for Swift, Android, Java, JavaScript, Python, PHP, and .NET, plus UI components for map and OCR experiences.
 finops:
-- name: What3Words Finops
+- has_sources: false
+  method: generated
+  name: What3Words Finops
+  primary_unit: ''
   service_category: API
   slug: what3words-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/what3words.png
 layout: provider
-modified: '2026-05-23'
+modified: '2026-10-06'
 name: what3words
 nav: Providers
 network: true
-overview: 'what3words publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Autosuggest API, Available Languages API, Convert To 3wa API, and 17 more. Tagged areas include Geocoding, Addressing, Location, Three Word Address, and Maps.
+overview: 'what3words publishes 20 API contracts indexed on the [APIs.io](https://apis.io/) network, including Autosuggest API, Available Languages API, Convert To 3wa API, and 17 more. Tagged areas include Geocoding, Addressing, Location, Three Word Address, and Maps.
 
 
-  what3words'' developer surface includes authentication, documentation, GitHub presence, and 8 more developer resources.'
+  what3words'' developer surface includes engineering blog, authentication, documentation, GitHub presence, and 8 more developer resources.'
 plans:
 - name: What3Words Plans Pricing
   plan_count: 1
@@ -215,23 +223,23 @@ rate_limits:
   name: What3Words Rate Limits
   slug: what3words-rate-limits
 score:
-  band: thin
-  composite: 29.7
+  band: emerging
+  composite: 24.2
   coverage:
-    artifact_dirs: 10
-    catalog_earned: 54.4
+    artifact_dirs: 12
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 60.6
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.5
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 43.5
-    developer_ergonomics: 21.4
+    developer_ergonomics: 23.8
     discoverability: 66.1
-    operational_transparency: 24.2
+    operational_transparency: 10.5
   previous_composite: 29.7
   provenance:
     agentic_access: derived
@@ -246,9 +254,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Agent-driven commerce surface for The Folklore's Shopify storefront, implementing the Universal Commerce Protocol over an MCP endpoint with buyer-approved checkout, plus read-only storefront JSON endp
@@ -41,6 +41,14 @@ apis:
   slug: the-folklore-commerce-ucp
 artifact_total: 5
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://thefolklore.com/blogs/the-folklore-edit
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://thefolklore.com/blogs/the-folklore-edit.atom
 - group: company
   title: ''
   type: Website
@@ -130,14 +138,14 @@ mcp_servers:
 - description: Remote MCP server at thefolklore.com; 6 tools listed.
   name: The Folklore MCP Server
   slug: the-folklore-ucp
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: The Folklore
 nav: Providers
 network: true
-overview: 'The Folklore publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Commerce, Wholesale, Marketplace, and Retail.
+overview: 'The Folklore is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Commerce, Wholesale, Marketplace, and Retail.
 
 
-  The Folklore''s developer surface includes documentation, support, engineering blog, pricing, signup flow, authentication, and 12 more developer resources.'
+  The Folklore''s developer surface includes engineering blog, documentation, support, pricing, signup flow, authentication, and 14 more developer resources.'
 random_paper: 18
 scopes:
 - name: The Folklore Scopes
@@ -148,7 +156,7 @@ score:
   band: thin
   composite: 28.6
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -173,8 +181,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

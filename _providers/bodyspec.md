@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 51.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -273,7 +273,7 @@ modified: '2026-10-02'
 name: BodySpec
 nav: Providers
 network: true
-overview: 'BodySpec publishes 15 APIs on the [APIs.io](https://apis.io/) network, including API Status API, Appointments API, Availability API, and 12 more. Tagged areas include Company, Health, Fitness, and Data.
+overview: 'BodySpec publishes 15 API contracts indexed on the [APIs.io](https://apis.io/) network, including API Status API, Appointments API, Availability API, and 12 more. Tagged areas include Company, Health, Fitness, and Data.
 
 
   The BodySpec catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
@@ -286,7 +286,8 @@ plans:
   slug: bodyspec-plans-pricing
 random_paper: 21
 rules:
-- effective_rule_count: 57
+- authorship: generated
+  effective_rule_count: 57
   extends:
   - spectral:oas
   name: BodySpec API Rules
@@ -304,7 +305,7 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: developing
-  composite: 47.6
+  composite: 47.7
   coverage:
     artifact_dirs: 21
     catalog_earned: 57.8
@@ -312,6 +313,7 @@ score:
     catalog_gap: 57.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -4.2
   facets:
     access_clarity: 44.7
     contract_governance: 22.0
@@ -319,6 +321,7 @@ score:
     developer_ergonomics: 44.6
     discoverability: 57.1
     operational_transparency: 7.9
+  previous_composite: 51.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -335,8 +338,9 @@ score:
     regime: Health
     regime_id: health
     score: 32.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: flat
   upsert:
     applies: true
     score: 0.0

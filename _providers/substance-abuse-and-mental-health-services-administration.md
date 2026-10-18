@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.5
-  scored_at: '2026-10-04'
+  score: 19.3
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -66,6 +66,25 @@ collections:
   name: SAMHSA Behavioral Health Treatment Services Locator Treatment Facilities API
   slug: open-substance-abuse-and-mental-health-services-administration-treatment-facilities-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/substance-abuse-and-mental-health-services-administration/refs/heads/main/plans/substance-abuse-and-mental-health-services-administration-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/substance-abuse-and-mental-health-services-administration-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/substance-abuse-and-mental-health-services-administration/refs/heads/main/rate-limits/substance-abuse-and-mental-health-services-administration-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/substance-abuse-and-mental-health-services-administration-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/substance-abuse-and-mental-health-services-administration/refs/heads/main/finops/substance-abuse-and-mental-health-services-administration-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/substance-abuse-and-mental-health-services-administration-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.samhsa.gov/blog
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/substance-abuse-and-mental-health-services-administration/refs/heads/main/agentic-access/substance-abuse-and-mental-health-services-administration-agentic-access.yml
   title: ''
@@ -165,9 +184,13 @@ examples:
   name: Samhsa Search Treatment Facilities Example
   slug: samhsa-search-treatment-facilities-example
 finops:
-- name: Substance Abuse And Mental Health Services Administration Finops
+- has_sources: false
+  method: generated
+  name: Substance Abuse And Mental Health Services Administration Finops
+  primary_unit: ''
   service_category: API
   slug: substance-abuse-and-mental-health-services-administration-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/substance-abuse-and-mental-health-services-administration.png
 json_schemas:
 - name: SAMHSA NSDUH Survey Data Record
@@ -186,17 +209,17 @@ jsonld:
   property_count: 18
   slug: samhsa-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-10-06'
 name: Substance Abuse and Mental Health Services Administration
 nav: Providers
 network: true
-overview: 'Substance Abuse and Mental Health Services Administration publishes 3 APIs on the [APIs.io](https://apis.io/) network, including Treatment Facilities API, and 2 more. Tagged areas include Federal Government, Public Health, Behavioral Health, Substance Use Disorders, and Mental Health.
+overview: 'Substance Abuse and Mental Health Services Administration publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network, including Treatment Facilities API, and 2 more. Tagged areas include Federal Government, Public Health, Behavioral Health, Substance Use Disorders, and Mental Health.
 
 
   The Substance Abuse and Mental Health Services Administration catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Substance Abuse and Mental Health Services Administration''s developer surface includes FAQ, API reference, code examples, and 18 more developer resources.'
+  Substance Abuse and Mental Health Services Administration''s developer surface includes engineering blog, FAQ, API reference, code examples, and 21 more developer resources.'
 plans:
 - name: Substance Abuse And Mental Health Services Administration Plans Pricing
   plan_count: 3
@@ -207,9 +230,10 @@ rate_limits:
   name: Substance Abuse And Mental Health Services Administration Rate Limits
   slug: substance-abuse-and-mental-health-services-administration-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Substance Abuse and Mental Health Services Administration API Rules
+  name: Substance Abuse and Mental Health Services Administration — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -219,20 +243,20 @@ rules:
   slug: substance-abuse-and-mental-health-services-administration-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 38.4
+  composite: 33.2
   coverage:
-    artifact_dirs: 14
-    catalog_earned: 53.8
+    artifact_dirs: 16
+    catalog_earned: 56.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 46.3
-    catalog_max: 100.0
+    catalog_gap: 58.3
+    catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.2
   facets:
-    access_clarity: 57.1
+    access_clarity: 28.9
     contract_governance: 23.5
     contract_quality: 58.0
-    developer_ergonomics: 7.1
+    developer_ergonomics: 9.5
     discoverability: 57.1
     operational_transparency: 13.2
   jurisdiction:
@@ -254,9 +278,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 18.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

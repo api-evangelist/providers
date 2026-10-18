@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Hosted Platform-as-a-Service REST API for Me Protocol — the backend behind the embeddable rewards SDKs. Authenticates SDK integrations with an API key and brokers reward issuance, redemption, and cros
@@ -119,7 +119,7 @@ modified: '2026-07-20'
 name: My AI
 nav: Providers
 network: true
-overview: 'My AI publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Rewards, Loyalty, Web3, and Blockchain.
+overview: 'My AI is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Rewards, Loyalty, Web3, and Blockchain.
 
 
   My AI''s developer surface includes documentation, getting-started guide, pricing, engineering blog, authentication, sandbox, and 9 more developer resources.'
@@ -149,8 +149,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 10.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

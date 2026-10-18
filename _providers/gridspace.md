@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -273,7 +273,7 @@ modified: '2026-07-19'
 name: Gridspace
 nav: Providers
 network: true
-overview: 'Gridspace publishes 3 APIs on the [APIs.io](https://apis.io/) network: Conversations API, Messages API, and SDK API. Tagged areas include Company, Voice AI, Conversational AI, Voice Agents, and Speech Recognition.
+overview: 'Gridspace publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Conversations API, Messages API, and SDK API. Tagged areas include Company, Voice AI, Conversational AI, Voice Agents, and Speech Recognition.
 
 
   Gridspace''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, support, and 31 more developer resources.'
@@ -317,8 +317,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 25.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

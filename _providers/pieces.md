@@ -27,20 +27,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 18.3
-  scored_at: '2026-10-04'
+  score: 16.5
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 14
+- acting_count: 13
   human_in_the_loop: 0
   name: Pieces Agentic Access
   operation_count: 28
   slug: pieces-agentic-access
-  summary_line: 28 operations · 14 acting
+  summary_line: 28 operations · 13 acting
 api_count: 1
 apis:
 - baseURL: http://localhost:1000
@@ -120,6 +120,14 @@ collections:
   name: Pieces OS Local API
   slug: open-pieces
 common:
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://pieces.app/pricing
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://pieces.app/blog/rss.xml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/pieces/refs/heads/main/agentic-access/pieces-agentic-access.yml
   title: ''
@@ -168,25 +176,29 @@ common:
 created: '2026-06-20'
 description: Pieces is an on-device AI developer assistant and long-term memory tool. Pieces OS runs locally on the developer's machine and exposes a documented local REST API at http://localhost:1000 covering saved snippets (assets), the Pieces Copilot (QGPT) question/stream endpoints, local and cloud models, formats, applications, conversations, and workspace context. The same on-device API powers official OpenAPI-generated SDKs for Python, TypeScript, Dart, Kotlin, and C#.
 finops:
-- name: Pieces Finops
+- has_sources: true
+  method: generated
+  name: Pieces Finops
+  primary_unit: ''
   service_category: AI and Machine Learning
   slug: pieces-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pieces.png
 layout: provider
-modified: '2026-06-20'
+modified: '2026-10-06'
 name: Pieces
 nav: Providers
 network: true
-overview: 'Pieces publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Assets API, Conversations API, and 5 more. Tagged areas include Artificial Intelligence, Developer Tools, On-Device, Local API, and Long-Term Memory.
+overview: 'Pieces publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Applications API, Assets API, Conversations API, and 5 more. Tagged areas include Artificial Intelligence, Developer Tools, On-Device, Local API, and Long-Term Memory.
 
 
   The Pieces catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Pieces'' developer surface includes documentation, engineering blog, and 8 more developer resources.'
+  Pieces'' developer surface includes pricing, documentation, engineering blog, and 9 more developer resources.'
 plans:
 - name: Pieces Plans Pricing
-  plan_count: 3
+  plan_count: 2
   slug: pieces-plans-pricing
 random_paper: 17
 rate_limits:
@@ -194,10 +206,11 @@ rate_limits:
   name: Pieces Rate Limits
   slug: pieces-rate-limits
 rules:
-- effective_rule_count: 28
+- authorship: generated
+  effective_rule_count: 28
   extends:
   - spectral:asyncapi
-  name: Pieces API Rules
+  name: Pieces — asyncapi rules
   rule_count: 1
   severity_counts:
     error: 0
@@ -207,22 +220,22 @@ rules:
   slug: pieces-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 30.3
+  composite: 26.8
   coverage:
     artifact_dirs: 12
-    catalog_earned: 60.4
-    catalog_earned_first_party: 0.0
-    catalog_gap: 54.6
+    catalog_earned: 46.8
+    catalog_earned_first_party: 8.0
+    catalog_gap: 68.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.5
   facets:
-    access_clarity: 36.3
+    access_clarity: 31.6
     contract_governance: 11.4
     contract_quality: 40.5
     developer_ergonomics: 20.2
     discoverability: 57.1
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   previous_composite: 30.3
   provenance:
     agentic_access: derived
@@ -237,8 +250,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

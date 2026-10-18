@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 44.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 49
-  human_in_the_loop: 14
+- acting_count: 38
+  human_in_the_loop: 7
   name: Amex Gbt Agentic Access
   operation_count: 84
   slug: amex-gbt-agentic-access
-  summary_line: 84 operations · 49 acting · 14 human-in-the-loop
+  summary_line: 84 operations · 38 acting · 7 human-in-the-loop
 api_count: 17
 apis:
 - baseURL: https://apis.egencia.com/openconnect/api
@@ -514,7 +514,7 @@ modified: '2026-09-16'
 name: American Express Global Business Travel
 nav: Providers
 network: true
-overview: 'American Express Global Business Travel publishes 26 APIs on the [APIs.io](https://apis.io/) network, including Agent Assist Notes API, Approval API, Availability Probes Controller API, and 23 more. Tagged areas include Travel, United States, Corporate Travel, Travel Management, and Business Travel.
+overview: 'American Express Global Business Travel publishes 26 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agent Assist Notes API, Approval API, Availability Probes Controller API, and 23 more. Tagged areas include Travel, United States, Corporate Travel, Travel Management, and Business Travel.
 
 
   The American Express Global Business Travel catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -531,13 +531,13 @@ score:
   band: developing
   composite: 49.8
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 26
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
@@ -552,7 +552,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 49.2
+  previous_composite: 49.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -569,12 +569,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
     score: 27.8
+screenshot: https://raw.githubusercontent.com/api-evangelist/amex-gbt/refs/heads/main/screenshots/amex-gbt-2026-10-11T093848.png
 security:
 - kind: authentication
   name: Amex Gbt Authentication

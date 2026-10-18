@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -274,16 +274,20 @@ common:
 created: '2026-05-08'
 description: Column is a chartered nationally-regulated bank purpose-built for developer APIs. Offers ACH, wires, FedNow, checks, BIN sponsorship, and bank-direct ledgering.
 finops:
-- name: Column Finops
+- has_sources: true
+  method: generated
+  name: Column Finops
+  primary_unit: ''
   service_category: Fintech
   slug: column-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/column.png
 layout: provider
 modified: '2026-05-30'
 name: Column
 nav: Providers
 network: true
-overview: 'Column publishes 21 APIs on the [APIs.io](https://apis.io/) network, including ACH Transfers API, Wire Transfers API, International Wires API, and 18 more. Tagged areas include Fintech, Banking, Banking as a Service, ACH, and Wires.
+overview: 'Column publishes 21 API contracts indexed on the [APIs.io](https://apis.io/) network, including ACH Transfers API, Wire Transfers API, International Wires API, and 18 more. Tagged areas include Fintech, Banking, Banking as a Service, ACH, and Wires.
 
 
   Column''s developer surface includes sandbox, API reference, changelog, getting-started guide, authentication, engineering blog, and 12 more developer resources.'
@@ -298,17 +302,17 @@ rate_limits:
   slug: column-rate-limits
 score:
   band: thin
-  composite: 37.3
+  composite: 35.7
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 39.0
+    artifact_dirs: 14
+    catalog_earned: 36.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 76.0
+    catalog_gap: 79.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 19.7
+    access_clarity: 11.8
     contract_governance: 0.0
     contract_quality: 53.9
     developer_ergonomics: 50.0
@@ -328,12 +332,13 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 9.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
     score: 0.0
+screenshot: https://raw.githubusercontent.com/api-evangelist/column/refs/heads/main/screenshots/column-2026-10-11T103336.png
 security:
 - kind: authentication
   name: Column Authentication

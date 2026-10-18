@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 6.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'The REST API behind the Lifebit Platform (CloudOS): manage workspace projects, job queues, workflows/pipelines, Nextflow and Cromwell/WDL job submission and monitoring, interactive analysis sessions, '
@@ -42,6 +42,10 @@ apis:
   slug: cloudos-api
 artifact_total: 4
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://lifebit.ai/feed/
 - group: operate
   title: ''
   type: IssueTracker
@@ -205,20 +209,20 @@ description: 'Lifebit Biotech Ltd is a London-founded (2017) health-data infrast
   federated TRE, AI-automated OMOP CDM v5.4 harmonisation, federated learning, a trusted data lakehouse and a trusted data marketplace. Publicly disclosed deployments include Genomics England, the US NIH National Library of Medicine, CanPath, Singapore Synapxe, Boehringer Ingelheim, Flatiron Health and 23andMe.'
 image: https://lifebit.ai/wp-content/uploads/2025/04/favicon.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Lifebit Biotech
 nav: Providers
 network: true
-overview: 'Lifebit Biotech publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Genomics, Bioinformatics, and Federated Learning.
+overview: 'Lifebit Biotech is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Genomics, Bioinformatics, and Federated Learning.
 
 
-  Lifebit Biotech''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, YouTube channel, and 29 more developer resources.'
+  Lifebit Biotech''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, YouTube channel, and 30 more developer resources.'
 random_paper: 18
 score:
   band: thin
   composite: 33.1
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -245,8 +249,8 @@ score:
     regime: Health
     regime_id: health
     score: 20.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

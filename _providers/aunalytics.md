@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 14.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Data platform API for Aunalytics
@@ -31,6 +31,10 @@ apis:
   slug: aunalytics-api
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.aunalytics.com/feed/
 - group: design
   href: https://raw.githubusercontent.com/api-evangelist/aunalytics/refs/heads/main/conformance/aunalytics-conformance.yml
   title: ''
@@ -95,25 +99,26 @@ coverage:
 created: '2026-09-26'
 description: Aunalytics provides AI agents and AI‑powered solutions tailored for financial institutions and IT departments. Their platform offers an intelligent data warehouse, analytics services, and a suite of AI tools that help banks, credit unions, healthcare providers, and government agencies streamline data processing, improve decision‑making, and automate routine tasks. By combining secure infrastructure with proprietary data models, Aunalytics enables organizations to make data AI‑ready and put it to work across a range of enterprise cloud services, backup, disaster recovery, and managed security solutions.
 layout: provider
-modified: '2026-09-26'
+modified: '2026-10-06'
 name: Aunalytics
 nav: Providers
 network: true
-overview: 'Aunalytics publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Financial Services, Data Analytics, and Cloud.
+overview: 'Aunalytics is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Financial Services, Data Analytics, and Cloud.
 
 
-  Aunalytics'' developer surface includes engineering blog, documentation, support, and 9 more developer resources.'
+  Aunalytics'' developer surface includes engineering blog, documentation, support, and 10 more developer resources.'
 random_paper: 7
 score:
   band: emerging
-  composite: 15.7
+  composite: 15.8
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 30.0
     catalog_earned_first_party: 0.0
     catalog_gap: 85.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.1
   facets:
     access_clarity: 10.5
     contract_governance: 18.2
@@ -121,6 +126,7 @@ score:
     developer_ergonomics: 16.7
     discoverability: 55.4
     operational_transparency: 15.8
+  previous_composite: 15.7
   provenance:
     conformance: first-party
     mcp: derived
@@ -136,12 +142,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/aunalytics/refs/heads/main/screenshots/aunalytics-2026-10-11T100836.png
 security:
 - kind: domain-security
   name: Aunalytics Domain Security

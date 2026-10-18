@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://foo-api.esper.cloud/api
@@ -151,6 +151,10 @@ collections:
   name: ESPER API REFERENCE Application Token API
   slug: open-esper-token-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.esper.io/blog/rss.xml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/esper/refs/heads/main/capabilities/esper-capability-edges.yml
   title: ''
@@ -257,29 +261,29 @@ created: '2026-07-17'
 description: 'Esper is the DevOps platform for connected devices, providing cloud-based Android (and edge) device management, application deployment, and remote orchestration for dedicated-device fleets. The Esper Manage REST API lets developers programmatically provision, monitor, and control Android-based dedicated devices running the Esper agent: manage devices and device groups, upload and roll out applications and versions, run device and group commands, configure compliance and enterprise policies, set up geofences, manage content, and subscribe to device events via webhooks. APIs are authenticated with a Bearer API key and served per-tenant on a dedicated Esper Cloud environment, with an official Python SDK (esperclient) and CLI.'
 image: https://avatars.githubusercontent.com/u/49017159?v=4
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Esper
 nav: Providers
 network: true
-overview: 'Esper publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Application API, Application V1 API, Commands API, and 10 more. Tagged areas include Device Management, Mobile Device Management, Android, DevOps, and IoT.
+overview: 'Esper publishes 13 API contracts indexed on the [APIs.io](https://apis.io/) network, including Application API, Application V1 API, Commands API, and 10 more. Tagged areas include Device Management, Mobile Device Management, Android, DevOps, and IoT.
 
 
   The Esper catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Esper''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 16 more developer resources.'
+  Esper''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 17 more developer resources.'
 random_paper: 15
 score:
   band: developing
-  composite: 47.6
+  composite: 47.7
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 60.5
     contract_governance: 4.5
@@ -303,8 +307,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

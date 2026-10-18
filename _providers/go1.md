@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 5
@@ -272,7 +272,7 @@ modified: '2026-07-19'
 name: Go1
 nav: Providers
 network: true
-overview: 'Go1 publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Enrollments API, Learning objects API, Portals API, and 1 more. Tagged areas include Company, EdTech, Learning, E-Learning, and Corporate Training.
+overview: 'Go1 publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Enrollments API, Learning objects API, Portals API, and 1 more. Tagged areas include Company, EdTech, Learning, E-Learning, and Corporate Training.
 
 
   The Go1 catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -293,7 +293,7 @@ score:
   band: strong
   composite: 63.5
   coverage:
-    artifact_dirs: 27
+    artifact_dirs: 28
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -324,8 +324,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 39.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -352,7 +352,6 @@ tags:
 - E-Learning
 - Corporate Training
 - Content
-- Learning Management
 - LMS
 - Education
 - Webhook

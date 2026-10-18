@@ -23,10 +23,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://airnow.com/blog/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/airnow/refs/heads/main/security/airnow-domain-security.yml
   title: ''
@@ -63,28 +67,31 @@ coverage:
 created: '2026-09-19'
 description: 'Airnow is a London-headquartered group of specialist mobile-app technology companies operating as one engine for app-first businesses: Lab Cave (Madrid, mobile game publishing and growth), AppMonsta (UK, programmatic ad-tech and an app-store intelligence dataset), Mobstr (UK, AI-driven mobile-app security scanning and GRC ratings) and Vambrace (UK, managed SOC and vCISO services). The group is fusing these into Project Chimera, a unified SaaS platform announced for 2026 that layers AI analytics, media buying and monetisation on a 24-million-app data lake. Airnow itself publishes no developer program, API reference or machine-readable contract; the API surface in the group sits with its subsidiary AppMonsta. Pre-IPO shares trade on EquityZen.'
 layout: provider
-modified: '2026-09-19'
+modified: '2026-10-06'
 name: Airnow
 nav: Providers
 network: true
-overview: Airnow is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Mobile App, App Intelligence, AdTech, and Mobile Security.
+overview: 'Airnow is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Mobile App, App Intelligence, AdTech, and Mobile Security.
+
+
+  Airnow''s developer surface includes engineering blog and 4 more developer resources.'
 random_paper: 18
 score:
   band: minimal
-  composite: 3.0
+  composite: 3.6
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 7
     catalog_earned: 25.0
     catalog_earned_first_party: 0.0
     catalog_gap: 90.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 44.6
     operational_transparency: 0.0
   jurisdiction:
@@ -102,13 +109,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/airnow/refs/heads/main/screenshots/airnow-2026-10-11T093430.png
 security:
 - kind: domain-security
   name: Airnow Domain Security

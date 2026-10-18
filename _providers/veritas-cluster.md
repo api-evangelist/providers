@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.2
-  scored_at: '2026-10-04'
+  score: 17.4
+  scored_at: '2026-10-17'
 api_count: 8
 apis:
 - description: RESTful API for managing cluster resources, service groups, and cluster configuration.
@@ -62,6 +62,21 @@ apis:
   slug: veritas-infoscale-for-kubernetes-environments
 artifact_total: 13
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/veritas-cluster/refs/heads/main/plans/veritas-cluster-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/veritas-cluster-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/veritas-cluster/refs/heads/main/rate-limits/veritas-cluster-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/veritas-cluster-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/veritas-cluster/refs/heads/main/finops/veritas-cluster-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/veritas-cluster-finops.yml
 - group: company
   title: ''
   type: Website
@@ -119,19 +134,23 @@ common:
 created: '2024-01-15'
 description: APIs for managing and monitoring Veritas Cluster Server (VCS) and InfoScale infrastructure, providing high availability, disaster recovery, and storage management capabilities across on-premises and containerized environments.
 finops:
-- name: Veritas Cluster Finops
+- has_sources: false
+  method: generated
+  name: Veritas Cluster Finops
+  primary_unit: ''
   service_category: API
   slug: veritas-cluster-finops
+  template: true
 image: /assets/icons/veritas-cluster.png
 layout: provider
 modified: '2026-09-16'
 name: Veritas Cluster Server
 nav: Providers
 network: true
-overview: 'Veritas Cluster Server publishes 8 APIs on the [APIs.io](https://apis.io/) network, including REST API, and 7 more. Tagged areas include Clustering, Containers, Disaster Recovery, Failover, and High Availability.
+overview: 'Veritas Cluster Server is listed with 8 APIs on the [APIs.io](https://apis.io/) network, including REST API, and 7 more. Tagged areas include Clustering, Containers, Disaster Recovery, Failover, and High Availability.
 
 
-  Veritas Cluster Server''s developer surface includes support, developer portal, documentation, release notes, engineering blog, and 8 more developer resources.'
+  Veritas Cluster Server''s developer surface includes support, developer portal, documentation, release notes, engineering blog, and 11 more developer resources.'
 plans:
 - name: Veritas Cluster Plans Pricing
   plan_count: 3
@@ -143,17 +162,17 @@ rate_limits:
   slug: veritas-cluster-rate-limits
 score:
   band: thin
-  composite: 38.8
+  composite: 37.3
   coverage:
     artifact_dirs: 7
-    catalog_earned: 44.0
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 71.0
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 36.8
+    access_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 30.5
     developer_ergonomics: 63.1
@@ -166,8 +185,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 25.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -182,7 +201,7 @@ security:
 - kind: vulnerability-disclosure
   name: Veritas Cluster Vulnerability Disclosure
   slug: veritas-cluster-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 slug: veritas-cluster
 tags:
 - Clustering

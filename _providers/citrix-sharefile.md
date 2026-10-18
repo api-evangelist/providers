@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -104,6 +104,10 @@ collections:
   name: Citrix ShareFile REST API v3
   slug: open-citrix-sharefile
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.sharefile.com/blogs
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/citrix-sharefile/refs/heads/main/capabilities/citrix-sharefile-capability-edges.yml
   title: ''
@@ -165,31 +169,31 @@ created: '2026-05-11'
 description: ShareFile (now part of Progress Software) is a secure document workflow and file sharing platform that lets teams share files, collect e-signatures, request data from clients, and automate document-centric workflows. The ShareFile v3 REST API provides programmatic access to items, folders, files, users, groups, shares, capabilities, and workflows in a customer subdomain, secured with OAuth 2.0.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/citrix-sharefile.png
 layout: provider
-modified: '2026-05-11'
+modified: '2026-10-06'
 name: Citrix ShareFile
 nav: Providers
 network: true
-overview: 'Citrix ShareFile publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Groups API, Items API, and 4 more. Tagged areas include File Sharing, Document Workflow, Secure File Transfer, E-Signature, and Client Portal.
+overview: 'Citrix ShareFile publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, Groups API, Items API, and 4 more. Tagged areas include File Sharing, Document Workflow, Secure File Transfer, E-Signature, and Client Portal.
 
 
-  Citrix ShareFile''s developer surface includes authentication, documentation, pricing, signup flow, and 9 more developer resources.'
+  Citrix ShareFile''s developer surface includes engineering blog, authentication, documentation, pricing, signup flow, and 9 more developer resources.'
 random_paper: 1
 score:
   band: thin
-  composite: 30.3
+  composite: 30.8
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 11
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 31.6
     contract_governance: 0.0
     contract_quality: 45.3
-    developer_ergonomics: 23.8
+    developer_ergonomics: 26.2
     discoverability: 73.2
     operational_transparency: 0.0
   previous_composite: 30.3
@@ -206,8 +210,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

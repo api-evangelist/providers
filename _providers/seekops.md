@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The authenticated backend behind Celsius, SeekOps' cloud analytics and emissions-reconciliation dashboard. Observed as a Django REST Framework service at https://celsius.seekops.com/api/ — every probe
@@ -44,6 +44,10 @@ apis:
   slug: celsius
 artifact_total: 5
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://seekops.com/feed/
 - group: company
   title: ''
   type: Website
@@ -120,14 +124,14 @@ description: 'SeekOps Inc. is an Austin, Texas emissions-measurement company tha
   behind authentication and SeekOps publishes no public developer program, API documentation or machine-readable contract.'
 image: https://seekops.com/wp-content/themes/seekops-theme/assets/img/logo-nav.svg
 layout: provider
-modified: '2026-08-26'
+modified: '2026-10-06'
 name: SeekOps
 nav: Providers
 network: true
-overview: 'SeekOps publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Energy, Oil and Gas, Emissions, and Methane.
+overview: 'SeekOps is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Energy, Oil and Gas, Emissions, and Methane.
 
 
-  SeekOps'' developer surface includes engineering blog, support, FAQ, and 9 more developer resources.'
+  SeekOps'' developer surface includes engineering blog, support, FAQ, and 10 more developer resources.'
 plans:
 - name: Seekops Plans Pricing
   plan_count: 0
@@ -165,8 +169,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 21.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

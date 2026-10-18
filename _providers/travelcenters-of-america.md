@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-04'
+  score: 20.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -102,6 +102,25 @@ collections:
   name: TravelCenters of America API
   slug: open-travelcenters-of-america
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/travelcenters-of-america/refs/heads/main/plans/travelcenters-of-america-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/travelcenters-of-america-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/travelcenters-of-america/refs/heads/main/rate-limits/travelcenters-of-america-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/travelcenters-of-america-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/travelcenters-of-america/refs/heads/main/finops/travelcenters-of-america-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/travelcenters-of-america-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.ta-petro.com/newsroom/
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/travelcenters-of-america/refs/heads/main/agentic-access/travelcenters-of-america-agentic-access.yml
   title: ''
@@ -147,9 +166,13 @@ examples:
   name: Travelcenters Of America List Locations Example
   slug: travelcenters-of-america-list-locations-example
 finops:
-- name: Travelcenters Of America Finops
+- has_sources: false
+  method: generated
+  name: Travelcenters Of America Finops
+  primary_unit: ''
   service_category: API
   slug: travelcenters-of-america-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/travelcenters-of-america.png
 json_schemas:
 - name: Travel Center Location
@@ -165,17 +188,17 @@ jsonld:
   property_count: 0
   slug: travelcenters-of-america-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-10-06'
 name: TravelCenters of America
 nav: Providers
 network: true
-overview: 'TravelCenters of America publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Fuel Codes API, Locations API, Parking API, and 3 more. Tagged areas include Travel Centers, Truck Service, Retail, Fuel, and Location.
+overview: 'TravelCenters of America publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Fuel Codes API, Locations API, Parking API, and 3 more. Tagged areas include Travel Centers, Truck Service, Retail, Fuel, and Location.
 
 
   The TravelCenters of America catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  TravelCenters of America''s developer surface includes authentication, documentation, signup flow, and 5 more developer resources.'
+  TravelCenters of America''s developer surface includes engineering blog, authentication, documentation, signup flow, and 8 more developer resources.'
 plans:
 - name: Travelcenters Of America Plans Pricing
   plan_count: 3
@@ -202,9 +225,10 @@ rate_limits:
   name: Travelcenters Of America Rate Limits
   slug: travelcenters-of-america-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: TravelCenters of America API Rules
+  name: TravelCenters of America — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -212,7 +236,8 @@ rules:
     info: 1
     warn: 4
   slug: travelcenters-of-america-jsonschema-spectral-rules
-- effective_rule_count: 51
+- authorship: unmarked
+  effective_rule_count: 51
   extends:
   - spectral:oas
   name: TravelCenters of America API Rules
@@ -225,20 +250,20 @@ rules:
   slug: travelcenters-of-america-rules
 score:
   band: thin
-  composite: 34.2
+  composite: 33.2
   coverage:
     artifact_dirs: 19
-    catalog_earned: 68.4
+    catalog_earned: 65.4
     catalog_earned_first_party: 0.0
-    catalog_gap: 46.6
+    catalog_gap: 49.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.0
   facets:
-    access_clarity: 28.9
+    access_clarity: 21.1
     contract_governance: 27.3
     contract_quality: 59.9
-    developer_ergonomics: 11.9
+    developer_ergonomics: 14.3
     discoverability: 66.1
     operational_transparency: 7.9
   previous_composite: 34.2
@@ -255,8 +280,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

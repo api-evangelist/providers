@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -62,6 +62,21 @@ collections:
   name: Zestful
   slug: open-zestful
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/zestful/refs/heads/main/plans/zestful-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/zestful-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/zestful/refs/heads/main/rate-limits/zestful-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/zestful-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/zestful/refs/heads/main/finops/zestful-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/zestful-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/zestful/refs/heads/main/agentic-access/zestful-agentic-access.yml
   title: ''
@@ -109,9 +124,13 @@ examples:
   name: Zestful Parse Ingredients Example
   slug: zestful-parse-ingredients-example
 finops:
-- name: Zestful Finops
+- has_sources: false
+  method: generated
+  name: Zestful Finops
+  primary_unit: ''
   service_category: API
   slug: zestful-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zestful.png
 json_schemas:
 - name: Zestful Parsed Ingredient
@@ -134,13 +153,13 @@ modified: '2026-05-19'
 name: Zestful
 nav: Providers
 network: true
-overview: 'Zestful publishes 1 API on the [APIs.io](https://apis.io/) network: Parse API. Tagged areas include Food, Ingredients, Parser, Recipes, and USDA.
+overview: 'Zestful publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Parse API. Tagged areas include Food, Ingredients, Parser, Recipes, and USDA.
 
 
   The Zestful catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Zestful''s developer surface includes authentication, documentation, pricing, and 6 more developer resources.'
+  Zestful''s developer surface includes authentication, documentation, pricing, and 9 more developer resources.'
 plans:
 - name: Zestful Plans Pricing
   plan_count: 3
@@ -151,9 +170,10 @@ rate_limits:
   name: Zestful Rate Limits
   slug: zestful-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Zestful API Rules
+  name: Zestful — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -161,7 +181,8 @@ rules:
     info: 2
     warn: 3
   slug: zestful-jsonschema-spectral-rules
-- effective_rule_count: 48
+- authorship: unmarked
+  effective_rule_count: 48
   extends:
   - spectral:oas
   name: Zestful API Rules
@@ -174,17 +195,17 @@ rules:
   slug: zestful-rules
 score:
   band: thin
-  composite: 37.1
+  composite: 35.6
   coverage:
-    artifact_dirs: 15
-    catalog_earned: 72.0
+    artifact_dirs: 16
+    catalog_earned: 69.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 43.0
+    catalog_gap: 46.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 26.3
+    access_clarity: 18.4
     contract_governance: 27.3
     contract_quality: 63.0
     developer_ergonomics: 28.6
@@ -204,8 +225,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

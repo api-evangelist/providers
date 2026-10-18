@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 51.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -32,7 +32,7 @@ agentic_access:
   operation_count: 0
   slug: drillr-agentic-access
   summary_line: 0 operations
-api_count: 1
+api_count: 2
 apis:
 - description: Hosted Streamable HTTP MCP server (drillr-data) exposing the same financial data as ~10 agent-callable tools covering discovery, filings, signals and arbitrary SQL. Browser OAuth auth, no API key need
   name: drillr Data MCP Server
@@ -92,7 +92,7 @@ apis:
   description: Industry inflections, enterprise AI adoption and cross-source news search
   name: drillr Public Data API Signal API
   slug: drillr-signal-api
-artifact_total: 19
+artifact_total: 18
 common:
 - group: company
   title: ''
@@ -226,14 +226,11 @@ mcp_servers:
 - description: ''
   name: drillr MCP Server
   slug: data
-- description: 'Hosted Streamable HTTP MCP server exposing drillr''s financial-research data as agent-callable tools: ticker resolution, qualitative company search, SEC filing discovery and full-text filing search, cr'
-  name: drillr MCP Server
-  slug: drillr-data
 modified: '2026-09-14'
 name: drillr
 nav: Providers
 network: true
-overview: 'drillr publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Public Data API Analyst API, Public Data API Company API, Public Data API Contract API, and 9 more. Tagged areas include Financial Data, Stocks, SEC Filings, Fundamentals, and Earnings.
+overview: 'drillr publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including Public Data API Analyst API, Public Data API Company API, Public Data API Contract API, and 9 more. Tagged areas include Financial Data, Stocks, SEC Filings, Fundamentals, and Earnings.
 
 
   drillr''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, changelog, authentication, and 20 more developer resources.'
@@ -250,7 +247,7 @@ score:
   band: developing
   composite: 52.5
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 25
     catalog_earned: 55.0
     catalog_earned_first_party: 20.0
     catalog_gap: 60.0
@@ -281,12 +278,13 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
     score: 0.0
+screenshot: https://raw.githubusercontent.com/api-evangelist/drillr/refs/heads/main/screenshots/drillr-2026-10-11T103916.png
 security:
 - kind: authentication
   name: Drillr Authentication

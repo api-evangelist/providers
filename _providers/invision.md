@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The InVision Design System Manager (DSM) API allowed teams to programmatically retrieve design tokens (colors, text styles, fonts, spacing) and icons from their DSM design system. API keys were scoped
@@ -97,9 +97,13 @@ common:
 created: '2026-06-13'
 description: InVision was a digital product design platform used by teams to build the world's best customer experiences. It provided REST APIs for managing prototypes, design documents, boards, comments, workflows, and design system components including design tokens and icons via the Design System Manager (DSM). InVision shut down all services on January 1, 2025, with its domain now redirecting to Miro.
 finops:
-- name: Invision Finops
+- has_sources: false
+  method: generated
+  name: Invision Finops
+  primary_unit: ''
   service_category: ''
   slug: invision-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/invision.png
 jsonld:
 - class_count: 0
@@ -111,7 +115,7 @@ modified: '2026-06-13'
 name: InVision
 nav: Providers
 network: true
-overview: 'InVision publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Design, Prototyping, Design Systems, Collaboration, and Digital Product Design.
+overview: 'InVision is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Design, Prototyping, Design Systems, Collaboration, and Digital Product Design.
 
 
   The InVision catalog on APIs.io includes 1 JSON-LD context.
@@ -131,10 +135,10 @@ score:
   band: minimal
   composite: 0.0
   coverage:
-    artifact_dirs: 8
-    catalog_earned: 55.8
+    artifact_dirs: 9
+    catalog_earned: 45.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 59.2
+    catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
@@ -153,8 +157,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

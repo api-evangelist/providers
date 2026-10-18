@@ -35,14 +35,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Read-only shopping tools for product recommendations and shopping decisions, grouped-product search, current Greek merchant offers and delivered totals, and price history.
   name: BestPrice Shopping MCP
   slug: shopping-mcp
-artifact_total: 16
+artifact_total: 15
 common:
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.bestprice.gr/en/mcp
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/bestprice/refs/heads/main/hosts/bestprice-hosts.yml
   title: ''
@@ -231,17 +235,14 @@ mcp_servers:
 - description: Read-only shopping decisions, product search, offers, and price history for Greece.
   name: BestPrice Shopping MCP (probed profile)
   slug: bestprice-agent-commerce
-- description: ''
-  name: Production Streamable HTTP endpoint
-  slug: production-streamable-http-endpoint
 modified: '2026-09-25'
 name: BestPrice Agent Commerce
 nav: Providers
 network: true
-overview: 'BestPrice Agent Commerce publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Shopping, Price Comparison, E-Commerce, Retail, and MCP.
+overview: 'BestPrice Agent Commerce is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Shopping, Price Comparison, E-Commerce, Retail, and MCP.
 
 
-  BestPrice Agent Commerce''s developer surface includes authentication, changelog, documentation, engineering blog, support, and 28 more developer resources.'
+  BestPrice Agent Commerce''s developer surface includes pricing, authentication, changelog, documentation, engineering blog, support, and 28 more developer resources.'
 plans:
 - name: Bestprice Plans Pricing
   plan_count: 1
@@ -253,17 +254,17 @@ rate_limits:
   slug: bestprice-rate-limits
 score:
   band: developing
-  composite: 45.1
+  composite: 47.2
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 62.0
     catalog_earned_first_party: 16.0
     catalog_gap: 53.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.1
   facets:
-    access_clarity: 42.1
+    access_clarity: 52.6
     contract_governance: 18.2
     contract_quality: 12.0
     developer_ergonomics: 66.1
@@ -286,8 +287,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

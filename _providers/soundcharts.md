@@ -12,7 +12,6 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -29,20 +28,20 @@ agent_readiness:
     mcp_server: verified
     openapi_examples: false
     protected_resource_metadata: verified
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 40.3
-  scored_at: '2026-10-04'
+  score: 38.4
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 1
+- acting_count: 0
   human_in_the_loop: 0
   name: Soundcharts Agentic Access
   operation_count: 32
   slug: soundcharts-agentic-access
-  summary_line: 32 operations · 1 acting
+  summary_line: 32 operations
 api_count: 1
 apis:
 - baseURL: https://customer.api.soundcharts.com
@@ -126,6 +125,10 @@ collections:
   name: Soundcharts API
   slug: open-soundcharts
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://soundcharts.com/en/blog
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/soundcharts/refs/heads/main/capabilities/soundcharts-capability-edges.yml
   title: ''
@@ -180,23 +183,27 @@ common:
 created: '2026-06-21'
 description: Soundcharts is a global music-market intelligence platform that aggregates standardized metadata and real-time performance data for artists, songs, albums, and playlists across streaming, social, chart, and radio sources. The Soundcharts API exposes this catalog and analytics layer over a REST interface at https://customer.api.soundcharts.com, authenticated with x-app-id and x-api-key headers.
 finops:
-- name: Soundcharts Finops
+- has_sources: true
+  method: generated
+  name: Soundcharts Finops
+  primary_unit: ''
   service_category: Analytics
   slug: soundcharts-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/soundcharts.png
 layout: provider
 mcp_servers:
 - description: Remote MCP server at mcp.soundcharts.com over HTTP.
   name: Soundcharts MCP Server
   slug: soundcharts
-modified: '2026-06-21'
+modified: '2026-10-06'
 name: Soundcharts
 nav: Providers
 network: true
-overview: 'Soundcharts publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Album API, Artist API, Chart API, and 6 more. Tagged areas include Music, Analytics, Market Intelligence, Metadata, and Streaming.
+overview: 'Soundcharts publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Album API, Artist API, Chart API, and 6 more. Tagged areas include Music, Analytics, Market Intelligence, Metadata, and Streaming.
 
 
-  Soundcharts'' developer surface includes authentication, documentation, and 9 more developer resources.'
+  Soundcharts'' developer surface includes engineering blog, authentication, documentation, and 9 more developer resources.'
 plans:
 - name: Soundcharts Plans Pricing
   plan_count: 4
@@ -208,22 +215,22 @@ rate_limits:
   slug: soundcharts-rate-limits
 score:
   band: thin
-  composite: 35.9
+  composite: 28.1
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 61.6
+    artifact_dirs: 14
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.4
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.8
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 49.5
-    developer_ergonomics: 29.8
+    developer_ergonomics: 32.1
     discoverability: 68.3
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   previous_composite: 35.9
   provenance:
     agentic_access: derived
@@ -239,9 +246,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

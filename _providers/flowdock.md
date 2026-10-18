@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -395,7 +395,7 @@ modified: '2026-08-21'
 name: Flowdock (Discontinued)
 nav: Providers
 network: true
-overview: 'Flowdock (Discontinued) publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Flowdock Streaming API, Flowdock SCIM Provisioning API, Authentication API, and 12 more. Tagged areas include Team Chat, Team Inbox, Collaboration, Real-Time Messaging, and Integration.
+overview: 'Flowdock (Discontinued) publishes 15 API contracts indexed on the [APIs.io](https://apis.io/) network, including Flowdock Streaming API, Flowdock SCIM Provisioning API, Authentication API, and 12 more. Tagged areas include Team Chat, Team Inbox, Collaboration, Real-Time Messaging, and Integration.
 
 
   The Flowdock (Discontinued) catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -404,10 +404,11 @@ overview: 'Flowdock (Discontinued) publishes 15 APIs on the [APIs.io](https://ap
   Flowdock (Discontinued)''s developer surface includes authentication, developer portal, documentation, engineering blog, GitHub presence, and 31 more developer resources.'
 random_paper: 21
 rules:
-- effective_rule_count: 32
+- authorship: generated
+  effective_rule_count: 32
   extends:
   - spectral:asyncapi
-  name: Flowdock (Discontinued) API Rules
+  name: Flowdock (Discontinued) — asyncapi rules
   rule_count: 5
   severity_counts:
     error: 1
@@ -415,9 +416,10 @@ rules:
     info: 0
     warn: 4
   slug: flowdock-asyncapi-spectral-rules
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Flowdock (Discontinued) API Rules
+  name: Flowdock (Discontinued) — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -425,7 +427,8 @@ rules:
     info: 1
     warn: 4
   slug: flowdock-jsonschema-spectral-rules
-- effective_rule_count: 48
+- authorship: unmarked
+  effective_rule_count: 48
   extends:
   - spectral:oas
   name: Flowdock (Discontinued) API Rules
@@ -474,8 +477,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

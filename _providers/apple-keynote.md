@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.3
-  scored_at: '2026-10-04'
+  score: 20.4
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -90,6 +90,21 @@ collections:
   name: Apple Keynote iCloud Export Themes API
   slug: open-apple-keynote-themes-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/apple-keynote/refs/heads/main/plans/apple-keynote-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/apple-keynote-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/apple-keynote/refs/heads/main/rate-limits/apple-keynote-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/apple-keynote-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/apple-keynote/refs/heads/main/finops/apple-keynote-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/apple-keynote-finops.yml
 - group: company
   title: ''
   type: Website
@@ -187,9 +202,13 @@ features:
 - description: Built-in chart types including bar, line, pie, scatter, and more with live data
   name: Charts and Data Visualization
 finops:
-- name: Apple Keynote Finops
+- has_sources: true
+  method: generated
+  name: Apple Keynote Finops
+  primary_unit: ''
   service_category: Productivity / Presentations
   slug: apple-keynote-finops
+  template: false
 image: https://www.apple.com/v/keynote/o/images/overview/keynote_icon__e6u8i7ju7e2e_large.jpg
 json_schemas:
 - name: ExportRequest
@@ -227,13 +246,13 @@ modified: '2026-05-19'
 name: Apple Keynote
 nav: Providers
 network: true
-overview: 'Apple Keynote publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Export API, Presentations API, Slides API, and 4 more. Tagged areas include Apple, Design, iWork, Presentations, and Productivity.
+overview: 'Apple Keynote is listed with 7 APIs on the [APIs.io](https://apis.io/) network, including Export API, Presentations API, Slides API, and 4 more. Tagged areas include Apple, Design, iWork, Presentations, and Productivity.
 
 
   The Apple Keynote catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Apple Keynote''s developer surface includes developer portal, documentation, support, Stack Overflow tag, YouTube channel, and 9 more developer resources.'
+  Apple Keynote''s developer surface includes developer portal, documentation, support, Stack Overflow tag, YouTube channel, and 12 more developer resources.'
 plans:
 - name: Apple Keynote Plans Pricing
   plan_count: 7
@@ -244,9 +263,10 @@ rate_limits:
   name: Apple Keynote Rate Limits
   slug: apple-keynote-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: Apple Keynote API Rules
+  name: Apple Keynote — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -254,7 +274,8 @@ rules:
     info: 2
     warn: 4
   slug: apple-keynote-jsonschema-spectral-rules
-- effective_rule_count: 68
+- authorship: generated
+  effective_rule_count: 68
   extends:
   - spectral:oas
   name: Apple Keynote API Rules
@@ -267,17 +288,17 @@ rules:
   slug: apple-keynote-spectral-rules
 score:
   band: thin
-  composite: 32.8
+  composite: 31.3
   coverage:
     artifact_dirs: 15
-    catalog_earned: 73.0
+    catalog_earned: 70.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 42.0
+    catalog_gap: 45.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 36.8
+    access_clarity: 28.9
     contract_governance: 27.3
     contract_quality: 29.3
     developer_ergonomics: 31.0
@@ -297,8 +318,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

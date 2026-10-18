@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -89,7 +89,7 @@ modified: '2026-07-18'
 name: BitAccess
 nav: Providers
 network: true
-overview: 'BitAccess is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto, Blockchain, Bitcoin, and Bitcoin ATM.
+overview: 'BitAccess is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cryptocurrency, Blockchain, Bitcoin, and Bitcoin ATM.
 
 
   BitAccess'' developer surface includes documentation, engineering blog, and 8 more developer resources.'
@@ -126,8 +126,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 8.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -142,11 +142,10 @@ security:
 slug: bitaccess
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Blockchain
 - Bitcoin
 - Bitcoin ATM
-- Cryptocurrency
 - Payments
 - Fintech
 - KYC

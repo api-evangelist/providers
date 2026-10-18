@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 4
 common:
@@ -67,9 +67,10 @@ overview: 'United States European Command is profiled on the [APIs.io](https://a
   The United States European Command catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.'
 random_paper: 6
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: United States European Command API Rules
+  name: United States European Command — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -114,8 +115,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 4.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

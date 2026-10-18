@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.hireart.com/blog/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/hireart/refs/heads/main/security/hireart-trust-center.yml
   title: ''
@@ -83,14 +87,14 @@ created: '2026-07-17'
 description: HireArt is a workforce management platform that helps enterprises source, employ, and manage their contingent workforce - contract workers, freelancers, and staffing vendors - through a single self-serve system. Its products span Employer of Record (EOR), on-demand sourcing and recruitment, a Vendor Management System (VMS), worker classification and compliance (1099 vs. W-2 with indemnification), program management, and freelancer management. Customers include Toyota Research Institute, Zoox, Via, Scale AI, Dropbox, Meta Quest, Carta, and Rover. HireArt was surfaced as a portfolio company of a16z and added to the API Evangelist network; it does not publish a public developer API, developer portal, or API documentation at this time.
 image: https://cdn.prod.website-files.com/63f29b56cdf34e4836b59fda/6421b5e61f5e5584926c98a5_HireArt.com%20Image.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: HireArt
 nav: Providers
 network: true
 overview: 'HireArt is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Workforce Management, Staffing, Employer of Record, and Vendor Management System.
 
 
-  HireArt''s developer surface includes engineering blog, changelog, support, and 7 more developer resources.'
+  HireArt''s developer surface includes engineering blog, changelog, support, and 8 more developer resources.'
 random_paper: 3
 score:
   band: emerging
@@ -117,8 +121,8 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 18.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.3
-  scored_at: '2026-10-04'
+  score: 15.4
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 1
@@ -132,6 +132,29 @@ collections:
   name: Hoverfly Admin API
   slug: open-hoverfly
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/hoverfly/refs/heads/main/plans/hoverfly-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/hoverfly-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/hoverfly/refs/heads/main/rate-limits/hoverfly-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/hoverfly-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/hoverfly/refs/heads/main/finops/hoverfly-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/hoverfly-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://hoverfly.io/blog
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://hoverfly.io/blog/rss.xml
 - group: operate
   title: ''
   type: IssueTracker
@@ -177,19 +200,23 @@ common:
 created: '2026-03-25'
 description: Hoverfly is an open source API simulation tool for creating realistic mock services and capturing-replaying HTTP traffic for testing.
 finops:
-- name: Hoverfly Finops
+- has_sources: false
+  method: generated
+  name: Hoverfly Finops
+  primary_unit: ''
   service_category: API
   slug: hoverfly-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hoverfly.png
 layout: provider
-modified: '2026-09-16'
+modified: '2026-10-06'
 name: Hoverfly
 nav: Providers
 network: true
-overview: 'Hoverfly publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Cache API, Diff API, and 8 more. Tagged areas include Mocking and Testing.
+overview: 'Hoverfly publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Cache API, Diff API, and 8 more. Tagged areas include Mocking and Testing.
 
 
-  Hoverfly''s developer surface includes documentation and 9 more developer resources.'
+  Hoverfly''s developer surface includes engineering blog, documentation, and 13 more developer resources.'
 plans:
 - name: Hoverfly Plans Pricing
   plan_count: 3
@@ -200,21 +227,21 @@ rate_limits:
   name: Hoverfly Rate Limits
   slug: hoverfly-rate-limits
 score:
-  band: thin
-  composite: 26.5
+  band: emerging
+  composite: 25.6
   coverage:
     artifact_dirs: 10
-    catalog_earned: 31.0
+    catalog_earned: 28.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 84.0
+    catalog_gap: 87.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.9
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 38.7
-    developer_ergonomics: 16.7
+    developer_ergonomics: 19.0
     discoverability: 39.3
     operational_transparency: 28.9
   open_source:
@@ -234,8 +261,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

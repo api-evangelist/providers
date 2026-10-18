@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.certivity.io/blog
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/certivity/refs/heads/main/security/certivity-domain-security.yml
   title: ''
@@ -86,28 +90,31 @@ created: '2026-07-17'
 description: Certivity is a Munich-based RegTech company, founded in 2021, that operates an AI-native regulatory intelligence platform for regulated industries such as automotive, aerospace, and connected vehicles. Its product, Certivity Core, turns complex regulations, standards, and internal documents into structured, machine-readable, engineering-ready requirements with full traceability and real-time monitoring of legal changes across 50+ jurisdictions. The platform digitizes and structures regulatory content from publishers such as ISO, IEC, CEN, CENELEC, ASTM, UL, and SAE using a proprietary ingestion pipeline and a regulatory knowledge graph, and integrates directly into engineering workflows (including Jama Connect) via an official API. Backed by Earlybird, High-Tech Gruenderfonds, UVC Partners, and Almaz Capital, Certivity added to the API Evangelist network as a company profile and enrichment lead.
 image: https://cms.certivity.io/assets/image-assets/certivity-logo.svg
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Certivity
 nav: Providers
 network: true
-overview: Certivity is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, RegTech, Compliance, Regulatory Intelligence, and Automotive.
+overview: 'Certivity is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, RegTech, Compliance, Regulatory Intelligence, and Automotive.
+
+
+  Certivity''s developer surface includes engineering blog and 11 more developer resources.'
 random_paper: 5
 score:
   band: emerging
-  composite: 11.5
+  composite: 12.0
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 21.1
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 48.2
     operational_transparency: 0.0
   jurisdiction:
@@ -127,8 +134,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 17.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

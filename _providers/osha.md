@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: OSHA's own API for electronically submitting establishment injury and illness records — Form 300A summaries and Form 300/301 case data — under 29 CFR 1904.41. Nine documented operations across establi
@@ -171,16 +171,20 @@ common:
 created: '2026-03-16'
 description: 'The Occupational Safety and Health Administration is the U.S. federal agency, part of the Department of Labor, responsible for setting and enforcing workplace safety and health standards. OSHA operates two very different API surfaces. The Injury Tracking Application (ITA) API at www.osha.gov/oshaApi/v1 is a write channel employers are legally required to use under 29 CFR 1904.41 to submit OSHA Form 300A summaries and Form 300/301 case data, secured with a bearer token issued from a logged-in ITA account and backed by a separate preview.osha.gov sandbox. The OSHA enforcement datasets — inspections, violations, citations, accidents and injuries, roughly 90,000 inspections a year — are published as read-only tables through the Department of Labor''s data API. Neither surface publishes an OpenAPI: the ITA contract is distributed as a PDF.'
 finops:
-- name: Osha Finops
+- has_sources: false
+  method: generated
+  name: Osha Finops
+  primary_unit: ''
   service_category: API
   slug: osha-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/osha.png
 layout: provider
 modified: '2026-08-27'
 name: OSHA
 nav: Providers
 network: true
-overview: 'OSHA publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Compliance, Government, Health Standards, Regulatory, and Workplace Safety.
+overview: 'OSHA is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Compliance, Government, Health Standards, Regulatory, and Workplace Safety.
 
 
   OSHA''s developer surface includes documentation, getting-started guide, API reference, support, engineering blog, authentication, changelog, and 20 more developer resources.'
@@ -195,17 +199,17 @@ rate_limits:
   slug: osha-rate-limits
 score:
   band: thin
-  composite: 35.6
+  composite: 34.0
   coverage:
     artifact_dirs: 19
-    catalog_earned: 40.0
+    catalog_earned: 37.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 42.1
+    access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 71.4
@@ -221,13 +225,14 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/osha/refs/heads/main/screenshots/osha-2026-10-11T192014.png
 security:
 - kind: authentication
   name: Osha Authentication

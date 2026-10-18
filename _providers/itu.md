@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -214,7 +214,7 @@ modified: '2026-07-26'
 name: ITU
 nav: Providers
 network: true
-overview: 'ITU publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Dashboards API, Data API, IDI API, and 5 more. Tagged areas include Telecommunications, Global, Regulator, Standards, and Spectrum.
+overview: 'ITU publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Dashboards API, Data API, IDI API, and 5 more. Tagged areas include Telecommunications, Global, Regulator, Standards, and Spectrum.
 
 
   ITU''s developer surface includes authentication, code examples, documentation, engineering blog, support, and 19 more developer resources.'
@@ -263,8 +263,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 25.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'Single public unauthenticated HTTP endpoint (POST https://formboost.app/f/{alias}) that accepts JSON or form-encoded submissions. Returns 202 to JSON clients and 302 to HTML form posts. Discovery via '
@@ -182,7 +182,7 @@ modified: '2026-09-02'
 name: Formboost
 nav: Providers
 network: true
-overview: 'Formboost publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Forms, form-backend, HTML Forms, Serverless, and Static Sites.
+overview: 'Formboost is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Forms, form-backend, HTML Forms, Serverless, and Static Sites.
 
 
   The Formboost catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -202,7 +202,7 @@ score:
   band: strong
   composite: 57.6
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 56.0
     catalog_earned_first_party: 24.0
     catalog_gap: 59.0
@@ -226,13 +226,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/formboost/refs/heads/main/screenshots/formboost-2026-10-11T104617.png
 security:
 - kind: authentication
   name: Formboost Authentication

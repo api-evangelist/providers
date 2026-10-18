@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 18.0
-  scored_at: '2026-10-04'
+  score: 16.1
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL_template: https://{snorkelHostname}
@@ -123,16 +123,20 @@ common:
 created: '2026-06-21'
 description: Snorkel AI is a data-development / AI data platform built on the open-source Snorkel weak-supervision library. The enterprise Snorkel Flow platform supports programmatic labeling, data curation, model training, and evaluation, and is driven programmatically through a Python SDK that targets a per-instance REST API rather than a single public hosted endpoint. Snorkel also delivers Expert Data-as-a-Service for frontier-model training and evaluation data.
 finops:
-- name: Snorkel Ai Finops
+- has_sources: true
+  method: generated
+  name: Snorkel Ai Finops
+  primary_unit: ''
   service_category: AI and Machine Learning
   slug: snorkel-ai-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/snorkel-ai.png
 layout: provider
 modified: '2026-06-21'
 name: Snorkel AI
 nav: Providers
 network: true
-overview: 'Snorkel AI publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Snorkel Flow SDK / Platform, Programmatic Labeling, Evaluation, and 1 more. Tagged areas include Artificial Intelligence, Data Development, Programmatic Labeling, Weak Supervision, and Evaluation.
+overview: 'Snorkel AI publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Snorkel Flow SDK / Platform, Programmatic Labeling, Evaluation, and 1 more. Tagged areas include Artificial Intelligence, Data Development, Programmatic Labeling, Weak Supervision, and Evaluation.
 
 
   Snorkel AI''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
@@ -146,23 +150,23 @@ rate_limits:
   name: Snorkel Ai Rate Limits
   slug: snorkel-ai-rate-limits
 score:
-  band: thin
-  composite: 32.9
+  band: emerging
+  composite: 24.7
   coverage:
-    artifact_dirs: 10
-    catalog_earned: 56.6
+    artifact_dirs: 11
+    catalog_earned: 38.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 58.4
+    catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.2
   facets:
-    access_clarity: 44.2
+    access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 29.4
     developer_ergonomics: 31.0
     discoverability: 57.1
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   previous_composite: 32.9
   regulatory:
     applies: true
@@ -170,9 +174,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

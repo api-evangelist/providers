@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: The production API host that backs the JobGet mobile applications and employer web experience. The host is publicly reachable over HTTPS and returns a structured RFC 9457 application/problem+json erro
@@ -158,7 +158,7 @@ modified: '2026-08-04'
 name: JobGet
 nav: Providers
 network: true
-overview: 'JobGet publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Job, Recruiting, Hiring, and Human Resources.
+overview: 'JobGet is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Job, Recruiting, Hiring, and Human Resources.
 
 
   JobGet''s developer surface includes engineering blog, support, pricing, signup flow, authentication, and 18 more developer resources.'
@@ -191,8 +191,8 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

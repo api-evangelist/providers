@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: 'The Highspot REST API provides programmatic access to the Highspot sales enablement platform, enabling management of content (spots and items), users, groups, pitches, domain settings, and analytics. '
@@ -202,9 +202,13 @@ common:
 created: '2026-06-13'
 description: Highspot is a sales enablement and go-to-market platform whose API surface splits in two. A per-tenant REST API at https://api-{instance}.highspot.com/v1.0 covers spots, items, item content, users, groups, pitches and analytics, authenticated with an API client key and secret issued from account settings; it has no public reference and no published OpenAPI. Alongside it Highspot runs a first-party remote MCP server at https://mcp.highspot.com/mcp, verified live, secured with OAuth 2.1 (dynamic client registration, PKCE, scopes mcp:read / mcp:write / offline_access) and discoverable through RFC 8414 and RFC 9728 metadata documents. The MCP server exposes content search, instant answers, deal context, content recommendations, linked pitches, Digital Room generation and Highspot Agents to OpenAI, Anthropic and Microsoft Copilot clients. Both the MCP server and the Insights Layer APIs are gated to the top "Best" subscription tier.
 finops:
-- name: Highspot Finops
+- has_sources: false
+  method: generated
+  name: Highspot Finops
+  primary_unit: ''
   service_category: ''
   slug: highspot-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/highspot.png
 layout: provider
 mcp_servers:
@@ -218,7 +222,7 @@ modified: '2026-08-14'
 name: Highspot
 nav: Providers
 network: true
-overview: 'Highspot publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Sales Enablement, Content Management, Pitch Analytics, CRM Integration, and Buyer Engagement.
+overview: 'Highspot is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Sales Enablement, Content Management, Pitch Analytics, CRM Integration, and Buyer Engagement.
 
 
   Highspot''s developer surface includes pricing, status page, privacy policy, engineering blog, GitHub presence, authentication, support, and 28 more developer resources.'
@@ -238,17 +242,17 @@ scopes:
   summary_line: 3 scopes
 score:
   band: developing
-  composite: 44.5
+  composite: 43.0
   coverage:
     artifact_dirs: 17
-    catalog_earned: 60.0
+    catalog_earned: 57.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 55.0
+    catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 93.4
+    access_clarity: 85.5
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 28.6
@@ -264,8 +268,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 41.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -284,7 +288,7 @@ security:
 - kind: vulnerability-disclosure
   name: Highspot Vulnerability Disclosure
   slug: highspot-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 - kind: trust-center
   name: Highspot Trust Center
   slug: highspot-trust-center

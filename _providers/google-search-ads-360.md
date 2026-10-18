@@ -28,20 +28,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.8
-  scored_at: '2026-10-04'
+  score: 22.9
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 2
+- acting_count: 0
   human_in_the_loop: 0
   name: Google Search Ads 360 Agentic Access
   operation_count: 4
   slug: google-search-ads-360-agentic-access
-  summary_line: 4 operations · 2 acting
+  summary_line: 4 operations
 api_count: 1
 apis:
 - baseURL: https://searchads360.googleapis.com
@@ -75,6 +75,21 @@ collections:
   name: Google Search Ads 360 Reporting API
   slug: open-openapi
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/google-search-ads-360/refs/heads/main/plans/google-search-ads-360-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/google-search-ads-360-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/google-search-ads-360/refs/heads/main/rate-limits/google-search-ads-360-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/google-search-ads-360-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/google-search-ads-360/refs/heads/main/finops/google-search-ads-360-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/google-search-ads-360-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/google-search-ads-360/refs/heads/main/capabilities/google-search-ads-360-capability-edges.yml
   title: ''
@@ -161,22 +176,26 @@ common:
 created: '2026-03-13'
 description: The Search Ads 360 Reporting API enables automated report downloading and programmatic access to search advertising campaign data across multiple search engines. It provides search and streaming methods for querying campaign, ad group, keyword, and conversion data using a SQL-like query language.
 finops:
-- name: Google Search Ads 360 Finops
+- has_sources: false
+  method: generated
+  name: Google Search Ads 360 Finops
+  primary_unit: ''
   service_category: API
   slug: google-search-ads-360-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/google-search-ads-360.png
 layout: provider
 modified: '2026-09-16'
 name: Google Search Ads 360 Reporting
 nav: Providers
 network: true
-overview: 'Google Search Ads 360 Reporting publishes 2 APIs on the [APIs.io](https://apis.io/) network: Customers API and Google Search Ads 360 Reporting API. Tagged areas include Campaign Management, Conversion, Keywords, Reporting, and Search Ads 360.
+overview: 'Google Search Ads 360 Reporting publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Customers API and Google Search Ads 360 Reporting API. Tagged areas include Campaign Management, Conversion, Keywords, Reporting, and Search Ads 360.
 
 
   The Google Search Ads 360 Reporting catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Google Search Ads 360 Reporting''s developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, support, and 13 more developer resources.'
+  Google Search Ads 360 Reporting''s developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, support, and 16 more developer resources.'
 plans:
 - name: Google Search Ads 360 Plans Pricing
   plan_count: 3
@@ -187,9 +206,10 @@ rate_limits:
   name: Google Search Ads 360 Rate Limits
   slug: google-search-ads-360-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Google Search Ads 360 Reporting API Rules
+  name: Google Search Ads 360 Reporting — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -204,17 +224,17 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 45.1
+  composite: 43.6
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 54.7
+    artifact_dirs: 18
+    catalog_earned: 51.7
     catalog_earned_first_party: 0.0
-    catalog_gap: 60.4
+    catalog_gap: 63.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 47.4
+    access_clarity: 39.5
     contract_governance: 9.8
     contract_quality: 53.6
     developer_ergonomics: 44.0
@@ -234,8 +254,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

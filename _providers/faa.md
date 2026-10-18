@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -208,6 +208,10 @@ collections:
   name: sas-api
   slug: open-faa-safety-assurance-system-api
 common:
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://apim-api.apic4e.faa.gov/portal/environments/DEFAULT/apis/{id}/plans
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/faa/refs/heads/main/capabilities/faa-capability-edges.yml
   title: ''
@@ -449,13 +453,13 @@ modified: '2026-07-28'
 name: Federal Aviation Administration
 nav: Providers
 network: true
-overview: 'Federal Aviation Administration publishes 35 APIs on the [APIs.io](https://apis.io/) network, including Air Carrier API, Axhsubmitdiscrepancies API, Coded Instrument Flight Procedures (CIFP) API, and 32 more. Tagged areas include Travel, United States, Aviation, Airports, and Government.
+overview: 'Federal Aviation Administration publishes 35 API contracts indexed on the [APIs.io](https://apis.io/) network, including Air Carrier API, Axhsubmitdiscrepancies API, Coded Instrument Flight Procedures (CIFP) API, and 32 more. Tagged areas include Travel, United States, Aviation, Airports, and Government.
 
 
   The Federal Aviation Administration catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Federal Aviation Administration''s developer surface includes authentication, API reference, getting-started guide, signup flow, support, engineering blog, documentation, and 45 more developer resources.'
+  Federal Aviation Administration''s developer surface includes pricing, authentication, API reference, getting-started guide, signup flow, support, engineering blog, and 46 more developer resources.'
 plans:
 - name: Faa Plans
   plan_count: 5
@@ -467,17 +471,17 @@ rate_limits:
   slug: faa-rate-limits
 score:
   band: developing
-  composite: 51.7
+  composite: 53.7
   coverage:
     artifact_dirs: 26
     catalog_earned: 55.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 63.0
+    catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: 2.0
   facets:
-    access_clarity: 52.6
+    access_clarity: 63.2
     contract_governance: 4.5
     contract_quality: 48.9
     developer_ergonomics: 56.5
@@ -490,7 +494,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 51.1
+  previous_composite: 51.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -507,8 +511,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 30.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

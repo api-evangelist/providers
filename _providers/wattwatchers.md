@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 1
@@ -224,7 +224,7 @@ modified: '2026-07-27'
 name: Wattwatchers
 nav: Providers
 network: true
-overview: 'Wattwatchers publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Devices API, Long Energy API, Modbus API, and 1 more. Tagged areas include Energy, Australia, Utilities, Electricity, and Smart Metering.
+overview: 'Wattwatchers publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Devices API, Long Energy API, Modbus API, and 1 more. Tagged areas include Energy, Australia, Utilities, Electricity, and Smart Metering.
 
 
   Wattwatchers'' developer surface includes authentication, documentation, changelog, support, API reference, getting-started guide, code examples, and 24 more developer resources.'
@@ -275,8 +275,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 24.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

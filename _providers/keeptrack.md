@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-04'
+  score: 20.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -89,6 +89,25 @@ collections:
   name: KeepTrack Space API
   slug: open-keeptrack
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/keeptrack/refs/heads/main/plans/keeptrack-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/keeptrack-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/keeptrack/refs/heads/main/rate-limits/keeptrack-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/keeptrack-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/keeptrack/refs/heads/main/finops/keeptrack-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/keeptrack-finops.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://keeptrack.space/rss.xml
 - group: company
   title: ''
   type: Website
@@ -111,19 +130,23 @@ common:
 created: '2024-11-07T00:00:00.000Z'
 description: Keep Track is the free, open source tool that makes space exploration accessible to all - professionals and amateurs alike. With its user-friendly interface, you can simulate satellite launches, visualize debris patterns, and explore a catalog of 30,000+ real satellites and debris. Zoom through geosynchronous orbits, run collision scenarios, and track debris fragmentation over time.
 finops:
-- name: Keeptrack Finops
+- has_sources: false
+  method: generated
+  name: Keeptrack Finops
+  primary_unit: ''
   service_category: API
   slug: keeptrack-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/keeptrack.png
 layout: provider
-modified: '2026-09-16'
+modified: '2026-10-06'
 name: KeepTrack
 nav: Providers
 network: true
-overview: 'KeepTrack publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Catalog API, Orbits API, Positions API, and 2 more. Tagged areas include Satellite and Space.
+overview: 'KeepTrack publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Catalog API, Orbits API, Positions API, and 2 more. Tagged areas include Satellite and Space.
 
 
-  KeepTrack''s developer surface includes authentication and 3 more developer resources.'
+  KeepTrack''s developer surface includes authentication and 7 more developer resources.'
 plans:
 - name: Keeptrack Plans Pricing
   plan_count: 3
@@ -135,17 +158,17 @@ rate_limits:
   slug: keeptrack-rate-limits
 score:
   band: emerging
-  composite: 13.6
+  composite: 12.1
   coverage:
     artifact_dirs: 11
-    catalog_earned: 41.0
+    catalog_earned: 38.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 21.4
@@ -165,8 +188,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

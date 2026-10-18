@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 43.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 5
-  human_in_the_loop: 1
+- acting_count: 1
+  human_in_the_loop: 0
   name: Mercedes Me Agentic Access
   operation_count: 39
   slug: mercedes-me-agentic-access
-  summary_line: 39 operations · 5 acting · 1 human-in-the-loop
+  summary_line: 39 operations · 1 acting
 api_count: 4
 apis:
 - description: The Vehicle Status API delivers real-time vehicle state — doors, windows, deck lid, sunroof, tire pressure, and overall lock state — for a customer-consented Mercedes-Benz vehicle by VIN. Returns last
@@ -379,9 +379,13 @@ examples:
   name: Mercedes Me List Markets Example
   slug: mercedes-me-list-markets-example
 finops:
-- name: Mercedes Me Finops
+- has_sources: false
+  method: generated
+  name: Mercedes Me Finops
+  primary_unit: ''
   service_category: ''
   slug: mercedes-me-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mercedes-me.png
 json_schemas:
 - name: Mercedes-Benz DTC Readout
@@ -404,7 +408,7 @@ modified: '2026-08-26'
 name: Mercedes-Benz Mercedes me
 nav: Providers
 network: true
-overview: 'Mercedes-Benz Mercedes me publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Components API, Configurations API, Dealer search API, and 14 more. Tagged areas include Automotive, Connected Car, Connected Vehicles, Daimler, and Fleet Management.
+overview: 'Mercedes-Benz Mercedes me publishes 17 API contracts indexed on the [APIs.io](https://apis.io/) network, including Components API, Configurations API, Dealer search API, and 14 more. Tagged areas include Automotive, Connected Vehicles, Daimler, Fleet Management, and Mercedes me.
 
 
   The Mercedes-Benz Mercedes me catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
@@ -421,9 +425,10 @@ rate_limits:
   name: Mercedes Me Rate Limits
   slug: mercedes-me-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Mercedes-Benz Mercedes me API Rules
+  name: Mercedes-Benz Mercedes me — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -431,7 +436,8 @@ rules:
     info: 2
     warn: 3
   slug: mercedes-me-jsonschema-spectral-rules
-- effective_rule_count: 49
+- authorship: unmarked
+  effective_rule_count: 49
   extends:
   - spectral:oas
   name: Mercedes-Benz Mercedes me API Rules
@@ -449,17 +455,17 @@ scopes:
   summary_line: 38 scopes
 score:
   band: developing
-  composite: 51.9
+  composite: 50.4
   coverage:
     artifact_dirs: 31
-    catalog_earned: 79.0
+    catalog_earned: 76.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 36.0
+    catalog_gap: 39.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 39.5
+    access_clarity: 31.6
     contract_governance: 45.5
     contract_quality: 66.4
     developer_ergonomics: 58.9
@@ -482,8 +488,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -505,7 +511,6 @@ security:
 slug: mercedes-me
 tags:
 - Automotive
-- Connected Car
 - Connected Vehicles
 - Daimler
 - Fleet Management

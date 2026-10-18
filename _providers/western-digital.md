@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.3
-  scored_at: '2026-10-04'
+  score: 20.4
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -110,6 +110,21 @@ collections:
   name: WD My Cloud Home Authentication User API
   slug: open-western-digital-user-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/western-digital/refs/heads/main/plans/western-digital-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/western-digital-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/western-digital/refs/heads/main/rate-limits/western-digital-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/western-digital-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/western-digital/refs/heads/main/finops/western-digital-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/western-digital-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/western-digital/refs/heads/main/agentic-access/western-digital-agentic-access.yml
   title: ''
@@ -170,9 +185,13 @@ examples:
   name: Western Digital List Files Example
   slug: western-digital-list-files-example
 finops:
-- name: Western Digital Finops
+- has_sources: false
+  method: generated
+  name: Western Digital Finops
+  primary_unit: ''
   service_category: API
   slug: western-digital-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/western-digital.png
 json_schemas:
 - name: Device
@@ -195,13 +214,13 @@ modified: '2026-05-19'
 name: Western Digital
 nav: Providers
 network: true
-overview: 'Western Digital publishes 7 APIs on the [APIs.io](https://apis.io/) network, including western-digital Authentication API, western-digital Configuration API, western-digital Device API, and 4 more. Tagged areas include Fortune 500.
+overview: 'Western Digital publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including western-digital Authentication API, western-digital Configuration API, western-digital Device API, and 4 more. Tagged areas include Fortune 500.
 
 
   The Western Digital catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Western Digital''s developer surface includes authentication, developer portal, documentation, GitHub presence, engineering blog, and 7 more developer resources.'
+  Western Digital''s developer surface includes authentication, developer portal, documentation, GitHub presence, engineering blog, and 10 more developer resources.'
 plans:
 - name: Western Digital Plans Pricing
   plan_count: 3
@@ -228,9 +247,10 @@ rate_limits:
   name: Western Digital Rate Limits
   slug: western-digital-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Western Digital API Rules
+  name: Western Digital — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -238,7 +258,8 @@ rules:
     info: 2
     warn: 3
   slug: western-digital-jsonschema-spectral-rules
-- effective_rule_count: 48
+- authorship: unmarked
+  effective_rule_count: 48
   extends:
   - spectral:oas
   name: Western Digital API Rules
@@ -251,17 +272,17 @@ rules:
   slug: western-digital-rules
 score:
   band: developing
-  composite: 40.9
+  composite: 39.4
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 50.5
+    artifact_dirs: 20
+    catalog_earned: 47.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 64.5
+    catalog_gap: 67.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 36.8
+    access_clarity: 28.9
     contract_governance: 13.6
     contract_quality: 59.3
     developer_ergonomics: 47.6
@@ -281,8 +302,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

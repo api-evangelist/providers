@@ -38,14 +38,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 46.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 23
+- acting_count: 21
   human_in_the_loop: 0
   name: Enrich So Agentic Access
-  operation_count: 53
+  operation_count: 64
   slug: enrich-so-agentic-access
-  summary_line: 53 operations · 23 acting
+  summary_line: 64 operations · 21 acting
 api_count: 7
 apis:
 - baseURL: https://dev.enrich.so/api/v3
@@ -378,9 +378,13 @@ created: '2026-07-11'
 description: Enrich (enrich.so), operated by Enrich Labs, is a person and company data enrichment API for B2B go-to-market, sales, and web intelligence teams. From a single REST interface at https://dev.enrich.so/api/v3 it resolves a professional profile from an email address (reverse email lookup), finds and verifies professional email addresses, finds mobile and phone numbers, resolves a company and geolocation from an IP address, searches a lead-finder database of people and organizations, finds employees at a company, and scrapes LinkedIn company followers. Fifty-one operations across nine products, every one of them metered against a single prepaid credit balance and refunded when a lookup finds nothing. Every bulk product follows one submit/poll/results shape with reserve-and-settle billing, ten typed webhook callbacks, RFC 9457 problem details on every error, and official TypeScript and Go SDKs. Enrich also operates a first-party remote MCP server at mcp.enrich.so with OAuth 2.0 and
   dynamic client registration.
 finops:
-- name: Enrich So Finops
+- has_sources: true
+  method: searched
+  name: Enrich So Finops
+  primary_unit: ''
   service_category: Data Enrichment and Intelligence
   slug: enrich-so-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/enrich-so.png
 layout: provider
 mcp_servers:
@@ -391,7 +395,7 @@ modified: '2026-09-16'
 name: Enrich
 nav: Providers
 network: true
-overview: 'Enrich publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Email Finder API, Lead Finder API, Phone Finder API, and 15 more. Tagged areas include Data Enrichment, Contact Discovery, Web Intelligence, B2B Data, and Lead Enrichment.
+overview: 'Enrich publishes 18 API contracts indexed on the [APIs.io](https://apis.io/) network, including Email Finder API, Lead Finder API, Phone Finder API, and 15 more. Tagged areas include Data Enrichment, Contact Discovery, Web Intelligence, B2B Data, and Lead Enrichment.
 
 
   The Enrich catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -414,17 +418,17 @@ scopes:
   summary_line: 1 scope
 score:
   band: strong
-  composite: 63.8
+  composite: 62.3
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 67.0
+    artifact_dirs: 27
+    catalog_earned: 64.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 48.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 73.7
+    access_clarity: 65.8
     contract_governance: 18.2
     contract_quality: 61.0
     developer_ergonomics: 62.5
@@ -447,8 +451,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

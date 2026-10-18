@@ -30,13 +30,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.4
-  scored_at: '2026-10-04'
+  score: 19.5
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -270,16 +270,20 @@ common:
 created: '2026-07-17'
 description: Signzy is a global identity verification, KYC, KYB and AML compliance platform founded in Bengaluru, India in 2015. Its API marketplace exposes 240+ bespoke verification building blocks - document OCR, liveness and face match, deepfake detection, Aadhaar/PAN and other India checks, US ID and business verification, AML/sanctions/PEP screening, bank verification, Video KYC and Aadhaar eSign - behind a single token-authenticated REST API across India, the US, the Middle East and APAC.
 finops:
-- name: Signzy Finops
+- has_sources: true
+  method: generated
+  name: Signzy Finops
+  primary_unit: ''
   service_category: Identity and Compliance
   slug: signzy-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/signzy.png
 layout: provider
 modified: '2026-07-17'
 name: Signzy
 nav: Providers
 network: true
-overview: 'Signzy publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Banking API, Identity (India) API, and 1 more. Tagged areas include Identity Verification, KYC, KYB, AML, and Onboarding.
+overview: 'Signzy publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authentication API, Banking API, Identity (India) API, and 1 more. Tagged areas include Identity Verification, KYC, KYB, AML, and Onboarding.
 
 
   Signzy''s developer surface includes authentication, documentation, engineering blog, sandbox, API reference, getting-started guide, support, and 30 more developer resources.'
@@ -293,23 +297,23 @@ rate_limits:
   name: Signzy Rate Limits
   slug: signzy-rate-limits
 score:
-  band: strong
-  composite: 58.1
+  band: developing
+  composite: 51.2
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 58.0
+    artifact_dirs: 25
+    catalog_earned: 42.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.0
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.9
   facets:
-    access_clarity: 76.8
+    access_clarity: 55.3
     contract_governance: 4.5
     contract_quality: 49.3
     developer_ergonomics: 62.5
     discoverability: 73.2
-    operational_transparency: 38.9
+    operational_transparency: 18.4
   previous_composite: 58.1
   provenance:
     agentic_access: derived
@@ -331,9 +335,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 27.8

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 1.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 27
 apis:
 - description: Workday is a cloud HCM, payroll, and finance suite with a Web Services / REST API catalog spanning Human Capital Management, Payroll, Recruiting, Talent, and Time Tracking.
@@ -220,7 +220,7 @@ modified: '2026-05-23'
 name: HR & People
 nav: Providers
 network: true
-overview: 'HR & People publishes 27 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Human Resources, HRIS, People Operations, Payroll, and Talent Acquisition.
+overview: 'HR & People is listed with 27 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Human Resources, HRIS, People Operations, Payroll, and Talent Acquisition.
 
 
   The HR & People catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -229,9 +229,10 @@ overview: 'HR & People publishes 27 APIs on the [APIs.io](https://apis.io/) netw
   HR & People''s developer surface includes code examples and 9 more developer resources.'
 random_paper: 6
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: HR & People API Rules
+  name: HR & People — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -264,8 +265,8 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 15.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The LiquidTrust API lets platform partners embed conditional payment logic - Micro Escrow(R) holds, milestone approvals, and rule-based release - directly into their own product, with LiquidTrust hand
@@ -145,7 +145,7 @@ modified: '2026-07-19'
 name: LiquidTrust
 nav: Providers
 network: true
-overview: 'LiquidTrust publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, B2B Payments, Escrow, and Fintech.
+overview: 'LiquidTrust is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, B2B Payments, Escrow, and Fintech.
 
 
   LiquidTrust''s developer surface includes documentation, support, engineering blog, pricing, signup flow, and 17 more developer resources.'
@@ -183,8 +183,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 33.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

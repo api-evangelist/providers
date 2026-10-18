@@ -30,13 +30,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.5
-  scored_at: '2026-10-04'
+  score: 19.6
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 1
@@ -122,6 +122,21 @@ collections:
   name: SafeLine Management ACL Rules Websites API
   slug: open-safeline-websites-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/safeline/refs/heads/main/plans/safeline-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/safeline-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/safeline/refs/heads/main/rate-limits/safeline-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/safeline-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/safeline/refs/heads/main/finops/safeline-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/safeline-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/safeline/refs/heads/main/capabilities/safeline-capability-edges.yml
   title: ''
@@ -223,9 +238,13 @@ examples:
   name: Safeline List Websites Example
   slug: safeline-list-websites-example
 finops:
-- name: Safeline Finops
+- has_sources: false
+  method: generated
+  name: Safeline Finops
+  primary_unit: ''
   service_category: API
   slug: safeline-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/safeline.png
 json_schemas:
 - name: SafeLine ACL Rule
@@ -251,13 +270,13 @@ modified: '2026-05-19'
 name: SafeLine
 nav: Providers
 network: true
-overview: 'SafeLine publishes 9 APIs on the [APIs.io](https://apis.io/) network, including ACL Rules API, Authentication API, Reports API, and 6 more. Tagged areas include Proxy, WAF, Security, Open Source, and Reverse Proxy.
+overview: 'SafeLine publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including ACL Rules API, Authentication API, Reports API, and 6 more. Tagged areas include Proxy, WAF, Security, Open Source, and Reverse Proxy.
 
 
   The SafeLine catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  SafeLine''s developer surface includes authentication, documentation, and 17 more developer resources.'
+  SafeLine''s developer surface includes authentication, documentation, and 20 more developer resources.'
 plans:
 - name: Safeline Plans Pricing
   plan_count: 3
@@ -268,9 +287,10 @@ rate_limits:
   name: Safeline Rate Limits
   slug: safeline-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: SafeLine API Rules
+  name: SafeLine — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -278,7 +298,8 @@ rules:
     info: 1
     warn: 4
   slug: safeline-jsonschema-spectral-rules
-- effective_rule_count: 49
+- authorship: unmarked
+  effective_rule_count: 49
   extends:
   - spectral:oas
   name: SafeLine API Rules
@@ -291,17 +312,17 @@ rules:
   slug: safeline-rules
 score:
   band: thin
-  composite: 32.4
+  composite: 31.0
   coverage:
     artifact_dirs: 17
-    catalog_earned: 58.0
+    catalog_earned: 55.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.0
+    catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.4
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 27.3
     contract_quality: 55.7
     developer_ergonomics: 21.4
@@ -324,8 +345,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

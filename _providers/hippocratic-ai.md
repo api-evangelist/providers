@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 13
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://hippocraticai.com/press/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/hippocratic-ai/refs/heads/main/security/hippocratic-ai-vulnerability-disclosure.yml
   title: ''
@@ -125,14 +129,14 @@ features:
   name: Safety Guardrails
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hippocratic-ai.png
 layout: provider
-modified: '2026-05-23'
+modified: '2026-10-06'
 name: Hippocratic AI
 nav: Providers
 network: true
 overview: 'Hippocratic AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Healthcare, Generative AI, Healthcare Agents, Clinical AI, and Patient Engagement.
 
 
-  Hippocratic AI''s developer surface includes engineering blog, authentication, and 11 more developer resources.'
+  Hippocratic AI''s developer surface includes engineering blog, authentication, and 12 more developer resources.'
 random_paper: 13
 score:
   band: emerging
@@ -159,8 +163,8 @@ score:
     regime: Health
     regime_id: health
     score: 16.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

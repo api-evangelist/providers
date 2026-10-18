@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: RESTful API for managing recruitment workflows including jobs, candidates, placements, submissions, interviews, and companies in JobAdder. Authentication uses OAuth 2.0 authorization code flow with be
@@ -85,7 +85,7 @@ modified: '2026-05-11'
 name: JobAdder
 nav: Providers
 network: true
-overview: 'JobAdder publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Recruiting, Applicant Tracking, Staffing, Human Resources, and Talent Acquisition.
+overview: 'JobAdder is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Recruiting, Applicant Tracking, Staffing, Human Resources, and Talent Acquisition.
 
 
   JobAdder''s developer surface includes documentation, support, signup flow, pricing, engineering blog, and 4 more developer resources.'
@@ -94,7 +94,7 @@ score:
   band: emerging
   composite: 16.4
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -115,8 +115,8 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

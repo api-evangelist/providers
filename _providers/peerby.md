@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.peerby.com/blog/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/peerby/refs/heads/main/security/peerby-domain-security.yml
   title: ''
@@ -53,28 +57,31 @@ created: '2026-07-17'
 description: Peerby is a Dutch peer-to-peer sharing platform that lets neighbors borrow and rent everyday goods from one another instead of buying them new. Through its website and mobile apps, members request or list items such as tools, party and event equipment, electronics, bicycles, and household goods, then arrange local pickup and return. Positioned as an affordable, convenient, and more sustainable alternative to ownership, Peerby aims to reduce consumption and waste by unlocking the underused items already sitting in people's homes. Backed by Techstars, it was added to the API Evangelist network as a portfolio lead. Peerby operates a consumer single-page web application and native apps; it does not publish a public developer/API program, OpenAPI definitions, SDKs, or a .well-known discovery surface at this time.
 image: https://www.peerby.com/img/social_en.jpg
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Peerby
 nav: Providers
 network: true
-overview: Peerby is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Sharing Economy, Peer-to-Peer, Marketplace, and Rentals.
+overview: 'Peerby is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Sharing Economy, Peer-to-Peer, Marketplace, and Rentals.
+
+
+  Peerby''s developer surface includes engineering blog and 3 more developer resources.'
 random_paper: 9
 score:
   band: minimal
-  composite: 3.7
+  composite: 4.3
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 48.2
     operational_transparency: 2.6
   jurisdiction:
@@ -92,8 +99,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

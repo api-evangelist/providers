@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 52.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -44,7 +44,7 @@ agentic_access:
   operation_count: 56
   slug: heymilo-agentic-access
   summary_line: 56 operations · 20 acting
-api_count: 1
+api_count: 2
 apis:
 - baseURL: https://api.heymilo.ai
   baseurl_source: declared
@@ -363,7 +363,7 @@ modified: '2026-07-19'
 name: HeyMilo
 nav: Providers
 network: true
-overview: 'HeyMilo publishes 18 APIs on the [APIs.io](https://apis.io/) network, including ATS API, Candidates API, Design Template Groups API, and 15 more. Tagged areas include Company, Recruiting, Hiring, Human Resources, and Artificial Intelligence.
+overview: 'HeyMilo publishes 18 API contracts indexed on the [APIs.io](https://apis.io/) network, including ATS API, Candidates API, Design Template Groups API, and 15 more. Tagged areas include Company, Recruiting, Hiring, Human Resources, and Artificial Intelligence.
 
 
   The HeyMilo catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -379,7 +379,7 @@ score:
   band: developing
   composite: 50.8
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 23
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
@@ -410,8 +410,8 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 27.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

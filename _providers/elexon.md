@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.8
-  scored_at: '2026-10-04'
+  score: 23.6
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 312
   slug: elexon-agentic-access
   summary_line: 312 operations
-api_count: 1
+api_count: 2
 apis:
 - baseURL: https://data.elexon.co.uk/bmrs/api/v1
   baseurl_source: declared
@@ -307,6 +307,10 @@ collections:
 common:
 - group: company
   title: ''
+  type: BlogRSS
+  url: https://www.elexon.co.uk/feed/
+- group: company
+  title: ''
   type: Website
   url: https://elexon.co.uk
 - group: agent
@@ -443,9 +447,13 @@ examples:
   name: Get_Datasets_Pn_Stream_200
   slug: get_datasets_PN_stream_200
 finops:
-- name: Elexon Finops
+- has_sources: true
+  method: generated
+  name: Elexon Finops
+  primary_unit: ''
   service_category: Analytics and Data
   slug: elexon-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/elexon.png
 json_schemas:
 - name: Insights.Api.LegacyInteroperability.LegacyRemitDetailBody
@@ -1343,17 +1351,17 @@ jsonld:
   property_count: 2
   slug: context
 layout: provider
-modified: '2026-09-16'
+modified: '2026-10-06'
 name: Elexon
 nav: Providers
 network: true
-overview: 'Elexon publishes 32 APIs on the [APIs.io](https://apis.io/) network, including Balancing Mechanism Dynamic API, Balancing Mechanism Physical API, Balancing Services Adjustment - Disaggregated API, and 29 more. Tagged areas include Electricity, Energy, UK Energy Market, Balancing Mechanism, and Settlement.
+overview: 'Elexon publishes 32 API contracts indexed on the [APIs.io](https://apis.io/) network, including Balancing Mechanism Dynamic API, Balancing Mechanism Physical API, Balancing Services Adjustment - Disaggregated API, and 29 more. Tagged areas include Electricity, Energy, UK Energy Market, Balancing Mechanism, and Settlement.
 
 
   The Elexon catalog on APIs.io includes 2 JSON-LD contexts and 1 Spectral governance ruleset.
 
 
-  Elexon''s developer surface includes developer portal, documentation, GitHub presence, engineering blog, support, and 12 more developer resources.'
+  Elexon''s developer surface includes developer portal, documentation, GitHub presence, engineering blog, support, and 13 more developer resources.'
 plans:
 - name: Elexon Plans Pricing
   plan_count: 1
@@ -1364,9 +1372,10 @@ rate_limits:
   name: Elexon Rate Limits
   slug: elexon-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Elexon API Rules
+  name: Elexon — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1375,23 +1384,23 @@ rules:
     warn: 3
   slug: elexon-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 39.4
+  band: thin
+  composite: 32.4
   coverage:
     artifact_dirs: 15
-    catalog_earned: 69.3
+    catalog_earned: 53.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 45.7
+    catalog_gap: 61.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.0
   facets:
-    access_clarity: 37.4
+    access_clarity: 15.8
     contract_governance: 9.8
     contract_quality: 50.3
     developer_ergonomics: 26.2
     discoverability: 66.1
-    operational_transparency: 49.5
+    operational_transparency: 28.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -1414,9 +1423,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 12.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://developers.balad.tech/
@@ -102,6 +102,10 @@ collections:
   name: Balad Gateway APIs/Authentication APIs/Link/Transactions API
   slug: open-balad-corp-apis-link-transactions-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.balad.me/rss.xml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/balad-corp/refs/heads/main/capabilities/balad-corp-capability-edges.yml
   title: ''
@@ -235,17 +239,17 @@ created: '2026-07-17'
 description: BALAD CORP (Balad) is a Cairo-based fintech providing cross-border payout and inward-remittance infrastructure for Egypt. Its Balad Gateway APIs let money transfer operators (MTOs), RemTechs, and superapps pay out to Egyptian beneficiaries via bank transfer to CBE-licensed banks over IPN, mobile wallets, and cash pickup at agent locations nationwide. The REST APIs are secured with OAuth 2.0 client credentials and cover exchange rates, balances, secrets management, lookups, transaction creation, status tracking, reconciliation, and HMAC-signed status webhooks, with a full sandbox for testing. Balad is backed by 500 Global, Acasia Ventures, First Circle Capital, Future Africa, and Launch Africa Ventures.
 image: https://www.balad.me/images/og-default.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: BALAD
 nav: Providers
 network: true
-overview: 'BALAD publishes 7 APIs on the [APIs.io](https://apis.io/) network, including CORP APIs/Authentication API, CORP APIs/Core/Balance API, CORP APIs/Core/Exchange rate API, and 4 more. Tagged areas include Company, Payments, Remittances, Cross-Border Payments, and Fintech.
+overview: 'BALAD publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including CORP APIs/Authentication API, CORP APIs/Core/Balance API, CORP APIs/Core/Exchange rate API, and 4 more. Tagged areas include Company, Payments, Remittances, Cross-Border Payments, and Fintech.
 
 
   The BALAD catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  BALAD''s developer surface includes documentation, API reference, getting-started guide, support, authentication, sandbox, and 21 more developer resources.'
+  BALAD''s developer surface includes documentation, API reference, getting-started guide, support, authentication, sandbox, and 22 more developer resources.'
 random_paper: 13
 scopes:
 - name: Balad Corp Scopes
@@ -256,7 +260,7 @@ score:
   band: thin
   composite: 35.2
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 23
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -277,6 +281,8 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - africa
+    - mena
+    - north-africa
   previous_composite: 35.2
   provenance:
     conformance: derived
@@ -293,8 +299,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 26.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: Online account management portal for Atmos Energy customers providing access to billing, payment, usage history, service requests, and account settings for residential and commercial natural gas custo
@@ -44,6 +44,11 @@ apis:
   slug: atmos-energy-builder-portal
 artifact_total: 17
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/atmos-energy/refs/heads/main/finops/atmos-energy-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/atmos-energy-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/atmos-energy/refs/heads/main/security/atmos-energy-domain-security.yml
   title: ''
@@ -138,9 +143,13 @@ features:
 - description: Enroll in budget billing to spread natural gas costs evenly across 12 months for predictable monthly payments.
   name: Budget Billing
 finops:
-- name: Atmos Energy Finops
+- has_sources: true
+  method: generated
+  name: Atmos Energy Finops
+  primary_unit: ''
   service_category: Utilities / Natural Gas Distribution
   slug: atmos-energy-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/atmos-energy.png
 integrations:
 - description: Integrated payment processing for online bill pay through secure third-party payment processors.
@@ -152,10 +161,10 @@ modified: '2026-09-18'
 name: Atmos Energy
 nav: Providers
 network: true
-overview: 'Atmos Energy publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Natural Gas, Utilities, Infrastructure, and Fortune 1000.
+overview: 'Atmos Energy is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Natural Gas, Utilities, Infrastructure, and Fortune 1000.
 
 
-  Atmos Energy''s developer surface includes developer portal, support, and 13 more developer resources.'
+  Atmos Energy''s developer surface includes developer portal, support, and 14 more developer resources.'
 plans:
 - name: Atmos Energy Plans Pricing
   plan_count: 1
@@ -183,17 +192,17 @@ rate_limits:
   slug: atmos-energy-rate-limits
 score:
   band: emerging
-  composite: 21.2
+  composite: 19.6
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 39.0
+    artifact_dirs: 12
+    catalog_earned: 36.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 76.0
+    catalog_gap: 79.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 47.4
+    access_clarity: 39.5
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 23.8
@@ -206,8 +215,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 11.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

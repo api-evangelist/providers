@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: partner
+  gated_source:
+  - tag:Partner Gated
   label: Self-serve signup
   onboarding: self-serve
   pricing: unknown
@@ -35,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: 'A live, production API gateway at api.canadalife.com serving Canada Life''s partner, distributor and MGA integrations. It is fully gated: every business path probed (including /v1, /docs, /health, /ope'
@@ -161,7 +164,7 @@ modified: '2026-07-25'
 name: Canada Life
 nav: Providers
 network: true
-overview: 'Canada Life publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Canada, Life Insurance, Health Insurance, and Employee Benefits.
+overview: 'Canada Life is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Canada, Life Insurance, Health Insurance, and Employee Benefits.
 
 
   Canada Life''s developer surface includes support, engineering blog, product news, authentication, and 20 more developer resources.'
@@ -205,8 +208,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 42.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -236,7 +239,5 @@ tags:
 - Group Retirement
 - Carrier
 - ACORD
-- Partner Gated
-- No Public API
 website: https://www.canadalife.com/
 ---

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 1
@@ -142,7 +142,7 @@ modified: '2026-09-19'
 name: Agent Bench
 nav: Providers
 network: true
-overview: 'Agent Bench publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Agents, A2A, MCP, Agentic Commerce, and DNS-AID.
+overview: 'Agent Bench is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Agents, A2A, MCP, Agentic Commerce, and DNS-AID.
 
 
   Agent Bench''s developer surface includes documentation, authentication, sandbox, and 16 more developer resources.'
@@ -159,7 +159,7 @@ score:
   band: emerging
   composite: 18.2
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 21
     catalog_earned: 47.0
     catalog_earned_first_party: 12.0
     catalog_gap: 68.0
@@ -185,13 +185,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 15.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/agenthaven-dev/refs/heads/main/screenshots/agenthaven-dev-2026-10-11T093047.png
 security:
 - kind: authentication
   name: Agenthaven Dev Authentication

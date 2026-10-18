@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 17
+- acting_count: 14
   human_in_the_loop: 0
   name: Workleap Agentic Access
   operation_count: 29
   slug: workleap-agentic-access
-  summary_line: 29 operations · 17 acting
+  summary_line: 29 operations · 14 acting
 api_count: 1
 apis:
 - baseURL: https://api.workleap.com
@@ -80,7 +80,7 @@ apis:
   description: User management and provisioning
   name: Workleap Users API
   slug: workleap-users-api
-artifact_total: 29
+artifact_total: 30
 collections:
 - collection_type: open
   name: API Collection
@@ -204,6 +204,10 @@ common:
   title: ''
   type: JSONSchema
   url: json-schema/workleap-feedback.json
+- group: design
+  title: ''
+  type: SpectralRules
+  url: https://github.com/workleap/wl-api-guidelines/blob/764bd20880f60765a48197b7ee0afca9bc0bd2bd/.workleap.rules.yaml
 created: '2026-06-13'
 description: Workleap is an employee experience platform (formerly GSoft/Officevibe) that provides a suite of products covering engagement surveys, performance management, recognition, onboarding, and learning management. The Workleap REST API allows developers and HR teams to automate user provisioning, group management, and organization-wide sync operations with their HRIS. The API also exposes engagement scores, pulse survey results, feedback data, GoodVibes recognition items, and team sentiment analytics collected by the Officevibe product. Authentication uses an API key passed via the workleap-subscription-key header, and API access is available on the Pro and Enterprise subscription plans.
 examples:
@@ -214,9 +218,13 @@ examples:
   name: Workleap Search Feedback Example
   slug: workleap-search-feedback-example
 finops:
-- name: Workleap Finops
+- has_sources: false
+  method: generated
+  name: Workleap Finops
+  primary_unit: ''
   service_category: ''
   slug: workleap-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/workleap.png
 json_schemas:
 - name: Workleap Feedback
@@ -238,13 +246,13 @@ modified: '2026-06-13'
 name: Workleap
 nav: Providers
 network: true
-overview: 'Workleap publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Attributes API, Engagement API, Feedback API, and 4 more. Tagged areas include Employee Experience, Human Resources, Engagement, Pulse Surveys, and Performance Management.
+overview: 'Workleap publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Attributes API, Engagement API, Feedback API, and 4 more. Tagged areas include Employee Experience, Human Resources, Engagement, Pulse Surveys, and Performance Management.
 
 
-  The Workleap catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+  The Workleap catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Workleap''s developer surface includes authentication, documentation, engineering blog, pricing, and 17 more developer resources.'
+  Workleap''s developer surface includes authentication, documentation, engineering blog, pricing, and 18 more developer resources.'
 plans:
 - name: Workleap Plans Pricing
   plan_count: 4
@@ -255,9 +263,10 @@ rate_limits:
   name: Workleap Rate Limits
   slug: workleap-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Workleap API Rules
+  name: Workleap — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -265,20 +274,32 @@ rules:
     info: 2
     warn: 3
   slug: workleap-jsonschema-spectral-rules
+- authorship: provider
+  effective_rule_count: 60
+  extends:
+  - spectral:oas
+  name: Workleap — wl api guidelines rules
+  rule_count: 19
+  severity_counts:
+    error: 2
+    hint: 0
+    info: 0
+    warn: 17
+  slug: workleap-wl-api-guidelines-spectral-rules
 score:
   band: developing
-  composite: 41.8
+  composite: 41.4
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 69.6
-    catalog_earned_first_party: 0.0
-    catalog_gap: 45.4
+    artifact_dirs: 18
+    catalog_earned: 73.5
+    catalog_earned_first_party: 18.0
+    catalog_gap: 41.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.4
   facets:
-    access_clarity: 54.7
-    contract_governance: 23.5
+    access_clarity: 26.3
+    contract_governance: 68.2
     contract_quality: 60.5
     developer_ergonomics: 19.0
     discoverability: 66.1
@@ -297,8 +318,8 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 21.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

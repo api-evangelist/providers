@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.nuorder.com/rss.xml
 - group: company
   title: ''
   type: Website
@@ -83,26 +87,26 @@ created: '2026-07-17'
 description: NuORDER by Lightspeed is a global B2B commerce platform for wholesale buying and selling between brands and retailers. It combines a fully-branded wholesale eCommerce storefront with account-specific pricing and discounts, an Assortments planning tool for data-driven buying and reduced markdowns, and a Marketplace that connects buyers to 3,000+ brands across fashion, footwear, and apparel. NuORDER exposes a partner-gated REST API at api.nuorder.com for syncing products, orders, catalogs, and customer data with ERP, PIM, and other commerce systems. Acquired by Lightspeed in 2021, it is used by brands including Arc'teryx, Kendra Scott, TOMS, Barbour, and Canada Goose.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nuorder.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: NuORDER
 nav: Providers
 network: true
 overview: 'NuORDER is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, B2B Commerce, Wholesale, and E-Commerce.
 
 
-  NuORDER''s developer surface includes engineering blog, support, and 8 more developer resources.'
+  NuORDER''s developer surface includes engineering blog, support, and 9 more developer resources.'
 random_paper: 19
 score:
   band: emerging
-  composite: 12.2
+  composite: 12.3
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 27.6
     contract_governance: 0.0
@@ -117,8 +121,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

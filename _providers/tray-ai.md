@@ -35,15 +35,15 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 62.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 72
+- acting_count: 64
   human_in_the_loop: 6
   name: Tray Ai Agentic Access
   operation_count: 105
   slug: tray-ai-agentic-access
-  summary_line: 105 operations · 72 acting · 6 human-in-the-loop
-api_count: 4
+  summary_line: 105 operations · 64 acting · 6 human-in-the-loop
+api_count: 6
 apis:
 - baseURL: https://tray.io/graphql
   baseurl_source: declared
@@ -851,9 +851,13 @@ features:
 - name: In-App Support
 - name: Dedicated Slack Channel
 finops:
-- name: Tray Ai Finops
+- has_sources: false
+  method: generated
+  name: Tray Ai Finops
+  primary_unit: ''
   service_category: API
   slug: tray-ai-finops
+  template: true
 graphqls:
 - description: The Tray.ai Embedded API is a GraphQL-based API that allows partners and customers to present in-app embedded integration experiences. It provides programmatic access to manage users, solutions, solut
   name: Tray.ai GraphQL API
@@ -932,7 +936,7 @@ modified: '2026-09-02'
 name: Tray.ai
 nav: Providers
 network: true
-overview: 'Tray.ai publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Authentications API, Call Connector API, and 12 more. Tagged areas include Automation, Integration, iPaaS, AI Agents, and MCP.
+overview: 'Tray.ai publishes 15 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authentication API, Authentications API, Call Connector API, and 12 more. Tagged areas include Automation, Integration, iPaaS, AI Agents, and MCP.
 
 
   The Tray.ai catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
@@ -949,9 +953,10 @@ rate_limits:
   name: Tray Ai Rate Limits
   slug: tray-ai-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Tray.ai API Rules
+  name: Tray.ai — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -959,7 +964,8 @@ rules:
     info: 2
     warn: 3
   slug: tray-ai-jsonschema-spectral-rules
-- effective_rule_count: 49
+- authorship: unmarked
+  effective_rule_count: 49
   extends:
   - spectral:oas
   name: Tray.ai API Rules
@@ -977,23 +983,23 @@ scopes:
   summary_line: 3 scopes
 score:
   band: exemplar
-  composite: 89.3
+  composite: 87.8
   coverage:
-    artifact_dirs: 38
-    catalog_earned: 93.0
+    artifact_dirs: 40
+    catalog_earned: 90.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 22.0
+    catalog_gap: 25.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 2.5
+  delta: -1.5
   facets:
-    access_clarity: 100.0
+    access_clarity: 92.1
     contract_governance: 45.5
     contract_quality: 75.3
     developer_ergonomics: 92.1
     discoverability: 81.7
     operational_transparency: 92.1
-  previous_composite: 86.8
+  previous_composite: 89.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -1010,8 +1016,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

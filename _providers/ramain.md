@@ -32,10 +32,15 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
-artifact_total: 2
+artifact_total: 3
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/ramain/refs/heads/main/plans/ramain-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/ramain-plans-pricing.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/ramain/refs/heads/main/security/ramain-trust-center.yml
   title: ''
@@ -97,13 +102,17 @@ network: true
 overview: 'RamAIn is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, Automation, and RPA.
 
 
-  RamAIn''s developer surface includes documentation, signup flow, pricing, support, engineering blog, and 7 more developer resources.'
+  RamAIn''s developer surface includes documentation, signup flow, pricing, support, engineering blog, and 8 more developer resources.'
+plans:
+- name: Ramain Plans Pricing
+  plan_count: 0
+  slug: ramain-plans-pricing
 random_paper: 16
 score:
   band: emerging
   composite: 13.9
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -124,8 +133,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 17.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

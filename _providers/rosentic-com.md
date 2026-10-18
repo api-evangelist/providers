@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: 'Hosted Model Context Protocol endpoint at https://api.rosentic.com/mcp (Streamable HTTP, POST), live since 2026-07-23, exposing three read tools over stored scan snapshots — run_status (every lane in '
@@ -191,7 +191,7 @@ modified: '2026-09-19'
 name: Rosentic
 nav: Providers
 network: true
-overview: 'Rosentic publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Developer Tools, CI/CD, Git, Static Analysis, and Merge Safety.
+overview: 'Rosentic is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Developer Tools, CI/CD, Git, Static Analysis, and Merge Safety.
 
 
   Rosentic''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, changelog, support, and 24 more developer resources.'
@@ -213,7 +213,7 @@ score:
   band: developing
   composite: 42.2
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 23
     catalog_earned: 60.0
     catalog_earned_first_party: 20.0
     catalog_gap: 55.0
@@ -238,13 +238,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/rosentic-com/refs/heads/main/screenshots/rosentic-com-2026-10-11T125419.png
 security:
 - kind: authentication
   name: Rosentic Com Authentication

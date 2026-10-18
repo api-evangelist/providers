@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.8
-  scored_at: '2026-10-04'
+  score: 22.9
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 1
+- acting_count: 0
   human_in_the_loop: 0
   name: Apache Cloudstack Agentic Access
   operation_count: 8
   slug: apache-cloudstack-agentic-access
-  summary_line: 8 operations · 1 acting
+  summary_line: 8 operations
 api_count: 4
 apis:
 - baseURL: http://localhost:8080/client/api
@@ -95,6 +95,21 @@ collections:
   name: Apache CloudStack Networks Zones API
   slug: open-apache-cloudstack-zones-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/apache-cloudstack/refs/heads/main/plans/apache-cloudstack-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/apache-cloudstack-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/apache-cloudstack/refs/heads/main/rate-limits/apache-cloudstack-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/apache-cloudstack-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/apache-cloudstack/refs/heads/main/finops/apache-cloudstack-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/apache-cloudstack-finops.yml
 - group: company
   title: ''
   type: Website
@@ -219,9 +234,13 @@ features:
 - description: Web-based management console for administrators and users to manage cloud resources visually.
   name: CloudStack UI
 finops:
-- name: Apache Cloudstack Finops
+- has_sources: false
+  method: generated
+  name: Apache Cloudstack Finops
+  primary_unit: ''
   service_category: API
   slug: apache-cloudstack-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/apache-cloudstack.png
 integrations:
 - description: KVM hypervisor support for Linux-based compute clusters in CloudStack zones.
@@ -280,13 +299,13 @@ modified: '2026-05-19'
 name: Apache CloudStack
 nav: Providers
 network: true
-overview: 'Apache CloudStack publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Networks API, Virtual Machines API, Volumes API, and 1 more. Tagged areas include Apache, Cloud, Infrastructure-as-a-Service, Infrastructure, and Open Source.
+overview: 'Apache CloudStack is listed with 4 APIs on the [APIs.io](https://apis.io/) network, including Networks API, Virtual Machines API, Volumes API, and 1 more. Tagged areas include Apache, Cloud, Infrastructure-as-a-Service, Infrastructure, and Open Source.
 
 
   The Apache CloudStack catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Apache CloudStack''s developer surface includes authentication, documentation, getting-started guide, support, changelog, and 16 more developer resources.'
+  Apache CloudStack''s developer surface includes authentication, documentation, getting-started guide, support, changelog, and 19 more developer resources.'
 plans:
 - name: Apache Cloudstack Plans Pricing
   plan_count: 3
@@ -297,9 +316,10 @@ rate_limits:
   name: Apache Cloudstack Rate Limits
   slug: apache-cloudstack-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Apache CloudStack API Rules
+  name: Apache CloudStack — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -307,7 +327,8 @@ rules:
     info: 1
     warn: 4
   slug: apache-cloudstack-jsonschema-spectral-rules
-- effective_rule_count: 60
+- authorship: generated
+  effective_rule_count: 60
   extends:
   - spectral:oas
   name: Apache CloudStack API Rules
@@ -319,18 +340,18 @@ rules:
     warn: 15
   slug: apache-cloudstack-spectral-rules
 score:
-  band: developing
-  composite: 39.4
+  band: thin
+  composite: 38.0
   coverage:
     artifact_dirs: 17
-    catalog_earned: 64.0
+    catalog_earned: 61.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 51.0
+    catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.4
   facets:
-    access_clarity: 26.3
+    access_clarity: 18.4
     contract_governance: 27.3
     contract_quality: 20.6
     developer_ergonomics: 34.5
@@ -353,8 +374,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

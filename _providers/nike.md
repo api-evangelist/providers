@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Nike provides APIs for product catalog access, inventory, store locations, and e-commerce integration. The platform supports partners and developers building experiences around Nike products.
@@ -41,6 +41,21 @@ apis:
   slug: nike-api
 artifact_total: 5
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/nike/refs/heads/main/plans/nike-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/nike-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/nike/refs/heads/main/rate-limits/nike-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/nike-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/nike/refs/heads/main/finops/nike-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/nike-finops.yml
 - group: company
   title: ''
   type: Website
@@ -56,19 +71,23 @@ common:
   url: https://about.nike.com/en/newsroom
 description: Nike is the world's largest supplier of athletic shoes and apparel and a major manufacturer of sports equipment, designing, developing, and marketing products under the Nike, Jordan, and Converse brands.
 finops:
-- name: Nike Finops
+- has_sources: true
+  method: generated
+  name: Nike Finops
+  primary_unit: ''
   service_category: Retail + E-Commerce
   slug: nike-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nike.png
 layout: provider
 modified: '2026-09-16'
 name: Nike
 nav: Providers
 network: true
-overview: 'Nike publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500, Fashion, Apparel, Footwear, and Sportswear.
+overview: 'Nike is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500, Fashion, Apparel, Footwear, and Sportswear.
 
 
-  Nike''s developer surface includes engineering blog and 2 more developer resources.'
+  Nike''s developer surface includes engineering blog and 5 more developer resources.'
 plans:
 - name: Nike Plans Pricing
   plan_count: 1
@@ -96,31 +115,31 @@ rate_limits:
   slug: nike-rate-limits
 score:
   band: minimal
-  composite: 10.3
+  composite: 8.8
   coverage:
     artifact_dirs: 9
-    catalog_earned: 41.0
+    catalog_earned: 38.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.8
+  delta: -1.5
   facets:
-    access_clarity: 13.2
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
     discoverability: 60.7
     operational_transparency: 5.3
-  previous_composite: 11.1
+  previous_composite: 10.3
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

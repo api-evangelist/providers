@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 4
+- acting_count: 2
   human_in_the_loop: 0
   name: Adapt Io Agentic Access
   operation_count: 4
   slug: adapt-io-agentic-access
-  summary_line: 4 operations · 4 acting
+  summary_line: 4 operations · 2 acting
 api_count: 1
 apis:
 - baseURL: https://api.adapt.io/v3
@@ -300,9 +300,13 @@ features:
 - Free, Starter ($49/mo), Basic ($99/mo), and Custom (API-enabled) plans
 - 7-day free trial without credit card and 20% annual-billing discount
 finops:
-- name: Adapt Io Finops
+- has_sources: true
+  method: generated
+  name: Adapt Io Finops
+  primary_unit: credit
   service_category: Data and Analytics
   slug: adapt-io-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/adapt-io.png
 json_schemas:
 - name: Adapt Company
@@ -321,7 +325,7 @@ modified: '2026-08-13'
 name: Adapt
 nav: Providers
 network: true
-overview: 'Adapt publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Company Search API, Contact Enrichment API, Contact Purchase API, and 1 more. Tagged areas include B2B Data, Contact Data, Company Data, Lead Intelligence, and Sales Intelligence.
+overview: 'Adapt publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Company Search API, Contact Enrichment API, Contact Purchase API, and 1 more. Tagged areas include B2B Data, Contact Data, Company Data, Lead Intelligence, and Sales Intelligence.
 
 
   The Adapt catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -338,9 +342,10 @@ rate_limits:
   name: Adapt Io Rate Limits
   slug: adapt-io-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Adapt API Rules
+  name: Adapt — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -350,15 +355,15 @@ rules:
   slug: adapt-io-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 56.4
+  composite: 56.5
   coverage:
-    artifact_dirs: 28
+    artifact_dirs: 29
     catalog_earned: 77.3
     catalog_earned_first_party: 20.0
     catalog_gap: 37.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 84.2
     contract_governance: 14.4
@@ -383,8 +388,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

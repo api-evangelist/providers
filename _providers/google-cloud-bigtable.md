@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.8
-  scored_at: '2026-10-04'
+  score: 22.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -86,6 +86,21 @@ collections:
   name: Google Cloud Bigtable Admin Clusters Tables API
   slug: open-google-cloud-bigtable-tables-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-bigtable/refs/heads/main/plans/google-cloud-bigtable-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/google-cloud-bigtable-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-bigtable/refs/heads/main/rate-limits/google-cloud-bigtable-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/google-cloud-bigtable-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-bigtable/refs/heads/main/finops/google-cloud-bigtable-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/google-cloud-bigtable-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/google-cloud-bigtable/refs/heads/main/capabilities/google-cloud-bigtable-capability-edges.yml
   title: ''
@@ -176,9 +191,13 @@ common:
 created: '2026-03-13'
 description: Google Cloud Bigtable is a fully managed, scalable NoSQL database service designed for large analytical and operational workloads. It offers consistent sub-10ms latency and seamless scalability, making it ideal for time-series data, IoT, ad tech, fintech, and machine learning applications. Bigtable integrates with popular big data tools like Hadoop, Dataflow, and Dataproc.
 finops:
-- name: Google Cloud Bigtable Finops
+- has_sources: false
+  method: generated
+  name: Google Cloud Bigtable Finops
+  primary_unit: ''
   service_category: API
   slug: google-cloud-bigtable-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/google-cloud-bigtable.png
 json_schemas:
 - name: Google Cloud Bigtable Instance
@@ -194,13 +213,13 @@ modified: '2026-05-19'
 name: Google Cloud Bigtable
 nav: Providers
 network: true
-overview: 'Google Cloud Bigtable publishes 3 APIs on the [APIs.io](https://apis.io/) network: Clusters API, Instances API, and Tables API. Tagged areas include Bigtable, Database, Google Cloud, NoSQL, and Wide Column.
+overview: 'Google Cloud Bigtable publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Clusters API, Instances API, and Tables API. Tagged areas include Bigtable, Database, Google Cloud, NoSQL, and Wide Column.
 
 
   The Google Cloud Bigtable catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Google Cloud Bigtable''s developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, support, engineering blog, and 13 more developer resources.'
+  Google Cloud Bigtable''s developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, support, engineering blog, and 16 more developer resources.'
 plans:
 - name: Google Cloud Bigtable Plans Pricing
   plan_count: 3
@@ -211,9 +230,10 @@ rate_limits:
   name: Google Cloud Bigtable Rate Limits
   slug: google-cloud-bigtable-rate-limits
 rules:
-- effective_rule_count: 4
+- authorship: generated
+  effective_rule_count: 4
   extends: []
-  name: Google Cloud Bigtable API Rules
+  name: Google Cloud Bigtable — jsonschema rules
   rule_count: 4
   severity_counts:
     error: 0
@@ -228,17 +248,17 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: developing
-  composite: 48.7
+  composite: 47.2
   coverage:
     artifact_dirs: 17
-    catalog_earned: 62.7
+    catalog_earned: 59.7
     catalog_earned_first_party: 0.0
-    catalog_gap: 52.4
+    catalog_gap: 55.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 47.4
+    access_clarity: 39.5
     contract_governance: 9.8
     contract_quality: 59.3
     developer_ergonomics: 51.2
@@ -258,8 +278,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

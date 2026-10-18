@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: TransUnion's API products for credit reporting, identity verification, fraud prevention and consumer risk decisioning. Access requires a business agreement with TransUnion and credentials issued by an
@@ -204,7 +204,7 @@ modified: '2026-08-13'
 name: TransUnion
 nav: Providers
 network: true
-overview: 'TransUnion publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Authentication Service API, Signing API, Verification API, and 4 more. Tagged areas include Finance, Credit Reporting, Risk Management, Identity, and Fraud Prevention.
+overview: 'TransUnion publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authentication Service API, Signing API, Verification API, and 4 more. Tagged areas include Finance, Credit Reporting, Risk Management, Identity, and Fraud Prevention.
 
 
   TransUnion''s developer surface includes authentication, product news, engineering blog, and 23 more developer resources.'
@@ -221,7 +221,7 @@ score:
   band: emerging
   composite: 26.1
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -251,8 +251,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 19.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

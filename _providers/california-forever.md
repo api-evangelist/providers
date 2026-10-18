@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://californiaforever.com/blog/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/california-forever/refs/heads/main/security/california-forever-domain-security.yml
   title: ''
@@ -77,14 +81,14 @@ created: '2026-07-17'
 description: California Forever is a real estate and urban development company founded by Jan Sramek in 2017, backed by prominent Silicon Valley investors including Andreessen Horowitz (a16z), Laurene Powell Jobs, Reid Hoffman, Marc Andreessen, and Stripe co-founders Patrick and John Collison. Through its subsidiary Flannery Associates the company assembled roughly 60,000-70,000 acres of land in southeastern Solano County, California, and is planning a new walkable city for up to 400,000 residents alongside the Solano Foundry advanced manufacturing park and the Solano Shipyard. The company describes the effort as a $215 billion private investment intended to create hundreds of thousands of jobs, 170,000+ new homes, and billions in annual tax revenue over 40 years. California Forever is a physical-development and land-use company; it publishes no public API, developer portal, SDKs, or machine-readable interfaces at this time.
 image: https://californiaforever.com/wp-content/uploads/2025/12/CF-SocialShare.jpg
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: California Forever
 nav: Providers
 network: true
 overview: 'California Forever is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real Estate, Urban Development, Construction, and Manufacturing.
 
 
-  California Forever''s developer surface includes engineering blog, support, and 7 more developer resources.'
+  California Forever''s developer surface includes engineering blog, support, and 8 more developer resources.'
 random_paper: 6
 score:
   band: minimal
@@ -111,8 +115,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -133,6 +137,5 @@ tags:
 - Manufacturing
 - Infrastructure
 - California
-- Venture Backed
 website: https://californiaforever.com/
 ---

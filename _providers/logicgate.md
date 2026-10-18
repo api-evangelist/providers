@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 43
   slug: logicgate-agentic-access
   summary_line: 43 operations · 24 acting
-api_count: 1
+api_count: 2
 apis:
 - baseURL_template: https://{env}.logicgate.com
   baseurl_source: spec_template
@@ -284,7 +284,7 @@ modified: '2026-07-20'
 name: LogicGate
 nav: Providers
 network: true
-overview: 'LogicGate publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Access Audit API, Application API, Authentication API, and 8 more. Tagged areas include Company, GRC, Governance Risk and Compliance, Risk Management, and Compliance.
+overview: 'LogicGate publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Access Audit API, Application API, Authentication API, and 8 more. Tagged areas include Company, GRC, Governance Risk and Compliance, Risk Management, and Compliance.
 
 
   LogicGate''s developer surface includes documentation, API reference, getting-started guide, support, pricing, authentication, changelog, and 23 more developer resources.'
@@ -293,7 +293,7 @@ score:
   band: developing
   composite: 43.7
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -330,8 +330,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

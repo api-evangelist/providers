@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.4
-  scored_at: '2026-10-04'
+  score: 24.6
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -84,6 +84,21 @@ collections:
   name: Pixie API
   slug: open-pixie
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/pixie/refs/heads/main/plans/pixie-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/pixie-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/pixie/refs/heads/main/rate-limits/pixie-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/pixie-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/pixie/refs/heads/main/finops/pixie-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/pixie-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/pixie/refs/heads/main/capabilities/pixie-capability-edges.yml
   title: ''
@@ -239,9 +254,13 @@ common:
 created: '2026-03-16'
 description: Pixie is a Kubernetes observability platform that uses eBPF to automatically collect telemetry data including full-body application requests, resource and network metrics, and application profiles without manual instrumentation.
 finops:
-- name: Pixie Finops
+- has_sources: true
+  method: generated
+  name: Pixie Finops
+  primary_unit: ''
   service_category: Observability
   slug: pixie-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pixie.png
 json_schemas:
 - name: Pixie Plugin Configuration
@@ -260,13 +279,13 @@ modified: '2026-05-19'
 name: Pixie
 nav: Providers
 network: true
-overview: 'Pixie publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Clusters API, Health API, Scripts API, and 2 more. Tagged areas include eBPF, Kubernetes, Monitoring, and Observability.
+overview: 'Pixie publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Clusters API, Health API, Scripts API, and 2 more. Tagged areas include eBPF, Kubernetes, Monitoring, and Observability.
 
 
   The Pixie catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Pixie''s developer surface includes API reference, support, CLI, changelog, authentication, documentation, getting-started guide, and 27 more developer resources.'
+  Pixie''s developer surface includes API reference, support, CLI, changelog, authentication, documentation, getting-started guide, and 30 more developer resources.'
 plans:
 - name: Pixie Plans Pricing
   plan_count: 1
@@ -277,9 +296,10 @@ rate_limits:
   name: Pixie Rate Limits
   slug: pixie-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: Pixie API Rules
+  name: Pixie — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -289,17 +309,17 @@ rules:
   slug: pixie-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 48.7
+  composite: 47.3
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 47.7
+    artifact_dirs: 24
+    catalog_earned: 44.7
     catalog_earned_first_party: 0.0
-    catalog_gap: 67.4
+    catalog_gap: 70.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.4
   facets:
-    access_clarity: 13.2
+    access_clarity: 5.3
     contract_governance: 14.4
     contract_quality: 58.3
     developer_ergonomics: 73.2
@@ -324,8 +344,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

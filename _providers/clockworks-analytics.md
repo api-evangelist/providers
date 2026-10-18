@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 4
 apis:
 - description: The Base container of the Clockworks REST API. Serves static asset information — clients, buildings, building types and variables, equipment, equipment classes / types / variables, points, point class
@@ -52,6 +52,10 @@ apis:
   slug: clockworks-work-orders-api
 artifact_total: 7
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://clockworksanalytics.com/feed/
 - group: company
   title: ''
   type: Website
@@ -158,20 +162,20 @@ created: '2026-08-09'
 description: Clockworks Analytics is a Boston-area building-analytics company whose cloud platform performs automated fault detection and diagnostics (FDD) on HVAC and building systems. It ingests interval data from Building Management Systems through the Clockworks Connect gateway, runs a curated library of root-cause diagnostics, and quantifies each performance issue by avoidable energy cost plus energy, comfort and maintenance priority on a 0-10 scale. Its public REST API is delivered through Azure API Management on rest.buildingsapi.net as four containers — core-base (clients, buildings, equipment, points, users), core-diag (diagnostic records), core-kpis (KQL-driven aggregated datasets) and workorders (Tasks / CMMS work-order sync) — and is documented publicly at cw.clockworksanalytics.com plus a public Confluence developer guide set for CMMS and KPI integration.
 image: https://clockworksanalytics.com/wp-content/themes/Clockworks/images/clockworks-logo.svg
 layout: provider
-modified: '2026-08-09'
+modified: '2026-10-06'
 name: Clockworks Analytics
 nav: Providers
 network: true
-overview: 'Clockworks Analytics publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Building Analytics, Fault Detection and Diagnostics, HVAC, and Energy Management.
+overview: 'Clockworks Analytics is listed with 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Building Analytics, Fault Detection and Diagnostics, HVAC, and Energy Management.
 
 
-  Clockworks Analytics'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, authentication, and 16 more developer resources.'
+  Clockworks Analytics'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, authentication, and 17 more developer resources.'
 random_paper: 13
 score:
   band: thin
   composite: 35.1
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -194,8 +198,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 24.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

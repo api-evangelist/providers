@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 5.0
-  scored_at: '2026-10-04'
+  score: 3.1
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: Gatling is an open source load and performance testing framework for web applications and APIs with a Scala-based DSL and detailed HTML reports.
@@ -44,6 +44,29 @@ apis:
   slug: gatling-enterprise
 artifact_total: 7
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/gatling/refs/heads/main/plans/gatling-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/gatling-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/gatling/refs/heads/main/rate-limits/gatling-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/gatling-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/gatling/refs/heads/main/finops/gatling-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/gatling-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://gatling.io/updates
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://gatling.io/updates/rss.xml
 - group: operate
   title: ''
   type: IssueTracker
@@ -93,19 +116,23 @@ common:
 created: '2026-03-25'
 description: Gatling is an open source load and performance testing framework for web applications and APIs with a Scala-based DSL and detailed HTML reports. The Gatling Enterprise Edition exposes a public REST API for triggering runs and fetching run results and metrics.
 finops:
-- name: Gatling Finops
+- has_sources: false
+  method: generated
+  name: Gatling Finops
+  primary_unit: ''
   service_category: API
   slug: gatling-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/gatling.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-10-06'
 name: Gatling
 nav: Providers
 network: true
-overview: 'Gatling publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Load Testing, Performance Testing, and Testing.
+overview: 'Gatling is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Load Testing, Performance Testing, and Testing.
 
 
-  Gatling''s developer surface includes documentation and 10 more developer resources.'
+  Gatling''s developer surface includes engineering blog, documentation, and 14 more developer resources.'
 plans:
 - name: Gatling Plans Pricing
   plan_count: 3
@@ -117,20 +144,20 @@ rate_limits:
   slug: gatling-rate-limits
 score:
   band: emerging
-  composite: 17.0
+  composite: 16.1
   coverage:
-    artifact_dirs: 7
-    catalog_earned: 36.0
+    artifact_dirs: 9
+    catalog_earned: 33.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 79.0
+    catalog_gap: 82.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.9
   facets:
-    access_clarity: 23.7
+    access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 21.4
+    developer_ergonomics: 23.8
     discoverability: 55.4
     operational_transparency: 10.5
   open_source:
@@ -143,8 +170,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

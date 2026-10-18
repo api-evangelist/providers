@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-04'
+  score: 20.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -70,6 +70,25 @@ collections:
   name: GNews API
   slug: open-gnews
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/gnews/refs/heads/main/plans/gnews-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/gnews-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/gnews/refs/heads/main/rate-limits/gnews-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/gnews-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/gnews/refs/heads/main/finops/gnews-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/gnews-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://gnews.io/blog
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/gnews/refs/heads/main/agentic-access/gnews-agentic-access.yml
   title: ''
@@ -112,19 +131,23 @@ common:
 created: '2025-02-09'
 description: A REST News API to search current and historical articles and retrieve trending news in over 22 languages across 30 countries from 60,000+ sources.
 finops:
-- name: Gnews Finops
+- has_sources: false
+  method: generated
+  name: Gnews Finops
+  primary_unit: ''
   service_category: API
   slug: gnews-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/gnews.png
 layout: provider
-modified: '2026-05-19'
+modified: '2026-10-06'
 name: GNews
 nav: Providers
 network: true
-overview: 'GNews publishes 2 APIs on the [APIs.io](https://apis.io/) network: Headlines API and Search API. Tagged areas include Articles, Headlines, News, and Search.
+overview: 'GNews publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Headlines API and Search API. Tagged areas include Articles, Headlines, News, and Search.
 
 
-  GNews'' developer surface includes authentication, documentation, signup flow, pricing, and 5 more developer resources.'
+  GNews'' developer surface includes engineering blog, authentication, documentation, signup flow, pricing, and 8 more developer resources.'
 plans:
 - name: Gnews Plans Pricing
   plan_count: 3
@@ -136,20 +159,20 @@ rate_limits:
   slug: gnews-rate-limits
 score:
   band: thin
-  composite: 30.4
+  composite: 29.4
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 36.0
+    artifact_dirs: 13
+    catalog_earned: 33.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 79.0
+    catalog_gap: 82.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.0
   facets:
-    access_clarity: 34.2
+    access_clarity: 26.3
     contract_governance: 0.0
     contract_quality: 48.4
-    developer_ergonomics: 27.4
+    developer_ergonomics: 29.8
     discoverability: 55.4
     operational_transparency: 7.9
   previous_composite: 30.4
@@ -166,8 +189,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

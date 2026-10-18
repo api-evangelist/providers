@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'An API gateway host operated by Acadia Healthcare, not a published API product. Probed 2026-08-29: api.acadiahealthcare.com resolves by CNAME to w5rrqr.usa-e2.cloudhub.io (MuleSoft CloudHub, US-East-2'
@@ -42,6 +42,21 @@ apis:
   slug: acadia-healthcare-api
 artifact_total: 5
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/acadia-healthcare/refs/heads/main/plans/acadia-healthcare-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/acadia-healthcare-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/acadia-healthcare/refs/heads/main/rate-limits/acadia-healthcare-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/acadia-healthcare-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/acadia-healthcare/refs/heads/main/finops/acadia-healthcare-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/acadia-healthcare-finops.yml
 - group: company
   title: ''
   type: Website
@@ -103,19 +118,23 @@ coverage:
 created: '2026-04-19'
 description: 'Acadia Healthcare Company, Inc. (NASDAQ: ACHC) is a Franklin, Tennessee-based Fortune 1000 behavioral healthcare provider operating a national network of acute inpatient psychiatric hospitals, specialty substance use disorder treatment facilities, residential treatment centers, and outpatient comprehensive treatment clinics across the United States. It is a clinical services operator rather than a software company: as of August 2026 it publishes no developer portal, no API reference, and no machine-readable contract of any kind. A MuleSoft CloudHub gateway is deployed at api.acadiahealthcare.com, but every anonymous path on it returns an empty-body HTTP 404, and the developer host previously recorded here (developer.acadiahealthcare.com) does not resolve. Not to be confused with Acadia Pharmaceuticals (NASDAQ: ACAD), an unrelated company.'
 finops:
-- name: Acadia Healthcare Finops
+- has_sources: true
+  method: generated
+  name: Acadia Healthcare Finops
+  primary_unit: ''
   service_category: Behavioral Health Services
   slug: acadia-healthcare-finops
+  template: false
 image: /assets/icons/acadia-healthcare.png
 layout: provider
 modified: '2026-08-29'
 name: Acadia Healthcare
 nav: Providers
 network: true
-overview: 'Acadia Healthcare publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Behavioral Health, Mental Health, Substance Use Treatment, Healthcare Providers, and Hospitals.
+overview: 'Acadia Healthcare publishes no API. The 1 entry listed on the [APIs.io](https://apis.io/) network are product areas recorded for completeness, each marked as not an API. Tagged areas include Behavioral Health, Mental Health, Substance Use Treatment, Healthcare Providers, and Hospitals.
 
 
-  Acadia Healthcare''s developer surface includes engineering blog, support, and 8 more developer resources.'
+  Acadia Healthcare''s developer surface includes engineering blog, support, and 11 more developer resources.'
 plans:
 - name: Acadia Healthcare Plans Pricing
   plan_count: 0
@@ -127,17 +146,17 @@ rate_limits:
   slug: acadia-healthcare-rate-limits
 score:
   band: emerging
-  composite: 14.8
+  composite: 13.3
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 40.0
+    artifact_dirs: 12
+    catalog_earned: 37.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 18.4
+    access_clarity: 10.5
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 7.1
@@ -163,8 +182,8 @@ score:
     regime: Health
     regime_id: health
     score: 11.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 350
   human_in_the_loop: 16
@@ -198,6 +198,10 @@ collections:
   name: Nuon accounts vcs API
   slug: open-nuon-vcs-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://nuon.co/rss.xml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/nuon/refs/heads/main/capabilities/nuon-capability-edges.yml
   title: ''
@@ -374,21 +378,21 @@ created: '2026-07-17'
 description: 'Nuon is a Bring Your Own Cloud (BYOC) continuous-delivery platform for software vendors. It lets vendors package existing applications — Terraform, Pulumi, Helm charts, Kubernetes manifests, and container images — and deploy them into their customers'' own AWS, Azure, or GCP accounts while keeping a SaaS-like experience. Nuon runs a Control Plane plus egress-only Runners installed in each customer account (no cross-account IAM), and adds day-2 operations: least-privilege operation roles, drift detection, approval workflows, OPA-based policies, runbooks, secrets, actions, and org-scoped CloudEvents webhooks. The platform exposes a REST control-plane API (OpenAPI v2 + v3), a first-party CLI and TUIs, Go/Python/Elixir SDKs, and Terraform providers. Nuon''s core is open source under github.com/nuonco.'
 image: https://nuon.co/favicon.svg
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Nuon
 nav: Providers
 network: true
-overview: 'Nuon publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Actions API, Actions/runner API, and 15 more. Tagged areas include Company, BYOC, Deployment, Continuous Delivery, and DevOps.
+overview: 'Nuon publishes 18 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, Actions API, Actions/runner API, and 15 more. Tagged areas include Company, BYOC, Deployment, Continuous Delivery, and DevOps.
 
 
   The Nuon catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Nuon''s developer surface includes authentication, documentation, API reference, getting-started guide, quickstart, support, engineering blog, and 31 more developer resources.'
+  Nuon''s developer surface includes authentication, documentation, API reference, getting-started guide, quickstart, support, engineering blog, and 32 more developer resources.'
 random_paper: 8
 score:
   band: strong
-  composite: 55.8
+  composite: 55.9
   coverage:
     artifact_dirs: 23
     catalog_earned: 37.0
@@ -396,7 +400,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 47.4
     contract_governance: 4.5
@@ -421,8 +425,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

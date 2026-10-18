@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 50.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 13
@@ -112,6 +112,10 @@ asyncapis:
   name: Justt Webhook Events
   slug: justt-webhook-events
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://justt.ai/feed/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/justt/refs/heads/main/capabilities/justt-capability-edges.yml
   title: ''
@@ -282,17 +286,17 @@ created: '2026-08-23'
 description: Justt is an AI-native chargeback management and dispute-representment platform for high-volume merchants. Its Dynamic Arguments engine assembles evidence-backed representment packages for card disputes across 30+ payment service providers (Stripe, Adyen, PayPal, Braintree, Checkout.com, Worldpay, Chase Paymentech, Nuvei and others), and it also handles pre-chargeback alerts from Ethoca, Verifi CDRN and RDR. Justt publishes a public developer portal at developers.justt.ai with three OpenAPI definitions — a REST API for chargebacks, transactions, evidence, files, merchants and integrations; a Pre-Chargeback Alerts API; and an OpenAPI 3.1 webhook-events specification covering eleven signed event types — plus an RFC 9727 /.well-known/api-catalog, an llms.txt documentation index, a sandbox environment, and a Vanta-hosted trust center.
 image: https://justt.ai/wp-content/uploads/2025/03/blog-7-1.jpg
 layout: provider
-modified: '2026-08-23'
+modified: '2026-10-06'
 name: Justt
 nav: Providers
 network: true
-overview: 'Justt publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Chargebacks API, Data Subjects API, Evidence API, and 6 more. Tagged areas include Company, Payments, Chargebacks, Disputes, and Fraud Prevention.
+overview: 'Justt publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Chargebacks API, Data Subjects API, Evidence API, and 6 more. Tagged areas include Company, Payments, Chargebacks, Disputes, and Fraud Prevention.
 
 
   The Justt catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Justt''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, sandbox, and 29 more developer resources.'
+  Justt''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, sandbox, and 30 more developer resources.'
 plans:
 - name: Justt Plans Pricing
   plan_count: 0
@@ -309,15 +313,15 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 52.2
+  composite: 52.3
   coverage:
-    artifact_dirs: 25
+    artifact_dirs: 26
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 43.4
     contract_governance: 18.2
@@ -342,8 +346,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 33.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

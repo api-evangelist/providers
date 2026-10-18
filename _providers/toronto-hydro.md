@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Toronto Hydro's Green Button Download My Data (DMD) implementation, also required by O. Reg. 633/21 and built to NAESB REQ.21 ESPI v3.3. A Toronto Hydro customer signs in to their own account and down
@@ -220,7 +220,7 @@ modified: '2026-07-27'
 name: Toronto Hydro
 nav: Providers
 network: true
-overview: 'Toronto Hydro publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Application Information API, Authorization API, Batch API, and 2 more. Tagged areas include Energy, Canada, Utilities, Electricity, and Smart Metering.
+overview: 'Toronto Hydro publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Application Information API, Authorization API, Batch API, and 2 more. Tagged areas include Energy, Canada, Utilities, Electricity, and Smart Metering.
 
 
   Toronto Hydro''s developer surface includes authentication, documentation, signup flow, getting-started guide, legal docs, support, FAQ, and 26 more developer resources.'
@@ -234,7 +234,7 @@ score:
   band: thin
   composite: 28.2
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -270,8 +270,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 34.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

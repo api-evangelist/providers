@@ -32,10 +32,23 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
-artifact_total: 1
+artifact_total: 2
 common:
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.digitaliron.com/
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/digital-iron/refs/heads/main/plans/digital-iron-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/digital-iron-plans-pricing.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.digitaliron.com/feed/
 - group: company
   title: ''
   type: Website
@@ -62,28 +75,32 @@ created: '2026-07-17'
 description: Digital Iron is an AI platform delivering aftersales intelligence for heavy machinery. It helps equipment dealers and OEMs turn scattered service data — machine history, product documentation, customer records, bills of materials, work orders, and technician notes — into faster troubleshooting, accurate parts identification, and reliable job quoting. The platform surfaces recurring failure patterns across fleets (excavators, crushers, compaction rollers, and similar equipment) to improve first-time fix rates. Digital Iron is backed by Seedcamp and tracked in the API Evangelist network as a portfolio company; the product is delivered as a hosted web application and no public API has been identified to date.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/digital-iron.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Digital Iron
 nav: Providers
 network: true
 overview: 'Digital Iron is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Heavy Machinery, Aftersales, and Field Service.
 
 
-  Digital Iron''s developer surface includes support and 4 more developer resources.'
+  Digital Iron''s developer surface includes pricing, support, and 6 more developer resources.'
+plans:
+- name: Digital Iron Plans Pricing
+  plan_count: 1
+  slug: digital-iron-plans-pricing
 random_paper: 9
 score:
-  band: minimal
-  composite: 6.3
+  band: emerging
+  composite: 12.7
   coverage:
-    artifact_dirs: 4
-    catalog_earned: 27.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 88.0
+    artifact_dirs: 6
+    catalog_earned: 35.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.4
   facets:
-    access_clarity: 6.6
+    access_clarity: 38.2
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 4.8
@@ -96,9 +113,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

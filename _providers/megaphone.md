@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -168,16 +168,20 @@ common:
 created: '2026-07-05'
 description: Megaphone (Megaphone by Spotify) is an enterprise podcast hosting, distribution, and advertising-monetization platform, owned by Spotify since its 2020 acquisition. Its REST API (base https://cms.megaphone.fm/api) lets podcast producers and partners programmatically manage networks, podcasts, and episodes, run dynamic ad insertion, and operate direct-sales advertising - campaigns, orders, advertisements, advertisers, and targeting - plus pull metrics and impressions via export services. API documentation is public, but an API token requires a paid Megaphone account (Professional from $99/month, or Enterprise).
 finops:
-- name: Megaphone Finops
+- has_sources: true
+  method: generated
+  name: Megaphone Finops
+  primary_unit: ''
   service_category: Media and Podcasting
   slug: megaphone-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/megaphone.png
 layout: provider
 modified: '2026-07-05'
 name: Megaphone
 nav: Providers
 network: true
-overview: 'Megaphone publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Campaigns API, Direct Sales v2 API, Episodes API, and 4 more. Tagged areas include Podcasting, Podcast Hosting, Advertising, Ad Monetization, and Dynamic Ad Insertion.
+overview: 'Megaphone publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Campaigns API, Direct Sales v2 API, Episodes API, and 4 more. Tagged areas include Podcasts, Podcast Hosting, Advertising, Ad Monetization, and Dynamic Ad Insertion.
 
 
   Megaphone''s developer surface includes authentication, documentation, API reference, pricing, and 8 more developer resources.'
@@ -192,22 +196,22 @@ rate_limits:
   slug: megaphone-rate-limits
 score:
   band: thin
-  composite: 33.9
+  composite: 27.0
   coverage:
     artifact_dirs: 10
-    catalog_earned: 58.0
+    catalog_earned: 42.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.0
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.9
   facets:
-    access_clarity: 37.4
+    access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 43.3
     developer_ergonomics: 28.6
     discoverability: 66.1
-    operational_transparency: 28.4
+    operational_transparency: 7.9
   previous_composite: 33.9
   provenance:
     agentic_access: derived
@@ -222,9 +226,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 17.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0
@@ -244,7 +248,7 @@ security:
   summary_line: security.txt · contact published
 slug: megaphone
 tags:
-- Podcasting
+- Podcasts
 - Podcast Hosting
 - Advertising
 - Ad Monetization

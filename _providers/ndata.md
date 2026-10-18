@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.ndata.cz/blog
 - group: company
   title: ''
   type: Website
@@ -53,31 +57,31 @@ created: '2026-07-17'
 description: 'nData (ndata.cz) is a European pharmaceutical software company operating since 2005 that builds GxP-compliant, AI-assisted systems for the pharma lifecycle: portfolio and project management (ePM), regulatory affairs (eRA), quality control planning (eQCP), artwork and packaging management (eAW), controlled documentation (eDOCS), clinical trial documentation / eTMF, plus eLAB (R&D lab operations), and eGO and eTRANSFER (launching Q3/2026). Its public web presence is a marketing and product-catalog site; nData publishes no public API, SDK, developer portal, or machine-readable specifications. Note: this repo was seeded as a bain-capital-ventures ai-infrastructure portfolio stub, but the ndata.cz surface is a pharmaceutical GxP software vendor — the portfolio match appears to be a mismatch.'
 image: https://www.ndata.cz/images/brand/ndata-logo-dark.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Ndata
 nav: Providers
 network: true
 overview: 'Ndata is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Pharmaceuticals, Regulatory Affairs, Quality Management, and Compliance.
 
 
-  Ndata''s developer surface includes support and 2 more developer resources.'
+  Ndata''s developer surface includes engineering blog, support, and 2 more developer resources.'
 random_paper: 14
 score:
   band: minimal
-  composite: 4.6
+  composite: 5.1
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 4.8
+    developer_ergonomics: 7.1
     discoverability: 48.2
     operational_transparency: 0.0
   previous_composite: 4.6
@@ -87,8 +91,8 @@ score:
     regime: Health
     regime_id: health
     score: 4.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

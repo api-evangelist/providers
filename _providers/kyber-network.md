@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 40.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - baseURL: https://aggregator-api.kyberswap.com
@@ -240,7 +240,7 @@ modified: '2026-07-19'
 name: Kyber Network
 nav: Providers
 network: true
-overview: 'Kyber Network publishes 5 APIs on the [APIs.io](https://apis.io/) network, including General API, Maker API, Service API, and 2 more. Tagged areas include Company, Crypto, DeFi, Blockchain, and Decentralized Exchange.
+overview: 'Kyber Network publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including General API, Maker API, Service API, and 2 more. Tagged areas include Company, Cryptocurrency, DeFi, Blockchain, and Decentralized Exchange.
 
 
   Kyber Network''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, pricing, and 24 more developer resources.'
@@ -283,8 +283,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 20.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -302,7 +302,7 @@ security:
 slug: kyber-network
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - DeFi
 - Blockchain
 - Decentralized Exchange

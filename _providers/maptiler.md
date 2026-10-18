@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.8
-  scored_at: '2026-10-04'
+  score: 23.6
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 32
   slug: maptiler-agentic-access
   summary_line: 32 operations
-api_count: 1
+api_count: 2
 apis:
 - baseURL: https://api.maptiler.com/
   baseurl_source: spec
@@ -307,9 +307,13 @@ examples:
   name: Maptiler Static Map
   slug: maptiler-static-map
 finops:
-- name: Maptiler Finops
+- has_sources: false
+  method: generated
+  name: Maptiler Finops
+  primary_unit: ''
   service_category: ''
   slug: maptiler-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/maptiler.png
 json_schemas:
 - name: SearchResults
@@ -328,7 +332,7 @@ modified: '2026-06-12'
 name: MapTiler
 nav: Providers
 network: true
-overview: 'MapTiler publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Maps API, Tiles API, Geocoding API, and 15 more. Tagged areas include Maps, Geospatial, Tiles, Vector Tiles, and Satellite Imagery.
+overview: 'MapTiler publishes 18 API contracts indexed on the [APIs.io](https://apis.io/) network, including Maps API, Tiles API, Geocoding API, and 15 more. Tagged areas include Maps, Geospatial, Tiles, Vector Tiles, and Satellite Imagery.
 
 
   The MapTiler catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -345,9 +349,10 @@ rate_limits:
   name: Maptiler Rate Limits
   slug: maptiler-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: MapTiler API Rules
+  name: MapTiler — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -356,23 +361,23 @@ rules:
     warn: 4
   slug: maptiler-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 45.8
+  band: thin
+  composite: 37.6
   coverage:
     artifact_dirs: 16
-    catalog_earned: 67.4
+    catalog_earned: 48.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 47.6
+    catalog_gap: 66.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.2
   facets:
-    access_clarity: 54.7
+    access_clarity: 26.3
     contract_governance: 23.5
     contract_quality: 57.1
     developer_ergonomics: 23.8
     discoverability: 48.2
-    operational_transparency: 49.5
+    operational_transparency: 28.9
   previous_composite: 45.8
   provenance:
     agentic_access: derived
@@ -387,9 +392,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

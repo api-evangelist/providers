@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 14.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 asyncapis:
@@ -40,6 +40,10 @@ asyncapis:
   name: Paynearme Callbacks Webhooks
   slug: paynearme-callbacks-webhooks
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://home.paynearme.com/feed/
 - group: company
   title: ''
   type: Website
@@ -99,7 +103,7 @@ created: '2026-07-17'
 description: PayNearMe is a modern payments platform that helps businesses accept, disburse, and manage payments across cash, card, ACH, digital wallets and pay-by-bank while lowering the total cost of acceptance by increasing acceptance rates, driving self-service, and simplifying payment exceptions. It is best known for its cash-at-retail network of 62,000+ locations (7-Eleven, CVS, Walmart, Walgreens, Kroger, Casey's, Family Dollar, Dollar General and more) alongside a full electronic billing and payments stack. PayNearMe serves auto and consumer lending, credit unions, iGaming and sports betting, buy-here-pay-here dealers, tolling, mortgage servicing, and law firms, and integrates with merchant loan-management and dealer platforms through server-to-server callbacks (webhooks) and a partner API. This profile was added to the API Evangelist network from a VC portfolio lead and enriched from PayNearMe's public developer, security, and integration surface.
 image: https://s31799.pcdn.co/wp-content/themes/paynearme-sage-theme-07.08.26/public/images/global/logo.46cdfe.svg
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: PayNearMe
 nav: Providers
 network: true
@@ -109,7 +113,7 @@ overview: 'PayNearMe is profiled on the [APIs.io](https://apis.io/) network. Tag
   The PayNearMe catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  PayNearMe''s developer surface includes documentation, support, engineering blog, signup flow, and 9 more developer resources.'
+  PayNearMe''s developer surface includes documentation, support, engineering blog, signup flow, and 10 more developer resources.'
 random_paper: 16
 score:
   band: thin
@@ -138,8 +142,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 28.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'The SimSpace Portal Suite platform API. SimSpace describes the cyber range platform as built API-first, giving partners and customers programmatic access for custom integrations, automation, advanced '
@@ -45,6 +45,14 @@ apis:
   slug: simspace-platform
 artifact_total: 8
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://simspace.com/blog/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://simspace.com/feed/
 - group: company
   title: ''
   type: Website
@@ -176,14 +184,14 @@ mcp_servers:
 - description: Remote MCP server at simspace.com over HTTP requiring OAuth.
   name: SimSpace MCP Server
   slug: simspace-wordpress-mcp
-modified: '2026-08-27'
+modified: '2026-10-06'
 name: SimSpace
 nav: Providers
 network: true
-overview: 'SimSpace publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cybersecurity, Cyber Range, Security Training, and Simulation.
+overview: 'SimSpace is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cybersecurity, Cyber Range, Security Training, and Simulation.
 
 
-  SimSpace''s developer surface includes documentation, support, engineering blog, signup flow, authentication, changelog, and 21 more developer resources.'
+  SimSpace''s developer surface includes engineering blog, documentation, support, signup flow, authentication, changelog, and 23 more developer resources.'
 plans:
 - name: Simspace Plans Pricing
   plan_count: 0
@@ -233,8 +241,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 39.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

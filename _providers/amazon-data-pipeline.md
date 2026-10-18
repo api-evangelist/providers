@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.8
-  scored_at: '2026-10-04'
+  score: 22.9
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 13
+- acting_count: 10
   human_in_the_loop: 0
   name: Amazon Data Pipeline Agentic Access
   operation_count: 13
   slug: amazon-data-pipeline-agentic-access
-  summary_line: 13 operations · 13 acting
+  summary_line: 13 operations · 10 acting
 api_count: 1
 apis:
 - baseURL: https://datapipeline.amazonaws.com
@@ -117,6 +117,21 @@ collections:
   name: AWS Data Pipeline API
   slug: open-amazon-data-pipeline
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-data-pipeline/refs/heads/main/plans/amazon-data-pipeline-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/amazon-data-pipeline-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-data-pipeline/refs/heads/main/rate-limits/amazon-data-pipeline-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/amazon-data-pipeline-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-data-pipeline/refs/heads/main/finops/amazon-data-pipeline-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/amazon-data-pipeline-finops.yml
 - group: company
   title: ''
   type: Website
@@ -320,9 +335,13 @@ features:
 - description: Manage active and latest pipeline definition versions, enabling updates to running pipelines without disrupting current execution.
   name: Pipeline Versioning
 finops:
-- name: Amazon Data Pipeline Finops
+- has_sources: false
+  method: generated
+  name: Amazon Data Pipeline Finops
+  primary_unit: ''
   service_category: API
   slug: amazon-data-pipeline-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amazon-data-pipeline.png
 json_schemas:
 - name: Activate Pipeline Request
@@ -432,13 +451,13 @@ modified: '2026-09-16'
 name: Amazon Data Pipeline
 nav: Providers
 network: true
-overview: 'Amazon Data Pipeline publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Objects API, Runs API, Pipelines API, and 1 more. Tagged areas include Data Processing, ETL, Workflows, Data Pipeline, and Automation.
+overview: 'Amazon Data Pipeline publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Objects API, Runs API, Pipelines API, and 1 more. Tagged areas include Data Processing, ETL, Workflows, Data Pipeline, and Automation.
 
 
   The Amazon Data Pipeline catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Data Pipeline''s developer surface includes authentication, developer portal, documentation, support, developer console, signup flow, and 24 more developer resources.'
+  Amazon Data Pipeline''s developer surface includes authentication, developer portal, documentation, support, developer console, signup flow, and 27 more developer resources.'
 plans:
 - name: Amazon Data Pipeline Plans Pricing
   plan_count: 3
@@ -449,9 +468,10 @@ rate_limits:
   name: Amazon Data Pipeline Rate Limits
   slug: amazon-data-pipeline-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Amazon Data Pipeline API Rules
+  name: Amazon Data Pipeline — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -459,7 +479,8 @@ rules:
     info: 2
     warn: 3
   slug: amazon-data-pipeline-jsonschema-spectral-rules
-- effective_rule_count: 67
+- authorship: generated
+  effective_rule_count: 67
   extends:
   - spectral:oas
   name: Amazon Data Pipeline API Rules
@@ -472,17 +493,17 @@ rules:
   slug: amazon-data-pipeline-spectral-rules
 score:
   band: developing
-  composite: 52.2
+  composite: 50.7
   coverage:
     artifact_dirs: 19
-    catalog_earned: 72.0
+    catalog_earned: 69.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 43.0
+    catalog_gap: 46.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 61.8
+    access_clarity: 53.9
     contract_governance: 27.3
     contract_quality: 61.8
     developer_ergonomics: 44.0
@@ -502,8 +523,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

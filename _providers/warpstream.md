@@ -28,20 +28,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.8
-  scored_at: '2026-10-04'
+  score: 22.9
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 12
+- acting_count: 10
   human_in_the_loop: 0
   name: Warpstream Agentic Access
   operation_count: 15
   slug: warpstream-agentic-access
-  summary_line: 15 operations · 12 acting
+  summary_line: 15 operations · 10 acting
 api_count: 1
 apis:
 - baseURL: https://api.warpstream.com
@@ -205,9 +205,13 @@ examples:
   name: Create Virtual Cluster
   slug: create-virtual-cluster
 finops:
-- name: Warpstream Finops
+- has_sources: false
+  method: generated
+  name: Warpstream Finops
+  primary_unit: ''
   service_category: ''
   slug: warpstream-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/warpstream.png
 json_schemas:
 - name: ApiKey
@@ -229,7 +233,7 @@ modified: 2026-06-13
 name: WarpStream
 nav: Providers
 network: true
-overview: 'WarpStream publishes 8 APIs on the [APIs.io](https://apis.io/) network, including API Keys API, Monitoring API, Pipelines API, and 5 more. Tagged areas include Kafka, Streaming, Serverless, Object Storage, and BYOC.
+overview: 'WarpStream publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including API Keys API, Monitoring API, Pipelines API, and 5 more. Tagged areas include Kafka, Streaming, Serverless, Object Storage, and BYOC.
 
 
   The WarpStream catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -246,9 +250,10 @@ rate_limits:
   name: Warpstream Rate Limits
   slug: warpstream-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: WarpStream API Rules
+  name: WarpStream — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -257,23 +262,23 @@ rules:
     warn: 4
   slug: warpstream-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 46.1
+  band: thin
+  composite: 37.8
   coverage:
-    artifact_dirs: 16
-    catalog_earned: 80.4
+    artifact_dirs: 18
+    catalog_earned: 61.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 34.6
+    catalog_gap: 53.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 54.7
+    access_clarity: 26.3
     contract_governance: 23.5
     contract_quality: 57.3
     developer_ergonomics: 23.8
     discoverability: 66.1
-    operational_transparency: 49.5
+    operational_transparency: 28.9
   previous_composite: 46.1
   provenance:
     agentic_access: derived
@@ -288,9 +293,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

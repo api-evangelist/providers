@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.noodle.com/resources/news/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/noodle-partners/refs/heads/main/security/noodle-partners-domain-security.yml
   title: ''
@@ -58,28 +62,31 @@ created: '2026-07-17'
 description: Noodle Partners (Noodle) is a higher education solutions company providing full-funnel services and AI-powered products spanning student recruitment through graduation and workforce development. Its product suite includes the Noodle Learning Platform (a customizable LMS for lifelong learning and continuing education), Noodle Companion (an in-platform AI assistant), Noodle Engage (conversational AI for recruitment and enrollment), Noodle Dialogue (AI-assisted faculty content and curriculum design), and Noodle Manage (data integration and analytics). Noodle also delivers marketing, enrollment, learning design, retention, and strategic consulting services to universities. It was surfaced as a portfolio company of 500 Global and added to the API Evangelist network. No public developer API surface was found during enrichment; the company publishes a SOC 2 trust center.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/noodle-partners.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Noodle Partners
 nav: Providers
 network: true
-overview: Noodle Partners is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, EdTech, Higher Education, and Online Program Management.
+overview: 'Noodle Partners is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, EdTech, Higher Education, and Online Program Management.
+
+
+  Noodle Partners'' developer surface includes engineering blog and 4 more developer resources.'
 random_paper: 3
 score:
   band: minimal
-  composite: 6.7
+  composite: 7.2
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 48.2
     operational_transparency: 0.0
   previous_composite: 6.7
@@ -89,8 +96,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 10.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

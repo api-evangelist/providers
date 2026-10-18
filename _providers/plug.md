@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 0
@@ -384,7 +384,7 @@ modified: '2026-07-20'
 name: Malga
 nav: Providers
 network: true
-overview: 'Malga publishes 19 APIs on the [APIs.io](https://apis.io/) network, including 3DS2 Malga API, Cards API, Charges API, and 16 more. Tagged areas include Company, Payments, Payment Orchestration, Payment Gateway, and Fintech.
+overview: 'Malga publishes 19 API contracts indexed on the [APIs.io](https://apis.io/) network, including 3DS2 Malga API, Cards API, Charges API, and 16 more. Tagged areas include Company, Payments, Payment Orchestration, Payment Gateway, and Fintech.
 
 
   The Malga catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -434,8 +434,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 25.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

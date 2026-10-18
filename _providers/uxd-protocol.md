@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://uxd.fi/blog/
 - group: company
   title: ''
   type: Website
@@ -98,14 +102,14 @@ created: '2026-07-17'
 description: UXD Protocol is a decentralized stablecoin protocol built on Solana, operated by Soteria FZCO, whose UXD token is backed 100% by an Asset Liability Management Module that deploys collateral into delta-neutral positions, on-chain lending, and real-world assets. The protocol is governed by the UXP token, is documented on GitBook, publishes six third-party security audits and a self-run bug bounty, and ships an open-source Solana program with a TypeScript client on npm and a Rust CPI client on crates.io. Backed by Multicoin Capital.
 image: https://3272050346-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/spaces%2F-Mj8VWsobdvjhMutae2g%2Favatar-1631248953660.png?generation=1631248954484277&alt=media
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: UXD Protocol
 nav: Providers
 network: true
-overview: 'UXD Protocol is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto Web3, Stablecoins, DeFi, and Solana.
+overview: 'UXD Protocol is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Web3, Stablecoins, DeFi, and Solana.
 
 
-  UXD Protocol''s developer surface includes documentation, engineering blog, support, and 10 more developer resources.'
+  UXD Protocol''s developer surface includes engineering blog, documentation, support, and 11 more developer resources.'
 random_paper: 10
 score:
   band: emerging
@@ -132,8 +136,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -152,13 +156,12 @@ security:
 slug: uxd-protocol
 tags:
 - Company
-- Crypto Web3
+- Web3
 - Stablecoins
 - DeFi
 - Solana
 - Blockchain
 - Digital Assets
-- Web3
 - Cryptocurrency
 website: https://uxd.fi
 ---

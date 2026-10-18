@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.3
-  scored_at: '2026-10-04'
+  score: 25.4
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -142,6 +142,21 @@ collections:
   name: Temenos Transact Core Banking Accounts Transactions API
   slug: open-temenos-transact-transactions-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/temenos-transact/refs/heads/main/plans/temenos-transact-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/temenos-transact-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/temenos-transact/refs/heads/main/rate-limits/temenos-transact-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/temenos-transact-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/temenos-transact/refs/heads/main/finops/temenos-transact-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/temenos-transact-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/temenos-transact/refs/heads/main/capabilities/temenos-transact-capability-edges.yml
   title: ''
@@ -373,9 +388,13 @@ features:
 - description: Configurable product catalog with conditions, eligibility criteria, and arrangement details for banking products.
   name: Product Catalog
 finops:
-- name: Temenos Transact Finops
+- has_sources: true
+  method: generated
+  name: Temenos Transact Finops
+  primary_unit: ''
   service_category: Banking Software
   slug: temenos-transact-finops
+  template: false
 image: https://www.temenos.com/wp-content/uploads/2023/01/temenos-logo.svg
 json_schemas:
 - name: AccountBalancesResponse
@@ -684,13 +703,13 @@ modified: '2026-05-19'
 name: Temenos Transact
 nav: Providers
 network: true
-overview: 'Temenos Transact publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Beneficiaries API, Cards API, and 10 more. Tagged areas include Banking, Core Banking, Digital Banking, Enterprise, and Financial Services.
+overview: 'Temenos Transact publishes 13 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, Beneficiaries API, Cards API, and 10 more. Tagged areas include Banking, Core Banking, Digital Banking, Enterprise, and Financial Services.
 
 
   The Temenos Transact catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Temenos Transact''s developer surface includes authentication, developer portal, getting-started guide, documentation, engineering blog, signup flow, support, and 10 more developer resources.'
+  Temenos Transact''s developer surface includes authentication, developer portal, getting-started guide, documentation, engineering blog, signup flow, support, and 13 more developer resources.'
 plans:
 - name: Temenos Transact Plans Pricing
   plan_count: 1
@@ -701,9 +720,10 @@ rate_limits:
   name: Temenos Transact Rate Limits
   slug: temenos-transact-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: Temenos Transact API Rules
+  name: Temenos Transact — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -711,7 +731,8 @@ rules:
     info: 2
     warn: 4
   slug: temenos-transact-jsonschema-spectral-rules
-- effective_rule_count: 59
+- authorship: generated
+  effective_rule_count: 59
   extends:
   - spectral:oas
   name: Temenos Transact API Rules
@@ -724,17 +745,17 @@ rules:
   slug: temenos-transact-spectral-rules
 score:
   band: developing
-  composite: 42.5
+  composite: 40.9
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 59.9
+    artifact_dirs: 19
+    catalog_earned: 56.9
     catalog_earned_first_party: 0.0
-    catalog_gap: 55.1
+    catalog_gap: 58.1
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 36.8
+    access_clarity: 28.9
     contract_governance: 13.6
     contract_quality: 64.4
     developer_ergonomics: 51.2
@@ -754,8 +775,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 16.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -27,16 +27,31 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 3.8
-  scored_at: '2026-10-04'
+  score: 1.9
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 4
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/dominos-pizza/refs/heads/main/plans/dominos-pizza-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/dominos-pizza-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/dominos-pizza/refs/heads/main/rate-limits/dominos-pizza-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/dominos-pizza-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/dominos-pizza/refs/heads/main/finops/dominos-pizza-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/dominos-pizza-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/dominos-pizza/refs/heads/main/security/dominos-pizza-domain-security.yml
   title: ''
@@ -82,9 +97,13 @@ created: '2026-04-19'
 description: Domino's Pizza is a major US quick-service restaurant corporation and Fortune 1000 company. Domino's does NOT publish an official public developer API or a developer portal. Its digital ordering surface is delivered through consumer channels - the dominos.com website, the Domino's mobile apps, and the "AnyWare" ordering platform (text, voice, smart TV, Amazon Echo, Google Home, and more), including the "Dom" virtual voice ordering assistant. The undocumented HTTP endpoints behind these first-party apps have been reverse-engineered by the developer community into well-known UNOFFICIAL wrapper libraries (the npm "dominos" / node-dominos-pizza-api package and the Python "pizzapi" / "dominos" packages). These community libraries are not endorsed, supported, or warranted by Domino's. Domino's does expose APIs to select delivery-marketplace partners (e.g. Uber Eats, Just Eat) through direct partnership and a private Postman workspace, but these are not publicly available. No official
   API specification, pricing, or rate-limit policy is published.
 finops:
-- name: Dominos Pizza Finops
+- has_sources: true
+  method: generated
+  name: Dominos Pizza Finops
+  primary_unit: ''
   service_category: QSR / Food Ordering
   slug: dominos-pizza-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dominos-pizza.png
 layout: provider
 modified: '2026-06-02'
@@ -94,7 +113,7 @@ network: true
 overview: 'Domino''s Pizza is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Food Service, Restaurant, Quick Service Restaurant, and Online Ordering.
 
 
-  Domino''s Pizza''s developer surface includes developer portal, engineering blog, code examples, and 7 more developer resources.'
+  Domino''s Pizza''s developer surface includes developer portal, engineering blog, code examples, and 10 more developer resources.'
 plans:
 - name: Dominos Pizza Plans Pricing
   plan_count: 1
@@ -105,18 +124,18 @@ rate_limits:
   name: Dominos Pizza Rate Limits
   slug: dominos-pizza-rate-limits
 score:
-  band: emerging
-  composite: 11.6
+  band: minimal
+  composite: 10.1
   coverage:
     artifact_dirs: 7
-    catalog_earned: 29.0
+    catalog_earned: 26.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 86.0
+    catalog_gap: 89.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 13.2
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 6.5
     developer_ergonomics: 19.0
@@ -129,8 +148,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

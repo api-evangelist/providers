@@ -35,15 +35,15 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 9
+- acting_count: 5
   human_in_the_loop: 0
   name: Morning Consult Agentic Access
   operation_count: 26
   slug: morning-consult-agentic-access
-  summary_line: 26 operations · 9 acting
-api_count: 1
+  summary_line: 26 operations · 5 acting
+api_count: 2
 apis:
 - baseURL: https://api.morningconsult.com/v1
   baseurl_source: declared
@@ -77,6 +77,10 @@ arazzos:
   slug: morning-consult-compute-score
 artifact_total: 14
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://morningconsult.com/articles/rss.xml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/morning-consult/refs/heads/main/capabilities/morning-consult-capability-edges.yml
   title: ''
@@ -240,14 +244,14 @@ json_schemas:
   property_count: 0
   slug: morning-consult-schemas
 layout: provider
-modified: '2026-08-01'
+modified: '2026-10-06'
 name: Morning Consult
 nav: Providers
 network: true
-overview: 'Morning Consult publishes 4 APIs on the [APIs.io](https://apis.io/) network, including AI API, Authentication API, Data API, and 1 more. Tagged areas include Company, Market Research, Survey Data, Consumer Intelligence, and Brand Tracking.
+overview: 'Morning Consult publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including AI API, Authentication API, Data API, and 1 more. Tagged areas include Company, Market Research, Survey Data, Consumer Intelligence, and Brand Tracking.
 
 
-  Morning Consult''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, signup flow, and 27 more developer resources.'
+  Morning Consult''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, signup flow, and 28 more developer resources.'
 random_paper: 21
 rate_limits:
 - limit_count: 5
@@ -255,7 +259,7 @@ rate_limits:
   slug: morning-consult-rate-limits
 score:
   band: strong
-  composite: 54.7
+  composite: 54.8
   coverage:
     artifact_dirs: 23
     catalog_earned: 54.4
@@ -263,7 +267,7 @@ score:
     catalog_gap: 60.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 50.0
     contract_governance: 18.2
@@ -288,8 +292,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

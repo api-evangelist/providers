@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'REST/JSON API for text-to-speech synthesis, audio and SRT subtitle download, and voice listing. Uses x-api-key header auth. Endpoints: POST /api/v1/tts, GET /api/audio/{file_id}, GET /api/srt/{file_id'
@@ -44,6 +44,11 @@ apis:
   slug: freetts-rest-api
 artifact_total: 6
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/freetts/refs/heads/main/rate-limits/freetts-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/freetts-rate-limits.yml
 - group: company
   title: ''
   type: Website
@@ -123,10 +128,10 @@ modified: '2026-08-28'
 name: FreeTTS
 nav: Providers
 network: true
-overview: 'FreeTTS publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Text-to-Speech, Speech Synthesis, AI-voice, Audio, and Media.
+overview: 'FreeTTS is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Text-to-Speech, Speech Synthesis, AI-voice, Audio, and Media.
 
 
-  FreeTTS''s developer surface includes pricing, signup flow, support, engineering blog, and 11 more developer resources.'
+  FreeTTS''s developer surface includes pricing, signup flow, support, engineering blog, and 12 more developer resources.'
 plans:
 - name: Freetts Plans Pricing
   plan_count: 3
@@ -138,15 +143,15 @@ rate_limits:
   slug: freetts-rate-limits
 score:
   band: developing
-  composite: 43.4
+  composite: 43.1
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 66.4
     catalog_earned_first_party: 24.0
     catalog_gap: 48.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 76.3
     contract_governance: 18.2
@@ -160,12 +165,12 @@ score:
     mcp: derived
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

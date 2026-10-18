@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.0
-  scored_at: '2026-10-04'
+  score: 17.8
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -98,6 +98,21 @@ collections:
   name: METACRAN CranDB Badges Versions API
   slug: open-r-versions-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/r/refs/heads/main/plans/r-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/r-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/r/refs/heads/main/rate-limits/r-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/r-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/r/refs/heads/main/finops/r-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/r-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/r/refs/heads/main/agentic-access/r-agentic-access.yml
   title: ''
@@ -165,9 +180,13 @@ examples:
   name: R Get R Release Example
   slug: r-get-r-release-example
 finops:
-- name: R Finops
+- has_sources: false
+  method: generated
+  name: R Finops
+  primary_unit: ''
   service_category: API
   slug: r-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/r.png
 json_schemas:
 - name: CRAN Package
@@ -193,13 +212,13 @@ modified: '2026-05-19'
 name: R
 nav: Providers
 network: true
-overview: 'R publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Badges API, Downloads API, Packages API, and 2 more. Tagged areas include R, Statistics, Data Science, Open Source, and Programming Language.
+overview: 'R publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Badges API, Downloads API, Packages API, and 2 more. Tagged areas include R, Statistics, Data Science, Open Source, and Programming Language.
 
 
   The R catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  R''s developer surface includes documentation, engineering blog, Stack Overflow tag, and 10 more developer resources.'
+  R''s developer surface includes documentation, engineering blog, Stack Overflow tag, and 13 more developer resources.'
 plans:
 - name: R Plans Pricing
   plan_count: 3
@@ -210,9 +229,10 @@ rate_limits:
   name: R Rate Limits
   slug: r-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: R API Rules
+  name: R — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -220,7 +240,8 @@ rules:
     info: 2
     warn: 3
   slug: r-jsonschema-spectral-rules
-- effective_rule_count: 54
+- authorship: generated
+  effective_rule_count: 54
   extends:
   - spectral:oas
   name: R API Rules
@@ -232,18 +253,18 @@ rules:
     warn: 10
   slug: r-spectral-rules
 score:
-  band: emerging
-  composite: 25.9
+  band: thin
+  composite: 27.5
   coverage:
     artifact_dirs: 16
-    catalog_earned: 58.5
+    catalog_earned: 61.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 41.5
-    catalog_max: 100.0
+    catalog_gap: 53.5
+    catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.6
   facets:
-    access_clarity: 0.0
+    access_clarity: 7.9
     contract_governance: 13.6
     contract_quality: 51.0
     developer_ergonomics: 16.7
@@ -263,8 +284,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

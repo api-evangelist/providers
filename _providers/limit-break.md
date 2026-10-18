@@ -33,10 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 9.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 27
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://limitbreak.com/blog/
 - group: operate
   title: ''
   type: IssueTracker
@@ -175,31 +179,31 @@ created: '2026-07-17'
 description: Limit Break Inc. is a gaming and onchain-economy company that builds the Apptoken protocol suite — a family of permissionlessly deployable EVM smart contract protocols for programmable digital economies. Its Creator Token Standards (ERC-20C, ERC-721C, ERC-1155C) route every transfer through an on-chain Transfer Validator so creators can bind modular rulesets, operator whitelists and blacklists without changing their token contract. Around that foundation Limit Break ships Payment Processor for royalty-enforced NFT trading, TokenMaster for backed fungible tokens with pool-based buy/sell/spend flows, the Limit Break AMM with a multi-tier hook system, PermitC for time-bound token approvals, Wrapped Native as a gas-efficient WETH9 replacement, and Trusted Forwarder for application attribution. Integration is documented at apptokens.com, distributed as Solidity via Foundry and npm, and supported by 25 first-party AI agent skills. Limit Break is backed by Paradigm.
 image: https://apptokens.com/img/social-card.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Limit Break
 nav: Providers
 network: true
 overview: 'Limit Break is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Gaming, Blockchain, Smart Contracts, and Ethereum.
 
 
-  Limit Break''s developer surface includes documentation, API reference, getting-started guide, signup flow, CLI, sandbox, authentication, and 22 more developer resources.'
+  Limit Break''s developer surface includes engineering blog, documentation, API reference, getting-started guide, signup flow, CLI, sandbox, and 23 more developer resources.'
 random_paper: 5
 score:
   band: thin
-  composite: 32.3
+  composite: 32.8
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 13.2
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 78.6
+    developer_ergonomics: 81.0
     discoverability: 55.4
     operational_transparency: 36.8
   open_source:
@@ -215,8 +219,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -235,7 +239,7 @@ security:
 - kind: vulnerability-disclosure
   name: Limit Break Vulnerability Disclosure
   slug: limit-break-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 skill_count: 25
 skills:
 - name: apptoken-designer

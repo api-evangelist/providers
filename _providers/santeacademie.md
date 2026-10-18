@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 4
 apis:
 - baseURL: https://frontstage.santeacademie.com
@@ -229,7 +229,7 @@ modified: '2026-08-17'
 name: Santé Académie
 nav: Providers
 network: true
-overview: 'Santé Académie publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Article API, Custom Catalog API, Faq API, and 9 more. Tagged areas include Company, EdTech, Healthcare Training, Continuing Education, and DPC.
+overview: 'Santé Académie publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including Article API, Custom Catalog API, Faq API, and 9 more. Tagged areas include Company, EdTech, Healthcare Training, Continuing Education, and DPC.
 
 
   Santé Académie''s developer surface includes support, engineering blog, authentication, and 23 more developer resources.'
@@ -284,8 +284,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

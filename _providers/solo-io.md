@@ -29,14 +29,14 @@ agent_readiness:
     mcp_server: documented
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 37.6
-  scored_at: '2026-10-04'
-api_count: 5
+  score: 35.7
+  scored_at: '2026-10-17'
+api_count: 6
 apis:
 - baseURL: https://portal.example.com/v1
   baseurl_source: declared
@@ -168,6 +168,21 @@ collections:
   name: GuardRail Webhook Webhooks API
   slug: open-solo-io-webhooks-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/plans/solo-io-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/solo-io-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/rate-limits/solo-io-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/solo-io-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/finops/solo-io-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/solo-io-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/capabilities/solo-io-capability-edges.yml
   title: ''
@@ -494,9 +509,13 @@ features:
 - description: Request and response transformation, header manipulation, and content-based routing.
   name: Traffic Transformation
 finops:
-- name: Solo Io Finops
+- has_sources: false
+  method: generated
+  name: Solo Io Finops
+  primary_unit: ''
   service_category: API
   slug: solo-io-finops
+  template: true
 image: https://cdn.prod.website-files.com/66dba20a96c0aa281999f399/6704540db9215a5c14c38c6c_Webclip.png
 integrations:
 - description: Core proxy engine powering kgateway and agentgateway.
@@ -550,13 +569,13 @@ modified: '2026-08-08'
 name: Solo.io
 nav: Providers
 network: true
-overview: 'Solo.io publishes 15 APIs on the [APIs.io](https://apis.io/) network, including API Keys API, API Products API, Applications API, and 12 more. Tagged areas include Company, API Gateway, Service Mesh, Kubernetes, and Istio.
+overview: 'Solo.io publishes 15 API contracts indexed on the [APIs.io](https://apis.io/) network, including API Keys API, API Products API, Applications API, and 12 more. Tagged areas include Company, API Gateway, Service Mesh, Kubernetes, and Istio.
 
 
   The Solo.io catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Solo.io''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 50 more developer resources.'
+  Solo.io''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 53 more developer resources.'
 plans:
 - name: Solo Io Plans Pricing
   plan_count: 3
@@ -567,9 +586,10 @@ rate_limits:
   name: Solo Io Rate Limits
   slug: solo-io-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Solo.io API Rules
+  name: Solo.io — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -579,17 +599,17 @@ rules:
   slug: solo-io-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 63.0
+  composite: 61.6
   coverage:
-    artifact_dirs: 33
-    catalog_earned: 61.8
+    artifact_dirs: 34
+    catalog_earned: 58.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.3
+    catalog_gap: 56.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: -1.4
   facets:
-    access_clarity: 65.8
+    access_clarity: 57.9
     contract_governance: 28.0
     contract_quality: 64.5
     developer_ergonomics: 78.6
@@ -598,7 +618,7 @@ score:
   open_source:
     applies: true
     score: 25.0
-  previous_composite: 62.4
+  previous_composite: 63.0
   provenance:
     conformance: derived
     contracts:
@@ -614,8 +634,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 31.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

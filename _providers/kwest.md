@@ -52,7 +52,7 @@ tags:
 - Climate Tech
 - Renewable Energy
 - Solar
-- Field Service Management
+- Field Service
 - Project Management
 - Workflow Automation
 - Germany

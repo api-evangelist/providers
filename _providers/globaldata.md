@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: A governed Model Context Protocol gateway that turns GlobalData's business intelligence into tools an AI agent can call directly. One MCP server endpoint per industry vertical, all sharing a single to
@@ -31,6 +31,10 @@ apis:
   slug: globaldata-intelligence-center-mcp
 artifact_total: 7
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.globaldata.com/feed/
 - group: start
   title: ''
   type: DeveloperPortal
@@ -140,14 +144,14 @@ mcp_servers:
 - description: 'GlobalData Plc operates a first-party, production Model Context Protocol gateway at mcp.globaldata.com that exposes its business-intelligence estate as callable agent tools. The gateway is documented '
   name: GlobalData Intelligence Center MCP
   slug: globaldata-intelligence-center-mcp
-modified: '2026-09-13'
+modified: '2026-10-06'
 name: GlobalData
 nav: Providers
 network: true
-overview: 'GlobalData publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Market Intelligence, Business Intelligence, Data, and Analytics.
+overview: 'GlobalData is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Market Intelligence, Business Intelligence, Data, and Analytics.
 
 
-  GlobalData''s developer surface includes documentation, API reference, support, signup flow, engineering blog, authentication, and 16 more developer resources.'
+  GlobalData''s developer surface includes documentation, API reference, support, signup flow, engineering blog, authentication, and 17 more developer resources.'
 plans:
 - name: Globaldata Plans Pricing
   plan_count: 0
@@ -166,7 +170,7 @@ score:
   band: emerging
   composite: 22.5
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 17
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -191,13 +195,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 34.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/globaldata/refs/heads/main/screenshots/globaldata-2026-10-11T104933.png
 security:
 - kind: authentication
   name: Globaldata Authentication

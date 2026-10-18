@@ -17,7 +17,7 @@ description: Susa Ventures is a San Francisco-based early-stage venture capital 
   including Robinhood, Flexport, Andela, Newfront, Stord, Human Interest, Mux, Stedi, Viz.ai, and Casetext. The firm closed Fund V at $175M in 2025 and also runs the experimental Humba Ventures vehicle for frontier bets. This profile tracks Susa's identity and its portfolio graph across the API Evangelist network.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/susa-ventures.png
 layout: provider
-modified: '2026-07-17'
+modified: '2026-10-06'
 name: Susa Ventures
 nav: Providers
 network: true

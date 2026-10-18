@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 61.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 251
   human_in_the_loop: 11
@@ -559,7 +559,7 @@ apis:
   description: Workweeks in Kantata OX are owned by an Account. They can be used as the default for an Account or can be associated to a User through a Workweek Membership.
   name: Mavenlink Workweeks API
   slug: mavenlink-workweeks-api
-artifact_total: 115
+artifact_total: 114
 asyncapis:
 - description: ''
   name: Mavenlink Event Surface
@@ -758,14 +758,11 @@ mcp_servers:
 - description: ''
   name: Mavenlink MCP Server
   slug: mcp
-- description: ''
-  name: Mavenlink MCP Server
-  slug: mcp-2
 modified: '2026-09-16'
 name: Mavenlink
 nav: Providers
 network: true
-overview: 'Mavenlink publishes 103 APIs on the [APIs.io](https://apis.io/) network, including Access Group Memberships API, Account Colors API, Account Invitations API, and 100 more. Tagged areas include Professional Services Automation, Project Management, Resource Management, Time Tracking, and Expense Management.
+overview: 'Mavenlink publishes 103 API contracts indexed on the [APIs.io](https://apis.io/) network, including Access Group Memberships API, Account Colors API, Account Invitations API, and 100 more. Tagged areas include Professional Services Automation, Project Management, Resource Management, Time Tracking, and Expense Management.
 
 
   The Mavenlink catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -788,7 +785,7 @@ scopes:
   summary_line: 6 scopes · authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 55.1
+  composite: 55.2
   coverage:
     artifact_dirs: 26
     catalog_earned: 37.0
@@ -796,7 +793,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.1
   facets:
     access_clarity: 46.1
     contract_governance: 4.5
@@ -804,7 +801,7 @@ score:
     developer_ergonomics: 66.1
     discoverability: 75.0
     operational_transparency: 34.2
-  previous_composite: 54.6
+  previous_composite: 55.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -821,8 +818,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -859,5 +856,6 @@ tags:
 - MCP
 - Agent-Native
 - Company
+- A2A
 website: https://www.kantata.com/
 ---

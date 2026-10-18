@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -246,7 +246,7 @@ modified: '2026-07-25'
 name: Mavenir
 nav: Providers
 network: true
-overview: 'Mavenir publishes 4 APIs on the [APIs.io](https://apis.io/) network, including One To One Call API, Push Token API, RACM API, and 1 more. Tagged areas include Telecommunications, United States, Network Vendor, Network APIs, and CAMARA.
+overview: 'Mavenir publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including One To One Call API, Push Token API, RACM API, and 1 more. Tagged areas include Telecommunications, United States, Network Vendor, Network APIs, and CAMARA.
 
 
   The Mavenir catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -258,7 +258,7 @@ score:
   band: thin
   composite: 36.5
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -296,8 +296,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 30.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

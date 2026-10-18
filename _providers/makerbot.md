@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Bearer-token / OAuth 2.0 authenticated JSON REST API for browsing and managing Thingiverse things (3D models), their files and images, users, collections, categories, tags, and search. Operated by Mak
@@ -41,6 +41,10 @@ apis:
   slug: thingiverse-rest-api
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.makerbot.com/feed/
 - group: company
   title: ''
   type: Website
@@ -135,26 +139,26 @@ created: '2026-07-17'
 description: MakerBot is a desktop 3D printer manufacturer, now part of UltiMaker, and the operator of Thingiverse, the largest online community for discovering, sharing, and downloading 3D-printable designs. MakerBot's public developer surface is the Thingiverse REST API (https://api.thingiverse.com), a Bearer-token / OAuth 2.0 authenticated JSON API that exposes things (models), their files and images, users, collections, categories, tags, and full-text search. Developers register an application on the Thingiverse developers site to receive an App Token or run the OAuth 2.0 authorization flow to act on behalf of a Thingiverse user. This profile was surfaced as a venture-backed company and enriched from its live API.
 image: https://www.makerbot.com/favicon.ico
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Makerbot
 nav: Providers
 network: true
-overview: 'Makerbot publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, 3D Printing, Manufacturing, Thingiverse, and Maker.
+overview: 'Makerbot is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, 3D Printing, Manufacturing, Thingiverse, and Maker.
 
 
-  Makerbot''s developer surface includes documentation, API reference, authentication, signup flow, support, and 15 more developer resources.'
+  Makerbot''s developer surface includes documentation, API reference, authentication, signup flow, support, and 16 more developer resources.'
 random_paper: 17
 score:
   band: thin
-  composite: 29.0
+  composite: 29.1
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 34.2
     contract_governance: 18.2
@@ -172,8 +176,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: 'The Sozu Command API provides programmatic control of the Sōzu HTTP reverse proxy at runtime. External tools communicate with the Sozu main process through a secure Unix socket using a protobuf-based '
@@ -47,6 +47,25 @@ apis:
   slug: sozu-command-futures-api
 artifact_total: 14
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sozu/refs/heads/main/plans/sozu-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/sozu-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/sozu/refs/heads/main/rate-limits/sozu-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/sozu-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sozu/refs/heads/main/finops/sozu-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/sozu-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.sozu.io/blog/
 - group: operate
   title: ''
   type: IssueTracker
@@ -114,9 +133,13 @@ examples:
   name: Sozu Frontend Example
   slug: sozu-frontend-example
 finops:
-- name: Sozu Finops
+- has_sources: false
+  method: generated
+  name: Sozu Finops
+  primary_unit: ''
   service_category: API
   slug: sozu-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sozu.png
 json_schemas:
 - name: Sozu Cluster Configuration
@@ -135,17 +158,17 @@ jsonld:
   property_count: 16
   slug: sozu-context
 layout: provider
-modified: '2026-05-02'
+modified: '2026-10-06'
 name: Sozu
 nav: Providers
 network: true
-overview: 'Sozu publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Proxy, Reverse Proxy, Load Balancing, Rust, and Open Source.
+overview: 'Sozu is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Proxy, Reverse Proxy, Load Balancing, Rust, and Open Source.
 
 
   The Sozu catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Sozu''s developer surface includes documentation, release notes, and 12 more developer resources.'
+  Sozu''s developer surface includes engineering blog, documentation, release notes, and 15 more developer resources.'
 plans:
 - name: Sozu Plans Pricing
   plan_count: 3
@@ -156,9 +179,10 @@ rate_limits:
   name: Sozu Rate Limits
   slug: sozu-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Sozu API Rules
+  name: Sozu — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -167,21 +191,21 @@ rules:
     warn: 4
   slug: sozu-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 26.3
+  band: emerging
+  composite: 25.4
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 71.8
+    artifact_dirs: 13
+    catalog_earned: 68.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 43.3
+    catalog_gap: 46.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.9
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 23.5
     contract_quality: 26.7
-    developer_ergonomics: 10.7
+    developer_ergonomics: 13.1
     discoverability: 62.5
     operational_transparency: 26.3
   open_source:
@@ -194,8 +218,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

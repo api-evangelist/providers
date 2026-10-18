@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -80,6 +80,21 @@ collections:
   name: Shopper Approved API
   slug: open-shopper-approved
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/shopper-approved/refs/heads/main/plans/shopper-approved-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/shopper-approved-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/shopper-approved/refs/heads/main/rate-limits/shopper-approved-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/shopper-approved-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/shopper-approved/refs/heads/main/finops/shopper-approved-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/shopper-approved-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/shopper-approved/refs/heads/main/capabilities/shopper-approved-capability-edges.yml
   title: ''
@@ -123,9 +138,13 @@ examples:
   name: Shopper Approved Submit Order Example
   slug: shopper-approved-submit-order-example
 finops:
-- name: Shopper Approved Finops
+- has_sources: false
+  method: generated
+  name: Shopper Approved Finops
+  primary_unit: ''
   service_category: API
   slug: shopper-approved-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/shopper-approved.png
 json_schemas:
 - name: Shopper Approved Product Review
@@ -148,13 +167,13 @@ modified: '2026-09-16'
 name: Shopper Approved
 nav: Providers
 network: true
-overview: 'Shopper Approved publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Orders API, Product Reviews API, Reviews API, and 1 more. Tagged areas include Reviews, Ratings, E-Commerce, Customer Feedback, and Social Proof.
+overview: 'Shopper Approved publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Orders API, Product Reviews API, Reviews API, and 1 more. Tagged areas include Reviews, Ratings, E-Commerce, Customer Feedback, and Social Proof.
 
 
   The Shopper Approved catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Shopper Approved''s developer surface includes authentication and 6 more developer resources.'
+  Shopper Approved''s developer surface includes authentication and 9 more developer resources.'
 plans:
 - name: Shopper Approved Plans Pricing
   plan_count: 3
@@ -165,9 +184,10 @@ rate_limits:
   name: Shopper Approved Rate Limits
   slug: shopper-approved-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Shopper Approved API Rules
+  name: Shopper Approved — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -175,7 +195,8 @@ rules:
     info: 1
     warn: 4
   slug: shopper-approved-jsonschema-spectral-rules
-- effective_rule_count: 48
+- authorship: unmarked
+  effective_rule_count: 48
   extends:
   - spectral:oas
   name: Shopper Approved API Rules
@@ -188,17 +209,17 @@ rules:
   slug: shopper-approved-rules
 score:
   band: thin
-  composite: 34.3
+  composite: 32.8
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 72.0
+    artifact_dirs: 18
+    catalog_earned: 69.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 43.0
+    catalog_gap: 46.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 27.3
     contract_quality: 58.7
     developer_ergonomics: 26.2
@@ -218,8 +239,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

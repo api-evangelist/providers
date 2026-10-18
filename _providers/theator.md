@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://theator.io/newsroom
 - group: company
   title: ''
   type: Website
@@ -93,31 +97,31 @@ created: '2026-07-17'
 description: 'Theator is a surgical intelligence platform that turns minimally invasive surgical video into structured, actionable intelligence. The company processes operative video footage into procedural insights, outcomes data, and surgery-to-text documentation for three audiences: surgeons seeking objective performance feedback, hospital and health-system executives tracking outcomes and efficiency, and revenue-cycle teams improving documentation and coding. Theator is a healthcare technology company backed by Insight Partners and partners with AWS and Oracle Health. It maintains a formal security and compliance posture (SOC 2, ISO 27001, HIPAA, GDPR) published via its trust center. No public first-party developer API, SDK, or documentation surface has been identified; this profile captures the company''s public web, trust, and security surface.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/theator.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Theator
 nav: Providers
 network: true
 overview: 'Theator is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Surgery, Surgical Intelligence, and Medical Video.
 
 
-  Theator''s developer surface includes support and 11 more developer resources.'
+  Theator''s developer surface includes engineering blog, support, and 11 more developer resources.'
 random_paper: 11
 score:
   band: minimal
-  composite: 9.4
+  composite: 9.9
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 55.4
     operational_transparency: 0.0
   previous_composite: 9.4
@@ -127,8 +131,8 @@ score:
     regime: Health
     regime_id: health
     score: 16.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -143,7 +147,7 @@ security:
 - kind: vulnerability-disclosure
   name: Theator Vulnerability Disclosure
   slug: theator-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 - kind: trust-center
   name: Theator Trust Center
   slug: theator-trust-center

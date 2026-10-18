@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-04'
+  score: 20.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 60
   slug: rawg-agentic-access
   summary_line: 60 operations
-api_count: 2
+api_count: 4
 apis:
 - baseURL: https://api.rawg.io/api
   baseurl_source: declared
@@ -126,6 +126,21 @@ collections:
   name: RAWG Video Games Database API
   slug: open-rawg
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/rawg/refs/heads/main/plans/rawg-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/rawg-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/rawg/refs/heads/main/rate-limits/rawg-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/rawg-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/rawg/refs/heads/main/finops/rawg-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/rawg-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/rawg/refs/heads/main/capabilities/rawg-capability-edges.yml
   title: ''
@@ -186,9 +201,13 @@ examples:
   name: Rawg Platforms List Example
   slug: rawg-platforms-list-example
 finops:
-- name: Rawg Finops
+- has_sources: false
+  method: generated
+  name: Rawg Finops
+  primary_unit: ''
   service_category: API
   slug: rawg-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rawg.png
 json_schemas:
 - name: RAWG Game
@@ -208,13 +227,13 @@ modified: '2026-05-19'
 name: RAWG
 nav: Providers
 network: true
-overview: 'RAWG publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Creator Roles API, Creators API, Developers API, and 6 more. Tagged areas include Database, Entertainment, Game Discovery, Games, and Gaming.
+overview: 'RAWG publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Creator Roles API, Creators API, Developers API, and 6 more. Tagged areas include Database, Entertainment, Game Discovery, Games, and Gaming.
 
 
   The RAWG catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  RAWG''s developer surface includes authentication, documentation, signup flow, engineering blog, and 6 more developer resources.'
+  RAWG''s developer surface includes authentication, documentation, signup flow, engineering blog, and 9 more developer resources.'
 plans:
 - name: Rawg Plans Pricing
   plan_count: 3
@@ -225,9 +244,10 @@ rate_limits:
   name: Rawg Rate Limits
   slug: rawg-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: RAWG API Rules
+  name: RAWG — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -235,7 +255,8 @@ rules:
     info: 1
     warn: 5
   slug: rawg-jsonschema-spectral-rules
-- effective_rule_count: 49
+- authorship: unmarked
+  effective_rule_count: 49
   extends:
   - spectral:oas
   name: RAWG API Rules
@@ -248,7 +269,7 @@ rules:
   slug: rawg-rules
 score:
   band: thin
-  composite: 36.0
+  composite: 35.0
   coverage:
     artifact_dirs: 18
     catalog_earned: 71.4
@@ -256,13 +277,13 @@ score:
     catalog_gap: 43.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.0
   facets:
-    access_clarity: 39.5
+    access_clarity: 31.6
     contract_governance: 27.3
     contract_quality: 48.7
     developer_ergonomics: 21.4
-    discoverability: 66.1
+    discoverability: 71.4
     operational_transparency: 7.9
   previous_composite: 36.0
   provenance:
@@ -278,8 +299,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

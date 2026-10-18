@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -231,7 +231,7 @@ modified: '2026-07-21'
 name: Robinhood
 nav: Providers
 network: true
-overview: 'Robinhood publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Account API, Holdings API, Market Data API, and 2 more. Tagged areas include Company, Fintech, Cryptocurrency, Trading, and Brokerage.
+overview: 'Robinhood publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Holdings API, Market Data API, and 2 more. Tagged areas include Company, Fintech, Cryptocurrency, Trading, and Brokerage.
 
 
   Robinhood''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 23 more developer resources.'
@@ -240,7 +240,7 @@ score:
   band: developing
   composite: 41.2
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -271,8 +271,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -300,6 +300,5 @@ tags:
 - Brokerage
 - Investing
 - Financial Services
-- Crypto
 website: https://robinhood.com
 ---

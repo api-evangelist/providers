@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://novelis.com/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/aleris/refs/heads/main/security/aleris-domain-security.yml
   title: ''
@@ -78,7 +82,7 @@ created: '2026-03-24'
 description: Aleris was a global producer of rolled aluminum products serving the aerospace, automotive, building and construction, and other industrial end-use markets. Founded as IMCO Recycling and later renamed Aleris International, the company operated manufacturing plants across North America, Europe, and Asia. Aleris was acquired by Novelis Inc. (a subsidiary of Hindalco Industries) on April 14, 2020 for approximately $2.8 billion. The company's primary product lines included aluminum sheet, plate, and engineered products for demanding applications such as aerospace structures and automotive body panels. As a manufacturing-focused business, Aleris did not maintain a public developer API program, but engaged in B2B EDI integrations with major customers and suppliers across its supply chain. The Aleris brand has since been absorbed into Novelis and aleris.com no longer serves a website.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aleris.png
 layout: provider
-modified: '2026-09-04'
+modified: '2026-10-06'
 name: Aleris
 nav: Providers
 network: true
@@ -94,15 +98,15 @@ rate_limits:
   slug: aleris-rate-limits
 score:
   band: minimal
-  composite: 4.1
+  composite: 4.2
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 9
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
@@ -117,13 +121,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/aleris/refs/heads/main/screenshots/aleris-2026-10-11T093605.png
 security:
 - kind: domain-security
   name: Aleris Domain Security

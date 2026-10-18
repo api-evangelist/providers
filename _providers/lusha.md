@@ -35,15 +35,15 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 63.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 38
+- acting_count: 28
   human_in_the_loop: 0
   name: Lusha Agentic Access
-  operation_count: 58
+  operation_count: 88
   slug: lusha-agentic-access
-  summary_line: 58 operations · 38 acting
-api_count: 2
+  summary_line: 88 operations · 28 acting
+api_count: 4
 apis:
 - baseURL: https://api.lusha.com
   baseurl_source: declared
@@ -654,9 +654,13 @@ common:
 created: '2026-05-08'
 description: Lusha is a B2B sales-intelligence platform that sells verified contact and company data, buying signals and AI recommendations to revenue teams. Its v3 REST API at api.lusha.com exposes 58 operations across thirteen resource families — Search, Enrich, Search & Enrich, Prospecting, Lookalikes, Buying Group, Contacts Tables, Companies Tables, Signals, Website Visits, Filters, Webhooks and Account — behind a single `api_key` header credential, on a search-then-enrich pattern where previews are free of PII and reveals spend credits. Lusha also ships a first-party hosted MCP server at mcp.lusha.com with 22 tools, OAuth 2.1 discovery and official Claude, ChatGPT and Codex connectors, plus HMAC-signed webhooks for real-time signal delivery.
 finops:
-- name: Lusha Finops
+- has_sources: true
+  method: generated
+  name: Lusha Finops
+  primary_unit: ''
   service_category: Sales Intelligence
   slug: lusha-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lusha.png
 layout: provider
 mcp_servers:
@@ -667,7 +671,7 @@ modified: '2026-08-13'
 name: Lusha
 nav: Providers
 network: true
-overview: 'Lusha publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Search API, Enrich API, Search & Enrich API, and 16 more. Tagged areas include Sales Intelligence, B2B, Enrichment, Contact Data, and Prospecting.
+overview: 'Lusha publishes 19 API contracts indexed on the [APIs.io](https://apis.io/) network, including Search API, Enrich API, Search & Enrich API, and 16 more. Tagged areas include Sales Intelligence, B2B, Data Enrichment, Contact Data, and Prospecting.
 
 
   The Lusha catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -690,21 +694,21 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: exemplar
-  composite: 72.7
+  composite: 71.7
   coverage:
-    artifact_dirs: 26
+    artifact_dirs: 28
     catalog_earned: 64.0
     catalog_earned_first_party: 24.0
     catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.0
   facets:
-    access_clarity: 93.4
+    access_clarity: 85.5
     contract_governance: 18.2
     contract_quality: 62.0
     developer_ergonomics: 63.7
-    discoverability: 75.0
+    discoverability: 80.0
     operational_transparency: 86.8
   previous_composite: 72.7
   provenance:
@@ -727,8 +731,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -755,7 +759,7 @@ slug: lusha
 tags:
 - Sales Intelligence
 - B2B
-- Enrichment
+- Data Enrichment
 - Contact Data
 - Prospecting
 - Intents

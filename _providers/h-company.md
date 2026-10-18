@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 45.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 4
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 69
   slug: h-company-agentic-access
   summary_line: 69 operations · 43 acting · 4 human-in-the-loop
-api_count: 1
+api_count: 2
 apis:
 - description: OpenAI-compatible inference API serving the Holo3 and Holo3.1 vision-language models for computer use — chat completions with structured outputs, reasoning, and image inputs, plus runtime model discov
   name: H Company Holo Models API
@@ -92,7 +92,7 @@ apis:
   description: The Webhooks API from H Company — 5 operation(s) for webhooks.
   name: H Company Webhooks API
   slug: h-company-webhooks-api
-artifact_total: 25
+artifact_total: 26
 asyncapis:
 - description: ''
   name: H Company Webhooks
@@ -129,6 +129,11 @@ collections:
   name: Computer-Use Agents Webhooks API
   slug: open-h-company-webhooks-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/h-company/refs/heads/main/plans/h-company-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/h-company-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/h-company/refs/heads/main/capabilities/h-company-capability-edges.yml
   title: ''
@@ -288,27 +293,31 @@ modified: '2026-07-19'
 name: H Company
 nav: Providers
 network: true
-overview: 'H Company publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Browser Profiles API, Environments API, and 7 more. Tagged areas include Artificial Intelligence, Agents, Computer Use, Automation, and Machine Learning.
+overview: 'H Company publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agents API, Browser Profiles API, Environments API, and 7 more. Tagged areas include Artificial Intelligence, Agents, Computer Use, Automation, and Machine Learning.
 
 
   The H Company catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  H Company''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 25 more developer resources.'
+  H Company''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 26 more developer resources.'
+plans:
+- name: H Company Plans Pricing
+  plan_count: 9
+  slug: h-company-plans-pricing
 random_paper: 6
 score:
-  band: developing
-  composite: 51.8
+  band: strong
+  composite: 57.7
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 25
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 5.9
   facets:
-    access_clarity: 44.7
+    access_clarity: 76.3
     contract_governance: 4.5
     contract_quality: 61.3
     developer_ergonomics: 73.2
@@ -335,13 +344,13 @@ score:
     skills: derived
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 22.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

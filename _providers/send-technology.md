@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: low
+  gated: partner
+  gated_source:
+  - tag:Partner Gated
   label: Unknown
   onboarding: unknown
   pricing: unknown
@@ -33,10 +36,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://send.technology/feed
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/send-technology/refs/heads/main/security/send-technology-domain-security.yml
   title: ''
@@ -158,14 +165,14 @@ description: 'Send Technology Solutions Ltd is a London-headquartered insurtech 
   joined ACORD as a member. Despite that posture, Send publishes NO public self-serve developer portal and NO downloadable OpenAPI: developer., developers., docs. and api.send.technology do not resolve in DNS, and /developers, /api, /developer and /integrations all return 404. The only integration surface is partner- and customer-gated, arranged through sales, implementation partners and the ACORD/placing-platform seam rather than through public documentation — a faithful example of the London Market''s broker- and syndicate-facing modernization being invisible from the outside.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-modified: '2026-07-25'
+modified: '2026-10-06'
 name: Send Technology
 nav: Providers
 network: true
 overview: 'Send Technology is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, United Kingdom, Insurtech, Underwriting, and London Market.
 
 
-  Send Technology''s developer surface includes engineering blog, YouTube channel, changelog, and 24 more developer resources.'
+  Send Technology''s developer surface includes engineering blog, YouTube channel, changelog, and 25 more developer resources.'
 random_paper: 15
 score:
   band: emerging
@@ -206,8 +213,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 28.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -242,6 +249,5 @@ tags:
 - MGA
 - Policy Administration
 - ACORD
-- Partner Gated
 website: https://send.technology/
 ---

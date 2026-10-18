@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.1
-  scored_at: '2026-10-04'
+  score: 26.2
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -149,9 +149,13 @@ created: '2026-06-13'
 description: Manifold is an NFT creator tools platform that empowers artists and developers to deploy their own creator-owned smart contracts, mint NFTs, and build custom on-chain experiences without relying on platform-specific custody. Founded in 2021, Manifold provides a no-code studio (Manifold Studio) for ERC721 and ERC1155 contract deployment, open-source Creator Core smart contracts, a Royalty Registry adopted by all major NFT marketplaces, and a Client SDK for building custom minting dApps. The platform supports Ethereum Mainnet, Base, Optimism, Shape, Apechain, and Sepolia testnet. Manifold also exposes server-side authentication APIs (Signature Grant and Authorization Code Grant via oauth2.manifoldxyz.dev), a Studio Apps REST API (apps.api.manifoldxyz.dev) for product and minting data, open-source Solidity extension contracts for custom mint mechanics, and a Marketplace contract powering auction and fixed-price listings. Gas fees are the only cost for creators; Manifold charges
   no platform fees or royalties on sales.
 finops:
-- name: Manifold Finops
+- has_sources: false
+  method: generated
+  name: Manifold Finops
+  primary_unit: ''
   service_category: Blockchain / Web3 Developer Tools
   slug: manifold-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/manifold.png
 json_schemas:
 - name: Manifold OAuth2 Authentication API Schemas
@@ -162,7 +166,7 @@ modified: '2026-06-13'
 name: Manifold
 nav: Providers
 network: true
-overview: 'Manifold publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Authorization Code Grant API, Signature Grant API, and 5 more. Tagged areas include NFT, Creator Tools, Smart Contracts, Blockchain, and Web3.
+overview: 'Manifold publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authorization Code Grant API, Signature Grant API, and 5 more. Tagged areas include NFT, Creator Tools, Smart Contracts, Blockchain, and Web3.
 
 
   The Manifold catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -179,9 +183,10 @@ rate_limits:
   name: Manifold Rate Limits
   slug: manifold-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: Manifold API Rules
+  name: Manifold — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -190,23 +195,23 @@ rules:
     warn: 4
   slug: manifold-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 32.0
+  band: emerging
+  composite: 25.2
   coverage:
     artifact_dirs: 13
-    catalog_earned: 61.3
+    catalog_earned: 45.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.7
+    catalog_gap: 69.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.8
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 9.8
     contract_quality: 49.6
     developer_ergonomics: 21.4
     discoverability: 66.1
-    operational_transparency: 33.7
+    operational_transparency: 13.2
   previous_composite: 32.0
   provenance:
     agentic_access: derived
@@ -221,9 +226,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

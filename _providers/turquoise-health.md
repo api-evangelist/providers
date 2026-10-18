@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 53.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 4
+- acting_count: 1
   human_in_the_loop: 0
   name: Turquoise Health Agentic Access
   operation_count: 15
   slug: turquoise-health-agentic-access
-  summary_line: 15 operations · 4 acting
+  summary_line: 15 operations · 1 acting
 api_count: 2
 apis:
 - description: Hosted Model Context Protocol server exposing Turquoise's consumer pricing to AI agents over streamable HTTP. Five workflow-shaped tools — find_entity, compare_prices, provider_cost_detail, explain_pr
@@ -227,9 +227,13 @@ common:
 created: '2026-06-13'
 description: Turquoise Health is a healthcare price transparency platform. Its public developer surface is the Consumer Pricing API — a documented OpenAPI 3.1.0 REST API at api.turquoise.health covering providers, payers, networks, Standard Service Packages, and cash and insurer-negotiated rates for shoppable services, plus personalized out-of-pocket estimates computed by layering a member's live X12 270/271 eligibility and accumulators onto a negotiated rate. The same OAuth 2.0 client-credentials token also authenticates a hosted Model Context Protocol server at consumer-mcp.turquoise.health, which exposes five workflow-shaped pricing tools to AI agents. Turquoise also sells platform tiers for market intelligence, contract intelligence and precision contracting to providers, payers and life sciences organizations, generates CMS-compliant machine-readable files, and publishes free public tools including the Medicare Pricer, payer transparency scores and a hospital transparency tracker.
 finops:
-- name: Turquoise Health Finops
+- has_sources: false
+  method: generated
+  name: Turquoise Health Finops
+  primary_unit: ''
   service_category: ''
   slug: turquoise-health-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/turquoise-health.png
 jsonld:
 - class_count: 17
@@ -245,7 +249,7 @@ modified: '2026-08-14'
 name: Turquoise Health
 nav: Providers
 network: true
-overview: 'Turquoise Health publishes 3 APIs on the [APIs.io](https://apis.io/) network, including Consumer Pricing API, and 2 more. Tagged areas include Healthcare, Price Transparency, Hospital Rates, Payer Rates, and Machine-Readable Files.
+overview: 'Turquoise Health publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network, including Consumer Pricing API, and 2 more. Tagged areas include Healthcare, Price Transparency, Hospital Rates, Payer Rates, and Machine-Readable Files.
 
 
   The Turquoise Health catalog on APIs.io includes 1 JSON-LD context.
@@ -268,17 +272,17 @@ scopes:
   summary_line: 2 scopes · clientCredentials
 score:
   band: strong
-  composite: 56.5
+  composite: 55.0
   coverage:
     artifact_dirs: 25
-    catalog_earned: 63.0
+    catalog_earned: 60.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 52.0
+    catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 85.5
+    access_clarity: 77.6
     contract_governance: 18.2
     contract_quality: 59.0
     developer_ergonomics: 61.3
@@ -305,8 +309,8 @@ score:
     regime: Health
     regime_id: health
     score: 32.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

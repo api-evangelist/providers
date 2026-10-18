@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.mechanical-orchard.com/insights/rss.xml
 - group: company
   title: ''
   type: Website
@@ -69,14 +73,14 @@ created: '2026-07-17'
 description: Mechanical Orchard is an enterprise software company, founded by Pivotal veterans, that modernizes mission-critical legacy and mainframe systems. Its flagship platform, Imogen, uses AI to observe how legacy applications actually behave, then incrementally rewrites them into modern, cloud-ready code while continuously verifying that behavior is preserved so nothing breaks during migration. The company pairs the Imogen platform with professional services and a free proof of concept, integrates with AWS Transform and Google Cloud, and serves both commercial enterprises and government agencies looking to retire risky COBOL and mainframe estates. It is backed by Bloomberg Beta, Emergence Capital, and GV.
 image: https://cdn.prod.website-files.com/6582d7e2f6a63e5e80e6d1b8/65c356e9959e2ee8246b0896_Mechanical-Orchard.jpg
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Mechanical Orchard
 nav: Providers
 network: true
 overview: 'Mechanical Orchard is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Mainframe Modernization, Legacy Modernization, Artificial Intelligence, and Cloud Migration.
 
 
-  Mechanical Orchard''s developer surface includes engineering blog, support, and 5 more developer resources.'
+  Mechanical Orchard''s developer surface includes engineering blog, support, and 6 more developer resources.'
 random_paper: 9
 score:
   band: minimal
@@ -103,8 +107,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 12.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

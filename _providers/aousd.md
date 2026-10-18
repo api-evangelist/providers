@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: The OpenUSD C++ API is the primary interface for working with Universal Scene Description data. Provides access to USD core (scene composition and asset management), UsdImaging and Hydra (rendering in
@@ -44,6 +44,21 @@ apis:
   slug: openusd-python-bindings
 artifact_total: 29
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/aousd/refs/heads/main/plans/aousd-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/aousd-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/aousd/refs/heads/main/rate-limits/aousd-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/aousd-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/aousd/refs/heads/main/finops/aousd-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/aousd-finops.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -126,9 +141,13 @@ features:
 - description: The ArResolver system enables customizable asset path resolution for integrating USD with studio asset management systems.
   name: Asset Resolution
 finops:
-- name: Aousd Finops
+- has_sources: false
+  method: generated
+  name: Aousd Finops
+  primary_unit: ''
   service_category: API
   slug: aousd-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aousd.png
 integrations:
 - description: Import and export USD files via Autodesk's official USD plugins for Maya and 3ds Max, enabling OpenUSD-based pipelines.
@@ -165,13 +184,13 @@ modified: '2026-04-19'
 name: Alliance for OpenUSD
 nav: Providers
 network: true
-overview: 'Alliance for OpenUSD publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include 3D, Interoperability, Linux Foundation, Metaverse, and OpenUSD.
+overview: 'Alliance for OpenUSD is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include 3D, Interoperability, Linux Foundation, Metaverse, and OpenUSD.
 
 
   The Alliance for OpenUSD catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Alliance for OpenUSD''s developer surface includes developer portal, documentation, getting-started guide, engineering blog, and 11 more developer resources.'
+  Alliance for OpenUSD''s developer surface includes developer portal, documentation, getting-started guide, engineering blog, and 14 more developer resources.'
 plans:
 - name: Aousd Plans Pricing
   plan_count: 3
@@ -182,9 +201,10 @@ rate_limits:
   name: Aousd Rate Limits
   slug: aousd-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Alliance for OpenUSD API Rules
+  name: Alliance for OpenUSD — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -194,17 +214,17 @@ rules:
   slug: aousd-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 29.8
+  composite: 28.3
   coverage:
     artifact_dirs: 12
-    catalog_earned: 64.8
+    catalog_earned: 61.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 50.3
+    catalog_gap: 53.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 23.5
     contract_quality: 14.7
     developer_ergonomics: 47.6
@@ -217,8 +237,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

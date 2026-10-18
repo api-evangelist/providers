@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.bidgely.com/insights/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/bidgely/refs/heads/main/security/bidgely-domain-security.yml
   title: ''
@@ -162,20 +166,20 @@ description: Bidgely is a Mountain View, California energy analytics company tha
   AWS, Snowflake, Databricks, Azure, and Oracle environments, and exposes embeddable customer-facing widgets to utility digital channels. Bidgely has been deployed by more than 50 utilities across four continents — including FortisBC, Arizona Public Service, PacifiCorp, Avista, NV Energy, Nova Scotia Power, and SoCalGas — covering tens of millions of meters. Bidgely operates an internal REST API surface across regional endpoints (naapi.bidgely.com, api.eu.bidgely.com) for its own pilot deployments and embeddable widgets, but does not currently publish a public developer portal, OpenAPI specification, or self-service API key program; integration is conducted under utility contracts.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bidgely.png
 layout: provider
-modified: '2026-05-25'
+modified: '2026-10-06'
 name: Bidgely
 nav: Providers
 network: true
 overview: 'Bidgely is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Utilities, Smart Meter, Energy Disaggregation, and Non-Intrusive Load Monitoring.
 
 
-  Bidgely''s developer surface includes product news, GitHub presence, YouTube channel, and 27 more developer resources.'
+  Bidgely''s developer surface includes product news, GitHub presence, YouTube channel, and 28 more developer resources.'
 random_paper: 10
 score:
   band: minimal
   composite: 4.4
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -196,8 +200,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 4.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

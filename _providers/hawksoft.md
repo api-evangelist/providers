@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 4
+- acting_count: 3
   human_in_the_loop: 0
   name: Hawksoft Agentic Access
   operation_count: 9
   slug: hawksoft-agentic-access
-  summary_line: 9 operations · 4 acting
+  summary_line: 9 operations · 3 acting
 api_count: 1
 apis:
 - baseURL: https://integration.hawksoft.app
@@ -153,16 +153,20 @@ common:
 created: '2026-07-10'
 description: HawkSoft is an insurance agency management system (AMS) for independent property and casualty agencies, covering client management, policy tracking, documentation, accounting, and workflow automation. HawkSoft operates a gated Partner API program that lets vetted third-party technology vendors and agencies read agency, office, client, contact, policy, coverage, vehicle, driver, and log data, and (with 2-way integration) write activities back into HawkSoft as log notes, attachments, and payment receipts. The Partner API documentation is publicly readable at partner.hawksoft.app, but credentials are issued only to approved API Partners, and an agency must opt in to share its data. Endpoints are versioned (V1.8 and V3.0, with V3.0 built on the HawkSoft 6 cloud data model).
 finops:
-- name: Hawksoft Finops
+- has_sources: true
+  method: generated
+  name: Hawksoft Finops
+  primary_unit: ''
   service_category: Insurance Software
   slug: hawksoft-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hawksoft.png
 layout: provider
 modified: '2026-07-10'
 name: HawkSoft
 nav: Providers
 network: true
-overview: 'HawkSoft publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Agencies API, Attachments API, Clients API, and 2 more. Tagged areas include Insurance, Agency Management System, AMS, Insurtech, and Property and Casualty.
+overview: 'HawkSoft publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agencies API, Attachments API, Clients API, and 2 more. Tagged areas include Insurance, Agency Management System, AMS, Insurtech, and Property and Casualty.
 
 
   HawkSoft''s developer surface includes authentication, documentation, signup flow, engineering blog, and 9 more developer resources.'
@@ -177,22 +181,22 @@ rate_limits:
   slug: hawksoft-rate-limits
 score:
   band: thin
-  composite: 37.3
+  composite: 30.3
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 58.0
+    artifact_dirs: 13
+    catalog_earned: 42.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.0
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.0
   facets:
-    access_clarity: 50.5
+    access_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 47.3
     developer_ergonomics: 31.0
     discoverability: 66.1
-    operational_transparency: 28.4
+    operational_transparency: 7.9
   previous_composite: 37.3
   provenance:
     agentic_access: derived
@@ -207,9 +211,9 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 14.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

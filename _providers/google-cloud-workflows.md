@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.5
-  scored_at: '2026-10-04'
+  score: 19.6
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -63,6 +63,21 @@ collections:
   name: Google Cloud Workflows API
   slug: open-openapi
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-workflows/refs/heads/main/plans/google-cloud-workflows-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/google-cloud-workflows-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-workflows/refs/heads/main/rate-limits/google-cloud-workflows-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/google-cloud-workflows-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-workflows/refs/heads/main/finops/google-cloud-workflows-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/google-cloud-workflows-finops.yml
 - group: company
   title: ''
   type: Website
@@ -138,22 +153,26 @@ common:
 created: '2026-03-13'
 description: Google Cloud Workflows is a serverless orchestration service that lets you combine Google Cloud services and APIs into flexible, automated workflows. Workflows manages the order of execution, including handling retries, waiting, and polling, and ensures reliable execution despite hardware and networking interruptions. It supports conditional logic, subworkflows, and connectors to integrate with other Google Cloud products.
 finops:
-- name: Google Cloud Workflows Finops
+- has_sources: false
+  method: generated
+  name: Google Cloud Workflows Finops
+  primary_unit: ''
   service_category: API
   slug: google-cloud-workflows-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/google-cloud-workflows.png
 layout: provider
 modified: '2026-05-19'
 name: Google Cloud Workflows
 nav: Providers
 network: true
-overview: 'Google Cloud Workflows publishes 1 API on the [APIs.io](https://apis.io/) network: Projects API. Tagged areas include Automation, Google Cloud, Integration, Orchestration, and Serverless.
+overview: 'Google Cloud Workflows publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Projects API. Tagged areas include Automation, Google Cloud, Integration, Orchestration, and Serverless.
 
 
   The Google Cloud Workflows catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Google Cloud Workflows'' developer surface includes developer portal, getting-started guide, documentation, authentication, pricing, support, engineering blog, and 10 more developer resources.'
+  Google Cloud Workflows'' developer surface includes developer portal, getting-started guide, documentation, authentication, pricing, support, engineering blog, and 13 more developer resources.'
 plans:
 - name: Google Cloud Workflows Plans Pricing
   plan_count: 3
@@ -164,9 +183,10 @@ rate_limits:
   name: Google Cloud Workflows Rate Limits
   slug: google-cloud-workflows-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Google Cloud Workflows API Rules
+  name: Google Cloud Workflows — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -176,17 +196,17 @@ rules:
   slug: google-cloud-workflows-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 44.3
+  composite: 42.7
   coverage:
     artifact_dirs: 14
-    catalog_earned: 54.7
+    catalog_earned: 51.7
     catalog_earned_first_party: 0.0
-    catalog_gap: 60.4
+    catalog_gap: 63.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 47.4
+    access_clarity: 39.5
     contract_governance: 9.8
     contract_quality: 50.2
     developer_ergonomics: 51.2
@@ -206,8 +226,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 25.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: RESTful enterprise API for real-time private market data across 6,000+ companies - Notice Price, verified trades and indications of interest - retrievable up to once per minute. Sold as a 12-month ent
@@ -48,6 +48,10 @@ apis:
   slug: notice-mcp-server
 artifact_total: 8
 common:
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://learn.notice.co/en/articles/8422141-how-does-the-notice-api-work
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/notice/refs/heads/main/security/notice-domain-security.yml
   title: ''
@@ -140,10 +144,10 @@ modified: '2026-08-26'
 name: Notice
 nav: Providers
 network: true
-overview: 'Notice publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Private Markets, Market Data, Financial Data, and Investing.
+overview: 'Notice is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Private Markets, Market Data, Financial Data, and Investing.
 
 
-  Notice''s developer surface includes documentation, support, authentication, changelog, and 13 more developer resources.'
+  Notice''s developer surface includes pricing, documentation, support, authentication, changelog, and 13 more developer resources.'
 plans:
 - name: Notice Plans Pricing
   plan_count: 3
@@ -160,7 +164,7 @@ scopes:
   summary_line: 6 scopes
 score:
   band: thin
-  composite: 27.5
+  composite: 29.6
   coverage:
     artifact_dirs: 16
     catalog_earned: 55.0
@@ -168,9 +172,9 @@ score:
     catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.1
   facets:
-    access_clarity: 31.6
+    access_clarity: 42.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 26.2
@@ -191,8 +195,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 30.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

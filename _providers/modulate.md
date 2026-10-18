@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 11
 apis:
 - baseURL: https://platform.modulate.ai
@@ -94,7 +94,7 @@ apis:
   description: The Velma 2 Synthetic Voice Detection Batch API from Modulate — 1 operation(s) for velma 2 synthetic voice detection batch.
   name: Modulate Velma 2 Synthetic Voice Detection Batch API
   slug: modulate-velma-2-synthetic-voice-detection-batch-api
-artifact_total: 34
+artifact_total: 35
 asyncapis:
 - description: 'Real-time AI music detection over WebSocket. The client streams audio and receives per-window vocal AI verdicts as they become available, followed by a final clip-level summary including instrumental '
   name: Velma 2 AI Music Detection Streaming API
@@ -155,6 +155,11 @@ collections:
   name: Velma 2 Accent Batch Velma 2 Synthetic Voice Detection Batch API
   slug: open-modulate-velma-2-synthetic-voice-detection-batch-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/modulate/refs/heads/main/plans/modulate-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/modulate-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/modulate/refs/heads/main/overlays/modulate-velma-2-batch-overlay.yaml
   title: ''
@@ -294,13 +299,17 @@ modified: '2026-07-20'
 name: Modulate
 nav: Providers
 network: true
-overview: 'Modulate publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Velma 2 Accent Batch API, Velma 2 Ai Music Detection Batch API, Velma 2 Batch API, and 8 more. Tagged areas include Company, Artificial Intelligence, Voice AI, Speech-to-Text, and Transcription.
+overview: 'Modulate publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Velma 2 Accent Batch API, Velma 2 Ai Music Detection Batch API, Velma 2 Batch API, and 8 more. Tagged areas include Company, Artificial Intelligence, Voice AI, Speech-to-Text, and Transcription.
 
 
   The Modulate catalog on APIs.io includes 7 event-driven AsyncAPI specifications.
 
 
-  Modulate''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 22 more developer resources.'
+  Modulate''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 23 more developer resources.'
+plans:
+- name: Modulate Plans Pricing
+  plan_count: 18
+  slug: modulate-plans-pricing
 random_paper: 1
 rate_limits:
 - limit_count: 3
@@ -308,17 +317,17 @@ rate_limits:
   slug: modulate-rate-limits
 score:
   band: strong
-  composite: 55.7
+  composite: 61.6
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 52.0
-    catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    artifact_dirs: 21
+    catalog_earned: 64.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 5.9
   facets:
-    access_clarity: 60.5
+    access_clarity: 92.1
     contract_governance: 18.2
     contract_quality: 59.5
     developer_ergonomics: 66.1
@@ -347,13 +356,13 @@ score:
     - jurisdiction: EU
       standard: gdpr
     jurisdictions_satisfied: 1
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
-    score: 27.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
+    score: 26.3
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Maps, datasets, applications and more in the context of COVID-19
@@ -66,7 +66,7 @@ modified: '2026-05-28'
 name: Covid-19 Datenhub
 nav: Providers
 network: true
-overview: Covid-19 Datenhub publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Health and Public APIs.
+overview: Covid-19 Datenhub is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Health and Public APIs.
 random_paper: 10
 score:
   band: minimal
@@ -93,8 +93,8 @@ score:
     regime: Health
     regime_id: health
     score: 9.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -109,7 +109,7 @@ security:
 - kind: vulnerability-disclosure
   name: Covid 19 Datenhub Vulnerability Disclosure
   slug: covid-19-datenhub-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 slug: covid-19-datenhub
 tags:
 - Health

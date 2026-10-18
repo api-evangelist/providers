@@ -26,13 +26,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-04'
+  score: 20.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -40,7 +40,7 @@ agentic_access:
   operation_count: 22
   slug: olympusdao-agentic-access
   summary_line: 22 operations
-api_count: 1
+api_count: 2
 apis:
 - description: 'Serverless GCP Cloud Function that returns the current OHM circulating supply as a plain-text numeric string. Reads from a one-hour Firestore cache backed by the Olympus Protocol Metrics API. Used by '
   name: Olympus OHM Circulating Supply API
@@ -78,7 +78,7 @@ apis:
   description: Daily treasury asset holdings.
   name: OlympusDAO Treasury API
   slug: olympusdao-treasury-api
-artifact_total: 28
+artifact_total: 29
 collections:
 - collection_type: open
   name: API Collection
@@ -102,6 +102,21 @@ collections:
   name: Olympus Protocol Metrics Health Treasury API
   slug: open-olympusdao-treasury-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/olympusdao/refs/heads/main/plans/plans.yml
+  title: ''
+  type: Plans
+  url: plans/plans.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/olympusdao/refs/heads/main/rate-limits/rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/olympusdao/refs/heads/main/finops/finops.yml
+  title: ''
+  type: FinOps
+  url: finops/finops.yml
 - group: company
   title: ''
   type: Website
@@ -140,9 +155,13 @@ examples:
   name: Treasury Assets Response
   slug: treasury-assets-response
 finops:
-- name: Finops
+- has_sources: false
+  method: generated
+  name: Finops
+  primary_unit: ''
   service_category: ''
   slug: finops
+  template: true
 image: https://www.olympusdao.finance/images/og-image.png
 json_schemas:
 - name: DailyMetric
@@ -164,22 +183,27 @@ modified: '2026-09-16'
 name: OlympusDAO
 nav: Providers
 network: true
-overview: 'OlympusDAO publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Health API, Legacy API, Metadata API, and 5 more. Tagged areas include DeFi, Protocol-Owned Liquidity, Reserve Currency, Treasury, and Staking.
+overview: 'OlympusDAO publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Health API, Legacy API, Metadata API, and 5 more. Tagged areas include DeFi, Protocol-Owned Liquidity, Reserve Currency, Treasury, and Staking.
 
 
   The OlympusDAO catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  OlympusDAO''s developer surface includes engineering blog and 4 more developer resources.'
+  OlympusDAO''s developer surface includes engineering blog and 7 more developer resources.'
+plans:
+- name: Plans
+  plan_count: 1
+  slug: plans
 random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Rate Limits
   slug: rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: OlympusDAO API Rules
+  name: OlympusDAO — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -189,17 +213,17 @@ rules:
   slug: olympusdao-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 23.4
+  composite: 22.9
   coverage:
     artifact_dirs: 15
-    catalog_earned: 45.3
+    catalog_earned: 44.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 69.8
+    catalog_gap: 70.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.5
   facets:
-    access_clarity: 7.9
+    access_clarity: 5.3
     contract_governance: 9.8
     contract_quality: 46.0
     developer_ergonomics: 11.9
@@ -219,8 +243,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

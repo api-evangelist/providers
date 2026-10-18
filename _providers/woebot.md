@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Gated partner API library for integrating the Woebot Health Platform into a partner's digital front door, EMR, or care pathway. Supports transmission of aggregated data including patient-reported outc
@@ -41,6 +41,21 @@ apis:
   slug: partner-api
 artifact_total: 7
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/woebot/refs/heads/main/plans/woebot-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/woebot-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/woebot/refs/heads/main/rate-limits/woebot-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/woebot-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/woebot/refs/heads/main/finops/woebot-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/woebot-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/woebot/refs/heads/main/security/woebot-trust-center.yml
   title: ''
@@ -123,19 +138,23 @@ common:
 created: '2026-05-23'
 description: Woebot Health is a clinical mental health company founded in 2017 by Dr. Alison Darcy that delivers an AI-powered, CBT-based conversational agent ("Woebot") for evidence-based mental health support. The company operates an enterprise (B2B) model, partnering with health systems, payers, employers, and providers to embed Woebot into existing care pathways and digital front doors. The Woebot Health Platform offers a partner API library for transmitting aggregated, validated patient-reported outcomes (PHQ-8/PHQ-9, engagement, satisfaction, topic modeling) into EMRs and value-based care workflows. The partner API is gated to enterprise customers — there is no public REST API, OpenAPI specification, or self-serve developer portal.
 finops:
-- name: Woebot Finops
+- has_sources: false
+  method: generated
+  name: Woebot Finops
+  primary_unit: ''
   service_category: API
   slug: woebot-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/woebot.png
 layout: provider
 modified: '2026-05-23'
 name: Woebot Health
 nav: Providers
 network: true
-overview: 'Woebot Health publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Mental Health, Digital Therapeutics, CBT, Chatbots, and Clinical.
+overview: 'Woebot Health is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Mental Health, Digital Therapeutics, CBT, Chatbots, and Clinical.
 
 
-  Woebot Health''s developer surface includes engineering blog and 18 more developer resources.'
+  Woebot Health''s developer surface includes engineering blog and 21 more developer resources.'
 plans:
 - name: Woebot Plans Pricing
   plan_count: 1
@@ -147,22 +166,22 @@ rate_limits:
   slug: woebot-rate-limits
 score:
   band: emerging
-  composite: 21.6
+  composite: 15.6
   coverage:
     artifact_dirs: 7
-    catalog_earned: 54.4
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 60.6
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.0
   facets:
-    access_clarity: 47.9
+    access_clarity: 26.3
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
     discoverability: 67.0
-    operational_transparency: 18.9
+    operational_transparency: 5.3
   previous_composite: 21.6
   regulatory:
     applies: true
@@ -170,9 +189,9 @@ score:
     regime: Health
     regime_id: health
     score: 15.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -186,7 +205,7 @@ security:
 - kind: vulnerability-disclosure
   name: Woebot Vulnerability Disclosure
   slug: woebot-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 - kind: trust-center
   name: Woebot Trust Center
   slug: woebot-trust-center

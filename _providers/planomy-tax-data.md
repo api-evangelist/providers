@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -59,6 +59,10 @@ collections:
   name: Planomy JSON Tax Data API
   slug: open-planomy-tax-data-tax-data-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://planomy.net/feed.xml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/planomy-tax-data/refs/heads/main/overlays/planomy-tax-data-overlay.yaml
   title: ''
@@ -171,14 +175,14 @@ json_schemas:
   property_count: 16
   slug: planomy-tax-data-tax-year-dataset
 layout: provider
-modified: '2026-08-09'
+modified: '2026-10-06'
 name: Planomy Tax Data
 nav: Providers
 network: true
-overview: 'Planomy Tax Data publishes 1 API on the [APIs.io](https://apis.io/) network: Tax Data API. Tagged areas include Tax, Finance, Open Data, Retirement, and Government.
+overview: 'Planomy Tax Data publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Tax Data API. Tagged areas include Tax, Finance, Open Data, Retirement, and Government.
 
 
-  Planomy Tax Data''s developer surface includes support, pricing, signup flow, authentication, and 16 more developer resources.'
+  Planomy Tax Data''s developer surface includes support, pricing, signup flow, authentication, and 17 more developer resources.'
 plans:
 - name: Planomy Tax Data Plans Pricing
   plan_count: 5
@@ -186,19 +190,19 @@ plans:
 random_paper: 17
 score:
   band: thin
-  composite: 37.2
+  composite: 36.1
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 54.3
+    artifact_dirs: 23
+    catalog_earned: 47.8
     catalog_earned_first_party: 12.0
-    catalog_gap: 60.8
+    catalog_gap: 67.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.1
   facets:
     access_clarity: 76.3
     contract_governance: 8.3
-    contract_quality: 23.1
+    contract_quality: 18.7
     developer_ergonomics: 35.1
     discoverability: 64.3
     operational_transparency: 0.0
@@ -219,8 +223,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -35,15 +35,15 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 55
-  human_in_the_loop: 3
+- acting_count: 41
+  human_in_the_loop: 2
   name: Athenian Agentic Access
   operation_count: 79
   slug: athenian-agentic-access
-  summary_line: 79 operations · 55 acting · 3 human-in-the-loop
-api_count: 1
+  summary_line: 79 operations · 41 acting · 2 human-in-the-loop
+api_count: 2
 apis:
 - baseURL: https://api.athenian.co/v1
   baseurl_source: declared
@@ -247,7 +247,7 @@ modified: '2026-07-18'
 name: Athenian
 nav: Providers
 network: true
-overview: 'Athenian publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Align API, Events API, Filter API, and 12 more. Tagged areas include Company, Engineering Intelligence, Software Development Analytics, Developer Productivity, and DevOps.
+overview: 'Athenian publishes 15 API contracts indexed on the [APIs.io](https://apis.io/) network, including Align API, Events API, Filter API, and 12 more. Tagged areas include Company, Engineering Intelligence, Software Development Analytics, Developer Productivity, and DevOps.
 
 
   Athenian''s developer surface includes authentication and 13 more developer resources.'
@@ -256,7 +256,7 @@ score:
   band: minimal
   composite: 0.0
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -288,8 +288,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

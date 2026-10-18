@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.0
-  scored_at: '2026-10-04'
+  score: 33.1
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -277,9 +277,13 @@ coverage:
 created: '2026-07-01'
 description: Matillion is a data integration and transformation (ETL/ELT) company whose Data Productivity Cloud (DPC) lets teams build, orchestrate, and schedule data pipelines against cloud data warehouses. The DPC API is an OAuth2-secured REST control plane for projects, environments, pipeline executions, schedules, and Agents, while the legacy instance-hosted Matillion ETL API exposes groups, projects, versions, jobs, tasks, and schedules over HTTP Basic auth.
 finops:
-- name: Matillion Finops
+- has_sources: true
+  method: generated
+  name: Matillion Finops
+  primary_unit: ''
   service_category: Analytics and Data Integration
   slug: matillion-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/matillion.png
 json_schemas:
 - name: AgentCreate
@@ -352,7 +356,7 @@ modified: '2026-07-01'
 name: Matillion
 nav: Providers
 network: true
-overview: 'Matillion publishes 9 APIs on the [APIs.io](https://apis.io/) network, including DPC Agents API, DPC Environments API, DPC Pipeline Executions API, and 6 more. Tagged areas include Data Integration, ETL, ELT, Data Pipeline, and Cloud Data Warehouse.
+overview: 'Matillion publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including DPC Agents API, DPC Environments API, DPC Pipeline Executions API, and 6 more. Tagged areas include Data Integration, ETL, ELT, Data Pipeline, and Cloud Data Warehouse.
 
 
   The Matillion catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -369,7 +373,8 @@ rate_limits:
   name: Matillion Rate Limits
   slug: matillion-rate-limits
 rules:
-- effective_rule_count: 54
+- authorship: generated
+  effective_rule_count: 54
   extends:
   - spectral:oas
   name: Matillion API Rules
@@ -386,24 +391,24 @@ scopes:
   slug: matillion-scopes
   summary_line: 1 scope · clientCredentials
 score:
-  band: strong
-  composite: 55.9
+  band: developing
+  composite: 47.6
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 86.6
+    artifact_dirs: 25
+    catalog_earned: 68.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 28.4
+    catalog_gap: 47.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 21.7
+  delta: -15.3
   facets:
-    access_clarity: 65.3
+    access_clarity: 36.8
     contract_governance: 19.7
     contract_quality: 53.0
     developer_ergonomics: 42.3
     discoverability: 69.6
-    operational_transparency: 73.2
-  previous_composite: 34.2
+    operational_transparency: 52.6
+  previous_composite: 62.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -420,9 +425,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: rising
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

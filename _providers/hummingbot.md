@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'The Hummingbot API is a FastAPI backend service (default port 8000) that orchestrates multiple trading bots and exposes REST routers for accounts and exchange credentials, trading (orders, positions, '
@@ -302,7 +302,7 @@ modified: '2026-07-19'
 name: Hummingbot
 nav: Providers
 network: true
-overview: 'Hummingbot publishes 17 APIs on the [APIs.io](https://apis.io/) network, including /chain/ethereum API, /chain/solana API, /config API, and 14 more. Tagged areas include Company, Crypto, Trading, Blockchain, and DeFi.
+overview: 'Hummingbot publishes 17 API contracts indexed on the [APIs.io](https://apis.io/) network, including /chain/ethereum API, /chain/solana API, /config API, and 14 more. Tagged areas include Company, Cryptocurrency, Trading, Blockchain, and DeFi.
 
 
   Hummingbot''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, authentication, and 18 more developer resources.'
@@ -345,8 +345,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 15.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -364,11 +364,11 @@ security:
 slug: hummingbot
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Trading
 - Blockchain
 - DeFi
-- DEX
+- Decentralized Exchange
 - Open Source
 - Market Making
 - Algorithmic Trading

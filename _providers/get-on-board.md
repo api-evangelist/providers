@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://www.getonbrd.com/api/v0/
@@ -369,7 +369,7 @@ modified: '2026-09-16'
 name: Get On Board
 nav: Providers
 network: true
-overview: 'Get On Board publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Authentication API, Get On Board+ API, and 19 more. Tagged areas include Company, Recruiting, Job, Hiring, and Applicant Tracking.
+overview: 'Get On Board publishes 22 API contracts indexed on the [APIs.io](https://apis.io/) network, including Applications API, Authentication API, Get On Board+ API, and 19 more. Tagged areas include Company, Recruiting, Job, Hiring, and Applicant Tracking.
 
 
   The Get On Board catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -381,7 +381,7 @@ score:
   band: developing
   composite: 44.6
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -416,8 +416,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

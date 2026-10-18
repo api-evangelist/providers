@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.8
-  scored_at: '2026-10-04'
+  score: 22.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -100,6 +100,21 @@ collections:
   name: Google Distributed Cloud Edge Network Networks Zones API
   slug: open-google-distributed-cloud-zones-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/google-distributed-cloud/refs/heads/main/plans/google-distributed-cloud-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/google-distributed-cloud-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/google-distributed-cloud/refs/heads/main/rate-limits/google-distributed-cloud-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/google-distributed-cloud-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/google-distributed-cloud/refs/heads/main/finops/google-distributed-cloud-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/google-distributed-cloud-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/google-distributed-cloud/refs/heads/main/capabilities/google-distributed-cloud-capability-edges.yml
   title: ''
@@ -186,9 +201,13 @@ common:
 created: '2026-03-13'
 description: Google Distributed Cloud provides fully managed hardware and software solutions that extend Google Cloud infrastructure and services to the edge and into customer data centers. It supports both connected and air-gapped deployments, enabling organizations to run workloads locally while leveraging Google Cloud management, security, and services.
 finops:
-- name: Google Distributed Cloud Finops
+- has_sources: false
+  method: generated
+  name: Google Distributed Cloud Finops
+  primary_unit: ''
   service_category: API
   slug: google-distributed-cloud-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/google-distributed-cloud.png
 json_schemas:
 - name: Google Distributed Cloud Edge Network
@@ -204,13 +223,13 @@ modified: '2026-05-19'
 name: Google Distributed Cloud
 nav: Providers
 network: true
-overview: 'Google Distributed Cloud publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Networks API, Routers API, Subnets API, and 2 more. Tagged areas include Distributed Infrastructure, Edge Computing, Hardware, Hybrid Cloud, and Kubernetes.
+overview: 'Google Distributed Cloud publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Networks API, Routers API, Subnets API, and 2 more. Tagged areas include Distributed Infrastructure, Edge Computing, Hardware, Hybrid Cloud, and Kubernetes.
 
 
   The Google Distributed Cloud catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Google Distributed Cloud''s developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, support, and 13 more developer resources.'
+  Google Distributed Cloud''s developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, support, and 16 more developer resources.'
 plans:
 - name: Google Distributed Cloud Plans Pricing
   plan_count: 3
@@ -221,9 +240,10 @@ rate_limits:
   name: Google Distributed Cloud Rate Limits
   slug: google-distributed-cloud-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Google Distributed Cloud API Rules
+  name: Google Distributed Cloud — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -231,7 +251,8 @@ rules:
     info: 2
     warn: 3
   slug: google-distributed-cloud-jsonschema-spectral-rules
-- effective_rule_count: 58
+- authorship: generated
+  effective_rule_count: 58
   extends:
   - spectral:oas
   name: Google Distributed Cloud API Rules
@@ -249,17 +270,17 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 47.0
+  composite: 45.4
   coverage:
     artifact_dirs: 16
-    catalog_earned: 60.9
+    catalog_earned: 57.9
     catalog_earned_first_party: 0.0
-    catalog_gap: 54.1
+    catalog_gap: 57.1
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 47.4
+    access_clarity: 39.5
     contract_governance: 13.6
     contract_quality: 56.1
     developer_ergonomics: 44.0
@@ -279,8 +300,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

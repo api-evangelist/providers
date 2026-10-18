@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://data.1degree.org/v1
@@ -98,6 +98,10 @@ collections:
   name: One Degree Resource Server Housing Submissions API
   slug: open-one-degree-submissions-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://about.1degree.org/feed/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/one-degree/refs/heads/main/overlays/one-degree-openapi-overlay.yaml
   title: ''
@@ -207,14 +211,14 @@ created: '2026-07-17'
 description: One Degree is a California-based 501(c)(3) nonprofit technology organization that empowers low-income and underserved individuals, families, and social-service professionals to find and access life-changing benefits and services. Its Resource Server API exposes a curated, community- maintained database of social-service resources — organizations and the opportunities (programs and services) they offer, along with locations, phones, schedules, ratings, tags, comments, images, properties, guides, and housing properties. The API is designed for interoperability with third-party services so communities can coordinate and deliver social services more effectively. It is a read-focused REST API served at data.1degree.org/v1, authenticated with an api_key query parameter and HMAC-SHA256 request signatures for write verbs. Resource data is licensed under Creative Commons Attribution-NonCommercial 4.0 International.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/one-degree.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: One Degree
 nav: Providers
 network: true
-overview: 'One Degree publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Housing API, Locations API, Opportunities API, and 3 more. Tagged areas include Company, Non-Profit, Social Services, Community Resources, and Human Services.
+overview: 'One Degree publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Housing API, Locations API, Opportunities API, and 3 more. Tagged areas include Company, Non-Profit, Social Services, Community Resources, and Human Services.
 
 
-  One Degree''s developer surface includes documentation, API reference, engineering blog, support, signup flow, authentication, and 17 more developer resources.'
+  One Degree''s developer surface includes documentation, API reference, engineering blog, support, signup flow, authentication, and 18 more developer resources.'
 random_paper: 19
 score:
   band: thin
@@ -257,8 +261,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

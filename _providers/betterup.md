@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.betterup.com/blog/rss.xml
 - group: company
   title: ''
   type: Website
@@ -87,20 +91,20 @@ created: '2026-07-17'
 description: 'BetterUp is an enterprise Human Transformation Platform that combines human and AI-powered coaching, grounded in behavioral science and enterprise data, to help organizations develop leaders, managers, and their broader workforce. Founded by Alexi Robichaux, BetterUp serves 750+ enterprise customers including Google, Salesforce, Moderna, and Workday, with a network of 4,000+ coaches across 70+ countries. The platform delivers leadership development, manager effectiveness, AI coaching, and workforce resilience programs. BetterUp is HR-tech / organizational-development software and exposes no public developer API; platform integration is delivered through packaged enterprise connectors (Workday, Salesforce, Slack, Microsoft Viva, SAP SuccessFactors, Degreed) plus HRIS and SSO provisioning. Sector: hr-tech.'
 image: https://logo.clearbit.com/betterup.com
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: BetterUp
 nav: Providers
 network: true
 overview: 'BetterUp is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Human Resources, Coaching, Leadership Development, and Professional Development.
 
 
-  BetterUp''s developer surface includes engineering blog, support, signup flow, and 8 more developer resources.'
+  BetterUp''s developer surface includes engineering blog, support, signup flow, and 9 more developer resources.'
 random_paper: 17
 score:
   band: emerging
   composite: 16.7
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -121,8 +125,8 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 17.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

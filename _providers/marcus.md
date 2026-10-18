@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'Marcus by Goldman Sachs does not publish a first-party consumer developer API. Consumer-permissioned account data is available only through third-party open-finance aggregators. Plaid supports Marcus '
@@ -75,7 +75,7 @@ modified: '2026-07-23'
 name: Marcus by Goldman Sachs
 nav: Providers
 network: true
-overview: 'Marcus by Goldman Sachs publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Services, Banking, United States, Consumer Banking, and Neobank.
+overview: 'Marcus by Goldman Sachs is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Services, Banking, United States, Consumer Banking, and Neobank.
 
 
   Marcus by Goldman Sachs'' developer surface includes support and 5 more developer resources.'
@@ -84,7 +84,7 @@ score:
   band: emerging
   composite: 11.4
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -112,8 +112,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 11.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

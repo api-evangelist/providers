@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: 'The Cardless partner API surface used by brands to embed a co-branded credit card program: partner authentication (Basic-auth exchange of a partner-signed JWT for a bearer access token), application s'
@@ -148,7 +148,7 @@ modified: '2026-08-01'
 name: Cardless
 nav: Providers
 network: true
-overview: 'Cardless publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Fintech, Credit Cards, and Card Issuing.
+overview: 'Cardless is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Fintech, Credit Cards, and Card Issuing.
 
 
   Cardless'' developer surface includes documentation, engineering blog, support, signup flow, authentication, and 15 more developer resources.'
@@ -186,8 +186,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 31.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.shopcider.com/rss/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/cider/refs/heads/main/security/cider-domain-security.yml
   title: ''
@@ -65,20 +69,20 @@ created: '2026-07-17'
 description: Cider is a global direct-to-consumer digital-first fashion brand geared toward Gen Z shoppers, founded in 2020 and operating primarily at shopcider.com and through its mobile apps. Backed by Andreessen Horowitz (a16z), DST Global, and Greenoaks Capital, Cider reached unicorn valuation as a fast-fashion challenger to SHEIN, using a data- and community-driven, on-demand manufacturing model to offer trend-forward women's clothing and accessories worldwide. Cider is a consumer retailer; it publishes no public developer API, developer portal, or API documentation. This profile was surfaced as an a16z portfolio company and added to the API Evangelist network as a company record.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cider.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Cider
 nav: Providers
 network: true
 overview: 'Cider is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fashion, E-Commerce, Direct to Consumer, and Retail.
 
 
-  Cider''s developer surface includes support and 5 more developer resources.'
+  Cider''s developer surface includes support and 6 more developer resources.'
 random_paper: 13
 score:
   band: minimal
   composite: 3.4
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -99,8 +103,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

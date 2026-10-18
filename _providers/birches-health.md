@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://bircheshealth.com/press
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/birches-health/refs/heads/main/security/birches-health-domain-security.yml
   title: ''
@@ -77,31 +81,31 @@ created: '2026-07-17'
 description: Birches Health is a fully virtual behavioral addiction treatment provider specializing in gambling disorder and related compulsive behaviors such as sports betting, day trading, video gaming, and pornography. Founded in 2023 and headquartered in Phoenix, Arizona, the company delivers confidential online care from licensed gambling counselors, peer mentors, financial coaches, and group therapy across all 50 states. Birches Health partners with 18+ state governments that have legalized sports betting and 100+ national insurance plans (including UnitedHealthcare, Cigna, Aetna, and Blue Cross Blue Shield) so most clients pay $0-25 per session, with a core program completed in about 12 weeks. The company has raised approximately $20M from AlleyCorp, General Catalyst, and Will Ventures. Birches Health does not currently publish a public developer API, portal, or specification; this profile captures its identity and public web surface.
 image: https://framerusercontent.com/assets/t8EsDTzp3DjAYcpjAxrhpHrAOo.jpg
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Birches Health
 nav: Providers
 network: true
 overview: 'Birches Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Behavioral Health, Telehealth, and Mental Health.
 
 
-  Birches Health''s developer surface includes pricing, support, signup flow, and 6 more developer resources.'
+  Birches Health''s developer surface includes engineering blog, pricing, support, signup flow, and 6 more developer resources.'
 random_paper: 3
 score:
   band: emerging
-  composite: 14.5
+  composite: 15.0
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 44.7
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 4.8
+    developer_ergonomics: 7.1
     discoverability: 48.2
     operational_transparency: 0.0
   jurisdiction:
@@ -118,8 +122,8 @@ score:
     regime: Health
     regime_id: health
     score: 10.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

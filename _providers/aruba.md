@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -112,6 +112,21 @@ collections:
   name: Aruba Central Access Points Sites API
   slug: open-aruba-sites-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/aruba/refs/heads/main/plans/aruba-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/aruba-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/aruba/refs/heads/main/rate-limits/aruba-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/aruba-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/aruba/refs/heads/main/finops/aruba-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/aruba-finops.yml
 - group: company
   title: ''
   type: Website
@@ -261,9 +276,13 @@ features:
 - description: Synthetic testing and real-time monitoring of network and application performance from the user perspective.
   name: User Experience Monitoring
 finops:
-- name: Aruba Finops
+- has_sources: true
+  method: generated
+  name: Aruba Finops
+  primary_unit: ''
   service_category: Networking
   slug: aruba-finops
+  template: false
 image: https://www.arubanetworks.com/assets/img/logo.png
 integrations:
 - description: Ansible modules and playbooks for automating Aruba Central and AOS-CX switch configuration.
@@ -511,13 +530,13 @@ modified: '2026-09-16'
 name: Aruba
 nav: Providers
 network: true
-overview: 'Aruba publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Access Points API, Devices API, Groups API, and 8 more. Tagged areas include Cloud, Infrastructure, Network Management, Networking, and SD-WAN.
+overview: 'Aruba publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Access Points API, Devices API, Groups API, and 8 more. Tagged areas include Cloud, Infrastructure, Network Management, Networking, and SD-WAN.
 
 
   The Aruba catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Aruba''s developer surface includes authentication, engineering blog, support, and 11 more developer resources.'
+  Aruba''s developer surface includes authentication, engineering blog, support, and 14 more developer resources.'
 plans:
 - name: Aruba Plans Pricing
   plan_count: 1
@@ -528,9 +547,10 @@ rate_limits:
   name: Aruba Rate Limits
   slug: aruba-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Aruba API Rules
+  name: Aruba — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -538,7 +558,8 @@ rules:
     info: 1
     warn: 4
   slug: aruba-jsonschema-spectral-rules
-- effective_rule_count: 59
+- authorship: generated
+  effective_rule_count: 59
   extends:
   - spectral:oas
   name: Aruba API Rules
@@ -551,17 +572,17 @@ rules:
   slug: aruba-spectral-rules
 score:
   band: developing
-  composite: 44.0
+  composite: 42.5
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 44.5
+    artifact_dirs: 20
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 70.5
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 34.2
+    access_clarity: 26.3
     contract_governance: 13.6
     contract_quality: 59.7
     developer_ergonomics: 65.5
@@ -581,8 +602,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

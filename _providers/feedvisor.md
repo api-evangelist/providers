@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Feedvisor's External API for exporting configuration reports and importing pricing/repricing feeds. OAuth2 client-credentials auth; asynchronous report/feed jobs are submitted then polled by request_i
@@ -97,7 +97,7 @@ modified: '2026-07-19'
 name: Feedvisor
 nav: Providers
 network: true
-overview: 'Feedvisor publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Amazon, E-Commerce, Retail, and Advertising.
+overview: 'Feedvisor is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Amazon, E-Commerce, Retail, and Advertising.
 
 
   Feedvisor''s developer surface includes engineering blog, support, authentication, and 8 more developer resources.'
@@ -106,7 +106,7 @@ score:
   band: emerging
   composite: 17.4
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -127,8 +127,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

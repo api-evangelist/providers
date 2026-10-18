@@ -23,10 +23,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://audienceco.com/blog/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/audienceco/refs/heads/main/hosts/audienceco-hosts.yml
   title: ''
@@ -76,32 +80,34 @@ coverage:
 created: '2026-09-26'
 description: Audienceco provides performance marketing and audience engagement services, helping advertisers acquire and retain customers through data-driven advertising programs. They operate a push exchange platform, PushEX, and manage audience data across multiple geographies, reaching nearly 3 million daily users. Their solutions focus on intelligent audience acquisition, leveraging first‑party and third‑party data to deliver measurable results for brands.
 layout: provider
-modified: '2026-09-26'
+modified: '2026-10-06'
 name: Audienceco
 nav: Providers
 network: true
 overview: 'Audienceco is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Performance Marketing, Audience Acquisition, Push Exchange, Lead Generation, and Subscription Marketing.
 
 
-  Audienceco''s developer surface includes support, documentation, getting-started guide, pricing, and 5 more developer resources.'
+  Audienceco''s developer surface includes engineering blog, support, documentation, getting-started guide, pricing, and 5 more developer resources.'
 random_paper: 6
 score:
   band: emerging
-  composite: 15.7
+  composite: 16.3
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 8
     catalog_earned: 25.0
     catalog_earned_first_party: 0.0
     catalog_gap: 90.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.6
   facets:
     access_clarity: 31.6
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 26.2
+    developer_ergonomics: 28.6
     discoverability: 44.6
     operational_transparency: 0.0
+  previous_composite: 15.7
   provenance:
     mcp: unknown
   regulatory:
@@ -110,12 +116,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/audienceco/refs/heads/main/screenshots/audienceco-2026-10-11T100808.png
 security:
 - kind: domain-security
   name: Audienceco Domain Security

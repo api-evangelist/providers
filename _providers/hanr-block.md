@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: 'The partner-facing H&R Block integration surface — tax-data import from financial institutions, payroll providers and employer solutions. No public contract, reference or portal is reachable: api.hrbl'
@@ -44,6 +44,11 @@ apis:
   slug: hanr-block-identity
 artifact_total: 9
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/hanr-block/refs/heads/main/finops/hanr-block-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/hanr-block-finops.yml
 - group: company
   title: ''
   type: Website
@@ -134,19 +139,23 @@ common:
 created: '2026-04-19'
 description: 'H&R Block (NYSE: HRB) is a US tax-preparation company and Fortune 1000 constituent, operating retail tax offices, consumer and small-business tax software, and the MyBlock digital platform. It runs no public developer program: the hosts that make up its API estate — api.hrblock.com, developer.hrblock.com, the apiportal.hrblock.com Apigee portal, apigw, mcp, edge, services and connect — either do not resolve or refuse connections from the public internet, and integration is arranged bilaterally through the tax-import partner program. The one machine-readable contract H&R Block does serve publicly is the OAuth 2.0 / OpenID Connect discovery metadata for its customer identity platform at login.hrblock.com.'
 finops:
-- name: Hanr Block Finops
+- has_sources: true
+  method: generated
+  name: Hanr Block Finops
+  primary_unit: ''
   service_category: Tax Preparation / Financial Services Partner API
   slug: hanr-block-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hanr-block.png
 layout: provider
 modified: '2026-09-14'
 name: H&R Block
 nav: Providers
 network: true
-overview: 'H&R Block publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Tax Preparation, Financial Services, Fortune 1000, Identity, and Authentication.
+overview: 'H&R Block is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Tax Preparation, Financial Services, Fortune 1000, Identity, and Authentication.
 
 
-  H&R Block''s developer surface includes support, engineering blog, authentication, and 16 more developer resources.'
+  H&R Block''s developer surface includes support, engineering blog, authentication, and 17 more developer resources.'
 plans:
 - name: Hanr Block Plans Pricing
   plan_count: 1
@@ -162,18 +171,18 @@ scopes:
   slug: hanr-block-scopes
   summary_line: 7 scopes
 score:
-  band: thin
-  composite: 26.8
+  band: emerging
+  composite: 25.3
   coverage:
-    artifact_dirs: 15
-    catalog_earned: 44.0
+    artifact_dirs: 16
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 71.0
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 40.8
+    access_clarity: 32.9
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
@@ -189,8 +198,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

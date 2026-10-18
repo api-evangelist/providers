@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.asimov.com/feed
 - group: company
   title: ''
   type: Website
@@ -78,14 +82,14 @@ created: '2026-07-17'
 description: Asimov is a synthetic biology company building an integrated platform for the intelligent design of living systems. Its Edge Systems (CHO for biologics, LV for cell therapies, AAV for gene therapies, and RNA for RNA medicines) combine engineered mammalian host cells, a library of more than 1,000 validated genetic parts, and cloud-based genetic design software so biopharma partners can design and manufacture advanced therapeutics at higher titers and on faster timelines. Backed by a16z, DCVC, Wing Venture Capital, and Y Combinator. Added to the API Evangelist network as a company profile; no public developer API is currently published.
 image: https://cdn.prod.website-files.com/631b859f947c1b7ed923e161/6391ebb616c34d3dafef930c_2K-render-compressed-1.webp
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Asimov
 nav: Providers
 network: true
 overview: 'Asimov is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Synthetic Biology, Biotechnology, Genetic Design, and Cell Line Development.
 
 
-  Asimov''s developer surface includes engineering blog, support, and 7 more developer resources.'
+  Asimov''s developer surface includes engineering blog, support, and 8 more developer resources.'
 random_paper: 17
 score:
   band: emerging
@@ -112,8 +116,8 @@ score:
     regime: Health
     regime_id: health
     score: 10.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

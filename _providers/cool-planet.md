@@ -32,10 +32,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 0
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.coolplanet.io/blog/tag/articles
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.coolplanet.io/blog/rss.xml
 - group: company
   title: ''
   type: Website
@@ -64,20 +72,20 @@ created: '2026-07-17'
 description: CoolPlanet is an enterprise energy-management and decarbonisation software company. Its platform, CoolPlanetOS, centralises real-time energy data across multi-site industrial estates, applies AI-driven anomaly detection and efficiency insights, benchmarks performance across facilities, and automates energy and compliance reporting. CoolPlanet pairs the software with consulting and on-site execution services to help manufacturing, pharmaceutical, food and beverage, commercial real estate, mining and shipping enterprises cut energy costs and carbon emissions. Backed by GV (Google Ventures). No public developer API surface is currently published.
 image: https://www.coolplanet.io/hubfs/LOGO_COLOUR@4x-8.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Cool Planet
 nav: Providers
 network: true
 overview: 'Cool Planet is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Energy Management, Decarbonisation, Sustainability, and Carbon Management.
 
 
-  Cool Planet''s developer surface includes engineering blog, signup flow, support, and 3 more developer resources.'
+  Cool Planet''s developer surface includes engineering blog, signup flow, support, and 5 more developer resources.'
 random_paper: 18
 score:
   band: minimal
   composite: 9.5
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -104,8 +112,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 6.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

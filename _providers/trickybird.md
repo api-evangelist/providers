@@ -23,28 +23,27 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'Agent-native interfaces for TrickyBird: a structured llms.txt and a documented WebMCP in-page tool surface. No REST/OpenAPI/GraphQL/Postman contract and no remote MCP server.'
   name: TrickyBird Agent Surface
   slug: trickybird-agent-surface
-artifact_total: 5
+artifact_total: 4
 common:
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://trickybird.com/faq
 - group: company
   title: ''
   type: Website
   url: https://trickybird.com
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/trickybird/refs/heads/main/security/trickybird-vulnerability-disclosure.yml
-  title: ''
-  type: VulnerabilityDisclosure
-  url: security/trickybird-vulnerability-disclosure.yml
-- group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/trickybird/refs/heads/main/security/trickybird-vulnerability-disclosure.yml
+  href: https://raw.githubusercontent.com/api-evangelist/trickybird/refs/heads/main/security/trickybird-security-contact.yml
   title: ''
   type: Security
-  url: security/trickybird-vulnerability-disclosure.yml
+  url: security/trickybird-security-contact.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/trickybird/refs/heads/main/security/trickybird-domain-security.yml
   title: ''
@@ -83,17 +82,17 @@ common:
   type: PrivacyPolicy
   url: https://trickybird.com/privacy
 created: '2026-09-09'
-description: 'Free web proxy to open blocked sites in a normal browser tab with no account and no install. Exposes agent-native surfaces only: an llms.txt and an in-page WebMCP tool surface (13 named tools across specific pages).'
+description: 'Free web proxy to open blocked sites in a normal browser tab with no account and no install. Exposes agent-native surfaces only: an llms.txt and an in-page WebMCP tool surface (12 named tools across specific pages, as listed in the ItemList JSON-LD at https://trickybird.com/webmcp). It publishes no HTTP API for third parties.'
 image: https://trickybird.com/opengraph-image?v=cp-v0.6.3
 layout: provider
-modified: '2026-09-10'
+modified: '2026-10-05'
 name: TrickyBird
 nav: Providers
 network: true
-overview: 'TrickyBird publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include web proxy, unblock, no account, no install, and Browser.
+overview: 'TrickyBird is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include web proxy, unblock, no account, no install, and Browser.
 
 
-  TrickyBird''s developer surface includes support and 10 more developer resources.'
+  TrickyBird''s developer surface includes pricing, support, and 9 more developer resources.'
 plans:
 - name: Trickybird Plans Pricing
   plan_count: 1
@@ -105,47 +104,44 @@ rate_limits:
   slug: trickybird-rate-limits
 score:
   band: emerging
-  composite: 22.3
+  composite: 23.7
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 48.0
     catalog_earned_first_party: 16.0
     catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 3.5
   facets:
-    access_clarity: 42.1
+    access_clarity: 52.6
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 14.3
     discoverability: 64.3
     operational_transparency: 31.6
-  previous_composite: 22.3
+  previous_composite: 20.2
   provenance:
     mcp: first-party
   regulatory:
     applies: true
-    matched_via: tags
-    regime: Energy & Utilities
-    regime_id: energy_utilities
-    score: 16.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 13.7
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/trickybird/refs/heads/main/screenshots/trickybird-2026-10-11T131150.png
 security:
 - kind: domain-security
   name: Trickybird Domain Security
   slug: trickybird-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
-- kind: vulnerability-disclosure
-  name: Trickybird Vulnerability Disclosure
-  slug: trickybird-vulnerability-disclosure
-  summary_line: security.txt · contact published
 slug: trickybird
 tags:
 - web proxy
@@ -157,8 +153,6 @@ tags:
 - WebMCP
 - llms-txt
 - Privacy
-- Anonymity
 - network filtering circumvention
-- consumer utility
 website: https://trickybird.com
 ---

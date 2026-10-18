@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -78,6 +78,21 @@ collections:
   name: KVdb API
   slug: open-kvdb
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/kvdb/refs/heads/main/plans/kvdb-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/kvdb-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/kvdb/refs/heads/main/rate-limits/kvdb-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/kvdb-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/kvdb/refs/heads/main/finops/kvdb-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/kvdb-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/kvdb/refs/heads/main/agentic-access/kvdb-agentic-access.yml
   title: ''
@@ -108,19 +123,23 @@ common:
 created: '2025-02-08'
 description: Stop wasting time setting up NoSQL databases. KVdb is a hosted serverless key-value database with a simple HTTPS REST API. Buckets act as namespaces for keys, with built-in access control via secret, read, and write keys, custom Lua scripts, and per-bucket TTLs.
 finops:
-- name: Kvdb Finops
+- has_sources: false
+  method: generated
+  name: Kvdb Finops
+  primary_unit: ''
   service_category: API
   slug: kvdb-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kvdb.png
 layout: provider
 modified: '2026-05-19'
 name: KVdb
 nav: Providers
 network: true
-overview: 'KVdb publishes 3 APIs on the [APIs.io](https://apis.io/) network: Buckets API, Keys API, and Scripts API. Tagged areas include Database, Key-Value Store, NoSQL, and Serverless.
+overview: 'KVdb publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Buckets API, Keys API, and Scripts API. Tagged areas include Database, Key-Value Store, NoSQL, and Serverless.
 
 
-  KVdb''s developer surface includes authentication, documentation, engineering blog, and 3 more developer resources.'
+  KVdb''s developer surface includes authentication, documentation, engineering blog, and 6 more developer resources.'
 plans:
 - name: Kvdb Plans Pricing
   plan_count: 3
@@ -131,18 +150,18 @@ rate_limits:
   name: Kvdb Rate Limits
   slug: kvdb-rate-limits
 score:
-  band: thin
-  composite: 26.6
+  band: emerging
+  composite: 25.1
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 36.0
+    artifact_dirs: 12
+    catalog_earned: 33.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 79.0
+    catalog_gap: 82.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 47.1
     developer_ergonomics: 35.7
@@ -162,8 +181,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

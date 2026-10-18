@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 264
   human_in_the_loop: 6
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 519
   slug: verifiable-agentic-access
   summary_line: 519 operations · 264 acting · 6 human-in-the-loop
-api_count: 2
+api_count: 4
 apis:
 - baseURL: https://discovery.verifiable.com/api
   baseurl_source: declared
@@ -470,7 +470,7 @@ modified: '2026-07-21'
 name: Verifiable
 nav: Providers
 network: true
-overview: 'Verifiable publishes 33 APIs on the [APIs.io](https://apis.io/) network, including Alerts API, Audit API, Authentication API, and 30 more. Tagged areas include Company, Health, Healthcare, Credentialing, and Provider Data.
+overview: 'Verifiable publishes 33 API contracts indexed on the [APIs.io](https://apis.io/) network, including Alerts API, Audit API, Authentication API, and 30 more. Tagged areas include Company, Health, Healthcare, Credentialing, and Provider Data.
 
 
   The Verifiable catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -480,21 +480,21 @@ overview: 'Verifiable publishes 33 APIs on the [APIs.io](https://apis.io/) netwo
 random_paper: 15
 score:
   band: strong
-  composite: 55.5
+  composite: 56.0
   coverage:
     artifact_dirs: 22
-    catalog_earned: 37.0
+    catalog_earned: 40.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 28.9
     contract_governance: 18.2
     contract_quality: 58.5
     developer_ergonomics: 66.1
-    discoverability: 71.7
+    discoverability: 76.7
     operational_transparency: 57.9
   previous_composite: 55.5
   provenance:
@@ -513,8 +513,8 @@ score:
     regime: Health
     regime_id: health
     score: 28.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -532,7 +532,7 @@ security:
 - kind: vulnerability-disclosure
   name: Verifiable Vulnerability Disclosure
   slug: verifiable-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 slug: verifiable
 tags:
 - Company

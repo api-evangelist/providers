@@ -27,16 +27,31 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 21
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/mckinsey-and-company/refs/heads/main/plans/mckinsey-and-company-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/mckinsey-and-company-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/mckinsey-and-company/refs/heads/main/rate-limits/mckinsey-and-company-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/mckinsey-and-company-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/mckinsey-and-company/refs/heads/main/finops/mckinsey-and-company-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/mckinsey-and-company-finops.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -224,9 +239,13 @@ features:
 - description: The McKinsey Podcast, McKinsey Talks Operations, McKinsey on AI, McKinsey on Books, and other audio and book programs distributing firm thought leadership.
   name: Podcasts and books
 finops:
-- name: Mckinsey And Company Finops
+- has_sources: true
+  method: generated
+  name: Mckinsey And Company Finops
+  primary_unit: ''
   service_category: Professional Services
   slug: mckinsey-and-company-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mckinsey-and-company.png
 jsonld:
 - class_count: 56
@@ -244,7 +263,7 @@ overview: 'McKinsey & Company is profiled on the [APIs.io](https://apis.io/) net
   The McKinsey & Company catalog on APIs.io includes 1 JSON-LD context.
 
 
-  McKinsey & Company''s developer surface includes engineering blog, tooling, YouTube channel, and 37 more developer resources.'
+  McKinsey & Company''s developer surface includes engineering blog, tooling, YouTube channel, and 40 more developer resources.'
 plans:
 - name: Mckinsey And Company Plans Pricing
   plan_count: 3
@@ -256,22 +275,22 @@ rate_limits:
   slug: mckinsey-and-company-rate-limits
 score:
   band: thin
-  composite: 33.0
+  composite: 26.4
   coverage:
     artifact_dirs: 9
-    catalog_earned: 56.0
+    catalog_earned: 40.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 59.0
+    catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.6
   facets:
-    access_clarity: 54.7
+    access_clarity: 26.3
     contract_governance: 0.0
     contract_quality: 10.7
     developer_ergonomics: 2.4
     discoverability: 48.2
-    operational_transparency: 47.9
+    operational_transparency: 34.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -287,13 +306,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/mckinsey-and-company/refs/heads/main/screenshots/mckinsey-and-company-2026-10-11T191407.png
 security:
 - kind: domain-security
   name: Mckinsey And Company Domain Security

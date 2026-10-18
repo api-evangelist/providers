@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Alkami's RESTful digital-banking APIs (D2C, B2B, and Open Banking) plus the Alkami SDK, built on OpenID Connect and documented in the gated Alkami DevPortal.
@@ -42,6 +42,10 @@ apis:
   slug: alkami-digital-banking-api
 artifact_total: 4
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.alkami.com/feed/
 - group: company
   title: ''
   type: Website
@@ -108,20 +112,20 @@ created: '2026-07-17'
 description: 'Alkami Technology (NASDAQ: ALKT) is a Plano, Texas based cloud digital banking platform for U.S. banks and credit unions. Through its "Alkami Foundry" developer program it exposes RESTful APIs and an extensible SDK — spanning authentication, money movement, data access, and real-time and batch workflows — that financial institutions and fintech partners use to embed and extend digital-banking experiences. The APIs are grouped into D2C (embed fintech experiences), B2B (automate backend workflows), and Open Banking (third-party connections such as Plaid) surfaces, are built on OpenID Connect, and are delivered through a gated DevPortal rather than an open public API. Alkami was surfaced as a portfolio company of D1 Capital and enriched by the API Evangelist pipeline from its public developer, security, and legal surfaces.'
 image: https://www.alkami.com/wp-content/uploads/2023/01/alkami-logo.svg
 layout: provider
-modified: '2026-07-17'
+modified: '2026-10-06'
 name: Alkami
 nav: Providers
 network: true
-overview: 'Alkami publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Digital Banking, Banking, and Credit Union.
+overview: 'Alkami is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Digital Banking, Banking, and Credit Union.
 
 
-  Alkami''s developer surface includes documentation, engineering blog, support, authentication, and 10 more developer resources.'
+  Alkami''s developer surface includes documentation, engineering blog, support, authentication, and 11 more developer resources.'
 random_paper: 7
 score:
   band: emerging
   composite: 16.4
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -142,8 +146,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 17.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -137,6 +137,21 @@ collections:
   name: Debbie Platform API
   slug: open-debbie-platform-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/debbie-collect/refs/heads/main/plans/debbie-collect-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/debbie-collect-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/debbie-collect/refs/heads/main/rate-limits/debbie-collect-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/debbie-collect-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/debbie-collect/refs/heads/main/finops/debbie-collect-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/debbie-collect-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/debbie-collect/refs/heads/main/capabilities/debbie-collect-capability-edges.yml
   title: ''
@@ -198,9 +213,13 @@ common:
 created: '2025-02-24'
 description: Debbie (Debbie Collect, operated by Intellitech Systems A/S) is an AI-driven SaaS platform that automates debt collection and accounts receivable management. Companies, collection agencies, and law firms use Debbie to run digital reminder flows, debtor dialogue, payment plans, and case management. Debbie publishes two RESTful APIs - a Platform API for collectors integrating Debbie into existing systems, and a Client API for creditors creating cases and exchanging payment data.
 finops:
-- name: Debbie Collect Finops
+- has_sources: false
+  method: generated
+  name: Debbie Collect Finops
+  primary_unit: ''
   service_category: API
   slug: debbie-collect-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/debbie-collect.png
 json_schemas:
 - name: Debbie Case
@@ -219,13 +238,13 @@ modified: '2026-05-19'
 name: Debbie Collect
 nav: Providers
 network: true
-overview: 'Debbie Collect publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Billing API, Case Vouchers API, Cases API, and 7 more. Tagged areas include Accounts Receivable, Collection, Debt Collection, Fintech, and Payments.
+overview: 'Debbie Collect publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Billing API, Case Vouchers API, Cases API, and 7 more. Tagged areas include Accounts Receivable, Collection, Debt Collection, Fintech, and Payments.
 
 
   The Debbie Collect catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Debbie Collect''s developer surface includes authentication, engineering blog, support, and 10 more developer resources.'
+  Debbie Collect''s developer surface includes authentication, engineering blog, support, and 13 more developer resources.'
 plans:
 - name: Debbie Collect Plans Pricing
   plan_count: 3
@@ -236,9 +255,10 @@ rate_limits:
   name: Debbie Collect Rate Limits
   slug: debbie-collect-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Debbie Collect API Rules
+  name: Debbie Collect — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -246,10 +266,11 @@ rules:
     info: 1
     warn: 4
   slug: debbie-collect-jsonschema-spectral-rules
-- effective_rule_count: 46
+- authorship: unmarked
+  effective_rule_count: 46
   extends:
   - spectral:oas
-  name: Debbie Collect API Rules
+  name: Debbie Collect — debbie platform api rules
   rule_count: 5
   severity_counts:
     error: 1
@@ -259,17 +280,17 @@ rules:
   slug: debbie-platform-api-rules
 score:
   band: thin
-  composite: 35.9
+  composite: 34.3
   coverage:
     artifact_dirs: 16
-    catalog_earned: 75.0
+    catalog_earned: 72.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 40.0
+    catalog_gap: 43.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 27.3
     contract_quality: 55.9
     developer_ergonomics: 35.7
@@ -289,8 +310,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 15.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

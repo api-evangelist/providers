@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The R1 RCM API provides access to platform services and data for enterprise integration and automation.
@@ -41,6 +41,21 @@ apis:
   slug: r1-rcm-api
 artifact_total: 6
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/r1-rcm/refs/heads/main/plans/r1-rcm-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/r1-rcm-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/r1-rcm/refs/heads/main/rate-limits/r1-rcm-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/r1-rcm-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/r1-rcm/refs/heads/main/finops/r1-rcm-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/r1-rcm-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/r1-rcm/refs/heads/main/security/r1-rcm-trust-center.yml
   title: ''
@@ -62,16 +77,20 @@ common:
 created: '2026-04-19'
 description: R1 RCM is a major US corporation and Fortune 1000 company. The R1 RCM API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.
 finops:
-- name: R1 Rcm Finops
+- has_sources: true
+  method: generated
+  name: R1 Rcm Finops
+  primary_unit: ''
   service_category: Healthcare Services
   slug: r1-rcm-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/r1-rcm.png
 layout: provider
 modified: '2026-04-19'
 name: R1 RCM
 nav: Providers
 network: true
-overview: R1 RCM publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Healthcare, Revenue Cycle, and Technology.
+overview: R1 RCM is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Healthcare, Revenue Cycle, and Technology.
 plans:
 - name: R1 Rcm Plans Pricing
   plan_count: 1
@@ -82,18 +101,18 @@ rate_limits:
   name: R1 Rcm Rate Limits
   slug: r1-rcm-rate-limits
 score:
-  band: emerging
-  composite: 11.1
+  band: minimal
+  composite: 9.5
   coverage:
     artifact_dirs: 7
-    catalog_earned: 34.0
+    catalog_earned: 31.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 81.0
+    catalog_gap: 84.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 21.1
+    access_clarity: 13.2
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 9.5
@@ -106,8 +125,8 @@ score:
     regime: Health
     regime_id: health
     score: 8.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

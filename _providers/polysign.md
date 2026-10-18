@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: The ABC Accounts API from PolySign — 3 operation(s) for abc accounts.
@@ -264,7 +264,7 @@ modified: '2026-08-02'
 name: PolySign
 nav: Providers
 network: true
-overview: 'PolySign publishes 17 APIs on the [APIs.io](https://apis.io/) network, including ABC Accounts API, ABC Memorials API, ABC Signing API, and 14 more. Tagged areas include Digital Assets, Blockchain, institutional-custody, Settlement, and Escrow.
+overview: 'PolySign publishes 17 API contracts indexed on the [APIs.io](https://apis.io/) network, including ABC Accounts API, ABC Memorials API, ABC Signing API, and 14 more. Tagged areas include Digital Assets, Blockchain, institutional-custody, Settlement, and Escrow.
 
 
   PolySign''s developer surface includes documentation, API reference, support, authentication, sandbox, and 19 more developer resources.'
@@ -276,7 +276,7 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: emerging
-  composite: 25.4
+  composite: 25.5
   coverage:
     artifact_dirs: 19
     catalog_earned: 35.0
@@ -284,7 +284,7 @@ score:
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 0.0
     contract_governance: 4.5
@@ -308,8 +308,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 24.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

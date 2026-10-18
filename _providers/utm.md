@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 5.0
-  scored_at: '2026-10-04'
+  score: 3.1
+  scored_at: '2026-10-17'
 api_count: 6
 apis:
 - description: UTM's institutional knowledge repository, running DSpace-CRIS on utmik.utm.my (161.139.22.165, inside UTM's own APNIC allocation 161.139.0.0/16, netname UTM-MY). The OAI-PMH 2.0 endpoint answers anony
@@ -216,9 +216,13 @@ created: '2026-06-03'
 description: 'Universiti Teknologi Malaysia (UTM) is a public research university in Johor Bahru and Kuala Lumpur, Malaysia, one of the five institutions designated a Research University by the Ministry of Higher Education and ranked #181 in the QS World University Rankings 2025. UTM publishes no developer portal, no API documentation and no OpenAPI, AsyncAPI or JSON Schema of its own, and there is no route by which an unaffiliated developer can obtain a credential for anything it runs. Its programmable footprint is entirely made of standards it exposes rather than interfaces it designed, and every one of them sits on UTM''s own APNIC allocation (161.139.0.0/16, netname UTM-MY): the UTMIK Repository, a DSpace-CRIS institutional knowledge repository whose OAI-PMH 2.0 endpoint answers anonymously in twelve metadata formats including rioxx, etdms and an OpenAIRE CERIF-for-CRIS profile; the UTM Press journal platform, whose Open Journal Systems OAI-PMH interface has been harvestable since 2011
   and whose REST API v1 answers 401; and a Microsoft Entra ID tenant whose signed SAML 2.0 metadata and OpenID Connect discovery document are the most completely specified machine contract in this profile. UTM is registered in ROR, and its own publishing arm, Penerbit UTM Press, is Crossref member 4787 with prefix 10.11113 and 12,640 registered DOIs. The older EPrints repository at eprints.utm.my, still listed by ROAR, OpenDOAR and Sherpa and still linked from the UTM Library, refused connections on both ports from three independent networks on 2026-09-01 and is recorded here as unreachable rather than as a surface.'
 finops:
-- name: Utm Finops
+- has_sources: true
+  method: generated
+  name: Utm Finops
+  primary_unit: ''
   service_category: Education
   slug: utm-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/utm.png
 jsonld:
 - class_count: 10
@@ -230,7 +234,7 @@ modified: '2026-09-01'
 name: Universiti Teknologi Malaysia
 nav: Providers
 network: true
-overview: 'Universiti Teknologi Malaysia publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include University, Higher Education, Education, Public Research University, and Technical University.
+overview: 'Universiti Teknologi Malaysia is listed with 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include University, Higher Education, Education, Public Research University, and Technical University.
 
 
   The Universiti Teknologi Malaysia catalog on APIs.io includes 1 JSON-LD context.
@@ -247,23 +251,23 @@ rate_limits:
   name: Utm Rate Limits
   slug: utm-rate-limits
 score:
-  band: thin
-  composite: 26.3
+  band: emerging
+  composite: 20.2
   coverage:
     artifact_dirs: 11
-    catalog_earned: 65.4
+    catalog_earned: 52.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 49.6
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -2.1
+  delta: -6.1
   facets:
-    access_clarity: 32.1
+    access_clarity: 10.5
     contract_governance: 0.0
     contract_quality: 17.3
     developer_ergonomics: 29.8
     discoverability: 71.4
-    operational_transparency: 18.9
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -271,7 +275,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - southeast-asia
-  previous_composite: 28.4
+  previous_composite: 26.3
   provenance:
     conformance: first-party
   regulatory:
@@ -280,9 +284,9 @@ score:
     regime: Education & Research
     regime_id: education
     score: 18.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

@@ -35,8 +35,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.1
-  scored_at: '2026-10-04'
-api_count: 1
+  scored_at: '2026-10-17'
+api_count: 2
 apis:
 - baseURL: https://api.appzen.com/dictionary-data-services
   baseurl_source: declared
@@ -196,6 +196,10 @@ collections:
   name: Autonomous AP APIs Chart of Accounts Vat API
   slug: open-appzen-vat-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.appzen.com/blog/rss.xml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/appzen/refs/heads/main/capabilities/appzen-capability-edges.yml
   title: ''
@@ -301,26 +305,26 @@ created: '2026-07-17'
 description: AppZen is an AI platform for finance teams that automates accounts payable and expense auditing. Its Autonomous AP product ingests invoices, purchase orders, goods receipts and supporting master data, then applies AI to run validation checks, assign risk scores, and audit spend before payment. The public Autonomous AP REST API (Swagger 2.0, 54 operations) lets ERP and accounting systems such as SAP, Oracle, NetSuite, Coupa, Workday and Microsoft Dynamics push documents into AppZen and retrieve audit results. Authentication is via three API-key headers issued by AppZen Support, with US sandbox and production environments (EU coming soon).
 image: https://api-docs.appzen.com/img/appzen-logo.svg
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: AppZen
 nav: Providers
 network: true
-overview: 'AppZen publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Chart of Accounts API, Custom Data Sets API, Documents API, and 16 more. Tagged areas include Company, Finance, Accounts Payable, Expense Management, and Invoice Processing.
+overview: 'AppZen publishes 19 API contracts indexed on the [APIs.io](https://apis.io/) network, including Chart of Accounts API, Custom Data Sets API, Documents API, and 16 more. Tagged areas include Company, Finance, Accounts Payable, Expense Management, and Invoice Processing.
 
 
-  AppZen''s developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, support, engineering blog, and 15 more developer resources.'
+  AppZen''s developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, support, engineering blog, and 16 more developer resources.'
 random_paper: 16
 score:
   band: thin
-  composite: 37.9
+  composite: 38.0
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
@@ -344,8 +348,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

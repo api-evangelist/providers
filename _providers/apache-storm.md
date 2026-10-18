@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.3
-  scored_at: '2026-10-04'
+  score: 15.4
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 2
@@ -116,6 +116,21 @@ collections:
   name: Apache Storm UI REST API
   slug: open-apache-storm
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/apache-storm/refs/heads/main/plans/apache-storm-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/apache-storm-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/apache-storm/refs/heads/main/rate-limits/apache-storm-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/apache-storm-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/apache-storm/refs/heads/main/finops/apache-storm-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/apache-storm-finops.yml
 - group: company
   title: ''
   type: Website
@@ -199,9 +214,13 @@ features:
 - description: Topology components written in Java, Python, Ruby, and other languages via Multilang protocol.
   name: Multi-Language Support
 finops:
-- name: Apache Storm Finops
+- has_sources: false
+  method: generated
+  name: Apache Storm Finops
+  primary_unit: ''
   service_category: API
   slug: apache-storm-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/apache-storm.png
 integrations:
 - description: Kafka Spout for consuming messages from Kafka topics as Storm data sources.
@@ -219,10 +238,10 @@ modified: '2026-05-19'
 name: Apache Storm
 nav: Providers
 network: true
-overview: 'Apache Storm publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Cluster API, Drpc API, History API, and 5 more. Tagged areas include Distributed Computing, Event Processing, Real-Time, Stream Processing, and Open Source.
+overview: 'Apache Storm is listed with 8 APIs on the [APIs.io](https://apis.io/) network, including Cluster API, Drpc API, History API, and 5 more. Tagged areas include Distributed Computing, Event Processing, Real-Time, Stream Processing, and Open Source.
 
 
-  Apache Storm''s developer surface includes documentation, developer portal, getting-started guide, release notes, support, engineering blog, and 10 more developer resources.'
+  Apache Storm''s developer surface includes documentation, developer portal, getting-started guide, release notes, support, engineering blog, and 13 more developer resources.'
 plans:
 - name: Apache Storm Plans Pricing
   plan_count: 3
@@ -234,17 +253,17 @@ rate_limits:
   slug: apache-storm-rate-limits
 score:
   band: thin
-  composite: 37.5
+  composite: 36.2
   coverage:
     artifact_dirs: 10
-    catalog_earned: 44.0
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 71.0
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.3
   facets:
-    access_clarity: 26.3
+    access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 33.7
     developer_ergonomics: 45.2
@@ -267,8 +286,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

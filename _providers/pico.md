@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The Pico API let developers build custom workflows and integrations on the Pico creator platform — including searching and managing contacts across an account. Every request authenticated with an X-Ap
@@ -41,6 +41,16 @@ apis:
   slug: pico-api
 artifact_total: 5
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/pico/refs/heads/main/plans/pico-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/pico-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/pico/refs/heads/main/rate-limits/pico-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/pico-rate-limits.yml
 - group: company
   title: ''
   type: Website
@@ -96,10 +106,10 @@ modified: '2026-08-13'
 name: Pico
 nav: Providers
 network: true
-overview: 'Pico publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Creator Economy, CRM, Membership, and Payments.
+overview: 'Pico is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Creator Economy, CRM, Membership, and Payments.
 
 
-  Pico''s developer surface includes support, authentication, and 5 more developer resources.'
+  Pico''s developer surface includes support, authentication, and 7 more developer resources.'
 plans:
 - name: Pico Plans Pricing
   plan_count: 0
@@ -113,7 +123,7 @@ score:
   band: minimal
   composite: 0.0
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -135,8 +145,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 17.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

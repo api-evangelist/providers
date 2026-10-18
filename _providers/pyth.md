@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 46.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -231,7 +231,7 @@ modified: '2026-07-20'
 name: Pyth
 nav: Providers
 network: true
-overview: 'Pyth publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Price Differences API, Price Feeds API, Rest API, and 2 more. Tagged areas include Company, Crypto Web3, Oracle, Price Feeds, and Market Data.
+overview: 'Pyth publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Price Differences API, Price Feeds API, Rest API, and 2 more. Tagged areas include Company, Web3, Oracle, Price Feeds, and Market Data.
 
 
   Pyth''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, changelog, authentication, and 21 more developer resources.'
@@ -240,7 +240,7 @@ score:
   band: developing
   composite: 46.8
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -271,8 +271,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 23.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -291,14 +291,13 @@ security:
 slug: pyth
 tags:
 - Company
-- Crypto Web3
+- Web3
 - Oracle
 - Price Feeds
 - Market Data
 - DeFi
 - Blockchain
 - Financial Data
-- Web3
 - Cryptocurrency
 website: https://pyth.network
 ---

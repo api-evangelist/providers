@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.levistrauss.com/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/levi-strauss/refs/heads/main/security/levi-strauss-domain-security.yml
   title: ''
@@ -57,7 +61,7 @@ created: '2026-03-24'
 description: Levi Strauss & Co. is one of the world's largest brand-name apparel companies and a global leader in jeanswear, designing and marketing jeans, casual wear, and related accessories under the Levi's, Dockers, Signature, and Denizen brands. The company does not publish a public developer API program.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/levi-strauss.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-10-06'
 name: Levi Strauss
 nav: Providers
 network: true
@@ -104,8 +108,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

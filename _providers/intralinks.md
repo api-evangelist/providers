@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -118,6 +118,25 @@ collections:
   name: Intralinks Authentication Workspaces API
   slug: open-intralinks-workspaces-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/intralinks/refs/heads/main/plans/intralinks-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/intralinks-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/intralinks/refs/heads/main/rate-limits/intralinks-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/intralinks-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/intralinks/refs/heads/main/finops/intralinks-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/intralinks-finops.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.intralinks.com/rss.xml
 - group: company
   title: ''
   type: Website
@@ -165,9 +184,13 @@ common:
 created: '2025-01-01'
 description: Intralinks is a cloud-based virtual data room and secure file sharing platform used for M&A transactions, due diligence, and confidential business collaboration. The platform provides APIs for programmatic access to workspaces, documents, folders, groups, users, and permissions, enabling integration with enterprise document management and deal workflow systems.
 finops:
-- name: Intralinks Finops
+- has_sources: false
+  method: generated
+  name: Intralinks Finops
+  primary_unit: ''
   service_category: API
   slug: intralinks-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/intralinks.png
 json_schemas:
 - name: Intralinks Custom Field
@@ -200,17 +223,17 @@ jsonld:
   property_count: 8
   slug: intralinks-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-10-06'
 name: Intralinks
 nav: Providers
 network: true
-overview: 'Intralinks publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Custom Fields API, Documents API, and 5 more. Tagged areas include Document Management, Secure File Sharing, and Virtual Data Room.
+overview: 'Intralinks publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authentication API, Custom Fields API, Documents API, and 5 more. Tagged areas include Document Management, Secure File Sharing, and Virtual Data Room.
 
 
   The Intralinks catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Intralinks'' developer surface includes authentication, developer portal, documentation, support, getting-started guide, and 5 more developer resources.'
+  Intralinks'' developer surface includes authentication, developer portal, documentation, support, getting-started guide, and 9 more developer resources.'
 plans:
 - name: Intralinks Plans Pricing
   plan_count: 3
@@ -221,9 +244,10 @@ rate_limits:
   name: Intralinks Rate Limits
   slug: intralinks-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Intralinks API Rules
+  name: Intralinks — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -233,17 +257,17 @@ rules:
   slug: intralinks-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 33.4
+  composite: 31.9
   coverage:
     artifact_dirs: 15
-    catalog_earned: 53.3
+    catalog_earned: 50.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 61.8
+    catalog_gap: 64.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 9.8
     contract_quality: 60.8
     developer_ergonomics: 42.9
@@ -263,8 +287,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

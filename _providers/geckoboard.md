@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -146,7 +146,7 @@ modified: '2026-05-11'
 name: Geckoboard
 nav: Providers
 network: true
-overview: 'Geckoboard publishes 3 APIs on the [APIs.io](https://apis.io/) network, including Datasets API, Health API, and 1 more. Tagged areas include Dashboards, Data Visualization, Business Intelligence, KPI Tracking, and Real-Time Reporting.
+overview: 'Geckoboard publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network, including Datasets API, Health API, and 1 more. Tagged areas include Dashboards, Data Visualization, Business Intelligence, KPI Tracking, and Real-Time Reporting.
 
 
   Geckoboard''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 9 more developer resources.'
@@ -155,7 +155,7 @@ score:
   band: thin
   composite: 32.6
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -183,8 +183,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -202,7 +202,7 @@ security:
 - kind: vulnerability-disclosure
   name: Geckoboard Vulnerability Disclosure
   slug: geckoboard-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 - kind: trust-center
   name: Geckoboard Trust Center
   slug: geckoboard-trust-center

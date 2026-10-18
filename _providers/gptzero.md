@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -76,6 +76,14 @@ collections:
   name: GPTZero Batch Documents API
   slug: open-gptzero-documents-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://gptzero.me/news/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://gptzero.me/news/rss/
 - group: company
   title: ''
   type: Website
@@ -218,14 +226,14 @@ created: '2026-07-17'
 description: GPTZero is an AI content detection company whose v2 API analyzes text and uploaded documents to determine whether content was written by a human, by AI, or is a mix of both. The API returns document-, paragraph-, and sentence-level probabilities along with supporting perplexity and burstiness signals, plus asynchronous batch analysis and aggregate reporting. Authentication is via an X-API-Key header, requests are rate limited to 30,000 per hour, and API access is bundled with the Professional plan. GPTZero was surfaced as a portfolio company of Uncork Capital and has been enriched into the API Evangelist network from its public developer surface.
 image: https://gptzero.me/logo.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: GPTZero
 nav: Providers
 network: true
-overview: 'GPTZero publishes 3 APIs on the [APIs.io](https://apis.io/) network: Batch API, Detection API, and Documents API. Tagged areas include Company, Artificial Intelligence, AI Detection, Content Moderation, and Machine Learning.
+overview: 'GPTZero publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Batch API, Detection API, and Documents API. Tagged areas include Company, Artificial Intelligence, AI Detection, Content Moderation, and Machine Learning.
 
 
-  GPTZero''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
+  GPTZero''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, pricing, signup flow, and 25 more developer resources.'
 plans:
 - name: Gptzero Plans
   plan_count: 4
@@ -239,7 +247,7 @@ score:
   band: developing
   composite: 49.2
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 57.0
     catalog_earned_first_party: 20.0
     catalog_gap: 58.0
@@ -270,8 +278,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 22.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

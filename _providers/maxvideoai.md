@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'Remote MCP server (streamable-http, OAuth 2.1) exposing 14 tools to plan, compare and price AI video/image models, prepare an exact quote, approve a single paid generation, and recover results into a '
@@ -187,18 +187,18 @@ coverage:
   reason: no-machine-readable-spec
   state: unreadable
 created: '2026-09-20'
-description: MaxVideoAI is a web application (multi-model AI video production, model comparisons, exact pre‑generation pricing, media library, pay‑as‑you‑go) with an additional remote MCP integration as a surface, not delivered entirely through MCP. This description exceeds two hundred characters to meet the required length.
+description: MaxVideoAI is a web application for multi-model AI video production (model comparisons, exact pre-generation pricing, a media library, pay-as-you-go credits), with a remote MCP integration offered as an additional surface rather than the whole product.
 image: https://raw.githubusercontent.com/camgraphe/maxvideoai-plugin/main/assets/social/github-social-preview.png
 layout: provider
 mcp_servers:
 - description: ''
   name: MaxVideoAI MCP Server
   slug: mcp
-modified: '2026-09-20'
+modified: '2026-10-03'
 name: MaxVideoAI
 nav: Providers
 network: true
-overview: 'MaxVideoAI publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Video Generation, Image Generation, MCP, and Agent-Native.
+overview: 'MaxVideoAI is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Video Generation, Image Generation, MCP, and Agent-Native.
 
 
   MaxVideoAI''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, authentication, changelog, and 25 more developer resources.'
@@ -218,15 +218,15 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: thin
-  composite: 39.2
+  composite: 38.9
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 22
     catalog_earned: 34.0
     catalog_earned_first_party: 0.0
     catalog_gap: 81.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 4.4
+  delta: -0.3
   facets:
     access_clarity: 44.7
     contract_governance: 18.2
@@ -234,24 +234,25 @@ score:
     developer_ergonomics: 66.7
     discoverability: 70.0
     operational_transparency: 36.8
-  previous_composite: 34.8
+  previous_composite: 39.2
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 35.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/maxvideoai/refs/heads/main/screenshots/maxvideoai-2026-10-11T110838.png
 security:
 - kind: authentication
   name: Maxvideoai Authentication
@@ -268,7 +269,6 @@ tags:
 - Image Generation
 - MCP
 - Agent-Native
-- Text-to-Video
 - Image-to-Video
 - Creative Production
 - Pay As You Go

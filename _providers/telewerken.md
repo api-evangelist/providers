@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 4
 common:
@@ -86,9 +86,10 @@ overview: 'Telewerken is profiled on the [APIs.io](https://apis.io/) network. Ta
   Telewerken''s developer surface includes documentation and 5 more developer resources.'
 random_paper: 0
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Telewerken API Rules
+  name: Telewerken — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -129,8 +130,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

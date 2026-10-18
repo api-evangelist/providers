@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Scalable metadata store and coordination service for distributed systems with strong consistency guarantees.
@@ -41,6 +41,21 @@ apis:
   slug: oxia
 artifact_total: 4
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/oxia/refs/heads/main/plans/oxia-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/oxia-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/oxia/refs/heads/main/rate-limits/oxia-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/oxia-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/oxia/refs/heads/main/finops/oxia-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/oxia-finops.yml
 - group: company
   title: ''
   type: Website
@@ -52,16 +67,20 @@ common:
 created: '2026-03-16'
 description: Oxia is a scalable metadata store and coordination service designed for distributed systems, providing strong consistency guarantees and high availability. It is developed by StreamNative as an alternative to ZooKeeper.
 finops:
-- name: Oxia Finops
+- has_sources: false
+  method: generated
+  name: Oxia Finops
+  primary_unit: ''
   service_category: API
   slug: oxia-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/oxia.png
 layout: provider
 modified: '2026-04-28'
 name: Oxia
 nav: Providers
 network: true
-overview: Oxia publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Coordination Service, Distributed Systems, Metadata Store, and Strong Consistency.
+overview: Oxia is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Coordination Service, Distributed Systems, Metadata Store, and Strong Consistency.
 plans:
 - name: Oxia Plans Pricing
   plan_count: 3
@@ -73,17 +92,17 @@ rate_limits:
   slug: oxia-rate-limits
 score:
   band: minimal
-  composite: 9.3
+  composite: 7.8
   coverage:
     artifact_dirs: 5
-    catalog_earned: 36.0
+    catalog_earned: 33.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 79.0
+    catalog_gap: 82.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 9.5
@@ -96,8 +115,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 0.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

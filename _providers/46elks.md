@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -152,16 +152,20 @@ common:
 created: '2026-07-01'
 description: 46elks is a Swedish communications platform as a service (CPaaS) offering a simple HTTP REST API for sending and receiving SMS and MMS, making and receiving voice calls with programmable call actions, provisioning virtual phone numbers, and handling media and recordings. The API uses HTTP Basic authentication with an API username and password, and is billed pay-as-you-go.
 finops:
-- name: 46Elks Finops
+- has_sources: true
+  method: generated
+  name: 46Elks Finops
+  primary_unit: ''
   service_category: Communications
   slug: 46elks-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/46elks.png
 layout: provider
 modified: '2026-07-01'
 name: 46elks
 nav: Providers
 network: true
-overview: '46elks publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Calls API, Media API, MMS API, and 2 more. Tagged areas include CPaaS, SMS, MMS, Voice, and Messaging.
+overview: '46elks publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Calls API, Media API, MMS API, and 2 more. Tagged areas include CPaaS, SMS, MMS, Voice, and Messaging.
 
 
   46elks'' developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
@@ -175,23 +179,23 @@ rate_limits:
   name: 46Elks Rate Limits
   slug: 46elks-rate-limits
 score:
-  band: thin
-  composite: 31.9
+  band: emerging
+  composite: 24.9
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 58.0
+    artifact_dirs: 13
+    catalog_earned: 42.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.0
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.0
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 46.7
     developer_ergonomics: 32.1
     discoverability: 66.1
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -214,9 +218,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 10.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

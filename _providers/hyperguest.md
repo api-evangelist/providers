@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: HyperGuest's unified connectivity API for travel demand partners and accommodation providers to exchange real-time availability, rates, and bookings directly with hotels. Access is partner-provisioned
@@ -109,7 +109,7 @@ modified: '2026-07-19'
 name: Hyperguest
 nav: Providers
 network: true
-overview: 'Hyperguest publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Hospitality, Hotels, Travel, and Distribution.
+overview: 'Hyperguest is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Hospitality, Hotels, Travel, and Distribution.
 
 
   Hyperguest''s developer surface includes signup flow, support, engineering blog, and 11 more developer resources.'
@@ -118,7 +118,7 @@ score:
   band: emerging
   composite: 21.8
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -147,8 +147,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 33.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -27,14 +27,14 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: false
+    protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 11.2
-  scored_at: '2026-10-04'
+  score: 14.7
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Enterprise reporting API that returns test and run analytics and raw test-result data from Cypress Cloud. Requests are HTTP GET with an organization API key passed as the token query parameter, and da
@@ -176,7 +176,7 @@ modified: '2026-09-19'
 name: Cypress.io
 nav: Providers
 network: true
-overview: 'Cypress.io publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Testing, End-to-End Testing, Test Automation, and Quality Assurance.
+overview: 'Cypress.io is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Testing, End-to-End Testing, Test Automation, and Quality Assurance.
 
 
   Cypress.io''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 21 more developer resources.'
@@ -185,7 +185,7 @@ score:
   band: thin
   composite: 37.8
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -208,8 +208,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

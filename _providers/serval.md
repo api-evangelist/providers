@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 45.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://public.api.serval.com
@@ -55,6 +55,10 @@ collections:
   name: API Spec Auth API API
   slug: open-serval-auth-api-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.serval.com/feed.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/serval/refs/heads/main/security/serval-domain-security.yml
   title: ''
@@ -154,17 +158,17 @@ mcp_servers:
 - description: Remote MCP server at public.api.serval.com over HTTP; 4 tools listed.
   name: Serval MCP Server
   slug: serval
-modified: '2026-09-16'
+modified: '2026-10-06'
 name: Serval
 nav: Providers
 network: true
-overview: 'Serval publishes 1 API on the [APIs.io](https://apis.io/) network: Auth API. Tagged areas include Company, ITSM, Help Desk, Workflow Automation, and AI Agents.
+overview: 'Serval publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Auth API. Tagged areas include Company, ITSM, Help Desk, Workflow Automation, and AI Agents.
 
 
   The Serval catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Serval''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 14 more developer resources.'
+  Serval''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 15 more developer resources.'
 random_paper: 15
 scopes:
 - name: Serval Scopes
@@ -175,7 +179,7 @@ score:
   band: developing
   composite: 49.5
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -204,8 +208,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -231,7 +235,7 @@ tags:
 - Help Desk
 - Workflow Automation
 - AI Agents
-- Access Management
+- Identity and Access Management
 - Employee Support
 - Ticketing
 website: https://www.serval.com/

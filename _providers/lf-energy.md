@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Programmatic access to LF Energy project resources, grid data APIs, and energy sector tools.
@@ -41,6 +41,21 @@ apis:
   slug: lf-energy-api
 artifact_total: 5
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/lf-energy/refs/heads/main/plans/lf-energy-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/lf-energy-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/lf-energy/refs/heads/main/rate-limits/lf-energy-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/lf-energy-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/lf-energy/refs/heads/main/finops/lf-energy-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/lf-energy-finops.yml
 - group: company
   title: ''
   type: Website
@@ -77,19 +92,23 @@ common:
 created: '2026-03-16'
 description: LF Energy is a Linux Foundation project building open source technology solutions for the power grid and energy sector. Launched in 2018, it accelerates the energy transition through open source collaboration and hosts projects for grid modernization, flexibility, and decarbonization.
 finops:
-- name: Lf Energy Finops
+- has_sources: false
+  method: generated
+  name: Lf Energy Finops
+  primary_unit: ''
   service_category: API
   slug: lf-energy-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lf-energy.png
 layout: provider
 modified: '2026-04-28'
 name: LF Energy
 nav: Providers
 network: true
-overview: 'LF Energy publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Linux Foundation, Power Grid, and Sustainability.
+overview: 'LF Energy is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Linux Foundation, Power Grid, and Sustainability.
 
 
-  LF Energy''s developer surface includes documentation, engineering blog, and 6 more developer resources.'
+  LF Energy''s developer surface includes documentation, engineering blog, and 9 more developer resources.'
 plans:
 - name: Lf Energy Plans Pricing
   plan_count: 3
@@ -101,17 +120,17 @@ rate_limits:
   slug: lf-energy-rate-limits
 score:
   band: minimal
-  composite: 10.8
+  composite: 9.3
   coverage:
     artifact_dirs: 7
-    catalog_earned: 36.0
+    catalog_earned: 33.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 79.0
+    catalog_gap: 82.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
@@ -124,8 +143,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 4.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: Symetra's Benefits Administration API enables HR platforms, benefits administrators, and technology partners to integrate with Symetra's group benefits products. The API supports automated data exchan
@@ -47,6 +47,21 @@ apis:
   slug: symetra-life-insurance-api
 artifact_total: 9
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/symetra-financial/refs/heads/main/plans/symetra-financial-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/symetra-financial-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/symetra-financial/refs/heads/main/rate-limits/symetra-financial-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/symetra-financial-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/symetra-financial/refs/heads/main/finops/symetra-financial-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/symetra-financial-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/symetra-financial/refs/heads/main/security/symetra-financial-trust-center.yml
   title: ''
@@ -100,9 +115,13 @@ common:
 created: '2026-05-03'
 description: Symetra Financial Corporation is a diversified financial services company headquartered in Bellevue, Washington, providing employee benefits, annuities, and life insurance products to individuals, families, and businesses through independent advisors and financial institutions. A subsidiary of Sumitomo Life Insurance Company since 2016, Symetra offers medical stop-loss insurance, group life and disability income protection, supplemental health coverage, fixed and indexed annuities, registered index-linked annuities, income annuities, term life, and permanent life insurance. The company offers API and EDI-based data integrations for benefits administrators and HR platforms.
 finops:
-- name: Symetra Financial Finops
+- has_sources: true
+  method: generated
+  name: Symetra Financial Finops
+  primary_unit: ''
   service_category: Insurance / Financial Services
   slug: symetra-financial-finops
+  template: false
 image: https://www.symetra.com/favicon.ico
 jsonld:
 - class_count: 3
@@ -114,13 +133,13 @@ modified: '2026-05-03'
 name: Symetra Financial
 nav: Providers
 network: true
-overview: 'Symetra Financial publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Annuities, Benefits, Employee Benefits, Financial Services, and Insurance.
+overview: 'Symetra Financial is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Annuities, Benefits, Employee Benefits, Financial Services, and Insurance.
 
 
   The Symetra Financial catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Symetra Financial''s developer surface includes engineering blog and 11 more developer resources.'
+  Symetra Financial''s developer surface includes engineering blog and 14 more developer resources.'
 plans:
 - name: Symetra Financial Plans Pricing
   plan_count: 1
@@ -148,17 +167,17 @@ rate_limits:
   slug: symetra-financial-rate-limits
 score:
   band: emerging
-  composite: 21.6
+  composite: 20.0
   coverage:
     artifact_dirs: 11
-    catalog_earned: 55.0
+    catalog_earned: 52.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 60.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 38.2
+    access_clarity: 30.3
     contract_governance: 0.0
     contract_quality: 10.7
     developer_ergonomics: 16.7
@@ -178,13 +197,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 17.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/symetra-financial/refs/heads/main/screenshots/symetra-financial-2026-10-11T193139.png
 security:
 - kind: domain-security
   name: Symetra Financial Domain Security

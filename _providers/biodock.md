@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://app.biodock.ai/api/external
@@ -75,6 +75,10 @@ collections:
   name: Biodock Public Analysis Jobs Pipelines API
   slug: open-biodock-pipelines-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.biodock.ai/rss/
 - group: company
   title: ''
   type: Website
@@ -171,18 +175,18 @@ created: '2026-07-17'
 description: Biodock is an AI platform that makes deep learning easy to train, run, and interpret on biological and microscopy images, dramatically accelerating R&D image analysis. Researchers upload microscopy images, label and train fully-automated deep AI models in a visual labeler (no code required), and run those models across large datasets to segment, classify, and quantify objects such as cells - producing results comparable to flow cytometry along with downloadable object-level and aggregate data. Biodock is used by academic labs and Fortune 500 biopharma and life-science organizations, and is SOC 2 Type II and ISO 27001 certified. Beyond the visual app, Biodock exposes a public REST API (beta) for uploading files to the Biodock Filesystem, submitting analysis jobs against published pipelines, tracking job progress, and downloading results and segmentation masks - so analysis can be scripted and integrated into internal tools and imaging pipelines.
 image: https://cdn.prod.website-files.com/63213d26df394911486f698e/637bb41c1cac3a4ded2e9f23_SEOImage.jpg
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Biodock
 nav: Providers
 network: true
-overview: 'Biodock publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Analysis Jobs API, Auth API, Files API, and 1 more. Tagged areas include Company, Artificial Intelligence, Machine Learning, Image Analysis, and Microscopy.
+overview: 'Biodock publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Analysis Jobs API, Auth API, Files API, and 1 more. Tagged areas include Company, Artificial Intelligence, Machine Learning, Image Analysis, and Microscopy.
 
 
-  Biodock''s developer surface includes documentation, signup flow, engineering blog, support, and 17 more developer resources.'
+  Biodock''s developer surface includes documentation, signup flow, engineering blog, support, and 18 more developer resources.'
 random_paper: 5
 score:
   band: developing
-  composite: 47.7
+  composite: 47.8
   coverage:
     artifact_dirs: 17
     catalog_earned: 37.0
@@ -190,7 +194,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 43.4
     contract_governance: 4.5
@@ -214,8 +218,8 @@ score:
     regime: Health
     regime_id: health
     score: 30.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 15.5
-  scored_at: '2026-10-04'
+  score: 13.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: A GraphQL API generated from your TinaCMS schema that serves Markdown and JSON content stored in Git repositories. Available locally via the tinacms dev CLI (localhost:4001) or hosted via TinaCloud wi
@@ -97,9 +97,13 @@ common:
 created: '2026-06-13'
 description: TinaCMS is an open-source, Git-backed headless CMS that provides a GraphQL Content API for managing Markdown, MDX, and JSON content stored in Git repositories. It enables real-time visual editing for Next.js, Astro, and other frameworks, with TinaCloud offering a hosted Data Layer that indexes and serves content via per-project GraphQL endpoints with editorial workflow, media management, and authentication support.
 finops:
-- name: Tinacms Finops
+- has_sources: false
+  method: generated
+  name: Tinacms Finops
+  primary_unit: ''
   service_category: ''
   slug: tinacms-finops
+  template: true
 graphqls:
 - description: TinaCMS generates a GraphQL Content API from your schema definitions in `tina/config.ts`. The API exposes every content collection you define as both single-document queries (`<collection>(relativePat
   name: TinaCMS GraphQL API
@@ -110,7 +114,7 @@ modified: '2026-06-13'
 name: TinaCMS
 nav: Providers
 network: true
-overview: 'TinaCMS publishes 1 API on the [APIs.io](https://apis.io/) network: GraphQL Content API. Tagged areas include CMS, Headless CMS, GraphQL, Git, and Content Management.
+overview: 'TinaCMS is listed with 1 API on the [APIs.io](https://apis.io/) network: GraphQL Content API. Tagged areas include CMS, Headless CMS, GraphQL, Git, and Content Management.
 
 
   TinaCMS''s developer surface includes documentation, engineering blog, pricing, and 9 more developer resources.'
@@ -124,23 +128,23 @@ rate_limits:
   name: Tinacms Rate Limits
   slug: tinacms-rate-limits
 score:
-  band: thin
-  composite: 30.7
+  band: emerging
+  composite: 22.4
   coverage:
     artifact_dirs: 9
-    catalog_earned: 61.6
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.4
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 46.8
+    access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 34.0
     developer_ergonomics: 11.9
     discoverability: 66.1
-    operational_transparency: 33.7
+    operational_transparency: 13.2
   previous_composite: 30.7
   regulatory:
     applies: true
@@ -148,9 +152,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 55.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -510,9 +510,13 @@ features:
 - Config policies for governance (Scale)
 - SOC 2, FedRAMP Moderate (Scale)
 finops:
-- name: Circleci Finops
+- has_sources: true
+  method: generated
+  name: Circleci Finops
+  primary_unit: ''
   service_category: CI/CD
   slug: circleci-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/circleci.png
 json_schemas:
 - name: ArtifactList
@@ -782,7 +786,7 @@ modified: '2026-09-16'
 name: CircleCI
 nav: Providers
 network: true
-overview: 'CircleCI publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Self-Hosted Runner API, Webhooks, Artifact API, and 15 more. Tagged areas include CI/CD, Continuous Integration, Continuous Deployment, DevOps, and Pipelines.
+overview: 'CircleCI publishes 18 API contracts indexed on the [APIs.io](https://apis.io/) network, including Self-Hosted Runner API, Webhooks, Artifact API, and 15 more. Tagged areas include CI/CD, Continuous Integration, Continuous Deployment, DevOps, and Pipelines.
 
 
   The CircleCI catalog on APIs.io includes 2 event-driven AsyncAPI specifications, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -799,10 +803,11 @@ rate_limits:
   name: Circleci Rate Limits
   slug: circleci-rate-limits
 rules:
-- effective_rule_count: 32
+- authorship: generated
+  effective_rule_count: 32
   extends:
   - spectral:asyncapi
-  name: CircleCI API Rules
+  name: CircleCI — asyncapi rules
   rule_count: 5
   severity_counts:
     error: 1
@@ -810,9 +815,10 @@ rules:
     info: 0
     warn: 4
   slug: circleci-asyncapi-spectral-rules
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: CircleCI API Rules
+  name: CircleCI — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -820,7 +826,8 @@ rules:
     info: 1
     warn: 5
   slug: circleci-jsonschema-spectral-rules
-- effective_rule_count: 51
+- authorship: unmarked
+  effective_rule_count: 51
   extends:
   - spectral:oas
   name: CircleCI API Rules
@@ -832,24 +839,24 @@ rules:
     warn: 5
   slug: circleci-rules
 score:
-  band: exemplar
-  composite: 67.6
+  band: strong
+  composite: 66.1
   coverage:
-    artifact_dirs: 33
-    catalog_earned: 72.0
+    artifact_dirs: 34
+    catalog_earned: 69.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 43.0
+    catalog_gap: 46.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 18.0
+  delta: -3.9
   facets:
-    access_clarity: 69.7
+    access_clarity: 61.8
     contract_governance: 31.8
     contract_quality: 69.5
     developer_ergonomics: 62.5
     discoverability: 76.7
     operational_transparency: 60.5
-  previous_composite: 49.6
+  previous_composite: 70.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -866,9 +873,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: rising
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: flat
   upsert:
     applies: true
     score: 22.2

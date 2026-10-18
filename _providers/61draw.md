@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -53,13 +53,13 @@ modified: '2026-07-17'
 name: 61draw
 nav: Providers
 network: true
-overview: 61draw is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, EdTech, Online Learning, and Art.
+overview: 61draw is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, EdTech, E-Learning, and Art.
 random_paper: 5
 score:
   band: minimal
   composite: 2.9
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -87,8 +87,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -105,7 +105,7 @@ tags:
 - Company
 - Education
 - EdTech
-- Online Learning
+- E-Learning
 - Art
 - Children
 - Consumer

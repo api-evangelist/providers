@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 16.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'Workspace-scoped REST API (the "luminork" server) for automating System Initiative: create and apply change sets, model/discover/import components, run functions, and manage actions and secrets. Beare'
@@ -159,7 +159,7 @@ modified: '2026-07-21'
 name: System Initiative
 nav: Providers
 network: true
-overview: 'System Initiative publishes 1 API on the [APIs.io](https://apis.io/) network: Public API. Tagged areas include Company, Developer Tools, Infrastructure Automation, DevOps, and Infrastructure as Code.
+overview: 'System Initiative is listed with 1 API on the [APIs.io](https://apis.io/) network: Public API. Tagged areas include Company, Developer Tools, Infrastructure Automation, DevOps, and Infrastructure as Code.
 
 
   System Initiative''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, authentication, and 18 more developer resources.'
@@ -195,8 +195,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

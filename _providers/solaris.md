@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The Solaris REST API for embedded banking, cards, payments (SEPA), KYC/KYB identity, and lending. OAuth2 client-credentials auth; HMAC-signed webhooks.
@@ -45,6 +45,10 @@ asyncapis:
   name: Solaris Webhooks
   slug: solaris-webhooks
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.solarisgroup.com/blog/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/solaris/refs/heads/main/security/solaris-domain-security.yml
   title: ''
@@ -162,17 +166,17 @@ created: '2026-07-17'
 description: 'Solaris SE is a Berlin-based embedded-finance / Banking-as-a-Service platform operating on a full German CRR commercial banking license. Its REST API lets partners embed regulated banking into their own products: digital banking with local German IBANs and SEPA credit transfers, direct debit and instant payments; debit and credit cards with 3D Secure, tokenization and spending controls; KYC/KYB identity verification (Bankident, VideoIdent, AutoIdent, Fourthline); and lending products including overdrafts, Splitpay and consumer and business loans. The API uses OAuth2 client-credentials bearer tokens, HMAC-SHA256-signed webhooks for ~80 real-time events, page-number pagination, and a structured Money object, and is certified under ISO/IEC 27001, PCI DSS 4.0, DORA and GDPR.'
 image: https://docs.solarisgroup.com/static/solaris-signet-e6f33da6ebaffa690232d6cc1f63ee39.svg
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Solaris
 nav: Providers
 network: true
-overview: 'Solaris publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Banking, Banking as a Service, and Embedded Finance.
+overview: 'Solaris is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Banking, Banking as a Service, and Embedded Finance.
 
 
   The Solaris catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Solaris'' developer surface includes documentation, API reference, getting-started guide, support, changelog, authentication, sandbox, and 18 more developer resources.'
+  Solaris'' developer surface includes engineering blog, documentation, API reference, getting-started guide, support, changelog, authentication, and 19 more developer resources.'
 random_paper: 17
 scopes:
 - name: Solaris Scopes
@@ -181,20 +185,20 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: developing
-  composite: 45.5
+  composite: 46.1
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 18.4
     contract_governance: 18.2
     contract_quality: 39.0
-    developer_ergonomics: 61.9
+    developer_ergonomics: 64.3
     discoverability: 73.2
     operational_transparency: 50.0
   jurisdiction:
@@ -223,8 +227,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 44.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

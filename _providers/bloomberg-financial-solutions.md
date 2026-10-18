@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: Core Bloomberg API providing real-time and reference data access for financial applications across trading, risk, analytics, and compliance workflows.
@@ -47,6 +47,21 @@ apis:
   slug: aim-api
 artifact_total: 16
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/bloomberg-financial-solutions/refs/heads/main/plans/bloomberg-financial-solutions-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/bloomberg-financial-solutions-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/bloomberg-financial-solutions/refs/heads/main/rate-limits/bloomberg-financial-solutions-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/bloomberg-financial-solutions-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/bloomberg-financial-solutions/refs/heads/main/finops/bloomberg-financial-solutions-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/bloomberg-financial-solutions-finops.yml
 - group: company
   title: ''
   type: Website
@@ -98,19 +113,23 @@ features:
 - description: Regulatory data and reporting for MiFID II, EMIR, and other frameworks.
   name: Regulatory Reporting
 finops:
-- name: Bloomberg Financial Solutions Finops
+- has_sources: false
+  method: generated
+  name: Bloomberg Financial Solutions Finops
+  primary_unit: ''
   service_category: API
   slug: bloomberg-financial-solutions-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bloomberg-financial-solutions.png
 layout: provider
 modified: '2026-09-16'
 name: Bloomberg Financial Solutions
 nav: Providers
 network: true
-overview: 'Bloomberg Financial Solutions publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Solutions, Market Data, Analytics, Trading, and Risk Management.
+overview: 'Bloomberg Financial Solutions is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Solutions, Market Data, Analytics, Trading, and Risk Management.
 
 
-  Bloomberg Financial Solutions'' developer surface includes developer portal, documentation, support, and 6 more developer resources.'
+  Bloomberg Financial Solutions'' developer surface includes developer portal, documentation, support, and 9 more developer resources.'
 plans:
 - name: Bloomberg Financial Solutions Plans Pricing
   plan_count: 3
@@ -122,17 +141,17 @@ rate_limits:
   slug: bloomberg-financial-solutions-rate-limits
 score:
   band: emerging
-  composite: 19.4
+  composite: 17.8
   coverage:
     artifact_dirs: 6
-    catalog_earned: 44.0
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 71.0
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 36.8
+    access_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 23.8
@@ -145,8 +164,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 18.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

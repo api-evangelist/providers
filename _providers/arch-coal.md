@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Machine-readable filing data for Core Natural Resources is available from the U.S. Securities and Exchange Commission, not from the company. The SEC EDGAR submissions API returns the full filing histo
@@ -41,6 +41,21 @@ apis:
   slug: sec-edgar-filings
 artifact_total: 18
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/arch-coal/refs/heads/main/plans/arch-coal-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/arch-coal-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/arch-coal/refs/heads/main/rate-limits/arch-coal-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/arch-coal-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/arch-coal/refs/heads/main/finops/arch-coal-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/arch-coal-finops.yml
 - group: company
   title: ''
   type: Website
@@ -110,9 +125,13 @@ features:
 - description: Quarterly earnings, production and sales volume reporting, and SEC filings published as HTML and PDF through the investor relations portal and EDGAR.
   name: SEC Filings and Investor Reporting
 finops:
-- name: Arch Coal Finops
+- has_sources: true
+  method: generated
+  name: Arch Coal Finops
+  primary_unit: ''
   service_category: Industrial / Mining
   slug: arch-coal-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/arch-coal.png
 integrations:
 - description: All filings for CIK 0001710366 are available through EDGAR and the SEC's public JSON APIs at data.sec.gov.
@@ -124,10 +143,10 @@ modified: '2026-07-25'
 name: Arch Coal
 nav: Providers
 network: true
-overview: 'Arch Coal publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Mining, Coal, Metallurgical Coal, Thermal Coal, and Energy.
+overview: 'Arch Coal is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Mining, Coal, Metallurgical Coal, Thermal Coal, and Energy.
 
 
-  Arch Coal''s developer surface includes developer portal, product news, and 11 more developer resources.'
+  Arch Coal''s developer surface includes developer portal, product news, and 14 more developer resources.'
 plans:
 - name: Arch Coal Plans Pricing
   plan_count: 1
@@ -155,17 +174,17 @@ rate_limits:
   slug: arch-coal-rate-limits
 score:
   band: emerging
-  composite: 18.3
+  composite: 16.7
   coverage:
     artifact_dirs: 9
-    catalog_earned: 39.0
+    catalog_earned: 36.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 76.0
+    catalog_gap: 79.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 34.2
+    access_clarity: 26.3
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 26.2
@@ -185,8 +204,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 11.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

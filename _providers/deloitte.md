@@ -27,16 +27,31 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 5
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/deloitte/refs/heads/main/plans/deloitte-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/deloitte-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/deloitte/refs/heads/main/rate-limits/deloitte-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/deloitte-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/deloitte/refs/heads/main/finops/deloitte-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/deloitte-finops.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -135,9 +150,13 @@ description: 'Deloitte is one of the Big Four professional services organization
   Revenue Advantage, Agentic Marketing Cloud, CreativEdge, Blueprint, Content Studios, and TrustID. The organization serves six industries divided into twenty sectors: Consumer; Energy, Resources & Industrials; Financial Services; Government & Public Services; Life Sciences & Health Care; and Technology, Media & Telecommunications. Deloitte Insights is the organization''s research-publishing surface, organized into eight research centers — Cross-Industry, Economics, Consumer, Energy & Industrials, Financial Services, Government & Public Services, Life Sciences & Health Care, and Tech, Media & Telecom — producing flagship series including Tech Trends, Global Human Capital Trends, Digital Media Trends, TMT Predictions, FSI Predictions, the Weekly Global Economic Outlook, and the annual Industry Outlooks. The Deloitte AI Institute drives applied-AI research and points of view. Deloitte does not publish a public developer API or open developer portal at the corporate level. The Deloitte US Consulting
   GitHub organization is small (5 visible repositories, mostly archived upstream forks; the original artifact is `beacon`, a first-party web-analytics packaging library in TypeScript). Reader-facing distribution flows through MyDeloitte (personalized content + newsletter subscriptions), Dbriefs (live webcasts with CPE credit), the Deloitte Insights Magazine, and the YouTube channel; no public RSS index page was discoverable on www.deloitte.com at the path published in legacy archives.'
 finops:
-- name: Deloitte Finops
+- has_sources: true
+  method: generated
+  name: Deloitte Finops
+  primary_unit: ''
   service_category: Professional Services
   slug: deloitte-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/deloitte.png
 jsonld:
 - class_count: 45
@@ -155,7 +174,7 @@ overview: 'Deloitte is profiled on the [APIs.io](https://apis.io/) network. Tagg
   The Deloitte catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Deloitte''s developer surface includes YouTube channel, legal docs, and 21 more developer resources.'
+  Deloitte''s developer surface includes YouTube channel, legal docs, and 24 more developer resources.'
 plans:
 - name: Deloitte Plans Pricing
   plan_count: 2
@@ -167,22 +186,22 @@ rate_limits:
   slug: deloitte-rate-limits
 score:
   band: emerging
-  composite: 25.0
+  composite: 19.6
   coverage:
-    artifact_dirs: 8
-    catalog_earned: 52.4
+    artifact_dirs: 9
+    catalog_earned: 39.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 62.6
+    catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.4
   facets:
-    access_clarity: 45.3
+    access_clarity: 23.7
     contract_governance: 0.0
     contract_quality: 10.7
     developer_ergonomics: 0.0
     discoverability: 48.2
-    operational_transparency: 40.0
+    operational_transparency: 26.3
   open_source:
     applies: true
     score: 50.0
@@ -193,9 +212,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

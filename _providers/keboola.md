@@ -12,6 +12,7 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -27,21 +28,21 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: partial
-    protected_resource_metadata: false
-    rate_limit_signal: documented
+    protected_resource_metadata: verified
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 38.4
-  scored_at: '2026-10-04'
+  score: 40.1
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 376
-  human_in_the_loop: 13
+- acting_count: 192
+  human_in_the_loop: 9
   name: Keboola Agentic Access
-  operation_count: 631
+  operation_count: 327
   slug: keboola-agentic-access
-  summary_line: 631 operations · 376 acting · 13 human-in-the-loop
+  summary_line: 327 operations · 192 acting · 9 human-in-the-loop
 api_count: 14
 apis:
 - baseURL: https://connection.keboola.com/v2/storage
@@ -709,9 +710,13 @@ examples:
   name: Vault Api Healthcheck Response 200
   slug: vault-api-healthCheck-response-200
 finops:
-- name: Keboola Finops
+- has_sources: false
+  method: generated
+  name: Keboola Finops
+  primary_unit: ''
   service_category: ''
   slug: keboola-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/keboola.png
 json_schemas:
 - name: AddMaintainerAdministratorRequest
@@ -1820,7 +1825,7 @@ modified: '2026-09-16'
 name: Keboola
 nav: Providers
 network: true
-overview: 'Keboola publishes 49 APIs on the [APIs.io](https://apis.io/) network, including Actions API, Admin Apps API, Admin Stacks API, and 46 more. Tagged areas include Data Platform, ETL, ELT, Data Pipeline, and Data Storage.
+overview: 'Keboola publishes 49 API contracts indexed on the [APIs.io](https://apis.io/) network, including Actions API, Admin Apps API, Admin Stacks API, and 46 more. Tagged areas include Data Platform, ETL, ELT, Data Pipeline, and Data Storage.
 
 
   The Keboola catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -1837,9 +1842,10 @@ rate_limits:
   name: Keboola Rate Limits
   slug: keboola-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Keboola API Rules
+  name: Keboola — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1849,17 +1855,17 @@ rules:
   slug: keboola-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 42.6
+  composite: 41.1
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 62.3
+    artifact_dirs: 19
+    catalog_earned: 59.3
     catalog_earned_first_party: 8.0
-    catalog_gap: 52.8
+    catalog_gap: 55.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 47.4
+    access_clarity: 39.5
     contract_governance: 9.8
     contract_quality: 54.0
     developer_ergonomics: 31.0
@@ -1880,8 +1886,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

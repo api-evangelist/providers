@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.5
-  scored_at: '2026-10-04'
+  score: 26.6
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 148
   human_in_the_loop: 0
@@ -226,9 +226,13 @@ examples:
   name: University Of Geneva Orgunit Response Example
   slug: university-of-geneva-orgunit-response-example
 finops:
-- name: University Of Geneva Finops
+- has_sources: true
+  method: generated
+  name: University Of Geneva Finops
+  primary_unit: ''
   service_category: Education
   slug: university-of-geneva-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/university-of-geneva.png
 json_schemas:
 - name: Yareta Archival Information Package (AIP)
@@ -263,7 +267,7 @@ modified: '2026-09-01'
 name: University of Geneva
 nav: Providers
 network: true
-overview: 'University of Geneva publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Yareta Access API, Yareta Ingest API, Yareta OAI-PMH Provider API, and 8 more. Tagged areas include Education, Higher Education, University, Public Research University, and Open Science.
+overview: 'University of Geneva publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Yareta Access API, Yareta Ingest API, Yareta OAI-PMH Provider API, and 8 more. Tagged areas include Education, Higher Education, University, Public Research University, and Open Science.
 
 
   The University of Geneva catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -280,9 +284,10 @@ rate_limits:
   name: University Of Geneva Rate Limits
   slug: university-of-geneva-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: University of Geneva API Rules
+  name: University of Geneva — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -290,7 +295,8 @@ rules:
     info: 2
     warn: 4
   slug: university-of-geneva-jsonschema-spectral-rules
-- effective_rule_count: 7
+- authorship: unmarked
+  effective_rule_count: 7
   extends: []
   name: University of Geneva API Rules
   rule_count: 7
@@ -301,23 +307,23 @@ rules:
     warn: 4
   slug: university-of-geneva-rules
 score:
-  band: thin
-  composite: 31.9
+  band: emerging
+  composite: 25.8
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 74.2
+    artifact_dirs: 21
+    catalog_earned: 60.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 40.8
+    catalog_gap: 54.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -2.1
+  delta: -6.1
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 23.5
     contract_quality: 31.8
     developer_ergonomics: 39.3
     discoverability: 57.1
-    operational_transparency: 24.2
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -326,7 +332,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 34.0
+  previous_composite: 31.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -341,9 +347,9 @@ score:
     regime: Education & Research
     regime_id: education
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

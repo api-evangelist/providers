@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://api.zego.com
@@ -143,7 +143,7 @@ modified: '2026-07-21'
 name: Zego
 nav: Providers
 network: true
-overview: 'Zego publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Customer Integration API, Customers API, Occupations API, and 2 more. Tagged areas include Company, Insurance, Insurtech, Motor Insurance, and Gig Economy.
+overview: 'Zego publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Customer Integration API, Customers API, Occupations API, and 2 more. Tagged areas include Company, Insurance, Insurtech, Auto Insurance, and Gig Economy.
 
 
   The Zego catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -184,8 +184,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 22.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -203,13 +203,13 @@ security:
 - kind: vulnerability-disclosure
   name: Zego Vulnerability Disclosure
   slug: zego-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 slug: zego
 tags:
 - Company
 - Insurance
 - Insurtech
-- Motor Insurance
+- Auto Insurance
 - Gig Economy
 - Telematics
 - Fleet Insurance

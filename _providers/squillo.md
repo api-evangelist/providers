@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.5
-  scored_at: '2026-10-04'
+  score: 19.6
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -86,6 +86,21 @@ collections:
   name: Squillo Platform Connectors Workflows API
   slug: open-squillo-workflows-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/squillo/refs/heads/main/plans/squillo-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/squillo-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/squillo/refs/heads/main/rate-limits/squillo-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/squillo-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/squillo/refs/heads/main/finops/squillo-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/squillo-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/squillo/refs/heads/main/agentic-access/squillo-agentic-access.yml
   title: ''
@@ -155,9 +170,13 @@ examples:
   name: Squillo List Workflows Example
   slug: squillo-list-workflows-example
 finops:
-- name: Squillo Finops
+- has_sources: false
+  method: generated
+  name: Squillo Finops
+  primary_unit: ''
   service_category: API
   slug: squillo-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/squillo.png
 json_schemas:
 - name: Squillo Workflow
@@ -177,13 +196,13 @@ modified: '2026-05-19'
 name: Squillo
 nav: Providers
 network: true
-overview: 'Squillo publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Connectors API, Executions API, Variables API, and 1 more. Tagged areas include Integration Platform, Automation, Workflows, No-Code, and IT Process Automation.
+overview: 'Squillo publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Connectors API, Executions API, Variables API, and 1 more. Tagged areas include Integration Platform, Automation, Workflows, No-Code, and IT Process Automation.
 
 
   The Squillo catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Squillo''s developer surface includes authentication, documentation, engineering blog, and 11 more developer resources.'
+  Squillo''s developer surface includes authentication, documentation, engineering blog, and 14 more developer resources.'
 plans:
 - name: Squillo Plans Pricing
   plan_count: 3
@@ -194,9 +213,10 @@ rate_limits:
   name: Squillo Rate Limits
   slug: squillo-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Squillo API Rules
+  name: Squillo — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -204,7 +224,8 @@ rules:
     info: 2
     warn: 3
   slug: squillo-jsonschema-spectral-rules
-- effective_rule_count: 48
+- authorship: unmarked
+  effective_rule_count: 48
   extends:
   - spectral:oas
   name: Squillo API Rules
@@ -217,17 +238,17 @@ rules:
   slug: squillo-rules
 score:
   band: thin
-  composite: 32.5
+  composite: 30.9
   coverage:
     artifact_dirs: 17
-    catalog_earned: 63.0
+    catalog_earned: 60.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 52.0
+    catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 27.3
     contract_quality: 55.7
     developer_ergonomics: 23.8
@@ -247,8 +268,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 13.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

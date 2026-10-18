@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.govirtuo.com/us/press
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/govirtuo/refs/heads/main/security/govirtuo-domain-security.yml
   title: ''
@@ -69,18 +73,18 @@ created: '2026-07-17'
 description: 'Virtuo (govirtuo.com) is a Paris-based, next-generation car rental company founded in 2015 and backed by Balderton Capital. It replaces the traditional rental counter with a mobile app: customers book, unlock, and return premium connected vehicles (Mercedes, BMW, Audi, Peugeot, Renault, Toyota, Volkswagen and others) entirely from their phone, with delivery options, free cancellation, and 24/7 support across 100+ locations in Europe. Virtuo also runs a "Virtuo for Business" corporate program and has committed to offsetting 100% of trips and electrifying its fleet by 2030. Virtuo does not publish a public developer API or documentation surface; this profile captures the company''s public web properties and domain-security posture for the API Evangelist network.'
 image: https://www.govirtuo.com/icon.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Virtuo
 nav: Providers
 network: true
 overview: 'Virtuo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Car Rental, Mobility, Travel, and Transportation.
 
 
-  Virtuo''s developer surface includes engineering blog, support, and 5 more developer resources.'
+  Virtuo''s developer surface includes engineering blog, support, and 6 more developer resources.'
 random_paper: 15
 score:
   band: minimal
-  composite: 10.5
+  composite: 10.6
   coverage:
     artifact_dirs: 4
     catalog_earned: 27.0
@@ -88,7 +92,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
@@ -111,8 +115,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

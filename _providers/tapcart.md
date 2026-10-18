@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The Insights (Insights Pro) Metrics API returns aggregated analytics for a Tapcart app from a single POST endpoint whose response shape varies by the requested metricType — push explorer, sessions, re
@@ -94,6 +94,10 @@ collections:
   name: Tapcart @tapcart/app-pages Development API - Layouts API
   slug: open-tapcart-development-api-layouts-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.tapcart.com/blog/rss.xml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/tapcart/refs/heads/main/overlays/tapcart-client-api-overlay.yaml
   title: ''
@@ -272,23 +276,23 @@ mcp_servers:
 - description: Tapcart publishes a first-party MCP server, shipped inside the Tapcart CLI npm package rather than as a hosted remote endpoint. It exposes the CLI's capability surface — project setup, blocks, compone
   name: Tapcart MCP Server
   slug: tapcart-cli
-modified: '2026-08-05'
+modified: '2026-10-06'
 name: Tapcart
 nav: Providers
 network: true
-overview: 'Tapcart publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Development API - Block Templates API, Development API - Blocks API, Development API - Components API, and 4 more. Tagged areas include Company, Mobile, Commerce, Shopify, and E-Commerce.
+overview: 'Tapcart publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Development API - Block Templates API, Development API - Blocks API, Development API - Components API, and 4 more. Tagged areas include Company, Mobile, Commerce, Shopify, and E-Commerce.
 
 
   The Tapcart catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Tapcart''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 30 more developer resources.'
+  Tapcart''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 31 more developer resources.'
 random_paper: 3
 score:
   band: developing
   composite: 51.9
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -318,8 +322,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.3
-  scored_at: '2026-10-04'
+  score: 25.4
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 3
@@ -109,6 +109,10 @@ collections:
   name: Badgr API
   slug: open-badgr
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://badgr.com/blog/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/badgr/refs/heads/main/capabilities/badgr-capability-edges.yml
   title: ''
@@ -168,19 +172,23 @@ common:
 created: '2026-07-05'
 description: Badgr is an open digital badging and micro-credentialing platform built on the Open Badges standard. Originally created by Concentric Sky, Badgr is now operated by Instructure as Canvas Credentials (and folded into Parchment Digital Badges). It lets organizations issue verifiable, portable achievement badges and learners collect them in a shareable Backpack. The platform is backed by the open-source badgr-server (github.com/concentricsky/badgr-server), which implements Open Badges 2.0/2.1 (Badge Connect). The documented REST API (base https://api.badgr.io/v2, with regional deployments in the EU, Canada, and Australia) uses OAuth2 bearer tokens and exposes Issuers, BadgeClasses, Assertions (awarded badges), the learner Backpack, Collections, and Users.
 finops:
-- name: Badgr Finops
+- has_sources: true
+  method: generated
+  name: Badgr Finops
+  primary_unit: ''
   service_category: Education and Credentialing
   slug: badgr-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/badgr.png
 layout: provider
-modified: '2026-07-05'
+modified: '2026-10-06'
 name: Badgr
 nav: Providers
 network: true
-overview: 'Badgr publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Assertions API, Authentication API, Backpack API, and 4 more. Tagged areas include Digital Badges, Open Badges, Micro-Credentials, Credentialing, and Verifiable Credentials.
+overview: 'Badgr publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Assertions API, Authentication API, Backpack API, and 4 more. Tagged areas include Digital Badges, Open Badges, Micro-Credentials, Credentialing, and Verifiable Credentials.
 
 
-  Badgr''s developer surface includes authentication, documentation, and 10 more developer resources.'
+  Badgr''s developer surface includes engineering blog, authentication, documentation, and 10 more developer resources.'
 plans:
 - name: Badgr Plans Pricing
   plan_count: 4
@@ -196,23 +204,23 @@ scopes:
   slug: badgr-scopes
   summary_line: 3 scopes · password/authorizationCode
 score:
-  band: thin
-  composite: 33.1
+  band: emerging
+  composite: 25.2
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 61.6
+    artifact_dirs: 14
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.4
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.9
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 44.6
-    developer_ergonomics: 21.4
+    developer_ergonomics: 23.8
     discoverability: 66.1
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   previous_composite: 33.1
   provenance:
     agentic_access: derived
@@ -227,9 +235,9 @@ score:
     regime: Education & Research
     regime_id: education
     score: 21.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -202,7 +202,7 @@ modified: '2026-09-16'
 name: OpenPrescribing
 nav: Providers
 network: true
-overview: 'OpenPrescribing publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Measures API, Reference API, Spending API, and 2 more. Tagged areas include Healthcare, United Kingdom, NHS, Prescribing, and Pharmacy.
+overview: 'OpenPrescribing publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Measures API, Reference API, Spending API, and 2 more. Tagged areas include Healthcare, United Kingdom, NHS, Prescribing, and Pharmacy.
 
 
   OpenPrescribing''s developer surface includes documentation, API reference, support, engineering blog, getting-started guide, authentication, and 21 more developer resources.'
@@ -253,8 +253,8 @@ score:
     regime: Health
     regime_id: health
     score: 13.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

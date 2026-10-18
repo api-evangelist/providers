@@ -32,10 +32,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 12.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.bayesimpact.org/blog
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.bayesimpact.org/blog/rss.xml
 - group: operate
   title: ''
   type: IssueTracker
@@ -91,18 +99,18 @@ created: '2026-07-17'
 description: Bayes Impact is a nonprofit organization that builds open-source AI and data-science tools for public services, governments, and nonprofits, with a mission to empower people in need and those who help them. Surfaced through Y Combinator, it has served over 10 million beneficiaries across three continents. Its flagship open-source project, Bob (formerly Bob Emploi), delivers personalized, data-driven career and job-search advice to jobseekers through a Python/Flask RESTful JSON API whose data structures are defined in Protocol Buffers. Other projects include the Bayes Platform agent framework for public services, the Encompass geographic-access analysis tool, and a range of civic data-science tooling.
 image: https://avatars.githubusercontent.com/u/7692453?v=4
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Bayes Impact
 nav: Providers
 network: true
 overview: 'Bayes Impact is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Non-Profit, Artificial Intelligence, Data Science, and Public Services.
 
 
-  Bayes Impact''s developer surface includes engineering blog, support, and 10 more developer resources.'
+  Bayes Impact''s developer surface includes engineering blog, support, and 12 more developer resources.'
 random_paper: 5
 score:
   band: emerging
-  composite: 17.5
+  composite: 17.4
   coverage:
     artifact_dirs: 6
     catalog_earned: 27.0
@@ -110,7 +118,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
@@ -125,8 +133,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 12.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

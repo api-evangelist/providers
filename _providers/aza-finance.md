@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 49
   slug: aza-finance-agentic-access
   summary_line: 49 operations · 22 acting
-api_count: 1
+api_count: 2
 apis:
 - baseURL: https://api.transferzero.com/v1
   baseurl_source: declared
@@ -324,7 +324,7 @@ modified: '2026-07-18'
 name: AZA Finance
 nav: Providers
 network: true
-overview: 'AZA Finance publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Account Debits API, Account Validation API, Accounts API, and 13 more. Tagged areas include Company, Financial Services, Payments, Foreign Exchange, and Cross-Border Payments.
+overview: 'AZA Finance publishes 16 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account Debits API, Account Validation API, Accounts API, and 13 more. Tagged areas include Company, Financial Services, Payments, Foreign Exchange, and Cross-Border Payments.
 
 
   The AZA Finance catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -336,7 +336,7 @@ score:
   band: thin
   composite: 32.5
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 24
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -372,8 +372,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 15.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

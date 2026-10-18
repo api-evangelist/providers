@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.5
-  scored_at: '2026-10-04'
+  score: 31.6
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -321,16 +321,20 @@ common:
 created: '2026-07-01'
 description: Modal is a serverless cloud for AI, data, and general compute. Developers define infrastructure as code in Python (with JavaScript and Go SDKs) and run functions, GPUs, sandboxes, web endpoints, cron jobs, and volumes on demand. The primary developer interface is the Modal SDK and CLI communicating with a gRPC backend, not a conventional first-party REST API. User-deployed Modal Functions can be exposed as HTTPS web endpoints (@modal.fastapi_endpoint / asgi_app / wsgi_app / web_server) on *.modal.run, and Sandboxes can expose ports via network tunnels.
 finops:
-- name: Modal Labs Finops
+- has_sources: true
+  method: generated
+  name: Modal Labs Finops
+  primary_unit: ''
   service_category: Compute
   slug: modal-labs-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/modal-labs.png
 layout: provider
 modified: '2026-09-18'
 name: Modal
 nav: Providers
 network: true
-overview: 'Modal publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Web Endpoints (Representative) API, and 21 more. Tagged areas include Serverless, Compute, GPU, AI Infrastructure, and Sandbox.
+overview: 'Modal publishes 22 API contracts indexed on the [APIs.io](https://apis.io/) network, including Web Endpoints (Representative) API, and 21 more. Tagged areas include Serverless, Compute, GPU, AI Infrastructure, and Sandbox.
 
 
   Modal''s developer surface includes documentation, engineering blog, CLI, authentication, changelog, API reference, getting-started guide, and 36 more developer resources.'
@@ -345,22 +349,22 @@ rate_limits:
   slug: modal-labs-rate-limits
 score:
   band: strong
-  composite: 64.5
+  composite: 56.2
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 56.6
+    artifact_dirs: 26
+    catalog_earned: 38.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 58.4
+    catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 88.9
+    access_clarity: 60.5
     contract_governance: 18.2
     contract_quality: 43.5
     developer_ergonomics: 81.0
     discoverability: 64.3
-    operational_transparency: 73.2
+    operational_transparency: 52.6
   previous_composite: 64.5
   provenance:
     agentic_access: derived
@@ -378,12 +382,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0
+screenshot: https://raw.githubusercontent.com/api-evangelist/modal-labs/refs/heads/main/screenshots/modal-labs-2026-10-11T111210.png
 security:
 - kind: authentication
   name: Modal Labs Authentication

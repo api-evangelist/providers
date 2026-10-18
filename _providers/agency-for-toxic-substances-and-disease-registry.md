@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.8
-  scored_at: '2026-10-04'
+  score: 23.6
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -84,6 +84,21 @@ collections:
   name: ATSDR Toxic Substance Profiles API
   slug: open-atsdr-toxic-substance-profiles
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/agency-for-toxic-substances-and-disease-registry/refs/heads/main/plans/agency-for-toxic-substances-and-disease-registry-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/agency-for-toxic-substances-and-disease-registry-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/agency-for-toxic-substances-and-disease-registry/refs/heads/main/rate-limits/agency-for-toxic-substances-and-disease-registry-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/agency-for-toxic-substances-and-disease-registry-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/agency-for-toxic-substances-and-disease-registry/refs/heads/main/finops/agency-for-toxic-substances-and-disease-registry-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/agency-for-toxic-substances-and-disease-registry-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/agency-for-toxic-substances-and-disease-registry/refs/heads/main/agentic-access/agency-for-toxic-substances-and-disease-registry-agentic-access.yml
   title: ''
@@ -162,9 +177,13 @@ examples:
   name: Atsdr Toxic Substance Profiles Tox Profile Example
   slug: atsdr-toxic-substance-profiles-tox-profile-example
 finops:
-- name: Agency For Toxic Substances And Disease Registry Finops
+- has_sources: false
+  method: generated
+  name: Agency For Toxic Substances And Disease Registry Finops
+  primary_unit: ''
   service_category: API
   slug: agency-for-toxic-substances-and-disease-registry-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/agency-for-toxic-substances-and-disease-registry.png
 json_schemas:
 - name: ExposureInvestigation
@@ -202,13 +221,13 @@ modified: '2026-05-19'
 name: Agency for Toxic Substances and Disease Registry
 nav: Providers
 network: true
-overview: 'Agency for Toxic Substances and Disease Registry publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Exposure Investigations API, Minimum Risk Levels API, Substance Priority List API, and 1 more. Tagged areas include Diseases, Federal Government, Public Health, Toxic Substances, and Environmental Health.
+overview: 'Agency for Toxic Substances and Disease Registry publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Exposure Investigations API, Minimum Risk Levels API, Substance Priority List API, and 1 more. Tagged areas include Diseases, Federal Government, Public Health, Toxic Substances, and Environmental Health.
 
 
   The Agency for Toxic Substances and Disease Registry catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Agency for Toxic Substances and Disease Registry''s developer surface includes developer portal, getting-started guide, documentation, and 12 more developer resources.'
+  Agency for Toxic Substances and Disease Registry''s developer surface includes developer portal, getting-started guide, documentation, and 15 more developer resources.'
 plans:
 - name: Agency For Toxic Substances And Disease Registry Plans Pricing
   plan_count: 3
@@ -219,9 +238,10 @@ rate_limits:
   name: Agency For Toxic Substances And Disease Registry Rate Limits
   slug: agency-for-toxic-substances-and-disease-registry-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Agency for Toxic Substances and Disease Registry API Rules
+  name: Agency for Toxic Substances and Disease Registry — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -229,7 +249,8 @@ rules:
     info: 1
     warn: 4
   slug: agency-for-toxic-substances-and-disease-registry-jsonschema-spectral-rules
-- effective_rule_count: 68
+- authorship: generated
+  effective_rule_count: 68
   extends:
   - spectral:oas
   name: Agency for Toxic Substances and Disease Registry API Rules
@@ -242,17 +263,17 @@ rules:
   slug: agency-for-toxic-substances-and-disease-registry-spectral-rules
 score:
   band: thin
-  composite: 27.5
+  composite: 29.1
   coverage:
-    artifact_dirs: 15
-    catalog_earned: 57.0
+    artifact_dirs: 16
+    catalog_earned: 60.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 43.0
-    catalog_max: 100.0
+    catalog_gap: 55.0
+    catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.6
   facets:
-    access_clarity: 0.0
+    access_clarity: 7.9
     contract_governance: 27.3
     contract_quality: 52.6
     developer_ergonomics: 19.0
@@ -277,8 +298,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

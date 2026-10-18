@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 20
   slug: vyond-agentic-access
   summary_line: 20 operations · 10 acting
-api_count: 1
+api_count: 2
 apis:
 - baseURL: https://api.vyond.com
   baseurl_source: declared
@@ -132,6 +132,10 @@ collections:
   name: Vyond API Documentation Webhook API
   slug: open-vyond-webhook-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.vyond.com/feed/
 - group: commercial
   href: https://raw.githubusercontent.com/api-evangelist/vyond/refs/heads/main/plans/vyond-plans-pricing.yml
   title: ''
@@ -311,17 +315,17 @@ created: '2026-08-05'
 description: 'Vyond is a business video creation platform — formerly GoAnimate — used by enterprise learning, HR, sales enablement and internal-communications teams to produce animated, AI-avatar, mixed-media and screen-recorded video. Alongside the Vyond Studio web application and the generative Vyond Go and Turbo products, Vyond publishes a public OpenAPI 3.0 contract at api.vyond.com/doc/ covering two distinct surfaces: a versioned REST API (/rest/{version}/) for content generation, Turbo text-to-video tasks, video export, parameter lookup and HMAC-signed webhook subscriptions, and a SCIM 2.0 API (/scim/v2/) for enterprise user provisioning against identity providers such as Okta. Access is bearer-token based — API tokens for SCIM, OAuth 2.0 access tokens for REST — and is scoped per feature (VYOND_GO, VIDEO_EXPORT).'
 image: https://www.vyond.com/wp-content/uploads/2025/05/vyond-social-promo-card-1200x630-1.webp
 layout: provider
-modified: '2026-08-05'
+modified: '2026-10-06'
 name: Vyond
 nav: Providers
 network: true
-overview: 'Vyond publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Content Generation API, Parameter API, SCIM API, and 5 more. Tagged areas include Video, Animation, Video Generation, Artificial Intelligence, and E-Learning.
+overview: 'Vyond publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Content Generation API, Parameter API, SCIM API, and 5 more. Tagged areas include Video, Animation, Video Generation, Artificial Intelligence, and E-Learning.
 
 
   The Vyond catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Vyond''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 31 more developer resources.'
+  Vyond''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 32 more developer resources.'
 plans:
 - name: Vyond Plans Pricing
   plan_count: 4
@@ -337,15 +341,15 @@ scopes:
   summary_line: 2 scopes
 score:
   band: strong
-  composite: 60.7
+  composite: 60.4
   coverage:
-    artifact_dirs: 25
+    artifact_dirs: 26
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 92.1
     contract_governance: 18.2
@@ -374,12 +378,12 @@ score:
     - jurisdiction: US
       standard: fedramp
     jurisdictions_satisfied: 2
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 36.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

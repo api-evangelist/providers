@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - baseURL: https://my.vcv.ai
@@ -314,7 +314,7 @@ modified: '2026-07-21'
 name: VCV
 nav: Providers
 network: true
-overview: 'VCV publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Chatbot API, Companies API, Countries API, and 14 more. Tagged areas include Company, Recruiting, Human Resources, Video Interviews, and Talent Acquisition.
+overview: 'VCV publishes 17 API contracts indexed on the [APIs.io](https://apis.io/) network, including Chatbot API, Companies API, Countries API, and 14 more. Tagged areas include Company, Recruiting, Human Resources, Video Interviews, and Talent Acquisition.
 
 
   The VCV catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -356,8 +356,8 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

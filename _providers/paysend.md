@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Paysend Enterprise's single Payout API disburses funds worldwide to cards and bank accounts through the Paysend payments network. A multi-task POST /processing endpoint carries operations including pa
@@ -149,7 +149,7 @@ modified: '2026-07-24'
 name: Paysend
 nav: Providers
 network: true
-overview: 'Paysend publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Payments, United Kingdom, Cross-Border, Money Transfer, and Payouts.
+overview: 'Paysend is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Payments, United Kingdom, Cross-Border, Money Transfer, and Payouts.
 
 
   The Paysend catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -161,7 +161,7 @@ score:
   band: thin
   composite: 37.9
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -199,8 +199,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 30.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -224,7 +224,7 @@ tags:
 - Money Transfer
 - Payouts
 - Payment Processing
-- FX
+- Foreign Exchange
 - Remittances
 - Fintech
 - Cross-Border Payments

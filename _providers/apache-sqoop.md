@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Apache Sqoop provides a command-line interface for bulk data transfer between Hadoop and relational databases. Commands include sqoop-import for loading data into HDFS or Hive, sqoop-export for writin
@@ -41,6 +41,21 @@ apis:
   slug: apache-sqoop-cli
 artifact_total: 17
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/apache-sqoop/refs/heads/main/plans/apache-sqoop-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/apache-sqoop-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/apache-sqoop/refs/heads/main/rate-limits/apache-sqoop-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/apache-sqoop-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/apache-sqoop/refs/heads/main/finops/apache-sqoop-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/apache-sqoop-finops.yml
 - group: company
   title: ''
   type: Website
@@ -93,9 +108,13 @@ features:
 - description: Auto-create Hive tables and load imported data directly into Hive.
   name: Hive Integration
 finops:
-- name: Apache Sqoop Finops
+- has_sources: false
+  method: generated
+  name: Apache Sqoop Finops
+  primary_unit: ''
   service_category: API
   slug: apache-sqoop-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/apache-sqoop.png
 integrations:
 - description: Primary target storage for Sqoop imports via HDFS.
@@ -111,10 +130,10 @@ modified: '2026-04-19'
 name: Apache Sqoop
 nav: Providers
 network: true
-overview: 'Apache Sqoop publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Big Data, Data Transfer, ETL, Hadoop, and RDBMS.
+overview: 'Apache Sqoop is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Big Data, Data Transfer, ETL, Hadoop, and RDBMS.
 
 
-  Apache Sqoop''s developer surface includes documentation, developer portal, and 7 more developer resources.'
+  Apache Sqoop''s developer surface includes documentation, developer portal, and 10 more developer resources.'
 plans:
 - name: Apache Sqoop Plans Pricing
   plan_count: 3
@@ -126,17 +145,17 @@ rate_limits:
   slug: apache-sqoop-rate-limits
 score:
   band: emerging
-  composite: 16.5
+  composite: 15.0
   coverage:
     artifact_dirs: 6
-    catalog_earned: 41.0
+    catalog_earned: 38.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 26.3
+    access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 19.0
@@ -149,8 +168,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

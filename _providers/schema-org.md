@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 4
 apis:
 - description: 'Schema.org is a collaborative, community-driven vocabulary for structured data on the internet. It provides a collection of shared vocabularies that webmasters and developers can use to mark up pages '
@@ -50,6 +50,11 @@ apis:
   slug: schemaorg-webapi-type
 artifact_total: 93
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/schema-org/refs/heads/main/finops/schema-org-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/schema-org-finops.yml
 - group: operate
   title: ''
   type: Releases
@@ -170,9 +175,13 @@ examples:
   name: Schema Org Web Api Example
   slug: schema-org-web-api-example
 finops:
-- name: Schema Org Finops
+- has_sources: false
+  method: generated
+  name: Schema Org Finops
+  primary_unit: ''
   service_category: API
   slug: schema-org-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/schema-org.png
 json_schemas:
 - name: Schema.org Action
@@ -426,13 +435,13 @@ modified: '2026-08-13'
 name: Schema.org
 nav: Providers
 network: true
-overview: 'Schema.org publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Schema.org, Structured Data, Linked Data, JSON-LD, and Vocabulary.
+overview: 'Schema.org is listed with 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Schema.org, Structured Data, Linked Data, JSON-LD, and Vocabulary.
 
 
   The Schema.org catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Schema.org''s developer surface includes documentation, engineering blog, support, getting-started guide, changelog, and 19 more developer resources.'
+  Schema.org''s developer surface includes documentation, engineering blog, support, getting-started guide, changelog, and 20 more developer resources.'
 plans:
 - name: Schema Org Plans Pricing
   plan_count: 0
@@ -443,9 +452,10 @@ rate_limits:
   name: Schema Org Rate Limits
   slug: schema-org-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: Schema.org API Rules
+  name: Schema.org — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -453,7 +463,8 @@ rules:
     info: 2
     warn: 4
   slug: schema-org-jsonschema-spectral-rules
-- effective_rule_count: 10
+- authorship: unmarked
+  effective_rule_count: 10
   extends: []
   name: Schema.org API Rules
   rule_count: 10
@@ -465,17 +476,17 @@ rules:
   slug: schema-org-rules
 score:
   band: thin
-  composite: 30.1
+  composite: 28.8
   coverage:
     artifact_dirs: 21
-    catalog_earned: 56.2
+    catalog_earned: 53.2
     catalog_earned_first_party: 0.0
-    catalog_gap: 58.9
+    catalog_gap: 61.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.3
   facets:
-    access_clarity: 18.4
+    access_clarity: 10.5
     contract_governance: 41.7
     contract_quality: 13.9
     developer_ergonomics: 45.2
@@ -493,8 +504,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 14.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

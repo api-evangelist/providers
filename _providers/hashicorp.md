@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.5
-  scored_at: '2026-10-04'
+  score: 19.6
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 149
   human_in_the_loop: 17
@@ -91,6 +91,21 @@ collections:
   name: HashiCorp Vault API
   slug: open-hashicorp-vault
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/hashicorp/refs/heads/main/plans/hashicorp-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/hashicorp-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/hashicorp/refs/heads/main/rate-limits/hashicorp-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/hashicorp-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/hashicorp/refs/heads/main/finops/hashicorp-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/hashicorp-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/hashicorp/refs/heads/main/capabilities/hashicorp-capability-edges.yml
   title: ''
@@ -157,9 +172,13 @@ common:
 created: '2024-02-01'
 description: HashiCorp is the infrastructure cloud company, helping organizations automate multi-cloud and hybrid environments with Infrastructure Lifecycle Management and Security Lifecycle Management. Their suite of products includes Vault, Terraform, Nomad, Consul, Vagrant, Boundary, and Packer.
 finops:
-- name: Hashicorp Finops
+- has_sources: true
+  method: generated
+  name: Hashicorp Finops
+  primary_unit: ''
   service_category: Infrastructure / DevOps Platform
   slug: hashicorp-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hashicorp.png
 json_structures:
 - name: Hashicorp Structure
@@ -170,10 +189,10 @@ modified: '2026-09-16'
 name: HashiCorp
 nav: Providers
 network: true
-overview: 'HashiCorp publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Identity API, Secrets API, and 6 more. Tagged areas include Cloud, DevOps, Infrastructure, and Platform.
+overview: 'HashiCorp publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Auth API, Identity API, Secrets API, and 6 more. Tagged areas include Cloud, DevOps, Infrastructure, and Platform.
 
 
-  HashiCorp''s developer surface includes developer portal, getting-started guide, support, engineering blog, and 11 more developer resources.'
+  HashiCorp''s developer surface includes developer portal, getting-started guide, support, engineering blog, and 14 more developer resources.'
 plans:
 - name: Hashicorp Plans Pricing
   plan_count: 6
@@ -184,18 +203,18 @@ rate_limits:
   name: Hashicorp Rate Limits
   slug: hashicorp-rate-limits
 score:
-  band: thin
-  composite: 27.5
+  band: emerging
+  composite: 26.0
   coverage:
-    artifact_dirs: 15
-    catalog_earned: 36.0
+    artifact_dirs: 16
+    catalog_earned: 33.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 79.0
+    catalog_gap: 82.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 26.3
+    access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 32.7
     developer_ergonomics: 36.9
@@ -215,8 +234,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 9.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

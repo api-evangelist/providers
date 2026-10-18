@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: DuckDB ships as a library with first-class bindings for Python, R, Java (JDBC), Node.js, C/C++, Go, Rust, Swift, Julia, and the browser via DuckDB-Wasm. There is no network REST API; clients call Duck
@@ -41,6 +41,10 @@ apis:
   slug: duckdb-library
 artifact_total: 5
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://duckdb.org/news/
 - group: operate
   title: ''
   type: IssueTracker
@@ -116,19 +120,23 @@ common:
 created: '2026-05-08'
 description: DuckDB is an in-process, MIT-licensed analytical SQL database with no external dependencies. It runs as a library embedded in the host application (CLI, Python, Node.js, R, Java/JDBC, Go, Wasm, etc.) and does not expose a network REST API.
 finops:
-- name: Duckdb Finops
+- has_sources: false
+  method: generated
+  name: Duckdb Finops
+  primary_unit: ''
   service_category: API
   slug: duckdb-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/duckdb.png
 layout: provider
-modified: '2026-05-08'
+modified: '2026-10-06'
 name: DuckDB
 nav: Providers
 network: true
-overview: 'DuckDB publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Database, Analytics, OLAP, Embedded, and Open Source.
+overview: 'DuckDB is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Database, Analytics, OLAP, Embedded, and Open Source.
 
 
-  DuckDB''s developer surface includes developer portal, engineering blog, and 15 more developer resources.'
+  DuckDB''s developer surface includes engineering blog, developer portal, and 16 more developer resources.'
 plans:
 - name: Duckdb Plans Pricing
   plan_count: 3
@@ -140,17 +148,17 @@ rate_limits:
   slug: duckdb-rate-limits
 score:
   band: thin
-  composite: 29.5
+  composite: 28.1
   coverage:
-    artifact_dirs: 8
-    catalog_earned: 46.0
+    artifact_dirs: 9
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 69.0
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.4
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 38.1
@@ -166,8 +174,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

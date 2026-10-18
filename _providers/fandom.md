@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The standard MediaWiki Action API served at /api.php on every Fandom wiki subdomain (e.g. community.fandom.com, starwars.fandom.com). Provides read/write access via 120 action modules including query,
@@ -41,6 +41,10 @@ apis:
   slug: fandom-mediawiki-action-api
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://about.fandom.com/newsroom
 - group: company
   title: ''
   type: Website
@@ -126,31 +130,31 @@ created: '2026-07-17'
 description: Fandom (formerly Wikia) is the world's largest entertainment fan-wiki platform, hosting hundreds of thousands of community-run wikis covering television, film, games, anime, and pop culture. Every Fandom wiki runs on MediaWiki (currently 1.43.9, PHP 8.3) and exposes the standard MediaWiki Action API at /api.php on each wiki subdomain, giving programmatic read and write access to page content, revisions, full-text and OpenSearch search, media files, templates, and account operations. Fandom layers its own extension modules on top of core MediaWiki (create-new-wiki, theme designer, interactive maps, portable infoboxes, embedded video, notifications). Fandom does not publish a bespoke OpenAPI; the self-documenting api.php help endpoint, the Fandom Developers Wiki (dev.fandom.com), and the upstream MediaWiki API docs are the reference surface. This profile was surfaced as a portfolio company of Bessemer Venture Partners and enriched from Fandom's live, public API.
 image: https://images.wikia.com/central/images/b/bc/Wiki.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Fandom
 nav: Providers
 network: true
-overview: 'Fandom publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Wiki, MediaWiki, and Media.
+overview: 'Fandom is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Wiki, MediaWiki, and Media.
 
 
-  Fandom''s developer surface includes documentation, API reference, getting-started guide, support, authentication, and 13 more developer resources.'
+  Fandom''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, authentication, and 13 more developer resources.'
 random_paper: 13
 score:
   band: emerging
-  composite: 25.1
+  composite: 25.6
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 56.5
+    developer_ergonomics: 58.9
     discoverability: 73.2
     operational_transparency: 2.6
   previous_composite: 25.1
@@ -164,8 +168,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

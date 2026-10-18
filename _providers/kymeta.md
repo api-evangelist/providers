@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: Kymeta's first-party API host for the Kymeta Connect service platform, which backs the Kymeta Access app and the Kymeta Access Portal. The host answers unauthenticated on three operational endpoints o
@@ -152,7 +152,7 @@ modified: '2026-08-23'
 name: Kymeta
 nav: Providers
 network: true
-overview: 'Kymeta publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Satellite, Satellite Communications, Connectivity, Telecommunications, and Networking.
+overview: 'Kymeta is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Satellite, Satellite Communications, Connectivity, Telecommunications, and Networking.
 
 
   Kymeta''s developer surface includes documentation, support, engineering blog, training material, authentication, and 13 more developer resources.'
@@ -172,7 +172,7 @@ scopes:
   summary_line: 11 scopes · authorizationCode/clientCredentials/deviceCode
 score:
   band: emerging
-  composite: 22.3
+  composite: 22.2
   coverage:
     artifact_dirs: 15
     catalog_earned: 37.0
@@ -180,7 +180,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 27.6
     contract_governance: 18.2
@@ -198,8 +198,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 35.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

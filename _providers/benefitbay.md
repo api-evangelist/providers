@@ -23,10 +23,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.benefitbay.com/medicare-ichra
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.benefitbay.com/medicare-ichra/rss.xml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/benefitbay/refs/heads/main/hosts/benefitbay-hosts.yml
   title: ''
@@ -85,29 +93,34 @@ coverage:
 created: '2026-09-27'
 description: BenefitBay provides an ICHRA administration platform that connects brokers, employers, employees, and carriers in a unified ecosystem. It offers real-time plan modeling, compliance tools, and direct premium payments, aiming to simplify individual health reimbursement arrangements and improve employee satisfaction across the United States.
 layout: provider
-modified: '2026-09-27'
+modified: '2026-10-06'
 name: BenefitBay
 nav: Providers
 network: true
-overview: BenefitBay is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, ICHRA, Benefits, Health Tech, and Software-as-a-Service.
+overview: 'BenefitBay is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, ICHRA, Benefits, Health Tech, and Software-as-a-Service.
+
+
+  BenefitBay''s developer surface includes engineering blog and 12 more developer resources.'
 random_paper: 15
 score:
   band: minimal
-  composite: 9.3
+  composite: 9.8
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 9
     catalog_earned: 25.0
     catalog_earned_first_party: 0.0
     catalog_gap: 90.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.5
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 46.4
     operational_transparency: 5.3
+  previous_composite: 9.3
   provenance:
     mcp: unknown
   regulatory:
@@ -116,12 +129,14 @@ score:
     regime: Health
     regime_id: health
     score: 10.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/benefitbay/refs/heads/main/screenshots/benefitbay-2026-10-11T101901.png
 security:
 - kind: domain-security
   name: Benefitbay Domain Security

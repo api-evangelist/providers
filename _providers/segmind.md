@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -315,16 +315,20 @@ common:
 created: '2025-03-01'
 description: Segmind is a serverless GPU inference platform that puts 200+ generative AI models — image, video, audio, 3D and LLM — behind one REST gateway with a single API key. Calls are metered per GPU-second or per generation against a prepaid credit balance, with the cost of every request reported inline on the response. The v2 asynchronous API is a submit-poll-fetch job contract built for long-running video and upscaling work, while the v1 synchronous route remains for fast models. Alongside the gateway, PixelFlow is a visual workflow builder that chains models on a canvas and publishes any workflow as its own production REST API, and dedicated endpoints run a chosen model on reserved GPUs with autoscaling. A first-party Python SDK, a browser playground, media-editing endpoints and a weekly dated changelog round out the developer surface.
 finops:
-- name: Segmind Finops
+- has_sources: false
+  method: generated
+  name: Segmind Finops
+  primary_unit: ''
   service_category: API
   slug: segmind-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/segmind.png
 layout: provider
 modified: '2026-08-27'
 name: Segmind
 nav: Providers
 network: true
-overview: 'Segmind publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Inference API, Account API, Storage API, and 4 more. Tagged areas include Artificial Intelligence, Machine Learning, Generative AI, Inference, and Image Generation.
+overview: 'Segmind publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Inference API, Account API, Storage API, and 4 more. Tagged areas include Artificial Intelligence, Machine Learning, Generative AI, Inference, and Image Generation.
 
 
   The Segmind catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -347,17 +351,17 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 68.8
+  composite: 66.9
   coverage:
-    artifact_dirs: 27
-    catalog_earned: 64.0
+    artifact_dirs: 28
+    catalog_earned: 61.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 51.0
+    catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.9
   facets:
-    access_clarity: 92.1
+    access_clarity: 84.2
     contract_governance: 18.2
     contract_quality: 52.8
     developer_ergonomics: 78.6
@@ -376,12 +380,12 @@ score:
     skills: first-party
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 36.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -404,8 +408,6 @@ tags:
 - Inference
 - Image Generation
 - Video Generation
-- Text-to-Image
-- Text-to-Video
 - Serverless
 - GPU
 - Workflows

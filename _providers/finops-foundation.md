@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.5
-  scored_at: '2026-10-04'
+  score: 23.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -78,6 +78,21 @@ collections:
   name: FinOps Foundation FOCUS Cost and Usage Contract Commitments Schema Metadata API
   slug: open-finops-foundation-schema-metadata-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/finops-foundation/refs/heads/main/plans/finops-foundation-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/finops-foundation-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/finops-foundation/refs/heads/main/rate-limits/finops-foundation-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/finops-foundation-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/finops-foundation/refs/heads/main/finops/finops-foundation-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/finops-foundation-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/finops-foundation/refs/heads/main/capabilities/finops-foundation-capability-edges.yml
   title: ''
@@ -129,9 +144,13 @@ common:
 created: '2026-01-02'
 description: The FinOps Foundation aims to help organizations optimize their cloud spending and improve cloud financial management practices. By providing education, tools, and resources, the foundation equips teams with the skills and knowledge needed to effectively manage cloud costs.
 finops:
-- name: Finops Foundation Finops
+- has_sources: false
+  method: generated
+  name: Finops Foundation Finops
+  primary_unit: ''
   service_category: API
   slug: finops-foundation-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/finops-foundation.png
 json_schemas:
 - name: FOCUS Contract Commitment Record
@@ -150,13 +169,13 @@ modified: '2026-05-19'
 name: FinOps Foundation
 nav: Providers
 network: true
-overview: 'FinOps Foundation publishes 3 APIs on the [APIs.io](https://apis.io/) network: Contract Commitments API, Cost and Usage API, and Schema Metadata API. Tagged areas include Budgets, Costs, and FinOps.
+overview: 'FinOps Foundation publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Contract Commitments API, Cost and Usage API, and Schema Metadata API. Tagged areas include Budgets, Costs, and FinOps.
 
 
   The FinOps Foundation catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  FinOps Foundation''s developer surface includes authentication, engineering blog, and 9 more developer resources.'
+  FinOps Foundation''s developer surface includes authentication, engineering blog, and 12 more developer resources.'
 plans:
 - name: Finops Foundation Plans Pricing
   plan_count: 3
@@ -167,9 +186,10 @@ rate_limits:
   name: Finops Foundation Rate Limits
   slug: finops-foundation-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: FinOps Foundation API Rules
+  name: FinOps Foundation — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -179,17 +199,17 @@ rules:
   slug: finops-foundation-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 34.9
+  composite: 33.4
   coverage:
     artifact_dirs: 15
-    catalog_earned: 56.3
+    catalog_earned: 53.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 58.8
+    catalog_gap: 61.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 9.8
     contract_quality: 60.5
     developer_ergonomics: 33.3
@@ -209,8 +229,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

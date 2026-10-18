@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 39.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://rhizomeai.com/api
@@ -44,7 +44,7 @@ apis:
   description: Search and retrieve regulatory and clinical documents.
   name: Rhizome Ai Documents API
   slug: rhizome-ai-documents-api
-artifact_total: 6
+artifact_total: 7
 collections:
 - collection_type: open
   name: API Collection
@@ -53,6 +53,15 @@ collections:
   name: Rhizome AI Documents API
   slug: open-rhizome-ai-documents-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/rhizome-ai/refs/heads/main/plans/rhizome-ai-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/rhizome-ai-plans-pricing.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://rhizomeai.com/articles
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/rhizome-ai/refs/heads/main/security/rhizome-ai-domain-security.yml
   title: ''
@@ -166,35 +175,39 @@ created: '2026-07-17'
 description: Rhizome AI is an AI-powered regulatory research platform for pharmaceutical and medical device companies. It lets regulatory affairs teams ask questions and receive cited answers grounded in primary-source documents from health authorities worldwide (FDA, EMA, Health Canada, Swissmedic, MHRA, TGA and others across 10+ agencies), retrieving from up to a thousand documents without hallucinating. Beyond the web application, Rhizome AI publishes an enterprise HTTP API that exposes BM25 keyword search across the regulatory document corpus and full-text, page-by-page document retrieval, authenticated with an x-api-key header. A YC-backed company, Rhizome AI was surfaced as a portfolio-company lead and enriched from its public developer documentation.
 image: https://rhizomeai.com/favicon.ico
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Rhizome Ai
 nav: Providers
 network: true
-overview: 'Rhizome Ai publishes 1 API on the [APIs.io](https://apis.io/) network: Documents API. Tagged areas include Company, Regulatory, Pharmaceuticals, Medical Devices, and Life Sciences.
+overview: 'Rhizome Ai publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Documents API. Tagged areas include Company, Regulatory, Pharmaceuticals, Medical Devices, and Life Sciences.
 
 
-  Rhizome Ai''s developer surface includes documentation, API reference, getting-started guide, authentication, support, pricing, signup flow, and 17 more developer resources.'
+  Rhizome Ai''s developer surface includes engineering blog, documentation, API reference, getting-started guide, authentication, support, pricing, and 19 more developer resources.'
+plans:
+- name: Rhizome Ai Plans Pricing
+  plan_count: 5
+  slug: rhizome-ai-plans-pricing
 random_paper: 1
 rate_limits:
 - limit_count: 1
   name: Rhizome Ai Rate Limits
   slug: rhizome-ai-rate-limits
 score:
-  band: thin
-  composite: 33.6
+  band: developing
+  composite: 40.4
   coverage:
-    artifact_dirs: 16
-    catalog_earned: 45.0
-    catalog_earned_first_party: 8.0
-    catalog_gap: 70.0
+    artifact_dirs: 18
+    catalog_earned: 57.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.8
   facets:
-    access_clarity: 38.2
+    access_clarity: 69.7
     contract_governance: 4.5
     contract_quality: 15.5
-    developer_ergonomics: 56.5
+    developer_ergonomics: 58.9
     discoverability: 73.2
     operational_transparency: 21.1
   previous_composite: 33.6
@@ -213,9 +226,9 @@ score:
     regime: Health
     regime_id: health
     score: 18.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

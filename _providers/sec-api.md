@@ -28,20 +28,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.9
-  scored_at: '2026-10-04'
+  score: 24.0
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 5
+- acting_count: 1
   human_in_the_loop: 0
   name: Sec Api Agentic Access
   operation_count: 7
   slug: sec-api-agentic-access
-  summary_line: 7 operations · 5 acting
+  summary_line: 7 operations · 1 acting
 api_count: 1
 apis:
 - baseURL: wss://stream.sec-api.io
@@ -155,16 +155,20 @@ common:
 created: '2026-07-11'
 description: SEC API (sec-api.io) is a commercial developer platform that turns the U.S. Securities and Exchange Commission's EDGAR system into a fast, queryable REST and real-time streaming API. It covers 18+ million filings back to 1993 across 400+ EDGAR form types, with a Lucene-based Filing Query API, a Full-Text Search API over filing bodies and exhibits since 2001, an XBRL-to-JSON financial statement converter, a section Extractor for 10-K/10-Q/8-K, and structured datasets for insider trading (Form 3/4/5), institutional holdings (Form 13F), 13D/13G, Form D, Form ADV, IPOs, and more. A real-time Filing Stream API pushes newly published filings to clients over a WebSocket connection as soon as they hit EDGAR. Access is via a single API token passed as an Authorization header or a token query parameter.
 finops:
-- name: Sec Api Finops
+- has_sources: true
+  method: generated
+  name: Sec Api Finops
+  primary_unit: ''
   service_category: Financial Data and Regulatory Filings
   slug: sec-api-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sec-api.png
 layout: provider
 modified: '2026-07-11'
 name: SEC API
 nav: Providers
 network: true
-overview: 'SEC API publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Filing Stream API, Extractor API, Filing Query API, and 4 more. Tagged areas include SEC Filings, Regulatory Filings, EDGAR, Financial Data, and Compliance.
+overview: 'SEC API publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Filing Stream API, Extractor API, Filing Query API, and 4 more. Tagged areas include SEC Filings, Regulatory Filings, EDGAR, Financial Data, and Compliance.
 
 
   The SEC API catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -181,10 +185,11 @@ rate_limits:
   name: Sec Api Rate Limits
   slug: sec-api-rate-limits
 rules:
-- effective_rule_count: 32
+- authorship: generated
+  effective_rule_count: 32
   extends:
   - spectral:asyncapi
-  name: SEC API API Rules
+  name: SEC API — asyncapi rules
   rule_count: 5
   severity_counts:
     error: 1
@@ -194,22 +199,22 @@ rules:
   slug: sec-api-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 38.1
+  composite: 29.8
   coverage:
     artifact_dirs: 12
-    catalog_earned: 66.1
+    catalog_earned: 47.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 48.9
+    catalog_gap: 67.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 13.6
     contract_quality: 58.0
     developer_ergonomics: 28.6
     discoverability: 66.1
-    operational_transparency: 28.4
+    operational_transparency: 7.9
   previous_composite: 38.1
   provenance:
     agentic_access: derived
@@ -224,9 +229,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

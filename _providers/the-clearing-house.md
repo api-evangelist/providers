@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The RTP network is The Clearing House's real-time payments scheme for the United States, moving credit-push payments instantly, 24/7/365, with final settlement up to $10 million per transaction. It is
@@ -89,7 +89,7 @@ modified: '2026-07-24'
 name: The Clearing House (RTP)
 nav: Providers
 network: true
-overview: 'The Clearing House (RTP) publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Payments, United States, Real-Time Payments, Instant Payments, and ISO 20022.
+overview: 'The Clearing House (RTP) is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Payments, United States, Real-Time Payments, Instant Payments, and ISO 20022.
 
 
   The Clearing House (RTP)''s developer surface includes documentation, API reference, engineering blog, and 6 more developer resources.'
@@ -98,7 +98,7 @@ score:
   band: emerging
   composite: 13.1
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -128,8 +128,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 13.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

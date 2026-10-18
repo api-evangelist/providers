@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 4.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 5
 apis:
 - baseURL: https://api.fhir.nhsd.healthdirect.org.au/v4
@@ -202,7 +202,7 @@ modified: '2026-07-24T18:00:00Z'
 name: Healthdirect Australia
 nav: Providers
 network: true
-overview: 'Healthdirect Australia publishes 5 APIs on the [APIs.io](https://apis.io/) network, including NHSD FHIR API, and 4 more. Tagged areas include Healthcare, Australia, FHIR, HL7, and Interoperability.
+overview: 'Healthdirect Australia is listed with 5 APIs on the [APIs.io](https://apis.io/) network, including NHSD FHIR API, and 4 more. Tagged areas include Healthcare, Australia, FHIR, HL7, and Interoperability.
 
 
   Healthdirect Australia''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, authentication, and 23 more developer resources.'
@@ -243,8 +243,8 @@ score:
     regime: Health
     regime_id: health
     score: 32.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

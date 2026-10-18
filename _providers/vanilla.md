@@ -32,10 +32,19 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 2.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
-artifact_total: 2
+artifact_total: 3
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/vanilla/refs/heads/main/plans/vanilla-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/vanilla-plans-pricing.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.justvanilla.com/blog/feed
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/vanilla/refs/heads/main/security/vanilla-trust-center.yml
   title: ''
@@ -95,28 +104,32 @@ created: '2026-07-17'
 description: Vanilla (Vanilla Technologies Inc.) is an estate planning platform for financial advisors, RIAs, and wealth management firms. The platform provides AI-powered estate document analysis and estate health assessments, estate visualization, scenario modeling for tax strategies, and estate document creation, letting advisors deliver estate planning across clients at all wealth levels. Vanilla is SOC 2 Type II audited and integrates with wealth management platforms including Salesforce, Orion, Black Diamond, Addepar, eMoney, and Plaid. Backed by Insight Partners. No public developer portal or API documentation is published; the api.justvanilla.com host is private.
 image: https://www.justvanilla.com/wp-content/uploads/2025/02/social-preview-iamge.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Vanilla
 nav: Providers
 network: true
 overview: 'Vanilla is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Estate Planning, Wealth Management, Financial Advisors, and Fintech.
 
 
-  Vanilla''s developer surface includes engineering blog, support, pricing, and 10 more developer resources.'
+  Vanilla''s developer surface includes engineering blog, support, pricing, and 12 more developer resources.'
+plans:
+- name: Vanilla Plans Pricing
+  plan_count: 3
+  slug: vanilla-plans-pricing
 random_paper: 17
 score:
   band: emerging
-  composite: 18.3
+  composite: 24.7
   coverage:
-    artifact_dirs: 6
-    catalog_earned: 27.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 88.0
+    artifact_dirs: 7
+    catalog_earned: 39.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.4
   facets:
-    access_clarity: 53.9
+    access_clarity: 85.5
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
@@ -129,9 +142,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 17.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

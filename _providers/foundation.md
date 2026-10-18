@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: GraphQL API powered by The Graph protocol that indexes all Foundation NFT marketplace activity on Ethereum mainnet. Supports queries for NFTs, creators, collectors, auctions, bids, offers, buy-now lis
@@ -44,6 +44,21 @@ apis:
   slug: foundation-smart-contract-api
 artifact_total: 8
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/foundation/refs/heads/main/plans/plans.yml
+  title: ''
+  type: Plans
+  url: plans/plans.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/foundation/refs/heads/main/rate-limits/rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/foundation/refs/heads/main/finops/finops.yml
+  title: ''
+  type: FinOps
+  url: finops/finops.yml
 - group: company
   title: ''
   type: Website
@@ -89,9 +104,13 @@ common:
 created: '2026-06-13'
 description: Foundation is a creator-focused NFT marketplace built on Ethereum that enables digital artists to mint, showcase, and auction unique digital artworks. The platform provides a GraphQL API via The Graph protocol for querying artwork, auctions, bids, collector profiles, offers, buy-now listings, and edition drop data. Foundation smart contracts remain live on Ethereum mainnet, and the subgraph continues to index on-chain activity for programmatic access.
 finops:
-- name: Finops
+- has_sources: false
+  method: generated
+  name: Finops
+  primary_unit: ''
   service_category: ''
   slug: finops
+  template: true
 graphqls:
 - description: Foundation was a creator-focused NFT marketplace built on Ethereum that enabled digital artists to mint, showcase, and auction unique digital artworks. The platform exposed a GraphQL API via The Graph
   name: Foundation GraphQL API
@@ -102,10 +121,10 @@ modified: '2026-06-13'
 name: Foundation
 nav: Providers
 network: true
-overview: 'Foundation publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include NFT, Digital Art, Marketplace, Ethereum, and Web3.
+overview: 'Foundation is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include NFT, Digital Art, Marketplace, Ethereum, and Web3.
 
 
-  Foundation''s developer surface includes engineering blog and 9 more developer resources.'
+  Foundation''s developer surface includes engineering blog and 12 more developer resources.'
 plans:
 - name: Plans
   plan_count: 3
@@ -116,23 +135,23 @@ rate_limits:
   name: Rate Limits
   slug: rate-limits
 score:
-  band: thin
-  composite: 28.8
+  band: emerging
+  composite: 21.5
   coverage:
     artifact_dirs: 10
-    catalog_earned: 58.0
+    catalog_earned: 42.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.0
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.3
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 35.1
     developer_ergonomics: 9.5
     discoverability: 66.1
-    operational_transparency: 37.4
+    operational_transparency: 23.7
   previous_composite: 28.8
   regulatory:
     applies: true
@@ -140,9 +159,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -156,7 +175,7 @@ security:
 - kind: vulnerability-disclosure
   name: Foundation Vulnerability Disclosure
   slug: foundation-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 slug: foundation
 tags:
 - NFT

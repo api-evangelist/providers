@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 3
+- acting_count: 1
   human_in_the_loop: 0
   name: Shoppable Agentic Access
   operation_count: 8
   slug: shoppable-agentic-access
-  summary_line: 8 operations · 3 acting
+  summary_line: 8 operations · 1 acting
 api_count: 1
 apis:
 - baseURL: https://cloud.shoppable.com
@@ -99,6 +99,10 @@ collections:
   name: Shoppable Commerce API Suite Catalog Products API
   slug: open-shoppable-products-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://about.shoppable.com/blog/rss.xml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/shoppable/refs/heads/main/overlays/shoppable-cloud-overlay.yaml
   title: ''
@@ -210,20 +214,20 @@ mcp_servers:
 - description: 'Official hosted Model Context Protocol server for Shoppable''s universal commerce platform. Exposes conversational product discovery, cart building, and order lookup to AI assistants (Claude, ChatGPT, '
   name: Shoppable MCP Server
   slug: shoppable-mcp-server
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Shoppable
 nav: Providers
 network: true
-overview: 'Shoppable publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Catalog API, Checkout API, Merchants API, and 3 more. Tagged areas include Company, Commerce, E-Commerce, Checkout, and Catalog.
+overview: 'Shoppable publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Catalog API, Checkout API, Merchants API, and 3 more. Tagged areas include Company, Commerce, E-Commerce, Checkout, and Catalog.
 
 
-  Shoppable''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, support, engineering blog, and 16 more developer resources.'
+  Shoppable''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, support, engineering blog, and 17 more developer resources.'
 random_paper: 12
 score:
   band: developing
   composite: 42.9
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -254,8 +258,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 22.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

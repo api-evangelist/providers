@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -106,6 +106,11 @@ collections:
   name: ChannelShipper & Royal Mail Public Labels Version API
   slug: open-royal-mail-version-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/royal-mail/refs/heads/main/finops/finops.yml
+  title: ''
+  type: FinOps
+  url: finops/finops.yml
 - group: company
   title: ''
   type: Website
@@ -179,9 +184,13 @@ examples:
   name: Manifest Orders
   slug: manifest-orders
 finops:
-- name: Finops
+- has_sources: false
+  method: generated
+  name: Finops
+  primary_unit: ''
   service_category: ''
   slug: finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/royal-mail.png
 json_schemas:
 - name: CreateOrderRequest
@@ -200,13 +209,13 @@ modified: '2026-09-16'
 name: Royal Mail
 nav: Providers
 network: true
-overview: 'Royal Mail publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Labels API, Manifests API, Orders API, and 7 more. Tagged areas include Shipping, Postal Services, Labels, Tracking, and Logistics.
+overview: 'Royal Mail publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Labels API, Manifests API, Orders API, and 7 more. Tagged areas include Shipping, Postal Services, Labels, Tracking, and Logistics.
 
 
   The Royal Mail catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Royal Mail''s developer surface includes authentication, developer portal, documentation, getting-started guide, support, and 9 more developer resources.'
+  Royal Mail''s developer surface includes authentication, developer portal, documentation, getting-started guide, support, and 10 more developer resources.'
 plans:
 - name: Plans
   plan_count: 4
@@ -217,9 +226,10 @@ rate_limits:
   name: Rate Limits
   slug: rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: Royal Mail API Rules
+  name: Royal Mail — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -229,17 +239,17 @@ rules:
   slug: royal-mail-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 39.0
+  composite: 33.4
   coverage:
-    artifact_dirs: 16
-    catalog_earned: 65.1
+    artifact_dirs: 17
+    catalog_earned: 54.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 49.9
+    catalog_gap: 60.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.6
   facets:
-    access_clarity: 46.8
+    access_clarity: 18.4
     contract_governance: 9.8
     contract_quality: 49.1
     developer_ergonomics: 47.6
@@ -267,9 +277,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

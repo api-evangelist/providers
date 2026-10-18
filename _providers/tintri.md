@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The Tintri REST API (version v310.91, mapping to TXOS 4.5 and Tintri Global Center 4.1+) runs on each VMstore appliance and TGC instance. It is session-authenticated (POST /api/v310/session/login with
@@ -41,6 +41,10 @@ apis:
   slug: tintri-vmstore-rest-api
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://tintri.com/feed/
 - group: operate
   title: ''
   type: IssueTracker
@@ -153,26 +157,26 @@ created: '2026-07-17'
 description: 'Tintri, now part of DDN, builds intelligent enterprise data-management and storage infrastructure: the VMstore virtualization-aware storage platform, the Tintri Cloud Platform (TCP) and Cloud Engine (TCE), and the Tintri Global Center (TGC) management fabric. Tintri exposes a versioned, session-authenticated REST API (v310) on every VMstore appliance and TGC instance, letting operators automate VM- and virtual-disk-level provisioning, snapshots, replication, QoS, alerting, and per-VM analytics. First-party automation ships as a Python SDK (PySDK), a PowerShell Automation Toolkit, Ansible playbooks, and Kubernetes CSI and OpenStack Cinder storage drivers, all published in the public Tintri GitHub organization alongside the REST API reference and code examples.'
 image: https://tintri.github.io/tintri-rest-api/TintriLogo-300.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Tintri
 nav: Providers
 network: true
-overview: 'Tintri publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Storage, Data Management, Infrastructure, and Virtualization.
+overview: 'Tintri is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Storage, Data Management, Infrastructure, and Virtualization.
 
 
-  Tintri''s developer surface includes documentation, API reference, engineering blog, support, getting-started guide, authentication, and 18 more developer resources.'
+  Tintri''s developer surface includes documentation, API reference, engineering blog, support, getting-started guide, authentication, and 19 more developer resources.'
 random_paper: 6
 score:
   band: emerging
-  composite: 23.5
+  composite: 23.6
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
@@ -194,8 +198,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

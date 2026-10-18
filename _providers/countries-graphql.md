@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: A public, free GraphQL endpoint that exposes queryable fields for countries, continents, and languages. Countries can be filtered by code, currency, or continent, and each country record includes fiel
@@ -92,7 +92,7 @@ modified: 2026-06-14
 name: Countries GraphQL API
 nav: Providers
 network: true
-overview: 'Countries GraphQL API publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include GraphQL, Countries, Geography, Open Data, and Free.
+overview: 'Countries GraphQL API is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include GraphQL, Countries, Geography, Open Data, and Free.
 
 
   Countries GraphQL API''s developer surface includes documentation, pricing, and 7 more developer resources.'
@@ -101,7 +101,7 @@ score:
   band: emerging
   composite: 17.5
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -122,8 +122,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

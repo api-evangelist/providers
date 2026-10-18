@@ -26,13 +26,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.0
-  scored_at: '2026-10-04'
+  score: 17.8
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -107,6 +107,10 @@ collections:
   name: OpenFEMA API
   slug: open-fema
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.fema.gov/about/news-multimedia/blog
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/fema/refs/heads/main/capabilities/fema-capability-edges.yml
   title: ''
@@ -139,14 +143,14 @@ created: '2026-07-03'
 description: OpenFEMA is FEMA's open data platform, publishing free, public, machine-readable datasets on disaster declarations, public assistance grants, hazard mitigation projects, the National Flood Insurance Program (NFIP), and emergency alerting through a read-only RESTful API. The API uses OData-style query string parameters ($filter, $select, $top, $skip, $orderby) over individually versioned dataset endpoints, requires no API key or subscription, and returns JSON, CSV, or Parquet.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fema.png
 layout: provider
-modified: '2026-07-03'
+modified: '2026-10-06'
 name: OpenFEMA
 nav: Providers
 network: true
-overview: 'OpenFEMA publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Catalog API, Disaster Declarations API, Hazard Mitigation API, and 4 more. Tagged areas include Government, Open Data, Emergency Management, Disaster, and FEMA.
+overview: 'OpenFEMA publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Catalog API, Disaster Declarations API, Hazard Mitigation API, and 4 more. Tagged areas include Government, Open Data, Emergency Management, Disaster, and FEMA.
 
 
-  OpenFEMA''s developer surface includes documentation and 5 more developer resources.'
+  OpenFEMA''s developer surface includes engineering blog, documentation, and 5 more developer resources.'
 random_paper: 13
 rate_limits:
 - limit_count: 5
@@ -154,22 +158,22 @@ rate_limits:
   slug: fema-rate-limits
 score:
   band: emerging
-  composite: 23.4
+  composite: 21.2
   coverage:
-    artifact_dirs: 7
-    catalog_earned: 47.8
+    artifact_dirs: 9
+    catalog_earned: 40.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 67.2
+    catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.2
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 43.5
-    developer_ergonomics: 16.7
+    developer_ergonomics: 19.0
     discoverability: 66.1
-    operational_transparency: 28.4
+    operational_transparency: 7.9
   previous_composite: 23.4
   provenance:
     agentic_access: derived
@@ -184,13 +188,14 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
     reason: read_only
+screenshot: https://raw.githubusercontent.com/api-evangelist/fema/refs/heads/main/screenshots/fema-2026-10-11T185531.png
 security:
 - kind: domain-security
   name: Fema Domain Security

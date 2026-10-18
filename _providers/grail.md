@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://grail.com/feed/
 - group: company
   title: ''
   type: Website
@@ -69,14 +73,14 @@ created: '2026-07-17'
 description: GRAIL, Inc. is a healthcare company headquartered in Menlo Park, California, focused on detecting cancer early, when it can be cured. Its flagship product, the Galleri multi-cancer early detection (MCED) test, uses a single blood draw and methylation-based genomic sequencing to screen for a signal shared across more than 50 types of cancer, many of which lack any recommended screening today. GRAIL runs large clinical programs including the PATHFINDER, PATHFINDER 2, and NHS-Galleri studies, and distributes Galleri through health plans, employers, and partners such as Quest Diagnostics and Junction. GRAIL is a portfolio company of investors including GV and SV Angel. It does not publish a first-party public developer API; programmatic access to Galleri ordering is offered through third-party diagnostic infrastructure partners.
 image: https://grail.com/wp-content/uploads/2021/03/GRAIL-logo.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Grail
 nav: Providers
 network: true
 overview: 'Grail is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Life Sciences, Healthcare, Cancer Detection, and Diagnostics.
 
 
-  Grail''s developer surface includes engineering blog, support, and 5 more developer resources.'
+  Grail''s developer surface includes engineering blog, support, and 6 more developer resources.'
 random_paper: 21
 score:
   band: minimal
@@ -110,8 +114,8 @@ score:
     regime: Health
     regime_id: health
     score: 10.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

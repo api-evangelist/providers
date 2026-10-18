@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -94,6 +94,21 @@ collections:
   name: Regal Cinema Loyalty Tickets API
   slug: open-regal-entertainment-group-tickets-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/regal-entertainment-group/refs/heads/main/plans/regal-entertainment-group-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/regal-entertainment-group-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/regal-entertainment-group/refs/heads/main/rate-limits/regal-entertainment-group-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/regal-entertainment-group-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/regal-entertainment-group/refs/heads/main/finops/regal-entertainment-group-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/regal-entertainment-group-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/regal-entertainment-group/refs/heads/main/capabilities/regal-entertainment-group-capability-edges.yml
   title: ''
@@ -147,9 +162,13 @@ examples:
   name: Regal Cinema List Showtimes Example
   slug: regal-cinema-list-showtimes-example
 finops:
-- name: Regal Entertainment Group Finops
+- has_sources: true
+  method: generated
+  name: Regal Entertainment Group Finops
+  primary_unit: ''
   service_category: Entertainment
   slug: regal-entertainment-group-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/regal-entertainment-group.png
 json_schemas:
 - name: Movie
@@ -175,13 +194,13 @@ modified: '2026-05-19'
 name: Regal Entertainment Group
 nav: Providers
 network: true
-overview: 'Regal Entertainment Group publishes 5 APIs on the [APIs.io](https://apis.io/) network, including regal-entertainment-group Loyalty API, regal-entertainment-group Movies API, regal-entertainment-group Showtimes API, and 2 more. Tagged areas include Cinema, Entertainment, Movies, Ticketing, and Loyalty.
+overview: 'Regal Entertainment Group publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including regal-entertainment-group Loyalty API, regal-entertainment-group Movies API, regal-entertainment-group Showtimes API, and 2 more. Tagged areas include Cinema, Entertainment, Movies, Ticketing, and Loyalty.
 
 
   The Regal Entertainment Group catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Regal Entertainment Group''s developer surface includes authentication and 9 more developer resources.'
+  Regal Entertainment Group''s developer surface includes authentication and 12 more developer resources.'
 plans:
 - name: Regal Entertainment Group Plans Pricing
   plan_count: 1
@@ -208,10 +227,11 @@ rate_limits:
   name: Regal Entertainment Group Rate Limits
   slug: regal-entertainment-group-rate-limits
 rules:
-- effective_rule_count: 49
+- authorship: unmarked
+  effective_rule_count: 49
   extends:
   - spectral:oas
-  name: Regal Entertainment Group API Rules
+  name: Regal Entertainment Group — regal cinema rules
   rule_count: 8
   severity_counts:
     error: 2
@@ -219,9 +239,10 @@ rules:
     info: 0
     warn: 6
   slug: regal-cinema-rules
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Regal Entertainment Group API Rules
+  name: Regal Entertainment Group — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -231,18 +252,18 @@ rules:
   slug: regal-entertainment-group-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 39.1
+  composite: 33.3
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 69.7
+    artifact_dirs: 21
+    catalog_earned: 55.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 45.3
+    catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.8
   facets:
-    access_clarity: 26.3
-    contract_governance: 62.7
+    access_clarity: 18.4
+    contract_governance: 27.3
     contract_quality: 55.6
     developer_ergonomics: 31.0
     discoverability: 60.7
@@ -261,12 +282,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0
+screenshot: https://raw.githubusercontent.com/api-evangelist/regal-entertainment-group/refs/heads/main/screenshots/regal-entertainment-group-2026-10-11T192832.png
 security:
 - kind: authentication
   name: Regal Entertainment Group Authentication

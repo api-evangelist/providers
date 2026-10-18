@@ -13,7 +13,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -30,13 +30,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.6
-  scored_at: '2026-10-04'
+  score: 27.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -612,16 +612,20 @@ common:
 created: '2026-07-17'
 description: PAY.JP is an online payment service operated by PAY, Inc. (PAY株式会社) in Japan. Its Stripe-style REST API lets merchants create charges, tokenize cards, manage customers, run subscriptions (定期課金), and settle transfers (入金) in Japanese yen, with a Platform API (beta) for marketplace/multi-tenant payouts.
 finops:
-- name: Payjp Finops
+- has_sources: true
+  method: generated
+  name: Payjp Finops
+  primary_unit: ''
   service_category: Payments and Financial Services
   slug: payjp-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/payjp.png
 layout: provider
 modified: '2026-07-18'
 name: PAY.JP
 nav: Providers
 network: true
-overview: 'PAY.JP publishes 14 APIs on the [APIs.io](https://apis.io/) network, including 3D Secure API, Account API, Balances API, and 11 more. Tagged areas include Payments, Fintech, Japan, Credit Cards, and Subscription.
+overview: 'PAY.JP publishes 14 API contracts indexed on the [APIs.io](https://apis.io/) network, including 3D Secure API, Account API, Balances API, and 11 more. Tagged areas include Payments, Fintech, Japan, Credit Cards, and Subscription.
 
 
   The PAY.JP catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -638,23 +642,23 @@ rate_limits:
   name: Payjp Rate Limits
   slug: payjp-rate-limits
 score:
-  band: exemplar
-  composite: 70.8
+  band: strong
+  composite: 62.5
   coverage:
     artifact_dirs: 28
-    catalog_earned: 61.6
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.4
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 96.8
+    access_clarity: 68.4
     contract_governance: 18.2
     contract_quality: 55.2
     developer_ergonomics: 74.4
     discoverability: 73.2
-    operational_transparency: 78.4
+    operational_transparency: 57.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -679,9 +683,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 44.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

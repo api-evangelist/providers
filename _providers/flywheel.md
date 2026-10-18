@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Full REST API for the Flywheel platform, covering the container hierarchy (groups, projects, subjects, sessions, acquisitions, files, analyses), gears and jobs, users and permissions, and search. Docu
@@ -42,6 +42,14 @@ apis:
   slug: flywheel-core-api
 artifact_total: 4
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://flywheel.io/resources/blog/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://flywheel.io/resources/blog/feed/
 - group: start
   title: ''
   type: DeveloperPortal
@@ -160,26 +168,26 @@ created: '2026-07-17'
 description: Flywheel is a medical imaging data management and AI development platform for biomedical research, clinical trials, and medical device R&D. It securely ingests, organizes, de-identifies, processes, and analyzes imaging data (DICOM, NIfTI, and more) in a strict container hierarchy (Group, Project, Subject, Session, Acquisition, File, Analysis) and automates workflows with reusable plug-in applications called Gears. Developers integrate through a per-instance REST API documented with Swagger, an official Python SDK, a command line interface, and an open-source Developer Toolkit (fw-client, fw-file, fw-gear, fw-curation, fw-classification). Flywheel is HIPAA, SOC 2/SOC 3, GDPR, and 21 CFR Part 11 compliant. Surfaced as an 8vc portfolio company and enriched by the API Evangelist pipeline.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/flywheel.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Flywheel
 nav: Providers
 network: true
-overview: 'Flywheel publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Imaging, Healthcare, Data Management, and Machine Learning.
+overview: 'Flywheel is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Imaging, Healthcare, Data Management, and Machine Learning.
 
 
-  Flywheel''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, changelog, support, and 18 more developer resources.'
+  Flywheel''s developer surface includes engineering blog, documentation, API reference, getting-started guide, authentication, CLI, changelog, and 20 more developer resources.'
 random_paper: 6
 score:
   band: thin
-  composite: 36.0
+  composite: 36.1
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 36.8
     contract_governance: 18.2
@@ -202,8 +210,8 @@ score:
     regime: Health
     regime_id: health
     score: 22.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 8
+- acting_count: 5
   human_in_the_loop: 0
   name: Itron Agentic Access
   operation_count: 13
   slug: itron-agentic-access
-  summary_line: 13 operations · 8 acting
+  summary_line: 13 operations · 5 acting
 api_count: 1
 apis:
 - description: Partner-gated platform for building purpose-built applications that execute on Itron-DI-enabled electric meters at the grid edge. Itron describes DI as moving "grid analysis, decision-making and contr
@@ -251,9 +251,13 @@ examples:
   name: Starfish Token Request Example
   slug: starfish-token-request-example
 finops:
-- name: Itron Finops
+- has_sources: false
+  method: generated
+  name: Itron Finops
+  primary_unit: ''
   service_category: ''
   slug: itron-finops
+  template: true
 image: https://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/api-evangelist-icon.jpg
 json_schemas:
 - name: Itron Starfish Device
@@ -279,7 +283,7 @@ modified: '2026-05-23'
 name: Itron
 nav: Providers
 network: true
-overview: 'Itron publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Device Templates API, Devices API, Observations API, and 8 more. Tagged areas include Itron, Utilities, Smart Meter, Smart Grid, and Smart Cities.
+overview: 'Itron publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Device Templates API, Devices API, Observations API, and 8 more. Tagged areas include Itron, Utilities, Smart Meter, Smart Grid, and Smart Cities.
 
 
   The Itron catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -296,9 +300,10 @@ rate_limits:
   name: Itron Rate Limits
   slug: itron-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Itron API Rules
+  name: Itron — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -306,10 +311,11 @@ rules:
     info: 2
     warn: 3
   slug: itron-jsonschema-spectral-rules
-- effective_rule_count: 49
+- authorship: unmarked
+  effective_rule_count: 49
   extends:
   - spectral:oas
-  name: Itron API Rules
+  name: Itron — starfish data platform rules
   rule_count: 8
   severity_counts:
     error: 3
@@ -319,22 +325,22 @@ rules:
   slug: starfish-data-platform-rules
 score:
   band: developing
-  composite: 48.8
+  composite: 40.5
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 78.6
+    artifact_dirs: 18
+    catalog_earned: 60.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 36.4
+    catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 49.5
+    access_clarity: 21.1
     contract_governance: 27.3
     contract_quality: 55.9
     developer_ergonomics: 47.6
     discoverability: 67.0
-    operational_transparency: 46.8
+    operational_transparency: 26.3
   previous_composite: 48.8
   provenance:
     agentic_access: derived
@@ -349,9 +355,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 13.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

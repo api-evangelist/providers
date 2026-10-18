@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: 'Token-based REST API for managing first-party data, building and editing audience segments, activating audiences, and retrieving behavior and audience analytics on the Lotame Spherical platform. JSON '
@@ -44,6 +44,14 @@ apis:
   slug: panorama-id-server-side-api
 artifact_total: 6
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.lotame.com/resources/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.lotame.com/feed/
 - group: company
   title: ''
   type: Website
@@ -170,14 +178,14 @@ created: '2026-07-17'
 description: Lotame Solutions is a data collaboration and identity company for digital marketing and advertising. Its Spherical platform lets marketers, agencies, and publishers connect, enrich, and activate first- and third-party audience data, while Panorama ID delivers a privacy-first, cookieless identity for addressability across web, mobile app, and CTV. Lotame exposes a token-based Admin Services REST API (api.lotame.com/2/) for managing first-party data, building audiences, and pulling behavior and audience statistics, plus a server-side Panorama ID resolution API on sid.crwdcntrl.net for web and mobile (MAID) identity lookups. Lotame operates across 24 countries and was acquired by Publicis Groupe.
 image: https://cdn-ilbibgp.nitrocdn.com/eakWUVxgVLoymIJUurpQZcwTweYHDeju/assets/images/optimized/rev-6d2d189/www.lotame.com/wp-content/uploads/2025/05/lotame-website-favicon-300x300.png
 layout: provider
-modified: '2026-08-13'
+modified: '2026-10-06'
 name: Lotame Solutions
 nav: Providers
 network: true
-overview: 'Lotame Solutions publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data Management Platform, Identity, Advertising, and Marketing.
+overview: 'Lotame Solutions is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data Management Platform, Identity, Advertising, and Marketing.
 
 
-  Lotame Solutions'' developer surface includes documentation, API reference, support, signup flow, engineering blog, authentication, and 21 more developer resources.'
+  Lotame Solutions'' developer surface includes engineering blog, documentation, API reference, support, signup flow, authentication, and 23 more developer resources.'
 plans:
 - name: Lotame Solutions Plans Pricing
   plan_count: 0
@@ -189,15 +197,15 @@ rate_limits:
   slug: lotame-solutions-rate-limits
 score:
   band: thin
-  composite: 28.5
+  composite: 28.6
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 35.5
     contract_governance: 18.2
@@ -215,8 +223,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

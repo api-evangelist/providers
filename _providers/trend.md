@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - baseURL: https://api.trend.io
@@ -269,7 +269,7 @@ modified: '2026-09-16'
 name: Trend
 nav: Providers
 network: true
-overview: 'Trend publishes 20 APIs on the [APIs.io](https://apis.io/) network, including AI API, Auth API, Basic Authentication (AI) API, and 17 more. Tagged areas include Company, User Generated Content, Creator Economy, Content Marketing, and Video Production.
+overview: 'Trend publishes 20 API contracts indexed on the [APIs.io](https://apis.io/) network, including AI API, Auth API, Basic Authentication (AI) API, and 17 more. Tagged areas include Company, User Generated Content, Creator Economy, Content Marketing, and Video Production.
 
 
   Trend''s developer surface includes pricing, signup flow, support, engineering blog, API reference, authentication, and 19 more developer resources.'
@@ -286,7 +286,7 @@ score:
   band: thin
   composite: 38.6
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -316,8 +316,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 22.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

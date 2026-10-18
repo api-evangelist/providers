@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: TfGM transport network data
@@ -66,7 +66,7 @@ modified: '2026-05-28'
 name: Transport for Manchester, England
 nav: Providers
 network: true
-overview: Transport for Manchester, England publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Transportation and Public APIs.
+overview: Transport for Manchester, England is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Transportation and Public APIs.
 random_paper: 6
 score:
   band: minimal
@@ -93,13 +93,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/transport-for-manchester-england/refs/heads/main/screenshots/transport-for-manchester-england-2026-10-11T193554.png
 security:
 - kind: domain-security
   name: Transport For Manchester England Domain Security
@@ -108,7 +109,7 @@ security:
 - kind: vulnerability-disclosure
   name: Transport For Manchester England Vulnerability Disclosure
   slug: transport-for-manchester-england-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 slug: transport-for-manchester-england
 tags:
 - Transportation

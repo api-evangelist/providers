@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: The agent-facing commerce surface of L-Nutra's direct-to-consumer ProLon storefront. An anonymous MCP endpoint at https://prolonlife.com/api/ucp/mcp implements Universal Commerce Protocol 2026-04-08 a
@@ -50,6 +50,14 @@ apis:
   slug: prolon-professional-agentic-commerce-ucpmcp
 artifact_total: 9
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://prolonlife.com/blogs/stories
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://prolonlife.com/blogs/stories.atom
 - group: company
   title: ''
   type: Website
@@ -167,14 +175,14 @@ mcp_servers:
 - description: L-Nutra operates no developer platform, but all three of its storefronts expose live, anonymous, remote MCP endpoints. Each storefront serves a Universal Commerce Protocol (UCP) 2026-04-08 discovery p
   name: L-Nutra MCP Server
   slug: l-nutra-mcp-yml
-modified: '2026-08-23'
+modified: '2026-10-06'
 name: L-Nutra
 nav: Providers
 network: true
-overview: 'L-Nutra publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Nutrition, Health, Longevity, and Consumer Products.
+overview: 'L-Nutra is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Nutrition, Health, Longevity, and Consumer Products.
 
 
-  L-Nutra''s developer surface includes documentation, support, pricing, signup flow, authentication, and 18 more developer resources.'
+  L-Nutra''s developer surface includes engineering blog, documentation, support, pricing, signup flow, authentication, and 19 more developer resources.'
 plans:
 - name: L Nutra Plans Pricing
   plan_count: 0
@@ -191,20 +199,20 @@ scopes:
   summary_line: 4 scopes
 score:
   band: thin
-  composite: 27.0
+  composite: 27.5
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 18
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 44.7
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 28.0
+    developer_ergonomics: 30.4
     discoverability: 71.7
     operational_transparency: 0.0
   previous_composite: 27.0
@@ -218,8 +226,8 @@ score:
     regime: Health
     regime_id: health
     score: 32.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

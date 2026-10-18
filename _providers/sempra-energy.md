@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Sempra Energy runs a Google Apigee API program. api.sempra.com is the Apigee runtime gateway — an unrouted request returns the genuine Apigee messaging.adaptors.http.flow.ApplicationNotFound JSON faul
@@ -119,7 +119,7 @@ modified: '2026-08-28'
 name: Sempra Energy
 nav: Providers
 network: true
-overview: 'Sempra Energy publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500, Energy, Utilities, Natural Gas, and Electricity.
+overview: 'Sempra Energy is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500, Energy, Utilities, Natural Gas, and Electricity.
 
 
   Sempra Energy''s developer surface includes authentication and 10 more developer resources.'
@@ -189,13 +189,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 9.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/sempra-energy/refs/heads/main/screenshots/sempra-energy-2026-10-11T125706.png
 security:
 - kind: authentication
   name: Sempra Energy Authentication

@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -86,6 +86,10 @@ collections:
   name: Bayou Energy API
   slug: open-bayou-energy
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.bayou.energy/feed/
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/bayou-energy/refs/heads/main/agentic-access/bayou-energy-agentic-access.yml
   title: ''
@@ -135,19 +139,23 @@ common:
 created: '2026-06-21'
 description: Bayou Energy provides a utility-bill and usage-data API that lets companies collect their customers' utility account, bill, and interval meter data from US utilities. Customers link their utility credentials through a hosted onboarding flow, and Bayou continuously fetches the full bill and interval history, exposing it through a REST API secured with HTTP Basic authentication.
 finops:
-- name: Bayou Energy Finops
+- has_sources: true
+  method: generated
+  name: Bayou Energy Finops
+  primary_unit: ''
   service_category: Analytics
   slug: bayou-energy-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bayou-energy.png
 layout: provider
-modified: '2026-06-21'
+modified: '2026-10-06'
 name: Bayou Energy
 nav: Providers
 network: true
-overview: 'Bayou Energy publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Bills API, Customers API, Intervals API, and 1 more. Tagged areas include Utility Data, Energy, Utility Bills, Interval Data, and Metering.
+overview: 'Bayou Energy publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Bills API, Customers API, Intervals API, and 1 more. Tagged areas include Utility Data, Energy, Utility Bills, Interval Data, and Metering.
 
 
-  Bayou Energy''s developer surface includes authentication, documentation, engineering blog, and 7 more developer resources.'
+  Bayou Energy''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
 plans:
 - name: Bayou Energy Plans Pricing
   plan_count: 2
@@ -158,23 +166,23 @@ rate_limits:
   name: Bayou Energy Rate Limits
   slug: bayou-energy-rate-limits
 score:
-  band: thin
-  composite: 29.7
+  band: emerging
+  composite: 23.6
   coverage:
     artifact_dirs: 11
-    catalog_earned: 54.4
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 60.6
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.1
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 47.8
     developer_ergonomics: 22.6
     discoverability: 66.1
-    operational_transparency: 18.9
+    operational_transparency: 5.3
   previous_composite: 29.7
   provenance:
     agentic_access: derived
@@ -189,9 +197,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 9.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

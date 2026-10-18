@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: REST API that automates tax registration, calculation, and filing while the merchant keeps their own checkout and PSP. Server-to-server, OAuth2 client-credentials. Covers tax calculations, tax transac
@@ -152,7 +152,7 @@ modified: '2026-07-20'
 name: Outpost
 nav: Providers
 network: true
-overview: 'Outpost publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Merchant of Record, Tax of Record, Cross-Border Commerce, and Payments.
+overview: 'Outpost is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Merchant of Record, Tax of Record, Cross-Border Commerce, and Payments.
 
 
   The Outpost catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -164,7 +164,7 @@ score:
   band: thin
   composite: 35.9
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -188,8 +188,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 22.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

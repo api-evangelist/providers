@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 8
+- acting_count: 7
   human_in_the_loop: 0
   name: Weavix Agentic Access
   operation_count: 19
   slug: weavix-agentic-access
-  summary_line: 19 operations · 8 acting
+  summary_line: 19 operations · 7 acting
 api_count: 1
 apis:
 - baseURL: https://api.weavix.com
@@ -118,6 +118,10 @@ collections:
   name: weavix REST Channels & Messaging User Management API
   slug: open-weavix-user-management-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://weavix.com/feed/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/weavix/refs/heads/main/overlays/weavix-rest-overlay.yaml
   title: ''
@@ -250,23 +254,23 @@ mcp_servers:
 - description: Remote MCP server over HTTP; 18 tools listed. A candidate, not confirmed as published by the provider.
   name: Weavix MCP Server
   slug: weavix
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Weavix
 nav: Providers
 network: true
-overview: 'Weavix publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Channels & Messaging API, Crafts API, Forms API, and 5 more. Tagged areas include Communications, Frontline Workers, Workforce Management, Messaging, and Push To Talk.
+overview: 'Weavix publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Channels & Messaging API, Crafts API, Forms API, and 5 more. Tagged areas include Communications, Frontline Workers, Workforce Management, Messaging, and Push To Talk.
 
 
   The Weavix catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Weavix''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, signup flow, authentication, and 20 more developer resources.'
+  Weavix''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, signup flow, authentication, and 21 more developer resources.'
 random_paper: 0
 score:
   band: developing
   composite: 41.6
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 21
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -304,8 +308,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

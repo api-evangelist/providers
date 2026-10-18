@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: 'The WeWork Partner API exposes the company''s global workspace inventory to integrators so that Supply Partners (third-party operators contributing spaces to WeWork) and Demand Partners (resellers and '
@@ -44,6 +44,10 @@ apis:
   slug: workplace
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.wework.com/newsroom
 - group: company
   title: ''
   type: Website
@@ -137,31 +141,31 @@ created: '2026-05-23'
 description: WeWork is a global flexible-workspace provider operating ~600 owned locations plus a Coworking Partner Network of 2,000+ partner spaces across 20+ countries. The company filed for Chapter 11 bankruptcy on November 6, 2023 and emerged on May 30, 2024 as a private company majority-owned by real estate technology vendor Yardi Systems. WeWork exposes a Partner API ("Partner API will help bring WeWork space bookings to your apps and websites") for Supply and Demand partners covering identity, locations, inventory, availability/calendaring, booking, and keycard access, but the full API reference sits behind Auth0 authentication and is not publicly catalogable. No public OpenAPI, AsyncAPI, SDKs, CLIs, status page, RSS feed, or rate-limit documentation could be located.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wework.png
 layout: provider
-modified: '2026-09-16'
+modified: '2026-10-06'
 name: WeWork
 nav: Providers
 network: true
-overview: 'WeWork publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Co-Working, Flexible Workspace, Real Estate, Workspace Booking, and Workplace Management.
+overview: 'WeWork is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Co-Working, Flexible Workspace, Real Estate, Workspace Booking, and Workplace Management.
 
 
-  WeWork''s developer surface includes developer portal, documentation, API reference, getting-started guide, release notes, authentication, signup flow, and 15 more developer resources.'
+  WeWork''s developer surface includes engineering blog, developer portal, documentation, API reference, getting-started guide, release notes, authentication, and 16 more developer resources.'
 random_paper: 11
 score:
   band: emerging
-  composite: 21.2
+  composite: 21.8
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 27.6
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 34.5
+    developer_ergonomics: 36.9
     discoverability: 58.0
     operational_transparency: 18.4
   previous_composite: 21.2
@@ -171,8 +175,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: 'Disburse money programmatically to any Indonesian bank account or e-wallet. Create single and bulk disbursements, inquire bank accounts, list bank codes, and receive callbacks on disbursement status. '
@@ -171,7 +171,7 @@ modified: '2026-07-19'
 name: Flip
 nav: Providers
 network: true
-overview: 'Flip publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Payment Gateway, Money Transfer, and Disbursements.
+overview: 'Flip is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Payment Gateway, Money Transfer, and Disbursements.
 
 
   The Flip catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -211,8 +211,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 17.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

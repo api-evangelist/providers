@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.helixnano.com/news/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/helix-nano/refs/heads/main/security/helix-nano-domain-security.yml
   title: ''
@@ -53,28 +57,31 @@ created: '2026-07-17'
 description: Helix Nano (HelixNano) is a Boston-based biotechnology company developing new ways to manipulate messenger RNA (mRNA) — the molecule that carries instructions from genes to the cell's protein-making machinery. Backed by DCVC since 2017, the company has developed techniques to improve the effectiveness and specificity of mRNA vaccines, including a next-generation COVID-19 vaccine engineered to resist viral mutation. HelixNano is now pursuing a broader vision of self-designing, adaptive therapeutics — drugs that could improve with every patient and, ideally, require only a single dose. The company operates out of 5 Channel Center Street in Boston, Massachusetts, and remains at an early, largely stealth stage with no public developer program or API surface at this time.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/helix-nano.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Helix Nano
 nav: Providers
 network: true
-overview: Helix Nano is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, mRNA, Vaccines, and Therapeutics.
+overview: 'Helix Nano is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, mRNA, Vaccines, and Therapeutics.
+
+
+  Helix Nano''s developer surface includes engineering blog and 3 more developer resources.'
 random_paper: 21
 score:
   band: minimal
-  composite: 3.7
+  composite: 4.2
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 48.2
     operational_transparency: 0.0
   jurisdiction:
@@ -91,8 +98,8 @@ score:
     regime: Health
     regime_id: health
     score: 4.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

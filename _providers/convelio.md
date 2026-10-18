@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -201,7 +201,7 @@ modified: '2026-08-09'
 name: Convelio
 nav: Providers
 network: true
-overview: 'Convelio publishes 2 APIs on the [APIs.io](https://apis.io/) network: Shipping API and Webhook API. Tagged areas include Company, Logistics, Shipping, Fine Art, and Freight.
+overview: 'Convelio publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Shipping API and Webhook API. Tagged areas include Company, Logistics, Shipping, Fine Art, and Freight.
 
 
   The Convelio catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -213,7 +213,7 @@ score:
   band: developing
   composite: 43.4
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -252,8 +252,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 21.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

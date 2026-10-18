@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 7.2
-  scored_at: '2026-10-04'
+  score: 5.3
+  scored_at: '2026-10-17'
 api_count: 8
 apis:
 - description: Open Archives Initiative Protocol for Metadata Harvesting (OAI-PMH 2.0) endpoint for DepositOnce, TU Berlin's institutional repository for publications and research data, operated by the University Li
@@ -203,9 +203,13 @@ created: '2026-06-03'
 description: 'Technische Universität Berlin (TU Berlin) is a public technical research university in Berlin, Germany, and a member of the Berlin University Alliance and the TU9 alliance of German institutes of technology. It operates no central developer portal, publishes no OpenAPI, AsyncAPI or apis.json of its own, and sells no API product — its programmable footprint is the set of standards-based endpoints its own IT units expose on its own hosts, running third-party software. Confirmed live and unauthenticated: the DepositOnce institutional repository (DSpace 9, OAI-PMH with 15 metadata formats, a REST/HAL API and an OpenSearch description, minting DataCite DOIs under prefix 10.14279); a Shibboleth SAML 2.0 Identity Provider whose federation metadata is public (entityID https://ephraim.tu-berlin.de/shibboleth, DFN-AAI); a self-hosted GitLab whose REST v4 lists 2,851 public projects without credentials and which is its own OAuth2/OIDC provider; a Matrix homeserver (Synapse) with the Client-Server
   API answering openly; and ISIS, the institutional Moodle, acting as an LTI 1.3 platform with a public keyset. Library discovery is an Ex Libris Primo tenant, not TU Berlin engineering. Nothing here is an institution-authored contract, and none is claimed.'
 finops:
-- name: Tu Berlin Finops
+- has_sources: true
+  method: generated
+  name: Tu Berlin Finops
+  primary_unit: ''
   service_category: Education
   slug: tu-berlin-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tu-berlin.png
 jsonld:
 - class_count: 17
@@ -217,7 +221,7 @@ modified: '2026-08-30'
 name: Technical University of Berlin
 nav: Providers
 network: true
-overview: 'Technical University of Berlin publishes 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include University, Higher Education, Education, Technical University, and Germany.
+overview: 'Technical University of Berlin is listed with 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include University, Higher Education, Education, Technical University, and Germany.
 
 
   The Technical University of Berlin catalog on APIs.io includes 1 JSON-LD context.
@@ -240,22 +244,22 @@ scopes:
   summary_line: 26 scopes · authorizationCode/clientCredentials/deviceCode
 score:
   band: thin
-  composite: 38.0
+  composite: 31.9
   coverage:
     artifact_dirs: 12
-    catalog_earned: 65.4
+    catalog_earned: 52.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 49.6
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.2
+  delta: -6.1
   facets:
-    access_clarity: 47.9
+    access_clarity: 26.3
     contract_governance: 18.2
     contract_quality: 14.3
     developer_ergonomics: 28.6
     discoverability: 71.4
-    operational_transparency: 47.9
+    operational_transparency: 34.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -264,7 +268,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 43.2
+  previous_composite: 38.0
   provenance:
     conformance: first-party
   regulatory:
@@ -273,8 +277,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 42.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: falling
   upsert:
     applies: false

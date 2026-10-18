@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -94,6 +94,25 @@ collections:
   name: United Rentals Total Control API
   slug: open-united-rentals-total-control
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/united-rentals/refs/heads/main/plans/united-rentals-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/united-rentals-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/united-rentals/refs/heads/main/rate-limits/united-rentals-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/united-rentals-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/united-rentals/refs/heads/main/finops/united-rentals-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/united-rentals-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.unitedrentals.com/resources/articles
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/united-rentals/refs/heads/main/capabilities/united-rentals-capability-edges.yml
   title: ''
@@ -179,9 +198,13 @@ examples:
   name: United Rentals Total Control Listinvoices Example
   slug: united-rentals-total-control-listInvoices-example
 finops:
-- name: United Rentals Finops
+- has_sources: false
+  method: generated
+  name: United Rentals Finops
+  primary_unit: ''
   service_category: API
   slug: united-rentals-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/united-rentals.png
 json_schemas:
 - name: United Rentals Invoice
@@ -200,17 +223,17 @@ jsonld:
   property_count: 32
   slug: united-rentals-context
 layout: provider
-modified: '2026-09-16'
+modified: '2026-10-06'
 name: United Rentals
 nav: Providers
 network: true
-overview: 'United Rentals publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Equipment API, Fleet API, Invoices API, and 2 more. Tagged areas include Equipment Rental, Procurement, Supply Chain, Construction, and Fortune 500.
+overview: 'United Rentals publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Equipment API, Fleet API, Invoices API, and 2 more. Tagged areas include Equipment Rental, Procurement, Supply Chain, Construction, and Fortune 500.
 
 
   The United Rentals catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  United Rentals'' developer surface includes authentication and 16 more developer resources.'
+  United Rentals'' developer surface includes engineering blog, authentication, and 19 more developer resources.'
 plans:
 - name: United Rentals Plans Pricing
   plan_count: 3
@@ -237,9 +260,10 @@ rate_limits:
   name: United Rentals Rate Limits
   slug: united-rentals-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: United Rentals API Rules
+  name: United Rentals — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -247,7 +271,8 @@ rules:
     info: 2
     warn: 3
   slug: united-rentals-jsonschema-spectral-rules
-- effective_rule_count: 56
+- authorship: unmarked
+  effective_rule_count: 56
   extends:
   - spectral:oas
   name: United Rentals API Rules
@@ -260,20 +285,20 @@ rules:
   slug: united-rentals-rules
 score:
   band: thin
-  composite: 31.4
+  composite: 30.4
   coverage:
     artifact_dirs: 20
-    catalog_earned: 63.0
+    catalog_earned: 60.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 52.0
+    catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.0
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 27.3
     contract_quality: 54.5
-    developer_ergonomics: 21.4
+    developer_ergonomics: 23.8
     discoverability: 66.1
     operational_transparency: 7.9
   jurisdiction:
@@ -295,8 +320,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

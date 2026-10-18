@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The External API (ExtAPI) is named in the company's own llms.txt as the integration surface used to synchronize employee and organizational data from HRIS and identity systems that lack a native conne
@@ -147,7 +147,7 @@ modified: '2026-07-19'
 name: Lanes & Planes
 nav: Providers
 network: true
-overview: 'Lanes & Planes publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Travel, Business Travel, Travel Management, and Expense Management.
+overview: 'Lanes & Planes is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Travel, Business Travel, Travel Management, and Expense Management.
 
 
   Lanes & Planes'' developer surface includes documentation, support, engineering blog, pricing, signup flow, authentication, and 17 more developer resources.'
@@ -191,8 +191,8 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

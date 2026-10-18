@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 3.8
-  scored_at: '2026-10-04'
+  score: 1.9
+  scored_at: '2026-10-17'
 api_count: 9
 apis:
 - description: Provides programmatic access to Bloomberg's comprehensive financial data including pricing, reference data, fundamentals, and historical information. Content can be accessed via a REST API, SFTP, or n
@@ -65,6 +65,21 @@ apis:
   slug: bloomberg-data-license-plus-dl
 artifact_total: 35
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/bloomberg-professional-service/refs/heads/main/plans/bloomberg-professional-service-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/bloomberg-professional-service-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/bloomberg-professional-service/refs/heads/main/rate-limits/bloomberg-professional-service-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/bloomberg-professional-service-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/bloomberg-professional-service/refs/heads/main/finops/bloomberg-professional-service-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/bloomberg-professional-service-finops.yml
 - group: company
   title: ''
   type: Website
@@ -162,9 +177,13 @@ features:
 - Terminal Connect for third-party app synchronization
 - App Portal for Terminal ecosystem extensions
 finops:
-- name: Bloomberg Professional Service Finops
+- has_sources: false
+  method: generated
+  name: Bloomberg Professional Service Finops
+  primary_unit: ''
   service_category: API
   slug: bloomberg-professional-service-finops
+  template: true
 image: https://www.bloomberg.com/company/press/wp-content/uploads/sites/40/2018/02/Bloomberg_Logo_2018.png
 integrations:
 - Bloomberg Terminal
@@ -180,10 +199,10 @@ modified: '2026-09-16'
 name: Bloomberg Professional Service
 nav: Providers
 network: true
-overview: 'Bloomberg Professional Service publishes 9 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Analytics, Cloud, Data Management, Enterprise, and Financial Services.
+overview: 'Bloomberg Professional Service is listed with 9 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Analytics, Cloud, Data Management, Enterprise, and Financial Services.
 
 
-  Bloomberg Professional Service''s developer surface includes developer portal, documentation, support, and 18 more developer resources.'
+  Bloomberg Professional Service''s developer surface includes developer portal, documentation, support, and 21 more developer resources.'
 plans:
 - name: Bloomberg Professional Service Plans Pricing
   plan_count: 3
@@ -195,17 +214,17 @@ rate_limits:
   slug: bloomberg-professional-service-rate-limits
 score:
   band: thin
-  composite: 31.1
+  composite: 29.7
   coverage:
     artifact_dirs: 6
-    catalog_earned: 49.0
+    catalog_earned: 46.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 66.0
+    catalog_gap: 69.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.4
   facets:
-    access_clarity: 47.4
+    access_clarity: 39.5
     contract_governance: 0.0
     contract_quality: 6.5
     developer_ergonomics: 40.5
@@ -221,8 +240,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 18.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

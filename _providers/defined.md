@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'Codex is Defined''s unified GraphQL API for real-time blockchain data: token prices, OHLCV bars, trades, liquidity pools, holders, wallet analytics, prediction markets and launchpad data across 100+ EV'
@@ -46,6 +46,10 @@ asyncapis:
   name: Defined Webhooks
   slug: defined-webhooks
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.codex.io/blog/rss.xml
 - group: company
   title: ''
   type: Website
@@ -175,17 +179,17 @@ mcp_servers:
 - description: Codex (Defined's developer API) operates an official remote, hosted MCP server that lets AI coding tools search and reference the Codex GraphQL API documentation — queries, subscriptions, types and gu
   name: Defined MCP Server
   slug: codex-docs
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Defined
 nav: Providers
 network: true
-overview: 'Defined publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cryptocurrency, Blockchain, DeFi, and Market Data.
+overview: 'Defined is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cryptocurrency, Blockchain, DeFi, and Market Data.
 
 
   The Defined catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Defined''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 20 more developer resources.'
+  Defined''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 21 more developer resources.'
 random_paper: 15
 score:
   band: developing
@@ -216,8 +220,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 23.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

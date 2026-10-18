@@ -32,10 +32,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://alterest.co/en-us
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://alterest.co/feed.xml
 - group: company
   title: ''
   type: Website
@@ -70,31 +78,31 @@ created: '2026-07-17'
 description: Alterest is the operating platform for asset-based finance (ABF), giving credit funds, banks, specialty lenders, and loan originators verification-first workflows, a unified data model, and AI-assisted controls over capital deployment, SPV operations, and asset origination. The platform digitizes facility management, borrowing-base calculations, trigger and covenant monitoring, multi-party workflows, and automated investor reporting, while running daily verification, tape-to-collections matching, integrity checks, and double-pledge detection to prevent fraud. It replaces fragmented spreadsheets and email with a system of record, portfolio analytics, immutable audit trails, and SFTP plus API data feeds to lender systems. Founded in 2016 and based in London, Alterest oversees $15B+ in capital across 250+ transactions, 9+ asset classes, and 4+ regions (US, UK, EU, APAC), and is backed by Seedcamp.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/alterest.png
 layout: provider
-modified: '2026-07-17'
+modified: '2026-10-06'
 name: Alterest
 nav: Providers
 network: true
 overview: 'Alterest is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Asset-Based Finance, Private Credit, and Structured Finance.
 
 
-  Alterest''s developer surface includes support and 6 more developer resources.'
+  Alterest''s developer surface includes engineering blog, support, and 7 more developer resources.'
 random_paper: 10
 score:
   band: minimal
-  composite: 8.2
+  composite: 8.8
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 4.8
+    developer_ergonomics: 7.1
     discoverability: 48.2
     operational_transparency: 0.0
   jurisdiction:
@@ -110,8 +118,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

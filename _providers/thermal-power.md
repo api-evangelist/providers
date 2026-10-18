@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.6
-  scored_at: '2026-10-04'
+  score: 27.4
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -78,6 +78,21 @@ collections:
   name: Thermal Power API
   slug: open-thermal-power
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/thermal-power/refs/heads/main/plans/thermal-power-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/thermal-power-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/thermal-power/refs/heads/main/rate-limits/thermal-power-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/thermal-power-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/thermal-power/refs/heads/main/finops/thermal-power-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/thermal-power-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/thermal-power/refs/heads/main/agentic-access/thermal-power-agentic-access.yml
   title: ''
@@ -123,9 +138,13 @@ examples:
   name: Thermal Power Get Facility Fuel Data Example
   slug: thermal-power-get-facility-fuel-data-example
 finops:
-- name: Thermal Power Finops
+- has_sources: false
+  method: generated
+  name: Thermal Power Finops
+  primary_unit: ''
   service_category: API
   slug: thermal-power-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/thermal-power.png
 json_schemas:
 - name: Thermal Power Plant Record
@@ -145,13 +164,13 @@ modified: '2026-09-16'
 name: Thermal Power
 nav: Providers
 network: true
-overview: 'Thermal Power publishes 3 APIs on the [APIs.io](https://apis.io/) network: Capacity API, Plant Operations API, and Operations API. Tagged areas include Energy, Thermal Power, Power Generation, Electricity, and Coal.
+overview: 'Thermal Power publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Capacity API, Plant Operations API, and Operations API. Tagged areas include Energy, Thermal Power, Power Generation, Electricity, and Coal.
 
 
   The Thermal Power catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Thermal Power''s developer surface includes authentication, documentation, signup flow, and 5 more developer resources.'
+  Thermal Power''s developer surface includes authentication, documentation, signup flow, and 8 more developer resources.'
 plans:
 - name: Thermal Power Plans Pricing
   plan_count: 3
@@ -162,9 +181,10 @@ rate_limits:
   name: Thermal Power Rate Limits
   slug: thermal-power-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Thermal Power API Rules
+  name: Thermal Power — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -172,7 +192,8 @@ rules:
     info: 2
     warn: 3
   slug: thermal-power-jsonschema-spectral-rules
-- effective_rule_count: 8
+- authorship: unmarked
+  effective_rule_count: 8
   extends: []
   name: Thermal Power API Rules
   rule_count: 8
@@ -184,17 +205,17 @@ rules:
   slug: thermal-power-rules
 score:
   band: thin
-  composite: 33.7
+  composite: 32.2
   coverage:
-    artifact_dirs: 15
-    catalog_earned: 60.9
+    artifact_dirs: 16
+    catalog_earned: 57.9
     catalog_earned_first_party: 0.0
-    catalog_gap: 54.1
+    catalog_gap: 57.1
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 28.9
+    access_clarity: 21.1
     contract_governance: 13.6
     contract_quality: 57.3
     developer_ergonomics: 21.4
@@ -214,8 +235,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 13.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

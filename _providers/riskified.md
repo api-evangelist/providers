@@ -9,31 +9,39 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
-    agentic_access: false
+    agentic_access: derived
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: served
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: served
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: verified
+    event_surface_described: true
     idempotency: false
     mcp_server: false
-    openapi_examples: documented
-    protected_resource_metadata: false
+    openapi_examples: verified
+    protected_resource_metadata: verified
     rate_limit_signal: false
-    reversibility_documented: false
-    spec_presence: false
+    reversibility_documented: documented
+    spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 3.8
-  scored_at: '2026-10-04'
-api_count: 7
+  score: 46.0
+  scored_at: '2026-10-17'
+agentic_access:
+- acting_count: 20
+  human_in_the_loop: 1
+  name: Riskified Agentic Access
+  operation_count: 20
+  slug: riskified-agentic-access
+  summary_line: 20 operations · 20 acting · 1 human-in-the-loop
+api_count: 10
 apis:
 - description: Submit orders to Riskified for fraud and chargeback risk evaluation, in either a pre-authorization (Decide / Decision) or post-authorization (Submit / Decide) flow. Returns an APPROVED, DECLINED, or S
   name: Riskified Chargeback Guarantee API
@@ -56,8 +64,139 @@ apis:
 - description: Connect Riskified directly to a payment gateway (Adyen, Braintree, PayPal, Shopify Payments, Stripe) so chargeback notifications and evidence flow into the Dispute Resolve product without merchant glu
   name: Riskified Chargeback Gateway Integration (CGI) API
   slug: riskified-chargeback-gateway-integration-api
-artifact_total: 50
+- baseURL: https://wh.riskified.com/
+  baseurl_source: declared
+  description: Operations for managing order lifecycle (cancel, refund, fulfill, chargeback)
+  name: Riskified Automation Endpoints API
+  slug: riskified-automation-endpoints-api
+- baseURL: https://wh.riskified.com/
+  baseurl_source: declared
+  description: Operations related to customer activity, including login, password resets, customer verification attempts, and customer-merchant contact events.
+  name: Riskified Customer Actions API
+  slug: riskified-customer-actions-api
+- baseURL: https://wh.riskified.com/
+  baseurl_source: declared
+  description: Operations related to account management, including customer creation and updates.
+  name: Riskified Customer Management API
+  slug: riskified-customer-management-api
+- baseURL: https://wh.riskified.com/
+  baseurl_source: declared
+  description: Riskified's PSD2 Optimization product, which is complementary to our Chargeback Guarantee product, is designed to minimize the friction associated with SCA and maximize conversions - all while meeting
+  name: Riskified Order Pre-Auth Review and PSD2/3DS/CVV Recommendations API
+  slug: riskified-order-pre-auth-review-and-psd2-3ds-cvv-recommendations-api
+- baseURL: https://wh.riskified.com/
+  baseurl_source: declared
+  description: Operations for initiating and verifying one-time password recovery requests.
+  name: Riskified OTP Recover (Sync flow) API
+  slug: riskified-otp-recover-sync-flow-api
+- baseURL: https://wh.riskified.com/
+  baseurl_source: declared
+  description: Operations that allow you to send orders to Riskified for fraud review after payment authorization
+  name: Riskified Post-Authorization Flow API
+  slug: riskified-post-authorization-flow-api
+- baseURL: https://wh.riskified.com/
+  baseurl_source: declared
+  description: Operations that allow you to send orders to Riskified for fraud review before payment authorization
+  name: Riskified Pre-Authorization Flow API
+  slug: riskified-pre-authorization-flow-api
+- baseURL: https://wh.riskified.com/
+  baseurl_source: declared
+  description: The Refunds API from Riskified — 2 operation(s) for refunds.
+  name: Riskified Refunds API
+  slug: riskified-refunds-api
+- baseURL: https://wh.riskified.com/
+  baseurl_source: declared
+  description: The Returns API from Riskified — 1 operation(s) for returns.
+  name: Riskified Returns API
+  slug: riskified-returns-api
+artifact_total: 88
+asyncapis:
+- description: ''
+  name: Riskified Webhooks
+  slug: riskified-webhooks
 common:
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/riskified/refs/heads/main/agentic-access/riskified-agentic-access.yml
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/riskified-agentic-access.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/riskified/refs/heads/main/rules/riskified-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/riskified-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/riskified/refs/heads/main/json-ld/riskified-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/riskified-context.jsonld
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/riskified/refs/heads/main/vocabulary/riskified-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/riskified-vocabulary.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/riskified/refs/heads/main/asyncapi/riskified-webhooks.yml
+  title: ''
+  type: Webhooks
+  url: asyncapi/riskified-webhooks.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/riskified/refs/heads/main/data-model/riskified-data-model.yml
+  title: ''
+  type: DataModel
+  url: data-model/riskified-data-model.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://security.riskified.com/
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/riskified/refs/heads/main/errors/riskified-problem-types.yml
+  title: ''
+  type: ErrorCatalog
+  url: errors/riskified-problem-types.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/riskified/refs/heads/main/conformance/riskified-conformance.yml
+  title: ''
+  type: Conformance
+  url: conformance/riskified-conformance.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/riskified/refs/heads/main/llms/riskified-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/riskified-llms.txt
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/riskified/refs/heads/main/well-known/riskified-status-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/riskified-status-security.txt
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/riskified/refs/heads/main/well-known/riskified-well-known.yml
+  title: ''
+  type: WellKnown
+  url: well-known/riskified-well-known.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/riskified/refs/heads/main/hosts/riskified-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/riskified-hosts.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/riskified/refs/heads/main/integrations/riskified-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/riskified-integration-edges.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/riskified/refs/heads/main/vendors/riskified-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/riskified-vendors.yml
+- group: operate
+  title: ''
+  type: Support
+  url: https://support.riskified.com/hc/en-us?_gl=1*h5db4w*_gcl_au*NTY1ODg5MDI2LjE3ODEyNzE2ODkuLS4tLjE3ODQzMTI0MzAuNjY5OTE5ODU0LjE3ODQ3NDQ4MTAuMTc4NDc1MDQ4MQ..*_ga*MTM0Mzk3ODAyNy4xNzgxMjcxNjkz*_ga_L8RV3KLX8W*czE3ODQ3Mzg2NTQkbzc4JGcxJHQxNzg0NzUzMTM1JGo0MyRsMCRoMTM2NzU4NzA1Ng..
+- group: start
+  title: ''
+  type: Login
+  url: https://app.riskified.com/login
 - group: company
   title: ''
   type: Website
@@ -287,53 +426,158 @@ integrations:
 - PayPal (Chargeback Gateway Integration)
 - Stripe (Chargeback Gateway Integration)
 - Riskified Integration Hub for connector-based deployment
+json_schemas:
+- name: adaptive_checkout_3ds_declined
+  property_count: 1
+  slug: riskified-adaptive-checkout-3ds-declined
+- name: adaptive_checkout_psd2_approved
+  property_count: 1
+  slug: riskified-adaptive-checkout-psd2-approved
+- name: advise_3ds_response
+  property_count: 1
+  slug: riskified-advise-3ds-response
+- name: advise_cvv_response
+  property_count: 1
+  slug: riskified-advise-cvv-response
+- name: advise_psd2_response
+  property_count: 1
+  slug: riskified-advise-psd2-response
+- name: Cancel_Response
+  property_count: 1
+  slug: riskified-cancel-response
+- name: chargeback_response
+  property_count: 1
+  slug: riskified-chargeback-response
+- name: Claim_Create_Response_Approve
+  property_count: 2
+  slug: riskified-claim-create-response-approve
+- name: Claim_Create_Response_Captured
+  property_count: 2
+  slug: riskified-claim-create-response-captured
+- name: Claim_Create_Response_Decline
+  property_count: 2
+  slug: riskified-claim-create-response-decline
+- name: Claim_Create_Response_Excluded
+  property_count: 2
+  slug: riskified-claim-create-response-excluded
+- name: Claim_Create_Response_Review
+  property_count: 2
+  slug: riskified-claim-create-response-review
+- name: ClaimDecisionRequest
+  property_count: 1
+  slug: riskified-claim-decision-request
+- name: customer_create_response
+  property_count: 3
+  slug: riskified-customer-create-response
+- name: customer_create
+  property_count: 9
+  slug: riskified-customer-create
+- name: customer_update
+  property_count: 10
+  slug: riskified-customer-update
+- name: decide_response_approve
+  property_count: 1
+  slug: riskified-decide-response-approve
+- name: decide_response_decline
+  property_count: 1
+  slug: riskified-decide-response-decline
+- name: login_action_response
+  property_count: 2
+  slug: riskified-login-action-response
+- name: login_action
+  property_count: 14
+  slug: riskified-login-action
+- name: OtpInitiateRequest
+  property_count: 5
+  slug: riskified-otp-initiate-request
+- name: OtpInitiateResponse
+  property_count: 1
+  slug: riskified-otp-initiate-response
+- name: refund_response
+  property_count: 1
+  slug: riskified-refund-response
+- name: reset_password_action
+  property_count: 7
+  slug: riskified-reset-password-action
+- name: submit_response_submitted
+  property_count: 1
+  slug: riskified-submit-response-submitted
+jsonld:
+- class_count: 113
+  name: Riskified Context
+  property_count: 264
+  slug: riskified-context
 layout: provider
 modified: '2026-05-25'
 name: Riskified
 nav: Providers
 network: true
-overview: 'Riskified publishes 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Fraud Prevention, Chargebacks, E-Commerce, Payments, and Risk Management.
+overview: 'Riskified publishes 16 API contracts indexed on the [APIs.io](https://apis.io/) network, including Automation Endpoints API, Customer Actions API, Customer Management API, and 13 more. Tagged areas include Fraud Prevention, Chargebacks, E-Commerce, Payments, and Risk Management.
 
 
-  Riskified''s developer surface includes developer portal, API reference, getting-started guide, authentication, documentation, engineering blog, pricing, and 42 more developer resources.'
+  The Riskified catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
+
+
+  Riskified''s developer surface includes support, developer portal, API reference, getting-started guide, authentication, documentation, engineering blog, and 59 more developer resources.'
 random_paper: 8
+rules:
+- authorship: generated
+  effective_rule_count: 56
+  extends:
+  - spectral:oas
+  name: Riskified API Rules
+  rule_count: 15
+  severity_counts:
+    error: 13
+    hint: 0
+    info: 1
+    warn: 1
+  slug: riskified-rules
 score:
-  band: thin
-  composite: 34.2
+  band: strong
+  composite: 60.3
   coverage:
-    artifact_dirs: 4
-    catalog_earned: 35.0
+    artifact_dirs: 20
+    catalog_earned: 60.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 80.0
+    catalog_gap: 54.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 26.1
   facets:
-    access_clarity: 39.5
-    contract_governance: 0.0
-    contract_quality: 6.5
-    developer_ergonomics: 69.0
-    discoverability: 64.3
-    operational_transparency: 36.8
+    access_clarity: 60.5
+    contract_governance: 22.0
+    contract_quality: 73.0
+    developer_ergonomics: 73.8
+    discoverability: 71.4
+    operational_transparency: 44.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - israel
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
   previous_composite: 34.2
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 100.0
+      total: 9
+    mcp: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 18.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+    score: 22.2
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/riskified/refs/heads/main/screenshots/riskified-2026-06-20T193133.png
 security:
 - kind: domain-security

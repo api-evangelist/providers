@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.flowengineering.com/blog
 - group: company
   title: ''
   type: Website
@@ -103,31 +107,31 @@ created: '2026-07-17'
 description: Flow (Flow Engineering, operated by TRC Space Ltd) is a requirements-management platform built for hardware and systems engineering teams. It centers on a Systems Graph that connects requirements, design artifacts, tests, and components, with AI agents that continuously align CAD, simulation, code, and test — automating impact analysis, budget tracking, and compliance checking. Flow supports branching and merging of requirement baselines, iterative build gates, and an integration ecosystem spanning CAD (Onshape, Fusion 360, Siemens NX), simulation (Ansys), and dev tools (GitHub, GitLab, Jira, Linear, Slack, Notion, Confluence). It is SOC 2 Type II, NIST 800-171, and ITAR/EAR aligned with self-hosted and AWS GovCloud options. A first-party API exists (referenced in the changelog) but is gated behind login with no publicly published OpenAPI or developer documentation.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/flow.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Flow
 nav: Providers
 network: true
 overview: 'Flow is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Requirements Management, Systems Engineering, Hardware Engineering, and PLM.
 
 
-  Flow''s developer surface includes documentation, pricing, signup flow, support, changelog, and 10 more developer resources.'
+  Flow''s developer surface includes engineering blog, documentation, pricing, signup flow, support, changelog, and 10 more developer resources.'
 random_paper: 0
 score:
   band: emerging
-  composite: 19.6
+  composite: 20.2
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 50.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 14.3
+    developer_ergonomics: 16.7
     discoverability: 48.2
     operational_transparency: 15.8
   previous_composite: 19.6
@@ -137,8 +141,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 14.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: GraphQL API for Literal Club that provides access to book data, reading states, shelves, reviews, highlights, reading goals, clubs, and user profiles. Supports both public read operations and authenti
@@ -41,6 +41,21 @@ apis:
   slug: literal-graphql-api
 artifact_total: 7
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/literal/refs/heads/main/plans/plans.yml
+  title: ''
+  type: Plans
+  url: plans/plans.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/literal/refs/heads/main/rate-limits/rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/literal/refs/heads/main/finops/finops.yml
+  title: ''
+  type: FinOps
+  url: finops/finops.yml
 - group: company
   title: ''
   type: Website
@@ -73,9 +88,13 @@ common:
 created: '2026-06-13'
 description: Literal is a modern social reading and book tracking platform that provides a GraphQL API for managing reading lists, reviews, shelves, reading goals, highlights, and book recommendations. The API enables developers to access user libraries, reading states, book data, author information, and social reading clubs.
 finops:
-- name: Finops
+- has_sources: false
+  method: generated
+  name: Finops
+  primary_unit: ''
   service_category: ''
   slug: finops
+  template: true
 graphqls:
 - description: 'Literal exposes a public GraphQL API for searching books, managing reading lists, building widgets, and creating integrations. All data on Literal is accessible through this API. Most read operations '
   name: Literal GraphQL API
@@ -91,13 +110,13 @@ modified: '2026-09-16'
 name: Literal Club
 nav: Providers
 network: true
-overview: 'Literal Club publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Books, Reading, Social, GraphQL, and Book Tracking.
+overview: 'Literal Club is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Books, Reading, Social, GraphQL, and Book Tracking.
 
 
   The Literal Club catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Literal Club''s developer surface includes signup flow, support, and 5 more developer resources.'
+  Literal Club''s developer surface includes signup flow, support, and 8 more developer resources.'
 plans:
 - name: Plans
   plan_count: 1
@@ -109,17 +128,17 @@ rate_limits:
   slug: rate-limits
 score:
   band: thin
-  composite: 37.1
+  composite: 32.9
   coverage:
     artifact_dirs: 10
-    catalog_earned: 58.2
+    catalog_earned: 50.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 56.8
+    catalog_gap: 65.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -4.2
   facets:
-    access_clarity: 61.1
+    access_clarity: 39.5
     contract_governance: 0.0
     contract_quality: 46.8
     developer_ergonomics: 26.2
@@ -132,8 +151,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

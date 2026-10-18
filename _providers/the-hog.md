@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 65.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 44
+- acting_count: 13
   human_in_the_loop: 0
   name: The Hog Agentic Access
   operation_count: 52
   slug: the-hog-agentic-access
-  summary_line: 52 operations · 44 acting
+  summary_line: 52 operations · 13 acting
 api_count: 1
 apis:
 - baseURL: https://developer.thehog.ai
@@ -284,7 +284,7 @@ modified: '2026-08-14'
 name: The Hog
 nav: Providers
 network: true
-overview: 'The Hog publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Company Search API, Deep Research API, Enrichments API, and 5 more. Tagged areas include Company, GTM Intelligence, Sales Intelligence, Data Enrichment, and Web Scraping.
+overview: 'The Hog publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Company Search API, Deep Research API, Enrichments API, and 5 more. Tagged areas include Company, GTM Intelligence, Sales Intelligence, Data Enrichment, and Web Scraping.
 
 
   The Hog''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 27 more developer resources.'
@@ -306,7 +306,7 @@ score:
   band: developing
   composite: 50.6
   coverage:
-    artifact_dirs: 25
+    artifact_dirs: 26
     catalog_earned: 53.0
     catalog_earned_first_party: 16.0
     catalog_gap: 62.0
@@ -337,8 +337,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

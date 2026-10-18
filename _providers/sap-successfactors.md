@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -199,7 +199,7 @@ modified: '2026-08-21'
 name: SAP SuccessFactors
 nav: Providers
 network: true
-overview: 'SAP SuccessFactors publishes 11 APIs on the [APIs.io](https://apis.io/) network, including EmpEmployment API, EmpJob API, FOCompany API, and 8 more. Tagged areas include HCM, Human Resources, Talent Management, Payroll, and Enterprise.
+overview: 'SAP SuccessFactors publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including EmpEmployment API, EmpJob API, FOCompany API, and 8 more. Tagged areas include HCM, Human Resources, Talent Management, Payroll, and Enterprise.
 
 
   SAP SuccessFactors'' developer surface includes authentication, documentation, API reference, and 12 more developer resources.'
@@ -241,8 +241,8 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 27.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

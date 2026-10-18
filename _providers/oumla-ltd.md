@@ -35,8 +35,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.3
-  scored_at: '2026-10-04'
-api_count: 1
+  scored_at: '2026-10-17'
+api_count: 2
 apis:
 - baseURL: https://sandbox.oumla.com
   baseurl_source: declared
@@ -266,7 +266,7 @@ modified: '2026-07-20'
 name: Oumla
 nav: Providers
 network: true
-overview: 'Oumla publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Ltd Addresses API, Ltd Assets API, Ltd Contract Interactions API, and 9 more. Tagged areas include Company, Blockchain, Digital Assets, Wallet Infrastructure, and Custody.
+overview: 'Oumla publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including Ltd Addresses API, Ltd Assets API, Ltd Contract Interactions API, and 9 more. Tagged areas include Company, Blockchain, Digital Assets, Wallet Infrastructure, and Custody.
 
 
   Oumla''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, changelog, support, and 19 more developer resources.'
@@ -295,6 +295,7 @@ score:
     - saudi-arabia
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
+    - mena
     - middle-east
   previous_composite: 45.5
   provenance:
@@ -312,8 +313,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 23.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

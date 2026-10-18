@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - baseURL: https://api.steadyapi.com
@@ -36,6 +36,10 @@ apis:
   slug: reddit-data-api
 artifact_total: 6
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://steadyapi.com/blogs
 - group: operate
   href: https://raw.githubusercontent.com/api-evangelist/steadyapi/refs/heads/main/rate-limits/steadyapi-rate-limits.yml
   title: ''
@@ -108,14 +112,14 @@ created: '2026-09-21'
 description: SteadyAPI is a multi-domain data-as-a-service platform exposing a single REST/JSON API across finance (real-time and historical stock, options and crypto market data), real estate, sports (MLB, NHL), e-commerce (Amazon, AliExpress), travel (Booking.com), and social/web data (Reddit, Twitter/X, Instagram, vehicles/VIN, and web scraping). Endpoints are versioned in the URL path (v1/v2/v3), authenticated with a personal access token via a Bearer header or apikey query parameter, rate limited to 15 requests per second, and sold on four subscription tiers by monthly request volume.
 image: https://steadyapi.com/logo/steadyapi-white-api.svg
 layout: provider
-modified: '2026-09-21'
+modified: '2026-10-06'
 name: SteadyAPI
 nav: Providers
 network: true
-overview: 'SteadyAPI publishes 2 APIs on the [APIs.io](https://apis.io/) network, including SteadyAPI, and 1 more. Tagged areas include Data, Finance, Stock Market, Social Media, and Reddit.
+overview: 'SteadyAPI is listed with 2 APIs on the [APIs.io](https://apis.io/) network, including SteadyAPI, and 1 more. Tagged areas include Data, Finance, Stock Market, Social Media, and Reddit.
 
 
-  SteadyAPI''s developer surface includes authentication, documentation, pricing, support, and 11 more developer resources.'
+  SteadyAPI''s developer surface includes engineering blog, authentication, documentation, pricing, support, and 11 more developer resources.'
 plans:
 - name: Steadyapi Plans Pricing
   plan_count: 4
@@ -127,20 +131,20 @@ rate_limits:
   slug: steadyapi-rate-limits
 score:
   band: thin
-  composite: 32.3
+  composite: 32.8
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 16
     catalog_earned: 54.0
     catalog_earned_first_party: 20.0
     catalog_gap: 61.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 76.3
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 31.0
+    developer_ergonomics: 33.3
     discoverability: 75.0
     operational_transparency: 21.1
   previous_composite: 32.3
@@ -152,13 +156,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/steadyapi/refs/heads/main/screenshots/steadyapi-2026-10-11T130354.png
 security:
 - kind: authentication
   name: Steadyapi Authentication

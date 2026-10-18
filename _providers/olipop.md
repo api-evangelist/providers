@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -57,6 +57,10 @@ apis:
   slug: olipop-storefront-product-json
 artifact_total: 8
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://drinkolipop.com/blogs/digest.atom
 - group: company
   title: ''
   type: Website
@@ -182,14 +186,14 @@ mcp_servers:
 - description: Remote MCP server at drinkolipop.com over HTTP; 13 tools listed.
   name: Olipop MCP Server
   slug: olipop-ucp-shopping
-modified: '2026-07-31'
+modified: '2026-10-06'
 name: Olipop
 nav: Providers
 network: true
-overview: 'Olipop publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Beverages, Consumer Packaged Goods, Direct to Consumer, E-Commerce, and Retail.
+overview: 'Olipop is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Beverages, Consumer Packaged Goods, Direct to Consumer, E-Commerce, and Retail.
 
 
-  Olipop''s developer surface includes documentation, support, engineering blog, signup flow, authentication, and 20 more developer resources.'
+  Olipop''s developer surface includes documentation, support, engineering blog, signup flow, authentication, and 21 more developer resources.'
 random_paper: 21
 scopes:
 - name: Olipop Scopes
@@ -198,15 +202,15 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: thin
-  composite: 29.9
+  composite: 30.0
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 34.2
     contract_governance: 18.2
@@ -226,8 +230,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

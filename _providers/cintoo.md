@@ -33,15 +33,15 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 63
+- acting_count: 62
   human_in_the_loop: 0
   name: Cintoo Agentic Access
   operation_count: 100
   slug: cintoo-agentic-access
-  summary_line: 100 operations · 63 acting
-api_count: 1
+  summary_line: 100 operations · 62 acting
+api_count: 2
 apis:
 - baseURL: https://aec.cintoo.com/api/2/
   baseurl_source: declared
@@ -217,6 +217,10 @@ collections:
   name: Cintoo Open Account Workzone API
   slug: open-cintoo-workzone-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://cintoo.com/en/blog/rss.xml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/cintoo/refs/heads/main/capabilities/cintoo-capability-edges.yml
   title: ''
@@ -329,14 +333,14 @@ created: '2026-07-17'
 description: Cintoo is a cloud-based reality-capture and digital-twin platform that transforms 3D laser-scan point-cloud data into high-fidelity, streamable 3D meshes hosted in the cloud. Teams across AEC (architecture, engineering, construction), BIM, GIS, and asset management use Cintoo Cloud to store, visualize, classify, annotate, measure, and share reality-capture data, and to run scan-to-BIM and digital-twin workflows. The Cintoo Open API 2.0.0 (OpenAPI 3.0.3, currently beta) exposes 100 operations across accounts, subscriptions, users, groups, roles, projects, work zones, files, annotations, crops, measurements, tags, share links, and integrations (Autodesk, Konekt), secured with OAuth2 authorization-code and JWT Bearer tokens. Cintoo was surfaced as a portfolio company of Partech and enriched from its public developer surface by the API Evangelist pipeline.
 image: https://cintoo.com/hubfs/Cintoo/images/cintoo-logo.svg
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Cintoo
 nav: Providers
 network: true
-overview: 'Cintoo publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Account API, Annotation API, Autodesk API, and 18 more. Tagged areas include Company, Infrastructure Saas, Reality Capture, Digital Twin, and Point Cloud.
+overview: 'Cintoo publishes 21 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Annotation API, Autodesk API, and 18 more. Tagged areas include Company, Infrastructure Saas, Reality Capture, Digital Twin, and Point Cloud.
 
 
-  Cintoo''s developer surface includes documentation, support, engineering blog, authentication, sandbox, CLI, and 17 more developer resources.'
+  Cintoo''s developer surface includes documentation, support, engineering blog, authentication, sandbox, CLI, and 18 more developer resources.'
 random_paper: 14
 scopes:
 - name: Cintoo Scopes
@@ -345,15 +349,15 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 41.2
+  composite: 41.3
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
@@ -378,8 +382,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

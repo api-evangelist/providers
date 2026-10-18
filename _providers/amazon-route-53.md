@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.0
-  scored_at: '2026-10-04'
+  score: 19.2
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -87,6 +87,21 @@ collections:
   name: Amazon Route 53 API
   slug: open-amazon-route-53
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route-53/refs/heads/main/plans/amazon-route-53-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/amazon-route-53-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route-53/refs/heads/main/rate-limits/amazon-route-53-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/amazon-route-53-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route-53/refs/heads/main/finops/amazon-route-53-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/amazon-route-53-finops.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -540,9 +555,13 @@ examples:
   name: Amazon Route 53 Openapi Resource Record Set Example
   slug: amazon-route-53-openapi-resource-record-set-example
 finops:
-- name: Amazon Route 53 Finops
+- has_sources: false
+  method: generated
+  name: Amazon Route 53 Finops
+  primary_unit: ''
   service_category: API
   slug: amazon-route-53-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amazon-route-53.png
 json_schemas:
 - name: Amazon Route 53 Hosted Zone
@@ -668,13 +687,13 @@ modified: '2026-05-19'
 name: Amazon Route 53
 nav: Providers
 network: true
-overview: 'Amazon Route 53 publishes 3 APIs on the [APIs.io](https://apis.io/) network: Health Checks API, Hosted Zones API, and Resource Record Sets API. Tagged areas include DNS, Domain Registration, Health Checks, and Routing.
+overview: 'Amazon Route 53 publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Health Checks API, Hosted Zones API, and Resource Record Sets API. Tagged areas include DNS, Domain Registration, Health Checks, and Routing.
 
 
   The Amazon Route 53 catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Amazon Route 53''s developer surface includes authentication, developer portal, documentation, support, engineering blog, GitHub presence, signup flow, and 76 more developer resources.'
+  Amazon Route 53''s developer surface includes authentication, developer portal, documentation, support, engineering blog, GitHub presence, signup flow, and 79 more developer resources.'
 plans:
 - name: Amazon Route 53 Plans Pricing
   plan_count: 1
@@ -685,9 +704,10 @@ rate_limits:
   name: Amazon Route 53 Rate Limits
   slug: amazon-route-53-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Amazon Route 53 API Rules
+  name: Amazon Route 53 — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -695,7 +715,8 @@ rules:
     info: 1
     warn: 4
   slug: amazon-route-53-jsonschema-spectral-rules
-- effective_rule_count: 67
+- authorship: generated
+  effective_rule_count: 67
   extends:
   - spectral:oas
   name: Amazon Route 53 API Rules
@@ -708,22 +729,22 @@ rules:
   slug: amazon-route-53-spectral-rules
 score:
   band: developing
-  composite: 52.8
+  composite: 46.8
   coverage:
     artifact_dirs: 17
-    catalog_earned: 56.4
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 58.6
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.0
   facets:
-    access_clarity: 70.3
+    access_clarity: 48.7
     contract_governance: 27.3
     contract_quality: 64.1
     developer_ergonomics: 39.3
     discoverability: 33.9
-    operational_transparency: 50.5
+    operational_transparency: 36.8
   previous_composite: 52.8
   provenance:
     agentic_access: derived
@@ -738,9 +759,9 @@ score:
     regime: Health
     regime_id: health
     score: 28.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

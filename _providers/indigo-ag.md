@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 4
 apis:
 - description: Soil-carbon program that enrolls growers, captures on-farm management practice data, and uses Indigo's MRV engine to quantify and verify soil organic-carbon outcomes that are sold as carbon credits to
@@ -50,6 +50,21 @@ apis:
   slug: clips-device
 artifact_total: 8
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/indigo-ag/refs/heads/main/plans/indigo-ag-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/indigo-ag-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/indigo-ag/refs/heads/main/rate-limits/indigo-ag-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/indigo-ag-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/indigo-ag/refs/heads/main/finops/indigo-ag-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/indigo-ag-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/indigo-ag/refs/heads/main/security/indigo-ag-domain-security.yml
   title: ''
@@ -82,19 +97,23 @@ common:
 created: '2026-05-23'
 description: 'Indigo Agriculture is a Boston-based agriculture-technology company combining microbial seed and foliar treatments (biotrinsic) and on-farm seed treatment hardware (CLIPS) with two large supply-chain programs: Carbon by Indigo, a soil-carbon program that pays growers for verified carbon credits using Indigo''s proprietary measurement, reporting, and verification (MRV) stack; and Source by Indigo, a Scope-3 program that connects consumer-goods buyers to sustainably grown crops with greenhouse-gas, water, and low-carbon-biofuel outcome reporting. Indigo does not publish a public developer portal; partner and supply-chain integrations are negotiated directly through their team.'
 finops:
-- name: Indigo Ag Finops
+- has_sources: false
+  method: generated
+  name: Indigo Ag Finops
+  primary_unit: ''
   service_category: API
   slug: indigo-ag-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/indigo-ag.png
 layout: provider
 modified: '2026-05-23'
 name: Indigo Agriculture
 nav: Providers
 network: true
-overview: 'Indigo Agriculture publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Agriculture, AgTech, Microbials, Soil Carbon, and MRV.
+overview: 'Indigo Agriculture is listed with 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Agriculture, AgTech, Microbials, Soil Carbon, and MRV.
 
 
-  Indigo Agriculture''s developer surface includes GitHub presence, product news, engineering blog, and 4 more developer resources.'
+  Indigo Agriculture''s developer surface includes GitHub presence, product news, engineering blog, and 7 more developer resources.'
 plans:
 - name: Indigo Ag Plans Pricing
   plan_count: 1
@@ -105,23 +124,23 @@ rate_limits:
   name: Indigo Ag Rate Limits
   slug: indigo-ag-rate-limits
 score:
-  band: emerging
-  composite: 14.8
+  band: minimal
+  composite: 8.8
   coverage:
     artifact_dirs: 7
-    catalog_earned: 57.4
+    catalog_earned: 44.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.6
+    catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.0
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 2.4
     discoverability: 72.3
-    operational_transparency: 24.2
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -136,9 +155,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

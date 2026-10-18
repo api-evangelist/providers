@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.7
-  scored_at: '2026-10-04'
+  score: 20.8
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -101,6 +101,21 @@ collections:
   name: SAP S/4HANA Sales Order Partners Text API
   slug: open-sap-s4hana-text-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sap-s4hana/refs/heads/main/plans/sap-s4hana-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/sap-s4hana-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/sap-s4hana/refs/heads/main/rate-limits/sap-s4hana-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/sap-s4hana-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sap-s4hana/refs/heads/main/finops/sap-s4hana-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/sap-s4hana-finops.yml
 - group: company
   title: ''
   type: Website
@@ -264,9 +279,13 @@ features:
 - description: APIs spanning finance, sales, procurement, logistics, manufacturing, and HR modules.
   name: Multi-Module Coverage
 finops:
-- name: Sap S4Hana Finops
+- has_sources: true
+  method: generated
+  name: Sap S4Hana Finops
+  primary_unit: ''
   service_category: ERP
   slug: sap-s4hana-finops
+  template: false
 integrations:
 - description: Native integration with SAP BTP for extensions, analytics, and AI/ML capabilities.
   name: SAP Business Technology Platform
@@ -422,13 +441,13 @@ modified: '2026-09-16'
 name: SAP S/4HANA
 nav: Providers
 network: true
-overview: 'SAP S/4HANA publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Partners API, Pricing Elements API, Sales Order Items API, and 3 more. Tagged areas include Business Applications, Cloud, ERP, Finance, and Human Resources.
+overview: 'SAP S/4HANA publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Partners API, Pricing Elements API, Sales Order Items API, and 3 more. Tagged areas include Business Applications, Cloud, ERP, Finance, and Human Resources.
 
 
   The SAP S/4HANA catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  SAP S/4HANA''s developer surface includes authentication, developer portal, getting-started guide, changelog, support, and 20 more developer resources.'
+  SAP S/4HANA''s developer surface includes authentication, developer portal, getting-started guide, changelog, support, and 23 more developer resources.'
 plans:
 - name: Sap S4Hana Plans Pricing
   plan_count: 1
@@ -439,9 +458,10 @@ rate_limits:
   name: Sap S4Hana Rate Limits
   slug: sap-s4hana-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: SAP S/4HANA API Rules
+  name: SAP S/4HANA — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -449,7 +469,8 @@ rules:
     info: 1
     warn: 5
   slug: sap-s4hana-jsonschema-spectral-rules
-- effective_rule_count: 58
+- authorship: generated
+  effective_rule_count: 58
   extends:
   - spectral:oas
   name: SAP S/4HANA API Rules
@@ -467,23 +488,23 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: thin
-  composite: 37.6
+  composite: 36.0
   coverage:
     artifact_dirs: 18
-    catalog_earned: 51.5
+    catalog_earned: 48.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 63.5
+    catalog_gap: 66.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -1.6
   facets:
-    access_clarity: 34.2
+    access_clarity: 26.3
     contract_governance: 13.6
     contract_quality: 65.6
     developer_ergonomics: 14.3
     discoverability: 42.9
     operational_transparency: 23.7
-  previous_composite: 37.1
+  previous_composite: 37.6
   provenance:
     agentic_access: derived
     contracts:
@@ -497,8 +518,8 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 40.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

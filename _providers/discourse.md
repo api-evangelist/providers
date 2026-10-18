@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 2
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 93
   slug: discourse-agentic-access
   summary_line: 93 operations · 53 acting · 2 human-in-the-loop
-api_count: 1
+api_count: 2
 apis:
 - baseURL: https://meta.discourse.org
   baseurl_source: declared
@@ -180,6 +180,16 @@ collections:
   name: Discourse API Documentation
   slug: open-discourse
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/discourse/refs/heads/main/rate-limits/discourse-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/discourse-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/discourse/refs/heads/main/finops/discourse-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/discourse-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/discourse/refs/heads/main/vendor-facets/discourse-vendor-facets.yml
   title: ''
@@ -264,19 +274,23 @@ common:
 created: '2023-11-13'
 description: At Discourse, our mission is to democratize online community and teamwork by raising the standard of civilized discourse on the Internet. We achieve this through delivering the best community and forum software. The Discourse API exposes administrative and content endpoints for categories, topics, posts, users, groups, tags, uploads, badges, and more.
 finops:
-- name: Discourse Finops
+- has_sources: false
+  method: generated
+  name: Discourse Finops
+  primary_unit: ''
   service_category: API
   slug: discourse-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/discourse.png
 layout: provider
 modified: '2026-09-16'
 name: Discourse
 nav: Providers
 network: true
-overview: 'Discourse publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Backups API, Badges API, and 13 more. Tagged areas include Community, Forums, and Open Source.
+overview: 'Discourse publishes 16 API contracts indexed on the [APIs.io](https://apis.io/) network, including Admin API, Backups API, Badges API, and 13 more. Tagged areas include Community, Forums, and Open Source.
 
 
-  Discourse''s developer surface includes documentation, engineering blog, support, and 16 more developer resources.'
+  Discourse''s developer surface includes documentation, engineering blog, support, and 18 more developer resources.'
 plans:
 - name: Discourse Plans Pricing
   plan_count: 3
@@ -288,17 +302,17 @@ rate_limits:
   slug: discourse-rate-limits
 score:
   band: thin
-  composite: 34.6
+  composite: 33.1
   coverage:
-    artifact_dirs: 10
-    catalog_earned: 41.0
+    artifact_dirs: 12
+    catalog_earned: 38.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 44.7
+    access_clarity: 36.8
     contract_governance: 0.0
     contract_quality: 37.7
     developer_ergonomics: 16.7
@@ -318,8 +332,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

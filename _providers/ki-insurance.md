@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 38
+- acting_count: 37
   human_in_the_loop: 1
   name: Ki Insurance Agentic Access
   operation_count: 109
   slug: ki-insurance-agentic-access
-  summary_line: 109 operations · 38 acting · 1 human-in-the-loop
+  summary_line: 109 operations · 37 acting · 1 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://app.ki-insurance.com
@@ -290,7 +290,7 @@ modified: '2026-07-25'
 name: Ki Insurance
 nav: Providers
 network: true
-overview: 'Ki Insurance publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Administration API, Broking Houses API, Classes of Business API, and 15 more. Tagged areas include Insurance, United Kingdom, Lloyd''s of London, Specialty Insurance, and Property and Casualty.
+overview: 'Ki Insurance publishes 18 API contracts indexed on the [APIs.io](https://apis.io/) network, including Administration API, Broking Houses API, Classes of Business API, and 15 more. Tagged areas include Insurance, United Kingdom, Lloyd''s of London, Specialty Insurance, and Property and Casualty.
 
 
   Ki Insurance''s developer surface includes engineering blog, signup flow, authentication, and 26 more developer resources.'
@@ -343,8 +343,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 36.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -368,7 +368,7 @@ tags:
 - Property and Casualty
 - Underwriting
 - Insurtech
-- Brokers
+- Brokerage
 - Algorithmic Underwriting
 - Reinsurance
 website: https://ki-insurance.com/

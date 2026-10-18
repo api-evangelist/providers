@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://backend.blockadelabs.com/api/v1
@@ -47,7 +47,7 @@ apis:
   description: The Skyboxes API from Blockade Games — 8 operation(s) for skyboxes.
   name: Blockade Games Skyboxes API
   slug: blockade-games-skyboxes-api
-artifact_total: 8
+artifact_total: 9
 asyncapis:
 - description: ''
   name: Blockade Games Webhooks
@@ -63,6 +63,15 @@ collections:
   name: Blockade Labs API Documentation Skybox Exports Skyboxes API
   slug: open-blockade-games-skyboxes-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/blockade-games/refs/heads/main/plans/blockade-games-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/blockade-games-plans-pricing.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.blockadelabs.com/blog-feed.xml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/blockade-games/refs/heads/main/overlays/blockade-games-skybox-overlay.yaml
   title: ''
@@ -211,31 +220,35 @@ created: '2026-07-17'
 description: Blockade Games (operating as Blockade Labs) is the maker of Skybox AI, an AI-powered platform that generates production-ready 360 equirectangular panoramas and skyboxes from text prompts, along with depth maps for 3D scenes. It offers a public REST API for asynchronous skybox generation, style selection, remixing, history, and multi-format exports, with delivery via webhooks and Pusher realtime events. First-party SDKs ship for JavaScript/TypeScript (npm), PHP/Laravel (Packagist), and Unity (C#), plus engine and tool integrations for Blender, Unreal, Godot, Roblox, SketchUp, and Figma. The product serves game, VR/AR, film, e-commerce, and education teams.
 image: https://static.wixstatic.com/media/8d6639_b2ee76a88e224659804c1ef09c7bc5da~mv2.jpg/v1/fit/w_2500,h_1330,al_c/8d6639_b2ee76a88e224659804c1ef09c7bc5da~mv2.jpg
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Blockade Games
 nav: Providers
 network: true
-overview: 'Blockade Games publishes 2 APIs on the [APIs.io](https://apis.io/) network: Skybox Exports API and Skyboxes API. Tagged areas include Company, Artificial Intelligence, Image Generation, 3D, and Gaming.
+overview: 'Blockade Games publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Skybox Exports API and Skyboxes API. Tagged areas include Company, Artificial Intelligence, Image Generation, 3D, and Gaming.
 
 
   The Blockade Games catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Blockade Games'' developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 25 more developer resources.'
+  Blockade Games'' developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 27 more developer resources.'
+plans:
+- name: Blockade Games Plans Pricing
+  plan_count: 7
+  slug: blockade-games-plans-pricing
 random_paper: 5
 score:
   band: developing
-  composite: 47.1
+  composite: 53.0
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 22
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 5.9
   facets:
-    access_clarity: 44.7
+    access_clarity: 76.3
     contract_governance: 4.5
     contract_quality: 51.5
     developer_ergonomics: 63.7
@@ -253,13 +266,13 @@ score:
     skills: derived
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 22.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

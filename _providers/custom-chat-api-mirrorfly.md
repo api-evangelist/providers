@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Token-authenticated REST API for building in-app chat, split into User APIs and Admin APIs (users, contacts, recent/history chat, groups, media, metadata, presence, block/unblock, call logs, device to
@@ -31,6 +31,10 @@ apis:
   slug: mirrorfly-chat-platform-api
 artifact_total: 5
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.mirrorfly.com/blog/feed/
 - group: company
   title: ''
   type: Website
@@ -151,14 +155,14 @@ common:
 created: '2026-07-21'
 description: MirrorFly is a self-hosted CPaaS providing token-authenticated REST Chat Platform APIs (User and Admin) plus SDKs for in-app chat, HD video/voice calling, VoIP, contact center, chatbot/conversational AI, and live streaming for web and mobile apps.
 layout: provider
-modified: '2026-09-03'
+modified: '2026-10-06'
 name: Custom Chat API | MirrorFly
 nav: Providers
 network: true
-overview: 'Custom Chat API | MirrorFly publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Chat API, Messaging, CPaaS, VoIP, and Voice.
+overview: 'Custom Chat API | MirrorFly is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Chat API, Messaging, CPaaS, VoIP, and Voice.
 
 
-  Custom Chat API | MirrorFly''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, support, engineering blog, and 19 more developer resources.'
+  Custom Chat API | MirrorFly''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, support, engineering blog, and 20 more developer resources.'
 plans:
 - name: Custom Chat Api Mirrorfly Plans Pricing
   plan_count: 4
@@ -201,8 +205,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 14.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

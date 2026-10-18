@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.tagged.com/en/press/
 - group: other
   title: ''
   type: ParentCompany
@@ -77,31 +81,31 @@ created: '2026-07-17'
 description: Tagged is a social discovery and dating platform founded in 2004 and based in San Francisco, where members browse profiles of people nearby or worldwide, chat, play social games, exchange tags and virtual gifts, and make new connections. Originally a standalone social network backed by early investors including Uncork Capital (formerly SoftTech VC), Tagged was acquired by MeetMe in 2017 for roughly 60 million dollars and today operates as a consumer brand within The Meet Group (part of the ParshipMeet Group) alongside apps such as MeetMe, Skout, and LOVOO. The current tagged.com is a consumer-facing web and mobile social-dating experience with no public developer program or API; a legacy REST-style API (tagged.com/api.php) that once powered third-party integrations has been retired. This profile is maintained in the API Evangelist network as a company record rather than an API producer.
 image: https://www.tagged.com/wp-content/plugins/parship-seo/assets/img/rich_snippet_logo_tagged.webp
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Tagged
 nav: Providers
 network: true
 overview: 'Tagged is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Social Network, Social Discovery, Online Dating, and Consumer.
 
 
-  Tagged''s developer surface includes support and 8 more developer resources.'
+  Tagged''s developer surface includes engineering blog, support, and 8 more developer resources.'
 random_paper: 4
 score:
   band: emerging
-  composite: 11.0
+  composite: 11.6
   coverage:
-    artifact_dirs: 2
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 27.6
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 4.8
+    developer_ergonomics: 7.1
     discoverability: 48.2
     operational_transparency: 0.0
   jurisdiction:
@@ -118,13 +122,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/tagged/refs/heads/main/screenshots/tagged-2026-10-11T130602.png
 security:
 - kind: domain-security
   name: Tagged Domain Security

@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 3
+- acting_count: 0
   human_in_the_loop: 0
   name: Summerland Bank Agentic Access
   operation_count: 19
   slug: summerland-bank-agentic-access
-  summary_line: 19 operations · 3 acting
+  summary_line: 19 operations
 api_count: 1
 apis:
 - baseURL: https://public.cdr-api.summerland.com.au/cds-au/v1/banking/products
@@ -105,6 +105,10 @@ collections:
   name: CDR Banking Banking Account Balances Banking Products API
   slug: open-summerland-bank-banking-products-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.summerland.com.au/feed/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/summerland-bank/refs/heads/main/capabilities/summerland-bank-capability-edges.yml
   title: ''
@@ -219,14 +223,14 @@ created: '2026-07-20'
 description: 'Summerland Bank is a customer-owned (mutual) bank based in Lismore in the Northern Rivers region of New South Wales, Australia, tracing its origins to the former Summerland Credit Union (Summerland Financial Services Limited, ABN 21 087 650 360, AFSL and Australian Credit Licence 241167) and rebranded as Summerland Bank in 2023. As an APRA-regulated authorised deposit-taking institution (ADI) and certified B Corporation, it is owned by its customers rather than shareholders and has announced plans to merge with fellow customer-owned Regional Australia Bank. Under Australia''s Consumer Data Right (CDR / Open Banking), Summerland Bank operates as a data holder: it exposes a live, public, unauthenticated Product Reference Data (PRD) API conforming to the Data Standards Body (DSB) Consumer Data Standards, and offers accredited-recipient consumer data sharing to eligible customers through its app and internet banking under the ACCC/OAIC-governed CDR regime.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/summerland-bank.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Summerland Bank
 nav: Providers
 network: true
-overview: 'Summerland Bank publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Banking Account Balances API, Banking Account Direct Debits API, Banking Account Scheduled Payments API, and 4 more. Tagged areas include Finance, Banks, Open Banking, CDR, and Consumer Data Right.
+overview: 'Summerland Bank publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Banking Account Balances API, Banking Account Direct Debits API, Banking Account Scheduled Payments API, and 4 more. Tagged areas include Finance, Banks, Open Banking, CDR, and Consumer Data Right.
 
 
-  Summerland Bank''s developer surface includes documentation, engineering blog, support, getting-started guide, authentication, and 19 more developer resources.'
+  Summerland Bank''s developer surface includes documentation, engineering blog, support, getting-started guide, authentication, and 20 more developer resources.'
 random_paper: 19
 scopes:
 - name: Summerland Bank Scopes
@@ -235,15 +239,15 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: thin
-  composite: 37.9
+  composite: 38.0
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
@@ -279,8 +283,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 37.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

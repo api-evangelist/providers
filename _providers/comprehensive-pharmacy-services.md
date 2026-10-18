@@ -32,10 +32,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://perspectives.cps.com/tag/articles
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://perspectives.cps.com/rss.xml
 - group: company
   title: ''
   type: Website
@@ -69,18 +77,18 @@ created: '2026-07-17'
 description: Comprehensive Pharmacy Services, now operating as CPS Solutions, LLC, is a healthcare company with more than 50 years of experience providing pharmacy and hospital solutions across the care continuum. It serves independent hospitals, health systems, integrated delivery networks (IDNs), and specialized health facilities with specialty pharmacy, pharmacy management, telepharmacy (24/7/365 support), 340B program compliance, supply chain management, rehabilitation services, and consulting. The company operates two proprietary SaaS platforms — CPS Optimizer for pharmacy management and TherigySTM for specialty pharmacy management — supported by 2,500+ healthcare professionals serving 800+ customers across the United States and Puerto Rico. No public API or developer program is currently published; this profile captures the company identity and public web surface.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/comprehensive-pharmacy-services.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Comprehensive Pharmacy Services
 nav: Providers
 network: true
 overview: 'Comprehensive Pharmacy Services is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Digital Health, Pharmacy, Healthcare, and Specialty Pharmacy.
 
 
-  Comprehensive Pharmacy Services'' developer surface includes engineering blog, support, and 5 more developer resources.'
+  Comprehensive Pharmacy Services'' developer surface includes engineering blog, support, and 7 more developer resources.'
 random_paper: 21
 score:
   band: emerging
-  composite: 11.5
+  composite: 11.6
   coverage:
     artifact_dirs: 4
     catalog_earned: 27.0
@@ -88,7 +96,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 27.6
     contract_governance: 0.0
@@ -103,8 +111,8 @@ score:
     regime: Health
     regime_id: health
     score: 10.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

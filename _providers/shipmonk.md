@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -109,6 +109,10 @@ collections:
   name: ShipMonk Warehouses API
   slug: open-shipmonk-warehouses-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.shipmonk.com/feed
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/shipmonk/refs/heads/main/capabilities/shipmonk-capability-edges.yml
   title: ''
@@ -318,17 +322,17 @@ mcp_servers:
 - description: ShipMonk serves a live MCP endpoint from its own developer-docs host. tools/list responds anonymously over streamable HTTP (SSE) with five spec-driven tools. These are ReadMe's documentation-MCP tools
   name: ShipMonk MCP Server
   slug: shipmonk-api
-modified: '2026-08-02'
+modified: '2026-10-06'
 name: ShipMonk
 nav: Providers
 network: true
-overview: 'ShipMonk publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Webhooks, Orders API, Products API, and 5 more. Tagged areas include Logistics, Fulfillment, 3PL, E-Commerce, and Warehousing.
+overview: 'ShipMonk publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Webhooks, Orders API, Products API, and 5 more. Tagged areas include Logistics, Fulfillment, 3PL, E-Commerce, and Warehousing.
 
 
   The ShipMonk catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  ShipMonk''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 37 more developer resources.'
+  ShipMonk''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 38 more developer resources.'
 random_paper: 15
 rate_limits:
 - limit_count: 2
@@ -338,7 +342,7 @@ score:
   band: developing
   composite: 53.8
   coverage:
-    artifact_dirs: 25
+    artifact_dirs: 26
     catalog_earned: 48.0
     catalog_earned_first_party: 8.0
     catalog_gap: 67.0
@@ -376,8 +380,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

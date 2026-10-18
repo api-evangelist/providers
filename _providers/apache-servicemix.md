@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.3
-  scored_at: '2026-10-04'
+  score: 15.4
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -81,6 +81,21 @@ collections:
   name: Apache ServiceMix REST Bundles Routes API
   slug: open-apache-servicemix-routes-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/apache-servicemix/refs/heads/main/plans/apache-servicemix-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/apache-servicemix-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/apache-servicemix/refs/heads/main/rate-limits/apache-servicemix-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/apache-servicemix-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/apache-servicemix/refs/heads/main/finops/apache-servicemix-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/apache-servicemix-finops.yml
 - group: company
   title: ''
   type: Website
@@ -167,9 +182,13 @@ features:
 - description: Support for EIP patterns including routing, transformation, and mediation
   name: Enterprise Patterns
 finops:
-- name: Apache Servicemix Finops
+- has_sources: false
+  method: generated
+  name: Apache Servicemix Finops
+  primary_unit: ''
   service_category: API
   slug: apache-servicemix-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/apache-servicemix.png
 integrations:
 - description: Core integration framework providing routing and mediation
@@ -248,13 +267,13 @@ modified: '2026-09-16'
 name: Apache ServiceMix
 nav: Providers
 network: true
-overview: 'Apache ServiceMix publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Bundles API, Endpoints API, Messaging API, and 1 more. Tagged areas include Enterprise Integration, ESB, Integration, Messaging, and OSGi.
+overview: 'Apache ServiceMix publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Bundles API, Endpoints API, Messaging API, and 1 more. Tagged areas include Enterprise Integration, ESB, Integration, Messaging, and OSGi.
 
 
   The Apache ServiceMix catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Apache ServiceMix''s developer surface includes documentation and 8 more developer resources.'
+  Apache ServiceMix''s developer surface includes documentation and 11 more developer resources.'
 plans:
 - name: Apache Servicemix Plans Pricing
   plan_count: 3
@@ -265,9 +284,10 @@ rate_limits:
   name: Apache Servicemix Rate Limits
   slug: apache-servicemix-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Apache ServiceMix API Rules
+  name: Apache ServiceMix — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -275,7 +295,8 @@ rules:
     info: 2
     warn: 3
   slug: apache-servicemix-jsonschema-spectral-rules
-- effective_rule_count: 54
+- authorship: generated
+  effective_rule_count: 54
   extends:
   - spectral:oas
   name: Apache ServiceMix API Rules
@@ -287,18 +308,18 @@ rules:
     warn: 7
   slug: apache-servicemix-spectral-rules
 score:
-  band: thin
-  composite: 26.8
+  band: emerging
+  composite: 25.3
   coverage:
     artifact_dirs: 15
-    catalog_earned: 61.0
+    catalog_earned: 58.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 54.0
+    catalog_gap: 57.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 27.3
     contract_quality: 47.9
     developer_ergonomics: 9.5
@@ -318,8 +339,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

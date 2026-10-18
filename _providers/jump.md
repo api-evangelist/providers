@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.jump.com/news
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/jump/refs/heads/main/security/jump-domain-security.yml
   title: ''
@@ -57,28 +61,31 @@ created: '2026-07-17'
 description: Jump is a unified fan experience and ticketing platform built exclusively for professional sports teams. It combines primary and resale ticketing, team-branded mobile apps and websites, marketing and messaging, loyalty, fan identity and wallet, point-of-sale and scanning, dynamic pricing, and a unified fan-data foundation into a single system that teams own and control. Jump also embeds agentic AI agents to automate pricing, inventory, and revenue operations. It serves teams across the NBA, MLB, WNBA, NWSL, USL, and NCAA and is backed by Battery Ventures, Forerunner Ventures, Index Ventures, and Menlo Ventures. Jump connects to the tools teams already use through integration APIs, but publishes no public developer portal, OpenAPI, or self-serve API documentation.
 image: https://cdn.prod.website-files.com/6620094ee446b5040f183aed/6865a7c9b810980812aca69d_Why.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Jump
 nav: Providers
 network: true
-overview: Jump is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Sports, Ticketing, Fan Experience, and Event.
+overview: 'Jump is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Sports, Ticketing, Fan Experience, and Event.
+
+
+  Jump''s developer surface includes engineering blog and 4 more developer resources.'
 random_paper: 4
 score:
   band: minimal
-  composite: 8.6
+  composite: 9.2
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 48.2
     operational_transparency: 0.0
   previous_composite: 8.6
@@ -88,8 +95,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 12.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

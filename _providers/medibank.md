@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: low
+  gated: partner
+  gated_source:
+  - tag:Partner Gated
   label: Unknown
   onboarding: unknown
   pricing: unknown
@@ -33,10 +36,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.medibank.com.au/livebetter/newsroom/rss
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/medibank/refs/heads/main/security/medibank-domain-security.yml
   title: ''
@@ -131,14 +138,14 @@ description: 'Medibank Private Limited (ASX: MPL) is Australia''s largest privat
   online claiming system, carries hospital claims and 25 percent Fund Gap medical claims under claim type "MB" and serves Online Eligibility Check with Presenting Illness codes, with ECFWeb and THELMA as alternative eligibility channels and HICAPS and iSOFT terminals handling ancillary claiming. No ACORD reference of any kind appears on Medibank''s public estate, which is the expected result — Australian private health insurance runs on ECLIPSE, HCP and the MBS rather than on ACORD AL3 or ACORD XML. No OpenAPI or Swagger definition, no Postman collection, no GraphQL or gRPC surface, no webhook or event catalog, and no documented authentication scheme could be confirmed anywhere on Medibank''s public web estate as of 2026-07-25, and none of the four insurance API verbs — quote, bind, issue or FNOL — is exposed to unauthenticated developers.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-modified: '2026-07-25'
+modified: '2026-10-06'
 name: Medibank
 nav: Providers
 network: true
 overview: 'Medibank is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Australia, Health Insurance, Private Health Insurance, and Life and Health.
 
 
-  Medibank''s developer surface includes engineering blog, documentation, developer portal, support, signup flow, and 16 more developer resources.'
+  Medibank''s developer surface includes engineering blog, documentation, developer portal, support, signup flow, and 17 more developer resources.'
 random_paper: 13
 score:
   band: emerging
@@ -174,8 +181,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -199,6 +206,5 @@ tags:
 - Policy Administration
 - Travel Insurance
 - Pet Insurance
-- Partner Gated
 website: https://www.medibank.com.au/
 ---

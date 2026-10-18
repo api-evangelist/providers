@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 29
+- acting_count: 27
   human_in_the_loop: 1
   name: Vooma Agentic Access
   operation_count: 35
   slug: vooma-agentic-access
-  summary_line: 35 operations · 29 acting · 1 human-in-the-loop
+  summary_line: 35 operations · 27 acting · 1 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://api.vooma.ai/v0
@@ -265,7 +265,7 @@ modified: '2026-07-21'
 name: Vooma
 nav: Providers
 network: true
-overview: 'Vooma publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Carriers API, Contacts API, Customers API, and 7 more. Tagged areas include Company, Artificial Intelligence, Freight, Logistics, and Transportation.
+overview: 'Vooma publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Carriers API, Contacts API, Customers API, and 7 more. Tagged areas include Company, Artificial Intelligence, Freight, Logistics, and Transportation.
 
 
   The Vooma catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -277,13 +277,13 @@ score:
   band: developing
   composite: 46.8
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.9
+  delta: 0.0
   facets:
     access_clarity: 43.4
     contract_governance: 4.5
@@ -291,7 +291,7 @@ score:
     developer_ergonomics: 58.9
     discoverability: 73.2
     operational_transparency: 18.4
-  previous_composite: 48.7
+  previous_composite: 46.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -308,8 +308,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

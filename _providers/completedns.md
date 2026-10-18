@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-04'
+  score: 20.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -79,6 +79,21 @@ collections:
   name: CompleteDNS API v2
   slug: open-completedns-v2
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/completedns/refs/heads/main/plans/completedns-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/completedns-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/completedns/refs/heads/main/rate-limits/completedns-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/completedns-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/completedns/refs/heads/main/finops/completedns-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/completedns-finops.yml
 - group: company
   title: ''
   type: Website
@@ -147,9 +162,13 @@ common:
 created: '2025-02-09'
 description: CompleteDNS is a DNS research platform that tracks nameserver modifications and domain drops, with over twenty years of history and billions of recorded changes. The CompleteDNS API exposes domain-scoped lookups that return the chronological history of nameserver changes, drop events, and parking status for a given domain. Both a current v2 API and a legacy v1 API are available, authenticated by API key.
 finops:
-- name: Completedns Finops
+- has_sources: false
+  method: generated
+  name: Completedns Finops
+  primary_unit: ''
   service_category: API
   slug: completedns-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/completedns.png
 json_schemas:
 - name: CompleteDNS DNS History
@@ -165,13 +184,13 @@ modified: '2026-05-19'
 name: CompleteDNS
 nav: Providers
 network: true
-overview: 'CompleteDNS publishes 2 APIs on the [APIs.io](https://apis.io/) network: DNS History API and NS History API. Tagged areas include DNS, DNS History, Domain Intelligence, Domains, and Nameservers.
+overview: 'CompleteDNS publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: DNS History API and NS History API. Tagged areas include DNS, DNS History, Domain Intelligence, Domains, and Nameservers.
 
 
   The CompleteDNS catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  CompleteDNS''s developer surface includes authentication, developer portal, documentation, signup flow, pricing, and 10 more developer resources.'
+  CompleteDNS''s developer surface includes authentication, developer portal, documentation, signup flow, pricing, and 13 more developer resources.'
 plans:
 - name: Completedns Plans Pricing
   plan_count: 3
@@ -182,9 +201,10 @@ rate_limits:
   name: Completedns Rate Limits
   slug: completedns-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: CompleteDNS API Rules
+  name: CompleteDNS — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -192,7 +212,8 @@ rules:
     info: 1
     warn: 4
   slug: completedns-jsonschema-spectral-rules
-- effective_rule_count: 51
+- authorship: unmarked
+  effective_rule_count: 51
   extends:
   - spectral:oas
   name: CompleteDNS API Rules
@@ -205,17 +226,17 @@ rules:
   slug: completedns-rules
 score:
   band: thin
-  composite: 35.7
+  composite: 34.2
   coverage:
     artifact_dirs: 14
-    catalog_earned: 55.5
+    catalog_earned: 52.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 59.5
+    catalog_gap: 62.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 32.9
+    access_clarity: 25.0
     contract_governance: 13.6
     contract_quality: 53.0
     developer_ergonomics: 32.1
@@ -235,8 +256,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

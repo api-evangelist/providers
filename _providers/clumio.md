@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Regional REST API for the Clumio backup-as-a-service platform. Manage AWS and GCP connections, backup policies and protection rules, protection groups, organizational units, users, roles, compliance r
@@ -42,6 +42,10 @@ apis:
   slug: clumio-rest-api
 artifact_total: 4
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.clumio.com/feed
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/clumio/refs/heads/main/security/clumio-domain-security.yml
   title: ''
@@ -163,26 +167,26 @@ mcp_servers:
 - description: Local (stdio) MCP server; 9 tools listed.
   name: Clumio MCP Server
   slug: clumio-terraform-mcp
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Clumio
 nav: Providers
 network: true
-overview: 'Clumio publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data, Backup, Data Protection, and Disaster Recovery.
+overview: 'Clumio is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data, Backup, Data Protection, and Disaster Recovery.
 
 
-  Clumio''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 18 more developer resources.'
+  Clumio''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 19 more developer resources.'
 random_paper: 11
 score:
   band: thin
-  composite: 32.8
+  composite: 32.9
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 39.5
     contract_governance: 18.2
@@ -204,8 +208,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

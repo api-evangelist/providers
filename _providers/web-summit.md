@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: documented
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 5.6
-  scored_at: '2026-10-04'
+  score: 3.7
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: The Web Summit attendee platform provides conference scheduling, attendee discovery, and networking capabilities through the Web Summit mobile app and web portal. Attendees can browse sessions, discov
@@ -47,6 +47,21 @@ apis:
   slug: developer-programme
 artifact_total: 22
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/web-summit/refs/heads/main/plans/web-summit-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/web-summit-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/web-summit/refs/heads/main/rate-limits/web-summit-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/web-summit-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/web-summit/refs/heads/main/finops/web-summit-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/web-summit-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/web-summit/refs/heads/main/security/web-summit-domain-security.yml
   title: ''
@@ -128,9 +143,13 @@ features:
 - description: Multi-city conference portfolio spanning Lisbon, Toronto, Hong Kong, Rio de Janeiro, Doha, and Vancouver.
   name: Global Events
 finops:
-- name: Web Summit Finops
+- has_sources: false
+  method: generated
+  name: Web Summit Finops
+  primary_unit: ''
   service_category: API
   slug: web-summit-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/web-summit.png
 layout: provider
 mcp_servers:
@@ -141,10 +160,10 @@ modified: '2026-05-19'
 name: Web Summit
 nav: Providers
 network: true
-overview: 'Web Summit publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Conferences, Event, Networking, and Technology.
+overview: 'Web Summit is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Conferences, Event, Networking, and Technology.
 
 
-  Web Summit''s developer surface includes documentation, pricing, engineering blog, support, YouTube channel, and 10 more developer resources.'
+  Web Summit''s developer surface includes documentation, pricing, engineering blog, support, YouTube channel, and 13 more developer resources.'
 plans:
 - name: Web Summit Plans Pricing
   plan_count: 3
@@ -156,17 +175,17 @@ rate_limits:
   slug: web-summit-rate-limits
 score:
   band: emerging
-  composite: 23.5
+  composite: 22.0
   coverage:
-    artifact_dirs: 7
-    catalog_earned: 39.0
+    artifact_dirs: 8
+    catalog_earned: 36.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 76.0
+    catalog_gap: 79.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 60.5
+    access_clarity: 52.6
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 16.7
@@ -179,8 +198,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

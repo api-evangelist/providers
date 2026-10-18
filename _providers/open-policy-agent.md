@@ -27,20 +27,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.2
-  scored_at: '2026-10-04'
+  score: 23.3
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 10
+- acting_count: 8
   human_in_the_loop: 0
   name: Open Policy Agent Agentic Access
   operation_count: 18
   slug: open-policy-agent-agentic-access
-  summary_line: 18 operations · 10 acting
+  summary_line: 18 operations · 8 acting
 api_count: 7
 apis:
 - description: The Compile API from Open Policy Agent — 1 operation(s) for compile.
@@ -118,6 +118,21 @@ collections:
   name: Status API
   slug: open-status-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/open-policy-agent/refs/heads/main/plans/open-policy-agent-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/open-policy-agent-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/open-policy-agent/refs/heads/main/rate-limits/open-policy-agent-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/open-policy-agent-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/open-policy-agent/refs/heads/main/finops/open-policy-agent-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/open-policy-agent-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/open-policy-agent/refs/heads/main/agentic-access/open-policy-agent-agentic-access.yml
   title: ''
@@ -214,9 +229,13 @@ common:
 created: '2024-11-18'
 description: Open Policy Agent (OPA) is an open-source project that provides a flexible and powerful policy engine for cloud-native environments. OPA enables users to define and enforce policies across their infrastructure, applications, and services through a declarative language called Rego. OPA integrates seamlessly with popular tools and frameworks like Kubernetes, Istio, and Envoy, making it easy to implement fine-grained access control, security, and compliance policies.
 finops:
-- name: Open Policy Agent Finops
+- has_sources: true
+  method: generated
+  name: Open Policy Agent Finops
+  primary_unit: ''
   service_category: Identity / Authorization
   slug: open-policy-agent-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/open-policy-agent.png
 json_schemas:
 - name: Open Policy Agent Resources
@@ -232,13 +251,13 @@ modified: '2026-09-16'
 name: Open Policy Agent
 nav: Providers
 network: true
-overview: 'Open Policy Agent publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Compile API, Config API, Data API, and 5 more. Tagged areas include Policies and Standards.
+overview: 'Open Policy Agent publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Compile API, Config API, Data API, and 5 more. Tagged areas include Policies and Standards.
 
 
   The Open Policy Agent catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Open Policy Agent''s developer surface includes documentation, getting-started guide, authentication, engineering blog, changelog, Stack Overflow tag, and 16 more developer resources.'
+  Open Policy Agent''s developer surface includes documentation, getting-started guide, authentication, engineering blog, changelog, Stack Overflow tag, and 19 more developer resources.'
 plans:
 - name: Open Policy Agent Plans Pricing
   plan_count: 1
@@ -249,9 +268,10 @@ rate_limits:
   name: Open Policy Agent Rate Limits
   slug: open-policy-agent-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: Open Policy Agent API Rules
+  name: Open Policy Agent — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -261,17 +281,17 @@ rules:
   slug: open-policy-agent-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 37.7
+  composite: 36.2
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 53.7
+    artifact_dirs: 21
+    catalog_earned: 50.7
     catalog_earned_first_party: 0.0
-    catalog_gap: 61.4
+    catalog_gap: 64.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 13.2
+    access_clarity: 5.3
     contract_governance: 9.8
     contract_quality: 48.6
     developer_ergonomics: 45.2
@@ -291,8 +311,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -306,7 +326,7 @@ security:
 - kind: vulnerability-disclosure
   name: Open Policy Agent Vulnerability Disclosure
   slug: open-policy-agent-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 slug: open-policy-agent
 tags:
 - Policies

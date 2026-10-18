@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 19
+- acting_count: 10
   human_in_the_loop: 0
   name: Whmcs Agentic Access
   operation_count: 19
   slug: whmcs-agentic-access
-  summary_line: 19 operations · 19 acting
+  summary_line: 19 operations · 10 acting
 api_count: 1
 apis:
 - baseURL: https://{your-domain}/includes/api.php
@@ -110,6 +110,21 @@ collections:
   name: WHMCS API
   slug: open-whmcs
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/whmcs/refs/heads/main/plans/whmcs-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/whmcs-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/whmcs/refs/heads/main/rate-limits/whmcs-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/whmcs-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/whmcs/refs/heads/main/finops/whmcs-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/whmcs-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/whmcs/refs/heads/main/capabilities/whmcs-capability-edges.yml
   title: ''
@@ -187,9 +202,13 @@ examples:
   name: Whmcs Validate Login Example
   slug: whmcs-validate-login-example
 finops:
-- name: Whmcs Finops
+- has_sources: false
+  method: generated
+  name: Whmcs Finops
+  primary_unit: ''
   service_category: API
   slug: whmcs-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/whmcs.png
 json_schemas:
 - name: WHMCS Client
@@ -215,13 +234,13 @@ modified: '2026-05-19'
 name: WHMCS
 nav: Providers
 network: true
-overview: 'WHMCS publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Billing API, Clients API, and 4 more. Tagged areas include Web Hosting, Billing Automation, Client Management, Domain Management, and Support Tickets.
+overview: 'WHMCS publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authentication API, Billing API, Clients API, and 4 more. Tagged areas include Web Hosting, Billing Automation, Client Management, Domain Management, and Support Tickets.
 
 
   The WHMCS catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  WHMCS''s developer surface includes authentication, documentation, API reference, engineering blog, and 10 more developer resources.'
+  WHMCS''s developer surface includes authentication, documentation, API reference, engineering blog, and 13 more developer resources.'
 plans:
 - name: Whmcs Plans Pricing
   plan_count: 3
@@ -232,9 +251,10 @@ rate_limits:
   name: Whmcs Rate Limits
   slug: whmcs-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: WHMCS API Rules
+  name: WHMCS — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -242,7 +262,8 @@ rules:
     info: 1
     warn: 4
   slug: whmcs-jsonschema-spectral-rules
-- effective_rule_count: 51
+- authorship: unmarked
+  effective_rule_count: 51
   extends:
   - spectral:oas
   name: WHMCS API Rules
@@ -254,18 +275,18 @@ rules:
     warn: 5
   slug: whmcs-rules
 score:
-  band: developing
-  composite: 39.6
+  band: thin
+  composite: 38.1
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 75.0
+    artifact_dirs: 19
+    catalog_earned: 72.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 40.0
+    catalog_gap: 43.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 27.3
     contract_quality: 57.2
     developer_ergonomics: 47.6
@@ -285,8 +306,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

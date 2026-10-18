@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 8
 apis:
 - description: Keyless, read-only JSON REST API of FDAT, the university's institutional research data repository, operated by the Digital Humanities Center on the InvenioRDM platform and served from the university's
@@ -63,6 +63,14 @@ apis:
   slug: library-discovery
 artifact_total: 14
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://uni-tuebingen.de/en/fakultaeten/evangelisch-theologische-fakultaet/fakultaet/aktuelles/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://uni-tuebingen.de/en/fakultaeten/evangelisch-theologische-fakultaet/fakultaet/aktuelles/feed.xml
 - group: company
   title: ''
   type: Website
@@ -162,9 +170,13 @@ created: '2026-06-03'
 description: 'The University of Tübingen (Eberhard Karls Universität Tübingen), founded in 1477, is one of Germany''s oldest public research universities and a member of the German Universities Excellence Initiative, with roughly 27,000 students in Baden-Württemberg. It runs no developer portal, publishes no OpenAPI and issues no API keys, and this profile does not pretend otherwise. What it does operate, on its own uni-tuebingen.de hosts, are four genuinely institution-run machine surfaces: the FDAT research data repository (InvenioRDM, Digital Humanities Center) exposing a keyless JSON REST API with IIIF manifests and DataCite DOIs; an OAI-PMH 2.0 provider on the same host; a second, much older OAI-PMH provider for the University Library''s TOBIAS-lib publication server (DSpace, records back to 1998, xMetaDissPlus); and a Shibboleth SAML 2.0 identity provider registered in DFN-AAI since 2009 and exported to eduGAIN, asserting REFEDS Research & Scholarship and SIRTFI/SIRTFI2. Its DataCite
   membership is verifiable — member AWZY "IKM Universität Tübingen", repository client AWZY.FEDNNV, DOI prefix 10.57754 — as is its ROR record 03a1kwz48. The University Library additionally builds and operates TueFind, its own VuFind derivative, in the open on GitHub, and runs three national subject discovery services on it (ixTheo, RelBib, KrimDok), currently behind a proof-of-work browser challenge. Campus management (alma), the VLE and the licensed library estate sit behind SSO and are not publicly documented APIs. No InvenioRDM, DSpace or VuFind product contract is saved under this institution — those belong to their upstream projects.'
 finops:
-- name: University Of Tubingen Finops
+- has_sources: true
+  method: generated
+  name: University Of Tubingen Finops
+  primary_unit: ''
   service_category: Education
   slug: university-of-tubingen-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/university-of-tubingen.png
 jsonld:
 - class_count: 20
@@ -172,17 +184,17 @@ jsonld:
   property_count: 11
   slug: university-of-tubingen-context
 layout: provider
-modified: '2026-09-01'
+modified: '2026-10-06'
 name: University of Tübingen
 nav: Providers
 network: true
-overview: 'University of Tübingen publishes 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Higher Education, University, Germany, and Research.
+overview: 'University of Tübingen is listed with 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Higher Education, University, Germany, and Research.
 
 
   The University of Tübingen catalog on APIs.io includes 1 JSON-LD context.
 
 
-  University of Tübingen''s developer surface includes API reference, documentation, GitHub presence, support, engineering blog, authentication, and 16 more developer resources.'
+  University of Tübingen''s developer surface includes engineering blog, API reference, documentation, GitHub presence, support, authentication, and 18 more developer resources.'
 plans:
 - name: University Of Tubingen Plans Pricing
   plan_count: 2
@@ -194,17 +206,17 @@ rate_limits:
   slug: university-of-tubingen-rate-limits
 score:
   band: thin
-  composite: 35.7
+  composite: 31.4
   coverage:
-    artifact_dirs: 10
-    catalog_earned: 69.2
+    artifact_dirs: 11
+    catalog_earned: 61.0
     catalog_earned_first_party: 8.0
-    catalog_gap: 45.8
+    catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -3.6
+  delta: -4.3
   facets:
-    access_clarity: 47.9
+    access_clarity: 26.3
     contract_governance: 18.2
     contract_quality: 18.0
     developer_ergonomics: 35.7
@@ -218,7 +230,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 39.3
+  previous_composite: 35.7
   provenance:
     conformance: first-party
   regulatory:
@@ -227,8 +239,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 32.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

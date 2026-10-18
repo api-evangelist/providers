@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: The Uncountable External API is the authenticated REST surface of the Uncountable R&D platform. Its documented entry point is the list_entities endpoint, which returns rows from a Listing Configuratio
@@ -194,7 +194,7 @@ modified: '2026-09-01'
 name: Uncountable
 nav: Providers
 network: true
-overview: 'Uncountable publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Laboratory Informatics, LIMS, Electronic Lab Notebook, and R&D Data Management.
+overview: 'Uncountable is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Laboratory Informatics, LIMS, Electronic Lab Notebook, and R&D Data Management.
 
 
   Uncountable''s developer surface includes documentation, API reference, support, engineering blog, getting-started guide, changelog, authentication, and 22 more developer resources.'
@@ -216,7 +216,7 @@ score:
   band: thin
   composite: 36.6
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -241,8 +241,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 41.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -70,6 +70,10 @@ collections:
   name: PromptArmor API
   slug: open-prompt-armor
 common:
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.promptarmor.com/pricing
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/prompt-armor/refs/heads/main/capabilities/prompt-armor-capability-edges.yml
   title: ''
@@ -125,19 +129,23 @@ common:
 created: '2026-06-20'
 description: PromptArmor (YC W24) is an LLM application security platform that detects and blocks enterprise-grade threats - indirect prompt injection, data exfiltration, phishing, and system manipulation - in production AI applications. A real-time detection API analyzes LLM inputs and outputs against a continuously updated set of threat detectors before a completion is acted on, returning a fast verdict (for example containsInjection) so applications can block or allow content.
 finops:
-- name: Prompt Armor Finops
+- has_sources: true
+  method: generated
+  name: Prompt Armor Finops
+  primary_unit: ''
   service_category: Security
   slug: prompt-armor-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/prompt-armor.png
 layout: provider
 modified: '2026-06-20'
 name: PromptArmor
 nav: Providers
 network: true
-overview: 'PromptArmor publishes 2 APIs on the [APIs.io](https://apis.io/) network: Analyze API and Content Check API. Tagged areas include Artificial Intelligence, LLM, Security, Prompt Injection, and Threat Detection.
+overview: 'PromptArmor publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Analyze API and Content Check API. Tagged areas include Artificial Intelligence, LLM, Security, Prompt Injection, and Threat Detection.
 
 
-  PromptArmor''s developer surface includes authentication, documentation, and 9 more developer resources.'
+  PromptArmor''s developer surface includes pricing, authentication, documentation, and 9 more developer resources.'
 plans:
 - name: Prompt Armor Plans Pricing
   plan_count: 2
@@ -149,22 +157,22 @@ rate_limits:
   slug: prompt-armor-rate-limits
 score:
   band: thin
-  composite: 30.7
+  composite: 29.9
   coverage:
     artifact_dirs: 11
-    catalog_earned: 54.4
-    catalog_earned_first_party: 0.0
-    catalog_gap: 60.6
+    catalog_earned: 47.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 68.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.8
   facets:
-    access_clarity: 26.8
+    access_clarity: 31.6
     contract_governance: 0.0
     contract_quality: 50.2
     developer_ergonomics: 21.4
     discoverability: 66.1
-    operational_transparency: 18.9
+    operational_transparency: 5.3
   previous_composite: 30.7
   provenance:
     agentic_access: derived
@@ -179,8 +187,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -198,7 +206,7 @@ security:
 - kind: vulnerability-disclosure
   name: Prompt Armor Vulnerability Disclosure
   slug: prompt-armor-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 slug: prompt-armor
 tags:
 - Artificial Intelligence

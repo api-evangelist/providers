@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 51.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 2
@@ -767,9 +767,13 @@ features:
 - Official MCP server for AI coding agent integration
 - Buildkite Skills for Claude Code and Cursor
 finops:
-- name: Buildkite Com Finops
+- has_sources: true
+  method: generated
+  name: Buildkite Com Finops
+  primary_unit: ''
   service_category: ''
   slug: buildkite-com-finops
+  template: true
 graphqls:
 - description: GraphQL endpoint that returns deeply nested data on organizations, pipelines, builds, jobs, agents, clusters, queues, teams, audit events, suites, test executions, and package registries in a single r
   name: Buildkite GraphQL API
@@ -823,7 +827,7 @@ modified: '2026-06-20'
 name: Buildkite
 nav: Providers
 network: true
-overview: 'Buildkite publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Access Token API, Agent Tokens API, Agents API, and 20 more. Tagged areas include CI/CD, Continuous Integration, Continuous Delivery, DevOps, and Pipelines.
+overview: 'Buildkite publishes 23 API contracts indexed on the [APIs.io](https://apis.io/) network, including Access Token API, Agent Tokens API, Agents API, and 20 more. Tagged areas include CI/CD, Continuous Integration, Continuous Delivery, DevOps, and Pipelines.
 
 
   The Buildkite catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -840,9 +844,10 @@ rate_limits:
   name: Buildkite Com Rate Limits
   slug: buildkite-com-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Buildkite API Rules
+  name: Buildkite — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -850,7 +855,8 @@ rules:
     info: 1
     warn: 4
   slug: buildkite-com-jsonschema-spectral-rules
-- effective_rule_count: 53
+- authorship: generated
+  effective_rule_count: 53
   extends:
   - spectral:oas
   name: Buildkite API Rules
@@ -861,10 +867,11 @@ rules:
     info: 1
     warn: 0
   slug: buildkite-com-rules
-- effective_rule_count: 48
+- authorship: unmarked
+  effective_rule_count: 48
   extends:
   - spectral:oas
-  name: Buildkite API Rules
+  name: Buildkite — buildkite rules
   rule_count: 7
   severity_counts:
     error: 5
@@ -879,17 +886,17 @@ scopes:
   summary_line: 42 scopes
 score:
   band: exemplar
-  composite: 68.0
+  composite: 66.5
   coverage:
-    artifact_dirs: 38
-    catalog_earned: 64.0
+    artifact_dirs: 39
+    catalog_earned: 61.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 51.0
+    catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 2.8
+  delta: -5.6
   facets:
-    access_clarity: 76.3
+    access_clarity: 68.4
     contract_governance: 31.8
     contract_quality: 66.0
     developer_ergonomics: 72.6
@@ -902,7 +909,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 65.2
+  previous_composite: 72.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -918,9 +925,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

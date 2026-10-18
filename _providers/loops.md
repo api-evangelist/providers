@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 62.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 64
   slug: loops-agentic-access
   summary_line: 64 operations · 35 acting
-api_count: 1
+api_count: 2
 apis:
 - baseURL: https://app.loops.so/api/v1
   baseurl_source: declared
@@ -633,9 +633,13 @@ common:
 created: '2026-05-08'
 description: Loops is an email platform built for software companies, combining marketing campaigns, product and lifecycle automation, and transactional email on one contact model. Its REST API v1 exposes 64 operations across contacts, contact properties, mailing lists, audience segments, events and event patterns, campaigns, transactional emails, email messages authored in its own LMX markup, themes, components, uploads and workflow graphs, plus a 17-event signed webhook surface. Loops publishes its OpenAPI 3.1 document openly, ships first-party SDKs for JavaScript, Go, PHP, Ruby and Nuxt, a Go CLI, four versioned Agent Skills, and a hosted OAuth-protected MCP server at mcp.loops.so. Pricing is based on stored subscribed contacts rather than send volume, with a permanent free tier. The operating company is Astrodon Corporation.
 finops:
-- name: Loops Finops
+- has_sources: true
+  method: generated
+  name: Loops Finops
+  primary_unit: ''
   service_category: Email Marketing
   slug: loops-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/loops.png
 layout: provider
 mcp_servers:
@@ -646,7 +650,7 @@ modified: '2026-08-13'
 name: Loops
 nav: Providers
 network: true
-overview: 'Loops publishes 21 APIs on the [APIs.io](https://apis.io/) network, including API key API, Audience segments API, Campaign groups API, and 18 more. Tagged areas include Email, Email API, Marketing Automation, Transactional Email, and Lifecycle Email.
+overview: 'Loops publishes 21 API contracts indexed on the [APIs.io](https://apis.io/) network, including API key API, Audience segments API, Campaign groups API, and 18 more. Tagged areas include Email, Email API, Marketing Automation, Transactional Email, and Lifecycle Email.
 
 
   The Loops catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -669,17 +673,17 @@ scopes:
   summary_line: 1 scope
 score:
   band: exemplar
-  composite: 71.4
+  composite: 69.8
   coverage:
-    artifact_dirs: 29
-    catalog_earned: 60.0
+    artifact_dirs: 30
+    catalog_earned: 57.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 55.0
+    catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 89.5
+    access_clarity: 81.6
     contract_governance: 18.2
     contract_quality: 58.1
     developer_ergonomics: 78.6
@@ -702,8 +706,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

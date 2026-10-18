@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.kakehashi.life/rss
 - group: company
   title: ''
   type: Website
@@ -61,18 +65,18 @@ created: '2026-07-17'
 description: Kakehashi is a Japanese healthcare technology company digitally transforming the country's roughly 60,000 community pharmacies, a traditionally paper-based sector. Its flagship cloud platform Musubi provides electronic medication history, automated dispensing records, and personalized patient guidance, and is used by more than 14,000 pharmacies across Japan. The product suite extends to Musubi Insight (pharmacy management analytics), Pocket Musubi (patient follow-up app), Musubi AI Stock Management (machine-learning demand forecasting and inventory optimization), and Pharmarket. Kakehashi is backed by investors including 500 Global and Goldman Sachs. No public developer API or platform is currently published.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kakehashi.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Kakehashi
 nav: Providers
 network: true
 overview: 'Kakehashi is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Pharmacy, Software-as-a-Service, and Japan.
 
 
-  Kakehashi''s developer surface includes engineering blog and 4 more developer resources.'
+  Kakehashi''s developer surface includes engineering blog and 5 more developer resources.'
 random_paper: 13
 score:
   band: minimal
-  composite: 7.0
+  composite: 7.1
   coverage:
     artifact_dirs: 4
     catalog_earned: 27.0
@@ -80,7 +84,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 10.5
     contract_governance: 0.0
@@ -102,8 +106,8 @@ score:
     regime: Health
     regime_id: health
     score: 7.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

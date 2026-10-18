@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 46.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 1
@@ -242,9 +242,13 @@ examples:
   name: Keka Hr Api Examples
   slug: keka-hr-api-examples
 finops:
-- name: Keka Finops
+- has_sources: false
+  method: generated
+  name: Keka Finops
+  primary_unit: ''
   service_category: ''
   slug: keka-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/keka.png
 json_schemas:
 - name: Keka HR API
@@ -259,7 +263,7 @@ modified: 2026-06-13
 name: Keka HR
 nav: Providers
 network: true
-overview: 'Keka HR publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Assets API, Attendance API, Authentication API, and 11 more. Tagged areas include Human Resources, Payroll, Attendance, Leave Management, and Performance Management.
+overview: 'Keka HR publishes 14 API contracts indexed on the [APIs.io](https://apis.io/) network, including Assets API, Attendance API, Authentication API, and 11 more. Tagged areas include Human Resources, Payroll, Attendance, Leave Management, and Performance Management.
 
 
   The Keka HR catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -276,9 +280,10 @@ rate_limits:
   name: Keka Rate Limits
   slug: keka-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Keka HR API Rules
+  name: Keka HR — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -293,22 +298,22 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: thin
-  composite: 36.5
+  composite: 29.0
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 61.3
+    artifact_dirs: 22
+    catalog_earned: 45.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.7
+    catalog_gap: 69.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.5
   facets:
-    access_clarity: 41.6
+    access_clarity: 13.2
     contract_governance: 9.8
     contract_quality: 45.1
     developer_ergonomics: 19.0
     discoverability: 75.0
-    operational_transparency: 36.1
+    operational_transparency: 22.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -331,9 +336,9 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 21.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

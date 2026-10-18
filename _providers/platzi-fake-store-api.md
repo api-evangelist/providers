@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -94,6 +94,21 @@ collections:
   name: Platzi Fake Store API
   slug: open-platzi-fake-store-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/platzi-fake-store-api/refs/heads/main/plans/platzi-fake-store-api-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/platzi-fake-store-api-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/platzi-fake-store-api/refs/heads/main/rate-limits/platzi-fake-store-api-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/platzi-fake-store-api-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/platzi-fake-store-api/refs/heads/main/finops/platzi-fake-store-api-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/platzi-fake-store-api-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/platzi-fake-store-api/refs/heads/main/agentic-access/platzi-fake-store-api-agentic-access.yml
   title: ''
@@ -112,11 +127,11 @@ common:
 - group: company
   title: ''
   type: Website
-  url: https://fakeapi.platzi.com/
+  url: https://api.escuelajs.co/docs
 - group: docs
   title: ''
   type: Documentation
-  url: https://fakeapi.platzi.com/
+  url: https://api.escuelajs.co/docs
 - group: build
   title: ''
   type: GitHub
@@ -128,19 +143,23 @@ common:
 created: '2025-02-24'
 description: Platzi Fake Store API is a free, fake REST API for prototyping and testing e-commerce or shopping site applications. It exposes products, categories, users, file upload, and JWT-based authentication endpoints with full CRUD support.
 finops:
-- name: Platzi Fake Store Api Finops
+- has_sources: false
+  method: generated
+  name: Platzi Fake Store Api Finops
+  primary_unit: ''
   service_category: API
   slug: platzi-fake-store-api-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/platzi-fake-store-api.png
 layout: provider
 modified: '2026-05-19'
 name: Platzi Fake Store API
 nav: Providers
 network: true
-overview: 'Platzi Fake Store API publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Categories API, Files API, and 2 more. Tagged areas include E-Commerce, Fake API, JWT, Prototyping, and Sandbox.
+overview: 'Platzi Fake Store API publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Auth API, Categories API, Files API, and 2 more. Tagged areas include E-Commerce, Fake API, JWT, Prototyping, and Sandbox.
 
 
-  Platzi Fake Store API''s developer surface includes authentication, documentation, GitHub presence, and 4 more developer resources.'
+  Platzi Fake Store API''s developer surface includes authentication, documentation, GitHub presence, and 7 more developer resources.'
 plans:
 - name: Platzi Fake Store Api Plans Pricing
   plan_count: 3
@@ -151,18 +170,18 @@ rate_limits:
   name: Platzi Fake Store Api Rate Limits
   slug: platzi-fake-store-api-rate-limits
 score:
-  band: thin
-  composite: 26.6
+  band: emerging
+  composite: 25.1
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 46.0
+    artifact_dirs: 12
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 69.0
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 45.6
     developer_ergonomics: 21.4
@@ -182,8 +201,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -207,5 +226,5 @@ tags:
 - Sandbox
 - Sample Data
 - Testing
-website: https://fakeapi.platzi.com/
+website: https://api.escuelajs.co/docs
 ---

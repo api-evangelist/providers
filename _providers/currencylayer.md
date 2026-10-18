@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.4
-  scored_at: '2026-10-04'
+  score: 22.2
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -256,9 +256,13 @@ features:
 - description: Aggregated from 15+ commercial-grade providers, suitable for finance and treasury workloads.
   name: Bank-Grade Data Sourcing
 finops:
-- name: Currencylayer Finops
+- has_sources: false
+  method: generated
+  name: Currencylayer Finops
+  primary_unit: ''
   service_category: ''
   slug: currencylayer-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/currencylayer.png
 integrations:
 - description: Currencylayer is distributed via the APILayer hub; signup, billing, and key management share the marketplace.
@@ -318,7 +322,7 @@ modified: '2026-05-29'
 name: Currencylayer
 nav: Providers
 network: true
-overview: 'Currencylayer publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Change API, Conversion API, Rates API, and 2 more. Tagged areas include Currency Exchange, Foreign Exchange, FX, Forex, and Conversion.
+overview: 'Currencylayer publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Change API, Conversion API, Rates API, and 2 more. Tagged areas include Foreign Exchange, Conversion, Historical Rates, Time Frame, and Change Report.
 
 
   The Currencylayer catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -335,9 +339,10 @@ rate_limits:
   name: Currencylayer Rate Limits
   slug: currencylayer-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Currencylayer API Rules
+  name: Currencylayer — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -345,7 +350,8 @@ rules:
     info: 1
     warn: 4
   slug: currencylayer-jsonschema-spectral-rules
-- effective_rule_count: 53
+- authorship: unmarked
+  effective_rule_count: 53
   extends:
   - spectral:oas
   name: Currencylayer API Rules
@@ -357,18 +363,18 @@ rules:
     warn: 8
   slug: currencylayer-rules
 score:
-  band: strong
-  composite: 56.4
+  band: developing
+  composite: 50.7
   coverage:
     artifact_dirs: 18
-    catalog_earned: 79.8
+    catalog_earned: 69.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 35.2
+    catalog_gap: 46.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.7
   facets:
-    access_clarity: 74.5
+    access_clarity: 46.1
     contract_governance: 27.3
     contract_quality: 65.3
     developer_ergonomics: 64.3
@@ -388,9 +394,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
@@ -420,10 +426,7 @@ solutions:
 - description: Volume-based pricing, 60-second refresh, dedicated account team and priority support.
   name: Custom Plan
 tags:
-- Currency Exchange
 - Foreign Exchange
-- FX
-- Forex
 - Conversion
 - Historical Rates
 - Time Frame

@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 8
+- acting_count: 7
   human_in_the_loop: 1
   name: Llamacloud Agentic Access
   operation_count: 19
   slug: llamacloud-agentic-access
-  summary_line: 19 operations · 8 acting · 1 human-in-the-loop
+  summary_line: 19 operations · 7 acting · 1 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://api.cloud.llamaindex.ai/api/v1
@@ -147,16 +147,20 @@ common:
 created: '2026-06-20'
 description: LlamaCloud is the managed document parsing, extraction, indexing, and retrieval platform from LlamaIndex. It exposes REST APIs at https://api.cloud.llamaindex.ai for LlamaParse (document parsing to Markdown/JSON), managed ingestion pipelines and indexes, document management, retrieval, and LlamaExtract (schema-driven structured extraction), all secured with a Bearer API key. This is the hosted cloud platform, distinct from the open-source LlamaIndex framework.
 finops:
-- name: Llamacloud Finops
+- has_sources: true
+  method: generated
+  name: Llamacloud Finops
+  primary_unit: ''
   service_category: AI and Machine Learning
   slug: llamacloud-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/llamacloud.png
 layout: provider
 modified: '2026-06-20'
 name: LlamaCloud
 nav: Providers
 network: true
-overview: 'LlamaCloud publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Documents API, Extraction API, Parsing API, and 2 more. Tagged areas include Artificial Intelligence, Document Parsing, Extraction, Indexing, and Retrieval.
+overview: 'LlamaCloud publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Documents API, Extraction API, Parsing API, and 2 more. Tagged areas include Artificial Intelligence, Document Parsing, Extraction, Indexing, and Retrieval.
 
 
   LlamaCloud''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
@@ -171,22 +175,22 @@ rate_limits:
   slug: llamacloud-rate-limits
 score:
   band: thin
-  composite: 37.0
+  composite: 28.8
   coverage:
     artifact_dirs: 11
-    catalog_earned: 61.6
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.4
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.2
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 47.6
     developer_ergonomics: 32.1
     discoverability: 66.1
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   previous_composite: 37.0
   provenance:
     agentic_access: derived
@@ -201,9 +205,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 22.2

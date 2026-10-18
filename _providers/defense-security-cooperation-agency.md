@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: Public-facing website of the Defense Security Cooperation Agency that describes its mission, leadership, programs, and partners. The site links to news, the security cooperation library, and the FMS p
@@ -47,6 +47,21 @@ apis:
   slug: defense-security-cooperation-agency-scip
 artifact_total: 7
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/defense-security-cooperation-agency/refs/heads/main/plans/defense-security-cooperation-agency-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/defense-security-cooperation-agency-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/defense-security-cooperation-agency/refs/heads/main/rate-limits/defense-security-cooperation-agency-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/defense-security-cooperation-agency-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/defense-security-cooperation-agency/refs/heads/main/finops/defense-security-cooperation-agency-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/defense-security-cooperation-agency-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/defense-security-cooperation-agency/refs/heads/main/security/defense-security-cooperation-agency-domain-security.yml
   title: ''
@@ -87,19 +102,23 @@ common:
 created: '2024-12-03'
 description: The Defense Security Cooperation Agency (DSCA) is the U.S. Department of Defense agency that leads, directs, and manages security cooperation programs and resources to support U.S. policy and interests with foreign partners. DSCA administers the Foreign Military Sales (FMS) program, Foreign Military Financing (FMF) execution, International Military Education and Training (IMET), and humanitarian assistance programs. Public-facing surfaces include the Major Arms Sales notifications published in cooperation with Congress, the DSCA newsroom and library, and the Security Cooperation Workforce certification portal. DSCA does not publish a general-purpose developer API; partner-nation systems interact through controlled, government-to-government channels such as the Security Cooperation Information Portal (SCIP).
 finops:
-- name: Defense Security Cooperation Agency Finops
+- has_sources: false
+  method: generated
+  name: Defense Security Cooperation Agency Finops
+  primary_unit: ''
   service_category: API
   slug: defense-security-cooperation-agency-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/defense-security-cooperation-agency.png
 layout: provider
 modified: '2026-07-25'
 name: Defense Security Cooperation Agency
 nav: Providers
 network: true
-overview: 'Defense Security Cooperation Agency publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Defense, Department of Defense, DSCA, Federal Government, and Foreign Military Sales.
+overview: 'Defense Security Cooperation Agency is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Defense, Department of Defense, DSCA, Federal Government, and Foreign Military Sales.
 
 
-  Defense Security Cooperation Agency''s developer surface includes product news and 8 more developer resources.'
+  Defense Security Cooperation Agency''s developer surface includes product news and 11 more developer resources.'
 plans:
 - name: Defense Security Cooperation Agency Plans Pricing
   plan_count: 3
@@ -111,17 +130,17 @@ rate_limits:
   slug: defense-security-cooperation-agency-rate-limits
 score:
   band: emerging
-  composite: 14.0
+  composite: 12.4
   coverage:
     artifact_dirs: 6
-    catalog_earned: 44.0
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 71.0
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 26.3
+    access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 9.5
@@ -140,8 +159,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 9.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

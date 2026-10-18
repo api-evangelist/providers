@@ -34,15 +34,15 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 46.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 62
+- acting_count: 61
   human_in_the_loop: 2
   name: Openmercantil Agentic Access
   operation_count: 210
   slug: openmercantil-agentic-access
-  summary_line: 210 operations · 62 acting · 2 human-in-the-loop
-api_count: 3
+  summary_line: 210 operations · 61 acting · 2 human-in-the-loop
+api_count: 4
 apis:
 - baseURL: https://openmercantil.es
   baseurl_source: spec
@@ -885,9 +885,13 @@ examples:
   name: Openmercantil Search Companies Example
   slug: openmercantil-search-companies-example
 finops:
-- name: Openmercantil Finops
+- has_sources: true
+  method: generated
+  name: Openmercantil Finops
+  primary_unit: ''
   service_category: Open Data / Public Records
   slug: openmercantil-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/openmercantil.png
 json_schemas:
 - name: OpenMercantil Company
@@ -910,7 +914,7 @@ modified: '2026-08-14'
 name: OpenMercantil
 nav: Providers
 network: true
-overview: 'OpenMercantil publishes 25 APIs on the [APIs.io](https://apis.io/) network, including API Credentials API, Billing API, BORME API, and 22 more. Tagged areas include BDNS, BORME, Business Registry, CIF, and CNAE.
+overview: 'OpenMercantil publishes 25 API contracts indexed on the [APIs.io](https://apis.io/) network, including API Credentials API, Billing API, BORME API, and 22 more. Tagged areas include BDNS, BORME, Business Registry, CIF, and CNAE.
 
 
   The OpenMercantil catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
@@ -927,9 +931,10 @@ rate_limits:
   name: Openmercantil Rate Limits
   slug: openmercantil-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: OpenMercantil API Rules
+  name: OpenMercantil — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -937,7 +942,8 @@ rules:
     info: 1
     warn: 4
   slug: openmercantil-jsonschema-spectral-rules
-- effective_rule_count: 50
+- authorship: unmarked
+  effective_rule_count: 50
   extends:
   - spectral:oas
   name: OpenMercantil API Rules
@@ -955,17 +961,17 @@ scopes:
   summary_line: 6 scopes
 score:
   band: exemplar
-  composite: 80.6
+  composite: 79.0
   coverage:
-    artifact_dirs: 30
-    catalog_earned: 79.0
+    artifact_dirs: 31
+    catalog_earned: 76.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 36.0
+    catalog_gap: 39.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 100.0
+    access_clarity: 92.1
     contract_governance: 45.5
     contract_quality: 70.8
     developer_ergonomics: 56.5
@@ -1000,8 +1006,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 45.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -1019,7 +1025,7 @@ security:
 - kind: vulnerability-disclosure
   name: Openmercantil Vulnerability Disclosure
   slug: openmercantil-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 - kind: trust-center
   name: Openmercantil Trust Center
   slug: openmercantil-trust-center

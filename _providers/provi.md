@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.provi.com/blog/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/provi/refs/heads/main/security/provi-domain-security.yml
   title: ''
@@ -97,26 +101,26 @@ created: '2026-07-17'
 description: Provi is a B2B beverage alcohol marketplace that digitizes procurement across the three-tier distribution system, connecting buyers (bars, restaurants, and retail stores) with distributors, sales representatives, and suppliers/brands. The platform consolidates product discovery across distributor catalogs, direct messaging with sales reps, order management and processing, and brand showcase tools into a single ordering experience. Provi was surfaced as a portfolio company of Bessemer Venture Partners and added to the API Evangelist network. As of this enrichment pass the company publishes no public developer API, OpenAPI, or developer portal; this profile captures its identity, web properties, and domain-security posture.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/provi.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Provi
 nav: Providers
 network: true
 overview: 'Provi is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Beverages, Alcohol, Marketplace, and B2B.
 
 
-  Provi''s developer surface includes engineering blog, support, signup flow, and 11 more developer resources.'
+  Provi''s developer surface includes engineering blog, support, signup flow, and 12 more developer resources.'
 random_paper: 10
 score:
   band: emerging
-  composite: 12.8
+  composite: 12.9
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 34.2
     contract_governance: 0.0
@@ -131,8 +135,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

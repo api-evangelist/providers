@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.alodokter.com/blog
 - group: company
   title: ''
   type: Website
@@ -61,31 +65,31 @@ created: '2026-07-17'
 description: Alodokter is Indonesia's leading digital health and telemedicine platform, founded in 2014 and operated by PT Alodokter Teknologi Solusi. It connects tens of millions of monthly active users with tens of thousands of licensed doctors through chat-based consultations (Tanya Dokter), online and in-person doctor appointment booking, a large library of medically reviewed health articles and a symptom and disease encyclopedia, health protection and insurance products, and a health commerce surface for medicines and health products. This API Evangelist profile was surfaced as a portfolio company of 500 Global and enriched from the provider's own public web surface; Alodokter does not publish a public developer API portal or OpenAPI at this time, so this profile focuses on company identity, legal and support surfaces, and domain security posture.
 image: https://www.alodokter.com/assets/apple-touch-icon-fbe9a22f2fc74b52818c962ab91b40031f1e6dd2d614f376eb1efcc03c5bba0b.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Alodokter
 nav: Providers
 network: true
 overview: 'Alodokter is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Healthcare, Telehealth, and Digital Health.
 
 
-  Alodokter''s developer surface includes support and 4 more developer resources.'
+  Alodokter''s developer surface includes engineering blog, support, and 4 more developer resources.'
 random_paper: 19
 score:
   band: minimal
-  composite: 9.8
+  composite: 10.3
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 4.8
+    developer_ergonomics: 7.1
     discoverability: 48.2
     operational_transparency: 0.0
   jurisdiction:
@@ -102,8 +106,8 @@ score:
     regime: Health
     regime_id: health
     score: 10.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

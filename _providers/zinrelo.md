@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -110,6 +110,10 @@ collections:
   name: Zinrelo Loyalty API
   slug: open-zinrelo
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.trueloyal.com/blog
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/zinrelo/refs/heads/main/capabilities/zinrelo-capability-edges.yml
   title: ''
@@ -169,19 +173,23 @@ common:
 created: '2026-07-10'
 description: Zinrelo is an enterprise SaaS loyalty and rewards platform that helps brands run holistic loyalty programs spanning transactional, social, advocacy, engagement, behavioral, and emotional loyalty across web, mobile, and in-store channels. Its documented REST Loyalty API lets you enroll and manage members, award and deduct points, record purchases and returns, list rewards, and redeem points for rewards. Every request is authenticated with a partner-id and an api-key sent as HTTP headers, both provisioned to a Zinrelo account. The API reference is public, but obtaining API credentials requires a Zinrelo account; pricing is quote-based via sales. Zinrelo is rebranding to TrueLoyal, and some documentation now lives under trueloyal.com domains.
 finops:
-- name: Zinrelo Finops
+- has_sources: true
+  method: generated
+  name: Zinrelo Finops
+  primary_unit: ''
   service_category: Marketing and Loyalty
   slug: zinrelo-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zinrelo.png
 layout: provider
-modified: '2026-07-10'
+modified: '2026-10-06'
 name: Zinrelo
 nav: Providers
 network: true
-overview: 'Zinrelo publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Events API, Members API, Points API, and 4 more. Tagged areas include Loyalty, Rewards, Points, Customer Retention, and E-Commerce.
+overview: 'Zinrelo publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Events API, Members API, Points API, and 4 more. Tagged areas include Loyalty, Rewards, Points, Customer Retention, and E-Commerce.
 
 
-  Zinrelo''s developer surface includes authentication, documentation, API reference, and 9 more developer resources.'
+  Zinrelo''s developer surface includes engineering blog, authentication, documentation, API reference, and 9 more developer resources.'
 plans:
 - name: Zinrelo Plans Pricing
   plan_count: 3
@@ -193,22 +201,22 @@ rate_limits:
   slug: zinrelo-rate-limits
 score:
   band: thin
-  composite: 35.0
+  composite: 28.1
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 58.0
+    artifact_dirs: 13
+    catalog_earned: 42.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.0
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.9
   facets:
-    access_clarity: 44.2
+    access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 50.7
-    developer_ergonomics: 25.0
+    developer_ergonomics: 27.4
     discoverability: 66.1
-    operational_transparency: 18.9
+    operational_transparency: 5.3
   previous_composite: 35.0
   provenance:
     agentic_access: derived
@@ -223,9 +231,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

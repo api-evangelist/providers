@@ -27,16 +27,39 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 5.0
-  scored_at: '2026-10-04'
+  score: 3.1
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 18
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/anheuser-busch/refs/heads/main/plans/anheuser-busch-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/anheuser-busch-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/anheuser-busch/refs/heads/main/rate-limits/anheuser-busch-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/anheuser-busch-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/anheuser-busch/refs/heads/main/finops/anheuser-busch-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/anheuser-busch-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.anheuser-busch.com/newsroom
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.anheuser-busch.com/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/anheuser-busch/refs/heads/main/security/anheuser-busch-vulnerability-disclosure.yml
   title: ''
@@ -89,9 +112,13 @@ features:
 - description: Public ESG / sustainability reporting on water use, packaging, and carbon emissions.
   name: Sustainability Reporting
 finops:
-- name: Anheuser Busch Finops
+- has_sources: true
+  method: generated
+  name: Anheuser Busch Finops
+  primary_unit: ''
   service_category: Beverages / Consumer Goods
   slug: anheuser-busch-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/anheuser-busch.png
 integrations:
 - description: Anheuser-Busch is the U.S. operating subsidiary of AB InBev, the world's largest brewer.
@@ -103,14 +130,14 @@ integrations:
 - description: A network of independent U.S. wholesalers handles last-mile distribution under the three-tier system.
   name: Independent Wholesalers
 layout: provider
-modified: '2026-05-16'
+modified: '2026-10-06'
 name: Anheuser-Busch
 nav: Providers
 network: true
 overview: 'Anheuser-Busch is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Beverages, Consumer Goods, Manufacturing, Food and Beverage, and Consumer Packaged Goods.
 
 
-  Anheuser-Busch''s developer surface includes GitHub presence, authentication, and 5 more developer resources.'
+  Anheuser-Busch''s developer surface includes engineering blog, GitHub presence, authentication, and 9 more developer resources.'
 plans:
 - name: Anheuser Busch Plans Pricing
   plan_count: 2
@@ -122,32 +149,32 @@ rate_limits:
   slug: anheuser-busch-rate-limits
 score:
   band: emerging
-  composite: 18.3
+  composite: 12.8
   coverage:
-    artifact_dirs: 6
-    catalog_earned: 44.4
+    artifact_dirs: 7
+    catalog_earned: 31.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 70.6
+    catalog_gap: 84.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.1
+  delta: -5.5
   facets:
-    access_clarity: 34.7
+    access_clarity: 13.2
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 11.9
+    developer_ergonomics: 14.3
     discoverability: 48.2
-    operational_transparency: 24.2
-  previous_composite: 17.2
+    operational_transparency: 10.5
+  previous_composite: 18.3
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -161,7 +188,7 @@ security:
 - kind: vulnerability-disclosure
   name: Anheuser Busch Vulnerability Disclosure
   slug: anheuser-busch-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 slug: anheuser-busch
 tags:
 - Beverages

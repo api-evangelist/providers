@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 207
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 341
   slug: cenevo-agentic-access
   summary_line: 341 operations · 207 acting
-api_count: 2
+api_count: 4
 apis:
 - baseURL: https://my.labguru.com/api/v1
   baseurl_source: declared
@@ -781,7 +781,7 @@ modified: '2026-07-18'
 name: Cenevo
 nav: Providers
 network: true
-overview: 'Cenevo publishes 75 APIs on the [APIs.io](https://apis.io/) network, including Antibodies API, Attachments API, Authentication API, and 72 more. Tagged areas include Company, Lab Automation, Laboratory Informatics, Electronic Lab Notebook, and LIMS.
+overview: 'Cenevo publishes 75 API contracts indexed on the [APIs.io](https://apis.io/) network, including Antibodies API, Attachments API, Authentication API, and 72 more. Tagged areas include Company, Lab Automation, Laboratory Informatics, Electronic Lab Notebook, and LIMS.
 
 
   The Cenevo catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -791,21 +791,21 @@ overview: 'Cenevo publishes 75 APIs on the [APIs.io](https://apis.io/) network, 
 random_paper: 2
 score:
   band: developing
-  composite: 41.8
+  composite: 42.4
   coverage:
     artifact_dirs: 20
-    catalog_earned: 37.0
+    catalog_earned: 40.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 48.6
     developer_ergonomics: 66.1
-    discoverability: 73.2
+    discoverability: 78.6
     operational_transparency: 10.5
   previous_composite: 41.8
   provenance:
@@ -824,8 +824,8 @@ score:
     regime: Health
     regime_id: health
     score: 19.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

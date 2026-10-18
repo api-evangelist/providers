@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.8
-  scored_at: '2026-10-04'
+  score: 22.9
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 3
+- acting_count: 2
   human_in_the_loop: 0
   name: Inferless Agentic Access
   operation_count: 3
   slug: inferless-agentic-access
-  summary_line: 3 operations · 3 acting
+  summary_line: 3 operations · 2 acting
 api_count: 1
 apis:
 - baseURL: https://api.inferless.com
@@ -70,6 +70,10 @@ collections:
   name: Inferless API
   slug: open-inferless
 common:
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.inferless.com/pricing
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/inferless/refs/heads/main/capabilities/inferless-capability-edges.yml
   title: ''
@@ -128,22 +132,26 @@ common:
 created: '2026-06-20'
 description: Inferless is a serverless GPU inference platform for machine learning models. Teams import a model from Hugging Face, a Git repo, or a container and Inferless auto-generates a scalable REST inference endpoint billed per second of GPU compute. A workspace-scoped management API and CLI cover model import, deployment, settings, logs, secrets, and volumes.
 finops:
-- name: Inferless Finops
+- has_sources: true
+  method: generated
+  name: Inferless Finops
+  primary_unit: ''
   service_category: AI and Machine Learning
   slug: inferless-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/inferless.png
 layout: provider
 modified: '2026-06-20'
 name: Inferless
 nav: Providers
 network: true
-overview: 'Inferless publishes 2 APIs on the [APIs.io](https://apis.io/) network: Inference API and Model Management API. Tagged areas include Artificial Intelligence, ML Inference, Serverless GPU, Model Deployment, and Inference.
+overview: 'Inferless publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Inference API and Model Management API. Tagged areas include Artificial Intelligence, ML Inference, Serverless GPU, Model Deployment, and Inference.
 
 
-  Inferless'' developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
+  Inferless'' developer surface includes pricing, authentication, documentation, engineering blog, and 9 more developer resources.'
 plans:
 - name: Inferless Plans Pricing
-  plan_count: 4
+  plan_count: 9
   slug: inferless-plans-pricing
 random_paper: 3
 rate_limits:
@@ -152,22 +160,22 @@ rate_limits:
   slug: inferless-rate-limits
 score:
   band: thin
-  composite: 36.1
+  composite: 34.7
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 61.6
-    catalog_earned_first_party: 0.0
-    catalog_gap: 53.4
+    artifact_dirs: 12
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.4
   facets:
-    access_clarity: 36.3
+    access_clarity: 42.1
     contract_governance: 0.0
     contract_quality: 52.7
     developer_ergonomics: 32.1
     discoverability: 66.1
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   previous_composite: 36.1
   provenance:
     agentic_access: derived
@@ -182,8 +190,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

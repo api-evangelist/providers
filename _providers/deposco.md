@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 5
 apis:
 - description: Import and query customer (sales) orders for fulfillment. Modeled from Deposco integration references - PUT /import/{businessUnit}/customerOrder/{orderNumber} to create or update an order, and GET /se
@@ -54,6 +54,10 @@ apis:
   slug: deposco-shipments-api
 artifact_total: 7
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://deposco.com/blog/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/deposco/refs/heads/main/security/deposco-domain-security.yml
   title: ''
@@ -84,14 +88,14 @@ created: '2026-07-04'
 description: Deposco is a cloud supply chain execution platform combining order management (OMS) and warehouse management (WMS) for retailers, brands, 3PLs, and DTC ecommerce sellers. Its Bright Suite gives real-time visibility into inventory, orders, and shipments across the fulfillment lifecycle - receiving, putaway, picking, packing, and shipping. Deposco integrates through a REST API exposed on its Developer Portal (developer.deposco.com) using resource paths under /integration/{code}/, secured with OAuth 2.0 / per-merchant API credentials and scoped by tenant code and business unit. API access is provisioned per customer through a Deposco account manager rather than through open self-service signup, and Deposco also ships 150+ pre-built connectors and EDI integrations.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/deposco.png
 layout: provider
-modified: '2026-07-04'
+modified: '2026-10-06'
 name: Deposco
 nav: Providers
 network: true
-overview: 'Deposco publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Supply Chain, Warehouse Management, WMS, Order Management, and OMS.
+overview: 'Deposco is listed with 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Supply Chain, Warehouse Management, WMS, Order Management, and OMS.
 
 
-  Deposco''s developer surface includes documentation, engineering blog, and 4 more developer resources.'
+  Deposco''s developer surface includes engineering blog, documentation, and 5 more developer resources.'
 plans:
 - name: Deposco Plans Pricing
   plan_count: 1
@@ -99,17 +103,17 @@ plans:
 random_paper: 1
 score:
   band: minimal
-  composite: 9.9
+  composite: 7.3
   coverage:
-    artifact_dirs: 5
-    catalog_earned: 47.2
+    artifact_dirs: 6
+    catalog_earned: 42.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 67.8
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.6
   facets:
-    access_clarity: 18.9
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 2.4
@@ -122,8 +126,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

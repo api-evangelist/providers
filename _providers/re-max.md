@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - baseURL: https://api.datahub.remax.eu/external
@@ -52,6 +52,10 @@ apis:
   slug: re-max-eu-site-api
 artifact_total: 6
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://news.remax.com/feed
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/re-max/refs/heads/main/security/re-max-domain-security.yml
   title: ''
@@ -177,14 +181,14 @@ mcp_servers:
 - description: Remote MCP server at www.remax.eu over HTTP.
   name: RE/MAX MCP Server
   slug: remax-eu-wordpress-mcp
-modified: '2026-07-26'
+modified: '2026-10-06'
 name: RE/MAX
 nav: Providers
 network: true
-overview: 'RE/MAX publishes 3 APIs on the [APIs.io](https://apis.io/) network, including Europe Datahub API, Europe Listings API, and 1 more. Tagged areas include Real Estate, United States, Brokerage, Property Listings, and MLS.
+overview: 'RE/MAX is listed with 3 APIs on the [APIs.io](https://apis.io/) network, including Europe Datahub API, Europe Listings API, and 1 more. Tagged areas include Real Estate, United States, Brokerage, Property Listings, and MLS.
 
 
-  RE/MAX''s developer surface includes authentication, sandbox, engineering blog, documentation, and 21 more developer resources.'
+  RE/MAX''s developer surface includes authentication, sandbox, engineering blog, documentation, and 22 more developer resources.'
 random_paper: 14
 score:
   band: emerging
@@ -222,8 +226,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 15.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

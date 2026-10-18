@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 55.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -421,9 +421,13 @@ features:
 - description: First-party remote MCP server at mcp.betterstack.com exposing ~106 agent tools across Uptime, Telemetry and Errors behind OAuth 2.1.
   name: MCP Server
 finops:
-- name: Betterstack Finops
+- has_sources: false
+  method: generated
+  name: Betterstack Finops
+  primary_unit: ''
   service_category: API
   slug: betterstack-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/betterstack.png
 integrations:
 - description: Receive incident alerts in Slack channels.
@@ -445,7 +449,7 @@ modified: '2026-09-04'
 name: Better Stack
 nav: Providers
 network: true
-overview: 'Better Stack publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Heartbeats API, Incidents API, Monitors API, and 3 more. Tagged areas include Observability, Uptime Monitoring, Incidents, Logs, and Monitoring.
+overview: 'Better Stack publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Heartbeats API, Incidents API, Monitors API, and 3 more. Tagged areas include Observability, Uptime Monitoring, Incidents, Logs, and Monitoring.
 
 
   The Better Stack catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -468,17 +472,17 @@ scopes:
   summary_line: 2 scopes
 score:
   band: exemplar
-  composite: 68.5
+  composite: 67.0
   coverage:
-    artifact_dirs: 27
-    catalog_earned: 56.5
+    artifact_dirs: 28
+    catalog_earned: 53.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 58.5
+    catalog_gap: 61.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 100.0
+    access_clarity: 92.1
     contract_governance: 31.8
     contract_quality: 56.6
     developer_ergonomics: 67.3
@@ -501,8 +505,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -520,7 +524,7 @@ security:
 - kind: vulnerability-disclosure
   name: Betterstack Vulnerability Disclosure
   slug: betterstack-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 - kind: trust-center
   name: Betterstack Trust Center
   slug: betterstack-trust-center

@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 57.7
-  scored_at: '2026-10-04'
-api_count: 14
+  scored_at: '2026-10-17'
+api_count: 25
 apis:
 - baseURL: https://api.insforge.dev
   baseurl_source: declared
@@ -304,7 +304,7 @@ modified: '2026-07-19'
 name: Insforge
 nav: Providers
 network: true
-overview: 'Insforge publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Channels API, Client API, and 8 more. Tagged areas include Company, Backend-as-a-Service, Agent-Native, Cloud Infrastructure, and Database.
+overview: 'Insforge publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Admin API, Channels API, Client API, and 8 more. Tagged areas include Company, Backend-as-a-Service, Agent-Native, Cloud Infrastructure, and Database.
 
 
   Insforge''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 28 more developer resources.'
@@ -318,7 +318,7 @@ score:
   band: developing
   composite: 53.4
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 23
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -348,8 +348,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 36.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

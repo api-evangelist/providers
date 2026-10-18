@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.boundless.com/blog/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/boundless/refs/heads/main/security/boundless-domain-security.yml
   title: ''
@@ -78,14 +82,14 @@ created: '2026-07-17'
 description: Boundless is a Seattle-based technology-enabled immigration company that pairs an intuitive online platform with licensed immigration attorneys to help individuals and businesses navigate U.S. immigration. Its consumer products cover family-based green cards, marriage and fiancé (K-1) visas, naturalization and citizenship, and employment-based visas such as H-1B, EB-1, O-1, and E-2, while its business offering adds corporate case management, workflow automation, employee engagement, compliance management, HR-system integration, and global mobility support for immigration teams. Boundless is backed by Foundry Group and Seedcamp. No public developer API, documentation portal, or SDKs are published at this time.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/boundless.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Boundless
 nav: Providers
 network: true
 overview: 'Boundless is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Immigration Tech, Immigration, Legal Tech, and Visa.
 
 
-  Boundless'' developer surface includes engineering blog, support, and 7 more developer resources.'
+  Boundless'' developer surface includes engineering blog, support, and 8 more developer resources.'
 random_paper: 7
 score:
   band: emerging
@@ -119,8 +123,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 17.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

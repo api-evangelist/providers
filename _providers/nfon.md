@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 226
   human_in_the_loop: 20
@@ -467,6 +467,10 @@ collections:
 common:
 - group: company
   title: ''
+  type: Blog
+  url: https://www.nfon.com/blog/
+- group: company
+  title: ''
   type: Website
   url: https://www.nfon.com/
 - group: other
@@ -626,31 +630,31 @@ created: '2026-07-17'
 description: 'NFON AG is a European provider of cloud telephony and unified communications (UCaaS/CPaaS), headquartered in Munich and serving businesses across 15+ European countries. Its Cloudya cloud phone system and related products deliver business voice, video, contact centre and AI-assisted communication. For developers and integration partners, NFON publishes a set of RESTful JSON APIs hosted from the NFON-AG GitHub organisation: the flagship PBX Configuration API (OAuth 2.0, ~480 operations for provisioning tenants, extensions, devices, queues, groups, IVRs, phone books, licences and more — the successor to the legacy Service Portal API), the CTI API (server-to-server call control and Server-Sent-Event call/state streaming), and the Call History API offered under "Login with NFON" (OAuth 2.0 Authorization Code + PKCE) for retrieving, streaming and deleting call records with transcriptions and summaries. Use of the APIs is free of charge; access is provisioned by contacting integration@nfon.com.'
 image: https://a.storyblok.com/f/290788/2624x1428/c0ccf89b71/homepage-hero-home.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Nfon
 nav: Providers
 network: true
-overview: 'Nfon publishes 52 APIs on the [APIs.io](https://apis.io/) network, including Service Portal API (legacy), Accounts API, Address API, and 49 more. Tagged areas include Company, Telecommunications, Cloud Telephony, UCaaS, and CPaaS.
+overview: 'Nfon publishes 52 API contracts indexed on the [APIs.io](https://apis.io/) network, including Service Portal API (legacy), Accounts API, Address API, and 49 more. Tagged areas include Company, Telecommunications, Cloud Telephony, UCaaS, and CPaaS.
 
 
-  Nfon''s developer surface includes authentication, documentation, API reference, support, changelog, and 29 more developer resources.'
+  Nfon''s developer surface includes engineering blog, authentication, documentation, API reference, support, changelog, and 29 more developer resources.'
 random_paper: 15
 score:
   band: developing
-  composite: 45.8
+  composite: 46.2
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.4
   facets:
     access_clarity: 43.4
     contract_governance: 18.2
     contract_quality: 49.7
-    developer_ergonomics: 45.8
+    developer_ergonomics: 48.2
     discoverability: 78.6
     operational_transparency: 42.1
   jurisdiction:
@@ -682,8 +686,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 25.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

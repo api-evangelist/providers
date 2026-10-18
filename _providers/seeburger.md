@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Online help portal for SEEBURGER Cloud services, providing documentation and guides.
@@ -31,6 +31,10 @@ apis:
   slug: seeburger-cloud-help
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.seeburger.com/feed/
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/seeburger/refs/heads/main/llms/seeburger-llms.txt
   title: ''
@@ -78,25 +82,26 @@ created: '2026-10-03'
 description: SEEBURGER provides a comprehensive Business Integration Suite (BIS) platform that enables enterprises to integrate applications, data, and processes across cloud, on‑premise, and hybrid environments. Their solutions include managed file transfer, B2B EDI, API integration, AI‑orchestrated workflows, and industry‑specific cloud services, helping customers automate and scale digital business operations.
 image: https://www.seeburger.com/fileadmin/images/social-media/social-media-default-image.png
 layout: provider
-modified: '2026-10-03'
+modified: '2026-10-06'
 name: SEEBURGER
 nav: Providers
 network: true
-overview: 'SEEBURGER publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Integration, Cloud, and B2B.
+overview: 'SEEBURGER is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Integration, Cloud, and B2B.
 
 
-  SEEBURGER''s developer surface includes pricing, engineering blog, documentation, and 5 more developer resources.'
+  SEEBURGER''s developer surface includes pricing, engineering blog, documentation, and 6 more developer resources.'
 random_paper: 18
 score:
   band: emerging
   composite: 11.3
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 8
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
@@ -104,18 +109,21 @@ score:
     developer_ergonomics: 11.9
     discoverability: 55.4
     operational_transparency: 0.0
+  previous_composite: 11.3
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 9.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/seeburger/refs/heads/main/screenshots/seeburger-2026-10-11T125640.png
 security:
 - kind: domain-security
   name: Seeburger Domain Security

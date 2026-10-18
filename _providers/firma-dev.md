@@ -1,6 +1,7 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -12,7 +13,7 @@ agent_readiness:
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
-    event_surface_described: false
+    event_surface_described: true
     idempotency: false
     mcp_server: documented
     openapi_examples: partial
@@ -22,8 +23,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 36.7
-  scored_at: '2026-10-04'
+  score: 41.0
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 71
   human_in_the_loop: 3
@@ -31,7 +32,7 @@ agentic_access:
   operation_count: 115
   slug: firma-dev-agentic-access
   summary_line: 115 operations · 71 acting · 3 human-in-the-loop
-api_count: 1
+api_count: 2
 apis:
 - baseURL: https://api.firma.dev/functions/v1/signing-request-api
   baseurl_source: spec
@@ -93,7 +94,11 @@ apis:
   description: Workspace management operations
   name: Firma.dev Workspaces API
   slug: firma-dev-workspaces-api
-artifact_total: 78
+artifact_total: 79
+asyncapis:
+- description: ''
+  name: Firma Dev Webhooks
+  slug: firma-dev-webhooks
 common:
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/firma-dev/refs/heads/main/capabilities/firma-dev-capability-edges.yml
@@ -159,6 +164,24 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/firma-dev-llms.txt
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/firma-dev/refs/heads/main/llms/firma-dev-docs-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/firma-dev-docs-llms.txt
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/firma-dev/refs/heads/main/asyncapi/firma-dev-webhooks.yml
+  title: ''
+  type: Webhooks
+  url: asyncapi/firma-dev-webhooks.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: https://docs.firma.dev/guides/webhooks
+- group: design
+  title: ''
+  type: Webhooks
+  url: https://docs.firma.dev/api-reference/v01.00.02/webhooks/create-webhook
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/firma-dev/refs/heads/main/a2a/firma-dev-a2a.yml
   title: ''
@@ -186,7 +209,7 @@ common:
 - group: operate
   title: ''
   type: StatusPage
-  url: https://status.firma.dev/
+  url: https://status.firma.dev
 - group: auth
   title: ''
   type: Security
@@ -251,7 +274,7 @@ common:
   type: Postman
   url: https://www.postman.com/firma-dev/workspace
 created: '2026-09-25'
-description: Firma.dev provides a low‑cost electronic signature API aimed at developers, offering pay‑as‑you‑go pricing starting at €0.049 per envelope with no minimums or contracts. The platform is fully white‑labeled, compliant with ESIGN, UETA, eIDAS, and includes audit trails, SOC 2, GDPR, ISO 27001 certifications. It offers a simple REST API, Swagger/OpenAPI docs, webhook events, and sample apps, targeting quick integration for any language. Firma.dev also supplies a developer portal, pricing page, and extensive documentation for embedding e‑signatures directly into applications.
+description: Firma.dev provides an electronic signature API for developers, with pay-as-you-go pricing starting at €0.049 per envelope and no minimums or contracts. It offers embeddable signing with custom branding - template and signing-request editors and the signing experience embed in the customer's own product, with isolated customer workspaces. It is built for ESIGN, UETA and eIDAS with audit trails, supports SOC 2 and ISO/IEC 27001, and addresses GDPR. It offers a REST API described in OpenAPI, webhook events, and sample apps for embedding e-signatures directly into applications.
 image: https://framerusercontent.com/assets/6BZ6uZhXFZ37plllWJaDRaNVyoo.png
 json_schemas:
 - name: AnchorTag
@@ -438,24 +461,25 @@ mcp_servers:
 - description: Remote MCP server at docs.firma.dev.
   name: Firma.dev MCP Server
   slug: firma-dev-mcp-yml
-modified: '2026-09-25'
+modified: '2026-10-06'
 name: Firma.dev
 nav: Providers
 network: true
-overview: 'Firma.dev publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Company API, Custom Fields API, Email Domains API, and 9 more. Tagged areas include Company, E-Signature, Developer Tools, LowCost, and White Label.
+overview: 'Firma.dev publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including Company API, Custom Fields API, Email Domains API, and 9 more. Tagged areas include Company, E-Signature, Developer Tools, and LowCost.
 
 
-  The Firma.dev catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+  The Firma.dev catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Firma.dev''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, signup flow, support, and 27 more developer resources.'
+  Firma.dev''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, signup flow, support, and 31 more developer resources.'
 plans:
 - name: Firma Dev Plans Pricing
   plan_count: 2
   slug: firma-dev-plans-pricing
 random_paper: 11
 rules:
-- effective_rule_count: 57
+- authorship: generated
+  effective_rule_count: 57
   extends:
   - spectral:oas
   name: Firma.dev API Rules
@@ -468,21 +492,23 @@ rules:
   slug: firma-dev-rules
 score:
   band: strong
-  composite: 60.5
+  composite: 63.3
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 60.8
+    artifact_dirs: 24
+    catalog_earned: 55.8
     catalog_earned_first_party: 8.0
-    catalog_gap: 54.3
+    catalog_gap: 59.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 3.0
   facets:
     access_clarity: 81.6
     contract_governance: 22.0
-    contract_quality: 69.2
+    contract_quality: 76.4
     developer_ergonomics: 54.2
-    discoverability: 53.3
-    operational_transparency: 26.3
+    discoverability: 51.7
+    operational_transparency: 34.2
+  previous_composite: 60.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -499,11 +525,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: flat
   upsert:
     applies: true
     score: 33.3
+screenshot: https://raw.githubusercontent.com/api-evangelist/firma-dev/refs/heads/main/screenshots/firma-dev-2026-10-11T104506.png
 security:
 - kind: authentication
   name: Firma Dev Authentication
@@ -523,6 +551,5 @@ tags:
 - E-Signature
 - Developer Tools
 - LowCost
-- White Label
 website: https://firma.dev/
 ---

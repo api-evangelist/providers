@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.8
-  scored_at: '2026-10-04'
+  score: 23.6
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -85,6 +85,21 @@ collections:
   name: CoreDNS Health Ready API
   slug: open-coredns-ready-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/coredns/refs/heads/main/plans/coredns-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/coredns-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/coredns/refs/heads/main/rate-limits/coredns-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/coredns-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/coredns/refs/heads/main/finops/coredns-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/coredns-finops.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -177,9 +192,13 @@ common:
 created: '2026-03-16'
 description: CoreDNS is a CNCF graduated DNS server written in Go that serves as the default DNS service for Kubernetes clusters. It is flexible and extensible through a plugin architecture, supporting DNS-based service discovery, forwarding, caching, and integration with etcd, Kubernetes, and other backends. CoreDNS can serve as an authoritative DNS server or a recursive resolver, with HTTP plugins exposing health, readiness, and Prometheus metrics endpoints for Kubernetes operations.
 finops:
-- name: Coredns Finops
+- has_sources: true
+  method: generated
+  name: Coredns Finops
+  primary_unit: ''
   service_category: Open Source DNS
   slug: coredns-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/coredns.png
 json_schemas:
 - name: CoreDNS Corefile Configuration
@@ -195,13 +214,13 @@ modified: '2026-05-19'
 name: CoreDNS
 nav: Providers
 network: true
-overview: 'CoreDNS publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Health API, Metrics API, Ready API, and 2 more. Tagged areas include Apache 2.0, Cloud-Native, CNCF, DNS, and Go.
+overview: 'CoreDNS publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Health API, Metrics API, Ready API, and 2 more. Tagged areas include Apache 2.0, Cloud-Native, CNCF, DNS, and Go.
 
 
   The CoreDNS catalog on APIs.io includes 1 JSON-LD context and 3 Spectral governance rulesets.
 
 
-  CoreDNS''s developer surface includes documentation, getting-started guide, engineering blog, changelog, and 17 more developer resources.'
+  CoreDNS''s developer surface includes documentation, getting-started guide, engineering blog, changelog, and 20 more developer resources.'
 plans:
 - name: Coredns Plans Pricing
   plan_count: 1
@@ -212,10 +231,11 @@ rate_limits:
   name: Coredns Rate Limits
   slug: coredns-rate-limits
 rules:
-- effective_rule_count: 49
+- authorship: unmarked
+  effective_rule_count: 49
   extends:
   - spectral:oas
-  name: CoreDNS API Rules
+  name: CoreDNS — health rules
   rule_count: 8
   severity_counts:
     error: 6
@@ -223,9 +243,10 @@ rules:
     info: 0
     warn: 2
   slug: coredns-health-rules
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: CoreDNS API Rules
+  name: CoreDNS — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -233,10 +254,11 @@ rules:
     info: 1
     warn: 5
   slug: coredns-jsonschema-spectral-rules
-- effective_rule_count: 49
+- authorship: unmarked
+  effective_rule_count: 49
   extends:
   - spectral:oas
-  name: CoreDNS API Rules
+  name: CoreDNS — metrics rules
   rule_count: 8
   severity_counts:
     error: 5
@@ -246,18 +268,18 @@ rules:
   slug: coredns-metrics-rules
 score:
   band: developing
-  composite: 42.4
+  composite: 39.6
   coverage:
-    artifact_dirs: 14
-    catalog_earned: 60.7
+    artifact_dirs: 15
+    catalog_earned: 51.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 39.3
-    catalog_max: 100.0
+    catalog_gap: 64.0
+    catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.8
   facets:
-    access_clarity: 0.0
-    contract_governance: 62.7
+    access_clarity: 5.3
+    contract_governance: 27.3
     contract_quality: 45.6
     developer_ergonomics: 33.3
     discoverability: 64.3
@@ -279,8 +301,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

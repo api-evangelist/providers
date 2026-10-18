@@ -27,20 +27,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 5
+- acting_count: 4
   human_in_the_loop: 0
   name: Apache Pinot Agentic Access
   operation_count: 12
   slug: apache-pinot-agentic-access
-  summary_line: 12 operations · 5 acting
+  summary_line: 12 operations · 4 acting
 api_count: 5
 apis:
 - baseURL_template: https://{host}
@@ -89,6 +89,21 @@ collections:
   name: Apache Pinot REST Cluster Tables API
   slug: open-apache-pinot-tables-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/apache-pinot/refs/heads/main/plans/apache-pinot-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/apache-pinot-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/apache-pinot/refs/heads/main/rate-limits/apache-pinot-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/apache-pinot-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/apache-pinot/refs/heads/main/finops/apache-pinot-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/apache-pinot-finops.yml
 - group: company
   title: ''
   type: Website
@@ -190,9 +205,13 @@ features:
 - description: Pre-aggregated star-tree index for metric rollup queries
   name: Star-Tree Index
 finops:
-- name: Apache Pinot Finops
+- has_sources: false
+  method: generated
+  name: Apache Pinot Finops
+  primary_unit: ''
   service_category: API
   slug: apache-pinot-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/apache-pinot.png
 integrations:
 - description: Real-time stream ingestion from Kafka topics
@@ -289,13 +308,13 @@ modified: '2026-05-19'
 name: Apache Pinot
 nav: Providers
 network: true
-overview: 'Apache Pinot publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Cluster API, Queries API, Schemas API, and 2 more. Tagged areas include Analytics, Database, Low Latency, OLAP, and Real-Time.
+overview: 'Apache Pinot is listed with 5 APIs on the [APIs.io](https://apis.io/) network, including Cluster API, Queries API, Schemas API, and 2 more. Tagged areas include Analytics, Database, Low Latency, OLAP, and Real-Time.
 
 
   The Apache Pinot catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Apache Pinot''s developer surface includes documentation and 9 more developer resources.'
+  Apache Pinot''s developer surface includes documentation and 12 more developer resources.'
 plans:
 - name: Apache Pinot Plans Pricing
   plan_count: 3
@@ -306,9 +325,10 @@ rate_limits:
   name: Apache Pinot Rate Limits
   slug: apache-pinot-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Apache Pinot API Rules
+  name: Apache Pinot — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -316,7 +336,8 @@ rules:
     info: 2
     warn: 3
   slug: apache-pinot-jsonschema-spectral-rules
-- effective_rule_count: 52
+- authorship: generated
+  effective_rule_count: 52
   extends:
   - spectral:oas
   name: Apache Pinot API Rules
@@ -329,17 +350,17 @@ rules:
   slug: apache-pinot-spectral-rules
 score:
   band: emerging
-  composite: 20.9
+  composite: 19.4
   coverage:
     artifact_dirs: 17
-    catalog_earned: 64.0
+    catalog_earned: 61.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 51.0
+    catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 27.3
     contract_quality: 19.1
     developer_ergonomics: 9.5
@@ -359,8 +380,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

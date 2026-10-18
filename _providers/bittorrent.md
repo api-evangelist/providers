@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.bittorrent.com/feed/
 - group: company
   title: ''
   type: Website
@@ -81,18 +85,18 @@ created: '2026-07-17'
 description: BitTorrent is the company behind the BitTorrent peer-to-peer file-sharing protocol and the uTorrent and BitTorrent desktop and web torrent clients, one of the most widely deployed distributed content-delivery technologies on the internet. Now part of the TRON ecosystem, BitTorrent also operates BitTorrent Chain (BTTC) — a layer-2 proof-of-stake cross-chain scaling and interoperability network bridging TRON, Ethereum, and BSC — along with the BTT token, the BTFS decentralized storage layer, and BitTorrent Speed. Its developer surface spans the local uTorrent Web UI API for controlling torrent clients and the BitTorrent Chain developer documentation for building on the BTTC network. Surfaced as a portfolio company of dcm-ventures and enriched into the API Evangelist network.
 image: https://www.bittorrent.com/social/bittorrent.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: BitTorrent
 nav: Providers
 network: true
 overview: 'BitTorrent is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, File Sharing, Torrent, and Peer-to-Peer.
 
 
-  BitTorrent''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, and 5 more developer resources.'
+  BitTorrent''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, and 6 more developer resources.'
 random_paper: 1
 score:
   band: emerging
-  composite: 16.2
+  composite: 16.3
   coverage:
     artifact_dirs: 4
     catalog_earned: 27.0
@@ -100,7 +104,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
@@ -115,8 +119,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

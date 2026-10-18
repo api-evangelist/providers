@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 228
-  human_in_the_loop: 226
+- acting_count: 213
+  human_in_the_loop: 211
   name: Thingsboard Agentic Access
   operation_count: 491
   slug: thingsboard-agentic-access
-  summary_line: 491 operations · 228 acting · 226 human-in-the-loop
+  summary_line: 491 operations · 213 acting · 211 human-in-the-loop
 api_count: 15
 apis:
 - baseURL: https://demo.thingsboard.io
@@ -963,9 +963,13 @@ features:
 - Java and Python REST client SDKs
 - Horizontal scalability via microservices architecture and Kafka/RabbitMQ queues
 finops:
-- name: Thingsboard Finops
+- has_sources: false
+  method: generated
+  name: Thingsboard Finops
+  primary_unit: ''
   service_category: ''
   slug: thingsboard-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/thingsboard.png
 json_schemas:
 - name: ThingsBoard Alarm
@@ -1011,7 +1015,7 @@ modified: '2026-05-25'
 name: ThingsBoard
 nav: Providers
 network: true
-overview: 'ThingsBoard publishes 58 APIs on the [APIs.io](https://apis.io/) network, including Admin Controller API, AI Model Controller API, Alarm Comment Controller API, and 55 more. Tagged areas include IoT, Device Management, Telemetry, Open Source, and Apache 2.0.
+overview: 'ThingsBoard publishes 58 API contracts indexed on the [APIs.io](https://apis.io/) network, including Admin Controller API, AI Model Controller API, Alarm Comment Controller API, and 55 more. Tagged areas include IoT, Device Management, Telemetry, Open Source, and Apache 2.0.
 
 
   The ThingsBoard catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -1031,9 +1035,10 @@ rate_limits:
   name: Thingsboard Rate Limits
   slug: thingsboard-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: ThingsBoard API Rules
+  name: ThingsBoard — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1041,7 +1046,8 @@ rules:
     info: 2
     warn: 3
   slug: thingsboard-jsonschema-spectral-rules
-- effective_rule_count: 47
+- authorship: unmarked
+  effective_rule_count: 47
   extends:
   - spectral:oas
   name: ThingsBoard API Rules
@@ -1054,23 +1060,23 @@ rules:
   slug: thingsboard-rules
 score:
   band: strong
-  composite: 61.2
+  composite: 59.7
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 79.0
+    artifact_dirs: 19
+    catalog_earned: 76.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 36.0
+    catalog_gap: 39.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -1.5
   facets:
-    access_clarity: 63.2
+    access_clarity: 55.3
     contract_governance: 27.3
     contract_quality: 63.0
     developer_ergonomics: 75.0
     discoverability: 62.5
     operational_transparency: 21.1
-  previous_composite: 60.7
+  previous_composite: 61.2
   provenance:
     agentic_access: derived
     contracts:
@@ -1084,8 +1090,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.8
-  scored_at: '2026-10-04'
-api_count: 1
+  scored_at: '2026-10-17'
+api_count: 2
 apis:
 - baseURL: https://quotes.eco.com
   baseurl_source: declared
@@ -66,6 +66,14 @@ collections:
   name: Eco Routes Quotes V1 Quotes V3 API
   slug: open-eco-quotes-v3-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.eco.com/blog/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://eco.com/blog/rss/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/eco/refs/heads/main/security/eco-domain-security.yml
   title: ''
@@ -186,14 +194,14 @@ description: 'Eco is a developer platform for programmable stablecoin infrastruc
   platforms, DeFi protocols, treasury managers, and AI agents.'
 image: https://cdn.prod.website-files.com/67af51ad91d062ee8ef52137/69c2cc38e52fc86cca6c5320_Stablecoin%20Economy%20OG%20(5)%20(1).jpg
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Eco
 nav: Providers
 network: true
-overview: 'Eco publishes 3 APIs on the [APIs.io](https://apis.io/) network: Quotes V1 API, Quotes V2 API, and Quotes V3 API. Tagged areas include Company, Stablecoins, Cryptocurrency, Payments, and Blockchain.
+overview: 'Eco publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Quotes V1 API, Quotes V2 API, and Quotes V3 API. Tagged areas include Company, Stablecoins, Cryptocurrency, Payments, and Blockchain.
 
 
-  Eco''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, CLI, authentication, and 18 more developer resources.'
+  Eco''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, CLI, authentication, and 20 more developer resources.'
 random_paper: 3
 score:
   band: thin
@@ -229,8 +237,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 22.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

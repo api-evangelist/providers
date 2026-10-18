@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: gigstack API v2 — REST API for CFDI 4.0 invoicing, payments, collections, clients, services, receipts, retentions, webhooks and SAT catalogs in Mexico. Bearer JWT authentication; cursor pagination; st
@@ -47,6 +47,10 @@ asyncapis:
   name: Gigstack Webhooks
   slug: gigstack-webhooks
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.gigstack.pro/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/gigstack/refs/heads/main/security/gigstack-domain-security.yml
   title: ''
@@ -182,23 +186,23 @@ mcp_servers:
 - description: Official gigstack MCP server exposing the gigstack API (Mexican invoice and payment automation - CFDI, payments, clients, receipts) to MCP-capable agents. Published to npm by a gigstack.io maintainer.
   name: Official gigstack MCP server
   slug: mcp-gigstack
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Gigstack
 nav: Providers
 network: true
-overview: 'Gigstack publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Invoicing, CFDI, and SAT.
+overview: 'Gigstack is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Invoicing, CFDI, and SAT.
 
 
   The Gigstack catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Gigstack''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 21 more developer resources.'
+  Gigstack''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 22 more developer resources.'
 random_paper: 9
 score:
   band: thin
   composite: 38.3
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -229,8 +233,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 22.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

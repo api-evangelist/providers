@@ -28,20 +28,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 14
+- acting_count: 12
   human_in_the_loop: 1
   name: Airtop Agentic Access
   operation_count: 20
   slug: airtop-agentic-access
-  summary_line: 20 operations · 14 acting · 1 human-in-the-loop
+  summary_line: 20 operations · 12 acting · 1 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://api.airtop.ai/api/v1
@@ -154,16 +154,20 @@ common:
 created: '2026-06-20'
 description: Airtop is a cloud-browser API for AI agents. It runs remote Chromium sessions in the cloud and exposes them through a REST API so agents can open windows, navigate pages, and interact with sites using natural-language instructions - clicking, typing, scraping, and querying pages with AI - without brittle selectors or self-hosted browser infrastructure.
 finops:
-- name: Airtop Finops
+- has_sources: true
+  method: generated
+  name: Airtop Finops
+  primary_unit: ''
   service_category: Web and Application Services
   slug: airtop-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/airtop.png
 layout: provider
 modified: '2026-06-20'
 name: Airtop
 nav: Providers
 network: true
-overview: 'Airtop publishes 6 APIs on the [APIs.io](https://apis.io/) network, including AI Query API, Page Interaction API, Profiles API, and 3 more. Tagged areas include Browser Automation, AI Agents, Cloud Browser, Web Scraping, and Headless Chrome.
+overview: 'Airtop publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including AI Query API, Page Interaction API, Profiles API, and 3 more. Tagged areas include Browser Automation, AI Agents, Cloud Browser, Web Scraping, and Headless Chrome.
 
 
   Airtop''s developer surface includes authentication, engineering blog, documentation, and 8 more developer resources.'
@@ -178,22 +182,22 @@ rate_limits:
   slug: airtop-rate-limits
 score:
   band: thin
-  composite: 35.3
+  composite: 27.0
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 61.6
+    artifact_dirs: 12
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.4
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 49.0
     developer_ergonomics: 32.1
     discoverability: 66.1
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   previous_composite: 35.3
   provenance:
     agentic_access: derived
@@ -208,9 +212,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

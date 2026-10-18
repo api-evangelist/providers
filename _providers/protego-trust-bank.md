@@ -34,10 +34,20 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 3
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/protego-trust-bank/refs/heads/main/plans/protego-trust-bank-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/protego-trust-bank-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/protego-trust-bank/refs/heads/main/rate-limits/protego-trust-bank-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/protego-trust-bank-rate-limits.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/protego-trust-bank/refs/heads/main/security/protego-trust-bank-domain-security.yml
   title: ''
@@ -87,7 +97,7 @@ score:
   band: minimal
   composite: 2.1
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 25.0
     catalog_earned_first_party: 0.0
     catalog_gap: 90.0
@@ -115,8 +125,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 4.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 4
 apis:
 - description: Netwrix provides a developer portal with documentation but no machine‑readable API contract was found.
@@ -218,7 +218,7 @@ modified: '2026-10-03'
 name: Netwrix
 nav: Providers
 network: true
-overview: 'Netwrix publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Data API, OAuth API, Token API, and 1 more. Tagged areas include Company, Data Security, Governance, Compliance, and Privileged Access.
+overview: 'Netwrix is listed with 4 APIs on the [APIs.io](https://apis.io/) network, including Data API, OAuth API, Token API, and 1 more. Tagged areas include Company, Data Security, Governance, Compliance, and Privileged Access Management.
 
 
   The Netwrix catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -227,7 +227,8 @@ overview: 'Netwrix publishes 4 APIs on the [APIs.io](https://apis.io/) network, 
   Netwrix''s developer surface includes authentication, getting-started guide, documentation, pricing, support, engineering blog, and 26 more developer resources.'
 random_paper: 15
 rules:
-- effective_rule_count: 52
+- authorship: generated
+  effective_rule_count: 52
   extends:
   - spectral:oas
   name: Netwrix API Rules
@@ -240,14 +241,15 @@ rules:
   slug: netwrix-rules
 score:
   band: thin
-  composite: 35.8
+  composite: 35.9
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 17
     catalog_earned: 51.2
     catalog_earned_first_party: 0.0
     catalog_gap: 63.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -14.0
   facets:
     access_clarity: 36.8
     contract_governance: 22.0
@@ -255,6 +257,7 @@ score:
     developer_ergonomics: 40.5
     discoverability: 71.4
     operational_transparency: 31.6
+  previous_composite: 49.9
   provenance:
     conformance: derived
     contracts:
@@ -269,11 +272,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 31.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0
+screenshot: https://raw.githubusercontent.com/api-evangelist/netwrix/refs/heads/main/screenshots/netwrix-2026-10-11T111529.png
 security:
 - kind: authentication
   name: Netwrix Authentication
@@ -297,6 +302,6 @@ tags:
 - Data Security
 - Governance
 - Compliance
-- Privileged Access
+- Privileged Access Management
 website: https://www.netwrix.com
 ---

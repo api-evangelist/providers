@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 9.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'Agent2Agent (A2A 1.0) surface: an agent card at https://www.elderlycarematch.com/.well-known/agent-card.json (version 1.5.3, one JSONRPC interface, also mirrored at the legacy /.well-known/agent.json)'
@@ -145,7 +145,7 @@ modified: '2026-09-19'
 name: Elderly Care Match
 nav: Providers
 network: true
-overview: 'Elderly Care Match publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Senior Care, Elder Care, Assisted Living, Memory Care, and Adult Family Homes.
+overview: 'Elderly Care Match is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Senior Care, Elder Care, Assisted Living, Memory Care, and Adult Family Homes.
 
 
   Elderly Care Match''s developer surface includes engineering blog, support, authentication, and 20 more developer resources.'
@@ -162,7 +162,7 @@ score:
   band: emerging
   composite: 22.4
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 17
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -192,13 +192,14 @@ score:
     regime: Health
     regime_id: health
     score: 32.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/elderlycarematch-com/refs/heads/main/screenshots/elderlycarematch-com-2026-10-11T104101.png
 security:
 - kind: authentication
   name: Elderlycarematch Com Authentication

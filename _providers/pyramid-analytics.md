@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: Pyramid's main programmatic surface. All calls are HTTP POST against /API3/<section>/<method> on the customer's own Pyramid server, carrying a JSON body and a "paToken" security token in the HTTP head
@@ -50,6 +50,11 @@ asyncapis:
   name: Pyramid Analytics Webhooks
   slug: pyramid-analytics-webhooks
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/pyramid-analytics/refs/heads/main/rate-limits/pyramid-analytics-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/pyramid-analytics-rate-limits.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/pyramid-analytics/refs/heads/main/security/pyramid-analytics-domain-security.yml
   title: ''
@@ -174,13 +179,13 @@ modified: '2026-08-26'
 name: Pyramid Analytics
 nav: Providers
 network: true
-overview: 'Pyramid Analytics publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Analytics, Business Intelligence, Decision Intelligence, Embedded Analytics, and Data Visualization.
+overview: 'Pyramid Analytics is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Analytics, Business Intelligence, Decision Intelligence, Embedded Analytics, and Data Visualization.
 
 
   The Pyramid Analytics catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Pyramid Analytics'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 19 more developer resources.'
+  Pyramid Analytics'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 20 more developer resources.'
 plans:
 - name: Pyramid Analytics Plans Pricing
   plan_count: 0
@@ -192,15 +197,15 @@ rate_limits:
   slug: pyramid-analytics-rate-limits
 score:
   band: developing
-  composite: 46.8
+  composite: 46.9
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 38.2
     contract_governance: 18.2
@@ -218,8 +223,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -32,10 +32,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://biobotanalytics.substack.com/t/blog
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://biobotanalytics.substack.com/feed
 - group: company
   title: ''
   type: About
@@ -81,14 +89,14 @@ created: '2026-07-17'
 description: Biobot Analytics is a wastewater epidemiology company that operates a wastewater intelligence platform, analyzing sewage samples to detect and track more than 50 human health indicators — including pathogens (SARS-CoV-2, influenza, RSV, measles, norovirus), substances (fentanyl, cocaine, methamphetamine, buprenorphine), and public-health threats (HIV, mpox, poliovirus, Candida auris) — before they surface in conventional reporting. Founded from MIT research and headquartered in Cambridge, Massachusetts, Biobot serves federal, state, and local government agencies, pharmaceutical and life-sciences companies, and healthcare systems through dashboards, CSV exports, map visualizations, and enterprise data integrations. Biobot does not publish a public self-serve developer API; data access is arranged directly with the company.
 image: https://biobot.io/wp-content/uploads/2025/11/biobot-logo.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Biobot
 nav: Providers
 network: true
 overview: 'Biobot is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Wastewater, Epidemiology, and Public Health.
 
 
-  Biobot''s developer surface includes signup flow, support, engineering blog, and 7 more developer resources.'
+  Biobot''s developer surface includes engineering blog, signup flow, support, and 9 more developer resources.'
 random_paper: 1
 score:
   band: emerging
@@ -122,8 +130,8 @@ score:
     regime: Health
     regime_id: health
     score: 10.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

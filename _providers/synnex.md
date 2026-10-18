@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -105,6 +105,21 @@ collections:
   name: TD SYNNEX StreamOne ION Cart Subscriptions API
   slug: open-synnex-subscriptions-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/synnex/refs/heads/main/plans/synnex-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/synnex-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/synnex/refs/heads/main/rate-limits/synnex-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/synnex-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/synnex/refs/heads/main/finops/synnex-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/synnex-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/synnex/refs/heads/main/capabilities/synnex-capability-edges.yml
   title: ''
@@ -165,9 +180,13 @@ examples:
   name: Synnex Streamone Ion Listcustomers Example
   slug: synnex-streamone-ion-listCustomers-example
 finops:
-- name: Synnex Finops
+- has_sources: true
+  method: generated
+  name: Synnex Finops
+  primary_unit: ''
   service_category: IT Distribution / Cloud Marketplace
   slug: synnex-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/synnex.png
 json_schemas:
 - name: Customer
@@ -190,13 +209,13 @@ modified: '2026-05-19'
 name: Synnex
 nav: Providers
 network: true
-overview: 'Synnex publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Cart API, Customers API, Orders API, and 4 more. Tagged areas include Technology Distribution, IT Distribution, Cloud Marketplace, Fortune 100, and Supply Chain.
+overview: 'Synnex publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Cart API, Customers API, Orders API, and 4 more. Tagged areas include Technology Distribution, IT Distribution, Cloud Marketplace, Fortune 100, and Supply Chain.
 
 
   The Synnex catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Synnex''s developer surface includes authentication and 10 more developer resources.'
+  Synnex''s developer surface includes authentication and 13 more developer resources.'
 plans:
 - name: Synnex Plans Pricing
   plan_count: 1
@@ -223,9 +242,10 @@ rate_limits:
   name: Synnex Rate Limits
   slug: synnex-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Synnex API Rules
+  name: Synnex — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -233,7 +253,8 @@ rules:
     info: 2
     warn: 3
   slug: synnex-jsonschema-spectral-rules
-- effective_rule_count: 52
+- authorship: unmarked
+  effective_rule_count: 52
   extends:
   - spectral:oas
   name: Synnex API Rules
@@ -246,17 +267,17 @@ rules:
   slug: synnex-rules
 score:
   band: thin
-  composite: 34.4
+  composite: 32.9
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 59.0
+    artifact_dirs: 21
+    catalog_earned: 56.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 56.0
+    catalog_gap: 59.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 13.2
+    access_clarity: 5.3
     contract_governance: 27.3
     contract_quality: 54.4
     developer_ergonomics: 38.1
@@ -276,8 +297,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

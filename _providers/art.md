@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -255,6 +255,14 @@ collections:
   name: Artsy Public Applications Users API
   slug: open-art-users-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.artsy.net/news/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.artsy.net/rss/news
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/art/refs/heads/main/overlays/art-openapi-overlay.yaml
   title: ''
@@ -378,14 +386,14 @@ created: '2026-07-17'
 description: 'Artsy (art.sy) is the online marketplace and platform for discovering, buying, and selling fine art, connecting collectors with galleries, museums, art fairs, and auction houses worldwide. Artsy operates a public developer program: the Artsy Public API (v2) is a HAL hypermedia REST API exposing Artsy''s database of artists, artworks, genes (the Art Genome Project''s classification of artistic characteristics), gallery and museum shows, partners, art fairs, and auction sales. Authentication uses an application-level X-Xapp-Token minted by exchanging a client_id and client_secret. Artsy also runs the Metaphysics GraphQL API that powers its own web and mobile apps. Artsy has announced that the public REST API is being retired and may be taken down without notice; the Partner API remains available to approved partners. Surfaced as a slow-ventures portfolio company and enriched by the API Evangelist pipeline from Artsy''s live API and docs.'
 image: https://github.com/artsy.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Artsy
 nav: Providers
 network: true
-overview: 'Artsy publishes 25 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Artists API, Artworks API, and 22 more. Tagged areas include Art, Marketplace, Culture, Museums, and Galleries.
+overview: 'Artsy publishes 25 API contracts indexed on the [APIs.io](https://apis.io/) network, including Applications API, Artists API, Artworks API, and 22 more. Tagged areas include Art, Marketplace, Culture, Museums, and Galleries.
 
 
-  Artsy''s developer surface includes documentation, API reference, authentication, engineering blog, and 22 more developer resources.'
+  Artsy''s developer surface includes engineering blog, documentation, API reference, authentication, and 24 more developer resources.'
 random_paper: 19
 rate_limits:
 - limit_count: 1
@@ -393,7 +401,7 @@ rate_limits:
   slug: art-rate-limits
 score:
   band: thin
-  composite: 26.7
+  composite: 26.8
   coverage:
     artifact_dirs: 21
     catalog_earned: 45.0
@@ -401,7 +409,7 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
@@ -426,8 +434,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

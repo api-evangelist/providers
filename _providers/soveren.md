@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -228,7 +228,7 @@ modified: '2026-07-21'
 name: Soveren
 nav: Providers
 network: true
-overview: 'Soveren publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Assets API, Data Types API, Endpoints API, and 3 more. Tagged areas include Company, Infra Devtools, Data Security, DSPM, and DDR.
+overview: 'Soveren publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Assets API, Data Types API, Endpoints API, and 3 more. Tagged areas include Company, Infra Devtools, Data Security, DSPM, and DDR.
 
 
   The Soveren catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
@@ -240,7 +240,7 @@ score:
   band: developing
   composite: 39.6
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -271,8 +271,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

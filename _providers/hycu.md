@@ -32,10 +32,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.hycu.com/blog
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.hycu.com/blog/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/hycu/refs/heads/main/security/hycu-trust-center.yml
   title: ''
@@ -103,26 +111,26 @@ created: '2026-07-17'
 description: HYCU is an AI-powered data resilience and data protection platform that backs up, protects, and recovers more than 100 workloads across on-premises, public cloud, and SaaS environments. Its R-Cloud platform is delivered as a low-code data protection development platform that lets SaaS and AI application providers rapidly build and publish backup-and-recovery services to the R-Cloud Marketplace, alongside R-Shield for ransomware threat prevention and recoverability validation and aiR for querying backup data as an intelligence source. HYCU serves 4,800+ organizations across 78 countries and is recognized as a Leader by IDC and Gartner. This profile was surfaced as a portfolio company of Bain Capital Ventures and enriched by the API Evangelist pipeline; HYCU exposes a low-code developer platform rather than a public REST API.
 image: https://logo.clearbit.com/hycu.com
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: HYCU
 nav: Providers
 network: true
 overview: 'HYCU is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI Infrastructure, Data Protection, Backup, and Disaster Recovery.
 
 
-  HYCU''s developer surface includes documentation, support, engineering blog, pricing, signup flow, and 10 more developer resources.'
+  HYCU''s developer surface includes engineering blog, documentation, support, pricing, signup flow, and 12 more developer resources.'
 random_paper: 1
 score:
   band: emerging
-  composite: 23.3
+  composite: 23.4
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 60.5
     contract_governance: 0.0
@@ -137,8 +145,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

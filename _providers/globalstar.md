@@ -23,10 +23,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.globalstar.com/globalstar-blog/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/globalstar/refs/heads/main/well-known/globalstar-globalstar-security.txt
   title: ''
@@ -125,25 +129,26 @@ created: '2026-09-23'
 description: Globalstar provides satellite communications solutions, offering voice and data services for a range of industries including IoT, emergency response, and enterprise mobility. Their platform delivers always‑on connectivity through a global network of low‑earth‑orbit satellites, enabling tracking, monitoring, and two‑way communication for devices and personnel in remote locations.
 image: https://www.globalstar.com/getmedia/e349d929-0e2e-4d24-9481-4567e02ce472/globalstar-share.png
 layout: provider
-modified: '2026-09-23'
+modified: '2026-10-06'
 name: Globalstar
 nav: Providers
 network: true
 overview: 'Globalstar is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Satellite, Communications, IoT, and Enterprise.
 
 
-  Globalstar''s developer surface includes support, engineering blog, and 17 more developer resources.'
+  Globalstar''s developer surface includes support, engineering blog, and 18 more developer resources.'
 random_paper: 11
 score:
   band: emerging
   composite: 15.0
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 9
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 18.4
     contract_governance: 0.0
@@ -151,6 +156,7 @@ score:
     developer_ergonomics: 7.1
     discoverability: 50.0
     operational_transparency: 31.6
+  previous_composite: 15.0
   provenance:
     mcp: unknown
   regulatory:
@@ -159,12 +165,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/globalstar/refs/heads/main/screenshots/globalstar-2026-10-11T185949.png
 security:
 - kind: domain-security
   name: Globalstar Domain Security

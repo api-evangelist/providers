@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -197,16 +197,20 @@ common:
 created: '2026-07-03'
 description: TutorCruncher is tutoring business management software for agencies, companies, and independent tutors - handling clients, students, tutors, lesson scheduling, invoicing, and payments. Its documented REST API (base https://app.tutorcruncher.com/api/, token-authenticated) exposes clients, recipients (students), contractors (tutors), agents, services (jobs), appointments (lessons), invoices, payment orders, proforma invoices, ad hoc charges, and reference data, with HTTP webhooks for event notifications. Its "Socket" product is a JavaScript embed for publishing public tutor and lesson listings on a provider's own website - not a WebSocket API.
 finops:
-- name: Tutorcruncher Finops
+- has_sources: true
+  method: generated
+  name: Tutorcruncher Finops
+  primary_unit: ''
   service_category: Business Management Software
   slug: tutorcruncher-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tutorcruncher.png
 layout: provider
 modified: '2026-07-03'
 name: TutorCruncher
 nav: Providers
 network: true
-overview: 'TutorCruncher publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Appointments API, Clients API, and 7 more. Tagged areas include Tutoring, Education, Business Management, Scheduling, and Invoicing.
+overview: 'TutorCruncher publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agents API, Appointments API, Clients API, and 7 more. Tagged areas include Tutoring, Education, Business Management, Scheduling, and Invoicing.
 
 
   TutorCruncher''s developer surface includes pricing, authentication, documentation, and 10 more developer resources.'
@@ -224,22 +228,22 @@ rate_limits:
   slug: tutorcruncher-rate-limits
 score:
   band: thin
-  composite: 34.4
+  composite: 30.2
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 62.8
+    artifact_dirs: 13
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 52.2
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -4.2
   facets:
-    access_clarity: 50.0
+    access_clarity: 42.1
     contract_governance: 0.0
     contract_quality: 48.1
     developer_ergonomics: 13.1
     discoverability: 66.1
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   previous_composite: 34.4
   provenance:
     agentic_access: derived
@@ -254,8 +258,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 17.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

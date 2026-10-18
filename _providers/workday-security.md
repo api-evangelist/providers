@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -197,6 +197,16 @@ collections:
   name: Workday Security Workday Audit and Compliance Account Signons User Accounts API
   slug: open-workday-security-user-accounts-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/workday-security/refs/heads/main/plans/workday-security-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/workday-security-plans-pricing.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/workday-security/refs/heads/main/finops/workday-security-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/workday-security-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/workday-security/refs/heads/main/capabilities/workday-security-capability-edges.yml
   title: ''
@@ -310,9 +320,13 @@ common:
 created: '2024-01-15'
 description: Collection of Workday Security APIs for managing authentication, authorization, and security configurations including identity management, security groups, audit logging, privacy, and user activity monitoring.
 finops:
-- name: Workday Security Finops
+- has_sources: true
+  method: generated
+  name: Workday Security Finops
+  primary_unit: ''
   service_category: HR / Finance SaaS
   slug: workday-security-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/workday-security.png
 json_schemas:
 - name: AccountRef
@@ -387,13 +401,13 @@ modified: '2026-09-16'
 name: Workday Security
 nav: Providers
 network: true
-overview: 'Workday Security publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Account Signons API, Audit Logs API, Authentication Configuration API, and 10 more. Tagged areas include Access Control, Audit, Authentication, Compliance, and Enterprise.
+overview: 'Workday Security publishes 13 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account Signons API, Audit Logs API, Authentication Configuration API, and 10 more. Tagged areas include Access Control, Audit, Authentication, Compliance, and Enterprise.
 
 
   The Workday Security catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Workday Security''s developer surface includes authentication, developer portal, getting-started guide, documentation, support, engineering blog, signup flow, and 19 more developer resources.'
+  Workday Security''s developer surface includes authentication, developer portal, getting-started guide, documentation, support, engineering blog, signup flow, and 21 more developer resources.'
 plans:
 - name: Workday Security Plans Pricing
   plan_count: 1
@@ -404,9 +418,10 @@ rate_limits:
   name: Workday Security Rate Limits
   slug: workday-security-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Workday Security API Rules
+  name: Workday Security — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -421,17 +436,17 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: developing
-  composite: 44.2
+  composite: 42.6
   coverage:
     artifact_dirs: 19
-    catalog_earned: 50.3
+    catalog_earned: 47.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 64.8
+    catalog_gap: 67.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 56.6
+    access_clarity: 48.7
     contract_governance: 9.8
     contract_quality: 48.4
     developer_ergonomics: 34.5
@@ -451,8 +466,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -478,7 +493,7 @@ tags:
 - Authentication
 - Compliance
 - Enterprise
-- Identity Management
+- Identity and Access Management
 - Privacy
 - SAML
 - Security

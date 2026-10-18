@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 31
+- acting_count: 21
   human_in_the_loop: 0
   name: Root Fka Slimai Agentic Access
   operation_count: 69
   slug: root-fka-slimai-agentic-access
-  summary_line: 69 operations · 31 acting
+  summary_line: 69 operations · 21 acting
 api_count: 1
 apis:
 - baseURL: https://api.root.io
@@ -371,7 +371,7 @@ modified: '2026-07-21'
 name: Root (fka Slim.ai)
 nav: Providers
 network: true
-overview: 'Root (fka Slim.ai) publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, API Keys API, Authentication API, and 17 more. Tagged areas include Company, Security, Vulnerability Management, Container Security, and DevSecOps.
+overview: 'Root (fka Slim.ai) publishes 20 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, API Keys API, Authentication API, and 17 more. Tagged areas include Company, Security, Vulnerability Management, Container Security, and DevSecOps.
 
 
   The Root (fka Slim.ai) catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -383,7 +383,7 @@ score:
   band: developing
   composite: 47.6
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -414,8 +414,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

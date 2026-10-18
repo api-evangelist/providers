@@ -35,8 +35,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 62.9
-  scored_at: '2026-10-04'
-api_count: 1
+  scored_at: '2026-10-17'
+api_count: 2
 apis:
 - baseURL: https://dashboard.starbridge.ai
   baseurl_source: declared
@@ -280,7 +280,7 @@ modified: '2026-08-14'
 name: Starbridge
 nav: Providers
 network: true
-overview: 'Starbridge publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Bridges API, Buyer API, Columns API, and 2 more. Tagged areas include Company, Artificial Intelligence, Sales Intelligence, Go-To-Market, and Public Sector.
+overview: 'Starbridge publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Bridges API, Buyer API, Columns API, and 2 more. Tagged areas include Company, Artificial Intelligence, Sales Intelligence, Go-To-Market, and Public Sector.
 
 
   The Starbridge catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -305,7 +305,7 @@ score:
   band: developing
   composite: 53.4
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -335,8 +335,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 36.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

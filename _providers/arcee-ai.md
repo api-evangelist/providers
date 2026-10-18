@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 125
   human_in_the_loop: 4
@@ -189,7 +189,7 @@ apis:
   description: The Webhooks API from Arcee AI — 1 operation(s) for webhooks.
   name: Arcee AI Webhooks API
   slug: arcee-ai-webhooks-api
-artifact_total: 62
+artifact_total: 63
 collections:
 - collection_type: open
   name: API Collection
@@ -282,6 +282,11 @@ collections:
   name: AFM Access Profiles Webhooks API
   slug: open-arcee-ai-webhooks-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/arcee-ai/refs/heads/main/plans/arcee-ai-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/arcee-ai-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/arcee-ai/refs/heads/main/capabilities/arcee-ai-capability-edges.yml
   title: ''
@@ -392,24 +397,28 @@ modified: '2026-09-16'
 name: Arcee AI
 nav: Providers
 network: true
-overview: 'Arcee AI publishes 29 APIs on the [APIs.io](https://apis.io/) network, including Access Profiles API, AFM API, Analytics API, and 26 more. Tagged areas include Company, Artificial Intelligence, Machine Learning, LLM, and Small Language Models.
+overview: 'Arcee AI publishes 29 API contracts indexed on the [APIs.io](https://apis.io/) network, including Access Profiles API, AFM API, Analytics API, and 26 more. Tagged areas include Company, Artificial Intelligence, Machine Learning, LLM, and Small Language Models.
 
 
-  Arcee AI''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, support, and 16 more developer resources.'
+  Arcee AI''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, support, and 17 more developer resources.'
+plans:
+- name: Arcee Ai Plans Pricing
+  plan_count: 8
+  slug: arcee-ai-plans-pricing
 random_paper: 11
 score:
   band: developing
-  composite: 40.1
+  composite: 46.0
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 21
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 5.9
   facets:
-    access_clarity: 21.1
+    access_clarity: 52.6
     contract_governance: 4.5
     contract_quality: 46.2
     developer_ergonomics: 66.1
@@ -433,13 +442,13 @@ score:
     skills: derived
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 19.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

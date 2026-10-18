@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.3
-  scored_at: '2026-10-04'
+  score: 15.4
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -68,6 +68,21 @@ collections:
   name: grounded.tools Docs MCP Server MCP Transport Web UI API
   slug: open-grounded-tools-web-ui-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/grounded-tools/refs/heads/main/plans/grounded-tools-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/grounded-tools-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/grounded-tools/refs/heads/main/rate-limits/grounded-tools-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/grounded-tools-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/grounded-tools/refs/heads/main/finops/grounded-tools-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/grounded-tools-finops.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -101,9 +116,13 @@ common:
 created: '2026-01-02'
 description: Grounded.tools (Grounded Docs MCP Server) is an open-source, privacy-first documentation indexing tool that keeps AI assistants informed with up-to-date, version-specific documentation from multiple sources.
 finops:
-- name: Grounded Tools Finops
+- has_sources: false
+  method: generated
+  name: Grounded Tools Finops
+  primary_unit: ''
   service_category: API
   slug: grounded-tools-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/grounded-tools.png
 json_schemas:
 - name: grounded.tools Job
@@ -128,7 +147,7 @@ modified: '2026-05-19'
 name: Grounded.tools
 nav: Providers
 network: true
-overview: 'Grounded.tools publishes 2 APIs on the [APIs.io](https://apis.io/) network: MCP Transport API and Web UI API. Tagged areas include Developer Tools, Developers, Documentation, and Experience.
+overview: 'Grounded.tools publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: MCP Transport API and Web UI API. Tagged areas include Developer Tools, Developers, Documentation, and Experience.
 
 
   The Grounded.tools catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.'
@@ -142,9 +161,10 @@ rate_limits:
   name: Grounded Tools Rate Limits
   slug: grounded-tools-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Grounded.tools API Rules
+  name: Grounded.tools — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -153,18 +173,18 @@ rules:
     warn: 3
   slug: grounded-tools-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 26.3
+  band: emerging
+  composite: 24.9
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 53.3
+    artifact_dirs: 12
+    catalog_earned: 50.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 61.8
+    catalog_gap: 64.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.4
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 9.8
     contract_quality: 49.3
     developer_ergonomics: 0.0
@@ -187,8 +207,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

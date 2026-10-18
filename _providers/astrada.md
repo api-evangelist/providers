@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 21
+- acting_count: 20
   human_in_the_loop: 0
   name: Astrada Agentic Access
   operation_count: 50
   slug: astrada-agentic-access
-  summary_line: 50 operations · 21 acting
+  summary_line: 50 operations · 20 acting
 api_count: 1
 apis:
 - baseURL: https://api.astrada.co
@@ -395,7 +395,7 @@ modified: '2026-07-18'
 name: Astrada
 nav: Providers
 network: true
-overview: 'Astrada publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Bank Accounts API, Bank Links API, Bank Subscriptions API, and 12 more. Tagged areas include Company, Fintech, Payments, Card Data, and Transaction Data.
+overview: 'Astrada publishes 15 API contracts indexed on the [APIs.io](https://apis.io/) network, including Bank Accounts API, Bank Links API, Bank Subscriptions API, and 12 more. Tagged areas include Company, Fintech, Payments, Card Data, and Transaction Data.
 
 
   The Astrada catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
@@ -449,8 +449,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

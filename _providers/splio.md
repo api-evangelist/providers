@@ -35,8 +35,8 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 34.0
-  scored_at: '2026-10-04'
-api_count: 3
+  scored_at: '2026-10-17'
+api_count: 5
 apis:
 - description: Referral coupon API published as a public Postman collection. Checks and burns coupons for a referrer or a newly referred prospect, authenticated by a SHA-256 hash of the coupon code concatenated with
   name: Splio Referral API
@@ -128,6 +128,10 @@ apis:
   slug: splio-universe-api
 artifact_total: 22
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://splio.com/feed/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/splio/refs/heads/main/capabilities/splio-capability-edges.yml
   title: ''
@@ -335,14 +339,14 @@ created: '2026-08-29'
 description: Splio is a Paris-headquartered customer marketing platform for retail, e-commerce, restaurant and travel brands, combining a Customer Data Platform, omnichannel marketing automation (email, SMS, WhatsApp, push), loyalty and rewards programs, mobile wallet cards and Tinyclues-derived predictive AI targeting into one "Splio Customer Platform". Brands integrate it through a JWT-authenticated REST API on api.splio.com covering contacts, custom fields, blacklists, orders, abandoned carts, products, stores, targeting groups and filters, loyalty members, points, tiers, programs and reward grant/burn, plus separate Messaging, Campaign, Content and Interactions APIs, a Datahub SFTP/CSV import path, and packaged connectors for Shopify, Magento, PrestaShop, Meta/Google/TikTok/Snapchat Ads, Criteo, Zendesk, OneSignal and Make.
 image: https://splio.com/wp-content/uploads/2022/05/3250_Splio_Logo_RGB-2.png
 layout: provider
-modified: '2026-08-29'
+modified: '2026-10-06'
 name: Splio
 nav: Providers
 network: true
-overview: 'Splio publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Referral API, Blacklist API, Contact API, and 15 more. Tagged areas include Marketing Automation, Customer Data Platform, Loyalty, CRM, and Email Marketing.
+overview: 'Splio publishes 18 API contracts indexed on the [APIs.io](https://apis.io/) network, including Referral API, Blacklist API, Contact API, and 15 more. Tagged areas include Marketing Automation, Customer Data Platform, Loyalty, CRM, and Email Marketing.
 
 
-  Splio''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 37 more developer resources.'
+  Splio''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 38 more developer resources.'
 plans:
 - name: Splio Plans Pricing
   plan_count: 0
@@ -356,7 +360,7 @@ score:
   band: developing
   composite: 51.6
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 52.0
     catalog_earned_first_party: 12.0
     catalog_gap: 63.0
@@ -398,8 +402,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 30.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

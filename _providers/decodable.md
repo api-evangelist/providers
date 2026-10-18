@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -162,16 +162,20 @@ common:
 created: '2026-06-21'
 description: Decodable is a fully managed stream-processing platform built on Apache Flink and Debezium. It lets teams build real-time data pipelines by connecting sources and sinks, transforming data with SQL or custom Flink jobs, and managing connections, streams, pipelines, and secrets through a REST API, a CLI, and declarative YAML.
 finops:
-- name: Decodable Finops
+- has_sources: true
+  method: generated
+  name: Decodable Finops
+  primary_unit: ''
   service_category: Analytics
   slug: decodable-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/decodable.png
 layout: provider
 modified: '2026-06-21'
 name: Decodable
 nav: Providers
 network: true
-overview: 'Decodable publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Connections API, Pipelines API, Resources API, and 2 more. Tagged areas include Stream Processing, Apache Flink, Debezium, Real-Time Data, and Data Pipeline.
+overview: 'Decodable publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Connections API, Pipelines API, Resources API, and 2 more. Tagged areas include Stream Processing, Apache Flink, Debezium, Real-Time Data, and Data Pipeline.
 
 
   Decodable''s developer surface includes authentication, engineering blog, documentation, and 11 more developer resources.'
@@ -186,22 +190,22 @@ rate_limits:
   slug: decodable-rate-limits
 score:
   band: thin
-  composite: 38.3
+  composite: 30.0
   coverage:
     artifact_dirs: 12
-    catalog_earned: 61.6
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.4
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 44.2
+    access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 48.2
     developer_ergonomics: 32.1
     discoverability: 66.1
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   previous_composite: 38.3
   provenance:
     agentic_access: derived
@@ -216,9 +220,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0
@@ -235,7 +239,7 @@ security:
 - kind: vulnerability-disclosure
   name: Decodable Vulnerability Disclosure
   slug: decodable-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 - kind: trust-center
   name: Decodable Trust Center
   slug: decodable-trust-center

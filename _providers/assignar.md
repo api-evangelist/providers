@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 39.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 106
   human_in_the_loop: 15
@@ -32,7 +32,7 @@ agentic_access:
   operation_count: 208
   slug: assignar-agentic-access
   summary_line: 208 operations · 106 acting · 15 human-in-the-loop
-api_count: 1
+api_count: 2
 apis:
 - baseURL: https://api.assignar.com/v2
   baseurl_source: declared
@@ -161,6 +161,10 @@ apis:
   slug: assignar-users-api
 artifact_total: 39
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://assignar.com/category/articles/feed/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/assignar/refs/heads/main/capabilities/assignar-capability-edges.yml
   title: ''
@@ -340,20 +344,21 @@ jsonld:
   property_count: 302
   slug: assignar-context
 layout: provider
-modified: '2026-09-26'
+modified: '2026-10-06'
 name: Assignar
 nav: Providers
 network: true
-overview: 'Assignar publishes 25 APIs on the [APIs.io](https://apis.io/) network, including Activities API, Allocations API, Allowances API, and 22 more. Tagged areas include Construction, Software, Cloud, and Project Management.
+overview: 'Assignar publishes 25 API contracts indexed on the [APIs.io](https://apis.io/) network, including Activities API, Allocations API, Allowances API, and 22 more. Tagged areas include Construction, Software, Cloud, and Project Management.
 
 
   The Assignar catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Assignar''s developer surface includes support, getting-started guide, authentication, documentation, pricing, engineering blog, and 27 more developer resources.'
+  Assignar''s developer surface includes support, getting-started guide, authentication, documentation, pricing, engineering blog, and 28 more developer resources.'
 random_paper: 20
 rules:
-- effective_rule_count: 52
+- authorship: generated
+  effective_rule_count: 52
   extends:
   - spectral:oas
   name: Assignar API Rules
@@ -371,14 +376,15 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: developing
-  composite: 53.0
+  composite: 53.1
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 23
     catalog_earned: 57.8
     catalog_earned_first_party: 0.0
     catalog_gap: 57.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.1
   facets:
     access_clarity: 47.4
     contract_governance: 22.0
@@ -386,6 +392,7 @@ score:
     developer_ergonomics: 42.3
     discoverability: 67.9
     operational_transparency: 31.6
+  previous_composite: 53.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -402,11 +409,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: flat
   upsert:
     applies: true
     score: 27.8
+screenshot: https://raw.githubusercontent.com/api-evangelist/assignar/refs/heads/main/screenshots/assignar-2026-10-11T100603.png
 security:
 - kind: authentication
   name: Assignar Authentication
@@ -419,7 +428,7 @@ security:
 - kind: vulnerability-disclosure
   name: Assignar Vulnerability Disclosure
   slug: assignar-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 - kind: trust-center
   name: Assignar Trust Center
   slug: assignar-trust-center

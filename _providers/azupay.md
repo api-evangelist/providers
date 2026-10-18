@@ -13,15 +13,16 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: served
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: served
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
@@ -29,21 +30,21 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: verified
-    protected_resource_metadata: false
-    rate_limit_signal: false
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
     reversibility_documented: verified
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: '0.2'
-  score: 40.8
-  scored_at: '2026-10-04'
+  score: 58.1
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 25
+- acting_count: 21
   human_in_the_loop: 1
   name: Azupay Agentic Access
   operation_count: 37
   slug: azupay-agentic-access
-  summary_line: 37 operations · 25 acting · 1 human-in-the-loop
+  summary_line: 37 operations · 21 acting · 1 human-in-the-loop
 api_count: 6
 apis:
 - baseURL: https://api.azupay.com.au/v1
@@ -96,7 +97,7 @@ apis:
   description: This API allows your customers to make payments using PayID on your website, mobile app or over the counter.
   name: Azupay Payment Request API
   slug: azupay-payment-request-api
-artifact_total: 22
+artifact_total: 67
 asyncapis:
 - description: ''
   name: Azupay Webhooks
@@ -121,6 +122,41 @@ collections:
   name: Azupay Reports & Balance API
   slug: open-azupay-reports
 common:
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/azupay/refs/heads/main/rules/azupay-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/azupay-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/azupay/refs/heads/main/json-ld/azupay-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/azupay-context.jsonld
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/azupay/refs/heads/main/vocabulary/azupay-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/azupay-vocabulary.yml
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/azupay/refs/heads/main/well-known/azupay-status-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/azupay-status-security.txt
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/azupay/refs/heads/main/well-known/azupay-well-known.yml
+  title: ''
+  type: WellKnown
+  url: well-known/azupay-well-known.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/azupay/refs/heads/main/hosts/azupay-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/azupay-hosts.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/azupay/refs/heads/main/vendors/azupay-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/azupay-vendors.yml
 - group: commercial
   href: https://raw.githubusercontent.com/api-evangelist/azupay/refs/heads/main/plans/azupay-plans-pricing.yml
   title: ''
@@ -314,23 +350,172 @@ created: '2026-07-24'
 description: 'Azupay is an Australian real-time payments company that moves money over the New Payments Platform (NPP), the account-to-account rails operated by Australian Payments Plus. It is API-first: merchants and platforms embed Azupay to receive payments via PayID (AzupayId), send outbound payments to a PayID or BSB/account number (AzupayOut), and collect recurring or on-demand debits through PayTo mandates and payment agreements (AzupayTo). Azupay also offers Confirmation of Payee (CoP) account checks and PayID enquiry to reduce misdirected-payment and fraud risk, batch/file (ABA and SFTP) processing for bulk payouts and collections, reporting, balance management, sub-client and API-key management, and hosted UX apps (Pay by Bank, Disbursements, Subscriptions). Its public developer portal documents a REST API at api.azupay.com.au/v1 with a UAT environment, authenticated by API key (secret and distributable keys in the Authorization header) with OAuth 2.0 client-credentials available
   as an additional server-to-server option, plus webhooks for asynchronous payment status. Home market is Australia; the surface is genuinely self-serve and documented, though production access and some capabilities (sub-clients, OAuth2) are enabled per client by Azupay.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+json_schemas:
+- name: AccountCheckObj
+  property_count: 6
+  slug: azupay-account-check-obj
+- name: AccountCheckResponseObj
+  property_count: 6
+  slug: azupay-account-check-response-obj
+- name: AccountStatusExtraForPayIdObj
+  property_count: 1
+  slug: azupay-account-status-extra-for-pay-id-obj
+- name: AccountStatusObj
+  property_count: 1
+  slug: azupay-account-status-obj
+- name: ApiKeyUpdateObj
+  property_count: 1
+  slug: azupay-api-key-update-obj
+- name: apiKeysProvisionObj
+  property_count: 2
+  slug: azupay-api-keys-provision-obj
+- name: apiKeysProvisionResponseObj
+  property_count: 5
+  slug: azupay-api-keys-provision-response-obj
+- name: BalanceObj
+  property_count: 1
+  slug: azupay-balance-obj
+- name: BSBEnquiryObj
+  property_count: 1
+  slug: azupay-bsbenquiry-obj
+- name: ClientObj
+  property_count: 1
+  slug: azupay-client-obj
+- name: EnableOAuth2ResponseObj
+  property_count: 6
+  slug: azupay-enable-oauth2-response-obj
+- name: GetApiKeyResponseObj
+  property_count: 4
+  slug: azupay-get-api-key-response-obj
+- name: GetOAuth2ResponseObj
+  property_count: 5
+  slug: azupay-get-oauth2-response-obj
+- name: LowBalanceEmailAddresses
+  property_count: 1
+  slug: azupay-low-balance-email-addresses
+- name: LowBalanceThreshold
+  property_count: 1
+  slug: azupay-low-balance-threshold
+- name: nextPageIdResponse
+  property_count: 0
+  slug: azupay-next-page-id-response
+- name: PayIDEnquiryObj
+  property_count: 5
+  slug: azupay-pay-idenquiry-obj
+- name: PaymentAgreementAmendmentObj
+  property_count: 1
+  slug: azupay-payment-agreement-amendment-obj
+- name: PaymentAgreementAmendmentStatusObj
+  property_count: 1
+  slug: azupay-payment-agreement-amendment-status-obj
+- name: PaymentAgreementObj
+  property_count: 1
+  slug: azupay-payment-agreement-obj
+- name: PaymentAgreementRequestObj
+  property_count: 1
+  slug: azupay-payment-agreement-request-obj
+- name: PaymentAgreementRequestStatusObj
+  property_count: 1
+  slug: azupay-payment-agreement-request-status-obj
+- name: PaymentAgreementSearchObj
+  property_count: 1
+  slug: azupay-payment-agreement-search-obj
+- name: PaymentAgreementStatusObj
+  property_count: 1
+  slug: azupay-payment-agreement-status-obj
+- name: PaymentInitiationObj
+  property_count: 1
+  slug: azupay-payment-initiation-obj
+- name: PaymentInitiationSearchObj
+  property_count: 1
+  slug: azupay-payment-initiation-search-obj
+- name: PaymentInitiationSearchResponseObj
+  property_count: 0
+  slug: azupay-payment-initiation-search-response-obj
+- name: PaymentInitiationStatusObj
+  property_count: 1
+  slug: azupay-payment-initiation-status-obj
+- name: PaymentObj
+  property_count: 1
+  slug: azupay-payment-obj
+- name: PaymentRequestObj
+  property_count: 1
+  slug: azupay-payment-request-obj
+- name: PaymentRequestSearchObj
+  property_count: 1
+  slug: azupay-payment-request-search-obj
+- name: PaymentRequestSearchResponseObj
+  property_count: 0
+  slug: azupay-payment-request-search-response-obj
+- name: PaymentRequestStatusObj
+  property_count: 1
+  slug: azupay-payment-request-status-obj
+- name: PaymentSchedulerResponse
+  property_count: 2
+  slug: azupay-payment-scheduler-response
+- name: PaymentSearchObj
+  property_count: 1
+  slug: azupay-payment-search-obj
+- name: PaymentSearchResponseObj
+  property_count: 0
+  slug: azupay-payment-search-response-obj
+- name: PaymentStatusObj
+  property_count: 1
+  slug: azupay-payment-status-obj
+- name: recordCount
+  property_count: 0
+  slug: azupay-record-count
+- name: ReportLinkModel
+  property_count: 1
+  slug: azupay-report-link-model
+- name: ReportListModel
+  property_count: 2
+  slug: azupay-report-list-model
+- name: SetLowBalanceEmailAddresses
+  property_count: 1
+  slug: azupay-set-low-balance-email-addresses
+- name: SetLowBalanceThreshold
+  property_count: 1
+  slug: azupay-set-low-balance-threshold
+jsonld:
+- class_count: 49
+  name: Azupay Context
+  property_count: 80
+  slug: azupay-context
 layout: provider
 modified: '2026-07-24'
 name: Azupay
 nav: Providers
 network: true
-overview: 'Azupay publishes 10 APIs on the [APIs.io](https://apis.io/) network, including API Keys API, Billing and Transaction Reports API, Check Accounts API, and 7 more. Tagged areas include Payments, Australia, Real-Time Payments, Account-to-Account, and New Payments Platform.
+overview: 'Azupay publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including API Keys API, Billing and Transaction Reports API, Check Accounts API, and 7 more. Tagged areas include Payments, Australia, Real-Time Payments, Account-to-Account, and New Payments Platform.
 
 
-  The Azupay catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Azupay catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Azupay''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, changelog, pricing, and 34 more developer resources.'
+  Azupay''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, changelog, pricing, and 41 more developer resources.'
 plans:
 - name: Azupay Plans Pricing
   plan_count: 3
   slug: azupay-plans-pricing
 random_paper: 6
+rate_limits:
+- limit_count: 0
+  name: Azupay Rate Limits
+  slug: azupay-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 57
+  extends:
+  - spectral:oas
+  name: Azupay API Rules
+  rule_count: 16
+  severity_counts:
+    error: 14
+    hint: 0
+    info: 1
+    warn: 1
+  slug: azupay-rules
 scopes:
 - name: Azupay Scopes
   scope_count: 1
@@ -338,19 +523,19 @@ scopes:
   summary_line: 1 scope
 score:
   band: strong
-  composite: 56.2
+  composite: 61.7
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 52.0
+    artifact_dirs: 35
+    catalog_earned: 77.8
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 37.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 5.5
   facets:
     access_clarity: 69.7
-    contract_governance: 4.5
-    contract_quality: 56.7
+    contract_governance: 22.0
+    contract_quality: 70.2
     developer_ergonomics: 53.0
     discoverability: 78.6
     operational_transparency: 31.6
@@ -378,9 +563,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 36.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: true
     score: 33.3

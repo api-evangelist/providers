@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 1
@@ -354,7 +354,7 @@ modified: '2026-08-13'
 name: SmartNews
 nav: Providers
 network: true
-overview: 'SmartNews publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Ad API, Ad Group API, article category API, and 13 more. Tagged areas include Company, Consumer, News, Advertising, and AdTech.
+overview: 'SmartNews publishes 16 API contracts indexed on the [APIs.io](https://apis.io/) network, including Ad API, Ad Group API, article category API, and 13 more. Tagged areas include Company, Consumer, News, Advertising, and AdTech.
 
 
   SmartNews'' developer surface includes authentication, documentation, API reference, getting-started guide, support, signup flow, changelog, and 30 more developer resources.'
@@ -371,7 +371,7 @@ score:
   band: developing
   composite: 51.0
   coverage:
-    artifact_dirs: 26
+    artifact_dirs: 27
     catalog_earned: 50.0
     catalog_earned_first_party: 13.0
     catalog_gap: 65.0
@@ -402,8 +402,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

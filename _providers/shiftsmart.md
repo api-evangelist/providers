@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'The private REST API backing the Shiftsmart worker and manager applications. Probing confirms a live FeathersJS service at api.shiftsmart.com: an unauthenticated GET /health returns 200, service colle'
@@ -114,7 +114,7 @@ modified: '2026-08-02'
 name: Shiftsmart
 nav: Providers
 network: true
-overview: 'Shiftsmart publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Workforce Management, Staffing, Scheduling, and Labor Marketplace.
+overview: 'Shiftsmart is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Workforce Management, Staffing, Scheduling, and Labor Marketplace.
 
 
   Shiftsmart''s developer surface includes engineering blog, support, product news, and 12 more developer resources.'
@@ -146,8 +146,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 22.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

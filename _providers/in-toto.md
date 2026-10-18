@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 4
 apis:
 - description: The in-toto specification defines the metadata format for recording software supply chain steps. It includes layout metadata that defines the expected steps and their authorized functionaries, and lin
@@ -50,6 +50,21 @@ apis:
   slug: in-toto-golang
 artifact_total: 14
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/in-toto/refs/heads/main/plans/in-toto-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/in-toto-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/in-toto/refs/heads/main/rate-limits/in-toto-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/in-toto-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/in-toto/refs/heads/main/finops/in-toto-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/in-toto-finops.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -119,9 +134,13 @@ common:
 created: '2026-03-16'
 description: in-toto is a CNCF graduated framework for securing the integrity of software supply chains. It provides a specification for generating and verifying metadata about each step in a software supply chain, from source code to deployment. in-toto ensures that each step is performed by the authorized party and that materials and products are not tampered with between steps.
 finops:
-- name: In Toto Finops
+- has_sources: false
+  method: generated
+  name: In Toto Finops
+  primary_unit: ''
   service_category: API
   slug: in-toto-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/in-toto.png
 json_schemas:
 - name: in-toto Attestation Statement
@@ -143,13 +162,13 @@ modified: '2026-04-28'
 name: In-Toto
 nav: Providers
 network: true
-overview: 'In-Toto publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Cloud-Native, Graduated, Security, Software Integrity, and Supply Chain Security.
+overview: 'In-Toto is listed with 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Cloud-Native, Graduated, Security, Software Integrity, and Supply Chain Security.
 
 
   The In-Toto catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  In-Toto''s developer surface includes documentation, getting-started guide, engineering blog, FAQ, and 11 more developer resources.'
+  In-Toto''s developer surface includes documentation, getting-started guide, engineering blog, FAQ, and 14 more developer resources.'
 plans:
 - name: In Toto Plans Pricing
   plan_count: 3
@@ -160,9 +179,10 @@ rate_limits:
   name: In Toto Rate Limits
   slug: in-toto-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: In-Toto API Rules
+  name: In-Toto — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -170,7 +190,8 @@ rules:
     info: 2
     warn: 4
   slug: in-toto-jsonschema-spectral-rules
-- effective_rule_count: 0
+- authorship: unmarked
+  effective_rule_count: 0
   extends: []
   name: In-Toto API Rules
   rule_count: 0
@@ -181,18 +202,18 @@ rules:
     warn: 0
   slug: in-toto-rules
 score:
-  band: thin
-  composite: 27.3
+  band: emerging
+  composite: 25.8
   coverage:
-    artifact_dirs: 10
-    catalog_earned: 67.3
+    artifact_dirs: 11
+    catalog_earned: 64.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 47.8
+    catalog_gap: 50.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 9.8
     contract_quality: 26.7
     developer_ergonomics: 33.3
@@ -205,8 +226,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

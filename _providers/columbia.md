@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 41.7
-  scored_at: '2026-10-04'
+  score: 39.5
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -80,6 +80,14 @@ apis:
   slug: columbia-locations-api
 artifact_total: 27
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://neighbors.columbia.edu/news
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://neighbors.columbia.edu/news/rss.xml
 - group: company
   title: ''
   type: Website
@@ -235,9 +243,13 @@ examples:
   name: Columbia Library Hours Open Now Example
   slug: columbia-library-hours-open-now-example
 finops:
-- name: Columbia Finops
+- has_sources: true
+  method: generated
+  name: Columbia Finops
+  primary_unit: ''
   service_category: Education
   slug: columbia-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/columbia.png
 json_schemas:
 - name: Columbia University Libraries Hours API response schemas
@@ -249,17 +261,17 @@ jsonld:
   property_count: 3
   slug: columbia-context
 layout: provider
-modified: '2026-09-16'
+modified: '2026-10-06'
 name: Columbia University
 nav: Providers
 network: true
-overview: 'Columbia University publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Locations API, and 9 more. Tagged areas include University, Higher Education, Education, Ivy League, and Private Research University.
+overview: 'Columbia University publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Locations API. Tagged areas include University, Higher Education, Education, Ivy League, and Private Research University.
 
 
   The Columbia University catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Columbia University''s developer surface includes authentication, code examples, and 26 more developer resources.'
+  Columbia University''s developer surface includes engineering blog, authentication, code examples, and 27 more developer resources.'
 plans:
 - name: Columbia Plans Pricing
   plan_count: 2
@@ -270,7 +282,8 @@ rate_limits:
   name: Columbia Rate Limits
   slug: columbia-rate-limits
 rules:
-- effective_rule_count: 0
+- authorship: derived
+  effective_rule_count: 0
   extends: []
   name: Columbia University API Rules
   rule_count: 0
@@ -286,23 +299,23 @@ scopes:
   slug: columbia-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 40.1
+  band: thin
+  composite: 33.9
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 64.1
+    artifact_dirs: 21
+    catalog_earned: 46.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 50.9
+    catalog_gap: 68.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -4.6
+  delta: -6.2
   facets:
-    access_clarity: 40.0
+    access_clarity: 18.4
     contract_governance: 3.8
-    contract_quality: 63.1
-    developer_ergonomics: 31.0
+    contract_quality: 60.6
+    developer_ergonomics: 33.3
     discoverability: 57.1
-    operational_transparency: 21.6
+    operational_transparency: 7.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -310,7 +323,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 44.7
+  previous_composite: 40.1
   provenance:
     agentic_access: first-party
     conformance: first-party
@@ -325,9 +338,9 @@ score:
     regime: Education & Research
     regime_id: education
     score: 26.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

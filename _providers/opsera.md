@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 14.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: RESTful JSON API for triggering and monitoring pipelines and tasks, managing users/groups, parameters, audit logs, SCM migration, and GitCustodian, authenticated with scoped JWT Personal Access Tokens
@@ -156,7 +156,7 @@ modified: '2026-07-20'
 name: Opsera
 nav: Providers
 network: true
-overview: 'Opsera publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, DevOps, CI/CD, DevSecOps, and Pipeline Orchestration.
+overview: 'Opsera is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, DevOps, CI/CD, DevSecOps, and Pipeline Orchestration.
 
 
   Opsera''s developer surface includes documentation, getting-started guide, API reference, authentication, changelog, engineering blog, pricing, and 16 more developer resources.'
@@ -170,7 +170,7 @@ score:
   band: thin
   composite: 34.7
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -194,8 +194,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

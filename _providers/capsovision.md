@@ -34,10 +34,20 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 3
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/capsovision/refs/heads/main/plans/capsovision-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/capsovision-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/capsovision/refs/heads/main/rate-limits/capsovision-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/capsovision-rate-limits.yml
 - group: company
   title: ''
   type: Website
@@ -108,7 +118,7 @@ network: true
 overview: 'CapsoVision is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, Healthcare, Capsule Endoscopy, and Gastroenterology.
 
 
-  CapsoVision''s developer surface includes support, engineering blog, and 7 more developer resources.'
+  CapsoVision''s developer surface includes support, engineering blog, and 9 more developer resources.'
 plans:
 - name: Capsovision Plans Pricing
   plan_count: 0
@@ -150,8 +160,8 @@ score:
     regime: Health
     regime_id: health
     score: 4.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

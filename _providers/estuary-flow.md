@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 5.0
-  scored_at: '2026-10-04'
+  score: 3.1
+  scored_at: '2026-10-17'
 api_count: 4
 apis:
 - description: REST/JSON API backing the Estuary Flow web dashboard and flowctl CLI. Manages captures, collections, materializations, derivations, drafts, publications, tenants, and role grants. Authenticated with a
@@ -50,6 +50,21 @@ apis:
   slug: connectors
 artifact_total: 8
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/estuary-flow/refs/heads/main/plans/estuary-flow-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/estuary-flow-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/estuary-flow/refs/heads/main/rate-limits/estuary-flow-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/estuary-flow-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/estuary-flow/refs/heads/main/finops/estuary-flow-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/estuary-flow-finops.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -134,19 +149,23 @@ common:
 created: '2026-05-23'
 description: Estuary Flow is a real-time data movement and transformation platform combining streaming infrastructure, a runtime, and an open-source ecosystem of connectors. It supports change data capture (CDC), SaaS integration, database replication, streaming lakehouse, and real-time analytics pipelines. Users build pipelines as captures, collections, derivations, and materializations - manageable from the web dashboard, the flowctl CLI, and a REST/agent API.
 finops:
-- name: Estuary Flow Finops
+- has_sources: false
+  method: generated
+  name: Estuary Flow Finops
+  primary_unit: ''
   service_category: API
   slug: estuary-flow-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/estuary-flow.png
 layout: provider
 modified: '2026-05-23'
 name: Estuary Flow
 nav: Providers
 network: true
-overview: 'Estuary Flow publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Data, Streaming, Change Data Capture, ETL, and ELT.
+overview: 'Estuary Flow is listed with 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Data, Streaming, Change Data Capture, ETL, and ELT.
 
 
-  Estuary Flow''s developer surface includes developer portal, documentation, signup flow, pricing, engineering blog, GitHub presence, CLI, and 13 more developer resources.'
+  Estuary Flow''s developer surface includes developer portal, documentation, signup flow, pricing, engineering blog, GitHub presence, CLI, and 16 more developer resources.'
 plans:
 - name: Estuary Flow Plans Pricing
   plan_count: 1
@@ -158,22 +177,22 @@ rate_limits:
   slug: estuary-flow-rate-limits
 score:
   band: thin
-  composite: 35.7
+  composite: 29.7
   coverage:
     artifact_dirs: 8
-    catalog_earned: 57.4
+    catalog_earned: 44.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.6
+    catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.0
   facets:
-    access_clarity: 65.0
+    access_clarity: 43.4
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 45.2
     discoverability: 78.6
-    operational_transparency: 40.0
+    operational_transparency: 26.3
   previous_composite: 35.7
   regulatory:
     applies: true
@@ -181,9 +200,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

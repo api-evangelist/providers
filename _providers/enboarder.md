@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: REST API for launching basic and advanced Enboarder workflows, updating and cancelling running workflows, managing employee profiles and photos, and exporting workflow and form reporting data. Paths a
@@ -185,7 +185,7 @@ modified: '2026-08-12'
 name: Enboarder
 nav: Providers
 network: true
-overview: 'Enboarder publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Human Resources, Employee Onboarding, Employee Experience, and HR Technology.
+overview: 'Enboarder is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Human Resources, Employee Onboarding, Employee Experience, and HR Technology.
 
 
   The Enboarder catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -233,8 +233,8 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 45.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

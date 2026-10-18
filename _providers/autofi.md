@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 47.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 9
+- acting_count: 8
   human_in_the_loop: 0
   name: Autofi Agentic Access
   operation_count: 11
   slug: autofi-agentic-access
-  summary_line: 11 operations · 9 acting
+  summary_line: 11 operations · 8 acting
 api_count: 2
 apis:
 - description: 'Live, OAuth-protected Model Context Protocol server served from the WordPress installation behind autofi.com, discovered through RFC 9728 protected-resource metadata. It is a site/content MCP surface '
@@ -261,7 +261,7 @@ modified: '2026-08-14'
 name: AutoFi
 nav: Providers
 network: true
-overview: 'AutoFi publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Authorization API, Calculate Payment API, Dealers API, and 4 more. Tagged areas include Company, Automotive, Fintech, Digital Retail, and Auto Finance.
+overview: 'AutoFi publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authorization API, Calculate Payment API, Dealers API, and 4 more. Tagged areas include Company, Automotive, Fintech, Digital Retail, and Auto Finance.
 
 
   The AutoFi catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -317,8 +317,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 41.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

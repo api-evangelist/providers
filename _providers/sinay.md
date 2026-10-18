@@ -28,20 +28,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.8
-  scored_at: '2026-10-04'
+  score: 22.9
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 4
+- acting_count: 1
   human_in_the_loop: 0
   name: Sinay Agentic Access
   operation_count: 14
   slug: sinay-agentic-access
-  summary_line: 14 operations · 4 acting
+  summary_line: 14 operations · 1 acting
 api_count: 1
 apis:
 - baseURL: https://api.sinay.ai/ports-vessels/api/v1
@@ -101,6 +101,14 @@ collections:
   name: Sinay Maritime APIs
   slug: open-sinay
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://sinay.ai/en/insights/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://sinay.ai/en/feed/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/sinay/refs/heads/main/capabilities/sinay-capability-edges.yml
   title: ''
@@ -155,19 +163,23 @@ common:
 created: '2026-07-12'
 description: Sinay is a maritime data and analytics company whose Developers Platform exposes a marketplace of REST APIs for the shipping and ocean-tech industry - vessel and port lookup from combined satellite and terrestrial AIS, metocean (weather and ocean) conditions, per-voyage CO2 emissions modeled on the GLEC Framework, ETA prediction, live port congestion, sailing schedules, and underwater noise. Every API is called over HTTPS at api.sinay.ai, authenticated with a single API_KEY header, and metered as monthly API units / credits with a free developer key to start.
 finops:
-- name: Sinay Finops
+- has_sources: true
+  method: generated
+  name: Sinay Finops
+  primary_unit: ''
   service_category: Maritime Data and Analytics
   slug: sinay-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sinay.png
 layout: provider
-modified: '2026-07-12'
+modified: '2026-10-06'
 name: Sinay
 nav: Providers
 network: true
-overview: 'Sinay publishes 6 APIs on the [APIs.io](https://apis.io/) network, including CO2 Emission API, ETA API, Metocean API, and 3 more. Tagged areas include Vessel Tracking, AIS, Maritime, Maritime Data, and Weather.
+overview: 'Sinay publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including CO2 Emission API, ETA API, Metocean API, and 3 more. Tagged areas include Vessel Tracking, AIS, Maritime, Maritime Data, and Weather.
 
 
-  Sinay''s developer surface includes authentication, documentation, signup flow, and 8 more developer resources.'
+  Sinay''s developer surface includes engineering blog, authentication, documentation, signup flow, and 9 more developer resources.'
 plans:
 - name: Sinay Plans Pricing
   plan_count: 4
@@ -179,22 +191,22 @@ rate_limits:
   slug: sinay-rate-limits
 score:
   band: thin
-  composite: 35.5
+  composite: 27.8
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 61.6
+    artifact_dirs: 12
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.4
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.7
   facets:
-    access_clarity: 49.5
+    access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 50.3
-    developer_ergonomics: 20.2
+    developer_ergonomics: 22.6
     discoverability: 66.1
-    operational_transparency: 28.4
+    operational_transparency: 7.9
   previous_composite: 35.5
   provenance:
     agentic_access: derived
@@ -209,9 +221,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 4
 apis:
 - description: Stockholm University operates its own Shibboleth Identity Provider and publishes its SAML 2.0 entity metadata anonymously on its registrable domain. The document declares entityID https://idp.it.su.se
@@ -51,6 +51,10 @@ apis:
   slug: education-archive-sitemap
 artifact_total: 9
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.su.se/english/news
 - group: company
   title: ''
   type: Website
@@ -194,19 +198,23 @@ created: '2026-06-03'
 description: 'Stockholm University (Stockholms universitet) is a public research university in Sweden and one of the country''s largest, with roughly 33,000 students across four faculties. It operates no public developer portal, no API gateway and no first-party documented API: api.su.se, data.su.se and developer.su.se do not resolve, and www.su.se/api returns 404. What the institution genuinely runs and serves anonymously is narrow — a Shibboleth SAML2 identity provider at idp.it.su.se whose entity metadata is published by the university and registered in the SWAMID federation (and so in eduGAIN), the Bolin Centre Database research data repository on bolin.su.se minting its own DataCite DOIs under prefix 10.17043 since 2014, and a SiteVision REST sitemap on www.su.se that indexes every course syllabus in the education archive. Its two harvestable research surfaces are both tenancies rather than SU engineering: the DiVA OAI-PMH endpoint at su.diva-portal.org is operated by the DiVA consortium
   at Uppsala University Library, and su.figshare.com is a Figshare deployment. This profile previously credited Stockholm University with eleven APIs that were all one Figshare contract at api.figshare.com/v2; those contracts and everything derived from them have been removed and the two repository relationships recorded as tenant surfaces instead.'
 finops:
-- name: Stockholm Finops
+- has_sources: true
+  method: generated
+  name: Stockholm Finops
+  primary_unit: ''
   service_category: Education
   slug: stockholm-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/stockholm.png
 layout: provider
-modified: '2026-08-30'
+modified: '2026-10-06'
 name: Stockholm University
 nav: Providers
 network: true
-overview: 'Stockholm University publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Higher Education, University, Research, and Research Data.
+overview: 'Stockholm University is listed with 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Higher Education, University, Research, and Research Data.
 
 
-  Stockholm University''s developer surface includes support and 18 more developer resources.'
+  Stockholm University''s developer surface includes engineering blog, support, and 18 more developer resources.'
 plans:
 - name: Stockholm Plans Pricing
   plan_count: 2
@@ -218,22 +226,22 @@ rate_limits:
   slug: stockholm-rate-limits
 score:
   band: emerging
-  composite: 21.7
+  composite: 16.1
   coverage:
-    artifact_dirs: 8
-    catalog_earned: 57.4
+    artifact_dirs: 10
+    catalog_earned: 44.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.6
+    catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -2.3
+  delta: -5.6
   facets:
-    access_clarity: 37.4
+    access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 4.4
-    developer_ergonomics: 14.3
+    developer_ergonomics: 16.7
     discoverability: 71.4
-    operational_transparency: 21.6
+    operational_transparency: 7.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -242,7 +250,7 @@ score:
     regions:
     - europe
     - nordics
-  previous_composite: 24.0
+  previous_composite: 21.7
   provenance:
     conformance: first-party
   regulatory:
@@ -251,9 +259,9 @@ score:
     regime: Education & Research
     regime_id: education
     score: 20.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

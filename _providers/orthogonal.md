@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 43.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - baseURL: https://api.orthogonal.com/v1
@@ -543,9 +543,13 @@ common:
 created: '2026-07-17'
 description: Orthogonal is a unified API and payment layer for AI agents, backed by Pantera Capital and Y Combinator. An agent describes what it needs in natural language and Orthogonal returns the right service from a catalog of 40+ third-party APIs (web search, data enrichment, scraping, email finding/verification, identity), then proxies the call and meters a per-call price. Access is available through a REST API (api.orthogonal.com), a TypeScript SDK (@orth/sdk), a Python SDK (orth), a CLI (@orth/cli), and an official hosted MCP server (mcp.orthogonal.com) for Claude, Cursor, and other agents. Billing is prepaid credits or pay-per-call stablecoin micropayments over x402 (USDC on Base) and MPP (USDC.e on Tempo). Orthogonal also publishes an open library of 88 installable Agent Skills.
 finops:
-- name: Orthogonal Finops
+- has_sources: true
+  method: probed
+  name: Orthogonal Finops
+  primary_unit: ''
   service_category: ''
   slug: orthogonal-finops
+  template: false
 image: https://orthogonal.sh/logo.jpg
 layout: provider
 mcp_servers:
@@ -556,7 +560,7 @@ modified: '2026-08-14'
 name: Orthogonal
 nav: Providers
 network: true
-overview: 'Orthogonal publishes 61 APIs on the [APIs.io](https://apis.io/) network, including Account API, Discovery API, Run API, and 58 more. Tagged areas include Company, AI Agents, API Discovery, API Marketplace, and Agentic Payments.
+overview: 'Orthogonal publishes 61 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Discovery API, Run API, and 58 more. Tagged areas include Company, AI Agents, API Discovery, API Marketplace, and Agentic Payments.
 
 
   Orthogonal''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, CLI, authentication, and 32 more developer resources.'
@@ -576,17 +580,17 @@ scopes:
   summary_line: 7 scopes
 score:
   band: developing
-  composite: 53.1
+  composite: 51.6
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 48.0
+    artifact_dirs: 27
+    catalog_earned: 45.0
     catalog_earned_first_party: 8.0
-    catalog_gap: 67.0
+    catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 73.7
+    access_clarity: 65.8
     contract_governance: 4.5
     contract_quality: 39.7
     developer_ergonomics: 81.0
@@ -608,8 +612,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 36.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -637,7 +641,7 @@ tags:
 - Agentic Payments
 - MCP
 - Data Enrichment
-- Crypto
+- Cryptocurrency
 - Stablecoins
 - A2A
 website: https://www.orthogonal.com/

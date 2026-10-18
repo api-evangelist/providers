@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://tryrote.com/blog/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/rote/refs/heads/main/security/rote-domain-security.yml
   title: ''
@@ -49,28 +53,31 @@ created: '2026-07-17'
 description: Rote is an AI-native insurance department for auto body shops, backed by Y Combinator (Winter 2027 batch). The platform uses AI agents to handle the entire negotiation lifecycle between collision-repair shops and insurance carriers, autonomously filing and defending claims using technical repair data so that shops recover revenue lost to denied or undervalued estimates. Founded in San Francisco by Aditya Mittal and Gabriel Castillo, Rote is an early-stage company presenting a marketing website only; no public API, developer portal, SDK, or OpenAPI surface has been published to date. This profile was surfaced as a Y Combinator portfolio lead and enriched from the company's public website.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rote.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Rote
 nav: Providers
 network: true
-overview: Rote is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, Insurtech, Artificial Intelligence, and AI Agents.
+overview: 'Rote is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, Insurtech, Artificial Intelligence, and AI Agents.
+
+
+  Rote''s developer surface includes engineering blog and 2 more developer resources.'
 random_paper: 2
 score:
   band: minimal
-  composite: 3.1
+  composite: 3.5
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.4
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 48.2
     operational_transparency: 0.0
   previous_composite: 3.1
@@ -80,8 +87,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 4.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

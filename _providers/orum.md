@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 1
@@ -339,7 +339,7 @@ modified: '2026-07-20'
 name: Orum
 nav: Providers
 network: true
-overview: 'Orum publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Balance API, Book Transfers API, and 14 more. Tagged areas include Company, Payments, Fintech, Banking, and Instant Payments.
+overview: 'Orum publishes 17 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authentication API, Balance API, Book Transfers API, and 14 more. Tagged areas include Company, Payments, Fintech, Banking, and Instant Payments.
 
 
   The Orum catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -356,7 +356,7 @@ score:
   band: developing
   composite: 41.8
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -387,8 +387,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 30.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

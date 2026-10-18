@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.collective.com/feed
 - group: company
   title: ''
   type: Website
@@ -81,14 +85,14 @@ created: '2026-07-17'
 description: Collective is an all-in-one financial back-office platform built for self-employed entrepreneurs, solopreneurs, and businesses-of-one. It bundles S Corp formation and election, bookkeeping, payroll (as a Gusto partner), business and personal tax preparation and filing, quarterly tax planning, and a dedicated accounting team into a single membership. Roughly 12,000 members use Collective to optimize self-employment taxes, with members reporting average annual business-tax savings around $10,000. Collective is a private fintech company backed by General Catalyst, Kindred Ventures, and QED Investors. It currently exposes no public developer API, SDK, or documentation surface; this profile captures its public web, security, and compliance footprint for the API Evangelist network.
 image: https://www.collective.com/_next/static/media/opengraph-image.22d22c62.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Collective
 nav: Providers
 network: true
 overview: 'Collective is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Accounting, Tax, and Payroll.
 
 
-  Collective''s developer surface includes pricing, signup flow, engineering blog, support, and 6 more developer resources.'
+  Collective''s developer surface includes pricing, signup flow, engineering blog, support, and 7 more developer resources.'
 random_paper: 10
 score:
   band: emerging
@@ -115,8 +119,8 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -33,10 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.ohmconnect.com/about-us/newsroom
 - group: company
   title: ''
   type: Website
@@ -88,31 +92,31 @@ created: '2026-07-17'
 description: OhmConnect is a residential demand-response and virtual power plant company that turns household electricity flexibility into grid capacity. It alerts customers during "OhmHours" — windows when grid power is most expensive or carbon-intensive — and pays them cash, gift cards, and prizes for reducing or automating down their usage, then aggregates those reductions and sells them into wholesale energy markets. It serves California utility customers (PG&E, SCE, and SDG&E) and operates as a competitive retail electricity provider in Texas through OhmConnect Energy. OhmConnect runs a login-gated developer portal (developer.ohmconnect.com) secured with AWS Cognito OAuth2, but publishes no public API specification.
 image: https://cdn.prod.website-files.com/628decbd69d2a151a1bbecd2/634773439fd2754c60a4a97f_ohmconnect-save-energy-save-money-preview.jpg
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Ohmconnect
 nav: Providers
 network: true
 overview: 'Ohmconnect is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Energy, Demand Response, Virtual Power Plant, and Utilities.
 
 
-  Ohmconnect''s developer surface includes support, signup flow, authentication, and 8 more developer resources.'
+  Ohmconnect''s developer surface includes engineering blog, support, signup flow, authentication, and 8 more developer resources.'
 random_paper: 14
 score:
   band: emerging
-  composite: 16.5
+  composite: 17.0
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 34.2
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 16.7
+    developer_ergonomics: 19.0
     discoverability: 55.4
     operational_transparency: 2.6
   previous_composite: 16.5
@@ -122,8 +126,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 16.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

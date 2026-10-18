@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.2
-  scored_at: '2026-10-04'
+  score: 17.4
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: TU Delft's SimpleSAMLphp identity provider — the machine-readable half of NetID. It publishes a signed SAML 2.0 EntityDescriptor with an IDPSSODescriptor and is registered in SURFconext, the Dutch nat
@@ -245,9 +245,13 @@ examples:
   name: Tu Delft 4Tu Researchdata Examples
   slug: tu-delft-4tu-researchdata-examples
 finops:
-- name: Tu Delft Finops
+- has_sources: true
+  method: generated
+  name: Tu Delft Finops
+  primary_unit: ''
   service_category: Education
   slug: tu-delft-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tu-delft.png
 json_schemas:
 - name: 4TU.ResearchData Dataset
@@ -263,7 +267,7 @@ modified: '2026-08-19'
 name: Delft University of Technology
 nav: Providers
 network: true
-overview: 'Delft University of Technology publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Account API, Collections API, Datasets API, and 3 more. Tagged areas include University, Higher Education, Education, Technical University, and Research Data.
+overview: 'Delft University of Technology publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Collections API, Datasets API, and 3 more. Tagged areas include University, Higher Education, Education, Technical University, and Research Data.
 
 
   The Delft University of Technology catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -280,10 +284,11 @@ rate_limits:
   name: Tu Delft Rate Limits
   slug: tu-delft-rate-limits
 rules:
-- effective_rule_count: 51
+- authorship: generated
+  effective_rule_count: 51
   extends:
   - spectral:oas
-  name: Delft University of Technology API Rules
+  name: Delft University of Technology — 4tu rules
   rule_count: 10
   severity_counts:
     error: 8
@@ -297,23 +302,23 @@ scopes:
   slug: tu-delft-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 57.3
+  band: developing
+  composite: 47.6
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 82.6
+    artifact_dirs: 20
+    catalog_earned: 59.4
     catalog_earned_first_party: 0.0
-    catalog_gap: 32.5
+    catalog_gap: 55.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -9.7
   facets:
-    access_clarity: 47.9
-    contract_governance: 62.9
+    access_clarity: 26.3
+    contract_governance: 33.3
     contract_quality: 58.7
     developer_ergonomics: 35.7
     discoverability: 76.8
-    operational_transparency: 47.9
+    operational_transparency: 34.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -336,13 +341,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 48.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
     reason: read_only
+screenshot: https://raw.githubusercontent.com/api-evangelist/tu-delft/refs/heads/main/screenshots/tu-delft-2026-10-11T194130.png
 security:
 - kind: authentication
   name: Tu Delft Authentication

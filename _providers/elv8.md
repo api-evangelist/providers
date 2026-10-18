@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.scout-financial.com/blog
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/elv8/refs/heads/main/security/elv8-domain-security.yml
   title: ''
@@ -57,28 +61,31 @@ created: '2026-07-17'
 description: ELV8 Inc. operates Scout, a financial platform built for college athletes and athletic departments navigating Name, Image, and Likeness (NIL) income. Scout provides NIL income tracking and management, financial education with one-on-one coaching, payment processing for schools (per diems, bonuses, and NIL payments), roster cap-management and compliance tooling, and business-setup assistance such as LLC formation and tax filing. ELV8 Inc. is an SEC-registered investment adviser and works with 30-plus college athletic programs serving thousands of athletes. It was surfaced as a Techstars-backed portfolio company and added to the API Evangelist network. Scout is a consumer/institutional fintech product and does not currently publish a public developer API, SDKs, or API documentation.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/elv8.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: ELV8
 nav: Providers
 network: true
-overview: ELV8 is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Financial Services, NIL, and College Athletics.
+overview: 'ELV8 is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Financial Services, NIL, and College Athletics.
+
+
+  ELV8''s developer surface includes engineering blog and 4 more developer resources.'
 random_paper: 9
 score:
   band: minimal
-  composite: 8.0
+  composite: 8.5
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 48.2
     operational_transparency: 0.0
   previous_composite: 8.0
@@ -88,8 +95,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 12.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://api.reachware.com
@@ -60,6 +60,10 @@ collections:
   name: Reach Pay Cards Payments API
   slug: open-reachware-inc-payments-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://reachware.com/blog
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/reachware-inc/refs/heads/main/capabilities/reachware-inc-capability-edges.yml
   title: ''
@@ -170,31 +174,31 @@ created: '2026-07-17'
 description: Reachware is an Integration Platform as a Service (iPaaS) that lets separate SaaS and business systems operate as one connected ecosystem, with 200+ prebuilt connectors to systems like NetSuite, QuickBooks, Microsoft Dynamics 365, Odoo, SAP, Oracle, Magento, Zid and Qoyod. Alongside the core platform it ships Reach Pay (a payment API for Saudi Arabia payment gateways), Reachware Fatoora (ZATCA e-invoicing), and extension modules for banking, HR, inventory, loyalty and property management. Reach Pay exposes a hosted-redirect REST API for requesting payments, retrieving payment details, refunds and card tokenization. Reachware reports 3,500+ active subscriptions, 300+ customers, 100M+ transactions, and is CMMI Level 3 certified. It was surfaced as a portfolio company of 500 Global and profiled by the API Evangelist enrichment pipeline.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/reachware-inc.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Reachware
 nav: Providers
 network: true
-overview: 'Reachware publishes 2 APIs on the [APIs.io](https://apis.io/) network: Inc. Cards API and Inc. Payments API. Tagged areas include Company, Payments, iPaaS, Integration, and Fintech.
+overview: 'Reachware publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Inc. Cards API and Inc. Payments API. Tagged areas include Company, Payments, iPaaS, Integration, and Fintech.
 
 
-  Reachware''s developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, support, and 17 more developer resources.'
+  Reachware''s developer surface includes engineering blog, authentication, sandbox, documentation, API reference, getting-started guide, support, and 17 more developer resources.'
 random_paper: 7
 score:
   band: thin
-  composite: 36.9
+  composite: 37.4
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 25.0
     contract_governance: 18.2
     contract_quality: 50.2
-    developer_ergonomics: 44.6
+    developer_ergonomics: 47.0
     discoverability: 73.2
     operational_transparency: 0.0
   jurisdiction:
@@ -203,6 +207,7 @@ score:
     - saudi-arabia
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
+    - mena
     - middle-east
   previous_composite: 36.9
   provenance:
@@ -220,8 +225,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 30.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

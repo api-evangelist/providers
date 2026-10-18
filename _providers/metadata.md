@@ -35,8 +35,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 54.0
-  scored_at: '2026-10-04'
-api_count: 1
+  scored_at: '2026-10-17'
+api_count: 2
 apis:
 - baseURL: https://mcp-server.metadata.io
   baseurl_source: declared
@@ -54,6 +54,20 @@ collections:
   name: MCP Metadata Server
   slug: open-metadata-mcp-server
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/metadata/refs/heads/main/plans/metadata-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/metadata-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/metadata/refs/heads/main/rate-limits/metadata-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/metadata-rate-limits.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://metadata.io/feed.xml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/metadata/refs/heads/main/overlays/metadata-mcp-server-overlay.yaml
   title: ''
@@ -150,14 +164,14 @@ mcp_servers:
 - description: Remote MCP server at mcp-server.metadata.io; 141 tools listed.
   name: Metadata MCP Server (MetadataONE)
   slug: metadata-mcp-server-metadataone
-modified: '2026-08-12'
+modified: '2026-10-06'
 name: Metadata
 nav: Providers
 network: true
-overview: 'Metadata publishes 2 APIs on the [APIs.io](https://apis.io/) network: Health API and MCP API. Tagged areas include Company, Marketing, Marketing Automation, Demand Generation, and Advertising.
+overview: 'Metadata publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Health API and MCP API. Tagged areas include Company, Marketing, Marketing Automation, Demand Generation, and Advertising.
 
 
-  Metadata''s developer surface includes support, engineering blog, pricing, documentation, API reference, getting-started guide, and 14 more developer resources.'
+  Metadata''s developer surface includes support, engineering blog, pricing, documentation, API reference, getting-started guide, and 17 more developer resources.'
 plans:
 - name: Metadata Plans Pricing
   plan_count: 0
@@ -174,15 +188,15 @@ scopes:
   summary_line: 7 scopes
 score:
   band: developing
-  composite: 45.1
+  composite: 45.2
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 53.9
     contract_governance: 4.5
@@ -206,8 +220,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 36.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

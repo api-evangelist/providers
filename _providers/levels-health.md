@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 15.5
-  scored_at: '2026-10-04'
+  score: 13.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://www.levelshealth.com
@@ -99,16 +99,20 @@ common:
 created: '2026-06-20'
 description: Levels is a continuous glucose monitoring (CGM) metabolic-health app that pairs glucose sensors with lab testing and personalized guidance. The platform is a consumer product delivered through iOS, Android, and a member web portal; it consumes health data (Apple Health, wearables, uploaded labs) but does not publish a documented public or partner developer API as of this catalog date.
 finops:
-- name: Levels Health Finops
+- has_sources: true
+  method: generated
+  name: Levels Health Finops
+  primary_unit: ''
   service_category: Health and Wellness
   slug: levels-health-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/levels-health.png
 layout: provider
 modified: '2026-06-20'
 name: Levels
 nav: Providers
 network: true
-overview: 'Levels publishes 3 APIs on the [APIs.io](https://apis.io/) network: Data Export, Health Data Integrations, and Partner Program. Tagged areas include Metabolic Health, CGM, Continuous Glucose Monitoring, Health, and Wellness.
+overview: 'Levels publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Data Export, Health Data Integrations, and Partner Program. Tagged areas include Metabolic Health, CGM, Continuous Glucose Monitoring, Health, and Wellness.
 
 
   Levels'' developer surface includes documentation, engineering blog, and 6 more developer resources.'
@@ -123,22 +127,22 @@ rate_limits:
   slug: levels-health-rate-limits
 score:
   band: emerging
-  composite: 23.8
+  composite: 16.4
   coverage:
     artifact_dirs: 9
-    catalog_earned: 58.0
+    catalog_earned: 42.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.0
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.4
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 25.1
     developer_ergonomics: 11.9
     discoverability: 66.1
-    operational_transparency: 18.9
+    operational_transparency: 5.3
   previous_composite: 23.8
   regulatory:
     applies: true
@@ -146,9 +150,9 @@ score:
     regime: Health
     regime_id: health
     score: 4.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

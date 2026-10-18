@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.0
-  scored_at: '2026-10-04'
+  score: 17.8
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -76,6 +76,21 @@ collections:
   name: Google News RSS API
   slug: open-openapi
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/google-news/refs/heads/main/plans/google-news-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/google-news-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/google-news/refs/heads/main/rate-limits/google-news-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/google-news-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/google-news/refs/heads/main/finops/google-news-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/google-news-finops.yml
 - group: company
   title: ''
   type: Website
@@ -130,9 +145,13 @@ common:
 created: '2026-03-13'
 description: Google News provides RSS feeds that deliver news headlines organized by topic, location, and search query. The feeds expose structured XML data that can be consumed programmatically to retrieve top stories, topic-based headlines (World, Business, Technology, Sports, etc.), location-specific news, and keyword search results across multiple languages and regions.
 finops:
-- name: Google News Finops
+- has_sources: false
+  method: generated
+  name: Google News Finops
+  primary_unit: ''
   service_category: API
   slug: google-news-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/google-news.png
 json_schemas:
 - name: Google News RSS Feed Schema
@@ -148,13 +167,13 @@ modified: '2026-05-19'
 name: Google News RSS
 nav: Providers
 network: true
-overview: 'Google News RSS publishes 3 APIs on the [APIs.io](https://apis.io/) network: Headlines API, Search API, and Topics API. Tagged areas include Aggregation, Google News, Headlines, Media, and News.
+overview: 'Google News RSS publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Headlines API, Search API, and Topics API. Tagged areas include Aggregation, Google News, Headlines, Media, and News.
 
 
   The Google News RSS catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Google News RSS''s developer surface includes developer portal, getting-started guide, support, engineering blog, and 8 more developer resources.'
+  Google News RSS''s developer surface includes developer portal, getting-started guide, support, engineering blog, and 11 more developer resources.'
 plans:
 - name: Google News Plans Pricing
   plan_count: 3
@@ -165,9 +184,10 @@ rate_limits:
   name: Google News Rate Limits
   slug: google-news-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Google News RSS API Rules
+  name: Google News RSS — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -175,7 +195,8 @@ rules:
     info: 2
     warn: 3
   slug: google-news-jsonschema-spectral-rules
-- effective_rule_count: 56
+- authorship: generated
+  effective_rule_count: 56
   extends:
   - spectral:oas
   name: Google News RSS API Rules
@@ -187,18 +208,18 @@ rules:
     warn: 4
   slug: google-news-spectral-rules
 score:
-  band: developing
-  composite: 39.3
+  band: thin
+  composite: 33.7
   coverage:
     artifact_dirs: 13
-    catalog_earned: 54.9
+    catalog_earned: 57.9
     catalog_earned_first_party: 0.0
-    catalog_gap: 45.1
-    catalog_max: 100.0
+    catalog_gap: 57.1
+    catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.6
   facets:
-    access_clarity: 57.1
+    access_clarity: 28.9
     contract_governance: 13.6
     contract_quality: 51.8
     developer_ergonomics: 21.4
@@ -218,9 +239,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

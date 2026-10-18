@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Got is a human-friendly and powerful HTTP request library for Node.js with support for streams, retries, and pagination.
@@ -41,6 +41,21 @@ apis:
   slug: got
 artifact_total: 4
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/got/refs/heads/main/plans/got-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/got-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/got/refs/heads/main/rate-limits/got-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/got-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/got/refs/heads/main/finops/got-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/got-finops.yml
 - group: company
   title: ''
   type: Website
@@ -72,19 +87,23 @@ common:
 created: '2026-03-27'
 description: Got is a human-friendly and powerful HTTP request library for Node.js with support for streams, retries, and pagination.
 finops:
-- name: Got Finops
+- has_sources: false
+  method: generated
+  name: Got Finops
+  primary_unit: ''
   service_category: API
   slug: got-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/got.png
 layout: provider
 modified: '2026-04-28'
 name: Got
 nav: Providers
 network: true
-overview: 'Got publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Clients, HTTP Client, and Node.js.
+overview: 'Got is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Clients, HTTP Client, and Node.js.
 
 
-  Got''s developer surface includes documentation, GitHub presence, getting-started guide, support, and 3 more developer resources.'
+  Got''s developer surface includes documentation, GitHub presence, getting-started guide, support, and 6 more developer resources.'
 plans:
 - name: Got Plans Pricing
   plan_count: 3
@@ -95,18 +114,18 @@ rate_limits:
   name: Got Rate Limits
   slug: got-rate-limits
 score:
-  band: emerging
-  composite: 11.7
+  band: minimal
+  composite: 10.2
   coverage:
     artifact_dirs: 5
-    catalog_earned: 31.0
+    catalog_earned: 28.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 84.0
+    catalog_gap: 87.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 26.2
@@ -119,8 +138,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 0.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

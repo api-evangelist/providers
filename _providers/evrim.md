@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://api.evrim.ai
@@ -305,7 +305,7 @@ modified: '2026-08-14'
 name: Evrim
 nav: Providers
 network: true
-overview: 'Evrim publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Answers API, Blank API, Bulk API, and 15 more. Tagged areas include Company, Intelligence, Signals, Data Enrichment, and Profiles.
+overview: 'Evrim publishes 18 API contracts indexed on the [APIs.io](https://apis.io/) network, including Answers API, Blank API, Bulk API, and 15 more. Tagged areas include Company, Intelligence, Signals, Data Enrichment, and Profiles.
 
 
   Evrim''s developer surface includes documentation, engineering blog, authentication, changelog, and 18 more developer resources.'
@@ -352,8 +352,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

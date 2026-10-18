@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -98,7 +98,7 @@ modified: '2026-07-18'
 name: Conicle
 nav: Providers
 network: true
-overview: 'Conicle is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, EdTech, Learning Management System, Corporate Training, and E-Learning.
+overview: 'Conicle is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, EdTech, LMS, Corporate Training, and E-Learning.
 
 
   Conicle''s developer surface includes developer portal, engineering blog, support, signup flow, pricing, and 8 more developer resources.'
@@ -135,8 +135,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 9.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -152,7 +152,7 @@ slug: conicle
 tags:
 - Company
 - EdTech
-- Learning Management System
+- LMS
 - Corporate Training
 - E-Learning
 - Design Systems

@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 14
+- acting_count: 1
   human_in_the_loop: 0
   name: Zkme Agentic Access
   operation_count: 14
   slug: zkme-agentic-access
-  summary_line: 14 operations · 14 acting
+  summary_line: 14 operations · 1 acting
 api_count: 1
 apis:
 - baseURL: https://agw.zk.me
@@ -91,6 +91,15 @@ collections:
   name: zkMe Protocol Auth zkOBS API
   slug: open-zkme-zkobs-api
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/zkme/refs/heads/main/rate-limits/zkme-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/zkme-rate-limits.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.zk.me/rss/
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/zkme/refs/heads/main/mcp/zkme-mcp.yml
   title: ''
@@ -181,14 +190,14 @@ created: '2026-07-17'
 description: zkMe is a decentralized identity network delivering privacy-preserving compliance for Web3. Using zero-knowledge proofs, self-sovereign identity (SSI) wallets, DID methods and soulbound tokens, zkMe lets applications verify their users and businesses without ever handling raw personal data. Its product suite spans zkKYC (customer identity with sanction, age, citizenship, location and uniqueness/anti-Sybil proofs), zkKYB (business entity and UBO verification), zkOBS (open-banking proof of accredited investor and proof of address), and KYT (on-chain wallet-address and transaction risk screening). Verification runs client-side through embeddable JavaScript and mobile widgets; integrators then query outcomes through the zkMe Open API on agw.zk.me using an AppID + API key pair. zkMe also publishes zkTLS verifier SDKs, DID registry/resolver tooling and smart contracts through its zkMeLabs GitHub org.
 image: https://zk.me/favicon.ico
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: zkMe
 nav: Providers
 network: true
-overview: 'zkMe publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Auth API, KYT API, zkKYB API, and 2 more. Tagged areas include Company, Crypto Web3, Identity, KYC, and KYB.
+overview: 'zkMe publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Auth API, KYT API, zkKYB API, and 2 more. Tagged areas include Company, Web3, Identity, KYC, and KYB.
 
 
-  zkMe''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, and 14 more developer resources.'
+  zkMe''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, and 16 more developer resources.'
 random_paper: 21
 rate_limits:
 - limit_count: 1
@@ -196,15 +205,15 @@ rate_limits:
   slug: zkme-rate-limits
 score:
   band: thin
-  composite: 31.1
+  composite: 31.2
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 0.0
     contract_governance: 4.5
@@ -229,8 +238,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -252,7 +261,7 @@ security:
 slug: zkme
 tags:
 - Company
-- Crypto Web3
+- Web3
 - Identity
 - KYC
 - KYB
@@ -261,6 +270,5 @@ tags:
 - Decentralized Identity
 - Anti-Sybil
 - Transaction Monitoring
-- Web3
 website: https://zk.me
 ---

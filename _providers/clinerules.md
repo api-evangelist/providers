@@ -11,6 +11,10 @@ access_model:
 api_count: 0
 artifact_total: 5
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://cline.bot/blog
 - group: operate
   title: ''
   type: IssueTracker
@@ -84,7 +88,7 @@ jsonld:
   property_count: 5
   slug: clinerules-context
 layout: provider
-modified: '2026-04-27'
+modified: '2026-10-06'
 name: .clinerules
 nav: Providers
 network: true
@@ -94,12 +98,13 @@ overview: '.clinerules is profiled on the [APIs.io](https://apis.io/) network. T
   The .clinerules catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  .clinerules'' developer surface includes documentation and 13 more developer resources.'
+  .clinerules'' developer surface includes engineering blog, documentation, and 13 more developer resources.'
 random_paper: 0
 rules:
-- effective_rule_count: 4
+- authorship: generated
+  effective_rule_count: 4
   extends: []
-  name: .clinerules API Rules
+  name: .clinerules — jsonschema rules
   rule_count: 4
   severity_counts:
     error: 0

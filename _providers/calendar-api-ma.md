@@ -36,8 +36,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.5
-  scored_at: '2026-10-04'
-api_count: 2
+  scored_at: '2026-10-17'
+api_count: 4
 apis:
 - baseURL: /
   baseurl_source: spec
@@ -193,7 +193,7 @@ modified: '2026-08-18'
 name: API Calendrier Marocain | Jours Fériés & Ouvrables REST + SDK Python
 nav: Providers
 network: true
-overview: 'API Calendrier Marocain | Jours Fériés & Ouvrables REST + SDK Python publishes 3 APIs on the [APIs.io](https://apis.io/) network: Business Days API, Holidays API, and Misc API. Tagged areas include Holidays, Morocco, Calendar, Business Days, and date-utilities.
+overview: 'API Calendrier Marocain | Jours Fériés & Ouvrables REST + SDK Python publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Business Days API, Holidays API, and Misc API. Tagged areas include Holidays, Morocco, Calendar, Business Days, and date-utilities.
 
 
   API Calendrier Marocain | Jours Fériés & Ouvrables REST + SDK Python''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, changelog, and 21 more developer resources.'
@@ -208,27 +208,29 @@ rate_limits:
   slug: calendar-api-ma-rate-limits
 score:
   band: developing
-  composite: 44.4
+  composite: 45.0
   coverage:
     artifact_dirs: 20
-    catalog_earned: 40.0
+    catalog_earned: 43.0
     catalog_earned_first_party: 8.0
-    catalog_gap: 75.0
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 44.7
     contract_governance: 4.5
     contract_quality: 48.8
     developer_ergonomics: 68.5
-    discoverability: 57.1
+    discoverability: 62.5
     operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - africa
+    - mena
+    - north-africa
   previous_composite: 44.4
   provenance:
     conformance: derived
@@ -245,8 +247,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 17.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -226,7 +226,7 @@ modified: '2026-05-30'
 name: FastSpring
 nav: Providers
 network: true
-overview: 'FastSpring publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Coupons API, Data API, and 9 more. Tagged areas include E-Commerce, Merchant of Record, Subscription Billing, Payments, and SaaS Billing.
+overview: 'FastSpring publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, Coupons API, Data API, and 9 more. Tagged areas include E-Commerce, Merchant of Record, Subscription Billing, Payments, and SaaS Billing.
 
 
   The FastSpring catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -235,10 +235,11 @@ overview: 'FastSpring publishes 12 APIs on the [APIs.io](https://apis.io/) netwo
   FastSpring''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 9 more developer resources.'
 random_paper: 11
 rules:
-- effective_rule_count: 34
+- authorship: generated
+  effective_rule_count: 34
   extends:
   - spectral:asyncapi
-  name: FastSpring API Rules
+  name: FastSpring — asyncapi rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -250,7 +251,7 @@ score:
   band: thin
   composite: 34.0
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 13
     catalog_earned: 41.5
     catalog_earned_first_party: 0.0
     catalog_gap: 73.5
@@ -278,8 +279,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 15.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

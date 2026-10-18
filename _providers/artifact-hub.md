@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 3
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 129
   slug: artifact-hub-agentic-access
   summary_line: 129 operations · 37 acting · 3 human-in-the-loop
-api_count: 1
+api_count: 2
 apis:
 - description: The Artifact Hub REST API provides endpoints for searching and retrieving cloud-native packages across all supported artifact types, managing repositories, handling user authentication and sessions, m
   name: Artifact Hub API
@@ -328,9 +328,13 @@ features:
 - description: Artifact Hub can be deployed on-premise using the official Helm chart, enabling organizations to run their own private artifact registry.
   name: Self-Hosting Support
 finops:
-- name: Artifact Hub Finops
+- has_sources: false
+  method: generated
+  name: Artifact Hub Finops
+  primary_unit: ''
   service_category: API
   slug: artifact-hub-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/artifact-hub.png
 integrations:
 - description: Native integration with Helm chart repositories including support for OCI-based chart distribution via container registries.
@@ -346,7 +350,7 @@ modified: '2026-09-04'
 name: Artifact Hub
 nav: Providers
 network: true
-overview: 'Artifact Hub publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Organizations API, Packages API, Repositories API, and 7 more. Tagged areas include Cloud-Native, CNCF, Helm Charts, Package Registry, and Discovery.
+overview: 'Artifact Hub publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Organizations API, Packages API, Repositories API, and 7 more. Tagged areas include Cloud-Native, CNCF, Helm Charts, Package Registry, and Discovery.
 
 
   The Artifact Hub catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -364,17 +368,17 @@ rate_limits:
   slug: artifact-hub-rate-limits
 score:
   band: developing
-  composite: 50.4
+  composite: 49.1
   coverage:
-    artifact_dirs: 28
-    catalog_earned: 40.0
+    artifact_dirs: 29
+    catalog_earned: 37.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.3
   facets:
-    access_clarity: 26.3
+    access_clarity: 18.4
     contract_governance: 4.5
     contract_quality: 52.8
     developer_ergonomics: 56.5
@@ -400,8 +404,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 31.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

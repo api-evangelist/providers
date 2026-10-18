@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Client-side JavaScript library that embeds the EasySize "Fit Quiz" size-recommendation widget on a merchant storefront. Loaded via a script tag from the EasySize web app CDN, it exposes a global EasyS
@@ -116,7 +116,7 @@ modified: '2026-07-18'
 name: EasySize
 nav: Providers
 network: true
-overview: 'EasySize publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fashion, E-Commerce, Size Recommendation, and FIT.
+overview: 'EasySize is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fashion, E-Commerce, Size Recommendation, and FIT.
 
 
   EasySize''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, signup flow, and 10 more developer resources.'
@@ -125,7 +125,7 @@ score:
   band: thin
   composite: 27.1
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -146,8 +146,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

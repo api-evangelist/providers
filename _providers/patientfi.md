@@ -35,10 +35,15 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 4
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/patientfi/refs/heads/main/rate-limits/patientfi-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/patientfi-rate-limits.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/patientfi/refs/heads/main/security/patientfi-domain-security.yml
   title: ''
@@ -136,7 +141,7 @@ network: true
 overview: 'PatientFi is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include healthcare-financing, Patient Financing, Consumer Lending, Point of Sale Financing, and Buy Now Pay Later.
 
 
-  PatientFi''s developer surface includes engineering blog, support, signup flow, pricing, and 12 more developer resources.'
+  PatientFi''s developer surface includes engineering blog, support, signup flow, pricing, and 13 more developer resources.'
 plans:
 - name: Patientfi Plans Pricing
   plan_count: 2
@@ -177,8 +182,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 21.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.8
-  scored_at: '2026-10-04'
+  score: 22.9
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 4
+- acting_count: 3
   human_in_the_loop: 0
   name: Maven Agentic Access
   operation_count: 8
   slug: maven-agentic-access
-  summary_line: 8 operations · 4 acting
+  summary_line: 8 operations · 3 acting
 api_count: 2
 apis:
 - baseURL: https://search.maven.org/solrsearch
@@ -81,6 +81,26 @@ collections:
   name: Maven Central Search API
   slug: open-maven-search
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/maven/refs/heads/main/plans/maven-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/maven-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/maven/refs/heads/main/rate-limits/maven-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/maven-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/maven/refs/heads/main/finops/maven-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/maven-finops.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/maven/refs/heads/main/capabilities/maven-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/maven-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/maven/refs/heads/main/agentic-access/maven-agentic-access.yml
   title: ''
@@ -124,19 +144,23 @@ common:
 created: '2024-01-01'
 description: Apache Maven is a software project management and build automation tool used primarily for Java projects. Maven Central is the default artifact repository for Maven, and Sonatype provides REST APIs for searching and publishing artifacts to Maven Central.
 finops:
-- name: Maven Finops
+- has_sources: false
+  method: generated
+  name: Maven Finops
+  primary_unit: ''
   service_category: API
   slug: maven-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/maven.png
 layout: provider
 modified: '2026-05-19'
 name: Maven
 nav: Providers
 network: true
-overview: 'Maven publishes 3 APIs on the [APIs.io](https://apis.io/) network: Deployment API, Download API, and Search API. Tagged areas include Artifacts, Build Tools, Developer Tools, Java, and Maven.
+overview: 'Maven publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Deployment API, Download API, and Search API. Tagged areas include Artifacts, Build Tools, Developer Tools, Java, and Maven.
 
 
-  Maven''s developer surface includes authentication, documentation, support, and 6 more developer resources.'
+  Maven''s developer surface includes authentication, documentation, support, and 10 more developer resources.'
 plans:
 - name: Maven Plans Pricing
   plan_count: 3
@@ -147,18 +171,18 @@ rate_limits:
   name: Maven Rate Limits
   slug: maven-rate-limits
 score:
-  band: thin
-  composite: 27.5
+  band: emerging
+  composite: 26.0
   coverage:
-    artifact_dirs: 10
-    catalog_earned: 46.0
+    artifact_dirs: 11
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 69.0
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 46.1
     developer_ergonomics: 26.2
@@ -178,8 +202,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 17.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

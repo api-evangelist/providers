@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 7
 apis:
 - description: 'The BandChain REST API provides HTTP access to BandChain mainnet data including oracle scripts, data requests, price feeds, validator information, account balances, and all Cosmos SDK module queries. '
@@ -59,6 +59,25 @@ apis:
   slug: band-standard-dataset
 artifact_total: 11
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/band-protocol/refs/heads/main/plans/band-protocol-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/band-protocol-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/band-protocol/refs/heads/main/rate-limits/band-protocol-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/band-protocol-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/band-protocol/refs/heads/main/finops/band-protocol-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/band-protocol-finops.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.bandprotocol.com/rss/
 - group: operate
   title: ''
   type: IssueTracker
@@ -119,19 +138,23 @@ common:
 created: '2026-06-13'
 description: Band Protocol is a cross-chain data oracle platform that aggregates and connects real-world data and APIs to smart contracts. Built on BandChain, a high-performance Cosmos SDK blockchain, it enables developers to query price feeds, oracle scripts, data requests, and verifiable random numbers for use in decentralized applications across multiple blockchains.
 finops:
-- name: Band Protocol Finops
+- has_sources: true
+  method: generated
+  name: Band Protocol Finops
+  primary_unit: ''
   service_category: Blockchain / Data Oracle
   slug: band-protocol-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/band-protocol.png
 layout: provider
-modified: '2026-06-13'
+modified: '2026-10-06'
 name: Band Protocol
 nav: Providers
 network: true
-overview: 'Band Protocol publishes 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Blockchain, Oracle, Data Feed, Price Feeds, and Cross-Chain.
+overview: 'Band Protocol is listed with 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Blockchain, Oracle, Data Feed, Price Feeds, and Cross-Chain.
 
 
-  Band Protocol''s developer surface includes documentation, getting-started guide, engineering blog, and 11 more developer resources.'
+  Band Protocol''s developer surface includes documentation, getting-started guide, engineering blog, and 15 more developer resources.'
 plans:
 - name: Band Protocol Plans Pricing
   plan_count: 3
@@ -142,23 +165,23 @@ rate_limits:
   name: Band Protocol Rate Limits
   slug: band-protocol-rate-limits
 score:
-  band: thin
-  composite: 31.9
+  band: emerging
+  composite: 24.5
   coverage:
     artifact_dirs: 8
-    catalog_earned: 64.6
+    catalog_earned: 46.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 50.4
+    catalog_gap: 69.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.4
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 39.3
     discoverability: 78.6
-    operational_transparency: 57.4
+    operational_transparency: 36.8
   open_source:
     applies: true
     score: 60.0
@@ -169,9 +192,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

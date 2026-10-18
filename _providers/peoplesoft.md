@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.3
-  scored_at: '2026-10-04'
+  score: 25.4
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -547,6 +547,21 @@ collections:
   name: PeopleSoft Update Manager API
   slug: open-update-manager
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/peoplesoft/refs/heads/main/plans/peoplesoft-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/peoplesoft-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/peoplesoft/refs/heads/main/rate-limits/peoplesoft-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/peoplesoft-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/peoplesoft/refs/heads/main/finops/peoplesoft-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/peoplesoft-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/peoplesoft/refs/heads/main/capabilities/peoplesoft-capability-edges.yml
   title: ''
@@ -797,9 +812,13 @@ features:
 - description: Digital assistant and chatbot framework APIs for conversational PeopleSoft interactions.
   name: Chatbot Integration
 finops:
-- name: Peoplesoft Finops
+- has_sources: true
+  method: generated
+  name: Peoplesoft Finops
+  primary_unit: ''
   service_category: Enterprise Software
   slug: peoplesoft-finops
+  template: false
 image: https://www.oracle.com/a/ocom/img/cb71-psft-logo.jpg
 json_schemas:
 - name: ClassEnrollment
@@ -888,13 +907,13 @@ modified: '2026-08-21'
 name: PeopleSoft
 nav: Providers
 network: true
-overview: 'PeopleSoft publishes 48 APIs on the [APIs.io](https://apis.io/) network, including Accounts Payable API, Accounts Receivable API, Admissions API, and 45 more. Tagged areas include Campus Solutions, CRM, Enterprise Software, ERP, and Financial Management.
+overview: 'PeopleSoft publishes 48 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts Payable API, Accounts Receivable API, Admissions API, and 45 more. Tagged areas include Campus Solutions, CRM, Enterprise Software, ERP, and Financial Management.
 
 
   The PeopleSoft catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  PeopleSoft''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, changelog, support, and 38 more developer resources.'
+  PeopleSoft''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, changelog, support, and 41 more developer resources.'
 plans:
 - name: Peoplesoft Plans Pricing
   plan_count: 1
@@ -905,9 +924,10 @@ rate_limits:
   name: Peoplesoft Rate Limits
   slug: peoplesoft-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: PeopleSoft API Rules
+  name: PeopleSoft — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -915,7 +935,8 @@ rules:
     info: 1
     warn: 4
   slug: peoplesoft-jsonschema-spectral-rules
-- effective_rule_count: 64
+- authorship: generated
+  effective_rule_count: 64
   extends:
   - spectral:oas
   name: PeopleSoft API Rules
@@ -933,23 +954,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 51.4
+  composite: 49.8
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 62.5
+    artifact_dirs: 22
+    catalog_earned: 59.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 52.5
+    catalog_gap: 55.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -1.6
   facets:
-    access_clarity: 44.7
+    access_clarity: 36.8
     contract_governance: 13.6
     contract_quality: 56.7
     developer_ergonomics: 58.3
     discoverability: 72.3
     operational_transparency: 47.4
-  previous_composite: 50.9
+  previous_composite: 51.4
   provenance:
     agentic_access: derived
     contracts:
@@ -963,8 +984,8 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 34.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

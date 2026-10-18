@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.openbay.com/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/openbay/refs/heads/main/security/openbay-domain-security.yml
   title: ''
@@ -57,14 +61,14 @@ created: '2026-07-17'
 description: Openbay is an award-winning online automotive service platform and marketplace that connects vehicle owners with local repair shops and service providers, offering upfront estimates, online booking, messaging, and payment. Its consumer marketplace lets drivers compare and book automotive repair and maintenance, while Openbay+ embeds that commerce into partner and OEM channels and Openbay Otis provides a SaaS platform for repair shops. Backed by a16z and GV, the company was added to the API Evangelist network as a portfolio lead; this pass found no publicly accessible self-serve developer API surface (the marketing site and consumer app are Cloudflare-protected and expose no real /.well-known documents or llms.txt).
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/openbay.png
 layout: provider
-modified: '2026-07-17'
+modified: '2026-10-06'
 name: Openbay
 nav: Providers
 network: true
 overview: 'Openbay is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Automotive, Automotive Service, Auto Repair, and Marketplace.
 
 
-  Openbay''s developer surface includes engineering blog and 3 more developer resources.'
+  Openbay''s developer surface includes engineering blog and 4 more developer resources.'
 random_paper: 2
 score:
   band: minimal
@@ -91,8 +95,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 5.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

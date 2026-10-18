@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 5.0
-  scored_at: '2026-10-04'
+  score: 3.1
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The Maxim REST API provides programmatic access to prompts, workflows, agents, datasets, evaluators, test runs, logging, tracing, models, alerts, and log repositories. It supports OpenTelemetry-compat
@@ -41,6 +41,21 @@ apis:
   slug: maxim-api
 artifact_total: 6
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/maxim/refs/heads/main/plans/maxim-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/maxim-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/maxim/refs/heads/main/rate-limits/maxim-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/maxim-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/maxim/refs/heads/main/finops/maxim-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/maxim-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/maxim/refs/heads/main/security/maxim-trust-center.yml
   title: ''
@@ -90,19 +105,23 @@ common:
 created: '2026-05-23'
 description: Maxim AI is an end-to-end platform for the simulation, evaluation, and observability of AI agents and LLM applications. It provides distributed tracing, 50+ pre-built evaluators, offline and online evaluations, no-code agent and workflow builders, prompt versioning, dataset management, and real-time monitoring dashboards. Maxim targets engineering and quality teams shipping production AI features and is available as cloud-hosted SaaS, hybrid (VPC peering), or self-hosted (zero-touch VPC isolation). The company monetizes through tiered SaaS plans and enterprise licenses.
 finops:
-- name: Maxim Finops
+- has_sources: false
+  method: generated
+  name: Maxim Finops
+  primary_unit: ''
   service_category: API
   slug: maxim-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/maxim.png
 layout: provider
 modified: '2026-05-23'
 name: Maxim AI
 nav: Providers
 network: true
-overview: 'Maxim AI publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, LLM, Agents, Observability, and Evaluation.
+overview: 'Maxim AI is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, LLM, Agents, Observability, and Evaluation.
 
 
-  Maxim AI''s developer surface includes documentation, engineering blog, pricing, and 8 more developer resources.'
+  Maxim AI''s developer surface includes documentation, engineering blog, pricing, and 11 more developer resources.'
 plans:
 - name: Maxim Plans Pricing
   plan_count: 1
@@ -114,22 +133,22 @@ rate_limits:
   slug: maxim-rate-limits
 score:
   band: emerging
-  composite: 24.9
+  composite: 18.9
   coverage:
     artifact_dirs: 7
-    catalog_earned: 54.4
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 60.6
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.0
   facets:
-    access_clarity: 58.4
+    access_clarity: 36.8
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 19.0
     discoverability: 66.1
-    operational_transparency: 21.6
+    operational_transparency: 7.9
   previous_composite: 24.9
   regulatory:
     applies: true
@@ -137,9 +156,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

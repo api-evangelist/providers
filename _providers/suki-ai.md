@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: platform
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.0
-  scored_at: '2026-10-04'
+  score: 21.1
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -379,9 +379,13 @@ features:
 - description: Voice and text-driven form completion via the Suki Platform.
   name: Form Filling
 finops:
-- name: Suki Ai Finops
+- has_sources: false
+  method: generated
+  name: Suki Ai Finops
+  primary_unit: ''
   service_category: API
   slug: suki-ai-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/suki-ai.png
 integrations:
 - description: Compatible with the Epic EHR.
@@ -420,7 +424,7 @@ modified: '2026-08-08'
 name: Suki AI
 nav: Providers
 network: true
-overview: 'Suki AI publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Ambient Content API, Ambient Sessions API, Authentication API, and 11 more. Tagged areas include Healthcare, Ambient AI, Clinical Documentation, Voice AI, and Speech Recognition.
+overview: 'Suki AI publishes 14 API contracts indexed on the [APIs.io](https://apis.io/) network, including Ambient Content API, Ambient Sessions API, Authentication API, and 11 more. Tagged areas include Healthcare, Ambient AI, Clinical Documentation, Voice AI, and Speech Recognition.
 
 
   The Suki AI catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
@@ -437,10 +441,11 @@ rate_limits:
   name: Suki Ai Rate Limits
   slug: suki-ai-rate-limits
 rules:
-- effective_rule_count: 36
+- authorship: generated
+  effective_rule_count: 36
   extends:
   - spectral:asyncapi
-  name: Suki AI API Rules
+  name: Suki AI — asyncapi rules
   rule_count: 9
   severity_counts:
     error: 1
@@ -448,9 +453,10 @@ rules:
     info: 1
     warn: 7
   slug: suki-ai-asyncapi-spectral-rules
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Suki AI API Rules
+  name: Suki AI — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -459,23 +465,23 @@ rules:
     warn: 3
   slug: suki-ai-jsonschema-spectral-rules
 score:
-  band: strong
-  composite: 54.4
+  band: developing
+  composite: 48.3
   coverage:
     artifact_dirs: 20
-    catalog_earned: 74.4
+    catalog_earned: 61.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 40.6
+    catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.1
   facets:
-    access_clarity: 55.8
+    access_clarity: 34.2
     contract_governance: 27.3
     contract_quality: 60.0
     developer_ergonomics: 57.1
     discoverability: 80.8
-    operational_transparency: 34.7
+    operational_transparency: 21.1
   previous_composite: 54.4
   provenance:
     agentic_access: derived
@@ -491,9 +497,9 @@ score:
     regime: Health
     regime_id: health
     score: 23.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

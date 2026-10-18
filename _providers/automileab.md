@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 218
   human_in_the_loop: 25
@@ -31,7 +31,7 @@ agentic_access:
   operation_count: 455
   slug: automileab-agentic-access
   summary_line: 455 operations · 218 acting · 25 human-in-the-loop
-api_count: 1
+api_count: 2
 apis:
 - baseURL: https://api.automile.com
   baseurl_source: declared
@@ -511,7 +511,7 @@ modified: '2026-09-26'
 name: Automileab
 nav: Providers
 network: true
-overview: 'Automileab publishes 78 APIs on the [APIs.io](https://apis.io/) network, including Client API, Client API Authorizations API, Client Contracts API, and 75 more. Tagged areas include Fleet Management, GPS Tracking, Mileage Logging, and Software-as-a-Service.
+overview: 'Automileab publishes 78 API contracts indexed on the [APIs.io](https://apis.io/) network, including Client API, Client API Authorizations API, Client Contracts API, and 75 more. Tagged areas include Fleet Management, GPS Tracking, Mileage Logging, and Software-as-a-Service.
 
 
   The Automileab catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -520,7 +520,8 @@ overview: 'Automileab publishes 78 APIs on the [APIs.io](https://apis.io/) netwo
   Automileab''s developer surface includes authentication, documentation, getting-started guide, support, engineering blog, and 12 more developer resources.'
 random_paper: 3
 rules:
-- effective_rule_count: 49
+- authorship: generated
+  effective_rule_count: 49
   extends:
   - spectral:oas
   name: Automileab API Rules
@@ -538,14 +539,15 @@ scopes:
   summary_line: 2 scopes · implicit
 score:
   band: thin
-  composite: 37.2
+  composite: 37.3
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 18
     catalog_earned: 36.5
     catalog_earned_first_party: 0.0
     catalog_gap: 78.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.1
   facets:
     access_clarity: 21.1
     contract_governance: 18.2
@@ -553,6 +555,7 @@ score:
     developer_ergonomics: 40.5
     discoverability: 57.1
     operational_transparency: 0.0
+  previous_composite: 37.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -568,11 +571,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: flat
   upsert:
     applies: true
     score: 50.0
+screenshot: https://raw.githubusercontent.com/api-evangelist/automileab/refs/heads/main/screenshots/automileab-2026-10-11T100944.png
 security:
 - kind: authentication
   name: Automileab Authentication

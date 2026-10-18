@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -143,7 +143,7 @@ modified: '2026-08-08'
 name: BrightAI
 nav: Providers
 network: true
-overview: 'BrightAI publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Physical AI, Industrial IoT, Infrastructure Monitoring, and Predictive Maintenance.
+overview: 'BrightAI is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Physical AI, Industrial IoT, Infrastructure Monitoring, and Predictive Maintenance.
 
 
   BrightAI''s developer surface includes documentation, authentication, support, signup flow, and 13 more developer resources.'
@@ -178,8 +178,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 21.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

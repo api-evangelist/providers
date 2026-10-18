@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -110,6 +110,10 @@ collections:
   name: MLS Grid RESO Web API
   slug: open-mlsgrid-reso-web-api
 common:
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.mlsgrid.com/interest-form
 - group: company
   title: ''
   type: Website
@@ -349,9 +353,13 @@ features:
 - Per-minute import cadence where the originating MLS permits
 - Documented rate limits (2 RPS, 7,200/hour, 40,000/24h, 4 GB/hour) with HTTP 429 on violation
 finops:
-- name: Mlsgrid Finops
+- has_sources: false
+  method: generated
+  name: Mlsgrid Finops
+  primary_unit: ''
   service_category: ''
   slug: mlsgrid-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mlsgrid.png
 json_schemas:
 - name: MLS Grid Media
@@ -370,13 +378,13 @@ modified: '2026-09-17'
 name: Mlsgrid
 nav: Providers
 network: true
-overview: 'Mlsgrid publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Lookup API, Media API, Member API, and 4 more. Tagged areas include Real Estate, Property Listings, MLS, RESO, and Data Replication.
+overview: 'Mlsgrid publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Lookup API, Media API, Member API, and 4 more. Tagged areas include Real Estate, Property Listings, MLS, RESO, and Data Replication.
 
 
   The Mlsgrid catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Mlsgrid''s developer surface includes signup flow, FAQ, engineering blog, changelog, code examples, authentication, developer portal, and 42 more developer resources.'
+  Mlsgrid''s developer surface includes pricing, signup flow, FAQ, engineering blog, changelog, code examples, authentication, and 43 more developer resources.'
 plans:
 - name: Mlsgrid Plans Pricing
   plan_count: 2
@@ -387,9 +395,10 @@ rate_limits:
   name: Mlsgrid Rate Limits
   slug: mlsgrid-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Mlsgrid API Rules
+  name: Mlsgrid — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -397,7 +406,8 @@ rules:
     info: 1
     warn: 4
   slug: mlsgrid-jsonschema-spectral-rules
-- effective_rule_count: 46
+- authorship: unmarked
+  effective_rule_count: 46
   extends:
   - spectral:oas
   name: Mlsgrid API Rules
@@ -410,17 +420,17 @@ rules:
   slug: mlsgrid-rules
 score:
   band: strong
-  composite: 62.4
+  composite: 63.0
   coverage:
-    artifact_dirs: 28
-    catalog_earned: 86.0
+    artifact_dirs: 29
+    catalog_earned: 83.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 29.0
+    catalog_gap: 32.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
-    access_clarity: 63.2
+    access_clarity: 65.8
     contract_governance: 45.5
     contract_quality: 68.1
     developer_ergonomics: 58.9
@@ -443,8 +453,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

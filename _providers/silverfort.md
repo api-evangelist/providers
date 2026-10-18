@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'The Silverfort REST API (internally the "Raven" service) exposes user and resource risk read and write, service-account inventory and insights, policy control, and enrollment. Access is controlled by '
@@ -41,6 +41,10 @@ apis:
   slug: silverfort-rest-api
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.silverfort.com/feed/
 - group: design
   href: https://raw.githubusercontent.com/api-evangelist/silverfort/refs/heads/main/lifecycle/silverfort-lifecycle.yml
   title: ''
@@ -132,20 +136,20 @@ description: Silverfort is an identity security platform that protects human and
   reference is published only inside a customer-authenticated knowledge base, so no public machine-readable contract is available.
 image: https://www.silverfort.com/wp-content/uploads/2025/02/cropped-Silverfort-Symbol-Pos-RGB.png?w=192
 layout: provider
-modified: '2026-08-05'
+modified: '2026-10-06'
 name: Silverfort
 nav: Providers
 network: true
-overview: 'Silverfort publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Identity, Security, Authentication, and Multi-Factor Authentication.
+overview: 'Silverfort is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Identity, Security, Authentication, and Multi-Factor Authentication.
 
 
-  Silverfort''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, and 11 more developer resources.'
+  Silverfort''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, and 12 more developer resources.'
 random_paper: 4
 score:
   band: emerging
   composite: 25.7
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -181,8 +185,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 23.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

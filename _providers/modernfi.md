@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 46.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 37
   slug: modernfi-agentic-access
   summary_line: 37 operations · 19 acting
-api_count: 1
+api_count: 2
 apis:
 - baseURL: https://api.modernfi.com
   baseurl_source: declared
@@ -105,6 +105,14 @@ collections:
   name: API Reference Accounts Transactions API
   slug: open-modernfi-transactions-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://modernfi.com/insights
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://modernfi.com/insights/feed.xml
 - group: company
   title: ''
   type: Website
@@ -238,31 +246,31 @@ mcp_servers:
 - description: Official ModernFi documentation MCP server (Fern-hosted). Provides AI-powered search over the ModernFi developer documentation at docs.modernfi.com. This is a docs-search server, not a full API-operat
   name: ModernFi MCP Server
   slug: fern-docs-mcp-server
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: ModernFi
 nav: Providers
 network: true
-overview: 'ModernFi publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Auth API, Custom Benchmarks API, and 4 more. Tagged areas include Company, Banking, Deposits, Fintech, and Credit Union.
+overview: 'ModernFi publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, Auth API, Custom Benchmarks API, and 4 more. Tagged areas include Company, Banking, Deposits, Fintech, and Credit Union.
 
 
-  ModernFi''s developer surface includes documentation, API reference, getting-started guide, support, changelog, authentication, sandbox, and 20 more developer resources.'
+  ModernFi''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, changelog, authentication, and 22 more developer resources.'
 random_paper: 16
 score:
   band: developing
-  composite: 42.4
+  composite: 42.9
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 22
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 10.5
     contract_governance: 4.5
     contract_quality: 47.8
-    developer_ergonomics: 63.7
+    developer_ergonomics: 66.1
     discoverability: 71.7
     operational_transparency: 42.1
   previous_composite: 42.4
@@ -282,8 +290,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 22.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

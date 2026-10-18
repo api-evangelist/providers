@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 50.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -141,7 +141,7 @@ apis:
   description: Manage user accounts and profiles.
   name: GitBook Users API
   slug: gitbook-users-api
-artifact_total: 59
+artifact_total: 60
 asyncapis:
 - description: AsyncAPI specification for GitBook webhook events. GitBook emits webhook notifications when key events occur within organizations, spaces, pages, change requests, docs sites, collections, and user acc
   name: GitBook Webhook Events
@@ -211,6 +211,16 @@ collections:
   name: GitBook Change Request Content Users API
   slug: open-gitbook-users-api
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/gitbook/refs/heads/main/changelog/gitbook-changelog.yml
+  title: ''
+  type: ChangeLog
+  url: changelog/gitbook-changelog.yml
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/gitbook/refs/heads/main/scopes/gitbook-scopes.yml
+  title: ''
+  type: OAuthScopes
+  url: scopes/gitbook-scopes.yml
 - group: commercial
   href: https://raw.githubusercontent.com/api-evangelist/gitbook/refs/heads/main/finops/gitbook-finops.yml
   title: ''
@@ -411,9 +421,13 @@ common:
 created: '2025-01-08'
 description: GitBook is a documentation and knowledge platform, positioned as "the knowledge layer for AI", that connects a company's docs, product and users, answers user questions with AI, and identifies gaps in its knowledge. Teams write and publish product and API documentation with docs-as-code support and AI insights built in.
 finops:
-- name: Gitbook Finops
+- has_sources: false
+  method: generated
+  name: Gitbook Finops
+  primary_unit: ''
   service_category: API
   slug: gitbook-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/gitbook.png
 json_schemas:
 - name: GitBook Change Request
@@ -451,13 +465,13 @@ modified: '2026-05-19'
 name: GitBook
 nav: Providers
 network: true
-overview: 'GitBook publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Change Request Content API, Change Request Reviewers API, Change Requests API, and 16 more. Tagged areas include Content, Documentation, Experience, Integration, and Platform.
+overview: 'GitBook publishes 19 API contracts indexed on the [APIs.io](https://apis.io/) network, including Change Request Content API, Change Request Reviewers API, Change Requests API, and 16 more. Tagged areas include Content, Documentation, Experience, Integration, and Platform.
 
 
   The GitBook catalog on APIs.io includes 2 event-driven AsyncAPI specifications, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  GitBook''s developer surface includes CLI, support, documentation, authentication, pricing, engineering blog, signup flow, and 36 more developer resources.'
+  GitBook''s developer surface includes changelog, CLI, support, documentation, authentication, pricing, engineering blog, and 38 more developer resources.'
 plans:
 - name: Gitbook Plans Pricing
   plan_count: 3
@@ -468,10 +482,11 @@ rate_limits:
   name: Gitbook Rate Limits
   slug: gitbook-rate-limits
 rules:
-- effective_rule_count: 34
+- authorship: generated
+  effective_rule_count: 34
   extends:
   - spectral:asyncapi
-  name: GitBook API Rules
+  name: GitBook — asyncapi rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -479,9 +494,10 @@ rules:
     info: 1
     warn: 5
   slug: gitbook-asyncapi-spectral-rules
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: GitBook API Rules
+  name: GitBook — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -489,7 +505,8 @@ rules:
     info: 2
     warn: 3
   slug: gitbook-jsonschema-spectral-rules
-- effective_rule_count: 59
+- authorship: generated
+  effective_rule_count: 59
   extends:
   - spectral:oas
   name: GitBook API Rules
@@ -500,25 +517,30 @@ rules:
     info: 2
     warn: 1
   slug: gitbook-rules
+scopes:
+- name: Gitbook Scopes
+  scope_count: 29
+  slug: gitbook-scopes
+  summary_line: 29 scopes · authorizationCode
 score:
   band: strong
-  composite: 61.4
+  composite: 61.3
   coverage:
-    artifact_dirs: 31
-    catalog_earned: 60.8
+    artifact_dirs: 35
+    catalog_earned: 57.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 54.3
+    catalog_gap: 57.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 24.5
+  delta: 4.3
   facets:
-    access_clarity: 60.5
+    access_clarity: 52.6
     contract_governance: 35.6
     contract_quality: 68.4
     developer_ergonomics: 63.7
     discoverability: 66.7
     operational_transparency: 60.5
-  previous_composite: 36.9
+  previous_composite: 57.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -538,10 +560,10 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: rising
+    score: 34.3
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: flat
   upsert:
     applies: true
     score: 0.0

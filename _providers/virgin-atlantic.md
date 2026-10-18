@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 12
 apis:
 - description: IATA NDC 21.3 AirShopping message. Flight shopping and availability search returning Virgin Atlantic offers, including calendar and multi-city itineraries. Documented publicly on VS NDC Connect; no ba
@@ -248,7 +248,7 @@ modified: '2026-07-28'
 name: Virgin Atlantic
 nav: Providers
 network: true
-overview: 'Virgin Atlantic publishes 12 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Travel, United Kingdom, Aviation, Airlines, and Distribution.
+overview: 'Virgin Atlantic is listed with 12 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Travel, United Kingdom, Aviation, Airlines, and Distribution.
 
 
   The Virgin Atlantic catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -260,7 +260,7 @@ score:
   band: developing
   composite: 45.4
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 36.3
     catalog_earned_first_party: 0.0
     catalog_gap: 78.8
@@ -296,8 +296,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

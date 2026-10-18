@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.3
-  scored_at: '2026-10-04'
+  score: 24.4
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -184,6 +184,21 @@ collections:
   name: Kubernetes Autoscaling Workloads API
   slug: open-kubernetes-workloads-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/plans/kubernetes-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/kubernetes-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/rate-limits/kubernetes-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/kubernetes-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/finops/kubernetes-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/kubernetes-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/capabilities/kubernetes-capability-edges.yml
   title: ''
@@ -486,9 +501,13 @@ common:
 created: '2025-06-05'
 description: Kubernetes, also known as K8s, is an open source system for automating deployment, scaling, and management of containerized applications. It groups containers that make up an application into logical units for easy management and discovery. Kubernetes builds upon 15 years of experience of running production workloads at Google, combined with best-of-breed ideas and practices from the community.
 finops:
-- name: Kubernetes Finops
+- has_sources: false
+  method: generated
+  name: Kubernetes Finops
+  primary_unit: ''
   service_category: API
   slug: kubernetes-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kubernetes.png
 json_schemas:
 - name: Kubernetes Resource
@@ -504,13 +523,13 @@ modified: '2026-06-20'
 name: Kubernetes
 nav: Providers
 network: true
-overview: 'Kubernetes publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Autoscaling API, Cluster API, Config API, and 4 more. Tagged areas include Automation, Cloud-Native, CNCF, Containers, and Deployment.
+overview: 'Kubernetes publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Autoscaling API, Cluster API, Config API, and 4 more. Tagged areas include Automation, Cloud-Native, CNCF, Containers, and Deployment.
 
 
   The Kubernetes catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Kubernetes'' developer surface includes changelog, CLI, authentication, documentation, API reference, engineering blog, training material, and 59 more developer resources.'
+  Kubernetes'' developer surface includes changelog, CLI, authentication, documentation, API reference, engineering blog, training material, and 62 more developer resources.'
 plans:
 - name: Kubernetes Plans Pricing
   plan_count: 3
@@ -521,10 +540,11 @@ rate_limits:
   name: Kubernetes Rate Limits
   slug: kubernetes-rate-limits
 rules:
-- effective_rule_count: 32
+- authorship: generated
+  effective_rule_count: 32
   extends:
   - spectral:asyncapi
-  name: Kubernetes API Rules
+  name: Kubernetes — asyncapi rules
   rule_count: 5
   severity_counts:
     error: 1
@@ -532,9 +552,10 @@ rules:
     info: 0
     warn: 4
   slug: kubernetes-asyncapi-spectral-rules
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: Kubernetes API Rules
+  name: Kubernetes — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -544,17 +565,17 @@ rules:
   slug: kubernetes-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 49.7
+  composite: 48.3
   coverage:
-    artifact_dirs: 28
-    catalog_earned: 63.9
+    artifact_dirs: 31
+    catalog_earned: 60.9
     catalog_earned_first_party: 0.0
-    catalog_gap: 51.1
+    catalog_gap: 54.1
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.4
   facets:
-    access_clarity: 28.9
+    access_clarity: 21.1
     contract_governance: 18.2
     contract_quality: 69.9
     developer_ergonomics: 56.0
@@ -576,8 +597,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -595,7 +616,7 @@ security:
 - kind: vulnerability-disclosure
   name: Kubernetes Vulnerability Disclosure
   slug: kubernetes-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 slug: kubernetes
 tags:
 - Automation

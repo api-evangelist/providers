@@ -32,10 +32,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://trybeem.com/blog/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://trybeem.com/blog/feed/
 - group: company
   title: ''
   type: Website
@@ -82,20 +90,20 @@ created: '2026-07-17'
 description: Beem is a consumer fintech mobile app (trybeem.com) offering instant cash advances of up to $1,000 through its Everdraft feature with no credit check and no interest, alongside personal loans up to $100,000, high-yield savings accounts paying up to 5% APY, AI-powered budgeting, credit building, cashback rewards, identity-theft protection, and insurance products. It supports non-traditional income (gig, freelance, government benefits) and can transfer funds to Cash App or a bank account. Backed by Techstars and used by more than five million people, Beem is consumer-facing and does not publish a public developer API, SDK, or developer portal at this time. Added to the API Evangelist network as a company profile.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/beem.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Beem
 nav: Providers
 network: true
 overview: 'Beem is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Fintech, Consumer Finance, and Cash Advance.
 
 
-  Beem''s developer surface includes pricing, engineering blog, support, signup flow, and 6 more developer resources.'
+  Beem''s developer surface includes engineering blog, pricing, support, signup flow, and 8 more developer resources.'
 random_paper: 13
 score:
   band: emerging
   composite: 17.5
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -116,8 +124,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 15.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

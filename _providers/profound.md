@@ -35,15 +35,15 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 56.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 90
+- acting_count: 67
   human_in_the_loop: 0
   name: Profound Agentic Access
-  operation_count: 125
+  operation_count: 145
   slug: profound-agentic-access
-  summary_line: 125 operations · 90 acting
-api_count: 2
+  summary_line: 145 operations · 67 acting
+api_count: 4
 apis:
 - description: The inbound log-ingestion endpoint for Profound Agent Analytics. Customers POST batches of up to 1,000 web-request log entries as JSON (timestamp, method, host, path, status_code, ip, user_agent, plus
   name: Profound Agent Analytics Ingestion API
@@ -577,7 +577,7 @@ modified: '2026-09-16'
 name: Profound
 nav: Providers
 network: true
-overview: 'Profound publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Beta API, Bot Traffic Reports API, and 13 more. Tagged areas include Company, Artificial Intelligence, Answer Engine Optimization, AEO, and AI Search.
+overview: 'Profound publishes 16 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agents API, Beta API, Bot Traffic Reports API, and 13 more. Tagged areas include Company, Artificial Intelligence, Answer Engine Optimization, AEO, and AI Search.
 
 
   Profound''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 38 more developer resources.'
@@ -597,21 +597,21 @@ scopes:
   summary_line: 4 scopes · authorizationCode/deviceCode/refreshToken
 score:
   band: exemplar
-  composite: 66.7
+  composite: 67.3
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 57.0
+    artifact_dirs: 25
+    catalog_earned: 60.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 58.0
+    catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 75.0
     contract_governance: 4.5
     contract_quality: 49.3
     developer_ergonomics: 81.0
-    discoverability: 75.0
+    discoverability: 80.0
     operational_transparency: 65.8
   previous_composite: 66.7
   provenance:
@@ -630,8 +630,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 38.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

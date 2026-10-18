@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -106,6 +106,10 @@ collections:
   name: BitOasis Exchange Account Orders API
   slug: open-bitoasis-orders-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://bitoasis.net/blog/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/bitoasis/refs/heads/main/overlays/bitoasis-exchange-overlay.yaml
   title: ''
@@ -233,14 +237,14 @@ mcp_servers:
 - description: Official first-party MCP server that exposes the BitOasis cryptocurrency exchange API as tools for AI assistants. Published by BitOasis Technologies on PyPI as bitoasis-mcp (MIT). Runs locally over st
   name: BitOasis MCP Server
   slug: bitoasis
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: BitOasis
 nav: Providers
 network: true
-overview: 'BitOasis publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Account API, Coin Deposits API, Coin Withdrawals API, and 4 more. Tagged areas include Company, Crypto, Cryptocurrency, Exchange, and Trading.
+overview: 'BitOasis publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Coin Deposits API, Coin Withdrawals API, and 4 more. Tagged areas include Company, Cryptocurrency, Exchange, Trading, and Digital Assets.
 
 
-  BitOasis'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 19 more developer resources.'
+  BitOasis'' developer surface includes engineering blog, documentation, API reference, getting-started guide, support, authentication, sandbox, and 20 more developer resources.'
 random_paper: 4
 score:
   band: emerging
@@ -260,6 +264,11 @@ score:
     developer_ergonomics: 73.2
     discoverability: 73.2
     operational_transparency: 2.6
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - mena
   previous_composite: 24.9
   provenance:
     agentic_access: derived
@@ -277,8 +286,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 15.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -296,7 +305,6 @@ security:
 slug: bitoasis
 tags:
 - Company
-- Crypto
 - Cryptocurrency
 - Exchange
 - Trading

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Generate a website from a prompt, upload custom code, list/get/update/delete websites, deploy to a .chilledsites.com subdomain, generate images, videos and ad creative, check the token balance and tri
@@ -164,7 +164,7 @@ modified: '2026-09-19'
 name: ChilledSites
 nav: Providers
 network: true
-overview: 'ChilledSites publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Website Builder, Artificial Intelligence, No-Code, and Web Hosting.
+overview: 'ChilledSites is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Website Builder, Artificial Intelligence, No-Code, and Web Hosting.
 
 
   ChilledSites'' developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 20 more developer resources.'
@@ -179,15 +179,15 @@ rate_limits:
   slug: chilledsites-com-rate-limits
 score:
   band: thin
-  composite: 39.2
+  composite: 38.8
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 18
     catalog_earned: 61.0
     catalog_earned_first_party: 24.0
     catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.4
   facets:
     access_clarity: 76.3
     contract_governance: 0.0
@@ -209,17 +209,18 @@ score:
     skills: first-party
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 18.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/chilledsites-com/refs/heads/main/screenshots/chilledsites-com-2026-10-11T102902.png
 security:
 - kind: authentication
   name: Chilledsites Com Authentication

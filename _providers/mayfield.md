@@ -17,7 +17,7 @@ description: Mayfield Fund is an early-stage venture capital firm founded in 196
   Compaq. In 2023 the firm raised $955M across two new funds dedicated to early-stage investing.
 image: https://www.mayfield.com/wp-content/uploads/2023/01/mayfield-logo.png
 layout: provider
-modified: '2026-07-17'
+modified: '2026-10-06'
 name: Mayfield Fund
 nav: Providers
 network: true

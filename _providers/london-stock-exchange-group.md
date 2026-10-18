@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 24.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 48
+- acting_count: 40
   human_in_the_loop: 2
   name: London Stock Exchange Group Agentic Access
-  operation_count: 78
+  operation_count: 86
   slug: london-stock-exchange-group-agentic-access
-  summary_line: 78 operations · 48 acting · 2 human-in-the-loop
+  summary_line: 86 operations · 40 acting · 2 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://api-worldcheck.refinitiv.com/v2
@@ -329,16 +329,20 @@ common:
 created: '2024-04-14'
 description: London Stock Exchange Group plc is a United Kingdom-based stock exchange and financial information company headquartered in the City of London, England. LSEG provides capital markets, data and analytics, risk management, and post-trade services including the World-Check screening platform for KYC and anti-money-laundering due diligence.
 finops:
-- name: London Stock Exchange Group Finops
+- has_sources: false
+  method: generated
+  name: London Stock Exchange Group Finops
+  primary_unit: ''
   service_category: API
   slug: london-stock-exchange-group-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/london-stock-exchange-group.png
 layout: provider
 modified: '2026-07-22'
 name: London Stock Exchange Group
 nav: Providers
 network: true
-overview: 'London Stock Exchange Group publishes 15 APIs on the [APIs.io](https://apis.io/) network, including LSEG World-Check One Case API, LSEG World-Check One Media-Check API, LSEG World-Check One Smart Filter API, and 12 more. Tagged areas include Finance, Stock Exchange, Market Data, KYC, and Compliance.
+overview: 'London Stock Exchange Group publishes 15 API contracts indexed on the [APIs.io](https://apis.io/) network, including LSEG World-Check One Case API, LSEG World-Check One Media-Check API, LSEG World-Check One Smart Filter API, and 12 more. Tagged areas include Finance, Stock Exchange, Market Data, KYC, and Compliance.
 
 
   London Stock Exchange Group''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 27 more developer resources.'
@@ -353,17 +357,17 @@ rate_limits:
   slug: london-stock-exchange-group-rate-limits
 score:
   band: developing
-  composite: 47.3
+  composite: 45.8
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 46.0
+    artifact_dirs: 26
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 69.0
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 50.0
+    access_clarity: 42.1
     contract_governance: 4.5
     contract_quality: 45.9
     developer_ergonomics: 73.2
@@ -391,8 +395,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

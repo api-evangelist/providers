@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Software Advice provides software review data, ratings, and recommendations through their platform. As a Gartner subsidiary, Software Advice aggregates user reviews and expert analysis across 300+ sof
@@ -41,6 +41,21 @@ apis:
   slug: software-reviews-api
 artifact_total: 11
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/software-advice/refs/heads/main/plans/software-advice-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/software-advice-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/software-advice/refs/heads/main/rate-limits/software-advice-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/software-advice-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/software-advice/refs/heads/main/finops/software-advice-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/software-advice-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/software-advice/refs/heads/main/security/software-advice-vulnerability-disclosure.yml
   title: ''
@@ -118,9 +133,13 @@ examples:
   name: Software Advice Review Example
   slug: software-advice-review-example
 finops:
-- name: Software Advice Finops
+- has_sources: false
+  method: generated
+  name: Software Advice Finops
+  primary_unit: ''
   service_category: API
   slug: software-advice-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/software-advice.png
 json_schemas:
 - name: Software Advice Review
@@ -140,13 +159,13 @@ modified: '2026-05-02'
 name: Software Advice
 nav: Providers
 network: true
-overview: 'Software Advice publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include B2B, Software Recommendations, Software Reviews, Analytics, and Gartner.
+overview: 'Software Advice is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include B2B, Software Recommendations, Software Reviews, Analytics, and Gartner.
 
 
   The Software Advice catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Software Advice''s developer surface includes FAQ, engineering blog, YouTube channel, and 14 more developer resources.'
+  Software Advice''s developer surface includes FAQ, engineering blog, YouTube channel, and 17 more developer resources.'
 plans:
 - name: Software Advice Plans Pricing
   plan_count: 3
@@ -157,9 +176,10 @@ rate_limits:
   name: Software Advice Rate Limits
   slug: software-advice-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Software Advice API Rules
+  name: Software Advice — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -169,17 +189,17 @@ rules:
   slug: software-advice-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 25.3
+  composite: 23.8
   coverage:
     artifact_dirs: 13
-    catalog_earned: 59.2
+    catalog_earned: 56.2
     catalog_earned_first_party: 0.0
-    catalog_gap: 55.9
+    catalog_gap: 58.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 36.8
+    access_clarity: 28.9
     contract_governance: 23.5
     contract_quality: 17.9
     developer_ergonomics: 11.9
@@ -192,13 +212,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/software-advice/refs/heads/main/screenshots/software-advice-2026-10-11T194015.png
 security:
 - kind: domain-security
   name: Software Advice Domain Security

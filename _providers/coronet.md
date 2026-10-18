@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 16.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://api.secure.coro.net
@@ -47,6 +47,10 @@ asyncapis:
   name: Coro Public API Webhooks
   slug: coronet-webhooks-asyncapi
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.coro.net/feed
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/coronet/refs/heads/main/security/coronet-domain-security.yml
   title: ''
@@ -158,17 +162,17 @@ created: '2026-07-17'
 description: 'Coro (CoroNet) is a cybersecurity company delivering a unified, AI-native security platform for lean IT teams, growing organizations, and managed service providers (MSPs). A single platform and dashboard consolidate endpoint protection, email protection, network protection (ZTNA/VPN), cloud app security, data governance, and security awareness training. The Coro Public API lets service providers and developers build applications that integrate with the platform: it is organized around workspaces (regular, channel, and child tenants) and exposes endpoints for managing workspaces, subscriptions, portal users, protected users and devices, device licensing, tickets, audit logs, and usage. Authentication uses OAuth2 client-credential pairs exchanged for a 24-hour bearer token, and Coro publishes a webhook surface with HMAC-signed events for billing and workspace automation.'
 image: https://www.coro.net/wp-content/uploads/coro-opengraph.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: CoroNet
 nav: Providers
 network: true
-overview: 'CoroNet publishes 1 API on the [APIs.io](https://apis.io/) network: Coro Public API. Tagged areas include Company, Enterprise, Cybersecurity, Security, and Endpoint Security.
+overview: 'CoroNet is listed with 1 API on the [APIs.io](https://apis.io/) network: Coro Public API. Tagged areas include Company, Enterprise, Cybersecurity, Security, and Endpoint Security.
 
 
   The CoroNet catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  CoroNet''s developer surface includes documentation, API reference, getting-started guide, changelog, engineering blog, pricing, signup flow, and 17 more developer resources.'
+  CoroNet''s developer surface includes documentation, API reference, getting-started guide, changelog, engineering blog, pricing, signup flow, and 18 more developer resources.'
 random_paper: 14
 score:
   band: developing
@@ -198,8 +202,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

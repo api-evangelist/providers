@@ -34,10 +34,20 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 3
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/happy-health/refs/heads/main/plans/happy-health-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/happy-health-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/happy-health/refs/heads/main/rate-limits/happy-health-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/happy-health-rate-limits.yml
 - group: design
   href: https://raw.githubusercontent.com/api-evangelist/happy-health/refs/heads/main/conformance/happy-health-conformance.yml
   title: ''
@@ -121,7 +131,7 @@ network: true
 overview: 'Happy Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Healthcare, Digital Health, and Wearables.
 
 
-  Happy Health''s developer surface includes support, pricing, signup flow, and 10 more developer resources.'
+  Happy Health''s developer surface includes support, pricing, signup flow, and 12 more developer resources.'
 plans:
 - name: Happy Health Plans Pricing
   plan_count: 0
@@ -158,8 +168,8 @@ score:
     regime: Health
     regime_id: health
     score: 23.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://wiredscore.com/feed/
 - group: company
   title: ''
   type: Website
@@ -69,18 +73,18 @@ created: '2026-07-17'
 description: WiredScore is the global standard-setting organization for digital connectivity and smart technology in the built environment. It assesses, benchmarks, and certifies buildings through two programs — WiredScore (digital connectivity) and SmartScore (smart building technology) — across office, residential, industrial, and hotel asset types. Landlords, developers, and occupiers in more than 40 countries use its certifications and its network of Accredited Professionals to demonstrate that a building meets modern technology and connectivity expectations; over 4,000 buildings covering roughly one billion square feet have been certified. WiredScore is a portfolio company of Bessemer Venture Partners and Fifth Wall. As of this enrichment pass it publishes no public API, developer portal, OpenAPI specification, or SDK surface.
 image: https://wiredscore.com/wp-content/uploads/2021/01/tile-wide.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: WiredScore
 nav: Providers
 network: true
 overview: 'WiredScore is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Vertical Software, Real Estate, PropTech, and Building Certification.
 
 
-  WiredScore''s developer surface includes engineering blog, signup flow, support, and 4 more developer resources.'
+  WiredScore''s developer surface includes engineering blog, signup flow, support, and 5 more developer resources.'
 random_paper: 1
 score:
   band: emerging
-  composite: 12.8
+  composite: 12.9
   coverage:
     artifact_dirs: 4
     catalog_earned: 27.0
@@ -88,7 +92,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 34.2
     contract_governance: 0.0
@@ -103,8 +107,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

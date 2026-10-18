@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.0
-  scored_at: '2026-10-04'
+  score: 22.1
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 58
   human_in_the_loop: 2
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 116
   slug: 1nce-agentic-access
   summary_line: 116 operations · 58 acting · 2 human-in-the-loop
-api_count: 8
+api_count: 15
 apis:
 - baseURL: https://api.1nce.com/management-api
   baseurl_source: spec
@@ -511,9 +511,13 @@ features:
 - Freedom to Switch (eUICC remote SIM provisioning) on Industrial SIMs allowing customers to change carrier profiles
 - Self-service registration and provisioning workflow for new IoT projects with no monthly fee and a single upfront payment for the full subscription window
 finops:
-- name: 1Nce Finops
+- has_sources: true
+  method: generated
+  name: 1Nce Finops
+  primary_unit: sim
   service_category: Networking
   slug: 1nce-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/1nce.png
 json_schemas:
 - name: 1NCE Device
@@ -532,7 +536,7 @@ modified: '2026-05-25'
 name: 1NCE
 nav: Providers
 network: true
-overview: '1NCE publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Administration Logs API, Agreements API, Bearer Authorization API, and 19 more. Tagged areas include IoT, Connectivity, SIM, Cellular, and NB-IoT.
+overview: '1NCE publishes 22 API contracts indexed on the [APIs.io](https://apis.io/) network, including Administration Logs API, Agreements API, Bearer Authorization API, and 19 more. Tagged areas include IoT, Connectivity, SIM, Cellular, and NB-IoT.
 
 
   The 1NCE catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -549,9 +553,10 @@ rate_limits:
   name: 1Nce Rate Limits
   slug: 1nce-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: 1NCE API Rules
+  name: 1NCE — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -561,17 +566,17 @@ rules:
   slug: 1nce-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 48.9
+  composite: 44.7
   coverage:
-    artifact_dirs: 16
-    catalog_earned: 69.1
+    artifact_dirs: 17
+    catalog_earned: 61.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 45.9
+    catalog_gap: 53.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -3.5
+  delta: -4.2
   facets:
-    access_clarity: 70.5
+    access_clarity: 50.0
     contract_governance: 9.8
     contract_quality: 67.0
     developer_ergonomics: 48.8
@@ -585,7 +590,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 52.4
+  previous_composite: 48.9
   provenance:
     agentic_access: derived
     contracts:
@@ -599,8 +604,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 25.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -618,7 +623,7 @@ security:
 - kind: vulnerability-disclosure
   name: 1Nce Vulnerability Disclosure
   slug: 1nce-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 slug: 1nce
 tags:
 - IoT

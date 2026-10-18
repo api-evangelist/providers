@@ -1,8 +1,69 @@
 {
- "total": 6,
- "shown": 6,
+ "total": 7,
+ "shown": 7,
  "limit": 1000,
  "bands": [
+  {
+   "band": "strong",
+   "label": "Strong",
+   "range": "54.3 – 66.4",
+   "blurb": "Solid contracts, transparent operations, and an easy start.",
+   "count": 1,
+   "shown": 1,
+   "providers": [
+    {
+     "name": "Raiffeisenbank (Russia)",
+     "slug": "raiffeisen-ru",
+     "description": "Raiffeisenbank (AO Raiffeisenbank, Райффайзен Банк) is a Russian bank providing a full range of banking services to retail and corporate clients (mortgages, loans, deposits, business banking). Through its Raiffeisen API developer portal (developer.raiffeisen.ru) it publishes a catalog of public corporate banking APIs for payments, account statements, payroll, liquidity and FX, connectable directly from 1C or ERP systems, with OAuth 2.0 authentication, a sandbox and documentation; it also runs the separate Raif Pay API for merchant payments, and its Raiffeisen-DGTL GitHub organization publishes a REST API design guide with Spectral rules.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/raiffeisen-ru/refs/heads/main/screenshots/raiffeisen-ru-2026-10-11T113117.png",
+     "score": 63.2,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 81.7,
+      "contract_quality": 71.3,
+      "contract_governance": 76.5,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 63.7,
+      "access_clarity": 23.7
+     },
+     "scored_at": "2026-10-17",
+     "schema_version": "0.24.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 29.9,
+      "matched_via": "tags"
+     },
+     "agent_score": 46.4,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": "documented",
+      "auth_clarity": "bearer",
+      "idempotency": "documented",
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": true,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 1
+    }
+   ],
+   "open": true
+  },
   {
    "band": "developing",
    "label": "Developing",
@@ -16,19 +77,19 @@
      "slug": "avito",
      "description": "Avito is Russia's largest online classifieds platform (avito.ru), founded in 2007, where individuals and businesses buy and sell across goods, vehicles, real estate, jobs and services. For business sellers and integrators Avito publishes a public Developer Portal (developers.avito.ru) exposing 25 OpenAPI 3.0.0 REST APIs on api.avito.ru covering item/listing management, autoload feed ingestion, the buyer-seller messenger, delivery, order and stock management, ratings and reviews, advertising and CPA/promotion campaigns, short-term rental, jobs (Avito.Rabota), and Autoteka vehicle history. All APIs use OAuth 2.0 (authorization_code for acting on behalf of users, client_credentials for a business's own account) with scoped access and per-minute rate limiting.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/avito/refs/heads/main/screenshots/avito-2026-07-25T201949.png",
-     "score": 53.0,
+     "score": 51.7,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 78.6,
       "contract_quality": 48.0,
       "contract_governance": 16.4,
-      "operational_transparency": 45.3,
-      "developer_ergonomics": 56.5,
+      "operational_transparency": 31.6,
+      "developer_ergonomics": 58.9,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
+     "scored_at": "2026-10-17",
+     "schema_version": "0.24.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
@@ -59,7 +120,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 1
+     "rank": 2
     }
    ],
    "open": true
@@ -76,6 +137,7 @@
      "name": "OZON.ru",
      "slug": "ozonru",
      "description": "OZON is one of Russia's largest e-commerce marketplaces, offering retail across electronics, apparel, groceries, and more, plus its own logistics and fulfillment network (FBO/FBS). For developers, OZON exposes the OZON Seller API, a POST-based RPC-over-HTTP JSON API at https://api-seller.ozon.ru that lets marketplace sellers manage products, prices, stock, warehouses, orders, returns, analytics, and finances programmatically. Authentication uses two headers, a numeric Client-Id and a secret Api-Key issued in the seller cabinet. OZON was surfaced as a portfolio company of Index Ventures and enriched by the API Evangelist pipeline from live probes of its API host and public developer documentation.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ozonru/refs/heads/main/screenshots/ozonru-2026-10-11T192112.png",
      "score": 15.6,
      "band": "emerging",
      "band_label": "Emerging",
@@ -87,8 +149,8 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
+     "scored_at": "2026-10-17",
+     "schema_version": "0.24.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
@@ -119,13 +181,14 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 2
+     "rank": 3
     },
     {
      "name": "KupiVIP",
      "slug": "kupivip",
      "description": "KupiVIP (kupivip.ru) is a Russian online outlet retailer for luxury and premium fashion, selling women's and men's apparel, footwear, bags, accessories and home goods from more than 250 international designer brands at discounts of up to 90% on previous-season collections. The 1C-Bitrix storefront ships across Russia, publishes a 100% authenticity guarantee backed by expert verification, offers free delivery on orders over 30,000 RUB, and runs telephone, email, WhatsApp and Telegram customer support. The company was originally surfaced in the API Evangelist network as an Accel portfolio company. As of the 2026-07-19 enrichment probe KupiVIP publishes no public API, developer portal, SDK, or machine-readable interface of any kind.",
-     "score": 12.2,
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kupivip/refs/heads/main/screenshots/kupivip-2026-10-11T191048.png",
+     "score": 12.3,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
@@ -136,57 +199,8 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 13.7,
-      "matched_via": "fallback"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 3
-    },
-    {
-     "name": "Aviasales",
-     "slug": "aviasales",
-     "description": "Aviasales is a leading Russian online travel service that helps users find and purchase the cheapest airline tickets. The platform aggregates offers from over 2000 airlines, covering routes to more than 190 countries, and also provides hotel bookings, travel guides, and personalized travel experiences. It serves millions of travelers annually, offering price comparisons, flexible search options, and a user-friendly interface for planning trips.",
-     "score": 11.3,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 44.6,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 14.3,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
+     "scored_at": "2026-10-17",
+     "schema_version": "0.24.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
@@ -218,9 +232,58 @@
       "agentic_commerce": false
      },
      "rank": 4
+    },
+    {
+     "name": "Aviasales",
+     "slug": "aviasales",
+     "description": "Aviasales is a leading Russian online travel service that helps users find and purchase the cheapest airline tickets. The platform aggregates offers from over 2000 airlines, covering routes to more than 190 countries, and also provides hotel bookings, travel guides, and personalized travel experiences. It serves millions of travelers annually, offering price comparisons, flexible search options, and a user-friendly interface for planning trips.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/aviasales/refs/heads/main/screenshots/aviasales-2026-10-11T101149.png",
+     "score": 11.3,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 44.6,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 14.3,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-10-17",
+     "schema_version": "0.24.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 13.7,
+      "matched_via": "fallback"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 5
     }
-   ],
-   "open": true
+   ]
   },
   {
    "band": "minimal",
@@ -235,7 +298,7 @@
      "slug": "b2b-center",
      "description": "B2B-Center is one of Russia's largest electronic trading platforms (ETP) for business-to-business procurement, operating at b2b-center.ru. The platform hosts electronic tenders, auctions, and competitive sourcing procedures that connect corporate and commercial buyers with a broad network of suppliers across many industries. It provides tools for organizing purchases, publishing procurement notices, qualifying and managing suppliers, and running the full electronic bidding lifecycle. B2B-Center is backed by Insight Partners and is tracked in the API Evangelist network as a portfolio company awaiting deeper enrichment.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/b2b-center/refs/heads/main/screenshots/b2b-center-2026-07-25T202142.png",
-     "score": 2.5,
+     "score": 2.6,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -246,8 +309,8 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
+     "scored_at": "2026-10-17",
+     "schema_version": "0.24.0",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -278,14 +341,14 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 5
+     "rank": 6
     },
     {
      "name": "Lomonosov Moscow State University",
      "slug": "lomonosov-moscow-state-university",
      "description": "Lomonosov Moscow State University is a higher-education institution in Russian Federation. This profile is a STUB: it records the institution's identity only. No claim is made about its programmable surface -- what it operates, what a vendor operates on its behalf, and what it publishes have not yet been established. Run the university pipeline (all/0-working/pipeline-university.md) to profile it.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/lomonosov-moscow-state-university/refs/heads/main/screenshots/lomonosov-moscow-state-university-2026-09-02T150313.png",
-     "score": 1.7,
+     "score": 2.2,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -293,11 +356,11 @@
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
+      "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
+     "scored_at": "2026-10-17",
+     "schema_version": "0.24.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -328,7 +391,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 6
+     "rank": 7
     }
    ]
   }

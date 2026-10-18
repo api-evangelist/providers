@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: REST API for EU and UK VAT compliance including VAT rate lookups by country, VAT number validation against VIES and HMRC, currency conversion rates from HMRC and ECB, and generation of VAT-compliant i
@@ -89,16 +89,20 @@ common:
 created: '2026-06-13'
 description: EU and UK VAT compliance REST API providing VAT rate retrieval, VAT number validation via the European Commission VIES system and UK HMRC, currency conversion, and VAT-compliant invoice generation. Operated by Eventured Ltd and launched in 2015, it connects directly to authoritative EU and HMRC sources to deliver audit-ready consultation numbers and real-time rate data.
 finops:
-- name: Vatapi Finops
+- has_sources: false
+  method: generated
+  name: Vatapi Finops
+  primary_unit: ''
   service_category: ''
   slug: vatapi-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vatapi.png
 layout: provider
 modified: '2026-06-13'
 name: VAT API
 nav: Providers
 network: true
-overview: 'VAT API publishes 1 API on the [APIs.io](https://apis.io/) network: v2. Tagged areas include VAT, Tax, EU, United Kingdom, and Compliance.
+overview: 'VAT API is listed with 1 API on the [APIs.io](https://apis.io/) network: v2. Tagged areas include VAT, Tax, EU, United Kingdom, and Compliance.
 
 
   VAT API''s developer surface includes documentation, pricing, engineering blog, and 8 more developer resources.'
@@ -113,22 +117,22 @@ rate_limits:
   slug: vatapi-rate-limits
 score:
   band: emerging
-  composite: 21.3
+  composite: 13.0
   coverage:
     artifact_dirs: 8
-    catalog_earned: 61.6
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.4
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 46.8
+    access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
     discoverability: 66.1
-    operational_transparency: 33.7
+    operational_transparency: 13.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -144,9 +148,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.8
-  scored_at: '2026-10-04'
+  score: 22.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -157,6 +157,10 @@ collections:
   name: dotloop Public API v2
   slug: open-dotloop
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.dotloop.com/blog/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/dotloop/refs/heads/main/capabilities/dotloop-capability-edges.yml
   title: ''
@@ -216,19 +220,23 @@ common:
 created: '2026-07-04'
 description: dotloop is a real estate transaction management platform (owned by Zillow Group) that lets agents, teams, and brokerages create and manage transactions - called "loops" - end to end, including documents, e-signatures, tasks, participants, and compliance workflows. The dotloop Public API v2 is a documented, OAuth2-secured JSON REST API at https://api-gateway.dotloop.com/public/v2 that exposes accounts, profiles, loops and loop details, folders, documents, participants, tasks, activities, contacts, loop templates, and webhook subscriptions, plus a Loop-It facade for one-call loop creation.
 finops:
-- name: Dotloop Finops
+- has_sources: true
+  method: generated
+  name: Dotloop Finops
+  primary_unit: ''
   service_category: Business Applications
   slug: dotloop-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dotloop.png
 layout: provider
-modified: '2026-07-04'
+modified: '2026-10-06'
 name: dotloop
 nav: Providers
 network: true
-overview: 'dotloop publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Account API, Activities API, Contacts API, and 10 more. Tagged areas include Real Estate, Transaction Management, Loops, Documents, and E-Signature.
+overview: 'dotloop publishes 13 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Activities API, Contacts API, and 10 more. Tagged areas include Real Estate, Transaction Management, Loops, Documents, and E-Signature.
 
 
-  dotloop''s developer surface includes authentication, documentation, and 10 more developer resources.'
+  dotloop''s developer surface includes engineering blog, authentication, documentation, and 10 more developer resources.'
 plans:
 - name: Dotloop Plans Pricing
   plan_count: 4
@@ -245,22 +253,22 @@ scopes:
   summary_line: 8 scopes · authorizationCode
 score:
   band: thin
-  composite: 35.4
+  composite: 28.5
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 58.0
+    artifact_dirs: 14
+    catalog_earned: 42.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.0
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.9
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 51.2
-    developer_ergonomics: 28.6
+    developer_ergonomics: 31.0
     discoverability: 66.1
-    operational_transparency: 21.6
+    operational_transparency: 7.9
   previous_composite: 35.4
   provenance:
     agentic_access: derived
@@ -275,9 +283,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

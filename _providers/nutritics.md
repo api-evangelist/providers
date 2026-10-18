@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: REST API providing access to over one million foods including generic, branded, and recipe items, with up to 258 nutrient parameters, allergen information, and regional compliance datasets. JSON respo
@@ -41,6 +41,21 @@ apis:
   slug: food-data-api
 artifact_total: 5
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/nutritics/refs/heads/main/plans/nutritics-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/nutritics-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/nutritics/refs/heads/main/rate-limits/nutritics-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/nutritics-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/nutritics/refs/heads/main/finops/nutritics-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/nutritics-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/nutritics/refs/heads/main/security/nutritics-domain-security.yml
   title: ''
@@ -89,19 +104,23 @@ common:
 created: '2025-03-01'
 description: Nutritics provides a real-time food and nutrition data API offering access to over one million foods (generic, branded, and recipes), up to 258 nutrient parameters, allergen data, and regional compliance options across the EU, US, Australia, New Zealand, and South Africa.
 finops:
-- name: Nutritics Finops
+- has_sources: false
+  method: generated
+  name: Nutritics Finops
+  primary_unit: ''
   service_category: API
   slug: nutritics-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nutritics.png
 layout: provider
 modified: '2026-04-28'
 name: Nutritics
 nav: Providers
 network: true
-overview: 'Nutritics publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Nutrition, Food Data, Allergens, Calories, and Health.
+overview: 'Nutritics is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Nutrition, Food Data, Allergens, Calories, and Health.
 
 
-  Nutritics'' developer surface includes documentation, pricing, engineering blog, and 8 more developer resources.'
+  Nutritics'' developer surface includes documentation, pricing, engineering blog, and 11 more developer resources.'
 plans:
 - name: Nutritics Plans Pricing
   plan_count: 3
@@ -113,17 +132,17 @@ rate_limits:
   slug: nutritics-rate-limits
 score:
   band: emerging
-  composite: 17.1
+  composite: 15.6
   coverage:
     artifact_dirs: 7
-    catalog_earned: 41.0
+    catalog_earned: 38.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 43.4
+    access_clarity: 35.5
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
@@ -136,8 +155,8 @@ score:
     regime: Health
     regime_id: health
     score: 7.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.exeloncorp.com/newsroom
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/exelon/refs/heads/main/security/exelon-domain-security.yml
   title: ''
@@ -69,11 +73,14 @@ created: '2026-03-21'
 description: 'Exelon Corporation is one of the largest energy delivery companies in the United States, serving more than 10 million customers through its regulated electric and gas utility subsidiaries: Atlantic City Electric, BGE, ComEd, Delmarva Power, PECO, and Pepco. Headquartered in Chicago, Illinois, Exelon operates across multiple U.S. states. No public consumer-facing developer APIs have been identified for Exelon; customer self-service is conducted through utility portals.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/exelon.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-10-06'
 name: Exelon
 nav: Providers
 network: true
-overview: Exelon is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Utility, Electric, Gas, and Fortune 500.
+overview: 'Exelon is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Utility, Electric, Gas, and Fortune 500.
+
+
+  Exelon''s developer surface includes engineering blog and 7 more developer resources.'
 press:
 - date: ''
   title: Exelon Uses Synthetic Data Generation of Grid ...
@@ -93,7 +100,7 @@ press:
 random_paper: 13
 score:
   band: minimal
-  composite: 6.2
+  composite: 6.7
   coverage:
     artifact_dirs: 6
     catalog_earned: 27.0
@@ -101,12 +108,12 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 10.5
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 48.2
     operational_transparency: 0.0
   jurisdiction:
@@ -123,8 +130,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 8.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

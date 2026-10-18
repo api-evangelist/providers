@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -101,7 +101,7 @@ modified: '2026-07-20'
 name: PsyOptions
 nav: Providers
 network: true
-overview: 'PsyOptions is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto, DeFi, Solana, and Options.
+overview: 'PsyOptions is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cryptocurrency, DeFi, Solana, and Options.
 
 
   PsyOptions'' developer surface includes documentation and 12 more developer resources.'
@@ -135,8 +135,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 11.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -150,7 +150,7 @@ security:
 slug: psyoptions
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - DeFi
 - Solana
 - Options

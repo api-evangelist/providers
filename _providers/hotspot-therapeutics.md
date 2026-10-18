@@ -33,10 +33,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.hotspotthera.com/news/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.hotspotthera.com/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/hotspot-therapeutics/refs/heads/main/security/hotspot-therapeutics-domain-security.yml
   title: ''
@@ -84,14 +92,14 @@ created: '2026-08-22'
 description: 'HotSpot Therapeutics is a clinical-stage biopharmaceutical company headquartered in Boston, Massachusetts, pioneering allosteric drug discovery by targeting "natural hotspots" — the regulatory on/off switches on proteins. Its Smart Allostery platform combines AI-driven mining of large, diverse structural and biological data sets with a tailored pharmacology toolkit and bespoke medicinal chemistry to design first-in-class oral small molecules, and has been applied across E3 ligases, kinases and transcription factors. The company has raised roughly $190M across Series A, B and C financings and advanced its lead candidate HST-1011, an oral allosteric CBL-B inhibitor, into first-in-human dosing for cancer, alongside programs in autoimmune disease. HotSpot sells medicines and research collaborations, not software: it publishes no public developer program, API, SDK or machine-readable contract of any kind.'
 image: https://avatars.githubusercontent.com/u/105356575?v=4
 layout: provider
-modified: '2026-08-22'
+modified: '2026-10-06'
 name: HotSpot Therapeutics
 nav: Providers
 network: true
 overview: 'HotSpot Therapeutics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Pharmaceuticals, Drug Discovery, and Life Sciences.
 
 
-  HotSpot Therapeutics'' developer surface includes engineering blog and 6 more developer resources.'
+  HotSpot Therapeutics'' developer surface includes engineering blog and 8 more developer resources.'
 random_paper: 15
 score:
   band: minimal
@@ -125,8 +133,8 @@ score:
     regime: Health
     regime_id: health
     score: 10.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

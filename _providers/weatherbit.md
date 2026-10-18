@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.8
-  scored_at: '2026-10-04'
+  score: 23.6
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -200,6 +200,16 @@ collections:
   name: Weatherbit - Interactive Swagger UI Documentation 16 Day / Daily Forecast Sub-Hourly Historical Weather Data API
   slug: open-weatherbit-sub-hourly-historical-weather-data-api
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/weatherbit/refs/heads/main/rate-limits/weatherbit-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/weatherbit-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/weatherbit/refs/heads/main/finops/weatherbit-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/weatherbit-finops.yml
 - group: company
   title: ''
   type: Website
@@ -393,9 +403,13 @@ features:
 - description: Access data by lat/lon, city name, city ID, station ID, ICAO code, or postal code.
   name: Multiple Lookup Methods
 finops:
-- name: Weatherbit Finops
+- has_sources: true
+  method: generated
+  name: Weatherbit Finops
+  primary_unit: ''
   service_category: Weather Data API
   slug: weatherbit-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/weatherbit.png
 integrations:
 - description: Official Python SDK available on PyPI (pyweatherbit)
@@ -693,13 +707,13 @@ modified: '2026-09-16'
 name: Weatherbit
 nav: Providers
 network: true
-overview: 'Weatherbit publishes 22 APIs on the [APIs.io](https://apis.io/) network, including 16 Day / Daily Forecast API, 240 Hour / Hourly Forecast API, 60 Minute Rain/Snow Nowcast API, and 19 more. Tagged areas include Weather, Forecasting, Historical Data, Air Quality, and Alerts.
+overview: 'Weatherbit publishes 22 API contracts indexed on the [APIs.io](https://apis.io/) network, including 16 Day / Daily Forecast API, 240 Hour / Hourly Forecast API, 60 Minute Rain/Snow Nowcast API, and 19 more. Tagged areas include Weather, Forecasting, Historical Data, Air Quality, and Alerts.
 
 
   The Weatherbit catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Weatherbit''s developer surface includes FAQ, engineering blog, signup flow, and 14 more developer resources.'
+  Weatherbit''s developer surface includes FAQ, engineering blog, signup flow, and 16 more developer resources.'
 plans:
 - name: Weatherbit Plans Pricing
   plan_count: 6
@@ -710,9 +724,10 @@ rate_limits:
   name: Weatherbit Rate Limits
   slug: weatherbit-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Weatherbit API Rules
+  name: Weatherbit — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -720,7 +735,8 @@ rules:
     info: 1
     warn: 4
   slug: weatherbit-jsonschema-spectral-rules
-- effective_rule_count: 65
+- authorship: generated
+  effective_rule_count: 65
   extends:
   - spectral:oas
   name: Weatherbit API Rules
@@ -732,18 +748,18 @@ rules:
     warn: 14
   slug: weatherbit-spectral-rules
 score:
-  band: developing
-  composite: 40.6
+  band: thin
+  composite: 39.1
   coverage:
-    artifact_dirs: 16
-    catalog_earned: 66.0
+    artifact_dirs: 17
+    catalog_earned: 63.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 49.0
+    catalog_gap: 52.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 50.0
+    access_clarity: 42.1
     contract_governance: 27.3
     contract_quality: 50.8
     developer_ergonomics: 19.0
@@ -763,8 +779,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

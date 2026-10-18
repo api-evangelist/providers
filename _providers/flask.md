@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'Flask is a lightweight WSGI web application framework for Python. It is commonly used as a foundation for building HTTP APIs and web services. While Flask itself does not expose an HTTP API, it ships '
@@ -41,6 +41,21 @@ apis:
   slug: flask
 artifact_total: 7
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/flask/refs/heads/main/plans/flask-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/flask-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/flask/refs/heads/main/rate-limits/flask-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/flask-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/flask/refs/heads/main/finops/flask-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/flask-finops.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -105,9 +120,13 @@ common:
 created: '2026-03-26'
 description: Flask is a lightweight WSGI web application framework for Python, designed to make getting started quick and easy with the ability to scale up to complex applications. It provides a simple core with Jinja2 templating and Werkzeug WSGI toolkit, and is extensible through a rich ecosystem of extensions for database integration, form validation, authentication, and more. Flask is a popular foundation for building APIs and web services in Python.
 finops:
-- name: Flask Finops
+- has_sources: false
+  method: generated
+  name: Flask Finops
+  primary_unit: ''
   service_category: API
   slug: flask-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/flask.png
 json_schemas:
 - name: Flask Application Configuration
@@ -118,13 +137,13 @@ modified: '2026-04-28'
 name: Flask
 nav: Providers
 network: true
-overview: 'Flask publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Framework, Lightweight, Microframework, pallets, and Python.
+overview: 'Flask is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Framework, Lightweight, Microframework, pallets, and Python.
 
 
   The Flask catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Flask''s developer surface includes documentation, getting-started guide, engineering blog, changelog, and 11 more developer resources.'
+  Flask''s developer surface includes documentation, getting-started guide, engineering blog, changelog, and 14 more developer resources.'
 plans:
 - name: Flask Plans Pricing
   plan_count: 3
@@ -135,9 +154,10 @@ rate_limits:
   name: Flask Rate Limits
   slug: flask-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Flask API Rules
+  name: Flask — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -147,17 +167,17 @@ rules:
   slug: flask-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 23.1
+  composite: 21.7
   coverage:
     artifact_dirs: 9
-    catalog_earned: 49.7
+    catalog_earned: 46.7
     catalog_earned_first_party: 0.0
-    catalog_gap: 65.4
+    catalog_gap: 68.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.4
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 9.8
     contract_quality: 7.2
     developer_ergonomics: 23.8
@@ -173,8 +193,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

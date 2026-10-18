@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: TimeEngine (package name `mdtsdb`) is QOMPLX's multi-dimensional time-series database and analytics engine. It exposes an HTTP interface for event ingestion (`/api/v1/ingest`), query-language executio
@@ -132,7 +132,7 @@ modified: '2026-08-26'
 name: Qomplx
 nav: Providers
 network: true
-overview: 'Qomplx publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cybersecurity, Identity Threat Detection, Managed Detection and Response, and Attack Surface Management.
+overview: 'Qomplx is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cybersecurity, Identity Threat Detection, Managed Detection and Response, and Attack Surface Management.
 
 
   Qomplx''s developer surface includes authentication and 12 more developer resources.'
@@ -149,7 +149,7 @@ score:
   band: emerging
   composite: 11.0
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -173,8 +173,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 14.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

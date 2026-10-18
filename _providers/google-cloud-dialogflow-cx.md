@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.8
-  scored_at: '2026-10-04'
+  score: 22.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -97,6 +97,21 @@ collections:
   name: Google Cloud Dialogflow CX API
   slug: open-openapi
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-dialogflow-cx/refs/heads/main/plans/google-cloud-dialogflow-cx-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/google-cloud-dialogflow-cx-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-dialogflow-cx/refs/heads/main/rate-limits/google-cloud-dialogflow-cx-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/google-cloud-dialogflow-cx-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-dialogflow-cx/refs/heads/main/finops/google-cloud-dialogflow-cx-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/google-cloud-dialogflow-cx-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/google-cloud-dialogflow-cx/refs/heads/main/capabilities/google-cloud-dialogflow-cx-capability-edges.yml
   title: ''
@@ -183,9 +198,13 @@ common:
 created: '2026-03-13'
 description: Google Cloud Dialogflow CX is an advanced conversational AI platform for building complex virtual agents and chatbots. It provides a visual flow builder, advanced NLU capabilities, multi-turn conversation management, and seamless integration across channels including web, mobile, and telephony.
 finops:
-- name: Google Cloud Dialogflow Cx Finops
+- has_sources: false
+  method: generated
+  name: Google Cloud Dialogflow Cx Finops
+  primary_unit: ''
   service_category: API
   slug: google-cloud-dialogflow-cx-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/google-cloud-dialogflow-cx.png
 json_schemas:
 - name: Agent
@@ -201,13 +220,13 @@ modified: '2026-05-19'
 name: Google Cloud Dialogflow CX
 nav: Providers
 network: true
-overview: 'Google Cloud Dialogflow CX publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Flows API, Intents API, and 1 more. Tagged areas include Chatbots, Conversational AI, Dialogflow, Google Cloud, and NLU.
+overview: 'Google Cloud Dialogflow CX publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agents API, Flows API, Intents API, and 1 more. Tagged areas include Chatbots, Conversational AI, Dialogflow, Google Cloud, and Natural Language Understanding.
 
 
   The Google Cloud Dialogflow CX catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Google Cloud Dialogflow CX''s developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, support, and 13 more developer resources.'
+  Google Cloud Dialogflow CX''s developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, support, and 16 more developer resources.'
 plans:
 - name: Google Cloud Dialogflow Cx Plans Pricing
   plan_count: 3
@@ -218,9 +237,10 @@ rate_limits:
   name: Google Cloud Dialogflow Cx Rate Limits
   slug: google-cloud-dialogflow-cx-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Google Cloud Dialogflow CX API Rules
+  name: Google Cloud Dialogflow CX — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -235,17 +255,17 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: developing
-  composite: 41.3
+  composite: 39.3
   coverage:
     artifact_dirs: 16
-    catalog_earned: 59.7
+    catalog_earned: 56.7
     catalog_earned_first_party: 0.0
-    catalog_gap: 55.4
+    catalog_gap: 58.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.0
   facets:
-    access_clarity: 47.4
+    access_clarity: 39.5
     contract_governance: 9.8
     contract_quality: 54.2
     developer_ergonomics: 20.2
@@ -261,12 +281,12 @@ score:
       total: 4
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 40.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -291,7 +311,7 @@ tags:
 - Conversational AI
 - Dialogflow
 - Google Cloud
-- NLU
+- Natural Language Understanding
 - Virtual Agents
 website: https://www.google.com/
 ---

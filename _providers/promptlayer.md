@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 11
+- acting_count: 10
   human_in_the_loop: 0
   name: Promptlayer Agentic Access
   operation_count: 16
   slug: promptlayer-agentic-access
-  summary_line: 16 operations · 11 acting
+  summary_line: 16 operations · 10 acting
 api_count: 1
 apis:
 - baseURL: https://api.promptlayer.com
@@ -85,6 +85,14 @@ collections:
   name: PromptLayer API
   slug: open-promptlayer
 common:
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.promptlayer.com/pricing/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.promptlayer.com/rss/
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/promptlayer/refs/heads/main/agentic-access/promptlayer-agentic-access.yml
   title: ''
@@ -134,46 +142,50 @@ common:
 created: '2026-06-20'
 description: PromptLayer is a prompt engineering, prompt management, and LLM observability platform. Its REST API logs and tracks LLM requests, manages a versioned prompt registry with release labels, ingests OpenTelemetry-style spans and traces, and runs evaluations and datasets so teams can monitor, debug, and improve their LLM applications.
 finops:
-- name: Promptlayer Finops
+- has_sources: true
+  method: generated
+  name: Promptlayer Finops
+  primary_unit: ''
   service_category: AI and Machine Learning
   slug: promptlayer-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/promptlayer.png
 layout: provider
-modified: '2026-06-20'
+modified: '2026-10-06'
 name: PromptLayer
 nav: Providers
 network: true
-overview: 'PromptLayer publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Evaluations & Datasets API, Logging & Tracking API, Prompt Registry API, and 1 more. Tagged areas include Artificial Intelligence, LLM, Prompt Engineering, Prompt Management, and Observability.
+overview: 'PromptLayer publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Evaluations & Datasets API, Logging & Tracking API, Prompt Registry API, and 1 more. Tagged areas include Artificial Intelligence, LLM, Prompt Engineering, Prompt Management, and Observability.
 
 
-  PromptLayer''s developer surface includes authentication, documentation, and 8 more developer resources.'
+  PromptLayer''s developer surface includes pricing, authentication, documentation, and 9 more developer resources.'
 plans:
 - name: Promptlayer Plans Pricing
   plan_count: 4
   slug: promptlayer-plans-pricing
 random_paper: 5
 rate_limits:
-- limit_count: 6
+- limit_count: 1
   name: Promptlayer Rate Limits
   slug: promptlayer-rate-limits
 score:
   band: thin
-  composite: 37.8
+  composite: 38.1
   coverage:
-    artifact_dirs: 10
-    catalog_earned: 61.6
-    catalog_earned_first_party: 0.0
-    catalog_gap: 53.4
+    artifact_dirs: 12
+    catalog_earned: 57.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.3
   facets:
-    access_clarity: 36.3
+    access_clarity: 42.1
     contract_governance: 0.0
     contract_quality: 50.2
     developer_ergonomics: 29.8
     discoverability: 66.1
-    operational_transparency: 31.1
+    operational_transparency: 23.7
   previous_composite: 37.8
   provenance:
     agentic_access: derived
@@ -188,8 +200,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

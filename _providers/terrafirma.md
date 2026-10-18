@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://terrafirma.inc/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/terrafirma/refs/heads/main/security/terrafirma-domain-security.yml
   title: ''
@@ -61,26 +65,26 @@ created: '2026-07-17'
 description: TerraFirma, Inc. is a construction technology and physical-AI company building the robotic infrastructure stack for modern heavy-civil construction. Founded in 2024 by former SpaceX engineers and based in Austin, Texas, it combines AI-enabled pre-construction software (Mission Planner), a remote command-and-control center (Mission Control), and retrofitted semi-autonomous heavy machinery — excavators, bulldozers, loaders, graders and rollers operated autonomously, remotely, or traditionally. The company raised roughly $115M including a $100M Series A led by Kleiner Perkins with Bain Capital Ventures. TerraFirma publishes no public developer/API surface as of this enrichment pass.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/terrafirma.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: TerraFirma
 nav: Providers
 network: true
 overview: 'TerraFirma is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Physical AI, Robotics, Construction, and Autonomous Systems.
 
 
-  TerraFirma''s developer surface includes support and 4 more developer resources.'
+  TerraFirma''s developer surface includes support and 5 more developer resources.'
 random_paper: 13
 score:
   band: minimal
-  composite: 9.7
+  composite: 9.8
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
@@ -102,8 +106,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

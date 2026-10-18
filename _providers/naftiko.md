@@ -36,9 +36,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 9.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
-artifact_total: 5
+artifact_total: 6
 common:
 - group: company
   title: ''
@@ -180,6 +180,10 @@ common:
   title: ''
   type: PrivacyPolicy
   url: https://naftiko.io/legal/privacy/
+- group: design
+  title: ''
+  type: SpectralRules
+  url: https://github.com/naftiko/polychro/blob/3e2e37bb9cebc846f3f204bd4eda7072b0b34063/modules/polychro-rulesets/src/main/resources/rulesets/openapi.yml
 created: '2026-08-17'
 description: 'Naftiko builds spec-driven integration software for AI agents. Its two Apache 2.0 Java engines — Ikanos, a capability engine, and Polychro, a polyglot spec linter — let a team declare a slice of its business in a single YAML capability file and serve it simultaneously over MCP, Agent Skill, REST and a Control port without writing or compiling code. A capability consumes the HTTP APIs an organisation already has, structures their responses into clean JSON, then aggregates and orchestrates those operations into one governed contract for agents, applications and partners. Naftiko operates no hosted API of its own: it distributes software customers run on their own infrastructure, so this profile catalogs a published JSON Schema, a governance ruleset, a CLI, container images and Maven artifacts rather than endpoints and API keys. Four editions are published — Community (free forever, Apache 2.0), Developer and Team (managed hosting, in development) and Enterprise (Warden and Skipper,
   design partners) — none of them carrying a published price.'
@@ -196,10 +200,10 @@ network: true
 overview: 'Naftiko is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Data, API Integration, API Governance, and MCP.
 
 
-  The Naftiko catalog on APIs.io includes 1 Spectral governance ruleset.
+  The Naftiko catalog on APIs.io includes 2 Spectral governance rulesets.
 
 
-  Naftiko''s developer surface includes documentation, API reference, getting-started guide, CLI, changelog, pricing, support, and 25 more developer resources.'
+  Naftiko''s developer surface includes documentation, API reference, getting-started guide, CLI, changelog, pricing, support, and 26 more developer resources.'
 plans:
 - name: Naftiko Plans Pricing
   plan_count: 4
@@ -210,9 +214,10 @@ rate_limits:
   name: Naftiko Rate Limits
   slug: naftiko-rate-limits
 rules:
-- effective_rule_count: 33
+- authorship: provider
+  effective_rule_count: 33
   extends: []
-  name: Naftiko API Rules
+  name: Naftiko — ikanos rules
   rule_count: 33
   severity_counts:
     error: 14
@@ -220,20 +225,31 @@ rules:
     info: 3
     warn: 16
   slug: naftiko-ikanos-ruleset
+- authorship: provider
+  effective_rule_count: 13
+  extends: []
+  name: Naftiko — polychro rules
+  rule_count: 13
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 0
+    warn: 13
+  slug: naftiko-polychro-spectral-rules
 score:
-  band: developing
-  composite: 40.1
+  band: thin
+  composite: 35.9
   coverage:
     artifact_dirs: 20
-    catalog_earned: 55.2
+    catalog_earned: 43.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 59.8
+    catalog_gap: 71.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -4.2
   facets:
     access_clarity: 63.2
-    contract_governance: 67.3
+    contract_governance: 31.8
     contract_quality: 0.0
     developer_ergonomics: 50.0
     discoverability: 48.3
@@ -249,8 +265,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

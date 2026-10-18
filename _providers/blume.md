@@ -33,10 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.blume.com/blogs/blume-university.atom
 - group: company
   title: ''
   type: Website
@@ -107,20 +111,20 @@ mcp_servers:
 - description: Remote MCP server at www.blume.com over HTTP; 5 tools listed.
   name: Blume MCP Server
   slug: blume-ucp-shopping
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Blume
 nav: Providers
 network: true
 overview: 'Blume is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Skincare, Beauty, Self-Care, and E-Commerce.
 
 
-  Blume''s developer surface includes documentation, engineering blog, support, signup flow, authentication, and 9 more developer resources.'
+  Blume''s developer surface includes documentation, engineering blog, support, signup flow, authentication, and 10 more developer resources.'
 random_paper: 5
 score:
   band: emerging
   composite: 22.7
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -145,8 +149,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

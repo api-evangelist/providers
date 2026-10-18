@@ -29,7 +29,7 @@ tags:
 - Series B
 - Growth Equity
 - Fintech
-- Crypto
+- Cryptocurrency
 - Artificial Intelligence
 - Insurtech
 - Financial Services

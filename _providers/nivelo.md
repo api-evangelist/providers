@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Nivelo's real-time ACH return-risk scoring API. A RESTful endpoint that accepts ACH transaction data as JSON and returns a risk score and a prediction of the likelihood of an ACH return, so originator
@@ -42,6 +42,10 @@ apis:
   slug: nivelo-scorer-api
 artifact_total: 5
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://nivelo.io/blog
 - group: company
   title: ''
   type: Website
@@ -123,31 +127,31 @@ created: '2026-07-17'
 description: Nivelo is a New York City fintech that operates a payments risk and money-movement platform for the payroll industry, serving payment service providers (PSPs) and professional employer organizations (PEOs). Nivelo provides real-time payment risk intelligence and automated money movement across ACH, Wires, RTP, and FedNow rails, with capabilities including NSF (non-sufficient funds) prevention, ACH returns management, KYB and fraud monitoring, and treasury management. Its products include Exposure Scan (payment-risk identification), the Scorer Engine (a real-time ACH return-risk scoring API that predicts the likelihood of an ACH transaction failing before origination), and Instant Payroll (instant debits with auto-routing across payment rails to reduce failed payroll disbursements). Nivelo was founded in 2020 by Eli Polanco and Philippe Legault and raised a $2.5M seed round led by FirstMark, Barclays, and Anthemis.
 image: https://nivelo.io/
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Nivelo
 nav: Providers
 network: true
-overview: 'Nivelo publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, ACH, Fintech, and Payroll.
+overview: 'Nivelo is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, ACH, Fintech, and Payroll.
 
 
-  Nivelo''s developer surface includes signup flow, support, authentication, and 15 more developer resources.'
+  Nivelo''s developer surface includes engineering blog, signup flow, support, authentication, and 15 more developer resources.'
 random_paper: 15
 score:
   band: emerging
-  composite: 24.6
+  composite: 25.1
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 50.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 16.7
+    developer_ergonomics: 19.0
     discoverability: 66.1
     operational_transparency: 26.3
   previous_composite: 24.6
@@ -157,8 +161,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 27.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

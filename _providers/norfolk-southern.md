@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.0
-  scored_at: '2026-10-04'
+  score: 17.8
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -79,6 +79,21 @@ collections:
   name: Norfolk Southern Shipment Status Gate Receipts Trip Plan API
   slug: open-norfolk-southern-trip-plan-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/norfolk-southern/refs/heads/main/plans/norfolk-southern-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/norfolk-southern-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/norfolk-southern/refs/heads/main/rate-limits/norfolk-southern-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/norfolk-southern-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/norfolk-southern/refs/heads/main/finops/norfolk-southern-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/norfolk-southern-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/norfolk-southern/refs/heads/main/capabilities/norfolk-southern-capability-edges.yml
   title: ''
@@ -121,19 +136,23 @@ common:
 created: '2025-03-01'
 description: Norfolk Southern Corporation is one of the nation's premier transportation companies, operating approximately 19,300 route miles in 22 states and the District of Columbia. Norfolk Southern offers an API Resource Platform (ApiHub) providing real-time visibility into shipment status, trip plans, and gate receipts.
 finops:
-- name: Norfolk Southern Finops
+- has_sources: true
+  method: generated
+  name: Norfolk Southern Finops
+  primary_unit: ''
   service_category: Freight Rail / Logistics
   slug: norfolk-southern-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/norfolk-southern.png
 layout: provider
 modified: '2026-05-19'
 name: Norfolk Southern
 nav: Providers
 network: true
-overview: 'Norfolk Southern publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Gate Receipts API, Shipment Status API, Trip Plan API, and 2 more. Tagged areas include Freight, Logistics, Railroad, Shipping, and Transportation.
+overview: 'Norfolk Southern publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Gate Receipts API, Shipment Status API, Trip Plan API, and 2 more. Tagged areas include Freight, Logistics, Railroad, Shipping, and Transportation.
 
 
-  Norfolk Southern''s developer surface includes developer portal, support, and 7 more developer resources.'
+  Norfolk Southern''s developer surface includes developer portal, support, and 10 more developer resources.'
 plans:
 - name: Norfolk Southern Plans Pricing
   plan_count: 1
@@ -161,17 +180,17 @@ rate_limits:
   slug: norfolk-southern-rate-limits
 score:
   band: emerging
-  composite: 20.8
+  composite: 22.0
   coverage:
     artifact_dirs: 13
-    catalog_earned: 39.0
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 61.0
-    catalog_max: 100.0
+    catalog_gap: 74.0
+    catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.2
   facets:
-    access_clarity: 0.0
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 47.1
     developer_ergonomics: 14.3
@@ -191,8 +210,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

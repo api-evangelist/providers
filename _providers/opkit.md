@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -144,16 +144,20 @@ common:
 created: '2026-06-21'
 description: Opkit was a healthcare automation company that built an automated health insurance verification platform purpose-built for telehealth companies and virtual medical practices. The Opkit REST API let engineering teams run insurance eligibility checks, read benefits, look up payers, manage patients, and receive webhook events programmatically. Opkit (YC S21) later pivoted to a generative-AI healthcare call center and was acqui-hired by 11x in late 2024, after which the platform was wound down. This catalog documents the API as it was publicly described while it was operating.
 finops:
-- name: Opkit Finops
+- has_sources: true
+  method: generated
+  name: Opkit Finops
+  primary_unit: ''
   service_category: Healthcare and Insurance Verification
   slug: opkit-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/opkit.png
 layout: provider
 modified: '2026-06-21'
 name: Opkit
 nav: Providers
 network: true
-overview: 'Opkit publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Benefits API, Eligibility Inquiries API, Patients API, and 2 more. Tagged areas include Healthcare, Insurance, Eligibility, Benefits, and Verification.
+overview: 'Opkit publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Benefits API, Eligibility Inquiries API, Patients API, and 2 more. Tagged areas include Healthcare, Insurance, Eligibility, Benefits, and Verification.
 
 
   Opkit''s developer surface includes authentication, documentation, and 8 more developer resources.'
@@ -171,9 +175,9 @@ score:
   composite: 0.0
   coverage:
     artifact_dirs: 10
-    catalog_earned: 54.4
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 60.6
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
@@ -199,8 +203,8 @@ score:
     regime: Health
     regime_id: health
     score: 9.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

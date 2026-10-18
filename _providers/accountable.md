@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL_template: https://{node}
@@ -67,29 +67,33 @@ collections:
 common:
 - group: company
   title: ''
+  type: BlogRSS
+  url: https://blog.accountable.capital/feed/
+- group: company
+  title: ''
   type: Website
   url: https://accountable.capital/
 created: '2026-07-17'
 description: 'Accountable is a company surfaced as a portfolio company of pantera-capital and added to the API Evangelist network as a stub for enrichment. Sector: crypto. This profile is a lead awaiting the enrichment pipeline.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/accountable.png
 layout: provider
-modified: '2026-07-17'
+modified: '2026-10-06'
 name: Accountable
 nav: Providers
 network: true
-overview: 'Accountable publishes 3 APIs on the [APIs.io](https://apis.io/) network: NAV API, Proof of Reserves API, and Redemption API. Tagged areas include Company and Crypto.'
+overview: 'Accountable publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: NAV API, Proof of Reserves API, and Redemption API. Tagged areas include Company and Cryptocurrency.'
 random_paper: 9
 score:
   band: minimal
-  composite: 5.2
+  composite: 5.3
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 18
     catalog_earned: 22.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 100.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
@@ -110,16 +114,17 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 0.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
     reason: read_only
+screenshot: https://raw.githubusercontent.com/api-evangelist/accountable/refs/heads/main/screenshots/accountable-2026-10-11T092725.png
 slug: accountable
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 website: https://accountable.capital/
 ---

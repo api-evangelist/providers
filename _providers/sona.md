@@ -32,10 +32,19 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
-artifact_total: 1
+artifact_total: 2
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sona/refs/heads/main/plans/sona-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/sona-plans-pricing.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.sona.ai/blog/rss.xml
 - group: company
   title: ''
   type: Website
@@ -61,20 +70,24 @@ created: '2026-07-17'
 description: Sona is an AI-powered workforce management platform for large, multi-site organizations in hospitality, hotels, care, retail, and logistics. It unifies labor demand forecasting, autonomous staff scheduling, core HR (onboarding, absence, training), and payroll automation, with a Raffy AI assistant that guides manager decisions plus real-time analytics across locations. Sona ships 95+ pre-built integrations (ATS, POS, LMS, tipping, earned-wage-access, and care-planning systems) and advertises a private API for building bespoke integrations, though it publishes no public developer portal, API reference, or OpenAPI at this time. Added to the API Evangelist network as a VC-portfolio lead (Northzone, Polychain, Speedinvest) and enriched via the local pipeline.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sona.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Sona
 nav: Providers
 network: true
 overview: 'Sona is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Workforce Management, Human Resources, Scheduling, and Payroll.
 
 
-  Sona''s developer surface includes pricing, engineering blog, and 3 more developer resources.'
+  Sona''s developer surface includes pricing, engineering blog, and 5 more developer resources.'
+plans:
+- name: Sona Plans Pricing
+  plan_count: 0
+  slug: sona-plans-pricing
 random_paper: 15
 score:
   band: minimal
   composite: 8.1
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -95,8 +108,8 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 9.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

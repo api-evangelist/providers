@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 16.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: The MCP server the BoltMCP Helm chart deploys into the customer's own Kubernetes cluster. Customers define their own servers and tools through the BoltMCP dashboard, so the tool surface is tenant-defi
@@ -144,7 +144,7 @@ modified: '2026-09-14'
 name: BoltMCP
 nav: Providers
 network: true
-overview: 'BoltMCP publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, MCP, Agents, Artificial Intelligence, and Kubernetes.
+overview: 'BoltMCP is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, MCP, Agents, Artificial Intelligence, and Kubernetes.
 
 
   BoltMCP''s developer surface includes documentation, getting-started guide, engineering blog, authentication, changelog, sandbox, and 15 more developer resources.'
@@ -164,15 +164,15 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: emerging
-  composite: 22.7
+  composite: 22.8
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 0.0
     contract_governance: 18.2
@@ -191,13 +191,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/boltmcp/refs/heads/main/screenshots/boltmcp-2026-10-11T102524.png
 security:
 - kind: authentication
   name: Boltmcp Authentication

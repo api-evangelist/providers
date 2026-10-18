@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 40.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: Bulk export API for LeanKit / Planview AgilePlace reporting data — cards, card lane positions, blocked card history, comments, connections, lanes, tags, and user assignments — consumed from Excel, Pow
@@ -315,6 +315,10 @@ collections:
   name: Planview AgilePlace API (LeanKit) v2 account users API
   slug: open-leankit-users-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.planview.com/feed/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/leankit/refs/heads/main/capabilities/leankit-capability-edges.yml
   title: ''
@@ -492,29 +496,29 @@ created: '2026-07-17'
 description: LeanKit is the enterprise Kanban platform now shipped by Planview as Planview AgilePlace, used to visually track and manage the flow of work from strategy to delivery across boards, lanes, cards, taskboards, and connected parent/child hierarchies. LeanKit exposes a documented RESTful v2 API at https://<yourhostname>.leankit.com/io/ covering boards, cards, lanes, comments, attachments, card types, custom fields, custom icons, tags, teams, users, board filters, connections, dependencies, planning series and increments, and board automations, plus a SCIM 1.1 User Provisioning API and an Advanced Reporting export API. Authentication is Basic or Bearer API token, responses are JSON, list endpoints page with limit/offset, and every response carries X-RateLimit-* headers. LeanKit was acquired by Planview in 2017 and the product was renamed Planview AgilePlace; the leankit.com host remains the per-account API and application domain.
 image: https://www.planview.com/wp-content/uploads/2023/06/planview-logo.svg
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: LeanKit
 nav: Providers
 network: true
-overview: 'LeanKit publishes 25 APIs on the [APIs.io](https://apis.io/) network, including Account API, Attachment API, Automation API, and 22 more. Tagged areas include Company, Kanban, Project Management, Agile, and Work Management.
+overview: 'LeanKit publishes 25 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Attachment API, Automation API, and 22 more. Tagged areas include Company, Kanban, Project Management, Agile, and Work Management.
 
 
   The LeanKit catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  LeanKit''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 31 more developer resources.'
+  LeanKit''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 32 more developer resources.'
 random_paper: 18
 score:
   band: strong
-  composite: 61.3
+  composite: 61.4
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 23
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 60.5
     contract_governance: 18.2
@@ -538,8 +542,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

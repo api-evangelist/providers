@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 11
+- acting_count: 1
   human_in_the_loop: 0
   name: Workday Studio Agentic Access
-  operation_count: 22
+  operation_count: 23
   slug: workday-studio-agentic-access
-  summary_line: 22 operations · 11 acting
+  summary_line: 23 operations · 1 acting
 api_count: 2
 apis:
 - description: RESTful API providing modern JSON-based access to Workday data and services. Uses OAuth 2.0 authentication and standard HTTP methods for operations across HCM, financial management, recruiting, payrol
@@ -230,6 +230,21 @@ collections:
   name: Workday Studio Workday Web Services API
   slug: open-workday-studio-web-services
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/workday-studio/refs/heads/main/plans/workday-studio-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/workday-studio-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/workday-studio/refs/heads/main/rate-limits/workday-studio-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/workday-studio-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/workday-studio/refs/heads/main/finops/workday-studio-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/workday-studio-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/workday-studio/refs/heads/main/capabilities/workday-studio-capability-edges.yml
   title: ''
@@ -376,9 +391,13 @@ features:
 - description: Integrations are deployed against tenant-specific endpoints with environment isolation between sandbox and production tenants.
   name: Tenant-Based Deployment
 finops:
-- name: Workday Studio Finops
+- has_sources: true
+  method: generated
+  name: Workday Studio Finops
+  primary_unit: ''
   service_category: HR / Finance SaaS
   slug: workday-studio-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/workday-studio.png
 integrations:
 - description: Workday Studio runs as an Eclipse-based plug-in providing the development surface for building integrations.
@@ -527,13 +546,13 @@ modified: '2026-05-19'
 name: Workday Studio
 nav: Providers
 network: true
-overview: 'Workday Studio publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Absence Management API, Benefits Administration API, Compensation API, and 15 more. Tagged areas include Cloud, Developer Tools, Development, Enterprise, and Finance.
+overview: 'Workday Studio publishes 18 API contracts indexed on the [APIs.io](https://apis.io/) network, including Absence Management API, Benefits Administration API, Compensation API, and 15 more. Tagged areas include Cloud, Developer Tools, Development, Enterprise, and Finance.
 
 
   The Workday Studio catalog on APIs.io includes 2 Spectral governance rulesets.
 
 
-  Workday Studio''s developer surface includes authentication, developer portal, developer console, signup flow, documentation, getting-started guide, API reference, and 22 more developer resources.'
+  Workday Studio''s developer surface includes authentication, developer portal, developer console, signup flow, documentation, getting-started guide, API reference, and 25 more developer resources.'
 plans:
 - name: Workday Studio Plans Pricing
   plan_count: 1
@@ -544,9 +563,10 @@ rate_limits:
   name: Workday Studio Rate Limits
   slug: workday-studio-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Workday Studio API Rules
+  name: Workday Studio — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -554,7 +574,8 @@ rules:
     info: 2
     warn: 3
   slug: workday-studio-jsonschema-spectral-rules
-- effective_rule_count: 108
+- authorship: generated
+  effective_rule_count: 108
   extends:
   - spectral:oas
   name: Workday Studio API Rules
@@ -572,17 +593,17 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: developing
-  composite: 48.1
+  composite: 46.5
   coverage:
     artifact_dirs: 19
-    catalog_earned: 43.0
+    catalog_earned: 40.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 72.0
+    catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 48.7
+    access_clarity: 40.8
     contract_governance: 27.3
     contract_quality: 49.6
     developer_ergonomics: 65.5
@@ -602,8 +623,8 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 39.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

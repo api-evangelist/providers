@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.9
-  scored_at: '2026-10-04'
+  score: 19.0
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -90,6 +90,21 @@ collections:
   name: Teller API
   slug: open-teller
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/teller/refs/heads/main/plans/teller-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/teller-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/teller/refs/heads/main/rate-limits/teller-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/teller-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/teller/refs/heads/main/finops/teller-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/teller-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/teller/refs/heads/main/capabilities/teller-capability-edges.yml
   title: ''
@@ -162,9 +177,13 @@ examples:
   name: Teller List Transactions Example
   slug: teller-list-transactions-example
 finops:
-- name: Teller Finops
+- has_sources: false
+  method: generated
+  name: Teller Finops
+  primary_unit: ''
   service_category: API
   slug: teller-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/teller.png
 json_schemas:
 - name: Teller Account
@@ -187,13 +206,13 @@ modified: '2026-05-30'
 name: Teller
 nav: Providers
 network: true
-overview: 'Teller publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Identity API, Institutions API, and 1 more. Tagged areas include Banking, Financial Data, Fintech, Open Banking, and Transaction.
+overview: 'Teller publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, Identity API, Institutions API, and 1 more. Tagged areas include Banking, Financial Data, Fintech, Open Banking, and Transaction.
 
 
   The Teller catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Teller''s developer surface includes authentication, documentation, engineering blog, and 11 more developer resources.'
+  Teller''s developer surface includes authentication, documentation, engineering blog, and 14 more developer resources.'
 plans:
 - name: Teller Plans Pricing
   plan_count: 3
@@ -204,10 +223,11 @@ rate_limits:
   name: Teller Rate Limits
   slug: teller-rate-limits
 rules:
-- effective_rule_count: 33
+- authorship: generated
+  effective_rule_count: 33
   extends:
   - spectral:asyncapi
-  name: Teller API Rules
+  name: Teller — asyncapi rules
   rule_count: 6
   severity_counts:
     error: 1
@@ -215,9 +235,10 @@ rules:
     info: 0
     warn: 5
   slug: teller-asyncapi-spectral-rules
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Teller API Rules
+  name: Teller — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -225,7 +246,8 @@ rules:
     info: 1
     warn: 4
   slug: teller-jsonschema-spectral-rules
-- effective_rule_count: 12
+- authorship: unmarked
+  effective_rule_count: 12
   extends: []
   name: Teller API Rules
   rule_count: 12
@@ -236,18 +258,18 @@ rules:
     warn: 5
   slug: teller-rules
 score:
-  band: developing
-  composite: 39.3
+  band: thin
+  composite: 37.7
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 55.5
+    artifact_dirs: 20
+    catalog_earned: 52.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 59.5
+    catalog_gap: 62.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 13.6
     contract_quality: 60.8
     developer_ergonomics: 61.9
@@ -267,13 +289,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 13.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
     reason: read_only
+screenshot: https://raw.githubusercontent.com/api-evangelist/teller/refs/heads/main/screenshots/teller-2026-10-11T130733.png
 security:
 - kind: authentication
   name: Teller Authentication

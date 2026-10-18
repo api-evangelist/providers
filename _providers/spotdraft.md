@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.4
-  scored_at: '2026-10-04'
+  score: 28.5
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 106
+- acting_count: 105
   human_in_the_loop: 1
   name: Spotdraft Agentic Access
   operation_count: 182
   slug: spotdraft-agentic-access
-  summary_line: 182 operations · 106 acting · 1 human-in-the-loop
+  summary_line: 182 operations · 105 acting · 1 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://api.us.spotdraft.com
@@ -582,6 +582,21 @@ collections:
   name: SpotDraft API
   slug: open-spotdraft
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/spotdraft/refs/heads/main/plans/spotdraft-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/spotdraft-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/spotdraft/refs/heads/main/rate-limits/spotdraft-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/spotdraft-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/spotdraft/refs/heads/main/finops/spotdraft-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/spotdraft-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/spotdraft/refs/heads/main/capabilities/spotdraft-capability-edges.yml
   title: ''
@@ -697,9 +712,13 @@ examples:
   name: Spotdraft Webhook Event Example
   slug: spotdraft-webhook-event-example
 finops:
-- name: Spotdraft Finops
+- has_sources: true
+  method: generated
+  name: Spotdraft Finops
+  primary_unit: ''
   service_category: Business Applications
   slug: spotdraft-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/spotdraft.png
 json_schemas:
 - name: SpotDraft Clickwrap
@@ -730,13 +749,13 @@ modified: '2026-05-25'
 name: SpotDraft
 nav: Providers
 network: true
-overview: 'SpotDraft publishes 48 APIs on the [APIs.io](https://apis.io/) network, including V1 Contract APIs API, V1 Emails API, V1 Legal Intake API, and 45 more. Tagged areas include Contract Lifecycle Management, Contracts, Legal Tech, E-Signature, and Clickwrap.
+overview: 'SpotDraft publishes 48 API contracts indexed on the [APIs.io](https://apis.io/) network, including V1 Contract APIs API, V1 Emails API, V1 Legal Intake API, and 45 more. Tagged areas include Contract Lifecycle Management, Contracts, Legal Tech, E-Signature, and Clickwrap.
 
 
   The SpotDraft catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  SpotDraft''s developer surface includes authentication, documentation, support, pricing, signup flow, engineering blog, GitHub presence, and 17 more developer resources.'
+  SpotDraft''s developer surface includes authentication, documentation, support, pricing, signup flow, engineering blog, GitHub presence, and 20 more developer resources.'
 plans:
 - name: Spotdraft Plans Pricing
   plan_count: 4
@@ -747,9 +766,10 @@ rate_limits:
   name: Spotdraft Rate Limits
   slug: spotdraft-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: SpotDraft API Rules
+  name: SpotDraft — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -757,7 +777,8 @@ rules:
     info: 1
     warn: 4
   slug: spotdraft-jsonschema-spectral-rules
-- effective_rule_count: 50
+- authorship: unmarked
+  effective_rule_count: 50
   extends:
   - spectral:oas
   name: SpotDraft API Rules
@@ -770,17 +791,17 @@ rules:
   slug: spotdraft-rules
 score:
   band: developing
-  composite: 49.3
+  composite: 43.7
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 76.8
+    artifact_dirs: 20
+    catalog_earned: 66.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 41.2
+    catalog_gap: 49.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -5.6
   facets:
-    access_clarity: 63.9
+    access_clarity: 35.5
     contract_governance: 27.3
     contract_quality: 62.0
     developer_ergonomics: 29.8
@@ -793,7 +814,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - india-south-asia
-  previous_composite: 48.8
+  previous_composite: 49.3
   provenance:
     agentic_access: derived
     contracts:
@@ -807,9 +828,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 22.2

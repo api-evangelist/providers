@@ -30,13 +30,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -165,6 +165,21 @@ collections:
   name: Spot by NetApp API
   slug: open-spot-by-netapp
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/spot-by-netapp/refs/heads/main/plans/spot-by-netapp-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/spot-by-netapp-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/spot-by-netapp/refs/heads/main/rate-limits/spot-by-netapp-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/spot-by-netapp-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/spot-by-netapp/refs/heads/main/finops/spot-by-netapp-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/spot-by-netapp-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/spot-by-netapp/refs/heads/main/capabilities/spot-by-netapp-capability-edges.yml
   title: ''
@@ -263,9 +278,13 @@ examples:
   name: Spot Get Cost Summary Example
   slug: spot-get-cost-summary-example
 finops:
-- name: Spot By Netapp Finops
+- has_sources: false
+  method: generated
+  name: Spot By Netapp Finops
+  primary_unit: ''
   service_category: API
   slug: spot-by-netapp-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/spot-by-netapp.png
 json_schemas:
 - name: Spot Elastigroup
@@ -288,13 +307,13 @@ modified: '2026-05-19'
 name: Spot by NetApp
 nav: Providers
 network: true
-overview: 'Spot by NetApp publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Audit Service API, Create an API Token API, Elastigroup AWS API, and 7 more. Tagged areas include Cloud Optimization, FinOps, Kubernetes, Azure, and GCP.
+overview: 'Spot by NetApp publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Audit Service API, Create an API Token API, Elastigroup AWS API, and 7 more. Tagged areas include Cloud Optimization, FinOps, Kubernetes, Microsoft Azure, and GCP.
 
 
   The Spot by NetApp catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Spot by NetApp''s developer surface includes authentication, developer portal, documentation, GitHub presence, CLI, developer console, engineering blog, and 14 more developer resources.'
+  Spot by NetApp''s developer surface includes authentication, developer portal, documentation, GitHub presence, CLI, developer console, engineering blog, and 17 more developer resources.'
 plans:
 - name: Spot By Netapp Plans Pricing
   plan_count: 3
@@ -305,9 +324,10 @@ rate_limits:
   name: Spot By Netapp Rate Limits
   slug: spot-by-netapp-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Spot by NetApp API Rules
+  name: Spot by NetApp — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -315,7 +335,8 @@ rules:
     info: 2
     warn: 3
   slug: spot-by-netapp-jsonschema-spectral-rules
-- effective_rule_count: 52
+- authorship: unmarked
+  effective_rule_count: 52
   extends:
   - spectral:oas
   name: Spot by NetApp API Rules
@@ -328,17 +349,17 @@ rules:
   slug: spot-by-netapp-rules
 score:
   band: developing
-  composite: 42.2
+  composite: 40.7
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 58.5
+    artifact_dirs: 20
+    catalog_earned: 55.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 56.5
+    catalog_gap: 59.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 13.6
     contract_quality: 56.6
     developer_ergonomics: 77.4
@@ -358,8 +379,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -379,7 +400,7 @@ tags:
 - Cloud Optimization
 - FinOps
 - Kubernetes
-- Azure
+- Microsoft Azure
 - GCP
 - Cost Optimization
 - Auto-Scaling

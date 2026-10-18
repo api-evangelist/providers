@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.0
-  scored_at: '2026-10-04'
+  score: 17.8
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -68,6 +68,21 @@ collections:
   name: Tyson Foods EDI Integration Orders Shipments API
   slug: open-tyson-foods-shipments-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/tyson-foods/refs/heads/main/plans/tyson-foods-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/tyson-foods-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/tyson-foods/refs/heads/main/rate-limits/tyson-foods-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/tyson-foods-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/tyson-foods/refs/heads/main/finops/tyson-foods-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/tyson-foods-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/tyson-foods/refs/heads/main/capabilities/tyson-foods-capability-edges.yml
   title: ''
@@ -155,9 +170,13 @@ examples:
   name: Tyson Foods Get Shipments Example
   slug: tyson-foods-get-shipments-example
 finops:
-- name: Tyson Foods Finops
+- has_sources: true
+  method: generated
+  name: Tyson Foods Finops
+  primary_unit: ''
   service_category: B2B Integration
   slug: tyson-foods-finops
+  template: false
 image: https://www.tysonfoods.com/favicon.ico
 json_schemas:
 - name: Tyson Foods Order
@@ -180,13 +199,13 @@ modified: '2026-05-19'
 name: Tyson Foods
 nav: Providers
 network: true
-overview: 'Tyson Foods publishes 2 APIs on the [APIs.io](https://apis.io/) network: Orders API and Shipments API. Tagged areas include B2B Integration, EDI, Food, Fortune 100, and Supply Chain.
+overview: 'Tyson Foods publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Orders API and Shipments API. Tagged areas include B2B Integration, EDI, Food, Fortune 100, and Supply Chain.
 
 
   The Tyson Foods catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Tyson Foods'' developer surface includes engineering blog and 16 more developer resources.'
+  Tyson Foods'' developer surface includes engineering blog and 19 more developer resources.'
 plans:
 - name: Tyson Foods Plans Pricing
   plan_count: 1
@@ -213,9 +232,10 @@ rate_limits:
   name: Tyson Foods Rate Limits
   slug: tyson-foods-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Tyson Foods API Rules
+  name: Tyson Foods — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -223,7 +243,8 @@ rules:
     info: 2
     warn: 3
   slug: tyson-foods-jsonschema-spectral-rules
-- effective_rule_count: 49
+- authorship: unmarked
+  effective_rule_count: 49
   extends:
   - spectral:oas
   name: Tyson Foods API Rules
@@ -236,17 +257,17 @@ rules:
   slug: tyson-foods-rules
 score:
   band: thin
-  composite: 29.6
+  composite: 27.1
   coverage:
     artifact_dirs: 19
-    catalog_earned: 59.0
+    catalog_earned: 61.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 41.0
-    catalog_max: 100.0
+    catalog_gap: 54.0
+    catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.5
   facets:
-    access_clarity: 28.6
+    access_clarity: 15.8
     contract_governance: 27.3
     contract_quality: 49.1
     developer_ergonomics: 2.4
@@ -266,8 +287,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 14.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

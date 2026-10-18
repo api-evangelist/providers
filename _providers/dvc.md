@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: DVC ships as a CLI plus a Python API (`dvc.api`). It tracks data and model files via pointers stored in Git and pushes payloads to remote storage backends (S3, Azure, GCS, SSH, HDFS, HTTP, etc.). Ther
@@ -104,16 +104,20 @@ common:
 created: '2026-05-08'
 description: DVC (Data Version Control) is an Apache 2.0 open-source CLI and Python library for versioning datasets, models, pipelines, and ML experiments on top of Git. It is not a network service — there is no DVC REST API.
 finops:
-- name: Dvc Finops
+- has_sources: true
+  method: generated
+  name: Dvc Finops
+  primary_unit: ''
   service_category: ML
   slug: dvc-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dvc.png
 layout: provider
 modified: '2026-05-08'
 name: DVC
 nav: Providers
 network: true
-overview: 'DVC publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Machine Learning, MLOps, Versioning, CLI, and Open Source.
+overview: 'DVC is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Machine Learning, MLOps, Versioning, CLI, and Open Source.
 
 
   DVC''s developer surface includes developer portal, engineering blog, and 12 more developer resources.'
@@ -128,17 +132,17 @@ rate_limits:
   slug: dvc-rate-limits
 score:
   band: emerging
-  composite: 21.5
+  composite: 20.2
   coverage:
-    artifact_dirs: 7
-    catalog_earned: 44.0
+    artifact_dirs: 8
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 71.0
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.3
   facets:
-    access_clarity: 13.2
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 28.6
@@ -154,8 +158,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

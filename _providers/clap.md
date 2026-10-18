@@ -32,10 +32,19 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
-artifact_total: 1
+artifact_total: 2
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/clap/refs/heads/main/plans/clap-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/clap-plans-pricing.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.clap.company/rss/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/clap/refs/heads/main/security/clap-domain-security.yml
   title: ''
@@ -73,28 +82,32 @@ created: '2026-07-17'
 description: CLAP (주식회사 디웨일 / Dwhale Inc.) is a South Korean SaaS company offering an AI-powered, customizable performance management platform for enterprises. It covers the full performance lifecycle — multi-rater evaluations and calibration, OKR-style goal setting and alignment, continuous feedback and 1-on-1 meetings, and CLAP AI for diagnostics, feedback drafting, and automation — with tailored reporting and tool integrations. CLAP serves 1,000+ companies and claims to cut the HR time spent on performance management by up to 80%. The company is headquartered in Gangnam, Seoul, and is a portfolio company of 500 Global. CLAP publishes no public API or developer portal; this profile captures its identity and web properties.
 image: https://cdn.prod.website-files.com/67bbfe0ae068394547052297/6a34d2be7f19ea8c03d1bd30_Screenshot%202026-06-19%20at%202.25.01%E2%80%AFPM.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: CLAP
 nav: Providers
 network: true
 overview: 'CLAP is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Human Resources, Performance Management, Software-as-a-Service, and OKRs.
 
 
-  CLAP''s developer surface includes engineering blog, pricing, support, and 5 more developer resources.'
+  CLAP''s developer surface includes engineering blog, pricing, support, and 7 more developer resources.'
+plans:
+- name: Clap Plans Pricing
+  plan_count: 4
+  slug: clap-plans-pricing
 random_paper: 20
 score:
   band: emerging
-  composite: 12.0
+  composite: 18.3
   coverage:
-    artifact_dirs: 4
-    catalog_earned: 27.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 88.0
+    artifact_dirs: 5
+    catalog_earned: 39.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.3
   facets:
-    access_clarity: 38.2
+    access_clarity: 69.7
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 2.4
@@ -114,9 +127,9 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 12.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://api.autopass.xyz
@@ -162,7 +162,7 @@ modified: '2026-07-18'
 name: Autopass
 nav: Providers
 network: true
-overview: 'Autopass publishes 3 APIs on the [APIs.io](https://apis.io/) network: Locations API, Orders API, and Sessions API. Tagged areas include Company, Mobility, Parking, Payments, and Automotive.
+overview: 'Autopass publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Locations API, Orders API, and Sessions API. Tagged areas include Company, Mobility, Parking, Payments, and Automotive.
 
 
   The Autopass catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -215,8 +215,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

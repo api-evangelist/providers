@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 39.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 179
-  human_in_the_loop: 13
+- acting_count: 140
+  human_in_the_loop: 11
   name: Thoughtspot Agentic Access
   operation_count: 191
   slug: thoughtspot-agentic-access
-  summary_line: 191 operations · 179 acting · 13 human-in-the-loop
+  summary_line: 191 operations · 140 acting · 11 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://my.thoughtspot.cloud/api/rest/2.0
@@ -189,7 +189,7 @@ apis:
   description: The Webhooks API from ThoughtSpot — 5 operation(s) for webhooks.
   name: ThoughtSpot Webhooks API
   slug: thoughtspot-webhooks-api
-artifact_total: 150
+artifact_total: 151
 asyncapis:
 - description: ''
   name: Thoughtspot Webhooks
@@ -541,6 +541,15 @@ collections:
   name: ThoughtSpot Public REST 10.1.0.cl Webhooks API
   slug: open-thoughtspot-webhooks-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/thoughtspot/refs/heads/main/plans/thoughtspot-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/thoughtspot-plans-pricing.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.thoughtspot.com/rss.xml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/thoughtspot/refs/heads/main/capabilities/thoughtspot-capability-edges.yml
   title: ''
@@ -703,31 +712,35 @@ mcp_servers:
 - description: Remote MCP server at agent.thoughtspot.app over HTTP; 4 tools listed.
   name: ThoughtSpot
   slug: thoughtspot
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: ThoughtSpot
 nav: Providers
 network: true
-overview: 'ThoughtSpot publishes 29 APIs on the [APIs.io](https://apis.io/) network, including AI API, Authentication API, Collections API, and 26 more. Tagged areas include Company, Enterprise Software, Analytics, Business Intelligence, and Data.
+overview: 'ThoughtSpot publishes 29 API contracts indexed on the [APIs.io](https://apis.io/) network, including AI API, Authentication API, Collections API, and 26 more. Tagged areas include Company, Enterprise Software, Analytics, Business Intelligence, and Data.
 
 
   The ThoughtSpot catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  ThoughtSpot''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 27 more developer resources.'
+  ThoughtSpot''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 29 more developer resources.'
+plans:
+- name: Thoughtspot Plans Pricing
+  plan_count: 6
+  slug: thoughtspot-plans-pricing
 random_paper: 15
 score:
   band: strong
-  composite: 58.4
+  composite: 64.8
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 27
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.4
   facets:
-    access_clarity: 60.5
+    access_clarity: 92.1
     contract_governance: 18.2
     contract_quality: 55.6
     developer_ergonomics: 75.6
@@ -758,9 +771,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: true
     score: 11.1

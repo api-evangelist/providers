@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Standards-based FHIR R4 (4.0.1) Patient Access API published for CMS-9115-F / ONC 21st Century Cures Act compliance. Lets Medicare Advantage members authorize third-party applications via OAuth 2.0 to
@@ -41,6 +41,14 @@ apis:
   slug: curana-health-interoperability-api
 artifact_total: 4
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://curanahealth.com/blog/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://curanahealth.com/blog/feed/
 - group: company
   title: ''
   type: Website
@@ -146,14 +154,14 @@ created: '2026-07-17'
 description: Curana Health is a value-based senior-living healthcare company delivering on-site primary care, behavioral health, palliative care, integrated care management, and chronic-condition management to 250,000+ residents across 2,000+ senior living and skilled-nursing communities in more than 30 states, supported by 1,400+ providers, a national medical group, Accountable Care Organizations (ACOs), and Medicare Advantage Special Needs Plans. In support of the CMS Interoperability and Patient Access final rule (CMS-9115-F) and the ONC 21st Century Cures Act final rule (45 CFR 170.213 / 170.215), Curana Health publishes a standards-based FHIR R4 Interoperability (Patient Access) API at fhir.curanahealth.com that lets Medicare Advantage members authorize third-party apps to access their claims, encounter, and clinical data using OAuth 2.0, alongside a public provider-directory surface.
 image: https://curanahealth.com/wp-content/uploads/2025/04/Curana-Health-Logo-Full-Color-1000px-300x84.webp
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Curana Health
 nav: Providers
 network: true
-overview: 'Curana Health publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Digital Health, Healthcare, FHIR, and Interoperability.
+overview: 'Curana Health is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Digital Health, Healthcare, FHIR, and Interoperability.
 
 
-  Curana Health''s developer surface includes documentation, API reference, signup flow, authentication, changelog, sandbox, and 16 more developer resources.'
+  Curana Health''s developer surface includes engineering blog, documentation, API reference, signup flow, authentication, changelog, sandbox, and 17 more developer resources.'
 random_paper: 11
 scopes:
 - name: Curana Health Scopes
@@ -162,20 +170,20 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 32.8
+  composite: 33.3
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 31.6
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 45.2
+    developer_ergonomics: 47.6
     discoverability: 73.2
     operational_transparency: 23.7
   previous_composite: 32.8
@@ -194,8 +202,8 @@ score:
     regime: Health
     regime_id: health
     score: 44.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 14.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 13
 apis:
 - description: Manage users, roles, and permissions within the Exabeam platform.
@@ -77,6 +77,10 @@ apis:
   slug: exabeam-use-cases-api
 artifact_total: 19
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.exabeam.com/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/exabeam/refs/heads/main/security/exabeam-vulnerability-disclosure.yml
   title: ''
@@ -205,14 +209,14 @@ mcp_servers:
 - description: Remote MCP server over HTTP.
   name: Exabeam MCP Server
   slug: exabeam
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Exabeam
 nav: Providers
 network: true
-overview: 'Exabeam publishes 13 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cybersecurity, Security, SIEM, and UEBA.
+overview: 'Exabeam is listed with 13 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cybersecurity, Security, SIEM, and UEBA.
 
 
-  Exabeam''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, engineering blog, support, and 20 more developer resources.'
+  Exabeam''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, engineering blog, support, and 21 more developer resources.'
 random_paper: 19
 scopes:
 - name: Exabeam Scopes
@@ -223,7 +227,7 @@ score:
   band: thin
   composite: 34.2
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -247,8 +251,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -267,7 +271,7 @@ security:
 - kind: vulnerability-disclosure
   name: Exabeam Vulnerability Disclosure
   slug: exabeam-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 - kind: trust-center
   name: Exabeam Trust Center
   slug: exabeam-trust-center

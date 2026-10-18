@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.3
-  scored_at: '2026-10-04'
+  score: 29.4
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 3
@@ -219,9 +219,13 @@ common:
 created: '2026-06-12'
 description: Semaphore is a cloud-based CI/CD platform designed for high-performance engineering teams, providing fast and reliable continuous integration and continuous delivery pipelines. The platform offers a comprehensive REST API that enables programmatic management of pipelines, workflows, jobs, secrets, projects, and deployment targets for software delivery automation. Semaphore supports OAS 3.0-compliant API definitions with Swagger documentation, covering resources such as artifacts, test results, self-hosted agents, and build insights. Teams can use the API to integrate with external tools, build custom interfaces, trigger promotions, and automate their entire software delivery lifecycle.
 finops:
-- name: Semaphore Finops
+- has_sources: false
+  method: generated
+  name: Semaphore Finops
+  primary_unit: ''
   service_category: ''
   slug: semaphore-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/semaphore.png
 jsonld:
 - class_count: 18
@@ -233,7 +237,7 @@ modified: '2026-06-12'
 name: Semaphore
 nav: Providers
 network: true
-overview: 'Semaphore publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Dashboards API, DeploymentTargets API, Notifications API, and 8 more. Tagged areas include CI/CD, Continuous Integration, Continuous Delivery, Pipelines, and Workflows.
+overview: 'Semaphore publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Dashboards API, DeploymentTargets API, Notifications API, and 8 more. Tagged areas include CI/CD, Continuous Integration, Continuous Delivery, Pipelines, and Workflows.
 
 
   The Semaphore catalog on APIs.io includes 1 JSON-LD context.
@@ -250,23 +254,23 @@ rate_limits:
   name: Semaphore Rate Limits
   slug: semaphore-rate-limits
 score:
-  band: developing
-  composite: 47.3
+  band: thin
+  composite: 39.0
   coverage:
     artifact_dirs: 14
-    catalog_earned: 77.1
+    catalog_earned: 58.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 37.9
+    catalog_gap: 56.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 54.7
+    access_clarity: 26.3
     contract_governance: 13.6
     contract_quality: 63.5
     developer_ergonomics: 23.8
     discoverability: 66.1
-    operational_transparency: 49.5
+    operational_transparency: 28.9
   previous_composite: 47.3
   provenance:
     agentic_access: derived
@@ -281,9 +285,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0
@@ -300,7 +304,7 @@ security:
 - kind: vulnerability-disclosure
   name: Semaphore Vulnerability Disclosure
   slug: semaphore-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 - kind: trust-center
   name: Semaphore Trust Center
   slug: semaphore-trust-center

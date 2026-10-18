@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -77,6 +77,14 @@ collections:
   name: Listnr Text-to-Speech API
   slug: open-listnr
 common:
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://listnr.ai/pricing
+- group: company
+  title: ''
+  type: Blog
+  url: https://listnr.ai/blog
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/listnr/refs/heads/main/agentic-access/listnr-agentic-access.yml
   title: ''
@@ -130,22 +138,26 @@ common:
 created: '2026-07-11'
 description: Listnr AI is a text-to-speech and AI voice platform offering 1,000+ ultra-realistic voices across 142+ languages and accents, used for voiceovers, podcasts, and text-to-video. Beyond the web app, Listnr exposes a documented public Text-to-Speech API (base https://bff.listnr.tech/api/tts/v1) that converts SSML text or article URLs into MP3/WAV audio synchronously or asynchronously, lists available voices, and reports async job status. API keys are generated from the Listnr dashboard at voices.listnr.tech and passed via an x-listnr-token header.
 finops:
-- name: Listnr Finops
+- has_sources: true
+  method: generated
+  name: Listnr Finops
+  primary_unit: ''
   service_category: AI and Machine Learning
   slug: listnr-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/listnr.png
 layout: provider
-modified: '2026-07-11'
+modified: '2026-10-06'
 name: Listnr
 nav: Providers
 network: true
-overview: 'Listnr publishes 3 APIs on the [APIs.io](https://apis.io/) network: Jobs API, Text-to-Speech API, and Voices API. Tagged areas include Artificial Intelligence, Text-to-Speech, TTS, Voice, and Speech Synthesis.
+overview: 'Listnr publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Jobs API, Text-to-Speech API, and Voices API. Tagged areas include Artificial Intelligence, Text-to-Speech, TTS, Voice, and Speech Synthesis.
 
 
-  Listnr''s developer surface includes authentication, documentation, signup flow, and 8 more developer resources.'
+  Listnr''s developer surface includes pricing, engineering blog, authentication, documentation, signup flow, and 8 more developer resources.'
 plans:
 - name: Listnr Plans Pricing
-  plan_count: 4
+  plan_count: 5
   slug: listnr-plans-pricing
 random_paper: 8
 rate_limits:
@@ -154,22 +166,22 @@ rate_limits:
   slug: listnr-rate-limits
 score:
   band: thin
-  composite: 36.5
+  composite: 35.1
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 61.6
-    catalog_earned_first_party: 0.0
-    catalog_gap: 53.4
+    artifact_dirs: 13
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.4
   facets:
-    access_clarity: 42.9
+    access_clarity: 48.7
     contract_governance: 0.0
     contract_quality: 50.8
-    developer_ergonomics: 29.8
+    developer_ergonomics: 32.1
     discoverability: 66.1
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   previous_composite: 36.5
   provenance:
     agentic_access: derived
@@ -180,12 +192,12 @@ score:
       total: 3
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 10.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 4
 apis:
 - description: Web and mobile API powering the WEC Energy Group customer self-service portal. Enables customers to view account information, pay bills, manage alerts, view energy usage history, and report outages. A
@@ -50,6 +50,21 @@ apis:
   slug: peoples-gas-customer-service-api
 artifact_total: 15
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/wec-energy/refs/heads/main/plans/wec-energy-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/wec-energy-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/wec-energy/refs/heads/main/rate-limits/wec-energy-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/wec-energy-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/wec-energy/refs/heads/main/finops/wec-energy-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/wec-energy-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/wec-energy/refs/heads/main/security/wec-energy-domain-security.yml
   title: ''
@@ -115,9 +130,13 @@ examples:
   name: Wec Energy Usage Example
   slug: wec-energy-usage-example
 finops:
-- name: Wec Energy Finops
+- has_sources: true
+  method: generated
+  name: Wec Energy Finops
+  primary_unit: ''
   service_category: Energy / Utility
   slug: wec-energy-finops
+  template: false
 image: https://www.wecenergygroup.com/images/wec-logo.png
 json_schemas:
 - name: WEC Energy Group Customer Account
@@ -143,7 +162,7 @@ modified: '2026-07-25'
 name: WEC Energy Group
 nav: Providers
 network: true
-overview: 'WEC Energy Group publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Electric Utility, Fortune 500, Green Button, and Illinois.
+overview: 'WEC Energy Group is listed with 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Electric Utility, Fortune 500, Green Button, and Illinois.
 
 
   The WEC Energy Group catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.'
@@ -173,9 +192,10 @@ rate_limits:
   name: Wec Energy Rate Limits
   slug: wec-energy-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: WEC Energy Group API Rules
+  name: WEC Energy Group — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -185,17 +205,17 @@ rules:
   slug: wec-energy-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 15.4
+  composite: 13.9
   coverage:
     artifact_dirs: 15
-    catalog_earned: 52.8
+    catalog_earned: 49.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 62.3
+    catalog_gap: 65.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 13.2
+    access_clarity: 5.3
     contract_governance: 23.5
     contract_quality: 10.7
     developer_ergonomics: 9.5
@@ -208,8 +228,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 9.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

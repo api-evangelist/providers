@@ -30,20 +30,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 2
+- acting_count: 1
   human_in_the_loop: 0
   name: Ezee Agentic Access
   operation_count: 2
   slug: ezee-agentic-access
-  summary_line: 2 operations · 2 acting
+  summary_line: 2 operations · 1 acting
 api_count: 1
 apis:
 - baseURL: https://live.ipms247.com/pmsinterface/
@@ -71,6 +71,10 @@ collections:
   name: eZee Technosys YCS Connectivity API
   slug: open-ezee
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://yanoljacloudsolution.com:443/blog
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/ezee/refs/heads/main/agentic-access/ezee-agentic-access.yml
   title: ''
@@ -121,19 +125,23 @@ common:
 created: '2026-06-21'
 description: eZee Technosys is a hospitality technology company offering eZee Absolute (cloud hotel PMS), eZee Centrix (channel manager), eZee Reservation (booking engine), and eZee Optimus (restaurant POS). Its YCS Connectivity Portal exposes a partner-gated HTTP API for PMS connectivity, channel manager, booking engine, and POS integrations so third-party systems can sync reservations, room inventory, rates, restrictions, and guest data. eZee is now part of Yanolja Cloud (Yanolja Cloud Solution).
 finops:
-- name: Ezee Finops
+- has_sources: true
+  method: generated
+  name: Ezee Finops
+  primary_unit: ''
   service_category: Hospitality Software
   slug: ezee-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ezee.png
 layout: provider
-modified: '2026-06-21'
+modified: '2026-10-06'
 name: eZee Technosys
 nav: Providers
 network: true
-overview: 'eZee Technosys publishes 2 APIs on the [APIs.io](https://apis.io/) network: Inventory and Rates API and PMS Connectivity API. Tagged areas include Hospitality, Hotels, PMS, Channel Manager, and Reservations.
+overview: 'eZee Technosys publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Inventory and Rates API and PMS Connectivity API. Tagged areas include Hospitality, Hotels, PMS, Channel Manager, and Reservations.
 
 
-  eZee Technosys'' developer surface includes authentication, documentation, and 8 more developer resources.'
+  eZee Technosys'' developer surface includes engineering blog, authentication, documentation, and 8 more developer resources.'
 plans:
 - name: Ezee Plans Pricing
   plan_count: 2
@@ -145,22 +153,22 @@ rate_limits:
   slug: ezee-rate-limits
 score:
   band: thin
-  composite: 31.7
+  composite: 26.2
   coverage:
-    artifact_dirs: 10
-    catalog_earned: 54.4
+    artifact_dirs: 11
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 60.6
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.5
   facets:
-    access_clarity: 34.7
+    access_clarity: 13.2
     contract_governance: 0.0
     contract_quality: 47.8
-    developer_ergonomics: 21.4
+    developer_ergonomics: 23.8
     discoverability: 66.1
-    operational_transparency: 18.9
+    operational_transparency: 5.3
   previous_composite: 31.7
   provenance:
     agentic_access: derived
@@ -175,9 +183,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

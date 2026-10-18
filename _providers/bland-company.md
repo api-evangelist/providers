@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.theblandcompany.co/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/bland-company/refs/heads/main/security/bland-company-domain-security.yml
   title: ''
@@ -57,26 +61,26 @@ created: '2026-07-17'
 description: The Bland Company is a London-based food-technology and biotechnology startup building functional plant proteins that replace eggs in food manufacturing. Its feedstock-agnostic process upcycles underused agricultural side streams into flavor-neutral, cost-stable proteins engineered to match animal-protein functionality — solubility, foaming, gelling, and emulsifying — for bakery, sauces, beverages, and snacks. The company raised a ~$2.7M pre-seed round led by Initialized Capital. It publishes no public developer API surface (no docs, SDKs, or GitHub); this profile is tracked in the API Evangelist network as a company/portfolio lead.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bland-company.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Bland Company
 nav: Providers
 network: true
 overview: 'Bland Company is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Frontier Tech, Food Tech, Biotechnology, and Plant Protein.
 
 
-  Bland Company''s developer surface includes support and 3 more developer resources.'
+  Bland Company''s developer surface includes support and 4 more developer resources.'
 random_paper: 19
 score:
   band: minimal
-  composite: 7.0
+  composite: 7.1
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 10.5
     contract_governance: 0.0
@@ -99,8 +103,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 9.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

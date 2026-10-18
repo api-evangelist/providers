@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: Generates a Lovable application from a shareable URL or prompt. Programmatic entry point for creating apps and sharing links without revealing implementation details. Early release; more endpoints pla
@@ -44,6 +44,10 @@ apis:
   slug: mcp
 artifact_total: 9
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://lovable.dev/blog/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/lovable/refs/heads/main/security/lovable-trust-center.yml
   title: ''
@@ -101,23 +105,27 @@ common:
 created: '2026-05-08'
 description: 'Lovable is an AI app builder that generates full-stack web applications from natural- language prompts, with live preview, GitHub sync, and Supabase / Firebase integration. Lovable''s developer-facing surface is in early release: the "Build with URL" API generates apps from a shareable URL, and the Lovable MCP Server lets AI clients (Claude Desktop, Cursor) manage Lovable projects via Model Context Protocol.'
 finops:
-- name: Lovable Finops
+- has_sources: true
+  method: generated
+  name: Lovable Finops
+  primary_unit: ''
   service_category: AI
   slug: lovable-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lovable.png
 layout: provider
 mcp_servers:
 - description: Remote MCP server at mcp.lovable.dev over HTTP.
   name: Lovable MCP Server
   slug: lovable
-modified: '2026-05-08'
+modified: '2026-10-06'
 name: Lovable
 nav: Providers
 network: true
-overview: 'Lovable publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, No-Code, App Builder, Web Development, and Generative.
+overview: 'Lovable is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, No-Code, App Builder, Web Development, and Generative.
 
 
-  Lovable''s developer surface includes documentation, pricing, and 10 more developer resources.'
+  Lovable''s developer surface includes documentation, pricing, and 11 more developer resources.'
 plans:
 - name: Lovable Plans Pricing
   plan_count: 1
@@ -129,17 +137,17 @@ rate_limits:
   slug: lovable-rate-limits
 score:
   band: emerging
-  composite: 16.7
+  composite: 15.2
   coverage:
-    artifact_dirs: 10
-    catalog_earned: 39.0
+    artifact_dirs: 11
+    catalog_earned: 36.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 76.0
+    catalog_gap: 79.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 31.6
+    access_clarity: 23.7
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 9.5
@@ -154,8 +162,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

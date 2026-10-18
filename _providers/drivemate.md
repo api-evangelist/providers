@@ -33,10 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://drivematethailand.com/blog/
 - group: company
   title: ''
   type: Website
@@ -67,28 +71,31 @@ created: '2026-07-17'
 description: Drivemate is a peer-to-peer car-sharing and car-rental marketplace based in Bangkok, Thailand, founded in 2016. The platform lets vehicle owners list their cars and lets travelers and residents rent directly from those owners through the Drivemate mobile app and website, handling booking, verification, insurance and payments end to end. Drivemate operates one of the largest car-rental selections in Thailand with more than 3,000 vehicles across 35 provinces and a community of over 100,000 users, and has raised Series A funding from investors including 500 Global (500 Startups), NetSol, Isuzu UNT and Colopl Next. This API Evangelist profile tracks the company's public digital and developer surface; Drivemate is a consumer mobility marketplace and does not currently publish a public developer API program, so this record captures identity, distribution and domain-security signals rather than API specifications.
 image: https://play-lh.googleusercontent.com/JKrlBbbhBQI08Zlp1xTlOeL_mGCesnCVn6JXtVpdjye7oESFWDIW7uot5CmceiMEoAIAtiU951X_COaxwpuA
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Drivemate
 nav: Providers
 network: true
-overview: Drivemate is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Car Sharing, Car Rental, Mobility, and Peer-to-Peer.
+overview: 'Drivemate is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Car Sharing, Car Rental, Mobility, and Peer-to-Peer.
+
+
+  Drivemate''s developer surface includes engineering blog and 6 more developer resources.'
 random_paper: 15
 score:
   band: minimal
-  composite: 4.1
+  composite: 4.6
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 55.4
     operational_transparency: 0.0
   jurisdiction:
@@ -105,8 +112,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 5
 apis:
 - description: HTTPS REST access to OneTick Cloud market data and analytics queries, authenticated with an OAuth2 client-credentials Bearer token issued by the OneTick Keycloak realm (https://cloud-auth.parent.oneti
@@ -52,6 +52,10 @@ apis:
   slug: onetick-point-in-time-tca-api
 artifact_total: 9
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.onetick.com/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/onetick/refs/heads/main/security/onetick-domain-security.yml
   title: ''
@@ -162,14 +166,14 @@ mcp_servers:
 - description: Remote MCP server at mcp.cloud.onetick.com over HTTP; 12 tools listed.
   name: OneTick (OneMarketData) MCP Server
   slug: onetick
-modified: '2026-07-22'
+modified: '2026-10-06'
 name: OneTick (OneMarketData)
 nav: Providers
 network: true
-overview: 'OneTick (OneMarketData) publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Finance, Market Data, Tick Data, Historical Data, and Trading.
+overview: 'OneTick (OneMarketData) is listed with 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Finance, Market Data, Tick Data, Historical Data, and Trading.
 
 
-  OneTick (OneMarketData)''s developer surface includes authentication, changelog, getting-started guide, API reference, developer portal, documentation, engineering blog, and 16 more developer resources.'
+  OneTick (OneMarketData)''s developer surface includes authentication, changelog, getting-started guide, API reference, developer portal, documentation, engineering blog, and 17 more developer resources.'
 random_paper: 1
 scopes:
 - name: Onetick Scopes
@@ -204,8 +208,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 32.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

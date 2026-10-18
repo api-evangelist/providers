@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.kilsar.com/blog
 - group: company
   title: ''
   type: Website
@@ -74,28 +78,31 @@ created: '2026-07-17'
 description: Kilsar is an AI-powered maintenance training and operations platform for the aviation, defense, and industrial sectors. Its flagship product, Orion, turns static technical manuals and maintenance procedures into intelligent, guided workflows so technicians learn faster and perform complex tasks correctly. The platform provides AI-assisted search across operational and maintenance manuals, dynamic data storage and library management, custom workflow and procedure building, real-time task tracking and work-log monitoring, and predictive maintenance and troubleshooting guidance. Kilsar promises measurable outcomes including reduced downtime, faster mean-time-to-repair, and increased equipment uptime. Kilsar is a Techstars-backed company. As of this profile it publishes a marketing site and a Secureframe-hosted trust center but no public API, developer documentation, or SDKs.
 image: https://storage.googleapis.com/kilsar-strapi-assets/kilsar_share_8752a55851/kilsar_share_8752a55851.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Kilsar
 nav: Providers
 network: true
-overview: Kilsar is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Maintenance, Aviation, and Defense.
+overview: 'Kilsar is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Maintenance, Aviation, and Defense.
+
+
+  Kilsar''s developer surface includes engineering blog and 8 more developer resources.'
 random_paper: 8
 score:
   band: minimal
-  composite: 10.2
+  composite: 10.7
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 48.2
     operational_transparency: 0.0
   previous_composite: 10.2
@@ -105,8 +112,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 12.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

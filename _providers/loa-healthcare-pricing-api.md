@@ -23,8 +23,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 55.9
-  scored_at: '2026-10-04'
-api_count: 1
+  scored_at: '2026-10-17'
+api_count: 2
 apis:
 - description: Hosted/remote MCP server 'LOA Healthcare Pricing' v1.0.0 over Streamable HTTP with 12 tools for CPT search, procedure suggestions, provider/hospital search, pricing estimates, market pricing, entity p
   name: Loa Healthcare Pricing MCP Server
@@ -49,7 +49,7 @@ apis:
   description: The Prices API from Loa Healthcare Pricing API — 1 operation(s) for prices.
   name: Loa Healthcare Pricing API Prices API
   slug: loa-healthcare-pricing-api-prices-api
-artifact_total: 17
+artifact_total: 16
 collections:
 - collection_type: open
   name: API Collection
@@ -177,14 +177,11 @@ mcp_servers:
 - description: ''
   name: Loa Healthcare Pricing API MCP Server
   slug: mcp
-- description: Remote MCP server at www.loacare.com requiring OAuth; 12 tools listed.
-  name: LOA Healthcare Pricing
-  slug: loa-healthcare-pricing
 modified: '2026-09-03'
 name: Loa Healthcare Pricing API
 nav: Providers
 network: true
-overview: 'Loa Healthcare Pricing API publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Entities API, Entity Analytics API, Entity Updates API, and 2 more. Tagged areas include Healthcare, Price Transparency, medical pricing, Hospitals, and Providers.
+overview: 'Loa Healthcare Pricing API publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Entities API, Entity Analytics API, Entity Updates API, and 2 more. Tagged areas include Healthcare, Price Transparency, medical pricing, Hospitals, and Providers.
 
 
   Loa Healthcare Pricing API''s developer surface includes authentication, getting-started guide, pricing, signup flow, and 18 more developer resources.'
@@ -206,7 +203,7 @@ score:
   band: developing
   composite: 47.0
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
@@ -236,8 +233,8 @@ score:
     regime: Health
     regime_id: health
     score: 32.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: 'JSON over HTTPS Web API for the NSE Request-for-Quote (RFQ) platform for corporate bonds and debt securities. Documented in the "RFQ - Protocol for Web API" PDF published on the NSE trading protocols '
@@ -149,7 +149,7 @@ modified: '2026-08-04'
 name: National Stock Exchange of India
 nav: Providers
 network: true
-overview: 'National Stock Exchange of India publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Stock Exchange, Capital Markets, Market Data, and Trading.
+overview: 'National Stock Exchange of India is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Stock Exchange, Capital Markets, Market Data, and Trading.
 
 
   The National Stock Exchange of India catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -159,15 +159,15 @@ overview: 'National Stock Exchange of India publishes 3 APIs on the [APIs.io](ht
 random_paper: 1
 score:
   band: thin
-  composite: 30.0
+  composite: 30.1
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 15.8
     contract_governance: 18.2
@@ -191,8 +191,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 19.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

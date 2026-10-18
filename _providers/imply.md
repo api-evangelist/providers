@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: REST API for Imply Polaris, the managed Apache Druid DBaaS. Manage tables, files, streaming/batch ingestion jobs, SQL and native queries, dashboards, data cubes, alerts, collections, API keys, network
@@ -41,6 +41,14 @@ apis:
   slug: imply-polaris-api
 artifact_total: 5
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://imply.io/resources/blog/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://imply.io/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/imply/refs/heads/main/security/imply-domain-security.yml
   title: ''
@@ -175,20 +183,20 @@ created: '2026-07-17'
 description: Imply is the real-time analytics company founded by the original creators of Apache Druid. Its flagship product, Imply Polaris, is a fully managed database-as-a-service for building real-time analytics applications at scale, offering a REST API to manage tables, files, streaming and batch ingestion, SQL and native queries, dashboards, alerts, collections, and access control. Imply also provides Imply Enterprise and Hybrid for self-managed Apache Druid deployments, backed by SOC 2 Type II, ISO 27001, and HIPAA compliance.
 image: https://imply.io/wp-content/uploads/2023/05/favicon-96x96-imply-data.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Imply
 nav: Providers
 network: true
-overview: 'Imply publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Analytics, Real-Time Analytics, Database, and Apache Druid.
+overview: 'Imply is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Analytics, Real-Time Analytics, Database, and Apache Druid.
 
 
-  Imply''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
+  Imply''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, pricing, signup flow, and 24 more developer resources.'
 random_paper: 5
 score:
   band: developing
   composite: 41.6
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -219,8 +227,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://retailnext.net/resources/blog/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/retailnext/refs/heads/main/security/retailnext-domain-security.yml
   title: ''
@@ -92,14 +96,14 @@ created: '2026-07-17'
 description: RetailNext is an AI-powered in-store retail analytics platform that helps physical retailers understand shopper behavior and optimize store operations. Its product suite spans traffic analytics (real-time foot-traffic counting and benchmarking across locations), shopper journey and zone insights (which layouts convert and where shoppers are lost), asset protection and loss prevention that combines video intelligence with shopper analytics, and Pulse AI, a conversational layer for answering retail questions in plain language. The platform is used by 600+ retailers across 100+ countries, including brands such as Macy's, Sephora, and Calvin Klein. RetailNext is a Battery Ventures portfolio company. It maintains a public GitHub organization of open-source infrastructure tooling and publishes a responsible-disclosure security program, but does not currently expose a publicly documented developer API or portal.
 image: https://retailnext.net/hubfs/RetailNext_Logo.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: RetailNext
 nav: Providers
 network: true
 overview: 'RetailNext is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Retail, Retail Analytics, In-Store Analytics, and Shopper Analytics.
 
 
-  RetailNext''s developer surface includes pricing, support, engineering blog, and 9 more developer resources.'
+  RetailNext''s developer surface includes pricing, support, engineering blog, and 10 more developer resources.'
 random_paper: 10
 score:
   band: emerging
@@ -126,8 +130,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

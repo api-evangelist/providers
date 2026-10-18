@@ -17,7 +17,7 @@ description: QED Investors is a global venture capital firm founded in 2007 by N
   companies, and over 30 unicorns, with notable investments including Nubank, Credit Karma, SoFi, Klarna, Remitly, Flywire, Klarna, Kavak, Creditas, and Bitso.
 image: https://www.qedinvestors.com/favicon.ico
 layout: provider
-modified: '2026-07-17'
+modified: '2026-10-06'
 name: QED Investors
 nav: Providers
 network: true

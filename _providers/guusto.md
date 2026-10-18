@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -78,6 +78,10 @@ collections:
   name: Guusto Gifts API
   slug: open-guusto
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.guusto.com/rss.xml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/guusto/refs/heads/main/agentic-access/guusto-agentic-access.yml
   title: ''
@@ -128,19 +132,23 @@ common:
 created: '2026-07-10'
 description: Guusto is an employee recognition and rewards platform that lets teams send digital gifts, run peer-to-peer and top-down recognition programs, and redeem rewards with 60,000+ merchant locations, prepaid Mastercard, and charitable donations. Guusto exposes a REST Gifts API - available on the Premium plan - for programmatically ordering gifts, tracking order status, retrieving workspace and member reward budgets, and pulling recognition activity and manager insight reports. Requests are authenticated with a Bearer API token plus an X-Workspace-id header against production (api.guusto.com) or a demo test environment (api-demo.guusto.io).
 finops:
-- name: Guusto Finops
+- has_sources: true
+  method: generated
+  name: Guusto Finops
+  primary_unit: ''
   service_category: Human Resources and Recognition
   slug: guusto-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/guusto.png
 layout: provider
-modified: '2026-07-10'
+modified: '2026-10-06'
 name: Guusto
 nav: Providers
 network: true
-overview: 'Guusto publishes 3 APIs on the [APIs.io](https://apis.io/) network: Account Budget API, Order Gift API, and Reports API. Tagged areas include Employee Recognition, Rewards, Gifting, Gift Cards, and Human Resources.
+overview: 'Guusto publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Account Budget API, Order Gift API, and Reports API. Tagged areas include Employee Recognition, Rewards, Gifting, Gift Cards, and Human Resources.
 
 
-  Guusto''s developer surface includes authentication, documentation, and 8 more developer resources.'
+  Guusto''s developer surface includes authentication, documentation, and 9 more developer resources.'
 plans:
 - name: Guusto Plans Pricing
   plan_count: 4
@@ -152,22 +160,22 @@ rate_limits:
   slug: guusto-rate-limits
 score:
   band: thin
-  composite: 36.1
+  composite: 27.8
   coverage:
-    artifact_dirs: 10
-    catalog_earned: 61.6
+    artifact_dirs: 11
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.4
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 44.2
+    access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 49.4
     developer_ergonomics: 29.8
     discoverability: 66.1
-    operational_transparency: 28.4
+    operational_transparency: 7.9
   previous_composite: 36.1
   provenance:
     agentic_access: derived
@@ -182,9 +190,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 15.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

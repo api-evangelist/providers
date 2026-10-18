@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -159,7 +159,7 @@ modified: '2026-07-25'
 name: Finaeo
 nav: Providers
 network: true
-overview: 'Finaeo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Canada, Life Insurance, Insurtech, and Brokers.
+overview: 'Finaeo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Canada, Life Insurance, Insurtech, and Brokerage.
 
 
   Finaeo''s developer surface includes signup flow, pricing, engineering blog, support, YouTube channel, and 22 more developer resources.'
@@ -168,7 +168,7 @@ score:
   band: emerging
   composite: 19.9
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -198,8 +198,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -216,7 +216,7 @@ tags:
 - Canada
 - Life Insurance
 - Insurtech
-- Brokers
+- Brokerage
 - Agency Management
 - Marketplace
 - Distribution

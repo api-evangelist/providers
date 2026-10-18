@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 27
+- acting_count: 25
   human_in_the_loop: 2
   name: True Fit Agentic Access
-  operation_count: 58
+  operation_count: 59
   slug: true-fit-agentic-access
-  summary_line: 58 operations · 27 acting · 2 human-in-the-loop
+  summary_line: 59 operations · 25 acting · 2 human-in-the-loop
 api_count: 2
 apis:
 - description: 'Two-endpoint data API that packages True Fit machine-learning assets for a retailer partner: a Metadata endpoint returning the descriptor of the current weekly 360 Member View file (client id, created'
@@ -153,7 +153,7 @@ apis:
   description: A token is used to identify requests from a device and associate the requests with a session. As the user interacts with True Fit, the token will update. The most recent token returned by True Fit sho
   name: True Fit Token API
   slug: true-fit-token-api
-artifact_total: 47
+artifact_total: 48
 collections:
 - collection_type: open
   name: API Collection
@@ -222,6 +222,15 @@ collections:
   name: True Fit - Consumer Token API
   slug: open-true-fit-token-api
 common:
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.truefit.com/
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/true-fit/refs/heads/main/plans/true-fit-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/true-fit-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/true-fit/refs/heads/main/overlays/true-fit-consumer-api-overlay.yaml
   title: ''
@@ -399,24 +408,28 @@ modified: '2026-09-16'
 name: True Fit
 nav: Providers
 network: true
-overview: 'True Fit publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Auth API, Bra Sizes API, and 19 more. Tagged areas include Company, Fit and Sizing, Apparel, Footwear, and Retail.
+overview: 'True Fit publishes 22 API contracts indexed on the [APIs.io](https://apis.io/) network, including Analytics API, Auth API, Bra Sizes API, and 19 more. Tagged areas include Company, Fit and Sizing, Apparel, Footwear, and Retail.
 
 
-  True Fit''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, changelog, and 30 more developer resources.'
+  True Fit''s developer surface includes pricing, authentication, documentation, API reference, getting-started guide, support, engineering blog, and 32 more developer resources.'
+plans:
+- name: True Fit Plans Pricing
+  plan_count: 0
+  slug: true-fit-plans-pricing
 random_paper: 2
 score:
   band: developing
-  composite: 40.6
+  composite: 42.8
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 25
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.2
   facets:
-    access_clarity: 28.9
+    access_clarity: 39.5
     contract_governance: 4.5
     contract_quality: 43.7
     developer_ergonomics: 54.2
@@ -439,8 +452,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

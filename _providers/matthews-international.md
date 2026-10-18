@@ -33,10 +33,19 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 4
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/matthews-international/refs/heads/main/finops/matthews-international-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/matthews-international-finops.yml
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.matw.com/
 - group: company
   title: ''
   type: Website
@@ -117,9 +126,13 @@ created: '2026-04-19'
 description: 'Matthews International Corporation (NASDAQ: MATW) is a Pittsburgh, Pennsylvania diversified manufacturer founded in 1850 and reporting in three segments. Memorialization covers bronze and granite memorials, caskets, cremation-related products and cremation and incineration equipment for the cemetery and funeral home industries, sold through Matthews Aurora Funeral Solutions and Matthews Environmental Solutions. Industrial Technologies covers product identification — the Matthews Marking Systems marking and coding business and its MPERIA controller platform — plus the design, manufacture and service of custom energy storage solutions including dry-battery-electrode coating and converting lines. Brand Solutions is now a 40% ownership interest in Propelis Group, the entity formed on 1 May 2025 when Matthews contributed the majority of its SGK brand business; the company sold its warehouse automation business (Matthews Automation Solutions — Pyramid, Compass and Lightning Pick)
   to Duravant on 31 December 2025. Matthews is a manufacturer rather than a software vendor: it operates no public developer program and publishes no API documentation, SDK, package, CLI, MCP server, agent card or machine-readable specification. The MPERIA controller sold with its marking and coding equipment markets a "common API" for ERP, WMS, MES and PLC integration, but that is an on-premises XML or command-line protocol carried over Ethernet or RS-232 and documented only in sales collateral — not a public web API.'
 finops:
-- name: Matthews International Finops
+- has_sources: true
+  method: generated
+  name: Matthews International Finops
+  primary_unit: ''
   service_category: Industrial / B2B Solutions
   slug: matthews-international-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/matthews-international.png
 layout: provider
 modified: '2026-08-13'
@@ -129,7 +142,7 @@ network: true
 overview: 'Matthews International is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Memorialization, Branding, Industrial, Manufacturing, and Marking and Coding.
 
 
-  Matthews International''s developer surface includes engineering blog and 11 more developer resources.'
+  Matthews International''s developer surface includes pricing, engineering blog, and 12 more developer resources.'
 plans:
 - name: Matthews International Plans Pricing
   plan_count: 1
@@ -141,17 +154,17 @@ rate_limits:
   slug: matthews-international-rate-limits
 score:
   band: emerging
-  composite: 18.5
+  composite: 19.0
   coverage:
     artifact_dirs: 9
-    catalog_earned: 46.0
+    catalog_earned: 43.0
     catalog_earned_first_party: 16.0
-    catalog_gap: 69.0
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
-    access_clarity: 50.0
+    access_clarity: 52.6
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 2.4
@@ -164,8 +177,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 11.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

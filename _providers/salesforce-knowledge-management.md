@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -208,9 +208,13 @@ examples:
   name: Salesforce Knowledge Management Search Articles Example
   slug: salesforce-knowledge-management-search-articles-example
 finops:
-- name: Salesforce Knowledge Management Finops
+- has_sources: false
+  method: generated
+  name: Salesforce Knowledge Management Finops
+  primary_unit: ''
   service_category: API
   slug: salesforce-knowledge-management-finops
+  template: true
 image: https://www.salesforce.com/content/dam/web/en_us/www/images/sf-logo.svg
 json_schemas:
 - name: Salesforce Knowledge Article
@@ -233,7 +237,7 @@ modified: '2026-05-19'
 name: Salesforce Knowledge Management
 nav: Providers
 network: true
-overview: 'Salesforce Knowledge Management publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Articles API, Categories API, Search API, and 2 more. Tagged areas include Articles, CRM, Customer Service, Documentation, and Knowledge Management.
+overview: 'Salesforce Knowledge Management publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Articles API, Categories API, Search API, and 2 more. Tagged areas include Articles, CRM, Customer Service, Documentation, and Knowledge Management.
 
 
   The Salesforce Knowledge Management catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -250,9 +254,10 @@ rate_limits:
   name: Salesforce Knowledge Management Rate Limits
   slug: salesforce-knowledge-management-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Salesforce Knowledge Management API Rules
+  name: Salesforce Knowledge Management — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -260,7 +265,8 @@ rules:
     info: 2
     warn: 3
   slug: salesforce-knowledge-management-jsonschema-spectral-rules
-- effective_rule_count: 9
+- authorship: unmarked
+  effective_rule_count: 9
   extends: []
   name: Salesforce Knowledge Management API Rules
   rule_count: 9
@@ -277,17 +283,17 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: developing
-  composite: 44.8
+  composite: 43.3
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 61.8
+    artifact_dirs: 21
+    catalog_earned: 58.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.3
+    catalog_gap: 56.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 36.8
+    access_clarity: 28.9
     contract_governance: 23.5
     contract_quality: 56.1
     developer_ergonomics: 44.0
@@ -307,8 +313,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 9
+- acting_count: 7
   human_in_the_loop: 1
   name: Selenium Agentic Access
   operation_count: 13
   slug: selenium-agentic-access
-  summary_line: 13 operations · 9 acting · 1 human-in-the-loop
+  summary_line: 13 operations · 7 acting · 1 human-in-the-loop
 api_count: 1
 apis:
 - description: WebDriver is a browser automation framework that accepts commands and sends them to a browser. It is implemented through a browser-specific driver that sends commands to a browser and retrieves result
@@ -110,6 +110,11 @@ collections:
   name: Selenium WebDriver (W3C Wire Protocol)
   slug: open-selenium
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/selenium/refs/heads/main/finops/selenium-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/selenium-finops.yml
 - group: company
   title: ''
   type: Website
@@ -278,22 +283,26 @@ common:
 created: '2024-01-01'
 description: 'Selenium is the open-source browser automation project behind the W3C WebDriver and WebDriver BiDi standards. It drives real browsers through a vendor-neutral, standardised HTTP wire protocol that the browser vendors implement themselves, with official language bindings for Java, Python, C#, Ruby and JavaScript, all released in lockstep. The suite covers WebDriver (the browser-control protocol), Selenium Grid (distributed, parallel execution across machines and platforms), Selenium Manager (a Rust CLI that resolves and downloads matching browser drivers automatically) and Selenium IDE (record and playback). Selenium is self-hosted software rather than a service: there is no vendor-operated API host, no account and no pricing — the remote end runs on infrastructure the consumer owns, at a documented default of http://localhost:4444, under Apache-2.0 and the stewardship of the Software Freedom Conservancy.'
 finops:
-- name: Selenium Finops
+- has_sources: false
+  method: generated
+  name: Selenium Finops
+  primary_unit: ''
   service_category: API
   slug: selenium-finops
+  template: true
 image: https://www.selenium.dev/images/selenium-logo.svg
 layout: provider
 modified: '2026-08-26'
 name: Selenium
 nav: Providers
 network: true
-overview: 'Selenium publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Cookies API, Elements API, Navigation API, and 5 more. Tagged areas include Automation, Browser, End-to-End Testing, Quality Assurance, and Testing.
+overview: 'Selenium publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Cookies API, Elements API, Navigation API, and 5 more. Tagged areas include Automation, Browser, End-to-End Testing, Quality Assurance, and Testing.
 
 
   The Selenium catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Selenium''s developer surface includes engineering blog, support, documentation, API reference, getting-started guide, CLI, authentication, and 29 more developer resources.'
+  Selenium''s developer surface includes engineering blog, support, documentation, API reference, getting-started guide, CLI, authentication, and 30 more developer resources.'
 plans:
 - name: Selenium Plans Pricing
   plan_count: 0
@@ -304,18 +313,18 @@ rate_limits:
   name: Selenium Rate Limits
   slug: selenium-rate-limits
 score:
-  band: developing
-  composite: 39.6
+  band: thin
+  composite: 38.1
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 35.0
+    artifact_dirs: 27
+    catalog_earned: 32.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 80.0
+    catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 7.9
+    access_clarity: 0.0
     contract_governance: 18.2
     contract_quality: 44.7
     developer_ergonomics: 73.2
@@ -338,8 +347,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

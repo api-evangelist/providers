@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 59
+- acting_count: 58
   human_in_the_loop: 2
   name: Qwiet Ai Agentic Access
-  operation_count: 145
+  operation_count: 150
   slug: qwiet-ai-agentic-access
-  summary_line: 145 operations · 59 acting · 2 human-in-the-loop
+  summary_line: 150 operations · 58 acting · 2 human-in-the-loop
 api_count: 2
 apis:
 - baseURL: https://app.shiftleft.io/api/v4
@@ -428,7 +428,7 @@ modified: '2026-08-08'
 name: Qwiet Ai
 nav: Providers
 network: true
-overview: 'Qwiet Ai publishes 27 APIs on the [APIs.io](https://apis.io/) network, including Alerting API, Analyze API, App Groups API, and 24 more. Tagged areas include Company, Security, Application Security, SAST, and SCA.
+overview: 'Qwiet Ai publishes 27 API contracts indexed on the [APIs.io](https://apis.io/) network, including Alerting API, Analyze API, App Groups API, and 24 more. Tagged areas include Company, Security, Application Security, SAST, and Software Composition Analysis.
 
 
   The Qwiet Ai catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -440,7 +440,7 @@ score:
   band: developing
   composite: 52.7
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -471,8 +471,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -493,7 +493,7 @@ tags:
 - Security
 - Application Security
 - SAST
-- SCA
+- Software Composition Analysis
 - Code Security
 - Vulnerability Management
 - DevSecOps

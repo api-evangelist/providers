@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -69,7 +69,7 @@ apis:
   description: Discover the workspaces available to the authenticated key.
   name: Rows Workspaces API
   slug: rows-workspaces-api
-artifact_total: 16
+artifact_total: 17
 collections:
 - collection_type: open
   name: API Collection
@@ -90,6 +90,11 @@ collections:
   name: Rows Data Workspaces API
   slug: open-rows-workspaces-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/rows/refs/heads/main/plans/rows-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/rows-plans-pricing.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/rows/refs/heads/main/mcp/rows-mcp.yml
   title: ''
@@ -226,24 +231,28 @@ modified: '2026-07-21'
 name: Rows
 nav: Providers
 network: true
-overview: 'Rows publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Data API, Folders API, Spreadsheets API, and 2 more. Tagged areas include Company, Productivity, Spreadsheets, Data, and No-Code.
+overview: 'Rows publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Data API, Folders API, Spreadsheets API, and 2 more. Tagged areas include Company, Productivity, Spreadsheets, Data, and No-Code.
 
 
-  Rows'' developer surface includes documentation, API reference, engineering blog, pricing, changelog, authentication, and 22 more developer resources.'
+  Rows'' developer surface includes documentation, API reference, engineering blog, pricing, changelog, authentication, and 23 more developer resources.'
+plans:
+- name: Rows Plans Pricing
+  plan_count: 6
+  slug: rows-plans-pricing
 random_paper: 19
 score:
-  band: thin
-  composite: 34.5
+  band: developing
+  composite: 40.8
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 22
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.3
   facets:
-    access_clarity: 47.4
+    access_clarity: 78.9
     contract_governance: 4.5
     contract_quality: 13.1
     developer_ergonomics: 41.1
@@ -270,9 +279,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

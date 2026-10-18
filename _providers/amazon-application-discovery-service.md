@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 26
+- acting_count: 23
   human_in_the_loop: 2
   name: Amazon Application Discovery Service Agentic Access
   operation_count: 26
   slug: amazon-application-discovery-service-agentic-access
-  summary_line: 26 operations · 26 acting · 2 human-in-the-loop
+  summary_line: 26 operations · 23 acting · 2 human-in-the-loop
 api_count: 6
 apis:
 - baseURL: https://discovery.us-east-1.amazonaws.com
@@ -784,7 +784,7 @@ modified: '2026-09-16'
 name: Amazon Application Discovery Service
 nav: Providers
 network: true
-overview: 'Amazon Application Discovery Service publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Applications API, Configurations API, and 3 more. Tagged areas include Amazon Application Discovery Service, Migration, Discovery, and Infrastructure.
+overview: 'Amazon Application Discovery Service is listed with 6 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Applications API, Configurations API, and 3 more. Tagged areas include Amazon Application Discovery Service, Migration, Discovery, and Infrastructure.
 
 
   The Amazon Application Discovery Service catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -793,9 +793,10 @@ overview: 'Amazon Application Discovery Service publishes 6 APIs on the [APIs.io
   Amazon Application Discovery Service''s developer surface includes authentication and 10 more developer resources.'
 random_paper: 16
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Amazon Application Discovery Service API Rules
+  name: Amazon Application Discovery Service — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -803,7 +804,8 @@ rules:
     info: 2
     warn: 3
   slug: amazon-application-discovery-service-jsonschema-spectral-rules
-- effective_rule_count: 69
+- authorship: generated
+  effective_rule_count: 69
   extends:
   - spectral:oas
   name: Amazon Application Discovery Service API Rules
@@ -816,7 +818,7 @@ rules:
   slug: amazon-application-discovery-service-spectral-rules
 score:
   band: emerging
-  composite: 21.4
+  composite: 21.5
   coverage:
     artifact_dirs: 21
     catalog_earned: 64.0
@@ -824,7 +826,7 @@ score:
     catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 0.0
     contract_governance: 31.8
@@ -848,8 +850,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

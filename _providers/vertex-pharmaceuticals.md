@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Vertex Pharmaceuticals provides qualified researchers with access to clinical trial data through a formal data request and scientific review process. Researchers can submit proposals to access anonymi
@@ -41,6 +41,21 @@ apis:
   slug: clinical-trials-data-sharing
 artifact_total: 5
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/vertex-pharmaceuticals/refs/heads/main/plans/vertex-pharmaceuticals-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/vertex-pharmaceuticals-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/vertex-pharmaceuticals/refs/heads/main/rate-limits/vertex-pharmaceuticals-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/vertex-pharmaceuticals-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/vertex-pharmaceuticals/refs/heads/main/finops/vertex-pharmaceuticals-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/vertex-pharmaceuticals-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/vertex-pharmaceuticals/refs/heads/main/security/vertex-pharmaceuticals-domain-security.yml
   title: ''
@@ -85,19 +100,23 @@ common:
 created: '2026-05-03'
 description: Vertex Pharmaceuticals is a global biotechnology company headquartered in Boston, Massachusetts, focused on scientific innovation to create transformative medicines for people with serious diseases. The company specializes in cystic fibrosis, sickle cell disease, beta thalassemia, APOL1-mediated kidney disease, pain, and other serious conditions. Vertex is committed to responsible sharing of clinical trial data with qualified researchers through formal data request processes.
 finops:
-- name: Vertex Pharmaceuticals Finops
+- has_sources: true
+  method: generated
+  name: Vertex Pharmaceuticals Finops
+  primary_unit: ''
   service_category: Pharmaceuticals
   slug: vertex-pharmaceuticals-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vertex-pharmaceuticals.png
 layout: provider
 modified: '2026-05-03'
 name: Vertex Pharmaceuticals
 nav: Providers
 network: true
-overview: 'Vertex Pharmaceuticals publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Biotechnology, Clinical Trials, Drug Discovery, Healthcare, and Life Sciences.
+overview: 'Vertex Pharmaceuticals is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Biotechnology, Clinical Trials, Drug Discovery, Healthcare, and Life Sciences.
 
 
-  Vertex Pharmaceuticals'' developer surface includes developer portal, engineering blog, and 8 more developer resources.'
+  Vertex Pharmaceuticals'' developer surface includes developer portal, engineering blog, and 11 more developer resources.'
 plans:
 - name: Vertex Pharmaceuticals Plans Pricing
   plan_count: 1
@@ -108,18 +127,18 @@ rate_limits:
   name: Vertex Pharmaceuticals Rate Limits
   slug: vertex-pharmaceuticals-rate-limits
 score:
-  band: emerging
-  composite: 12.2
+  band: minimal
+  composite: 10.6
   coverage:
-    artifact_dirs: 7
-    catalog_earned: 39.0
+    artifact_dirs: 8
+    catalog_earned: 36.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 76.0
+    catalog_gap: 79.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 13.2
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 21.4
@@ -139,8 +158,8 @@ score:
     regime: Health
     regime_id: health
     score: 4.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

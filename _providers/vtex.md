@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.3
-  scored_at: '2026-10-04'
+  score: 30.4
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 386
+- acting_count: 382
   human_in_the_loop: 22
   name: Vtex Agentic Access
   operation_count: 692
   slug: vtex-agentic-access
-  summary_line: 692 operations · 386 acting · 22 human-in-the-loop
+  summary_line: 692 operations · 382 acting · 22 human-in-the-loop
 api_count: 44
 apis:
 - baseURL: https://{providerApiEndpoint}
@@ -1184,6 +1184,21 @@ collections:
   name: VTex Anti-fraud Provider Account Warehouses API
   slug: open-vtex-warehouses-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/vtex/refs/heads/main/plans/vtex-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/vtex-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/vtex/refs/heads/main/rate-limits/vtex-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/vtex-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/vtex/refs/heads/main/finops/vtex-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/vtex-finops.yml
 - group: company
   title: ''
   type: Website
@@ -2668,9 +2683,13 @@ features:
 - Data residency in multiple regions
 - AppKey/AppToken auth
 finops:
-- name: Vtex Finops
+- has_sources: true
+  method: generated
+  name: Vtex Finops
+  primary_unit: ''
   service_category: Composable Commerce
   slug: vtex-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vtex.png
 json_schemas:
 - name: 1.CreateanewtransactionRequest
@@ -4655,13 +4674,13 @@ modified: '2026-05-19'
 name: VTEX
 nav: Providers
 network: true
-overview: 'VTEX publishes 142 APIs on the [APIs.io](https://apis.io/) network, including Account API, Addresses API, Anti-Fraud Flow API, and 139 more. Tagged areas include Commerce, E-Commerce, Retail, Marketplace, and Payments.
+overview: 'VTEX publishes 142 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Addresses API, Anti-Fraud Flow API, and 139 more. Tagged areas include Commerce, E-Commerce, Retail, Marketplace, and Payments.
 
 
   The VTEX catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  VTEX''s developer surface includes authentication, developer portal, changelog, support, engineering blog, and 16 more developer resources.'
+  VTEX''s developer surface includes authentication, developer portal, changelog, support, engineering blog, and 19 more developer resources.'
 plans:
 - name: Vtex Plans Pricing
   plan_count: 2
@@ -4672,9 +4691,10 @@ rate_limits:
   name: Vtex Rate Limits
   slug: vtex-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: VTEX API Rules
+  name: VTEX — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -4682,7 +4702,8 @@ rules:
     info: 2
     warn: 3
   slug: vtex-jsonschema-spectral-rules
-- effective_rule_count: 51
+- authorship: unmarked
+  effective_rule_count: 51
   extends:
   - spectral:oas
   name: VTEX API Rules
@@ -4695,23 +4716,23 @@ rules:
   slug: vtex-rules
 score:
   band: developing
-  composite: 47.7
+  composite: 46.1
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 68.0
+    artifact_dirs: 19
+    catalog_earned: 65.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 47.0
+    catalog_gap: 50.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: -1.6
   facets:
-    access_clarity: 13.2
+    access_clarity: 5.3
     contract_governance: 27.3
     contract_quality: 56.9
     developer_ergonomics: 45.2
     discoverability: 71.4
     operational_transparency: 44.7
-  previous_composite: 47.1
+  previous_composite: 47.7
   provenance:
     agentic_access: derived
     contracts:
@@ -4725,8 +4746,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 20.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

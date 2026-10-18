@@ -35,10 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 5
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.mursion.com/blog/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/mursion/refs/heads/main/security/mursion-domain-security.yml
   title: ''
@@ -170,14 +174,14 @@ created: '2026-08-26'
 description: Mursion is an AI-powered immersive upskilling platform that trains workforce soft skills — leadership, customer service, sales, healthcare communication and difficult conversations — through simulated conversations with virtual avatars. Simulations run either human-powered (Mursion Live, where a certified Simulation Specialist puppets the avatar in real time) or AI-powered (Mursion On-Demand), and are delivered and administered through the Mursion Portal, a browser-based web application for scheduling, cohorts, pathways, session reports and learner analytics. Mursion publishes no public developer program, API reference or machine-readable contract; its documented integration surface is enterprise identity — SAML 2.0 and OpenID Connect single sign-on with just-in-time provisioning and team assignment via an IdP claim — documented in the customer-facing knowledge base for IT teams.
 image: https://www.mursion.com/wp-content/uploads/2022/10/Mursion-Logo.svg
 layout: provider
-modified: '2026-08-26'
+modified: '2026-10-06'
 name: Mursion
 nav: Providers
 network: true
 overview: 'Mursion is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Learning and Development, Corporate Training, Simulation, and Immersive Learning.
 
 
-  Mursion''s developer surface includes documentation, support, engineering blog, signup flow, FAQ, changelog, authentication, and 18 more developer resources.'
+  Mursion''s developer surface includes documentation, support, engineering blog, signup flow, FAQ, changelog, authentication, and 19 more developer resources.'
 plans:
 - name: Mursion Plans Pricing
   plan_count: 0
@@ -191,7 +195,7 @@ score:
   band: emerging
   composite: 22.6
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -215,8 +219,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 22.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

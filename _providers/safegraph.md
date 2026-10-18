@@ -32,10 +32,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.safegraph.com/blog/6-reasons-why-data-scientists-choose-safegraph-data/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.safegraph.com/feed/
 - group: company
   title: ''
   type: Website
@@ -97,14 +105,14 @@ created: '2026-07-17'
 description: SafeGraph is a geospatial data company that builds and maintains high-quality Point of Interest (POI), building geometry, and geocoded address datasets used for location intelligence, site selection, competitive analysis, and machine-learning models. Its core products are Places (millions of POIs with base, rich, and premium attributes), Geometry (building-footprint polygons), Address (structured geocoded addresses across 25+ countries), and Spend (transaction data). Rather than a hosted REST API, SafeGraph delivers data as bulk parquet files via S3, Snowflake, AWS Data Exchange, CARTO, Databricks, and ArcGIS. Surfaced originally as a Sapphire Ventures portfolio company and enriched here from SafeGraph's public documentation, changelog, and packages.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/safegraph.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: SafeGraph
 nav: Providers
 network: true
 overview: 'SafeGraph is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data Analytics, Location Intelligence, Points of Interest, and Geospatial.
 
 
-  SafeGraph''s developer surface includes documentation, engineering blog, pricing, changelog, and 9 more developer resources.'
+  SafeGraph''s developer surface includes engineering blog, documentation, pricing, changelog, and 11 more developer resources.'
 random_paper: 21
 score:
   band: emerging
@@ -131,8 +139,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

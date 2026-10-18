@@ -32,13 +32,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: REST API for managing rental properties, tenants, leases, maintenance requests, accounting, and online rent payment processing on the TenantCloud platform.
   name: TenantCloud API
   slug: tenantcloud-api
-artifact_total: 4
+artifact_total: 5
 common:
 - group: company
   title: ''
@@ -96,19 +96,27 @@ common:
 created: '2026-06-13'
 description: Cloud-based property management platform with a REST API for managing rentals, tenants, leases, maintenance, accounting, and online rent payment processing. The API enables landlords, property managers, and developers to automate daily tasks and build integrations on top of the TenantCloud platform.
 finops:
-- name: Finops
+- has_sources: false
+  method: generated
+  name: Finops
+  primary_unit: ''
   service_category: ''
   slug: finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tenantcloud.png
 layout: provider
 modified: '2026-06-13'
 name: TenantCloud
 nav: Providers
 network: true
-overview: 'TenantCloud publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Property Management, Real Estate, Rentals, Tenant Management, and Lease Management.
+overview: 'TenantCloud is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Property Management, Real Estate, Rentals, Tenant Management, and Lease Management.
 
 
   TenantCloud''s developer surface includes pricing, engineering blog, release notes, support, signup flow, getting-started guide, and 7 more developer resources.'
+plans:
+- name: Plans
+  plan_count: 4
+  slug: plans
 random_paper: 19
 rate_limits:
 - limit_count: 0
@@ -139,8 +147,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 5.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

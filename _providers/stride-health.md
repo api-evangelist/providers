@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.stridehealth.com/post?format=rss
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/stride-health/refs/heads/main/security/stride-health-domain-security.yml
   title: ''
@@ -65,14 +69,14 @@ created: '2026-07-17'
 description: Stride Health is a benefits platform that helps independent, gig, and part-time workers access portable benefits that stay with the individual regardless of where or how they work. Stride connects people to affordable health, dental, vision, and life insurance, and provides tax tools, mileage/expense tracking, and savings features for the self-employed. The company reports 4.6 million independent workers served, $8+ billion saved on insurance and taxes, and 130+ partner companies. Stride operates a private B2B partner integration (embedded in partner apps such as gig-work platforms) but publishes no public developer API, API documentation, or developer portal.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/stride-health.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Stride Health
 nav: Providers
 network: true
 overview: 'Stride Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Insurance, Health Insurance, and Benefits.
 
 
-  Stride Health''s developer surface includes engineering blog, support, and 4 more developer resources.'
+  Stride Health''s developer surface includes engineering blog, support, and 5 more developer resources.'
 random_paper: 6
 score:
   band: minimal
@@ -99,8 +103,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 12.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

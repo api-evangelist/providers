@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 36.3
-  scored_at: '2026-10-04'
+  score: 34.4
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -73,6 +73,25 @@ collections:
   name: AWS IoT V2 Greengrass Tags API
   slug: open-amazon-iot-greengrass-tags-api
 common:
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://aws.amazon.com/greengrass/pricing/
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-iot-greengrass/refs/heads/main/rate-limits/amazon-iot-greengrass-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/amazon-iot-greengrass-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-iot-greengrass/refs/heads/main/finops/amazon-iot-greengrass-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/amazon-iot-greengrass-finops.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-iot-greengrass/refs/heads/main/plans/amazon-iot-greengrass-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/amazon-iot-greengrass-plans-pricing.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -565,9 +584,13 @@ features:
 - description: Enable MQTT messaging between local IoT devices without cloud round-trips.
   name: Local Messaging
 finops:
-- name: Amazon Iot Greengrass Finops
+- has_sources: false
+  method: generated
+  name: Amazon Iot Greengrass Finops
+  primary_unit: ''
   service_category: API
   slug: amazon-iot-greengrass-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amazon-iot-greengrass.png
 json_schemas:
 - name: AssociateClientDeviceWithCoreDeviceEntryList
@@ -1457,16 +1480,16 @@ modified: '2026-09-16'
 name: Amazon IoT Greengrass
 nav: Providers
 network: true
-overview: 'Amazon IoT Greengrass publishes 2 APIs on the [APIs.io](https://apis.io/) network, including Tags API, and 1 more. Tagged areas include Edge Computing, IoT, Lambda, Machine Learning, and Real-Time Processing.
+overview: 'Amazon IoT Greengrass publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network, including Tags API, and 1 more. Tagged areas include Edge Computing, IoT, Lambda, Machine Learning, and Real-Time Processing.
 
 
   The Amazon IoT Greengrass catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon IoT Greengrass'' developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 15 more developer resources.'
+  Amazon IoT Greengrass'' developer surface includes pricing, authentication, developer portal, documentation, support, engineering blog, developer console, and 19 more developer resources.'
 plans:
 - name: Amazon Iot Greengrass Plans Pricing
-  plan_count: 3
+  plan_count: 2
   slug: amazon-iot-greengrass-plans-pricing
 random_paper: 7
 rate_limits:
@@ -1474,9 +1497,10 @@ rate_limits:
   name: Amazon Iot Greengrass Rate Limits
   slug: amazon-iot-greengrass-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Amazon IoT Greengrass API Rules
+  name: Amazon IoT Greengrass — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1484,7 +1508,8 @@ rules:
     info: 2
     warn: 3
   slug: amazon-iot-greengrass-jsonschema-spectral-rules
-- effective_rule_count: 61
+- authorship: generated
+  effective_rule_count: 61
   extends:
   - spectral:oas
   name: Amazon IoT Greengrass API Rules
@@ -1497,17 +1522,17 @@ rules:
   slug: amazon-iot-greengrass-spectral-rules
 score:
   band: strong
-  composite: 55.2
+  composite: 56.3
   coverage:
     artifact_dirs: 18
-    catalog_earned: 66.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 49.0
+    catalog_earned: 68.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 47.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.1
   facets:
-    access_clarity: 61.8
+    access_clarity: 67.1
     contract_governance: 27.3
     contract_quality: 59.6
     developer_ergonomics: 58.3
@@ -1527,8 +1552,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

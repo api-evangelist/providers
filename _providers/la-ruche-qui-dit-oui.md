@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 4
 apis:
 - baseURL: https://api.thefoodassembly.com
@@ -74,6 +74,10 @@ collections:
   name: The Food Assembly Assemblies Sale API
   slug: open-la-ruche-qui-dit-oui-sale-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://laruchequiditoui.fr/fr/what-the-field/feed/
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/la-ruche-qui-dit-oui/refs/heads/main/mcp/la-ruche-qui-dit-oui-mcp.yml
   title: ''
@@ -161,20 +165,20 @@ created: '2026-07-17'
 description: La Ruche qui dit Oui! is a French direct-from-farmer food marketplace, founded in Paris in 2010 and known in English-speaking markets as The Food Assembly. It connects members with local and European producers through neighbourhood assemblies ("ruches" / hives) and, since a May 2025 merger with CrowdFarming, through direct home delivery of seasonal boxes, subscriptions and harvest "adoptions" in which a member reserves the output of a specific tree, hive or plot for a season. The company operated a public member-facing REST API documented as the Food Assembly API — OAuth 2 token issuance, assembly membership, distribution product and offer listings, and the basket/order payment flow — published as an API Blueprint in the lrqdo/developer repository. That developer documentation has not been updated since 2017, and there is no current developer portal, but the API host remains live behind bearer authentication.
 image: https://laruchequiditoui.fr/img/seo/og-image.jpg
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: La Ruche qui dit Oui!
 nav: Providers
 network: true
-overview: 'La Ruche qui dit Oui! publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Assemblies API, Authentication API, Orders API, and 1 more. Tagged areas include Company, Food, Agriculture, Marketplace, and E-Commerce.
+overview: 'La Ruche qui dit Oui! is listed with 4 APIs on the [APIs.io](https://apis.io/) network, including Assemblies API, Authentication API, Orders API, and 1 more. Tagged areas include Company, Food, Agriculture, Marketplace, and E-Commerce.
 
 
-  La Ruche qui dit Oui!''s developer surface includes authentication, support, signup flow, engineering blog, and 14 more developer resources.'
+  La Ruche qui dit Oui!''s developer surface includes authentication, support, signup flow, engineering blog, and 15 more developer resources.'
 random_paper: 17
 score:
   band: emerging
   composite: 24.3
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 18
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -212,12 +216,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
     score: 0.0
+screenshot: https://raw.githubusercontent.com/api-evangelist/la-ruche-qui-dit-oui/refs/heads/main/screenshots/la-ruche-qui-dit-oui-2026-10-11T191056.png
 security:
 - kind: authentication
   name: La Ruche Qui Dit Oui Authentication

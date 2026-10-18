@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - baseURL: https://southendonsea.city/
@@ -33,6 +33,10 @@ apis:
   slug: southendonsea-southend-now-api
 artifact_total: 7
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://southendonsea.city/feed.xml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/southendonsea/refs/heads/main/well-known/southendonsea-well-known.yml
   title: ''
@@ -119,14 +123,14 @@ mcp_servers:
 - description: MCP server; 3 tools listed. A candidate, not confirmed as published by the provider.
   name: SouthendOnSea.city MCP Server
   slug: southendonsea-mcp-yml
-modified: '2026-09-03'
+modified: '2026-10-06'
 name: SouthendOnSea.city
 nav: Providers
 network: true
-overview: 'SouthendOnSea.city publishes 1 API on the [APIs.io](https://apis.io/) network: Southend Now API. Tagged areas include Open Data, Southend-on-Sea, Weather, Environment, and local data.
+overview: 'SouthendOnSea.city publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Southend Now API. Tagged areas include Open Data, Southend-on-Sea, Weather, Environment, and local data.
 
 
-  SouthendOnSea.city''s developer surface includes authentication, support, documentation, and 13 more developer resources.'
+  SouthendOnSea.city''s developer surface includes authentication, support, documentation, and 14 more developer resources.'
 plans:
 - name: Southendonsea Plans Pricing
   plan_count: 0
@@ -140,7 +144,7 @@ score:
   band: thin
   composite: 30.7
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -170,8 +174,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

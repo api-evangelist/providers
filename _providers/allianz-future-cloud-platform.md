@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -320,7 +320,7 @@ modified: '2026-06-20'
 name: Allianz Future Cloud Platform
 nav: Providers
 network: true
-overview: 'Allianz Future Cloud Platform publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Deployments API, Infrastructure API, Namespaces API, and 2 more. Tagged areas include Cloud Platform, Enterprise, Financial Services, Insurance, and Platform Engineering.
+overview: 'Allianz Future Cloud Platform is listed with 5 APIs on the [APIs.io](https://apis.io/) network, including Deployments API, Infrastructure API, Namespaces API, and 2 more. Tagged areas include Cloud Platform, Enterprise, Financial Services, Insurance, and Platform Engineering.
 
 
   The Allianz Future Cloud Platform catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -329,9 +329,10 @@ overview: 'Allianz Future Cloud Platform publishes 5 APIs on the [APIs.io](https
   Allianz Future Cloud Platform''s developer surface includes authentication, documentation, engineering blog, and 14 more developer resources.'
 random_paper: 5
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Allianz Future Cloud Platform API Rules
+  name: Allianz Future Cloud Platform — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -339,7 +340,8 @@ rules:
     info: 1
     warn: 4
   slug: allianz-future-cloud-platform-jsonschema-spectral-rules
-- effective_rule_count: 73
+- authorship: generated
+  effective_rule_count: 73
   extends:
   - spectral:oas
   name: Allianz Future Cloud Platform API Rules
@@ -359,7 +361,7 @@ score:
   band: emerging
   composite: 26.1
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 69.0
     catalog_earned_first_party: 0.0
     catalog_gap: 46.0
@@ -389,8 +391,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 35.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

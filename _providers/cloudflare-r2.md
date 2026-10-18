@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.1
-  scored_at: '2026-10-04'
+  score: 26.2
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 2
@@ -163,6 +163,10 @@ collections:
   slug: open-cloudflare-r2-table-management-api
 common:
 - group: other
+  title: ''
+  type: ParentCompany
+  url: https://www.cloudflare.com/
+- group: other
   href: https://raw.githubusercontent.com/api-evangelist/cloudflare-r2/refs/heads/main/capabilities/cloudflare-r2-capability-edges.yml
   title: ''
   type: CapabilityMap
@@ -270,9 +274,13 @@ examples:
   name: Cloudflare R2 Temp Credentials Example
   slug: cloudflare-r2-temp-credentials-example
 finops:
-- name: Cloudflare R2 Finops
+- has_sources: false
+  method: generated
+  name: Cloudflare R2 Finops
+  primary_unit: ''
   service_category: ''
   slug: cloudflare-r2-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cloudflare-r2.png
 json_schemas:
 - name: R2 Bucket
@@ -303,13 +311,13 @@ modified: 2026-06-13
 name: Cloudflare R2
 nav: Providers
 network: true
-overview: 'Cloudflare R2 publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Buckets API, CORS API, Credential Management API, and 11 more. Tagged areas include Object Storage, Cloud Storage, S3 Compatible, Egress-Free, and Buckets.
+overview: 'Cloudflare R2 publishes 14 API contracts indexed on the [APIs.io](https://apis.io/) network, including Buckets API, CORS API, Credential Management API, and 11 more. Tagged areas include Object Storage, Cloud Storage, S3 Compatible, Egress-Free, and Buckets.
 
 
   The Cloudflare R2 catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Cloudflare R2''s developer surface includes authentication, documentation, engineering blog, pricing, and 17 more developer resources.'
+  Cloudflare R2''s developer surface includes authentication, documentation, engineering blog, pricing, and 18 more developer resources.'
 plans:
 - name: Cloudflare R2 Plans Pricing
   plan_count: 3
@@ -320,9 +328,10 @@ rate_limits:
   name: Cloudflare R2 Rate Limits
   slug: cloudflare-r2-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Cloudflare R2 API Rules
+  name: Cloudflare R2 — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -331,23 +340,23 @@ rules:
     warn: 3
   slug: cloudflare-r2-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 42.5
+  band: thin
+  composite: 35.0
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 72.9
+    artifact_dirs: 19
+    catalog_earned: 54.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 42.1
+    catalog_gap: 60.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.5
   facets:
-    access_clarity: 46.8
+    access_clarity: 18.4
     contract_governance: 9.8
     contract_quality: 58.1
     developer_ergonomics: 21.4
     discoverability: 66.1
-    operational_transparency: 49.5
+    operational_transparency: 28.9
   open_source:
     applies: true
     score: 40.0
@@ -365,9 +374,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

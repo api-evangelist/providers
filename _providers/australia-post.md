@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.8
-  scored_at: '2026-10-04'
+  score: 22.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -68,6 +68,21 @@ collections:
   name: Delivery Partner Endpoints API
   slug: open-australia-post-endpoints-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/australia-post/refs/heads/main/plans/australia-post-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/australia-post-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/australia-post/refs/heads/main/rate-limits/australia-post-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/australia-post-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/australia-post/refs/heads/main/finops/australia-post-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/australia-post-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/australia-post/refs/heads/main/capabilities/australia-post-capability-edges.yml
   title: ''
@@ -173,9 +188,13 @@ features:
 - OpenAPI definitions available for Locations and Delivery Partner APIs; Swagger code generation supported
 - API status monitoring at status.developers.auspost.com.au
 finops:
-- name: Australia Post Finops
+- has_sources: true
+  method: generated
+  name: Australia Post Finops
+  primary_unit: ''
   service_category: Logistics / Shipping
   slug: australia-post-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/australia-post.png
 json_schemas:
 - name: ArticleVO
@@ -243,13 +262,13 @@ modified: '2026-06-13'
 name: Australia Post
 nav: Providers
 network: true
-overview: 'Australia Post publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Endpoints API, and 3 more. Tagged areas include Address Validation, Click and Collect, Delivery, E-Commerce, and Labels.
+overview: 'Australia Post publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Endpoints API, and 3 more. Tagged areas include Address Validation, Click and Collect, Delivery, E-Commerce, and Labels.
 
 
   The Australia Post catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Australia Post''s developer surface includes authentication, documentation, getting-started guide, signup flow, and 14 more developer resources.'
+  Australia Post''s developer surface includes authentication, documentation, getting-started guide, signup flow, and 17 more developer resources.'
 plans:
 - name: Australia Post Plans Pricing
   plan_count: 4
@@ -260,9 +279,10 @@ rate_limits:
   name: Australia Post Rate Limits
   slug: australia-post-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Australia Post API Rules
+  name: Australia Post — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -271,23 +291,23 @@ rules:
     warn: 4
   slug: australia-post-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 44.0
+  band: thin
+  composite: 35.7
   coverage:
-    artifact_dirs: 16
-    catalog_earned: 64.9
+    artifact_dirs: 17
+    catalog_earned: 46.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 50.1
+    catalog_gap: 68.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 46.8
+    access_clarity: 18.4
     contract_governance: 9.8
     contract_quality: 49.3
     developer_ergonomics: 42.9
     discoverability: 66.1
-    operational_transparency: 44.2
+    operational_transparency: 23.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -309,9 +329,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

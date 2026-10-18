@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: ENS-PSL runs its own Shibboleth identity provider under its own registrable domain. The SAML 2.0 entity descriptor is served at https://federation.ens.psl.eu/idp/shibboleth (HTTP 200, application/xml)
@@ -130,9 +130,13 @@ created: '2026-06-03'
 description: 'École normale supérieure - PSL (ENS, rue d''Ulm) is a French grande école and constituent institution of Université PSL, running 15 departments, 35 research laboratories and a ten-library network in the Quartier latin of Paris. ENS publishes no developer portal, no OpenAPI description and no API key programme, and this profile does not pretend otherwise. What it does operate, verified live on 2026-08-30, is two machine-readable surfaces on its own domain: a SAML 2.0 / Shibboleth identity provider at federation.ens.psl.eu, registered in the RENATER Fédération Éducation-Recherche with scopes ens.fr and ens.psl.eu; and the ENS-PSL library catalogue at catalogue.bib.ens.psl.eu, a Koha deployment exposing an unauthenticated REST API and an OAI-PMH 2.0 provider whose Identify names the repository "bibliothèques de l''ENS-PSL". Alongside those, ENS holds one tenant relationship worth recording — the ENS-PARIS collection inside the national HAL open archive, operated by CCSD/CNRS,
   harvestable as the OAI-PMH set collection:ENS-PARIS and queryable through HAL''s ENS-scoped Search API. An earlier version of this profile credited ENS with the French Ministry of Higher Education''s Opendatasoft Explore API; that contract is Opendatasoft''s, deployed by the ministry, and it and everything derived from it were removed on 2026-08-30.'
 finops:
-- name: Ens Paris Finops
+- has_sources: true
+  method: generated
+  name: Ens Paris Finops
+  primary_unit: ''
   service_category: Education
   slug: ens-paris-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ens-paris.png
 jsonld:
 - class_count: 7
@@ -144,7 +148,7 @@ modified: '2026-08-30'
 name: École Normale Supérieure de Paris
 nav: Providers
 network: true
-overview: 'École Normale Supérieure de Paris publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include University, Higher Education, Education, France, and Université PSL.
+overview: 'École Normale Supérieure de Paris is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include University, Higher Education, Education, France, and Université PSL.
 
 
   The École Normale Supérieure de Paris catalog on APIs.io includes 1 JSON-LD context.
@@ -162,17 +166,17 @@ rate_limits:
   slug: ens-paris-rate-limits
 score:
   band: emerging
-  composite: 22.2
+  composite: 20.6
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 55.0
+    artifact_dirs: 12
+    catalog_earned: 52.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 60.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: -1.6
   facets:
-    access_clarity: 23.7
+    access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 14.3
     developer_ergonomics: 28.6
@@ -186,7 +190,7 @@ score:
     regions:
     - europe
     - france-iberia
-  previous_composite: 23.8
+  previous_composite: 22.2
   provenance:
     conformance: first-party
   regulatory:
@@ -195,8 +199,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 20.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

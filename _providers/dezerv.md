@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.dezerv.in/blog/feed/
 - group: company
   title: ''
   type: Website
@@ -77,20 +81,20 @@ created: '2026-07-17'
 description: Dezerv (Dezerv Investments Private Limited) is an Indian wealth-management platform building a house of investment solutions for affluent Indians. It offers discretionary Portfolio Management Services (PMS), curated mutual-fund portfolios, bonds, an Investment Portfolio Analyser (IPA), a Wealth Monitor for tracking held-away assets, and ESOP financing, alongside a research-led investment philosophy and a weekly money newsletter. Dezerv is a SEBI-registered Portfolio Manager (INP000007377) and Investment Manager to a Category-I AIF / Angel Fund; mutual-fund distribution is via its AMFI-registered subsidiary. The company is client-facing (client.dezerv.in portal) and does not publish a public developer API surface. This API Evangelist profile enriches the company identity, links, and security posture rather than an API.
 image: https://framerusercontent.com/assets/pYcX2DwUVTEKGhwCSJzs6DdrJI.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Dezerv
 nav: Providers
 network: true
 overview: 'Dezerv is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Services, Wealth Management, Investment, and Portfolio Management.
 
 
-  Dezerv''s developer surface includes engineering blog, support, and 7 more developer resources.'
+  Dezerv''s developer surface includes engineering blog, support, and 8 more developer resources.'
 random_paper: 18
 score:
   band: emerging
   composite: 15.4
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -118,13 +122,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/dezerv/refs/heads/main/screenshots/dezerv-2026-10-11T103715.png
 security:
 - kind: domain-security
   name: Dezerv Domain Security

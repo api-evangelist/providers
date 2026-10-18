@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 14
+- acting_count: 12
   human_in_the_loop: 0
   name: Minimax Ai Agentic Access
   operation_count: 18
   slug: minimax-ai-agentic-access
-  summary_line: 18 operations · 14 acting
+  summary_line: 18 operations · 12 acting
 api_count: 1
 apis:
 - baseURL: https://api.minimax.io
@@ -80,7 +80,7 @@ apis:
   description: The Voice API from MiniMax — 4 operation(s) for voice.
   name: MiniMax Voice API
   slug: minimax-ai-voice-api
-artifact_total: 22
+artifact_total: 23
 collections:
 - collection_type: open
   name: API Collection
@@ -160,22 +160,33 @@ common:
   title: ''
   type: Blog
   url: https://www.minimax.io/blog
+- group: design
+  title: ''
+  type: SpectralRules
+  url: https://github.com/MiniMax-AI/minimax-desgin-plugin/blob/bef9de2101e9d873619c83553b8f03ebb0c10663/comfyui-plugin/backend/.spectral.yaml
 created: '2026-05-08'
 description: 'MiniMax is a Chinese foundation model company offering full-stack multimodal APIs: text generation (M2.7, M2.5, M2.1, M2, M1, Text-01), speech synthesis (Speech 2.8/2.6/2.5), voice cloning, voice design, image generation (Image-01), video generation (Hailuo 2.3), and music generation (Music-2.6).'
 finops:
-- name: Minimax Ai Finops
+- has_sources: true
+  method: generated
+  name: Minimax Ai Finops
+  primary_unit: ''
   service_category: AI and Machine Learning
   slug: minimax-ai-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/minimax-ai.png
 layout: provider
 modified: '2026-05-19'
 name: MiniMax
 nav: Providers
 network: true
-overview: 'MiniMax publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Files API, Image API, Music API, and 4 more. Tagged areas include Artificial Intelligence, LLM, Inference, Multi-Modal, and Voice.
+overview: 'MiniMax publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Files API, Image API, Music API, and 4 more. Tagged areas include Artificial Intelligence, LLM, Inference, Multi-Modal, and Voice.
 
 
-  MiniMax''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
+  The MiniMax catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
+  MiniMax''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
 plans:
 - name: Minimax Ai Plans Pricing
   plan_count: 4
@@ -185,20 +196,33 @@ rate_limits:
 - limit_count: 8
   name: Minimax Ai Rate Limits
   slug: minimax-ai-rate-limits
+rules:
+- authorship: provider
+  effective_rule_count: 47
+  extends:
+  - spectral:oas
+  name: MiniMax — minimax desgin plugin rules
+  rule_count: 6
+  severity_counts:
+    error: 0
+    hint: 2
+    info: 0
+    warn: 4
+  slug: minimax-ai-minimax-desgin-plugin-spectral-rules
 score:
   band: thin
-  composite: 31.4
+  composite: 35.0
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 46.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 69.0
+    artifact_dirs: 13
+    catalog_earned: 58.0
+    catalog_earned_first_party: 15.0
+    catalog_gap: 57.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 3.6
   facets:
-    access_clarity: 39.5
-    contract_governance: 0.0
+    access_clarity: 31.6
+    contract_governance: 45.5
     contract_quality: 50.8
     developer_ergonomics: 21.4
     discoverability: 66.1
@@ -218,12 +242,12 @@ score:
       total: 7
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 10.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

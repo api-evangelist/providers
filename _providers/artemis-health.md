@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.artemishealth.com/blog/rss.xml
 - group: other
   title: ''
   type: ParentCompany
@@ -69,14 +73,14 @@ created: '2026-07-17'
 description: Artemis Health (now Artemis by Nomi Health) is a healthcare data analytics platform that helps employers, benefits advisors, and health plans see every healthcare dollar clearly, cut waste, and improve care for their members. The platform unifies medical, pharmacy, and other benefits data to deliver cost analysis, program evaluation, automated reporting, custom analytics, and social-determinants-of-health insights for self-insured organizations. Artemis was acquired by Nomi Health in 2022. The product is a login-gated B2B SaaS application; no public developer API, SDKs, or documentation surface is published. This profile was surfaced as a portfolio company of bessemer-venture-partners and enriched with the verifiable public identity, link, and domain-security signals available.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/artemis-health.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Artemis Health
 nav: Providers
 network: true
 overview: 'Artemis Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Analytics, Health Data, and Employee Benefits.
 
 
-  Artemis Health''s developer surface includes engineering blog, support, and 5 more developer resources.'
+  Artemis Health''s developer surface includes engineering blog, support, and 6 more developer resources.'
 random_paper: 2
 score:
   band: minimal
@@ -103,8 +107,8 @@ score:
     regime: Health
     regime_id: health
     score: 7.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

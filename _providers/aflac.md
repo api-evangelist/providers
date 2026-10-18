@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 36.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 1
@@ -96,6 +96,11 @@ collections:
   name: Aflac Enterprise Connect Claims Policies API
   slug: open-aflac-policies-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/finops/aflac-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/aflac-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/agentic-access/aflac-agentic-access.yml
   title: ''
@@ -480,9 +485,13 @@ features:
 - description: Receive immediate enrollment confirmation and policy numbers upon successful enrollment submission.
   name: Real-Time Enrollment Confirmation
 finops:
-- name: Aflac Finops
+- has_sources: true
+  method: generated
+  name: Aflac Finops
+  primary_unit: ''
   service_category: Insurance / Supplemental Benefits
   slug: aflac-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aflac.png
 integrations:
 - description: Aflac connects with Employee Navigator benefits administration platform for automated enrollment data exchange.
@@ -585,13 +594,13 @@ modified: '2026-09-04'
 name: Aflac
 nav: Providers
 network: true
-overview: 'Aflac publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Claims API, Eligibility API, Enrollment API, and 3 more. Tagged areas include Fortune 500, Insurance, Supplemental Insurance, Employee Benefits, and Claims.
+overview: 'Aflac is listed with 6 APIs on the [APIs.io](https://apis.io/) network, including Claims API, Eligibility API, Enrollment API, and 3 more. Tagged areas include Fortune 500, Insurance, Supplemental Insurance, Employee Benefits, and Claims.
 
 
   The Aflac catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Aflac''s developer surface includes authentication, developer portal, signup flow, support, engineering blog, code examples, sandbox, and 61 more developer resources.'
+  Aflac''s developer surface includes authentication, developer portal, signup flow, support, engineering blog, code examples, sandbox, and 62 more developer resources.'
 plans:
 - name: Aflac Plans Pricing
   plan_count: 2
@@ -618,9 +627,10 @@ rate_limits:
   name: Aflac Rate Limits
   slug: aflac-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Aflac API Rules
+  name: Aflac — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -628,7 +638,8 @@ rules:
     info: 1
     warn: 4
   slug: aflac-jsonschema-spectral-rules
-- effective_rule_count: 71
+- authorship: generated
+  effective_rule_count: 71
   extends:
   - spectral:oas
   name: Aflac API Rules
@@ -646,17 +657,17 @@ scopes:
   summary_line: 6 scopes · clientCredentials
 score:
   band: thin
-  composite: 38.4
+  composite: 36.8
   coverage:
-    artifact_dirs: 30
-    catalog_earned: 77.0
+    artifact_dirs: 31
+    catalog_earned: 74.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 38.0
+    catalog_gap: 41.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 26.3
+    access_clarity: 18.4
     contract_governance: 45.5
     contract_quality: 27.8
     developer_ergonomics: 35.7
@@ -678,8 +689,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 29.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

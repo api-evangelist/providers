@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Live Model Context Protocol server operated by ServiceUp at api.serviceup.com/mcp, exposing the agentic repair platform to MCP clients. The endpoint is protected by OAuth 2.1 (authorization code + PKC
@@ -147,7 +147,7 @@ modified: '2026-08-05'
 name: ServiceUp
 nav: Providers
 network: true
-overview: 'ServiceUp publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fleet Management, Vehicle Repair, Automotive, and Insurance.
+overview: 'ServiceUp is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fleet Management, Vehicle Repair, Automotive, and Insurance.
 
 
   ServiceUp''s developer surface includes engineering blog, support, authentication, and 17 more developer resources.'
@@ -190,8 +190,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 41.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

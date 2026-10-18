@@ -23,10 +23,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://aivick.co.jp/news/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://aivick.co.jp/news/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/aivick/refs/heads/main/security/aivick-domain-security.yml
   title: ''
@@ -52,28 +60,31 @@ coverage:
 created: '2026-09-21'
 description: Aivick株式会社は、食とICTを融合し、個人の健康と豊かな暮らしを支える企業です。パーソナル栄養、ウェルネス支援、無添加食品の開発などを通じて、ITと食のテクノロジーで最適な食事提供を実現します。京都発の宅配食サービスやシステムインテグレーション事業を展開し、健康管理ソリューションを提供しています。
 layout: provider
-modified: '2026-09-21'
+modified: '2026-10-06'
 name: Aivick
 nav: Providers
 network: true
-overview: Aivick is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food Tech, Health, ICT, and Wellness.
+overview: 'Aivick is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food Tech, Health, ICT, and Wellness.
+
+
+  Aivick''s developer surface includes engineering blog and 4 more developer resources.'
 random_paper: 15
 score:
   band: minimal
-  composite: 3.1
+  composite: 3.7
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 7
     catalog_earned: 20.0
     catalog_earned_first_party: 0.0
     catalog_gap: 95.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 42.9
     operational_transparency: 0.0
   previous_composite: 3.1
@@ -83,13 +94,14 @@ score:
     regime: Health
     regime_id: health
     score: 4.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/aivick/refs/heads/main/screenshots/aivick-2026-10-11T093502.png
 security:
 - kind: domain-security
   name: Aivick Domain Security

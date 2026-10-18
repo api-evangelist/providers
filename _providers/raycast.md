@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 15.5
-  scored_at: '2026-10-04'
+  score: 13.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://developers.raycast.com
@@ -58,6 +58,10 @@ collections:
   name: Raycast Extension API (SDK)
   slug: open-raycast
 common:
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.raycast.com/pricing
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/raycast/refs/heads/main/security/raycast-domain-security.yml
   title: ''
@@ -101,22 +105,26 @@ common:
 created: '2026-06-20'
 description: Raycast is a macOS (and Windows, in beta) productivity launcher that ships an extensions platform, built-in AI, and a Store. Its developer surface is the @raycast/api TypeScript/Node SDK used to build extensions with React - a client-side library, not a public HTTP REST API. Capabilities such as AI, Storage, OAuth, and Preferences are exposed as SDK modules invoked from inside extensions rather than as standalone web endpoints.
 finops:
-- name: Raycast Finops
+- has_sources: true
+  method: generated
+  name: Raycast Finops
+  primary_unit: ''
   service_category: Productivity and Collaboration
   slug: raycast-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/raycast.png
 layout: provider
 modified: '2026-06-20'
 name: Raycast
 nav: Providers
 network: true
-overview: 'Raycast publishes 3 APIs on the [APIs.io](https://apis.io/) network, including Extension API (SDK), AI API, and 1 more. Tagged areas include Productivity, Launcher, Extensions, SDK, and Artificial Intelligence.
+overview: 'Raycast publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network, including Extension API (SDK), AI API, and 1 more. Tagged areas include Productivity, Launcher, Extensions, SDK, and Artificial Intelligence.
 
 
-  Raycast''s developer surface includes documentation, engineering blog, and 7 more developer resources.'
+  Raycast''s developer surface includes pricing, documentation, engineering blog, and 7 more developer resources.'
 plans:
 - name: Raycast Plans Pricing
-  plan_count: 5
+  plan_count: 15
   slug: raycast-plans-pricing
 random_paper: 11
 rate_limits:
@@ -124,23 +132,23 @@ rate_limits:
   name: Raycast Rate Limits
   slug: raycast-rate-limits
 score:
-  band: thin
-  composite: 26.5
+  band: emerging
+  composite: 25.0
   coverage:
     artifact_dirs: 9
-    catalog_earned: 61.6
-    catalog_earned_first_party: 0.0
-    catalog_gap: 53.4
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 36.3
+    access_clarity: 42.1
     contract_governance: 0.0
     contract_quality: 25.1
     developer_ergonomics: 19.0
     discoverability: 66.1
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   previous_composite: 26.5
   regulatory:
     applies: true
@@ -148,8 +156,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

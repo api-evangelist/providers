@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.9
-  scored_at: '2026-10-04'
+  score: 24.0
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -105,6 +105,21 @@ collections:
   name: Google Pub/Sub Google Cloud Pub/Sub API
   slug: open-google-pub-sub
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/google-pub-sub/refs/heads/main/plans/google-pub-sub-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/google-pub-sub-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/google-pub-sub/refs/heads/main/rate-limits/google-pub-sub-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/google-pub-sub-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/google-pub-sub/refs/heads/main/finops/google-pub-sub-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/google-pub-sub-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/google-pub-sub/refs/heads/main/agentic-access/google-pub-sub-agentic-access.yml
   title: ''
@@ -157,22 +172,26 @@ common:
 created: '2026-03-26'
 description: Google Cloud Pub/Sub is a fully managed, real-time messaging service that allows you to send and receive messages between independent applications, providing reliable, many-to-many, asynchronous messaging for event ingestion, streaming analytics, and event-driven computing.
 finops:
-- name: Google Pub Sub Finops
+- has_sources: false
+  method: generated
+  name: Google Pub Sub Finops
+  primary_unit: ''
   service_category: API
   slug: google-pub-sub-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/google-pub-sub.png
 layout: provider
 modified: '2026-05-19'
 name: Google Pub/Sub
 nav: Providers
 network: true
-overview: 'Google Pub/Sub publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Publish API, Schemas API, Snapshots API, and 3 more. Tagged areas include Cloud, Event-Driven, Google Cloud, Messaging, and Pub-Sub.
+overview: 'Google Pub/Sub publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Publish API, Schemas API, Snapshots API, and 3 more. Tagged areas include Cloud, Event-Driven, Google Cloud, Messaging, and Pub/Sub.
 
 
   The Google Pub/Sub catalog on APIs.io includes 1 event-driven AsyncAPI specification and 2 Spectral governance rulesets.
 
 
-  Google Pub/Sub''s developer surface includes authentication, documentation, getting-started guide, pricing, GitHub presence, engineering blog, and 5 more developer resources.'
+  Google Pub/Sub''s developer surface includes authentication, documentation, getting-started guide, pricing, GitHub presence, engineering blog, and 8 more developer resources.'
 plans:
 - name: Google Pub Sub Plans Pricing
   plan_count: 3
@@ -183,10 +202,11 @@ rate_limits:
   name: Google Pub Sub Rate Limits
   slug: google-pub-sub-rate-limits
 rules:
-- effective_rule_count: 34
+- authorship: generated
+  effective_rule_count: 34
   extends:
   - spectral:asyncapi
-  name: Google Pub/Sub API Rules
+  name: Google Pub/Sub — asyncapi rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -194,9 +214,10 @@ rules:
     info: 1
     warn: 5
   slug: google-pub-sub-asyncapi-spectral-rules
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Google Pub/Sub API Rules
+  name: Google Pub/Sub — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -211,17 +232,17 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: thin
-  composite: 38.1
+  composite: 36.6
   coverage:
     artifact_dirs: 15
-    catalog_earned: 54.5
+    catalog_earned: 51.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 60.5
+    catalog_gap: 63.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 26.3
+    access_clarity: 18.4
     contract_governance: 13.6
     contract_quality: 62.4
     developer_ergonomics: 35.7
@@ -241,8 +262,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -267,7 +288,7 @@ tags:
 - Event-Driven
 - Google Cloud
 - Messaging
-- Pub-Sub
+- Pub/Sub
 - Streaming
 website: https://cloud.google.com/pubsub
 ---

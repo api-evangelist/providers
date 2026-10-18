@@ -34,8 +34,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.6
-  scored_at: '2026-10-04'
-api_count: 1
+  scored_at: '2026-10-17'
+api_count: 2
 apis:
 - baseURL: https://api.sinai.com/v1
   baseurl_source: declared
@@ -188,7 +188,7 @@ modified: '2026-07-21'
 name: Sinai Technologies
 nav: Providers
 network: true
-overview: 'Sinai Technologies publishes 3 APIs on the [APIs.io](https://apis.io/) network: Baseline forecasts API, Carbon accounting API, and Organization management API. Tagged areas include Company, Carbon Management, Carbon Accounting, Emissions, and Sustainability.
+overview: 'Sinai Technologies publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Baseline forecasts API, Carbon accounting API, and Organization management API. Tagged areas include Company, Carbon Management, Carbon Accounting, Emissions, and Sustainability.
 
 
   Sinai Technologies'' developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, and 19 more developer resources.'
@@ -232,8 +232,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

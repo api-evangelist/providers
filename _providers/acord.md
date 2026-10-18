@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -91,6 +91,11 @@ collections:
   name: ACORD Next-Generation Digital Standards (NGDS) Claims Underwriting API
   slug: open-acord-underwriting-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/acord/refs/heads/main/finops/acord-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/acord-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/acord/refs/heads/main/capabilities/acord-capability-edges.yml
   title: ''
@@ -321,9 +326,13 @@ features:
 - description: ACORD reference architecture providing structural frameworks for insurance technology implementations.
   name: Reference Architecture
 finops:
-- name: Acord Finops
+- has_sources: true
+  method: generated
+  name: Acord Finops
+  primary_unit: ''
   service_category: Insurance Standards / Data Exchange
   slug: acord-finops
+  template: false
 image: /assets/icons/acord.png
 integrations:
 - description: Integration with policy administration systems (PAS) and claims management systems (CMS).
@@ -446,13 +455,13 @@ modified: '2026-08-30'
 name: ACORD
 nav: Providers
 network: true
-overview: 'ACORD publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Claims API, Party API, Policy API, and 3 more. Tagged areas include Claims, Data Standards, Insurance, Policy, and Property Casualty.
+overview: 'ACORD is listed with 6 APIs on the [APIs.io](https://apis.io/) network, including Claims API, Party API, Policy API, and 3 more. Tagged areas include Claims, Data Standards, Insurance, Policy, and Property and Casualty.
 
 
   The ACORD catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  ACORD''s developer surface includes authentication, developer portal, documentation, getting-started guide, support, changelog, pricing, and 27 more developer resources.'
+  ACORD''s developer surface includes authentication, developer portal, documentation, getting-started guide, support, changelog, pricing, and 28 more developer resources.'
 plans:
 - name: Acord Plans Pricing
   plan_count: 1
@@ -463,9 +472,10 @@ rate_limits:
   name: Acord Rate Limits
   slug: acord-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: ACORD API Rules
+  name: ACORD — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -473,7 +483,8 @@ rules:
     info: 2
     warn: 4
   slug: acord-jsonschema-spectral-rules
-- effective_rule_count: 80
+- authorship: generated
+  effective_rule_count: 80
   extends:
   - spectral:oas
   name: ACORD API Rules
@@ -491,17 +502,17 @@ scopes:
   summary_line: 4 scopes · clientCredentials
 score:
   band: developing
-  composite: 51.7
+  composite: 50.2
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 75.0
+    artifact_dirs: 28
+    catalog_earned: 72.0
     catalog_earned_first_party: 8.0
-    catalog_gap: 40.0
+    catalog_gap: 43.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 75.0
+    access_clarity: 67.1
     contract_governance: 27.3
     contract_quality: 27.9
     developer_ergonomics: 57.1
@@ -523,8 +534,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 41.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -545,7 +556,7 @@ tags:
 - Data Standards
 - Insurance
 - Policy
-- Property Casualty
+- Property and Casualty
 - Reinsurance
 - Standards
 - Underwriting

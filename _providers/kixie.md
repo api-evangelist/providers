@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: 'The primary Kixie automation surface. A single POST endpoint on the apig.kixie.com gateway that dispatches on an `eventname` discriminator in the JSON body — `call` (place an outbound call through an '
@@ -54,6 +54,10 @@ asyncapis:
   name: Kixie Webhooks
   slug: kixie-webhooks
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.kixie.com/feed/
 - group: company
   title: ''
   type: Website
@@ -202,17 +206,17 @@ description: 'Kixie is a Los Angeles based sales-engagement and revenue-communic
   is human-readable HTML on developer.kixie.com and in the Zendesk help center.'
 image: https://www.kixie.com/wp-content/uploads/2026/02/Kixie-Logo-Light.png
 layout: provider
-modified: '2026-08-12'
+modified: '2026-10-06'
 name: Kixie
 nav: Providers
 network: true
-overview: 'Kixie publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Sales Engagement, Voice, Telephony, and SMS.
+overview: 'Kixie is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Sales Engagement, Voice, Telephony, and SMS.
 
 
   The Kixie catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Kixie''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 25 more developer resources.'
+  Kixie''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
 plans:
 - name: Kixie Plans Pricing
   plan_count: 3
@@ -226,7 +230,7 @@ score:
   band: strong
   composite: 57.6
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 60.0
     catalog_earned_first_party: 20.0
     catalog_gap: 55.0
@@ -250,8 +254,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 35.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -23,15 +23,15 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 53.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 148
+- acting_count: 147
   human_in_the_loop: 4
   name: Gr4Vy Agentic Access
   operation_count: 263
   slug: gr4vy-agentic-access
-  summary_line: 263 operations · 148 acting · 4 human-in-the-loop
-api_count: 4
+  summary_line: 263 operations · 147 acting · 4 human-in-the-loop
+api_count: 6
 apis:
 - description: 'Hosted, unauthenticated Model Context Protocol server over the Gr4vy documentation: search, read-only docs filesystem queries and a docs-feedback tool. It does not execute payment operations.'
   name: Gr4vy Docs MCP Server
@@ -347,6 +347,10 @@ asyncapis:
   name: Gr4Vy Webhooks
   slug: gr4vy-webhooks
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://gr4vy.com/feed/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/gr4vy/refs/heads/main/capabilities/gr4vy-capability-edges.yml
   title: ''
@@ -520,17 +524,17 @@ mcp_servers:
 - description: Gr4vy serves a hosted, unauthenticated documentation MCP server (Mintlify-hosted) on its docs host. It exposes search and read-only filesystem retrieval over the published docs plus a feedback tool; i
   name: Gr4vy
   slug: gr4vy
-modified: '2026-09-20'
+modified: '2026-10-06'
 name: Gr4vy
 nav: Providers
 network: true
-overview: 'Gr4vy publishes 62 APIs on the [APIs.io](https://apis.io/) network, including 3DS scenarios API, Account Updater API, Anti Fraud Service Definitions API, and 59 more. Tagged areas include Payments, Payment Orchestration, Fintech, Checkout, and Tokenization.
+overview: 'Gr4vy publishes 62 API contracts indexed on the [APIs.io](https://apis.io/) network, including 3DS scenarios API, Account Updater API, Anti Fraud Service Definitions API, and 59 more. Tagged areas include Payments, Payment Orchestration, Fintech, Checkout, and Tokenization.
 
 
   The Gr4vy catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Gr4vy''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, changelog, engineering blog, and 29 more developer resources.'
+  Gr4vy''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, changelog, engineering blog, and 30 more developer resources.'
 plans:
 - name: Gr4Vy Plans Pricing
   plan_count: 0
@@ -549,13 +553,13 @@ score:
   band: strong
   composite: 62.4
   coverage:
-    artifact_dirs: 26
+    artifact_dirs: 30
     catalog_earned: 48.0
     catalog_earned_first_party: 8.0
     catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 28.9
     contract_governance: 18.2
@@ -563,7 +567,7 @@ score:
     developer_ergonomics: 90.5
     discoverability: 80.0
     operational_transparency: 73.7
-  previous_composite: 61.9
+  previous_composite: 62.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -584,12 +588,13 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
     score: 0.0
+screenshot: https://raw.githubusercontent.com/api-evangelist/gr4vy/refs/heads/main/screenshots/gr4vy-2026-10-11T105003.png
 security:
 - kind: authentication
   name: Gr4Vy Authentication

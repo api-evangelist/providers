@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Bespoke Starling Developer API for retrieving a customer's accounts, account identifiers (sort code / account number), and balances. Served over OAuth2 at the api.starlingbank.com/api/v2 host with a f
@@ -258,7 +258,7 @@ modified: '2026-07-23'
 name: Starling Bank
 nav: Providers
 network: true
-overview: 'Starling Bank publishes 18 APIs on the [APIs.io](https://apis.io/) network, including ATM API, BCA API, Branch API, and 15 more. Tagged areas include Financial Services, Banking, Open Banking, PSD2, and OBIE.
+overview: 'Starling Bank publishes 18 API contracts indexed on the [APIs.io](https://apis.io/) network, including ATM API, BCA API, Branch API, and 15 more. Tagged areas include Financial Services, Banking, Open Banking, PSD2, and OBIE.
 
 
   Starling Bank''s developer surface includes authentication, sandbox, API reference, documentation, getting-started guide, engineering blog, support, and 24 more developer resources.'
@@ -267,7 +267,7 @@ score:
   band: developing
   composite: 46.3
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 63.0
@@ -307,8 +307,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 38.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

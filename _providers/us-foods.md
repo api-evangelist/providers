@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: US Foods MOXe is a comprehensive foodservice eCommerce platform enabling restaurants, healthcare facilities, and institutional customers to place orders, manage inventory, track deliveries, and pay in
@@ -44,6 +44,21 @@ apis:
   slug: edi-integration
 artifact_total: 12
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/us-foods/refs/heads/main/plans/us-foods-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/us-foods-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/us-foods/refs/heads/main/rate-limits/us-foods-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/us-foods-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/us-foods/refs/heads/main/finops/us-foods-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/us-foods-finops.yml
 - group: company
   title: ''
   type: Website
@@ -68,9 +83,13 @@ examples:
   name: Us Foods Order Example
   slug: us-foods-order-example
 finops:
-- name: Us Foods Finops
+- has_sources: true
+  method: generated
+  name: Us Foods Finops
+  primary_unit: ''
   service_category: Food Service Distribution
   slug: us-foods-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/us-foods.png
 json_schemas:
 - name: US Foods Order
@@ -93,7 +112,7 @@ modified: '2026-09-16'
 name: US Foods
 nav: Providers
 network: true
-overview: 'US Foods publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Food Service, Fortune 500, Distribution, Supply Chain, and E-Commerce.
+overview: 'US Foods is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Food Service, Fortune 500, Distribution, Supply Chain, and E-Commerce.
 
 
   The US Foods catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.'
@@ -123,9 +142,10 @@ rate_limits:
   name: Us Foods Rate Limits
   slug: us-foods-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: US Foods API Rules
+  name: US Foods — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -135,17 +155,17 @@ rules:
   slug: us-foods-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 14.1
+  composite: 12.6
   coverage:
-    artifact_dirs: 15
-    catalog_earned: 50.3
+    artifact_dirs: 16
+    catalog_earned: 47.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 64.8
+    catalog_gap: 67.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 13.2
+    access_clarity: 5.3
     contract_governance: 9.8
     contract_quality: 10.7
     developer_ergonomics: 9.5
@@ -158,13 +178,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/us-foods/refs/heads/main/screenshots/us-foods-2026-10-11T193244.png
 security:
 - kind: domain-security
   name: Us Foods Domain Security

@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.getcalfresh.org/en/updates/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/getcalfresh/refs/heads/main/security/getcalfresh-domain-security.yml
   title: ''
@@ -53,28 +57,31 @@ created: '2026-07-03'
 description: GetCalFresh is a service delivered by Code for America on behalf of the people of California, providing plain-language guidance to help Californians understand and navigate CalFresh (SNAP) food benefits. Since California's statewide move to BenefitsCal.com on the CalSAWS platform, GetCalFresh.org no longer accepts applications directly - it is an informational and guidance site that hands off to BenefitsCal and county agencies for eligibility determination and case processing. No public developer API is documented; historically, before BenefitsCal existed, Code for America's application tooling submitted CalFresh applications to county systems via generated PDF forms, fax, and secure email rather than a documented API.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/getcalfresh.png
 layout: provider
-modified: '2026-07-03'
+modified: '2026-10-06'
 name: GetCalFresh
 nav: Providers
 network: true
-overview: GetCalFresh is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Civic Tech, Non-Profit, Government, Public Benefits, and SNAP.
+overview: 'GetCalFresh is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Civic Tech, Non-Profit, Government, Public Benefits, and SNAP.
+
+
+  GetCalFresh''s developer surface includes engineering blog and 3 more developer resources.'
 random_paper: 16
 score:
   band: minimal
-  composite: 4.1
+  composite: 4.5
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.4
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 48.2
     operational_transparency: 2.6
   previous_composite: 4.1
@@ -84,8 +91,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

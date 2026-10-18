@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.entegris.com/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/entegris/refs/heads/main/security/entegris-domain-security.yml
   title: ''
@@ -73,7 +77,7 @@ created: '2026-05-04'
 description: Entegris is a global supplier of advanced materials and process solutions for the semiconductor and other high-technology industries. The company develops and manufactures specialty chemicals, gases, filtration and purification systems, advanced materials handling, and process control products. No public developer API or developer portal has been identified at the corporate level; technical integration is typically supported through sales engineering, the supplier portal, and product documentation.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/entegris.png
 layout: provider
-modified: '2026-05-04'
+modified: '2026-10-06'
 name: Entegris
 nav: Providers
 network: true
@@ -83,7 +87,7 @@ score:
   band: minimal
   composite: 3.2
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 24.0
     catalog_earned_first_party: 0.0
     catalog_gap: 91.0
@@ -104,8 +108,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

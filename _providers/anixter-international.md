@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'Anixter (now part of Wesco International) provides B2B eCommerce integration services including EDI (Electronic Data Interchange) for purchase orders, invoices, and shipping notices, punchout catalog '
@@ -41,6 +41,11 @@ apis:
   slug: anixter-ecommerce-integration-api
 artifact_total: 5
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/anixter-international/refs/heads/main/finops/anixter-international-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/anixter-international-finops.yml
 - group: other
   title: ''
   type: ParentCompany
@@ -136,19 +141,23 @@ coverage:
 created: '2026-03-23'
 description: Anixter International was a leading global distributor of network and security solutions, electrical and electronic solutions, and utility power solutions. In June 2020, Anixter was acquired by Wesco International for approximately $4.5 billion, creating a combined company with over $17 billion in annual revenue. Anixter now operates as Wesco Anixter, providing B2B distribution, supply chain services, and digital integration capabilities including EDI, punchout catalogs, and procurement system integrations.
 finops:
-- name: Anixter International Finops
+- has_sources: false
+  method: generated
+  name: Anixter International Finops
+  primary_unit: ''
   service_category: API
   slug: anixter-international-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/anixter-international.png
 layout: provider
 modified: '2026-09-02'
 name: Anixter International
 nav: Providers
 network: true
-overview: 'Anixter International publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include B2B Commerce, Cables, Data Communications, Distribution, and Electrical.
+overview: 'Anixter International is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include B2B Commerce, Cables, Data Communications, Distribution, and Electrical.
 
 
-  Anixter International''s developer surface includes documentation, developer portal, and 15 more developer resources.'
+  Anixter International''s developer surface includes documentation, developer portal, and 16 more developer resources.'
 plans:
 - name: Anixter International Plans Pricing
   plan_count: 0
@@ -176,17 +185,17 @@ rate_limits:
   slug: anixter-international-rate-limits
 score:
   band: emerging
-  composite: 13.3
+  composite: 11.8
   coverage:
-    artifact_dirs: 15
-    catalog_earned: 35.0
+    artifact_dirs: 16
+    catalog_earned: 32.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 80.0
+    catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 7.9
+    access_clarity: 0.0
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
@@ -202,8 +211,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

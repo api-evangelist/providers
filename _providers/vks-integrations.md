@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 18.0
-  scored_at: '2026-10-04'
+  score: 16.1
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://api.vksapp.com
@@ -74,6 +74,21 @@ collections:
   name: VKS Work Orders API
   slug: open-vks-integrations-work-orders-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/vks-integrations/refs/heads/main/plans/vks-integrations-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/vks-integrations-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/vks-integrations/refs/heads/main/rate-limits/vks-integrations-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/vks-integrations-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/vks-integrations/refs/heads/main/finops/vks-integrations-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/vks-integrations-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/vks-integrations/refs/heads/main/security/vks-integrations-domain-security.yml
   title: ''
@@ -110,9 +125,13 @@ examples:
   name: Vks Api Create Work Order Example
   slug: vks-api-create-work-order-example
 finops:
-- name: Vks Integrations Finops
+- has_sources: false
+  method: generated
+  name: Vks Integrations Finops
+  primary_unit: ''
   service_category: API
   slug: vks-integrations-finops
+  template: true
 image: https://vksapp.com/hubfs/vks-logo.png
 json_schemas:
 - name: VKS Work Order
@@ -132,13 +151,13 @@ modified: '2026-05-03'
 name: VKS Integrations
 nav: Providers
 network: true
-overview: 'VKS Integrations publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Guidebooks API, Operations API, Production Data API, and 1 more. Tagged areas include ERP Integration, Manufacturing, MES, Operations Management, and Quality Management.
+overview: 'VKS Integrations publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Guidebooks API, Operations API, Production Data API, and 1 more. Tagged areas include ERP Integration, Manufacturing, MES, Operations Management, and Quality Management.
 
 
   The VKS Integrations catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  VKS Integrations'' developer surface includes documentation, pricing, and 5 more developer resources.'
+  VKS Integrations'' developer surface includes documentation, pricing, and 8 more developer resources.'
 plans:
 - name: Vks Integrations Plans Pricing
   plan_count: 3
@@ -149,9 +168,10 @@ rate_limits:
   name: Vks Integrations Rate Limits
   slug: vks-integrations-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: VKS Integrations API Rules
+  name: VKS Integrations — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -159,7 +179,8 @@ rules:
     info: 1
     warn: 4
   slug: vks-integrations-jsonschema-spectral-rules
-- effective_rule_count: 49
+- authorship: unmarked
+  effective_rule_count: 49
   extends:
   - spectral:oas
   name: VKS Integrations API Rules
@@ -172,17 +193,17 @@ rules:
   slug: vks-integrations-rules
 score:
   band: thin
-  composite: 31.9
+  composite: 30.4
   coverage:
-    artifact_dirs: 14
-    catalog_earned: 56.5
+    artifact_dirs: 15
+    catalog_earned: 53.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 58.5
+    catalog_gap: 61.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 26.3
+    access_clarity: 18.4
     contract_governance: 13.6
     contract_quality: 55.9
     developer_ergonomics: 28.6
@@ -201,8 +222,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-04'
+  score: 20.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -158,16 +158,20 @@ common:
 created: '2026-07-12'
 description: Brella is an event networking and engagement platform for conferences, trade shows, livestreams, and hybrid events, best known for AI-powered attendee matchmaking and one-to-one meeting booking. Organizers manage events, attendees, speakers, sponsors, schedules, and networking through the Brella web and mobile apps. Brella exposes a documented public REST Integration API and outbound webhooks so organizers can read event data (events, attendees, speakers, sponsors, timeslots, invites) and sync it to registration, CRM, and analytics tools. API access is gated - an organization admin generates an API key from the Brella admin panel after the integration feature is enabled for the account.
 finops:
-- name: Brella Finops
+- has_sources: true
+  method: generated
+  name: Brella Finops
+  primary_unit: ''
   service_category: Events and Engagement
   slug: brella-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/brella.png
 layout: provider
 modified: '2026-07-12'
 name: Brella
 nav: Providers
 network: true
-overview: 'Brella publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Attendees API, Events API, Invites API, and 4 more. Tagged areas include Event, Event Networking, Matchmaking, Event Platform, and Attendees.
+overview: 'Brella publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Attendees API, Events API, Invites API, and 4 more. Tagged areas include Event, Event Networking, Matchmaking, Event Platform, and Attendees.
 
 
   Brella''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
@@ -182,22 +186,22 @@ rate_limits:
   slug: brella-rate-limits
 score:
   band: thin
-  composite: 33.2
+  composite: 27.2
   coverage:
     artifact_dirs: 11
-    catalog_earned: 54.4
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 60.6
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.0
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 50.2
     developer_ergonomics: 32.1
     discoverability: 66.1
-    operational_transparency: 21.6
+    operational_transparency: 7.9
   previous_composite: 33.2
   provenance:
     agentic_access: derived
@@ -212,9 +216,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

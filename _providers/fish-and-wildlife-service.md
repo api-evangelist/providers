@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: The Environmental Conservation Online System (ECOS) is the USFWS portal for threatened and endangered species data, critical habitat designations, recovery plans, and Section 7 consultations. ECOS exp
@@ -44,6 +44,29 @@ apis:
   slug: servcat
 artifact_total: 6
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/fish-and-wildlife-service/refs/heads/main/plans/fish-and-wildlife-service-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/fish-and-wildlife-service-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/fish-and-wildlife-service/refs/heads/main/rate-limits/fish-and-wildlife-service-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/fish-and-wildlife-service-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/fish-and-wildlife-service/refs/heads/main/finops/fish-and-wildlife-service-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/fish-and-wildlife-service-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.fws.gov/news
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.fws.gov/news/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/fish-and-wildlife-service/refs/heads/main/security/fish-and-wildlife-service-domain-security.yml
   title: ''
@@ -80,16 +103,23 @@ common:
 created: '2024-12-03'
 description: The U.S. Fish and Wildlife Service (USFWS) is the federal agency responsible for conserving, protecting, and enhancing fish, wildlife, plants, and their habitats for the continuing benefit of the American people. USFWS programs cover migratory birds, endangered species, interjurisdictional fish and marine mammals, and inland sport fisheries. Public-facing data is shared primarily through web tools and downloadable datasets such as the Environmental Conservation Online System (ECOS), Information for Planning and Consultation (IPaC), and the Service Catalog (ServCat) rather than a consolidated public API program.
 finops:
-- name: Fish And Wildlife Service Finops
+- has_sources: false
+  method: generated
+  name: Fish And Wildlife Service Finops
+  primary_unit: ''
   service_category: API
   slug: fish-and-wildlife-service-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fish-and-wildlife-service.png
 layout: provider
-modified: '2026-07-25'
+modified: '2026-10-06'
 name: U.S. Fish and Wildlife Service
 nav: Providers
 network: true
-overview: U.S. Fish and Wildlife Service publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Conservation, Endangered Species, Federal Government, Fisheries, and Wildlife.
+overview: 'U.S. Fish and Wildlife Service is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Conservation, Endangered Species, Federal Government, Fisheries, and Wildlife.
+
+
+  U.S. Fish and Wildlife Service''s developer surface includes engineering blog and 12 more developer resources.'
 plans:
 - name: Fish And Wildlife Service Plans Pricing
   plan_count: 3
@@ -100,21 +130,21 @@ rate_limits:
   name: Fish And Wildlife Service Rate Limits
   slug: fish-and-wildlife-service-rate-limits
 score:
-  band: emerging
-  composite: 11.1
+  band: minimal
+  composite: 9.9
   coverage:
-    artifact_dirs: 6
-    catalog_earned: 41.0
+    artifact_dirs: 7
+    catalog_earned: 38.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.2
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 9.5
+    developer_ergonomics: 11.9
     discoverability: 57.1
     operational_transparency: 10.5
   jurisdiction:
@@ -129,8 +159,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

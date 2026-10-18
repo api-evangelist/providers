@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-04'
+  score: 20.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -60,6 +60,21 @@ collections:
   name: RapiDoc API
   slug: open-rapidoc-rapidoc
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/rapidoc/refs/heads/main/plans/rapidoc-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/rapidoc-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/rapidoc/refs/heads/main/rate-limits/rapidoc-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/rapidoc-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/rapidoc/refs/heads/main/finops/rapidoc-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/rapidoc-finops.yml
 - group: company
   title: ''
   type: Website
@@ -132,9 +147,13 @@ examples:
   name: Rapidoc Javascript Api Example
   slug: rapidoc-javascript-api-example
 finops:
-- name: Rapidoc Finops
+- has_sources: false
+  method: generated
+  name: Rapidoc Finops
+  primary_unit: ''
   service_category: API
   slug: rapidoc-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rapidoc.png
 json_schemas:
 - name: RapiDoc Web Component Configuration
@@ -166,13 +185,13 @@ modified: '2026-09-16'
 name: RapiDoc
 nav: Providers
 network: true
-overview: 'RapiDoc publishes 1 API on the [APIs.io](https://apis.io/) network: Configuration API. Tagged areas include Documentation, Platform, Web Components, and OpenAPI.
+overview: 'RapiDoc publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Configuration API. Tagged areas include Documentation, Platform, Web Components, and OpenAPI.
 
 
   The RapiDoc catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  RapiDoc''s developer surface includes documentation, code examples, getting-started guide, and 11 more developer resources.'
+  RapiDoc''s developer surface includes documentation, code examples, getting-started guide, and 14 more developer resources.'
 plans:
 - name: Rapidoc Plans Pricing
   plan_count: 3
@@ -183,9 +202,10 @@ rate_limits:
   name: Rapidoc Rate Limits
   slug: rapidoc-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: RapiDoc API Rules
+  name: RapiDoc — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -193,7 +213,8 @@ rules:
     info: 2
     warn: 3
   slug: rapidoc-jsonschema-spectral-rules
-- effective_rule_count: 46
+- authorship: unmarked
+  effective_rule_count: 46
   extends:
   - spectral:oas
   name: RapiDoc API Rules
@@ -206,17 +227,17 @@ rules:
   slug: rapidoc-rules
 score:
   band: thin
-  composite: 31.8
+  composite: 33.3
   coverage:
     artifact_dirs: 15
-    catalog_earned: 53.0
+    catalog_earned: 56.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 47.0
-    catalog_max: 100.0
+    catalog_gap: 59.0
+    catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.5
   facets:
-    access_clarity: 0.0
+    access_clarity: 7.9
     contract_governance: 27.3
     contract_quality: 57.8
     developer_ergonomics: 21.4
@@ -239,8 +260,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

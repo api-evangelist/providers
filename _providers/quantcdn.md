@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 125
+- acting_count: 124
   human_in_the_loop: 10
   name: Quantcdn Agentic Access
   operation_count: 226
   slug: quantcdn-agentic-access
-  summary_line: 226 operations · 125 acting · 10 human-in-the-loop
+  summary_line: 226 operations · 124 acting · 10 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://dashboard.quantcdn.io
@@ -358,6 +358,11 @@ collections:
   name: QuantCDN API
   slug: open-quantcdn
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/quantcdn/refs/heads/main/finops/quantcdn-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/quantcdn-finops.yml
 - group: operate
   href: https://raw.githubusercontent.com/api-evangelist/quantcdn/refs/heads/main/rate-limits/quantcdn-rate-limits.yml
   title: ''
@@ -420,19 +425,23 @@ common:
 created: '2025-02-12'
 description: QuantCDN is an edge delivery, static site hosting, and cloud applications platform that lets teams generate, host, and maintain static and dynamic versions of their websites with a global CDN, WAF, edge functions, key-value storage, AI inference, and DNS management.
 finops:
-- name: Quantcdn Finops
+- has_sources: false
+  method: generated
+  name: Quantcdn Finops
+  primary_unit: ''
   service_category: API
   slug: quantcdn-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/quantcdn.png
 layout: provider
 modified: '2026-05-19'
 name: QuantCDN
 nav: Providers
 network: true
-overview: 'QuantCDN publishes 38 APIs on the [APIs.io](https://apis.io/) network, including AI Agents API, AI Custom Tools API, AI File Storage API, and 35 more. Tagged areas include CDN, Edge, Static Hosting, JAMstack, and DNS.
+overview: 'QuantCDN publishes 38 API contracts indexed on the [APIs.io](https://apis.io/) network, including AI Agents API, AI Custom Tools API, AI File Storage API, and 35 more. Tagged areas include CDN, Edge, Static Hosting, JAMstack, and DNS.
 
 
-  QuantCDN''s developer surface includes pricing, authentication, documentation, engineering blog, and 9 more developer resources.'
+  QuantCDN''s developer surface includes pricing, authentication, documentation, engineering blog, and 10 more developer resources.'
 plans:
 - name: Quantcdn Plans Pricing
   plan_count: 8
@@ -447,23 +456,23 @@ rate_limits:
   slug: quantcdn-rate-limits
 score:
   band: developing
-  composite: 43.4
+  composite: 41.9
   coverage:
     artifact_dirs: 12
-    catalog_earned: 52.0
+    catalog_earned: 49.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -1.5
   facets:
-    access_clarity: 50.0
+    access_clarity: 42.1
     contract_governance: 0.0
     contract_quality: 47.2
     developer_ergonomics: 59.5
     discoverability: 66.1
     operational_transparency: 2.6
-  previous_composite: 42.9
+  previous_composite: 43.4
   provenance:
     agentic_access: derived
     contracts:
@@ -477,8 +486,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

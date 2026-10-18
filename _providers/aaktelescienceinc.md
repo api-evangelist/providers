@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'The private Django REST API that backs the AAK Tele-Science platform. The application frontend at aakscience.com preconnects to django.aakscience.com, and the company runs a drf-yasg (Swagger) schema '
@@ -113,7 +113,7 @@ modified: '2026-09-05'
 name: AAK Tele-Science
 nav: Providers
 network: true
-overview: 'AAK Tele-Science publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Research, Science, Collaboration, and Analytics.
+overview: 'AAK Tele-Science is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Research, Science, Collaboration, and Analytics.
 
 
   AAK Tele-Science''s developer surface includes pricing, signup flow, support, engineering blog, and 10 more developer resources.'
@@ -130,7 +130,7 @@ score:
   band: minimal
   composite: 6.8
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 9
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -151,13 +151,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/aaktelescienceinc/refs/heads/main/screenshots/aaktelescienceinc-2026-10-11T092343.png
 security:
 - kind: domain-security
   name: Aaktelescienceinc Domain Security

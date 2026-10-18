@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.5
-  scored_at: '2026-10-04'
+  score: 24.7
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 5
+- acting_count: 4
   human_in_the_loop: 1
   name: Forex Com Agentic Access
   operation_count: 17
   slug: forex-com-agentic-access
-  summary_line: 17 operations · 5 acting · 1 human-in-the-loop
+  summary_line: 17 operations · 4 acting · 1 human-in-the-loop
 api_count: 1
 apis:
 - description: 'Place and manage trade orders on the FOREX.com platform against live streaming prices. Supports market price orders with configurable direction (Buy/Sell), quantity, stop-loss, take-profit, and price '
@@ -113,6 +113,21 @@ collections:
   name: FOREX.com REST Account Session API
   slug: open-forex-com-session-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/forex-com/refs/heads/main/plans/forex-com-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/forex-com-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/forex-com/refs/heads/main/rate-limits/forex-com-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/forex-com-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/forex-com/refs/heads/main/finops/forex-com-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/forex-com-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/forex-com/refs/heads/main/capabilities/forex-com-capability-edges.yml
   title: ''
@@ -206,9 +221,13 @@ features:
 - Minimum deposit $100; recommended $2,500 for adequate risk buffer
 - Language-agnostic: integrations documented in Python, C++, Perl, VB.NET
 finops:
-- name: Forex Com Finops
+- has_sources: true
+  method: generated
+  name: Forex Com Finops
+  primary_unit: ''
   service_category: Financial Services
   slug: forex-com-finops
+  template: false
 image: https://www.forex.com/favicon.ico
 jsonld:
 - class_count: 0
@@ -220,13 +239,13 @@ modified: '2026-06-13'
 name: FOREX.com
 nav: Providers
 network: true
-overview: 'FOREX.com publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Account API, Margin API, Market API, and 6 more. Tagged areas include Forex, FX Trading, CFD Trading, Algorithmic Trading, and Financial Services.
+overview: 'FOREX.com publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Margin API, Market API, and 6 more. Tagged areas include Foreign Exchange, FX Trading, CFD Trading, Algorithmic Trading, and Financial Services.
 
 
   The FOREX.com catalog on APIs.io includes 1 JSON-LD context.
 
 
-  FOREX.com''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, signup flow, support, and 10 more developer resources.'
+  FOREX.com''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, signup flow, support, and 13 more developer resources.'
 plans:
 - name: Forex Com Plans Pricing
   plan_count: 3
@@ -237,23 +256,23 @@ rate_limits:
   name: Forex Com Rate Limits
   slug: forex-com-rate-limits
 score:
-  band: developing
-  composite: 46.1
+  band: thin
+  composite: 37.8
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 56.6
+    artifact_dirs: 13
+    catalog_earned: 38.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 58.4
+    catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 70.5
+    access_clarity: 42.1
     contract_governance: 0.0
     contract_quality: 52.8
     developer_ergonomics: 47.6
     discoverability: 48.2
-    operational_transparency: 28.4
+    operational_transparency: 7.9
   previous_composite: 46.1
   provenance:
     agentic_access: derived
@@ -268,9 +287,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 30.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0
@@ -290,12 +309,11 @@ security:
   summary_line: security.txt · contact published
 slug: forex-com
 tags:
-- Forex
+- Foreign Exchange
 - FX Trading
 - CFD Trading
 - Algorithmic Trading
 - Financial Services
 - Trading APIs
-- Currency Exchange
 website: https://www.forex.com/
 ---

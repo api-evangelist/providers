@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Kiddom is a certified 1EdTech LTI Advantage 1.3 Tool (Assignment and Grade Services 2.0, Names and Role Provisioning Services 2.0, Deep Linking 2.0). The publicly reachable surface is the OIDC third-p
@@ -150,7 +150,7 @@ modified: '2026-08-23'
 name: Kiddom
 nav: Providers
 network: true
-overview: 'Kiddom publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Education, K-12, Curriculum, Learning Management, and Assessment.
+overview: 'Kiddom is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Education, K-12, Curriculum, LMS, and Assessment.
 
 
   Kiddom''s developer surface includes documentation, support, engineering blog, authentication, and 15 more developer resources.'
@@ -167,7 +167,7 @@ score:
   band: emerging
   composite: 25.3
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -190,8 +190,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -212,7 +212,7 @@ tags:
 - Education
 - K-12
 - Curriculum
-- Learning Management
+- LMS
 - Assessment
 - EdTech
 - Rostering

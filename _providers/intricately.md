@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The Cloud Dynamics API (formerly the Intricately API) provides access to cloud adoption, usage, and spend data on companies, products, applications, and domains. Requests authenticate with an X-API-KE
@@ -43,6 +43,11 @@ apis:
   slug: cloud-dynamics-api-intricately
 artifact_total: 6
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/intricately/refs/heads/main/rate-limits/intricately-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/intricately-rate-limits.yml
 - group: company
   title: ''
   type: Website
@@ -120,10 +125,10 @@ modified: '2026-09-16'
 name: Intricately
 nav: Providers
 network: true
-overview: 'Intricately publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Sales Intelligence, Cloud Intelligence, Technographics, and Data Enrichment.
+overview: 'Intricately is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Sales Intelligence, Cloud Intelligence, Technographics, and Data Enrichment.
 
 
-  Intricately''s developer surface includes documentation, support, pricing, signup flow, and 12 more developer resources.'
+  Intricately''s developer surface includes documentation, support, pricing, signup flow, and 13 more developer resources.'
 plans:
 - name: Intricately Plans Pricing
   plan_count: 0
@@ -137,7 +142,7 @@ score:
   band: thin
   composite: 32.4
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
@@ -161,8 +166,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -253,7 +253,7 @@ modified: '2026-07-27'
 name: Western Power
 nav: Providers
 network: true
-overview: 'Western Power publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Content API, Metadata API, Outages API, and 3 more. Tagged areas include Energy, Australia, Utilities, Electricity, and Grid.
+overview: 'Western Power publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Content API, Metadata API, Outages API, and 3 more. Tagged areas include Energy, Australia, Utilities, Electricity, and Grid.
 
 
   Western Power''s developer surface includes authentication, support, engineering blog, documentation, developer portal, and 27 more developer resources.'
@@ -300,8 +300,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 32.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

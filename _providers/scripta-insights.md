@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 4.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: A live, anonymous Model Context Protocol endpoint served from the Scripta Insights marketing host and advertised in the company's own /llms.txt. It is the stock Wix Site MCP server (platform-authored,
@@ -143,7 +143,7 @@ modified: '2026-08-26'
 name: Scripta Insights
 nav: Providers
 network: true
-overview: 'Scripta Insights publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Pharmacy Benefits, Prescriptions, and Health Plans.
+overview: 'Scripta Insights is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Pharmacy Benefits, Prescriptions, and Health Plans.
 
 
   Scripta Insights'' developer surface includes engineering blog, support, and 14 more developer resources.'
@@ -190,8 +190,8 @@ score:
     regime: Health
     regime_id: health
     score: 23.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

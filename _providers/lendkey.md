@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 4
 apis:
 - baseURL: https://proxy.kong.lkeyprod.com/integration/
@@ -166,6 +166,10 @@ collections:
   name: LendKey E-Sign API (via Kong Gateway) Application Contracts Webhooks API
   slug: open-lendkey-webhooks-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.lendkey.com/blog/feed/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/lendkey/refs/heads/main/capabilities/lendkey-capability-edges.yml
   title: ''
@@ -284,17 +288,17 @@ created: '2026-07-17'
 description: LendKey Technologies is a New York based digital lending platform that lets credit unions and community banks originate, fund and service consumer loans without building the technology themselves. Its network-lending model covers private student loans, student loan refinancing, home improvement lending and auto lending, and its ALIRO platform runs loan participations and post-origination liquidity between institutions. LendKey has surpassed $8 billion in loan originations. For integrators it operates a Kong Gateway fronted API estate published through a Kong Developer Portal at developer.lendkey.com, covering origination intake (leads, soft credit pull, credit attributes, scoring and application boarding), treasury management (loan inventory, disbursements, payments and capital ledger), and DocuSign backed e-signature contracts. Access is partner gated, with OAuth2 client-credentials credentials issued through the developer portal.
 image: https://www.lendkey.com/wp-content/uploads/2018/08/cropped-LK512.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: LendKey
 nav: Providers
 network: true
-overview: 'LendKey publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Application Contracts API, Applications API, Auth API, and 12 more. Tagged areas include Company, Fintech, Lending, Loans, and Student Loans.
+overview: 'LendKey publishes 15 API contracts indexed on the [APIs.io](https://apis.io/) network, including Application Contracts API, Applications API, Auth API, and 12 more. Tagged areas include Company, Fintech, Lending, Loans, and Student Loans.
 
 
   The LendKey catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  LendKey''s developer surface includes documentation, API reference, signup flow, support, engineering blog, authentication, sandbox, and 18 more developer resources.'
+  LendKey''s developer surface includes documentation, API reference, signup flow, support, engineering blog, authentication, sandbox, and 19 more developer resources.'
 random_paper: 0
 scopes:
 - name: Lendkey Scopes
@@ -303,15 +307,15 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 44.5
+  composite: 44.6
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 27.6
     contract_governance: 4.5
@@ -335,8 +339,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 44.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

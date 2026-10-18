@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://openbionics.com/feed/
 - group: company
   title: ''
   type: Website
@@ -61,20 +65,20 @@ created: '2026-07-17'
 description: Open Bionics is a Bristol, UK-based medical technology company that designs and manufactures advanced multi-grip bionic arms for children and adults with upper-limb differences. Its Hero product family (Hero ARM, Hero PRO, Hero RGD, Hero FLEX and Hero GAUNTLET) pairs 3D-printed, lightweight myoelectric prosthetic hands with an ecosystem of MyoPods wireless electrodes and the Sidekick companion app, delivered through a network of specialist prosthetists and clinics in the US and UK. Added to the API Evangelist network as a Techstars portfolio company; enrichment probing found no public developer API, SDK, developer portal, or event surface.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/open-bionics.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Open Bionics
 nav: Providers
 network: true
 overview: 'Open Bionics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, Health Tech, Prosthetics, and Bionics.
 
 
-  Open Bionics'' developer surface includes support and 4 more developer resources.'
+  Open Bionics'' developer surface includes support and 5 more developer resources.'
 random_paper: 12
 score:
   band: minimal
   composite: 9.8
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -100,8 +104,8 @@ score:
     regime: Health
     regime_id: health
     score: 10.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

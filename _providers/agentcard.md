@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 68.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -295,7 +295,7 @@ modified: '2026-07-17'
 name: Agentcard
 nav: Providers
 network: true
-overview: 'Agentcard publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Connect API, Identity verification API, and 2 more. Tagged areas include Company, Payments, Virtual Cards, Card Issuing, and AI Agents.
+overview: 'Agentcard publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authentication API, Connect API, Identity verification API, and 2 more. Tagged areas include Company, Payments, Virtual Cards, Card Issuing, and AI Agents.
 
 
   The Agentcard catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
@@ -307,7 +307,7 @@ score:
   band: developing
   composite: 53.0
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -338,8 +338,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 22.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 10.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Publicly documented REST API that connects an external system to the ADDX platform. Roughly 68 operations across five documented groups — Account Management (account, balance, EAM investor, portfolio,
@@ -31,6 +31,14 @@ apis:
   slug: addx-open-api
 artifact_total: 5
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://addx.co/insights/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://addx.co/insights/rss/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/addx/refs/heads/main/security/addx-domain-security.yml
   title: ''
@@ -144,14 +152,14 @@ created: '2026-09-07'
 description: ADDX is a Singapore-headquartered digital securities exchange and private-markets investment platform, licensed by the Monetary Authority of Singapore for the issuance, custody and secondary trading of digital securities. Founded in 2017 as iSTOX, it tokenises and fractionalises private equity, private credit, hedge funds, structured products, fixed income and commercial paper so accredited investors can subscribe at roughly USD 10,000 rather than institutional minimums. Alongside the consumer web and mobile app, ADDX Advantage packages the same rails for wealth managers, brokers and external asset managers (EAMs), and the publicly documented ADDX Open API — an HMAC-signed REST surface of about 68 operations covering account and investor information, STO subscription and redemption, wallet, fiat and digital-asset flows, exchange order-book market data and investor reporting — lets those partners drive the platform from their own systems.
 image: https://www.addx.co/images/Social_Share_Hero_image2.png
 layout: provider
-modified: '2026-09-07'
+modified: '2026-10-06'
 name: ADDX
 nav: Providers
 network: true
-overview: 'ADDX publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Digital Securities Exchange, Private Markets, Tokenization, Alternative Investments, and Wealth Management.
+overview: 'ADDX is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Digital Securities Exchange, Private Markets, Tokenization, Alternative Investments, and Wealth Management.
 
 
-  ADDX''s developer surface includes API reference, documentation, getting-started guide, signup flow, support, engineering blog, authentication, and 17 more developer resources.'
+  ADDX''s developer surface includes engineering blog, API reference, documentation, getting-started guide, signup flow, support, authentication, and 19 more developer resources.'
 plans:
 - name: Addx Plans Pricing
   plan_count: 0
@@ -163,15 +171,15 @@ rate_limits:
   slug: addx-rate-limits
 score:
   band: thin
-  composite: 29.2
+  composite: 29.3
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 17
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 35.5
     contract_governance: 18.2
@@ -196,13 +204,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/addx/refs/heads/main/screenshots/addx-2026-10-11T092759.png
 security:
 - kind: authentication
   name: Addx Authentication

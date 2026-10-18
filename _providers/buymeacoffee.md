@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-04'
+  score: 20.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -81,6 +81,14 @@ collections:
   name: Buy Me a Coffee API
   slug: open-buymeacoffee
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://buymeacoffee.com/blog/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://buymeacoffee.com/blog/feed/
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/buymeacoffee/refs/heads/main/agentic-access/buymeacoffee-agentic-access.yml
   title: ''
@@ -126,19 +134,23 @@ common:
 created: '2026-07-05'
 description: Buy Me a Coffee is a creator-support platform that lets fans tip creators ("buy a coffee"), subscribe to recurring memberships, and buy extras from a creator's shop. Its developer API is a read-only REST interface (base https://developers.buymeacoffee.com/api/v1) authenticated with a personal access Bearer token created self-serve in the Developer Dashboard. The API exposes a creator's own one-time supporters, memberships/subscriptions, and extra purchases, and the platform also delivers server-push webhooks for donation, membership, and shop events. Buy Me a Coffee charges a flat 5% platform fee on transactions with no monthly fee.
 finops:
-- name: Buymeacoffee Finops
+- has_sources: true
+  method: generated
+  name: Buymeacoffee Finops
+  primary_unit: ''
   service_category: Creator Monetization and Payments
   slug: buymeacoffee-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/buymeacoffee.png
 layout: provider
-modified: '2026-07-05'
+modified: '2026-10-06'
 name: Buy Me a Coffee
 nav: Providers
 network: true
-overview: 'Buy Me a Coffee publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Extras API, Subscriptions API, Supporters API, and 1 more. Tagged areas include Creator Economy, Membership, Subscription, Tips, and Payments.
+overview: 'Buy Me a Coffee publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Extras API, Subscriptions API, Supporters API, and 1 more. Tagged areas include Creator Economy, Membership, Subscription, Tips, and Payments.
 
 
-  Buy Me a Coffee''s developer surface includes authentication, documentation, and 7 more developer resources.'
+  Buy Me a Coffee''s developer surface includes engineering blog, authentication, documentation, and 8 more developer resources.'
 plans:
 - name: Buymeacoffee Plans Pricing
   plan_count: 2
@@ -149,23 +161,23 @@ rate_limits:
   name: Buymeacoffee Rate Limits
   slug: buymeacoffee-rate-limits
 score:
-  band: thin
-  composite: 31.4
+  band: emerging
+  composite: 24.9
   coverage:
-    artifact_dirs: 10
-    catalog_earned: 58.0
+    artifact_dirs: 12
+    catalog_earned: 42.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.0
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.5
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 50.2
-    developer_ergonomics: 22.6
+    developer_ergonomics: 25.0
     discoverability: 66.1
-    operational_transparency: 28.4
+    operational_transparency: 7.9
   previous_composite: 31.4
   provenance:
     agentic_access: derived
@@ -180,9 +192,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 10.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

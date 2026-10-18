@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -148,6 +148,21 @@ collections:
   name: Rightsline API
   slug: open-rightsline
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/rightsline/refs/heads/main/plans/rightsline-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/rightsline-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/rightsline/refs/heads/main/rate-limits/rightsline-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/rightsline-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/rightsline/refs/heads/main/finops/rightsline-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/rightsline-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/rightsline/refs/heads/main/capabilities/rightsline-capability-edges.yml
   title: ''
@@ -250,9 +265,13 @@ examples:
   name: Rightsline List Rights Example
   slug: rightsline-list-rights-example
 finops:
-- name: Rightsline Finops
+- has_sources: false
+  method: generated
+  name: Rightsline Finops
+  primary_unit: ''
   service_category: API
   slug: rightsline-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rightsline.png
 json_schemas:
 - name: Rightsline Right
@@ -275,13 +294,13 @@ modified: '2026-05-19'
 name: Rightsline
 nav: Providers
 network: true
-overview: 'Rightsline publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Rights API, Royalties API, Availability API, and 7 more. Tagged areas include Content Management, Entertainment, Media, Rights Management, and Royalties.
+overview: 'Rightsline publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Rights API, Royalties API, Availability API, and 7 more. Tagged areas include Content Management, Entertainment, Media, Rights Management, and Royalties.
 
 
   The Rightsline catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Rightsline''s developer surface includes authentication, documentation, developer portal, getting-started guide, engineering blog, and 17 more developer resources.'
+  Rightsline''s developer surface includes authentication, documentation, developer portal, getting-started guide, engineering blog, and 20 more developer resources.'
 plans:
 - name: Rightsline Plans Pricing
   plan_count: 3
@@ -292,9 +311,10 @@ rate_limits:
   name: Rightsline Rate Limits
   slug: rightsline-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Rightsline API Rules
+  name: Rightsline — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -302,7 +322,8 @@ rules:
     info: 2
     warn: 3
   slug: rightsline-jsonschema-spectral-rules
-- effective_rule_count: 11
+- authorship: unmarked
+  effective_rule_count: 11
   extends: []
   name: Rightsline API Rules
   rule_count: 11
@@ -314,17 +335,17 @@ rules:
   slug: rightsline-rules
 score:
   band: developing
-  composite: 41.1
+  composite: 39.6
   coverage:
     artifact_dirs: 20
-    catalog_earned: 61.8
+    catalog_earned: 58.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.3
+    catalog_gap: 56.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 26.3
+    access_clarity: 18.4
     contract_governance: 23.5
     contract_quality: 57.1
     developer_ergonomics: 50.0
@@ -344,8 +365,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

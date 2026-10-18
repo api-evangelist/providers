@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://aimlabs.com/articles/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/statespace/refs/heads/main/security/statespace-domain-security.yml
   title: ''
@@ -65,14 +69,14 @@ created: '2026-07-17'
 description: Statespace is the company behind Aimlabs (aimlabs.com, formerly statespace.gg), the leading AI-powered aim-training platform for FPS gamers. Aimlabs delivers personalized training tasks, real-time performance analytics, and game-specific tools, serving over 40 million players and operating as an official partner of Valorant and Rainbow Six Siege. Statespace is venture-backed by Bessemer Venture Partners and Lux Capital. As of this enrichment pass the company publishes a consumer web/desktop product but no public developer API, SDK, or documentation surface.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/statespace.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Statespace
 nav: Providers
 network: true
-overview: 'Statespace is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Ml, Gaming, Esports, and Aim Training.
+overview: 'Statespace is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Gaming, Esports, and Aim Training.
 
 
-  Statespace''s developer surface includes engineering blog and 5 more developer resources.'
+  Statespace''s developer surface includes engineering blog and 6 more developer resources.'
 random_paper: 13
 score:
   band: minimal
@@ -98,9 +102,9 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+    score: 12.7
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -115,7 +119,7 @@ security:
 slug: statespace
 tags:
 - Company
-- Ai Ml
+- Artificial Intelligence
 - Gaming
 - Esports
 - Aim Training

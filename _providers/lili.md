@@ -20,7 +20,7 @@ agent_readiness:
   dimensions:
     agent_card: false
     agent_skills: derived
-    agentic_access: false
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: served
     consent_identity: false
@@ -38,8 +38,15 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 48.6
-  scored_at: '2026-10-04'
+  score: 50.4
+  scored_at: '2026-10-17'
+agentic_access:
+- acting_count: 7
+  human_in_the_loop: 0
+  name: Lili Agentic Access
+  operation_count: 11
+  slug: lili-agentic-access
+  summary_line: 11 operations · 7 acting
 api_count: 3
 apis:
 - description: Remote, OAuth 2.0 protected Model Context Protocol server (Streamable HTTP, MCP spec 2025-03-26) exposing 44 tools that let an AI assistant read a Lili business customer's account summary, transaction
@@ -50,12 +57,62 @@ apis:
   description: The Lili API from Lili — 8 operation(s) for lili.
   name: Lili API
   slug: lili-lili-api
-artifact_total: 9
+artifact_total: 18
 asyncapis:
 - description: ''
   name: Lili Webhooks
   slug: lili-webhooks
 common:
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lili/refs/heads/main/agentic-access/lili-agentic-access.yml
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/lili-agentic-access.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lili/refs/heads/main/rules/lili-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/lili-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lili/refs/heads/main/json-ld/lili-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/lili-context.jsonld
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lili/refs/heads/main/vocabulary/lili-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/lili-vocabulary.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/lili/refs/heads/main/lifecycle/lili-lifecycle.yml
+  title: ''
+  type: Deprecation
+  url: lifecycle/lili-lifecycle.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lili/refs/heads/main/llms/lili-site-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/lili-site-llms.txt
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/lili/refs/heads/main/hosts/lili-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/lili-hosts.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/lili/refs/heads/main/integrations/lili-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/lili-integration-edges.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/lili/refs/heads/main/vendors/lili-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/lili-vendors.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/lili/refs/heads/main/packages/lili-packages.yml
+  title: ''
+  type: SDKs
+  url: packages/lili-packages.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/lili/refs/heads/main/overlays/lili-application-api-overlay.yaml
   title: ''
@@ -148,11 +205,6 @@ common:
   title: ''
   type: Authentication
   url: authentication/lili-authentication.yml
-- group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lili/refs/heads/main/scopes/lili-scopes.yml
-  title: ''
-  type: OAuthScopes
-  url: scopes/lili-scopes.yml
 - group: design
   href: https://raw.githubusercontent.com/api-evangelist/lili/refs/heads/main/conventions/lili-conventions.yml
   title: ''
@@ -231,6 +283,30 @@ common:
 created: '2026-08-25'
 description: 'Lili is a U.S. small-business banking and financial-management platform (banking services provided by Sunrise Banks, N.A., Member FDIC) that combines a business checking account, high-yield savings, a Visa debit card, invoicing, bill pay, expense categorization, tax buckets and business-credit products for LLCs, corporations, partnerships, sole proprietors and non-profits. For developers Lili publishes the Lili Connect platform at dev.lili.co: an Application API that creates a pre-filled business bank account application and returns a hosted or embeddable onboarding URL, a Customer Management API for payment notification and bank-letter retrieval, a Webhooks API for onboarding lifecycle events, and a remote, OAuth 2.0 protected MCP server at mcp.lili.co that exposes 44 read-oriented tools over balances, transactions, invoices, bills, suppliers, cards, tax estimates, statements and business profile for AI assistants and accountants.'
 image: https://lili.co/wp-content/uploads/2025/05/meta-preview.png
+json_schemas:
+- name: LeadRequest
+  property_count: 33
+  slug: lili-lead-request
+- name: LeadResponse
+  property_count: 7
+  slug: lili-lead-response
+- name: PaymentRequest
+  property_count: 8
+  slug: lili-payment-request
+- name: WebhookCreateResponse
+  property_count: 4
+  slug: lili-webhook-create-response
+- name: WebhookRequest
+  property_count: 4
+  slug: lili-webhook-request
+- name: WebhookResponse
+  property_count: 5
+  slug: lili-webhook-response
+jsonld:
+- class_count: 19
+  name: Lili Context
+  property_count: 73
+  slug: lili-context
 layout: provider
 mcp_servers:
 - description: Remote MCP server at mcp.lili.co over streamable HTTP requiring OAuth; 44 tools listed.
@@ -240,13 +316,13 @@ modified: '2026-09-16'
 name: Lili
 nav: Providers
 network: true
-overview: 'Lili publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Banking, Business Banking, Financial Services, Fintech, and Embedded Finance.
+overview: 'Lili publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network. Tagged areas include Banking, Business Banking, Financial Services, Fintech, and Embedded Finance.
 
 
-  The Lili catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Lili catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Lili''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 30 more developer resources.'
+  Lili''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 39 more developer resources.'
 plans:
 - name: Lili Plans Pricing
   plan_count: 4
@@ -256,31 +332,45 @@ rate_limits:
 - limit_count: 0
   name: Lili Rate Limits
   slug: lili-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 58
+  extends:
+  - spectral:oas
+  name: Lili API Rules
+  rule_count: 17
+  severity_counts:
+    error: 13
+    hint: 0
+    info: 1
+    warn: 3
+  slug: lili-rules
 scopes:
 - name: Lili Scopes
   scope_count: 0
   slug: lili-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 60.8
+  band: exemplar
+  composite: 68.7
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 52.0
+    artifact_dirs: 32
+    catalog_earned: 77.8
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 37.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -3.7
+  delta: 7.9
   facets:
     access_clarity: 84.2
-    contract_governance: 18.2
-    contract_quality: 56.4
-    developer_ergonomics: 66.1
+    contract_governance: 35.6
+    contract_quality: 69.8
+    developer_ergonomics: 73.2
     discoverability: 80.0
-    operational_transparency: 23.7
-  previous_composite: 64.5
+    operational_transparency: 31.6
+  previous_composite: 60.8
   provenance:
+    agentic_access: derived
     conformance: first-party
     contracts:
       callable: 100.0
@@ -295,9 +385,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 48.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

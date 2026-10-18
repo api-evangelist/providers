@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Puppeteer is a Node.js library providing a high-level API to control headless Chrome or Chromium browsers for web scraping, testing, and automation.
@@ -41,6 +41,21 @@ apis:
   slug: puppeteer
 artifact_total: 5
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/puppeteer/refs/heads/main/plans/puppeteer-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/puppeteer-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/puppeteer/refs/heads/main/rate-limits/puppeteer-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/puppeteer-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/puppeteer/refs/heads/main/finops/puppeteer-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/puppeteer-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/puppeteer/refs/heads/main/security/puppeteer-domain-security.yml
   title: ''
@@ -61,19 +76,23 @@ common:
 created: '2026-03-29'
 description: Puppeteer is a Node.js library providing a high-level API to control headless Chrome or Chromium browsers for web scraping, testing, and automation.
 finops:
-- name: Puppeteer Finops
+- has_sources: false
+  method: generated
+  name: Puppeteer Finops
+  primary_unit: ''
   service_category: API
   slug: puppeteer-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/puppeteer.png
 layout: provider
 modified: '2026-03-29'
 name: Puppeteer
 nav: Providers
 network: true
-overview: 'Puppeteer publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Browser Automation, Headless Browser, and Scraping.
+overview: 'Puppeteer is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Browser Automation, Headless Browser, and Web Scraping.
 
 
-  Puppeteer''s developer surface includes documentation and 3 more developer resources.'
+  Puppeteer''s developer surface includes documentation and 6 more developer resources.'
 plans:
 - name: Puppeteer Plans Pricing
   plan_count: 3
@@ -84,18 +103,18 @@ rate_limits:
   name: Puppeteer Rate Limits
   slug: puppeteer-rate-limits
 score:
-  band: emerging
-  composite: 11.3
+  band: minimal
+  composite: 9.8
   coverage:
-    artifact_dirs: 6
-    catalog_earned: 31.0
+    artifact_dirs: 7
+    catalog_earned: 28.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 84.0
+    catalog_gap: 87.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 21.4
@@ -108,8 +127,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -125,6 +144,6 @@ slug: puppeteer
 tags:
 - Browser Automation
 - Headless Browser
-- Scraping
+- Web Scraping
 website: https://pptr.dev/
 ---

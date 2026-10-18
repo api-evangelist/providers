@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 30
-  human_in_the_loop: 1
+- acting_count: 23
+  human_in_the_loop: 0
   name: Sertifier Agentic Access
   operation_count: 37
   slug: sertifier-agentic-access
-  summary_line: 37 operations · 30 acting · 1 human-in-the-loop
+  summary_line: 37 operations · 23 acting
 api_count: 1
 apis:
 - baseURL: https://b2b.sertifier.com
@@ -180,16 +180,20 @@ common:
 created: '2026-07-05'
 description: Sertifier is a digital credential and certificate/badge management platform that lets organizations design, issue, verify, and analyze verifiable digital credentials (Open Badge-style certificates and badges) at scale. Beyond the web application, Sertifier exposes a REST Credential API (base https://b2b.sertifier.com, authenticated with a private secretKey header and an api-version header) so backend systems and LMS/CRM integrations can programmatically manage designs, credential details, email templates, campaigns, recipients, custom attributes, and issue and publish credentials the instant a learner completes a course. Sertifier has issued more than 10 million credentials across 70+ countries.
 finops:
-- name: Sertifier Finops
+- has_sources: true
+  method: generated
+  name: Sertifier Finops
+  primary_unit: ''
   service_category: Digital Credentialing and Certificates
   slug: sertifier-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sertifier.png
 layout: provider
 modified: '2026-07-05'
 name: Sertifier
 nav: Providers
 network: true
-overview: 'Sertifier publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Attributes API, Authentication API, Campaigns API, and 6 more. Tagged areas include Digital Credentials, Certificates, Badges, Open Badges, and Verifiable Credentials.
+overview: 'Sertifier publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Attributes API, Authentication API, Campaigns API, and 6 more. Tagged areas include Digital Credentials, Certificates, Badges, Open Badges, and Verifiable Credentials.
 
 
   Sertifier''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
@@ -204,22 +208,22 @@ rate_limits:
   slug: sertifier-rate-limits
 score:
   band: thin
-  composite: 36.1
+  composite: 27.8
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 61.6
+    artifact_dirs: 13
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.4
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 48.1
     developer_ergonomics: 27.4
     discoverability: 66.1
-    operational_transparency: 28.4
+    operational_transparency: 7.9
   previous_composite: 36.1
   provenance:
     agentic_access: derived
@@ -234,9 +238,9 @@ score:
     regime: Education & Research
     regime_id: education
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 27.8

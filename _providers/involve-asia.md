@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 9
+- acting_count: 8
   human_in_the_loop: 0
   name: Involve Asia Agentic Access
   operation_count: 9
   slug: involve-asia-agentic-access
-  summary_line: 9 operations · 9 acting
+  summary_line: 9 operations · 8 acting
 api_count: 1
 apis:
 - baseURL: https://api.involve.asia/api
@@ -110,6 +110,19 @@ collections:
   name: Involve Asia Publisher Auth Shopee API
   slug: open-involve-asia-shopee-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/involve-asia/refs/heads/main/plans/involve-asia-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/involve-asia-plans-pricing.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://involve.asia/blog/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://involve.asia/feed/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/involve-asia/refs/heads/main/capabilities/involve-asia-capability-edges.yml
   title: ''
@@ -262,17 +275,17 @@ created: '2026-07-17'
 description: 'Involve Asia (Involve Asia Technologies Sdn. Bhd.) is a leading affiliate and partnership-marketing network across Southeast Asia and Taiwan, connecting advertisers with publishers and creators to grow revenue through performance marketing. Its public Publisher API lets publishers programmatically pull conversion (commission) data, browse offers and campaigns, generate trackable affiliate deeplinks, and access Shopee Commission Xtra boosted-payout brands — without logging into the dashboard. The API is REST over HTTPS with bearer-JWT auth (2-hour token TTL), form-urlencoded requests, page-number pagination, a 60 requests/minute throttle, and a 1,000-link rolling 30-day deeplink cap. Involve Asia publishes first-party machine-readable artifacts: an OpenAPI 3.1 spec, a Claude Skill, an llms.txt, and a Postman collection.'
 image: https://api.involve.asia/docs/assets/f4c704c9-e5f3-4fea-8ccd-89209c3f2451.svg
 layout: provider
-modified: '2026-08-13'
+modified: '2026-10-06'
 name: Involve Asia
 nav: Providers
 network: true
-overview: 'Involve Asia publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Campaigns API, Conversions API, and 3 more. Tagged areas include Affiliate Marketing, Performance Marketing, Partnership Marketing, Publishers, and Creators.
+overview: 'Involve Asia publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Auth API, Campaigns API, Conversions API, and 3 more. Tagged areas include Affiliate Marketing, Performance Marketing, Partnership Marketing, Publishers, and Creators.
 
 
   The Involve Asia catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Involve Asia''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 25 more developer resources.'
+  Involve Asia''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, signup flow, authentication, and 28 more developer resources.'
 plans:
 - name: Involve Asia Plans Pricing
   plan_count: 0
@@ -284,15 +297,15 @@ rate_limits:
   slug: involve-asia-rate-limits
 score:
   band: developing
-  composite: 49.0
+  composite: 49.1
   coverage:
-    artifact_dirs: 26
+    artifact_dirs: 27
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
@@ -322,8 +335,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

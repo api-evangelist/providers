@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.0
-  scored_at: '2026-10-04'
+  score: 28.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -87,6 +87,15 @@ collections:
   name: Calendarific Holiday API
   slug: open-calendarific
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/calendarific/refs/heads/main/finops/calendarific-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/calendarific-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://calendarific.com/news
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -230,9 +239,13 @@ features:
 - description: Multiple keys per account for environment separation.
   name: Multiple API Keys
 finops:
-- name: Calendarific Finops
+- has_sources: false
+  method: generated
+  name: Calendarific Finops
+  primary_unit: ''
   service_category: ''
   slug: calendarific-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/calendarific.png
 integrations:
 - description: Imported holiday data into Google Calendar via custom calendars.
@@ -269,17 +282,17 @@ jsonld:
   property_count: 2
   slug: calendarific-context
 layout: provider
-modified: '2026-05-29'
+modified: '2026-10-06'
 name: Calendarific
 nav: Providers
 network: true
-overview: 'Calendarific publishes 3 APIs on the [APIs.io](https://apis.io/) network: Countries API, Holidays API, and Languages API. Tagged areas include Calendar, Public APIs, Holidays, Worldwide, and Localization.
+overview: 'Calendarific publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Countries API, Holidays API, and Languages API. Tagged areas include Calendar, Public APIs, Holidays, Worldwide, and Localization.
 
 
   The Calendarific catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Calendarific''s developer surface includes authentication, signup flow, pricing, support, tooling, and 22 more developer resources.'
+  Calendarific''s developer surface includes engineering blog, authentication, signup flow, pricing, support, tooling, and 23 more developer resources.'
 plans:
 - name: Calendarific Plans Pricing
   plan_count: 4
@@ -290,9 +303,10 @@ rate_limits:
   name: Calendarific Rate Limits
   slug: calendarific-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Calendarific API Rules
+  name: Calendarific — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -300,7 +314,8 @@ rules:
     info: 1
     warn: 4
   slug: calendarific-jsonschema-spectral-rules
-- effective_rule_count: 47
+- authorship: unmarked
+  effective_rule_count: 47
   extends:
   - spectral:oas
   name: Calendarific API Rules
@@ -312,21 +327,21 @@ rules:
     warn: 4
   slug: calendarific-rules
 score:
-  band: strong
-  composite: 54.3
+  band: developing
+  composite: 49.2
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 76.8
+    artifact_dirs: 18
+    catalog_earned: 66.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 38.2
+    catalog_gap: 49.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.1
   facets:
-    access_clarity: 74.5
+    access_clarity: 46.1
     contract_governance: 27.3
     contract_quality: 63.9
-    developer_ergonomics: 56.0
+    developer_ergonomics: 58.3
     discoverability: 73.2
     operational_transparency: 2.6
   jurisdiction:
@@ -348,9 +363,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

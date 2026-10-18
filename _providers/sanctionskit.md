@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -11,25 +11,72 @@ agent_readiness:
     delegated_identity: served
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: verified
     event_surface_described: true
-    idempotency: documented
-    mcp_server: false
-    openapi_examples: false
+    idempotency: verified
+    mcp_server: documented
+    openapi_examples: verified
     protected_resource_metadata: verified
-    rate_limit_signal: documented
-    reversibility_documented: false
+    rate_limit_signal: verified
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 37.4
-  scored_at: '2026-10-04'
+  score: 59.1
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
-- description: SanctionsKit screening API providing endpoints for source discovery, screening policies, monitoring, webhooks, and reporting.
-  name: SanctionsKit API
-  slug: sanctionskit-api
-artifact_total: 6
+- baseURL: https://www.sanctionskit.com/api/v1
+  baseurl_source: declared
+  description: Batch screening operations of the SanctionsKit API — list batches with progress, accept up to 100 inline requests or an authorized private upload, read batch and row outcomes, cancel pending rows, aut
+  name: SanctionsKit Batches and files API
+  slug: sanctionskit-batches-and-files-api
+- baseURL: https://www.sanctionskit.com/api/v1
+  baseurl_source: declared
+  description: Counterparty operations of the SanctionsKit API — list persistent customer and vendor records, read a counterparty with its linked screening, case and monitor history, and page through that history in
+  name: SanctionsKit Counterparties API
+  slug: sanctionskit-counterparties-api
+- baseURL: https://www.sanctionskit.com/api/v1
+  baseurl_source: declared
+  description: Ongoing monitoring operations of the SanctionsKit API — create, read, update and stop monitored subjects, read monitor health and estimated period capacity, pause, resume or change cadence, and read t
+  name: SanctionsKit Monitoring API
+  slug: sanctionskit-monitoring-api
+- baseURL: https://www.sanctionskit.com/api/v1
+  baseurl_source: declared
+  description: Reporting operations of the SanctionsKit API — backlog and period screening and reviewer activity, a bounded screening CSV, case audit packets in JSON or PDF, case archive export, and case retention g
+  name: SanctionsKit Reports API
+  slug: sanctionskit-reports-api
+- baseURL: https://www.sanctionskit.com/api/v1
+  baseurl_source: declared
+  description: Analyst review operations of the SanctionsKit API — list and open review cases on retained screenings, read cases with append-only decisions, read investigations with match decisions, notes and attach
+  name: SanctionsKit Review evidence API
+  slug: sanctionskit-review-evidence-api
+- baseURL: https://www.sanctionskit.com/api/v1
+  baseurl_source: declared
+  description: Screening operations of the SanctionsKit API — screen one subject against explicitly selected source coverage, list and retrieve retained results, and download retained JSON evidence. A potential matc
+  name: SanctionsKit Screening and evidence API
+  slug: sanctionskit-screening-and-evidence-api
+- baseURL: https://www.sanctionskit.com/api/v1
+  baseurl_source: declared
+  description: Screening policy operations of the SanctionsKit API — read current approved screening policy versions and the current version of one policy.
+  name: SanctionsKit Screening policies API
+  slug: sanctionskit-screening-policies-api
+- baseURL: https://www.sanctionskit.com/api/v1
+  baseurl_source: declared
+  description: Source discovery operation of the SanctionsKit API — discover source capabilities, qualification and availability before selecting screening coverage.
+  name: SanctionsKit Source discovery API
+  slug: sanctionskit-source-discovery-api
+- baseURL: https://www.sanctionskit.com/api/v1
+  baseurl_source: declared
+  description: Usage operation of the SanctionsKit API — read the period allowance, used subjects and pending reservations. Each completed subject consumes one allowance unit; failed rows and idempotent retries do n
+  name: SanctionsKit Usage API
+  slug: sanctionskit-usage-api
+- baseURL: https://www.sanctionskit.com/api/v1
+  baseurl_source: declared
+  description: Webhook endpoint operations of the SanctionsKit API — read endpoints and recent delivery history, register a public HTTPS endpoint and receive its signing secret once, disable an endpoint, and retry a
+  name: SanctionsKit Webhooks API
+  slug: sanctionskit-webhooks-api
+artifact_total: 16
 asyncapis:
 - description: ''
   name: Sanctionskit Webhooks
@@ -161,21 +208,46 @@ common:
   title: ''
   type: GitHubOrganization
   url: https://github.com/SanctionsKit
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: https://www.sanctionskit.com/openapi.json
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sanctionskit/refs/heads/main/mcp/sanctionskit-mcp.yml
+  title: ''
+  type: MCPServer
+  url: mcp/sanctionskit-mcp.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: https://www.sanctionskit.com/mcp
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://www.sanctionskit.com/resources/mcp
+- group: auth
+  title: ''
+  type: OAuthProtectedResource
+  url: https://www.sanctionskit.com/.well-known/oauth-protected-resource/mcp
 created: '2026-10-02'
 description: SanctionsKit provides a comprehensive sanctions screening API and compliance dashboard that enables businesses to screen individuals and organizations against global restricted‑party lists, manage investigations, and maintain audit trails. The platform offers batch and real‑time screening, case management, and ongoing monitoring with a free sandbox key for developers to test integrations. It serves financial services, fintech, trade, logistics, and marketplace sectors, delivering detailed source evidence and customizable alerts.
 image: https://www.sanctionskit.com/og/v1/home
 layout: provider
-modified: '2026-10-02'
+mcp_servers:
+- description: SanctionsKit operates one first-party remote developer MCP server at https://www.sanctionskit.com/mcp over Streamable HTTP. Anonymous initialize (serverInfo sanctionskit 1.0.0, protocol 2025-06-18, ca
+  name: SanctionsKit MCP Server
+  slug: sanctionskit
+modified: '2026-10-05'
 name: SanctionsKit
 nav: Providers
 network: true
-overview: 'SanctionsKit publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Sanctions, Compliance, Screening, and Fintech.
+overview: 'SanctionsKit publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Batches and files API, Counterparties API, Monitoring API, and 7 more. Tagged areas include Company, Sanctions, Compliance, Screening, and Fintech.
 
 
   The SanctionsKit catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  SanctionsKit''s developer surface includes authentication, documentation, API reference, getting-started guide, support, pricing, signup flow, and 21 more developer resources.'
+  SanctionsKit''s developer surface includes authentication, documentation, API reference, getting-started guide, support, pricing, signup flow, and 26 more developer resources.'
 plans:
 - name: Sanctionskit Plans Pricing
   plan_count: 3
@@ -187,36 +259,44 @@ rate_limits:
   slug: sanctionskit-rate-limits
 score:
   band: strong
-  composite: 55.4
+  composite: 60.1
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 16
     catalog_earned: 57.0
     catalog_earned_first_party: 20.0
     catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 4.7
   facets:
     access_clarity: 76.3
     contract_governance: 4.5
-    contract_quality: 39.0
+    contract_quality: 59.7
     developer_ergonomics: 66.7
-    discoverability: 73.2
+    discoverability: 75.0
     operational_transparency: 60.5
+  previous_composite: 55.4
   provenance:
     conformance: derived
-    mcp: unknown
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 10
+    mcp: first-party
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://raw.githubusercontent.com/api-evangelist/sanctionskit/refs/heads/main/screenshots/sanctionskit-2026-10-11T125521.png
 security:
 - kind: authentication
   name: Sanctionskit Authentication

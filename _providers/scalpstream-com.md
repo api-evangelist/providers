@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 5
 apis:
 - description: Machine-payable US recall lookups over x402. Given a product, brand, ingredient or vehicle (make/model/year), returns active recalls across FDA food/drug/device enforcement, NHTSA vehicle safety campa
@@ -43,6 +43,14 @@ apis:
   slug: scalpstream-research
 artifact_total: 11
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.scalpstream.com/blog
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.scalpstream.com/blog-feed.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/scalpstream-com/refs/heads/main/security/scalpstream-com-domain-security.yml
   title: ''
@@ -173,14 +181,14 @@ mcp_servers:
 - description: 'Two MCP surfaces exist and they are different things. (1) FIRST-PARTY, LOCAL-STDIO: the operator publishes `scalpstream-mcp`, a Go MCP server (binary `scalpmcp`) that a user installs and runs locally;'
   name: ScalpStream MCP Server
   slug: scalpstream
-modified: '2026-09-19'
+modified: '2026-10-06'
 name: ScalpStream
 nav: Providers
 network: true
-overview: 'ScalpStream publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Agents, A2A, x402, and Micropayments.
+overview: 'ScalpStream is listed with 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Agents, A2A, x402, and Micropayments.
 
 
-  ScalpStream''s developer surface includes documentation, getting-started guide, pricing, authentication, changelog, sandbox, and 19 more developer resources.'
+  ScalpStream''s developer surface includes engineering blog, documentation, getting-started guide, pricing, authentication, changelog, sandbox, and 20 more developer resources.'
 plans:
 - name: Scalpstream Com Plans Pricing
   plan_count: 0
@@ -192,20 +200,20 @@ rate_limits:
   slug: scalpstream-com-rate-limits
 score:
   band: emerging
-  composite: 24.8
+  composite: 25.2
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 23
     catalog_earned: 49.0
     catalog_earned_first_party: 0.0
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.4
   facets:
     access_clarity: 10.5
     contract_governance: 18.2
     contract_quality: 12.0
-    developer_ergonomics: 34.5
+    developer_ergonomics: 36.9
     discoverability: 76.7
     operational_transparency: 18.4
   previous_composite: 24.8
@@ -218,13 +226,14 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/scalpstream-com/refs/heads/main/screenshots/scalpstream-com-2026-10-11T125535.png
 security:
 - kind: authentication
   name: Scalpstream Com Authentication

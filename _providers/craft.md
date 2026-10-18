@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: Craft Connect exposes a user's Craft Space, Daily Notes, tasks, and selected documents over REST as part of the Imagine platform, so tools like Apple Shortcuts, n8n, Zapier, Replit, and custom code ca
@@ -43,6 +43,10 @@ apis:
   slug: craft-extension-api
 artifact_total: 6
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.craft.do/feed/blog.xml
 - group: operate
   title: ''
   type: IssueTracker
@@ -160,26 +164,26 @@ mcp_servers:
 - description: Craft ships an official remote MCP server as part of its "Imagine" platform, letting MCP clients (Claude, ChatGPT, Claude Code, Cursor, VS Code, Windsurf, Raycast, Codex, Manus, Mistral Le Chat, Zapie
   name: craft MCP Server
   slug: craft
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: craft
 nav: Providers
 network: true
-overview: 'craft publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Productivity, Notes, and Documents.
+overview: 'craft is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Productivity, Notes, and Documents.
 
 
-  craft''s developer surface includes documentation, API reference, support, engineering blog, pricing, changelog, and 19 more developer resources.'
+  craft''s developer surface includes documentation, API reference, support, engineering blog, pricing, changelog, and 20 more developer resources.'
 random_paper: 0
 score:
   band: thin
-  composite: 34.5
+  composite: 34.6
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 47.4
     contract_governance: 18.2
@@ -201,8 +205,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -217,7 +221,7 @@ security:
 - kind: vulnerability-disclosure
   name: Craft Vulnerability Disclosure
   slug: craft-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 - kind: trust-center
   name: Craft Trust Center
   slug: craft-trust-center

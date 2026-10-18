@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -124,6 +124,15 @@ collections:
   name: Looker Auth User API
   slug: open-looker-user-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/looker/refs/heads/main/finops/looker-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/looker-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://cloud.google.com/blog/
 - group: operate
   href: https://raw.githubusercontent.com/api-evangelist/looker/refs/heads/main/rate-limits/looker-rate-limits.yml
   title: ''
@@ -330,9 +339,13 @@ features:
 - description: Programmatically manage users, roles, dashboards, queries, and platform settings through the Looker API.
   name: API-Driven Administration
 finops:
-- name: Looker Finops
+- has_sources: true
+  method: generated
+  name: Looker Finops
+  primary_unit: ''
   service_category: Business Intelligence
   slug: looker-finops
+  template: false
 image: https://looker.com/assets/img/images/logos/looker-logo.png
 integrations:
 - description: Native optimized connector for querying and analyzing data in Google BigQuery data warehouse.
@@ -547,17 +560,17 @@ jsonld:
   property_count: 0
   slug: looker-context
 layout: provider
-modified: '2026-09-16'
+modified: '2026-10-06'
 name: Looker
 nav: Providers
 network: true
-overview: 'Looker publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Dashboard API, Look API, and 7 more. Tagged areas include Analytics, BI Platform, Business Intelligence, Data Analytics, and Data Visualization.
+overview: 'Looker publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Auth API, Dashboard API, Look API, and 7 more. Tagged areas include Analytics, BI Platform, Business Intelligence, Data Analytics, and Data Visualization.
 
 
   The Looker catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Looker''s developer surface includes authentication, support, changelog, release notes, pricing, getting-started guide, and 22 more developer resources.'
+  Looker''s developer surface includes engineering blog, authentication, support, changelog, release notes, pricing, getting-started guide, and 23 more developer resources.'
 plans:
 - name: Looker Plans Pricing
   plan_count: 5
@@ -571,9 +584,10 @@ rate_limits:
   name: Looker Rate Limits
   slug: looker-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Looker API Rules
+  name: Looker — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -581,7 +595,8 @@ rules:
     info: 1
     warn: 4
   slug: looker-jsonschema-spectral-rules
-- effective_rule_count: 57
+- authorship: generated
+  effective_rule_count: 57
   extends:
   - spectral:oas
   name: Looker API Rules
@@ -594,20 +609,20 @@ rules:
   slug: looker-spectral-rules
 score:
   band: developing
-  composite: 49.4
+  composite: 48.5
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 68.5
+    artifact_dirs: 20
+    catalog_earned: 65.5
     catalog_earned_first_party: 24.0
-    catalog_gap: 46.5
+    catalog_gap: 49.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.9
   facets:
-    access_clarity: 50.0
+    access_clarity: 42.1
     contract_governance: 13.6
     contract_quality: 62.7
-    developer_ergonomics: 52.4
+    developer_ergonomics: 54.8
     discoverability: 57.1
     operational_transparency: 57.9
   open_source:
@@ -627,8 +642,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

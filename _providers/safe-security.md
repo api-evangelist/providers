@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 9.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: 'The SAFE REST API (v3) gives customers and partners programmatic access to the SAFE One platform: users, assets/technology, findings, risk scenarios, reports, audit-log export, and full lifecycle mana'
@@ -219,7 +219,7 @@ modified: '2026-08-26'
 name: SAFE Security
 nav: Providers
 network: true
-overview: 'SAFE Security publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Cyber Risk Quantification, Third-Party Risk Management, and Continuous Threat Exposure Management.
+overview: 'SAFE Security is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Cyber Risk Quantification, Third-Party Risk Management, and Continuous Threat Exposure Management.
 
 
   SAFE Security''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 24 more developer resources.'
@@ -236,7 +236,7 @@ score:
   band: developing
   composite: 41.0
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
@@ -260,8 +260,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

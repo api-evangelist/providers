@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://amogy.co/news/rss.xml
 - group: company
   title: ''
   type: Website
@@ -65,14 +69,14 @@ created: '2026-07-17'
 description: Amogy is an energy-technology company decarbonizing hard-to-electrify sectors by converting energy-dense ammonia into dispatchable, zero-carbon electricity. Its AMMDrive power systems crack ammonia into hydrogen and nitrogen and convert the hydrogen to power for data centers, industrial facilities, microgrids, and maritime vessels, and it develops proprietary low-temperature ammonia-cracking catalysts. Backed by DCVC and other investors, Amogy has demonstrated the world's first carbon-free ammonia-powered maritime vessel and partners with firms such as Samsung Heavy Industries and Mitsubishi. This is a company profile in the API Evangelist network; Amogy publishes no public developer API surface at this time, so this record captures its corporate identity and public web properties rather than API artifacts.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amogy.png
 layout: provider
-modified: '2026-07-17'
+modified: '2026-10-06'
 name: Amogy
 nav: Providers
 network: true
 overview: 'Amogy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Energy, Clean Energy, Ammonia, and Decarbonization.
 
 
-  Amogy''s developer surface includes engineering blog, support, and 4 more developer resources.'
+  Amogy''s developer surface includes engineering blog, support, and 5 more developer resources.'
 random_paper: 13
 score:
   band: minimal
@@ -99,8 +103,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 11.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Per-tenant REST API for the Chariot AI operations platform, organized as versioned microservice paths under /api/{service}/{version}/ — identity, training, evaluation, notification, catalog, serve and
@@ -42,6 +42,14 @@ apis:
   slug: chariot-platform-api
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://medium.com/@striveworks
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://medium.com/feed/@striveworks
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/striveworks/refs/heads/main/security/striveworks-domain-security.yml
   title: ''
@@ -132,14 +140,14 @@ description: 'Striveworks is an Austin, Texas enterprise AI operations (AIOps) c
   with US defense and federal customers, including US Army and US Navy AI programs.'
 image: https://cdn.prod.website-files.com/687f6a68c97e16777c3d2778/689f6daf828285a886335b48_open%20graph.png
 layout: provider
-modified: '2026-08-05'
+modified: '2026-10-06'
 name: Striveworks
 nav: Providers
 network: true
-overview: 'Striveworks publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, MLOps, and AIOps.
+overview: 'Striveworks is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, MLOps, and AIOps.
 
 
-  Striveworks'' developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, authentication, CLI, and 12 more developer resources.'
+  Striveworks'' developer surface includes engineering blog, documentation, API reference, getting-started guide, changelog, authentication, CLI, and 14 more developer resources.'
 random_paper: 3
 score:
   band: emerging
@@ -168,8 +176,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 15.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

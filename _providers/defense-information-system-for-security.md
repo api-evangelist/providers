@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 5
 collections:
@@ -41,6 +41,21 @@ collections:
   name: API Collection
   slug: open-defense-information-system-for-security
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/defense-information-system-for-security/refs/heads/main/plans/defense-information-system-for-security-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/defense-information-system-for-security-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/defense-information-system-for-security/refs/heads/main/rate-limits/defense-information-system-for-security-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/defense-information-system-for-security-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/defense-information-system-for-security/refs/heads/main/finops/defense-information-system-for-security-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/defense-information-system-for-security-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/defense-information-system-for-security/refs/heads/main/security/defense-information-system-for-security-domain-security.yml
   title: ''
@@ -70,9 +85,13 @@ common:
 created: '2024-12-03'
 description: The Defense Information System for Security (DISS) is the enterprise-wide Department of Defense system of record for personnel security, suitability, and credentialing management for military, civilian, and contractor personnel. Operated by the Defense Counterintelligence and Security Agency (DCSA), DISS replaced the Joint Personnel Adjudication System (JPAS) as the system of record on March 31, 2021. DISS is restricted to authorized DoD and federal users and contractor security officers; it does not expose a public developer API.
 finops:
-- name: Defense Information System For Security Finops
+- has_sources: false
+  method: generated
+  name: Defense Information System For Security Finops
+  primary_unit: ''
   service_category: API
   slug: defense-information-system-for-security-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/defense-information-system-for-security.png
 layout: provider
 modified: '2026-09-07'
@@ -82,7 +101,7 @@ network: true
 overview: 'Defense Information System for Security is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Federal Government, Defense, Department of Defense, DCSA, and Personnel Security.
 
 
-  Defense Information System for Security''s developer surface includes documentation, product news, and 4 more developer resources.'
+  Defense Information System for Security''s developer surface includes documentation, product news, and 7 more developer resources.'
 plans:
 - name: Defense Information System For Security Plans Pricing
   plan_count: 0
@@ -94,17 +113,17 @@ rate_limits:
   slug: defense-information-system-for-security-rate-limits
 score:
   band: minimal
-  composite: 7.3
+  composite: 5.7
   coverage:
     artifact_dirs: 10
-    catalog_earned: 30.0
+    catalog_earned: 27.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 85.0
+    catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 7.9
+    access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 9.5
@@ -122,8 +141,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

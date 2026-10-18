@@ -1,0 +1,135 @@
+---
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 0.0
+  scored_at: '2026-10-17'
+api_count: 1
+apis:
+- description: GraphQL API for Fondue platform
+  name: Fondue GraphQL API
+  slug: fondue-graphql-api
+artifact_total: 3
+common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/fondue/refs/heads/main/plans/fondue-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/fondue-plans-pricing.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/fondue/refs/heads/main/hosts/fondue-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/fondue-hosts.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/fondue/refs/heads/main/vendors/fondue-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/fondue-vendors.yml
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.getfondue.com/terms-of-service
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.getfondue.com/privacy-policy
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.getfondue.com/pricing
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://help.getfondue.com/article/40-i-have-a-headless-setup-does-cashback-still-work
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://help.getfondue.com/
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/fondue/refs/heads/main/security/fondue-domain-security.yml
+  title: ''
+  type: DomainSecurity
+  url: security/fondue-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://getfondue.com
+created: '2026-10-12'
+description: Fondue provides a CashBack incentive platform that lets e‑commerce merchants offer store credit or prepaid award cards as rewards after purchase. The solution aims to increase conversions and list growth while protecting profit margins, and includes built‑in A/B testing and integration with email and SMS providers via simple UTM links.
+image: https://images.ctfassets.net/i5m88c6edpye/3mfM6uKbBq17VuvY3utIJ/ce473e41e2c3d85754111f535be9ad49/Fondue_SEO_Open_graph.jpg?fit=fill&w=1200&h=630
+layout: provider
+modified: '2026-10-12'
+name: Fondue
+nav: Providers
+network: true
+overview: 'Fondue is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
+
+
+  Fondue''s developer surface includes pricing, getting-started guide, documentation, and 7 more developer resources.'
+plans:
+- name: Fondue Plans Pricing
+  plan_count: 1
+  slug: fondue-plans-pricing
+random_paper: 3
+score:
+  band: emerging
+  composite: 20.3
+  coverage:
+    artifact_dirs: 9
+    catalog_earned: 40.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  facets:
+    access_clarity: 52.6
+    contract_governance: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 21.4
+    discoverability: 57.1
+    operational_transparency: 0.0
+  provenance:
+    mcp: unknown
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 13.7
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+security:
+- kind: domain-security
+  name: Fondue Domain Security
+  slug: fondue-domain-security
+  summary_line: TLSv1.2 · HSTS · DMARC
+slug: fondue
+tags:
+- Company
+website: https://getfondue.com
+---

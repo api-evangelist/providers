@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.5
-  scored_at: '2026-10-04'
+  score: 19.6
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -106,6 +106,21 @@ collections:
   name: Eventzilla Attendees Users API
   slug: open-eventzilla-users-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/eventzilla/refs/heads/main/plans/basic.yml
+  title: ''
+  type: Plans
+  url: plans/basic.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/eventzilla/refs/heads/main/rate-limits/default.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/default.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/eventzilla/refs/heads/main/finops/overview.yml
+  title: ''
+  type: FinOps
+  url: finops/overview.yml
 - group: company
   title: ''
   type: Website
@@ -183,9 +198,13 @@ examples:
   name: List Events
   slug: list-events
 finops:
-- name: Overview
+- has_sources: false
+  method: generated
+  name: Overview
+  primary_unit: ''
   service_category: ''
   slug: overview
+  template: true
 image: https://www.eventzilla.net/favicon.ico
 json_schemas:
 - name: Attendee
@@ -213,13 +232,13 @@ modified: '2026-06-13'
 name: Eventzilla
 nav: Providers
 network: true
-overview: 'Eventzilla publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Attendees API, Categories API, Checkout API, and 4 more. Tagged areas include Event, Ticketing, Registration, Attendees, and Event Management.
+overview: 'Eventzilla publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Attendees API, Categories API, Checkout API, and 4 more. Tagged areas include Event, Ticketing, Registration, Attendees, and Event Management.
 
 
   The Eventzilla catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Eventzilla''s developer surface includes authentication, developer portal, documentation, pricing, engineering blog, support, signup flow, and 7 more developer resources.'
+  Eventzilla''s developer surface includes authentication, developer portal, documentation, pricing, engineering blog, support, signup flow, and 10 more developer resources.'
 plans:
 - name: Basic
   plan_count: 0
@@ -239,9 +258,10 @@ rate_limits:
   name: Default
   slug: default
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Eventzilla API Rules
+  name: Eventzilla — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -251,22 +271,22 @@ rules:
   slug: eventzilla-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 38.6
+  composite: 35.3
   coverage:
-    artifact_dirs: 16
-    catalog_earned: 58.5
+    artifact_dirs: 17
+    catalog_earned: 50.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 56.6
+    catalog_gap: 64.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.3
   facets:
-    access_clarity: 35.5
+    access_clarity: 27.6
     contract_governance: 9.8
     contract_quality: 54.2
     developer_ergonomics: 38.1
     discoverability: 66.1
-    operational_transparency: 18.9
+    operational_transparency: 5.3
   previous_composite: 38.6
   provenance:
     agentic_access: derived
@@ -281,8 +301,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

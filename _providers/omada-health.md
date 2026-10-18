@@ -32,10 +32,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.omadahealth.com/resource-center/tag/articles
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.omadahealth.com/resource-center/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/omada-health/refs/heads/main/security/omada-health-trust-center.yml
   title: ''
@@ -102,14 +110,14 @@ description: Omada Health is a virtual-first healthcare company founded in 2011 
   pages.
 image: https://www.omadahealth.com/hs-fs/hubfs/omada_logo_horizontal.png?name=omada_logo_horizontal.png
 layout: provider
-modified: '2026-08-08'
+modified: '2026-10-06'
 name: Omada Health
 nav: Providers
 network: true
 overview: 'Omada Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Digital Health, Virtual Care, Chronic Disease Management, and Diabetes.
 
 
-  Omada Health''s developer surface includes support, engineering blog, and 12 more developer resources.'
+  Omada Health''s developer surface includes engineering blog, support, and 14 more developer resources.'
 random_paper: 1
 score:
   band: emerging
@@ -149,8 +157,8 @@ score:
     regime: Health
     regime_id: health
     score: 18.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

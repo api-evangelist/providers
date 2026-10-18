@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://mazetx.com/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/maze-therapeutics/refs/heads/main/security/maze-therapeutics-domain-security.yml
   title: ''
@@ -49,7 +53,7 @@ created: '2026-07-17'
 description: Maze Therapeutics is a clinical-stage precision medicine company developing small-molecule and other treatments for common diseases with significant unmet medical need, with a focus on kidney disease. Its Compass platform pairs human genetics with variant functionalization to connect specific genetic drivers to disease biology and design targeted medicines, including programs for APOL1-mediated kidney disease and SLC6A19-related conditions. Surfaced as a portfolio company of a16z and gv, it was added to the API Evangelist network as a lead; enrichment confirmed it publishes no public developer API, documentation, or discovery surface.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/maze-therapeutics.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Maze Therapeutics
 nav: Providers
 network: true
@@ -59,7 +63,7 @@ score:
   band: minimal
   composite: 3.7
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -80,8 +84,8 @@ score:
     regime: Health
     regime_id: health
     score: 4.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

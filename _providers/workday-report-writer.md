@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -151,6 +151,16 @@ collections:
   name: Workday Report Writer Workday WQL API
   slug: open-workday-report-writer-wql
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/workday-report-writer/refs/heads/main/plans/workday-report-writer-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/workday-report-writer-plans-pricing.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/workday-report-writer/refs/heads/main/finops/workday-report-writer-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/workday-report-writer-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/workday-report-writer/refs/heads/main/capabilities/workday-report-writer-capability-edges.yml
   title: ''
@@ -280,9 +290,13 @@ features:
 - description: Retrieve report data in JSON, CSV, XML, RSS, and other formats with query parameter control over filtering, prompts, and pagination.
   name: Multi-Format Output
 finops:
-- name: Workday Report Writer Finops
+- has_sources: true
+  method: generated
+  name: Workday Report Writer Finops
+  primary_unit: ''
   service_category: Reporting / Analytics
   slug: workday-report-writer-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/workday-report-writer.png
 integrations:
 - description: Land Workday RaaS and WQL extracts into Snowflake stages for use in enterprise data warehouse pipelines.
@@ -308,13 +322,13 @@ modified: '2026-05-19'
 name: Workday Report Writer
 nav: Providers
 network: true
-overview: 'Workday Report Writer publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Agent Definition API, Buckets API, Custom Reports API, and 6 more. Tagged areas include Analytics, Enterprise, ERP, Finance, and HRMS.
+overview: 'Workday Report Writer publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agent Definition API, Buckets API, Custom Reports API, and 6 more. Tagged areas include Analytics, Enterprise, ERP, Finance, and HRMS.
 
 
   The Workday Report Writer catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Workday Report Writer''s developer surface includes authentication, developer portal, getting-started guide, documentation, sandbox, support, engineering blog, and 20 more developer resources.'
+  Workday Report Writer''s developer surface includes authentication, developer portal, getting-started guide, documentation, sandbox, support, engineering blog, and 22 more developer resources.'
 plans:
 - name: Workday Report Writer Plans Pricing
   plan_count: 1
@@ -325,9 +339,10 @@ rate_limits:
   name: Workday Report Writer Rate Limits
   slug: workday-report-writer-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Workday Report Writer API Rules
+  name: Workday Report Writer — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -337,17 +352,17 @@ rules:
   slug: workday-report-writer-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 52.7
+  composite: 51.4
   coverage:
     artifact_dirs: 16
-    catalog_earned: 50.7
+    catalog_earned: 47.7
     catalog_earned_first_party: 0.0
-    catalog_gap: 64.4
+    catalog_gap: 67.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.3
   facets:
-    access_clarity: 55.3
+    access_clarity: 47.4
     contract_governance: 9.8
     contract_quality: 56.3
     developer_ergonomics: 56.0
@@ -370,8 +385,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

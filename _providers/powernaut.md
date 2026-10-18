@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 5
@@ -164,6 +164,10 @@ collections:
   name: Powernaut authentication uploading_forecasts API
   slug: open-powernaut-uploading-forecasts-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://powernaut.io/blog/rss.xml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/powernaut/refs/heads/main/overlays/powernaut-partner-api-overlay.yaml
   title: ''
@@ -270,17 +274,17 @@ created: '2026-07-17'
 description: Powernaut is a Virtual Power Plant (VPP) and energy-flexibility platform for energy retailers and independent power producers. Its Energy Operations Workspace connects and aggregates distributed energy resources — solar, batteries, EVs and HVAC — then forecasts, optimizes and trades their flexibility across day-ahead, intraday, imbalance, congestion and ancillary-service markets. The Powernaut Partner API (OpenAPI 3.0) exposes site and resource connectivity, credential management, baselining, market bidding, forecasting, sensor readings and metrics. Powernaut BV is based in Gent, Belgium and is backed by Seedcamp.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/powernaut.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Powernaut
 nav: Providers
 network: true
-overview: 'Powernaut publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Baselining API, Creating Bids API, and 11 more. Tagged areas include Company, Energy, Virtual Power Plant, Distributed Energy Resources, and Energy Trading.
+overview: 'Powernaut publishes 14 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authentication API, Baselining API, Creating Bids API, and 11 more. Tagged areas include Company, Energy, Virtual Power Plant, Distributed Energy Resources, and Energy Trading.
 
 
   The Powernaut catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Powernaut''s developer surface includes documentation, API reference, support, engineering blog, authentication, sandbox, and 16 more developer resources.'
+  Powernaut''s developer surface includes documentation, API reference, support, engineering blog, authentication, sandbox, and 17 more developer resources.'
 random_paper: 7
 score:
   band: developing
@@ -325,8 +329,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 13.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

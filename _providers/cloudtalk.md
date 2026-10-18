@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -334,7 +334,7 @@ modified: '2026-08-14'
 name: CloudTalk
 nav: Providers
 network: true
-overview: 'CloudTalk publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Bulks API, Calls API, and 10 more. Tagged areas include Company, Communications, Voice, VoIP, and Call Center.
+overview: 'CloudTalk publishes 13 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agents API, Bulks API, Calls API, and 10 more. Tagged areas include Company, Communications, Voice, VoIP, and Call Center.
 
 
   The CloudTalk catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -354,7 +354,7 @@ score:
   band: strong
   composite: 56.7
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_earned: 57.0
     catalog_earned_first_party: 20.0
     catalog_gap: 58.0
@@ -385,8 +385,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 25.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

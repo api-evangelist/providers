@@ -12,7 +12,6 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -29,13 +28,13 @@ agent_readiness:
     mcp_server: documented
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 40.4
-  scored_at: '2026-10-04'
+  score: 38.6
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -134,6 +133,21 @@ collections:
   name: Square Catalog Payments API
   slug: open-block-payments-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/block/refs/heads/main/plans/block-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/block-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/block/refs/heads/main/rate-limits/block-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/block-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/block/refs/heads/main/finops/block-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/block-finops.yml
 - group: other
   title: ''
   type: Subsidiary
@@ -336,9 +350,13 @@ features:
 - description: Full sandbox environment with test card numbers, merchant accounts, and simulated hardware for development and testing.
   name: Sandbox Environment
 finops:
-- name: Block Finops
+- has_sources: false
+  method: generated
+  name: Block Finops
+  primary_unit: ''
   service_category: API
   slug: block-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/block.png
 integrations:
 - description: Official Square extension for WooCommerce synchronizes inventory, products, and payments between WordPress stores and Square.
@@ -389,13 +407,13 @@ modified: '2026-05-19'
 name: Block
 nav: Providers
 network: true
-overview: 'Block publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Catalog API, Customers API, Merchants API, and 2 more. Tagged areas include Commerce, Cryptocurrency, E-Commerce, Fintech, and Payments.
+overview: 'Block is listed with 5 APIs on the [APIs.io](https://apis.io/) network, including Catalog API, Customers API, Merchants API, and 2 more. Tagged areas include Commerce, Cryptocurrency, E-Commerce, Fintech, and Payments.
 
 
   The Block catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Block''s developer surface includes engineering blog, sandbox, changelog, authentication, documentation, getting-started guide, pricing, and 31 more developer resources.'
+  Block''s developer surface includes engineering blog, sandbox, changelog, authentication, documentation, getting-started guide, pricing, and 34 more developer resources.'
 plans:
 - name: Block Plans Pricing
   plan_count: 3
@@ -406,9 +424,10 @@ rate_limits:
   name: Block Rate Limits
   slug: block-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Block API Rules
+  name: Block — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -416,7 +435,8 @@ rules:
     info: 1
     warn: 4
   slug: block-jsonschema-spectral-rules
-- effective_rule_count: 75
+- authorship: generated
+  effective_rule_count: 75
   extends:
   - spectral:oas
   name: Block API Rules
@@ -434,17 +454,17 @@ scopes:
   summary_line: 6 scopes · authorizationCode
 score:
   band: developing
-  composite: 42.6
+  composite: 41.0
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 61.0
+    artifact_dirs: 22
+    catalog_earned: 58.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 54.0
+    catalog_gap: 57.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 32.9
+    access_clarity: 25.0
     contract_governance: 27.3
     contract_quality: 19.6
     developer_ergonomics: 56.0
@@ -464,8 +484,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 27.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

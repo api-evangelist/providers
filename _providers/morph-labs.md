@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -81,6 +81,10 @@ collections:
   name: Morph API
   slug: open-morph-labs
 common:
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.morphllm.com/pricing
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/morph-labs/refs/heads/main/capabilities/morph-labs-capability-edges.yml
   title: ''
@@ -139,22 +143,26 @@ common:
 created: '2026-06-20'
 description: Morph builds fast models that improve AI coding agents. Its OpenAI-compatible API serves the Apply (Fast Apply) model that deterministically merges LLM-generated code edits into source files at 10,500+ tokens/second, plus code embeddings and reranking. Morph Cloud adds Infinibranch microVM sandboxes that snapshot, branch, and restore entire VM states in under 250ms for agent workloads.
 finops:
-- name: Morph Labs Finops
+- has_sources: true
+  method: generated
+  name: Morph Labs Finops
+  primary_unit: ''
   service_category: AI and Machine Learning
   slug: morph-labs-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/morph-labs.png
 layout: provider
 modified: '2026-06-20'
 name: Morph
 nav: Providers
 network: true
-overview: 'Morph publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Apply API, Embeddings API, Rerank API, and 1 more. Tagged areas include Artificial Intelligence, Code Editing, Fast Apply, Embeddings, and Sandbox.
+overview: 'Morph publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Apply API, Embeddings API, Rerank API, and 1 more. Tagged areas include Artificial Intelligence, Code Editing, Fast Apply, Embeddings, and Sandbox.
 
 
-  Morph''s developer surface includes authentication, documentation, and 10 more developer resources.'
+  Morph''s developer surface includes pricing, authentication, documentation, and 10 more developer resources.'
 plans:
 - name: Morph Labs Plans Pricing
-  plan_count: 6
+  plan_count: 21
   slug: morph-labs-plans-pricing
 random_paper: 1
 rate_limits:
@@ -163,22 +171,22 @@ rate_limits:
   slug: morph-labs-rate-limits
 score:
   band: thin
-  composite: 34.4
+  composite: 33.0
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 61.6
-    catalog_earned_first_party: 0.0
-    catalog_gap: 53.4
+    artifact_dirs: 12
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.4
   facets:
-    access_clarity: 36.3
+    access_clarity: 42.1
     contract_governance: 0.0
     contract_quality: 47.8
     developer_ergonomics: 29.8
     discoverability: 66.1
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   previous_composite: 34.4
   provenance:
     agentic_access: derived
@@ -193,8 +201,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

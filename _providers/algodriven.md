@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 2
+- acting_count: 1
   human_in_the_loop: 0
   name: Algodriven Agentic Access
   operation_count: 2
   slug: algodriven-agentic-access
-  summary_line: 2 operations · 2 acting
+  summary_line: 2 operations · 1 acting
 api_count: 1
 apis:
 - baseURL: https://algodriven.io/v1
@@ -53,7 +53,7 @@ arazzos:
 - description: Generate a GCC/UAE vehicle history report for a VIN, then poll until the PDF report URL is available.
   name: AlgoDriven — generate and retrieve a UAE vehicle history report
   slug: algodriven-vehicle-history-report
-artifact_total: 8
+artifact_total: 9
 collections:
 - collection_type: open
   name: API Collection
@@ -65,6 +65,23 @@ collections:
   name: AlgoDriven - UAE Vehicle History Report API
   slug: open-algodriven-vehicle-history-report-api
 common:
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://algodriven.xyz/insights/
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/algodriven/refs/heads/main/plans/algodriven-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/algodriven-plans-pricing.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://algodriven.xyz/insights/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://algodriven.xyz/feed.xml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/algodriven/refs/heads/main/overlays/algodriven-vehicle-history-overlay.yaml
   title: ''
@@ -164,28 +181,32 @@ created: '2026-07-17'
 description: AlgoDriven is an automotive AI company that helps car dealerships, banks, insurers, fleet operators, marketplaces, and OEMs appraise, inspect, and price used vehicles using proprietary data-driven applications. Its products include EvalExpert (automated car valuation and price guide built on millions of data points), DriveExpert (test-drive, loan-car, and staff-car management with analytics), and InspectExpert (customised vehicle inspection software), backed by developer APIs for vehicle search and data, valuations, specifications, and vehicle history reports. Founded in 2017 and expanded across the MENA region, New Zealand, and beyond, AlgoDriven runs offices in Australia, the UAE, and Egypt, and is a portfolio company of 500 Global.
 image: https://algodriven.xyz/wp-content/uploads/2022/04/cropped-algodriven-favicon-192x192.png
 layout: provider
-modified: '2026-07-17'
+modified: '2026-10-06'
 name: AlgoDriven
 nav: Providers
 network: true
-overview: 'AlgoDriven publishes 1 API on the [APIs.io](https://apis.io/) network: Vehicle History Report API. Tagged areas include Company, Automotive, Vehicle Data, Car Valuation, and Vehicle Inspection.
+overview: 'AlgoDriven publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Vehicle History Report API. Tagged areas include Company, Automotive, Vehicle Data, Car Valuation, and Vehicle Inspection.
 
 
-  AlgoDriven''s developer surface includes authentication, documentation, API reference, engineering blog, support, and 16 more developer resources.'
+  AlgoDriven''s developer surface includes pricing, engineering blog, authentication, documentation, API reference, support, and 19 more developer resources.'
+plans:
+- name: Algodriven Plans Pricing
+  plan_count: 0
+  slug: algodriven-plans-pricing
 random_paper: 11
 score:
   band: thin
-  composite: 34.0
+  composite: 36.2
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.2
   facets:
-    access_clarity: 17.1
+    access_clarity: 27.6
     contract_governance: 4.5
     contract_quality: 49.0
     developer_ergonomics: 51.8
@@ -208,8 +229,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -327,7 +327,7 @@ modified: '2026-06-20'
 name: Allianz Engagement Survey
 nav: Providers
 network: true
-overview: 'Allianz Engagement Survey publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Action Plans API, Analytics API, Participants API, and 2 more. Tagged areas include Analytics, Enterprise, Human Resources, Insurance, and Surveys.
+overview: 'Allianz Engagement Survey is listed with 5 APIs on the [APIs.io](https://apis.io/) network, including Action Plans API, Analytics API, Participants API, and 2 more. Tagged areas include Analytics, Enterprise, Human Resources, Insurance, and Surveys.
 
 
   The Allianz Engagement Survey catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -336,9 +336,10 @@ overview: 'Allianz Engagement Survey publishes 5 APIs on the [APIs.io](https://a
   Allianz Engagement Survey''s developer surface includes authentication, engineering blog, and 12 more developer resources.'
 random_paper: 0
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Allianz Engagement Survey API Rules
+  name: Allianz Engagement Survey — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -346,7 +347,8 @@ rules:
     info: 1
     warn: 4
   slug: allianz-engagement-survey-jsonschema-spectral-rules
-- effective_rule_count: 73
+- authorship: generated
+  effective_rule_count: 73
   extends:
   - spectral:oas
   name: Allianz Engagement Survey API Rules
@@ -366,7 +368,7 @@ score:
   band: emerging
   composite: 24.9
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 65.4
     catalog_earned_first_party: 0.0
     catalog_gap: 49.6
@@ -396,8 +398,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 29.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

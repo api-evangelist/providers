@@ -30,13 +30,13 @@ agent_readiness:
     mcp_server: verified
     openapi_examples: false
     protected_resource_metadata: verified
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 44.6
-  scored_at: '2026-10-04'
+  score: 42.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -176,9 +176,13 @@ common:
 created: '2026-06-21'
 description: Thunder Compute is a low-cost GPU cloud offering on-demand virtual GPU instances (T4, A6000, A100 80GB, L40, H100 PCIe) billed per minute. Developers provision and manage instances primarily through the tnr CLI, with a documented REST API at https://api.thundercompute.com:8443/v1 for creating, listing, modifying, and deleting instances, managing snapshots and SSH keys, and reading pricing/specs. A Terraform provider wraps the same API.
 finops:
-- name: Thundercompute Finops
+- has_sources: true
+  method: generated
+  name: Thundercompute Finops
+  primary_unit: ''
   service_category: Compute
   slug: thundercompute-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/thundercompute.png
 layout: provider
 mcp_servers:
@@ -189,7 +193,7 @@ modified: '2026-06-21'
 name: Thunder Compute
 nav: Providers
 network: true
-overview: 'Thunder Compute publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Instances API, Pricing API, Snapshots API, and 5 more. Tagged areas include GPU, Cloud, Infrastructure, Artificial Intelligence, and Compute.
+overview: 'Thunder Compute publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Instances API, Pricing API, Snapshots API, and 5 more. Tagged areas include GPU, Cloud, Infrastructure, Artificial Intelligence, and Compute.
 
 
   Thunder Compute''s developer surface includes pricing, authentication, documentation, engineering blog, and 9 more developer resources.'
@@ -204,22 +208,22 @@ rate_limits:
   slug: thundercompute-rate-limits
 score:
   band: thin
-  composite: 36.2
+  composite: 32.0
   coverage:
-    artifact_dirs: 14
-    catalog_earned: 62.8
+    artifact_dirs: 15
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 52.2
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -4.2
   facets:
-    access_clarity: 50.0
+    access_clarity: 42.1
     contract_governance: 0.0
     contract_quality: 41.3
     developer_ergonomics: 32.1
     discoverability: 68.3
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   previous_composite: 36.2
   provenance:
     agentic_access: derived
@@ -235,8 +239,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

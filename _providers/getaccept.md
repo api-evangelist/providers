@@ -33,15 +33,15 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 40
+- acting_count: 39
   human_in_the_loop: 0
   name: Getaccept Agentic Access
   operation_count: 86
   slug: getaccept-agentic-access
-  summary_line: 86 operations · 40 acting
-api_count: 1
+  summary_line: 86 operations · 39 acting
+api_count: 2
 apis:
 - baseURL: https://api.getaccept.com/v1
   baseurl_source: declared
@@ -149,6 +149,10 @@ collections:
   name: GetAccept Archive Videos API
   slug: open-getaccept-videos-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.getaccept.com/blog/rss.xml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/getaccept/refs/heads/main/capabilities/getaccept-capability-edges.yml
   title: ''
@@ -325,17 +329,17 @@ created: '2026-07-17'
 description: GetAccept is a digital sales room and sales enablement platform that helps revenue teams design, send, promote, track, and e-sign sales documents in one place — combining sales collateral, proposals, contract management, document tracking, and legally binding electronic signatures. The GetAccept REST API (v1, base https://api.getaccept.com/v1) exposes 86 operations across documents, e-signature, recipients, contacts, templates, users, videos, custom data, communication templates, and webhook subscriptions, secured with OAuth2 (authorization code) or bearer tokens. GetAccept is backed by Bessemer Venture Partners and Y Combinator.
 image: https://www.getaccept.com/hubfs/logotype.svg
 layout: provider
-modified: '2026-08-14'
+modified: '2026-10-06'
 name: GetAccept
 nav: Providers
 network: true
-overview: 'GetAccept publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Archive API, Attachments API, Authentication API, and 9 more. Tagged areas include Company, Cloud, Sales Enablement, Electronic Signature, and E-Signature.
+overview: 'GetAccept publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including Archive API, Attachments API, Authentication API, and 9 more. Tagged areas include Company, Cloud, Sales Enablement, E-Signature, and Digital Sales Room.
 
 
   The GetAccept catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  GetAccept''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 31 more developer resources.'
+  GetAccept''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 32 more developer resources.'
 plans:
 - name: Getaccept Plans Pricing
   plan_count: 3
@@ -352,15 +356,15 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 63.8
+  composite: 63.9
   coverage:
-    artifact_dirs: 25
+    artifact_dirs: 26
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 92.1
     contract_governance: 18.2
@@ -393,8 +397,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -418,7 +422,6 @@ tags:
 - Company
 - Cloud
 - Sales Enablement
-- Electronic Signature
 - E-Signature
 - Digital Sales Room
 - Document Management

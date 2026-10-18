@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 20.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - baseURL: https://{tenant}.phosphorus.io
@@ -79,6 +79,15 @@ apis:
   slug: phosphorus-vault-api
 artifact_total: 13
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/phosphorus/refs/heads/main/rate-limits/phosphorus-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/phosphorus-rate-limits.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://phosphorus.io/feed/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/phosphorus/refs/heads/main/capabilities/phosphorus-capability-edges.yml
   title: ''
@@ -178,14 +187,14 @@ created: '2026-08-26'
 description: Phosphorus Cybersecurity is a Nashville, Tennessee cyber-physical systems (CPS) security company founded in 2017 by Chris Rouland, Earle Ady and Rebecca Rouland, and acquired by Dragos on 1 June 2026. Its agentless xIoT platform discovers, assesses, hardens and remediates IoT, OT, IIoT and IoMT devices across enterprise and critical infrastructure networks, automating credential rotation, firmware updates, certificate management, and vulnerability assessment at scale without additional hardware or endpoint agents. The platform exposes a customer-facing REST API (v2 and v3) described by an OpenAPI 3.0.0 contract that Phosphorus serves from each tenant instance at /api/swagger/public/swagger.json, covering devices, alerts, firmware, certificates, credentials, sites, search, dynamic scans, integration providers, and the Phosphorus Vault, authenticated with an X-API-KEY request header.
 image: https://phosphorus.io/wp-content/uploads/2026/01/300x300.jpg
 layout: provider
-modified: '2026-08-26'
+modified: '2026-10-06'
 name: Phosphorus
 nav: Providers
 network: true
-overview: 'Phosphorus publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Alerts API, Device API, Devices API, and 5 more. Tagged areas include Cybersecurity, xIoT Security, IoT Security, OT Security, and IoMT.
+overview: 'Phosphorus publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Alerts API, Device API, Devices API, and 5 more. Tagged areas include Cybersecurity, xIoT Security, IoT Security, OT Security, and IoMT.
 
 
-  Phosphorus'' developer surface includes support, engineering blog, and 19 more developer resources.'
+  Phosphorus'' developer surface includes support, engineering blog, and 21 more developer resources.'
 plans:
 - name: Phosphorus Plans Pricing
   plan_count: 0
@@ -199,7 +208,7 @@ score:
   band: thin
   composite: 32.5
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -229,8 +238,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

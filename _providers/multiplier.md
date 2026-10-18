@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 18.0
-  scored_at: '2026-10-04'
+  score: 16.1
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://api.usemultiplier.com
@@ -77,6 +77,14 @@ collections:
   name: Multiplier API
   slug: open-multiplier
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.usemultiplier.com/blog
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.usemultiplier.com/feed
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/multiplier/refs/heads/main/security/multiplier-domain-security.yml
   title: ''
@@ -117,19 +125,23 @@ common:
 created: '2026-06-21'
 description: Multiplier (usemultiplier.com) is a global employment platform offering Employer of Record (EOR), Contractor management, and Global Payroll across 150+ countries. Its API surface is integration-oriented - token-authenticated connections used to sync members (employees and contractors), employment contracts, payroll, payments, time off, and invoices between Multiplier and external HRIS systems such as Workday, HiBob, BambooHR, and Personio. Multiplier does not publish an open, self-serve public REST/GraphQL API reference; API access is provisioned per account via Service User tokens. Not to be confused with unrelated companies named "Multiplier".
 finops:
-- name: Multiplier Finops
+- has_sources: true
+  method: generated
+  name: Multiplier Finops
+  primary_unit: ''
   service_category: Human Resources and Global Employment
   slug: multiplier-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/multiplier.png
 layout: provider
-modified: '2026-06-21'
+modified: '2026-10-06'
 name: Multiplier
 nav: Providers
 network: true
-overview: 'Multiplier publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Members API, Contracts API, Payroll API, and 3 more. Tagged areas include Employer of Record, Global Employment, Payroll, Human Resources, and Contractors.
+overview: 'Multiplier publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Members API, Contracts API, Payroll API, and 3 more. Tagged areas include Employer of Record, Global Employment, Payroll, Human Resources, and Contractors.
 
 
-  Multiplier''s developer surface includes authentication, documentation, and 6 more developer resources.'
+  Multiplier''s developer surface includes engineering blog, authentication, documentation, and 7 more developer resources.'
 plans:
 - name: Multiplier Plans Pricing
   plan_count: 4
@@ -141,22 +153,22 @@ rate_limits:
   slug: multiplier-rate-limits
 score:
   band: emerging
-  composite: 26.0
+  composite: 19.0
   coverage:
-    artifact_dirs: 9
-    catalog_earned: 58.0
+    artifact_dirs: 11
+    catalog_earned: 42.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.0
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.0
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 29.4
-    developer_ergonomics: 16.7
+    developer_ergonomics: 19.0
     discoverability: 66.1
-    operational_transparency: 18.9
+    operational_transparency: 5.3
   previous_composite: 26.0
   regulatory:
     applies: true
@@ -164,9 +176,9 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

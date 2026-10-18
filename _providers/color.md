@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 41.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - baseURL: https://api.color.com/api/v1/external
@@ -60,6 +60,11 @@ collections:
   name: API Collection
   slug: open-.refine-report
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/color/refs/heads/main/rate-limits/color-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/color-rate-limits.yml
 - group: company
   title: ''
   type: LinkedIn
@@ -228,10 +233,10 @@ modified: '2026-08-15'
 name: Color
 nav: Providers
 network: true
-overview: 'Color publishes 3 APIs on the [APIs.io](https://apis.io/) network: Eligibility API, Populations API, and Samples API. Tagged areas include Company, Health, Healthcare, Genomics, and Oncology.
+overview: 'Color publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Eligibility API, Populations API, and Samples API. Tagged areas include Company, Health, Healthcare, Genomics, and Oncology.
 
 
-  Color''s developer surface includes documentation, API reference, getting-started guide, changelog, engineering blog, signup flow, support, and 28 more developer resources.'
+  Color''s developer surface includes documentation, API reference, getting-started guide, changelog, engineering blog, signup flow, support, and 29 more developer resources.'
 plans:
 - name: Color Plans Pricing
   plan_count: 0
@@ -243,7 +248,7 @@ rate_limits:
   slug: color-rate-limits
 score:
   band: developing
-  composite: 49.0
+  composite: 49.1
   coverage:
     artifact_dirs: 23
     catalog_earned: 37.0
@@ -251,7 +256,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 50.0
     contract_governance: 18.2
@@ -281,8 +286,8 @@ score:
     regime: Health
     regime_id: health
     score: 32.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

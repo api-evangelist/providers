@@ -30,13 +30,13 @@ agent_readiness:
     mcp_server: verified
     openapi_examples: false
     protected_resource_metadata: verified
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 44.6
-  scored_at: '2026-10-04'
+  score: 42.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -127,6 +127,21 @@ collections:
   name: Clockodo API
   slug: open-clockodo
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/clockodo/refs/heads/main/plans/clockodo-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/clockodo-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/clockodo/refs/heads/main/rate-limits/clockodo-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/clockodo-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/clockodo/refs/heads/main/finops/clockodo-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/clockodo-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/clockodo/refs/heads/main/capabilities/clockodo-capability-edges.yml
   title: ''
@@ -198,9 +213,13 @@ common:
 created: '2025-02-17'
 description: 'Clockodo is a German-built, cloud-based time-tracking and project- management application used by service firms, agencies, and freelancers. In addition to its web and mobile apps, Clockodo exposes a REST API at my.clockodo.com that mirrors the objects in the UI: time entries, customers, projects, services, users, absences, holiday quotas, lump-sum services, and a real-time stop-clock. Authentication uses a per-user email plus per-user API key delivered as the X-ClockodoApiUser/X-ClockodoApiKey header pair (or HTTP Basic), and every call must include the X-Clockodo-External-Application header identifying the integrating application.'
 finops:
-- name: Clockodo Finops
+- has_sources: false
+  method: generated
+  name: Clockodo Finops
+  primary_unit: ''
   service_category: API
   slug: clockodo-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/clockodo.png
 json_schemas:
 - name: Clockodo Time Entry
@@ -220,13 +239,13 @@ modified: '2026-05-19'
 name: Clockodo
 nav: Providers
 network: true
-overview: 'Clockodo publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Absences API, Clock API, Customers API, and 6 more. Tagged areas include Absence Management, Billing, Project Management, Stopclock, and Time Tracking.
+overview: 'Clockodo publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Absences API, Clock API, Customers API, and 6 more. Tagged areas include Absence Management, Billing, Project Management, Stopclock, and Time Tracking.
 
 
   The Clockodo catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Clockodo''s developer surface includes authentication, documentation, engineering blog, pricing, and 11 more developer resources.'
+  Clockodo''s developer surface includes authentication, documentation, engineering blog, pricing, and 14 more developer resources.'
 plans:
 - name: Clockodo Plans Pricing
   plan_count: 3
@@ -237,9 +256,10 @@ rate_limits:
   name: Clockodo Rate Limits
   slug: clockodo-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Clockodo API Rules
+  name: Clockodo — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -247,7 +267,8 @@ rules:
     info: 1
     warn: 4
   slug: clockodo-jsonschema-spectral-rules
-- effective_rule_count: 47
+- authorship: unmarked
+  effective_rule_count: 47
   extends:
   - spectral:oas
   name: Clockodo API Rules
@@ -260,17 +281,17 @@ rules:
   slug: clockodo-rules
 score:
   band: thin
-  composite: 38.4
+  composite: 36.9
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 61.5
+    artifact_dirs: 18
+    catalog_earned: 58.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.5
+    catalog_gap: 56.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 47.4
+    access_clarity: 39.5
     contract_governance: 13.6
     contract_quality: 56.2
     developer_ergonomics: 23.8
@@ -291,8 +312,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

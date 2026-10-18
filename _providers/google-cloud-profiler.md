@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -63,6 +63,21 @@ collections:
   name: Google Cloud Profiler API
   slug: open-openapi
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-profiler/refs/heads/main/plans/google-cloud-profiler-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/google-cloud-profiler-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-profiler/refs/heads/main/rate-limits/google-cloud-profiler-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/google-cloud-profiler-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-profiler/refs/heads/main/finops/google-cloud-profiler-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/google-cloud-profiler-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/google-cloud-profiler/refs/heads/main/capabilities/google-cloud-profiler-capability-edges.yml
   title: ''
@@ -139,22 +154,26 @@ common:
 created: '2026-03-13'
 description: Google Cloud Profiler is a statistical, low-overhead profiling service that continuously monitors CPU usage and memory allocation in production applications. It attributes resource consumption to specific source code sections, supports Go, Java, Node.js, and Python, and provides flame graph visualizations for identifying performance bottlenecks with less than 5 percent overhead.
 finops:
-- name: Google Cloud Profiler Finops
+- has_sources: false
+  method: generated
+  name: Google Cloud Profiler Finops
+  primary_unit: ''
   service_category: API
   slug: google-cloud-profiler-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/google-cloud-profiler.png
 layout: provider
 modified: '2026-05-19'
 name: Google Cloud Profiler
 nav: Providers
 network: true
-overview: 'Google Cloud Profiler publishes 1 API on the [APIs.io](https://apis.io/) network: Projects API. Tagged areas include CPU, Flame Graphs, Google Cloud, Memory, and Observability.
+overview: 'Google Cloud Profiler publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Projects API. Tagged areas include CPU, Flame Graphs, Google Cloud, Memory, and Observability.
 
 
   The Google Cloud Profiler catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Google Cloud Profiler''s developer surface includes developer portal, getting-started guide, documentation, authentication, pricing, support, and 11 more developer resources.'
+  Google Cloud Profiler''s developer surface includes developer portal, getting-started guide, documentation, authentication, pricing, support, and 14 more developer resources.'
 plans:
 - name: Google Cloud Profiler Plans Pricing
   plan_count: 3
@@ -165,9 +184,10 @@ rate_limits:
   name: Google Cloud Profiler Rate Limits
   slug: google-cloud-profiler-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Google Cloud Profiler API Rules
+  name: Google Cloud Profiler — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -177,17 +197,17 @@ rules:
   slug: google-cloud-profiler-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 41.2
+  composite: 39.7
   coverage:
     artifact_dirs: 14
-    catalog_earned: 54.7
+    catalog_earned: 51.7
     catalog_earned_first_party: 0.0
-    catalog_gap: 60.4
+    catalog_gap: 63.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 36.8
+    access_clarity: 28.9
     contract_governance: 9.8
     contract_quality: 48.4
     developer_ergonomics: 48.8
@@ -207,8 +227,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 25.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

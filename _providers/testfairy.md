@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: REST API for managing TestFairy projects, builds, testers, tester groups, sites, webhooks, permissions, feedback, and audit trails. Authenticated with HTTP Basic (email:api-key) or OIDC bearer tokens.
@@ -47,6 +47,10 @@ asyncapis:
   name: Testfairy Webhooks Asyncapi
   slug: testfairy-webhooks-asyncapi
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://saucelabs.com/resources/blog
 - group: company
   title: ''
   type: Website
@@ -197,34 +201,34 @@ created: '2026-07-17'
 description: TestFairy is a mobile app testing and distribution platform, now part of Sauce Labs, that lets teams upload iOS and Android builds, distribute them to beta testers, and record video sessions of testers using the app alongside device logs, crash reports, and CPU/memory/network telemetry for debugging. It exposes a REST API for managing projects, builds, testers, tester groups, sites, webhooks, and audit trails, plus a separate Upload API for pushing APK/AAB/IPA packages and symbol files from CI. Native SDKs (iOS, Android) and cross-platform wrappers (React Native, Flutter, Cordova, Unity, Xamarin, NativeScript) instrument apps, and command-line uploaders integrate with Jenkins, fastlane, Travis, and CircleCI. Authentication is HTTP Basic (email + API key) or OIDC bearer tokens.
 image: https://raw.githubusercontent.com/api-evangelist/testfairy/main/testfairy.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: TestFairy
 nav: Providers
 network: true
-overview: 'TestFairy publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Mobile, Testing, App Distribution, and Beta Testing.
+overview: 'TestFairy is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Mobile, Testing, App Distribution, and Beta Testing.
 
 
   The TestFairy catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  TestFairy''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, support, authentication, and 25 more developer resources.'
+  TestFairy''s developer surface includes engineering blog, documentation, API reference, getting-started guide, signup flow, pricing, support, and 26 more developer resources.'
 random_paper: 19
 score:
-  band: developing
-  composite: 53.7
+  band: strong
+  composite: 54.3
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 18
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 60.5
     contract_governance: 18.2
     contract_quality: 39.0
-    developer_ergonomics: 69.0
+    developer_ergonomics: 71.4
     discoverability: 73.2
     operational_transparency: 50.0
   previous_composite: 53.7
@@ -241,8 +245,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

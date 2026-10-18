@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 6
   slug: glio-agentic-access
   summary_line: 6 operations · 4 acting
-api_count: 1
+api_count: 2
 apis:
 - baseURL: https://api.glio.io
   baseurl_source: declared
@@ -58,7 +58,7 @@ arazzos:
 - description: Create an AI media-generation job on Glio and poll until it completes, then read the result. Uses Glio's asynchronous job workflow.
   name: Glio - generate media and retrieve result
   slug: glio-generate-media
-artifact_total: 9
+artifact_total: 10
 collections:
 - collection_type: open
   name: API Collection
@@ -70,6 +70,11 @@ collections:
   name: Glio Jobs LLM API
   slug: open-glio-llm-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/glio/refs/heads/main/plans/glio-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/glio-plans-pricing.yml
 - group: company
   title: ''
   type: Website
@@ -183,24 +188,28 @@ modified: '2026-07-19'
 name: Glio
 nav: Providers
 network: true
-overview: 'Glio publishes 2 APIs on the [APIs.io](https://apis.io/) network: Jobs API and LLM API. Tagged areas include Company, Artificial Intelligence, Machine Learning, Media Generation, and Video Generation.
+overview: 'Glio publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Jobs API and LLM API. Tagged areas include Company, Artificial Intelligence, Machine Learning, Media Generation, and Video Generation.
 
 
-  Glio''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, signup flow, support, and 16 more developer resources.'
+  Glio''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, signup flow, support, and 17 more developer resources.'
+plans:
+- name: Glio Plans Pricing
+  plan_count: 1
+  slug: glio-plans-pricing
 random_paper: 9
 score:
   band: developing
-  composite: 40.8
+  composite: 44.7
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 20
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 3.9
   facets:
-    access_clarity: 44.7
+    access_clarity: 65.8
     contract_governance: 4.5
     contract_quality: 49.3
     developer_ergonomics: 56.5
@@ -219,12 +228,12 @@ score:
     skills: derived
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 22.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

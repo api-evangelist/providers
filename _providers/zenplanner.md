@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -106,6 +106,10 @@ collections:
   name: Zen Planner Classes Prospects API
   slug: open-zenplanner-prospects-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.zenplanner.com/feed
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/zenplanner/refs/heads/main/capabilities/zenplanner-capability-edges.yml
   title: ''
@@ -156,14 +160,14 @@ created: '2026-07-04'
 description: Zen Planner is gym, martial arts, yoga, affiliate, and fitness studio management software covering membership management, billing and payments, class scheduling, attendance and check-ins, skills and belt tracking, and a member app. Zen Planner is owned by Daxko, and its developer API is published on the shared Daxko Partners platform as the Zen Planner API. The API is partner-gated - access is requested through a Daxko sales representative - but the API reference is publicly documented via Daxko's Redocly-hosted docs. It exposes REST endpoints for People, Memberships, Classes (schedules, reservations, attendances), Locations, Programs, Prospects, and Groups, authenticated with OAuth 2.0 against the Daxko Partners token service.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zenplanner.png
 layout: provider
-modified: '2026-07-04'
+modified: '2026-10-06'
 name: Zen Planner
 nav: Providers
 network: true
-overview: 'Zen Planner publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Classes API, Groups API, Locations API, and 4 more. Tagged areas include Fitness, Gym Management, Studio Management, Martial Arts, and Membership.
+overview: 'Zen Planner publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Classes API, Groups API, Locations API, and 4 more. Tagged areas include Fitness, Gym Management, Studio Management, Martial Arts, and Membership.
 
 
-  Zen Planner''s developer surface includes authentication, documentation, engineering blog, and 7 more developer resources.'
+  Zen Planner''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
 plans:
 - name: Zenplanner Plans Pricing
   plan_count: 4
@@ -175,18 +179,18 @@ scopes:
   slug: zenplanner-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: thin
-  composite: 26.7
+  band: emerging
+  composite: 22.6
   coverage:
     artifact_dirs: 11
-    catalog_earned: 47.8
+    catalog_earned: 40.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 67.2
+    catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -4.1
   facets:
-    access_clarity: 28.4
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 45.3
     developer_ergonomics: 14.3
@@ -206,8 +210,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

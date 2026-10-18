@@ -32,10 +32,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 12.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: http://plakar.io/posts/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: http://plakar.io/posts/index.xml
 - group: company
   title: ''
   type: Website
@@ -134,20 +142,20 @@ created: '2026-07-17'
 description: Plakar is an open-source, end-to-end encrypted, deduplicated backup and restore platform powered by Kloset, an immutable data store engine. It encrypts and deduplicates data at the source before it leaves your system (encryption keys stay in your own secret manager), stores it in a non-proprietary format on S3-compatible, cloud, or local backends, and supports immutable object-lock backups for zero-trust data protection. Plakar ships a CLI and built-in web UI, an official Go SDK (go-kloset-sdk), and a proto3 gRPC connector protocol for building custom importers, exporters, and storage backends. Sources include PostgreSQL, MySQL/MariaDB, Kubernetes, Proxmox, VMware vSphere, S3, SFTP, and many cloud drives. The commercial self-hosted Plakar Control Plane adds organization-wide scheduling, SLA management, and centralized administration. Backed by Seedcamp.
 image: https://plakar.io/branding/
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Plakar
 nav: Providers
 network: true
 overview: 'Plakar is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Backup, Data Protection, Disaster Recovery, and Open Source.
 
 
-  Plakar''s developer surface includes documentation, getting-started guide, engineering blog, support, CLI, changelog, and 15 more developer resources.'
+  Plakar''s developer surface includes engineering blog, documentation, getting-started guide, support, CLI, changelog, and 17 more developer resources.'
 random_paper: 19
 score:
   band: thin
   composite: 36.2
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -170,8 +178,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 23.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

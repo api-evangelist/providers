@@ -23,10 +23,15 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 5
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/wider-circle/refs/heads/main/rate-limits/wider-circle-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/wider-circle-rate-limits.yml
 - group: commercial
   href: https://raw.githubusercontent.com/api-evangelist/wider-circle/refs/heads/main/plans/wider-circle-plans-pricing.yml
   title: ''
@@ -133,7 +138,7 @@ network: true
 overview: 'Wider Circle is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Health Plans, Medicare Advantage, and Medicaid.
 
 
-  Wider Circle''s developer surface includes engineering blog, support, signup flow, and 15 more developer resources.'
+  Wider Circle''s developer surface includes engineering blog, support, signup flow, and 16 more developer resources.'
 plans:
 - name: Wider Circle Plans Pricing
   plan_count: 0
@@ -147,7 +152,7 @@ score:
   band: emerging
   composite: 22.5
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -174,13 +179,14 @@ score:
     regime: Health
     regime_id: health
     score: 28.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/wider-circle/refs/heads/main/screenshots/wider-circle-2026-10-11T194453.png
 security:
 - kind: domain-security
   name: Wider Circle Domain Security

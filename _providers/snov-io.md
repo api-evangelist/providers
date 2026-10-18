@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 55.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 32
+- acting_count: 28
   human_in_the_loop: 0
   name: Snov Io Agentic Access
   operation_count: 65
   slug: snov-io-agentic-access
-  summary_line: 65 operations · 32 acting
+  summary_line: 65 operations · 28 acting
 api_count: 1
 apis:
 - description: Verify the deliverability and validity of up to 10 email addresses per request using a two-step async API. Returns validity status, MX record checks, and disposable email detection results.
@@ -546,9 +546,13 @@ created: '2026-06-12'
 description: Snov.io is a sales automation and lead generation platform serving over 300,000 companies across 180+ countries. The platform provides a REST API enabling developers to programmatically access email finding, domain search, email verification, drip campaign management, and LinkedIn prospect automation. Authentication uses OAuth 2.0 client credentials to obtain short-lived Bearer tokens, and all API operations consume credits from the account balance. The API covers the full sales outreach lifecycle from prospect discovery and contact enrichment through multi-channel campaign execution and CRM pipeline management. Snov.io also operates a first-party remote Model Context Protocol server at https://mcp.snov.io/mcp, documented as exposing more than 100 actions to AI assistants and gated by a separate OAuth authorization code flow with PKCE and dynamic client registration. The two surfaces are disjoint — campaigns, warm-up, sender accounts and webhooks are REST-only, while Sales CRM
   writes and all LinkedIn outreach actions are reachable only over MCP.
 finops:
-- name: Snov Io Finops
+- has_sources: true
+  method: generated
+  name: Snov Io Finops
+  primary_unit: ''
   service_category: ''
   slug: snov-io-finops
+  template: true
 graphqls:
 - description: Snov.io is a sales automation and lead generation platform serving over 300,000 companies across 180+ countries. Its REST API covers the full outreach lifecycle — prospect discovery, email finding, em
   name: Snov.io GraphQL Schema
@@ -568,7 +572,7 @@ modified: '2026-08-13'
 name: Snov.io
 nav: Providers
 network: true
-overview: 'Snov.io publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Campaigns API, CRM Pipeline API, and 14 more. Tagged areas include Sales Automation, Email Finder, Email Verification, Lead Generation, and Drip Campaigns.
+overview: 'Snov.io publishes 17 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authentication API, Campaigns API, CRM Pipeline API, and 14 more. Tagged areas include Sales Automation, Email Finder, Email Verification, Lead Generation, and Drip Campaigns.
 
 
   The Snov.io catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 JSON-LD context.
@@ -590,18 +594,18 @@ scopes:
   slug: snov-io-scopes
   summary_line: 1 scope · clientCredentials/authorizationCode
 score:
-  band: exemplar
-  composite: 67.2
+  band: strong
+  composite: 65.7
   coverage:
-    artifact_dirs: 28
-    catalog_earned: 75.0
+    artifact_dirs: 29
+    catalog_earned: 72.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 40.0
+    catalog_gap: 43.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 93.4
+    access_clarity: 85.5
     contract_governance: 18.2
     contract_quality: 69.3
     developer_ergonomics: 58.9
@@ -624,8 +628,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

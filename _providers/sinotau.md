@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.sinotau.com/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/sinotau/refs/heads/main/security/sinotau-domain-security.yml
   title: ''
@@ -53,7 +57,7 @@ created: '2026-07-17'
 description: Sinotau (先通医药) is a Chinese pharmaceutical innovator specializing in the research, development, production, clinical application, and academic promotion of radiopharmaceuticals (nuclear medicine). Formally established in 2014, the company focuses on three therapeutic areas — oncology, neurology, and cardiology — and has brought its first innovative product, 欧韦宁 (Florbetaben Fluorine-18 injection for PET brain imaging), to market alongside a pipeline of 10+ products in development. Sinotau operates multiple R&D and production facilities, employs 400+ staff, and holds 80+ authorized patents. It was surfaced as a portfolio company of Qiming Venture Partners. As a corporate radiopharmaceutical manufacturer, Sinotau publishes a corporate marketing website but no public developer platform, API, or technical documentation surface at this time.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sinotau.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Sinotau
 nav: Providers
 network: true
@@ -63,7 +67,7 @@ score:
   band: minimal
   composite: 3.7
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -91,8 +95,8 @@ score:
     regime: Health
     regime_id: health
     score: 4.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

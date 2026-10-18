@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 32
   slug: brandtrack-agentic-access
   summary_line: 32 operations · 18 acting
-api_count: 1
+api_count: 2
 apis:
 - baseURL: https://api.brandtrack.fm/v2/
   baseurl_source: declared
@@ -121,6 +121,10 @@ collections:
   name: Brandtrack API Documentation Accounts Zones API
   slug: open-brandtrack-zones-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.brandtrack.ai/blog/rss.xml
 - group: commercial
   href: https://raw.githubusercontent.com/api-evangelist/brandtrack/refs/heads/main/plans/brandtrack-plans-pricing.yml
   title: ''
@@ -254,14 +258,14 @@ created: '2026-07-17'
 description: Brandtrack is a licensed background-music and in-store audio platform for commercial spaces — retail, hospitality, and food & beverage. It centralizes multi-location music management with smart scheduling, real-time playlist adaptation to signals like foot traffic, weather, and time of day, brand guardrails, AI audio-ad creation, and audit-ready licensing documentation. The Brandtrack v2 REST API manages accounts, subscriptions, users, locations, zones, groups, and roles, authenticated with an x-customer-api-key header, with a partner flow for provisioning customers.
 image: https://cdn.prod.website-files.com/643faaa7da666b82bfd92bfd/6980cdfb5017b7621777a8eb_The%20right%20song%20at%20the%20right%20time%20(2).png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Brandtrack
 nav: Providers
 network: true
-overview: 'Brandtrack publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Groups API, Locations API, and 6 more. Tagged areas include Company, Music, Background Music, Audio, and Streaming.
+overview: 'Brandtrack publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, Groups API, Locations API, and 6 more. Tagged areas include Company, Music, Background Music, Audio, and Streaming.
 
 
-  Brandtrack''s developer surface includes documentation, API reference, authentication, support, engineering blog, pricing, signup flow, and 21 more developer resources.'
+  Brandtrack''s developer surface includes documentation, API reference, authentication, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
 plans:
 - name: Brandtrack Plans Pricing
   plan_count: 5
@@ -277,7 +281,7 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 46.0
+  composite: 46.1
   coverage:
     artifact_dirs: 22
     catalog_earned: 49.0
@@ -285,7 +289,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 69.7
     contract_governance: 4.5
@@ -310,8 +314,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

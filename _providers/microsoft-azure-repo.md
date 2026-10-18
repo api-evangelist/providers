@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -122,6 +122,16 @@ collections:
   name: Azure Repos Git Commits Stats API
   slug: open-microsoft-azure-repo-stats-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-repo/refs/heads/main/plans/microsoft-azure-repo-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/microsoft-azure-repo-plans-pricing.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-repo/refs/heads/main/finops/microsoft-azure-repo-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/microsoft-azure-repo-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-repo/refs/heads/main/capabilities/microsoft-azure-repo-capability-edges.yml
   title: ''
@@ -235,19 +245,23 @@ common:
 created: '2024-01-01'
 description: Azure Repos is a set of version control tools that you can use to manage your code. Whether your software project is large or small, using version control as soon as possible is a good idea.
 finops:
-- name: Microsoft Azure Repo Finops
+- has_sources: true
+  method: generated
+  name: Microsoft Azure Repo Finops
+  primary_unit: ''
   service_category: Developer Tools / Source Control
   slug: microsoft-azure-repo-finops
+  template: false
 image: https://docs.microsoft.com/en-us/azure/devops/repos/media/index/repos.svg
 layout: provider
 modified: '2026-05-19'
 name: Azure Repos
 nav: Providers
 network: true
-overview: 'Azure Repos publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Commits API, Items API, Pull Request Reviewers API, and 6 more. Tagged areas include Developer Tools, DevOps, Git, Repositories, and Source Control.
+overview: 'Azure Repos publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Commits API, Items API, Pull Request Reviewers API, and 6 more. Tagged areas include Developer Tools, DevOps, Git, Repositories, and Version Control.
 
 
-  Azure Repos'' developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, changelog, engineering blog, and 19 more developer resources.'
+  Azure Repos'' developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, changelog, engineering blog, and 21 more developer resources.'
 plans:
 - name: Microsoft Azure Repo Plans Pricing
   plan_count: 5
@@ -264,17 +278,17 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: strong
-  composite: 56.7
+  composite: 55.2
   coverage:
     artifact_dirs: 13
-    catalog_earned: 41.0
+    catalog_earned: 38.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 60.5
+    access_clarity: 52.6
     contract_governance: 0.0
     contract_quality: 55.9
     developer_ergonomics: 71.4
@@ -294,8 +308,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -320,8 +334,7 @@ tags:
 - DevOps
 - Git
 - Repositories
-- Source Control
-- TFVC
 - Version Control
+- TFVC
 website: https://azure.microsoft.com/en-us/services/devops/repos/
 ---

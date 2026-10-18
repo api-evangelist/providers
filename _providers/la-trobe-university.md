@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: 'La Trobe''s own API gateway, an Azure API Management instance published at api.latrobe.edu.au (CNAME ltu-api-prod-apim.developer.azure-api.net). It is not a public developer product: every path returns'
@@ -143,9 +143,13 @@ created: '2026-06-03'
 description: 'La Trobe University is a public research university headquartered in Bundoora, Melbourne, Victoria, Australia, founded in 1964 and ranked #217 in the QS World University Rankings 2025. La Trobe operates no public, self-service API product and publishes no OpenAPI, AsyncAPI or GraphQL description of its own. Its single institution-operated API host, api.latrobe.edu.au, is an Azure API Management developer portal (CNAME ltu-api-prod-apim.developer.azure-api.net) that redirects every unauthenticated path to /signin, with no public catalogue, documentation or sign-up. Everything else that looks programmable under the La Trobe name is a vendor platform running under an institutional tenancy: the open-access repository OPAL (opal.latrobe.edu.au, CNAME figshare.com) and its alias researchdata.latrobe.edu.au are Figshare; the course handbook (handbook.latrobe.edu.au) is CourseLoop, whose backend at cf-api-ap-southeast-2.prod.courseloop.com refuses unauthenticated calls; library discovery
   and resource management are Ex Libris Primo and Alma; the Shibboleth identity provider at aaf.latrobe.edu.au is operated by the Australian Access Federation under La Trobe''s own domain, entityID and scope. What La Trobe genuinely holds in its own name is registry identity — a DataCite membership with the DOI prefix 10.26181 over 47,824 DOIs, Crossref member 11371, ROR 01rxfrp27, and the AAF/eduGAIN SAML entity that federates its staff and students. That is the honest footprint: institutional identity and stewardship, not institutional engineering.'
 finops:
-- name: La Trobe University Finops
+- has_sources: true
+  method: generated
+  name: La Trobe University Finops
+  primary_unit: ''
   service_category: Education
   slug: la-trobe-university-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/la-trobe-university.png
 jsonld:
 - class_count: 15
@@ -157,7 +161,7 @@ modified: '2026-08-30'
 name: La Trobe University
 nav: Providers
 network: true
-overview: 'La Trobe University publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Higher Education, University, Australia, and Victoria.
+overview: 'La Trobe University is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Higher Education, University, Australia, and Victoria.
 
 
   The La Trobe University catalog on APIs.io includes 1 JSON-LD context.'
@@ -172,17 +176,17 @@ rate_limits:
   slug: la-trobe-university-rate-limits
 score:
   band: emerging
-  composite: 17.4
+  composite: 15.8
   coverage:
     artifact_dirs: 9
-    catalog_earned: 55.0
+    catalog_earned: 52.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 60.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -2.2
+  delta: -1.6
   facets:
-    access_clarity: 13.2
+    access_clarity: 5.3
     contract_governance: 4.5
     contract_quality: 14.3
     developer_ergonomics: 9.5
@@ -195,7 +199,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 19.6
+  previous_composite: 17.4
   provenance:
     conformance: derived
   regulatory:
@@ -204,8 +208,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 156
+- acting_count: 150
   human_in_the_loop: 3
   name: Mend Agentic Access
-  operation_count: 291
+  operation_count: 293
   slug: mend-agentic-access
-  summary_line: 291 operations · 156 acting · 3 human-in-the-loop
+  summary_line: 293 operations · 150 acting · 3 human-in-the-loop
 api_count: 2
 apis:
 - baseURL: https://api-saas.mend.io
@@ -1053,7 +1053,7 @@ modified: '2026-07-20'
 name: Mend
 nav: Providers
 network: true
-overview: 'Mend publishes 47 APIs on the [APIs.io](https://apis.io/) network, including Access Management API, Access Management - Organizations API, Administration - Groups API, and 44 more. Tagged areas include Application Security, Software Composition Analysis, SAST, Container Security, and AI Security.
+overview: 'Mend publishes 47 API contracts indexed on the [APIs.io](https://apis.io/) network, including Access Management API, Access Management - Organizations API, Administration - Groups API, and 44 more. Tagged areas include Application Security, Software Composition Analysis, SAST, Container Security, and AI Security.
 
 
   The Mend catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -1066,7 +1066,8 @@ plans:
   slug: mend-plans-pricing
 random_paper: 2
 rules:
-- effective_rule_count: 58
+- authorship: generated
+  effective_rule_count: 58
   extends:
   - spectral:oas
   name: Mend API Rules
@@ -1081,13 +1082,13 @@ score:
   band: strong
   composite: 63.4
   coverage:
-    artifact_dirs: 31
+    artifact_dirs: 33
     catalog_earned: 74.8
     catalog_earned_first_party: 12.0
     catalog_gap: 40.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 10.4
+  delta: -5.4
   facets:
     access_clarity: 92.1
     contract_governance: 22.0
@@ -1095,7 +1096,7 @@ score:
     developer_ergonomics: 66.1
     discoverability: 75.0
     operational_transparency: 36.8
-  previous_composite: 53.0
+  previous_composite: 68.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1112,9 +1113,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: rising
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

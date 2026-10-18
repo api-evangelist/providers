@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Live authenticated application backend for Examedi's consumer apps (Django REST Framework). Requires authorization; no public developer documentation or OpenAPI definition is published. Discovered via
@@ -40,6 +40,10 @@ apis:
   slug: examedi-application-api
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.examedi.com/rss/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/examedi/refs/heads/main/security/examedi-domain-security.yml
   title: ''
@@ -58,17 +62,17 @@ created: '2026-07-17'
 description: Examedi is a Latin American healthtech company providing at-home medical and laboratory testing. Patients book online and a healthcare professional visits their home to collect samples (blood, urine, PCR and more), with results delivered digitally through the company's app and website. Examedi operates in Chile (examedi.cl) and Mexico (examedi.mx) and runs a live authenticated application backend at api.examedi.com. The company is backed by General Catalyst. No public developer program, API documentation, or OpenAPI definition is published at this time; this profile records the company's identity and discovered surfaces for the API Evangelist network.
 image: https://examedi.com/images/apple-touch-icon.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Examedi
 nav: Providers
 network: true
-overview: Examedi publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Healthcare, Health Tech, and Diagnostics.
+overview: Examedi is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Healthcare, Health Tech, and Diagnostics.
 random_paper: 7
 score:
   band: minimal
   composite: 6.2
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -94,8 +98,8 @@ score:
     regime: Health
     regime_id: health
     score: 4.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

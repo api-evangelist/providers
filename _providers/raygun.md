@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.2
-  scored_at: '2026-10-04'
+  score: 24.3
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 44
   human_in_the_loop: 2
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 104
   slug: raygun-agentic-access
   summary_line: 104 operations · 44 acting · 2 human-in-the-loop
-api_count: 1
+api_count: 2
 apis:
 - baseURL: https://api.raygun.com/v3
   baseurl_source: spec
@@ -473,9 +473,13 @@ features:
 - Public OpenAPI 3.0 specification covering 53 operations across 12 resource tags
 - Personal Access Token bearer auth for the v3 API; X-ApiKey for ingestion
 finops:
-- name: Raygun Finops
+- has_sources: true
+  method: generated
+  name: Raygun Finops
+  primary_unit: event
   service_category: Observability
   slug: raygun-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/raygun.png
 integrations:
 - Slack
@@ -503,7 +507,7 @@ modified: '2026-05-30'
 name: Raygun
 nav: Providers
 network: true
-overview: 'Raygun publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Errors API, Deployments API, and 12 more. Tagged areas include Observability, Crash Reporting, Real User Monitoring, Application Performance Monitoring, and Error Tracking.
+overview: 'Raygun publishes 15 API contracts indexed on the [APIs.io](https://apis.io/) network, including Applications API, Errors API, Deployments API, and 12 more. Tagged areas include Observability, Crash Reporting, Real User Monitoring, Application Performance Monitoring, and Error Tracking.
 
 
   The Raygun catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -520,9 +524,10 @@ rate_limits:
   name: Raygun Rate Limits
   slug: raygun-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Raygun API Rules
+  name: Raygun — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -530,7 +535,8 @@ rules:
     info: 2
     warn: 3
   slug: raygun-jsonschema-spectral-rules
-- effective_rule_count: 52
+- authorship: unmarked
+  effective_rule_count: 52
   extends:
   - spectral:oas
   name: Raygun API Rules
@@ -543,17 +549,17 @@ rules:
   slug: raygun-rules
 score:
   band: strong
-  composite: 61.6
+  composite: 57.6
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 68.2
+    artifact_dirs: 20
+    catalog_earned: 60.4
     catalog_earned_first_party: 0.0
-    catalog_gap: 46.8
+    catalog_gap: 54.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -4.0
   facets:
-    access_clarity: 88.9
+    access_clarity: 68.4
     contract_governance: 27.3
     contract_quality: 65.6
     developer_ergonomics: 63.1
@@ -573,8 +579,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

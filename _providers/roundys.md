@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 15.5
-  scored_at: '2026-10-04'
+  score: 13.6
+  scored_at: '2026-10-17'
 api_count: 4
 apis:
 - description: As a Kroger subsidiary, Roundy's stores (Pick 'n Save, Metro Market, Mariano's) are accessible through the Kroger Developer Platform product catalog API. The API enables searching and browsing product
@@ -50,6 +50,21 @@ apis:
   slug: kroger-identity-api
 artifact_total: 12
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/roundys/refs/heads/main/plans/roundys-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/roundys-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/roundys/refs/heads/main/rate-limits/roundys-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/roundys-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/roundys/refs/heads/main/finops/roundys-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/roundys-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/roundys/refs/heads/main/security/roundys-domain-security.yml
   title: ''
@@ -102,9 +117,13 @@ common:
 created: '2025-01-01'
 description: 'Roundy''s, Inc. is a Midwest grocery retailer and wholly-owned subsidiary of The Kroger Co., founded in Milwaukee, Wisconsin in 1872. Roundy''s operates approximately 150 grocery stores under three retail banners: Pick ''n Save (106 locations throughout Wisconsin), Metro Market (premium Wisconsin grocery stores), and Mariano''s (44 Fresh Market locations throughout the Chicago area). As a Kroger subsidiary, Roundy''s leverages the Kroger developer platform and technology infrastructure including the Kroger API for product catalog, digital coupons, store locations, and loyalty program integrations.'
 finops:
-- name: Roundys Finops
+- has_sources: false
+  method: generated
+  name: Roundys Finops
+  primary_unit: ''
   service_category: API
   slug: roundys-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/roundys.png
 json_schemas:
 - name: Roundy's Store Data Schema
@@ -124,7 +143,7 @@ modified: '2026-05-02'
 name: Roundy's
 nav: Providers
 network: true
-overview: 'Roundy''s publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Kroger Product Catalog API, and 3 more. Tagged areas include Grocery, Kroger, Midwest, Retail, and Supermarket.
+overview: 'Roundy''s is listed with 4 APIs on the [APIs.io](https://apis.io/) network, including Kroger Product Catalog API, and 3 more. Tagged areas include Grocery, Kroger, Midwest, Retail, and Supermarket.
 
 
   The Roundy''s catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.'
@@ -154,9 +173,10 @@ rate_limits:
   name: Roundys Rate Limits
   slug: roundys-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: Roundy's API Rules
+  name: Roundy's — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -166,17 +186,17 @@ rules:
   slug: roundys-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 21.2
+  composite: 19.7
   coverage:
     artifact_dirs: 14
-    catalog_earned: 56.8
+    catalog_earned: 53.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 58.3
+    catalog_gap: 61.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 23.5
     contract_quality: 30.7
     developer_ergonomics: 4.8
@@ -189,8 +209,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

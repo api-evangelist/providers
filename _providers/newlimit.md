@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 0
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.newlimit.com/feed
 - group: company
   title: ''
   type: Website
@@ -52,14 +56,14 @@ created: '2026-07-17'
 description: 'NewLimit is a company surfaced as a portfolio company of kleiner-perkins and added to the API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting the enrichment pipeline.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/newlimit.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: NewLimit
 nav: Providers
 network: true
 overview: 'NewLimit is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Longevity, Biotechnology, and Epigenetics.
 
 
-  NewLimit''s developer surface includes engineering blog and 2 more developer resources.'
+  NewLimit''s developer surface includes engineering blog and 3 more developer resources.'
 random_paper: 15
 score:
   band: minimal
@@ -92,8 +96,8 @@ score:
     regime: Health
     regime_id: health
     score: 0.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

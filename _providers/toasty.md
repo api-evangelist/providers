@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.toasty.family/blog
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/toasty/refs/heads/main/security/toasty-domain-security.yml
   title: ''
@@ -65,28 +69,31 @@ created: '2026-07-17'
 description: Toasty (toasty.family, published by Wenose) is a French consumer mobile application for responsible, sustainable, and ethical shopping. The app curates committed brands and makes conscious consumption engaging through a gamified experience of daily private sales, quizzes, challenges, gifts, and rewards. It reports a 4.9-star rating across the app stores and more than 400,000 downloads. Toasty is a business-to-consumer mobile product with no public developer program, API, or documentation surface at this time; it was surfaced as a Techstars portfolio company and added to the API Evangelist network as a lead. This profile captures its public identity and a live domain-security probe.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/toasty.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Toasty
 nav: Providers
 network: true
-overview: Toasty is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Mobile, Consumer, Shopping, and Sustainability.
+overview: 'Toasty is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Mobile, Consumer, Shopping, and Sustainability.
+
+
+  Toasty''s developer surface includes engineering blog and 6 more developer resources.'
 random_paper: 16
 score:
   band: minimal
-  composite: 3.4
+  composite: 3.9
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 48.2
     operational_transparency: 0.0
   jurisdiction:
@@ -104,8 +111,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

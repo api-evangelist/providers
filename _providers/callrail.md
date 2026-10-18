@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -264,7 +264,7 @@ modified: '2026-08-14'
 name: CallRail
 nav: Providers
 network: true
-overview: 'CallRail publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Calls API, and 2 more. Tagged areas include Call Tracking, Conversation Intelligence, Marketing Attribution, Lead Tracking, and Telephony.
+overview: 'CallRail publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, Calls API, and 2 more. Tagged areas include Call Tracking, Conversation Intelligence, Marketing Attribution, Lead Tracking, and Telephony.
 
 
   The CallRail catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -284,7 +284,7 @@ score:
   band: developing
   composite: 50.7
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_earned: 61.0
     catalog_earned_first_party: 24.0
     catalog_gap: 54.0
@@ -315,8 +315,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

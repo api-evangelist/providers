@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Client-side JavaScript API for embedding interactive Desmos calculators (Graphing, 3D, Geometry, Scientific, Four-Function) into web pages and apps, controlled through a browser object model.
@@ -138,7 +138,7 @@ modified: '2026-07-18'
 name: Desmos
 nav: Providers
 network: true
-overview: 'Desmos publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Education, Mathematics, and Graphing Calculator.
+overview: 'Desmos is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Education, Mathematics, and Graphing Calculator.
 
 
   Desmos'' developer surface includes documentation, API reference, getting-started guide, signup flow, changelog, engineering blog, authentication, and 13 more developer resources.'
@@ -168,8 +168,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 19.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

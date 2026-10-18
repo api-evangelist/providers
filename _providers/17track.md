@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 9
+- acting_count: 7
   human_in_the_loop: 1
   name: 17Track Agentic Access
   operation_count: 9
   slug: 17track-agentic-access
-  summary_line: 9 operations · 9 acting · 1 human-in-the-loop
+  summary_line: 9 operations · 7 acting · 1 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://api.17track.net/track/v1
@@ -67,6 +67,25 @@ collections:
   name: 17TRACK Tracking Webhooks API
   slug: open-17track-webhooks-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/17track/refs/heads/main/plans/plans.yml
+  title: ''
+  type: Plans
+  url: plans/plans.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/17track/refs/heads/main/rate-limits/rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/17track/refs/heads/main/finops/finops.yml
+  title: ''
+  type: FinOps
+  url: finops/finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.17track.net/en/blog
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/17track/refs/heads/main/capabilities/17track-capability-edges.yml
   title: ''
@@ -139,9 +158,13 @@ examples:
   name: Webhook Push Payload
   slug: webhook-push-payload
 finops:
-- name: Finops
+- has_sources: false
+  method: generated
+  name: Finops
+  primary_unit: ''
   service_category: ''
   slug: finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/17track.png
 json_schemas:
 - name: BatchResponse
@@ -175,17 +198,17 @@ jsonld:
   property_count: 18
   slug: context
 layout: provider
-modified: '2026-06-13'
+modified: '2026-10-06'
 name: 17TRACK
 nav: Providers
 network: true
-overview: '17TRACK publishes 2 APIs on the [APIs.io](https://apis.io/) network: Tracking API and Webhooks API. Tagged areas include Shipping, Package Tracking, Logistics, Carrier, and Delivery.
+overview: '17TRACK publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Tracking API and Webhooks API. Tagged areas include Shipping, Package Tracking, Logistics, Carrier, and Delivery.
 
 
   The 17TRACK catalog on APIs.io includes 2 JSON-LD contexts and 1 Spectral governance ruleset.
 
 
-  17TRACK''s developer surface includes authentication, documentation, pricing, signup flow, and 9 more developer resources.'
+  17TRACK''s developer surface includes engineering blog, authentication, documentation, pricing, signup flow, and 12 more developer resources.'
 plans:
 - name: Plans
   plan_count: 6
@@ -196,9 +219,10 @@ rate_limits:
   name: Rate Limits
   slug: rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: 17TRACK API Rules
+  name: 17TRACK — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -208,20 +232,20 @@ rules:
   slug: 17track-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 37.2
+  composite: 32.0
   coverage:
-    artifact_dirs: 16
-    catalog_earned: 60.1
+    artifact_dirs: 18
+    catalog_earned: 49.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 55.0
+    catalog_gap: 65.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.2
   facets:
-    access_clarity: 60.0
+    access_clarity: 31.6
     contract_governance: 9.8
     contract_quality: 58.9
-    developer_ergonomics: 26.2
+    developer_ergonomics: 28.6
     discoverability: 57.1
     operational_transparency: 0.0
   previous_composite: 37.2
@@ -238,9 +262,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 14.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

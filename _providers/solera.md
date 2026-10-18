@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 8
+- acting_count: 5
   human_in_the_loop: 0
   name: Solera Agentic Access
-  operation_count: 26
+  operation_count: 21
   slug: solera-agentic-access
-  summary_line: 26 operations · 8 acting
+  summary_line: 21 operations · 5 acting
 api_count: 10
 apis:
 - baseURL: https://api-demo.audatex.com/TestAssignmentapi
@@ -140,6 +140,10 @@ collections:
   name: EAPI GIC Integration API
   slug: open-solera-gic-integration
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.solera.com/blog/feed/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/solera/refs/heads/main/capabilities/solera-capability-edges.yml
   title: ''
@@ -375,17 +379,17 @@ description: Solera is a Westlake, Texas headquartered vehicle lifecycle managem
   data mapping baseline for estimate return, which is the auto physical damage sector's analogue to ACORD rather than ACORD itself.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-modified: '2026-07-25'
+modified: '2026-10-06'
 name: Solera
 nav: Providers
 network: true
-overview: 'Solera publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Assignment API, Estimate Return API, Get Claim Image Response API, and 8 more. Tagged areas include Insurance, United States, Property and Casualty, Claims, and Claims Technology.
+overview: 'Solera publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Assignment API, Estimate Return API, Get Claim Image Response API, and 8 more. Tagged areas include Insurance, United States, Property and Casualty, Claims, and Claims Technology.
 
 
   The Solera catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
 
 
-  Solera''s developer surface includes authentication, engineering blog, API reference, documentation, sandbox, changelog, support, and 43 more developer resources.'
+  Solera''s developer surface includes authentication, engineering blog, API reference, documentation, sandbox, changelog, support, and 44 more developer resources.'
 random_paper: 8
 scopes:
 - name: Solera Scopes
@@ -434,8 +438,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 36.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

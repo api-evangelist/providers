@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 66.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -276,7 +276,7 @@ modified: '2026-08-11'
 name: AlphaAI
 nav: Providers
 network: true
-overview: 'AlphaAI publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Calendar API, News API, Symbols API, and 2 more. Tagged areas include Financial News, Stock Market, SEC Filings, Insider Trading, and Fintech.
+overview: 'AlphaAI publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Calendar API, News API, Symbols API, and 2 more. Tagged areas include Financial News, Stock Market, SEC Filings, Insider Trading, and Fintech.
 
 
   The AlphaAI catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -332,8 +332,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 37.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 1098
   human_in_the_loop: 0
@@ -31,7 +31,7 @@ agentic_access:
   operation_count: 1510
   slug: pipeliner-agentic-access
   summary_line: 1510 operations · 1098 acting
-api_count: 1
+api_count: 2
 apis:
 - baseURL: https://us-east.api.pipelinersales.com/api/v100/rest/spaces/{space_id}
   baseurl_source: declared
@@ -482,7 +482,7 @@ modified: '2026-09-22'
 name: Pipeliner CRM
 nav: Providers
 network: true
-overview: 'Pipeliner CRM publishes 51 APIs on the [APIs.io](https://apis.io/) network, including Account API, Activity API, Approval API, and 48 more. Tagged areas include CRM, Sales, Automation, Pipelines, and Cloud.
+overview: 'Pipeliner CRM publishes 51 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Activity API, Approval API, and 48 more. Tagged areas include CRM, Sales, Automation, Pipelines, and Cloud.
 
 
   The Pipeliner CRM catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
@@ -491,7 +491,8 @@ overview: 'Pipeliner CRM publishes 51 APIs on the [APIs.io](https://apis.io/) ne
   Pipeliner CRM''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 27 more developer resources.'
 random_paper: 0
 rules:
-- effective_rule_count: 51
+- authorship: generated
+  effective_rule_count: 51
   extends:
   - spectral:oas
   name: Pipeliner CRM API Rules
@@ -504,14 +505,15 @@ rules:
   slug: pipeliner-rules
 score:
   band: strong
-  composite: 57.8
+  composite: 57.9
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 25
     catalog_earned: 60.8
     catalog_earned_first_party: 0.0
     catalog_gap: 54.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.1
   facets:
     access_clarity: 60.5
     contract_governance: 22.0
@@ -519,6 +521,7 @@ score:
     developer_ergonomics: 58.9
     discoverability: 69.6
     operational_transparency: 18.4
+  previous_composite: 57.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -535,11 +538,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: flat
   upsert:
     applies: true
     score: 22.2
+screenshot: https://raw.githubusercontent.com/api-evangelist/pipeliner/refs/heads/main/screenshots/pipeliner-2026-10-11T112558.png
 security:
 - kind: authentication
   name: Pipeliner Authentication
@@ -552,7 +557,7 @@ security:
 - kind: vulnerability-disclosure
   name: Pipeliner Vulnerability Disclosure
   slug: pipeliner-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 - kind: trust-center
   name: Pipeliner Trust Center
   slug: pipeliner-trust-center

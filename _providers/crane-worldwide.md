@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 5.0
-  scored_at: '2026-10-04'
+  score: 3.1
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The Crane Worldwide Logistics API is a REST API that lets partners and customers connect their systems directly to Crane's logistics platform. Through a single approved API key, developers can request
@@ -41,6 +41,25 @@ apis:
   slug: crane-worldwide-api
 artifact_total: 5
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/crane-worldwide/refs/heads/main/plans/crane-worldwide-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/crane-worldwide-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/crane-worldwide/refs/heads/main/rate-limits/crane-worldwide-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/crane-worldwide-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/crane-worldwide/refs/heads/main/finops/crane-worldwide-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/crane-worldwide-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.craneww.com/insights
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/crane-worldwide/refs/heads/main/security/crane-worldwide-domain-security.yml
   title: ''
@@ -93,19 +112,23 @@ common:
 created: '2024-11-07'
 description: Crane Worldwide Logistics is a global third-party logistics provider delivering air freight, ocean freight, customs brokerage, warehousing, trucking, and supply chain solutions across more than 30 countries. Crane exposes a developer API portal powered by Tyk that gives partners and customers programmatic access to shipment, booking, and tracking data across the company's supply chain operations.
 finops:
-- name: Crane Worldwide Finops
+- has_sources: false
+  method: generated
+  name: Crane Worldwide Finops
+  primary_unit: ''
   service_category: API
   slug: crane-worldwide-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/crane-worldwide.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-10-06'
 name: Crane Worldwide Logistics
 nav: Providers
 network: true
-overview: 'Crane Worldwide Logistics publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include 3PL, Air Freight, Customs Brokerage, Distribution, and Freight.
+overview: 'Crane Worldwide Logistics is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include 3PL, Air Freight, Customs Brokerage, Distribution, and Freight.
 
 
-  Crane Worldwide Logistics'' developer surface includes developer portal, documentation, product news, and 9 more developer resources.'
+  Crane Worldwide Logistics'' developer surface includes engineering blog, developer portal, documentation, product news, and 12 more developer resources.'
 plans:
 - name: Crane Worldwide Plans Pricing
   plan_count: 3
@@ -117,20 +140,20 @@ rate_limits:
   slug: crane-worldwide-rate-limits
 score:
   band: emerging
-  composite: 19.7
+  composite: 18.7
   coverage:
-    artifact_dirs: 7
-    catalog_earned: 41.0
+    artifact_dirs: 9
+    catalog_earned: 38.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.0
   facets:
-    access_clarity: 39.5
+    access_clarity: 31.6
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 21.4
+    developer_ergonomics: 23.8
     discoverability: 65.2
     operational_transparency: 7.9
   previous_composite: 19.7
@@ -140,8 +163,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

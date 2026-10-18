@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -251,7 +251,7 @@ modified: '2026-05-25'
 name: Pie Insurance
 nav: Providers
 network: true
-overview: 'Pie Insurance publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Appetite API, ClassCodeSearch API, Eligibility API, and 5 more. Tagged areas include Insurance, Insurtech, Workers Compensation, Small Business, and Commercial Insurance.
+overview: 'Pie Insurance publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Appetite API, ClassCodeSearch API, Eligibility API, and 5 more. Tagged areas include Insurance, Insurtech, Workers Compensation, Small Business, and Commercial Insurance.
 
 
   Pie Insurance''s developer surface includes authentication, developer portal, documentation, signup flow, engineering blog, and 23 more developer resources.'
@@ -295,8 +295,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 14.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

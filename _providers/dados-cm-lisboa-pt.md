@@ -26,13 +26,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: CKAN Action API for Lisbon Open Data, ~404 datasets.
@@ -40,6 +40,10 @@ apis:
   slug: catalog
 artifact_total: 5
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://dados.cm-lisboa.pt/blog
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/dados-cm-lisboa-pt/refs/heads/main/security/dados-cm-lisboa-pt-domain-security.yml
   title: ''
@@ -76,19 +80,23 @@ common:
 created: '2026-06-07'
 description: Lisbon Open Data is a municipal government open-data portal for Portugal running CKAN. It exposes the CKAN catalog API over approximately 404 datasets.
 finops:
-- name: Dados Cm Lisboa Pt Finops
+- has_sources: false
+  method: generated
+  name: Dados Cm Lisboa Pt Finops
+  primary_unit: ''
   service_category: ''
   slug: dados-cm-lisboa-pt-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dados-cm-lisboa-pt.png
 layout: provider
-modified: '2026-06-07'
+modified: '2026-10-06'
 name: Lisbon Open Data
 nav: Providers
 network: true
-overview: 'Lisbon Open Data publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Open Data, CKAN, Data Catalog, DCAT, and Government Data.
+overview: 'Lisbon Open Data is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Open Data, CKAN, Data Catalog, DCAT, and Government Data.
 
 
-  Lisbon Open Data''s developer surface includes documentation and 6 more developer resources.'
+  Lisbon Open Data''s developer surface includes engineering blog, documentation, and 6 more developer resources.'
 plans:
 - name: Dados Cm Lisboa Pt Plans Pricing
   plan_count: 0
@@ -100,20 +108,20 @@ rate_limits:
   slug: dados-cm-lisboa-pt-rate-limits
 score:
   band: minimal
-  composite: 8.1
+  composite: 7.0
   coverage:
-    artifact_dirs: 6
-    catalog_earned: 35.0
+    artifact_dirs: 7
+    catalog_earned: 32.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 80.0
+    catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.1
   facets:
-    access_clarity: 7.9
+    access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 9.5
+    developer_ergonomics: 11.9
     discoverability: 57.1
     operational_transparency: 0.0
   jurisdiction:
@@ -131,8 +139,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

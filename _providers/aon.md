@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Aon Insights publishes research, reports, and the "On Aon" podcast across Trade, Technology, Weather, and Workforce themes, framed by "From navigating climate change to workforce resilience, today's l
@@ -118,7 +118,7 @@ modified: '2026-07-25'
 name: Aon
 nav: Providers
 network: true
-overview: 'Aon publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Risk Management, Reinsurance, Insurance, Health, and Retirement.
+overview: 'Aon is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Risk Management, Reinsurance, Insurance, Health, and Retirement.
 
 
   Aon''s developer surface includes YouTube channel and 16 more developer resources.'
@@ -156,8 +156,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 10.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

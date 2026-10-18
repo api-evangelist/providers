@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.8
-  scored_at: '2026-10-04'
+  score: 22.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -64,6 +64,21 @@ collections:
   name: Google Earth Engine REST Projects API
   slug: open-google-earth-engine-projects-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/google-earth-engine/refs/heads/main/plans/google-earth-engine-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/google-earth-engine-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/google-earth-engine/refs/heads/main/rate-limits/google-earth-engine-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/google-earth-engine-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/google-earth-engine/refs/heads/main/finops/google-earth-engine-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/google-earth-engine-finops.yml
 - group: company
   title: ''
   type: Website
@@ -145,9 +160,13 @@ common:
 created: '2026-03-13'
 description: The Google Earth Engine REST API provides programmatic access to Earth Engine's planetary-scale geospatial analysis platform. You can manage geospatial assets, compute satellite imagery analysis, export images and tables, create map visualizations, and perform large-scale environmental and geospatial computations using petabytes of satellite imagery and geospatial datasets.
 finops:
-- name: Google Earth Engine Finops
+- has_sources: false
+  method: generated
+  name: Google Earth Engine Finops
+  primary_unit: ''
   service_category: API
   slug: google-earth-engine-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/google-earth-engine.png
 json_schemas:
 - name: Earth Engine Asset
@@ -163,13 +182,13 @@ modified: '2026-05-19'
 name: Google Earth Engine REST
 nav: Providers
 network: true
-overview: 'Google Earth Engine REST publishes 1 API on the [APIs.io](https://apis.io/) network: Projects API. Tagged areas include Climate, Earth Observation, Environmental, Geospatial, and GIS.
+overview: 'Google Earth Engine REST publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Projects API. Tagged areas include Climate, Earth Observation, Environmental, Geospatial, and GIS.
 
 
   The Google Earth Engine REST catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Google Earth Engine REST''s developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, support, and 12 more developer resources.'
+  Google Earth Engine REST''s developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, support, and 15 more developer resources.'
 plans:
 - name: Google Earth Engine Plans Pricing
   plan_count: 3
@@ -180,9 +199,10 @@ rate_limits:
   name: Google Earth Engine Rate Limits
   slug: google-earth-engine-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Google Earth Engine REST API Rules
+  name: Google Earth Engine REST — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -190,7 +210,8 @@ rules:
     info: 2
     warn: 3
   slug: google-earth-engine-jsonschema-spectral-rules
-- effective_rule_count: 58
+- authorship: generated
+  effective_rule_count: 58
   extends:
   - spectral:oas
   name: Google Earth Engine REST API Rules
@@ -208,17 +229,17 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: developing
-  composite: 46.3
+  composite: 44.8
   coverage:
     artifact_dirs: 16
-    catalog_earned: 63.9
+    catalog_earned: 60.9
     catalog_earned_first_party: 0.0
-    catalog_gap: 51.1
+    catalog_gap: 54.1
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 36.8
+    access_clarity: 28.9
     contract_governance: 13.6
     contract_quality: 58.1
     developer_ergonomics: 48.8
@@ -238,8 +259,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,7 +25,7 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: true
     idempotency: documented
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.2
-  scored_at: '2026-10-04'
+  score: 30.6
+  scored_at: '2026-10-17'
 api_count: 10
 apis:
 - description: 1upHealth's managed HL7 FHIR R4 (4.0.1) REST API cloud server, exposing 144 FHIR resource types with SMART-on-FHIR OAuth 2.0 security. Publishes a live CapabilityStatement at /fhir/r4/metadata.
@@ -67,12 +67,50 @@ apis:
 - description: Population-scale connectivity and Bulk Data (Flat FHIR) export solution for acquiring and computing over large member/patient populations as FHIR.
   name: 1up Population Connect (Bulk FHIR)
   slug: 1uphealth-population-connect-api
-artifact_total: 20
+artifact_total: 21
 asyncapis:
 - description: ''
   name: 1Uphealth Subscription Webhooks
   slug: 1uphealth-subscription-webhooks
 common:
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/1uphealth/refs/heads/main/json-ld/1uphealth-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/1uphealth-context.jsonld
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/1uphealth/refs/heads/main/a2a/1uphealth-a2a.yml
+  title: ''
+  type: AgentCard
+  url: a2a/1uphealth-a2a.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/1uphealth/refs/heads/main/mcp/1uphealth-mcp.yml
+  title: ''
+  type: MCPServer
+  url: mcp/1uphealth-mcp.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/1uphealth/refs/heads/main/hosts/1uphealth-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/1uphealth-hosts.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/1uphealth/refs/heads/main/integrations/1uphealth-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/1uphealth-integration-edges.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/1uphealth/refs/heads/main/vendors/1uphealth-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/1uphealth-vendors.yml
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://1up.health/news/
+- group: other
+  title: ''
+  type: Leadership
+  url: https://1up.health/leadership/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/1uphealth/refs/heads/main/security/1uphealth-trust-center.yml
   title: ''
@@ -281,9 +319,13 @@ created: '2026-07-24'
 description: 1upHealth is a US healthcare data interoperability company, founded in 2017 and headquartered in Boston, Massachusetts, that operates an HL7 FHIR-first health data platform for claims and clinical data acquisition, exchange, and compute. Built on a lakehouse architecture, the platform lets health plans, providers, and digital health developers ingest, normalize, store, and query patient and member data as FHIR, and ships modular solutions aligned to US federal interoperability mandates - Patient Access, Provider Access, Payer-to-Payer Data Exchange, Provider Directory, Formulary, and Electronic Prior Authorization (CMS Interoperability & Prior Authorization, CMS-0057-F). 1upHealth runs a managed, HIPAA-compliant FHIR REST API cloud server exposing FHIR R4 (4.0.1), STU3 (3.0.2), and DSTU2 (1.0.2) endpoints, each publishing a live CapabilityStatement, secured with SMART-on-FHIR OAuth 2.0. The company is HITRUST, SOC 2, and HIPAA aligned. Home market is the United States. Developer
   documentation is public at docs.1up.health, while provisioning API credentials and the developer console require an account (gated self-serve / partner onboarding).
 finops:
-- name: 1Uphealth Finops
+- has_sources: false
+  method: generated
+  name: 1Uphealth Finops
+  primary_unit: ''
   service_category: ''
   slug: 1uphealth-finops
+  template: true
 graphqls:
 - description: '1upHealth provides a GraphQL API endpoint layered on top of its FHIR R4 platform, enabling clients to query FHIR resources and 1upHealth-specific data objects using a single, flexible query language. '
   name: 1upHealth GraphQL API
@@ -295,17 +337,21 @@ jsonld:
   property_count: 0
   slug: 1uphealth-context
 layout: provider
+mcp_servers:
+- description: Remote MCP server at docs.1up.health over HTTP; 8 tools listed.
+  name: 1upHealth MCP Server
+  slug: 1uphealth-fhir
 modified: '2026-08-14'
 name: 1upHealth
 nav: Providers
 network: true
-overview: '1upHealth publishes 10 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Healthcare, United States, FHIR, HL7, and Interoperability.
+overview: '1upHealth is listed with 10 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Healthcare, United States, FHIR, HL7, and Interoperability.
 
 
   The 1upHealth catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 JSON-LD context.
 
 
-  1upHealth''s developer surface includes documentation, engineering blog, support, signup flow, API reference, getting-started guide, authentication, and 38 more developer resources.'
+  1upHealth''s developer surface includes documentation, engineering blog, support, signup flow, API reference, getting-started guide, authentication, and 46 more developer resources.'
 plans:
 - name: 1Uphealth Plans Pricing
   plan_count: 6
@@ -322,21 +368,21 @@ scopes:
   summary_line: 1 scope · clientCredentials/authorizationCode
 score:
   band: exemplar
-  composite: 71.7
+  composite: 70.6
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 75.0
+    artifact_dirs: 30
+    catalog_earned: 72.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 40.0
+    catalog_gap: 43.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.1
   facets:
-    access_clarity: 89.5
+    access_clarity: 81.6
     contract_governance: 18.2
     contract_quality: 57.0
     developer_ergonomics: 66.1
-    discoverability: 78.6
+    discoverability: 83.3
     operational_transparency: 84.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -348,7 +394,7 @@ score:
   previous_composite: 71.7
   provenance:
     conformance: first-party
-    mcp: derived
+    mcp: first-party
     skills: derived
   regulatory:
     applies: true
@@ -360,8 +406,8 @@ score:
     regime: Health
     regime_id: health
     score: 47.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: GraphQL API for requesting delivery quotes, booking on-demand and scheduled deliveries, managing and canceling deliveries, and tracking drivers in real time via webhooks or long polling.
@@ -158,7 +158,7 @@ modified: '2026-07-18'
 name: Curri
 nav: Providers
 network: true
-overview: 'Curri publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Vertical Software, Delivery, Logistics, and Last Mile Delivery.
+overview: 'Curri is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Vertical Software, Delivery, Logistics, and Last Mile Delivery.
 
 
   The Curri catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -195,8 +195,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Panaya's REST API surface, including the Test Dynamix APIs (Transaction, Cycles, Folder, Business Process, Test, Test Step, Step Run, Defect, Requirements — each supporting get-all/get/create/update),
@@ -47,6 +47,10 @@ asyncapis:
   name: Panaya Webhooks
   slug: panaya-webhooks
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.panaya.com/feed/
 - group: company
   title: ''
   type: Website
@@ -162,17 +166,17 @@ created: '2026-07-17'
 description: Panaya is an enterprise change-intelligence and agentic-testing platform for business applications, helping organizations de-risk changes to SAP (including S/4HANA migrations and upgrades), Oracle (EBS, Cloud, NetSuite), Salesforce, Workday, ServiceNow and SuccessFactors. Its platform combines change impact analysis, test management and AI-driven test automation, with an agentic layer ("Seemore") that analyzes changes, generates and fixes tests, and guides teams. Panaya exposes a REST API (the Test Dynamix APIs plus code/patch upload and mass-export endpoints) with token-based authentication, documented rate limits, outbound webhooks via its Automation Rules Center, and integrations with Jira, SAP ChaRM and SAP Cloud ALM. Panaya is owned by Infosys and was previously backed by Battery Ventures.
 image: https://www.panaya.com/wp-content/uploads/2021/01/panaya-logo.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Panaya
 nav: Providers
 network: true
-overview: 'Panaya publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Testing, Test Automation, Test Management, and Change Management.
+overview: 'Panaya is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Testing, Test Automation, Test Management, and Change Management.
 
 
   The Panaya catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Panaya''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 18 more developer resources.'
+  Panaya''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 19 more developer resources.'
 random_paper: 18
 rate_limits:
 - limit_count: 7
@@ -180,15 +184,15 @@ rate_limits:
   slug: panaya-rate-limits
 score:
   band: developing
-  composite: 49.3
+  composite: 49.4
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 35.5
     contract_governance: 18.2
@@ -211,8 +215,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

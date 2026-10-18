@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.3
-  scored_at: '2026-10-04'
+  score: 20.4
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -84,6 +84,25 @@ collections:
   name: dead-drop API v1
   slug: open-dead-drop
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/dead-drop/refs/heads/main/plans/dead-drop-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/dead-drop-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/dead-drop/refs/heads/main/rate-limits/dead-drop-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/dead-drop-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/dead-drop/refs/heads/main/finops/dead-drop-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/dead-drop-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://dead-drop.xyz/blog
 - group: commercial
   title: ''
   type: License
@@ -158,9 +177,13 @@ examples:
   name: Dead Drop Update Drop Example
   slug: dead-drop-update-drop-example
 finops:
-- name: Dead Drop Finops
+- has_sources: false
+  method: generated
+  name: Dead Drop Finops
+  primary_unit: ''
   service_category: API
   slug: dead-drop-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dead-drop.png
 json_schemas:
 - name: Drop
@@ -182,17 +205,17 @@ jsonld:
   property_count: 2
   slug: dead-drop-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-10-06'
 name: Dead Drop
 nav: Providers
 network: true
-overview: 'Dead Drop publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Documentation API, Drops API, Health API, and 1 more. Tagged areas include Messaging, Privacy, Anonymous, and Open Source.
+overview: 'Dead Drop publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Documentation API, Drops API, Health API, and 1 more. Tagged areas include Messaging, Privacy, Anonymous, and Open Source.
 
 
   The Dead Drop catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Dead Drop''s developer surface includes documentation, API reference, legal docs, and 8 more developer resources.'
+  Dead Drop''s developer surface includes engineering blog, documentation, API reference, legal docs, and 11 more developer resources.'
 plans:
 - name: Dead Drop Plans Pricing
   plan_count: 1
@@ -203,9 +226,10 @@ rate_limits:
   name: Dead Drop Rate Limits
   slug: dead-drop-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Dead Drop API Rules
+  name: Dead Drop — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -213,7 +237,8 @@ rules:
     info: 2
     warn: 3
   slug: dead-drop-jsonschema-spectral-rules
-- effective_rule_count: 49
+- authorship: unmarked
+  effective_rule_count: 49
   extends:
   - spectral:oas
   name: Dead Drop API Rules
@@ -226,22 +251,22 @@ rules:
   slug: dead-drop-rules
 score:
   band: thin
-  composite: 32.6
+  composite: 27.0
   coverage:
-    artifact_dirs: 14
-    catalog_earned: 53.9
+    artifact_dirs: 16
+    catalog_earned: 40.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 61.1
+    catalog_gap: 74.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.6
   facets:
-    access_clarity: 37.4
+    access_clarity: 15.8
     contract_governance: 13.6
     contract_quality: 54.1
-    developer_ergonomics: 16.7
+    developer_ergonomics: 19.0
     discoverability: 42.9
-    operational_transparency: 24.2
+    operational_transparency: 10.5
   previous_composite: 32.6
   provenance:
     agentic_access: derived
@@ -256,9 +281,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 14.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

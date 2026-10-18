@@ -23,19 +23,19 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: derived
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.5
-  scored_at: '2026-10-04'
+  score: 20.3
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -195,7 +195,7 @@ arazzos:
 - description: Read a payment, patch its communication while it is still pending, then re-read to confirm.
   name: Fintecture Update Payment Communication
   slug: fintecture-update-payment-communication-workflow
-artifact_total: 106
+artifact_total: 112
 collections:
 - collection_type: postman
   name: Fintecture Account Information Services API
@@ -306,6 +306,81 @@ collections:
   name: Fintecture Account Information Services Accounts Verifications API
   slug: open-fintecture-verifications-api
 common:
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fintecture/refs/heads/main/rules/fintecture-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/fintecture-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fintecture/refs/heads/main/rules/fintecture-jsonschema-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/fintecture-jsonschema-spectral-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fintecture/refs/heads/main/vocabulary/fintecture-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/fintecture-vocabulary.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fintecture/refs/heads/main/data-model/fintecture-data-model.yml
+  title: ''
+  type: DataModel
+  url: data-model/fintecture-data-model.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/fintecture/refs/heads/main/changelog/fintecture-changelog.yml
+  title: ''
+  type: ChangeLog
+  url: changelog/fintecture-changelog.yml
+- group: start
+  href: https://raw.githubusercontent.com/api-evangelist/fintecture/refs/heads/main/sandbox/fintecture-sandbox.yml
+  title: ''
+  type: Sandbox
+  url: sandbox/fintecture-sandbox.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fintecture/refs/heads/main/errors/fintecture-problem-types.yml
+  title: ''
+  type: ErrorCatalog
+  url: errors/fintecture-problem-types.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fintecture/refs/heads/main/conformance/fintecture-conformance.yml
+  title: ''
+  type: Conformance
+  url: conformance/fintecture-conformance.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/fintecture/refs/heads/main/llms/fintecture-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/fintecture-llms.txt
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/fintecture/refs/heads/main/hosts/fintecture-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/fintecture-hosts.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/fintecture/refs/heads/main/vendors/fintecture-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/fintecture-vendors.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/fintecture/refs/heads/main/packages/fintecture-packages.yml
+  title: ''
+  type: Packages
+  url: packages/fintecture-packages.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/fintecture/refs/heads/main/plans/fintecture-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/fintecture-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/fintecture/refs/heads/main/rate-limits/fintecture-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/fintecture-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/fintecture/refs/heads/main/finops/fintecture-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/fintecture-finops.yml
 - group: company
   title: ''
   type: Website
@@ -501,14 +576,6 @@ common:
   url: https://github.com/Fintecture/odoo
 - group: commercial
   title: ''
-  type: Pricing
-  url: https://fintecture.com/tarifs
-- group: commercial
-  title: ''
-  type: TermsOfService
-  url: https://fintecture.com/mentions-legales
-- group: commercial
-  title: ''
   type: PrivacyPolicy
   url: https://fintecture.com/politique-de-confidentialite
 - group: operate
@@ -566,17 +633,39 @@ features:
 - Console with payment session tracking, application registration, SSO configuration, webhook setup, and pre-fill controls
 - Fraud detection and transaction monitoring beyond regulatory minimums
 finops:
-- name: Fintecture Finops
+- has_sources: true
+  method: generated
+  name: Fintecture Finops
+  primary_unit: payment
   service_category: Financial Services
   slug: fintecture-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fintecture.png
 json_schemas:
+- name: AccessToken
+  property_count: 5
+  slug: fintecture-access-token
 - name: Fintecture Bank Account
   property_count: 7
   slug: fintecture-account
+- name: CustomerCreate
+  property_count: 6
+  slug: fintecture-customer-create
+- name: CustomerList
+  property_count: 2
+  slug: fintecture-customer-list
+- name: Customer
+  property_count: 9
+  slug: fintecture-customer
+- name: MerchantTransaction
+  property_count: 10
+  slug: fintecture-merchant-transaction
 - name: Fintecture Payment
   property_count: 6
   slug: fintecture-payment
+- name: TransactionList
+  property_count: 2
+  slug: fintecture-transaction-list
 jsonld:
 - class_count: 0
   name: Fintecture Context
@@ -587,13 +676,13 @@ modified: '2026-05-25'
 name: Fintecture
 nav: Providers
 network: true
-overview: 'Fintecture publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Customers API, Transactions and Settlements API, Accounts API, and 19 more. Tagged areas include Open Banking, Payments, PSD2, France, and Account Information.
+overview: 'Fintecture publishes 22 API contracts indexed on the [APIs.io](https://apis.io/) network, including Customers API, Transactions and Settlements API, Accounts API, and 19 more. Tagged areas include Open Banking, Payments, PSD2, France, and Account Information.
 
 
   The Fintecture catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Fintecture''s developer surface includes authentication, developer portal, documentation, getting-started guide, changelog, signup flow, sandbox, and 44 more developer resources.'
+  Fintecture''s developer surface includes changelog, sandbox, authentication, developer portal, documentation, getting-started guide, signup flow, and 57 more developer resources.'
 plans:
 - name: Fintecture Plans Pricing
   plan_count: 9
@@ -604,9 +693,10 @@ rate_limits:
   name: Fintecture Rate Limits
   slug: fintecture-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Fintecture API Rules
+  name: Fintecture — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -614,7 +704,8 @@ rules:
     info: 1
     warn: 4
   slug: fintecture-jsonschema-spectral-rules
-- effective_rule_count: 48
+- authorship: unmarked
+  effective_rule_count: 48
   extends:
   - spectral:oas
   name: Fintecture API Rules
@@ -626,23 +717,23 @@ rules:
     warn: 4
   slug: fintecture-rules
 score:
-  band: strong
-  composite: 55.1
+  band: developing
+  composite: 50.1
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 78.1
+    artifact_dirs: 31
+    catalog_earned: 63.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 36.9
+    catalog_gap: 51.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: -5.0
   facets:
-    access_clarity: 60.0
-    contract_governance: 13.6
+    access_clarity: 39.5
+    contract_governance: 22.0
     contract_quality: 60.1
     developer_ergonomics: 63.1
-    discoverability: 62.5
-    operational_transparency: 46.8
+    discoverability: 69.6
+    operational_transparency: 26.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -651,23 +742,25 @@ score:
     regions:
     - europe
     - france-iberia
-  previous_composite: 54.5
+  previous_composite: 55.1
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 22
+    mcp: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 16.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 27.8

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Public request-for-quote (RFQ) minting and redemption API for USDe. Whitelisted participants check asset availability, request a firm 15-minute quote, fetch the fee schedule, sign the order with EIP-7
@@ -41,6 +41,10 @@ apis:
   slug: ethena-minting-api
 artifact_total: 4
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://ethena.fi/blog
 - group: company
   title: ''
   type: Website
@@ -160,31 +164,31 @@ created: '2026-07-17'
 description: 'Ethena Labs is the crypto-native protocol behind USDe, a synthetic dollar backed by spot crypto assets, onchain custody, and delta-neutral hedging positions on centralized liquidity venues, alongside the staked savings instrument sUSDe (the "Internet Bond"), the governance token ENA, and USDtb. Ethena exposes a public Minting API for whitelisted institutional participants to mint and redeem USDe: a request-for-quote (RFQ) flow returns firm 15-minute quotes that are signed with EIP-712 (or EIP-1271 for smart-contract wallets) and submitted onchain. This profile was surfaced as a portfolio company of Ribbit Capital and enriched with the real developer surface documented at docs.ethena.fi.'
 image: https://ethena.fi/shared/ethena-logo.svg
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Ethena Labs
 nav: Providers
 network: true
-overview: 'Ethena Labs publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto, Stablecoins, DeFi, and Synthetic Dollar.
+overview: 'Ethena Labs is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cryptocurrency, Stablecoins, DeFi, and Synthetic Dollar.
 
 
-  Ethena Labs'' developer surface includes documentation, API reference, getting-started guide, support, authentication, changelog, and 19 more developer resources.'
+  Ethena Labs'' developer surface includes engineering blog, documentation, API reference, getting-started guide, support, authentication, changelog, and 19 more developer resources.'
 random_paper: 14
 score:
   band: thin
-  composite: 33.7
+  composite: 34.3
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 18.4
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 61.9
+    developer_ergonomics: 64.3
     discoverability: 73.2
     operational_transparency: 44.7
   previous_composite: 33.7
@@ -197,8 +201,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 31.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -221,7 +225,7 @@ security:
 slug: ethena-labs
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Stablecoins
 - DeFi
 - Synthetic Dollar

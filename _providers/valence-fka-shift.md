@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.valence.co/blog/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/valence-fka-shift/refs/heads/main/security/valence-fka-shift-domain-security.yml
   title: ''
@@ -109,20 +113,20 @@ created: '2026-07-17'
 description: Valence (formerly Shift) is an enterprise AI coaching platform backed by Insight Partners. Its flagship product, Nadia, is an AI leadership coach that helps managers and their teams adopt AI, build skills, and improve teamwork, alongside team tools Align, Habit, Perspective, Reflect 360, and Connect. The platform is enterprise SaaS with SAML SSO and SCIM provisioning, certified SOC 2 Type 2, ISO 27001, and ISO 42001, and publishes no public developer API.
 image: https://cdn.prod.website-files.com/615dec181d595dbe552d184b/69bc18035f1aa3f79ee72902_Valence%20Webclip.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Valence (FKA Shift)
 nav: Providers
 network: true
 overview: 'Valence (FKA Shift) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Coaching, Leadership Development, and Human Resources.
 
 
-  Valence (FKA Shift)''s developer surface includes engineering blog, support, and 14 more developer resources.'
+  Valence (FKA Shift)''s developer surface includes engineering blog, support, and 15 more developer resources.'
 random_paper: 0
 score:
   band: emerging
   composite: 22.7
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -151,8 +155,8 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 29.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

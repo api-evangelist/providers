@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Ambient Mesh provides a sidecar-less service mesh via the Kubernetes Gateway API and Istio ambient mode. It exposes configuration APIs for traffic management, security policies, resilience settings, a
@@ -41,6 +41,21 @@ apis:
   slug: ambient-mesh
 artifact_total: 26
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/ambient-mesh/refs/heads/main/plans/ambient-mesh-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/ambient-mesh-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/ambient-mesh/refs/heads/main/rate-limits/ambient-mesh-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/ambient-mesh-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/ambient-mesh/refs/heads/main/finops/ambient-mesh-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/ambient-mesh-finops.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -176,9 +191,13 @@ features:
 - description: Optional per-namespace or per-workload Layer 7 proxies that provide advanced policy enforcement without requiring per-pod sidecar containers.
   name: Waypoint Proxies
 finops:
-- name: Ambient Mesh Finops
+- has_sources: false
+  method: generated
+  name: Ambient Mesh Finops
+  primary_unit: ''
   service_category: API
   slug: ambient-mesh-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ambient-mesh.png
 integrations:
 - description: Ambient Mesh is built on Istio ambient mode, using its control plane and CRDs for configuration.
@@ -202,10 +221,10 @@ modified: '2026-09-02'
 name: Ambient Mesh
 nav: Providers
 network: true
-overview: 'Ambient Mesh publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Service Mesh, Istio, Kubernetes, Zero Trust, and Observability.
+overview: 'Ambient Mesh is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Service Mesh, Istio, Kubernetes, Zero Trust, and Observability.
 
 
-  Ambient Mesh''s developer surface includes documentation, getting-started guide, engineering blog, support, sandbox, authentication, CLI, and 19 more developer resources.'
+  Ambient Mesh''s developer surface includes documentation, getting-started guide, engineering blog, support, sandbox, authentication, CLI, and 22 more developer resources.'
 plans:
 - name: Ambient Mesh Plans Pricing
   plan_count: 0
@@ -217,17 +236,17 @@ rate_limits:
   slug: ambient-mesh-rate-limits
 score:
   band: thin
-  composite: 35.2
+  composite: 33.8
   coverage:
     artifact_dirs: 17
-    catalog_earned: 35.0
+    catalog_earned: 32.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 80.0
+    catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.4
   facets:
-    access_clarity: 7.9
+    access_clarity: 0.0
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 71.4
@@ -246,8 +265,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

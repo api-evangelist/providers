@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.3
-  scored_at: '2026-10-04'
+  score: 31.4
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -174,9 +174,13 @@ common:
 created: '2026-06-13'
 description: Xoxoday is an AI-powered enterprise platform for rewards, loyalty, and incentive operations. Its Plum Rewards API enables organizations to programmatically distribute digital rewards including gift cards, merchandise, experiences, travel, mobile top-ups, and charitable donations across 150+ countries. The platform supports employee recognition workflows, sales incentive programs, customer loyalty campaigns, and channel partner rewards through REST APIs, webhook integrations, and a white-labeled storefront.
 finops:
-- name: Xoxoday Finops
+- has_sources: false
+  method: generated
+  name: Xoxoday Finops
+  primary_unit: ''
   service_category: ''
   slug: xoxoday-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/xoxoday.png
 jsonld:
 - class_count: 16
@@ -188,7 +192,7 @@ modified: '2026-06-13'
 name: Xoxoday
 nav: Providers
 network: true
-overview: 'Xoxoday publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Gift Cards API, Reward Links API, and 3 more. Tagged areas include Rewards, Employee Engagement, Gift Cards, Incentives, and Loyalty.
+overview: 'Xoxoday publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authentication API, Gift Cards API, Reward Links API, and 3 more. Tagged areas include Rewards, Employee Engagement, Gift Cards, Incentives, and Loyalty.
 
 
   The Xoxoday catalog on APIs.io includes 1 JSON-LD context.
@@ -211,17 +215,17 @@ scopes:
   summary_line: 2 scopes · clientCredentials
 score:
   band: thin
-  composite: 34.3
+  composite: 32.7
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 48.0
+    artifact_dirs: 14
+    catalog_earned: 45.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 67.0
+    catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 21.1
+    access_clarity: 13.2
     contract_governance: 0.0
     contract_quality: 55.9
     developer_ergonomics: 21.4
@@ -241,8 +245,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 33.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -260,7 +264,7 @@ security:
 - kind: vulnerability-disclosure
   name: Xoxoday Vulnerability Disclosure
   slug: xoxoday-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 - kind: trust-center
   name: Xoxoday Trust Center
   slug: xoxoday-trust-center

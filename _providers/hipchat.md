@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: The HipChat REST API v2 was the primary developer surface for the team chat platform, exposing rooms, users, messages, notifications, emoticons, OAuth sessions, add-on capabilities, and webhook manage
@@ -42,12 +42,17 @@ apis:
 - description: 'Event-driven webhook delivery from HipChat rooms. Webhooks could be registered via the REST API or declared in an add-on descriptor. Each delivery included a JWT-signed signed_request query parameter '
   name: HipChat Webhooks API
   slug: hipchat-webhooks-api
-artifact_total: 22
+artifact_total: 23
 asyncapis:
 - description: Event-driven webhook deliveries from Atlassian's discontinued HipChat platform. Every webhook POST included a `signed_request` query parameter containing a JWT that the receiver was expected to verify
   name: HipChat Webhooks API
   slug: hipchat-webhooks-asyncapi
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/hipchat/refs/heads/main/plans/hipchat-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/hipchat-plans-pricing.yml
 - group: company
   title: ''
   type: Website
@@ -119,6 +124,14 @@ examples:
 - key_count: 15
   name: Hipchat User Example
   slug: hipchat-user-example
+finops:
+- has_sources: false
+  method: generated
+  name: Hipchat Finops
+  primary_unit: ''
+  service_category: ''
+  slug: hipchat-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hipchat.png
 json_schemas:
 - name: HipChat Message
@@ -150,13 +163,13 @@ modified: '2026-05-23'
 name: HipChat
 nav: Providers
 network: true
-overview: 'HipChat publishes 2 APIs on the [APIs.io](https://apis.io/) network: REST API v2 and Webhooks API. Tagged areas include Chat, Messaging, Collaboration, Team Communication, and Sunset.
+overview: 'HipChat is listed with 2 APIs on the [APIs.io](https://apis.io/) network: REST API v2 and Webhooks API. Tagged areas include Chat, Messaging, Collaboration, Team Communication, and Sunset.
 
 
   The HipChat catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  HipChat''s developer surface includes documentation, engineering blog, pricing, and 9 more developer resources.'
+  HipChat''s developer surface includes documentation, engineering blog, pricing, and 10 more developer resources.'
 plans:
 - name: Hipchat Plans Pricing
   plan_count: 4
@@ -167,10 +180,11 @@ rate_limits:
   name: Hipchat Rate Limits
   slug: hipchat-rate-limits
 rules:
-- effective_rule_count: 33
+- authorship: generated
+  effective_rule_count: 33
   extends:
   - spectral:asyncapi
-  name: HipChat API Rules
+  name: HipChat — asyncapi rules
   rule_count: 6
   severity_counts:
     error: 1
@@ -178,9 +192,10 @@ rules:
     info: 0
     warn: 5
   slug: hipchat-asyncapi-spectral-rules
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: HipChat API Rules
+  name: HipChat — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -188,10 +203,11 @@ rules:
     info: 1
     warn: 4
   slug: hipchat-jsonschema-spectral-rules
-- effective_rule_count: 50
+- authorship: unmarked
+  effective_rule_count: 50
   extends:
   - spectral:oas
-  name: HipChat API Rules
+  name: HipChat — rest api rules
   rule_count: 9
   severity_counts:
     error: 3
@@ -204,12 +220,12 @@ score:
   composite: 0.0
   coverage:
     artifact_dirs: 16
-    catalog_earned: 74.5
+    catalog_earned: 61.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 40.5
+    catalog_gap: 53.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -51.3
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
@@ -218,7 +234,7 @@ score:
     discoverability: 0.0
     operational_transparency: 0.0
   lifecycle: defunct
-  previous_composite: 51.3
+  previous_composite: 0.0
   provenance:
     contracts:
       callable: 100.0
@@ -231,9 +247,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: falling
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

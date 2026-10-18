@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.fab.com/o/news
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/fabcom/refs/heads/main/security/fabcom-domain-security.yml
   title: ''
@@ -94,31 +98,31 @@ created: '2026-07-17'
 description: Fab.com is a digital content marketplace operated by Epic Games, where creators buy and sell 3D models, materials, environments, VFX, audio, and game-ready assets. Launched in October 2024, Fab consolidated four of Epic's prior storefronts — the Unreal Engine Marketplace, the Sketchfab Store, Quixel, and the ArtStation Marketplace — into a single catalog with unified licensing, and integrates into Unreal Engine, UEFN, and the Epic Games Launcher. The fabcom entry was originally added to the API Evangelist network as an a16z portfolio lead for the earlier, unrelated Fab.com flash-sale design-commerce company (2011–2015), which wound down before the domain passed to Epic Games; see x-identity-note. Fab publishes no public developer API, developer portal, or machine-readable specification as of this pass — the surface captured here is its documentation, support, and security-disclosure posture.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fabcom.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Fab.com
 nav: Providers
 network: true
 overview: 'Fab.com is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketplace, Digital Assets, 3D Content, and Game Development.
 
 
-  Fab.com''s developer surface includes documentation, getting-started guide, support, and 9 more developer resources.'
+  Fab.com''s developer surface includes engineering blog, documentation, getting-started guide, support, and 9 more developer resources.'
 random_paper: 0
 score:
   band: emerging
-  composite: 13.1
+  composite: 13.7
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 8
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 23.8
+    developer_ergonomics: 26.2
     discoverability: 55.4
     operational_transparency: 26.3
   previous_composite: 13.1
@@ -128,8 +132,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

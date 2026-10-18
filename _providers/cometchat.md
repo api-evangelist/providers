@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -215,16 +215,20 @@ common:
 created: '2026-06-20'
 description: CometChat is an in-app messaging platform offering chat, voice, and video SDKs plus a server-side REST Management API. The REST API (v3) manages users, auth tokens, groups, group members, messages, conversations, reactions, roles, and webhooks for an app, while client SDKs and a managed realtime WebSocket layer deliver one-to-one and group conversations, presence, and calling.
 finops:
-- name: Cometchat Finops
+- has_sources: true
+  method: generated
+  name: Cometchat Finops
+  primary_unit: ''
   service_category: Communication and Messaging
   slug: cometchat-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cometchat.png
 layout: provider
 modified: '2026-06-20'
 name: CometChat
 nav: Providers
 network: true
-overview: 'CometChat publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Auth Tokens API, Banned Users API, Blocked Users API, and 10 more. Tagged areas include Chat, Messaging, Voice, Video, and SDK.
+overview: 'CometChat publishes 13 API contracts indexed on the [APIs.io](https://apis.io/) network, including Auth Tokens API, Banned Users API, Blocked Users API, and 10 more. Tagged areas include Chat, Messaging, Voice, Video, and SDK.
 
 
   CometChat''s developer surface includes pricing, authentication, documentation, engineering blog, and 9 more developer resources.'
@@ -239,22 +243,22 @@ rate_limits:
   slug: cometchat-rate-limits
 score:
   band: thin
-  composite: 38.0
+  composite: 33.9
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 62.8
+    artifact_dirs: 13
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 52.2
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -4.1
   facets:
-    access_clarity: 50.0
+    access_clarity: 42.1
     contract_governance: 0.0
     contract_quality: 49.0
     developer_ergonomics: 32.1
     discoverability: 66.1
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   previous_composite: 38.0
   provenance:
     agentic_access: derived
@@ -269,8 +273,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

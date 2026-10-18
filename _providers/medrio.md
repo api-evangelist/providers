@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 15.5
-  scored_at: '2026-10-04'
+  score: 13.6
+  scored_at: '2026-10-17'
 api_count: 6
 apis:
 - description: List the studies available to your account and read their configuration - domains, enabled features, reason-for-data-change options, and the reference data a study is built from (sites, roles, groups,
@@ -56,6 +56,14 @@ apis:
   slug: medrio-msource-api
 artifact_total: 10
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://medrio.com/blog/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://medrio.com/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/medrio/refs/heads/main/security/medrio-domain-security.yml
   title: ''
@@ -103,19 +111,23 @@ common:
 created: '2026-07-05'
 description: Medrio is an eClinical / electronic data capture (EDC) platform built for small and scaling life sciences teams, spanning EDC, ePRO/eCOA, eConsent, and RTSM for clinical trials across pharma, biotech, medtech, and diagnostics. Medrio exposes documented REST APIs for integration and data exchange. Medrio API Connect (connectapi.medrio.com) covers study configuration, subject enrollment and identifiers, eCRF form data entry, user and membership administration, reference data (sites, roles, groups, subject statuses), and event subscriptions; it ships a live OpenAPI 3.0 description and Swagger UI. The mSource API (esource.medrio.com) backs the mPRO and mCapture eCOA/ePRO applications for subject-, form-, and approval-level source data capture, including offline access. Both surfaces are request/response REST over HTTPS secured with OAuth 2.0; actual use is gated to Medrio customers with study credentials, and commercial pricing is per-study / contact-sales.
 finops:
-- name: Medrio Finops
+- has_sources: true
+  method: generated
+  name: Medrio Finops
+  primary_unit: ''
   service_category: eClinical and Electronic Data Capture
   slug: medrio-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/medrio.png
 layout: provider
-modified: '2026-07-05'
+modified: '2026-10-06'
 name: Medrio
 nav: Providers
 network: true
-overview: 'Medrio publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Studies API, Subjects API, Data Entry API, and 3 more. Tagged areas include Clinical Trials, Electronic Data Capture, EDC, eClinical, and ePRO.
+overview: 'Medrio is listed with 6 APIs on the [APIs.io](https://apis.io/) network, including Studies API, Subjects API, Data Entry API, and 3 more. Tagged areas include Clinical Trials, Electronic Data Capture, EDC, eClinical, and ePRO.
 
 
-  Medrio''s developer surface includes documentation, API reference, signup flow, and 7 more developer resources.'
+  Medrio''s developer surface includes engineering blog, documentation, API reference, signup flow, and 8 more developer resources.'
 plans:
 - name: Medrio Plans Pricing
   plan_count: 1
@@ -127,22 +139,22 @@ rate_limits:
   slug: medrio-rate-limits
 score:
   band: emerging
-  composite: 24.4
+  composite: 17.9
   coverage:
-    artifact_dirs: 6
-    catalog_earned: 61.0
+    artifact_dirs: 7
+    catalog_earned: 45.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 54.0
+    catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.5
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 24.0
-    developer_ergonomics: 16.7
+    developer_ergonomics: 19.0
     discoverability: 71.4
-    operational_transparency: 28.4
+    operational_transparency: 7.9
   previous_composite: 24.4
   regulatory:
     applies: true
@@ -150,9 +162,9 @@ score:
     regime: Health
     regime_id: health
     score: 4.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

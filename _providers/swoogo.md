@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.3
-  scored_at: '2026-10-04'
+  score: 20.4
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -101,6 +101,10 @@ collections:
   name: Swoogo API
   slug: open-swoogo
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://swoogo.events/feed/
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/swoogo/refs/heads/main/agentic-access/swoogo-agentic-access.yml
   title: ''
@@ -168,19 +172,23 @@ common:
 created: '2026-07-05'
 description: Swoogo is an event management and event registration platform for building event websites, registration forms, agendas, and badges across in-person, virtual, and hybrid events. Swoogo exposes a documented public REST API at https://api.swoogo.com/api/v1 secured with OAuth2 client-credentials (bearer tokens that expire every 30 minutes). The API covers events, registrants, sessions, speakers, sponsors, tracks, packages, discount codes, transactions, contacts (CRM), call-for-speakers submissions, invitation lists, and webhooks - roughly 140 endpoints. Access requires a paid Swoogo subscription; API credentials are issued from My Profile > API Credentials in the Swoogo app.
 finops:
-- name: Swoogo Finops
+- has_sources: true
+  method: generated
+  name: Swoogo Finops
+  primary_unit: ''
   service_category: Event Management Software
   slug: swoogo-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/swoogo.png
 layout: provider
-modified: '2026-07-05'
+modified: '2026-10-06'
 name: Swoogo
 nav: Providers
 network: true
-overview: 'Swoogo publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Contacts API, Events API, and 3 more. Tagged areas include Event Management, Event Registration, Event, Sessions, and Speakers.
+overview: 'Swoogo publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authentication API, Contacts API, Events API, and 3 more. Tagged areas include Event Management, Event Registration, Event, Sessions, and Speakers.
 
 
-  Swoogo''s developer surface includes authentication, documentation, signup flow, and 11 more developer resources.'
+  Swoogo''s developer surface includes authentication, documentation, signup flow, and 12 more developer resources.'
 plans:
 - name: Swoogo Plans Pricing
   plan_count: 3
@@ -191,23 +199,23 @@ rate_limits:
   name: Swoogo Rate Limits
   slug: swoogo-rate-limits
 score:
-  band: developing
-  composite: 40.2
+  band: thin
+  composite: 31.9
   coverage:
-    artifact_dirs: 10
-    catalog_earned: 61.6
+    artifact_dirs: 11
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.4
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 57.4
+    access_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 52.3
     developer_ergonomics: 25.0
     discoverability: 66.1
-    operational_transparency: 28.4
+    operational_transparency: 7.9
   previous_composite: 40.2
   provenance:
     agentic_access: derived
@@ -222,9 +230,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0
@@ -241,7 +249,7 @@ security:
 - kind: vulnerability-disclosure
   name: Swoogo Vulnerability Disclosure
   slug: swoogo-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 - kind: trust-center
   name: Swoogo Trust Center
   slug: swoogo-trust-center

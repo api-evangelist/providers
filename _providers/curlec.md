@@ -34,15 +34,15 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 58.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 73
+- acting_count: 75
   human_in_the_loop: 0
   name: Curlec Agentic Access
-  operation_count: 136
+  operation_count: 140
   slug: curlec-agentic-access
-  summary_line: 136 operations · 73 acting
-api_count: 1
+  summary_line: 140 operations · 75 acting
+api_count: 2
 apis:
 - baseURL: https://api.razorpay.com/v1
   baseurl_source: declared
@@ -586,7 +586,7 @@ modified: '2026-07-18'
 name: Curlec
 nav: Providers
 network: true
-overview: 'Curlec publishes 30 APIs on the [APIs.io](https://apis.io/) network, including Bills API, Customers API, Disputes API, and 27 more. Tagged areas include Company, Payments, Payment Gateway, Recurring Payments, and Subscription.
+overview: 'Curlec publishes 30 API contracts indexed on the [APIs.io](https://apis.io/) network, including Bills API, Customers API, Disputes API, and 27 more. Tagged areas include Company, Payments, Payment Gateway, Recurring Payments, and Subscription.
 
 
   The Curlec catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -603,7 +603,7 @@ score:
   band: strong
   composite: 58.4
   coverage:
-    artifact_dirs: 26
+    artifact_dirs: 27
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -641,8 +641,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 42.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -32,10 +32,20 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 17
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/american-equity-investment-life-holding/refs/heads/main/plans/american-equity-investment-life-holding-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/american-equity-investment-life-holding-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/american-equity-investment-life-holding/refs/heads/main/rate-limits/american-equity-investment-life-holding-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/american-equity-investment-life-holding-rate-limits.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/american-equity-investment-life-holding/refs/heads/main/security/american-equity-investment-life-holding-domain-security.yml
   title: ''
@@ -146,7 +156,7 @@ network: true
 overview: 'American Equity Investment Life Holding is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Services, Insurance, Annuities, Fixed Indexed Annuity, and Retirement.
 
 
-  American Equity Investment Life Holding''s developer surface includes developer portal, signup flow, support, engineering blog, and 11 more developer resources.'
+  American Equity Investment Life Holding''s developer surface includes developer portal, signup flow, support, engineering blog, and 13 more developer resources.'
 plans:
 - name: American Equity Investment Life Holding Plans Pricing
   plan_count: 0
@@ -202,8 +212,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 17.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

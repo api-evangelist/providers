@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.aivar.tech/blog
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/aivar/refs/heads/main/security/aivar-domain-security.yml
   title: ''
@@ -65,42 +69,42 @@ created: '2026-07-17'
 description: 'Aivar Innovations is an enterprise AI consulting and development firm that helps regulated and large organizations move agentic AI systems from pilot to scaled production. Alongside strategic AI consulting, custom AI development, managed AI/ML operations, data services, and cloud transformation, Aivar ships three accelerators: Convogent AI (autonomous voice and conversational agents in 16+ languages with sub-500ms latency), Velogent AI (governed agentic process automation for regulated industries), and Kubogent AI (enterprise AI infrastructure on Kubernetes). The company operates a professional-services model and does not currently publish a public, self-service API, SDKs, or developer documentation.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aivar.png
 layout: provider
-modified: '2026-07-17'
+modified: '2026-10-06'
 name: Aivar
 nav: Providers
 network: true
-overview: 'Aivar is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Ml, Artificial Intelligence, AI Agents, and Consulting.
+overview: 'Aivar is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, Consulting, and Voice AI.
 
 
-  Aivar''s developer surface includes support and 5 more developer resources.'
+  Aivar''s developer surface includes engineering blog, support, and 5 more developer resources.'
 random_paper: 3
 score:
   band: minimal
-  composite: 9.6
+  composite: 9.7
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 4.8
+    developer_ergonomics: 7.1
     discoverability: 48.2
     operational_transparency: 0.0
   previous_composite: 9.6
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 12.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -115,7 +119,6 @@ security:
 slug: aivar
 tags:
 - Company
-- Ai Ml
 - Artificial Intelligence
 - AI Agents
 - Consulting

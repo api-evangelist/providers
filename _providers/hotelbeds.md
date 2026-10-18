@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.5
-  scored_at: '2026-10-04'
+  score: 19.6
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 5
+- acting_count: 3
   human_in_the_loop: 0
   name: Hotelbeds Agentic Access
   operation_count: 13
   slug: hotelbeds-agentic-access
-  summary_line: 13 operations · 5 acting
+  summary_line: 13 operations · 3 acting
 api_count: 1
 apis:
 - baseURL: https://api.hotelbeds.com/hotel-api/1.0
@@ -94,6 +94,10 @@ collections:
   name: Hotelbeds APItude API
   slug: open-hotelbeds
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://discover.hotelbeds.com/products-and-services/services-for-distributors/insights
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/hotelbeds/refs/heads/main/agentic-access/hotelbeds-agentic-access.yml
   title: ''
@@ -139,19 +143,23 @@ common:
 created: '2026-06-25'
 description: Hotelbeds (now part of HBX Group) is a global B2B travel bedbank and accommodation wholesaler. Its APItude suite of REST APIs lets travel sellers search, price, and book hotels, activities, and transfers, and pull static content and cached availability, authenticated with an Api-key plus a SHA256 X-Signature of the API key, secret, and request timestamp.
 finops:
-- name: Hotelbeds Finops
+- has_sources: true
+  method: generated
+  name: Hotelbeds Finops
+  primary_unit: ''
   service_category: Travel and Distribution
   slug: hotelbeds-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hotelbeds.png
 layout: provider
-modified: '2026-06-25'
+modified: '2026-10-06'
 name: Hotelbeds
 nav: Providers
 network: true
-overview: 'Hotelbeds publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Activities API, Booking API, Cache API, and 2 more. Tagged areas include Travel, Hotels, Bedbank, Accommodation, and Booking.
+overview: 'Hotelbeds publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Activities API, Booking API, Cache API, and 2 more. Tagged areas include Travel, Hotels, Bedbank, Accommodation, and Booking.
 
 
-  Hotelbeds'' developer surface includes authentication, documentation, and 7 more developer resources.'
+  Hotelbeds'' developer surface includes engineering blog, authentication, documentation, and 7 more developer resources.'
 plans:
 - name: Hotelbeds Plans Pricing
   plan_count: 2
@@ -162,23 +170,23 @@ rate_limits:
   name: Hotelbeds Rate Limits
   slug: hotelbeds-rate-limits
 score:
-  band: thin
-  composite: 32.4
+  band: emerging
+  composite: 25.9
   coverage:
-    artifact_dirs: 10
-    catalog_earned: 58.0
+    artifact_dirs: 12
+    catalog_earned: 42.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.0
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.5
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 48.1
-    developer_ergonomics: 29.8
+    developer_ergonomics: 32.1
     discoverability: 66.1
-    operational_transparency: 28.4
+    operational_transparency: 7.9
   previous_composite: 32.4
   provenance:
     agentic_access: derived
@@ -193,9 +201,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

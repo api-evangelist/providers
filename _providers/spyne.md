@@ -34,18 +34,23 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'The Spyne Unified API accepts vehicle images and video (by SKU / VIN / stock number) and returns AI-transformed studio images, background replacement, 360-degree spins, and feature videos, plus image '
   name: Spyne Unified API
   slug: spyne-unified-api
-artifact_total: 4
+artifact_total: 5
 asyncapis:
 - description: ''
   name: Spyne Webhooks
   slug: spyne-webhooks
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/spyne/refs/heads/main/plans/spyne-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/spyne-plans-pricing.yml
 - group: company
   title: ''
   type: Website
@@ -171,27 +176,31 @@ modified: '2026-07-21'
 name: Spyne
 nav: Providers
 network: true
-overview: 'Spyne publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Automotive, Image, and Video.
+overview: 'Spyne is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Automotive, Image, and Video.
 
 
   The Spyne catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Spyne''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, pricing, and 19 more developer resources.'
+  Spyne''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, pricing, and 20 more developer resources.'
+plans:
+- name: Spyne Plans Pricing
+  plan_count: 2
+  slug: spyne-plans-pricing
 random_paper: 9
 score:
   band: developing
-  composite: 41.0
+  composite: 45.3
   coverage:
-    artifact_dirs: 16
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 17
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 4.3
   facets:
-    access_clarity: 52.6
+    access_clarity: 73.7
     contract_governance: 4.5
     contract_quality: 39.0
     developer_ergonomics: 50.6
@@ -208,8 +217,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

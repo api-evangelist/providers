@@ -35,15 +35,15 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 119
+- acting_count: 118
   human_in_the_loop: 0
   name: Smokeball Agentic Access
   operation_count: 233
   slug: smokeball-agentic-access
-  summary_line: 233 operations · 119 acting
-api_count: 1
+  summary_line: 233 operations · 118 acting
+api_count: 2
 apis:
 - baseURL: https://api.smokeball.com
   baseurl_source: declared
@@ -215,7 +215,7 @@ apis:
   description: The Webhooks API from Smokeball — 4 operation(s) for webhooks.
   name: Smokeball Webhooks API
   slug: smokeball-webhooks-api
-artifact_total: 111
+artifact_total: 112
 collections:
 - collection_type: open
   name: API Collection
@@ -423,6 +423,14 @@ examples:
 - key_count: 6
   name: Smokeball Webhook Example
   slug: smokeball-webhook-example
+finops:
+- has_sources: false
+  method: generated
+  name: Smokeball Finops
+  primary_unit: ''
+  service_category: ''
+  slug: smokeball-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/smokeball.png
 json_schemas:
 - name: Smokeball BankAccount
@@ -519,7 +527,7 @@ modified: '2026-06-13'
 name: Smokeball
 nav: Providers
 network: true
-overview: 'Smokeball publishes 34 APIs on the [APIs.io](https://apis.io/) network, including Activity Codes API, Authorization API, Bank Accounts API, and 31 more. Tagged areas include Legal, Law Firms, Practice Management, Matter, and Contacts.
+overview: 'Smokeball publishes 34 API contracts indexed on the [APIs.io](https://apis.io/) network, including Activity Codes API, Authorization API, Bank Accounts API, and 31 more. Tagged areas include Legal, Law Firms, Practice Management, Matter, and Contacts.
 
 
   The Smokeball catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -536,9 +544,10 @@ rate_limits:
   name: Smokeball Rate Limits
   slug: smokeball-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: Smokeball API Rules
+  name: Smokeball — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -547,24 +556,24 @@ rules:
     warn: 4
   slug: smokeball-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 43.1
+  band: thin
+  composite: 37.2
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 76.1
+    artifact_dirs: 18
+    catalog_earned: 63.2
     catalog_earned_first_party: 0.0
-    catalog_gap: 38.9
+    catalog_gap: 51.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: -5.9
   facets:
-    access_clarity: 38.9
+    access_clarity: 18.4
     contract_governance: 23.5
     contract_quality: 64.1
     developer_ergonomics: 11.9
     discoverability: 66.1
-    operational_transparency: 40.0
-  previous_composite: 42.5
+    operational_transparency: 26.3
+  previous_composite: 43.1
   provenance:
     agentic_access: derived
     contracts:
@@ -578,9 +587,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 27.8

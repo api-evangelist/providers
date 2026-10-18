@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 21
   slug: appsmax-rest-api-v1-agentic-access
   summary_line: 21 operations · 6 acting
-api_count: 1
+api_count: 2
 apis:
 - baseURL: https://telegram.appsmax.ru/api/v1
   baseurl_source: declared
@@ -285,7 +285,7 @@ modified: '2026-08-09'
 name: AppsMax
 nav: Providers
 network: true
-overview: 'AppsMax publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Access API, Applications API, Bots API, and 6 more. Tagged areas include Company, Software-as-a-Service, Messaging, Business Automation, and Chatbots.
+overview: 'AppsMax publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Access API, Applications API, Bots API, and 6 more. Tagged areas include Company, Software-as-a-Service, Messaging, Business Automation, and Chatbots.
 
 
   AppsMax''s developer surface includes authentication, API reference, engineering blog, signup flow, FAQ, code examples, and 27 more developer resources.'
@@ -305,7 +305,7 @@ scopes:
   summary_line: 12 scopes
 score:
   band: strong
-  composite: 61.7
+  composite: 61.4
   coverage:
     artifact_dirs: 24
     catalog_earned: 61.0
@@ -313,7 +313,7 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 76.3
     contract_governance: 4.5
@@ -334,12 +334,12 @@ score:
     skills: derived
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 40.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

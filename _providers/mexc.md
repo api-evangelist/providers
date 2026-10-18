@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.5
-  scored_at: '2026-10-04'
+  score: 19.6
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 50
+- acting_count: 49
   human_in_the_loop: 6
   name: Mexc Agentic Access
   operation_count: 142
   slug: mexc-agentic-access
-  summary_line: 142 operations · 50 acting · 6 human-in-the-loop
+  summary_line: 142 operations · 49 acting · 6 human-in-the-loop
 api_count: 2
 apis:
 - description: The MEXC Spot WebSocket Streams deliver real-time market data and user account updates via persistent WebSocket connections. Public channels provide ticker data, order book depth, trade feeds, and kli
@@ -242,9 +242,13 @@ features:
 - description: Tiered market maker program with enhanced API rate limits and competitive fee rebates.
   name: Market Maker Program
 finops:
-- name: Mexc Finops
+- has_sources: true
+  method: generated
+  name: Mexc Finops
+  primary_unit: ''
   service_category: Financial Services / Trading
   slug: mexc-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mexc.png
 json_schemas:
 - name: MEXC Order
@@ -258,7 +262,7 @@ modified: '2026-06-13'
 name: MEXC
 nav: Providers
 network: true
-overview: 'MEXC publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Accounts and Transactions API, EFT API, Margin API, and 9 more. Tagged areas include Cryptocurrency, Exchange, Trading, Futures, and Market Data.
+overview: 'MEXC publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts and Transactions API, EFT API, Margin API, and 9 more. Tagged areas include Cryptocurrency, Exchange, Trading, Futures, and Market Data.
 
 
   The MEXC catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -275,9 +279,10 @@ rate_limits:
   name: Mexc Rate Limits
   slug: mexc-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: MEXC API Rules
+  name: MEXC — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -286,23 +291,23 @@ rules:
     warn: 3
   slug: mexc-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 41.4
+  band: thin
+  composite: 33.1
   coverage:
-    artifact_dirs: 16
-    catalog_earned: 69.4
+    artifact_dirs: 17
+    catalog_earned: 50.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 45.6
+    catalog_gap: 64.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 23.5
     contract_quality: 41.6
     developer_ergonomics: 54.8
     discoverability: 66.1
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   previous_composite: 41.4
   provenance:
     agentic_access: derived
@@ -317,9 +322,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 21.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

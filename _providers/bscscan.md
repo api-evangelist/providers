@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -130,6 +130,21 @@ collections:
   name: BscScan Accounts Transactions API
   slug: open-bscscan-transactions-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/bscscan/refs/heads/main/plans/plans.yml
+  title: ''
+  type: Plans
+  url: plans/plans.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/bscscan/refs/heads/main/rate-limits/rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/bscscan/refs/heads/main/finops/finops.yml
+  title: ''
+  type: FinOps
+  url: finops/finops.yml
 - group: company
   title: ''
   type: Website
@@ -170,9 +185,13 @@ examples:
   name: Transaction List
   slug: transaction-list
 finops:
-- name: Finops
+- has_sources: false
+  method: generated
+  name: Finops
+  primary_unit: ''
   service_category: ''
   slug: finops
+  template: true
 image: https://bscscan.com/images/svg/brands/bscscan-logo-circle.svg
 json_schemas:
 - name: BscScan Account Balance Response
@@ -194,13 +213,13 @@ modified: '2026-09-16'
 name: BscScan
 nav: Providers
 network: true
-overview: 'BscScan publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, API PRO Endpoints API, Blocks API, and 7 more. Tagged areas include Blockchain, Block Explorer, BNB Smart Chain, BSC, and BEP-20.
+overview: 'BscScan publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, API PRO Endpoints API, Blocks API, and 7 more. Tagged areas include Blockchain, Block Explorer, BNB Smart Chain, BSC, and BEP-20.
 
 
   The BscScan catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  BscScan''s developer surface includes authentication and 4 more developer resources.'
+  BscScan''s developer surface includes authentication and 7 more developer resources.'
 plans:
 - name: Plans
   plan_count: 7
@@ -211,9 +230,10 @@ rate_limits:
   name: Rate Limits
   slug: rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: BscScan API Rules
+  name: BscScan — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -222,18 +242,18 @@ rules:
     warn: 3
   slug: bscscan-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 41.3
+  band: thin
+  composite: 35.7
   coverage:
     artifact_dirs: 15
-    catalog_earned: 62.1
+    catalog_earned: 51.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.0
+    catalog_gap: 63.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.6
   facets:
-    access_clarity: 70.5
+    access_clarity: 42.1
     contract_governance: 9.8
     contract_quality: 54.4
     developer_ergonomics: 21.4
@@ -253,9 +273,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0
@@ -271,7 +291,7 @@ security:
 - kind: vulnerability-disclosure
   name: Bscscan Vulnerability Disclosure
   slug: bscscan-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 slug: bscscan
 tags:
 - Blockchain

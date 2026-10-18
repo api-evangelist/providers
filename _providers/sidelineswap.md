@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Authenticated REST API surface behind the SidelineSwap developer portal — identity (IAM), commerce and secure payments on api.sidelineswap.com, plus a partner Inventory API (developer.sidelineswap.com
@@ -98,7 +98,7 @@ modified: '2026-07-21'
 name: SidelineSwap
 nav: Providers
 network: true
-overview: 'SidelineSwap publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketplace, Sports, Sporting Goods, and E-Commerce.
+overview: 'SidelineSwap is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketplace, Sports, Sporting Goods, and E-Commerce.
 
 
   SidelineSwap''s developer surface includes documentation, API reference, support, engineering blog, signup flow, and 7 more developer resources.'
@@ -107,7 +107,7 @@ score:
   band: emerging
   composite: 20.9
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -128,8 +128,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

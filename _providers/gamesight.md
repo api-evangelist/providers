@@ -39,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 44.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -71,6 +71,10 @@ collections:
   name: Gamesight Measurement Reporting API
   slug: open-gamesight-reporting-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.gamesight.io/rss/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/gamesight/refs/heads/main/overlays/gamesight-measurement-overlay.yaml
   title: ''
@@ -237,14 +241,14 @@ mcp_servers:
 - description: Remote MCP server at console.gamesight.io over HTTP.
   name: Gamesight MCP Server
   slug: gamesight-mcp-server
-modified: '2026-08-13'
+modified: '2026-10-06'
 name: Gamesight
 nav: Providers
 network: true
-overview: 'Gamesight publishes 2 APIs on the [APIs.io](https://apis.io/) network: Measurement API and Reporting API. Tagged areas include Company, Gaming, Marketing, Analytics, and Attribution.
+overview: 'Gamesight publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Measurement API and Reporting API. Tagged areas include Company, Gaming, Marketing, Analytics, and Attribution.
 
 
-  Gamesight''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, support, and 27 more developer resources.'
+  Gamesight''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, support, and 28 more developer resources.'
 plans:
 - name: Gamesight Plans Pricing
   plan_count: 0
@@ -263,7 +267,7 @@ score:
   band: developing
   composite: 50.1
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 26
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
@@ -300,8 +304,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

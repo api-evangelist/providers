@@ -30,20 +30,20 @@ agent_readiness:
     mcp_server: verified
     openapi_examples: false
     protected_resource_metadata: verified
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 44.6
-  scored_at: '2026-10-04'
+  score: 42.7
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 1
+- acting_count: 0
   human_in_the_loop: 0
   name: Predicthq Agentic Access
   operation_count: 5
   slug: predicthq-agentic-access
-  summary_line: 5 operations · 1 acting
+  summary_line: 5 operations
 api_count: 4
 apis:
 - baseURL: https://api.predicthq.com/v1
@@ -87,6 +87,21 @@ collections:
   name: PredictHQ API
   slug: open-predicthq
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/predicthq/refs/heads/main/plans/predicthq-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/predicthq-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/predicthq/refs/heads/main/rate-limits/predicthq-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/predicthq-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/predicthq/refs/heads/main/finops/predicthq-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/predicthq-finops.yml
 - group: company
   title: ''
   type: Website
@@ -165,9 +180,13 @@ common:
 created: '2025-02-24'
 description: PredictHQ is an AI-powered demand intelligence platform that predicts the impact of real-world events on business demand. The PredictHQ API delivers structured, deduplicated event data, machine learning features, demand forecasts, and impact analytics across categories such as concerts, sports, conferences, public holidays, school terms, severe weather, and more, helping enterprises make smarter decisions about staffing, inventory, pricing, and marketing.
 finops:
-- name: Predicthq Finops
+- has_sources: false
+  method: generated
+  name: Predicthq Finops
+  primary_unit: ''
   service_category: API
   slug: predicthq-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/predicthq.png
 layout: provider
 mcp_servers:
@@ -178,10 +197,10 @@ modified: '2026-05-19'
 name: PredictHQ
 nav: Providers
 network: true
-overview: 'PredictHQ publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Events API, Features API, Places API, and 1 more. Tagged areas include Demand Intelligence, Event, Forecasting, Machine Learning, and Real-World Events.
+overview: 'PredictHQ is listed with 4 APIs on the [APIs.io](https://apis.io/) network, including Events API, Features API, Places API, and 1 more. Tagged areas include Demand Intelligence, Event, Forecasting, Machine Learning, and Real-World Events.
 
 
-  PredictHQ''s developer surface includes authentication, developer portal, documentation, signup flow, pricing, engineering blog, support, and 11 more developer resources.'
+  PredictHQ''s developer surface includes authentication, developer portal, documentation, signup flow, pricing, engineering blog, support, and 14 more developer resources.'
 plans:
 - name: Predicthq Plans Pricing
   plan_count: 3
@@ -193,17 +212,17 @@ rate_limits:
   slug: predicthq-rate-limits
 score:
   band: thin
-  composite: 38.4
+  composite: 36.9
   coverage:
     artifact_dirs: 14
-    catalog_earned: 44.0
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 71.0
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 38.2
+    access_clarity: 30.3
     contract_governance: 0.0
     contract_quality: 46.5
     developer_ergonomics: 48.8
@@ -224,8 +243,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 14.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

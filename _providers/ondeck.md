@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'REST API providing partner access to OnDeck''s small business lending platform, supporting credit pre-qualifications, loan application submission, business health score retrieval via the OnDeck Score, '
@@ -119,16 +119,20 @@ common:
 created: '2026-06-13'
 description: OnDeck is a small business lending platform that provides partner APIs for submitting loan applications, checking business health scores via the OnDeck Score, managing loan products including term loans and lines of credit, and processing repayments. The API enables banks, brokers, and online service providers to embed OnDeck lending capabilities directly into their own platforms through credit pre-qualification, pre-approval, and full loan application submission workflows. OnDeck is an Enova International brand serving 185,000+ small businesses with $25 billion+ in capital delivered.
 finops:
-- name: Ondeck Finops
+- has_sources: false
+  method: generated
+  name: Ondeck Finops
+  primary_unit: ''
   service_category: ''
   slug: ondeck-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ondeck.png
 layout: provider
 modified: '2026-06-13'
 name: OnDeck
 nav: Providers
 network: true
-overview: 'OnDeck publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Small Business Lending, Fintech, Loans, Credit Scoring, and Business Health.
+overview: 'OnDeck is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Small Business Lending, Fintech, Loans, Credit Scoring, and Business Health.
 
 
   OnDeck''s developer surface includes signup flow, support, documentation, engineering blog, pricing, and 13 more developer resources.'
@@ -142,23 +146,23 @@ rate_limits:
   name: Ondeck Rate Limits
   slug: ondeck-rate-limits
 score:
-  band: thin
-  composite: 29.3
+  band: emerging
+  composite: 23.2
   coverage:
-    artifact_dirs: 9
-    catalog_earned: 54.4
+    artifact_dirs: 10
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 60.6
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.1
   facets:
-    access_clarity: 71.6
+    access_clarity: 50.0
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 16.7
     discoverability: 73.2
-    operational_transparency: 29.5
+    operational_transparency: 15.8
   previous_composite: 29.3
   regulatory:
     applies: true
@@ -166,9 +170,9 @@ score:
     regime: Health
     regime_id: health
     score: 15.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

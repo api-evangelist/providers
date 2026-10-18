@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -214,7 +214,7 @@ modified: '2026-05-30'
 name: Razorpay
 nav: Providers
 network: true
-overview: 'Razorpay publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Core REST API, Webhooks, Orders API, and 3 more. Tagged areas include Payments, Payment Gateway, Fintech, India, and UPI.
+overview: 'Razorpay publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Core REST API, Webhooks, Orders API, and 3 more. Tagged areas include Payments, Payment Gateway, Fintech, India, and UPI.
 
 
   The Razorpay catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -223,10 +223,11 @@ overview: 'Razorpay publishes 6 APIs on the [APIs.io](https://apis.io/) network,
   Razorpay''s developer surface includes sandbox, changelog, authentication, documentation, API reference, pricing, signup flow, and 18 more developer resources.'
 random_paper: 8
 rules:
-- effective_rule_count: 34
+- authorship: generated
+  effective_rule_count: 34
   extends:
   - spectral:asyncapi
-  name: Razorpay API Rules
+  name: Razorpay — asyncapi rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -243,7 +244,7 @@ score:
   band: developing
   composite: 43.1
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 20
     catalog_earned: 35.8
     catalog_earned_first_party: 0.0
     catalog_gap: 79.3
@@ -278,8 +279,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 29.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -297,7 +298,7 @@ security:
 - kind: vulnerability-disclosure
   name: Razorpay Vulnerability Disclosure
   slug: razorpay-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 - kind: trust-center
   name: Razorpay Trust Center
   slug: razorpay-trust-center

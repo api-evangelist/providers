@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.ossus.com/blog/feed.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/ossus/refs/heads/main/security/ossus-trust-center.yml
   title: ''
@@ -62,14 +66,14 @@ created: '2026-07-17'
 description: 'Ossus builds AI-native intelligence for cultural institutions, starting with libraries. Its flagship product is Ossus ILS, a modern integrated library system that unifies cataloguing, circulation, acquisitions, analytics, and patron discovery in one interface, with an AI copilot that drafts MARC records, subjects, and classifications for librarian approval. A lighter product, Librar, targets school libraries with fast mobile setup. AI add-ons cover camera-based shelf inventory, vendor comparison for purchasing, and grant finding. Ossus emphasizes privacy-first design: it does not train on or sell customer data and works only with catalogue metadata rather than borrower records. Ossus is a Y Combinator (Winter 2026) company based in San Francisco.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ossus.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Ossus
 nav: Providers
 network: true
 overview: 'Ossus is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Library, Library Management, Integrated Library System, and Cataloguing.
 
 
-  Ossus'' developer surface includes engineering blog and 4 more developer resources.'
+  Ossus'' developer surface includes engineering blog and 5 more developer resources.'
 random_paper: 1
 score:
   band: minimal
@@ -103,8 +107,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 10.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

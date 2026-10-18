@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Pre-trained computer vision models
@@ -70,7 +70,7 @@ modified: '2026-05-28'
 name: Roboflow Universe
 nav: Providers
 network: true
-overview: 'Roboflow Universe publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Machine Learning and Public APIs.
+overview: 'Roboflow Universe is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Machine Learning and Public APIs.
 
 
   Roboflow Universe''s developer surface includes engineering blog and 4 more developer resources.'
@@ -100,13 +100,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/roboflow-universe/refs/heads/main/screenshots/roboflow-universe-2026-10-11T125403.png
 security:
 - kind: domain-security
   name: Roboflow Universe Domain Security

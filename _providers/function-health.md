@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 15.5
-  scored_at: '2026-10-04'
+  score: 13.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://www.functionhealth.com
@@ -65,6 +65,10 @@ collections:
   name: Function Health API
   slug: open-function-health
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.functionhealth.com/newsroom
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/function-health/refs/heads/main/security/function-health-trust-center.yml
   title: ''
@@ -105,19 +109,23 @@ common:
 created: '2026-06-20'
 description: Function Health is a consumer longevity and preventive-health membership that runs 100+ lab biomarkers twice a year through Quest Diagnostics, adds clinician review, a biological age calculation, and an AI health companion via a web and mobile dashboard. As of this catalog Function Health does not publish a public or partner developer API; member data is accessed through the member dashboard, PDF export, in-product Connected Apps (wearable sync), and an opt-in ChatGPT app that shares a high-level summary of results.
 finops:
-- name: Function Health Finops
+- has_sources: true
+  method: generated
+  name: Function Health Finops
+  primary_unit: ''
   service_category: Healthcare
   slug: function-health-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/function-health.png
 layout: provider
-modified: '2026-06-20'
+modified: '2026-10-06'
 name: Function Health
 nav: Providers
 network: true
-overview: 'Function Health publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Member Dashboard, Results Export, Connected Apps, and 1 more. Tagged areas include Health, Longevity, Lab Testing, Biomarkers, and Preventive Health.
+overview: 'Function Health publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Member Dashboard, Results Export, Connected Apps, and 1 more. Tagged areas include Health, Longevity, Lab Testing, Biomarkers, and Preventive Health.
 
 
-  Function Health''s developer surface includes documentation and 7 more developer resources.'
+  Function Health''s developer surface includes engineering blog, documentation, and 7 more developer resources.'
 plans:
 - name: Function Health Plans Pricing
   plan_count: 2
@@ -129,22 +137,22 @@ rate_limits:
   slug: function-health-rate-limits
 score:
   band: emerging
-  composite: 25.4
+  composite: 19.8
   coverage:
-    artifact_dirs: 8
-    catalog_earned: 49.4
+    artifact_dirs: 9
+    catalog_earned: 36.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 65.6
+    catalog_gap: 79.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.6
   facets:
-    access_clarity: 47.9
+    access_clarity: 26.3
     contract_governance: 0.0
     contract_quality: 25.1
-    developer_ergonomics: 9.5
+    developer_ergonomics: 11.9
     discoverability: 57.1
-    operational_transparency: 18.9
+    operational_transparency: 5.3
   previous_composite: 25.4
   regulatory:
     applies: true
@@ -152,13 +160,14 @@ score:
     regime: Health
     regime_id: health
     score: 8.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
     reason: read_only
+screenshot: https://raw.githubusercontent.com/api-evangelist/function-health/refs/heads/main/screenshots/function-health-2026-10-11T185705.png
 security:
 - kind: domain-security
   name: Function Health Domain Security

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 16.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 6
 apis:
 - description: The Solution Manager REST API provides programmatic access to administer the Denodo Platform across environments and clusters. It exposes endpoints for cluster lifecycle management, environment config
@@ -56,6 +56,10 @@ apis:
   slug: scheduler-rest-api
 artifact_total: 13
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.denodo.com/en/rss.xml
 - group: commercial
   title: ''
   type: TermsOfService
@@ -175,9 +179,13 @@ common:
 created: '2026-03-16'
 description: Denodo is a leading data virtualization platform that enables real-time access, integration, and delivery of data from disparate sources across enterprise data landscapes. The Denodo Platform exposes a portfolio of REST, OData, GraphQL, and SOAP web service endpoints through Virtual DataPort, the Data Catalog, the Solution Manager, and the Scheduler so that data products can be published, governed, and administered programmatically.
 finops:
-- name: Denodo Finops
+- has_sources: false
+  method: generated
+  name: Denodo Finops
+  primary_unit: ''
   service_category: API
   slug: denodo-finops
+  template: true
 graphqls:
 - description: The Denodo GraphQL Service enables clients to execute GraphQL queries against virtual views in the Denodo Platform. It generates a GraphQL schema from selected views and supports filtering, pagination
   name: Denodo GraphQL API
@@ -189,17 +197,17 @@ jsonld:
   property_count: 6
   slug: denodo-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-10-06'
 name: Denodo
 nav: Providers
 network: true
-overview: 'Denodo publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Data Catalog REST API, and 5 more. Tagged areas include Data Catalog, Data Fabric, Data Mesh, Data Virtualization, and GraphQL.
+overview: 'Denodo is listed with 6 APIs on the [APIs.io](https://apis.io/) network, including Data Catalog REST API, and 5 more. Tagged areas include Data Catalog, Data Fabric, Data Mesh, Data Virtualization, and GraphQL.
 
 
   The Denodo catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Denodo''s developer surface includes changelog, developer portal, documentation, support, training material, and 22 more developer resources.'
+  Denodo''s developer surface includes changelog, developer portal, documentation, support, training material, and 23 more developer resources.'
 plans:
 - name: Denodo Plans Pricing
   plan_count: 3
@@ -211,23 +219,23 @@ rate_limits:
   slug: denodo-rate-limits
 score:
   band: thin
-  composite: 32.5
+  composite: 31.0
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 58.5
+    artifact_dirs: 18
+    catalog_earned: 55.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 56.5
+    catalog_gap: 59.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 3.8
+  delta: -1.5
   facets:
-    access_clarity: 28.9
+    access_clarity: 21.1
     contract_governance: 13.6
     contract_quality: 30.7
     developer_ergonomics: 32.6
     discoverability: 82.1
     operational_transparency: 26.3
-  previous_composite: 28.7
+  previous_composite: 32.5
   provenance:
     mcp: derived
   regulatory:
@@ -236,8 +244,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

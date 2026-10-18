@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Cardinal Health operates an EDI trading partner program for customers and suppliers covering pharmaceutical distribution, medical products, and specialty pharmacy. Integrations use X12 EDI transaction
@@ -41,6 +41,21 @@ apis:
   slug: edi-trading-partner
 artifact_total: 6
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/cardinal-health/refs/heads/main/plans/cardinal-health-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/cardinal-health-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cardinal-health/refs/heads/main/rate-limits/cardinal-health-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/cardinal-health-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/cardinal-health/refs/heads/main/finops/cardinal-health-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/cardinal-health-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/cardinal-health/refs/heads/main/security/cardinal-health-domain-security.yml
   title: ''
@@ -123,16 +138,20 @@ coverage:
 created: '2026-03-21'
 description: Cardinal Health is a Fortune 15 global integrated healthcare services and products company that provides pharmaceutical distribution, medical-surgical product distribution, and customized solutions for hospitals, health systems, pharmacies, ambulatory surgery centers, clinical laboratories, and physician offices. Cardinal Health does not publish a public developer portal, but it exchanges high volumes of B2B trading data with customers and suppliers via standard X12 EDI transactions (850, 810, 855, 856, 846, 832, 867) over AS2, SFTP, and private API channels. Third-party EDI platforms such as Orderful, Crossfire, SPS Commerce, Zenbridge, DataTrans, Alluvia, ConnectPointz, and Spark Shipping offer managed connectors into Cardinal Health for order-to-cash, inventory, and supply-chain automation.
 finops:
-- name: Cardinal Health Finops
+- has_sources: false
+  method: generated
+  name: Cardinal Health Finops
+  primary_unit: ''
   service_category: API
   slug: cardinal-health-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cardinal-health.png
 layout: provider
 modified: '2026-09-05'
 name: Cardinal Health
 nav: Providers
 network: true
-overview: Cardinal Health publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include B2B, Distribution, EDI, Healthcare, and Medical-Surgical.
+overview: Cardinal Health is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include B2B, Distribution, EDI, Healthcare, and Medical-Surgical.
 plans:
 - name: Cardinal Health Plans Pricing
   plan_count: 0
@@ -160,17 +179,17 @@ rate_limits:
   slug: cardinal-health-rate-limits
 score:
   band: emerging
-  composite: 15.4
+  composite: 13.9
   coverage:
     artifact_dirs: 14
-    catalog_earned: 35.0
+    catalog_earned: 32.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 80.0
+    catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 18.4
+    access_clarity: 10.5
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 9.5
@@ -186,8 +205,8 @@ score:
     regime: Health
     regime_id: health
     score: 16.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

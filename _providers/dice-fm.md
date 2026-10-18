@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 5
 apis:
 - description: Query a partner's events through the DICE Ticket Holders GraphQL API - event name, state, start/end datetimes, currency, URL, artists, genres, ticket types, price tiers, and total ticket allocation. E
@@ -109,16 +109,20 @@ common:
 created: '2026-07-05'
 description: DICE is a live music and events ticketing platform (dice.fm) connecting fans to gigs, club nights, festivals, and experiences, with a fan-facing mobile app and a partner platform (MIO) for promoters, venues, and festivals. For partners, DICE exposes a documented but access-gated GraphQL API - the Ticket Holders API at partners-endpoint.dice.fm/graphql - that lets downstream systems query events, tickets and ticket holders, orders and sales, returns and transfers, fans, and venues. API tokens are generated inside MIO and passed as a Bearer authorization header; the API is available to DICE partners rather than as an open self-service developer program.
 finops:
-- name: Dice Fm Finops
+- has_sources: true
+  method: generated
+  name: Dice Fm Finops
+  primary_unit: ''
   service_category: Ticketing and Events
   slug: dice-fm-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dice-fm.png
 layout: provider
 modified: '2026-07-05'
 name: DICE
 nav: Providers
 network: true
-overview: 'DICE publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Ticketing, Live Music, Event, GraphQL, and Entertainment.
+overview: 'DICE is listed with 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Ticketing, Live Music, Event, GraphQL, and Entertainment.
 
 
   DICE''s developer surface includes documentation, developer portal, signup flow, engineering blog, and 8 more developer resources.'
@@ -133,22 +137,22 @@ rate_limits:
   slug: dice-fm-rate-limits
 score:
   band: emerging
-  composite: 24.3
+  composite: 17.4
   coverage:
-    artifact_dirs: 6
-    catalog_earned: 61.0
+    artifact_dirs: 7
+    catalog_earned: 45.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 54.0
+    catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.9
   facets:
-    access_clarity: 40.0
+    access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 28.6
     discoverability: 71.4
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   previous_composite: 24.3
   regulatory:
     applies: true
@@ -156,9 +160,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

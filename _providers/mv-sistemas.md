@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 5
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 79
   slug: mv-sistemas-agentic-access
   summary_line: 79 operations · 40 acting · 5 human-in-the-loop
-api_count: 18
+api_count: 31
 apis:
 - baseURL: https://api.globalhealth.mv/available-appointments/api
   baseurl_source: declared
@@ -446,7 +446,7 @@ modified: '2026-07-20'
 name: MV sistemas
 nav: Providers
 network: true
-overview: 'MV sistemas publishes 35 APIs on the [APIs.io](https://apis.io/) network, including Agendamento API, Agendamento de performance API, Atendimento API, and 32 more. Tagged areas include Company, Healthcare, Health IT, Hospitals, and Clinics.
+overview: 'MV sistemas publishes 35 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agendamento API, Agendamento de performance API, Atendimento API, and 32 more. Tagged areas include Company, Healthcare, Health IT, Hospitals, and Clinics.
 
 
   The MV sistemas catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -495,9 +495,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 21.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+    score: 21.2
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The Optic CLI provides OpenAPI diffing, linting and breaking-change detection from the command line, comparing two versions of an OpenAPI specification with behaviour-aware diffing and applying style-
@@ -41,6 +41,21 @@ apis:
   slug: optic-cli
 artifact_total: 6
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/optic/refs/heads/main/plans/optic-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/optic-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/optic/refs/heads/main/rate-limits/optic-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/optic-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/optic/refs/heads/main/finops/optic-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/optic-finops.yml
 - group: company
   title: ''
   type: Website
@@ -165,19 +180,23 @@ coverage:
 created: '2026-03-25'
 description: Optic is an MIT-licensed command-line tool for OpenAPI linting, diffing and testing. It compares two versions of an OpenAPI document with behaviour-aware diffing to catch breaking changes before they ship, enforces style-guide rulesets (breaking-changes, documentation, examples, naming-changes, Spectral and lintgpt), and generates or verifies OpenAPI from captured test traffic via HAR files, Postman collections or a local proxy. Optic Labs was acquired by Atlassian in April 2024; the hosted Optic Cloud service was disconnected from the CLI at v1.0.0 in August 2024, the documentation site was retired in favour of the GitHub Wiki, and the source repository was archived read-only in January 2026 after a final v1.0.9 release. Optic publishes no callable API of its own — it is a tool that consumes and governs other people's contracts.
 finops:
-- name: Optic Finops
+- has_sources: false
+  method: generated
+  name: Optic Finops
+  primary_unit: ''
   service_category: API
   slug: optic-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/optic.png
 layout: provider
 modified: '2026-08-29'
 name: Optic
 nav: Providers
 network: true
-overview: 'Optic publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include API Governance, Breaking Changes, Contract Testing, Diff, and Linting.
+overview: 'Optic is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include API Governance, Breaking Changes, Contract Testing, Diff, and Linting.
 
 
-  Optic''s developer surface includes documentation, getting-started guide, support, changelog, CLI, and 18 more developer resources.'
+  Optic''s developer surface includes documentation, getting-started guide, support, changelog, CLI, and 21 more developer resources.'
 plans:
 - name: Optic Plans Pricing
   plan_count: 0
@@ -189,17 +208,17 @@ rate_limits:
   slug: optic-rate-limits
 score:
   band: emerging
-  composite: 21.0
+  composite: 19.7
   coverage:
     artifact_dirs: 14
-    catalog_earned: 35.0
+    catalog_earned: 32.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 80.0
+    catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.3
   facets:
-    access_clarity: 7.9
+    access_clarity: 0.0
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 40.5
@@ -217,8 +236,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

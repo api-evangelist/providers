@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -478,6 +478,21 @@ collections:
   name: Power BI REST API
   slug: open-power-bi-rest-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/power-bi/refs/heads/main/plans/power-bi-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/power-bi-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/power-bi/refs/heads/main/rate-limits/power-bi-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/power-bi-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/power-bi/refs/heads/main/finops/power-bi-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/power-bi-finops.yml
 - group: build
   title: ''
   type: GitHubOrganization
@@ -1022,9 +1037,13 @@ features:
 - description: Self-service data preparation with Power Query Online for creating reusable data transformation logic.
   name: Dataflows
 finops:
-- name: Power Bi Finops
+- has_sources: true
+  method: generated
+  name: Power Bi Finops
+  primary_unit: ''
   service_category: Analytics
   slug: power-bi-finops
+  template: false
 image: https://powerbi.microsoft.com/pictures/shared/social/social-default-image.png
 integrations:
 - description: View and interact with Power BI reports directly within Microsoft Teams channels and chats.
@@ -1404,13 +1423,13 @@ modified: '2026-06-20'
 name: Power BI
 nav: Providers
 network: true
-overview: 'Power BI publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Dashboards API, Datasets API, Gateways API, and 19 more. Tagged areas include Analytics, Business Intelligence, Dashboards, Data Analysis, and Reporting.
+overview: 'Power BI publishes 22 API contracts indexed on the [APIs.io](https://apis.io/) network, including Dashboards API, Datasets API, Gateways API, and 19 more. Tagged areas include Analytics, Business Intelligence, Dashboards, Data Analysis, and Reporting.
 
 
   The Power BI catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Power BI''s developer surface includes authentication, sandbox, changelog, CLI, developer portal, engineering blog, support, and 59 more developer resources.'
+  Power BI''s developer surface includes authentication, sandbox, changelog, CLI, developer portal, engineering blog, support, and 62 more developer resources.'
 plans:
 - name: Power Bi Plans Pricing
   plan_count: 5
@@ -1421,9 +1440,10 @@ rate_limits:
   name: Power Bi Rate Limits
   slug: power-bi-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: Power BI API Rules
+  name: Power BI — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -1431,7 +1451,8 @@ rules:
     info: 2
     warn: 4
   slug: power-bi-jsonschema-spectral-rules
-- effective_rule_count: 57
+- authorship: generated
+  effective_rule_count: 57
   extends:
   - spectral:oas
   name: Power BI API Rules
@@ -1448,18 +1469,18 @@ scopes:
   slug: power-bi-scopes
   summary_line: 17 scopes · authorizationCode/clientCredentials
 score:
-  band: exemplar
-  composite: 67.5
+  band: strong
+  composite: 65.9
   coverage:
-    artifact_dirs: 35
-    catalog_earned: 58.5
+    artifact_dirs: 36
+    catalog_earned: 55.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 56.5
+    catalog_gap: 59.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 61.8
+    access_clarity: 53.9
     contract_governance: 18.2
     contract_quality: 63.4
     developer_ergonomics: 95.7
@@ -1481,8 +1502,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 43.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

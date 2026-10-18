@@ -9,18 +9,18 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
-    agentic_access: false
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
@@ -28,45 +28,184 @@ agent_readiness:
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
-    spec_presence: false
-    well_known_catalog: false
+    spec_presence: true
+    well_known_catalog: true
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
-api_count: 10
+  score: 25.9
+  scored_at: '2026-10-17'
+agentic_access:
+- acting_count: 46
+  human_in_the_loop: 0
+  name: Docupanda Agentic Access
+  operation_count: 90
+  slug: docupanda-agentic-access
+  summary_line: 90 operations · 46 acting
+api_count: 2
 apis:
-- description: Submit, retrieve, list, search, split, merge, bulk-download, and delete documents. DocuPanda parses files into searchable PDFs and structured page-level text, tables, and bounding boxes. Supports hand
-  name: DocuPanda Documents API
+- description: Submit, retrieve, list, search, split, merge, bulk-download, and delete documents. DocuPipe parses files into searchable PDFs and structured page-level text, tables, and bounding boxes. Supports handw
+  name: DocuPipe Documents API
   slug: docupanda-documents-api
 - description: Create, edit, copy, delete, and list extraction schemas, plus AI auto-generate a schema from sample documents and retrieve schema proposals per document. Schemas define the structured JSON shape DocuP
-  name: DocuPanda Schemas API
+  name: DocuPipe Schemas API
   slug: docupanda-schemas-api
 - description: 'Run the agentic V3 standardization engine (or legacy V2) against documents to produce schema-compliant JSON. Retrieve results as JSON, plaintext, or XML; bulk-download as Excel or merged Excel; query '
-  name: DocuPanda Standardizations API
+  name: DocuPipe Standardizations API
   slug: docupanda-standardizations-api
 - description: 'Classify batches of documents into a workspace-defined taxonomy. Manage the class taxonomy (add, edit, delete, list, copy classes across workspaces) and route documents to the right downstream schema '
-  name: DocuPanda Classifications API
+  name: DocuPipe Classifications API
   slug: docupanda-classifications-api
-- description: Run free-form LLM analysis prompts against a single document or a batch and retrieve the resulting analysis by id. Useful for one-off Q&A, summaries, or red-flag checks that do not require a fixed ext
-  name: DocuPanda Analysis API
+- baseURL: https://app.docupipe.ai
+  baseurl_source: declared
+  description: Run free-form LLM analysis prompts against a single document or a batch and retrieve the resulting analysis by id. Useful for one-off Q&A, summaries, or red-flag checks that do not require a fixed ext
+  name: DocuPipe Analysis API
   slug: docupanda-analysis-api
 - description: Generate visual extraction reviews that highlight where each standardized field was sourced in the original document. List, update, share via presigned URL, and delete reviews. Underpins human-in-the-
-  name: DocuPanda Reviews API
+  name: DocuPipe Reviews API
   slug: docupanda-reviews-api
 - description: Define on-submit-document workflows that chain classification, schema selection, standardization, and review automatically when a new document is uploaded. List, update, and delete workflows.
-  name: DocuPanda Workflows API
+  name: DocuPipe Workflows API
   slug: docupanda-workflows-api
-- description: Inspect every job DocuPanda runs on your behalf with the credit cost it consumed. Retrieve a job by id, list jobs, bulk-delete jobs, and pull a summary count with credit breakdown for FinOps reporting
-  name: DocuPanda Jobs API
+- description: Inspect every job DocuPipe runs on your behalf with the credit cost it consumed. Retrieve a job by id, list jobs, bulk-delete jobs, and pull a summary count with credit breakdown for FinOps reporting.
+  name: DocuPipe Jobs API
   slug: docupanda-jobs-api
 - description: Register and deregister webhook endpoints to receive event-driven callbacks when documents finish processing, classifications complete, or standardizations are ready. Includes a portal-link endpoint t
-  name: DocuPanda Webhooks API
+  name: DocuPipe Webhooks API
   slug: docupanda-webhooks-api
-- description: Fetch the current account profile including remaining credits, plan tier, and workspace context. Pair with the Jobs API to build internal usage dashboards.
-  name: DocuPanda Account API
+- baseURL: https://app.docupipe.ai
+  baseurl_source: declared
+  description: Fetch the current account profile including remaining credits, plan tier, and workspace context. Pair with the Jobs API to build internal usage dashboards.
+  name: DocuPipe Account API
   slug: docupanda-account-api
-artifact_total: 40
+- baseURL: https://app.docupipe.ai
+  baseurl_source: declared
+  description: The Account API from DocuPipe — 1 operation(s) for account.
+  name: DocuPipe Account API
+  slug: docupanda-account-api
+- baseURL: https://app.docupipe.ai
+  baseurl_source: declared
+  description: The Analysis API from DocuPipe — 4 operation(s) for analysis.
+  name: DocuPipe Analysis API
+  slug: docupanda-analysis-api
+- baseURL: https://app.docupipe.ai
+  baseurl_source: declared
+  description: The Classification API from DocuPipe — 6 operation(s) for classification.
+  name: DocuPipe Classification API
+  slug: docupanda-classification-api
+- baseURL: https://app.docupipe.ai
+  baseurl_source: declared
+  description: The Document API from DocuPipe — 18 operation(s) for document.
+  name: DocuPipe Document API
+  slug: docupanda-document-api
+- baseURL: https://app.docupipe.ai
+  baseurl_source: declared
+  description: The Job API from DocuPipe — 4 operation(s) for job.
+  name: DocuPipe Job API
+  slug: docupanda-job-api
+- baseURL: https://app.docupipe.ai
+  baseurl_source: declared
+  description: The Review API from DocuPipe — 6 operation(s) for review.
+  name: DocuPipe Review API
+  slug: docupanda-review-api
+- baseURL: https://app.docupipe.ai
+  baseurl_source: declared
+  description: The Schema API from DocuPipe — 8 operation(s) for schema.
+  name: DocuPipe Schema API
+  slug: docupanda-schema-api
+- baseURL: https://app.docupipe.ai
+  baseurl_source: declared
+  description: The Standardization API from DocuPipe — 19 operation(s) for standardization.
+  name: DocuPipe Standardization API
+  slug: docupanda-standardization-api
+- baseURL: https://app.docupipe.ai
+  baseurl_source: declared
+  description: The Transformation API from DocuPipe — 6 operation(s) for transformation.
+  name: DocuPipe Transformation API
+  slug: docupanda-transformation-api
+- baseURL: https://app.docupipe.ai
+  baseurl_source: declared
+  description: The Webhook API from DocuPipe — 5 operation(s) for webhook.
+  name: DocuPipe Webhook API
+  slug: docupanda-webhook-api
+- baseURL: https://app.docupipe.ai
+  baseurl_source: declared
+  description: The Workflow API from DocuPipe — 5 operation(s) for workflow.
+  name: DocuPipe Workflow API
+  slug: docupanda-workflow-api
+artifact_total: 61
 common:
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/docupanda/refs/heads/main/agentic-access/docupanda-agentic-access.yml
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/docupanda-agentic-access.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/docupanda/refs/heads/main/rules/docupanda-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/docupanda-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/docupanda/refs/heads/main/json-ld/docupanda-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/docupanda-context.jsonld
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/docupanda/refs/heads/main/vocabulary/docupanda-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/docupanda-vocabulary.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/docupanda/refs/heads/main/data-model/docupanda-data-model.yml
+  title: ''
+  type: DataModel
+  url: data-model/docupanda-data-model.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/docupanda/refs/heads/main/errors/docupanda-problem-types.yml
+  title: ''
+  type: ErrorCatalog
+  url: errors/docupanda-problem-types.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/docupanda/refs/heads/main/conformance/docupanda-conformance.yml
+  title: ''
+  type: Conformance
+  url: conformance/docupanda-conformance.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/docupanda/refs/heads/main/llms/docupanda-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/docupanda-llms.txt
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/docupanda/refs/heads/main/well-known/docupanda-well-known.yml
+  title: ''
+  type: WellKnown
+  url: well-known/docupanda-well-known.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/docupanda/refs/heads/main/hosts/docupanda-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/docupanda-hosts.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/docupanda/refs/heads/main/integrations/docupanda-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/docupanda-integration-edges.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/docupanda/refs/heads/main/vendors/docupanda-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/docupanda-vendors.yml
+- group: operate
+  title: ''
+  type: Support
+  url: https://help.docupipe.ai/en/
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://www.docupipe.ai/changelog
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/docupanda/refs/heads/main/authentication/docupanda-authentication.yml
+  title: ''
+  type: Authentication
+  url: authentication/docupanda-authentication.yml
 - group: company
   title: ''
   type: Website
@@ -135,20 +274,8 @@ common:
   url: https://www.docupipe.ai/security
 - group: auth
   title: ''
-  type: TrustCenter
-  url: https://docupipe.com/security
-- group: auth
-  title: ''
   type: Compliance
   url: https://www.docupipe.ai/security
-- group: commercial
-  title: ''
-  type: PrivacyPolicy
-  url: https://www.docupipe.ai/privacy
-- group: commercial
-  title: ''
-  type: TermsOfService
-  url: https://www.docupipe.ai/terms
 - group: build
   title: ''
   type: GitHubOrganization
@@ -159,14 +286,26 @@ common:
   url: https://github.com/DocuPanda/docupanda-python-api
 - group: build
   title: ''
+  type: GitHubOrganization
+  url: https://github.com/DocuPipe
+- group: build
+  title: ''
   type: Tools
-  url: https://github.com/DocuPanda/docupanda-desktop
+  url: https://github.com/DocuPipe/docupipe-desktop
+- group: other
+  title: ''
+  type: Benchmarks
+  url: https://www.docupipe.ai/benchmarks/docubench
+- group: build
+  title: ''
+  type: GitHubRepository
+  url: https://github.com/DocuPipe/DocuBench
 - group: commercial
   title: ''
   type: Pricing
   url: https://www.docupipe.ai/pricing
 created: '2026-05-25'
-description: DocuPanda (now also branded DocuPipe, operated by Hoss Inc.) is an AI-powered document intelligence API that converts unstructured documents — invoices, leases, medical records, claims, contracts, bills of lading, receipts, and more — into reliable structured JSON. The platform pairs an OCR + parsing pipeline with custom extraction schemas, an agentic standardization engine, classification, workflows, visual review, and webhooks. Over one billion pages processed, SOC 2 Type 2 and ISO 27001 certified, HIPAA BAA available, and deployable in cloud, VPC, or on-premises.
+description: DocuPipe (formerly DocuPanda, operated by Hoss Inc.) is an AI-powered document intelligence API that converts unstructured documents — invoices, leases, medical records, claims, contracts, bills of lading, receipts, and more — into structured JSON. The platform pairs an OCR + parsing pipeline with custom extraction schemas, an agentic standardization engine, classification, workflows, visual review, and webhooks. It publishes DocuBench, an open benchmark for schema-based extraction across 72 documents. DocuPipe lists SOC 2 Type 2 and ISO 27001, offers a HIPAA BAA, and deploys in cloud, VPC, or on-premises.
 features:
 - Document extraction across PDFs, images, Office docs, handwriting, tables, and checkboxes
 - 60+ language support
@@ -187,60 +326,112 @@ features:
 - On-premises / VPC deployment for Enterprise
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/docupanda.png
 integrations:
-- description: Native Make app — DocuPanda actions and triggers for the no-code automation platform with 2,000+ connected apps.
+- description: Native Make app — DocuPipe actions and triggers for the no-code automation platform with 2,000+ connected apps.
   name: Make
-- description: DocuPanda Document Understanding connector for the Workato enterprise iPaaS.
+- description: DocuPipe Document Understanding connector for the Workato enterprise iPaaS.
   name: Workato
 - description: DocuPipe for n8n — extract documents inside open-source n8n workflows.
   name: n8n
-- description: DocuPanda connector for Microsoft Power Automate.
+- description: DocuPipe connector for Microsoft Power Automate.
   name: Microsoft Power Automate
-- description: DocuPanda integration on the Boost.space platform.
+- description: DocuPipe integration on the Boost.space platform.
   name: Boost.space
+json_schemas:
+- name: Document
+  property_count: 20
+  slug: docupanda-document
+- name: GetAccountResponse
+  property_count: 16
+  slug: docupanda-get-account-response
+- name: JobStandardize
+  property_count: 25
+  slug: docupanda-job-standardize
+- name: JobTransformationAuthoring
+  property_count: 25
+  slug: docupanda-job-transformation-authoring
+- name: Review
+  property_count: 17
+  slug: docupanda-review
+- name: StandardizeV2BatchRequest
+  property_count: 11
+  slug: docupanda-standardize-v2-batch-request
+jsonld:
+- class_count: 120
+  name: Docupanda Context
+  property_count: 204
+  slug: docupanda-context
 layout: provider
-modified: '2026-05-25'
-name: DocuPanda
+modified: '2026-10-06'
+name: DocuPipe
 nav: Providers
 network: true
-overview: 'DocuPanda publishes 10 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Document Extraction, Document Intelligence, IDP, and OCR.
+overview: 'DocuPipe publishes 21 API contracts indexed on the [APIs.io](https://apis.io/) network, including Analysis API, Account API, and 19 more. Tagged areas include Artificial Intelligence, Document Extraction, Document Intelligence, Intelligent Document Processing, and OCR.
 
 
-  DocuPanda''s developer surface includes developer portal, documentation, API reference, getting-started guide, authentication, signup flow, developer console, and 17 more developer resources.'
+  The DocuPipe catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+
+
+  DocuPipe''s developer surface includes support, changelog, authentication, developer portal, documentation, API reference, getting-started guide, and 32 more developer resources.'
 random_paper: 19
+rules:
+- authorship: generated
+  effective_rule_count: 57
+  extends:
+  - spectral:oas
+  name: DocuPipe API Rules
+  rule_count: 16
+  severity_counts:
+    error: 14
+    hint: 0
+    info: 1
+    warn: 1
+  slug: docupanda-rules
 score:
-  band: emerging
-  composite: 25.9
+  band: developing
+  composite: 47.9
   coverage:
-    artifact_dirs: 4
-    catalog_earned: 40.0
+    artifact_dirs: 20
+    catalog_earned: 62.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 52.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 22.0
   facets:
     access_clarity: 28.9
-    contract_governance: 0.0
-    contract_quality: 0.0
-    developer_ergonomics: 46.4
-    discoverability: 71.4
-    operational_transparency: 28.9
+    contract_governance: 22.0
+    contract_quality: 64.4
+    developer_ergonomics: 51.2
+    discoverability: 73.2
+    operational_transparency: 44.7
   previous_composite: 25.9
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 100.0
+      total: 11
+    mcp: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 15.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+    score: 20.0
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/docupanda/refs/heads/main/screenshots/docupanda-2026-06-20T180119.png
 security:
+- kind: authentication
+  name: Docupanda Authentication
+  slug: docupanda-authentication
+  summary_line: apiKey/http · 2 schemes
 - kind: domain-security
   name: Docupanda Domain Security
   slug: docupanda-domain-security
@@ -254,7 +445,7 @@ tags:
 - Artificial Intelligence
 - Document Extraction
 - Document Intelligence
-- IDP
+- Intelligent Document Processing
 - OCR
 - Document AI
 use_cases:

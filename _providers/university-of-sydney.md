@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 5.0
-  scored_at: '2026-10-04'
+  score: 3.1
+  scored_at: '2026-10-17'
 api_count: 7
 apis:
 - description: 'The University of Sydney''s federation entity serves signed SAML 2.0 metadata from federation.sydney.edu.au: entityID https://federation.sydney.edu.au/idp/shibboleth, an IDPSSODescriptor advertising ur'
@@ -229,9 +229,13 @@ created: '2026-06-03'
 description: The University of Sydney is Australia's first university, founded in 1850, a Group of Eight member and ranked in the QS world top 40. Its programmable footprint is small, and most of what looks like a University of Sydney API is a vendor's contract running under the university's name. Re-profiled on 2026-08-19 with operator attribution settled first, the institution operates no public developer portal, publishes no OpenAPI, and offers no self-service developer credential. The only openly machine-readable artifact served under a University of Sydney hostname is SAML 2.0 federation metadata at federation.sydney.edu.au — and even that is a tenant surface, because the host CNAMEs to the Australian Access Federation's hosted Rapid IdP. The entity, scope and signing key are the university's; the infrastructure is AAF's. Beyond that it operates the Sydney eScholarship institutional repository (a DataCite repository client with 2,146 DOIs, whose documented OAI-PMH endpoint is currently
   behind Cloudflare bot management), the CUSP course and unit-of-study catalog as HTML only, the myUni student portal on session-gated internal JSON endpoints, and a MuleSoft Anypoint API gateway at api.sydney.edu.au whose production load balancer resolves in DNS but refuses connections from the public internet. Its library discovery, learning management and identity brokering all run on vendor platforms — Ex Libris Primo/Alma, Instructure Canvas and Okta — where the data is the university's and the contract is not. An earlier profile of this cohort risked attributing a Figshare repository here; sydney.figshare.com was checked and is not the University of Sydney's, and no Figshare contract has been saved under this slug.
 finops:
-- name: University Of Sydney Finops
+- has_sources: true
+  method: generated
+  name: University Of Sydney Finops
+  primary_unit: ''
   service_category: Education
   slug: university-of-sydney-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/university-of-sydney.png
 jsonld:
 - class_count: 9
@@ -247,7 +251,7 @@ modified: '2026-08-19'
 name: University of Sydney
 nav: Providers
 network: true
-overview: 'University of Sydney publishes 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include University, Higher Education, Education, Australia, and Group of Eight.
+overview: 'University of Sydney is listed with 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include University, Higher Education, Education, Australia, and Group of Eight.
 
 
   The University of Sydney catalog on APIs.io includes 2 JSON-LD contexts.
@@ -264,23 +268,23 @@ rate_limits:
   name: University Of Sydney Rate Limits
   slug: university-of-sydney-rate-limits
 score:
-  band: thin
-  composite: 28.0
+  band: emerging
+  composite: 21.9
   coverage:
     artifact_dirs: 10
-    catalog_earned: 55.4
+    catalog_earned: 42.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 59.6
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -2.7
+  delta: -6.1
   facets:
-    access_clarity: 47.9
+    access_clarity: 26.3
     contract_governance: 0.0
     contract_quality: 14.3
     developer_ergonomics: 28.6
     discoverability: 54.5
-    operational_transparency: 21.6
+    operational_transparency: 7.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -288,7 +292,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 30.7
+  previous_composite: 28.0
   provenance:
     conformance: first-party
   regulatory:
@@ -297,9 +301,9 @@ score:
     regime: Education & Research
     regime_id: education
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

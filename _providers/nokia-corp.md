@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 6
 apis:
 - description: CAMARA-compliant, production-ready Network APIs exposing 5G core and RAN functions through standardized northbound interfaces. Includes Quality on Demand, Device Location (Verification, Retrieval), Ge
@@ -222,7 +222,7 @@ modified: '2026-07-25'
 name: Nokia
 nav: Providers
 network: true
-overview: 'Nokia publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Telecommunications, 5G, 6G, Mobile Network, and Network Infrastructure.
+overview: 'Nokia is listed with 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Telecommunications, 5G, 6G, Mobile Network, and Network Infrastructure.
 
 
   Nokia''s developer surface includes developer portal, documentation, getting-started guide, signup flow, tooling, engineering blog, YouTube channel, and 32 more developer resources.'
@@ -231,7 +231,7 @@ score:
   band: emerging
   composite: 21.1
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -260,8 +260,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

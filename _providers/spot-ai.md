@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -42,6 +42,12 @@ agentic_access:
   operation_count: 43
   slug: spot-agentic-access
   summary_line: 43 operations · 22 acting
+- acting_count: 24
+  human_in_the_loop: 0
+  name: Spot Ai Agentic Access
+  operation_count: 48
+  slug: spot-ai-agentic-access
+  summary_line: 48 operations · 24 acting
 api_count: 18
 apis:
 - baseURL: https://dev-api.spot.ai/
@@ -119,7 +125,7 @@ apis:
   description: The Zones API from Spot AI — 1 operation(s) for zones.
   name: Spot AI Zones API
   slug: spot-ai-zones-api
-artifact_total: 36
+artifact_total: 38
 asyncapis:
 - description: ''
   name: Spot Webhooks
@@ -174,6 +180,11 @@ collections:
   name: Spot AI — Spot Connect (beta) Analytics Zones API
   slug: open-spot-zones-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/spot-ai/refs/heads/main/plans/spot-ai-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/spot-ai-plans-pricing.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/spot-ai/refs/heads/main/security/spot-trust-center.yml
   title: ''
@@ -312,19 +323,23 @@ modified: '2026-07-21'
 name: Spot AI
 nav: Providers
 network: true
-overview: 'Spot AI publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Appliances API, Audio API, and 12 more. Tagged areas include Company, Video, Physical Security, Surveillance, and Computer Vision.
+overview: 'Spot AI publishes 15 API contracts indexed on the [APIs.io](https://apis.io/) network, including Analytics API, Appliances API, Audio API, and 12 more. Tagged areas include Company, Video, Physical Security, Surveillance, and Computer Vision.
 
 
   The Spot AI catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Spot AI''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 22 more developer resources.'
+  Spot AI''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 23 more developer resources.'
+plans:
+- name: Spot Ai Plans Pricing
+  plan_count: 0
+  slug: spot-ai-plans-pricing
 random_paper: 19
 score:
   band: developing
   composite: 46.0
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -359,8 +374,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

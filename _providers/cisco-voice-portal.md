@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.9
-  scored_at: '2026-10-04'
+  score: 19.0
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 1
@@ -325,6 +325,21 @@ collections:
   name: Cisco Voice Portal VXML Services API
   slug: open-cisco-voice-portal-vxml-services
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-voice-portal/refs/heads/main/plans/cisco-voice-portal-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/cisco-voice-portal-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-voice-portal/refs/heads/main/rate-limits/cisco-voice-portal-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/cisco-voice-portal-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-voice-portal/refs/heads/main/finops/cisco-voice-portal-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/cisco-voice-portal-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/cisco-voice-portal/refs/heads/main/capabilities/cisco-voice-portal-capability-edges.yml
   title: ''
@@ -605,9 +620,13 @@ examples:
   name: Cisco Voice Portal Vxml Services Vxml Session Example
   slug: cisco-voice-portal-vxml-services-vxml-session-example
 finops:
-- name: Cisco Voice Portal Finops
+- has_sources: true
+  method: generated
+  name: Cisco Voice Portal Finops
+  primary_unit: ''
   service_category: Contact Center
   slug: cisco-voice-portal-finops
+  template: false
 image: https://www.cisco.com/c/en/us/products/customer-collaboration/unified-contact-center-enterprise/index.html
 json_schemas:
 - name: Application
@@ -987,13 +1006,13 @@ modified: '2026-08-19'
 name: Cisco Voice Portal
 nav: Providers
 network: true
-overview: 'Cisco Voice Portal publishes 24 APIs on the [APIs.io](https://apis.io/) network, including Call Events API, Application Configuration API, Application Management API, and 21 more. Tagged areas include Contact Center, IVR, Telephony, Voice, and VXML.
+overview: 'Cisco Voice Portal publishes 24 API contracts indexed on the [APIs.io](https://apis.io/) network, including Call Events API, Application Configuration API, Application Management API, and 21 more. Tagged areas include Contact Center, IVR, Telephony, Voice, and VXML.
 
 
   The Cisco Voice Portal catalog on APIs.io includes 1 event-driven AsyncAPI specification, 4 JSON-LD contexts, and 3 Spectral governance rulesets.
 
 
-  Cisco Voice Portal''s developer surface includes authentication, support, documentation, getting-started guide, engineering blog, signup flow, release notes, and 17 more developer resources.'
+  Cisco Voice Portal''s developer surface includes authentication, support, documentation, getting-started guide, engineering blog, signup flow, release notes, and 20 more developer resources.'
 plans:
 - name: Cisco Voice Portal Plans Pricing
   plan_count: 1
@@ -1004,10 +1023,11 @@ rate_limits:
   name: Cisco Voice Portal Rate Limits
   slug: cisco-voice-portal-rate-limits
 rules:
-- effective_rule_count: 33
+- authorship: generated
+  effective_rule_count: 33
   extends:
   - spectral:asyncapi
-  name: Cisco Voice Portal API Rules
+  name: Cisco Voice Portal — asyncapi rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -1015,9 +1035,10 @@ rules:
     info: 1
     warn: 5
   slug: cisco-voice-portal-asyncapi-spectral-rules
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: Cisco Voice Portal API Rules
+  name: Cisco Voice Portal — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -1025,7 +1046,8 @@ rules:
     info: 2
     warn: 4
   slug: cisco-voice-portal-jsonschema-spectral-rules
-- effective_rule_count: 58
+- authorship: generated
+  effective_rule_count: 58
   extends:
   - spectral:oas
   name: Cisco Voice Portal API Rules
@@ -1038,17 +1060,17 @@ rules:
   slug: cisco-voice-portal-spectral-rules
 score:
   band: developing
-  composite: 42.3
+  composite: 40.8
   coverage:
     artifact_dirs: 20
-    catalog_earned: 51.5
+    catalog_earned: 48.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 63.5
+    catalog_gap: 66.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 47.4
+    access_clarity: 39.5
     contract_governance: 13.6
     contract_quality: 59.7
     developer_ergonomics: 13.1
@@ -1068,8 +1090,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

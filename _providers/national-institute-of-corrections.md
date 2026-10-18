@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://nicic.gov/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/national-institute-of-corrections/refs/heads/main/security/national-institute-of-corrections-domain-security.yml
   title: ''
@@ -57,7 +61,7 @@ created: '2024-12-03'
 description: The National Institute of Corrections (NIC) is an agency within the U.S. Department of Justice that provides training, technical assistance, and information to federal, state, and local corrections agencies. NIC publishes guidance, library resources, and corrections-related data through its website but does not currently expose a public web API.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/national-institute-of-corrections.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-10-06'
 name: National Institute of Corrections
 nav: Providers
 network: true
@@ -67,7 +71,7 @@ score:
   band: minimal
   composite: 2.8
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 22.0
     catalog_earned_first_party: 0.0
     catalog_gap: 93.0
@@ -93,8 +97,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -175,6 +175,21 @@ collections:
   name: Stellar Cyber Open XDR API
   slug: open-stellar-cyber
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/stellar-cyber/refs/heads/main/plans/stellar-cyber-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/stellar-cyber-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/stellar-cyber/refs/heads/main/rate-limits/stellar-cyber-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/stellar-cyber-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/stellar-cyber/refs/heads/main/finops/stellar-cyber-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/stellar-cyber-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/stellar-cyber/refs/heads/main/capabilities/stellar-cyber-capability-edges.yml
   title: ''
@@ -246,9 +261,13 @@ examples:
   name: Stellar Cyber List Cases Example
   slug: stellar-cyber-list-cases-example
 finops:
-- name: Stellar Cyber Finops
+- has_sources: false
+  method: generated
+  name: Stellar Cyber Finops
+  primary_unit: ''
   service_category: API
   slug: stellar-cyber-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/stellar-cyber.png
 json_schemas:
 - name: Stellar Cyber Alert
@@ -271,13 +290,13 @@ modified: '2026-05-19'
 name: Stellar Cyber
 nav: Providers
 network: true
-overview: 'Stellar Cyber publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Alerts API, Authentication API, Cases API, and 8 more. Tagged areas include Cybersecurity, Security, XDR, SIEM, and SOAR.
+overview: 'Stellar Cyber publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Alerts API, Authentication API, Cases API, and 8 more. Tagged areas include Cybersecurity, Security, XDR, SIEM, and SOAR.
 
 
   The Stellar Cyber catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Stellar Cyber''s developer surface includes authentication, developer portal, documentation, pricing, engineering blog, and 9 more developer resources.'
+  Stellar Cyber''s developer surface includes authentication, developer portal, documentation, pricing, engineering blog, and 12 more developer resources.'
 plans:
 - name: Stellar Cyber Plans Pricing
   plan_count: 3
@@ -288,9 +307,10 @@ rate_limits:
   name: Stellar Cyber Rate Limits
   slug: stellar-cyber-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Stellar Cyber API Rules
+  name: Stellar Cyber — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -298,7 +318,8 @@ rules:
     info: 1
     warn: 4
   slug: stellar-cyber-jsonschema-spectral-rules
-- effective_rule_count: 52
+- authorship: unmarked
+  effective_rule_count: 52
   extends:
   - spectral:oas
   name: Stellar Cyber API Rules
@@ -311,17 +332,17 @@ rules:
   slug: stellar-cyber-rules
 score:
   band: thin
-  composite: 37.7
+  composite: 36.2
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 58.5
+    artifact_dirs: 20
+    catalog_earned: 55.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 56.5
+    catalog_gap: 59.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 30.3
+    access_clarity: 22.4
     contract_governance: 13.6
     contract_quality: 56.7
     developer_ergonomics: 39.3
@@ -341,8 +362,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

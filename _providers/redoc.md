@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 8.3
-  scored_at: '2026-10-04'
+  score: 6.4
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: ReDoc is an open-source API documentation renderer for OpenAPI specifications, originally created by Rebilly and now maintained by Redocly. It generates a responsive three-panel documentation layout f
@@ -42,6 +42,21 @@ apis:
   slug: redoc
 artifact_total: 12
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/redoc/refs/heads/main/plans/redoc-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/redoc-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/redoc/refs/heads/main/rate-limits/redoc-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/redoc-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/redoc/refs/heads/main/finops/redoc-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/redoc-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/redoc/refs/heads/main/a2a/redoc-a2a.yml
   title: ''
@@ -141,9 +156,13 @@ examples:
   name: Redoc Vendor Extensions Example
   slug: redoc-vendor-extensions-example
 finops:
-- name: Redoc Finops
+- has_sources: false
+  method: generated
+  name: Redoc Finops
+  primary_unit: ''
   service_category: API
   slug: redoc-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 json_schemas:
 - name: ReDoc Configuration
@@ -163,13 +182,13 @@ modified: '2026-05-02'
 name: ReDoc
 nav: Providers
 network: true
-overview: 'ReDoc publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include API Documentation, Developer Tools, Documentation, OpenAPI, and Reference.
+overview: 'ReDoc is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include API Documentation, Developer Tools, Documentation, OpenAPI, and Reference.
 
 
   The ReDoc catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  ReDoc''s developer surface includes documentation, GitHub presence, getting-started guide, CLI, changelog, engineering blog, support, and 14 more developer resources.'
+  ReDoc''s developer surface includes documentation, GitHub presence, getting-started guide, CLI, changelog, engineering blog, support, and 17 more developer resources.'
 plans:
 - name: Redoc Plans Pricing
   plan_count: 3
@@ -180,9 +199,10 @@ rate_limits:
   name: Redoc Rate Limits
   slug: redoc-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: ReDoc API Rules
+  name: ReDoc — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -191,18 +211,18 @@ rules:
     warn: 4
   slug: redoc-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 26.8
+  band: emerging
+  composite: 25.3
   coverage:
-    artifact_dirs: 14
-    catalog_earned: 59.2
+    artifact_dirs: 15
+    catalog_earned: 56.2
     catalog_earned_first_party: 0.0
-    catalog_gap: 55.9
+    catalog_gap: 58.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 23.5
     contract_quality: 13.9
     developer_ergonomics: 42.9
@@ -215,8 +235,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-04'
+  score: 20.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -70,6 +70,21 @@ collections:
   name: Sophos Central SIEM Alerts Events API
   slug: open-sophos-events-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sophos/refs/heads/main/plans/sophos-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/sophos-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/sophos/refs/heads/main/rate-limits/sophos-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/sophos-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sophos/refs/heads/main/finops/sophos-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/sophos-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/sophos/refs/heads/main/capabilities/sophos-capability-edges.yml
   title: ''
@@ -145,9 +160,13 @@ examples:
   name: Sophos List Alerts Example
   slug: sophos-list-alerts-example
 finops:
-- name: Sophos Finops
+- has_sources: false
+  method: generated
+  name: Sophos Finops
+  primary_unit: ''
   service_category: API
   slug: sophos-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sophos.png
 json_schemas:
 - name: Sophos Alert
@@ -170,13 +189,13 @@ modified: '2026-05-19'
 name: Sophos
 nav: Providers
 network: true
-overview: 'Sophos publishes 2 APIs on the [APIs.io](https://apis.io/) network: Alerts API and Events API. Tagged areas include Cybersecurity, Endpoint Protection, Security, SIEM, and Threat Detection.
+overview: 'Sophos publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Alerts API and Events API. Tagged areas include Cybersecurity, Endpoint Security, Security, SIEM, and Threat Detection.
 
 
   The Sophos catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Sophos'' developer surface includes authentication, developer portal, documentation, support, engineering blog, pricing, and 10 more developer resources.'
+  Sophos'' developer surface includes authentication, developer portal, documentation, support, engineering blog, pricing, and 13 more developer resources.'
 plans:
 - name: Sophos Plans Pricing
   plan_count: 3
@@ -187,9 +206,10 @@ rate_limits:
   name: Sophos Rate Limits
   slug: sophos-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Sophos API Rules
+  name: Sophos — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -197,7 +217,8 @@ rules:
     info: 1
     warn: 4
   slug: sophos-jsonschema-spectral-rules
-- effective_rule_count: 51
+- authorship: unmarked
+  effective_rule_count: 51
   extends:
   - spectral:oas
   name: Sophos API Rules
@@ -210,17 +231,17 @@ rules:
   slug: sophos-rules
 score:
   band: thin
-  composite: 38.1
+  composite: 36.6
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 58.5
+    artifact_dirs: 20
+    catalog_earned: 55.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 56.5
+    catalog_gap: 59.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 26.3
+    access_clarity: 18.4
     contract_governance: 13.6
     contract_quality: 55.6
     developer_ergonomics: 40.5
@@ -240,8 +261,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -260,7 +281,7 @@ security:
 slug: sophos
 tags:
 - Cybersecurity
-- Endpoint Protection
+- Endpoint Security
 - Security
 - SIEM
 - Threat Detection

@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 42.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -129,6 +129,19 @@ collections:
   name: 'Drupal JSON: Comments Users API'
   slug: open-drupal-users-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/drupal/refs/heads/main/plans/drupal-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/drupal-plans-pricing.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.drupal.org/blog
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.drupal.org/section-blog/2603760/feed
 - group: company
   title: ''
   type: Website
@@ -312,9 +325,13 @@ common:
 created: '2026-05-04'
 description: 'Drupal is an open-source content management system written in PHP, used to build websites, applications and digital experiences for individuals, organizations, governments and enterprises worldwide. It is self-hosted software rather than a hosted service: Drupal core ships a JSON:API v1.0 surface and a RESTful Web Services surface that run on the operator’s own domain, and contributed modules add GraphQL and an MCP server. The Drupal Association itself operates one public read-only API, the Drupal.org REST API at https://www.drupal.org/api-d7, alongside a machine-readable release-history feed and a Composer package repository.'
 finops:
-- name: Drupal Finops
+- has_sources: true
+  method: searched
+  name: Drupal Finops
+  primary_unit: ''
   service_category: API
   slug: drupal-finops
+  template: false
 graphqls:
 - description: The Drupal GraphQL module is a contributed module that enables developers to craft and expose a GraphQL schema for Drupal 10 and 11, allowing client applications to query Drupal content and entities u
   name: drupal GraphQL API
@@ -337,17 +354,17 @@ mcp_servers:
 - description: Drupal publishes a first-party contributed module, drupal/mcp_server, that turns an installed Drupal site into an MCP server. Because Drupal is self-hosted software the endpoint lives on the operator’
   name: Drupal MCP Server
   slug: drupal-mcp-server
-modified: '2026-09-17'
+modified: '2026-10-06'
 name: Drupal
 nav: Providers
 network: true
-overview: 'Drupal publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Comments API, Files API, Node Articles API, and 7 more. Tagged areas include Content Management, CMS, Open Source, JSON:API, and GraphQL.
+overview: 'Drupal publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Comments API, Files API, Node Articles API, and 7 more. Tagged areas include Content Management, CMS, Open Source, JSON:API, and GraphQL.
 
 
   The Drupal catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Drupal''s developer surface includes authentication, engineering blog, documentation, API reference, getting-started guide, support, signup flow, and 32 more developer resources.'
+  Drupal''s developer surface includes engineering blog, authentication, documentation, API reference, getting-started guide, support, signup flow, and 35 more developer resources.'
 plans:
 - name: Drupal Plans Pricing
   plan_count: 0
@@ -358,9 +375,10 @@ rate_limits:
   name: Drupal Rate Limits
   slug: drupal-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: Drupal API Rules
+  name: Drupal — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -375,23 +393,23 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: strong
-  composite: 55.8
+  composite: 54.3
   coverage:
-    artifact_dirs: 29
-    catalog_earned: 61.7
+    artifact_dirs: 30
+    catalog_earned: 58.7
     catalog_earned_first_party: 8.0
-    catalog_gap: 53.4
+    catalog_gap: 56.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.7
+  delta: -1.5
   facets:
-    access_clarity: 42.1
+    access_clarity: 34.2
     contract_governance: 14.4
     contract_quality: 60.5
     developer_ergonomics: 66.1
     discoverability: 68.3
     operational_transparency: 57.9
-  previous_composite: 54.1
+  previous_composite: 55.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -408,8 +426,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -427,7 +445,7 @@ security:
 - kind: vulnerability-disclosure
   name: Drupal Vulnerability Disclosure
   slug: drupal-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 slug: drupal
 tags:
 - Content Management

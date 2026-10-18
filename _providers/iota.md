@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.4
-  scored_at: '2026-10-04'
+  score: 30.5
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 96
   human_in_the_loop: 1
@@ -356,9 +356,13 @@ features:
 - description: Binary Canonical Serialization (BCS) support alongside JSON for efficient data transfer
   name: BCS Binary Encoding
 finops:
-- name: Iota Finops
+- has_sources: true
+  method: generated
+  name: Iota Finops
+  primary_unit: ''
   service_category: Blockchain Infrastructure
   slug: iota-finops
+  template: false
 graphqls:
 - description: The IOTA GraphQL RPC provides a flexible, typed interface for querying on-chain state on the IOTA blockchain. It serves as an alternative to the JSON-RPC 2.0 API and is served by the IOTA indexer. The
   name: IOTA GraphQL API
@@ -374,7 +378,7 @@ modified: '2026-06-14'
 name: IOTA
 nav: Providers
 network: true
-overview: 'IOTA publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Chains API, Coin Query API, and 14 more. Tagged areas include Blockchain, Distributed Ledger, Web3, DeFi, and Cryptocurrency.
+overview: 'IOTA publishes 17 API contracts indexed on the [APIs.io](https://apis.io/) network, including Auth API, Chains API, Coin Query API, and 14 more. Tagged areas include Blockchain, Distributed Ledger, Web3, DeFi, and Cryptocurrency.
 
 
   The IOTA catalog on APIs.io includes 1 JSON-LD context.
@@ -392,22 +396,22 @@ rate_limits:
   slug: iota-rate-limits
 score:
   band: developing
-  composite: 53.0
+  composite: 45.5
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 69.6
+    artifact_dirs: 14
+    catalog_earned: 51.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 45.4
+    catalog_gap: 64.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.5
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 53.8
     developer_ergonomics: 76.2
     discoverability: 66.1
-    operational_transparency: 57.4
+    operational_transparency: 36.8
   open_source:
     applies: true
     score: 85.0
@@ -425,9 +429,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

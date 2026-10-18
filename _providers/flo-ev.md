@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The only live, anonymously callable machine-readable surface in FLO's estate. FLO's hardware and accessories store runs on Shopify, and that platform serves a Model Context Protocol server at https://
   name: FLO Store (Shopify Storefront MCP)
   slug: flo-store-shopify-storefront-mcp
-artifact_total: 6
+artifact_total: 7
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/flo-ev/refs/heads/main/security/flo-ev-domain-security.yml
@@ -172,6 +172,10 @@ common:
   title: ''
   type: Patents
   url: https://www.flo.com/patents/
+- group: design
+  title: ''
+  type: SpectralRules
+  url: https://github.com/floevcharging/lint-configurations/blob/295a04f23c35acde97ad94433c898329d0f8fc67/spectral/spectral-public.yml
 created: '2026-07-27'
 description: 'FLO is a Quebec City headquartered electric vehicle charging company, founded in 2009 as AddEnergie (addenergie.com now redirects to flo.com), that designs and manufactures its own Level 2 and DC fast charging hardware and operates one of the largest public charging networks in North America. FLO sits on the demand side of the electricity value chain rather than inside the regulated utility layer: it is a charge point operator and e-mobility service provider, not a distributor, transmitter or retailer, so Canada''s energy-data obligations do not reach it. Ontario''s Green Button regulation binds Ontario electricity and natural gas utilities, and Australia''s Consumer Data Right for energy is a different jurisdiction entirely; neither applies to FLO, and FLO publishes no consumer energy data API of any kind. Its API posture is closed and partner-mediated. flo.com has no developer subdomain and no published API reference: developer.flo.com, developers.flo.com, api.flo.com, docs.flo.com
   and data.flo.com all fail to resolve, and /developers, /api, /openapi.json, /swagger.json and /api-docs all return 404. FLO does name real interoperability standards on its own pages - OCPP 1.6J on the station-to-network side, OCPI for roaming with partner networks, and OpenADR 2.0 alongside "FLO''s flexible API" for utility demand response and smart grid integration - but each of those is reached through a commercial agreement rather than a signup form. Customer charging and session data is reachable only by the account holder through the account.flo.com login, and FLO publishes no open market, grid or station-location data feed under its own name. A second enrichment round in July 2026 did find live machine-readable surfaces on flo.com hosts, but all of them are platform-provided rather than FLO-authored: a Shopify storefront MCP server with five tools at store.flo.com/api/mcp plus public products.json and collections.json feeds, RFC 8414/9728 and OIDC discovery documents on store.flo.com,
@@ -186,30 +190,48 @@ modified: '2026-07-27'
 name: FLO
 nav: Providers
 network: true
-overview: 'FLO publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Canada, EV Charging, Electricity, and Grid.
+overview: 'FLO is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Canada, EV Charging, Electricity, and Grid.
 
 
-  FLO''s developer surface includes authentication, engineering blog, support, documentation, and 26 more developer resources.'
+  The FLO catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
+  FLO''s developer surface includes authentication, engineering blog, support, documentation, and 27 more developer resources.'
 random_paper: 13
+rules:
+- authorship: provider
+  effective_rule_count: 68
+  extends:
+  - spectral:oas
+  - spectral:asyncapi
+  - https://raw.githubusercontent.com/floevcharging/lint-configurations/main/spectral/standard-ruleset.yml
+  name: FLO — lint configurations rules
+  rule_count: 0
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 0
+    warn: 0
+  slug: flo-ev-lint-configurations-spectral-rules
 scopes:
 - name: Flo Ev Scopes
   scope_count: 38
   slug: flo-ev-scopes
   summary_line: 38 scopes · authorizationCode
 score:
-  band: emerging
-  composite: 26.0
+  band: thin
+  composite: 27.9
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 15
+    catalog_earned: 42.0
+    catalog_earned_first_party: 5.0
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.9
   facets:
     access_clarity: 35.5
-    contract_governance: 18.2
+    contract_governance: 33.3
     contract_quality: 0.0
     developer_ergonomics: 30.4
     discoverability: 75.0
@@ -232,8 +254,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 34.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://oshihealth.com/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/oshi-health/refs/heads/main/security/oshi-health-domain-security.yml
   title: ''
@@ -65,14 +69,14 @@ created: '2026-07-17'
 description: Oshi Health is a virtual, whole-person gastrointestinal (GI) care clinic delivering insurance-covered telehealth to patients with digestive conditions such as IBS, GERD, Crohn's disease, and ulcerative colitis. Care is provided by a coordinated team of GI providers, registered dietitians, and gut-brain behavioral health specialists, and is offered to members through major health plans and employers. Oshi Health is a patient-facing healthcare services company rather than an API producer; it publishes no public developer API, developer portal, SDKs, or /.well-known/ discovery surface. This profile was added to the API Evangelist network as a portfolio company of Bessemer Venture Partners and enriched with the artifacts the company genuinely publishes.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/oshi-health.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Oshi Health
 nav: Providers
 network: true
 overview: 'Oshi Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Telehealth, Gastroenterology, and Digital Health.
 
 
-  Oshi Health''s developer surface includes pricing, engineering blog, and 4 more developer resources.'
+  Oshi Health''s developer surface includes pricing, engineering blog, and 5 more developer resources.'
 random_paper: 10
 score:
   band: emerging
@@ -99,8 +103,8 @@ score:
     regime: Health
     regime_id: health
     score: 10.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

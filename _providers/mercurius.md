@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: GraphQL adapter for Fastify enabling high-performance GraphQL servers and gateways with JIT compilation, query caching, subscriptions, and federation.
@@ -92,7 +92,7 @@ modified: 2026-06-14
 name: Mercurius
 nav: Providers
 network: true
-overview: 'Mercurius publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include GraphQL, Fastify, Node.js, Federation, and WebSocket.
+overview: 'Mercurius is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include GraphQL, Fastify, Node.js, Federation, and WebSocket.
 
 
   Mercurius'' developer surface includes documentation and 8 more developer resources.'
@@ -101,7 +101,7 @@ score:
   band: emerging
   composite: 16.1
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -122,8 +122,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

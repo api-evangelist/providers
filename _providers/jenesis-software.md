@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: low
+  gated: private
+  gated_source:
+  - tag:No Public API
   label: Unknown
   onboarding: unknown
   pricing: unknown
@@ -32,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -107,8 +110,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 5.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -129,6 +132,5 @@ tags:
 - Policy Management
 - ACORD
 - Carrier Downloads
-- No Public API
 website: https://www.jenesissoftware.com/
 ---

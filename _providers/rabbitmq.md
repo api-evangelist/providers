@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.9
-  scored_at: '2026-10-04'
+  score: 19.0
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 19
+- acting_count: 18
   human_in_the_loop: 0
   name: Rabbitmq Agentic Access
   operation_count: 45
   slug: rabbitmq-agentic-access
-  summary_line: 45 operations · 19 acting
+  summary_line: 45 operations · 18 acting
 api_count: 1
 apis:
 - description: AMQP 0-9-1 messaging protocol for producing and consuming messages via exchanges, queues, and bindings with support for multiple exchange types, message acknowledgment, and consumer groups.
@@ -165,6 +165,21 @@ collections:
   name: RabbitMQ Management HTTP Bindings Virtual Hosts API
   slug: open-rabbitmq-virtual-hosts-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/rabbitmq/refs/heads/main/plans/rabbitmq-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/rabbitmq-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/rabbitmq/refs/heads/main/rate-limits/rabbitmq-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/rabbitmq-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/rabbitmq/refs/heads/main/finops/rabbitmq-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/rabbitmq-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/rabbitmq/refs/heads/main/agentic-access/rabbitmq-agentic-access.yml
   title: ''
@@ -207,9 +222,13 @@ common:
 created: '2024-01-01'
 description: RabbitMQ is a widely deployed open source message broker. It supports multiple messaging protocols and can be deployed in distributed and federated configurations to meet high-scale, high-availability requirements.
 finops:
-- name: Rabbitmq Finops
+- has_sources: false
+  method: generated
+  name: Rabbitmq Finops
+  primary_unit: ''
   service_category: API
   slug: rabbitmq-finops
+  template: true
 image: https://www.rabbitmq.com/img/rabbitmq-logo.svg
 json_schemas:
 - name: RabbitMQ Message
@@ -220,13 +239,13 @@ modified: '2026-05-19'
 name: RabbitMQ
 nav: Providers
 network: true
-overview: 'RabbitMQ publishes 14 APIs on the [APIs.io](https://apis.io/) network, including AMQP Messaging API, Bindings API, Channels API, and 11 more. Tagged areas include Queues, RabbitMQ, AMQP, Distributed Systems, and Event Streaming.
+overview: 'RabbitMQ publishes 14 API contracts indexed on the [APIs.io](https://apis.io/) network, including AMQP Messaging API, Bindings API, Channels API, and 11 more. Tagged areas include Queues, RabbitMQ, AMQP, Distributed Systems, and Event Streaming.
 
 
   The RabbitMQ catalog on APIs.io includes 1 event-driven AsyncAPI specification and 2 Spectral governance rulesets.
 
 
-  RabbitMQ''s developer surface includes authentication, support, engineering blog, and 6 more developer resources.'
+  RabbitMQ''s developer surface includes authentication, support, engineering blog, and 9 more developer resources.'
 plans:
 - name: Rabbitmq Plans Pricing
   plan_count: 3
@@ -237,10 +256,11 @@ rate_limits:
   name: Rabbitmq Rate Limits
   slug: rabbitmq-rate-limits
 rules:
-- effective_rule_count: 28
+- authorship: generated
+  effective_rule_count: 28
   extends:
   - spectral:asyncapi
-  name: RabbitMQ API Rules
+  name: RabbitMQ — asyncapi rules
   rule_count: 1
   severity_counts:
     error: 0
@@ -248,9 +268,10 @@ rules:
     info: 0
     warn: 1
   slug: rabbitmq-asyncapi-spectral-rules
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: RabbitMQ API Rules
+  name: RabbitMQ — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -260,17 +281,17 @@ rules:
   slug: rabbitmq-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 31.3
+  composite: 29.8
   coverage:
-    artifact_dirs: 14
-    catalog_earned: 50.9
+    artifact_dirs: 15
+    catalog_earned: 47.9
     catalog_earned_first_party: 0.0
-    catalog_gap: 64.1
+    catalog_gap: 67.1
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 13.6
     contract_quality: 51.2
     developer_ergonomics: 28.6
@@ -290,8 +311,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

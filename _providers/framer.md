@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 4
 apis:
 - description: Build small in-editor apps that interact with the Framer Editor and CMS. Plugins can read and modify the canvas, manage CMS collections and items, register UI panels, and call out to external services
@@ -50,6 +50,10 @@ apis:
   slug: framer-fetch
 artifact_total: 9
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.framer.com/stories/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/framer/refs/heads/main/security/framer-vulnerability-disclosure.yml
   title: ''
@@ -102,19 +106,23 @@ common:
 created: '2026-05-08'
 description: 'Framer is a design tool and CMS for shipping production websites without code. The Framer developer surface is centred on in-editor extensibility: the Plugin API for building tools that interact with the Framer Editor and CMS, Code Components for custom React components, Code Overrides for HOC-style mutations, and Fetch for letting designers wire site content to external APIs without code. Framer does not publish a general-purpose REST API for site management at the time of reconciliation.'
 finops:
-- name: Framer Finops
+- has_sources: true
+  method: generated
+  name: Framer Finops
+  primary_unit: ''
   service_category: Productivity
   slug: framer-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/framer.png
 layout: provider
-modified: '2026-07-25'
+modified: '2026-10-06'
 name: Framer
 nav: Providers
 network: true
-overview: 'Framer publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Productivity, Design, No-Code, Web Design, and Software-as-a-Service.
+overview: 'Framer is listed with 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Productivity, Design, No-Code, Web Design, and Software-as-a-Service.
 
 
-  Framer''s developer surface includes pricing, GitHub presence, and 9 more developer resources.'
+  Framer''s developer surface includes engineering blog, pricing, GitHub presence, and 9 more developer resources.'
 plans:
 - name: Framer Plans Pricing
   plan_count: 6
@@ -126,20 +134,20 @@ rate_limits:
   slug: framer-rate-limits
 score:
   band: emerging
-  composite: 18.8
+  composite: 17.8
   coverage:
-    artifact_dirs: 7
-    catalog_earned: 49.0
+    artifact_dirs: 8
+    catalog_earned: 46.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 66.0
+    catalog_gap: 69.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.0
   facets:
-    access_clarity: 26.3
+    access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 26.2
+    developer_ergonomics: 28.6
     discoverability: 71.4
     operational_transparency: 13.2
   previous_composite: 18.8
@@ -149,8 +157,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

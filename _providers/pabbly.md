@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 7
 apis:
 - description: REST API for Pabbly Subscription Billing — 95 documented operations across customers, subscriptions, products, plans, multiplans, coupons, invoices, payment methods, transactions and refunds, add-ons,
@@ -64,6 +64,11 @@ asyncapis:
   name: Pabbly Subscription Billing Webhooks
   slug: pabbly-subscription-billing-webhooks
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/pabbly/refs/heads/main/finops/pabbly-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/pabbly-finops.yml
 - group: company
   title: ''
   type: Website
@@ -249,9 +254,13 @@ common:
 created: '2026-03-16'
 description: 'Pabbly is an Indian SaaS company selling a suite of marketing and sales software as one-time lifetime deals as well as monthly plans: Pabbly Connect (workflow automation), Pabbly Subscription Billing (recurring billing and invoicing), Pabbly Email Marketing, Pabbly Chatflow (WhatsApp Business messaging), Pabbly Form Builder, Pabbly Hook (an inbound webhook gateway) and Pabbly Email Verification. Its developer platform at apidocs.pabbly.com documents five REST APIs and 173 endpoints, all keyed on HTTP Basic or Bearer credentials generated from the account dashboard, plus a sixth Connect Platform API distributed only through a first-party npm SDK. Pabbly Subscription Billing emits 23 webhook event types, and Pabbly Connect ships a beta hosted MCP server that exposes a customer''s own workflow actions as agent tools.'
 finops:
-- name: Pabbly Finops
+- has_sources: false
+  method: generated
+  name: Pabbly Finops
+  primary_unit: ''
   service_category: API
   slug: pabbly-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pabbly.png
 layout: provider
 mcp_servers:
@@ -262,13 +271,13 @@ modified: '2026-08-13'
 name: Pabbly
 nav: Providers
 network: true
-overview: 'Pabbly publishes 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Automation, Email Marketing, Subscription Billing, Billing, and Payments.
+overview: 'Pabbly is listed with 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Automation, Email Marketing, Subscription Billing, Billing, and Payments.
 
 
   The Pabbly catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Pabbly''s developer surface includes developer portal, documentation, API reference, getting-started guide, authentication, support, engineering blog, and 34 more developer resources.'
+  Pabbly''s developer surface includes developer portal, documentation, API reference, getting-started guide, authentication, support, engineering blog, and 35 more developer resources.'
 plans:
 - name: Pabbly Plans Pricing
   plan_count: 13
@@ -279,18 +288,18 @@ rate_limits:
   name: Pabbly Rate Limits
   slug: pabbly-rate-limits
 score:
-  band: strong
-  composite: 54.8
+  band: developing
+  composite: 53.2
   coverage:
     artifact_dirs: 21
-    catalog_earned: 50.0
+    catalog_earned: 47.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 65.0
+    catalog_gap: 68.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 93.4
+    access_clarity: 85.5
     contract_governance: 4.5
     contract_quality: 39.0
     developer_ergonomics: 68.5
@@ -312,8 +321,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 32.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

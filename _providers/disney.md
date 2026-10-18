@@ -26,13 +26,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.4
-  scored_at: '2026-10-04'
+  score: 33.2
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -256,7 +256,7 @@ modified: '2026-05-29'
 name: Disney API
 nav: Providers
 network: true
-overview: 'Disney API publishes 3 APIs on the [APIs.io](https://apis.io/) network, including Characters API, Index API, and 1 more. Tagged areas include Entertainment, Characters, Disney, Open Source, and Fan API.
+overview: 'Disney API is listed with 3 APIs on the [APIs.io](https://apis.io/) network, including Characters API, Index API, and 1 more. Tagged areas include Entertainment, Characters, Disney, Open Source, and Fan API.
 
 
   The Disney API catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -269,9 +269,10 @@ rate_limits:
   name: Disney Rate Limits
   slug: disney-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Disney API API Rules
+  name: Disney API — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -279,7 +280,8 @@ rules:
     info: 2
     warn: 3
   slug: disney-jsonschema-spectral-rules
-- effective_rule_count: 82
+- authorship: unmarked
+  effective_rule_count: 82
   extends:
   - spectral:oas
   name: Disney API API Rules
@@ -292,22 +294,22 @@ rules:
   slug: disney-rules
 score:
   band: thin
-  composite: 31.9
+  composite: 29.6
   coverage:
     artifact_dirs: 14
-    catalog_earned: 70.8
+    catalog_earned: 63.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 44.2
+    catalog_gap: 52.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.3
   facets:
     access_clarity: 13.2
     contract_governance: 27.3
     contract_quality: 23.6
     developer_ergonomics: 28.6
     discoverability: 78.6
-    operational_transparency: 41.6
+    operational_transparency: 21.1
   open_source:
     applies: true
     score: 40.0
@@ -325,8 +327,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

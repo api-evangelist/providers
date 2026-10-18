@@ -36,8 +36,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.4
-  scored_at: '2026-10-04'
-api_count: 2
+  scored_at: '2026-10-17'
+api_count: 3
 apis:
 - baseURL: https://tonapi.io
   baseurl_source: declared
@@ -395,7 +395,7 @@ modified: '2026-07-21'
 name: TOP Group (The Open Platform)
 nav: Providers
 network: true
-overview: 'TOP Group (The Open Platform) publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Blockchain API, Connect API, and 20 more. Tagged areas include Company, Blockchain, TON, Telegram, and Crypto.
+overview: 'TOP Group (The Open Platform) publishes 23 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, Blockchain API, Connect API, and 20 more. Tagged areas include Company, Blockchain, TON, Telegram, and Cryptocurrency.
 
 
   The TOP Group (The Open Platform) catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -409,21 +409,21 @@ rate_limits:
   slug: top-group-rate-limits
 score:
   band: developing
-  composite: 40.7
+  composite: 41.3
   coverage:
     artifact_dirs: 23
-    catalog_earned: 45.0
+    catalog_earned: 48.0
     catalog_earned_first_party: 8.0
-    catalog_gap: 70.0
+    catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
     contract_quality: 47.1
     developer_ergonomics: 63.7
-    discoverability: 66.1
+    discoverability: 71.4
     operational_transparency: 39.5
   previous_composite: 40.7
   provenance:
@@ -441,8 +441,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 22.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -463,7 +463,7 @@ tags:
 - Blockchain
 - TON
 - Telegram
-- Crypto
+- Cryptocurrency
 - Wallets
 - Web3
 - NFT

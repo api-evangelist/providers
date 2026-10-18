@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: MADlib provides SQL-callable functions for classification, regression, clustering, dimensionality reduction, graph analytics, time series analysis, deep learning with Keras/TensorFlow backend, and oth
@@ -41,6 +41,21 @@ apis:
   slug: apache-madlib
 artifact_total: 25
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/apache-madlib/refs/heads/main/plans/apache-madlib-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/apache-madlib-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/apache-madlib/refs/heads/main/rate-limits/apache-madlib-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/apache-madlib-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/apache-madlib/refs/heads/main/finops/apache-madlib-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/apache-madlib-finops.yml
 - group: company
   title: ''
   type: Website
@@ -109,9 +124,13 @@ features:
 - description: FP-Growth and Apriori algorithms for market basket analysis and association rule mining.
   name: Association Rules
 finops:
-- name: Apache Madlib Finops
+- has_sources: false
+  method: generated
+  name: Apache Madlib Finops
+  primary_unit: ''
   service_category: API
   slug: apache-madlib-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/apache-madlib.png
 integrations:
 - description: Primary execution environment supporting PostgreSQL versions 11 through 15.
@@ -129,10 +148,10 @@ modified: '2026-04-19'
 name: Apache MADlib
 nav: Providers
 network: true
-overview: 'Apache MADlib publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include In-Database Analytics, Machine Learning, PostgreSQL, SQL, and Statistics.
+overview: 'Apache MADlib is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include In-Database Analytics, Machine Learning, PostgreSQL, SQL, and Statistics.
 
 
-  Apache MADlib''s developer surface includes developer portal and 10 more developer resources.'
+  Apache MADlib''s developer surface includes developer portal and 13 more developer resources.'
 plans:
 - name: Apache Madlib Plans Pricing
   plan_count: 3
@@ -144,17 +163,17 @@ rate_limits:
   slug: apache-madlib-rate-limits
 score:
   band: emerging
-  composite: 18.0
+  composite: 16.7
   coverage:
     artifact_dirs: 6
-    catalog_earned: 41.0
+    catalog_earned: 38.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.3
   facets:
-    access_clarity: 26.3
+    access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 31.0
@@ -170,8 +189,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 14.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

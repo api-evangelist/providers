@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 0
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://remix.is/blog/
 - group: company
   title: ''
   type: Website
@@ -56,28 +60,31 @@ created: '2026-07-17'
 description: Remix (YC W26, "remix-3" in the Y Combinator directory) is a San Francisco AI startup building a consumer social-media content platform under the tagline "Trends, remixed by you." Users connect their accounts and drop in photos, voice notes, or messages, and Remix uses hundreds of parallel AI agents to auto-generate posts in their style — articles, tweets, carousels, and short-form videos, including riffs on trending formats — without manual prompting. The company was founded in 2025 by Sam Kaplan (Harvard CS; early Brex employee). As of this enrichment pass Remix ships a consumer web/mobile product only and publishes no public developer API, SDK, docs, or webhook surface, so this remains an identity-only profile in the API Evangelist network.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/remix-3.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Remix 3
 nav: Providers
 network: true
-overview: Remix 3 is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Content Generation, Social Media, and Creative Tools.
+overview: 'Remix 3 is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Content Generation, Social Media, and Creative Tools.
+
+
+  Remix 3''s developer surface includes engineering blog and 4 more developer resources.'
 random_paper: 7
 score:
   band: minimal
-  composite: 7.8
+  composite: 7.9
   coverage:
-    artifact_dirs: 2
+    artifact_dirs: 3
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 48.2
     operational_transparency: 0.0
   needs_work:
@@ -89,12 +96,12 @@ score:
   previous_composite: 7.8
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 7.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://believer.gg/feed/
 - group: company
   title: ''
   type: Website
@@ -56,17 +60,17 @@ created: '2026-07-17'
 description: The Believer Company (Believer) is a global games company headquartered in Los Angeles that develops and publishes player-focused interactive entertainment for players worldwide. Assembled from veterans behind titles such as Words With Friends, League of Legends, Destiny, and Plants vs. Zombies, and backed by a16z and Lightspeed Venture Partners, Believer builds next-generation game worlds with an emphasis on community, player investment, and immersive experiences. As of this profile, Believer publishes a company site and a careers surface but no public developer portal, API, documentation, or programmatic developer surface — so this entry carries company identity only, with no API artifacts to enrich.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/believer.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Believer
 nav: Providers
 network: true
-overview: Believer is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Games, Gaming, Video Games, and Interactive Entertainment.
+overview: Believer is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Games, Gaming, Video Games, and Game Development.
 random_paper: 10
 score:
   band: minimal
   composite: 3.4
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -94,8 +98,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -113,7 +117,6 @@ tags:
 - Games
 - Gaming
 - Video Games
-- Interactive Entertainment
 - Game Development
 - Los Angeles
 website: https://believer.gg

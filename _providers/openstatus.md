@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -28,14 +28,14 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: false
-    rate_limit_signal: documented
+    protected_resource_metadata: verified
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.4
-  scored_at: '2026-10-04'
+  score: 30.1
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -167,9 +167,13 @@ common:
 created: '2026-06-21'
 description: OpenStatus is an open-source synthetic monitoring and status-page platform. It runs HTTP, TCP, and DNS uptime checks from 28 global regions, publishes hosted and self-hostable status pages, and manages incidents and status reports. The OpenStatus REST API at https://api.openstatus.dev/v1 lets teams programmatically manage monitors, status pages, status reports, incidents, and on-demand checks. The platform is free to self-host (AGPL-3.0) and also available as a managed cloud service.
 finops:
-- name: Openstatus Finops
+- has_sources: true
+  method: generated
+  name: Openstatus Finops
+  primary_unit: ''
   service_category: Management and Governance
   slug: openstatus-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/openstatus.png
 layout: provider
 mcp_servers:
@@ -180,7 +184,7 @@ modified: '2026-06-21'
 name: OpenStatus
 nav: Providers
 network: true
-overview: 'OpenStatus publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Check API, Incident API, Monitor API, and 2 more. Tagged areas include Monitoring, Synthetic Monitoring, Uptime, Status Pages, and Incidents.
+overview: 'OpenStatus publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Check API, Incident API, Monitor API, and 2 more. Tagged areas include Monitoring, Synthetic Monitoring, Uptime, Status Pages, and Incidents.
 
 
   OpenStatus'' developer surface includes authentication, documentation, engineering blog, and 12 more developer resources.'
@@ -195,22 +199,22 @@ rate_limits:
   slug: openstatus-rate-limits
 score:
   band: thin
-  composite: 38.4
+  composite: 30.1
   coverage:
-    artifact_dirs: 14
-    catalog_earned: 61.6
+    artifact_dirs: 15
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.4
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 44.2
+    access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 53.4
     developer_ergonomics: 25.0
     discoverability: 68.3
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   previous_composite: 38.4
   provenance:
     agentic_access: derived
@@ -226,9 +230,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

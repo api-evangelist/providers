@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.6
-  scored_at: '2026-10-04'
+  score: 33.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -75,6 +75,21 @@ collections:
   name: Google Slides Pages Presentations API
   slug: open-google-slides-presentations-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/google-slides/refs/heads/main/plans/google-slides-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/google-slides-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/google-slides/refs/heads/main/rate-limits/google-slides-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/google-slides-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/google-slides/refs/heads/main/finops/google-slides-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/google-slides-finops.yml
 - group: company
   title: ''
   type: Website
@@ -613,9 +628,13 @@ features:
 - description: Use existing presentations as templates and populate them with dynamic content.
   name: Template Support
 finops:
-- name: Google Slides Finops
+- has_sources: false
+  method: generated
+  name: Google Slides Finops
+  primary_unit: ''
   service_category: API
   slug: google-slides-finops
+  template: true
 image: https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png
 integrations:
 - description: Embed live charts and data from Google Sheets into presentations for dynamic data visualization.
@@ -1462,13 +1481,13 @@ modified: '2026-05-19'
 name: Google Slides
 nav: Providers
 network: true
-overview: 'Google Slides publishes 2 APIs on the [APIs.io](https://apis.io/) network: Pages API and Presentations API. Tagged areas include Collaboration, Google Workspace, Presentations, Productivity, and Slides.
+overview: 'Google Slides publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Pages API and Presentations API. Tagged areas include Collaboration, Google Workspace, Presentations, Productivity, and Slides.
 
 
   The Google Slides catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Google Slides'' developer surface includes authentication, developer portal, getting-started guide, documentation, support, release notes, engineering blog, and 19 more developer resources.'
+  Google Slides'' developer surface includes authentication, developer portal, getting-started guide, documentation, support, release notes, engineering blog, and 22 more developer resources.'
 plans:
 - name: Google Slides Plans Pricing
   plan_count: 3
@@ -1479,9 +1498,10 @@ rate_limits:
   name: Google Slides Rate Limits
   slug: google-slides-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Google Slides API Rules
+  name: Google Slides — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1489,7 +1509,8 @@ rules:
     info: 2
     warn: 3
   slug: google-slides-jsonschema-spectral-rules
-- effective_rule_count: 59
+- authorship: generated
+  effective_rule_count: 59
   extends:
   - spectral:oas
   name: Google Slides API Rules
@@ -1507,17 +1528,17 @@ scopes:
   summary_line: 7 scopes · authorizationCode
 score:
   band: strong
-  composite: 56.5
+  composite: 55.1
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 55.9
+    artifact_dirs: 20
+    catalog_earned: 52.9
     catalog_earned_first_party: 0.0
-    catalog_gap: 59.1
+    catalog_gap: 62.1
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.4
   facets:
-    access_clarity: 47.4
+    access_clarity: 39.5
     contract_governance: 13.6
     contract_quality: 65.5
     developer_ergonomics: 58.3
@@ -1540,8 +1561,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

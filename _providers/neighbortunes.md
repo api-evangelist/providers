@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.0
-  scored_at: '2026-10-04'
+  score: 17.8
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -180,6 +180,25 @@ collections:
   name: Neighbortunes API
   slug: open-neighbortunes
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/neighbortunes/refs/heads/main/plans/neighbortunes-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/neighbortunes-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/neighbortunes/refs/heads/main/rate-limits/neighbortunes-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/neighbortunes-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/neighbortunes/refs/heads/main/finops/neighbortunes-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/neighbortunes-finops.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://neighbortunes.net/setlists/feed
 - group: company
   title: ''
   type: Website
@@ -197,16 +216,20 @@ common:
 created: '2025-02-09'
 description: Welcome to NEIGHBORTUNES! The officially unofficial home of all things Neighbor. This site is a work in progress but we hope you enjoy being able to look up setlists, songs, teases, venues, band stats, and much more!
 finops:
-- name: Neighbortunes Finops
+- has_sources: false
+  method: generated
+  name: Neighbortunes Finops
+  primary_unit: ''
   service_category: API
   slug: neighbortunes-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/neighbortunes.png
 layout: provider
-modified: '2026-09-16'
+modified: '2026-10-06'
 name: Neighbortunes
 nav: Providers
 network: true
-overview: Neighbortunes publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Albums.{format} API, Appearances.{format} API, Jamcharts.{format} API, and 13 more. Tagged areas include Music, Setlists, and Fan Site.
+overview: Neighbortunes publishes 16 API contracts indexed on the [APIs.io](https://apis.io/) network, including Albums.{format} API, Appearances.{format} API, Jamcharts.{format} API, and 13 more. Tagged areas include Music, Setlists, and Fan Site.
 plans:
 - name: Neighbortunes Plans Pricing
   plan_count: 3
@@ -218,17 +241,17 @@ rate_limits:
   slug: neighbortunes-rate-limits
 score:
   band: emerging
-  composite: 17.1
+  composite: 18.8
   coverage:
     artifact_dirs: 10
-    catalog_earned: 35.0
+    catalog_earned: 38.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 65.0
-    catalog_max: 100.0
+    catalog_gap: 77.0
+    catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.7
   facets:
-    access_clarity: 0.0
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 39.8
     developer_ergonomics: 9.5
@@ -248,8 +271,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

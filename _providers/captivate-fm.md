@@ -28,20 +28,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.3
-  scored_at: '2026-10-04'
+  score: 20.4
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 10
+- acting_count: 6
   human_in_the_loop: 0
   name: Captivate Fm Agentic Access
   operation_count: 28
   slug: captivate-fm-agentic-access
-  summary_line: 28 operations · 10 acting
+  summary_line: 28 operations · 6 acting
 api_count: 1
 apis:
 - baseURL: https://api.captivate.fm
@@ -101,6 +101,14 @@ collections:
   name: Captivate API
   slug: open-captivate-fm
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.captivate.fm/blog
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.captivate.fm/feed
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/captivate-fm/refs/heads/main/capabilities/captivate-fm-capability-edges.yml
   title: ''
@@ -159,19 +167,23 @@ common:
 created: '2026-07-05'
 description: Captivate is a growth-oriented podcast hosting, distribution, and analytics platform. Its public REST API at https://api.captivate.fm lets developers authenticate a user, read and manage shows and their RSS feeds, create and update episodes, upload and search media (audio) files, and pull detailed listening analytics (insights) at the podcast and episode level. Access is self-serve - any account holder can generate a user ID and API token from the API section of their Captivate account and exchange them for a Bearer token. The API is documented as a public Postman collection at docs.captivate.fm.
 finops:
-- name: Captivate Fm Finops
+- has_sources: true
+  method: generated
+  name: Captivate Fm Finops
+  primary_unit: ''
   service_category: Media and Podcast Hosting
   slug: captivate-fm-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/captivate-fm.png
 layout: provider
-modified: '2026-07-05'
+modified: '2026-10-06'
 name: Captivate
 nav: Providers
 network: true
-overview: 'Captivate publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Authentication API, Episodes API, and 3 more. Tagged areas include Podcasting, Podcast Hosting, Episodes, Media, and Analytics.
+overview: 'Captivate publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Analytics API, Authentication API, Episodes API, and 3 more. Tagged areas include Podcasts, Podcast Hosting, Episodes, Media, and Analytics.
 
 
-  Captivate''s developer surface includes authentication, documentation, and 10 more developer resources.'
+  Captivate''s developer surface includes engineering blog, authentication, documentation, and 11 more developer resources.'
 plans:
 - name: Captivate Fm Plans Pricing
   plan_count: 3
@@ -183,22 +195,22 @@ rate_limits:
   slug: captivate-fm-rate-limits
 score:
   band: thin
-  composite: 37.3
+  composite: 29.5
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 61.6
+    artifact_dirs: 13
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.4
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.8
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 52.0
-    developer_ergonomics: 29.8
+    developer_ergonomics: 32.1
     discoverability: 66.1
-    operational_transparency: 44.2
+    operational_transparency: 23.7
   previous_composite: 37.3
   provenance:
     agentic_access: derived
@@ -213,9 +225,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0
@@ -231,7 +243,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: captivate-fm
 tags:
-- Podcasting
+- Podcasts
 - Podcast Hosting
 - Episodes
 - Media

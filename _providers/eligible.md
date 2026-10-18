@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 5
 apis:
 - description: The Coverage API performs real-time insurance eligibility and benefits verification for a patient against a payer. Clients submit provider NPI, payer ID, and member identity information and receive st
@@ -202,16 +202,20 @@ common:
 created: '2024-07-02'
 description: Eligible provides insurance billing APIs for healthcare businesses, enabling the integration of insurance billing experiences into healthcare applications. The platform supports eligibility verification, coverage discovery, claims submission and tracking, payment estimation, enrollment, and remittance processing across a large network of US payers.
 finops:
-- name: Eligible Finops
+- has_sources: false
+  method: generated
+  name: Eligible Finops
+  primary_unit: ''
   service_category: API
   slug: eligible-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/eligible.png
 layout: provider
 modified: '2026-08-15'
 name: Eligible
 nav: Providers
 network: true
-overview: 'Eligible publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Billing, Eligibility, Healthcare, Insurance, and Claims.
+overview: 'Eligible is listed with 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Billing, Eligibility, Healthcare, Insurance, and Claims.
 
 
   The Eligible catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -229,17 +233,17 @@ rate_limits:
   slug: eligible-rate-limits
 score:
   band: developing
-  composite: 51.8
+  composite: 50.3
   coverage:
     artifact_dirs: 20
-    catalog_earned: 51.0
+    catalog_earned: 48.0
     catalog_earned_first_party: 8.0
-    catalog_gap: 64.0
+    catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 89.5
+    access_clarity: 81.6
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 50.0
@@ -255,8 +259,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 26.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

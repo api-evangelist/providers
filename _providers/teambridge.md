@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://open-api.teambridge.com
@@ -205,7 +205,7 @@ modified: '2026-09-16'
 name: Teambridge
 nav: Providers
 network: true
-overview: 'Teambridge publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Collections (Unified API) API, Documents API, Mappings API, and 2 more. Tagged areas include Company, Workforce Management, Scheduling, Time Tracking, and Payroll.
+overview: 'Teambridge publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Collections (Unified API) API, Documents API, Mappings API, and 2 more. Tagged areas include Company, Workforce Management, Scheduling, Time Tracking, and Payroll.
 
 
   The Teambridge catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -252,8 +252,8 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 39.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

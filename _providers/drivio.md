@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.drivio.in/feed.xml
 - group: company
   title: ''
   type: Website
@@ -79,14 +83,14 @@ created: '2026-07-17'
 description: Drivio (Drivio Technologies Pvt Ltd) is a tech-enabled, omni-channel two-wheeler financing marketplace in India that connects motorcycle, scooter, and electric-vehicle buyers with banks and NBFCs. Founded in 2022 by Saurabh Tripathi and Ankur Bhardwaj and headquartered in the Delhi NCR region (Gurugram / New Delhi), the platform offers EMI calculators, instant eligibility checks, curated finance offers, vehicle comparison, and same-day loan approval and disbursal through lending partners including IDFC First Bank, Bajaj Auto Credit, L&T Financial Services, HDB Financial Services, Moneyplus Financial Services, and Arthmate. Drivio is an ISO/IEC 27001 certified company and is backed by 500 Global.
 image: https://www.drivio.in/images/logo.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Drivio
 nav: Providers
 network: true
 overview: 'Drivio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Lending, Fintech, and Two-Wheeler Financing.
 
 
-  Drivio''s developer surface includes engineering blog and 8 more developer resources.'
+  Drivio''s developer surface includes engineering blog and 9 more developer resources.'
 random_paper: 15
 score:
   band: emerging
@@ -122,8 +126,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 23.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

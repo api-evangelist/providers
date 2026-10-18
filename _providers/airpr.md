@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Data-as-a-Service access to Onclusive's media intelligence corpus — 28M+ daily media content items across print, online, broadcast and social media, 300K+ verified journalist contacts, and 250K+ globa
@@ -141,7 +141,7 @@ modified: '2026-08-13'
 name: AirPR
 nav: Providers
 network: true
-overview: 'AirPR publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Public Relations, Media Intelligence, Media Monitoring, and Analytics.
+overview: 'AirPR is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Public Relations, Media Intelligence, Media Monitoring, and Analytics.
 
 
   AirPR''s developer surface includes engineering blog, support, authentication, and 14 more developer resources.'
@@ -163,7 +163,7 @@ score:
   band: emerging
   composite: 25.6
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -186,8 +186,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

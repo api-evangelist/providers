@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: Remote MCP server exposing a recruiter's inbound job applications to an agent, and letting it accept or reject them. Named "Wellfound recruiter applications" in its own RFC 9728 protected-resource doc
@@ -175,7 +175,7 @@ modified: '2026-09-04'
 name: Wellfound
 nav: Providers
 network: true
-overview: 'Wellfound publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Recruiting, Hiring, Talent, Human Resources, and Applicant Tracking.
+overview: 'Wellfound is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Recruiting, Hiring, Talent, Human Resources, and Applicant Tracking.
 
 
   Wellfound''s developer surface includes support, engineering blog, pricing, signup flow, authentication, and 23 more developer resources.'
@@ -221,8 +221,8 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 45.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

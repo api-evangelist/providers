@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-04'
+  score: 20.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -73,6 +73,21 @@ collections:
   name: Mastodon Instances API
   slug: open-mastodon-instances
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/mastodon-instances/refs/heads/main/plans/mastodon-instances-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/mastodon-instances-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/mastodon-instances/refs/heads/main/rate-limits/mastodon-instances-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/mastodon-instances-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/mastodon-instances/refs/heads/main/finops/mastodon-instances-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/mastodon-instances-finops.yml
 - group: company
   title: ''
   type: Website
@@ -103,19 +118,23 @@ common:
 created: '2024-12-02'
 description: Mastodon Instances (instances.social) is a service for discovering Mastodon server instances. Its API allows developers to search for instances by criteria including language, user count, and stability, and to retrieve metadata about specific instances.
 finops:
-- name: Mastodon Instances Finops
+- has_sources: false
+  method: generated
+  name: Mastodon Instances Finops
+  primary_unit: ''
   service_category: API
   slug: mastodon-instances-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mastodon-instances.png
 layout: provider
 modified: '2026-09-16'
 name: Mastodon Instances
 nav: Providers
 network: true
-overview: 'Mastodon Instances publishes 3 APIs on the [APIs.io](https://apis.io/) network, including Versions API, and 2 more. Tagged areas include Fediverse, Mastodon, Search, and Social.
+overview: 'Mastodon Instances publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network, including Versions API, and 2 more. Tagged areas include Fediverse, Mastodon, Search, and Social.
 
 
-  Mastodon Instances'' developer surface includes authentication, developer portal, signup flow, and 3 more developer resources.'
+  Mastodon Instances'' developer surface includes authentication, developer portal, signup flow, and 6 more developer resources.'
 plans:
 - name: Mastodon Instances Plans Pricing
   plan_count: 3
@@ -127,17 +146,17 @@ rate_limits:
   slug: mastodon-instances-rate-limits
 score:
   band: thin
-  composite: 29.5
+  composite: 28.0
   coverage:
     artifact_dirs: 10
-    catalog_earned: 41.0
+    catalog_earned: 38.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 28.9
+    access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 45.3
     developer_ergonomics: 31.0
@@ -157,8 +176,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

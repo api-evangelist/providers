@@ -34,10 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.lilly.com/news
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/orna-therapeutics/refs/heads/main/security/orna-therapeutics-domain-security.yml
   title: ''
@@ -78,28 +82,31 @@ coverage:
 created: '2026-08-26'
 description: 'Orna Therapeutics is a Cambridge, Massachusetts biotechnology company, founded in 2019 on research from MIT and built by MPM Capital, that engineers circular RNA (oRNA) paired with lipid nanoparticle delivery so a patient''s own body generates cell therapies — its lead program ORN-252 is a CD19-targeting in vivo CAR-T designed for B-cell-driven autoimmune disease. Orna acquired ReNAgade Therapeutics in 2024, combining its circular RNA platform with ReNAgade''s LNP delivery and RNA editing capabilities, and Eli Lilly announced a definitive agreement to acquire Orna on 2026-02-09 for up to $2.4B. Orna is a therapeutics developer, not a software vendor: it publishes no API, developer portal, SDK or machine-readable contract, and as of this profile its own domain ornatx.com redirects in whole to Eli Lilly''s subsidiaries page.'
 layout: provider
-modified: '2026-08-26'
+modified: '2026-10-06'
 name: Orna Therapeutics
 nav: Providers
 network: true
-overview: Orna Therapeutics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Therapeutics, RNA, and Life Sciences.
+overview: 'Orna Therapeutics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Therapeutics, RNA, and Life Sciences.
+
+
+  Orna Therapeutics'' developer surface includes engineering blog and 5 more developer resources.'
 random_paper: 14
 score:
   band: minimal
-  composite: 3.6
+  composite: 4.2
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 25.0
     catalog_earned_first_party: 0.0
     catalog_gap: 90.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 44.6
     operational_transparency: 2.6
   previous_composite: 3.6
@@ -109,8 +116,8 @@ score:
     regime: Health
     regime_id: health
     score: 4.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

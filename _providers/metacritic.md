@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The official Metacritic API, delivered through Fabric Origin (formerly IVA / Gracenote), provides structured access to Metascores, user scores, and individual critic reviews for movies and TV shows. R
@@ -41,6 +41,25 @@ apis:
   slug: metacritic-api
 artifact_total: 5
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/metacritic/refs/heads/main/plans/plans.yml
+  title: ''
+  type: Plans
+  url: plans/plans.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/metacritic/refs/heads/main/rate-limits/rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/metacritic/refs/heads/main/finops/finops.yml
+  title: ''
+  type: FinOps
+  url: finops/finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.metacritic.com/news/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/metacritic/refs/heads/main/security/metacritic-domain-security.yml
   title: ''
@@ -77,19 +96,23 @@ common:
 created: '2026-06-13'
 description: Metacritic is a review aggregator that collects critic and user scores for games, movies, TV shows, and music, computing a weighted Metascore for each title. The Metacritic API (provided via Fabric Origin / IVA / Gracenote) gives programmatic access to Metascores, user scores, individual critic reviews, publication details, and entertainment rankings for movies and television. Unofficial community-built wrappers also expose game, movie, and TV data from Metacritic's public backend.
 finops:
-- name: Finops
+- has_sources: false
+  method: generated
+  name: Finops
+  primary_unit: ''
   service_category: ''
   slug: finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/metacritic.png
 layout: provider
-modified: '2026-06-13'
+modified: '2026-10-06'
 name: Metacritic
 nav: Providers
 network: true
-overview: 'Metacritic publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Entertainment, Reviews, Metascore, Games, and Movies.
+overview: 'Metacritic is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Entertainment, Reviews, Metascore, Games, and Movies.
 
 
-  Metacritic''s developer surface includes developer portal, documentation, support, and 5 more developer resources.'
+  Metacritic''s developer surface includes engineering blog, developer portal, documentation, support, and 8 more developer resources.'
 plans:
 - name: Plans
   plan_count: 1
@@ -101,20 +124,20 @@ rate_limits:
   slug: rate-limits
 score:
   band: emerging
-  composite: 20.9
+  composite: 17.2
   coverage:
     artifact_dirs: 8
-    catalog_earned: 47.2
+    catalog_earned: 39.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 67.8
+    catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.7
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 47.6
+    developer_ergonomics: 50.0
     discoverability: 66.1
     operational_transparency: 0.0
   previous_composite: 20.9
@@ -124,8 +147,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

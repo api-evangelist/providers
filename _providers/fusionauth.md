@@ -35,15 +35,15 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 239
+- acting_count: 217
   human_in_the_loop: 9
   name: Fusionauth Agentic Access
   operation_count: 322
   slug: fusionauth-agentic-access
-  summary_line: 322 operations · 239 acting · 9 human-in-the-loop
-api_count: 1
+  summary_line: 322 operations · 217 acting · 9 human-in-the-loop
+api_count: 2
 apis:
 - baseURL: https://sandbox.fusionauth.io
   baseurl_source: declared
@@ -347,6 +347,11 @@ collections:
   name: FusionAuth Api Key .well Known API
   slug: open-fusionauth-well-known-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/fusionauth/refs/heads/main/finops/fusionauth-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/fusionauth-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/fusionauth/refs/heads/main/vendor-facets/fusionauth-vendor-facets.yml
   title: ''
@@ -451,9 +456,13 @@ common:
 created: '2024-09-26'
 description: FusionAuth is a developer-focused customer identity and access management (CIAM) platform that delivers authentication, authorization, registration, multi-factor authentication, single sign-on, OAuth2 and OpenID Connect, and user management capabilities through a comprehensive REST API and self-hostable identity service.
 finops:
-- name: Fusionauth Finops
+- has_sources: false
+  method: generated
+  name: Fusionauth Finops
+  primary_unit: ''
   service_category: API
   slug: fusionauth-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fusionauth.png
 layout: provider
 mcp_servers:
@@ -464,10 +473,10 @@ modified: '2026-05-25'
 name: FusionAuth
 nav: Providers
 network: true
-overview: 'FusionAuth publishes 37 APIs on the [APIs.io](https://apis.io/) network, including Api Key API, Application API, Connector API, and 34 more. Tagged areas include Authentication, Authorization, Identity, CIAM, and OpenID Connect.
+overview: 'FusionAuth publishes 37 API contracts indexed on the [APIs.io](https://apis.io/) network, including Api Key API, Application API, Connector API, and 34 more. Tagged areas include Authentication, Authorization, Identity, CIAM, and OpenID Connect.
 
 
-  FusionAuth''s developer surface includes authentication, getting-started guide, changelog, engineering blog, signup flow, pricing, and 17 more developer resources.'
+  FusionAuth''s developer surface includes authentication, getting-started guide, changelog, engineering blog, signup flow, pricing, and 18 more developer resources.'
 plans:
 - name: Fusionauth Plans Pricing
   plan_count: 4
@@ -482,17 +491,17 @@ rate_limits:
   slug: fusionauth-rate-limits
 score:
   band: developing
-  composite: 52.3
+  composite: 50.8
   coverage:
     artifact_dirs: 16
-    catalog_earned: 60.0
+    catalog_earned: 57.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 55.0
+    catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 75.0
+    access_clarity: 67.1
     contract_governance: 0.0
     contract_quality: 47.9
     developer_ergonomics: 49.3
@@ -512,8 +521,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

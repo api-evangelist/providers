@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 5
+- acting_count: 0
   human_in_the_loop: 0
   name: Agl Energy Agentic Access
   operation_count: 27
   slug: agl-energy-agentic-access
-  summary_line: 27 operations · 5 acting
+  summary_line: 27 operations
 api_count: 2
 apis:
 - baseURL: https://public.cdr.agl.com.au/cds-au/v1
@@ -240,7 +240,7 @@ modified: '2026-09-16'
 name: AGL Energy
 nav: Providers
 network: true
-overview: 'AGL Energy publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Data Holder Customers API, Data Holder Operations API, Distributed Energy Resources API, and 6 more. Tagged areas include Energy, Australia, Utilities, Electricity, and Gas.
+overview: 'AGL Energy publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Data Holder Customers API, Data Holder Operations API, Distributed Energy Resources API, and 6 more. Tagged areas include Energy, Australia, Utilities, Electricity, and Gas.
 
 
   AGL Energy''s developer surface includes authentication, changelog, API reference, documentation, support, and 24 more developer resources.'
@@ -254,7 +254,7 @@ score:
   band: thin
   composite: 35.5
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -292,8 +292,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 39.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

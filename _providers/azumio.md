@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://api-2445582032290.production.gw.apicast.io
@@ -159,14 +159,14 @@ modified: '2026-07-18'
 name: Azumio
 nav: Providers
 network: true
-overview: 'Azumio publishes 1 API on the [APIs.io](https://apis.io/) network: Food Recognition API. Tagged areas include Company, Health, Digital Health, Nutrition, and Food Recognition.
+overview: 'Azumio publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Food Recognition API. Tagged areas include Company, Health, Digital Health, Nutrition, and Food Recognition.
 
 
   Azumio''s developer surface includes documentation, API reference, signup flow, engineering blog, support, authentication, and 16 more developer resources.'
 random_paper: 1
 score:
   band: thin
-  composite: 36.8
+  composite: 36.9
   coverage:
     artifact_dirs: 18
     catalog_earned: 37.0
@@ -174,7 +174,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
@@ -198,8 +198,8 @@ score:
     regime: Health
     regime_id: health
     score: 18.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

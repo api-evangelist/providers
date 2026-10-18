@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: CKAN Action API for Open Development Myanmar, a consistent JSON-over-HTTP interface over a catalog of 13,484 datasets. Standard actions include package_search, package_show, package_list, organization
@@ -81,16 +81,20 @@ common:
 created: '2026-06-04'
 description: Open Development Myanmar is a organization open-data portal for Myanmar running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 13,484 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.
 finops:
-- name: Data Opendevelopmentmyanmar Net Finops
+- has_sources: true
+  method: generated
+  name: Data Opendevelopmentmyanmar Net Finops
+  primary_unit: ''
   service_category: Open Data
   slug: data-opendevelopmentmyanmar-net-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/data-opendevelopmentmyanmar-net.png
 layout: provider
 modified: '2026-06-04'
 name: Open Development Myanmar
 nav: Providers
 network: true
-overview: 'Open Development Myanmar publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Open Data, CKAN, Data Catalog, DCAT, and Organization.
+overview: 'Open Development Myanmar is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Open Data, CKAN, Data Catalog, DCAT, and Organization.
 
 
   Open Development Myanmar''s developer surface includes documentation, engineering blog, and 6 more developer resources.'
@@ -104,23 +108,23 @@ rate_limits:
   name: Data Opendevelopmentmyanmar Net Rate Limits
   slug: data-opendevelopmentmyanmar-net-rate-limits
 score:
-  band: emerging
-  composite: 15.7
+  band: minimal
+  composite: 9.6
   coverage:
     artifact_dirs: 7
-    catalog_earned: 54.4
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 60.6
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.1
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
     discoverability: 66.1
-    operational_transparency: 18.9
+    operational_transparency: 5.3
   previous_composite: 15.7
   regulatory:
     applies: true
@@ -128,9 +132,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

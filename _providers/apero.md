@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Apero's fully-featured REST API connecting healthcare and finance workflows for medical practices, with webhooks and CSV import. Developer documentation is gated behind an Apero account login.
@@ -98,7 +98,7 @@ modified: '2026-07-17'
 name: Apero
 nav: Providers
 network: true
-overview: 'Apero publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise Saas, Healthcare, Health Tech, and Revenue Cycle Management.
+overview: 'Apero is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise Saas, Healthcare, Health Tech, and Revenue Cycle Management.
 
 
   Apero''s developer surface includes documentation, signup flow, support, and 9 more developer resources.'
@@ -107,7 +107,7 @@ score:
   band: emerging
   composite: 15.3
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -135,8 +135,8 @@ score:
     regime: Health
     regime_id: health
     score: 10.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

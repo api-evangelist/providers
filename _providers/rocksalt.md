@@ -32,10 +32,15 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 3
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/rocksalt/refs/heads/main/rate-limits/rocksalt-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/rocksalt-rate-limits.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/rocksalt/refs/heads/main/security/rocksalt-domain-security.yml
   title: ''
@@ -126,7 +131,7 @@ network: true
 overview: 'Rocksalt is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketing, Social Media, Sales Enablement, and Content.
 
 
-  Rocksalt''s developer surface includes documentation, support, engineering blog, pricing, signup flow, and 10 more developer resources.'
+  Rocksalt''s developer surface includes documentation, support, engineering blog, pricing, signup flow, and 11 more developer resources.'
 plans:
 - name: Rocksalt Plans Pricing
   plan_count: 5
@@ -168,8 +173,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 12.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

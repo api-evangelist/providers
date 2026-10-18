@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: REST API for creating and managing autonomous research projects — create a project, manage experts and expert actions, schedule calls with experts, and post call-completion details. Documented on Apid
@@ -40,6 +40,10 @@ apis:
   slug: bridgetown-research-api
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.bridgetownresearch.com/blog
 - group: company
   title: ''
   type: Website
@@ -75,31 +79,31 @@ created: '2026-07-17'
 description: Bridgetown Research is an AI-powered research and analysis platform that helps organizations analyze businesses with speed and precision. Its AI agents conduct expert interviews, gather primary and secondary data at scale, and execute 300+ of the most common analyses to power autonomous market research and commercial due diligence. The platform serves private equity and venture capital firms, professional services firms, and corporate strategy and development teams, who access it either through a SOC 2-compliant SaaS platform with interactive generative-search reporting or via an email-driven workflow that returns PDF reports. Bridgetown Research also exposes a REST API (documented on Apidog at docs.bridgetownresearch.com) for creating research projects and managing experts, expert actions, and scheduled calls. It is backed by Accel and Lightspeed Venture Partners.
 image: https://cdn.prod.website-files.com/676e6115a1e9c0edad94c480/679b83a110de1189f26a4e08_OG%20image%20(3).png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Bridgetown Research
 nav: Providers
 network: true
-overview: 'Bridgetown Research publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Research, Market Research, and Due Diligence.
+overview: 'Bridgetown Research is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Research, Market Research, and Due Diligence.
 
 
-  Bridgetown Research''s developer surface includes documentation, API reference, and 5 more developer resources.'
+  Bridgetown Research''s developer surface includes engineering blog, documentation, API reference, and 5 more developer resources.'
 random_paper: 9
 score:
   band: emerging
-  composite: 14.5
+  composite: 15.1
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 18.4
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 8.3
+    developer_ergonomics: 10.7
     discoverability: 66.1
     operational_transparency: 0.0
   previous_composite: 14.5
@@ -111,8 +115,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

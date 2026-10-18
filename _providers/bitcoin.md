@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 1.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -73,7 +73,7 @@ modified: '2026-07-18'
 name: Bitcoin
 nav: Providers
 network: true
-overview: 'Bitcoin is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto, Cryptocurrency, Blockchain, and Bitcoin.
+overview: 'Bitcoin is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cryptocurrency, Blockchain, Bitcoin, and Digital Currency.
 
 
   Bitcoin''s developer surface includes documentation, API reference, getting-started guide, code examples, and 3 more developer resources.'
@@ -103,8 +103,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 5.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -119,7 +119,6 @@ security:
 slug: bitcoin
 tags:
 - Company
-- Crypto
 - Cryptocurrency
 - Blockchain
 - Bitcoin

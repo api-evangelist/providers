@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://carecloud.com/continuum/feed/
 - group: company
   title: ''
   type: Website
@@ -90,20 +94,20 @@ created: '2026-07-17'
 description: 'CareCloud (NASDAQ: CCLD, formerly MTBC) is a cloud-based healthcare technology company serving 45,000+ providers with an integrated platform spanning electronic health records (EHR), practice management, revenue cycle management (RCM), patient experience tools, and AI-driven clinical documentation (cirrusAI). Its Connector product delivers healthcare interoperability with FHIR and C-CDA data exchange across labs, EHRs, immunization registries, and diagnostics. CareCloud is Drummond-certified ONC Health IT and Surescripts-certified, publishes HIPAA compliance content, and operates a developer portal (AWS API Gateway) at developer.carecloud.com. Surfaced as a portfolio company of Norwest Venture Partners and enriched in the API Evangelist network.'
 image: https://carecloud.com/wp-content/uploads/2025/03/carecloudlogoBlue-01.svg
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Carecloud
 nav: Providers
 network: true
-overview: 'Carecloud is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Health IT, Electronic Health Records, and EHR.
+overview: 'Carecloud is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Health IT, Electronic Health Records, and Revenue Cycle Management.
 
 
-  Carecloud''s developer surface includes documentation, engineering blog, support, signup flow, and 8 more developer resources.'
+  Carecloud''s developer surface includes documentation, engineering blog, support, signup flow, and 9 more developer resources.'
 random_paper: 0
 score:
   band: emerging
   composite: 16.2
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -130,8 +134,8 @@ score:
     regime: Health
     regime_id: health
     score: 21.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -149,7 +153,6 @@ tags:
 - Healthcare
 - Health IT
 - Electronic Health Records
-- EHR
 - Revenue Cycle Management
 - Practice Management
 - Interoperability

@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: verified
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.9
-  scored_at: '2026-10-04'
+  score: 30.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -80,6 +80,21 @@ collections:
   name: Etherscan API
   slug: open-etherscan
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/etherscan/refs/heads/main/plans/etherscan-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/etherscan-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/etherscan/refs/heads/main/rate-limits/etherscan-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/etherscan-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/etherscan/refs/heads/main/finops/etherscan-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/etherscan-finops.yml
 - group: company
   title: ''
   type: Website
@@ -143,9 +158,13 @@ common:
 created: '2025-02-17'
 description: Etherscan is the leading blockchain explorer, search, API, and analytics platform for Ethereum and other EVM-compatible chains. It allows users to easily access and explore blockchain data, including transaction histories, smart contracts, token balances, and network activity. Etherscan's unified V2 API covers 60+ chains under a single account and API key, with a free tier offering 100,000 daily calls and paid tiers up to enterprise.
 finops:
-- name: Etherscan Finops
+- has_sources: false
+  method: generated
+  name: Etherscan Finops
+  primary_unit: ''
   service_category: API
   slug: etherscan-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/etherscan.png
 layout: provider
 mcp_servers:
@@ -156,10 +175,10 @@ modified: '2026-05-19'
 name: Etherscan
 nav: Providers
 network: true
-overview: 'Etherscan publishes 1 API on the [APIs.io](https://apis.io/) network: Accounts API. Tagged areas include Blockchain, Cryptocurrency, Ethereum, EVM, and Web3.
+overview: 'Etherscan publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Accounts API. Tagged areas include Blockchain, Cryptocurrency, Ethereum, EVM, and Web3.
 
 
-  Etherscan''s developer surface includes authentication, developer portal, documentation, pricing, signup flow, engineering blog, and 8 more developer resources.'
+  Etherscan''s developer surface includes authentication, developer portal, documentation, pricing, signup flow, engineering blog, and 11 more developer resources.'
 plans:
 - name: Etherscan Plans Pricing
   plan_count: 3
@@ -171,17 +190,17 @@ rate_limits:
   slug: etherscan-rate-limits
 score:
   band: thin
-  composite: 36.6
+  composite: 35.1
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 46.0
+    artifact_dirs: 14
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 69.0
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 50.0
+    access_clarity: 42.1
     contract_governance: 0.0
     contract_quality: 48.4
     developer_ergonomics: 23.8
@@ -202,8 +221,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -222,7 +241,7 @@ security:
 - kind: vulnerability-disclosure
   name: Etherscan Vulnerability Disclosure
   slug: etherscan-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 slug: etherscan
 tags:
 - Blockchain

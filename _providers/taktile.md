@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://engineering.taktile.com/rss.xml
 - group: company
   title: ''
   type: Website
@@ -105,20 +109,20 @@ created: '2026-07-17'
 description: Taktile is an agentic decision platform for financial institutions that combines AI speed with human oversight to automate and optimize high-stakes decisions across banking and insurance. Its Decision Engine, AI Agent Manager, Case Manager, and Context Layer power onboarding and KYC, credit underwriting, AML and fraud investigation, claims processing, and insurance underwriting. Teams design, test, deploy, and monitor decision flows and AI agents through a no-code studio backed by real-time APIs (the Taktile API and Flow API), with enterprise-grade infrastructure, data integrations, and governance controls.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/taktile.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: taktile
 nav: Providers
 network: true
 overview: 'taktile is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Decisioning, Decision Automation, Credit Risk, and Underwriting.
 
 
-  taktile''s developer surface includes documentation, engineering blog, changelog, and 12 more developer resources.'
+  taktile''s developer surface includes documentation, engineering blog, changelog, and 13 more developer resources.'
 random_paper: 2
 score:
   band: emerging
   composite: 15.3
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -145,8 +149,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 21.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

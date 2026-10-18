@@ -30,20 +30,20 @@ agent_readiness:
     mcp_server: verified
     openapi_examples: false
     protected_resource_metadata: verified
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 48.9
-  scored_at: '2026-10-04'
+  score: 47.0
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 8
+- acting_count: 7
   human_in_the_loop: 0
   name: Sanity Agentic Access
   operation_count: 15
   slug: sanity-agentic-access
-  summary_line: 15 operations · 8 acting
+  summary_line: 15 operations · 7 acting
 api_count: 1
 apis:
 - description: The Sanity Mutation API enables creating, updating, patching, and deleting documents in Content Lake. Mutations are submitted as arrays of operations (create, createOrReplace, createIfNotExists, patch
@@ -180,6 +180,21 @@ collections:
   name: Sanity HTTP API
   slug: open-sanity
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sanity/refs/heads/main/plans/sanity-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/sanity-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/sanity/refs/heads/main/rate-limits/sanity-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/sanity-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sanity/refs/heads/main/finops/sanity-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/sanity-finops.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -360,9 +375,13 @@ examples:
   name: Sanity Query Documents Example
   slug: sanity-query-documents-example
 finops:
-- name: Sanity Finops
+- has_sources: true
+  method: generated
+  name: Sanity Finops
+  primary_unit: ''
   service_category: Developer Tools / Headless CMS
   slug: sanity-finops
+  template: false
 graphqls:
 - description: 'Sanity provides a project-scoped GraphQL API that exposes Content Lake documents as a typed, queryable schema. The API is deployed per-project and per-dataset: you generate and deploy the schema from '
   name: Sanity GraphQL API
@@ -426,13 +445,13 @@ modified: '2026-05-30'
 name: Sanity
 nav: Providers
 network: true
-overview: 'Sanity publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Assets API, Listen API, Mutations API, and 7 more. Tagged areas include Headless CMS, Content Management, GROQ, Real-Time, and Structured Content.
+overview: 'Sanity publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Assets API, Listen API, Mutations API, and 7 more. Tagged areas include Headless CMS, Content Management, GROQ, Real-Time, and Structured Content.
 
 
   The Sanity catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Sanity''s developer surface includes authentication, documentation, getting-started guide, pricing, engineering blog, and 32 more developer resources.'
+  Sanity''s developer surface includes authentication, documentation, getting-started guide, pricing, engineering blog, and 35 more developer resources.'
 plans:
 - name: Sanity Plans Pricing
   plan_count: 3
@@ -443,10 +462,11 @@ rate_limits:
   name: Sanity Rate Limits
   slug: sanity-rate-limits
 rules:
-- effective_rule_count: 33
+- authorship: generated
+  effective_rule_count: 33
   extends:
   - spectral:asyncapi
-  name: Sanity API Rules
+  name: Sanity — asyncapi rules
   rule_count: 6
   severity_counts:
     error: 1
@@ -454,9 +474,10 @@ rules:
     info: 0
     warn: 5
   slug: sanity-asyncapi-spectral-rules
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Sanity API Rules
+  name: Sanity — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -464,7 +485,8 @@ rules:
     info: 2
     warn: 3
   slug: sanity-jsonschema-spectral-rules
-- effective_rule_count: 7
+- authorship: unmarked
+  effective_rule_count: 7
   extends: []
   name: Sanity API Rules
   rule_count: 7
@@ -476,17 +498,17 @@ rules:
   slug: sanity-rules
 score:
   band: developing
-  composite: 50.8
+  composite: 49.3
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 67.0
+    artifact_dirs: 24
+    catalog_earned: 64.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 48.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 34.2
+    access_clarity: 26.3
     contract_governance: 27.3
     contract_quality: 70.7
     developer_ergonomics: 62.4
@@ -507,8 +529,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 6
 apis:
 - baseURL: http://api.moxionpower.com/developer/v1
@@ -220,7 +220,7 @@ modified: '2026-08-08'
 name: Moxion Power Co
 nav: Providers
 network: true
-overview: 'Moxion Power Co publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Device Faults API, Device Location API, Device Metrics API, and 3 more. Tagged areas include Company, Energy Storage, Mobile Power, Battery, and Telemetry.
+overview: 'Moxion Power Co is listed with 6 APIs on the [APIs.io](https://apis.io/) network, including Device Faults API, Device Location API, Device Metrics API, and 3 more. Tagged areas include Company, Energy Storage, Mobile Power, Battery, and Telemetry.
 
 
   Moxion Power Co''s developer surface includes documentation, API reference, getting-started guide, authentication, signup flow, GitHub presence, engineering blog, and 20 more developer resources.'
@@ -260,8 +260,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 13.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

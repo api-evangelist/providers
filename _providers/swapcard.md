@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 18.0
-  scored_at: '2026-10-04'
+  score: 16.1
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - baseURL: https://developer.swapcard.com/event-admin/graphql
@@ -101,16 +101,20 @@ common:
 created: '2026-07-12'
 description: Swapcard is an AI-powered event and community engagement platform for in-person, virtual, and hybrid events - mobile and web event apps, attendee networking and matchmaking, exhibitor and lead management, registration, and onsite badging. For developers Swapcard is GraphQL-first - an organizer-facing Content (Event Admin) API to fetch, create, modify, and delete event content (events, people, exhibitors, plannings/sessions, groups); an Exhibitor Leads API to retrieve booths, export leads, and scan badges; and a GraphQL Analytics API. Access is token-based and provisioned to Swapcard customers and partners (organizers and exhibitors).
 finops:
-- name: Swapcard Finops
+- has_sources: true
+  method: generated
+  name: Swapcard Finops
+  primary_unit: ''
   service_category: Events and Community Engagement
   slug: swapcard-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/swapcard.png
 layout: provider
 modified: '2026-07-12'
 name: Swapcard
 nav: Providers
 network: true
-overview: 'Swapcard publishes 3 APIs on the [APIs.io](https://apis.io/) network, including Content API, Exhibitor Leads API, and 1 more. Tagged areas include Event, Event Management, Community, Networking, and Event Platform.
+overview: 'Swapcard is listed with 3 APIs on the [APIs.io](https://apis.io/) network, including Content API, Exhibitor Leads API, and 1 more. Tagged areas include Event, Event Management, Community, Networking, and Event Platform.
 
 
   Swapcard''s developer surface includes authentication, documentation, engineering blog, and 6 more developer resources.'
@@ -124,23 +128,23 @@ rate_limits:
   name: Swapcard Rate Limits
   slug: swapcard-rate-limits
 score:
-  band: thin
-  composite: 30.1
+  band: emerging
+  composite: 21.8
   coverage:
-    artifact_dirs: 10
-    catalog_earned: 64.6
+    artifact_dirs: 11
+    catalog_earned: 46.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 50.4
+    catalog_gap: 69.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 29.8
     developer_ergonomics: 25.7
     discoverability: 71.4
-    operational_transparency: 28.4
+    operational_transparency: 7.9
   previous_composite: 30.1
   regulatory:
     applies: true
@@ -148,9 +152,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

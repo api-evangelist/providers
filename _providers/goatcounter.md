@@ -34,15 +34,15 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 5
+- acting_count: 8
   human_in_the_loop: 0
   name: Goatcounter Agentic Access
-  operation_count: 16
+  operation_count: 32
   slug: goatcounter-agentic-access
-  summary_line: 16 operations · 5 acting
-api_count: 2
+  summary_line: 32 operations · 8 acting
+api_count: 3
 apis:
 - baseURL: https://{code}.goatcounter.com/api/v0
   baseurl_source: declared
@@ -277,16 +277,20 @@ common:
 created: '2025-02-08'
 description: GoatCounter is open-source, privacy-friendly web analytics from Martin Tournoij, offered both as a free donation-supported hosted service at goatcounter.com and as a self-hostable Go binary backed by SQLite or PostgreSQL. It tracks pageviews without cookies or persistent personal identifiers. The unversioned JSON API, prefixed /api/v0 and served from each account's own subdomain, covers counting pageviews and events from a backend, reading dashboard statistics (totals, per-path hits, referrals, browser/system/location breakdowns), running asynchronous CSV and JSON exports with an incremental hit-ID cursor, and managing sites and users. Authentication is a per-site API key sent as an HTTP bearer token, and the provider publishes its own OpenAPI 2.0 contract at https://www.goatcounter.com/api.json.
 finops:
-- name: Goatcounter Finops
+- has_sources: false
+  method: generated
+  name: Goatcounter Finops
+  primary_unit: ''
   service_category: API
   slug: goatcounter-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/goatcounter.png
 layout: provider
 modified: '2026-08-13'
 name: GoatCounter
 nav: Providers
 network: true
-overview: 'GoatCounter publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Exports API, Pageviews API, Paths API, and 6 more. Tagged areas include Analytics, Page Views, Privacy, Statistics, and Web Analytics.
+overview: 'GoatCounter publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Exports API, Pageviews API, Paths API, and 6 more. Tagged areas include Analytics, Page Views, Privacy, Statistics, and Web Analytics.
 
 
   GoatCounter''s developer surface includes authentication, documentation, signup flow, API reference, getting-started guide, support, pricing, and 27 more developer resources.'
@@ -301,7 +305,7 @@ rate_limits:
   slug: goatcounter-rate-limits
 score:
   band: developing
-  composite: 52.7
+  composite: 51.7
   coverage:
     artifact_dirs: 25
     catalog_earned: 56.0
@@ -309,13 +313,13 @@ score:
     catalog_gap: 59.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.0
   facets:
-    access_clarity: 68.4
+    access_clarity: 60.5
     contract_governance: 4.5
     contract_quality: 45.0
     developer_ergonomics: 61.3
-    discoverability: 66.1
+    discoverability: 71.4
     operational_transparency: 52.6
   previous_composite: 52.7
   provenance:
@@ -334,8 +338,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -33,18 +33,23 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Direct HTTP access to Agentuity platform services — projects, deployments, API keys, OAuth applications, storage (key-value, vector, object, Postgres), message queues, durable streams, sandboxes, sche
   name: Agentuity Platform REST API
   slug: agentuity-platform-rest-api
-artifact_total: 6
+artifact_total: 7
 asyncapis:
 - description: ''
   name: Agentuity Webhooks
   slug: agentuity-webhooks
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/agentuity/refs/heads/main/plans/agentuity-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/agentuity-plans-pricing.yml
 - group: company
   title: ''
   type: Website
@@ -197,27 +202,31 @@ modified: '2026-07-17'
 name: Agentuity
 nav: Providers
 network: true
-overview: 'Agentuity publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Agents, Artificial Intelligence, Cloud, and Serverless.
+overview: 'Agentuity is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Agents, Artificial Intelligence, Cloud, and Serverless.
 
 
   The Agentuity catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Agentuity''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 25 more developer resources.'
+  Agentuity''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
+plans:
+- name: Agentuity Plans Pricing
+  plan_count: 3
+  slug: agentuity-plans-pricing
 random_paper: 18
 score:
-  band: developing
-  composite: 49.9
+  band: strong
+  composite: 56.3
   coverage:
-    artifact_dirs: 16
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 18
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.4
   facets:
-    access_clarity: 47.4
+    access_clarity: 78.9
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 69.0
@@ -239,9 +248,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -259,7 +268,7 @@ security:
 - kind: vulnerability-disclosure
   name: Agentuity Vulnerability Disclosure
   slug: agentuity-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 - kind: trust-center
   name: Agentuity Trust Center
   slug: agentuity-trust-center

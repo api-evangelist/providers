@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 5.0
-  scored_at: '2026-10-04'
+  score: 3.1
+  scored_at: '2026-10-17'
 api_count: 9
 apis:
 - description: CWRU's own Shibboleth Identity Provider, entityID urn:mace:incommon:case.edu. Every SingleSignOnService binding in the production descriptor is on CWRU's own registrable domain — https://login.case.ed
@@ -172,9 +172,13 @@ created: '2026-06-03'
 description: 'Case Western Reserve University (CWRU) is a private research university in Cleveland, Ohio, founded 1826 and a member of the Association of American Universities. It operates no public developer portal and no public API program: api.case.edu, developer.case.edu and developers.case.edu do not resolve, case.edu/llms.txt and /.well-known/security.txt both return 404, and its GitHub organization (github.com/cwru) holds six repositories of which four are archived web-template tooling last touched in 2016-17. What CWRU does operate, and what this profile records, is a small set of genuinely institution-run identity and harvesting surfaces — a Shibboleth SAML 2.0 Identity Provider on login.case.edu registered in InCommon (urn:mace:incommon:case.edu, scoped to case.edu and eight school subdomains), an Apereo CAS single sign-on service on the same host, and an open OAI-PMH 2.0 provider for Scholarly Commons at commons.case.edu — alongside tenancies it holds on other people''s platforms
   (bepress Digital Commons, Ex Libris Primo through the OhioLINK consortium, Tableau Server, Leepfrog CourseLeaf, Microsoft Entra ID) and its registration in the Crossref and ROR registries. Every entry below carries an x-operator saying who actually runs the thing described. No vendor contract is saved under CWRU''s name.'
 finops:
-- name: Case Western Reserve University Finops
+- has_sources: true
+  method: generated
+  name: Case Western Reserve University Finops
+  primary_unit: ''
   service_category: Education
   slug: case-western-reserve-university-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/case-western-reserve-university.png
 jsonld:
 - class_count: 14
@@ -186,7 +190,7 @@ modified: '2026-09-01'
 name: Case Western Reserve University
 nav: Providers
 network: true
-overview: 'Case Western Reserve University publishes 9 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Higher Education, University, Private Research University, and Association of American Universities.
+overview: 'Case Western Reserve University is listed with 9 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Higher Education, University, Private Research University, and Association of American Universities.
 
 
   The Case Western Reserve University catalog on APIs.io includes 1 JSON-LD context.
@@ -203,23 +207,23 @@ rate_limits:
   name: Case Western Reserve University Rate Limits
   slug: case-western-reserve-university-rate-limits
 score:
-  band: thin
-  composite: 27.0
+  band: emerging
+  composite: 21.0
   coverage:
-    artifact_dirs: 10
-    catalog_earned: 65.4
+    artifact_dirs: 11
+    catalog_earned: 52.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 49.6
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -2.4
+  delta: -6.0
   facets:
-    access_clarity: 37.4
+    access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 14.3
     developer_ergonomics: 28.6
     discoverability: 71.4
-    operational_transparency: 21.6
+    operational_transparency: 7.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -227,7 +231,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 29.4
+  previous_composite: 27.0
   provenance:
     conformance: first-party
   regulatory:
@@ -236,9 +240,9 @@ score:
     regime: Education & Research
     regime_id: education
     score: 20.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

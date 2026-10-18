@@ -34,8 +34,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.4
-  scored_at: '2026-10-04'
-api_count: 1
+  scored_at: '2026-10-17'
+api_count: 2
 apis:
 - baseURL: https://api.channable.com/v1
   baseurl_source: declared
@@ -257,7 +257,7 @@ modified: '2026-08-13'
 name: Channable
 nav: Providers
 network: true
-overview: 'Channable publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Order Attachments API, Orders API, Returns API, and 3 more. Tagged areas include Company, Applicative Saas, Feed Management, Marketplace, and E-Commerce.
+overview: 'Channable publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Order Attachments API, Orders API, Returns API, and 3 more. Tagged areas include Company, Applicative Saas, Feed Management, Marketplace, and E-Commerce.
 
 
   Channable''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, pricing, and 28 more developer resources.'
@@ -274,7 +274,7 @@ score:
   band: developing
   composite: 49.5
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 57.0
     catalog_earned_first_party: 20.0
     catalog_gap: 58.0
@@ -304,8 +304,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

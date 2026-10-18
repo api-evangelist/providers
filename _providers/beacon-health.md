@@ -35,10 +35,20 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 9.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 6
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/beacon-health/refs/heads/main/plans/beacon-health-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/beacon-health-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/beacon-health/refs/heads/main/rate-limits/beacon-health-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/beacon-health-rate-limits.yml
 - group: company
   title: ''
   type: Website
@@ -141,10 +151,10 @@ modified: '2026-08-15'
 name: Beacon Health
 nav: Providers
 network: true
-overview: 'Beacon Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Primary Care, Value-Based Care, and EHR.
+overview: 'Beacon Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Primary Care, Value-Based Care, and Electronic Health Records.
 
 
-  Beacon Health''s developer surface includes authentication and 16 more developer resources.'
+  Beacon Health''s developer surface includes authentication and 18 more developer resources.'
 plans:
 - name: Beacon Health Plans Pricing
   plan_count: 0
@@ -185,8 +195,8 @@ score:
     regime: Health
     regime_id: health
     score: 27.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -216,7 +226,7 @@ tags:
 - Healthcare
 - Primary Care
 - Value-Based Care
-- EHR
+- Electronic Health Records
 - Artificial Intelligence
 - AI Agents
 - Workflow Automation

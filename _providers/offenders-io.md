@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: verified
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.9
-  scored_at: '2026-10-04'
+  score: 30.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -62,6 +62,25 @@ collections:
   name: Offenders.io API
   slug: open-offenders-io
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/offenders-io/refs/heads/main/plans/offenders-io-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/offenders-io-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/offenders-io/refs/heads/main/rate-limits/offenders-io-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/offenders-io-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/offenders-io/refs/heads/main/finops/offenders-io-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/offenders-io-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://offenders.io/press/
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/offenders-io/refs/heads/main/agentic-access/offenders-io-agentic-access.yml
   title: ''
@@ -93,23 +112,27 @@ common:
 created: '2024-11-13'
 description: Offenders.io is a technology company that specializes in providing innovative solutions for managing and monitoring offender populations. Their platform utilizes advanced data analytics and artificial intelligence to track and analyze the behavior of individuals who have been convicted of crimes. Offenders.io operates an industry-leading database of National Registered Sex Offenders for the United States, offering criteria-based search, facial recognition, and batch processing.
 finops:
-- name: Offenders Io Finops
+- has_sources: false
+  method: generated
+  name: Offenders Io Finops
+  primary_unit: ''
   service_category: API
   slug: offenders-io-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/offenders-io.png
 layout: provider
 mcp_servers:
 - description: Remote MCP server at mcp.offenders.io over HTTP; 6 tools listed.
   name: Offenders.io MCP Server
   slug: offenders-io
-modified: '2026-05-19'
+modified: '2026-10-06'
 name: Offenders.io
 nav: Providers
 network: true
-overview: 'Offenders.io publishes 1 API on the [APIs.io](https://apis.io/) network: Search API. Tagged areas include Sex Offenders, Public Safety, and Criminal Records.
+overview: 'Offenders.io publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Search API. Tagged areas include Sex Offenders, Public Safety, and Criminal Records.
 
 
-  Offenders.io''s developer surface includes authentication and 5 more developer resources.'
+  Offenders.io''s developer surface includes engineering blog, authentication, and 8 more developer resources.'
 plans:
 - name: Offenders Io Plans Pricing
   plan_count: 3
@@ -121,20 +144,20 @@ rate_limits:
   slug: offenders-io-rate-limits
 score:
   band: thin
-  composite: 29.0
+  composite: 28.0
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 41.0
+    artifact_dirs: 13
+    catalog_earned: 38.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.0
   facets:
-    access_clarity: 23.7
+    access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 48.4
-    developer_ergonomics: 21.4
+    developer_ergonomics: 23.8
     discoverability: 66.7
     operational_transparency: 7.9
   previous_composite: 29.0
@@ -152,8 +175,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

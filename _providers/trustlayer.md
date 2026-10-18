@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - baseURL: https://api.trustlayer.io/v2
@@ -217,6 +217,11 @@ collections:
   slug: open-trustlayer-workspaces-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/trustlayer/refs/heads/main/capabilities/trustlayer-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/trustlayer-capability-edges.yml
+- group: other
   href: https://raw.githubusercontent.com/api-evangelist/trustlayer/refs/heads/main/overlays/trustlayer-platform-v1-overlay.yaml
   title: ''
   type: Overlay
@@ -342,25 +347,25 @@ modified: '2026-07-21'
 name: TrustLayer
 nav: Providers
 network: true
-overview: 'TrustLayer publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Branding API, Compliance Profiles API, and 18 more. Tagged areas include Company, Fintech, Insurtech, Insurance, and Risk Management.
+overview: 'TrustLayer publishes 21 API contracts indexed on the [APIs.io](https://apis.io/) network, including Auth API, Branding API, Compliance Profiles API, and 18 more. Tagged areas include Company, Fintech, Insurtech, Insurance, and Risk Management.
 
 
   The TrustLayer catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  TrustLayer''s developer surface includes documentation, API reference, authentication, sandbox, engineering blog, signup flow, and 20 more developer resources.'
+  TrustLayer''s developer surface includes documentation, API reference, authentication, sandbox, engineering blog, signup flow, and 21 more developer resources.'
 random_paper: 19
 score:
   band: developing
   composite: 48.5
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 23
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -2.8
+  delta: 0.0
   facets:
     access_clarity: 42.1
     contract_governance: 4.5
@@ -368,7 +373,7 @@ score:
     developer_ergonomics: 49.4
     discoverability: 73.2
     operational_transparency: 23.7
-  previous_composite: 51.3
+  previous_composite: 48.5
   provenance:
     conformance: derived
     contracts:
@@ -384,8 +389,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 26.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

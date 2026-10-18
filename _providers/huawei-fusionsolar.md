@@ -23,10 +23,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://solar.huawei.com/en/news/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/huawei-fusionsolar/refs/heads/main/security/huawei-fusionsolar-domain-security.yml
   title: ''
@@ -94,25 +98,26 @@ created: '2026-09-23'
 description: Huawei FusionSolar provides intelligent solar energy solutions, including photovoltaic inverters, energy storage systems, and management platforms for residential, commercial, and utility-scale solar projects. The platform offers monitoring, design tools, and a developer portal for integrating solar data and services.
 image: https://solar.huawei.com/admin/asset/v1/pro/view/83edde1a92a94a33ab98eb70fe8eb7aa.png
 layout: provider
-modified: '2026-09-23'
+modified: '2026-10-06'
 name: Huawei FusionSolar
 nav: Providers
 network: true
 overview: 'Huawei FusionSolar is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Solar, Energy, IoT, and Inverters.
 
 
-  Huawei FusionSolar''s developer surface includes documentation, engineering blog, getting-started guide, support, and 9 more developer resources.'
+  Huawei FusionSolar''s developer surface includes engineering blog, documentation, getting-started guide, support, and 10 more developer resources.'
 random_paper: 1
 score:
   band: emerging
   composite: 16.2
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 18.4
     contract_governance: 0.0
@@ -125,6 +130,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - greater-china
+  previous_composite: 16.2
   provenance:
     mcp: unknown
   regulatory:
@@ -133,12 +139,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 12.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/huawei-fusionsolar/refs/heads/main/screenshots/huawei-fusionsolar-2026-10-11T105456.png
 security:
 - kind: domain-security
   name: Huawei Fusionsolar Domain Security

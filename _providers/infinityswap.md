@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Standard Ethereum JSON-RPC 2.0 interface to the Bitfinity EVM mainnet (Chain ID 355110). Supports the standard eth_*, net_*, and web3_* method namespaces for reading chain state, submitting transactio
@@ -41,6 +41,10 @@ apis:
   slug: bitfinity-evm-json-rpc
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.blog.bitfinity.network/rss/
 - group: company
   title: ''
   type: Website
@@ -117,14 +121,14 @@ created: '2026-07-17'
 description: InfinitySwap is now Bitfinity Network, a next-generation Ethereum Virtual Machine (EVM) that serves as a Layer 2 for Bitcoin and Bitcoin on-chain assets, built on the Internet Computer (ICP). Bitfinity delivers high-throughput (1000+ TPS) EVM execution with full Ethereum tooling compatibility (MetaMask, Remix, Hardhat) exposed through a standard Ethereum JSON-RPC endpoint, letting developers deploy Solidity smart contracts and bridge BTC, ckBTC, and other assets. The project also maintains the Bitfinity Wallet, the Bitfusion bridging SDK, canister SDKs for the Internet Computer, and the InfinitySwap decentralized exchange heritage. Backed by Polychain, it targets DeFi builders who want Bitcoin-secured, EVM-compatible infrastructure.
 image: https://avatars.githubusercontent.com/u/83953010?v=4
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: InfinitySwap
 nav: Providers
 network: true
-overview: 'InfinitySwap publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, DeFi, Blockchain, Ethereum, and EVM.
+overview: 'InfinitySwap is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, DeFi, Blockchain, Ethereum, and EVM.
 
 
-  InfinitySwap''s developer surface includes documentation, getting-started guide, engineering blog, support, signup flow, sandbox, authentication, and 9 more developer resources.'
+  InfinitySwap''s developer surface includes documentation, getting-started guide, engineering blog, support, signup flow, sandbox, authentication, and 10 more developer resources.'
 random_paper: 19
 score:
   band: emerging
@@ -153,8 +157,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

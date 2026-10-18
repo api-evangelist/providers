@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: General-purpose real-time REST API for the ROLLER platform. Retrieve products, sessions and availability, and create and manage real-time bookings to power external checkout and booking journeys. Auth
@@ -48,6 +48,10 @@ asyncapis:
   name: Roller Webhooks
   slug: roller-webhooks
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.roller.software/blog/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/roller/refs/heads/main/security/roller-trust-center.yml
   title: ''
@@ -176,17 +180,17 @@ created: '2026-07-17'
 description: ROLLER is a cloud-based venue management platform for the attractions and leisure industry — trampoline parks, family entertainment centers, museums, zoos, aquariums, water parks and amusement venues. It unifies ticketing and online bookings, point of sale, memberships and passes, digital waivers, integrated payments, a CRM and guest experience score, self-serve kiosks and gift cards in a single system. ROLLER exposes two public APIs — a real-time REST API for products, sessions, availability and bookings, and a Reporting (Data) API for extracting venue data to external warehouses and BI tools — plus webhooks for event-driven integrations and OCTO API compatibility for channel/distribution partners. API access is an add-on to a ROLLER subscription and is authenticated with OAuth2 client credentials.
 image: https://cdn.rollerdigital.com/assets/logos/roller-logo.svg
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: ROLLER
 nav: Providers
 network: true
-overview: 'ROLLER publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Venue Management, Attractions, Ticketing, and Booking.
+overview: 'ROLLER is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Venue Management, Attractions, Ticketing, and Booking.
 
 
   The ROLLER catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  ROLLER''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 21 more developer resources.'
+  ROLLER''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 22 more developer resources.'
 random_paper: 18
 rate_limits:
 - limit_count: 1
@@ -219,8 +223,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 33.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

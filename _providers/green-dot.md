@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.3
-  scored_at: '2026-10-04'
+  score: 27.4
+  scored_at: '2026-10-17'
 api_count: 17
 apis:
 - description: The Enrollments API is typically the first API used in a partner integration and establishes the initial banking relationship for a new end user. It covers account creation, identity capture, KYC (Kno
@@ -94,6 +94,21 @@ asyncapis:
   name: Green Dot Webhooks
   slug: green-dot-webhooks
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/green-dot/refs/heads/main/plans/green-dot-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/green-dot-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/green-dot/refs/heads/main/rate-limits/green-dot-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/green-dot-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/green-dot/refs/heads/main/finops/green-dot-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/green-dot-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/green-dot/refs/heads/main/skills/green-dot-disburse-funds.md
   title: ''
@@ -228,22 +243,26 @@ common:
 created: '2026-04-19'
 description: 'Green Dot Corporation (NYSE: GDOT) is a US fintech and bank holding company whose subsidiary Green Dot Bank is a chartered, FDIC-insured member bank. Its Green Dot Arc embedded-finance / Banking-as-a-Service (BaaS) platform lets brands and fintech partners embed banking and payments — account enrollment, KYC/KYB, DDA and prepaid accounts, ACH, transfers, bill pay, card issuing, cash deposits, mobile check deposit, disbursements, and P2P — through a REST API surface. The public developer portal (developer.greendot.com) documents 300+ JSON/OAuth2 endpoints; production access, credentials, and the full Swagger definition are provisioned per-partner after a commercial onboarding.'
 finops:
-- name: Green Dot Finops
+- has_sources: true
+  method: generated
+  name: Green Dot Finops
+  primary_unit: ''
   service_category: Banking-as-a-Service / Embedded Finance
   slug: green-dot-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/green-dot.png
 layout: provider
 modified: '2026-07-23'
 name: Green Dot
 nav: Providers
 network: true
-overview: 'Green Dot publishes 17 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Fintech, Banking as a Service, Embedded Finance, Prepaid Cards, and Banking.
+overview: 'Green Dot is listed with 17 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Fintech, Banking as a Service, Embedded Finance, Prepaid Cards, and Banking.
 
 
   The Green Dot catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Green Dot''s developer surface includes documentation, API reference, authentication, engineering blog, changelog, sandbox, and 23 more developer resources.'
+  Green Dot''s developer surface includes documentation, API reference, authentication, engineering blog, changelog, sandbox, and 26 more developer resources.'
 plans:
 - name: Green Dot Plans Pricing
   plan_count: 1
@@ -260,17 +279,17 @@ scopes:
   summary_line: 3 scopes
 score:
   band: thin
-  composite: 33.6
+  composite: 32.0
   coverage:
     artifact_dirs: 19
-    catalog_earned: 42.0
+    catalog_earned: 39.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 73.0
+    catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 30.3
+    access_clarity: 22.4
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 11.3
@@ -297,8 +316,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 34.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

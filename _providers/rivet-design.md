@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.tryrivet.design/blog/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/rivet-design/refs/heads/main/security/rivet-design-domain-security.yml
   title: ''
@@ -49,39 +53,42 @@ created: '2026-07-17'
 description: 'Rivet is a design agent that works alongside your coding agent: given a prompt or an existing application, it explores dozens of distinct visual and UI design directions in parallel so you can compare them side by side and pick the one that fits, instead of iterating on a single design by hand. As of this profile it is an early-stage product presented through a marketing landing page at tryrivet.design; no public API, SDKs, CLI, MCP server, or developer documentation are published yet, so the API Evangelist network tracks it as an identity-only company profile.'
 image: https://tryrivet.design/images/rivet-social.jpg
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Rivet Design
 nav: Providers
 network: true
-overview: Rivet Design is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Design, AI Agents, Generative AI, and Developer Tools.
+overview: 'Rivet Design is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Design, AI Agents, Generative AI, and Developer Tools.
+
+
+  Rivet Design''s developer surface includes engineering blog and 2 more developer resources.'
 random_paper: 1
 score:
   band: minimal
-  composite: 3.3
+  composite: 3.4
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 48.2
     operational_transparency: 0.0
   previous_composite: 3.3
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 5.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

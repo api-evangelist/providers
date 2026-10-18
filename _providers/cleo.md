@@ -32,10 +32,15 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 5
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cleo/refs/heads/main/rate-limits/cleo-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/cleo-rate-limits.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/cleo/refs/heads/main/security/cleo-domain-security.yml
   title: ''
@@ -128,7 +133,7 @@ network: true
 overview: 'Cleo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Banking, Budgeting, Cash Advance, and Consumer Finance.
 
 
-  Cleo''s developer surface includes engineering blog, support, pricing, authentication, and 14 more developer resources.'
+  Cleo''s developer surface includes engineering blog, support, pricing, authentication, and 15 more developer resources.'
 plans:
 - name: Cleo Plans Pricing
   plan_count: 3
@@ -147,7 +152,7 @@ score:
   band: emerging
   composite: 26.1
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 39.0
     catalog_earned_first_party: 12.0
     catalog_gap: 76.0
@@ -170,8 +175,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 31.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

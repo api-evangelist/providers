@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -115,6 +115,10 @@ collections:
   name: Friendbuy Merchant API
   slug: open-friendbuy
 common:
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.friendbuy.com/book-a-meeting
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/friendbuy/refs/heads/main/capabilities/friendbuy-capability-edges.yml
   title: ''
@@ -264,22 +268,26 @@ common:
 created: '2026-07-10'
 description: Friendbuy is a referral and loyalty marketing platform for ecommerce and direct-to-consumer brands. Merchants launch referral, loyalty, and reward campaigns through on-site widgets and a no-code dashboard, and integrate server-to-server through the Friendbuy Merchant API (base https://mapi.fbot.me/v1). The Merchant API lets merchants sync customer records, generate personal referral links, track purchase / sign-up / custom conversion events, pull campaign and reward analytics, and manage loyalty ledger balances, adjustments, redemptions, and coupons. Authentication is a key/secret exchange at POST /authorization that returns a short-lived Bearer JWT. Access to the API and to production credentials is gated behind a paid, contact-sales plan.
 finops:
-- name: Friendbuy Finops
+- has_sources: true
+  method: generated
+  name: Friendbuy Finops
+  primary_unit: ''
   service_category: Marketing and Advertising
   slug: friendbuy-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/friendbuy.png
 layout: provider
 modified: '2026-08-13'
 name: Friendbuy
 nav: Providers
 network: true
-overview: 'Friendbuy publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Authorization API, Customers API, and 4 more. Tagged areas include Referral Marketing, Loyalty, Rewards, E-Commerce, and Marketing.
+overview: 'Friendbuy publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Analytics API, Authorization API, Customers API, and 4 more. Tagged areas include Referral Marketing, Loyalty, Rewards, E-Commerce, and Marketing.
 
 
   The Friendbuy catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Friendbuy''s developer surface includes authentication, documentation, engineering blog, changelog, API reference, getting-started guide, support, and 25 more developer resources.'
+  Friendbuy''s developer surface includes pricing, authentication, documentation, engineering blog, changelog, API reference, getting-started guide, and 26 more developer resources.'
 plans:
 - name: Friendbuy Plans Pricing
   plan_count: 3
@@ -291,17 +299,17 @@ rate_limits:
   slug: friendbuy-rate-limits
 score:
   band: strong
-  composite: 59.2
+  composite: 59.8
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 64.0
+    artifact_dirs: 27
+    catalog_earned: 61.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 51.0
+    catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
-    access_clarity: 67.1
+    access_clarity: 69.7
     contract_governance: 4.5
     contract_quality: 57.8
     developer_ergonomics: 55.4
@@ -328,8 +336,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

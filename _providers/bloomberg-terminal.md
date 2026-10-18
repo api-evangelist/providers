@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 6
 apis:
 - description: The Bloomberg Open API (BLPAPI) enables programmatic access to Bloomberg Terminal data from applications running on the same machine or connecting via Bloomberg's network. Provides real-time data subs
@@ -56,6 +56,21 @@ apis:
   slug: bloomberg-launchpad
 artifact_total: 26
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/bloomberg-terminal/refs/heads/main/plans/bloomberg-terminal-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/bloomberg-terminal-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/bloomberg-terminal/refs/heads/main/rate-limits/bloomberg-terminal-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/bloomberg-terminal-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/bloomberg-terminal/refs/heads/main/finops/bloomberg-terminal-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/bloomberg-terminal-finops.yml
 - group: company
   title: ''
   type: Website
@@ -137,19 +152,23 @@ features:
 - description: Mobile and remote access to Terminal capabilities.
   name: Bloomberg Anywhere
 finops:
-- name: Bloomberg Terminal Finops
+- has_sources: false
+  method: generated
+  name: Bloomberg Terminal Finops
+  primary_unit: ''
   service_category: API
   slug: bloomberg-terminal-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bloomberg-terminal.png
 layout: provider
 modified: '2026-09-16'
 name: Bloomberg Terminal
 nav: Providers
 network: true
-overview: 'Bloomberg Terminal publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Terminal, Bloomberg Professional Service, Market Data, Financial Workstation, and Trading.
+overview: 'Bloomberg Terminal is listed with 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Terminal, Bloomberg Professional Service, Market Data, Financial Workstation, and Trading.
 
 
-  Bloomberg Terminal''s developer surface includes developer portal, documentation, support, and 11 more developer resources.'
+  Bloomberg Terminal''s developer surface includes developer portal, documentation, support, and 14 more developer resources.'
 plans:
 - name: Bloomberg Terminal Plans Pricing
   plan_count: 3
@@ -161,17 +180,17 @@ rate_limits:
   slug: bloomberg-terminal-rate-limits
 score:
   band: emerging
-  composite: 23.2
+  composite: 21.7
   coverage:
     artifact_dirs: 6
-    catalog_earned: 44.0
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 71.0
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 36.8
+    access_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 42.9
@@ -184,8 +203,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 18.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

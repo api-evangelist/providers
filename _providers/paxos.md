@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 46.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 61
   human_in_the_loop: 3
@@ -556,7 +556,7 @@ modified: '2026-09-16'
 name: Paxos
 nav: Providers
 network: true
-overview: 'Paxos publishes 43 APIs on the [APIs.io](https://apis.io/) network, including Account Members API, Accounts API, Address Verification API, and 40 more. Tagged areas include Company, Stablecoins, Cryptocurrency, Payments, and Crypto Brokerage.
+overview: 'Paxos publishes 43 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account Members API, Accounts API, Address Verification API, and 40 more. Tagged areas include Company, Stablecoins, Cryptocurrency, Payments, and Crypto Brokerage.
 
 
   The Paxos catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -573,7 +573,7 @@ score:
   band: developing
   composite: 47.2
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -604,8 +604,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 31.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

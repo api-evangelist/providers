@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 44.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 139
   human_in_the_loop: 10
@@ -1096,9 +1096,13 @@ features:
 - 'Service: Gmail API'
 - 'Service: Google Maps Platform'
 finops:
-- name: Google Finops
+- has_sources: true
+  method: generated
+  name: Google Finops
+  primary_unit: ''
   service_category: Cloud + Ads + Productivity
   slug: google-finops
+  template: false
 image: https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png
 json_schemas:
 - name: About
@@ -1462,7 +1466,7 @@ modified: '2026-09-16'
 name: Google
 nav: Providers
 network: true
-overview: 'Google publishes 112 APIs on the [APIs.io](https://apis.io/) network, including About API, Activity API, Address API, and 109 more. Tagged areas include Advertising, Cloud, Developers, Google, and Platform.
+overview: 'Google publishes 112 API contracts indexed on the [APIs.io](https://apis.io/) network, including About API, Activity API, Address API, and 109 more. Tagged areas include Advertising, Cloud, Developers, Google, and Platform.
 
 
   The Google catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
@@ -1479,7 +1483,8 @@ rate_limits:
   name: Google Rate Limits
   slug: google-rate-limits
 rules:
-- effective_rule_count: 58
+- authorship: generated
+  effective_rule_count: 58
   extends:
   - spectral:oas
   name: Google API Rules
@@ -1497,23 +1502,23 @@ scopes:
   summary_line: 18 scopes · authorizationCode/implicit
 score:
   band: exemplar
-  composite: 70.1
+  composite: 68.6
   coverage:
     artifact_dirs: 31
-    catalog_earned: 73.8
+    catalog_earned: 70.8
     catalog_earned_first_party: 12.0
-    catalog_gap: 41.3
+    catalog_gap: 44.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 15.6
+  delta: -9.3
   facets:
-    access_clarity: 84.2
+    access_clarity: 76.3
     contract_governance: 22.0
     contract_quality: 67.4
     developer_ergonomics: 73.2
     discoverability: 71.4
     operational_transparency: 60.5
-  previous_composite: 54.5
+  previous_composite: 77.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1530,9 +1535,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: rising
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 11.1

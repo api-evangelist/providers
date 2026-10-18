@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 9.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: The Open Access Same-time Information System (OASIS) Download API — CAISO's public wholesale market data interface. Two servlets, SingleZip and GroupZip, accept a queryname or groupid plus a UTC datet
@@ -175,7 +175,7 @@ modified: '2026-07-27'
 name: California ISO
 nav: Providers
 network: true
-overview: 'California ISO publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, United States, Electricity, Energy Markets, and Grid.
+overview: 'California ISO is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, United States, Electricity, Energy Markets, and Grid.
 
 
   California ISO''s developer surface includes documentation, signup flow, authentication, developer portal, support, engineering blog, getting-started guide, and 20 more developer resources.'
@@ -218,8 +218,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 20.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

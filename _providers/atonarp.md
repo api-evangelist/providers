@@ -23,10 +23,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://atonarp.com/news/feed/
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/atonarp/refs/heads/main/llms/atonarp-llms.txt
   title: ''
@@ -82,7 +86,7 @@ coverage:
 created: '2026-09-26'
 description: Atonarp Inc. develops advanced digital molecular profiling technologies for semiconductor manufacturing, industrial process control, pharmaceutical production, and EV battery fabrication. Their in‑situ, high‑speed, high‑sensitivity mass spectrometry platforms enable real‑time monitoring and decision‑making, improving efficiency, reducing waste, and lowering costs across multiple industries.
 layout: provider
-modified: '2026-09-26'
+modified: '2026-10-06'
 name: Atonarp
 nav: Providers
 network: true
@@ -90,14 +94,15 @@ overview: Atonarp is profiled on the [APIs.io](https://apis.io/) network. Tagged
 random_paper: 9
 score:
   band: minimal
-  composite: 6.6
+  composite: 6.7
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 8
     catalog_earned: 25.0
     catalog_earned_first_party: 0.0
     catalog_gap: 90.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.1
   facets:
     access_clarity: 10.5
     contract_governance: 0.0
@@ -105,6 +110,7 @@ score:
     developer_ergonomics: 0.0
     discoverability: 53.6
     operational_transparency: 0.0
+  previous_composite: 6.6
   provenance:
     mcp: unknown
   regulatory:
@@ -113,12 +119,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 9.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/atonarp/refs/heads/main/screenshots/atonarp-2026-10-11T100749.png
 security:
 - kind: domain-security
   name: Atonarp Domain Security

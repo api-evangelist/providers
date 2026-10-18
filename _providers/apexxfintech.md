@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Apexx provides a payment orchestration platform with APIs for merchants.
@@ -91,6 +91,11 @@ apis:
   slug: apexxfintech-transaction-update-api
 artifact_total: 16
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/apexxfintech/refs/heads/main/capabilities/apexxfintech-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/apexxfintech-capability-edges.yml
 - group: design
   href: https://raw.githubusercontent.com/api-evangelist/apexxfintech/refs/heads/main/rules/apexxfintech-rules.yml
   title: ''
@@ -160,6 +165,10 @@ common:
   title: ''
   type: Support
   url: https://support.apexx.global/support/home/
+coverage:
+  detail: the company publishes developer documentation but serves no machine-readable contract from it
+  reason: no-machine-readable-spec
+  state: unreadable
 created: '2026-09-25'
 description: Apexxfintech provides a cloud‑native payment orchestration platform that consolidates global payment providers into a single integration point. It offers intelligent routing, cost routing, decline cascading, network tokenisation, and a suite of APIs for merchants to optimise transaction processing, reduce costs, and improve acceptance rates across multiple regions and payment methods.
 layout: provider
@@ -167,16 +176,17 @@ modified: '2026-09-25'
 name: Apexxfintech
 nav: Providers
 network: true
-overview: 'Apexxfintech publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Alternative Payment Methods API, Buy Now Pay Later API, Create And Manage Card Token API, and 10 more. Tagged areas include Company, Payments, Fintech, Orchestration, and Global.
+overview: 'Apexxfintech publishes 13 API contracts indexed on the [APIs.io](https://apis.io/) network, including Alternative Payment Methods API, Buy Now Pay Later API, Create And Manage Card Token API, and 10 more. Tagged areas include Company, Payments, Fintech, Orchestration, and Global.
 
 
   The Apexxfintech catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Apexxfintech''s developer surface includes authentication, API reference, engineering blog, support, and 11 more developer resources.'
+  Apexxfintech''s developer surface includes authentication, API reference, engineering blog, support, and 12 more developer resources.'
 random_paper: 11
 rules:
-- effective_rule_count: 52
+- authorship: generated
+  effective_rule_count: 52
   extends:
   - spectral:oas
   name: Apexxfintech API Rules
@@ -189,14 +199,15 @@ rules:
   slug: apexxfintech-rules
 score:
   band: thin
-  composite: 27.5
+  composite: 27.6
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 18
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.1
   facets:
     access_clarity: 21.1
     contract_governance: 19.7
@@ -215,6 +226,7 @@ score:
     reasons:
     - owner: catalog
       reason: venue_as_website
+  previous_composite: 27.5
   provenance:
     conformance: derived
     contracts:
@@ -229,11 +241,13 @@ score:
     regime: Payments
     regime_id: payments
     score: 22.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: flat
   upsert:
     applies: true
     score: 0.0
+screenshot: https://raw.githubusercontent.com/api-evangelist/apexxfintech/refs/heads/main/screenshots/apexxfintech-2026-10-11T095907.png
 security:
 - kind: authentication
   name: Apexxfintech Authentication

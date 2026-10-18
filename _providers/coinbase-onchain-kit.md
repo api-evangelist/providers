@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 4
 apis:
 - description: Core @coinbase/onchainkit npm package providing React components and TypeScript utilities for onchain apps. Includes Wallet, Identity, Transaction, Swap, Checkout, Fund, NFT, Token, and Earn component
@@ -51,6 +51,21 @@ apis:
   slug: smart-wallet
 artifact_total: 8
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/coinbase-onchain-kit/refs/heads/main/plans/coinbase-onchain-kit-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/coinbase-onchain-kit-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/coinbase-onchain-kit/refs/heads/main/rate-limits/coinbase-onchain-kit-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/coinbase-onchain-kit-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/coinbase-onchain-kit/refs/heads/main/finops/coinbase-onchain-kit-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/coinbase-onchain-kit-finops.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -103,19 +118,23 @@ common:
 created: '2026-05-23'
 description: Coinbase OnchainKit is a TypeScript React framework from Coinbase for building onchain applications on Base and other EVM networks. It bundles ready-made React components (wallets, identity, transactions, swap, checkout, fund, NFT), TypeScript utilities, and integrations with Smart Wallet, Base Account, Frames, and Mini Apps. OnchainKit is distributed as the @coinbase/onchainkit npm package along with companion CLIs (create-onchain) and a MiniApp manifest generator. It is built on top of Wagmi, Viem, and TailwindCSS and is the recommended client SDK for the Base ecosystem.
 finops:
-- name: Coinbase Onchain Kit Finops
+- has_sources: false
+  method: generated
+  name: Coinbase Onchain Kit Finops
+  primary_unit: ''
   service_category: API
   slug: coinbase-onchain-kit-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/coinbase-onchain-kit.png
 layout: provider
 modified: '2026-05-23'
 name: Coinbase OnchainKit
 nav: Providers
 network: true
-overview: 'Coinbase OnchainKit publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Onchain, Web3, React, SDK, and Base.
+overview: 'Coinbase OnchainKit is listed with 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Onchain, Web3, React, SDK, and Base.
 
 
-  Coinbase OnchainKit''s developer surface includes documentation, GitHub presence, and 10 more developer resources.'
+  Coinbase OnchainKit''s developer surface includes documentation, GitHub presence, and 13 more developer resources.'
 plans:
 - name: Coinbase Onchain Kit Plans Pricing
   plan_count: 1
@@ -127,22 +146,22 @@ rate_limits:
   slug: coinbase-onchain-kit-rate-limits
 score:
   band: emerging
-  composite: 18.8
+  composite: 12.7
   coverage:
     artifact_dirs: 7
-    catalog_earned: 57.4
+    catalog_earned: 44.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.6
+    catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.1
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 14.3
     discoverability: 78.6
-    operational_transparency: 37.4
+    operational_transparency: 23.7
   previous_composite: 18.8
   regulatory:
     applies: true
@@ -150,9 +169,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 5.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

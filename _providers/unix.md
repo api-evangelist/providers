@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 3.8
-  scored_at: '2026-10-04'
+  score: 1.9
+  scored_at: '2026-10-17'
 api_count: 11
 apis:
 - description: System calls for file and directory manipulation, including open, read, write, and file descriptor management.
@@ -71,6 +71,21 @@ apis:
   slug: file-locking-api
 artifact_total: 37
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/unix/refs/heads/main/plans/unix-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/unix-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/unix/refs/heads/main/rate-limits/unix-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/unix-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/unix/refs/heads/main/finops/unix-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/unix-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/unix/refs/heads/main/security/unix-domain-security.yml
   title: ''
@@ -118,9 +133,13 @@ features:
 - Terminal and device I/O control
 - Advisory file locking
 finops:
-- name: Unix Finops
+- has_sources: false
+  method: generated
+  name: Unix Finops
+  primary_unit: ''
   service_category: API
   slug: unix-finops
+  template: true
 image: /assets/icons/unix.png
 integrations:
 - Linux kernel
@@ -134,10 +153,10 @@ modified: '2026-04-18'
 name: UNIX System Call
 nav: Providers
 network: true
-overview: 'UNIX System Call publishes 11 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include C API, Ieee-1003, Kernel, Open-Group, and Operating System.
+overview: 'UNIX System Call is listed with 11 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include C API, Ieee-1003, Kernel, Open-Group, and Operating System.
 
 
-  UNIX System Call''s developer surface includes documentation, getting-started guide, API reference, and 5 more developer resources.'
+  UNIX System Call''s developer surface includes documentation, getting-started guide, API reference, and 8 more developer resources.'
 plans:
 - name: Unix Plans Pricing
   plan_count: 3
@@ -149,31 +168,31 @@ rate_limits:
   slug: unix-rate-limits
 score:
   band: emerging
-  composite: 16.3
+  composite: 14.8
   coverage:
     artifact_dirs: 5
-    catalog_earned: 44.0
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 71.0
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 6.5
     developer_ergonomics: 28.6
     discoverability: 62.5
     operational_transparency: 7.9
-  previous_composite: 15.8
+  previous_composite: 16.3
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

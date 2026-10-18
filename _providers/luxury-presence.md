@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 24
@@ -95,6 +95,10 @@ collections:
   name: API Documentation Agents Webhooks API
   slug: open-luxury-presence-webhooks-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.luxurypresence.com/feed/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/luxury-presence/refs/heads/main/overlays/luxury-presence-cms-overlay.yaml
   title: ''
@@ -222,23 +226,23 @@ mcp_servers:
 - description: Remote MCP server at docs.luxurypresence.com over HTTP; 15 tools listed.
   name: Luxury Presence MCP Server
   slug: luxury-presence
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Luxury Presence
 nav: Providers
 network: true
-overview: 'Luxury Presence publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Media API, Offices API, and 2 more. Tagged areas include Company, Vertical Software, Real Estate, PropTech, and CRM.
+overview: 'Luxury Presence publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agents API, Media API, Offices API, and 2 more. Tagged areas include Company, Vertical Software, Real Estate, PropTech, and CRM.
 
 
   The Luxury Presence catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Luxury Presence''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 19 more developer resources.'
+  Luxury Presence''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 20 more developer resources.'
 random_paper: 11
 score:
   band: developing
   composite: 42.2
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -269,8 +273,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

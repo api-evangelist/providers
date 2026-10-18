@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: Air Native is a conversion service that transforms Bubble web applications into native iOS and Android mobile apps. It delivers ready-made app builds within 24 hours (business days) at a one-time pric
@@ -44,6 +44,21 @@ apis:
   slug: bubble-plugins
 artifact_total: 6
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/zeroqode/refs/heads/main/plans/zeroqode-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/zeroqode-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/zeroqode/refs/heads/main/rate-limits/zeroqode-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/zeroqode-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/zeroqode/refs/heads/main/finops/zeroqode-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/zeroqode-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/zeroqode/refs/heads/main/security/zeroqode-domain-security.yml
   title: ''
@@ -76,19 +91,23 @@ common:
 created: '2025-03-01'
 description: Zeroqode is a leading no-code development platform and Bubble agency that provides app templates, plugins, courses, and automation tools for building scalable applications without coding. It offers 800+ plugins for Bubble.io, the Air Native mobile app conversion service, and Framer plugins. Zeroqode helps founders and developers build apps 10x faster using no-code and AI tooling.
 finops:
-- name: Zeroqode Finops
+- has_sources: false
+  method: generated
+  name: Zeroqode Finops
+  primary_unit: ''
   service_category: API
   slug: zeroqode-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zeroqode.png
 layout: provider
 modified: '2026-05-03'
 name: Zeroqode
 nav: Providers
 network: true
-overview: 'Zeroqode publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include App Development, Automation, Bubble, Mobile, and No-Code.
+overview: 'Zeroqode is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include App Development, Automation, Bubble, Mobile, and No-Code.
 
 
-  Zeroqode''s developer surface includes documentation, GitHub presence, and 5 more developer resources.'
+  Zeroqode''s developer surface includes documentation, GitHub presence, and 8 more developer resources.'
 plans:
 - name: Zeroqode Plans Pricing
   plan_count: 3
@@ -99,18 +118,18 @@ rate_limits:
   name: Zeroqode Rate Limits
   slug: zeroqode-rate-limits
 score:
-  band: emerging
-  composite: 12.0
+  band: minimal
+  composite: 10.5
   coverage:
-    artifact_dirs: 5
-    catalog_earned: 41.0
+    artifact_dirs: 6
+    catalog_earned: 38.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 14.3
@@ -123,8 +142,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

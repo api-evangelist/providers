@@ -34,10 +34,19 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
-artifact_total: 2
+artifact_total: 3
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/expected-parrot/refs/heads/main/plans/expected-parrot-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/expected-parrot-plans-pricing.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.expectedparrot.com/feed
 - group: company
   title: ''
   type: Website
@@ -101,28 +110,32 @@ created: '2026-07-17'
 description: Expected Parrot is a research-technology company building tools for AI-powered social science. Its open-source Python library EDSL (Expected Parrot Domain-Specific Language) lets researchers design, conduct, and analyze surveys and experiments in which large language models power simulated AI agents that answer questions, alongside or in place of human respondents. The Expected Parrot platform adds remote inference across many model providers (Anthropic, OpenAI, Google, Mistral, and more) via a single Expected Parrot API key, plus cloud storage, sharing, and collaboration for surveys, agents, scenarios, and results. It is used for market research, data labeling, digital twins, synthetic-user UX studies, and reproducible computational social science.
 image: https://github.com/expectedparrot.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Expected Parrot
 nav: Providers
 network: true
 overview: 'Expected Parrot is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, LLM, Surveys, and Research.
 
 
-  Expected Parrot''s developer surface includes documentation, getting-started guide, pricing, authentication, changelog, and 8 more developer resources.'
+  Expected Parrot''s developer surface includes documentation, getting-started guide, pricing, authentication, changelog, and 10 more developer resources.'
+plans:
+- name: Expected Parrot Plans Pricing
+  plan_count: 8
+  slug: expected-parrot-plans-pricing
 random_paper: 19
 score:
   band: emerging
-  composite: 18.1
+  composite: 24.5
   coverage:
-    artifact_dirs: 9
-    catalog_earned: 27.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 88.0
+    artifact_dirs: 11
+    catalog_earned: 39.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.4
   facets:
-    access_clarity: 6.6
+    access_clarity: 38.2
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 47.6
@@ -137,9 +150,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

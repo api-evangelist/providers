@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 11.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The unified REST entry point for all crosschain operations on Across — request swap/bridge quotes and approval data, execute embedded crosschain actions on the destination chain, run gasless flows, en
@@ -132,7 +132,7 @@ modified: '2026-07-17'
 name: Across
 nav: Providers
 network: true
-overview: 'Across publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto Infrastructure, Cross-Chain, Bridge, and Interoperability.
+overview: 'Across is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto Infrastructure, Cross-Chain, Bridge, and Interoperability.
 
 
   Across'' developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, authentication, and 11 more developer resources.'
@@ -141,7 +141,7 @@ score:
   band: emerging
   composite: 23.6
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -164,8 +164,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 20.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

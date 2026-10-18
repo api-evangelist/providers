@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 64.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 53
+- acting_count: 49
   human_in_the_loop: 1
   name: Adobe Analytics Agentic Access
   operation_count: 103
   slug: adobe-analytics-agentic-access
-  summary_line: 103 operations · 53 acting · 1 human-in-the-loop
+  summary_line: 103 operations · 49 acting · 1 human-in-the-loop
 api_count: 11
 apis:
 - description: The Livestream API is a reporting feature in Adobe Analytics that allows clients to receive traffic data processed by Adobe Analytics in real time. Hits are streamed to the client on a hit-by-hit basi
@@ -1140,9 +1140,13 @@ features:
 - description: Apply tags to segments, metrics, and other components for organization and discovery.
   name: Component Tagging
 finops:
-- name: Adobe Analytics Finops
+- has_sources: true
+  method: generated
+  name: Adobe Analytics Finops
+  primary_unit: ''
   service_category: Analytics
   slug: adobe-analytics-finops
+  template: false
 image: /assets/icons/adobe-analytics.png
 integrations:
 - description: Send Analytics data to Experience Platform for unified customer profiles and journey orchestration.
@@ -1383,7 +1387,7 @@ modified: '2026-09-16'
 name: Adobe Analytics
 nav: Providers
 network: true
-overview: 'Adobe Analytics publishes 31 APIs on the [APIs.io](https://apis.io/) network, including Livestream API, Annotations API, Calculated Metrics API, and 28 more. Tagged areas include Adobe, Analytics, Business Intelligence, Customer Intelligence, and Digital Marketing.
+overview: 'Adobe Analytics publishes 31 API contracts indexed on the [APIs.io](https://apis.io/) network, including Livestream API, Annotations API, Calculated Metrics API, and 28 more. Tagged areas include Adobe, Analytics, Business Intelligence, Customer Intelligence, and Digital Marketing.
 
 
   The Adobe Analytics catalog on APIs.io includes 1 event-driven AsyncAPI specification, 3 JSON-LD contexts, and 3 Spectral governance rulesets.
@@ -1400,10 +1404,11 @@ rate_limits:
   name: Adobe Analytics Rate Limits
   slug: adobe-analytics-rate-limits
 rules:
-- effective_rule_count: 32
+- authorship: generated
+  effective_rule_count: 32
   extends:
   - spectral:asyncapi
-  name: Adobe Analytics API Rules
+  name: Adobe Analytics — asyncapi rules
   rule_count: 5
   severity_counts:
     error: 1
@@ -1411,9 +1416,10 @@ rules:
     info: 1
     warn: 3
   slug: adobe-analytics-asyncapi-spectral-rules
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Adobe Analytics API Rules
+  name: Adobe Analytics — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1421,7 +1427,8 @@ rules:
     info: 2
     warn: 3
   slug: adobe-analytics-jsonschema-spectral-rules
-- effective_rule_count: 21
+- authorship: unmarked
+  effective_rule_count: 21
   extends: []
   name: Adobe Analytics API Rules
   rule_count: 21
@@ -1438,17 +1445,17 @@ scopes:
   summary_line: 3 scopes
 score:
   band: exemplar
-  composite: 69.0
+  composite: 67.6
   coverage:
-    artifact_dirs: 37
-    catalog_earned: 66.0
+    artifact_dirs: 38
+    catalog_earned: 63.0
     catalog_earned_first_party: 8.0
-    catalog_gap: 49.0
+    catalog_gap: 52.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.4
   facets:
-    access_clarity: 71.1
+    access_clarity: 63.2
     contract_governance: 31.8
     contract_quality: 61.7
     developer_ergonomics: 66.7
@@ -1474,8 +1481,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

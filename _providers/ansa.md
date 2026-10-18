@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -272,7 +272,7 @@ modified: '2026-07-17'
 name: Ansa
 nav: Providers
 network: true
-overview: 'Ansa publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Add Incentive API, Customer Segments API, Customers API, and 4 more. Tagged areas include Company, Fintech, Payments, Stored Value, and Digital Wallet.
+overview: 'Ansa publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Add Incentive API, Customer Segments API, Customers API, and 4 more. Tagged areas include Company, Fintech, Payments, Stored Value, and Digital Wallet.
 
 
   The Ansa catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -315,8 +315,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 33.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

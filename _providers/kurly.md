@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 34.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 22
+- acting_count: 14
   human_in_the_loop: 0
   name: Kurly Agentic Access
   operation_count: 33
   slug: kurly-agentic-access
-  summary_line: 33 operations · 22 acting
+  summary_line: 33 operations · 14 acting
 api_count: 4
 apis:
 - baseURL: https://kls.kurly.com
@@ -86,6 +86,11 @@ collections:
   name: Kurly Logistics Services (KLS) Open API Authentication Delivery Tracking (배송추적) API
   slug: open-kurly-delivery-tracking-api
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/kurly/refs/heads/main/rate-limits/kurly-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/kurly-rate-limits.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/kurly/refs/heads/main/capabilities/kurly-capability-edges.yml
   title: ''
@@ -248,10 +253,10 @@ modified: '2026-07-19'
 name: Kurly
 nav: Providers
 network: true
-overview: 'Kurly publishes 3 APIs on the [APIs.io](https://apis.io/) network: Authentication API, 배송운영 정책 API, and Delivery Tracking (배송추적) API. Tagged areas include Company, Technology, Logistics, Fulfillment, and Supply Chain.
+overview: 'Kurly publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Authentication API, 배송운영 정책 API, and Delivery Tracking (배송추적) API. Tagged areas include Company, Technology, Logistics, Fulfillment, and Supply Chain.
 
 
-  Kurly''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, developer console, and 26 more developer resources.'
+  Kurly''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, developer console, and 27 more developer resources.'
 random_paper: 17
 rate_limits:
 - limit_count: 0
@@ -259,15 +264,15 @@ rate_limits:
   slug: kurly-rate-limits
 score:
   band: thin
-  composite: 32.7
+  composite: 32.8
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_earned: 45.0
     catalog_earned_first_party: 5.0
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 13.2
     contract_governance: 19.7
@@ -299,8 +304,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

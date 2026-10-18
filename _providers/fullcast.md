@@ -35,8 +35,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 53.8
-  scored_at: '2026-10-04'
-api_count: 1
+  scored_at: '2026-10-17'
+api_count: 2
 apis:
 - description: 'Fullcast''s remote Model Context Protocol server, exposing go-to-market planning, territory and team hierarchy, coverage, targets, reporting, commissions and document operations to external AI clients '
   name: Fullcast MCP Server
@@ -70,6 +70,10 @@ asyncapis:
   name: Fullcast Copy Ai Webhooks
   slug: fullcast-copy-ai-webhooks
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.fullcast.com/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/fullcast/refs/heads/main/authentication/fullcast-authentication.yml
   title: ''
@@ -244,17 +248,17 @@ mcp_servers:
 - description: Remote MCP server at app.fullcast.io requiring OAuth.
   name: Fullcast MCP Server
   slug: fullcast-mcp-yml
-modified: '2026-09-16'
+modified: '2026-10-06'
 name: Fullcast
 nav: Providers
 network: true
-overview: 'Fullcast publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Copilot API, Mcp Info API, .well Known API, and 3 more. Tagged areas include Company, Enterprise, Revenue Operations, Sales Planning, and Territory Management.
+overview: 'Fullcast publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Copilot API, Mcp Info API, .well Known API, and 3 more. Tagged areas include Company, Enterprise, Revenue Operations, Sales Planning, and Territory Management.
 
 
   The Fullcast catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Fullcast''s developer surface includes authentication, documentation, support, getting-started guide, engineering blog, pricing, changelog, and 29 more developer resources.'
+  Fullcast''s developer surface includes authentication, documentation, support, getting-started guide, engineering blog, pricing, changelog, and 30 more developer resources.'
 plans:
 - name: Fullcast Plans Pricing
   plan_count: 3
@@ -307,8 +311,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -42,14 +42,14 @@ agentic_access:
   operation_count: 1
   slug: runautomat-agentic-access
   summary_line: 1 operation · 1 acting
-api_count: 1
+api_count: 2
 apis:
 - baseURL: https://studio.runautomat.com
   baseurl_source: declared
   description: The extract API from Runautomat — 1 operation(s) for extract.
   name: Runautomat Extract API
   slug: runautomat-extract-api
-artifact_total: 6
+artifact_total: 7
 collections:
 - collection_type: open
   name: API Collection
@@ -58,6 +58,11 @@ collections:
   name: extract API
   slug: open-runautomat-extract-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/runautomat/refs/heads/main/plans/runautomat-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/runautomat-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/runautomat/refs/heads/main/overlays/runautomat-extract-overlay.yaml
   title: ''
@@ -178,24 +183,28 @@ modified: '2026-07-21'
 name: Runautomat
 nav: Providers
 network: true
-overview: 'Runautomat publishes 1 API on the [APIs.io](https://apis.io/) network: Extract API. Tagged areas include Company, Automation, RPA, Document Processing, and Artificial Intelligence.
+overview: 'Runautomat publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Extract API. Tagged areas include Company, Automation, RPA, Document Processing, and Artificial Intelligence.
 
 
-  Runautomat''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, signup flow, and 18 more developer resources.'
+  Runautomat''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, signup flow, and 19 more developer resources.'
+plans:
+- name: Runautomat Plans Pricing
+  plan_count: 2
+  slug: runautomat-plans-pricing
 random_paper: 4
 score:
   band: developing
-  composite: 44.8
+  composite: 49.1
   coverage:
-    artifact_dirs: 16
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 18
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 4.3
   facets:
-    access_clarity: 52.6
+    access_clarity: 73.7
     contract_governance: 18.2
     contract_quality: 47.1
     developer_ergonomics: 55.4
@@ -224,8 +233,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

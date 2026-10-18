@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.6
-  scored_at: '2026-10-04'
+  score: 28.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 44
   human_in_the_loop: 1
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 81
   slug: ampersand-agentic-access
   summary_line: 81 operations · 44 acting · 1 human-in-the-loop
-api_count: 1
+api_count: 2
 apis:
 - baseURL: https://api.withampersand.com
   baseurl_source: declared
@@ -195,6 +195,21 @@ collections:
   name: Ampersand public API Key User API
   slug: open-ampersand-user-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/ampersand/refs/heads/main/plans/ampersand-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/ampersand-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/ampersand/refs/heads/main/rate-limits/ampersand-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/ampersand-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/ampersand/refs/heads/main/finops/ampersand-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/ampersand-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/ampersand/refs/heads/main/capabilities/ampersand-capability-edges.yml
   title: ''
@@ -434,9 +449,13 @@ features:
 - description: Official AI SDK enabling AI agents to read from and write to SaaS applications through natural language via Ampersand integrations.
   name: AI SDK
 finops:
-- name: Ampersand Finops
+- has_sources: false
+  method: generated
+  name: Ampersand Finops
+  primary_unit: ''
   service_category: API
   slug: ampersand-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ampersand.png
 json_schemas:
 - name: ApiKeyRequest
@@ -750,13 +769,13 @@ modified: '2026-05-19'
 name: Ampersand
 nav: Providers
 network: true
-overview: 'Ampersand publishes 18 APIs on the [APIs.io](https://apis.io/) network, including API Key API, Billing Account API, Connection API, and 15 more. Tagged areas include Developer Tools, Integration, Platform, Software-as-a-Service, and Authentication.
+overview: 'Ampersand publishes 18 API contracts indexed on the [APIs.io](https://apis.io/) network, including API Key API, Billing Account API, Connection API, and 15 more. Tagged areas include Developer Tools, Integration, Platform, Software-as-a-Service, and Authentication.
 
 
   The Ampersand catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Ampersand''s developer surface includes authentication, documentation, engineering blog, signup flow, CLI, and 12 more developer resources.'
+  Ampersand''s developer surface includes authentication, documentation, engineering blog, signup flow, CLI, and 15 more developer resources.'
 plans:
 - name: Ampersand Plans Pricing
   plan_count: 3
@@ -767,9 +786,10 @@ rate_limits:
   name: Ampersand Rate Limits
   slug: ampersand-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Ampersand API Rules
+  name: Ampersand — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -777,7 +797,8 @@ rules:
     info: 2
     warn: 3
   slug: ampersand-jsonschema-spectral-rules
-- effective_rule_count: 72
+- authorship: generated
+  effective_rule_count: 72
   extends:
   - spectral:oas
   name: Ampersand API Rules
@@ -790,17 +811,17 @@ rules:
   slug: ampersand-spectral-rules
 score:
   band: thin
-  composite: 37.1
+  composite: 35.6
   coverage:
     artifact_dirs: 19
-    catalog_earned: 66.0
+    catalog_earned: 63.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 49.0
+    catalog_gap: 52.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 22.4
+    access_clarity: 14.5
     contract_governance: 27.3
     contract_quality: 55.0
     developer_ergonomics: 26.2
@@ -820,8 +841,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

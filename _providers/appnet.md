@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The App.net Stream API — a RESTful, OAuth 2.0-secured social API covering posts, users, follows, channels/messages, files, filters, and a real-time streaming surface. Responses use a uniform {data, me
@@ -115,7 +115,7 @@ modified: '2026-09-16'
 name: App.net
 nav: Providers
 network: true
-overview: 'App.net publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Social, Microblogging, Messaging, and Real-Time.
+overview: 'App.net is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Social, Microblogging, Messaging, and Real-Time.
 
 
   App.net''s developer surface includes documentation, authentication, and 12 more developer resources.'
@@ -157,8 +157,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

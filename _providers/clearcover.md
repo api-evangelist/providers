@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://clearcover.com/press/
 - group: company
   title: ''
   type: Website
@@ -82,14 +86,14 @@ created: '2026-07-17'
 description: Clearcover is a digital-first auto insurance company that offers customizable, affordable car insurance backed by AI-assisted claims that can resolve eligible claims in minutes rather than days. Customers buy and manage policies through a mobile app, file claims by photographing damage, and track claim status in real time, with coverage spanning liability, comprehensive and collision, medical payments, uninsured/underinsured motorist protection, roadside assistance, and alternate transportation. Clearcover operates across multiple US states through several underwriting entities, distributes through both direct and independent-agent channels, and runs a developer portal for partner and embedded insurance integrations. It was surfaced in the API Evangelist network as a portfolio company of 500 Global and enriched from its public web surface.
 image: https://clearcover.com/assets/images/meta-card-clearcover.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Clearcover
 nav: Providers
 network: true
 overview: 'Clearcover is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, Auto Insurance, Insurtech, and Financial Services.
 
 
-  Clearcover''s developer surface includes documentation, engineering blog, support, and 7 more developer resources.'
+  Clearcover''s developer surface includes engineering blog, documentation, support, and 8 more developer resources.'
 random_paper: 6
 score:
   band: minimal
@@ -116,8 +120,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 12.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

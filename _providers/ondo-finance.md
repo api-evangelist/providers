@@ -36,15 +36,15 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 59
+- acting_count: 55
   human_in_the_loop: 3
   name: Ondo Finance Agentic Access
   operation_count: 130
   slug: ondo-finance-agentic-access
-  summary_line: 130 operations · 59 acting · 3 human-in-the-loop
-api_count: 3
+  summary_line: 130 operations · 55 acting · 3 human-in-the-loop
+api_count: 4
 apis:
 - baseURL: https://api.gm.ondo.finance
   baseurl_source: declared
@@ -420,7 +420,7 @@ modified: '2026-07-20'
 name: Ondo Finance
 nav: Providers
 network: true
-overview: 'Ondo Finance publishes 26 APIs on the [APIs.io](https://apis.io/) network, including Account API, API Keys API, Assets API, and 23 more. Tagged areas include Company, Crypto, Tokenization, Real World Assets, and DeFi.
+overview: 'Ondo Finance publishes 26 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, API Keys API, Assets API, and 23 more. Tagged areas include Company, Cryptocurrency, Tokenization, Real World Assets, and DeFi.
 
 
   Ondo Finance''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 26 more developer resources.'
@@ -431,7 +431,7 @@ rate_limits:
   slug: ondo-finance-rate-limits
 score:
   band: developing
-  composite: 49.8
+  composite: 49.9
   coverage:
     artifact_dirs: 24
     catalog_earned: 48.0
@@ -439,7 +439,7 @@ score:
     catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
@@ -464,8 +464,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -487,7 +487,7 @@ security:
 slug: ondo-finance
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Tokenization
 - Real World Assets
 - DeFi

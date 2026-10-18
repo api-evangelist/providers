@@ -36,8 +36,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.8
-  scored_at: '2026-10-04'
-api_count: 1
+  scored_at: '2026-10-17'
+api_count: 2
 apis:
 - description: 'Hosted, zero-install MCP server (Streamable HTTP, protocol 2025-06-18) exposing the attestation service to MCP-capable agents. The eight tools were read live from tools/list on 2026-08-11: service_sta'
   name: imgauth Remote MCP Server
@@ -118,6 +118,14 @@ collections:
   name: imgauth — API di attestazione opere digitali
   slug: open-imgauth-api-di-attestazione-opere-digitali-openapi-original
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://spaziogenesi.org/news/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://spaziogenesi.org/news/rss.xml
 - group: company
   title: ''
   type: Website
@@ -300,14 +308,14 @@ mcp_servers:
 - description: ''
   name: imgauth — API di attestazione opere digitali MCP Server
   slug: mcp
-modified: '2026-08-11'
+modified: '2026-10-06'
 name: imgauth — API di attestazione opere digitali
 nav: Providers
 network: true
-overview: 'imgauth — API di attestazione opere digitali publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Agent API, Badge API, C API, and 12 more. Tagged areas include digital notarization, Timestamping, proof-of-existence, Content Authenticity, and Provenance.
+overview: 'imgauth — API di attestazione opere digitali publishes 15 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agent API, Badge API, C API, and 12 more. Tagged areas include digital notarization, Timestamping, proof-of-existence, Content Authenticity, and Provenance.
 
 
-  imgauth — API di attestazione opere digitali''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, pricing, support, and 31 more developer resources.'
+  imgauth — API di attestazione opere digitali''s developer surface includes engineering blog, authentication, documentation, API reference, getting-started guide, signup flow, pricing, and 33 more developer resources.'
 plans:
 - name: Imgauth Api Di Attestazione Opere Digitali Plans Pricing
   plan_count: 4
@@ -319,20 +327,20 @@ rate_limits:
   slug: imgauth-api-di-attestazione-opere-digitali-rate-limits
 score:
   band: strong
-  composite: 65.7
+  composite: 66.3
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 61.0
     catalog_earned_first_party: 24.0
     catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 92.1
     contract_governance: 18.2
     contract_quality: 47.9
-    developer_ergonomics: 70.8
+    developer_ergonomics: 73.2
     discoverability: 68.3
     operational_transparency: 76.3
   previous_composite: 65.7
@@ -355,8 +363,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

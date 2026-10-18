@@ -34,15 +34,15 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 51.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 33
+- acting_count: 31
   human_in_the_loop: 0
   name: Sponge Agentic Access
   operation_count: 57
   slug: sponge-agentic-access
-  summary_line: 57 operations · 33 acting
-api_count: 1
+  summary_line: 57 operations · 31 acting
+api_count: 2
 apis:
 - baseURL: https://api.wallet.paysponge.com
   baseurl_source: declared
@@ -280,7 +280,7 @@ modified: '2026-09-16'
 name: Sponge
 nav: Providers
 network: true
-overview: 'Sponge publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Cards API, Fiat API, and 7 more. Tagged areas include Company, Agentic Payments, AI Agents, Wallets, and Cryptocurrency.
+overview: 'Sponge publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agents API, Cards API, Fiat API, and 7 more. Tagged areas include Company, Agentic Payments, AI Agents, Wallets, and Cryptocurrency.
 
 
   Sponge''s developer surface includes documentation, getting-started guide, support, signup flow, authentication, CLI, sandbox, and 21 more developer resources.'
@@ -325,8 +325,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 31.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

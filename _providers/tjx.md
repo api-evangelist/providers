@@ -26,14 +26,14 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: false
-    rate_limit_signal: documented
+    protected_resource_metadata: verified
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 11.2
-  scored_at: '2026-10-04'
+  score: 12.9
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: TJX Companies requires EDI compliance for all resale vendors, supporting purchase orders (850), purchase order acknowledgements (855), advanced shipping notices (856), invoices (810), motor carrier lo
@@ -44,6 +44,21 @@ apis:
   slug: tjx-supplierone
 artifact_total: 26
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/tjx/refs/heads/main/plans/tjx-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/tjx-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/tjx/refs/heads/main/rate-limits/tjx-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/tjx-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/tjx/refs/heads/main/finops/tjx-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/tjx-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/tjx/refs/heads/main/security/tjx-domain-security.yml
   title: ''
@@ -89,9 +104,13 @@ features:
 - description: Vendor integration covering all TJX banners including T.J. Maxx, Marshalls, HomeGoods, Sierra, HomeSense, Winners, and TK Maxx.
   name: Multi-Brand Vendor Support
 finops:
-- name: Tjx Finops
+- has_sources: true
+  method: generated
+  name: Tjx Finops
+  primary_unit: ''
   service_category: Retail
   slug: tjx-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tjx.png
 integrations:
 - description: EDI integration and compliance platform for TJX vendor connectivity.
@@ -117,10 +136,10 @@ modified: '2026-07-25'
 name: TJX Companies
 nav: Providers
 network: true
-overview: 'TJX Companies publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Retail, Off-Price, Fortune 100, Supply Chain, and EDI.
+overview: 'TJX Companies is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Retail, Off-Price, Fortune 100, Supply Chain, and EDI.
 
 
-  TJX Companies'' developer surface includes documentation, developer portal, and 5 more developer resources.'
+  TJX Companies'' developer surface includes documentation, developer portal, and 8 more developer resources.'
 plans:
 - name: Tjx Plans Pricing
   plan_count: 1
@@ -147,18 +166,18 @@ rate_limits:
   name: Tjx Rate Limits
   slug: tjx-rate-limits
 score:
-  band: emerging
-  composite: 12.0
+  band: minimal
+  composite: 10.5
   coverage:
     artifact_dirs: 10
-    catalog_earned: 39.0
+    catalog_earned: 36.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 76.0
+    catalog_gap: 79.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 13.2
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 19.0
@@ -180,8 +199,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

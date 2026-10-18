@@ -32,10 +32,23 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
-artifact_total: 2
+artifact_total: 3
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/kaizo/refs/heads/main/plans/kaizo-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/kaizo-plans-pricing.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.kaizo.com/blog/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.kaizo.com/blog/rss.xml
 - group: company
   title: ''
   type: Website
@@ -85,28 +98,32 @@ created: '2026-07-17'
 description: Kaizo is an AI-powered quality assurance, coaching, and performance management platform for customer support teams working in Zendesk and Salesforce. Its AutoQA engine automatically scores 100% of support conversations in real time, analyzing sentiment and empathy, generating conversation summaries, surfacing escalation risks, and turning support data into performance insights. AI coaching builds data-driven improvement roadmaps for agents, while dashboards and reporting help support leaders compare team and individual outcomes. Kaizo delivers its product primarily as native apps for the Zendesk Marketplace and Salesforce AppExchange rather than as a public developer API. The company is SOC 2 certified, ISO 27001 certified, GDPR compliant, and continuously monitored by Secureframe. Surfaced as a portfolio company of Partech and added to the API Evangelist network for enrichment.
 image: https://avatars.githubusercontent.com/u/62805475?v=4
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Kaizo
 nav: Providers
 network: true
-overview: 'Kaizo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Quality Assurance, Customer Support, Customer Service, and Contact Center.
+overview: 'Kaizo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Quality Assurance, Customer Service, Contact Center, and Performance Management.
 
 
-  Kaizo''s developer surface includes support, engineering blog, pricing, and 8 more developer resources.'
+  Kaizo''s developer surface includes engineering blog, support, pricing, and 11 more developer resources.'
+plans:
+- name: Kaizo Plans Pricing
+  plan_count: 3
+  slug: kaizo-plans-pricing
 random_paper: 14
 score:
   band: emerging
-  composite: 13.8
+  composite: 20.2
   coverage:
-    artifact_dirs: 4
-    catalog_earned: 27.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 88.0
+    artifact_dirs: 5
+    catalog_earned: 39.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.4
   facets:
-    access_clarity: 38.2
+    access_clarity: 69.7
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
@@ -119,9 +136,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 12.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -140,7 +157,6 @@ slug: kaizo
 tags:
 - Company
 - Quality Assurance
-- Customer Support
 - Customer Service
 - Contact Center
 - Performance Management

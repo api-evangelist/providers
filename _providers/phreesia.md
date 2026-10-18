@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 5
 apis:
 - description: Digital intake, consent, and clinical questionnaire capture - logic-driven interviews customized per patient and delivered as mobile intake in 20+ languages. Completed intake, consent, and patient-rep
@@ -57,6 +57,14 @@ apis:
   slug: phreesia-payments-api
 artifact_total: 7
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.phreesia.com/articles/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.phreesia.com/articles/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/phreesia/refs/heads/main/security/phreesia-trust-center.yml
   title: ''
@@ -92,31 +100,31 @@ description: Phreesia is a patient intake, registration, scheduling, payments, a
   writing; the API surface below is modeled from Phreesia's published product and integration capabilities, not from public reference documentation.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/phreesia.png
 layout: provider
-modified: '2026-07-05'
+modified: '2026-10-06'
 name: Phreesia
 nav: Providers
 network: true
-overview: 'Phreesia publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Healthcare, Patient Intake, Patient Registration, Patient Engagement, and Scheduling.
+overview: 'Phreesia is listed with 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Healthcare, Patient Intake, Patient Registration, Patient Engagement, and Scheduling.
 
 
-  Phreesia''s developer surface includes documentation and 6 more developer resources.'
+  Phreesia''s developer surface includes engineering blog, documentation, and 7 more developer resources.'
 random_paper: 13
 score:
   band: minimal
-  composite: 9.2
+  composite: 9.7
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 9.5
+    developer_ergonomics: 11.9
     discoverability: 62.5
     operational_transparency: 0.0
   previous_composite: 9.2
@@ -126,8 +134,8 @@ score:
     regime: Health
     regime_id: health
     score: 8.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

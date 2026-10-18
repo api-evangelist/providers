@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 5
 apis:
 - baseURL: https://api.wknd.ai
@@ -211,7 +211,7 @@ modified: '2026-10-03'
 name: Wunderkind
 nav: Providers
 network: true
-overview: 'Wunderkind publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Contacts API, Createcontactactivities API, Id Resolution API, and 2 more. Tagged areas include Marketing, Artificial Intelligence, E-Commerce, Personalization, and Identity.
+overview: 'Wunderkind is listed with 5 APIs on the [APIs.io](https://apis.io/) network, including Contacts API, Createcontactactivities API, Id Resolution API, and 2 more. Tagged areas include Marketing, Artificial Intelligence, E-Commerce, Personalization, and Identity.
 
 
   The Wunderkind catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -220,7 +220,8 @@ overview: 'Wunderkind publishes 5 APIs on the [APIs.io](https://apis.io/) networ
   Wunderkind''s developer surface includes changelog, authentication, support, engineering blog, API reference, getting-started guide, documentation, and 18 more developer resources.'
 random_paper: 8
 rules:
-- effective_rule_count: 53
+- authorship: generated
+  effective_rule_count: 53
   extends:
   - spectral:oas
   name: Wunderkind API Rules
@@ -233,7 +234,7 @@ rules:
   slug: bouncex-rules
 score:
   band: thin
-  composite: 36.2
+  composite: 36.3
   coverage:
     artifact_dirs: 17
     catalog_earned: 63.8
@@ -241,6 +242,7 @@ score:
     catalog_gap: 51.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -11.9
   facets:
     access_clarity: 21.1
     contract_governance: 22.0
@@ -248,6 +250,7 @@ score:
     developer_ergonomics: 54.8
     discoverability: 75.0
     operational_transparency: 31.6
+  previous_composite: 48.2
   provenance:
     conformance: derived
     contracts:
@@ -262,8 +265,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

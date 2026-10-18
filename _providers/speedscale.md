@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 3.8
-  scored_at: '2026-10-04'
+  score: 1.9
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Speedscale captures production API traffic and replays it in lower environments for load testing, regression testing, and chaos testing. It provides traffic capture, replay, mocking of backend depende
@@ -41,6 +41,21 @@ apis:
   slug: speedscale-platform
 artifact_total: 11
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/speedscale/refs/heads/main/plans/speedscale-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/speedscale-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/speedscale/refs/heads/main/rate-limits/speedscale-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/speedscale-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/speedscale/refs/heads/main/finops/speedscale-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/speedscale-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/speedscale/refs/heads/main/security/speedscale-domain-security.yml
   title: ''
@@ -117,9 +132,13 @@ examples:
   name: Speedscale Snapshot Example
   slug: speedscale-snapshot-example
 finops:
-- name: Speedscale Finops
+- has_sources: false
+  method: generated
+  name: Speedscale Finops
+  primary_unit: ''
   service_category: API
   slug: speedscale-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/speedscale.png
 json_schemas:
 - name: Speedscale Traffic Snapshot
@@ -139,13 +158,13 @@ modified: '2026-05-02'
 name: Speedscale
 nav: Providers
 network: true
-overview: 'Speedscale publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include API Mocking, API Testing, Developer Tools, Kubernetes, and Load Testing.
+overview: 'Speedscale is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include API Mocking, API Testing, Developer Tools, Kubernetes, and Load Testing.
 
 
   The Speedscale catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Speedscale''s developer surface includes documentation, engineering blog, pricing, signup flow, support, GitHub presence, YouTube channel, and 10 more developer resources.'
+  Speedscale''s developer surface includes documentation, engineering blog, pricing, signup flow, support, GitHub presence, YouTube channel, and 13 more developer resources.'
 plans:
 - name: Speedscale Plans Pricing
   plan_count: 3
@@ -156,9 +175,10 @@ rate_limits:
   name: Speedscale Rate Limits
   slug: speedscale-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Speedscale API Rules
+  name: Speedscale — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -166,7 +186,8 @@ rules:
     info: 2
     warn: 3
   slug: speedscale-jsonschema-spectral-rules
-- effective_rule_count: 45
+- authorship: unmarked
+  effective_rule_count: 45
   extends:
   - spectral:oas
   name: Speedscale API Rules
@@ -179,17 +200,17 @@ rules:
   slug: speedscale-rules
 score:
   band: thin
-  composite: 32.1
+  composite: 30.6
   coverage:
-    artifact_dirs: 14
-    catalog_earned: 71.4
+    artifact_dirs: 15
+    catalog_earned: 68.4
     catalog_earned_first_party: 0.0
-    catalog_gap: 43.6
+    catalog_gap: 46.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 32.9
+    access_clarity: 25.0
     contract_governance: 27.3
     contract_quality: 28.4
     developer_ergonomics: 35.7
@@ -202,8 +223,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

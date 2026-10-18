@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 350
-  human_in_the_loop: 8
+- acting_count: 191
+  human_in_the_loop: 4
   name: Peertube Agentic Access
-  operation_count: 580
+  operation_count: 324
   slug: peertube-agentic-access
-  summary_line: 580 operations · 350 acting · 8 human-in-the-loop
+  summary_line: 324 operations · 191 acting · 4 human-in-the-loop
 api_count: 2
 apis:
 - baseURL: https://{instance}/api/v1
@@ -482,6 +482,21 @@ collections:
   name: PeerTube Abuses Watched Words API
   slug: open-peertube-watched-words-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/peertube/refs/heads/main/plans/plans.yml
+  title: ''
+  type: Plans
+  url: plans/plans.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/peertube/refs/heads/main/rate-limits/rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/peertube/refs/heads/main/finops/finops.yml
+  title: ''
+  type: FinOps
+  url: finops/finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/peertube/refs/heads/main/capabilities/peertube-capability-edges.yml
   title: ''
@@ -1420,9 +1435,13 @@ examples:
   name: Verifyuser
   slug: verifyUser
 finops:
-- name: Finops
+- has_sources: false
+  method: generated
+  name: Finops
+  primary_unit: ''
   service_category: ''
   slug: finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/peertube.png
 json_schemas:
 - name: Abuse
@@ -1948,13 +1967,13 @@ modified: '2026-06-13'
 name: PeerTube
 nav: Providers
 network: true
-overview: 'PeerTube publishes 54 APIs on the [APIs.io](https://apis.io/) network, including Abuses API, Account Blocklist API, Accounts API, and 51 more. Tagged areas include Video, Decentralized, Federation, Open Source, and ActivityPub.
+overview: 'PeerTube publishes 54 API contracts indexed on the [APIs.io](https://apis.io/) network, including Abuses API, Account Blocklist API, Accounts API, and 51 more. Tagged areas include Video, Decentralized, Federation, Open Source, and ActivityPub.
 
 
   The PeerTube catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  PeerTube''s developer surface includes authentication, documentation, GitHub presence, engineering blog, and 11 more developer resources.'
+  PeerTube''s developer surface includes authentication, documentation, GitHub presence, engineering blog, and 14 more developer resources.'
 plans:
 - name: Plans
   plan_count: 1
@@ -1965,9 +1984,10 @@ rate_limits:
   name: Rate Limits
   slug: rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: PeerTube API Rules
+  name: PeerTube — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1982,23 +2002,23 @@ scopes:
   summary_line: 3 scopes · password
 score:
   band: thin
-  composite: 35.0
+  composite: 30.8
   coverage:
-    artifact_dirs: 16
-    catalog_earned: 55.5
+    artifact_dirs: 19
+    catalog_earned: 47.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 59.6
+    catalog_gap: 67.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -4.2
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 9.8
     contract_quality: 52.5
     developer_ergonomics: 35.7
     discoverability: 66.1
     operational_transparency: 5.3
-  previous_composite: 34.5
+  previous_composite: 35.0
   provenance:
     agentic_access: derived
     contracts:
@@ -2012,8 +2032,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

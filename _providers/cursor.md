@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 12
+- acting_count: 9
   human_in_the_loop: 0
   name: Cursor Agentic Access
   operation_count: 17
   slug: cursor-agentic-access
-  summary_line: 17 operations · 12 acting
+  summary_line: 17 operations · 9 acting
 api_count: 1
 apis:
 - description: 'Programmatic access to team data: members, usage metrics, spending, repository blocklists, daily/filtered usage events. Available to Enterprise teams. Uses HTTP Basic auth with API key as username.'
@@ -303,9 +303,13 @@ common:
 created: '2026-05-08'
 description: 'Cursor is an AI-first code editor by Anysphere, forked from VS Code, with deep AI integration: agentic edits, codebase chat, autocomplete, and tab-completion. Offers a hosted plan with model access and team management. Cursor exposes a public Admin API, Analytics API, AI Code Tracking API, Cloud Agents API, and a TypeScript SDK.'
 finops:
-- name: Cursor Finops
+- has_sources: true
+  method: generated
+  name: Cursor Finops
+  primary_unit: ''
   service_category: AI
   slug: cursor-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cursor.png
 json_schemas:
 - name: Cursor Audit Event
@@ -330,7 +334,7 @@ modified: '2026-05-19'
 name: Cursor
 nav: Providers
 network: true
-overview: 'Cursor publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Audit Logs API, Groups API, Members API, and 7 more. Tagged areas include Artificial Intelligence, Developer Tools, Code Editor, Agents, and IDE.
+overview: 'Cursor publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Audit Logs API, Groups API, Members API, and 7 more. Tagged areas include Artificial Intelligence, Developer Tools, Code Editor, Agents, and IDE.
 
 
   The Cursor catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -339,7 +343,7 @@ overview: 'Cursor publishes 10 APIs on the [APIs.io](https://apis.io/) network, 
   Cursor''s developer surface includes changelog, support, getting-started guide, authentication, documentation, pricing, engineering blog, and 32 more developer resources.'
 plans:
 - name: Cursor Plans Pricing
-  plan_count: 1
+  plan_count: 4
   slug: cursor-plans-pricing
 random_paper: 10
 rate_limits:
@@ -347,10 +351,11 @@ rate_limits:
   name: Cursor Rate Limits
   slug: cursor-rate-limits
 rules:
-- effective_rule_count: 47
+- authorship: unmarked
+  effective_rule_count: 47
   extends:
   - spectral:oas
-  name: Cursor API Rules
+  name: Cursor — admin api rules
   rule_count: 6
   severity_counts:
     error: 3
@@ -358,9 +363,10 @@ rules:
     info: 0
     warn: 3
   slug: cursor-admin-api-rules
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Cursor API Rules
+  name: Cursor — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -368,7 +374,8 @@ rules:
     info: 2
     warn: 3
   slug: cursor-jsonschema-spectral-rules
-- effective_rule_count: 54
+- authorship: generated
+  effective_rule_count: 54
   extends:
   - spectral:oas
   name: Cursor API Rules
@@ -381,23 +388,23 @@ rules:
   slug: cursor-rules
 score:
   band: strong
-  composite: 59.6
+  composite: 59.1
   coverage:
-    artifact_dirs: 27
-    catalog_earned: 78.1
-    catalog_earned_first_party: 0.0
-    catalog_gap: 36.9
+    artifact_dirs: 28
+    catalog_earned: 73.4
+    catalog_earned_first_party: 12.0
+    catalog_gap: 41.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 22.8
+  delta: -2.9
   facets:
-    access_clarity: 50.0
-    contract_governance: 67.3
+    access_clarity: 68.4
+    contract_governance: 31.8
     contract_quality: 64.4
     developer_ergonomics: 32.7
     discoverability: 73.2
     operational_transparency: 57.9
-  previous_composite: 36.8
+  previous_composite: 62.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -414,9 +421,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: rising
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: flat
   upsert:
     applies: true
     score: 22.2

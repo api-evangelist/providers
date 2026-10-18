@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: A REST API over Verify's near real-time quality-control data. Beaconcure documents it as resource-oriented, accepting form-encoded request bodies and returning JSON (or CSV on request) with standard H
@@ -119,7 +119,7 @@ modified: '2026-08-06'
 name: Beaconcure
 nav: Providers
 network: true
-overview: 'Beaconcure publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Clinical Trials, Clinical Data, Life Sciences, and Pharmaceuticals.
+overview: 'Beaconcure is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Clinical Trials, Clinical Data, Life Sciences, and Pharmaceuticals.
 
 
   Beaconcure''s developer surface includes documentation, engineering blog, support, authentication, and 8 more developer resources.'
@@ -148,9 +148,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 14.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+    score: 14.3
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

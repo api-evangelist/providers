@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Private application API powering the Ediphi preconstruction platform and its "Last Mile" automation (Excel integration, reporting). No public OpenAPI/Swagger specification or developer documentation i
@@ -95,7 +95,7 @@ modified: '2026-07-19'
 name: Ediphi
 nav: Providers
 network: true
-overview: 'Ediphi publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Construction, Preconstruction, Cost Estimating, and Construction Technology.
+overview: 'Ediphi is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Construction, Preconstruction, Cost Estimating, and Construction Technology.
 
 
   Ediphi''s developer surface includes support, engineering blog, signup flow, and 8 more developer resources.'
@@ -125,8 +125,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 9.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

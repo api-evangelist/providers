@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The Josys API provides programmatic access to the Josys SaaS and IT asset management platform, including endpoints for users, applications, devices, licenses, and provisioning workflows.
@@ -41,6 +41,29 @@ apis:
   slug: josys-api
 artifact_total: 5
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/josys/refs/heads/main/plans/josys-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/josys-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/josys/refs/heads/main/rate-limits/josys-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/josys-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/josys/refs/heads/main/finops/josys-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/josys-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.josys.com/blog
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.josys.com/blog/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/josys/refs/heads/main/security/josys-domain-security.yml
   title: ''
@@ -73,16 +96,23 @@ common:
 created: '2026-03-27'
 description: Josys is a SaaS and IT asset management platform providing automated provisioning, license optimization, and device management. Josys publishes a developer API for programmatic access to the platform.
 finops:
-- name: Josys Finops
+- has_sources: false
+  method: generated
+  name: Josys Finops
+  primary_unit: ''
   service_category: API
   slug: josys-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/josys.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-10-06'
 name: Josys
 nav: Providers
 network: true
-overview: Josys publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include IT Asset Management, SaaS Management, Identity, and Device Management.
+overview: 'Josys is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include IT Asset Management, SaaS Management, Identity, and Device Management.
+
+
+  Josys'' developer surface includes engineering blog and 11 more developer resources.'
 plans:
 - name: Josys Plans Pricing
   plan_count: 3
@@ -94,20 +124,20 @@ rate_limits:
   slug: josys-rate-limits
 score:
   band: emerging
-  composite: 12.6
+  composite: 11.5
   coverage:
     artifact_dirs: 8
-    catalog_earned: 36.0
+    catalog_earned: 33.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 79.0
+    catalog_gap: 82.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.1
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 9.5
+    developer_ergonomics: 11.9
     discoverability: 55.4
     operational_transparency: 26.3
   previous_composite: 12.6
@@ -117,8 +147,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

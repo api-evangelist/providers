@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.0
-  scored_at: '2026-10-04'
+  score: 17.8
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -63,6 +63,25 @@ collections:
   name: CPSC Recalls API
   slug: open-cpsc-recalls
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/consumer-product-safety-commission/refs/heads/main/plans/consumer-product-safety-commission-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/consumer-product-safety-commission-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/consumer-product-safety-commission/refs/heads/main/rate-limits/consumer-product-safety-commission-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/consumer-product-safety-commission-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/consumer-product-safety-commission/refs/heads/main/finops/consumer-product-safety-commission-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/consumer-product-safety-commission-finops.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.cpsc.gov/rss.xml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/consumer-product-safety-commission/refs/heads/main/agentic-access/consumer-product-safety-commission-agentic-access.yml
   title: ''
@@ -123,9 +142,13 @@ common:
 created: '2024-12-25'
 description: The U.S. Consumer Product Safety Commission (CPSC) is the federal agency responsible for protecting the public from unreasonable risks of injury or death associated with consumer products such as toys, household items, electronics, and furniture. CPSC publishes a public, unauthenticated Recalls Retrieval Web Service that exposes recall records (with products, hazards, manufacturers, retailers, distributors, importers, and remedies) in JSON or XML, plus the SaferProducts.gov OData service for incident-report data accessed by application key.
 finops:
-- name: Consumer Product Safety Commission Finops
+- has_sources: false
+  method: generated
+  name: Consumer Product Safety Commission Finops
+  primary_unit: ''
   service_category: API
   slug: consumer-product-safety-commission-finops
+  template: true
 json_schemas:
 - name: CPSC Recall
   property_count: 21
@@ -136,11 +159,11 @@ jsonld:
   property_count: 3
   slug: consumer-product-safety-commission-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-10-06'
 name: Consumer Product Safety Commission
 nav: Providers
 network: true
-overview: 'Consumer Product Safety Commission publishes 2 APIs on the [APIs.io](https://apis.io/) network, including Recalls API, and 1 more. Tagged areas include Consumer Protection, Federal Government, Hazards, Open Data, and Product Safety.
+overview: 'Consumer Product Safety Commission publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network, including Recalls API, and 1 more. Tagged areas include Consumer Protection, Federal Government, Hazards, Open Data, and Product Safety.
 
 
   The Consumer Product Safety Commission catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.'
@@ -154,9 +177,10 @@ rate_limits:
   name: Consumer Product Safety Commission Rate Limits
   slug: consumer-product-safety-commission-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Consumer Product Safety Commission API Rules
+  name: Consumer Product Safety Commission — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -164,7 +188,8 @@ rules:
     info: 1
     warn: 4
   slug: consumer-product-safety-commission-jsonschema-spectral-rules
-- effective_rule_count: 48
+- authorship: unmarked
+  effective_rule_count: 48
   extends:
   - spectral:oas
   name: Consumer Product Safety Commission API Rules
@@ -177,17 +202,17 @@ rules:
   slug: consumer-product-safety-commission-rules
 score:
   band: emerging
-  composite: 23.9
+  composite: 25.5
   coverage:
     artifact_dirs: 13
-    catalog_earned: 47.5
+    catalog_earned: 50.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 52.5
-    catalog_max: 100.0
+    catalog_gap: 64.5
+    catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.6
   facets:
-    access_clarity: 0.0
+    access_clarity: 7.9
     contract_governance: 13.6
     contract_quality: 48.1
     developer_ergonomics: 16.7
@@ -212,8 +237,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

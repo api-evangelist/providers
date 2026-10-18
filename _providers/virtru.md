@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 116
+- acting_count: 69
   human_in_the_loop: 0
   name: Virtru Agentic Access
   operation_count: 116
   slug: virtru-agentic-access
-  summary_line: 116 operations · 116 acting
+  summary_line: 116 operations · 69 acting
 api_count: 15
 apis:
 - baseURL: https://api.virtru.com
@@ -161,6 +161,14 @@ collections:
   name: authorization authorization.AuthorizationService wellknownconfiguration.WellKnownService API
   slug: open-virtru-wellknownconfiguration-wellknownservice-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.virtru.com/newsroom
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.virtru.com/newsroom/rss.xml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/virtru/refs/heads/main/capabilities/virtru-capability-edges.yml
   title: ''
@@ -328,26 +336,26 @@ created: '2026-07-17'
 description: Virtru is a data-centric security company whose Data Security Platform is built on OpenTDF, the open Trusted Data Format. Applications encrypt data with attribute-based access control (ABAC) and enforce who can decrypt it through Key Access Servers (KAS), independent of where the data travels — email, files, SaaS, and data pipelines. The platform exposes Connect-protocol (gRPC + HTTP/JSON) services for policy (namespaces, attributes, values, subject mappings), key access, authorization decisions, and entity resolution, authenticated with OIDC/OAuth 2.0. Virtru maintains the open-source OpenTDF project and ships SDKs for JavaScript, Go, and Java plus the otdfctl CLI. Backed by Bessemer Venture Partners and ICONIQ Capital.
 image: https://www.virtru.com/hubfs/assets/images/logos/virtru/logomark/blue/virtru_LOGOMARKMASTER_BLUE_FINAL.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Virtru
 nav: Providers
 network: true
-overview: 'Virtru publishes 14 APIs on the [APIs.io](https://apis.io/) network, including authorization.AuthorizationService API, authorization.v2.AuthorizationService API, Entityresolution.v2.Entity Resolution Service API, and 11 more. Tagged areas include Company, Cybersecurity, Data Security, Encryption, and Access Control.
+overview: 'Virtru publishes 14 API contracts indexed on the [APIs.io](https://apis.io/) network, including authorization.AuthorizationService API, authorization.v2.AuthorizationService API, Entityresolution.v2.Entity Resolution Service API, and 11 more. Tagged areas include Company, Cybersecurity, Data Security, Encryption, and Access Control.
 
 
-  Virtru''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, CLI, authentication, and 28 more developer resources.'
+  Virtru''s developer surface includes engineering blog, documentation, API reference, getting-started guide, pricing, CLI, authentication, and 30 more developer resources.'
 random_paper: 2
 score:
   band: developing
-  composite: 49.1
+  composite: 49.2
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 47.4
     contract_governance: 18.2
@@ -372,8 +380,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -391,7 +399,7 @@ security:
 - kind: vulnerability-disclosure
   name: Virtru Vulnerability Disclosure
   slug: virtru-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 - kind: trust-center
   name: Virtru Trust Center
   slug: virtru-trust-center

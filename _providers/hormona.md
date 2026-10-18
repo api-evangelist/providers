@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.hormona.io/feed/
 - group: company
   title: ''
   type: Website
@@ -86,14 +90,14 @@ created: '2026-07-17'
 description: Hormona is a women's hormonal-health company founded in 2020 by Karolina Lofqvist and Jasmine Tagesson, with offices in London, UK and Stockholm, Sweden. It builds a hormone-tracking mobile app together with an at-home hormone monitor and urine-test kits that users scan with a phone camera to get real-time, quantitative hormone results without a lab visit. The app uses AI to learn each user's patterns and predict when PMS or period symptoms are likely, offering 30+ tools to manage hormonal symptoms and supporting women from their first period through perimenopause and menopause. Hormona is distributed on the App Store and Google Play and is used by women in 185+ countries. It is a direct-to-consumer product with no public developer API program.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hormona.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Hormona
 nav: Providers
 network: true
 overview: 'Hormona is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Femtech, Women''s Health, and Hormones.
 
 
-  Hormona''s developer surface includes engineering blog, support, pricing, and 8 more developer resources.'
+  Hormona''s developer surface includes engineering blog, support, pricing, and 9 more developer resources.'
 random_paper: 8
 score:
   band: emerging
@@ -128,8 +132,8 @@ score:
     regime: Health
     regime_id: health
     score: 15.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

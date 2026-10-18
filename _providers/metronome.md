@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.3
-  scored_at: '2026-10-04'
+  score: 30.4
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 120
+- acting_count: 79
   human_in_the_loop: 3
   name: Metronome Agentic Access
   operation_count: 133
   slug: metronome-agentic-access
-  summary_line: 133 operations · 120 acting · 3 human-in-the-loop
+  summary_line: 133 operations · 79 acting · 3 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://api.metronome.com
@@ -198,6 +198,21 @@ collections:
   name: Metronome
   slug: open-metronome
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/metronome/refs/heads/main/plans/metronome-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/metronome-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/metronome/refs/heads/main/rate-limits/metronome-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/metronome-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/metronome/refs/heads/main/finops/metronome-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/metronome-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/metronome/refs/heads/main/capabilities/metronome-capability-edges.yml
   title: ''
@@ -254,19 +269,23 @@ common:
 created: '2026-03-27'
 description: Metronome is a usage-based billing platform providing real-time metering, pricing, invoicing, and revenue recognition for API and cloud services.
 finops:
-- name: Metronome Finops
+- has_sources: false
+  method: generated
+  name: Metronome Finops
+  primary_unit: ''
   service_category: API
   slug: metronome-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/metronome.png
 layout: provider
 modified: '2026-05-19'
 name: Metronome
 nav: Providers
 network: true
-overview: 'Metronome publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Alerts API, Billable Metrics API, Contracts API, and 15 more. Tagged areas include Billing, FinOps, Metering, Pricing, and Usage-Based Billing.
+overview: 'Metronome publishes 18 API contracts indexed on the [APIs.io](https://apis.io/) network, including Alerts API, Billable Metrics API, Contracts API, and 15 more. Tagged areas include Billing, FinOps, Metering, Pricing, and Usage-Based Billing.
 
 
-  Metronome''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
+  Metronome''s developer surface includes authentication, documentation, engineering blog, and 12 more developer resources.'
 plans:
 - name: Metronome Plans Pricing
   plan_count: 3
@@ -278,17 +297,17 @@ rate_limits:
   slug: metronome-rate-limits
 score:
   band: thin
-  composite: 38.9
+  composite: 37.4
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 41.0
+    artifact_dirs: 14
+    catalog_earned: 38.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 23.7
+    access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 51.0
     developer_ergonomics: 35.7
@@ -308,8 +327,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 31
+- acting_count: 23
   human_in_the_loop: 0
   name: Nutanix Agentic Access
   operation_count: 54
   slug: nutanix-agentic-access
-  summary_line: 54 operations · 31 acting
+  summary_line: 54 operations · 23 acting
 api_count: 2
 apis:
 - description: The next-generation v4 API for managing the Nutanix Cloud Platform through Prism Central with GA SDKs for Python, Java, Go, and JavaScript. The v4 API is now the recommended version for production env
@@ -441,9 +441,13 @@ common:
 created: '2025-03-14'
 description: Nutanix is a hyper-converged infrastructure solution that integrates compute, virtualization, storage, networking, and security to power enterprise applications. Nutanix provides public APIs for managing and automating infrastructure including Prism Central, Prism Element, Karbon Kubernetes, Nutanix Database Service (NDB), Cloud Clusters (NC2), NCM Self-Service, and the GA v4 API platform.
 finops:
-- name: Nutanix Finops
+- has_sources: true
+  method: generated
+  name: Nutanix Finops
+  primary_unit: ''
   service_category: Hybrid Cloud Infrastructure
   slug: nutanix-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nutanix.png
 json_schemas:
 - name: ClusterIntentResponse
@@ -557,7 +561,7 @@ modified: '2026-08-15'
 name: Nutanix
 nav: Providers
 network: true
-overview: 'Nutanix publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Alerts API, Categories API, Clusters API, and 18 more. Tagged areas include Cloud Management, Hyperconverged, Infrastructure, Virtualization, and Kubernetes.
+overview: 'Nutanix publishes 21 API contracts indexed on the [APIs.io](https://apis.io/) network, including Alerts API, Categories API, Clusters API, and 18 more. Tagged areas include Cloud Management, Hyperconverged, Infrastructure, Virtualization, and Kubernetes.
 
 
   The Nutanix catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -577,9 +581,10 @@ rate_limits:
   name: Nutanix Rate Limits
   slug: nutanix-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Nutanix API Rules
+  name: Nutanix — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -587,7 +592,8 @@ rules:
     info: 1
     warn: 4
   slug: nutanix-jsonschema-spectral-rules
-- effective_rule_count: 57
+- authorship: generated
+  effective_rule_count: 57
   extends:
   - spectral:oas
   name: Nutanix API Rules
@@ -599,24 +605,24 @@ rules:
     warn: 0
   slug: nutanix-rules
 score:
-  band: exemplar
-  composite: 67.4
+  band: strong
+  composite: 65.9
   coverage:
-    artifact_dirs: 30
-    catalog_earned: 88.0
+    artifact_dirs: 31
+    catalog_earned: 85.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 27.0
+    catalog_gap: 30.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 9.6
+  delta: -3.8
   facets:
-    access_clarity: 75.0
+    access_clarity: 67.1
     contract_governance: 31.8
     contract_quality: 69.3
     developer_ergonomics: 57.7
     discoverability: 67.9
     operational_transparency: 76.3
-  previous_composite: 57.8
+  previous_composite: 69.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -633,9 +639,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 25.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: rising
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: flat
   upsert:
     applies: true
     score: 22.2

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 57.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: Hosted, remote Model Context Protocol server exposing Stotles public sector market data to AI chat tools and agents. Streamable-HTTP transport at api.stotles.com/mcp, authenticated with the same x-api
@@ -63,6 +63,11 @@ apis:
   slug: stotles-suppliers-api
 artifact_total: 10
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/stotles/refs/heads/main/rate-limits/stotles-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/stotles-rate-limits.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/stotles/refs/heads/main/overlays/stotles-public-api-overlay.yaml
   title: ''
@@ -172,10 +177,10 @@ modified: '2026-08-14'
 name: Stotles
 nav: Providers
 network: true
-overview: 'Stotles publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Buyers API, Frameworks API, Notices API, and 2 more. Tagged areas include Company, Procurement, Public Sector, Government, and Tenders.
+overview: 'Stotles publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Buyers API, Frameworks API, Notices API, and 2 more. Tagged areas include Company, Procurement, Public Sector, Government, and Tenders.
 
 
-  Stotles'' developer surface includes documentation, support, getting-started guide, signup flow, pricing, engineering blog, and 17 more developer resources.'
+  Stotles'' developer surface includes documentation, support, getting-started guide, signup flow, pricing, engineering blog, and 18 more developer resources.'
 plans:
 - name: Stotles Plans Pricing
   plan_count: 11
@@ -232,8 +237,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

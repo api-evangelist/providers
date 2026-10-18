@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -223,9 +223,13 @@ examples:
   name: Docuseal Create Template From Pdf Example
   slug: docuseal-create-template-from-pdf-example
 finops:
-- name: Docuseal Finops
+- has_sources: false
+  method: generated
+  name: Docuseal Finops
+  primary_unit: ''
   service_category: ''
   slug: docuseal-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/docuseal.png
 json_schemas:
 - name: DocuSeal Submission
@@ -248,7 +252,7 @@ modified: 2026-06-12
 name: DocuSeal
 nav: Providers
 network: true
-overview: 'DocuSeal publishes 3 APIs on the [APIs.io](https://apis.io/) network: Submissions API, Submitters API, and Templates API. Tagged areas include Document Signing, E-Signature, Electronic Signature, Document Management, and PDF.
+overview: 'DocuSeal publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Submissions API, Submitters API, and Templates API. Tagged areas include E-Signature, Document Management, PDF, Templates, and Open Source.
 
 
   The DocuSeal catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -265,9 +269,10 @@ rate_limits:
   name: Docuseal Rate Limits
   slug: docuseal-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: DocuSeal API Rules
+  name: DocuSeal — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -277,17 +282,17 @@ rules:
   slug: docuseal-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 51.9
+  composite: 46.3
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 66.6
+    artifact_dirs: 19
+    catalog_earned: 55.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 48.4
+    catalog_gap: 59.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.6
   facets:
-    access_clarity: 54.7
+    access_clarity: 26.3
     contract_governance: 23.5
     contract_quality: 55.2
     developer_ergonomics: 47.6
@@ -308,9 +313,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 25.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 27.8
@@ -327,16 +332,14 @@ security:
 - kind: vulnerability-disclosure
   name: Docuseal Vulnerability Disclosure
   slug: docuseal-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 - kind: trust-center
   name: Docuseal Trust Center
   slug: docuseal-trust-center
   summary_line: SOC 2, ISO 27001, HIPAA, GDPR
 slug: docuseal
 tags:
-- Document Signing
 - E-Signature
-- Electronic Signature
 - Document Management
 - PDF
 - Templates

@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 5
 apis:
 - description: 'Queen''s University Belfast operates a production Shibboleth SAML 2.0 Identity Provider registered in the UK Access Management Federation and, through it, eduGAIN. The signed SAML entity descriptor is '
@@ -54,6 +54,10 @@ apis:
   slug: datacite-repository-client
 artifact_total: 9
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.qub.ac.uk/News/
 - group: company
   title: ''
   type: Website
@@ -140,19 +144,23 @@ created: '2026-06-03'
 description: 'Queen''s University Belfast is a public research-intensive university in Belfast, Northern Ireland, founded in 1845 and a member of the Russell Group. Its programmable footprint is almost entirely a buyer''s footprint rather than a builder''s: there is no central developer portal, no api.qub.ac.uk, no institutional open-data portal, and no institution-authored OpenAPI. The research surface people mistake for QUB engineering is an Elsevier Pure tenancy — pure.qub.ac.uk and pureadmin.qub.ac.uk both CNAME into eu.prod.elsevierpure.com, and the OpenAPI served there is titled "Pure API" with contact pure-support@elsevier.com, so the data is QUB''s and the contract is Elsevier''s. The same pattern holds for the VLE (Canvas at canvas.qub.ac.uk, CNAME qub-vanity.instructure.com) and library discovery (Ex Libris Primo at qub.primo.exlibrisgroup.com). What QUB genuinely operates and publishes in machine-readable form is its identity federation: a production Shibboleth SAML 2.0 Identity
   Provider (entityID https://qub.ac.uk/shibboleth) registered in the UK Access Management Federation, which also hosts federated identity for the Healthcare Library of Northern Ireland and AFBI. Alongside that sit a live OAI-PMH 2.0 harvesting endpoint for the Research Portal, a registered DataCite repository client (BL.QUB, 2015), a school-level Crossref membership, and the NI-HPC / Kelvin2 national high-performance computing service, whose site runs on QUB''s own web platform. This profile deliberately records those tenancies as relationships rather than as QUB''s own contracts.'
 finops:
-- name: Queens University Belfast Finops
+- has_sources: true
+  method: generated
+  name: Queens University Belfast Finops
+  primary_unit: ''
   service_category: Education
   slug: queens-university-belfast-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/queens-university-belfast.png
 layout: provider
-modified: '2026-08-30'
+modified: '2026-10-06'
 name: Queen's University Belfast
 nav: Providers
 network: true
-overview: 'Queen''s University Belfast publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include University, Higher Education, Education, Research, and United Kingdom.
+overview: 'Queen''s University Belfast is listed with 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include University, Higher Education, Education, Research, and United Kingdom.
 
 
-  Queen''s University Belfast''s developer surface includes documentation, support, and 17 more developer resources.'
+  Queen''s University Belfast''s developer surface includes engineering blog, documentation, support, and 17 more developer resources.'
 plans:
 - name: Queens University Belfast Plans Pricing
   plan_count: 2
@@ -164,22 +172,22 @@ rate_limits:
   slug: queens-university-belfast-rate-limits
 score:
   band: emerging
-  composite: 20.5
+  composite: 14.9
   coverage:
-    artifact_dirs: 8
-    catalog_earned: 57.4
+    artifact_dirs: 10
+    catalog_earned: 44.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.6
+    catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: -5.6
   facets:
-    access_clarity: 37.4
+    access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 4.4
-    developer_ergonomics: 14.3
+    developer_ergonomics: 16.7
     discoverability: 71.4
-    operational_transparency: 18.9
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -188,7 +196,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 22.0
+  previous_composite: 20.5
   provenance:
     conformance: first-party
   regulatory:
@@ -197,13 +205,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 14.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/queens-university-belfast/refs/heads/main/screenshots/queens-university-belfast-2026-10-11T192056.png
 security:
 - kind: domain-security
   name: Queens University Belfast Domain Security

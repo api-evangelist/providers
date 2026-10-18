@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -61,7 +61,7 @@ modified: '2026-07-21'
 name: Relatable.io
 nav: Providers
 network: true
-overview: 'Relatable.io is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, MedTech, Medical Devices, Healthcare, and Product Relationship Management.
+overview: 'Relatable.io is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Technology, Medical Devices, Healthcare, and Product Relationship Management.
 
 
   Relatable.io''s developer surface includes engineering blog, support, and 2 more developer resources.'
@@ -98,8 +98,8 @@ score:
     regime: Health
     regime_id: health
     score: 4.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -114,7 +114,7 @@ security:
 slug: relatableio
 tags:
 - Company
-- MedTech
+- Medical Technology
 - Medical Devices
 - Healthcare
 - Product Relationship Management

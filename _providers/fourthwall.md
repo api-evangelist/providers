@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: verified
     openapi_examples: false
     protected_resource_metadata: verified
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 44.6
-  scored_at: '2026-10-04'
+  score: 42.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -150,6 +150,14 @@ collections:
   name: Fourthwall API
   slug: open-fourthwall
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://fourthwall.com/blog
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://fourthwall.com/blog/rss.xml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/fourthwall/refs/heads/main/capabilities/fourthwall-capability-edges.yml
   title: ''
@@ -214,23 +222,27 @@ common:
 created: '2026-07-01'
 description: Fourthwall is a creator commerce platform for building a branded online shop and storefront, selling physical merch, digital products, memberships, and accepting donations and gifts. It exposes a public Storefront API (storefront token) for headless product/collection/cart experiences and a Platform / Open API (Basic Auth API key or OAuth) for managing orders, products, promotions, gifting, memberships, and webhooks.
 finops:
-- name: Fourthwall Finops
+- has_sources: true
+  method: generated
+  name: Fourthwall Finops
+  primary_unit: ''
   service_category: Commerce and Creator Economy
   slug: fourthwall-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fourthwall.png
 layout: provider
 mcp_servers:
 - description: Remote MCP server at mcp.fourthwall.com over HTTP.
   name: Fourthwall MCP Server
   slug: fourthwall
-modified: '2026-07-01'
+modified: '2026-10-06'
 name: Fourthwall
 nav: Providers
 network: true
-overview: 'Fourthwall publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Collections API, Gifting API, Giveaways API, and 9 more. Tagged areas include Creator Commerce, E-Commerce, Merch, Storefront, and Membership.
+overview: 'Fourthwall publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including Collections API, Gifting API, Giveaways API, and 9 more. Tagged areas include Creator Commerce, E-Commerce, Merch, Storefront, and Membership.
 
 
-  Fourthwall''s developer surface includes authentication, documentation, and 11 more developer resources.'
+  Fourthwall''s developer surface includes engineering blog, authentication, documentation, and 12 more developer resources.'
 plans:
 - name: Fourthwall Plans Pricing
   plan_count: 2
@@ -247,22 +259,22 @@ scopes:
   summary_line: 14 scopes · authorizationCode
 score:
   band: thin
-  composite: 33.1
+  composite: 26.6
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 58.0
+    artifact_dirs: 16
+    catalog_earned: 42.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.0
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.5
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 44.9
-    developer_ergonomics: 22.6
+    developer_ergonomics: 25.0
     discoverability: 68.3
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   previous_composite: 33.1
   provenance:
     agentic_access: derived
@@ -278,9 +290,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

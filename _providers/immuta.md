@@ -34,15 +34,15 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 32
-  human_in_the_loop: 2
+- acting_count: 36
+  human_in_the_loop: 4
   name: Immuta Agentic Access
-  operation_count: 83
+  operation_count: 95
   slug: immuta-agentic-access
-  summary_line: 83 operations · 32 acting · 2 human-in-the-loop
-api_count: 1
+  summary_line: 95 operations · 36 acting · 4 human-in-the-loop
+api_count: 2
 apis:
 - description: The Immuta Govern app API — the tenant-hosted REST surface for registering data sources and connections, authoring data, subscription and write policies, managing domains, projects, purposes, tags, fr
   name: Immuta Govern API
@@ -299,7 +299,7 @@ modified: '2026-08-01'
 name: Immuta
 nav: Providers
 network: true
-overview: 'Immuta publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Access Request API, Asset API, Auth API, and 9 more. Tagged areas include Company, Data Governance, Data Access Control, Data Security, and Privacy.
+overview: 'Immuta publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including Access Request API, Asset API, Auth API, and 9 more. Tagged areas include Company, Data Governance, Data Access Control, Data Security, and Privacy.
 
 
   The Immuta catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -308,16 +308,16 @@ overview: 'Immuta publishes 12 APIs on the [APIs.io](https://apis.io/) network, 
   Immuta''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, authentication, and 32 more developer resources.'
 random_paper: 15
 score:
-  band: developing
-  composite: 54.2
+  band: strong
+  composite: 54.3
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 43.4
     contract_governance: 18.2
@@ -342,8 +342,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

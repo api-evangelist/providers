@@ -27,16 +27,39 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 5
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/caci-international/refs/heads/main/plans/caci-international-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/caci-international-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/caci-international/refs/heads/main/rate-limits/caci-international-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/caci-international-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/caci-international/refs/heads/main/finops/caci-international-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/caci-international-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://investor.caci.com/news
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://investor.caci.com/news?pagetemplate=rss
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/caci-international/refs/heads/main/security/caci-international-domain-security.yml
   title: ''
@@ -85,9 +108,13 @@ common:
 created: '2026-03-21'
 description: CACI International provides information technology, professional services, and managed solutions to U.S. federal government agencies in the defense, intelligence, homeland security, and civilian markets. The company delivers expertise and technology across C3I, cyber, digital solutions, enterprise IT, mission support, space, and spectrum superiority domains.
 finops:
-- name: Caci International Finops
+- has_sources: true
+  method: generated
+  name: Caci International Finops
+  primary_unit: ''
   service_category: Defense / Government IT Services
   slug: caci-international-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/caci-international.png
 jsonld:
 - class_count: 14
@@ -95,14 +122,17 @@ jsonld:
   property_count: 15
   slug: caci-international-context
 layout: provider
-modified: '2026-07-25'
+modified: '2026-10-06'
 name: CACI International
 nav: Providers
 network: true
 overview: 'CACI International is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Defense, Intelligence, Information Technology, Cybersecurity, and Government Services.
 
 
-  The CACI International catalog on APIs.io includes 1 JSON-LD context.'
+  The CACI International catalog on APIs.io includes 1 JSON-LD context.
+
+
+  CACI International''s developer surface includes engineering blog and 15 more developer resources.'
 plans:
 - name: Caci International Plans Pricing
   plan_count: 0
@@ -130,20 +160,20 @@ rate_limits:
   slug: caci-international-rate-limits
 score:
   band: emerging
-  composite: 15.5
+  composite: 14.4
   coverage:
     artifact_dirs: 11
-    catalog_earned: 41.0
+    catalog_earned: 38.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.1
   facets:
-    access_clarity: 28.9
+    access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 14.7
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 49.1
     operational_transparency: 2.6
   previous_composite: 15.5
@@ -153,8 +183,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 18.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

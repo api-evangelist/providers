@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://api.openlattice.com
@@ -189,7 +189,7 @@ modified: '2026-07-20'
 name: OpenLattice
 nav: Providers
 network: true
-overview: 'OpenLattice publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Authorizations API, Data API, Edm API, and 4 more. Tagged areas include Company, Data Integration, Entity Data Model, Public Sector, and Analytics.
+overview: 'OpenLattice publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authorizations API, Data API, Edm API, and 4 more. Tagged areas include Company, Data Integration, Entity Data Model, Public Sector, and Analytics.
 
 
   OpenLattice''s developer surface includes pricing, authentication, and 15 more developer resources.'
@@ -238,8 +238,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

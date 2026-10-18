@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.1
-  scored_at: '2026-10-04'
+  score: 24.2
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -128,6 +128,21 @@ collections:
   name: Google Chrome Management App Details Telemetry Users API
   slug: open-google-chrome-telemetry-users-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/google-chrome/refs/heads/main/plans/google-chrome-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/google-chrome-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/google-chrome/refs/heads/main/rate-limits/google-chrome-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/google-chrome-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/google-chrome/refs/heads/main/finops/google-chrome-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/google-chrome-finops.yml
 - group: company
   title: ''
   type: Website
@@ -243,9 +258,13 @@ features:
 - Built-in AI APIs (Gemini Nano)
 - Verified Access for ChromeOS device attestation
 finops:
-- name: Google Chrome Finops
+- has_sources: true
+  method: generated
+  name: Google Chrome Finops
+  primary_unit: ''
   service_category: Browser / Developer Tools
   slug: google-chrome-finops
+  template: false
 image: https://www.google.com/chrome/static/images/chrome-logo.svg
 integrations:
 - Google Workspace Admin
@@ -385,13 +404,13 @@ modified: '2026-09-16'
 name: Google Chrome
 nav: Providers
 network: true
-overview: 'Google Chrome publishes 15 APIs on the [APIs.io](https://apis.io/) network, including App Details API, Reports API, Telemetry Devices API, and 12 more. Tagged areas include Browser, Chrome Extensions, Developer Tools, and Web Platform.
+overview: 'Google Chrome publishes 15 API contracts indexed on the [APIs.io](https://apis.io/) network, including App Details API, Reports API, Telemetry Devices API, and 12 more. Tagged areas include Browser, Chrome Extensions, Developer Tools, and Web Platform.
 
 
   The Google Chrome catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Google Chrome''s developer surface includes authentication, engineering blog, YouTube channel, release notes, changelog, documentation, Stack Overflow tag, and 17 more developer resources.'
+  Google Chrome''s developer surface includes authentication, engineering blog, YouTube channel, release notes, changelog, documentation, Stack Overflow tag, and 20 more developer resources.'
 plans:
 - name: Google Chrome Plans Pricing
   plan_count: 4
@@ -402,9 +421,10 @@ rate_limits:
   name: Google Chrome Rate Limits
   slug: google-chrome-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Google Chrome API Rules
+  name: Google Chrome — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -419,17 +439,17 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: developing
-  composite: 47.5
+  composite: 46.0
   coverage:
     artifact_dirs: 19
-    catalog_earned: 40.3
+    catalog_earned: 37.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 74.8
+    catalog_gap: 77.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 36.8
+    access_clarity: 28.9
     contract_governance: 9.8
     contract_quality: 62.8
     developer_ergonomics: 59.5
@@ -449,8 +469,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -25,17 +25,22 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: false
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 11.2
-  scored_at: '2026-10-04'
+  score: 14.7
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 6
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/notable/refs/heads/main/rate-limits/notable-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/notable-rate-limits.yml
 - group: company
   title: ''
   type: Website
@@ -133,7 +138,7 @@ network: true
 overview: 'Notable is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Application, Healthcare, Artificial Intelligence, and Automation.
 
 
-  Notable''s developer surface includes engineering blog, support, and 13 more developer resources.'
+  Notable''s developer surface includes engineering blog, support, and 14 more developer resources.'
 plans:
 - name: Notable Plans Pricing
   plan_count: 0
@@ -177,8 +182,8 @@ score:
     regime: Health
     regime_id: health
     score: 22.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -33,10 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://seaporttx.com/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/seaport-therapeutics/refs/heads/main/security/seaport-therapeutics-domain-security.yml
   title: ''
@@ -74,7 +78,7 @@ created: '2026-08-26'
 description: Seaport Therapeutics is a Boston-based clinical-stage biopharmaceutical company developing new medicines for patients with depression, anxiety and other neuropsychiatric disorders. Its proprietary Glyph platform — licensed from the Porter Research Group at Monash University — applies lymphatic-targeting oral prodrug chemistry so that more medicine reaches the bloodstream and brain while bypassing first-pass liver metabolism and reducing side effects. The clinical pipeline includes GlyphAllo (SPT-300), an oral allopregnanolone prodrug in Phase 2 for major depressive disorder; GlyphAgo (SPT-320), an oral agomelatine prodrug in Phase 2 for generalized anxiety disorder; and Glyph2BLSD (SPT-348), a pre-clinical non-hallucinogenic 2-bromo-LSD neuroplastogen. Seaport publishes no public API, developer portal, SDK or machine-readable specification; its public web surface is a corporate WordPress site plus a hosted investor-relations subdomain.
 image: https://seaporttx.com/wp-content/uploads/2023/11/seaport_logo.png
 layout: provider
-modified: '2026-08-26'
+modified: '2026-10-06'
 name: Seaport Therapeutics
 nav: Providers
 network: true
@@ -82,15 +86,15 @@ overview: Seaport Therapeutics is profiled on the [APIs.io](https://apis.io/) ne
 random_paper: 18
 score:
   band: minimal
-  composite: 8.8
+  composite: 8.9
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
@@ -112,8 +116,8 @@ score:
     regime: Health
     regime_id: health
     score: 10.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

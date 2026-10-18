@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 93
-  human_in_the_loop: 2
+- acting_count: 41
+  human_in_the_loop: 1
   name: Asapp Agentic Access
-  operation_count: 137
+  operation_count: 81
   slug: asapp-agentic-access
-  summary_line: 137 operations · 93 acting · 2 human-in-the-loop
+  summary_line: 81 operations · 41 acting · 1 human-in-the-loop
 api_count: 13
 apis:
 - baseURL: https://api.asapp.com
@@ -167,6 +167,10 @@ collections:
   name: AutoCompose Twilio Media Stream API
   slug: open-asapp-twilio-media-stream-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.asapp.com/blog/rss.xml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/asapp/refs/heads/main/capabilities/asapp-capability-edges.yml
   title: ''
@@ -324,29 +328,29 @@ json_schemas:
   property_count: 0
   slug: asapp-messaging-feeds
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: ASAPP
 nav: Providers
 network: true
-overview: 'ASAPP publishes 14 APIs on the [APIs.io](https://apis.io/) network, including AutoCompose API, AutoSummary API, AutoTranscribe API, and 11 more. Tagged areas include Company, Artificial Intelligence, Conversational AI, Contact Center, and Customer Experience.
+overview: 'ASAPP publishes 14 API contracts indexed on the [APIs.io](https://apis.io/) network, including AutoCompose API, AutoSummary API, AutoTranscribe API, and 11 more. Tagged areas include Company, Artificial Intelligence, Conversational AI, Contact Center, and Customer Experience.
 
 
   The ASAPP catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  ASAPP''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, engineering blog, and 25 more developer resources.'
+  ASAPP''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, engineering blog, and 26 more developer resources.'
 random_paper: 5
 score:
   band: strong
-  composite: 57.8
+  composite: 57.5
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 39.5
     contract_governance: 18.2
@@ -373,12 +377,12 @@ score:
     - jurisdiction: US
       standard: hipaa
     jurisdictions_satisfied: 2
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 23.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

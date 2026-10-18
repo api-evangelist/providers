@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 34.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -216,7 +216,7 @@ modified: '2026-09-07'
 name: Plumma
 nav: Providers
 network: true
-overview: 'Plumma publishes 1 API on the [APIs.io](https://apis.io/) network: CONNECT API. Tagged areas include Telecommunications, Network APIs, Italy, Europe, and GSMA Open Gateway.
+overview: 'Plumma publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: CONNECT API. Tagged areas include Telecommunications, Network APIs, Italy, Europe, and GSMA Open Gateway.
 
 
   Plumma''s developer surface includes sandbox, signup flow, authentication, documentation, API reference, support, engineering blog, and 28 more developer resources.'
@@ -233,7 +233,7 @@ score:
   band: developing
   composite: 53.4
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 63.7
     catalog_earned_first_party: 20.0
     catalog_gap: 51.4
@@ -272,12 +272,13 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 35.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
     score: 0.0
+screenshot: https://raw.githubusercontent.com/api-evangelist/plumma/refs/heads/main/screenshots/plumma-2026-10-11T112634.png
 security:
 - kind: authentication
   name: Plumma Authentication

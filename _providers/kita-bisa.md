@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://amanah.kitabisa.com/feed/
 - group: company
   title: ''
   type: Website
@@ -103,14 +107,14 @@ description: Kitabisa is Indonesia's largest donation-based crowdfunding and mut
   program backed by an RFC 9116 security.txt.
 image: https://avatars.githubusercontent.com/u/40655294?v=4
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Kita Bisa
 nav: Providers
 network: true
 overview: 'Kita Bisa is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crowdfunding, Donations, Non-Profit, and Philanthropy.
 
 
-  Kita Bisa''s developer surface includes engineering blog, support, and 12 more developer resources.'
+  Kita Bisa''s developer surface includes engineering blog, support, and 13 more developer resources.'
 random_paper: 5
 score:
   band: emerging
@@ -144,8 +148,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 17.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

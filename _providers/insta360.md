@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: On-device HTTP/JSON control API for Insta360 consumer 360 cameras (ONE X/X2/X3/X4/X5, ONE R/RS), implemented on Google's Open Spherical Camera (OSC) standard. The camera runs a built-in HTTP server re
@@ -43,6 +43,10 @@ apis:
   slug: insta360-pro-camera-api
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.insta360.com/enterprise/industries/news
 - group: company
   title: ''
   type: Website
@@ -97,31 +101,31 @@ created: '2026-07-17'
 description: 'Insta360 (Arashi Vision Co., Ltd) is a consumer and professional imaging company best known for its 360-degree and action cameras (the X, GO, ACE, Link, and Pro/Titan lines). For developers, Insta360 runs a first-party developer program through its Insta360Develop GitHub organization and a VitePress developer-documentation site. Cameras expose on-device HTTP control APIs: consumer models implement Google''s Open Spherical Camera (OSC) API over the camera Wi-Fi AP, and the Pro/Titan line adds a JSON-over-HTTP command API (ProCameraApi) for capture, live streaming, and file access. Native SDKs wrap this surface for C++ (camera control and media stitching/editing), Android, and iOS so third-party apps can connect to, configure, capture from, and post-process footage from Insta360 hardware.'
 image: https://raw.githubusercontent.com/api-evangelist/insta360/refs/heads/main/apis.yml
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Insta360
 nav: Providers
 network: true
-overview: 'Insta360 publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer Technology, Camera, Imaging, and 360 Video.
+overview: 'Insta360 is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer Technology, Camera, Imaging, and 360 Video.
 
 
-  Insta360''s developer surface includes documentation, API reference, and 9 more developer resources.'
+  Insta360''s developer surface includes engineering blog, documentation, API reference, and 9 more developer resources.'
 random_paper: 14
 score:
   band: emerging
-  composite: 14.9
+  composite: 15.4
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 0.0
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 33.3
+    developer_ergonomics: 35.7
     discoverability: 64.3
     operational_transparency: 2.6
   previous_composite: 14.9
@@ -133,8 +137,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

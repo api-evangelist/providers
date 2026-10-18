@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://univer.se/blog
 - group: company
   title: ''
   type: Website
@@ -78,31 +82,31 @@ created: '2026-07-17'
 description: Universe is a no-code website builder that lets anyone design and publish a custom website from a phone, tablet, or computer, using a drag-and-drop GRID block system with built-in commerce, mail tools, analytics, and SEO. A 2023 Apple Design Award winner with more than one million sites built, Universe is a Y Combinator W18 company backed by GV and General Catalyst. Universe is a consumer creation platform and publishes no public developer API.
 image: https://universeapp.com/_assets/9081508d-60a7-4b26-a8e6-8bcb93b06d12?w=1200&h=630&crop=top&fit=crop
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Universe
 nav: Providers
 network: true
 overview: 'Universe is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Website Builder, No-Code, E-Commerce, and Creator Economy.
 
 
-  Universe''s developer surface includes pricing, support, signup flow, and 6 more developer resources.'
+  Universe''s developer surface includes engineering blog, pricing, support, signup flow, and 6 more developer resources.'
 random_paper: 1
 score:
   band: emerging
-  composite: 15.5
+  composite: 16.0
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 7
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 44.7
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 4.8
+    developer_ergonomics: 7.1
     discoverability: 55.4
     operational_transparency: 2.6
   previous_composite: 15.5
@@ -112,8 +116,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

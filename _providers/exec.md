@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 40.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -44,7 +44,7 @@ agentic_access:
   operation_count: 32
   slug: exec-agentic-access
   summary_line: 32 operations · 11 acting
-api_count: 1
+api_count: 2
 apis:
 - baseURL: https://api.exec.com/rest/v1
   baseurl_source: declared
@@ -296,7 +296,7 @@ modified: '2026-08-14'
 name: Exec
 nav: Providers
 network: true
-overview: 'Exec publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Collections API, Knowledge Hub - Folders API, Knowledge Hub - Pages API, and 6 more. Tagged areas include Company, Artificial Intelligence, Sales Enablement, Training, and Roleplay.
+overview: 'Exec publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Collections API, Knowledge Hub - Folders API, Knowledge Hub - Pages API, and 6 more. Tagged areas include Company, Artificial Intelligence, Sales Enablement, Training, and Roleplay.
 
 
   The Exec catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -347,8 +347,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 27.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

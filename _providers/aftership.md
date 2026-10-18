@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 59.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 85
+- acting_count: 84
   human_in_the_loop: 0
   name: Aftership Agentic Access
-  operation_count: 131
+  operation_count: 130
   slug: aftership-agentic-access
-  summary_line: 131 operations · 85 acting
+  summary_line: 130 operations · 84 acting
 api_count: 7
 apis:
 - baseURL: https://api.aftership.com/address/2024-07/
@@ -640,12 +640,55 @@ apis:
     question: How do I void a customer's warranty registration?
   phrasing_ops: 3
   slug: aftership-warranty-registrations-api
-artifact_total: 45
+artifact_total: 118
 asyncapis:
 - description: ''
   name: Aftership Webhooks
   slug: aftership-webhooks
 common:
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aftership/refs/heads/main/rules/aftership-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/aftership-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aftership/refs/heads/main/json-ld/aftership-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/aftership-context.jsonld
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aftership/refs/heads/main/vocabulary/aftership-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/aftership-vocabulary.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/aftership/refs/heads/main/llms/aftership-api-host-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/aftership-api-host-llms.txt
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/aftership/refs/heads/main/hosts/aftership-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/aftership-hosts.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/aftership/refs/heads/main/integrations/aftership-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/aftership-integration-edges.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/aftership/refs/heads/main/vendors/aftership-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/aftership-vendors.yml
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://www.aftership.com/company/news
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.aftership.com/blog/.rss
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/aftership/refs/heads/main/capabilities/aftership-capability-edges.yml
   title: ''
@@ -867,26 +910,249 @@ common:
 created: '2026-05-08'
 description: AfterShip is a post-purchase experience platform for ecommerce brands, retailers, marketplaces and 3PLs, founded in 2012 and headquartered in Hong Kong. Its products cover shipment tracking across 1,400+ carriers, branded tracking pages, AI-predicted estimated delivery dates, automated returns and exchanges, warranty and claims management, shipping-label generation and rate shopping (Postmen), shipment protection, address validation, AI email parsing, product personalization and discovery, and marketplace feed management. AfterShip publishes ten versioned, date-based REST APIs on api.aftership.com, each with a downloadable OpenAPI 3.1 description, seven first-party SDKs, webhooks, an OAuth 2.0 authorization server, and public and OAuth-gated MCP servers for AI agents.
 finops:
-- name: Aftership Finops
+- has_sources: true
+  method: generated
+  name: Aftership Finops
+  primary_unit: ''
   service_category: Shipping
   slug: aftership-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aftership.png
+json_schemas:
+- name: Address
+  property_count: 12
+  slug: aftership-address
+- name: Address
+  property_count: 11
+  slug: aftership-address-v1
+- name: Address
+  property_count: 19
+  slug: aftership-address-v3
+- name: AddressValidation
+  property_count: 6
+  slug: aftership-address-validation-v3
+- name: AddressWithCoordinate
+  property_count: 14
+  slug: aftership-address-with-coordinate-v1
+- name: Amount
+  property_count: 2
+  slug: aftership-amount-v1
+- name: Attachment
+  property_count: 3
+  slug: aftership-attachment-v1
+- name: CancelLabel
+  property_count: 5
+  slug: aftership-cancel-label-v3
+- name: CancelPickup
+  property_count: 5
+  slug: aftership-cancel-pickup-v3
+- name: ClaimItem
+  property_count: 25
+  slug: aftership-claim-item
+- name: Claim
+  property_count: 26
+  slug: aftership-claim
+- name: ClaimShipment
+  property_count: 11
+  slug: aftership-claim-shipment
+- name: Claim
+  property_count: 22
+  slug: aftership-claim-v1
+- name: Courier connection response for get courier connections
+  property_count: 2
+  slug: aftership-courier-connection-response-get-multiple
+- name: courier_connection
+  property_count: 5
+  slug: aftership-courier-connection
+- name: Courier response
+  property_count: 2
+  slug: aftership-courier-response-v1
+- name: Courier
+  property_count: 8
+  slug: aftership-courier-v3
+- name: Coverage
+  property_count: 17
+  slug: aftership-coverage-v1
+- name: Customs
+  property_count: 8
+  slug: aftership-customs-v3
+- name: dropoff_drop.v2
+  property_count: 6
+  slug: aftership-dropoff-drop
+- name: dropoff_drops_request_post_drop
+  property_count: 2
+  slug: aftership-dropoff-drops-request-post-drop
+- name: EmailHeader
+  property_count: 2
+  slug: aftership-email-header-v1
+- name: Error
+  property_count: 2
+  slug: aftership-error
+- name: Estimated_delivery_date Request
+  property_count: 8
+  slug: aftership-estimated-delivery-date-request
+- name: Estimated_delivery_date Response
+  property_count: 13
+  slug: aftership-estimated-delivery-date-response
+- name: Fulfillment
+  property_count: 13
+  slug: aftership-fulfillment-v1
+- name: InputFiles
+  property_count: 3
+  slug: aftership-input-files-v3
+- name: Invoice
+  property_count: 6
+  slug: aftership-invoice-v3
+- name: ItemTag
+  property_count: 3
+  slug: aftership-item-tag
+- name: Label
+  property_count: 17
+  slug: aftership-label-v3
+- name: Location
+  property_count: 10
+  slug: aftership-location-v1
+- name: Manifest
+  property_count: 7
+  slug: aftership-manifest-v3
+- name: Membership
+  property_count: 4
+  slug: aftership-membership-v1
+- name: Meta
+  property_count: 3
+  slug: aftership-meta-20000
+- name: Meta
+  property_count: 3
+  slug: aftership-meta-20100
+- name: Meta
+  property_count: 3
+  slug: aftership-meta
+- name: Meta
+  property_count: 4
+  slug: aftership-meta-v1
+- name: Meta
+  property_count: 4
+  slug: aftership-meta-v3
+- name: Money
+  property_count: 2
+  slug: aftership-money
+- name: Money
+  property_count: 2
+  slug: aftership-money-v1
+- name: OpeningHours
+  property_count: 7
+  slug: aftership-opening-hours-v1
+- name: Order Item
+  property_count: 6
+  slug: aftership-order-item-v1
+- name: Order
+  property_count: 17
+  slug: aftership-order-v1
+- name: OrderV2
+  property_count: 19
+  slug: aftership-order-v2
+- name: Pagination
+  property_count: 4
+  slug: aftership-pagination
+- name: Pagination
+  property_count: 3
+  slug: aftership-pagination-v1
+- name: Pagination
+  property_count: 3
+  slug: aftership-pagination-v2
+- name: PickupLocation
+  property_count: 3
+  slug: aftership-pickup-location-v1
+- name: PickupParcel
+  property_count: 4
+  slug: aftership-pickup-parcel-v3
+- name: Pickup
+  property_count: 3
+  slug: aftership-pickup-v1
+- name: Pickup
+  property_count: 14
+  slug: aftership-pickup-v3
+- name: Product
+  property_count: 15
+  slug: aftership-product-v1
+- name: product_variant.v1
+  property_count: 10
+  slug: aftership-product-variant-v1
+- name: RateRecord
+  property_count: 5
+  slug: aftership-rate-record-v3
+- name: RecommendRequest
+  property_count: 6
+  slug: aftership-recommend-request
+- name: Reference
+  property_count: 1
+  slug: aftership-reference-v3
+- name: Return
+  property_count: 42
+  slug: aftership-return
+- name: Role
+  property_count: 2
+  slug: aftership-role-v1
+- name: SearchRequest
+  property_count: 10
+  slug: aftership-search-request
+- name: SearchResponse
+  property_count: 2
+  slug: aftership-search-response
+- name: Shipment
+  property_count: 7
+  slug: aftership-shipment-v3
+- name: ShipperAccount
+  property_count: 9
+  slug: aftership-shipper-account-v3
+- name: Store
+  property_count: 17
+  slug: aftership-store-v1
+- name: SuggestRequest
+  property_count: 3
+  slug: aftership-suggest-request
+- name: SuggestResponse
+  property_count: 2
+  slug: aftership-suggest-response
+- name: TaggingResponse
+  property_count: 2
+  slug: aftership-tagging-response
+- name: Tracking response for get trackings
+  property_count: 2
+  slug: aftership-tracking-response-get-multiple-v1
+- name: Tracking response
+  property_count: 2
+  slug: aftership-tracking-response-v1
+- name: Tracking
+  property_count: 3
+  slug: aftership-tracking-v1
+- name: WarrantyRegistration
+  property_count: 8
+  slug: aftership-warranty-registrations
+- name: Weight
+  property_count: 2
+  slug: aftership-weight-v1
+jsonld:
+- class_count: 120
+  name: Aftership Context
+  property_count: 344
+  slug: aftership-context
 layout: provider
 mcp_servers:
 - description: AfterShip publishes an anonymous, no-auth remote MCP server for real-time package tracking and a Returns Center demo, plus two OAuth-gated remote MCP servers (Post-purchase and Channels) documented on
   name: AfterShip Tracking & Returns MCP Server
   slug: aftership-tracking-returns-mcp-server
-modified: '2026-08-27'
+modified: '2026-10-06'
 name: AfterShip
 nav: Providers
 network: true
-overview: 'AfterShip publishes 34 APIs on the [APIs.io](https://apis.io/) network, including Address API, Address Validations (Beta) API, Cancel Labels API, and 31 more. Tagged areas include Shipping, Tracking, E-Commerce, Post-Purchase, and Notification.
+overview: 'AfterShip publishes 34 API contracts indexed on the [APIs.io](https://apis.io/) network, including Address API, Address Validations (Beta) API, Cancel Labels API, and 31 more. Tagged areas include Shipping, Tracking, E-Commerce, Post-Purchase, and Notification.
 
 
-  The AfterShip catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The AfterShip catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  AfterShip''s developer surface includes authentication, sandbox, changelog, documentation, API reference, getting-started guide, support, and 40 more developer resources.'
+  AfterShip''s developer surface includes authentication, sandbox, changelog, documentation, API reference, getting-started guide, support, and 49 more developer resources.'
 plans:
 - name: Aftership Plans Pricing
   plan_count: 4
@@ -896,6 +1162,19 @@ rate_limits:
 - limit_count: 20
   name: Aftership Rate Limits
   slug: aftership-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 57
+  extends:
+  - spectral:oas
+  name: AfterShip API Rules
+  rule_count: 16
+  severity_counts:
+    error: 10
+    hint: 0
+    info: 3
+    warn: 3
+  slug: aftership-rules
 scopes:
 - name: Aftership Scopes
   scope_count: 7
@@ -903,21 +1182,21 @@ scopes:
   summary_line: 7 scopes
 score:
   band: exemplar
-  composite: 78.6
+  composite: 82.6
   coverage:
-    artifact_dirs: 27
-    catalog_earned: 67.0
+    artifact_dirs: 34
+    catalog_earned: 89.8
     catalog_earned_first_party: 24.0
-    catalog_gap: 48.0
+    catalog_gap: 25.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 4.0
   facets:
-    access_clarity: 100.0
-    contract_governance: 18.2
-    contract_quality: 58.2
+    access_clarity: 92.1
+    contract_governance: 35.6
+    contract_quality: 71.6
     developer_ergonomics: 81.0
-    discoverability: 80.0
+    discoverability: 81.7
     operational_transparency: 92.1
   previous_composite: 78.6
   provenance:
@@ -936,8 +1215,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 44.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

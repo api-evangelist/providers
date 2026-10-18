@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.qt.io/blog/rss.xml
 - group: company
   title: ''
   type: Website
@@ -95,20 +99,20 @@ created: '2026-07-17'
 description: Qt Group is a global software company that builds cross-platform development, design, and quality-assurance tools used across more than 70 industries and billions of devices. Its portfolio spans the Qt Framework (cross-platform C++ software libraries and APIs), the Qt Creator IDE, Qt for MCUs, Qt Design Studio, and the quality-assurance suite (Squish GUI test automation, Coco code coverage, Test Center, and Axivion static analysis). Qt does not publish a public REST/HTTP API; its "APIs" are C++/QML/Python library APIs shipped with the framework, with the official Python bindings (PySide6/PySide2) distributed on PyPI. Documentation, learning, and support are provided through doc.qt.io, the Qt Academy, and forum.qt.io.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/qt.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Qt
 nav: Providers
 network: true
 overview: 'Qt is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Developer Tools, Cross-Platform, and Framework.
 
 
-  Qt''s developer surface includes documentation, engineering blog, support, pricing, signup flow, and 8 more developer resources.'
+  Qt''s developer surface includes documentation, engineering blog, support, pricing, signup flow, and 9 more developer resources.'
 random_paper: 9
 score:
   band: emerging
   composite: 18.6
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -129,8 +133,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

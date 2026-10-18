@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.4
-  scored_at: '2026-10-04'
+  score: 22.2
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -315,9 +315,13 @@ examples:
   name: Caiyun Weather Wind Example
   slug: caiyun-weather-wind-example
 finops:
-- name: Colorfulclouds Finops
+- has_sources: true
+  method: generated
+  name: Colorfulclouds Finops
+  primary_unit: ''
   service_category: Weather & Geospatial Data
   slug: colorfulclouds-finops
+  template: false
 image: https://caiyunapp.com/static/img/logo.png
 json_schemas:
 - name: AirQualityRealtimeResponse
@@ -595,7 +599,7 @@ modified: '2026-05-30'
 name: ColorfulClouds
 nav: Providers
 network: true
-overview: 'ColorfulClouds publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Air Quality API, Alerts API, Forecast API, and 3 more. Tagged areas include Weather, Forecasting, Air Quality, Precipitation, and Hyperlocal.
+overview: 'ColorfulClouds is listed with 6 APIs on the [APIs.io](https://apis.io/) network, including Air Quality API, Alerts API, Forecast API, and 3 more. Tagged areas include Weather, Forecasting, Air Quality, Precipitation, and Hyperlocal.
 
 
   The ColorfulClouds catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -612,9 +616,10 @@ rate_limits:
   name: Colorfulclouds Rate Limits
   slug: colorfulclouds-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: ColorfulClouds API Rules
+  name: ColorfulClouds — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -622,7 +627,8 @@ rules:
     info: 1
     warn: 4
   slug: colorfulclouds-jsonschema-spectral-rules
-- effective_rule_count: 39
+- authorship: unmarked
+  effective_rule_count: 39
   extends: []
   name: ColorfulClouds API Rules
   rule_count: 39
@@ -634,22 +640,22 @@ rules:
   slug: colorfulclouds-rules
 score:
   band: thin
-  composite: 37.1
+  composite: 28.8
   coverage:
     artifact_dirs: 16
-    catalog_earned: 84.6
+    catalog_earned: 66.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 30.4
+    catalog_gap: 49.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 49.5
+    access_clarity: 21.1
     contract_governance: 27.3
     contract_quality: 24.6
     developer_ergonomics: 28.6
     discoverability: 78.6
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -671,9 +677,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

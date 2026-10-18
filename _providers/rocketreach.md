@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 58.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 7
+- acting_count: 6
   human_in_the_loop: 0
   name: Rocketreach Agentic Access
-  operation_count: 16
+  operation_count: 17
   slug: rocketreach-agentic-access
-  summary_line: 16 operations · 7 acting
+  summary_line: 17 operations · 6 acting
 api_count: 5
 apis:
 - baseURL: https://api.rocketreach.co/api/v2
@@ -90,6 +90,10 @@ collections:
   name: RocketReach People Search API
   slug: open-rocketreach-people-search-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://rocketreach.co/resources/feed/
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/rocketreach/refs/heads/main/agentic-access/rocketreach-agentic-access.yml
   title: ''
@@ -356,17 +360,17 @@ mcp_servers:
 - description: RocketReach ships a first-party, hosted Model Context Protocol server that exposes its people and company search and lookup surface as MCP tools. The agent authenticates once via OAuth 2.1 with PKCE a
   name: RocketReach MCP Server
   slug: rocketreach-mcp-server
-modified: '2026-09-16'
+modified: '2026-10-06'
 name: RocketReach
 nav: Providers
 network: true
-overview: 'RocketReach publishes 3 APIs on the [APIs.io](https://apis.io/) network: Account API, Company Data API, and People Data API. Tagged areas include B2B, Contact Data, Email Lookup, Phone Lookup, and Sales Intelligence.
+overview: 'RocketReach publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Account API, Company Data API, and People Data API. Tagged areas include B2B, Contact Data, Email Lookup, Phone Lookup, and Sales Intelligence.
 
 
   The RocketReach catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  RocketReach''s developer surface includes authentication, developer portal, documentation, getting-started guide, FAQ, pricing, signup flow, and 48 more developer resources.'
+  RocketReach''s developer surface includes authentication, developer portal, documentation, getting-started guide, FAQ, pricing, signup flow, and 49 more developer resources.'
 plans:
 - name: Rocketreach Plans Pricing
   plan_count: 4
@@ -383,15 +387,15 @@ scopes:
   summary_line: 1 scope · authorization_code/refresh_token
 score:
   band: strong
-  composite: 62.6
+  composite: 62.7
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 52.0
     catalog_earned_first_party: 12.0
     catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 84.2
     contract_governance: 18.2
@@ -423,8 +427,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

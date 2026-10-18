@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: BMS Medical Information Online provides US healthcare providers with prescribing information, medical inquiry submission, and product/regimen libraries for BMS medicines across oncology, hematology, i
@@ -124,16 +124,20 @@ common:
 created: '2026-03-21'
 description: Bristol Myers Squibb (BMS) is a global Fortune 500 biopharmaceutical company committed to discovering, developing, and delivering innovative medicines for patients with serious diseases. BMS focuses on oncology, immunology, cardiovascular, fibrosis, and cell therapy (CAR T). The company operates BMS Study Connect for clinical trial recruitment, a Medical Information portal for healthcare providers, and the BMS Business Development platform for research partnerships and data sharing. BMS actively pursues technology partnerships in protein degradation, advanced treatment modalities, and digital health.
 finops:
-- name: Bristol Myers Squibb Finops
+- has_sources: true
+  method: generated
+  name: Bristol Myers Squibb Finops
+  primary_unit: ''
   service_category: Pharmaceutical
   slug: bristol-myers-squibb-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bristol-myers-squibb.png
 layout: provider
 modified: '2026-09-04'
 name: Bristol Myers Squibb
 nav: Providers
 network: true
-overview: 'Bristol Myers Squibb publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Pharmaceuticals, Biopharmaceutical, Oncology, Immunology, and Cardiovascular.
+overview: 'Bristol Myers Squibb publishes no API. The 2 entries listed on the [APIs.io](https://apis.io/) network are product areas recorded for completeness, each marked as not an API. Tagged areas include Pharmaceuticals, Biopharmaceutical, Oncology, Immunology, and Cardiovascular.
 
 
   Bristol Myers Squibb''s developer surface includes engineering blog and 16 more developer resources.'
@@ -164,17 +168,17 @@ rate_limits:
   slug: bristol-myers-squibb-rate-limits
 score:
   band: emerging
-  composite: 15.3
+  composite: 13.8
   coverage:
     artifact_dirs: 14
-    catalog_earned: 35.0
+    catalog_earned: 32.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 80.0
+    catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 28.9
+    access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
@@ -190,8 +194,8 @@ score:
     regime: Health
     regime_id: health
     score: 14.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

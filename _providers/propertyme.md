@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 86
   slug: propertyme-agentic-access
   summary_line: 86 operations · 38 acting
-api_count: 1
+api_count: 2
 apis:
 - baseURL: https://app.propertyme.com/api
   baseurl_source: declared
@@ -286,7 +286,7 @@ modified: '2026-07-26'
 name: PropertyMe
 nav: Providers
 network: true
-overview: 'PropertyMe publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Connection API, Scope: Activities API, Scope: Bills API, and 3 more. Tagged areas include Real Estate, Australia, Property Management, Rentals, and PropTech.
+overview: 'PropertyMe publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Connection API, Scope: Activities API, Scope: Bills API, and 3 more. Tagged areas include Real Estate, Australia, Property Management, Rentals, and PropTech.
 
 
   PropertyMe''s developer surface includes authentication, documentation, API reference, signup flow, pricing, support, engineering blog, and 34 more developer resources.'
@@ -339,8 +339,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 31.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

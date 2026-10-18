@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: The Tez DAG API provides a Java programming model for defining and submitting directed-acyclic-graph (DAG) computation jobs to Apache YARN. It allows building DAGs composed of Vertex (processing units
@@ -44,6 +44,21 @@ apis:
   slug: apache-tez-ui-rest-api
 artifact_total: 19
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/apache-tez/refs/heads/main/plans/apache-tez-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/apache-tez-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/apache-tez/refs/heads/main/rate-limits/apache-tez-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/apache-tez-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/apache-tez/refs/heads/main/finops/apache-tez-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/apache-tez-finops.yml
 - group: company
   title: ''
   type: Website
@@ -100,9 +115,13 @@ features:
 - description: Native YARN resource management with fine-grained resource requests per vertex.
   name: YARN Integration
 finops:
-- name: Apache Tez Finops
+- has_sources: false
+  method: generated
+  name: Apache Tez Finops
+  primary_unit: ''
   service_category: API
   slug: apache-tez-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/apache-tez.png
 integrations:
 - description: Native YARN resource manager integration for cluster resource allocation.
@@ -118,10 +137,10 @@ modified: '2026-04-19'
 name: Apache Tez
 nav: Providers
 network: true
-overview: 'Apache Tez publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Big Data, DAG, Execution Engine, Hadoop, and YARN.
+overview: 'Apache Tez is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Big Data, DAG, Execution Engine, Hadoop, and YARN.
 
 
-  Apache Tez''s developer surface includes documentation, developer portal, release notes, and 7 more developer resources.'
+  Apache Tez''s developer surface includes documentation, developer portal, release notes, and 10 more developer resources.'
 plans:
 - name: Apache Tez Plans Pricing
   plan_count: 3
@@ -133,17 +152,17 @@ rate_limits:
   slug: apache-tez-rate-limits
 score:
   band: emerging
-  composite: 20.0
+  composite: 18.5
   coverage:
     artifact_dirs: 6
-    catalog_earned: 41.0
+    catalog_earned: 38.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 26.3
+    access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 26.2
@@ -156,8 +175,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

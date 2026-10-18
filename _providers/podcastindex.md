@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 52
   slug: podcastindex-agentic-access
   summary_line: 52 operations · 4 acting
-api_count: 1
+api_count: 2
 apis:
 - baseURL: https://api.podcastindex.org/api/1.0
   baseurl_source: declared
@@ -142,6 +142,25 @@ collections:
   name: PodcastIndex.org API
   slug: open-podcastindex
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/podcastindex/refs/heads/main/plans/podcastindex-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/podcastindex-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/podcastindex/refs/heads/main/rate-limits/podcastindex-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/podcastindex-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/podcastindex/refs/heads/main/finops/podcastindex-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/podcastindex-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://podcastindex.org/blog/
 - group: operate
   title: ''
   type: IssueTracker
@@ -192,19 +211,23 @@ common:
 created: '2025-05-02'
 description: The Podcast Index (Podcast Index LLC) is a software developer focused partnership that provides tools and data to anyone who aspires to create new and exciting Podcast experiences without the heavy lifting of indexing, aggregation and data management.
 finops:
-- name: Podcastindex Finops
+- has_sources: false
+  method: generated
+  name: Podcastindex Finops
+  primary_unit: ''
   service_category: API
   slug: podcastindex-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/podcastindex.png
 layout: provider
-modified: '2026-05-19'
+modified: '2026-10-06'
 name: PodcastIndex
 nav: Providers
 network: true
-overview: 'PodcastIndex publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Add API, Apple Replacement API, Categories API, and 8 more. Tagged areas include Podcasting, Podcast Index, Discovery, and Open Data.
+overview: 'PodcastIndex publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Add API, Apple Replacement API, Categories API, and 8 more. Tagged areas include Podcasts, Podcast Index, Discovery, and Open Data.
 
 
-  PodcastIndex''s developer surface includes authentication, documentation, and 9 more developer resources.'
+  PodcastIndex''s developer surface includes engineering blog, authentication, documentation, and 12 more developer resources.'
 plans:
 - name: Podcastindex Plans Pricing
   plan_count: 3
@@ -215,21 +238,21 @@ rate_limits:
   name: Podcastindex Rate Limits
   slug: podcastindex-rate-limits
 score:
-  band: thin
-  composite: 26.2
+  band: emerging
+  composite: 25.2
   coverage:
-    artifact_dirs: 10
-    catalog_earned: 41.0
+    artifact_dirs: 11
+    catalog_earned: 38.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.0
   facets:
-    access_clarity: 26.3
+    access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 51.3
-    developer_ergonomics: 21.4
+    developer_ergonomics: 23.8
     discoverability: 57.1
     operational_transparency: 10.5
   open_source:
@@ -249,12 +272,13 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 15.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
     score: 0.0
+screenshot: https://raw.githubusercontent.com/api-evangelist/podcastindex/refs/heads/main/screenshots/podcastindex-2026-10-11T192639.png
 security:
 - kind: authentication
   name: Podcastindex Authentication
@@ -266,7 +290,7 @@ security:
   summary_line: TLSv1.3 · HSTS
 slug: podcastindex
 tags:
-- Podcasting
+- Podcasts
 - Podcast Index
 - Discovery
 - Open Data

@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.sleepnumber.com/blog
 - group: company
   title: ''
   type: Website
@@ -61,31 +65,31 @@ created: '2026-07-17'
 description: 'Sleep Number Corporation (NASDAQ: SNBR) designs, manufactures, and retails smart adjustable-firmness beds and sleep-wellness products, sold through an omnichannel US retail model. Its Sleep Number 360 smart beds run the proprietary SleepIQ operating system, which captures biometric sleep data each night and returns actionable insights to improve sleep health. Sleep Number does not publish a public developer API or developer portal; the SleepIQ platform is a closed, undocumented backend consumed only by the first-party mobile and web apps. The community has reverse-engineered unofficial SleepIQ client libraries (Python, Go, PHP), but these are not first-party and are not endorsed by Sleep Number. This profile was surfaced as a legacy portfolio lead of Norwest Venture Partners and enriched by the API Evangelist pipeline.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sleepnumber.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Sleep Number
 nav: Providers
 network: true
 overview: 'Sleep Number is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Sleep, Health, Wellness, and Smart Home.
 
 
-  Sleep Number''s developer surface includes support and 4 more developer resources.'
+  Sleep Number''s developer surface includes engineering blog, support, and 4 more developer resources.'
 random_paper: 20
 score:
   band: minimal
-  composite: 9.8
+  composite: 10.3
   coverage:
-    artifact_dirs: 2
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 4.8
+    developer_ergonomics: 7.1
     discoverability: 48.2
     operational_transparency: 0.0
   previous_composite: 9.8
@@ -95,13 +99,14 @@ score:
     regime: Health
     regime_id: health
     score: 10.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/sleepnumber/refs/heads/main/screenshots/sleepnumber-2026-10-11T192716.png
 security:
 - kind: domain-security
   name: Sleepnumber Domain Security

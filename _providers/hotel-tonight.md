@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Auth-gated partner/agent API portal for HotelTonight hotel supply and booking operations. Requires partner-agent credentials; no public OpenAPI is published.
@@ -113,7 +113,7 @@ modified: '2026-08-08'
 name: Hotel Tonight
 nav: Providers
 network: true
-overview: 'Hotel Tonight publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Travel, Hotels, and Booking.
+overview: 'Hotel Tonight is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Travel, Hotels, and Booking.
 
 
   Hotel Tonight''s developer surface includes support, documentation, signup flow, authentication, and 11 more developer resources.'
@@ -122,7 +122,7 @@ score:
   band: thin
   composite: 31.2
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -145,8 +145,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -165,7 +165,7 @@ security:
 - kind: vulnerability-disclosure
   name: Hotel Tonight Vulnerability Disclosure
   slug: hotel-tonight-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 slug: hotel-tonight
 tags:
 - Company

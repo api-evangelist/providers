@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Banksalad provides financial data aggregation APIs as described in their customer safety documentation.
@@ -31,6 +31,10 @@ apis:
   slug: banksalad-api
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.banksalad.com/rss.xml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/banksalad/refs/heads/main/hosts/banksalad-hosts.yml
   title: ''
@@ -92,25 +96,26 @@ created: '2026-09-27'
 description: Banksalad is a South Korean fintech company offering a comprehensive financial platform that aggregates banking, credit card, loan, deposit, insurance, and health check services. It provides users with personalized financial product recommendations, comparison tools, and health screening, leveraging extensive data to help manage money and health assets efficiently.
 image: https://cdn.banksalad.com/graphic/color/illustration/og-image/banksalad-web.png
 layout: provider
-modified: '2026-09-27'
+modified: '2026-10-06'
 name: Banksalad
 nav: Providers
 network: true
-overview: 'Banksalad publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, South Korea, Financial Services, and Health Tech.
+overview: 'Banksalad is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, South Korea, Financial Services, and Health Tech.
 
 
-  Banksalad''s developer surface includes documentation, engineering blog, and 9 more developer resources.'
+  Banksalad''s developer surface includes documentation, engineering blog, and 10 more developer resources.'
 random_paper: 5
 score:
   band: emerging
   composite: 14.2
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
@@ -125,6 +130,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - japan-korea
+  previous_composite: 14.2
   provenance:
     mcp: unknown
   regulatory:
@@ -133,12 +139,14 @@ score:
     regime: Health
     regime_id: health
     score: 10.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/banksalad/refs/heads/main/screenshots/banksalad-2026-10-11T101530.png
 security:
 - kind: domain-security
   name: Banksalad Domain Security

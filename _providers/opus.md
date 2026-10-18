@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 54.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 13
@@ -98,7 +98,7 @@ arazzos:
 - description: Clip a video, generate social copy, and publish a clip to a connected social account.
   name: OpusClip — clip a video and publish to social
   slug: opus-clip-and-publish
-artifact_total: 29
+artifact_total: 30
 collections:
 - collection_type: open
   name: API Collection
@@ -137,6 +137,11 @@ collections:
   name: Clip brand-templates transcripts API
   slug: open-opus-transcripts-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/opus/refs/heads/main/plans/opus-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/opus-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/opus/refs/heads/main/overlays/opus-openapi-overlay.yaml
   title: ''
@@ -327,24 +332,28 @@ modified: '2026-07-20'
 name: Opus
 nav: Providers
 network: true
-overview: 'Opus publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Brand Templates API, Censor Jobs API, Clip Project API, and 6 more. Tagged areas include Company, Frontier Tech, Video, Artificial Intelligence, and Video Editing.
+overview: 'Opus publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Brand Templates API, Censor Jobs API, Clip Project API, and 6 more. Tagged areas include Company, Frontier Tech, Video, Artificial Intelligence, and Video Editing.
 
 
-  Opus'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 32 more developer resources.'
+  Opus'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 33 more developer resources.'
+plans:
+- name: Opus Plans Pricing
+  plan_count: 4
+  slug: opus-plans-pricing
 random_paper: 15
 score:
   band: developing
-  composite: 47.7
+  composite: 54.1
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 24
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.4
   facets:
-    access_clarity: 52.6
+    access_clarity: 84.2
     contract_governance: 4.5
     contract_quality: 44.0
     developer_ergonomics: 66.1
@@ -371,9 +380,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 28.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

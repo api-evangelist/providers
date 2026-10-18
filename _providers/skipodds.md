@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 39.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: Hosted Model Context Protocol server exposing the SkipOdds Index to AI assistants — stateless streamable-http at https://skipodds.com/mcp, protocol version 2025-06-18, five read-only tools (list_fixtu
@@ -212,7 +212,7 @@ modified: '2026-08-11'
 name: SkipOdds
 nav: Providers
 network: true
-overview: 'SkipOdds publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Alerts API, Fixtures API, Golf API, and 2 more. Tagged areas include Sports, Odds, probabilities, Betting Data, and de-vig.
+overview: 'SkipOdds publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Alerts API, Fixtures API, Golf API, and 2 more. Tagged areas include Sports, Odds, probabilities, Betting Data, and de-vig.
 
 
   The SkipOdds catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -262,8 +262,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

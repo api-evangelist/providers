@@ -32,10 +32,19 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
-artifact_total: 2
+artifact_total: 3
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/modeinspect/refs/heads/main/plans/modeinspect-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/modeinspect-plans-pricing.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://modeinspect.com/blog/feed.xml
 - group: company
   title: ''
   type: Website
@@ -98,28 +107,32 @@ created: '2026-07-17'
 description: Modeinspect (operated by Acreom Inc.) is an AI-native design tool that runs inside your codebase. Branded "Mode", it turns a product's real code into editable canvas frames so design engineers can shape production-grade UI on a visual canvas using the actual shipping components, design tokens, live data, breakpoints, and interaction states, then explore variants with AI and hand off pixel-perfect changes as a merge-ready pull request rather than throwaway mockups. The product is in early access / private beta. Surfaced as a portfolio company of Partech and profiled in the API Evangelist network; enriched 2026-07-20. No public developer API, OpenAPI, docs portal, or SDK surface was found at this stage.
 image: https://modeinspect.com/image/og/og-image.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Modeinspect
 nav: Providers
 network: true
 overview: 'Modeinspect is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Applicative Saas, Design, Developer Tools, and Design Engineering.
 
 
-  Modeinspect''s developer surface includes pricing, engineering blog, signup flow, support, and 10 more developer resources.'
+  Modeinspect''s developer surface includes pricing, engineering blog, signup flow, support, and 12 more developer resources.'
+plans:
+- name: Modeinspect Plans Pricing
+  plan_count: 3
+  slug: modeinspect-plans-pricing
 random_paper: 13
 score:
   band: emerging
-  composite: 18.6
+  composite: 25.0
   coverage:
-    artifact_dirs: 4
-    catalog_earned: 27.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 88.0
+    artifact_dirs: 5
+    catalog_earned: 39.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.4
   facets:
-    access_clarity: 60.5
+    access_clarity: 92.1
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
@@ -132,9 +145,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 17.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 7
 apis:
 - description: Unified SaaS and Cloud FinOps platform offering app discovery, subscription management, user lifecycle automation, contract and renewal tracking, license optimization, chargeback, and policy-based gov
@@ -59,6 +59,21 @@ apis:
   slug: cloudnuro-chargeback
 artifact_total: 13
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/cloudnuro/refs/heads/main/plans/cloudnuro-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/cloudnuro-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cloudnuro/refs/heads/main/rate-limits/cloudnuro-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/cloudnuro-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/cloudnuro/refs/heads/main/finops/cloudnuro-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/cloudnuro-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/cloudnuro/refs/heads/main/security/cloudnuro-trust-center.yml
   title: ''
@@ -101,9 +116,13 @@ common:
 created: '2026-03-27'
 description: CloudNuro is an enterprise SaaS management and FinOps platform that combines SaaS discovery (shadow IT), SaaS subscription and license optimization, user lifecycle and compliance management, SaaS-Chargeback and cost allocation, and Cloud FinOps for AWS, Azure, GCP, and OCI. It offers 400+ pre-built connectors to leading SaaS, IaaS, IAM, ITSM, HR, and security platforms. CloudNuro is SOC 2 Type II certified and has been recognized by Gartner in the SaaS Management Platforms market guide.
 finops:
-- name: Cloudnuro Finops
+- has_sources: false
+  method: generated
+  name: Cloudnuro Finops
+  primary_unit: ''
   service_category: API
   slug: cloudnuro-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cloudnuro.png
 jsonld:
 - class_count: 0
@@ -115,13 +134,13 @@ modified: '2026-04-26'
 name: CloudNuro
 nav: Providers
 network: true
-overview: 'CloudNuro publishes 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Cloud FinOps, Compliance, Cost Optimization, License Management, and SaaS Management.
+overview: 'CloudNuro is listed with 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Cloud FinOps, Compliance, Cost Optimization, License Management, and SaaS Management.
 
 
   The CloudNuro catalog on APIs.io includes 1 JSON-LD context.
 
 
-  CloudNuro''s developer surface includes engineering blog and 8 more developer resources.'
+  CloudNuro''s developer surface includes engineering blog and 11 more developer resources.'
 plans:
 - name: Cloudnuro Plans Pricing
   plan_count: 3
@@ -133,17 +152,17 @@ rate_limits:
   slug: cloudnuro-rate-limits
 score:
   band: emerging
-  composite: 16.1
+  composite: 14.6
   coverage:
-    artifact_dirs: 8
-    catalog_earned: 49.0
+    artifact_dirs: 9
+    catalog_earned: 46.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 66.0
+    catalog_gap: 69.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 23.7
+    access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 6.7
     developer_ergonomics: 11.9
@@ -156,8 +175,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

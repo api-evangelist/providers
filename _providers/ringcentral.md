@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 43.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 250
+- acting_count: 247
   human_in_the_loop: 47
   name: Ringcentral Agentic Access
   operation_count: 487
   slug: ringcentral-agentic-access
-  summary_line: 487 operations · 250 acting · 47 human-in-the-loop
+  summary_line: 487 operations · 247 acting · 47 human-in-the-loop
 api_count: 1
 apis:
 - description: The RingCentral Team Messaging API enables developers to build chatbots, send notifications, and create add-ins within RingCentral Team Messaging (formerly Glip). It supports posting messages, managin
@@ -491,7 +491,7 @@ arazzos:
 - description: Create a webinar, add a scheduled session to it, register an attendee, and read the registrant back for their join link.
   name: RingCentral Create a Webinar, Schedule a Session, and Register an Attendee
   slug: ringcentral-webinar-registration-workflow
-artifact_total: 261
+artifact_total: 262
 asyncapis:
 - description: AsyncAPI 2.6 description of the asynchronous event surface exposed by the RingCentral Subscription API. RingCentral delivers events from the RingCentral platform to subscribers via two documented tran
   name: RingCentral Subscriptions and Event Notifications
@@ -1217,12 +1217,20 @@ common:
   title: ''
   type: Arazzo
   url: arazzo/ringcentral-webinar-registration-workflow.yml
+- group: design
+  title: ''
+  type: SpectralRules
+  url: https://github.com/ringcentral/vscode-openapi-linter/blob/687a00992fd6f8e1390d58fe05607637437e5767/server/src/.spectral.yml
 created: '2026-05-08'
 description: RingCentral provides unified cloud communications for businesses including voice, video, messaging, contact center, and events. The RingCentral API exposes call control, SMS, faxing, voicemail, presence, team messaging, video, and analytics.
 finops:
-- name: Ringcentral Finops
+- has_sources: true
+  method: generated
+  name: Ringcentral Finops
+  primary_unit: ''
   service_category: Communications
   slug: ringcentral-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ringcentral.png
 layout: provider
 mcp_servers:
@@ -1233,13 +1241,13 @@ modified: '2026-06-20'
 name: RingCentral
 nav: Providers
 network: true
-overview: 'RingCentral publishes 84 APIs on the [APIs.io](https://apis.io/) network, including Webhooks and Subscriptions API, Adaptive Cards API, API Info API, and 81 more. Tagged areas include Communications, UCaaS, Voice, Video, and Contact Center.
+overview: 'RingCentral publishes 84 API contracts indexed on the [APIs.io](https://apis.io/) network, including Webhooks and Subscriptions API, Adaptive Cards API, API Info API, and 81 more. Tagged areas include Communications, UCaaS, Voice, Video, and Contact Center.
 
 
-  The RingCentral catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
+  The RingCentral catalog on APIs.io includes 1 event-driven AsyncAPI specification and 2 Spectral governance rulesets.
 
 
-  RingCentral''s developer surface includes changelog, sandbox, authentication, documentation, API reference, getting-started guide, pricing, and 51 more developer resources.'
+  RingCentral''s developer surface includes changelog, sandbox, authentication, documentation, API reference, getting-started guide, pricing, and 52 more developer resources.'
 plans:
 - name: Ringcentral Plans Pricing
   plan_count: 4
@@ -1253,10 +1261,11 @@ rate_limits:
   name: Ringcentral Rate Limits
   slug: ringcentral-rate-limits
 rules:
-- effective_rule_count: 34
+- authorship: generated
+  effective_rule_count: 34
   extends:
   - spectral:asyncapi
-  name: RingCentral API Rules
+  name: RingCentral — asyncapi rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -1264,6 +1273,19 @@ rules:
     info: 1
     warn: 5
   slug: ringcentral-asyncapi-spectral-rules
+- authorship: provider
+  effective_rule_count: 69
+  extends:
+  - spectral:oas
+  - spectral:asyncapi
+  name: RingCentral — vscode openapi linter rules
+  rule_count: 1
+  severity_counts:
+    error: 1
+    hint: 0
+    info: 0
+    warn: 0
+  slug: ringcentral-vscode-openapi-linter-spectral-rules
 scopes:
 - name: Ringcentral Scopes
   scope_count: 38
@@ -1271,23 +1293,23 @@ scopes:
   summary_line: 38 scopes · authorizationCode
 score:
   band: strong
-  composite: 61.5
+  composite: 59.9
   coverage:
-    artifact_dirs: 31
-    catalog_earned: 58.5
+    artifact_dirs: 32
+    catalog_earned: 55.5
     catalog_earned_first_party: 24.0
     catalog_gap: 59.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -1.6
   facets:
-    access_clarity: 64.5
+    access_clarity: 56.6
     contract_governance: 18.2
     contract_quality: 58.1
     developer_ergonomics: 67.9
     discoverability: 48.2
     operational_transparency: 73.7
-  previous_composite: 61.0
+  previous_composite: 61.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1303,8 +1325,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 32.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

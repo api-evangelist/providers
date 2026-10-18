@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Beam's v1 REST payments API — payment links, charges, refunds, transactions, card authorizations (auth/capture/cancel), network tokenization, and Beam Bolt in-person payments.
@@ -187,7 +187,7 @@ modified: '2026-07-18'
 name: Beam Checkout
 nav: Providers
 network: true
-overview: 'Beam Checkout publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Payments, Checkout, and Card Payments.
+overview: 'Beam Checkout is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Payments, Checkout, and Card Payments.
 
 
   The Beam Checkout catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -230,8 +230,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

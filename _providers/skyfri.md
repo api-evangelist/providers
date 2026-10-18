@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.skyfri.com/news
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/skyfri/refs/heads/main/security/skyfri-domain-security.yml
   title: ''
@@ -65,28 +69,31 @@ created: '2026-07-17'
 description: Skyfri is a cleantech software and hardware company headquartered in Oslo, Norway that builds an operating platform for owners and operators of solar and battery energy assets. Founded in 2021, Skyfri combines an edge-native monitoring and control device (the SSI hardware, which speaks Modbus and SCADA over isolated RS-485 ports to inverters, meters, and sensors) with a cloud platform that automates operations, maintenance, and asset performance management. The software delivers real-time data processing, operational management, weather forecasting, dynamic benchmarking, plant insights, and fault detection to monitor generation and address underperformance and equipment failure across a global portfolio of solar and battery assets. The company has offices in Denver, London, Oslo, Singapore, and Bangalore and is backed by Speedinvest. Skyfri exposes no public developer API, documentation, or SDKs at this time; its platform is delivered as a customer application at app.skyfri.com.
 image: https://app.skyfri.com/skyfri-preview.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Skyfri
 nav: Providers
 network: true
-overview: Skyfri is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Solar, Energy, Cleantech, and Renewable Energy.
+overview: 'Skyfri is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Solar, Energy, Cleantech, and Renewable Energy.
+
+
+  Skyfri''s developer surface includes engineering blog and 6 more developer resources.'
 random_paper: 4
 score:
   band: minimal
-  composite: 4.9
+  composite: 5.4
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 6.6
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 48.2
     operational_transparency: 0.0
   jurisdiction:
@@ -104,8 +111,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 4.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 5.0
-  scored_at: '2026-10-04'
+  score: 3.1
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: The Tikkie API lets Tikkie Business customers programmatically create payment requests, send them to end-payers, and receive notifications when payments complete. Authentication uses an API token (Bus
@@ -47,6 +47,21 @@ apis:
   slug: business-account-payment
 artifact_total: 21
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/abn-amro/refs/heads/main/plans/abn-amro-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/abn-amro-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/abn-amro/refs/heads/main/rate-limits/abn-amro-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/abn-amro-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/abn-amro/refs/heads/main/finops/abn-amro-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/abn-amro-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/abn-amro/refs/heads/main/security/abn-amro-vulnerability-disclosure.yml
   title: ''
@@ -109,9 +124,13 @@ features:
 - description: Public sandbox with test certificates and synthetic accounts for all PSD2 and business-payment APIs.
   name: Sandbox
 finops:
-- name: Abn Amro Finops
+- has_sources: true
+  method: generated
+  name: Abn Amro Finops
+  primary_unit: ''
   service_category: Financial Services / Open Banking
   slug: abn-amro-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/abn-amro.png
 integrations:
 - description: ABN AMRO subsidiary providing the Tikkie consumer and business payment-request product.
@@ -125,10 +144,10 @@ modified: '2026-05-16'
 name: ABN AMRO
 nav: Providers
 network: true
-overview: 'ABN AMRO publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Finance, Banks, European Banking, Open Banking, and PSD2.
+overview: 'ABN AMRO is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Finance, Banks, European Banking, Open Banking, and PSD2.
 
 
-  ABN AMRO''s developer surface includes developer portal, documentation, getting-started guide, authentication, and 5 more developer resources.'
+  ABN AMRO''s developer surface includes developer portal, documentation, getting-started guide, authentication, and 8 more developer resources.'
 plans:
 - name: Abn Amro Plans Pricing
   plan_count: 3
@@ -140,22 +159,22 @@ rate_limits:
   slug: abn-amro-rate-limits
 score:
   band: emerging
-  composite: 26.1
+  composite: 18.7
   coverage:
-    artifact_dirs: 6
-    catalog_earned: 56.0
+    artifact_dirs: 7
+    catalog_earned: 40.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 59.0
+    catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.4
   facets:
-    access_clarity: 44.2
+    access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 42.9
     discoverability: 62.5
-    operational_transparency: 21.6
+    operational_transparency: 7.9
   previous_composite: 26.1
   regulatory:
     applies: true
@@ -163,9 +182,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 18.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

@@ -27,20 +27,35 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The Apache Software Foundation hosts 300+ open source projects spanning big data, cloud, messaging, databases, build tools, and more. The ASF provides infrastructure, governance, and community support
   name: Apache Software Foundation
   slug: apache-software-foundation
-artifact_total: 20
+artifact_total: 21
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/apache/refs/heads/main/plans/apache-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/apache-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/apache/refs/heads/main/rate-limits/apache-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/apache-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/apache/refs/heads/main/finops/apache-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/apache-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/apache/refs/heads/main/security/apache-vulnerability-disclosure.yml
   title: ''
@@ -83,6 +98,10 @@ common:
   title: ''
   type: TermsOfService
   url: https://www.apache.org/licenses/
+- group: design
+  title: ''
+  type: SpectralRules
+  url: https://github.com/apache/nutch/blob/c16be5f0c5f6132bc229dcd6820c4c09d952655f/.spectral.yaml
 created: '2025-01-01'
 description: The Apache Software Foundation (ASF) is a 501(c)(3) nonprofit organization that provides open source software for the public good. Home to more than 300 open source projects maintained by a global community of over 9,900 committers and 1,190 members, the ASF operates under the principle of community over code. Projects span big data, cloud infrastructure, messaging, web frameworks, databases, build tooling, machine learning, and more — all released under the Apache License.
 features:
@@ -97,9 +116,13 @@ features:
 - description: The ASF manages 1,300+ software releases with formal release voting and cryptographic signing processes ensuring software integrity.
   name: Release Management
 finops:
-- name: Apache Finops
+- has_sources: false
+  method: generated
+  name: Apache Finops
+  primary_unit: ''
   service_category: API
   slug: apache-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/apache.png
 integrations:
 - description: Apache projects integrate with AWS, Azure, and Google Cloud for cloud-native deployments and managed service offerings.
@@ -115,10 +138,13 @@ modified: '2026-04-19'
 name: Apache Software Foundation
 nav: Providers
 network: true
-overview: 'Apache Software Foundation publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Open Source, Apache, Foundations, Software, and Fortune 500.
+overview: 'Apache Software Foundation is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Open Source, Apache, Foundations, Software, and Fortune 500.
 
 
-  Apache Software Foundation''s developer surface includes documentation, getting-started guide, engineering blog, support, and 6 more developer resources.'
+  The Apache Software Foundation catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
+  Apache Software Foundation''s developer surface includes documentation, getting-started guide, engineering blog, support, and 10 more developer resources.'
 plans:
 - name: Apache Plans Pricing
   plan_count: 3
@@ -144,19 +170,32 @@ rate_limits:
 - limit_count: 5
   name: Apache Rate Limits
   slug: apache-rate-limits
+rules:
+- authorship: provider
+  effective_rule_count: 0
+  extends:
+  - '@ibm-cloud/openapi-ruleset'
+  name: Apache Software Foundation — nutch rules
+  rule_count: 0
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 0
+    warn: 0
+  slug: apache-nutch-spectral-rules
 score:
   band: emerging
-  composite: 18.1
+  composite: 16.6
   coverage:
-    artifact_dirs: 9
-    catalog_earned: 41.0
+    artifact_dirs: 11
+    catalog_earned: 38.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 26.3
+    access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 28.6
@@ -169,8 +208,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

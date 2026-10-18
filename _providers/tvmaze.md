@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.1
-  scored_at: '2026-10-04'
+  score: 26.2
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 72
   slug: tvmaze-agentic-access
   summary_line: 72 operations · 24 acting
-api_count: 2
+api_count: 3
 apis:
 - baseURL: https://api.tvmaze.com
   baseurl_source: declared
@@ -244,6 +244,14 @@ collections:
   name: TVmaze Premium User auth voted shows API
   slug: open-tvmaze-voted-shows-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.tvmaze.com/articles
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://api.tvmaze.com/feed/articles
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/tvmaze/refs/heads/main/capabilities/tvmaze-capability-edges.yml
   title: ''
@@ -443,9 +451,13 @@ features:
 - description: Data is freely usable with attribution to tvmaze.com.
   name: CC BY-SA Licensed Data
 finops:
-- name: Tvmaze Finops
+- has_sources: false
+  method: generated
+  name: Tvmaze Finops
+  primary_unit: ''
   service_category: ''
   slug: tvmaze-finops
+  template: true
 image: https://static.tvmaze.com/images/api/tvm_api.png
 integrations:
 - description: Many Trakt-style workflows mirror TVmaze IDs and metadata.
@@ -660,17 +672,17 @@ jsonld:
   property_count: 13
   slug: tvmaze-context
 layout: provider
-modified: '2026-05-30'
+modified: '2026-10-06'
 name: TVmaze
 nav: Providers
 network: true
-overview: 'TVmaze publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Episodes API, followed networks API, and 14 more. Tagged areas include Video, Television, Streaming, Schedule, and Metadata.
+overview: 'TVmaze publishes 17 API contracts indexed on the [APIs.io](https://apis.io/) network, including Auth API, Episodes API, followed networks API, and 14 more. Tagged areas include Video, Television, Streaming, Schedule, and Metadata.
 
 
   The TVmaze catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  TVmaze''s developer surface includes authentication, documentation, API reference, signup flow, developer console, pricing, support, and 21 more developer resources.'
+  TVmaze''s developer surface includes engineering blog, authentication, documentation, API reference, signup flow, developer console, pricing, and 23 more developer resources.'
 plans:
 - name: Tvmaze Plans Pricing
   plan_count: 5
@@ -681,9 +693,10 @@ rate_limits:
   name: Tvmaze Rate Limits
   slug: tvmaze-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: TVmaze API Rules
+  name: TVmaze — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -691,7 +704,8 @@ rules:
     info: 2
     warn: 4
   slug: tvmaze-jsonschema-spectral-rules
-- effective_rule_count: 55
+- authorship: unmarked
+  effective_rule_count: 55
   extends:
   - spectral:oas
   name: TVmaze API Rules
@@ -703,24 +717,24 @@ rules:
     warn: 7
   slug: tvmaze-rules
 score:
-  band: strong
-  composite: 57.6
+  band: developing
+  composite: 50.7
   coverage:
     artifact_dirs: 19
-    catalog_earned: 87.0
+    catalog_earned: 74.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 28.0
+    catalog_gap: 41.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: -6.9
   facets:
-    access_clarity: 74.5
+    access_clarity: 46.1
     contract_governance: 27.3
     contract_quality: 65.3
     developer_ergonomics: 51.2
-    discoverability: 73.2
-    operational_transparency: 37.4
-  previous_composite: 57.0
+    discoverability: 78.6
+    operational_transparency: 23.7
+  previous_composite: 57.6
   provenance:
     agentic_access: derived
     contracts:
@@ -734,9 +748,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

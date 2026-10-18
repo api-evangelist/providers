@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.memrise.com/blog/rss.xml
 - group: company
   title: ''
   type: Website
@@ -114,14 +118,14 @@ created: '2026-07-17'
 description: Memrise is a language-learning app founded in 2010 and headquartered in London, UK, trusted by 80 million learners across iOS, Android, and web. It is built around real native-speaker video, goal-based specialised courses (exams, work, relationships, travel), a spaced-repetition memory-science engine created by co-founder and Princeton neuroscientist Greg Detre, and AI conversation practice. Memrise offers courses in 149+ languages and has been profitable since 2016. It was surfaced as a portfolio company of Balderton Capital and Techstars and added to the API Evangelist network. Memrise is a consumer product and publishes no public developer API; this profile captures its public web, security, and machine-readable (llms.txt) surface.
 image: https://www.memrise.com/favicon.ico
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: memrise
 nav: Providers
 network: true
 overview: 'memrise is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Language Learning, Education, EdTech, and Mobile App.
 
 
-  memrise''s developer surface includes engineering blog, support, pricing, and 14 more developer resources.'
+  memrise''s developer surface includes engineering blog, support, pricing, and 15 more developer resources.'
 random_paper: 6
 score:
   band: emerging
@@ -156,8 +160,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 18.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

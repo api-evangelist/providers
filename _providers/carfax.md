@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 15.5
-  scored_at: '2026-10-04'
+  score: 13.6
+  scored_at: '2026-10-17'
 api_count: 5
 apis:
 - description: 'Converts a license plate number and state into a VIN with full vehicle decode (year, make, model, trim). Each QuickVIN lookup includes access to a CARFAX Vehicle History Report. Available to lenders, '
@@ -108,16 +108,20 @@ common:
 created: 2026-06-13
 description: CARFAX is a vehicle history reporting company that provides VIN-based history reports, dealer inventory solutions, QuickVIN license plate decoding, and used car valuations based on service records, accident history, ownership history, and title data. APIs are available to dealers, lenders, insurers, and service shops through enterprise partnership agreements.
 finops:
-- name: Carfax Finops
+- has_sources: false
+  method: generated
+  name: Carfax Finops
+  primary_unit: ''
   service_category: ''
   slug: carfax-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/carfax.png
 layout: provider
 modified: '2026-07-25'
 name: CARFAX
 nav: Providers
 network: true
-overview: 'CARFAX publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Vehicle Valuation API, and 4 more. Tagged areas include Vehicle History, VIN Lookup, Automotive, Used Cars, and Dealer Tools.
+overview: 'CARFAX is listed with 5 APIs on the [APIs.io](https://apis.io/) network, including Vehicle Valuation API, and 4 more. Tagged areas include Vehicle History, VIN Lookup, Automotive, Used Cars, and Dealer Tools.
 
 
   CARFAX''s developer surface includes documentation, engineering blog, pricing, and 9 more developer resources.'
@@ -131,23 +135,23 @@ rate_limits:
   name: Carfax Rate Limits
   slug: carfax-rate-limits
 score:
-  band: thin
-  composite: 27.5
+  band: emerging
+  composite: 20.0
   coverage:
     artifact_dirs: 8
-    catalog_earned: 56.0
+    catalog_earned: 40.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 59.0
+    catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.5
   facets:
-    access_clarity: 46.8
+    access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 24.0
     developer_ergonomics: 11.9
     discoverability: 62.5
-    operational_transparency: 40.0
+    operational_transparency: 26.3
   previous_composite: 27.5
   regulatory:
     applies: true
@@ -155,9 +159,9 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 5.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

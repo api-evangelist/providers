@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Funded Project Query Form API exposing programmatic access to NEH grant records. Documentation is published as a PDF describing query parameters and response structure.
@@ -41,6 +41,25 @@ apis:
   slug: funded-project-query
 artifact_total: 5
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/national-endowment-for-the-humanities/refs/heads/main/plans/national-endowment-for-the-humanities-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/national-endowment-for-the-humanities-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/national-endowment-for-the-humanities/refs/heads/main/rate-limits/national-endowment-for-the-humanities-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/national-endowment-for-the-humanities-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/national-endowment-for-the-humanities/refs/heads/main/finops/national-endowment-for-the-humanities-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/national-endowment-for-the-humanities-finops.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.neh.gov/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/national-endowment-for-the-humanities/refs/heads/main/security/national-endowment-for-the-humanities-domain-security.yml
   title: ''
@@ -69,16 +88,20 @@ common:
 created: '2024-12-03'
 description: The National Endowment for the Humanities (NEH) is the nation's largest public funder of the humanities, which include history, philosophy, literature, language, ethics, law, archaeology, political theory, comparative religion, anthropology, sociology, and media and cultural studies. NEH does not publish a fully documented public REST API, but it offers a Funded Project Query Form API and bulk XML datasets covering all grants awarded since 1965, plus evaluator and panelist information from 1988 onward.
 finops:
-- name: National Endowment For The Humanities Finops
+- has_sources: false
+  method: generated
+  name: National Endowment For The Humanities Finops
+  primary_unit: ''
   service_category: API
   slug: national-endowment-for-the-humanities-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/national-endowment-for-the-humanities.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-10-06'
 name: National Endowment for the Humanities
 nav: Providers
 network: true
-overview: National Endowment for the Humanities publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Federal Government, Humanities, Grants, and Open Data.
+overview: National Endowment for the Humanities is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Federal Government, Humanities, Grants, and Open Data.
 plans:
 - name: National Endowment For The Humanities Plans Pricing
   plan_count: 3
@@ -90,17 +113,17 @@ rate_limits:
   slug: national-endowment-for-the-humanities-rate-limits
 score:
   band: minimal
-  composite: 10.8
+  composite: 9.2
   coverage:
-    artifact_dirs: 6
-    catalog_earned: 36.0
+    artifact_dirs: 7
+    catalog_earned: 33.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 79.0
+    catalog_gap: 82.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 14.3
@@ -118,8 +141,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

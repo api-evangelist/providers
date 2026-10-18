@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -94,6 +94,10 @@ collections:
   name: JarvisLabs API
   slug: open-jarvislabs
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://jarvislabs.ai/updates
 - group: commercial
   title: ''
   type: Pricing
@@ -152,19 +156,23 @@ common:
 created: '2026-06-21'
 description: JarvisLabs.ai is a GPU cloud for AI development that lets you launch on-demand GPU and CPU instances (H100, H200, A100, RTX Pro 6000, A6000, A5000, L4, A30) from the terminal. Its Python SDK (jarvislabs / legacy jlclient) and jl CLI wrap an API for the full instance lifecycle - create, pause, resume, and destroy - plus GPU type discovery, framework templates, persistent filesystems, and managed runs for training and inference workloads, billed per minute of compute.
 finops:
-- name: Jarvislabs Finops
+- has_sources: true
+  method: generated
+  name: Jarvislabs Finops
+  primary_unit: ''
   service_category: Compute and GPU Cloud
   slug: jarvislabs-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/jarvislabs.png
 layout: provider
-modified: '2026-06-21'
+modified: '2026-10-06'
 name: JarvisLabs
 nav: Providers
 network: true
-overview: 'JarvisLabs publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Account API, Filesystems API, GPU Types API, and 2 more. Tagged areas include Artificial Intelligence, GPU, Cloud, Infrastructure, and Compute.
+overview: 'JarvisLabs publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Filesystems API, GPU Types API, and 2 more. Tagged areas include Artificial Intelligence, GPU, Cloud, Infrastructure, and Compute.
 
 
-  JarvisLabs'' developer surface includes pricing, authentication, documentation, and 9 more developer resources.'
+  JarvisLabs'' developer surface includes engineering blog, pricing, authentication, documentation, and 9 more developer resources.'
 plans:
 - name: Jarvislabs Plans Pricing
   plan_count: 15
@@ -176,22 +184,22 @@ rate_limits:
   slug: jarvislabs-rate-limits
 score:
   band: thin
-  composite: 38.7
+  composite: 35.0
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 62.8
+    artifact_dirs: 12
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 52.2
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.7
   facets:
-    access_clarity: 50.0
+    access_clarity: 42.1
     contract_governance: 0.0
     contract_quality: 54.0
-    developer_ergonomics: 29.8
+    developer_ergonomics: 32.1
     discoverability: 66.1
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   previous_composite: 38.7
   provenance:
     agentic_access: derived
@@ -206,8 +214,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

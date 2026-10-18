@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: A remote Model Context Protocol endpoint served from Verto Education's own WordPress installation and advertised through RFC 9728 protected-resource metadata. Access requires an OAuth 2.0 access token
@@ -31,6 +31,10 @@ apis:
   slug: verto-education-mcp
 artifact_total: 7
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://vertoeducation.org/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/verto-education/refs/heads/main/security/verto-education-domain-security.yml
   title: ''
@@ -136,14 +140,14 @@ mcp_servers:
 - description: Verto Education serves a remote Model Context Protocol endpoint from its own WordPress installation at https://vertoeducation.org/wp-json/mcp/mcp-oauth-server. It was discovered from the RFC 9728 prot
   name: Verto Education MCP Server
   slug: verto-education-mcp-server
-modified: '2026-09-02'
+modified: '2026-10-06'
 name: Verto Education
 nav: Providers
 network: true
-overview: 'Verto Education publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, Higher Education, Study Abroad, and College Admissions.
+overview: 'Verto Education is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, Higher Education, Study Abroad, and College Admissions.
 
 
-  Verto Education''s developer surface includes engineering blog, support, signup flow, pricing, authentication, and 16 more developer resources.'
+  Verto Education''s developer surface includes engineering blog, support, signup flow, pricing, authentication, and 17 more developer resources.'
 plans:
 - name: Verto Education Plans Pricing
   plan_count: 0
@@ -162,7 +166,7 @@ score:
   band: emerging
   composite: 24.8
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -186,13 +190,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 34.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/verto-education/refs/heads/main/screenshots/verto-education-2026-10-11T132918.png
 security:
 - kind: authentication
   name: Verto Education Authentication

@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 21
+- acting_count: 12
   human_in_the_loop: 0
   name: Miriel Agentic Access
   operation_count: 21
   slug: miriel-agentic-access
-  summary_line: 21 operations · 21 acting
+  summary_line: 21 operations · 12 acting
 api_count: 7
 apis:
 - baseURL: https://api.prod.miriel.ai
@@ -106,6 +106,10 @@ collections:
   name: Miriel Context Engine Documents Users API
   slug: open-miriel-users-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://corp-api.prod.miriel.ai/miriel-ui-api/blog/rss.xml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -216,18 +220,18 @@ created: '2026-07-17'
 description: 'Miriel is the context engine and platform for AI-native development. It gives AI apps and agents the context they need in real time through a simple API: developers connect a data source with the learn operation and retrieve relevant context with the query operation, backed by LLM, vector, and knowledge-graph retrieval. Every interaction is encrypted and permissions are managed at the token level (per-user grants and policies). Built by a team with backgrounds across Google, Tesla, Facebook, and Posit, Miriel handles intelligent indexing and retrieval tailored to each source, plus Labs projects (Nora, Floodlight) and tools like Autodev and NexusBuild. Backed by Foundry Group.'
 image: https://miriel.ai/MirielLogoWhiteNoTextOnBlue.svg
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Miriel
 nav: Providers
 network: true
-overview: 'Miriel publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Documents API, Learn API, Monitoring API, and 4 more. Tagged areas include Company, Artificial Intelligence, Context Engine, Retrieval, and RAG.
+overview: 'Miriel is listed with 7 APIs on the [APIs.io](https://apis.io/) network, including Documents API, Learn API, Monitoring API, and 4 more. Tagged areas include Company, Artificial Intelligence, Context Engine, Retrieval, and RAG.
 
 
-  Miriel''s developer surface includes documentation, API reference, engineering blog, signup flow, authentication, and 18 more developer resources.'
+  Miriel''s developer surface includes documentation, API reference, engineering blog, signup flow, authentication, and 19 more developer resources.'
 random_paper: 4
 score:
   band: emerging
-  composite: 24.8
+  composite: 24.9
   coverage:
     artifact_dirs: 18
     catalog_earned: 40.0
@@ -235,7 +239,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 13.2
     contract_governance: 4.5
@@ -260,8 +264,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

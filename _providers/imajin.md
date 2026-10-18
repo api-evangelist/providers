@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.blog.imajin.id/blog-feed.xml
 - group: company
   title: ''
   type: Website
@@ -93,14 +97,14 @@ created: '2026-07-17'
 description: 'Imajin is an Indonesian online manufacturing marketplace (the "Indonesia Manufacturing Hub") that connects buyers with vetted manufacturers and machine shops through a project-based workflow: post a project, receive quotes, and track production through to delivery. It brokers rapid 3D printing and prototyping, high-precision mold and die making, SPM and custom part fabrication, mass production (stamping, plastics, and fabrication), CNC milling and turning at machining centers, and broader manufacturing projects. The platform offers an instant-quote tool, real-time project notifications, integrated company profiles, team and project management, and up-front payment handling for suppliers. Imajin is backed by 500 Global.'
 image: https://imajinapp.s3.ap-southeast-1.amazonaws.com/v2/assets/images/Meta+Img.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Imajin
 nav: Providers
 network: true
 overview: 'Imajin is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Manufacturing, Marketplace, 3D Printing, and Prototyping.
 
 
-  Imajin''s developer surface includes engineering blog, support, signup flow, YouTube channel, and 9 more developer resources.'
+  Imajin''s developer surface includes engineering blog, support, signup flow, YouTube channel, and 10 more developer resources.'
 random_paper: 16
 score:
   band: minimal
@@ -134,8 +138,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

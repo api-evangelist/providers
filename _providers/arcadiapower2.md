@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 38.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 2
@@ -32,7 +32,7 @@ agentic_access:
   operation_count: 42
   slug: arcadiapower2-agentic-access
   summary_line: 42 operations · 21 acting · 2 human-in-the-loop
-api_count: 1
+api_count: 2
 apis:
 - baseURL: https://api.arcadia.com
   baseurl_source: declared
@@ -269,7 +269,7 @@ modified: '2026-09-25'
 name: Arcadiapower2
 nav: Providers
 network: true
-overview: 'Arcadiapower2 publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Bundle (Beta) API, Bundle Webhook Events API, and 8 more. Tagged areas include Energy, Software-as-a-Service, Enterprise, Sustainability, and Data.
+overview: 'Arcadiapower2 publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Auth API, Bundle (Beta) API, Bundle Webhook Events API, and 8 more. Tagged areas include Energy, Software-as-a-Service, Enterprise, Sustainability, and Data.
 
 
   The Arcadiapower2 catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
@@ -282,7 +282,8 @@ rate_limits:
   name: Arcadiapower2 Rate Limits
   slug: arcadiapower2-rate-limits
 rules:
-- effective_rule_count: 54
+- authorship: generated
+  effective_rule_count: 54
   extends:
   - spectral:oas
   name: Arcadiapower2 API Rules
@@ -297,12 +298,13 @@ score:
   band: developing
   composite: 51.3
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 25
     catalog_earned: 74.8
     catalog_earned_first_party: 12.0
     catalog_gap: 40.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 28.9
     contract_governance: 22.0
@@ -310,6 +312,7 @@ score:
     developer_ergonomics: 44.6
     discoverability: 75.0
     operational_transparency: 65.8
+  previous_composite: 51.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -326,11 +329,13 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 23.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: flat
   upsert:
     applies: true
     score: 0.0
+screenshot: https://raw.githubusercontent.com/api-evangelist/arcadiapower2/refs/heads/main/screenshots/arcadiapower2-2026-10-11T100143.png
 security:
 - kind: authentication
   name: Arcadiapower2 Authentication
@@ -343,7 +348,7 @@ security:
 - kind: vulnerability-disclosure
   name: Arcadiapower2 Vulnerability Disclosure
   slug: arcadiapower2-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 - kind: trust-center
   name: Arcadiapower2 Trust Center
   slug: arcadiapower2-trust-center

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 4.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'Partner-delivered, contact-sales data API that serves PREDIK''s enriched location-intelligence products - POI data, aggregated foot-traffic and mobility data, company and commercial-area intelligence, '
@@ -40,6 +40,14 @@ apis:
   slug: predikt-ai-location-intelligence-data-api
 artifact_total: 4
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://predikdata.com/es/blog/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://predikdata.com/es/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/predikt-ai/refs/heads/main/security/predikt-ai-domain-security.yml
   title: ''
@@ -117,14 +125,14 @@ created: '2026-07-11'
 description: PREDIK Data-Driven is a big-data analytics and location-intelligence research firm (founded 2008, Coral Gables, Florida) that builds enriched geospatial datasets for site selection, demand forecasting, and web/reference intelligence. Its products cover Point-of-Interest (POI) data, aggregated foot-traffic and human mobility data derived from anonymized mobile devices, company and commercial-area intelligence, and socio-demographic enrichment - divided into geohash-7 (150x150m) cells with 100-200+ variables and coverage of up to 96 countries. PREDIK is a data-delivery / contact-sales provider - datasets are licensed and delivered as managed feeds via REST API, SOAP API, Feed API, or S3 bucket in JSON, CSV, and SQL formats. There is no public self-serve developer API portal or published API reference; access is arranged directly with PREDIK or through the Datarade marketplace. Endpoints are not publicly documented and are therefore not modeled here.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/predikt-ai.png
 layout: provider
-modified: '2026-08-14'
+modified: '2026-10-06'
 name: PREDIK Data-Driven
 nav: Providers
 network: true
-overview: 'PREDIK Data-Driven publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Web Intelligence, Data Enrichment, Company Data, B2B Data, and Sales Intelligence.
+overview: 'PREDIK Data-Driven is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Web Intelligence, Data Enrichment, Company Data, B2B Data, and Sales Intelligence.
 
 
-  PREDIK Data-Driven''s developer surface includes documentation, engineering blog, support, and 10 more developer resources.'
+  PREDIK Data-Driven''s developer surface includes engineering blog, documentation, support, and 12 more developer resources.'
 plans:
 - name: Predikt Ai Plans Pricing
   plan_count: 0
@@ -136,15 +144,15 @@ rate_limits:
   slug: predikt-ai-rate-limits
 score:
   band: emerging
-  composite: 14.6
+  composite: 14.7
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
@@ -159,8 +167,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

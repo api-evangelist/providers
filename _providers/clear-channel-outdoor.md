@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.2
-  scored_at: '2026-10-04'
+  score: 17.4
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - baseURL: https://direct.cco.io
@@ -148,9 +148,13 @@ examples:
   name: Clear Channel Outdoor Openrtb Dooh Bid Request Example
   slug: clear-channel-outdoor-openrtb-dooh-bid-request-example
 finops:
-- name: Clear Channel Outdoor Finops
+- has_sources: false
+  method: generated
+  name: Clear Channel Outdoor Finops
+  primary_unit: ''
   service_category: API
   slug: clear-channel-outdoor-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/clear-channel-outdoor.png
 integrations:
 - description: pDOOH buying via Adelphic DSP integration.
@@ -222,7 +226,7 @@ modified: '2026-05-23'
 name: Clear Channel Outdoor
 nav: Providers
 network: true
-overview: 'Clear Channel Outdoor publishes 3 APIs on the [APIs.io](https://apis.io/) network, including Automated Direct API, and 2 more. Tagged areas include Advertising, Out-of-Home, OOH, Programmatic, and Digital Out Of Home.
+overview: 'Clear Channel Outdoor is listed with 3 APIs on the [APIs.io](https://apis.io/) network, including Automated Direct API, and 2 more. Tagged areas include Advertising, Out-of-Home, OOH, Programmatic, and Digital Out Of Home.
 
 
   The Clear Channel Outdoor catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -239,10 +243,11 @@ rate_limits:
   name: Clear Channel Outdoor Rate Limits
   slug: clear-channel-outdoor-rate-limits
 rules:
-- effective_rule_count: 7
+- authorship: unmarked
+  effective_rule_count: 7
   extends:
   - '@stoplight/spectral-rulesets/oas'
-  name: Clear Channel Outdoor API Rules
+  name: Clear Channel Outdoor — direct rules
   rule_count: 7
   severity_counts:
     error: 5
@@ -250,9 +255,10 @@ rules:
     info: 0
     warn: 2
   slug: clear-channel-outdoor-direct-rules
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Clear Channel Outdoor API Rules
+  name: Clear Channel Outdoor — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -261,23 +267,23 @@ rules:
     warn: 3
   slug: clear-channel-outdoor-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 44.4
+  band: thin
+  composite: 35.3
   coverage:
     artifact_dirs: 15
-    catalog_earned: 88.6
+    catalog_earned: 66.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 26.4
+    catalog_gap: 48.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -9.1
   facets:
-    access_clarity: 26.8
-    contract_governance: 49.1
+    access_clarity: 5.3
+    contract_governance: 23.5
     contract_quality: 63.2
     developer_ergonomics: 40.5
     discoverability: 62.5
-    operational_transparency: 21.6
+    operational_transparency: 7.9
   previous_composite: 44.4
   provenance:
     contracts:
@@ -291,9 +297,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

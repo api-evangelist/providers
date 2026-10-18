@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -72,6 +72,10 @@ collections:
   name: JetBrains Marketplace API
   slug: open-jetbrains-plugin
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.jetbrains.com/feed/
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/jetbrains-plugin/refs/heads/main/agentic-access/jetbrains-plugin-agentic-access.yml
   title: ''
@@ -124,14 +128,14 @@ created: '2026-05-11'
 description: JetBrains Marketplace is the official plugin and theme distribution platform for JetBrains IDEs including IntelliJ IDEA, PyCharm, WebStorm, PhpStorm, GoLand, Rider, and other IntelliJ Platform products. The marketplace hosts thousands of free and paid plugins that extend IDE functionality with new languages, frameworks, tools, themes, and integrations. JetBrains Marketplace provides REST APIs for listing plugins, uploading new plugin builds, and downloading plugin updates programmatically.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/jetbrains-plugin.png
 layout: provider
-modified: '2026-05-11'
+modified: '2026-10-06'
 name: JetBrains Marketplace
 nav: Providers
 network: true
-overview: 'JetBrains Marketplace publishes 3 APIs on the [APIs.io](https://apis.io/) network, including Plugins API, Updates API, and 1 more. Tagged areas include Plugins, IDE, Marketplace, Developer Tools, and JetBrains.
+overview: 'JetBrains Marketplace publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network, including Plugins API, Updates API, and 1 more. Tagged areas include Plugins, IDE, Marketplace, Developer Tools, and JetBrains.
 
 
-  JetBrains Marketplace''s developer surface includes authentication, documentation, signup flow, pricing, and 7 more developer resources.'
+  JetBrains Marketplace''s developer surface includes authentication, documentation, signup flow, pricing, and 8 more developer resources.'
 random_paper: 12
 score:
   band: thin
@@ -165,8 +169,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 17.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

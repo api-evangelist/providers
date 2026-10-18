@@ -27,14 +27,14 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: partial
-    protected_resource_metadata: false
-    rate_limit_signal: documented
+    protected_resource_metadata: verified
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.8
-  scored_at: '2026-10-04'
+  score: 35.5
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 1
@@ -177,6 +177,21 @@ collections:
   name: Vanta API
   slug: open-vanta
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/vanta/refs/heads/main/plans/vanta-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/vanta-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/vanta/refs/heads/main/rate-limits/vanta-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/vanta-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/vanta/refs/heads/main/finops/vanta-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/vanta-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/vanta/refs/heads/main/capabilities/vanta-capability-edges.yml
   title: ''
@@ -307,9 +322,13 @@ examples:
   name: Vanta List Vulnerabilities Example
   slug: vanta-list-vulnerabilities-example
 finops:
-- name: Vanta Finops
+- has_sources: false
+  method: generated
+  name: Vanta Finops
+  primary_unit: ''
   service_category: API
   slug: vanta-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vanta.png
 json_schemas:
 - name: Vanta Control
@@ -342,13 +361,13 @@ modified: '2026-05-19'
 name: Vanta
 nav: Providers
 network: true
-overview: 'Vanta publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Auditors API, Audits API, Authentication API, and 8 more. Tagged areas include Cybersecurity, Compliance, Security, Governance, and Risk Management.
+overview: 'Vanta publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Auditors API, Audits API, Authentication API, and 8 more. Tagged areas include Cybersecurity, Compliance, Security, Governance, and Risk Management.
 
 
   The Vanta catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Vanta''s developer surface includes authentication, developer portal, getting-started guide, FAQ, documentation, engineering blog, changelog, and 20 more developer resources.'
+  Vanta''s developer surface includes authentication, developer portal, getting-started guide, FAQ, documentation, engineering blog, changelog, and 23 more developer resources.'
 plans:
 - name: Vanta Plans Pricing
   plan_count: 3
@@ -359,9 +378,10 @@ rate_limits:
   name: Vanta Rate Limits
   slug: vanta-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Vanta API Rules
+  name: Vanta — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -369,7 +389,8 @@ rules:
     info: 2
     warn: 3
   slug: vanta-jsonschema-spectral-rules
-- effective_rule_count: 51
+- authorship: unmarked
+  effective_rule_count: 51
   extends:
   - spectral:oas
   name: Vanta API Rules
@@ -387,17 +408,17 @@ scopes:
   summary_line: 8 scopes · clientCredentials
 score:
   band: developing
-  composite: 48.8
+  composite: 47.3
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 61.5
+    artifact_dirs: 23
+    catalog_earned: 58.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.5
+    catalog_gap: 56.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 13.6
     contract_quality: 61.9
     developer_ergonomics: 66.7
@@ -418,8 +439,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 51.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -135,6 +135,10 @@ collections:
   name: Salsify Records API
   slug: open-salsify-records-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.salsify.com/blog/rss.xml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/salsify/refs/heads/main/capabilities/salsify-capability-edges.yml
   title: ''
@@ -322,17 +326,17 @@ mcp_servers:
 - description: Remote MCP server at app.salsify.com over HTTP.
   name: Salsify MCP Server
   slug: salsify
-modified: '2026-08-02'
+modified: '2026-10-06'
 name: Salsify
 nav: Providers
 network: true
-overview: 'Salsify publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Digital Assets API, Export Runs API, Imports API, and 8 more. Tagged areas include Company, Product Experience Management, Product Information Management, Digital Asset Management, and Commerce.
+overview: 'Salsify publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Digital Assets API, Export Runs API, Imports API, and 8 more. Tagged areas include Company, Product Experience Management, Product Information Management, Digital Asset Management, and Commerce.
 
 
   The Salsify catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Salsify''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, signup flow, and 31 more developer resources.'
+  Salsify''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, signup flow, and 32 more developer resources.'
 random_paper: 15
 rate_limits:
 - limit_count: 2
@@ -345,15 +349,15 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: strong
-  composite: 59.0
+  composite: 59.1
   coverage:
-    artifact_dirs: 25
+    artifact_dirs: 26
     catalog_earned: 48.0
     catalog_earned_first_party: 8.0
     catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 50.0
     contract_governance: 18.2
@@ -384,8 +388,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

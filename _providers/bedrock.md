@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.bedrockocean.com/insights?format=rss
 - group: company
   title: ''
   type: Website
@@ -73,14 +77,14 @@ created: '2026-07-17'
 description: Bedrock (Bedrock Ocean Exploration) builds advanced autonomous underwater vehicles (AUVs) and Mosaic, a cloud-native data platform that transforms how the world maps, monitors, and understands the seafloor. Its AUV fleet carries multibeam echosounder, side-scan sonar, magnetometer, and sub-bottom profiler payloads to deliver high-resolution geophysical survey data for offshore energy (wind, oil and gas, renewables), ports and harbors, submarine telecom infrastructure, defense, and scientific research. A Northzone portfolio company, Bedrock is an enterprise ocean-data provider; it publishes no public developer API at this time.
 image: http://static1.squarespace.com/static/5fae5ff87a45fa2d8725fbf0/t/5fd1832bac13f65f660bb76e/1607566129226/Youtube+Banner+-+2048px+x+1152px.png?format=1500w
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Bedrock
 nav: Providers
 network: true
 overview: 'Bedrock is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Ocean Data, Seafloor Mapping, and Marine.
 
 
-  Bedrock''s developer surface includes engineering blog, support, and 6 more developer resources.'
+  Bedrock''s developer surface includes engineering blog, support, and 7 more developer resources.'
 random_paper: 4
 score:
   band: minimal
@@ -107,8 +111,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 8.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

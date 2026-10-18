@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The commercial API behind the Rapid Technology Partner Program, which lets technology partners integrate Rapid imaging results into their own products and services. Access is granted through the partn
@@ -149,7 +149,7 @@ modified: '2026-08-02'
 name: RapidAI
 nav: Providers
 network: true
-overview: 'RapidAI publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Healthcare, Medical Imaging, Artificial Intelligence, Radiology, and Clinical Decision Support.
+overview: 'RapidAI is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Healthcare, Medical Imaging, Artificial Intelligence, Radiology, and Clinical Decision Support.
 
 
   RapidAI''s developer surface includes support, engineering blog, authentication, and 20 more developer resources.'
@@ -187,8 +187,8 @@ score:
     regime: Health
     regime_id: health
     score: 25.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

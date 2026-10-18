@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.ummeedhfc.com/rss.xml
 - group: company
   title: ''
   type: Website
@@ -74,14 +78,14 @@ created: '2026-07-17'
 description: Ummeed Housing Finance Pvt. Ltd. is an Indian affordable-housing finance company registered with the National Housing Bank (NHB), providing home loans, loans against property, business loans, and MSME business loans to low- and middle-income households. Headquartered in Gurgaon, Haryana, it operates 130+ branches across 9 states and has served 45,000+ families. Backed by Norwest Venture Partners. Ummeed publishes no public developer portal or API surface; its digital channels are the customer website and a customer mobile app.
 image: https://www.ummeedhfc.com/themes/custom/ummeed/images/ummeedhfc-logo.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Ummeed Housing Finance
 nav: Providers
 network: true
 overview: 'Ummeed Housing Finance is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Housing Finance, Home Loans, Lending, and Financial Services.
 
 
-  Ummeed Housing Finance''s developer surface includes support, engineering blog, and 6 more developer resources.'
+  Ummeed Housing Finance''s developer surface includes support, engineering blog, and 7 more developer resources.'
 random_paper: 18
 score:
   band: emerging
@@ -115,8 +119,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

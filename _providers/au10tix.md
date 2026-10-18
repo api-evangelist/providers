@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 18.0
-  scored_at: '2026-10-04'
+  score: 16.1
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://eus-api.au10tixservices.com
@@ -116,16 +116,20 @@ common:
 created: '2026-06-25'
 description: AU10TIX is an identity verification and document authentication provider delivering KYC, document analysis, biometric face comparison, liveness, and fraud detection through a single REST API (the Back Office Server, "BOS") and web/mobile SDKs. The platform orchestrates verification workflows/sessions, returns structured results, and notifies clients via webhooks.
 finops:
-- name: Au10Tix Finops
+- has_sources: true
+  method: generated
+  name: Au10Tix Finops
+  primary_unit: ''
   service_category: Identity and Fraud
   slug: au10tix-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/au10tix.png
 layout: provider
 modified: '2026-06-25'
 name: AU10TIX
 nav: Providers
 network: true
-overview: 'AU10TIX publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Identity Verification API, Document Authentication API, Face Comparison & Liveness API, and 2 more. Tagged areas include Identity Verification, Document Authentication, KYC, Biometrics, and Fraud Prevention.
+overview: 'AU10TIX publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Identity Verification API, Document Authentication API, Face Comparison & Liveness API, and 2 more. Tagged areas include Identity Verification, Document Authentication, KYC, Biometrics, and Fraud Prevention.
 
 
   AU10TIX''s developer surface includes authentication, documentation, engineering blog, and 6 more developer resources.'
@@ -139,33 +143,33 @@ rate_limits:
   name: Au10Tix Rate Limits
   slug: au10tix-rate-limits
 score:
-  band: thin
-  composite: 27.2
+  band: emerging
+  composite: 19.8
   coverage:
-    artifact_dirs: 10
-    catalog_earned: 58.0
+    artifact_dirs: 11
+    catalog_earned: 42.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.0
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.4
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 29.4
     developer_ergonomics: 23.8
     discoverability: 66.1
-    operational_transparency: 28.4
+    operational_transparency: 7.9
   previous_composite: 27.2
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
-    score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
+    score: 11.3
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

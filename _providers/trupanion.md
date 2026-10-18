@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 4
 apis:
 - description: Partner API for generating and retrieving Trupanion pet insurance quotes (species, breed, age, location, and coverage inputs) so partners can surface a monthly premium in their own enrollment flow. Na
@@ -90,7 +90,7 @@ modified: '2026-07-03'
 name: Trupanion
 nav: Providers
 network: true
-overview: 'Trupanion publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Pet Insurance, Insurance, Veterinary, Insurtech, and DirectPay.
+overview: 'Trupanion is listed with 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Pet Insurance, Insurance, Veterinary, Insurtech, and DirectPay.
 
 
   Trupanion''s developer surface includes documentation, getting-started guide, signup flow, and 4 more developer resources.'
@@ -120,8 +120,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 5.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

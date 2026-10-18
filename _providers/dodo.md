@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -156,7 +156,7 @@ modified: '2026-07-18'
 name: DODO
 nav: Providers
 network: true
-overview: 'DODO publishes 1 API on the [APIs.io](https://apis.io/) network: Trade API. Tagged areas include Company, Crypto, DeFi, DEX, and Decentralized Exchange.
+overview: 'DODO publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Trade API. Tagged areas include Company, Cryptocurrency, DeFi, Decentralized Exchange, and Blockchain.
 
 
   DODO''s developer surface includes documentation, API reference, authentication, and 16 more developer resources.'
@@ -165,7 +165,7 @@ score:
   band: emerging
   composite: 18.5
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -196,8 +196,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 15.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -216,9 +216,8 @@ security:
 slug: dodo
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - DeFi
-- DEX
 - Decentralized Exchange
 - Blockchain
 - Trading

@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 1
@@ -154,16 +154,20 @@ common:
 created: '2026-06-21'
 description: Pipecat is an open-source Python framework (created by Daily) for building realtime voice and multimodal AI agents. It orchestrates pipelines of frames through pluggable services (STT, LLM, TTS, vision) and transports (Daily WebRTC, WebSocket, SmallWebRTC, telephony). Pipecat Cloud adds a hosted platform with a REST control API for deploying agents and starting/stopping agent sessions at scale.
 finops:
-- name: Pipecat Ai Finops
+- has_sources: true
+  method: generated
+  name: Pipecat Ai Finops
+  primary_unit: ''
   service_category: AI and Machine Learning
   slug: pipecat-ai-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pipecat-ai.png
 layout: provider
 modified: '2026-06-21'
 name: Pipecat
 nav: Providers
 network: true
-overview: 'Pipecat publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Builds API, Organization API, and 4 more. Tagged areas include Artificial Intelligence, Voice, Multi-Modal, Agents, and Real-Time.
+overview: 'Pipecat publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agents API, Builds API, Organization API, and 4 more. Tagged areas include Artificial Intelligence, Voice, Multi-Modal, Agents, and Real-Time.
 
 
   Pipecat''s developer surface includes authentication, documentation, and 9 more developer resources.'
@@ -178,22 +182,22 @@ rate_limits:
   slug: pipecat-ai-rate-limits
 score:
   band: thin
-  composite: 36.0
+  composite: 27.3
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 61.6
+    artifact_dirs: 12
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.4
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.7
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 46.1
     developer_ergonomics: 28.6
     discoverability: 66.1
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   previous_composite: 36.0
   provenance:
     agentic_access: derived
@@ -204,13 +208,13 @@ score:
       total: 5
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 10.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 22.2

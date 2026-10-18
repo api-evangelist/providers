@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -287,7 +287,7 @@ modified: '2026-08-08'
 name: 99 Minutos
 nav: Providers
 network: true
-overview: '99 Minutos publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Coverage API, Documents API, Locations API, and 6 more. Tagged areas include Company, Logistics, Last Mile Delivery, Shipping, and E-Commerce.
+overview: '99 Minutos publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Coverage API, Documents API, Locations API, and 6 more. Tagged areas include Company, Logistics, Last Mile Delivery, Shipping, and E-Commerce.
 
 
   The 99 Minutos catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -303,7 +303,7 @@ score:
   band: developing
   composite: 46.3
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
@@ -341,8 +341,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

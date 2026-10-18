@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-04'
+  score: 20.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -76,6 +76,21 @@ collections:
   name: KPMG Origins APIs
   slug: open-kpmg
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/kpmg/refs/heads/main/plans/kpmg-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/kpmg-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/kpmg/refs/heads/main/rate-limits/kpmg-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/kpmg-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/kpmg/refs/heads/main/finops/kpmg-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/kpmg-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/kpmg/refs/heads/main/agentic-access/kpmg-agentic-access.yml
   title: ''
@@ -184,9 +199,13 @@ description: 'KPMG is one of the Big Four professional services organizations, o
   Alliances anchoring the AI delivery surface include Microsoft, Oracle, Salesforce, SAP, ServiceNow, and Workday, with collaboration noted with the World Economic Forum. KPMG Lakehouse, the firm''s USD 450 million learning-and-innovation campus in Lake Nona, Orlando, is the cultural and AI-upskilling hub for the US firm and a venue for client innovation sessions in generative AI, ESG, and talent strategy. Insights is KPMG''s research-publishing surface, organized across topic categories including AI and Technology, ESG, Operations, Risk and Regulation, Transformation, Value Creation, Workforce, Public Policy & Regulatory Change, Business Transformation, Audit & Assurance, Tax, Advisory, Sustainability, and Transactions, with flagship series such as the KPMG US Technology Survey Report, the KPMG Global Third-Party Risk Management Survey, the KPMG M&A Deal Market Study, Fit for Pillar Two, and AI Governance Principles for Boards. KPMG does not publish a public developer API or corporate developer
   portal at the network level; the firm has no enumerable public GitHub organization at `github.com/kpmg`. The one meaningful public API surface inside the KPMG brand is KPMG Origins (`kpmgorigins.com`) — an Australian regulated-waste tracking platform (initially the NSW Integrated Waste Tracking System / IWTS, with Queensland and other jurisdictions in scope) that exposes two REST APIs (Movements + Registries) over Swagger with API-key authentication, intended for integration with waste-operator software rather than as a general-purpose KPMG developer surface. Distribution to readers and client stakeholders flows through the Insights site, the US Subscription Center (Opportunity (In)sight monthly newsletter), KPMG Australia''s Business Insights podcast, and per-page RSS feeds offered on individual KPMG member-firm pages.'
 finops:
-- name: Kpmg Finops
+- has_sources: true
+  method: generated
+  name: Kpmg Finops
+  primary_unit: ''
   service_category: Professional Services
   slug: kpmg-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kpmg.png
 jsonld:
 - class_count: 52
@@ -198,13 +217,13 @@ modified: '2026-05-23'
 name: KPMG
 nav: Providers
 network: true
-overview: 'KPMG publishes 3 APIs on the [APIs.io](https://apis.io/) network, including Movements API, Registries API, and 1 more. Tagged areas include Consulting, Audit, Tax, Legal, and Professional Services.
+overview: 'KPMG publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network, including Movements API, Registries API, and 1 more. Tagged areas include Consulting, Audit, Tax, Legal, and Professional Services.
 
 
   The KPMG catalog on APIs.io includes 1 JSON-LD context.
 
 
-  KPMG''s developer surface includes authentication, YouTube channel, and 23 more developer resources.'
+  KPMG''s developer surface includes authentication, YouTube channel, and 26 more developer resources.'
 plans:
 - name: Kpmg Plans Pricing
   plan_count: 3
@@ -215,23 +234,23 @@ rate_limits:
   name: Kpmg Rate Limits
   slug: kpmg-rate-limits
 score:
-  band: developing
-  composite: 39.6
+  band: thin
+  composite: 32.3
   coverage:
-    artifact_dirs: 14
-    catalog_earned: 66.0
+    artifact_dirs: 15
+    catalog_earned: 50.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 49.0
+    catalog_gap: 65.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.3
   facets:
-    access_clarity: 49.5
+    access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 50.7
     developer_ergonomics: 26.2
     discoverability: 73.2
-    operational_transparency: 34.7
+    operational_transparency: 21.1
   previous_composite: 39.6
   provenance:
     agentic_access: derived
@@ -246,9 +265,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

@@ -23,8 +23,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.4
-  scored_at: '2026-10-04'
-api_count: 1
+  scored_at: '2026-10-17'
+api_count: 2
 apis:
 - baseURL: https://api.microburbs.com.au
   baseurl_source: declared
@@ -203,6 +203,16 @@ apis:
   slug: microburbs-suburb-street-forecasts-api
 artifact_total: 40
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/microburbs/refs/heads/main/plans/microburbs-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/microburbs-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/microburbs/refs/heads/main/rate-limits/microburbs-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/microburbs-rate-limits.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/microburbs/refs/heads/main/mcp/microburbs-mcp.yml
   title: ''
@@ -276,10 +286,10 @@ modified: '2026-09-14'
 name: Microburbs
 nav: Providers
 network: true
-overview: 'Microburbs publishes 35 APIs on the [APIs.io](https://apis.io/) network, including Account API, Area Statistics API, Geocode API, and 32 more. Tagged areas include Property Data, Real Estate, Australia, Demographics, and Location Intelligence.
+overview: 'Microburbs publishes 35 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Area Statistics API, Geocode API, and 32 more. Tagged areas include Property Data, Real Estate, Australia, Demographics, and Location Intelligence.
 
 
-  Microburbs'' developer surface includes authentication, pricing, signup flow, support, FAQ, and 9 more developer resources.'
+  Microburbs'' developer surface includes authentication, pricing, signup flow, support, FAQ, and 11 more developer resources.'
 plans:
 - name: Microburbs Plans Pricing
   plan_count: 0
@@ -290,16 +300,16 @@ rate_limits:
   name: Microburbs Rate Limits
   slug: microburbs-rate-limits
 score:
-  band: thin
-  composite: 39.1
+  band: developing
+  composite: 39.7
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 22
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 83.0
+    catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.1
   facets:
     access_clarity: 44.7
     contract_governance: 0.0
@@ -314,7 +324,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 39.1
+  previous_composite: 39.6
   provenance:
     conformance: derived
     contracts:
@@ -330,13 +340,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
     reason: read_only
+screenshot: https://raw.githubusercontent.com/api-evangelist/microburbs/refs/heads/main/screenshots/microburbs-2026-10-11T111115.png
 security:
 - kind: authentication
   name: Microburbs Authentication

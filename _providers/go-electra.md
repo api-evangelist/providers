@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 9.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Electra's Open Charge Point Interface implementation in the Charge Point Operator role — the roaming interface an e-mobility service provider calls to read Electra's locations and tariffs, authorise i
@@ -192,7 +192,7 @@ modified: '2026-08-17'
 name: Electra
 nav: Providers
 network: true
-overview: 'Electra publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Climate Tech, EV Charging, Energy, and Mobility.
+overview: 'Electra is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Climate Tech, EV Charging, Energy, and Mobility.
 
 
   Electra''s developer surface includes pricing, signup flow, support, engineering blog, legal docs, authentication, code examples, and 22 more developer resources.'
@@ -209,7 +209,7 @@ score:
   band: thin
   composite: 31.4
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -241,8 +241,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 24.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

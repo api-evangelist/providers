@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 5.0
-  scored_at: '2026-10-04'
+  score: 3.1
+  scored_at: '2026-10-17'
 api_count: 5
 apis:
 - description: The university's own Shibboleth IdP, publishing signed SAML 2.0 metadata as a machine-readable EntityDescriptor. entityID https://idp.sussex.ac.uk/shibboleth, shibmd:Scope sussex.ac.uk, IDPSSODescript
@@ -54,6 +54,10 @@ apis:
   slug: primo-discovery
 artifact_total: 11
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.sussex.ac.uk/broadcast/feed/news/external-homepage.rss
 - group: company
   title: ''
   type: Website
@@ -187,19 +191,23 @@ created: '2026-06-03'
 description: 'The University of Sussex is a research-intensive public university at Falmer near Brighton in the United Kingdom, a member of the Russell Group''s peer set of UK research institutions and ranked #247 in the QS World University Rankings 2025. Its programmable footprint is small and almost entirely indirect, and this profile says so rather than padding it. The one surface the university genuinely operates and publishes machine-readably is its own Shibboleth identity provider: idp.sussex.ac.uk serves signed SAML 2.0 metadata with an entityID of https://idp.sussex.ac.uk/shibboleth and a shibmd:Scope of sussex.ac.uk, running on a Sussex-controlled Azure deployment rather than a vendor''s multi-tenant service. Everything else that looks like a Sussex API is a vendor product running under a Sussex name: Okta for single sign-on at okta.sussex.ac.uk, Instructure Canvas for the VLE at canvas.sussex.ac.uk, Figshare for the research repository at sussex.figshare.com, and Ex Libris Primo
   for library discovery. Those relationships are recorded here as tenant surfaces because they are real institutional facts, but the contracts behind them belong to the vendors and are scored against the vendors'' own profiles. Sussex operates no public developer portal, publishes no OpenAPI of its own, and its GitHub organization has no public repositories. The former Sussex Research Online EPrints repository and its OAI-PMH endpoint have been decommissioned and now redirect to an HTML publications page.'
 finops:
-- name: University Of Sussex Finops
+- has_sources: true
+  method: generated
+  name: University Of Sussex Finops
+  primary_unit: ''
   service_category: Education
   slug: university-of-sussex-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/university-of-sussex.png
 layout: provider
-modified: '2026-08-30'
+modified: '2026-10-06'
 name: University of Sussex
 nav: Providers
 network: true
-overview: 'University of Sussex publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include University, Higher Education, Education, United Kingdom, and Russell Group.
+overview: 'University of Sussex is listed with 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include University, Higher Education, Education, United Kingdom, and Russell Group.
 
 
-  University of Sussex''s developer surface includes documentation, support, engineering blog, authentication, and 19 more developer resources.'
+  University of Sussex''s developer surface includes documentation, support, engineering blog, authentication, and 20 more developer resources.'
 plans:
 - name: University Of Sussex Plans Pricing
   plan_count: 2
@@ -215,23 +223,23 @@ scopes:
   slug: university-of-sussex-scopes
   summary_line: 7 scopes · authorizationCode
 score:
-  band: thin
-  composite: 27.4
+  band: emerging
+  composite: 21.4
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 57.4
+    artifact_dirs: 12
+    catalog_earned: 44.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.6
+    catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -3.7
+  delta: -6.0
   facets:
-    access_clarity: 37.4
+    access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 4.4
     developer_ergonomics: 35.7
     discoverability: 71.4
-    operational_transparency: 21.6
+    operational_transparency: 7.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -240,7 +248,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 31.1
+  previous_composite: 27.4
   provenance:
     conformance: first-party
   regulatory:
@@ -249,9 +257,9 @@ score:
     regime: Education & Research
     regime_id: education
     score: 30.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -277,7 +285,7 @@ tags:
 - Identity Federation
 - Research Repository
 - Library
-- Learning Management
+- LMS
 - Research
 - Open Access
 website: https://www.sussex.ac.uk/

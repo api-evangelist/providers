@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 59.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 86
+- acting_count: 85
   human_in_the_loop: 0
   name: Coval Agentic Access
   operation_count: 151
   slug: coval-agentic-access
-  summary_line: 151 operations · 86 acting
+  summary_line: 151 operations · 85 acting
 api_count: 20
 apis:
 - baseURL: https://api.coval.dev/v1
@@ -170,7 +170,7 @@ apis:
   description: Dashboard widget CRUD operations
   name: Coval Widgets API
   slug: coval-widgets-api
-artifact_total: 80
+artifact_total: 81
 asyncapis:
 - description: ''
   name: Coval Webhooks
@@ -324,6 +324,11 @@ collections:
   name: Coval Agents Widgets API
   slug: open-coval-widgets-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/coval/refs/heads/main/plans/coval-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/coval-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/coval/refs/heads/main/capabilities/coval-capability-edges.yml
   title: ''
@@ -493,27 +498,31 @@ modified: '2026-09-16'
 name: Coval
 nav: Providers
 network: true
-overview: 'Coval publishes 25 APIs on the [APIs.io](https://apis.io/) network, including Agents API, API Keys API, Audio API, and 22 more. Tagged areas include Company, AI Agents, Voice AI, Testing, and Evaluation.
+overview: 'Coval publishes 25 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agents API, API Keys API, Audio API, and 22 more. Tagged areas include Company, AI Agents, Voice AI, Testing, and Evaluation.
 
 
   The Coval catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Coval''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 28 more developer resources.'
+  Coval''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 29 more developer resources.'
+plans:
+- name: Coval Plans Pricing
+  plan_count: 3
+  slug: coval-plans-pricing
 random_paper: 5
 score:
-  band: developing
-  composite: 51.6
+  band: strong
+  composite: 57.5
   coverage:
-    artifact_dirs: 28
-    catalog_earned: 40.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    artifact_dirs: 30
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 5.9
   facets:
-    access_clarity: 31.6
+    access_clarity: 63.2
     contract_governance: 4.5
     contract_quality: 64.0
     developer_ergonomics: 74.4
@@ -538,13 +547,13 @@ score:
     - jurisdiction: US
       standard: hipaa
     jurisdictions_satisfied: 2
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 22.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

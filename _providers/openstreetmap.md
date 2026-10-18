@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -160,6 +160,16 @@ collections:
   name: OpenStreetMap API v0.6 Capabilities Ways API
   slug: open-openstreetmap-ways-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/openstreetmap/refs/heads/main/plans/openstreetmap-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/openstreetmap-plans-pricing.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/openstreetmap/refs/heads/main/finops/openstreetmap-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/openstreetmap-finops.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -289,9 +299,13 @@ features:
 - 'Foundation policy: https://operations.osmfoundation.org/policies/'
 - 'Wiki: wiki.openstreetmap.org'
 finops:
-- name: Openstreetmap Finops
+- has_sources: true
+  method: generated
+  name: Openstreetmap Finops
+  primary_unit: ''
   service_category: Open Geospatial Data
   slug: openstreetmap-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/openstreetmap.png
 json_schemas:
 - name: Capabilities
@@ -335,13 +349,13 @@ modified: '2026-05-19'
 name: OpenStreetMap
 nav: Providers
 network: true
-overview: 'OpenStreetMap publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Capabilities API, Changesets API, Map Data API, and 8 more. Tagged areas include Geospatial, Mapping, Open Data, Geocoding, and Editing.
+overview: 'OpenStreetMap publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Capabilities API, Changesets API, Map Data API, and 8 more. Tagged areas include Geospatial, Mapping, Open Data, Geocoding, and Editing.
 
 
   The OpenStreetMap catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  OpenStreetMap''s developer surface includes authentication, developer portal, documentation, engineering blog, support, and 21 more developer resources.'
+  OpenStreetMap''s developer surface includes authentication, developer portal, documentation, engineering blog, support, and 23 more developer resources.'
 plans:
 - name: Openstreetmap Plans Pricing
   plan_count: 3
@@ -352,9 +366,10 @@ rate_limits:
   name: Openstreetmap Rate Limits
   slug: openstreetmap-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: OpenStreetMap API Rules
+  name: OpenStreetMap — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -369,17 +384,17 @@ scopes:
   summary_line: 7 scopes · authorizationCode
 score:
   band: developing
-  composite: 44.6
+  composite: 43.0
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 65.7
+    artifact_dirs: 19
+    catalog_earned: 62.7
     catalog_earned_first_party: 0.0
-    catalog_gap: 49.4
+    catalog_gap: 52.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 36.8
+    access_clarity: 28.9
     contract_governance: 9.8
     contract_quality: 60.5
     developer_ergonomics: 46.4
@@ -399,8 +414,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 40.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

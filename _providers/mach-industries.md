@@ -32,10 +32,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://machindustries.com/articles
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://machindustries.com/articles/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/mach-industries/refs/heads/main/security/mach-industries-domain-security.yml
   title: ''
@@ -65,14 +73,14 @@ created: '2026-07-17'
 description: Mach Industries develops and manufactures asymmetric aerospace and defense systems and components at scale, with a product portfolio that includes the Viper vertical-takeoff attack drone, the Glide precision strike munition, the Stratos high-altitude pseudo-satellite, the Pike long-range munition, the Dart counter-drone kinetic interceptor, and energetics testing services. Surfaced as a portfolio company of Ribbit Capital and added to the API Evangelist network. The company is a defense hardware manufacturer and publishes no public developer or API surface as of this enrichment pass.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mach-industries.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Mach Industries
 nav: Providers
 network: true
 overview: 'Mach Industries is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defense, Aerospace, Drones, and Manufacturing.
 
 
-  Mach Industries'' developer surface includes engineering blog, support, and 4 more developer resources.'
+  Mach Industries'' developer surface includes engineering blog, support, and 6 more developer resources.'
 random_paper: 12
 score:
   band: minimal
@@ -99,8 +107,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 9.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.makewonder.com/feed/
 - group: company
   title: ''
   type: Website
@@ -101,18 +105,18 @@ created: '2026-07-17'
 description: 'Wonder Workshop (GitHub org "playi", originally Play-i) is an educational technology company that makes the Dash, Dot, and Cue programmable robots and the Make Wonder K-8 coding and robotics learning platform, used by more than 40,000 schools across 65 countries. Its developer surface is a set of official SDKs that give granular realtime control of the physical robots'' sensors and actuators over Bluetooth Low Energy: WonderPy (Python, on PyPI), @wonderworkshop/wwjs (JavaScript, on npm), and an iOS/Android robot framework shipped in the playground sample-app repository. There is no HTTP/cloud REST API, OAuth, or webhook surface; integration happens locally over BLE. Backed by GV.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wonder-workshop.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Wonder Workshop
 nav: Providers
 network: true
 overview: 'Wonder Workshop is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Frontier Tech, Education, EdTech, and Robotics.
 
 
-  Wonder Workshop''s developer surface includes documentation, support, engineering blog, pricing, and 10 more developer resources.'
+  Wonder Workshop''s developer surface includes documentation, support, engineering blog, pricing, and 11 more developer resources.'
 random_paper: 9
 score:
   band: emerging
-  composite: 16.2
+  composite: 16.3
   coverage:
     artifact_dirs: 7
     catalog_earned: 27.0
@@ -120,7 +124,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 31.6
     contract_governance: 0.0
@@ -135,8 +139,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

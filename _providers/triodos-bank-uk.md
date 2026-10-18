@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 50
+- acting_count: 49
   human_in_the_loop: 1
   name: Triodos Bank Uk Agentic Access
   operation_count: 101
   slug: triodos-bank-uk-agentic-access
-  summary_line: 101 operations · 50 acting · 1 human-in-the-loop
+  summary_line: 101 operations · 49 acting · 1 human-in-the-loop
 api_count: 2
 apis:
 - baseURL: https://api-ma.triodos.com/xs2a-bg
@@ -273,7 +273,7 @@ modified: '2026-07-23'
 name: Triodos Bank UK
 nav: Providers
 network: true
-overview: 'Triodos Bank UK publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Account Information Service API, Authorization Endpoint API, Client Registration Endpoint API, and 7 more. Tagged areas include Financial Services, Banking, Open Banking, PSD2, and XS2A.
+overview: 'Triodos Bank UK publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account Information Service API, Authorization Endpoint API, Client Registration Endpoint API, and 7 more. Tagged areas include Financial Services, Banking, Open Banking, PSD2, and XS2A.
 
 
   Triodos Bank UK''s developer surface includes authentication, sandbox, changelog, API reference, signup flow, documentation, getting-started guide, and 28 more developer resources.'
@@ -287,7 +287,7 @@ score:
   band: developing
   composite: 41.2
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -334,8 +334,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 59.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

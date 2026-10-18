@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 1.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 6
 apis:
 - description: 'The Three.js core library provides the scene graph, cameras, lights, geometries, materials, textures, loaders, and animation primitives used to build interactive 3D applications in the browser and on '
@@ -226,7 +226,7 @@ modified: '2026-09-16'
 name: Three.js
 nav: Providers
 network: true
-overview: 'Three.js publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include 3D, Graphics, WebGL, WebGPU, and JavaScript.
+overview: 'Three.js is listed with 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include 3D, Graphics, WebGL, WebGPU, and JavaScript.
 
 
   The Three.js catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -235,9 +235,10 @@ overview: 'Three.js publishes 6 APIs on the [APIs.io](https://apis.io/) network.
   Three.js'' developer surface includes developer portal, documentation, code examples, sandbox, changelog, support, tooling, and 23 more developer resources.'
 random_paper: 9
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Three.js API Rules
+  name: Three.js — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -270,8 +271,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

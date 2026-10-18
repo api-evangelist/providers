@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -168,7 +168,7 @@ modified: '2026-07-18'
 name: Acko
 nav: Providers
 network: true
-overview: 'Acko publishes 1 API on the [APIs.io](https://apis.io/) network: APIs API. Tagged areas include Company, Consumer, Insurance, Insurtech, and Financial Services.
+overview: 'Acko publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: APIs API. Tagged areas include Company, Consumer, Insurance, Insurtech, and Financial Services.
 
 
   Acko''s developer surface includes authentication, documentation, API reference, engineering blog, support, and 17 more developer resources.'
@@ -177,7 +177,7 @@ score:
   band: thin
   composite: 35.9
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -215,8 +215,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 28.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

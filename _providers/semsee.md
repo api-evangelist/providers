@@ -26,14 +26,14 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: false
-    rate_limit_signal: documented
+    protected_resource_metadata: verified
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.1
-  scored_at: '2026-10-04'
+  score: 25.8
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'Partner-gated Upload/Download integration that pushes ACORD-based application and submission data from an agency management system (AMS) into the Semsee platform for multi-carrier quoting. No public, '
@@ -106,9 +106,13 @@ common:
 created: '2026-06-25'
 description: Semsee is a digital small-commercial insurance quoting platform built on the SEMCI (Single Entry, Multiple Company Interface) principle, connecting independent agents to 50+ carriers and MGAs across multiple lines of business via API and RPA integrations. The platform handles submissions, multi-carrier quoting, proposals, and binding. Semsee exposes a partner Upload/Download (AMS) integration capability and SSO rather than a public, self-serve developer API. Semsee was acquired by iBynd in March 2026.
 finops:
-- name: Semsee Finops
+- has_sources: true
+  method: generated
+  name: Semsee Finops
+  primary_unit: ''
   service_category: Insurance Technology
   slug: semsee-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/semsee.png
 layout: provider
 mcp_servers:
@@ -119,7 +123,7 @@ modified: '2026-06-25'
 name: Semsee
 nav: Providers
 network: true
-overview: 'Semsee publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Submissions API, Quotes API, Carriers API, and 1 more. Tagged areas include Insurance, Insurtech, Commercial Insurance, Quoting, and Submissions.
+overview: 'Semsee publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Submissions API, Quotes API, Carriers API, and 1 more. Tagged areas include Insurance, Insurtech, Commercial Insurance, Quoting, and Submissions.
 
 
   Semsee''s developer surface includes documentation, engineering blog, and 8 more developer resources.'
@@ -133,23 +137,23 @@ rate_limits:
   name: Semsee Rate Limits
   slug: semsee-rate-limits
 score:
-  band: thin
-  composite: 26.9
+  band: emerging
+  composite: 19.5
   coverage:
     artifact_dirs: 10
-    catalog_earned: 58.0
+    catalog_earned: 42.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.0
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.4
   facets:
-    access_clarity: 44.2
+    access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 23.3
     developer_ergonomics: 16.2
     discoverability: 68.3
-    operational_transparency: 18.9
+    operational_transparency: 5.3
   previous_composite: 26.9
   provenance:
     mcp: first-party
@@ -159,9 +163,9 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 14.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
@@ -175,7 +179,7 @@ security:
 - kind: vulnerability-disclosure
   name: Semsee Vulnerability Disclosure
   slug: semsee-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 - kind: trust-center
   name: Semsee Trust Center
   slug: semsee-trust-center

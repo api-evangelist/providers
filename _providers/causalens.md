@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 9.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'The HTTP surface exposed by a Dara application. Dara is causaLens'' Apache-2.0 open-source Python framework built on FastAPI; each app serves a documented set of built-in routes (session verification, '
@@ -42,6 +42,14 @@ apis:
   slug: dara-application-framework-http-api
 artifact_total: 4
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://causalens.com/blogs
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://causalens.com/blogs/feed
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/causalens/refs/heads/main/mcp/causalens-mcp.yml
   title: ''
@@ -168,20 +176,20 @@ mcp_servers:
 - description: No causaLens MCP server was found. causaLens publishes no hosted or remote Model Context Protocol endpoint, no MCP entry in any public registry, and no MCP documentation on any readable host. No candi
   name: CausaLens MCP Server
   slug: causalens-mcp-yml
-modified: '2026-08-09'
+modified: '2026-10-06'
 name: CausaLens
 nav: Providers
 network: true
-overview: 'CausaLens publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Causal AI, Machine Learning, and Data Science.
+overview: 'CausaLens is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Causal AI, Machine Learning, and Data Science.
 
 
-  CausaLens'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, CLI, and 19 more developer resources.'
+  CausaLens'' developer surface includes engineering blog, documentation, API reference, getting-started guide, support, signup flow, CLI, and 21 more developer resources.'
 random_paper: 13
 score:
   band: thin
   composite: 34.1
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -214,8 +222,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

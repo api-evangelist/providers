@@ -28,20 +28,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 41.7
-  scored_at: '2026-10-04'
+  score: 39.8
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 20
+- acting_count: 19
   human_in_the_loop: 0
   name: Apache Iceberg Agentic Access
   operation_count: 32
   slug: apache-iceberg-agentic-access
-  summary_line: 32 operations · 20 acting
+  summary_line: 32 operations · 19 acting
 api_count: 1
 apis:
 - description: The Iceberg Java API provides programmatic access to table operations, schema management, partition management, and catalog implementations. It is the primary library for integrating Iceberg with JVM-
@@ -80,6 +80,21 @@ collections:
   name: Apache Iceberg REST Catalog Catalog API OAuth2 API API
   slug: open-apache-iceberg-oauth2-api-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/apache-iceberg/refs/heads/main/plans/apache-iceberg-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/apache-iceberg-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/apache-iceberg/refs/heads/main/rate-limits/apache-iceberg-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/apache-iceberg-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/apache-iceberg/refs/heads/main/finops/apache-iceberg-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/apache-iceberg-finops.yml
 - group: company
   title: ''
   type: Website
@@ -672,9 +687,13 @@ features:
 - description: Native support for S3, ADLS, GCS, and HDFS with no filesystem dependencies.
   name: Cloud-Native Storage
 finops:
-- name: Apache Iceberg Finops
+- has_sources: false
+  method: generated
+  name: Apache Iceberg Finops
+  primary_unit: ''
   service_category: API
   slug: apache-iceberg-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/apache-iceberg.png
 json_schemas:
 - name: AddEncryptionKeyUpdate
@@ -1648,13 +1667,13 @@ modified: '2026-09-16'
 name: Apache Iceberg
 nav: Providers
 network: true
-overview: 'Apache Iceberg publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Catalog API, Configuration API, OAuth2 API, and 2 more. Tagged areas include ACID, Analytics, Apache, Data Lake, and Lakehouse.
+overview: 'Apache Iceberg publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Catalog API, Configuration API, OAuth2 API, and 2 more. Tagged areas include ACID, Analytics, Apache, Data Lake, and Lakehouse.
 
 
   The Apache Iceberg catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Apache Iceberg''s developer surface includes authentication, documentation, engineering blog, YouTube channel, release notes, and 16 more developer resources.'
+  Apache Iceberg''s developer surface includes authentication, documentation, engineering blog, YouTube channel, release notes, and 19 more developer resources.'
 plans:
 - name: Apache Iceberg Plans Pricing
   plan_count: 3
@@ -1665,9 +1684,10 @@ rate_limits:
   name: Apache Iceberg Rate Limits
   slug: apache-iceberg-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Apache Iceberg API Rules
+  name: Apache Iceberg — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1675,7 +1695,8 @@ rules:
     info: 2
     warn: 3
   slug: apache-iceberg-jsonschema-spectral-rules
-- effective_rule_count: 76
+- authorship: generated
+  effective_rule_count: 76
   extends:
   - spectral:oas
   name: Apache Iceberg API Rules
@@ -1693,17 +1714,17 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: developing
-  composite: 46.8
+  composite: 45.5
   coverage:
     artifact_dirs: 18
-    catalog_earned: 61.0
+    catalog_earned: 58.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 54.0
+    catalog_gap: 57.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.3
   facets:
-    access_clarity: 26.3
+    access_clarity: 18.4
     contract_governance: 27.3
     contract_quality: 56.2
     developer_ergonomics: 40.5
@@ -1726,8 +1747,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 36.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.upside.com/blog/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/upside-services/refs/heads/main/security/upside-services-trust-center.yml
   title: ''
@@ -108,26 +112,26 @@ created: '2026-07-17'
 description: Upside (Upside Services, Inc.) is a retail technology company whose platform delivers personalized cash-back offers on gas, groceries, and dining to more than five million consumers through the Upside app and embedded partner experiences. Merchants across fuel and convenience, grocery, and restaurants pay only for measured incremental profit, verified against control groups. Upside operates an enterprise partner API used by companies like Fiserv, GasBuddy, Lyft, Uber, and Marqeta to embed offers, but publishes no public developer portal, API documentation, or SDKs - API access is arranged through its partnerships team. Backed by DCVC (first invested 2016).
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/upside-services.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Upside Services
 nav: Providers
 network: true
 overview: 'Upside Services is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cashback, Retail, Fuel, and Grocery.
 
 
-  Upside Services'' developer surface includes engineering blog, support, and 14 more developer resources.'
+  Upside Services'' developer surface includes engineering blog, support, and 15 more developer resources.'
 random_paper: 1
 score:
   band: emerging
-  composite: 17.9
+  composite: 18.0
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 50.0
     contract_governance: 0.0
@@ -142,8 +146,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

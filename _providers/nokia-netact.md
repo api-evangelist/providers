@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.3
-  scored_at: '2026-10-04'
+  score: 20.4
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -86,6 +86,21 @@ collections:
   name: Nokia NetAct Network Management Northbound Interface Configuration Management Topology API
   slug: open-nokia-netact-topology-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/nokia-netact/refs/heads/main/plans/nokia-netact-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/nokia-netact-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/nokia-netact/refs/heads/main/rate-limits/nokia-netact-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/nokia-netact-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/nokia-netact/refs/heads/main/finops/nokia-netact-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/nokia-netact-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/nokia-netact/refs/heads/main/capabilities/nokia-netact-capability-edges.yml
   title: ''
@@ -138,9 +153,13 @@ common:
 created: '2026-03-18'
 description: Nokia NetAct is a network management system that enables operators to monitor, configure, and optimize multi-vendor mobile networks across radio, transport, and core domains. The northbound interface exposes REST APIs for OSS/BSS integration including topology, performance, fault, and configuration management.
 finops:
-- name: Nokia Netact Finops
+- has_sources: false
+  method: generated
+  name: Nokia Netact Finops
+  primary_unit: ''
   service_category: API
   slug: nokia-netact-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nokia-netact.png
 json_schemas:
 - name: Nokia NetAct Network Element
@@ -156,13 +175,13 @@ modified: '2026-05-19'
 name: Nokia NetAct
 nav: Providers
 network: true
-overview: 'Nokia NetAct publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Configuration Management API, Fault Management API, Performance Management API, and 1 more. Tagged areas include Network Management, OSS, SNMP, and Telecommunications.
+overview: 'Nokia NetAct publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Configuration Management API, Fault Management API, Performance Management API, and 1 more. Tagged areas include Network Management, OSS, SNMP, and Telecommunications.
 
 
   The Nokia NetAct catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Nokia NetAct''s developer surface includes authentication, developer portal, documentation, and 8 more developer resources.'
+  Nokia NetAct''s developer surface includes authentication, developer portal, documentation, and 11 more developer resources.'
 plans:
 - name: Nokia Netact Plans Pricing
   plan_count: 3
@@ -173,9 +192,10 @@ rate_limits:
   name: Nokia Netact Rate Limits
   slug: nokia-netact-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Nokia NetAct API Rules
+  name: Nokia NetAct — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -185,17 +205,17 @@ rules:
   slug: nokia-netact-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 31.0
+  composite: 29.4
   coverage:
     artifact_dirs: 14
-    catalog_earned: 60.7
+    catalog_earned: 57.7
     catalog_earned_first_party: 0.0
-    catalog_gap: 54.4
+    catalog_gap: 57.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 9.8
     contract_quality: 58.5
     developer_ergonomics: 31.0
@@ -215,8 +235,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 19.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

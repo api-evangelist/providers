@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.shoedazzle.com/blog
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/shoedazzle/refs/heads/main/security/shoedazzle-domain-security.yml
   title: ''
@@ -49,28 +53,31 @@ created: '2026-07-17'
 description: ShoeDazzle is a California-based online fashion subscription retailer offering curated shoes, handbags, and accessories through a VIP membership model. Founded in March 2009 (early backers included Andreessen Horowitz and Lightspeed Venture Partners), it was acquired by JustFab in August 2013 and is now operated as a brand of TechStyle Fashion Group alongside Fabletics, JustFab, FabKids, and Savage X Fenty. ShoeDazzle is a direct-to-consumer e-commerce brand; as of this enrichment pass it publishes no public developer API, developer portal, or machine-readable API documentation.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/shoedazzle.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: ShoeDazzle
 nav: Providers
 network: true
-overview: ShoeDazzle is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fashion, E-Commerce, Retail, and Subscription.
+overview: 'ShoeDazzle is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fashion, E-Commerce, Retail, and Subscription.
+
+
+  ShoeDazzle''s developer surface includes engineering blog and 2 more developer resources.'
 random_paper: 3
 score:
   band: minimal
-  composite: 3.4
+  composite: 3.9
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 48.2
     operational_transparency: 0.0
   jurisdiction:
@@ -87,8 +94,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

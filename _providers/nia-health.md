@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.niahealth.ai/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/nia-health/refs/heads/main/security/nia-health-domain-security.yml
   title: ''
@@ -65,7 +69,7 @@ created: '2026-07-17'
 description: Nia Health GmbH is a Berlin-based digital health company and spin-off of Charité Universitätsmedizin Berlin that develops Nia, a mobile medical application supporting people living with atopic dermatitis (neurodermatitis) and other chronic skin conditions. Nia was the first atopic dermatitis app approved as a medical device, helping patients document flare-ups, identify triggers such as stress or fragrances, and manage their therapy day to day. The company builds a patient-engagement platform that turns real-world behavioral and symptom data into insights for patients, physicians, and research partners including pharmaceutical companies such as Sanofi. Nia Health is a consumer- and clinician-facing mobile product; it exposes no public developer API, developer portal, SDK, or machine-readable API surface. This profile was surfaced as a portfolio company of Version One Ventures and enriched from public sources.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nia-health.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Nia Health
 nav: Providers
 network: true
@@ -75,7 +79,7 @@ score:
   band: minimal
   composite: 3.7
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -104,8 +108,8 @@ score:
     regime: Health
     regime_id: health
     score: 4.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 7
 apis:
 - description: List and filter vehicles (getVehicles with VehicleFilter), fetch a vehicle by ID or VIN (getVehicleById, getVehiclesByVin), list active vehicles, read vehicle types and custom fields, inspect mapped s
@@ -103,9 +103,13 @@ common:
 created: '2026-07-03'
 description: Fleet Complete (operating under parent company Powerfleet since its 2024 rebrand) is a global connected commercial vehicle and mobile workforce management platform - GPS/telematics tracking, driver safety, dispatching, geofencing, and regulatory (HOS/ELD) compliance. Its current developer surface is the Unity API, a Bearer-token-authenticated GraphQL API at api.fleetcomplete.com/graphql covering vehicles, drivers/people, geofences, devices/cameras, groups/roles, and reports/work schedules with roughly 30 queries and 22 mutations. Fleet Complete also still references an older, regionally hosted REST "Integration WebAPI" / EcoFleet-SeeMe surface (versioned v8_5_0/v8_6_1) covering vehicle trip history, tasks/dispatch, work schedules, and logbook reporting. Standard API access is provided free to existing Fleet Complete/Powerfleet clients; custom integrations built by Fleet Complete Professional Services carry additional fees.
 finops:
-- name: Fleetcomplete Finops
+- has_sources: true
+  method: generated
+  name: Fleetcomplete Finops
+  primary_unit: ''
   service_category: IoT / Fleet Management and Telematics
   slug: fleetcomplete-finops
+  template: false
 graphqls:
 - description: Fleet Complete's current developer surface is the Unity API - a single GraphQL
   name: Fleet Complete Unity GraphQL API
@@ -116,7 +120,7 @@ modified: '2026-07-03'
 name: Fleet Complete
 nav: Providers
 network: true
-overview: 'Fleet Complete publishes 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Fleet Management, Telematics, GPS Tracking, IoT, and GraphQL.
+overview: 'Fleet Complete is listed with 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Fleet Management, Telematics, GPS Tracking, IoT, and GraphQL.
 
 
   Fleet Complete''s developer surface includes documentation, engineering blog, and 7 more developer resources.'
@@ -131,22 +135,22 @@ rate_limits:
   slug: fleetcomplete-rate-limits
 score:
   band: emerging
-  composite: 21.3
+  composite: 13.1
   coverage:
     artifact_dirs: 8
-    catalog_earned: 64.6
+    catalog_earned: 46.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 50.4
+    catalog_gap: 69.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.2
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 19.0
     discoverability: 71.4
-    operational_transparency: 28.4
+    operational_transparency: 7.9
   previous_composite: 21.3
   regulatory:
     applies: true
@@ -154,9 +158,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -170,7 +174,7 @@ security:
 - kind: vulnerability-disclosure
   name: Fleetcomplete Vulnerability Disclosure
   slug: fleetcomplete-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 slug: fleetcomplete
 tags:
 - Fleet Management

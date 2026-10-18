@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 18
 common:
@@ -141,7 +141,7 @@ modified: '2026-09-02'
 name: American Family Insurance
 nav: Providers
 network: true
-overview: 'American Family Insurance is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Auto Insurance, Home Insurance, Life Insurance, and Property Casualty.
+overview: 'American Family Insurance is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Auto Insurance, Home Insurance, Life Insurance, and Property and Casualty.
 
 
   American Family Insurance''s developer surface includes support, engineering blog, and 11 more developer resources.'
@@ -174,7 +174,7 @@ score:
   band: minimal
   composite: 8.3
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -202,8 +202,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 8.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -221,7 +221,7 @@ tags:
 - Auto Insurance
 - Home Insurance
 - Life Insurance
-- Property Casualty
+- Property and Casualty
 - Financial Services
 - Fortune 500
 use_cases:

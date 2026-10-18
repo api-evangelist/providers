@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: HTTP interface for triggering Liberate workflows. A workflow is started with a PUT request carrying a bearer token, a flow slug, and a JSON context object. Every customer receives their own unique end
@@ -166,7 +166,7 @@ modified: '2026-07-19'
 name: Liberate
 nav: Providers
 network: true
-overview: 'Liberate publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Insurance, Insurtech, and Voice AI.
+overview: 'Liberate is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Insurance, Insurtech, and Voice AI.
 
 
   Liberate''s developer surface includes documentation, getting-started guide, support, engineering blog, signup flow, product news, changelog, and 19 more developer resources.'
@@ -175,7 +175,7 @@ score:
   band: thin
   composite: 31.7
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -206,8 +206,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 24.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

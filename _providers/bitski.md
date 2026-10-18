@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -244,7 +244,7 @@ modified: '2026-07-18'
 name: Bitski
 nav: Providers
 network: true
-overview: 'Bitski publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Activity API, Commerce API, Droplinks API, and 2 more. Tagged areas include Web3, Crypto Wallet, Wallet as a Service, NFT, and Blockchain.
+overview: 'Bitski publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Activity API, Commerce API, Droplinks API, and 2 more. Tagged areas include Web3, Crypto Wallet, Wallet as a Service, NFT, and Blockchain.
 
 
   The Bitski catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -292,8 +292,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 31.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

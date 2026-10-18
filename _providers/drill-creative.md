@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 0
 common:
@@ -60,7 +60,7 @@ modified: '2026-07-18'
 name: Drill Creative
 nav: Providers
 network: true
-overview: Drill Creative is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Video Games, Game Development, Interactive Entertainment, and Fortnite.
+overview: Drill Creative is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Video Games, Game Development, Fortnite, and UGC.
 random_paper: 1
 score:
   band: minimal
@@ -93,8 +93,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 3.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -106,7 +106,6 @@ tags:
 - Company
 - Video Games
 - Game Development
-- Interactive Entertainment
 - Fortnite
 - UGC
 - UEFN

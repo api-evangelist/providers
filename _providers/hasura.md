@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: documented
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.0
-  scored_at: '2026-10-04'
+  score: 22.1
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -158,6 +158,16 @@ collections:
   name: Hasura GraphQL Engine HTTP APIs
   slug: open-hasura
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/hasura/refs/heads/main/rate-limits/hasura-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/hasura-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/hasura/refs/heads/main/finops/hasura-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/hasura-finops.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -395,9 +405,13 @@ features:
 - name: Data Access Layer
 - name: API gateway
 finops:
-- name: Hasura Finops
+- has_sources: false
+  method: generated
+  name: Hasura Finops
+  primary_unit: ''
   service_category: API
   slug: hasura-finops
+  template: true
 graphqls:
 - description: The Hasura GraphQL Engine v2 provides instant realtime GraphQL APIs on your data with fine-grained access control. Supports GraphQL queries, mutations, and subscriptions at the /v1/graphql endpoint, a
   name: Hasura GraphQL API
@@ -412,13 +426,13 @@ modified: '2026-08-03'
 name: Hasura
 nav: Providers
 network: true
-overview: 'Hasura publishes 12 APIs on the [APIs.io](https://apis.io/) network, including GraphQL API, Healthz API, Metadata API, and 9 more. Tagged areas include Data Access, GraphQL, and Real-Time.
+overview: 'Hasura publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including GraphQL API, Healthz API, Metadata API, and 9 more. Tagged areas include Data Access, GraphQL, and Real-Time.
 
 
   The Hasura catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Hasura''s developer surface includes authentication, getting-started guide, CLI, support, FAQ, engineering blog, pricing, and 49 more developer resources.'
+  Hasura''s developer surface includes authentication, getting-started guide, CLI, support, FAQ, engineering blog, pricing, and 51 more developer resources.'
 plans:
 - name: Hasura Plans Pricing
   plan_count: 3
@@ -429,10 +443,11 @@ rate_limits:
   name: Hasura Rate Limits
   slug: hasura-rate-limits
 rules:
-- effective_rule_count: 33
+- authorship: generated
+  effective_rule_count: 33
   extends:
   - spectral:asyncapi
-  name: Hasura API Rules
+  name: Hasura — asyncapi rules
   rule_count: 6
   severity_counts:
     error: 1
@@ -442,17 +457,17 @@ rules:
   slug: hasura-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 52.9
+  composite: 51.4
   coverage:
-    artifact_dirs: 15
-    catalog_earned: 34.8
+    artifact_dirs: 17
+    catalog_earned: 31.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 80.3
+    catalog_gap: 83.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 68.4
+    access_clarity: 60.5
     contract_governance: 11.4
     contract_quality: 53.1
     developer_ergonomics: 56.0
@@ -472,8 +487,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -491,7 +506,7 @@ security:
 - kind: vulnerability-disclosure
   name: Hasura Vulnerability Disclosure
   slug: hasura-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 - kind: trust-center
   name: Hasura Trust Center
   slug: hasura-trust-center

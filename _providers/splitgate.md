@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -66,6 +66,11 @@ collections:
   name: 1047 Games Third-Party Players API
   slug: open-splitgate-players-api
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/splitgate/refs/heads/main/rate-limits/splitgate-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/splitgate-rate-limits.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -172,10 +177,10 @@ modified: '2026-08-05'
 name: Splitgate
 nav: Providers
 network: true
-overview: 'Splitgate publishes 2 APIs on the [APIs.io](https://apis.io/) network: Matches API and Players API. Tagged areas include Company, Gaming, Video Games, Esports, and Player Statistics.
+overview: 'Splitgate publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Matches API and Players API. Tagged areas include Company, Gaming, Video Games, Esports, and Player Statistics.
 
 
-  Splitgate''s developer surface includes API reference, support, engineering blog, YouTube channel, and 19 more developer resources.'
+  Splitgate''s developer surface includes API reference, support, engineering blog, YouTube channel, and 20 more developer resources.'
 random_paper: 5
 rate_limits:
 - limit_count: 0
@@ -216,8 +221,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

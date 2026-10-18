@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.7
-  scored_at: '2026-10-04'
+  score: 26.6
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -251,9 +251,13 @@ examples:
   name: Search By Name Response
   slug: search-by-name-response
 finops:
-- name: Rest Countries Finops
+- has_sources: false
+  method: generated
+  name: Rest Countries Finops
+  primary_unit: ''
   service_category: ''
   slug: rest-countries-finops
+  template: true
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json-icons/rest-countries.png
 json_schemas:
 - name: CountriesListResponse
@@ -286,7 +290,7 @@ modified: '2026-09-16'
 name: REST Countries
 nav: Providers
 network: true
-overview: 'REST Countries publishes 12 APIs on the [APIs.io](https://apis.io/) network, including All API, Alpha API, Capital API, and 9 more. Tagged areas include Countries, Geocoding, Geography, ISO 3166, and Open Source.
+overview: 'REST Countries publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including All API, Alpha API, Capital API, and 9 more. Tagged areas include Countries, Geocoding, Geography, ISO 3166, and Open Source.
 
 
   The REST Countries catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -303,9 +307,10 @@ rate_limits:
   name: Rest Countries Rate Limits
   slug: rest-countries-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: REST Countries API Rules
+  name: REST Countries — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -313,7 +318,8 @@ rules:
     info: 2
     warn: 3
   slug: rest-countries-jsonschema-spectral-rules
-- effective_rule_count: 50
+- authorship: unmarked
+  effective_rule_count: 50
   extends:
   - spectral:oas
   name: REST Countries API Rules
@@ -325,23 +331,23 @@ rules:
     warn: 4
   slug: rest-countries-rules
 score:
-  band: developing
-  composite: 46.0
+  band: thin
+  composite: 39.1
   coverage:
-    artifact_dirs: 16
-    catalog_earned: 80.4
+    artifact_dirs: 17
+    catalog_earned: 64.4
     catalog_earned_first_party: 0.0
-    catalog_gap: 34.6
+    catalog_gap: 50.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.9
   facets:
-    access_clarity: 37.4
+    access_clarity: 15.8
     contract_governance: 27.3
     contract_quality: 62.9
     developer_ergonomics: 21.4
     discoverability: 66.1
-    operational_transparency: 65.3
+    operational_transparency: 44.7
   previous_composite: 46.0
   provenance:
     agentic_access: derived
@@ -356,9 +362,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

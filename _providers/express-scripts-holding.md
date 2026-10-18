@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The partner-facing API estate Express Scripts exposes through its own gateway. The production host api.express-scripts.io and the sandbox host api-sandbox.express-scripts.io both answer HTTP 401 to ev
@@ -41,6 +41,10 @@ apis:
   slug: express-scripts-holding-partner-apis
 artifact_total: 8
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.express-scripts.com/pharmacy/blog
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/express-scripts-holding/refs/heads/main/well-known/express-scripts-holding-well-known.yml
   title: ''
@@ -170,14 +174,14 @@ created: '2026-03-24'
 description: 'Express Scripts is a pharmacy benefit management (PBM) company, now part of Cigna''s Evernorth Health Services, that processes prescription claims and provides home delivery and specialty pharmacy services for clients including health plans, employers and government programs. Express Scripts runs a real partner API estate — a production gateway at api.express-scripts.io, a separate sandbox gateway at api-sandbox.express-scripts.io, and its own OAuth 2.0 / OpenID Connect authorization server on an Express Scripts Okta tenant that serves live discovery documents anonymously. No API contract is published publicly: the developer portal renders client-side, its content backend refuses anonymous requests, and the portal''s own configuration sets public-specs to false, so specifications are visible only to approved partners after sign-in.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/express-scripts-holding.png
 layout: provider
-modified: '2026-09-07'
+modified: '2026-10-06'
 name: Express Scripts Holding
 nav: Providers
 network: true
-overview: 'Express Scripts Holding publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Health, Healthcare, Pharmacy, Pharmacy Benefit Management, and Prescriptions.
+overview: 'Express Scripts Holding is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Health, Healthcare, Pharmacy, Pharmacy Benefit Management, and Prescriptions.
 
 
-  Express Scripts Holding''s developer surface includes authentication, sandbox, support, and 21 more developer resources.'
+  Express Scripts Holding''s developer surface includes engineering blog, authentication, sandbox, support, and 21 more developer resources.'
 plans:
 - name: Express Scripts Holding Plans Pricing
   plan_count: 0
@@ -210,7 +214,7 @@ scopes:
   summary_line: 10 scopes
 score:
   band: thin
-  composite: 28.4
+  composite: 28.9
   coverage:
     artifact_dirs: 16
     catalog_earned: 37.0
@@ -218,12 +222,12 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 36.8
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 23.8
+    developer_ergonomics: 26.2
     discoverability: 73.2
     operational_transparency: 13.2
   previous_composite: 28.4
@@ -235,8 +239,8 @@ score:
     regime: Health
     regime_id: health
     score: 46.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -255,7 +259,7 @@ security:
 - kind: vulnerability-disclosure
   name: Express Scripts Holding Vulnerability Disclosure
   slug: express-scripts-holding-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 - kind: trust-center
   name: Express Scripts Holding Trust Center
   slug: express-scripts-holding-trust-center

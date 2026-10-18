@@ -41,7 +41,7 @@ tags:
 - Microsoft
 - .NET
 - SharePoint
-- Azure
+- Microsoft Azure
 - Mobile App
 - Acquired
 ---

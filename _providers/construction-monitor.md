@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: REST + JSON service backed by Elasticsearch that lets partners search building permits, retrieve full permit detail records, and pull delta updates on a polling schedule. Authentication is handled wit
@@ -44,6 +44,21 @@ apis:
   slug: weekly-ftp
 artifact_total: 6
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/construction-monitor/refs/heads/main/plans/construction-monitor-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/construction-monitor-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/construction-monitor/refs/heads/main/rate-limits/construction-monitor-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/construction-monitor-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/construction-monitor/refs/heads/main/finops/construction-monitor-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/construction-monitor-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/construction-monitor/refs/heads/main/security/construction-monitor-domain-security.yml
   title: ''
@@ -84,19 +99,23 @@ common:
 created: '2025-02-08'
 description: Construction Monitor aggregates building-permit data from county and municipal sources nationwide and resells it as construction leads, contractor intelligence, and historical permit research. Programmatic access is offered through a REST + JSON API backed by Elasticsearch and a weekly data-dump option delivered over secure FTP. Both channels are account-managed; partners receive credentials and a documented endpoint contract directly from Construction Monitor.
 finops:
-- name: Construction Monitor Finops
+- has_sources: false
+  method: generated
+  name: Construction Monitor Finops
+  primary_unit: ''
   service_category: API
   slug: construction-monitor-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/construction-monitor.png
 layout: provider
 modified: '2026-04-29'
 name: Construction Monitor
 nav: Providers
 network: true
-overview: 'Construction Monitor publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Construction, Contractors, Lead Generation, Permits, and Real Estate.
+overview: 'Construction Monitor is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Construction, Contractors, Lead Generation, Permits, and Real Estate.
 
 
-  Construction Monitor''s developer surface includes engineering blog and 8 more developer resources.'
+  Construction Monitor''s developer surface includes engineering blog and 11 more developer resources.'
 plans:
 - name: Construction Monitor Plans Pricing
   plan_count: 3
@@ -107,18 +126,18 @@ rate_limits:
   name: Construction Monitor Rate Limits
   slug: construction-monitor-rate-limits
 score:
-  band: emerging
-  composite: 11.2
+  band: minimal
+  composite: 9.7
   coverage:
     artifact_dirs: 7
-    catalog_earned: 41.0
+    catalog_earned: 38.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
@@ -131,8 +150,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

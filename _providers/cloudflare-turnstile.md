@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.0
-  scored_at: '2026-10-04'
+  score: 23.1
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -72,6 +72,21 @@ collections:
   name: Cloudflare Turnstile Siteverify API
   slug: open-cloudflare-turnstile
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/cloudflare-turnstile/refs/heads/main/plans/cloudflare-turnstile-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/cloudflare-turnstile-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cloudflare-turnstile/refs/heads/main/rate-limits/cloudflare-turnstile-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/cloudflare-turnstile-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/cloudflare-turnstile/refs/heads/main/finops/cloudflare-turnstile-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/cloudflare-turnstile-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/cloudflare-turnstile/refs/heads/main/capabilities/cloudflare-turnstile-capability-edges.yml
   title: ''
@@ -135,19 +150,23 @@ common:
 created: '2026-05-23'
 description: Cloudflare Turnstile is Cloudflare's free, smart CAPTCHA alternative that verifies real users without sending traffic through Cloudflare's network. It runs non-interactive client-side challenges (proof-of-work, proof-of-space, web API probing, browser-integrity checks) and returns a short-lived token that the relying server validates against the Turnstile siteverify endpoint. Turnstile offers three widget modes — Managed (risk-adapted), Non-interactive (no user gesture), and Invisible (fully hidden) — and is designed to run on any website regardless of whether the site is proxied through Cloudflare. The product is targeted at developers who want a privacy-respecting reCAPTCHA replacement.
 finops:
-- name: Cloudflare Turnstile Finops
+- has_sources: false
+  method: generated
+  name: Cloudflare Turnstile Finops
+  primary_unit: ''
   service_category: API
   slug: cloudflare-turnstile-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cloudflare-turnstile.png
 layout: provider
 modified: '2026-05-23'
 name: Cloudflare Turnstile
 nav: Providers
 network: true
-overview: 'Cloudflare Turnstile publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Verification API, and 4 more. Tagged areas include CAPTCHA, Bot Defense, Cloudflare, Turnstile, and Privacy.
+overview: 'Cloudflare Turnstile publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Verification API, and 4 more. Tagged areas include CAPTCHA, Bot Defense, Cloudflare, Turnstile, and Privacy.
 
 
-  Cloudflare Turnstile''s developer surface includes documentation, API reference, engineering blog, pricing, and 10 more developer resources.'
+  Cloudflare Turnstile''s developer surface includes documentation, API reference, engineering blog, pricing, and 13 more developer resources.'
 plans:
 - name: Cloudflare Turnstile Plans Pricing
   plan_count: 1
@@ -158,23 +177,23 @@ rate_limits:
   name: Cloudflare Turnstile Rate Limits
   slug: cloudflare-turnstile-rate-limits
 score:
-  band: thin
-  composite: 31.9
+  band: emerging
+  composite: 25.9
   coverage:
     artifact_dirs: 12
-    catalog_earned: 54.4
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 60.6
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.0
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 44.4
     developer_ergonomics: 19.0
     discoverability: 73.2
-    operational_transparency: 21.6
+    operational_transparency: 7.9
   previous_composite: 31.9
   provenance:
     agentic_access: derived
@@ -189,9 +208,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 27.8

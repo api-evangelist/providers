@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -294,9 +294,13 @@ examples:
   name: Platform Rest Api Payment Example
   slug: platform-rest-api-payment-example
 finops:
-- name: Clover Finops
+- has_sources: true
+  method: generated
+  name: Clover Finops
+  primary_unit: ''
   service_category: Payments
   slug: clover-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/clover.png
 json_schemas:
 - name: Charge
@@ -362,7 +366,7 @@ modified: '2026-06-02'
 name: Clover
 nav: Providers
 network: true
-overview: 'Clover publishes 14 APIs on the [APIs.io](https://apis.io/) network, including CHARGES API, CHECKOUT API, CUSTOMERS API, and 11 more. Tagged areas include Restaurant, Point-of-Sale, Payments, Retail, and Small Business.
+overview: 'Clover is listed with 14 APIs on the [APIs.io](https://apis.io/) network, including CHARGES API, CHECKOUT API, CUSTOMERS API, and 11 more. Tagged areas include Restaurant, Point-of-Sale, Payments, Retail, and Small Business.
 
 
   The Clover catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -379,9 +383,10 @@ rate_limits:
   name: Clover Rate Limits
   slug: clover-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Clover API Rules
+  name: Clover — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -389,7 +394,8 @@ rules:
     info: 2
     warn: 3
   slug: clover-jsonschema-spectral-rules
-- effective_rule_count: 77
+- authorship: generated
+  effective_rule_count: 77
   extends:
   - spectral:oas
   name: Clover API Rules
@@ -407,17 +413,17 @@ scopes:
   summary_line: 13 scopes · authorizationCode
 score:
   band: thin
-  composite: 38.1
+  composite: 36.5
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 63.0
+    artifact_dirs: 20
+    catalog_earned: 60.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 52.0
+    catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 44.7
+    access_clarity: 36.8
     contract_governance: 27.3
     contract_quality: 21.8
     developer_ergonomics: 50.0
@@ -437,8 +443,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 31.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -11,37 +11,89 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
-    agentic_access: false
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
-    spec_presence: false
+    reversibility_documented: na
+    spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 5.4
-  scored_at: '2026-10-04'
-api_count: 1
+  score: 29.2
+  scored_at: '2026-10-17'
+agentic_access:
+- acting_count: 0
+  human_in_the_loop: 0
+  name: Blockvision Agentic Access
+  operation_count: 36
+  slug: blockvision-agentic-access
+  summary_line: 36 operations
+api_count: 2
 apis:
-- description: Multi-chain indexing and on-chain data-retrieval REST API (accounts, coins/tokens, NFTs, collections, DeFi portfolios, DEX market data, and smart-contract verification) for Sui and Monad, authenticate
-  name: BlockVision Data API
-  slug: blockvision-data-api
-artifact_total: 3
+- baseURL: https://api.blockvision.org
+  baseurl_source: declared
+  description: The Monad API from BlockVision — 21 operation(s) for monad.
+  name: BlockVision Monad API
+  slug: blockvision-monad-api
+- baseURL: https://api.blockvision.org
+  baseurl_source: declared
+  description: The Sui API from BlockVision — 15 operation(s) for sui.
+  name: BlockVision Sui API
+  slug: blockvision-sui-api
+artifact_total: 6
 common:
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/blockvision/refs/heads/main/agentic-access/blockvision-agentic-access.yml
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/blockvision-agentic-access.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/blockvision/refs/heads/main/rules/blockvision-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/blockvision-rules.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/blockvision/refs/heads/main/lifecycle/blockvision-lifecycle.yml
+  title: ''
+  type: Deprecation
+  url: lifecycle/blockvision-lifecycle.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/blockvision/refs/heads/main/errors/blockvision-problem-types.yml
+  title: ''
+  type: ErrorCatalog
+  url: errors/blockvision-problem-types.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/blockvision/refs/heads/main/hosts/blockvision-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/blockvision-hosts.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/blockvision/refs/heads/main/vendors/blockvision-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/blockvision-vendors.yml
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://blockvision.org/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://blockvision.org/privacy
 - group: company
   title: ''
   type: Website
@@ -145,46 +197,68 @@ modified: '2026-07-18'
 name: BlockVision
 nav: Providers
 network: true
-overview: 'BlockVision publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Blockchain, Web3, Data Infrastructure, and Sui.
+overview: 'BlockVision publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Monad API and Sui API. Tagged areas include Company, Blockchain, Web3, Data Infrastructure, and Sui.
 
 
-  BlockVision''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 14 more developer resources.'
+  The BlockVision catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
+  BlockVision''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
 random_paper: 21
+rules:
+- authorship: generated
+  effective_rule_count: 50
+  extends:
+  - spectral:oas
+  name: BlockVision API Rules
+  rule_count: 9
+  severity_counts:
+    error: 7
+    hint: 0
+    info: 1
+    warn: 1
+  slug: blockvision-rules
 score:
-  band: emerging
-  composite: 18.6
+  band: developing
+  composite: 39.4
   coverage:
-    artifact_dirs: 14
-    catalog_earned: 37.0
+    artifact_dirs: 20
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 20.8
   facets:
-    access_clarity: 10.5
-    contract_governance: 4.5
-    contract_quality: 0.0
+    access_clarity: 31.6
+    contract_governance: 18.2
+    contract_quality: 51.0
     developer_ergonomics: 40.5
     discoverability: 73.2
-    operational_transparency: 2.6
+    operational_transparency: 10.5
   previous_composite: 18.6
   provenance:
+    agentic_access: derived
     conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 100.0
+      total: 2
     mcp: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+    score: 24.5
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/blockvision/refs/heads/main/screenshots/blockvision-2026-07-25T203400.png
 security:
 - kind: authentication

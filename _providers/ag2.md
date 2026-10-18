@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 3.8
-  scored_at: '2026-10-04'
+  score: 1.9
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: Core open-source Python library for building agentic AI applications. Provides ConversableAgent, AssistantAgent, UserProxyAgent, GroupChat, GroupChatManager, tool/function registration, code execution
@@ -47,6 +47,21 @@ apis:
   slug: build-with-ag2
 artifact_total: 7
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/ag2/refs/heads/main/plans/ag2-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/ag2-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/ag2/refs/heads/main/rate-limits/ag2-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/ag2-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/ag2/refs/heads/main/finops/ag2-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/ag2-finops.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -115,19 +130,23 @@ common:
 created: '2026-05-23'
 description: AG2 (formerly AutoGen) is an open-source multi-agent framework and AgentOS hosted by the AG2AI organization. It provides Python building blocks for ConversableAgent, GroupChat, GroupChatManager, RetrieveUserProxyAgent, function/tool use, code execution, and human-in-the-loop patterns. The ecosystem includes the core ag2 / autogen library, the AG2 Studio visual workflow builder, and the build-with-ag2 samples.
 finops:
-- name: Ag2 Finops
+- has_sources: false
+  method: generated
+  name: Ag2 Finops
+  primary_unit: ''
   service_category: API
   slug: ag2-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ag2.png
 layout: provider
 modified: '2026-05-23'
 name: AG2
 nav: Providers
 network: true
-overview: 'AG2 publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include AI Agents, Multi-Agent, AgentOS, AutoGen, and Python.
+overview: 'AG2 is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include AI Agents, Multi-Agent, AgentOS, AutoGen, and Python.
 
 
-  AG2''s developer surface includes developer portal, documentation, GitHub presence, engineering blog, code examples, and 11 more developer resources.'
+  AG2''s developer surface includes developer portal, documentation, GitHub presence, engineering blog, code examples, and 14 more developer resources.'
 plans:
 - name: Ag2 Plans Pricing
   plan_count: 1
@@ -138,23 +157,23 @@ rate_limits:
   name: Ag2 Rate Limits
   slug: ag2-rate-limits
 score:
-  band: thin
-  composite: 29.4
+  band: emerging
+  composite: 24.0
   coverage:
-    artifact_dirs: 7
-    catalog_earned: 57.4
+    artifact_dirs: 8
+    catalog_earned: 44.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.6
+    catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.4
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 6.5
     developer_ergonomics: 40.5
     discoverability: 71.4
-    operational_transparency: 50.5
+    operational_transparency: 36.8
   open_source:
     applies: true
     score: 50.0
@@ -165,9 +184,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

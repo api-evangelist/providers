@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 6
 apis:
 - description: 'PJM''s public wholesale market and system data catalogue, exposed as a REST API behind Azure API Management. Feeds include day-ahead and real-time hourly and five-minute LMPs, ancillary service prices '
@@ -59,6 +59,10 @@ apis:
   slug: pjm-edart-api
 artifact_total: 12
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.pjm.com/about-pjm/newsroom
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/pjm/refs/heads/main/security/pjm-vulnerability-disclosure.yml
   title: ''
@@ -264,14 +268,14 @@ json_schemas:
   property_count: 1
   slug: pjm-message
 layout: provider
-modified: '2026-07-27'
+modified: '2026-10-06'
 name: PJM Interconnection
 nav: Providers
 network: true
-overview: 'PJM Interconnection publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, United States, Energy Markets, Electricity, and Grid.
+overview: 'PJM Interconnection is listed with 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, United States, Energy Markets, Electricity, and Grid.
 
 
-  PJM Interconnection''s developer surface includes documentation, signup flow, authentication, engineering blog, support, legal docs, API reference, and 36 more developer resources.'
+  PJM Interconnection''s developer surface includes engineering blog, documentation, signup flow, authentication, support, legal docs, API reference, and 37 more developer resources.'
 random_paper: 19
 rate_limits:
 - limit_count: 1
@@ -279,19 +283,19 @@ rate_limits:
   slug: pjm-rate-limits
 score:
   band: developing
-  composite: 49.1
+  composite: 47.8
   coverage:
     artifact_dirs: 21
-    catalog_earned: 58.4
+    catalog_earned: 54.5
     catalog_earned_first_party: 13.0
-    catalog_gap: 56.6
+    catalog_gap: 60.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.3
   facets:
     access_clarity: 44.7
     contract_governance: 33.3
-    contract_quality: 13.7
+    contract_quality: 8.5
     developer_ergonomics: 70.8
     discoverability: 71.4
     operational_transparency: 76.3
@@ -312,8 +316,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 23.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

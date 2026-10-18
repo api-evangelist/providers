@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: REST and SOAP object API (v1) for reading and writing Impartner platform records (accounts, partners, deals, and tenant-defined custom objects) using the THQL query language with skip/take paging, fie
@@ -158,7 +158,7 @@ modified: '2026-07-19'
 name: Impartner
 nav: Providers
 network: true
-overview: 'Impartner publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Software-as-a-Service, Partner Relationship Management, PRM, and Channel Management.
+overview: 'Impartner is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Software-as-a-Service, Partner Relationship Management, PRM, and Channel Management.
 
 
   The Impartner catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -175,7 +175,7 @@ score:
   band: thin
   composite: 37.5
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -206,8 +206,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

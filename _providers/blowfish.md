@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 5
   slug: blowfish-agentic-access
   summary_line: 5 operations · 5 acting
-api_count: 1
+api_count: 2
 apis:
 - baseURL: https://api.blowfish.xyz
   baseurl_source: declared
@@ -219,7 +219,7 @@ modified: '2026-07-18'
 name: Blowfish
 nav: Providers
 network: true
-overview: 'Blowfish publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Download blocklist API, Scan domain API, Scan message API, and 1 more. Tagged areas include Company, Security, Web3, Blockchain, and Wallets.
+overview: 'Blowfish publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Download blocklist API, Scan domain API, Scan message API, and 1 more. Tagged areas include Company, Security, Web3, Blockchain, and Wallets.
 
 
   Blowfish''s developer surface includes documentation, API reference, getting-started guide, signup flow, engineering blog, pricing, support, and 21 more developer resources.'
@@ -259,8 +259,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 17.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

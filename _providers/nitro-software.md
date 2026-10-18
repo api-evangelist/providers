@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -230,7 +230,7 @@ modified: '2026-07-20'
 name: Nitro Software
 nav: Providers
 network: true
-overview: 'Nitro Software publishes 3 APIs on the [APIs.io](https://apis.io/) network: Authentication API, Platform API, and Sign API. Tagged areas include Company, PDF, Documents, E-Signature, and Electronic Signature.
+overview: 'Nitro Software publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Authentication API, Platform API, and Sign API. Tagged areas include Company, PDF, Documents, E-Signature, and Document Management.
 
 
   The Nitro Software catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -279,8 +279,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -309,7 +309,6 @@ tags:
 - PDF
 - Documents
 - E-Signature
-- Electronic Signature
 - Document Management
 - Document Intelligence
 - OCR

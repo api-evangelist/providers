@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 65.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -288,7 +288,7 @@ modified: '2026-08-09'
 name: WebScraping.AI
 nav: Providers
 network: true
-overview: 'WebScraping.AI publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Account API, AI API, HTML API, and 3 more. Tagged areas include Web Scraping, Data Extraction, Proxies, Artificial Intelligence, and Browser Automation.
+overview: 'WebScraping.AI publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, AI API, HTML API, and 3 more. Tagged areas include Web Scraping, Data Extraction, Proxies, Artificial Intelligence, and Browser Automation.
 
 
   WebScraping.AI''s developer surface includes authentication, CLI, sandbox, documentation, API reference, getting-started guide, developer console, and 33 more developer resources.'
@@ -305,7 +305,7 @@ score:
   band: strong
   composite: 60.0
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 61.0
     catalog_earned_first_party: 24.0
     catalog_gap: 54.0
@@ -336,8 +336,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

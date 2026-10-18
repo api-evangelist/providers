@@ -32,10 +32,20 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 3
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/family-dollar-stores/refs/heads/main/plans/family-dollar-stores-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/family-dollar-stores-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/family-dollar-stores/refs/heads/main/rate-limits/family-dollar-stores-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/family-dollar-stores-rate-limits.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/family-dollar-stores/refs/heads/main/security/family-dollar-stores-domain-security.yml
   title: ''
@@ -129,7 +139,7 @@ network: true
 overview: 'Family Dollar Stores is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Retail, Discount Stores, Variety Stores, Consumer Goods, and E-Commerce.
 
 
-  Family Dollar Stores'' developer surface includes support and 15 more developer resources.'
+  Family Dollar Stores'' developer surface includes support and 17 more developer resources.'
 plans:
 - name: Family Dollar Stores Plans Pricing
   plan_count: 0
@@ -159,7 +169,7 @@ score:
   band: minimal
   composite: 10.9
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -187,8 +197,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

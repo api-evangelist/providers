@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 2.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The LINQ API provides programmatic access to Automata's lab automation platform, enabling workflow creation, execution, and monitoring.
@@ -91,21 +91,22 @@ modified: '2026-09-26'
 name: Automata
 nav: Providers
 network: true
-overview: 'Automata publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Lab Automation, Artificial Intelligence, Biotechnology, and Software.
+overview: 'Automata is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Lab Automation, Artificial Intelligence, Biotechnology, and Software.
 
 
   Automata''s developer surface includes engineering blog, getting-started guide, documentation, and 7 more developer resources.'
 random_paper: 2
 score:
   band: minimal
-  composite: 9.5
+  composite: 9.6
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 30.0
     catalog_earned_first_party: 0.0
     catalog_gap: 85.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.1
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
@@ -113,6 +114,7 @@ score:
     developer_ergonomics: 23.8
     discoverability: 62.5
     operational_transparency: 0.0
+  previous_composite: 9.5
   provenance:
     mcp: derived
   regulatory:
@@ -121,12 +123,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/automata/refs/heads/main/screenshots/automata-2026-10-11T100938.png
 security:
 - kind: domain-security
   name: Automata Domain Security

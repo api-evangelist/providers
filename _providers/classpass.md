@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: 'ClassPass''s named partner integration API for studios and their scheduling/booking software. Per ClassPass partner-marketing pages and integration-partner help centers (e.g. studio scheduling vendors '
@@ -44,6 +44,14 @@ apis:
   slug: classpass-partner-certification-portal
 artifact_total: 4
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://classpass.com/blog/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://classpass.com/blog/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/classpass/refs/heads/main/security/classpass-domain-security.yml
   title: ''
@@ -78,11 +86,14 @@ created: '2026-07-03'
 description: ClassPass is a fitness and wellness marketplace that lets consumers book classes, gym visits, and spa/wellness experiences across a network of studios in a single app using a monthly credit subscription. On the supply side, ClassPass runs a partner integration platform - centered on a named "ClassPass Inventory API" - that lets studios and their scheduling/booking software (100+ platforms, including Mindbody, Vagaro, Zen Planner, and Eversports Manager) push live class schedules, availability, and pricing to ClassPass and receive bookings and cancellations back. The partner developer portal at developers.classpass.com requires an approved partner login (Auth0) to view the API specification document and run certification tests; ClassPass does not publish a public, unauthenticated API reference, OpenAPI file, or Postman collection. ClassPass is now part of Playlist, the group formed together with Mindbody and Booker.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/classpass.png
 layout: provider
-modified: '2026-07-03'
+modified: '2026-10-06'
 name: ClassPass
 nav: Providers
 network: true
-overview: ClassPass publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Fitness, Wellness, Class Booking, Marketplace, and Studio.
+overview: 'ClassPass is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Fitness, Wellness, Class Booking, Marketplace, and Studio.
+
+
+  ClassPass'' developer surface includes engineering blog and 8 more developer resources.'
 plans:
 - name: Classpass Plans Pricing
   plan_count: 2
@@ -90,20 +101,20 @@ plans:
 random_paper: 5
 score:
   band: emerging
-  composite: 14.2
+  composite: 12.1
   coverage:
-    artifact_dirs: 4
-    catalog_earned: 39.2
+    artifact_dirs: 6
+    catalog_earned: 34.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.8
+    catalog_gap: 81.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.1
   facets:
-    access_clarity: 18.9
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 31.0
+    developer_ergonomics: 33.3
     discoverability: 57.1
     operational_transparency: 0.0
   previous_composite: 14.2
@@ -113,8 +124,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

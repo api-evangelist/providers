@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The Abnormal Security Platform REST API at api.abnormalplatform.com gives customers and integration partners programmatic access to detected threats, attack cases, abuse mailbox submissions, account t
@@ -41,6 +41,21 @@ apis:
   slug: abnormal-security-api
 artifact_total: 30
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/abnormal-security/refs/heads/main/plans/abnormal-security-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/abnormal-security-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/abnormal-security/refs/heads/main/rate-limits/abnormal-security-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/abnormal-security-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/abnormal-security/refs/heads/main/finops/abnormal-security-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/abnormal-security-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/abnormal-security/refs/heads/main/security/abnormal-security-trust-center.yml
   title: ''
@@ -121,9 +136,13 @@ features:
 - description: Detection of malicious content inside Microsoft Teams
   name: Messaging Security
 finops:
-- name: Abnormal Security Finops
+- has_sources: false
+  method: generated
+  name: Abnormal Security Finops
+  primary_unit: ''
   service_category: API
   slug: abnormal-security-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/abnormal-security.png
 integrations:
 - description: Native API-based integration with Microsoft 365 for email and identity protection
@@ -147,10 +166,10 @@ modified: '2026-05-23'
 name: Abnormal Security
 nav: Providers
 network: true
-overview: 'Abnormal Security publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Cybersecurity, Email Security, Account Takeover, Behavioral AI, and SaaS Security.
+overview: 'Abnormal Security is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Cybersecurity, Email Security, Account Takeover, Behavioral AI, and SaaS Security.
 
 
-  Abnormal Security''s developer surface includes developer portal, documentation, engineering blog, and 10 more developer resources.'
+  Abnormal Security''s developer surface includes developer portal, documentation, engineering blog, and 13 more developer resources.'
 plans:
 - name: Abnormal Security Plans Pricing
   plan_count: 1
@@ -162,22 +181,22 @@ rate_limits:
   slug: abnormal-security-rate-limits
 score:
   band: emerging
-  composite: 22.3
+  composite: 16.3
   coverage:
-    artifact_dirs: 7
-    catalog_earned: 54.4
+    artifact_dirs: 8
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 60.6
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.0
   facets:
-    access_clarity: 45.3
+    access_clarity: 23.7
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 21.4
     discoverability: 66.1
-    operational_transparency: 18.9
+    operational_transparency: 5.3
   previous_composite: 22.3
   regulatory:
     applies: true
@@ -185,9 +204,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 14.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'Fideo''s real-time REST API for identity verification, fraud risk scoring, and identity intelligence. Two endpoints share a common multi-field request schema: POST /verify runs a comprehensive suite of'
@@ -43,6 +43,14 @@ apis:
   slug: fideo-verify-signals-api
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.fideo.ai/blog/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.fideo.ai/blog/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/fideo/refs/heads/main/security/fideo-domain-security.yml
   title: ''
@@ -132,14 +140,14 @@ description: Fideo Intelligence is a Denver-based identity intelligence and frau
   and JSON payloads, and is documented on a ReadMe developer hub.
 image: https://www.fideo.ai/wp-content/uploads/2024/10/preview-thumb-fideo-1200px.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Fideo
 nav: Providers
 network: true
-overview: 'Fideo publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Identity Verification, Fraud Prevention, and Identity Intelligence.
+overview: 'Fideo is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Identity Verification, Fraud Prevention, and Identity Intelligence.
 
 
-  Fideo''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, changelog, and 12 more developer resources.'
+  Fideo''s developer surface includes engineering blog, documentation, API reference, getting-started guide, signup flow, support, changelog, and 14 more developer resources.'
 random_paper: 13
 score:
   band: thin
@@ -176,8 +184,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

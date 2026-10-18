@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -329,7 +329,7 @@ modified: '2026-09-16'
 name: Cashplus Bank
 nav: Providers
 network: true
-overview: 'Cashplus Bank publishes 25 APIs on the [APIs.io](https://apis.io/) network, including Account Access API, Cashplus Accounts API, Balances API, and 22 more. Tagged areas include Financial Services, Banking, Open Banking, PSD2, and OBIE.
+overview: 'Cashplus Bank publishes 25 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account Access API, Cashplus Accounts API, Balances API, and 22 more. Tagged areas include Financial Services, Banking, Open Banking, PSD2, and OBIE.
 
 
   Cashplus Bank''s developer surface includes authentication, documentation, engineering blog, legal docs, support, and 27 more developer resources.'
@@ -343,7 +343,7 @@ score:
   band: thin
   composite: 37.1
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -386,8 +386,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 44.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

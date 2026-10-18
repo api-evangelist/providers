@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.7
-  scored_at: '2026-10-04'
+  score: 20.8
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -91,6 +91,21 @@ collections:
   name: Ciena Blue Planet Open Alarms Topology API
   slug: open-ciena-topology-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/ciena/refs/heads/main/plans/ciena-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/ciena-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/ciena/refs/heads/main/rate-limits/ciena-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/ciena-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/ciena/refs/heads/main/finops/ciena-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/ciena-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/ciena/refs/heads/main/capabilities/ciena-capability-edges.yml
   title: ''
@@ -196,9 +211,13 @@ common:
 created: '2025-02-21'
 description: Ciena Corporation is a global networking equipment, software, and services vendor focused on optical and packet networking, SDN, and service automation. This index covers Ciena's open APIs across the Blue Planet automation platform, the Ciena MCP (Manage, Control, and Plan) NMS, and the Emulation Cloud developer environment, exposing TM Forum Open APIs, MEF Lifecycle Service Orchestration (LSO) APIs (Legato, Sonata), and ONAP-aligned policy controls for telecom carriers and managed service providers.
 finops:
-- name: Ciena Finops
+- has_sources: true
+  method: generated
+  name: Ciena Finops
+  primary_unit: ''
   service_category: Network Infrastructure / SDN
   slug: ciena-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ciena.png
 json_schemas:
 - name: Ciena Blue Planet Network Service
@@ -214,13 +233,13 @@ modified: '2026-05-19'
 name: Ciena
 nav: Providers
 network: true
-overview: 'Ciena publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Alarms API, Performance API, Services API, and 3 more. Tagged areas include MEF, NETCONF, Network Automation, Network Management, and Optical.
+overview: 'Ciena publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Alarms API, Performance API, Services API, and 3 more. Tagged areas include MEF, NETCONF, Network Automation, Network Management, and Optical.
 
 
   The Ciena catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Ciena''s developer surface includes authentication, developer portal, documentation, engineering blog, support, and 18 more developer resources.'
+  Ciena''s developer surface includes authentication, developer portal, documentation, engineering blog, support, and 21 more developer resources.'
 plans:
 - name: Ciena Plans Pricing
   plan_count: 2
@@ -247,9 +266,10 @@ rate_limits:
   name: Ciena Rate Limits
   slug: ciena-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Ciena API Rules
+  name: Ciena — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -264,17 +284,17 @@ scopes:
   summary_line: 5 scopes · clientCredentials
 score:
   band: thin
-  composite: 38.1
+  composite: 36.4
   coverage:
     artifact_dirs: 20
-    catalog_earned: 56.3
+    catalog_earned: 53.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 58.8
+    catalog_gap: 61.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.7
   facets:
-    access_clarity: 34.2
+    access_clarity: 26.3
     contract_governance: 9.8
     contract_quality: 53.5
     developer_ergonomics: 28.6
@@ -294,8 +314,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 40.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

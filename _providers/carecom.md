@@ -1,6 +1,10 @@
 ---
 access_model:
   confidence: low
+  gated: partner
+  gated_source:
+  - tag:No Public API
+  - description
   label: Unknown
   onboarding: unknown
   pricing: unknown
@@ -32,10 +36,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.care.com/about/newsroom/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.care.com/about/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/carecom/refs/heads/main/security/carecom-domain-security.yml
   title: ''
@@ -74,28 +86,31 @@ description: Care.com is a two-sided online marketplace that connects families w
   a partnership agreement rather than openly documented. Note - Care.com is frequently confused with Caring.com (a separate senior-care directory owned by Caring, Inc. that DOES publish a JSON API at docs.caring.com); this entry is about care.com only. Access to the marketplace itself is via paid Basic and Premium memberships; there is no published API pricing.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/carecom.png
 layout: provider
-modified: '2026-07-03'
+modified: '2026-10-06'
 name: Care.com
 nav: Providers
 network: true
-overview: Care.com is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Care, Childcare, Senior Care, Pet Care, and Housekeeping.
+overview: 'Care.com is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Care, Childcare, Senior Care, Pet Care, and Housekeeping.
+
+
+  Care.com''s developer surface includes engineering blog and 9 more developer resources.'
 random_paper: 4
 score:
   band: minimal
-  composite: 4.7
+  composite: 5.2
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 4.8
+    developer_ergonomics: 7.1
     discoverability: 48.2
     operational_transparency: 2.6
   previous_composite: 4.7
@@ -105,8 +120,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -129,6 +144,5 @@ tags:
 - Caregivers
 - Two-Sided Marketplace
 - IaC
-- No Public API
 website: https://www.care.com
 ---

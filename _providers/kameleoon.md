@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 42.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -159,9 +159,13 @@ common:
 created: '2026-05-08'
 description: Kameleoon is an experimentation, personalization, feature flag, and AI-driven optimization platform for product and marketing teams.
 finops:
-- name: Kameleoon Finops
+- has_sources: true
+  method: generated
+  name: Kameleoon Finops
+  primary_unit: ''
   service_category: A/B Testing
   slug: kameleoon-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kameleoon.png
 layout: provider
 mcp_servers:
@@ -172,7 +176,7 @@ modified: '2026-05-08'
 name: Kameleoon
 nav: Providers
 network: true
-overview: 'Kameleoon publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Experiments API, Personalizations API, O Auth API, and 3 more. Tagged areas include Experimentation, A/B Testing, Personalization, Feature Flags, and Artificial Intelligence.
+overview: 'Kameleoon publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Experiments API, Personalizations API, O Auth API, and 3 more. Tagged areas include Experimentation, A/B Testing, Personalization, Feature Flags, and Artificial Intelligence.
 
 
   Kameleoon''s developer surface includes authentication, documentation, engineering blog, and 12 more developer resources.'
@@ -191,18 +195,18 @@ scopes:
   slug: kameleoon-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: thin
-  composite: 26.6
+  band: emerging
+  composite: 25.1
   coverage:
-    artifact_dirs: 15
-    catalog_earned: 39.0
+    artifact_dirs: 17
+    catalog_earned: 36.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 76.0
+    catalog_gap: 79.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 21.1
+    access_clarity: 13.2
     contract_governance: 0.0
     contract_quality: 44.9
     developer_ergonomics: 14.3
@@ -223,8 +227,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

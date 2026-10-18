@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 51.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 9
+- acting_count: 7
   human_in_the_loop: 0
   name: Ezoic Agentic Access
   operation_count: 19
   slug: ezoic-agentic-access
-  summary_line: 19 operations · 9 acting
+  summary_line: 19 operations · 7 acting
 api_count: 2
 apis:
 - baseURL: https://api-gateway.ezoic.com/subscriptions/v1
@@ -305,7 +305,7 @@ modified: '2026-08-13'
 name: ezoic
 nav: Providers
 network: true
-overview: 'ezoic publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Access API, Products API, Purchases API, and 5 more. Tagged areas include Company, Advertising, AdTech, Publisher Monetization, and Analytics.
+overview: 'ezoic publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Access API, Products API, Purchases API, and 5 more. Tagged areas include Company, Advertising, AdTech, Publisher Monetization, and Analytics.
 
 
   ezoic''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 35 more developer resources.'
@@ -327,7 +327,7 @@ score:
   band: developing
   composite: 53.1
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -358,8 +358,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -377,7 +377,7 @@ security:
 - kind: vulnerability-disclosure
   name: Ezoic Vulnerability Disclosure
   slug: ezoic-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 slug: ezoic
 tags:
 - Company

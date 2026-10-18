@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: A live, anonymously reachable Model Context Protocol endpoint served from aceRNA Technologies' own host and advertised in the site's llms.txt. It is provided by the Wix platform, not built by aceRNA —
@@ -31,6 +31,16 @@ apis:
   slug: site-mcp
 artifact_total: 6
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/acerna/refs/heads/main/plans/acerna-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/acerna-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/acerna/refs/heads/main/rate-limits/acerna-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/acerna-rate-limits.yml
 - group: company
   title: ''
   type: Website
@@ -88,10 +98,10 @@ modified: '2026-09-06'
 name: aceRNA Technologies
 nav: Providers
 network: true
-overview: 'aceRNA Technologies publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Therapeutics, Genetic Medicine, and Life Sciences.
+overview: 'aceRNA Technologies is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Therapeutics, Genetic Medicine, and Life Sciences.
 
 
-  aceRNA Technologies'' developer surface includes authentication, engineering blog, support, and 7 more developer resources.'
+  aceRNA Technologies'' developer surface includes authentication, engineering blog, support, and 9 more developer resources.'
 plans:
 - name: Acerna Plans Pricing
   plan_count: 0
@@ -105,7 +115,7 @@ score:
   band: emerging
   composite: 16.2
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 12
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -136,13 +146,14 @@ score:
     regime: Health
     regime_id: health
     score: 16.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/acerna/refs/heads/main/screenshots/acerna-2026-10-11T092631.png
 security:
 - kind: authentication
   name: Acerna Authentication

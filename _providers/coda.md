@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 58
+- acting_count: 57
   human_in_the_loop: 1
   name: Coda Agentic Access
   operation_count: 124
   slug: coda-agentic-access
-  summary_line: 124 operations · 58 acting · 1 human-in-the-loop
+  summary_line: 124 operations · 57 acting · 1 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://coda.io/apis/v1
@@ -274,16 +274,20 @@ common:
 created: '2026-05-08'
 description: Coda is an all-in-one doc platform combining documents, spreadsheets, and apps. The Coda API exposes docs, pages, tables, rows, columns, controls, formulas, automations, packs, permissions, and analytics for programmatic integration.
 finops:
-- name: Coda Finops
+- has_sources: true
+  method: generated
+  name: Coda Finops
+  primary_unit: ''
   service_category: Productivity
   slug: coda-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/coda.png
 layout: provider
 modified: '2026-05-30'
 name: Coda
 nav: Providers
 network: true
-overview: 'Coda publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Account API, Analytics API, Automations API, and 15 more. Tagged areas include Productivity, Docs, No-Code, Collaboration, and Database.
+overview: 'Coda publishes 18 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Analytics API, Automations API, and 15 more. Tagged areas include Productivity, Docs, No-Code, Collaboration, and Database.
 
 
   The Coda catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -300,10 +304,11 @@ rate_limits:
   name: Coda Rate Limits
   slug: coda-rate-limits
 rules:
-- effective_rule_count: 34
+- authorship: generated
+  effective_rule_count: 34
   extends:
   - spectral:asyncapi
-  name: Coda API Rules
+  name: Coda — asyncapi rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -313,17 +318,17 @@ rules:
   slug: coda-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 41.0
+  composite: 39.5
   coverage:
-    artifact_dirs: 14
-    catalog_earned: 49.8
+    artifact_dirs: 15
+    catalog_earned: 46.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 65.3
+    catalog_gap: 68.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 34.2
+    access_clarity: 26.3
     contract_governance: 11.4
     contract_quality: 62.7
     developer_ergonomics: 31.0
@@ -343,8 +348,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

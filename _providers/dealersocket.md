@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 4
 apis:
 - description: Lead and CRM integration surface. Includes the outbound Lead Forwarding Service (forwards incoming and processed dealership lead data to a third-party vendor as XML or email), inbound Activity Insert/
@@ -153,7 +153,7 @@ modified: '2026-08-10'
 name: DealerSocket
 nav: Providers
 network: true
-overview: 'DealerSocket publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Automotive, Dealership, CRM, DMS, and Leads.
+overview: 'DealerSocket is listed with 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Automotive, Dealership, CRM, DMS, and Leads.
 
 
   The DealerSocket catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -173,7 +173,7 @@ score:
   band: thin
   composite: 29.3
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -194,8 +194,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

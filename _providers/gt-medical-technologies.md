@@ -34,10 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://gammatile.com/patient-resource-center/news/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/gt-medical-technologies/refs/heads/main/security/gt-medical-technologies-domain-security.yml
   title: ''
@@ -145,14 +149,14 @@ created: '2026-08-22'
 description: GT Medical Technologies, Inc. is a Tempe, Arizona medical device company founded by brain tumor specialists to commercialize GammaTile, an FDA-cleared, bioabsorbable collagen implant embedded with Cesium-131 radiation seeds. Surgeons place the tiles directly into the resection cavity at the time of brain tumor removal, delivering immediate, targeted radiation without the weeks-long healing delay conventional external beam radiotherapy requires. The company sells a physical, prescription-only implant to hospitals and neurosurgical centers through a direct sales force and a Salesforce-based ordering portal; it publishes no public API, SDK, developer portal, or machine-readable specification of any kind.
 image: https://gammatile.com/opengraph-image-1imx6w.png?opengraph-image.15hodd663qzs1.png
 layout: provider
-modified: '2026-08-22'
+modified: '2026-10-06'
 name: GT Medical Technologies
 nav: Providers
 network: true
 overview: 'GT Medical Technologies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, Healthcare, Oncology, and Radiation Therapy.
 
 
-  GT Medical Technologies'' developer surface includes support, product news, and 17 more developer resources.'
+  GT Medical Technologies'' developer surface includes engineering blog, support, product news, and 17 more developer resources.'
 plans:
 - name: Gt Medical Technologies Plans Pricing
   plan_count: 0
@@ -164,20 +168,20 @@ rate_limits:
   slug: gt-medical-technologies-rate-limits
 score:
   band: emerging
-  composite: 14.6
+  composite: 15.1
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 27.6
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 4.8
+    developer_ergonomics: 7.1
     discoverability: 49.1
     operational_transparency: 0.0
   previous_composite: 14.6
@@ -189,8 +193,8 @@ score:
     regime: Health
     regime_id: health
     score: 19.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

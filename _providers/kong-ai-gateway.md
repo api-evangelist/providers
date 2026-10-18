@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: documented
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 5.6
-  scored_at: '2026-10-04'
+  score: 3.7
+  scored_at: '2026-10-17'
 api_count: 21
 apis:
 - description: Kong AI Gateway is the connectivity and governance layer for AI-native applications. Built on Kong Gateway, it provides a universal LLM API across 16+ providers, semantic caching, prompt firewalls and
@@ -101,6 +101,21 @@ apis:
   slug: kong-mcp-registry
 artifact_total: 46
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/kong-ai-gateway/refs/heads/main/rate-limits/kong-ai-gateway-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/kong-ai-gateway-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/kong-ai-gateway/refs/heads/main/finops/kong-ai-gateway-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/kong-ai-gateway-finops.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/kong-ai-gateway/refs/heads/main/plans/kong-ai-gateway-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/kong-ai-gateway-plans-pricing.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -214,9 +229,13 @@ features:
 - description: Per-request, per-agent, and per-model token and cost telemetry surfaced into Konnect dashboards.
   name: Token-Level Observability
 finops:
-- name: Kong Ai Gateway Finops
+- has_sources: false
+  method: generated
+  name: Kong Ai Gateway Finops
+  primary_unit: ''
   service_category: API
   slug: kong-ai-gateway-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kong-ai-gateway.png
 integrations:
 - description: Native provider integrations exposed through the AI Proxy plugin's normalized API.
@@ -238,13 +257,13 @@ modified: '2026-05-23'
 name: Kong AI Gateway
 nav: Providers
 network: true
-overview: 'Kong AI Gateway publishes 21 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include AI Gateway, LLM, MCP, A2A, and AI Governance.
+overview: 'Kong AI Gateway is listed with 21 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include AI Gateway, LLM, MCP, A2A, and AI Governance.
 
 
-  Kong AI Gateway''s developer surface includes developer portal, documentation, getting-started guide, API reference, changelog, engineering blog, CLI, and 15 more developer resources.'
+  Kong AI Gateway''s developer surface includes developer portal, documentation, getting-started guide, API reference, changelog, engineering blog, CLI, and 18 more developer resources.'
 plans:
 - name: Kong Ai Gateway Plans Pricing
-  plan_count: 1
+  plan_count: 11
   slug: kong-ai-gateway-plans-pricing
 random_paper: 3
 rate_limits:
@@ -253,22 +272,22 @@ rate_limits:
   slug: kong-ai-gateway-rate-limits
 score:
   band: thin
-  composite: 37.7
+  composite: 37.0
   coverage:
     artifact_dirs: 7
-    catalog_earned: 52.4
-    catalog_earned_first_party: 0.0
-    catalog_gap: 62.6
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
-    access_clarity: 37.4
+    access_clarity: 42.1
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 59.5
     discoverability: 68.3
-    operational_transparency: 47.9
+    operational_transparency: 34.2
   open_source:
     applies: true
     score: 100.0
@@ -279,8 +298,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

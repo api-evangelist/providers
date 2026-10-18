@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'Hosted MCP server (https://mcp.rindler.ai) that exposes mapped websites as deterministic, typed agent tools over HTTP with OAuth 2.0 PKCE. Core tools: start_session, dispatch_action, extract_content, '
@@ -41,6 +41,10 @@ apis:
   slug: rindler-mcp-server
 artifact_total: 5
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://rindler.com/blog
 - group: company
   title: ''
   type: Website
@@ -125,14 +129,14 @@ mcp_servers:
 - description: Hosted MCP server that turns any pre-onboarded website, including sites without an API, into a deterministic, typed set of agent tools. Agents open a session on a mapped site, dispatch a semantic acti
   name: Rindler MCP Server
   slug: rindler
-modified: '2026-09-16'
+modified: '2026-10-06'
 name: Rindler
 nav: Providers
 network: true
-overview: 'Rindler publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, MCP, AI Agents, Web Automation, and Browser Automation.
+overview: 'Rindler is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, MCP, AI Agents, Web Automation, and Browser Automation.
 
 
-  Rindler''s developer surface includes documentation, getting-started guide, pricing, signup flow, support, authentication, and 11 more developer resources.'
+  Rindler''s developer surface includes engineering blog, documentation, getting-started guide, pricing, signup flow, support, authentication, and 11 more developer resources.'
 random_paper: 4
 scopes:
 - name: Rindler Scopes
@@ -141,20 +145,20 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: thin
-  composite: 28.4
+  composite: 28.9
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 44.7
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 49.4
+    developer_ergonomics: 51.8
     discoverability: 75.0
     operational_transparency: 0.0
   previous_composite: 28.4
@@ -167,8 +171,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

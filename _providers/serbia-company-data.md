@@ -36,15 +36,15 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 1
+- acting_count: 0
   human_in_the_loop: 0
   name: Serbia Company Data Agentic Access
   operation_count: 3
   slug: serbia-company-data-agentic-access
-  summary_line: 3 operations · 1 acting
-api_count: 1
+  summary_line: 3 operations
+api_count: 2
 apis:
 - baseURL: https://serbia-company-x402.vercel.app
   baseurl_source: spec
@@ -204,7 +204,7 @@ modified: '2026-08-14'
 name: Serbia Company Data
 nav: Providers
 network: true
-overview: 'Serbia Company Data publishes 2 APIs on the [APIs.io](https://apis.io/) network: Company API and Search API. Tagged areas include Serbia, Company Data, Business Registry, Open Data, and x402.
+overview: 'Serbia Company Data publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Company API and Search API. Tagged areas include Serbia, Company Data, Business Registry, Open Data, and x402.
 
 
   Serbia Company Data''s developer surface includes authentication, sandbox, code examples, pricing, and 18 more developer resources.'
@@ -221,7 +221,7 @@ score:
   band: thin
   composite: 28.0
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 29.0
     catalog_earned_first_party: 0.0
     catalog_gap: 86.0
@@ -258,8 +258,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

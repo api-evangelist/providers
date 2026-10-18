@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 6
 apis:
 - description: Real-time freight and shipment visibility. Lets a shipper, broker, or 3PL create, update, monitor, and stop tracking sessions on loads directly from a TMS or ERP and receive location, order-status, tr
@@ -58,6 +58,10 @@ apis:
   slug: descartes-b2b-api-connectivity
 artifact_total: 10
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.descartes.com/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/descartes/refs/heads/main/security/descartes-domain-security.yml
   title: ''
@@ -101,19 +105,23 @@ common:
 created: '2026-07-05'
 description: 'The Descartes Systems Group is a global logistics and supply chain software company whose cloud-based Global Logistics Network connects manufacturers, distributors, carriers, brokers, and freight forwarders. Descartes delivers its capabilities across a large family of products - real-time freight visibility and carrier sourcing (Descartes MacroPoint), customs and regulatory compliance and trade content (Descartes CustomsInfo, NetCHB), global trade intelligence (Descartes Datamyne), routing and mobile, and B2B connectivity and messaging. Descartes exposes APIs on a per-product basis: the MacroPoint visibility, capacity, and carrier integration APIs are publicly documented (customer credentials required), while trade content, trade data, and B2B connectivity APIs are provisioned through the Descartes API portal or a sales/contract engagement. Most API access is customer/partner-gated rather than open self-service signup.'
 finops:
-- name: Descartes Finops
+- has_sources: true
+  method: generated
+  name: Descartes Finops
+  primary_unit: ''
   service_category: Logistics and Supply Chain Software
   slug: descartes-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/descartes.png
 layout: provider
-modified: '2026-07-05'
+modified: '2026-10-06'
 name: Descartes Systems Group
 nav: Providers
 network: true
-overview: 'Descartes Systems Group publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Descartes MacroPoint Carrier Integration API, and 5 more. Tagged areas include Logistics, Supply Chain, Freight Visibility, Shipment Tracking, and Customs Compliance.
+overview: 'Descartes Systems Group is listed with 6 APIs on the [APIs.io](https://apis.io/) network, including Descartes MacroPoint Carrier Integration API, and 5 more. Tagged areas include Logistics, Supply Chain, Freight Visibility, Shipment Tracking, and Customs Compliance.
 
 
-  Descartes Systems Group''s developer surface includes documentation and 8 more developer resources.'
+  Descartes Systems Group''s developer surface includes documentation and 9 more developer resources.'
 plans:
 - name: Descartes Plans Pricing
   plan_count: 4
@@ -125,22 +133,22 @@ rate_limits:
   slug: descartes-rate-limits
 score:
   band: emerging
-  composite: 19.7
+  composite: 11.3
   coverage:
-    artifact_dirs: 6
-    catalog_earned: 59.6
+    artifact_dirs: 8
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 55.4
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.4
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 23.8
     discoverability: 62.5
-    operational_transparency: 28.4
+    operational_transparency: 7.9
   previous_composite: 19.7
   regulatory:
     applies: true
@@ -148,9 +156,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 5.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

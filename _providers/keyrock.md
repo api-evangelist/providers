@@ -34,10 +34,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://keyrock.com/blog/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://keyrock.com/blog/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/keyrock/refs/heads/main/security/keyrock-trust-center.yml
   title: ''
@@ -126,14 +134,14 @@ description: 'Keyrock is a digital asset market maker and liquidity provider fou
   SAS and has publicly announced SOC 2 Type II compliance.'
 image: https://avatars.githubusercontent.com/u/41155949?v=4
 layout: provider
-modified: '2026-08-23'
+modified: '2026-10-06'
 name: Keyrock
 nav: Providers
 network: true
 overview: 'Keyrock is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Market Making, Liquidity, Digital Assets, and Cryptocurrency.
 
 
-  Keyrock''s developer surface includes engineering blog, support, and 13 more developer resources.'
+  Keyrock''s developer surface includes engineering blog, support, and 15 more developer resources.'
 plans:
 - name: Keyrock Plans Pricing
   plan_count: 0
@@ -143,7 +151,7 @@ score:
   band: emerging
   composite: 17.9
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -166,8 +174,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 27.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

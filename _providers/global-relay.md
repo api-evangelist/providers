@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.5
-  scored_at: '2026-10-04'
+  score: 23.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -103,6 +103,21 @@ collections:
   name: Global Relay Voice Archiving API
   slug: open-global-relay-voice-archiving-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/global-relay/refs/heads/main/plans/global-relay-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/global-relay-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/global-relay/refs/heads/main/rate-limits/global-relay-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/global-relay-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/global-relay/refs/heads/main/finops/global-relay-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/global-relay-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/global-relay/refs/heads/main/capabilities/global-relay-capability-edges.yml
   title: ''
@@ -167,9 +182,13 @@ common:
 created: '2025-01-01'
 description: Global Relay is an enterprise-grade archiving and compliance platform for electronic communications including email, instant messaging, voice, video, and collaboration tools across regulated industries. It provides APIs for archiving conversations, emails, voice recordings, and event feeds from social media and collaboration platforms, ensuring organizations meet their compliance and regulatory requirements through secure, tamper-proof archiving with OAuth 2.0 authenticated REST APIs.
 finops:
-- name: Global Relay Finops
+- has_sources: true
+  method: generated
+  name: Global Relay Finops
+  primary_unit: ''
   service_category: Compliance / Archiving
   slug: global-relay-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/global-relay.png
 json_schemas:
 - name: Global Relay Conversation
@@ -206,13 +225,13 @@ modified: '2026-05-19'
 name: Global Relay
 nav: Providers
 network: true
-overview: 'Global Relay publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Conversations API, Email API, Events API, and 2 more. Tagged areas include Archiving, Compliance, Data Retention, Email Security, and Regulatory Compliance.
+overview: 'Global Relay publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Conversations API, Email API, Events API, and 2 more. Tagged areas include Archiving, Compliance, Data Retention, Email Security, and Regulatory Compliance.
 
 
   The Global Relay catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Global Relay''s developer surface includes authentication, developer portal, documentation, engineering blog, and 10 more developer resources.'
+  Global Relay''s developer surface includes authentication, developer portal, documentation, engineering blog, and 13 more developer resources.'
 plans:
 - name: Global Relay Plans Pricing
   plan_count: 2
@@ -223,9 +242,10 @@ rate_limits:
   name: Global Relay Rate Limits
   slug: global-relay-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Global Relay API Rules
+  name: Global Relay — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -235,17 +255,17 @@ rules:
   slug: global-relay-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 34.8
+  composite: 33.3
   coverage:
     artifact_dirs: 16
-    catalog_earned: 56.3
+    catalog_earned: 53.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 58.8
+    catalog_gap: 61.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 21.1
+    access_clarity: 13.2
     contract_governance: 9.8
     contract_quality: 58.1
     developer_ergonomics: 33.3
@@ -265,8 +285,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

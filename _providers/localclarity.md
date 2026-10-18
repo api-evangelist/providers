@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 5
+- acting_count: 1
   human_in_the_loop: 0
   name: Localclarity Agentic Access
   operation_count: 6
   slug: localclarity-agentic-access
-  summary_line: 6 operations · 5 acting
+  summary_line: 6 operations · 1 acting
 api_count: 3
 apis:
 - baseURL: https://dev.localclarity.com/
@@ -198,9 +198,13 @@ common:
 created: '2026-06-13'
 description: LocalClarity is an AI-driven local search management platform for enterprises, agencies, and global brands, operated alongside seoClarity and Actonia. It manages Google Business Profiles at scale, tracks local rankings and keywords, monitors and responds to reviews across 50+ sources with generative-AI response automation and sentiment analysis, and manages listing data across Google, Apple Business Connect, Bing, Facebook and Waze in 90+ countries and 14 languages. Its REST API exposes six documented operations covering profiles, organizations, locations, reviews, review replies and Google Business Profile performance insights, authenticated with an API key that administrators generate themselves from the Data Studio module and send in the Authorization header.
 finops:
-- name: Localclarity Finops
+- has_sources: true
+  method: derived
+  name: Localclarity Finops
+  primary_unit: ''
   service_category: ''
   slug: localclarity-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/localclarity.png
 jsonld:
 - class_count: 0
@@ -212,7 +216,7 @@ modified: '2026-08-13'
 name: LocalClarity
 nav: Providers
 network: true
-overview: 'LocalClarity publishes 1 API on the [APIs.io](https://apis.io/) network: Endpoints API. Tagged areas include Local SEO, Google Business Profile, Review Management, Local Search, and Listings Management.
+overview: 'LocalClarity publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Endpoints API. Tagged areas include Local SEO, Google Business Profile, Review Management, Local Search, and Listings Management.
 
 
   The LocalClarity catalog on APIs.io includes 1 JSON-LD context.
@@ -230,17 +234,17 @@ rate_limits:
   slug: localclarity-rate-limits
 score:
   band: developing
-  composite: 51.8
+  composite: 50.3
   coverage:
     artifact_dirs: 24
-    catalog_earned: 60.0
+    catalog_earned: 57.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 55.0
+    catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 77.6
+    access_clarity: 69.7
     contract_governance: 4.5
     contract_quality: 57.3
     developer_ergonomics: 49.4
@@ -263,8 +267,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 18
 apis:
 - baseURL: https://api.antavo.com
@@ -582,6 +582,10 @@ collections:
   name: Antavo Socal Share Campaigns API
   slug: open-antavo-social-share-campaigns
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://antavo.com/feed/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/antavo/refs/heads/main/capabilities/antavo-capability-edges.yml
   title: ''
@@ -864,22 +868,26 @@ common:
 created: '2026-07-10'
 description: Antavo is an enterprise loyalty management platform - the Antavo AI Loyalty Cloud - that lets brands build and run omnichannel, multi-brand, multi-country loyalty programs. Its API-first, headless Loyalty Engine exposes a comprehensive REST API covering customer events, customer profiles, the headless Display surface for loyalty experiences, configurable entities (rewards, challenges, stores, products, transactions), coupons, offers, leaderboards, clubs, promotions, and bulk operations. Requests use standard HTTP verbs with JSON, secured by API key/secret with optional request signing, IP filtering, and token-based auth. API access is provisioned per Antavo environment for enterprise customers, while the developer documentation is fully public.
 finops:
-- name: Antavo Finops
+- has_sources: true
+  method: generated
+  name: Antavo Finops
+  primary_unit: ''
   service_category: Marketing and Customer Loyalty
   slug: antavo-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/antavo.png
 layout: provider
-modified: '2026-08-13'
+modified: '2026-10-06'
 name: Antavo
 nav: Providers
 network: true
-overview: 'Antavo publishes 29 APIs on the [APIs.io](https://apis.io/) network, including Activities API, Async Events API, Authentication API, and 26 more. Tagged areas include Loyalty, Customer Loyalty, Rewards, Enterprise, and Headless.
+overview: 'Antavo publishes 29 API contracts indexed on the [APIs.io](https://apis.io/) network, including Activities API, Async Events API, Authentication API, and 26 more. Tagged areas include Loyalty, Customer Loyalty, Rewards, Enterprise, and Headless.
 
 
   The Antavo catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Antavo''s developer surface includes authentication, documentation, engineering blog, API reference, getting-started guide, support, pricing, and 52 more developer resources.'
+  Antavo''s developer surface includes authentication, documentation, engineering blog, API reference, getting-started guide, support, pricing, and 53 more developer resources.'
 plans:
 - name: Antavo Plans Pricing
   plan_count: 2
@@ -895,18 +903,18 @@ scopes:
   slug: antavo-scopes
   summary_line: 1 scope · clientCredentials
 score:
-  band: exemplar
-  composite: 66.9
+  band: strong
+  composite: 65.4
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 63.0
+    artifact_dirs: 27
+    catalog_earned: 60.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 52.0
+    catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 65.8
+    access_clarity: 57.9
     contract_governance: 18.2
     contract_quality: 57.0
     developer_ergonomics: 67.3
@@ -928,8 +936,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 41.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

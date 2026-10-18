@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 4.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: Public GraphQL API for verified Nivoda customers to search live natural and lab-grown diamond, gemstone and jewelry inventory, retrieve real-time pricing, certificates and media, and (with Pro access)
@@ -46,6 +46,10 @@ apis:
   slug: nivoda-diamonds-graphql-api-staging
 artifact_total: 4
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://nivoda.com/feed
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/nivoda/refs/heads/main/security/nivoda-domain-security.yml
   title: ''
@@ -158,20 +162,20 @@ created: '2026-07-17'
 description: Nivoda is a global B2B marketplace for the diamond, gemstone and jewelry trade, connecting jewelry retailers directly with suppliers of natural and lab-grown diamonds, colored gemstones, melee and made-to-order finished jewelry without the retailer having to hold stock. The platform provides real-time pricing, high-resolution imagery and video, advanced search and quality control, consolidated shipping and invoicing, flexible credit terms and risk-free returns. Nivoda exposes a public GraphQL API that verified customers use to integrate live supplier inventory into their own websites and storefronts, mirroring the same search capabilities as the Nivoda platform and mobile apps, with Pro access adding orders, holds, diamond requests and concierge requests.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nivoda.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Nivoda
 nav: Providers
 network: true
-overview: 'Nivoda publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Diamonds, Gemstones, Jewelry, and Marketplace.
+overview: 'Nivoda is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Diamonds, Gemstones, Jewelry, and Marketplace.
 
 
-  Nivoda''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 17 more developer resources.'
+  Nivoda''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 18 more developer resources.'
 random_paper: 3
 score:
   band: thin
   composite: 26.3
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -196,8 +200,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

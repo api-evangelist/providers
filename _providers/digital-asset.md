@@ -35,8 +35,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.5
-  scored_at: '2026-10-04'
-api_count: 6
+  scored_at: '2026-10-17'
+api_count: 11
 apis:
 - baseURL: https://api.utilities.digitalasset.com
   baseurl_source: declared
@@ -76,6 +76,10 @@ collections:
   name: Digital Asset Registry API
   slug: open-digital-asset-registry-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.digitalasset.com/blog/rss.xml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/digital-asset/refs/heads/main/mcp/digital-asset-mcp.yml
   title: ''
@@ -231,18 +235,18 @@ created: '2026-08-04'
 description: 'Digital Asset is the company behind Canton, a privacy-enabled public blockchain built for regulated institutional finance, and Daml, the smart-contract language that runs on it. Its commercial products sit on top of the Canton Network: the DA Registry, a production platform for issuing, minting, burning, transferring and redeeming institutional-grade tokenized assets with credential-based allowlists, blocklists and proof-of-transfer; xReserve, which brings Circle''s USDC onto Canton; and a Covalidation Service for operating validator infrastructure. Its public developer surface is the Utilities (Operator Backend) API plus four Canton Token Standard (CIP-56) off-ledger APIs — token metadata, transfer instruction, allocation and allocation instruction — all published as OpenAPI 3.0 and served across MainNet, TestNet and DevNet environments. Digital Asset also publishes an A2A agent card and a packaged Agent Skill for its Registry workflows.'
 image: https://www.digitalasset.com/favicon.ico
 layout: provider
-modified: '2026-08-04'
+modified: '2026-10-06'
 name: Digital Asset
 nav: Providers
 network: true
-overview: 'Digital Asset publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Common API, Operator API, Public API, and 1 more. Tagged areas include Blockchain, Tokenization, Digital Assets, Financial Services, and Distributed Ledger.
+overview: 'Digital Asset publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Common API, Operator API, Public API, and 1 more. Tagged areas include Blockchain, Tokenization, Digital Assets, Financial Services, and Distributed Ledger.
 
 
-  Digital Asset''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 26 more developer resources.'
+  Digital Asset''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 27 more developer resources.'
 random_paper: 3
 score:
   band: developing
-  composite: 47.7
+  composite: 47.8
   coverage:
     artifact_dirs: 22
     catalog_earned: 40.0
@@ -250,7 +254,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 26.3
     contract_governance: 4.5
@@ -274,8 +278,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 31.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

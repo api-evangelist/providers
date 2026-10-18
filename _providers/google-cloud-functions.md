@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.8
-  scored_at: '2026-10-04'
+  score: 22.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -97,6 +97,21 @@ collections:
   name: Google Cloud Functions API
   slug: open-google-cloud-functions
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-functions/refs/heads/main/plans/google-cloud-functions-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/google-cloud-functions-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-functions/refs/heads/main/rate-limits/google-cloud-functions-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/google-cloud-functions-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-functions/refs/heads/main/finops/google-cloud-functions-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/google-cloud-functions-finops.yml
 - group: company
   title: ''
   type: Website
@@ -178,9 +193,13 @@ common:
 created: '2026-03-13'
 description: Google Cloud Functions is a lightweight, event-driven, serverless compute platform that allows you to create small, single-purpose functions that respond to cloud events without the need to manage a server or runtime environment.
 finops:
-- name: Google Cloud Functions Finops
+- has_sources: false
+  method: generated
+  name: Google Cloud Functions Finops
+  primary_unit: ''
   service_category: API
   slug: google-cloud-functions-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/google-cloud-functions.png
 json_schemas:
 - name: Google Cloud Function
@@ -196,13 +215,13 @@ modified: '2026-09-16'
 name: Google Cloud Functions
 nav: Providers
 network: true
-overview: 'Google Cloud Functions publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Locations API, Operations API, and 2 more. Tagged areas include Event-Driven, Functions, Google Cloud, and Serverless.
+overview: 'Google Cloud Functions publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Locations API, Operations API, and 2 more. Tagged areas include Event-Driven, Functions, Google Cloud, and Serverless.
 
 
   The Google Cloud Functions catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Google Cloud Functions'' developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, support, and 12 more developer resources.'
+  Google Cloud Functions'' developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, support, and 15 more developer resources.'
 plans:
 - name: Google Cloud Functions Plans Pricing
   plan_count: 3
@@ -213,9 +232,10 @@ rate_limits:
   name: Google Cloud Functions Rate Limits
   slug: google-cloud-functions-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Google Cloud Functions API Rules
+  name: Google Cloud Functions — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -230,17 +250,17 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 47.1
+  composite: 45.5
   coverage:
     artifact_dirs: 15
-    catalog_earned: 57.7
+    catalog_earned: 54.7
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.4
+    catalog_gap: 60.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 47.4
+    access_clarity: 39.5
     contract_governance: 9.8
     contract_quality: 58.1
     developer_ergonomics: 48.8
@@ -260,8 +280,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

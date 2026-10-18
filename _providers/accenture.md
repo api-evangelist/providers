@@ -27,16 +27,35 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 5.0
-  scored_at: '2026-10-04'
+  score: 3.1
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 19
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/accenture/refs/heads/main/plans/accenture-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/accenture-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/accenture/refs/heads/main/rate-limits/accenture-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/accenture-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/accenture/refs/heads/main/finops/accenture-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/accenture-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.accenture.com/en/insights
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/accenture/refs/heads/main/security/accenture-domain-security.yml
   title: ''
@@ -84,9 +103,13 @@ features:
 - description: Accenture's intelligent-operations platform used inside managed-services engagements.
   name: SynOps
 finops:
-- name: Accenture Finops
+- has_sources: true
+  method: generated
+  name: Accenture Finops
+  primary_unit: ''
   service_category: Professional Services
   slug: accenture-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/accenture.png
 integrations:
 - description: Strategic partnership delivering AWS migration, modernization, and AI services for joint clients.
@@ -102,14 +125,14 @@ integrations:
 - description: Joint go-to-market on enterprise generative-AI built on NVIDIA AI Enterprise.
   name: NVIDIA
 layout: provider
-modified: '2026-05-16'
+modified: '2026-10-06'
 name: Accenture
 nav: Providers
 network: true
 overview: 'Accenture is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Consulting, Technology, Professional Services, and A2A.
 
 
-  Accenture''s developer surface includes authentication and 5 more developer resources.'
+  Accenture''s developer surface includes engineering blog, authentication, and 8 more developer resources.'
 plans:
 - name: Accenture Plans Pricing
   plan_count: 1
@@ -120,23 +143,23 @@ rate_limits:
   name: Accenture Rate Limits
   slug: accenture-rate-limits
 score:
-  band: emerging
-  composite: 16.2
+  band: minimal
+  composite: 10.7
   coverage:
-    artifact_dirs: 6
-    catalog_earned: 39.4
+    artifact_dirs: 8
+    catalog_earned: 26.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.6
+    catalog_gap: 89.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.5
   facets:
-    access_clarity: 34.7
+    access_clarity: 13.2
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 11.9
+    developer_ergonomics: 14.3
     discoverability: 39.3
-    operational_transparency: 21.6
+    operational_transparency: 7.9
   previous_composite: 16.2
   regulatory:
     applies: true
@@ -144,9 +167,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

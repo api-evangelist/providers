@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 5
 apis:
 - description: Java/JVM implementation of Cucumber supporting Java, Kotlin, Scala, and other JVM languages. Distributed via Maven Central under the io.cucumber group.
@@ -53,6 +53,25 @@ apis:
   slug: cucumber-messages
 artifact_total: 12
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/cucumber/refs/heads/main/plans/cucumber-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/cucumber-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cucumber/refs/heads/main/rate-limits/cucumber-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/cucumber-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/cucumber/refs/heads/main/finops/cucumber-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/cucumber-finops.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://cucumber.io/blog/rss.xml
 - group: operate
   title: ''
   type: IssueTracker
@@ -136,9 +155,13 @@ common:
 created: '2024-01-01'
 description: Cucumber is an open-source Behavior Driven Development (BDD) tool for running automated tests written in plain language using the Gherkin syntax. It enables collaboration between technical and non-technical team members by expressing executable specifications as Given/When/Then scenarios. Cucumber has implementations for many languages (JVM, JavaScript, Ruby, .NET, Python, Go, Rust) and a shared message protocol that connects parsers, runners, and reporters.
 finops:
-- name: Cucumber Finops
+- has_sources: false
+  method: generated
+  name: Cucumber Finops
+  primary_unit: ''
   service_category: API
   slug: cucumber-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cucumber.png
 json_schemas:
 - name: CucumberMessage
@@ -150,17 +173,17 @@ jsonld:
   property_count: 2
   slug: cucumber-context
 layout: provider
-modified: '2026-04-28'
+modified: '2026-10-06'
 name: Cucumber
 nav: Providers
 network: true
-overview: 'Cucumber publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Automation, BDD, Behavior-Driven Development, Gherkin, and Open Source.
+overview: 'Cucumber is listed with 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Automation, BDD, Behavior-Driven Development, Gherkin, and Open Source.
 
 
   The Cucumber catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Cucumber''s developer surface includes documentation, tooling, YouTube channel, engineering blog, and 15 more developer resources.'
+  Cucumber''s developer surface includes documentation, tooling, YouTube channel, engineering blog, and 19 more developer resources.'
 plans:
 - name: Cucumber Plans Pricing
   plan_count: 3
@@ -171,9 +194,10 @@ rate_limits:
   name: Cucumber Rate Limits
   slug: cucumber-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Cucumber API Rules
+  name: Cucumber — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -183,17 +207,17 @@ rules:
   slug: cucumber-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 28.2
+  composite: 26.8
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 65.2
+    artifact_dirs: 12
+    catalog_earned: 62.2
     catalog_earned_first_party: 0.0
-    catalog_gap: 49.9
+    catalog_gap: 52.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.4
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 23.5
     contract_quality: 17.9
     developer_ergonomics: 23.8
@@ -209,8 +233,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: LegitFit's Model Context Protocol server — a JSON-RPC 2.0 endpoint that exposes LegitFit resources to AI agents. Protected by OAuth 2.1 (authorization_code with PKCE S256) and gated by the mcp:read an
@@ -131,7 +131,7 @@ modified: '2026-07-19'
 name: LegitFit
 nav: Providers
 network: true
-overview: 'LegitFit publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fitness, Gym Management, Studio Management, and Scheduling.
+overview: 'LegitFit is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fitness, Gym Management, Studio Management, and Scheduling.
 
 
   LegitFit''s developer surface includes authentication, support, engineering blog, pricing, signup flow, and 12 more developer resources.'
@@ -181,8 +181,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 27.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

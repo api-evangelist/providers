@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 18.0
-  scored_at: '2026-10-04'
+  score: 16.1
+  scored_at: '2026-10-17'
 api_count: 8
 apis:
 - description: API for programmatic access to Microsoft Access databases through various interfaces including ODBC, OLE DB, and DAO.
@@ -62,6 +62,21 @@ apis:
   slug: power-automate-access-actions-api
 artifact_total: 18
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-access/refs/heads/main/plans/microsoft-access-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/microsoft-access-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-access/refs/heads/main/rate-limits/microsoft-access-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/microsoft-access-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-access/refs/heads/main/finops/microsoft-access-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/microsoft-access-finops.yml
 - group: company
   title: ''
   type: Website
@@ -139,9 +154,13 @@ common:
 created: '2024'
 description: Microsoft Access is a database management system from Microsoft that combines the relational Microsoft Jet Database Engine with a graphical user interface and software development tools.
 finops:
-- name: Microsoft Access Finops
+- has_sources: false
+  method: generated
+  name: Microsoft Access Finops
+  primary_unit: ''
   service_category: API
   slug: microsoft-access-finops
+  template: true
 image: https://www.microsoft.com/en-us/microsoft-365/access
 json_schemas:
 - name: Microsoft Access Database
@@ -160,13 +179,13 @@ modified: '2026-04-28'
 name: Microsoft Access
 nav: Providers
 network: true
-overview: 'Microsoft Access publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Database Engine API, and 7 more. Tagged areas include Access Database, Database, Desktop Database, Microsoft, and Relational Database.
+overview: 'Microsoft Access is listed with 8 APIs on the [APIs.io](https://apis.io/) network, including Database Engine API, and 7 more. Tagged areas include Access Database, Database, Desktop Database, Microsoft, and Relational Database.
 
 
   The Microsoft Access catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Microsoft Access'' developer surface includes developer portal, support, pricing, engineering blog, documentation, and 12 more developer resources.'
+  Microsoft Access'' developer surface includes developer portal, support, pricing, engineering blog, documentation, and 15 more developer resources.'
 plans:
 - name: Microsoft Access Plans Pricing
   plan_count: 3
@@ -177,9 +196,10 @@ rate_limits:
   name: Microsoft Access Rate Limits
   slug: microsoft-access-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: Microsoft Access API Rules
+  name: Microsoft Access — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -189,17 +209,17 @@ rules:
   slug: microsoft-access-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 37.4
+  composite: 35.9
   coverage:
     artifact_dirs: 10
-    catalog_earned: 42.3
+    catalog_earned: 39.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 72.8
+    catalog_gap: 75.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 50.0
+    access_clarity: 42.1
     contract_governance: 9.8
     contract_quality: 30.7
     developer_ergonomics: 45.2
@@ -212,8 +232,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

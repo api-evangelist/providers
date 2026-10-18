@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 22
 common:
@@ -182,7 +182,7 @@ modified: '2026-09-02'
 name: American International Group (AIG)
 nav: Providers
 network: true
-overview: 'American International Group (AIG) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Property Casualty, Cyber Insurance, Commercial Insurance, and Global Insurance.
+overview: 'American International Group (AIG) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Property and Casualty, Cyber Insurance, Commercial Insurance, and Global Insurance.
 
 
   American International Group (AIG)''s developer surface includes authentication, documentation, developer portal, support, engineering blog, and 20 more developer resources.'
@@ -232,8 +232,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 42.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -256,7 +256,7 @@ security:
 slug: american-international
 tags:
 - Insurance
-- Property Casualty
+- Property and Casualty
 - Cyber Insurance
 - Commercial Insurance
 - Global Insurance

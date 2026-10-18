@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: The Rome2Rio Search API returns multi-modal door-to-door travel routes between any origin and destination worldwide. Given origin and destination as place names or coordinates, it returns a ranked lis
@@ -47,6 +47,21 @@ apis:
   slug: geocode
 artifact_total: 8
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/rome2rio/refs/heads/main/plans/rome2rio-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/rome2rio-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/rome2rio/refs/heads/main/rate-limits/rome2rio-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/rome2rio-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/rome2rio/refs/heads/main/finops/rome2rio-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/rome2rio-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/rome2rio/refs/heads/main/security/rome2rio-domain-security.yml
   title: ''
@@ -103,9 +118,13 @@ common:
 created: '2026-06-13'
 description: Rome2Rio is a multi-modal travel planning platform founded in Melbourne, Australia in 2011, and part of the Omio Group since 2019. It covers 240+ countries, 10 million+ locations, and 20,000+ transport operators, enabling door-to-door route discovery across flights, trains, buses, ferries, and driving. Developers can access route search, geocoding, and autocomplete capabilities through the Rome2Rio REST API, which returns JSON responses covering routes, segments, duration, and operator information for any two points worldwide.
 finops:
-- name: Rome2Rio Finops
+- has_sources: false
+  method: generated
+  name: Rome2Rio Finops
+  primary_unit: ''
   service_category: API
   slug: rome2rio-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rome2rio.png
 jsonld:
 - class_count: 0
@@ -117,13 +136,13 @@ modified: '2026-06-13'
 name: Rome2Rio
 nav: Providers
 network: true
-overview: 'Rome2Rio publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Travel, Multi-Modal, Transportation, Routes, and Transit.
+overview: 'Rome2Rio is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Travel, Multi-Modal, Transportation, Routes, and Transit.
 
 
   The Rome2Rio catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Rome2Rio''s developer surface includes documentation, engineering blog, support, GitHub presence, and 9 more developer resources.'
+  Rome2Rio''s developer surface includes documentation, engineering blog, support, GitHub presence, and 12 more developer resources.'
 plans:
 - name: Rome2Rio Plans Pricing
   plan_count: 2
@@ -135,32 +154,32 @@ rate_limits:
   slug: rome2rio-rate-limits
 score:
   band: emerging
-  composite: 19.3
+  composite: 11.9
   coverage:
     artifact_dirs: 8
-    catalog_earned: 66.0
+    catalog_earned: 50.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 49.0
+    catalog_gap: 65.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.4
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 6.7
     developer_ergonomics: 7.1
     discoverability: 71.4
-    operational_transparency: 33.7
+    operational_transparency: 13.2
   previous_composite: 19.3
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

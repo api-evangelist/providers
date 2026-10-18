@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: The AGing, Independence, and Disability (AGID) Program Data Portal provides publicly accessible data from programs funded under the Older Americans Act and related disability programs. Datasets includ
@@ -44,6 +44,21 @@ apis:
   slug: eldercare-locator-content-api
 artifact_total: 20
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/administration-for-community-living-acl-/refs/heads/main/plans/administration-for-community-living-acl--plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/administration-for-community-living-acl--plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/administration-for-community-living-acl-/refs/heads/main/rate-limits/administration-for-community-living-acl--rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/administration-for-community-living-acl--rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/administration-for-community-living-acl-/refs/heads/main/finops/administration-for-community-living-acl--finops.yml
+  title: ''
+  type: FinOps
+  url: finops/administration-for-community-living-acl--finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/administration-for-community-living-acl-/refs/heads/main/authentication/administration-for-community-living-acl--authentication.yml
   title: ''
@@ -156,19 +171,23 @@ features:
 - description: Freedom of Information Act (FOIA) services enabling public access to ACL agency records not otherwise publicly available.
   name: FOIA Request Services
 finops:
-- name: Administration For Community Living Acl  Finops
+- has_sources: false
+  method: generated
+  name: Administration For Community Living Acl  Finops
+  primary_unit: ''
   service_category: API
   slug: administration-for-community-living-acl--finops
+  template: true
 image: /assets/icons/administration-for-community-living-acl-.png
 layout: provider
 modified: '2026-08-30'
 name: Administration for Community Living (ACL)
 nav: Providers
 network: true
-overview: 'Administration for Community Living (ACL) publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Aging, Federal Government, Healthcare, Disability, and Independent Living.
+overview: 'Administration for Community Living (ACL) is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Aging, Federal Government, Healthcare, Disability, and Independent Living.
 
 
-  Administration for Community Living (ACL)''s developer surface includes authentication, changelog, support, engineering blog, developer portal, and 16 more developer resources.'
+  Administration for Community Living (ACL)''s developer surface includes authentication, changelog, support, engineering blog, developer portal, and 19 more developer resources.'
 plans:
 - name: Administration For Community Living Acl  Plans Pricing
   plan_count: 0
@@ -180,17 +199,17 @@ rate_limits:
   slug: administration-for-community-living-acl--rate-limits
 score:
   band: emerging
-  composite: 26.0
+  composite: 24.4
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 40.0
+    artifact_dirs: 18
+    catalog_earned: 37.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 28.9
+    access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 38.1
@@ -211,8 +230,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 30.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -231,7 +250,7 @@ security:
 - kind: vulnerability-disclosure
   name: Administration For Community Living Acl  Vulnerability Disclosure
   slug: administration-for-community-living-acl--vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 slug: administration-for-community-living-acl-
 tags:
 - Aging

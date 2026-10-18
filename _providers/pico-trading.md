@@ -33,10 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.pico.net/blog/feed.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/pico-trading/refs/heads/main/security/pico-trading-domain-security.yml
   title: ''
@@ -112,14 +116,14 @@ created: '2026-07-21'
 description: Pico (pico.net) is a trading-infrastructure and financial market data company - not the creator-CRM company of the same name - providing global exchange connectivity, colocation and managed infrastructure in 55+ data centers, Redline trading software (InRush ticker plant feed handlers and Execution Gateway, acquired 2021), RedlineFeed normalized market data from 230+ venues, and Corvil network and trading analytics (acquired 2019). Market data is delivered to entitled customers via multicast feeds and an embedded InRush software API rather than public HTTP endpoints, and Corvil exposes analytics via a REST API, SDK, and streaming to Kafka, Splunk, and Elastic. Privately held; everything is sales-gated - there is no public developer portal, no self-serve signup, and no public API reference, with product documentation and the Corvil API docs behind the login-gated customer portal at portal.pico.net.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pico-trading.png
 layout: provider
-modified: '2026-07-22'
+modified: '2026-10-06'
 name: Pico
 nav: Providers
 network: true
 overview: 'Pico is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Finance, Market Data, Trading, Real-Time, and Low Latency.
 
 
-  Pico''s developer surface includes authentication, changelog, documentation, developer portal, engineering blog, support, and 10 more developer resources.'
+  Pico''s developer surface includes authentication, changelog, documentation, developer portal, engineering blog, support, and 11 more developer resources.'
 random_paper: 7
 scopes:
 - name: Pico Trading Scopes
@@ -153,8 +157,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 32.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://repo.continuum.io
@@ -120,7 +120,7 @@ modified: '2026-10-02'
 name: bodo.ai
 nav: Providers
 network: true
-overview: 'bodo.ai publishes 1 API on the [APIs.io](https://apis.io/) network: Miniconda API. Tagged areas include Analytics, Artificial Intelligence, Enterprise, Open Source, and Data Engineering.
+overview: 'bodo.ai is listed with 1 API on the [APIs.io](https://apis.io/) network: Miniconda API. Tagged areas include Analytics, Artificial Intelligence, Enterprise, Open Source, and DataEngineering.
 
 
   The bodo.ai catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -129,7 +129,8 @@ overview: 'bodo.ai publishes 1 API on the [APIs.io](https://apis.io/) network: M
   bodo.ai''s developer surface includes changelog, documentation, getting-started guide, engineering blog, support, and 11 more developer resources.'
 random_paper: 7
 rules:
-- effective_rule_count: 49
+- authorship: generated
+  effective_rule_count: 49
   extends:
   - spectral:oas
   name: bodo.ai API Rules
@@ -150,6 +151,7 @@ score:
     catalog_gap: 58.5
     catalog_max: 100.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -9.9
   facets:
     access_clarity: 28.6
     contract_governance: 18.2
@@ -157,6 +159,7 @@ score:
     developer_ergonomics: 38.1
     discoverability: 66.1
     operational_transparency: 21.1
+  previous_composite: 37.2
   provenance:
     conformance: derived
     contracts:
@@ -171,8 +174,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
@@ -188,6 +192,6 @@ tags:
 - Artificial Intelligence
 - Enterprise
 - Open Source
-- Data Engineering
+- DataEngineering
 website: https://www.bodo.ai/
 ---

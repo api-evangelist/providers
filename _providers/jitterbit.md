@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 19
   slug: jitterbit-agentic-access
   summary_line: 19 operations · 13 acting · 1 human-in-the-loop
-api_count: 1
+api_count: 2
 apis:
 - description: APIs for registering and managing connectors created with the Jitterbit Connector SDK — log in to Harmony, register a custom connector, list registered connectors, delete a connector registration, del
   name: Jitterbit Connector SDK REST API
@@ -342,16 +342,20 @@ created: '2026-03-16'
 description: Jitterbit is an enterprise integration platform as a service (iPaaS) vendor. Its Harmony platform spans application and data integration (Integration Studio and the legacy Design Studio), full API management (API Manager with a Jitterbit-hosted cloud API gateway and an installable private gateway), EDI with AS2 and X12/EDIFACT trading-partner management, low-code application development (App Builder, formerly Vinyl), a multi-tenant Message Queue service, a connector marketplace, and an AI layer of agents, assistants and a Model Context Protocol offering. Jitterbit publishes one machine-readable contract of its own — the Harmony platform APIs, an OpenAPI 3.0.3 document covering Integration Studio projects, project variables, operation logs and schedules — alongside a prose-documented Connector SDK REST API and an asynchronous API log service. The developer surface includes a Java Connector SDK with Javadocs, a Connector Builder, downloadable recipes and process templates, and
   the jbcli command line tool.
 finops:
-- name: Jitterbit Finops
+- has_sources: false
+  method: generated
+  name: Jitterbit Finops
+  primary_unit: ''
   service_category: API
   slug: jitterbit-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/jitterbit.png
 layout: provider
 modified: '2026-08-27'
 name: Jitterbit
 nav: Providers
 network: true
-overview: 'Jitterbit publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Login API, Operations API, Projects API, and 3 more. Tagged areas include API Management, Automation, Integration, iPaaS, and EDI.
+overview: 'Jitterbit publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Login API, Operations API, Projects API, and 3 more. Tagged areas include API Management, Automation, Integration, iPaaS, and EDI.
 
 
   The Jitterbit catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -368,7 +372,8 @@ rate_limits:
   name: Jitterbit Rate Limits
   slug: jitterbit-rate-limits
 rules:
-- effective_rule_count: 52
+- authorship: generated
+  effective_rule_count: 52
   extends:
   - spectral:oas
   name: Jitterbit API Rules
@@ -381,23 +386,23 @@ rules:
   slug: jitterbit-rules
 score:
   band: exemplar
-  composite: 74.0
+  composite: 72.5
   coverage:
     artifact_dirs: 30
-    catalog_earned: 68.5
+    catalog_earned: 65.5
     catalog_earned_first_party: 24.0
-    catalog_gap: 46.5
+    catalog_gap: 49.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 3.9
+  delta: -5.8
   facets:
-    access_clarity: 93.4
+    access_clarity: 85.5
     contract_governance: 31.8
     contract_quality: 57.6
     developer_ergonomics: 80.4
     discoverability: 76.8
     operational_transparency: 92.1
-  previous_composite: 70.1
+  previous_composite: 78.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -414,9 +419,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

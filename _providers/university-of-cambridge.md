@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-04'
+  score: 20.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 39
   slug: university-of-cambridge-agentic-access
   summary_line: 39 operations
-api_count: 1
+api_count: 2
 apis:
 - description: The University's central web authentication service. Raven OAuth2 conforms to OpenID Connect; applications register client credentials to authenticate Cambridge users. An identity/SSO interface rather
   name: Raven Authentication (OAuth2 / OpenID Connect)
@@ -242,9 +242,13 @@ examples:
   name: University Of Cambridge Person Example
   slug: university-of-cambridge-person-example
 finops:
-- name: University Of Cambridge Finops
+- has_sources: true
+  method: generated
+  name: University Of Cambridge Finops
+  primary_unit: ''
   service_category: Education
   slug: university-of-cambridge-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/university-of-cambridge.png
 json_schemas:
 - name: Group
@@ -276,7 +280,7 @@ modified: '2026-08-19'
 name: University of Cambridge
 nav: Providers
 network: true
-overview: 'University of Cambridge publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Group API, Ibis API, Institution API, and 9 more. Tagged areas include Education, Higher Education, University, Research, and United Kingdom.
+overview: 'University of Cambridge publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including Group API, Ibis API, Institution API, and 9 more. Tagged areas include Education, Higher Education, University, Research, and United Kingdom.
 
 
   The University of Cambridge catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -293,9 +297,10 @@ rate_limits:
   name: University Of Cambridge Rate Limits
   slug: university-of-cambridge-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: University of Cambridge API Rules
+  name: University of Cambridge — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -303,7 +308,8 @@ rules:
     info: 2
     warn: 3
   slug: university-of-cambridge-jsonschema-spectral-rules
-- effective_rule_count: 48
+- authorship: unmarked
+  effective_rule_count: 48
   extends:
   - spectral:oas
   name: University of Cambridge API Rules
@@ -316,22 +322,22 @@ rules:
   slug: university-of-cambridge-rules
 score:
   band: developing
-  composite: 50.0
+  composite: 43.9
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 67.3
+    artifact_dirs: 21
+    catalog_earned: 53.9
     catalog_earned_first_party: 0.0
-    catalog_gap: 47.7
+    catalog_gap: 61.1
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.1
   facets:
-    access_clarity: 61.1
+    access_clarity: 39.5
     contract_governance: 31.8
     contract_quality: 56.0
     developer_ergonomics: 45.2
     discoverability: 57.1
-    operational_transparency: 24.2
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -355,9 +361,9 @@ score:
     regime: Education & Research
     regime_id: education
     score: 32.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

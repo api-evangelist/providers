@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 15
+- acting_count: 9
   human_in_the_loop: 0
   name: Zayo Agentic Access
   operation_count: 26
   slug: zayo-agentic-access
-  summary_line: 26 operations · 15 acting
+  summary_line: 26 operations · 9 acting
 api_count: 1
 apis:
 - baseURL: https://api.zayo.com
@@ -117,6 +117,10 @@ collections:
   name: Zayo APIs Maintenance Cases Ticketing API
   slug: open-zayo-ticketing-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.zayo.com/newsroom/
 - group: company
   title: ''
   type: Website
@@ -256,17 +260,17 @@ created: '2026-07-17'
 description: Zayo is a global communications infrastructure provider operating one of the largest independent fiber networks, delivering bandwidth, dark fiber, wavelengths, ethernet, IP, cloud connectivity and network management to carriers, enterprises, and hyperscalers. Zayo publishes a free public developer program at developer.zayo.com exposing REST APIs for network discovery (building validation, location and cloud-site lookup), quote and order management (product catalog, quoting, ordering), and service management (service inventory, ticketing, and maintenance-case notifications). The APIs are OpenAPI 3.1 described, secured with OAuth 2.0 client-credentials bearer tokens, and include a push-notification/callback surface for maintenance and ticket updates.
 image: https://developer.zayo.com/img/zayo-logo.svg
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Zayo
 nav: Providers
 network: true
-overview: 'Zayo publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Maintenance Cases API, Network Discovery API, Order API, and 5 more. Tagged areas include Company, Telecommunications, Networking, Connectivity, and Fiber.
+overview: 'Zayo publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Maintenance Cases API, Network Discovery API, Order API, and 5 more. Tagged areas include Company, Telecommunications, Networking, Connectivity, and Fiber.
 
 
   The Zayo catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Zayo''s developer surface includes engineering blog, documentation, API reference, getting-started guide, authentication, support, signup flow, and 23 more developer resources.'
+  Zayo''s developer surface includes engineering blog, documentation, API reference, getting-started guide, authentication, support, signup flow, and 24 more developer resources.'
 plans:
 - name: Zayo Plans Pricing
   plan_count: 0
@@ -283,15 +287,15 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: developing
-  composite: 43.9
+  composite: 43.8
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 28.9
     contract_governance: 4.5
@@ -316,8 +320,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 37.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

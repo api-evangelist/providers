@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The Sugar REST API is hosted on each Sugar deployment at https://<site_url>/rest/v{version}/ (v10 through v11.27). SugarCloud instances are hosted on Sugar's own sugarondemand.com domain, so a cloud t
@@ -216,7 +216,7 @@ modified: '2026-08-13'
 name: SugarCRM
 nav: Providers
 network: true
-overview: 'SugarCRM publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Software-as-a-Service, CRM, Sales, and Marketing.
+overview: 'SugarCRM is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Software-as-a-Service, CRM, Sales, and Marketing.
 
 
   The SugarCRM catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -236,7 +236,7 @@ score:
   band: strong
   composite: 65.0
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 57.0
     catalog_earned_first_party: 20.0
     catalog_gap: 58.0
@@ -266,8 +266,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

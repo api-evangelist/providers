@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: Linkerd is a CNCF-graduated service mesh for Kubernetes that transparently adds mutual TLS encryption, latency-aware load balancing, retries, timeouts, circuit breaking, and observability to any Kuber
@@ -47,6 +47,11 @@ apis:
   slug: buoyant-cloud
 artifact_total: 9
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/buoyant/refs/heads/main/finops/buoyant-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/buoyant-finops.yml
 - group: company
   title: ''
   type: Website
@@ -227,19 +232,23 @@ common:
 created: '2026-01-02'
 description: Buoyant is the creator of Linkerd, the CNCF-graduated service mesh for Kubernetes. Linkerd provides zero-trust security via mutual TLS, ultra-high availability with automated failover, and observability for microservices including AI/LLM workloads. Buoyant Enterprise Linkerd adds enterprise features including FIPS 140-2/140-3 validated encryption and multi-cluster support.
 finops:
-- name: Buoyant Finops
+- has_sources: false
+  method: generated
+  name: Buoyant Finops
+  primary_unit: ''
   service_category: API
   slug: buoyant-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/buoyant.png
 layout: provider
 modified: '2026-09-04'
 name: Buoyant
 nav: Providers
 network: true
-overview: 'Buoyant publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include AI Observability, Kubernetes, Linkerd, mTLS, and Observability.
+overview: 'Buoyant is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include AI Observability, Kubernetes, Linkerd, mTLS, and Observability.
 
 
-  Buoyant''s developer surface includes developer portal, documentation, engineering blog, pricing, API reference, getting-started guide, support, and 33 more developer resources.'
+  Buoyant''s developer surface includes developer portal, documentation, engineering blog, pricing, API reference, getting-started guide, support, and 34 more developer resources.'
 plans:
 - name: Buoyant Plans Pricing
   plan_count: 3
@@ -251,17 +260,17 @@ rate_limits:
   slug: buoyant-rate-limits
 score:
   band: developing
-  composite: 54.0
+  composite: 52.6
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 50.0
+    artifact_dirs: 18
+    catalog_earned: 47.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 65.0
+    catalog_gap: 68.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.4
   facets:
-    access_clarity: 68.4
+    access_clarity: 60.5
     contract_governance: 4.5
     contract_quality: 24.0
     developer_ergonomics: 71.4
@@ -279,8 +288,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 31.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

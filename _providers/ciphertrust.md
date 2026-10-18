@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: REST API for the CipherTrust Manager control plane. Manages encryption keys, secrets, certificates, tokenization, users, connections, and policies. Base path /api/v1 with JWT bearer authentication obt
@@ -42,6 +42,10 @@ apis:
   slug: ciphertrust-manager-rest-api
 artifact_total: 4
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://cpl.thalesgroup.com/blog/feed
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/ciphertrust/refs/heads/main/hosts/ciphertrust-hosts.yml
   title: ''
@@ -172,26 +176,26 @@ created: '2026-07-17'
 description: CipherTrust Manager is Thales's centralized key- and data-security management platform and the control plane of the CipherTrust Data Security Platform (CDSP). It provides a unified plane for encryption key lifecycle management, secrets management, certificates, tokenization, data discovery, and policy enforcement across on-premises, hybrid, and multi-cloud environments including AWS, Azure, and Google Cloud, with HSM/KMIP integration, Kubernetes and DevSecOps support, role-based access controls, and post-quantum cryptography readiness. Developers and platform teams automate it through a REST API (base path /api/v1, JWT bearer authentication), an official HashiCorp Terraform provider (ThalesGroup/ciphertrust), an Ansible collection, and PowerShell orchestration modules, plus Application Protection SDKs for embedding encryption, key management, and tokenization in apps.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ciphertrust.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: CipherTrust
 nav: Providers
 network: true
-overview: 'CipherTrust publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Encryption, Key Management, and Secrets Management.
+overview: 'CipherTrust is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Encryption, Key Management, and Secrets Management.
 
 
-  CipherTrust''s developer surface includes getting-started guide, documentation, API reference, support, authentication, engineering blog, pricing, and 20 more developer resources.'
+  CipherTrust''s developer surface includes getting-started guide, documentation, API reference, support, authentication, engineering blog, pricing, and 21 more developer resources.'
 random_paper: 3
 score:
   band: thin
   composite: 38.0
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 15.8
+  delta: 0.0
   facets:
     access_clarity: 52.6
     contract_governance: 18.2
@@ -199,7 +203,7 @@ score:
     developer_ergonomics: 69.0
     discoverability: 67.9
     operational_transparency: 13.2
-  previous_composite: 22.2
+  previous_composite: 38.0
   provenance:
     conformance: first-party
     mcp: derived
@@ -209,9 +213,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: rising
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

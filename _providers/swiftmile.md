@@ -34,10 +34,20 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 3
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/swiftmile/refs/heads/main/plans/swiftmile-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/swiftmile-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/swiftmile/refs/heads/main/rate-limits/swiftmile-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/swiftmile-rate-limits.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/swiftmile/refs/heads/main/security/swiftmile-domain-security.yml
   title: ''
@@ -123,8 +133,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 4.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

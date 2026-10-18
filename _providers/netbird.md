@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.8
-  scored_at: '2026-10-04'
+  score: 27.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 118
   human_in_the_loop: 1
@@ -366,6 +366,20 @@ collections:
   name: NetBird REST API
   slug: open-netbird
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/netbird/refs/heads/main/rate-limits/netbird-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/netbird-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/netbird/refs/heads/main/finops/netbird-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/netbird-finops.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://netbird.io/rss.xml
 - group: commercial
   title: ''
   type: Pricing
@@ -426,19 +440,23 @@ common:
 created: '2025-02-09'
 description: NetBird is an Open-Source Zero Trust Networking platform that allows you to create secure private networks for your organization or home. We designed NetBird to be simple and fast, requiring near-zero configuration effort and leaving behind the hassle of opening ports, complex firewall rules, VPN gateways, etc.
 finops:
-- name: Netbird Finops
+- has_sources: false
+  method: generated
+  name: Netbird Finops
+  primary_unit: ''
   service_category: API
   slug: netbird-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/netbird.png
 layout: provider
-modified: '2026-05-19'
+modified: '2026-10-06'
 name: NetBird
 nav: Providers
 network: true
-overview: 'NetBird publishes 39 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, AWS Marketplace API, Checkout API, and 36 more. Tagged areas include Networking, VPN, Zero Trust, Open Source, and WireGuard.
+overview: 'NetBird publishes 39 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, AWS Marketplace API, Checkout API, and 36 more. Tagged areas include Networking, VPN, Zero Trust, Open Source, and WireGuard.
 
 
-  NetBird''s developer surface includes pricing, authentication, documentation, GitHub presence, engineering blog, and 8 more developer resources.'
+  NetBird''s developer surface includes pricing, authentication, documentation, GitHub presence, engineering blog, and 11 more developer resources.'
 plans:
 - name: Netbird Plans Pricing
   plan_count: 4
@@ -453,17 +471,17 @@ rate_limits:
   slug: netbird-rate-limits
 score:
   band: thin
-  composite: 37.3
+  composite: 35.8
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 55.0
+    artifact_dirs: 14
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 60.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 50.0
+    access_clarity: 42.1
     contract_governance: 0.0
     contract_quality: 53.3
     developer_ergonomics: 31.0
@@ -483,8 +501,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

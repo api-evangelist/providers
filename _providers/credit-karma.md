@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 4
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.creditkarma.com/feed
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/credit-karma/refs/heads/main/mcp/credit-karma-mcp.yml
   title: ''
@@ -120,14 +124,14 @@ mcp_servers:
 - description: Community MCP server for Credit Karma — natural-language access to transactions, spending, and accounts. Unofficial.
   name: Credit Karma MCP Server
   slug: creditkarma-mcp
-modified: '2026-08-08'
+modified: '2026-10-06'
 name: Credit Karma
 nav: Providers
 network: true
 overview: 'Credit Karma is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Personal Finance, Credit Score, and Credit Monitoring.
 
 
-  Credit Karma''s developer surface includes support, engineering blog, and 15 more developer resources.'
+  Credit Karma''s developer surface includes support, engineering blog, and 16 more developer resources.'
 random_paper: 16
 score:
   band: minimal
@@ -156,8 +160,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 14.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

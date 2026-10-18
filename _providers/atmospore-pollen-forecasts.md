@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -45,7 +45,7 @@ agentic_access:
   operation_count: 4
   slug: atmospore-pollen-forecasts-agentic-access
   summary_line: 4 operations
-api_count: 1
+api_count: 2
 apis:
 - description: Hosted Model Context Protocol server exposing the Atmospore pollen forecast capability as four agent tools (get_pollen, get_top_species, get_area_average, list_supported_species) plus an atmospore://h
   name: Atmospore MCP Server
@@ -95,6 +95,10 @@ collections:
   name: Atmospore Pollen Forecast Species API
   slug: open-atmospore-pollen-forecasts-species-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://atmospore.com/blog/
 - group: operate
   title: ''
   type: IssueTracker
@@ -270,14 +274,14 @@ mcp_servers:
 - description: Atmospore ships BOTH a hosted remote MCP server and an open-source local stdio server. The remote endpoint at https://mcp.atmospore.com/mcp is live and answers JSON-RPC, gated by the same Atmospore AP
   name: Atmospore Pollen Forecasts MCP Server
   slug: atmospore
-modified: '2026-08-09'
+modified: '2026-10-06'
 name: Atmospore Pollen Forecasts
 nav: Providers
 network: true
-overview: 'Atmospore Pollen Forecasts publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Pollen API, Pollen Area API, Pollen Top API, and 2 more. Tagged areas include Weather, Pollen, Allergy, Environmental Data, and Health.
+overview: 'Atmospore Pollen Forecasts publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Pollen API, Pollen Area API, Pollen Top API, and 2 more. Tagged areas include Weather, Pollen, Allergy, Environmental Data, and Health.
 
 
-  Atmospore Pollen Forecasts'' developer surface includes documentation, API reference, support, pricing, signup flow, authentication, sandbox, and 27 more developer resources.'
+  Atmospore Pollen Forecasts'' developer surface includes engineering blog, documentation, API reference, support, pricing, signup flow, authentication, and 28 more developer resources.'
 plans:
 - name: Atmospore Pollen Forecasts Plans
   plan_count: 5
@@ -289,20 +293,20 @@ rate_limits:
   slug: atmospore-pollen-forecasts-rate-limits
 score:
   band: developing
-  composite: 53.6
+  composite: 54.1
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_earned: 61.0
     catalog_earned_first_party: 24.0
     catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 69.7
     contract_governance: 4.5
     contract_quality: 52.9
-    developer_ergonomics: 58.9
+    developer_ergonomics: 61.3
     discoverability: 68.3
     operational_transparency: 34.2
   jurisdiction:
@@ -330,8 +334,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

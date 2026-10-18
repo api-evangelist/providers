@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.3
-  scored_at: '2026-10-04'
+  score: 20.4
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -84,6 +84,21 @@ collections:
   name: Scroll JSON-RPC
   slug: open-scroll-zkevm
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/scroll-zkevm/refs/heads/main/plans/scroll-zkevm-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/scroll-zkevm-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/scroll-zkevm/refs/heads/main/rate-limits/scroll-zkevm-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/scroll-zkevm-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/scroll-zkevm/refs/heads/main/finops/scroll-zkevm-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/scroll-zkevm-finops.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -133,19 +148,23 @@ common:
 created: '2026-05-23'
 description: Scroll is a native zkEVM Layer 2 for Ethereum, built by Scroll Foundation, that uses zero-knowledge proofs to scale Ethereum while preserving bytecode equivalence with the EVM. Developer surface is dominated by standard Ethereum JSON-RPC endpoints on mainnet and Sepolia testnet, the Scrollscan block explorer (with an Etherscan-compatible REST API), a canonical L1<>L2 bridge with messenger contracts, and a rollup explorer that surfaces batch and proof status. dApp builders use Scroll as a drop-in EVM target with Hardhat, Foundry, viem, ethers, and other standard EVM tooling.
 finops:
-- name: Scroll Zkevm Finops
+- has_sources: false
+  method: generated
+  name: Scroll Zkevm Finops
+  primary_unit: ''
   service_category: API
   slug: scroll-zkevm-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/scroll-zkevm.png
 layout: provider
 modified: '2026-05-23'
 name: Scroll
 nav: Providers
 network: true
-overview: 'Scroll publishes 9 APIs on the [APIs.io](https://apis.io/) network, including JSON-RPC API, and 8 more. Tagged areas include zkEVM, Layer 2, Ethereum, Rollup, and Zero Knowledge.
+overview: 'Scroll publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including JSON-RPC API, and 8 more. Tagged areas include zkEVM, Layer 2, Ethereum, Rollup, and Zero Knowledge.
 
 
-  Scroll''s developer surface includes documentation, GitHub presence, engineering blog, and 8 more developer resources.'
+  Scroll''s developer surface includes documentation, GitHub presence, engineering blog, and 11 more developer resources.'
 plans:
 - name: Scroll Zkevm Plans Pricing
   plan_count: 1
@@ -156,23 +175,23 @@ rate_limits:
   name: Scroll Zkevm Rate Limits
   slug: scroll-zkevm-rate-limits
 score:
-  band: thin
-  composite: 30.1
+  band: emerging
+  composite: 24.1
   coverage:
     artifact_dirs: 10
-    catalog_earned: 54.4
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 60.6
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.0
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 47.1
     developer_ergonomics: 16.7
     discoverability: 66.1
-    operational_transparency: 40.0
+    operational_transparency: 26.3
   previous_composite: 30.1
   provenance:
     agentic_access: derived
@@ -187,9 +206,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0
@@ -207,7 +226,7 @@ tags:
 - Rollup
 - Zero Knowledge
 - JSON-RPC
-- Crypto
+- Cryptocurrency
 - Web3
 website: https://scroll.io/
 ---

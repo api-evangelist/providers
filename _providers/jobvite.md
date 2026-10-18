@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'REST APIs for exchanging candidate, requisition, and application data between Jobvite and external systems in JSON format. Includes the Onboard New Hire API for pushing employee data into the Jobvite '
@@ -89,7 +89,7 @@ modified: '2026-05-11'
 name: Jobvite
 nav: Providers
 network: true
-overview: 'Jobvite publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Applicant Tracking, Recruiting, Human Resources, Talent Acquisition, and Onboarding.
+overview: 'Jobvite is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Applicant Tracking, Recruiting, Human Resources, Talent Acquisition, and Onboarding.
 
 
   Jobvite''s developer surface includes documentation, pricing, signup flow, support, engineering blog, and 5 more developer resources.'
@@ -98,7 +98,7 @@ score:
   band: emerging
   composite: 13.1
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -119,8 +119,8 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The SendOwl REST API provides third-party applications access to a merchant account's products, bundles (packages), subscriptions, drip items, orders, discounts, discount codes and license keys. Reque
@@ -179,7 +179,7 @@ modified: '2026-08-12'
 name: SendOwl
 nav: Providers
 network: true
-overview: 'SendOwl publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Digital Products, Payments, and Subscription.
+overview: 'SendOwl is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Digital Products, Payments, and Subscription.
 
 
   The SendOwl catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -199,7 +199,7 @@ score:
   band: developing
   composite: 53.2
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 57.0
     catalog_earned_first_party: 20.0
     catalog_gap: 58.0
@@ -227,8 +227,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 22.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

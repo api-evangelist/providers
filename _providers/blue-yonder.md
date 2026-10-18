@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.7
-  scored_at: '2026-10-04'
+  score: 20.8
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -94,6 +94,25 @@ collections:
   name: Blue Yonder Warehouse Management API
   slug: open-blue-yonder-warehouse-management
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/blue-yonder/refs/heads/main/plans/blue-yonder-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/blue-yonder-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/blue-yonder/refs/heads/main/rate-limits/blue-yonder-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/blue-yonder-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/blue-yonder/refs/heads/main/finops/blue-yonder-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/blue-yonder-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://blueyonder.com/blog
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/blue-yonder/refs/heads/main/capabilities/blue-yonder-capability-edges.yml
   title: ''
@@ -161,9 +180,13 @@ common:
   url: https://raw.githubusercontent.com/api-evangelist/blue-yonder/refs/heads/main/json-ld/blue-yonder-context.jsonld
 description: Transforming supply chains through an end-to-end platform for planning, execution, commerce and returns.
 finops:
-- name: Blue Yonder Finops
+- has_sources: true
+  method: generated
+  name: Blue Yonder Finops
+  primary_unit: ''
   service_category: Supply Chain SaaS
   slug: blue-yonder-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/blue-yonder.png
 json_schemas:
 - name: Blue Yonder Inventory Position
@@ -175,17 +198,17 @@ jsonld:
   property_count: 4
   slug: blue-yonder-context
 layout: provider
-modified: '2026-09-16'
+modified: '2026-10-06'
 name: Blue Yonder
 nav: Providers
 network: true
-overview: 'Blue Yonder publishes 7 APIs on the [APIs.io](https://apis.io/) network, including blue-yonder Inventory API, blue-yonder Orders API, blue-yonder Receipts API, and 4 more. Tagged areas include Supply Chain, Forecasting, Retail, Logistics, and API Management.
+overview: 'Blue Yonder publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including blue-yonder Inventory API, blue-yonder Orders API, blue-yonder Receipts API, and 4 more. Tagged areas include Supply Chain, Forecasting, Retail, Logistics, and API Management.
 
 
   The Blue Yonder catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Blue Yonder''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, and 10 more developer resources.'
+  Blue Yonder''s developer surface includes engineering blog, authentication, developer portal, documentation, getting-started guide, and 14 more developer resources.'
 plans:
 - name: Blue Yonder Plans Pricing
   plan_count: 1
@@ -196,9 +219,10 @@ rate_limits:
   name: Blue Yonder Rate Limits
   slug: blue-yonder-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Blue Yonder API Rules
+  name: Blue Yonder — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -213,17 +237,17 @@ scopes:
   summary_line: 2 scopes · clientCredentials
 score:
   band: thin
-  composite: 33.3
+  composite: 31.8
   coverage:
-    artifact_dirs: 15
-    catalog_earned: 47.3
+    artifact_dirs: 17
+    catalog_earned: 44.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 67.8
+    catalog_gap: 70.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 13.2
+    access_clarity: 5.3
     contract_governance: 9.8
     contract_quality: 51.3
     developer_ergonomics: 45.2
@@ -243,8 +267,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

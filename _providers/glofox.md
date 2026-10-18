@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 8
 apis:
 - description: Access, create, and edit member records - the central pivot of the Glofox data model, spanning leads, active members, and ex-members (soft-deleted via an active flag rather than hard-deleted). The doc
@@ -110,16 +110,20 @@ common:
 created: '2026-07-03'
 description: Glofox is boutique gym and fitness studio management software - member management, class/appointment scheduling, bookings, memberships, credits, payments, and lead conversion for studios, gyms, and fitness franchises. Glofox was acquired by ABC Fitness Solutions in August 2022 and now operates as the ABC Glofox business unit within ABC's fitness technology platform. Glofox publishes a partner/developer REST API (the "ABC Glofox API Developer Portal") covering members, memberships, plans, credits, classes, bookings, purchases, branches, and leads, plus CDC (change data capture) webhooks for member and access-control events. Access is gated - integrators request x-api-key and x-glofox-api-token credentials by email before they can call the API.
 finops:
-- name: Glofox Finops
+- has_sources: true
+  method: generated
+  name: Glofox Finops
+  primary_unit: ''
   service_category: Vertical SaaS - Fitness & Studio Management
   slug: glofox-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/glofox.png
 layout: provider
 modified: '2026-07-03'
 name: Glofox
 nav: Providers
 network: true
-overview: 'Glofox publishes 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Fitness, Gym Management, Boutique Fitness, Class Scheduling, and Booking.
+overview: 'Glofox is listed with 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Fitness, Gym Management, Boutique Fitness, Class Scheduling, and Booking.
 
 
   Glofox''s developer surface includes documentation, engineering blog, and 8 more developer resources.'
@@ -134,22 +138,22 @@ rate_limits:
   slug: glofox-rate-limits
 score:
   band: emerging
-  composite: 21.2
+  composite: 12.9
   coverage:
     artifact_dirs: 7
-    catalog_earned: 64.6
+    catalog_earned: 46.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 50.4
+    catalog_gap: 69.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 44.2
+    access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 9.5
     discoverability: 71.4
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   previous_composite: 21.2
   regulatory:
     applies: true
@@ -157,9 +161,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

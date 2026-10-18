@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 42.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 4
 apis:
 - description: 'The Storylane External API allows Enterprise plan customers to programmatically list published demos, retrieve demo details including chapters and steps, manage demo links, create new shareable links '
@@ -241,9 +241,13 @@ created: '2026-06-13'
 description: Storylane is an interactive demo platform that enables sales and marketing teams to build and share self-serve product walkthroughs, embedded demos, and demo galleries without engineering involvement. The platform offers an External REST API for Enterprise customers to programmatically manage published demos, generate secure shareable links with passcodes and expiration dates, and personalize demo experiences via email parameters. Storylane also provides webhooks, cross-frame events, and 30-plus native integrations with CRM, marketing automation, and analytics tools to connect demo engagement data with existing GTM workflows. Its widest programmatic surface is not REST but a first-party hosted Model Context Protocol server at identity.storylane.io/mcp, secured with OAuth 2.0 dynamic client registration and PKCE, exposing 22 documented tools for demo creation from media, AI personalization, publishing, hubs, voices, analytics, leads and accounts to Claude, ChatGPT and other MCP
   clients.
 finops:
-- name: Storylane Finops
+- has_sources: false
+  method: generated
+  name: Storylane Finops
+  primary_unit: ''
   service_category: ''
   slug: storylane-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/storylane.png
 jsonld:
 - class_count: 0
@@ -259,7 +263,7 @@ modified: '2026-08-13'
 name: Storylane
 nav: Providers
 network: true
-overview: 'Storylane publishes 4 APIs on the [APIs.io](https://apis.io/) network, including External API, and 3 more. Tagged areas include Interactive Demos, Product Walkthroughs, Sales Enablement, Marketing, and Demo Analytics.
+overview: 'Storylane is listed with 4 APIs on the [APIs.io](https://apis.io/) network, including External API, and 3 more. Tagged areas include Interactive Demos, Product Walkthroughs, Sales Enablement, Marketing, and Demo Analytics.
 
 
   The Storylane catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 JSON-LD context.
@@ -282,17 +286,17 @@ scopes:
   summary_line: 4 scopes
 score:
   band: strong
-  composite: 65.3
+  composite: 63.8
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 72.0
+    artifact_dirs: 24
+    catalog_earned: 69.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 43.0
+    catalog_gap: 46.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 93.4
+    access_clarity: 85.5
     contract_governance: 18.2
     contract_quality: 50.6
     developer_ergonomics: 51.8
@@ -309,8 +313,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

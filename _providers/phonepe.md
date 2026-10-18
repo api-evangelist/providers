@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.5
-  scored_at: '2026-10-04'
+  score: 19.6
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -132,6 +132,25 @@ collections:
   name: PhonePe Payment Gateway API
   slug: open-phonepe
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/phonepe/refs/heads/main/plans/phonepe-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/phonepe-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/phonepe/refs/heads/main/rate-limits/phonepe-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/phonepe-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/phonepe/refs/heads/main/finops/phonepe-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/phonepe-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.phonepe.com/press/
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/phonepe/refs/heads/main/agentic-access/phonepe-agentic-access.yml
   title: ''
@@ -175,19 +194,23 @@ common:
 created: '2026-05-23'
 description: PhonePe is India's largest UPI payments network, owned by Walmart. Its PhonePe Business / Developer platform exposes the PhonePe Payment Gateway (PG) APIs for collecting payments, refunds, and status checks across UPI, cards, netbanking, and wallets, alongside in-store solutions (Static QR, Dynamic QR, Collect Call, Integrated EDC). Backend integrations are wrapped in official Java, Python, Node.js, and PHP server SDKs, with mobile SDKs for Android, iOS, Flutter, React Native, and Ionic. PhonePe also operates the Indus AppStore, a developer platform for native app distribution in India.
 finops:
-- name: Phonepe Finops
+- has_sources: false
+  method: generated
+  name: Phonepe Finops
+  primary_unit: ''
   service_category: API
   slug: phonepe-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/phonepe.png
 layout: provider
-modified: '2026-05-23'
+modified: '2026-10-06'
 name: PhonePe
 nav: Providers
 network: true
-overview: 'PhonePe publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Checkout API, Order Status API, Refunds API, and 18 more. Tagged areas include Payments, Payment Gateway, UPI, QR, and EDC.
+overview: 'PhonePe publishes 21 API contracts indexed on the [APIs.io](https://apis.io/) network, including Checkout API, Order Status API, Refunds API, and 18 more. Tagged areas include Payments, Payment Gateway, UPI, QR, and EDC.
 
 
-  PhonePe''s developer surface includes authentication, documentation, GitHub presence, and 6 more developer resources.'
+  PhonePe''s developer surface includes engineering blog, authentication, documentation, GitHub presence, and 9 more developer resources.'
 plans:
 - name: Phonepe Plans Pricing
   plan_count: 1
@@ -198,23 +221,23 @@ rate_limits:
   name: Phonepe Rate Limits
   slug: phonepe-rate-limits
 score:
-  band: thin
-  composite: 30.3
+  band: emerging
+  composite: 24.7
   coverage:
-    artifact_dirs: 10
-    catalog_earned: 51.4
+    artifact_dirs: 11
+    catalog_earned: 38.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 63.6
+    catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.6
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 50.6
-    developer_ergonomics: 21.4
+    developer_ergonomics: 23.8
     discoverability: 60.7
-    operational_transparency: 24.2
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -236,9 +259,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 16.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

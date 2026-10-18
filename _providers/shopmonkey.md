@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.5
-  scored_at: '2026-10-04'
+  score: 19.6
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 58
+- acting_count: 51
   human_in_the_loop: 0
   name: Shopmonkey Agentic Access
-  operation_count: 98
+  operation_count: 101
   slug: shopmonkey-agentic-access
-  summary_line: 98 operations · 58 acting
+  summary_line: 101 operations · 51 acting
 api_count: 1
 apis:
 - baseURL: https://api.shopmonkey.cloud/v3
@@ -126,6 +126,10 @@ collections:
   name: Shopmonkey API
   slug: open-shopmonkey
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.shopmonkey.io/blog/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/shopmonkey/refs/heads/main/capabilities/shopmonkey-capability-edges.yml
   title: ''
@@ -180,19 +184,23 @@ common:
 created: '2026-07-04'
 description: Shopmonkey is a cloud-based shop management platform for auto repair, tire, and powersports shops, covering estimates, work orders, customer communication, parts/inventory, scheduling, invoicing, and payments. Shopmonkey publishes a documented public API at developer.shopmonkey.io / shopmonkey.dev (base https://api.shopmonkey.cloud/v3). Despite being commonly assumed to be GraphQL, the confirmed public API is REST/JSON (v3), authenticated with a Bearer API key, covering 50+ resources - Work Orders, Customers, Vehicles, Parts/Inventory, Invoices/Payments, Appointments, Employees (Users), Locations, and Webhooks. No GraphQL endpoint, schema, or query/mutation language is documented anywhere on Shopmonkey's developer site. Enterprise accounts can also run the open-source Enterprise Data Streaming (EDS) server for near-real-time change data capture into a customer-controlled destination.
 finops:
-- name: Shopmonkey Finops
+- has_sources: true
+  method: generated
+  name: Shopmonkey Finops
+  primary_unit: ''
   service_category: Vertical SaaS - Auto Repair Shop Management
   slug: shopmonkey-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/shopmonkey.png
 layout: provider
-modified: '2026-07-04'
+modified: '2026-10-06'
 name: Shopmonkey
 nav: Providers
 network: true
-overview: 'Shopmonkey publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Appointments API, Customers API, Employees API, and 6 more. Tagged areas include Auto Repair, Shop Management, Field Service, REST, and Not GraphQL.
+overview: 'Shopmonkey publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Appointments API, Customers API, Employees API, and 6 more. Tagged areas include Auto Repair, Shop Management, Field Service, REST, and Not GraphQL.
 
 
-  Shopmonkey''s developer surface includes authentication, documentation, and 9 more developer resources.'
+  Shopmonkey''s developer surface includes engineering blog, authentication, documentation, and 9 more developer resources.'
 plans:
 - name: Shopmonkey Plans Pricing
   plan_count: 4
@@ -203,23 +211,23 @@ rate_limits:
   name: Shopmonkey Rate Limits
   slug: shopmonkey-rate-limits
 score:
-  band: thin
-  composite: 28.1
+  band: emerging
+  composite: 21.2
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 58.0
+    artifact_dirs: 12
+    catalog_earned: 42.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.0
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.9
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 27.9
-    developer_ergonomics: 28.6
+    developer_ergonomics: 31.0
     discoverability: 66.1
-    operational_transparency: 21.6
+    operational_transparency: 7.9
   previous_composite: 28.1
   provenance:
     agentic_access: derived
@@ -234,9 +242,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

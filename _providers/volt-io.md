@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -296,7 +296,7 @@ modified: '2026-07-24'
 name: Volt
 nav: Providers
 network: true
-overview: 'Volt publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Account Holder Verification API, Accounts API, Aliases API, and 9 more. Tagged areas include Payments, United Kingdom, Open Banking, Account-to-Account, and Real-Time Payments.
+overview: 'Volt publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account Holder Verification API, Accounts API, Aliases API, and 9 more. Tagged areas include Payments, United Kingdom, Open Banking, Account-to-Account, and Real-Time Payments.
 
 
   The Volt catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -312,7 +312,7 @@ score:
   band: developing
   composite: 40.2
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -351,8 +351,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 18.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

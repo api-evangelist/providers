@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 57.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -229,6 +229,16 @@ collections:
   name: EODHD Financial Data API
   slug: open-eodhd-financial-data
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/eodhd/refs/heads/main/plans/eodhd-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/eodhd-plans-pricing.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/eodhd/refs/heads/main/finops/eodhd-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/eodhd-finops.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -434,9 +444,13 @@ common:
 created: '2025-02-24'
 description: Access historical end-of-day stock prices, intraday data, US stock options, and real-time prices with free and advanced plans. EODHD provides financial data for 150,000+ tickers, including stocks, ETFs, funds, and currencies worldwide, through 68+ REST endpoints, WebSocket streaming, an official OpenAPI 3.1.0 specification, an OAuth-secured MCP server with 86 tools, and a published Claude Skills plugin.
 finops:
-- name: Eodhd Finops
+- has_sources: true
+  method: generated
+  name: Eodhd Finops
+  primary_unit: ''
   service_category: Market Data
   slug: eodhd-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/eodhd.png
 json_schemas:
 - name: EodBar
@@ -458,13 +472,13 @@ modified: '2026-07-22'
 name: EODHD
 nav: Providers
 network: true
-overview: 'EODHD publishes 35 APIs on the [APIs.io](https://apis.io/) network, including WebSockets Real-Time API, Eod API, Calendar API, and 32 more. Tagged areas include Finance, Market Data, Stock Options, Stocks, and ETFs.
+overview: 'EODHD publishes 35 API contracts indexed on the [APIs.io](https://apis.io/) network, including WebSockets Real-Time API, Eod API, Calendar API, and 32 more. Tagged areas include Finance, Market Data, Stock Options, Stocks, and ETFs.
 
 
   The EODHD catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  EODHD''s developer surface includes authentication, sandbox, changelog, documentation, API reference, getting-started guide, pricing, and 38 more developer resources.'
+  EODHD''s developer surface includes authentication, sandbox, changelog, documentation, API reference, getting-started guide, pricing, and 40 more developer resources.'
 plans:
 - name: Eodhd Plans Pricing
   plan_count: 6
@@ -475,9 +489,10 @@ rate_limits:
   name: Eodhd Rate Limits
   slug: eodhd-rate-limits
 rules:
-- effective_rule_count: 4
+- authorship: generated
+  effective_rule_count: 4
   extends: []
-  name: EODHD API Rules
+  name: EODHD — jsonschema rules
   rule_count: 4
   severity_counts:
     error: 0
@@ -492,17 +507,17 @@ scopes:
   summary_line: 12 scopes · authorizationCode
 score:
   band: strong
-  composite: 57.4
+  composite: 55.9
   coverage:
-    artifact_dirs: 31
-    catalog_earned: 49.3
+    artifact_dirs: 32
+    catalog_earned: 46.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 65.8
+    catalog_gap: 68.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 60.5
+    access_clarity: 52.6
     contract_governance: 14.4
     contract_quality: 56.5
     developer_ergonomics: 83.3
@@ -525,8 +540,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 38.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -549,7 +564,7 @@ tags:
 - Stock Options
 - Stocks
 - ETFs
-- Forex
+- Foreign Exchange
 - Cryptocurrency
 - Fundamentals
 - News

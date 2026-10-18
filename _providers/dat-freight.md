@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 8
+- acting_count: 7
   human_in_the_loop: 0
   name: Dat Freight Agentic Access
   operation_count: 10
   slug: dat-freight-agentic-access
-  summary_line: 10 operations · 8 acting
+  summary_line: 10 operations · 7 acting
 api_count: 1
 apis:
 - baseURL: https://identity.api.dat.com
@@ -160,16 +160,20 @@ common:
 created: '2026-07-05'
 description: 'DAT Freight & Analytics operates the largest truckload freight marketplace in North America - the DAT One load board - along with RateView, the industry''s benchmark for spot and contract freight rates drawn from hundreds of billions of dollars in real transactions. DAT exposes these products to Transportation Management Systems (TMS) and freight platforms through the DAT Developer Portal (developer.dat.com), a RESTful API suite covering load posting and search, RateView rate lookups, BookNow instant booking, and shipment tracking. Access is subscription-gated: RESTful integration requires a DAT One load board subscription and a service (organization) account, and RateView access requires a Combo Pro or Combo Premium plan. Every request is authenticated with a two-tier token model - an organization token issued from service-account credentials plus a user token for the account making the call.'
 finops:
-- name: Dat Freight Finops
+- has_sources: true
+  method: generated
+  name: Dat Freight Finops
+  primary_unit: ''
   service_category: Freight and Logistics Data
   slug: dat-freight-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dat-freight.png
 layout: provider
 modified: '2026-07-05'
 name: DAT Freight & Analytics
 nav: Providers
 network: true
-overview: 'DAT Freight & Analytics publishes 6 APIs on the [APIs.io](https://apis.io/) network, including BookNow API, Freight Posting API, Identity API, and 3 more. Tagged areas include Freight, Trucking, Load Board, Logistics, and Freight Rates.
+overview: 'DAT Freight & Analytics publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including BookNow API, Freight Posting API, Identity API, and 3 more. Tagged areas include Freight, Trucking, Load Board, Logistics, and Freight Rates.
 
 
   DAT Freight & Analytics'' developer surface includes authentication, documentation, signup flow, engineering blog, and 8 more developer resources.'
@@ -184,22 +188,22 @@ rate_limits:
   slug: dat-freight-rate-limits
 score:
   band: thin
-  composite: 36.6
+  composite: 28.3
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 61.6
+    artifact_dirs: 12
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.4
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 49.5
+    access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 50.5
     developer_ergonomics: 25.0
     discoverability: 66.1
-    operational_transparency: 28.4
+    operational_transparency: 7.9
   previous_composite: 36.6
   provenance:
     agentic_access: derived
@@ -214,9 +218,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

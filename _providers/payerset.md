@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: verified
     openapi_examples: false
     protected_resource_metadata: verified
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 51.7
-  scored_at: '2026-10-04'
+  score: 49.5
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 13
   slug: payerset-agentic-access
   summary_line: 13 operations
-api_count: 1
+api_count: 2
 apis:
 - baseURL: https://api.payerset.com
   baseurl_source: declared
@@ -152,9 +152,13 @@ common:
 created: '2026-06-21'
 description: Payerset is a healthcare price transparency data company that parses every payer Transparency in Coverage (TiC) machine-readable file and compliant hospital MRF each quarter, enriches negotiated rates with provider, payer, and claims metadata, and delivers it as analytics-ready datasets. The Payerset Data Lake API exposes payer-provider negotiated rate lookups, NPI/TIN provider mapping, billing-code classification, and hospital MRF discovery via a REST API authenticated with an x-api-key header.
 finops:
-- name: Payerset Finops
+- has_sources: true
+  method: generated
+  name: Payerset Finops
+  primary_unit: ''
   service_category: Analytics
   slug: payerset-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/payerset.png
 layout: provider
 mcp_servers:
@@ -165,7 +169,7 @@ modified: '2026-06-21'
 name: Payerset
 nav: Providers
 network: true
-overview: 'Payerset publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Billing Codes API, Hospital MRF API, Payers API, and 2 more. Tagged areas include Healthcare, Price Transparency, Negotiated Rates, Machine-Readable Files, and Payer Data.
+overview: 'Payerset publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Billing Codes API, Hospital MRF API, Payers API, and 2 more. Tagged areas include Healthcare, Price Transparency, Negotiated Rates, Machine-Readable Files, and Payer Data.
 
 
   Payerset''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
@@ -179,23 +183,23 @@ rate_limits:
   name: Payerset Rate Limits
   slug: payerset-rate-limits
 score:
-  band: thin
-  composite: 30.8
+  band: emerging
+  composite: 24.8
   coverage:
     artifact_dirs: 14
-    catalog_earned: 54.4
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 60.6
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.0
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 45.1
     developer_ergonomics: 25.0
     discoverability: 68.3
-    operational_transparency: 21.6
+    operational_transparency: 7.9
   previous_composite: 30.8
   provenance:
     agentic_access: derived
@@ -211,9 +215,9 @@ score:
     regime: Health
     regime_id: health
     score: 9.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

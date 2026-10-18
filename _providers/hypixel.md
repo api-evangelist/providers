@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.7
-  scored_at: '2026-10-04'
+  score: 26.6
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -218,9 +218,13 @@ examples:
   name: Hypixel Public Api Sky Block Profile Example
   slug: hypixel-public-api-sky-block-profile-example
 finops:
-- name: Hypixel Finops
+- has_sources: true
+  method: generated
+  name: Hypixel Finops
+  primary_unit: ''
   service_category: Gaming Network API
   slug: hypixel-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hypixel.png
 json_schemas:
 - name: ActiveBooster
@@ -300,7 +304,7 @@ modified: '2026-05-30'
 name: Hypixel
 nav: Providers
 network: true
-overview: 'Hypixel publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Housing API, Other API, Player Data API, and 2 more. Tagged areas include Gaming, Minecraft, Player Stats, Leaderboards, and SkyBlock.
+overview: 'Hypixel publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Housing API, Other API, Player Data API, and 2 more. Tagged areas include Gaming, Minecraft, Player Stats, Leaderboards, and SkyBlock.
 
 
   The Hypixel catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -317,9 +321,10 @@ rate_limits:
   name: Hypixel Rate Limits
   slug: hypixel-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Hypixel API Rules
+  name: Hypixel — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -327,7 +332,8 @@ rules:
     info: 2
     warn: 3
   slug: hypixel-jsonschema-spectral-rules
-- effective_rule_count: 81
+- authorship: generated
+  effective_rule_count: 81
   extends:
   - spectral:oas
   name: Hypixel API Rules
@@ -340,22 +346,22 @@ rules:
   slug: hypixel-spectral-rules
 score:
   band: developing
-  composite: 46.8
+  composite: 40.6
   coverage:
     artifact_dirs: 16
-    catalog_earned: 78.0
+    catalog_earned: 62.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 37.0
+    catalog_gap: 53.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.2
   facets:
-    access_clarity: 37.4
+    access_clarity: 15.8
     contract_governance: 27.3
     contract_quality: 62.7
     developer_ergonomics: 38.1
     discoverability: 73.2
-    operational_transparency: 46.8
+    operational_transparency: 26.3
   open_source:
     applies: true
     score: 25.0
@@ -373,9 +379,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

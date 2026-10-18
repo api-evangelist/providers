@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.cmtelematics.com/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/cambridge-mobile-telematics/refs/heads/main/security/cambridge-mobile-telematics-domain-security.yml
   title: ''
@@ -96,20 +100,20 @@ created: '2026-07-17'
 description: Cambridge Mobile Telematics (CMT) is the world's largest telematics service provider, on a mission to make roads and drivers safer. Its AI-driven DriveWell Fusion platform gathers sensor data from millions of IoT devices — smartphones, proprietary Tags, connected vehicles, dashcams, and third-party devices — and fuses it with contextual data to build a unified view of vehicle and driver behavior. CMT powers usage-based insurance (UBI), crash detection and assistance, distracted-driving programs, fleet safety, and public-sector road-safety initiatives for insurers, automakers, rideshare, and government customers worldwide. Developers integrate via the gated DriveWell Mobile SDK (iOS/Android) and the DriveWell Portal; the platform is ISO 27001, ISO 27701, and SOC 2 Type II aligned. Backed by SoftBank Vision Fund and General Catalyst.
 image: https://portal.cmtelematics.com/static/home/v2/logo.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Cambridge Mobile Telematics
 nav: Providers
 network: true
 overview: 'Cambridge Mobile Telematics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Telematics, Insurance, and Mobility.
 
 
-  Cambridge Mobile Telematics'' developer surface includes developer portal, documentation, engineering blog, support, and 9 more developer resources.'
+  Cambridge Mobile Telematics'' developer surface includes developer portal, documentation, engineering blog, support, and 10 more developer resources.'
 random_paper: 9
 score:
   band: emerging
   composite: 20.7
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -136,8 +140,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 27.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

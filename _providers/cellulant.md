@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.7
-  scored_at: '2026-10-04'
+  score: 26.8
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -106,7 +106,7 @@ arazzos:
 - description: Validate the destination account, then post a mobile money or bank payout through the Beep platform.
   name: Cellulant Validate and Post Payout
   slug: cellulant-validate-and-post-payout-workflow
-artifact_total: 42
+artifact_total: 43
 collections:
 - collection_type: postman
   name: Cellulant Tingg Checkout API
@@ -148,6 +148,14 @@ collections:
   name: Cellulant Tingg Payouts API
   slug: open-cellulant-payouts-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.cellulant.io/news-room/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.cellulant.io/feed/
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/cellulant/refs/heads/main/agentic-access/cellulant-agentic-access.yml
   title: ''
@@ -407,9 +415,13 @@ examples:
   name: Cellulant Send Engagement Example
   slug: cellulant-send-engagement-example
 finops:
-- name: Cellulant Finops
+- has_sources: true
+  method: generated
+  name: Cellulant Finops
+  primary_unit: transaction
   service_category: Financial Services — Payments
   slug: cellulant-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cellulant.png
 json_schemas:
 - name: Tingg Express Checkout Request
@@ -424,26 +436,31 @@ jsonld:
   property_count: 4
   slug: cellulant-context
 layout: provider
-modified: '2026-05-24'
+modified: '2026-10-06'
 name: Cellulant
 nav: Providers
 network: true
-overview: 'Cellulant publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Acknowledgement API, Authentication API, Custom Checkout API, and 3 more. Tagged areas include Payments, Mobile Money, Checkout, Payouts, and Disbursements.
+overview: 'Cellulant publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Acknowledgement API, Authentication API, Custom Checkout API, and 3 more. Tagged areas include Payments, Mobile Money, Checkout, Payouts, and Disbursements.
 
 
   The Cellulant catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Cellulant''s developer surface includes authentication, developer portal, documentation, getting-started guide, sandbox, signup flow, pricing, and 50 more developer resources.'
+  Cellulant''s developer surface includes engineering blog, authentication, developer portal, documentation, getting-started guide, sandbox, signup flow, and 52 more developer resources.'
+plans:
+- name: Cellulant Plans Pricing
+  plan_count: 3
+  slug: cellulant-plans-pricing
 random_paper: 18
 rate_limits:
 - limit_count: 4
   name: Cellulant Rate Limits
   slug: cellulant-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Cellulant API Rules
+  name: Cellulant — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -451,7 +468,8 @@ rules:
     info: 2
     warn: 3
   slug: cellulant-jsonschema-spectral-rules
-- effective_rule_count: 47
+- authorship: unmarked
+  effective_rule_count: 47
   extends:
   - spectral:oas
   name: Cellulant API Rules
@@ -464,22 +482,22 @@ rules:
   slug: cellulant-rules
 score:
   band: developing
-  composite: 51.2
+  composite: 50.1
   coverage:
     artifact_dirs: 18
-    catalog_earned: 71.8
+    catalog_earned: 67.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 43.2
+    catalog_gap: 48.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.1
   facets:
-    access_clarity: 52.6
+    access_clarity: 60.5
     contract_governance: 27.3
     contract_quality: 65.4
     developer_ergonomics: 52.4
     discoverability: 63.4
-    operational_transparency: 35.0
+    operational_transparency: 14.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -501,8 +519,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 22.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

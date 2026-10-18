@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -92,6 +92,21 @@ collections:
   name: turbopuffer API
   slug: open-turbopuffer
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/turbopuffer/refs/heads/main/plans/turbopuffer-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/turbopuffer-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/turbopuffer/refs/heads/main/rate-limits/turbopuffer-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/turbopuffer-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/turbopuffer/refs/heads/main/finops/turbopuffer-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/turbopuffer-finops.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -178,19 +193,23 @@ common:
 created: '2026-05-23'
 description: turbopuffer is a serverless search engine that combines vector and full-text (BM25) search built from first principles directly on object storage. It exposes a single REST API organized around namespaces — each namespace stores documents with vector embeddings, attributes, and full-text indexes — and supports approximate nearest neighbor, full-text BM25, and hybrid query patterns with attribute filtering, ranking, and aggregation. The platform is used in production by Anthropic, Cursor, Notion, Linear, Superhuman, Pylon, Readwise, and Telus, and handles 4T+ documents, 10M+ writes/s, and 25k+ queries/s across customer fleets. Official client libraries ship for Python, TypeScript, Go, Java, Ruby, and C#, generated from a public OpenAPI 3.1 specification via Stainless. Pricing is tiered (Launch, Scale, Enterprise) with usage-based metering on storage, writes, and queries on top of monthly minimums.
 finops:
-- name: Turbopuffer Finops
+- has_sources: false
+  method: generated
+  name: Turbopuffer Finops
+  primary_unit: ''
   service_category: API
   slug: turbopuffer-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/turbopuffer.png
 layout: provider
 modified: '2026-05-25'
 name: turbopuffer
 nav: Providers
 network: true
-overview: 'turbopuffer publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Namespaces API, and 10 more. Tagged areas include Vector Search, Full-Text Search, Hybrid Search, BM25, and Serverless.
+overview: 'turbopuffer publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Namespaces API, and 10 more. Tagged areas include Vector Search, Full-Text Search, Hybrid Search, BM25, and Serverless.
 
 
-  turbopuffer''s developer surface includes authentication, documentation, GitHub presence, pricing, engineering blog, and 15 more developer resources.'
+  turbopuffer''s developer surface includes authentication, documentation, GitHub presence, pricing, engineering blog, and 18 more developer resources.'
 plans:
 - name: Turbopuffer Plans Pricing
   plan_count: 3
@@ -202,22 +221,22 @@ rate_limits:
   slug: turbopuffer-rate-limits
 score:
   band: developing
-  composite: 48.9
+  composite: 41.4
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 61.6
+    artifact_dirs: 13
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.4
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.5
   facets:
-    access_clarity: 57.4
+    access_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 48.4
     developer_ergonomics: 35.7
     discoverability: 73.2
-    operational_transparency: 60.0
+    operational_transparency: 39.5
   open_source:
     applies: true
     score: 85.0
@@ -235,9 +254,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 14.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

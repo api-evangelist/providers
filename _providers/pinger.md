@@ -34,10 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.pinger.com/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/pinger/refs/heads/main/security/pinger-domain-security.yml
   title: ''
@@ -113,14 +117,14 @@ description: 'Pinger, Inc. is a San Jose, California mobile communications compa
   domain.'
 image: https://www.pinger.com/wp-content/uploads/2021/11/pinger_new@2x-277x300.png
 layout: provider
-modified: '2026-08-26'
+modified: '2026-10-06'
 name: Pinger
 nav: Providers
 network: true
 overview: 'Pinger is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Communications, Telecommunications, Messaging, and SMS.
 
 
-  Pinger''s developer surface includes support and 12 more developer resources.'
+  Pinger''s developer surface includes support and 13 more developer resources.'
 plans:
 - name: Pinger Plans Pricing
   plan_count: 0
@@ -134,7 +138,7 @@ score:
   band: minimal
   composite: 9.4
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -155,8 +159,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 11.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

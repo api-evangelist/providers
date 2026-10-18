@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Covid 19 statistics state and district wise about cases, vaccinations, recovery within India
@@ -40,6 +40,10 @@ apis:
   slug: covid-19-india
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.covid19india.org/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/covid-19-india/refs/heads/main/security/covid-19-india-domain-security.yml
   title: ''
@@ -57,17 +61,17 @@ created: '2026-05-28'
 description: Covid 19 statistics state and district wise about cases, vaccinations, recovery within India
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/covid-19-india.png
 layout: provider
-modified: '2026-05-28'
+modified: '2026-10-06'
 name: Covid-19 India
 nav: Providers
 network: true
-overview: Covid-19 India publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Health and Public APIs.
+overview: Covid-19 India is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Health and Public APIs.
 random_paper: 14
 score:
   band: minimal
   composite: 5.4
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 22.0
     catalog_earned_first_party: 0.0
     catalog_gap: 93.0
@@ -93,8 +97,8 @@ score:
     regime: Health
     regime_id: health
     score: 4.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

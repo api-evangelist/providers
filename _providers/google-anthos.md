@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.8
-  scored_at: '2026-10-04'
+  score: 22.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -80,6 +80,21 @@ collections:
   name: Google Anthos Google GKE On-Prem BareMetalClusters VmwareNodePools API
   slug: open-google-anthos-vmwarenodepools-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/google-anthos/refs/heads/main/plans/google-anthos-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/google-anthos-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/google-anthos/refs/heads/main/rate-limits/google-anthos-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/google-anthos-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/google-anthos/refs/heads/main/finops/google-anthos-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/google-anthos-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/google-anthos/refs/heads/main/capabilities/google-anthos-capability-edges.yml
   title: ''
@@ -134,9 +149,13 @@ common:
 created: '2026-03-13'
 description: Google Anthos is a managed application platform that extends Google Cloud services and engineering practices to hybrid and multi-cloud environments. Built on Kubernetes, Anthos enables consistent development and operations across on-premises data centers, Google Cloud, and other public clouds like AWS and Azure, with centralized management, policy enforcement, and service mesh capabilities.
 finops:
-- name: Google Anthos Finops
+- has_sources: false
+  method: generated
+  name: Google Anthos Finops
+  primary_unit: ''
   service_category: API
   slug: google-anthos-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/google-anthos.png
 json_schemas:
 - name: Google Anthos On-Prem Cluster
@@ -152,13 +171,13 @@ modified: '2026-05-19'
 name: Google Anthos
 nav: Providers
 network: true
-overview: 'Google Anthos publishes 4 APIs on the [APIs.io](https://apis.io/) network, including BareMetalClusters API, VmwareClusters API, VmwareNodePools API, and 1 more. Tagged areas include Container Platform, Hybrid Cloud, Kubernetes, Multi-Cloud, and On-Premises.
+overview: 'Google Anthos publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including BareMetalClusters API, VmwareClusters API, VmwareNodePools API, and 1 more. Tagged areas include Container Platform, Hybrid Cloud, Kubernetes, Multi-Cloud, and On-Premises.
 
 
   The Google Anthos catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Google Anthos'' developer surface includes authentication, getting-started guide, pricing, and 8 more developer resources.'
+  Google Anthos'' developer surface includes authentication, getting-started guide, pricing, and 11 more developer resources.'
 plans:
 - name: Google Anthos Plans Pricing
   plan_count: 3
@@ -169,9 +188,10 @@ rate_limits:
   name: Google Anthos Rate Limits
   slug: google-anthos-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Google Anthos API Rules
+  name: Google Anthos — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -186,17 +206,17 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: thin
-  composite: 36.9
+  composite: 35.4
   coverage:
     artifact_dirs: 15
-    catalog_earned: 59.7
+    catalog_earned: 56.7
     catalog_earned_first_party: 0.0
-    catalog_gap: 55.4
+    catalog_gap: 58.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 26.3
+    access_clarity: 18.4
     contract_governance: 9.8
     contract_quality: 56.1
     developer_ergonomics: 33.3
@@ -216,8 +236,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

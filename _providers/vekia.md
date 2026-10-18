@@ -34,10 +34,20 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 4
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/vekia/refs/heads/main/plans/vekia-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/vekia-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/vekia/refs/heads/main/rate-limits/vekia-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/vekia-rate-limits.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/vekia/refs/heads/main/mcp/vekia-mcp.yml
   title: ''
@@ -110,7 +120,7 @@ network: true
 overview: 'Vekia is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Supply Chain, Demand Forecasting, Inventory Optimization, and Replenishment.
 
 
-  Vekia''s developer surface includes engineering blog and 8 more developer resources.'
+  Vekia''s developer surface includes engineering blog and 10 more developer resources.'
 plans:
 - name: Vekia Plans Pricing
   plan_count: 0
@@ -156,8 +166,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

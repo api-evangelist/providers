@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.ichase.io/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/ichase-co-ltd/refs/heads/main/security/ichase-co-ltd-domain-security.yml
   title: ''
@@ -66,20 +70,20 @@ created: '2026-07-17'
 description: iChase Co., Ltd. (iCHASE) builds AI-powered biosecurity and precision-farming systems for modern agriculture. Its integrated computer-vision monitoring platform protects livestock and optimizes growth for dairy, poultry, warehouse/industrial, and utility operations. Flagship products include the AI Bird Repeller, which detects birds in real time and deploys automated, chemical-free laser deterrence to reduce avian-flu and contamination risk, and InsightScale, which uses 3D scanning and AI weight prediction to track poultry Average Daily Gain and uniformity without stressful manual weighing. iCHASE is a member of the NVIDIA Inception program, a 2024 THRIVE Top 100 Global Innovator, and a 500 Global portfolio company. The site markets an "Open API" capability, but no public developer portal, documentation, OpenAPI definition, or SDKs were discoverable at the time of enrichment.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ichase-co-ltd.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: iChase
 nav: Providers
 network: true
 overview: 'iChase is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Agriculture, AgTech, Precision Agriculture, and Livestock.
 
 
-  iChase''s developer surface includes support and 5 more developer resources.'
+  iChase''s developer surface includes support and 6 more developer resources.'
 random_paper: 13
 score:
   band: minimal
   composite: 7.9
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -100,8 +104,8 @@ score:
     regime: Health
     regime_id: health
     score: 7.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

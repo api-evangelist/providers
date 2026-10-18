@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 67
   human_in_the_loop: 1
@@ -644,6 +644,21 @@ collections:
   name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences Workers API
   slug: open-oracle-fusion-workers-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-fusion/refs/heads/main/plans/oracle-fusion-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/oracle-fusion-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-fusion/refs/heads/main/rate-limits/oracle-fusion-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/oracle-fusion-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-fusion/refs/heads/main/finops/oracle-fusion-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/oracle-fusion-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/oracle-fusion/refs/heads/main/capabilities/oracle-fusion-capability-edges.yml
   title: ''
@@ -748,9 +763,13 @@ common:
 created: '2024-01-15'
 description: Oracle Fusion Cloud Applications represent a comprehensive suite of cloud-based enterprise resource planning (ERP), human capital management (HCM), customer experience (CX), supply chain management (SCM), and enterprise performance management (EPM) solutions. Oracle Fusion Cloud provides REST APIs across all application pillars, enabling programmatic access to business data and processes for integration, automation, and extension of cloud applications.
 finops:
-- name: Oracle Fusion Finops
+- has_sources: true
+  method: generated
+  name: Oracle Fusion Finops
+  primary_unit: ''
   service_category: SaaS Applications
   slug: oracle-fusion-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/oracle-fusion.png
 json_schemas:
 - name: Absence
@@ -1097,13 +1116,13 @@ modified: '2026-09-16'
 name: Oracle Fusion Cloud Applications
 nav: Providers
 network: true
-overview: 'Oracle Fusion Cloud Applications publishes 52 APIs on the [APIs.io](https://apis.io/) network, including Absences API, Access Groups API, Accounts API, and 49 more. Tagged areas include Cloud, Customer Experience, Enterprise, EPM, and ERP.
+overview: 'Oracle Fusion Cloud Applications publishes 52 API contracts indexed on the [APIs.io](https://apis.io/) network, including Absences API, Access Groups API, Accounts API, and 49 more. Tagged areas include Cloud, Customer Experience, Enterprise, EPM, and ERP.
 
 
   The Oracle Fusion Cloud Applications catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Oracle Fusion Cloud Applications'' developer surface includes authentication, developer portal, support, getting-started guide, changelog, signup flow, and 17 more developer resources.'
+  Oracle Fusion Cloud Applications'' developer surface includes authentication, developer portal, support, getting-started guide, changelog, signup flow, and 20 more developer resources.'
 plans:
 - name: Oracle Fusion Plans Pricing
   plan_count: 2
@@ -1114,9 +1133,10 @@ rate_limits:
   name: Oracle Fusion Rate Limits
   slug: oracle-fusion-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Oracle Fusion Cloud Applications API Rules
+  name: Oracle Fusion Cloud Applications — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1126,23 +1146,23 @@ rules:
   slug: oracle-fusion-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 45.5
+  composite: 43.9
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 59.3
+    artifact_dirs: 19
+    catalog_earned: 56.3
     catalog_earned_first_party: 0.0
     catalog_gap: 58.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -1.6
   facets:
-    access_clarity: 34.2
+    access_clarity: 26.3
     contract_governance: 9.8
     contract_quality: 59.9
     developer_ergonomics: 48.8
     discoverability: 71.4
     operational_transparency: 42.1
-  previous_composite: 45.0
+  previous_composite: 45.5
   provenance:
     agentic_access: derived
     contracts:
@@ -1156,8 +1176,8 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.3
-  scored_at: '2026-10-04'
+  score: 30.4
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 7
@@ -233,6 +233,14 @@ collections:
   name: connect Address Management stock API
   slug: open-bics-network-stock-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.bics.com/blogs/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.bics.com/feed/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/bics-network/refs/heads/main/capabilities/bics-network-capability-edges.yml
   title: ''
@@ -278,19 +286,23 @@ common:
 created: '2026-07-11'
 description: BICS is an international communications enabler and wholesale carrier, part of Proximus Global (alongside Telesign and Route Mobile). Its developer portal exposes OAuth2-secured REST APIs at api.bics.com for A2P SMS and OTP delivery, global number provisioning and portability (MyNumbers), call detail records, emergency services, and carrier-grade cloud connectivity. BICS also offers mobile identity capabilities - phone number verification, HLR/reachability lookup, SIM-swap detection and device-location signals for anti-fraud and KYC - as partner and carrier contract products across the Proximus Global network rather than as self-serve endpoints.
 finops:
-- name: Bics Network Finops
+- has_sources: false
+  method: generated
+  name: Bics Network Finops
+  primary_unit: ''
   service_category: ''
   slug: bics-network-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bics-network.png
 layout: provider
-modified: '2026-07-11'
+modified: '2026-10-06'
 name: BICS
 nav: Providers
 network: true
-overview: 'BICS publishes 24 APIs on the [APIs.io](https://apis.io/) network, including Address Management API, CDR API, Connections Management API, and 21 more. Tagged areas include Number Verification, Telecommunications, Mobile Identity, Fraud Prevention, and Device Location.
+overview: 'BICS publishes 24 API contracts indexed on the [APIs.io](https://apis.io/) network, including Address Management API, CDR API, Connections Management API, and 21 more. Tagged areas include Number Verification, Telecommunications, Mobile Identity, Fraud Prevention, and Device Location.
 
 
-  BICS''s developer surface includes authentication, documentation, and 7 more developer resources.'
+  BICS''s developer surface includes engineering blog, authentication, documentation, and 8 more developer resources.'
 plans:
 - name: Bics Network Plans Pricing
   plan_count: 0
@@ -302,20 +314,20 @@ rate_limits:
   slug: bics-network-rate-limits
 score:
   band: emerging
-  composite: 23.3
+  composite: 22.2
   coverage:
-    artifact_dirs: 10
-    catalog_earned: 38.0
+    artifact_dirs: 11
+    catalog_earned: 35.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 77.0
+    catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.1
   facets:
-    access_clarity: 7.9
+    access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 47.8
-    developer_ergonomics: 21.4
+    developer_ergonomics: 23.8
     discoverability: 62.5
     operational_transparency: 0.0
   previous_composite: 23.3
@@ -332,8 +344,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 5.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

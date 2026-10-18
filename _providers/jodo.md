@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://ext.jodo.in
@@ -75,6 +75,10 @@ asyncapis:
   name: Jodo Webhooks
   slug: jodo-webhooks-asyncapi
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.jodo.in/feed.xml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/jodo/refs/heads/main/overlays/jodo-integrations-overlay.yaml
   title: ''
@@ -212,17 +216,17 @@ description: 'Jodo is a Bengaluru-based fintech that automates fee collection fo
   docs.jodo.in covering 25 REST operations and 36 webhook events, with documented UAT and production environments, Basic Auth, an error code registry, a retry and idempotency policy, HMAC SHA-256 webhook signatures and published source IP ranges — but no machine-readable OpenAPI or AsyncAPI document, and no public pricing.'
 image: https://www.jodo.in/assets/images/icons/favicon.png
 layout: provider
-modified: '2026-08-23'
+modified: '2026-10-06'
 name: Jodo
 nav: Providers
 network: true
-overview: 'Jodo publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Webhooks, Configuration API, Flex API, and 3 more. Tagged areas include Company, Payments, Education, Fintech, and Fee Collection.
+overview: 'Jodo publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Webhooks, Configuration API, Flex API, and 3 more. Tagged areas include Company, Payments, Education, Fintech, and Fee Collection.
 
 
   The Jodo catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Jodo''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, engineering blog, support, and 22 more developer resources.'
+  Jodo''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, engineering blog, support, and 23 more developer resources.'
 plans:
 - name: Jodo Plans Pricing
   plan_count: 0
@@ -273,8 +277,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

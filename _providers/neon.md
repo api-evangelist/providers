@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.8
-  scored_at: '2026-10-04'
+  score: 23.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 2
@@ -177,6 +177,21 @@ collections:
   name: Neon Management API Keys Roles API
   slug: open-neon-roles-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/neon/refs/heads/main/plans/neon-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/neon-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/neon/refs/heads/main/rate-limits/neon-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/neon-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/neon/refs/heads/main/finops/neon-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/neon-finops.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -282,9 +297,13 @@ features:
 - IP allow rules on Scale
 - Acquired by Databricks (Q4 2025)
 finops:
-- name: Neon Finops
+- has_sources: true
+  method: generated
+  name: Neon Finops
+  primary_unit: ''
   service_category: Serverless Postgres
   slug: neon-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/neon.png
 json_schemas:
 - name: ApiKey
@@ -391,13 +410,13 @@ modified: '2026-09-16'
 name: Neon
 nav: Providers
 network: true
-overview: 'Neon publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Auth, API Keys API, Auth API, and 10 more. Tagged areas include Database, Serverless, PostgreSQL, Infrastructure, and Authentication.
+overview: 'Neon publishes 13 API contracts indexed on the [APIs.io](https://apis.io/) network, including Auth, API Keys API, Auth API, and 10 more. Tagged areas include Database, Serverless, PostgreSQL, Infrastructure, and Authentication.
 
 
   The Neon catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Neon''s developer surface includes authentication, developer portal, engineering blog, pricing, signup flow, support, and 14 more developer resources.'
+  Neon''s developer surface includes authentication, developer portal, engineering blog, pricing, signup flow, support, and 17 more developer resources.'
 plans:
 - name: Neon Plans Pricing
   plan_count: 3
@@ -408,10 +427,11 @@ rate_limits:
   name: Neon Rate Limits
   slug: neon-rate-limits
 rules:
-- effective_rule_count: 35
+- authorship: generated
+  effective_rule_count: 35
   extends:
   - spectral:asyncapi
-  name: Neon API Rules
+  name: Neon — asyncapi rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -419,9 +439,10 @@ rules:
     info: 0
     warn: 7
   slug: neon-asyncapi-spectral-rules
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Neon API Rules
+  name: Neon — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -431,17 +452,17 @@ rules:
   slug: neon-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 50.9
+  composite: 49.4
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 50.5
+    artifact_dirs: 24
+    catalog_earned: 47.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 64.5
+    catalog_gap: 67.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 61.8
+    access_clarity: 53.9
     contract_governance: 13.6
     contract_quality: 62.7
     developer_ergonomics: 45.7
@@ -461,8 +482,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

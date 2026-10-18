@@ -32,10 +32,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://neura-robotics.com/news/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://neura-robotics.com/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/neura-robotics/refs/heads/main/security/neura-robotics-domain-security.yml
   title: ''
@@ -78,18 +86,18 @@ created: '2026-07-17'
 description: 'NEURA Robotics is a German deep-tech company building cognitive and humanoid robots for industry, business, and everyday life. It develops robots such as the 4NE-1 humanoid and the MAiRA, MiPA, LARA, and MAV cognitive cobots, powered by its proprietary AI system AURA. Its Neuraverse ecosystem is a connected platform and app marketplace that links robots, developers, and partners so AI models, applications, and hardware come together to make the robots smarter. NEURA Robotics is backed by HV Capital. As of this profile the company exposes no public, documented developer API: neuraverse.com is a gated single-page application portal, and no OpenAPI, developer documentation, or well-known discovery endpoints are published on its public surface.'
 image: https://neura-robotics.com/wp-content/uploads/2026/02/4NE1_Working_2-1-scaled.webp
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: NEURA Robotics
 nav: Providers
 network: true
 overview: 'NEURA Robotics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Robotics, Humanoid Robots, Cognitive Robotics, and Artificial Intelligence.
 
 
-  NEURA Robotics'' developer surface includes developer portal, engineering blog, support, and 6 more developer resources.'
+  NEURA Robotics'' developer surface includes engineering blog, developer portal, support, and 8 more developer resources.'
 random_paper: 1
 score:
   band: emerging
-  composite: 13.0
+  composite: 13.1
   coverage:
     artifact_dirs: 6
     catalog_earned: 27.0
@@ -97,7 +105,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
@@ -117,8 +125,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 12.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 14
   slug: api-snap-agentic-access
   summary_line: 14 operations · 6 acting
-api_count: 1
+api_count: 2
 apis:
 - baseURL: https://api-snap.com/api
   baseurl_source: declared
@@ -245,9 +245,13 @@ features:
 - description: Image and document endpoints accept multiple input formats (binary, base64, URL) and produce multiple output formats (PNG, JPEG, WebP, AVIF, SVG, PDF, HTML).
   name: Format Flexibility
 finops:
-- name: Api Snap Finops
+- has_sources: true
+  method: generated
+  name: Api Snap Finops
+  primary_unit: ''
   service_category: Developer Utilities
   slug: api-snap-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/api-snap.png
 integrations:
 - description: Works with any HTTP client (curl, fetch, axios, requests) via the Authorization Bearer header or api_key query parameter.
@@ -310,7 +314,7 @@ modified: '2026-05-19'
 name: API Snap
 nav: Providers
 network: true
-overview: 'API Snap publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Browser API, Documents API, Images API, and 2 more. Tagged areas include API Utilities, Developer Tools, QR Codes, Screenshots, and Image Processing.
+overview: 'API Snap publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Browser API, Documents API, Images API, and 2 more. Tagged areas include API Utilities, Developer Tools, QR Codes, Screenshots, and Image Processing.
 
 
   The API Snap catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -327,9 +331,10 @@ rate_limits:
   name: Api Snap Rate Limits
   slug: api-snap-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: API Snap API Rules
+  name: API Snap — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -337,7 +342,8 @@ rules:
     info: 2
     warn: 3
   slug: api-snap-jsonschema-spectral-rules
-- effective_rule_count: 83
+- authorship: generated
+  effective_rule_count: 83
   extends:
   - spectral:oas
   name: API Snap API Rules
@@ -349,23 +355,23 @@ rules:
     warn: 23
   slug: api-snap-spectral-rules
 score:
-  band: developing
-  composite: 46.3
+  band: thin
+  composite: 38.0
   coverage:
     artifact_dirs: 18
-    catalog_earned: 90.6
+    catalog_earned: 72.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 24.4
+    catalog_gap: 43.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 46.8
+    access_clarity: 18.4
     contract_governance: 27.3
     contract_quality: 69.0
     developer_ergonomics: 32.1
     discoverability: 66.1
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   previous_composite: 46.3
   provenance:
     agentic_access: derived
@@ -380,9 +386,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 13.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

@@ -30,13 +30,13 @@ agent_readiness:
     mcp_server: verified
     openapi_examples: false
     protected_resource_metadata: verified
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 44.6
-  scored_at: '2026-10-04'
+  score: 42.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 1
@@ -111,6 +111,14 @@ collections:
   name: Yodeck REST API (Modeled)
   slug: open-yodeck-signage
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.yodeck.com/blog/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.yodeck.com/feed/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/yodeck-signage/refs/heads/main/capabilities/yodeck-signage-capability-edges.yml
   title: ''
@@ -169,23 +177,27 @@ common:
 created: '2026-07-05'
 description: Yodeck is a cloud-based digital signage platform for managing screens and content at scale, typically on Raspberry Pi based players. It lets teams upload and organize media, build playlists and multi-zone layouts, schedule content, group shows, and monitor and control players remotely. Alongside the web app, Yodeck publishes a REST API (documented at app.yodeck.com/api-docs and available to Premium and Enterprise plans) that programmatically manages media, playlists, layouts, screens/monitors, schedules, shows, and workspaces using named, role-scoped API tokens. Players also expose a local-only Player HTTP API for on-device apps. The public REST reference is behind an account login, so the API surface documented here is modeled from Yodeck's published resource set rather than copied from live spec files.
 finops:
-- name: Yodeck Signage Finops
+- has_sources: true
+  method: generated
+  name: Yodeck Signage Finops
+  primary_unit: ''
   service_category: Digital Signage and Screen Management
   slug: yodeck-signage-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/yodeck-signage.png
 layout: provider
 mcp_servers:
 - description: Remote MCP server at mcp.yodeck.com over HTTP.
   name: Yodeck MCP Server
   slug: yodeck-signage
-modified: '2026-07-05'
+modified: '2026-10-06'
 name: Yodeck
 nav: Providers
 network: true
-overview: 'Yodeck publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Layouts API, Media API, Playlists API, and 4 more. Tagged areas include Digital Signage, Screen Management, Content Management, Media, and Playlists.
+overview: 'Yodeck publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Layouts API, Media API, Playlists API, and 4 more. Tagged areas include Digital Signage, Screen Management, Content Management, Media, and Playlists.
 
 
-  Yodeck''s developer surface includes authentication, documentation, API reference, signup flow, and 8 more developer resources.'
+  Yodeck''s developer surface includes engineering blog, authentication, documentation, API reference, signup flow, and 9 more developer resources.'
 plans:
 - name: Yodeck Signage Plans Pricing
   plan_count: 4
@@ -197,22 +209,22 @@ rate_limits:
   slug: yodeck-signage-rate-limits
 score:
   band: thin
-  composite: 37.1
+  composite: 29.2
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 61.6
+    artifact_dirs: 15
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.4
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.9
   facets:
-    access_clarity: 49.5
+    access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 47.8
-    developer_ergonomics: 29.8
+    developer_ergonomics: 32.1
     discoverability: 68.3
-    operational_transparency: 28.4
+    operational_transparency: 7.9
   previous_composite: 37.1
   provenance:
     agentic_access: derived
@@ -228,9 +240,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

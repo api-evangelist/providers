@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.3
-  scored_at: '2026-10-04'
+  score: 20.4
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -81,6 +81,21 @@ collections:
   name: Apache Oozie REST Admin Versions API
   slug: open-apache-oozie-versions-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/apache-oozie/refs/heads/main/plans/apache-oozie-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/apache-oozie-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/apache-oozie/refs/heads/main/rate-limits/apache-oozie-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/apache-oozie-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/apache-oozie/refs/heads/main/finops/apache-oozie-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/apache-oozie-finops.yml
 - group: company
   title: ''
   type: Website
@@ -205,9 +220,13 @@ features:
 - description: Manage shared Hadoop libraries across workflows for consistent classpath management.
   name: Shared Library Support
 finops:
-- name: Apache Oozie Finops
+- has_sources: false
+  method: generated
+  name: Apache Oozie Finops
+  primary_unit: ''
   service_category: API
   slug: apache-oozie-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/apache-oozie.png
 integrations:
 - description: Core integration with HDFS for data storage and YARN for resource management.
@@ -282,13 +301,13 @@ modified: '2026-09-16'
 name: Apache Oozie
 nav: Providers
 network: true
-overview: 'Apache Oozie publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Job API, Jobs API, and 1 more. Tagged areas include Workflows, Hadoop, Orchestration, Scheduling, and Big Data.
+overview: 'Apache Oozie publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Admin API, Job API, Jobs API, and 1 more. Tagged areas include Workflows, Hadoop, Orchestration, Scheduling, and Big Data.
 
 
   The Apache Oozie catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Apache Oozie''s developer surface includes documentation, getting-started guide, release notes, support, Stack Overflow tag, and 13 more developer resources.'
+  Apache Oozie''s developer surface includes documentation, getting-started guide, release notes, support, Stack Overflow tag, and 16 more developer resources.'
 plans:
 - name: Apache Oozie Plans Pricing
   plan_count: 3
@@ -299,9 +318,10 @@ rate_limits:
   name: Apache Oozie Rate Limits
   slug: apache-oozie-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Apache Oozie API Rules
+  name: Apache Oozie — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -309,7 +329,8 @@ rules:
     info: 2
     warn: 3
   slug: apache-oozie-jsonschema-spectral-rules
-- effective_rule_count: 74
+- authorship: generated
+  effective_rule_count: 74
   extends:
   - spectral:oas
   name: Apache Oozie API Rules
@@ -322,17 +343,17 @@ rules:
   slug: apache-oozie-spectral-rules
 score:
   band: thin
-  composite: 34.3
+  composite: 32.8
   coverage:
     artifact_dirs: 15
-    catalog_earned: 65.5
+    catalog_earned: 62.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 49.5
+    catalog_gap: 52.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 26.3
+    access_clarity: 18.4
     contract_governance: 13.6
     contract_quality: 55.7
     developer_ergonomics: 21.4
@@ -352,8 +373,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

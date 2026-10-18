@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 2.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: FLYR's airline retailing API surface — the Offer & Order Management System (OOMS), a certified NDC+ API for rich-content offers and orders, an NDC Gateway that extends modern retailing to indirect and
@@ -134,14 +134,14 @@ modified: '2026-08-04'
 name: FLYR Labs
 nav: Providers
 network: true
-overview: 'FLYR Labs publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Travel Technology, Airlines, Hospitality, and Revenue Management.
+overview: 'FLYR Labs is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Travel Technology, Airlines, Hospitality, and Revenue Management.
 
 
   FLYR Labs'' developer surface includes documentation, support, engineering blog, legal docs, and 15 more developer resources.'
 random_paper: 6
 score:
   band: emerging
-  composite: 13.5
+  composite: 13.6
   coverage:
     artifact_dirs: 8
     catalog_earned: 32.0
@@ -149,7 +149,7 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 17.1
     contract_governance: 18.2
@@ -173,8 +173,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

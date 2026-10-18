@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -27,14 +27,14 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: false
-    rate_limit_signal: documented
+    protected_resource_metadata: verified
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.4
-  scored_at: '2026-10-04'
+  score: 30.1
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -188,9 +188,13 @@ common:
 created: '2026-06-20'
 description: Scalekit is the authentication platform for B2B SaaS and AI agents. It provides drop-in enterprise Single Sign-On (SAML/OIDC), SCIM directory provisioning, social login, full-stack user management, machine-to-machine (M2M) auth, and agent / MCP authentication with connected accounts and tool execution - all exposed through a per-environment REST API secured with OAuth 2.0 client credentials.
 finops:
-- name: Scalekit Finops
+- has_sources: true
+  method: generated
+  name: Scalekit Finops
+  primary_unit: ''
   service_category: Identity and Access Management
   slug: scalekit-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/scalekit.png
 layout: provider
 mcp_servers:
@@ -201,7 +205,7 @@ modified: '2026-09-16'
 name: Scalekit
 nav: Providers
 network: true
-overview: 'Scalekit publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Admin Portal API, Authentication API, Connected Accounts API, and 6 more. Tagged areas include Authentication, SSO, SCIM, Identity, and B2B SaaS.
+overview: 'Scalekit publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Admin Portal API, Authentication API, Connected Accounts API, and 6 more. Tagged areas include Authentication, SSO, SCIM, Identity, and B2B SaaS.
 
 
   Scalekit''s developer surface includes authentication, documentation, engineering blog, and 10 more developer resources.'
@@ -220,23 +224,23 @@ scopes:
   slug: scalekit-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 39.5
+  band: thin
+  composite: 31.2
   coverage:
     artifact_dirs: 14
-    catalog_earned: 61.6
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.4
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 48.0
     developer_ergonomics: 32.1
     discoverability: 68.3
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   previous_composite: 39.5
   provenance:
     agentic_access: derived
@@ -252,9 +256,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 27.8

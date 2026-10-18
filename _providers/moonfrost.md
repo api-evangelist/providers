@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -61,7 +61,7 @@ modified: '2026-07-20'
 name: MoonFrost
 nav: Providers
 network: true
-overview: 'MoonFrost is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto, Web3, Gaming, and Video Games.
+overview: 'MoonFrost is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cryptocurrency, Web3, Gaming, and Video Games.
 
 
   MoonFrost''s developer surface includes support and 3 more developer resources.'
@@ -91,8 +91,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 8.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -107,7 +107,7 @@ security:
 slug: moonfrost
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Web3
 - Gaming
 - Video Games

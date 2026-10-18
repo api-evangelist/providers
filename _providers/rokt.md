@@ -26,13 +26,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 15.5
-  scored_at: '2026-10-04'
+  score: 13.6
+  scored_at: '2026-10-17'
 api_count: 7
 apis:
 - description: Comprehensive reporting API for querying account and campaign performance data with flexible filtering, metrics selection, and date range specification.
@@ -114,9 +114,13 @@ common:
 created: '2026-06-13'
 description: Rokt is an eCommerce technology platform that uses AI and machine learning to serve personalized non-endemic offers and ads during transaction moments. APIs cover ecommerce placement integrations, conversion event tracking, reporting and analytics, custom audience management, and data governance.
 finops:
-- name: Rokt Finops
+- has_sources: false
+  method: generated
+  name: Rokt Finops
+  primary_unit: ''
   service_category: ''
   slug: rokt-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rokt.png
 jsonld:
 - class_count: 36
@@ -128,7 +132,7 @@ modified: '2026-06-13'
 name: Rokt
 nav: Providers
 network: true
-overview: 'Rokt publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Query API, and 6 more. Tagged areas include E-Commerce, Advertising, Transaction Moment, Personalization, and Offers.
+overview: 'Rokt is listed with 7 APIs on the [APIs.io](https://apis.io/) network, including Query API, and 6 more. Tagged areas include E-Commerce, Advertising, Transaction Moment, Personalization, and Offers.
 
 
   The Rokt catalog on APIs.io includes 1 JSON-LD context.
@@ -146,22 +150,22 @@ rate_limits:
   slug: rokt-rate-limits
 score:
   band: emerging
-  composite: 25.2
+  composite: 21.9
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 58.2
+    artifact_dirs: 13
+    catalog_earned: 50.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 56.8
+    catalog_gap: 65.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.3
   facets:
-    access_clarity: 18.4
+    access_clarity: 10.5
     contract_governance: 0.0
     contract_quality: 34.7
     developer_ergonomics: 11.9
     discoverability: 71.4
-    operational_transparency: 24.2
+    operational_transparency: 10.5
   previous_composite: 25.2
   regulatory:
     applies: true
@@ -169,8 +173,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

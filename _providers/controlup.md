@@ -35,8 +35,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.7
-  scored_at: '2026-10-04'
-api_count: 24
+  scored_at: '2026-10-17'
+api_count: 32
 apis:
 - description: Official Model Context Protocol server published by ControlUp as the npm package @controlup-ai/mcp. Runs locally over stdio via npx, authenticates with a ControlUp API key plus organization ID, and ex
   name: ControlUp MCP Server
@@ -1585,7 +1585,7 @@ modified: '2026-09-16'
 name: ControlUp
 nav: Providers
 network: true
-overview: 'ControlUp publishes 61 APIs on the [APIs.io](https://apis.io/) network, including Alerts API, Alerts - Devices API, Applications API, and 58 more. Tagged areas include Digital Employee Experience, Endpoint Management, VDI, DaaS, and Virtual Desktop.
+overview: 'ControlUp publishes 61 API contracts indexed on the [APIs.io](https://apis.io/) network, including Alerts API, Alerts - Devices API, Applications API, and 58 more. Tagged areas include Digital Employee Experience, Endpoint Management, VDI, DaaS, and Virtual Desktop.
 
 
   The ControlUp catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -1605,13 +1605,13 @@ score:
   band: exemplar
   composite: 75.6
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_earned: 64.0
     catalog_earned_first_party: 24.0
     catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 92.1
     contract_governance: 4.5
@@ -1619,7 +1619,7 @@ score:
     developer_ergonomics: 58.9
     discoverability: 78.6
     operational_transparency: 97.4
-  previous_composite: 75.0
+  previous_composite: 75.6
   provenance:
     conformance: derived
     contracts:
@@ -1635,8 +1635,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

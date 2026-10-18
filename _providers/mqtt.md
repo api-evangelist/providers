@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 16.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: OASIS Standard publish/subscribe messaging protocol for IoT and M2M communication. MQTT v5.0 defines the wire format and behavior of CONNECT, PUBLISH, SUBSCRIBE, UNSUBSCRIBE, PINGREQ, DISCONNECT and o
@@ -80,7 +80,7 @@ modified: '2026-09-16'
 name: MQTT
 nav: Providers
 network: true
-overview: 'MQTT publishes 2 APIs on the [APIs.io](https://apis.io/) network, including Version 5.0 Protocol, and 1 more. Tagged areas include MQTT, Messaging, Publish Subscribe, IoT, and M2M.
+overview: 'MQTT is listed with 2 APIs on the [APIs.io](https://apis.io/) network, including Version 5.0 Protocol, and 1 more. Tagged areas include MQTT, Messaging, Publish Subscribe, IoT, and M2M.
 
 
   MQTT''s developer surface includes engineering blog and 6 more developer resources.'
@@ -110,8 +110,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

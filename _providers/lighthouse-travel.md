@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -268,7 +268,7 @@ modified: '2026-05-25'
 name: Lighthouse
 nav: Providers
 network: true
-overview: 'Lighthouse publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Demand API, Hotels API, Market Insight API, and 5 more. Tagged areas include Hospitality, Hotels, Travel, Revenue Management, and Market Intelligence.
+overview: 'Lighthouse publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Demand API, Hotels API, Market Insight API, and 5 more. Tagged areas include Hospitality, Hotels, Travel, Revenue Management, and Market Intelligence.
 
 
   Lighthouse''s developer surface includes authentication, engineering blog, GitHub presence, YouTube channel, and 31 more developer resources.'
@@ -277,7 +277,7 @@ score:
   band: thin
   composite: 27.7
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -313,8 +313,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -333,7 +333,7 @@ security:
 - kind: vulnerability-disclosure
   name: Lighthouse Travel Vulnerability Disclosure
   slug: lighthouse-travel-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 slug: lighthouse-travel
 tags:
 - Hospitality

@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.modelcode.ai/feed
 - group: company
   title: ''
   type: Website
@@ -104,18 +108,18 @@ created: '2026-07-17'
 description: Modelcode AI builds Morph, an AI-powered code modernization platform that transforms legacy software into modern, maintainable codebases. Morph plans, executes, tests, and verifies complex migrations — language upgrades, language translations (COBOL to Java, Ada to C++, Python 2 to 3), framework migrations (AngularJS to React, Express to FastAPI), dependency modernization, and monolith-to-microservices decomposition — while keeping engineering teams in control through project specifications, incremental milestones, pull requests, and measurable acceptance criteria. Build and test workflows run in Modelcode-hosted sandboxes or via a self-hosted ModelDaemon inside a customer's own environment for apps that depend on private services and internal infrastructure. Backed by Bessemer Venture Partners.
 image: https://modelcode.ai/icon.svg
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Modelcode
 nav: Providers
 network: true
-overview: 'Modelcode is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Ml, Code Modernization, Legacy Migration, and Developer Tools.
+overview: 'Modelcode is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Code Modernization, Legacy Migration, and Developer Tools.
 
 
-  Modelcode''s developer surface includes documentation, getting-started guide, engineering blog, support, pricing, changelog, and 9 more developer resources.'
+  Modelcode''s developer surface includes documentation, getting-started guide, engineering blog, support, pricing, changelog, and 10 more developer resources.'
 random_paper: 16
 score:
   band: emerging
-  composite: 23.6
+  composite: 23.5
   coverage:
     artifact_dirs: 6
     catalog_earned: 27.0
@@ -123,7 +127,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 47.4
     contract_governance: 0.0
@@ -137,9 +141,9 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 18.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+    score: 17.3
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -158,7 +162,7 @@ security:
 slug: modelcode
 tags:
 - Company
-- Ai Ml
+- Artificial Intelligence
 - Code Modernization
 - Legacy Migration
 - Developer Tools

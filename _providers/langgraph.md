@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.1
-  scored_at: '2026-10-04'
+  score: 26.2
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 1
@@ -94,6 +94,21 @@ collections:
   name: LangSmith Deployment Control Plane API
   slug: open-langgraph
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/langgraph/refs/heads/main/plans/langgraph-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/langgraph-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/langgraph/refs/heads/main/rate-limits/langgraph-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/langgraph-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/langgraph/refs/heads/main/finops/langgraph-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/langgraph-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/langgraph/refs/heads/main/capabilities/langgraph-capability-edges.yml
   title: ''
@@ -157,19 +172,23 @@ common:
 created: '2026-01-02'
 description: LangGraph is an open-source framework from LangChain for building stateful, multi-actor agent workflows with low-level primitives for greater control over agent behavior. LangGraph Platform (LangSmith Deployment) provides managed infrastructure for running agents in production with assistants, threads, and runs.
 finops:
-- name: Langgraph Finops
+- has_sources: false
+  method: generated
+  name: Langgraph Finops
+  primary_unit: ''
   service_category: API
   slug: langgraph-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/langgraph.png
 layout: provider
 modified: '2026-05-19'
 name: LangGraph
 nav: Providers
 network: true
-overview: 'LangGraph publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Agent Connections (v2) API, Auth Service (v2) API, Deployments (v2) API, and 2 more. Tagged areas include Agents, Artificial Intelligence, LLM, Workflows, and Orchestration.
+overview: 'LangGraph publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agent Connections (v2) API, Auth Service (v2) API, Deployments (v2) API, and 2 more. Tagged areas include Agents, Artificial Intelligence, LLM, Workflows, and Orchestration.
 
 
-  LangGraph''s developer surface includes authentication, documentation, GitHub presence, engineering blog, and 10 more developer resources.'
+  LangGraph''s developer surface includes authentication, documentation, GitHub presence, engineering blog, and 13 more developer resources.'
 plans:
 - name: Langgraph Plans Pricing
   plan_count: 3
@@ -181,17 +200,17 @@ rate_limits:
   slug: langgraph-rate-limits
 score:
   band: thin
-  composite: 32.6
+  composite: 31.2
   coverage:
-    artifact_dirs: 10
-    catalog_earned: 46.0
+    artifact_dirs: 13
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 69.0
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.4
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 49.0
     developer_ergonomics: 23.8
@@ -214,8 +233,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

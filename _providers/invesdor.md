@@ -32,10 +32,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.invesdor.com/blog/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.invesdor.com/blog/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/invesdor/refs/heads/main/security/invesdor-domain-security.yml
   title: ''
@@ -73,14 +81,14 @@ created: '2026-07-17'
 description: Invesdor is a pan-European crowdinvesting and digital investment platform that connects private and professional investors with companies raising capital through equity, subordinated loans, and bonds, with minimum tickets starting around EUR 250. Founded in Finland in 2012 and expanded through mergers with Finnest, Kapilendo, and Oneplanetcrowd, Invesdor now serves more than 180,000 investors across Europe and has channeled over EUR 600 million into more than 1,000 renewable-energy, scale-up, and SME financing rounds. It operates as a regulated investment firm under the EU Crowdfunding Service Provider (ECSP) regime. Invesdor does not currently publish a public developer API or developer portal; this profile tracks its public web, investor, and legal surface in the API Evangelist network.
 image: https://live-credit.freetls.fastly.net/public/themes/invesdor-green/assets/share.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Invesdor
 nav: Providers
 network: true
 overview: 'Invesdor is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crowdfunding, Investment, Fintech, and Crowdinvesting.
 
 
-  Invesdor''s developer surface includes support, engineering blog, signup flow, and 5 more developer resources.'
+  Invesdor''s developer surface includes engineering blog, support, signup flow, and 7 more developer resources.'
 random_paper: 16
 score:
   band: emerging
@@ -112,8 +120,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 11.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.3
-  scored_at: '2026-10-04'
+  score: 15.4
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -84,6 +84,21 @@ collections:
   name: NCBI E-utilities API
   slug: open-national-library-of-medicine
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/national-library-of-medicine/refs/heads/main/plans/national-library-of-medicine-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/national-library-of-medicine-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/national-library-of-medicine/refs/heads/main/rate-limits/national-library-of-medicine-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/national-library-of-medicine-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/national-library-of-medicine/refs/heads/main/finops/national-library-of-medicine-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/national-library-of-medicine-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/national-library-of-medicine/refs/heads/main/agentic-access/national-library-of-medicine-agentic-access.yml
   title: ''
@@ -113,19 +128,23 @@ common:
 created: '2024-12-03'
 description: The National Library of Medicine, part of the National Institutes of Health, is the world's largest biomedical library. It collects, organizes, and provides access to medical literature and information to support research and decision-making in healthcare, including PubMed and ClinicalTrials.gov.
 finops:
-- name: National Library Of Medicine Finops
+- has_sources: false
+  method: generated
+  name: National Library Of Medicine Finops
+  primary_unit: ''
   service_category: API
   slug: national-library-of-medicine-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/national-library-of-medicine.png
 layout: provider
 modified: '2026-05-19'
 name: National Library of Medicine
 nav: Providers
 network: true
-overview: 'National Library of Medicine publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Discovery API, History API, Retrieve API, and 1 more. Tagged areas include Federal Government, Health, Library, and Medicine.
+overview: 'National Library of Medicine publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Discovery API, History API, Retrieve API, and 1 more. Tagged areas include Federal Government, Health, Library, and Medicine.
 
 
-  National Library of Medicine''s developer surface includes developer portal and 5 more developer resources.'
+  National Library of Medicine''s developer surface includes developer portal and 8 more developer resources.'
 plans:
 - name: National Library Of Medicine Plans Pricing
   plan_count: 3
@@ -136,18 +155,18 @@ rate_limits:
   name: National Library Of Medicine Rate Limits
   slug: national-library-of-medicine-rate-limits
 score:
-  band: thin
-  composite: 26.9
+  band: emerging
+  composite: 25.3
   coverage:
-    artifact_dirs: 9
-    catalog_earned: 41.0
+    artifact_dirs: 10
+    catalog_earned: 38.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 43.5
     developer_ergonomics: 38.1
@@ -172,8 +191,8 @@ score:
     regime: Health
     regime_id: health
     score: 4.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

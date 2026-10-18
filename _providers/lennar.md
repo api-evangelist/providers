@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: 'Azure API Management developer portal for Lennar Corporation. Allows developers to discover Lennar APIs, sign up for an API key, read the auto-generated reference, and exercise endpoints from the API '
@@ -44,6 +44,21 @@ apis:
   slug: lennar-mortgage-fannie-mae
 artifact_total: 6
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/lennar/refs/heads/main/plans/lennar-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/lennar-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/lennar/refs/heads/main/rate-limits/lennar-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/lennar-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/lennar/refs/heads/main/finops/lennar-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/lennar-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/lennar/refs/heads/main/security/lennar-domain-security.yml
   title: ''
@@ -76,16 +91,20 @@ common:
 created: '2026-03-21'
 description: Lennar Corporation is a Fortune 500 company and one of the leading homebuilders of new homes for sale in the United States. Lennar operates an internal Azure-hosted API Management developer portal where Lennar developers and partners discover and consume Lennar Corporation APIs. Public OpenAPI artifacts have not been observed; access generally requires sign-in and partner approval.
 finops:
-- name: Lennar Finops
+- has_sources: true
+  method: generated
+  name: Lennar Finops
+  primary_unit: ''
   service_category: Real Estate / API
   slug: lennar-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lennar.png
 layout: provider
 modified: '2026-04-28'
 name: Lennar
 nav: Providers
 network: true
-overview: Lennar publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Homebuilder, Real Estate, Fortune 500, and Mortgage.
+overview: Lennar is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Homebuilder, Real Estate, Fortune 500, and Mortgage.
 plans:
 - name: Lennar Plans Pricing
   plan_count: 1
@@ -113,17 +132,17 @@ rate_limits:
   slug: lennar-rate-limits
 score:
   band: emerging
-  composite: 13.2
+  composite: 11.7
   coverage:
-    artifact_dirs: 8
-    catalog_earned: 34.0
+    artifact_dirs: 9
+    catalog_earned: 31.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 81.0
+    catalog_gap: 84.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 23.7
+    access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 19.0
@@ -136,8 +155,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 9.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

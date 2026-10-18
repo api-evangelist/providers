@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 5
 apis:
 - description: Automates download of app inventory performance data for InMobi publishers. A single POST to /v3.0/reporting/publisher takes a reportRequest envelope of metrics (adRequests, adImpressions, clicks, ear
@@ -197,7 +197,7 @@ modified: '2026-08-12'
 name: InMobi
 nav: Providers
 network: true
-overview: 'InMobi publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Advertising, AdTech, and Mobile.
+overview: 'InMobi is listed with 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Advertising, AdTech, and Mobile.
 
 
   InMobi''s developer surface includes documentation, API reference, getting-started guide, support, changelog, engineering blog, pricing, and 23 more developer resources.'
@@ -214,7 +214,7 @@ score:
   band: developing
   composite: 48.3
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 17
     catalog_earned: 55.0
     catalog_earned_first_party: 20.0
     catalog_gap: 60.0
@@ -250,8 +250,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

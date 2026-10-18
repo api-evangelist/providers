@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 9
+- acting_count: 8
   human_in_the_loop: 0
   name: Availity Agentic Access
   operation_count: 19
   slug: availity-agentic-access
-  summary_line: 19 operations · 9 acting
+  summary_line: 19 operations · 8 acting
 api_count: 4
 apis:
 - description: The Availity Healthcare HIPAA Transactions API provides a unified interface for standard HIPAA EDI transactions. REST APIs enable healthcare providers and vendors to submit and receive X12 EDI transac
@@ -643,9 +643,13 @@ features:
 - description: Full support for HIPAA EDI version 005010 transactions including 270/271, 276/277, 278, and 835 transaction sets.
   name: ASC X12 EDI Standards
 finops:
-- name: Availity Finops
+- has_sources: true
+  method: generated
+  name: Availity Finops
+  primary_unit: ''
   service_category: Healthcare Network / Clearinghouse
   slug: availity-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/availity.png
 integrations:
 - description: Integrates with electronic health record systems to embed eligibility and claims workflows into clinical workflows.
@@ -980,7 +984,7 @@ modified: '2026-08-15'
 name: Availity
 nav: Providers
 network: true
-overview: 'Availity publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Auth Attachments API, Claim Attachments API, Claim Status API, and 9 more. Tagged areas include Healthcare, Clearinghouse, HIPAA, X12 EDI, and Eligibility.
+overview: 'Availity publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including Auth Attachments API, Claim Attachments API, Claim Status API, and 9 more. Tagged areas include Healthcare, Clearinghouse, HIPAA, X12 EDI, and Eligibility.
 
 
   The Availity catalog on APIs.io includes 5 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -997,9 +1001,10 @@ rate_limits:
   name: Availity Rate Limits
   slug: availity-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: Availity API Rules
+  name: Availity — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -1007,7 +1012,8 @@ rules:
     info: 2
     warn: 4
   slug: availity-jsonschema-spectral-rules
-- effective_rule_count: 51
+- authorship: generated
+  effective_rule_count: 51
   extends:
   - spectral:oas
   name: Availity API Rules
@@ -1025,17 +1031,17 @@ scopes:
   summary_line: 10 scopes
 score:
   band: exemplar
-  composite: 68.9
+  composite: 67.3
   coverage:
-    artifact_dirs: 33
-    catalog_earned: 92.4
+    artifact_dirs: 34
+    catalog_earned: 89.4
     catalog_earned_first_party: 24.0
-    catalog_gap: 22.6
+    catalog_gap: 25.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 73.7
+    access_clarity: 65.8
     contract_governance: 45.5
     contract_quality: 64.6
     developer_ergonomics: 78.0
@@ -1058,8 +1064,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 41.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

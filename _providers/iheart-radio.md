@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: The iHeartRadio Catalog API provides search and discovery capabilities across the iHeartRadio content catalog, including live broadcast radio stations, digital-only stations, podcasts, artists, tracks
@@ -47,6 +47,10 @@ apis:
   slug: iheartradio-podcasts-api
 artifact_total: 7
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.iheart.com/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/iheart-radio/refs/heads/main/security/iheart-radio-domain-security.yml
   title: ''
@@ -99,19 +103,23 @@ common:
 created: '2026-06-13'
 description: iHeartRadio is a digital radio platform operated by iHeartMedia that provides access to over 800 live broadcast and digital-only radio stations from more than 150 U.S. cities, podcasts, artist-based custom stations, and curated music content. The platform offers REST APIs enabling programmatic access to live station streams, catalog search across stations, podcasts, artists and tracks, and podcast episode retrieval with direct audio stream URLs.
 finops:
-- name: Finops
+- has_sources: false
+  method: generated
+  name: Finops
+  primary_unit: ''
   service_category: ''
   slug: finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/iheart-radio.png
 layout: provider
-modified: '2026-06-13'
+modified: '2026-10-06'
 name: iHeartRadio
 nav: Providers
 network: true
-overview: 'iHeartRadio publishes 3 APIs on the [APIs.io](https://apis.io/) network: Catalog API, Live Stations API, and Podcasts API. Tagged areas include Radio, Podcasts, Music, Streaming, and Audio.
+overview: 'iHeartRadio is listed with 3 APIs on the [APIs.io](https://apis.io/) network: Catalog API, Live Stations API, and Podcasts API. Tagged areas include Radio, Podcasts, Music, Streaming, and Audio.
 
 
-  iHeartRadio''s developer surface includes GitHub presence, pricing, status page, and 9 more developer resources.'
+  iHeartRadio''s developer surface includes GitHub presence, pricing, status page, and 10 more developer resources.'
 plans:
 - name: Plans
   plan_count: 3
@@ -123,17 +131,17 @@ rate_limits:
   slug: rate-limits
 score:
   band: emerging
-  composite: 25.4
+  composite: 19.8
   coverage:
     artifact_dirs: 8
-    catalog_earned: 53.8
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 61.2
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.6
   facets:
-    access_clarity: 57.4
+    access_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 24.0
     developer_ergonomics: 4.8
@@ -146,9 +154,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 9.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

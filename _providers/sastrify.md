@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The Sastrify platform provides SaaS management capabilities including software discovery, license optimization, vendor negotiations, and benchmark insights. It offers native integrations with accounti
@@ -41,6 +41,21 @@ apis:
   slug: sastrify-platform
 artifact_total: 9
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sastrify/refs/heads/main/plans/sastrify-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/sastrify-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/sastrify/refs/heads/main/rate-limits/sastrify-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/sastrify-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sastrify/refs/heads/main/finops/sastrify-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/sastrify-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/sastrify/refs/heads/main/security/sastrify-domain-security.yml
   title: ''
@@ -117,9 +132,13 @@ common:
 created: '2026-03-16'
 description: Sastrify is an AI-powered SaaS management and procurement platform that unites IT, Finance, and Procurement on one intelligent platform. It discovers every tool in an organization's stack, manages licenses and renewals, benchmarks spend automatically against market data, and provides procurement workflow automation to help companies optimize and control their software subscriptions. Sastrify integrates with accounting tools, SSO providers, and SaaS tools for usage analytics, spend visibility, and vendor negotiation support.
 finops:
-- name: Sastrify Finops
+- has_sources: false
+  method: generated
+  name: Sastrify Finops
+  primary_unit: ''
   service_category: API
   slug: sastrify-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sastrify.png
 json_schemas:
 - name: SaaSSubscription
@@ -139,13 +158,13 @@ modified: '2026-05-02'
 name: Sastrify
 nav: Providers
 network: true
-overview: 'Sastrify publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Cost Optimization, License Management, Procurement, SaaS Management, and Software Spend.
+overview: 'Sastrify is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Cost Optimization, License Management, Procurement, SaaS Management, and Software Spend.
 
 
   The Sastrify catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Sastrify''s developer surface includes pricing, engineering blog, support, getting-started guide, FAQ, GitHub presence, signup flow, and 10 more developer resources.'
+  Sastrify''s developer surface includes pricing, engineering blog, support, getting-started guide, FAQ, GitHub presence, signup flow, and 13 more developer resources.'
 plans:
 - name: Sastrify Plans Pricing
   plan_count: 3
@@ -156,9 +175,10 @@ rate_limits:
   name: Sastrify Rate Limits
   slug: sastrify-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Sastrify API Rules
+  name: Sastrify — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -167,18 +187,18 @@ rules:
     warn: 3
   slug: sastrify-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 26.2
+  band: emerging
+  composite: 24.7
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 59.8
+    artifact_dirs: 14
+    catalog_earned: 56.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 55.3
+    catalog_gap: 58.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 32.9
+    access_clarity: 25.0
     contract_governance: 23.5
     contract_quality: 14.7
     developer_ergonomics: 28.6
@@ -191,8 +211,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

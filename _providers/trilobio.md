@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Python interfaces for the core T-code components that drive a Trilobot fleet — Commands, Labware, Locations, Scripts — plus the T-code Servicer client for runtime control and the Integrator client for
@@ -116,7 +116,7 @@ modified: '2026-07-21'
 name: Trilobio
 nav: Providers
 network: true
-overview: 'Trilobio publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Frontier Tech, Lab Automation, Biotechnology, and Life Sciences.
+overview: 'Trilobio is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Frontier Tech, Lab Automation, Biotechnology, and Life Sciences.
 
 
   Trilobio''s developer surface includes documentation, getting-started guide, API reference, engineering blog, signup flow, and 11 more developer resources.'
@@ -151,8 +151,8 @@ score:
     regime: Health
     regime_id: health
     score: 15.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

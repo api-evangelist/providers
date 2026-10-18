@@ -26,14 +26,14 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: false
-    rate_limit_signal: documented
+    protected_resource_metadata: verified
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.6
-  scored_at: '2026-10-04'
+  score: 28.3
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: The core REST API for the Atlan platform, providing programmatic access to all platform capabilities including asset management, data lineage, glossary terms, classifications, custom metadata, persona
@@ -107,9 +107,13 @@ common:
 created: '2026-06-13'
 description: Atlan is a data catalog and metadata management platform — the Context Layer for AI — that unifies metadata from 80+ business systems into a single knowledge graph. It provides REST and GraphQL APIs for managing data assets, lineage, classifications, glossary terms, and data governance workflows. Customers execute 10,000+ API calls per week powering automated documentation, metadata enrichment, and custom integrations across the modern data stack.
 finops:
-- name: Atlan Finops
+- has_sources: false
+  method: generated
+  name: Atlan Finops
+  primary_unit: ''
   service_category: ''
   slug: atlan-finops
+  template: true
 graphqls:
 - description: Atlan exposes a tenant-scoped GraphQL API that provides flexible querying of the platform's knowledge graph — the unified metadata layer spanning 80+ data sources. Through GraphQL, clients can travers
   name: Atlan GraphQL API
@@ -129,7 +133,7 @@ modified: '2026-06-13'
 name: Atlan
 nav: Providers
 network: true
-overview: 'Atlan publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Data Catalog, Metadata Management, Data Governance, Data Lineage, and GraphQL.
+overview: 'Atlan is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Data Catalog, Metadata Management, Data Governance, Data Lineage, and GraphQL.
 
 
   The Atlan catalog on APIs.io includes 1 JSON-LD context.
@@ -147,17 +151,17 @@ rate_limits:
   slug: atlan-rate-limits
 score:
   band: thin
-  composite: 36.7
+  composite: 31.1
   coverage:
-    artifact_dirs: 10
-    catalog_earned: 64.8
+    artifact_dirs: 11
+    catalog_earned: 54.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 50.2
+    catalog_gap: 61.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.6
   facets:
-    access_clarity: 46.8
+    access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 46.8
     developer_ergonomics: 23.8
@@ -172,9 +176,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

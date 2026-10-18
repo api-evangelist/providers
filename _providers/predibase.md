@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.6
-  scored_at: '2026-10-04'
+  score: 20.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -168,16 +168,20 @@ common:
 created: '2026-06-20'
 description: Predibase is a platform for fine-tuning and serving open-source LLMs. It pairs efficient LoRA / Turbo LoRA supervised and reinforcement (GRPO) fine-tuning with serverless and dedicated inference powered by LoRAX, the open-source multi-LoRA serving stack that packs hundreds of adapters onto a single GPU. Inference is exposed through an OpenAI-compatible API plus native generate endpoints.
 finops:
-- name: Predibase Finops
+- has_sources: true
+  method: generated
+  name: Predibase Finops
+  primary_unit: ''
   service_category: AI and Machine Learning
   slug: predibase-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/predibase.png
 layout: provider
 modified: '2026-06-20'
 name: Predibase
 nav: Providers
 network: true
-overview: 'Predibase publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Adapters API, Batch Inference API, Datasets API, and 4 more. Tagged areas include Artificial Intelligence, LLM, Fine-Tuning, Inference, and LoRA.
+overview: 'Predibase publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Adapters API, Batch Inference API, Datasets API, and 4 more. Tagged areas include Artificial Intelligence, LLM, Fine-Tuning, Inference, and LoRA.
 
 
   The Predibase catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -194,10 +198,11 @@ rate_limits:
   name: Predibase Rate Limits
   slug: predibase-rate-limits
 rules:
-- effective_rule_count: 35
+- authorship: generated
+  effective_rule_count: 35
   extends:
   - spectral:asyncapi
-  name: Predibase API Rules
+  name: Predibase — asyncapi rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -207,22 +212,22 @@ rules:
   slug: predibase-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 36.2
+  composite: 27.9
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 65.4
+    artifact_dirs: 14
+    catalog_earned: 46.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 49.6
+    catalog_gap: 68.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 11.4
     contract_quality: 49.3
     developer_ergonomics: 29.8
     discoverability: 66.1
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   previous_composite: 36.2
   provenance:
     agentic_access: derived
@@ -237,9 +242,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

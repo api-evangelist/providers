@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 7
+- acting_count: 6
   human_in_the_loop: 0
   name: Innago Agentic Access
   operation_count: 21
   slug: innago-agentic-access
-  summary_line: 21 operations · 7 acting
+  summary_line: 21 operations · 6 acting
 api_count: 1
 apis:
 - baseURL: https://api-my.innago.com/openapi/v1
@@ -186,9 +186,13 @@ common:
 created: '2026-06-13'
 description: Innago is a free property management software platform with a REST API for managing leases, tenant applications, rent collection, maintenance requests, invoicing, and landlord-tenant communication. The API uses Bearer token and API key authentication and provides endpoints for properties, units, tenants, leases, invoices, payments, expenses, and maintenance tickets.
 finops:
-- name: Finops
+- has_sources: false
+  method: generated
+  name: Finops
+  primary_unit: ''
   service_category: ''
   slug: finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/innago.png
 json_schemas:
 - name: Invoice
@@ -213,7 +217,7 @@ modified: '2026-09-16'
 name: Innago
 nav: Providers
 network: true
-overview: 'Innago publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Expenses API, External References API, Health API, and 6 more. Tagged areas include Property Management, Real Estate, Leases, Rent Collection, and Maintenance.
+overview: 'Innago publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Expenses API, External References API, Health API, and 6 more. Tagged areas include Property Management, Real Estate, Leases, Rent Collection, and Maintenance.
 
 
   The Innago catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -230,9 +234,10 @@ rate_limits:
   name: Rate Limits
   slug: rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Innago API Rules
+  name: Innago — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -242,17 +247,17 @@ rules:
   slug: innago-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 33.7
+  composite: 29.4
   coverage:
     artifact_dirs: 15
-    catalog_earned: 64.5
+    catalog_earned: 56.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 50.6
+    catalog_gap: 58.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -4.3
   facets:
-    access_clarity: 43.9
+    access_clarity: 22.4
     contract_governance: 9.8
     contract_quality: 58.7
     developer_ergonomics: 19.0
@@ -272,8 +277,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 15.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

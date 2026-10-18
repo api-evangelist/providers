@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: documented
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.2
-  scored_at: '2026-10-04'
+  score: 29.3
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 17
@@ -265,6 +265,21 @@ collections:
   name: NGINX njs Scripting Connections Workers API
   slug: open-nginx-workers-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/nginx/refs/heads/main/plans/nginx-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/nginx-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/nginx/refs/heads/main/rate-limits/nginx-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/nginx-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/nginx/refs/heads/main/finops/nginx-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/nginx-finops.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -584,9 +599,13 @@ features:
 - description: Built-in OpenTelemetry module for distributed tracing and observability.
   name: OpenTelemetry
 finops:
-- name: Nginx Finops
+- has_sources: true
+  method: generated
+  name: Nginx Finops
+  primary_unit: ''
   service_category: API Gateway + Load Balancer
   slug: nginx-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nginx.png
 integrations:
 - description: Native Kubernetes integration through NGINX Ingress Controller and Gateway Fabric.
@@ -969,13 +988,13 @@ modified: '2026-05-19'
 name: NGINX
 nav: Providers
 network: true
-overview: 'NGINX publishes 28 APIs on the [APIs.io](https://apis.io/) network, including Connections API, General Info API, HTTP API, and 25 more. Tagged areas include NGINX, API Gateway, Caching, Cloud-Native, and Load Balancer.
+overview: 'NGINX publishes 28 API contracts indexed on the [APIs.io](https://apis.io/) network, including Connections API, General Info API, HTTP API, and 25 more. Tagged areas include NGINX, API Gateway, Caching, Cloud-Native, and Load Balancer.
 
 
   The NGINX catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  NGINX''s developer surface includes documentation, getting-started guide, engineering blog, changelog, support, YouTube channel, Stack Overflow tag, and 24 more developer resources.'
+  NGINX''s developer surface includes documentation, getting-started guide, engineering blog, changelog, support, YouTube channel, Stack Overflow tag, and 27 more developer resources.'
 plans:
 - name: Nginx Plans Pricing
   plan_count: 6
@@ -986,9 +1005,10 @@ rate_limits:
   name: Nginx Rate Limits
   slug: nginx-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: NGINX API Rules
+  name: NGINX — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -996,7 +1016,8 @@ rules:
     info: 2
     warn: 3
   slug: nginx-jsonschema-spectral-rules
-- effective_rule_count: 96
+- authorship: generated
+  effective_rule_count: 96
   extends:
   - spectral:oas
   name: NGINX API Rules
@@ -1009,17 +1030,17 @@ rules:
   slug: nginx-spectral-rules
 score:
   band: developing
-  composite: 45.3
+  composite: 44.0
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 58.0
+    artifact_dirs: 18
+    catalog_earned: 55.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.0
+    catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.4
+  delta: -1.3
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 27.3
     contract_quality: 45.6
     developer_ergonomics: 59.5
@@ -1028,7 +1049,7 @@ score:
   open_source:
     applies: true
     score: 100.0
-  previous_composite: 44.9
+  previous_composite: 45.3
   provenance:
     agentic_access: derived
     contracts:
@@ -1042,8 +1063,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

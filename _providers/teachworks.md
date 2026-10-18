@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -297,16 +297,20 @@ common:
 created: '2026-07-03'
 description: Teachworks is business management software for tutoring companies, music schools, test-prep centers, and other education businesses. It handles scheduling, student and family CRM, teacher management, lesson and event calendars, online billing and invoicing, payments, and teacher wages. The Teachworks API is a REST API (base https://api.teachworks.com/v1, token authentication over HTTPS) that exposes account data - customers, students, employees, lessons, services, invoices, payments, and wages - so companies can build custom integrations. The API is available on the Growth and Premium plans; there is no native webhook or WebSocket surface, and event-driven integrations are delivered through Zapier, Make, and Integrately polling.
 finops:
-- name: Teachworks Finops
+- has_sources: true
+  method: generated
+  name: Teachworks Finops
+  primary_unit: ''
   service_category: Business Management Software
   slug: teachworks-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/teachworks.png
 layout: provider
 modified: '2026-07-03'
 name: Teachworks
 nav: Providers
 network: true
-overview: 'Teachworks publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Availabilities API, Cost Premiums API, Credit Note Allocations API, and 20 more. Tagged areas include Education, Tutoring, EdTech, Scheduling, and Business Management.
+overview: 'Teachworks publishes 23 API contracts indexed on the [APIs.io](https://apis.io/) network, including Availabilities API, Cost Premiums API, Credit Note Allocations API, and 20 more. Tagged areas include Education, Tutoring, EdTech, Scheduling, and Business Management.
 
 
   Teachworks'' developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
@@ -320,23 +324,23 @@ rate_limits:
   name: Teachworks Rate Limits
   slug: teachworks-rate-limits
 score:
-  band: thin
-  composite: 34.3
+  band: emerging
+  composite: 26.0
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 61.6
+    artifact_dirs: 13
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.4
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 46.5
     developer_ergonomics: 29.8
     discoverability: 66.1
-    operational_transparency: 28.4
+    operational_transparency: 7.9
   previous_composite: 34.3
   provenance:
     agentic_access: derived
@@ -351,9 +355,9 @@ score:
     regime: Education & Research
     regime_id: education
     score: 17.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0
@@ -370,7 +374,7 @@ security:
 - kind: vulnerability-disclosure
   name: Teachworks Vulnerability Disclosure
   slug: teachworks-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 slug: teachworks
 tags:
 - Education

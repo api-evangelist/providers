@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: The logging facade providing a feature-rich Java interface for application logging. Applications code against this stable API while delegating to a backing implementation such as Log4j Core.
@@ -44,6 +44,21 @@ apis:
   slug: log4j-core
 artifact_total: 7
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/log4j/refs/heads/main/plans/log4j-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/log4j-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/log4j/refs/heads/main/rate-limits/log4j-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/log4j-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/log4j/refs/heads/main/finops/log4j-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/log4j-finops.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -101,19 +116,23 @@ common:
 created: '2024-01-15'
 description: Apache Log4j is a versatile, industrial-grade Java logging framework composed of an API, its implementation, and components to assist deployment for various use cases. It is part of the Apache Logging Services project. Log4j is a Java library distributed as Maven artifacts and is consumed via its Java API rather than over the network; no public HTTP/REST surface is published.
 finops:
-- name: Log4J Finops
+- has_sources: false
+  method: generated
+  name: Log4J Finops
+  primary_unit: ''
   service_category: API
   slug: log4j-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/log4j.png
 layout: provider
 modified: '2026-04-28'
 name: Apache Log4j
 nav: Providers
 network: true
-overview: 'Apache Log4j publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Apache, Debugging, Java, Library, and Logging.
+overview: 'Apache Log4j is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Apache, Debugging, Java, Library, and Logging.
 
 
-  Apache Log4j''s developer surface includes documentation, getting-started guide, release notes, and 10 more developer resources.'
+  Apache Log4j''s developer surface includes documentation, getting-started guide, release notes, and 13 more developer resources.'
 plans:
 - name: Log4J Plans Pricing
   plan_count: 3
@@ -125,17 +144,17 @@ rate_limits:
   slug: log4j-rate-limits
 score:
   band: emerging
-  composite: 18.7
+  composite: 17.2
   coverage:
     artifact_dirs: 6
-    catalog_earned: 41.0
+    catalog_earned: 38.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 28.6
@@ -148,8 +167,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

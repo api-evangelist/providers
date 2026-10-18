@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: A lightweight, extensible, open source and cross-platform ORM for .NET. Supports SQL Server, PostgreSQL, MySQL, SQLite, Cosmos DB, and in-memory databases.
@@ -44,6 +44,21 @@ apis:
   slug: ef6
 artifact_total: 27
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-entity-framework/refs/heads/main/plans/microsoft-entity-framework-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/microsoft-entity-framework-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-entity-framework/refs/heads/main/rate-limits/microsoft-entity-framework-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/microsoft-entity-framework-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-entity-framework/refs/heads/main/finops/microsoft-entity-framework-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/microsoft-entity-framework-finops.yml
 - group: company
   title: ''
   type: Website
@@ -138,22 +153,26 @@ features:
 - description: Pre-compile LINQ queries for improved performance in hot paths.
   name: Compiled Queries
 finops:
-- name: Microsoft Entity Framework Finops
+- has_sources: false
+  method: generated
+  name: Microsoft Entity Framework Finops
+  primary_unit: ''
   service_category: API
   slug: microsoft-entity-framework-finops
+  template: true
 image: https://docs.microsoft.com/en-us/ef/images/ef-logo.png
 layout: provider
 modified: '2026-04-28'
 name: Microsoft Entity Framework
 nav: Providers
 network: true
-overview: 'Microsoft Entity Framework publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include .NET, Data Access, Database, Entity Framework, and ORM.
+overview: 'Microsoft Entity Framework is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include .NET, Data Access, Database, Entity Framework, and ORM.
 
 
   The Microsoft Entity Framework catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Microsoft Entity Framework''s developer surface includes developer portal, engineering blog, Stack Overflow tag, YouTube channel, support, and 12 more developer resources.'
+  Microsoft Entity Framework''s developer surface includes developer portal, engineering blog, Stack Overflow tag, YouTube channel, support, and 15 more developer resources.'
 plans:
 - name: Microsoft Entity Framework Plans Pricing
   plan_count: 3
@@ -164,9 +183,10 @@ rate_limits:
   name: Microsoft Entity Framework Rate Limits
   slug: microsoft-entity-framework-rate-limits
 rules:
-- effective_rule_count: 14
+- authorship: unmarked
+  effective_rule_count: 14
   extends: []
-  name: Microsoft Entity Framework API Rules
+  name: Microsoft Entity Framework — entity framework rules
   rule_count: 14
   severity_counts:
     error: 13
@@ -176,18 +196,18 @@ rules:
   slug: entity-framework-spectral-rules
 score:
   band: thin
-  composite: 36.1
+  composite: 32.7
   coverage:
     artifact_dirs: 9
-    catalog_earned: 55.0
+    catalog_earned: 45.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 60.0
+    catalog_gap: 69.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.4
   facets:
-    access_clarity: 36.8
-    contract_governance: 27.3
+    access_clarity: 28.9
+    contract_governance: 7.6
     contract_quality: 0.0
     developer_ergonomics: 47.6
     discoverability: 73.2
@@ -202,8 +222,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

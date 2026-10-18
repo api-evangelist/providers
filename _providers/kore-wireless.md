@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 1
@@ -44,7 +44,7 @@ agentic_access:
   operation_count: 117
   slug: kore-wireless-agentic-access
   summary_line: 117 operations · 46 acting · 1 human-in-the-loop
-api_count: 8
+api_count: 16
 apis:
 - baseURL: https://api.korewireless.com/connectivity
   baseurl_source: declared
@@ -498,7 +498,7 @@ modified: '2026-07-25'
 name: KORE Wireless
 nav: Providers
 network: true
-overview: 'KORE Wireless publishes 35 APIs on the [APIs.io](https://apis.io/) network, including Account API, Accounts API, Activation Profiles API, and 32 more. Tagged areas include Telecommunications, United States, IoT, eSIM, and Connectivity.
+overview: 'KORE Wireless publishes 35 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Accounts API, Activation Profiles API, and 32 more. Tagged areas include Telecommunications, United States, IoT, eSIM, and Connectivity.
 
 
   The KORE Wireless catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -521,7 +521,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 10.5
     contract_governance: 18.2
@@ -536,7 +536,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 46.6
+  previous_composite: 47.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -553,8 +553,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 38.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -572,7 +572,7 @@ security:
 - kind: vulnerability-disclosure
   name: Kore Wireless Vulnerability Disclosure
   slug: kore-wireless-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 slug: kore-wireless
 tags:
 - Telecommunications

@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.8
-  scored_at: '2026-10-04'
+  score: 22.9
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 9
+- acting_count: 8
   human_in_the_loop: 0
   name: Amazon Security Lake Agentic Access
   operation_count: 13
   slug: amazon-security-lake-agentic-access
-  summary_line: 13 operations · 9 acting
+  summary_line: 13 operations · 8 acting
 api_count: 3
 apis:
 - baseURL: https://securitylake.{region}.amazonaws.com
@@ -103,6 +103,21 @@ collections:
   name: Amazon Security Lake API
   slug: open-amazon-security-lake
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-security-lake/refs/heads/main/plans/amazon-security-lake-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/amazon-security-lake-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-security-lake/refs/heads/main/rate-limits/amazon-security-lake-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/amazon-security-lake-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-security-lake/refs/heads/main/finops/amazon-security-lake-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/amazon-security-lake-finops.yml
 - group: company
   title: ''
   type: Website
@@ -318,9 +333,13 @@ features:
 - description: Ingest custom and third-party security data sources in OCSF format.
   name: Custom Log Sources
 finops:
-- name: Amazon Security Lake Finops
+- has_sources: false
+  method: generated
+  name: Amazon Security Lake Finops
+  primary_unit: ''
   service_category: API
   slug: amazon-security-lake-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amazon-security-lake.png
 json_schemas:
 - name: DataLake
@@ -352,13 +371,13 @@ modified: '2026-09-16'
 name: Amazon Security Lake
 nav: Providers
 network: true
-overview: 'Amazon Security Lake publishes 3 APIs on the [APIs.io](https://apis.io/) network: Data Lakes API, Log Sources API, and Subscribers API. Tagged areas include Data Lake, Security, SIEM, and Threat Detection.
+overview: 'Amazon Security Lake is listed with 3 APIs on the [APIs.io](https://apis.io/) network: Data Lakes API, Log Sources API, and Subscribers API. Tagged areas include Data Lake, Security, SIEM, and Threat Detection.
 
 
   The Amazon Security Lake catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Security Lake''s developer surface includes authentication, developer portal, getting-started guide, documentation, API reference, developer console, signup flow, and 34 more developer resources.'
+  Amazon Security Lake''s developer surface includes authentication, developer portal, getting-started guide, documentation, API reference, developer console, signup flow, and 37 more developer resources.'
 plans:
 - name: Amazon Security Lake Plans Pricing
   plan_count: 3
@@ -369,9 +388,10 @@ rate_limits:
   name: Amazon Security Lake Rate Limits
   slug: amazon-security-lake-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Amazon Security Lake API Rules
+  name: Amazon Security Lake — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -379,7 +399,8 @@ rules:
     info: 2
     warn: 3
   slug: amazon-security-lake-jsonschema-spectral-rules
-- effective_rule_count: 68
+- authorship: generated
+  effective_rule_count: 68
   extends:
   - spectral:oas
   name: Amazon Security Lake API Rules
@@ -391,18 +412,18 @@ rules:
     warn: 15
   slug: amazon-security-lake-spectral-rules
 score:
-  band: strong
-  composite: 55.1
+  band: developing
+  composite: 53.6
   coverage:
     artifact_dirs: 19
-    catalog_earned: 70.0
+    catalog_earned: 67.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 45.0
+    catalog_gap: 48.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 76.3
+    access_clarity: 68.4
     contract_governance: 27.3
     contract_quality: 32.3
     developer_ergonomics: 65.5
@@ -422,8 +443,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

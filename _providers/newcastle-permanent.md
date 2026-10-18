@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - baseURL: https://openbank.newcastlepermanent.com.au/cds-au/v1/banking/products
@@ -267,7 +267,7 @@ modified: '2026-07-21'
 name: Newcastle Permanent Building Society
 nav: Providers
 network: true
-overview: 'Newcastle Permanent Building Society publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Banking Account Balances API, Banking Account Direct Debits API, Banking Account Scheduled Payments API, and 6 more. Tagged areas include Finance, Banks, Open Banking, CDR, and Consumer Banking.
+overview: 'Newcastle Permanent Building Society publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Banking Account Balances API, Banking Account Direct Debits API, Banking Account Scheduled Payments API, and 6 more. Tagged areas include Finance, Banks, Open Banking, CDR, and Consumer Banking.
 
 
   Newcastle Permanent Building Society''s developer surface includes getting-started guide, documentation, API reference, sandbox, authentication, support, and 23 more developer resources.'
@@ -281,7 +281,7 @@ score:
   band: thin
   composite: 39.2
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -324,8 +324,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 54.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

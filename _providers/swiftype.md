@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: REST API for managing Swiftype search engines, indexing documents, controlling the web crawler and domains, running search and autocomplete queries, and retrieving query/click analytics. Authenticated
@@ -43,6 +43,10 @@ apis:
   slug: swiftype-site-search-api
 artifact_total: 5
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://swiftype.com/press
 - group: company
   title: ''
   type: Website
@@ -133,14 +137,14 @@ mcp_servers:
 - description: Remote MCP server over HTTP; 10 tools listed. A candidate, not confirmed as published by the provider.
   name: Swiftype MCP Server
   slug: swiftype-site-search
-modified: '2026-09-16'
+modified: '2026-10-06'
 name: Swiftype
 nav: Providers
 network: true
-overview: 'Swiftype publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Search, Site Search, App Search, Full-Text Search, and Autocomplete.
+overview: 'Swiftype is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Search, Site Search, App Search, Full-Text Search, and Autocomplete.
 
 
-  Swiftype''s developer surface includes documentation, API reference, support, authentication, and 14 more developer resources.'
+  Swiftype''s developer surface includes engineering blog, documentation, API reference, support, authentication, and 14 more developer resources.'
 random_paper: 11
 rate_limits:
 - limit_count: 0
@@ -148,20 +152,20 @@ rate_limits:
   slug: swiftype-rate-limits
 score:
   band: emerging
-  composite: 20.4
+  composite: 21.0
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 14
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 0.0
     contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 50.0
+    developer_ergonomics: 52.4
     discoverability: 73.2
     operational_transparency: 18.4
   previous_composite: 20.4
@@ -174,8 +178,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

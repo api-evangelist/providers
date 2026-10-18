@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://handup.org/press
 - group: company
   title: ''
   type: Website
@@ -89,14 +93,14 @@ created: '2026-07-17'
 description: HandUp is a San Francisco-based public-benefit crowdfunding platform that makes giving to nonprofit organizations and the people they serve easy, secure, and transparent. Launched in 2013 and backed by 500 Global and Version One Ventures, HandUp partners with 501(c)(3) nonprofits whose mission is to serve people experiencing poverty and homelessness. Donors give directly to individual campaigns or to pooled funds such as the National Fund and the HandUp Fund; partner nonprofits then distribute the donations to cover basics like food, clothing, and housing, and report progress and metrics back to donors.
 image: https://s3.amazonaws.com/handup-static/img/social/social_image.jpg
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: HandUp
 nav: Providers
 network: true
 overview: 'HandUp is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crowdfunding, Non-Profit, Donations, and Philanthropy.
 
 
-  HandUp''s developer surface includes getting-started guide, support, engineering blog, signup flow, and 8 more developer resources.'
+  HandUp''s developer surface includes engineering blog, getting-started guide, support, signup flow, and 9 more developer resources.'
 random_paper: 2
 score:
   band: emerging
@@ -130,8 +134,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

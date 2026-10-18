@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 3.8
-  scored_at: '2026-10-04'
+  score: 1.9
+  scored_at: '2026-10-17'
 api_count: 7
 apis:
 - description: The FHFA House Price Index (HPI) is a comprehensive, publicly available dataset measuring changes in single-family home values across all 50 states and over 400 American cities, with data extending ba
@@ -172,9 +172,13 @@ common:
 created: '2026-06-13'
 description: The Federal Housing Finance Agency (FHFA) is an independent federal regulator established in 2008 that supervises Fannie Mae, Freddie Mac, and the Federal Home Loan Bank System. FHFA provides publicly accessible data APIs and datasets covering house price indexes (FHFA HPI), mortgage market surveys, conforming loan limits, National Mortgage Database (NMDB) aggregate statistics, Public Use Databases (PUDB) for Fannie Mae and Freddie Mac, Uniform Appraisal Dataset (UAD) statistics, and GSE performance and duty-to-serve data. Data is available in CSV, JSON, XML, and Excel formats with open public access under FHFA's API Terms of Service.
 finops:
-- name: Fhfa Finops
+- has_sources: false
+  method: generated
+  name: Fhfa Finops
+  primary_unit: ''
   service_category: API
   slug: fhfa-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fhfa.png
 json_schemas:
 - name: FHFA House Price Index — hpi_master record
@@ -190,7 +194,7 @@ modified: '2026-06-13'
 name: Federal Housing Finance Agency (FHFA)
 nav: Providers
 network: true
-overview: 'Federal Housing Finance Agency (FHFA) publishes 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Housing Finance, House Price Index, Mortgage, Government, and Government-Sponsored Enterprise.
+overview: 'Federal Housing Finance Agency (FHFA) is listed with 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Housing Finance, House Price Index, Mortgage, Government, and Government-Sponsored Enterprise.
 
 
   The Federal Housing Finance Agency (FHFA) catalog on APIs.io includes 1 JSON-LD context.
@@ -208,22 +212,22 @@ rate_limits:
   slug: fhfa-rate-limits
 score:
   band: thin
-  composite: 35.4
+  composite: 28.0
   coverage:
     artifact_dirs: 15
-    catalog_earned: 68.8
+    catalog_earned: 51.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 46.2
+    catalog_gap: 63.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.4
   facets:
-    access_clarity: 47.9
+    access_clarity: 26.3
     contract_governance: 18.2
-    contract_quality: 28.4
+    contract_quality: 23.2
     developer_ergonomics: 16.7
     discoverability: 69.6
-    operational_transparency: 34.7
+    operational_transparency: 21.1
   previous_composite: 35.4
   provenance:
     conformance: first-party
@@ -233,9 +237,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

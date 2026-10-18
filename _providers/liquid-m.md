@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -91,6 +91,10 @@ collections:
   name: LiquidM Management Ads Reporting API
   slug: open-liquid-m-reporting-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.equativ.com/blog
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/liquid-m/refs/heads/main/agentic-access/liquid-m-agentic-access.yml
   title: ''
@@ -228,14 +232,14 @@ json_schemas:
   property_count: 3
   slug: liquid-m-visual-report
 layout: provider
-modified: '2026-08-13'
+modified: '2026-10-06'
 name: Liquid M
 nav: Providers
 network: true
-overview: 'Liquid M publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Ads API, Authentication API, Budgets API, and 2 more. Tagged areas include Company, Advertising, AdTech, DSP, and Programmatic Advertising.
+overview: 'Liquid M publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Ads API, Authentication API, Budgets API, and 2 more. Tagged areas include Company, Advertising, AdTech, DSP, and Programmatic Advertising.
 
 
-  Liquid M''s developer surface includes developer portal, signup flow, authentication, code examples, API reference, and 21 more developer resources.'
+  Liquid M''s developer surface includes engineering blog, developer portal, signup flow, authentication, code examples, API reference, and 21 more developer resources.'
 plans:
 - name: Liquid M Plans Pricing
   plan_count: 0
@@ -247,20 +251,20 @@ rate_limits:
   slug: liquid-m-rate-limits
 score:
   band: emerging
-  composite: 22.8
+  composite: 23.4
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 25
     catalog_earned: 42.0
     catalog_earned_first_party: 5.0
     catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 0.0
     contract_governance: 19.7
     contract_quality: 15.7
-    developer_ergonomics: 47.0
+    developer_ergonomics: 49.4
     discoverability: 73.2
     operational_transparency: 2.6
   jurisdiction:
@@ -288,8 +292,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: 'The Web API plugin of the Forescout eyeExtend Connect Open Integration Module lets external systems query and act on the Forescout platform over HTTP. Clients authenticate at POST /api/login and pass '
@@ -48,6 +48,10 @@ apis:
   slug: forescout-eyesight-admin-api
 artifact_total: 5
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.forescout.com/feed/
 - group: company
   title: ''
   type: Website
@@ -127,20 +131,20 @@ created: '2026-07-17'
 description: Forescout Technologies is a cybersecurity company specializing in automated cybersecurity for device visibility, control, and compliance across IT, OT/ICS, IoT, and IoMT environments. The Forescout Platform (eyeSight, eyeControl, eyeInspect, eyeExtend, and Risk & Exposure Management) discovers, classifies, assesses, and secures every connected asset on the network without requiring agents. Forescout exposes REST APIs for external integration through the Open Integration Module (OIM) of eyeExtend Connect — the Web API and Data Exchange (DEX) plugins — plus the eyeSight Admin API and the eyeInspect Command Center REST API, giving programmatic access to host inventory, network policies, alerts, and vulnerability data. First-party integration example code (Python, Node, and Postman collections) is published in the Forescout GitHub org.
 image: https://www.forescout.com/wp-content/uploads/2021/09/forescout-logo.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Forescout
 nav: Providers
 network: true
-overview: 'Forescout publishes 3 APIs on the [APIs.io](https://apis.io/) network, including Web API (Open Integration Module), and 2 more. Tagged areas include Company, Cybersecurity, Network Security, Device Visibility, and Asset Inventory.
+overview: 'Forescout is listed with 3 APIs on the [APIs.io](https://apis.io/) network, including Web API (Open Integration Module), and 2 more. Tagged areas include Company, Cybersecurity, Network Security, Device Visibility, and Asset Inventory.
 
 
-  Forescout''s developer surface includes documentation, API reference, engineering blog, authentication, and 13 more developer resources.'
+  Forescout''s developer surface includes documentation, API reference, engineering blog, authentication, and 14 more developer resources.'
 random_paper: 18
 score:
   band: emerging
   composite: 23.6
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -164,8 +168,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -54,7 +54,7 @@ arazzos:
 - description: List models for a task, pick one, and run serverless inference.
   name: Discover and run a Bytez model
   slug: bytez-discover-and-run
-artifact_total: 8
+artifact_total: 9
 collections:
 - collection_type: open
   name: API Collection
@@ -63,6 +63,16 @@ collections:
   name: Open Source Model Models API
   slug: open-bytez-models-api
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/bytez/refs/heads/main/rate-limits/bytez-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/bytez-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/bytez/refs/heads/main/plans/bytez-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/bytez-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/bytez/refs/heads/main/capabilities/bytez-capability-edges.yml
   title: ''
@@ -189,10 +199,14 @@ modified: '2026-07-18'
 name: Bytez
 nav: Providers
 network: true
-overview: 'Bytez publishes 1 API on the [APIs.io](https://apis.io/) network: Models API. Tagged areas include Company, Artificial Intelligence, Machine Learning, Model Inference, and LLM.
+overview: 'Bytez publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Models API. Tagged areas include Company, Artificial Intelligence, Machine Learning, Model Inference, and LLM.
 
 
-  Bytez''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, support, and 19 more developer resources.'
+  Bytez''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, support, and 21 more developer resources.'
+plans:
+- name: Bytez Plans Pricing
+  plan_count: 8
+  slug: bytez-plans-pricing
 random_paper: 8
 rate_limits:
 - limit_count: 0
@@ -200,17 +214,17 @@ rate_limits:
   slug: bytez-rate-limits
 score:
   band: developing
-  composite: 39.7
+  composite: 46.1
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 24
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.4
   facets:
-    access_clarity: 23.7
+    access_clarity: 55.3
     contract_governance: 4.5
     contract_quality: 50.2
     developer_ergonomics: 66.1
@@ -233,9 +247,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

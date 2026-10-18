@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.3
-  scored_at: '2026-10-04'
+  score: 15.4
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -87,6 +87,21 @@ collections:
   name: Strimzi Kafka Bridge REST Consumer Topics API
   slug: open-strimzi-topics-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/strimzi/refs/heads/main/plans/strimzi-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/strimzi-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/strimzi/refs/heads/main/rate-limits/strimzi-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/strimzi-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/strimzi/refs/heads/main/finops/strimzi-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/strimzi-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/strimzi/refs/heads/main/agentic-access/strimzi-agentic-access.yml
   title: ''
@@ -162,9 +177,13 @@ examples:
   name: Strimzi Kafka Cluster Example
   slug: strimzi-kafka-cluster-example
 finops:
-- name: Strimzi Finops
+- has_sources: false
+  method: generated
+  name: Strimzi Finops
+  primary_unit: ''
   service_category: API
   slug: strimzi-finops
+  template: true
 image: https://strimzi.io/images/logo/strimzi-logo.png
 json_schemas:
 - name: Strimzi Kafka Custom Resource
@@ -184,13 +203,13 @@ modified: '2026-05-19'
 name: Strimzi
 nav: Providers
 network: true
-overview: 'Strimzi publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Consumer API, Producer API, Seek API, and 2 more. Tagged areas include Kafka, Kubernetes, Messaging, Operator, and Streaming.
+overview: 'Strimzi publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Consumer API, Producer API, Seek API, and 2 more. Tagged areas include Kafka, Kubernetes, Messaging, Operator, and Streaming.
 
 
   The Strimzi catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Strimzi''s developer surface includes documentation, GitHub presence, engineering blog, changelog, and 10 more developer resources.'
+  Strimzi''s developer surface includes documentation, GitHub presence, engineering blog, changelog, and 13 more developer resources.'
 plans:
 - name: Strimzi Plans Pricing
   plan_count: 3
@@ -201,9 +220,10 @@ rate_limits:
   name: Strimzi Rate Limits
   slug: strimzi-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Strimzi API Rules
+  name: Strimzi — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -211,7 +231,8 @@ rules:
     info: 2
     warn: 3
   slug: strimzi-jsonschema-spectral-rules
-- effective_rule_count: 49
+- authorship: unmarked
+  effective_rule_count: 49
   extends:
   - spectral:oas
   name: Strimzi API Rules
@@ -224,17 +245,17 @@ rules:
   slug: strimzi-rules
 score:
   band: thin
-  composite: 28.6
+  composite: 27.1
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 55.9
+    artifact_dirs: 18
+    catalog_earned: 52.9
     catalog_earned_first_party: 0.0
-    catalog_gap: 59.1
+    catalog_gap: 62.1
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 13.6
     contract_quality: 49.6
     developer_ergonomics: 16.7
@@ -254,8 +275,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

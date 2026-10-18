@@ -11,11 +11,8 @@
 # All weights and point values are tunable. Keep this file the single source
 # of truth for the rubric — code that scores providers should read from here.
 
-schema_version: 0.23.0
-last_updated: '2026-09-25'
-# The first build that published 0.23.0 catalog-wide (the 2026-09-25 evening run failed its gate
-# and did not deploy; the 2026-09-26 04:55 run did). Read by kin-score/bin/sync-rubric-docs.py.
-live_since: '2026-09-26'
+schema_version: 0.24.0
+last_updated: '2026-10-15'
 maintainer: kin@apievangelist.com
 
 # The public "what changed" note. The apis.io /rating/ page renders this rather than
@@ -25,90 +22,56 @@ maintainer: kin@apievangelist.com
 # checked against schema_version by test_rubric_record.py: a rubric cannot reach a
 # rebuild carrying the previous release's story.
 release_note:
-  version: 0.23.0
+  version: 0.24.0
   body: |
-    THE LONDON RELEASE, published 25 September 2026 ahead of API Days London (30 September).
-    Scores move for most of the catalog: 25,659 of 26,192 composites (median -0.8), 2,078 band
-    changes (1,638 down, 440 up), 515 agent-readiness band changes. No band re-cut: no band share
-    moved more than 1.4 points. Our own record moves too: apis.io 88.8 -> 90.9.
+    THE FIRST WEEKLY RELEASE, published 15 October 2026. No weight or band-cut changes. Four
+    corrections to how we credit artifacts, one new regulatory regime and one new regulatory check.
+    Against the scores published 2026-10-11, measured on the full catalog (28,952 providers):
+    7,232 composites move by more than 0.1 (7,044 down, 188 up, median -1.6); 1,949 band changes
+    (1,845 down, 104 up). No band share moved more than 1.3 points, so no re-cut. Agent readiness
+    is untouched by this release. Our own record: apis.io 90.6 -> 93.6.
 
-    EVERY COMPANY IS REACHED BY SOME LAW. The regulatory facet used to apply only where a sector
-    matched (banking, health, payments...), which scored two thirds of the catalog as if no law
-    reached them. A horizontal regime -- GDPR, the EU AI Act, the Cyber Resilience Act, the
-    Accessibility Act, US state privacy law -- now applies to every provider no sector claims:
-    16,589 providers gain a regulatory facet (roadmap#442).
+    A PLANS FILE WE GENERATED IS CREDITED AS OURS. This is a correction to our own credit, not a
+    penalty on anyone. The enrichment pipeline writes plans, rate-limit, schema and ruleset files
+    for providers who publish none, and since 2026-10-07 it stamps them `method: generated`. 0.24.0
+    reads that stamp: 5,460 providers whose plans file we generated now earn the derived credit
+    (0.25) instead of full credit for work they did not publish. A provider who publishes its own
+    plans -- and marks them -- gets the full credit back (roadmap#943).
 
-    FOURTEEN REGULATORY-POSTURE CHECKS. Subprocessor lists, DPAs, data-residency and retention
-    statements, AI transparency and training-data summaries, accessibility conformance, support
-    lifetimes and more -- 4 points each, in the regulatory facet (108 -> 164 points). Adoption is
-    near zero today; the rows nobody passes are the work list, not an oversight (roadmap#444).
-    Each regime's mean was re-measured against the enlarged facet, so a provider is compared with
-    its peers, not docked for checks nobody can satisfy yet.
+    FINOPS MAPPING NOW NEEDS A STATED UNIT. Through 0.23.0 the 3-point `finops_mapped` check awarded
+    for the existence of a FinOps artifact, and almost all of the 6,680 in the catalog are sweep
+    output restating the FinOps framework. From 0.24.0 the check awards only an artifact that names
+    the billing unit, cites its source and is not a template: 96 providers keep it, the rest lose
+    3 points (-1.5 composite). The templated artifacts are marked `x-coverage: unmeasured` and no
+    longer badge FOCUS alignment. A FinOps artifact that names your unit and source restores the
+    award on the next build (roadmap#942).
 
-    NEWSROOM AND LEADERSHIP are canonical pointer types, one discoverability point each
-    (roadmap#452).
+    A PROVIDER'S RULESETS ARE GRADED BY THE ONE THE SCORE USES. Authorship was read from whichever
+    ruleset sorted first; the rules checks credit the largest. An unmarked ruleset is now read as
+    ours -- the enrichment pipeline writes them, and a provider who wrote their own marks it and
+    gets full credit. Measured on the candidate: 174 composites fall (median -3.8), 45 band changes.
+    Our own record rises, because apis.io's ruleset is marked as authored by apis.io
+    (roadmap#795, #791).
 
-    MARK YOUR OWN WORK, AND IT PAYS. An artifact the provider marks `method: declared | authored |
-    published | self-reported`, beside a `publisher:` and a resolvable `source:`, is first-party.
-    An unmarked artifact is now credited at 0.90 rather than in full, so marking authorship is
-    worth 10% on every provenance-graded check. The vocabulary is on /rating/#provenance
-    (roadmap#285).
+    AUTHORSHIP WRITTEN INSIDE A BLOCK COUNTS. An artifact that records who made it under
+    `x-provenance:` or `info:` rather than at the top of the file was read as unmarked. It is now
+    read: 89 providers, mostly JSON Schema sets we generated; 75 composites fall, median -0.9
+    (roadmap#794).
 
-    OUR DERIVATION IS NOT YOUR DOCUMENTATION. Idempotency, error semantics and rate-limit
-    signalling earn their `documented` half-credit from a provider-level artifact. When every such
-    artifact is one API Evangelist derived -- an error catalog generated from your contract, say --
-    the grade is `derived` at 0.125, and it does not open the agent-native band. A transcription of
-    what you wrote in prose still counts as documented (roadmap#787).
+    AI AND BIOMETRIC PROVIDERS HAVE THEIR OWN REGIME. Face, voice, fingerprint and liveness
+    processing, and generative and person-facing AI, were scored as one horizontal company among
+    seventeen thousand. A new AI & Biometrics regime -- EU AI Act Art. 5, Annex III, Art. 50 and
+    Art. 53-55, GDPR Art. 9, BIPA, Texas CUBI and TRAIGA, Washington RCW 19.375 and My Health My
+    Data -- sits above the horizontal fallback and below every sector, so it only ever moves a
+    provider off the fallback: 763 do. A bare `LLM` tag does not qualify; gateways and tooling stay
+    horizontal. A provider with a biometric surface is now asked for its public retention and
+    destruction policy (BIPA s.15(a)) in any regime (roadmap#797).
 
-    AN AGENT CARD A PLATFORM SERVES FOR YOU is credited at 0.6 of its conformance grade: the
-    identity and content are yours, the host and transport are the platform's (roadmap#461).
+    EVERY REGIME MEAN WAS RE-MEASURED, because the regulatory facet gained a regime and a check.
+    Defunct companies excluded, 27,830 regulated providers: AI & Biometrics 17.9 (n=759); horizontal
+    15.6 -> 15.1, because the new regime took its above-mean members; the sectoral means move by 0.3
+    or less. The re-centring itself moves composites by at most 0.1.
 
-    A POINTER HAS TO LEAD SOMEWHERE. A repo-relative artifact pointer now earns credit only if
-    the file it names exists. Enrichment runs had written pointers for artifacts they never
-    produced, and the rubric paid for them without looking (roadmap#376).
-
-    CAN AN AGENT ADDRESS YOUR MCP SERVER? Discoverability gains `mcp_endpoint_discoverable`.
-    A server whose endpoint is a template nobody can fill in from public information
-    (`https://{tenant}.mcp.example.com/mcp`) no longer scores like one an agent can reach
-    unaided. Providers without an MCP server are unaffected: the check is not applicable to
-    them (roadmap#318).
-
-    "POLICY" IS NOT INSURANCE. Policy-as-code, authorization and network-policy companies were
-    being scored under the insurance regime because a tag contained the word `policy`. The word
-    no longer places a provider in the regime; insurance-specific compounds do (roadmap#431).
-
-    EMPLOYMENT AND PAYROLL IS A REGULATED SURFACE. A new regime covers payroll, employer-of-record,
-    PEO and HRIS providers (worker data under GDPR Art. 88, statutory payroll reporting, screening on
-    contractor payouts). A learning-management tag on its own no longer places a provider in the
-    education regime (roadmap#427).
-
-    THE PROVIDER'S OWN DOMAIN COUNTS FOR SELF-HOSTING even when that domain is also a catalog
-    host (roadmap#323).
-
-    A WORDPRESS PLUGIN IS NOT AN MCP PRODUCT. 108 providers' graded MCP endpoint is the WordPress
-    MCP Adapter namespace (`/wp-json/mcp/...`) on their marketing site, and every one of them was
-    credited as a first-party MCP server. That endpoint is now its own provenance class,
-    `site-plugin`: credited like derived work (0.25) and graded `platform` in agent readiness.
-    MCP manifests whose own status says someone else runs the server (`third-party`, `platform`,
-    `platform-default`, `community`) leave the first-party path the same way (roadmap#485).
-
-    A WEBSITE OR STORE PLATFORM'S BUILT-IN ENDPOINTS ARE NOT THE COMPANY'S API. Every Wix site
-    serves an MCP server at /_api/mcp; every Shopify store serves a Storefront GraphQL API, a UCP
-    commerce endpoint and a customer-account API; every WordPress site serves /wp-json. They are
-    real and callable, and the platform designed them. They are now one provenance class,
-    `platform-generated`, credited like the WordPress plugin (0.25) — the capability still counts
-    for agent readiness, the company is no longer paid as if it had built an API
-    (roadmap#676, #680).
-
-    AN ACQUIRED COMPANY WITH NOTHING LEFT IS UNRATED. A record marked `x-status: acquired` that
-    has no website and no APIs is a company that was absorbed; its page stays as history and it
-    carries no rating, exactly as a defunct company already does (roadmap#501).
-
-    Not rubric changes, but shipping in the same pass: a defunct company scores zero (roadmap#593);
-    protected-resource metadata and dynamic client registration were re-probed on 656 MCP hosts
-    (roadmap#321, #337); and marketing-site base URLs were removed from 3,035 API records
-    (roadmap#569, #628), which lowers base_url_per_api where a provider's only base URL was its
-    homepage.
 aliases:
   # 0.13 (roadmap#71) — the Examples family. A provider publishing a separate example
   # corpus wired `Examples` in good faith and it was read by NOTHING; four spellings of
@@ -531,6 +494,23 @@ provenance:
   # so /rating/ can render it; build_provenance.py reads it from here rather than carrying its
   # own. Absent from a rubric (as it is from 0.22.0), the classifier keeps its old behaviour —
   # which is what keeps this inert until this release ships.
+  # 0.24.0 — the parent keys under which a nested `method:` counts as an authorship marker
+  # (build_provenance.py nested_method, roadmap#794). METHOD_RE only reads column 0, so an
+  # artifact stamped `x-provenance.method: derived` resolved `unknown` at 0.90 instead of derived
+  # at 0.25 -- 89 providers, mostly JSON Schema sets; OpenAPI already reads x-provenance through
+  # OA_DERIVED_RE and does not move. Matched by parent NAME, so an AsyncAPI HTTP
+  # binding's `method: get` is never read. `x-evidence` is deliberately NOT listed: its `method`
+  # mixes HTTP verbs with prose (`derived-from-published-docs`), so it does not say who authored
+  # the file. Absent from 0.23.0, so the reader is inert until this ships.
+  nested_method_containers: [x-provenance, x-apievangelist, x-apievangelist-provenance,
+                             x-apievangelist-derivation, info]
+  # 0.24.0 (roadmap#795) — grade the rules family by the ruleset the rules checks credit (the one
+  # with the most rules), and read an unmarked ruleset as derived: the enrichment pipeline writes
+  # these, providers do not, and a provider who wrote theirs marks it (author_markers below) and
+  # gets full credit. Kin's call 2026-09-26. The two ship together: the first alone would lift 798
+  # providers from 0.25 to 0.90 on rulesets we wrote.
+  family_primary: [rules]
+  unmarked_as_derived: [rules]
   author_markers:
     methods: [declared, authored, published, self-reported]
     requires: [publisher, source]
@@ -936,9 +916,14 @@ facets:
 # `industry_regulatory` while this note stands, so the question cannot be reopened by accident.
 regime_means:
   _default: 16.0          # all-SECTORAL mean; a sectoral regime with no cohort yet. Never the fallback.
-  _measured_at: '2026-09-25'
-  _rubric: 0.23.0         # RECOMPUTED against the 164-point facet (roadmap#444) and the horizontal cohort (#442)
-  _n: 26352
+  _measured_at: '2026-10-15'
+  _rubric: 0.24.0         # RE-MEASURED on build day: #797 adds a regime and a check (reg_biometric_retention_policy)
+  _n: 27830
+  # 0.24.0 -- measured 2026-10-15 on the full candidate snapshot (28,952 rows), regulatory facet value
+  # per member, zeroed/defunct excluded (1,122 rows). 0.23.0 values: horizontal 15.6 (n=16589),
+  # health 12.4, payments 19.7, energy_utilities 13.3, education 18.6, government 13.1, insurance 16.7,
+  # banking_open_finance 20.6, securities_market_data 20.9, employment_payroll 18.8, telecommunications
+  # 20.2; ai_biometrics 17.9 (2026-10-08). Horizontal falls because #797 took 759 above-mean members.
   # 0.23.0 — measured 2026-09-25 on a full candidate snapshot (27,448 rows), final 0.23 code, the
   # regulatory facet's own value per member, DEFUNCT EXCLUDED (1,096 rows, exactly the set
   # defunct_lifecycle? names: zero_defunct! blanks their facets, so counting them would drag every
@@ -952,17 +937,18 @@ regime_means:
   # energy_utilities 19.4 (920), government 21.7 (836), education 27.6 (834), insurance 27.2 (719),
   # banking_open_finance 31.1 (641), securities_market_data 35.2 (475), telecommunications 29.5 (448),
   # employment_payroll 35.3 (430, candidate 2026-09-17); _default 24.9, n=8991, rubric 0.12.0.
-  horizontal: 15.6                # n=16589  median 13.7  (roadmap#442 — measured, never _default)
-  health: 12.4                    # n=3040   median 10.9
-  payments: 19.7                  # n=1369   median 17.9
-  energy_utilities: 13.3          # n=998    median 10.8
-  education: 18.6                 # n=860    median 16.7
-  government: 13.1                # n=848    median 10.8
-  insurance: 16.7                 # n=672    median 12.3
-  banking_open_finance: 20.6      # n=627    median 15.7
-  securities_market_data: 20.9    # n=508    median 21.3
-  employment_payroll: 18.8        # n=423    median 16.7
-  telecommunications: 20.2        # n=418    median 16.7
+  horizontal: 15.1          # n=16991  median 12.7
+  health: 12.1              # n=3209   median 10.9
+  payments: 19.5            # n=1392   median 17.9
+  energy_utilities: 13.2    # n=1035   median 10.8
+  education: 18.4           # n=880    median 16.7
+  government: 13.3          # n=852    median 10.8
+  insurance: 16.6           # n=691    median 12.3
+  banking_open_finance: 20.4 # n=644    median 15.7
+  securities_market_data: 20.6 # n=515    median 20.4
+  employment_payroll: 18.8  # n=429    median 16.7
+  telecommunications: 20.4  # n=433    median 16.7
+  ai_biometrics: 17.9       # n=759    median 16.4
 
 # ---------------------------------------------------------------------------------------------
 # DOES JURISDICTION GATE ANYTHING? NO — DECIDED 2026-09-19 (roadmap#445, roadmap#85).
@@ -1438,6 +1424,99 @@ industry_regulatory:
     # bare `employment` word-expands onto `Employee Engagement` / `Employee Experience`; phrase-only.
     weak_tags: [human resources, employment]
     standards: [hr-open, scim, saml, soc2]
+  # 0.24 (roadmap#797) — AI & BIOMETRICS. Kin's call, 2026-10-03: a specific regime above the fallback.
+  #
+  # WHY. 18,324 providers sat on `horizontal`, which names the EU AI Act and BIPA in a list of ten.
+  # A voice-cloning or face-recognition company was held to them only as one horizontal company
+  # among eighteen thousand, compared against that cohort's mean. ElevenLabs (roadmap#797) was the
+  # case that surfaced it.
+  #
+  # WHERE IT SITS. `yields_to_sectoral: true` — tried only after every sectoral regime, strong AND
+  # weak, has missed, and before the fallback (score.rb `residual_regime_for`). It therefore moves
+  # providers OFF the fallback and nowhere else: 176 providers that carry these tags AND a sector
+  # (health, payments, banking...) keep their sector and its sharper checks. The AI and biometric
+  # laws still reach them; the biometric retention-policy check below follows the data, not the
+  # regime, so it asks of the sectoral biometric providers too.
+  #
+  # SCOPE: NOT "AI GENERALLY", AND NOT "HIGH-RISK ONLY". Membership is AI whose product is the
+  # regulated capability:
+  #   - biometric processing — face, voice, fingerprint, iris, liveness, emotion recognition and
+  #     deepfakes. EU AI Act Art. 5 (prohibited: untargeted face scraping, emotion recognition at work
+  #     and school, sensitive biometric categorisation) and Annex III point 1 (high-risk: remote
+  #     biometric identification, biometric categorisation, emotion recognition), GDPR Art. 9, and
+  #     the three US state biometric statutes.
+  #   - generative and person-facing AI — models, LLMs, synthetic voice/image/video, chatbots. EU AI
+  #     Act Art. 50 (disclose AI interaction, machine-readable marking of synthetic content — in
+  #     application since 2 August 2026) and Art. 53-55 (general-purpose AI model duties, since
+  #     2 August 2025). These are not high-risk duties: they apply whatever the risk tier.
+  # Generic tags — `Artificial Intelligence`, `Machine Learning`, `AI Agents`, `Computer Vision` —
+  # do NOT place a provider here. They say a company uses AI, not what its AI does, and including
+  # them takes the regime from 765 providers to 3,947. Those stay on `horizontal`, which
+  # already names the EU AI Act.
+  #
+  # NOR DOES A BARE `LLM` TAG (Kin, 2026-10-03). It is carried by gateways, observability, eval,
+  # frameworks and inference infrastructure (Kong, vLLM, Langfuse, Pydantic AI) as much as by model
+  # makers, and 206 providers would qualify on it alone. A model maker qualifies through
+  # `foundation models`, `generative ai`, `large language models` and the rest; on 2026-10-03/05 the
+  # model makers that carried only `LLM` were tagged `Foundation Models` in their own apis.yml
+  # (roadmap#797, #813). That is the route for any model maker still missing: a tagging fix, not a
+  # reason to put `llm` back.
+  #
+  # `Identity Verification` and `KYC` alone are not biometric either (KYB, e-signature and credit
+  # bureaus carry them); biometric IDV vendors carry explicit biometric tags and match on those.
+  #
+  # DELIBERATELY NOT HERE: the Colorado AI Act. SB 24-205 never took effect (enforcement enjoined
+  # 27 April 2026, D. Colo.) and was repealed and replaced by SB 26-189 (signed 14 May 2026, in
+  # force 1 January 2027), which governs automated decision-making in CONSEQUENTIAL decisions —
+  # lending, insurance, employment, housing, health, education. Those are sectoral regimes here, and
+  # the companies that make such decisions are matched to them. It is a candidate for those regimes'
+  # `regimes` lists once it is in force, not for this one.
+  #
+  # Sources: Regulation (EU) 2024/1689 (AI Act) as amended by the Digital Omnibus on AI (in force
+  # 27 July 2026: Annex III high-risk moved to 2 December 2027, Art. 50 unchanged at 2 August 2026,
+  # Art. 50(2) marking grace for existing systems to 2 December 2026); 740 ILCS 14 (BIPA) ss.15(a)
+  # retention policy, 15(b) written consent, as amended by P.A. 103-0769 (2024); Tex. Bus. & Com.
+  # Code s.503.001 (CUBI), as amended by HB 149 (TRAIGA, effective 1 January 2026); RCW 19.375
+  # (Washington biometric identifiers) and RCW 19.373 (My Health My Data Act, biometric data as
+  # consumer health data, private right of action).
+  ai_biometrics:
+    label: AI & Biometrics
+    specificity: 1
+    yields_to_sectoral: true
+    regimes: ["EU AI Act Art. 5 + Annex III (biometrics)", "EU AI Act Art. 50 (transparency)",
+              "EU AI Act Art. 53-55 (GPAI models)", "GDPR Art. 9 (biometric data)",
+              "BIPA (Illinois)", "CUBI (Texas)", "TRAIGA (Texas)",
+              "RCW 19.375 + My Health My Data Act (Washington)"]
+    regime_jurisdictions:
+      "EU AI Act Art. 5 + Annex III (biometrics)": [europe]
+      "EU AI Act Art. 50 (transparency)": [europe]
+      "EU AI Act Art. 53-55 (GPAI models)": [europe]
+      "GDPR Art. 9 (biometric data)": [europe, united-kingdom]
+      "BIPA (Illinois)": [united-states]
+      "CUBI (Texas)": [united-states]
+      "TRAIGA (Texas)": [united-states]
+      "RCW 19.375 + My Health My Data Act (Washington)": [united-states]
+    basis: >
+      Biometric identifiers and AI systems that act on people: notice and written consent before
+      biometric capture, a public retention and destruction schedule, no sale of biometric data,
+      disclosure that a person is dealing with an AI system, machine-readable marking of synthetic
+      content, and model documentation and a training-data summary for general-purpose models.
+    # PHRASE-ONLY (whole normalised tags). The first block is the biometric surface and is repeated,
+    # exactly, as `applies_when_tags` on reg_biometric_retention_policy. No bare `llm` (Kin, 2026-10-03).
+    tags: [biometrics, biometric authentication, biometric identification, biometric verification,
+           facial recognition, face recognition, face verification, face matching, face match,
+           face authentication, face biometrics, face swap, voice biometrics, voice cloning,
+           voice clone, speaker recognition, speaker verification, behavioral biometrics,
+           liveness detection, liveness, liveness check, fingerprint recognition, iris recognition,
+           palm recognition, emotion recognition, emotion ai, deepfake, deepfake detection,
+           generative ai, genai, foundation models, large language models, language models,
+           frontier ai, multimodal ai, multi-modal, ai models, text-to-speech, tts,
+           speech synthesis, speech to speech, voice ai, voice agents, conversational ai, chatbots,
+           ai assistant, ai companion, ai avatars, ai video, ai music, music generation,
+           generative media, synthetic media, ai characters, ai voice, image generation,
+           video generation, text-to-image, text-to-video]
+    standards: [iso-42001, iso42001, iso-iec-42001, iso-iec-42001-2023, nist-ai-rmf, eu-ai-act,
+                c2pa, iso-iec-30107-3, iso-30107-3]
   government:
     label: Government & Public Sector
     specificity: 2
@@ -2628,9 +2707,15 @@ artifacts:
         label: FinOps mapping
         facet: access_clarity
         points: 3
-        rule: 'len(finops) >= 1'
+        # 0.24.0 (roadmap#942). Through 0.23.0 the rule was `len(finops) >= 1`, which awarded
+        # ~6,500 providers for a file: 5,934 of the 6,803 finops artifacts claim FOCUS alignment
+        # and 104 state what the provider bills by — the rest restate the FinOps framework with
+        # the provider's name pasted in (the 2026-05-04 sweep). A mapping that names no unit
+        # maps nothing. Expect ~100 awards at the swap, climbing as the economics harvest runs.
+        rule: 'finops[].primary_unit present AND finops[].sources >= 1 AND NOT finops[].template'
         description: >
-          Cost is mapped to usage in a machine-readable way, so consumption can be
+          Cost is mapped to usage in a machine-readable way — the artifact states the unit
+          the provider bills by and cites the page it was read from — so consumption can be
           modelled and attributed rather than discovered on an invoice.
       - id: compliance_published
         label: Compliance published
@@ -2917,6 +3002,25 @@ artifacts:
         description: >
           A disclosure that the user is interacting with an AI system. Applies only where the provider declares an AI surface.
           Asked for by: EU AI Act Art. 50; Utah AI Policy Act. (roadmap#444)
+      - id: reg_biometric_retention_policy
+        label: Biometric retention and destruction policy
+        facet: regulatory
+        points: 4
+        rule: 'common[].type includes "BiometricDataPolicy"'
+        description: >
+          A public, written policy giving the retention schedule and destruction guidelines for biometric
+          identifiers, and how consent is obtained before capture. Applies only where the provider declares
+          a biometric surface (`applies_when_tags`), in whatever regime it sits: the obligation follows the
+          data, not the sector.
+          Asked for by: BIPA 740 ILCS 14/15(a)-(b); Texas CUBI s.503.001(c); RCW 19.375.020; GDPR Art. 9. (roadmap#797)
+        applies_when_tags: [biometrics, biometric authentication, biometric identification,
+                            biometric verification, facial recognition, face recognition,
+                            face verification, face matching, face match, face authentication,
+                            face biometrics, face swap, voice biometrics, voice cloning, voice clone,
+                            speaker recognition, speaker verification, behavioral biometrics,
+                            liveness detection, liveness, liveness check, fingerprint recognition,
+                            iris recognition, palm recognition, emotion recognition, emotion ai,
+                            deepfake, deepfake detection]
       - id: reg_global_privacy_control
         label: Global Privacy Control honoured
         facet: regulatory
@@ -3217,12 +3321,15 @@ artifacts:
 # a 25,573-provider catalog that grew from 8,956. Splitting it needs a signal
 # that distinguishes those providers from each other, which no facet currently
 # has. Queued, not fudged.
+# 0.24.0 — `share:` refreshed from the first PUBLISHED 0.23.0 run (_data/history/2026-09-25.json,
+# 27,360 providers). Cuts unchanged. `minimal` rises 39.0% -> 41.9% mostly because roadmap#593 now
+# scores 1,096 defunct companies zero instead of leaving their old numbers in place.
 bands:
   - id: exemplar
     label: Exemplar
     min: 66.5
     range: 66.5+
-    share: 1.1%
+    share: 1.5%
     description: >
       Reference-quality API operations across every facet — a rich contract, published
       governance, transparent operations, and machine-readable commercial terms. The
@@ -3240,7 +3347,7 @@ bands:
     label: Developing
     min: 39.3
     range: 39.3 – 54.2
-    share: 14.4%
+    share: 12.9%
     description: >
       Real signal across most facets with visible, nameable gaps. The contract exists
       but is thin on descriptions or examples, or the portal is good while governance
@@ -3249,7 +3356,7 @@ bands:
     label: Thin
     min: 26.2
     range: 26.2 – 39.2
-    share: 16.5%
+    share: 16.3%
     description: >
       Limited machine-readable signal and partial portal coverage. Usually a provider
       with documentation a human can read but little a machine or agent can consume
@@ -3258,7 +3365,7 @@ bands:
     label: Emerging
     min: 11.0
     range: 11 – 26.1
-    share: 24.6%
+    share: 23.2%
     description: >
       More than an index entry, but the surface is still mostly links rather than
       artifacts. These providers have started publishing — a portal, a few common
@@ -3268,7 +3375,7 @@ bands:
     label: Minimal
     min: 0
     range: 0 – 10.9
-    share: 39.0%
+    share: 41.9%
     description: >
       Index entry only; little beyond a description and a link. Nothing here is
       machine-readable enough for an agent to act on without a human first reading
@@ -4087,7 +4194,7 @@ agent_readiness:
       label: Agent-Native
       min: 38.7
       range: 38.7+
-      share: 1.5%
+      share: 1.4%
       description: >
         Built to be driven by agents, and the provider built it — a contract, a
         real agent surface the provider itself publishes, and the safety rails
@@ -4098,7 +4205,7 @@ agent_readiness:
       label: Agent-Ready
       min: 28.6
       range: 28.6 – 38.6
-      share: 11.4%
+      share: 13.1%
       description: >
         An agent can drive the core surface. A machine-readable contract and
         documented auth are in place, and there is real agent-facing work beyond
@@ -4114,7 +4221,7 @@ agent_readiness:
       label: Agent-Aware
       min: 5.1
       range: 5.1 – 28.5
-      share: 27.0%
+      share: 25.5%
       description: >
         Partial machine-readable surface. An agent can read some of the API but
         would hit implicit conventions a human silently absorbs — the gaps where it
@@ -4123,7 +4230,7 @@ agent_readiness:
       label: Human-Only
       min: 0
       range: 0 – 5
-      share: 60.1%
+      share: 60.0%
       description: >
         Little an agent can consume without a human first reading the site. A
         developer can integrate it; their agent cannot yet.

@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The Defer platform exposes a TypeScript SDK for declaring deferred functions and a managed control plane that schedules, queues, retries, and observes their execution. Functions are defined with decor
@@ -42,6 +42,21 @@ apis:
   slug: defer-platform
 artifact_total: 5
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/defer/refs/heads/main/plans/defer-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/defer-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/defer/refs/heads/main/rate-limits/defer-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/defer-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/defer/refs/heads/main/finops/defer-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/defer-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/defer/refs/heads/main/security/defer-domain-security.yml
   title: ''
@@ -66,19 +81,23 @@ common:
 created: '2026-03-27'
 description: Defer was a TypeScript-first background job and workflow automation platform for Node.js applications that let developers schedule, queue, and orchestrate serverless functions with built-in retries, throttling, concurrency controls, and scheduled (CRON) execution. Defer integrated with frameworks such as Next.js, Remix, and SvelteKit through an SDK and a managed control plane. The defer.run service has since transitioned and the defer.run domain currently redirects to digger.tools; this entry preserves the historical profile and links to the surviving documentation, GitHub organization, and references.
 finops:
-- name: Defer Finops
+- has_sources: false
+  method: generated
+  name: Defer Finops
+  primary_unit: ''
   service_category: API
   slug: defer-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/defer.png
 layout: provider
 modified: '2026-04-28'
 name: Defer
 nav: Providers
 network: true
-overview: 'Defer publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Background Jobs, Cron, Developer-First, Node.js, and Queues.
+overview: 'Defer is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Background Jobs, Cron, Developer-First, Node.js, and Queues.
 
 
-  Defer''s developer surface includes documentation, GitHub presence, and 3 more developer resources.'
+  Defer''s developer surface includes documentation, GitHub presence, and 6 more developer resources.'
 plans:
 - name: Defer Plans Pricing
   plan_count: 3
@@ -90,17 +109,17 @@ rate_limits:
   slug: defer-rate-limits
 score:
   band: minimal
-  composite: 9.7
+  composite: 8.2
   coverage:
     artifact_dirs: 6
-    catalog_earned: 41.0
+    catalog_earned: 38.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 4.8
@@ -113,13 +132,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/defer/refs/heads/main/screenshots/defer-2026-10-11T185051.png
 security:
 - kind: domain-security
   name: Defer Domain Security

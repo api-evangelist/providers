@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: partner
+  gated_source:
+  - tag:Partner Gated
   label: Self-serve signup
   onboarding: self-serve
   pricing: unknown
@@ -35,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 3
 common:
@@ -147,7 +150,7 @@ modified: '2026-07-25'
 name: Marshmallow
 nav: Providers
 network: true
-overview: 'Marshmallow is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, United Kingdom, Insurtech, Property and Casualty, and Motor Insurance.
+overview: 'Marshmallow is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, United Kingdom, Insurtech, Property and Casualty, and Auto Insurance.
 
 
   Marshmallow''s developer surface includes engineering blog, authentication, support, and 19 more developer resources.'
@@ -192,8 +195,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 41.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -215,13 +218,11 @@ tags:
 - United Kingdom
 - Insurtech
 - Property and Casualty
-- Motor Insurance
+- Auto Insurance
 - Home Insurance
 - Telematics
 - Underwriting
 - Claims
 - Direct to Consumer
-- Partner Gated
-- No Public API
 website: https://www.marshmallow.com/
 ---

@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 0
@@ -218,6 +218,10 @@ collections:
 common:
 - group: company
   title: ''
+  type: BlogRSS
+  url: https://www.dyspatch.io/feed/
+- group: company
+  title: ''
   type: Website
   url: https://www.dyspatch.io/
 - group: start
@@ -390,17 +394,17 @@ mcp_servers:
 - description: Local (stdio) MCP server; 35 tools listed.
   name: Dyspatch MCP Server
   slug: dyspatch
-modified: '2026-08-13'
+modified: '2026-10-06'
 name: Dyspatch
 nav: Providers
 network: true
-overview: 'Dyspatch publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Blocks API, Customer Profiles API, Drafts API, and 17 more. Tagged areas include Company, Email, Email Templates, Marketing, and Messaging.
+overview: 'Dyspatch publishes 20 API contracts indexed on the [APIs.io](https://apis.io/) network, including Blocks API, Customer Profiles API, Drafts API, and 17 more. Tagged areas include Company, Email, Email Templates, Marketing, and Messaging.
 
 
   The Dyspatch catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Dyspatch''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 29 more developer resources.'
+  Dyspatch''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 30 more developer resources.'
 plans:
 - name: Dyspatch Plans Pricing
   plan_count: 3
@@ -445,8 +449,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 25.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

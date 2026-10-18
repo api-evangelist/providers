@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Partner GraphQL API for onboarding 401(k)/403(b) retirement plans, OpenID Connect single sign-on, and webhook event subscriptions.
@@ -147,7 +147,7 @@ modified: '2026-07-19'
 name: Human Interest
 nav: Providers
 network: true
-overview: 'Human Interest publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Retirement, 401k, and Employee Benefits.
+overview: 'Human Interest is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Retirement, 401k, and Employee Benefits.
 
 
   The Human Interest catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -159,7 +159,7 @@ score:
   band: developing
   composite: 40.0
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -188,8 +188,8 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

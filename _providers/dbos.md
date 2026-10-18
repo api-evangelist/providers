@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: documented
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 5.6
-  scored_at: '2026-10-04'
+  score: 3.7
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: DBOS Transact is a durable execution library that decorates application functions with workflow, step, transaction, scheduled, and Kafka consumer semantics, persisting all state to Postgres so workflo
@@ -44,6 +44,21 @@ apis:
   slug: dbos-cloud
 artifact_total: 11
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/dbos/refs/heads/main/plans/dbos-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/dbos-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/dbos/refs/heads/main/rate-limits/dbos-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/dbos-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/dbos/refs/heads/main/finops/dbos-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/dbos-finops.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -123,9 +138,13 @@ common:
 created: '2026-03-27'
 description: DBOS is a durable execution platform built on Postgres for running resilient workflows, scheduled jobs, durable queues, and Kafka consumers. The core library (DBOS Transact) is available for Python, TypeScript, Go, and Java, with a managed serverless runtime offered as DBOS Cloud.
 finops:
-- name: Dbos Finops
+- has_sources: false
+  method: generated
+  name: Dbos Finops
+  primary_unit: ''
   service_category: API
   slug: dbos-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dbos.png
 json_schemas:
 - name: DBOS Workflow
@@ -145,13 +164,13 @@ modified: '2026-05-19'
 name: DBOS
 nav: Providers
 network: true
-overview: 'DBOS publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include API Composition, Durable Execution, PostgreSQL, Queues, and Scheduled Jobs.
+overview: 'DBOS is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include API Composition, Durable Execution, PostgreSQL, Queues, and Scheduled Jobs.
 
 
   The DBOS catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  DBOS''s developer surface includes documentation, developer console, pricing, engineering blog, and 14 more developer resources.'
+  DBOS''s developer surface includes documentation, developer console, pricing, engineering blog, and 17 more developer resources.'
 plans:
 - name: Dbos Plans Pricing
   plan_count: 3
@@ -162,9 +181,10 @@ rate_limits:
   name: Dbos Rate Limits
   slug: dbos-rate-limits
 rules:
-- effective_rule_count: 4
+- authorship: generated
+  effective_rule_count: 4
   extends: []
-  name: DBOS API Rules
+  name: DBOS — jsonschema rules
   rule_count: 4
   severity_counts:
     error: 0
@@ -172,7 +192,8 @@ rules:
     info: 1
     warn: 3
   slug: dbos-jsonschema-spectral-rules
-- effective_rule_count: 46
+- authorship: unmarked
+  effective_rule_count: 46
   extends:
   - spectral:oas
   name: DBOS API Rules
@@ -185,17 +206,17 @@ rules:
   slug: dbos-rules
 score:
   band: thin
-  composite: 29.0
+  composite: 27.7
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 60.4
+    artifact_dirs: 13
+    catalog_earned: 57.4
     catalog_earned_first_party: 0.0
-    catalog_gap: 54.6
+    catalog_gap: 57.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.3
   facets:
-    access_clarity: 26.3
+    access_clarity: 18.4
     contract_governance: 27.3
     contract_quality: 13.9
     developer_ergonomics: 28.6
@@ -211,8 +232,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

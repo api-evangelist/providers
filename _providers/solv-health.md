@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: Real-time same-day appointment availability and booking capability that lets digital-first and virtual-care partners (telehealth navigators, health plans) hand a patient off to an in-person visit at a
@@ -81,16 +81,20 @@ created: '2026-07-03'
 description: Solv Health operates a consumer marketplace (solvhealth.com and the Solv app) for booking same-day urgent care, primary care, and lab appointments, plus a provider-facing platform (scheduling, intake, patient acquisition, reputation management, messaging, payments) sold to clinics and health systems. There is no self-serve public developer API or published API reference on solvhealth.com; API access is gated behind a sales-led partnership. Solv states it exposes "interoperable APIs" that power custom booking experiences on partner websites and apps, a "Final Mile" API/network that lets digital-first and virtual-care partners (e.g. Included Health) hand patients off to real-time same-day appointment availability at Solv's national network of urgent care clinics, and bidirectional EHR interoperability (APIs, HL7, FHIR, and RPA) that syncs patient demographics, appointment status, and documents with systems like Epic, Athena, Cerner, Allscripts, DrChrono, eClinicalWorks, Experity,
   and NextGen. None of these capabilities have a published base URL, endpoint reference, or self-serve API key signup; access is provisioned per partner/clinic inside a commercial contract.
 finops:
-- name: Solv Health Finops
+- has_sources: true
+  method: generated
+  name: Solv Health Finops
+  primary_unit: ''
   service_category: Digital Health / Patient Scheduling Platform
   slug: solv-health-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/solv-health.png
 layout: provider
 modified: '2026-07-03'
 name: Solv Health
 nav: Providers
 network: true
-overview: 'Solv Health publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Healthcare, Urgent Care, Appointment Booking, EHR Interoperability, and HL7.
+overview: 'Solv Health is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Healthcare, Urgent Care, Appointment Booking, EHR Interoperability, and HL7.
 
 
   Solv Health''s developer surface includes documentation and 5 more developer resources.'
@@ -100,18 +104,18 @@ plans:
   slug: solv-health-plans-pricing
 random_paper: 5
 score:
-  band: emerging
-  composite: 12.4
+  band: minimal
+  composite: 8.1
   coverage:
     artifact_dirs: 5
-    catalog_earned: 45.2
+    catalog_earned: 37.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 69.8
+    catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -4.3
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 9.5
@@ -124,8 +128,8 @@ score:
     regime: Health
     regime_id: health
     score: 4.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

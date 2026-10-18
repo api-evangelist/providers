@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: verified
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.1
-  scored_at: '2026-10-04'
+  score: 28.3
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -92,6 +92,25 @@ collections:
   name: Jina AI Reranker API
   slug: open-jina-ai-reranker
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/jina-ai/refs/heads/main/plans/jina-ai-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/jina-ai-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/jina-ai/refs/heads/main/rate-limits/jina-ai-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/jina-ai-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/jina-ai/refs/heads/main/finops/jina-ai-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/jina-ai-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://jina.ai/news/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/jina-ai/refs/heads/main/capabilities/jina-ai-capability-edges.yml
   title: ''
@@ -151,9 +170,13 @@ common:
 created: '2025-02-06'
 description: Jina AI provides Search Foundation APIs for AI-powered applications, offering embeddings, reranking, and web reading capabilities. Their Reader API converts URLs to LLM-friendly input by simply adding r.jina.ai in front.
 finops:
-- name: Jina Ai Finops
+- has_sources: true
+  method: generated
+  name: Jina Ai Finops
+  primary_unit: ''
   service_category: AI Infrastructure
   slug: jina-ai-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/jina-ai.png
 layout: provider
 mcp_servers:
@@ -163,14 +186,14 @@ mcp_servers:
 - description: Remote MCP server at mcp.jina.ai over HTTP; 22 tools listed.
   name: Jina AI MCP Server
   slug: jina-ai
-modified: '2026-05-19'
+modified: '2026-10-06'
 name: Jina AI
 nav: Providers
 network: true
-overview: 'Jina AI publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Batch API, Embeddings API, Reader API, and 1 more. Tagged areas include Artificial Intelligence, Embeddings, Machine Learning, Reranking, and Search.
+overview: 'Jina AI publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Batch API, Embeddings API, Reader API, and 1 more. Tagged areas include Artificial Intelligence, Embeddings, Machine Learning, Reranking, and Search.
 
 
-  Jina AI''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, and 8 more developer resources.'
+  Jina AI''s developer surface includes engineering blog, authentication, developer portal, documentation, getting-started guide, signup flow, and 11 more developer resources.'
 plans:
 - name: Jina Ai Plans Pricing
   plan_count: 5
@@ -182,20 +205,20 @@ rate_limits:
   slug: jina-ai-rate-limits
 score:
   band: thin
-  composite: 32.1
+  composite: 31.1
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 49.0
+    artifact_dirs: 15
+    catalog_earned: 46.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 66.0
+    catalog_gap: 69.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.0
   facets:
-    access_clarity: 28.9
+    access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 48.7
-    developer_ergonomics: 31.0
+    developer_ergonomics: 33.3
     discoverability: 80.0
     operational_transparency: 10.5
   previous_composite: 32.1
@@ -213,8 +236,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

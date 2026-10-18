@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The National Institute of Arthritis and Musculoskeletal and Skin Diseases (NIAMS) supports research into the causes, treatment, and prevention of arthritis and musculoskeletal and skin diseases.
@@ -41,6 +41,21 @@ apis:
   slug: niams
 artifact_total: 5
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/national-institute-of-arthritis-and-musculoskeletal-and-skin-diseases-niams-/refs/heads/main/plans/national-institute-of-arthritis-and-musculoskeletal-and-skin-diseases-niams--plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/national-institute-of-arthritis-and-musculoskeletal-and-skin-diseases-niams--plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/national-institute-of-arthritis-and-musculoskeletal-and-skin-diseases-niams-/refs/heads/main/rate-limits/national-institute-of-arthritis-and-musculoskeletal-and-skin-diseases-niams--rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/national-institute-of-arthritis-and-musculoskeletal-and-skin-diseases-niams--rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/national-institute-of-arthritis-and-musculoskeletal-and-skin-diseases-niams-/refs/heads/main/finops/national-institute-of-arthritis-and-musculoskeletal-and-skin-diseases-niams--finops.yml
+  title: ''
+  type: FinOps
+  url: finops/national-institute-of-arthritis-and-musculoskeletal-and-skin-diseases-niams--finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/national-institute-of-arthritis-and-musculoskeletal-and-skin-diseases-niams-/refs/heads/main/security/national-institute-of-arthritis-and-musculoskeletal-and-skin-diseases-niams--domain-security.yml
   title: ''
@@ -61,16 +76,20 @@ common:
 created: '2024-11-21'
 description: The National Institute of Arthritis and Musculoskeletal and Skin Diseases (NIAMS) is part of the U.S. National Institutes of Health and supports research into the causes, treatment, and prevention of arthritis and musculoskeletal and skin diseases. NIAMS publishes health information, research resources, and grant data via its website.
 finops:
-- name: National Institute Of Arthritis And Musculoskeletal And Skin Diseases Niams  Finops
+- has_sources: false
+  method: generated
+  name: National Institute Of Arthritis And Musculoskeletal And Skin Diseases Niams  Finops
+  primary_unit: ''
   service_category: API
   slug: national-institute-of-arthritis-and-musculoskeletal-and-skin-diseases-niams--finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/national-institute-of-arthritis-and-musculoskeletal-and-skin-diseases-niams-.png
 layout: provider
 modified: '2026-04-28'
 name: National Institute of Arthritis and Musculoskeletal and Skin Diseases (NIAMS)
 nav: Providers
 network: true
-overview: National Institute of Arthritis and Musculoskeletal and Skin Diseases (NIAMS) publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Federal Government, Health, NIH, and Research.
+overview: National Institute of Arthritis and Musculoskeletal and Skin Diseases (NIAMS) is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Federal Government, Health, NIH, and Research.
 plans:
 - name: National Institute Of Arthritis And Musculoskeletal And Skin Diseases Niams  Plans Pricing
   plan_count: 3
@@ -82,17 +101,17 @@ rate_limits:
   slug: national-institute-of-arthritis-and-musculoskeletal-and-skin-diseases-niams--rate-limits
 score:
   band: minimal
-  composite: 9.8
+  composite: 8.2
   coverage:
     artifact_dirs: 7
-    catalog_earned: 36.0
+    catalog_earned: 33.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 79.0
+    catalog_gap: 82.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 9.5
@@ -110,8 +129,8 @@ score:
     regime: Health
     regime_id: health
     score: 4.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

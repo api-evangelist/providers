@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 7
 apis:
 - description: Dealership account information for dealers who have a relationship with Dealer.com. GET /accounts/search returns a filterable, paginated list; GET /accounts/id/{accountId} returns one account. Payload
@@ -62,6 +62,10 @@ apis:
   slug: dealer-com-leads-api
 artifact_total: 13
 common:
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://developer.inv.dealer.com/content/home.html
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/dealer-com/refs/heads/main/security/dealer-com-vulnerability-disclosure.yml
   title: ''
@@ -225,19 +229,23 @@ created: '2026-07-10'
 description: Dealer.com, a Cox Automotive brand, builds automotive dealership websites, digital advertising, and digital marketing technology used by thousands of franchise and independent dealers across North America. It publishes two distinct developer surfaces. The Dealer Developer Portal at developer.inv.dealer.com documents a read-only REST family — Accounts, Incentives and Inventory (Vehicle, Equipment, Price) — authenticated with a single self-registered API key, with published quotas of 2 calls/second and 5,000 calls/day, offset pagination, sparse fieldsets via a repeatable select parameter, and HAL-style hypermedia links. The Website Integration API, documented in public git at github.com/DealerDotCom, is a browser-side JavaScript API that lets Integrated Partner Program partners subscribe to page and vehicle events and insert markup, CTAs and gallery content into named locations on dealer sites, with content-delivery authentication built on signed JWTs validated against a live
   JWK Set. Platform-level lead, deal and digital-retail data flows separately through the OAuth-gated Cox Automotive Integration Platform at developer.coxautoinc.com. Both Dealer.com surfaces are documented in public; the credentials, not the contracts, are what is gated. The published REST surface is decaying, though — the documented base host api.dealer.com no longer resolves, and the five Swagger documents the portal's own API Explorer loads have contained an AWS API Gateway error string since February 2020.
 finops:
-- name: Dealer Com Finops
+- has_sources: true
+  method: generated
+  name: Dealer Com Finops
+  primary_unit: ''
   service_category: Automotive Digital Marketing and Websites
   slug: dealer-com-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dealer-com.png
 layout: provider
 modified: '2026-08-12'
 name: Dealer.com
 nav: Providers
 network: true
-overview: 'Dealer.com publishes 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Automotive, Dealership, Digital Marketing, Website Platform, and Inventory.
+overview: 'Dealer.com is listed with 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Automotive, Dealership, Digital Marketing, Website Platform, and Inventory.
 
 
-  Dealer.com''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, signup flow, and 28 more developer resources.'
+  Dealer.com''s developer surface includes pricing, authentication, changelog, sandbox, documentation, API reference, getting-started guide, and 29 more developer resources.'
 plans:
 - name: Dealer Com Plans Pricing
   plan_count: 3
@@ -249,17 +257,17 @@ rate_limits:
   slug: dealer-com-rate-limits
 score:
   band: developing
-  composite: 46.7
+  composite: 47.3
   coverage:
     artifact_dirs: 19
-    catalog_earned: 62.0
+    catalog_earned: 59.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 53.0
+    catalog_gap: 56.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
-    access_clarity: 73.7
+    access_clarity: 76.3
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 61.9
@@ -275,8 +283,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -35,18 +35,31 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Source-agnostic payment-event ingestion API for payment recovery. Merchants POST standardized successful and failed payment events and payment-method updates; Recover optimizes retry timing and report
   name: Recover Enterprise API
   slug: recover-enterprise-api
-artifact_total: 5
+artifact_total: 6
 asyncapis:
 - description: ''
   name: Butterpayments Webhooks
   slug: butterpayments-webhooks
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/butterpayments/refs/heads/main/plans/butterpayments-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/butterpayments-plans-pricing.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.butterpayments.com/resources/blog/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.butterpayments.com/feed/
 - group: company
   title: ''
   type: Website
@@ -155,23 +168,27 @@ created: '2026-07-17'
 description: Butter Payments is a payment recovery and involuntary-churn platform that uses machine learning to recover revenue from failed subscription payments. Its Recover product ingests real-time transaction and payment-method events, optimizes retry timing, and reports outcomes back to merchants via HMAC-SHA256 signed webhooks; Dispute (powered by Verifi) intercepts chargebacks and runs Rapid Dispute Resolution; PaymentScore identifies recoverable failed payments; and a PCI DSS Level 2 Card Vault secures card data behind a secure-iframe element. Butter integrates turnkey with Stripe Billing, Braintree, and Recharge, or directly through the Recover Enterprise API.
 image: https://cdn.prod.website-files.com/6570760e6e7b5aa59f8f2452/657b7105d992d17f87a2d0e2_hero-img-m.avif
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Butterpayments
 nav: Providers
 network: true
-overview: 'Butterpayments publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Payment Recovery, Subscription, and Dunning.
+overview: 'Butterpayments is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Payment Recovery, Subscription, and Dunning.
 
 
   The Butterpayments catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Butterpayments'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, authentication, and 16 more developer resources.'
+  Butterpayments'' developer surface includes engineering blog, documentation, API reference, getting-started guide, support, pricing, authentication, and 19 more developer resources.'
+plans:
+- name: Butterpayments Plans Pricing
+  plan_count: 0
+  slug: butterpayments-plans-pricing
 random_paper: 3
 score:
   band: developing
   composite: 42.2
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -199,8 +216,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 27.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -185,16 +185,20 @@ common:
 created: '2026-05-08'
 description: Bitwarden is an open-source password and secret management platform. The Bitwarden Public API exposes organization-level resources - members, groups, collections, policies, and event logs - plus a separate Vault Management API for personal vault items, an Identity (OAuth2) endpoint for token issuance, a SCIM endpoint for directory-based provisioning, and the Secrets Manager API for application secrets.
 finops:
-- name: Bitwarden Finops
+- has_sources: true
+  method: generated
+  name: Bitwarden Finops
+  primary_unit: ''
   service_category: Identity and Access Management
   slug: bitwarden-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bitwarden.png
 layout: provider
 modified: '2026-05-19'
 name: Bitwarden
 nav: Providers
 network: true
-overview: 'Bitwarden publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Collections API, Events API, Groups API, and 7 more. Tagged areas include Security, Password Manager, Open Source, Vault, and Identity.
+overview: 'Bitwarden publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Collections API, Events API, Groups API, and 7 more. Tagged areas include Security, Password Manager, Open Source, Vault, and Identity.
 
 
   Bitwarden''s developer surface includes authentication, documentation, API reference, engineering blog, and 11 more developer resources.'
@@ -214,17 +218,17 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: thin
-  composite: 34.8
+  composite: 33.3
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 41.0
+    artifact_dirs: 14
+    catalog_earned: 38.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 23.7
+    access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 52.3
     developer_ergonomics: 31.0
@@ -244,8 +248,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

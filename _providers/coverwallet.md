@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 15.5
-  scored_at: '2026-10-04'
+  score: 13.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: REST API for quoting and binding small business commercial insurance policies across multiple carriers including Liberty Mutual, CNA, Chubb, Travelers, Hiscox, and others. Supports real-time estimates
@@ -97,16 +97,20 @@ common:
 created: '2026-06-13'
 description: CoverWallet, an Aon company, is a digital insurance marketplace with a REST API for quoting, binding, and managing small business insurance policies across multiple carriers. The platform supports general liability, business owners policy (BOP), professional liability, workers compensation, commercial property, and other commercial lines. Partners can integrate real-time quoting, underwriting, binding, billing, and servicing capabilities directly into their applications.
 finops:
-- name: Coverwallet Finops
+- has_sources: false
+  method: generated
+  name: Coverwallet Finops
+  primary_unit: ''
   service_category: ''
   slug: coverwallet-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/coverwallet.png
 layout: provider
 modified: '2026-06-13'
 name: CoverWallet
 nav: Providers
 network: true
-overview: 'CoverWallet publishes 1 API on the [APIs.io](https://apis.io/) network: Insurance API. Tagged areas include Insurance, Small Business, Commercial Insurance, General Liability, and BOP.
+overview: 'CoverWallet is listed with 1 API on the [APIs.io](https://apis.io/) network: Insurance API. Tagged areas include Insurance, Small Business, Commercial Insurance, General Liability, and BOP.
 
 
   CoverWallet''s developer surface includes documentation, engineering blog, pricing, and 9 more developer resources.'
@@ -121,17 +125,17 @@ rate_limits:
   slug: coverwallet-rate-limits
 score:
   band: emerging
-  composite: 18.0
+  composite: 13.7
   coverage:
     artifact_dirs: 8
-    catalog_earned: 47.2
+    catalog_earned: 39.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 67.8
+    catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -4.3
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 24.0
     developer_ergonomics: 0.0
@@ -144,8 +148,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 5.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.0
-  scored_at: '2026-10-04'
+  score: 19.2
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -91,6 +91,21 @@ collections:
   name: BJ's Wholesale Club Partner Clubs Products API
   slug: open-bjs-wholesale-club-products-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/bjs-wholesale-club/refs/heads/main/plans/bjs-wholesale-club-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/bjs-wholesale-club-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/bjs-wholesale-club/refs/heads/main/rate-limits/bjs-wholesale-club-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/bjs-wholesale-club-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/bjs-wholesale-club/refs/heads/main/finops/bjs-wholesale-club-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/bjs-wholesale-club-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/bjs-wholesale-club/refs/heads/main/capabilities/bjs-wholesale-club-capability-edges.yml
   title: ''
@@ -167,9 +182,13 @@ features:
 - description: Find BJ's club locations by ZIP code with hours, services, and amenities including gas stations, optical, and tire centers.
   name: Club Locator
 finops:
-- name: Bjs Wholesale Club Finops
+- has_sources: false
+  method: generated
+  name: Bjs Wholesale Club Finops
+  primary_unit: ''
   service_category: API
   slug: bjs-wholesale-club-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bjs-wholesale-club.png
 integrations:
 - description: BJ's affiliate program is managed through CJ Affiliate (Commission Junction) for tracking and payments.
@@ -208,13 +227,13 @@ modified: '2026-05-19'
 name: BJ's Wholesale Club
 nav: Providers
 network: true
-overview: 'BJ''s Wholesale Club publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Clubs API, Inventory API, Membership API, and 2 more. Tagged areas include E-Commerce, Membership, Retail, and Wholesale.
+overview: 'BJ''s Wholesale Club publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Clubs API, Inventory API, Membership API, and 2 more. Tagged areas include E-Commerce, Membership, Retail, and Wholesale.
 
 
   The BJ''s Wholesale Club catalog on APIs.io includes 1 JSON-LD context and 3 Spectral governance rulesets.
 
 
-  BJ''s Wholesale Club''s developer surface includes authentication, signup flow, support, and 8 more developer resources.'
+  BJ''s Wholesale Club''s developer surface includes authentication, signup flow, support, and 11 more developer resources.'
 plans:
 - name: Bjs Wholesale Club Plans Pricing
   plan_count: 3
@@ -225,9 +244,10 @@ rate_limits:
   name: Bjs Wholesale Club Rate Limits
   slug: bjs-wholesale-club-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: unmarked
+  effective_rule_count: 5
   extends: []
-  name: BJ's Wholesale Club API Rules
+  name: BJ's Wholesale Club — bjs rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -235,9 +255,10 @@ rules:
     info: 0
     warn: 5
   slug: bjs-spectral-rules
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: BJ's Wholesale Club API Rules
+  name: BJ's Wholesale Club — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -245,7 +266,8 @@ rules:
     info: 2
     warn: 3
   slug: bjs-wholesale-club-jsonschema-spectral-rules
-- effective_rule_count: 51
+- authorship: generated
+  effective_rule_count: 51
   extends:
   - spectral:oas
   name: BJ's Wholesale Club API Rules
@@ -258,18 +280,18 @@ rules:
   slug: bjs-wholesale-club-spectral-rules
 score:
   band: developing
-  composite: 45.3
+  composite: 39.5
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 73.7
+    artifact_dirs: 18
+    catalog_earned: 59.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 41.3
+    catalog_gap: 56.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.8
   facets:
-    access_clarity: 50.0
-    contract_governance: 62.7
+    access_clarity: 42.1
+    contract_governance: 27.3
     contract_quality: 64.1
     developer_ergonomics: 26.2
     discoverability: 48.2
@@ -288,12 +310,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0
+screenshot: https://raw.githubusercontent.com/api-evangelist/bjs-wholesale-club/refs/heads/main/screenshots/bjs-wholesale-club-2026-10-11T183857.png
 security:
 - kind: authentication
   name: Bjs Wholesale Club Authentication

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 4
 apis:
 - description: Manage Proficy Historian systems, collectors, collector instances, data stores, tags, the Historian model and alarms and events, and query time-series tag samples with a choice of sampling, calculatio
@@ -267,7 +267,7 @@ modified: '2026-09-12'
 name: GE Vernova
 nav: Providers
 network: true
-overview: 'GE Vernova publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Decarbonization, Electrification, Energy, Fortune 500, and Power.
+overview: 'GE Vernova is listed with 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Decarbonization, Electrification, Energy, Fortune 500, and Power.
 
 
   The GE Vernova catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -292,7 +292,7 @@ score:
   band: developing
   composite: 45.0
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -316,8 +316,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 43.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

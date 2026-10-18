@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: 'JSON REST API at https://getamber.dev/api/v1 for the full mandate lifecycle: list templates (public), create a contract from a template (X-API-Key with credits, or x402 pay-per-contract), share it by '
@@ -264,7 +264,7 @@ modified: '2026-09-19'
 name: Ambr
 nav: Providers
 network: true
-overview: 'Ambr publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI Agents, Agentic Commerce, Contracts, and Legal.
+overview: 'Ambr is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI Agents, Agentic Commerce, Contracts, and Legal.
 
 
   Ambr''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, support, changelog, and 36 more developer resources.'
@@ -281,7 +281,7 @@ score:
   band: developing
   composite: 53.7
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 21
     catalog_earned: 69.0
     catalog_earned_first_party: 20.0
     catalog_gap: 46.0
@@ -306,13 +306,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 38.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/getamber-dev/refs/heads/main/screenshots/getamber-dev-2026-10-11T104848.png
 security:
 - kind: authentication
   name: Getamber Dev Authentication

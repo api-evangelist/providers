@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: RESTful HTTPS-based API for cannabis tax compliance. Enables calculation of state, county, and local cannabis excise taxes, storage of tax data, and support for monthly cannabis tax return filing acro
@@ -92,16 +92,20 @@ common:
 created: 2026-06-13
 description: TaxNexus is a cannabis tax compliance REST API and financial technology service that automates calculation of state, county, and local cannabis excise taxes across supported jurisdictions including California and Oregon. Cannabis POS and ERP software developers can integrate with the TaxNexus API to calculate excise taxes, track and store tax data, and file monthly cannabis tax returns. The platform serves cannabis businesses, software makers, and accountants seeking to automate real-world cannabis tax compliance problems for recreational and medical cannabis taxpayers.
 finops:
-- name: Taxnexus Finops
+- has_sources: false
+  method: generated
+  name: Taxnexus Finops
+  primary_unit: ''
   service_category: ''
   slug: taxnexus-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/taxnexus.png
 layout: provider
 modified: 2026-06-13
 name: TaxNexus
 nav: Providers
 network: true
-overview: 'TaxNexus publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Tax, Cannabis, Sales Tax, Tax Compliance, and Excise Tax.
+overview: 'TaxNexus is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Tax, Cannabis, Sales Tax, Tax Compliance, and Excise Tax.
 
 
   TaxNexus'' developer surface includes documentation, engineering blog, pricing, and 8 more developer resources.'
@@ -115,23 +119,23 @@ rate_limits:
   name: Taxnexus Rate Limits
   slug: taxnexus-rate-limits
 score:
-  band: emerging
-  composite: 18.0
+  band: minimal
+  composite: 10.7
   coverage:
     artifact_dirs: 8
-    catalog_earned: 58.0
+    catalog_earned: 42.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.0
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.3
   facets:
-    access_clarity: 41.6
+    access_clarity: 13.2
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
     discoverability: 66.1
-    operational_transparency: 24.2
+    operational_transparency: 10.5
   previous_composite: 18.0
   regulatory:
     applies: true
@@ -139,9 +143,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Avail platform API providing programmatic access to rental property management capabilities including listings, applications, leases, payments, and maintenance requests. Avail does not publish an offi
@@ -92,16 +92,20 @@ common:
 created: '2026-06-13'
 description: Avail is a landlord-focused rental management platform offering tools for property listings, tenant applications, screening reports, lease agreements, rent payments, and maintenance requests. Designed for DIY independent landlords, Avail enables listing syndication across 19+ rental sites, state-specific digital lease signing, online rent collection, and maintenance request tracking through an all-in-one platform.
 finops:
-- name: Avail Finops
+- has_sources: false
+  method: generated
+  name: Avail Finops
+  primary_unit: ''
   service_category: ''
   slug: avail-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/avail.png
 layout: provider
 modified: '2026-06-13'
 name: Avail
 nav: Providers
 network: true
-overview: 'Avail publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Property Management, Rental Management, Landlord Software, Tenant Screening, and Lease Management.
+overview: 'Avail is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Property Management, Rental Management, Landlord Software, Tenant Screening, and Lease Management.
 
 
   Avail''s developer surface includes documentation, engineering blog, pricing, support, and 7 more developer resources.'
@@ -116,22 +120,22 @@ rate_limits:
   slug: avail-rate-limits
 score:
   band: emerging
-  composite: 18.8
+  composite: 11.9
   coverage:
     artifact_dirs: 8
-    catalog_earned: 53.0
+    catalog_earned: 37.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 62.0
+    catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.9
   facets:
-    access_clarity: 37.4
+    access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 16.7
     discoverability: 57.1
-    operational_transparency: 28.4
+    operational_transparency: 7.9
   previous_composite: 18.8
   regulatory:
     applies: true
@@ -139,13 +143,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/avail/refs/heads/main/screenshots/avail-2026-10-11T181456.png
 security:
 - kind: domain-security
   name: Avail Domain Security

@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.5
-  scored_at: '2026-10-04'
+  score: 23.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -70,6 +70,21 @@ collections:
   name: Vistra Incorporations API
   slug: open-vistra-incorporations
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/vistra/refs/heads/main/plans/vistra-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/vistra-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/vistra/refs/heads/main/rate-limits/vistra-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/vistra-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/vistra/refs/heads/main/finops/vistra-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/vistra-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/vistra/refs/heads/main/agentic-access/vistra-agentic-access.yml
   title: ''
@@ -162,9 +177,13 @@ examples:
   name: Vistra Incorporations Generatedocumentuploadurl Example
   slug: vistra-incorporations-generateDocumentUploadUrl-example
 finops:
-- name: Vistra Finops
+- has_sources: true
+  method: generated
+  name: Vistra Finops
+  primary_unit: ''
   service_category: Energy / Electricity
   slug: vistra-finops
+  template: false
 image: https://www.vistra.com/themes/custom/vistra/logo.svg
 json_schemas:
 - name: Vistra Incorporation Request
@@ -184,13 +203,13 @@ modified: '2026-05-19'
 name: Vistra
 nav: Providers
 network: true
-overview: 'Vistra publishes 2 APIs on the [APIs.io](https://apis.io/) network: Documents API and Incorporations API. Tagged areas include Compliance, Corporate Services, Entity Management, Finance, and Fortune 500.
+overview: 'Vistra publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Documents API and Incorporations API. Tagged areas include Compliance, Corporate Services, Entity Management, Finance, and Fortune 500.
 
 
   The Vistra catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Vistra''s developer surface includes authentication, engineering blog, and 16 more developer resources.'
+  Vistra''s developer surface includes authentication, engineering blog, and 19 more developer resources.'
 plans:
 - name: Vistra Plans Pricing
   plan_count: 1
@@ -201,9 +220,10 @@ rate_limits:
   name: Vistra Rate Limits
   slug: vistra-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Vistra API Rules
+  name: Vistra — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -211,7 +231,8 @@ rules:
     info: 2
     warn: 3
   slug: vistra-jsonschema-spectral-rules
-- effective_rule_count: 52
+- authorship: unmarked
+  effective_rule_count: 52
   extends:
   - spectral:oas
   name: Vistra API Rules
@@ -224,17 +245,17 @@ rules:
   slug: vistra-rules
 score:
   band: thin
-  composite: 35.3
+  composite: 33.8
   coverage:
     artifact_dirs: 17
-    catalog_earned: 61.0
+    catalog_earned: 58.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 54.0
+    catalog_gap: 57.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 21.1
+    access_clarity: 13.2
     contract_governance: 27.3
     contract_quality: 54.7
     developer_ergonomics: 28.6
@@ -254,8 +275,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -273,7 +294,7 @@ security:
 - kind: vulnerability-disclosure
   name: Vistra Vulnerability Disclosure
   slug: vistra-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 - kind: trust-center
   name: Vistra Trust Center
   slug: vistra-trust-center

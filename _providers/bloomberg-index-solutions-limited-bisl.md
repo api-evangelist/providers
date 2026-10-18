@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: Access Bloomberg index constituent data, returns, analytics, and historical data for the Bloomberg Global Aggregate, US Aggregate, Euro Aggregate, and other benchmark indices via BLPAPI and Data Licen
@@ -44,6 +44,21 @@ apis:
   slug: index-licensing
 artifact_total: 15
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/bloomberg-index-solutions-limited-bisl/refs/heads/main/plans/bloomberg-index-solutions-limited-bisl-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/bloomberg-index-solutions-limited-bisl-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/bloomberg-index-solutions-limited-bisl/refs/heads/main/rate-limits/bloomberg-index-solutions-limited-bisl-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/bloomberg-index-solutions-limited-bisl-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/bloomberg-index-solutions-limited-bisl/refs/heads/main/finops/bloomberg-index-solutions-limited-bisl-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/bloomberg-index-solutions-limited-bisl-finops.yml
 - group: company
   title: ''
   type: Website
@@ -91,19 +106,23 @@ features:
 - description: Custom index design and calculation services for institutional clients.
   name: Custom Index Construction
 finops:
-- name: Bloomberg Index Solutions Limited Bisl Finops
+- has_sources: false
+  method: generated
+  name: Bloomberg Index Solutions Limited Bisl Finops
+  primary_unit: ''
   service_category: API
   slug: bloomberg-index-solutions-limited-bisl-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bloomberg-index-solutions-limited-bisl.png
 layout: provider
 modified: '2026-09-16'
 name: Bloomberg Index Solutions Limited (BISL)
 nav: Providers
 network: true
-overview: 'Bloomberg Index Solutions Limited (BISL) publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Index, Fixed Income, Benchmarks, Multi-Asset, and Index Administration.
+overview: 'Bloomberg Index Solutions Limited (BISL) is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Index, Fixed Income, Benchmarks, Multi-Asset, and Index Administration.
 
 
-  Bloomberg Index Solutions Limited (BISL)''s developer surface includes developer portal, documentation, support, and 5 more developer resources.'
+  Bloomberg Index Solutions Limited (BISL)''s developer surface includes developer portal, documentation, support, and 8 more developer resources.'
 plans:
 - name: Bloomberg Index Solutions Limited Bisl Plans Pricing
   plan_count: 3
@@ -115,17 +134,17 @@ rate_limits:
   slug: bloomberg-index-solutions-limited-bisl-rate-limits
 score:
   band: emerging
-  composite: 18.6
+  composite: 17.1
   coverage:
     artifact_dirs: 6
-    catalog_earned: 41.0
+    catalog_earned: 38.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 36.8
+    access_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 23.8
@@ -138,8 +157,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

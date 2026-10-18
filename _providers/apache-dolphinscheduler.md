@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 3.8
-  scored_at: '2026-10-04'
+  score: 1.9
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'The DolphinScheduler REST API enables programmatic management of projects, workflow definitions (DAGs), workflow instances, task types, schedules, resources, data sources, alerts, tenants, and users. '
@@ -41,6 +41,21 @@ apis:
   slug: apache-dolphinscheduler-rest-api
 artifact_total: 40
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/apache-dolphinscheduler/refs/heads/main/plans/apache-dolphinscheduler-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/apache-dolphinscheduler-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/apache-dolphinscheduler/refs/heads/main/rate-limits/apache-dolphinscheduler-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/apache-dolphinscheduler-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/apache-dolphinscheduler/refs/heads/main/finops/apache-dolphinscheduler-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/apache-dolphinscheduler-finops.yml
 - group: company
   title: ''
   type: Website
@@ -144,9 +159,13 @@ features:
 - description: PyDolphinScheduler allows defining and managing workflows programmatically in Python with code-first workflow authoring.
   name: Python SDK
 finops:
-- name: Apache Dolphinscheduler Finops
+- has_sources: false
+  method: generated
+  name: Apache Dolphinscheduler Finops
+  primary_unit: ''
   service_category: API
   slug: apache-dolphinscheduler-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/apache-dolphinscheduler.png
 integrations:
 - description: Native Spark task type for submitting Spark batch and streaming jobs from DolphinScheduler workflows.
@@ -199,13 +218,13 @@ modified: '2026-04-19'
 name: Apache DolphinScheduler
 nav: Providers
 network: true
-overview: 'Apache DolphinScheduler publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Apache, DAG, Data Pipeline, Open Source, and Orchestration.
+overview: 'Apache DolphinScheduler is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Apache, DAG, Data Pipeline, Open Source, and Orchestration.
 
 
   The Apache DolphinScheduler catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Apache DolphinScheduler''s developer surface includes developer portal, documentation, getting-started guide, and 14 more developer resources.'
+  Apache DolphinScheduler''s developer surface includes developer portal, documentation, getting-started guide, and 17 more developer resources.'
 plans:
 - name: Apache Dolphinscheduler Plans Pricing
   plan_count: 3
@@ -216,9 +235,10 @@ rate_limits:
   name: Apache Dolphinscheduler Rate Limits
   slug: apache-dolphinscheduler-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Apache DolphinScheduler API Rules
+  name: Apache DolphinScheduler — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -228,17 +248,17 @@ rules:
   slug: apache-dolphinscheduler-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 34.0
+  composite: 32.6
   coverage:
     artifact_dirs: 12
-    catalog_earned: 64.3
+    catalog_earned: 61.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 50.8
+    catalog_gap: 53.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.4
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 9.8
     contract_quality: 33.2
     developer_ergonomics: 16.7
@@ -254,8 +274,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

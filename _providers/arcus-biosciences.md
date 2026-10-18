@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://arcusbio.com/feed/
 - group: company
   title: ''
   type: Website
@@ -58,7 +62,7 @@ created: '2026-07-17'
 description: Arcus Biosciences is a clinical-stage biopharmaceutical company focused on developing differentiated cancer immunotherapies, headquartered in Hayward, California. Its pipeline pairs multiple novel molecules across intra-tumoral immune pathways, including the HIF-2a inhibitor casdatifan, the CD73 inhibitor quemliclustat, the anti-TIGIT antibody domvanalimab, the anti-PD-1 antibody zimberelimab, and the CD39 inhibitor AB598. Surfaced as a portfolio company of GV and added to the API Evangelist network as a life-sciences company profile. Arcus publishes an agent-facing surface (llms.txt, an AI content map, and an Organization schema) but no public developer API.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/arcus-biosciences.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Arcus Biosciences
 nav: Providers
 network: true
@@ -68,7 +72,7 @@ score:
   band: minimal
   composite: 7.0
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -94,8 +98,8 @@ score:
     regime: Health
     regime_id: health
     score: 7.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

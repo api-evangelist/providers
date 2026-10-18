@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -331,9 +331,13 @@ features:
 - description: Natural language, multi-turn conversational search and business questions.
   name: Fusion AI
 finops:
-- name: Yelp Finops
+- has_sources: false
+  method: generated
+  name: Yelp Finops
+  primary_unit: ''
   service_category: API
   slug: yelp-finops
+  template: true
 graphqls:
 - description: Yelp exposes a GraphQL endpoint alongside its REST Fusion API, available at `https://api.yelp.com/v3/graphql`. The same bearer-token authentication used for the REST API applies here. The GraphQL surf
   name: Yelp GraphQL API
@@ -442,7 +446,7 @@ modified: '2026-09-16'
 name: Yelp
 nav: Providers
 network: true
-overview: 'Yelp publishes 5 APIs on the [APIs.io](https://apis.io/) network, including AI API, Businesses API, Categories API, and 2 more. Tagged areas include Restaurant, Local Search, Reviews, Business Data, and Location.
+overview: 'Yelp is listed with 5 APIs on the [APIs.io](https://apis.io/) network, including AI API, Businesses API, Categories API, and 2 more. Tagged areas include Restaurant, Local Search, Reviews, Business Data, and Location.
 
 
   The Yelp catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -459,9 +463,10 @@ rate_limits:
   name: Yelp Rate Limits
   slug: yelp-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Yelp API Rules
+  name: Yelp — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -469,7 +474,8 @@ rules:
     info: 1
     warn: 4
   slug: yelp-jsonschema-spectral-rules
-- effective_rule_count: 80
+- authorship: generated
+  effective_rule_count: 80
   extends:
   - spectral:oas
   name: Yelp API Rules
@@ -482,17 +488,17 @@ rules:
   slug: yelp-spectral-rules
 score:
   band: developing
-  composite: 47.9
+  composite: 46.6
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 78.0
+    artifact_dirs: 21
+    catalog_earned: 75.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 37.0
+    catalog_gap: 40.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.3
   facets:
-    access_clarity: 39.5
+    access_clarity: 31.6
     contract_governance: 27.3
     contract_quality: 73.9
     developer_ergonomics: 63.1
@@ -515,8 +521,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

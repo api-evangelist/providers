@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 16.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: http://localhost:33334/
@@ -91,6 +91,10 @@ collections:
   name: Looking Glass Bridge Autostart Version API
   slug: open-looking-glass-version-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.lookingglassfactory.com/rss/
 - group: company
   title: ''
   type: Website
@@ -204,18 +208,18 @@ created: '2026-07-17'
 description: 'Looking Glass Factory builds light field (holographic) displays — group-viewable 3D screens ranging from the pocket-sized Looking Glass Go to 16", 27", 32" and 65" panels — plus the software that drives them. For developers, the core surface is Looking Glass Bridge: a local runtime that exposes an HTTP REST API on http://localhost:33334/ for enumerating connected displays, opening the media player, building playlists of Quilt and RGBD holograms, and controlling playback. Around it Looking Glass ships official client libraries — the typesafe bridge.js (@lookingglass/bridge), a WebXR polyfill (@lookingglass/webxr) that targets the displays from any WebXR framework, a Python Bridge SDK, the legacy HoloPlay Core C/C++/C# SDK, and engine plugins for Unity, Unreal and Blender. Looking Glass Blocks (blocks.glass) hosts holograms on the internet. The company is backed by Uncork Capital and headquartered in Brooklyn, New York.'
 image: https://lookingglassfactory.com/favicon.ico
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Looking Glass
 nav: Providers
 network: true
-overview: 'Looking Glass publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Autostart API, Devices API, Orchestration API, and 3 more. Tagged areas include Company, Holographic Displays, Light Field, 3D, and Developer Tools.
+overview: 'Looking Glass publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Autostart API, Devices API, Orchestration API, and 3 more. Tagged areas include Company, Holographic Displays, Light Field, 3D, and Developer Tools.
 
 
-  Looking Glass'' developer surface includes documentation, API reference, engineering blog, pricing, signup flow, authentication, and 18 more developer resources.'
+  Looking Glass'' developer surface includes documentation, API reference, engineering blog, pricing, signup flow, authentication, and 19 more developer resources.'
 random_paper: 18
 score:
   band: thin
-  composite: 38.0
+  composite: 38.1
   coverage:
     artifact_dirs: 15
     catalog_earned: 32.0
@@ -223,7 +227,7 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 44.7
     contract_governance: 4.5
@@ -254,8 +258,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

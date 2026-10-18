@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 10
 apis:
 - description: Hokkaido University's own Shibboleth/SAML 2.0 identity provider, entityID https://shib-idp01.iic.hokudai.ac.jp/idp/shibboleth, scope hokudai.ac.jp, registered in the GakuNin national academic federati
@@ -160,9 +160,13 @@ created: '2026-06-03'
 description: 'Hokkaido University (北海道大学) is a national research university in Sapporo, Japan, founded in 1876 as Sapporo Agricultural College, a member of Japan''s Designated National University group and ranked #173 in the QS World University Rankings 2025. It operates 12 undergraduate schools, 21 graduate schools and numerous research institutes. Its public programmable footprint is small and honest: the university publishes no developer portal, no API gateway and no documented public REST API — api., data., opendata., developer. and status.hokudai.ac.jp all fail to resolve, and the WordPress REST API on its English site is explicitly disabled. What it does operate, and what this profile is built on, is scholarly identity infrastructure. It runs its own SAML 2.0 / Shibboleth identity provider registered in GakuNin, the Japanese national academic access federation; it holds Handle System prefix 2115 and JaLC DOI prefix 10.14943 for the HUSCAP institutional repository; and it publishes
   crawlable XML sitemaps for both HUSCAP and its main web estate. HUSCAP''s OAI-PMH endpoint is the one real regression: IRDB still harvests the repository by OAI-PMH, but no base URL has been publicly documented since the December 2025 platform migration and eighteen candidate paths were probed unsuccessfully.'
 finops:
-- name: Hokkaido Finops
+- has_sources: true
+  method: derived
+  name: Hokkaido Finops
+  primary_unit: ''
   service_category: Education
   slug: hokkaido-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hokkaido.png
 jsonld:
 - class_count: 10
@@ -174,7 +178,7 @@ modified: '2026-09-01'
 name: Hokkaido University
 nav: Providers
 network: true
-overview: 'Hokkaido University publishes 10 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Higher Education, University, Japan, and National University.
+overview: 'Hokkaido University is listed with 10 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Higher Education, University, Japan, and National University.
 
 
   The Hokkaido University catalog on APIs.io includes 1 JSON-LD context.
@@ -192,17 +196,17 @@ rate_limits:
   slug: hokkaido-rate-limits
 score:
   band: emerging
-  composite: 21.5
+  composite: 20.0
   coverage:
-    artifact_dirs: 10
-    catalog_earned: 50.0
+    artifact_dirs: 11
+    catalog_earned: 47.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 65.0
+    catalog_gap: 68.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.7
+  delta: -1.5
   facets:
-    access_clarity: 23.7
+    access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 17.3
     developer_ergonomics: 26.2
@@ -215,7 +219,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - japan-korea
-  previous_composite: 23.2
+  previous_composite: 21.5
   provenance:
     conformance: first-party
   regulatory:
@@ -224,8 +228,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 20.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

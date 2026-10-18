@@ -27,17 +27,21 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: false
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 11.2
-  scored_at: '2026-10-04'
+  score: 14.7
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 4
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.cuemath.com/blog/rss/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/cuemath/refs/heads/main/security/cuemath-domain-security.yml
   title: ''
@@ -123,14 +127,14 @@ mcp_servers:
 - description: Remote MCP server at mcp.cuemath.com over HTTP.
   name: Cuemath MCP Server
   slug: cuemath
-modified: '2026-08-11'
+modified: '2026-10-06'
 name: Cuemath
 nav: Providers
 network: true
-overview: 'Cuemath is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, EdTech, Online Learning, and Tutoring.
+overview: 'Cuemath is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, EdTech, E-Learning, and Tutoring.
 
 
-  Cuemath''s developer surface includes pricing, signup flow, engineering blog, support, and 10 more developer resources.'
+  Cuemath''s developer surface includes pricing, signup flow, engineering blog, support, and 11 more developer resources.'
 plans:
 - name: Cuemath Plans Pricing
   plan_count: 0
@@ -172,8 +176,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -190,7 +194,7 @@ tags:
 - Company
 - Education
 - EdTech
-- Online Learning
+- E-Learning
 - Tutoring
 - Mathematics
 - K-12

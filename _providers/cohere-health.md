@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: HL7 Da Vinci Coverage Requirements Discovery (CRD) FHIR API that lets a provider system instantly verify whether prior authorization is required and confirm service coverage at the point of care. Docu
@@ -180,7 +180,7 @@ modified: '2026-08-14T00:00:00Z'
 name: Cohere Health
 nav: Providers
 network: true
-overview: 'Cohere Health publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Healthcare, United States, Prior Authorization, Utilization Management, and Payers.
+overview: 'Cohere Health is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Healthcare, United States, Prior Authorization, Utilization Management, and Payers.
 
 
   Cohere Health''s developer surface includes documentation, engineering blog, support, signup flow, authentication, and 19 more developer resources.'
@@ -236,8 +236,8 @@ score:
     regime: Health
     regime_id: health
     score: 47.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

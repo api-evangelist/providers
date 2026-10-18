@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 2
@@ -348,7 +348,7 @@ modified: '2026-07-21'
 name: ZeroTier
 nav: Providers
 network: true
-overview: 'ZeroTier publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Controller API, Network API, Network Member API, and 5 more. Tagged areas include Company, Networking, Software Defined Networking, SDN, and VPN.
+overview: 'ZeroTier publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Controller API, Network API, Network Member API, and 5 more. Tagged areas include Company, Networking, Software Defined Networking, SDN, and VPN.
 
 
   The ZeroTier catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -367,7 +367,7 @@ score:
   band: strong
   composite: 64.8
   coverage:
-    artifact_dirs: 26
+    artifact_dirs: 27
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -398,8 +398,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

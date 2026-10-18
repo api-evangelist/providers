@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 1
@@ -44,7 +44,7 @@ agentic_access:
   operation_count: 25
   slug: knownwell-agentic-access
   summary_line: 25 operations · 2 acting · 1 human-in-the-loop
-api_count: 1
+api_count: 2
 apis:
 - baseURL: https://api.knownwell.com/ci/v1
   baseurl_source: declared
@@ -129,6 +129,10 @@ collections:
   name: Knownwell api-keys topics API
   slug: open-knownwell-topics-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://knownwell.com/feed/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/knownwell/refs/heads/main/overlays/knownwell-ci-overlay.yaml
   title: ''
@@ -288,14 +292,14 @@ description: Knownwell is an AI-powered commercial intelligence platform for B2B
   rather than named tiers, with a 30-day trial and no per-seat charge. Knownwell was acquired by 2X to form a human-agentic GTM services company.
 image: https://knownwell.com/wp-content/uploads/2023/08/favicon21.svg
 layout: provider
-modified: '2026-08-13'
+modified: '2026-10-06'
 name: Knownwell
 nav: Providers
 network: true
-overview: 'Knownwell publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Alignment API, API Keys API, Clients API, and 7 more. Tagged areas include Company, Commercial Intelligence, Client Intelligence, Customer Success, and Revenue Operations.
+overview: 'Knownwell publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Alignment API, API Keys API, Clients API, and 7 more. Tagged areas include Company, Commercial Intelligence, Client Intelligence, Customer Success, and Revenue Operations.
 
 
-  Knownwell''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 27 more developer resources.'
+  Knownwell''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 28 more developer resources.'
 plans:
 - name: Knownwell Plans Pricing
   plan_count: 0
@@ -307,15 +311,15 @@ rate_limits:
   slug: knownwell-rate-limits
 score:
   band: strong
-  composite: 55.3
+  composite: 55.4
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 60.5
     contract_governance: 18.2
@@ -340,8 +344,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

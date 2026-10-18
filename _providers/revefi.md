@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 41.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://gateway.revefi.com/api/v1/
@@ -68,7 +68,7 @@ apis:
   description: The Update an existing Custom Data Quality Monitor API from Revefi — 1 operation(s) for update an existing custom data quality monitor.
   name: Revefi Update an existing Custom Data Quality Monitor API
   slug: revefi-update-an-existing-custom-data-quality-monitor-api
-artifact_total: 16
+artifact_total: 17
 collections:
 - collection_type: open
   name: API Collection
@@ -92,6 +92,11 @@ collections:
   name: Data Quality Monitors Create a Custom Data Quality Monitor Update an existing Custom Data Quality Monitor API
   slug: open-revefi-update-an-existing-custom-data-quality-monitor-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/revefi/refs/heads/main/plans/revefi-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/revefi-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/revefi/refs/heads/main/capabilities/revefi-capability-edges.yml
   title: ''
@@ -221,24 +226,28 @@ modified: '2026-07-20'
 name: Revefi
 nav: Providers
 network: true
-overview: 'Revefi publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Create a Custom Data Quality Monitor API, Delete an existing Custom Data Quality Monitor API, Get Custom Data Quality Monitors API, and 3 more. Tagged areas include Data, Data Quality, Data Observability, FinOps, and Cost Optimization.
+overview: 'Revefi publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Create a Custom Data Quality Monitor API, Delete an existing Custom Data Quality Monitor API, Get Custom Data Quality Monitors API, and 3 more. Tagged areas include Data, Data Quality, Data Observability, FinOps, and Cost Optimization.
 
 
-  Revefi''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, pricing, signup flow, and 19 more developer resources.'
+  Revefi''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, pricing, signup flow, and 20 more developer resources.'
+plans:
+- name: Revefi Plans Pricing
+  plan_count: 7
+  slug: revefi-plans-pricing
 random_paper: 3
 score:
   band: developing
-  composite: 41.5
+  composite: 47.9
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 19
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.4
   facets:
-    access_clarity: 48.7
+    access_clarity: 80.3
     contract_governance: 18.2
     contract_quality: 53.6
     developer_ergonomics: 39.9
@@ -260,9 +269,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 25.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

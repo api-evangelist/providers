@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 11
   slug: subspace-agentic-access
   summary_line: 11 operations · 7 acting
-api_count: 1
+api_count: 2
 apis:
 - baseURL: https://api.subspace.com/v1
   baseurl_source: declared
@@ -198,7 +198,7 @@ modified: '2026-07-21'
 name: Subspace
 nav: Providers
 network: true
-overview: 'Subspace publishes 3 APIs on the [APIs.io](https://apis.io/) network: AcceleratorService API, SipTeleportService API, and WebRtcCdnService API. Tagged areas include Company, Networking, Real-Time, WebRTC, and VoIP.
+overview: 'Subspace publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: AcceleratorService API, SipTeleportService API, and WebRtcCdnService API. Tagged areas include Company, Networking, Real-Time, WebRTC, and VoIP.
 
 
   Subspace''s developer surface includes documentation, API reference, pricing, signup flow, authentication, and 20 more developer resources.'
@@ -244,8 +244,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

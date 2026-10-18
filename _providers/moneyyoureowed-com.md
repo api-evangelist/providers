@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: Free public remote Model Context Protocol server (Streamable HTTP, protocol 2025-06-18, stateless, no authentication) exposing one read-only tool, answer_money_question, which takes a plain-language c
@@ -32,7 +32,7 @@ apis:
 - description: A2A 1.0 agent ("Money You're Owed catalog agent", version 1.0.0) with a JSONRPC binding at https://agent.moneyyoureowed.com and one read-only skill, answer-money-questions, answering consumer question
   name: Money You're Owed Catalog Agent (A2A)
   slug: catalog-a2a-agent
-artifact_total: 8
+artifact_total: 7
 common:
 - group: company
   title: ''
@@ -145,14 +145,11 @@ mcp_servers:
 - description: 'Money You''re Owed publishes ONE free, anonymous, read-only remote MCP server at https://mcp.moneyyoureowed.com/mcp (Streamable HTTP, protocol 2025-06-18, serverInfo moneyyoureowed-catalog-mcp 1.0.0). '
   name: Money You're Owed MCP Server
   slug: moneyyoureowed-com-mcp-yml
-- description: ''
-  name: Live MCP endpoint (Streamable HTTP)
-  slug: live-mcp-endpoint-streamable-http
 modified: '2026-09-19'
 name: Money You're Owed
 nav: Providers
 network: true
-overview: 'Money You''re Owed publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer Finance, Consumer Rights, Money Recovery, and Legal Self-Help.
+overview: 'Money You''re Owed is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer Finance, Consumer Rights, Money Recovery, and Legal Self-Help.
 
 
   Money You''re Owed''s developer surface includes documentation, authentication, and 20 more developer resources.'
@@ -167,15 +164,15 @@ rate_limits:
   slug: moneyyoureowed-com-rate-limits
 score:
   band: emerging
-  composite: 19.9
+  composite: 20.0
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 18
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 21.1
     contract_governance: 18.2
@@ -194,13 +191,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 32.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/moneyyoureowed-com/refs/heads/main/screenshots/moneyyoureowed-com-2026-10-11T111230.png
 security:
 - kind: authentication
   name: Moneyyoureowed Com Authentication

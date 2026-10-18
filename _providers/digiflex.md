@@ -38,16 +38,13 @@ modified: '2026-08-10'
 name: Digiflex
 nav: Providers
 network: true
-overview: Digiflex is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Venture Backed, Battery Ventures, Portfolio Lead, and Exited.
+overview: Digiflex is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Battery Ventures, Acquired, Digital Printing, and Manufacturing.
 random_paper: 8
 screenshot: https://raw.githubusercontent.com/api-evangelist/digiflex/refs/heads/main/screenshots/digiflex-2026-07-25T212005.png
 slug: digiflex
 tags:
 - Company
-- Venture Backed
 - Battery Ventures
-- Portfolio Lead
-- Exited
 - Acquired
 - Digital Printing
 - Manufacturing

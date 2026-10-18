@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The Healthie GraphQL API is the single contract behind the entire Healthie platform — the same API that powers the Healthie web, iOS, and Android applications is available to partners building branded
@@ -50,6 +50,44 @@ asyncapis:
   name: Healthie Webhooks
   slug: healthie-webhooks-asyncapi
 common:
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.gethealthie.com/guides/quick-start
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/healthie/refs/heads/main/rules/healthie-asyncapi-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/healthie-asyncapi-spectral-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/healthie/refs/heads/main/asyncapi/healthie-webhooks-asyncapi.yml
+  title: ''
+  type: Webhooks
+  url: asyncapi/healthie-webhooks-asyncapi.yml
+- group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/healthie/refs/heads/main/asyncapi/healthie-webhooks-asyncapi.yml
+  title: ''
+  type: AsyncAPI
+  url: asyncapi/healthie-webhooks-asyncapi.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/healthie/refs/heads/main/hosts/healthie-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/healthie-hosts.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/healthie/refs/heads/main/integrations/healthie-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/healthie-integration-edges.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/healthie/refs/heads/main/vendors/healthie-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/healthie-vendors.yml
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://www.gethealthie.com/press/will-reed
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/healthie/refs/heads/main/security/healthie-trust-center.yml
   title: ''
@@ -147,11 +185,6 @@ common:
   title: ''
   type: AgentSkill
   url: skills/_index.yml
-- group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/healthie/refs/heads/main/llms/healthie-llms.txt
-  title: ''
-  type: LLMsTxt
-  url: llms/healthie-llms.txt
 - group: docs
   href: https://raw.githubusercontent.com/api-evangelist/healthie/refs/heads/main/asyncapi/healthie-subscriptions-asyncapi.yml
   title: ''
@@ -206,10 +239,6 @@ common:
   title: ''
   type: Documentation
   url: https://docs.gethealthie.com/reference
-- group: start
-  title: ''
-  type: GettingStarted
-  url: https://docs.gethealthie.com/guides/quickstart
 - group: auth
   title: ''
   type: Authentication
@@ -246,10 +275,6 @@ common:
   title: ''
   type: GitHubOrganization
   url: https://github.com/healthie
-- group: company
-  title: ''
-  type: LinkedIn
-  url: https://www.linkedin.com/company/gethealthie/
 - group: other
   title: ''
   type: X
@@ -307,13 +332,13 @@ modified: '2026-08-14'
 name: Healthie
 nav: Providers
 network: true
-overview: 'Healthie publishes 1 API on the [APIs.io](https://apis.io/) network: GraphQL API. Tagged areas include API-First, Appointments, Billing, Care Plans, and Charting.
+overview: 'Healthie is listed with 1 API on the [APIs.io](https://apis.io/) network: GraphQL API. Tagged areas include API-First, Appointments, Billing, Care Plans, and Charting.
 
 
   The Healthie catalog on APIs.io includes 2 event-driven AsyncAPI specifications and 1 Spectral governance ruleset.
 
 
-  Healthie''s developer surface includes API reference, authentication, changelog, sandbox, support, signup flow, developer portal, and 44 more developer resources.'
+  Healthie''s developer surface includes getting-started guide, API reference, authentication, changelog, sandbox, support, signup flow, and 49 more developer resources.'
 plans:
 - name: Healthie Plans Pricing
   plan_count: 5
@@ -324,10 +349,11 @@ rate_limits:
   name: Healthie Rate Limits
   slug: healthie-rate-limits
 rules:
-- effective_rule_count: 32
+- authorship: generated
+  effective_rule_count: 32
   extends:
   - spectral:asyncapi
-  name: Healthie API Rules
+  name: Healthie — asyncapi rules
   rule_count: 5
   severity_counts:
     error: 1
@@ -337,21 +363,21 @@ rules:
   slug: healthie-asyncapi-spectral-rules
 score:
   band: strong
-  composite: 65.8
+  composite: 66.1
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 26
     catalog_earned: 64.8
     catalog_earned_first_party: 24.0
     catalog_gap: 50.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.3
   facets:
     access_clarity: 85.5
     contract_governance: 29.5
     contract_quality: 51.2
     developer_ergonomics: 61.3
-    discoverability: 65.0
+    discoverability: 66.7
     operational_transparency: 86.8
   previous_composite: 65.8
   provenance:
@@ -364,8 +390,8 @@ score:
     regime: Health
     regime_id: health
     score: 28.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -384,7 +410,7 @@ security:
 - kind: trust-center
   name: Healthie Trust Center
   slug: healthie-trust-center
-  summary_line: HIPAA, SOC 2 Type 2, HITRUST CSF r2, ONC Health IT Certification, PCI DSS Service Provider Level 1 (held by Healthie's payment processor, not by Healthie), GDPR, PIPEDA
+  summary_line: HIPAA, GDPR
 slug: healthie
 tags:
 - API-First
@@ -395,8 +421,7 @@ tags:
 - Claims
 - Clinical
 - Digital Health
-- EHR
-- EMR
+- Electronic Health Records
 - Forms
 - GraphQL
 - Health Tech

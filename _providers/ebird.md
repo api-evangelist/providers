@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Retrieve recent or notable birding observations within a region
@@ -40,6 +40,10 @@ apis:
   slug: ebird
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://ebird.org/feed
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/ebird/refs/heads/main/security/ebird-vulnerability-disclosure.yml
   title: ''
@@ -66,20 +70,20 @@ created: '2026-05-28'
 description: Retrieve recent or notable birding observations within a region
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ebird.png
 layout: provider
-modified: '2026-05-28'
+modified: '2026-10-06'
 name: eBird
 nav: Providers
 network: true
-overview: 'eBird publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Animals and Public APIs.
+overview: 'eBird is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Animals and Public APIs.
 
 
-  eBird''s developer surface includes engineering blog and 4 more developer resources.'
+  eBird''s developer surface includes engineering blog and 5 more developer resources.'
 random_paper: 12
 score:
   band: minimal
   composite: 7.4
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -100,8 +104,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

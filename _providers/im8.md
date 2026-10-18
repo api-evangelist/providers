@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'The agent-native commerce surface of the IM8 Health Shopify storefront: a Universal Commerce Protocol (UCP) merchant profile with a hosted MCP shopping endpoint (catalog search, cart, checkout, fulfil'
@@ -112,7 +112,7 @@ modified: '2026-07-19'
 name: IM8 Health
 nav: Providers
 network: true
-overview: 'IM8 Health publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Wellness, Supplements, and Nutrition.
+overview: 'IM8 Health is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Wellness, Supplements, and Nutrition.
 
 
   IM8 Health''s developer surface includes documentation, authentication, engineering blog, and 10 more developer resources.'
@@ -126,7 +126,7 @@ score:
   band: emerging
   composite: 21.9
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 11
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -150,8 +150,8 @@ score:
     regime: Health
     regime_id: health
     score: 32.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

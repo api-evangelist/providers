@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 42.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 14
   slug: plunk-agentic-access
   summary_line: 14 operations · 11 acting
-api_count: 2
+api_count: 3
 apis:
 - baseURL: https://api.useplunk.com/v1
   baseurl_source: declared
@@ -358,16 +358,20 @@ common:
 created: '2026-06-20'
 description: Plunk is an open-source (AGPL-3.0) email platform for developers that unifies transactional email, marketing campaigns, contact segmentation and event-driven workflow automation behind a single REST API. It publishes its own OpenAPI 3.1.0 at docs.useplunk.com/openapi.json, declaring next-api.useplunk.com as the production base URL, and authenticates with a two-class Bearer API key where the prefix decides capability — sk_ for every endpoint and pk_ for the client-safe /v1/track tracking call. The API supports Idempotency-Key on both public write endpoints, cursor pagination, a structured error envelope carrying machine codes plus remediation hints, and a documented webhook event catalogue delivered as workflow steps. Every documentation page is also served as Markdown. The entire stack self-hosts with Docker Compose for full data ownership and no per-email costs.
 finops:
-- name: Plunk Finops
+- has_sources: true
+  method: generated
+  name: Plunk Finops
+  primary_unit: ''
   service_category: Email and Messaging
   slug: plunk-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/plunk.png
 layout: provider
 modified: '2026-08-13'
 name: Plunk
 nav: Providers
 network: true
-overview: 'Plunk publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Campaigns API, Contacts API, Events API, and 4 more. Tagged areas include Email, Transactional Email, Marketing, Automation, and Open Source.
+overview: 'Plunk publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Campaigns API, Contacts API, Events API, and 4 more. Tagged areas include Email, Transactional Email, Marketing, Automation, and Open Source.
 
 
   The Plunk catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -385,23 +389,23 @@ rate_limits:
   slug: plunk-rate-limits
 score:
   band: exemplar
-  composite: 75.1
+  composite: 74.2
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_earned: 64.0
     catalog_earned_first_party: 24.0
     catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -0.9
   facets:
-    access_clarity: 92.1
+    access_clarity: 84.2
     contract_governance: 18.2
     contract_quality: 64.2
     developer_ergonomics: 64.9
-    discoverability: 73.2
+    discoverability: 78.6
     operational_transparency: 73.7
-  previous_composite: 74.6
+  previous_composite: 75.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -422,8 +426,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'The Poynt Cloud API lets developers manage a merchant business''s orders, transactions, customers, products, catalogs, inventory and taxes, register webhooks for real-time events, and collect/tokenize '
@@ -45,6 +45,10 @@ asyncapis:
   name: Poynt Webhooks
   slug: poynt-webhooks
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.poynt.com/press
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/poynt/refs/heads/main/security/poynt-domain-security.yml
   title: ''
@@ -150,34 +154,34 @@ created: '2026-07-17'
 description: 'Poynt (GoDaddy Poynt) is an open commerce platform for merchants built around smart payment terminals and a cloud API. Its Poynt Cloud API (services.poynt.net) lets developers build and distribute business apps that read and write orders, transactions, customers, products, catalogs, inventory, taxes and businesses, register webhooks for real-time events, and tokenize card data in the browser with Poynt Collect. Authentication is OAuth 2.0 using a self-signed JWT bearer grant that is exchanged for a short-lived access token. The platform serves three integration audiences: payment processors, terminal OEMs, and independent app developers.'
 image: https://poynt.com/wp-content/uploads/2021/09/poynt-logo.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Poynt
 nav: Providers
 network: true
-overview: 'Poynt publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Payments, Point-of-Sale, and Commerce.
+overview: 'Poynt is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Payments, Point-of-Sale, and Commerce.
 
 
   The Poynt catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Poynt''s developer surface includes documentation, API reference, getting-started guide, support, authentication, and 17 more developer resources.'
+  Poynt''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, authentication, and 17 more developer resources.'
 random_paper: 20
 score:
   band: thin
-  composite: 35.4
+  composite: 36.0
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 0.0
     contract_governance: 18.2
     contract_quality: 39.0
-    developer_ergonomics: 61.9
+    developer_ergonomics: 64.3
     discoverability: 73.2
     operational_transparency: 26.3
   previous_composite: 35.4
@@ -189,8 +193,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 22.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

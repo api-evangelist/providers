@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -38,6 +38,10 @@ apis:
   slug: enterprisedb-utility-api
 artifact_total: 8
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.enterprisedb.com/blog/rss.xml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/enterprisedb/refs/heads/main/agentic-access/enterprisedb-agentic-access.yml
   title: ''
@@ -209,20 +213,21 @@ jsonld:
   property_count: 150
   slug: enterprisedb-context
 layout: provider
-modified: '2026-10-03'
+modified: '2026-10-06'
 name: EDB
 nav: Providers
 network: true
-overview: 'EDB publishes 1 API on the [APIs.io](https://apis.io/) network: Utility API. Tagged areas include Company, Database, PostgreSQL, Enterprise, and Open Source.
+overview: 'EDB publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Utility API. Tagged areas include Company, Database, PostgreSQL, Enterprise, and Open Source.
 
 
   The EDB catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  EDB''s developer surface includes changelog, support, pricing, getting-started guide, documentation, engineering blog, and 28 more developer resources.'
+  EDB''s developer surface includes changelog, support, pricing, getting-started guide, documentation, engineering blog, and 29 more developer resources.'
 random_paper: 11
 rules:
-- effective_rule_count: 51
+- authorship: generated
+  effective_rule_count: 51
   extends:
   - spectral:oas
   name: EDB API Rules
@@ -235,14 +240,15 @@ rules:
   slug: enterprisedb-rules
 score:
   band: developing
-  composite: 48.9
+  composite: 49.0
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 20
     catalog_earned: 54.2
     catalog_earned_first_party: 0.0
     catalog_gap: 60.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -6.7
   facets:
     access_clarity: 60.5
     contract_governance: 22.0
@@ -250,6 +256,7 @@ score:
     developer_ergonomics: 35.7
     discoverability: 66.1
     operational_transparency: 42.1
+  previous_composite: 55.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -265,12 +272,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
     reason: read_only
+screenshot: https://raw.githubusercontent.com/api-evangelist/enterprisedb/refs/heads/main/screenshots/enterprisedb-2026-10-11T104218.png
 security:
 - kind: domain-security
   name: Enterprisedb Domain Security

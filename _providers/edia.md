@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://edia.app/blog/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/edia/refs/heads/main/security/edia-domain-security.yml
   title: ''
@@ -49,28 +53,31 @@ created: '2026-07-17'
 description: Edia is an AI platform for K-12 school districts focused on improving student outcomes. Its products span AI math tutoring (reported 8-23% score improvements), attendance intervention to reduce chronic absenteeism (up to 30% reduction), and District Intelligence analytics that consolidate data from student information systems (SIS), learning management systems (LMS), behavior, and wellness sources into a single view for educators and administrators. Edia reports serving 200+ districts and 500K+ students. The company is backed by Felicis and was added to the API Evangelist network as a portfolio-sourced company profile. Edia does not currently publish a public developer portal, API reference, or API specification, so this profile carries only verifiable company identity and probed domain-security posture.
 image: https://edia.app/linkpreview.jpg
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Edia
 nav: Providers
 network: true
-overview: Edia is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, EdTech, K-12, and Artificial Intelligence.
+overview: 'Edia is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, EdTech, K-12, and Artificial Intelligence.
+
+
+  Edia''s developer surface includes engineering blog and 2 more developer resources.'
 random_paper: 7
 score:
   band: minimal
-  composite: 2.9
+  composite: 3.4
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 48.2
     operational_transparency: 0.0
   previous_composite: 2.9
@@ -80,8 +87,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 5.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

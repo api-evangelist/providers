@@ -26,13 +26,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.0
-  scored_at: '2026-10-04'
+  score: 17.8
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -62,7 +62,7 @@ apis:
   description: The ticker API from CoinPaprika — 2 operation(s) for ticker.
   name: CoinPaprika Ticker API
   slug: coinpaprika-ticker-api
-artifact_total: 21
+artifact_total: 24
 collections:
 - collection_type: open
   name: API Collection
@@ -157,6 +157,14 @@ examples:
 - key_count: 15
   name: Tick
   slug: tick
+finops:
+- has_sources: false
+  method: generated
+  name: Coinpaprika Finops
+  primary_unit: ''
+  service_category: ''
+  slug: coinpaprika-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/coinpaprika.png
 json_schemas:
 - name: Coin
@@ -176,18 +184,27 @@ modified: '2026-06-13'
 name: CoinPaprika
 nav: Providers
 network: true
-overview: 'CoinPaprika publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Coins API, Global API, Search API, and 1 more. Tagged areas include Cryptocurrency, Market Data, Finance, OHLCV, and Blockchain.
+overview: 'CoinPaprika publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Coins API, Global API, Search API, and 1 more. Tagged areas include Cryptocurrency, Market Data, Finance, OHLCV, and Blockchain.
 
 
   The CoinPaprika catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
   CoinPaprika''s developer surface includes documentation, engineering blog, pricing, and 11 more developer resources.'
+plans:
+- name: Coinpaprika Plans Pricing
+  plan_count: 0
+  slug: coinpaprika-plans-pricing
 random_paper: 3
+rate_limits:
+- limit_count: 0
+  name: Coinpaprika Rate Limits
+  slug: coinpaprika-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: CoinPaprika API Rules
+  name: CoinPaprika — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -197,15 +214,15 @@ rules:
   slug: coinpaprika-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 23.0
+  composite: 23.9
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 40.3
     catalog_earned_first_party: 0.0
     catalog_gap: 74.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
     access_clarity: 10.5
     contract_governance: 9.8
@@ -213,7 +230,7 @@ score:
     developer_ergonomics: 11.9
     discoverability: 66.1
     operational_transparency: 21.1
-  previous_composite: 23.0
+  previous_composite: 25.5
   provenance:
     agentic_access: derived
     contracts:
@@ -226,9 +243,9 @@ score:
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 11.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+    score: 16.7
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

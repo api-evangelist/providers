@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,7 +44,7 @@ agentic_access:
   operation_count: 8
   slug: golden-recursion-agentic-access
   summary_line: 8 operations
-api_count: 1
+api_count: 2
 apis:
 - baseURL: https://golden.com/api/v2/public
   baseurl_source: declared
@@ -83,6 +83,10 @@ collections:
   name: Golden API v2 Entity API Schema API API
   slug: open-golden-recursion-schema-api-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://golden.com/news/
 - group: company
   title: ''
   type: Website
@@ -230,14 +234,14 @@ description: 'Golden Recursion Inc. builds Golden, a San Francisco company using
   remain live and were re-verified 2026-08-14.'
 image: https://golden.com/static/images/38d57130206f78fb48c9.png
 layout: provider
-modified: '2026-09-16'
+modified: '2026-10-06'
 name: Golden Recursion
 nav: Providers
 network: true
-overview: 'Golden Recursion publishes 3 APIs on the [APIs.io](https://apis.io/) network: Entity API, Query API, and Schema API. Tagged areas include Company, Knowledge Graph, Data Enrichment, Entity Data, and Company Data.
+overview: 'Golden Recursion publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Entity API, Query API, and Schema API. Tagged areas include Company, Knowledge Graph, Data Enrichment, Entity Data, and Company Data.
 
 
-  Golden Recursion''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 24 more developer resources.'
+  Golden Recursion''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, pricing, signup flow, and 25 more developer resources.'
 plans:
 - name: Golden Recursion Plans Pricing
   plan_count: 4
@@ -249,7 +253,7 @@ rate_limits:
   slug: golden-recursion-rate-limits
 score:
   band: thin
-  composite: 37.5
+  composite: 38.0
   coverage:
     artifact_dirs: 22
     catalog_earned: 61.0
@@ -257,12 +261,12 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 38.2
     contract_governance: 4.5
     contract_quality: 49.6
-    developer_ergonomics: 25.6
+    developer_ergonomics: 28.0
     discoverability: 73.2
     operational_transparency: 34.2
   previous_composite: 37.5
@@ -282,8 +286,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.giftly.com/press
 - group: company
   title: ''
   type: Website
@@ -73,20 +77,20 @@ created: '2026-07-17'
 description: Giftly is a digital gifting platform that lets anyone send a flexible monetary gift redeemable at a specific local or national business, or as cash. Senders pick a place or category, customize the card design and tagline, choose a gift amount up to $1,000, and deliver it by email, text, print, or mail. Recipients redeem a Giftly gift as a Visa or Mastercard gift card by mail, as a credit to their bank account, or as a credit to their PayPal account; gifts never expire and carry no inactivity fees. Giftly also runs a corporate and business program for companies sending gifts at scale. This profile was added to the API Evangelist network as a portfolio company of Uncork Capital; Giftly publishes a consumer web product and a business portal, but no public developer API, OpenAPI, or well-known discovery surface was found during enrichment.
 image: https://assets.giftly.com/assets/favicon-c8d2233e.ico
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Giftly
 nav: Providers
 network: true
 overview: 'Giftly is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Gift Cards, Gifting, Payments, and Prepaid.
 
 
-  Giftly''s developer surface includes support, engineering blog, signup flow, and 5 more developer resources.'
+  Giftly''s developer surface includes engineering blog, support, signup flow, and 6 more developer resources.'
 random_paper: 17
 score:
   band: emerging
   composite: 12.0
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -107,8 +111,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 12.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

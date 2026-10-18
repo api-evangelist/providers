@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'The Prime Roots Shopify storefront''s agent-facing commerce surface: a UCP merchant profile, a hosted MCP endpoint for catalog/cart/checkout, and read-only storefront JSON endpoints.'
@@ -40,6 +40,14 @@ apis:
   slug: prime-roots-storefront-agentic-commerce
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.primeroots.com/en-us/blogs/learn
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.primeroots.com/en-us/blogs/learn.atom
 - group: company
   title: ''
   type: Website
@@ -84,20 +92,20 @@ mcp_servers:
 - description: 'Prime Roots operates a hosted, remote MCP endpoint as part of its Shopify storefront implementation of the Universal Commerce Protocol (UCP, https://ucp.dev). Agents POST JSON-RPC to the endpoint and '
   name: Prime Roots MCP Server
   slug: prime-roots-ucp
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Prime Roots
 nav: Providers
 network: true
-overview: 'Prime Roots publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food Tech, Plant-Based, Deli Meat, and Food Service.
+overview: 'Prime Roots is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food Tech, Plant-Based, Deli Meat, and Food Service.
 
 
-  Prime Roots'' developer surface includes engineering blog and 7 more developer resources.'
+  Prime Roots'' developer surface includes engineering blog and 9 more developer resources.'
 random_paper: 9
 score:
   band: emerging
   composite: 12.0
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -120,8 +128,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

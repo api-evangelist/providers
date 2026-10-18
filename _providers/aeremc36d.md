@@ -23,10 +23,20 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 3
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/aeremc36d/refs/heads/main/plans/aeremc36d-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/aeremc36d-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/aeremc36d/refs/heads/main/rate-limits/aeremc36d-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/aeremc36d-rate-limits.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/aeremc36d/refs/heads/main/security/aeremc36d-domain-security.yml
   title: ''
@@ -89,7 +99,7 @@ network: true
 overview: 'Aerem is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Lending, Energy, and Solar.
 
 
-  Aerem''s developer surface includes engineering blog, support, and 6 more developer resources.'
+  Aerem''s developer surface includes engineering blog, support, and 8 more developer resources.'
 plans:
 - name: Aeremc36D Plans Pricing
   plan_count: 0
@@ -103,7 +113,7 @@ score:
   band: minimal
   composite: 10.9
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 10
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -131,13 +141,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 11.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/aeremc36d/refs/heads/main/screenshots/aeremc36d-2026-10-11T092925.png
 security:
 - kind: domain-security
   name: Aeremc36D Domain Security

@@ -27,20 +27,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.0
-  scored_at: '2026-10-04'
+  score: 21.1
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 9
+- acting_count: 8
   human_in_the_loop: 0
   name: Cloudflare Kv Agentic Access
   operation_count: 14
   slug: cloudflare-kv-agentic-access
-  summary_line: 14 operations · 9 acting
+  summary_line: 14 operations · 8 acting
 api_count: 1
 apis:
 - baseURL: https://api.cloudflare.com/client/v4
@@ -174,9 +174,13 @@ common:
 created: 2026-06-13
 description: Cloudflare Workers KV is a globally distributed key-value store that allows developers to store and retrieve data at low latency from Cloudflare's edge network. It provides a REST API for reading, writing, deleting, and listing key-value pairs across namespaces, making it ideal for caching, configuration management, session storage, API authorization, and dynamic routing. KV supports eventual consistency across Cloudflare's global network with read latencies under 5ms, and is accessible both via Workers bindings and external REST API calls.
 finops:
-- name: Cloudflare Kv Finops
+- has_sources: false
+  method: generated
+  name: Cloudflare Kv Finops
+  primary_unit: ''
   service_category: ''
   slug: cloudflare-kv-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cloudflare-kv.png
 json_schemas:
 - name: Any
@@ -270,7 +274,7 @@ modified: 2026-06-13
 name: Cloudflare KV
 nav: Providers
 network: true
-overview: 'Cloudflare KV publishes 1 API on the [APIs.io](https://apis.io/) network: Workers KV Namespace API. Tagged areas include Key-Value Store, Edge Computing, Cloudflare Workers, Distributed Storage, and Global Database.
+overview: 'Cloudflare KV publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Workers KV Namespace API. Tagged areas include Key-Value Store, Edge Computing, Cloudflare Workers, Distributed Storage, and Global Database.
 
 
   The Cloudflare KV catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -287,9 +291,10 @@ rate_limits:
   name: Cloudflare Kv Rate Limits
   slug: cloudflare-kv-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Cloudflare KV API Rules
+  name: Cloudflare KV — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -298,23 +303,23 @@ rules:
     warn: 4
   slug: cloudflare-kv-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 41.0
+  band: thin
+  composite: 34.7
   coverage:
     artifact_dirs: 15
-    catalog_earned: 69.3
+    catalog_earned: 53.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 45.7
+    catalog_gap: 61.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.3
   facets:
-    access_clarity: 37.4
+    access_clarity: 15.8
     contract_governance: 9.8
     contract_quality: 52.6
     developer_ergonomics: 23.8
     discoverability: 66.1
-    operational_transparency: 65.3
+    operational_transparency: 44.7
   open_source:
     applies: true
     score: 40.0
@@ -332,9 +337,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

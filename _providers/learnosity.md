@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 9.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 12
 apis:
 - description: Server-side JSON API for the Learnosity platform. Endpoint families cover Item bank content (Items, Questions, Features, Activities, Tags, Pools, Templates, Workflows), learner sessions and responses,
@@ -72,8 +72,17 @@ apis:
 - description: Embeddable AI scoring and feedback surface for open-response work, exposed through feedbackSession and feedbackSessionUI configuration.
   name: Learnosity Feedback Aide
   slug: feedback-aide
-artifact_total: 17
+artifact_total: 18
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/learnosity/refs/heads/main/plans/learnosity-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/learnosity-plans-pricing.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://learnosity.com/feed/
 - group: start
   title: ''
   type: Portal
@@ -261,32 +270,36 @@ description: 'Learnosity is an Irish-founded assessment infrastructure company w
   Virginia, Dublin, Sydney, California and Oregon.'
 image: https://learnosity.com/images/learnosity_logo.svg
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Learnosity
 nav: Providers
 network: true
-overview: 'Learnosity publishes 12 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Assessment, EdTech, Learning, and Analytics.
+overview: 'Learnosity is listed with 12 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Assessment, EdTech, Learning, and Analytics.
 
 
-  Learnosity''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 34 more developer resources.'
+  Learnosity''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 36 more developer resources.'
+plans:
+- name: Learnosity Plans Pricing
+  plan_count: 3
+  slug: learnosity-plans-pricing
 random_paper: 20
 rate_limits:
 - limit_count: 15
   name: Learnosity Rate Limits
   slug: learnosity-rate-limits
 score:
-  band: developing
-  composite: 51.1
+  band: strong
+  composite: 57.5
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 52.0
-    catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    artifact_dirs: 19
+    catalog_earned: 64.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.4
   facets:
-    access_clarity: 60.5
+    access_clarity: 92.1
     contract_governance: 18.2
     contract_quality: 6.5
     developer_ergonomics: 71.4
@@ -306,9 +319,9 @@ score:
     regime: Education & Research
     regime_id: education
     score: 32.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

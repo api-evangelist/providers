@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Seller-facing API for the Bed Bath & Beyond third-party marketplace, which runs as a tenant of the Mirakl Marketplace Platform at bedbathandbeyondus-prod.mirakl.net. Approved sellers generate a Shop A
@@ -141,7 +141,7 @@ modified: '2026-09-18'
 name: Bed Bath And Beyond
 nav: Providers
 network: true
-overview: 'Bed Bath And Beyond publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Bedding, Beyond, E-Commerce, Home Goods, and Kitchenware.
+overview: 'Bed Bath And Beyond is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Bedding, Beyond, E-Commerce, Home Goods, and Kitchenware.
 
 
   Bed Bath And Beyond''s developer surface includes support and 15 more developer resources.'
@@ -174,7 +174,7 @@ score:
   band: emerging
   composite: 19.9
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -195,8 +195,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 25.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

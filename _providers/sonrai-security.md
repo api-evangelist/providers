@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: GraphQL API for the Sonrai Cloud Permissions Firewall platform — exempt, protect, quarantine, and disable cloud IAM access. Bearer-token authenticated; reference documentation is gated behind the Auth
@@ -41,6 +41,10 @@ apis:
   slug: sonrai-graphql-api
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://sonraisecurity.com/feed/
 - group: company
   title: ''
   type: Website
@@ -114,26 +118,26 @@ created: '2026-07-17'
 description: Sonrai Security is a cloud identity and access security company whose Cloud Permissions Firewall (CPF) enforces least-privilege access across AWS, Azure, and Google Cloud by quarantining unused IAM identities, protecting sensitive permissions, and disabling unused services and regions without disrupting developers. The platform also ships WALLy, an AI-driven Cloud PAM agent that grants just-in-time privileged access through Slack and Teams, and offers agentic AI security consulting. Sonrai exposes a GraphQL API for the platform (endpoint https://app.sonraisecurity.com/graphql), documented in its CPF developer docs; platform and API access authenticate through an Auth0-backed OpenID Connect identity provider at login.sonraisecurity.com. Sonrai Security is backed by Menlo Ventures.
 image: https://sonraisecurity.com/wp-content/uploads/sonrai-logo-sharing.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Sonrai Security
 nav: Providers
 network: true
-overview: 'Sonrai Security publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Cloud Security, Identity and Access Management, and CIEM.
+overview: 'Sonrai Security is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Cloud Security, Identity and Access Management, and CIEM.
 
 
-  Sonrai Security''s developer surface includes documentation, pricing, signup flow, engineering blog, support, authentication, and 10 more developer resources.'
+  Sonrai Security''s developer surface includes documentation, pricing, signup flow, engineering blog, support, authentication, and 11 more developer resources.'
 random_paper: 1
 score:
   band: emerging
-  composite: 18.2
+  composite: 18.3
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 6.6
     contract_governance: 18.2
@@ -150,8 +154,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

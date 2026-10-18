@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 50.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Segment-compatible event tracking API for capturing B2B customer journey events. Server-side events are POSTed as a batch to the HTTP endpoint with HTTP Basic auth (source API key as username, empty p
@@ -212,7 +212,7 @@ modified: '2026-08-13'
 name: Dreamdata
 nav: Providers
 network: true
-overview: 'Dreamdata publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, B2B Attribution, Revenue Attribution, Marketing Analytics, and Customer Journey.
+overview: 'Dreamdata is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, B2B Attribution, Revenue Attribution, Marketing Analytics, and Customer Journey.
 
 
   The Dreamdata catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -237,7 +237,7 @@ score:
   band: strong
   composite: 57.2
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
@@ -266,8 +266,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

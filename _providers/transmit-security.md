@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: verified
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 45.1
-  scored_at: '2026-10-04'
+  score: 43.3
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 0
@@ -344,9 +344,13 @@ examples:
   name: Transmit Security Platform Administration Create App Example
   slug: transmit-security-platform-administration-create-app-example
 finops:
-- name: Transmit Security Finops
+- has_sources: false
+  method: generated
+  name: Transmit Security Finops
+  primary_unit: ''
   service_category: ''
   slug: transmit-security-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/transmit-security.png
 json_schemas:
 - name: Transmit Security One-Time Login Schemas
@@ -380,7 +384,7 @@ modified: '2026-06-12'
 name: Transmit Security
 nav: Providers
 network: true
-overview: 'Transmit Security publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Auth API, Manage API, and 6 more. Tagged areas include CIAM, Identity, Authentication, Passkeys, and WebAuthn.
+overview: 'Transmit Security publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Applications API, Auth API, Manage API, and 6 more. Tagged areas include CIAM, Identity, Authentication, Passkeys, and WebAuthn.
 
 
   The Transmit Security catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -397,9 +401,10 @@ rate_limits:
   name: Transmit Security Rate Limits
   slug: transmit-security-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: Transmit Security API Rules
+  name: Transmit Security — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -407,7 +412,8 @@ rules:
     info: 1
     warn: 5
   slug: transmit-security-jsonschema-spectral-rules
-- effective_rule_count: 56
+- authorship: generated
+  effective_rule_count: 56
   extends:
   - spectral:oas
   name: Transmit Security API Rules
@@ -424,31 +430,31 @@ scopes:
   slug: transmit-security-scopes
   summary_line: 4 scopes · clientCredentials
 score:
-  band: strong
-  composite: 59.9
+  band: developing
+  composite: 51.6
   coverage:
-    artifact_dirs: 30
-    catalog_earned: 90.6
+    artifact_dirs: 31
+    catalog_earned: 72.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 24.4
+    catalog_gap: 43.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 9.2
+  delta: -11.0
   facets:
-    access_clarity: 57.4
+    access_clarity: 28.9
     contract_governance: 31.8
     contract_quality: 54.4
     developer_ergonomics: 60.1
     discoverability: 82.1
-    operational_transparency: 62.6
-  previous_composite: 50.7
+    operational_transparency: 42.1
+  previous_composite: 62.6
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 1
-      marker_coverage: 12.5
+      derived: 0
+      marker_coverage: 0.0
       total: 8
     mcp: derived
     skills: derived
@@ -458,9 +464,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: rising
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 11.1

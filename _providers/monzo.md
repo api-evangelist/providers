@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The Monzo API is a REST interface over a user's Monzo account. It exposes accounts, balance, savings pots (with deposit/withdraw), transactions (list, retrieve, annotate with metadata, expand merchant
@@ -185,7 +185,7 @@ modified: '2026-07-20'
 name: Monzo
 nav: Providers
 network: true
-overview: 'Monzo publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Banking, Fintech, Financial Services, and Payments.
+overview: 'Monzo is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Banking, Fintech, Financial Services, and Payments.
 
 
   The Monzo catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -197,7 +197,7 @@ score:
   band: developing
   composite: 40.8
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 17
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -227,8 +227,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 24.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

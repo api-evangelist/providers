@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -105,6 +105,21 @@ collections:
   name: Prestmit Partner API
   slug: open-prestmit
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/prestmit/refs/heads/main/plans/prestmit-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/prestmit-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/prestmit/refs/heads/main/rate-limits/prestmit-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/prestmit-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/prestmit/refs/heads/main/finops/prestmit-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/prestmit-finops.yml
 - group: company
   title: ''
   type: Website
@@ -175,19 +190,23 @@ common:
 created: '2025-02-08'
 description: Prestmit is a digital trading platform that lets users buy and sell gift cards, exchange cryptocurrencies, pay bills, and purchase airtime and data. The Prestmit Partner API enables developers to programmatically buy and sell gift cards, manage wallets and payouts, and tap into Prestmits network of trusted partners and seamless transactions.
 finops:
-- name: Prestmit Finops
+- has_sources: false
+  method: generated
+  name: Prestmit Finops
+  primary_unit: ''
   service_category: API
   slug: prestmit-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/prestmit.png
 layout: provider
 modified: '2026-04-28'
 name: Prestmit
 nav: Providers
 network: true
-overview: 'Prestmit publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Bank Accounts API, General API, Gift Cards - Buy API, and 4 more. Tagged areas include Bills, Crypto, Fintech, Gift Cards, and Payments.
+overview: 'Prestmit publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Bank Accounts API, General API, Gift Cards - Buy API, and 4 more. Tagged areas include Bills, Cryptocurrency, Fintech, Gift Cards, and Payments.
 
 
-  Prestmit''s developer surface includes authentication, developer portal, documentation, sandbox, signup flow, engineering blog, support, and 9 more developer resources.'
+  Prestmit''s developer surface includes authentication, developer portal, documentation, sandbox, signup flow, engineering blog, support, and 12 more developer resources.'
 plans:
 - name: Prestmit Plans Pricing
   plan_count: 3
@@ -199,17 +218,17 @@ rate_limits:
   slug: prestmit-rate-limits
 score:
   band: thin
-  composite: 29.1
+  composite: 27.5
   coverage:
     artifact_dirs: 12
-    catalog_earned: 41.0
+    catalog_earned: 38.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 22.4
+    access_clarity: 14.5
     contract_governance: 0.0
     contract_quality: 45.3
     developer_ergonomics: 39.3
@@ -229,8 +248,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 10.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -248,7 +267,7 @@ security:
 slug: prestmit
 tags:
 - Bills
-- Crypto
+- Cryptocurrency
 - Fintech
 - Gift Cards
 - Payments

@@ -32,10 +32,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://rebellions.ai/company/newsroom/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://rebellions.ai/feed/
 - group: company
   title: ''
   type: Website
@@ -93,20 +101,20 @@ created: '2026-07-17'
 description: Rebellions is an AI infrastructure company that designs energy-efficient AI inference hardware (NPUs) and the software stack to deploy large language and multimodal models on it at scale. Its products include the Rebel100 inference chip (FP8, HBM3e), the ATOM-Max Server and POD, and RebelServer. The RBLN SDK compiles and serves HuggingFace Transformers/Diffusers, PyTorch, and TensorFlow models on RBLN accelerators, with integrations for vLLM, NVIDIA Triton, TorchServe, and Kubernetes. Rebellions does not expose a public REST/HTTP API; developers integrate through first-party Python SDKs (optimum-rbln, vllm-rbln), the RBLN compiler and driver, and the model zoo. Backed by Kindred Ventures and partnered with Samsung, Arm, IBM, and AWS.
 image: https://rebellions.ai/wp-content/uploads/2023/11/rebellions-logo.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Rebellions
 nav: Providers
 network: true
 overview: 'Rebellions is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Tools Infrastructure, Artificial Intelligence, Inference, and NPU.
 
 
-  Rebellions'' developer surface includes documentation, getting-started guide, engineering blog, support, changelog, and 7 more developer resources.'
+  Rebellions'' developer surface includes engineering blog, documentation, getting-started guide, support, changelog, and 9 more developer resources.'
 random_paper: 15
 score:
   band: emerging
   composite: 13.6
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -127,8 +135,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

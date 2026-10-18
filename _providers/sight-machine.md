@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: REST endpoint that returns the fully-resolved values behind a Sight Machine dashboard, panel by panel, so dashboard data can be consumed by external enterprise applications. Authenticated with a tenan
@@ -51,6 +51,10 @@ asyncapis:
   name: Sight Machine Event Surface
   slug: sight-machine-event-surface
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.sightmachine.com/news
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/sight-machine/refs/heads/main/security/sight-machine-domain-security.yml
   title: ''
@@ -170,17 +174,17 @@ common:
 created: '2026-08-27'
 description: Sight Machine is an industrial AI company (founded 2011, San Francisco and Ann Arbor) whose Manufacturing Data Platform connects to plant OT and IT systems — historians, MES, ERP, PLCs, OPC UA servers and MQTT brokers — and builds a semantic model of the factory that AI agents reason over. The platform is delivered as a per-customer tenant at {tenant}.sightmachine.io, and exposes its production data through a versioned /v1 REST surface (Dashboard API plus datatab/selector data endpoints), a first-party Python SDK (smsdk), and a PostgreSQL-wire ODBC/JDBC connector. Edge ingestion runs through FactoryTX, which speaks OPC UA, MQTT, SQL and file/cloud-store protocols. Authentication is by API key and secret headers issued per tenant; there is no public sandbox, no published pricing, and the API reference itself is served from inside the authenticated tenant environment.
 layout: provider
-modified: '2026-08-27'
+modified: '2026-10-06'
 name: Sight Machine
 nav: Providers
 network: true
-overview: 'Sight Machine publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Manufacturing, Industrial IoT, Analytics, Artificial Intelligence, and Agents.
+overview: 'Sight Machine is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Manufacturing, Industrial IoT, Analytics, Artificial Intelligence, and Agents.
 
 
   The Sight Machine catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Sight Machine''s developer surface includes documentation, API reference, getting-started guide, changelog, authentication, and 20 more developer resources.'
+  Sight Machine''s developer surface includes engineering blog, documentation, API reference, getting-started guide, changelog, authentication, and 20 more developer resources.'
 plans:
 - name: Sight Machine Plans Pricing
   plan_count: 0
@@ -192,20 +196,20 @@ rate_limits:
   slug: sight-machine-rate-limits
 score:
   band: thin
-  composite: 38.3
+  composite: 38.8
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 19
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 21.1
     contract_governance: 18.2
     contract_quality: 39.0
-    developer_ergonomics: 47.6
+    developer_ergonomics: 50.0
     discoverability: 69.6
     operational_transparency: 28.9
   previous_composite: 38.3
@@ -218,8 +222,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 28.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

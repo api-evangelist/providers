@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Can be used to get AI Response, jokes, memes, and much more at lightning-fast speed
@@ -56,7 +56,7 @@ modified: '2026-05-28'
 name: Random Stuff
 nav: Providers
 network: true
-overview: Random Stuff publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Development and Public APIs.
+overview: Random Stuff is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Development and Public APIs.
 random_paper: 6
 score:
   band: minimal
@@ -89,13 +89,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 0.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/random-stuff/refs/heads/main/screenshots/random-stuff-2026-10-11T113117.png
 slug: random-stuff
 tags:
 - Development

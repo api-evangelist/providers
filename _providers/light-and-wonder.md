@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://explore.lnw.com/newsroom/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/light-and-wonder/refs/heads/main/security/light-and-wonder-domain-security.yml
   title: ''
@@ -61,31 +65,31 @@ created: '2026-05-04'
 description: Light & Wonder is a leading cross-platform global games company that develops and distributes gaming content across land-based casinos, mobile platforms, and online channels. The company's portfolio includes titles such as Dancing Drums Prosperity, Rainbow Riches, and Gold Fish, and includes subsidiaries SciPlay (mobile social gaming) and Grover Gaming. Light & Wonder operates customer-facing support portals for both gaming and iGaming partners.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/light-and-wonder.png
 layout: provider
-modified: '2026-05-04'
+modified: '2026-10-06'
 name: Light & Wonder
 nav: Providers
 network: true
 overview: 'Light & Wonder is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Gaming, Casinos, iGaming, Mobile Games, and Entertainment.
 
 
-  Light & Wonder''s developer surface includes developer portal, support, and 3 more developer resources.'
+  Light & Wonder''s developer surface includes engineering blog, developer portal, support, and 3 more developer resources.'
 random_paper: 4
 score:
   band: minimal
-  composite: 5.7
+  composite: 6.3
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 24.0
     catalog_earned_first_party: 0.0
     catalog_gap: 91.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 14.3
+    developer_ergonomics: 16.7
     discoverability: 42.9
     operational_transparency: 0.0
   previous_composite: 5.7
@@ -95,8 +99,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

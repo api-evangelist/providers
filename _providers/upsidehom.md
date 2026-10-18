@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.joinupside.com/news/feed/
 - group: company
   title: ''
   type: Website
@@ -62,14 +66,14 @@ created: '2026-07-17'
 description: Upside (joinupside.com, originally UpsideHoM) is a housing-stability company for health plans and employers. It finds, houses, and stabilizes members whose housing instability disrupts health, care, and outcomes at scale - accepting referrals, assessing housing needs, executing stabilization or transitions, coordinating with community partners, and documenting outcomes for Medicaid and Medicare plans, health systems, and employer programs. A Techstars portfolio company, Upside publishes no public developer program or API surface as of 2026-07-21.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/upsidehom.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: UpsideHoM
 nav: Providers
 network: true
 overview: 'UpsideHoM is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Housing, Healthcare, Medicaid, and Medicare.
 
 
-  UpsideHoM''s developer surface includes engineering blog and 4 more developer resources.'
+  UpsideHoM''s developer surface includes engineering blog and 5 more developer resources.'
 random_paper: 6
 score:
   band: minimal
@@ -96,8 +100,8 @@ score:
     regime: Health
     regime_id: health
     score: 4.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

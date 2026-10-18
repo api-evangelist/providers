@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 31.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: mqtt://iot-mqtt.cosmoplat.com:11883
@@ -237,7 +237,7 @@ modified: '2026-08-11'
 name: Cosmoplat
 nav: Providers
 network: true
-overview: 'Cosmoplat publishes 10 APIs on the [APIs.io](https://apis.io/) network, including IoT Telemetry (MQTT), Alarm Records API, Alarm Rules API, and 7 more. Tagged areas include Company, Industrial Internet, Industrial IoT, IoT, and Manufacturing.
+overview: 'Cosmoplat publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including IoT Telemetry (MQTT), Alarm Records API, Alarm Rules API, and 7 more. Tagged areas include Company, Industrial Internet, Industrial IoT, IoT, and Manufacturing.
 
 
   The Cosmoplat catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
@@ -294,8 +294,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

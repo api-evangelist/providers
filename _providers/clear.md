@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -65,6 +65,14 @@ collections:
   name: CLEAR1 Verification Sessions API
   slug: open-clear-verification-sessions-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://ir.clearme.com/news-events/press-releases
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://ir.clearme.com/news-events/press-releases/rss
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/clear/refs/heads/main/capabilities/clear-capability-edges.yml
   title: ''
@@ -217,17 +225,17 @@ created: '2026-07-17'
 description: 'CLEAR (clearme.com) is a secure identity company best known for its biometric identity network. For developers, CLEAR1 exposes an identity verification API: you create a verification session, hand the user off to CLEAR''s hosted UI to capture a government ID and a selfie/liveness check, then retrieve the verified result and traits. The platform supports OAuth 2.0 / OpenID Connect (with PKCE) for end-user identity tokens, bearer-key auth for the REST API, webhooks for session lifecycle events, a sandbox with synthetic test identities, and native integrations (Okta, Microsoft Entra, Ping, Amazon Connect, DocuSign, Greenhouse) across workforce, healthcare, financial services, and consumer use cases, including IAL2 identity proofing and TEFCA/Carequality access.'
 image: https://static-verified.clearme.com/CLEAR1_Logo_Horizontal_2Color_RGB.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: CLEAR
 nav: Providers
 network: true
-overview: 'CLEAR publishes 1 API on the [APIs.io](https://apis.io/) network: Verification Sessions API. Tagged areas include Company, Identity, Identity Verification, Authentication, and KYC.
+overview: 'CLEAR publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Verification Sessions API. Tagged areas include Company, Identity, Identity Verification, Authentication, and KYC.
 
 
   The CLEAR catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  CLEAR''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 25 more developer resources.'
+  CLEAR''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, authentication, sandbox, and 27 more developer resources.'
 random_paper: 13
 scopes:
 - name: Clear Scopes
@@ -236,15 +244,15 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: developing
-  composite: 46.6
+  composite: 46.5
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 27.6
     contract_governance: 18.2
@@ -268,9 +276,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 37.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+    score: 36.4
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 14.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: ''
@@ -31,6 +31,10 @@ apis:
   slug: assembla-api
 artifact_total: 4
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://get.assembla.com/blog/feed/
 - group: commercial
   href: https://raw.githubusercontent.com/api-evangelist/assembla/refs/heads/main/plans/assembla-plans-pricing.yml
   title: ''
@@ -114,14 +118,14 @@ coverage:
 created: '2026-09-22'
 description: Assembla provides managed cloud hosting for Perforce, Subversion (SVN) and Git repositories, along with integrated project management tools. Their platform offers enterprise‑grade security, SOC 2 Type II compliance, GDPR adherence, and AI‑powered DevOps assistance. Serving over 1.5 million users for more than two decades, Assembla delivers scalable, secure version‑control hosting, code review, ticketing, sprint planning, and extensive integrations with tools like Slack, Jira, and CI/CD pipelines.
 layout: provider
-modified: '2026-09-22'
+modified: '2026-10-06'
 name: Assembla
 nav: Providers
 network: true
-overview: 'Assembla publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Version Control, Cloud Hosting, DevOps, Project Management, and Security.
+overview: 'Assembla is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Version Control, Cloud Hosting, DevOps, Project Management, and Security.
 
 
-  Assembla''s developer surface includes pricing and 15 more developer resources.'
+  Assembla''s developer surface includes pricing and 16 more developer resources.'
 plans:
 - name: Assembla Plans Pricing
   plan_count: 3
@@ -129,14 +133,15 @@ plans:
 random_paper: 4
 score:
   band: thin
-  composite: 30.2
+  composite: 30.3
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 11
     catalog_earned: 47.0
     catalog_earned_first_party: 12.0
     catalog_gap: 68.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.1
   facets:
     access_clarity: 92.1
     contract_governance: 0.0
@@ -144,6 +149,7 @@ score:
     developer_ergonomics: 7.1
     discoverability: 69.6
     operational_transparency: 15.8
+  previous_composite: 30.2
   provenance:
     mcp: derived
   regulatory:
@@ -152,12 +158,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/assembla/refs/heads/main/screenshots/assembla-2026-10-11T100550.png
 security:
 - kind: domain-security
   name: Assembla Domain Security

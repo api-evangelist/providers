@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-04'
+  score: 20.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -78,6 +78,29 @@ collections:
   name: Johnson & Johnson LifeScan Devices Patients API
   slug: open-johnson-and-johnson-patients-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/johnson-and-johnson/refs/heads/main/plans/johnson-and-johnson-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/johnson-and-johnson-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/johnson-and-johnson/refs/heads/main/rate-limits/johnson-and-johnson-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/johnson-and-johnson-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/johnson-and-johnson/refs/heads/main/finops/johnson-and-johnson-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/johnson-and-johnson-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.jnj.com/latest-news
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.jnj.com/latest-news.rss
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/johnson-and-johnson/refs/heads/main/agentic-access/johnson-and-johnson-agentic-access.yml
   title: ''
@@ -104,19 +127,23 @@ common:
 created: '2026-03-21'
 description: Johnson & Johnson is a multinational pharmaceutical and medical devices corporation. Operating today as Johnson & Johnson Innovative Medicine and MedTech, J&J has historically connected health platforms and APIs through subsidiaries such as LifeScan (OneTouch blood glucose monitoring), which was divested to Platinum Equity in 2018 and continues to operate the LifeScan developer portal referenced here. Consumer health brands (Tylenol, Listerine, Neutrogena, Band-Aid) were spun out as Kenvue in 2023 and are tracked in a separate kenvue index.
 finops:
-- name: Johnson And Johnson Finops
+- has_sources: true
+  method: generated
+  name: Johnson And Johnson Finops
+  primary_unit: ''
   service_category: Healthcare / Enterprise Integration
   slug: johnson-and-johnson-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/johnson-and-johnson.png
 layout: provider
-modified: '2026-05-19'
+modified: '2026-10-06'
 name: Johnson & Johnson
 nav: Providers
 network: true
-overview: 'Johnson & Johnson publishes 3 APIs on the [APIs.io](https://apis.io/) network: Devices API, Glucose Readings API, and Patients API. Tagged areas include Healthcare, Medical Devices, Diabetes, Blood Glucose, and Pharmaceuticals.
+overview: 'Johnson & Johnson publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Devices API, Glucose Readings API, and Patients API. Tagged areas include Healthcare, Medical Devices, Diabetes, Blood Glucose, and Pharmaceuticals.
 
 
-  Johnson & Johnson''s developer surface includes authentication, developer portal, and 3 more developer resources.'
+  Johnson & Johnson''s developer surface includes engineering blog, authentication, developer portal, and 7 more developer resources.'
 plans:
 - name: Johnson And Johnson Plans Pricing
   plan_count: 1
@@ -144,20 +171,20 @@ rate_limits:
   slug: johnson-and-johnson-rate-limits
 score:
   band: emerging
-  composite: 26.1
+  composite: 25.0
   coverage:
     artifact_dirs: 13
-    catalog_earned: 44.0
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 71.0
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.1
   facets:
-    access_clarity: 13.2
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 41.6
-    developer_ergonomics: 31.0
+    developer_ergonomics: 33.3
     discoverability: 66.1
     operational_transparency: 5.3
   previous_composite: 26.1
@@ -174,8 +201,8 @@ score:
     regime: Health
     regime_id: health
     score: 9.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

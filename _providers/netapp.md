@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: documented
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-04'
+  score: 21.0
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -138,6 +138,21 @@ collections:
   name: NetApp ONTAP REST Aggregates Volumes API
   slug: open-netapp-volumes-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/netapp/refs/heads/main/plans/netapp-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/netapp-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/netapp/refs/heads/main/rate-limits/netapp-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/netapp-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/netapp/refs/heads/main/finops/netapp-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/netapp-finops.yml
 - group: company
   title: ''
   type: Website
@@ -259,9 +274,13 @@ examples:
   name: Netapp Ontap Volume Reference Example
   slug: netapp-ontap-volume-reference-example
 finops:
-- name: Netapp Finops
+- has_sources: true
+  method: generated
+  name: Netapp Finops
+  primary_unit: ''
   service_category: Storage + Data Management
   slug: netapp-finops
+  template: false
 image: https://www.netapp.com/media/na_logo_black_rgb_reg-mark_tcm19-21014.jpg
 json_schemas:
 - name: Aggregate
@@ -430,13 +449,13 @@ modified: '2026-09-16'
 name: NetApp
 nav: Providers
 network: true
-overview: 'NetApp publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Aggregates API, Cluster API, Network API, and 15 more. Tagged areas include Cloud, Data Management, Hybrid Cloud, Infrastructure, and Storage.
+overview: 'NetApp publishes 18 API contracts indexed on the [APIs.io](https://apis.io/) network, including Aggregates API, Cluster API, Network API, and 15 more. Tagged areas include Cloud, Data Management, Hybrid Cloud, Infrastructure, and Storage.
 
 
   The NetApp catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  NetApp''s developer surface includes authentication, support, engineering blog, and 13 more developer resources.'
+  NetApp''s developer surface includes authentication, support, engineering blog, and 16 more developer resources.'
 plans:
 - name: Netapp Plans Pricing
   plan_count: 7
@@ -463,9 +482,10 @@ rate_limits:
   name: Netapp Rate Limits
   slug: netapp-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: NetApp API Rules
+  name: NetApp — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -473,7 +493,8 @@ rules:
     info: 1
     warn: 5
   slug: netapp-jsonschema-spectral-rules
-- effective_rule_count: 56
+- authorship: generated
+  effective_rule_count: 56
   extends:
   - spectral:oas
   name: NetApp API Rules
@@ -485,18 +506,18 @@ rules:
     warn: 6
   slug: netapp-spectral-rules
 score:
-  band: developing
-  composite: 39.7
+  band: thin
+  composite: 38.4
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 55.9
+    artifact_dirs: 21
+    catalog_earned: 52.9
     catalog_earned_first_party: 0.0
-    catalog_gap: 59.1
+    catalog_gap: 62.1
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.3
   facets:
-    access_clarity: 23.7
+    access_clarity: 15.8
     contract_governance: 13.6
     contract_quality: 58.2
     developer_ergonomics: 52.4
@@ -519,8 +540,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

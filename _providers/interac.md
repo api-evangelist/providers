@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 14.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'The Interac Hub is an HTTP API that simplifies digital identity verification. Relying parties obtain verified identity data through financial-institution authentication (Interac Verification Service, '
@@ -44,6 +44,10 @@ apis:
   slug: interac-hub-verification-api
 artifact_total: 4
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.interac.ca/en/content-category/news/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/interac/refs/heads/main/security/interac-domain-security.yml
   title: ''
@@ -144,14 +148,14 @@ description: Interac Corp. is Canada's domestic payments and digital verificatio
   2.0 and OpenID Connect (Authorization Code Grant with Pushed Authorization Requests); a self-serve sandbox is available through the Hub Verification developer portal, while full production access and other products (Business Request Money, Interac Direct) are partner-gated behind a commercial relationship with an issuing financial institution.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-modified: '2026-07-23'
+modified: '2026-10-06'
 name: Interac
 nav: Providers
 network: true
-overview: 'Interac publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Services, Payments, Canada, Interac, and Digital Identity.
+overview: 'Interac is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Services, Payments, Canada, Interac, and Digital Identity.
 
 
-  Interac''s developer surface includes documentation, engineering blog, getting-started guide, support, authentication, sandbox, and 15 more developer resources.'
+  Interac''s developer surface includes documentation, engineering blog, getting-started guide, support, authentication, sandbox, and 16 more developer resources.'
 random_paper: 16
 scopes:
 - name: Interac Scopes
@@ -162,7 +166,7 @@ score:
   band: thin
   composite: 27.0
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -193,8 +197,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 37.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

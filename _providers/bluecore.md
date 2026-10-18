@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 54.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 9
   slug: bluecore-agentic-access
   summary_line: 9 operations · 6 acting
-api_count: 3
+api_count: 5
 apis:
 - baseURL: https://a.bluecore.com/api
   baseurl_source: declared
@@ -327,7 +327,7 @@ modified: '2026-08-13'
 name: Bluecore
 nav: Providers
 network: true
-overview: 'Bluecore publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Authn API, CampaignsAPIPublic API, Direct send API, and 6 more. Tagged areas include Company, Retail, Marketing, Customer Data Platform, and Personalization.
+overview: 'Bluecore publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authn API, CampaignsAPIPublic API, Direct send API, and 6 more. Tagged areas include Company, Retail, Marketing, Customer Data Platform, and Personalization.
 
 
   The Bluecore catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -352,7 +352,7 @@ score:
   band: developing
   composite: 48.8
   coverage:
-    artifact_dirs: 26
+    artifact_dirs: 28
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -383,8 +383,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 44.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

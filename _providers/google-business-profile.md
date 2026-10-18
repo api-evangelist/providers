@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.8
-  scored_at: '2026-10-04'
+  score: 22.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -64,6 +64,21 @@ collections:
   name: Google Business Profile API
   slug: open-openapi
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/google-business-profile/refs/heads/main/plans/google-business-profile-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/google-business-profile-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/google-business-profile/refs/heads/main/rate-limits/google-business-profile-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/google-business-profile-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/google-business-profile/refs/heads/main/finops/google-business-profile-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/google-business-profile-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/google-business-profile/refs/heads/main/capabilities/google-business-profile-capability-edges.yml
   title: ''
@@ -154,9 +169,13 @@ common:
 created: '2026-03-13'
 description: The Google Business Profile API provides an interface for managing business location information on Google. It enables developers to programmatically manage accounts, locations, reviews, media, posts, questions and answers, and verification for business listings.
 finops:
-- name: Google Business Profile Finops
+- has_sources: false
+  method: generated
+  name: Google Business Profile Finops
+  primary_unit: ''
   service_category: API
   slug: google-business-profile-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/google-business-profile.png
 json_schemas:
 - name: Google Business Profile Location
@@ -172,13 +191,13 @@ modified: '2026-05-19'
 name: Google Business Profile
 nav: Providers
 network: true
-overview: 'Google Business Profile publishes 1 API on the [APIs.io](https://apis.io/) network: Accounts API. Tagged areas include Business Profiles, Google, Local Business, Location, and Reviews.
+overview: 'Google Business Profile publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Accounts API. Tagged areas include Business Profiles, Google, Local Business, Location, and Reviews.
 
 
   The Google Business Profile catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Google Business Profile''s developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, support, and 14 more developer resources.'
+  Google Business Profile''s developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, support, and 17 more developer resources.'
 plans:
 - name: Google Business Profile Plans Pricing
   plan_count: 3
@@ -189,9 +208,10 @@ rate_limits:
   name: Google Business Profile Rate Limits
   slug: google-business-profile-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Google Business Profile API Rules
+  name: Google Business Profile — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -206,17 +226,17 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 46.0
+  composite: 44.5
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 62.7
+    artifact_dirs: 18
+    catalog_earned: 59.7
     catalog_earned_first_party: 0.0
-    catalog_gap: 52.4
+    catalog_gap: 55.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 47.4
+    access_clarity: 39.5
     contract_governance: 9.8
     contract_quality: 59.9
     developer_ergonomics: 36.9
@@ -236,8 +256,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: REST API for managing candidates, contacts, clients, job openings, interviews, attachments, notes, and custom modules in Zoho Recruit. Requests are authenticated with OAuth 2.0 tokens issued by the do
@@ -119,7 +119,7 @@ modified: '2026-09-16'
 name: Zoho Recruit
 nav: Providers
 network: true
-overview: 'Zoho Recruit publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Candidates API, Job Openings API, Zoho Recruit API, and 1 more. Tagged areas include Applicant Tracking, Recruiting, Recruitment CRM, Human Resources, and Zoho.
+overview: 'Zoho Recruit publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Candidates API, Job Openings API, Zoho Recruit API, and 1 more. Tagged areas include Applicant Tracking, Recruiting, Recruitment CRM, Human Resources, and Zoho.
 
 
   Zoho Recruit''s developer surface includes documentation, pricing, signup flow, engineering blog, and 6 more developer resources.'
@@ -128,7 +128,7 @@ score:
   band: emerging
   composite: 23.9
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -155,8 +155,8 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

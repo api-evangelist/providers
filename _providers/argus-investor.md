@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'Argus Research Company''s coverage and ratings surface: analyst BUY/HOLD/SELL recommendations and target prices on 500+ US equities across 60+ industries, A6 quantitative ratings on 1,100+ companies, a'
@@ -42,6 +42,21 @@ apis:
   slug: argus-research-api
 artifact_total: 24
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/argus-investor/refs/heads/main/plans/argus-investor-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/argus-investor-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/argus-investor/refs/heads/main/rate-limits/argus-investor-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/argus-investor-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/argus-investor/refs/heads/main/finops/argus-investor-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/argus-investor-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/argus-investor/refs/heads/main/security/argus-investor-domain-security.yml
   title: ''
@@ -112,9 +127,13 @@ features:
 - description: Daily and weekly market analysis including Daily Spotlight, Market Watch, and analyst quick notes.
   name: Market Commentary
 finops:
-- name: Argus Investor Finops
+- has_sources: false
+  method: generated
+  name: Argus Investor Finops
+  primary_unit: ''
   service_category: API
   slug: argus-investor-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/argus-investor.png
 integrations:
 - description: Argus research distributed through Bloomberg Terminal for institutional clients.
@@ -134,10 +153,10 @@ modified: '2026-09-14'
 name: Argus Investor
 nav: Providers
 network: true
-overview: 'Argus Investor publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Equity Analysis, Financial Data, Financial Services, Investment Ratings, and Stock Research.
+overview: 'Argus Investor publishes no API. The 1 entry listed on the [APIs.io](https://apis.io/) network are product areas recorded for completeness, each marked as not an API. Tagged areas include Equity Analysis, Financial Data, Financial Services, Investment Ratings, and Stock Research.
 
 
-  Argus Investor''s developer surface includes support, engineering blog, and 6 more developer resources.'
+  Argus Investor''s developer surface includes support, engineering blog, and 9 more developer resources.'
 plans:
 - name: Argus Investor Plans Pricing
   plan_count: 0
@@ -149,17 +168,17 @@ rate_limits:
   slug: argus-investor-rate-limits
 score:
   band: emerging
-  composite: 13.9
+  composite: 12.4
   coverage:
     artifact_dirs: 11
-    catalog_earned: 35.0
+    catalog_earned: 32.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 80.0
+    catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 35.5
+    access_clarity: 27.6
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
@@ -174,8 +193,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 34
+- acting_count: 33
   human_in_the_loop: 0
   name: Ribbon Health Agentic Access
-  operation_count: 73
+  operation_count: 80
   slug: ribbon-health-agentic-access
-  summary_line: 73 operations · 34 acting
+  summary_line: 80 operations · 33 acting
 api_count: 1
 apis:
 - baseURL: https://api.ribbonhealth.com/v1
@@ -463,9 +463,13 @@ examples:
   name: Putcustomspecialty
   slug: putcustomspecialty
 finops:
-- name: Ribbon Health Finops
+- has_sources: false
+  method: generated
+  name: Ribbon Health Finops
+  primary_unit: ''
   service_category: ''
   slug: ribbon-health-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ribbon-health.png
 json_schemas:
 - name: getConditions
@@ -514,7 +518,7 @@ modified: 2026-08-14
 name: Ribbon Health
 nav: Providers
 network: true
-overview: 'Ribbon Health publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Cost Estimates API, Filters API, Focus Area Endpoints API, and 8 more. Tagged areas include Healthcare, Provider Directory, Insurance, Clinical Data, and Care Navigation.
+overview: 'Ribbon Health publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Cost Estimates API, Filters API, Focus Area Endpoints API, and 8 more. Tagged areas include Healthcare, Provider Directory, Insurance, Clinical Data, and Care Navigation.
 
 
   The Ribbon Health catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -531,9 +535,10 @@ rate_limits:
   name: Ribbon Health Rate Limits
   slug: ribbon-health-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Ribbon Health API Rules
+  name: Ribbon Health — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -543,17 +548,17 @@ rules:
   slug: ribbon-health-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 58.1
+  composite: 56.6
   coverage:
     artifact_dirs: 29
-    catalog_earned: 84.8
+    catalog_earned: 81.8
     catalog_earned_first_party: 20.0
-    catalog_gap: 30.3
+    catalog_gap: 33.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 73.7
+    access_clarity: 65.8
     contract_governance: 28.0
     contract_quality: 67.7
     developer_ergonomics: 39.9
@@ -576,8 +581,8 @@ score:
     regime: Health
     regime_id: health
     score: 25.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

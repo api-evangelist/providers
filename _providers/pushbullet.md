@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -197,7 +197,7 @@ modified: '2026-05-30'
 name: Pushbullet
 nav: Providers
 network: true
-overview: 'Pushbullet publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Realtime Event Stream, Channels API, Chats API, and 8 more. Tagged areas include Notification, Messaging, Push Notifications, Device Sync, and SMS.
+overview: 'Pushbullet publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Realtime Event Stream, Channels API, Chats API, and 8 more. Tagged areas include Notification, Messaging, Push Notifications, Device Sync, and SMS.
 
 
   Pushbullet''s developer surface includes authentication, documentation, signup flow, pricing, engineering blog, and 8 more developer resources.'
@@ -211,7 +211,7 @@ score:
   band: thin
   composite: 30.0
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -239,8 +239,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 24.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

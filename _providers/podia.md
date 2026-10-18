@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: private
+  gated_source:
+  - tag:No Public API
   label: Free trial
   onboarding: unknown
   pricing: free-trial
@@ -33,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 4
 apis:
 - description: Logical surface for Podia products - online courses, digital downloads, coaching, and webinars. Podia does not expose a public REST API for products; enrollment can only be automated through the Zapie
@@ -180,7 +183,7 @@ modified: '2026-08-13'
 name: Podia
 nav: Providers
 network: true
-overview: 'Podia publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Creator Economy, Online Courses, Digital Products, Membership, and Email Marketing.
+overview: 'Podia publishes no API. The 4 entries listed on the [APIs.io](https://apis.io/) network are product areas recorded for completeness, each marked as not an API. Tagged areas include Creator Economy, Online Courses, Digital Products, Membership, and Email Marketing.
 
 
   Podia''s developer surface includes documentation, changelog, support, engineering blog, pricing, signup flow, and 17 more developer resources.'
@@ -197,7 +200,7 @@ score:
   band: thin
   composite: 35.0
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 47.0
     catalog_earned_first_party: 12.0
     catalog_gap: 68.0
@@ -224,13 +227,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 23.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/podia/refs/heads/main/screenshots/podia-2026-10-11T192815.png
 security:
 - kind: domain-security
   name: Podia Domain Security
@@ -243,7 +247,6 @@ tags:
 - Digital Products
 - Membership
 - Email Marketing
-- No Public API
 - Zapier Only
 - Creator Platform
 - Community

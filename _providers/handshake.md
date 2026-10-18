@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'Read-only, institution-scoped EDU API for career-services data: applications, appointments, career fairs, jobs, postings, qualifications, and meetings. Authenticates via x-api-key header; supports pag'
@@ -42,6 +42,14 @@ apis:
   slug: handshake-edu-api
 artifact_total: 5
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://joinhandshake.com/blog/our-team/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://joinhandshake.com/api/blog/our-team/feed/
 - group: company
   title: ''
   type: Website
@@ -138,20 +146,20 @@ created: '2026-07-17'
 description: 'Handshake (joinhandshake.com) is the early-career talent network that connects students and recent graduates with employers, alongside the higher-education Career Services teams that support them. For developers and institutional integrators, Handshake exposes the EDU API: a read-only, institution-scoped, versioned API for career-services data management and automation, covering applications, appointments, career fairs, jobs, postings, qualifications, and meetings. The EDU API is currently in beta and gated to Career Services partners, authenticates with an x-api-key header issued from the Developer Portal, and supports pagination, sorting, and delta fetching. Handshake was originally added to the API Evangelist network as a VC portfolio lead and has since been enriched from its public developer documentation, trust center, and status surfaces.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/handshake.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Handshake
 nav: Providers
 network: true
-overview: 'Handshake publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Human Resources, Careers, Recruiting, and Higher Education.
+overview: 'Handshake is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Human Resources, Careers, Recruiting, and Higher Education.
 
 
-  Handshake''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 14 more developer resources.'
+  Handshake''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, signup flow, changelog, and 16 more developer resources.'
 random_paper: 11
 score:
   band: thin
   composite: 36.0
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -172,8 +180,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 30.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

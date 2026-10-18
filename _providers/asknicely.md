@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 52.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: AskNicely's remote Model Context Protocol server, exposing Ask NiceAI's tools — NPS summaries, survey responses, leaderboards and more — to external AI clients such as Claude. Served per tenant at htt
@@ -260,7 +260,7 @@ modified: '2026-08-06'
 name: AskNicely
 nav: Providers
 network: true
-overview: 'AskNicely publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Contacts API, In-App Surveys API, Responses API, and 3 more. Tagged areas include Company, Customer Experience, NPS, Surveys, and Feedback.
+overview: 'AskNicely publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Contacts API, In-App Surveys API, Responses API, and 3 more. Tagged areas include Company, Customer Experience, NPS, Surveys, and Feedback.
 
 
   The AskNicely catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -315,8 +315,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 39.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

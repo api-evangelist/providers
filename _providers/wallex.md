@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: JSON REST API for authentication, users/KYC, balances, beneficiaries, collections, collection requests, conversions, currencies, deductions, funding, internal transfers, payments, and webhook notifica
@@ -48,6 +48,10 @@ asyncapis:
   name: Wallex Webhooks
   slug: wallex-webhooks
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.wallex.asia/en-sg/resources/articles
 - group: company
   title: ''
   type: Website
@@ -141,38 +145,38 @@ created: '2026-07-17'
 description: Wallex is a Singapore-headquartered cross-border payments and business banking platform for businesses across Southeast Asia and Greater China. Its Partner API is a JSON REST API that lets platforms embed multi-currency wallets, issue virtual collection accounts, run FX conversions, send cross-border payments to beneficiaries, and onboard and KYC their own members. The API is organised around a hierarchical account model (Standard and Partner accounts, Individual and Company entities, Regular and Lite KYC) and covers authentication, balances, beneficiaries, collections, collection requests, conversions, currencies, deductions, funding, internal transfers, payments, users, and webhooks. Wallex is a portfolio company of 500 Global.
 image: https://docs.wallex.asia/img/wallex-icon.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Wallex
 nav: Providers
 network: true
-overview: 'Wallex publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Cross-Border Payments, Foreign Exchange, and Fintech.
+overview: 'Wallex is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Cross-Border Payments, Foreign Exchange, and Fintech.
 
 
   The Wallex catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Wallex''s developer surface includes documentation, API reference, getting-started guide, support, authentication, sandbox, and 13 more developer resources.'
+  Wallex''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, authentication, sandbox, and 13 more developer resources.'
 random_paper: 15
 rate_limits:
 - limit_count: 2
   name: Wallex Rate Limits
   slug: wallex-rate-limits
 score:
-  band: emerging
-  composite: 25.8
+  band: thin
+  composite: 26.3
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 0.0
     contract_governance: 4.5
     contract_quality: 39.0
-    developer_ergonomics: 25.6
+    developer_ergonomics: 28.0
     discoverability: 73.2
     operational_transparency: 28.9
   jurisdiction:
@@ -193,8 +197,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 15.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

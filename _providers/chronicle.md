@@ -33,14 +33,19 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Workspace-scoped REST API to list templates, create presentations from templates, generate presentations from a prompt (asynchronous, poll-to-complete), upload reference files to ground generation, fe
   name: Chronicle API
   slug: chronicle-api
-artifact_total: 7
+artifact_total: 8
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/chronicle/refs/heads/main/plans/chronicle-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/chronicle-plans-pricing.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/chronicle/refs/heads/main/security/chronicle-trust-center.yml
   title: ''
@@ -198,10 +203,14 @@ modified: '2026-07-18'
 name: Chronicle
 nav: Providers
 network: true
-overview: 'Chronicle publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cloud Saas, Presentations, Artificial Intelligence, and Productivity.
+overview: 'Chronicle is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cloud Saas, Presentations, Artificial Intelligence, and Productivity.
 
 
-  Chronicle''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, engineering blog, and 25 more developer resources.'
+  Chronicle''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, engineering blog, and 26 more developer resources.'
+plans:
+- name: Chronicle Plans Pricing
+  plan_count: 5
+  slug: chronicle-plans-pricing
 random_paper: 5
 rate_limits:
 - limit_count: 1
@@ -209,17 +218,17 @@ rate_limits:
   slug: chronicle-rate-limits
 score:
   band: developing
-  composite: 41.3
+  composite: 47.7
   coverage:
-    artifact_dirs: 16
-    catalog_earned: 45.0
-    catalog_earned_first_party: 8.0
-    catalog_gap: 70.0
+    artifact_dirs: 18
+    catalog_earned: 57.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.4
   facets:
-    access_clarity: 53.9
+    access_clarity: 85.5
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 58.9
@@ -236,9 +245,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

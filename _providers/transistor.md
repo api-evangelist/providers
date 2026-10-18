@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 47.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -103,6 +103,14 @@ collections:
   name: Transistor API
   slug: open-transistor
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://transistor.fm/blog/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://transistor.fm/blog/feed/
 - group: commercial
   title: ''
   type: Pricing
@@ -167,23 +175,27 @@ common:
 created: '2026-07-05'
 description: Transistor is a podcast hosting and analytics platform that lets teams host unlimited shows, distribute episodes to Apple Podcasts, Spotify, and YouTube, run private (subscriber-only) podcasts, and measure downloads with advanced analytics. Transistor exposes a documented public REST API at https://api.transistor.fm/v1 that follows the JSON:API specification, is authenticated with an x-api-key header, and covers shows, episodes, analytics, private podcast subscribers, and event webhooks.
 finops:
-- name: Transistor Finops
+- has_sources: true
+  method: generated
+  name: Transistor Finops
+  primary_unit: ''
   service_category: Media and Podcast Hosting
   slug: transistor-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/transistor.png
 layout: provider
 mcp_servers:
 - description: Remote MCP server at mcp.transistor.fm over HTTP.
   name: Transistor MCP Server
   slug: transistor
-modified: '2026-07-05'
+modified: '2026-10-06'
 name: Transistor
 nav: Providers
 network: true
-overview: 'Transistor publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Account API, Analytics API, Episodes API, and 3 more. Tagged areas include Podcasting, Podcast Hosting, Analytics, Media, and Audio.
+overview: 'Transistor publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Analytics API, Episodes API, and 3 more. Tagged areas include Podcasts, Podcast Hosting, Analytics, Media, and Audio.
 
 
-  Transistor''s developer surface includes pricing, authentication, documentation, and 10 more developer resources.'
+  Transistor''s developer surface includes engineering blog, pricing, authentication, documentation, and 11 more developer resources.'
 plans:
 - name: Transistor Plans Pricing
   plan_count: 4
@@ -197,21 +209,21 @@ rate_limits:
   name: Transistor Rate Limits
   slug: transistor-rate-limits
 score:
-  band: developing
-  composite: 40.2
+  band: thin
+  composite: 39.1
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 60.0
+    artifact_dirs: 15
+    catalog_earned: 57.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 55.0
+    catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.1
   facets:
-    access_clarity: 57.9
+    access_clarity: 50.0
     contract_governance: 0.0
     contract_quality: 53.8
-    developer_ergonomics: 26.2
+    developer_ergonomics: 28.6
     discoverability: 68.3
     operational_transparency: 21.1
   previous_composite: 40.2
@@ -229,8 +241,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -248,14 +260,14 @@ security:
 - kind: vulnerability-disclosure
   name: Transistor Vulnerability Disclosure
   slug: transistor-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 - kind: trust-center
   name: Transistor Trust Center
   slug: transistor-trust-center
   summary_line: SOC 2, ISO 27001
 slug: transistor
 tags:
-- Podcasting
+- Podcasts
 - Podcast Hosting
 - Analytics
 - Media

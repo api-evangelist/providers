@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The Ragas Python library is the primary surface of the project, installed via `pip install ragas` and imported as `ragas`. It exposes evaluation entry points (`ragas.evaluate`), metric classes (Faithf
@@ -170,7 +170,7 @@ modified: '2026-05-25'
 name: Ragas
 nav: Providers
 network: true
-overview: 'Ragas publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include LLM Evaluation, RAG Evaluation, RAG, AI Evaluation, and Open Source.
+overview: 'Ragas is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include LLM Evaluation, RAG Evaluation, RAG, AI Evaluation, and Open Source.
 
 
   Ragas'' developer surface includes documentation, getting-started guide, release notes, and 17 more developer resources.'
@@ -179,7 +179,7 @@ score:
   band: emerging
   composite: 23.1
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -203,8 +203,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

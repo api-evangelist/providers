@@ -35,8 +35,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.4
-  scored_at: '2026-10-04'
-api_count: 1
+  scored_at: '2026-10-17'
+api_count: 2
 apis:
 - description: Submit customers, designs and pricing into Palmetto's transparent, auditable clean-energy fulfillment pipeline.
   name: Palmetto Energy Platform API
@@ -206,7 +206,7 @@ modified: '2026-07-20'
 name: Palmetto
 nav: Providers
 network: true
-overview: 'Palmetto publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Bem API, Health API, and 2 more. Tagged areas include Company, Clean Energy, Solar, Energy, and Building Energy Modeling.
+overview: 'Palmetto publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Bem API, Health API, and 2 more. Tagged areas include Company, Clean Energy, Solar, Energy, and Building Energy Modeling.
 
 
   The Palmetto catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -248,8 +248,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 20.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

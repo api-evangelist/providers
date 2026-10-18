@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.1
-  scored_at: '2026-10-04'
+  score: 26.2
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -279,9 +279,13 @@ features:
 - description: llms.txt and llms-full.txt manifests, an MCP server, a Claude Code skill, and required identifying User-Agent headers make BrewPage first-class for autonomous agents.
   name: AI-Agent Friendly
 finops:
-- name: Brewpage Finops
+- has_sources: true
+  method: generated
+  name: Brewpage Finops
+  primary_unit: ''
   service_category: Web Hosting and Storage
   slug: brewpage-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/brewpage.png
 integrations:
 - description: Official MCP server `brewpage-mcp` exposes BrewPage to any LLM/agent (Claude, Codex, Gemini, Cursor) via the Model Context Protocol.
@@ -329,7 +333,7 @@ modified: '2026-05-19'
 name: BrewPage
 nav: Providers
 network: true
-overview: 'BrewPage publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Files API, Gallery API, HTML API, and 10 more. Tagged areas include Hosting, Markdown, HTML, AI Artifacts, and File Hosting.
+overview: 'BrewPage publishes 13 API contracts indexed on the [APIs.io](https://apis.io/) network, including Files API, Gallery API, HTML API, and 10 more. Tagged areas include Hosting, Markdown, HTML, AI Artifacts, and File Hosting.
 
 
   The BrewPage catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -346,9 +350,10 @@ rate_limits:
   name: Brewpage Rate Limits
   slug: brewpage-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: BrewPage API Rules
+  name: BrewPage — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -356,7 +361,8 @@ rules:
     info: 2
     warn: 3
   slug: brewpage-jsonschema-spectral-rules
-- effective_rule_count: 62
+- authorship: unmarked
+  effective_rule_count: 62
   extends:
   - spectral:oas
   name: BrewPage API Rules
@@ -369,22 +375,22 @@ rules:
   slug: brewpage-rules
 score:
   band: developing
-  composite: 46.6
+  composite: 39.7
   coverage:
     artifact_dirs: 15
-    catalog_earned: 79.0
+    catalog_earned: 63.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 36.0
+    catalog_gap: 52.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.9
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 27.3
     contract_quality: 61.9
     developer_ergonomics: 57.1
     discoverability: 57.1
-    operational_transparency: 28.4
+    operational_transparency: 7.9
   previous_composite: 46.6
   provenance:
     agentic_access: derived
@@ -399,9 +405,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 22.2

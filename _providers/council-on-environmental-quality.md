@@ -32,10 +32,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.whitehouse.gov/news/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.whitehouse.gov/news/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/council-on-environmental-quality/refs/heads/main/security/council-on-environmental-quality-domain-security.yml
   title: ''
@@ -105,31 +113,31 @@ created: '2024-12-03'
 description: The Council on Environmental Quality (CEQ) is an office within the Executive Office of the President of the United States that coordinates federal environmental policy, advises the President on environmental and natural resource policies, and oversees the implementation of the National Environmental Policy Act (NEPA). CEQ does not publish a public developer API. Federal NEPA documents and related environmental data are surfaced through partner federal agencies and platforms (NEPAtool, the Federal Permitting Dashboard, regulations.gov, EPA EJScreen, and the Climate and Economic Justice Screening Tool).
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/council-on-environmental-quality.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-10-06'
 name: Council on Environmental Quality
 nav: Providers
 network: true
 overview: 'Council on Environmental Quality is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include CEQ, Climate, Environment, Environmental Justice, and Environmental Policy.
 
 
-  Council on Environmental Quality''s developer surface includes product news and 15 more developer resources.'
+  Council on Environmental Quality''s developer surface includes engineering blog, product news, and 16 more developer resources.'
 random_paper: 14
 score:
   band: minimal
-  composite: 6.5
+  composite: 7.0
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 10.5
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 49.1
     operational_transparency: 0.0
   jurisdiction:
@@ -144,8 +152,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 9.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

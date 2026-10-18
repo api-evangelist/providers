@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.5
-  scored_at: '2026-10-04'
+  score: 19.6
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -101,6 +101,10 @@ collections:
   name: Smartrr Vendor API
   slug: open-smartrr
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://smartrr.com/blog
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/smartrr/refs/heads/main/capabilities/smartrr-capability-edges.yml
   title: ''
@@ -155,19 +159,23 @@ common:
 created: '2026-07-10'
 description: Smartrr is a subscription and loyalty platform for Shopify DTC brands. It adds subscribe-and-save subscriptions, a branded customer account portal, loyalty and rewards, referrals, bundles, and retention tooling on top of Shopify. Its Vendor API (https://api.smartrr.com) lets merchants programmatically manage the subscriptions their customers hold - modeled as "purchase states" - along with the subscribers, orders, bills, and the selling plans / subscription programs products are sold on. The API is authenticated with a per-organization access token generated in the Smartrr admin Integrations tab and sent in the x-smartrr-access-token header. A full OpenAPI document (116 operations) is served publicly at https://api.smartrr.com/docs/spec.json and rendered at https://api.smartrr.com/docs/redoc/.
 finops:
-- name: Smartrr Finops
+- has_sources: true
+  method: generated
+  name: Smartrr Finops
+  primary_unit: ''
   service_category: Ecommerce and Subscription Management
   slug: smartrr-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/smartrr.png
 layout: provider
-modified: '2026-07-10'
+modified: '2026-10-06'
 name: Smartrr
 nav: Providers
 network: true
-overview: 'Smartrr publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Bills API, Orders API, Plans API, and 3 more. Tagged areas include Subscription, Loyalty, Shopify, E-Commerce, and Direct to Consumer.
+overview: 'Smartrr publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Bills API, Orders API, Plans API, and 3 more. Tagged areas include Subscription, Loyalty, Shopify, E-Commerce, and Direct to Consumer.
 
 
-  Smartrr''s developer surface includes authentication, documentation, API reference, and 8 more developer resources.'
+  Smartrr''s developer surface includes engineering blog, authentication, documentation, API reference, and 8 more developer resources.'
 plans:
 - name: Smartrr Plans Pricing
   plan_count: 4
@@ -179,22 +187,22 @@ rate_limits:
   slug: smartrr-rate-limits
 score:
   band: thin
-  composite: 34.1
+  composite: 26.3
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 61.6
+    artifact_dirs: 13
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.4
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.8
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 47.5
-    developer_ergonomics: 29.8
+    developer_ergonomics: 32.1
     discoverability: 66.1
-    operational_transparency: 28.4
+    operational_transparency: 7.9
   previous_composite: 34.1
   provenance:
     agentic_access: derived
@@ -209,9 +217,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

@@ -3,7 +3,7 @@ agent_readiness:
   band: agent-native
   dimensions:
     agent_card: conformant
-    agent_skills: false
+    agent_skills: true
     agentic_access: false
     agentic_commerce: false
     auth_clarity: served
@@ -14,7 +14,7 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: verified
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: partial
     protected_resource_metadata: verified
     rate_limit_signal: verified
@@ -22,13 +22,10 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 60.1
-  scored_at: '2026-10-04'
+  score: 67.1
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
-- description: Search YouTube transcripts via the Arcmira API.
-  name: Arcmira API
-  slug: arcmira-api
 - baseURL: https://api.arcmira.com
   baseurl_source: declared
   description: The Channels API from Arcmira — 2 operation(s) for channels.
@@ -84,7 +81,7 @@ apis:
   description: The Transcripts API from Arcmira — 2 operation(s) for transcripts.
   name: Arcmira Transcripts API
   slug: arcmira-transcripts-api
-artifact_total: 23
+artifact_total: 24
 common:
 - group: commercial
   href: https://raw.githubusercontent.com/api-evangelist/arcmira/refs/heads/main/plans/arcmira-plans-pricing.yml
@@ -208,7 +205,7 @@ common:
 - group: start
   title: ''
   type: DeveloperPortal
-  url: https://api.arcmira.com`
+  url: https://arcmira.com/docs
 - group: docs
   title: ''
   type: APIReference
@@ -230,6 +227,40 @@ common:
   title: ''
   type: Documentation
   url: https://arcmira.com/docs
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/arcmira/refs/heads/main/mcp/arcmira-mcp.yml
+  title: ''
+  type: MCPServer
+  url: mcp/arcmira-mcp.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: https://mcp.arcmira.com/mcp
+- group: agent
+  title: ''
+  type: MCPServerCard
+  url: https://mcp.arcmira.com/.well-known/mcp/server-card.json
+- group: auth
+  title: ''
+  type: OAuthProtectedResource
+  url: https://mcp.arcmira.com/.well-known/oauth-protected-resource
+- group: agent
+  title: ''
+  type: MCPServer
+  url: https://arcmira.com/docs/mcp
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/arcmira/refs/heads/main/skills/_index.yml
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://arcmira.com/docs/usage-and-billing
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: https://api.arcmira.com/v1/openapi.json
 created: '2026-10-03'
 description: Arcmira provides AI-powered search of YouTube transcript data, enabling developers to retrieve timestamped passages, speaker mentions, sponsors, and ad reads. Their platform offers JavaScript and Python SDKs, a CLI, and an OAuth-enabled remote MCP for integrating spoken web insights into applications. The service includes monitoring capabilities and commercial intelligence features, targeting developers building conversational AI and analytics tools.
 image: https://arcmira.com/arcmira-cover.png?v=20261002
@@ -258,24 +289,32 @@ jsonld:
   property_count: 249
   slug: arcmira-context
 layout: provider
-modified: '2026-10-03'
+mcp_servers:
+- description: 'Arcmira runs two remote MCP servers. The research server "Arcmira: YouTube Transcript Search" (io.github.arcmira/arcmira, version 0.10.4) is at https://mcp.arcmira.com/mcp over Streamable HTTP and req'
+  name: Arcmira MCP Server
+  slug: io-github-arcmira-arcmira
+- description: ''
+  name: Arcmira documentation MCP server (public)
+  slug: arcmira-documentation-mcp-server-public
+modified: '2026-10-05'
 name: Arcmira
 nav: Providers
 network: true
-overview: 'Arcmira publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Channels API, Entities API, Feedback API, and 9 more. Tagged areas include Artificial Intelligence, Search, YouTube, Transcripts, and SDK.
+overview: 'Arcmira publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Channels API, Entities API, Feedback API, and 8 more. Tagged areas include Artificial Intelligence, Search, YouTube, Transcripts, and SDK.
 
 
   The Arcmira catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Arcmira''s developer surface includes CLI, changelog, authentication, pricing, getting-started guide, API reference, documentation, and 24 more developer resources.'
+  Arcmira''s developer surface includes CLI, changelog, authentication, pricing, getting-started guide, API reference, documentation, and 32 more developer resources.'
 plans:
 - name: Arcmira Plans Pricing
   plan_count: 5
   slug: arcmira-plans-pricing
 random_paper: 9
 rules:
-- effective_rule_count: 59
+- authorship: generated
+  effective_rule_count: 59
   extends:
   - spectral:oas
   name: Arcmira API Rules
@@ -288,21 +327,23 @@ rules:
   slug: arcmira-rules
 score:
   band: strong
-  composite: 62.6
+  composite: 64.3
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 25
     catalog_earned: 74.8
     catalog_earned_first_party: 12.0
     catalog_gap: 40.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -3.8
   facets:
     access_clarity: 76.3
     contract_governance: 22.0
     contract_quality: 70.3
-    developer_ergonomics: 64.3
-    discoverability: 73.2
+    developer_ergonomics: 71.4
+    discoverability: 75.0
     operational_transparency: 21.1
+  previous_composite: 68.1
   provenance:
     conformance: derived
     contracts:
@@ -310,18 +351,21 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-    mcp: derived
+    mcp: first-party
+    skills: first-party
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: flat
   upsert:
     applies: true
     score: 38.9
+screenshot: https://raw.githubusercontent.com/api-evangelist/arcmira/refs/heads/main/screenshots/arcmira-2026-10-11T100202.png
 security:
 - kind: authentication
   name: Arcmira Authentication

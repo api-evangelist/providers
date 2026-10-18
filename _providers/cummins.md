@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.cummins.com/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/cummins/refs/heads/main/security/cummins-domain-security.yml
   title: ''
@@ -85,14 +89,14 @@ created: '2026-03-21'
 description: Cummins is a global power leader that designs, manufactures, distributes, and services diesel and natural gas engines, electric and hybrid powertrains, electrified power systems, components such as filtration, aftertreatment, turbochargers, fuel systems, controls systems, air handling systems, automated transmissions, and electric power generation systems. Cummins serves customers in approximately 190 countries and territories through a network of more than 600 company-owned and independent distributor locations and approximately 7,200 dealer locations.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cummins.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-10-06'
 name: Cummins
 nav: Providers
 network: true
 overview: 'Cummins is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Aftertreatment, Diesel Engines, Electric Powertrains, Engines, and Filtration.
 
 
-  Cummins'' developer surface includes product news and 10 more developer resources.'
+  Cummins'' developer surface includes product news and 11 more developer resources.'
 press:
 - date: ''
   title: Cummins Newsroom | Cummins Inc.
@@ -114,7 +118,7 @@ score:
   band: minimal
   composite: 4.0
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -135,8 +139,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 4.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

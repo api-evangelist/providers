@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: REST API for third-party sellers and integrators to connect to the KaBuM! marketplace (operated on the Mirakl platform). Covers category hierarchies, product attribute mapping, product and offer impor
@@ -42,6 +42,10 @@ apis:
   slug: kabum-marketplace-seller-integration-api
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.kabum.com.br/feed/
 - group: company
   title: ''
   type: Website
@@ -98,26 +102,26 @@ created: '2026-07-17'
 description: KaBuM! is the largest e-commerce retailer of technology, computer hardware, electronics, and games in Latin America, headquartered in Limeira, Brazil and part of the Magalu (Magazine Luiza) group. Beyond its consumer storefront, KaBuM! operates a third-party seller marketplace on the Mirakl platform and publishes an integration guide for sellers and integrators to connect their ERP/OMS to the marketplace via a REST API — managing product catalog, attribute mapping, offers (price/stock), order retrieval, shipping carriers, document uploads, and tracking/ship confirmation. Authentication is API-key based, write operations are expected to be idempotent, and integrations poll asynchronous import jobs by id. This profile was added to the API Evangelist network from a VC portfolio lead and enriched from KaBuM!'s public integration documentation.
 image: https://logo.clearbit.com/kabum.com.br
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: KaBum!
 nav: Providers
 network: true
-overview: 'KaBum! publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Retail, Marketplace, and Technology.
+overview: 'KaBum! is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Retail, Marketplace, and Technology.
 
 
-  KaBum!''s developer surface includes documentation, signup flow, support, engineering blog, authentication, and 7 more developer resources.'
+  KaBum!''s developer surface includes documentation, signup flow, support, engineering blog, authentication, and 8 more developer resources.'
 random_paper: 0
 score:
   band: emerging
-  composite: 18.5
+  composite: 18.6
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 23.7
     contract_governance: 0.0
@@ -139,8 +143,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

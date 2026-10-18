@@ -27,16 +27,31 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 5.0
-  scored_at: '2026-10-04'
+  score: 3.1
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 16
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/aeropostale/refs/heads/main/plans/aeropostale-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/aeropostale-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/aeropostale/refs/heads/main/rate-limits/aeropostale-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/aeropostale-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/aeropostale/refs/heads/main/finops/aeropostale-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/aeropostale-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/aeropostale/refs/heads/main/security/aeropostale-domain-security.yml
   title: ''
@@ -74,9 +89,13 @@ features:
 - description: Co-branded retail credit card with reward acceleration on Aéropostale purchases.
   name: Aero Credit Card
 finops:
-- name: Aeropostale Finops
+- has_sources: true
+  method: generated
+  name: Aeropostale Finops
+  primary_unit: ''
   service_category: Retail / Fashion
   slug: aeropostale-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aeropostale.png
 integrations:
 - description: Authentic Brands Group owns the Aéropostale brand; the operational retail business is run by partners such as SPARC Group / Simon Property Group.
@@ -95,7 +114,7 @@ network: true
 overview: 'Aéropostale is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Retail, Fashion, and Teen Apparel.
 
 
-  Aéropostale''s developer surface includes authentication and 3 more developer resources.'
+  Aéropostale''s developer surface includes authentication and 6 more developer resources.'
 plans:
 - name: Aeropostale Plans Pricing
   plan_count: 1
@@ -107,22 +126,22 @@ rate_limits:
   slug: aeropostale-rate-limits
 score:
   band: emerging
-  composite: 17.2
+  composite: 11.2
   coverage:
-    artifact_dirs: 6
-    catalog_earned: 39.4
+    artifact_dirs: 7
+    catalog_earned: 26.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.6
+    catalog_gap: 89.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.0
   facets:
-    access_clarity: 41.3
+    access_clarity: 19.7
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
     discoverability: 39.3
-    operational_transparency: 18.9
+    operational_transparency: 5.3
   previous_composite: 17.2
   regulatory:
     applies: true
@@ -130,9 +149,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

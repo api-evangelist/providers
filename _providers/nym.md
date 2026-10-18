@@ -32,10 +32,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://nym.health/resources/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.nym.health/rss.xml
 - group: company
   title: ''
   type: Website
@@ -70,20 +78,20 @@ created: '2026-07-17'
 description: Nym is a healthcare technology company providing autonomous medical coding for health systems, hospitals, and physician groups. Its proprietary Clinical Language Understanding (CLU) engine reads clinical documentation and assigns accurate medical codes (ICD-10, CPT, and E/M) without human intervention, combining machine reading with transparent, rules-based coding logic rather than generic natural language processing. Nym automates revenue cycle management to reduce coding costs, accelerate billing, and improve charge capture across 400+ US healthcare facilities, and is used by health systems including OSF, Ochsner Health, Inova, and Henry Ford. Backed by Bessemer Venture Partners and Lightspeed Venture Partners. Nym does not currently publish a public developer API, SDK, or developer portal.
 image: https://nym.health/wp-content/uploads/2022/11/Linkedin-7.jpg
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Nym
 nav: Providers
 network: true
-overview: 'Nym is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Ml, Healthcare, Medical Coding, and Revenue Cycle Management.
+overview: 'Nym is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Healthcare, Medical Coding, and Revenue Cycle Management.
 
 
-  Nym''s developer surface includes engineering blog, support, and 5 more developer resources.'
+  Nym''s developer surface includes engineering blog, support, and 7 more developer resources.'
 random_paper: 10
 score:
   band: minimal
   composite: 10.9
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -104,8 +112,8 @@ score:
     regime: Health
     regime_id: health
     score: 10.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -120,12 +128,11 @@ security:
 slug: nym
 tags:
 - Company
-- Ai Ml
+- Artificial Intelligence
 - Healthcare
 - Medical Coding
 - Revenue Cycle Management
 - Health IT
-- Artificial Intelligence
 - Clinical NLP
 website: https://nym.health/
 ---

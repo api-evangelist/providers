@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 14.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 4
 apis:
 - description: 'Zilla is a stateless, cloud-native multi-protocol edge and service proxy that enables seamless access to Apache Kafka through HTTP REST, gRPC, SSE, MQTT, and WebSocket protocols. Zilla eliminates the '
@@ -260,9 +260,13 @@ features:
 - description: PII classification and field-level encryption for sensitive data in Kafka messages via Zilla Platform.
   name: Field-Level Encryption
 finops:
-- name: Aklivity Finops
+- has_sources: false
+  method: generated
+  name: Aklivity Finops
+  primary_unit: ''
   service_category: API
   slug: aklivity-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aklivity.png
 json_schemas:
 - name: Namespace
@@ -278,7 +282,7 @@ modified: '2026-08-30'
 name: Aklivity
 nav: Providers
 network: true
-overview: 'Aklivity publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Zilla Gateway, and 3 more. Tagged areas include AI Gateway, API Gateway, Agent Infrastructure, Apache Kafka, and AsyncAPI.
+overview: 'Aklivity is listed with 4 APIs on the [APIs.io](https://apis.io/) network, including Zilla Gateway, and 3 more. Tagged areas include AI Gateway, API Gateway, Agent Infrastructure, Apache Kafka, and AsyncAPI.
 
 
   The Aklivity catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -295,7 +299,8 @@ rate_limits:
   name: Aklivity Rate Limits
   slug: aklivity-rate-limits
 rules:
-- effective_rule_count: 11
+- authorship: unmarked
+  effective_rule_count: 11
   extends: []
   name: Aklivity API Rules
   rule_count: 11
@@ -307,18 +312,18 @@ rules:
   slug: aklivity-spectral-rules
 score:
   band: developing
-  composite: 53.2
+  composite: 48.6
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 76.6
+    artifact_dirs: 26
+    catalog_earned: 65.2
     catalog_earned_first_party: 12.0
-    catalog_gap: 38.4
+    catalog_gap: 49.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -4.6
   facets:
-    access_clarity: 71.1
-    contract_governance: 67.3
+    access_clarity: 63.2
+    contract_governance: 41.7
     contract_quality: 13.9
     developer_ergonomics: 70.7
     discoverability: 62.5
@@ -334,8 +339,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

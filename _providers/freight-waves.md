@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 48.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -74,6 +74,10 @@ collections:
   name: FreightWaves SONAR Authentication Lookup API
   slug: open-freight-waves-lookup-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.freightwaves.com:443/feed
 - group: company
   title: ''
   type: Website
@@ -209,14 +213,14 @@ mcp_servers:
 - description: FreightWaves hosts a remote MCP server exposing SONAR freight-market intelligence to agents. The endpoint is protected by OAuth 2.1 (bearer) with the mcp:read scope; unauthenticated requests return 40
   name: Freight Waves MCP Server
   slug: freightwaves
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Freight Waves
 nav: Providers
 network: true
-overview: 'Freight Waves publishes 3 APIs on the [APIs.io](https://apis.io/) network: Authentication API, Data API, and Lookup API. Tagged areas include Company, Freight, Logistics, Supply Chain, and Transportation.
+overview: 'Freight Waves is listed with 3 APIs on the [APIs.io](https://apis.io/) network: Authentication API, Data API, and Lookup API. Tagged areas include Company, Freight, Logistics, Supply Chain, and Transportation.
 
 
-  Freight Waves'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, pricing, and 21 more developer resources.'
+  Freight Waves'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, pricing, and 22 more developer resources.'
 random_paper: 20
 rate_limits:
 - limit_count: 1
@@ -262,8 +266,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 32.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

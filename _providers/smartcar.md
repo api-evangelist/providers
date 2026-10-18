@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 2
@@ -94,6 +94,25 @@ collections:
   name: Smartcar Vehicles API
   slug: open-smartcar-vehicles
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/smartcar/refs/heads/main/plans/smartcar-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/smartcar-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/smartcar/refs/heads/main/rate-limits/smartcar-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/smartcar-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/smartcar/refs/heads/main/finops/smartcar-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/smartcar-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://smartcar.com/blog
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/smartcar/refs/heads/main/capabilities/smartcar-capability-edges.yml
   title: ''
@@ -191,9 +210,13 @@ examples:
   name: Smartcar Lock Vehicle Example
   slug: smartcar-lock-vehicle-example
 finops:
-- name: Smartcar Finops
+- has_sources: false
+  method: generated
+  name: Smartcar Finops
+  primary_unit: ''
   service_category: API
   slug: smartcar-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/smartcar.png
 json_schemas:
 - name: Smartcar Battery
@@ -212,17 +235,17 @@ jsonld:
   property_count: 11
   slug: smartcar-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-10-06'
 name: Smartcar
 nav: Providers
 network: true
-overview: 'Smartcar publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Charging API, Connections API, Navigation API, and 2 more. Tagged areas include Automotive, Connected Vehicles, IoT, Mobility, and Fleet Management.
+overview: 'Smartcar publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Charging API, Connections API, Navigation API, and 2 more. Tagged areas include Automotive, Connected Vehicles, IoT, Mobility, and Fleet Management.
 
 
   The Smartcar catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Smartcar''s developer surface includes authentication, developer portal, documentation, pricing, and 14 more developer resources.'
+  Smartcar''s developer surface includes engineering blog, authentication, developer portal, documentation, pricing, and 17 more developer resources.'
 plans:
 - name: Smartcar Plans Pricing
   plan_count: 3
@@ -233,9 +256,10 @@ rate_limits:
   name: Smartcar Rate Limits
   slug: smartcar-rate-limits
 rules:
-- effective_rule_count: 4
+- authorship: generated
+  effective_rule_count: 4
   extends: []
-  name: Smartcar API Rules
+  name: Smartcar — jsonschema rules
   rule_count: 4
   severity_counts:
     error: 0
@@ -243,7 +267,8 @@ rules:
     info: 1
     warn: 3
   slug: smartcar-jsonschema-spectral-rules
-- effective_rule_count: 49
+- authorship: unmarked
+  effective_rule_count: 49
   extends:
   - spectral:oas
   name: Smartcar API Rules
@@ -255,21 +280,21 @@ rules:
     warn: 4
   slug: smartcar-rules
 score:
-  band: developing
-  composite: 39.5
+  band: thin
+  composite: 38.5
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 61.0
+    artifact_dirs: 19
+    catalog_earned: 58.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 54.0
+    catalog_gap: 57.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.0
   facets:
-    access_clarity: 34.2
+    access_clarity: 26.3
     contract_governance: 27.3
     contract_quality: 56.1
-    developer_ergonomics: 40.5
+    developer_ergonomics: 42.9
     discoverability: 57.1
     operational_transparency: 10.5
   previous_composite: 39.5
@@ -286,8 +311,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

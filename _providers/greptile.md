@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.4
-  scored_at: '2026-10-04'
+  score: 21.5
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 3
+- acting_count: 1
   human_in_the_loop: 0
   name: Greptile Agentic Access
   operation_count: 4
   slug: greptile-agentic-access
-  summary_line: 4 operations · 3 acting
+  summary_line: 4 operations · 1 acting
 api_count: 1
 apis:
 - description: AI code-review product delivered as a GitHub App (also GitLab / Bitbucket). Installed on repositories, it reviews pull requests against full-codebase context, flagging bugs and anti-patterns. Billed p
@@ -85,6 +85,10 @@ collections:
   name: Greptile API
   slug: open-greptile
 common:
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.greptile.com/pricing
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/greptile/refs/heads/main/agentic-access/greptile-agentic-access.yml
   title: ''
@@ -148,25 +152,29 @@ common:
 created: '2026-06-20'
 description: Greptile builds an AI layer that understands entire codebases. Its public REST API indexes Git repositories into a graph plus embeddings, then answers natural-language questions and searches over that code. Greptile also ships an AI code-review product delivered as a GitHub App that reviews pull requests for bugs and anti-patterns.
 finops:
-- name: Greptile Finops
+- has_sources: true
+  method: generated
+  name: Greptile Finops
+  primary_unit: ''
   service_category: AI and Machine Learning
   slug: greptile-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/greptile.png
 layout: provider
 modified: '2026-06-20'
 name: Greptile
 nav: Providers
 network: true
-overview: 'Greptile publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Query API, Repositories API, Search API, and 1 more. Tagged areas include Artificial Intelligence, Codebase Understanding, Code Review, Code Search, and Developer Tools.
+overview: 'Greptile publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Query API, Repositories API, Search API, and 1 more. Tagged areas include Artificial Intelligence, Codebase Understanding, Code Review, Code Search, and Developer Tools.
 
 
   The Greptile catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Greptile''s developer surface includes authentication, documentation, engineering blog, and 10 more developer resources.'
+  Greptile''s developer surface includes pricing, authentication, documentation, engineering blog, and 10 more developer resources.'
 plans:
 - name: Greptile Plans Pricing
-  plan_count: 4
+  plan_count: 3
   slug: greptile-plans-pricing
 random_paper: 2
 rate_limits:
@@ -174,10 +182,11 @@ rate_limits:
   name: Greptile Rate Limits
   slug: greptile-rate-limits
 rules:
-- effective_rule_count: 31
+- authorship: generated
+  effective_rule_count: 31
   extends:
   - spectral:asyncapi
-  name: Greptile API Rules
+  name: Greptile — asyncapi rules
   rule_count: 4
   severity_counts:
     error: 1
@@ -186,23 +195,23 @@ rules:
     warn: 3
   slug: greptile-asyncapi-spectral-rules
 score:
-  band: developing
-  composite: 40.4
+  band: thin
+  composite: 38.9
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 65.4
-    catalog_earned_first_party: 0.0
-    catalog_gap: 49.6
+    artifact_dirs: 14
+    catalog_earned: 55.8
+    catalog_earned_first_party: 12.0
+    catalog_gap: 59.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 44.2
+    access_clarity: 50.0
     contract_governance: 11.4
     contract_quality: 58.6
     developer_ergonomics: 23.8
     discoverability: 66.1
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   previous_composite: 40.4
   provenance:
     agentic_access: derived
@@ -217,8 +226,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -236,7 +245,7 @@ security:
 - kind: vulnerability-disclosure
   name: Greptile Vulnerability Disclosure
   slug: greptile-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 - kind: trust-center
   name: Greptile Trust Center
   slug: greptile-trust-center

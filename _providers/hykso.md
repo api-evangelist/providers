@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.joinfightcamp.com/feed.xml
 - group: company
   title: ''
   type: Website
@@ -69,20 +73,20 @@ created: '2026-07-17'
 description: Hykso, Inc. is the company behind FightCamp, an at-home boxing and kickboxing training system that pairs a free-standing bag, quick-wrap gloves, and wireless motion-tracking punch trackers with an on-demand library of trainer-led workouts. The Hykso punch trackers began as standalone wearable sensors that measure punch count, speed, and output for boxers and gyms, and now power FightCamp's real-time performance stats and workout scoring. This profile is a company stub in the API Evangelist network; Hykso/FightCamp is a direct-to-consumer connected-fitness brand and does not publish a public developer API.
 image: https://cdn.joinfightcamp.com/images/og/fc-og-2025.jpg
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Hykso
 nav: Providers
 network: true
 overview: 'Hykso is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fitness, Connected Fitness, Wearables, and Boxing.
 
 
-  Hykso''s developer surface includes pricing, support, signup flow, and 4 more developer resources.'
+  Hykso''s developer surface includes pricing, support, signup flow, and 5 more developer resources.'
 random_paper: 8
 score:
   band: emerging
   composite: 11.9
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -103,8 +107,8 @@ score:
     regime: Health
     regime_id: health
     score: 10.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

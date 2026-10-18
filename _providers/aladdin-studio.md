@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.9
-  scored_at: '2026-10-04'
+  score: 28.0
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -130,6 +130,21 @@ collections:
   name: Aladdin Data Cloud Analytics Securities API
   slug: open-aladdin-studio-securities-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/aladdin-studio/refs/heads/main/plans/aladdin-studio-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/aladdin-studio-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/aladdin-studio/refs/heads/main/rate-limits/aladdin-studio-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/aladdin-studio-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/aladdin-studio/refs/heads/main/finops/aladdin-studio-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/aladdin-studio-finops.yml
 - group: company
   title: ''
   type: Website
@@ -276,9 +291,13 @@ features:
 - description: Downloadable Python Jupyter Notebooks and code samples in multiple languages for rapid solution development and prototyping.
   name: Jupyter Notebook Integration
 finops:
-- name: Aladdin Studio Finops
+- has_sources: true
+  method: generated
+  name: Aladdin Studio Finops
+  primary_unit: ''
   service_category: Investment Management Platform
   slug: aladdin-studio-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aladdin-studio.png
 integrations:
 - description: Native Aladdin Data Cloud integration with Snowflake for large-scale analytics, supporting both standard connectors and Snowpark for Python-based data science workflows.
@@ -413,13 +432,13 @@ modified: '2026-05-19'
 name: Aladdin Studio
 nav: Providers
 network: true
-overview: 'Aladdin Studio publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Connections API, Datasets API, and 7 more. Tagged areas include Finance, Investment Management, Portfolio Analytics, Risk Management, and Asset Management.
+overview: 'Aladdin Studio is listed with 10 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Connections API, Datasets API, and 7 more. Tagged areas include Finance, Investment Management, Portfolio Analytics, Risk Management, and Asset Management.
 
 
   The Aladdin Studio catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Aladdin Studio''s developer surface includes authentication, developer portal, documentation, and 12 more developer resources.'
+  Aladdin Studio''s developer surface includes authentication, developer portal, documentation, and 15 more developer resources.'
 plans:
 - name: Aladdin Studio Plans Pricing
   plan_count: 1
@@ -430,9 +449,10 @@ rate_limits:
   name: Aladdin Studio Rate Limits
   slug: aladdin-studio-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Aladdin Studio API Rules
+  name: Aladdin Studio — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -440,7 +460,8 @@ rules:
     info: 2
     warn: 3
   slug: aladdin-studio-jsonschema-spectral-rules
-- effective_rule_count: 81
+- authorship: generated
+  effective_rule_count: 81
   extends:
   - spectral:oas
   name: Aladdin Studio API Rules
@@ -458,23 +479,23 @@ scopes:
   summary_line: 7 scopes · clientCredentials/authorizationCode
 score:
   band: thin
-  composite: 34.1
+  composite: 32.6
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 76.0
+    artifact_dirs: 19
+    catalog_earned: 73.0
     catalog_earned_first_party: 0.0
     catalog_gap: 42.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -1.5
   facets:
-    access_clarity: 13.2
+    access_clarity: 5.3
     contract_governance: 27.3
     contract_quality: 31.3
     developer_ergonomics: 54.8
     discoverability: 71.4
     operational_transparency: 10.5
-  previous_composite: 33.6
+  previous_composite: 34.1
   provenance:
     agentic_access: derived
     contracts:
@@ -488,8 +509,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

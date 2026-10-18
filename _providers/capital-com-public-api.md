@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.9
-  scored_at: '2026-10-04'
+  score: 19.0
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -117,6 +117,21 @@ collections:
   name: Capital.com REST Accounts Working Orders API
   slug: open-capital-com-public-api-working-orders-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/capital-com-public-api/refs/heads/main/plans/capital-com-public-api-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/capital-com-public-api-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/capital-com-public-api/refs/heads/main/rate-limits/capital-com-public-api-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/capital-com-public-api-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/capital-com-public-api/refs/heads/main/finops/capital-com-public-api-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/capital-com-public-api-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/capital-com-public-api/refs/heads/main/agentic-access/capital-com-public-api-agentic-access.yml
   title: ''
@@ -176,22 +191,26 @@ common:
 created: '2024-12-03'
 description: Capital.com is a European trading platform offering CFDs across shares, indices, commodities, forex, and cryptocurrencies. The Capital.com Public API provides direct access to the trading engine for automated strategies, giving programmatic control of positions, working orders, account preferences, and historical and streaming market data. A companion WebSocket API streams real-time prices and OHLC candles for up to 40 concurrent instruments.
 finops:
-- name: Capital Com Public Api Finops
+- has_sources: false
+  method: generated
+  name: Capital Com Public Api Finops
+  primary_unit: ''
   service_category: API
   slug: capital-com-public-api-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/capital-com-public-api.png
 layout: provider
 modified: '2026-05-29'
 name: Capital.com Public API
 nav: Providers
 network: true
-overview: 'Capital.com Public API publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Capital.com WebSocket API, Accounts API, General API, and 5 more. Tagged areas include CFD, Commodities, Cryptocurrency, Finance, and Forex.
+overview: 'Capital.com Public API is listed with 8 APIs on the [APIs.io](https://apis.io/) network, including Capital.com WebSocket API, Accounts API, General API, and 5 more. Tagged areas include CFD, Commodities, Cryptocurrency, Finance, and Foreign Exchange.
 
 
   The Capital.com Public API catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Capital.com Public API''s developer surface includes authentication, documentation, sandbox, support, engineering blog, and 8 more developer resources.'
+  Capital.com Public API''s developer surface includes authentication, documentation, sandbox, support, engineering blog, and 11 more developer resources.'
 plans:
 - name: Capital Com Public Api Plans Pricing
   plan_count: 3
@@ -202,10 +221,11 @@ rate_limits:
   name: Capital Com Public Api Rate Limits
   slug: capital-com-public-api-rate-limits
 rules:
-- effective_rule_count: 32
+- authorship: generated
+  effective_rule_count: 32
   extends:
   - spectral:asyncapi
-  name: Capital.com Public API API Rules
+  name: Capital.com Public API — asyncapi rules
   rule_count: 5
   severity_counts:
     error: 1
@@ -215,17 +235,17 @@ rules:
   slug: capital-com-public-api-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 31.5
+  composite: 29.9
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 48.5
+    artifact_dirs: 14
+    catalog_earned: 45.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 66.5
+    catalog_gap: 69.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 13.6
     contract_quality: 58.3
     developer_ergonomics: 25.0
@@ -245,8 +265,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 22.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -271,7 +291,7 @@ tags:
 - Commodities
 - Cryptocurrency
 - Finance
-- Forex
+- Foreign Exchange
 - Indices
 - Market Data
 - Share

@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 9
 apis:
 - description: Open-source command-line tool and engine that turns a Garden project configuration into a graph of Build, Deploy, Test, and Run actions and executes them locally or against remote Kubernetes clusters.
@@ -128,16 +128,20 @@ common:
 created: '2026-05-23'
 description: Garden is an open-source Kubernetes-native development and CI/CD platform. Garden Core, a declarative CLI and engine, models a project as a graph of Build, Deploy, Test, and Run actions powered by pluggable providers (kubernetes, local-kubernetes, container, exec, jib, helm, terraform, pulumi). Garden Cloud / Garden Enterprise add a hosted control plane for remote container builds, ephemeral preview environments, team dashboards, team-wide caching, secrets, RBAC, audit, and SSO. The CLI integrates with any CI system and IDE; teams use Garden to standardize how dev, preview, staging, and prod environments are built and deployed.
 finops:
-- name: Garden Io Finops
+- has_sources: false
+  method: generated
+  name: Garden Io Finops
+  primary_unit: ''
   service_category: API
   slug: garden-io-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/garden-io.png
 layout: provider
 modified: '2026-05-23'
 name: Garden
 nav: Providers
 network: true
-overview: 'Garden publishes 9 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Kubernetes, Developer Tools, CI/CD, Platform Engineering, and DevOps.
+overview: 'Garden is listed with 9 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Kubernetes, Developer Tools, CI/CD, Platform Engineering, and DevOps.
 
 
   Garden''s developer surface includes documentation, GitHub presence, and 12 more developer resources.'
@@ -151,23 +155,23 @@ rate_limits:
   name: Garden Io Rate Limits
   slug: garden-io-rate-limits
 score:
-  band: thin
-  composite: 26.6
+  band: emerging
+  composite: 21.2
   coverage:
-    artifact_dirs: 8
-    catalog_earned: 57.4
+    artifact_dirs: 9
+    catalog_earned: 44.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.6
+    catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.4
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 9.5
     discoverability: 78.6
-    operational_transparency: 50.5
+    operational_transparency: 36.8
   open_source:
     applies: true
     score: 85.0
@@ -178,9 +182,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

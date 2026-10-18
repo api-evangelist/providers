@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.5
-  scored_at: '2026-10-04'
+  score: 23.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 229
   human_in_the_loop: 4
@@ -230,6 +230,29 @@ collections:
   name: Cloudsmith API (v1)
   slug: open-cloudsmith
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/cloudsmith/refs/heads/main/plans/cloudsmith-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/cloudsmith-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cloudsmith/refs/heads/main/rate-limits/cloudsmith-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/cloudsmith-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/cloudsmith/refs/heads/main/finops/cloudsmith-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/cloudsmith-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://cloudsmith.com/blog
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://cloudsmith.com/rss/blog.xml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/cloudsmith/refs/heads/main/capabilities/cloudsmith-capability-edges.yml
   title: ''
@@ -300,9 +323,13 @@ common:
 created: '2024-01-01'
 description: Cloudsmith is a cloud-native, universal package management platform providing fully managed, geo-replicated artifact repositories for over 30 package formats (Docker, npm, Maven, NuGet, PyPI, RubyGems, RPM, Deb, Helm, Cargo, Go, Composer, Conan, Conda, Vagrant, Raw, and more). The Cloudsmith REST API (v1) at api.cloudsmith.io exposes operations for organizations, repositories, packages, files, entitlements, vulnerabilities, webhooks, audit logs, metrics, quotas, deny policies, namespaces, distros, formats, recycle bin, storage regions, and broadcasts. Authentication is via API key passed in the Authorization header as "token YOUR_API_KEY".
 finops:
-- name: Cloudsmith Finops
+- has_sources: false
+  method: generated
+  name: Cloudsmith Finops
+  primary_unit: ''
   service_category: API
   slug: cloudsmith-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cloudsmith.png
 jsonld:
 - class_count: 0
@@ -310,17 +337,17 @@ jsonld:
   property_count: 9
   slug: cloudsmith-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-10-06'
 name: Cloudsmith
 nav: Providers
 network: true
-overview: 'Cloudsmith publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Audit Log API, Badges API, Broadcasts API, and 19 more. Tagged areas include Artifact Management, Developer Tools, DevOps, DevSecOps, and Distribution.
+overview: 'Cloudsmith publishes 22 API contracts indexed on the [APIs.io](https://apis.io/) network, including Audit Log API, Badges API, Broadcasts API, and 19 more. Tagged areas include Artifact Management, Developer Tools, DevOps, DevSecOps, and Distribution.
 
 
   The Cloudsmith catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Cloudsmith''s developer surface includes authentication, documentation, API reference, getting-started guide, GitHub presence, and 10 more developer resources.'
+  Cloudsmith''s developer surface includes engineering blog, authentication, documentation, API reference, getting-started guide, GitHub presence, and 14 more developer resources.'
 plans:
 - name: Cloudsmith Plans Pricing
   plan_count: 1
@@ -331,7 +358,8 @@ rate_limits:
   name: Cloudsmith Rate Limits
   slug: cloudsmith-rate-limits
 rules:
-- effective_rule_count: 55
+- authorship: unmarked
+  effective_rule_count: 55
   extends:
   - spectral:oas
   name: Cloudsmith API Rules
@@ -343,23 +371,23 @@ rules:
     warn: 5
   slug: cloudsmith-rules
 score:
-  band: developing
-  composite: 42.1
+  band: thin
+  composite: 32.3
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 75.6
+    artifact_dirs: 16
+    catalog_earned: 50.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 39.4
+    catalog_gap: 64.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -9.8
   facets:
-    access_clarity: 32.1
-    contract_governance: 49.1
+    access_clarity: 10.5
+    contract_governance: 13.6
     contract_quality: 50.1
-    developer_ergonomics: 28.6
+    developer_ergonomics: 31.0
     discoverability: 66.1
-    operational_transparency: 40.0
+    operational_transparency: 26.3
   previous_composite: 42.1
   provenance:
     agentic_access: derived
@@ -374,9 +402,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

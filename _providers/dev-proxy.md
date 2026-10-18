@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.5
-  scored_at: '2026-10-04'
+  score: 18.6
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 2
@@ -71,6 +71,21 @@ collections:
   name: Microsoft Dev Proxy — Proxy API
   slug: open-dev-proxy
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/dev-proxy/refs/heads/main/plans/dev-proxy-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/dev-proxy-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/dev-proxy/refs/heads/main/rate-limits/dev-proxy-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/dev-proxy-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/dev-proxy/refs/heads/main/finops/dev-proxy-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/dev-proxy-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/dev-proxy/refs/heads/main/agentic-access/dev-proxy-agentic-access.yml
   title: ''
@@ -105,19 +120,23 @@ common:
 created: '2026-03-27'
 description: Dev Proxy is a Microsoft command-line tool for simulating, testing, and debugging API interactions during development.
 finops:
-- name: Dev Proxy Finops
+- has_sources: false
+  method: generated
+  name: Dev Proxy Finops
+  primary_unit: ''
   service_category: API
   slug: dev-proxy-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dev-proxy.png
 layout: provider
 modified: '2026-09-16'
 name: Dev Proxy
 nav: Providers
 network: true
-overview: 'Dev Proxy publishes 3 APIs on the [APIs.io](https://apis.io/) network, including JWT API, and 2 more. Tagged areas include Debugging Proxy and Proxy.
+overview: 'Dev Proxy publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network, including JWT API, and 2 more. Tagged areas include Debugging Proxy and Proxy.
 
 
-  Dev Proxy''s developer surface includes documentation and 6 more developer resources.'
+  Dev Proxy''s developer surface includes documentation and 9 more developer resources.'
 plans:
 - name: Dev Proxy Plans Pricing
   plan_count: 3
@@ -129,17 +148,17 @@ rate_limits:
   slug: dev-proxy-rate-limits
 score:
   band: emerging
-  composite: 19.9
+  composite: 18.4
   coverage:
     artifact_dirs: 10
-    catalog_earned: 31.0
+    catalog_earned: 28.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 84.0
+    catalog_gap: 87.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 36.1
     developer_ergonomics: 18.3
@@ -159,8 +178,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

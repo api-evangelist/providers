@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Natural language processing for advanced text analysis
@@ -70,7 +70,7 @@ modified: '2026-08-21'
 name: Watson Natural Language Understanding
 nav: Providers
 network: true
-overview: Watson Natural Language Understanding publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Text Analysis and Public APIs.
+overview: Watson Natural Language Understanding is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Text Analysis and Public APIs.
 random_paper: 12
 score:
   band: minimal
@@ -97,8 +97,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

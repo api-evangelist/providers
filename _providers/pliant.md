@@ -11,40 +11,174 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
-    agentic_access: false
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: true
     idempotency: false
     mcp_server: verified
-    openapi_examples: false
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.2
-  scored_at: '2026-10-04'
+  score: 41.1
+  scored_at: '2026-10-17'
+agentic_access:
+- acting_count: 88
+  human_in_the_loop: 2
+  name: Pliant Agentic Access
+  operation_count: 131
+  slug: pliant-agentic-access
+  summary_line: 131 operations · 88 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: 'Pliant''s Pro API enables customers to access Pliant credit card data and features programmatically — issue and manage cards, apply card controls and limits, retrieve transactions and accounting data, '
-  name: Pliant Pro API (Customer)
-  slug: pliant-pro-api-customer
-artifact_total: 6
+- baseURL: https://partner-api.getpliant.com/api/
+  baseurl_source: declared
+  description: This tag is for operations related to account entries
+  name: Pliant Account Entries API
+  slug: pliant-account-entries-api
+- baseURL: https://partner-api.getpliant.com/api/
+  baseurl_source: declared
+  description: This tag is for operations related to accounting projects
+  name: Pliant Accounting Projects API
+  slug: pliant-accounting-projects-api
+- baseURL: https://partner-api.getpliant.com/api/
+  baseurl_source: declared
+  description: This tag is for operations related to accounting teams
+  name: Pliant Accounting Teams API
+  slug: pliant-accounting-teams-api
+- baseURL: https://partner-api.getpliant.com/api/
+  baseurl_source: declared
+  description: This tag is for operations related to accounting transactions
+  name: Pliant Accounting Transactions API
+  slug: pliant-accounting-transactions-api
+- baseURL: https://partner-api.getpliant.com/api/
+  baseurl_source: declared
+  description: This tag is for operations related to callbacks
+  name: Pliant Callbacks API
+  slug: pliant-callbacks-api
+- baseURL: https://partner-api.getpliant.com/api/
+  baseurl_source: declared
+  description: This tag is for operations related to card accounts
+  name: Pliant Card Accounts API
+  slug: pliant-card-accounts-api
+- baseURL: https://partner-api.getpliant.com/api/
+  baseurl_source: declared
+  description: This tag is for operations related to card controls
+  name: Pliant Card Controls API
+  slug: pliant-card-controls-api
+- baseURL: https://partner-api.getpliant.com/api/
+  baseurl_source: declared
+  description: This tag is for operations related to card copilots
+  name: Pliant Card Copilots API
+  slug: pliant-card-copilots-api
+- baseURL: https://partner-api.getpliant.com/api/
+  baseurl_source: declared
+  description: This tag is for operations related to card sensitive data
+  name: Pliant Card Sensitive Data API
+  slug: pliant-card-sensitive-data-api
+- baseURL: https://partner-api.getpliant.com/api/
+  baseurl_source: declared
+  description: This tag is for operations related to cardholders
+  name: Pliant Cardholders API
+  slug: pliant-cardholders-api
+- baseURL: https://partner-api.getpliant.com/api/
+  baseurl_source: declared
+  description: This tag is for operations related to cards
+  name: Pliant Cards API
+  slug: pliant-cards-api
+- baseURL: https://partner-api.getpliant.com/api/
+  baseurl_source: declared
+  description: This tag is for operations related to custom fields
+  name: Pliant Custom Fields API
+  slug: pliant-custom-fields-api
+- baseURL: https://partner-api.getpliant.com/api/
+  baseurl_source: declared
+  description: This tag is for operations related to organizations
+  name: Pliant Organizations API
+  slug: pliant-organizations-api
+- baseURL: https://partner-api.getpliant.com/api/
+  baseurl_source: declared
+  description: This tag is for operations related to payments
+  name: Pliant Payments API
+  slug: pliant-payments-api
+- baseURL: https://partner-api.getpliant.com/api/
+  baseurl_source: declared
+  description: This tag is for operations related to receipt automatching
+  name: Pliant Receipt Automatching API
+  slug: pliant-receipt-automatching-api
+- baseURL: https://partner-api.getpliant.com/api/
+  baseurl_source: declared
+  description: This tag is for operations related to receipts
+  name: Pliant Receipts API
+  slug: pliant-receipts-api
+- baseURL: https://partner-api.getpliant.com/api/
+  baseurl_source: declared
+  description: This tag is for operations related to statements
+  name: Pliant Statements API
+  slug: pliant-statements-api
+- baseURL: https://partner-api.getpliant.com/api/
+  baseurl_source: declared
+  description: This tag is for operations related to test data generation
+  name: Pliant Test Data Generator (Sandbox-only) API
+  slug: pliant-test-data-generator-sandbox-only-api
+- baseURL: https://partner-api.getpliant.com/api/
+  baseurl_source: declared
+  description: This tag is for operations related to transactions
+  name: Pliant Transactions API
+  slug: pliant-transactions-api
+artifact_total: 26
 asyncapis:
 - description: ''
   name: Pliant Callbacks Webhooks
   slug: pliant-callbacks-webhooks
 common:
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/pliant/refs/heads/main/agentic-access/pliant-agentic-access.yml
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/pliant-agentic-access.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pliant/refs/heads/main/rules/pliant-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/pliant-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pliant/refs/heads/main/vocabulary/pliant-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/pliant-vocabulary.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pliant/refs/heads/main/errors/pliant-problem-types.yml
+  title: ''
+  type: ErrorCatalog
+  url: errors/pliant-problem-types.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/pliant/refs/heads/main/hosts/pliant-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/pliant-hosts.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/pliant/refs/heads/main/vendors/pliant-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/pliant-vendors.yml
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://www.getpliant.com/en-us/press
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/pliant/refs/heads/main/security/pliant-vulnerability-disclosure.yml
   title: ''
@@ -202,31 +336,44 @@ modified: '2026-07-20'
 name: Pliant
 nav: Providers
 network: true
-overview: 'Pliant publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Corporate Cards, Card Issuing, and Spend Management.
+overview: 'Pliant publishes 19 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account Entries API, Accounting Projects API, Accounting Teams API, and 16 more. Tagged areas include Company, Payments, Corporate Cards, Card Issuing, and Spend Management.
 
 
-  The Pliant catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Pliant catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Pliant''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, support, signup flow, and 25 more developer resources.'
+  Pliant''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, support, signup flow, and 32 more developer resources.'
 random_paper: 10
+rules:
+- authorship: generated
+  effective_rule_count: 57
+  extends:
+  - spectral:oas
+  name: Pliant API Rules
+  rule_count: 16
+  severity_counts:
+    error: 11
+    hint: 0
+    info: 1
+    warn: 4
+  slug: pliant-rules
 score:
-  band: developing
-  composite: 43.9
+  band: strong
+  composite: 56.3
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 37.0
+    artifact_dirs: 25
+    catalog_earned: 42.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 72.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 12.4
   facets:
     access_clarity: 42.1
-    contract_governance: 18.2
-    contract_quality: 39.0
+    contract_governance: 35.6
+    contract_quality: 57.8
     developer_ergonomics: 47.0
-    discoverability: 75.0
+    discoverability: 76.7
     operational_transparency: 32.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -238,7 +385,13 @@ score:
     - europe
   previous_composite: 43.9
   provenance:
+    agentic_access: derived
     conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 100.0
+      total: 19
     mcp: first-party
     skills: derived
   regulatory:
@@ -247,13 +400,12 @@ score:
     regime: Payments
     regime_id: payments
     score: 35.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 61.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/pliant/refs/heads/main/screenshots/pliant-2026-08-17T081307.png
 security:
 - kind: authentication

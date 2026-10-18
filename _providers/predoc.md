@@ -16,7 +16,7 @@ agent_readiness:
   dimensions:
     agent_card: false
     agent_skills: derived
-    agentic_access: false
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
     consent_identity: false
@@ -27,26 +27,99 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.4
-  scored_at: '2026-10-04'
+  score: 25.7
+  scored_at: '2026-10-17'
+agentic_access:
+- acting_count: 13
+  human_in_the_loop: 13
+  name: Predoc Agentic Access
+  operation_count: 40
+  slug: predoc-agentic-access
+  summary_line: 40 operations · 13 acting · 13 human-in-the-loop
 api_count: 1
 apis:
-- description: REST API for retrieving, aggregating, and delivering structured patient medical records. Covers patient management, record-retrieval requests, previous-provider retrievals, record uploads, granular cl
-  name: Predoc Partner API
-  slug: predoc-partner-api
-artifact_total: 5
+- baseURL: https://partner-sandbox.predoc.ai/api/v1
+  baseurl_source: declared
+  description: The Authentication API from Predoc — 1 operation(s) for authentication.
+  name: Predoc Authentication API
+  slug: predoc-authentication-api
+- baseURL: https://partner-sandbox.predoc.ai/api/v1
+  baseurl_source: declared
+  description: The Documents API from Predoc — 1 operation(s) for documents.
+  name: Predoc Documents API
+  slug: predoc-documents-api
+- baseURL: https://partner-sandbox.predoc.ai/api/v1
+  baseurl_source: declared
+  description: The Events API from Predoc — 2 operation(s) for events.
+  name: Predoc Events API
+  slug: predoc-events-api
+- baseURL: https://partner-sandbox.predoc.ai/api/v1
+  baseurl_source: declared
+  description: The Patient API from Predoc — 23 operation(s) for patient.
+  name: Predoc Patient API
+  slug: predoc-patient-api
+- baseURL: https://partner-sandbox.predoc.ai/api/v1
+  baseurl_source: declared
+  description: The Record Request API from Predoc — 3 operation(s) for record request.
+  name: Predoc Record Request API
+  slug: predoc-record-request-api
+- baseURL: https://partner-sandbox.predoc.ai/api/v1
+  baseurl_source: declared
+  description: The Record Upload API from Predoc — 3 operation(s) for record upload.
+  name: Predoc Record Upload API
+  slug: predoc-record-upload-api
+- baseURL: https://partner-sandbox.predoc.ai/api/v1
+  baseurl_source: declared
+  description: The Retrieval API from Predoc — 2 operation(s) for retrieval.
+  name: Predoc Retrieval API
+  slug: predoc-retrieval-api
+artifact_total: 20
 asyncapis:
 - description: ''
   name: Predoc Webhooks
   slug: predoc-webhooks
 common:
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/predoc/refs/heads/main/agentic-access/predoc-agentic-access.yml
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/predoc-agentic-access.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/predoc/refs/heads/main/rules/predoc-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/predoc-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/predoc/refs/heads/main/json-ld/predoc-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/predoc-context.jsonld
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/predoc/refs/heads/main/vocabulary/predoc-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/predoc-vocabulary.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/predoc/refs/heads/main/hosts/predoc-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/predoc-hosts.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/predoc/refs/heads/main/vendors/predoc-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/predoc-vendors.yml
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://www.predoc.ai/news
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/predoc/refs/heads/main/security/predoc-domain-security.yml
   title: ''
@@ -177,40 +250,83 @@ common:
 created: '2026-07-17'
 description: Predoc is an AI-native medical records platform that automates the retrieval, aggregation, normalization, de-duplication, and structured delivery of complete patient histories. It queries health information exchanges (HIEs) and initiates outreach to non-connected providers, ingests faxes, PDFs, and digital formats, and delivers clean, FHIR-compliant clinical data to healthcare organizations and clinical research teams via a REST Partner API, file exports, or direct EHR integration. The Predoc Partner API (v1.4.1) exposes patient management, record-retrieval requests, record uploads, granular clinical document endpoints (medications, labs, imaging, procedures, notes, vaccines, allergies), clinical summaries, and webhook event notifications, secured with short-lived JWT bearer tokens.
 image: https://cdn.prod.website-files.com/6827c1994862c627993a82d8/688c883a300cc1480f08f8a1_favicon_32.png
+json_schemas:
+- name: CreateCrrInpDto
+  property_count: 13
+  slug: predoc-create-crr-inp-dto
+- name: CreatePatientV2InpDto
+  property_count: 10
+  slug: predoc-create-patient-v2-inp-dto
+- name: CreatePatientWithCrrV2InpDto
+  property_count: 23
+  slug: predoc-create-patient-with-crr-v2-inp-dto
+- name: ModifyCrrInpDto
+  property_count: 13
+  slug: predoc-modify-crr-inp-dto
+- name: PatientInfoResponseDto
+  property_count: 14
+  slug: predoc-patient-info-response-dto
+- name: UpdatePatientInformationInpDto
+  property_count: 11
+  slug: predoc-update-patient-information-inp-dto
+jsonld:
+- class_count: 120
+  name: Predoc Context
+  property_count: 339
+  slug: predoc-context
 layout: provider
 modified: '2026-07-20'
 name: Predoc
 nav: Providers
 network: true
-overview: 'Predoc publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Medical Records, Health Information Exchange, and FHIR.
+overview: 'Predoc publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authentication API, Documents API, Events API, and 4 more. Tagged areas include Company, Healthcare, Medical Records, Health Information Exchange, and FHIR.
 
 
-  The Predoc catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Predoc catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Predoc''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, authentication, and 21 more developer resources.'
+  Predoc''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, authentication, and 28 more developer resources.'
 random_paper: 21
+rules:
+- authorship: generated
+  effective_rule_count: 55
+  extends:
+  - spectral:oas
+  name: Predoc API Rules
+  rule_count: 14
+  severity_counts:
+    error: 9
+    hint: 0
+    info: 1
+    warn: 4
+  slug: predoc-rules
 score:
-  band: developing
-  composite: 46.0
+  band: strong
+  composite: 55.0
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 37.0
+    artifact_dirs: 26
+    catalog_earned: 62.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 52.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 9.0
   facets:
     access_clarity: 43.4
-    contract_governance: 18.2
-    contract_quality: 39.0
+    contract_governance: 35.6
+    contract_quality: 68.4
     developer_ergonomics: 53.0
-    discoverability: 73.2
+    discoverability: 75.0
     operational_transparency: 39.5
   previous_composite: 46.0
   provenance:
+    agentic_access: derived
     conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 100.0
+      total: 7
     mcp: derived
     skills: derived
   regulatory:
@@ -223,13 +339,12 @@ score:
     regime: Health
     regime_id: health
     score: 27.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/predoc/refs/heads/main/screenshots/predoc-2026-08-17T081335.png
 security:
 - kind: authentication

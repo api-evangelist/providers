@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://api.voygr.tech
@@ -53,6 +53,10 @@ apis:
   slug: voygr-core-api
 artifact_total: 7
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://voygr.tech/blog/
 - group: commercial
   title: ''
   type: License
@@ -160,14 +164,14 @@ description: VOYGR provides real-world place intelligence for AI apps and agents
   have a phone but no API. The Voygr Business Validation API (dev.voygr.tech) returns existence and open/closed status for a business name and address. Both authenticate with an X-API-Key header, share one prepaid credit balance, and issue keys self-serve by email. VOYGR is a Y Combinator (Winter 2026) and SNR.VC backed seed-stage company based in San Francisco, founded by Vlad Baskakov (CEO, ex-Google Maps) and Yarik Markov (CTO, ex-Google/Meta/Apple ML). Its maps API goes beyond the 10-15 standard attributes of existing mapping providers. The location-data products themselves remain demo-gated on voygr.tech, but the calling and validation APIs are documented, priced, and reachable without a sales conversation.
 image: https://framerusercontent.com/images/AwhsRnVKsS6stDyzf60Vzj7jew.png
 layout: provider
-modified: '2026-08-14'
+modified: '2026-10-06'
 name: VOYGR
 nav: Providers
 network: true
-overview: 'VOYGR publishes 3 APIs on the [APIs.io](https://apis.io/) network, including Calls API, Core API, and 1 more. Tagged areas include Company, Location Intelligence, POI Data, Data Enrichment, and Data Validation.
+overview: 'VOYGR publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network, including Calls API, Core API, and 1 more. Tagged areas include Company, Location Intelligence, POI Data, Data Enrichment, and Data Validation.
 
 
-  VOYGR''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, support, CLI, and 16 more developer resources.'
+  VOYGR''s developer surface includes engineering blog, documentation, API reference, getting-started guide, signup flow, pricing, support, and 17 more developer resources.'
 plans:
 - name: Voygr Plans Pricing
   plan_count: 4
@@ -179,20 +183,20 @@ rate_limits:
   slug: voygr-rate-limits
 score:
   band: developing
-  composite: 53.4
+  composite: 53.5
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 21
     catalog_earned: 61.0
     catalog_earned_first_party: 24.0
     catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 76.3
     contract_governance: 4.5
     contract_quality: 42.6
-    developer_ergonomics: 76.2
+    developer_ergonomics: 78.6
     discoverability: 66.1
     operational_transparency: 34.2
   jurisdiction:
@@ -214,12 +218,12 @@ score:
     skills: first-party
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

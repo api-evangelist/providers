@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 4.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: GraphQL API for Shelly IoT platform
@@ -31,6 +31,14 @@ apis:
   slug: shelly-api
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.shelly.com/blogs/articles
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.shelly.com/blogs/articles.atom
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/shelly/refs/heads/main/llms/shelly-llms.txt
   title: ''
@@ -76,32 +84,34 @@ created: '2026-09-23'
 description: Shelly is a global IoT company that designs and manufactures smart home devices, including Wi‑Fi and Bluetooth switches, plugs, sensors, energy meters, and controllers. Their products enable users to automate lighting, climate, security, and energy management through mobile apps and integrations with platforms like Home Assistant and major voice assistants.
 image: https://www.shelly.com/cdn/shop/files/share-general.jpg?v=1726139769
 layout: provider
-modified: '2026-09-23'
+modified: '2026-10-06'
 name: Shelly
 nav: Providers
 network: true
-overview: 'Shelly publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, IoT, Smart Home, Devices, and Automation.
+overview: 'Shelly is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, IoT, Smart Home, Devices, and Automation.
 
 
-  Shelly''s developer surface includes documentation and 8 more developer resources.'
+  Shelly''s developer surface includes engineering blog, documentation, and 9 more developer resources.'
 random_paper: 19
 score:
   band: emerging
-  composite: 12.4
+  composite: 12.9
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 10
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.5
   facets:
     access_clarity: 10.5
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 19.0
+    developer_ergonomics: 21.4
     discoverability: 73.2
     operational_transparency: 0.0
+  previous_composite: 12.4
   provenance:
     mcp: derived
   regulatory:
@@ -110,12 +120,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 9.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/shelly/refs/heads/main/screenshots/shelly-2026-10-11T125823.png
 security:
 - kind: domain-security
   name: Shelly Domain Security

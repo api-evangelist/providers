@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://api.verdigris.co/data/v4
@@ -249,7 +249,7 @@ modified: '2026-07-21'
 name: Verdigris Technologies
 nav: Providers
 network: true
-overview: 'Verdigris Technologies publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Control API, Current API, Energy API, and 7 more. Tagged areas include Company, Energy, Energy Management, Building Automation, and Smart Buildings.
+overview: 'Verdigris Technologies publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Control API, Current API, Energy API, and 7 more. Tagged areas include Company, Energy, Energy Management, Building Automation, and Smart Buildings.
 
 
   Verdigris Technologies'' developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, and 20 more developer resources.'
@@ -293,8 +293,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 31.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

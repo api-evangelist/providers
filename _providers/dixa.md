@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 66
+- acting_count: 86
   human_in_the_loop: 0
   name: Dixa Agentic Access
-  operation_count: 123
+  operation_count: 157
   slug: dixa-agentic-access
-  summary_line: 123 operations · 66 acting
+  summary_line: 157 operations · 86 acting
 api_count: 1
 apis:
 - baseURL: https://dev.dixa.io/v1
@@ -304,9 +304,13 @@ examples:
   name: Getteams
   slug: getTeams
 finops:
-- name: Dixa Finops
+- has_sources: false
+  method: generated
+  name: Dixa Finops
+  primary_unit: ''
   service_category: ''
   slug: dixa-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dixa.png
 json_schemas:
 - name: Agent
@@ -346,7 +350,7 @@ modified: '2026-06-13'
 name: Dixa
 nav: Providers
 network: true
-overview: 'Dixa publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Analytics API, Anonymization API, and 17 more. Tagged areas include Customer Service, Conversational AI, Omnichannel, Customer Experience, and Help Desk.
+overview: 'Dixa publishes 20 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agents API, Analytics API, Anonymization API, and 17 more. Tagged areas include Customer Service, Conversational AI, Omnichannel, Customer Experience, and Help Desk.
 
 
   The Dixa catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -366,9 +370,10 @@ rate_limits:
   name: Dixa Rate Limits
   slug: dixa-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Dixa API Rules
+  name: Dixa — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -378,17 +383,17 @@ rules:
   slug: dixa-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 46.5
+  composite: 44.5
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 75.3
+    artifact_dirs: 18
+    catalog_earned: 72.3
     catalog_earned_first_party: 24.0
-    catalog_gap: 39.8
+    catalog_gap: 42.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.0
   facets:
-    access_clarity: 50.0
+    access_clarity: 42.1
     contract_governance: 9.8
     contract_quality: 59.4
     developer_ergonomics: 23.8
@@ -404,12 +409,12 @@ score:
       total: 20
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

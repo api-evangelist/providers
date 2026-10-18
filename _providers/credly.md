@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.7
-  scored_at: '2026-10-04'
+  score: 20.8
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 1
@@ -93,6 +93,14 @@ collections:
   name: Credly Web Service API
   slug: open-credly
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://learn.credly.com/blog
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://learn.credly.com/blog/rss.xml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/credly/refs/heads/main/capabilities/credly-capability-edges.yml
   title: ''
@@ -148,19 +156,23 @@ common:
 created: '2026-07-05'
 description: Credly is a digital credential and open badge platform, owned by Pearson (acquired 2022), used by more than 2,000 organizations to issue, manage, and verify verifiable digital badges and certifications. The Credly Web Service API (base https://api.credly.com/v1, with a sandbox at https://sandbox-api.credly.com/v1) lets issuing organizations create and manage badge templates, issue and revoke badges to recipients, read organization and employee data, pull an events feed, and expose recipient credentials via Open Badges Infrastructure (OBI) endpoints. Authentication is HTTP Basic (the organization's authorization_token as the username with a blank password) or OAuth 2.0 client_credentials. Real-time notifications are delivered via outbound webhooks (HTTPS POST callbacks), not a WebSocket.
 finops:
-- name: Credly Finops
+- has_sources: true
+  method: generated
+  name: Credly Finops
+  primary_unit: ''
   service_category: Identity and Credentialing
   slug: credly-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/credly.png
 layout: provider
-modified: '2026-07-05'
+modified: '2026-10-06'
 name: Credly
 nav: Providers
 network: true
-overview: 'Credly publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Badge Templates API, Events API, Issued Badges API, and 2 more. Tagged areas include Digital Credentials, Open Badges, Badging, Certification, and Verifiable Credentials.
+overview: 'Credly publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Badge Templates API, Events API, Issued Badges API, and 2 more. Tagged areas include Digital Credentials, Open Badges, Badging, Certification, and Verifiable Credentials.
 
 
-  Credly''s developer surface includes authentication, documentation, and 9 more developer resources.'
+  Credly''s developer surface includes engineering blog, authentication, documentation, and 10 more developer resources.'
 plans:
 - name: Credly Plans Pricing
   plan_count: 2
@@ -177,22 +189,22 @@ scopes:
   summary_line: 3 scopes · clientCredentials
 score:
   band: thin
-  composite: 34.5
+  composite: 28.1
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 58.0
+    artifact_dirs: 14
+    catalog_earned: 42.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.0
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.4
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 50.8
-    developer_ergonomics: 29.8
+    developer_ergonomics: 32.1
     discoverability: 66.1
-    operational_transparency: 28.4
+    operational_transparency: 7.9
   previous_composite: 34.5
   provenance:
     agentic_access: derived
@@ -207,9 +219,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

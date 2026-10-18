@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: JSON-over-REST front end to the HIPAA X12 EDI transaction set — 270/271 eligibility, 276/277 claim status, 837P/837I claim submission and validation, 835/277 claims responses and reports, 278 prior au
@@ -43,6 +43,21 @@ apis:
   slug: change-healthcare-api
 artifact_total: 5
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/change-healthcare/refs/heads/main/plans/change-healthcare-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/change-healthcare-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/change-healthcare/refs/heads/main/rate-limits/change-healthcare-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/change-healthcare-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/change-healthcare/refs/heads/main/finops/change-healthcare-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/change-healthcare-finops.yml
 - group: company
   title: ''
   type: Website
@@ -111,16 +126,20 @@ coverage:
 created: '2026-04-19'
 description: 'Change Healthcare was one of the largest healthcare technology and clearinghouse companies in the United States, moving eligibility, claim, remittance and prior-authorization transactions between providers and payers over X12 EDI. UnitedHealth Group acquired it in October 2022 and folded it into Optum, and the brand has since been retired: www.changehealthcare.com redirects to business.optum.com, developers.changehealthcare.com redirects path-for-path to developer.optum.com, and the apis.changehealthcare.com API gateway is decommissioned and documented by Optum as "an old domain and no longer supported". The Change Healthcare Medical Network APIs — Eligibility v3, Professional Claims v3, Institutional Claims v1, Claim Status v2, Claims Responses and Reports v2, Attachments, PayerList v1 and Prior Authorization v1 — are still operated and documented, but on Optum infrastructure and under Optum hosts.'
 finops:
-- name: Change Healthcare Finops
+- has_sources: true
+  method: generated
+  name: Change Healthcare Finops
+  primary_unit: ''
   service_category: Healthcare / Data Exchange
   slug: change-healthcare-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/change-healthcare.png
 layout: provider
 modified: '2026-08-15'
 name: Change Healthcare
 nav: Providers
 network: true
-overview: 'Change Healthcare publishes 1 API on the [APIs.io](https://apis.io/) network: Medical Network API. Tagged areas include Healthcare, Technology, Analytics, EDI, and Claims.'
+overview: 'Change Healthcare is listed with 1 API on the [APIs.io](https://apis.io/) network: Medical Network API. Tagged areas include Healthcare, Technology, Analytics, EDI, and Claims.'
 plans:
 - name: Change Healthcare Plans Pricing
   plan_count: 0
@@ -132,17 +151,17 @@ rate_limits:
   slug: change-healthcare-rate-limits
 score:
   band: thin
-  composite: 29.7
+  composite: 28.1
   coverage:
     artifact_dirs: 12
-    catalog_earned: 40.0
+    catalog_earned: 37.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 42.1
+    access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 38.1
@@ -157,8 +176,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

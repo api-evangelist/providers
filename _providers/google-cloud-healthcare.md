@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 91
   human_in_the_loop: 2
@@ -76,6 +76,16 @@ collections:
   name: Cloud Healthcare projects API
   slug: open-google-cloud-healthcare-projects-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-healthcare/refs/heads/main/plans/google-cloud-healthcare-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/google-cloud-healthcare-plans-pricing.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-healthcare/refs/heads/main/finops/google-cloud-healthcare-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/google-cloud-healthcare-finops.yml
 - group: company
   title: ''
   type: Website
@@ -184,9 +194,13 @@ examples:
   name: Message Example
   slug: Message-example
 finops:
-- name: Google Cloud Healthcare Finops
+- has_sources: true
+  method: generated
+  name: Google Cloud Healthcare Finops
+  primary_unit: ''
   service_category: Healthcare Data Platform
   slug: google-cloud-healthcare-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/google-cloud-healthcare.png
 json_schemas:
 - name: ActivateConsentRequest
@@ -635,13 +649,13 @@ modified: '2026-06-13'
 name: Google Cloud Healthcare
 nav: Providers
 network: true
-overview: 'Google Cloud Healthcare publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Projects API, and 5 more. Tagged areas include Healthcare, FHIR, HL7v2, DICOM, and Medical Imaging.
+overview: 'Google Cloud Healthcare publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Projects API, and 5 more. Tagged areas include Healthcare, FHIR, HL7v2, DICOM, and Medical Imaging.
 
 
   The Google Cloud Healthcare catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Google Cloud Healthcare''s developer surface includes authentication, getting-started guide, pricing, developer console, CLI, support, release notes, and 13 more developer resources.'
+  Google Cloud Healthcare''s developer surface includes authentication, getting-started guide, pricing, developer console, CLI, support, release notes, and 15 more developer resources.'
 plans:
 - name: Google Cloud Healthcare Plans Pricing
   plan_count: 6
@@ -652,9 +666,10 @@ rate_limits:
   name: Google Cloud Healthcare Rate Limits
   slug: google-cloud-healthcare-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Google Cloud Healthcare API Rules
+  name: Google Cloud Healthcare — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -669,23 +684,23 @@ scopes:
   summary_line: 2 scopes · implicit/authorizationCode
 score:
   band: developing
-  composite: 50.4
+  composite: 42.1
   coverage:
     artifact_dirs: 18
-    catalog_earned: 64.9
+    catalog_earned: 46.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 50.1
+    catalog_gap: 68.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -3.5
+  delta: -8.3
   facets:
-    access_clarity: 46.8
+    access_clarity: 18.4
     contract_governance: 9.8
     contract_quality: 47.1
     developer_ergonomics: 53.6
     discoverability: 66.1
-    operational_transparency: 62.6
-  previous_composite: 53.9
+    operational_transparency: 42.1
+  previous_composite: 50.4
   provenance:
     agentic_access: derived
     contracts:
@@ -699,9 +714,9 @@ score:
     regime: Health
     regime_id: health
     score: 27.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 11.1

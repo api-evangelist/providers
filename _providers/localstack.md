@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 32.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -66,6 +66,10 @@ collections:
   name: REST API for Community Aws localstack API
   slug: open-localstack-localstack-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.localstack.cloud/rss.xml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/localstack/refs/heads/main/capabilities/localstack-capability-edges.yml
   title: ''
@@ -221,20 +225,20 @@ mcp_servers:
 - description: Local (stdio) MCP server; 11 tools listed.
   name: LocalStack MCP Server
   slug: io-github-localstack-localstack-mcp-server
-modified: '2026-09-16'
+modified: '2026-10-06'
 name: LocalStack
 nav: Providers
 network: true
-overview: 'LocalStack publishes 2 APIs on the [APIs.io](https://apis.io/) network, including Aws API, and 1 more. Tagged areas include Company, Developer Tools, Cloud, Emulator, and Testing.
+overview: 'LocalStack publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network, including Aws API, and 1 more. Tagged areas include Company, Developer Tools, Cloud, Emulator, and Testing.
 
 
-  LocalStack''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 25 more developer resources.'
+  LocalStack''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 26 more developer resources.'
 random_paper: 1
 score:
   band: developing
   composite: 43.6
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -265,8 +269,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

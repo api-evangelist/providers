@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 8
 apis:
 - baseURL: https://connect.modernis.com
@@ -110,6 +110,14 @@ collections:
   name: MODERN Partner Dashboards Work Orders API
   slug: open-modern-work-orders-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://modernis.com/blog/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://modernis.com/feed/
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/modern/refs/heads/main/mcp/modern-mcp.yml
   title: ''
@@ -163,31 +171,31 @@ created: '2026-07-17'
 description: Modern (modernis.com) is a two-way customer interaction platform for heavy-equipment dealerships, unifying service communications "from intake to invoice" across construction, agriculture, mining, landscaping, and material-handling sectors. It provides two-way text and email messaging, digital repair-order approvals, inspection and warranty documentation, outbound maintenance scheduling, rental tracking, parts-order status, and DMS integration. The MODERN Partner API (docs.modernis.com, base https://connect.modernis.com) lets authorized integrators read dealership dashboards, manage service work orders, post work-order events, send customer notifications, and maintain technicians and notes on a franchise's behalf using 24-hour bearer tokens exchanged from franchise credentials.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/modern.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Modern
 nav: Providers
 network: true
-overview: 'Modern publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Dashboards API, Events API, Federation API, and 5 more. Tagged areas include Company, Heavy Equipment, Dealership, Field Service, and Work Orders.
+overview: 'Modern is listed with 8 APIs on the [APIs.io](https://apis.io/) network, including Dashboards API, Events API, Federation API, and 5 more. Tagged areas include Company, Heavy Equipment, Dealership, Field Service, and Work Orders.
 
 
-  Modern''s developer surface includes documentation, API reference, authentication, and 8 more developer resources.'
+  Modern''s developer surface includes engineering blog, documentation, API reference, authentication, and 9 more developer resources.'
 random_paper: 7
 score:
   band: emerging
-  composite: 22.1
+  composite: 22.7
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 17.1
     contract_governance: 4.5
     contract_quality: 15.8
-    developer_ergonomics: 31.5
+    developer_ergonomics: 33.9
     discoverability: 78.6
     operational_transparency: 0.0
   previous_composite: 22.1
@@ -206,8 +214,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: partner
+  gated_source:
+  - tag:Partner Gated
   label: Enterprise · Requires approval
   onboarding: approval
   pricing: enterprise
@@ -33,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 6
 apis:
 - description: The newest and preferred REST API for AMS360, the flagship property and casualty agency management system. It exposes agency data as REST resources - Customers, Policies, Service Agreements, Invoices,
@@ -100,16 +103,20 @@ common:
 created: '2026-07-10'
 description: Vertafore is an insurance technology provider whose software runs a large share of the North American property and casualty distribution channel - agency management systems (AMS360 and Sagitta), the ImageRight document and content management platform, and the PL Rating personal-lines comparative rater. Vertafore exposes developer APIs across these products through the Vertafore API Developer Portal (developer.vertafore.com) and the Orange Partner Program. Access is partner-gated - it requires a Vertafore Single Sign-On (VSSO) account, a licensed Vertafore Developer Portal contract, and per-API scopes that the agency has contracted for, with applications promoted from a Sandbox to Live only after Vertafore approval. Because the reference documentation and OpenAPI live behind that login, the endpoints listed here are honestly modeled from public help content and product pages rather than pulled from an open specification.
 finops:
-- name: Vertafore Finops
+- has_sources: true
+  method: generated
+  name: Vertafore Finops
+  primary_unit: ''
   service_category: Insurance Software and Agency Management
   slug: vertafore-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vertafore.png
 layout: provider
 modified: '2026-07-10'
 name: Vertafore
 nav: Providers
 network: true
-overview: 'Vertafore publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Insurtech, Agency Management, Property and Casualty, and AMS360.
+overview: 'Vertafore is listed with 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Insurtech, Agency Management, Property and Casualty, and AMS360.
 
 
   Vertafore''s developer surface includes documentation, engineering blog, and 6 more developer resources.'
@@ -119,18 +126,18 @@ plans:
   slug: vertafore-plans-pricing
 random_paper: 6
 score:
-  band: emerging
-  composite: 16.5
+  band: minimal
+  composite: 10.8
   coverage:
-    artifact_dirs: 6
-    catalog_earned: 53.8
+    artifact_dirs: 7
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 61.2
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.7
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 19.0
@@ -143,9 +150,9 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 5.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -166,6 +173,5 @@ tags:
 - Sagitta
 - ImageRight
 - Comparative Rating
-- Partner Gated
 website: https://www.vertafore.com
 ---

@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 41.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 4
 apis:
 - description: The documented SNYPR / Unified Defense SIEM web-service surface reached at /ws on the tenant host — token generation and validation, incident management and actions, activity, asset, geolocation, list
@@ -467,7 +467,7 @@ modified: '2026-08-26'
 name: Securonix
 nav: Providers
 network: true
-overview: 'Securonix publishes 52 APIs on the [APIs.io](https://apis.io/) network, including Adversaries API, Assets API, Attachments (Files) API, and 49 more. Tagged areas include Security, SIEM, UEBA, SOAR, and Threat Intelligence.
+overview: 'Securonix publishes 52 API contracts indexed on the [APIs.io](https://apis.io/) network, including Adversaries API, Assets API, Attachments (Files) API, and 49 more. Tagged areas include Security, SIEM, UEBA, SOAR, and Threat Intelligence.
 
 
   Securonix''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 26 more developer resources.'
@@ -484,7 +484,7 @@ score:
   band: thin
   composite: 35.2
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -514,8 +514,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

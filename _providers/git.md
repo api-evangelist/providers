@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: verified
     openapi_examples: false
     protected_resource_metadata: verified
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 38.5
-  scored_at: '2026-10-04'
+  score: 36.6
+  scored_at: '2026-10-17'
 api_count: 4
 apis:
 - description: Git command-line interface for version control operations.
@@ -50,6 +50,21 @@ apis:
   slug: gitea
 artifact_total: 11
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/git/refs/heads/main/plans/git-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/git-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/git/refs/heads/main/rate-limits/git-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/git-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/git/refs/heads/main/finops/git-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/git-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/git/refs/heads/main/security/git-domain-security.yml
   title: ''
@@ -96,9 +111,13 @@ common:
 created: '2024-01-01'
 description: Git is a distributed version control system for tracking changes in source code during software development. It is designed for coordinating work among programmers, but it can be used to track changes in any set of files.
 finops:
-- name: Git Finops
+- has_sources: false
+  method: generated
+  name: Git Finops
+  primary_unit: ''
   service_category: API
   slug: git-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/git.png
 layout: provider
 mcp_servers:
@@ -109,10 +128,10 @@ modified: '2026-06-20'
 name: Git
 nav: Providers
 network: true
-overview: 'Git publishes 4 APIs on the [APIs.io](https://apis.io/) network, including GitHub API, GitLab API, Gitea API, and 1 more. Tagged areas include Distributed, Git, Open Source, Source Code Management, and Version Control.
+overview: 'Git is listed with 4 APIs on the [APIs.io](https://apis.io/) network, including GitHub API, GitLab API, Gitea API, and 1 more. Tagged areas include Distributed, Git, Open Source, and Version Control.
 
 
-  Git''s developer surface includes documentation and 8 more developer resources.'
+  Git''s developer surface includes documentation and 11 more developer resources.'
 plans:
 - name: Git Plans Pricing
   plan_count: 3
@@ -124,21 +143,21 @@ rate_limits:
   slug: git-rate-limits
 score:
   band: thin
-  composite: 28.6
+  composite: 26.3
   coverage:
     artifact_dirs: 11
-    catalog_earned: 44.0
+    catalog_earned: 36.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 71.0
+    catalog_gap: 79.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.3
   facets:
-    access_clarity: 23.7
+    access_clarity: 15.8
     contract_governance: 18.2
     contract_quality: 24.0
     developer_ergonomics: 28.6
-    discoverability: 71.7
+    discoverability: 63.3
     operational_transparency: 7.9
   previous_composite: 28.6
   provenance:
@@ -150,8 +169,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -176,7 +195,6 @@ tags:
 - Distributed
 - Git
 - Open Source
-- Source Code Management
 - Version Control
 website: https://git-scm.com/
 ---

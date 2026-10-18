@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 0
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.nicklpass.com/blog
 - group: company
   title: ''
   type: Website
@@ -60,31 +64,31 @@ created: '2026-07-17'
 description: NICKL (Nicklpass) is a subscription management platform that bills itself as "the operating system for subscriptions." It helps organizations govern the digital tools, SaaS subscriptions, and data services their teams use by connecting identity, usage, and procurement data in one place. Capabilities include role-based governance and provisioning, usage intelligence to surface adoption and redundant spend, and coordinated procurement that aggregates demand to negotiate from real usage data. The platform integrates with Google Workspace, Microsoft 365, and Plaid, and applies AI models for insights and pricing optimization. NICKL participated in the Comcast NBCUniversal LIFT Labs Accelerator powered by Techstars. As of this enrichment pass the company publishes a marketing site and hosted control panel but no public API, developer portal, OpenAPI, SDK, or other machine-readable API surface.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nickl.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: NICKL
 nav: Providers
 network: true
 overview: 'NICKL is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Subscription Management, SaaS Management, Procurement, and Usage Intelligence.
 
 
-  NICKL''s developer surface includes signup flow, support, and 3 more developer resources.'
+  NICKL''s developer surface includes engineering blog, signup flow, support, and 3 more developer resources.'
 random_paper: 1
 score:
   band: minimal
-  composite: 8.8
+  composite: 9.4
   coverage:
-    artifact_dirs: 2
+    artifact_dirs: 3
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 4.8
+    developer_ergonomics: 7.1
     discoverability: 48.2
     operational_transparency: 0.0
   needs_work:
@@ -100,8 +104,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 7.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

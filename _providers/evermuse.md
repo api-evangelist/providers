@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 52.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -42,14 +42,14 @@ agentic_access:
   operation_count: 3
   slug: evermuse-agentic-access
   summary_line: 3 operations · 1 acting
-api_count: 1
+api_count: 2
 apis:
 - baseURL: https://api.evermuse.com
   baseurl_source: declared
   description: Send data to Evermuse
   name: Evermuse Ingestion API
   slug: evermuse-ingestion-api
-artifact_total: 10
+artifact_total: 11
 collections:
 - collection_type: open
   name: API Collection
@@ -58,6 +58,11 @@ collections:
   name: Evermuse ingestion API
   slug: open-evermuse-ingestion-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/evermuse/refs/heads/main/plans/evermuse-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/evermuse-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/evermuse/refs/heads/main/overlays/evermuse-ingest-v1-overlay.yaml
   title: ''
@@ -201,10 +206,14 @@ modified: '2026-07-19'
 name: Evermuse
 nav: Providers
 network: true
-overview: 'Evermuse publishes 1 API on the [APIs.io](https://apis.io/) network: Ingestion API. Tagged areas include Company, Product Management, Customer Feedback, Voice of Customer, and Artificial Intelligence.
+overview: 'Evermuse publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Ingestion API. Tagged areas include Company, Product Management, Customer Feedback, Voice of Customer, and Artificial Intelligence.
 
 
-  Evermuse''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 22 more developer resources.'
+  Evermuse''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 23 more developer resources.'
+plans:
+- name: Evermuse Plans Pricing
+  plan_count: 4
+  slug: evermuse-plans-pricing
 random_paper: 18
 scopes:
 - name: Evermuse Scopes
@@ -212,18 +221,18 @@ scopes:
   slug: evermuse-scopes
   summary_line: 3 scopes · authorizationCode
 score:
-  band: developing
-  composite: 52.5
+  band: strong
+  composite: 58.9
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 22
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.4
   facets:
-    access_clarity: 47.4
+    access_clarity: 78.9
     contract_governance: 18.2
     contract_quality: 51.6
     developer_ergonomics: 58.9
@@ -250,9 +259,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 41.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

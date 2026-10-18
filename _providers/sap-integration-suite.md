@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.7
-  scored_at: '2026-10-04'
+  score: 20.8
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -202,6 +202,21 @@ collections:
   name: SAP API Management API Products Variables API
   slug: open-sap-integration-suite-variables-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sap-integration-suite/refs/heads/main/plans/sap-integration-suite-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/sap-integration-suite-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/sap-integration-suite/refs/heads/main/rate-limits/sap-integration-suite-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/sap-integration-suite-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sap-integration-suite/refs/heads/main/finops/sap-integration-suite-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/sap-integration-suite-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/sap-integration-suite/refs/heads/main/capabilities/sap-integration-suite-capability-edges.yml
   title: ''
@@ -380,9 +395,13 @@ examples:
   name: Sap Integration Suite List Message Processing Logs Example
   slug: sap-integration-suite-list-message-processing-logs-example
 finops:
-- name: Sap Integration Suite Finops
+- has_sources: true
+  method: generated
+  name: Sap Integration Suite Finops
+  primary_unit: ''
   service_category: Integration Platform
   slug: sap-integration-suite-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sap-integration-suite.png
 json_schemas:
 - name: APIProduct
@@ -447,13 +466,13 @@ modified: '2026-08-21'
 name: SAP Integration Suite
 nav: Providers
 network: true
-overview: 'SAP Integration Suite publishes 16 APIs on the [APIs.io](https://apis.io/) network, including API Products API, API Proxies API, Applications API, and 13 more. Tagged areas include API Management, Cloud Integration, Enterprise Integration, Event Mesh, and iPaaS.
+overview: 'SAP Integration Suite publishes 16 API contracts indexed on the [APIs.io](https://apis.io/) network, including API Products API, API Proxies API, Applications API, and 13 more. Tagged areas include API Management, Cloud Integration, Enterprise Integration, Event Mesh, and iPaaS.
 
 
   The SAP Integration Suite catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  SAP Integration Suite''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, support, YouTube channel, and 30 more developer resources.'
+  SAP Integration Suite''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, support, YouTube channel, and 33 more developer resources.'
 plans:
 - name: Sap Integration Suite Plans Pricing
   plan_count: 1
@@ -464,9 +483,10 @@ rate_limits:
   name: Sap Integration Suite Rate Limits
   slug: sap-integration-suite-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: SAP Integration Suite API Rules
+  name: SAP Integration Suite — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -474,7 +494,8 @@ rules:
     info: 2
     warn: 3
   slug: sap-integration-suite-jsonschema-spectral-rules
-- effective_rule_count: 52
+- authorship: unmarked
+  effective_rule_count: 52
   extends:
   - spectral:oas
   name: SAP Integration Suite API Rules
@@ -492,17 +513,17 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 48.1
+  composite: 46.6
   coverage:
     artifact_dirs: 21
-    catalog_earned: 70.0
+    catalog_earned: 67.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 45.0
+    catalog_gap: 48.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 44.7
+    access_clarity: 36.8
     contract_governance: 27.3
     contract_quality: 57.5
     developer_ergonomics: 44.0
@@ -522,8 +543,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

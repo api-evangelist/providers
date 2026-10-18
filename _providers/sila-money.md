@@ -28,20 +28,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.5
-  scored_at: '2026-10-04'
+  score: 19.6
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 19
+- acting_count: 13
   human_in_the_loop: 0
   name: Sila Money Agentic Access
   operation_count: 19
   slug: sila-money-agentic-access
-  summary_line: 19 operations · 19 acting
+  summary_line: 19 operations · 13 acting
 api_count: 1
 apis:
 - description: Sila's Virtual Accounts product issues each user a dedicated account and routing number, giving a program a real bank-account surface for receiving and settling funds. Virtual accounts appear as a pay
@@ -96,6 +96,14 @@ collections:
   name: Sila Money API
   slug: open-sila-money
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.silamoney.com/blog
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.silamoney.com/ach/rss.xml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/sila-money/refs/heads/main/capabilities/sila-money-capability-edges.yml
   title: ''
@@ -150,19 +158,23 @@ common:
 created: '2026-07-12'
 description: Sila is an embedded-finance / banking-as-a-service platform that exposes a money API for fintech developers. A single REST API covers identity verification (KYC/KYB), digital wallets, linked bank accounts, virtual accounts, debit-card payment methods, and money movement over the ACH network via an issue / transfer / redeem model. Every request is signed client-side with ECDSA (secp256k1) signatures over a Keccak-256 hash of the JSON message body, sent in "authsignature" and "usersignature" (and "businesssignature" for KYB) headers. As of the review date (2026-07-12) the sandbox and production hosts, the ReadMe-hosted docs, and multiple SDKs are live and actively maintained.
 finops:
-- name: Sila Money Finops
+- has_sources: true
+  method: generated
+  name: Sila Money Finops
+  primary_unit: ''
   service_category: Embedded Finance and Payments
   slug: sila-money-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sila-money.png
 layout: provider
-modified: '2026-07-12'
+modified: '2026-10-06'
 name: Sila
 nav: Providers
 network: true
-overview: 'Sila publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Identity API, Payment Methods API, and 3 more. Tagged areas include Embedded Finance, Banking as a Service, Payments, Digital Wallet, and ACH.
+overview: 'Sila publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, Identity API, Payment Methods API, and 3 more. Tagged areas include Embedded Finance, Banking as a Service, Payments, Digital Wallet, and ACH.
 
 
-  Sila''s developer surface includes authentication, documentation, and 9 more developer resources.'
+  Sila''s developer surface includes engineering blog, authentication, documentation, and 10 more developer resources.'
 plans:
 - name: Sila Money Plans Pricing
   plan_count: 2
@@ -173,23 +185,23 @@ rate_limits:
   name: Sila Money Rate Limits
   slug: sila-money-rate-limits
 score:
-  band: thin
-  composite: 30.8
+  band: emerging
+  composite: 24.3
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 58.0
+    artifact_dirs: 13
+    catalog_earned: 42.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.0
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.5
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 50.2
-    developer_ergonomics: 21.4
+    developer_ergonomics: 23.8
     discoverability: 66.1
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   previous_composite: 30.8
   provenance:
     agentic_access: derived
@@ -204,9 +216,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 10.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

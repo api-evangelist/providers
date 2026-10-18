@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The Tulip REST API gives programmatic access to the Tulip manufacturing operations platform, organized into namespaces covering apps, tables, table records, connectors, stations, and automations. Each
@@ -99,7 +99,7 @@ modified: '2026-06-05'
 name: Tulip Interfaces
 nav: Providers
 network: true
-overview: 'Tulip Interfaces publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Manufacturing, MES, Industrial IoT, Shop Floor, and Low-Code.
+overview: 'Tulip Interfaces is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Manufacturing, MES, Industrial IoT, Shop Floor, and Low-Code.
 
 
   The Tulip Interfaces catalog on APIs.io includes 1 JSON-LD context.
@@ -111,7 +111,7 @@ score:
   band: emerging
   composite: 16.2
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 45.0
     catalog_earned_first_party: 0.0
     catalog_gap: 70.0
@@ -132,8 +132,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

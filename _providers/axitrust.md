@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.axitrust.com/blog-feed.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/axitrust/refs/heads/main/security/axitrust-domain-security.yml
   title: ''
@@ -78,14 +82,14 @@ created: '2026-07-17'
 description: axiTrust is a technology and consulting platform for the Indian surety-bond market, connecting IRDAI-licensed insurers, MSMEs, and government procurement bodies. Its platform unifies application processing, underwriting checks, and insurance surety bond issuance, with dashboards for tracking bonds, partners, and claims, plus integrations to financial, legal, banking, and ROC data sources. axiTrust also offers consulting services including discovery workshops, economic analysis comparing sureties to bank guarantees, and adoption support for enterprises and government departments. It is not an insurer or broker; all insurance surety bonds are issued by IRDAI-licensed insurance companies. axiTrust is a fintech backed by General Catalyst.
 image: https://static.wixstatic.com/media/01c8f6_2fc6a0be1f9d4705811a2c9fda00ebc1~mv2.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: axiTrust
 nav: Providers
 network: true
 overview: 'axiTrust is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Insurance, Insurtech, and Surety Bonds.
 
 
-  axiTrust''s developer surface includes engineering blog, support, and 7 more developer resources.'
+  axiTrust''s developer surface includes engineering blog, support, and 8 more developer resources.'
 random_paper: 20
 score:
   band: minimal
@@ -119,8 +123,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 12.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

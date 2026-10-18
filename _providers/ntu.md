@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-04'
+  score: 20.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -89,6 +89,10 @@ collections:
   name: DR-NTU (Data) Dataverse Discover Search API
   slug: open-ntu-search-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.ntu.edu.sg/admissions/graduate/coursework/articles
 - group: company
   title: ''
   type: Website
@@ -246,9 +250,13 @@ examples:
   name: Ntu Search Example
   slug: ntu-search-example
 finops:
-- name: Ntu Finops
+- has_sources: true
+  method: generated
+  name: Ntu Finops
+  primary_unit: ''
   service_category: Education
   slug: ntu-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ntu.png
 json_schemas:
 - name: DR-NTU (Data) Dataset Search Item
@@ -270,17 +278,17 @@ jsonld:
   property_count: 12
   slug: ntu-context
 layout: provider
-modified: '2026-08-19'
+modified: '2026-10-06'
 name: Nanyang Technological University
 nav: Providers
 network: true
-overview: 'Nanyang Technological University publishes 8 APIs on the [APIs.io](https://apis.io/) network, including DR-NTU (Data) — Dataverse API, Discover API, Items API, and 5 more. Tagged areas include University, Higher Education, Education, Singapore, and Public Research University.
+overview: 'Nanyang Technological University publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including DR-NTU (Data) — Dataverse API, Discover API, Items API, and 5 more. Tagged areas include University, Higher Education, Education, Singapore, and Public Research University.
 
 
   The Nanyang Technological University catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Nanyang Technological University''s developer surface includes documentation, support, engineering blog, and 24 more developer resources.'
+  Nanyang Technological University''s developer surface includes engineering blog, documentation, support, and 25 more developer resources.'
 plans:
 - name: Ntu Plans Pricing
   plan_count: 2
@@ -291,9 +299,10 @@ rate_limits:
   name: Ntu Rate Limits
   slug: ntu-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Nanyang Technological University API Rules
+  name: Nanyang Technological University — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -301,7 +310,8 @@ rules:
     info: 2
     warn: 3
   slug: ntu-jsonschema-spectral-rules
-- effective_rule_count: 7
+- authorship: generated
+  effective_rule_count: 7
   extends: []
   name: Nanyang Technological University API Rules
   rule_count: 7
@@ -318,22 +328,22 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 38.7
+  composite: 32.6
   coverage:
     artifact_dirs: 21
-    catalog_earned: 71.7
+    catalog_earned: 58.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 43.3
+    catalog_gap: 56.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.1
   facets:
-    access_clarity: 47.9
+    access_clarity: 26.3
     contract_governance: 9.8
     contract_quality: 52.7
     developer_ergonomics: 16.7
     discoverability: 71.4
-    operational_transparency: 21.6
+    operational_transparency: 7.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -356,9 +366,9 @@ score:
     regime: Education & Research
     regime_id: education
     score: 28.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

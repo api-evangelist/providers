@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'ARRIS Group publishes no API. The entry is retained to record the measurement: probed 2026-09-07, no OpenAPI, Swagger, AsyncAPI, GraphQL SDL, MCP endpoint, agent card or Postman collection was found o'
@@ -41,6 +41,21 @@ apis:
   slug: commscope-api
 artifact_total: 14
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/arris-group/refs/heads/main/plans/arris-group-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/arris-group-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/arris-group/refs/heads/main/rate-limits/arris-group-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/arris-group-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/arris-group/refs/heads/main/finops/arris-group-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/arris-group-finops.yml
 - group: company
   title: ''
   type: Website
@@ -107,9 +122,13 @@ features:
 - description: Converged Cable Access Platform technology converging CMTS and video-on-demand processing into a single platform.
   name: CCAP Architecture
 finops:
-- name: Arris Group Finops
+- has_sources: false
+  method: generated
+  name: Arris Group Finops
+  primary_unit: ''
   service_category: API
   slug: arris-group-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/arris-group.png
 integrations:
 - description: ARRIS equipment integrates with CableLabs DOCSIS standards for interoperability across cable plant vendors and operators.
@@ -121,10 +140,10 @@ modified: '2026-09-07'
 name: ARRIS Group
 nav: Providers
 network: true
-overview: 'ARRIS Group publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Telecommunications, Broadband, Cable, Video, and Networking.
+overview: 'ARRIS Group is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Telecommunications, Broadband, Cable, Video, and Networking.
 
 
-  ARRIS Group''s developer surface includes engineering blog, developer portal, documentation, support, and 5 more developer resources.'
+  ARRIS Group''s developer surface includes engineering blog, developer portal, documentation, support, and 8 more developer resources.'
 plans:
 - name: Arris Group Plans Pricing
   plan_count: 0
@@ -151,18 +170,18 @@ rate_limits:
   name: Arris Group Rate Limits
   slug: arris-group-rate-limits
 score:
-  band: emerging
-  composite: 11.3
+  band: minimal
+  composite: 9.7
   coverage:
     artifact_dirs: 12
-    catalog_earned: 35.0
+    catalog_earned: 32.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 80.0
+    catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 7.9
+    access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 26.2
@@ -175,8 +194,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 5.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

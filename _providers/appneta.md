@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 28.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: RESTful API for AppNeta Performance Manager, covering monitoring policies and policy groups, web paths, web applications (locations, targets, user flows), monitoring points, alarm connectors (v4), and
@@ -50,6 +50,10 @@ asyncapis:
   name: Appneta Event Integration Webhooks
   slug: appneta-event-integration-webhooks
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.broadcom.com/company/news
 - group: other
   title: ''
   type: ParentCompany
@@ -170,17 +174,17 @@ created: '2026-07-17'
 description: AppNeta is a network performance monitoring (NPM) platform for the distributed, cloud-connected enterprise, now delivered as a Broadcom product under its IT Operations Management / Network Management portfolio. AppNeta Performance Manager continuously measures network paths, delivery quality, usage, and end-user application experience across SaaS, cloud, and internet paths using a combination of active (synthetic) and passive monitoring from distributed monitoring points. It exposes a RESTful API (v3 for AppNeta Classic and v4 for AppNeta with Intelligent Alarms) for programmatic access to monitoring policies, web paths, web applications, alarm connectors, and event/observer integrations, authenticated with API access tokens. As of February 2026 the API interface and documentation were upgraded from Swagger to OpenAPI 3.0. AppNeta was originally an independent, Battery Ventures-backed company before joining Broadcom.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/appneta.png
 layout: provider
-modified: '2026-09-16'
+modified: '2026-10-06'
 name: AppNeta
 nav: Providers
 network: true
-overview: 'AppNeta publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Network Monitoring, Network Performance Monitoring, Observability, and Application Performance Monitoring.
+overview: 'AppNeta is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Network Monitoring, Network Performance Monitoring, Observability, and Application Performance Monitoring.
 
 
   The AppNeta catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  AppNeta''s developer surface includes documentation, API reference, authentication, support, getting-started guide, changelog, and 20 more developer resources.'
+  AppNeta''s developer surface includes engineering blog, documentation, API reference, authentication, support, getting-started guide, changelog, and 20 more developer resources.'
 plans:
 - name: Appneta Plans Pricing
   plan_count: 0
@@ -192,20 +196,20 @@ rate_limits:
   slug: appneta-rate-limits
 score:
   band: developing
-  composite: 41.7
+  composite: 42.3
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 39.0
-    developer_ergonomics: 54.8
+    developer_ergonomics: 57.1
     discoverability: 66.1
     operational_transparency: 73.7
   previous_composite: 41.7
@@ -215,8 +219,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

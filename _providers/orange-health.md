@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://partner-api.orangehealth.in
@@ -158,7 +158,7 @@ modified: '2026-07-20'
 name: Orange Health
 nav: Providers
 network: true
-overview: 'Orange Health publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Orders API, Results API, Serviceability API, and 1 more. Tagged areas include Company, Mobile, Healthcare, Diagnostics, and Lab Testing.
+overview: 'Orange Health publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Orders API, Results API, Serviceability API, and 1 more. Tagged areas include Company, Mobile, Healthcare, Diagnostics, and Lab Testing.
 
 
   The Orange Health catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -207,8 +207,8 @@ score:
     regime: Health
     regime_id: health
     score: 18.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

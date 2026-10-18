@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.6
-  scored_at: '2026-10-04'
+  score: 28.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -156,9 +156,13 @@ examples:
   name: Post Tokens
   slug: post-tokens
 finops:
-- name: Airport Gap Finops
+- has_sources: true
+  method: generated
+  name: Airport Gap Finops
+  primary_unit: ''
   service_category: Developer Tools
   slug: airport-gap-finops
+  template: false
 image: https://airportgap.com/favicon.ico
 json_schemas:
 - name: Airport
@@ -180,7 +184,7 @@ modified: '2026-06-13'
 name: Airport Gap
 nav: Providers
 network: true
-overview: 'Airport Gap publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Airports API, Distance API, Favorites API, and 1 more. Tagged areas include Airports, Aviation, Transportation, IATA, and ICAO.
+overview: 'Airport Gap publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Airports API, Distance API, Favorites API, and 1 more. Tagged areas include Airports, Aviation, Transportation, IATA, and ICAO.
 
 
   The Airport Gap catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -197,9 +201,10 @@ rate_limits:
   name: Airport Gap Rate Limits
   slug: airport-gap-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Airport Gap API Rules
+  name: Airport Gap — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -209,22 +214,22 @@ rules:
   slug: airport-gap-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 38.9
+  composite: 32.9
   coverage:
-    artifact_dirs: 15
-    catalog_earned: 65.7
+    artifact_dirs: 16
+    catalog_earned: 52.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 49.3
+    catalog_gap: 62.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.0
   facets:
-    access_clarity: 40.0
+    access_clarity: 18.4
     contract_governance: 9.8
     contract_quality: 62.1
     developer_ergonomics: 21.4
     discoverability: 73.2
-    operational_transparency: 24.2
+    operational_transparency: 10.5
   previous_composite: 38.9
   provenance:
     agentic_access: derived
@@ -239,9 +244,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

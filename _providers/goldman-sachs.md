@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 9
 apis:
 - description: Part of the Marquee developer platform, the Content Services API lets institutional clients programmatically consume client-focused Goldman Sachs content and commentary across equity, fixed income, cu
@@ -164,16 +164,20 @@ common:
 created: '2024-03-13'
 description: Goldman Sachs is a leading global money-center investment bank and financial services firm. Its public developer surface is institutional and professional-client oriented, spanning the Marquee digital platform (content, pricing and risk, hedging, indices, portfolio, and market-data services plus the open-source GS Quant Python toolkit), the Transaction Banking (TxB) embedded-banking APIs for virtual accounts, payments and reporting across Fedwire/ACH/SWIFT rails, and the RIA Custody (GS Custody Solutions) REST APIs for advisor firms. Access is gated to institutional clients and approved partners; there is no self-serve consumer open-finance API.
 finops:
-- name: Goldman Sachs Finops
+- has_sources: true
+  method: generated
+  name: Goldman Sachs Finops
+  primary_unit: ''
   service_category: Banking / Capital Markets
   slug: goldman-sachs-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/goldman-sachs.png
 layout: provider
 modified: '2026-07-23'
 name: Goldman Sachs
 nav: Providers
 network: true
-overview: 'Goldman Sachs publishes 9 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Banking, Finance, Investment Banking, Money Center, and Institutional.
+overview: 'Goldman Sachs is listed with 9 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Banking, Finance, Investment Banking, Money Center, and Institutional.
 
 
   The Goldman Sachs catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -191,17 +195,17 @@ rate_limits:
   slug: goldman-sachs-rate-limits
 score:
   band: thin
-  composite: 35.6
+  composite: 34.1
   coverage:
-    artifact_dirs: 14
-    catalog_earned: 42.0
+    artifact_dirs: 15
+    catalog_earned: 39.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 73.0
+    catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 30.3
+    access_clarity: 22.4
     contract_governance: 4.5
     contract_quality: 39.0
     developer_ergonomics: 40.5
@@ -223,8 +227,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 21.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

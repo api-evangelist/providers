@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://wing.com/news
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/wing-alphabet/refs/heads/main/security/wing-alphabet-vulnerability-disclosure.yml
   title: ''
@@ -123,14 +127,14 @@ description: Wing is Alphabet's drone delivery subsidiary, spun out of Google X 
   a consumer drone airspace authorization app and partner API. Wing also co-founded the InterUSS Platform open-source UTM project, now hosted by the Linux Foundation. Wing's revenue comes from per-delivery fees charged to merchant partners and from drone-as-a-service operations rather than from public developer APIs; the Delivery Platform API and OpenSky API are not openly published and there is no public OpenAPI, SDK, or developer portal at the time of profiling.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wing-alphabet.png
 layout: provider
-modified: '2026-05-25'
+modified: '2026-10-06'
 name: Wing
 nav: Providers
 network: true
 overview: 'Wing is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Drones, Drone Delivery, Unmanned Aircraft, UAS, and UTM.
 
 
-  Wing''s developer surface includes engineering blog, product news, GitHub presence, YouTube channel, and 16 more developer resources.'
+  Wing''s developer surface includes engineering blog, product news, GitHub presence, YouTube channel, and 17 more developer resources.'
 random_paper: 17
 score:
   band: minimal
@@ -157,8 +161,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

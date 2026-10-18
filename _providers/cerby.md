@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: The public Cerby REST API. Programmatic access to accounts, secrets, collections, users, teams, integrations, jobs, and vaults in a Cerby workspace. Requests are authenticated with a scoped API key se
@@ -53,6 +53,14 @@ asyncapis:
   name: Cerby Webhooks
   slug: cerby-webhooks
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.cerby.com/blog
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.cerby.com/blog/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/cerby/refs/heads/main/security/cerby-domain-security.yml
   title: ''
@@ -181,17 +189,17 @@ created: '2026-08-09'
 description: Cerby is an identity, access, and password management platform for nonfederated and disconnected applications — the enterprise software that does not support SAML, SCIM, or an integration API of its own. Cerby extends existing IAM, IGA, and PAM systems to those applications through browser and robotic automation, adding provisioning and deprovisioning, credential rotation, MFA enrollment, and access governance where no standards-based integration exists. Cerby publishes a public RESTful API (JSON:API-style envelope, X-API-Key authentication, scoped API keys) over eight resources — accounts, secrets, collections, users, teams, integrations, jobs, and vaults — plus a signed webhook notification service, a cross-platform CLI, and SCIM 2.0 endpoints for provisioning from Okta, Entra ID, and OneLogin.
 image: https://www.cerby.com/hubfs/Logos/Cerby%20Favicon%20-%20Alternate.png
 layout: provider
-modified: '2026-09-16'
+modified: '2026-10-06'
 name: Cerby
 nav: Providers
 network: true
-overview: 'Cerby publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Identity, Access Management, Security, Password Management, and Provisioning.
+overview: 'Cerby is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Identity, Identity and Access Management, Security, Password Management, and Provisioning.
 
 
   The Cerby catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Cerby''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, pricing, and 20 more developer resources.'
+  Cerby''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, signup flow, pricing, and 22 more developer resources.'
 random_paper: 5
 scopes:
 - name: Cerby Scopes
@@ -200,15 +208,15 @@ scopes:
   summary_line: 17 scopes
 score:
   band: developing
-  composite: 47.0
+  composite: 47.1
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 31.6
     contract_governance: 18.2
@@ -225,8 +233,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 37.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -253,7 +261,7 @@ security:
 slug: cerby
 tags:
 - Identity
-- Access Management
+- Identity and Access Management
 - Security
 - Password Management
 - Provisioning

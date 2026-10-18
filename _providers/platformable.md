@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Platformable's API governance training resources and tools help your organisation to build a comprehensive, automated, high quality API governance system. Platformable also publishes industry trends r
@@ -41,6 +41,21 @@ apis:
   slug: platformable
 artifact_total: 5
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/platformable/refs/heads/main/plans/platformable-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/platformable-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/platformable/refs/heads/main/rate-limits/platformable-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/platformable-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/platformable/refs/heads/main/finops/platformable-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/platformable-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/platformable/refs/heads/main/security/platformable-domain-security.yml
   title: ''
@@ -114,19 +129,23 @@ common:
 created: '2025-01-08'
 description: Platformable provides API governance, open ecosystem intelligence, and consultancy services. Their training resources, dashboards, and tools help organizations build comprehensive, automated, high quality API governance systems and participate in open digital ecosystems including open banking, digital health, and traceability.
 finops:
-- name: Platformable Finops
+- has_sources: false
+  method: generated
+  name: Platformable Finops
+  primary_unit: ''
   service_category: API
   slug: platformable-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/platformable.png
 layout: provider
 modified: '2026-04-28'
 name: Platformable
 nav: Providers
 network: true
-overview: 'Platformable publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include API Governance, Consultancy, Digital Health, Ecosystem, and Open Banking.
+overview: 'Platformable is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include API Governance, Consultancy, Digital Health, Ecosystem, and Open Banking.
 
 
-  Platformable''s developer surface includes engineering blog, training material, and 15 more developer resources.'
+  Platformable''s developer surface includes engineering blog, training material, and 18 more developer resources.'
 plans:
 - name: Platformable Plans Pricing
   plan_count: 3
@@ -138,17 +157,17 @@ rate_limits:
   slug: platformable-rate-limits
 score:
   band: minimal
-  composite: 10.2
+  composite: 8.7
   coverage:
-    artifact_dirs: 8
-    catalog_earned: 41.0
+    artifact_dirs: 9
+    catalog_earned: 38.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
@@ -161,8 +180,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 4.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

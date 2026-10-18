@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -305,6 +305,10 @@ collections:
   name: VTS Lease Account Admin Users API
   slug: open-vts-users-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.vts.com/feed
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/vts/refs/heads/main/capabilities/vts-capability-edges.yml
   title: ''
@@ -448,14 +452,14 @@ created: '2026-07-17'
 description: VTS (View The Space) is the commercial real estate leasing, asset management, and tenant-experience platform used by landlords, property managers, and brokers to run their leasing pipeline and operate their buildings. The VTS Lease REST API exposes portfolio data — assets, spaces, leases, deals, deal terms, lease terms, financials, budgets, tenants, buildings, and listings — plus a Leasing Availability API for publishing real-time building/listing availability, and VTS Activate (OIDC/SAML SSO and bulk data export) for the tenant-experience product. Authentication is HTTP Basic (API Key + Secret) for the Lease API and OAuth 2.0 Authorization Code with PKCE / OpenID Connect for Activate. The developer portal, reference, sandbox, and changelog are public at readme.vts.com.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vts.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: VTS
 nav: Providers
 network: true
-overview: 'VTS publishes 32 APIs on the [APIs.io](https://apis.io/) network, including Account Admin API, Appraisals API, Approvals API, and 29 more. Tagged areas include Company, Commercial Real Estate, PropTech, Real Estate, and Leasing.
+overview: 'VTS publishes 32 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account Admin API, Appraisals API, Approvals API, and 29 more. Tagged areas include Company, Commercial Real Estate, PropTech, Real Estate, and Leasing.
 
 
-  VTS''s developer surface includes documentation, API reference, getting-started guide, changelog, support, signup flow, authentication, and 23 more developer resources.'
+  VTS''s developer surface includes documentation, API reference, getting-started guide, changelog, support, signup flow, authentication, and 24 more developer resources.'
 random_paper: 19
 scopes:
 - name: Vts Scopes
@@ -466,7 +470,7 @@ score:
   band: developing
   composite: 41.9
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -497,8 +501,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -523,5 +527,7 @@ tags:
 - Asset Management
 - Property Management
 - Tenant Experience
+- Vertical Software
+- Software-as-a-Service
 website: https://www.vts.com
 ---

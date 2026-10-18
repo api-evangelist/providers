@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - baseURL: https://api.shopgo.me/v1/management
@@ -181,7 +181,7 @@ modified: '2026-07-21'
 name: ShopGo
 nav: Providers
 network: true
-overview: 'ShopGo publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Orders API, Store API, and 2 more. Tagged areas include Company, E-Commerce, Online Store, Payments, and Shipping.
+overview: 'ShopGo publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authentication API, Orders API, Store API, and 2 more. Tagged areas include Company, E-Commerce, Online Store, Payments, and Shipping.
 
 
   The ShopGo catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -193,7 +193,7 @@ score:
   band: thin
   composite: 29.5
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -211,6 +211,7 @@ score:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
+    - mena
     - middle-east
   previous_composite: 29.5
   provenance:
@@ -228,8 +229,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 15.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

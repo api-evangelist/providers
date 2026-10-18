@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 44.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - baseURL: https://api.cdr.bendigobank.com.au/cds-au/v1/banking/products
@@ -320,7 +320,7 @@ modified: '2026-07-21'
 name: Bendigo and Adelaide Bank
 nav: Providers
 network: true
-overview: 'Bendigo and Adelaide Bank publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Attachments API, Banking Account Balances API, and 11 more. Tagged areas include Finance, Banks, Open Banking, CDR, and Consumer Data Right.
+overview: 'Bendigo and Adelaide Bank publishes 14 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, Attachments API, Banking Account Balances API, and 11 more. Tagged areas include Finance, Banks, Open Banking, CDR, and Consumer Data Right.
 
 
   The Bendigo and Adelaide Bank catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -337,7 +337,7 @@ score:
   band: developing
   composite: 39.4
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -374,8 +374,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 42.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -393,7 +393,7 @@ security:
 - kind: vulnerability-disclosure
   name: Bendigo And Adelaide Bank Vulnerability Disclosure
   slug: bendigo-and-adelaide-bank-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 slug: bendigo-and-adelaide-bank
 tags:
 - Finance

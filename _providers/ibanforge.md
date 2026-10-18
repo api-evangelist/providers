@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 52.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 1
@@ -46,7 +46,7 @@ agentic_access:
   operation_count: 39
   slug: ibanforge-agentic-access
   summary_line: 39 operations · 20 acting · 1 human-in-the-loop
-api_count: 1
+api_count: 2
 apis:
 - baseURL: https://api.ibanforge.com
   baseurl_source: declared
@@ -201,7 +201,7 @@ apis:
     question: How do I log out of the IBANforge account page?
   phrasing_ops: 5
   slug: ibanforge-account-api
-artifact_total: 38
+artifact_total: 39
 collections:
 - collection_type: open
   name: API Collection
@@ -231,6 +231,20 @@ collections:
   name: Ibanforge Swiss Clearing API
   slug: open-ibanforge-swiss-clearing-api
 common:
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ibanforge/refs/heads/main/rules/ibanforge-ibanforge-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/ibanforge-ibanforge-spectral-rules.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/ibanforge/refs/heads/main/integrations/ibanforge-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/ibanforge-integration-edges.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: https://ibanforge.com/trust
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/ibanforge/refs/heads/main/overlays/ibanforge-account-api-overlay.yaml
   title: ''
@@ -480,6 +494,10 @@ common:
   title: ''
   type: ServiceLevelAgreement
   url: https://ibanforge.com/legal/sla
+- group: design
+  title: ''
+  type: SpectralRules
+  url: https://github.com/cammac-creator/ibanforge/blob/ae22f27867ae94f251a5531f50a86c969e987500/.spectral.yaml
 created: '2026-05-28'
 description: Pre-payout IBAN screening for developers and AI agents — validation, issuing-bank identification against national bank registers, Swiss clearing including QR-IID, bank-level sanctions, SEPA and VoP reachability, and risk scoring across 89 IBAN countries.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ibanforge.png
@@ -528,13 +546,13 @@ modified: '2026-09-25'
 name: IBANforge
 nav: Providers
 network: true
-overview: 'IBANforge publishes 9 APIs on the [APIs.io](https://apis.io/) network, including API Keys API, BIC API, Compliance API, and 6 more. Tagged areas include Finance, Banking, Compliance, MCP, and A2A.
+overview: 'IBANforge publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including API Keys API, BIC API, Compliance API, and 6 more. Tagged areas include Finance, Banking, Compliance, MCP, and A2A.
 
 
-  The IBANforge catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+  The IBANforge catalog on APIs.io includes 1 JSON-LD context and 3 Spectral governance rulesets.
 
 
-  IBANforge''s developer surface includes changelog, sandbox, authentication, documentation, pricing, engineering blog, support, and 47 more developer resources.'
+  IBANforge''s developer surface includes changelog, sandbox, authentication, documentation, pricing, engineering blog, support, and 51 more developer resources.'
 plans:
 - name: Ibanforge Plans Pricing
   plan_count: 6
@@ -545,10 +563,23 @@ rate_limits:
   name: Ibanforge Rate Limits
   slug: ibanforge-rate-limits
 rules:
-- effective_rule_count: 44
+- authorship: provider
+  effective_rule_count: 44
   extends:
   - spectral:oas
-  name: IBANforge API Rules
+  name: IBANforge — ibanforge rules
+  rule_count: 3
+  severity_counts:
+    error: 3
+    hint: 0
+    info: 0
+    warn: 0
+  slug: ibanforge-ibanforge-spectral-rules
+- authorship: unmarked
+  effective_rule_count: 44
+  extends:
+  - spectral:oas
+  name: IBANforge — provider spectral rules
   rule_count: 3
   severity_counts:
     error: 3
@@ -556,7 +587,8 @@ rules:
     info: 0
     warn: 0
   slug: ibanforge-provider-spectral
-- effective_rule_count: 56
+- authorship: generated
+  effective_rule_count: 56
   extends:
   - spectral:oas
   name: IBANforge API Rules
@@ -569,23 +601,23 @@ rules:
   slug: ibanforge-rules
 score:
   band: exemplar
-  composite: 74.0
+  composite: 72.0
   coverage:
-    artifact_dirs: 32
-    catalog_earned: 98.5
+    artifact_dirs: 33
+    catalog_earned: 86.8
     catalog_earned_first_party: 24.0
-    catalog_gap: 16.6
+    catalog_gap: 28.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 41.3
+  delta: -2.0
   facets:
-    access_clarity: 76.3
-    contract_governance: 71.1
-    contract_quality: 64.8
+    access_clarity: 84.2
+    contract_governance: 35.6
+    contract_quality: 65.0
     developer_ergonomics: 68.5
     discoverability: 91.7
     operational_transparency: 86.8
-  previous_composite: 32.7
+  previous_composite: 74.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -605,10 +637,10 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 24.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: rising
+    score: 28.3
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: flat
   upsert:
     applies: true
     score: 0.0

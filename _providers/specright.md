@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'REST API over Specright''s specification data. Forty-six operations across six areas: token issuance, specifications, spec families (BOM / finished good), suppliers, a generic /objects/{api-name} endpo'
@@ -187,7 +187,7 @@ modified: '2026-08-28'
 name: Specright
 nav: Providers
 network: true
-overview: 'Specright publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Specification Management, Supply Chain, Packaging, and PLM.
+overview: 'Specright is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Specification Management, Supply Chain, Packaging, and PLM.
 
 
   Specright''s developer surface includes documentation, API reference, pricing, support, engineering blog, authentication, changelog, and 21 more developer resources.'
@@ -241,8 +241,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

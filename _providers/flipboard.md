@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: Flipboard supports RSS feeds as the primary integration mechanism for publishers and content creators. Publishers can submit RSS feeds to be featured as Flipboard Magazines, enabling content distribut
@@ -44,6 +44,21 @@ apis:
   slug: activitypub
 artifact_total: 6
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/flipboard/refs/heads/main/plans/flipboard-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/flipboard-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/flipboard/refs/heads/main/rate-limits/flipboard-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/flipboard-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/flipboard/refs/heads/main/finops/flipboard-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/flipboard-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/flipboard/refs/heads/main/security/flipboard-domain-security.yml
   title: ''
@@ -120,19 +135,23 @@ common:
 created: '2024-01-01'
 description: Flipboard is a content curation and social magazine platform that aggregates articles, videos, and social media posts into personalized, magazine-style feeds. Founded in 2010, Flipboard allows users to curate content into magazines around topics of interest and follow curators and publishers. Flipboard has embraced open web standards, implementing ActivityPub to federate with the Fediverse and supporting RSS for publisher content distribution.
 finops:
-- name: Flipboard Finops
+- has_sources: false
+  method: generated
+  name: Flipboard Finops
+  primary_unit: ''
   service_category: API
   slug: flipboard-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/flipboard.png
 layout: provider
 modified: '2026-04-28'
 name: Flipboard
 nav: Providers
 network: true
-overview: 'Flipboard publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include ActivityPub, Content Curation, Digital Publishing, Fediverse, and News.
+overview: 'Flipboard is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include ActivityPub, Content Curation, Digital Publishing, Fediverse, and News.
 
 
-  Flipboard''s developer surface includes developer portal, documentation, engineering blog, support, and 14 more developer resources.'
+  Flipboard''s developer surface includes developer portal, documentation, engineering blog, support, and 17 more developer resources.'
 plans:
 - name: Flipboard Plans Pricing
   plan_count: 3
@@ -144,17 +163,17 @@ rate_limits:
   slug: flipboard-rate-limits
 score:
   band: emerging
-  composite: 21.6
+  composite: 20.1
   coverage:
-    artifact_dirs: 6
-    catalog_earned: 38.0
+    artifact_dirs: 9
+    catalog_earned: 35.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 77.0
+    catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 36.8
+    access_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 38.1
@@ -167,8 +186,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

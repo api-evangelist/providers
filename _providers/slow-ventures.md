@@ -32,7 +32,7 @@ tags:
 - Fintech
 - Software-as-a-Service
 - Developer Tools
-- Crypto
+- Cryptocurrency
 - Healthcare
 - Creator Economy
 - Generalist

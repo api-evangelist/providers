@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: The Sync API bidder platform provides enterprise-grade APIs for the in-app advertising ecosystem. The platform supports real-time bidding (RTB), user acquisition optimization, LTV (Lifetime Value) for
@@ -47,6 +47,21 @@ apis:
   slug: sync-api-re-engagement
 artifact_total: 8
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sync-api/refs/heads/main/plans/sync-api-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/sync-api-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/sync-api/refs/heads/main/rate-limits/sync-api-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/sync-api-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sync-api/refs/heads/main/finops/sync-api-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/sync-api-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/sync-api/refs/heads/main/security/sync-api-domain-security.yml
   title: ''
@@ -86,9 +101,13 @@ coverage:
 created: '2026-05-03'
 description: Sync API is an enterprise API platform for the in-app mobile advertising ecosystem, delivering performance, transparency, and control for marketers. The platform provides a bidder platform and suite of APIs for user acquisition, mobile user growth, and user re-engagement. It enables data-driven, ROI-focused mobile advertising across 1.2 billion global audiences in 50+ countries, with 500+ robust API integrations and advanced algorithms for LTV forecasting and in-app event conversion tracking.
 finops:
-- name: Sync Api Finops
+- has_sources: false
+  method: generated
+  name: Sync Api Finops
+  primary_unit: ''
   service_category: API
   slug: sync-api-finops
+  template: true
 image: https://sync-api.com/favicon.ico
 jsonld:
 - class_count: 0
@@ -100,7 +119,7 @@ modified: '2026-08-12'
 name: Sync API
 nav: Providers
 network: true
-overview: 'Sync API publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Advertising, Digital Marketing, In-App Advertising, Mobile, and Programmatic.
+overview: 'Sync API is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Advertising, Digital Marketing, In-App Advertising, Mobile, and Programmatic.
 
 
   The Sync API catalog on APIs.io includes 1 JSON-LD context.'
@@ -114,18 +133,18 @@ rate_limits:
   name: Sync Api Rate Limits
   slug: sync-api-rate-limits
 score:
-  band: emerging
-  composite: 12.4
+  band: minimal
+  composite: 10.9
   coverage:
     artifact_dirs: 11
-    catalog_earned: 46.0
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 69.0
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 7.9
+    access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 10.7
     developer_ergonomics: 9.5
@@ -138,8 +157,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

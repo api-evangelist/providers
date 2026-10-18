@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.electiotechnologies.com/blog/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/electio/refs/heads/main/security/electio-domain-security.yml
   title: ''
@@ -57,31 +61,31 @@ created: '2026-07-17'
 description: 'Electio (Electio Technologies) is a San Francisco-based, General Catalyst-backed software company building modern control-system software for energy production and transportation infrastructure. The company modernizes the legacy industrial control layers behind power generation, oil and gas, and transportation networks with next-generation software for monitoring, automation, and operational reliability. Electio is an early-stage, largely stealth company: it publishes a company website, a careers page, a contact page, and a privacy policy, but has not released a public developer platform, API, SDK, or documentation as of this profile. This entry was surfaced as a General Catalyst portfolio company and enriched as an identity-only lead.'
 image: https://static1.squarespace.com/static/6633e967115d3c7d7be7a2fb/t/6656362d506195583d7c9ee1/1716925997776/AoE_Electio_v2.png?format=1500w
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Electio
 nav: Providers
 network: true
 overview: 'Electio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Energy, Infrastructure, Control Systems, and Industrial Software.
 
 
-  Electio''s developer surface includes support and 3 more developer resources.'
+  Electio''s developer surface includes engineering blog, support, and 3 more developer resources.'
 random_paper: 15
 score:
   band: minimal
-  composite: 3.6
+  composite: 4.1
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 48.2
     operational_transparency: 0.0
   jurisdiction:
@@ -98,8 +102,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 4.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

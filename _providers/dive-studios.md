@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://divestudios.io/blog/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/dive-studios/refs/heads/main/security/dive-studios-domain-security.yml
   title: ''
@@ -80,31 +84,31 @@ created: '2026-07-17'
 description: 'DIVE Studios is a global K-entertainment media platform that produces original shows, podcasts, and short-form social content, reaching over 135M Gen Z and Millennial fans and 5B+ lifetime views. The company operates two commercial arms: DIVE Media, which sells advertising and branded content across its podcast, video, and social network, and DIVE Agency (DIVE X), which builds creator, influencer, and celebrity marketing campaigns for global brands connecting with K-culture audiences. It publishes an llms.txt describing its pages but exposes no public developer API, SDK, or portal. Surfaced as a 500 Global portfolio company and profiled in the API Evangelist network.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dive-studios.png
 layout: provider
-modified: '2026-08-12'
+modified: '2026-10-06'
 name: DIVE studios
 nav: Providers
 network: true
 overview: 'DIVE studios is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Media, K-Entertainment, Advertising, and Influencer Marketing.
 
 
-  DIVE studios'' developer surface includes support and 5 more developer resources.'
+  DIVE studios'' developer surface includes engineering blog, support, and 5 more developer resources.'
 random_paper: 16
 score:
   band: minimal
-  composite: 4.1
+  composite: 4.6
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 55.4
     operational_transparency: 0.0
   previous_composite: 4.1
@@ -114,8 +118,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

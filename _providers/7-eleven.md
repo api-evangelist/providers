@@ -27,16 +27,35 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 5.0
-  scored_at: '2026-10-04'
+  score: 3.1
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 19
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/7-eleven/refs/heads/main/plans/7-eleven-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/7-eleven-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/7-eleven/refs/heads/main/rate-limits/7-eleven-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/7-eleven-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/7-eleven/refs/heads/main/finops/7-eleven-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/7-eleven-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.7-eleven.com/blog
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/7-eleven/refs/heads/main/security/7-eleven-domain-security.yml
   title: ''
@@ -86,9 +105,13 @@ features:
 - description: Accept Apple Pay, Google Pay, and 7-Eleven Wallet for in-store and online purchases.
   name: Mobile Payments
 finops:
-- name: 7 Eleven Finops
+- has_sources: true
+  method: generated
+  name: 7 Eleven Finops
+  primary_unit: ''
   service_category: Retail / Convenience
   slug: 7-eleven-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/7-eleven.png
 integrations:
 - description: Speedway convenience stores and fuel locations are part of 7-Eleven's North American retail footprint.
@@ -102,14 +125,14 @@ integrations:
 - description: Third-party delivery integration making 7-Eleven inventory available through Uber Eats.
   name: Uber Eats
 layout: provider
-modified: '2026-05-16'
+modified: '2026-10-06'
 name: 7-Eleven
 nav: Providers
 network: true
 overview: '7-Eleven is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Retail and Convenience Stores.
 
 
-  7-Eleven''s developer surface includes signup flow, authentication, and 4 more developer resources.'
+  7-Eleven''s developer surface includes engineering blog, signup flow, authentication, and 7 more developer resources.'
 plans:
 - name: 7 Eleven Plans Pricing
   plan_count: 1
@@ -121,22 +144,22 @@ rate_limits:
   slug: 7-eleven-rate-limits
 score:
   band: emerging
-  composite: 16.7
+  composite: 11.1
   coverage:
-    artifact_dirs: 6
-    catalog_earned: 34.4
+    artifact_dirs: 8
+    catalog_earned: 21.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 80.6
+    catalog_gap: 94.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.6
   facets:
-    access_clarity: 41.3
+    access_clarity: 19.7
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 11.9
+    developer_ergonomics: 14.3
     discoverability: 30.4
-    operational_transparency: 21.6
+    operational_transparency: 7.9
   previous_composite: 16.7
   regulatory:
     applies: true
@@ -144,9 +167,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

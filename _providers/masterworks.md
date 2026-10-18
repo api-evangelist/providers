@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The single GraphQL endpoint behind the Masterworks web and mobile apps, covering art offerings, artists, auction and repeat-sale data, contributions, agreements and e-signature, KYC and accreditation,
@@ -148,7 +148,7 @@ modified: '2026-08-04'
 name: Masterworks
 nav: Providers
 network: true
-overview: 'Masterworks publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Art, Art Investing, Alternative Investments, Fintech, and Investing.
+overview: 'Masterworks is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Art, Art Investing, Alternative Investments, Fintech, and Investing.
 
 
   Masterworks'' developer surface includes authentication, support, engineering blog, signup flow, and 18 more developer resources.'
@@ -180,8 +180,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 15.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

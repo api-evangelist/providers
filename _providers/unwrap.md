@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: GraphQL API for fetching feedback entries and group taxonomy, batch-importing feedback, and building classification groups. Authenticated with a personal API key sent as an HTTP Bearer token, scoped t
@@ -194,7 +194,7 @@ modified: '2026-07-21'
 name: Unwrap
 nav: Providers
 network: true
-overview: 'Unwrap publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Apps, Customer Feedback, Customer Intelligence, and Product Analytics.
+overview: 'Unwrap is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Apps, Customer Feedback, Customer Intelligence, and Product Analytics.
 
 
   Unwrap''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 24 more developer resources.'
@@ -210,7 +210,7 @@ scopes:
   summary_line: 5 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 41.0
+  composite: 41.5
   coverage:
     artifact_dirs: 18
     catalog_earned: 49.0
@@ -218,7 +218,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 47.4
     contract_governance: 18.2
@@ -240,9 +240,9 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 36.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+    score: 39.2
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -270,7 +270,7 @@ tags:
 - Customer Intelligence
 - Product Analytics
 - Voice of Customer
-- NLP
+- Natural Language Processing
 - GraphQL
 - MCP
 website: https://www.unwrap.ai/

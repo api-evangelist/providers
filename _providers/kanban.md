@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -138,6 +138,21 @@ collections:
   name: Kanban Tool API v3
   slug: open-kanban
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/kanban/refs/heads/main/plans/kanban-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/kanban-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/kanban/refs/heads/main/rate-limits/kanban-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/kanban-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/kanban/refs/heads/main/finops/kanban-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/kanban-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/kanban/refs/heads/main/capabilities/kanban-capability-edges.yml
   title: ''
@@ -184,19 +199,23 @@ common:
 created: '2024-01-15'
 description: Kanban Tool is a visual project management platform for managing boards, tasks, and workflows using the Kanban methodology. It provides REST APIs (v1 and v3), browser SDK, and DevKit for programmatic access to boards, tasks, columns, comments, attachments, time tracking, and team members.
 finops:
-- name: Kanban Finops
+- has_sources: false
+  method: generated
+  name: Kanban Finops
+  primary_unit: ''
   service_category: API
   slug: kanban-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kanban.png
 layout: provider
 modified: '2026-05-19'
 name: Kanban Tool
 nav: Providers
 network: true
-overview: 'Kanban Tool publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Attachments API, Attachments.json API, Boards API, and 9 more. Tagged areas include Agile, Boards, Kanban, Project Management, and Task Management.
+overview: 'Kanban Tool is listed with 12 APIs on the [APIs.io](https://apis.io/) network, including Attachments API, Attachments.json API, Boards API, and 9 more. Tagged areas include Agile, Boards, Kanban, Project Management, and Task Management.
 
 
-  Kanban Tool''s developer surface includes engineering blog, pricing, signup flow, support, and 6 more developer resources.'
+  Kanban Tool''s developer surface includes engineering blog, pricing, signup flow, support, and 9 more developer resources.'
 plans:
 - name: Kanban Plans Pricing
   plan_count: 3
@@ -208,17 +227,17 @@ rate_limits:
   slug: kanban-rate-limits
 score:
   band: thin
-  composite: 31.2
+  composite: 29.7
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 44.0
+    artifact_dirs: 12
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 71.0
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 39.5
+    access_clarity: 31.6
     contract_governance: 0.0
     contract_quality: 38.6
     developer_ergonomics: 38.1
@@ -238,8 +257,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

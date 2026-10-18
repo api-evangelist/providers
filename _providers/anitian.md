@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: The HTTP API behind the Anitian SecureCloud and FedFlex console at securecloud.anitian.com. Anitian documents (in its FedRAMP 20x pilot README) that "an API is available for auditors to download evide
@@ -142,7 +142,7 @@ modified: '2026-08-06'
 name: Anitian
 nav: Providers
 network: true
-overview: 'Anitian publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Compliance, Cloud, and Governance.
+overview: 'Anitian is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Compliance, Cloud, and Governance.
 
 
   Anitian''s developer surface includes engineering blog, support, signup flow, pricing, authentication, and 12 more developer resources.'
@@ -151,7 +151,7 @@ score:
   band: emerging
   composite: 24.0
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -174,8 +174,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

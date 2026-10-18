@@ -34,18 +34,27 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 40.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'The Definite REST API for programmatic access to the Definite data platform: stream JSON ingestion into DuckLake, signed-URL file uploads to Definite Drive, webhook-triggered Python pipelines, push-ba'
   name: Definite API
   slug: definite-api
-artifact_total: 7
+artifact_total: 8
 asyncapis:
 - description: ''
   name: Definite Webhooks
   slug: definite-webhooks
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/definite/refs/heads/main/plans/definite-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/definite-plans-pricing.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.definite.app/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/definite/refs/heads/main/security/definite-trust-center.yml
   title: ''
@@ -194,17 +203,21 @@ mcp_servers:
 - description: Remote MCP server at api.definite.app over HTTP.
   name: Definite MCP Server
   slug: definite
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Definite
 nav: Providers
 network: true
-overview: 'Definite publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data, Analytics, Business Intelligence, and Data Integration.
+overview: 'Definite is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data, Analytics, Business Intelligence, and Data Integration.
 
 
   The Definite catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Definite''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 24 more developer resources.'
+  Definite''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 26 more developer resources.'
+plans:
+- name: Definite Plans Pricing
+  plan_count: 4
+  slug: definite-plans-pricing
 random_paper: 4
 scopes:
 - name: Definite Scopes
@@ -212,18 +225,18 @@ scopes:
   slug: definite-scopes
   summary_line: 1 scope · authorizationCode
 score:
-  band: developing
-  composite: 52.8
+  band: strong
+  composite: 59.2
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 18
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.4
   facets:
-    access_clarity: 60.5
+    access_clarity: 92.1
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 78.6
@@ -248,9 +261,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 36.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

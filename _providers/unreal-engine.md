@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 6
 apis:
 - description: The Unreal Engine C++ API is the primary programmatic surface of the engine. It is shipped as engine source on GitHub (under the Unreal Engine EULA) and documented as a per-module class reference cove
@@ -56,6 +56,21 @@ apis:
   slug: unreal-plugins-and-fab
 artifact_total: 11
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/unreal-engine/refs/heads/main/plans/unreal-engine-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/unreal-engine-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/unreal-engine/refs/heads/main/rate-limits/unreal-engine-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/unreal-engine-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/unreal-engine/refs/heads/main/finops/unreal-engine-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/unreal-engine-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/unreal-engine/refs/heads/main/security/unreal-engine-vulnerability-disclosure.yml
   title: ''
@@ -141,19 +156,23 @@ common:
 created: '2024-01-01'
 description: Unreal Engine is Epic Games' real-time 3D engine for games, film, broadcast, architecture, simulation, automotive, and live events. The engine is shipped as a downloadable editor, source on GitHub (under the Unreal Engine EULA), and a deep C++ and Blueprint API surface rather than a public REST API. The developer-facing surface includes the Unreal C++ API reference, the Blueprint visual scripting API, the Online Subsystem (OSS) abstraction over platform backends, the Pixel Streaming framework for streaming Unreal apps over WebRTC, the Render Hardware Interface (RHI), the Slate UI framework, and a plugin and Marketplace ecosystem (now Fab). Programmatic backend integration for Unreal-built games is typically delivered via Epic Online Services (EOS), profiled separately. This profile documents Unreal Engine as an SDK and tooling surface rather than as a REST API.
 finops:
-- name: Unreal Engine Finops
+- has_sources: false
+  method: generated
+  name: Unreal Engine Finops
+  primary_unit: ''
   service_category: API
   slug: unreal-engine-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/unreal-engine.png
 layout: provider
 modified: '2026-05-23'
 name: Unreal Engine
 nav: Providers
 network: true
-overview: 'Unreal Engine publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include 3D, Blueprints, C++, Game Development, and Game Engine.
+overview: 'Unreal Engine is listed with 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include 3D, Blueprints, C++, Game Development, and Game Engine.
 
 
-  Unreal Engine''s developer surface includes documentation, engineering blog, release notes, support, YouTube channel, and 15 more developer resources.'
+  Unreal Engine''s developer surface includes documentation, engineering blog, release notes, support, YouTube channel, and 18 more developer resources.'
 plans:
 - name: Unreal Engine Plans Pricing
   plan_count: 1
@@ -165,22 +184,22 @@ rate_limits:
   slug: unreal-engine-rate-limits
 score:
   band: emerging
-  composite: 22.6
+  composite: 16.6
   coverage:
-    artifact_dirs: 6
-    catalog_earned: 57.4
+    artifact_dirs: 7
+    catalog_earned: 44.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.6
+    catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.0
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 23.8
     discoverability: 78.6
-    operational_transparency: 40.0
+    operational_transparency: 26.3
   previous_composite: 22.6
   regulatory:
     applies: true
@@ -188,13 +207,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/unreal-engine/refs/heads/main/screenshots/unreal-engine-2026-10-11T195019.png
 security:
 - kind: domain-security
   name: Unreal Engine Domain Security

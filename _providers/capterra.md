@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The Capterra Click Report API allows software vendors to programmatically retrieve historical click data from their Capterra pay-per-click (PPC) advertising campaigns. Vendors can access click metrics
@@ -174,16 +174,20 @@ common:
 created: '2026-03-24'
 description: Capterra is one of the largest software review and comparison marketplaces, helping business buyers discover, research, and select software across hundreds of categories through verified user reviews, feature comparisons, and pricing information. Founded in 1999 and acquired by Gartner in 2015, Capterra was sold to G2 alongside its sister sites GetApp and Software Advice in a deal that closed on 2026-02-05, and the three properties now operate as G2 Digital Markets — the vendor console has moved to app.g2digitalmarkets.com. For participating software vendors the properties run a pay-per-click lead-generation program, and the Capterra Click Report API lets those vendors programmatically retrieve historical click performance data across all mapped accounts. The API is credential-gated and its reference is published only inside the authenticated vendor console.
 finops:
-- name: Capterra Finops
+- has_sources: false
+  method: generated
+  name: Capterra Finops
+  primary_unit: ''
   service_category: API
   slug: capterra-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/capterra.png
 layout: provider
 modified: '2026-08-12'
 name: Capterra
 nav: Providers
 network: true
-overview: 'Capterra publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Advertising, B2B, Click Reporting, G2 Digital Markets, and Gartner Digital Markets.
+overview: 'Capterra is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Advertising, B2B, Click Reporting, G2 Digital Markets, and Gartner Digital Markets.
 
 
   Capterra''s developer surface includes authentication, developer portal, signup flow, engineering blog, documentation, and 24 more developer resources.'
@@ -198,17 +202,17 @@ rate_limits:
   slug: capterra-rate-limits
 score:
   band: thin
-  composite: 28.5
+  composite: 27.0
   coverage:
     artifact_dirs: 14
-    catalog_earned: 40.0
+    catalog_earned: 37.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 42.1
+    access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 33.3
@@ -223,8 +227,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

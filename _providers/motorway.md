@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.motorway.co.uk/feed
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/motorway/refs/heads/main/security/motorway-domain-security.yml
   title: ''
@@ -70,20 +74,20 @@ created: '2026-07-17'
 description: 'Motorway is the UK''s fastest-growing used car marketplace, connecting private sellers with a network of more than 8,000 verified car dealers through a daily online auction. Founded in 2017 and headquartered in London and Brighton, the platform provides instant AI-assisted vehicle valuations, a mobile app that builds a sale-ready car profile, nationwide home collection, same-day payment (Motorway Pay), transport (Motorway Move), and outstanding-finance handling. Over one million people have used Motorway to sell a car. It is a consumer and dealer (B2C/B2B) marketplace rather than a public API provider: no developer portal, OpenAPI, or public API surface is published as of this enrichment pass. Backed by Index Ventures, ICONIQ Growth, BMW i Ventures and LocalGlobe.'
 image: https://static.motorway.co.uk/static/assets_seller/og-website-image-5.e59fc584148069c303fb.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Motorway
 nav: Providers
 network: true
 overview: 'Motorway is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketplace, Automotive, Used Cars, and Car Auction.
 
 
-  Motorway''s developer surface includes engineering blog, support, and 5 more developer resources.'
+  Motorway''s developer surface includes engineering blog, support, and 6 more developer resources.'
 random_paper: 18
 score:
   band: minimal
   composite: 10.1
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -112,8 +116,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 12.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

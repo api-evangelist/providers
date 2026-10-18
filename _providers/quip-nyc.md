@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 43.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -58,6 +58,14 @@ apis:
   slug: quip-nyc-storefront-json
 artifact_total: 11
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.getquip.com/blogs/mouthoff-blog
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.getquip.com/blogs/mouthoff-blog.atom
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/quip-nyc/refs/heads/main/security/quip-nyc-domain-security.yml
   title: ''
@@ -188,17 +196,17 @@ mcp_servers:
 - description: Remote MCP server at www.getquip.com over HTTP; 13 tools listed.
   name: Quip NYC MCP Server
   slug: universal-commerce
-modified: '2026-08-26'
+modified: '2026-10-06'
 name: Quip NYC
 nav: Providers
 network: true
-overview: 'Quip NYC publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Oral Care, Consumer Health, Personal Care, and Retail.
+overview: 'Quip NYC is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Oral Care, Consumer Health, Personal Care, and Retail.
 
 
   The Quip NYC catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Quip NYC''s developer surface includes documentation, authentication, engineering blog, support, signup flow, and 20 more developer resources.'
+  Quip NYC''s developer surface includes engineering blog, documentation, authentication, support, signup flow, and 22 more developer resources.'
 plans:
 - name: Quip Nyc Plans Pricing
   plan_count: 0
@@ -217,7 +225,7 @@ score:
   band: thin
   composite: 29.6
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 22
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -243,8 +251,8 @@ score:
     regime: Health
     regime_id: health
     score: 32.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

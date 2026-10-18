@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 42.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://ingest.ryft.io
@@ -51,6 +51,10 @@ collections:
   name: Ryft Ingest API
   slug: open-ryft-ingest-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.ryft.io/blog/rss.xml
 - group: other
   title: ''
   type: ParentCompany
@@ -152,14 +156,14 @@ mcp_servers:
 - description: 'Ryft MCP is a Model Context Protocol server that enriches AI agents with full lakehouse context - table metadata, query history, and domain knowledge - so agents can write accurate queries and answer '
   name: Ryft MCP Server
   slug: ryft
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Ryft
 nav: Providers
 network: true
-overview: 'Ryft publishes 1 API on the [APIs.io](https://apis.io/) network: Ingest API. Tagged areas include Company, Data, Data Lake, Lakehouse, and Apache Iceberg.
+overview: 'Ryft publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Ingest API. Tagged areas include Company, Data, Data Lake, Lakehouse, and Apache Iceberg.
 
 
-  Ryft''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 14 more developer resources.'
+  Ryft''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 15 more developer resources.'
 random_paper: 13
 score:
   band: developing
@@ -201,8 +205,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

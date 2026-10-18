@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: Institutional staking API to onboard broker users, generate and track deposits, assign/exit validators, drive pooled staking and Babylon BTC staking across supported proof-of-stake protocols. Authenti
@@ -45,6 +45,10 @@ apis:
   slug: hashkey-cloud-data-api
 artifact_total: 4
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.hashkey.cloud/newsroom
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/hashquark/refs/heads/main/security/hashquark-domain-security.yml
   title: ''
@@ -120,18 +124,18 @@ created: '2026-07-17'
 description: 'HashKey Cloud, formerly HashQuark, is a Hong Kong-based blockchain infrastructure and Web3 staking provider (part of HashKey Group) that runs enterprise-grade validator nodes across 50+ mainstream proof-of-stake public chains including Ethereum, Cosmos, Solana, Polkadot, Avalanche, Sui and BNB Chain. It exposes a developer platform for institutional staking: a Staking API to onboard users, generate deposits, assign and exit validators and drive pooled staking; a Data API to track node status and daily/monthly/quarterly/ annual reward data; plus a dashboard, a Babylon BTC staking flow and a first-party Go SDK. Requests are authenticated with a custom Quark-Keccak256-ECDSA request-signing scheme keyed to an Ethereum keypair. Originally added to the API Evangelist network as a portfolio-lead stub (surfaced via Qiming), now enriched from HashKey Cloud''s public developer surface.'
 image: https://avatars.githubusercontent.com/u/138440702?v=4
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: HashKey Cloud (HashQuark)
 nav: Providers
 network: true
-overview: 'HashKey Cloud (HashQuark) publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Blockchain, Staking, Web3, and Validator.
+overview: 'HashKey Cloud (HashQuark) is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Blockchain, Staking, Web3, and Validator.
 
 
-  HashKey Cloud (HashQuark)''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, and 11 more developer resources.'
+  HashKey Cloud (HashQuark)''s developer surface includes engineering blog, documentation, API reference, getting-started guide, authentication, and 12 more developer resources.'
 random_paper: 0
 score:
   band: emerging
-  composite: 22.9
+  composite: 23.0
   coverage:
     artifact_dirs: 10
     catalog_earned: 37.0
@@ -139,7 +143,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 10.5
     contract_governance: 4.5
@@ -161,8 +165,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

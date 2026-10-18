@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 6
+- acting_count: 5
   human_in_the_loop: 0
   name: Allianz Docs Agentic Access
   operation_count: 9
   slug: allianz-docs-agentic-access
-  summary_line: 9 operations · 6 acting
+  summary_line: 9 operations · 5 acting
 api_count: 6
 apis:
 - description: The Allianz Partners API Management portal provides insurance and assistance product APIs covering the full customer journey. APIs support policy purchase, change, and cancellation operations in XML a
@@ -351,7 +351,7 @@ modified: '2026-06-20'
 name: Allianz
 nav: Providers
 network: true
-overview: 'Allianz publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Certificates API, Leads API, Policy Details API, and 3 more. Tagged areas include Financial Services, Insurance, and Asset Management.
+overview: 'Allianz is listed with 6 APIs on the [APIs.io](https://apis.io/) network, including Certificates API, Leads API, Policy Details API, and 3 more. Tagged areas include Financial Services, Insurance, and Asset Management.
 
 
   The Allianz catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -360,9 +360,10 @@ overview: 'Allianz publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
   Allianz''s developer surface includes authentication, support, engineering blog, and 11 more developer resources.'
 random_paper: 7
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Allianz API Rules
+  name: Allianz — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -370,7 +371,8 @@ rules:
     info: 1
     warn: 4
   slug: allianz-docs-jsonschema-spectral-rules
-- effective_rule_count: 51
+- authorship: generated
+  effective_rule_count: 51
   extends:
   - spectral:oas
   name: Allianz API Rules
@@ -390,7 +392,7 @@ score:
   band: thin
   composite: 31.3
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 64.0
     catalog_earned_first_party: 0.0
     catalog_gap: 51.0
@@ -420,8 +422,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 29.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

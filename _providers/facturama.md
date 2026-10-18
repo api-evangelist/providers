@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: REST API for generating, stamping, downloading, and cancelling CFDI 4.0 electronic invoices, payroll receipts, payment complements, and related Mexican tax documents, plus management of clients, produ
@@ -43,6 +43,14 @@ apis:
   slug: facturama-api
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://facturama.mx/blog/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://facturama.mx/blog/feed/
 - group: company
   title: ''
   type: Website
@@ -144,14 +152,14 @@ description: 'Facturama is a cloud-based Mexican electronic invoicing (CFDI) pla
   and Ruby and a public Postman collection.'
 image: https://facturama.mx/img/home/plataforma-facturama.webp
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Facturama
 nav: Providers
 network: true
-overview: 'Facturama publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Invoicing, CFDI, Mexico, and Tax Compliance.
+overview: 'Facturama is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Invoicing, CFDI, Mexico, and Tax Compliance.
 
 
-  Facturama''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 15 more developer resources.'
+  Facturama''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, pricing, signup flow, and 17 more developer resources.'
 random_paper: 2
 score:
   band: thin
@@ -187,8 +195,8 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

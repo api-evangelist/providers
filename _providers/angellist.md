@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The AngelList Investor Management API is a GraphQL API that enables programmatic access to the AngelList investor portal, supporting fund managers and investors in managing transactions, documents, an
@@ -41,6 +41,11 @@ apis:
   slug: investor-management-api
 artifact_total: 10
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/angellist/refs/heads/main/finops/angellist-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/angellist-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/angellist/refs/heads/main/security/angellist-domain-security.yml
   title: ''
@@ -230,9 +235,13 @@ common:
 created: '2026-03-24'
 description: AngelList provides an investor management GraphQL API that enables fund managers and investors to programmatically manage transactions, entities, organizations, documents, and capital flows via the AngelList investor portal. The platform supports venture capital workflows including transaction lifecycle management, document signing, data rooms, and investor onboarding.
 finops:
-- name: Angellist Finops
+- has_sources: false
+  method: generated
+  name: Angellist Finops
+  primary_unit: ''
   service_category: API
   slug: angellist-finops
+  template: true
 graphqls:
 - description: The AngelList Investor Management API is a GraphQL API that enables programmatic access to the AngelList investor portal, supporting fund managers and investors in managing transactions, documents, an
   name: AngelList GraphQL API
@@ -243,10 +252,10 @@ modified: '2026-09-02'
 name: AngelList
 nav: Providers
 network: true
-overview: 'AngelList publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Documents, Fund, Investing, Job, and Startups.
+overview: 'AngelList is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Documents, Fund, Investing, Job, and Startups.
 
 
-  AngelList''s developer surface includes documentation, engineering blog, support, developer portal, authentication, sandbox, pricing, and 35 more developer resources.'
+  AngelList''s developer surface includes documentation, engineering blog, support, developer portal, authentication, sandbox, pricing, and 36 more developer resources.'
 plans:
 - name: Angellist Plans Pricing
   plan_count: 3
@@ -263,17 +272,17 @@ scopes:
   summary_line: 4 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 48.2
+  composite: 46.7
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 52.0
+    artifact_dirs: 22
+    catalog_earned: 49.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 100.0
+    access_clarity: 92.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 71.4
@@ -294,8 +303,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

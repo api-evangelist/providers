@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -213,16 +213,20 @@ common:
 created: '2023-11-13'
 description: bunq is a European (Dutch) neobank offering personal and business accounts across the EU. Its Public API is a REST API over HTTPS (https://api.bunq.com/v1, sandbox https://public-api.sandbox.bunq.com/v1) that lets account holders and licensed third parties read accounts, initiate SEPA and internal payments, send and answer payment requests, manage cards, export statements, upload attachments, and subscribe to event callbacks. bunq uses a distinctive multi-step handshake - installation (register an RSA public key), device-server, then session-server - after which requests are RSA-signed with X-Bunq-Client-Signature and authenticated with a session token in X-Bunq-Client-Authentication.
 finops:
-- name: Bunq Finops
+- has_sources: true
+  method: generated
+  name: Bunq Finops
+  primary_unit: ''
   service_category: Banking / Fintech
   slug: bunq-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bunq.png
 layout: provider
 modified: '2026-07-12'
 name: bunq
 nav: Providers
 network: true
-overview: 'bunq publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Attachment API, Card API, Customer Statement API, and 6 more. Tagged areas include Banking, Neobank, Payments, Account, and SEPA.
+overview: 'bunq publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Attachment API, Card API, Customer Statement API, and 6 more. Tagged areas include Banking, Neobank, Payments, Account, and SEPA.
 
 
   bunq''s developer surface includes authentication, documentation, sandbox, pricing, engineering blog, and 14 more developer resources.'
@@ -237,17 +241,17 @@ rate_limits:
   slug: bunq-rate-limits
 score:
   band: thin
-  composite: 36.0
+  composite: 34.5
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 46.0
+    artifact_dirs: 14
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 69.0
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 36.8
+    access_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 50.8
     developer_ergonomics: 35.7
@@ -275,8 +279,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 17.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 44
   human_in_the_loop: 1
@@ -376,7 +376,7 @@ modified: '2026-07-18'
 name: Credentially
 nav: Providers
 network: true
-overview: 'Credentially publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Compliance-packages API, DBS API, Dictionary API, and 18 more. Tagged areas include Healthcare, Credentialing, Compliance, Onboarding, and Workforce.
+overview: 'Credentially publishes 21 API contracts indexed on the [APIs.io](https://apis.io/) network, including Compliance-packages API, DBS API, Dictionary API, and 18 more. Tagged areas include Healthcare, Credentialing, Compliance, Onboarding, and Workforce.
 
 
   The Credentially catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -427,8 +427,8 @@ score:
     regime: Health
     regime_id: health
     score: 27.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

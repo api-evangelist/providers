@@ -9,7 +9,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -20,19 +20,19 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
-    spec_presence: false
+    reversibility_documented: documented
+    spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 6.8
-  scored_at: '2026-10-04'
+  score: 32.3
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -40,7 +40,7 @@ agentic_access:
   operation_count: 45
   slug: pagar-me-agentic-access
   summary_line: 45 operations · 25 acting
-api_count: 17
+api_count: 5
 apis:
 - description: Create, list, retrieve, and manage orders — the top-level payment object in the Pagar.me Core API v5. Each order can contain one or more charges paid via credit card, debit card, Pix, boleto, voucher,
   name: Pagar.me Orders API
@@ -93,8 +93,137 @@ apis:
 - description: Pagar.me's drop-in hosted Checkout. Embed Pagar.me's PCI-compliant payment form to take credit card, Pix, and boleto for one-off orders and subscriptions, with first-class AI/agent integration pattern
   name: Pagar.me Hosted Checkout
   slug: pagarme-checkout-pagarme
-artifact_total: 57
+- baseURL: https://api.pagar.me/core/v5
+  baseurl_source: declared
+  description: The Contestations API from Pagar.me — 1 operation(s) for contestations.
+  name: Pagar.me Contestations API
+  slug: pagar-me-contestations-api
+- baseURL: https://api.pagar.me/core/v5
+  baseurl_source: declared
+  description: The Customers API from Pagar.me — 2 operation(s) for customers.
+  name: Pagar.me Customers API
+  slug: pagar-me-customers-api
+- baseURL: https://api.pagar.me/core/v5
+  baseurl_source: declared
+  description: Operações relacionadas à busca de disputas de chargeback. Aqui é possível ver o estado atual da disputa, histórico de eventos daquela disputa, dentre outras informações relevantes.
+  name: Pagar.me Disputas API
+  slug: pagar-me-disputas-api
+- baseURL: https://api.pagar.me/core/v5
+  baseurl_source: declared
+  description: The Hooks API from Pagar.me — 3 operation(s) for hooks.
+  name: Pagar.me Hooks API
+  slug: pagar-me-hooks-api
+- baseURL: https://api.pagar.me/core/v5
+  baseurl_source: declared
+  description: The Invoices API from Pagar.me — 3 operation(s) for invoices.
+  name: Pagar.me Invoices API
+  slug: pagar-me-invoices-api
+- baseURL: https://api.pagar.me/core/v5
+  baseurl_source: declared
+  description: The Orders API from Pagar.me — 5 operation(s) for orders.
+  name: Pagar.me Orders API
+  slug: pagar-me-orders-api
+- baseURL: https://api.pagar.me/core/v5
+  baseurl_source: declared
+  description: The Paymentlinks API from Pagar.me — 4 operation(s) for paymentlinks.
+  name: Pagar.me Paymentlinks API
+  slug: pagar-me-paymentlinks-api
+- baseURL: https://api.pagar.me/core/v5
+  baseurl_source: declared
+  description: The Plans API from Pagar.me — 5 operation(s) for plans.
+  name: Pagar.me Plans API
+  slug: pagar-me-plans-api
+- baseURL: https://api.pagar.me/core/v5
+  baseurl_source: declared
+  description: The Recipients API from Pagar.me — 7 operation(s) for recipients.
+  name: Pagar.me Recipients API
+  slug: pagar-me-recipients-api
+- baseURL: https://api.pagar.me/core/v5
+  baseurl_source: declared
+  description: The Settlement Obligations API from Pagar.me — 2 operation(s) for settlement obligations.
+  name: Pagar.me Settlement Obligations API
+  slug: pagar-me-settlement-obligations-api
+- baseURL: https://api.pagar.me/core/v5
+  baseurl_source: declared
+  description: The Settlements API from Pagar.me — 2 operation(s) for settlements.
+  name: Pagar.me Settlements API
+  slug: pagar-me-settlements-api
+- baseURL: https://api.pagar.me/core/v5
+  baseurl_source: declared
+  description: The Subscriptions API from Pagar.me — 17 operation(s) for subscriptions.
+  name: Pagar.me Subscriptions API
+  slug: pagar-me-subscriptions-api
+- baseURL: https://api.pagar.me/core/v5
+  baseurl_source: declared
+  description: The Tokens API from Pagar.me — 1 operation(s) for tokens.
+  name: Pagar.me Tokens API
+  slug: pagar-me-tokens-api
+artifact_total: 74
 common:
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pagar-me/refs/heads/main/rules/pagar-me-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/pagar-me-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pagar-me/refs/heads/main/json-ld/pagar-me-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/pagar-me-context.jsonld
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pagar-me/refs/heads/main/vocabulary/pagar-me-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/pagar-me-vocabulary.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pagar-me/refs/heads/main/data-model/pagar-me-data-model.yml
+  title: ''
+  type: DataModel
+  url: data-model/pagar-me-data-model.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pagar-me/refs/heads/main/errors/pagar-me-problem-types.yml
+  title: ''
+  type: ErrorCatalog
+  url: errors/pagar-me-problem-types.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pagar-me/refs/heads/main/conformance/pagar-me-conformance.yml
+  title: ''
+  type: Conformance
+  url: conformance/pagar-me-conformance.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/pagar-me/refs/heads/main/llms/pagar-me-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/pagar-me-llms.txt
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/pagar-me/refs/heads/main/well-known/pagar-me-well-known.yml
+  title: ''
+  type: WellKnown
+  url: well-known/pagar-me-well-known.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/pagar-me/refs/heads/main/hosts/pagar-me-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/pagar-me-hosts.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/pagar-me/refs/heads/main/vendors/pagar-me-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/pagar-me-vendors.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/pagar-me/refs/heads/main/packages/pagar-me-packages.yml
+  title: ''
+  type: Packages
+  url: packages/pagar-me-packages.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.pagar.me/
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/pagar-me/refs/heads/main/authentication/pagar-me-authentication.yml
+  title: ''
+  type: Authentication
+  url: authentication/pagar-me-authentication.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/pagar-me/refs/heads/main/agentic-access/pagar-me-agentic-access.yml
   title: ''
@@ -258,9 +387,13 @@ features:
 - description: A documented llms.txt index, OpenAPI-formatted reference, and "Checkout Skills" patterns explicitly aimed at Claude Code, Codex, Cursor, and Copilot users wiring Pagar.me into agents and coding assistants.
   name: AI-assistant-friendly docs
 finops:
-- name: Pagar Me Finops
+- has_sources: true
+  method: generated
+  name: Pagar Me Finops
+  primary_unit: ''
   service_category: Payments and Financial Services
   slug: pagar-me-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pagar-me.png
 integrations:
 - description: Pagar.me is Stone Co.'s API-driven online payments brand; the two share regulatory infrastructure, anti-fraud rails, and the Stone API migration path documented in Pagar.me's release notes.
@@ -285,38 +418,63 @@ integrations:
   name: 3DS 2.0
 - description: First-class docs for integrating Pagar.me with Claude Code, Codex, Cursor, and Copilot via the llms.txt index and Checkout Skills.
   name: AI coding assistants
+json_schemas:
+- name: Dispute
+  property_count: 17
+  slug: pagar-me-dispute
+jsonld:
+- class_count: 6
+  name: Pagar Me Context
+  property_count: 29
+  slug: pagar-me-context
 layout: provider
 modified: '2026-05-25'
 name: Pagar.me
 nav: Providers
 network: true
-overview: 'Pagar.me publishes 17 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Payments, Financial Services, Fintech, Brazil, and Latin America.
+overview: 'Pagar.me publishes 30 API contracts indexed on the [APIs.io](https://apis.io/) network, including Contestations API, Customers API, Disputas API, and 27 more. Tagged areas include Payments, Financial Services, Fintech, Brazil, and Latin America.
 
 
-  Pagar.me''s developer surface includes developer portal, documentation, API reference, getting-started guide, authentication, developer console, signup flow, and 25 more developer resources.'
+  The Pagar.me catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+
+
+  Pagar.me''s developer surface includes authentication, developer portal, documentation, API reference, getting-started guide, developer console, signup flow, and 38 more developer resources.'
 plans:
 - name: Pagar Me Plans Pricing
   plan_count: 3
   slug: pagar-me-plans-pricing
 random_paper: 8
+rules:
+- authorship: generated
+  effective_rule_count: 55
+  extends:
+  - spectral:oas
+  name: Pagar.me API Rules
+  rule_count: 14
+  severity_counts:
+    error: 6
+    hint: 0
+    info: 2
+    warn: 6
+  slug: pagar-me-rules
 score:
-  band: thin
-  composite: 34.7
+  band: developing
+  composite: 49.6
   coverage:
-    artifact_dirs: 7
-    catalog_earned: 53.8
+    artifact_dirs: 23
+    catalog_earned: 65.2
     catalog_earned_first_party: 0.0
-    catalog_gap: 61.2
+    catalog_gap: 49.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 14.9
   facets:
-    access_clarity: 60.0
-    contract_governance: 0.0
-    contract_quality: 0.0
+    access_clarity: 31.6
+    contract_governance: 22.0
+    contract_quality: 60.7
     developer_ergonomics: 81.0
-    discoverability: 71.4
-    operational_transparency: 5.3
+    discoverability: 78.6
+    operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -327,21 +485,31 @@ score:
   previous_composite: 34.7
   provenance:
     agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 100.0
+      total: 13
+    mcp: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 10.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+    score: 15.2
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/pagar-me/refs/heads/main/screenshots/pagar-me-2026-06-20T191321.png
 security:
+- kind: authentication
+  name: Pagar Me Authentication
+  slug: pagar-me-authentication
+  summary_line: http · 1 scheme
 - kind: domain-security
   name: Pagar Me Domain Security
   slug: pagar-me-domain-security

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 1
@@ -238,7 +238,7 @@ modified: '2026-07-21'
 name: Timeular
 nav: Providers
 network: true
-overview: 'Timeular publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Activities API, Authentication API, Current Tracking API, and 8 more. Tagged areas include Company, Time Tracking, Productivity, Time Management, and Reporting.
+overview: 'Timeular is listed with 11 APIs on the [APIs.io](https://apis.io/) network, including Activities API, Authentication API, Current Tracking API, and 8 more. Tagged areas include Company, Time Tracking, Productivity, Time Management, and Reporting.
 
 
   The Timeular catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -281,8 +281,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

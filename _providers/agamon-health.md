@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://resources.agamonhealth.com/blogs
 - group: company
   title: ''
   type: Website
@@ -61,26 +65,26 @@ created: '2026-07-17'
 description: Agamon Health is a healthcare AI company that improves imaging patient workflow management through automation across the continuum of care. Its Coordinate platform uses proprietary deep-learning natural language processing (NLP) models, trained on tens of millions of radiology reports, to automatically extract actionable findings from signed radiology reports, determine whether follow-up is needed, and capture modality, body part, and timeframe so radiology teams can automate patient communications, personalize outreach, and track follow-up adherence. Founded in 2018 and headquartered in New York City, Agamon has helped radiology teams increase productivity by up to 30 percent. The company was surfaced as a Seedcamp portfolio company and added to the API Evangelist network; it does not currently publish a public developer API, so this profile captures company identity and domain security rather than API artifacts.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/agamon-health.png
 layout: provider
-modified: '2026-07-17'
+modified: '2026-10-06'
 name: Agamon Health
 nav: Providers
 network: true
 overview: 'Agamon Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Radiology, Medical Imaging, and Artificial Intelligence.
 
 
-  Agamon Health''s developer surface includes support, engineering blog, and 3 more developer resources.'
+  Agamon Health''s developer surface includes engineering blog, support, and 4 more developer resources.'
 random_paper: 4
 score:
   band: minimal
-  composite: 5.0
+  composite: 5.1
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
@@ -100,8 +104,8 @@ score:
     regime: Health
     regime_id: health
     score: 4.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

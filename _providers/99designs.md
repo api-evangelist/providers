@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 4
+- acting_count: 3
   human_in_the_loop: 0
   name: 99Designs Agentic Access
   operation_count: 8
   slug: 99designs-agentic-access
-  summary_line: 8 operations · 4 acting
+  summary_line: 8 operations · 3 acting
 api_count: 1
 apis:
 - baseURL: https://api.99designs.com/resources/v1
@@ -91,6 +91,14 @@ collections:
   name: 99designs Products API
   slug: open-99designs-products-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://99designs.com/blog/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://99designs.com/blog/feed/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/99designs/refs/heads/main/capabilities/99designs-capability-edges.yml
   title: ''
@@ -247,14 +255,14 @@ created: '2026-07-17'
 description: '99designs by Vista is a global creative marketplace connecting clients with a worldwide network of freelance designers for logos, brand identity, web and packaging design, illustration, and more, using both a design-contest model and one-to-one projects. Its partner API (base https://api.99designs.com/resources/v1) lets platforms embed a fully-managed creative marketplace: search and match designers, retrieve designer profiles, reviews and portfolios, collect design briefs, list the products a partner has available for sale, place orders against those product versions, and generate partner coupons. Authentication uses a pair of API key headers (Api-Key-Id and Api-Key-Secret) issued to partners on request — access is sales-gated rather than self-serve, and no API plans or pricing are published. Founded in 2008 as a SitePoint spin-off and acquired by Cimpress/Vista in 2020.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/99designs.png
 layout: provider
-modified: '2026-08-13'
+modified: '2026-10-06'
 name: 99designs
 nav: Providers
 network: true
-overview: '99designs publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Briefs API, Coupons API, Designers API, and 2 more. Tagged areas include Company, Media, Design, Marketplace, and Creative.
+overview: '99designs publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Briefs API, Coupons API, Designers API, and 2 more. Tagged areas include Company, Media, Design, Marketplace, and Creative.
 
 
-  99designs'' developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, and 26 more developer resources.'
+  99designs'' developer surface includes engineering blog, authentication, documentation, API reference, getting-started guide, signup flow, pricing, and 28 more developer resources.'
 plans:
 - name: 99Designs Plans Pricing
   plan_count: 0
@@ -266,15 +274,15 @@ rate_limits:
   slug: 99designs-rate-limits
 score:
   band: developing
-  composite: 46.5
+  composite: 46.6
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 44.7
     contract_governance: 4.5
@@ -299,8 +307,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

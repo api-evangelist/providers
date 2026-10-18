@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.5
-  scored_at: '2026-10-04'
+  score: 22.6
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -65,6 +65,21 @@ collections:
   name: Mastercard Payment Gateway REST API
   slug: open-mastercard-gateway-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/mastercard-gateway-api/refs/heads/main/plans/mastercard-gateway-api-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/mastercard-gateway-api-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/mastercard-gateway-api/refs/heads/main/rate-limits/mastercard-gateway-api-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/mastercard-gateway-api-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/mastercard-gateway-api/refs/heads/main/finops/mastercard-gateway-api-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/mastercard-gateway-api-finops.yml
 - group: company
   title: ''
   type: Website
@@ -119,19 +134,23 @@ common:
 created: '2024-11-28'
 description: The Mastercard Payment Gateway provides a robust, developer-friendly REST API for integrating payment processing into applications. It supports a wide range of payment methods, currencies, and transaction types for merchants and payment service providers.
 finops:
-- name: Mastercard Gateway Api Finops
+- has_sources: false
+  method: generated
+  name: Mastercard Gateway Api Finops
+  primary_unit: ''
   service_category: API
   slug: mastercard-gateway-api-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mastercard-gateway-api.png
 layout: provider
 modified: '2026-09-16'
 name: Mastercard Gateway API
 nav: Providers
 network: true
-overview: 'Mastercard Gateway API publishes 2 APIs on the [APIs.io](https://apis.io/) network, including Merchant API, and 1 more. Tagged areas include Credit Cards, Gateways, Payment Processing, and Payments.
+overview: 'Mastercard Gateway API publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network, including Merchant API, and 1 more. Tagged areas include Credit Cards, Gateways, Payment Processing, and Payments.
 
 
-  Mastercard Gateway API''s developer surface includes authentication, developer portal, signup flow, support, and 8 more developer resources.'
+  Mastercard Gateway API''s developer surface includes authentication, developer portal, signup flow, support, and 11 more developer resources.'
 plans:
 - name: Mastercard Gateway Api Plans Pricing
   plan_count: 3
@@ -143,17 +162,17 @@ rate_limits:
   slug: mastercard-gateway-api-rate-limits
 score:
   band: thin
-  composite: 36.1
+  composite: 34.5
   coverage:
     artifact_dirs: 11
-    catalog_earned: 41.0
+    catalog_earned: 38.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 32.9
+    access_clarity: 25.0
     contract_governance: 0.0
     contract_quality: 45.3
     developer_ergonomics: 38.1
@@ -173,8 +192,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 14.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

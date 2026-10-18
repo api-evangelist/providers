@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -201,7 +201,7 @@ modified: '2026-07-20'
 name: Onsi
 nav: Providers
 network: true
-overview: 'Onsi publishes 2 APIs on the [APIs.io](https://apis.io/) network: Members API and Pay API. Tagged areas include Company, Benefits, Earned Wage Access, On-Demand Pay, and Payroll.
+overview: 'Onsi publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Members API and Pay API. Tagged areas include Company, Benefits, Earned Wage Access, On-Demand Pay, and Payroll.
 
 
   Onsi''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, authentication, and 20 more developer resources.'
@@ -245,8 +245,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 21.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

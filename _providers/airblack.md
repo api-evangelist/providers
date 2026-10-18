@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -129,7 +129,7 @@ modified: '2026-09-19'
 name: Airblack
 nav: Providers
 network: true
-overview: 'Airblack is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Education, EdTech, Online Learning, Skilling, and Beauty.
+overview: 'Airblack is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Education, EdTech, E-Learning, Skilling, and Beauty.
 
 
   Airblack''s developer surface includes support, engineering blog, and 16 more developer resources.'
@@ -138,7 +138,7 @@ score:
   band: minimal
   composite: 10.8
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 9
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -166,13 +166,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/airblack/refs/heads/main/screenshots/airblack-2026-10-11T093401.png
 security:
 - kind: domain-security
   name: Airblack Domain Security
@@ -182,7 +183,7 @@ slug: airblack
 tags:
 - Education
 - EdTech
-- Online Learning
+- E-Learning
 - Skilling
 - Beauty
 - Makeup

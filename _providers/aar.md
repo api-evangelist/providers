@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 9
 apis:
 - description: AAR's parts supply division distributes new and used aircraft and engine parts to commercial airlines, MROs, and government customers globally. Shipped and received 23 million commercial parts in FY20
@@ -65,6 +65,11 @@ apis:
   slug: aar-airvoyant
 artifact_total: 31
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/aar/refs/heads/main/finops/aar-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/aar-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/aar/refs/heads/main/security/aar-domain-security.yml
   title: ''
@@ -151,9 +156,13 @@ features:
 - description: Defense and government aviation services including maintenance programs, shelter systems, and supply chain support in over 20 countries.
   name: Government Expeditionary Services
 finops:
-- name: Aar Finops
+- has_sources: true
+  method: generated
+  name: Aar Finops
+  primary_unit: ''
   service_category: Aerospace / MRO
   slug: aar-finops
+  template: false
 image: /assets/icons/aar.png
 integrations:
 - description: Direct partnerships with major commercial airlines for MRO contracts, parts supply, and software implementation.
@@ -169,10 +178,10 @@ modified: '2026-08-29'
 name: AAR
 nav: Providers
 network: true
-overview: 'AAR publishes 9 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Aviation, MRO, Aerospace, Defense, and Parts Supply.
+overview: 'AAR is listed with 9 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Aviation, MRO, Aerospace, Defense, and Parts Supply.
 
 
-  AAR''s developer surface includes support, engineering blog, authentication, and 12 more developer resources.'
+  AAR''s developer surface includes support, engineering blog, authentication, and 13 more developer resources.'
 plans:
 - name: Aar Plans Pricing
   plan_count: 1
@@ -199,18 +208,18 @@ rate_limits:
   name: Aar Rate Limits
   slug: aar-rate-limits
 score:
-  band: thin
-  composite: 26.8
+  band: emerging
+  composite: 25.2
   coverage:
-    artifact_dirs: 16
-    catalog_earned: 54.0
+    artifact_dirs: 17
+    catalog_earned: 51.0
     catalog_earned_first_party: 16.0
-    catalog_gap: 61.0
+    catalog_gap: 64.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 57.9
+    access_clarity: 50.0
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 19.0
@@ -225,8 +234,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

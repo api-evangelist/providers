@@ -35,8 +35,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.4
-  scored_at: '2026-10-04'
-api_count: 6
+  scored_at: '2026-10-17'
+api_count: 9
 apis:
 - baseURL: https://analytics-service.neurable.com
   baseurl_source: declared
@@ -199,7 +199,7 @@ modified: '2026-08-04'
 name: Neurable
 nav: Providers
 network: true
-overview: 'Neurable publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Core API, OIDC API, Open API, and 2 more. Tagged areas include Neurotechnology, Brain-Computer Interface, EEG, Neuroscience, and Wearables.
+overview: 'Neurable publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Core API, OIDC API, Open API, and 2 more. Tagged areas include Neurotechnology, Brain-Computer Interface, EEG, Neuroscience, and Wearables.
 
 
   Neurable''s developer surface includes engineering blog, support, authentication, and 18 more developer resources.'
@@ -213,7 +213,7 @@ score:
   band: thin
   composite: 32.5
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -243,12 +243,13 @@ score:
     regime: Health
     regime_id: health
     score: 32.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
     score: 0.0
+screenshot: https://raw.githubusercontent.com/api-evangelist/neurable/refs/heads/main/screenshots/neurable-2026-10-11T111528.png
 security:
 - kind: authentication
   name: Neurable Authentication

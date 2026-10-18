@@ -33,10 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://launchfirestorm.com/blog/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/firestorm/refs/heads/main/security/firestorm-domain-security.yml
   title: ''
@@ -84,28 +88,31 @@ created: '2026-08-01'
 description: 'Firestorm (Firestorm Labs, Inc.) is a San Diego based defense technology company founded in 2022 that builds expeditionary manufacturing systems and modular unmanned aerial systems. Its xCELL containerized production unit uses HP Multi Jet Fusion additive manufacturing to 3D print industrial-grade PA-12 nylon composite airframes and spare parts at the tactical edge, feeding modular UAS platforms including the Tempest fixed-wing family and the Squall FPV drone. The company holds a five-year, $100M U.S. Air Force IDIQ and closed an $82M Series B in April 2026 led by Washington Harbour Partners. Firestorm ships hardware, not software: as of this profiling pass it publishes no developer portal, no public API, and no machine-readable API contract.'
 image: https://storage.googleapis.com/gpt-engineer-file-uploads/UD2JENFGrWTwK5Ak5U2HBxAemCb2/social-images/social-1765770122457-sharing%20image.png
 layout: provider
-modified: '2026-08-01'
+modified: '2026-10-06'
 name: Firestorm
 nav: Providers
 network: true
-overview: Firestorm is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defense, Aerospace, Unmanned Aerial Systems, and Drones.
+overview: 'Firestorm is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defense, Aerospace, Unmanned Aerial Systems, and Drones.
+
+
+  Firestorm''s developer surface includes engineering blog and 10 more developer resources.'
 random_paper: 19
 score:
   band: minimal
-  composite: 7.1
+  composite: 7.7
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 10.5
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 55.4
     operational_transparency: 2.6
   previous_composite: 7.1
@@ -115,8 +122,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 9.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -135,7 +142,6 @@ tags:
 - Aerospace
 - Unmanned Aerial Systems
 - Drones
-- Additive Manufacturing
 - 3D Printing
 - Manufacturing
 - Hardware

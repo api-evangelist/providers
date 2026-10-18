@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-04'
+  score: 20.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -118,6 +118,21 @@ collections:
   name: SportsGameOdds API
   slug: open-sportsgameodds
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sportsgameodds/refs/heads/main/plans/sportsgameodds-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/sportsgameodds-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/sportsgameodds/refs/heads/main/rate-limits/sportsgameodds-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/sportsgameodds-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sportsgameodds/refs/heads/main/finops/sportsgameodds-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/sportsgameodds-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/sportsgameodds/refs/heads/main/agentic-access/sportsgameodds-agentic-access.yml
   title: ''
@@ -191,9 +206,13 @@ examples:
   name: Sportsgameodds List Markets Example
   slug: sportsgameodds-list-markets-example
 finops:
-- name: Sportsgameodds Finops
+- has_sources: false
+  method: generated
+  name: Sportsgameodds Finops
+  primary_unit: ''
   service_category: API
   slug: sportsgameodds-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sportsgameodds.png
 json_schemas:
 - name: SportsGameOdds Event
@@ -216,13 +235,13 @@ modified: '2026-05-19'
 name: SportsGameOdds
 nav: Providers
 network: true
-overview: 'SportsGameOdds publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Account API, Events API, Leagues API, and 5 more. Tagged areas include Sports Betting, Odds, Sports Data, Fantasy Sports, and Gambling.
+overview: 'SportsGameOdds publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Events API, Leagues API, and 5 more. Tagged areas include Sports Betting, Odds, Sports Data, Fantasy Sports, and Gambling.
 
 
   The SportsGameOdds catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  SportsGameOdds'' developer surface includes authentication, developer portal, documentation, pricing, GitHub presence, engineering blog, and 9 more developer resources.'
+  SportsGameOdds'' developer surface includes authentication, developer portal, documentation, pricing, GitHub presence, engineering blog, and 12 more developer resources.'
 plans:
 - name: Sportsgameodds Plans Pricing
   plan_count: 3
@@ -233,9 +252,10 @@ rate_limits:
   name: Sportsgameodds Rate Limits
   slug: sportsgameodds-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: SportsGameOdds API Rules
+  name: SportsGameOdds — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -243,7 +263,8 @@ rules:
     info: 2
     warn: 3
   slug: sportsgameodds-jsonschema-spectral-rules
-- effective_rule_count: 50
+- authorship: unmarked
+  effective_rule_count: 50
   extends:
   - spectral:oas
   name: SportsGameOdds API Rules
@@ -256,17 +277,17 @@ rules:
   slug: sportsgameodds-rules
 score:
   band: developing
-  composite: 43.8
+  composite: 42.3
   coverage:
     artifact_dirs: 18
-    catalog_earned: 58.5
+    catalog_earned: 55.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 56.5
+    catalog_gap: 59.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 26.3
+    access_clarity: 18.4
     contract_governance: 13.6
     contract_quality: 55.6
     developer_ergonomics: 69.0
@@ -286,8 +307,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: REST API for the Koalaboox / Cegid Click & Finance invoicing and invoice-financing platform. Resource-oriented URLs, JSON-encoded requests and responses, standard HTTP status codes, and OAuth 2.0 auth
@@ -42,6 +42,10 @@ apis:
   slug: cegid-click-finance-api
 artifact_total: 5
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.cegid.com/fr/insights/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/koalaboox/refs/heads/main/security/koalaboox-vulnerability-disclosure.yml
   title: ''
@@ -156,14 +160,14 @@ created: '2026-07-17'
 description: Koalaboox is a Belgian cloud invoicing and cash-flow platform for small businesses, self-employed professionals and their accountants, now operating as Cegid Invoice & Financing — API brand Cegid Click & Finance — following its acquisition by Cegid. The platform covers sales invoicing, quotes, purchase-invoice management, recurring invoices, dynamic dashboards, bank-account connections and Peppol-based electronic invoicing for the Belgian 2026 e-invoicing mandate, sold in Belgium and Spain. Alongside the SaaS it offers invoice financing — cash advances against outstanding invoices — underwritten by Cegid Fin Belgium. Koalaboox exposes a public REST API at connect.koalaboox.com secured with OAuth 2.0 authorization-code grants, documented on a Stoplight developer portal, with a first-party Laravel reference architecture published on GitHub.
 image: https://raw.githubusercontent.com/koalaboox/static/main/CEGID_Logo_Bleu.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Koalaboox
 nav: Providers
 network: true
-overview: 'Koalaboox publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Invoicing, E-Invoicing, PEPPOL, and Accounting.
+overview: 'Koalaboox is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Invoicing, E-Invoicing, PEPPOL, and Accounting.
 
 
-  Koalaboox''s developer surface includes documentation, pricing, signup flow, support, authentication, and 19 more developer resources.'
+  Koalaboox''s developer surface includes engineering blog, documentation, pricing, signup flow, support, authentication, and 19 more developer resources.'
 plans:
 - name: Koalaboox Plans
   plan_count: 4
@@ -171,20 +175,20 @@ plans:
 random_paper: 14
 score:
   band: thin
-  composite: 29.5
+  composite: 30.1
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 55.3
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 31.0
+    developer_ergonomics: 33.3
     discoverability: 73.2
     operational_transparency: 13.2
   jurisdiction:
@@ -207,8 +211,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

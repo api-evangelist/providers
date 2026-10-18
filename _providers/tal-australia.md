@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: partner
+  gated_source:
+  - tag:Partner Gated
   label: Self-serve signup
   onboarding: self-serve
   pricing: unknown
@@ -35,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: TAL's partner-facing OpenID Connect identity tenant (Okta org talpartner-au.okta.com), and the only machine-readable API contract TAL serves anonymously. Full OIDC discovery and RFC 8414 authorization
@@ -177,7 +180,7 @@ modified: '2026-07-25'
 name: TAL
 nav: Providers
 network: true
-overview: 'TAL publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Australia, Life Insurance, Income Protection, and Group Insurance.
+overview: 'TAL is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Australia, Life Insurance, Income Protection, and Group Insurance.
 
 
   TAL''s developer surface includes authentication, support, FAQ, engineering blog, and 23 more developer resources.'
@@ -221,8 +224,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 33.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -250,8 +253,6 @@ tags:
 - Claims
 - Carrier
 - Embedded Insurance
-- Partner Gated
-- No Public API
 - GraphQL
 - Identity
 website: https://www.tal.com.au/

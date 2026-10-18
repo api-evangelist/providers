@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 7
 apis:
 - description: ytt is a templating tool that understands YAML structure, letting you use familiar YAML constructs and Python-like language (Starlark) to template Kubernetes configuration. Supports overlays, data val
@@ -59,6 +59,11 @@ apis:
   slug: secretgen-controller
 artifact_total: 13
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/carvel/refs/heads/main/finops/carvel-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/carvel-finops.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -203,19 +208,23 @@ common:
 created: '2026-03-26'
 description: Carvel is a set of reliable, single-purpose, composable command-line tools that help build, configure, and deploy applications to Kubernetes. The toolset includes ytt for YAML templating, kapp for application lifecycle management, kbld for immutable image references, imgpkg for OCI bundling, vendir for vendored configuration, and kapp-controller for GitOps-style continuous delivery.
 finops:
-- name: Carvel Finops
+- has_sources: false
+  method: generated
+  name: Carvel Finops
+  primary_unit: ''
   service_category: API
   slug: carvel-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/carvel.png
 layout: provider
 modified: '2026-09-05'
 name: Carvel
 nav: Providers
 network: true
-overview: 'Carvel publishes 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include CLI, Configuration, Containers, Deployment, and Developer Tools.
+overview: 'Carvel is listed with 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include CLI, Configuration, Containers, Deployment, and Developer Tools.
 
 
-  Carvel''s developer surface includes documentation, engineering blog, CLI, changelog, authentication, sandbox, and 25 more developer resources.'
+  Carvel''s developer surface includes documentation, engineering blog, CLI, changelog, authentication, sandbox, and 26 more developer resources.'
 plans:
 - name: Carvel Plans Pricing
   plan_count: 0
@@ -227,17 +236,17 @@ rate_limits:
   slug: carvel-rate-limits
 score:
   band: thin
-  composite: 38.5
+  composite: 37.2
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 44.0
+    artifact_dirs: 23
+    catalog_earned: 41.0
     catalog_earned_first_party: 6.0
-    catalog_gap: 71.0
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.3
   facets:
-    access_clarity: 7.9
+    access_clarity: 0.0
     contract_governance: 18.2
     contract_quality: 32.0
     developer_ergonomics: 36.9
@@ -256,8 +265,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

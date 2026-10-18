@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.8
-  scored_at: '2026-10-04'
+  score: 22.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 1
@@ -93,6 +93,21 @@ collections:
   name: Regions Open Banking API
   slug: open-regions-open-banking
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/regions-financial/refs/heads/main/plans/regions-financial-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/regions-financial-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/regions-financial/refs/heads/main/rate-limits/regions-financial-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/regions-financial-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/regions-financial/refs/heads/main/finops/regions-financial-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/regions-financial-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/regions-financial/refs/heads/main/capabilities/regions-financial-capability-edges.yml
   title: ''
@@ -151,9 +166,13 @@ examples:
   name: Regions List Transactions Example
   slug: regions-list-transactions-example
 finops:
-- name: Regions Financial Finops
+- has_sources: true
+  method: generated
+  name: Regions Financial Finops
+  primary_unit: ''
   service_category: Banking
   slug: regions-financial-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/regions-financial.png
 json_schemas:
 - name: Account
@@ -179,13 +198,13 @@ modified: '2026-05-19'
 name: Regions Financial Corporation
 nav: Providers
 network: true
-overview: 'Regions Financial Corporation publishes 5 APIs on the [APIs.io](https://apis.io/) network, including regions-financial Account Information API, regions-financial Consent API, regions-financial Customer API, and 2 more. Tagged areas include Banking, Financial Services, Open Banking, FDX, and Consumer Banking.
+overview: 'Regions Financial Corporation publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including regions-financial Account Information API, regions-financial Consent API, regions-financial Customer API, and 2 more. Tagged areas include Banking, Financial Services, Open Banking, FDX, and Consumer Banking.
 
 
   The Regions Financial Corporation catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Regions Financial Corporation''s developer surface includes authentication and 10 more developer resources.'
+  Regions Financial Corporation''s developer surface includes authentication and 13 more developer resources.'
 plans:
 - name: Regions Financial Plans Pricing
   plan_count: 1
@@ -212,9 +231,10 @@ rate_limits:
   name: Regions Financial Rate Limits
   slug: regions-financial-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Regions Financial Corporation API Rules
+  name: Regions Financial Corporation — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -222,7 +242,8 @@ rules:
     info: 2
     warn: 3
   slug: regions-financial-jsonschema-spectral-rules
-- effective_rule_count: 49
+- authorship: unmarked
+  effective_rule_count: 49
   extends:
   - spectral:oas
   name: Regions Financial Corporation API Rules
@@ -240,17 +261,17 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: thin
-  composite: 28.9
+  composite: 27.3
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 58.0
+    artifact_dirs: 22
+    catalog_earned: 55.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.0
+    catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 13.2
+    access_clarity: 5.3
     contract_governance: 27.3
     contract_quality: 52.6
     developer_ergonomics: 11.9
@@ -270,12 +291,13 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 29.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
     score: 0.0
+screenshot: https://raw.githubusercontent.com/api-evangelist/regions-financial/refs/heads/main/screenshots/regions-financial-2026-10-11T192417.png
 security:
 - kind: authentication
   name: Regions Financial Authentication

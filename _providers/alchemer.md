@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: RESTful API v5 for managing surveys, responses, contacts, campaigns, and account resources within the Alchemer enterprise survey platform.
@@ -100,16 +100,20 @@ common:
 created: '2026-06-13'
 description: Enterprise survey and experience management platform with a REST API for managing surveys, accessing response data, managing contacts, and automating survey workflows. The Alchemer REST API v5 supports multi-region deployments across US, EU, Canada, and Australia, with API key and OAuth 1.0 authentication. API access is available exclusively on Business Platform accounts.
 finops:
-- name: Alchemer Finops
+- has_sources: false
+  method: generated
+  name: Alchemer Finops
+  primary_unit: ''
   service_category: ''
   slug: alchemer-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/alchemer.png
 layout: provider
 modified: '2026-06-13'
 name: Alchemer
 nav: Providers
 network: true
-overview: 'Alchemer publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Surveys, Experience Management, Feedback, Data Collection, and Enterprise.
+overview: 'Alchemer is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Surveys, Experience Management, Feedback, Data Collection, and Enterprise.
 
 
   Alchemer''s developer surface includes documentation, engineering blog, pricing, and 10 more developer resources.'
@@ -123,23 +127,23 @@ rate_limits:
   name: Alchemer Rate Limits
   slug: alchemer-rate-limits
 score:
-  band: thin
-  composite: 28.5
+  band: emerging
+  composite: 20.2
   coverage:
-    artifact_dirs: 8
-    catalog_earned: 61.6
+    artifact_dirs: 9
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.4
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 46.8
+    access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 33.3
     discoverability: 66.1
-    operational_transparency: 49.5
+    operational_transparency: 28.9
   previous_composite: 28.5
   regulatory:
     applies: true
@@ -147,9 +151,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

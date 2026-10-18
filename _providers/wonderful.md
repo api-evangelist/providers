@@ -25,14 +25,14 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: false
+    protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 8.6
-  scored_at: '2026-10-04'
+  score: 12.2
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 3
 common:
@@ -84,22 +84,22 @@ modified: '2026-07-21'
 name: Wonderful
 nav: Providers
 network: true
-overview: 'Wonderful is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Ml, Enterprise AI, AI Agents, and AI Platform.
+overview: 'Wonderful is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Enterprise AI, AI Agents, and AI Platform.
 
 
   Wonderful''s developer surface includes engineering blog and 7 more developer resources.'
 random_paper: 14
 score:
   band: minimal
-  composite: 8.5
+  composite: 8.3
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 10.5
     contract_governance: 0.0
@@ -115,9 +115,9 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 15.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+    score: 14.5
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -136,7 +136,7 @@ security:
 slug: wonderful
 tags:
 - Company
-- Ai Ml
+- Artificial Intelligence
 - Enterprise AI
 - AI Agents
 - AI Platform

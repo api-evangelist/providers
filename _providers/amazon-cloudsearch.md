@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -316,7 +316,7 @@ modified: '2026-06-20'
 name: Amazon CloudSearch
 nav: Providers
 network: true
-overview: 'Amazon CloudSearch publishes 2 APIs on the [APIs.io](https://apis.io/) network: Domains API and Index Fields API. Tagged areas include CloudSearch, Search, Full-Text Search, and Managed.
+overview: 'Amazon CloudSearch publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Domains API and Index Fields API. Tagged areas include CloudSearch, Search, Full-Text Search, and Managed.
 
 
   The Amazon CloudSearch catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -325,9 +325,10 @@ overview: 'Amazon CloudSearch publishes 2 APIs on the [APIs.io](https://apis.io/
   Amazon CloudSearch''s developer surface includes developer portal, documentation, support, engineering blog, developer console, signup flow, YouTube channel, and 22 more developer resources.'
 random_paper: 8
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Amazon CloudSearch API Rules
+  name: Amazon CloudSearch — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -335,7 +336,8 @@ rules:
     info: 2
     warn: 3
   slug: amazon-cloudsearch-jsonschema-spectral-rules
-- effective_rule_count: 65
+- authorship: generated
+  effective_rule_count: 65
   extends:
   - spectral:oas
   name: Amazon CloudSearch API Rules
@@ -380,8 +382,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

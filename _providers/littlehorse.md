@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.3
-  scored_at: '2026-10-04'
+  score: 15.4
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 1
@@ -100,6 +100,21 @@ collections:
   name: LittleHorse REST External Events Workflow Specs API
   slug: open-littlehorse-workflow-specs-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/littlehorse/refs/heads/main/plans/littlehorse-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/littlehorse-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/littlehorse/refs/heads/main/rate-limits/littlehorse-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/littlehorse-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/littlehorse/refs/heads/main/finops/littlehorse-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/littlehorse-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/littlehorse/refs/heads/main/agentic-access/littlehorse-agentic-access.yml
   title: ''
@@ -129,19 +144,23 @@ common:
 created: '2026-03-26'
 description: LittleHorse is an open source workflow engine for orchestrating distributed systems with support for Java, Go, Python, and .NET.
 finops:
-- name: Littlehorse Finops
+- has_sources: false
+  method: generated
+  name: Littlehorse Finops
+  primary_unit: ''
   service_category: API
   slug: littlehorse-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/littlehorse.png
 layout: provider
 modified: '2026-05-19'
 name: LittleHorse
 nav: Providers
 network: true
-overview: 'LittleHorse publishes 6 APIs on the [APIs.io](https://apis.io/) network, including External Events API, Node Runs API, Task Definitions API, and 3 more. Tagged areas include Microservices.
+overview: 'LittleHorse publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including External Events API, Node Runs API, Task Definitions API, and 3 more. Tagged areas include Microservices.
 
 
-  LittleHorse''s developer surface includes engineering blog and 5 more developer resources.'
+  LittleHorse''s developer surface includes engineering blog and 8 more developer resources.'
 plans:
 - name: Littlehorse Plans Pricing
   plan_count: 3
@@ -153,17 +172,17 @@ rate_limits:
   slug: littlehorse-rate-limits
 score:
   band: emerging
-  composite: 19.4
+  composite: 17.9
   coverage:
     artifact_dirs: 10
-    catalog_earned: 31.0
+    catalog_earned: 28.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 84.0
+    catalog_gap: 87.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 41.6
     developer_ergonomics: 2.4
@@ -183,8 +202,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

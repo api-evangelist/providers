@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 3.8
-  scored_at: '2026-10-04'
+  score: 1.9
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Derby provides a standard JDBC API for database operations in both embedded (org.apache.derby.jdbc.EmbeddedDriver) and client/server (org.apache.derby.jdbc.ClientDriver) modes, supporting full SQL, st
@@ -41,6 +41,21 @@ apis:
   slug: apache-derby
 artifact_total: 29
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/apache-derby/refs/heads/main/plans/apache-derby-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/apache-derby-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/apache-derby/refs/heads/main/rate-limits/apache-derby-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/apache-derby-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/apache-derby/refs/heads/main/finops/apache-derby-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/apache-derby-finops.yml
 - group: company
   title: ''
   type: Website
@@ -114,9 +129,13 @@ features:
 - description: Supports Java-based stored procedures and functions callable directly from SQL using standard JDBC interfaces.
   name: Java Stored Procedures
 finops:
-- name: Apache Derby Finops
+- has_sources: false
+  method: generated
+  name: Apache Derby Finops
+  primary_unit: ''
   service_category: API
   slug: apache-derby-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/apache-derby.png
 integrations:
 - description: Derby provides JDBC 4.0/4.1/4.2 compliant embedded and network client drivers.
@@ -153,13 +172,13 @@ modified: '2026-09-16'
 name: Apache Derby
 nav: Providers
 network: true
-overview: 'Apache Derby publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Apache, Database, Embedded, Java, and JDBC.
+overview: 'Apache Derby is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Apache, Database, Embedded, Java, and JDBC.
 
 
   The Apache Derby catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Apache Derby''s developer surface includes developer portal, documentation, getting-started guide, Stack Overflow tag, and 8 more developer resources.'
+  Apache Derby''s developer surface includes developer portal, documentation, getting-started guide, Stack Overflow tag, and 11 more developer resources.'
 plans:
 - name: Apache Derby Plans Pricing
   plan_count: 3
@@ -170,9 +189,10 @@ rate_limits:
   name: Apache Derby Rate Limits
   slug: apache-derby-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Apache Derby API Rules
+  name: Apache Derby — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -182,17 +202,17 @@ rules:
   slug: apache-derby-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 28.4
+  composite: 26.9
   coverage:
     artifact_dirs: 12
-    catalog_earned: 61.3
+    catalog_earned: 58.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.8
+    catalog_gap: 56.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 9.8
     contract_quality: 29.2
     developer_ergonomics: 47.6
@@ -205,8 +225,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

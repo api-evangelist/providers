@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The backend API behind the Crimson App student and mentor platform. There is no provider-published OpenAPI or public developer portal; the surface is documented and exercised through the first-party T
@@ -145,7 +145,7 @@ modified: '2026-08-04'
 name: Crimson Education
 nav: Providers
 network: true
-overview: 'Crimson Education publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, EdTech, Admissions, and Tutoring.
+overview: 'Crimson Education is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, EdTech, Admissions, and Tutoring.
 
 
   Crimson Education''s developer surface includes engineering blog, authentication, changelog, sandbox, and 16 more developer resources.'
@@ -154,7 +154,7 @@ score:
   band: emerging
   composite: 17.4
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -177,13 +177,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 18.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/crimson-education/refs/heads/main/screenshots/crimson-education-2026-10-11T185208.png
 security:
 - kind: authentication
   name: Crimson Education Authentication
@@ -201,7 +202,7 @@ tags:
 - Admissions
 - Tutoring
 - Students
-- Online Learning
+- E-Learning
 - Mentoring
 website: https://www.crimsoneducation.org/us
 ---

@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 18.0
-  scored_at: '2026-10-04'
+  score: 16.1
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'REST API for managing bills, vendors, payment methods, and scheduling payments. Supports ACH transfers, check payments, wire transfers, and international payments. Includes webhook support, a sandbox '
@@ -118,9 +118,13 @@ common:
 created: '2026-06-13'
 description: Melio is a B2B payments platform for small businesses that provides a REST API for managing bills, vendors, payment methods, scheduling payments, and syncing with accounting software including QuickBooks, Xero, and NetSuite. Melio enables software companies to embed bill pay, vendor payments, and invoicing directly inside their products with ACH and card options. Founded in 2018, Melio has processed over $100B in payments for 100,000+ business users and 2M+ vendors.
 finops:
-- name: Melio Finops
+- has_sources: false
+  method: generated
+  name: Melio Finops
+  primary_unit: ''
   service_category: ''
   slug: melio-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/melio.png
 jsonld:
 - class_count: 19
@@ -132,7 +136,7 @@ modified: '2026-06-13'
 name: Melio
 nav: Providers
 network: true
-overview: 'Melio publishes 1 API on the [APIs.io](https://apis.io/) network: Payments API. Tagged areas include B2B Payments, Accounts Payable, Accounts Receivable, Bill Pay, and Vendor Payments.
+overview: 'Melio is listed with 1 API on the [APIs.io](https://apis.io/) network: Payments API. Tagged areas include B2B Payments, Accounts Payable, Accounts Receivable, Bill Pay, and Vendor Payments.
 
 
   The Melio catalog on APIs.io includes 1 JSON-LD context.
@@ -150,17 +154,17 @@ rate_limits:
   slug: melio-rate-limits
 score:
   band: thin
-  composite: 38.5
+  composite: 32.9
   coverage:
-    artifact_dirs: 9
-    catalog_earned: 58.8
+    artifact_dirs: 10
+    catalog_earned: 48.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 56.2
+    catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.6
   facets:
-    access_clarity: 67.9
+    access_clarity: 39.5
     contract_governance: 0.0
     contract_quality: 34.7
     developer_ergonomics: 25.0
@@ -173,9 +177,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 27.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -189,7 +193,7 @@ security:
 - kind: vulnerability-disclosure
   name: Melio Vulnerability Disclosure
   slug: melio-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 slug: melio
 tags:
 - B2B Payments

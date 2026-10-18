@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 13
 common:
@@ -114,7 +114,7 @@ modified: '2026-09-02'
 name: American National Insurance
 nav: Providers
 network: true
-overview: 'American National Insurance is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Life Insurance, Annuities, Health Insurance, and Property Casualty.
+overview: 'American National Insurance is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Life Insurance, Annuities, Health Insurance, and Property and Casualty.
 
 
   American National Insurance''s developer surface includes support, engineering blog, and 6 more developer resources.'
@@ -139,7 +139,7 @@ score:
   band: minimal
   composite: 10.5
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -167,13 +167,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 12.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/american-national-insurance/refs/heads/main/screenshots/american-national-insurance-2026-10-11T141639.png
 security:
 - kind: domain-security
   name: American National Insurance Domain Security
@@ -185,7 +186,7 @@ tags:
 - Life Insurance
 - Annuities
 - Health Insurance
-- Property Casualty
+- Property and Casualty
 - Pensions
 - Financial Services
 - Fortune 1000

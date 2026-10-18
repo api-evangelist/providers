@@ -17,7 +17,7 @@ description: Multicoin Capital is a thesis-driven crypto investment firm founded
   rising from the ashes of the old one, reflecting its long-term, high-conviction approach to absolute returns across market cycles. Headquartered in Austin, Texas, Multicoin manages capital on behalf of family offices, foundations, endowments, and institutional investors. In February 2026 co-founder Kyle Samani stepped back from day-to-day management, with operations continuing under co-founder Tushar Jain and partner Brian Smith.
 image: https://multicoin.capital/favicon.ico
 layout: provider
-modified: '2026-07-17'
+modified: '2026-10-06'
 name: Multicoin Capital
 nav: Providers
 network: true
@@ -27,7 +27,7 @@ tags:
 - Venture Capital
 - Seed
 - Series A
-- Crypto
+- Cryptocurrency
 - Blockchain
 - Web3
 - DeFi

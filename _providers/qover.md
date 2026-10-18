@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'Qover''s REST API for embedded insurance: a Claims API (file, retrieve, track status history, and download claim reports), a Policy API (manage policies and dynamically add/remove risk items), and a Do'
@@ -141,7 +141,7 @@ modified: '2026-07-20'
 name: Qover
 nav: Providers
 network: true
-overview: 'Qover publishes 1 API on the [APIs.io](https://apis.io/) network: Embedded Insurance API. Tagged areas include Company, Insurtech, Insurance, Embedded Insurance, and Claims.
+overview: 'Qover is listed with 1 API on the [APIs.io](https://apis.io/) network: Embedded Insurance API. Tagged areas include Company, Insurtech, Insurance, Embedded Insurance, and Claims.
 
 
   The Qover catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -190,8 +190,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 26.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

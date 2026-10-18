@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The Hashnode Public API is a GraphQL API that queries publication data, manages posts and drafts, and creates content via mutations. All requests are POSTed to a single endpoint at https://gql-beta.ha
@@ -217,9 +217,13 @@ common:
 created: '2026-06-13'
 description: Hashnode is a blogging platform for developers and engineering teams, offering publications on a custom domain, a headless CMS mode, and a public GraphQL API covering posts, drafts, publications, users, tags, series, comments and documentation projects. The API is a single GraphQL endpoint with anonymous introspection; authentication is a Personal Access Token in the Authorization header, with no OAuth and no scopes. Since 13 May 2026 the API has been a paid feature - anonymous public reads still work, but every publication-scoped read and every write mutation requires the target publication to hold an active Hashnode Pro plan. Hashnode publishes no OpenAPI and no MCP server, shipping an official Agent Skill instead.
 finops:
-- name: Hashnode Finops
+- has_sources: false
+  method: generated
+  name: Hashnode Finops
+  primary_unit: ''
   service_category: API
   slug: hashnode-finops
+  template: true
 graphqls:
 - description: The Hashnode API is a GraphQL API that allows developers to interact with the Hashnode blogging platform, manage posts, publications, and user data.
   name: Hashnode GraphQL API
@@ -230,7 +234,7 @@ modified: '2026-08-13'
 name: Hashnode
 nav: Providers
 network: true
-overview: 'Hashnode publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Blogging, Developer Platform, GraphQL, Content Management, and Publications.
+overview: 'Hashnode is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Blogging, Developer Platform, GraphQL, Content Management, and Publications.
 
 
   The Hashnode catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -248,17 +252,17 @@ rate_limits:
   slug: hashnode-rate-limits
 score:
   band: strong
-  composite: 58.4
+  composite: 56.9
   coverage:
     artifact_dirs: 24
-    catalog_earned: 60.0
+    catalog_earned: 57.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 55.0
+    catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 71.1
+    access_clarity: 63.2
     contract_governance: 4.5
     contract_quality: 46.9
     developer_ergonomics: 78.6
@@ -275,8 +279,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

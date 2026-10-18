@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 21.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: A live Model Context Protocol server operated by Noctrix Health on the Nidra product site. Discovered anonymously from RFC 9728 OAuth 2.0 Protected Resource Metadata at https://nidrarls.com/.well-know
@@ -135,7 +135,7 @@ modified: '2026-08-26'
 name: Noctrix Health
 nav: Providers
 network: true
-overview: 'Noctrix Health publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Medical Devices, Digital Health, and Sleep.
+overview: 'Noctrix Health is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Medical Devices, Digital Health, and Sleep.
 
 
   Noctrix Health''s developer surface includes support, pricing, authentication, and 14 more developer resources.'
@@ -181,8 +181,8 @@ score:
     regime: Health
     regime_id: health
     score: 32.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

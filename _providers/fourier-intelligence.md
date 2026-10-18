@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://fftai.com/blog/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/fourier-intelligence/refs/heads/main/security/fourier-intelligence-domain-security.yml
   title: ''
@@ -67,14 +71,14 @@ created: '2026-07-17'
 description: 'Fourier (Fourier Intelligence, founded 2015 and headquartered in Shanghai, China) is a full-stack robotics company that develops core robot technology and finished robot products. It began in rehabilitation robotics — exoskeletons and upper/lower-limb rehab devices such as the ArmMotus and ExoMotus lines and the RehabHub intelligent rehabilitation ecosystem — and has expanded into general-purpose humanoid robots (the GRx series, including GR-1 and GR-2), smart actuators (FSA), and dexterous hands. Fourier publishes first-party developer SDKs for robot control through its FFTAI GitHub organization: the RoCS (Robot Control System / General Robotics OS) client libraries for Python and JavaScript/TypeScript, and the fourier-grx control stack for the GRx humanoid series. Fourier is backed by SoftBank Vision Fund. These are device/robot-control developer libraries rather than a hosted web API; the company publishes no public REST/OpenAPI surface.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fourier-intelligence.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Fourier Intelligence
 nav: Providers
 network: true
 overview: 'Fourier Intelligence is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health Tech, Robotics, Rehabilitation Robotics, and Humanoid Robots.
 
 
-  Fourier Intelligence''s developer surface includes engineering blog and 5 more developer resources.'
+  Fourier Intelligence''s developer surface includes engineering blog and 6 more developer resources.'
 random_paper: 8
 score:
   band: minimal
@@ -108,8 +112,8 @@ score:
     regime: Health
     regime_id: health
     score: 4.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

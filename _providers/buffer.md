@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 44.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: GraphQL API for scheduling and publishing posts, managing social media channels, handling content ideas and idea groups, post templates, and accessing normalized post metrics across 11 major social me
@@ -241,9 +241,13 @@ common:
 created: '2026-06-13'
 description: Buffer is a social media scheduling, publishing and analytics platform with a GraphQL API for scheduling posts, managing content queues and ideas, working with post templates, accessing normalized engagement metrics, and publishing across eleven social channels including Instagram, LinkedIn, X, TikTok, Facebook, Threads, Pinterest, Bluesky, YouTube, Mastodon and Google Business Profiles. Access is by personal API key or OAuth 2.0 with PKCE, and Buffer also operates a hosted Model Context Protocol server plus a first-party CLI that ships installable agent skills. The legacy REST API is being retired on February 1, 2027.
 finops:
-- name: Buffer Finops
+- has_sources: false
+  method: generated
+  name: Buffer Finops
+  primary_unit: ''
   service_category: ''
   slug: buffer-finops
+  template: true
 graphqls:
 - description: '> Connect Buffer to your agents, automation tools, or build something entirely new.'
   name: Buffer API Reference
@@ -257,7 +261,7 @@ modified: '2026-08-13'
 name: Buffer
 nav: Providers
 network: true
-overview: 'Buffer publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Social Media, Scheduling, Analytics, Publishing, and Content Management.
+overview: 'Buffer is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Social Media, Scheduling, Analytics, Publishing, and Content Management.
 
 
   Buffer''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, pricing, and 36 more developer resources.'
@@ -276,18 +280,18 @@ scopes:
   slug: buffer-scopes
   summary_line: 11 scopes · authorizationCode
 score:
-  band: exemplar
-  composite: 67.0
+  band: strong
+  composite: 65.5
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 52.0
+    artifact_dirs: 25
+    catalog_earned: 49.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 92.1
+    access_clarity: 84.2
     contract_governance: 18.2
     contract_quality: 39.4
     developer_ergonomics: 85.7
@@ -310,8 +314,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

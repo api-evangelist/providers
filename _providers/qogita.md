@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Qogita's REST API for retailers and integration partners on api.qogita.com, covering catalog, ordering, and fulfilment workflows. Documented via the developer portal (hosted on Notion).
@@ -41,6 +41,14 @@ apis:
   slug: qogita-api
 artifact_total: 5
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.qogita.com/blog/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.qogita.com/blog/rss/
 - group: company
   title: ''
   type: Website
@@ -129,14 +137,14 @@ mcp_servers:
 - description: Remote MCP server at api.qogita.com over HTTP.
   name: Qogita Staff MCP - Production
   slug: qogita-staff-mcp---production
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Qogita
 nav: Providers
 network: true
-overview: 'Qogita publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Wholesale, Marketplace, and Health and Beauty.
+overview: 'Qogita is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Wholesale, Marketplace, and Health and Beauty.
 
 
-  Qogita''s developer surface includes documentation, engineering blog, support, authentication, and 14 more developer resources.'
+  Qogita''s developer surface includes engineering blog, documentation, support, authentication, and 16 more developer resources.'
 random_paper: 7
 scopes:
 - name: Qogita Scopes
@@ -147,7 +155,7 @@ score:
   band: emerging
   composite: 21.9
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -171,8 +179,8 @@ score:
     regime: Health
     regime_id: health
     score: 29.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

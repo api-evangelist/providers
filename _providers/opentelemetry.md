@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The OTLP gRPC API defines Protocol Buffers service definitions for exporting traces, metrics, and logs over gRPC. It is the primary transport for OpenTelemetry data between SDK instrumentation, the Op
@@ -79,6 +79,21 @@ collections:
   name: OpenTelemetry Protocol (OTLP) HTTP Traces API
   slug: open-opentelemetry-traces-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/opentelemetry/refs/heads/main/plans/opentelemetry-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/opentelemetry-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/opentelemetry/refs/heads/main/rate-limits/opentelemetry-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/opentelemetry-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/opentelemetry/refs/heads/main/finops/opentelemetry-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/opentelemetry-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/opentelemetry/refs/heads/main/capabilities/opentelemetry-capability-edges.yml
   title: ''
@@ -168,22 +183,26 @@ common:
 created: '2025-01-01'
 description: Vendor-neutral open-source observability framework for cloud-native software, providing a collection of tools, APIs, and SDKs for instrumenting, generating, collecting, and exporting telemetry data including metrics, logs, and traces.
 finops:
-- name: Opentelemetry Finops
+- has_sources: false
+  method: generated
+  name: Opentelemetry Finops
+  primary_unit: ''
   service_category: API
   slug: opentelemetry-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/opentelemetry.png
 layout: provider
 modified: '2026-04-28'
 name: OpenTelemetry
 nav: Providers
 network: true
-overview: 'OpenTelemetry publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Logs API, Metrics API, Traces API, and 3 more. Tagged areas include Cloud-Native, Logging, Metrics, Monitoring, and Observability.
+overview: 'OpenTelemetry publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Logs API, Metrics API, Traces API, and 3 more. Tagged areas include Cloud-Native, Logging, Metrics, Monitoring, and Observability.
 
 
   The OpenTelemetry catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  OpenTelemetry''s developer surface includes documentation, getting-started guide, engineering blog, Stack Overflow tag, changelog, and 16 more developer resources.'
+  OpenTelemetry''s developer surface includes documentation, getting-started guide, engineering blog, Stack Overflow tag, changelog, and 19 more developer resources.'
 plans:
 - name: Opentelemetry Plans Pricing
   plan_count: 3
@@ -194,10 +213,11 @@ rate_limits:
   name: Opentelemetry Rate Limits
   slug: opentelemetry-rate-limits
 rules:
-- effective_rule_count: 35
+- authorship: generated
+  effective_rule_count: 35
   extends:
   - spectral:asyncapi
-  name: OpenTelemetry API Rules
+  name: OpenTelemetry — asyncapi rules
   rule_count: 8
   severity_counts:
     error: 0
@@ -206,18 +226,18 @@ rules:
     warn: 7
   slug: opentelemetry-asyncapi-spectral-rules
 score:
-  band: developing
-  composite: 39.7
+  band: thin
+  composite: 38.4
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 50.9
+    artifact_dirs: 14
+    catalog_earned: 47.9
     catalog_earned_first_party: 0.0
-    catalog_gap: 64.1
+    catalog_gap: 67.1
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.3
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 13.6
     contract_quality: 57.6
     developer_ergonomics: 42.9
@@ -239,8 +259,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

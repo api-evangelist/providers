@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 14
+- acting_count: 9
   human_in_the_loop: 1
   name: Depot Dev Agentic Access
   operation_count: 14
   slug: depot-dev-agentic-access
-  summary_line: 14 operations · 14 acting · 1 human-in-the-loop
+  summary_line: 14 operations · 9 acting · 1 human-in-the-loop
 api_count: 1
 apis:
 - description: Managed, single-tenant GitHub Actions runners selected via runner labels (e.g. depot-ubuntu-24.04, depot-ubuntu-24.04-arm) across Intel, Arm/Graviton4, macOS, Windows, and GPU sizes. Runners are provi
@@ -142,16 +142,20 @@ common:
 created: '2026-06-20'
 description: Depot is a fast container-image build and remote cache service. It runs Docker builds and GitHub Actions jobs on managed, single-tenant cloud compute with persistent BuildKit cache, and exposes Depot Cache as a remote cache backend for tools like Bazel, Go, Turborepo, Gradle, and sccache. Depot is programmable through a public API at api.depot.dev built on Connect (multiprotocol gRPC, gRPC-Web, and HTTP/JSON) for managing projects, tokens, and builds, plus the depot CLI.
 finops:
-- name: Depot Dev Finops
+- has_sources: true
+  method: generated
+  name: Depot Dev Finops
+  primary_unit: ''
   service_category: Developer Tools and CI/CD
   slug: depot-dev-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/depot-dev.png
 layout: provider
 modified: '2026-06-20'
 name: Depot
 nav: Providers
 network: true
-overview: 'Depot publishes 5 APIs on the [APIs.io](https://apis.io/) network, including BuildKitService API, BuildService API, ProjectService API, and 2 more. Tagged areas include Container Builds, Docker, BuildKit, Remote Cache, and CI/CD.
+overview: 'Depot publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including BuildKitService API, BuildService API, ProjectService API, and 2 more. Tagged areas include Container Builds, Docker, BuildKit, Remote Cache, and CI/CD.
 
 
   Depot''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
@@ -165,23 +169,23 @@ rate_limits:
   name: Depot Dev Rate Limits
   slug: depot-dev-rate-limits
 score:
-  band: thin
-  composite: 34.1
+  band: emerging
+  composite: 25.8
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 61.6
+    artifact_dirs: 13
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.4
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 44.1
     developer_ergonomics: 32.1
     discoverability: 66.1
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   previous_composite: 34.1
   provenance:
     agentic_access: derived
@@ -196,9 +200,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

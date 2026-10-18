@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -74,6 +74,10 @@ collections:
   name: Attachment Ticket API
   slug: open-arctic-wolf-ticket-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://arcticwolf.com/feed/
 - group: company
   title: ''
   type: Website
@@ -222,26 +226,26 @@ created: '2026-07-17'
 description: 'Arctic Wolf is a security operations company delivering 24x7 AI-driven managed detection and response (MDR), managed risk, incident response, and endpoint security through its cloud-native Aurora Platform and Concierge Security Team. For developers and OEM partners, Arctic Wolf exposes a set of REST and standards-based APIs via docs.arcticwolf.com and the Unified Portal: a Ticket API for programmatically listing, commenting on, and closing security tickets; a User API and Aurora Endpoint Defense API for user and endpoint management; and Threat Intelligence feed APIs (TAXII 1.1, TAXII 2.1, and a Blocklist API) for consuming indicators into your own security tooling. Authentication uses bearer JWT tokens generated from Personal API Keys in the Unified Portal, with regional service endpoints (US, EU, AU, CA pods).'
 image: https://arcticwolf.com/wp-content/uploads/2021/11/AW_LOGO_REVERSE-334.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Arctic Wolf
 nav: Providers
 network: true
-overview: 'Arctic Wolf publishes 3 APIs on the [APIs.io](https://apis.io/) network: Attachment API, Comment API, and Ticket API. Tagged areas include Company, Security, Cybersecurity, Managed Detection and Response, and Security Operations.
+overview: 'Arctic Wolf publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Attachment API, Comment API, and Ticket API. Tagged areas include Company, Security, Cybersecurity, Managed Detection and Response, and Security Operations.
 
 
-  Arctic Wolf''s developer surface includes authentication, documentation, API reference, getting-started guide, developer portal, support, engineering blog, and 25 more developer resources.'
+  Arctic Wolf''s developer surface includes authentication, documentation, API reference, getting-started guide, developer portal, support, engineering blog, and 26 more developer resources.'
 random_paper: 15
 score:
   band: developing
-  composite: 42.6
+  composite: 42.7
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 36.8
     contract_governance: 4.5
@@ -266,8 +270,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 31.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

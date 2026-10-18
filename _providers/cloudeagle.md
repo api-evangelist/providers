@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: 'The CloudEagle API is an enterprise REST surface that exposes the same SaaS-management primitives as the web app: discovered applications, licenses and usage, identity and access state, onboarding/off'
@@ -44,6 +44,15 @@ apis:
   slug: cloudeagle-mcp
 artifact_total: 8
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/cloudeagle/refs/heads/main/finops/cloudeagle-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/cloudeagle-finops.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.cloudeagle.ai/blogs/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/cloudeagle/refs/heads/main/security/cloudeagle-domain-security.yml
   title: ''
@@ -160,23 +169,27 @@ common:
 created: '2026-03-16'
 description: CloudEagle.ai is an AI-powered SaaS management, procurement and identity governance platform that helps IT, security, finance and procurement teams discover, govern, optimize and renew their SaaS and AI application portfolio. It offers application discovery via 500+ integrations with SSO, HRIS, finance and CASB systems; license harvesting and spend optimization; access governance with automated access reviews; onboarding/offboarding automation; procurement and renewal orchestration; and shadow IT/shadow AI detection. CloudEagle exposes an enterprise API at api.cloudeagle.ai whose endpoints and credentials are provisioned to customers in-product rather than on a public docs site, and it operates a live OAuth-protected Model Context Protocol server at mcp.cloudeagle.ai that lets teams query their SaaS, AI, licence, contract and identity data from Claude, ChatGPT, Gemini or Copilot. That MCP server is the only machine-readable surface CloudEagle publishes.
 finops:
-- name: Cloudeagle Finops
+- has_sources: false
+  method: generated
+  name: Cloudeagle Finops
+  primary_unit: ''
   service_category: API
   slug: cloudeagle-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cloudeagle.png
 layout: provider
 mcp_servers:
 - description: A live, OAuth-protected Model Context Protocol server served from CloudEagle's own hostname mcp.cloudeagle.ai. CloudEagle announced it publicly as a way for IT, Security, Finance and Procurement teams
   name: CloudEagle.ai MCP Server
   slug: cloudeagle-ai-mcp-server
-modified: '2026-09-05'
+modified: '2026-10-06'
 name: CloudEagle.ai
 nav: Providers
 network: true
-overview: 'CloudEagle.ai publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Access Governance, Cost Optimization, License Management, Procurement, and SaaS Management.
+overview: 'CloudEagle.ai is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Access Governance, Cost Optimization, License Management, Procurement, and SaaS Management.
 
 
-  CloudEagle.ai''s developer surface includes pricing, engineering blog, support, signup flow, getting-started guide, authentication, changelog, and 18 more developer resources.'
+  CloudEagle.ai''s developer surface includes pricing, engineering blog, support, signup flow, getting-started guide, authentication, changelog, and 20 more developer resources.'
 plans:
 - name: Cloudeagle Plans Pricing
   plan_count: 0
@@ -188,17 +201,17 @@ rate_limits:
   slug: cloudeagle-rate-limits
 score:
   band: thin
-  composite: 35.4
+  composite: 33.9
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 40.0
+    artifact_dirs: 18
+    catalog_earned: 37.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 60.5
+    access_clarity: 52.6
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 47.6
@@ -214,8 +227,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

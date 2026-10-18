@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -94,6 +94,21 @@ collections:
   name: Dagster External Assets REST Checks Observations API
   slug: open-dagster-observations-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/dagster/refs/heads/main/plans/dagster-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/dagster-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/dagster/refs/heads/main/rate-limits/dagster-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/dagster-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/dagster/refs/heads/main/finops/dagster-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/dagster-finops.yml
 - group: company
   title: ''
   type: Website
@@ -249,9 +264,13 @@ common:
 created: '2026-03-03'
 description: Dagster is a data orchestration platform centered on software-defined assets with strong observability and testing support. It exposes a GraphQL API for programmatic interaction with Dagster instances and a REST API for reporting external asset materializations, checks, and observations from outside pipelines.
 finops:
-- name: Dagster Finops
+- has_sources: false
+  method: generated
+  name: Dagster Finops
+  primary_unit: ''
   service_category: API
   slug: dagster-finops
+  template: true
 graphqls:
 - description: The Dagster GraphQL API allows clients to interact with Dagster programmatically. It can be used to query information about Dagster runs, retrieve metadata about repositories, jobs, and ops, and launc
   name: Dagster GraphQL API
@@ -277,13 +296,13 @@ modified: '2026-05-19'
 name: Dagster
 nav: Providers
 network: true
-overview: 'Dagster publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Checks API, Materializations API, Observations API, and 1 more. Tagged areas include Data Engineering, Data Orchestration, Data Pipeline, ETL, and Workflows.
+overview: 'Dagster publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Checks API, Materializations API, Observations API, and 1 more. Tagged areas include Data Engineering, Data Orchestration, Data Pipeline, ETL, and Workflows.
 
 
   The Dagster catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Dagster''s developer surface includes authentication, developer portal, signup flow, documentation, API reference, getting-started guide, engineering blog, and 29 more developer resources.'
+  Dagster''s developer surface includes authentication, developer portal, signup flow, documentation, API reference, getting-started guide, engineering blog, and 32 more developer resources.'
 plans:
 - name: Dagster Plans Pricing
   plan_count: 3
@@ -294,10 +313,11 @@ rate_limits:
   name: Dagster Rate Limits
   slug: dagster-rate-limits
 rules:
-- effective_rule_count: 46
+- authorship: unmarked
+  effective_rule_count: 46
   extends:
   - spectral:oas
-  name: Dagster API Rules
+  name: Dagster — external assets rest api rules
   rule_count: 5
   severity_counts:
     error: 2
@@ -305,9 +325,10 @@ rules:
     info: 0
     warn: 3
   slug: dagster-external-assets-rest-api-rules
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Dagster API Rules
+  name: Dagster — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -317,18 +338,18 @@ rules:
   slug: dagster-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 59.6
+  composite: 54.4
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 75.7
+    artifact_dirs: 20
+    catalog_earned: 61.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 39.3
+    catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.2
   facets:
-    access_clarity: 60.5
-    contract_governance: 62.7
+    access_clarity: 52.6
+    contract_governance: 27.3
     contract_quality: 57.3
     developer_ergonomics: 65.5
     discoverability: 64.3
@@ -350,9 +371,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

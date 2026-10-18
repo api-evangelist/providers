@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-04'
+  score: 20.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -94,6 +94,21 @@ collections:
   name: CryptoQuant API
   slug: open-cryptoquant
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/cryptoquant/refs/heads/main/plans/cryptoquant-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/cryptoquant-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cryptoquant/refs/heads/main/rate-limits/cryptoquant-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/cryptoquant-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/cryptoquant/refs/heads/main/finops/cryptoquant-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/cryptoquant-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/cryptoquant/refs/heads/main/agentic-access/cryptoquant-agentic-access.yml
   title: ''
@@ -153,9 +168,13 @@ common:
 created: '2025-02-12'
 description: CryptoQuant is a blockchain data analytics platform providing real-time and historical on-chain, exchange flow, miner, derivatives, and stablecoin metrics for Bitcoin, Ethereum, and other major cryptocurrencies. The API delivers time-series data used by traders, funds, and researchers to gauge market sentiment and capital flows.
 finops:
-- name: Cryptoquant Finops
+- has_sources: false
+  method: generated
+  name: Cryptoquant Finops
+  primary_unit: ''
   service_category: API
   slug: cryptoquant-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cryptoquant.png
 json_schemas:
 - name: CryptoQuantTimeSeriesResponse
@@ -171,13 +190,13 @@ modified: '2026-05-19'
 name: CryptoQuant
 nav: Providers
 network: true
-overview: 'CryptoQuant publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Exchange Flows API, Market Data API, Miner API, and 2 more. Tagged areas include Blockchain, Cryptocurrency, On-Chain Analytics, Market Data, and Derivatives.
+overview: 'CryptoQuant publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Exchange Flows API, Market Data API, Miner API, and 2 more. Tagged areas include Blockchain, Cryptocurrency, On-Chain Analytics, Market Data, and Derivatives.
 
 
   The CryptoQuant catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  CryptoQuant''s developer surface includes authentication, documentation, pricing, and 9 more developer resources.'
+  CryptoQuant''s developer surface includes authentication, documentation, pricing, and 12 more developer resources.'
 plans:
 - name: Cryptoquant Plans Pricing
   plan_count: 3
@@ -188,9 +207,10 @@ rate_limits:
   name: Cryptoquant Rate Limits
   slug: cryptoquant-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: CryptoQuant API Rules
+  name: CryptoQuant — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -198,7 +218,8 @@ rules:
     info: 1
     warn: 4
   slug: cryptoquant-jsonschema-spectral-rules
-- effective_rule_count: 47
+- authorship: unmarked
+  effective_rule_count: 47
   extends:
   - spectral:oas
   name: CryptoQuant API Rules
@@ -211,17 +232,17 @@ rules:
   slug: cryptoquant-rules
 score:
   band: thin
-  composite: 31.9
+  composite: 30.4
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 68.4
+    artifact_dirs: 15
+    catalog_earned: 65.4
     catalog_earned_first_party: 0.0
-    catalog_gap: 46.6
+    catalog_gap: 49.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 27.3
     contract_quality: 53.9
     developer_ergonomics: 21.4
@@ -241,8 +262,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 21.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

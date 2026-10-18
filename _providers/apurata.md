@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://apurata.com
@@ -244,7 +244,7 @@ modified: '2026-07-18'
 name: Apurata
 nav: Providers
 network: true
-overview: 'Apurata publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Config API, Orders API, Refunds API, and 1 more. Tagged areas include Company, Financial Services, Fintech, Lending, and Buy Now Pay Later.
+overview: 'Apurata publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Config API, Orders API, Refunds API, and 1 more. Tagged areas include Company, Financial Services, Fintech, Lending, and Buy Now Pay Later.
 
 
   The Apurata catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
@@ -256,7 +256,7 @@ score:
   band: thin
   composite: 37.1
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -293,8 +293,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 27.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

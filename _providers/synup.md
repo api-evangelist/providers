@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 60.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: First-party remote Model Context Protocol server enumerating 126 tools in its published tool table across six surfaces (Locations, Listings, Reviews, Rankings, Posts & Social, Account & Insights). Ten
@@ -141,6 +141,14 @@ asyncapis:
   name: Synup Webhooks
   slug: synup-webhooks
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://synup.com/blog
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://synup.com/blog/rss.xml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/synup/refs/heads/main/capabilities/synup-capability-edges.yml
   title: ''
@@ -348,9 +356,13 @@ common:
 created: '2026-06-13'
 description: Synup is a local marketing platform for agencies and multi-location brands, providing a REST API (v4) for managing business locations, syndicating listing data to 80+ directories including Google, Apple, Bing and Facebook, aggregating and responding to reviews across every connected platform, running SMS and email review campaigns, tracking local search rankings with grid-rank heatmaps, publishing local and social posts, and pulling unified profile analytics. The platform serves marketing agencies with white-label tooling covering listings sync, reputation management, social media, local SEO and reporting, and ships a first-party remote MCP server so AI agents can drive the same surface as the dashboard.
 finops:
-- name: Synup Finops
+- has_sources: false
+  method: generated
+  name: Synup Finops
+  primary_unit: ''
   service_category: ''
   slug: synup-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/synup.png
 json_schemas:
 - name: Synup API v4 component schemas
@@ -366,17 +378,17 @@ mcp_servers:
 - description: 'Synup ships a first-party remote MCP server that exposes the same surface area as the Synup dashboard as agent tools: locations, listings, reviews, rankings, local and social posts, flows, account and'
   name: Synup MCP Server
   slug: synup-mcp-server
-modified: '2026-09-16'
+modified: '2026-10-06'
 name: Synup
 nav: Providers
 network: true
-overview: 'Synup publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Automations API, Connected Accounts API, Grid Rank API, and 17 more. Tagged areas include Local Marketing, Listings Management, Reputation Management, Local SEO, and Reviews.
+overview: 'Synup publishes 20 API contracts indexed on the [APIs.io](https://apis.io/) network, including Automations API, Connected Accounts API, Grid Rank API, and 17 more. Tagged areas include Local Marketing, Listings Management, Reputation Management, Local SEO, and Reviews.
 
 
   The Synup catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 JSON-LD context.
 
 
-  Synup''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, code examples, engineering blog, and 37 more developer resources.'
+  Synup''s developer surface includes engineering blog, documentation, API reference, getting-started guide, authentication, changelog, code examples, and 39 more developer resources.'
 plans:
 - name: Synup Plans Pricing
   plan_count: 3
@@ -393,17 +405,17 @@ scopes:
   summary_line: 2 scopes
 score:
   band: strong
-  composite: 63.2
+  composite: 61.7
   coverage:
     artifact_dirs: 29
-    catalog_earned: 69.9
+    catalog_earned: 66.9
     catalog_earned_first_party: 12.0
-    catalog_gap: 45.1
+    catalog_gap: 48.1
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 77.6
+    access_clarity: 69.7
     contract_governance: 18.2
     contract_quality: 68.3
     developer_ergonomics: 66.1
@@ -425,8 +437,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

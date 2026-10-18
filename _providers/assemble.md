@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.assemble.ai/blog
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/assemble/refs/heads/main/security/assemble-domain-security.yml
   title: ''
@@ -73,31 +77,31 @@ created: '2026-07-17'
 description: Assemble builds autonomous AI agents that help enterprise IT and business-systems teams automate development work inside core platforms such as Salesforce, SAP, Workday, and NetSuite. The agents scope changes across integrated ERP, CRM, and HRIS systems, understand cross-system dependencies, implement and validate modifications, and keep a complete audit trail so teams can review agent work, approve modifications, and revert individual changes or restore a system to a prior state. Assemble is a Y Combinator (Summer 2026) company targeting IT and business-systems teams managing complex enterprise transformations. This profile was added to the API Evangelist network as a portfolio-lead stub; as of this enrichment pass the company publishes no public developer API, documentation, or OpenAPI, so only its verified public identity and website properties are captured.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/assemble.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Assemble
 nav: Providers
 network: true
 overview: 'Assemble is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, Enterprise Software, and IT Automation.
 
 
-  Assemble''s developer surface includes support and 7 more developer resources.'
+  Assemble''s developer surface includes engineering blog, support, and 7 more developer resources.'
 random_paper: 8
 score:
   band: minimal
-  composite: 10.4
+  composite: 10.8
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.4
   facets:
     access_clarity: 27.6
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 4.8
+    developer_ergonomics: 7.1
     discoverability: 48.2
     operational_transparency: 0.0
   previous_composite: 10.4
@@ -107,8 +111,8 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 12.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

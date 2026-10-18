@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://api.gengo.com/v2
@@ -228,7 +228,7 @@ modified: '2026-07-19'
 name: Gengo
 nav: Providers
 network: true
-overview: 'Gengo publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Account API, Glossary API, Job API, and 3 more. Tagged areas include Company, Translation, Localization, Human Translation, and Language Services.
+overview: 'Gengo publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Glossary API, Job API, and 3 more. Tagged areas include Company, Translation, Localization, Human Translation, and Language Services.
 
 
   The Gengo catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -270,8 +270,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -37,15 +37,15 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 1
+- acting_count: 0
   human_in_the_loop: 0
   name: Mattermark Agentic Access
   operation_count: 11
   slug: mattermark-agentic-access
-  summary_line: 11 operations · 1 acting
-api_count: 2
+  summary_line: 11 operations
+api_count: 4
 apis:
 - description: 'GraphQL access to the Mattermark dataset using the Mattermark Search Filter Language (MSFL) for complex company and investor queries. Read-only: the published schema declares 57 types under a single R'
   name: Mattermark GraphQL API
@@ -235,7 +235,7 @@ modified: '2026-09-16'
 name: Mattermark
 nav: Providers
 network: true
-overview: 'Mattermark publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Companies API, Complex Queries API, Funding Events API, and 4 more. Tagged areas include Company, Business Intelligence, Company Data, Investor, and Funding.
+overview: 'Mattermark publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Companies API, Complex Queries API, Funding Events API, and 4 more. Tagged areas include Company, Business Intelligence, Company Data, Investor, and Funding.
 
 
   Mattermark''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, authentication, changelog, and 24 more developer resources.'
@@ -250,21 +250,21 @@ rate_limits:
   slug: mattermark-rate-limits
 score:
   band: developing
-  composite: 47.0
+  composite: 47.6
   coverage:
     artifact_dirs: 24
-    catalog_earned: 49.0
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 63.2
     contract_governance: 4.5
     contract_quality: 52.4
     developer_ergonomics: 51.8
-    discoverability: 73.2
+    discoverability: 78.6
     operational_transparency: 18.4
   previous_composite: 47.0
   provenance:
@@ -283,8 +283,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

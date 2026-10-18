@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -277,16 +277,20 @@ common:
 created: '2026-05-08'
 description: Kaiko is an institutional-grade crypto market data provider. Its product line spans Kaiko REST (historical and reference data), Kaiko Stream (real-time WebSocket and gRPC), Cloud Delivery (S3 and Snowflake direct shares), Kaiko On-chain, and Kaiko Indices (regulated benchmark indices). Authentication uses API keys; access is sales-led.
 finops:
-- name: Kaiko Finops
+- has_sources: true
+  method: generated
+  name: Kaiko Finops
+  primary_unit: ''
   service_category: Crypto Market Data
   slug: kaiko-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kaiko.png
 layout: provider
 modified: '2026-07-22'
 name: Kaiko
 nav: Providers
 network: true
-overview: 'Kaiko publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Canton Oracle API, Index Reference Data API, Indices API, and 5 more. Tagged areas include Web3, Crypto, Market Data, Institutional, and FX.
+overview: 'Kaiko publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Canton Oracle API, Index Reference Data API, Indices API, and 5 more. Tagged areas include Web3, Cryptocurrency, Market Data, Institutional, and Foreign Exchange.
 
 
   Kaiko''s developer surface includes authentication, developer portal, documentation, changelog, pricing, engineering blog, support, and 29 more developer resources.'
@@ -301,17 +305,17 @@ rate_limits:
   slug: kaiko-rate-limits
 score:
   band: developing
-  composite: 52.4
+  composite: 50.9
   coverage:
     artifact_dirs: 24
-    catalog_earned: 39.0
+    catalog_earned: 36.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 76.0
+    catalog_gap: 79.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 60.5
+    access_clarity: 52.6
     contract_governance: 18.2
     contract_quality: 49.0
     developer_ergonomics: 67.3
@@ -334,8 +338,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 33.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -358,10 +362,10 @@ security:
 slug: kaiko
 tags:
 - Web3
-- Crypto
+- Cryptocurrency
 - Market Data
 - Institutional
-- FX
+- Foreign Exchange
 - Indices
 - Onchain
 - Streaming

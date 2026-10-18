@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://api.vault.tesseract.fi
@@ -82,6 +82,10 @@ collections:
   name: Tesseract Public clients vaults API
   slug: open-tesseract-vaults-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://tesseract.fi/news/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/tesseract/refs/heads/main/security/tesseract-domain-security.yml
   title: ''
@@ -204,26 +208,26 @@ created: '2026-07-17'
 description: Tesseract is a Finnish digital-asset management and crypto-lending company. Tesseract Investment Oy is authorised as a Crypto-Asset Service Provider (CASP) under Regulation (EU) 2023/1114 (MiCA) and supervised by the Finnish Financial Supervisory Authority (FIN-FSA). It operates institutional-grade, per-client on-chain Dedicated Client Vaults (DCVs) on Ethereum mainnet, an Earn API that lets exchanges, neobanks and fintechs offer crypto yield to their users under their own brand, and Earn Direct for referred clients. Developers integrate via a public vault reporting API (unauthenticated reads, EIP-712 signed strategy assignment) and a partner Earn API using OAuth2 client-credentials with a daily net-settlement model.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tesseract.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Tesseract
 nav: Providers
 network: true
-overview: 'Tesseract publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Clients API, Health API, Insights API, and 2 more. Tagged areas include Company, Fintech, Cryptocurrency, DeFi, and Lending.
+overview: 'Tesseract publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Clients API, Health API, Insights API, and 2 more. Tagged areas include Company, Fintech, Cryptocurrency, DeFi, and Lending.
 
 
-  Tesseract''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, support, engineering blog, and 19 more developer resources.'
+  Tesseract''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, support, engineering blog, and 20 more developer resources.'
 random_paper: 6
 score:
   band: developing
-  composite: 42.7
+  composite: 42.8
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 46.1
     contract_governance: 18.2
@@ -252,8 +256,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 28
   slug: rentle-agentic-access
   summary_line: 28 operations · 7 acting
-api_count: 1
+api_count: 2
 apis:
 - baseURL: https://api.twicecommerce.com/admin
   baseurl_source: declared
@@ -262,7 +262,7 @@ modified: '2026-07-20'
 name: Rentle
 nav: Providers
 network: true
-overview: 'Rentle publishes 13 APIs on the [APIs.io](https://apis.io/) network, including API Keys API, Categories API, Customers API, and 10 more. Tagged areas include Company, Rentals, Commerce, E-Commerce, and Circular Economy.
+overview: 'Rentle publishes 13 API contracts indexed on the [APIs.io](https://apis.io/) network, including API Keys API, Categories API, Customers API, and 10 more. Tagged areas include Company, Rentals, Commerce, E-Commerce, and Circular Economy.
 
 
   The Rentle catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -274,7 +274,7 @@ score:
   band: developing
   composite: 39.6
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -305,8 +305,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -97,6 +97,21 @@ collections:
   name: IETF Datatracker API
   slug: open-internet-engineering-task-force
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/internet-engineering-task-force/refs/heads/main/plans/internet-engineering-task-force-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/internet-engineering-task-force-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/internet-engineering-task-force/refs/heads/main/rate-limits/internet-engineering-task-force-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/internet-engineering-task-force-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/internet-engineering-task-force/refs/heads/main/finops/internet-engineering-task-force-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/internet-engineering-task-force-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/internet-engineering-task-force/refs/heads/main/agentic-access/internet-engineering-task-force-agentic-access.yml
   title: ''
@@ -135,22 +150,26 @@ common:
 created: '2025-08-25'
 description: The Internet Engineering Task Force (IETF) is an open, global community of network designers, engineers, researchers, and operators that develops and promotes voluntary technical standards to ensure the smooth operation and evolution of the internet. The IETF publishes freely accessible RFCs (Requests for Comments) that serve as the foundation for internet interoperability. The IETF Datatracker exposes a public read-only REST API over the working group, document, and meeting data managed by the IETF.
 finops:
-- name: Internet Engineering Task Force Finops
+- has_sources: false
+  method: generated
+  name: Internet Engineering Task Force Finops
+  primary_unit: ''
   service_category: API
   slug: internet-engineering-task-force-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/internet-engineering-task-force.png
 layout: provider
 modified: '2026-09-16'
 name: Internet Engineering Task Force
 nav: Providers
 network: true
-overview: 'Internet Engineering Task Force publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Documents API, Framework API, Identity API, and 3 more. Tagged areas include Internet, Protocol, RFC, Standards, and Working Groups.
+overview: 'Internet Engineering Task Force is listed with 6 APIs on the [APIs.io](https://apis.io/) network, including Documents API, Framework API, Identity API, and 3 more. Tagged areas include Internet, Protocol, RFC, Standards, and Working Groups.
 
 
   The Internet Engineering Task Force catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Internet Engineering Task Force''s developer surface includes authentication, engineering blog, and 6 more developer resources.'
+  Internet Engineering Task Force''s developer surface includes authentication, engineering blog, and 9 more developer resources.'
 plans:
 - name: Internet Engineering Task Force Plans Pricing
   plan_count: 3
@@ -161,7 +180,8 @@ rate_limits:
   name: Internet Engineering Task Force Rate Limits
   slug: internet-engineering-task-force-rate-limits
 rules:
-- effective_rule_count: 0
+- authorship: unmarked
+  effective_rule_count: 0
   extends: []
   name: Internet Engineering Task Force API Rules
   rule_count: 0
@@ -173,17 +193,17 @@ rules:
   slug: internet-engineering-task-force-rules
 score:
   band: thin
-  composite: 28.4
+  composite: 26.9
   coverage:
     artifact_dirs: 12
-    catalog_earned: 49.0
+    catalog_earned: 46.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 66.0
+    catalog_gap: 69.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 28.9
+    access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 42.4
     developer_ergonomics: 23.8
@@ -203,8 +223,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

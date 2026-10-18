@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The Cutover Core API is a RESTful, JSON:API-style interface for programmatically managing workspaces, runbooks, tasks, teams, and users in the Cutover collaborative automation platform. It uses predic
@@ -178,7 +178,7 @@ modified: '2026-07-18'
 name: Cutover
 nav: Providers
 network: true
-overview: 'Cutover publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Business Applications, IT Operations, Disaster Recovery, and Incident Management.
+overview: 'Cutover is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Business Applications, IT Operations, Disaster Recovery, and Incident Management.
 
 
   The Cutover catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -190,7 +190,7 @@ score:
   band: developing
   composite: 46.9
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -218,8 +218,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

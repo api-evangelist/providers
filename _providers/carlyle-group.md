@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: Carlyle Direct Lending operates a dedicated investor portal for clients of Carlyle's direct lending funds and BDC vehicles. The portal supports modern web browsers and is used for reporting, distribut
@@ -44,6 +44,21 @@ apis:
   slug: global-portfolio-solutions
 artifact_total: 6
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/carlyle-group/refs/heads/main/plans/carlyle-group-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/carlyle-group-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/carlyle-group/refs/heads/main/rate-limits/carlyle-group-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/carlyle-group-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/carlyle-group/refs/heads/main/finops/carlyle-group-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/carlyle-group-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/carlyle-group/refs/heads/main/security/carlyle-group-domain-security.yml
   title: ''
@@ -112,16 +127,20 @@ common:
 created: '2026-03-23'
 description: 'The Carlyle Group (NASDAQ: CG) is a global investment firm that deploys private capital across Global Private Equity, Global Credit, Global Investment Solutions (AlpInvest), and carveouts such as Carlyle Direct Lending. Carlyle does not publish a public developer API. Institutional LPs, co-investors, and portfolio companies interact with the firm through a set of private, authentication-gated portals: LP Connect for fund investors, Carlyle Direct Lending''s portal for direct lending clients, the Carlyle Global Portfolio Solutions (resources.carlyle.com) portal, and brand experiences such as Carlyle & Co. Integrations with fund administrators, custodians, and placement agents run through bespoke secure file exchange and vendor-managed APIs.'
 finops:
-- name: Carlyle Group Finops
+- has_sources: true
+  method: generated
+  name: Carlyle Group Finops
+  primary_unit: ''
   service_category: Investor Portal / Institutional Relationship
   slug: carlyle-group-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/carlyle-group.png
 layout: provider
 modified: '2026-07-25'
 name: The Carlyle Group
 nav: Providers
 network: true
-overview: The Carlyle Group publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Alternative Assets, Asset Management, Direct Lending, Global Credit, and Investment Firm.
+overview: The Carlyle Group is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Alternative Assets, Asset Management, Direct Lending, Global Credit, and Investment Firm.
 plans:
 - name: Carlyle Group Plans Pricing
   plan_count: 1
@@ -149,17 +168,17 @@ rate_limits:
   slug: carlyle-group-rate-limits
 score:
   band: emerging
-  composite: 16.2
+  composite: 14.7
   coverage:
     artifact_dirs: 9
-    catalog_earned: 39.0
+    catalog_earned: 36.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 76.0
+    catalog_gap: 79.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 40.8
+    access_clarity: 32.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 9.5
@@ -172,8 +191,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

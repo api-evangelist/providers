@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: http://www.boohee.com/blog/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/boohee/refs/heads/main/security/boohee-domain-security.yml
   title: ''
@@ -49,28 +53,31 @@ created: '2026-07-17'
 description: Boohee (薄荷健康) is a Chinese consumer health-technology company focused on scientific weight management, serving a cumulative 180 million users over its ~17-year history. Its portfolio spans the Boohee Health mobile app (calorie and food tracking, diet and exercise logging, AI weight-management coaching, meal plans, smart body scales, community), Boohee Life nutritional foods and subscription services, the Boohee Life Internet Hospital (Tianjin-based telemedicine for internal and traditional Chinese medicine), and a Boohee weight-loss SaaS platform that helps hospitals stand up weight-management clinics. The company operates as a consumer mobile and content platform and does not publish a public developer API or open platform; this profile is maintained in the API Evangelist network as a portfolio lead of DCM Ventures.
 image: https://www.boohee.com/favicon.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Boohee
 nav: Providers
 network: true
-overview: Boohee is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Health, Nutrition, and Weight Management.
+overview: 'Boohee is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Health, Nutrition, and Weight Management.
+
+
+  Boohee''s developer surface includes engineering blog and 2 more developer resources.'
 random_paper: 10
 score:
   band: minimal
-  composite: 3.7
+  composite: 4.2
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 48.2
     operational_transparency: 0.0
   jurisdiction:
@@ -87,8 +94,8 @@ score:
     regime: Health
     regime_id: health
     score: 4.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

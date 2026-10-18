@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: The Vidyard Dashboard API provides full CRUD access to your Vidyard account assets including players, videos, chapters, organizations, teams, users, roles, events, campaigns, tags, webhooks, embeds, a
@@ -239,9 +239,13 @@ common:
 created: '2026-06-12'
 description: Vidyard is a video platform for business that provides REST APIs for managing video libraries, generating sharing links, tracking viewer analytics, and integrating with CRM and marketing tools. The Dashboard API enables programmatic control over players, videos, chapters, organizations, teams, users, events, campaigns, webhooks, and more. The Video Agent API supports AI-powered personalized video creation workflows, and the Analytics Webhook API streams real-time viewer data to external systems.
 finops:
-- name: Vidyard Finops
+- has_sources: false
+  method: generated
+  name: Vidyard Finops
+  primary_unit: ''
   service_category: ''
   slug: vidyard-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vidyard.png
 jsonld:
 - class_count: 6
@@ -253,7 +257,7 @@ modified: '2026-08-13'
 name: Vidyard
 nav: Providers
 network: true
-overview: 'Vidyard publishes 3 APIs on the [APIs.io](https://apis.io/) network, including Analytics Webhook API, and 2 more. Tagged areas include Video, Video Platform, Video Analytics, Video Sharing, and Sales Video.
+overview: 'Vidyard is listed with 3 APIs on the [APIs.io](https://apis.io/) network, including Analytics Webhook API, and 2 more. Tagged areas include Video, Video Platform, Video Analytics, Video Sharing, and Sales Video.
 
 
   The Vidyard catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 JSON-LD context.
@@ -271,17 +275,17 @@ rate_limits:
   slug: vidyard-rate-limits
 score:
   band: exemplar
-  composite: 71.5
+  composite: 69.5
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 78.0
+    artifact_dirs: 24
+    catalog_earned: 75.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 37.0
+    catalog_gap: 40.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.0
   facets:
-    access_clarity: 100.0
+    access_clarity: 92.1
     contract_governance: 18.2
     contract_quality: 53.2
     developer_ergonomics: 76.2
@@ -297,12 +301,12 @@ score:
     - jurisdiction: EU
       standard: gdpr
     jurisdictions_satisfied: 1
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -321,7 +325,7 @@ security:
 - kind: vulnerability-disclosure
   name: Vidyard Vulnerability Disclosure
   slug: vidyard-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 - kind: trust-center
   name: Vidyard Trust Center
   slug: vidyard-trust-center

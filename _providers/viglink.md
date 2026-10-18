@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 2
+- acting_count: 1
   human_in_the_loop: 0
   name: Viglink Agentic Access
   operation_count: 16
   slug: viglink-agentic-access
-  summary_line: 16 operations · 2 acting
+  summary_line: 16 operations · 1 acting
 api_count: 8
 apis:
 - baseURL: https://rest.viglink.com/api
@@ -113,6 +113,14 @@ collections:
   name: Bid Check Account Sites API
   slug: open-viglink-sites-api
 common:
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://knowledge.sovrn.com/kb/payments-in-commerce
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.sovrn.com/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/viglink/refs/heads/main/security/viglink-vulnerability-disclosure.yml
   title: ''
@@ -312,14 +320,14 @@ mcp_servers:
 - description: Official hosted Commerce MCP server (beta) that connects affiliate data, campaigns, and products directly to AI tools — affiliate search, reporting, and link generation through natural language.
   name: Commerce MCP Server (Sovrn Commerce, formerly VigLink)
   slug: commerce-mcp-server
-modified: '2026-08-13'
+modified: '2026-10-06'
 name: VigLink (Sovrn Commerce)
 nav: Providers
 network: true
-overview: 'VigLink (Sovrn Commerce) publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Account API, Ai Orchestration API, Bid API, and 5 more. Tagged areas include Affiliate Marketing, Commerce, Monetization, Publishers, and Links.
+overview: 'VigLink (Sovrn Commerce) publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Ai Orchestration API, Bid API, and 5 more. Tagged areas include Affiliate Marketing, Commerce, Monetization, Publishers, and Links.
 
 
-  VigLink (Sovrn Commerce)''s developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, support, engineering blog, and 34 more developer resources.'
+  VigLink (Sovrn Commerce)''s developer surface includes pricing, authentication, sandbox, documentation, API reference, getting-started guide, support, and 36 more developer resources.'
 plans:
 - name: Viglink Plans Pricing
   plan_count: 1
@@ -331,7 +339,7 @@ rate_limits:
   slug: viglink-rate-limits
 score:
   band: strong
-  composite: 56.4
+  composite: 58.6
   coverage:
     artifact_dirs: 23
     catalog_earned: 56.0
@@ -339,9 +347,9 @@ score:
     catalog_gap: 59.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.2
   facets:
-    access_clarity: 71.1
+    access_clarity: 81.6
     contract_governance: 18.2
     contract_quality: 50.1
     developer_ergonomics: 58.9
@@ -370,8 +378,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

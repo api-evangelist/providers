@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.7
-  scored_at: '2026-10-04'
+  score: 24.5
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -138,6 +138,14 @@ collections:
   name: MarketCheck Cars Dealer VIN Decoder API
   slug: open-marketcheck-vin-decoder-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.marketcheck.com/articles/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.marketcheck.com/feed/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/marketcheck/refs/heads/main/capabilities/marketcheck-capability-edges.yml
   title: ''
@@ -206,9 +214,13 @@ examples:
   name: Vin Decode Response Example
   slug: vin-decode-response-example
 finops:
-- name: Marketcheck Finops
+- has_sources: false
+  method: generated
+  name: Marketcheck Finops
+  primary_unit: ''
   service_category: ''
   slug: marketcheck-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/marketcheck.png
 json_schemas:
 - name: MarketCheck Listing
@@ -223,17 +235,17 @@ jsonld:
   property_count: 68
   slug: marketcheck-context
 layout: provider
-modified: '2026-06-13'
+modified: '2026-10-06'
 name: MarketCheck
 nav: Providers
 network: true
-overview: 'MarketCheck publishes 15 APIs on the [APIs.io](https://apis.io/) network, including VIN Decoder API, Dealer API, and 13 more. Tagged areas include Automotive, Vehicle Data, VIN Decoder, Car Inventory, and Market Data.
+overview: 'MarketCheck publishes 15 API contracts indexed on the [APIs.io](https://apis.io/) network, including VIN Decoder API, Dealer API, and 13 more. Tagged areas include Automotive, Vehicle Data, VIN Decoder, Car Inventory, and Market Data.
 
 
   The MarketCheck catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  MarketCheck''s developer surface includes documentation, engineering blog, pricing, and 10 more developer resources.'
+  MarketCheck''s developer surface includes engineering blog, documentation, pricing, and 12 more developer resources.'
 plans:
 - name: Marketcheck Plans Pricing
   plan_count: 4
@@ -244,9 +256,10 @@ rate_limits:
   name: Marketcheck Rate Limits
   slug: marketcheck-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: MarketCheck API Rules
+  name: MarketCheck — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -255,18 +268,18 @@ rules:
     warn: 4
   slug: marketcheck-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 30.5
+  band: emerging
+  composite: 24.9
   coverage:
-    artifact_dirs: 16
-    catalog_earned: 65.1
+    artifact_dirs: 17
+    catalog_earned: 54.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 49.9
+    catalog_gap: 60.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.6
   facets:
-    access_clarity: 46.8
+    access_clarity: 18.4
     contract_governance: 9.8
     contract_quality: 51.9
     developer_ergonomics: 2.4
@@ -286,9 +299,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 15.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

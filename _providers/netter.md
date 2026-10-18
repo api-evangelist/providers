@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 169
+- acting_count: 166
   human_in_the_loop: 2
   name: Netter Agentic Access
   operation_count: 298
   slug: netter-agentic-access
-  summary_line: 298 operations · 169 acting · 2 human-in-the-loop
+  summary_line: 298 operations · 166 acting · 2 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://api.netter.ai
@@ -511,14 +511,14 @@ modified: '2026-07-20'
 name: Netter
 nav: Providers
 network: true
-overview: 'Netter publishes 44 APIs on the [APIs.io](https://apis.io/) network, including Actions API, API Keys API, App Chat API, and 41 more. Tagged areas include Company, Data, Data Platform, Analytics, and Artificial Intelligence.
+overview: 'Netter publishes 44 API contracts indexed on the [APIs.io](https://apis.io/) network, including Actions API, API Keys API, App Chat API, and 41 more. Tagged areas include Company, Data, Data Platform, Analytics, and Artificial Intelligence.
 
 
   Netter''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, and 16 more developer resources.'
 random_paper: 20
 score:
   band: thin
-  composite: 33.4
+  composite: 33.5
   coverage:
     artifact_dirs: 17
     catalog_earned: 37.0
@@ -526,7 +526,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 6.6
     contract_governance: 18.2
@@ -551,8 +551,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

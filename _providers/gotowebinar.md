@@ -28,20 +28,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.5
-  scored_at: '2026-10-04'
+  score: 30.6
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 25
+- acting_count: 23
   human_in_the_loop: 0
   name: Gotowebinar Agentic Access
   operation_count: 63
   slug: gotowebinar-agentic-access
-  summary_line: 63 operations · 25 acting
+  summary_line: 63 operations · 23 acting
 api_count: 3
 apis:
 - baseURL: https://api.getgo.com/G2W/rest/v2
@@ -609,9 +609,13 @@ features:
 - Postman collections and OpenAPI download from developer.goto.com
 - Integrates with Salesforce, Slack, Microsoft Teams, Zoho CRM, Google Workspace via GoTo marketplace
 finops:
-- name: Gotowebinar Finops
+- has_sources: true
+  method: generated
+  name: Gotowebinar Finops
+  primary_unit: ''
   service_category: ''
   slug: gotowebinar-finops
+  template: true
 image: https://www.goto.com/-/media/images/logos/goto-logo.svg
 integrations:
 - description: Sync GoToWebinar registrants, attendees, and engagement data into Salesforce campaigns and leads.
@@ -663,7 +667,7 @@ modified: '2026-05-23'
 name: GoToWebinar
 nav: Providers
 network: true
-overview: 'GoToWebinar publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Attendees API, Co-Organizers API, Panelists API, and 10 more. Tagged areas include Attendees, Collaboration, Communications, Event, and Meetings.
+overview: 'GoToWebinar publishes 13 API contracts indexed on the [APIs.io](https://apis.io/) network, including Attendees API, Co-Organizers API, Panelists API, and 10 more. Tagged areas include Attendees, Collaboration, Communications, Event, and Meetings.
 
 
   The GoToWebinar catalog on APIs.io includes 2 event-driven AsyncAPI specifications, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -680,10 +684,11 @@ rate_limits:
   name: Gotowebinar Rate Limits
   slug: gotowebinar-rate-limits
 rules:
-- effective_rule_count: 33
+- authorship: generated
+  effective_rule_count: 33
   extends:
   - spectral:asyncapi
-  name: GoToWebinar API Rules
+  name: GoToWebinar — asyncapi rules
   rule_count: 6
   severity_counts:
     error: 1
@@ -691,9 +696,10 @@ rules:
     info: 1
     warn: 4
   slug: gotowebinar-asyncapi-spectral-rules
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: GoToWebinar API Rules
+  name: GoToWebinar — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -701,7 +707,8 @@ rules:
     info: 2
     warn: 3
   slug: gotowebinar-jsonschema-spectral-rules
-- effective_rule_count: 49
+- authorship: unmarked
+  effective_rule_count: 49
   extends:
   - spectral:oas
   name: GoToWebinar API Rules
@@ -718,18 +725,18 @@ scopes:
   slug: gotowebinar-scopes
   summary_line: 2 scopes · authorizationCode
 score:
-  band: exemplar
-  composite: 67.1
+  band: strong
+  composite: 61.4
   coverage:
     artifact_dirs: 30
-    catalog_earned: 70.8
+    catalog_earned: 60.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 44.2
+    catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.7
   facets:
-    access_clarity: 96.8
+    access_clarity: 68.4
     contract_governance: 31.8
     contract_quality: 60.4
     developer_ergonomics: 55.4
@@ -752,9 +759,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

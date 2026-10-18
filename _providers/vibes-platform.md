@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 46.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 54
+- acting_count: 53
   human_in_the_loop: 1
   name: Vibes Platform Agentic Access
   operation_count: 106
   slug: vibes-platform-agentic-access
-  summary_line: 106 operations · 54 acting · 1 human-in-the-loop
+  summary_line: 106 operations · 53 acting · 1 human-in-the-loop
 api_count: 5
 apis:
 - baseURL: https://public-api.vibescm.com
@@ -241,6 +241,15 @@ collections:
   name: Vibes Platform API
   slug: open-vibes-platform
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/vibes-platform/refs/heads/main/finops/vibes-platform-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/vibes-platform-finops.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.vibes.com/blog/rss.xml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/vibes-platform/refs/heads/main/capabilities/vibes-platform-capability-edges.yml
   title: ''
@@ -437,9 +446,13 @@ examples:
   name: Vibes Platform Listbroadcasts Example
   slug: vibes-platform-listBroadcasts-example
 finops:
-- name: Vibes Platform Finops
+- has_sources: false
+  method: generated
+  name: Vibes Platform Finops
+  primary_unit: ''
   service_category: API
   slug: vibes-platform-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vibes-platform.png
 json_schemas:
 - name: Broadcast
@@ -461,17 +474,17 @@ jsonld:
   property_count: 4
   slug: vibes-platform-context
 layout: provider
-modified: '2026-08-13'
+modified: '2026-10-06'
 name: Vibes Platform
 nav: Providers
 network: true
-overview: 'Vibes Platform publishes 30 APIs on the [APIs.io](https://apis.io/) network, including Acquisition Campaigns API, Broadcasts API, Callbacks API, and 27 more. Tagged areas include Mobile Marketing, Mobile Messaging, Push Notifications, SMS, and MMS.
+overview: 'Vibes Platform publishes 30 API contracts indexed on the [APIs.io](https://apis.io/) network, including Acquisition Campaigns API, Broadcasts API, Callbacks API, and 27 more. Tagged areas include Mobile Marketing, Mobile Messaging, Push Notifications, SMS, and MMS.
 
 
   The Vibes Platform catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Vibes Platform''s developer surface includes changelog, authentication, developer portal, documentation, API reference, getting-started guide, support, and 31 more developer resources.'
+  Vibes Platform''s developer surface includes changelog, authentication, developer portal, documentation, API reference, getting-started guide, support, and 33 more developer resources.'
 plans:
 - name: Vibes Platform Plans Pricing
   plan_count: 4
@@ -482,9 +495,10 @@ rate_limits:
   name: Vibes Platform Rate Limits
   slug: vibes-platform-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Vibes Platform API Rules
+  name: Vibes Platform — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -492,7 +506,8 @@ rules:
     info: 1
     warn: 4
   slug: vibes-platform-jsonschema-spectral-rules
-- effective_rule_count: 54
+- authorship: unmarked
+  effective_rule_count: 54
   extends:
   - spectral:oas
   name: Vibes Platform API Rules
@@ -510,23 +525,23 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: strong
-  composite: 66.1
+  composite: 65.1
   coverage:
-    artifact_dirs: 32
-    catalog_earned: 79.5
+    artifact_dirs: 34
+    catalog_earned: 76.5
     catalog_earned_first_party: 24.0
     catalog_gap: 38.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: -1.6
   facets:
-    access_clarity: 76.3
+    access_clarity: 68.4
     contract_governance: 31.8
     contract_quality: 63.7
     developer_ergonomics: 61.3
     discoverability: 78.6
     operational_transparency: 76.3
-  previous_composite: 66.1
+  previous_composite: 66.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -543,8 +558,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 35.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

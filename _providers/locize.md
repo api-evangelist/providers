@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 15.5
-  scored_at: '2026-10-04'
+  score: 13.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The Locize REST API enables developers to programmatically manage translation namespaces, keys, languages, and versions. It supports fetching and updating translations via CDN endpoints, reporting mis
@@ -93,9 +93,13 @@ common:
 created: '2026-06-13'
 description: Locize is a localization-as-a-service platform built by the creators of i18next that connects developers, product managers, and translators to deliver translation updates continuously without requiring app redeployment. The platform provides a comprehensive REST API for managing translation namespaces, keys, importing and exporting translations, and version management across multiple languages and environments. Locize supports native i18next integration along with any i18n library and workflow, and offers CLI tooling, CDN delivery, AI-assisted translation, and in-context editing for a complete developer-friendly localization lifecycle.
 finops:
-- name: Locize Finops
+- has_sources: false
+  method: generated
+  name: Locize Finops
+  primary_unit: ''
   service_category: ''
   slug: locize-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/locize.png
 jsonld:
 - class_count: 30
@@ -107,7 +111,7 @@ modified: '2026-06-13'
 name: Locize
 nav: Providers
 network: true
-overview: 'Locize publishes 1 API on the [APIs.io](https://apis.io/) network: REST API. Tagged areas include Localization, Internationalization, i18n, Translation Management, and Translation.
+overview: 'Locize is listed with 1 API on the [APIs.io](https://apis.io/) network: REST API. Tagged areas include Localization, Internationalization, i18n, Translation Management, and Translation.
 
 
   The Locize catalog on APIs.io includes 1 JSON-LD context.
@@ -124,23 +128,23 @@ rate_limits:
   name: Locize Rate Limits
   slug: locize-rate-limits
 score:
-  band: thin
-  composite: 30.7
+  band: emerging
+  composite: 22.4
   coverage:
     artifact_dirs: 9
-    catalog_earned: 69.6
+    catalog_earned: 51.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 45.4
+    catalog_gap: 64.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 46.8
+    access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 34.7
     developer_ergonomics: 11.9
     discoverability: 66.1
-    operational_transparency: 33.7
+    operational_transparency: 13.2
   previous_composite: 30.7
   regulatory:
     applies: true
@@ -148,9 +152,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

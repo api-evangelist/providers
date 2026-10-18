@@ -23,8 +23,8 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 34.3
-  scored_at: '2026-10-04'
-api_count: 1
+  scored_at: '2026-10-17'
+api_count: 2
 apis:
 - description: 'Hosted MCP server (Streamable HTTP) exposing 10 read-only tools for searching, comparing and fetching coworking spaces, market rates, locations, operators and guides. Independently health-verified on '
   name: CoworkingView MCP Server
@@ -86,6 +86,20 @@ apis:
   slug: coworkingview-api-search-api
 artifact_total: 17
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/coworkingview-api/refs/heads/main/plans/coworkingview-api-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/coworkingview-api-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/coworkingview-api/refs/heads/main/rate-limits/coworkingview-api-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/coworkingview-api-rate-limits.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://coworkingview.com/en/insights
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/coworkingview-api/refs/heads/main/capabilities/coworkingview-api-capability-edges.yml
   title: ''
@@ -133,11 +147,14 @@ mcp_servers:
 - description: Official hosted, remote MCP server (Streamable HTTP) for CoworkingView, exposing 10 read-only tools for discovering, searching, comparing and profiling coworking spaces, operators, places and market r
   name: CoworkingView MCP Server
   slug: coworkingview-mcp-server
-modified: '2026-09-15'
+modified: '2026-10-06'
 name: CoworkingView API
 nav: Providers
 network: true
-overview: CoworkingView API publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Config API, Facets API, Geo API, and 9 more. Tagged areas include Co-Working, Flexible Workspace, Real Estate, Location Services, and Search.
+overview: 'CoworkingView API publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including Config API, Facets API, Geo API, and 9 more. Tagged areas include Co-Working, Flexible Workspace, Real Estate, Location Services, and Search.
+
+
+  CoworkingView API''s developer surface includes engineering blog and 10 more developer resources.'
 plans:
 - name: Coworkingview Api Plans Pricing
   plan_count: 0
@@ -149,20 +166,20 @@ rate_limits:
   slug: coworkingview-api-rate-limits
 score:
   band: thin
-  composite: 27.7
+  composite: 28.2
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 24
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 0.0
     contract_governance: 4.5
     contract_quality: 42.9
-    developer_ergonomics: 42.3
+    developer_ergonomics: 44.6
     discoverability: 75.0
     operational_transparency: 7.9
   previous_composite: 27.7
@@ -181,12 +198,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
     score: 0.0
+screenshot: https://raw.githubusercontent.com/api-evangelist/coworkingview-api/refs/heads/main/screenshots/coworkingview-api-2026-10-11T103311.png
 security:
 - kind: authentication
   name: Coworkingview Api Authentication

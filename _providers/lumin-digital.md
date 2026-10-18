@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Lumin Digital's platform API and SDK surface, used by financial institutions and by ecosystem partners to integrate third-party products into the digital banking experience and to move data between th
@@ -187,7 +187,7 @@ modified: '2026-08-25'
 name: Lumin Digital
 nav: Providers
 network: true
-overview: 'Lumin Digital publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Digital Banking, Banking, Credit Union, Financial Services, and Fintech.
+overview: 'Lumin Digital is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Digital Banking, Banking, Credit Union, Financial Services, and Fintech.
 
 
   Lumin Digital''s developer surface includes support, engineering blog, product news, CLI, and 23 more developer resources.'
@@ -204,7 +204,7 @@ score:
   band: emerging
   composite: 18.6
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -233,8 +233,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 19.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

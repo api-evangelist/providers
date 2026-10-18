@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The Zippin Gateway is Zippin's integration/API framework for its checkout-free store platform — the surface retailers and partners use to connect payment gateways, loyalty and gift providers, campus c
@@ -138,7 +138,7 @@ modified: '2026-09-05'
 name: Zippin
 nav: Providers
 network: true
-overview: 'Zippin publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Retail, Retail Technology, Checkout-Free, and Cashierless.
+overview: 'Zippin is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Retail, Retail Technology, Checkout-Free, and Cashierless.
 
 
   Zippin''s developer surface includes support, engineering blog, and 17 more developer resources.'
@@ -155,7 +155,7 @@ score:
   band: emerging
   composite: 15.1
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -183,13 +183,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 11.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/zippin/refs/heads/main/screenshots/zippin-2026-10-11T195129.png
 security:
 - kind: domain-security
   name: Zippin Domain Security

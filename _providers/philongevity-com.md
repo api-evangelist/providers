@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: Official Model Context Protocol server for the PRISM biomarker-analysis engine. Hosted Streamable HTTP at https://philongevity.com/mcp (6 tools — analyze_biomarkers, list_supported_biomarkers, quick_c
@@ -205,7 +205,7 @@ modified: '2026-09-19'
 name: Phi Longevity
 nav: Providers
 network: true
-overview: 'Phi Longevity publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Health Data, Lab Results, and Biomarkers.
+overview: 'Phi Longevity is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Health Data, Lab Results, and Biomarkers.
 
 
   Phi Longevity''s developer surface includes documentation, getting-started guide, engineering blog, FAQ, pricing, signup flow, authentication, and 28 more developer resources.'
@@ -222,7 +222,7 @@ score:
   band: developing
   composite: 44.9
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 22
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -251,13 +251,14 @@ score:
     regime: Health
     regime_id: health
     score: 33.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/philongevity-com/refs/heads/main/screenshots/philongevity-com-2026-10-11T112532.png
 security:
 - kind: authentication
   name: Philongevity Com Authentication

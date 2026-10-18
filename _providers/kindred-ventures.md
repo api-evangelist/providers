@@ -27,7 +27,7 @@ tags:
 - Pre-Seed
 - Seed
 - Artificial Intelligence
-- Crypto
+- Cryptocurrency
 - Fintech
 - Consumer
 - Health and Wellness

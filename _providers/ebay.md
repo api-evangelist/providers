@@ -34,15 +34,15 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 85
+- acting_count: 82
   human_in_the_loop: 2
   name: Ebay Agentic Access
-  operation_count: 200
+  operation_count: 199
   slug: ebay-agentic-access
-  summary_line: 200 operations · 85 acting · 2 human-in-the-loop
-api_count: 25
+  summary_line: 199 operations · 82 acting · 2 human-in-the-loop
+api_count: 36
 apis:
 - baseURL: https://api.ebay.com
   baseurl_source: declared
@@ -563,6 +563,11 @@ collections:
   slug: open-ebay-video-api
 common:
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/ebay/refs/heads/main/finops/ebay-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/ebay-finops.yml
+- group: commercial
   title: ''
   type: Pricing
   url: https://www.ebay.com/help/selling/fees-credits-invoices/selling-fees?id=4822
@@ -671,9 +676,13 @@ common:
 created: '2023-11-09'
 description: eBay is a multinational e-commerce corporation that operates a website facilitating consumer-to-consumer and business-to-consumer sales through its online platform. Users can buy and sell a wide range of products, including electronics, fashion, collectibles, and more, in an auction-style or buy-it-now format. eBay provides a secure and user-friendly platform for sellers to reach a global audience and for buyers to access a vast selection of items.
 finops:
-- name: Ebay Finops
+- has_sources: true
+  method: generated
+  name: Ebay Finops
+  primary_unit: ''
   service_category: Marketplace
   slug: ebay-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ebay.png
 json_schemas:
 - name: AcceptPaymentDisputeRequest
@@ -2098,13 +2107,13 @@ modified: '2026-09-16'
 name: eBay
 nav: Providers
 network: true
-overview: 'eBay publishes 64 APIs on the [APIs.io](https://apis.io/) network, including Advertising_eligibility API, Bidding API, Category_tree API, and 61 more. Tagged areas include Auctions, Commerce, Product, Marketplace, and Fortune 500.
+overview: 'eBay publishes 64 API contracts indexed on the [APIs.io](https://apis.io/) network, including Advertising_eligibility API, Bidding API, Category_tree API, and 61 more. Tagged areas include Auctions, Commerce, Product, Marketplace, and Fortune 500.
 
 
   The eBay catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  eBay''s developer surface includes pricing, authentication, getting-started guide, tooling, support, FAQ, engineering blog, and 18 more developer resources.'
+  eBay''s developer surface includes pricing, authentication, getting-started guide, tooling, support, FAQ, engineering blog, and 19 more developer resources.'
 plans:
 - name: Ebay Plans Pricing
   plan_count: 15
@@ -2134,9 +2143,10 @@ rate_limits:
   name: Ebay Rate Limits
   slug: ebay-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: eBay API Rules
+  name: eBay — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -2151,23 +2161,23 @@ scopes:
   summary_line: 27 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 51.0
+  composite: 49.5
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 61.3
+    artifact_dirs: 21
+    catalog_earned: 58.3
     catalog_earned_first_party: 12.0
     catalog_gap: 56.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: -1.5
   facets:
-    access_clarity: 50.0
+    access_clarity: 42.1
     contract_governance: 9.8
     contract_quality: 53.4
     developer_ergonomics: 57.1
     discoverability: 71.4
     operational_transparency: 42.1
-  previous_composite: 50.4
+  previous_composite: 51.0
   provenance:
     agentic_access: derived
     contracts:
@@ -2181,8 +2191,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

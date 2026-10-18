@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The Adaptive Integration Fabric (formerly Ivory Suite) enables enterprises to rapidly expose IBM z/OS and z/VSE mainframe applications as REST or SOAP web services without programming. Using the Fabri
@@ -41,6 +41,21 @@ apis:
   slug: adaptive-integration-fabric
 artifact_total: 17
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/adaptigent/refs/heads/main/plans/adaptigent-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/adaptigent-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/adaptigent/refs/heads/main/rate-limits/adaptigent-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/adaptigent-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/adaptigent/refs/heads/main/finops/adaptigent-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/adaptigent-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/adaptigent/refs/heads/main/security/adaptigent-domain-security.yml
   title: ''
@@ -124,19 +139,23 @@ features:
 - description: Available on Red Hat Marketplace, enabling enterprise customers to deploy and manage Adaptive Integration Fabric within their Red Hat OpenShift environments.
   name: Red Hat Marketplace Availability
 finops:
-- name: Adaptigent Finops
+- has_sources: false
+  method: generated
+  name: Adaptigent Finops
+  primary_unit: ''
   service_category: API
   slug: adaptigent-finops
+  template: true
 image: /assets/icons/adaptigent.png
 layout: provider
 modified: '2026-08-30'
 name: Adaptigent
 nav: Providers
 network: true
-overview: 'Adaptigent publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Mainframe, Integration, API Gateway, Legacy Systems, and Enterprise.
+overview: 'Adaptigent is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Mainframe, Integration, API Gateway, Legacy Systems, and Enterprise.
 
 
-  Adaptigent''s developer surface includes developer portal, pricing, engineering blog, support, changelog, and 10 more developer resources.'
+  Adaptigent''s developer surface includes developer portal, pricing, engineering blog, support, changelog, and 13 more developer resources.'
 plans:
 - name: Adaptigent Plans Pricing
   plan_count: 0
@@ -148,17 +167,17 @@ rate_limits:
   slug: adaptigent-rate-limits
 score:
   band: emerging
-  composite: 25.7
+  composite: 24.2
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 35.0
+    artifact_dirs: 13
+    catalog_earned: 32.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 80.0
+    catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 39.5
+    access_clarity: 31.6
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 33.3
@@ -173,8 +192,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

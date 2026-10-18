@@ -35,15 +35,15 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 30
+- acting_count: 31
   human_in_the_loop: 4
   name: Uc Davis Agentic Access
-  operation_count: 81
+  operation_count: 100
   slug: uc-davis-agentic-access
-  summary_line: 81 operations · 30 acting · 4 human-in-the-loop
-api_count: 5
+  summary_line: 100 operations · 31 acting · 4 human-in-the-loop
+api_count: 6
 apis:
 - description: UC Davis operates its own SAML 2.0 identity provider and publishes signed federation metadata as entityID urn:mace:incommon:ucdavis.edu. This is machine-readable, institution-operated by definition, a
   name: UC Davis Shibboleth Identity Provider (SAML 2.0 / InCommon)
@@ -164,6 +164,10 @@ collections:
   name: PEAKS API v1 Access Workstations API
   slug: open-uc-davis-workstations-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.ucdavis.edu/news
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/uc-davis/refs/heads/main/capabilities/uc-davis-capability-edges.yml
   title: ''
@@ -392,9 +396,13 @@ examples:
   name: Uc Davis Keys List Example
   slug: uc-davis-keys-list-example
 finops:
-- name: Uc Davis Finops
+- has_sources: true
+  method: none
+  name: Uc Davis Finops
+  primary_unit: ''
   service_category: Education
   slug: uc-davis-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/uc-davis.png
 json_schemas:
 - name: UC Davis Aggie Experts — Expert
@@ -431,17 +439,17 @@ jsonld:
   property_count: 1
   slug: uc-davis-context
 layout: provider
-modified: '2026-08-19'
+modified: '2026-10-06'
 name: University of California, Davis
 nav: Providers
 network: true
-overview: 'University of California, Davis publishes 20 APIs on the [APIs.io](https://apis.io/) network, including PEAKS (CAES) — Access API, PEAKS (CAES) — Documents API, PEAKS (CAES) — Equipment API, and 17 more. Tagged areas include University, Higher Education, Education, United States, and California.
+overview: 'University of California, Davis publishes 20 API contracts indexed on the [APIs.io](https://apis.io/) network, including PEAKS (CAES) — Access API, PEAKS (CAES) — Documents API, PEAKS (CAES) — Equipment API, and 17 more. Tagged areas include University, Higher Education, Education, United States, and California.
 
 
   The University of California, Davis catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  University of California, Davis'' developer surface includes status page, support, documentation, API reference, authentication, and 25 more developer resources.'
+  University of California, Davis'' developer surface includes engineering blog, status page, support, documentation, API reference, authentication, and 25 more developer resources.'
 plans:
 - name: Uc Davis Plans Pricing
   plan_count: 2
@@ -452,9 +460,10 @@ rate_limits:
   name: Uc Davis Rate Limits
   slug: uc-davis-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: University of California, Davis API Rules
+  name: University of California, Davis — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -462,7 +471,8 @@ rules:
     info: 2
     warn: 3
   slug: uc-davis-jsonschema-spectral-rules
-- effective_rule_count: 6
+- authorship: derived
+  effective_rule_count: 6
   extends: []
   name: University of California, Davis API Rules
   rule_count: 6
@@ -479,20 +489,20 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 44.7
+  composite: 43.6
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 63.7
+    artifact_dirs: 24
+    catalog_earned: 60.7
     catalog_earned_first_party: 0.0
-    catalog_gap: 51.4
+    catalog_gap: 54.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: -1.1
   facets:
-    access_clarity: 61.1
+    access_clarity: 53.2
     contract_governance: 9.8
     contract_quality: 49.8
-    developer_ergonomics: 40.5
+    developer_ergonomics: 42.9
     discoverability: 62.5
     operational_transparency: 21.6
   jurisdiction:
@@ -502,7 +512,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 44.1
+  previous_composite: 44.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -517,8 +527,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 34.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

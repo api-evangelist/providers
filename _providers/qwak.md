@@ -34,10 +34,15 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
-artifact_total: 2
+artifact_total: 3
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/qwak/refs/heads/main/plans/qwak-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/qwak-plans-pricing.yml
 - group: other
   title: ''
   type: ParentCompany
@@ -111,24 +116,28 @@ modified: '2026-07-20'
 name: Qwak
 nav: Providers
 network: true
-overview: 'Qwak is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Ml, Machine Learning, MLOps, and LLMOps.
+overview: 'Qwak is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, MLOps, and LLMOps.
 
 
-  Qwak''s developer surface includes documentation, engineering blog, pricing, signup flow, CLI, authentication, and 9 more developer resources.'
+  Qwak''s developer surface includes documentation, engineering blog, pricing, signup flow, CLI, authentication, and 10 more developer resources.'
+plans:
+- name: Qwak Plans Pricing
+  plan_count: 7
+  slug: qwak-plans-pricing
 random_paper: 18
 score:
   band: emerging
-  composite: 14.9
+  composite: 21.3
   coverage:
-    artifact_dirs: 7
-    catalog_earned: 27.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 88.0
+    artifact_dirs: 8
+    catalog_earned: 39.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.4
   facets:
-    access_clarity: 21.1
+    access_clarity: 52.6
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 28.6
@@ -141,9 +150,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 14.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -161,7 +170,7 @@ security:
 slug: qwak
 tags:
 - Company
-- Ai Ml
+- Artificial Intelligence
 - Machine Learning
 - MLOps
 - LLMOps

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 52.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The AnnounceKit API provides GraphQL and REST endpoints for programmatically creating and updating posts, syncing user data, managing widgets, and automating product changelog workflows. Supports 11 w
@@ -46,6 +46,16 @@ asyncapis:
   name: Announcekit Webhooks
   slug: announcekit-webhooks
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/announcekit/refs/heads/main/rate-limits/announcekit-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/announcekit-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/announcekit/refs/heads/main/finops/announcekit-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/announcekit-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/announcekit/refs/heads/main/security/announcekit-trust-center.yml
   title: ''
@@ -168,9 +178,13 @@ common:
 created: '2026-03-29'
 description: AnnounceKit is a product communication platform providing changelog management, in-app notification widgets, feature request boards, roadmaps, and NPS surveys. It enables product teams to communicate updates to users via 10+ widget display modes, email digests, Slack, webhooks, and RSS, with GraphQL and REST APIs for programmatic integration.
 finops:
-- name: Announcekit Finops
+- has_sources: false
+  method: generated
+  name: Announcekit Finops
+  primary_unit: ''
   service_category: API
   slug: announcekit-finops
+  template: true
 graphqls:
 - description: 'generated: ''2026-09-02'''
   name: AnnounceKit GraphQL API
@@ -185,13 +199,13 @@ modified: '2026-09-02'
 name: AnnounceKit
 nav: Providers
 network: true
-overview: 'AnnounceKit publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Changelog, Feature Requests, NPS, Notification, and Product Communication.
+overview: 'AnnounceKit is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Changelog, Feature Requests, NPS, Notification, and Product Communication.
 
 
   The AnnounceKit catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  AnnounceKit''s developer surface includes documentation, pricing, changelog, code examples, engineering blog, support, signup flow, and 20 more developer resources.'
+  AnnounceKit''s developer surface includes documentation, pricing, changelog, code examples, engineering blog, support, signup flow, and 22 more developer resources.'
 plans:
 - name: Announcekit Plans Pricing
   plan_count: 5
@@ -208,17 +222,17 @@ scopes:
   summary_line: 2 scopes
 score:
   band: strong
-  composite: 64.4
+  composite: 62.9
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 60.0
+    artifact_dirs: 24
+    catalog_earned: 57.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 55.0
+    catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 100.0
+    access_clarity: 92.1
     contract_governance: 18.2
     contract_quality: 52.0
     developer_ergonomics: 44.6
@@ -235,8 +249,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -19,7 +19,7 @@ agent_readiness:
   dimensions:
     agent_card: false
     agent_skills: derived
-    agentic_access: false
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: served
     consent_identity: false
@@ -37,9 +37,16 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 58.4
-  scored_at: '2026-10-04'
-api_count: 3
+  score: 60.2
+  scored_at: '2026-10-17'
+agentic_access:
+- acting_count: 24
+  human_in_the_loop: 0
+  name: Memo Bank Agentic Access
+  operation_count: 57
+  slug: memo-bank-agentic-access
+  summary_line: 57 operations · 24 acting
+api_count: 5
 apis:
 - baseURL: https://api.memo.bank
   baseurl_source: declared
@@ -116,12 +123,56 @@ apis:
   description: OAuth2 token management endpoints.
   name: Memo Bank O Auth2 API
   slug: memo-bank-oauth2-api
-artifact_total: 23
+artifact_total: 70
 asyncapis:
 - description: ''
   name: Memo Bank Webhooks
   slug: memo-bank-webhooks
 common:
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/agentic-access/memo-bank-agentic-access.yml
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/memo-bank-agentic-access.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/rules/memo-bank-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/memo-bank-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/json-ld/memo-bank-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/memo-bank-context.jsonld
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/vocabulary/memo-bank-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/memo-bank-vocabulary.yml
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/security/memo-bank-vulnerability-disclosure.yml
+  title: ''
+  type: Security
+  url: security/memo-bank-vulnerability-disclosure.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/hosts/memo-bank-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/memo-bank-hosts.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/integrations/memo-bank-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/memo-bank-integration-edges.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/vendors/memo-bank-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/memo-bank-vendors.yml
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://memo.bank/en/news/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/capabilities/memo-bank-capability-edges.yml
   title: ''
@@ -290,11 +341,6 @@ common:
   title: ''
   type: Webhooks
   url: asyncapi/memo-bank-webhooks.yml
-- group: build
-  href: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/packages/memo-bank-packages.yml
-  title: ''
-  type: Packages
-  url: packages/memo-bank-packages.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/skills/_index.yml
   title: ''
@@ -323,6 +369,144 @@ common:
 created: '2026-08-17'
 description: Memo Bank is an independent French commercial bank, accredited as a credit institution by the European Central Bank and supervised by the ACPR, that serves small and mid-sized companies with current accounts, loans, savings and an API-first payments platform. Its Premium Bank API is a REST/JSON contract authenticated with RS256-signed JWT/JWS request tokens, covering accounts, transactions, bi-directional virtual IBANs, SEPA credit transfers, SEPA Direct Debit collections and mandate signature requests, SWIFT/RTGS wire transfers, bulk payment batches, attachments and account assessments, with 34 webhook event types for asynchronous reconciliation. A Marketplace API adds an OAuth 2.0 layer so third-party developers can act on customer resources, a NextGenPSD2 API implements the Berlin Group AIS/PIS interface for licensed third-party providers, and a hosted MCP server exposes read-only banking data plus attachment upload to AI assistants.
 image: https://media.memo.bank/home_hero_602cdab270/home_hero_602cdab270.jpg
+json_schemas:
+- name: AccountPage
+  property_count: 5
+  slug: memo-bank-account-page
+- name: Account
+  property_count: 8
+  slug: memo-bank-account
+- name: AttachmentPage
+  property_count: 5
+  slug: memo-bank-attachment-page
+- name: Attachment
+  property_count: 7
+  slug: memo-bank-attachment
+- name: AuthorizationCodeGrant
+  property_count: 0
+  slug: memo-bank-authorization-code-grant
+- name: BulkCollections
+  property_count: 6
+  slug: memo-bank-bulk-collections
+- name: BulkPaymentInitiationJson
+  property_count: 3
+  slug: memo-bank-bulk-payment-initiation-json
+- name: BulkPaymentInitiationWithStatusResponse
+  property_count: 4
+  slug: memo-bank-bulk-payment-initiation-with-status-response
+- name: BulkTransfers
+  property_count: 6
+  slug: memo-bank-bulk-transfers
+- name: CollectionPage
+  property_count: 5
+  slug: memo-bank-collection-page
+- name: Collection
+  property_count: 16
+  slug: memo-bank-collection
+- name: CompletedAccountAssessment
+  property_count: 0
+  slug: memo-bank-completed-account-assessment
+- name: CreateAccountAssessment
+  property_count: 2
+  slug: memo-bank-create-account-assessment
+- name: CreateBulkCollections
+  property_count: 1
+  slug: memo-bank-create-bulk-collections
+- name: CreateBulkTransfers
+  property_count: 1
+  slug: memo-bank-create-bulk-transfers
+- name: CreateCollection
+  property_count: 9
+  slug: memo-bank-create-collection
+- name: CreateEmailMandateSignatureRequest
+  property_count: 0
+  slug: memo-bank-create-email-mandate-signature-request
+- name: CreateIban
+  property_count: 3
+  slug: memo-bank-create-iban
+- name: CreateIncomingCollection
+  property_count: 5
+  slug: memo-bank-create-incoming-collection
+- name: CreateIncomingTransfer
+  property_count: 6
+  slug: memo-bank-create-incoming-transfer
+- name: CreateRedirectMandateSignatureRequest
+  property_count: 0
+  slug: memo-bank-create-redirect-mandate-signature-request
+- name: CreateTransferV2
+  property_count: 12
+  slug: memo-bank-create-transfer-v2
+- name: CreateWebhook
+  property_count: 2
+  slug: memo-bank-create-webhook
+- name: CreateWireTransfer
+  property_count: 9
+  slug: memo-bank-create-wire-transfer
+- name: EmailMandateSignatureRequest
+  property_count: 0
+  slug: memo-bank-email-mandate-signature-request
+- name: FailedAccountAssessment
+  property_count: 0
+  slug: memo-bank-failed-account-assessment
+- name: IbanPage
+  property_count: 5
+  slug: memo-bank-iban-page
+- name: Iban
+  property_count: 8
+  slug: memo-bank-iban
+- name: MandateSignatureRequestDebtor
+  property_count: 3
+  slug: memo-bank-mandate-signature-request-debtor
+- name: MandateSignatureRequestPage
+  property_count: 5
+  slug: memo-bank-mandate-signature-request-page
+- name: OAuth2Token
+  property_count: 6
+  slug: memo-bank-oauth2-token
+- name: PaymentInitiationJson
+  property_count: 8
+  slug: memo-bank-payment-initiation-json
+- name: PaymentInitiationWithStatusResponse
+  property_count: 8
+  slug: memo-bank-payment-initiation-with-status-response
+- name: PendingAccountAssessment
+  property_count: 0
+  slug: memo-bank-pending-account-assessment
+- name: RedirectMandateSignatureRequest
+  property_count: 0
+  slug: memo-bank-redirect-mandate-signature-request
+- name: RefreshTokenGrant
+  property_count: 0
+  slug: memo-bank-refresh-token-grant
+- name: TransactionPage
+  property_count: 5
+  slug: memo-bank-transaction-page
+- name: Transaction
+  property_count: 19
+  slug: memo-bank-transaction
+- name: TransferV2Page
+  property_count: 5
+  slug: memo-bank-transfer-v2-page
+- name: TransferV2
+  property_count: 18
+  slug: memo-bank-transfer-v2
+- name: UpdateIban
+  property_count: 4
+  slug: memo-bank-update-iban
+- name: WebhookPage
+  property_count: 5
+  slug: memo-bank-webhook-page
+- name: Webhook
+  property_count: 4
+  slug: memo-bank-webhook
+- name: WireTransfer
+  property_count: 14
+  slug: memo-bank-wire-transfer
+jsonld:
+- class_count: 86
+  name: Memo Bank Context
+  property_count: 178
+  slug: memo-bank-context
 layout: provider
 mcp_servers:
 - description: Remote MCP server at api.memo.bank requiring OAuth; 14 tools listed.
@@ -332,13 +516,13 @@ modified: '2026-08-17'
 name: Memo Bank
 nav: Providers
 network: true
-overview: 'Memo Bank publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Account assessments API, Accounts API, AIS API, and 12 more. Tagged areas include Company, Fintech Insurtech, Banking, Business Banking, and Payments.
+overview: 'Memo Bank publishes 15 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account assessments API, Accounts API, AIS API, and 12 more. Tagged areas include Company, Fintech Insurtech, Banking, Business Banking, and Payments.
 
 
-  The Memo Bank catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Memo Bank catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Memo Bank''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 36 more developer resources.'
+  Memo Bank''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 44 more developer resources.'
 plans:
 - name: Memo Bank Plans Pricing
   plan_count: 2
@@ -348,29 +532,42 @@ rate_limits:
 - limit_count: 0
   name: Memo Bank Rate Limits
   slug: memo-bank-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 52
+  extends:
+  - spectral:oas
+  name: Memo Bank API Rules
+  rule_count: 11
+  severity_counts:
+    error: 8
+    hint: 0
+    info: 1
+    warn: 2
+  slug: memo-bank-rules
 scopes:
 - name: Memo Bank Scopes
   scope_count: 2
   slug: memo-bank-scopes
   summary_line: 2 scopes · authorizationCode
 score:
-  band: strong
-  composite: 61.6
+  band: exemplar
+  composite: 68.6
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 48.0
+    artifact_dirs: 32
+    catalog_earned: 73.8
     catalog_earned_first_party: 8.0
-    catalog_gap: 67.0
+    catalog_gap: 41.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 7.0
   facets:
     access_clarity: 73.7
-    contract_governance: 18.2
-    contract_quality: 54.4
+    contract_governance: 35.6
+    contract_quality: 67.8
     developer_ergonomics: 66.1
-    discoverability: 80.0
-    operational_transparency: 42.1
+    discoverability: 81.7
+    operational_transparency: 52.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -381,6 +578,7 @@ score:
     - france-iberia
   previous_composite: 61.6
   provenance:
+    agentic_access: derived
     conformance: first-party
     contracts:
       callable: 100.0
@@ -405,9 +603,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 54.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

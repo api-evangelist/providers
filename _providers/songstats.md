@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -28,14 +28,14 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: false
-    rate_limit_signal: documented
+    protected_resource_metadata: verified
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.4
-  scored_at: '2026-10-04'
+  score: 30.1
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -94,6 +94,21 @@ collections:
   name: Songstats Enterprise API
   slug: open-songstats
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/songstats/refs/heads/main/plans/songstats-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/songstats-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/songstats/refs/heads/main/rate-limits/songstats-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/songstats-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/songstats/refs/heads/main/finops/songstats-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/songstats-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/songstats/refs/heads/main/agentic-access/songstats-agentic-access.yml
   title: ''
@@ -147,9 +162,13 @@ examples:
   name: Songstats Get Track Historic Stats Example
   slug: songstats-get-track-historic-stats-example
 finops:
-- name: Songstats Finops
+- has_sources: false
+  method: generated
+  name: Songstats Finops
+  primary_unit: ''
   service_category: API
   slug: songstats-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/songstats.png
 json_schemas:
 - name: Songstats Artist
@@ -176,13 +195,13 @@ modified: '2026-05-19'
 name: Songstats
 nav: Providers
 network: true
-overview: 'Songstats publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Artists API, Collaborators API, Info API, and 2 more. Tagged areas include Analytics, Music, Streaming, Artists, and Tracks.
+overview: 'Songstats publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Artists API, Collaborators API, Info API, and 2 more. Tagged areas include Analytics, Music, Streaming, Artists, and Tracks.
 
 
   The Songstats catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Songstats'' developer surface includes authentication, developer portal, documentation, GitHub presence, engineering blog, signup flow, and 4 more developer resources.'
+  Songstats'' developer surface includes authentication, developer portal, documentation, GitHub presence, engineering blog, signup flow, and 7 more developer resources.'
 plans:
 - name: Songstats Plans Pricing
   plan_count: 3
@@ -193,9 +212,10 @@ rate_limits:
   name: Songstats Rate Limits
   slug: songstats-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Songstats API Rules
+  name: Songstats — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -203,7 +223,8 @@ rules:
     info: 1
     warn: 4
   slug: songstats-jsonschema-spectral-rules
-- effective_rule_count: 48
+- authorship: unmarked
+  effective_rule_count: 48
   extends:
   - spectral:oas
   name: Songstats API Rules
@@ -216,17 +237,17 @@ rules:
   slug: songstats-rules
 score:
   band: thin
-  composite: 38.7
+  composite: 37.3
   coverage:
     artifact_dirs: 18
-    catalog_earned: 66.9
+    catalog_earned: 63.9
     catalog_earned_first_party: 0.0
-    catalog_gap: 48.1
+    catalog_gap: 51.1
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.4
   facets:
-    access_clarity: 28.9
+    access_clarity: 21.1
     contract_governance: 13.6
     contract_quality: 60.9
     developer_ergonomics: 40.5
@@ -247,8 +268,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

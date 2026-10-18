@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: partner
+  gated_source:
+  - tag:Partner Gated
   label: Self-serve signup
   onboarding: self-serve
   pricing: unknown
@@ -35,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Vitality's production API gateway, running WSO2 API Manager at apis.vitality.co.uk (origin wso2-prd-apigw.tvc.vitality.co.uk:8243 behind an AWS load balancer in eu-west-1). The gateway is publicly res
@@ -126,7 +129,7 @@ modified: '2026-07-25'
 name: Vitality
 nav: Providers
 network: true
-overview: 'Vitality publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, United Kingdom, Health Insurance, Life Insurance, and Employee Benefits.
+overview: 'Vitality is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, United Kingdom, Health Insurance, Life Insurance, and Employee Benefits.
 
 
   Vitality''s developer surface includes support, authentication, and 14 more developer resources.'
@@ -171,8 +174,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 36.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -198,6 +201,5 @@ tags:
 - Carrier
 - Policy Administration
 - Underwriting
-- Partner Gated
 website: https://www.vitality.co.uk/
 ---

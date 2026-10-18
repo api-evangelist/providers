@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 15.5
-  scored_at: '2026-10-04'
+  score: 13.6
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: REST API providing access to the world's largest open database of companies. Search and retrieve company registration data, officer information, corporate filings, and jurisdiction data across more th
@@ -99,16 +99,20 @@ common:
 created: 2026-06-13
 description: OpenCorporates is the world's largest open database of companies, providing a REST API for searching and retrieving company registration data, officer information, and corporate filings globally across more than 140 jurisdictions. The API enables access to company details, director and officer records, statutory filings, and corporate groupings, making it a primary resource for compliance, due diligence, investigative journalism, and corporate transparency.
 finops:
-- name: Open Corporates Finops
+- has_sources: false
+  method: generated
+  name: Open Corporates Finops
+  primary_unit: ''
   service_category: ''
   slug: open-corporates-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/open-corporates.png
 layout: provider
 modified: 2026-06-13
 name: OpenCorporates
 nav: Providers
 network: true
-overview: 'OpenCorporates publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Companies, Corporate Data, Business Intelligence, Compliance, and Due Diligence.
+overview: 'OpenCorporates is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Companies, Corporate Data, Business Intelligence, Compliance, and Due Diligence.
 
 
   OpenCorporates'' developer surface includes documentation, engineering blog, pricing, and 9 more developer resources.'
@@ -122,23 +126,23 @@ rate_limits:
   name: Open Corporates Rate Limits
   slug: open-corporates-rate-limits
 score:
-  band: thin
-  composite: 28.7
+  band: emerging
+  composite: 20.3
   coverage:
     artifact_dirs: 8
-    catalog_earned: 61.6
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.4
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.4
   facets:
-    access_clarity: 46.8
+    access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 24.0
     developer_ergonomics: 11.9
     discoverability: 66.1
-    operational_transparency: 41.6
+    operational_transparency: 21.1
   previous_composite: 28.7
   regulatory:
     applies: true
@@ -146,9 +150,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

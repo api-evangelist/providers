@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.3
-  scored_at: '2026-10-04'
+  score: 20.4
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -99,6 +99,21 @@ collections:
   name: Apache OpenWhisk REST Actions Triggers API
   slug: open-apache-openwhisk-triggers-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/apache-openwhisk/refs/heads/main/plans/apache-openwhisk-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/apache-openwhisk-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/apache-openwhisk/refs/heads/main/rate-limits/apache-openwhisk-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/apache-openwhisk-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/apache-openwhisk/refs/heads/main/finops/apache-openwhisk-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/apache-openwhisk-finops.yml
 - group: company
   title: ''
   type: Website
@@ -219,9 +234,13 @@ features:
 - description: Custom runtime support via Docker containers for any language
   name: Docker Actions
 finops:
-- name: Apache Openwhisk Finops
+- has_sources: false
+  method: generated
+  name: Apache Openwhisk Finops
+  primary_unit: ''
   service_category: API
   slug: apache-openwhisk-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/apache-openwhisk.png
 integrations:
 - description: Respond to Slack events and slash commands
@@ -356,13 +375,13 @@ modified: '2026-09-16'
 name: Apache OpenWhisk
 nav: Providers
 network: true
-overview: 'Apache OpenWhisk publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Actions API, Activations API, Namespaces API, and 3 more. Tagged areas include Cloud-Native, Event-Driven, Function-as-a-Service, Serverless, and Apache.
+overview: 'Apache OpenWhisk is listed with 6 APIs on the [APIs.io](https://apis.io/) network, including Actions API, Activations API, Namespaces API, and 3 more. Tagged areas include Cloud-Native, Event-Driven, Function-as-a-Service, Serverless, and Apache.
 
 
   The Apache OpenWhisk catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Apache OpenWhisk''s developer surface includes authentication, documentation, and 8 more developer resources.'
+  Apache OpenWhisk''s developer surface includes authentication, documentation, and 11 more developer resources.'
 plans:
 - name: Apache Openwhisk Plans Pricing
   plan_count: 3
@@ -373,9 +392,10 @@ rate_limits:
   name: Apache Openwhisk Rate Limits
   slug: apache-openwhisk-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Apache OpenWhisk API Rules
+  name: Apache OpenWhisk — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -383,7 +403,8 @@ rules:
     info: 1
     warn: 4
   slug: apache-openwhisk-jsonschema-spectral-rules
-- effective_rule_count: 58
+- authorship: generated
+  effective_rule_count: 58
   extends:
   - spectral:oas
   name: Apache OpenWhisk API Rules
@@ -395,18 +416,18 @@ rules:
     warn: 8
   slug: apache-openwhisk-spectral-rules
 score:
-  band: thin
-  composite: 27.1
+  band: emerging
+  composite: 25.6
   coverage:
     artifact_dirs: 17
-    catalog_earned: 64.0
+    catalog_earned: 61.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 51.0
+    catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 27.3
     contract_quality: 20.5
     developer_ergonomics: 21.4
@@ -426,8 +447,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

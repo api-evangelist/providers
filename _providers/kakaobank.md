@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 5
 apis:
 - description: REST API for managing KakaoBank accounts including demand deposits, savings accounts, and group accounts. Provides access to account balances, transaction history, and account holder information for a
@@ -108,16 +108,20 @@ common:
 created: '2026-06-13'
 description: KakaoBank is South Korea's leading internet-only bank, offering REST APIs for account management, fund transfers, loans, credit scoring, and open banking data connectivity for the Korean market. Founded in 2016 and backed by Kakao Corp., KakaoBank serves over 26 million customers through a fully mobile and API-first digital banking platform.
 finops:
-- name: Kakaobank Finops
+- has_sources: false
+  method: generated
+  name: Kakaobank Finops
+  primary_unit: ''
   service_category: ''
   slug: kakaobank-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kakaobank.png
 layout: provider
 modified: '2026-06-13'
 name: KakaoBank
 nav: Providers
 network: true
-overview: 'KakaoBank publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Banking, Finance, Open Banking, South Korea, and Fintech.
+overview: 'KakaoBank is listed with 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Banking, Finance, Open Banking, South Korea, and Fintech.
 
 
   KakaoBank''s developer surface includes documentation, engineering blog, pricing, and 9 more developer resources.'
@@ -132,22 +136,22 @@ rate_limits:
   slug: kakaobank-rate-limits
 score:
   band: emerging
-  composite: 20.8
+  composite: 12.5
   coverage:
-    artifact_dirs: 8
-    catalog_earned: 64.6
+    artifact_dirs: 9
+    catalog_earned: 46.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 50.4
+    catalog_gap: 69.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
     discoverability: 71.4
-    operational_transparency: 49.5
+    operational_transparency: 28.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -162,9 +166,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 4.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

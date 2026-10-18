@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 7
 apis:
 - description: 'UBS''s EU PSD2-compliant open banking API set covering Account Information Services (AIS), Payment Initiation Services (PIS), and Confirmation of Funds (CoF). Used by licensed third-party providers to '
@@ -123,7 +123,7 @@ modified: '2026-05-16'
 name: UBS
 nav: Providers
 network: true
-overview: 'UBS publishes 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Finance, Banks, Wealth Management, Investment Banking, and Open Banking.
+overview: 'UBS is listed with 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Finance, Banks, Wealth Management, Investment Banking, and Open Banking.
 
 
   UBS''s developer surface includes developer portal, documentation, getting-started guide, engineering blog, support, and 4 more developer resources.'
@@ -132,7 +132,7 @@ score:
   band: emerging
   composite: 11.3
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -153,8 +153,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 4.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

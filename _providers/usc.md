@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 8
 apis:
 - description: USC's production single sign-on identity provider, operated by USC Information Technology Services on USC's own host, publishing its SAML 2.0 metadata unauthenticated. GET https://shibboleth.usc.edu/i
@@ -202,9 +202,13 @@ created: '2026-06-03'
 description: 'The University of Southern California is a private research university in Los Angeles, ranked #59 in the QS World University Rankings 2025. USC operates no central developer portal, publishes no OpenAPI, AsyncAPI or apis.json anywhere on its public surface, and issues no self-service API keys — www.usc.edu serves neither llms.txt nor .well-known/security.txt, and api.usc.edu is a default IIS Windows Server placeholder page last modified in 2019, not an API. What USC does operate, verified live on 2026-08-30, is three genuinely institutional machine surfaces: a Shibboleth SAML 2.0 identity provider whose metadata is published unauthenticated at shibboleth.usc.edu and registered with InCommon as urn:mace:incommon:usc.edu; a DataCite direct membership under its own name that carries eleven repositories and 1.5 million minted DOIs; and the FaceBase craniofacial data hub, whose keyless ERMrest REST API is built and run by USC''s own Information Sciences Institute on ISI''s Apache-2.0
   DERIVA stack. Everything else that looks like a USC API is a vendor''s contract running under USC''s name and is recorded here as a tenant relationship, never as USC''s engineering: Figshare, Ex Libris Primo/Alma, Orange Logic Cortex and Instructure Canvas. The Schedule of Classes Web Services API that this profile previously led with is gone — web-app.usc.edu no longer resolves at all.'
 finops:
-- name: Usc Finops
+- has_sources: true
+  method: derived
+  name: Usc Finops
+  primary_unit: ''
   service_category: Education
   slug: usc-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/usc.png
 jsonld:
 - class_count: 9
@@ -216,7 +220,7 @@ modified: '2026-08-30'
 name: University of Southern California
 nav: Providers
 network: true
-overview: 'University of Southern California publishes 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include University, Higher Education, Education, Research, and Private Research University.
+overview: 'University of Southern California is listed with 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include University, Higher Education, Education, Research, and Private Research University.
 
 
   The University of Southern California catalog on APIs.io includes 1 JSON-LD context.
@@ -234,17 +238,17 @@ rate_limits:
   slug: usc-rate-limits
 score:
   band: emerging
-  composite: 23.1
+  composite: 21.6
   coverage:
-    artifact_dirs: 9
-    catalog_earned: 50.0
+    artifact_dirs: 10
+    catalog_earned: 47.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 65.0
+    catalog_gap: 68.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.9
+  delta: -1.5
   facets:
-    access_clarity: 23.7
+    access_clarity: 15.8
     contract_governance: 18.2
     contract_quality: 14.3
     developer_ergonomics: 23.8
@@ -257,7 +261,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 25.0
+  previous_composite: 23.1
   provenance:
     conformance: first-party
   regulatory:
@@ -266,8 +270,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 22.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

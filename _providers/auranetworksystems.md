@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: API reference for AURA Network Systems aviation communications services.
@@ -31,6 +31,10 @@ apis:
   slug: aura-api
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://auranetworksystems.com/news?format=rss
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/auranetworksystems/refs/heads/main/hosts/auranetworksystems-hosts.yml
   title: ''
@@ -98,25 +102,26 @@ created: '2026-09-26'
 description: Auranetworksystems, operating as AURA Network Systems, provides aviation communications infrastructure and services for both crewed and uncrewed aircraft. Leveraging licensed aviation spectrum, the company delivers secure, reliable voice and data solutions to enable advanced autonomy and FAA‑compliant operations across the National Airspace System. Their offerings include spectrum management, ground and airborne radio systems, and a nationwide network supporting BVLOS missions and other advanced aviation use cases.
 image: http://static1.squarespace.com/static/60e5e3a2bc062b6b10b26d85/t/6279c4572ed9a06538d504a1/1652147287206/AURA_dark.png?format=1500w
 layout: provider
-modified: '2026-09-26'
+modified: '2026-10-06'
 name: Auranetworksystems
 nav: Providers
 network: true
-overview: 'Auranetworksystems publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Aviation, Communications, Infrastructure, Unmanned, and BVLOS.
+overview: 'Auranetworksystems is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Aviation, Communications, Infrastructure, Unmanned, and BVLOS.
 
 
-  Auranetworksystems'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, and 8 more developer resources.'
+  Auranetworksystems'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, and 9 more developer resources.'
 random_paper: 15
 score:
   band: emerging
   composite: 17.7
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
@@ -124,6 +129,7 @@ score:
     developer_ergonomics: 35.7
     discoverability: 58.9
     operational_transparency: 5.3
+  previous_composite: 17.7
   provenance:
     mcp: unknown
   regulatory:
@@ -132,12 +138,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/auranetworksystems/refs/heads/main/screenshots/auranetworksystems-2026-10-11T100844.png
 security:
 - kind: domain-security
   name: Auranetworksystems Domain Security

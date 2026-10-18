@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The Universal Commerce Protocol (UCP) shopping service for the Rad Power Bikes online store, exposed over MCP. Anonymous tools/list returns 13 tools covering catalog search and lookup, product detail,
@@ -44,6 +44,15 @@ apis:
   slug: rad-power-bikes-ucp-commerce-mcp
 artifact_total: 7
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/rad-power-bikes/refs/heads/main/rate-limits/rad-power-bikes-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/rad-power-bikes-rate-limits.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.radpowerbikes.com/blogs/the-scenic-route.atom
 - group: company
   title: ''
   type: Website
@@ -110,14 +119,14 @@ mcp_servers:
 - description: Rad Power Bikes serves a live, anonymous MCP endpoint on its own domain implementing the Universal Commerce Protocol (UCP) shopping service. An unauthenticated POST of {"jsonrpc":"2.0","id":1,"method"
   name: Rad Power Bikes UCP Commerce MCP
   slug: rad-power-bikes-ucp-commerce-mcp
-modified: '2026-08-26'
+modified: '2026-10-06'
 name: Rad Power Bikes
 nav: Providers
 network: true
-overview: 'Rad Power Bikes publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Electric Bikes, Micromobility, E-Commerce, and Retail.
+overview: 'Rad Power Bikes is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Electric Bikes, Micromobility, E-Commerce, and Retail.
 
 
-  Rad Power Bikes'' developer surface includes documentation, getting-started guide, support, engineering blog, signup flow, and 8 more developer resources.'
+  Rad Power Bikes'' developer surface includes documentation, getting-started guide, support, engineering blog, signup flow, and 10 more developer resources.'
 plans:
 - name: Rad Power Bikes Plans Pricing
   plan_count: 0
@@ -134,15 +143,15 @@ scopes:
   summary_line: 4 scopes · authorization_code/refresh_token
 score:
   band: thin
-  composite: 27.8
+  composite: 27.9
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 34.2
     contract_governance: 18.2
@@ -168,8 +177,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

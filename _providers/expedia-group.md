@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.3
-  scored_at: '2026-10-04'
+  score: 30.4
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -170,6 +170,21 @@ collections:
   name: Expedia Group EPS Deposit Bookings Shopping API
   slug: open-expedia-group-shopping-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/expedia-group/refs/heads/main/plans/expedia-group-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/expedia-group-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/expedia-group/refs/heads/main/rate-limits/expedia-group-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/expedia-group-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/expedia-group/refs/heads/main/finops/expedia-group-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/expedia-group-finops.yml
 - group: company
   title: ''
   type: Website
@@ -238,19 +253,23 @@ features:
 - No public API pricing published — contact enterprise sales
 - Expedia Group Rapid API (formerly EAN) and Partner Central require commercial agreements.
 finops:
-- name: Expedia Group Finops
+- has_sources: true
+  method: generated
+  name: Expedia Group Finops
+  primary_unit: ''
   service_category: Travel / Hospitality
   slug: expedia-group-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/expedia-group.png
 layout: provider
 modified: '2026-05-19'
 name: Expedia Group
 nav: Providers
 network: true
-overview: 'Expedia Group publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Bookings API, Content API, Deposit API, and 12 more. Tagged areas include Flights, Hotels, Lodging, Travel, and Fortune 500.
+overview: 'Expedia Group publishes 15 API contracts indexed on the [APIs.io](https://apis.io/) network, including Bookings API, Content API, Deposit API, and 12 more. Tagged areas include Flights, Hotels, Lodging, Travel, and Fortune 500.
 
 
-  Expedia Group''s developer surface includes authentication, developer portal, engineering blog, support, and 10 more developer resources.'
+  Expedia Group''s developer surface includes authentication, developer portal, engineering blog, support, and 13 more developer resources.'
 plans:
 - name: Expedia Group Plans Pricing
   plan_count: 1
@@ -267,17 +286,17 @@ scopes:
   summary_line: 3 scopes · clientCredentials
 score:
   band: thin
-  composite: 34.7
+  composite: 33.2
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 42.0
+    artifact_dirs: 14
+    catalog_earned: 39.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 73.0
+    catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 13.2
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 51.2
     developer_ergonomics: 45.2
@@ -302,8 +321,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

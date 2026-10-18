@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.0
-  scored_at: '2026-10-04'
+  score: 19.2
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 23
+- acting_count: 24
   human_in_the_loop: 0
   name: Amc Entertainment Holdings Agentic Access
-  operation_count: 79
+  operation_count: 82
   slug: amc-entertainment-holdings-agentic-access
-  summary_line: 79 operations · 23 acting
+  summary_line: 82 operations · 24 acting
 api_count: 1
 apis:
 - baseURL: https://api.amctheatres.com
@@ -182,6 +182,21 @@ collections:
   name: AMC Theatres API
   slug: open-amc-theatres-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/amc-entertainment-holdings/refs/heads/main/plans/amc-entertainment-holdings-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/amc-entertainment-holdings-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/amc-entertainment-holdings/refs/heads/main/rate-limits/amc-entertainment-holdings-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/amc-entertainment-holdings-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/amc-entertainment-holdings/refs/heads/main/finops/amc-entertainment-holdings-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/amc-entertainment-holdings-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/amc-entertainment-holdings/refs/heads/main/capabilities/amc-entertainment-holdings-capability-edges.yml
   title: ''
@@ -254,9 +269,13 @@ examples:
   name: Amc Theatres List Theatres Example
   slug: amc-theatres-list-theatres-example
 finops:
-- name: Amc Entertainment Holdings Finops
+- has_sources: false
+  method: generated
+  name: Amc Entertainment Holdings Finops
+  primary_unit: ''
   service_category: API
   slug: amc-entertainment-holdings-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amc-entertainment-holdings.png
 json_schemas:
 - name: AMC Attribute
@@ -303,13 +322,13 @@ modified: '2026-05-19'
 name: AMC Entertainment Holdings
 nav: Providers
 network: true
-overview: 'AMC Entertainment Holdings publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Barcodes API, Concessions API, Locations API, and 13 more. Tagged areas include Entertainment, Movies, Theatres, Showtimes, and Ticketing.
+overview: 'AMC Entertainment Holdings publishes 16 API contracts indexed on the [APIs.io](https://apis.io/) network, including Barcodes API, Concessions API, Locations API, and 13 more. Tagged areas include Entertainment, Movies, Theatres, Showtimes, and Ticketing.
 
 
   The AMC Entertainment Holdings catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  AMC Entertainment Holdings'' developer surface includes authentication, GitHub presence, and 10 more developer resources.'
+  AMC Entertainment Holdings'' developer surface includes authentication, GitHub presence, and 13 more developer resources.'
 plans:
 - name: Amc Entertainment Holdings Plans Pricing
   plan_count: 1
@@ -320,9 +339,10 @@ rate_limits:
   name: Amc Entertainment Holdings Rate Limits
   slug: amc-entertainment-holdings-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: AMC Entertainment Holdings API Rules
+  name: AMC Entertainment Holdings — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -330,10 +350,11 @@ rules:
     info: 2
     warn: 3
   slug: amc-entertainment-holdings-jsonschema-spectral-rules
-- effective_rule_count: 69
+- authorship: unmarked
+  effective_rule_count: 69
   extends:
   - spectral:oas
-  name: AMC Entertainment Holdings API Rules
+  name: AMC Entertainment Holdings — amc theatres rules
   rule_count: 28
   severity_counts:
     error: 10
@@ -343,22 +364,22 @@ rules:
   slug: amc-theatres-rules
 score:
   band: developing
-  composite: 47.5
+  composite: 41.5
   coverage:
     artifact_dirs: 17
-    catalog_earned: 80.4
+    catalog_earned: 67.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 34.6
+    catalog_gap: 48.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.0
   facets:
-    access_clarity: 47.9
+    access_clarity: 26.3
     contract_governance: 27.3
     contract_quality: 65.3
     developer_ergonomics: 38.1
     discoverability: 60.7
-    operational_transparency: 24.2
+    operational_transparency: 10.5
   previous_composite: 47.5
   provenance:
     agentic_access: derived
@@ -373,9 +394,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0
@@ -392,7 +413,7 @@ security:
 - kind: vulnerability-disclosure
   name: Amc Entertainment Holdings Vulnerability Disclosure
   slug: amc-entertainment-holdings-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 slug: amc-entertainment-holdings
 tags:
 - Entertainment

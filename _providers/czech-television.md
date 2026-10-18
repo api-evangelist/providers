@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: TV programme of Czech TV
@@ -40,6 +40,10 @@ apis:
   slug: czech-television
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://ct24.ceskatelevize.cz/rss
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/czech-television/refs/heads/main/security/czech-television-vulnerability-disclosure.yml
   title: ''
@@ -62,17 +66,17 @@ created: '2026-05-28'
 description: TV programme of Czech TV
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/czech-television.png
 layout: provider
-modified: '2026-05-28'
+modified: '2026-10-06'
 name: Czech Television
 nav: Providers
 network: true
-overview: Czech Television publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Video and Public APIs.
+overview: Czech Television is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Video and Public APIs.
 random_paper: 10
 score:
   band: minimal
   composite: 6.0
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 22.0
     catalog_earned_first_party: 0.0
     catalog_gap: 93.0
@@ -99,8 +103,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

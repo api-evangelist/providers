@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -133,7 +133,7 @@ apis:
   description: A specific set of roles a practitioner may perform at an organization for a period of time.
   name: Jefferson Health Practitioner Role API
   slug: jefferson-health-practitioner-role-api
-artifact_total: 58
+artifact_total: 62
 collections:
 - collection_type: open
   name: API Collection
@@ -193,6 +193,36 @@ collections:
   name: Thomas Jefferson University Hospital FHIR R4 API
   slug: open-jefferson-health-tjuh-fhir-r4-api
 common:
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jefferson-health/refs/heads/main/rules/jefferson-health-tjuh-fhir-r4-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/jefferson-health-tjuh-fhir-r4-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jefferson-health/refs/heads/main/rules/jefferson-health-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/jefferson-health-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jefferson-health/refs/heads/main/rules/jefferson-health-jsonschema-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/jefferson-health-jsonschema-spectral-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jefferson-health/refs/heads/main/rules/jefferson-health-jhp-provider-directory-fhir-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/jefferson-health-jhp-provider-directory-fhir-rules.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/jefferson-health/refs/heads/main/lifecycle/jefferson-health-lifecycle.yml
+  title: ''
+  type: Deprecation
+  url: lifecycle/jefferson-health-lifecycle.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/jefferson-health/refs/heads/main/hosts/jefferson-health-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/jefferson-health-hosts.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/jefferson-health/refs/heads/main/capabilities/jefferson-health-capability-edges.yml
   title: ''
@@ -309,11 +339,6 @@ common:
   title: ''
   type: Plans
   url: plans/jefferson-health-plans-pricing.yml
-- group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/jefferson-health/refs/heads/main/rate-limits/jefferson-health-rate-limits.yml
-  title: ''
-  type: RateLimits
-  url: rate-limits/jefferson-health-rate-limits.yml
 - group: commercial
   href: https://raw.githubusercontent.com/api-evangelist/jefferson-health/refs/heads/main/finops/jefferson-health-finops.yml
   title: ''
@@ -364,11 +389,6 @@ common:
   title: ''
   type: DataModel
   url: data-model/jefferson-health-data-model.yml
-- group: build
-  href: https://raw.githubusercontent.com/api-evangelist/jefferson-health/refs/heads/main/packages/jefferson-health-packages.yml
-  title: ''
-  type: Packages
-  url: packages/jefferson-health-packages.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/jefferson-health/refs/heads/main/overlays/jefferson-health-tjuh-fhir-r4-overlay.yaml
   title: ''
@@ -443,11 +463,21 @@ examples:
   name: Tjuh Fhir R4 Smart Configuration Example
   slug: tjuh-fhir-r4-smart-configuration-example
 finops:
-- name: Jefferson Health Finops
+- has_sources: false
+  method: generated
+  name: Jefferson Health Finops
+  primary_unit: ''
   service_category: ''
   slug: jefferson-health-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/jefferson-health.png
 json_schemas:
+- name: Bundle
+  property_count: 4
+  slug: jefferson-health-bundle
+- name: CapabilityStatement
+  property_count: 4
+  slug: jefferson-health-capability-statement
 - name: Jefferson Health FHIR R4 Observation (US Core Subset)
   property_count: 9
   slug: jefferson-health-observation
@@ -457,6 +487,9 @@ json_schemas:
 - name: Jefferson Health Plans Plan-Net Practitioner
   property_count: 7
   slug: jefferson-health-practitioner
+- name: SmartConfiguration
+  property_count: 4
+  slug: jefferson-health-smart-configuration
 json_structures:
 - name: Jefferson Health Fhir Encounter Structure
   property_count: 13
@@ -471,13 +504,13 @@ modified: '2026-08-15'
 name: Jefferson Health
 nav: Providers
 network: true
-overview: 'Jefferson Health publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Allergy Intolerance API, Bulk Data API, Condition API, and 16 more. Tagged areas include Academic Medical Center, CARIN Blue Button, CMS Interoperability, Cures Act, and Da Vinci Plan-Net.
+overview: 'Jefferson Health publishes 19 API contracts indexed on the [APIs.io](https://apis.io/) network, including Allergy Intolerance API, Bulk Data API, Condition API, and 16 more. Tagged areas include Academic Medical Center, CARIN Blue Button, CMS Interoperability, Cures Act, and Da Vinci Plan-Net.
 
 
-  The Jefferson Health catalog on APIs.io includes 1 JSON-LD context and 3 Spectral governance rulesets.
+  The Jefferson Health catalog on APIs.io includes 1 JSON-LD context and 4 Spectral governance rulesets.
 
 
-  Jefferson Health''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, engineering blog, product news, and 44 more developer resources.'
+  Jefferson Health''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, engineering blog, product news, and 48 more developer resources.'
 plans:
 - name: Jefferson Health Plans Pricing
   plan_count: 4
@@ -488,10 +521,11 @@ rate_limits:
   name: Jefferson Health Rate Limits
   slug: jefferson-health-rate-limits
 rules:
-- effective_rule_count: 45
+- authorship: unmarked
+  effective_rule_count: 45
   extends:
   - spectral:oas
-  name: Jefferson Health API Rules
+  name: Jefferson Health — jhp provider directory fhir rules
   rule_count: 4
   severity_counts:
     error: 3
@@ -499,9 +533,10 @@ rules:
     info: 0
     warn: 1
   slug: jefferson-health-jhp-provider-directory-fhir-rules
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Jefferson Health API Rules
+  name: Jefferson Health — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -509,10 +544,23 @@ rules:
     info: 2
     warn: 3
   slug: jefferson-health-jsonschema-spectral-rules
-- effective_rule_count: 49
+- authorship: generated
+  effective_rule_count: 54
   extends:
   - spectral:oas
   name: Jefferson Health API Rules
+  rule_count: 13
+  severity_counts:
+    error: 10
+    hint: 0
+    info: 1
+    warn: 2
+  slug: jefferson-health-rules
+- authorship: unmarked
+  effective_rule_count: 49
+  extends:
+  - spectral:oas
+  name: Jefferson Health — tjuh fhir r4 rules
   rule_count: 8
   severity_counts:
     error: 5
@@ -527,22 +575,22 @@ scopes:
   summary_line: 15 scopes · authorizationCode
 score:
   band: strong
-  composite: 64.9
+  composite: 60.3
   coverage:
-    artifact_dirs: 30
-    catalog_earned: 80.7
+    artifact_dirs: 33
+    catalog_earned: 71.8
     catalog_earned_first_party: 12.0
-    catalog_gap: 34.3
+    catalog_gap: 43.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -4.6
   facets:
-    access_clarity: 81.6
-    contract_governance: 80.9
-    contract_quality: 56.2
+    access_clarity: 73.7
+    contract_governance: 35.6
+    contract_quality: 61.7
     developer_ergonomics: 58.9
     discoverability: 74.1
-    operational_transparency: 2.6
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -567,8 +615,8 @@ score:
     regime: Health
     regime_id: health
     score: 47.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

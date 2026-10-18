@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.6
-  scored_at: '2026-10-04'
+  score: 28.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -321,6 +321,21 @@ collections:
   name: Oracle EBS Supply Chain Management API
   slug: open-supply-chain-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-e-business-suite/refs/heads/main/plans/oracle-e-business-suite-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/oracle-e-business-suite-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-e-business-suite/refs/heads/main/rate-limits/oracle-e-business-suite-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/oracle-e-business-suite-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-e-business-suite/refs/heads/main/finops/oracle-e-business-suite-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/oracle-e-business-suite-finops.yml
 - group: company
   title: ''
   type: Website
@@ -890,9 +905,13 @@ features:
 - PL/SQL API framework for programmatic data access
 - Multi-org and multi-currency support
 finops:
-- name: Oracle E Business Suite Finops
+- has_sources: true
+  method: generated
+  name: Oracle E Business Suite Finops
+  primary_unit: ''
   service_category: ERP / Business Applications
   slug: oracle-e-business-suite-finops
+  template: false
 image: /assets/icons/oracle-e-business-suite.png
 integrations:
 - Oracle SOA Suite for service orchestration
@@ -1552,13 +1571,13 @@ modified: '2026-09-16'
 name: Oracle E-Business Suite
 nav: Providers
 network: true
-overview: 'Oracle E-Business Suite publishes 24 APIs on the [APIs.io](https://apis.io/) network, including Accounts Payable API, Accounts Receivable API, Authentication API, and 21 more. Tagged areas include Business Applications, E-Business Suite, Enterprise, ERP, and Oracle.
+overview: 'Oracle E-Business Suite publishes 24 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts Payable API, Accounts Receivable API, Authentication API, and 21 more. Tagged areas include Business Applications, E-Business Suite, Enterprise, ERP, and Oracle.
 
 
   The Oracle E-Business Suite catalog on APIs.io includes 7 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Oracle E-Business Suite''s developer surface includes authentication, developer portal, documentation, getting-started guide, API reference, support, engineering blog, and 36 more developer resources.'
+  Oracle E-Business Suite''s developer surface includes authentication, developer portal, documentation, getting-started guide, API reference, support, engineering blog, and 39 more developer resources.'
 plans:
 - name: Oracle E Business Suite Plans Pricing
   plan_count: 4
@@ -1569,9 +1588,10 @@ rate_limits:
   name: Oracle E Business Suite Rate Limits
   slug: oracle-e-business-suite-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: Oracle E-Business Suite API Rules
+  name: Oracle E-Business Suite — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -1579,7 +1599,8 @@ rules:
     info: 2
     warn: 4
   slug: oracle-e-business-suite-jsonschema-spectral-rules
-- effective_rule_count: 59
+- authorship: generated
+  effective_rule_count: 59
   extends:
   - spectral:oas
   name: Oracle E-Business Suite API Rules
@@ -1592,23 +1613,23 @@ rules:
   slug: oracle-e-business-suite-spectral-rules
 score:
   band: strong
-  composite: 59.9
+  composite: 58.4
   coverage:
     artifact_dirs: 20
-    catalog_earned: 70.5
+    catalog_earned: 67.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 44.5
+    catalog_gap: 47.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: -1.5
   facets:
-    access_clarity: 60.5
+    access_clarity: 52.6
     contract_governance: 13.6
     contract_quality: 65.9
     developer_ergonomics: 82.1
     discoverability: 71.4
     operational_transparency: 42.1
-  previous_composite: 59.3
+  previous_composite: 59.9
   provenance:
     agentic_access: derived
     contracts:
@@ -1622,8 +1643,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -32,10 +32,15 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 4
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/aktana/refs/heads/main/rate-limits/aktana-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/aktana-rate-limits.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/aktana/refs/heads/main/security/aktana-domain-security.yml
   title: ''
@@ -123,7 +128,7 @@ network: true
 overview: 'Aktana (PharmaForceIQ) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Life Sciences, Pharmaceuticals, HCP Engagement, and Marketing.
 
 
-  Aktana (PharmaForceIQ)''s developer surface includes engineering blog, support, pricing, and 11 more developer resources.'
+  Aktana (PharmaForceIQ)''s developer surface includes engineering blog, support, pricing, and 12 more developer resources.'
 plans:
 - name: Aktana Plans Pricing
   plan_count: 1
@@ -137,7 +142,7 @@ score:
   band: emerging
   composite: 21.7
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 35.0
     catalog_earned_first_party: 8.0
     catalog_gap: 80.0
@@ -168,8 +173,8 @@ score:
     regime: Health
     regime_id: health
     score: 14.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

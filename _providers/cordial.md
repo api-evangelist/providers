@@ -39,7 +39,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 62.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 124
   human_in_the_loop: 0
@@ -254,6 +254,10 @@ collections:
   name: Cordial Supplements API
   slug: open-cordial-supplements-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://cordial.com/feed/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/cordial/refs/heads/main/capabilities/cordial-capability-edges.yml
   title: ''
@@ -452,17 +456,17 @@ mcp_servers:
 - description: Remote MCP server at mcp.cordial.io over HTTP; 56 tools listed.
   name: Cordial MCP Server
   slug: cordial
-modified: '2026-08-14'
+modified: '2026-10-06'
 name: Cordial
 nav: Providers
 network: true
-overview: 'Cordial publishes 25 APIs on the [APIs.io](https://apis.io/) network, including account attributes API, account lists API, account monitor export API, and 22 more. Tagged areas include Company, Marketing, Marketing Automation, Messaging, and Email.
+overview: 'Cordial publishes 25 API contracts indexed on the [APIs.io](https://apis.io/) network, including account attributes API, account lists API, account monitor export API, and 22 more. Tagged areas include Company, Marketing, Marketing Automation, Messaging, and Email.
 
 
   The Cordial catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Cordial''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 34 more developer resources.'
+  Cordial''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 35 more developer resources.'
 plans:
 - name: Cordial Plans Pricing
   plan_count: 0
@@ -479,15 +483,15 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: strong
-  composite: 58.2
+  composite: 58.1
   coverage:
-    artifact_dirs: 28
+    artifact_dirs: 29
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -3.6
+  delta: -0.1
   facets:
     access_clarity: 50.0
     contract_governance: 4.5
@@ -502,7 +506,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 61.8
+  previous_composite: 58.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -525,8 +529,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 36.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

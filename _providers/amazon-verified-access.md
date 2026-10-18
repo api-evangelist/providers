@@ -27,20 +27,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.3
-  scored_at: '2026-10-04'
+  score: 15.4
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 26
+- acting_count: 23
   human_in_the_loop: 0
   name: Amazon Verified Access Agentic Access
   operation_count: 26
   slug: amazon-verified-access-agentic-access
-  summary_line: 26 operations · 26 acting
+  summary_line: 26 operations · 23 acting
 api_count: 26
 apis:
 - baseURL: https://ec2.amazonaws.com
@@ -260,6 +260,21 @@ collections:
   name: Amazon Verified Access
   slug: open-amazon-verified-access
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-verified-access/refs/heads/main/plans/amazon-verified-access-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/amazon-verified-access-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-verified-access/refs/heads/main/rate-limits/amazon-verified-access-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/amazon-verified-access-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-verified-access/refs/heads/main/finops/amazon-verified-access-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/amazon-verified-access-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/amazon-verified-access/refs/heads/main/capabilities/amazon-verified-access-capability-edges.yml
   title: ''
@@ -349,9 +364,13 @@ features:
 - description: Programmatic access to Amazon Verified Access resources.
   name: API Access
 finops:
-- name: Amazon Verified Access Finops
+- has_sources: false
+  method: generated
+  name: Amazon Verified Access Finops
+  primary_unit: ''
   service_category: API
   slug: amazon-verified-access-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amazon-verified-access.png
 jsonld:
 - class_count: 0
@@ -363,13 +382,13 @@ modified: '2026-05-19'
 name: Amazon Verified Access
 nav: Providers
 network: true
-overview: 'Amazon Verified Access publishes 26 APIs on the [APIs.io](https://apis.io/) network, including AttachVerifiedAccessTrustProvider API, CreateVerifiedAccessEndpoint API, CreateVerifiedAccessGroup API, and 23 more. Tagged areas include Access Management, Security, and Zero Trust.
+overview: 'Amazon Verified Access is listed with 26 APIs on the [APIs.io](https://apis.io/) network, including AttachVerifiedAccessTrustProvider API, CreateVerifiedAccessEndpoint API, CreateVerifiedAccessGroup API, and 23 more. Tagged areas include Identity and Access Management, Security, and Zero Trust.
 
 
   The Amazon Verified Access catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Amazon Verified Access'' developer surface includes developer portal, documentation, developer console, support, signup flow, and 13 more developer resources.'
+  Amazon Verified Access'' developer surface includes developer portal, documentation, developer console, support, signup flow, and 16 more developer resources.'
 plans:
 - name: Amazon Verified Access Plans Pricing
   plan_count: 3
@@ -380,7 +399,8 @@ rate_limits:
   name: Amazon Verified Access Rate Limits
   slug: amazon-verified-access-rate-limits
 rules:
-- effective_rule_count: 53
+- authorship: generated
+  effective_rule_count: 53
   extends:
   - spectral:oas
   name: Amazon Verified Access API Rules
@@ -393,17 +413,17 @@ rules:
   slug: amazon-verified-access-spectral-rules
 score:
   band: developing
-  composite: 45.5
+  composite: 44.0
   coverage:
-    artifact_dirs: 14
-    catalog_earned: 57.3
+    artifact_dirs: 15
+    catalog_earned: 54.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.8
+    catalog_gap: 60.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 61.8
+    access_clarity: 53.9
     contract_governance: 25.0
     contract_quality: 42.0
     developer_ergonomics: 42.9
@@ -423,8 +443,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -445,7 +465,7 @@ security:
   summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 slug: amazon-verified-access
 tags:
-- Access Management
+- Identity and Access Management
 - Security
 - Zero Trust
 use_cases:

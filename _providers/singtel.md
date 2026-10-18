@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: low
+  gated: partner
+  gated_source:
+  - tag:Partner Gated
   label: Unknown
   onboarding: unknown
   pricing: unknown
@@ -33,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 7
 apis:
 - description: Network-based verification that the mobile number a user declares is the number of the SIM the request is actually coming from, used to replace or reinforce SMS OTP. Singtel documents this as the CAMA
@@ -167,7 +170,7 @@ modified: '2026-07-25'
 name: Singtel
 nav: Providers
 network: true
-overview: 'Singtel publishes 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Telecommunications, Singapore, Mobile Network Operator, Network APIs, and CAMARA.
+overview: 'Singtel is listed with 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Telecommunications, Singapore, Mobile Network Operator, Network APIs, and CAMARA.
 
 
   Singtel''s developer surface includes engineering blog, support, documentation, and 20 more developer resources.'
@@ -176,7 +179,7 @@ score:
   band: emerging
   composite: 18.6
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -206,8 +209,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 23.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -241,6 +244,5 @@ tags:
 - 5G
 - Edge Computing
 - Aduna
-- Partner Gated
 website: https://www.singtel.com/
 ---

@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.gts.ro/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/gts-central-europe/refs/heads/main/security/gts-central-europe-domain-security.yml
   title: ''
@@ -49,7 +53,7 @@ created: '2026-07-17'
 description: GTS Central Europe, operating in Romania as GTS Telecom (a member of Deutsche Telekom AG since 1993), is an IT&C service provider delivering cloud solutions (virtual hosting, private cloud, VPS, dedicated storage), cyber security (DDoS mitigation, firewalls, endpoint protection, backup and disaster recovery), connectivity (internet access, IP transit, leased lines, Ethernet VPN, dark fiber, DWDM), unified communications, managed services (LAN, server, network security, Wi-Fi), physical security systems, and IT hardware/software. As of this enrichment pass the company publishes no public developer API, API documentation, developer portal, or SDKs.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/gts-central-europe.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: GTS Central Europe
 nav: Providers
 network: true
@@ -59,7 +63,7 @@ score:
   band: minimal
   composite: 2.5
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -86,8 +90,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 5.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

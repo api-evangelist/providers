@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 18.0
-  scored_at: '2026-10-04'
+  score: 16.1
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://api.clearcapital.com
@@ -67,6 +67,14 @@ collections:
   name: Clear Capital API
   slug: open-clear-capital
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.clearcapital.com/resources/newsroom/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.clearcapital.com/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/clear-capital/refs/heads/main/security/clear-capital-trust-center.yml
   title: ''
@@ -116,19 +124,23 @@ common:
 created: '2026-06-21'
 description: Clear Capital is a real-estate valuation and property data platform serving mortgage lenders, investors, and capital markets. Its developer surface is exposed through two sales-led REST products - the Property Analytics API (ClearAVM automated valuations, comparables ranked by ClearRank, property characteristics, and market trends) and the Property Valuation API (ordering and fulfillment of appraisal and valuation products such as Hybrid/Desktop appraisal, BPO, CDA, and UDC). Access is gated behind a commercial agreement; full reference docs live at docs.api.clearcapital.com.
 finops:
-- name: Clear Capital Finops
+- has_sources: true
+  method: generated
+  name: Clear Capital Finops
+  primary_unit: ''
   service_category: Real Estate and Property Data
   slug: clear-capital-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/clear-capital.png
 layout: provider
-modified: '2026-06-21'
+modified: '2026-10-06'
 name: Clear Capital
 nav: Providers
 network: true
-overview: 'Clear Capital publishes 4 APIs on the [APIs.io](https://apis.io/) network, including ClearAVM / Valuation API, Property Data API, Comparables (Comps) API, and 1 more. Tagged areas include Real Estate, Property Data, Valuation, AVM, and Appraisal.
+overview: 'Clear Capital publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including ClearAVM / Valuation API, Property Data API, Comparables (Comps) API, and 1 more. Tagged areas include Real Estate, Property Data, Valuation, AVM, and Appraisal.
 
 
-  Clear Capital''s developer surface includes authentication, documentation, and 8 more developer resources.'
+  Clear Capital''s developer surface includes engineering blog, authentication, documentation, and 9 more developer resources.'
 plans:
 - name: Clear Capital Plans Pricing
   plan_count: 1
@@ -139,23 +151,23 @@ rate_limits:
   name: Clear Capital Rate Limits
   slug: clear-capital-rate-limits
 score:
-  band: thin
-  composite: 28.5
+  band: emerging
+  composite: 23.0
   coverage:
-    artifact_dirs: 9
-    catalog_earned: 54.4
+    artifact_dirs: 11
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 60.6
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.5
   facets:
-    access_clarity: 34.7
+    access_clarity: 13.2
     contract_governance: 0.0
     contract_quality: 29.4
-    developer_ergonomics: 23.3
+    developer_ergonomics: 25.7
     discoverability: 66.1
-    operational_transparency: 21.6
+    operational_transparency: 7.9
   previous_composite: 28.5
   regulatory:
     applies: true
@@ -163,9 +175,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

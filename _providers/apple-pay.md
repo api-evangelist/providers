@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.5
-  scored_at: '2026-10-04'
+  score: 29.6
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -103,6 +103,21 @@ collections:
   name: Apple Pay Payment Token API
   slug: open-apple-pay-payment-token
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/apple-pay/refs/heads/main/plans/apple-pay-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/apple-pay-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/apple-pay/refs/heads/main/rate-limits/apple-pay-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/apple-pay-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/apple-pay/refs/heads/main/finops/apple-pay-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/apple-pay-finops.yml
 - group: company
   title: ''
   type: Website
@@ -197,9 +212,13 @@ features:
 - description: Support for deferred billing like hotel deposits and pre-orders
   name: Deferred Payments
 finops:
-- name: Apple Pay Finops
+- has_sources: true
+  method: generated
+  name: Apple Pay Finops
+  primary_unit: ''
   service_category: Payments / Digital Wallet
   slug: apple-pay-finops
+  template: false
 image: https://developer.apple.com/assets/elements/icons/apple-pay/apple-pay-96x96.png
 integrations:
 - description: Stripe Elements and Stripe.js support Apple Pay via the Payment Request Button
@@ -238,13 +257,13 @@ modified: '2026-05-19'
 name: Apple Pay
 nav: Providers
 network: true
-overview: 'Apple Pay publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Merchant Registration API, Merchant Validation API, Payment Processing API, and 2 more. Tagged areas include Apple, Contactless Payments, Digital Wallet, E-Commerce, and Mobile Payments.
+overview: 'Apple Pay publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Merchant Registration API, Merchant Validation API, Payment Processing API, and 2 more. Tagged areas include Apple, Contactless Payments, Digital Wallet, E-Commerce, and Mobile Payments.
 
 
   The Apple Pay catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Apple Pay''s developer surface includes authentication, developer portal, support, getting-started guide, and 11 more developer resources.'
+  Apple Pay''s developer surface includes authentication, developer portal, support, getting-started guide, and 14 more developer resources.'
 plans:
 - name: Apple Pay Plans Pricing
   plan_count: 2
@@ -255,9 +274,10 @@ rate_limits:
   name: Apple Pay Rate Limits
   slug: apple-pay-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: Apple Pay API Rules
+  name: Apple Pay — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -265,7 +285,8 @@ rules:
     info: 2
     warn: 4
   slug: apple-pay-jsonschema-spectral-rules
-- effective_rule_count: 70
+- authorship: generated
+  effective_rule_count: 70
   extends:
   - spectral:oas
   name: Apple Pay API Rules
@@ -278,17 +299,17 @@ rules:
   slug: apple-pay-spectral-rules
 score:
   band: developing
-  composite: 44.5
+  composite: 43.0
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 71.0
+    artifact_dirs: 18
+    catalog_earned: 68.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 44.0
+    catalog_gap: 47.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 13.2
+    access_clarity: 5.3
     contract_governance: 27.3
     contract_quality: 64.6
     developer_ergonomics: 63.1
@@ -308,8 +329,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 20.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

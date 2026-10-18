@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: mitmproxy is a free and open source interactive HTTPS proxy for intercepting, inspecting, modifying, and replaying HTTP and HTTPS traffic. It provides console-based, web-based, and command-line interf
@@ -47,6 +47,21 @@ apis:
   slug: mitmdump
 artifact_total: 7
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/mitmproxy/refs/heads/main/plans/mitmproxy-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/mitmproxy-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/mitmproxy/refs/heads/main/rate-limits/mitmproxy-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/mitmproxy-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/mitmproxy/refs/heads/main/finops/mitmproxy-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/mitmproxy-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/mitmproxy/refs/heads/main/security/mitmproxy-domain-security.yml
   title: ''
@@ -95,19 +110,23 @@ common:
 created: '2026-03-26'
 description: mitmproxy is a free and open source interactive HTTPS proxy that allows developers and security researchers to intercept, inspect, modify, and replay HTTP and HTTPS traffic flows. It includes mitmproxy (interactive console), mitmweb (web-based interface), and mitmdump (command-line tool), providing powerful capabilities for debugging, testing, and analyzing API traffic and web applications.
 finops:
-- name: Mitmproxy Finops
+- has_sources: false
+  method: generated
+  name: Mitmproxy Finops
+  primary_unit: ''
   service_category: API
   slug: mitmproxy-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mitmproxy.png
 layout: provider
 modified: '2026-04-28'
 name: Mitmproxy
 nav: Providers
 network: true
-overview: 'Mitmproxy publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include API Testing, HTTP Debugging, HTTPS Proxy, Open Source, and Security Testing.
+overview: 'Mitmproxy is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include API Testing, HTTP Debugging, HTTPS Proxy, Open Source, and Security Testing.
 
 
-  Mitmproxy''s developer surface includes documentation, GitHub presence, engineering blog, release notes, and 7 more developer resources.'
+  Mitmproxy''s developer surface includes documentation, GitHub presence, engineering blog, release notes, and 10 more developer resources.'
 plans:
 - name: Mitmproxy Plans Pricing
   plan_count: 3
@@ -119,17 +138,17 @@ rate_limits:
   slug: mitmproxy-rate-limits
 score:
   band: emerging
-  composite: 16.1
+  composite: 14.6
   coverage:
     artifact_dirs: 7
-    catalog_earned: 44.0
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 71.0
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 23.8
@@ -142,8 +161,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

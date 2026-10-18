@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'The comma connect API is a JWT-authenticated REST API for comma / openpilot users and devices. It exposes the authenticated user profile and device list, per-device operations (info, location, stats, '
@@ -42,6 +42,10 @@ apis:
   slug: comma-connect-api
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.comma.ai/feed.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/commaai/refs/heads/main/security/commaai-domain-security.yml
   title: ''
@@ -149,18 +153,18 @@ created: '2026-07-17'
 description: Comma.ai builds openpilot, an open-source driver-assistance / robotics operating system that runs on comma hardware (comma 3X, comma four) and upgrades adaptive cruise control and lane centering on 300+ supported cars. Alongside the open-source stack, comma operates the comma connect cloud platform and a documented JWT-authenticated REST API (api.commadotai.com) that exposes device management, driving routes and segments, video and log access, real-time device communication via athena, comma prime billing, and turn-by-turn navigation. Backed by a16z, comma also publishes large open driving datasets (comma2k19, commaVQ) and the opendbc "Python API for your car." This profile catalogs comma's public developer surface for the API Evangelist network.
 image: https://github.com/commaai.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Comma.ai
 nav: Providers
 network: true
-overview: 'Comma.ai publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Automotive, Self-Driving, Robotics, and Artificial Intelligence.
+overview: 'Comma.ai is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Automotive, Self-Driving, Robotics, and Artificial Intelligence.
 
 
-  Comma.ai''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, authentication, and 16 more developer resources.'
+  Comma.ai''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, authentication, and 17 more developer resources.'
 random_paper: 1
 score:
   band: thin
-  composite: 31.8
+  composite: 31.9
   coverage:
     artifact_dirs: 14
     catalog_earned: 37.0
@@ -168,7 +172,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 38.2
     contract_governance: 4.5
@@ -186,8 +190,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

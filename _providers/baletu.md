@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://baletu.com/blog/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/baletu/refs/heads/main/security/baletu-domain-security.yml
   title: ''
@@ -53,28 +57,31 @@ created: '2026-07-17'
 description: Baletu (巴乐兔) is a landlord-direct online residential rental platform operated by Shanghai Wanjian Information Technology Co., Ltd. Founded in 2012 and based in Shanghai, it lets tenants rent apartments directly from landlords with monthly-payment ("月付") options, reducing agency fees. The platform spans first-tier Chinese cities including Beijing, Shanghai, and Shenzhen plus more than ten second-tier cities, listing over one million properties. Baletu is a consumer proptech company backed by DCM Ventures, Tiantu Capital, Nan Fung Group, and ZWC Partners, having raised roughly $140M through a 2018 Series C. It ships consumer iOS/Android apps and a partner portal; it does not publish a public developer API program (api.baletu.com serves its own apps).
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/baletu.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Baletu
 nav: Providers
 network: true
-overview: Baletu is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Real Estate, Rental Housing, and PropTech.
+overview: 'Baletu is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Real Estate, Rental Housing, and PropTech.
+
+
+  Baletu''s developer surface includes engineering blog and 3 more developer resources.'
 random_paper: 21
 score:
   band: minimal
-  composite: 4.7
+  composite: 5.2
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 6.6
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 48.2
     operational_transparency: 0.0
   jurisdiction:
@@ -91,8 +98,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -35,15 +35,15 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
   name: Helius Agentic Access
-  operation_count: 31
+  operation_count: 33
   slug: helius-agentic-access
-  summary_line: 31 operations · 16 acting
-api_count: 1
+  summary_line: 33 operations · 16 acting
+api_count: 2
 apis:
 - baseURL: https://mainnet.helius-rpc.com/?api-key={apiKey}
   baseurl_source: declared
@@ -185,6 +185,10 @@ collections:
   name: Helius API Catalog
   slug: open-helius
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.helius.dev/blog
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/helius/refs/heads/main/capabilities/helius-capability-edges.yml
   title: ''
@@ -249,22 +253,26 @@ common:
 created: '2026-05-08'
 description: Helius is a Solana developer platform offering Solana JSON-RPC, the Digital Asset Standard (DAS) API for NFTs/tokens, Enhanced Transactions, Webhooks, LaserStream gRPC streaming, Sender (transaction routing), Photon RPC, and Dedicated Nodes.
 finops:
-- name: Helius Finops
+- has_sources: true
+  method: generated
+  name: Helius Finops
+  primary_unit: ''
   service_category: Web3
   slug: helius-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-modified: '2026-09-16'
+modified: '2026-10-06'
 name: Helius
 nav: Providers
 network: true
-overview: 'Helius publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Solana RPC, Addresses API, Admin API, and 17 more. Tagged areas include Web3, Blockchain, Solana, RPC, and DAS.
+overview: 'Helius publishes 20 API contracts indexed on the [APIs.io](https://apis.io/) network, including Solana RPC, Addresses API, Admin API, and 17 more. Tagged areas include Web3, Blockchain, Solana, RPC, and DAS.
 
 
   The Helius catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Helius'' developer surface includes authentication, support, and 11 more developer resources.'
+  Helius'' developer surface includes engineering blog, authentication, support, and 11 more developer resources.'
 plans:
 - name: Helius Plans Pricing
   plan_count: 5
@@ -275,10 +283,11 @@ rate_limits:
   name: Helius Rate Limits
   slug: helius-rate-limits
 rules:
-- effective_rule_count: 35
+- authorship: generated
+  effective_rule_count: 35
   extends:
   - spectral:asyncapi
-  name: Helius API Rules
+  name: Helius — asyncapi rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -288,20 +297,20 @@ rules:
   slug: helius-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 32.0
+  composite: 31.0
   coverage:
-    artifact_dirs: 16
-    catalog_earned: 50.5
+    artifact_dirs: 17
+    catalog_earned: 47.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 64.5
+    catalog_gap: 67.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.0
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 13.6
     contract_quality: 57.6
-    developer_ergonomics: 26.2
+    developer_ergonomics: 28.6
     discoverability: 66.1
     operational_transparency: 10.5
   previous_composite: 32.0
@@ -318,8 +327,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 17.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

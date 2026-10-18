@@ -33,10 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.wrapbook.com/blog/rss.xml
 - group: company
   title: ''
   type: Website
@@ -108,14 +112,14 @@ created: '2026-07-17'
 description: Wrapbook is an AI-powered production payroll and accounting platform for film, TV, and commercial production, combining crew onboarding, payroll, accounts payable, purchase orders, production accounting, and real-time cost reporting in one system. It integrates with accounting software including QuickBooks, Sage Intacct, Oracle NetSuite, and Acumatica, and imports budgets from Movie Magic, Hot Budget, and Showbiz. Wrapbook publishes no public developer API, but its production app exposes an RFC 8414 OAuth 2.0 authorization server with 21 read-only accounting, payroll, budget, and purchase-order scopes that power those integrations. Backed by a16z, Bessemer Venture Partners, and Uncork Capital.
 image: https://avatars.githubusercontent.com/u/40865417
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Wrapbook
 nav: Providers
 network: true
 overview: 'Wrapbook is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Entertainment, Payroll, Production Accounting, and Accounts Payable.
 
 
-  Wrapbook''s developer surface includes engineering blog, support, signup flow, authentication, changelog, and 10 more developer resources.'
+  Wrapbook''s developer surface includes engineering blog, support, signup flow, authentication, changelog, and 11 more developer resources.'
 random_paper: 11
 scopes:
 - name: Wrapbook Scopes
@@ -149,8 +153,8 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 34.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

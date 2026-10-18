@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://cocos.capital/blog
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/cocos/refs/heads/main/security/cocos-domain-security.yml
   title: ''
@@ -83,31 +87,31 @@ created: '2026-07-17'
 description: Cocos Capital is an Argentine investech and online broker (ALyC, founded 2021 in Buenos Aires) offering a 100% digital investment platform for retail investors. Through its mobile app and website, users open an account and trade Argentine stocks, CEDEARs, sovereign and corporate bonds, mutual funds, the MEP dollar, US stocks via an international account, and crypto, with a fast onboarding experience aimed at making investing accessible to everyone ("Invertir es para todos"). Cocos is registered as an ALyC and regulated by Argentina's Comision Nacional de Valores (CNV), settles through the BYMA group, and has surpassed 300,000 accounts. Cocos publishes no official public API for developers; the client libraries that exist (e.g. pyCocos) are unofficial, community-built and reverse-engineered from the app, so they are recorded here as third-party and unsupported.
 image: https://app.cocos.capital/logo-512.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Cocos Capital
 nav: Providers
 network: true
 overview: 'Cocos Capital is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Investing, Brokerage, and Trading.
 
 
-  Cocos Capital''s developer surface includes signup flow, support, and 8 more developer resources.'
+  Cocos Capital''s developer surface includes engineering blog, signup flow, support, and 8 more developer resources.'
 random_paper: 7
 score:
   band: minimal
-  composite: 9.5
+  composite: 10.0
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 4.8
+    developer_ergonomics: 7.1
     discoverability: 55.4
     operational_transparency: 0.0
   jurisdiction:
@@ -124,8 +128,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 13.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -145,7 +149,7 @@ tags:
 - Brokerage
 - Trading
 - Capital Markets
-- Crypto
+- Cryptocurrency
 - Argentina
 website: https://cocos.capital
 ---

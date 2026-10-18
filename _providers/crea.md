@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 38
   slug: crea-agentic-access
   summary_line: 38 operations · 2 acting
-api_count: 3
+api_count: 5
 apis:
 - baseURL: https://ddfapi.realtor.ca/odata/v1
   baseurl_source: declared
@@ -90,6 +90,10 @@ collections:
   name: REALTOR.ca DDF® Web API Documentation
   slug: open-crea-realtor-ca-ddf-web-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.crea.ca/media-hub/news/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/capabilities/crea-capability-edges.yml
   title: ''
@@ -312,14 +316,14 @@ description: 'The Canadian Real Estate Association (CREA) is the national indust
   portal, and a third-party developer must enter a data access agreement with CREA as a Technology Provider operating a National Pool Website or Member Website on behalf of that opted-in member. The OData $metadata document, the actual RESO contract, returns HTTP 401 to anonymous callers. No open, unlicensed Canadian listing dataset exists behind any of it.'
 image: https://www.crea.ca/dist/favicons/apple-touch-icon.png
 layout: provider
-modified: '2026-07-26'
+modified: '2026-10-06'
 name: CREA (REALTOR.ca)
 nav: Providers
 network: true
-overview: 'CREA (REALTOR.ca) publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Destination API, Lead API, Member API, and 3 more. Tagged areas include Real Estate, Canada, Property Listings, MLS, and IDX.
+overview: 'CREA (REALTOR.ca) publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Destination API, Lead API, Member API, and 3 more. Tagged areas include Real Estate, Canada, Property Listings, MLS, and IDX.
 
 
-  CREA (REALTOR.ca)''s developer surface includes authentication, changelog, getting-started guide, documentation, support, engineering blog, and 41 more developer resources.'
+  CREA (REALTOR.ca)''s developer surface includes engineering blog, authentication, changelog, getting-started guide, documentation, support, and 42 more developer resources.'
 random_paper: 15
 scopes:
 - name: Crea Scopes
@@ -328,15 +332,15 @@ scopes:
   summary_line: 5 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 44.4
+  composite: 44.5
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 27.6
     contract_governance: 18.2
@@ -368,8 +372,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

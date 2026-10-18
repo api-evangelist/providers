@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.6
-  scored_at: '2026-10-04'
+  score: 28.7
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 10
+- acting_count: 3
   human_in_the_loop: 0
   name: Absence Io Agentic Access
   operation_count: 12
   slug: absence-io-agentic-access
-  summary_line: 12 operations · 10 acting
+  summary_line: 12 operations · 3 acting
 api_count: 7
 apis:
 - baseURL: https://app.absence.io/api/v2
@@ -131,6 +131,21 @@ collections:
   name: Absence.io API
   slug: open-absence-io
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/absence-io/refs/heads/main/plans/absence-io-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/absence-io-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/absence-io/refs/heads/main/rate-limits/absence-io-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/absence-io-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/absence-io/refs/heads/main/finops/absence-io-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/absence-io-finops.yml
 - group: company
   title: ''
   type: Website
@@ -241,9 +256,13 @@ features:
 - description: Full REST API for integrating absence management with ERP, HRIS, and other business systems using Hawk authentication.
   name: REST API v2
 finops:
-- name: Absence Io Finops
+- has_sources: false
+  method: generated
+  name: Absence Io Finops
+  primary_unit: ''
   service_category: API
   slug: absence-io-finops
+  template: true
 image: /assets/icons/absence-io.png
 integrations:
 - description: Integration with Slack for absence request notifications and team visibility.
@@ -310,13 +329,13 @@ modified: '2026-05-19'
 name: Absence.io
 nav: Providers
 network: true
-overview: 'Absence.io publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Absences API, Allowances API, Departments API, and 4 more. Tagged areas include Absences, Employees, Leave Management, and Human Resources.
+overview: 'Absence.io is listed with 7 APIs on the [APIs.io](https://apis.io/) network, including Absences API, Allowances API, Departments API, and 4 more. Tagged areas include Absences, Employees, Leave Management, and Human Resources.
 
 
   The Absence.io catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Absence.io''s developer surface includes authentication, pricing, engineering blog, and 13 more developer resources.'
+  Absence.io''s developer surface includes authentication, pricing, engineering blog, and 16 more developer resources.'
 plans:
 - name: Absence Io Plans Pricing
   plan_count: 3
@@ -327,9 +346,10 @@ rate_limits:
   name: Absence Io Rate Limits
   slug: absence-io-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Absence.io API Rules
+  name: Absence.io — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -337,7 +357,8 @@ rules:
     info: 2
     warn: 3
   slug: absence-io-jsonschema-spectral-rules
-- effective_rule_count: 77
+- authorship: generated
+  effective_rule_count: 77
   extends:
   - spectral:oas
   name: Absence.io API Rules
@@ -350,17 +371,17 @@ rules:
   slug: absence-io-spectral-rules
 score:
   band: thin
-  composite: 32.3
+  composite: 30.8
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 68.0
+    artifact_dirs: 19
+    catalog_earned: 65.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 47.0
+    catalog_gap: 50.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 47.4
+    access_clarity: 39.5
     contract_governance: 27.3
     contract_quality: 29.9
     developer_ergonomics: 26.2
@@ -380,8 +401,8 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

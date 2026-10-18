@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://nitra.com/feed.xml
 - group: company
   title: ''
   type: Website
@@ -78,20 +82,20 @@ created: '2026-07-17'
 description: Nitra is an integrated financial and operational platform — an "operating system" — for independent medical practices, unifying business banking, spend management, payments, accounting, capital, and front-desk automation in one system. Its core products include the Nitra Card (a Visa business card with cashback and vendor pricing), NitraMart (a medical-supplies marketplace), BillPay payment processing, accounting integrations (QuickBooks, Nextech), Trina (an AI assistant for phone reception and invoice matching), and capital products such as lending, equipment financing, and insurance factoring. Nitra primarily serves eye care, aesthetics, dental specialty, and fertility practices as well as multi-site groups. The company is SOC 2 Type II certified and HIPAA-aware, holds funds at FDIC-insured banks, and is backed by a16z and Pantera Capital. Nitra publishes no public developer API, SDK, or developer portal as of this enrichment pass.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nitra.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Nitra
 nav: Providers
 network: true
 overview: 'Nitra is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Healthcare, Fintech, and Banking.
 
 
-  Nitra''s developer surface includes signup flow, support, and 7 more developer resources.'
+  Nitra''s developer surface includes signup flow, support, and 8 more developer resources.'
 random_paper: 14
 score:
   band: emerging
   composite: 12.8
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -112,8 +116,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 11.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

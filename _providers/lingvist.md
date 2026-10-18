@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The OAuth 2.0 protected API behind the Lingvist learning platform. Lingvist publishes no reference documentation for it; the authorization, token and user-profile endpoints are documented in Lingvist'
@@ -143,7 +143,7 @@ modified: '2026-07-19'
 name: Lingvist
 nav: Providers
 network: true
-overview: 'Lingvist publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, Language Learning, EdTech, and Artificial Intelligence.
+overview: 'Lingvist is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, Language Learning, EdTech, and Artificial Intelligence.
 
 
   Lingvist''s developer surface includes documentation, support, engineering blog, pricing, signup flow, authentication, and 15 more developer resources.'
@@ -185,8 +185,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 31.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

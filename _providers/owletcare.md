@@ -33,10 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://owletcare.com/blogs/all.atom
 - group: company
   title: ''
   type: Website
@@ -85,14 +89,14 @@ created: '2026-07-17'
 description: Owlet (Owletcare) is a baby-monitoring technology company that builds connected-nursery hardware and companion apps for parents. Its flagship Dream Sock is marketed as an FDA-cleared smart baby monitor that tracks a sleeping infant's pulse rate, oxygen levels, movement and sleep patterns, alongside the Dream Sight HD video monitor and the combined Dream Duo system. Products pair a wearable/camera with the Owlet Dream mobile app for real-time wellness insights and notifications. The consumer storefront at owletcare.com runs on Shopify; sign-in is handled by Shopify's Customer Account API (OIDC/OAuth), and Owlet does not currently publish a first-party developer API program. This profile was surfaced as a Techstars portfolio company and enriched from Owlet's public web surface.
 image: https://owletcare.com/cdn/shop/files/Owlet_Logo.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Owletcare
 nav: Providers
 network: true
 overview: 'Owletcare is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Baby Care, Health Monitoring, Consumer Electronics, and Connected Devices.
 
 
-  Owletcare''s developer surface includes engineering blog, support, signup flow, authentication, and 6 more developer resources.'
+  Owletcare''s developer surface includes engineering blog, support, signup flow, authentication, and 7 more developer resources.'
 random_paper: 20
 scopes:
 - name: Owletcare Scopes
@@ -101,7 +105,7 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 17.9
+  composite: 18.0
   coverage:
     artifact_dirs: 7
     catalog_earned: 27.0
@@ -109,7 +113,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 34.2
     contract_governance: 0.0
@@ -124,8 +128,8 @@ score:
     regime: Health
     regime_id: health
     score: 28.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

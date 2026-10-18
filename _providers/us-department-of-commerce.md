@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.0
-  scored_at: '2026-10-04'
+  score: 17.8
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -94,6 +94,21 @@ collections:
   name: Commerce.gov Blogs News API
   slug: open-us-department-of-commerce-news-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/us-department-of-commerce/refs/heads/main/plans/us-department-of-commerce-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/us-department-of-commerce-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/us-department-of-commerce/refs/heads/main/rate-limits/us-department-of-commerce-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/us-department-of-commerce-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/us-department-of-commerce/refs/heads/main/finops/us-department-of-commerce-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/us-department-of-commerce-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/us-department-of-commerce/refs/heads/main/agentic-access/us-department-of-commerce-agentic-access.yml
   title: ''
@@ -119,9 +134,13 @@ examples:
   name: Commerce Gov List News Example
   slug: commerce-gov-list-news-example
 finops:
-- name: Us Department Of Commerce Finops
+- has_sources: true
+  method: generated
+  name: Us Department Of Commerce Finops
+  primary_unit: ''
   service_category: Government Open Data
   slug: us-department-of-commerce-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/us-department-of-commerce.png
 json_schemas:
 - name: Commerce.gov News Article
@@ -141,7 +160,7 @@ modified: '2026-05-19'
 name: US Department of Commerce
 nav: Providers
 network: true
-overview: 'US Department of Commerce publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Blogs API, Images API, News API, and 6 more. Tagged areas include Commerce, Federal Government, Open Data, Trade, and Economic Data.
+overview: 'US Department of Commerce publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Blogs API, Images API, News API, and 6 more. Tagged areas include Commerce, Federal Government, Open Data, Trade, and Economic Data.
 
 
   The US Department of Commerce catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.'
@@ -155,10 +174,11 @@ rate_limits:
   name: Us Department Of Commerce Rate Limits
   slug: us-department-of-commerce-rate-limits
 rules:
-- effective_rule_count: 51
+- authorship: unmarked
+  effective_rule_count: 51
   extends:
   - spectral:oas
-  name: US Department of Commerce API Rules
+  name: US Department of Commerce — commerce gov api rules
   rule_count: 10
   severity_counts:
     error: 2
@@ -166,9 +186,10 @@ rules:
     info: 1
     warn: 7
   slug: commerce-gov-api-rules
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: US Department of Commerce API Rules
+  name: US Department of Commerce — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -177,19 +198,19 @@ rules:
     warn: 4
   slug: us-department-of-commerce-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 27.4
+  band: emerging
+  composite: 24.1
   coverage:
     artifact_dirs: 14
-    catalog_earned: 59.2
+    catalog_earned: 49.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 40.8
-    catalog_max: 100.0
+    catalog_gap: 65.5
+    catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.3
   facets:
-    access_clarity: 0.0
-    contract_governance: 49.1
+    access_clarity: 5.3
+    contract_governance: 13.6
     contract_quality: 51.4
     developer_ergonomics: 9.5
     discoverability: 57.1
@@ -213,8 +234,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

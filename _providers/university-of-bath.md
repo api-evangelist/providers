@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 5
 apis:
 - description: 'OAI-PMH 2.0 metadata harvesting interface for the University of Bath Research Data Archive, an EPrints 3.4.7 repository the University runs on its own infrastructure (researchdata.bath.ac.uk resolves '
@@ -53,6 +53,10 @@ apis:
   slug: primo-discovery
 artifact_total: 9
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.bath.ac.uk/jobs/RSS/rss.aspx
 - group: company
   title: ''
   type: Website
@@ -147,19 +151,23 @@ created: '2026-06-03'
 description: 'The University of Bath is a public research university in Bath, United Kingdom, and a member of the Russell Group. It operates no public developer program: a full crawl of its 21,530-URL sitemap on 2026-08-30 returned no developer portal, no API reference, and no published OpenAPI under any bath.ac.uk path. Its one genuinely institution-operated machine-readable surface is the Research Data Archive at researchdata.bath.ac.uk — EPrints 3.4.7 running on the University''s own infrastructure (138.38.44.144) — which serves a live OAI-PMH 2.0 interface, an EPrints REST/XML interface, and DataCite kernel-4 records carrying ORCID identifiers and DOIs under the University''s own 10.15125 prefix. Everything else that appears to be a Bath API is a vendor contract running under a Bath hostname: purehost.bath.ac.uk and researchportal.bath.ac.uk both CNAME to bath-prod.elsevierpure.com and are an Elsevier Pure tenancy; the library catalogue is an Ex Libris Alma/Primo tenancy; library.bath.ac.uk
   is Springshare LibGuides; status.bath.ac.uk is Better Stack. The programme and unit catalogue is entirely behind CAS authentication at auth.bath.ac.uk, and the student records system behind Microsoft Entra ID. An Azure API Management portal exists only as a non-production "test" instance and is not recorded as a surface. This profile is deliberately thin because the footprint is thin.'
 finops:
-- name: University Of Bath Finops
+- has_sources: true
+  method: generated
+  name: University Of Bath Finops
+  primary_unit: ''
   service_category: Education
   slug: university-of-bath-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/university-of-bath.png
 layout: provider
-modified: '2026-08-30'
+modified: '2026-10-06'
 name: University of Bath
 nav: Providers
 network: true
-overview: 'University of Bath publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include University, Higher Education, Education, United Kingdom, and Russell Group.
+overview: 'University of Bath is listed with 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include University, Higher Education, Education, United Kingdom, and Russell Group.
 
 
-  University of Bath''s developer surface includes documentation, status page, and 19 more developer resources.'
+  University of Bath''s developer surface includes documentation, status page, and 20 more developer resources.'
 plans:
 - name: University Of Bath Plans Pricing
   plan_count: 2
@@ -171,22 +179,22 @@ rate_limits:
   slug: university-of-bath-rate-limits
 score:
   band: emerging
-  composite: 22.5
+  composite: 16.5
   coverage:
-    artifact_dirs: 8
-    catalog_earned: 57.4
+    artifact_dirs: 10
+    catalog_earned: 44.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.6
+    catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -2.1
+  delta: -6.0
   facets:
-    access_clarity: 47.9
+    access_clarity: 26.3
     contract_governance: 0.0
     contract_quality: 4.4
     developer_ergonomics: 9.5
     discoverability: 71.4
-    operational_transparency: 21.6
+    operational_transparency: 7.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -195,7 +203,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 24.6
+  previous_composite: 22.5
   provenance:
     conformance: first-party
   regulatory:
@@ -204,9 +212,9 @@ score:
     regime: Education & Research
     regime_id: education
     score: 18.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

@@ -11,7 +11,7 @@ access_model:
   trial: true
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: true
@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: documented
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.1
-  scored_at: '2026-10-04'
+  score: 28.2
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -279,9 +279,13 @@ common:
 created: '2026-06-20'
 description: Graphite is a code review platform built on top of GitHub for stacking pull requests, AI code review, and merging at scale. The gt CLI creates and submits stacked PRs, Graphite Agent (Diamond) provides codebase-aware AI review and chat, and a merge queue batches and tests PRs in parallel. Graphite has no standalone public REST API - it integrates through a GitHub App that consumes GitHub webhooks, the gt CLI (authenticated with a Graphite token), the GT MCP server, and label / GitHub-mediated integrations (Slack, Linear, external merge queue).
 finops:
-- name: Graphite Com Finops
+- has_sources: true
+  method: generated
+  name: Graphite Com Finops
+  primary_unit: ''
   service_category: Developer Tools
   slug: graphite-com-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/graphite-com.png
 layout: provider
 mcp_servers:
@@ -292,7 +296,7 @@ modified: '2026-08-04'
 name: Graphite
 nav: Providers
 network: true
-overview: 'Graphite publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, GitHub App API, Merge Queue API, and 1 more. Tagged areas include Code Review, Stacked PRs, Merge Queue, AI Code Review, and Developer Tools.
+overview: 'Graphite publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authentication API, GitHub App API, Merge Queue API, and 1 more. Tagged areas include Code Review, Stacked PRs, Merge Queue, AI Code Review, and Developer Tools.
 
 
   Graphite''s developer surface includes authentication, documentation, getting-started guide, CLI, changelog, engineering blog, pricing, and 36 more developer resources.'
@@ -307,22 +311,22 @@ rate_limits:
   slug: graphite-com-rate-limits
 score:
   band: strong
-  composite: 62.6
+  composite: 54.3
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 61.6
+    artifact_dirs: 23
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.4
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 82.4
+    access_clarity: 53.9
     contract_governance: 18.2
     contract_quality: 48.8
     developer_ergonomics: 69.0
     discoverability: 71.7
-    operational_transparency: 65.3
+    operational_transparency: 44.7
   previous_composite: 62.6
   provenance:
     agentic_access: derived
@@ -340,9 +344,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

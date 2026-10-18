@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 4.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'Six static, anonymous, read-only JSON documents the provider publishes for agents under /machine/ and /.well-known/, mapped by its commerce manifest: products (SKU, price, delivery), capabilities (wit'
@@ -148,7 +148,7 @@ modified: '2026-09-19'
 name: Genie-us Software
 nav: Providers
 network: true
-overview: 'Genie-us Software publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI Governance, AI Agents, Agent Skills, and A2A.
+overview: 'Genie-us Software is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI Governance, AI Agents, Agent Skills, and A2A.
 
 
   Genie-us Software''s developer surface includes FAQ, pricing, signup flow, support, and 20 more developer resources.'
@@ -165,7 +165,7 @@ score:
   band: thin
   composite: 30.0
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 13
     catalog_earned: 48.4
     catalog_earned_first_party: 8.0
     catalog_gap: 66.6
@@ -188,13 +188,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/genie-us-software-com/refs/heads/main/screenshots/genie-us-software-com-2026-10-11T104752.png
 security:
 - kind: domain-security
   name: Genie Us Software Com Domain Security

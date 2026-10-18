@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.8
-  scored_at: '2026-10-04'
+  score: 22.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -141,6 +141,10 @@ collections:
   name: Simpro REST API
   slug: open-simpro
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.simprogroup.com/blog
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/simpro/refs/heads/main/capabilities/simpro-capability-edges.yml
   title: ''
@@ -191,19 +195,23 @@ common:
 created: '2026-07-12'
 description: Simpro (simPRO) is field service management and project/business management software for the trades - electrical, plumbing, HVAC, security, fire, and other contractors. It covers the full workflow of estimating, quoting, job management, scheduling and dispatch, asset maintenance, inventory and catalog, purchasing, timesheets, and invoicing. The Simpro REST API v1.0 exposes these resources over HTTPS, but it is not a shared public API - each API runs on the customer's own Simpro Premium build (host https://your-build.simprosuite.com) and is authenticated with OAuth2 credentials provisioned by that build's administrator. Resources are nested under a company at /api/v1.0/companies/{companyID}/... where companyID is 0 on single-company builds.
 finops:
-- name: Simpro Finops
+- has_sources: true
+  method: generated
+  name: Simpro Finops
+  primary_unit: ''
   service_category: Field Service Management Software
   slug: simpro-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/simpro.png
 layout: provider
-modified: '2026-07-12'
+modified: '2026-10-06'
 name: Simpro
 nav: Providers
 network: true
-overview: 'Simpro publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Companies API, Cost Centers API, Customers API, and 8 more. Tagged areas include Field Service Management, Trade, Job Management, Project Management, and Scheduling.
+overview: 'Simpro publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Companies API, Cost Centers API, Customers API, and 8 more. Tagged areas include Field Service, Trade, Job Management, Project Management, and Scheduling.
 
 
-  Simpro''s developer surface includes authentication, documentation, and 8 more developer resources.'
+  Simpro''s developer surface includes engineering blog, authentication, documentation, and 8 more developer resources.'
 plans:
 - name: Simpro Plans Pricing
   plan_count: 3
@@ -215,22 +223,22 @@ rate_limits:
   slug: simpro-rate-limits
 score:
   band: emerging
-  composite: 21.9
+  composite: 15.0
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 58.0
+    artifact_dirs: 13
+    catalog_earned: 42.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.0
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.9
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 12.1
-    developer_ergonomics: 19.0
+    developer_ergonomics: 21.4
     discoverability: 66.1
-    operational_transparency: 18.9
+    operational_transparency: 5.3
   previous_composite: 21.9
   provenance:
     agentic_access: derived
@@ -245,9 +253,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0
@@ -263,7 +271,7 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: simpro
 tags:
-- Field Service Management
+- Field Service
 - Trade
 - Job Management
 - Project Management

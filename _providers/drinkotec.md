@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The DRINKOTEC API is the integration surface for DRINKOTEC's connected beverage dispensing systems and its LOOP360 beverage productivity platform, used to expand DRINKOTEC functionality with third-par
@@ -42,6 +42,21 @@ apis:
   slug: drinkotec
 artifact_total: 6
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/drinkotec/refs/heads/main/plans/drinkotec-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/drinkotec-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/drinkotec/refs/heads/main/rate-limits/drinkotec-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/drinkotec-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/drinkotec/refs/heads/main/finops/drinkotec-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/drinkotec-finops.yml
 - group: company
   title: ''
   type: Website
@@ -87,19 +102,23 @@ coverage:
 created: '2025-03-01'
 description: DRINKOTEC is a Swiss beverage technology company headquartered in Nyon, Vaud, that designs, builds and services connected beverage dispensing systems and the software that runs them. Its hardware line covers all-in-one and modern postmix dispensers (NEO, VISION PX), compact premix dispensing (DRAFTER), cocktails and blends (MANHATTAN), self-service walls, contactless payment (BEVPAY), beer and wine counting and control (LEVELUP, BEERMAX), automatic keg switching, cellar cooling monitoring and water fountains. LOOP360, its cloud beverage productivity and analytics platform, connects dispensed beverages to a central system and is marketed as integrating with ERP and CRM platforms. DRINKOTEC sells into breweries, bars, pubs, nightclubs, restaurants, hotels, festivals, sports arenas, cruise ships, offices, schools and healthcare, and markets a RESTful DRINKOTEC API for third-party integration whose reference documentation is not published publicly.
 finops:
-- name: Drinkotec Finops
+- has_sources: false
+  method: generated
+  name: Drinkotec Finops
+  primary_unit: ''
   service_category: API
   slug: drinkotec-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/drinkotec.png
 layout: provider
 modified: '2026-09-16'
 name: DRINKOTEC
 nav: Providers
 network: true
-overview: 'DRINKOTEC publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Beverages, Beverage Dispensing, Hospitality, Point-of-Sale, and IoT.
+overview: 'DRINKOTEC is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Beverages, Beverage Dispensing, Hospitality, Point-of-Sale, and IoT.
 
 
-  DRINKOTEC''s developer surface includes engineering blog and 5 more developer resources.'
+  DRINKOTEC''s developer surface includes engineering blog and 8 more developer resources.'
 plans:
 - name: Drinkotec Plans Pricing
   plan_count: 0
@@ -111,17 +130,17 @@ rate_limits:
   slug: drinkotec-rate-limits
 score:
   band: minimal
-  composite: 8.2
+  composite: 6.7
   coverage:
     artifact_dirs: 11
-    catalog_earned: 35.0
+    catalog_earned: 32.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 80.0
+    catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 7.9
+    access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
@@ -139,8 +158,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 5.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

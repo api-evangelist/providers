@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 2
+- acting_count: 1
   human_in_the_loop: 0
   name: Emitwise Agentic Access
   operation_count: 7
   slug: emitwise-agentic-access
-  summary_line: 7 operations · 2 acting
+  summary_line: 7 operations · 1 acting
 api_count: 1
 apis:
 - baseURL: https://api.emitwise.com/v1
@@ -177,7 +177,7 @@ modified: '2026-05-25'
 name: Emitwise
 nav: Providers
 network: true
-overview: 'Emitwise publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Facilities API, Files API, Projects API, and 2 more. Tagged areas include Carbon Accounting, Greenhouse Gas, Scope 3, Supply Chain Emissions, and Product Carbon Footprint.
+overview: 'Emitwise publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Facilities API, Files API, Projects API, and 2 more. Tagged areas include Carbon Accounting, Greenhouse Gas, Scope 3, Supply Chain Emissions, and Product Carbon Footprint.
 
 
   The Emitwise catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -186,9 +186,10 @@ overview: 'Emitwise publishes 5 APIs on the [APIs.io](https://apis.io/) network,
   Emitwise''s developer surface includes authentication, documentation, privacy policy, engineering blog, GitHub presence, and 10 more developer resources.'
 random_paper: 13
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Emitwise API Rules
+  name: Emitwise — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -236,8 +237,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 19.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

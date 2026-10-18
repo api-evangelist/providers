@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Fastify is a fast and low-overhead web framework for Node.js, designed for building high-performance APIs and microservices. It features a powerful plugin architecture, JSON Schema-based request and r
@@ -41,6 +41,21 @@ apis:
   slug: fastify
 artifact_total: 8
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/fastify/refs/heads/main/plans/fastify-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/fastify-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/fastify/refs/heads/main/rate-limits/fastify-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/fastify-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/fastify/refs/heads/main/finops/fastify-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/fastify-finops.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -113,9 +128,13 @@ common:
 created: '2026-03-26'
 description: Fastify is a fast and low-overhead web framework for Node.js, designed for building high-performance APIs and microservices. It features a powerful plugin architecture, JSON Schema-based request and response validation, automatic serialization, comprehensive logging with Pino, and TypeScript support out of the box.
 finops:
-- name: Fastify Finops
+- has_sources: false
+  method: generated
+  name: Fastify Finops
+  primary_unit: ''
   service_category: API
   slug: fastify-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fastify.png
 json_schemas:
 - name: Fastify Plugin and Server Configuration
@@ -129,13 +148,13 @@ modified: '2026-04-28'
 name: Fastify
 nav: Providers
 network: true
-overview: 'Fastify publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Framework, High Performance, JavaScript, JSON Schema, and Node.js.
+overview: 'Fastify is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Framework, High Performance, JavaScript, JSON Schema, and Node.js.
 
 
   The Fastify catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Fastify''s developer surface includes documentation, getting-started guide, engineering blog, and 14 more developer resources.'
+  Fastify''s developer surface includes documentation, getting-started guide, engineering blog, and 17 more developer resources.'
 plans:
 - name: Fastify Plans Pricing
   plan_count: 3
@@ -146,9 +165,10 @@ rate_limits:
   name: Fastify Rate Limits
   slug: fastify-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Fastify API Rules
+  name: Fastify — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -158,17 +178,17 @@ rules:
   slug: fastify-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 29.5
+  composite: 28.2
   coverage:
     artifact_dirs: 10
-    catalog_earned: 53.3
+    catalog_earned: 50.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 61.8
+    catalog_gap: 64.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.3
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 9.8
     contract_quality: 12.0
     developer_ergonomics: 23.8
@@ -184,8 +204,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -32,10 +32,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.anaqua.com/resources/blog
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.anaqua.com/resources/blog/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/anaqua/refs/heads/main/security/anaqua-domain-security.yml
   title: ''
@@ -65,18 +73,18 @@ created: '2026-07-17'
 description: Anaqua provides intellectual property management (IPMS) software and services for corporations and law firms, unifying patent, trademark, and broader IP portfolio operations through process automation, business intelligence, and analytics. Its AQX platform (AQX Corporate, AQX Law Firm, AQX Pharma) is complemented by PATTSY WAVE portfolio analytics, AcclaimIP patent search, ideaPoint innovation management, and IP services such as annuity, renewal, foreign filing, and docketing. Clients include Adidas, ARM, TSMC, and GSK. Backed by Insight Partners and Bessemer Venture Partners, Anaqua does not currently publish a public developer API or portal; integration is handled via its SeeUnity application-integration technology.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/anaqua.png
 layout: provider
-modified: '2026-07-17'
+modified: '2026-10-06'
 name: Anaqua
 nav: Providers
 network: true
 overview: 'Anaqua is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cloud, Intellectual Property, IP Management, and Patents.
 
 
-  Anaqua''s developer surface includes engineering blog, support, and 4 more developer resources.'
+  Anaqua''s developer surface includes engineering blog, support, and 6 more developer resources.'
 random_paper: 15
 score:
   band: minimal
-  composite: 9.2
+  composite: 9.3
   coverage:
     artifact_dirs: 4
     catalog_earned: 27.0
@@ -84,7 +92,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
@@ -99,8 +107,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

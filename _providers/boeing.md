@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 9
 apis:
 - description: 'The Boeing Aircraft Models API provides model characteristics of commercial and business aviation aircraft including ICAO/IATA codes, engine specifications, wingspan, weight, and height. Data sourced '
@@ -65,6 +65,21 @@ apis:
   slug: boeing-taxi-time-api
 artifact_total: 13
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/boeing/refs/heads/main/plans/boeing-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/boeing-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/boeing/refs/heads/main/rate-limits/boeing-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/boeing-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/boeing/refs/heads/main/finops/boeing-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/boeing-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/boeing/refs/heads/main/security/boeing-domain-security.yml
   title: ''
@@ -97,19 +112,23 @@ common:
 created: '2025-02-24'
 description: Boeing is an American multinational corporation that designs, manufactures, and sells airplanes, rotorcraft, rockets, satellites, and telecommunications equipment. Boeing Developer Tools provides aviation data APIs powered by Jeppesen aeronautical databases, covering aircraft models, airport data, airspace information, NOTAMs, flight events, and runway operations.
 finops:
-- name: Boeing Finops
+- has_sources: true
+  method: generated
+  name: Boeing Finops
+  primary_unit: ''
   service_category: Aerospace / Aviation Services
   slug: boeing-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/boeing.png
 layout: provider
 modified: '2026-04-21'
 name: Boeing
 nav: Providers
 network: true
-overview: 'Boeing publishes 9 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Aviation, Airplanes, Aerospace, Flights, and Aeronautical.
+overview: 'Boeing is listed with 9 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Aviation, Airplanes, Aerospace, Flights, and Aeronautical.
 
 
-  Boeing''s developer surface includes developer portal, engineering blog, and 5 more developer resources.'
+  Boeing''s developer surface includes developer portal, engineering blog, and 8 more developer resources.'
 plans:
 - name: Boeing Plans Pricing
   plan_count: 1
@@ -136,18 +155,18 @@ rate_limits:
   name: Boeing Rate Limits
   slug: boeing-rate-limits
 score:
-  band: emerging
-  composite: 11.6
+  band: minimal
+  composite: 10.1
   coverage:
-    artifact_dirs: 9
-    catalog_earned: 42.0
+    artifact_dirs: 10
+    catalog_earned: 39.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 73.0
+    catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 13.2
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 15.5
@@ -165,8 +184,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

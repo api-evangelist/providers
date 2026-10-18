@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 14.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: The Moku Scripting API is a RESTful HTTP interface served by the Moku device itself. A client first POSTs an empty JSON object to moku/claim_ownership to mint a Moku-Client-Key, then POSTs JSON parame
@@ -200,7 +200,7 @@ modified: '2026-08-04'
 name: Liquid Instruments
 nav: Providers
 network: true
-overview: 'Liquid Instruments publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Test and Measurement, Instrumentation, Hardware, and Oscilloscope.
+overview: 'Liquid Instruments is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Test and Measurement, Instrumentation, Hardware, and Oscilloscope.
 
 
   Liquid Instruments'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, code examples, pricing, and 26 more developer resources.'
@@ -212,7 +212,7 @@ scopes:
   summary_line: 5 scopes · authorizationCode/clientCredentials/deviceCode/implicit/password
 score:
   band: thin
-  composite: 37.2
+  composite: 37.3
   coverage:
     artifact_dirs: 16
     catalog_earned: 37.0
@@ -220,7 +220,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 44.7
     contract_governance: 4.5
@@ -244,8 +244,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

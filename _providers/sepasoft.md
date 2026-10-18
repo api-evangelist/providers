@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 10.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The REST and SOAP surface the Sepasoft Web Services module exposes. Endpoints are authored by the operator in the Ignition Designer and served from the customer's own Ignition Gateway, mounted beneath
@@ -42,6 +42,11 @@ apis:
   slug: sepasoft
 artifact_total: 8
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sepasoft/refs/heads/main/finops/sepasoft-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/sepasoft-finops.yml
 - group: company
   title: ''
   type: Website
@@ -155,9 +160,13 @@ common:
 created: '2025-03-01'
 description: Sepasoft builds Manufacturing Execution System (MES) software delivered as modules for the Inductive Automation Ignition platform, used to control, track and document the transformation of raw materials into finished goods in real time. The suite spans OEE and downtime tracking, track and trace, ISA-88 batch procedure control, statistical process control, settings and changeover, document management, and ERP integration through the Business Connector (B2MML / ISA-95) and an SAP interface, alongside SepaIQ for analytics, machine learning and LLM features. Its integration surface is the Web Services module, which turns a customer's own Ignition Gateway into a REST and SOAP provider and consumer rather than a hosted API Sepasoft operates.
 finops:
-- name: Sepasoft Finops
+- has_sources: false
+  method: generated
+  name: Sepasoft Finops
+  primary_unit: ''
   service_category: API
   slug: sepasoft-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sepasoft.png
 jsonld:
 - class_count: 19
@@ -169,13 +178,13 @@ modified: '2026-08-27'
 name: Sepasoft
 nav: Providers
 network: true
-overview: 'Sepasoft publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Manufacturing, Manufacturing Execution System, Industrial Automation, OEE, and Track and Trace.
+overview: 'Sepasoft is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Manufacturing, Manufacturing Execution System, Industrial Automation, OEE, and Track and Trace.
 
 
   The Sepasoft catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Sepasoft''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 17 more developer resources.'
+  Sepasoft''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 18 more developer resources.'
 plans:
 - name: Sepasoft Plans Pricing
   plan_count: 16
@@ -187,17 +196,17 @@ rate_limits:
   slug: sepasoft-rate-limits
 score:
   band: developing
-  composite: 46.4
+  composite: 44.9
   coverage:
     artifact_dirs: 18
-    catalog_earned: 75.5
+    catalog_earned: 72.5
     catalog_earned_first_party: 20.0
-    catalog_gap: 39.5
+    catalog_gap: 42.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 86.8
+    access_clarity: 78.9
     contract_governance: 13.6
     contract_quality: 14.7
     developer_ergonomics: 47.6
@@ -212,8 +221,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

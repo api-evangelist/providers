@@ -30,20 +30,20 @@ agent_readiness:
     mcp_server: verified
     openapi_examples: partial
     protected_resource_metadata: verified
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 42.8
-  scored_at: '2026-10-04'
+  score: 40.9
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 39
+- acting_count: 38
   human_in_the_loop: 1
   name: Nhost Agentic Access
-  operation_count: 54
+  operation_count: 58
   slug: nhost-agentic-access
-  summary_line: 54 operations · 39 acting · 1 human-in-the-loop
+  summary_line: 58 operations · 38 acting · 1 human-in-the-loop
 api_count: 2
 apis:
 - description: Instant, real-time GraphQL API auto-generated from PostgreSQL database schemas via Hasura. Supports queries, mutations, and live subscriptions with row- and column-level role-based access control.
@@ -249,9 +249,13 @@ examples:
   name: Nhost Token Refresh Example
   slug: nhost-token-refresh-example
 finops:
-- name: Nhost Finops
+- has_sources: false
+  method: generated
+  name: Nhost Finops
+  primary_unit: ''
   service_category: ''
   slug: nhost-finops
+  template: true
 graphqls:
 - description: Nhost provides an instant, auto-generated GraphQL API powered by Hasura GraphQL Engine running on top of PostgreSQL. Every Nhost project receives a dedicated GraphQL endpoint at `https://{subdomain}.h
   name: Nhost GraphQL API
@@ -281,7 +285,7 @@ modified: '2026-06-12'
 name: Nhost
 nav: Providers
 network: true
-overview: 'Nhost publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Documentation API, Excludeme API, and 11 more. Tagged areas include GraphQL, PostgreSQL, Authentication, File Storage, and Serverless Functions.
+overview: 'Nhost publishes 14 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authentication API, Documentation API, Excludeme API, and 11 more. Tagged areas include GraphQL, PostgreSQL, Authentication, File Storage, and Serverless Functions.
 
 
   The Nhost catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -298,9 +302,10 @@ rate_limits:
   name: Nhost Rate Limits
   slug: nhost-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Nhost API Rules
+  name: Nhost — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -309,18 +314,18 @@ rules:
     warn: 3
   slug: nhost-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 42.1
+  band: thin
+  composite: 36.5
   coverage:
     artifact_dirs: 20
-    catalog_earned: 63.3
+    catalog_earned: 52.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 51.7
+    catalog_gap: 62.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.6
   facets:
-    access_clarity: 54.7
+    access_clarity: 26.3
     contract_governance: 13.6
     contract_quality: 56.0
     developer_ergonomics: 23.8
@@ -341,9 +346,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 11.1
@@ -360,7 +365,7 @@ security:
 - kind: vulnerability-disclosure
   name: Nhost Vulnerability Disclosure
   slug: nhost-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 - kind: trust-center
   name: Nhost Trust Center
   slug: nhost-trust-center

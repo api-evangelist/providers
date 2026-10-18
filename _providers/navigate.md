@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://api.navigateai.co
@@ -171,6 +171,10 @@ collections:
   name: NavigateAI Access codes Work orders API
   slug: open-navigate-work-orders-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.navigate.ai/blog
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/navigate/refs/heads/main/capabilities/navigate-capability-edges.yml
   title: ''
@@ -230,31 +234,31 @@ created: '2026-07-17'
 description: Navigate (NavigateAI) is a proptech company building an AI copilot for the physical world, helping field teams across construction, commercial real estate, homebuilding, data centers, and the trades complete projects faster, at higher quality, and lower cost. Its platform combines AI Capture for mobile visual documentation of project features and quality, AI Insights for on-demand expert coaching and upskilling, and AI Workflows for automating documentation and communication. Co-founded by Eric Wu and David Sinsky, Navigate is backed by Khosla Ventures, Affinity Partners, and Fifth Wall, with strategic investors including Tishman Speyer, Lennar, and Helix Electric. Navigate publishes a real external REST API (OpenAPI 3.1, bearer API-key auth) at https://api.navigateai.co for programmatically managing locations, visits, video captures, scopes, line items, work orders, and vendors.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/navigate.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Navigate
 nav: Providers
 network: true
-overview: 'Navigate publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Access codes API, Assets API, Lennar API, and 13 more. Tagged areas include Company, PropTech, Construction, Real Estate, and Artificial Intelligence.
+overview: 'Navigate publishes 16 API contracts indexed on the [APIs.io](https://apis.io/) network, including Access codes API, Assets API, Lennar API, and 13 more. Tagged areas include Company, PropTech, Construction, Real Estate, and Artificial Intelligence.
 
 
-  Navigate''s developer surface includes support and 11 more developer resources.'
+  Navigate''s developer surface includes engineering blog, support, and 11 more developer resources.'
 random_paper: 11
 score:
   band: thin
-  composite: 30.0
+  composite: 30.5
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 27.6
     contract_governance: 4.5
     contract_quality: 44.4
-    developer_ergonomics: 25.6
+    developer_ergonomics: 28.0
     discoverability: 73.2
     operational_transparency: 0.0
   previous_composite: 30.0
@@ -273,8 +277,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

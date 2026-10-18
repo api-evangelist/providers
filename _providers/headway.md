@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://headway.co/blog/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/headway/refs/heads/main/security/headway-domain-security.yml
   title: ''
@@ -134,18 +138,18 @@ created: '2026-07-17'
 description: Headway operates a national mental-health care platform that connects patients, therapists and psychiatrists, and insurance companies. Founded in 2019 and headquartered in New York, Headway builds the first asset-free national network of behavioral-health providers who accept insurance, handling insurance credentialing, claims management, payments, and scheduling for clinicians while letting patients search for in-network providers, book appointments online, and see costs up front. The company partners with 45+ major insurers (Aetna, Anthem, Cigna, Oxford, UnitedHealthcare, Oscar) and, as of 2026, powers 600,000+ appointments per month across all 50 states. Headway is backed by a16z, Thrive, Accel, GV, Spark Capital, and Forerunner. It maintains SOC 2 Type II and HIPAA compliance. Headway does not currently publish a public developer API or developer portal.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/headway.png
 layout: provider
-modified: '2026-08-08'
+modified: '2026-10-06'
 name: Headway
 nav: Providers
 network: true
 overview: 'Headway is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Mental Health, Healthcare, Behavioral Health, and Therapy.
 
 
-  Headway''s developer surface includes engineering blog, support, signup flow, FAQ, GitHub presence, and 18 more developer resources.'
+  Headway''s developer surface includes engineering blog, support, signup flow, FAQ, GitHub presence, and 19 more developer resources.'
 random_paper: 13
 score:
   band: emerging
-  composite: 16.4
+  composite: 16.5
   coverage:
     artifact_dirs: 4
     catalog_earned: 27.0
@@ -153,7 +157,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 42.1
     contract_governance: 0.0
@@ -173,8 +177,8 @@ score:
     regime: Health
     regime_id: health
     score: 19.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

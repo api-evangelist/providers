@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 artifact_total: 6
 collections:
@@ -45,6 +45,21 @@ collections:
   name: Seaboard Corporation API
   slug: open-seaboard
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/seaboard/refs/heads/main/plans/seaboard-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/seaboard-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/seaboard/refs/heads/main/rate-limits/seaboard-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/seaboard-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/seaboard/refs/heads/main/finops/seaboard-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/seaboard-finops.yml
 - group: company
   title: ''
   type: Website
@@ -107,19 +122,23 @@ coverage:
 created: '2026-05-22'
 description: Seaboard Corporation is a diversified global agribusiness and transportation holding company headquartered in Merriam, Kansas, operating through Seaboard Foods (pork production and processing), Seaboard Marine (containerized ocean cargo between the United States, the Caribbean, and Central and South America), Seaboard Overseas and Trading Group (grain merchandising and milling), Seaboard Energy (renewable diesel), Transcontinental Capital Corporation (electric power generation in the Dominican Republic), Mount Dora Farms, and a minority interest in Butterball. Seaboard publishes no public developer API or developer portal; its only documented machine-to-machine integration surface is the Seaboard Marine Electronic Data Interchange program, which publishes an ANSI ASC X12 and UN/EDIFACT transaction-set catalog and onboards trading partners through a request form.
 finops:
-- name: Seaboard Finops
+- has_sources: true
+  method: none
+  name: Seaboard Finops
+  primary_unit: ''
   service_category: API
   slug: seaboard-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/seaboard.png
 layout: provider
 modified: '2026-09-04'
 name: Seaboard
 nav: Providers
 network: true
-overview: 'Seaboard publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500, Agribusiness, Ocean Transportation, Container Shipping, and Pork Production.
+overview: 'Seaboard publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500, Agribusiness, Ocean Transportation, Container Shipping, and Pork Production.
 
 
-  Seaboard''s developer surface includes engineering blog, support, and 8 more developer resources.'
+  Seaboard''s developer surface includes engineering blog, support, and 11 more developer resources.'
 plans:
 - name: Seaboard Plans Pricing
   plan_count: 0
@@ -155,18 +174,18 @@ rate_limits:
   name: Seaboard Rate Limits
   slug: seaboard-rate-limits
 score:
-  band: emerging
-  composite: 12.4
+  band: minimal
+  composite: 10.8
   coverage:
     artifact_dirs: 14
-    catalog_earned: 30.0
+    catalog_earned: 27.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 85.0
+    catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 28.9
+    access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
@@ -188,13 +207,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 15.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
     reason: read_only
+screenshot: https://raw.githubusercontent.com/api-evangelist/seaboard/refs/heads/main/screenshots/seaboard-2026-10-11T125612.png
 security:
 - kind: domain-security
   name: Seaboard Domain Security

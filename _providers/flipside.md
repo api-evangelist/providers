@@ -30,13 +30,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.5
-  scored_at: '2026-10-04'
+  score: 24.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -112,16 +112,20 @@ common:
 created: '2026-06-21'
 description: Flipside Crypto is a blockchain analytics platform that lets analysts and developers run SQL queries against curated, Snowflake-backed on-chain datasets covering Ethereum, Solana, and 20+ other chains. The Data API exposes query execution and result retrieval over a JSON-RPC-style HTTP interface at api-v2.flipsidecrypto.xyz, authenticated with an x-api-key. In May 2026 Flipside sold its blockchain data business to SonarX and refocused on its edisyl enterprise AI platform; this catalog documents the Flipside Data API as published.
 finops:
-- name: Flipside Finops
+- has_sources: true
+  method: generated
+  name: Flipside Finops
+  primary_unit: ''
   service_category: Analytics
   slug: flipside-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/flipside.png
 layout: provider
 modified: '2026-06-21'
 name: Flipside Crypto
 nav: Providers
 network: true
-overview: 'Flipside Crypto publishes 1 API on the [APIs.io](https://apis.io/) network: JSON-RPC API. Tagged areas include Blockchain, Analytics, SQL, Web3, and Data.
+overview: 'Flipside Crypto publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: JSON-RPC API. Tagged areas include Blockchain, Analytics, SQL, Web3, and Data.
 
 
   Flipside Crypto''s developer surface includes authentication, documentation, and 8 more developer resources.'
@@ -135,23 +139,23 @@ rate_limits:
   name: Flipside Rate Limits
   slug: flipside-rate-limits
 score:
-  band: thin
-  composite: 33.3
+  band: emerging
+  composite: 25.0
   coverage:
     artifact_dirs: 10
-    catalog_earned: 61.6
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.4
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 51.4
     developer_ergonomics: 19.0
     discoverability: 66.1
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   previous_composite: 33.3
   provenance:
     agentic_access: derived
@@ -166,9 +170,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

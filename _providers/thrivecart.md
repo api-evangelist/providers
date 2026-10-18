@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://thrivecart.com/api/external
@@ -223,6 +223,20 @@ collections:
   name: ThriveCart API
   slug: open-thrivecart-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/thrivecart/refs/heads/main/plans/thrivecart-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/thrivecart-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/thrivecart/refs/heads/main/rate-limits/thrivecart-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/thrivecart-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://thrivecart.com/products/proplus/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/thrivecart/refs/heads/main/capabilities/thrivecart-capability-edges.yml
   title: ''
@@ -408,13 +422,13 @@ modified: '2026-08-12'
 name: ThriveCart
 nav: Providers
 network: true
-overview: 'ThriveCart publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Account API, Affiliates API, Bumps API, and 8 more. Tagged areas include Company, Checkout, Shopping Cart, Payments, and E-Commerce.
+overview: 'ThriveCart publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Affiliates API, Bumps API, and 8 more. Tagged areas include Company, Checkout, Shopping Cart, Payments, and E-Commerce.
 
 
   The ThriveCart catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  ThriveCart''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 32 more developer resources.'
+  ThriveCart''s developer surface includes pricing, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 35 more developer resources.'
 plans:
 - name: Thrivecart Plans Pricing
   plan_count: 3
@@ -433,7 +447,7 @@ score:
   band: exemplar
   composite: 67.5
   coverage:
-    artifact_dirs: 27
+    artifact_dirs: 28
     catalog_earned: 57.0
     catalog_earned_first_party: 20.0
     catalog_gap: 58.0
@@ -463,8 +477,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 41.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -496,7 +510,7 @@ tags:
 - E-Commerce
 - Subscription
 - Affiliate Marketing
-- Learning Management
+- LMS
 - Creator Economy
 - Webhook
 website: https://thrivecart.com/

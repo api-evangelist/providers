@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: low
+  gated: private
+  gated_source:
+  - tag:No Public API
   label: Unknown
   onboarding: unknown
   pricing: unknown
@@ -32,10 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.veritiv.com/blog
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/veritiv/refs/heads/main/security/veritiv-domain-security.yml
   title: ''
@@ -89,28 +96,31 @@ created: 2026-05-23
 description: Veritiv is a North American business-to-business distributor of packaging, facility solutions, print, and publishing products. Formed in July 2014 through the merger of International Paper's xpedx division with Unisource Worldwide, Veritiv operated as a publicly traded company on the New York Stock Exchange until it was acquired and taken private by Clayton, Dubilier & Rice (CD&R) in November 2023 in a transaction valued at approximately $2.3 billion. The company is headquartered in Sandy Springs, Georgia, and operates roughly 125 distribution centers across the United States and Mexico. Veritiv does not publish any public developer APIs, OpenAPI specifications, SDKs, or a developer portal — its commercial surface is built around sales reps, account managers, and large-account customer portals rather than a programmable API.
 image: https://avatars.githubusercontent.com/u/veritiv
 layout: provider
-modified: 2026-05-23
+modified: '2026-10-06'
 name: Veritiv
 nav: Providers
 network: true
-overview: Veritiv is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Packaging, Facility Solutions, Print, Publishing, and Distribution.
+overview: 'Veritiv is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Packaging, Facility Solutions, Print, Publishing, and Distribution.
+
+
+  Veritiv''s developer surface includes engineering blog and 12 more developer resources.'
 random_paper: 7
 score:
   band: minimal
-  composite: 4.1
+  composite: 4.6
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 48.2
     operational_transparency: 5.3
   previous_composite: 4.1
@@ -120,8 +130,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -145,7 +155,6 @@ tags:
 - Janitorial Sanitation
 - Foodservice Packaging
 - Industrial Packaging
-- No Public API
 - Private Equity Owned
 website: https://www.veritiv.com
 ---

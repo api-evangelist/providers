@@ -14,25 +14,25 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
-    openapi_examples: false
+    mcp_server: documented
+    openapi_examples: documented
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 13.7
-  scored_at: '2026-10-04'
+  score: 18.0
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: 'The Park''s agent-to-agent surface: an anonymous A2A 0.3.0 JSON-RPC endpoint whose single method, message/send, dispatches on a JSON object in the message text part - {"skill":"list_rides"}, {"skill":"'
   name: A2APark A2A Agent
   slug: a2apark-a2a-agent
-- description: 'The licensing and feed surface behind the A2AParkBench runner: POST /api/license/activate exchanges a Lemon Squeezy licence key plus a repository name for one per-repository bearer token, and GET /api'
+- description: 'The licensing and feed surface behind A2AParkBench''s paid Team feed: POST /api/license/activate exchanges a licence key plus a repository name for one per-repository bearer token, and GET /api/feed/ma'
   name: A2AParkBench Team Feed API
   slug: a2aparkbench-team-feed-api
-artifact_total: 6
+artifact_total: 7
 common:
 - group: company
   title: ''
@@ -45,7 +45,19 @@ common:
 - group: start
   title: ''
   type: GettingStarted
-  url: https://github.com/MutantWeb/ci#run-in-under-a-minute
+  url: https://bench.a2apark.com/examples/promptfoo
+- group: build
+  title: ''
+  type: Examples
+  url: https://bench.a2apark.com/examples/promptfoo
+- group: agent
+  title: ''
+  type: MCPServer
+  url: https://a2apark.com/mcp
+- group: build
+  title: ''
+  type: GitHubRepository
+  url: https://github.com/AgentAmusementPark/agent-amusement-park
 - group: commercial
   title: ''
   type: Pricing
@@ -128,20 +140,24 @@ common:
   type: DomainSecurity
   url: security/a2apark-com-domain-security.yml
 created: '2026-09-19'
-description: 'A2APark is a public "agent amusement park" created and operated by Sarah van Oorsouw: autonomous agents take stateful behavioral evaluation rides - a bureaucratic permit office, an agent-to-agent night bazaar, a hostile-web refund gauntlet - every action is evaluated, and the run receives an evidence-backed scorecard. Agents participate through the browser or through a public, anonymous A2A JSON-RPC endpoint at https://a2apark.com/a2a, described by an agent card at /.well-known/agent-card.json (A2A 0.3.0, three skills, message/send only). A2AParkBench (bench.a2apark.com) is the sibling benchmark: a free, local-first adversarial CI runner and GitHub Action (MutantWeb/ci) for browser-agent action policies, plus a paid Team feed of changing regression packs. No OpenAPI, SDK or developer portal is published; the whole product is a simulation and the provider says so.'
+description: 'A2APark provides free, stateful agent simulations ("rides" such as a bureaucratic permit office, an agent-to-agent night bazaar and a hostile-web refund gauntlet) that end in an evidence-backed scorecard. It is created and operated by Sarah van Oorsouw. Agents take part through the browser, through an anonymous A2A 0.3.0 JSON-RPC endpoint at https://a2apark.com/a2a (canonical agent card at https://a2apark.com/.well-known/agent-card.json), or through an anonymous Streamable HTTP MCP server at https://a2apark.com/mcp. A2AParkBench (https://bench.a2apark.com/) is a separate commercial product: a free local/CI regression runner with a fixed public sample, a paid Team feed of changing regression packs, and a separately agreed corpus pilot. The simulations are not a safety certification. No OpenAPI or SDK is published.'
 image: https://a2apark.com/favicon.ico
 layout: provider
-modified: '2026-09-19'
+mcp_servers:
+- description: ''
+  name: A2APark MCP Server
+  slug: mcp
+modified: '2026-10-17'
 name: A2APark
 nav: Providers
 network: true
-overview: 'A2APark publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Agent Evaluation, AI Agents, A2A, Agent Safety, and Benchmarking.
+overview: 'A2APark is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Agent Evaluation, AI Agents, A2A, Agent Safety, and Benchmarking.
 
 
-  A2APark''s developer surface includes documentation, getting-started guide, pricing, authentication, changelog, CLI, and 14 more developer resources.'
+  A2APark''s developer surface includes documentation, getting-started guide, code examples, pricing, authentication, changelog, CLI, and 16 more developer resources.'
 plans:
 - name: A2Apark Com Plans Pricing
-  plan_count: 3
+  plan_count: 4
   slug: a2apark-com-plans-pricing
 random_paper: 4
 rate_limits:
@@ -150,21 +166,21 @@ rate_limits:
   slug: a2apark-com-rate-limits
 score:
   band: thin
-  composite: 33.3
+  composite: 34.9
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 18
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.6
   facets:
     access_clarity: 63.2
     contract_governance: 18.2
-    contract_quality: 0.0
+    contract_quality: 6.5
     developer_ergonomics: 40.5
-    discoverability: 66.1
+    discoverability: 65.0
     operational_transparency: 18.4
   previous_composite: 33.3
   provenance:
@@ -175,13 +191,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/a2apark-com/refs/heads/main/screenshots/a2apark-com-2026-10-11T092334.png
 security:
 - kind: authentication
   name: A2Apark Com Authentication

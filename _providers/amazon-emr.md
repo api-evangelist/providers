@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.3
-  scored_at: '2026-10-04'
+  score: 20.4
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -82,6 +82,21 @@ collections:
   name: Amazon EMR API
   slug: open-amazon-emr
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-emr/refs/heads/main/plans/amazon-emr-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/amazon-emr-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-emr/refs/heads/main/rate-limits/amazon-emr-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/amazon-emr-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-emr/refs/heads/main/finops/amazon-emr-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/amazon-emr-finops.yml
 - group: company
   title: ''
   type: Website
@@ -244,9 +259,13 @@ features:
 - description: Develop and debug jobs using EMR Studio Jupyter notebooks
   name: Studio Notebooks
 finops:
-- name: Amazon Emr Finops
+- has_sources: false
+  method: generated
+  name: Amazon Emr Finops
+  primary_unit: ''
   service_category: API
   slug: amazon-emr-finops
+  template: true
 image: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png
 integrations:
 - description: Use S3 as data lake storage for EMR clusters
@@ -275,13 +294,13 @@ modified: '2026-09-16'
 name: Amazon EMR
 nav: Providers
 network: true
-overview: 'Amazon EMR publishes 1 API on the [APIs.io](https://apis.io/) network: Clusters API. Tagged areas include Amazon Web Services, Analytics, Apache Spark, Big Data, and Data Processing.
+overview: 'Amazon EMR publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Clusters API. Tagged areas include Amazon Web Services, Analytics, Apache Spark, Big Data, and Data Processing.
 
 
   The Amazon EMR catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon EMR''s developer surface includes developer portal, documentation, engineering blog, developer console, signup flow, support, FAQ, and 26 more developer resources.'
+  Amazon EMR''s developer surface includes developer portal, documentation, engineering blog, developer console, signup flow, support, FAQ, and 29 more developer resources.'
 plans:
 - name: Amazon Emr Plans Pricing
   plan_count: 3
@@ -292,9 +311,10 @@ rate_limits:
   name: Amazon Emr Rate Limits
   slug: amazon-emr-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Amazon EMR API Rules
+  name: Amazon EMR — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -302,7 +322,8 @@ rules:
     info: 2
     warn: 3
   slug: amazon-emr-jsonschema-spectral-rules
-- effective_rule_count: 62
+- authorship: generated
+  effective_rule_count: 62
   extends:
   - spectral:oas
   name: Amazon EMR API Rules
@@ -314,18 +335,18 @@ rules:
     warn: 10
   slug: amazon-emr-spectral-rules
 score:
-  band: strong
-  composite: 55.0
+  band: developing
+  composite: 53.4
   coverage:
     artifact_dirs: 18
-    catalog_earned: 65.4
+    catalog_earned: 62.4
     catalog_earned_first_party: 0.0
-    catalog_gap: 49.6
+    catalog_gap: 52.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 69.7
+    access_clarity: 61.8
     contract_governance: 27.3
     contract_quality: 54.2
     developer_ergonomics: 53.6
@@ -345,8 +366,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

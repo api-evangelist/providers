@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 6
+- acting_count: 5
   human_in_the_loop: 0
   name: Ship24 Agentic Access
   operation_count: 11
   slug: ship24-agentic-access
-  summary_line: 11 operations · 6 acting
+  summary_line: 11 operations · 5 acting
 api_count: 1
 apis:
 - baseURL: https://api.ship24.com
@@ -64,7 +64,7 @@ apis:
   description: The Ship24 Tracking API API from Ship24 — 0 operation(s) for ship24 tracking api.
   name: Ship24 Tracking API
   slug: ship24-ship24-tracking-api-api
-artifact_total: 36
+artifact_total: 39
 collections:
 - collection_type: open
   name: API Collection
@@ -82,6 +82,16 @@ collections:
   name: Ship24 Tracking API
   slug: open-ship24-tracking-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/ship24/refs/heads/main/plans/ship24-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/ship24-plans-pricing.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/ship24/refs/heads/main/finops/ship24-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/ship24-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/ship24/refs/heads/main/capabilities/ship24-capability-edges.yml
   title: ''
@@ -204,6 +214,14 @@ features:
 - 99.9% uptime SLA target
 - GDPR-compliant data processing
 - IOSS fiscal intermediary service for EU VAT compliance on cross-border ecommerce parcels
+finops:
+- has_sources: true
+  method: generated
+  name: Ship24 Finops
+  primary_unit: ''
+  service_category: ''
+  slug: ship24-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ship24.png
 json_schemas:
 - name: Ship24 Tracker
@@ -226,18 +244,27 @@ modified: '2026-09-16'
 name: Ship24
 nav: Providers
 network: true
-overview: 'Ship24 publishes 4 APIs on the [APIs.io](https://apis.io/) network, including ➕ API for per-call plans API, 🚚 Couriers API, 📦 Trackers API, and 1 more. Tagged areas include Tracking, Logistics, Shipping, Couriers, and Parcel.
+overview: 'Ship24 publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including ➕ API for per-call plans API, 🚚 Couriers API, 📦 Trackers API, and 1 more. Tagged areas include Tracking, Logistics, Shipping, Couriers, and Parcel.
 
 
   The Ship24 catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Ship24''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, signup flow, status page, and 16 more developer resources.'
+  Ship24''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, signup flow, status page, and 18 more developer resources.'
+plans:
+- name: Ship24 Plans Pricing
+  plan_count: 4
+  slug: ship24-plans-pricing
 random_paper: 10
+rate_limits:
+- limit_count: 11
+  name: Ship24 Rate Limits
+  slug: ship24-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Ship24 API Rules
+  name: Ship24 — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -245,7 +272,8 @@ rules:
     info: 2
     warn: 3
   slug: ship24-jsonschema-spectral-rules
-- effective_rule_count: 50
+- authorship: unmarked
+  effective_rule_count: 50
   extends:
   - spectral:oas
   name: Ship24 API Rules
@@ -257,24 +285,24 @@ rules:
     warn: 2
   slug: ship24-rules
 score:
-  band: thin
-  composite: 37.8
+  band: developing
+  composite: 40.4
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 63.0
+    artifact_dirs: 20
+    catalog_earned: 69.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 52.0
+    catalog_gap: 46.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 27.6
+    access_clarity: 35.5
     contract_governance: 27.3
     contract_quality: 61.1
     developer_ergonomics: 27.9
     discoverability: 66.1
-    operational_transparency: 2.6
-  previous_composite: 37.8
+    operational_transparency: 10.5
+  previous_composite: 48.7
   provenance:
     agentic_access: derived
     contracts:
@@ -288,9 +316,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 11.1

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 12
 apis:
 - description: DataRobot's public REST API (v2) for projects, modeling, predictions, deployments, MLOps monitoring, governance, and agentic workflows. Personal API keys are sent as bearer tokens against regional bas
@@ -96,6 +96,10 @@ apis:
   slug: datarobot-uv-api
 artifact_total: 24
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.datarobot.com/blog/feed/
 - group: design
   href: https://raw.githubusercontent.com/api-evangelist/datarobot/refs/heads/main/rules/datarobot-rules.yml
   title: ''
@@ -306,20 +310,21 @@ jsonld:
   property_count: 13
   slug: datarobot-context
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: DataRobot
 nav: Providers
 network: true
-overview: 'DataRobot publishes 12 APIs on the [APIs.io](https://apis.io/) network, including DataRobot API, Datarobot Oss API, Homebrew API, and 9 more. Tagged areas include Company, Artificial Intelligence, Machine Learning, MLOps, and Data Science.
+overview: 'DataRobot is listed with 12 APIs on the [APIs.io](https://apis.io/) network, including DataRobot API, Datarobot Oss API, Homebrew API, and 9 more. Tagged areas include Company, Artificial Intelligence, Machine Learning, MLOps, and Data Science.
 
 
   The DataRobot catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  DataRobot''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 31 more developer resources.'
+  DataRobot''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 32 more developer resources.'
 random_paper: 14
 rules:
-- effective_rule_count: 50
+- authorship: generated
+  effective_rule_count: 50
   extends:
   - spectral:oas
   name: DataRobot API Rules
@@ -337,15 +342,15 @@ scopes:
   summary_line: 3 scopes
 score:
   band: developing
-  composite: 47.6
+  composite: 47.3
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 26
     catalog_earned: 65.8
     catalog_earned_first_party: 0.0
     catalog_gap: 49.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 11.6
+  delta: -12.7
   facets:
     access_clarity: 39.5
     contract_governance: 35.6
@@ -353,7 +358,7 @@ score:
     developer_ergonomics: 66.7
     discoverability: 78.3
     operational_transparency: 42.1
-  previous_composite: 36.0
+  previous_composite: 60.0
   provenance:
     conformance: first-party
     contracts:
@@ -364,13 +369,13 @@ score:
     mcp: first-party
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 36.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: rising
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

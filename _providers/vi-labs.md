@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: An OAuth-protected Model Context Protocol endpoint served from the vi.co host and advertised through RFC 9728 protected resource metadata. It is the WordPress MCP adapter running on the Vi Labs corpor
@@ -158,7 +158,7 @@ modified: '2026-09-02'
 name: Vi Labs
 nav: Providers
 network: true
-overview: 'Vi Labs publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Health, Healthcare, and Life Sciences.
+overview: 'Vi Labs is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Health, Healthcare, and Life Sciences.
 
 
   Vi Labs'' developer surface includes engineering blog, YouTube channel, authentication, and 22 more developer resources.'
@@ -180,7 +180,7 @@ score:
   band: emerging
   composite: 23.6
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -211,13 +211,14 @@ score:
     regime: Health
     regime_id: health
     score: 34.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/vi-labs/refs/heads/main/screenshots/vi-labs-2026-10-11T132925.png
 security:
 - kind: authentication
   name: Vi Labs Authentication

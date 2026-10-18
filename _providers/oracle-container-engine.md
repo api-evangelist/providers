@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -102,6 +102,21 @@ collections:
   name: Oracle Container Engine for Kubernetes (OKE) API
   slug: open-oracle-container-engine
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-container-engine/refs/heads/main/plans/oracle-container-engine-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/oracle-container-engine-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-container-engine/refs/heads/main/rate-limits/oracle-container-engine-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/oracle-container-engine-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-container-engine/refs/heads/main/finops/oracle-container-engine-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/oracle-container-engine-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/oracle-container-engine/refs/heads/main/capabilities/oracle-container-engine-capability-edges.yml
   title: ''
@@ -161,19 +176,23 @@ common:
 created: '2026-03-26'
 description: Oracle Container Engine for Kubernetes (OKE) is a managed Kubernetes service that simplifies the deployment, management, and scaling of containerized applications on Oracle Cloud Infrastructure with built-in security, high availability, and integration with OCI services.
 finops:
-- name: Oracle Container Engine Finops
+- has_sources: false
+  method: generated
+  name: Oracle Container Engine Finops
+  primary_unit: ''
   service_category: API
   slug: oracle-container-engine-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/oracle-container-engine.png
 layout: provider
 modified: '2026-08-21'
 name: Oracle Container Engine for Kubernetes
 nav: Providers
 network: true
-overview: 'Oracle Container Engine for Kubernetes publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Add-ons API, Clusters API, Credentials API, and 3 more. Tagged areas include Cloud, Containers, Kubernetes, Oracle, and Container Orchestration.
+overview: 'Oracle Container Engine for Kubernetes publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Add-ons API, Clusters API, Credentials API, and 3 more. Tagged areas include Cloud, Containers, Kubernetes, Oracle, and Container Orchestration.
 
 
-  Oracle Container Engine for Kubernetes'' developer surface includes authentication, documentation, getting-started guide, pricing, engineering blog, signup flow, and 7 more developer resources.'
+  Oracle Container Engine for Kubernetes'' developer surface includes authentication, documentation, getting-started guide, pricing, engineering blog, signup flow, and 10 more developer resources.'
 plans:
 - name: Oracle Container Engine Plans Pricing
   plan_count: 3
@@ -185,17 +204,17 @@ rate_limits:
   slug: oracle-container-engine-rate-limits
 score:
   band: thin
-  composite: 37.5
+  composite: 36.0
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 46.0
+    artifact_dirs: 12
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 69.0
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 39.5
+    access_clarity: 31.6
     contract_governance: 0.0
     contract_quality: 49.0
     developer_ergonomics: 42.9
@@ -215,8 +234,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

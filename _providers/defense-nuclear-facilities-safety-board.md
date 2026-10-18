@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: Public-facing website of the Defense Nuclear Facilities Safety Board providing organizational information, board members, hearings, and publications. The site does not expose a developer API.
@@ -48,6 +48,21 @@ apis:
   slug: defense-nuclear-facilities-safety-board-foia
 artifact_total: 7
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/defense-nuclear-facilities-safety-board/refs/heads/main/plans/defense-nuclear-facilities-safety-board-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/defense-nuclear-facilities-safety-board-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/defense-nuclear-facilities-safety-board/refs/heads/main/rate-limits/defense-nuclear-facilities-safety-board-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/defense-nuclear-facilities-safety-board-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/defense-nuclear-facilities-safety-board/refs/heads/main/finops/defense-nuclear-facilities-safety-board-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/defense-nuclear-facilities-safety-board-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/defense-nuclear-facilities-safety-board/refs/heads/main/security/defense-nuclear-facilities-safety-board-domain-security.yml
   title: ''
@@ -84,19 +99,23 @@ common:
 created: '2024-12-03'
 description: The Defense Nuclear Facilities Safety Board (DNFSB) is an independent organization within the executive branch of the United States Government chartered to provide recommendations and advice to the President and the Secretary of Energy on public health and safety issues at Department of Energy defense nuclear facilities. The DNFSB publishes recommendations, letters, technical reports, weekly site-representative reports, and rulemaking notices through its public website and FOIA reading room. The agency does not publish a developer-oriented API; programmatic users rely on document downloads, RSS feeds, and Federal Register integrations.
 finops:
-- name: Defense Nuclear Facilities Safety Board Finops
+- has_sources: false
+  method: generated
+  name: Defense Nuclear Facilities Safety Board Finops
+  primary_unit: ''
   service_category: API
   slug: defense-nuclear-facilities-safety-board-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/defense-nuclear-facilities-safety-board.png
 layout: provider
 modified: '2026-04-28'
 name: Defense Nuclear Facilities Safety Board
 nav: Providers
 network: true
-overview: 'Defense Nuclear Facilities Safety Board publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Defense, DNFSB, Energy, Federal Government, and Health.
+overview: 'Defense Nuclear Facilities Safety Board is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Defense, DNFSB, Energy, Federal Government, and Health.
 
 
-  Defense Nuclear Facilities Safety Board''s developer surface includes documentation, product news, and 6 more developer resources.'
+  Defense Nuclear Facilities Safety Board''s developer surface includes documentation, product news, and 9 more developer resources.'
 plans:
 - name: Defense Nuclear Facilities Safety Board Plans Pricing
   plan_count: 3
@@ -108,17 +127,17 @@ rate_limits:
   slug: defense-nuclear-facilities-safety-board-rate-limits
 score:
   band: emerging
-  composite: 13.8
+  composite: 12.2
   coverage:
     artifact_dirs: 6
-    catalog_earned: 44.0
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 71.0
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 26.3
+    access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 9.5
@@ -136,8 +155,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 8.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

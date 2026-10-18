@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 4
 apis:
 - description: Cloud-based request/response REST API delivering real-time and delayed Level 1/Level 2 quotes, trades, historical OHLCV and tick data, full option chains with Greeks, fundamentals, earnings, news from
@@ -49,6 +49,10 @@ apis:
   slug: quotestream-connect-for-developers
 artifact_total: 6
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.quotemedia.com/?feed=rss2
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/quotemedia/refs/heads/main/security/quotemedia-domain-security.yml
   title: ''
@@ -139,14 +143,14 @@ created: '2026-07-21'
 description: QuoteMedia, Inc. is an independent, publicly traded (OTC QMCI) financial market data and financial technology company headquartered in Fountain Hills, Arizona, founded in 1999. It licenses real-time, delayed, and historical market data - equities, options, futures, commodities, currencies, mutual funds, ETFs, and indices - plus fundamentals, news, SEC/SEDAR filings, corporate actions, earnings, fund research, and ESG data to brokerages, banks, media, and investor relations customers. Data is delivered through the QuoteMedia OnDemand (QMOD) cloud REST API in JSON, XML, and CSV, an enterprise tick-by-tick Streaming Data Feed with WebSocket, Java, and .NET APIs, and bulk file services over SFTP. Access is entitlement-managed via webmaster IDs provisioned through sales, with a Quotestream Connect self-service package for individual developers; detailed API reference documentation lives behind a login on the company's Freshdesk knowledge base.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/quotemedia.png
 layout: provider
-modified: '2026-07-22'
+modified: '2026-10-06'
 name: QuoteMedia
 nav: Providers
 network: true
-overview: 'QuoteMedia publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Finance, Market Data, Stocks, Options, and Real-Time.
+overview: 'QuoteMedia is listed with 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Finance, Market Data, Stocks, Options, and Real-Time.
 
 
-  QuoteMedia''s developer surface includes authentication, developer portal, documentation, support, engineering blog, and 14 more developer resources.'
+  QuoteMedia''s developer surface includes authentication, developer portal, documentation, support, engineering blog, and 15 more developer resources.'
 random_paper: 14
 score:
   band: emerging
@@ -180,8 +184,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 18.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

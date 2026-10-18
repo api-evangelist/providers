@@ -35,10 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 4
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.humanlongevity.com/press/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/human-longevity/refs/heads/main/security/human-longevity-domain-security.yml
   title: ''
@@ -132,14 +136,14 @@ created: '2026-08-22'
 description: Human Longevity, Inc. (HLI) is a San Diego based precision-health company founded in 2013 by Dr. J. Craig Venter, the scientist who led the first sequencing of the human genome. HLI operates clinics in San Diego and South San Francisco that deliver an executive health assessment combining whole-body and brain MRI, coronary CT angiography with FDA-cleared Cleerly AI plaque analysis, clinical-grade whole genome sequencing of all 6.4 billion base pairs in a CLIA-certified lab, and 120+ blood biomarkers, all interpreted by the company's proprietary Longevity AI models against a reference set of more than 50,000 sequenced genomes. Results are delivered to clients through the HLI mobile app and an Auth0-protected client portal. HLI publishes no public developer program, API reference, or machine-readable API contract; its software is shipped only as an end-user product to clinic clients.
 image: https://www.humanlongevity.com/logo-mark-black.png
 layout: provider
-modified: '2026-08-22'
+modified: '2026-10-06'
 name: Human Longevity
 nav: Providers
 network: true
 overview: 'Human Longevity is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Healthcare, Genomics, and Precision Medicine.
 
 
-  Human Longevity''s developer surface includes support, authentication, pricing, and 13 more developer resources.'
+  Human Longevity''s developer surface includes engineering blog, support, authentication, pricing, and 13 more developer resources.'
 plans:
 - name: Human Longevity Plans Pricing
   plan_count: 0
@@ -152,20 +156,20 @@ scopes:
   summary_line: 14 scopes
 score:
   band: emerging
-  composite: 24.6
+  composite: 25.1
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 46.1
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 16.7
+    developer_ergonomics: 19.0
     discoverability: 55.4
     operational_transparency: 2.6
   previous_composite: 24.6
@@ -181,8 +185,8 @@ score:
     regime: Health
     regime_id: health
     score: 39.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-04'
+  score: 20.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -62,6 +62,21 @@ collections:
   name: Federal Motor Carrier Safety Administration QCMobile API
   slug: open-federal-motor-carrier-safety-administration
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/federal-motor-carrier-safety-administration/refs/heads/main/plans/federal-motor-carrier-safety-administration-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/federal-motor-carrier-safety-administration-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/federal-motor-carrier-safety-administration/refs/heads/main/rate-limits/federal-motor-carrier-safety-administration-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/federal-motor-carrier-safety-administration-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/federal-motor-carrier-safety-administration/refs/heads/main/finops/federal-motor-carrier-safety-administration-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/federal-motor-carrier-safety-administration-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/federal-motor-carrier-safety-administration/refs/heads/main/agentic-access/federal-motor-carrier-safety-administration-agentic-access.yml
   title: ''
@@ -92,19 +107,23 @@ common:
 created: '2024-12-03'
 description: As the lead federal government agency responsible for regulating and providing safety oversight of commercial motor vehicles (CMVs), FMCSA's mission is to reduce crashes, injuries, and fatalities involving large trucks and buses.
 finops:
-- name: Federal Motor Carrier Safety Administration Finops
+- has_sources: false
+  method: generated
+  name: Federal Motor Carrier Safety Administration Finops
+  primary_unit: ''
   service_category: API
   slug: federal-motor-carrier-safety-administration-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/federal-motor-carrier-safety-administration.png
 layout: provider
 modified: '2026-05-19'
 name: Federal Motor Carrier Safety Administration
 nav: Providers
 network: true
-overview: 'Federal Motor Carrier Safety Administration publishes 1 API on the [APIs.io](https://apis.io/) network: Carriers API. Tagged areas include Federal Government, Safety, and Transportation.
+overview: 'Federal Motor Carrier Safety Administration publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Carriers API. Tagged areas include Federal Government, Safety, and Transportation.
 
 
-  Federal Motor Carrier Safety Administration''s developer surface includes authentication, documentation, and 4 more developer resources.'
+  Federal Motor Carrier Safety Administration''s developer surface includes authentication, documentation, and 7 more developer resources.'
 plans:
 - name: Federal Motor Carrier Safety Administration Plans Pricing
   plan_count: 3
@@ -116,17 +135,17 @@ rate_limits:
   slug: federal-motor-carrier-safety-administration-rate-limits
 score:
   band: emerging
-  composite: 24.5
+  composite: 22.9
   coverage:
     artifact_dirs: 10
-    catalog_earned: 41.0
+    catalog_earned: 38.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 42.2
     developer_ergonomics: 21.4
@@ -151,8 +170,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

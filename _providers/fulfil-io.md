@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.9
-  scored_at: '2026-10-04'
+  score: 20.1
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -133,6 +133,10 @@ collections:
   name: Fulfil REST API (v2)
   slug: open-fulfil-io
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.fulfil.io/rss/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/fulfil-io/refs/heads/main/capabilities/fulfil-io-capability-edges.yml
   title: ''
@@ -202,19 +206,23 @@ common:
 created: '2026-07-04'
 description: Fulfil is a cloud ERP and operations platform for e-commerce, DTC, and wholesale merchants - unifying order management, inventory, warehouse operations (WMS), manufacturing and production (MRP), purchasing, and accounting in one system, purpose-built for Shopify Plus and high-volume DTC brands. The Fulfil REST API (v2) exposes every ERP model through a single uniform model interface at https://{merchant_id}.fulfil.io/api/v2, advertising 6,000+ endpoints with full create/read/update/delete access, action calls, reports, and wizards across all models. Authentication is via OAuth 2.0 for public apps or personal access tokens (X-API-KEY / HTTP Basic) for private integrations, and outbound webhooks (with a Google Pub/Sub option) deliver real-time ERP events such as order and shipment changes.
 finops:
-- name: Fulfil Io Finops
+- has_sources: true
+  method: generated
+  name: Fulfil Io Finops
+  primary_unit: ''
   service_category: Business Applications (ERP)
   slug: fulfil-io-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fulfil-io.png
 layout: provider
-modified: '2026-07-04'
+modified: '2026-10-06'
 name: Fulfil
 nav: Providers
 network: true
-overview: 'Fulfil publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Customers API, Inventory & Stock API, and 7 more. Tagged areas include ERP, E-Commerce, Order Management, Inventory, and Warehouse Management.
+overview: 'Fulfil publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authentication API, Customers API, Inventory & Stock API, and 7 more. Tagged areas include ERP, E-Commerce, Order Management, Inventory, and Warehouse Management.
 
 
-  Fulfil''s developer surface includes authentication, documentation, and 12 more developer resources.'
+  Fulfil''s developer surface includes authentication, documentation, and 13 more developer resources.'
 plans:
 - name: Fulfil Io Plans Pricing
   plan_count: 4
@@ -231,22 +239,22 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: thin
-  composite: 38.5
+  composite: 30.2
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 61.6
+    artifact_dirs: 14
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.4
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 44.2
+    access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 47.8
     developer_ergonomics: 26.2
     discoverability: 66.1
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   previous_composite: 38.5
   provenance:
     agentic_access: derived
@@ -261,9 +269,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

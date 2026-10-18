@@ -28,20 +28,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 11
-  human_in_the_loop: 2
+- acting_count: 7
+  human_in_the_loop: 1
   name: Spring Security Agentic Access
-  operation_count: 23
+  operation_count: 15
   slug: spring-security-agentic-access
-  summary_line: 23 operations · 11 acting · 2 human-in-the-loop
+  summary_line: 15 operations · 7 acting · 1 human-in-the-loop
 api_count: 2
 apis:
 - description: Core security features for authentication and authorization. Provides UserDetailsService, password encoding, security context management, method security, and HTTP security configuration.
@@ -132,6 +132,21 @@ collections:
   name: Spring Server Authorization Token API
   slug: open-spring-security-token-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/spring-security/refs/heads/main/plans/spring-security-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/spring-security-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/spring-security/refs/heads/main/rate-limits/spring-security-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/spring-security-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/spring-security/refs/heads/main/finops/spring-security-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/spring-security-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/spring-security/refs/heads/main/capabilities/spring-security-capability-edges.yml
   title: ''
@@ -212,9 +227,13 @@ examples:
   name: Spring Security Issue Token Example
   slug: spring-security-issue-token-example
 finops:
-- name: Spring Security Finops
+- has_sources: true
+  method: generated
+  name: Spring Security Finops
+  primary_unit: ''
   service_category: Identity
   slug: spring-security-finops
+  template: false
 image: https://spring.io/img/projects/spring-security.svg
 json_schemas:
 - name: Spring Security OAuth2 Token
@@ -234,13 +253,13 @@ modified: '2026-09-16'
 name: Spring Security
 nav: Providers
 network: true
-overview: 'Spring Security publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Authorization API, Client Management API, Device API, and 9 more. Tagged areas include Authentication, Authorization, Java, JWT, and OpenID Connect.
+overview: 'Spring Security publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authorization API, Client Management API, Device API, and 9 more. Tagged areas include Authentication, Authorization, Java, JWT, and OpenID Connect.
 
 
   The Spring Security catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Spring Security''s developer surface includes authentication, engineering blog, changelog, and 14 more developer resources.'
+  Spring Security''s developer surface includes authentication, engineering blog, changelog, and 17 more developer resources.'
 plans:
 - name: Spring Security Plans Pricing
   plan_count: 1
@@ -251,9 +270,10 @@ rate_limits:
   name: Spring Security Rate Limits
   slug: spring-security-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Spring Security API Rules
+  name: Spring Security — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -261,7 +281,8 @@ rules:
     info: 1
     warn: 4
   slug: spring-security-jsonschema-spectral-rules
-- effective_rule_count: 48
+- authorship: unmarked
+  effective_rule_count: 48
   extends:
   - spectral:oas
   name: Spring Security API Rules
@@ -274,17 +295,17 @@ rules:
   slug: spring-security-rules
 score:
   band: thin
-  composite: 37.8
+  composite: 36.4
   coverage:
     artifact_dirs: 18
-    catalog_earned: 54.5
+    catalog_earned: 51.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 60.5
+    catalog_gap: 63.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.4
   facets:
-    access_clarity: 13.2
+    access_clarity: 5.3
     contract_governance: 13.6
     contract_quality: 46.8
     developer_ergonomics: 42.9
@@ -307,8 +328,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

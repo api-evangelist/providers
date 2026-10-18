@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.8
-  scored_at: '2026-10-04'
+  score: 22.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 1
@@ -196,6 +196,21 @@ collections:
   name: Oracle REST Data Services (ORDS) REST API
   slug: open-ords-rest-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-apex/refs/heads/main/plans/oracle-apex-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/oracle-apex-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-apex/refs/heads/main/rate-limits/oracle-apex-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/oracle-apex-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-apex/refs/heads/main/finops/oracle-apex-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/oracle-apex-finops.yml
 - group: company
   title: ''
   type: Website
@@ -296,9 +311,13 @@ features:
 - description: Seamless deployment and management on Oracle Cloud Infrastructure with automated provisioning.
   name: Oracle Cloud Integration
 finops:
-- name: Oracle Apex Finops
+- has_sources: true
+  method: generated
+  name: Oracle Apex Finops
+  primary_unit: ''
   service_category: Application Development / Low-Code
   slug: oracle-apex-finops
+  template: false
 image: /assets/icons/oracle-apex.png
 integrations:
 - description: Native integration with Oracle Database for data access, PL/SQL execution, and database object management.
@@ -365,13 +384,13 @@ modified: '2026-09-16'
 name: Oracle APEX
 nav: Providers
 network: true
-overview: 'Oracle APEX publishes 21 APIs on the [APIs.io](https://apis.io/) network, including AutoREST API, Handlers API, Modules API, and 18 more. Tagged areas include APEX, Cloud, Database, Development Platform, and Enterprise.
+overview: 'Oracle APEX publishes 21 API contracts indexed on the [APIs.io](https://apis.io/) network, including AutoREST API, Handlers API, Modules API, and 18 more. Tagged areas include APEX, Cloud, Database, Development Platform, and Enterprise.
 
 
   The Oracle APEX catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Oracle APEX''s developer surface includes authentication, documentation, engineering blog, YouTube channel, pricing, getting-started guide, release notes, and 13 more developer resources.'
+  Oracle APEX''s developer surface includes authentication, documentation, engineering blog, YouTube channel, pricing, getting-started guide, release notes, and 16 more developer resources.'
 plans:
 - name: Oracle Apex Plans Pricing
   plan_count: 3
@@ -382,9 +401,10 @@ rate_limits:
   name: Oracle Apex Rate Limits
   slug: oracle-apex-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: Oracle APEX API Rules
+  name: Oracle APEX — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -399,17 +419,17 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 45.2
+  composite: 43.3
   coverage:
     artifact_dirs: 19
-    catalog_earned: 55.3
+    catalog_earned: 52.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 59.8
+    catalog_gap: 62.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.9
   facets:
-    access_clarity: 60.5
+    access_clarity: 52.6
     contract_governance: 9.8
     contract_quality: 56.7
     developer_ergonomics: 34.5
@@ -425,12 +445,12 @@ score:
       total: 10
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 31.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

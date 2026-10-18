@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.2
-  scored_at: '2026-10-04'
+  score: 23.3
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -219,9 +219,13 @@ examples:
   name: Routific Solve Vrp Long Example
   slug: routific-solve-vrp-long-example
 finops:
-- name: Routific Finops
+- has_sources: false
+  method: generated
+  name: Routific Finops
+  primary_unit: ''
   service_category: ''
   slug: routific-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/routific.png
 json_schemas:
 - name: Routific Optimization Job
@@ -250,7 +254,7 @@ modified: '2026-05-25'
 name: Routific
 nav: Providers
 network: true
-overview: 'Routific publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Fix API, Jobs API, PDP API, and 1 more. Tagged areas include Route Optimization, VRP, Pickup and Delivery, Logistics, and Last Mile Delivery.
+overview: 'Routific publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Fix API, Jobs API, PDP API, and 1 more. Tagged areas include Route Optimization, VRP, Pickup and Delivery, Logistics, and Last Mile Delivery.
 
 
   The Routific catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -267,9 +271,10 @@ rate_limits:
   name: Routific Rate Limits
   slug: routific-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Routific API Rules
+  name: Routific — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -277,7 +282,8 @@ rules:
     info: 1
     warn: 4
   slug: routific-jsonschema-spectral-rules
-- effective_rule_count: 45
+- authorship: unmarked
+  effective_rule_count: 45
   extends:
   - spectral:oas
   name: Routific API Rules
@@ -290,22 +296,22 @@ rules:
   slug: routific-rules
 score:
   band: developing
-  composite: 51.1
+  composite: 43.7
   coverage:
     artifact_dirs: 20
-    catalog_earned: 84.0
+    catalog_earned: 68.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 31.0
+    catalog_gap: 47.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.4
   facets:
-    access_clarity: 60.0
+    access_clarity: 31.6
     contract_governance: 27.3
     contract_quality: 67.7
     developer_ergonomics: 34.5
     discoverability: 73.2
-    operational_transparency: 40.0
+    operational_transparency: 26.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -327,9 +333,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

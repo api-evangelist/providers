@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.8
-  scored_at: '2026-10-04'
+  score: 22.3
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 11
   slug: sushiswap-agentic-access
   summary_line: 11 operations · 2 acting
-api_count: 2
+api_count: 4
 apis:
 - baseURL: https://api.sushi.com/price/v1
   baseurl_source: declared
@@ -165,21 +165,6 @@ common:
   title: ''
   type: Twitter
   url: https://twitter.com/sushiswap
-- group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sushiswap/refs/heads/main/rate-limits/rate-limits.md
-  title: ''
-  type: RateLimits
-  url: /rate-limits/rate-limits.md
-- group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sushiswap/refs/heads/main/plans/plans.md
-  title: ''
-  type: Plans
-  url: /plans/plans.md
-- group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sushiswap/refs/heads/main/finops/finops.md
-  title: ''
-  type: FinOps
-  url: /finops/finops.md
 created: '2026-06-13'
 description: SushiSwap is a multi-chain decentralized exchange (DEX) protocol offering REST APIs for accessing liquidity pools, token prices, swap quotes, trading routes, and exchange analytics across 30+ blockchain networks. The Sushi API suite enables developers to integrate token pricing, generate swap quotes, and execute on-chain transactions programmatically via a unified base URL with per-chain routing.
 graphqls:
@@ -253,18 +238,19 @@ modified: '2026-06-13'
 name: SushiSwap
 nav: Providers
 network: true
-overview: 'SushiSwap publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Deposit API, Liquidity Providers API, Pool API, and 4 more. Tagged areas include DeFi, Decentralized Exchange, DEX, Cryptocurrency, and Web3.
+overview: 'SushiSwap publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Deposit API, Liquidity Providers API, Pool API, and 4 more. Tagged areas include DeFi, Decentralized Exchange, Cryptocurrency, Web3, and Blockchain.
 
 
   The SushiSwap catalog on APIs.io includes 2 JSON-LD contexts and 1 Spectral governance ruleset.
 
 
-  SushiSwap''s developer surface includes authentication, developer portal, documentation, engineering blog, and 13 more developer resources.'
+  SushiSwap''s developer surface includes authentication, developer portal, documentation, engineering blog, and 10 more developer resources.'
 random_paper: 9
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: SushiSwap API Rules
+  name: SushiSwap — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -274,21 +260,21 @@ rules:
   slug: sushiswap-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 29.1
+  composite: 29.7
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 48.3
+    artifact_dirs: 18
+    catalog_earned: 51.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 66.8
+    catalog_gap: 63.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 0.0
     contract_governance: 9.8
     contract_quality: 56.6
     developer_ergonomics: 38.1
-    discoverability: 73.2
+    discoverability: 78.6
     operational_transparency: 2.6
   previous_composite: 29.1
   provenance:
@@ -304,8 +290,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 15.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -324,7 +310,6 @@ slug: sushiswap
 tags:
 - DeFi
 - Decentralized Exchange
-- DEX
 - Cryptocurrency
 - Web3
 - Blockchain

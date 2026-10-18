@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -94,6 +94,11 @@ collections:
   name: Adaptive Audit Logs Users API
   slug: open-adaptive-security-users-api
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/adaptive-security/refs/heads/main/rate-limits/adaptive-security-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/adaptive-security-rate-limits.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/adaptive-security/refs/heads/main/capabilities/adaptive-security-capability-edges.yml
   title: ''
@@ -260,13 +265,13 @@ modified: '2026-07-17'
 name: Adaptive Security
 nav: Providers
 network: true
-overview: 'Adaptive Security publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Audit Logs API, Groups API, Phishing API, and 2 more. Tagged areas include Company, Security, Cybersecurity, Security Awareness Training, and Phishing Simulation.
+overview: 'Adaptive Security publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Audit Logs API, Groups API, Phishing API, and 2 more. Tagged areas include Company, Security, Cybersecurity, Security Awareness Training, and Phishing Simulation.
 
 
   The Adaptive Security catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Adaptive Security''s developer surface includes changelog, documentation, API reference, getting-started guide, engineering blog, support, pricing, and 28 more developer resources.'
+  Adaptive Security''s developer surface includes changelog, documentation, API reference, getting-started guide, engineering blog, support, pricing, and 29 more developer resources.'
 plans:
 - name: Adaptive Security Plans Pricing
   plan_count: 0
@@ -280,7 +285,7 @@ score:
   band: developing
   composite: 44.5
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -317,8 +322,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

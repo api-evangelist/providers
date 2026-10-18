@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: http://localhost:1234
@@ -75,6 +75,10 @@ collections:
   name: LM Studio Local Server Anthropic Compatibility OpenAI Compatibility API
   slug: open-lm-studio-openai-compatibility-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://lmstudio.ai/rss.xml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/lm-studio/refs/heads/main/overlays/lm-studio-server-overlay.yaml
   title: ''
@@ -198,26 +202,26 @@ created: '2026-07-17'
 description: 'LM Studio is a desktop application for discovering, downloading, and running large language models (Llama, DeepSeek, Phi, Qwen, gpt-oss, and others) locally on macOS, Windows, and Linux. It runs GGUF and MLX models via llama.cpp and Apple''s MLX engine, and ships a local HTTP server that developers can drive from their own apps: a native LM Studio REST API (beta) under /api/v1 with generation stats, model load/unload/download and MCP-via-API, an OpenAI-compatible surface under /v1 (chat/completions, completions, embeddings, models, responses), and an Anthropic-compatible /v1/messages endpoint. It is complemented by Python (lmstudio) and TypeScript (@lmstudio/sdk) SDKs, the MIT-licensed lms command-line tool, headless/daemon operation, LM Link cross-device routing, and MCP host support. Backed by Matrix Partners.'
 image: https://files.lmstudio.ai/bionic/lm-studio-bionic-og.jpg
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: LM Studio
 nav: Providers
 network: true
-overview: 'LM Studio publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Anthropic Compatibility API, Chat API, Models API, and 1 more. Tagged areas include Company, Artificial Intelligence, Local LLM, Machine Learning, and Inference.
+overview: 'LM Studio publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Anthropic Compatibility API, Chat API, Models API, and 1 more. Tagged areas include Company, Artificial Intelligence, Local LLM, Machine Learning, and Inference.
 
 
-  LM Studio''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, CLI, authentication, and 19 more developer resources.'
+  LM Studio''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, CLI, authentication, and 20 more developer resources.'
 random_paper: 2
 score:
   band: thin
-  composite: 28.4
+  composite: 28.5
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
@@ -241,8 +245,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 28.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -260,7 +264,7 @@ security:
 - kind: vulnerability-disclosure
   name: Lm Studio Vulnerability Disclosure
   slug: lm-studio-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 slug: lm-studio
 tags:
 - Company

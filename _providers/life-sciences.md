@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -196,15 +196,16 @@ modified: '2026-05-23'
 name: Life Sciences
 nav: Providers
 network: true
-overview: 'Life Sciences publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Stats API, Studies API, Version API, and 19 more. Tagged areas include Life Sciences, Biotechnology, Pharma, Healthcare, and Clinical Trials.
+overview: 'Life Sciences publishes 22 API contracts indexed on the [APIs.io](https://apis.io/) network, including Stats API, Studies API, Version API, and 19 more. Tagged areas include Life Sciences, Biotechnology, Pharma, Healthcare, and Clinical Trials.
 
 
   The Life Sciences catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.'
 random_paper: 8
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Life Sciences API Rules
+  name: Life Sciences — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -216,7 +217,7 @@ score:
   band: emerging
   composite: 26.0
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 56.7
     catalog_earned_first_party: 0.0
     catalog_gap: 43.4
@@ -244,8 +245,8 @@ score:
     regime: Health
     regime_id: health
     score: 8.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -267,7 +268,7 @@ tags:
 - Drug Information
 - Genomics
 - Bioinformatics
-- EHR
+- Electronic Health Records
 - FHIR
 - Lab Informatics
 ---

@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.6
-  scored_at: '2026-10-04'
+  score: 28.7
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 5
+- acting_count: 2
   human_in_the_loop: 0
   name: Betsolutions Agentic Access
   operation_count: 6
   slug: betsolutions-agentic-access
-  summary_line: 6 operations · 5 acting
+  summary_line: 6 operations · 2 acting
 api_count: 7
 apis:
 - description: Player information and data retrieval endpoints including player profile details, rake data by date range, and game list retrieval with product metadata.
@@ -82,6 +82,21 @@ collections:
   name: BetSolutions Wallet Player Transfer Wallet API
   slug: open-betsolutions-transfer-wallet-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/betsolutions/refs/heads/main/plans/betsolutions-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/betsolutions-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/betsolutions/refs/heads/main/rate-limits/betsolutions-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/betsolutions-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/betsolutions/refs/heads/main/finops/betsolutions-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/betsolutions-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/betsolutions/refs/heads/main/agentic-access/betsolutions-agentic-access.yml
   title: ''
@@ -216,9 +231,13 @@ features:
 - description: ISO 4217 currency codes for international payment processing.
   name: Multi-Currency Support
 finops:
-- name: Betsolutions Finops
+- has_sources: true
+  method: generated
+  name: Betsolutions Finops
+  primary_unit: ''
   service_category: iGaming Platform / Casino APIs
   slug: betsolutions-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/betsolutions.png
 integrations:
 - description: Third-party sportsbook integration providing sports betting functionality for casino operators.
@@ -352,13 +371,13 @@ modified: '2026-05-19'
 name: BetSolutions
 nav: Providers
 network: true
-overview: 'BetSolutions publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Player API, Transfer Wallet API, and 5 more. Tagged areas include Betting, Casinos, Gaming, Gambling, and Slots.
+overview: 'BetSolutions is listed with 7 APIs on the [APIs.io](https://apis.io/) network, including Player API, Transfer Wallet API, and 5 more. Tagged areas include Betting, Casinos, Gaming, Gambling, and Slots.
 
 
   The BetSolutions catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  BetSolutions'' developer surface includes authentication, documentation, and 10 more developer resources.'
+  BetSolutions'' developer surface includes authentication, documentation, and 13 more developer resources.'
 plans:
 - name: Betsolutions Plans Pricing
   plan_count: 1
@@ -369,9 +388,10 @@ rate_limits:
   name: Betsolutions Rate Limits
   slug: betsolutions-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: BetSolutions API Rules
+  name: BetSolutions — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -379,7 +399,8 @@ rules:
     info: 2
     warn: 3
   slug: betsolutions-jsonschema-spectral-rules
-- effective_rule_count: 74
+- authorship: generated
+  effective_rule_count: 74
   extends:
   - spectral:oas
   name: BetSolutions API Rules
@@ -392,17 +413,17 @@ rules:
   slug: betsolutions-spectral-rules
 score:
   band: emerging
-  composite: 24.0
+  composite: 22.5
   coverage:
     artifact_dirs: 16
-    catalog_earned: 62.0
+    catalog_earned: 59.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.0
+    catalog_gap: 56.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 13.2
+    access_clarity: 5.3
     contract_governance: 27.3
     contract_quality: 22.4
     developer_ergonomics: 28.6
@@ -422,8 +443,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

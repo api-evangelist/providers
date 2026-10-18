@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -73,6 +73,21 @@ collections:
   name: Amazon Lookout for Vision Projects Tags API
   slug: open-amazon-lookout-for-vision-tags-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-lookout-for-vision/refs/heads/main/plans/amazon-lookout-for-vision-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/amazon-lookout-for-vision-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-lookout-for-vision/refs/heads/main/rate-limits/amazon-lookout-for-vision-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/amazon-lookout-for-vision-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-lookout-for-vision/refs/heads/main/finops/amazon-lookout-for-vision-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/amazon-lookout-for-vision-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/amazon-lookout-for-vision/refs/heads/main/capabilities/amazon-lookout-for-vision-capability-edges.yml
   title: ''
@@ -577,9 +592,13 @@ features:
 - description: Package trained models for deployment to AWS IoT Greengrass edge devices.
   name: Model Packaging Jobs
 finops:
-- name: Amazon Lookout For Vision Finops
+- has_sources: false
+  method: generated
+  name: Amazon Lookout For Vision Finops
+  primary_unit: ''
   service_category: API
   slug: amazon-lookout-for-vision-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amazon-lookout-for-vision.png
 json_schemas:
 - name: AnomalyClassFilter
@@ -1379,13 +1398,13 @@ modified: '2026-09-16'
 name: Amazon Lookout for Vision
 nav: Providers
 network: true
-overview: 'Amazon Lookout for Vision publishes 2 APIs on the [APIs.io](https://apis.io/) network: Projects API and Tags API. Tagged areas include Computer Vision, Machine Learning, Manufacturing, Quality Inspection, and Anomaly Detection.
+overview: 'Amazon Lookout for Vision publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Projects API and Tags API. Tagged areas include Computer Vision, Machine Learning, Manufacturing, Quality Inspection, and Anomaly Detection.
 
 
   The Amazon Lookout for Vision catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Lookout for Vision''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 15 more developer resources.'
+  Amazon Lookout for Vision''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 18 more developer resources.'
 plans:
 - name: Amazon Lookout For Vision Plans Pricing
   plan_count: 3
@@ -1396,9 +1415,10 @@ rate_limits:
   name: Amazon Lookout For Vision Rate Limits
   slug: amazon-lookout-for-vision-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Amazon Lookout for Vision API Rules
+  name: Amazon Lookout for Vision — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1406,7 +1426,8 @@ rules:
     info: 1
     warn: 4
   slug: amazon-lookout-for-vision-jsonschema-spectral-rules
-- effective_rule_count: 63
+- authorship: generated
+  effective_rule_count: 63
   extends:
   - spectral:oas
   name: Amazon Lookout for Vision API Rules
@@ -1422,12 +1443,12 @@ score:
   composite: 0.0
   coverage:
     artifact_dirs: 19
-    catalog_earned: 66.0
+    catalog_earned: 63.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 49.0
+    catalog_gap: 52.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -47.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
@@ -1436,7 +1457,7 @@ score:
     discoverability: 0.0
     operational_transparency: 0.0
   lifecycle: defunct
-  previous_composite: 47.2
+  previous_composite: 0.0
   provenance:
     agentic_access: derived
     contracts:
@@ -1450,9 +1471,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: falling
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: flat
   upsert:
     applies: true
     score: 0.0

@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 5
+- acting_count: 4
   human_in_the_loop: 0
   name: Amazon Location Service Agentic Access
   operation_count: 8
   slug: amazon-location-service-agentic-access
-  summary_line: 8 operations · 5 acting
+  summary_line: 8 operations · 4 acting
 api_count: 1
 apis:
 - baseURL: https://geo.amazonaws.com
@@ -93,6 +93,21 @@ collections:
   name: Amazon Location Service API
   slug: open-amazon-location-service
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-location-service/refs/heads/main/plans/amazon-location-service-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/amazon-location-service-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-location-service/refs/heads/main/rate-limits/amazon-location-service-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/amazon-location-service-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-location-service/refs/heads/main/finops/amazon-location-service-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/amazon-location-service-finops.yml
 - group: company
   title: ''
   type: Website
@@ -268,9 +283,13 @@ features:
 - description: Data does not leave AWS infrastructure, keeping location data private and secure.
   name: Data Privacy
 finops:
-- name: Amazon Location Service Finops
+- has_sources: false
+  method: generated
+  name: Amazon Location Service Finops
+  primary_unit: ''
   service_category: API
   slug: amazon-location-service-finops
+  template: true
 image: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png
 integrations:
 - description: Authenticate map and location requests using Cognito identity pools.
@@ -310,13 +329,13 @@ modified: '2026-09-16'
 name: Amazon Location Service
 nav: Providers
 network: true
-overview: 'Amazon Location Service publishes 1 API on the [APIs.io](https://apis.io/) network: Maps API. Tagged areas include Geocoding, Geofencing, Location, Maps, and Routing.
+overview: 'Amazon Location Service publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Maps API. Tagged areas include Geocoding, Geofencing, Location, Maps, and Routing.
 
 
   The Amazon Location Service catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Location Service''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 27 more developer resources.'
+  Amazon Location Service''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 30 more developer resources.'
 plans:
 - name: Amazon Location Service Plans Pricing
   plan_count: 3
@@ -327,9 +346,10 @@ rate_limits:
   name: Amazon Location Service Rate Limits
   slug: amazon-location-service-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Amazon Location Service API Rules
+  name: Amazon Location Service — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -337,7 +357,8 @@ rules:
     info: 1
     warn: 4
   slug: amazon-location-service-jsonschema-spectral-rules
-- effective_rule_count: 65
+- authorship: generated
+  effective_rule_count: 65
   extends:
   - spectral:oas
   name: Amazon Location Service API Rules
@@ -350,17 +371,17 @@ rules:
   slug: amazon-location-service-spectral-rules
 score:
   band: strong
-  composite: 59.0
+  composite: 57.5
   coverage:
     artifact_dirs: 19
-    catalog_earned: 69.0
+    catalog_earned: 66.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 46.0
+    catalog_gap: 49.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 61.8
+    access_clarity: 53.9
     contract_governance: 27.3
     contract_quality: 57.9
     developer_ergonomics: 72.6
@@ -380,8 +401,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

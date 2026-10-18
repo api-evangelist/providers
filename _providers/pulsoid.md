@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.9
-  scored_at: '2026-10-04'
+  score: 20.1
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -117,6 +117,25 @@ collections:
   name: Pulsoid API
   slug: open-pulsoid
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/pulsoid/refs/heads/main/plans/pulsoid-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/pulsoid-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/pulsoid/refs/heads/main/rate-limits/pulsoid-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/pulsoid-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/pulsoid/refs/heads/main/finops/pulsoid-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/pulsoid-finops.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.pulsoid.net/blog-feed.xml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/pulsoid/refs/heads/main/agentic-access/pulsoid-agentic-access.yml
   title: ''
@@ -176,19 +195,23 @@ common:
 created: '2025-02-17'
 description: Pulsoid enables real-time heart rate data transmission from peripherals (BLE heart rate monitors, smartwatches, etc.) to clients. The Pulsoid API allows reading and writing real-time heart rate data, accessing statistics, and managing widgets and profile.
 finops:
-- name: Pulsoid Finops
+- has_sources: false
+  method: generated
+  name: Pulsoid Finops
+  primary_unit: ''
   service_category: API
   slug: pulsoid-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pulsoid.png
 layout: provider
-modified: '2026-05-19'
+modified: '2026-10-06'
 name: Pulsoid
 nav: Providers
 network: true
-overview: 'Pulsoid publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Features API, Geometry Dash API, Heart Rate API, and 5 more. Tagged areas include Heart Rate, Health, Wearables, Real-Time, and Streaming.
+overview: 'Pulsoid publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Features API, Geometry Dash API, Heart Rate API, and 5 more. Tagged areas include Heart Rate, Health, Wearables, Real-Time, and Streaming.
 
 
-  Pulsoid''s developer surface includes authentication, documentation, signup flow, and 10 more developer resources.'
+  Pulsoid''s developer surface includes authentication, documentation, signup flow, and 14 more developer resources.'
 plans:
 - name: Pulsoid Plans Pricing
   plan_count: 3
@@ -204,18 +227,18 @@ scopes:
   slug: pulsoid-scopes
   summary_line: 9 scopes · implicit/authorizationCode
 score:
-  band: thin
-  composite: 27.1
+  band: emerging
+  composite: 25.6
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 46.0
+    artifact_dirs: 13
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 69.0
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 22.4
+    access_clarity: 14.5
     contract_governance: 0.0
     contract_quality: 44.8
     developer_ergonomics: 9.5
@@ -235,8 +258,8 @@ score:
     regime: Health
     regime_id: health
     score: 22.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

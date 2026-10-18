@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'Public, anonymous Esri ArcGIS Server 12.0 REST services publishing the geography of the Farm Credit System: 55 ACA/FLCA institution headquarters (charter address, phone, county, CEO and chair surnames'
@@ -236,7 +236,7 @@ modified: '2026-09-07'
 name: Farm Credit Administration
 nav: Providers
 network: true
-overview: 'Farm Credit Administration publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Agriculture, Farms, Federal Government, Finance, and Regulations.
+overview: 'Farm Credit Administration is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Agriculture, Farms, Federal Government, Finance, and Regulations.
 
 
   Farm Credit Administration''s developer surface includes support, product news, YouTube channel, authentication, code examples, and 35 more developer resources.'
@@ -283,8 +283,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 26.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

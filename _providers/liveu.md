@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.liveu.tv/feed
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/liveu/refs/heads/main/security/liveu-trust-center.yml
   title: ''
@@ -96,18 +100,18 @@ created: '2026-07-17'
 description: LiveU is a provider of cloud-based, IP-bonded live video contribution, production, and distribution technology for broadcasters, sports, news, public safety, and enterprise. Its portfolio spans field encoders (the LU-series and the Q Era LU900Q), the LiveU Central cloud management platform, LiveU Studio and Nexus production tools, the LiveU Matrix distribution grid, DataBridge and LU-LINK connectivity, and the LiveU Solo streaming line. LiveU pioneered bonded-cellular transmission that aggregates multiple LTE/5G, Wi-Fi, and satellite links into a single reliable, low-latency video feed. This profile was surfaced as a venture-capital portfolio company and enriched by the API Evangelist pipeline; LiveU publishes marketing, support, and training surfaces but no public developer portal, OpenAPI, or open API documentation was found - the LiveU Central API is available to customers behind authentication.
 image: https://www.liveu.tv/wp-content/uploads/2021/09/liveu-logo.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Liveu
 nav: Providers
 network: true
-overview: 'Liveu is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Live Video, Video Streaming, Broadcast, and Bonded Cellular.
+overview: 'Liveu is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Live Streaming, Video Streaming, Broadcast, and Bonded Cellular.
 
 
-  Liveu''s developer surface includes support, engineering blog, and 11 more developer resources.'
+  Liveu''s developer surface includes support, engineering blog, and 12 more developer resources.'
 random_paper: 21
 score:
   band: emerging
-  composite: 17.0
+  composite: 17.1
   coverage:
     artifact_dirs: 5
     catalog_earned: 27.0
@@ -115,7 +119,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 36.8
     contract_governance: 0.0
@@ -130,8 +134,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -154,7 +158,7 @@ security:
 slug: liveu
 tags:
 - Company
-- Live Video
+- Live Streaming
 - Video Streaming
 - Broadcast
 - Bonded Cellular

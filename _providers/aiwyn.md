@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.aiwyn.ai/resources/feed/
 - group: company
   title: ''
   type: Website
@@ -78,26 +82,26 @@ created: '2026-07-17'
 description: Aiwyn is a practice-automation platform built for modern accounting and CPA firms, unifying payments, practice management, client experience, and tax into a single relationship-centered system. Aiwyn Payments automates invoicing, card and ACH collection, and reconciliation; Aiwyn Practice covers time, billing, project management and resource planning; Aiwyn Experience delivers a unified client portal for engagement letters and secure document exchange; and Aiwyn Tax adds AI-assisted tax preparation. The company serves 800+ firms and raised $113M from KKR and Bessemer Venture Partners. This profile was surfaced as a Bessemer portfolio company; Aiwyn publishes no public developer API, OpenAPI, or SDK surface at this time, so enrichment is limited to identity, its published llms.txt, and probed domain security.
 image: https://www.aiwyn.ai/wp-content/uploads/2025/04/cropped-Aiwyn-Favicon-2-192x192.png
 layout: provider
-modified: '2026-07-17'
+modified: '2026-10-06'
 name: Aiwyn
 nav: Providers
 network: true
-overview: 'Aiwyn is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Ml, Accounting, Fintech, and Payments.
+overview: 'Aiwyn is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Accounting, Fintech, and Payments.
 
 
-  Aiwyn''s developer surface includes support, engineering blog, release notes, and 6 more developer resources.'
+  Aiwyn''s developer surface includes support, engineering blog, release notes, and 7 more developer resources.'
 random_paper: 2
 score:
   band: emerging
-  composite: 13.5
+  composite: 13.4
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 27.6
     contract_governance: 0.0
@@ -111,9 +115,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 12.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+    score: 11.7
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -128,7 +132,7 @@ security:
 slug: aiwyn
 tags:
 - Company
-- Ai Ml
+- Artificial Intelligence
 - Accounting
 - Fintech
 - Payments

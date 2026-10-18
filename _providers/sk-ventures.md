@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.skvcap.com/blog/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/sk-ventures/refs/heads/main/security/sk-ventures-domain-security.yml
   title: ''
@@ -53,18 +57,18 @@ created: '2026-07-17'
 description: SK Ventures is a seed-stage venture capital firm run by general partners Paul Kedrosky and Eric Norlin that backs science-driven founders who are deep domain experts in their startup's field. The firm invests around themes surfaced through the founders' technology conferences (Defrag, Glue) — identity, software infrastructure, security, and emerging technologies — providing early capital, practical guidance, connections, and pathways to later funding rounds. Its portfolio spans 50+ companies including Blockstream, Wealthfront, Rachio, Sphero, Premise, FullContact, and Klue, with notable exits including FanDuel, Remitly, Cloudability, and Kinvey. Surfaced as a portfolio company of foundry-group and profiled in the API Evangelist network; SK Ventures publishes a marketing website but no public API surface.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sk-ventures.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: SK Ventures
 nav: Providers
 network: true
 overview: 'SK Ventures is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Venture Capital, Investor, Seed Stage, and Startups.
 
 
-  SK Ventures'' developer surface includes engineering blog and 2 more developer resources.'
+  SK Ventures'' developer surface includes engineering blog and 3 more developer resources.'
 random_paper: 15
 score:
   band: minimal
-  composite: 3.6
+  composite: 3.7
   coverage:
     artifact_dirs: 4
     catalog_earned: 27.0
@@ -72,7 +76,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
@@ -87,8 +91,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

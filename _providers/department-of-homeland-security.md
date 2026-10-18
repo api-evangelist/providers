@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.0
-  scored_at: '2026-10-04'
+  score: 17.8
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -179,6 +179,21 @@ collections:
   name: OpenFEMA API
   slug: open-department-of-homeland-security
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/department-of-homeland-security/refs/heads/main/plans/department-of-homeland-security-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/department-of-homeland-security-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/department-of-homeland-security/refs/heads/main/rate-limits/department-of-homeland-security-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/department-of-homeland-security-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/department-of-homeland-security/refs/heads/main/finops/department-of-homeland-security-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/department-of-homeland-security-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/department-of-homeland-security/refs/heads/main/capabilities/department-of-homeland-security-capability-edges.yml
   title: ''
@@ -279,9 +294,13 @@ common:
 created: '2024-12-03'
 description: The U.S. Department of Homeland Security (DHS) is a cabinet-level federal agency responsible for protecting the nation from terrorism, securing borders, enforcing immigration law, responding to disasters, and securing cyberspace. DHS exposes APIs across its operational components, including FEMA's OpenFEMA platform, USCIS's Developer Portal, the CISA Known Exploited Vulnerabilities catalog, the National Terrorism Advisory System (NTAS) feed, and the DHS Open Data Catalog.
 finops:
-- name: Department Of Homeland Security Finops
+- has_sources: false
+  method: generated
+  name: Department Of Homeland Security Finops
+  primary_unit: ''
   service_category: API
   slug: department-of-homeland-security-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/department-of-homeland-security.png
 jsonld:
 - class_count: 0
@@ -293,13 +312,13 @@ modified: '2026-05-19'
 name: Department of Homeland Security
 nav: Providers
 network: true
-overview: 'Department of Homeland Security publishes 19 APIs on the [APIs.io](https://apis.io/) network, including DisasterDeclarationsSummaries API, EmergencyManagementPerformanceGrants API, FemaRegions API, and 16 more. Tagged areas include CISA, Cybersecurity, Disaster, Federal Government, and FEMA.
+overview: 'Department of Homeland Security is listed with 19 APIs on the [APIs.io](https://apis.io/) network, including DisasterDeclarationsSummaries API, EmergencyManagementPerformanceGrants API, FemaRegions API, and 16 more. Tagged areas include CISA, Cybersecurity, Disaster, Federal Government, and FEMA.
 
 
   The Department of Homeland Security catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Department of Homeland Security''s developer surface includes privacy policy, engineering blog, and 21 more developer resources.'
+  Department of Homeland Security''s developer surface includes privacy policy, engineering blog, and 24 more developer resources.'
 plans:
 - name: Department Of Homeland Security Plans Pricing
   plan_count: 3
@@ -311,17 +330,17 @@ rate_limits:
   slug: department-of-homeland-security-rate-limits
 score:
   band: thin
-  composite: 32.9
+  composite: 30.9
   coverage:
     artifact_dirs: 13
-    catalog_earned: 47.5
+    catalog_earned: 50.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 52.5
-    catalog_max: 100.0
+    catalog_gap: 64.5
+    catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.0
   facets:
-    access_clarity: 28.6
+    access_clarity: 18.4
     contract_governance: 13.6
     contract_quality: 45.6
     developer_ergonomics: 21.4
@@ -346,8 +365,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 14.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

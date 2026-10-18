@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 5.0
-  scored_at: '2026-10-04'
+  score: 3.1
+  scored_at: '2026-10-17'
 api_count: 5
 apis:
 - description: HKBU's own SAML 2.0 identity provider, entityID https://buidp01.hkbu.edu.hk/idp/shibboleth, registered in eduGAIN by the Hong Kong Access Federation (HKAF) since 2018-03-14 with scope hkbu.edu.hk. The
@@ -186,16 +186,20 @@ created: '2026-06-03'
 description: 'Hong Kong Baptist University (HKBU) is a publicly funded, UGC-supported research university in Hong Kong SAR. Re-profiled on 2026-08-30 under the API Evangelist university pipeline, which settles WHO OPERATES each surface before crediting any contract. HKBU operates no central developer portal, no public API catalogue and no institution-wide GitHub organisation; github.com/hkbu exists but is empty, and the only active HKBU orgs are research labs (HKBUNLP, HKBU-HPML). What HKBU does operate itself, verified by live probe, is four things: a Shibboleth/SAML 2.0 identity provider at buidp01.hkbu.edu.hk registered in eduGAIN through the Hong Kong Access Federation since 2018 and serving 12KB of signed SAML metadata anonymously; a self-built GenAI Platform whose Azure-OpenAI-shaped chat-completions and embeddings endpoints answer on genai.hkbu.edu.hk behind an api-key header, undocumented publicly; a self-hosted Moodle at buelearning.hkbu.edu.hk publishing a live IMS LTI 1.3 JWKS
   and OAuth2 token endpoint under HKBU''s own signing keys; and a first-party mobile-app backend at mapp-api.hkbu.edu.hk with no public documentation. Everything that looks like an HKBU research API is not. The HKBU Scholars portal at scholars.hkbu.edu.hk is a CNAME to hkbu.elsevierpure.com — an Elsevier Pure tenancy. The 33 OpenAPI documents previously held in this repository were Elsevier''s Pure Web Service contract 5.35.0 (info.contact pure-support@elsevier.com), the same document other Pure institutions ship, and have been removed along with everything derived from them. The data is HKBU''s; the contract is Elsevier''s, and it scores in Elsevier''s repository, not here.'
 finops:
-- name: Hong Kong Baptist University Finops
+- has_sources: true
+  method: generated
+  name: Hong Kong Baptist University Finops
+  primary_unit: ''
   service_category: Education
   slug: hong-kong-baptist-university-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hong-kong-baptist-university.png
 layout: provider
 modified: '2026-08-30'
 name: Hong Kong Baptist University
 nav: Providers
 network: true
-overview: 'Hong Kong Baptist University publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include University, Higher Education, Education, Hong Kong, and UGC-Funded.
+overview: 'Hong Kong Baptist University is listed with 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include University, Higher Education, Education, Hong Kong, and UGC-Funded.
 
 
   Hong Kong Baptist University''s developer surface includes engineering blog, support, GitHub presence, authentication, and 16 more developer resources.'
@@ -209,29 +213,29 @@ rate_limits:
   name: Hong Kong Baptist University Rate Limits
   slug: hong-kong-baptist-university-rate-limits
 score:
-  band: thin
-  composite: 29.7
+  band: emerging
+  composite: 23.6
   coverage:
-    artifact_dirs: 10
-    catalog_earned: 52.4
+    artifact_dirs: 11
+    catalog_earned: 39.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 62.6
+    catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -4.2
+  delta: -6.1
   facets:
-    access_clarity: 47.9
+    access_clarity: 26.3
     contract_governance: 18.2
     contract_quality: 4.4
     developer_ergonomics: 28.6
     discoverability: 62.5
-    operational_transparency: 24.2
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - greater-china
-  previous_composite: 33.9
+  previous_composite: 29.7
   provenance:
     conformance: first-party
   regulatory:
@@ -240,9 +244,9 @@ score:
     regime: Education & Research
     regime_id: education
     score: 30.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -268,7 +272,7 @@ tags:
 - Shibboleth
 - SAML
 - eduGAIN
-- Learning Management
+- LMS
 - LTI
 - Artificial Intelligence
 - Research Information

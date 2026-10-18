@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 60.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -44,7 +44,7 @@ agentic_access:
   operation_count: 27
   slug: airweave-agentic-access
   summary_line: 27 operations · 16 acting
-api_count: 1
+api_count: 2
 apis:
 - baseURL: https://api.airweave.ai
   baseurl_source: declared
@@ -71,7 +71,7 @@ apis:
   description: The webhooks API from Airweave — 5 operation(s) for webhooks.
   name: Airweave Webhooks API
   slug: airweave-webhooks-api
-artifact_total: 17
+artifact_total: 18
 asyncapis:
 - description: ''
   name: Airweave Webhooks
@@ -96,6 +96,11 @@ collections:
   name: API Reference collections webhooks API
   slug: open-airweave-webhooks-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/airweave/refs/heads/main/plans/airweave-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/airweave-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/airweave/refs/heads/main/capabilities/airweave-capability-edges.yml
   title: ''
@@ -256,31 +261,35 @@ modified: '2026-07-17'
 name: Airweave
 nav: Providers
 network: true
-overview: 'Airweave publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Collections API, collections > search API, Source Connections API, and 2 more. Tagged areas include Company, Artificial Intelligence, Search, RAG, and Retrieval.
+overview: 'Airweave publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Collections API, collections > search API, Source Connections API, and 2 more. Tagged areas include Company, Artificial Intelligence, Search, RAG, and Retrieval.
 
 
   The Airweave catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Airweave''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, pricing, and 25 more developer resources.'
+  Airweave''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, pricing, and 26 more developer resources.'
+plans:
+- name: Airweave Plans Pricing
+  plan_count: 4
+  slug: airweave-plans-pricing
 random_paper: 16
 rate_limits:
 - limit_count: 3
   name: Airweave Rate Limits
   slug: airweave-rate-limits
 score:
-  band: developing
-  composite: 48.2
+  band: strong
+  composite: 54.6
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 49.0
-    catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    artifact_dirs: 28
+    catalog_earned: 61.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.4
   facets:
-    access_clarity: 26.3
+    access_clarity: 57.9
     contract_governance: 4.5
     contract_quality: 57.9
     developer_ergonomics: 73.2
@@ -303,9 +312,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

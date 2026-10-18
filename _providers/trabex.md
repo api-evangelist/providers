@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.5
-  scored_at: '2026-10-04'
+  score: 23.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -94,6 +94,21 @@ collections:
   name: Trabex Trade Compliance API
   slug: open-trabex-trade-compliance
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/trabex/refs/heads/main/plans/trabex-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/trabex-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/trabex/refs/heads/main/rate-limits/trabex-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/trabex-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/trabex/refs/heads/main/finops/trabex-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/trabex-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/trabex/refs/heads/main/capabilities/trabex-capability-edges.yml
   title: ''
@@ -140,9 +155,13 @@ examples:
   name: Trabex Screen Party Example
   slug: trabex-screen-party-example
 finops:
-- name: Trabex Finops
+- has_sources: false
+  method: generated
+  name: Trabex Finops
+  primary_unit: ''
   service_category: API
   slug: trabex-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/trabex.png
 json_schemas:
 - name: Trabex Export Shipment
@@ -162,13 +181,13 @@ modified: '2026-05-19'
 name: Trabex
 nav: Providers
 network: true
-overview: 'Trabex publishes 5 APIs on the [APIs.io](https://apis.io/) network, including AES Filing API, Companies API, Documents API, and 2 more. Tagged areas include Compliance, Export Control, Logistics, Restricted Party Screening, and Shipment Management.
+overview: 'Trabex publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including AES Filing API, Companies API, Documents API, and 2 more. Tagged areas include Compliance, Export Control, Logistics, Restricted Party Screening, and Shipment Management.
 
 
   The Trabex catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Trabex''s developer surface includes authentication, documentation, support, and 5 more developer resources.'
+  Trabex''s developer surface includes authentication, documentation, support, and 8 more developer resources.'
 plans:
 - name: Trabex Plans Pricing
   plan_count: 3
@@ -179,9 +198,10 @@ rate_limits:
   name: Trabex Rate Limits
   slug: trabex-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Trabex API Rules
+  name: Trabex — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -189,7 +209,8 @@ rules:
     info: 2
     warn: 3
   slug: trabex-jsonschema-spectral-rules
-- effective_rule_count: 52
+- authorship: unmarked
+  effective_rule_count: 52
   extends:
   - spectral:oas
   name: Trabex API Rules
@@ -202,17 +223,17 @@ rules:
   slug: trabex-rules
 score:
   band: thin
-  composite: 34.0
+  composite: 32.5
   coverage:
     artifact_dirs: 18
-    catalog_earned: 68.4
+    catalog_earned: 65.4
     catalog_earned_first_party: 0.0
-    catalog_gap: 46.6
+    catalog_gap: 49.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 27.3
     contract_quality: 60.9
     developer_ergonomics: 26.2
@@ -232,8 +253,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

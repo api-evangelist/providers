@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 3
 common:
@@ -107,7 +107,7 @@ modified: '2026-09-02'
 name: Varsity Tutors
 nav: Providers
 network: true
-overview: 'Varsity Tutors is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, EdTech, Online Learning, and Tutoring.
+overview: 'Varsity Tutors is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, EdTech, E-Learning, and Tutoring.
 
 
   Varsity Tutors'' developer surface includes engineering blog, signup flow, and 10 more developer resources.'
@@ -124,7 +124,7 @@ score:
   band: emerging
   composite: 15.2
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -155,13 +155,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 17.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/varsity-tutors/refs/heads/main/screenshots/varsity-tutors-2026-10-11T131628.png
 security:
 - kind: domain-security
   name: Varsity Tutors Domain Security
@@ -172,7 +173,7 @@ tags:
 - Company
 - Education
 - EdTech
-- Online Learning
+- E-Learning
 - Tutoring
 - Test Preparation
 - K-12

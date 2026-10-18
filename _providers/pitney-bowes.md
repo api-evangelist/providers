@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.4
-  scored_at: '2026-10-04'
+  score: 22.5
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -117,6 +117,21 @@ collections:
   name: Pitney Bowes Shipping API
   slug: open-pitney-bowes
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/pitney-bowes/refs/heads/main/plans/pitney-bowes-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/pitney-bowes-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/pitney-bowes/refs/heads/main/rate-limits/pitney-bowes-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/pitney-bowes-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/pitney-bowes/refs/heads/main/finops/pitney-bowes-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/pitney-bowes-finops.yml
 - group: company
   title: ''
   type: Website
@@ -161,19 +176,23 @@ common:
 created: '2025-03-01'
 description: Pitney Bowes is a global technology company that specializes in providing innovative shipping and mailing solutions. They offer a range of products and services, including postage meters, shipping software, and mail sorting equipment, to help businesses streamline their shipping and mailing processes. With a focus on efficiency and productivity, Pitney Bowes aims to help companies save time and money on their shipping and mailing operations.
 finops:
-- name: Pitney Bowes Finops
+- has_sources: true
+  method: generated
+  name: Pitney Bowes Finops
+  primary_unit: ''
   service_category: Shipping and Mailing
   slug: pitney-bowes-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pitney-bowes.png
 layout: provider
 modified: '2026-09-16'
 name: Pitney Bowes
 nav: Providers
 network: true
-overview: 'Pitney Bowes publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Address API, Manifests API, Pickups API, and 5 more. Tagged areas include Mailing, Shipping, and Fortune 1000.
+overview: 'Pitney Bowes publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Address API, Manifests API, Pickups API, and 5 more. Tagged areas include Mailing, Shipping, and Fortune 1000.
 
 
-  Pitney Bowes'' developer surface includes authentication, engineering blog, and 7 more developer resources.'
+  Pitney Bowes'' developer surface includes authentication, engineering blog, and 10 more developer resources.'
 plans:
 - name: Pitney Bowes Plans Pricing
   plan_count: 1
@@ -206,17 +225,17 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: emerging
-  composite: 25.0
+  composite: 23.5
   coverage:
-    artifact_dirs: 15
-    catalog_earned: 39.0
+    artifact_dirs: 16
+    catalog_earned: 36.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 76.0
+    catalog_gap: 79.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 13.2
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 42.6
     developer_ergonomics: 23.8
@@ -236,8 +255,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

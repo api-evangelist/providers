@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 6
+- acting_count: 5
   human_in_the_loop: 0
   name: Tictactrip Agentic Access
   operation_count: 20
   slug: tictactrip-agentic-access
-  summary_line: 20 operations · 6 acting
+  summary_line: 20 operations · 5 acting
 api_count: 1
 apis:
 - baseURL: https://api.tictactrip.eu
@@ -106,6 +106,10 @@ collections:
   name: '@tictactrip/api Autocomplete StopGroups API'
   slug: open-tictactrip-stopgroups-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.tictactrip.eu/blog/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/tictactrip/refs/heads/main/capabilities/tictactrip-capability-edges.yml
   title: ''
@@ -226,31 +230,31 @@ created: '2026-07-17'
 description: TicTacTrip is a European multimodal travel search and booking platform (Techstars-backed) that aggregates train and bus inventory from 250+ carriers across 20+ European countries into single, combined itineraries. Its REST API exposes stop and city discovery, multimodal itinerary search with CO2 emissions per journey, and a full booking workflow — cart, order, book, e-ticket and cancellation — authenticated with partner bearer JWTs (API_SEARCH_PARTNER / API_BOOK_PARTNER roles). API access is provisioned via sales@tictactrip.eu.
 image: https://developers.tictactrip.eu/img/logoTextBlack.svg
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: TicTacTrip
 nav: Providers
 network: true
-overview: 'TicTacTrip publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Autocomplete API, Booking API, Cities API, and 4 more. Tagged areas include Company, Travel, Transportation, Trains, and Bus.
+overview: 'TicTacTrip publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Autocomplete API, Booking API, Cities API, and 4 more. Tagged areas include Company, Travel, Transportation, Trains, and Bus.
 
 
-  TicTacTrip''s developer surface includes authentication, documentation, API reference, getting-started guide, support, and 20 more developer resources.'
+  TicTacTrip''s developer surface includes engineering blog, authentication, documentation, API reference, getting-started guide, support, and 20 more developer resources.'
 random_paper: 1
 score:
   band: thin
-  composite: 35.5
+  composite: 35.6
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 0.0
     contract_governance: 4.5
     contract_quality: 48.2
-    developer_ergonomics: 68.5
+    developer_ergonomics: 70.8
     discoverability: 73.2
     operational_transparency: 18.4
   previous_composite: 35.5
@@ -266,12 +270,12 @@ score:
     skills: derived
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

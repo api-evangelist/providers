@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.medmutual.com/About-Medical-Mutual/Newsroom
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/medical-mutual-of-ohio/refs/heads/main/security/medical-mutual-of-ohio-domain-security.yml
   title: ''
@@ -57,11 +61,14 @@ created: '2025-03-01'
 description: Medical Mutual of Ohio is the oldest and one of the largest health insurance companies based in Ohio, providing health insurance plans to individuals, families, and employer groups. No public developer portal or API specifications are currently documented; CMS-mandated Patient Access and Provider Directory FHIR endpoints, where they exist, are typically reached via member or provider account workflows rather than an open developer site.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/medical-mutual-of-ohio.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-10-06'
 name: Medical Mutual of Ohio
 nav: Providers
 network: true
-overview: Medical Mutual of Ohio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Health Insurance, Healthcare, Insurance, and Ohio.
+overview: 'Medical Mutual of Ohio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Health Insurance, Healthcare, Insurance, and Ohio.
+
+
+  Medical Mutual of Ohio''s developer surface includes engineering blog and 4 more developer resources.'
 press:
 - date: ''
   title: 'Data breach: Medical Mutual employee sends private ...'
@@ -81,7 +88,7 @@ press:
 random_paper: 6
 score:
   band: minimal
-  composite: 2.2
+  composite: 2.7
   coverage:
     artifact_dirs: 6
     catalog_earned: 22.0
@@ -89,12 +96,12 @@ score:
     catalog_gap: 93.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 39.3
     operational_transparency: 0.0
   jurisdiction:
@@ -111,8 +118,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 5.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: REST API to generate accurate body measurements and a 3D avatar from a person's stats, and (with two photos) body composition and posture data. Requests use a secret API key in the Authorization heade
@@ -43,6 +43,10 @@ apis:
   slug: bodygram-platform-api
 artifact_total: 4
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.bodygram.com/en/press
 - group: company
   title: ''
   type: Website
@@ -112,14 +116,14 @@ created: '2026-07-17'
 description: Bodygram is an AI-powered body measurement company whose technology extracts 35+ body measurements, body composition, posture data, and a 3D avatar from a smartphone photo or a person's basic stats. The Bodygram Platform API and the Body2Fit and Headless JavaScript SDKs let retail, fashion, uniform, health, and wellness businesses embed accurate sizing and body scanning into their own apps and websites to increase conversion and reduce returns. Surfaced as a 500 Global portfolio company and enriched from Bodygram's public developer surface (docs.bodygram.com).
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/original.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Bodygram
 nav: Providers
 network: true
-overview: 'Bodygram publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Body Measurement, Computer Vision, Artificial Intelligence, and Sizing.
+overview: 'Bodygram is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Body Measurement, Computer Vision, Artificial Intelligence, and Sizing.
 
 
-  Bodygram''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, support, and 9 more developer resources.'
+  Bodygram''s developer surface includes engineering blog, documentation, API reference, getting-started guide, signup flow, pricing, support, and 9 more developer resources.'
 random_paper: 17
 scopes:
 - name: Original Scopes
@@ -128,20 +132,20 @@ scopes:
   summary_line: 2 scopes
 score:
   band: thin
-  composite: 27.1
+  composite: 27.6
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 14
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 23.7
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 61.9
+    developer_ergonomics: 64.3
     discoverability: 73.2
     operational_transparency: 2.6
   previous_composite: 27.1
@@ -154,8 +158,8 @@ score:
     regime: Health
     regime_id: health
     score: 27.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

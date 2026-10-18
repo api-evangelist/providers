@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Berlin(DE) City Open Data
@@ -66,7 +66,7 @@ modified: '2026-05-28'
 name: City, Berlin
 nav: Providers
 network: true
-overview: City, Berlin publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Government and Public APIs.
+overview: City, Berlin is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Government and Public APIs.
 random_paper: 0
 score:
   band: minimal
@@ -93,13 +93,14 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/city-berlin/refs/heads/main/screenshots/city-berlin-2026-10-11T103024.png
 security:
 - kind: domain-security
   name: City Berlin Domain Security

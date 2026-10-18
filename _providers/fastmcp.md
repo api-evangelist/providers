@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 6
 apis:
 - description: The FastMCP Server is the Python entry point for exposing tools, resources, prompts, and apps to any Model Context Protocol client. Developers instantiate a `FastMCP` server object and register compon
@@ -56,6 +56,10 @@ apis:
   slug: fastmcp-cli
 artifact_total: 46
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.gofastmcp.com/rss
 - group: operate
   title: ''
   type: IssueTracker
@@ -255,20 +259,20 @@ mcp_servers:
 - description: Remote MCP server at gofastmcp.com over HTTP; 3 tools listed.
   name: FastMCP MCP Server
   slug: fastmcp
-modified: '2026-05-25'
+modified: '2026-10-06'
 name: FastMCP
 nav: Providers
 network: true
-overview: 'FastMCP publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include MCP, Python, Framework, Open Source, and AI Agents.
+overview: 'FastMCP is listed with 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include MCP, Python, Framework, Open Source, and AI Agents.
 
 
-  FastMCP''s developer surface includes developer portal, getting-started guide, documentation, changelog, release notes, FAQ, and 25 more developer resources.'
+  FastMCP''s developer surface includes developer portal, getting-started guide, documentation, changelog, release notes, FAQ, and 26 more developer resources.'
 random_paper: 2
 score:
   band: emerging
   composite: 18.2
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -291,8 +295,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

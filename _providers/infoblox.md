@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -165,6 +165,21 @@ collections:
   name: Infoblox WAPI (Web API)
   slug: open-infoblox-wapi
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/infoblox/refs/heads/main/plans/infoblox-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/infoblox-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/infoblox/refs/heads/main/rate-limits/infoblox-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/infoblox-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/infoblox/refs/heads/main/finops/infoblox-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/infoblox-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/infoblox/refs/heads/main/capabilities/infoblox-capability-edges.yml
   title: ''
@@ -257,9 +272,13 @@ common:
 created: '2024-01-15'
 description: Infoblox is a networking and cybersecurity company providing DDI (DNS, DHCP, and IPAM) solutions and protective DNS-layer security services. Its product portfolio spans the Universal DDI suite for unified hybrid and multi-cloud network services, NIOS DDI for on-premises deployments, NIOS-X as a Service, Threat Defense for DNS-layer security, threat intelligence (TIDE) and research (Dossier), and NetMRI for network change and configuration management.
 finops:
-- name: Infoblox Finops
+- has_sources: true
+  method: generated
+  name: Infoblox Finops
+  primary_unit: ''
   service_category: Network Services + Security
   slug: infoblox-finops
+  template: false
 image: https://www.infoblox.com/wp-content/uploads/infoblox-logo.svg
 json_schemas:
 - name: DHCPLease
@@ -361,13 +380,13 @@ modified: '2026-05-19'
 name: Infoblox
 nav: Providers
 network: true
-overview: 'Infoblox publishes 21 APIs on the [APIs.io](https://apis.io/) network, including DHCP API, DNS Records API, DNS Zones API, and 18 more. Tagged areas include Cloud, DDI, DHCP, DNS, and IPAM.
+overview: 'Infoblox publishes 21 API contracts indexed on the [APIs.io](https://apis.io/) network, including DHCP API, DNS Records API, DNS Zones API, and 18 more. Tagged areas include Cloud, DDI, DHCP, DNS, and IPAM.
 
 
   The Infoblox catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Infoblox''s developer surface includes authentication, developer portal, getting-started guide, documentation, engineering blog, support, changelog, and 14 more developer resources.'
+  Infoblox''s developer surface includes authentication, developer portal, getting-started guide, documentation, engineering blog, support, changelog, and 17 more developer resources.'
 plans:
 - name: Infoblox Plans Pricing
   plan_count: 3
@@ -378,9 +397,10 @@ rate_limits:
   name: Infoblox Rate Limits
   slug: infoblox-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Infoblox API Rules
+  name: Infoblox — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -390,17 +410,17 @@ rules:
   slug: infoblox-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 48.8
+  composite: 47.3
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 48.3
+    artifact_dirs: 20
+    catalog_earned: 45.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 66.8
+    catalog_gap: 69.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 44.7
+    access_clarity: 36.8
     contract_governance: 9.8
     contract_quality: 49.9
     developer_ergonomics: 65.5
@@ -420,8 +440,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

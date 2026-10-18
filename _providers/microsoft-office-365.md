@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -182,6 +182,15 @@ collections:
   name: Microsoft Office 365 Microsoft Graph Calendar Users API
   slug: open-microsoft-office-365-users-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-office-365/refs/heads/main/finops/microsoft-office-365-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/microsoft-office-365-finops.yml
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.microsoft.com/en-us/security/business/microsoft-entra-pricing
 - group: operate
   href: https://raw.githubusercontent.com/api-evangelist/microsoft-office-365/refs/heads/main/rate-limits/microsoft-office-365-rate-limits.yml
   title: ''
@@ -626,9 +635,13 @@ features:
 - description: Create, update, and manage users, groups, and organizational directory resources.
   name: User and Group Management
 finops:
-- name: Microsoft Office 365 Finops
+- has_sources: true
+  method: generated
+  name: Microsoft Office 365 Finops
+  primary_unit: ''
   service_category: Productivity
   slug: microsoft-office-365-finops
+  template: false
 integrations:
 - description: Integrate with Azure AD for user authentication, authorization, and directory management.
   name: Azure Active Directory
@@ -1030,13 +1043,13 @@ modified: '2026-09-15'
 name: Microsoft Office 365
 nav: Providers
 network: true
-overview: 'Microsoft Office 365 publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Calendar API, Groups API, Mail API, and 13 more. Tagged areas include Cloud, Collaboration, Enterprise, Microsoft, and Productivity.
+overview: 'Microsoft Office 365 publishes 16 API contracts indexed on the [APIs.io](https://apis.io/) network, including Calendar API, Groups API, Mail API, and 13 more. Tagged areas include Cloud, Collaboration, Enterprise, Microsoft, and Productivity.
 
 
   The Microsoft Office 365 catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Microsoft Office 365''s developer surface includes authentication, support, engineering blog, developer console, changelog, release notes, documentation, and 41 more developer resources.'
+  Microsoft Office 365''s developer surface includes pricing, authentication, support, engineering blog, developer console, changelog, release notes, and 43 more developer resources.'
 plans:
 - name: Microsoft Office 365 Plans Pricing
   plan_count: 11
@@ -1050,9 +1063,10 @@ rate_limits:
   name: Microsoft Office 365 Rate Limits
   slug: microsoft-office-365-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Microsoft Office 365 API Rules
+  name: Microsoft Office 365 — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1060,7 +1074,8 @@ rules:
     info: 2
     warn: 3
   slug: microsoft-office-365-jsonschema-spectral-rules
-- effective_rule_count: 59
+- authorship: generated
+  effective_rule_count: 59
   extends:
   - spectral:oas
   name: Microsoft Office 365 API Rules
@@ -1078,17 +1093,17 @@ scopes:
   summary_line: 18 scopes · authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 61.9
+  composite: 60.4
   coverage:
     artifact_dirs: 21
-    catalog_earned: 57.9
+    catalog_earned: 54.9
     catalog_earned_first_party: 12.0
-    catalog_gap: 57.1
+    catalog_gap: 60.1
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 78.9
+    access_clarity: 71.1
     contract_governance: 13.6
     contract_quality: 70.6
     developer_ergonomics: 72.6
@@ -1108,8 +1123,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

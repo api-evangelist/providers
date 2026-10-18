@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Embedded-finance REST API for submitting and converting leads, managing finance applications and agreements, funds requests and credit-backed offers. Authenticated with a JWT bearer token plus an x-ap
@@ -47,6 +47,10 @@ asyncapis:
   name: Muse Finance Webhooks
   slug: muse-finance-webhooks
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://getmymuse.com/blog/
 - group: company
   title: ''
   type: Website
@@ -139,17 +143,17 @@ created: '2026-07-17'
 description: Muse Finance is a UK embedded-finance platform (Muse Finance Limited, London & Hastings) providing modular working-capital infrastructure — invoice finance, trade finance and supply finance — that lenders, originators, foreign-exchange providers and payment platforms integrate as a white-label product or via a REST API. The Muse Finance API lets partners submit and convert leads, manage finance applications and agreements, raise funds requests, submit exchange rates, and handle credit-backed offers, with JWT + API-key authentication and webhook or polling event notifications. Backed by Techstars.
 image: https://getmymuse.com/favicon-96x96.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Muse Finance
 nav: Providers
 network: true
-overview: 'Muse Finance publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Embedded Finance, Invoice Finance, Trade Finance, and Lending.
+overview: 'Muse Finance is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Embedded Finance, Invoice Finance, Trade Finance, and Lending.
 
 
   The Muse Finance catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Muse Finance''s developer surface includes documentation, API reference, getting-started guide, support, authentication, changelog, and 13 more developer resources.'
+  Muse Finance''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, authentication, changelog, and 13 more developer resources.'
 random_paper: 1
 rate_limits:
 - limit_count: 1
@@ -157,20 +161,20 @@ rate_limits:
   slug: muse-finance-rate-limits
 score:
   band: thin
-  composite: 36.3
+  composite: 36.8
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 40.0
     catalog_earned_first_party: 8.0
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 13.2
     contract_governance: 4.5
     contract_quality: 39.0
-    developer_ergonomics: 54.8
+    developer_ergonomics: 57.1
     discoverability: 64.3
     operational_transparency: 44.7
   jurisdiction:
@@ -191,8 +195,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

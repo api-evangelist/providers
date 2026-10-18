@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.5
-  scored_at: '2026-10-04'
+  score: 19.6
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -110,6 +110,21 @@ collections:
   name: ClickPost API
   slug: open-clickpost
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/clickpost/refs/heads/main/plans/clickpost-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/clickpost-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/clickpost/refs/heads/main/rate-limits/clickpost-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/clickpost-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/clickpost/refs/heads/main/finops/clickpost-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/clickpost-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/clickpost/refs/heads/main/capabilities/clickpost-capability-edges.yml
   title: ''
@@ -184,9 +199,13 @@ common:
 created: '2025-03-01'
 description: ClickPost is a logistics and supply chain platform that aggregates 500+ carrier integrations, multi-channel customer notifications, and 50+ storefront/OMS/WMS connectors behind a unified REST API. The platform covers carrier recommendation, order creation (single and multi-piece), serviceability, manifesting, pickups, real-time tracking with webhooks, proof of delivery, NDR (non-delivery report) management, returns, and expected delivery date forecasting for both Indian domestic and international shipments.
 finops:
-- name: Clickpost Finops
+- has_sources: false
+  method: generated
+  name: Clickpost Finops
+  primary_unit: ''
   service_category: API
   slug: clickpost-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/clickpost.png
 jsonld:
 - class_count: 0
@@ -198,13 +217,13 @@ modified: '2026-05-19'
 name: ClickPost
 nav: Providers
 network: true
-overview: 'ClickPost publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Cancellation API, Label API, Order API, and 4 more. Tagged areas include Carrier, Delivery, E-commerce Logistics, Logistics, and Returns.
+overview: 'ClickPost is listed with 7 APIs on the [APIs.io](https://apis.io/) network, including Cancellation API, Label API, Order API, and 4 more. Tagged areas include Carrier, Delivery, E-commerce Logistics, Logistics, and Returns.
 
 
   The ClickPost catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  ClickPost''s developer surface includes authentication, documentation, engineering blog, and 13 more developer resources.'
+  ClickPost''s developer surface includes authentication, documentation, engineering blog, and 16 more developer resources.'
 plans:
 - name: Clickpost Plans Pricing
   plan_count: 3
@@ -215,7 +234,8 @@ rate_limits:
   name: Clickpost Rate Limits
   slug: clickpost-rate-limits
 rules:
-- effective_rule_count: 49
+- authorship: unmarked
+  effective_rule_count: 49
   extends:
   - spectral:oas
   name: ClickPost API Rules
@@ -228,18 +248,18 @@ rules:
   slug: clickpost-rules
 score:
   band: thin
-  composite: 39.1
+  composite: 33.9
   coverage:
-    artifact_dirs: 15
-    catalog_earned: 62.5
+    artifact_dirs: 16
+    catalog_earned: 49.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 52.5
+    catalog_gap: 65.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.2
   facets:
-    access_clarity: 36.8
-    contract_governance: 40.9
+    access_clarity: 28.9
+    contract_governance: 11.4
     contract_quality: 50.5
     developer_ergonomics: 28.6
     discoverability: 69.6
@@ -258,9 +278,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 25.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0
@@ -277,7 +297,7 @@ security:
 - kind: vulnerability-disclosure
   name: Clickpost Vulnerability Disclosure
   slug: clickpost-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 slug: clickpost
 tags:
 - Carrier

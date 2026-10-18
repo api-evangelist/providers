@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 49.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -307,7 +307,7 @@ modified: '2026-08-13'
 name: Inflection.io
 nav: Providers
 network: true
-overview: 'Inflection.io publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Contact Activity API, Contacts API, Emails API, and 3 more. Tagged areas include Company, Software-as-a-Service, Marketing, Marketing Automation, and Email Marketing.
+overview: 'Inflection.io publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Contact Activity API, Contacts API, Emails API, and 3 more. Tagged areas include Company, Software-as-a-Service, Marketing, Marketing Automation, and Email Marketing.
 
 
   The Inflection.io catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -332,7 +332,7 @@ score:
   band: strong
   composite: 64.6
   coverage:
-    artifact_dirs: 26
+    artifact_dirs: 28
     catalog_earned: 53.0
     catalog_earned_first_party: 16.0
     catalog_gap: 62.0
@@ -363,8 +363,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 41.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

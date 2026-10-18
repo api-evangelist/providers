@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -62,7 +62,7 @@ modified: '2026-07-21'
 name: Relievant Medsystems
 nav: Providers
 network: true
-overview: Relievant Medsystems is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, Healthcare, MedTech, and Pain Management.
+overview: Relievant Medsystems is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, Healthcare, Medical Technology, and Pain Management.
 random_paper: 5
 score:
   band: minimal
@@ -89,8 +89,8 @@ score:
     regime: Health
     regime_id: health
     score: 4.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -107,7 +107,7 @@ tags:
 - Company
 - Medical Devices
 - Healthcare
-- MedTech
+- Medical Technology
 - Pain Management
 - Spine
 - Neuromodulation

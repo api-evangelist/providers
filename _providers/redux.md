@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 8
 apis:
 - description: 'Core Redux library for managing application state through a predictable unidirectional data flow. The library exposes createStore, combineReducers, applyMiddleware, compose, and bindActionCreators as '
@@ -62,6 +62,21 @@ apis:
   slug: reselect
 artifact_total: 17
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/redux/refs/heads/main/plans/redux-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/redux-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/redux/refs/heads/main/rate-limits/redux-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/redux-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/redux/refs/heads/main/finops/redux-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/redux-finops.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -147,9 +162,13 @@ common:
 created: '2024-01-15'
 description: Redux is a predictable state container for JavaScript apps. It helps write applications that behave consistently, run in different environments (client, server, and native), and are easy to test. Redux provides a single immutable state tree, pure reducer functions for state transitions, and a unidirectional data flow pattern based on the Flux architecture. The Redux ecosystem includes React Redux for React bindings, Redux Toolkit for simplified development patterns, and Redux DevTools for time-travel debugging. Redux is widely used with React but can be paired with any JavaScript view library.
 finops:
-- name: Redux Finops
+- has_sources: false
+  method: generated
+  name: Redux Finops
+  primary_unit: ''
   service_category: API
   slug: redux-finops
+  template: true
 image: https://redux.js.org/img/redux-logo-landscape.png
 json_schemas:
 - name: Redux Action
@@ -172,13 +191,13 @@ modified: '2026-05-02'
 name: Redux
 nav: Providers
 network: true
-overview: 'Redux publishes 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Flux Architecture, Frontend, JavaScript, Predictable State, and React.
+overview: 'Redux is listed with 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Flux Architecture, Frontend, JavaScript, Predictable State, and React.
 
 
   The Redux catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Redux''s developer surface includes engineering blog, Stack Overflow tag, FAQ, and 16 more developer resources.'
+  Redux''s developer surface includes engineering blog, Stack Overflow tag, FAQ, and 19 more developer resources.'
 plans:
 - name: Redux Plans Pricing
   plan_count: 3
@@ -189,9 +208,10 @@ rate_limits:
   name: Redux Rate Limits
   slug: redux-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Redux API Rules
+  name: Redux — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -200,18 +220,18 @@ rules:
     warn: 4
   slug: redux-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 27.0
+  band: emerging
+  composite: 25.7
   coverage:
     artifact_dirs: 12
-    catalog_earned: 62.8
+    catalog_earned: 59.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 52.3
+    catalog_gap: 55.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.3
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 23.5
     contract_quality: 14.7
     developer_ergonomics: 21.4
@@ -227,8 +247,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

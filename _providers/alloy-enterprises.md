@@ -33,10 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://alloyenterprises.co/news/feed/
 - group: company
   title: ''
   type: Website
@@ -137,14 +141,14 @@ description: 'Alloy Enterprises is a Burlington, Massachusetts advanced-manufact
   2026-05-13, and now operates as part of that company''s data-center thermal management business. Alloy Enterprises is a hardware and materials manufacturer: it publishes no public developer API, developer portal, SDK, CLI, sandbox, status page or machine-readable specification of any kind. See x-coverage below.'
 image: https://alloyenterprises.co/wp-content/uploads/2023/08/cropped-alloy-enterprises-fav-512x512-1-192x192.png
 layout: provider
-modified: '2026-08-06'
+modified: '2026-10-06'
 name: Alloy Enterprises
 nav: Providers
 network: true
-overview: 'Alloy Enterprises is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advanced Manufacturing, Additive Manufacturing, Thermal Management, and Data Center Cooling.
+overview: 'Alloy Enterprises is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advanced Manufacturing, 3D Printing, Thermal Management, and Data Center Cooling.
 
 
-  Alloy Enterprises'' developer surface includes engineering blog, FAQ, YouTube channel, and 16 more developer resources.'
+  Alloy Enterprises'' developer surface includes engineering blog, FAQ, YouTube channel, and 17 more developer resources.'
 random_paper: 12
 score:
   band: minimal
@@ -171,8 +175,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 14.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -188,7 +192,7 @@ slug: alloy-enterprises
 tags:
 - Company
 - Advanced Manufacturing
-- Additive Manufacturing
+- 3D Printing
 - Thermal Management
 - Data Center Cooling
 - Liquid Cooling

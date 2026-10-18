@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 14.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: One REST API to detect AI-generated and manipulated images, audio, and documents — and fact-check media against the public record. Bearer API-token auth with per-key detection scopes (image, audio, fa
@@ -41,6 +41,10 @@ apis:
   slug: raid-ai-detection-fact-checking-api
 artifact_total: 4
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://raidxai.com/feed.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/raid-ai/refs/heads/main/security/raid-ai-domain-security.yml
   title: ''
@@ -160,14 +164,14 @@ created: '2026-07-17'
 description: Raid AI (RAID AI, Inc.) is an enterprise-grade deepfake and AI-content forensics platform covering audio, image, document, and video. Its REST API detects AI-generated, cloned, deepfaked, and digitally edited media — returning a verdict, a confidence score, and (on detailed plans) generator attribution — across image forensics, voice analysis, document tampering detection, and asynchronous fact-checking against the public record. Audio detection claims 98% accuracy and sub-50ms latency across 100+ languages with specialized Arabic dialect coverage. Raid AI runs a zero-retention pipeline (media analyzed in memory and discarded), offers cloud API plus on-premise air-gapped deployment, and ships native integrations with Microsoft Teams, Zoom, Google Meet, Slack, Webex, and WhatsApp for financial services, call centers, enterprise meetings, and government use cases.
 image: https://raidxai.com/raid-ai-icon.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Raid AI
 nav: Providers
 network: true
-overview: 'Raid AI publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Deepfake Detection, AI Content Detection, Media Forensics, and Voice / Audio Detection.
+overview: 'Raid AI is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Deepfake Detection, AI Content Detection, Media Forensics, and Voice / Audio Detection.
 
 
-  Raid AI''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 19 more developer resources.'
+  Raid AI''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 20 more developer resources.'
 random_paper: 3
 scopes:
 - name: Raid Ai Scopes
@@ -176,7 +180,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: emerging
-  composite: 26.1
+  composite: 25.6
   coverage:
     artifact_dirs: 14
     catalog_earned: 37.0
@@ -184,7 +188,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.5
   facets:
     access_clarity: 13.2
     contract_governance: 18.2
@@ -199,12 +203,12 @@ score:
     skills: derived
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
-    score: 26.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
+    score: 25.5
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

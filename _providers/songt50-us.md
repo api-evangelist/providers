@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 6
 apis:
 - description: Agent2Agent agent at https://publicdata-agent.songt50.us — a JSON-RPC 2.0 endpoint at the host root (POST only) with an A2A 0.3.0 agent card at /.well-known/agent-card.json and the legacy /.well-known
@@ -46,6 +46,10 @@ apis:
   slug: korean-agriculture-market-mcp
 artifact_total: 19
 common:
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://raw.githubusercontent.com/SongT-50/korean-news-mcp/master/mcpize.yaml
 - group: company
   title: ''
   type: Website
@@ -150,37 +154,37 @@ mcp_servers:
   name: sapjilcoding MCP Server
   slug: songt50-us-mcp-yml
 - description: ''
-  name: Hosted Streamable HTTP endpoint (suspended when probed)
-  slug: hosted-streamable-http-endpoint-suspended-when-probed
-- description: ''
   name: server.json (MCP registry manifest)
   slug: server-json-mcp-registry-manifest
 - description: ''
   name: Hosted Streamable HTTP endpoint (suspended when probed)
-  slug: hosted-streamable-http-endpoint-suspended-when-probed-2
+  slug: hosted-streamable-http-endpoint-suspended-when-probed
 - description: ''
   name: server.json (MCP registry manifest)
   slug: server-json-mcp-registry-manifest-2
 - description: ''
   name: Hosted Streamable HTTP endpoint (suspended when probed)
-  slug: hosted-streamable-http-endpoint-suspended-when-probed-3
+  slug: hosted-streamable-http-endpoint-suspended-when-probed-2
 - description: ''
   name: server.json (MCP registry manifest)
   slug: server-json-mcp-registry-manifest-3
 - description: ''
   name: Hosted Streamable HTTP endpoint (suspended when probed)
-  slug: hosted-streamable-http-endpoint-suspended-when-probed-4
+  slug: hosted-streamable-http-endpoint-suspended-when-probed-3
 - description: ''
   name: server.json (MCP registry manifest)
   slug: server-json-mcp-registry-manifest-4
+- description: ''
+  name: Official MCP registry entries (four servers)
+  slug: official-mcp-registry-entries-four-servers
 modified: '2026-09-19'
 name: sapjilcoding
 nav: Providers
 network: true
-overview: 'sapjilcoding publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Agents, A2A, MCP, Open Data, and Government Data.
+overview: 'sapjilcoding is listed with 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Agents, A2A, MCP, Open Data, and Government Data.
 
 
-  sapjilcoding''s developer surface includes documentation, YouTube channel, authentication, and 17 more developer resources.'
+  sapjilcoding''s developer surface includes pricing, documentation, YouTube channel, authentication, and 17 more developer resources.'
 plans:
 - name: Songt50 Us Plans Pricing
   plan_count: 3
@@ -192,17 +196,17 @@ rate_limits:
   slug: songt50-us-rate-limits
 score:
   band: emerging
-  composite: 23.7
+  composite: 25.8
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 17
     catalog_earned: 52.0
     catalog_earned_first_party: 12.0
     catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.1
   facets:
-    access_clarity: 31.6
+    access_clarity: 42.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 33.3
@@ -225,13 +229,14 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/songt50-us/refs/heads/main/screenshots/songt50-us-2026-10-11T130207.png
 security:
 - kind: authentication
   name: Songt50 Us Authentication

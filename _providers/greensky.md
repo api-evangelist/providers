@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.greensky.com/press/
 - group: company
   title: ''
   type: Website
@@ -91,31 +95,31 @@ created: '2026-07-17'
 description: 'GreenSky is a financial-technology company that powers point-of-sale consumer financing. Through a network of federally insured bank partners and enrolled merchants, GreenSky enables consumers to apply for and use installment loans and revolving credit lines at the point of sale, with programs concentrated in home-improvement and elective-healthcare financing. GreenSky Servicing, LLC (NMLS #1416362) originates and services the loan program on behalf of its lending partners. Merchants enroll to offer financing to their customers and manage applications through the GreenSky merchant portal, while consumers manage accounts and payments through the customer portal. Surfaced as a portfolio company of ICONIQ Capital and QED Investors and added to the API Evangelist network. GreenSky is a consumer/merchant fintech with no public developer API surface; this profile is enriched with identity, link, and security metadata only.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/greensky.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: GreenSky
 nav: Providers
 network: true
 overview: 'GreenSky is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Consumer Financing, Point of Sale Lending, and Home Improvement.
 
 
-  GreenSky''s developer surface includes support, signup flow, and 10 more developer resources.'
+  GreenSky''s developer surface includes engineering blog, support, signup flow, and 10 more developer resources.'
 random_paper: 14
 score:
   band: emerging
-  composite: 13.9
+  composite: 14.4
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 27.6
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 4.8
+    developer_ergonomics: 7.1
     discoverability: 55.4
     operational_transparency: 10.5
   previous_composite: 13.9
@@ -125,8 +129,8 @@ score:
     regime: Health
     regime_id: health
     score: 15.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

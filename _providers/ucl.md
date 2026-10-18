@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 6
 apis:
 - description: UCL Discovery is UCL's open-access institutional repository of research outputs, running EPrints on UCL's own registrable domain, and it exposes an OAI-PMH 2.0 metadata-harvesting endpoint at discover
@@ -179,16 +179,20 @@ created: '2026-06-03'
 description: 'University College London (UCL) is a public research university in London, United Kingdom, and a member of the Russell Group. UCL is the clearest illustration in this cohort of why a university is a federation of buyers rather than a producer of APIs. Its flagship developer surface, UCL API (uclapi.com) — a student-built, ISD-backed, open-source, OAuth2-secured platform exposing room bookings, timetables, staff search, desktop and study-space availability and workspaces — was genuinely UCL''s own engineering, and as of 2026-08-19 its entire estate is gone: uclapi.com, api.uclapi.com, docs.uclapi.com and status.uclapi.com all fail to complete a TCP connection on either port 80 or 443. The source repository remains public and unarchived (github.com/uclapi/uclapi, last pushed 2026-05-06); the OpenAPI repository was archived in 2021. What remains is almost entirely bought, not built. UCL Discovery, the open-access institutional repository, is the one institution-operated machine-readable
   surface left standing: EPrints on UCL''s own domain with an OAI-PMH endpoint, currently behind a Cloudflare challenge. Everything else is a tenancy — the UCL Research Data Repository is Figshare (rdr.ucl.ac.uk CNAMEs to figshare.com, UCL''s data addressed as institution=549 on Figshare''s shared host), UCL Profiles is Symplectic Elements (profiles.ucl.ac.uk CNAMEs to ucl.discovery.symplectic.org), library discovery is Ex Libris Primo VE, site search is Funnelback, and even UCL''s UK Access Management Federation identity provider — the one class of surface a university is supposed to operate by definition — resolves its SAML SSO to OpenAthens rather than to a UCL host. UCL owns the entityID, the ucl.ac.uk scope and the DataCite DOI prefix 10.5522; vendors run the services underneath them. No central developer portal, no open data portal and no publicly callable institution-operated API were found in this pass.'
 finops:
-- name: Ucl Finops
+- has_sources: true
+  method: generated
+  name: Ucl Finops
+  primary_unit: ''
   service_category: Education
   slug: ucl-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ucl.png
 layout: provider
 modified: '2026-08-19'
 name: UCL
 nav: Providers
 network: true
-overview: 'UCL publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Higher Education, University, United Kingdom, and London.
+overview: 'UCL is listed with 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Higher Education, University, United Kingdom, and London.
 
 
   UCL''s developer surface includes GitHub presence, support, documentation, engineering blog, and 24 more developer resources.'
@@ -203,22 +207,22 @@ rate_limits:
   slug: ucl-rate-limits
 score:
   band: emerging
-  composite: 25.1
+  composite: 19.7
   coverage:
-    artifact_dirs: 8
-    catalog_earned: 52.4
+    artifact_dirs: 9
+    catalog_earned: 39.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 62.6
+    catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: -5.4
   facets:
-    access_clarity: 37.4
+    access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 4.4
     developer_ergonomics: 16.7
     discoverability: 62.5
-    operational_transparency: 37.4
+    operational_transparency: 23.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -230,7 +234,7 @@ score:
   open_source:
     applies: true
     score: 50.0
-  previous_composite: 26.6
+  previous_composite: 25.1
   provenance:
     conformance: first-party
   regulatory:
@@ -239,9 +243,9 @@ score:
     regime: Education & Research
     regime_id: education
     score: 14.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

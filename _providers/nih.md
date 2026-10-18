@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.6
-  scored_at: '2026-10-04'
+  score: 28.7
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 41
+- acting_count: 5
   human_in_the_loop: 0
   name: Nih Agentic Access
-  operation_count: 116
+  operation_count: 115
   slug: nih-agentic-access
-  summary_line: 116 operations · 41 acting
+  summary_line: 115 operations · 5 acting
 api_count: 2
 apis:
 - description: The public API to the NCBI Entrez system providing programmatic access to all Entrez databases including PubMed, PMC, Gene, Nuccore, and Protein. Supports searching, fetching, linking, and summarizing
@@ -235,9 +235,13 @@ examples:
   name: Pubchem Compound Request
   slug: pubchem-compound-request
 finops:
-- name: Nih Finops
+- has_sources: false
+  method: generated
+  name: Nih Finops
+  primary_unit: ''
   service_category: ''
   slug: nih-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nih.png
 json_schemas:
 - name: EnumInfo
@@ -296,7 +300,7 @@ modified: '2026-06-13'
 name: National Institutes of Health (NIH)
 nav: Providers
 network: true
-overview: 'National Institutes of Health (NIH) publishes 15 APIs on the [APIs.io](https://apis.io/) network, including BioSample API, Gene API, Genome API, and 12 more. Tagged areas include Biomedical, Research, PubMed, Clinical Trials, and PubChem.
+overview: 'National Institutes of Health (NIH) publishes 15 API contracts indexed on the [APIs.io](https://apis.io/) network, including BioSample API, Gene API, Genome API, and 12 more. Tagged areas include Biomedical, Research, PubMed, Clinical Trials, and PubChem.
 
 
   The National Institutes of Health (NIH) catalog on APIs.io includes 2 JSON-LD contexts and 1 Spectral governance ruleset.
@@ -313,9 +317,10 @@ rate_limits:
   name: Nih Rate Limits
   slug: nih-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: National Institutes of Health (NIH) API Rules
+  name: National Institutes of Health (NIH) — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -325,17 +330,17 @@ rules:
   slug: nih-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 37.7
+  composite: 32.1
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 65.1
+    artifact_dirs: 18
+    catalog_earned: 54.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 49.9
+    catalog_gap: 60.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.6
   facets:
-    access_clarity: 46.8
+    access_clarity: 18.4
     contract_governance: 9.8
     contract_quality: 54.6
     developer_ergonomics: 23.8
@@ -355,9 +360,9 @@ score:
     regime: Health
     regime_id: health
     score: 13.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

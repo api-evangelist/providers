@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'The my.anydesk I REST API automates retrieval and management of AnyDesk account data from the my.anydesk management console: license and account details, registered clients and their aliases/online st'
@@ -42,6 +42,10 @@ apis:
   slug: anydesk-rest-api
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://anydesk.com/blog/
 - group: company
   title: ''
   type: Website
@@ -135,31 +139,31 @@ created: '2026-07-17'
 description: AnyDesk is a German remote desktop and remote access software company whose clients provide cross-platform remote control, unattended access, remote support and file transfer for Windows, macOS, Linux, Android and iOS. For administrators, the my.anydesk management console centralizes license, client, address book and session management, and exposes a JSON-over-HTTPS REST API (my.anydesk I REST API, v1.1.1) that automates retrieval and management of account data — license and account details, registered clients, session history and comments, aliases and address books — so teams can integrate AnyDesk with billing, ticketing and session-logging systems. AnyDesk ships an official open-source Python library for the API and supports SSO/SAML for console access.
 image: https://anydesk.com/favicon.ico
 layout: provider
-modified: '2026-07-17'
+modified: '2026-10-06'
 name: AnyDesk
 nav: Providers
 network: true
-overview: 'AnyDesk publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Remote Work, Remote Desktop, Remote Access, and Remote Support.
+overview: 'AnyDesk is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Remote Work, Remote Desktop, Remote Access, and Remote Support.
 
 
-  AnyDesk''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, pricing, authentication, and 13 more developer resources.'
+  AnyDesk''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, signup flow, pricing, and 14 more developer resources.'
 random_paper: 3
 score:
   band: thin
-  composite: 32.1
+  composite: 32.7
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 42.1
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 61.9
+    developer_ergonomics: 64.3
     discoverability: 73.2
     operational_transparency: 2.6
   jurisdiction:
@@ -181,8 +185,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 25.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

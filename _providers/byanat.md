@@ -32,10 +32,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.byanat.ai/blog
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.byanat.ai/blog/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/byanat/refs/heads/main/security/byanat-domain-security.yml
   title: ''
@@ -62,14 +70,14 @@ created: '2026-07-17'
 description: Byanat is an Oman-based, award-winning AI company offering a unified platform for optimizing digital infrastructure across telecommunications networks and data centers. The platform pairs system-wide visibility with custom-tailored automation to scale operations, ensure compliance, and promote sustainability, an approach the company frames as "Infrastructure 4.0." Its product families span mobile network solutions (site management, degradation detection, auto-discovery, performance analytics), data centre solutions (predictive analytics, capacity forecasting, energy management, infrastructure monitoring), and an API and integration layer for cross-platform connectivity and AI-powered workflow automation. Byanat is a portfolio company of 500 Global and was added to the API Evangelist network for enrichment. The company does not currently publish a public developer portal, OpenAPI specification, or API reference; its API and integration capability is delivered as a managed product.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/byanat.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Byanat
 nav: Providers
 network: true
 overview: 'Byanat is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Telecommunications, Data Center, and Infrastructure.
 
 
-  Byanat''s developer surface includes engineering blog, support, and 3 more developer resources.'
+  Byanat''s developer surface includes engineering blog, support, and 5 more developer resources.'
 random_paper: 1
 score:
   band: minimal
@@ -96,8 +104,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 4.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

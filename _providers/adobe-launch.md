@@ -38,14 +38,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 150
+- acting_count: 149
   human_in_the_loop: 0
   name: Adobe Launch Agentic Access
   operation_count: 299
   slug: adobe-launch-agentic-access
-  summary_line: 299 operations · 150 acting
+  summary_line: 299 operations · 149 acting
 api_count: 7
 apis:
 - baseURL: https://reactor.adobe.io
@@ -1639,9 +1639,13 @@ features:
 - Real-time data collection to Edge Network
 - Media tracking and analytics integration
 finops:
-- name: Adobe Launch Finops
+- has_sources: true
+  method: generated
+  name: Adobe Launch Finops
+  primary_unit: ''
   service_category: Tag Management
   slug: adobe-launch-finops
+  template: false
 image: /assets/icons/adobe-launch.png
 integrations:
 - Adobe Analytics
@@ -2509,7 +2513,7 @@ modified: '2026-09-16'
 name: Adobe Launch
 nav: Providers
 network: true
-overview: 'Adobe Launch publishes 36 APIs on the [APIs.io](https://apis.io/) network, including Builds API, Callbacks API, Companies API, and 33 more. Tagged areas include Data Collection, Edge Network, Event Forwarding, Marketing Technology, and Tag Management.
+overview: 'Adobe Launch publishes 36 API contracts indexed on the [APIs.io](https://apis.io/) network, including Builds API, Callbacks API, Companies API, and 33 more. Tagged areas include Data Collection, Edge Network, Event Forwarding, Marketing Technology, and Tag Management.
 
 
   The Adobe Launch catalog on APIs.io includes 1 event-driven AsyncAPI specification, 5 JSON-LD contexts, and 2 Spectral governance rulesets.
@@ -2526,9 +2530,10 @@ rate_limits:
   name: Adobe Launch Rate Limits
   slug: adobe-launch-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: Adobe Launch API Rules
+  name: Adobe Launch — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -2536,7 +2541,8 @@ rules:
     info: 1
     warn: 5
   slug: adobe-launch-jsonschema-spectral-rules
-- effective_rule_count: 55
+- authorship: generated
+  effective_rule_count: 55
   extends:
   - spectral:oas
   name: Adobe Launch API Rules
@@ -2554,23 +2560,23 @@ scopes:
   summary_line: 5 scopes · client_credentials
 score:
   band: exemplar
-  composite: 74.8
+  composite: 73.9
   coverage:
-    artifact_dirs: 37
-    catalog_earned: 87.5
+    artifact_dirs: 38
+    catalog_earned: 84.5
     catalog_earned_first_party: 20.0
-    catalog_gap: 27.5
+    catalog_gap: 30.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 2.8
+  delta: -1.5
   facets:
-    access_clarity: 78.9
+    access_clarity: 71.1
     contract_governance: 18.2
     contract_quality: 70.7
     developer_ergonomics: 91.1
-    discoverability: 73.2
+    discoverability: 78.6
     operational_transparency: 76.3
-  previous_composite: 72.0
+  previous_composite: 75.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -2587,8 +2593,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

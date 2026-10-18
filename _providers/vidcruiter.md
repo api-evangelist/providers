@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The real, documented programmatic surface. VidCruiter provisions each institution a unique web-services API endpoint (obtained from a VidCruiter account representative) used for bidirectional integrat
@@ -42,6 +42,14 @@ apis:
   slug: vidcruiter-partner-integration-api
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://vidcruiter.com/blog/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://vidcruiter.com/feed.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/vidcruiter/refs/heads/main/security/vidcruiter-domain-security.yml
   title: ''
@@ -68,14 +76,14 @@ created: '2026-07-10'
 description: 'VidCruiter is a Moncton, Canada based recruitment technology company that provides a modular hiring platform - pre-recorded and live video interviewing, automated interview scheduling, skills and pre-employment testing, automated reference checking, audio interviews, and video proctoring. VidCruiter does not publish a public, self-service developer API. Its programmatic surface is a partner and enterprise integration capability: pre-built connectors to major ATS/HCM, background-check, calendar, job-board, SSO, and video-conferencing providers, plus a bidirectional web-services integration in which an institution''s unique, account-provisioned API endpoint is exchanged with a system of record (for example Slate) to push application records into VidCruiter and pull completed interview results back out. API access is gated behind a VidCruiter account representative; there is no public API reference, OpenAPI document, base URL, or self-serve key issuance.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vidcruiter.png
 layout: provider
-modified: '2026-07-25'
+modified: '2026-10-06'
 name: VidCruiter
 nav: Providers
 network: true
-overview: 'VidCruiter publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Recruiting, Video Interviewing, Hiring, Human Resources, and Applicant Tracking.
+overview: 'VidCruiter is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Recruiting, Video Interviewing, Hiring, Human Resources, and Applicant Tracking.
 
 
-  VidCruiter''s developer surface includes documentation and 4 more developer resources.'
+  VidCruiter''s developer surface includes engineering blog, documentation, and 5 more developer resources.'
 plans:
 - name: Vidcruiter Plans Pricing
   plan_count: 1
@@ -83,20 +91,20 @@ plans:
 random_paper: 11
 score:
   band: minimal
-  composite: 9.5
+  composite: 7.2
   coverage:
-    artifact_dirs: 4
-    catalog_earned: 39.2
+    artifact_dirs: 6
+    catalog_earned: 34.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.8
+    catalog_gap: 81.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.3
   facets:
-    access_clarity: 18.9
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 9.5
+    developer_ergonomics: 11.9
     discoverability: 57.1
     operational_transparency: 0.0
   previous_composite: 9.5
@@ -106,8 +114,8 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

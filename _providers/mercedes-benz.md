@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 18
 apis:
 - description: Use this product to integrate always up-to-date MercedesBenz technical as well as marketing vehicle data into your solution and business model. Try it out.
@@ -92,6 +92,21 @@ apis:
   slug: waviness-api
 artifact_total: 23
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/mercedes-benz/refs/heads/main/plans/mercedes-benz-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/mercedes-benz-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/mercedes-benz/refs/heads/main/rate-limits/mercedes-benz-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/mercedes-benz-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/mercedes-benz/refs/heads/main/finops/mercedes-benz-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/mercedes-benz-finops.yml
 - group: company
   title: ''
   type: Website
@@ -169,19 +184,23 @@ common:
 created: '2025-02-08'
 description: Mercedes-Benz is a renowned luxury automobile manufacturer that produces a wide range of vehicles, from sedans and SUVs to sports cars and electric vehicles. Founded in 1926 in Germany, the company is known for its commitment to innovation, quality, and performance. Mercedes-Benz constantly pushes the boundaries of automotive technology, offering cutting-edge features such as advanced driver-assistance systems and state-of-the-art infotainment systems.
 finops:
-- name: Mercedes Benz Finops
+- has_sources: false
+  method: generated
+  name: Mercedes Benz Finops
+  primary_unit: ''
   service_category: API
   slug: mercedes-benz-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mercedes-benz.png
 layout: provider
 modified: '2026-09-16'
 name: Mercedes-Benz
 nav: Providers
 network: true
-overview: 'Mercedes-Benz publishes 18 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Automobiles, Cars, and Vehicles.
+overview: 'Mercedes-Benz is listed with 18 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Automobiles, Cars, and Vehicles.
 
 
-  Mercedes-Benz''s developer surface includes developer portal, product news, getting-started guide, support, FAQ, signup flow, and 12 more developer resources.'
+  Mercedes-Benz''s developer surface includes developer portal, product news, getting-started guide, support, FAQ, signup flow, and 15 more developer resources.'
 plans:
 - name: Mercedes Benz Plans Pricing
   plan_count: 3
@@ -193,17 +212,17 @@ rate_limits:
   slug: mercedes-benz-rate-limits
 score:
   band: thin
-  composite: 29.5
+  composite: 28.0
   coverage:
-    artifact_dirs: 8
-    catalog_earned: 39.0
+    artifact_dirs: 9
+    catalog_earned: 36.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 76.0
+    catalog_gap: 79.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 60.5
+    access_clarity: 52.6
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 35.7
@@ -216,8 +235,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -232,7 +251,7 @@ security:
 - kind: vulnerability-disclosure
   name: Mercedes Benz Vulnerability Disclosure
   slug: mercedes-benz-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 slug: mercedes-benz
 tags:
 - Automobiles

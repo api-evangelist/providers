@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -131,6 +131,21 @@ collections:
   name: Crossplane Kubernetes CompositeResourceDefinitions Providers API
   slug: open-crossplane-providers-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/crossplane/refs/heads/main/plans/crossplane-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/crossplane-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/crossplane/refs/heads/main/rate-limits/crossplane-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/crossplane-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/crossplane/refs/heads/main/finops/crossplane-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/crossplane-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/crossplane/refs/heads/main/capabilities/crossplane-capability-edges.yml
   title: ''
@@ -251,9 +266,13 @@ common:
 created: '2025-01-01'
 description: Crossplane is a graduated CNCF open-source Kubernetes add-on that transforms a cluster into a universal control plane for cloud infrastructure, services, and applications. Crossplane introduces custom resources including CompositeResourceDefinitions (XRDs), Compositions, Claims, Providers, ProviderConfigs, Configurations, Functions, and EnvironmentConfigs, allowing platform teams to author self-service platform APIs that compose managed resources across AWS, GCP, Azure, and other providers using Kubernetes-style declarative configuration.
 finops:
-- name: Crossplane Finops
+- has_sources: false
+  method: generated
+  name: Crossplane Finops
+  primary_unit: ''
   service_category: API
   slug: crossplane-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/crossplane.png
 json_schemas:
 - name: Crossplane Composition
@@ -275,13 +294,13 @@ modified: '2026-05-19'
 name: Crossplane
 nav: Providers
 network: true
-overview: 'Crossplane publishes 7 APIs on the [APIs.io](https://apis.io/) network, including CompositeResourceDefinitions API, Compositions API, Configurations API, and 4 more. Tagged areas include Apache 2.0, CNCF, Cloud-Native, COMPOSITION, and Control Plane.
+overview: 'Crossplane publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including CompositeResourceDefinitions API, Compositions API, Configurations API, and 4 more. Tagged areas include Apache 2.0, CNCF, Cloud-Native, COMPOSITION, and Control Plane.
 
 
   The Crossplane catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Crossplane''s developer surface includes authentication, documentation, getting-started guide, engineering blog, changelog, and 22 more developer resources.'
+  Crossplane''s developer surface includes authentication, documentation, getting-started guide, engineering blog, changelog, and 25 more developer resources.'
 plans:
 - name: Crossplane Plans Pricing
   plan_count: 3
@@ -292,9 +311,10 @@ rate_limits:
   name: Crossplane Rate Limits
   slug: crossplane-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: Crossplane API Rules
+  name: Crossplane — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -302,10 +322,11 @@ rules:
     info: 2
     warn: 4
   slug: crossplane-jsonschema-spectral-rules
-- effective_rule_count: 48
+- authorship: unmarked
+  effective_rule_count: 48
   extends:
   - spectral:oas
-  name: Crossplane API Rules
+  name: Crossplane — kubernetes api rules
   rule_count: 7
   severity_counts:
     error: 5
@@ -315,17 +336,17 @@ rules:
   slug: crossplane-kubernetes-api-rules
 score:
   band: developing
-  composite: 47.2
+  composite: 45.8
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 75.0
+    artifact_dirs: 18
+    catalog_earned: 72.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 40.0
+    catalog_gap: 43.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.4
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 27.3
     contract_quality: 66.7
     developer_ergonomics: 36.9
@@ -348,8 +369,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

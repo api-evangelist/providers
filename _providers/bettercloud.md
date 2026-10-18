@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.6
-  scored_at: '2026-10-04'
+  score: 28.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -70,7 +70,7 @@ apis:
   description: Manage automation workflows and triggers
   name: BetterCloud Workflows API
   slug: bettercloud-workflows-api
-artifact_total: 115
+artifact_total: 116
 collections:
 - collection_type: postman
   name: BetterCloud Platform Events API
@@ -106,6 +106,21 @@ collections:
   name: BetterCloud Platform Events Workflows API
   slug: open-bettercloud-workflows-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/bettercloud/refs/heads/main/plans/bettercloud-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/bettercloud-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/bettercloud/refs/heads/main/rate-limits/bettercloud-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/bettercloud-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/bettercloud/refs/heads/main/finops/bettercloud-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/bettercloud-finops.yml
 - group: company
   title: ''
   type: Website
@@ -173,6 +188,10 @@ common:
   title: ''
   type: Vocabulary
   url: https://raw.githubusercontent.com/api-evangelist/bettercloud/refs/heads/main/vocabulary/bettercloud-vocabulary.yaml
+- group: design
+  title: ''
+  type: SpectralRules
+  url: https://github.com/BetterCloud/bettercloud-openapi-rules/blob/1fa6df2beb0230a5f63ef7bcf2fc9b35eee0d633/.spectral.yml
 created: '2026-03-16'
 description: BetterCloud is the end-to-end SaaS management platform that enables IT teams to discover, manage, and secure the growing SaaS environment. The platform provides automated workflows, security policies, and management capabilities for SaaS applications in enterprise environments, handling billions of API calls per day across 100+ SaaS application integrations.
 examples:
@@ -263,9 +282,13 @@ features:
 - description: Track and optimize SaaS licenses to reduce spend and identify unused seats.
   name: License Management
 finops:
-- name: Bettercloud Finops
+- has_sources: false
+  method: generated
+  name: Bettercloud Finops
+  primary_unit: ''
   service_category: API
   slug: bettercloud-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bettercloud.png
 integrations:
 - description: Manage Google Workspace users, groups, Drive files, and calendar access.
@@ -432,13 +455,13 @@ modified: '2026-05-19'
 name: BetterCloud
 nav: Providers
 network: true
-overview: 'BetterCloud publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Events API, Groups API, Integrations API, and 2 more. Tagged areas include Automation, Compliance, Enterprise, IT Operations, and SaaS Management.
+overview: 'BetterCloud is listed with 5 APIs on the [APIs.io](https://apis.io/) network, including Events API, Groups API, Integrations API, and 2 more. Tagged areas include Automation, Compliance, Enterprise, IT Operations, and SaaS Management.
 
 
-  The BetterCloud catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+  The BetterCloud catalog on APIs.io includes 1 JSON-LD context and 3 Spectral governance rulesets.
 
 
-  BetterCloud''s developer surface includes authentication, developer portal, getting-started guide, pricing, engineering blog, support, signup flow, and 9 more developer resources.'
+  BetterCloud''s developer surface includes authentication, developer portal, getting-started guide, pricing, engineering blog, support, signup flow, and 13 more developer resources.'
 plans:
 - name: Bettercloud Plans Pricing
   plan_count: 3
@@ -449,9 +472,25 @@ rate_limits:
   name: Bettercloud Rate Limits
   slug: bettercloud-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: provider
+  effective_rule_count: 41
+  extends:
+  - spectral:oas
+  - https://unpkg.com/@stoplight/spectral-owasp-ruleset@1.4.0/dist/ruleset.js
+  - https://raw.githubusercontent.com/BetterCloud/spectral-redos-detector-ruleset/main/dist/ruleset.js
+  - ./spectral/ruleset.yml
+  name: BetterCloud — bettercloud openapi rules rules
+  rule_count: 0
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 0
+    warn: 0
+  slug: bettercloud-bettercloud-openapi-rules-spectral-rules
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: BetterCloud API Rules
+  name: BetterCloud — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -459,7 +498,8 @@ rules:
     info: 1
     warn: 4
   slug: bettercloud-jsonschema-spectral-rules
-- effective_rule_count: 75
+- authorship: generated
+  effective_rule_count: 75
   extends:
   - spectral:oas
   name: BetterCloud API Rules
@@ -472,17 +512,17 @@ rules:
   slug: bettercloud-spectral-rules
 score:
   band: thin
-  composite: 31.2
+  composite: 29.7
   coverage:
     artifact_dirs: 18
-    catalog_earned: 69.0
+    catalog_earned: 66.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 46.0
+    catalog_gap: 49.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 32.9
+    access_clarity: 25.0
     contract_governance: 27.3
     contract_quality: 22.1
     developer_ergonomics: 39.3
@@ -502,8 +542,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

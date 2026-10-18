@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: The IANA Protocol Registries publish the authoritative assignments for Internet protocol parameters. Bulk registry data is available as XML, CSV, and plain-text files distributed via rsync and FTP for
@@ -47,6 +47,21 @@ apis:
   slug: iana-root-zone-database
 artifact_total: 8
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/internet-assigned-numbers-authority/refs/heads/main/plans/internet-assigned-numbers-authority-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/internet-assigned-numbers-authority-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/internet-assigned-numbers-authority/refs/heads/main/rate-limits/internet-assigned-numbers-authority-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/internet-assigned-numbers-authority-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/internet-assigned-numbers-authority/refs/heads/main/finops/internet-assigned-numbers-authority-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/internet-assigned-numbers-authority-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/internet-assigned-numbers-authority/refs/heads/main/security/internet-assigned-numbers-authority-domain-security.yml
   title: ''
@@ -75,22 +90,26 @@ common:
 created: '2025-08-25'
 description: The Internet Assigned Numbers Authority (IANA) performs the global coordination of the DNS Root, IP addressing, and other Internet protocol resources. IANA maintains the protocol registries, top-level domain delegations, time zone database, and language subtag registry that the Internet relies on. Bulk registry data is published as machine-readable files distributed via rsync and FTP rather than through a public REST API.
 finops:
-- name: Internet Assigned Numbers Authority Finops
+- has_sources: false
+  method: generated
+  name: Internet Assigned Numbers Authority Finops
+  primary_unit: ''
   service_category: API
   slug: internet-assigned-numbers-authority-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/internet-assigned-numbers-authority.png
 layout: provider
 modified: '2026-04-28'
 name: Internet Assigned Numbers Authority
 nav: Providers
 network: true
-overview: 'Internet Assigned Numbers Authority publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Domains, DNS, IP Addressing, Media Types, and Protocol.
+overview: 'Internet Assigned Numbers Authority is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Domains, DNS, IP Addressing, Media Types, and Protocol.
 
 
   The Internet Assigned Numbers Authority catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Internet Assigned Numbers Authority''s developer surface includes product news, engineering blog, and 4 more developer resources.'
+  Internet Assigned Numbers Authority''s developer surface includes product news, engineering blog, and 7 more developer resources.'
 plans:
 - name: Internet Assigned Numbers Authority Plans Pricing
   plan_count: 3
@@ -101,7 +120,8 @@ rate_limits:
   name: Internet Assigned Numbers Authority Rate Limits
   slug: internet-assigned-numbers-authority-rate-limits
 rules:
-- effective_rule_count: 0
+- authorship: unmarked
+  effective_rule_count: 0
   extends: []
   name: Internet Assigned Numbers Authority API Rules
   rule_count: 0
@@ -113,17 +133,17 @@ rules:
   slug: internet-assigned-numbers-authority-rules
 score:
   band: emerging
-  composite: 12.7
+  composite: 11.2
   coverage:
     artifact_dirs: 8
-    catalog_earned: 49.0
+    catalog_earned: 46.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 66.0
+    catalog_gap: 69.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
@@ -136,8 +156,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

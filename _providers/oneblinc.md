@@ -35,10 +35,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 3
 common:
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://itunes.apple.com/lookup?id=1593417965
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.oneblinc.com/blog/
 - group: company
   title: ''
   type: Website
@@ -111,14 +119,14 @@ created: '2026-08-26'
 description: OneBlinc is a US consumer fintech that provides cash advances, credit-building and financial-wellness products to public-sector, healthcare and other essential workers who are underserved by traditional banks. Its consumer products are delivered through the OneBlinc / BlincAdvance mobile apps — BlincAdvance (paycheck advances from $50 up to $250 on an $8.99/month subscription, with an optional paid instant-deposit tier), BlincBoost (a credit-building subscription), BlincShield and BlincEarn — and a legacy installment-loan product originated by BlincLoans, Inc. that is not currently accepting new applications. Its one business-facing product, BlincFy, sells customer-permissioned income and employment verification data and analytics, but is sold through a "Schedule a Demo" sales motion with no public developer documentation. OneBlinc publishes no public API, developer portal, SDK or machine-readable specification; api.oneblinc.com is a private backend for its own mobile clients.
 image: https://www.oneblinc.com/images/meta-logo.png
 layout: provider
-modified: '2026-08-26'
+modified: '2026-10-06'
 name: OneBlinc
 nav: Providers
 network: true
 overview: 'OneBlinc is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Fintech, Consumer Lending, and Cash Advance.
 
 
-  OneBlinc''s developer surface includes signup flow, support, and 10 more developer resources.'
+  OneBlinc''s developer surface includes pricing, engineering blog, signup flow, support, and 10 more developer resources.'
 plans:
 - name: Oneblinc Plans Pricing
   plan_count: 3
@@ -130,20 +138,20 @@ rate_limits:
   slug: oneblinc-rate-limits
 score:
   band: emerging
-  composite: 17.5
+  composite: 20.1
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 12
     catalog_earned: 39.0
     catalog_earned_first_party: 12.0
     catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.6
   facets:
-    access_clarity: 52.6
+    access_clarity: 63.2
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 4.8
+    developer_ergonomics: 7.1
     discoverability: 48.2
     operational_transparency: 18.4
   jurisdiction:
@@ -162,8 +170,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 12.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

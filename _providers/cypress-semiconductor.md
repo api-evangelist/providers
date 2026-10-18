@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 3.8
-  scored_at: '2026-10-04'
+  score: 1.9
+  scored_at: '2026-10-17'
 api_count: 6
 apis:
 - description: ModusToolbox is Infineon's modern embedded development ecosystem and the successor to Cypress' PSoC Creator. It is a collection of GUI and non-GUI tools, libraries, configurators, board support packag
@@ -173,9 +173,13 @@ features:
 - description: 2,143 public repositories on the Infineon GitHub org including 87+ ModusToolbox-tagged repos, mtb-example-* code examples, and BSP packages.
   name: Open Source Reference Code
 finops:
-- name: Cypress Semiconductor Finops
+- has_sources: true
+  method: generated
+  name: Cypress Semiconductor Finops
+  primary_unit: ''
   service_category: Semiconductors
   slug: cypress-semiconductor-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cypress-semiconductor.png
 integrations:
 - description: ModusToolbox ships a VS Code extension as a primary supported IDE for embedded development.
@@ -214,7 +218,7 @@ modified: '2026-07-25'
 name: Cypress Semiconductor
 nav: Providers
 network: true
-overview: 'Cypress Semiconductor publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Acquired, Bluetooth, CapSense, Embedded Systems, and Hardware.
+overview: 'Cypress Semiconductor is listed with 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Acquired, Bluetooth, CapSense, Embedded Systems, and Hardware.
 
 
   The Cypress Semiconductor catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -231,9 +235,10 @@ rate_limits:
   name: Cypress Semiconductor Rate Limits
   slug: cypress-semiconductor-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Cypress Semiconductor API Rules
+  name: Cypress Semiconductor — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -241,7 +246,8 @@ rules:
     info: 2
     warn: 3
   slug: cypress-semiconductor-jsonschema-spectral-rules
-- effective_rule_count: 53
+- authorship: unmarked
+  effective_rule_count: 53
   extends:
   - spectral:oas
   name: Cypress Semiconductor API Rules
@@ -253,23 +259,23 @@ rules:
     warn: 7
   slug: cypress-semiconductor-rules
 score:
-  band: thin
-  composite: 30.7
+  band: emerging
+  composite: 23.8
   coverage:
     artifact_dirs: 11
-    catalog_earned: 76.0
+    catalog_earned: 60.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 39.0
+    catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.9
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 27.3
     contract_quality: 21.2
     developer_ergonomics: 31.0
     discoverability: 63.4
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   previous_composite: 30.7
   regulatory:
     applies: true
@@ -277,9 +283,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

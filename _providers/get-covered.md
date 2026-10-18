@@ -34,14 +34,23 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The Get Covered platform API — the integration surface that syncs resident, lease, policy, vendor certificate and invoice data two-way with property management systems (Yardi, Entrata, RealPage OneSit
   name: Get Covered Platform API
   slug: get-covered-platform-api
-artifact_total: 4
+artifact_total: 5
 common:
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.getcovered.io/
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/get-covered/refs/heads/main/plans/get-covered-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/get-covered-plans-pricing.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/get-covered/refs/heads/main/security/get-covered-domain-security.yml
   title: ''
@@ -149,24 +158,28 @@ modified: '2026-08-04'
 name: Get Covered
 nav: Providers
 network: true
-overview: 'Get Covered publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, Insurtech, Renters Insurance, and Property Management.
+overview: 'Get Covered is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, Insurtech, Renters Insurance, and Property Management.
 
 
-  Get Covered''s developer surface includes developer portal, documentation, engineering blog, support, and 19 more developer resources.'
+  Get Covered''s developer surface includes pricing, developer portal, documentation, engineering blog, support, and 20 more developer resources.'
+plans:
+- name: Get Covered Plans Pricing
+  plan_count: 0
+  slug: get-covered-plans-pricing
 random_paper: 9
 score:
   band: emerging
-  composite: 22.4
+  composite: 24.5
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.1
   facets:
-    access_clarity: 28.9
+    access_clarity: 39.5
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 26.2
@@ -188,8 +201,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 24.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

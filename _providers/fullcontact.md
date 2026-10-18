@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 17
+- acting_count: 14
   human_in_the_loop: 0
   name: Fullcontact Agentic Access
   operation_count: 17
   slug: fullcontact-agentic-access
-  summary_line: 17 operations · 17 acting
+  summary_line: 17 operations · 14 acting
 api_count: 1
 apis:
 - description: REST API providing person enrichment, company enrichment, identity resolution, mapping, and Acumen lead-details endpoints. Authentication uses a Bearer API key passed in the Authorization header (e.g.
@@ -113,6 +113,10 @@ collections:
   name: FullContact V3 API
   slug: open-fullcontact
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.fullcontact.com/feed/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/fullcontact/refs/heads/main/capabilities/fullcontact-capability-edges.yml
   title: ''
@@ -296,17 +300,17 @@ mcp_servers:
 - description: 'FullContact publishes a first-party hosted (remote) Model Context Protocol server that wraps the person.enrich API. It is authenticated with the same FullContact API key used for the REST API — there '
   name: FullContact MCP Server
   slug: fullcontact
-modified: '2026-08-14'
+modified: '2026-10-06'
 name: FullContact
 nav: Providers
 network: true
-overview: 'FullContact publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Address API, Audience API, Enrich API, and 5 more. Tagged areas include Identity Resolution, Customer Data, Data Enrichment, Person API, and Company API.
+overview: 'FullContact publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Address API, Audience API, Enrich API, and 5 more. Tagged areas include Identity Resolution, Customer Data, Data Enrichment, Person API, and Company API.
 
 
   The FullContact catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  FullContact''s developer surface includes authentication, documentation, signup flow, pricing, support, engineering blog, changelog, and 31 more developer resources.'
+  FullContact''s developer surface includes authentication, documentation, signup flow, pricing, support, engineering blog, changelog, and 32 more developer resources.'
 plans:
 - name: Fullcontact Plans Pricing
   plan_count: 0
@@ -318,15 +322,15 @@ rate_limits:
   slug: fullcontact-rate-limits
 score:
   band: strong
-  composite: 54.9
+  composite: 55.0
   coverage:
-    artifact_dirs: 25
+    artifact_dirs: 27
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 47.4
     contract_governance: 18.2
@@ -357,8 +361,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

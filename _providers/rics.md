@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 16
   slug: rics-agentic-access
   summary_line: 16 operations · 7 acting
-api_count: 1
+api_count: 2
 apis:
 - baseURL: https://api.rics.org
   baseurl_source: declared
@@ -334,7 +334,7 @@ modified: '2026-07-26'
 name: RICS (Royal Institution of Chartered Surveyors)
 nav: Providers
 network: true
-overview: 'RICS (Royal Institution of Chartered Surveyors) publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Azure Storage API, Ola Merchant Post API, Payment API, and 4 more. Tagged areas include Real Estate, United Kingdom, Industry Body, Valuation, and Standards.
+overview: 'RICS (Royal Institution of Chartered Surveyors) publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Azure Storage API, Ola Merchant Post API, Payment API, and 4 more. Tagged areas include Real Estate, United Kingdom, Industry Body, Valuation, and Standards.
 
 
   RICS (Royal Institution of Chartered Surveyors)''s developer surface includes authentication, changelog, code examples, engineering blog, support, signup flow, pricing, and 43 more developer resources.'
@@ -390,8 +390,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

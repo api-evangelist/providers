@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 53.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -493,9 +493,13 @@ features:
 - description: Tree- and graph-based reasoning harness for long-document retrieval with citations down to the pixel.
   name: Agentic RAG (nanoindex)
 finops:
-- name: Nanonets Finops
+- has_sources: true
+  method: generated
+  name: Nanonets Finops
+  primary_unit: run
   service_category: AI and Machine Learning
   slug: nanonets-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nanonets.png
 integrations:
 - description: ERP export connector for posting extracted data.
@@ -580,7 +584,7 @@ modified: '2026-05-25'
 name: Nanonets
 nav: Providers
 network: true
-overview: 'Nanonets publishes 10 APIs on the [APIs.io](https://apis.io/) network, including External Integrations API, File Assignment API, File Delete API, and 7 more. Tagged areas include Artificial Intelligence, OCR, Document AI, Intelligent Document Processing, and Data Extraction.
+overview: 'Nanonets publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including External Integrations API, File Assignment API, File Delete API, and 7 more. Tagged areas include Artificial Intelligence, OCR, Document AI, Intelligent Document Processing, and Data Extraction.
 
 
   The Nanonets catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -597,9 +601,10 @@ rate_limits:
   name: Nanonets Rate Limits
   slug: nanonets-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Nanonets API Rules
+  name: Nanonets — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -607,7 +612,8 @@ rules:
     info: 1
     warn: 4
   slug: nanonets-jsonschema-spectral-rules
-- effective_rule_count: 48
+- authorship: unmarked
+  effective_rule_count: 48
   extends:
   - spectral:oas
   name: Nanonets API Rules
@@ -619,24 +625,24 @@ rules:
     warn: 4
   slug: nanonets-rules
 score:
-  band: strong
-  composite: 57.6
+  band: developing
+  composite: 51.0
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 82.0
+    artifact_dirs: 22
+    catalog_earned: 66.4
     catalog_earned_first_party: 0.0
-    catalog_gap: 36.0
+    catalog_gap: 48.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -6.6
   facets:
-    access_clarity: 70.5
+    access_clarity: 50.0
     contract_governance: 27.3
     contract_quality: 59.6
     developer_ergonomics: 65.5
     discoverability: 65.0
-    operational_transparency: 41.6
-  previous_composite: 57.1
+    operational_transparency: 21.1
+  previous_composite: 57.6
   provenance:
     agentic_access: derived
     contracts:
@@ -651,9 +657,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

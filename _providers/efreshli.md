@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.efreshli.com/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/efreshli/refs/heads/main/security/efreshli-domain-security.yml
   title: ''
@@ -65,26 +69,26 @@ created: '2026-07-17'
 description: Efreshli is a Cairo, Egypt based online home-furnishing and interior-design commerce platform founded in 2018 by Heba El Gabaly. The company lets consumers design and shop their space online, pairing an e-commerce catalog of furniture, decor, lighting, rugs, bedding, and kitchen and dining goods with AI-assisted room design tools, curated collections, a gift registry, an Efreshli Pro membership, and a B2B / trade program that connects a network of vendors and brands. Efreshli is backed by 500 Global, Algebra Ventures, Marakez, and angel investor Tarek Sakr. This profile is a company record in the API Evangelist network; Efreshli operates a consumer e-commerce web storefront and publishes no public developer API, SDK, or documentation surface at this time.
 image: https://efreshli.com/separator-v1/images/og-image.jpg
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Efreshli
 nav: Providers
 network: true
 overview: 'Efreshli is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Furniture, Home Furnishings, and Interior Design.
 
 
-  Efreshli''s developer surface includes engineering blog, support, signup flow, and 3 more developer resources.'
+  Efreshli''s developer surface includes engineering blog, support, signup flow, and 4 more developer resources.'
 random_paper: 14
 score:
   band: minimal
-  composite: 10.0
+  composite: 10.1
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 23.7
     contract_governance: 0.0
@@ -99,6 +103,8 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - africa
+    - mena
+    - north-africa
   previous_composite: 10.0
   regulatory:
     applies: true
@@ -106,8 +112,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 9.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

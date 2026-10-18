@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 6
 apis:
 - description: Run queries against data ingested into Devo. Supports synchronous JSON/CSV/TSV responses and asynchronous job-based delivery to repositories (HDFS, Amazon S3, Kafka). Job requests start, stop, check s
@@ -57,6 +57,10 @@ apis:
   slug: devo-relay-api
 artifact_total: 9
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.devo.com/feed/
 - group: company
   title: ''
   type: Website
@@ -173,20 +177,20 @@ created: '2026-07-17'
 description: 'Devo is a cloud-native security data platform delivering unified SIEM, security analytics, and threat detection at petabyte scale, powered by its HyperStream data engine for real-time ingestion and analytics. Devo exposes a public REST API surface for programmatic access to the platform: a Query API for running synchronous and asynchronous (job) queries against ingested data, an Alerts API for managing alert definitions and alert instances, plus Activeboards, Lookups, Provisioning, and Relay APIs. Authentication uses domain API key and secret credentials (HMAC-SHA256 request signing via x-logtrust-apikey / -timestamp / -sign headers) or standalone Bearer tokens. First-party SDKs are published for Python, Node.js, and the browser, alongside a Grafana datasource, a Fluentd plugin, an ML Model Manager client, and a JavaScript application-builder framework. Regional API endpoints are provided for the US (apiv2-us.devo.com) and EU (apiv2-eu.devo.com).'
 image: https://www.devo.com/wp-content/themes/devo/assets/images/devo-logo.svg
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Devo
 nav: Providers
 network: true
-overview: 'Devo publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cybersecurity, SIEM, Security, and Security Data Platform.
+overview: 'Devo is listed with 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cybersecurity, SIEM, Security, and Security Data Platform.
 
 
-  Devo''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, signup flow, and 18 more developer resources.'
+  Devo''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, signup flow, and 19 more developer resources.'
 random_paper: 12
 score:
   band: thin
   composite: 36.3
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -209,8 +213,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

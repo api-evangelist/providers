@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: low
+  gated: partner
+  gated_source:
+  - tag:Partner Gated
   label: Unknown
   onboarding: unknown
   pricing: unknown
@@ -33,10 +36,14 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 2.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://global.lockton.com/feed
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/lockton/refs/heads/main/security/lockton-domain-security.yml
   title: ''
@@ -106,14 +113,14 @@ description: 'Lockton Companies is the world''s largest privately held, independ
   XML, NGDS or IVANS agency-download implementation is documented on any public Lockton property.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-modified: '2026-07-25'
+modified: '2026-10-06'
 name: Lockton
 nav: Providers
 network: true
-overview: 'Lockton is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, United States, Brokers, Insurance Brokerage, and Property and Casualty.
+overview: 'Lockton is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, United States, Brokerage, Insurance Brokerage, and Property and Casualty.
 
 
-  Lockton''s developer surface includes engineering blog, support, YouTube channel, and 12 more developer resources.'
+  Lockton''s developer surface includes engineering blog, support, YouTube channel, and 13 more developer resources.'
 random_paper: 14
 score:
   band: emerging
@@ -147,8 +154,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 12.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -164,7 +171,7 @@ slug: lockton
 tags:
 - Insurance
 - United States
-- Brokers
+- Brokerage
 - Insurance Brokerage
 - Property and Casualty
 - Employee Benefits
@@ -172,7 +179,5 @@ tags:
 - Specialty Insurance
 - Risk Management
 - ACORD
-- Partner Gated
-- No Public API
 website: https://global.lockton.com/us/en
 ---

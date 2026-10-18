@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 15.5
-  scored_at: '2026-10-04'
+  score: 13.6
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: RESTful API providing access to characters, locations, and episodes from the Rick and Morty animated series. Returns paginated JSON responses with up to 20 results per page.
@@ -111,9 +111,13 @@ common:
 created: '2026-06-13'
 description: Free REST and GraphQL API providing data about characters, locations, and episodes from the Rick and Morty animated series. No authentication required. Offers access to 826 characters, 126 locations, and 51 episodes with filtering, pagination, and character images.
 finops:
-- name: Rickandmorty Finops
+- has_sources: false
+  method: generated
+  name: Rickandmorty Finops
+  primary_unit: ''
   service_category: ''
   slug: rickandmorty-finops
+  template: true
 graphqls:
 - description: The Rick and Morty GraphQL API provides a flexible query interface for accessing data from the Rick and Morty animated series. It exposes three core data types — Character, Location, and Episode — and
   name: Rick and Morty GraphQL API
@@ -124,7 +128,7 @@ modified: '2026-06-13'
 name: Rick and Morty API
 nav: Providers
 network: true
-overview: 'Rick and Morty API publishes 2 APIs on the [APIs.io](https://apis.io/) network, including Rick and Morty REST API, and 1 more. Tagged areas include Rick and Morty, Characters, Episodes, Entertainment, and GraphQL.
+overview: 'Rick and Morty API is listed with 2 APIs on the [APIs.io](https://apis.io/) network, including Rick and Morty REST API, and 1 more. Tagged areas include Rick and Morty, Characters, Episodes, Entertainment, and GraphQL.
 
 
   Rick and Morty API''s developer surface includes documentation, engineering blog, pricing, and 12 more developer resources.'
@@ -138,23 +142,23 @@ rate_limits:
   name: Rickandmorty Rate Limits
   slug: rickandmorty-rate-limits
 score:
-  band: thin
-  composite: 27.4
+  band: emerging
+  composite: 22.0
   coverage:
     artifact_dirs: 9
-    catalog_earned: 54.4
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 60.6
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.4
   facets:
-    access_clarity: 37.4
+    access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 29.8
     developer_ergonomics: 9.5
     discoverability: 66.1
-    operational_transparency: 32.1
+    operational_transparency: 18.4
   open_source:
     applies: true
     score: 40.0
@@ -165,9 +169,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

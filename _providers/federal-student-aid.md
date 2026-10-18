@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: StudentAid.gov is the official consumer platform for U.S. federal student aid. Borrowers and students use the site to complete the FAFSA, manage federal loans, review repayment plans, and access aid r
@@ -44,6 +44,11 @@ apis:
   slug: college-scorecard
 artifact_total: 8
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/federal-student-aid/refs/heads/main/finops/federal-student-aid-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/federal-student-aid-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/federal-student-aid/refs/heads/main/security/federal-student-aid-domain-security.yml
   title: ''
@@ -145,19 +150,23 @@ common:
 created: '2024-12-03'
 description: The Federal Student Aid (FSA) office of the U.S. Department of Education provides grants, loans, and work-study funds to eligible students enrolled in college or career school. FSA operates StudentAid.gov as the consumer portal for managing federal student loans, completing the FAFSA, and exploring repayment options. FSA does not currently publish a public, open developer API program; aggregate higher education and aid data is redistributed through the Department of Education's open data programs such as the College Scorecard API.
 finops:
-- name: Federal Student Aid Finops
+- has_sources: false
+  method: generated
+  name: Federal Student Aid Finops
+  primary_unit: ''
   service_category: API
   slug: federal-student-aid-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/federal-student-aid.png
 layout: provider
 modified: '2026-09-09'
 name: Federal Student Aid
 nav: Providers
 network: true
-overview: 'Federal Student Aid publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Federal Government, Financial Aid, Grants, and Loans.
+overview: 'Federal Student Aid is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Federal Government, Financial Aid, Grants, and Loans.
 
 
-  Federal Student Aid''s developer surface includes support, authentication, changelog, and 18 more developer resources.'
+  Federal Student Aid''s developer surface includes support, authentication, changelog, and 19 more developer resources.'
 plans:
 - name: Federal Student Aid Plans Pricing
   plan_count: 0
@@ -169,17 +178,17 @@ rate_limits:
   slug: federal-student-aid-rate-limits
 score:
   band: thin
-  composite: 29.2
+  composite: 27.6
   coverage:
     artifact_dirs: 18
-    catalog_earned: 47.0
+    catalog_earned: 44.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 68.0
+    catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 26.3
+    access_clarity: 18.4
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 31.0
@@ -200,8 +209,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

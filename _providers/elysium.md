@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: Elysium Health's storefront implements the Universal Commerce Protocol (UCP) for agent-driven commerce, discoverable at https://www.elysiumhealth.com/.well-known/ucp. The merchant profile advertises t
@@ -47,6 +47,10 @@ apis:
   slug: elysium-storefront-json
 artifact_total: 7
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.elysiumhealth.com/blogs/aging101.atom
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/elysium/refs/heads/main/security/elysium-domain-security.yml
   title: ''
@@ -170,14 +174,14 @@ mcp_servers:
 - description: Remote MCP server at www.elysiumhealth.com over HTTP; 5 tools listed.
   name: Elysium Health MCP Server
   slug: elysium-health-ucp-shopping
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Elysium Health
 nav: Providers
 network: true
-overview: 'Elysium Health publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Longevity, Supplements, and Consumer Health.
+overview: 'Elysium Health is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Longevity, Supplements, and Consumer Health.
 
 
-  Elysium Health''s developer surface includes documentation, getting-started guide, support, engineering blog, signup flow, pricing, authentication, and 18 more developer resources.'
+  Elysium Health''s developer surface includes documentation, getting-started guide, support, engineering blog, signup flow, pricing, authentication, and 19 more developer resources.'
 random_paper: 6
 scopes:
 - name: Elysium Scopes
@@ -188,7 +192,7 @@ score:
   band: thin
   composite: 32.9
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -220,8 +224,8 @@ score:
     regime: Health
     regime_id: health
     score: 32.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

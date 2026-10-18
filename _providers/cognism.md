@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -311,16 +311,20 @@ examples:
   name: Cognism Search Contacts Standard Entitlement Response
   slug: cognism-search-contacts-standard-entitlement-response
 finops:
-- name: Cognism Finops
+- has_sources: true
+  method: generated
+  name: Cognism Finops
+  primary_unit: ''
   service_category: Sales Intelligence
   slug: cognism-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cognism.png
 layout: provider
 modified: '2026-08-13'
 name: Cognism
 nav: Providers
 network: true
-overview: 'Cognism publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Compliance API, Enrich API, Entitlement API, and 3 more. Tagged areas include Sales Intelligence, B2B, Enrichment, Contact Data, and GDPR.
+overview: 'Cognism is listed with 6 APIs on the [APIs.io](https://apis.io/) network, including Compliance API, Enrich API, Entitlement API, and 3 more. Tagged areas include Sales Intelligence, B2B, Data Enrichment, Contact Data, and GDPR.
 
 
   Cognism''s developer surface includes authentication, support, pricing, signup flow, engineering blog, and 23 more developer resources.'
@@ -335,17 +339,17 @@ rate_limits:
   slug: cognism-rate-limits
 score:
   band: developing
-  composite: 53.6
+  composite: 52.0
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 67.0
+    artifact_dirs: 24
+    catalog_earned: 64.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 48.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 100.0
+    access_clarity: 92.1
     contract_governance: 4.5
     contract_quality: 17.4
     developer_ergonomics: 63.7
@@ -374,8 +378,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -393,7 +397,7 @@ security:
 - kind: vulnerability-disclosure
   name: Cognism Vulnerability Disclosure
   slug: cognism-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 - kind: trust-center
   name: Cognism Trust Center
   slug: cognism-trust-center
@@ -402,7 +406,7 @@ slug: cognism
 tags:
 - Sales Intelligence
 - B2B
-- Enrichment
+- Data Enrichment
 - Contact Data
 - GDPR
 - Intent Data

@@ -33,10 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.getremy.ai/blog
 - group: company
   title: ''
   type: Website
@@ -80,42 +84,42 @@ created: '2026-07-17'
 description: Nomad Homes is a Partech-backed proptech company originally launched as a real-estate marketplace. It has since rebranded and pivoted to RemyAI (getremy.ai) — "the 24/7 intelligent assistant for real estate agents." RemyAI listens to agents' calls and texts, transcribes and summarizes them, auto-creates follow-up tasks and reminders, organizes buyer/seller contacts, and manages voicemail across iOS, Android, and desktop. The company's original domain nomadhomes.co now 301-redirects to getremy.ai. RemyAI publishes a public /.well-known/ai-plugin.json and an llms.txt describing the product, but it exposes NO public developer API, SDK, OpenAPI, or developer portal (its ai-plugin manifest explicitly declares api.type=none and auth.type=none).
 image: https://www.getremy.ai/remy_logo.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Nomad Homes
 nav: Providers
 network: true
 overview: 'Nomad Homes is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketplace, Real Estate, PropTech, and Artificial Intelligence.
 
 
-  Nomad Homes'' developer surface includes support and 8 more developer resources.'
+  Nomad Homes'' developer surface includes engineering blog, support, and 8 more developer resources.'
 random_paper: 12
 score:
   band: minimal
-  composite: 10.6
+  composite: 10.7
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 4.8
+    developer_ergonomics: 7.1
     discoverability: 55.4
     operational_transparency: 2.6
   previous_composite: 10.6
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 12.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

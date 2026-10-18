@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://events.userlens.io
@@ -51,6 +51,14 @@ collections:
   name: Userlens Events API
   slug: open-userlens-events-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://userlens.io/news
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://userlens.io/news/rss.xml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/userlens/refs/heads/main/overlays/userlens-events-overlay.yaml
   title: ''
@@ -173,26 +181,26 @@ mcp_servers:
 - description: Remote MCP server over HTTP; 4 tools listed. A candidate, not confirmed as published by the provider.
   name: Userlens MCP Server
   slug: userlens
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Userlens
 nav: Providers
 network: true
-overview: 'Userlens publishes 1 API on the [APIs.io](https://apis.io/) network: Events API. Tagged areas include Company, Customer Success, Product Analytics, AI Agents, and Churn Prediction.
+overview: 'Userlens publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Events API. Tagged areas include Company, Customer Success, Product Analytics, AI Agents, and Churn Prediction.
 
 
-  Userlens'' developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, authentication, and 19 more developer resources.'
+  Userlens'' developer surface includes engineering blog, documentation, API reference, getting-started guide, pricing, authentication, and 21 more developer resources.'
 random_paper: 1
 score:
   band: thin
-  composite: 36.1
+  composite: 36.2
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 52.6
     contract_governance: 18.2
@@ -223,8 +231,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

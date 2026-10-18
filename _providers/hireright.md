@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.hireright.com/blog/feed
 - group: company
   title: ''
   type: Website
@@ -110,14 +114,14 @@ description: HireRight is a leading global provider of employment background scr
   rather than an open API.
 image: https://www.hireright.com/assets/img/hr-default.jpg
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: HireRight
 nav: Providers
 network: true
 overview: 'HireRight is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Background Screening, Identity Verification, and Human Resources.
 
 
-  HireRight''s developer surface includes support, engineering blog, signup flow, and 13 more developer resources.'
+  HireRight''s developer surface includes support, engineering blog, signup flow, and 14 more developer resources.'
 random_paper: 20
 score:
   band: minimal
@@ -151,8 +155,8 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -167,7 +171,7 @@ security:
 - kind: vulnerability-disclosure
   name: Hireright Vulnerability Disclosure
   slug: hireright-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 - kind: trust-center
   name: Hireright Trust Center
   slug: hireright-trust-center

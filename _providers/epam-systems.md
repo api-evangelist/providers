@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The EPAM Systems API provides access to platform services and data for enterprise integration and automation.
@@ -41,6 +41,25 @@ apis:
   slug: epam-systems-api
 artifact_total: 5
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/epam-systems/refs/heads/main/plans/epam-systems-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/epam-systems-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/epam-systems/refs/heads/main/rate-limits/epam-systems-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/epam-systems-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/epam-systems/refs/heads/main/finops/epam-systems-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/epam-systems-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.epam.com/services/engineering
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/epam-systems/refs/heads/main/security/epam-systems-domain-security.yml
   title: ''
@@ -61,16 +80,23 @@ common:
 created: '2026-04-19'
 description: EPAM Systems is a major US corporation and Fortune 1000 company. The EPAM Systems API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.
 finops:
-- name: Epam Systems Finops
+- has_sources: true
+  method: generated
+  name: Epam Systems Finops
+  primary_unit: ''
   service_category: IT Services / Consulting
   slug: epam-systems-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/epam-systems.png
 layout: provider
-modified: '2026-04-19'
+modified: '2026-10-06'
 name: EPAM Systems
 nav: Providers
 network: true
-overview: EPAM Systems publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Software Engineering and Digital Transformation.
+overview: 'EPAM Systems is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Software Engineering and Digital Transformation.
+
+
+  EPAM Systems'' developer surface includes engineering blog and 7 more developer resources.'
 plans:
 - name: Epam Systems Plans Pricing
   plan_count: 1
@@ -82,20 +108,20 @@ rate_limits:
   slug: epam-systems-rate-limits
 score:
   band: minimal
-  composite: 9.8
+  composite: 8.8
   coverage:
-    artifact_dirs: 6
-    catalog_earned: 39.0
+    artifact_dirs: 8
+    catalog_earned: 36.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 76.0
+    catalog_gap: 79.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.0
   facets:
-    access_clarity: 13.2
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 9.5
+    developer_ergonomics: 11.9
     discoverability: 57.1
     operational_transparency: 7.9
   previous_composite: 9.8
@@ -105,13 +131,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/epam-systems/refs/heads/main/screenshots/epam-systems-2026-10-11T185653.png
 security:
 - kind: domain-security
   name: Epam Systems Domain Security

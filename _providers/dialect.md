@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 40
   slug: dialect-agentic-access
   summary_line: 40 operations · 22 acting
-api_count: 3
+api_count: 6
 apis:
 - baseURL: https://alerts-api.dial.to
   baseurl_source: declared
@@ -284,7 +284,7 @@ modified: '2026-07-18'
 name: Dialect
 nav: Providers
 network: true
-overview: 'Dialect publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Blink API, Blink Data Table API, Blink Lists API, and 6 more. Tagged areas include Company, Infrastructure, Web3, Blockchain, and Solana.
+overview: 'Dialect publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Blink API, Blink Data Table API, Blink Lists API, and 6 more. Tagged areas include Company, Infrastructure, Web3, Blockchain, and Solana.
 
 
   The Dialect catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -327,8 +327,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 22.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

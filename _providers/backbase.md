@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -31,7 +31,7 @@ agentic_access:
   operation_count: 26
   slug: backbase-agentic-access
   summary_line: 26 operations · 12 acting
-api_count: 2
+api_count: 4
 apis:
 - baseURL: https://api.backbase.com
   baseurl_source: declared
@@ -73,7 +73,7 @@ apis:
   description: The wallet API from BackBase — 2 operation(s) for wallet.
   name: BackBase Wallet API
   slug: backbase-wallet-api
-artifact_total: 25
+artifact_total: 26
 common:
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/backbase/refs/heads/main/agentic-access/backbase-agentic-access.yml
@@ -187,6 +187,10 @@ common:
   title: ''
   type: Website
   url: https://www.backbase.com
+- group: design
+  title: ''
+  type: SpectralRules
+  url: https://github.com/Backbase/backbase-openapi-tools/blob/6290a82f514c77c90e697555040df39820e15024/boat-quay/openapi-rules.yml
 created: '2026-09-27'
 description: BackBase provides an AI-native Banking Operating System that enables banks to deliver digital experiences, integrate open banking, and accelerate product innovation. The platform offers modular components for customer engagement, core banking, risk management, and marketplace extensions, helping financial institutions modernize their services and improve operational efficiency.
 image: https://cdn.prod.website-files.com/688b633d00cf5931b997219b/69e897c9dfa32eb11c5bb807_Open%20Graph.jpg
@@ -237,16 +241,29 @@ modified: '2026-09-27'
 name: BackBase
 nav: Providers
 network: true
-overview: 'BackBase publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Approve API, Bbt API, Patch API, and 5 more. Tagged areas include Banking, Fintech, Digital Banking, API Platform, and AI-Native.
+overview: 'BackBase publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Approve API, Bbt API, Patch API, and 5 more. Tagged areas include Banking, Fintech, Digital Banking, API Platform, and AI-Native.
 
 
-  The BackBase catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+  The BackBase catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  BackBase''s developer surface includes documentation, engineering blog, getting-started guide, and 21 more developer resources.'
+  BackBase''s developer surface includes documentation, engineering blog, getting-started guide, and 22 more developer resources.'
 random_paper: 20
 rules:
-- effective_rule_count: 54
+- authorship: provider
+  effective_rule_count: 48
+  extends:
+  - spectral:oas
+  name: BackBase — backbase openapi tools rules
+  rule_count: 7
+  severity_counts:
+    error: 7
+    hint: 0
+    info: 0
+    warn: 0
+  slug: backbase-backbase-openapi-tools-spectral-rules
+- authorship: generated
+  effective_rule_count: 54
   extends:
   - spectral:oas
   name: BackBase API Rules
@@ -259,21 +276,23 @@ rules:
   slug: backbase-rules
 score:
   band: thin
-  composite: 33.9
+  composite: 34.5
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 62.8
+    artifact_dirs: 21
+    catalog_earned: 65.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 52.3
+    catalog_gap: 49.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.6
   facets:
     access_clarity: 10.5
     contract_governance: 22.0
     contract_quality: 57.6
     developer_ergonomics: 32.7
-    discoverability: 75.0
+    discoverability: 80.4
     operational_transparency: 15.8
+  previous_composite: 33.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -290,11 +309,13 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 16.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: flat
   upsert:
     applies: true
     score: 0.0
+screenshot: https://raw.githubusercontent.com/api-evangelist/backbase/refs/heads/main/screenshots/backbase-2026-10-11T101427.png
 security:
 - kind: domain-security
   name: Backbase Domain Security

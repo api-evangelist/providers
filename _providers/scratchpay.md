@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -175,7 +175,7 @@ modified: '2026-07-21'
 name: Scratchpay
 nav: Providers
 network: true
-overview: 'Scratchpay publishes 2 APIs on the [APIs.io](https://apis.io/) network: Borrower application API and Borrower application result API. Tagged areas include Company, Financing, Payments, Lending, and Veterinary.
+overview: 'Scratchpay publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Borrower application API and Borrower application result API. Tagged areas include Company, Financing, Payments, Lending, and Veterinary.
 
 
   The Scratchpay catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -217,8 +217,8 @@ score:
     regime: Health
     regime_id: health
     score: 19.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

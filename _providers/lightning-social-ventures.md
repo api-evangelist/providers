@@ -24,7 +24,7 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: derived
     idempotency: false
-    mcp_server: platform
+    mcp_server: verified
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: false
@@ -32,8 +32,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.6
-  scored_at: '2026-10-04'
+  score: 26.1
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 3
@@ -77,6 +77,10 @@ collections:
   name: Lightning Reach Applications Webhooks API
   slug: open-lightning-social-ventures-webhooks-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.lightningreach.org/press
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/lightning-social-ventures/refs/heads/main/capabilities/lightning-social-ventures-capability-edges.yml
   title: ''
@@ -189,34 +193,34 @@ created: '2026-07-17'
 description: Lightning Social Ventures is the UK social-impact company behind Lightning Reach, a financial support platform that connects people facing hardship to grants, benefits, vouchers and assistance schemes through a single profile and eligibility match. Councils, housing associations, charities, utilities and banks use the platform to run and administer their own support programmes, from application intake through evidence review to award and payment. Lightning Reach operates a partner-facing REST API that exposes support schemes, application submission and referral, applicant evidence assets, decision and award recording, and webhook subscriptions with public-key signature verification.
 image: https://static.wixstatic.com/media/b5277c_f5fd0014edb2463184acc145d446cc23~mv2.png/v1/fill/w_2400,h_1260,al_c/b5277c_f5fd0014edb2463184acc145d446cc23~mv2.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Lightning Social Ventures
 nav: Providers
 network: true
-overview: 'Lightning Social Ventures publishes 3 APIs on the [APIs.io](https://apis.io/) network: Applications API, Support Schemes API, and Webhooks API. Tagged areas include Company, Financial Inclusion, Grants, Social Impact, and Non-Profit.
+overview: 'Lightning Social Ventures publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Applications API, Support Schemes API, and Webhooks API. Tagged areas include Company, Financial Inclusion, Grants, Social Impact, and Non-Profit.
 
 
   The Lightning Social Ventures catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Lightning Social Ventures'' developer surface includes API reference, support, signup flow, and 20 more developer resources.'
+  Lightning Social Ventures'' developer surface includes engineering blog, API reference, support, signup flow, and 20 more developer resources.'
 random_paper: 7
 score:
   band: thin
-  composite: 28.2
+  composite: 28.7
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 21
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 27.6
     contract_governance: 4.5
     contract_quality: 43.1
-    developer_ergonomics: 13.7
+    developer_ergonomics: 16.1
     discoverability: 75.0
     operational_transparency: 7.9
   jurisdiction:
@@ -236,7 +240,7 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-    mcp: platform-generated
+    mcp: first-party
     skills: derived
   regulatory:
     applies: true
@@ -244,8 +248,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 18.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

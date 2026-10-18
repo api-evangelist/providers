@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: platform
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.6
-  scored_at: '2026-10-04'
+  score: 15.7
+  scored_at: '2026-10-17'
 api_count: 4
 apis:
 - description: Finds and returns the optimal swap route across 420+ liquidity sources on 17+ EVM chains. Returns the best route and encodes calldata for submission to the KyberSwap Aggregator smart contract.
@@ -50,6 +50,25 @@ apis:
   slug: kyberswap-onchain-price-service-api
 artifact_total: 11
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/kyberswap/refs/heads/main/plans/plans.yml
+  title: ''
+  type: Plans
+  url: plans/plans.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/kyberswap/refs/heads/main/rate-limits/rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/kyberswap/refs/heads/main/finops/finops.yml
+  title: ''
+  type: FinOps
+  url: finops/finops.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.kyberswap.com/feed/
 - group: company
   title: ''
   type: Website
@@ -62,9 +81,13 @@ common:
 created: '2026-06-14'
 description: KyberSwap is a multi-chain DEX aggregator and liquidity protocol offering REST APIs for swap routing, limit orders, liquidity provision via Zap-as-a-Service, and on-chain token pricing. It aggregates liquidity across 420+ sources on 17+ EVM chains, enabling developers to access best-rate swaps, manage limit orders gaslessly, and enter or exit concentrated liquidity positions with any single token.
 finops:
-- name: Finops
+- has_sources: false
+  method: generated
+  name: Finops
+  primary_unit: ''
   service_category: ''
   slug: finops
+  template: true
 graphqls:
 - description: KyberSwap Elastic exposes on-chain liquidity data through The Graph Protocol subgraph. The subgraph indexes all events from the KyberSwap Elastic (concentrated liquidity) smart contracts on Ethereum m
   name: KyberSwap GraphQL API
@@ -80,11 +103,11 @@ mcp_servers:
 - description: Remote MCP server at docs.kyberswap.com over HTTP; 4 tools listed.
   name: KyberSwap MCP Server
   slug: kyberswap
-modified: '2026-09-16'
+modified: '2026-10-06'
 name: KyberSwap
 nav: Providers
 network: true
-overview: 'KyberSwap publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Aggregator API, Limit Order API, and 2 more. Tagged areas include DeFi, DEX, Aggregator, Swap, and Liquidity.
+overview: 'KyberSwap is listed with 4 APIs on the [APIs.io](https://apis.io/) network, including Aggregator API, Limit Order API, and 2 more. Tagged areas include DeFi, Decentralized Exchange, Aggregator, Swap, and Liquidity.
 
 
   The KyberSwap catalog on APIs.io includes 1 JSON-LD context.'
@@ -99,17 +122,17 @@ rate_limits:
   slug: rate-limits
 score:
   band: emerging
-  composite: 25.4
+  composite: 21.1
   coverage:
-    artifact_dirs: 10
-    catalog_earned: 58.2
+    artifact_dirs: 11
+    catalog_earned: 50.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 56.8
+    catalog_gap: 65.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -4.3
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 43.6
     developer_ergonomics: 9.5
@@ -120,12 +143,12 @@ score:
     mcp: first-party
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
-    score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+    matched_via: tags
+    regime: Securities & Market Data
+    regime_id: securities_market_data
+    score: 15.7
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -140,7 +163,7 @@ security:
 slug: kyberswap
 tags:
 - DeFi
-- DEX
+- Decentralized Exchange
 - Aggregator
 - Swap
 - Liquidity

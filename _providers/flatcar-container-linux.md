@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.1
-  scored_at: '2026-10-04'
+  score: 26.2
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -118,6 +118,21 @@ collections:
   name: Nebraska
   slug: open-nebraska-update-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/flatcar-container-linux/refs/heads/main/plans/flatcar-container-linux-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/flatcar-container-linux-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/flatcar-container-linux/refs/heads/main/rate-limits/flatcar-container-linux-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/flatcar-container-linux-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/flatcar-container-linux/refs/heads/main/finops/flatcar-container-linux-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/flatcar-container-linux-finops.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -192,19 +207,23 @@ common:
 created: '2026-03-16'
 description: Flatcar Container Linux is a CNCF incubating minimal, immutable Linux distribution designed for running containers. It provides automatic atomic updates through the Nebraska update server, ensuring nodes stay secure and consistent. Flatcar supports Kubernetes deployments on bare metal, cloud, and virtual environments with a focus on security and operational simplicity.
 finops:
-- name: Flatcar Container Linux Finops
+- has_sources: false
+  method: generated
+  name: Flatcar Container Linux Finops
+  primary_unit: ''
   service_category: API
   slug: flatcar-container-linux-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/flatcar-container-linux.png
 layout: provider
 modified: '2026-05-19'
 name: Flatcar Container Linux
 nav: Providers
 network: true
-overview: 'Flatcar Container Linux publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Activity API, Apps API, Channels API, and 5 more. Tagged areas include Cloud-Native, Containers, Immutable Infrastructure, Incubating, and Linux.
+overview: 'Flatcar Container Linux publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Activity API, Apps API, Channels API, and 5 more. Tagged areas include Cloud-Native, Containers, Immutable Infrastructure, Incubating, and Linux.
 
 
-  Flatcar Container Linux''s developer surface includes authentication, documentation, release notes, engineering blog, and 13 more developer resources.'
+  Flatcar Container Linux''s developer surface includes authentication, documentation, release notes, engineering blog, and 16 more developer resources.'
 plans:
 - name: Flatcar Container Linux Plans Pricing
   plan_count: 3
@@ -216,17 +235,17 @@ rate_limits:
   slug: flatcar-container-linux-rate-limits
 score:
   band: thin
-  composite: 36.6
+  composite: 35.3
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 46.0
+    artifact_dirs: 12
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 69.0
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.3
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 44.8
     developer_ergonomics: 26.2
@@ -249,8 +268,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

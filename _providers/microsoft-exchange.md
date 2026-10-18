@@ -28,20 +28,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.9
-  scored_at: '2026-10-04'
+  score: 29.0
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 51
+- acting_count: 48
   human_in_the_loop: 0
   name: Microsoft Exchange Agentic Access
-  operation_count: 79
+  operation_count: 86
   slug: microsoft-exchange-agentic-access
-  summary_line: 79 operations · 51 acting
+  summary_line: 86 operations · 48 acting
 api_count: 6
 apis:
 - description: Legacy SOAP-based API for Exchange Server providing comprehensive access to mailbox data and operations. Planned for deprecation in Exchange Online in October 2026, with Microsoft Graph recommended fo
@@ -283,6 +283,21 @@ collections:
   name: Microsoft Exchange Exchange Online Admin Accepted Domains Scheduling API
   slug: open-microsoft-exchange-scheduling-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-exchange/refs/heads/main/plans/microsoft-exchange-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/microsoft-exchange-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-exchange/refs/heads/main/rate-limits/microsoft-exchange-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/microsoft-exchange-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-exchange/refs/heads/main/finops/microsoft-exchange-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/microsoft-exchange-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/microsoft-exchange/refs/heads/main/overlays/microsoft-exchange-admin-api-overlay.yaml
   title: ''
@@ -577,9 +592,13 @@ common:
 created: '2024-01-01'
 description: A comprehensive API collection for Microsoft Exchange Server and Exchange Online, providing programmatic access to email, calendars, contacts, and other mailbox resources through Microsoft Graph, EWS, PowerShell, Autodiscover, and the Exchange Online Admin API.
 finops:
-- name: Microsoft Exchange Finops
+- has_sources: true
+  method: generated
+  name: Microsoft Exchange Finops
+  primary_unit: ''
   service_category: Email and Collaboration
   slug: microsoft-exchange-finops
+  template: false
 image: https://learn.microsoft.com/en-us/media/logos/logo-ms-social.png
 json_schemas:
 - name: AdminApiResponse
@@ -752,13 +771,13 @@ modified: '2026-06-20'
 name: Microsoft Exchange
 nav: Providers
 network: true
-overview: 'Microsoft Exchange publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Accepted Domains API, Attachments API, Calendars API, and 17 more. Tagged areas include Calendar, Collaboration, Contacts, Email, and Enterprise.
+overview: 'Microsoft Exchange publishes 20 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accepted Domains API, Attachments API, Calendars API, and 17 more. Tagged areas include Calendar, Collaboration, Contacts, Email, and Enterprise.
 
 
   The Microsoft Exchange catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Microsoft Exchange''s developer surface includes authentication, changelog, CLI, sandbox, developer portal, documentation, getting-started guide, and 55 more developer resources.'
+  Microsoft Exchange''s developer surface includes authentication, changelog, CLI, sandbox, developer portal, documentation, getting-started guide, and 58 more developer resources.'
 plans:
 - name: Microsoft Exchange Plans Pricing
   plan_count: 4
@@ -769,9 +788,10 @@ rate_limits:
   name: Microsoft Exchange Rate Limits
   slug: microsoft-exchange-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: Microsoft Exchange API Rules
+  name: Microsoft Exchange — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -786,23 +806,23 @@ scopes:
   summary_line: 18 scopes · clientCredentials/authorizationCode
 score:
   band: strong
-  composite: 58.9
+  composite: 57.4
   coverage:
     artifact_dirs: 33
-    catalog_earned: 60.3
+    catalog_earned: 57.3
     catalog_earned_first_party: 0.0
     catalog_gap: 57.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: -1.5
   facets:
-    access_clarity: 48.7
+    access_clarity: 40.8
     contract_governance: 14.4
     contract_quality: 64.6
     developer_ergonomics: 79.8
     discoverability: 78.6
     operational_transparency: 34.2
-  previous_composite: 58.3
+  previous_composite: 58.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -818,8 +838,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

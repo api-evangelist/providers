@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -265,6 +265,21 @@ collections:
   name: Red Hat OpenShift Container Platform Add-ons Versions API
   slug: open-red-hat-openshift-versions-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat-openshift/refs/heads/main/plans/red-hat-openshift-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/red-hat-openshift-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat-openshift/refs/heads/main/rate-limits/red-hat-openshift-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/red-hat-openshift-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat-openshift/refs/heads/main/finops/red-hat-openshift-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/red-hat-openshift-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/red-hat-openshift/refs/heads/main/capabilities/red-hat-openshift-capability-edges.yml
   title: ''
@@ -383,9 +398,13 @@ examples:
   name: Red Hat Openshift Create Route Example
   slug: red-hat-openshift-create-route-example
 finops:
-- name: Red Hat Openshift Finops
+- has_sources: true
+  method: generated
+  name: Red Hat Openshift Finops
+  primary_unit: ''
   service_category: Container Platform
   slug: red-hat-openshift-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/red-hat-openshift.png
 json_schemas:
 - name: AddOnInstallation
@@ -486,13 +505,13 @@ modified: '2026-09-16'
 name: Red Hat OpenShift
 nav: Providers
 network: true
-overview: 'Red Hat OpenShift publishes 40 APIs on the [APIs.io](https://apis.io/) network, including Add-ons API, Builds API, Clusters API, and 37 more. Tagged areas include Containers, Enterprise, Hybrid Cloud, Kubernetes, and Platform-as-a-Service.
+overview: 'Red Hat OpenShift publishes 40 API contracts indexed on the [APIs.io](https://apis.io/) network, including Add-ons API, Builds API, Clusters API, and 37 more. Tagged areas include Containers, Enterprise, Hybrid Cloud, Kubernetes, and Platform-as-a-Service.
 
 
   The Red Hat OpenShift catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Red Hat OpenShift''s developer surface includes authentication, documentation, pricing, engineering blog, signup flow, support, training material, and 17 more developer resources.'
+  Red Hat OpenShift''s developer surface includes authentication, documentation, pricing, engineering blog, signup flow, support, training material, and 20 more developer resources.'
 plans:
 - name: Red Hat Openshift Plans Pricing
   plan_count: 8
@@ -503,9 +522,10 @@ rate_limits:
   name: Red Hat Openshift Rate Limits
   slug: red-hat-openshift-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Red Hat OpenShift API Rules
+  name: Red Hat OpenShift — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -513,7 +533,8 @@ rules:
     info: 2
     warn: 3
   slug: red-hat-openshift-jsonschema-spectral-rules
-- effective_rule_count: 54
+- authorship: unmarked
+  effective_rule_count: 54
   extends:
   - spectral:oas
   name: Red Hat OpenShift API Rules
@@ -526,17 +547,17 @@ rules:
   slug: red-hat-openshift-rules
 score:
   band: developing
-  composite: 49.5
+  composite: 48.0
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 62.0
+    artifact_dirs: 20
+    catalog_earned: 59.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.0
+    catalog_gap: 56.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 60.5
+    access_clarity: 52.6
     contract_governance: 27.3
     contract_quality: 58.4
     developer_ergonomics: 41.7
@@ -556,8 +577,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

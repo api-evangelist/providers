@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The HTTP API behind Accenta's effiPilot building-energy platform. It is an RPC-style JSON surface — requests take the form /api/method/<methodName> — served per customer tenant from the wildcard accen
@@ -179,7 +179,7 @@ modified: '2026-08-17'
 name: Accenta
 nav: Providers
 network: true
-overview: 'Accenta publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Data, Energy, Buildings, and Smart Buildings.
+overview: 'Accenta is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Data, Energy, Buildings, and Smart Buildings.
 
 
   Accenta''s developer surface includes support, engineering blog, authentication, and 22 more developer resources.'
@@ -196,7 +196,7 @@ score:
   band: emerging
   composite: 21.3
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -231,8 +231,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 23.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

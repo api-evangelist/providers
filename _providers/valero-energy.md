@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'Valero Energy Corporation SEC filings and financial data available through the SEC EDGAR system. Includes 10-K, 10-Q, earnings releases, and other regulatory filings. Accessible via the SEC EDGAR API '
@@ -41,6 +41,21 @@ apis:
   slug: sec-edgar
 artifact_total: 11
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/valero-energy/refs/heads/main/plans/valero-energy-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/valero-energy-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/valero-energy/refs/heads/main/rate-limits/valero-energy-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/valero-energy-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/valero-energy/refs/heads/main/finops/valero-energy-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/valero-energy-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/valero-energy/refs/heads/main/security/valero-energy-domain-security.yml
   title: ''
@@ -81,9 +96,13 @@ examples:
   name: Valero Energy Refinery Example
   slug: valero-energy-refinery-example
 finops:
-- name: Valero Energy Finops
+- has_sources: true
+  method: generated
+  name: Valero Energy Finops
+  primary_unit: ''
   service_category: Energy
   slug: valero-energy-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/valero-energy.png
 json_schemas:
 - name: Valero Energy Financial Result
@@ -106,7 +125,7 @@ modified: '2026-07-25'
 name: Valero Energy
 nav: Providers
 network: true
-overview: 'Valero Energy publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Petroleum, Refining, Renewable Fuels, and Fortune 100.
+overview: 'Valero Energy is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Petroleum, Refining, Renewable Fuels, and Fortune 100.
 
 
   The Valero Energy catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.'
@@ -136,9 +155,10 @@ rate_limits:
   name: Valero Energy Rate Limits
   slug: valero-energy-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Valero Energy API Rules
+  name: Valero Energy — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -148,17 +168,17 @@ rules:
   slug: valero-energy-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 14.8
+  composite: 13.2
   coverage:
     artifact_dirs: 15
-    catalog_earned: 51.8
+    catalog_earned: 48.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 63.3
+    catalog_gap: 66.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 13.2
+    access_clarity: 5.3
     contract_governance: 23.5
     contract_quality: 6.7
     developer_ergonomics: 9.5
@@ -178,8 +198,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 9.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 5
 apis:
 - baseURL: https://graphql-gateway.optisigns.com/graphql
@@ -61,6 +61,10 @@ collections:
   name: OptiSigns GraphQL API
   slug: open-optisigns
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.optisigns.com/blog
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/optisigns/refs/heads/main/security/optisigns-trust-center.yml
   title: ''
@@ -114,23 +118,27 @@ common:
 created: '2026-07-05'
 description: OptiSigns is a cloud digital signage platform that turns any TV or display into a digital sign using low-cost media players (Android, Amazon Fire TV, Raspberry Pi, ProDVX, and others). Screens, media assets, playlists, and schedules are managed centrally from the OptiSigns dashboard. Developers manage the same resources programmatically through the OptiSigns GraphQL API, which is served from a single endpoint at https://graphql-gateway.optisigns.com/graphql and authenticated with a Bearer API key. API access is a paid capability available on the Pro Plus plan and higher; the API covers devices (screens), assets (content), playlists, schedules, and team management. Official TypeScript/JavaScript and Python SDKs plus an API cookbook are published on GitHub.
 finops:
-- name: Optisigns Finops
+- has_sources: true
+  method: generated
+  name: Optisigns Finops
+  primary_unit: ''
   service_category: Digital Signage
   slug: optisigns-finops
+  template: false
 graphqls:
 - description: OptiSigns is a cloud digital signage platform. Its public developer API is **GraphQL only** - there is no REST API. All operations run against a single endpoint, and the same URL serves an interactive
   name: OptiSigns GraphQL API
   slug: optisigns-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/optisigns.png
 layout: provider
-modified: '2026-07-05'
+modified: '2026-10-06'
 name: OptiSigns
 nav: Providers
 network: true
-overview: 'OptiSigns publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Devices API, Assets API, and 3 more. Tagged areas include Digital Signage, Screens, Content Management, GraphQL, and Displays.
+overview: 'OptiSigns is listed with 5 APIs on the [APIs.io](https://apis.io/) network, including Devices API, Assets API, and 3 more. Tagged areas include Digital Signage, Screens, Content Management, GraphQL, and Displays.
 
 
-  OptiSigns'' developer surface includes documentation, SDKs, and 9 more developer resources.'
+  OptiSigns'' developer surface includes engineering blog, documentation, SDKs, and 9 more developer resources.'
 plans:
 - name: Optisigns Plans Pricing
   plan_count: 6
@@ -142,31 +150,31 @@ rate_limits:
   slug: optisigns-rate-limits
 score:
   band: emerging
-  composite: 25.8
+  composite: 18.0
   coverage:
-    artifact_dirs: 8
-    catalog_earned: 64.6
+    artifact_dirs: 9
+    catalog_earned: 46.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 50.4
+    catalog_gap: 69.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -10.6
+  delta: -7.8
   facets:
-    access_clarity: 44.2
+    access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 28.1
+    developer_ergonomics: 30.5
     discoverability: 71.4
-    operational_transparency: 31.1
-  previous_composite: 36.4
+    operational_transparency: 10.5
+  previous_composite: 25.8
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: falling
   upsert:
     applies: false

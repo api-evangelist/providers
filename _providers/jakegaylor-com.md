@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: Hosted MCP server exposing Jake Gaylor's resume, links and website text as resources and tools, structured screening preferences, an LLM-backed role-fit assessment and interview-question generator, li
@@ -32,8 +32,12 @@ apis:
 - description: 'A2A agent representing Jake Gaylor, discovered at /.well-known/agent-card.json on ai.jakegaylor.com (and as a static copy on jakegaylor.com) with a JSON-RPC interface at /a2a serving protocol 1.0 and '
   name: Jake Gaylor A2A Agent
   slug: jake-gaylor-a2a-agent
-artifact_total: 8
+artifact_total: 7
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://jakegaylor.com/feed
 - group: company
   title: ''
   type: Website
@@ -132,17 +136,14 @@ mcp_servers:
 - description: 'Hosted Model Context Protocol server that makes Jake Gaylor''s resume, links, screening preferences and calendar legible to AI assistants: read tools, an LLM-backed role-fit assessment and interview-qu'
   name: Jake Gaylor MCP Server
   slug: jake-gaylor-mcp-server
-- description: ''
-  name: Jake Gaylor MCP Server
-  slug: mcp
-modified: '2026-09-19'
+modified: '2026-10-06'
 name: Jake Gaylor
 nav: Providers
 network: true
-overview: 'Jake Gaylor publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Agents, AI Agents, A2A, and MCP.
+overview: 'Jake Gaylor is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Agents, AI Agents, A2A, and MCP.
 
 
-  Jake Gaylor''s developer surface includes documentation, engineering blog, authentication, and 16 more developer resources.'
+  Jake Gaylor''s developer surface includes documentation, engineering blog, authentication, and 17 more developer resources.'
 plans:
 - name: Jakegaylor Com Plans Pricing
   plan_count: 0
@@ -154,15 +155,15 @@ rate_limits:
   slug: jakegaylor-com-rate-limits
 score:
   band: emerging
-  composite: 18.4
+  composite: 18.5
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 19
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 0.0
     contract_governance: 18.2
@@ -181,13 +182,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/jakegaylor-com/refs/heads/main/screenshots/jakegaylor-com-2026-10-11T105912.png
 security:
 - kind: authentication
   name: Jakegaylor Com Authentication

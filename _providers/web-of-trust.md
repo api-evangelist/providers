@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: IP/domain/URL reputation
@@ -65,7 +65,7 @@ modified: '2026-05-28'
 name: Web of Trust
 nav: Providers
 network: true
-overview: 'Web of Trust publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Anti Malware and Public APIs.
+overview: 'Web of Trust is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Anti Malware and Public APIs.
 
 
   Web of Trust''s developer surface includes engineering blog and 3 more developer resources.'
@@ -95,8 +95,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

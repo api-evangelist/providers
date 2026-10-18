@@ -33,10 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.shriramfinance.in/articles
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/shriram-city/refs/heads/main/security/shriram-city-domain-security.yml
   title: ''
@@ -54,28 +58,31 @@ created: '2026-07-17'
 description: 'Shriram City (Shriram City Union Finance Ltd) was a leading Indian non-banking financial company (NBFC) in the Shriram Group, offering personal, business, two-wheeler, gold and small-enterprise loans plus fixed deposits. Founded 1986 in Chennai, it was surfaced as a portfolio company of bessemer-venture-partners. In November 2022 the company was amalgamated into Shriram Finance Ltd; its www.shriramcity.in host no longer resolves and the shriramcity.in apex now redirects to shriramfinance.in. No public developer or API program was found. This profile was enriched by the API Evangelist pipeline: web search + live domain/security/well-known probes.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/shriram-city.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Shriram City
 nav: Providers
 network: true
-overview: Shriram City is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, NBFC, Lending, and Consumer Finance.
+overview: 'Shriram City is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, NBFC, Lending, and Consumer Finance.
+
+
+  Shriram City''s developer surface includes engineering blog and 3 more developer resources.'
 random_paper: 12
 score:
   band: minimal
-  composite: 3.4
+  composite: 3.9
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 48.2
     operational_transparency: 0.0
   jurisdiction:
@@ -92,8 +99,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

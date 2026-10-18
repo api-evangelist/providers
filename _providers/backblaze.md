@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.3
-  scored_at: '2026-10-04'
+  score: 30.4
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 24
+- acting_count: 15
   human_in_the_loop: 0
   name: Backblaze Agentic Access
   operation_count: 27
   slug: backblaze-agentic-access
-  summary_line: 27 operations · 24 acting
+  summary_line: 27 operations · 15 acting
 api_count: 7
 apis:
 - description: The Backblaze S3-Compatible API allows existing applications built for Amazon S3 to work with Backblaze B2 Cloud Storage with minimal code changes. Supports S3 authentication (AWS Signature V4) and S3
@@ -145,6 +145,21 @@ collections:
   name: Backblaze B2 Native Application Keys Notifications API
   slug: open-backblaze-notifications-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/backblaze/refs/heads/main/plans/backblaze-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/backblaze-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/backblaze/refs/heads/main/rate-limits/backblaze-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/backblaze-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/backblaze/refs/heads/main/finops/backblaze-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/backblaze-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/backblaze/refs/heads/main/mcp/backblaze-mcp.yml
   title: ''
@@ -543,9 +558,13 @@ features:
 - description: Zero egress fees when serving B2 data through Cloudflare CDN.
   name: Cloudflare Bandwidth Alliance
 finops:
-- name: Backblaze Finops
+- has_sources: false
+  method: generated
+  name: Backblaze Finops
+  primary_unit: ''
   service_category: API
   slug: backblaze-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/backblaze.png
 json_schemas:
 - name: AllowedCapabilities
@@ -815,13 +834,13 @@ modified: '2026-09-13'
 name: Backblaze
 nav: Providers
 network: true
-overview: 'Backblaze publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Application Keys API, Authorization API, Buckets API, and 4 more. Tagged areas include Cloud Storage, Object Storage, Storage, and Backup.
+overview: 'Backblaze is listed with 7 APIs on the [APIs.io](https://apis.io/) network, including Application Keys API, Authorization API, Buckets API, and 4 more. Tagged areas include Cloud Storage, Object Storage, Storage, and Backup.
 
 
   The Backblaze catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Backblaze''s developer surface includes authentication, changelog, CLI, developer portal, documentation, getting-started guide, pricing, and 47 more developer resources.'
+  Backblaze''s developer surface includes authentication, changelog, CLI, developer portal, documentation, getting-started guide, pricing, and 50 more developer resources.'
 plans:
 - name: Backblaze Plans Pricing
   plan_count: 3
@@ -832,9 +851,10 @@ rate_limits:
   name: Backblaze Rate Limits
   slug: backblaze-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Backblaze API Rules
+  name: Backblaze — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -842,7 +862,8 @@ rules:
     info: 2
     warn: 3
   slug: backblaze-jsonschema-spectral-rules
-- effective_rule_count: 77
+- authorship: generated
+  effective_rule_count: 77
   extends:
   - spectral:oas
   name: Backblaze API Rules
@@ -855,17 +876,17 @@ rules:
   slug: backblaze-spectral-rules
 score:
   band: developing
-  composite: 48.2
+  composite: 46.6
   coverage:
-    artifact_dirs: 31
-    catalog_earned: 59.0
+    artifact_dirs: 33
+    catalog_earned: 56.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 56.0
+    catalog_gap: 59.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 57.9
+    access_clarity: 50.0
     contract_governance: 31.8
     contract_quality: 23.0
     developer_ergonomics: 82.1
@@ -891,8 +912,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 25.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

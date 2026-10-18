@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.5
-  scored_at: '2026-10-04'
+  score: 19.6
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -108,6 +108,21 @@ collections:
   name: RDF4J Server REST API
   slug: open-rdf4j-server-rest-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/eclipse-rdf4j/refs/heads/main/plans/eclipse-rdf4j-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/eclipse-rdf4j-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/eclipse-rdf4j/refs/heads/main/rate-limits/eclipse-rdf4j-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/eclipse-rdf4j-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/eclipse-rdf4j/refs/heads/main/finops/eclipse-rdf4j-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/eclipse-rdf4j-finops.yml
 - group: company
   title: ''
   type: Website
@@ -177,19 +192,23 @@ common:
 created: '2024-01-01'
 description: Eclipse RDF4J is a powerful open-source Java framework for processing and handling RDF data. It supports creating, parsing, scalable storage, reasoning, and querying with RDF and Linked Data, and ships with an HTTP server (RDF4J Server) and a web-based Workbench. The framework offers an easy-to-use Java API and SPARQL 1.1 support, and integrates with leading RDF database solutions.
 finops:
-- name: Eclipse Rdf4J Finops
+- has_sources: false
+  method: generated
+  name: Eclipse Rdf4J Finops
+  primary_unit: ''
   service_category: API
   slug: eclipse-rdf4j-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/eclipse-rdf4j.png
 layout: provider
 modified: '2026-05-19'
 name: Eclipse RDF4J
 nav: Providers
 network: true
-overview: 'Eclipse RDF4J publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Contexts API, Namespaces API, Protocol API, and 4 more. Tagged areas include Eclipse Foundation, Java, Linked Data, Open Source, and RDF.
+overview: 'Eclipse RDF4J publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Contexts API, Namespaces API, Protocol API, and 4 more. Tagged areas include Eclipse Foundation, Java, Linked Data, Open Source, and RDF.
 
 
-  Eclipse RDF4J''s developer surface includes getting-started guide, documentation, changelog, support, engineering blog, and 11 more developer resources.'
+  Eclipse RDF4J''s developer surface includes getting-started guide, documentation, changelog, support, engineering blog, and 14 more developer resources.'
 plans:
 - name: Eclipse Rdf4J Plans Pricing
   plan_count: 3
@@ -200,18 +219,18 @@ rate_limits:
   name: Eclipse Rdf4J Rate Limits
   slug: eclipse-rdf4j-rate-limits
 score:
-  band: thin
-  composite: 26.9
+  band: emerging
+  composite: 25.4
   coverage:
     artifact_dirs: 10
-    catalog_earned: 41.0
+    catalog_earned: 38.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 39.3
     developer_ergonomics: 16.7
@@ -231,8 +250,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

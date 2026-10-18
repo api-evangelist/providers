@@ -28,20 +28,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.8
-  scored_at: '2026-10-04'
+  score: 22.9
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 31
+- acting_count: 25
   human_in_the_loop: 2
   name: Microsoft Endpoint Configuration Management Agentic Access
   operation_count: 71
   slug: microsoft-endpoint-configuration-management-agentic-access
-  summary_line: 71 operations · 31 acting · 2 human-in-the-loop
+  summary_line: 71 operations · 25 acting · 2 human-in-the-loop
 api_count: 4
 apis:
 - description: PowerShell module for Configuration Manager automation and scripting, providing over 1100 cmdlets for all major management tasks including device collections, software deployment, and compliance setti
@@ -304,6 +304,21 @@ collections:
   name: Microsoft Endpoint Configuration Management Configuration Manager REST API (AdminService) Applications Users API
   slug: open-microsoft-endpoint-configuration-management-users-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-endpoint-configuration-management/refs/heads/main/plans/microsoft-endpoint-configuration-management-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/microsoft-endpoint-configuration-management-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-endpoint-configuration-management/refs/heads/main/rate-limits/microsoft-endpoint-configuration-management-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/microsoft-endpoint-configuration-management-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-endpoint-configuration-management/refs/heads/main/finops/microsoft-endpoint-configuration-management-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/microsoft-endpoint-configuration-management-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/microsoft-endpoint-configuration-management/refs/heads/main/capabilities/microsoft-endpoint-configuration-management-capability-edges.yml
   title: ''
@@ -499,9 +514,13 @@ common:
 created: '2024'
 description: Microsoft Endpoint Configuration Management (formerly System Center Configuration Manager) provides comprehensive management of devices and applications across an enterprise. It enables IT administrators to manage PCs, servers, and mobile devices, deploy software, manage compliance, and protect data.
 finops:
-- name: Microsoft Endpoint Configuration Management Finops
+- has_sources: true
+  method: generated
+  name: Microsoft Endpoint Configuration Management Finops
+  primary_unit: ''
   service_category: Endpoint Management
   slug: microsoft-endpoint-configuration-management-finops
+  template: false
 image: https://docs.microsoft.com/en-us/mem/configmgr/core/media/configmgr-logo.png
 json_schemas:
 - name: Mobile Application
@@ -620,13 +639,13 @@ modified: '2026-09-16'
 name: Microsoft Endpoint Configuration Management
 nav: Providers
 network: true
-overview: 'Microsoft Endpoint Configuration Management publishes 25 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Collections API, Compliance API, and 22 more. Tagged areas include Compliance, Configuration Management, Device Management, Endpoint Management, and Mobile Device Management.
+overview: 'Microsoft Endpoint Configuration Management publishes 25 API contracts indexed on the [APIs.io](https://apis.io/) network, including Applications API, Collections API, Compliance API, and 22 more. Tagged areas include Compliance, Configuration Management, Device Management, Endpoint Management, and Mobile Device Management.
 
 
   The Microsoft Endpoint Configuration Management catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Microsoft Endpoint Configuration Management''s developer surface includes authentication, developer portal, developer console, documentation, getting-started guide, engineering blog, support, and 35 more developer resources.'
+  Microsoft Endpoint Configuration Management''s developer surface includes authentication, developer portal, developer console, documentation, getting-started guide, engineering blog, support, and 38 more developer resources.'
 plans:
 - name: Microsoft Endpoint Configuration Management Plans Pricing
   plan_count: 3
@@ -637,9 +656,10 @@ rate_limits:
   name: Microsoft Endpoint Configuration Management Rate Limits
   slug: microsoft-endpoint-configuration-management-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: Microsoft Endpoint Configuration Management API Rules
+  name: Microsoft Endpoint Configuration Management — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -654,23 +674,23 @@ scopes:
   summary_line: 7 scopes · authorizationCode
 score:
   band: strong
-  composite: 59.3
+  composite: 57.8
   coverage:
     artifact_dirs: 21
-    catalog_earned: 61.3
+    catalog_earned: 58.3
     catalog_earned_first_party: 0.0
     catalog_gap: 56.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -1.5
   facets:
-    access_clarity: 60.5
+    access_clarity: 52.6
     contract_governance: 9.8
     contract_quality: 63.5
     developer_ergonomics: 73.8
-    discoverability: 64.3
+    discoverability: 69.6
     operational_transparency: 42.1
-  previous_composite: 58.8
+  previous_composite: 59.3
   provenance:
     agentic_access: derived
     contracts:
@@ -684,8 +704,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

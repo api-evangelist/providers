@@ -30,20 +30,20 @@ agent_readiness:
     mcp_server: verified
     openapi_examples: partial
     protected_resource_metadata: verified
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 54.3
-  scored_at: '2026-10-04'
+  score: 52.4
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 121
+- acting_count: 120
   human_in_the_loop: 0
   name: Yext Agentic Access
   operation_count: 248
   slug: yext-agentic-access
-  summary_line: 248 operations · 121 acting
+  summary_line: 248 operations · 120 acting
 api_count: 9
 apis:
 - baseURL: https://api.yextapis.com/v2
@@ -322,9 +322,13 @@ examples:
   name: Yext Webhook Entity Update Example
   slug: yext-webhook-entity-update-example
 finops:
-- name: Yext Finops
+- has_sources: false
+  method: generated
+  name: Yext Finops
+  primary_unit: ''
   service_category: ''
   slug: yext-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/yext.png
 json_schemas:
 - name: Yext Address
@@ -353,7 +357,7 @@ modified: '2026-09-16'
 name: Yext
 nav: Providers
 network: true
-overview: 'Yext publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Account Settings API, Accounts API, Administrative API, and 19 more. Tagged areas include Digital Presence, Business Listings, Location Data, Reviews, and AI Search.
+overview: 'Yext publishes 22 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account Settings API, Accounts API, Administrative API, and 19 more. Tagged areas include Digital Presence, Business Listings, Location Data, Reviews, and AI Search.
 
 
   The Yext catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -370,9 +374,10 @@ rate_limits:
   name: Yext Rate Limits
   slug: yext-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Yext API Rules
+  name: Yext — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -381,23 +386,23 @@ rules:
     warn: 3
   slug: yext-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 44.2
+  band: thin
+  composite: 36.9
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 75.3
+    artifact_dirs: 20
+    catalog_earned: 59.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 39.7
+    catalog_gap: 55.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.3
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 9.8
     contract_quality: 51.8
     developer_ergonomics: 23.8
     discoverability: 73.3
-    operational_transparency: 40.0
+    operational_transparency: 26.3
   previous_composite: 44.2
   provenance:
     agentic_access: derived
@@ -413,9 +418,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 61.1

@@ -1,10 +1,13 @@
 ---
 access_model:
   confidence: low
+  gated: partner
+  gated_source:
+  - tag:Partner Gated
   label: Open access
   onboarding: open
   pricing: unknown
-  public: true
+  public: false
   source:
   - authentication
   - security
@@ -34,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
@@ -195,8 +198,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 26.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -222,7 +225,6 @@ tags:
 - Claims
 - Pet Insurance
 - Direct to Consumer
-- Partner Gated
 - CSIO
 - Insurtech
 website: https://www.definityfinancial.com/

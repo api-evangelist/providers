@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.talos.com/insights/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/talos/refs/heads/main/security/talos-domain-security.yml
   title: ''
@@ -117,18 +121,18 @@ created: '2026-07-17'
 description: Talos (Talos Global, Inc.) is the institutional platform to trade and manage digital assets across the full investment lifecycle. Founded in 2018 and headquartered in New York, NY, Talos unifies an order/execution management system (OEMS), a portfolio management system (PMS), and institutional market data on a single platform — covering price discovery, execution, portfolio construction, risk management, treasury, and settlement. Institutions such as hedge funds, banks, broker-dealers, asset managers, ETF issuers, and neobanks reach global liquidity through the Talos Network of 100+ providers (exchanges, OTC desks, prime brokers, custodians, DeFi protocols, and FX providers) and connect programmatically over FIX, REST, and WebSocket APIs. Developer documentation is gated behind client authentication (Auth0); this profile was enriched from Talos's public surface (llms.txt, GitHub org, and trust center).
 image: https://cdn.prod.website-files.com/637e4cd92c6f22a30d5225fc/655c8aca30ba8495fd9b5931_Talos-3d-OG-image.jpg
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Talos
 nav: Providers
 network: true
 overview: 'Talos is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Digital Assets, Cryptocurrency, Trading, and OEMS.
 
 
-  Talos'' developer surface includes documentation, engineering blog, signup flow, support, YouTube channel, and 13 more developer resources.'
+  Talos'' developer surface includes documentation, engineering blog, signup flow, support, YouTube channel, and 14 more developer resources.'
 random_paper: 19
 score:
   band: emerging
-  composite: 21.1
+  composite: 21.2
   coverage:
     artifact_dirs: 9
     catalog_earned: 27.0
@@ -136,7 +140,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 42.1
     contract_governance: 18.2
@@ -158,8 +162,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 29.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://api.music.ai/v1
@@ -56,7 +56,7 @@ apis:
   description: List the workflows configured in your account.
   name: Moises Workflows API
   slug: moises-workflows-api
-artifact_total: 10
+artifact_total: 11
 collections:
 - collection_type: open
   name: API Collection
@@ -74,6 +74,11 @@ collections:
   name: Music AI Application Workflows API
   slug: open-moises-workflows-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/moises/refs/heads/main/plans/moises-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/moises-plans-pricing.yml
 - group: company
   title: ''
   type: Website
@@ -192,24 +197,28 @@ modified: '2026-07-20'
 name: Moises
 nav: Providers
 network: true
-overview: 'Moises publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Application API, Jobs API, Upload API, and 1 more. Tagged areas include Company, Music, Audio, Artificial Intelligence, and Machine Learning.
+overview: 'Moises publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Application API, Jobs API, Upload API, and 1 more. Tagged areas include Company, Music, Audio, Artificial Intelligence, and Machine Learning.
 
 
-  Moises'' developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, engineering blog, and 17 more developer resources.'
+  Moises'' developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, engineering blog, and 18 more developer resources.'
+plans:
+- name: Moises Plans Pricing
+  plan_count: 3
+  slug: moises-plans-pricing
 random_paper: 18
 score:
-  band: thin
-  composite: 38.7
+  band: developing
+  composite: 45.1
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 22
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.4
   facets:
-    access_clarity: 23.7
+    access_clarity: 55.3
     contract_governance: 4.5
     contract_quality: 50.5
     developer_ergonomics: 73.2
@@ -231,9 +240,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

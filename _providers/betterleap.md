@@ -25,17 +25,21 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: false
+    protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 8.6
-  scored_at: '2026-10-04'
+  score: 12.2
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://betterleap.com/blog/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/betterleap/refs/heads/main/security/betterleap-domain-security.yml
   title: ''
@@ -73,14 +77,14 @@ mcp_servers:
 - description: Remote MCP server at mcp.betterleap.com over HTTP.
   name: Betterleap MCP Server
   slug: betterleap
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Betterleap
 nav: Providers
 network: true
 overview: 'Betterleap is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Recruiting, Talent Acquisition, Healthcare, and Artificial Intelligence.
 
 
-  Betterleap''s developer surface includes signup flow, engineering blog, and 5 more developer resources.'
+  Betterleap''s developer surface includes signup flow, engineering blog, and 6 more developer resources.'
 random_paper: 8
 score:
   band: minimal
@@ -109,8 +113,8 @@ score:
     regime: Health
     regime_id: health
     score: 10.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

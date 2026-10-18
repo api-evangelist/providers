@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 14
 apis:
 - description: The authorization endpoints provide a token that will allow your service or application to call Kroger APIs.
@@ -80,6 +80,11 @@ apis:
   slug: kroger-locker-integration-apis-partners
 artifact_total: 21
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/kroger/refs/heads/main/finops/kroger-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/kroger-finops.yml
 - group: company
   title: ''
   type: Website
@@ -211,19 +216,23 @@ common:
 created: '2024-11-14'
 description: The Kroger Co. is the largest supermarket operator in the United States and runs a two-tier developer programme from developer.kroger.com. The Public tier is self-service after account and application registration and covers Products, Locations, Identity and Cart, each with a published daily call quota. The Partner tier — Carts, Catalog, Catalog V2, Identity, Locations, Products, Seamless Delivery and Locker Integration — is not self-service and requires a signed contractual agreement with Kroger. Every API is protected by OAuth 2.0 at api.kroger.com, with client-credentials access for catalogue and store data and authorization-code access, with explicit customer consent, for anything that touches a shopper's profile or cart. A separate certification environment runs at api-ce.kroger.com.
 finops:
-- name: Kroger Finops
+- has_sources: true
+  method: generated
+  name: Kroger Finops
+  primary_unit: ''
   service_category: Retail / Grocery APIs
   slug: kroger-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kroger.png
 layout: provider
 modified: '2026-09-16'
 name: Kroger
 nav: Providers
 network: true
-overview: 'Kroger publishes 14 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Groceries, Grocery Retail, Retail, E-Commerce, and Product Catalog.
+overview: 'Kroger is listed with 14 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Groceries, Grocery Retail, Retail, E-Commerce, and Product Catalog.
 
 
-  Kroger''s developer surface includes developer portal, authentication, sandbox, documentation, getting-started guide, API reference, support, and 21 more developer resources.'
+  Kroger''s developer surface includes developer portal, authentication, sandbox, documentation, getting-started guide, API reference, support, and 22 more developer resources.'
 plans:
 - name: Kroger Plans Pricing
   plan_count: 2
@@ -256,17 +265,17 @@ scopes:
   summary_line: 6 scopes
 score:
   band: developing
-  composite: 42.9
+  composite: 41.4
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 63.0
+    artifact_dirs: 22
+    catalog_earned: 60.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 52.0
+    catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 50.0
+    access_clarity: 42.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 66.7
@@ -282,8 +291,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

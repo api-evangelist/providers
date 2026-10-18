@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 53.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -675,9 +675,13 @@ features:
 - description: Find companies matching ideal customer profiles using natural language queries and advanced filters.
   name: Company Discovery
 finops:
-- name: Hunter Finops
+- has_sources: true
+  method: generated
+  name: Hunter Finops
+  primary_unit: ''
   service_category: Sales Intelligence
   slug: hunter-finops
+  template: false
 image: https://hunter.io/images/hunter-logo.png
 integrations:
 - description: Push verified leads and enriched contacts directly to Salesforce CRM for pipeline management.
@@ -903,7 +907,7 @@ modified: '2026-08-13'
 name: Hunter
 nav: Providers
 network: true
-overview: 'Hunter publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Account API, Campaigns API, Combined Enrichment API, and 9 more. Tagged areas include Contact Discovery, Email, Email Verification, Lead Generation, and Prospecting.
+overview: 'Hunter publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Campaigns API, Combined Enrichment API, and 9 more. Tagged areas include Contact Discovery, Email, Email Verification, Lead Generation, and Prospecting.
 
 
   The Hunter catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
@@ -920,9 +924,10 @@ rate_limits:
   name: Hunter Rate Limits
   slug: hunter-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Hunter API Rules
+  name: Hunter — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -930,7 +935,8 @@ rules:
     info: 2
     warn: 3
   slug: hunter-jsonschema-spectral-rules
-- effective_rule_count: 58
+- authorship: generated
+  effective_rule_count: 58
   extends:
   - spectral:oas
   name: Hunter API Rules
@@ -948,17 +954,17 @@ scopes:
   summary_line: 2 scopes · authorizationCode/clientCredentials/refreshToken
 score:
   band: exemplar
-  composite: 71.9
+  composite: 70.4
   coverage:
-    artifact_dirs: 35
-    catalog_earned: 83.4
+    artifact_dirs: 36
+    catalog_earned: 80.4
     catalog_earned_first_party: 24.0
-    catalog_gap: 31.6
+    catalog_gap: 34.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 75.0
+    access_clarity: 67.1
     contract_governance: 45.5
     contract_quality: 68.9
     developer_ergonomics: 60.7
@@ -985,8 +991,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 41.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

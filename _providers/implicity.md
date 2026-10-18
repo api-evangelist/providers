@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Implicity markets a "comprehensive API and integration framework for seamless data exchange with core hospital systems" and bidirectional EHR integration to hospital IT teams. The API host api.implici
@@ -147,7 +147,7 @@ modified: '2026-08-17'
 name: Implicity
 nav: Providers
 network: true
-overview: 'Implicity publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health Tech, Digital Health, Remote Patient Monitoring, and Cardiology.
+overview: 'Implicity is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health Tech, Digital Health, Remote Patient Monitoring, and Cardiology.
 
 
   Implicity''s developer surface includes documentation, support, engineering blog, signup flow, and 14 more developer resources.'
@@ -162,7 +162,7 @@ rate_limits:
   slug: implicity-rate-limits
 score:
   band: emerging
-  composite: 23.9
+  composite: 24.0
   coverage:
     artifact_dirs: 10
     catalog_earned: 37.0
@@ -170,7 +170,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 50.0
     contract_governance: 18.2
@@ -201,8 +201,8 @@ score:
     regime: Health
     regime_id: health
     score: 22.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

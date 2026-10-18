@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.mobagel.com/blog
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/mobagel/refs/heads/main/security/mobagel-domain-security.yml
   title: ''
@@ -79,31 +83,31 @@ created: '2026-07-17'
 description: MoBagel is an AI and automated machine learning (AutoML) company founded in 2015 and headquartered in San Jose, California, with offices across seven global locations. Its flagship Decanter AI platform lets business users build machine learning models and generate predictions without a data science background, spanning AutoML, automated time-series forecasting (AutoTSF), MLOps, DataOps, and a generative-BI suite (Generative BI, Generative ETL, Generative Expert) now surfaced through the 8ndpoint product and a family of vertical AI agents for marketing, supply chain, finance, and manufacturing. MoBagel exposes Decanter AI programmatically through an official first-party Python SDK (decanter-ai-sdk) that authenticates with an API key and drives data upload, model training, and prediction. Backed by 500 Global.
 image: https://cdn.prod.website-files.com/67205451fb764a57c45b16fd/6837ce4db49cc91f524bfb72_logo%20m.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Mobagel
 nav: Providers
 network: true
 overview: 'Mobagel is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, AutoML, and Data Science.
 
 
-  Mobagel''s developer surface includes support and 8 more developer resources.'
+  Mobagel''s developer surface includes engineering blog, support, and 8 more developer resources.'
 random_paper: 1
 score:
   band: emerging
-  composite: 12.6
+  composite: 13.2
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 27.6
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 11.9
+    developer_ergonomics: 14.3
     discoverability: 48.2
     operational_transparency: 2.6
   jurisdiction:
@@ -120,8 +124,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 12.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

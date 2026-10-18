@@ -27,20 +27,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.9
-  scored_at: '2026-10-04'
+  score: 20.0
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 44
+- acting_count: 23
   human_in_the_loop: 1
   name: Drycleancloud Agentic Access
   operation_count: 44
   slug: drycleancloud-agentic-access
-  summary_line: 44 operations · 44 acting · 1 human-in-the-loop
+  summary_line: 44 operations · 23 acting · 1 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://cleancloudapp.com/api
@@ -157,16 +157,20 @@ common:
 created: '2026-07-04'
 description: CleanCloud is cloud-based point-of-sale (POS) and business management software for dry cleaners, laundromats, laundry services, and shoe repair businesses. It handles orders, garment tracking, customers, pickup and delivery routing, payments, inventory, marketing, and reporting. CleanCloud exposes a documented public REST API (base https://cleancloudapp.com/api) for programmatic access to customers, orders, garments, products, price lists, inventory, pickup and delivery scheduling, payments, subscriptions, invoices, promotions, and reporting, plus outbound Webhooks for order and customer events. API access is available on the Grow and Grow+ subscription tiers, authenticated with a per-account API token and metered at 50,000 requests per month (max 3 requests per second).
 finops:
-- name: Drycleancloud Finops
+- has_sources: true
+  method: generated
+  name: Drycleancloud Finops
+  primary_unit: ''
   service_category: Business Applications
   slug: drycleancloud-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/drycleancloud.png
 layout: provider
 modified: '2026-07-04'
 name: CleanCloud
 nav: Providers
 network: true
-overview: 'CleanCloud publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Business and Reporting API, Customers API, Messaging API, and 4 more. Tagged areas include Dry Cleaning, Laundry, Point-of-Sale, Field Service, and Pickup and Delivery.
+overview: 'CleanCloud publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Business and Reporting API, Customers API, Messaging API, and 4 more. Tagged areas include Dry Cleaning, Laundry, Point-of-Sale, Field Service, and Pickup and Delivery.
 
 
   CleanCloud''s developer surface includes documentation, engineering blog, and 8 more developer resources.'
@@ -180,23 +184,23 @@ rate_limits:
   name: Drycleancloud Rate Limits
   slug: drycleancloud-rate-limits
 score:
-  band: thin
-  composite: 31.0
+  band: emerging
+  composite: 22.8
   coverage:
     artifact_dirs: 11
-    catalog_earned: 61.6
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.4
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.2
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 46.4
     developer_ergonomics: 20.2
     discoverability: 66.1
-    operational_transparency: 28.4
+    operational_transparency: 7.9
   previous_composite: 31.0
   provenance:
     agentic_access: derived
@@ -211,9 +215,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

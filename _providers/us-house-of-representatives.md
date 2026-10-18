@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-04'
+  score: 20.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -97,6 +97,21 @@ collections:
   name: Congress.gov Bills Treaties API
   slug: open-us-house-of-representatives-treaties-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/us-house-of-representatives/refs/heads/main/plans/us-house-of-representatives-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/us-house-of-representatives-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/us-house-of-representatives/refs/heads/main/rate-limits/us-house-of-representatives-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/us-house-of-representatives-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/us-house-of-representatives/refs/heads/main/finops/us-house-of-representatives-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/us-house-of-representatives-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/us-house-of-representatives/refs/heads/main/capabilities/us-house-of-representatives-capability-edges.yml
   title: ''
@@ -133,9 +148,13 @@ examples:
   name: Congress Gov List Bills Example
   slug: congress-gov-list-bills-example
 finops:
-- name: Us House Of Representatives Finops
+- has_sources: false
+  method: generated
+  name: Us House Of Representatives Finops
+  primary_unit: ''
   service_category: API
   slug: us-house-of-representatives-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/us-house-of-representatives.png
 json_schemas:
 - name: Congress.gov Bill
@@ -158,13 +177,13 @@ modified: '2026-05-19'
 name: US House of Representatives
 nav: Providers
 network: true
-overview: 'US House of Representatives publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Bills API, Committees API, Members API, and 3 more. Tagged areas include Federal Government, Legislation, Congress, Legislative Data, and Bills.
+overview: 'US House of Representatives publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Bills API, Committees API, Members API, and 3 more. Tagged areas include Federal Government, Legislation, Congress, Legislative Data, and Bills.
 
 
   The US House of Representatives catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  US House of Representatives'' developer surface includes authentication and 5 more developer resources.'
+  US House of Representatives'' developer surface includes authentication and 8 more developer resources.'
 plans:
 - name: Us House Of Representatives Plans Pricing
   plan_count: 3
@@ -175,10 +194,11 @@ rate_limits:
   name: Us House Of Representatives Rate Limits
   slug: us-house-of-representatives-rate-limits
 rules:
-- effective_rule_count: 52
+- authorship: unmarked
+  effective_rule_count: 52
   extends:
   - spectral:oas
-  name: US House of Representatives API Rules
+  name: US House of Representatives — congress gov api rules
   rule_count: 11
   severity_counts:
     error: 1
@@ -186,9 +206,10 @@ rules:
     info: 4
     warn: 6
   slug: congress-gov-api-rules
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: US House of Representatives API Rules
+  name: US House of Representatives — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -198,18 +219,18 @@ rules:
   slug: us-house-of-representatives-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 35.2
+  composite: 29.3
   coverage:
     artifact_dirs: 17
-    catalog_earned: 65.2
+    catalog_earned: 50.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 49.8
+    catalog_gap: 64.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.9
   facets:
-    access_clarity: 15.8
-    contract_governance: 49.1
+    access_clarity: 7.9
+    contract_governance: 13.6
     contract_quality: 52.1
     developer_ergonomics: 21.4
     discoverability: 57.1
@@ -233,9 +254,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 22.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

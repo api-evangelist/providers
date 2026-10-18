@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: REST API for Gretel's synthetic data platform. Lets you ingest data, manage projects, train models, run record handlers, and pull artifacts. Used as the backend for the gretel-client Python SDK and CL
@@ -100,16 +100,20 @@ common:
 created: '2026-05-23'
 description: Gretel is a synthetic data platform for tabular, text, and time-series data. It pairs a REST API and Python client (gretel-client) with Gretel Navigator and a library of model recipes for generating, transforming, and de-identifying data. The platform exposes ingestion, project, model, and record-handler endpoints over HTTPS.
 finops:
-- name: Gretel Ai Finops
+- has_sources: false
+  method: generated
+  name: Gretel Ai Finops
+  primary_unit: ''
   service_category: API
   slug: gretel-ai-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/gretel-ai.png
 layout: provider
 modified: '2026-05-23'
 name: Gretel
 nav: Providers
 network: true
-overview: 'Gretel publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Synthetic Data, Privacy Engineering, Tabular, Text, and Time Series.
+overview: 'Gretel is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Synthetic Data, Privacy Engineering, Tabular, Text, and Time Series.
 
 
   Gretel''s developer surface includes documentation, GitHub presence, and 10 more developer resources.'
@@ -124,22 +128,22 @@ rate_limits:
   slug: gretel-ai-rate-limits
 score:
   band: emerging
-  composite: 18.6
+  composite: 13.2
   coverage:
     artifact_dirs: 6
-    catalog_earned: 54.4
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 60.6
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.4
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
     discoverability: 66.1
-    operational_transparency: 40.0
+    operational_transparency: 26.3
   open_source:
     applies: true
     score: 25.0
@@ -150,9 +154,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -142,6 +142,21 @@ collections:
   name: Inngest REST API
   slug: open-inngest
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/inngest/refs/heads/main/plans/inngest-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/inngest-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/inngest/refs/heads/main/rate-limits/inngest-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/inngest-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/inngest/refs/heads/main/finops/inngest-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/inngest-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/inngest/refs/heads/main/capabilities/inngest-capability-edges.yml
   title: ''
@@ -433,9 +448,13 @@ examples:
   name: Inngest Send Event Example
   slug: inngest-send-event-example
 finops:
-- name: Inngest Finops
+- has_sources: false
+  method: generated
+  name: Inngest Finops
+  primary_unit: ''
   service_category: Developer Tools / Workflow Orchestration
   slug: inngest-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/inngest.png
 json_schemas:
 - name: InngestEnvironment
@@ -476,13 +495,13 @@ modified: '2026-05-22'
 name: Inngest
 nav: Providers
 network: true
-overview: 'Inngest publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Account API, Apps API, Environments API, and 5 more. Tagged areas include AI Agents, AgentKit, Background Jobs, Connect, and Cron Jobs.
+overview: 'Inngest publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Apps API, Environments API, and 5 more. Tagged areas include AI Agents, AgentKit, Background Jobs, Connect, and Cron Jobs.
 
 
   The Inngest catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Inngest''s developer surface includes authentication, developer portal, documentation, API reference, getting-started guide, engineering blog, changelog, and 58 more developer resources.'
+  Inngest''s developer surface includes authentication, developer portal, documentation, API reference, getting-started guide, engineering blog, changelog, and 61 more developer resources.'
 plans:
 - name: Inngest Plans Pricing
   plan_count: 3
@@ -493,9 +512,10 @@ rate_limits:
   name: Inngest Rate Limits
   slug: inngest-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Inngest API Rules
+  name: Inngest — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -503,7 +523,8 @@ rules:
     info: 1
     warn: 4
   slug: inngest-jsonschema-spectral-rules
-- effective_rule_count: 0
+- authorship: unmarked
+  effective_rule_count: 0
   extends: []
   name: Inngest API Rules
   rule_count: 0
@@ -515,17 +536,17 @@ rules:
   slug: inngest-rules
 score:
   band: strong
-  composite: 60.7
+  composite: 59.2
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 73.8
+    artifact_dirs: 22
+    catalog_earned: 70.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 41.3
+    catalog_gap: 44.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 53.9
+    access_clarity: 46.1
     contract_governance: 23.5
     contract_quality: 63.4
     developer_ergonomics: 72.6
@@ -545,8 +566,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -564,7 +585,7 @@ security:
 - kind: vulnerability-disclosure
   name: Inngest Vulnerability Disclosure
   slug: inngest-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 - kind: trust-center
   name: Inngest Trust Center
   slug: inngest-trust-center

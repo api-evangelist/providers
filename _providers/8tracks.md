@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Historical public REST API for the 8tracks internet-radio platform. Exposes mix discovery and search, per-session play tokens, playback control (play/next/skip/report), similar-mix recommendation, and
@@ -105,7 +105,7 @@ modified: '2026-09-16'
 name: 8Tracks
 nav: Providers
 network: true
-overview: '8Tracks publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Music, Streaming, Radio, and Playlists.
+overview: '8Tracks is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Music, Streaming, Radio, and Playlists.
 
 
   8Tracks'' developer surface includes documentation, API reference, engineering blog, authentication, and 8 more developer resources.'
@@ -114,7 +114,7 @@ score:
   band: minimal
   composite: 0.0
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 10
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -143,13 +143,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/8tracks/refs/heads/main/screenshots/8tracks-2026-10-11T134525.png
 security:
 - kind: authentication
   name: 8Tracks Authentication

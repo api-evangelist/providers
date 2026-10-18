@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.glp.com/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/glp/refs/heads/main/security/glp-domain-security.yml
   title: ''
@@ -49,7 +53,7 @@ created: '2026-07-17'
 description: 'GLP is a leading global logistics real estate and investment management company, developing and operating warehouses, distribution centers, and supply-chain infrastructure alongside a large fund and asset-management business. It was surfaced as a portfolio company of hillhouse and added to the API Evangelist network for enrichment. Sector: logistics. As of this enrichment pass GLP publishes a WAF-protected corporate website but no discoverable public developer program, API documentation, or developer portal; this profile remains a lead awaiting a public API surface.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/glp.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: GLP
 nav: Providers
 network: true
@@ -59,7 +63,7 @@ score:
   band: minimal
   composite: 3.4
   coverage:
-    artifact_dirs: 2
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -80,13 +84,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/glp/refs/heads/main/screenshots/glp-2026-10-11T185357.png
 security:
 - kind: domain-security
   name: Glp Domain Security

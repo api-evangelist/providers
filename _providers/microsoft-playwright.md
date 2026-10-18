@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: documented
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 5.6
-  scored_at: '2026-10-04'
+  score: 3.7
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: Playwright provides a cross-browser automation API for end-to-end testing of web applications. It supports Chromium, Firefox, and WebKit with a single API, enabling reliable testing with auto-wait, ne
@@ -47,6 +47,21 @@ apis:
   slug: playwright
 artifact_total: 8
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-playwright/refs/heads/main/plans/microsoft-playwright-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/microsoft-playwright-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-playwright/refs/heads/main/rate-limits/microsoft-playwright-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/microsoft-playwright-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-playwright/refs/heads/main/finops/microsoft-playwright-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/microsoft-playwright-finops.yml
 - group: operate
   title: ''
   type: Community
@@ -107,9 +122,13 @@ common:
 created: '2024-01-01'
 description: Playwright is an open-source browser automation framework by Microsoft for reliable end-to-end testing of web applications. It supports Chromium, Firefox, and WebKit with a single API across multiple programming languages.
 finops:
-- name: Microsoft Playwright Finops
+- has_sources: false
+  method: generated
+  name: Microsoft Playwright Finops
+  primary_unit: ''
   service_category: API
   slug: microsoft-playwright-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/microsoft-playwright.png
 layout: provider
 mcp_servers:
@@ -120,10 +139,10 @@ modified: '2026-05-19'
 name: Microsoft Playwright
 nav: Providers
 network: true
-overview: 'Microsoft Playwright publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Browser Automation, End-to-End Testing, Microsoft, and Testing.
+overview: 'Microsoft Playwright is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Browser Automation, End-to-End Testing, Microsoft, and Testing.
 
 
-  Microsoft Playwright''s developer surface includes release notes, developer portal, documentation, getting-started guide, support, and 9 more developer resources.'
+  Microsoft Playwright''s developer surface includes release notes, developer portal, documentation, getting-started guide, support, and 12 more developer resources.'
 plans:
 - name: Microsoft Playwright Plans Pricing
   plan_count: 3
@@ -135,17 +154,17 @@ rate_limits:
   slug: microsoft-playwright-rate-limits
 score:
   band: emerging
-  composite: 24.9
+  composite: 23.4
   coverage:
-    artifact_dirs: 6
-    catalog_earned: 39.0
+    artifact_dirs: 7
+    catalog_earned: 36.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 76.0
+    catalog_gap: 79.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 36.8
+    access_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 40.5
@@ -158,8 +177,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

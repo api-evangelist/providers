@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 17
 apis:
 - description: The authoritative protocol definition for the Model Context Protocol, maintained at modelcontextprotocol.io and in the modelcontextprotocol/ specification GitHub repository. The TypeScript schema (sch
@@ -265,7 +265,7 @@ modified: '2026-05-22'
 name: Model Context Protocol (MCP)
 nav: Providers
 network: true
-overview: 'Model Context Protocol (MCP) publishes 17 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include MCP, AI Agents, Tools, Resources, and Prompts.
+overview: 'Model Context Protocol (MCP) is listed with 17 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include MCP, AI Agents, Tools, Resources, and Prompts.
 
 
   The Model Context Protocol (MCP) catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -274,9 +274,10 @@ overview: 'Model Context Protocol (MCP) publishes 17 APIs on the [APIs.io](https
   Model Context Protocol (MCP)''s developer surface includes engineering blog, developer portal, documentation, and 13 more developer resources.'
 random_paper: 12
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: Model Context Protocol (MCP) API Rules
+  name: Model Context Protocol (MCP) — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -286,15 +287,15 @@ rules:
   slug: mcp-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 26.7
+  composite: 26.8
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 57.2
     catalog_earned_first_party: 0.0
     catalog_gap: 57.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 0.0
     contract_governance: 23.5
@@ -309,8 +310,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -346,6 +347,7 @@ tags:
 - Anthropic
 - Standards
 - Topic
+- A2A
 use_cases:
 - description: MCP servers extend coding assistants like Cursor, VS Code Copilot, and Claude Code with project-aware tools, repository search, and terminal/build access.
   name: IDE Augmentation

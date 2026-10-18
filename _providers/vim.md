@@ -39,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 48.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -47,7 +47,7 @@ agentic_access:
   operation_count: 10
   slug: vim-agentic-access
   summary_line: 10 operations · 6 acting
-api_count: 2
+api_count: 3
 apis:
 - description: The Vim Canvas developer platform and VimOS.js JavaScript SDK for embedding applications at the point of care. Reads EHR state (Patient, Encounter, Orders, Referral, Claim, plus problem/medication/all
   name: Vim Canvas SDK (VimOS.js)
@@ -107,6 +107,10 @@ collections:
   name: Vim Data Source API Integration
   slug: open-vim-data-source-openapi-original
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://getvim.com/feed/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/vim/refs/heads/main/capabilities/vim-capability-edges.yml
   title: ''
@@ -330,17 +334,17 @@ description: Vim is a United States healthcare technology company (getvim.com) t
   an HL7 FHIR API and publishes no FHIR CapabilityStatement. The API is available only to application servers hosted within the United States.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-modified: '2026-09-16'
+modified: '2026-10-06'
 name: Vim
 nav: Providers
 network: true
-overview: 'Vim publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Access Token Retrieval API, Applications API, Appointments API, and 7 more. Tagged areas include Healthcare, United States, Clinical AI, EHR Integration, and Point of Care.
+overview: 'Vim publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Access Token Retrieval API, Applications API, Appointments API, and 7 more. Tagged areas include Healthcare, United States, Clinical AI, EHR Integration, and Point of Care.
 
 
   The Vim catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Vim''s developer surface includes changelog, sandbox, authentication, documentation, API reference, getting-started guide, support, and 40 more developer resources.'
+  Vim''s developer surface includes changelog, sandbox, authentication, documentation, API reference, getting-started guide, support, and 41 more developer resources.'
 plans:
 - name: Vim Plans Pricing
   plan_count: 0
@@ -357,21 +361,21 @@ scopes:
   summary_line: 4 scopes · implicit/clientCredentials
 score:
   band: strong
-  composite: 60.5
+  composite: 61.1
   coverage:
-    artifact_dirs: 27
-    catalog_earned: 44.0
+    artifact_dirs: 28
+    catalog_earned: 47.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 71.0
+    catalog_gap: 68.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 43.4
     contract_governance: 18.2
     contract_quality: 54.8
     developer_ergonomics: 78.0
-    discoverability: 64.3
+    discoverability: 69.6
     operational_transparency: 84.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -401,8 +405,8 @@ score:
     regime: Health
     regime_id: health
     score: 36.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

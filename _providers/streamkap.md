@@ -30,13 +30,13 @@ agent_readiness:
     mcp_server: verified
     openapi_examples: false
     protected_resource_metadata: verified
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 46.0
-  scored_at: '2026-10-04'
+  score: 44.2
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -127,6 +127,10 @@ collections:
   name: Streamkap API
   slug: open-streamkap
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://streamkap.com/blog
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/streamkap/refs/heads/main/a2a/streamkap-a2a.yml
   title: ''
@@ -186,23 +190,27 @@ common:
 created: '2026-07-01'
 description: Streamkap is a real-time streaming ETL and change data capture (CDC) platform built on Apache Kafka and Apache Flink. It streams data from operational databases (PostgreSQL, MySQL, MongoDB, SQL Server, Oracle) to cloud warehouses, lakes, and other destinations with sub-second latency, and its REST API lets teams provision and operate sources, destinations, pipelines, transforms, and Kafka access programmatically.
 finops:
-- name: Streamkap Finops
+- has_sources: true
+  method: generated
+  name: Streamkap Finops
+  primary_unit: ''
   service_category: Analytics
   slug: streamkap-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
 mcp_servers:
 - description: Remote MCP server at mcp.streamkap.com over HTTP.
   name: Streamkap MCP Server
   slug: streamkap
-modified: '2026-07-01'
+modified: '2026-10-06'
 name: Streamkap
 nav: Providers
 network: true
-overview: 'Streamkap publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Connectors API, Destinations API, and 6 more. Tagged areas include Streaming, ETL, Change Data Capture, Kafka, and Flink.
+overview: 'Streamkap publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authentication API, Connectors API, Destinations API, and 6 more. Tagged areas include Streaming, ETL, Change Data Capture, Kafka, and Flink.
 
 
-  Streamkap''s developer surface includes authentication, documentation, and 10 more developer resources.'
+  Streamkap''s developer surface includes engineering blog, authentication, documentation, and 10 more developer resources.'
 plans:
 - name: Streamkap Plans Pricing
   plan_count: 4
@@ -214,22 +222,22 @@ rate_limits:
   slug: streamkap-rate-limits
 score:
   band: emerging
-  composite: 25.6
+  composite: 17.8
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 61.6
+    artifact_dirs: 15
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.4
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.8
   facets:
-    access_clarity: 44.2
+    access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 1.9
-    developer_ergonomics: 29.8
+    developer_ergonomics: 32.1
     discoverability: 68.3
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   previous_composite: 25.6
   provenance:
     agentic_access: derived
@@ -245,9 +253,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

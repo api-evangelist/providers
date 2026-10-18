@@ -32,10 +32,19 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
-artifact_total: 1
+artifact_total: 2
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/fastshot/refs/heads/main/plans/fastshot-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/fastshot-plans-pricing.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://fastshot.ai/blog
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/fastshot/refs/heads/main/security/fastshot-domain-security.yml
   title: ''
@@ -90,31 +99,35 @@ created: '2026-07-17'
 description: Fastshot is an AI-powered, no-code mobile app builder that turns a plain-language prompt into a real native iOS and Android application. A multi-agent AI workflow handles design, branding, asset generation, and functionality end to end, then deploys the finished app to the Apple App Store and Google Play. The platform includes integrations for a Supabase backend (authentication, database, storage), GitHub source-code management, Expo builds, and in-app-purchase monetization, letting non-technical founders and businesses ship a working mobile app in minutes rather than hiring an agency or in-house team. Fastshot is a Y Combinator (Fall 2025) company founded by ex-Google engineers Dmitry Fatkhi and Elvira Dzhuraeva.
 image: https://fastshot.ai/fastshot/logos/FS-original-circle.svg
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Fastshot
 nav: Providers
 network: true
 overview: 'Fastshot is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, No-Code, Mobile, App Builder, and Artificial Intelligence.
 
 
-  Fastshot''s developer surface includes documentation, getting-started guide, support, pricing, signup flow, and 7 more developer resources.'
+  Fastshot''s developer surface includes engineering blog, documentation, getting-started guide, support, pricing, signup flow, and 8 more developer resources.'
+plans:
+- name: Fastshot Plans Pricing
+  plan_count: 2
+  slug: fastshot-plans-pricing
 random_paper: 18
 score:
   band: emerging
-  composite: 11.2
+  composite: 15.9
   coverage:
-    artifact_dirs: 4
-    catalog_earned: 27.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 88.0
+    artifact_dirs: 6
+    catalog_earned: 35.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 4.7
   facets:
-    access_clarity: 0.0
+    access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 35.7
+    developer_ergonomics: 38.1
     discoverability: 55.4
     operational_transparency: 0.0
   previous_composite: 11.2
@@ -124,8 +137,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.3
-  scored_at: '2026-10-04'
+  score: 20.4
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 33
+- acting_count: 32
   human_in_the_loop: 0
   name: Appdynamics Agentic Access
   operation_count: 65
   slug: appdynamics-agentic-access
-  summary_line: 65 operations · 33 acting
+  summary_line: 65 operations · 32 acting
 api_count: 9
 apis:
 - baseURL: https://api.example.com
@@ -278,6 +278,21 @@ collections:
   name: AppDynamics Alert and Respond Actions Transaction Detection Export/Import API
   slug: open-appdynamics-transaction-detection-export-import-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/appdynamics/refs/heads/main/plans/appdynamics-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/appdynamics-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/appdynamics/refs/heads/main/rate-limits/appdynamics-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/appdynamics-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/appdynamics/refs/heads/main/finops/appdynamics-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/appdynamics-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/appdynamics/refs/heads/main/capabilities/appdynamics-capability-edges.yml
   title: ''
@@ -435,9 +450,13 @@ features:
 - description: Short-lived OAuth 2.0 access tokens for secure API authentication via Cisco platform.
   name: OAuth 2.0 Authentication
 finops:
-- name: Appdynamics Finops
+- has_sources: true
+  method: generated
+  name: Appdynamics Finops
+  primary_unit: ''
   service_category: Observability / APM
   slug: appdynamics-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/appdynamics.png
 integrations:
 - description: Integration with Cisco FSO platform and Thousand Eyes for end-to-end observability.
@@ -555,13 +574,13 @@ modified: '2026-09-16'
 name: AppDynamics
 nav: Providers
 network: true
-overview: 'AppDynamics publishes 25 APIs on the [APIs.io](https://apis.io/) network, including Actions API, Actions Export/Import API, Applications API, and 22 more. Tagged areas include APM, Application Performance Monitoring, Cisco, Cloud Observability, and DevOps.
+overview: 'AppDynamics publishes 25 API contracts indexed on the [APIs.io](https://apis.io/) network, including Actions API, Actions Export/Import API, Applications API, and 22 more. Tagged areas include APM, Application Performance Monitoring, Cisco, Cloud Observability, and DevOps.
 
 
   The AppDynamics catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  AppDynamics'' developer surface includes authentication, documentation, getting-started guide, pricing, support, code examples, and 20 more developer resources.'
+  AppDynamics'' developer surface includes authentication, documentation, getting-started guide, pricing, support, code examples, and 23 more developer resources.'
 plans:
 - name: Appdynamics Plans Pricing
   plan_count: 7
@@ -572,9 +591,10 @@ rate_limits:
   name: Appdynamics Rate Limits
   slug: appdynamics-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: AppDynamics API Rules
+  name: AppDynamics — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -584,17 +604,17 @@ rules:
   slug: appdynamics-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 37.8
+  composite: 36.3
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 57.3
+    artifact_dirs: 18
+    catalog_earned: 54.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.8
+    catalog_gap: 60.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 9.8
     contract_quality: 61.6
     developer_ergonomics: 47.6
@@ -614,8 +634,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

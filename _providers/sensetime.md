@@ -33,14 +33,23 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The SenseNova LLM API service platform exposes SenseTime's large multimodal foundation models (chat completions, embeddings, image and video generation, and fine-tuning) over an HTTP API, authenticate
   name: SenseNova LLM API
   slug: sensenova-llm-api
-artifact_total: 4
+artifact_total: 5
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sensetime/refs/heads/main/plans/sensetime-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/sensetime-plans-pricing.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.sensetime.com/en/news
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/sensetime/refs/heads/main/security/sensetime-domain-security.yml
   title: ''
@@ -114,14 +123,18 @@ created: '2026-07-17'
 description: SenseTime (商汤科技) is a Shanghai-headquartered artificial-intelligence company building foundation models, AI compute infrastructure, and vision AI. Its developer-facing surface is the SenseNova LLM API service platform, which exposes large multimodal models (SenseNova U-series, SenseNova 6.x) for text, image, and video understanding, reasoning, and generation via an HTTP API. Developers authenticate with an Access Key ID / Secret Access Key pair (with OAuth2/OIDC available through SenseCore signin), call chat-completions, embeddings, and fine-tuning endpoints, and integrate with an official Python client library and CLI. SenseTime also operates SenseCore AI infrastructure, SenseFoundry vision AI, and native applications. This profile was surfaced as a Tiger Global portfolio company and enriched from public developer sources.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sensetime.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: SenseTime
 nav: Providers
 network: true
-overview: 'SenseTime publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, Foundation Models, and LLM.
+overview: 'SenseTime is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, Foundation Models, and LLM.
 
 
-  SenseTime''s developer surface includes documentation, pricing, authentication, CLI, and 11 more developer resources.'
+  SenseTime''s developer surface includes engineering blog, documentation, pricing, authentication, CLI, and 12 more developer resources.'
+plans:
+- name: Sensetime Plans Pricing
+  plan_count: 2
+  slug: sensetime-plans-pricing
 random_paper: 5
 scopes:
 - name: Sensetime Scopes
@@ -130,20 +143,20 @@ scopes:
   summary_line: 3 scopes · authorizationCode/clientCredentials
 score:
   band: emerging
-  composite: 20.8
+  composite: 25.1
   coverage:
-    artifact_dirs: 10
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 12
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 4.3
   facets:
-    access_clarity: 17.1
+    access_clarity: 38.2
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 45.2
+    developer_ergonomics: 47.6
     discoverability: 73.2
     operational_transparency: 2.6
   jurisdiction:
@@ -156,12 +169,12 @@ score:
   previous_composite: 20.8
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 20.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

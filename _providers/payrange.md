@@ -32,10 +32,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://payrange.com/blog/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://payrange.com/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/payrange/refs/heads/main/security/payrange-domain-security.yml
   title: ''
@@ -65,14 +73,14 @@ created: '2026-07-17'
 description: PayRange is a fintech company providing cashless commerce and self-service retail technology for unattended machines. Its platform enables mobile payments, age and identity verification, and access control across laundromats, vending, car washes, campgrounds, hospitality, micro-markets, coffee, and transit ticketing. Hardware includes the BluKey family, BluCheck, and PayStation, paired with a consumer mobile app and an operator Business Management Suite. Backed by GV and Matrix Partners. No public developer API, documentation, or SDK surface was found during enrichment; integrations appear to run through direct partner and licensing channels.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/payrange.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: PayRange
 nav: Providers
 network: true
 overview: 'PayRange is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Payments, Fintech, and Mobile Payments.
 
 
-  PayRange''s developer surface includes support, engineering blog, pricing, and 3 more developer resources.'
+  PayRange''s developer surface includes engineering blog, support, pricing, and 5 more developer resources.'
 random_paper: 19
 score:
   band: minimal
@@ -99,8 +107,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 5.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -32,10 +32,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.jnj.com/latest-news
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.jnj.com/latest-news.rss
 - group: other
   title: ''
   type: ParentCompany
@@ -61,15 +69,18 @@ created: '2026-03-16'
 description: Janssen Pharmaceuticals was a Belgian pharmaceutical company founded in 1953 by Paul Janssen and acquired by Johnson & Johnson in 1961. The company specialized in psychiatry, neurology, oncology, immunology, and infectious disease medicines, developing approximately 70 new active pharmaceutical substances over its history. In 2024 the Janssen brand was retired and the pharmaceutical operations were rebranded as Johnson & Johnson Innovative Medicine. As such, Janssen no longer operates as a standalone brand and does not maintain its own public APIs.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/janssen.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-10-06'
 name: Janssen Pharmaceuticals
 nav: Providers
 network: true
-overview: Janssen Pharmaceuticals is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Defunct Brand, Healthcare, Johnson & Johnson, and Pharmaceuticals.
+overview: 'Janssen Pharmaceuticals is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Defunct Brand, Healthcare, Johnson & Johnson, and Pharmaceuticals.
+
+
+  Janssen Pharmaceuticals'' developer surface includes engineering blog and 6 more developer resources.'
 random_paper: 6
 score:
   band: minimal
-  composite: 2.8
+  composite: 3.3
   coverage:
     artifact_dirs: 4
     catalog_earned: 22.0
@@ -77,12 +88,12 @@ score:
     catalog_gap: 93.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 39.3
     operational_transparency: 0.0
   jurisdiction:
@@ -97,8 +108,8 @@ score:
     regime: Health
     regime_id: health
     score: 4.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

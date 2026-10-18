@@ -13,6 +13,14 @@ artifact_total: 0
 common:
 - group: company
   title: ''
+  type: Blog
+  url: https://openai.com/news/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://openai.com/news/rss.xml
+- group: company
+  title: ''
   type: Website
   url: https://www.openai.com/
 - group: docs
@@ -35,14 +43,14 @@ created: '2025-01-01'
 description: CODEX.md is a project-level Markdown memory file that the OpenAI Codex CLI loads to bootstrap an AI coding agent with persistent project instructions, coding conventions, build and test commands, and team conventions. The OpenAI Codex CLI now standardizes on AGENTS.md as the canonical filename, with CODEX.md and codex.md historically used and still recognized as fallback configuration filenames. Files are discovered through a three-tier hierarchy spanning the user's home directory, the Git repository root, and the current working directory, with closer files overriding earlier guidance when concatenated into the model prompt.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/codex-md.png
 layout: provider
-modified: '2026-04-26'
+modified: '2026-10-06'
 name: CODEX.md
 nav: Providers
 network: true
 overview: 'CODEX.md is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include AI Agents, AI Copilot, Coding Standards, Configuration, and Developer Workflow.
 
 
-  CODEX.md''s developer surface includes documentation, GitHub presence, and 3 more developer resources.'
+  CODEX.md''s developer surface includes engineering blog, documentation, GitHub presence, and 4 more developer resources.'
 random_paper: 15
 screenshot: https://raw.githubusercontent.com/api-evangelist/codex-md/refs/heads/main/screenshots/codex-md-2026-06-20T174708.png
 slug: codex-md

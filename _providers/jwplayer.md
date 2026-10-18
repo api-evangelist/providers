@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 5.0
-  scored_at: '2026-10-04'
+  score: 3.1
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: Read-write REST API for programmatically managing your JWP media library, players, playlists, live streams, advertising configurations, DRM policies, transformations, and webhooks. Authenticated via B
@@ -117,9 +117,13 @@ common:
 created: '2026-06-12'
 description: JW Player is a video player and streaming platform offering REST APIs for media management, playlist creation, player configuration, analytics, and live stream orchestration. The Management API v2 provides programmatic control over your media library, players, advertising, DRM, webhooks, and live broadcasts. The Delivery API enables high-availability content embedding, playback metadata, streaming manifests, and SSAI configuration via CDN.
 finops:
-- name: Jwplayer Finops
+- has_sources: false
+  method: generated
+  name: Jwplayer Finops
+  primary_unit: ''
   service_category: ''
   slug: jwplayer-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/jwplayer.png
 jsonld:
 - class_count: 67
@@ -131,7 +135,7 @@ modified: '2026-06-12'
 name: JW Player
 nav: Providers
 network: true
-overview: 'JW Player publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Video, Streaming, Media Management, Live Streaming, and OTT.
+overview: 'JW Player is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Video, Streaming, Media Management, Live Streaming, and OTT.
 
 
   The JW Player catalog on APIs.io includes 1 JSON-LD context.
@@ -148,23 +152,23 @@ rate_limits:
   name: Jwplayer Rate Limits
   slug: jwplayer-rate-limits
 score:
-  band: thin
-  composite: 28.3
+  band: emerging
+  composite: 20.9
   coverage:
-    artifact_dirs: 9
-    catalog_earned: 72.0
+    artifact_dirs: 10
+    catalog_earned: 56.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 43.0
+    catalog_gap: 59.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.4
   facets:
-    access_clarity: 54.7
+    access_clarity: 26.3
     contract_governance: 0.0
     contract_quality: 14.7
     developer_ergonomics: 2.4
     discoverability: 71.4
-    operational_transparency: 40.0
+    operational_transparency: 26.3
   previous_composite: 28.3
   regulatory:
     applies: true
@@ -172,9 +176,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

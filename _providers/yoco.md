@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.0
-  scored_at: '2026-10-04'
+  score: 26.1
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -94,6 +94,10 @@ collections:
   name: Yoco Online Payments API
   slug: open-yoco
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.yoco.com/za/blog/
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/yoco/refs/heads/main/agentic-access/yoco-agentic-access.yml
   title: ''
@@ -139,19 +143,23 @@ common:
 created: '2026-07-12'
 description: Yoco is a South African fintech providing card acceptance and payments infrastructure for small and medium businesses - card machines, point of sale, and online payments. Its developer platform exposes REST APIs for accepting online card payments - the Checkout API (server-side hosted checkout at payments.yoco.com/api) for creating payment sessions and issuing refunds, plus a newer versioned Yoco API (api.yoco.com/v1) for reading payments, refunds, and payment links. Integrations authenticate with a secret key (Bearer) and receive asynchronous notifications via signed webhooks. Yoco operates primarily in South Africa and settles in ZAR.
 finops:
-- name: Yoco Finops
+- has_sources: true
+  method: generated
+  name: Yoco Finops
+  primary_unit: ''
   service_category: Payments and Financial Infrastructure
   slug: yoco-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/yoco.png
 layout: provider
-modified: '2026-07-12'
+modified: '2026-10-06'
 name: Yoco
 nav: Providers
 network: true
-overview: 'Yoco publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Checkout API, Payment Links API, Payments API, and 2 more. Tagged areas include Payments, Fintech, Payment Gateway, Card Payments, and South Africa.
+overview: 'Yoco is listed with 5 APIs on the [APIs.io](https://apis.io/) network, including Checkout API, Payment Links API, Payments API, and 2 more. Tagged areas include Payments, Fintech, Payment Gateway, Card Payments, and South Africa.
 
 
-  Yoco''s developer surface includes authentication, documentation, and 7 more developer resources.'
+  Yoco''s developer surface includes engineering blog, authentication, documentation, and 7 more developer resources.'
 plans:
 - name: Yoco Plans Pricing
   plan_count: 3
@@ -163,22 +171,22 @@ rate_limits:
   slug: yoco-rate-limits
 score:
   band: emerging
-  composite: 25.6
+  composite: 17.7
   coverage:
-    artifact_dirs: 10
-    catalog_earned: 64.6
+    artifact_dirs: 11
+    catalog_earned: 46.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 50.4
+    catalog_gap: 69.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.9
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 14.3
-    developer_ergonomics: 29.8
+    developer_ergonomics: 32.1
     discoverability: 71.4
-    operational_transparency: 28.4
+    operational_transparency: 7.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -200,9 +208,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 10.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

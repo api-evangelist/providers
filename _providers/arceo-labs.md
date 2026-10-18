@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: API reference for Cyber Resilience services as described on the company website.
@@ -31,6 +31,14 @@ apis:
   slug: cyber-resilience-api
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://cyberresilience.com/blog
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://cyberresilience.com/?feed=rss2
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/arceo-labs/refs/heads/main/hosts/arceo-labs-hosts.yml
   title: ''
@@ -66,41 +74,48 @@ created: '2026-09-25'
 description: Cyber Resilience provides cyber insurance and cybersecurity risk management tools to enterprises, including risk quantification, security investment prioritization, and multi‑entity portfolio risk assessment. Its solutions target risk managers, CISOs, and CFOs, offering AI‑driven models that translate technical security posture into financial impact and 24/7 in‑house claims support.
 image: https://cyberresilience.com/wp-content/uploads/2026/01/homepage_hero_hero_xl_1-1.webp
 layout: provider
-modified: '2026-09-25'
+modified: '2026-10-06'
 name: Cyber Resilience
 nav: Providers
 network: true
-overview: Cyber Resilience publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Cyber Insurance, Risk Management, Security Investment Prioritization, Multi‑Entity Risk, and Enterprise Risk.
+overview: 'Cyber Resilience is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Cyber Insurance, Risk Management, Security Investment Prioritization, Multi‑Entity Risk, and Enterprise Risk.
+
+
+  Cyber Resilience''s developer surface includes engineering blog and 6 more developer resources.'
 random_paper: 17
 score:
   band: minimal
-  composite: 6.2
+  composite: 6.7
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 6
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.5
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 57.1
     operational_transparency: 0.0
+  previous_composite: 6.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 9.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/arceo-labs/refs/heads/main/screenshots/arceo-labs-2026-10-11T100149.png
 security:
 - kind: domain-security
   name: Arceo Labs Domain Security

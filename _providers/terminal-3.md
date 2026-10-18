@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -107,6 +107,10 @@ collections:
   name: Terminal 3 DID V1 VC V1 API
   slug: open-terminal-3-vc-v1-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.terminal3.io/rss/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/terminal-3/refs/heads/main/overlays/terminal-3-openapi-overlay.yaml
   title: ''
@@ -254,14 +258,14 @@ description: Terminal 3 (T3) is a data-freedom and decentralized-identity compan
   Ventures, and Cherubic Ventures.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/terminal-3.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Terminal 3
 nav: Providers
 network: true
-overview: 'Terminal 3 publishes 7 APIs on the [APIs.io](https://apis.io/) network, including DID V1 API, OpenID Connect V1 API, OpenID Connect V2 API, and 4 more. Tagged areas include Company, Identity, Decentralized Identity, Verifiable Credentials, and OpenID Connect.
+overview: 'Terminal 3 publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including DID V1 API, OpenID Connect V1 API, OpenID Connect V2 API, and 4 more. Tagged areas include Company, Identity, Decentralized Identity, Verifiable Credentials, and OpenID Connect.
 
 
-  Terminal 3''s developer surface includes authentication, changelog, sandbox, documentation, getting-started guide, support, engineering blog, and 24 more developer resources.'
+  Terminal 3''s developer surface includes authentication, changelog, sandbox, documentation, getting-started guide, support, engineering blog, and 25 more developer resources.'
 random_paper: 10
 score:
   band: developing
@@ -302,8 +306,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

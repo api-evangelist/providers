@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://serviceware-se.com/en/blog/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/serviceware-se/refs/heads/main/security/serviceware-se-domain-security.yml
   title: ''
@@ -65,20 +69,20 @@ created: '2026-07-17'
 description: Serviceware SE is a German enterprise software, consulting, and managed-services company with more than 25 years in business, roughly 420 employees, and over EUR 100 million in annual revenue. Its platform spans Enterprise Service Management (ESM) for IT, HR, and customer service, IT Financial Management (ITFM) for cost tracking and technology business management, Corporate Performance Management (CPM) for budgeting, planning, and reporting, AI-powered Knowledge Management, and Field Service Management. Serviceware positions its platform as AI-native, with no-code workflows, data integration, governance, and self-service capabilities. It was surfaced as a portfolio company of Norwest Venture Partners and added to the API Evangelist network. No public developer portal, API reference, or machine-readable API surface was found during enrichment.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/serviceware-se.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Serviceware SE
 nav: Providers
 network: true
 overview: 'Serviceware SE is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise Service Management, IT Financial Management, Corporate Performance Management, and Knowledge Management.
 
 
-  Serviceware SE''s developer surface includes engineering blog, support, and 4 more developer resources.'
+  Serviceware SE''s developer surface includes engineering blog, support, and 5 more developer resources.'
 random_paper: 15
 score:
   band: minimal
   composite: 7.5
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -107,8 +111,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 9.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -127,7 +131,7 @@ tags:
 - IT Financial Management
 - Corporate Performance Management
 - Knowledge Management
-- Field Service Management
+- Field Service
 - Enterprise Software
 - Germany
 website: https://serviceware-se.com

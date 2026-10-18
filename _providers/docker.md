@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.5
-  scored_at: '2026-10-04'
+  score: 23.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 4
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 107
   slug: docker-agentic-access
   summary_line: 107 operations · 62 acting · 4 human-in-the-loop
-api_count: 1
+api_count: 2
 apis:
 - baseURL: /v1.54
   baseurl_source: spec
@@ -158,7 +158,7 @@ arazzos:
 - description: Gather the full diagnostic picture for a container — state, logs, processes, resource stats, and filesystem drift.
   name: Docker Troubleshoot a Failing Container
   slug: docker-troubleshoot-container-workflow
-artifact_total: 53
+artifact_total: 54
 collections:
 - collection_type: open
   name: API Collection
@@ -212,6 +212,21 @@ collections:
   name: Docker Engine API
   slug: open-docker
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/plans/docker-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/docker-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/rate-limits/docker-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/docker-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/finops/docker-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/docker-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/capabilities/docker-capability-edges.yml
   title: ''
@@ -414,12 +429,20 @@ common:
   title: ''
   type: Arazzo
   url: arazzo/docker-install-plugin-workflow.yml
+- group: design
+  title: ''
+  type: SpectralRules
+  url: https://github.com/docker/docs/blob/63cc3634e3a27ecb0cfdecba216fa74bf1fdceec/hack/api-docs/validation/rules.yaml
 created: '2025-06-05'
 description: Docker is a platform for developers and sysadmins to build, share, and run applications in containers, packaging code and dependencies together for consistent deployment across environments.
 finops:
-- name: Docker Finops
+- has_sources: false
+  method: generated
+  name: Docker Finops
+  primary_unit: ''
   service_category: API
   slug: docker-finops
+  template: true
 image: https://www.docker.com/sites/default/files/d8/2019-07/docker-logo-blue.png
 layout: provider
 mcp_servers:
@@ -433,10 +456,13 @@ modified: '2026-06-20'
 name: Docker
 nav: Providers
 network: true
-overview: 'Docker publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Config API, Container API, Distribution API, and 12 more. Tagged areas include Cloud, Containers, Developer Tools, DevOps, and Infrastructure.
+overview: 'Docker publishes 15 API contracts indexed on the [APIs.io](https://apis.io/) network, including Config API, Container API, Distribution API, and 12 more. Tagged areas include Cloud, Containers, Developer Tools, DevOps, and Infrastructure.
 
 
-  Docker''s developer surface includes documentation, engineering blog, pricing, signup flow, changelog, CLI, and 37 more developer resources.'
+  The Docker catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
+  Docker''s developer surface includes documentation, engineering blog, pricing, signup flow, changelog, CLI, and 41 more developer resources.'
 plans:
 - name: Docker Plans Pricing
   plan_count: 3
@@ -446,20 +472,32 @@ rate_limits:
 - limit_count: 5
   name: Docker Rate Limits
   slug: docker-rate-limits
+rules:
+- authorship: provider
+  effective_rule_count: 3
+  extends: []
+  name: Docker — docs rules
+  rule_count: 3
+  severity_counts:
+    error: 3
+    hint: 0
+    info: 0
+    warn: 0
+  slug: docker-docs-spectral-rules
 score:
   band: developing
-  composite: 41.1
+  composite: 43.2
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 36.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 79.0
+    artifact_dirs: 26
+    catalog_earned: 43.0
+    catalog_earned_first_party: 10.0
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.1
   facets:
-    access_clarity: 60.5
-    contract_governance: 4.5
+    access_clarity: 52.6
+    contract_governance: 34.8
     contract_quality: 38.0
     developer_ergonomics: 31.0
     discoverability: 55.4
@@ -480,8 +518,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

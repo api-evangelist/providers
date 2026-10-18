@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: 'Modeled product-area API for client/patient records - the people a practice serves, their demographics, contact details, and intake information. endpointsModeled: true. Carepatron does not publish a d'
@@ -50,6 +50,10 @@ apis:
   slug: carepatron-billing-api
 artifact_total: 6
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.carepatron.com/blog/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/carepatron/refs/heads/main/security/carepatron-trust-center.yml
   title: ''
@@ -89,14 +93,14 @@ created: '2026-07-10'
 description: Carepatron is a cloud-based healthcare practice management and EHR platform for therapists, counselors, psychologists, health coaches, nutritionists, and other practitioners. It brings client records, appointment scheduling and online booking, telehealth, AI-assisted clinical notes and documentation, and billing/invoicing with insurance claims into one workspace, and markets HIPAA/SOC/GDPR compliance across 100,000+ clinicians in 120+ countries. As of this review Carepatron does NOT publish a documented public developer API - its pricing page lists "API (coming soon)" on the Advanced plan, and there is no developer portal, API reference, published base URL, OpenAPI definition, or SDK. Third-party connectivity today is limited to a handful of native integrations (Zoom, accounting software, Google Tag Manager). The APIs listed below are logical/product-area groupings modeled from Carepatron's own feature set; their endpoints are NOT documented and are marked as modeled, not confirmed.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/carepatron.png
 layout: provider
-modified: '2026-07-25'
+modified: '2026-10-06'
 name: Carepatron
 nav: Providers
 network: true
-overview: 'Carepatron publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Healthcare, Practice Management, EHR, Therapy, and Telehealth.
+overview: 'Carepatron publishes no API. The 3 entries listed on the [APIs.io](https://apis.io/) network are product areas recorded for completeness, each marked as not an API. Tagged areas include Healthcare, Practice Management, Electronic Health Records, Therapy, and Telehealth.
 
 
-  Carepatron''s developer surface includes documentation, pricing, and 6 more developer resources.'
+  Carepatron''s developer surface includes engineering blog, documentation, pricing, and 6 more developer resources.'
 plans:
 - name: Carepatron Plans Pricing
   plan_count: 3
@@ -104,20 +108,20 @@ plans:
 random_paper: 15
 score:
   band: emerging
-  composite: 17.3
+  composite: 13.7
   coverage:
-    artifact_dirs: 4
-    catalog_earned: 45.8
+    artifact_dirs: 5
+    catalog_earned: 38.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 69.2
+    catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.6
   facets:
-    access_clarity: 46.8
+    access_clarity: 26.3
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 9.5
+    developer_ergonomics: 11.9
     discoverability: 62.5
     operational_transparency: 2.6
   previous_composite: 17.3
@@ -127,8 +131,8 @@ score:
     regime: Health
     regime_id: health
     score: 8.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -148,7 +152,7 @@ slug: carepatron
 tags:
 - Healthcare
 - Practice Management
-- EHR
+- Electronic Health Records
 - Therapy
 - Telehealth
 - Scheduling

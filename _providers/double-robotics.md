@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: Local developer API for the Double 3 telepresence robot. Commands and events are exchanged as JSON packets over a standard Unix domain socket with the core D3 system service (Ubuntu 18.04, aarch64). A
@@ -45,6 +45,10 @@ apis:
   slug: fleet-rest-api
 artifact_total: 4
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.doublerobotics.com/stories/
 - group: company
   title: ''
   type: Website
@@ -102,31 +106,31 @@ created: '2026-07-17'
 description: 'Double Robotics builds telepresence robots for hybrid work and education, best known for the self-driving Double 3 videoconferencing robot and the earlier iPad-based Double 2. Its developer program spans three surfaces: the Double 3 SDK (a local command-and-event API exposed over a Unix domain socket on the robot, covering base movement, navigation, PTZ cameras, depth sensors, WebRTC calling, and standby/sidebar apps), iOS SDKs for the Double 2 (Basic Control and Camera Kit), and a Fleet REST API for programmatic access to fleet-management data such as robots, users, call logs, and visitor passes. Added to the API Evangelist network from VC-portfolio discovery and enriched against the company''s public developer surface.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/double-robotics.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Double Robotics
 nav: Providers
 network: true
-overview: 'Double Robotics publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Telepresence, Robotics, Video Conferencing, and Hybrid Work.
+overview: 'Double Robotics is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Telepresence, Robotics, Video Conferencing, and Hybrid Work.
 
 
-  Double Robotics'' developer surface includes documentation, authentication, and 10 more developer resources.'
+  Double Robotics'' developer surface includes engineering blog, documentation, authentication, and 10 more developer resources.'
 random_paper: 9
 score:
   band: emerging
-  composite: 17.8
+  composite: 18.4
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 17.1
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 38.1
+    developer_ergonomics: 40.5
     discoverability: 64.3
     operational_transparency: 2.6
   previous_composite: 17.8
@@ -136,8 +140,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

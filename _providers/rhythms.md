@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -256,7 +256,7 @@ modified: '2026-07-21'
 name: Rhythms
 nav: Providers
 network: true
-overview: 'Rhythms publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Access Requests API, Chat Refresh Threads API, Connector Requests API, and 10 more. Tagged areas include Company, Artificial Intelligence, Productivity, Goal Tracking, and OKRs.
+overview: 'Rhythms publishes 13 API contracts indexed on the [APIs.io](https://apis.io/) network, including Access Requests API, Chat Refresh Threads API, Connector Requests API, and 10 more. Tagged areas include Company, Artificial Intelligence, Productivity, Goal Tracking, and OKRs.
 
 
   Rhythms'' developer surface includes authentication, signup flow, pricing, engineering blog, support, and 16 more developer resources.'
@@ -296,8 +296,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

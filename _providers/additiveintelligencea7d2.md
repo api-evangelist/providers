@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 0
 common:
@@ -63,13 +63,13 @@ modified: '2026-09-16'
 name: Additive Intelligence
 nav: Providers
 network: true
-overview: Additive Intelligence is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Additive Manufacturing, 3D Printing, Metal 3D Printing, and Machine Learning.
+overview: Additive Intelligence is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, 3D Printing, Metal 3D Printing, Machine Learning, and Artificial Intelligence.
 random_paper: 13
 score:
   band: minimal
   composite: 0.0
   coverage:
-    artifact_dirs: 0
+    artifact_dirs: 1
     catalog_earned: 25.0
     catalog_earned_first_party: 0.0
     catalog_gap: 90.0
@@ -106,8 +106,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 0.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -116,7 +116,6 @@ score:
 slug: additiveintelligencea7d2
 tags:
 - Company
-- Additive Manufacturing
 - 3D Printing
 - Metal 3D Printing
 - Machine Learning

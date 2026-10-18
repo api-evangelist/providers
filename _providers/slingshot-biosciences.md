@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 36.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: The Shopify Storefront GraphQL API for the Slingshot Bio online store, declared by the company in its own /.well-known/api-catalog. Serves products, collections, cart and checkout operations for the c
@@ -150,7 +150,7 @@ modified: '2026-08-05'
 name: Slingshot Biosciences
 nav: Providers
 network: true
-overview: 'Slingshot Biosciences publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Life Sciences, Flow Cytometry, and Laboratory.
+overview: 'Slingshot Biosciences is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Life Sciences, Flow Cytometry, and Laboratory.
 
 
   Slingshot Biosciences'' developer surface includes engineering blog, support, pricing, signup flow, authentication, and 14 more developer resources.'
@@ -164,7 +164,7 @@ score:
   band: thin
   composite: 30.6
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -189,8 +189,8 @@ score:
     regime: Health
     regime_id: health
     score: 32.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

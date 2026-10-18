@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'The Wit.ai HTTP API extracts structured meaning (intents, entities, traits) from text and audio, transcribes speech (speech / dictation), synthesizes speech (text-to-speech), and manages an app''s NLP '
@@ -42,6 +42,10 @@ apis:
   slug: witai-http-api
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://wit.ai/blog/
 - group: company
   title: ''
   type: Website
@@ -122,31 +126,31 @@ created: '2026-07-17'
 description: Wit.ai is a natural language processing (NLP) platform from Meta that lets developers build applications and devices you can talk or text to. It turns spoken or written user input into structured, machine-readable data — extracting intents, entities, and traits — and provides speech recognition (speech-to-text), dictation, and speech synthesis (text-to-speech). Developers train an app with example utterances, then call the Wit HTTP API with a Bearer server access token to parse messages, transcribe audio, and manage an app's entities, intents, traits, and utterances. Wit.ai is free to use and ships official client SDKs for Node.js, Python, Ruby, Go, iOS, Unity, and Unreal. It was founded in 2013, backed by a16z, and acquired by Facebook (now Meta) in 2015.
 image: https://avatars.githubusercontent.com/u/4723433?v=4
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Wit.AI
 nav: Providers
 network: true
-overview: 'Wit.AI publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Natural Language Processing, NLP, Speech Recognition, and Speech-to-Text.
+overview: 'Wit.AI is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Natural Language Processing, Speech Recognition, Speech-to-Text, and Text-to-Speech.
 
 
-  Wit.AI''s developer surface includes documentation, API reference, getting-started guide, signup flow, authentication, and 12 more developer resources.'
+  Wit.AI''s developer surface includes engineering blog, documentation, API reference, getting-started guide, signup flow, authentication, and 12 more developer resources.'
 random_paper: 14
 score:
   band: emerging
-  composite: 23.7
+  composite: 23.8
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 11
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 57.1
+    developer_ergonomics: 59.5
     discoverability: 73.2
     operational_transparency: 2.6
   previous_composite: 23.7
@@ -154,12 +158,12 @@ score:
     mcp: derived
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 18.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -179,7 +183,6 @@ slug: witai
 tags:
 - Company
 - Natural Language Processing
-- NLP
 - Speech Recognition
 - Speech-to-Text
 - Text-to-Speech

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 32.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 3
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 60
   slug: ludo-ai-agentic-access
   summary_line: 60 operations · 41 acting · 3 human-in-the-loop
-api_count: 2
+api_count: 4
 apis:
 - description: The Ludo.ai MCP Server exposes the platform's asset generation tools via the Model Context Protocol, allowing AI assistants like Claude and Cursor to generate game assets through natural language conv
   name: Ludo.ai MCP Server
@@ -334,9 +334,13 @@ common:
 created: '2026-03-24'
 description: Ludo.ai is a game design hub that uses artificial intelligence to help developers generate production-ready game assets including images, 3D models, audio, and animations. The platform entered beta for its Model Context Protocol (MCP) integration, exposing its asset generation suite as a headless API that enables vibe coding where developers can trigger asset creation directly from AI assistants like Claude or Cursor.
 finops:
-- name: Ludo Ai Finops
+- has_sources: true
+  method: generated
+  name: Ludo Ai Finops
+  primary_unit: ''
   service_category: AI Infrastructure
   slug: ludo-ai-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ludo-ai.png
 json_schemas:
 - name: AnimateSpriteKeyframesPayload
@@ -431,7 +435,7 @@ modified: '2026-05-19'
 name: Ludo.ai
 nav: Providers
 network: true
-overview: 'Ludo.ai publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Audio API, Images API, Results API, and 13 more. Tagged areas include Artificial Intelligence, Asset Generation, Game Design, Game Development, and Game Asset Generation.
+overview: 'Ludo.ai publishes 16 API contracts indexed on the [APIs.io](https://apis.io/) network, including Audio API, Images API, Results API, and 13 more. Tagged areas include Artificial Intelligence, Asset Generation, Game Design, Game Development, and Game Asset Generation.
 
 
   The Ludo.ai catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -448,9 +452,10 @@ rate_limits:
   name: Ludo Ai Rate Limits
   slug: ludo-ai-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: Ludo.ai API Rules
+  name: Ludo.ai — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -458,7 +463,8 @@ rules:
     info: 1
     warn: 5
   slug: ludo-ai-jsonschema-spectral-rules
-- effective_rule_count: 56
+- authorship: generated
+  effective_rule_count: 56
   extends:
   - spectral:oas
   name: Ludo.ai API Rules
@@ -471,23 +477,23 @@ rules:
   slug: ludo-ai-rules
 score:
   band: developing
-  composite: 52.5
+  composite: 51.5
   coverage:
-    artifact_dirs: 28
+    artifact_dirs: 29
     catalog_earned: 70.8
     catalog_earned_first_party: 8.0
     catalog_gap: 44.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 18.1
+  delta: -1.0
   facets:
-    access_clarity: 56.6
+    access_clarity: 48.7
     contract_governance: 22.0
     contract_quality: 57.2
     developer_ergonomics: 56.5
-    discoverability: 75.0
+    discoverability: 80.0
     operational_transparency: 36.8
-  previous_composite: 34.4
+  previous_composite: 52.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -504,9 +510,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: rising
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: flat
   upsert:
     applies: true
     score: 0.0

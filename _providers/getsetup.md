@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -65,7 +65,7 @@ modified: '2026-07-19'
 name: GetSetup
 nav: Providers
 network: true
-overview: 'GetSetup is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Education, EdTech, and Online Learning.
+overview: 'GetSetup is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Education, EdTech, and E-Learning.
 
 
   GetSetup''s developer surface includes support and 4 more developer resources.'
@@ -95,8 +95,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -114,7 +114,7 @@ tags:
 - Consumer
 - Education
 - EdTech
-- Online Learning
+- E-Learning
 - Live Classes
 - Older Adults
 - Health and Wellness

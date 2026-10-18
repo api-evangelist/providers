@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: REST API for programmatic creation of animation-ready 3D avatars from images, video, measurements and text, built on the SMPL body-model family.
@@ -40,6 +40,10 @@ apis:
   slug: meshcapade-api
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://medium.com/feed/meshcapade
 - group: company
   title: ''
   type: Website
@@ -104,20 +108,20 @@ created: '2026-07-17'
 description: Meshcapade builds digital humans - technology that turns images, video, motion capture, body measurements or text prompts into anatomically accurate, animation-ready 3D avatars. Its platform is built on the SMPL, SMPL-X and SUPR parametric body-model family that originated at the Max Planck Institute for Intelligent Systems in Tuebingen, Germany. Meshcapade offers a hosted avatar-creation platform at me.meshcapade.com and a REST API for programmatic avatar generation, plus open-source body-model libraries and integrations for Blender, Maya and Unreal Engine. Customers span fashion, robotics, gaming and animation, fitness, and scientific research.
 image: https://meshcapade.com/images/meta/main.jpg
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Meshcapade
 nav: Providers
 network: true
-overview: 'Meshcapade publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Enterprise Software, Digital Humans, 3D Avatars, and Body Modeling.
+overview: 'Meshcapade is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Enterprise Software, Digital Humans, 3D Avatars, and Body Modeling.
 
 
-  Meshcapade''s developer surface includes documentation, API reference, engineering blog, support, signup flow, and 9 more developer resources.'
+  Meshcapade''s developer surface includes documentation, API reference, engineering blog, support, signup flow, and 10 more developer resources.'
 random_paper: 1
 score:
   band: emerging
   composite: 22.2
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -138,13 +142,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 12.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/meshcapade/refs/heads/main/screenshots/meshcapade-2026-10-11T191205.png
 security:
 - kind: domain-security
   name: Meshcapade Domain Security

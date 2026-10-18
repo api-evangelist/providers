@@ -23,10 +23,28 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 3
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/aiperofficial/refs/heads/main/plans/aiperofficial-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/aiperofficial-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/aiperofficial/refs/heads/main/rate-limits/aiperofficial-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/aiperofficial-rate-limits.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://aiper.com/blogs/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://aiper.com/blogs/feed/
 - group: build
   href: https://raw.githubusercontent.com/api-evangelist/aiperofficial/refs/heads/main/packages/aiperofficial-packages.yml
   title: ''
@@ -82,14 +100,14 @@ created: '2026-09-14'
 description: 'Aiper is a consumer robotics company that designs and sells cordless robotic pool cleaners, solar-powered pool skimmers and smart yard-care hardware (the Scuba, Surfer/EcoSurfer, Pilot and IrriSense lines), sold in more than 7,000 stores across 50+ countries with a US base in The Woodlands, Texas. Its devices are paired to the Aiper mobile app, which talks to a regional cloud control plane at apiamerica/apieurope/apiasia.aiper.com plus an AWS IoT MQTT layer. That cloud surface is a private first-party app backend: Aiper publishes no developer portal, no API reference, no SDK and no machine-readable contract, and every anonymous request to those hosts is answered with an authentication error. The only clients that speak it are unofficial, community reverse-engineered Home Assistant and Homebridge integrations.'
 image: https://d1274tx8ixnt7d.cloudfront.net/20250611/17496348246021749634730323_lQDPJxtgagiJ-NPNAyDNAyCw5tV7PWNRyTEIKTTbrt39AA_800_800.jpg
 layout: provider
-modified: '2026-09-14'
+modified: '2026-10-06'
 name: Aiper
 nav: Providers
 network: true
 overview: 'Aiper is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Robotics, Consumer Electronics, IoT, and Smart Home.
 
 
-  Aiper''s developer surface includes support, engineering blog, and 6 more developer resources.'
+  Aiper''s developer surface includes engineering blog, support, and 10 more developer resources.'
 plans:
 - name: Aiperofficial Plans Pricing
   plan_count: 0
@@ -103,7 +121,7 @@ score:
   band: minimal
   composite: 9.6
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 10
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -124,13 +142,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 12.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/aiperofficial/refs/heads/main/screenshots/aiperofficial-2026-10-11T093343.png
 security:
 - kind: domain-security
   name: Aiperofficial Domain Security

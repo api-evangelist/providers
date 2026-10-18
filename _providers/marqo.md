@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 8
+- acting_count: 7
   human_in_the_loop: 0
   name: Marqo Agentic Access
   operation_count: 16
   slug: marqo-agentic-access
-  summary_line: 16 operations · 8 acting
+  summary_line: 16 operations · 7 acting
 api_count: 1
 apis:
 - baseURL: http://localhost:8882
@@ -252,9 +252,13 @@ features:
 - Python client (py-marqo), Terraform provider, and InstantSearch client
 - Hosted Marqo Cloud surface preserves API parity for legacy users
 finops:
-- name: Marqo Finops
+- has_sources: true
+  method: generated
+  name: Marqo Finops
+  primary_unit: ''
   service_category: Vector Database
   slug: marqo-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/marqo.png
 integrations:
 - description: Vespa is the underlying storage and retrieval engine that backs every Marqo index.
@@ -282,7 +286,7 @@ modified: '2026-05-25'
 name: Marqo
 nav: Providers
 network: true
-overview: 'Marqo publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Documents API, Embeddings API, Indexes API, and 4 more. Tagged areas include Vector Database, Vector Search, Multi-Modal, Semantic Search, and Embeddings.
+overview: 'Marqo publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Documents API, Embeddings API, Indexes API, and 4 more. Tagged areas include Vector Database, Vector Search, Multi-Modal, Semantic Search, and Embeddings.
 
 
   Marqo''s developer surface includes authentication, documentation, getting-started guide, engineering blog, pricing, tooling, code examples, and 23 more developer resources.'
@@ -297,17 +301,17 @@ rate_limits:
   slug: marqo-rate-limits
 score:
   band: developing
-  composite: 43.0
+  composite: 41.2
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 39.0
+    artifact_dirs: 12
+    catalog_earned: 36.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 76.0
+    catalog_gap: 79.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.8
   facets:
-    access_clarity: 23.7
+    access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 45.0
     developer_ergonomics: 42.9
@@ -326,12 +330,12 @@ score:
       total: 7
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 10.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

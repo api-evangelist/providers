@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Publicly served SOAP 1.1 / 1.2 web service behind the USADATA Leads Portal and Leads Module. The WSDL is served anonymously from the production API host and declares 24 operations covering the full li
@@ -40,6 +40,15 @@ apis:
   slug: leads-engine
 artifact_total: 6
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/usadata-inc/refs/heads/main/rate-limits/usadata-inc-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/usadata-inc-rate-limits.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.usadata.com/resources/news?format=rss
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/usadata-inc/refs/heads/main/security/usadata-inc-domain-security.yml
   title: ''
@@ -158,14 +167,14 @@ mcp_servers:
 - description: USADATA ships no MCP server. Searched the docs, npm, and the MCP registries on 2026-08-13 and found nothing first-party. What follows is a CANDIDATE tool set derived one-for-one from the 24 operations
   name: MCP Server (candidate, derived from the Leads Engine WSDL)
   slug: mcp-server-candidate-derived-from-the-leads-engine-wsdl
-modified: '2026-08-13'
+modified: '2026-10-06'
 name: USADATA
 nav: Providers
 network: true
-overview: 'USADATA publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data, Marketing, Data Enrichment, and Audience Targeting.
+overview: 'USADATA is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data, Marketing, Data Enrichment, and Audience Targeting.
 
 
-  USADATA''s developer surface includes authentication, signup flow, API reference, engineering blog, support, sandbox, and 18 more developer resources.'
+  USADATA''s developer surface includes authentication, signup flow, API reference, engineering blog, support, sandbox, and 20 more developer resources.'
 plans:
 - name: Usadata Inc Plans Pricing
   plan_count: 0
@@ -177,15 +186,15 @@ rate_limits:
   slug: usadata-inc-rate-limits
 score:
   band: thin
-  composite: 31.4
+  composite: 31.5
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 34.2
     contract_governance: 18.2
@@ -217,8 +226,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

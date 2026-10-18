@@ -30,21 +30,21 @@ agent_readiness:
     mcp_server: verified
     openapi_examples: partial
     protected_resource_metadata: verified
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 51.0
-  scored_at: '2026-10-04'
+  score: 49.1
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 160
-  human_in_the_loop: 122
+- acting_count: 158
+  human_in_the_loop: 120
   name: Loadsmart Agentic Access
-  operation_count: 284
+  operation_count: 290
   slug: loadsmart-agentic-access
-  summary_line: 284 operations · 160 acting · 122 human-in-the-loop
-api_count: 2
+  summary_line: 290 operations · 158 acting · 120 human-in-the-loop
+api_count: 3
 apis:
 - baseURL: https://api.loadsmart.com
   baseurl_source: declared
@@ -611,9 +611,13 @@ features:
 - Integrations with Oracle Transportation Management, MercuryGate, and other TMS/ERPs
 - Postman collections for both ShipperGuide and Opendock Nova
 finops:
-- name: Loadsmart Finops
+- has_sources: true
+  method: generated
+  name: Loadsmart Finops
+  primary_unit: shipment
   service_category: Logistics and Supply Chain
   slug: loadsmart-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/loadsmart.png
 layout: provider
 mcp_servers:
@@ -624,7 +628,7 @@ modified: '2026-05-25'
 name: Loadsmart
 nav: Providers
 network: true
-overview: 'Loadsmart publishes 48 APIs on the [APIs.io](https://apis.io/) network, including Appointments API, Asset Container API, Asset Visit API, and 45 more. Tagged areas include Freight, Logistics, Transportation, Supply Chain, and Digital Freight.
+overview: 'Loadsmart publishes 48 API contracts indexed on the [APIs.io](https://apis.io/) network, including Appointments API, Asset Container API, Asset Visit API, and 45 more. Tagged areas include Freight, Logistics, Transportation, Supply Chain, and Digital Freight.
 
 
   Loadsmart''s developer surface includes authentication, documentation, API reference, engineering blog, YouTube channel, and 30 more developer resources.'
@@ -638,23 +642,23 @@ rate_limits:
   name: Loadsmart Rate Limits
   slug: loadsmart-rate-limits
 score:
-  band: developing
-  composite: 41.0
+  band: thin
+  composite: 35.3
   coverage:
     artifact_dirs: 14
-    catalog_earned: 58.0
+    catalog_earned: 48.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.0
+    catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -5.7
   facets:
-    access_clarity: 36.3
+    access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 46.7
     developer_ergonomics: 52.4
-    discoverability: 63.3
-    operational_transparency: 29.5
+    discoverability: 73.3
+    operational_transparency: 15.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -662,7 +666,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 40.5
+  previous_composite: 41.0
   provenance:
     agentic_access: derived
     contracts:
@@ -673,13 +677,13 @@ score:
     mcp: first-party
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 22.2

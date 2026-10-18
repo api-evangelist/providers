@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -93,6 +93,11 @@ collections:
   name: CA Data Catalog (CKAN) API
   slug: open-bureau-of-consular-affairs
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/bureau-of-consular-affairs/refs/heads/main/finops/bureau-of-consular-affairs-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/bureau-of-consular-affairs-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/bureau-of-consular-affairs/refs/heads/main/agentic-access/bureau-of-consular-affairs-agentic-access.yml
   title: ''
@@ -221,19 +226,23 @@ common:
 created: '2024-11-25'
 description: The Bureau of Consular Affairs (CA) is a bureau of the United States Department of State responsible for administering laws, formulating regulations, and implementing policies related to consular services and immigration. CA provides travel advisories, passport and visa information, and publishes datasets through its data catalog accessible via the CKAN API.
 finops:
-- name: Bureau Of Consular Affairs Finops
+- has_sources: false
+  method: generated
+  name: Bureau Of Consular Affairs Finops
+  primary_unit: ''
   service_category: API
   slug: bureau-of-consular-affairs-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bureau-of-consular-affairs.png
 layout: provider
 modified: '2026-09-05'
 name: Bureau of Consular Affairs
 nav: Providers
 network: true
-overview: 'Bureau of Consular Affairs publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Datastore API, Discovery API, Write API, and 5 more. Tagged areas include Federal Government, Passports, Travel, Travel Advisories, and Visa.
+overview: 'Bureau of Consular Affairs publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Datastore API, Discovery API, Write API, and 5 more. Tagged areas include Federal Government, Passports, Travel, Travel Advisories, and Visa.
 
 
-  Bureau of Consular Affairs'' developer surface includes authentication, developer portal, and 25 more developer resources.'
+  Bureau of Consular Affairs'' developer surface includes authentication, developer portal, and 26 more developer resources.'
 plans:
 - name: Bureau Of Consular Affairs Plans Pricing
   plan_count: 0
@@ -245,17 +254,17 @@ rate_limits:
   slug: bureau-of-consular-affairs-rate-limits
 score:
   band: thin
-  composite: 33.9
+  composite: 32.3
   coverage:
     artifact_dirs: 22
-    catalog_earned: 40.0
+    catalog_earned: 37.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 28.9
+    access_clarity: 21.1
     contract_governance: 4.5
     contract_quality: 44.7
     developer_ergonomics: 32.7
@@ -283,8 +292,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 30.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

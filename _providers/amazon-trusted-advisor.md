@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.3
-  scored_at: '2026-10-04'
+  score: 15.4
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -180,6 +180,21 @@ collections:
   name: Amazon Trusted Advisor (AWS Support)
   slug: open-amazon-trusted-advisor
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-trusted-advisor/refs/heads/main/plans/amazon-trusted-advisor-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/amazon-trusted-advisor-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-trusted-advisor/refs/heads/main/rate-limits/amazon-trusted-advisor-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/amazon-trusted-advisor-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-trusted-advisor/refs/heads/main/finops/amazon-trusted-advisor-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/amazon-trusted-advisor-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/amazon-trusted-advisor/refs/heads/main/capabilities/amazon-trusted-advisor-capability-edges.yml
   title: ''
@@ -269,9 +284,13 @@ features:
 - description: Programmatic access to Amazon Trusted Advisor resources.
   name: API Access
 finops:
-- name: Amazon Trusted Advisor Finops
+- has_sources: false
+  method: generated
+  name: Amazon Trusted Advisor Finops
+  primary_unit: ''
   service_category: API
   slug: amazon-trusted-advisor-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amazon-trusted-advisor.png
 jsonld:
 - class_count: 0
@@ -283,13 +302,13 @@ modified: '2026-05-19'
 name: Amazon Trusted Advisor
 nav: Providers
 network: true
-overview: 'Amazon Trusted Advisor publishes 16 APIs on the [APIs.io](https://apis.io/) network, including AddAttachmentsToSet API, AddCommunicationToCase API, CreateCase API, and 13 more. Tagged areas include Best Practices, Cloud Optimization, and Security.
+overview: 'Amazon Trusted Advisor is listed with 16 APIs on the [APIs.io](https://apis.io/) network, including AddAttachmentsToSet API, AddCommunicationToCase API, CreateCase API, and 13 more. Tagged areas include Best Practices, Cloud Optimization, and Security.
 
 
   The Amazon Trusted Advisor catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Amazon Trusted Advisor''s developer surface includes developer portal, documentation, developer console, support, signup flow, and 13 more developer resources.'
+  Amazon Trusted Advisor''s developer surface includes developer portal, documentation, developer console, support, signup flow, and 16 more developer resources.'
 plans:
 - name: Amazon Trusted Advisor Plans Pricing
   plan_count: 3
@@ -300,7 +319,8 @@ rate_limits:
   name: Amazon Trusted Advisor Rate Limits
   slug: amazon-trusted-advisor-rate-limits
 rules:
-- effective_rule_count: 53
+- authorship: generated
+  effective_rule_count: 53
   extends:
   - spectral:oas
   name: Amazon Trusted Advisor API Rules
@@ -313,17 +333,17 @@ rules:
   slug: amazon-trusted-advisor-spectral-rules
 score:
   band: developing
-  composite: 46.9
+  composite: 45.4
   coverage:
     artifact_dirs: 15
-    catalog_earned: 57.3
+    catalog_earned: 54.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.8
+    catalog_gap: 60.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 61.8
+    access_clarity: 53.9
     contract_governance: 25.0
     contract_quality: 42.0
     developer_ergonomics: 50.0
@@ -343,8 +363,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

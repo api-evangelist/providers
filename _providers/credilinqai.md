@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 17
@@ -129,6 +129,14 @@ collections:
   name: CrediLinq Authentication Report API
   slug: open-credilinqai-report-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://credilinq.ai/news
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://credilinq.ai/feed
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/credilinqai/refs/heads/main/capabilities/credilinqai-capability-edges.yml
   title: ''
@@ -277,17 +285,17 @@ created: '2026-07-17'
 description: 'CrediLinq is a Singapore-founded embedded-finance and B2B lending fintech that lets platforms and marketplaces offer white-labeled credit to their business customers. Its API-first "Credit as a Service" powers two products: B2B PayLater (buy-now-pay-later for buyers) and GMV Financing (working-capital advances for sellers), with AI/data-driven credit underwriting, automated onboarding and KYC, credit-line management, loan drawdowns, repayments and reconciliation, and partner reporting. The CrediLinq REST API (OpenAPI 3.0, Auth0 client-credentials bearer auth, sandbox/staging/production environments, HMAC-signed webhooks) is documented at docs.credilinq.ai.'
 image: https://credilinq.ai/wp-content/uploads/2025/08/Layer_1-1.svg
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Credilinq.ai
 nav: Providers
 network: true
-overview: 'Credilinq.ai publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Customers API, KYC API, and 5 more. Tagged areas include Company, Fintech, Embedded Finance, Lending, and Buy Now Pay Later.
+overview: 'Credilinq.ai publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authentication API, Customers API, KYC API, and 5 more. Tagged areas include Company, Fintech, Embedded Finance, Lending, and Buy Now Pay Later.
 
 
   The Credilinq.ai catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
 
 
-  Credilinq.ai''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, changelog, and 24 more developer resources.'
+  Credilinq.ai''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, signup flow, changelog, and 26 more developer resources.'
 random_paper: 13
 score:
   band: developing
@@ -324,8 +332,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 25.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

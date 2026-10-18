@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Vertice Cloud Cost Optimization integrates with AWS, GCP, and Azure accounts to provide cloud visibility, cost analytics, and optimization recommendations. The integration uses cross-account IAM roles
@@ -41,6 +41,21 @@ apis:
   slug: cloud-cost-optimization-api
 artifact_total: 6
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/vertice/refs/heads/main/plans/vertice-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/vertice-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/vertice/refs/heads/main/rate-limits/vertice-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/vertice-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/vertice/refs/heads/main/finops/vertice-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/vertice-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/vertice/refs/heads/main/security/vertice-trust-center.yml
   title: ''
@@ -98,19 +113,23 @@ common:
 created: '2026-05-03'
 description: Vertice is an intelligent procurement platform built for the modern enterprise with agentic workflows, AI insights, and expert buyers that empower finance and procurement teams across 30+ countries to buy smarter and scale faster. The platform covers SaaS purchasing and contract management, cloud spend optimization (AWS, GCP, Azure), and integrates with ERPs, CLMs, ticketing platforms, communication tools, TPRM systems, and SSOs to centralize procurement workflows. Vertice processes over $30B in spend with proven 20%+ savings for customers including ARM, Blackberry, Factorial, and Santander.
 finops:
-- name: Vertice Finops
+- has_sources: false
+  method: generated
+  name: Vertice Finops
+  primary_unit: ''
   service_category: API
   slug: vertice-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vertice.png
 layout: provider
 modified: '2026-07-25'
 name: Vertice
 nav: Providers
 network: true
-overview: 'Vertice publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Cloud Cost Optimization, Contract Management, Procurement, SaaS Management, and Spend Management.
+overview: 'Vertice is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Cloud Cost Optimization, Contract Management, Procurement, SaaS Management, and Spend Management.
 
 
-  Vertice''s developer surface includes support, pricing, engineering blog, and 10 more developer resources.'
+  Vertice''s developer surface includes support, pricing, engineering blog, and 13 more developer resources.'
 plans:
 - name: Vertice Plans Pricing
   plan_count: 3
@@ -122,17 +141,17 @@ rate_limits:
   slug: vertice-rate-limits
 score:
   band: emerging
-  composite: 16.5
+  composite: 15.0
   coverage:
-    artifact_dirs: 7
-    catalog_earned: 41.0
+    artifact_dirs: 9
+    catalog_earned: 38.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 34.2
+    access_clarity: 26.3
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 16.7
@@ -145,13 +164,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/vertice/refs/heads/main/screenshots/vertice-2026-10-11T194219.png
 security:
 - kind: domain-security
   name: Vertice Domain Security

@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 18
 apis:
 - description: 'Naver Search API returns search results across Naver''s catalogs: blog, news, book, encyclopedia, café article, knowledge-in (Kin), web document, image, shopping product, and academic document. Each ca'
@@ -92,6 +92,21 @@ apis:
   slug: cdn-plus
 artifact_total: 22
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/naver/refs/heads/main/plans/naver-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/naver-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/naver/refs/heads/main/rate-limits/naver-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/naver-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/naver/refs/heads/main/finops/naver-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/naver-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/naver/refs/heads/main/security/naver-domain-security.yml
   title: ''
@@ -172,19 +187,23 @@ common:
 created: '2026-05-23'
 description: 'Naver Corp. is South Korea''s largest internet company, operating the Naver search portal, Naver Webtoon, Naver Pay, Naver Maps, Naver Shopping, WORKS Mobile, and the LINE messenger platform (jointly with SoftBank via LY Corporation). Naver runs two distinct public developer surfaces: Naver Developers (developers.naver.com) which hosts Naver''s classic Open APIs — Search (blog, news, book, encyclopedia, café, knowledge, web, image, shop, doc), Papago N2MT translation, Naver Login (OAuth 2.0), Naver Maps geocoding and static map, Datalab trend, CAPTCHA, and SmartEditor; and Naver Cloud Platform (www.ncloud.com) — Naver''s IaaS / PaaS offering with Compute (Server, Container, Functions), Storage (Object, Block, File), Network (VPC, CDN+, Global Edge), AI (CLOVA Speech, CLOVA OCR, Papago, HyperCLOVA X), Maps, SENS (SMS / push messaging), Cloud Search, and Certificate Manager.'
 finops:
-- name: Naver Finops
+- has_sources: false
+  method: generated
+  name: Naver Finops
+  primary_unit: ''
   service_category: API
   slug: naver-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/naver.png
 layout: provider
 modified: '2026-05-23'
 name: Naver
 nav: Providers
 network: true
-overview: 'Naver publishes 18 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Search, Translation, Maps, Cloud Platform, and Artificial Intelligence.
+overview: 'Naver is listed with 18 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Search, Translation, Maps, Cloud Platform, and Artificial Intelligence.
 
 
-  Naver''s developer surface includes GitHub presence, engineering blog, and 17 more developer resources.'
+  Naver''s developer surface includes GitHub presence, engineering blog, and 20 more developer resources.'
 plans:
 - name: Naver Plans Pricing
   plan_count: 1
@@ -196,22 +215,22 @@ rate_limits:
   slug: naver-rate-limits
 score:
   band: emerging
-  composite: 17.7
+  composite: 11.6
   coverage:
-    artifact_dirs: 7
-    catalog_earned: 57.4
+    artifact_dirs: 8
+    catalog_earned: 44.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.6
+    catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.1
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 21.4
     discoverability: 72.3
-    operational_transparency: 24.2
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -226,9 +245,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 4.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

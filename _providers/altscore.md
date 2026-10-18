@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: Alternative-data aggregation for credit underwriting and scoring. Aggregates over 50 data sources into on-demand data requests that feed borrower enrichment and decisioning.
@@ -193,7 +193,7 @@ modified: '2026-07-17'
 name: AltScore
 nav: Providers
 network: true
-overview: 'AltScore publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Credit, Lending, Fintech, and Credit Scoring.
+overview: 'AltScore is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Credit, Lending, Fintech, and Credit Scoring.
 
 
   The AltScore catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -240,8 +240,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 41.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

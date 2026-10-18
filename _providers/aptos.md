@@ -27,21 +27,21 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.5
-  scored_at: '2026-10-04'
+  score: 23.7
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 7
+- acting_count: 5
   human_in_the_loop: 0
   name: Aptos Agentic Access
   operation_count: 29
   slug: aptos-agentic-access
-  summary_line: 29 operations · 7 acting
-api_count: 1
+  summary_line: 29 operations · 5 acting
+api_count: 2
 apis:
 - description: 'High-level GraphQL API backed by the Aptos Indexer, providing opinionated access to processed blockchain data. Optimized for querying NFTs, Aptos Objects, token balances, fungible assets, custom Move '
   name: Aptos Indexer GraphQL API
@@ -338,9 +338,13 @@ features:
 - description: Compute-unit metered access with $10-$100/month free credit; no locked tiers.
   name: Usage-based API access via Geomi
 finops:
-- name: Aptos Finops
+- has_sources: true
+  method: generated
+  name: Aptos Finops
+  primary_unit: ''
   service_category: Blockchain
   slug: aptos-finops
+  template: false
 graphqls:
 - description: The Aptos Indexer GraphQL API provides high-level access to processed Aptos blockchain data. Backed by a Hasura GraphQL engine over the Aptos Indexer database, it exposes queryable tables covering tok
   name: Aptos GraphQL API
@@ -925,7 +929,7 @@ modified: '2026-09-16'
 name: Aptos
 nav: Providers
 network: true
-overview: 'Aptos publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Blocks API, Events API, and 7 more. Tagged areas include Blockchain, Web3, Move, Layer 1, and Cryptocurrency.
+overview: 'Aptos publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, Blocks API, Events API, and 7 more. Tagged areas include Blockchain, Web3, Move, Layer 1, and Cryptocurrency.
 
 
   The Aptos catalog on APIs.io includes 2 JSON-LD contexts and 1 Spectral governance ruleset.
@@ -942,9 +946,10 @@ rate_limits:
   name: Aptos Rate Limits
   slug: aptos-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Aptos API Rules
+  name: Aptos — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -953,23 +958,23 @@ rules:
     warn: 4
   slug: aptos-jsonschema-spectral-rules
 score:
-  band: strong
-  composite: 57.8
+  band: developing
+  composite: 49.5
   coverage:
     artifact_dirs: 18
-    catalog_earned: 75.9
+    catalog_earned: 57.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 39.1
+    catalog_gap: 57.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 81.1
+    access_clarity: 52.6
     contract_governance: 9.8
     contract_quality: 54.5
     developer_ergonomics: 77.4
     discoverability: 66.1
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   previous_composite: 57.8
   provenance:
     agentic_access: derived
@@ -984,9 +989,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

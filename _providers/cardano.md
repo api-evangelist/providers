@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.8
-  scored_at: '2026-10-04'
+  score: 22.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 127
   slug: cardano-agentic-access
   summary_line: 127 operations · 6 acting
-api_count: 1
+api_count: 2
 apis:
 - description: Blockfrost also operates as an IPFS provider, enabling developers building on Cardano to pin and retrieve content-addressed files via the InterPlanetary File System. The IPFS API base URL is https://i
   name: Blockfrost IPFS API
@@ -214,6 +214,21 @@ collections:
   name: Blockfrost.io ~ API Documentation Cardano » Accounts Nut.link API
   slug: open-cardano-nut-link-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/cardano/refs/heads/main/plans/cardano-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/cardano-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cardano/refs/heads/main/rate-limits/cardano-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/cardano-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/cardano/refs/heads/main/finops/cardano-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/cardano-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/cardano/refs/heads/main/capabilities/cardano-capability-edges.yml
   title: ''
@@ -449,9 +464,13 @@ examples:
   name: Utils Addresses Xpub Example
   slug: utils-addresses-xpub-example
 finops:
-- name: Cardano Finops
+- has_sources: true
+  method: generated
+  name: Cardano Finops
+  primary_unit: ''
   service_category: Developer Tools
   slug: cardano-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cardano.png
 json_schemas:
 - name: Aggregatorfeaturesmessage
@@ -891,13 +910,13 @@ modified: '2026-09-16'
 name: Cardano
 nav: Providers
 network: true
-overview: 'Cardano publishes 21 APIs on the [APIs.io](https://apis.io/) network, including » Accounts API, » Addresses API, » Assets API, and 18 more. Tagged areas include Cardano, Blockchain, Cryptocurrency, Proof of Stake, and Smart Contracts.
+overview: 'Cardano publishes 21 API contracts indexed on the [APIs.io](https://apis.io/) network, including » Accounts API, » Addresses API, » Assets API, and 18 more. Tagged areas include Cardano, Blockchain, Cryptocurrency, Proof of Stake, and Smart Contracts.
 
 
   The Cardano catalog on APIs.io includes 2 JSON-LD contexts and 1 Spectral governance ruleset.
 
 
-  Cardano''s developer surface includes authentication, engineering blog, and 3 more developer resources.'
+  Cardano''s developer surface includes authentication, engineering blog, and 6 more developer resources.'
 plans:
 - name: Cardano Plans Pricing
   plan_count: 4
@@ -908,9 +927,10 @@ rate_limits:
   name: Cardano Rate Limits
   slug: cardano-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Cardano API Rules
+  name: Cardano — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -920,22 +940,22 @@ rules:
   slug: cardano-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 38.9
+  composite: 30.7
   coverage:
     artifact_dirs: 16
-    catalog_earned: 75.9
+    catalog_earned: 57.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 39.1
+    catalog_gap: 57.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.2
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 9.8
     contract_quality: 58.2
     developer_ergonomics: 31.0
     discoverability: 66.1
-    operational_transparency: 28.4
+    operational_transparency: 7.9
   previous_composite: 38.9
   provenance:
     agentic_access: derived
@@ -950,9 +970,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

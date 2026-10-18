@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 19
+- acting_count: 14
   human_in_the_loop: 0
   name: Code Ocean Agentic Access
   operation_count: 26
   slug: code-ocean-agentic-access
-  summary_line: 26 operations · 19 acting
+  summary_line: 26 operations · 14 acting
 api_count: 1
 apis:
 - baseURL: https://codeocean.com/api/v1
@@ -181,7 +181,7 @@ modified: '2026-07-18'
 name: Code Ocean
 nav: Providers
 network: true
-overview: 'Code Ocean publishes 3 APIs on the [APIs.io](https://apis.io/) network: Capsules API, Computations API, and Data Assets API. Tagged areas include Company, Reproducible Research, Computational Science, Data Science, and Research Computing.
+overview: 'Code Ocean publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Capsules API, Computations API, and Data Assets API. Tagged areas include Company, Reproducible Research, Computational Science, Data Science, and Research Computing.
 
 
   Code Ocean''s developer surface includes documentation, API reference, getting-started guide, authentication, and 16 more developer resources.'
@@ -226,8 +226,8 @@ score:
     regime: Health
     regime_id: health
     score: 26.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

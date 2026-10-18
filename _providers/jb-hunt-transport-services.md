@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.3
-  scored_at: '2026-10-04'
+  score: 15.4
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -92,6 +92,21 @@ collections:
   name: J.B. Hunt 360 Connect Documents Tracking API
   slug: open-jb-hunt-transport-services-tracking-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/jb-hunt-transport-services/refs/heads/main/plans/jb-hunt-transport-services-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/jb-hunt-transport-services-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/jb-hunt-transport-services/refs/heads/main/rate-limits/jb-hunt-transport-services-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/jb-hunt-transport-services-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/jb-hunt-transport-services/refs/heads/main/finops/jb-hunt-transport-services-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/jb-hunt-transport-services-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/jb-hunt-transport-services/refs/heads/main/capabilities/jb-hunt-transport-services-capability-edges.yml
   title: ''
@@ -138,19 +153,23 @@ common:
 created: '2025-03-01'
 description: J.B. Hunt Transport Services, Inc. is one of the largest transportation and logistics companies in North America, providing trucking, intermodal, and contract services. J.B. Hunt offers the J.B. Hunt 360 Connect API portal for shippers and partners to programmatically access quotes, order management, shipment tracking, document management, and scheduling for full-truckload (FTL) and less-than-truckload (LTL) operations.
 finops:
-- name: Jb Hunt Transport Services Finops
+- has_sources: true
+  method: generated
+  name: Jb Hunt Transport Services Finops
+  primary_unit: ''
   service_category: Logistics / Transportation
   slug: jb-hunt-transport-services-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/jb-hunt-transport-services.png
 layout: provider
 modified: '2026-05-19'
 name: J.B. Hunt Transport Services
 nav: Providers
 network: true
-overview: 'J.B. Hunt Transport Services publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Documents API, Orders API, Quotes API, and 2 more. Tagged areas include Freight, Intermodal, Logistics, Shipping, and Supply Chain.
+overview: 'J.B. Hunt Transport Services publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Documents API, Orders API, Quotes API, and 2 more. Tagged areas include Freight, Intermodal, Logistics, Shipping, and Supply Chain.
 
 
-  J.B. Hunt Transport Services'' developer surface includes developer portal, engineering blog, and 8 more developer resources.'
+  J.B. Hunt Transport Services'' developer surface includes developer portal, engineering blog, and 11 more developer resources.'
 plans:
 - name: Jb Hunt Transport Services Plans Pricing
   plan_count: 1
@@ -178,17 +197,17 @@ rate_limits:
   slug: jb-hunt-transport-services-rate-limits
 score:
   band: emerging
-  composite: 21.7
+  composite: 20.2
   coverage:
-    artifact_dirs: 14
-    catalog_earned: 44.0
+    artifact_dirs: 15
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 71.0
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 13.2
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 47.1
     developer_ergonomics: 7.1
@@ -208,8 +227,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

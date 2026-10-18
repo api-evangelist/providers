@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Official open-source Model Context Protocol server (Java) exposing 14 WhoisFreaks domain-intelligence tools to MCP-compatible AI clients. Distributed as source and as the whoisfreaks/mcp-server Docker
@@ -642,7 +642,7 @@ modified: '2026-08-09'
 name: WhoisFreaks
 nav: Providers
 network: true
-overview: 'WhoisFreaks publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Account API, ASN WHOIS API, Databases - ASN WHOIS API, and 20 more. Tagged areas include WHOIS, DNS, Domain Intelligence, IP Intelligence / Geolocation, and Cybersecurity / Threat Intelligence.
+overview: 'WhoisFreaks publishes 23 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, ASN WHOIS API, Databases - ASN WHOIS API, and 20 more. Tagged areas include WHOIS, DNS, Domain Intelligence, IP Intelligence / Geolocation, and Cybersecurity / Threat Intelligence.
 
 
   The WhoisFreaks catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -660,15 +660,15 @@ rate_limits:
   slug: whoisfreaks-rate-limits
 score:
   band: exemplar
-  composite: 67.0
+  composite: 67.1
   coverage:
-    artifact_dirs: 26
+    artifact_dirs: 27
     catalog_earned: 61.0
     catalog_earned_first_party: 24.0
     catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 84.2
     contract_governance: 4.5
@@ -692,8 +692,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

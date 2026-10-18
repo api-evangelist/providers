@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 5
 common:
@@ -115,9 +115,10 @@ overview: 'United States Botanic Garden is profiled on the [APIs.io](https://api
   United States Botanic Garden''s developer surface includes engineering blog and 11 more developer resources.'
 random_paper: 11
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: United States Botanic Garden API Rules
+  name: United States Botanic Garden — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -155,8 +156,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

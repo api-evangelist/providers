@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Versioned XML-over-HTTPS API for third-party sellers on Sears Marketplace (Sears.com, Kmart.com, ShopYourWay.com). GET calls export purchase orders, inventory, item classes, attributes, cancellation r
@@ -191,7 +191,7 @@ modified: '2026-09-15'
 name: Sears Holdings
 nav: Providers
 network: true
-overview: 'Sears Holdings publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 100, Retail, E-Commerce, Marketplace, and Order Management.
+overview: 'Sears Holdings is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 100, Retail, E-Commerce, Marketplace, and Order Management.
 
 
   Sears Holdings'' developer surface includes engineering blog, documentation, API reference, getting-started guide, support, signup flow, pricing, and 24 more developer resources.'
@@ -233,7 +233,7 @@ score:
   band: minimal
   composite: 0.0
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 57.0
     catalog_earned_first_party: 20.0
     catalog_gap: 58.0
@@ -264,13 +264,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/sears-holdings/refs/heads/main/screenshots/sears-holdings-2026-10-11T125632.png
 security:
 - kind: authentication
   name: Sears Holdings Authentication

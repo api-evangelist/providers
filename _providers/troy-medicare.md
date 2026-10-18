@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: The OpenID Connect authorization server behind Troy Medicare's secure provider portal, which contracted providers use for member eligibility verification, claim status and payment history. Its discove
@@ -131,7 +131,7 @@ modified: '2026-08-30'
 name: Troy Medicare
 nav: Providers
 network: true
-overview: 'Troy Medicare publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Health Insurance, Medicare, Medicare Advantage, Health Plans, and Healthcare.
+overview: 'Troy Medicare is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Health Insurance, Medicare, Medicare Advantage, Health Plans, and Healthcare.
 
 
   Troy Medicare''s developer surface includes support, engineering blog, signup flow, pricing, authentication, and 12 more developer resources.'
@@ -176,8 +176,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 41.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

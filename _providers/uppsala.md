@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,7 +44,7 @@ agentic_access:
   operation_count: 7
   slug: uppsala-agentic-access
   summary_line: 7 operations
-api_count: 1
+api_count: 2
 apis:
 - description: The Norse World REST-API, part of the Norse World research infrastructure at Uppsala University's Department of Scandinavian Languages, provides access to attestation and location records of foreign p
   name: Norse World REST-API
@@ -229,9 +229,13 @@ examples:
   name: Uppsala Ucdpprioconflict Example
   slug: uppsala-ucdpprioconflict-example
 finops:
-- name: Uppsala Finops
+- has_sources: true
+  method: generated
+  name: Uppsala Finops
+  primary_unit: ''
   service_category: Education
   slug: uppsala-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/uppsala.png
 json_schemas:
 - name: UcdpApiResponse
@@ -263,7 +267,7 @@ modified: '2026-08-30'
 name: Uppsala University
 nav: Providers
 network: true
-overview: 'Uppsala University publishes 10 APIs on the [APIs.io](https://apis.io/) network, including BattleDeaths API, Dyadic API, GEDEvents API, and 7 more. Tagged areas include University, Higher Education, Education, Sweden, and Public Research University.
+overview: 'Uppsala University publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including BattleDeaths API, Dyadic API, GEDEvents API, and 7 more. Tagged areas include University, Higher Education, Education, Sweden, and Public Research University.
 
 
   The Uppsala University catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -280,9 +284,10 @@ rate_limits:
   name: Uppsala Rate Limits
   slug: uppsala-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Uppsala University API Rules
+  name: Uppsala University — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -290,7 +295,8 @@ rules:
     info: 1
     warn: 4
   slug: uppsala-jsonschema-spectral-rules
-- effective_rule_count: 48
+- authorship: derived
+  effective_rule_count: 48
   extends:
   - spectral:oas
   name: Uppsala University API Rules
@@ -303,17 +309,17 @@ rules:
   slug: uppsala-rules
 score:
   band: developing
-  composite: 49.4
+  composite: 47.8
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 83.2
+    artifact_dirs: 19
+    catalog_earned: 80.2
     catalog_earned_first_party: 24.0
-    catalog_gap: 31.9
+    catalog_gap: 34.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -4.7
+  delta: -1.6
   facets:
-    access_clarity: 50.0
+    access_clarity: 42.1
     contract_governance: 35.6
     contract_quality: 58.2
     developer_ergonomics: 35.7
@@ -327,7 +333,7 @@ score:
     regions:
     - europe
     - nordics
-  previous_composite: 54.1
+  previous_composite: 49.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -342,8 +348,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 34.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

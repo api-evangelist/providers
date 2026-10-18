@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://bux.com/feed/
 - group: company
   title: ''
   type: Website
@@ -73,26 +77,26 @@ created: '2026-07-17'
 description: BUX is a European neobroker and mobile-first investing app operated by BUX B.V., a subsidiary of ABN AMRO. It lets retail investors across Europe buy and sell individual stocks and ETFs commission-free starting from as little as EUR 10, build automated BUX Investment Plans (thematic and expert-built portfolios), and earn interest on uninvested cash across BUX Basic, Plus, and Prime account tiers. BUX is authorised and regulated by the Dutch Authority for the Financial Markets (AFM), with client financial instruments and money held in segregated custody via ABN AMRO Clearing and deposits protected up to EUR 100,000 under the Dutch Deposit Guarantee Scheme. BUX does not publish a public developer API or SDKs; this profile captures the company's identity, legal, and security posture for the API Evangelist network.
 image: https://bux.com/wp-content/uploads/2026/03/BUX-2166_SimplifiedGraph_16x9-scaled.jpg
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: BUX
 nav: Providers
 network: true
 overview: 'BUX is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Investing, Neobroker, and Brokerage.
 
 
-  BUX''s developer surface includes support, pricing, and 6 more developer resources.'
+  BUX''s developer surface includes support, pricing, and 7 more developer resources.'
 random_paper: 5
 score:
   band: emerging
-  composite: 13.1
+  composite: 13.2
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 31.6
     contract_governance: 0.0
@@ -112,8 +116,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 18.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

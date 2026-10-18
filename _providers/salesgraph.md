@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 43.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://salesgraph.com/api/v1
@@ -243,7 +243,7 @@ modified: '2026-08-13'
 name: Salesgraph
 nav: Providers
 network: true
-overview: 'Salesgraph publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Audit API, Commands API, Runs API, and 3 more. Tagged areas include Company, Sales, Revenue Automation, Go-To-Market, and AI Agents.
+overview: 'Salesgraph publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Audit API, Commands API, Runs API, and 3 more. Tagged areas include Company, Sales, Revenue Automation, Go-To-Market, and AI Agents.
 
 
   Salesgraph''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 24 more developer resources.'
@@ -260,7 +260,7 @@ score:
   band: thin
   composite: 31.2
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -290,8 +290,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

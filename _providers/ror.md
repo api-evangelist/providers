@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 15.5
-  scored_at: '2026-10-04'
+  score: 13.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The ROR REST API provides programmatic access to the Research Organization Registry, enabling users to retrieve, search, filter, and match organization records by name, identifier, affiliation text, o
@@ -106,9 +106,13 @@ common:
 created: '2026-06-12'
 description: ROR (Research Organization Registry) is a global, community-led, curated registry of open persistent identifiers for research organizations. It provides unique, stable identifiers (ROR IDs) for over 120,000 universities, companies, government labs, nonprofits, and other organizations involved in scholarly research. The registry is maintained collaboratively by California Digital Library, Crossref, and DataCite, with all data available under the CC0 license. ROR offers a free REST API for querying, searching, and retrieving organization records, and is integrated as the preferred organization identifier across Crossref, DataCite, and ORCID platforms.
 finops:
-- name: Ror Finops
+- has_sources: false
+  method: generated
+  name: Ror Finops
+  primary_unit: ''
   service_category: ''
   slug: ror-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ror.png
 jsonld:
 - class_count: 8
@@ -120,7 +124,7 @@ modified: '2026-06-12'
 name: ROR
 nav: Providers
 network: true
-overview: 'ROR publishes 1 API on the [APIs.io](https://apis.io/) network: REST API. Tagged areas include Research, Organization, Identifiers, Registry, and Scholarly.
+overview: 'ROR is listed with 1 API on the [APIs.io](https://apis.io/) network: REST API. Tagged areas include Research, Organization, Identifiers, Registry, and Scholarly.
 
 
   The ROR catalog on APIs.io includes 1 JSON-LD context.
@@ -137,23 +141,23 @@ rate_limits:
   name: Ror Rate Limits
   slug: ror-rate-limits
 score:
-  band: thin
-  composite: 32.2
+  band: emerging
+  composite: 25.2
   coverage:
     artifact_dirs: 8
-    catalog_earned: 69.0
+    catalog_earned: 53.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 46.0
+    catalog_gap: 62.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.0
   facets:
-    access_clarity: 37.4
+    access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 38.7
     developer_ergonomics: 7.1
     discoverability: 66.1
-    operational_transparency: 62.6
+    operational_transparency: 42.1
   previous_composite: 32.2
   regulatory:
     applies: true
@@ -161,9 +165,9 @@ score:
     regime: Education & Research
     regime_id: education
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

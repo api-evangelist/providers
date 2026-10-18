@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: WabtecONE is Wabtec's digital intelligence platform enabling railroads and industrial operators to connect embedded devices and transmit operational data to the cloud for analysis. The platform provid
@@ -47,6 +47,25 @@ apis:
   slug: condition-monitoring
 artifact_total: 12
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/westinghouse-air-brake-technologies/refs/heads/main/plans/westinghouse-air-brake-technologies-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/westinghouse-air-brake-technologies-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/westinghouse-air-brake-technologies/refs/heads/main/rate-limits/westinghouse-air-brake-technologies-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/westinghouse-air-brake-technologies-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/westinghouse-air-brake-technologies/refs/heads/main/finops/westinghouse-air-brake-technologies-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/westinghouse-air-brake-technologies-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.wabteccorp.com/newsroom
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/westinghouse-air-brake-technologies/refs/heads/main/security/westinghouse-air-brake-technologies-domain-security.yml
   title: ''
@@ -82,9 +101,13 @@ common:
   url: https://www.wabteccorp.com/privacy-policy
 description: Westinghouse Air Brake Technologies Corporation (Wabtec) is a leading global provider of equipment, systems, digital solutions, and value-added services for the freight rail and passenger transit industries. Wabtec's digital platform, WabtecONE, delivers cloud and on-premise solutions for fleet management, condition monitoring, transportation management (RailConnect TMS), performance analytics, predictive maintenance, and signaling. Wabtec provides B2B API integrations for railroad operators, mines, ports, and transit agencies to connect their operations with the WabtecONE platform.
 finops:
-- name: Westinghouse Air Brake Technologies Finops
+- has_sources: false
+  method: generated
+  name: Westinghouse Air Brake Technologies Finops
+  primary_unit: ''
   service_category: API
   slug: westinghouse-air-brake-technologies-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/westinghouse-air-brake-technologies.png
 json_schemas:
 - name: Locomotive
@@ -103,17 +126,17 @@ jsonld:
   property_count: 21
   slug: westinghouse-air-brake-technologies-context
 layout: provider
-modified: '2026-05-03'
+modified: '2026-10-06'
 name: Wabtec
 nav: Providers
 network: true
-overview: 'Wabtec publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 1000.
+overview: 'Wabtec is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 1000.
 
 
   The Wabtec catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Wabtec''s developer surface includes developer portal, support, and 6 more developer resources.'
+  Wabtec''s developer surface includes engineering blog, developer portal, support, and 9 more developer resources.'
 plans:
 - name: Westinghouse Air Brake Technologies Plans Pricing
   plan_count: 3
@@ -140,9 +163,10 @@ rate_limits:
   name: Westinghouse Air Brake Technologies Rate Limits
   slug: westinghouse-air-brake-technologies-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Wabtec API Rules
+  name: Wabtec — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -152,20 +176,20 @@ rules:
   slug: westinghouse-air-brake-technologies-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 18.9
+  composite: 17.9
   coverage:
     artifact_dirs: 14
-    catalog_earned: 52.3
+    catalog_earned: 49.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 62.8
+    catalog_gap: 65.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.0
   facets:
-    access_clarity: 26.3
+    access_clarity: 18.4
     contract_governance: 9.8
     contract_quality: 10.7
-    developer_ergonomics: 14.3
+    developer_ergonomics: 16.7
     discoverability: 57.1
     operational_transparency: 10.5
   previous_composite: 18.9
@@ -175,8 +199,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 14.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

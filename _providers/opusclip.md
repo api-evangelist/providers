@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 57.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 13
@@ -91,7 +91,7 @@ apis:
   description: The transcripts API from OpusClip — 1 operation(s) for transcripts.
   name: OpusClip Transcripts API
   slug: opusclip-transcripts-api
-artifact_total: 28
+artifact_total: 29
 asyncapis:
 - description: ''
   name: Opusclip Webhooks
@@ -134,6 +134,11 @@ collections:
   name: Clip brand-templates transcripts API
   slug: open-opusclip-transcripts-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/opusclip/refs/heads/main/plans/opusclip-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/opusclip-plans-pricing.yml
 - group: company
   title: ''
   type: Website
@@ -315,31 +320,35 @@ modified: '2026-07-20'
 name: OpusClip
 nav: Providers
 network: true
-overview: 'OpusClip publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Brand Templates API, Censor Jobs API, Clip Project API, and 6 more. Tagged areas include Company, Consumer, Video, Artificial Intelligence, and Video Editing.
+overview: 'OpusClip publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Brand Templates API, Censor Jobs API, Clip Project API, and 6 more. Tagged areas include Company, Consumer, Video, Artificial Intelligence, and Video Editing.
 
 
   The OpusClip catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  OpusClip''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, support, pricing, and 30 more developer resources.'
+  OpusClip''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, support, pricing, and 31 more developer resources.'
+plans:
+- name: Opusclip Plans Pricing
+  plan_count: 5
+  slug: opusclip-plans-pricing
 random_paper: 21
 rate_limits:
 - limit_count: 1
   name: Opusclip Rate Limits
   slug: opusclip-rate-limits
 score:
-  band: developing
-  composite: 54.0
+  band: strong
+  composite: 60.4
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 45.0
-    catalog_earned_first_party: 8.0
-    catalog_gap: 70.0
+    artifact_dirs: 26
+    catalog_earned: 57.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.4
   facets:
-    access_clarity: 44.7
+    access_clarity: 76.3
     contract_governance: 4.5
     contract_quality: 52.1
     developer_ergonomics: 71.4
@@ -362,9 +371,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 28.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

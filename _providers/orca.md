@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -77,6 +77,10 @@ collections:
   name: Orca Public protocol whirlpools API
   slug: open-orca-whirlpools-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.orca.so/rss/
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/orca/refs/heads/main/agentic-access/orca-agentic-access.yml
   title: ''
@@ -203,26 +207,26 @@ mcp_servers:
 - description: Orca operates a live, hosted MCP (Model Context Protocol) server for native AI tool-use access to its documentation. No API key required; connect via any MCP-compatible client (Claude Desktop, Cursor,
   name: Orca MCP Server
   slug: orca-docs
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Orca
 nav: Providers
 network: true
-overview: 'Orca publishes 3 APIs on the [APIs.io](https://apis.io/) network: Protocol API, Tokens API, and Whirlpools API. Tagged areas include Company, Defi Dex, DeFi, DEX, and Solana.
+overview: 'Orca publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Protocol API, Tokens API, and Whirlpools API. Tagged areas include Company, Defi Dex, DeFi, Decentralized Exchange, and Solana.
 
 
-  Orca''s developer surface includes documentation, API reference, getting-started guide, support, authentication, sandbox, changelog, and 18 more developer resources.'
+  Orca''s developer surface includes documentation, API reference, getting-started guide, support, authentication, sandbox, changelog, and 19 more developer resources.'
 random_paper: 3
 score:
   band: thin
-  composite: 37.0
+  composite: 36.1
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 23
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 63.0
     catalog_max: 100.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.9
   facets:
     access_clarity: 0.0
     contract_governance: 4.5
@@ -243,12 +247,12 @@ score:
     skills: derived
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
-    score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+    matched_via: tags
+    regime: Securities & Market Data
+    regime_id: securities_market_data
+    score: 15.7
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -269,12 +273,12 @@ tags:
 - Company
 - Defi Dex
 - DeFi
-- DEX
+- Decentralized Exchange
 - Solana
 - AMM
 - Liquidity
 - Concentrated Liquidity
 - Blockchain
-- Crypto
+- Cryptocurrency
 website: https://orca.so
 ---

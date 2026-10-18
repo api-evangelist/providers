@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 30.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -102,6 +102,10 @@ collections:
   name: Infor ION API Gateway ION Documents M3 API API
   slug: open-infor-m3-api-api
 common:
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.infor.com/products
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/infor/refs/heads/main/agentic-access/infor-agentic-access.yml
   title: ''
@@ -331,9 +335,13 @@ common:
 created: '2026-04-28'
 description: Infor provides industry-specific cloud ERP platforms including CloudSuite Industrial (M3), CloudSuite Financials, and Infor LN. The Infor ION API Gateway enables OAuth 2.0-based integration across Infor applications and third-party systems. SDKs are available via the infor-cloud GitHub organization for Java, .NET, Go, and HTML5 development.
 finops:
-- name: Infor Finops
+- has_sources: true
+  method: generated
+  name: Infor Finops
+  primary_unit: ''
   service_category: Enterprise Software
   slug: infor-finops
+  template: false
 image: https://www.infor.com/logo-infor.png
 json_schemas:
 - name: Infor M3 Customer
@@ -349,13 +357,13 @@ modified: '2026-09-16'
 name: Infor
 nav: Providers
 network: true
-overview: 'Infor publishes 6 APIs on the [APIs.io](https://apis.io/) network, including ION Documents API, M3 API, and 4 more. Tagged areas include ERP, Manufacturing, Supply Chain, Cloud, and Integration.
+overview: 'Infor publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including ION Documents API, M3 API, and 4 more. Tagged areas include ERP, Manufacturing, Supply Chain, Cloud, and Integration.
 
 
   The Infor catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Infor''s developer surface includes authentication, developer portal, documentation, engineering blog, CLI, changelog, API reference, and 42 more developer resources.'
+  Infor''s developer surface includes pricing, authentication, developer portal, documentation, engineering blog, CLI, changelog, and 43 more developer resources.'
 plans:
 - name: Infor Plans Pricing
   plan_count: 1
@@ -366,10 +374,11 @@ rate_limits:
   name: Infor Rate Limits
   slug: infor-rate-limits
 rules:
-- effective_rule_count: 34
+- authorship: generated
+  effective_rule_count: 34
   extends:
   - spectral:asyncapi
-  name: Infor API Rules
+  name: Infor — asyncapi rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -377,9 +386,10 @@ rules:
     info: 1
     warn: 5
   slug: infor-asyncapi-spectral-rules
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Infor API Rules
+  name: Infor — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -394,17 +404,17 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 68.1
+  composite: 68.7
   coverage:
-    artifact_dirs: 30
-    catalog_earned: 68.5
+    artifact_dirs: 31
+    catalog_earned: 65.5
     catalog_earned_first_party: 16.0
-    catalog_gap: 46.5
+    catalog_gap: 49.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
-    access_clarity: 72.4
+    access_clarity: 75.0
     contract_governance: 31.8
     contract_quality: 59.6
     developer_ergonomics: 82.7
@@ -427,8 +437,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

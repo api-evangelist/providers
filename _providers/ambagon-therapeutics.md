@@ -23,62 +23,104 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
-artifact_total: 0
+artifact_total: 1
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ambagon-therapeutics/refs/heads/main/hosts/ambagon-therapeutics-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/ambagon-therapeutics-hosts.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ambagon-therapeutics/refs/heads/main/vendors/ambagon-therapeutics-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/ambagon-therapeutics-vendors.yml
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.ambagontx.com/terms-of-use/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.ambagontx.com/privacy-policy/
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://www.ambagontx.com/news/
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ambagon-therapeutics/refs/heads/main/security/ambagon-therapeutics-domain-security.yml
+  title: ''
+  type: DomainSecurity
+  url: security/ambagon-therapeutics-domain-security.yml
 - group: company
   title: ''
   type: Website
-  url: https://www.nasdaqprivatemarket.com/
+  url: https://www.ambagontx.com/
+coverage:
+  checked: '2026-10-05'
+  detail: No developer program or API documentation is publicly available.
+  evidence:
+  - status: 200
+    url: https://www.ambagontx.com/
+  reason: no-developer-program
+  state: none
 created: '2026-09-24'
-description: 'Ambagon Therapeutics is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.'
+description: Ambagon Therapeutics is a biotechnology company focused on developing novel therapeutics targeting metabolic and inflammatory diseases. The company aims to leverage advanced drug discovery platforms and collaborations to bring innovative treatments to patients. While currently a stub in the API Evangelist network, further profiling will uncover its API offerings and documentation.
+image: https://www.ambagontx.com/wp-content/uploads/2021/12/yoast-ambagontx.jpg
 layout: provider
 modified: '2026-09-24'
 name: Ambagon Therapeutics
 nav: Providers
 network: true
-overview: Ambagon Therapeutics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
+overview: Ambagon Therapeutics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Therapeutics, Drug Discovery, and Metabolic Diseases.
 random_paper: 21
 score:
   band: minimal
-  composite: 0.3
+  composite: 9.0
   coverage:
-    artifact_dirs: 0
-    catalog_earned: 15.0
+    artifact_dirs: 5
+    catalog_earned: 27.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 100.0
+    catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 8.7
   facets:
-    access_clarity: 0.0
+    access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 26.8
+    discoverability: 50.0
     operational_transparency: 0.0
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: venue_as_website
-    - owner: catalog
-      reason: never_enriched
+  previous_composite: 0.3
+  provenance:
+    mcp: unknown
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 0.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+    score: 13.7
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+security:
+- kind: domain-security
+  name: Ambagon Therapeutics Domain Security
+  slug: ambagon-therapeutics-domain-security
+  summary_line: TLSv1.3 · DNSSEC · DMARC
 slug: ambagon-therapeutics
 tags:
 - Company
-website: https://www.nasdaqprivatemarket.com/
+- Biotechnology
+- Therapeutics
+- Drug Discovery
+- Metabolic Diseases
+website: https://www.ambagontx.com/
 ---

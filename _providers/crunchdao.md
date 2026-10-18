@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 146
+- acting_count: 144
   human_in_the_loop: 2
   name: Crunchdao Agentic Access
-  operation_count: 356
+  operation_count: 358
   slug: crunchdao-agentic-access
-  summary_line: 356 operations · 146 acting · 2 human-in-the-loop
+  summary_line: 358 operations · 144 acting · 2 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://api.hub.crunchdao.com
@@ -721,7 +721,7 @@ modified: '2026-07-18'
 name: CrunchDAO
 nav: Providers
 network: true
-overview: 'CrunchDAO publishes 70 APIs on the [APIs.io](https://apis.io/) network, including Activity API, auth:api-key API, Auth API, and 67 more. Tagged areas include Company, Crypto Web3, Machine Learning, Data Science, and Competitions.
+overview: 'CrunchDAO publishes 70 API contracts indexed on the [APIs.io](https://apis.io/) network, including Activity API, auth:api-key API, Auth API, and 67 more. Tagged areas include Company, Web3, Machine Learning, Data Science, and Competitions.
 
 
   CrunchDAO''s developer surface includes authentication, CLI, documentation, API reference, getting-started guide, engineering blog, support, and 16 more developer resources.'
@@ -733,10 +733,10 @@ score:
     artifact_dirs: 21
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 81.0
+    catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
@@ -744,7 +744,7 @@ score:
     developer_ergonomics: 70.8
     discoverability: 73.2
     operational_transparency: 18.4
-  previous_composite: 41.4
+  previous_composite: 42.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -761,8 +761,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -780,13 +780,12 @@ security:
 slug: crunchdao
 tags:
 - Company
-- Crypto Web3
+- Web3
 - Machine Learning
 - Data Science
 - Competitions
 - Collective Intelligence
 - Quantitative Finance
 - Predictions
-- Web3
 website: https://crunchdao.com
 ---

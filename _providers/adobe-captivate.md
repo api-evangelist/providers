@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 36.7
-  scored_at: '2026-10-04'
+  score: 34.8
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -187,6 +187,21 @@ collections:
   name: Adobe Captivate Prime API (Learning Manager) Account Users API
   slug: open-adobe-captivate-users-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-captivate/refs/heads/main/plans/adobe-captivate-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/adobe-captivate-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-captivate/refs/heads/main/rate-limits/adobe-captivate-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/adobe-captivate-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-captivate/refs/heads/main/finops/adobe-captivate-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/adobe-captivate-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/adobe-captivate/refs/heads/main/capabilities/adobe-captivate-capability-edges.yml
   title: ''
@@ -512,9 +527,13 @@ features:
 - description: Manage announcements and notifications sent to learners, managers, and administrators.
   name: Notification Management
 finops:
-- name: Adobe Captivate Finops
+- has_sources: true
+  method: generated
+  name: Adobe Captivate Finops
+  primary_unit: ''
   service_category: eLearning Authoring
   slug: adobe-captivate-finops
+  template: false
 image: /assets/icons/adobe-captivate.png
 integrations:
 - description: Sync learner data and completion status between Adobe Learning Manager and Salesforce CRM.
@@ -907,13 +926,13 @@ modified: '2026-04-19'
 name: Adobe Captivate
 nav: Providers
 network: true
-overview: 'Adobe Captivate publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Adobe Learning Manager Webhooks API, Account API, Badges API, and 13 more. Tagged areas include Authoring, Education, E-Learning, LMS, and SCORM.
+overview: 'Adobe Captivate publishes 16 API contracts indexed on the [APIs.io](https://apis.io/) network, including Adobe Learning Manager Webhooks API, Account API, Badges API, and 13 more. Tagged areas include Authoring, Education, E-Learning, LMS, and SCORM.
 
 
   The Adobe Captivate catalog on APIs.io includes 1 event-driven AsyncAPI specification, 3 JSON-LD contexts, and 3 Spectral governance rulesets.
 
 
-  Adobe Captivate''s developer surface includes authentication, support, engineering blog, developer portal, getting-started guide, documentation, developer console, and 29 more developer resources.'
+  Adobe Captivate''s developer surface includes authentication, support, engineering blog, developer portal, getting-started guide, documentation, developer console, and 32 more developer resources.'
 plans:
 - name: Adobe Captivate Plans Pricing
   plan_count: 2
@@ -924,10 +943,11 @@ rate_limits:
   name: Adobe Captivate Rate Limits
   slug: adobe-captivate-rate-limits
 rules:
-- effective_rule_count: 36
+- authorship: generated
+  effective_rule_count: 36
   extends:
   - spectral:asyncapi
-  name: Adobe Captivate API Rules
+  name: Adobe Captivate — asyncapi rules
   rule_count: 9
   severity_counts:
     error: 1
@@ -935,9 +955,10 @@ rules:
     info: 1
     warn: 7
   slug: adobe-captivate-asyncapi-spectral-rules
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: Adobe Captivate API Rules
+  name: Adobe Captivate — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -945,7 +966,8 @@ rules:
     info: 2
     warn: 4
   slug: adobe-captivate-jsonschema-spectral-rules
-- effective_rule_count: 34
+- authorship: unmarked
+  effective_rule_count: 34
   extends: []
   name: Adobe Captivate API Rules
   rule_count: 34
@@ -962,17 +984,17 @@ scopes:
   summary_line: 4 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 48.5
+  composite: 47.0
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 63.0
+    artifact_dirs: 23
+    catalog_earned: 60.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 52.0
+    catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 40.8
+    access_clarity: 32.9
     contract_governance: 27.3
     contract_quality: 74.5
     developer_ergonomics: 45.2
@@ -992,8 +1014,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 40.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

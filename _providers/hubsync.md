@@ -34,10 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 4
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://hubsync.com/blog/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/hubsync/refs/heads/main/security/hubsync-domain-security.yml
   title: ''
@@ -125,14 +129,14 @@ mcp_servers:
 - description: 'HubSync publicly states, in its own llms.txt and on its AI product page, that it operates an MCP server that third-party assistants (Microsoft Copilot, Claude, ChatGPT) connect to. The server is real '
   name: HubSync MCP Server
   slug: hubsync-mcp-yml
-modified: '2026-08-22'
+modified: '2026-10-06'
 name: HubSync
 nav: Providers
 network: true
 overview: 'HubSync is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Tax, Accounting, Workflow Automation, and Document Management.
 
 
-  HubSync''s developer surface includes engineering blog, support, and 12 more developer resources.'
+  HubSync''s developer surface includes engineering blog, support, and 13 more developer resources.'
 plans:
 - name: Hubsync Plans Pricing
   plan_count: 0
@@ -175,8 +179,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -195,7 +199,7 @@ tags:
 - Accounting
 - Workflow Automation
 - Document Management
-- Electronic Signature
+- E-Signature
 - Professional Services
 - Artificial Intelligence
 - MCP

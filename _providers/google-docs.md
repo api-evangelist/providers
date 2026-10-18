@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.6
-  scored_at: '2026-10-04'
+  score: 33.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -64,6 +64,21 @@ collections:
   name: Google Docs Documents API
   slug: open-google-docs-documents-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/google-docs/refs/heads/main/plans/google-docs-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/google-docs-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/google-docs/refs/heads/main/rate-limits/google-docs-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/google-docs-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/google-docs/refs/heads/main/finops/google-docs-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/google-docs-finops.yml
 - group: company
   title: ''
   type: Website
@@ -525,9 +540,13 @@ features:
 - description: Use named ranges and text replacement to merge data into document templates at scale.
   name: Template Automation
 finops:
-- name: Google Docs Finops
+- has_sources: false
+  method: generated
+  name: Google Docs Finops
+  primary_unit: ''
   service_category: API
   slug: google-docs-finops
+  template: true
 image: https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png
 integrations:
 - description: Store and organize documents in Google Drive with sharing and permission controls.
@@ -1297,13 +1316,13 @@ modified: '2026-05-19'
 name: Google Docs
 nav: Providers
 network: true
-overview: 'Google Docs publishes 1 API on the [APIs.io](https://apis.io/) network: Documents API. Tagged areas include Collaboration, Documents, Google Workspace, Productivity, and Word Processing.
+overview: 'Google Docs publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Documents API. Tagged areas include Collaboration, Documents, Google Workspace, Productivity, and Word Processing.
 
 
   The Google Docs catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Google Docs'' developer surface includes authentication, developer portal, getting-started guide, engineering blog, and 13 more developer resources.'
+  Google Docs'' developer surface includes authentication, developer portal, getting-started guide, engineering blog, and 16 more developer resources.'
 plans:
 - name: Google Docs Plans Pricing
   plan_count: 3
@@ -1314,9 +1333,10 @@ rate_limits:
   name: Google Docs Rate Limits
   slug: google-docs-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: Google Docs API Rules
+  name: Google Docs — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -1324,7 +1344,8 @@ rules:
     info: 2
     warn: 4
   slug: google-docs-jsonschema-spectral-rules
-- effective_rule_count: 56
+- authorship: generated
+  effective_rule_count: 56
   extends:
   - spectral:oas
   name: Google Docs API Rules
@@ -1342,17 +1363,17 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: strong
-  composite: 58.0
+  composite: 56.5
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 67.0
+    artifact_dirs: 20
+    catalog_earned: 64.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 48.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 47.4
+    access_clarity: 39.5
     contract_governance: 27.3
     contract_quality: 70.0
     developer_ergonomics: 67.9
@@ -1372,8 +1393,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

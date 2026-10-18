@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: 'The Unifonic Conversations API sends WhatsApp template and session messages and manages the WhatsApp service: template management and Meta catalog retrieval endpoints, incoming-message and delivery-st'
@@ -309,7 +309,7 @@ modified: '2026-07-21'
 name: Unifonic
 nav: Providers
 network: true
-overview: 'Unifonic publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Call Management and Status API, Call Queue Management API, Number Masking API, and 5 more. Tagged areas include Company, Enterprise, CPaaS, Messaging, and SMS.
+overview: 'Unifonic publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Call Management and Status API, Call Queue Management API, Number Masking API, and 5 more. Tagged areas include Company, Enterprise, CPaaS, Messaging, and SMS.
 
 
   The Unifonic catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -328,7 +328,7 @@ score:
   band: strong
   composite: 59.0
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_earned: 52.0
     catalog_earned_first_party: 12.0
     catalog_gap: 63.0
@@ -348,6 +348,7 @@ score:
     - saudi-arabia
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
+    - mena
     - middle-east
   previous_composite: 59.0
   provenance:
@@ -365,8 +366,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 25.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

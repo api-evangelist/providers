@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: verified
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 49.2
-  scored_at: '2026-10-04'
+  score: 47.3
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 152
+- acting_count: 147
   human_in_the_loop: 2
   name: Hugging Face Transformers Agentic Access
-  operation_count: 283
+  operation_count: 286
   slug: hugging-face-transformers-agentic-access
-  summary_line: 283 operations · 152 acting · 2 human-in-the-loop
+  summary_line: 286 operations · 147 acting · 2 human-in-the-loop
 api_count: 1
 apis:
 - description: Open-source Python library that provides pretrained models, tokenizers, and pipelines for inference and fine-tuning across NLP, vision, audio, and multimodal tasks. The high-level pipeline API gives d
@@ -250,6 +250,21 @@ collections:
   name: Hub API Endpoints
   slug: open-hugging-face-transformers
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/hugging-face-transformers/refs/heads/main/plans/hugging-face-transformers-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/hugging-face-transformers-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/hugging-face-transformers/refs/heads/main/rate-limits/hugging-face-transformers-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/hugging-face-transformers-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/hugging-face-transformers/refs/heads/main/finops/hugging-face-transformers-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/hugging-face-transformers-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/hugging-face-transformers/refs/heads/main/capabilities/hugging-face-transformers-capability-edges.yml
   title: ''
@@ -425,9 +440,13 @@ common:
 created: '2024'
 description: Hugging Face Transformers is an open-source machine learning library providing thousands of pretrained models and pipelines for Natural Language Processing, Computer Vision, Audio, and multimodal tasks. This index covers the Transformers library and the surrounding Hugging Face APIs that developers use to run inference, manage models, deploy demos, and serve LLMs at scale.
 finops:
-- name: Hugging Face Transformers Finops
+- has_sources: false
+  method: generated
+  name: Hugging Face Transformers Finops
+  primary_unit: ''
   service_category: API
   slug: hugging-face-transformers-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hugging-face-transformers.png
 layout: provider
 mcp_servers:
@@ -438,10 +457,10 @@ modified: '2026-06-20'
 name: Hugging Face Transformers
 nav: Providers
 network: true
-overview: 'Hugging Face Transformers publishes 27 APIs on the [APIs.io](https://apis.io/) network, including Agentic Provisioning API, Auth API, Buckets API, and 24 more. Tagged areas include Artificial Intelligence, Computer Vision, Deep Learning, Machine Learning, and Natural Language Processing.
+overview: 'Hugging Face Transformers publishes 27 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agentic Provisioning API, Auth API, Buckets API, and 24 more. Tagged areas include Artificial Intelligence, Computer Vision, Deep Learning, Machine Learning, and Natural Language Processing.
 
 
-  Hugging Face Transformers'' developer surface includes authentication, changelog, CLI, engineering blog, documentation, YouTube channel, signup flow, and 31 more developer resources.'
+  Hugging Face Transformers'' developer surface includes authentication, changelog, CLI, engineering blog, documentation, YouTube channel, signup flow, and 34 more developer resources.'
 plans:
 - name: Hugging Face Transformers Plans Pricing
   plan_count: 3
@@ -458,17 +477,17 @@ scopes:
   summary_line: 15 scopes · authorizationCode/deviceCode
 score:
   band: strong
-  composite: 60.0
+  composite: 58.6
   coverage:
-    artifact_dirs: 27
-    catalog_earned: 41.0
+    artifact_dirs: 28
+    catalog_earned: 38.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.4
   facets:
-    access_clarity: 60.5
+    access_clarity: 52.6
     contract_governance: 4.5
     contract_quality: 50.4
     developer_ergonomics: 49.3
@@ -493,8 +512,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 37.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

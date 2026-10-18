@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'The Verily Workbench control-plane REST API. Three services are reachable under the workbench.verily.com/api base path: `wsm` (Workspace Manager — workspaces, folders, controlled and referenced cloud '
@@ -162,7 +162,7 @@ modified: '2026-09-02'
 name: Verily Life Sciences
 nav: Providers
 network: true
-overview: 'Verily Life Sciences publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Life Sciences, Precision Health, and Clinical Research.
+overview: 'Verily Life Sciences is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Life Sciences, Precision Health, and Clinical Research.
 
 
   Verily Life Sciences'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, CLI, and 20 more developer resources.'
@@ -179,7 +179,7 @@ score:
   band: developing
   composite: 40.5
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -203,13 +203,14 @@ score:
     regime: Health
     regime_id: health
     score: 23.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/verily-life-sciences/refs/heads/main/screenshots/verily-life-sciences-2026-10-11T132854.png
 security:
 - kind: authentication
   name: Verily Life Sciences Authentication

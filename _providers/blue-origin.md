@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 4
 apis:
 - description: The Blue Origin Shop storefront exposes an anonymous Model Context Protocol endpoint at https://shop.blueorigin.com/api/mcp. A live tools/list returned five tools with full JSON Schema draft 2020-12 i
@@ -162,7 +162,7 @@ modified: '2026-08-02'
 name: Blue Origin
 nav: Providers
 network: true
-overview: 'Blue Origin publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Aerospace, Space, Spaceflight, and Launch Services.
+overview: 'Blue Origin is listed with 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Aerospace, Space, Spaceflight, and Launch Services.
 
 
   Blue Origin''s developer surface includes engineering blog, signup flow, authentication, and 18 more developer resources.'
@@ -176,7 +176,7 @@ score:
   band: emerging
   composite: 20.5
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 15
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -206,13 +206,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/blue-origin/refs/heads/main/screenshots/blue-origin-2026-10-11T183831.png
 security:
 - kind: authentication
   name: Blue Origin Authentication

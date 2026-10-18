@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 6
   slug: legal-ge-public-apis-agentic-access
   summary_line: 6 operations · 1 acting
-api_count: 2
+api_count: 4
 apis:
 - baseURL: https://legal.ge
   baseurl_source: spec
@@ -216,7 +216,7 @@ modified: '2026-08-09'
 name: legal.ge Public APIs
 nav: Providers
 network: true
-overview: 'legal.ge Public APIs publishes 2 APIs on the [APIs.io](https://apis.io/) network: Directory API and Matching API. Tagged areas include Legal, Law, Legal Services, Directory, and Georgia.
+overview: 'legal.ge Public APIs publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Directory API and Matching API. Tagged areas include Legal, Law, Legal Services, Directory, and Georgia.
 
 
   legal.ge Public APIs'' developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, authentication, and 22 more developer resources.'
@@ -227,21 +227,21 @@ rate_limits:
   slug: legal-ge-public-apis-rate-limits
 score:
   band: developing
-  composite: 40.4
+  composite: 41.0
   coverage:
     artifact_dirs: 21
-    catalog_earned: 44.0
+    catalog_earned: 47.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 71.0
+    catalog_gap: 68.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 44.7
     contract_governance: 4.5
     contract_quality: 47.7
     developer_ergonomics: 37.5
-    discoverability: 64.3
+    discoverability: 69.6
     operational_transparency: 34.2
   previous_composite: 40.4
   provenance:
@@ -260,8 +260,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://core-v1.carbon.prod.andersonopt.com
@@ -187,7 +187,7 @@ modified: '2026-08-26'
 name: PVcase
 nav: Providers
 network: true
-overview: 'PVcase publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Asset API, Company API, Project API, and 1 more. Tagged areas include Solar, Energy, Renewable Energy, Photovoltaics, and Geospatial.
+overview: 'PVcase publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Asset API, Company API, Project API, and 1 more. Tagged areas include Solar, Energy, Renewable Energy, Photovoltaics, and Geospatial.
 
 
   PVcase''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 19 more developer resources.'
@@ -234,8 +234,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 21.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -253,7 +253,7 @@ security:
 - kind: vulnerability-disclosure
   name: Pvcase Vulnerability Disclosure
   slug: pvcase-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 - kind: trust-center
   name: Pvcase Trust Center
   slug: pvcase-trust-center

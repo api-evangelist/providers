@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.9
-  scored_at: '2026-10-04'
+  score: 19.0
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 1
@@ -174,16 +174,20 @@ common:
 created: '2026-06-21'
 description: Quix is a Python-native stream-processing platform for real-time data and ML. It pairs Quix Streams - an open source (Apache 2.0) Python library for building containerized stream-processing applications on Apache Kafka - with Quix Cloud, a fully managed platform offering managed Kafka, Kubernetes deployments, and a set of HTTP and SignalR/WebSocket APIs for writing data in, reading data out in real time, and managing workspaces, topics, and deployments.
 finops:
-- name: Quix Finops
+- has_sources: true
+  method: generated
+  name: Quix Finops
+  primary_unit: ''
   service_category: Analytics
   slug: quix-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/quix.png
 layout: provider
 modified: '2026-06-21'
 name: Quix
 nav: Providers
 network: true
-overview: 'Quix publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Streaming Reader API (Real-time), Definitions API, Deployments API, and 6 more. Tagged areas include Stream Processing, Real-Time, Kafka, Python, and Streaming Data.
+overview: 'Quix publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Streaming Reader API (Real-time), Definitions API, Deployments API, and 6 more. Tagged areas include Stream Processing, Real-Time, Kafka, Python, and Streaming Data.
 
 
   The Quix catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -200,10 +204,11 @@ rate_limits:
   name: Quix Rate Limits
   slug: quix-rate-limits
 rules:
-- effective_rule_count: 37
+- authorship: generated
+  effective_rule_count: 37
   extends:
   - spectral:asyncapi
-  name: Quix API Rules
+  name: Quix — asyncapi rules
   rule_count: 10
   severity_counts:
     error: 1
@@ -213,22 +218,22 @@ rules:
   slug: quix-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 37.6
+  composite: 29.3
   coverage:
     artifact_dirs: 13
-    catalog_earned: 66.1
+    catalog_earned: 47.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 48.9
+    catalog_gap: 67.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 13.6
     contract_quality: 58.2
     developer_ergonomics: 23.8
     discoverability: 66.1
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   previous_composite: 37.6
   provenance:
     agentic_access: derived
@@ -243,9 +248,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

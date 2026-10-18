@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: American Electric Power operates an Azure API Management instance (apim-aep-prod-use2-001) fronted by the "AEP API Management" developer portal at developer.aep.com and the gateway host api.aep.com. T
@@ -40,6 +40,16 @@ apis:
   slug: american-electric-power-api-management
 artifact_total: 20
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/american-electric-power/refs/heads/main/plans/american-electric-power-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/american-electric-power-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/american-electric-power/refs/heads/main/rate-limits/american-electric-power-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/american-electric-power-rate-limits.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/american-electric-power/refs/heads/main/security/american-electric-power-domain-security.yml
   title: ''
@@ -136,10 +146,10 @@ modified: '2026-09-02'
 name: American Electric Power
 nav: Providers
 network: true
-overview: 'American Electric Power publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Electric Utility, Power, Electricity, and Transmission.
+overview: 'American Electric Power is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Electric Utility, Power, Electricity, and Transmission.
 
 
-  American Electric Power''s developer surface includes signup flow, support, engineering blog, and 9 more developer resources.'
+  American Electric Power''s developer surface includes signup flow, support, engineering blog, and 11 more developer resources.'
 plans:
 - name: American Electric Power Plans Pricing
   plan_count: 0
@@ -197,8 +207,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 11.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

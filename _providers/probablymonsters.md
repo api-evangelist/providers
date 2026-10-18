@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -86,7 +86,7 @@ modified: '2026-08-26'
 name: ProbablyMonsters
 nav: Providers
 network: true
-overview: 'ProbablyMonsters is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Video Games, Game Development, Game Studios, and Interactive Entertainment.
+overview: 'ProbablyMonsters is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Video Games, Game Development, Game Studios, and Entertainment.
 
 
   ProbablyMonsters'' developer surface includes support and 5 more developer resources.'
@@ -123,8 +123,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -142,7 +142,6 @@ tags:
 - Video Games
 - Game Development
 - Game Studios
-- Interactive Entertainment
 - Entertainment
 - Media
 website: https://www.probablymonsters.com/

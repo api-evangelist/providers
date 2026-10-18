@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 8
 apis:
 - description: Deakin's Shibboleth identity provider, self-hosted and self-described. The EntityDescriptor at https://signon.deakin.edu.au/idp/shibboleth declares protocol support for SAML 2.0, a signing and an encr
@@ -142,16 +142,20 @@ created: '2026-06-03'
 description: 'Deakin University is a public research university in Victoria, Australia, with campuses in Geelong, Warrnambool and Melbourne. Its genuinely institution-operated programmable footprint is small, real, and entirely in identity federation. Deakin self-publishes a complete SAML 2.0 EntityDescriptor at signon.deakin.edu.au/idp/shibboleth for a Shibboleth identity provider it runs on its own APNIC address space (128.184.0.0/16, netname DEAKINUNIVERSITY) under a Deakin-procured DigiCert certificate, and it registers that IdP plus three production service providers — the Deakin Data Portal, Envirocare and OT Simulations — in the Australian Access Federation. That metadata document is the only institution-operated machine-readable contract in this profile, and it is what earns Deakin its SAML and Shibboleth conformance. Deakin is also the registrant behind 4,597 DataCite DOIs (prefix 10.26187, repository ARDCX.DEAKIN under ARDC) and 1,303 Crossref deposits (member 8935, prefix 10.21153).
   Everything else that looks like a Deakin API belongs to a platform Deakin buys: Deakin Research Online is figshare (dro.deakin.edu.au CNAMEs to proxy-eu-01.figshare.com), CloudDeakin is D2L Brightspace (d2l.deakin.edu.au CNAMEs to deakin.brightspace.com, and its keyless Valence version manifest is the only JSON API answering on any deakin.edu.au host), library discovery resolves into Ex Libris address space, and the federated SSO endpoints registered with AAF sit on AAF''s managed Rapid IdP on Amazon infrastructure. Those are recorded here as tenant relationships, not as Deakin contracts. There is no central developer portal, no institution-operated OAI-PMH endpoint, and no public course or campus API. The wider deakin.edu.au web estate — www, blogs, the Data Portal, the handbook — sits behind F5/Shape bot protection that answers automated clients with a JavaScript challenge, so it is not machine-readable at all.'
 finops:
-- name: Deakin Finops
+- has_sources: true
+  method: generated
+  name: Deakin Finops
+  primary_unit: ''
   service_category: Education
   slug: deakin-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/deakin.png
 layout: provider
 modified: '2026-08-30'
 name: Deakin University
 nav: Providers
 network: true
-overview: 'Deakin University publishes 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Higher Education, University, Research, and Australia.
+overview: 'Deakin University is listed with 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Higher Education, University, Research, and Australia.
 
 
   Deakin University''s developer surface includes GitHub presence, engineering blog, and 15 more developer resources.'
@@ -166,22 +170,22 @@ rate_limits:
   slug: deakin-rate-limits
 score:
   band: emerging
-  composite: 18.9
+  composite: 12.9
   coverage:
     artifact_dirs: 10
-    catalog_earned: 57.4
+    catalog_earned: 44.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.6
+    catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.1
+  delta: -6.0
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 4.4
     developer_ergonomics: 16.7
     discoverability: 71.4
-    operational_transparency: 24.2
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -189,7 +193,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 20.0
+  previous_composite: 18.9
   provenance:
     conformance: first-party
   regulatory:
@@ -198,9 +202,9 @@ score:
     regime: Education & Research
     regime_id: education
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -222,6 +226,6 @@ tags:
 - Identity Federation
 - Research Repository
 - Research Data
-- Learning Management
+- LMS
 website: https://www.deakin.edu.au/
 ---

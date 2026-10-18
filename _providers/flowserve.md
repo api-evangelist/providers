@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.flowserve.com/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/flowserve/refs/heads/main/security/flowserve-vulnerability-disclosure.yml
   title: ''
@@ -75,7 +79,7 @@ jsonld:
   property_count: 15
   slug: flowserve-context
 layout: provider
-modified: '2026-04-28'
+modified: '2026-10-06'
 name: Flowserve
 nav: Providers
 network: true
@@ -104,7 +108,7 @@ score:
   band: minimal
   composite: 8.7
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 38.0
     catalog_earned_first_party: 0.0
     catalog_gap: 77.0
@@ -125,8 +129,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

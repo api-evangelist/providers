@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.grandhood.dk/blog
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/grandhood/refs/heads/main/security/grandhood-domain-security.yml
   title: ''
@@ -78,31 +82,31 @@ description: Grandhood is a Danish digital pension provider that lets companies 
   it does not currently expose a public developer API, SDKs, or developer documentation.
 image: https://firma.grandhood.dk/resources/themes/grandhood/integration/apple/icon.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Grandhood
 nav: Providers
 network: true
 overview: 'Grandhood is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Pensions, Retirement, Fintech, and Insurance.
 
 
-  Grandhood''s developer surface includes pricing, signup flow, support, and 6 more developer resources.'
+  Grandhood''s developer surface includes engineering blog, pricing, signup flow, support, and 6 more developer resources.'
 random_paper: 4
 score:
   band: emerging
-  composite: 12.8
+  composite: 13.2
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.4
   facets:
     access_clarity: 38.2
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 4.8
+    developer_ergonomics: 7.1
     discoverability: 48.2
     operational_transparency: 0.0
   jurisdiction:
@@ -120,8 +124,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 12.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

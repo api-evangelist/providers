@@ -28,20 +28,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.8
-  scored_at: '2026-10-04'
+  score: 22.9
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 4
+- acting_count: 3
   human_in_the_loop: 0
   name: Google Merchant Center Agentic Access
   operation_count: 7
   slug: google-merchant-center-agentic-access
-  summary_line: 7 operations · 4 acting
+  summary_line: 7 operations · 3 acting
 api_count: 1
 apis:
 - baseURL: https://merchantapi.googleapis.com
@@ -108,6 +108,21 @@ collections:
   name: Google Merchant Center Google Merchant API
   slug: open-openapi
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/google-merchant-center/refs/heads/main/plans/google-merchant-center-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/google-merchant-center-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/google-merchant-center/refs/heads/main/rate-limits/google-merchant-center-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/google-merchant-center-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/google-merchant-center/refs/heads/main/finops/google-merchant-center-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/google-merchant-center-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/google-merchant-center/refs/heads/main/capabilities/google-merchant-center-capability-edges.yml
   title: ''
@@ -194,22 +209,26 @@ common:
 created: '2026-03-13'
 description: The Google Merchant API enables programmatic management of Merchant Center accounts including product data, inventories, promotions, reports, conversions, and order tracking. It replaces the Content API for Shopping and provides access to manage product feeds, local and regional inventory, and shopping campaign data.
 finops:
-- name: Google Merchant Center Finops
+- has_sources: false
+  method: generated
+  name: Google Merchant Center Finops
+  primary_unit: ''
   service_category: API
   slug: google-merchant-center-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/google-merchant-center.png
 layout: provider
 modified: '2026-05-19'
 name: Google Merchant Center
 nav: Providers
 network: true
-overview: 'Google Merchant Center publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Inventories API, Products API, and 2 more. Tagged areas include E-Commerce, Google Shopping, Inventory, Merchant Center, and Product.
+overview: 'Google Merchant Center publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, Inventories API, Products API, and 2 more. Tagged areas include E-Commerce, Google Shopping, Inventory, Merchant Center, and Product.
 
 
   The Google Merchant Center catalog on APIs.io includes 2 Spectral governance rulesets.
 
 
-  Google Merchant Center''s developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, support, and 13 more developer resources.'
+  Google Merchant Center''s developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, support, and 16 more developer resources.'
 plans:
 - name: Google Merchant Center Plans Pricing
   plan_count: 3
@@ -220,9 +239,10 @@ rate_limits:
   name: Google Merchant Center Rate Limits
   slug: google-merchant-center-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Google Merchant Center API Rules
+  name: Google Merchant Center — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -230,7 +250,8 @@ rules:
     info: 2
     warn: 3
   slug: google-merchant-center-jsonschema-spectral-rules
-- effective_rule_count: 58
+- authorship: generated
+  effective_rule_count: 58
   extends:
   - spectral:oas
   name: Google Merchant Center API Rules
@@ -248,17 +269,17 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 41.9
+  composite: 40.3
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 55.9
+    artifact_dirs: 18
+    catalog_earned: 52.9
     catalog_earned_first_party: 0.0
-    catalog_gap: 59.1
+    catalog_gap: 62.1
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 47.4
+    access_clarity: 39.5
     contract_governance: 13.6
     contract_quality: 52.7
     developer_ergonomics: 32.1
@@ -278,8 +299,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 32.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

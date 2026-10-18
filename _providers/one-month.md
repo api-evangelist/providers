@@ -32,10 +32,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://onemonth.com/announcements
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://onemonth.com/announcements.rss
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/one-month/refs/heads/main/security/one-month-domain-security.yml
   title: ''
@@ -69,14 +77,14 @@ created: '2026-07-17'
 description: One Month is an online coding education platform that teaches beginners practical software and web development skills through short, project-based video courses designed to be completed in about a month. Its catalog spans programming languages and frameworks such as Ruby, Ruby on Rails, Python, JavaScript, HTML & CSS, SQL, and WordPress, alongside professional skills like project management, using a "watch, do, repeat" methodology of hands-on lessons and follow-along projects. One Month markets itself to career changers and non-programmers looking to accelerate into technical roles, and publishes a supporting blog of programming tutorials and career guidance. It is a consumer-facing learning product and does not currently publish a public developer API, SDKs, or webhooks. This profile was added to the API Evangelist network as a portfolio lead awaiting the enrichment pipeline.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/one-month.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: One Month
 nav: Providers
 network: true
-overview: 'One Month is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, Coding Education, Online Learning, and Developer Training.
+overview: 'One Month is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, Coding Education, E-Learning, and Developer Training.
 
 
-  One Month''s developer surface includes engineering blog, signup flow, and 5 more developer resources.'
+  One Month''s developer surface includes engineering blog, signup flow, and 7 more developer resources.'
 random_paper: 15
 score:
   band: emerging
@@ -103,8 +111,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -121,7 +129,7 @@ tags:
 - Company
 - Education
 - Coding Education
-- Online Learning
+- E-Learning
 - Developer Training
 - Bootcamp
 - EdTech

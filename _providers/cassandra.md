@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -120,6 +120,21 @@ collections:
   name: Apache Cassandra REST API (via Stargate)
   slug: open-cassandra
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/cassandra/refs/heads/main/plans/cassandra-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/cassandra-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cassandra/refs/heads/main/rate-limits/cassandra-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/cassandra-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/cassandra/refs/heads/main/finops/cassandra-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/cassandra-finops.yml
 - group: auth
   title: ''
   type: SecurityPolicy
@@ -273,9 +288,13 @@ features:
 - name: Incremental Repairs
 - name: Apache License 2.0
 finops:
-- name: Cassandra Finops
+- has_sources: false
+  method: generated
+  name: Cassandra Finops
+  primary_unit: ''
   service_category: API
   slug: cassandra-finops
+  template: true
 graphqls:
 - description: GraphQL endpoint for Cassandra, enabling flexible, typed queries and mutations against Cassandra tables through the Stargate gateway.
   name: Apache Cassandra GraphQL API
@@ -286,10 +305,10 @@ modified: '2026-04-23'
 name: Apache Cassandra
 nav: Providers
 network: true
-overview: 'Apache Cassandra publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Cassandra REST API (Stargate), Columns API, Indexes API, and 9 more. Tagged areas include Apache, Big Data, Database, Distributed, and NoSQL.
+overview: 'Apache Cassandra publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including Cassandra REST API (Stargate), Columns API, Indexes API, and 9 more. Tagged areas include Apache, Big Data, Database, Distributed, and NoSQL.
 
 
-  Apache Cassandra''s developer surface includes authentication, documentation, getting-started guide, GitHub presence, engineering blog, Stack Overflow tag, YouTube channel, and 24 more developer resources.'
+  Apache Cassandra''s developer surface includes authentication, documentation, getting-started guide, GitHub presence, engineering blog, Stack Overflow tag, YouTube channel, and 27 more developer resources.'
 plans:
 - name: Cassandra Plans Pricing
   plan_count: 3
@@ -301,17 +320,17 @@ rate_limits:
   slug: cassandra-rate-limits
 score:
   band: thin
-  composite: 38.0
+  composite: 36.7
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 41.0
+    artifact_dirs: 13
+    catalog_earned: 38.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.3
   facets:
-    access_clarity: 26.3
+    access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 42.2
     developer_ergonomics: 33.3
@@ -334,8 +353,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

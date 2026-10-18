@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 195
+- acting_count: 191
   human_in_the_loop: 3
   name: Punchh Agentic Access
   operation_count: 288
   slug: punchh-agentic-access
-  summary_line: 288 operations · 195 acting · 3 human-in-the-loop
+  summary_line: 288 operations · 191 acting · 3 human-in-the-loop
 api_count: 15
 apis:
 - baseURL: https://{server_name}.punchh.com
@@ -1343,9 +1343,13 @@ examples:
   name: Pos Pos User Example
   slug: pos-pos-user-example
 finops:
-- name: Punchh Finops
+- has_sources: true
+  method: generated
+  name: Punchh Finops
+  primary_unit: ''
   service_category: Loyalty + Guest Engagement
   slug: punchh-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/punchh.png
 json_schemas:
 - name: AccessToken
@@ -1461,7 +1465,7 @@ modified: '2026-08-13'
 name: Punchh
 nav: Providers
 network: true
-overview: 'Punchh publishes 46 APIs on the [APIs.io](https://apis.io/) network, including POS API, Api2 API, Auth API, and 43 more. Tagged areas include Gift Cards, Guest Engagement, Loyalty, Marketing, and Mobile.
+overview: 'Punchh publishes 46 API contracts indexed on the [APIs.io](https://apis.io/) network, including POS API, Api2 API, Auth API, and 43 more. Tagged areas include Gift Cards, Guest Engagement, Loyalty, Marketing, and Mobile.
 
 
   The Punchh catalog on APIs.io includes 1 event-driven AsyncAPI specification, 4 JSON-LD contexts, and 2 Spectral governance rulesets.
@@ -1478,9 +1482,10 @@ rate_limits:
   name: Punchh Rate Limits
   slug: punchh-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Punchh API Rules
+  name: Punchh — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1488,7 +1493,8 @@ rules:
     info: 1
     warn: 4
   slug: punchh-jsonschema-spectral-rules
-- effective_rule_count: 78
+- authorship: generated
+  effective_rule_count: 78
   extends:
   - spectral:oas
   name: Punchh API Rules
@@ -1501,23 +1507,23 @@ rules:
   slug: punchh-spectral-rules
 score:
   band: exemplar
-  composite: 69.4
+  composite: 67.8
   coverage:
-    artifact_dirs: 32
-    catalog_earned: 92.0
+    artifact_dirs: 33
+    catalog_earned: 89.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 23.0
+    catalog_gap: 26.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: -1.6
   facets:
-    access_clarity: 50.0
+    access_clarity: 42.1
     contract_governance: 45.5
     contract_quality: 64.0
     developer_ergonomics: 68.5
-    discoverability: 73.2
+    discoverability: 78.6
     operational_transparency: 92.1
-  previous_composite: 68.8
+  previous_composite: 69.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -1534,8 +1540,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 27.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

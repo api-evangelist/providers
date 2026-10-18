@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -78,6 +78,16 @@ collections:
   name: OpenSky Network REST Flights Tracks API
   slug: open-opensky-tracks-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/opensky/refs/heads/main/plans/opensky-rest-api.yml
+  title: ''
+  type: Plans
+  url: plans/opensky-rest-api.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/opensky/refs/heads/main/rate-limits/opensky-rest-api.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/opensky-rest-api.yml
 - group: company
   title: ''
   type: Website
@@ -164,9 +174,13 @@ examples:
   name: Track Response
   slug: track-response
 finops:
-- name: Opensky
+- has_sources: false
+  method: generated
+  name: Opensky
+  primary_unit: ''
   service_category: ''
   slug: opensky
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/opensky.png
 json_schemas:
 - name: FlightObject
@@ -188,13 +202,13 @@ modified: '2026-06-13'
 name: OpenSky Network
 nav: Providers
 network: true
-overview: 'OpenSky Network publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Flights API, State Vectors API, Tracks API, and 1 more. Tagged areas include Aviation, Flight Tracking, ADS-B, Aircraft, and Airport.
+overview: 'OpenSky Network publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Flights API, State Vectors API, Tracks API, and 1 more. Tagged areas include Aviation, Flight Tracking, ADS-B, Aircraft, and Airport.
 
 
   The OpenSky Network catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  OpenSky Network''s developer surface includes authentication, GitHub presence, documentation, status page, and 14 more developer resources.'
+  OpenSky Network''s developer surface includes authentication, GitHub presence, documentation, status page, and 16 more developer resources.'
 plans:
 - name: Opensky Rest Api
   plan_count: 4
@@ -211,9 +225,10 @@ rate_limits:
   name: Opensky Trino Api
   slug: opensky-trino-api
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: OpenSky Network API Rules
+  name: OpenSky Network — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -223,22 +238,22 @@ rules:
   slug: opensky-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 38.9
+  composite: 31.5
   coverage:
     artifact_dirs: 16
-    catalog_earned: 72.9
+    catalog_earned: 54.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 42.1
+    catalog_gap: 60.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.4
   facets:
-    access_clarity: 53.4
+    access_clarity: 25.0
     contract_governance: 9.8
     contract_quality: 57.3
     developer_ergonomics: 26.2
     discoverability: 66.1
-    operational_transparency: 33.7
+    operational_transparency: 13.2
   open_source:
     applies: true
     score: 0.0
@@ -256,9 +271,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

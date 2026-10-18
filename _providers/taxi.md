@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.3
-  scored_at: '2026-10-04'
+  score: 15.4
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -101,6 +101,21 @@ collections:
   name: Taxi Language Conversion Types API
   slug: open-taxi-types-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/taxi/refs/heads/main/plans/taxi-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/taxi-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/taxi/refs/heads/main/rate-limits/taxi-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/taxi-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/taxi/refs/heads/main/finops/taxi-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/taxi-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/taxi/refs/heads/main/agentic-access/taxi-agentic-access.yml
   title: ''
@@ -170,9 +185,13 @@ examples:
   name: Taxi Execute Query Example
   slug: taxi-execute-query-example
 finops:
-- name: Taxi Finops
+- has_sources: true
+  method: generated
+  name: Taxi Finops
+  primary_unit: ''
   service_category: Data Integration
   slug: taxi-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/taxi.png
 json_schemas:
 - name: Taxi Schema Definition
@@ -192,13 +211,13 @@ modified: '2026-05-19'
 name: Taxi - Describe How Your APIs and Data Relate
 nav: Providers
 network: true
-overview: 'Taxi - Describe How Your APIs and Data Relate publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Conversion API, Queries API, Schemas API, and 5 more. Tagged areas include API Description, Data Integration, Open Source, Query Language, and Schema.
+overview: 'Taxi - Describe How Your APIs and Data Relate publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Conversion API, Queries API, Schemas API, and 5 more. Tagged areas include API Description, Data Integration, Open Source, Query Language, and Schema.
 
 
   The Taxi - Describe How Your APIs and Data Relate catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Taxi - Describe How Your APIs and Data Relate''s developer surface includes documentation and 12 more developer resources.'
+  Taxi - Describe How Your APIs and Data Relate''s developer surface includes documentation and 15 more developer resources.'
 plans:
 - name: Taxi Plans Pricing
   plan_count: 7
@@ -209,9 +228,10 @@ rate_limits:
   name: Taxi Rate Limits
   slug: taxi-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: Taxi - Describe How Your APIs and Data Relate API Rules
+  name: Taxi - Describe How Your APIs and Data Relate — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -219,7 +239,8 @@ rules:
     info: 1
     warn: 5
   slug: taxi-jsonschema-spectral-rules
-- effective_rule_count: 57
+- authorship: generated
+  effective_rule_count: 57
   extends:
   - spectral:oas
   name: Taxi - Describe How Your APIs and Data Relate API Rules
@@ -232,17 +253,17 @@ rules:
   slug: taxi-spectral-rules
 score:
   band: thin
-  composite: 27.9
+  composite: 26.4
   coverage:
     artifact_dirs: 16
-    catalog_earned: 58.0
+    catalog_earned: 55.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.0
+    catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 27.3
     contract_quality: 50.3
     developer_ergonomics: 14.3
@@ -262,8 +283,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

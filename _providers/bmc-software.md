@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: REST API for Control-M that lets developers programmatically build, schedule, run, and manage application and data workflows as code (Jobs-as-Code), including deploy, run, provision, and config servic
@@ -40,6 +40,10 @@ apis:
   slug: control-m-automation-api
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.bmc.com/blogs/feed/
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/bmc-software/refs/heads/main/well-known/bmc-software-well-known.yml
   title: ''
@@ -144,26 +148,26 @@ created: '2026-07-17'
 description: BMC Software is an enterprise software company providing automation, service management, and mainframe solutions for large organizations. Its flagship products include Control-M for application and data workflow orchestration, the BMC AMI portfolio (Automated Mainframe Intelligence) for DevOps, operations, storage, security, and data protection, and BMC Helix for IT service and operations management. BMC exposes programmatic access primarily through the Control-M Automation API (a REST API with Jobs-as-Code), an official Python client (ctm-python-client), a command-line interface (ctm), and a VS Code extension, all maintained under the github.com/controlm organization. Approximately 80% of the Forbes Global 100 rely on BMC technology across financial services, healthcare, manufacturing, telecommunications, and the public sector.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bmc-software.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: BMC Software
 nav: Providers
 network: true
-overview: 'BMC Software publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI Infrastructure, Automation, Workflow Orchestration, and Mainframe.
+overview: 'BMC Software is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI Infrastructure, Automation, Workflow Orchestration, and Mainframe.
 
 
-  BMC Software''s developer surface includes changelog, documentation, getting-started guide, support, engineering blog, pricing, signup flow, and 14 more developer resources.'
+  BMC Software''s developer surface includes changelog, documentation, getting-started guide, support, engineering blog, pricing, signup flow, and 15 more developer resources.'
 random_paper: 16
 score:
   band: thin
-  composite: 30.6
+  composite: 30.7
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 4.9
+  delta: 0.1
   facets:
     access_clarity: 52.6
     contract_governance: 0.0
@@ -171,15 +175,15 @@ score:
     developer_ergonomics: 52.4
     discoverability: 58.9
     operational_transparency: 18.4
-  previous_composite: 25.7
+  previous_composite: 30.6
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

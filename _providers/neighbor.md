@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-04'
+  score: 20.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -62,6 +62,29 @@ collections:
   name: Neighbor API
   slug: open-neighbor
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/neighbor/refs/heads/main/plans/neighbor-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/neighbor-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/neighbor/refs/heads/main/rate-limits/neighbor-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/neighbor-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/neighbor/refs/heads/main/finops/neighbor-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/neighbor-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.neighbor.com/storage-blog/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.neighbor.com/storage-blog/feed/
 - group: company
   title: ''
   type: Website
@@ -92,19 +115,23 @@ common:
 created: '2025-02-09'
 description: The Neighbor API allows trusted hosts to retrieve reports related to their account, including active reservations and payout transfers.
 finops:
-- name: Neighbor Finops
+- has_sources: false
+  method: generated
+  name: Neighbor Finops
+  primary_unit: ''
   service_category: API
   slug: neighbor-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/neighbor.png
 layout: provider
-modified: '2026-09-16'
+modified: '2026-10-06'
 name: Neighbor
 nav: Providers
 network: true
-overview: 'Neighbor publishes 1 API on the [APIs.io](https://apis.io/) network: Public API. Tagged areas include Storage, Marketplace, and Reporting.
+overview: 'Neighbor publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Public API. Tagged areas include Storage, Marketplace, and Reporting.
 
 
-  Neighbor''s developer surface includes authentication and 5 more developer resources.'
+  Neighbor''s developer surface includes engineering blog, authentication, and 9 more developer resources.'
 plans:
 - name: Neighbor Plans Pricing
   plan_count: 3
@@ -116,20 +143,20 @@ rate_limits:
   slug: neighbor-rate-limits
 score:
   band: emerging
-  composite: 25.6
+  composite: 24.6
   coverage:
-    artifact_dirs: 10
-    catalog_earned: 36.0
+    artifact_dirs: 11
+    catalog_earned: 33.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 79.0
+    catalog_gap: 82.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.0
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 50.2
-    developer_ergonomics: 21.4
+    developer_ergonomics: 23.8
     discoverability: 48.2
     operational_transparency: 10.5
   previous_composite: 25.6
@@ -146,8 +173,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

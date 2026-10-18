@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.8
-  scored_at: '2026-10-04'
+  score: 22.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -134,6 +134,21 @@ collections:
   name: TIAA Financial Data Exchange Accounts Transactions API
   slug: open-tiaa-transactions-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/tiaa/refs/heads/main/plans/tiaa-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/tiaa-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/tiaa/refs/heads/main/rate-limits/tiaa-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/tiaa-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/tiaa/refs/heads/main/finops/tiaa-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/tiaa-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/tiaa/refs/heads/main/agentic-access/tiaa-agentic-access.yml
   title: ''
@@ -217,9 +232,13 @@ examples:
   name: Tiaa Sia Get Income Projection Example
   slug: tiaa-sia-get-income-projection-example
 finops:
-- name: Tiaa Finops
+- has_sources: true
+  method: generated
+  name: Tiaa Finops
+  primary_unit: ''
   service_category: Financial Services
   slug: tiaa-finops
+  template: false
 image: https://www.tiaa.org/content/dam/prod/tiaa/images/tiaa-logo.svg
 json_schemas:
 - name: TIAA Account
@@ -242,13 +261,13 @@ modified: '2026-05-19'
 name: TIAA
 nav: Providers
 network: true
-overview: 'TIAA publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Contributions API, Customer API, and 8 more. Tagged areas include Finance, Financial Data, Fintech, Insurance, and Investment Management.
+overview: 'TIAA publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, Contributions API, Customer API, and 8 more. Tagged areas include Finance, Financial Data, Fintech, Insurance, and Investment Management.
 
 
   The TIAA catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  TIAA''s developer surface includes authentication, developer portal, documentation, engineering blog, and 11 more developer resources.'
+  TIAA''s developer surface includes authentication, developer portal, documentation, engineering blog, and 14 more developer resources.'
 plans:
 - name: Tiaa Plans Pricing
   plan_count: 1
@@ -259,9 +278,10 @@ rate_limits:
   name: Tiaa Rate Limits
   slug: tiaa-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: TIAA API Rules
+  name: TIAA — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -269,7 +289,8 @@ rules:
     info: 2
     warn: 3
   slug: tiaa-jsonschema-spectral-rules
-- effective_rule_count: 54
+- authorship: unmarked
+  effective_rule_count: 54
   extends:
   - spectral:oas
   name: TIAA API Rules
@@ -287,17 +308,17 @@ scopes:
   summary_line: 8 scopes · authorizationCode/clientCredentials
 score:
   band: thin
-  composite: 33.8
+  composite: 32.2
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 59.5
+    artifact_dirs: 19
+    catalog_earned: 56.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 55.5
+    catalog_gap: 58.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 23.7
+    access_clarity: 15.8
     contract_governance: 13.6
     contract_quality: 56.3
     developer_ergonomics: 21.4
@@ -317,8 +338,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 33.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

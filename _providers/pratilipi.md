@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.pratilipi.com/blog/
 - group: company
   title: ''
   type: Website
@@ -73,28 +77,31 @@ created: '2026-07-17'
 description: Pratilipi is India's largest digital storytelling platform, democratizing story creation and consumption across languages, formats, and boundaries. Built by Nasadiya Technologies Private Limited and headquartered in Bangalore, it lets more than 300,000 self-published writers reach roughly 25 million monthly readers across twelve Indian languages (Hindi, Gujarati, Marathi, Bengali, English, Tamil, Telugu, Kannada, Malayalam, Punjabi, Urdu, and Odia). The ecosystem spans Pratilipi Literature, Pratilipi FM (audio books, podcasts, and folk songs), Pratilipi Comics (the largest Hindi online comic platform), Westland Publications, and IVM Podcasts, carrying a story "from someone's draft to someone's screen." Pratilipi does not publish a public developer API; this profile captures the company's identity, web properties, and domain-security posture for the API Evangelist network.
 image: https://framerusercontent.com/images/KV1ra1siZKi75kyZ2iijcCNVXjw.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Pratilipi
 nav: Providers
 network: true
-overview: Pratilipi is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Storytelling, Publishing, Content, and Media.
+overview: 'Pratilipi is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Storytelling, Publishing, Content, and Media.
+
+
+  Pratilipi''s developer surface includes engineering blog and 8 more developer resources.'
 random_paper: 6
 score:
   band: emerging
-  composite: 11.4
+  composite: 11.9
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 48.2
     operational_transparency: 2.6
   jurisdiction:
@@ -111,8 +118,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

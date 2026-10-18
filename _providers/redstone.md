@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: Public HTTP gateway that serves signed data packages and historical token prices aggregated by the RedStone oracle network. Read-only and unauthenticated; responses carry ECDSA signatures and the prov
@@ -44,6 +44,10 @@ apis:
   slug: redstone-oracle-gateway
 artifact_total: 5
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.redstone.finance/blog
 - group: company
   title: ''
   type: Website
@@ -135,18 +139,18 @@ created: '2026-07-17'
 description: 'RedStone is a modular blockchain oracle infrastructure provider delivering tamper-proof price feeds and off-chain data to smart contracts across 100+ EVM and non-EVM networks. It aggregates data from 20+ centralized and decentralized exchanges, signs each data package with the provider''s key, and delivers it through three models: Pull (Core, on-demand data injected into a transaction via the EVM connector), Push (on-chain relayers that write prices to a feed contract), and a Hybrid ERC-7412 flow. RedStone also runs a public HTTP cache/gateway API for reading signed data packages and historical prices, publishes SDKs (TypeScript, Rust), chain connectors (EVM, Starknet, TON, Fuel, Radix, Casper), a CLI, and on-chain example contracts. It secures billions of dollars of value for 200+ DeFi protocols and supports Proof of Reserve and MEV-resistant (OEV) products.'
 image: https://cdn.prod.website-files.com/67519197ce9eaef4601a6287/677f9f8bb6ae73e45b28a6fb_Variant2%20(3).png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: RedStone
 nav: Providers
 network: true
-overview: 'RedStone publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Infrastructure, Blockchain, Oracle, and DeFi.
+overview: 'RedStone is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Infrastructure, Blockchain, Oracle, and DeFi.
 
 
-  RedStone''s developer surface includes documentation, getting-started guide, engineering blog, support, CLI, authentication, and 13 more developer resources.'
+  RedStone''s developer surface includes engineering blog, documentation, getting-started guide, support, CLI, authentication, and 14 more developer resources.'
 random_paper: 10
 score:
   band: emerging
-  composite: 24.9
+  composite: 25.0
   coverage:
     artifact_dirs: 12
     catalog_earned: 37.0
@@ -154,7 +158,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 10.5
     contract_governance: 0.0
@@ -171,8 +175,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

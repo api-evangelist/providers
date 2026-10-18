@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: The Pandora Developer API provides GraphQL-based access to Pandora's music catalog of over 30 million tracks, stations, podcasts, and playlists. It supports personalized playback, search, user feedbac
@@ -47,6 +47,21 @@ apis:
   slug: adswizz-sdk
 artifact_total: 14
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sirius-xm/refs/heads/main/plans/sirius-xm-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/sirius-xm-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/sirius-xm/refs/heads/main/rate-limits/sirius-xm-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/sirius-xm-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sirius-xm/refs/heads/main/finops/sirius-xm-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/sirius-xm-finops.yml
 - group: other
   title: ''
   type: ConsumerSite
@@ -135,9 +150,13 @@ examples:
   name: Sirius Xm Pandora Search Example
   slug: sirius-xm-pandora-search-example
 finops:
-- name: Sirius Xm Finops
+- has_sources: true
+  method: generated
+  name: Sirius Xm Finops
+  primary_unit: ''
   service_category: Audio Streaming / Advertising
   slug: sirius-xm-finops
+  template: false
 graphqls:
 - description: The Pandora Developer API provides GraphQL-based access to Pandora's music catalog of over 30 million tracks, stations, podcasts, and playlists. It supports personalized playback, search, user feedbac
   name: Sirius XM GraphQL API
@@ -164,13 +183,13 @@ modified: '2026-05-02'
 name: Sirius XM
 nav: Providers
 network: true
-overview: 'Sirius XM publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Audio, Streaming, Radio, Music, and Podcasts.
+overview: 'Sirius XM is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Audio, Streaming, Radio, Music, and Podcasts.
 
 
   The Sirius XM catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Sirius XM''s developer surface includes documentation, engineering blog, and 18 more developer resources.'
+  Sirius XM''s developer surface includes documentation, engineering blog, and 21 more developer resources.'
 plans:
 - name: Sirius Xm Plans Pricing
   plan_count: 1
@@ -181,9 +200,10 @@ rate_limits:
   name: Sirius Xm Rate Limits
   slug: sirius-xm-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Sirius XM API Rules
+  name: Sirius XM — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -193,17 +213,17 @@ rules:
   slug: sirius-xm-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 23.7
+  composite: 22.2
   coverage:
     artifact_dirs: 14
-    catalog_earned: 58.3
+    catalog_earned: 55.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 56.8
+    catalog_gap: 59.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 34.2
+    access_clarity: 26.3
     contract_governance: 9.8
     contract_quality: 10.7
     developer_ergonomics: 21.4
@@ -216,8 +236,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

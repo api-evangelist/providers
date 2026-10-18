@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: RESTful API for the Incident IQ K-12 ITSM and asset management platform. Resources include tickets, assets, users, locations, views, and categories. Requests require SiteId, Authorization (bearer toke
@@ -149,7 +149,7 @@ modified: '2026-07-19'
 name: Incident IQ
 nav: Providers
 network: true
-overview: 'Incident IQ publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, EdTech, ITSM, Asset Management, and Help Desk.
+overview: 'Incident IQ is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, EdTech, ITSM, Asset Management, and Help Desk.
 
 
   The Incident IQ catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -161,7 +161,7 @@ score:
   band: thin
   composite: 29.4
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -182,8 +182,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

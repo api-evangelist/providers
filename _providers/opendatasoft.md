@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 16
   slug: opendatasoft-agentic-access
   summary_line: 16 operations
-api_count: 1
+api_count: 2
 apis:
 - description: 'OData 3.0 and 4.0 compliant REST API for querying Opendatasoft datasets using standard OData query parameters including filtering, sorting, pagination, field selection, and full-text search. Supports '
   name: Opendatasoft OData API
@@ -61,7 +61,7 @@ apis:
   description: API to work on records
   name: Opendatasoft Dataset API
   slug: opendatasoft-dataset-api
-artifact_total: 30
+artifact_total: 31
 collections:
 - collection_type: open
   name: API Collection
@@ -161,9 +161,13 @@ examples:
   name: Dataset Records Query
   slug: dataset-records-query
 finops:
-- name: Opendatasoft
+- has_sources: false
+  method: generated
+  name: Opendatasoft
+  primary_unit: ''
   service_category: ''
   slug: opendatasoft
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/opendatasoft.png
 json_schemas:
 - name: Attachment
@@ -203,7 +207,7 @@ modified: '2026-06-13'
 name: Opendatasoft
 nav: Providers
 network: true
-overview: 'Opendatasoft publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Catalog API, Dataset API, and 2 more. Tagged areas include Open Data, Datasets, Public Data, OData, and REST.
+overview: 'Opendatasoft publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Catalog API, Dataset API, and 2 more. Tagged areas include Open Data, Datasets, Public Data, OData, and REST.
 
 
   The Opendatasoft catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -214,6 +218,9 @@ plans:
 - name: Opendatasoft Explore Api
   plan_count: 3
   slug: opendatasoft-explore-api
+- name: Opendatasoft Odata Api
+  plan_count: 3
+  slug: opendatasoft-odata-api
 random_paper: 12
 rate_limits:
 - limit_count: 4
@@ -223,9 +230,10 @@ rate_limits:
   name: Opendatasoft Odata Api
   slug: opendatasoft-odata-api
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Opendatasoft API Rules
+  name: Opendatasoft — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -234,23 +242,23 @@ rules:
     warn: 3
   slug: opendatasoft-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 43.5
+  band: thin
+  composite: 35.1
   coverage:
     artifact_dirs: 16
-    catalog_earned: 72.9
+    catalog_earned: 54.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 42.1
+    catalog_gap: 60.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.4
   facets:
-    access_clarity: 46.8
+    access_clarity: 18.4
     contract_governance: 9.8
     contract_quality: 56.9
     developer_ergonomics: 28.6
     discoverability: 66.1
-    operational_transparency: 33.7
+    operational_transparency: 13.2
   previous_composite: 43.5
   provenance:
     agentic_access: derived
@@ -265,9 +273,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 26.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
@@ -285,7 +293,7 @@ security:
 - kind: vulnerability-disclosure
   name: Opendatasoft Vulnerability Disclosure
   slug: opendatasoft-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 slug: opendatasoft
 tags:
 - Open Data

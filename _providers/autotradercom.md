@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.autotrader.com/blog/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/autotradercom/refs/heads/main/security/autotradercom-domain-security.yml
   title: ''
@@ -49,28 +53,31 @@ created: '2026-07-17'
 description: AutoTrader.com is an American online automotive marketplace headquartered in Atlanta, Georgia, and owned by Cox Automotive. Launched in 1997, it connects car buyers and sellers by aggregating listings for new, used, and certified pre-owned vehicles from franchise dealers, independent dealers, and private sellers. The site provides vehicle search and comparison, pricing and valuation tools, financing and trade-in estimates, dealer reviews, and lead-generation connections between shoppers and dealerships. It is a consumer-facing marketplace and does not publish a public developer API program; this profile tracks its public web and security posture in the API Evangelist network.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/autotradercom.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: AutoTrader.com
 nav: Providers
 network: true
-overview: AutoTrader.com is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Automotive, Marketplace, and Vehicles.
+overview: 'AutoTrader.com is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Automotive, Marketplace, and Vehicles.
+
+
+  AutoTrader.com''s developer surface includes engineering blog and 2 more developer resources.'
 random_paper: 16
 score:
   band: minimal
-  composite: 3.4
+  composite: 3.9
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 48.2
     operational_transparency: 0.0
   jurisdiction:
@@ -87,8 +94,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

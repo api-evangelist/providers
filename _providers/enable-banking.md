@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.8
-  scored_at: '2026-10-04'
+  score: 24.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -222,9 +222,13 @@ examples:
   name: Enable Banking Start Authorization Example
   slug: enable-banking-start-authorization-example
 finops:
-- name: Enable Banking Finops
+- has_sources: true
+  method: generated
+  name: Enable Banking Finops
+  primary_unit: ''
   service_category: ''
   slug: enable-banking-finops
+  template: true
 image: https://enablebanking.com/static/og-image.png
 json_schemas:
 - name: Enable Banking Account
@@ -250,7 +254,7 @@ modified: '2026-05-25'
 name: Enable Banking
 nav: Providers
 network: true
-overview: 'Enable Banking publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Accounts data API, Misc API, Payments API, and 1 more. Tagged areas include Open Banking, PSD2, AISP, PISP, and Banking.
+overview: 'Enable Banking publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts data API, Misc API, Payments API, and 1 more. Tagged areas include Open Banking, PSD2, AISP, PISP, and Banking.
 
 
   The Enable Banking catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -267,9 +271,10 @@ rate_limits:
   name: Enable Banking Rate Limits
   slug: enable-banking-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Enable Banking API Rules
+  name: Enable Banking — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -277,7 +282,8 @@ rules:
     info: 1
     warn: 4
   slug: enable-banking-jsonschema-spectral-rules
-- effective_rule_count: 51
+- authorship: unmarked
+  effective_rule_count: 51
   extends:
   - spectral:oas
   name: Enable Banking API Rules
@@ -290,22 +296,22 @@ rules:
   slug: enable-banking-rules
 score:
   band: developing
-  composite: 48.2
+  composite: 39.9
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 87.6
+    artifact_dirs: 20
+    catalog_earned: 69.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 27.4
+    catalog_gap: 46.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 27.3
     contract_quality: 65.7
     developer_ergonomics: 61.9
     discoverability: 66.1
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -328,9 +334,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 13.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0
@@ -359,8 +365,8 @@ tags:
 - Finland
 - Compliance
 - eIDAS
-- SCA
 - DORA
 - GDPR
+- Strong Customer Authentication
 website: https://www.enablebanking.com/
 ---

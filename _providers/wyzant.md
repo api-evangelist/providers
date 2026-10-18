@@ -27,20 +27,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.3
-  scored_at: '2026-10-04'
+  score: 15.4
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 1
+- acting_count: 0
   human_in_the_loop: 0
   name: Wyzant Agentic Access
   operation_count: 2
   slug: wyzant-agentic-access
-  summary_line: 2 operations · 1 acting
+  summary_line: 2 operations
 api_count: 1
 apis:
 - baseURL: https://data.wyzant.com
@@ -65,6 +65,10 @@ collections:
   name: Wyzant Partner Data Data Feed Search API
   slug: open-wyzant-search-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.wyzant.com/feed/
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/wyzant/refs/heads/main/agentic-access/wyzant-agentic-access.yml
   title: ''
@@ -118,19 +122,23 @@ common:
 created: '2026-07-03'
 description: Wyzant is a US tutoring marketplace that connects students with independent tutors for in-person and online lessons across thousands of subjects. It is a consumer product, not a developer platform - students book and pay for lessons through wyzant.com and pay a service fee on top of each tutor's hourly rate, and there is no public REST API for managing lessons, bookings, messages, or payments. Wyzant does, however, expose a real partner/affiliate data API and data feed at data.wyzant.com for approved affiliates (via the ShareASale-based partner program). These let a partner run real-time keyword/location searches against the live tutor database and download a full snapshot of all active tutors in XML or JSON, keyed by a per-partner API key, so partners can surface Wyzant tutors on their own sites and earn a per-lead bounty. Access requires a partner account; the API is not open to the general public.
 finops:
-- name: Wyzant Finops
+- has_sources: true
+  method: generated
+  name: Wyzant Finops
+  primary_unit: ''
   service_category: Education and Tutoring Marketplace
   slug: wyzant-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wyzant.png
 layout: provider
-modified: '2026-07-03'
+modified: '2026-10-06'
 name: Wyzant
 nav: Providers
 network: true
-overview: 'Wyzant publishes 2 APIs on the [APIs.io](https://apis.io/) network: Data Feed API and Search API. Tagged areas include Tutoring, Education, Marketplace, Tutors, and EdTech.
+overview: 'Wyzant publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Data Feed API and Search API. Tagged areas include Tutoring, Education, Marketplace, Tutors, and EdTech.
 
 
-  Wyzant''s developer surface includes documentation, engineering blog, and 9 more developer resources.'
+  Wyzant''s developer surface includes documentation, engineering blog, and 10 more developer resources.'
 plans:
 - name: Wyzant Plans Pricing
   plan_count: 2
@@ -141,23 +149,23 @@ rate_limits:
   name: Wyzant Rate Limits
   slug: wyzant-rate-limits
 score:
-  band: thin
-  composite: 29.9
+  band: emerging
+  composite: 23.0
   coverage:
     artifact_dirs: 10
-    catalog_earned: 58.0
+    catalog_earned: 42.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.0
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.9
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 45.9
     developer_ergonomics: 19.0
     discoverability: 66.1
-    operational_transparency: 28.4
+    operational_transparency: 7.9
   previous_composite: 29.9
   provenance:
     agentic_access: derived
@@ -172,9 +180,9 @@ score:
     regime: Education & Research
     regime_id: education
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

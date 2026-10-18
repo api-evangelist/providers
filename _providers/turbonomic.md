@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 12
+- acting_count: 10
   human_in_the_loop: 0
   name: Turbonomic Agentic Access
-  operation_count: 28
+  operation_count: 32
   slug: turbonomic-agentic-access
-  summary_line: 28 operations · 12 acting
+  summary_line: 32 operations · 10 acting
 api_count: 1
 apis:
 - baseURL: https://{turbonomic_host}/api/v3
@@ -164,6 +164,21 @@ collections:
   name: Turbonomic REST Actions Topology API
   slug: open-turbonomic-topology-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/turbonomic/refs/heads/main/plans/turbonomic-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/turbonomic-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/turbonomic/refs/heads/main/rate-limits/turbonomic-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/turbonomic-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/turbonomic/refs/heads/main/finops/turbonomic-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/turbonomic-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/turbonomic/refs/heads/main/capabilities/turbonomic-capability-edges.yml
   title: ''
@@ -301,9 +316,13 @@ examples:
   name: Turbonomic Loginuser Example
   slug: turbonomic-loginUser-example
 finops:
-- name: Turbonomic Finops
+- has_sources: false
+  method: generated
+  name: Turbonomic Finops
+  primary_unit: ''
   service_category: API
   slug: turbonomic-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/turbonomic.png
 json_schemas:
 - name: Turbonomic Action
@@ -329,13 +348,13 @@ modified: '2026-08-21'
 name: IBM Turbonomic
 nav: Providers
 network: true
-overview: 'IBM Turbonomic publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Actions API, Authentication API, Entities API, and 7 more. Tagged areas include Application Resource Management, Cloud Cost Optimization, Cloud Management, Hybrid Cloud, and IBM.
+overview: 'IBM Turbonomic publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Actions API, Authentication API, Entities API, and 7 more. Tagged areas include Application Resource Management, Cloud Cost Optimization, Cloud Management, Hybrid Cloud, and IBM.
 
 
   The IBM Turbonomic catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  IBM Turbonomic''s developer surface includes authentication, documentation, getting-started guide, engineering blog, pricing, support, and 20 more developer resources.'
+  IBM Turbonomic''s developer surface includes authentication, documentation, getting-started guide, engineering blog, pricing, support, and 23 more developer resources.'
 plans:
 - name: Turbonomic Plans Pricing
   plan_count: 3
@@ -346,9 +365,10 @@ rate_limits:
   name: Turbonomic Rate Limits
   slug: turbonomic-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: IBM Turbonomic API Rules
+  name: IBM Turbonomic — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -356,10 +376,11 @@ rules:
     info: 2
     warn: 3
   slug: turbonomic-jsonschema-spectral-rules
-- effective_rule_count: 53
+- authorship: unmarked
+  effective_rule_count: 53
   extends:
   - spectral:oas
-  name: IBM Turbonomic API Rules
+  name: IBM Turbonomic — rest api rules
   rule_count: 12
   severity_counts:
     error: 2
@@ -369,17 +390,17 @@ rules:
   slug: turbonomic-rest-api-rules
 score:
   band: developing
-  composite: 46.1
+  composite: 44.6
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 60.0
+    artifact_dirs: 21
+    catalog_earned: 57.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 55.0
+    catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 47.4
+    access_clarity: 39.5
     contract_governance: 27.3
     contract_quality: 53.4
     developer_ergonomics: 48.8
@@ -399,8 +420,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

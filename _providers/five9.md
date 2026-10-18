@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: REST API used by agent and supervisor applications to log in, manage state, handle interactions, and access supervisor monitoring features on the Five9 cloud contact center platform. Authenticated via
@@ -43,6 +43,10 @@ apis:
   slug: configuration-web-services
 artifact_total: 4
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.five9.com/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/five9/refs/heads/main/security/five9-vulnerability-disclosure.yml
   title: ''
@@ -89,26 +93,26 @@ created: '2026-05-11'
 description: Five9 is a leading cloud contact center (CCaaS) platform providing inbound, outbound, blended, and omnichannel customer engagement with intelligent virtual agents, workforce optimization, agent assist, and analytics. Five9 exposes multiple developer APIs including REST APIs for configuration and reporting, SOAP-based Configuration and Statistics Web Services, the Agent and Supervisor REST APIs (app.five9.com/appsvcs), and Voicestream/event APIs, with authentication via session login and API user credentials.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/five9.png
 layout: provider
-modified: '2026-05-30'
+modified: '2026-10-06'
 name: Five9
 nav: Providers
 network: true
-overview: 'Five9 publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Contact Center, CCaaS, Cloud Telephony, Customer Engagement, and Omnichannel.
+overview: 'Five9 is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Contact Center, CCaaS, Cloud Telephony, Customer Engagement, and Omnichannel.
 
 
-  Five9''s developer surface includes documentation, pricing, signup flow, GitHub presence, support, and 5 more developer resources.'
+  Five9''s developer surface includes documentation, pricing, signup flow, GitHub presence, support, and 6 more developer resources.'
 random_paper: 21
 score:
   band: emerging
-  composite: 16.2
+  composite: 16.3
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 23.7
     contract_governance: 0.0
@@ -123,8 +127,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

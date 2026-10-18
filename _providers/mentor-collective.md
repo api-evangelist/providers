@@ -32,10 +32,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.mentorcollective.org/blog
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.mentorcollective.org/blog/rss.xml
 - group: company
   title: ''
   type: Website
@@ -65,14 +73,14 @@ created: '2026-07-17'
 description: Mentor Collective operates an AI Mentorship OS for higher education, powering peer mentoring, student success, and retention programs at colleges and universities. Its platform matches and onboards mentors and mentees, guides conversations with AI prompts, surfaces risk signals and belonging gaps, and turns connection data into real-time retention intelligence for institutions. Backed by Techstars, the company serves higher-education and workforce partners. As of this profile Mentor Collective publishes no public API, developer portal, SDKs, or machine-readable specifications; this repo captures its public web, blog, legal, and domain-security surface for the API Evangelist network.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mentor-collective.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Mentor Collective
 nav: Providers
 network: true
 overview: 'Mentor Collective is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, Higher Education, Mentorship, and Student Success.
 
 
-  Mentor Collective''s developer surface includes engineering blog, support, and 4 more developer resources.'
+  Mentor Collective''s developer surface includes engineering blog, support, and 6 more developer resources.'
 random_paper: 12
 score:
   band: minimal
@@ -99,8 +107,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 12.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

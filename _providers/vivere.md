@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.viverepartners.com/news
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/vivere/refs/heads/main/security/vivere-domain-security.yml
   title: ''
@@ -57,28 +61,31 @@ created: '2026-07-17'
 description: Vivere Partners is a technology-enabled Managing General Agent (MGA) that provides specialty property and management liability insurance solutions for complex risks. Founded and led by CEO Christopher McKechnie, who brings more than 25 years of insurance industry experience, Vivere combines deep underwriting expertise with advanced analytics and alternative data to deliver faster quotes, tailored coverage, and competitive terms for niche insurance lines, while giving carriers and capacity providers greater portfolio performance visibility. The company raised $7.5 million in seed funding led by General Catalyst, with participation from Pathlight Ventures and Greenlight Re.
 image: https://framerusercontent.com/images/c2M4uxPkH1erA9j2XtWOIN3T6QY.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Vivere
 nav: Providers
 network: true
-overview: Vivere is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, Insurtech, MGA, and Managing General Agent.
+overview: 'Vivere is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, Insurtech, MGA, and Managing General Agent.
+
+
+  Vivere''s developer surface includes engineering blog and 4 more developer resources.'
 random_paper: 19
 score:
   band: minimal
-  composite: 8.4
+  composite: 8.9
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 48.2
     operational_transparency: 0.0
   previous_composite: 8.4
@@ -88,8 +95,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 12.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

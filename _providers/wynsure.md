@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 6
 apis:
 - description: 'RESTful API exposing Wynsure''s core insurance platform capabilities for integration with third-party systems. Provides programmatic access to policy administration, underwriting, billing, claims, and '
@@ -56,6 +56,21 @@ apis:
   slug: wynsure-sales-and-broker-management-api
 artifact_total: 46
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/wynsure/refs/heads/main/plans/wynsure-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/wynsure-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/wynsure/refs/heads/main/rate-limits/wynsure-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/wynsure-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/wynsure/refs/heads/main/finops/wynsure-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/wynsure-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/wynsure/refs/heads/main/security/wynsure-vulnerability-disclosure.yml
   title: ''
@@ -130,9 +145,13 @@ features:
 - description: Integrated operational data store with business intelligence and analytics, including GDPR compliance support.
   name: Operational Data Store and Analytics
 finops:
-- name: Wynsure Finops
+- has_sources: false
+  method: generated
+  name: Wynsure Finops
+  primary_unit: ''
   service_category: API
   slug: wynsure-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wynsure.png
 integrations:
 - description: Bundled Talend ESB exposes Wynsure RESTful APIs and SOA web services to internal systems and third-party insurance applications.
@@ -154,10 +173,10 @@ modified: '2026-05-03'
 name: Wynsure
 nav: Providers
 network: true
-overview: 'Wynsure publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Insurtech, Policy Administration, Claims Management, and Billing.
+overview: 'Wynsure is listed with 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Insurtech, Policy Administration, Claims Management, and Billing.
 
 
-  Wynsure''s developer surface includes documentation, developer portal, support, and 9 more developer resources.'
+  Wynsure''s developer surface includes documentation, developer portal, support, and 12 more developer resources.'
 plans:
 - name: Wynsure Plans Pricing
   plan_count: 3
@@ -169,17 +188,17 @@ rate_limits:
   slug: wynsure-rate-limits
 score:
   band: emerging
-  composite: 22.2
+  composite: 20.6
   coverage:
     artifact_dirs: 14
-    catalog_earned: 49.0
+    catalog_earned: 46.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 66.0
+    catalog_gap: 69.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 36.8
+    access_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 31.0
@@ -192,8 +211,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 17.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -208,7 +227,7 @@ security:
 - kind: vulnerability-disclosure
   name: Wynsure Vulnerability Disclosure
   slug: wynsure-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 slug: wynsure
 solutions:
 - description: Cloud-based Wynsure offering providing policy administration on a scalable private-cloud environment with bundled ESB integration.
@@ -245,7 +264,7 @@ tags:
 - Disability Insurance
 - Group Benefits
 - Voluntary Benefits
-- Brokers
+- Brokerage
 - Financial Services
 use_cases:
 - description: Administer group and worksite life, disability, accident, dental, and vision insurance for group carriers such as AIG Benefit Solutions and Aflac.

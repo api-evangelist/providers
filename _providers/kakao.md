@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 5
+- acting_count: 4
   human_in_the_loop: 1
   name: Kakao Agentic Access
   operation_count: 14
   slug: kakao-agentic-access
-  summary_line: 14 operations · 5 acting · 1 human-in-the-loop
+  summary_line: 14 operations · 4 acting · 1 human-in-the-loop
 api_count: 1
 apis:
 - description: Kakao Login is Korea's most widely used social-identity provider, built on OAuth 2.0 / OpenID Connect. The API issues access and refresh tokens, returns user profile attributes (nickname, profile imag
@@ -137,6 +137,21 @@ collections:
   name: Kakao Login REST API
   slug: open-kakao
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/kakao/refs/heads/main/plans/kakao-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/kakao-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/kakao/refs/heads/main/rate-limits/kakao-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/kakao-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/kakao/refs/heads/main/finops/kakao-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/kakao-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/kakao/refs/heads/main/capabilities/kakao-capability-edges.yml
   title: ''
@@ -224,19 +239,23 @@ common:
 created: '2026-05-23'
 description: Kakao Corp. is the South Korean technology group behind KakaoTalk — the dominant mobile messenger in Korea — along with KakaoPay (payments), Kakao Bank (digital bank), KakaoMobility (taxi, navigation, parking), KakaoMap, Kakao Games, Kakao Entertainment (Melon, Kakao Webtoon, Daum), and KakaoCloud. Kakao runs its public developer platform at developers.kakao.com, exposing REST APIs for Kakao Login (OAuth 2.0), Kakao Sync, KakaoTalk Share / Message / Friend Picker / Channel, KakaoStory, KakaoNavi, KakaoMap, Local search, Daum Search, KakaoPay (PG / online easy-pay), and KoGPT generative AI. KakaoMobility and Kakao Enterprise / KakaoCloud each operate additional partner- facing developer surfaces.
 finops:
-- name: Kakao Finops
+- has_sources: false
+  method: generated
+  name: Kakao Finops
+  primary_unit: ''
   service_category: API
   slug: kakao-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kakao.png
 layout: provider
 modified: '2026-05-23'
 name: Kakao
 nav: Providers
 network: true
-overview: 'Kakao publishes 21 APIs on the [APIs.io](https://apis.io/) network, including OIDC API, Service Terms API, User API, and 18 more. Tagged areas include Messaging, Maps, Navigation, Payments, and Search.
+overview: 'Kakao publishes 21 API contracts indexed on the [APIs.io](https://apis.io/) network, including OIDC API, Service Terms API, User API, and 18 more. Tagged areas include Messaging, Maps, Navigation, Payments, and Search.
 
 
-  Kakao''s developer surface includes authentication, documentation, GitHub presence, engineering blog, and 16 more developer resources.'
+  Kakao''s developer surface includes authentication, documentation, GitHub presence, engineering blog, and 19 more developer resources.'
 plans:
 - name: Kakao Plans Pricing
   plan_count: 1
@@ -247,23 +266,23 @@ rate_limits:
   name: Kakao Rate Limits
   slug: kakao-rate-limits
 score:
-  band: thin
-  composite: 31.7
+  band: emerging
+  composite: 25.6
   coverage:
     artifact_dirs: 12
-    catalog_earned: 54.4
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 60.6
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.1
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 47.8
     developer_ergonomics: 33.3
     discoverability: 67.0
-    operational_transparency: 24.2
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -285,9 +304,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 10.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

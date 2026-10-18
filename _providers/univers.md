@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The EnOS platform open APIs cover the core platform services — model, device connection, asset, asset tree, alert engine, TSDB time-series data, and data subscription. Applications register in the EnO
@@ -42,6 +42,14 @@ apis:
   slug: enos-open-api
 artifact_total: 4
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://univers.com/news/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://univers.com/feed/
 - group: company
   title: ''
   type: Website
@@ -144,14 +152,14 @@ created: '2026-07-17'
 description: Univers (formerly Envision Digital) is a Singapore-headquartered company building "The Platform for Physical AI" — its EnOS platform runs real-time, autonomous operations across energy grids, buildings, transportation, and industrial manufacturing, managing over 1,000 GW of energy assets and 400M+ connected sensors and devices for 800+ enterprise customers in 45 countries. EnOS exposes open APIs for device connection, models, assets, time-series data, alerts, and data subscription, consumed through the EnOS Application Portal and Developer Console with access-key/secret-key request signing, and ships first-party device and service SDKs for Java, Python, C, Node.js, .NET, and Go.
 image: https://univers.com/wp-content/uploads/2024/10/cropped-Favicon-270x270.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Univers
 nav: Providers
 network: true
-overview: 'Univers publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Technology, Energy, IoT, and Artificial Intelligence.
+overview: 'Univers is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Technology, Energy, IoT, and Artificial Intelligence.
 
 
-  Univers'' developer surface includes documentation, API reference, engineering blog, support, authentication, and 17 more developer resources.'
+  Univers'' developer surface includes engineering blog, documentation, API reference, support, authentication, and 19 more developer resources.'
 random_paper: 10
 score:
   band: thin
@@ -189,8 +197,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 23.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

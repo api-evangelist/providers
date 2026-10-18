@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: REST API for location intelligence — location scores, neighborhood profiles, geographies, points of interest, demographics, schools, value drivers, similar neighborhoods, location snapshot, market sta
@@ -42,6 +42,10 @@ apis:
   slug: local-logic-api
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://locallogic.co/feed/
 - group: company
   title: ''
   type: Website
@@ -101,14 +105,14 @@ created: '2026-07-17'
 description: Local Logic is a location intelligence platform for real estate, founded in 2015, that turns 100B+ data points across 250 million addresses in the US and Canada into 18 proprietary location scores, points of interest, demographics, school ratings, market statistics, value drivers, and climate-risk signals. Its REST API at api.locallogic.co exposes Location Scores, Profiles, Geographies, Points of Interest, Demographics, Schools, Value Drivers, Similar Neighborhoods, Location Snapshot, Market Statistics, and Climate Risk endpoints to real estate brokerages, portals, lenders, and proptech platforms, authenticated with a client ID and secret.
 image: https://locallogic.co/wp-content/uploads/2023/01/local-logic-logo.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Local Logic
 nav: Providers
 network: true
-overview: 'Local Logic publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Location Intelligence, Real Estate, Geospatial, and Neighborhoods.
+overview: 'Local Logic is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Location Intelligence, Real Estate, Geospatial, and Neighborhoods.
 
 
-  Local Logic''s developer surface includes documentation, support, engineering blog, pricing, signup flow, GitHub presence, authentication, and 6 more developer resources.'
+  Local Logic''s developer surface includes documentation, support, engineering blog, pricing, signup flow, GitHub presence, authentication, and 7 more developer resources.'
 random_paper: 16
 score:
   band: emerging
@@ -135,8 +139,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

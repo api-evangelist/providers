@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -58,7 +58,7 @@ modified: '2026-07-17'
 name: Anchor *
 nav: Providers
 network: true
-overview: Anchor * is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Podcasting, Podcast Hosting, and Audio.
+overview: Anchor * is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Podcasts, Podcast Hosting, and Audio.
 random_paper: 19
 score:
   band: minimal
@@ -85,8 +85,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -102,7 +102,7 @@ slug: anchor
 tags:
 - Company
 - Consumer
-- Podcasting
+- Podcasts
 - Podcast Hosting
 - Audio
 - Creator Tools

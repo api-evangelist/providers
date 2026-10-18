@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 40.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -140,7 +140,10 @@ apis:
   description: The Transactions API from Pennylane — 2 operation(s) for transactions.
   name: Pennylane Transactions API
   slug: pennylane-transactions-api
-artifact_total: 68
+- description: Pennylane's hosted remote MCP server at mcp.pennylane.com, OAuth-protected (RFC 9728 protected-resource metadata advertises read scopes such as mcp:customer_invoice:read and mcp:ledger_entry:read).
+  name: Pennylane MCP Server
+  slug: pennylane-mcp-server
+artifact_total: 70
 collections:
 - collection_type: postman
   name: Pennylane Company Account API
@@ -260,6 +263,41 @@ collections:
   name: Pennylane Company Account Transactions API
   slug: open-pennylane-transactions-api
 common:
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/rules/pennylane-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/pennylane-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/json-ld/pennylane-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/pennylane-context.jsonld
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/vocabulary/pennylane-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/pennylane-vocabulary.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/mcp/pennylane-mcp.yml
+  title: ''
+  type: X-MCPServerCandidate
+  url: mcp/pennylane-mcp.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/hosts/pennylane-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/pennylane-hosts.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/integrations/pennylane-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/pennylane-integration-edges.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/vendors/pennylane-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/pennylane-vendors.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/capabilities/pennylane-capability-edges.yml
   title: ''
@@ -307,11 +345,6 @@ common:
   title: ''
   type: OAuthScopes
   url: scopes/pennylane-scopes.yml
-- group: build
-  href: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/packages/pennylane-packages.yml
-  title: ''
-  type: Packages
-  url: packages/pennylane-packages.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/mcp/pennylane-mcp.yml
   title: ''
@@ -447,23 +480,31 @@ common:
 created: '2026-07-17'
 description: Pennylane is a French financial and accounting operating system for SMEs and accounting firms. The Company API (v2) lets companies, firms, and integration partners access and sync invoicing, accounting, banking, and financial data over a REST interface, and automate end-to-end workflows. V2 is the stable version; V1 is deprecated. All amounts are in EUR and the platform is built around French accounting (FEC exports, Plateforme Agréée e-invoicing, SEPA/GoCardless mandates).
 finops:
-- name: Pennylane Finops
+- has_sources: true
+  method: generated
+  name: Pennylane Finops
+  primary_unit: ''
   service_category: Finance and Accounting Software
   slug: pennylane-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pennylane.png
+jsonld:
+- class_count: 1
+  name: Pennylane Context
+  property_count: 3
+  slug: pennylane-context
 layout: provider
-mcp_servers:
-- description: ''
-  name: Pennylane MCP Server
-  slug: pennylane-mcp-yml
 modified: '2026-07-17'
 name: Pennylane
 nav: Providers
 network: true
-overview: 'Pennylane publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Account API, Accounting Exports API, Bank Accounts API, and 16 more. Tagged areas include Accounting, Invoicing, Fintech, Financial Data, and Banking.
+overview: 'Pennylane publishes 20 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Accounting Exports API, Bank Accounts API, and 17 more. Tagged areas include Accounting, Invoicing, Fintech, Financial Data, and Banking.
 
 
-  Pennylane''s developer surface includes authentication, changelog, sandbox, documentation, getting-started guide, support, signup flow, and 33 more developer resources.'
+  The Pennylane catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+
+
+  Pennylane''s developer surface includes authentication, changelog, sandbox, documentation, getting-started guide, support, signup flow, and 39 more developer resources.'
 plans:
 - name: Pennylane Plans Pricing
   plan_count: 3
@@ -473,6 +514,19 @@ rate_limits:
 - limit_count: 1
   name: Pennylane Rate Limits
   slug: pennylane-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 55
+  extends:
+  - spectral:oas
+  name: Pennylane API Rules
+  rule_count: 14
+  severity_counts:
+    error: 12
+    hint: 0
+    info: 1
+    warn: 1
+  slug: pennylane-rules
 scopes:
 - name: Pennylane Scopes
   scope_count: 23
@@ -480,22 +534,22 @@ scopes:
   summary_line: 23 scopes
 score:
   band: strong
-  composite: 58.5
+  composite: 54.4
   coverage:
-    artifact_dirs: 27
-    catalog_earned: 58.0
+    artifact_dirs: 33
+    catalog_earned: 52.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.0
+    catalog_gap: 62.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -4.1
   facets:
-    access_clarity: 81.1
-    contract_governance: 18.2
-    contract_quality: 45.4
+    access_clarity: 52.6
+    contract_governance: 35.6
+    contract_quality: 48.8
     developer_ergonomics: 53.0
-    discoverability: 71.7
-    operational_transparency: 67.6
+    discoverability: 75.0
+    operational_transparency: 53.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -504,7 +558,7 @@ score:
     regions:
     - europe
     - france-iberia
-  previous_composite: 58.0
+  previous_composite: 58.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -525,8 +579,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 40.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

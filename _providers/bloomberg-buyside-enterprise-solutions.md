@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.3
-  scored_at: '2026-10-04'
+  score: 25.4
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 19
+- acting_count: 14
   human_in_the_loop: 0
   name: Bloomberg Buyside Enterprise Solutions Agentic Access
   operation_count: 40
   slug: bloomberg-buyside-enterprise-solutions-agentic-access
-  summary_line: 40 operations · 19 acting
+  summary_line: 40 operations · 14 acting
 api_count: 4
 apis:
 - description: Programmatic access to Bloomberg's financial data including reference data, historical pricing, corporate actions, and market data for portfolio management and analytics.
@@ -245,6 +245,21 @@ collections:
   name: Bloomberg Buyside Enterprise Solutions Bloomberg Portfolio API
   slug: open-bloomberg-buyside-portfolio
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/bloomberg-buyside-enterprise-solutions/refs/heads/main/plans/bloomberg-buyside-enterprise-solutions-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/bloomberg-buyside-enterprise-solutions-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/bloomberg-buyside-enterprise-solutions/refs/heads/main/rate-limits/bloomberg-buyside-enterprise-solutions-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/bloomberg-buyside-enterprise-solutions-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/bloomberg-buyside-enterprise-solutions/refs/heads/main/finops/bloomberg-buyside-enterprise-solutions-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/bloomberg-buyside-enterprise-solutions-finops.yml
 - group: company
   title: ''
   type: Website
@@ -297,9 +312,13 @@ common:
 created: '2024-01-01'
 description: Bloomberg's enterprise solutions for buy-side firms including asset managers, hedge funds, and institutional investors, providing integrated workflows, data management, portfolio analytics, and trading capabilities.
 finops:
-- name: Bloomberg Buyside Enterprise Solutions Finops
+- has_sources: false
+  method: generated
+  name: Bloomberg Buyside Enterprise Solutions Finops
+  primary_unit: ''
   service_category: API
   slug: bloomberg-buyside-enterprise-solutions-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bloomberg-buyside-enterprise-solutions.png
 json_schemas:
 - name: Bloomberg Buyside Order
@@ -321,13 +340,13 @@ modified: '2026-09-16'
 name: Bloomberg Buyside Enterprise Solutions
 nav: Providers
 network: true
-overview: 'Bloomberg Buyside Enterprise Solutions publishes 24 APIs on the [APIs.io](https://apis.io/) network, including Allocations API, Benchmarks API, Blotters API, and 21 more. Tagged areas include Analytics, Asset Management, Buy-Side, Enterprise Solutions, and Financial Services.
+overview: 'Bloomberg Buyside Enterprise Solutions publishes 24 API contracts indexed on the [APIs.io](https://apis.io/) network, including Allocations API, Benchmarks API, Blotters API, and 21 more. Tagged areas include Analytics, Asset Management, Buy-Side, Enterprise Solutions, and Financial Services.
 
 
   The Bloomberg Buyside Enterprise Solutions catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Bloomberg Buyside Enterprise Solutions'' developer surface includes authentication, getting-started guide, support, and 8 more developer resources.'
+  Bloomberg Buyside Enterprise Solutions'' developer surface includes authentication, getting-started guide, support, and 11 more developer resources.'
 plans:
 - name: Bloomberg Buyside Enterprise Solutions Plans Pricing
   plan_count: 3
@@ -338,9 +357,10 @@ rate_limits:
   name: Bloomberg Buyside Enterprise Solutions Rate Limits
   slug: bloomberg-buyside-enterprise-solutions-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: Bloomberg Buyside Enterprise Solutions API Rules
+  name: Bloomberg Buyside Enterprise Solutions — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -350,17 +370,17 @@ rules:
   slug: bloomberg-buyside-enterprise-solutions-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 38.7
+  composite: 37.2
   coverage:
     artifact_dirs: 14
-    catalog_earned: 52.3
+    catalog_earned: 49.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 62.8
+    catalog_gap: 65.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 36.8
+    access_clarity: 28.9
     contract_governance: 9.8
     contract_quality: 55.9
     developer_ergonomics: 38.1
@@ -380,8 +400,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 34.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 4
 apis:
 - description: TIAA's retirement plan services for individual participants, covering 403(b), 457(b), 401(k), and IRA accounts. Products include TIAA Traditional fixed annuity, CREF variable annuities (stock, bond, m
@@ -50,6 +50,21 @@ apis:
   slug: tiaa-wealth-management
 artifact_total: 12
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/tiaa-cref/refs/heads/main/plans/tiaa-cref-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/tiaa-cref-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/tiaa-cref/refs/heads/main/rate-limits/tiaa-cref-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/tiaa-cref-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/tiaa-cref/refs/heads/main/finops/tiaa-cref-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/tiaa-cref-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/tiaa-cref/refs/heads/main/security/tiaa-cref-domain-security.yml
   title: ''
@@ -110,9 +125,13 @@ common:
 created: '2026-03-24'
 description: TIAA (Teachers Insurance and Annuity Association of America, formerly TIAA-CREF) is a Fortune 100 leading provider of financial services for people in the academic, research, medical, cultural, and government fields. With $1.5 trillion in assets under management, TIAA serves over 4.7 million individual customers and more than 12,000 institutional clients. Founded in 1918, TIAA invented the variable annuity in 1952 via the College Retirement Equities Fund (CREF) and is known for its TIAA Traditional fixed annuity and lifetime income solutions. TIAA wholly owns Nuveen Investments, a major institutional asset management firm. TIAA serves primarily non-profit organizations, universities, hospitals, and government entities with retirement plans including 403(b), 457(b), and 401(k) plans.
 finops:
-- name: Tiaa Cref Finops
+- has_sources: true
+  method: generated
+  name: Tiaa Cref Finops
+  primary_unit: ''
   service_category: Financial Services
   slug: tiaa-cref-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tiaa-cref.png
 json_schemas:
 - name: TIAA Retirement Account
@@ -132,7 +151,7 @@ modified: '2026-05-03'
 name: TIAA-CREF
 nav: Providers
 network: true
-overview: 'TIAA-CREF publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include 403b, Annuities, Asset Management, Fortune 100, and Higher Education.
+overview: 'TIAA-CREF is listed with 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include 403b, Annuities, Asset Management, Fortune 100, and Higher Education.
 
 
   The TIAA-CREF catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.'
@@ -162,9 +181,10 @@ rate_limits:
   name: Tiaa Cref Rate Limits
   slug: tiaa-cref-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: TIAA-CREF API Rules
+  name: TIAA-CREF — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -174,17 +194,17 @@ rules:
   slug: tiaa-cref-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 17.2
+  composite: 15.6
   coverage:
     artifact_dirs: 14
-    catalog_earned: 60.8
+    catalog_earned: 57.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 54.3
+    catalog_gap: 57.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 19.7
+    access_clarity: 11.8
     contract_governance: 23.5
     contract_quality: 14.7
     developer_ergonomics: 4.8
@@ -197,8 +217,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

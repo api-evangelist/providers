@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - baseURL: https://dashboard.pepperdata.com/pepperdata-demonstration/api
@@ -67,6 +67,14 @@ collections:
   name: Pepperdata REST Alarms Metrics API
   slug: open-pepperdata-metrics-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.pepperdata.com/newsroom/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.pepperdata.com/feed/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/pepperdata/refs/heads/main/overlays/pepperdata-rest-api-overlay.yaml
   title: ''
@@ -174,26 +182,26 @@ created: '2026-07-17'
 description: 'Pepperdata provides dynamic Kubernetes resource optimization and observability for data-intensive workloads, increasing cluster utilization, improving performance, and reducing cost in real time across Spark, MapReduce, Tez, and Kubernetes environments. Its REST API gives programmatic access to the same observability data available in the Pepperdata dashboard: time-series metrics with series breakdowns and filters (/m), application and job details including counters and cost/performance tuning recommendations (/jobdetails), and full CRUD over metric alarms (/alarms). Authentication uses a custom API-key header. Pepperdata is a portfolio company of Wing Venture Capital.'
 image: https://www.pepperdata.com/wp-content/uploads/2025/03/normal-logo-1200px.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Pepperdata
 nav: Providers
 network: true
-overview: 'Pepperdata publishes 3 APIs on the [APIs.io](https://apis.io/) network: Alarms API, Job Details API, and Metrics API. Tagged areas include Company, Observability, Monitoring, Kubernetes, and Big Data.
+overview: 'Pepperdata is listed with 3 APIs on the [APIs.io](https://apis.io/) network: Alarms API, Job Details API, and Metrics API. Tagged areas include Company, Observability, Monitoring, Kubernetes, and Big Data.
 
 
-  Pepperdata''s developer surface includes authentication, documentation, API reference, engineering blog, support, pricing, signup flow, and 16 more developer resources.'
+  Pepperdata''s developer surface includes engineering blog, authentication, documentation, API reference, support, pricing, signup flow, and 18 more developer resources.'
 random_paper: 6
 score:
   band: thin
-  composite: 31.2
+  composite: 31.3
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 44.7
     contract_governance: 4.5
@@ -217,8 +225,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

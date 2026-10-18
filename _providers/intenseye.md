@@ -32,10 +32,15 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
-artifact_total: 1
+artifact_total: 2
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/intenseye/refs/heads/main/plans/intenseye-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/intenseye-plans-pricing.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/intenseye/refs/heads/main/security/intenseye-domain-security.yml
   title: ''
@@ -85,13 +90,17 @@ network: true
 overview: 'Intenseye is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Workplace Safety, Computer Vision, Artificial Intelligence, and EHS.
 
 
-  Intenseye''s developer surface includes engineering blog, support, and 7 more developer resources.'
+  Intenseye''s developer surface includes engineering blog, support, and 8 more developer resources.'
+plans:
+- name: Intenseye Plans Pricing
+  plan_count: 0
+  slug: intenseye-plans-pricing
 random_paper: 12
 score:
   band: emerging
   composite: 14.2
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 7
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -118,8 +127,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

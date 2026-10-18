@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: partner
+  gated_source:
+  - tag:Partner Gated
   label: Self-serve signup
   onboarding: self-serve
   pricing: unknown
@@ -36,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 9.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: Listed in the public API catalog of the Empower developer portal, operated by Great-West Lifeco's U.S. retirement subsidiary Empower. Marked "production" and categorized "financial", it returns partic
@@ -185,7 +188,7 @@ modified: '2026-07-25'
 name: Great-West Lifeco
 nav: Providers
 network: true
-overview: 'Great-West Lifeco publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Canada, Life Insurance, Health Insurance, and Employee Benefits.
+overview: 'Great-West Lifeco is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Canada, Life Insurance, Health Insurance, and Employee Benefits.
 
 
   Great-West Lifeco''s developer surface includes product news, developer portal, documentation, API reference, getting-started guide, support, signup flow, and 21 more developer resources.'
@@ -229,8 +232,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 41.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -261,6 +264,5 @@ tags:
 - Wealth Management
 - Reinsurance
 - Annuities
-- Partner Gated
 website: https://www.greatwestlifeco.com/
 ---

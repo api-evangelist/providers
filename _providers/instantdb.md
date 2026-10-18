@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: verified
     openapi_examples: partial
     protected_resource_metadata: verified
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 48.2
-  scored_at: '2026-10-04'
+  score: 46.3
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -161,9 +161,13 @@ common:
 created: '2026-06-20'
 description: InstantDB (Instant) is a realtime client-side database and Firebase alternative that gives apps a sync engine with multiplayer, offline mode, and optimistic updates by default. It exposes an HTTP Admin API (api.instantdb.com) for server-side InstaQL queries and InstaML transactions, plus auth, storage, presence, and a realtime WebSocket sync layer.
 finops:
-- name: Instantdb Finops
+- has_sources: true
+  method: generated
+  name: Instantdb Finops
+  primary_unit: ''
   service_category: Databases
   slug: instantdb-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/instantdb.png
 layout: provider
 mcp_servers:
@@ -174,7 +178,7 @@ modified: '2026-06-20'
 name: InstantDB
 nav: Providers
 network: true
-overview: 'InstantDB publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Realtime Sync API, Auth API, Presence API, and 3 more. Tagged areas include Database, Real-Time, Sync, Backend, and Local-First.
+overview: 'InstantDB publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Realtime Sync API, Auth API, Presence API, and 3 more. Tagged areas include Database, Real-Time, Sync, Backend, and Local-First.
 
 
   The InstantDB catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -191,10 +195,11 @@ rate_limits:
   name: Instantdb Rate Limits
   slug: instantdb-rate-limits
 rules:
-- effective_rule_count: 34
+- authorship: generated
+  effective_rule_count: 34
   extends:
   - spectral:asyncapi
-  name: InstantDB API Rules
+  name: InstantDB — asyncapi rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -203,23 +208,23 @@ rules:
     warn: 5
   slug: instantdb-asyncapi-spectral-rules
 score:
-  band: developing
-  composite: 39.4
+  band: thin
+  composite: 31.1
   coverage:
     artifact_dirs: 16
-    catalog_earned: 66.1
+    catalog_earned: 47.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 48.9
+    catalog_gap: 67.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 13.6
     contract_quality: 58.0
     developer_ergonomics: 32.1
     discoverability: 68.3
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   previous_composite: 39.4
   provenance:
     agentic_access: derived
@@ -235,9 +240,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

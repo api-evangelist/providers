@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -609,9 +609,13 @@ features:
 - description: Track and attribute conversions using Floodlight tags for cross-channel measurement.
   name: Floodlight Conversion Tracking
 finops:
-- name: Google Campaign Manager Finops
+- has_sources: false
+  method: generated
+  name: Google Campaign Manager Finops
+  primary_unit: ''
   service_category: API
   slug: google-campaign-manager-finops
+  template: true
 image: https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png
 integrations:
 - description: Combine Campaign Manager 360 data with Google Analytics for unified web analytics and attribution.
@@ -1020,7 +1024,7 @@ modified: '2026-08-13'
 name: Google Campaign Manager
 nav: Providers
 network: true
-overview: 'Google Campaign Manager publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Ads API, Campaigns API, Placements API, and 2 more. Tagged areas include Advertising, Analytics, Campaign Management, Digital Marketing, and Reporting.
+overview: 'Google Campaign Manager publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Ads API, Campaigns API, Placements API, and 2 more. Tagged areas include Advertising, Analytics, Campaign Management, Digital Marketing, and Reporting.
 
 
   The Google Campaign Manager catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -1037,9 +1041,10 @@ rate_limits:
   name: Google Campaign Manager Rate Limits
   slug: google-campaign-manager-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Google Campaign Manager API Rules
+  name: Google Campaign Manager — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1047,7 +1052,8 @@ rules:
     info: 2
     warn: 3
   slug: google-campaign-manager-jsonschema-spectral-rules
-- effective_rule_count: 59
+- authorship: generated
+  effective_rule_count: 59
   extends:
   - spectral:oas
   name: Google Campaign Manager API Rules
@@ -1064,24 +1070,24 @@ scopes:
   slug: google-campaign-manager-scopes
   summary_line: 3 scopes
 score:
-  band: exemplar
-  composite: 67.4
+  band: strong
+  composite: 65.9
   coverage:
-    artifact_dirs: 32
-    catalog_earned: 70.0
+    artifact_dirs: 33
+    catalog_earned: 67.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 45.0
+    catalog_gap: 48.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -1.5
   facets:
-    access_clarity: 52.6
+    access_clarity: 44.7
     contract_governance: 31.8
     contract_quality: 63.2
     developer_ergonomics: 70.8
     discoverability: 64.3
     operational_transparency: 84.2
-  previous_composite: 66.9
+  previous_composite: 67.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1098,8 +1104,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

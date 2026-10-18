@@ -28,20 +28,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 8
+- acting_count: 6
   human_in_the_loop: 0
   name: Growthzone Agentic Access
   operation_count: 25
   slug: growthzone-agentic-access
-  summary_line: 25 operations · 8 acting
+  summary_line: 25 operations · 6 acting
 api_count: 1
 apis:
 - baseURL: https://{subdomain}.growthzoneapp.com/api
@@ -101,6 +101,14 @@ collections:
   name: GrowthZone REST API
   slug: open-growthzone
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.growthzone.com/blog
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.growthzone.com/blog/rss.xml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/growthzone/refs/heads/main/capabilities/growthzone-capability-edges.yml
   title: ''
@@ -151,19 +159,23 @@ common:
 created: '2026-07-05'
 description: GrowthZone is association management software (AMS) for chambers of commerce, trade and professional associations, and member-based organizations - covering membership management, member and organization contacts, event registration, invoicing and scheduled billing, member directories, certifications, and communications. The GrowthZone REST API (base https://{subdomain}.growthzoneapp.com/api) exposes this data programmatically for CMS/directory embeds, SSO, and mobile integrations. It is a partner/customer-gated API - access requires an account with API Access enabled and an API Key issued by GrowthZone WebSupport - and is documented publicly at integration.growthzone.com. GrowthZone also operates ChamberMaster and MemberZone, which expose a separate legacy REST API. OAuth 2.0 / OpenID Connect is supported for SSO.
 finops:
-- name: Growthzone Finops
+- has_sources: true
+  method: generated
+  name: Growthzone Finops
+  primary_unit: ''
   service_category: Business Applications
   slug: growthzone-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/growthzone.png
 layout: provider
-modified: '2026-07-05'
+modified: '2026-10-06'
 name: GrowthZone
 nav: Providers
 network: true
-overview: 'GrowthZone publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Certifications API, Contacts API, Events API, and 3 more. Tagged areas include Association Management, AMS, Membership Management, Chambers of Commerce, and ChamberMaster.
+overview: 'GrowthZone publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Certifications API, Contacts API, Events API, and 3 more. Tagged areas include Association Management, AMS, Membership Management, Chambers of Commerce, and ChamberMaster.
 
 
-  GrowthZone''s developer surface includes authentication, documentation, and 8 more developer resources.'
+  GrowthZone''s developer surface includes engineering blog, authentication, documentation, and 9 more developer resources.'
 plans:
 - name: Growthzone Plans Pricing
   plan_count: 3
@@ -174,23 +186,23 @@ rate_limits:
   name: Growthzone Rate Limits
   slug: growthzone-rate-limits
 score:
-  band: thin
-  composite: 32.3
+  band: emerging
+  composite: 24.5
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 61.6
+    artifact_dirs: 13
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.4
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.8
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 40.1
-    developer_ergonomics: 29.8
+    developer_ergonomics: 32.1
     discoverability: 66.1
-    operational_transparency: 28.4
+    operational_transparency: 7.9
   previous_composite: 32.3
   provenance:
     agentic_access: derived
@@ -205,9 +217,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

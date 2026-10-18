@@ -32,14 +32,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
 - group: company
   title: ''
+  type: Blog
+  url: https://vynedental.com/simplifeye/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://vynedental.com/feed/
+- group: company
+  title: ''
   type: Website
-  url: https://vynedental.com/simplifeye
+  url: https://simplifeye.co
 - group: start
   title: ''
   type: Login
@@ -65,31 +73,31 @@ created: '2026-07-17'
 description: Simplifeye is a dental practice management platform that helps practices grow and streamline front-office operations through integrated payments, online scheduling, live webchat, and patient-engagement campaigns. Its HIPAA-compliant payments product supports in-office transactions, invoicing, and customizable payment plans; its 24/7 real-time online scheduler lets patients self-book appointments; and its live webchat is staffed by real people who answer patient questions and qualify leads outside business hours. Simplifeye was acquired by Vyne Dental and integrates with the Vyne Trellis billing platform for claims, eligibility, and revenue acceleration. Simplifeye operates a private, authenticated backend (api.simplifeye.co) that powers its dashboard and patient-facing widgets, but publishes no public developer program, OpenAPI definition, SDKs, or API documentation at this time.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/simplifeye.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Simplifeye
 nav: Providers
 network: true
 overview: 'Simplifeye is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Dental, Healthcare, Payments, and Online Scheduling.
 
 
-  Simplifeye''s developer surface includes signup flow and 5 more developer resources.'
+  Simplifeye''s developer surface includes engineering blog, signup flow, and 6 more developer resources.'
 random_paper: 1
 score:
   band: emerging
-  composite: 11.4
+  composite: 12.0
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 34.2
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 48.2
     operational_transparency: 0.0
   previous_composite: 11.4
@@ -99,8 +107,8 @@ score:
     regime: Health
     regime_id: health
     score: 10.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -122,5 +130,5 @@ tags:
 - Practice Management
 - Patient Engagement
 - HIPAA
-website: https://vynedental.com/simplifeye
+website: https://simplifeye.co
 ---

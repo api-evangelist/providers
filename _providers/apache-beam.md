@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: The Apache Beam SDK provides the programming model for constructing data processing pipelines. Available in Java, Python, and Go, it provides PCollections, PTransforms, and Runners for batch and strea
@@ -44,6 +44,21 @@ apis:
   slug: apache-beam-job-service
 artifact_total: 30
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/apache-beam/refs/heads/main/plans/apache-beam-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/apache-beam-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/apache-beam/refs/heads/main/rate-limits/apache-beam-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/apache-beam-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/apache-beam/refs/heads/main/finops/apache-beam-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/apache-beam-finops.yml
 - group: company
   title: ''
   type: Website
@@ -154,9 +169,13 @@ features:
 - description: Built-in metrics API and integration with runner-specific monitoring dashboards.
   name: Metrics and Monitoring
 finops:
-- name: Apache Beam Finops
+- has_sources: false
+  method: generated
+  name: Apache Beam Finops
+  primary_unit: ''
   service_category: API
   slug: apache-beam-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/apache-beam.png
 integrations:
 - description: Managed Apache Beam runner on Google Cloud with autoscaling and monitoring.
@@ -178,10 +197,10 @@ modified: '2026-04-19'
 name: Apache Beam
 nav: Providers
 network: true
-overview: 'Apache Beam publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Apache, Batch Processing, Data Pipeline, ETL, and Open Source.
+overview: 'Apache Beam is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Apache, Batch Processing, Data Pipeline, ETL, and Open Source.
 
 
-  Apache Beam''s developer surface includes documentation, getting-started guide, support, changelog, engineering blog, and 16 more developer resources.'
+  Apache Beam''s developer surface includes documentation, getting-started guide, support, changelog, engineering blog, and 19 more developer resources.'
 plans:
 - name: Apache Beam Plans Pricing
   plan_count: 3
@@ -193,17 +212,17 @@ rate_limits:
   slug: apache-beam-rate-limits
 score:
   band: thin
-  composite: 28.9
+  composite: 27.6
   coverage:
     artifact_dirs: 8
-    catalog_earned: 41.0
+    catalog_earned: 38.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.3
   facets:
-    access_clarity: 26.3
+    access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 52.4
@@ -219,8 +238,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

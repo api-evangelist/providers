@@ -37,15 +37,15 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 63.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 1172
-  human_in_the_loop: 30
+- acting_count: 576
+  human_in_the_loop: 15
   name: Infobip Agentic Access
-  operation_count: 1886
+  operation_count: 943
   slug: infobip-agentic-access
-  summary_line: 1886 operations · 1172 acting · 30 human-in-the-loop
-api_count: 48
+  summary_line: 943 operations · 576 acting · 15 human-in-the-loop
+api_count: 51
 apis:
 - baseURL: https://api.infobip.com
   baseurl_source: declared
@@ -89,7 +89,7 @@ apis:
   - id: reschedule-sms-messages
     intent: Reschedule a scheduled SMS bulk
     question: Can I move a scheduled SMS campaign to a different date and time?
-  phrasing_ops: 455
+  phrasing_ops: 448
   slug: infobip-channels-api
 - baseURL: https://api.infobip.com
   baseurl_source: declared
@@ -120,7 +120,7 @@ apis:
   - id: synchronous-silent-mobile-verification
     intent: Verify a phone number synchronously by device IP
     question: Can I get a silent verification answer in the same response rather than via a callback in Brazil?
-  phrasing_ops: 35
+  phrasing_ops: 34
   slug: infobip-connectivity-api
 - baseURL: https://api.infobip.com
   baseurl_source: declared
@@ -489,6 +489,20 @@ collections:
   name: Infobip OpenAPI Specification
   slug: open-infobip-zalo
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/hosts/infobip-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/infobip-hosts.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/integrations/infobip-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/infobip-integration-edges.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.infobip.com/news/feed
 - group: design
   href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/rules/infobip-rules.yml
   title: ''
@@ -1053,7 +1067,7 @@ common:
 - group: commercial
   title: ''
   type: TermsOfService
-  url: https://www.infobip.com/policies/terms-of-service
+  url: https://www.infobip.com/policies/service-terms-conditions
 - group: commercial
   title: ''
   type: PrivacyPolicy
@@ -1062,6 +1076,38 @@ common:
   title: ''
   type: Console
   url: https://portal.infobip.com
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://support.infobip.com/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/infobip-community
+- group: other
+  title: ''
+  type: Subprocessors
+  url: https://www.infobip.com/policies/processors
+- group: other
+  title: ''
+  type: DataResidency
+  url: https://www.infobip.com/policies/processors
+- group: operate
+  title: ''
+  type: IncidentNotification
+  url: https://www.infobip.com/data-processing-agreement
+- group: other
+  title: ''
+  type: DataSubjectRequest
+  url: https://www.infobip.com/policies/privacy-notice
+- group: other
+  title: ''
+  type: AITransparency
+  url: https://cdn-web.infobip.com/uploads/2025/01/infobip-ai-privacy-whitepaper-public-1.pdf
+- group: other
+  title: ''
+  type: ExitAssistance
+  url: https://www.infobip.com/policies/data-retention-notice
 created: '2026-07-25'
 description: 'Infobip is a global communications platform as a service (CPaaS) provider headquartered in Vodnjan, Croatia, and is Croatia''s largest technology company. It sells programmable messaging, voice, video, email and customer engagement APIs on top of direct connections into mobile network operators worldwide, sitting in the aggregator layer of the telecom value chain: it buys and resells carrier connectivity, and it is the developer-facing surface that most businesses actually integrate with rather than the carriers themselves. Its API posture is openly self-serve — a free-trial account, a documentation hub at infobip.com/docs/api, first-party SDKs in six languages, a public Postman workspace, remote MCP servers, and an unauthenticated OpenAPI 3.1 endpoint at https://api.infobip.com/platform/1/openapi that returns the complete specification for all public endpoints and webhooks, plus per-product specifications for 46 products. On the network-API side Infobip is a GSMA Open Gateway
   participant certified for SIM Swap and Number Verification (September 2025) and an Aduna channel partner, and it publishes callable CAMARA endpoints — Number Verification, SIM Swap, Device Location Verification and KYC Match — though CAMARA access itself is sales-gated behind a contact form even while the specification is public.'
@@ -1171,28 +1217,29 @@ mcp_servers:
     default transport, SSE is availab'
   name: Infobip MCP Server
   slug: infobip-mcp-yml
-modified: '2026-09-16'
+modified: '2026-10-08'
 name: Infobip
 nav: Providers
 network: true
-overview: 'Infobip publishes 6 APIs on the [APIs.io](https://apis.io/) network, including AI Hub API, Channels API, Connectivity API, and 3 more. Tagged areas include Telecommunications, Croatia, CPaaS, Messaging, and SMS.
+overview: 'Infobip publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including AI Hub API, Channels API, Connectivity API, and 3 more. Tagged areas include Telecommunications, Croatia, CPaaS, Messaging, and SMS.
 
 
   The Infobip catalog on APIs.io includes 2 event-driven AsyncAPI specifications, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Infobip''s developer surface includes authentication, documentation, API reference, SDKs, signup flow, pricing, changelog, and 113 more developer resources.'
+  Infobip''s developer surface includes authentication, documentation, API reference, SDKs, signup flow, pricing, changelog, and 124 more developer resources.'
 plans:
 - name: Infobip Plans Pricing
   plan_count: 4
   slug: infobip-plans-pricing
 random_paper: 17
 rate_limits:
-- limit_count: 44
+- limit_count: 37
   name: Infobip Rate Limits
   slug: infobip-rate-limits
 rules:
-- effective_rule_count: 58
+- authorship: generated
+  effective_rule_count: 58
   extends:
   - spectral:oas
   name: Infobip API Rules
@@ -1210,15 +1257,15 @@ scopes:
   summary_line: 159 scopes · clientCredentials/authorizationCode
 score:
   band: exemplar
-  composite: 82.4
+  composite: 84.9
   coverage:
-    artifact_dirs: 34
+    artifact_dirs: 36
     catalog_earned: 80.8
     catalog_earned_first_party: 12.0
     catalog_gap: 34.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 92.1
     contract_governance: 35.6
@@ -1232,7 +1279,7 @@ score:
     regions:
     - cee
     - europe
-  previous_composite: 81.8
+  previous_composite: 84.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -1252,9 +1299,9 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 55.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+    score: 72.5
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -1264,7 +1311,7 @@ security:
 - kind: authentication
   name: Infobip Authentication
   slug: infobip-authentication
-  summary_line: apiKey/http/oauth2 · 3 schemes
+  summary_line: apiKey/http/oauth2 · 4 schemes
 - kind: domain-security
   name: Infobip Domain Security
   slug: infobip-domain-security

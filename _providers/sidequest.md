@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://api.sidequestvr.com
@@ -83,6 +83,10 @@ collections:
   name: SideQuest Apps UsersApps API
   slug: open-sidequest-usersapps-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://sidequestvr.com/blog/
 - group: company
   title: ''
   type: Website
@@ -169,14 +173,14 @@ created: '2026-07-17'
 description: SideQuest is a VR content-discovery platform and independent app store for Meta Quest, PCVR, Pico, Magic Leap and WebXR headsets — the home of sideload-only, early-access and indie VR apps and games, plus tools to help users get more from their VR headset. SideQuest operates a public REST API (api.sidequestvr.com) for browsing the app catalog and reading user profiles and achievements, secured with OAuth 2.0 bearer tokens and a device-style short-code login. Backed by GV.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sidequest.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: SideQuest
 nav: Providers
 network: true
-overview: 'SideQuest publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Apps API, Developers API, Users API, and 2 more. Tagged areas include Company, Consumer, Virtual Reality, VR, and XR.
+overview: 'SideQuest publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Apps API, Developers API, Users API, and 2 more. Tagged areas include Company, Consumer, Virtual Reality, Extended Reality, and Gaming.
 
 
-  SideQuest''s developer surface includes authentication, documentation, and 15 more developer resources.'
+  SideQuest''s developer surface includes engineering blog, authentication, documentation, and 15 more developer resources.'
 random_paper: 15
 scopes:
 - name: Sidequest Scopes
@@ -185,20 +189,20 @@ scopes:
   summary_line: 13 scopes
 score:
   band: thin
-  composite: 26.3
+  composite: 26.9
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 0.0
     contract_governance: 4.5
     contract_quality: 45.9
-    developer_ergonomics: 30.4
+    developer_ergonomics: 32.7
     discoverability: 73.2
     operational_transparency: 0.0
   previous_composite: 26.3
@@ -217,8 +221,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -238,8 +242,7 @@ tags:
 - Company
 - Consumer
 - Virtual Reality
-- VR
-- XR
+- Extended Reality
 - Gaming
 - App Store
 - Developers

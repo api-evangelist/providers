@@ -34,14 +34,23 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'Programmatic access to Akridata Data Explorer via the first-party Python SDK (akride) and ingest CLI: data/dataset registration, catalog operations, explore and analyze jobs, image-based similarity se'
   name: Akridata Data Explorer API
   slug: akridata-data-explorer-api
-artifact_total: 3
+artifact_total: 4
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/akridata/refs/heads/main/plans/akridata-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/akridata-plans-pricing.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://akridata.ai/feed/
 - group: company
   title: ''
   type: Website
@@ -124,28 +133,32 @@ created: '2026-07-17'
 description: Akridata builds AI-powered visual data and inspection tooling for data-centric AI teams and manufacturers. Its Data Explorer product helps ML engineers visualize large image and video datasets, detect and remove outliers, check class balance, sample and de-duplicate data, run image-based similarity search, curate and label training sets, and analyze model accuracy. Data Explorer ships a first-party Python SDK (akride) plus Docker images and an ingest CLI for programmatic access to catalogs, explore/analyze jobs, similarity search, labeling, and visualization job metadata against the SaaS endpoint at app.akridata.ai. Akridata also offers Vision Assist, Vision Command, and Vision Copilot for real-time AI visual inspection and defect detection across manufacturing, automotive, medical device, railway, and agriculture. The company was acquired by Dimaag-AI and originally surfaced as a portfolio company of Accel and Partech.
 image: https://akridata.ai/wp-content/uploads/2026/05/Akridata-Preview-Image-1.png
 layout: provider
-modified: '2026-07-17'
+modified: '2026-10-06'
 name: Akridata
 nav: Providers
 network: true
-overview: 'Akridata publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Computer Vision, Data Curation, and Machine Learning.
+overview: 'Akridata is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Computer Vision, Data Curation, and Machine Learning.
 
 
-  Akridata''s developer surface includes documentation, getting-started guide, engineering blog, pricing, support, signup flow, CLI, and 11 more developer resources.'
+  Akridata''s developer surface includes documentation, getting-started guide, engineering blog, pricing, support, signup flow, CLI, and 13 more developer resources.'
+plans:
+- name: Akridata Plans Pricing
+  plan_count: 3
+  slug: akridata-plans-pricing
 random_paper: 19
 score:
   band: thin
-  composite: 26.7
+  composite: 33.1
   coverage:
-    artifact_dirs: 8
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 10
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.4
   facets:
-    access_clarity: 44.7
+    access_clarity: 76.3
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 48.8
@@ -158,9 +171,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

@@ -34,10 +34,15 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
-artifact_total: 3
+artifact_total: 4
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/tawkitai/refs/heads/main/plans/tawkitai-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/tawkitai-plans-pricing.yml
 - group: company
   title: ''
   type: Website
@@ -165,21 +170,25 @@ network: true
 overview: 'TawkitAI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI Agents, Copilots, Generative UI, and Frontend.
 
 
-  TawkitAI''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 19 more developer resources.'
+  TawkitAI''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 20 more developer resources.'
+plans:
+- name: Tawkitai Plans Pricing
+  plan_count: 4
+  slug: tawkitai-plans-pricing
 random_paper: 4
 score:
-  band: thin
-  composite: 34.6
+  band: developing
+  composite: 41.0
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 27.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 88.0
+    artifact_dirs: 14
+    catalog_earned: 39.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.4
   facets:
-    access_clarity: 44.7
+    access_clarity: 76.3
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 71.4
@@ -194,9 +203,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 28.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -214,7 +223,7 @@ security:
 - kind: vulnerability-disclosure
   name: Tawkitai Vulnerability Disclosure
   slug: tawkitai-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 slug: tawkitai
 tags:
 - Company

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: REST API for the EasyPay/Fawaterak payment gateway. Authenticated with a vendor Bearer token, it lists available payment methods, creates invoice and payment links, initiates payment on an invoice, an
@@ -135,7 +135,7 @@ modified: '2026-07-18'
 name: EasyPay
 nav: Providers
 network: true
-overview: 'EasyPay publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Payment Gateway, Invoicing, and Fintech.
+overview: 'EasyPay is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Payment Gateway, Invoicing, and Fintech.
 
 
   EasyPay''s developer surface includes documentation, API reference, signup flow, pricing, engineering blog, support, authentication, and 12 more developer resources.'
@@ -148,7 +148,7 @@ score:
   band: emerging
   composite: 25.1
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
@@ -169,6 +169,8 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - africa
+    - mena
+    - north-africa
   previous_composite: 25.1
   provenance:
     mcp: derived
@@ -178,8 +180,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 17.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

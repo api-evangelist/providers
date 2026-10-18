@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 30.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Backend API for the hosted Intlayer CMS at back.intlayer.org — dictionaries, projects, organizations, environments and tags. Secured with OAuth 2.0 client_credentials (per-project access keys issued a
@@ -31,6 +31,24 @@ apis:
   slug: intlayer-cms-api
 artifact_total: 6
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/intlayer/refs/heads/main/plans/intlayer-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/intlayer-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/intlayer/refs/heads/main/rate-limits/intlayer-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/intlayer-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://app.intlayer.org/pricing
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://intlayer.org/feed.xml
 - group: company
   title: ''
   type: Website
@@ -130,14 +148,14 @@ mcp_servers:
 - description: Official Intlayer MCP server, shipped both as a hosted remote server (Streamable HTTP at https://mcp.intlayer.org — public, no authentication, free to use, with a stated concurrent connection limit) a
   name: Intlayer MCP Server
   slug: intlayer-mcp-server
-modified: '2026-09-03'
+modified: '2026-10-06'
 name: Intlayer
 nav: Providers
 network: true
-overview: 'Intlayer publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include i18n, Internationalization, Localization, React, and Next.js.
+overview: 'Intlayer is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include i18n, Internationalization, Localization, React, and Next.js.
 
 
-  Intlayer''s developer surface includes documentation, getting-started guide, engineering blog, pricing, CLI, changelog, and 14 more developer resources.'
+  Intlayer''s developer surface includes pricing, documentation, getting-started guide, engineering blog, CLI, changelog, and 18 more developer resources.'
 plans:
 - name: Intlayer Plans Pricing
   plan_count: 4
@@ -149,7 +167,7 @@ rate_limits:
   slug: intlayer-rate-limits
 score:
   band: developing
-  composite: 40.4
+  composite: 40.5
   coverage:
     artifact_dirs: 18
     catalog_earned: 49.0
@@ -157,7 +175,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 76.3
     contract_governance: 18.2
@@ -176,8 +194,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

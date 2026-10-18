@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 1
@@ -118,6 +118,21 @@ collections:
   name: Orkes Conductor REST Authentication Workflow Metadata API
   slug: open-orkes-workflow-metadata-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/orkes/refs/heads/main/plans/orkes-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/orkes-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/orkes/refs/heads/main/rate-limits/orkes-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/orkes-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/orkes/refs/heads/main/finops/orkes-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/orkes-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/orkes/refs/heads/main/capabilities/orkes-capability-edges.yml
   title: ''
@@ -171,19 +186,23 @@ common:
 created: '2026-03-26'
 description: Orkes is a modern workflow orchestration platform built on Netflix Conductor for orchestrating microservices, AI agents, and durable workflows.
 finops:
-- name: Orkes Finops
+- has_sources: false
+  method: generated
+  name: Orkes Finops
+  primary_unit: ''
   service_category: API
   slug: orkes-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/orkes.png
 layout: provider
 modified: '2026-05-19'
 name: Orkes
 nav: Providers
 network: true
-overview: 'Orkes publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Human Tasks API, Schedules API, and 5 more. Tagged areas include Microservices.
+overview: 'Orkes publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authentication API, Human Tasks API, Schedules API, and 5 more. Tagged areas include Microservices.
 
 
-  Orkes'' developer surface includes authentication, engineering blog, and 9 more developer resources.'
+  Orkes'' developer surface includes authentication, engineering blog, and 12 more developer resources.'
 plans:
 - name: Orkes Plans Pricing
   plan_count: 3
@@ -195,17 +214,17 @@ rate_limits:
   slug: orkes-rate-limits
 score:
   band: thin
-  composite: 28.1
+  composite: 26.5
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 31.0
+    artifact_dirs: 14
+    catalog_earned: 28.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 84.0
+    catalog_gap: 87.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 23.7
+    access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 47.6
     developer_ergonomics: 14.3
@@ -225,8 +244,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -244,7 +263,7 @@ security:
 - kind: vulnerability-disclosure
   name: Orkes Vulnerability Disclosure
   slug: orkes-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 - kind: trust-center
   name: Orkes Trust Center
   slug: orkes-trust-center

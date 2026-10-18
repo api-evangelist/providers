@@ -34,18 +34,27 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: REST API (v3) for the Fiddler AI Observability platform — projects, models, applications, events, traces/sessions/spans, evaluators, alert rules, guardrails, custom metrics, and jobs. Resource-oriente
   name: Fiddler REST API
   slug: fiddler-rest-api
-artifact_total: 6
+artifact_total: 7
 asyncapis:
 - description: ''
   name: Fiddlerai Alerts Webhooks
   slug: fiddlerai-alerts-webhooks
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/fiddlerai/refs/heads/main/plans/fiddlerai-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/fiddlerai-plans-pricing.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.fiddler.ai/blog/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/fiddlerai/refs/heads/main/security/fiddlerai-domain-security.yml
   title: ''
@@ -173,31 +182,35 @@ mcp_servers:
 - description: Remote MCP server over HTTP.
   name: fiddler.ai MCP Server
   slug: fiddler-genai
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: fiddler.ai
 nav: Providers
 network: true
-overview: 'fiddler.ai publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI Observability, Machine Learning, LLM, and Model Monitoring.
+overview: 'fiddler.ai is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI Observability, Machine Learning, LLM, and Model Monitoring.
 
 
   The fiddler.ai catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  fiddler.ai''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 20 more developer resources.'
+  fiddler.ai''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 22 more developer resources.'
+plans:
+- name: Fiddlerai Plans Pricing
+  plan_count: 3
+  slug: fiddlerai-plans-pricing
 random_paper: 8
 score:
   band: developing
-  composite: 47.3
+  composite: 53.7
   coverage:
-    artifact_dirs: 15
-    catalog_earned: 35.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 80.0
+    artifact_dirs: 17
+    catalog_earned: 47.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 68.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.4
   facets:
-    access_clarity: 47.4
+    access_clarity: 78.9
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 64.3
@@ -217,9 +230,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

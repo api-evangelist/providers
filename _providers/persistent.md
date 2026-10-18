@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.persistent.com/insights/
 - group: company
   title: ''
   type: Website
@@ -61,28 +65,31 @@ created: '2026-07-17'
 description: Persistent Systems Limited is a global digital engineering and enterprise modernization company with 35+ years of experience, ~27,500 employees across 21 countries, and roughly $1.65B in annual revenue. It provides consulting, software product engineering, cloud and infrastructure, data and analytics, and applied-AI services to enterprises across banking and financial services, insurance, healthcare and life sciences, industrial, software and hi-tech, and telecom and media. Publicly listed in India, Persistent operates an AI Hub (GenAI Hub, iAURA, SASVA) and a products marketplace, but does not publish a public developer portal, OpenAPI/Swagger specifications, SDKs, or API reference documentation as of this enrichment pass; this profile therefore captures company identity and probed domain-security posture rather than an API surface.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/persistent.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Persistent
 nav: Providers
 network: true
-overview: Persistent is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Digital Engineering, Enterprise Modernization, IT Services, and Consulting.
+overview: 'Persistent is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Digital Engineering, Enterprise Modernization, IT Services, and Consulting.
+
+
+  Persistent''s developer surface includes engineering blog and 5 more developer resources.'
 random_paper: 5
 score:
   band: minimal
-  composite: 3.3
+  composite: 3.9
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 48.2
     operational_transparency: 0.0
   previous_composite: 3.3
@@ -92,8 +99,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The Sapio REST API provides programmatic access to the Sapio Informatics Platform, enabling developers to query and create records, manage laboratory workflows, handle experimental data, configure dat
@@ -92,16 +92,20 @@ common:
 created: '2026-06-13'
 description: Sapio Sciences provides an AI-native lab informatics platform that unifies LIMS, ELN, and Scientific Data Cloud capabilities for life sciences research. The platform exposes a RESTful API enabling programmatic access to laboratory workflows, experimental data, LIMS processes, sample management, and instrument integrations. The official Python client library sapiopylib wraps all REST API functions, supporting data record manipulation, picklist services, notebook experiments, webhook servers, and batch request processing for high-performance lab automation.
 finops:
-- name: Sapio Finops
+- has_sources: false
+  method: generated
+  name: Sapio Finops
+  primary_unit: ''
   service_category: ''
   slug: sapio-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sapio.png
 layout: provider
 modified: '2026-06-13'
 name: Sapio Sciences
 nav: Providers
 network: true
-overview: 'Sapio Sciences publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include LIMS, ELN, Laboratory Informatics, Life Sciences, and Scientific Data.
+overview: 'Sapio Sciences is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include LIMS, ELN, Laboratory Informatics, Life Sciences, and Scientific Data.
 
 
   Sapio Sciences'' developer surface includes documentation, engineering blog, pricing, and 8 more developer resources.'
@@ -116,22 +120,22 @@ rate_limits:
   slug: sapio-rate-limits
 score:
   band: emerging
-  composite: 20.3
+  composite: 12.9
   coverage:
     artifact_dirs: 8
-    catalog_earned: 58.0
+    catalog_earned: 42.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.0
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.4
   facets:
-    access_clarity: 46.8
+    access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
     discoverability: 66.1
-    operational_transparency: 24.2
+    operational_transparency: 10.5
   previous_composite: 20.3
   regulatory:
     applies: true
@@ -139,9 +143,9 @@ score:
     regime: Health
     regime_id: health
     score: 4.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

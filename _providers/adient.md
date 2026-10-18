@@ -27,16 +27,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 4
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.adient.com/media/news/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/adient/refs/heads/main/security/adient-domain-security.yml
   title: ''
@@ -72,16 +76,23 @@ common:
 created: '2026-05-06'
 description: Adient is a global automotive seating supplier headquartered in Plymouth, Michigan. Spun off from Johnson Controls in 2016, Adient designs and manufactures seating systems for global automakers across passenger and commercial vehicles.
 finops:
-- name: Adient Finops
+- has_sources: true
+  method: generated
+  name: Adient Finops
+  primary_unit: ''
   service_category: Industrial / Automotive
   slug: adient-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/adient.png
 layout: provider
-modified: '2026-05-06'
+modified: '2026-10-06'
 name: Adient
 nav: Providers
 network: true
-overview: Adient is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Automotive, Tier 1 Supplier, Seating, and OEM Supplier.
+overview: 'Adient is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Automotive, Tier 1 Supplier, Seating, and OEM Supplier.
+
+
+  Adient''s developer surface includes engineering blog and 7 more developer resources.'
 plans:
 - name: Adient Plans Pricing
   plan_count: 1
@@ -93,22 +104,22 @@ rate_limits:
   slug: adient-rate-limits
 score:
   band: minimal
-  composite: 10.6
+  composite: 5.1
   coverage:
-    artifact_dirs: 6
-    catalog_earned: 39.4
+    artifact_dirs: 8
+    catalog_earned: 26.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.6
+    catalog_gap: 89.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.5
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 39.3
-    operational_transparency: 21.6
+    operational_transparency: 7.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -121,9 +132,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

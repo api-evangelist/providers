@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: OAuth-protected Model Context Protocol server exposing Numeric's close-automation toolkit to AI agents. Streamable-HTTP MCP endpoint at api.numeric.io/mcp, guarded by OAuth 2.0 / OIDC (auth.numeric.io
@@ -41,6 +41,10 @@ apis:
   slug: numeric-mcp-api
 artifact_total: 5
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://numeric.substack.com/feed
 - group: company
   title: ''
   type: Website
@@ -121,14 +125,14 @@ mcp_servers:
 - description: Remote MCP server at api.numeric.io over HTTP.
   name: Numeric MCP Server
   slug: numeric
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Numeric
 nav: Providers
 network: true
-overview: 'Numeric publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Accounting, Financial Close, and Reconciliation.
+overview: 'Numeric is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Accounting, Financial Close, and Reconciliation.
 
 
-  Numeric''s developer surface includes documentation, engineering blog, pricing, authentication, and 12 more developer resources.'
+  Numeric''s developer surface includes documentation, engineering blog, pricing, authentication, and 13 more developer resources.'
 random_paper: 7
 scopes:
 - name: Numeric Scopes
@@ -164,8 +168,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

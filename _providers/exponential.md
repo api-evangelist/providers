@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -236,9 +236,13 @@ common:
 created: '2026-07-17'
 description: Exponential.fi is a DeFi company (backed by Paradigm and Norwest Venture Partners) behind YO Protocol — a cross-chain "Yield Optimizer" that automatically allocates deposits across the best-performing liquidity pools on multiple blockchains to deliver the highest risk-adjusted yield, using Exponential.fi's own Risk Ratings to balance risk and reward. yoVaults are ERC-4626 tokenized vaults (yoUSD, yoETH, yoBTC, yoEUR, yoGOLD, yoSOL and more) with ERC-7540-style async redemption, all routed through the single yoGateway entry point. The developer surface spans a public read API (api.yo.xyz), a first-party TypeScript SDK/React kit/CLI (@yo-protocol/*), official agent skills and a Base MCP plugin, and the YO Risk Graph — a paid, agent-facing DeFi risk-intelligence API monetized per-call via the x402 USDC micropayment standard on Base.
 finops:
-- name: Exponential Finops
+- has_sources: true
+  method: searched
+  name: Exponential Finops
+  primary_unit: ''
   service_category: ''
   slug: exponential-finops
+  template: false
 image: https://raw.githubusercontent.com/api-evangelist/exponential/refs/heads/main/apis.yml
 layout: provider
 mcp_servers:
@@ -249,24 +253,24 @@ modified: '2026-07-19'
 name: Exponential
 nav: Providers
 network: true
-overview: 'Exponential publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Agent API, History API, Performance API, and 2 more. Tagged areas include Company, DeFi, Decentralized Finance, Yield, and Yield Optimizer.
+overview: 'Exponential publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agent API, History API, Performance API, and 2 more. Tagged areas include Company, DeFi, Decentralized Finance, Yield, and Yield Optimizer.
 
 
   Exponential''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, CLI, authentication, and 22 more developer resources.'
 random_paper: 3
 score:
-  band: developing
-  composite: 39.3
+  band: thin
+  composite: 37.8
   coverage:
     artifact_dirs: 23
-    catalog_earned: 40.0
+    catalog_earned: 37.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 18.4
+    access_clarity: 10.5
     contract_governance: 18.2
     contract_quality: 38.6
     developer_ergonomics: 73.8
@@ -289,8 +293,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -317,7 +321,7 @@ tags:
 - ERC-4626
 - Cross-Chain
 - Blockchain
-- Crypto
+- Cryptocurrency
 - Risk Management
 - Risk Ratings
 - Agents

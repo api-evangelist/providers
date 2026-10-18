@@ -31,20 +31,20 @@ agent_readiness:
     mcp_server: verified
     openapi_examples: partial
     protected_resource_metadata: verified
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 48.2
-  scored_at: '2026-10-04'
+  score: 46.3
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 15
+- acting_count: 11
   human_in_the_loop: 0
   name: Keywordsai Agentic Access
   operation_count: 20
   slug: keywordsai-agentic-access
-  summary_line: 20 operations · 15 acting
+  summary_line: 20 operations · 11 acting
 api_count: 1
 apis:
 - baseURL: https://api.keywordsai.co/api
@@ -132,6 +132,10 @@ collections:
   name: Keywords AI API
   slug: open-keywordsai
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.respan.ai/blog
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/keywordsai/refs/heads/main/capabilities/keywordsai-capability-edges.yml
   title: ''
@@ -191,26 +195,30 @@ common:
 created: '2026-06-20'
 description: Keywords AI is an LLM observability and gateway platform. It exposes an OpenAI-compatible proxy (chat completions across 250+ models) plus REST APIs for request logging, prompt management, threads, evaluations, and traces - all under a single Bearer-authenticated API at https://api.keywordsai.co/api. (The company is rebranding to Respan; the keywordsai.co host and API remain active.)
 finops:
-- name: Keywordsai Finops
+- has_sources: true
+  method: generated
+  name: Keywordsai Finops
+  primary_unit: ''
   service_category: AI and Machine Learning
   slug: keywordsai-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/keywordsai.png
 layout: provider
 mcp_servers:
 - description: Remote MCP server at mcp.keywordsai.co over HTTP.
   name: Keywords AI MCP Server
   slug: keywordsai
-modified: '2026-06-20'
+modified: '2026-10-06'
 name: Keywords AI
 nav: Providers
 network: true
-overview: 'Keywords AI publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Datasets API, Evaluators API, Experiments API, and 6 more. Tagged areas include Artificial Intelligence, LLM, Observability, Gateways, and Monitoring.
+overview: 'Keywords AI publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Datasets API, Evaluators API, Experiments API, and 6 more. Tagged areas include Artificial Intelligence, LLM, Observability, Gateways, and Monitoring.
 
 
   The Keywords AI catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Keywords AI''s developer surface includes authentication, documentation, and 10 more developer resources.'
+  Keywords AI''s developer surface includes engineering blog, authentication, documentation, and 10 more developer resources.'
 plans:
 - name: Keywordsai Plans Pricing
   plan_count: 3
@@ -221,10 +229,11 @@ rate_limits:
   name: Keywordsai Rate Limits
   slug: keywordsai-rate-limits
 rules:
-- effective_rule_count: 32
+- authorship: generated
+  effective_rule_count: 32
   extends:
   - spectral:asyncapi
-  name: Keywords AI API Rules
+  name: Keywords AI — asyncapi rules
   rule_count: 5
   severity_counts:
     error: 1
@@ -234,22 +243,22 @@ rules:
   slug: keywordsai-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 38.8
+  composite: 31.0
   coverage:
-    artifact_dirs: 14
-    catalog_earned: 65.4
+    artifact_dirs: 17
+    catalog_earned: 46.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 49.6
+    catalog_gap: 68.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.8
   facets:
-    access_clarity: 44.2
+    access_clarity: 15.8
     contract_governance: 11.4
     contract_quality: 55.5
-    developer_ergonomics: 22.6
+    developer_ergonomics: 25.0
     discoverability: 68.3
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   previous_composite: 38.8
   provenance:
     agentic_access: derived
@@ -265,9 +274,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

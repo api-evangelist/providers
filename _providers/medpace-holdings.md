@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The Medpace Holdings API provides access to platform services and data for enterprise integration and automation.
@@ -41,6 +41,21 @@ apis:
   slug: medpace-holdings-api
 artifact_total: 5
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/medpace-holdings/refs/heads/main/plans/medpace-holdings-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/medpace-holdings-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/medpace-holdings/refs/heads/main/rate-limits/medpace-holdings-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/medpace-holdings-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/medpace-holdings/refs/heads/main/finops/medpace-holdings-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/medpace-holdings-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/medpace-holdings/refs/heads/main/security/medpace-holdings-domain-security.yml
   title: ''
@@ -65,19 +80,23 @@ common:
 created: '2026-04-19'
 description: Medpace Holdings is a major US corporation and Fortune 1000 company. The Medpace Holdings API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.
 finops:
-- name: Medpace Holdings Finops
+- has_sources: true
+  method: generated
+  name: Medpace Holdings Finops
+  primary_unit: ''
   service_category: Contract Research Organization (CRO)
   slug: medpace-holdings-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/medpace-holdings.png
 layout: provider
 modified: '2026-04-19'
 name: Medpace Holdings
 nav: Providers
 network: true
-overview: 'Medpace Holdings publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Clinical Research, CRO, and Biotechnology.
+overview: 'Medpace Holdings is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Clinical Research, CRO, and Biotechnology.
 
 
-  Medpace Holdings'' developer surface includes engineering blog and 4 more developer resources.'
+  Medpace Holdings'' developer surface includes engineering blog and 7 more developer resources.'
 plans:
 - name: Medpace Holdings Plans Pricing
   plan_count: 1
@@ -89,17 +108,17 @@ rate_limits:
   slug: medpace-holdings-rate-limits
 score:
   band: minimal
-  composite: 10.6
+  composite: 9.1
   coverage:
     artifact_dirs: 7
-    catalog_earned: 39.0
+    catalog_earned: 36.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 76.0
+    catalog_gap: 79.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 13.2
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
@@ -112,8 +131,8 @@ score:
     regime: Health
     regime_id: health
     score: 4.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

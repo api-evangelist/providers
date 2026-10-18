@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - baseURL: https://api.interhyp.de/submission/v2
@@ -232,7 +232,7 @@ modified: '2026-07-19'
 name: Interhyp
 nav: Providers
 network: true
-overview: 'Interhyp publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Commands API, Documents API, Financing Application API, and 5 more. Tagged areas include Company, Fintech, Mortgage, Lending, and Baufinanzierung.
+overview: 'Interhyp publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Commands API, Documents API, Financing Application API, and 5 more. Tagged areas include Company, Fintech, Mortgage, Lending, and Baufinanzierung.
 
 
   Interhyp''s developer surface includes documentation, getting-started guide, changelog, signup flow, support, authentication, sandbox, and 18 more developer resources.'
@@ -241,7 +241,7 @@ score:
   band: developing
   composite: 41.7
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -279,8 +279,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 19.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

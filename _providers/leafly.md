@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.7
-  scored_at: '2026-10-04'
+  score: 20.8
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 5
   slug: leafly-agentic-access
   summary_line: 5 operations · 3 acting
-api_count: 1
+api_count: 2
 apis:
 - description: Order (Reservations) API that lets any cannabis POS provider integrate Leafly online orders into its own system, taking ownership of the order integration rather than relying on a bespoke Leafly-built
   name: Leafly Order API
@@ -136,16 +136,20 @@ common:
 created: '2026-07-03'
 description: Leafly is a cannabis discovery marketplace where consumers research strains, read reviews, and browse and order from licensed dispensaries and brands. For retailers and point-of-sale (POS) providers, Leafly exposes a documented Menu Integration API that keeps a dispensary's Leafly menu in near-real-time sync with its system of record - pushing product/item data, variants, inventory, pricing, strain, and cannabinoid information - and a partner-gated Order (Reservations) API that lets a POS system receive and manage online orders placed on Leafly. The Menu Integration API is publicly documented (OpenAPI via ReDoc) across V1, V1.1, and V2; the Order API's full specification sits behind Cloudflare Access and is available to onboarded partners. Actual use requires a paid Leafly for Retailers subscription and a Leafly-issued menu integration key - there is no self-serve public signup or consumer-facing data API.
 finops:
-- name: Leafly Finops
+- has_sources: true
+  method: generated
+  name: Leafly Finops
+  primary_unit: ''
   service_category: Marketing and Marketplace
   slug: leafly-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/leafly.png
 layout: provider
 modified: '2026-07-03'
 name: Leafly
 nav: Providers
 network: true
-overview: 'Leafly publishes 3 APIs on the [APIs.io](https://apis.io/) network, including Menu API, Status API, and 1 more. Tagged areas include Cannabis, Dispensary, Menu Sync, POS Integration, and Retail.
+overview: 'Leafly publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network, including Menu API, Status API, and 1 more. Tagged areas include Cannabis, Dispensary, Menu Sync, POS Integration, and Retail.
 
 
   Leafly''s developer surface includes authentication, documentation, signup flow, support, engineering blog, and 9 more developer resources.'
@@ -165,22 +169,22 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 38.7
+  composite: 31.8
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 58.0
+    artifact_dirs: 14
+    catalog_earned: 42.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.0
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.9
   facets:
-    access_clarity: 40.0
+    access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 45.3
     developer_ergonomics: 33.3
     discoverability: 66.1
-    operational_transparency: 28.4
+    operational_transparency: 7.9
   previous_composite: 38.7
   provenance:
     agentic_access: derived
@@ -195,9 +199,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 22.2

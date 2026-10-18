@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 47.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: Demostack webhooks push real-time demo engagement events to any CRM, data warehouse, BI tool, or custom HTTP endpoint. Events are fired when prospects view, interact with, or complete a demo, enabling
@@ -189,9 +189,13 @@ common:
 created: '2026-06-13'
 description: Demostack is an enterprise-grade product simulation and demo automation platform that enables SaaS go-to-market teams to create, deliver, and analyze interactive product demos at scale. The platform provides a patented Cloner technology that converts live product workflows into fully independent demo environments, allowing sales engineers to personalize demo data and product experiences without touching production systems. Demostack exposes webhooks and native CRM integrations to push real-time demo engagement events into Salesforce, HubSpot, Slack, and custom endpoints, enabling revenue teams to measure how demos impact deals. The platform additionally ships a first-party remote MCP server so demo intelligence can be queried through AI assistants such as Claude, ChatGPT, and Gemini using natural language. Demostack publishes no public API reference or OpenAPI definition; its machine-readable surface is the OAuth-protected MCP endpoint and the in-product webhook configuration.
 finops:
-- name: Demostack Finops
+- has_sources: false
+  method: generated
+  name: Demostack Finops
+  primary_unit: ''
   service_category: ''
   slug: demostack-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/demostack.png
 jsonld:
 - class_count: 11
@@ -207,7 +211,7 @@ modified: '2026-08-14'
 name: Demostack
 nav: Providers
 network: true
-overview: 'Demostack publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Sales Demo, Demo Automation, Product Simulation, Webhook, and CRM Integration.
+overview: 'Demostack is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Sales Demo, Demo Automation, Product Simulation, Webhook, and CRM Integration.
 
 
   The Demostack catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 JSON-LD context.
@@ -230,17 +234,17 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: developing
-  composite: 50.5
+  composite: 49.0
   coverage:
     artifact_dirs: 18
-    catalog_earned: 51.0
+    catalog_earned: 48.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 64.0
+    catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 61.8
+    access_clarity: 53.9
     contract_governance: 18.2
     contract_quality: 53.2
     developer_ergonomics: 28.6
@@ -262,8 +266,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 41.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

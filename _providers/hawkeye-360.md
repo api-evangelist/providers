@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.he360.com/newsroom/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/hawkeye-360/refs/heads/main/security/hawkeye-360-domain-security.yml
   title: ''
@@ -90,31 +94,31 @@ description: HawkEye 360 is a Herndon, Virginia-based radio frequency (RF) data 
   such as the Mediterranean, South China Sea, and the Korean Peninsula. In December 2023 HawkEye 360 acquired Maxar Intelligence's RF Solutions business (formerly Aurora Insight), expanding its spectrum-mapping capabilities. Customers are concentrated in defense, intelligence, national security, and maritime domain awareness — including the US Government, allied partners, and foreign military sales (a 2025 FMS to India was approved by the Defense Security Cooperation Agency). HawkEye 360 has filed an S-1 with the SEC for a proposed IPO. There is no public, self-service developer API, SDK, or open-source release; data access is delivered through gated commercial and government contracts via the Mission Space platform and a customer-facing API for ordering and integration of RF analytics into customer systems.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hawkeye-360.png
 layout: provider
-modified: '2026-05-24'
+modified: '2026-10-06'
 name: HawkEye 360
 nav: Providers
 network: true
 overview: 'HawkEye 360 is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include RF Geolocation, Radio Frequency Intelligence, Signals Intelligence, Geospatial Intelligence, and Satellite.
 
 
-  HawkEye 360''s developer surface includes product news and 11 more developer resources.'
+  HawkEye 360''s developer surface includes engineering blog, product news, and 11 more developer resources.'
 random_paper: 2
 score:
   band: minimal
-  composite: 3.5
+  composite: 4.0
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 49.1
     operational_transparency: 0.0
   jurisdiction:
@@ -131,8 +135,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

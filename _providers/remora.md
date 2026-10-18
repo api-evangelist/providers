@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://remoracarbon.com/feed/
 - group: company
   title: ''
   type: Website
@@ -57,7 +61,7 @@ created: '2026-07-17'
 description: Remora is a carbon-capture startup (legally Echeneidae Inc.) founded in 2020 and based in Wixom, Michigan, that retrofits semi-trucks and locomotives with zero-backpressure devices which extract and purify up to 90 percent of the CO2 from vehicle exhaust while cutting other pollutants. The company then sells the captured, purified carbon dioxide and shares the resulting revenue with the transportation operators it partners with. Remora is a hardware and climate-technology business with no public API or developer platform; this profile tracks it as an API Evangelist network company for portfolio and discovery purposes.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/remora.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Remora
 nav: Providers
 network: true
@@ -67,7 +71,7 @@ score:
   band: minimal
   composite: 3.4
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -95,8 +99,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

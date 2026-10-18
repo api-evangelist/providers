@@ -29,6 +29,6 @@ tags:
 - Decarbonization
 - Built World
 - Home Retrofit
-- Construction Tech
+- Construction Technology
 - Sustainability
 ---

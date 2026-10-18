@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.veefriends.com/feed
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/veefriends/refs/heads/main/security/veefriends-domain-security.yml
   title: ''
@@ -87,14 +91,14 @@ created: '2026-07-17'
 description: VeeFriends is a character-driven collectibles and entertainment company founded by Gary Vaynerchuk, built around 250+ original characters that embody human values like empathy, patience, and kindness. Operated by Vee Friends, LLC out of New York, the brand spans NFT collections (Series 1, Series 2, Iconics, Book Games), Topps Chrome trading cards and a trading card game, comic books and cartoons, collectible stickers and pins, apparel and plush merchandise, and the Burn Island platform where holders burn NFTs to unlock rare collectibles, events, and prizes. VeeFriends is an a16z portfolio company and publishes no public developer API surface today.
 image: https://veefriends.com/apple-touch-icon.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: VeeFriends
 nav: Providers
 network: true
 overview: 'VeeFriends is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Collectibles, NFT, Trading Cards, and Entertainment.
 
 
-  VeeFriends'' developer surface includes engineering blog, support, and 9 more developer resources.'
+  VeeFriends'' developer surface includes engineering blog, support, and 10 more developer resources.'
 random_paper: 11
 score:
   band: minimal
@@ -121,8 +125,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 5.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

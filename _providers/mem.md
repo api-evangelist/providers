@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 61.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 38
+- acting_count: 33
   human_in_the_loop: 0
   name: Mem Agentic Access
   operation_count: 64
   slug: mem-agentic-access
-  summary_line: 64 operations · 38 acting
+  summary_line: 64 operations · 33 acting
 api_count: 1
 apis:
 - baseURL: https://api.mem.ai
@@ -51,7 +51,7 @@ apis:
 - baseURL: https://api.mem.ai
   baseurl_source: declared
   description: The external API from Mem — 53 operation(s) for external.
-  name: Mem external API
+  name: Mem External API
   slug: mem-external-api
 artifact_total: 14
 collections:
@@ -236,7 +236,7 @@ modified: '2026-07-20'
 name: Mem
 nav: Providers
 network: true
-overview: 'Mem publishes 2 APIs on the [APIs.io](https://apis.io/) network: CoreApi__service-info API and external API. Tagged areas include Company, Notes, Knowledge Management, Productivity, and Artificial Intelligence.
+overview: 'Mem publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: CoreApi__service-info API and External API. Tagged areas include Company, Notes, Knowledge Management, Productivity, and Artificial Intelligence.
 
 
   Mem''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 26 more developer resources.'
@@ -254,7 +254,7 @@ score:
   band: developing
   composite: 42.5
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -285,8 +285,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

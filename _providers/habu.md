@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 30.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://api.habu.com/v1/
@@ -393,7 +393,7 @@ modified: '2026-08-12'
 name: Habu
 nav: Providers
 network: true
-overview: 'Habu publishes 34 APIs on the [APIs.io](https://apis.io/) network, including Billable Configs API, Cleanroom API, Cleanroom Datasets API, and 31 more. Tagged areas include Company, Data Clean Room, Data Collaboration, Advertising, and Privacy.
+overview: 'Habu publishes 34 API contracts indexed on the [APIs.io](https://apis.io/) network, including Billable Configs API, Cleanroom API, Cleanroom Datasets API, and 31 more. Tagged areas include Company, Data Clean Room, Data Collaboration, Advertising, and Privacy.
 
 
   Habu''s developer surface includes API reference, getting-started guide, changelog, authentication, documentation, engineering blog, pricing, and 29 more developer resources.'
@@ -413,7 +413,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 50.7
+  composite: 50.8
   coverage:
     artifact_dirs: 23
     catalog_earned: 49.0
@@ -421,7 +421,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.1
   facets:
     access_clarity: 53.9
     contract_governance: 4.5
@@ -436,7 +436,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 50.2
+  previous_composite: 50.7
   provenance:
     conformance: derived
     contracts:
@@ -460,8 +460,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

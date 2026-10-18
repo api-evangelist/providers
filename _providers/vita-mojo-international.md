@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 asyncapis:
@@ -40,6 +40,10 @@ asyncapis:
   name: Vita Mojo International Epos Webhooks
   slug: vita-mojo-international-epos-webhooks
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.vitamojo.com/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/vita-mojo-international/refs/heads/main/security/vita-mojo-international-domain-security.yml
   title: ''
@@ -114,7 +118,7 @@ created: '2026-07-17'
 description: Vita Mojo International is a London-based hospitality technology company behind VMOS, an end-to-end order management system for quick-service restaurants that unifies point of sale, self-service kiosks, digital ordering, click-and-collect, kitchen management, menu management, loyalty, and data analytics (including the Scout AI analyst). Launched in 2015 and backed by Battery Ventures, Vita Mojo powers 3,100+ locations for brands such as Subway, GAIL's, LEON, Honest Burgers, and YO!, primarily in the UK and Netherlands. Its integration surface is partner-oriented, with a partner-gated Reporting API, an EPOS Connector that delivers VMOS orders via webhooks in supported formats, and a catalog of technology partner integrations; first-party JavaScript libraries are published publicly on npm under the @vita-mojo scope.
 image: https://avatars.githubusercontent.com/u/48916872?v=4
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Vita Mojo International
 nav: Providers
 network: true
@@ -124,11 +128,11 @@ overview: 'Vita Mojo International is profiled on the [APIs.io](https://apis.io/
   The Vita Mojo International catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Vita Mojo International''s developer surface includes documentation, support, engineering blog, pricing, and 12 more developer resources.'
+  Vita Mojo International''s developer surface includes documentation, support, engineering blog, pricing, and 13 more developer resources.'
 random_paper: 9
 score:
   band: thin
-  composite: 29.0
+  composite: 29.1
   coverage:
     artifact_dirs: 9
     catalog_earned: 27.0
@@ -136,7 +140,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 27.6
     contract_governance: 18.2
@@ -165,8 +169,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 14.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 15.5
-  scored_at: '2026-10-04'
+  score: 13.6
+  scored_at: '2026-10-17'
 api_count: 12
 apis:
 - description: GraphQL operations over the Accounts domain - search and read client (pet owner) records including contact details, addresses, balances, linked patients, and communication preferences, and create or u
@@ -78,6 +78,10 @@ collections:
   name: Vetspire GraphQL API
   slug: open-vetspire
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.vetspire.ai/blog
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/vetspire/refs/heads/main/security/vetspire-domain-security.yml
   title: ''
@@ -121,23 +125,27 @@ common:
 created: '2026-07-04'
 description: Vetspire is a cloud-based, AI-enabled veterinary practice management (PIMS) platform for animal hospitals and clinics, covering electronic medical records, scheduling, client communications, billing, inventory, labs, and reminders. Vetspire exposes a single public GraphQL API at https://api.vetspire.com/graphql - every action in the product is powered by GraphQL - authenticated with an Authorization API token and organized by veterinary practice domains (Accounts, Clinical, Schedule, Billing, Inventory, Hospital, Lab, Reminders, Conversations, Analytics, Events). The schema exposes 400+ object types, 248 input objects, and 112 enums, with a maximum query depth of 8.
 finops:
-- name: Vetspire Finops
+- has_sources: true
+  method: generated
+  name: Vetspire Finops
+  primary_unit: ''
   service_category: Veterinary Practice Management Software
   slug: vetspire-finops
+  template: false
 graphqls:
 - description: 'Vetspire is a cloud-based veterinary practice management platform. Its entire public API is GraphQL - "every action within Vetspire is powered by GraphQL requests." Clients declare exactly the fields '
   name: Vetspire GraphQL API
   slug: vetspire-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vetspire.png
 layout: provider
-modified: '2026-07-04'
+modified: '2026-10-06'
 name: Vetspire
 nav: Providers
 network: true
-overview: 'Vetspire publishes 12 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Veterinary, Practice Management, PIMS, Healthcare, and GraphQL.
+overview: 'Vetspire is listed with 12 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Veterinary, Practice Management, PIMS, Healthcare, and GraphQL.
 
 
-  Vetspire''s developer surface includes documentation, support, and 7 more developer resources.'
+  Vetspire''s developer surface includes engineering blog, documentation, support, and 7 more developer resources.'
 plans:
 - name: Vetspire Plans Pricing
   plan_count: 4
@@ -148,23 +156,23 @@ rate_limits:
   name: Vetspire Rate Limits
   slug: vetspire-rate-limits
 score:
-  band: thin
-  composite: 29.1
+  band: emerging
+  composite: 22.2
   coverage:
-    artifact_dirs: 8
-    catalog_earned: 61.0
+    artifact_dirs: 9
+    catalog_earned: 45.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 54.0
+    catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.9
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 35.1
-    developer_ergonomics: 21.4
+    developer_ergonomics: 23.8
     discoverability: 71.4
-    operational_transparency: 21.6
+    operational_transparency: 7.9
   previous_composite: 29.1
   regulatory:
     applies: true
@@ -172,9 +180,9 @@ score:
     regime: Health
     regime_id: health
     score: 4.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -192,7 +200,7 @@ tags:
 - PIMS
 - Healthcare
 - GraphQL
-- Electronic Medical Records
+- Electronic Health Records
 - Scheduling
 website: https://vetspire.com/
 ---

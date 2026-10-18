@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 51
   slug: weel-agentic-access
   summary_line: 51 operations · 27 acting
-api_count: 1
+api_count: 2
 apis:
 - baseURL: https://public.letsweel.com
   baseurl_source: declared
@@ -256,7 +256,7 @@ modified: '2026-07-24'
 name: Weel
 nav: Providers
 network: true
-overview: 'Weel publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Accounting Codes API, Budget Members API, Budget Owners API, and 12 more. Tagged areas include Payments, Australia, Spend Management, Expense Management, and Corporate Cards.
+overview: 'Weel publishes 15 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounting Codes API, Budget Members API, Budget Owners API, and 12 more. Tagged areas include Payments, Australia, Spend Management, Expense Management, and Corporate Cards.
 
 
   Weel''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, changelog, support, and 20 more developer resources.'
@@ -303,8 +303,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 32.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

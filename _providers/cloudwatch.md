@@ -28,20 +28,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.6
-  scored_at: '2026-10-04'
+  score: 28.7
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 25
+- acting_count: 18
   human_in_the_loop: 1
   name: Cloudwatch Agentic Access
   operation_count: 25
   slug: cloudwatch-agentic-access
-  summary_line: 25 operations · 25 acting · 1 human-in-the-loop
+  summary_line: 25 operations · 18 acting · 1 human-in-the-loop
 api_count: 1
 apis:
 - description: API for automatic instrumentation and monitoring of application services with service level objectives.
@@ -125,6 +125,21 @@ collections:
   name: AWS CloudWatch Amazon CloudWatch API
   slug: open-cloudwatch
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/cloudwatch/refs/heads/main/plans/cloudwatch-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/cloudwatch-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cloudwatch/refs/heads/main/rate-limits/cloudwatch-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/cloudwatch-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/cloudwatch/refs/heads/main/finops/cloudwatch-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/cloudwatch-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/cloudwatch/refs/heads/main/capabilities/cloudwatch-capability-edges.yml
   title: ''
@@ -521,9 +536,13 @@ features:
 - Cross-account observability with Observability Access Manager
 - Network Monitor for hybrid connectivity health
 finops:
-- name: Cloudwatch Finops
+- has_sources: true
+  method: generated
+  name: Cloudwatch Finops
+  primary_unit: ''
   service_category: Observability
   slug: cloudwatch-finops
+  template: false
 image: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png
 json_schemas:
 - name: AlarmHistoryItem
@@ -1146,13 +1165,13 @@ modified: '2026-05-19'
 name: AWS CloudWatch
 nav: Providers
 network: true
-overview: 'AWS CloudWatch publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Alarms API, Anomaly Detection API, Composite Alarms API, and 5 more. Tagged areas include Alarms, Dashboards, Logs, Metrics, and Monitoring.
+overview: 'AWS CloudWatch publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Alarms API, Anomaly Detection API, Composite Alarms API, and 5 more. Tagged areas include Alarms, Dashboards, Logs, Metrics, and Monitoring.
 
 
   The AWS CloudWatch catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  AWS CloudWatch''s developer surface includes authentication, engineering blog, FAQ, support, changelog, pricing, developer console, and 15 more developer resources.'
+  AWS CloudWatch''s developer surface includes authentication, engineering blog, FAQ, support, changelog, pricing, developer console, and 18 more developer resources.'
 plans:
 - name: Cloudwatch Plans Pricing
   plan_count: 7
@@ -1163,9 +1182,10 @@ rate_limits:
   name: Cloudwatch Rate Limits
   slug: cloudwatch-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: AWS CloudWatch API Rules
+  name: AWS CloudWatch — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -1173,7 +1193,8 @@ rules:
     info: 1
     warn: 5
   slug: cloudwatch-jsonschema-spectral-rules
-- effective_rule_count: 56
+- authorship: generated
+  effective_rule_count: 56
   extends:
   - spectral:oas
   name: AWS CloudWatch API Rules
@@ -1186,17 +1207,17 @@ rules:
   slug: cloudwatch-spectral-rules
 score:
   band: strong
-  composite: 56.9
+  composite: 55.4
   coverage:
     artifact_dirs: 18
-    catalog_earned: 64.0
+    catalog_earned: 61.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 51.0
+    catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 44.7
+    access_clarity: 36.8
     contract_governance: 27.3
     contract_quality: 64.9
     developer_ergonomics: 63.1
@@ -1216,8 +1237,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 31.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 63.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 127
+- acting_count: 100
   human_in_the_loop: 0
   name: Birdeye Agentic Access
-  operation_count: 162
+  operation_count: 168
   slug: birdeye-agentic-access
-  summary_line: 162 operations · 127 acting
+  summary_line: 168 operations · 100 acting
 api_count: 2
 apis:
 - baseURL: https://api.birdeye.com
@@ -642,7 +642,7 @@ apis:
     question: Can I send messenger events to my own endpoint?
   phrasing_ops: 2
   slug: birdeye-webhook-api
-artifact_total: 244
+artifact_total: 249
 asyncapis:
 - description: ''
   name: Birdeye Webhooks
@@ -730,6 +730,49 @@ collections:
   name: Birdeye Aggregation Webhook API
   slug: open-birdeye-webhook-api
 common:
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/birdeye/refs/heads/main/rules/birdeye-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/birdeye-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/birdeye/refs/heads/main/rules/birdeye-jsonschema-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/birdeye-jsonschema-spectral-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/birdeye/refs/heads/main/json-ld/birdeye-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/birdeye-context.jsonld
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/birdeye/refs/heads/main/errors/birdeye-problem-types.yml
+  title: ''
+  type: ErrorCatalog
+  url: errors/birdeye-problem-types.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/birdeye/refs/heads/main/hosts/birdeye-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/birdeye-hosts.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/birdeye/refs/heads/main/integrations/birdeye-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/birdeye-integration-edges.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/birdeye/refs/heads/main/vendors/birdeye-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/birdeye-vendors.yml
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://birdeye.com/press/
+- group: other
+  title: ''
+  type: Leadership
+  url: https://birdeye.com/team/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/birdeye/refs/heads/main/capabilities/birdeye-capability-edges.yml
   title: ''
@@ -923,7 +966,7 @@ common:
   title: ''
   type: FinOps
   url: finops/birdeye-finops.yml
-created: 2026-06-13
+created: '2026-06-13'
 description: Birdeye is an AI-powered customer experience and reputation management platform for multi-location brands. Its REST API enables developers to manage online reviews across 200+ sites, send surveys, respond to messages, automate review requests, and track reputation metrics including ratings, sentiment trends, and NPS scores. Integrations cover listings, webchat, appointments, payments, social posting, and customer insights.
 examples:
 - key_count: 5
@@ -1398,9 +1441,13 @@ examples:
   name: Visitor Report
   slug: visitor-report
 finops:
-- name: Birdeye Finops
+- has_sources: false
+  method: generated
+  name: Birdeye Finops
+  primary_unit: ''
   service_category: ''
   slug: birdeye-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/birdeye.png
 json_schemas:
 - name: Archived Get Reviews Request
@@ -1409,6 +1456,18 @@ json_schemas:
 - name: Associate Request
   property_count: 3
   slug: associate-request
+- name: Apiary_getHotelAttributes_Response200
+  property_count: 1
+  slug: birdeye-apiary-get-hotel-attributes-response200
+- name: Apiary_trackSocialMediaUpload_Response200
+  property_count: 7
+  slug: birdeye-apiary-track-social-media-upload-response200
+- name: Apiary_uploadSocialMedia_Request
+  property_count: 2
+  slug: birdeye-apiary-upload-social-media-request
+- name: Apiary_uploadSocialMedia_Response200
+  property_count: 2
+  slug: birdeye-apiary-upload-social-media-response200
 - name: Create A Business Request
   property_count: 7
   slug: create-a-business-request
@@ -1473,17 +1532,17 @@ mcp_servers:
 - description: Remote MCP server at mcp.birdeye.com over streamable HTTP requiring OAuth; 25 tools listed.
   name: Birdeye
   slug: birdeye
-modified: 2026-08-13
+modified: '2026-10-12'
 name: Birdeye
 nav: Providers
 network: true
-overview: 'Birdeye publishes 27 APIs on the [APIs.io](https://apis.io/) network, including Aggregation API, Business API, Business Media API, and 24 more. Tagged areas include Reputation Management, Reviews, Customer Experience, Surveys, and Messaging.
+overview: 'Birdeye publishes 27 API contracts indexed on the [APIs.io](https://apis.io/) network, including Aggregation API, Business API, Business Media API, and 24 more. Tagged areas include Reputation Management, Reviews, Customer Experience, Surveys, and Messaging.
 
 
-  The Birdeye catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
+  The Birdeye catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Birdeye''s developer surface includes changelog, API reference, getting-started guide, support, authentication, documentation, engineering blog, and 35 more developer resources.'
+  Birdeye''s developer surface includes changelog, API reference, getting-started guide, support, authentication, documentation, engineering blog, and 44 more developer resources.'
 plans:
 - name: Birdeye Plans Pricing
   plan_count: 4
@@ -1494,9 +1553,10 @@ rate_limits:
   name: Birdeye Rate Limits
   slug: birdeye-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Birdeye API Rules
+  name: Birdeye — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1504,6 +1564,18 @@ rules:
     info: 2
     warn: 3
   slug: birdeye-jsonschema-spectral-rules
+- authorship: generated
+  effective_rule_count: 55
+  extends:
+  - spectral:oas
+  name: Birdeye API Rules
+  rule_count: 14
+  severity_counts:
+    error: 9
+    hint: 0
+    info: 1
+    warn: 4
+  slug: birdeye-rules
 scopes:
 - name: Birdeye Scopes
   scope_count: 3
@@ -1511,21 +1583,21 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 77.3
+  composite: 77.0
   coverage:
-    artifact_dirs: 32
-    catalog_earned: 78.8
+    artifact_dirs: 35
+    catalog_earned: 82.8
     catalog_earned_first_party: 20.0
-    catalog_gap: 36.3
+    catalog_gap: 32.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.3
   facets:
-    access_clarity: 93.4
-    contract_governance: 41.7
-    contract_quality: 62.0
+    access_clarity: 85.5
+    contract_governance: 35.6
+    contract_quality: 68.1
     developer_ergonomics: 64.3
-    discoverability: 75.0
+    discoverability: 78.3
     operational_transparency: 73.7
   previous_composite: 77.3
   provenance:
@@ -1544,8 +1616,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 41.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

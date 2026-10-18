@@ -26,14 +26,14 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: documented
-    protected_resource_metadata: false
-    rate_limit_signal: documented
+    protected_resource_metadata: verified
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.4
-  scored_at: '2026-10-04'
+  score: 27.1
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: A REST API for programmatically sending letters, postcards, checks, and self-mailers. Handles printing, postage, and delivery with support for templates, contacts, tracking, webhooks, and both test an
@@ -114,9 +114,13 @@ common:
 created: '2026-06-12'
 description: PostGrid is a physical mail automation platform that provides REST APIs for sending printed letters, postcards, checks, and self-mailers at scale. It offers a Print & Mail API that enables developers to programmatically trigger and manage direct mail campaigns with full personalization and tracking support. PostGrid also provides US & Canada Address Verification and International Address Verification APIs covering 245+ countries for real-time autocomplete, standardization, geocoding, and bulk batch verification. The platform supports both test and live API environments, integrates natively with Salesforce, HubSpot, Zapier, and Marketo, and handles postage, printing, and delivery end-to-end.
 finops:
-- name: Postgrid Finops
+- has_sources: false
+  method: generated
+  name: Postgrid Finops
+  primary_unit: ''
   service_category: ''
   slug: postgrid-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/postgrid.png
 jsonld:
 - class_count: 8
@@ -132,7 +136,7 @@ modified: '2026-06-12'
 name: PostGrid
 nav: Providers
 network: true
-overview: 'PostGrid publishes 3 APIs on the [APIs.io](https://apis.io/) network, including Print & Mail API, and 2 more. Tagged areas include Direct Mail, Print & Mail, Address Verification, Address Validation, and Postcards.
+overview: 'PostGrid is listed with 3 APIs on the [APIs.io](https://apis.io/) network, including Print & Mail API, and 2 more. Tagged areas include Direct Mail, Print & Mail, Address Verification, Address Validation, and Postcards.
 
 
   The PostGrid catalog on APIs.io includes 1 JSON-LD context.
@@ -149,23 +153,23 @@ rate_limits:
   name: Postgrid Rate Limits
   slug: postgrid-rate-limits
 score:
-  band: thin
-  composite: 31.1
+  band: emerging
+  composite: 22.9
   coverage:
-    artifact_dirs: 9
-    catalog_earned: 72.6
+    artifact_dirs: 10
+    catalog_earned: 54.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 42.4
+    catalog_gap: 61.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.2
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 41.2
     developer_ergonomics: 9.5
     discoverability: 73.3
-    operational_transparency: 38.9
+    operational_transparency: 18.4
   previous_composite: 31.1
   provenance:
     mcp: first-party
@@ -175,9 +179,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

@@ -32,10 +32,15 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 4
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/von/refs/heads/main/plans/von-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/von-plans-pricing.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/von/refs/heads/main/security/von-trust-center.yml
   title: ''
@@ -131,7 +136,7 @@ network: true
 overview: 'Von is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Revenue Operations, Sales, and CRM.
 
 
-  Von''s developer surface includes engineering blog, support, YouTube channel, and 13 more developer resources.'
+  Von''s developer surface includes engineering blog, support, YouTube channel, and 14 more developer resources.'
 plans:
 - name: Von Plans Pricing
   plan_count: 0
@@ -141,7 +146,7 @@ score:
   band: emerging
   composite: 18.1
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -162,8 +167,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

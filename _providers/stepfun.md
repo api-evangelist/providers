@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 12
 apis:
 - description: OpenAI-compatible chat completions for the Step model family (e.g. step-3.7-flash, step-3.5-flash, stepaudio-2.5-chat), with multimodal image/video/audio message parts, tool calling, JSON mode, stream
@@ -76,12 +76,21 @@ apis:
 - description: Retrieve account information including balances (GET /v1/accounts).
   name: StepFun Accounts API
   slug: accounts-api
-artifact_total: 17
+artifact_total: 18
 asyncapis:
 - description: 'StepFun''s realtime event surface: a bidirectional realtime voice channel at wss://api.stepfun.com/v1/realtime (OpenAI Realtime-style session / conversation / response events, models stepaudio-2.5-real'
   name: StepFun Realtime Voice & Streaming TTS WebSocket API
   slug: stepfun-realtime-asyncapi
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/stepfun/refs/heads/main/plans/stepfun-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/stepfun-plans-pricing.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.stepfun.com/blog/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/stepfun/refs/heads/main/security/stepfun-domain-security.yml
   title: ''
@@ -203,38 +212,42 @@ mcp_servers:
 - description: StepFun operates an official hosted remote MCP server, StepSearch — a search service built on the Model Context Protocol that gives Claude Code, Cline, OpenCode, Goose, and other MCP-compatible client
   name: StepFun MCP Server
   slug: stepsearch
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: StepFun
 nav: Providers
 network: true
-overview: 'StepFun publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Realtime API, and 11 more. Tagged areas include Artificial Intelligence, LLM, Multi-Modal, Chat Completions, and Audio.
+overview: 'StepFun is listed with 12 APIs on the [APIs.io](https://apis.io/) network, including Realtime API, and 11 more. Tagged areas include Artificial Intelligence, LLM, Multi-Modal, Chat Completions, and Audio.
 
 
   The StepFun catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  StepFun''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 18 more developer resources.'
+  StepFun''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, pricing, signup flow, and 20 more developer resources.'
+plans:
+- name: Stepfun Plans Pricing
+  plan_count: 29
+  slug: stepfun-plans-pricing
 random_paper: 3
 rate_limits:
 - limit_count: 18
   name: Stepfun Rate Limits
   slug: stepfun-rate-limits
 score:
-  band: developing
-  composite: 47.9
+  band: strong
+  composite: 54.4
   coverage:
-    artifact_dirs: 14
-    catalog_earned: 52.0
-    catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    artifact_dirs: 17
+    catalog_earned: 64.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.5
   facets:
-    access_clarity: 44.7
+    access_clarity: 76.3
     contract_governance: 18.2
     contract_quality: 39.6
-    developer_ergonomics: 61.9
+    developer_ergonomics: 64.3
     discoverability: 80.0
     operational_transparency: 42.1
   jurisdiction:
@@ -250,13 +263,13 @@ score:
     mcp: first-party
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 22.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

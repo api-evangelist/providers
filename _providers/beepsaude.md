@@ -23,10 +23,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://beepsaude.com.br/blog-da-beep/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://beepsaude.com.br/feed/
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/beepsaude/refs/heads/main/llms/beepsaude-llms.txt
   title: ''
@@ -70,27 +78,31 @@ created: '2026-09-27'
 description: Beepsaúde (Beep Saúde) is a Brazilian digital health platform offering at‑home medical services such as laboratory exams, vaccinations, and immunobiologics. Operating in Rio de Janeiro, São Paulo and the Federal District, the company provides a web portal and mobile app for scheduling, payment, and results delivery. It serves both private customers and health‑plan members, partnering with over 40 insurers. The service emphasizes convenience, rapid home visits, and transparent pricing, with a focus on preventive care and chronic‑disease monitoring.
 image: https://beepsaude.com.br/wp-content/uploads/2020/08/destacada-bg.jpg
 layout: provider
-modified: '2026-09-27'
+modified: '2026-10-06'
 name: Beepsaúde
 nav: Providers
 network: true
-overview: Beepsaúde is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Health, Digital Health, Brazil, Home Care, and Telehealth.
+overview: 'Beepsaúde is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Health, Digital Health, Brazil, Home Care, and Telehealth.
+
+
+  Beepsaúde''s developer surface includes engineering blog and 8 more developer resources.'
 random_paper: 18
 score:
   band: minimal
-  composite: 9.6
+  composite: 10.1
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 8
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.5
   facets:
     access_clarity: 23.7
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 55.4
     operational_transparency: 0.0
   jurisdiction:
@@ -100,6 +112,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - latin-america
+  previous_composite: 9.6
   provenance:
     mcp: unknown
   regulatory:
@@ -108,12 +121,14 @@ score:
     regime: Health
     regime_id: health
     score: 7.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/beepsaude/refs/heads/main/screenshots/beepsaude-2026-10-11T101738.png
 security:
 - kind: domain-security
   name: Beepsaude Domain Security

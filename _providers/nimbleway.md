@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 58.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 22
+- acting_count: 21
   human_in_the_loop: 0
   name: Nimbleway Agentic Access
   operation_count: 42
   slug: nimbleway-agentic-access
-  summary_line: 42 operations · 22 acting
+  summary_line: 42 operations · 21 acting
 api_count: 1
 apis:
 - baseURL: https://sdk.nimbleway.com/v1
@@ -307,7 +307,7 @@ modified: '2026-07-20'
 name: Nimbleway
 nav: Providers
 network: true
-overview: 'Nimbleway publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Crawl API, Domain Knowledge API, and 8 more. Tagged areas include Company, Web Data, Web Scraping, Data Extraction, and Web Search.
+overview: 'Nimbleway publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agents API, Crawl API, Domain Knowledge API, and 8 more. Tagged areas include Company, Web Data, Web Scraping, Data Extraction, and Web Search.
 
 
   Nimbleway''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, CLI, engineering blog, and 27 more developer resources.'
@@ -320,7 +320,7 @@ score:
   band: strong
   composite: 55.7
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
@@ -357,8 +357,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.overstory.com/blog?format=rss
 - group: company
   title: ''
   type: Website
@@ -74,14 +78,14 @@ created: '2026-07-17'
 description: Overstory provides AI-powered vegetation intelligence for electric utilities and grid operators. The platform fuses high-resolution satellite and aerial imagery with machine learning to detect vegetation encroachment, hazard trees, and wildfire risk along power line corridors, helping utilities prioritize trimming, optimize vegetation management spend, and improve grid reliability (SAIDI). Overstory was founded as 20tree.ai and surfaced in the API Evangelist network as a Techstars portfolio company. As of this profile the company delivers its intelligence through a customer platform and services rather than a public developer API; no public API documentation, OpenAPI, or developer portal was found during enrichment.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/overstory.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Overstory
 nav: Providers
 network: true
 overview: 'Overstory is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Vegetation Management, Satellite Imagery, Geospatial, and Artificial Intelligence.
 
 
-  Overstory''s developer surface includes engineering blog, support, and 6 more developer resources.'
+  Overstory''s developer surface includes engineering blog, support, and 7 more developer resources.'
 random_paper: 9
 score:
   band: emerging
@@ -108,8 +112,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 11.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

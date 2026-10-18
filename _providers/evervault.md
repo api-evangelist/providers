@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://api.evervault.com
@@ -317,7 +317,7 @@ modified: '2026-09-16'
 name: Evervault
 nav: Providers
 network: true
-overview: 'Evervault publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Core API, Payments API, Webhooks API, and 1 more. Tagged areas include Company, Data, Security, Encryption, and Payments.
+overview: 'Evervault publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Core API, Payments API, Webhooks API, and 1 more. Tagged areas include Company, Data, Security, Encryption, and Payments.
 
 
   The Evervault catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -329,7 +329,7 @@ score:
   band: strong
   composite: 57.4
   coverage:
-    artifact_dirs: 25
+    artifact_dirs: 26
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -365,8 +365,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -87,6 +87,21 @@ collections:
   name: Cflow API
   slug: open-cflow
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/cflow/refs/heads/main/plans/cflow-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/cflow-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cflow/refs/heads/main/rate-limits/cflow-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/cflow-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/cflow/refs/heads/main/finops/cflow-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/cflow-finops.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -170,9 +185,13 @@ features:
 - name: Reminders
 - name: Reports
 finops:
-- name: Cflow Finops
+- has_sources: false
+  method: generated
+  name: Cflow Finops
+  primary_unit: ''
   service_category: API
   slug: cflow-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cflow.png
 json_schemas:
 - name: Cflow Request
@@ -200,13 +219,13 @@ modified: '2026-05-19'
 name: Cflow
 nav: Providers
 network: true
-overview: 'Cflow publishes 3 APIs on the [APIs.io](https://apis.io/) network: Requests API, Users API, and Workflows API. Tagged areas include Automation, Business Process Automation, Integration, No-Code, and Platform.
+overview: 'Cflow publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Requests API, Users API, and Workflows API. Tagged areas include Automation, Business Process Automation, Integration, No-Code, and Platform.
 
 
   The Cflow catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Cflow''s developer surface includes authentication, documentation, signup flow, pricing, engineering blog, support, and 8 more developer resources.'
+  Cflow''s developer surface includes authentication, documentation, signup flow, pricing, engineering blog, support, and 11 more developer resources.'
 plans:
 - name: Cflow Plans Pricing
   plan_count: 3
@@ -217,9 +236,10 @@ rate_limits:
   name: Cflow Rate Limits
   slug: cflow-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Cflow API Rules
+  name: Cflow — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -229,17 +249,17 @@ rules:
   slug: cflow-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 44.0
+  composite: 42.5
   coverage:
     artifact_dirs: 16
-    catalog_earned: 66.3
+    catalog_earned: 63.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 48.8
+    catalog_gap: 51.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 60.5
+    access_clarity: 52.6
     contract_governance: 9.8
     contract_quality: 63.0
     developer_ergonomics: 29.8
@@ -259,8 +279,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

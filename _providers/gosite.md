@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The GoSite developer API, marketed at developers.gosite.com in two families — Business Growth APIs (online presence, listings, lead generation) and Business Management APIs (scheduling, invoicing, pay
@@ -141,7 +141,7 @@ modified: '2026-08-22'
 name: GoSite
 nav: Providers
 network: true
-overview: 'GoSite publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Small Business, Local Services, Website Builder, and Reputation Management.
+overview: 'GoSite is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Small Business, Local Services, Website Builder, and Reputation Management.
 
 
   GoSite''s developer surface includes getting-started guide, documentation, support, engineering blog, pricing, signup flow, authentication, and 10 more developer resources.'
@@ -158,7 +158,7 @@ score:
   band: thin
   composite: 28.2
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
@@ -179,8 +179,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 17.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

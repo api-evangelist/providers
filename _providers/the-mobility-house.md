@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: Two-way WebSocket-Secure interface between ChargePilot (acting as the Charging Management System, CMS) and an upstream Depot Management, Fleet Management or ITCS system, implemented against the VDV 46
@@ -186,7 +186,7 @@ modified: '2026-08-30'
 name: The Mobility House
 nav: Providers
 network: true
-overview: 'The Mobility House publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Energy, Electric Vehicles, EV Charging, and Smart Charging.
+overview: 'The Mobility House is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Energy, Electric Vehicles, EV Charging, and Smart Charging.
 
 
   The The Mobility House catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -238,8 +238,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 20.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

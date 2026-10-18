@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: documented
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.4
-  scored_at: '2026-10-04'
+  score: 30.2
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -76,6 +76,21 @@ collections:
   name: Trivy Server API
   slug: open-trivy-server
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/trivy/refs/heads/main/plans/trivy-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/trivy-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/trivy/refs/heads/main/rate-limits/trivy-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/trivy-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/trivy/refs/heads/main/finops/trivy-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/trivy-finops.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -229,9 +244,13 @@ examples:
   name: Trivy Vulnerability Report Example
   slug: trivy-vulnerability-report-example
 finops:
-- name: Trivy Finops
+- has_sources: false
+  method: generated
+  name: Trivy Finops
+  primary_unit: ''
   service_category: API
   slug: trivy-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/trivy.png
 json_schemas:
 - name: Trivy Scan Result
@@ -258,13 +277,13 @@ modified: '2026-05-19'
 name: Trivy
 nav: Providers
 network: true
-overview: 'Trivy publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Health API, Server API, and 2 more. Tagged areas include Containers, Kubernetes, SBOM, Security, and Vulnerability Scanning.
+overview: 'Trivy publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Health API, Server API, and 2 more. Tagged areas include Containers, Kubernetes, SBOM, Security, and Vulnerability Scanning.
 
 
   The Trivy catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Trivy''s developer surface includes authentication, documentation, getting-started guide, release notes, and 23 more developer resources.'
+  Trivy''s developer surface includes authentication, documentation, getting-started guide, release notes, and 26 more developer resources.'
 plans:
 - name: Trivy Plans Pricing
   plan_count: 3
@@ -275,9 +294,10 @@ rate_limits:
   name: Trivy Rate Limits
   slug: trivy-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: Trivy API Rules
+  name: Trivy — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -285,7 +305,8 @@ rules:
     info: 1
     warn: 5
   slug: trivy-jsonschema-spectral-rules
-- effective_rule_count: 47
+- authorship: unmarked
+  effective_rule_count: 47
   extends:
   - spectral:oas
   name: Trivy API Rules
@@ -298,17 +319,17 @@ rules:
   slug: trivy-rules
 score:
   band: thin
-  composite: 34.2
+  composite: 32.8
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 54.8
+    artifact_dirs: 18
+    catalog_earned: 51.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 60.3
+    catalog_gap: 63.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.4
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 17.4
     contract_quality: 47.7
     developer_ergonomics: 21.4
@@ -331,8 +352,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

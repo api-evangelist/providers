@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: 'Following the Fiserv merger, legacy First Data API products are now hosted on the Fiserv developer portal. These include Commerce Hub, Payeezy, and Bolt for merchant payment acceptance, tokenization, '
@@ -44,6 +44,11 @@ apis:
   slug: first-data-gateway
 artifact_total: 7
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/first-data/refs/heads/main/finops/first-data-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/first-data-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/first-data/refs/heads/main/security/first-data-domain-security.yml
   title: ''
@@ -156,19 +161,23 @@ common:
 created: '2025-03-01'
 description: First Data was a global payment technology solutions company providing merchant transaction processing, financial institution services, and prepaid services before merging with Fiserv in 2019. Legacy First Data API products including Payeezy, Bolt, and Commerce Hub are now part of the Fiserv developer portal.
 finops:
-- name: First Data Finops
+- has_sources: true
+  method: generated
+  name: First Data Finops
+  primary_unit: ''
   service_category: Payments
   slug: first-data-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/first-data.png
 layout: provider
 modified: '2026-09-09'
 name: First Data (Fiserv)
 nav: Providers
 network: true
-overview: 'First Data (Fiserv) publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Payments, Merchant Services, Financial Services, Transaction Processing, and Fortune 500.
+overview: 'First Data (Fiserv) is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Payments, Merchant Services, Financial Services, Transaction Processing, and Fortune 500.
 
 
-  First Data (Fiserv)''s developer surface includes authentication, sandbox, API reference, support, and 19 more developer resources.'
+  First Data (Fiserv)''s developer surface includes authentication, sandbox, API reference, support, and 20 more developer resources.'
 plans:
 - name: First Data Plans Pricing
   plan_count: 2
@@ -196,17 +205,17 @@ rate_limits:
   slug: first-data-rate-limits
 score:
   band: emerging
-  composite: 18.2
+  composite: 16.7
   coverage:
     artifact_dirs: 20
-    catalog_earned: 39.0
+    catalog_earned: 36.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 76.0
+    catalog_gap: 79.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 13.2
+    access_clarity: 5.3
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 35.7
@@ -221,8 +230,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 20.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.1
-  scored_at: '2026-10-04'
+  score: 26.2
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 88
   slug: censys-agentic-access
   summary_line: 88 operations · 36 acting
-api_count: 2
+api_count: 3
 apis:
 - baseURL: https://api.platform.censys.io
   baseurl_source: declared
@@ -3840,9 +3840,13 @@ features:
 - description: Censys Search v1/v2 and Censys ASM APIs remain available during the migration window; ASM endpoints are not deprecated.
   name: Legacy Search and ASM Compatibility
 finops:
-- name: Censys Finops
+- has_sources: true
+  method: generated
+  name: Censys Finops
+  primary_unit: ''
   service_category: Security Intelligence
   slug: censys-finops
+  template: false
 image: https://avatars.githubusercontent.com/u/9468155?s=200&v=4
 integrations:
 - description: Censys Splunk Add-on and Apps for SIEM enrichment and dashboards.
@@ -10791,7 +10795,7 @@ modified: '2026-05-29'
 name: Censys
 nav: Providers
 network: true
-overview: 'Censys publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Account Management API, Adversary Investigation API, Asset Graphs API, and 11 more. Tagged areas include Security, Internet Intelligence, Attack Surface Management, Threat Hunting, and cyber-threat-intelligence.
+overview: 'Censys publishes 14 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account Management API, Adversary Investigation API, Asset Graphs API, and 11 more. Tagged areas include Security, Internet Intelligence, Attack Surface Management, Threat Hunting, and cyber-threat-intelligence.
 
 
   The Censys catalog on APIs.io includes 3 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -10808,9 +10812,10 @@ rate_limits:
   name: Censys Rate Limits
   slug: censys-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Censys API Rules
+  name: Censys — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -10818,7 +10823,8 @@ rules:
     info: 1
     warn: 4
   slug: censys-jsonschema-spectral-rules
-- effective_rule_count: 80
+- authorship: generated
+  effective_rule_count: 80
   extends:
   - spectral:oas
   name: Censys API Rules
@@ -10831,22 +10837,22 @@ rules:
   slug: censys-spectral-rules
 score:
   band: strong
-  composite: 64.4
+  composite: 56.7
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 81.6
+    artifact_dirs: 20
+    catalog_earned: 66.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 33.4
+    catalog_gap: 49.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.7
   facets:
-    access_clarity: 81.1
+    access_clarity: 52.6
     contract_governance: 27.3
     contract_quality: 61.7
     developer_ergonomics: 67.9
-    discoverability: 73.2
-    operational_transparency: 54.7
+    discoverability: 78.6
+    operational_transparency: 34.2
   previous_composite: 64.4
   provenance:
     agentic_access: derived
@@ -10861,9 +10867,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0
@@ -10880,7 +10886,7 @@ security:
 - kind: vulnerability-disclosure
   name: Censys Vulnerability Disclosure
   slug: censys-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 slug: censys
 solutions:
 - description: Unified next-gen Censys interface for search, collections, threat hunting, and asset graph traversal.

@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 5.0
-  scored_at: '2026-10-04'
+  score: 3.1
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Kiota generates strongly-typed, lightweight API clients from OpenAPI descriptions in C#, Dart, Go, Java, PHP, Python, Ruby and TypeScript, with minimal dependencies and idiomatic code patterns, plus a
@@ -42,6 +42,21 @@ apis:
   slug: kiota
 artifact_total: 9
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/kiota/refs/heads/main/plans/kiota-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/kiota-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/kiota/refs/heads/main/rate-limits/kiota-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/kiota-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/kiota/refs/heads/main/finops/kiota-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/kiota-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/kiota/refs/heads/main/vendor-facets/kiota-vendor-facets.yml
   title: ''
@@ -203,9 +218,13 @@ created: '2026-03-25'
 description: 'Kiota is Microsoft''s open source (MIT) API client generator: a command line tool that turns any OpenAPI-described API into a strongly-typed, lightweight client in C#, Dart, Go, Java, PHP, Python, Ruby or TypeScript. It exists to remove the need to take a dependency on a different hand-written SDK for every API you call. Kiota generates only the source it needs on top of a small per-language core library, keeps external dependencies minimal, and can target a filtered subset of a large description. Beyond code SDKs it also emits agent-facing plugin packages — apiplugin for Microsoft 365 Copilot declarative agents, openai manifests, and API Manifest permission snapshots. Kiota is a consumer of API descriptions rather than a publisher of an API: there is no Kiota endpoint, base URL, API key or status page. Its surface is a CLI, runtime libraries in eight package registries, a published OpenAPI extension vocabulary, and a nine-rule description validation ruleset it runs before
   every generation.'
 finops:
-- name: Kiota Finops
+- has_sources: false
+  method: generated
+  name: Kiota Finops
+  primary_unit: ''
   service_category: API
   slug: kiota-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kiota.png
 json_schemas:
 - name: Kiota Workspace
@@ -216,13 +235,13 @@ modified: '2026-08-06'
 name: Kiota
 nav: Providers
 network: true
-overview: 'Kiota publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Code Generation, Microsoft, OpenAPI, SDK, and Developer Tools.
+overview: 'Kiota is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Code Generation, Microsoft, OpenAPI, SDK, and Developer Tools.
 
 
   The Kiota catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Kiota''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, CLI, and 28 more developer resources.'
+  Kiota''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, CLI, and 31 more developer resources.'
 plans:
 - name: Kiota Plans Pricing
   plan_count: 3
@@ -233,9 +252,10 @@ rate_limits:
   name: Kiota Rate Limits
   slug: kiota-rate-limits
 rules:
-- effective_rule_count: 0
+- authorship: provider
+  effective_rule_count: 0
   extends: []
-  name: Kiota API Rules
+  name: Kiota — validation rules
   rule_count: 0
   severity_counts:
     error: 0
@@ -245,17 +265,17 @@ rules:
   slug: kiota-validation-rules
 score:
   band: developing
-  composite: 46.3
+  composite: 45.0
   coverage:
     artifact_dirs: 19
-    catalog_earned: 46.0
+    catalog_earned: 43.0
     catalog_earned_first_party: 5.0
-    catalog_gap: 69.0
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.3
   facets:
-    access_clarity: 36.8
+    access_clarity: 28.9
     contract_governance: 33.3
     contract_quality: 0.0
     developer_ergonomics: 71.4
@@ -273,8 +293,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

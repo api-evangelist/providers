@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 12
 apis:
 - description: The CDAP HTTP RESTful API, documented as "Microservices". All endpoints sit under a /v3 path prefix on a self-hosted CDAP router (default port 11015, or 10443 when SSL is enabled), and are scoped by n
@@ -191,7 +191,7 @@ modified: '2026-07-20'
 name: Cask
 nav: Providers
 network: true
-overview: 'Cask publishes 12 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Big Data, Data Analytics, Data Pipeline, and Data Integration.
+overview: 'Cask is listed with 12 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Big Data, Data Analytics, Data Pipeline, and Data Integration.
 
 
   Cask''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 16 more developer resources.'
@@ -223,8 +223,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

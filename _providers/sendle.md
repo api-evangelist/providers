@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -244,9 +244,13 @@ examples:
   name: Sendle Tracking Webhook Example
   slug: sendle-tracking-webhook-example
 finops:
-- name: Sendle Finops
+- has_sources: false
+  method: generated
+  name: Sendle Finops
+  primary_unit: ''
   service_category: ''
   slug: sendle-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sendle.png
 json_schemas:
 - name: Sendle Order
@@ -265,7 +269,7 @@ modified: '2026-08-26'
 name: Sendle
 nav: Providers
 network: true
-overview: 'Sendle publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Orders API, Products & Quoting API, Tracking API, and 2 more. Tagged areas include Shipping, Logistics, Last Mile Delivery, Parcel, and E-Commerce.
+overview: 'Sendle publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Orders API, Products & Quoting API, Tracking API, and 2 more. Tagged areas include Shipping, Logistics, Last Mile Delivery, Parcel, and E-Commerce.
 
 
   The Sendle catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
@@ -282,10 +286,11 @@ rate_limits:
   name: Sendle Rate Limits
   slug: sendle-rate-limits
 rules:
-- effective_rule_count: 30
+- authorship: generated
+  effective_rule_count: 30
   extends:
   - spectral:asyncapi
-  name: Sendle API Rules
+  name: Sendle — asyncapi rules
   rule_count: 3
   severity_counts:
     error: 1
@@ -293,9 +298,10 @@ rules:
     info: 0
     warn: 2
   slug: sendle-asyncapi-spectral-rules
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Sendle API Rules
+  name: Sendle — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -305,17 +311,17 @@ rules:
   slug: sendle-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 44.6
+  composite: 43.1
   coverage:
-    artifact_dirs: 29
-    catalog_earned: 89.4
+    artifact_dirs: 31
+    catalog_earned: 86.4
     catalog_earned_first_party: 24.0
-    catalog_gap: 25.6
+    catalog_gap: 28.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.7
+  delta: -1.5
   facets:
-    access_clarity: 39.5
+    access_clarity: 31.6
     contract_governance: 31.8
     contract_quality: 66.7
     developer_ergonomics: 17.9
@@ -331,7 +337,7 @@ score:
     regions:
     - anz
     - north-america
-  previous_composite: 46.3
+  previous_composite: 44.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -347,8 +353,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

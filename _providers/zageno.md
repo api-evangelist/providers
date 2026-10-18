@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://go.zageno.com/blog/rss.xml
 - group: company
   title: ''
   type: Website
@@ -72,20 +76,20 @@ mcp_servers:
 - description: Remote MCP server at zageno.com over HTTP.
   name: Zageno MCP Server
   slug: zageno
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Zageno
 nav: Providers
 network: true
 overview: 'Zageno is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Life Sciences, Procurement, Marketplace, and E-Commerce.
 
 
-  Zageno''s developer surface includes engineering blog, support, and 5 more developer resources.'
+  Zageno''s developer surface includes engineering blog, support, and 6 more developer resources.'
 random_paper: 6
 score:
   band: emerging
   composite: 11.2
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -115,8 +119,8 @@ score:
     regime: Health
     regime_id: health
     score: 6.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

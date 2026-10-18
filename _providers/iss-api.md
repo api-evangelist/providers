@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.8
-  scored_at: '2026-10-04'
+  score: 23.6
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -68,6 +68,21 @@ collections:
   name: API (Open Notify) Astronauts ISS Location API
   slug: open-iss-api-iss-location-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/iss-api/refs/heads/main/plans/iss-api-plans.yml
+  title: ''
+  type: Plans
+  url: plans/iss-api-plans.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/iss-api/refs/heads/main/rate-limits/iss-api-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/iss-api-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/iss-api/refs/heads/main/finops/iss-api-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/iss-api-finops.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -116,9 +131,13 @@ examples:
   name: Iss Location Response
   slug: iss-location-response
 finops:
-- name: Iss Api Finops
+- has_sources: true
+  method: generated
+  name: Iss Api Finops
+  primary_unit: ''
   service_category: Public Open Data / Space Technology
   slug: iss-api-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/iss-api.png
 json_schemas:
 - name: Astronauts Response
@@ -137,13 +156,13 @@ modified: '2026-06-13'
 name: ISS Location API (Open Notify)
 nav: Providers
 network: true
-overview: 'ISS Location API (Open Notify) publishes 3 APIs on the [APIs.io](https://apis.io/) network, including Astronauts API, ISS Location API, and 1 more. Tagged areas include Space, ISS, International Space Station, NASA, and Location.
+overview: 'ISS Location API (Open Notify) publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network, including Astronauts API, ISS Location API, and 1 more. Tagged areas include Space, ISS, International Space Station, NASA, and Location.
 
 
   The ISS Location API (Open Notify) catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  ISS Location API (Open Notify)''s developer surface includes documentation and 8 more developer resources.'
+  ISS Location API (Open Notify)''s developer surface includes documentation and 11 more developer resources.'
 plans:
 - name: Iss Api Plans
   plan_count: 1
@@ -154,9 +173,10 @@ rate_limits:
   name: Iss Api Rate Limits
   slug: iss-api-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: ISS Location API (Open Notify) API Rules
+  name: ISS Location API (Open Notify) — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -165,23 +185,23 @@ rules:
     warn: 4
   slug: iss-api-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 29.3
+  band: emerging
+  composite: 23.3
   coverage:
     artifact_dirs: 14
-    catalog_earned: 62.7
+    catalog_earned: 49.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 52.4
+    catalog_gap: 65.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.0
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 9.8
     contract_quality: 48.7
     developer_ergonomics: 9.5
     discoverability: 66.1
-    operational_transparency: 21.6
+    operational_transparency: 7.9
   previous_composite: 29.3
   provenance:
     agentic_access: derived
@@ -196,9 +216,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

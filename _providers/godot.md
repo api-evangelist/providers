@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 5
 apis:
 - description: 'GDScript is Godot''s first-class scripting language, a high-level dynamically typed (and gradually statically typed) language with Python-like syntax and tight integration with the engine, the editor, '
@@ -53,6 +53,21 @@ apis:
   slug: godot-asset-library-api
 artifact_total: 10
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/godot/refs/heads/main/plans/godot-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/godot-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/godot/refs/heads/main/rate-limits/godot-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/godot-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/godot/refs/heads/main/finops/godot-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/godot-finops.yml
 - group: operate
   title: ''
   type: Releases
@@ -174,19 +189,23 @@ common:
 created: '2024-01-01'
 description: 'Godot Engine is a free and open-source community-driven 2D and 3D game engine released under the MIT License and stewarded by the Godot Foundation. Godot ships an integrated editor plus a deep scripting and extension surface across three primary languages: GDScript (Godot''s own typed scripting language), C# (via .NET 8 / Mono in the .NET build), and C++ (via GDExtension, the modern successor to GDNative, which lets native shared libraries register their own classes against the same API the built-in classes use). The engine API is documented per-class at docs.godotengine.org. In addition, the Godot Asset Library at godotengine.org/asset-library/api exposes a public REST API used by the in-editor AssetLib browser to list, search, fetch, and download community plugins, templates, tools, and demos. The Godot project source lives at github.com/godotengine/godot.'
 finops:
-- name: Godot Finops
+- has_sources: false
+  method: generated
+  name: Godot Finops
+  primary_unit: ''
   service_category: API
   slug: godot-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/godot.png
 layout: provider
 modified: '2026-05-23'
 name: Godot Engine
 nav: Providers
 network: true
-overview: 'Godot Engine publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include 2D, 3D, C#, C++, and Game Development.
+overview: 'Godot Engine is listed with 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include 2D, 3D, C#, C++, and Game Development.
 
 
-  Godot Engine''s developer surface includes documentation, API reference, getting-started guide, engineering blog, YouTube channel, and 24 more developer resources.'
+  Godot Engine''s developer surface includes documentation, API reference, getting-started guide, engineering blog, YouTube channel, and 27 more developer resources.'
 plans:
 - name: Godot Plans Pricing
   plan_count: 1
@@ -197,23 +216,23 @@ rate_limits:
   name: Godot Rate Limits
   slug: godot-rate-limits
 score:
-  band: thin
-  composite: 29.6
+  band: emerging
+  composite: 23.6
   coverage:
-    artifact_dirs: 6
-    catalog_earned: 57.4
+    artifact_dirs: 7
+    catalog_earned: 44.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.6
+    catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.0
   facets:
-    access_clarity: 37.4
+    access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 45.2
     discoverability: 78.6
-    operational_transparency: 40.0
+    operational_transparency: 26.3
   previous_composite: 29.6
   regulatory:
     applies: true
@@ -221,9 +240,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

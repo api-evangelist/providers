@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - baseURL: https://api.carmd.com/
@@ -53,6 +53,11 @@ collections:
   name: API Collection
   slug: open-carmd
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/carmd/refs/heads/main/finops/carmd-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/carmd-finops.yml
 - group: company
   title: ''
   type: Website
@@ -146,9 +151,13 @@ common:
 created: '2024-03-30'
 description: 'CarMD specializes in automotive diagnostics and insights, selling the CarMD Connect vehicle-health device and publishing the CarMD Vehicle Health Index. Its developer story has two very different halves today. The historic CarMD Vehicle API (CarScan) — code definitions, vehicle images, repair and upcoming-issue prediction — is documented at api.carmd.com and still linked from the carmd.com footer, but that host refused TCP connections on ports 80 and 443 when probed on 2026-08-27, and the old carmd.com/api pricing page now returns 404. Meanwhile the rebuilt carmd.com storefront serves a live, anonymous agent surface: an llms.txt, a Universal Commerce Protocol merchant profile, a working MCP endpoint with thirteen commerce tools, and an anonymously introspectable Storefront GraphQL API.'
 finops:
-- name: Carmd Finops
+- has_sources: false
+  method: generated
+  name: Carmd Finops
+  primary_unit: ''
   service_category: API
   slug: carmd-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/carmd.png
 layout: provider
 mcp_servers:
@@ -159,10 +168,10 @@ modified: '2026-08-27'
 name: CarMD
 nav: Providers
 network: true
-overview: 'CarMD publishes 3 APIs on the [APIs.io](https://apis.io/) network, including Vehicle API, and 2 more. Tagged areas include Automobiles, Cars, Vehicles, Automotive, and OBD-II.
+overview: 'CarMD is listed with 3 APIs on the [APIs.io](https://apis.io/) network, including Vehicle API, and 2 more. Tagged areas include Automobiles, Cars, Vehicles, Automotive, and OBD-II.
 
 
-  CarMD''s developer surface includes engineering blog, support, authentication, and 16 more developer resources.'
+  CarMD''s developer surface includes engineering blog, support, authentication, and 17 more developer resources.'
 plans:
 - name: Carmd Plans Pricing
   plan_count: 0
@@ -179,17 +188,17 @@ scopes:
   summary_line: 4 scopes
 score:
   band: thin
-  composite: 28.0
+  composite: 26.5
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 51.0
+    artifact_dirs: 23
+    catalog_earned: 48.0
     catalog_earned_first_party: 8.0
-    catalog_gap: 64.0
+    catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 28.9
+    access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 10.4
     developer_ergonomics: 30.4
@@ -206,8 +215,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

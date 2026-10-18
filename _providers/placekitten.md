@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -115,15 +115,16 @@ modified: '2026-05-30'
 name: PlaceKitten
 nav: Providers
 network: true
-overview: 'PlaceKitten publishes 1 API on the [APIs.io](https://apis.io/) network: Image API. Tagged areas include Animals, Public APIs, Placeholder, Image, and Deprecated.
+overview: 'PlaceKitten publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Image API. Tagged areas include Animals, Public APIs, Placeholder, Image, and Deprecated.
 
 
   The PlaceKitten catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.'
 random_paper: 6
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: PlaceKitten API Rules
+  name: PlaceKitten — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -131,7 +132,8 @@ rules:
     info: 2
     warn: 3
   slug: placekitten-jsonschema-spectral-rules
-- effective_rule_count: 47
+- authorship: unmarked
+  effective_rule_count: 47
   extends:
   - spectral:oas
   name: PlaceKitten API Rules
@@ -174,13 +176,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
     reason: read_only
+screenshot: https://raw.githubusercontent.com/api-evangelist/placekitten/refs/heads/main/screenshots/placekitten-2026-10-11T191932.png
 security:
 - kind: domain-security
   name: Placekitten Domain Security

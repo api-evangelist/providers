@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 7
 common:
@@ -218,7 +218,7 @@ modified: '2026-09-07'
 name: Cvent Community
 nav: Providers
 network: true
-overview: 'Cvent Community is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Certification, Community, Customer Support, Cvent Academy, and Education.
+overview: 'Cvent Community is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Certification, Community, Customer Service, Cvent Academy, and Education.
 
 
   Cvent Community''s developer surface includes training material, support, engineering blog, documentation, getting-started guide, changelog, pricing, and 33 more developer resources.'
@@ -264,8 +264,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 40.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -293,7 +293,7 @@ slug: cvent-community
 tags:
 - Certification
 - Community
-- Customer Support
+- Customer Service
 - Cvent Academy
 - Education
 - Forums

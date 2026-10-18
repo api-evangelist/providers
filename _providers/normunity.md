@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 0
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://normunity.com/feed/
 - group: company
   title: ''
   type: Website
@@ -52,7 +56,7 @@ created: '2026-07-17'
 description: Normunity is a clinical-stage biotechnology company developing novel anti-cancer therapies that work at the interface of the immune system and the tumor. In collaboration with the Lieping Chen lab at the Yale School of Medicine, Normunity has identified a novel class of "Immuno-smart targets" — tumor-specific, cell-surface proteins co-opted by cancer cells to drive local immune suppression — and is building a pipeline of biologic medicines including therapeutic antibodies, bispecific antibodies, and payload-carrying biologics. Its lead program, NRM-823, is a T cell engager that has entered clinical trials. Normunity is backed by Canaan Partners. This is a corporate/scientific company with no public API, developer portal, or programmatic surface.
 image: https://normunity.com/wp-content/uploads/2022/10/normunity-logo.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Normunity
 nav: Providers
 network: true
@@ -62,7 +66,7 @@ score:
   band: minimal
   composite: 3.0
   coverage:
-    artifact_dirs: 2
+    artifact_dirs: 3
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -89,8 +93,8 @@ score:
     regime: Health
     regime_id: health
     score: 0.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

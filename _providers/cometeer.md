@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Cometeer's Universal Commerce Protocol shopping service, exposed over MCP (JSON-RPC 2.0 via HTTP POST) at /api/ucp/mcp and advertised from /.well-known/ucp. Thirteen tools cover catalog search and loo
@@ -62,6 +62,10 @@ collections:
   name: Cometeer Storefront (read-only agent surface)
   slug: open-cometeer-storefront
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://cometeer.com/blogs/tasting-notes.atom
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/cometeer/refs/heads/main/security/cometeer-domain-security.yml
   title: ''
@@ -157,14 +161,14 @@ mcp_servers:
 - description: Remote MCP server at cometeer.com over HTTP; 13 tools listed.
   name: Cometeer MCP Server
   slug: cometeer-ucp-shopping
-modified: '2026-08-01'
+modified: '2026-10-06'
 name: Cometeer
 nav: Providers
 network: true
-overview: 'Cometeer publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Collections API, Products API, Search API, and 1 more. Tagged areas include Company, Coffee, Food and Beverage, E-Commerce, and Direct to Consumer.
+overview: 'Cometeer publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Collections API, Products API, Search API, and 1 more. Tagged areas include Company, Coffee, Food and Beverage, E-Commerce, and Direct to Consumer.
 
 
-  Cometeer''s developer surface includes documentation, support, engineering blog, pricing, signup flow, authentication, and 13 more developer resources.'
+  Cometeer''s developer surface includes documentation, support, engineering blog, pricing, signup flow, authentication, and 14 more developer resources.'
 random_paper: 16
 scopes:
 - name: Cometeer Scopes
@@ -175,7 +179,7 @@ score:
   band: thin
   composite: 30.0
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -205,8 +209,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

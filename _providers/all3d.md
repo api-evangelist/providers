@@ -32,10 +32,19 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 2.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
-artifact_total: 1
+artifact_total: 2
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/all3d/refs/heads/main/plans/all3d-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/all3d-plans-pricing.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.all3d.ai/feed/
 - group: company
   title: ''
   type: Website
@@ -78,28 +87,32 @@ created: '2026-07-17'
 description: ALL3D, Inc. is a San Francisco AI-powered visual content platform that replaces traditional product photography for ecommerce brands and agencies. Users upload a product photo and its real-world dimensions, build a scene from inspiration images and props, and generate 4K studio and lifestyle images, influencer/UGC-style video, editable 3D models, 360-degree spins, product configurators, and AR "view in room" experiences accurate to real-world scale. Additional tools cover magic erase, item replacement, scale adjustment, bulk generation across hundreds of SKUs, team review/approval workflows, and direct publishing to Shopify and Amazon. Enterprise plans add API access and managed services. Surfaced as a portfolio company of Bullpen Capital and enriched into the API Evangelist network.
 image: https://all3d.ai/favicon.png
 layout: provider
-modified: '2026-07-17'
+modified: '2026-10-06'
 name: All3D
 nav: Providers
 network: true
 overview: 'All3D is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, 3D, E-Commerce, and Product Imagery.
 
 
-  All3D''s developer surface includes pricing, getting-started guide, support, signup flow, and 5 more developer resources.'
+  All3D''s developer surface includes pricing, getting-started guide, support, signup flow, and 7 more developer resources.'
+plans:
+- name: All3D Plans Pricing
+  plan_count: 5
+  slug: all3d-plans-pricing
 random_paper: 2
 score:
   band: minimal
-  composite: 4.0
+  composite: 10.0
   coverage:
-    artifact_dirs: 5
-    catalog_earned: 27.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 88.0
+    artifact_dirs: 8
+    catalog_earned: 39.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.0
   facets:
-    access_clarity: 0.0
+    access_clarity: 31.6
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
@@ -108,13 +121,13 @@ score:
   previous_composite: 4.0
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 5.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

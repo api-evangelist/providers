@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 37.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -210,7 +210,7 @@ modified: '2026-08-04'
 name: Cybrary
 nav: Providers
 network: true
-overview: 'Cybrary publishes 1 API on the [APIs.io](https://apis.io/) network: Completions API. Tagged areas include Company, Cybersecurity, Training, Education, and Learning Management.
+overview: 'Cybrary publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Completions API. Tagged areas include Company, Cybersecurity, Training, Education, and LMS.
 
 
   Cybrary''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 24 more developer resources.'
@@ -228,7 +228,7 @@ score:
   band: developing
   composite: 39.9
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
@@ -259,8 +259,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 40.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -286,7 +286,7 @@ tags:
 - Cybersecurity
 - Training
 - Education
-- Learning Management
+- LMS
 - Certification
 - Workforce Development
 - xAPI

@@ -31,7 +31,7 @@ tags:
 - Growth Equity
 - Artificial Intelligence
 - Fintech
-- Crypto
+- Cryptocurrency
 - Consumer Internet
 - Enterprise Software
 - Infrastructure

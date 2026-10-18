@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -23,7 +24,7 @@ agent_readiness:
     dynamic_client_registration: true
     error_semantics: derived
     event_surface_described: true
-    idempotency: false
+    idempotency: documented
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
@@ -32,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 38.3
-  scored_at: '2026-10-04'
+  score: 41.5
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -83,7 +84,7 @@ apis:
   description: The OAuth2 API from Beyond Pricing — 1 operation(s) for oauth2.
   name: Beyond Pricing O Auth2 API
   slug: beyond-pricing-oauth2-api
-artifact_total: 21
+artifact_total: 22
 asyncapis:
 - description: ''
   name: Beyond Pricing Webhooks
@@ -114,6 +115,29 @@ collections:
   name: Beyond Pricing Public Accounts Users API
   slug: open-beyond-pricing-users-api
 common:
+- group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/beyond-pricing/refs/heads/main/openapi/_original/beyond-pricing-openapi-original.yml
+  title: ''
+  type: OpenAPI
+  url: openapi/_original/beyond-pricing-openapi-original.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/beyond-pricing/refs/heads/main/conventions/beyond-pricing-conventions.yml
+  title: ''
+  type: Idempotency
+  url: conventions/beyond-pricing-conventions.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/beyond-pricing/refs/heads/main/mcp/beyond-pricing-mcp.yml
+  title: ''
+  type: MCPServer
+  url: mcp/beyond-pricing-mcp.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://beyondpricing.com/blog
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://beyondpricing.com/blog/rss.xml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/beyond-pricing/refs/heads/main/capabilities/beyond-pricing-capability-edges.yml
   title: ''
@@ -260,17 +284,21 @@ description: 'Beyond (formerly Beyond Pricing) is a revenue management platform 
   headers, URL-path versioning and a published deprecation policy.'
 image: https://www.beyondpricing.com/favicon.ico
 layout: provider
-modified: '2026-07-18'
+mcp_servers:
+- description: Remote MCP server over HTTP; 20 tools listed. A candidate, not confirmed as published by the provider.
+  name: Beyond Pricing MCP Server
+  slug: beyond-pricing
+modified: '2026-10-06'
 name: Beyond Pricing
 nav: Providers
 network: true
-overview: 'Beyond Pricing publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Compsets API, Customizations API, and 5 more. Tagged areas include Company, Short-Term Rental, Vacation Rentals, Revenue Management, and Dynamic Pricing.
+overview: 'Beyond Pricing publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, Compsets API, Customizations API, and 5 more. Tagged areas include Company, Short-Term Rental, Vacation Rentals, Revenue Management, and Dynamic Pricing.
 
 
   The Beyond Pricing catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Beyond Pricing''s developer surface includes changelog, authentication, documentation, API reference, getting-started guide, engineering blog, support, and 24 more developer resources.'
+  Beyond Pricing''s developer surface includes engineering blog, changelog, authentication, documentation, API reference, getting-started guide, support, and 29 more developer resources.'
 random_paper: 4
 scopes:
 - name: Beyond Pricing Scopes
@@ -279,15 +307,15 @@ scopes:
   summary_line: 9 scopes · clientCredentials
 score:
   band: developing
-  composite: 46.5
+  composite: 46.6
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 38.2
     contract_governance: 4.5
@@ -312,8 +340,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

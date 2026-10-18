@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -493,7 +493,7 @@ modified: '2026-08-16'
 name: Foxglove Technologies
 nav: Providers
 network: true
-overview: 'Foxglove Technologies publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Coverage API, Custom Properties API, Device Tokens API, and 17 more. Tagged areas include Robotics, Observability, Visualization, Data Platform, and Physical AI.
+overview: 'Foxglove Technologies publishes 20 API contracts indexed on the [APIs.io](https://apis.io/) network, including Coverage API, Custom Properties API, Device Tokens API, and 17 more. Tagged areas include Robotics, Observability, Visualization, Data Platform, and Physical AI.
 
 
   The Foxglove Technologies catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -513,7 +513,7 @@ score:
   band: strong
   composite: 59.4
   coverage:
-    artifact_dirs: 27
+    artifact_dirs: 28
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -548,8 +548,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

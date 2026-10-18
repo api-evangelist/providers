@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.9
-  scored_at: '2026-10-04'
+  score: 30.1
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 16
   slug: contractbook-agentic-access
   summary_line: 16 operations · 9 acting
-api_count: 1
+api_count: 2
 apis:
 - description: Contractbook's document life-cycle notification (webhook) mechanism. When a document is created, updated, or signed, Contractbook sends an HTTP request to a client-configured callback URL, letting int
   name: Contractbook Document Webhooks
@@ -157,16 +157,20 @@ common:
 created: '2026-07-11'
 description: Contractbook is a contract lifecycle management (CLM) platform that turns static contracts into structured, automatable data. Its Public API v3 (base https://api.contractbook.com/v3, Bearer API-key auth) lets teams generate pre-filled contract drafts from any data source, send documents for electronic signature, manage templates, organize documents into spaces, run automations, upload attachments, and receive webhook notifications on document life-cycle events. Contractbook covers the full contract lifecycle - drafting, negotiation, signing, storage, and post-signature management - for legal, sales, HR, and procurement teams.
 finops:
-- name: Contractbook Finops
+- has_sources: true
+  method: generated
+  name: Contractbook Finops
+  primary_unit: ''
   service_category: Contract Lifecycle Management
   slug: contractbook-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/contractbook.png
 layout: provider
 modified: '2026-07-11'
 name: Contractbook
 nav: Providers
 network: true
-overview: 'Contractbook publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Attachments API, Automations API, Document sharing API, and 4 more. Tagged areas include Contract Management, Contract Lifecycle Management, Contract Lifecycle, Legal, and E-Signature.
+overview: 'Contractbook publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Attachments API, Automations API, Document sharing API, and 4 more. Tagged areas include Contract Management, Contract Lifecycle Management, Contract Lifecycle, Legal, and E-Signature.
 
 
   Contractbook''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
@@ -181,22 +185,22 @@ rate_limits:
   slug: contractbook-rate-limits
 score:
   band: thin
-  composite: 34.6
+  composite: 26.4
   coverage:
     artifact_dirs: 12
-    catalog_earned: 61.6
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.4
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.2
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 47.2
     developer_ergonomics: 32.1
     discoverability: 66.1
-    operational_transparency: 36.3
+    operational_transparency: 15.8
   previous_composite: 34.6
   provenance:
     agentic_access: derived
@@ -211,9 +215,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

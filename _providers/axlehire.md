@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://api.gojitsu.com
@@ -89,6 +89,10 @@ collections:
   name: Jitsu REST Tracking Information API
   slug: open-axlehire-tracking-information-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://gojitsu.com/news-insights/rss.xml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/axlehire/refs/heads/main/capabilities/axlehire-capability-edges.yml
   title: ''
@@ -264,17 +268,17 @@ examples:
   slug: axlehire-tracking-events-example
 image: https://docs.gojitsu.com/static/images/logo-jitsu.svg
 layout: provider
-modified: '2026-08-06'
+modified: '2026-10-06'
 name: AxleHire (Jitsu)
 nav: Providers
 network: true
-overview: 'AxleHire (Jitsu) publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Assignment Information API, Driver Information API, Partner Information API, and 2 more. Tagged areas include Company, Logistics, Last Mile Delivery, Shipping, and Parcel.
+overview: 'AxleHire (Jitsu) publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Assignment Information API, Driver Information API, Partner Information API, and 2 more. Tagged areas include Company, Logistics, Last Mile Delivery, Shipping, and Parcel.
 
 
   The AxleHire (Jitsu) catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  AxleHire (Jitsu)''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, support, engineering blog, and 27 more developer resources.'
+  AxleHire (Jitsu)''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, support, engineering blog, and 28 more developer resources.'
 random_paper: 14
 rate_limits:
 - limit_count: 1
@@ -284,7 +288,7 @@ score:
   band: developing
   composite: 49.2
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
@@ -313,8 +317,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

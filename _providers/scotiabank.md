@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.9
-  scored_at: '2026-10-04'
+  score: 22.0
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -127,6 +127,21 @@ collections:
   name: Scotiabank Scotia TranXact APIs Account Validation Wire Payments API
   slug: open-scotiabank-wire-payments-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/scotiabank/refs/heads/main/plans/scotiabank-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/scotiabank-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/scotiabank/refs/heads/main/rate-limits/scotiabank-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/scotiabank-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/scotiabank/refs/heads/main/finops/scotiabank-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/scotiabank-finops.yml
 - group: company
   title: ''
   type: Website
@@ -171,9 +186,13 @@ examples:
   name: Scotiabank Initiate Wire Payment Example
   slug: scotiabank-initiate-wire-payment-example
 finops:
-- name: Scotiabank Finops
+- has_sources: true
+  method: generated
+  name: Scotiabank Finops
+  primary_unit: ''
   service_category: Banking
   slug: scotiabank-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/scotiabank.png
 json_schemas:
 - name: Account
@@ -241,13 +260,13 @@ modified: '2026-09-16'
 name: Scotiabank
 nav: Providers
 network: true
-overview: 'Scotiabank publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Account Validation API, Accounts API, EFT Payments API, and 10 more. Tagged areas include Banking, Finance, Payments, Canada, and Open Banking.
+overview: 'Scotiabank publishes 13 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account Validation API, Accounts API, EFT Payments API, and 10 more. Tagged areas include Banking, Finance, Payments, Canada, and Open Banking.
 
 
   The Scotiabank catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Scotiabank''s developer surface includes authentication and 7 more developer resources.'
+  Scotiabank''s developer surface includes authentication and 10 more developer resources.'
 plans:
 - name: Scotiabank Plans Pricing
   plan_count: 1
@@ -258,9 +277,10 @@ rate_limits:
   name: Scotiabank Rate Limits
   slug: scotiabank-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Scotiabank API Rules
+  name: Scotiabank — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -268,7 +288,8 @@ rules:
     info: 1
     warn: 4
   slug: scotiabank-jsonschema-spectral-rules
-- effective_rule_count: 51
+- authorship: unmarked
+  effective_rule_count: 51
   extends:
   - spectral:oas
   name: Scotiabank API Rules
@@ -286,17 +307,17 @@ scopes:
   summary_line: 3 scopes · clientCredentials
 score:
   band: thin
-  composite: 36.3
+  composite: 34.7
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 56.9
+    artifact_dirs: 19
+    catalog_earned: 53.9
     catalog_earned_first_party: 0.0
-    catalog_gap: 58.1
+    catalog_gap: 61.1
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 13.2
+    access_clarity: 5.3
     contract_governance: 13.6
     contract_quality: 63.9
     developer_ergonomics: 42.9
@@ -323,8 +344,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 29.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

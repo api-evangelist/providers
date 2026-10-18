@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://tone.is/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/tone/refs/heads/main/security/tone-domain-security.yml
   title: ''
@@ -74,14 +78,14 @@ description: Tone is a full-stack royalty management platform for music rights o
   developer API, OpenAPI specification, or developer portal.
 image: https://tone.is/wp-content/uploads/2025/11/Integrated-payments@4x-1024x1024.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Tone
 nav: Providers
 network: true
 overview: 'Tone is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Payouts, Royalties, and Royalty Management.
 
 
-  Tone''s developer surface includes support, engineering blog, and 6 more developer resources.'
+  Tone''s developer surface includes support, engineering blog, and 7 more developer resources.'
 random_paper: 20
 score:
   band: minimal
@@ -108,8 +112,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 12.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

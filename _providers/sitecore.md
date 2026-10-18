@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.6
-  scored_at: '2026-10-04'
+  score: 20.7
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 64
+- acting_count: 62
   human_in_the_loop: 0
   name: Sitecore Agentic Access
   operation_count: 107
   slug: sitecore-agentic-access
-  summary_line: 107 operations · 64 acting
+  summary_line: 107 operations · 62 acting
 api_count: 6
 apis:
 - description: The Sitecore XM Cloud GraphQL Delivery API provides access to approved and published content from Sitecore XM Cloud via a GraphQL endpoint optimized for production delivery. Developers use this API to
@@ -314,6 +314,25 @@ collections:
   name: Sitecore XM Cloud REST API
   slug: open-sitecore-xm-cloud-rest-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sitecore/refs/heads/main/plans/sitecore-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/sitecore-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/sitecore/refs/heads/main/rate-limits/sitecore-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/sitecore-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sitecore/refs/heads/main/finops/sitecore-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/sitecore-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.sitecore.com/resources/insights
 - group: company
   title: ''
   type: Website
@@ -383,9 +402,13 @@ examples:
   name: Sitecore Xm Cloud List Collections Example
   slug: sitecore-xm-cloud-list-collections-example
 finops:
-- name: Sitecore Finops
+- has_sources: true
+  method: generated
+  name: Sitecore Finops
+  primary_unit: ''
   service_category: Digital Experience Platform
   slug: sitecore-finops
+  template: false
 graphqls:
 - description: The Sitecore XM Cloud GraphQL Delivery API provides access to approved and published content from Sitecore XM Cloud via a GraphQL endpoint optimized for production delivery. Developers use this API to
   name: sitecore GraphQL API
@@ -411,17 +434,17 @@ jsonld:
   property_count: 14
   slug: sitecore-context
 layout: provider
-modified: '2026-09-16'
+modified: '2026-10-06'
 name: Sitecore
 nav: Providers
 network: true
-overview: 'Sitecore publishes 33 APIs on the [APIs.io](https://apis.io/) network, including CDP Stream API, Audit API, Authentication API, and 30 more. Tagged areas include Headless CMS, Customer Data Platform, and Content Management.
+overview: 'Sitecore publishes 33 API contracts indexed on the [APIs.io](https://apis.io/) network, including CDP Stream API, Audit API, Authentication API, and 30 more. Tagged areas include Headless CMS, Customer Data Platform, and Content Management.
 
 
   The Sitecore catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Sitecore''s developer surface includes authentication and 11 more developer resources.'
+  Sitecore''s developer surface includes engineering blog, authentication, and 14 more developer resources.'
 plans:
 - name: Sitecore Plans Pricing
   plan_count: 1
@@ -432,10 +455,11 @@ rate_limits:
   name: Sitecore Rate Limits
   slug: sitecore-rate-limits
 rules:
-- effective_rule_count: 35
+- authorship: generated
+  effective_rule_count: 35
   extends:
   - spectral:asyncapi
-  name: Sitecore API Rules
+  name: Sitecore — asyncapi rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -443,9 +467,10 @@ rules:
     info: 0
     warn: 7
   slug: sitecore-asyncapi-spectral-rules
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: Sitecore API Rules
+  name: Sitecore — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -453,7 +478,8 @@ rules:
     info: 2
     warn: 4
   slug: sitecore-jsonschema-spectral-rules
-- effective_rule_count: 55
+- authorship: unmarked
+  effective_rule_count: 55
   extends:
   - spectral:oas
   name: Sitecore API Rules
@@ -466,20 +492,20 @@ rules:
   slug: sitecore-rules
 score:
   band: thin
-  composite: 33.8
+  composite: 32.8
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 61.4
+    artifact_dirs: 21
+    catalog_earned: 58.4
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.6
+    catalog_gap: 56.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.0
   facets:
-    access_clarity: 13.2
+    access_clarity: 5.3
     contract_governance: 27.3
     contract_quality: 69.7
-    developer_ergonomics: 21.4
+    developer_ergonomics: 23.8
     discoverability: 57.1
     operational_transparency: 7.9
   previous_composite: 33.8
@@ -496,8 +522,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 14.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 14
 apis:
 - description: Initiates and retrieves ID verification transactions. Issues a token used to start the SDK or hosted web flow, accepts callback events when the verification is complete, and exposes endpoints to retri
@@ -138,16 +138,20 @@ common:
 created: '2026-05-08'
 description: Jumio operates the KYX Platform, an end-to-end AI-driven identity verification, fraud prevention, and compliance suite. Backend APIs orchestrate ID verification, document verification, biometric authentication, AML and watchlist screening, risk signals, and reusable identity (selfie.DONE). Web client and native iOS / Android / React Native / Flutter / Cordova SDKs front the platform; backend Java and .NET SDKs wrap the REST API for server-side flows.
 finops:
-- name: Jumio Finops
+- has_sources: true
+  method: generated
+  name: Jumio Finops
+  primary_unit: ''
   service_category: Identity Verification
   slug: jumio-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/jumio.png
 layout: provider
 modified: '2026-05-30'
 name: Jumio
 nav: Providers
 network: true
-overview: 'Jumio publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Callback / Webhook, and 13 more. Tagged areas include KYC, Identity Verification, Biometrics, AML, and Fraud Prevention.
+overview: 'Jumio is listed with 14 APIs on the [APIs.io](https://apis.io/) network, including Callback / Webhook, and 13 more. Tagged areas include KYC, Identity Verification, Biometrics, AML, and Fraud Prevention.
 
 
   The Jumio catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -164,10 +168,11 @@ rate_limits:
   name: Jumio Rate Limits
   slug: jumio-rate-limits
 rules:
-- effective_rule_count: 33
+- authorship: generated
+  effective_rule_count: 33
   extends:
   - spectral:asyncapi
-  name: Jumio API Rules
+  name: Jumio — asyncapi rules
   rule_count: 6
   severity_counts:
     error: 1
@@ -176,18 +181,18 @@ rules:
     warn: 4
   slug: jumio-asyncapi-spectral-rules
 score:
-  band: thin
-  composite: 26.5
+  band: emerging
+  composite: 24.5
   coverage:
-    artifact_dirs: 9
-    catalog_earned: 52.5
+    artifact_dirs: 10
+    catalog_earned: 49.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 62.5
+    catalog_gap: 65.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.0
   facets:
-    access_clarity: 21.1
+    access_clarity: 13.2
     contract_governance: 13.6
     contract_quality: 40.6
     developer_ergonomics: 11.9
@@ -196,12 +201,12 @@ score:
   previous_composite: 26.5
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
-    score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
+    score: 10.4
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

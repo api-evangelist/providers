@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 5.0
-  scored_at: '2026-10-04'
+  score: 3.1
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: Enterprise Reports API for Kahoot! 360 organizations. Exposes data on games, users, participants, organizations, and kahoots created by the organization. Uses OAuth 2.0 client_credentials at https://a
@@ -44,6 +44,21 @@ apis:
   slug: motimate-public-api
 artifact_total: 8
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/kahoot/refs/heads/main/plans/kahoot-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/kahoot-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/kahoot/refs/heads/main/rate-limits/kahoot-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/kahoot-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/kahoot/refs/heads/main/finops/kahoot-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/kahoot-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/kahoot/refs/heads/main/security/kahoot-trust-center.yml
   title: ''
@@ -134,19 +149,23 @@ common:
 created: '2026-05-23'
 description: Kahoot! is a game-based learning and engagement platform used in schools, businesses, and at home. Its primary surface is the Kahoot! consumer/teacher product and the Kahoot! 360 enterprise tier, with integrations into Microsoft Teams, Zoom, RingCentral, PowerPoint, Google Slides, and LMSs (Cornerstone, Docebo, TalentLMS, Litmos, RiseUp, 360Learning, Absorb). For Kahoot! 360 enterprise customers, a Reports API is available (OAuth 2.0 client_credentials) for pulling games, users, participants, organizations, and kahoots data, and Motimate (acquired by Kahoot!) exposes a separate gated Public API. Access to both APIs is provisioned by a customer success manager and not publicly self-serve.
 finops:
-- name: Kahoot Finops
+- has_sources: false
+  method: generated
+  name: Kahoot Finops
+  primary_unit: ''
   service_category: API
   slug: kahoot-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kahoot.png
 layout: provider
 modified: '2026-05-23'
 name: Kahoot!
 nav: Providers
 network: true
-overview: 'Kahoot! publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Game-Based Learning, Education, Quiz, Engagement, and Enterprise Learning.
+overview: 'Kahoot! is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Game-Based Learning, Education, Quiz, Engagement, and Enterprise Learning.
 
 
-  Kahoot!''s developer surface includes pricing, academy / training, engineering blog, GitHub presence, YouTube channel, and 16 more developer resources.'
+  Kahoot!''s developer surface includes pricing, academy / training, engineering blog, GitHub presence, YouTube channel, and 19 more developer resources.'
 plans:
 - name: Kahoot Plans Pricing
   plan_count: 1
@@ -157,23 +176,23 @@ rate_limits:
   name: Kahoot Rate Limits
   slug: kahoot-rate-limits
 score:
-  band: thin
-  composite: 30.0
+  band: emerging
+  composite: 23.9
   coverage:
-    artifact_dirs: 8
-    catalog_earned: 54.4
+    artifact_dirs: 9
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 60.6
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.1
   facets:
-    access_clarity: 66.3
+    access_clarity: 44.7
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 22.6
     discoverability: 73.2
-    operational_transparency: 24.2
+    operational_transparency: 10.5
   previous_composite: 30.0
   regulatory:
     applies: true
@@ -181,9 +200,9 @@ score:
     regime: Education & Research
     regime_id: education
     score: 30.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

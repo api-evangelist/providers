@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 18.0
-  scored_at: '2026-10-04'
+  score: 16.1
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://qlty.sh
@@ -109,16 +109,20 @@ common:
 created: '2026-06-21'
 description: Qlty is a code quality and coverage platform from the team behind Code Climate. It pairs the free Qlty CLI - a polyglot Rust tool for universal linting, auto-formatting, security scanning, and maintainability analysis - with Qlty Cloud, a hosted service for automated pull request review, code coverage upload, quality gates, and dashboards.
 finops:
-- name: Qlty Finops
+- has_sources: true
+  method: generated
+  name: Qlty Finops
+  primary_unit: ''
   service_category: Developer Tools
   slug: qlty-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/qlty.png
 layout: provider
 modified: '2026-06-21'
 name: Qlty
 nav: Providers
 network: true
-overview: 'Qlty publishes 3 APIs on the [APIs.io](https://apis.io/) network: CLI, Coverage Upload, and Cloud API. Tagged areas include Code Quality, Code Coverage, Static Analysis, Linting, and Developer Tools.
+overview: 'Qlty publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: CLI, Coverage Upload, and Cloud API. Tagged areas include Code Quality, Code Coverage, Static Analysis, Linting, and Developer Tools.
 
 
   Qlty''s developer surface includes authentication, documentation, engineering blog, and 7 more developer resources.'
@@ -132,23 +136,23 @@ rate_limits:
   name: Qlty Rate Limits
   slug: qlty-rate-limits
 score:
-  band: thin
-  composite: 28.1
+  band: emerging
+  composite: 19.8
   coverage:
-    artifact_dirs: 10
-    catalog_earned: 56.6
+    artifact_dirs: 11
+    catalog_earned: 38.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 58.4
+    catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 27.6
     developer_ergonomics: 23.8
     discoverability: 57.1
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   previous_composite: 28.1
   regulatory:
     applies: true
@@ -156,9 +160,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

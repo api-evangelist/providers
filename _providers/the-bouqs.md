@@ -32,10 +32,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://bouqs.com/blog/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://bouqs.com/blog/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/the-bouqs/refs/heads/main/security/the-bouqs-domain-security.yml
   title: ''
@@ -53,31 +61,31 @@ created: '2026-07-17'
 description: 'The Bouqs Co. is a direct-from-farm online flower and plant delivery service headquartered in Marina del Rey, California, offering fresh cut bouquets, potted plants, wedding and event florals, and recurring flower subscriptions sourced from sustainable farm partners in South America and California. It was surfaced in the API Evangelist network as a portfolio company of Partech. This is a direct-to-consumer e-commerce brand: as of this enrichment pass it publishes no public developer API, API documentation, developer portal, SDKs, or machine-readable API artifacts. This profile captures verifiable company identity plus live domain-security posture only.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/the-bouqs.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: The Bouqs
 nav: Providers
 network: true
 overview: 'The Bouqs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Flowers, E-Commerce, and Retail.
 
 
-  The Bouqs'' developer surface includes support and 2 more developer resources.'
+  The Bouqs'' developer surface includes engineering blog, support, and 3 more developer resources.'
 random_paper: 18
 score:
   band: minimal
-  composite: 4.3
+  composite: 4.9
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 4.8
+    developer_ergonomics: 7.1
     discoverability: 48.2
     operational_transparency: 0.0
   previous_composite: 4.3
@@ -87,8 +95,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

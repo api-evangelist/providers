@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 15.5
-  scored_at: '2026-10-04'
+  score: 13.6
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: Bloomberg's proprietary socket-based API protocol for accessing Bloomberg data, providing a high-performance connectivity layer between client applications and Bloomberg's data infrastructure.
@@ -47,6 +47,21 @@ apis:
   slug: bql
 artifact_total: 16
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/bloomberg-proprietary-technologies/refs/heads/main/plans/bloomberg-proprietary-technologies-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/bloomberg-proprietary-technologies-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/bloomberg-proprietary-technologies/refs/heads/main/rate-limits/bloomberg-proprietary-technologies-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/bloomberg-proprietary-technologies-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/bloomberg-proprietary-technologies/refs/heads/main/finops/bloomberg-proprietary-technologies-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/bloomberg-proprietary-technologies-finops.yml
 - group: company
   title: ''
   type: Website
@@ -100,19 +115,23 @@ features:
 - description: Cloud-native infrastructure enabling Bloomberg data access from major cloud platforms.
   name: Bloomberg Cloud Infrastructure
 finops:
-- name: Bloomberg Proprietary Technologies Finops
+- has_sources: false
+  method: generated
+  name: Bloomberg Proprietary Technologies Finops
+  primary_unit: ''
   service_category: API
   slug: bloomberg-proprietary-technologies-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bloomberg-proprietary-technologies.png
 layout: provider
 modified: '2026-09-16'
 name: Bloomberg Proprietary Technologies
 nav: Providers
 network: true
-overview: 'Bloomberg Proprietary Technologies publishes 3 APIs on the [APIs.io](https://apis.io/) network, including Bloomberg FIGI API, and 2 more. Tagged areas include Proprietary Technology, BLPAPI, BQL, FIGI, and B-PIPE.
+overview: 'Bloomberg Proprietary Technologies is listed with 3 APIs on the [APIs.io](https://apis.io/) network, including Bloomberg FIGI API, and 2 more. Tagged areas include Proprietary Technology, BLPAPI, BQL, FIGI, and B-PIPE.
 
 
-  Bloomberg Proprietary Technologies'' developer surface includes developer portal, documentation, support, and 6 more developer resources.'
+  Bloomberg Proprietary Technologies'' developer surface includes developer portal, documentation, support, and 9 more developer resources.'
 plans:
 - name: Bloomberg Proprietary Technologies Plans Pricing
   plan_count: 3
@@ -124,17 +143,17 @@ rate_limits:
   slug: bloomberg-proprietary-technologies-rate-limits
 score:
   band: emerging
-  composite: 25.5
+  composite: 23.9
   coverage:
     artifact_dirs: 6
-    catalog_earned: 44.0
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 71.0
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 36.8
+    access_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 24.0
     developer_ergonomics: 23.8
@@ -147,8 +166,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

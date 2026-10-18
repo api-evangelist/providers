@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.0
-  scored_at: '2026-10-04'
+  score: 17.8
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -91,6 +91,21 @@ collections:
   name: SAM.gov Public Location Services Cities ZIP Codes API
   slug: open-sam
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sam.gov/refs/heads/main/plans/sam.gov-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/sam.gov-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/sam.gov/refs/heads/main/rate-limits/sam.gov-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/sam.gov-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sam.gov/refs/heads/main/finops/sam.gov-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/sam.gov-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/sam.gov/refs/heads/main/agentic-access/sam.gov-agentic-access.yml
   title: ''
@@ -139,9 +154,13 @@ examples:
   name: Sam Gov Validate Zip Example
   slug: sam-gov-validate-zip-example
 finops:
-- name: Sam.Gov Finops
+- has_sources: true
+  method: generated
+  name: Sam.Gov Finops
+  primary_unit: ''
   service_category: Federal Government / Procurement Data
   slug: sam.gov-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sam.gov.png
 json_schemas:
 - name: SAM.gov City
@@ -170,13 +189,13 @@ modified: '2026-05-19'
 name: SAM.gov
 nav: Providers
 network: true
-overview: 'SAM.gov publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Cities API, States API, ZIP Codes API, and 5 more. Tagged areas include Federal Government, Procurement, Contracts, Entity Management, and Location Services.
+overview: 'SAM.gov publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Cities API, States API, ZIP Codes API, and 5 more. Tagged areas include Federal Government, Procurement, Contracts, Entity Management, and Location Services.
 
 
   The SAM.gov catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  SAM.gov''s developer surface includes developer portal, documentation, GitHub presence, and 6 more developer resources.'
+  SAM.gov''s developer surface includes developer portal, documentation, GitHub presence, and 9 more developer resources.'
 plans:
 - name: Sam.Gov Plans Pricing
   plan_count: 1
@@ -187,10 +206,11 @@ rate_limits:
   name: Sam.Gov Rate Limits
   slug: sam.gov-rate-limits
 rules:
-- effective_rule_count: 51
+- authorship: unmarked
+  effective_rule_count: 51
   extends:
   - spectral:oas
-  name: SAM.gov API Rules
+  name: SAM.gov — sam gov rules
   rule_count: 10
   severity_counts:
     error: 4
@@ -198,9 +218,10 @@ rules:
     info: 0
     warn: 4
   slug: sam-gov-rules
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: SAM.gov API Rules
+  name: SAM.gov — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -209,19 +230,19 @@ rules:
     warn: 3
   slug: sam.gov-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 28.7
+  band: emerging
+  composite: 25.5
   coverage:
     artifact_dirs: 15
-    catalog_earned: 55.2
+    catalog_earned: 45.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 44.8
-    catalog_max: 100.0
+    catalog_gap: 69.5
+    catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.2
   facets:
-    access_clarity: 0.0
-    contract_governance: 49.1
+    access_clarity: 5.3
+    contract_governance: 13.6
     contract_quality: 49.3
     developer_ergonomics: 19.0
     discoverability: 57.1
@@ -245,8 +266,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

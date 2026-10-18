@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: partner
+  gated_source:
+  - tag:Partner Gated
   label: Self-serve signup
   onboarding: self-serve
   pricing: unknown
@@ -35,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 5
 asyncapis:
@@ -156,7 +159,7 @@ modified: '2026-07-25'
 name: PSC Insurance
 nav: Providers
 network: true
-overview: 'PSC Insurance is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Australia, Brokers, Insurance Brokerage, and Property and Casualty.
+overview: 'PSC Insurance is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Australia, Brokerage, Insurance Brokerage, and Property and Casualty.
 
 
   The PSC Insurance catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -203,8 +206,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 46.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -228,13 +231,11 @@ slug: psc-insurance
 tags:
 - Insurance
 - Australia
-- Brokers
+- Brokerage
 - Insurance Brokerage
 - Property and Casualty
 - Commercial Insurance
 - Cyber Insurance
 - Intermediary
-- Partner Gated
-- No Public API
 website: https://www.pscinsurance.com.au/
 ---

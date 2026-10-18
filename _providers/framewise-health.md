@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.framewisehealth.com/blog/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/framewise-health/refs/heads/main/security/framewise-health-domain-security.yml
   title: ''
@@ -70,31 +74,31 @@ created: '2026-07-17'
 description: Framewise Health is an AI-native patient engagement platform (Y Combinator, Spring 2026) that converts a patient's medical records into personalized, clinically-reviewed educational videos. The platform pulls patient data from electronic health records over any FHIR R4 endpoint, generates discharge and treatment-adherence education tailored to the individual using institutional protocols and drug-information databases, and delivers it by SMS in 75+ languages with no app and no login. It then tracks patient comprehension in real time, giving care teams engagement data to flag which patients need follow-up. Framewise integrates with Epic, Oracle Health (Cerner), Athenahealth, ModMed, eClinicalWorks, and NextGen, and is HIPAA and SOC 2 compliant with an AWS BAA and end-to-end encryption. It targets hospitals, pharmaceutical companies, medical device manufacturers, and private clinics seeking to improve patient outcomes and medication adherence.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/framewise-health.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Framewise Health
 nav: Providers
 network: true
 overview: 'Framewise Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Patient Engagement, Patient Education, and FHIR.
 
 
-  Framewise Health''s developer surface includes support and 6 more developer resources.'
+  Framewise Health''s developer surface includes engineering blog, support, and 6 more developer resources.'
 random_paper: 10
 score:
   band: emerging
-  composite: 14.5
+  composite: 15.0
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 28.9
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 4.8
+    developer_ergonomics: 7.1
     discoverability: 48.2
     operational_transparency: 0.0
   previous_composite: 14.5
@@ -110,8 +114,8 @@ score:
     regime: Health
     regime_id: health
     score: 17.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

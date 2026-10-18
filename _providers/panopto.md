@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.3
-  scored_at: '2026-10-04'
+  score: 25.4
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 0
@@ -242,9 +242,13 @@ common:
 created: '2026-06-13'
 description: Panopto is a video management platform for education and enterprise that provides a REST API for managing recordings, folders, sessions, users, and video analytics. Organizations use Panopto to capture, store, search, and share video content in corporate training and academic settings. The API supports OAuth2 authentication and enables automation of recording schedules, user and group provisioning, content organization, and integration with LMS platforms such as Canvas, Blackboard, Moodle, and D2L.
 finops:
-- name: Panopto Finops
+- has_sources: false
+  method: generated
+  name: Panopto Finops
+  primary_unit: ''
   service_category: ''
   slug: panopto-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/panopto.png
 json_schemas:
 - name: Panopto REST API Schemas
@@ -255,7 +259,7 @@ modified: '2026-06-13'
 name: Panopto
 nav: Providers
 network: true
-overview: 'Panopto publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Accessibility API, Auth API, CaptionProviders API, and 13 more. Tagged areas include Video Management, Education Technology, Enterprise Video, Recording, and Learning Management.
+overview: 'Panopto publishes 16 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accessibility API, Auth API, CaptionProviders API, and 13 more. Tagged areas include Video Management, Education Technology, Enterprise Video, Recording, and LMS.
 
 
   The Panopto catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -272,9 +276,10 @@ rate_limits:
   name: Panopto Rate Limits
   slug: panopto-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: Panopto API Rules
+  name: Panopto — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -284,22 +289,22 @@ rules:
   slug: panopto-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 32.6
+  composite: 26.5
   coverage:
-    artifact_dirs: 15
-    catalog_earned: 57.7
+    artifact_dirs: 16
+    catalog_earned: 44.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.4
+    catalog_gap: 70.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.1
   facets:
-    access_clarity: 37.4
+    access_clarity: 15.8
     contract_governance: 9.8
     contract_quality: 40.9
     developer_ergonomics: 19.0
     discoverability: 66.1
-    operational_transparency: 32.1
+    operational_transparency: 18.4
   previous_composite: 32.6
   provenance:
     agentic_access: derived
@@ -314,9 +319,9 @@ score:
     regime: Education & Research
     regime_id: education
     score: 17.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0
@@ -329,14 +334,14 @@ security:
 - kind: vulnerability-disclosure
   name: Panopto Vulnerability Disclosure
   slug: panopto-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 slug: panopto
 tags:
 - Video Management
 - Education Technology
 - Enterprise Video
 - Recording
-- Learning Management
+- LMS
 - Video Analytics
 - Content Management
 website: https://www.panopto.com/

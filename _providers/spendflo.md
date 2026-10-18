@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The Spendflo API provides programmatic access to SaaS spend management, procurement workflows, vendor management, usage analytics, and contract management data. It enables enterprise-grade integration
@@ -41,6 +41,21 @@ apis:
   slug: spendflo-api
 artifact_total: 13
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/spendflo/refs/heads/main/plans/spendflo-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/spendflo-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/spendflo/refs/heads/main/rate-limits/spendflo-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/spendflo-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/spendflo/refs/heads/main/finops/spendflo-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/spendflo-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/spendflo/refs/heads/main/security/spendflo-trust-center.yml
   title: ''
@@ -107,9 +122,13 @@ examples:
   name: Spendflo Vendor Example
   slug: spendflo-vendor-example
 finops:
-- name: Spendflo Finops
+- has_sources: false
+  method: generated
+  name: Spendflo Finops
+  primary_unit: ''
   service_category: API
   slug: spendflo-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/spendflo.png
 json_schemas:
 - name: Spendflo Vendor
@@ -129,13 +148,13 @@ modified: '2026-05-02'
 name: Spendflo
 nav: Providers
 network: true
-overview: 'Spendflo publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include License Management, Procurement, SaaS Management, Spend Management, and Usage Analytics.
+overview: 'Spendflo is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include License Management, Procurement, SaaS Management, Spend Management, and Usage Analytics.
 
 
   The Spendflo catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Spendflo''s developer surface includes engineering blog, pricing, signup flow, and 11 more developer resources.'
+  Spendflo''s developer surface includes engineering blog, pricing, signup flow, and 14 more developer resources.'
 plans:
 - name: Spendflo Plans Pricing
   plan_count: 3
@@ -146,9 +165,10 @@ rate_limits:
   name: Spendflo Rate Limits
   slug: spendflo-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Spendflo API Rules
+  name: Spendflo — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -156,7 +176,8 @@ rules:
     info: 2
     warn: 3
   slug: spendflo-jsonschema-spectral-rules
-- effective_rule_count: 45
+- authorship: unmarked
+  effective_rule_count: 45
   extends:
   - spectral:oas
   name: Spendflo API Rules
@@ -169,17 +190,17 @@ rules:
   slug: spendflo-rules
 score:
   band: thin
-  composite: 28.8
+  composite: 27.3
   coverage:
     artifact_dirs: 13
-    catalog_earned: 71.4
+    catalog_earned: 68.4
     catalog_earned_first_party: 0.0
-    catalog_gap: 43.6
+    catalog_gap: 46.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 40.8
+    access_clarity: 32.9
     contract_governance: 27.3
     contract_quality: 21.9
     developer_ergonomics: 16.7
@@ -192,8 +213,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -208,7 +229,7 @@ security:
 - kind: vulnerability-disclosure
   name: Spendflo Vulnerability Disclosure
   slug: spendflo-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 - kind: trust-center
   name: Spendflo Trust Center
   slug: spendflo-trust-center

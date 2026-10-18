@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -153,6 +153,21 @@ collections:
   name: Azure Pipelines Build REST Artifacts Runs API
   slug: open-microsoft-azure-pipelines-runs-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-pipelines/refs/heads/main/plans/microsoft-azure-pipelines-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/microsoft-azure-pipelines-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-pipelines/refs/heads/main/rate-limits/microsoft-azure-pipelines-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/microsoft-azure-pipelines-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-pipelines/refs/heads/main/finops/microsoft-azure-pipelines-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/microsoft-azure-pipelines-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-pipelines/refs/heads/main/capabilities/microsoft-azure-pipelines-capability-edges.yml
   title: ''
@@ -276,19 +291,23 @@ common:
 created: '2024'
 description: Azure Pipelines is a cloud service that you can use to automatically build and test your code project and make it available to other users. It works with just about any language or project type.
 finops:
-- name: Microsoft Azure Pipelines Finops
+- has_sources: true
+  method: generated
+  name: Microsoft Azure Pipelines Finops
+  primary_unit: ''
   service_category: Developer Tools / CI-CD
   slug: microsoft-azure-pipelines-finops
+  template: false
 image: https://azure.microsoft.com/svghandler/devops/?width=600&height=315
 layout: provider
 modified: '2026-09-16'
 name: Azure Pipelines
 nav: Providers
 network: true
-overview: 'Azure Pipelines publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Artifacts API, Build Artifacts API, Build Definitions API, and 8 more. Tagged areas include Automation, Builds, CI/CD, Deployment, and DevOps.
+overview: 'Azure Pipelines publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Artifacts API, Build Artifacts API, Build Definitions API, and 8 more. Tagged areas include Automation, Builds, CI/CD, Deployment, and DevOps.
 
 
-  Azure Pipelines'' developer surface includes authentication, getting-started guide, developer portal, pricing, engineering blog, documentation, signup flow, and 22 more developer resources.'
+  Azure Pipelines'' developer surface includes authentication, getting-started guide, developer portal, pricing, engineering blog, documentation, signup flow, and 25 more developer resources.'
 plans:
 - name: Microsoft Azure Pipelines Plans Pricing
   plan_count: 6
@@ -300,17 +319,17 @@ rate_limits:
   slug: microsoft-azure-pipelines-rate-limits
 score:
   band: developing
-  composite: 49.9
+  composite: 48.4
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 41.0
+    artifact_dirs: 14
+    catalog_earned: 38.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 60.5
+    access_clarity: 52.6
     contract_governance: 0.0
     contract_quality: 51.9
     developer_ergonomics: 58.3
@@ -330,8 +349,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

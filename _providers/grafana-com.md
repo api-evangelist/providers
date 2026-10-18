@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 167
   human_in_the_loop: 23
@@ -274,6 +274,11 @@ apis:
   slug: grafana-com-data-sources-api
 artifact_total: 97
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/grafana-com/refs/heads/main/capabilities/grafana-com-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/grafana-com-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/grafana-com/refs/heads/main/agentic-access/grafana-com-agentic-access.yml
   title: ''
@@ -714,22 +719,26 @@ features:
 - FedRAMP Moderate, SOC 2 Type II, PCI DSS, GDPR, HIPAA-eligible compliance posture
 - Canonical OpenAPI 2.0 specification (api-merged.json) drives Go client, Terraform provider, and SDKs
 finops:
-- name: Grafana Com Finops
+- has_sources: true
+  method: generated
+  name: Grafana Com Finops
+  primary_unit: telemetry-ingested
   service_category: Observability and Monitoring
   slug: grafana-com-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/grafana-com.png
 layout: provider
 modified: '2026-05-25'
 name: Grafana
 nav: Providers
 network: true
-overview: 'Grafana publishes 49 APIs on the [APIs.io](https://apis.io/) network, including Access Control API, Admin API, Admin Ldap API, and 46 more. Tagged areas include Observability, Monitoring, Dashboards, Logs, and Metrics.
+overview: 'Grafana publishes 49 API contracts indexed on the [APIs.io](https://apis.io/) network, including Access Control API, Admin API, Admin Ldap API, and 46 more. Tagged areas include Observability, Monitoring, Dashboards, Logs, and Metrics.
 
 
   The Grafana catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Grafana''s developer surface includes changelog, authentication, getting-started guide, developer portal, documentation, tooling, pricing, and 85 more developer resources.'
+  Grafana''s developer surface includes changelog, authentication, getting-started guide, developer portal, documentation, tooling, pricing, and 86 more developer resources.'
 plans:
 - name: Grafana Com Plans Pricing
   plan_count: 5
@@ -740,7 +749,8 @@ rate_limits:
   name: Grafana Com Rate Limits
   slug: grafana-com-rate-limits
 rules:
-- effective_rule_count: 54
+- authorship: generated
+  effective_rule_count: 54
   extends:
   - spectral:oas
   name: Grafana API Rules
@@ -752,24 +762,24 @@ rules:
     warn: 6
   slug: grafana-com-rules
 score:
-  band: exemplar
-  composite: 71.0
+  band: strong
+  composite: 64.3
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 62.4
+    artifact_dirs: 24
+    catalog_earned: 46.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 52.6
+    catalog_gap: 68.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 18.7
+  delta: -14.5
   facets:
-    access_clarity: 96.8
+    access_clarity: 76.3
     contract_governance: 22.0
     contract_quality: 47.3
     developer_ergonomics: 75.6
     discoverability: 66.1
-    operational_transparency: 75.8
-  previous_composite: 52.3
+    operational_transparency: 55.3
+  previous_composite: 78.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -786,9 +796,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: rising
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 33.3
@@ -805,7 +815,7 @@ security:
 - kind: vulnerability-disclosure
   name: Grafana Com Vulnerability Disclosure
   slug: grafana-com-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 - kind: trust-center
   name: Grafana Com Trust Center
   slug: grafana-com-trust-center

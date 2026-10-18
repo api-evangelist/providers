@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 5
 apis:
 - description: REST + WebSocket / MQTT integration surface exposed by Helium-compatible LoRaWAN Network Servers (e.g. Nova Labs Console) for provisioning IoT devices, managing organizations and labels, configuring i
@@ -53,6 +53,25 @@ apis:
   slug: docs-repo
 artifact_total: 9
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/helium-network/refs/heads/main/plans/helium-network-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/helium-network-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/helium-network/refs/heads/main/rate-limits/helium-network-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/helium-network-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/helium-network/refs/heads/main/finops/helium-network-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/helium-network-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.helium.com/blog
 - group: other
   title: ''
   type: PublicAPIsListing
@@ -109,19 +128,23 @@ common:
 created: '2026-05-23'
 description: Helium operates two decentralized wireless networks - a global LoRaWAN network for low-power IoT devices and a cellular + Wi-Fi offload network for mobile connectivity (Helium Mobile). The network is settled on the Solana blockchain with HNT, IOT, and MOBILE tokens. Developer surface includes the Helium Console / LoRaWAN Network Server APIs used to onboard devices and stream uplinks, on-chain Solana programs for the Helium DAO and rewards, the open-source Helium-Program-Library and helium-wallet SDKs, and partner-operated Network Servers (e.g. Nova Labs, MeteoScientific).
 finops:
-- name: Helium Network Finops
+- has_sources: false
+  method: generated
+  name: Helium Network Finops
+  primary_unit: ''
   service_category: API
   slug: helium-network-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/helium-network.png
 layout: provider
-modified: '2026-05-23'
+modified: '2026-10-06'
 name: Helium Network
 nav: Providers
 network: true
-overview: 'Helium Network publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Wireless, IoT, LoRaWAN, 5G, and DePIN.
+overview: 'Helium Network is listed with 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Wireless, IoT, LoRaWAN, 5G, and DePIN.
 
 
-  Helium Network''s developer surface includes documentation, GitHub presence, and 11 more developer resources.'
+  Helium Network''s developer surface includes engineering blog, documentation, GitHub presence, and 14 more developer resources.'
 plans:
 - name: Helium Network Plans Pricing
   plan_count: 1
@@ -133,22 +156,22 @@ rate_limits:
   slug: helium-network-rate-limits
 score:
   band: emerging
-  composite: 24.1
+  composite: 19.1
   coverage:
-    artifact_dirs: 8
-    catalog_earned: 57.4
+    artifact_dirs: 9
+    catalog_earned: 44.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.6
+    catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.0
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 9.5
+    developer_ergonomics: 11.9
     discoverability: 78.6
-    operational_transparency: 50.5
+    operational_transparency: 36.8
   open_source:
     applies: true
     score: 60.0
@@ -159,9 +182,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -180,6 +203,6 @@ tags:
 - 5G
 - DePIN
 - Solana
-- Crypto
+- Cryptocurrency
 website: https://www.helium.com/
 ---

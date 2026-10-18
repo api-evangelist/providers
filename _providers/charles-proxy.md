@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Charles Proxy is a cross-platform desktop HTTP proxy and monitor that sits between client applications and the Internet to capture, inspect, and modify traffic. It supports SSL proxying with certifica
@@ -41,6 +41,21 @@ apis:
   slug: charles-proxy
 artifact_total: 5
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/charles-proxy/refs/heads/main/plans/charles-proxy-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/charles-proxy-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/charles-proxy/refs/heads/main/rate-limits/charles-proxy-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/charles-proxy-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/charles-proxy/refs/heads/main/finops/charles-proxy-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/charles-proxy-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/charles-proxy/refs/heads/main/security/charles-proxy-domain-security.yml
   title: ''
@@ -81,19 +96,23 @@ common:
 created: '2026-03-26'
 description: Charles Proxy is an HTTP proxy and HTTP monitor that enables developers to view all HTTP and SSL/HTTPS traffic between their machine and the Internet, including requests, responses, and HTTP headers. It supports SSL proxying, bandwidth throttling, AJAX debugging, AMF inspection, breakpoints, content rewriting, and traffic recording for API debugging, testing, and development workflows on Windows, macOS, and Linux.
 finops:
-- name: Charles Proxy Finops
+- has_sources: false
+  method: generated
+  name: Charles Proxy Finops
+  primary_unit: ''
   service_category: API
   slug: charles-proxy-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/charles-proxy.png
 layout: provider
 modified: '2026-04-23'
 name: Charles Proxy
 nav: Providers
 network: true
-overview: 'Charles Proxy publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include API Debugging, API Testing, Developer Tools, HTTP Debugging, and HTTP Proxy.
+overview: 'Charles Proxy is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include API Debugging, API Testing, Developer Tools, HTTP Debugging, and HTTP Proxy.
 
 
-  Charles Proxy''s developer surface includes documentation, pricing, support, engineering blog, and 5 more developer resources.'
+  Charles Proxy''s developer surface includes documentation, pricing, support, engineering blog, and 8 more developer resources.'
 plans:
 - name: Charles Proxy Plans Pricing
   plan_count: 3
@@ -105,17 +124,17 @@ rate_limits:
   slug: charles-proxy-rate-limits
 score:
   band: emerging
-  composite: 18.5
+  composite: 17.0
   coverage:
     artifact_dirs: 7
-    catalog_earned: 41.0
+    catalog_earned: 38.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 36.8
+    access_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 26.2
@@ -128,8 +147,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 9.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 41.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -79,6 +79,10 @@ collections:
   name: Allium Explorer Polygon API
   slug: open-allium-polygon-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://alliumresearch.substack.com/feed
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/allium/refs/heads/main/security/allium-trust-center.yml
   title: ''
@@ -228,17 +232,17 @@ mcp_servers:
 - description: Remote MCP server at mcp.allium.so over HTTP; 4 tools listed.
   name: Allium MCP Server
   slug: allium
-modified: '2026-07-17'
+modified: '2026-10-06'
 name: Allium
 nav: Providers
 network: true
-overview: 'Allium publishes 3 APIs on the [APIs.io](https://apis.io/) network: Explorer API, Ping API, and Polygon API. Tagged areas include Company, Data Analytics, Blockchain, Crypto, and Web3.
+overview: 'Allium publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Explorer API, Ping API, and Polygon API. Tagged areas include Company, Data Analytics, Blockchain, Cryptocurrency, and Web3.
 
 
   The Allium catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Allium''s developer surface includes documentation, API reference, getting-started guide, signup flow, engineering blog, support, pricing, and 24 more developer resources.'
+  Allium''s developer surface includes documentation, API reference, getting-started guide, signup flow, engineering blog, support, pricing, and 25 more developer resources.'
 random_paper: 6
 score:
   band: developing
@@ -275,8 +279,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -300,7 +304,7 @@ tags:
 - Company
 - Data Analytics
 - Blockchain
-- Crypto
+- Cryptocurrency
 - Web3
 - Data Infrastructure
 - Real-Time Data

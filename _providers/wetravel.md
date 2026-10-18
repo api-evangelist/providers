@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 46
+- acting_count: 44
   human_in_the_loop: 0
   name: Wetravel Agentic Access
   operation_count: 77
   slug: wetravel-agentic-access
-  summary_line: 77 operations · 46 acting
+  summary_line: 77 operations · 44 acting
 api_count: 1
 apis:
 - baseURL: https://api.wetravel.com/v2
@@ -192,6 +192,10 @@ collections:
   name: WeTravel Partner Access token Trips API
   slug: open-wetravel-trips-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://academy.wetravel.com/rss.xml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/wetravel/refs/heads/main/capabilities/wetravel-capability-edges.yml
   title: ''
@@ -330,17 +334,17 @@ mcp_servers:
 - description: Remote MCP server at developer.wetravel.com over HTTP; 7 tools listed.
   name: WeTravel MCP Server
   slug: wetravel
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: WeTravel
 nav: Providers
 network: true
-overview: 'WeTravel publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Access token API, Add-ons API, Discounts API, and 14 more. Tagged areas include Company, Business Applications, Travel, Booking, and Payments.
+overview: 'WeTravel publishes 17 API contracts indexed on the [APIs.io](https://apis.io/) network, including Access token API, Add-ons API, Discounts API, and 14 more. Tagged areas include Company, Business Applications, Travel, Booking, and Payments.
 
 
   The WeTravel catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  WeTravel''s developer surface includes documentation, API reference, getting-started guide, support, changelog, authentication, sandbox, and 21 more developer resources.'
+  WeTravel''s developer surface includes documentation, API reference, getting-started guide, support, changelog, authentication, sandbox, and 22 more developer resources.'
 random_paper: 16
 rate_limits:
 - limit_count: 1
@@ -350,7 +354,7 @@ score:
   band: developing
   composite: 43.0
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 24
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
@@ -381,8 +385,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 20.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -400,7 +404,7 @@ security:
 - kind: vulnerability-disclosure
   name: Wetravel Vulnerability Disclosure
   slug: wetravel-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 slug: wetravel
 tags:
 - Company

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -251,7 +251,7 @@ modified: '2026-07-21'
 name: Scanner
 nav: Providers
 network: true
-overview: 'Scanner publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Ad Hoc Queries API, Detection Rules API, Event Sinks API, and 3 more. Tagged areas include Company, Security, SIEM, Log Analytics, and Threat Detection.
+overview: 'Scanner publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Ad Hoc Queries API, Detection Rules API, Event Sinks API, and 3 more. Tagged areas include Company, Security, SIEM, Log Analytics, and Threat Detection.
 
 
   The Scanner catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -263,7 +263,7 @@ score:
   band: developing
   composite: 39.8
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -298,8 +298,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

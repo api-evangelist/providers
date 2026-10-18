@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.8
-  scored_at: '2026-10-04'
+  score: 27.9
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 9
+- acting_count: 8
   human_in_the_loop: 0
   name: Cloudflare D1 Agentic Access
   operation_count: 12
   slug: cloudflare-d1-agentic-access
-  summary_line: 12 operations · 9 acting
+  summary_line: 12 operations · 8 acting
 api_count: 1
 apis:
 - baseURL: https://api.cloudflare.com/client/v4
@@ -155,9 +155,13 @@ examples:
   name: D1 Time Travel Restore
   slug: d1-time-travel-restore
 finops:
-- name: Cloudflare D1 Finops
+- has_sources: false
+  method: generated
+  name: Cloudflare D1 Finops
+  primary_unit: ''
   service_category: ''
   slug: cloudflare-d1-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cloudflare-d1.png
 json_schemas:
 - name: D1 Account Identifier
@@ -263,7 +267,7 @@ modified: '2026-06-13'
 name: Cloudflare D1
 nav: Providers
 network: true
-overview: 'Cloudflare D1 publishes 1 API on the [APIs.io](https://apis.io/) network: D1 API. Tagged areas include Database, SQLite, Serverless, Edge Computing, and SQL.
+overview: 'Cloudflare D1 publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: D1 API. Tagged areas include Database, SQLite, Serverless, Edge Computing, and SQL.
 
 
   The Cloudflare D1 catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -280,9 +284,10 @@ rate_limits:
   name: Cloudflare D1 Rate Limits
   slug: cloudflare-d1-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Cloudflare D1 API Rules
+  name: Cloudflare D1 — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -291,23 +296,23 @@ rules:
     warn: 4
   slug: cloudflare-d1-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 44.8
+  band: thin
+  composite: 37.8
   coverage:
     artifact_dirs: 17
-    catalog_earned: 69.3
+    catalog_earned: 53.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 45.7
+    catalog_gap: 61.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.0
   facets:
-    access_clarity: 37.4
+    access_clarity: 15.8
     contract_governance: 9.8
     contract_quality: 57.9
     developer_ergonomics: 31.0
     discoverability: 66.1
-    operational_transparency: 65.3
+    operational_transparency: 44.7
   previous_composite: 44.8
   provenance:
     agentic_access: derived
@@ -322,9 +327,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

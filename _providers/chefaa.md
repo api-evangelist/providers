@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://chefaa.com/blog/feed/
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/chefaa/refs/heads/main/well-known/chefaa-well-known.yml
   title: ''
@@ -93,20 +97,20 @@ description: Chefaa is Egypt's leading digital pharmacy and pharmacy-benefits pl
   surface.
 image: https://chefaa.com/favicon.ico
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Chefaa
 nav: Providers
 network: true
 overview: 'Chefaa is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Pharmacy, Healthcare, Digital Health, and Pharmacy Benefits.
 
 
-  Chefaa''s developer surface includes engineering blog, support, signup flow, and 9 more developer resources.'
+  Chefaa''s developer surface includes engineering blog, support, signup flow, and 10 more developer resources.'
 random_paper: 6
 score:
   band: emerging
   composite: 16.2
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -127,7 +131,9 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - africa
+    - mena
     - middle-east
+    - north-africa
   previous_composite: 16.2
   regulatory:
     applies: true
@@ -135,8 +141,8 @@ score:
     regime: Health
     regime_id: health
     score: 15.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

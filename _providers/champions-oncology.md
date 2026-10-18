@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.championsoncology.com/blog/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/champions-oncology/refs/heads/main/security/champions-oncology-domain-security.yml
   title: ''
@@ -86,14 +90,14 @@ created: '2026-07-17'
 description: 'Champions Oncology (NASDAQ: CSBR) is a global preclinical and clinical oncology contract research organization (CRO) supporting pharmaceutical and biotech drug development from discovery through the clinic. It maintains a living bank of more than 1,400 patient-derived tumor models and primary hematological models, and offers proprietary in vivo and ex vivo platforms, next-generation sequencing (WES/RNASeq), quantitative and phospho-proteomics, flow cytometry, and other analytical assays. Its Lumin Bioinformatics platform is an integrated, no-code analytics and visualization solution built on precisely curated multi-omics oncology data assembled from over 12,000 cancer patients, exposing gene networks, molecular signatures, target discovery, and AI-driven predictive analytics to researchers. Champions was surfaced as a portfolio company of Battery Ventures and added to the API Evangelist network.'
 image: https://www.championsoncology.com/hs-fs/hubfs/Champions_Logo_New_White.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Champions Oncology
 nav: Providers
 network: true
 overview: 'Champions Oncology is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Oncology, Cancer Research, Bioinformatics, and Contract Research Organization.
 
 
-  Champions Oncology''s developer surface includes documentation, getting-started guide, engineering blog, support, and 7 more developer resources.'
+  Champions Oncology''s developer surface includes documentation, getting-started guide, engineering blog, support, and 8 more developer resources.'
 random_paper: 11
 score:
   band: emerging
@@ -120,8 +124,8 @@ score:
     regime: Health
     regime_id: health
     score: 10.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

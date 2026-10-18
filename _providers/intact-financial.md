@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: low
+  gated: partner
+  gated_source:
+  - tag:Partner Gated
   label: Unknown
   onboarding: unknown
   pricing: unknown
@@ -33,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -140,7 +143,7 @@ score:
   band: emerging
   composite: 12.0
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -170,13 +173,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 13.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/intact-financial/refs/heads/main/screenshots/intact-financial-2026-10-11T190820.png
 security:
 - kind: domain-security
   name: Intact Financial Domain Security
@@ -190,8 +194,6 @@ tags:
 - Carrier
 - Underwriting
 - Claims
-- Partner Gated
-- No Public API
 - CSIO
 website: https://www.intactfc.com/
 ---

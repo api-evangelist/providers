@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: The primary HTTP REST API for CoinEx, providing access to spot trading, futures, perpetual contracts, account management, asset operations, market data, and referral endpoints. Authentication uses HMA
@@ -47,6 +47,10 @@ apis:
   slug: coinex-websocket-api-v2-futures
 artifact_total: 8
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.coinex.com/blog/
 - group: company
   title: ''
   type: Website
@@ -128,19 +132,23 @@ common:
 created: '2026-06-13'
 description: CoinEx is a global cryptocurrency exchange offering REST and WebSocket APIs for spot trading, futures, perpetual contracts, market data, order management, asset operations, and sub-account administration. API v2 launched January 2024 with unified authentication, restructured endpoints, and per-second rate limiting.
 finops:
-- name: Finops
+- has_sources: false
+  method: generated
+  name: Finops
+  primary_unit: ''
   service_category: ''
   slug: finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/coinex.png
 layout: provider
-modified: '2026-06-13'
+modified: '2026-10-06'
 name: CoinEx
 nav: Providers
 network: true
-overview: 'CoinEx publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Cryptocurrency, Exchange, Spot Trading, Futures, and Perpetual Contracts.
+overview: 'CoinEx is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Cryptocurrency, Exchange, Spot Trading, Futures, and Perpetual Contracts.
 
 
-  CoinEx''s developer surface includes developer console, documentation, authentication, changelog, GitHub presence, and 14 more developer resources.'
+  CoinEx''s developer surface includes engineering blog, developer console, documentation, authentication, changelog, GitHub presence, and 14 more developer resources.'
 plans:
 - name: Plans
   plan_count: 2
@@ -152,20 +160,20 @@ rate_limits:
   slug: rate-limits
 score:
   band: emerging
-  composite: 24.8
+  composite: 21.0
   coverage:
     artifact_dirs: 8
-    catalog_earned: 50.2
+    catalog_earned: 42.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 64.8
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.8
   facets:
-    access_clarity: 37.4
+    access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 33.3
+    developer_ergonomics: 35.7
     discoverability: 71.4
     operational_transparency: 21.1
   previous_composite: 24.8
@@ -175,8 +183,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 25.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

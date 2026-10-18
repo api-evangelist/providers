@@ -32,10 +32,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://sunbasket.com/blog/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://sunbasket.com/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/sun-basket/refs/heads/main/security/sun-basket-vulnerability-disclosure.yml
   title: ''
@@ -59,28 +67,31 @@ created: '2026-07-17'
 description: Sun Basket is a San Francisco-based meal-kit and prepared-meal delivery service offering organic, chef-designed recipes and ingredients shipped as weekly subscription boxes, with menus spanning dietary programs such as paleo, keto, vegetarian, gluten-free, and diabetes-friendly options. Surfaced as a portfolio company of sapphire-ventures and added to the API Evangelist network for enrichment, Sun Basket operates a consumer e-commerce and subscription-delivery product; no public developer API surface was found during enrichment probing.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sun-basket.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Sun Basket
 nav: Providers
 network: true
-overview: Sun Basket is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Meal Kit, Food Delivery, and Subscription.
+overview: 'Sun Basket is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Meal Kit, Food Delivery, and Subscription.
+
+
+  Sun Basket''s developer surface includes engineering blog and 5 more developer resources.'
 random_paper: 9
 score:
   band: minimal
-  composite: 5.6
+  composite: 6.2
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 48.2
     operational_transparency: 10.5
   jurisdiction:
@@ -97,8 +108,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

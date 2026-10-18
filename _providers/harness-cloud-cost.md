@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -102,6 +102,21 @@ collections:
   name: Harness Cloud Cost Management API
   slug: open-harness-cloud-cost
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/harness-cloud-cost/refs/heads/main/plans/harness-cloud-cost-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/harness-cloud-cost-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/harness-cloud-cost/refs/heads/main/rate-limits/harness-cloud-cost-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/harness-cloud-cost-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/harness-cloud-cost/refs/heads/main/finops/harness-cloud-cost-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/harness-cloud-cost-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/harness-cloud-cost/refs/heads/main/capabilities/harness-cloud-cost-capability-edges.yml
   title: ''
@@ -167,22 +182,26 @@ common:
 created: '2026-03-27'
 description: Harness Cloud Cost Management (CCM) provides intelligent cloud cost optimization with AI-driven recommendations, customizable cost perspectives, budgets, anomaly detection, and chargeback / showback through cost categories. CCM ingests cost data from AWS, Azure, GCP, and Kubernetes clusters and exposes a REST API on the Harness platform for FinOps automation.
 finops:
-- name: Harness Cloud Cost Finops
+- has_sources: false
+  method: generated
+  name: Harness Cloud Cost Finops
+  primary_unit: ''
   service_category: API
   slug: harness-cloud-cost-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/harness-cloud-cost.png
 layout: provider
 modified: '2026-05-19'
 name: Harness Cloud Cost Management
 nav: Providers
 network: true
-overview: 'Harness Cloud Cost Management publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Anomalies API, Budgets API, Connectors API, and 3 more. Tagged areas include Anomaly Detection, Budgets, Cloud Cost Management, FinOps, and Kubernetes.
+overview: 'Harness Cloud Cost Management publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Anomalies API, Budgets API, Connectors API, and 3 more. Tagged areas include Anomaly Detection, Budgets, Cloud Cost Management, FinOps, and Kubernetes.
 
 
   The Harness Cloud Cost Management catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Harness Cloud Cost Management''s developer surface includes authentication, documentation, API reference, pricing, engineering blog, and 9 more developer resources.'
+  Harness Cloud Cost Management''s developer surface includes authentication, documentation, API reference, pricing, engineering blog, and 12 more developer resources.'
 plans:
 - name: Harness Cloud Cost Plans Pricing
   plan_count: 3
@@ -193,7 +212,8 @@ rate_limits:
   name: Harness Cloud Cost Rate Limits
   slug: harness-cloud-cost-rate-limits
 rules:
-- effective_rule_count: 0
+- authorship: unmarked
+  effective_rule_count: 0
   extends: []
   name: Harness Cloud Cost Management API Rules
   rule_count: 0
@@ -205,17 +225,17 @@ rules:
   slug: harness-cloud-cost-rules
 score:
   band: thin
-  composite: 38.5
+  composite: 37.0
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 46.0
+    artifact_dirs: 14
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 69.0
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 34.2
+    access_clarity: 26.3
     contract_governance: 0.0
     contract_quality: 48.1
     developer_ergonomics: 42.9
@@ -235,8 +255,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -254,7 +274,7 @@ security:
 - kind: vulnerability-disclosure
   name: Harness Cloud Cost Vulnerability Disclosure
   slug: harness-cloud-cost-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 - kind: trust-center
   name: Harness Cloud Cost Trust Center
   slug: harness-cloud-cost-trust-center

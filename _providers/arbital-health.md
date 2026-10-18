@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The JSON API behind the Arbital Health adjudication platform at platform.arbitalhealth.com. Observed live and returning JSON, but every resource path answers 401 {"error":"Unauthorized"} to an anonymo
@@ -147,7 +147,7 @@ modified: '2026-08-06'
 name: Arbital Health
 nav: Providers
 network: true
-overview: 'Arbital Health publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Health Insurance, Value-Based Care, and Actuarial.
+overview: 'Arbital Health is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Health Insurance, Value-Based Care, and Actuarial.
 
 
   Arbital Health''s developer surface includes engineering blog, authentication, and 16 more developer resources.'
@@ -184,8 +184,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 40.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

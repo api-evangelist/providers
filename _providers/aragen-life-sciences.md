@@ -23,10 +23,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.aragen.com/feed/
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/aragen-life-sciences/refs/heads/main/llms/aragen-life-sciences-llms.txt
   title: ''
@@ -66,7 +70,7 @@ created: '2026-09-25'
 description: Aragen Life Sciences provides contract research, development, and manufacturing services (CRDMO) for small and large molecule drug discovery and development. The company offers integrated solutions across chemistry, biology, analytical development, and GMP manufacturing, supporting clients from early discovery through commercial production. Their platform includes scientific expertise, global locations, and a resource hub for investors and partners.
 image: https://www.aragen.com/wp-content/uploads/2021/07/PR-OG-Image.jpg
 layout: provider
-modified: '2026-09-25'
+modified: '2026-10-06'
 name: Aragen Life Sciences
 nav: Providers
 network: true
@@ -74,14 +78,15 @@ overview: Aragen Life Sciences is profiled on the [APIs.io](https://apis.io/) ne
 random_paper: 15
 score:
   band: minimal
-  composite: 9.8
+  composite: 9.9
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 7
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.1
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
@@ -89,18 +94,21 @@ score:
     developer_ergonomics: 0.0
     discoverability: 58.9
     operational_transparency: 0.0
+  previous_composite: 9.8
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/aragen-life-sciences/refs/heads/main/screenshots/aragen-life-sciences-2026-10-11T100124.png
 security:
 - kind: domain-security
   name: Aragen Life Sciences Domain Security

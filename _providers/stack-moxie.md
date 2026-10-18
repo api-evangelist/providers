@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -262,7 +262,7 @@ modified: '2026-09-16'
 name: Stack Moxie
 nav: Providers
 network: true
-overview: 'Stack Moxie publishes 5 APIs on the [APIs.io](https://apis.io/) network, including How To: Administer API, How To: Automate API, How To: Integrate API, and 2 more. Tagged areas include Company, Revenue Operations, Marketing Operations, Observability, and Monitoring.
+overview: 'Stack Moxie publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including How To: Administer API, How To: Automate API, How To: Integrate API, and 2 more. Tagged areas include Company, Revenue Operations, Marketing Operations, Observability, and Monitoring.
 
 
   Stack Moxie''s developer surface includes authentication, API reference, documentation, getting-started guide, support, engineering blog, pricing, and 33 more developer resources.'
@@ -279,7 +279,7 @@ score:
   band: strong
   composite: 64.5
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -310,8 +310,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

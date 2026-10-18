@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The Nannostomus Sex Offender API enables search of 771k+ offender records by state and name across all 50 U.S. states and 14 territories. Records are updated monthly with per-state change reporting an
@@ -41,6 +41,21 @@ apis:
   slug: nannostomus
 artifact_total: 5
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/nannostomus/refs/heads/main/plans/nannostomus-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/nannostomus-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/nannostomus/refs/heads/main/rate-limits/nannostomus-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/nannostomus-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/nannostomus/refs/heads/main/finops/nannostomus-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/nannostomus-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/nannostomus/refs/heads/main/security/nannostomus-domain-security.yml
   title: ''
@@ -69,19 +84,23 @@ common:
 created: '2024-11-13'
 description: Nannostomus provides a sex offender search API covering 771k+ offender records across all 50 U.S. states and 14 territories. It supports search by state and name, with monthly per-state record updates, deduplication, and 99.9% uptime backed by cloud infrastructure. A free tier covers up to 100 requests per month with tiered pay-as-you-go pricing beyond that.
 finops:
-- name: Nannostomus Finops
+- has_sources: false
+  method: generated
+  name: Nannostomus Finops
+  primary_unit: ''
   service_category: API
   slug: nannostomus-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nannostomus.png
 layout: provider
 modified: '2026-04-28'
 name: Nannostomus
 nav: Providers
 network: true
-overview: 'Nannostomus publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Public Safety, Sex Offenders, Government, Search, and Records.
+overview: 'Nannostomus is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Public Safety, Sex Offenders, Government, Search, and Records.
 
 
-  Nannostomus'' developer surface includes documentation, pricing, support, and 3 more developer resources.'
+  Nannostomus'' developer surface includes documentation, pricing, support, and 6 more developer resources.'
 plans:
 - name: Nannostomus Plans Pricing
   plan_count: 3
@@ -93,17 +112,17 @@ rate_limits:
   slug: nannostomus-rate-limits
 score:
   band: emerging
-  composite: 15.2
+  composite: 13.6
   coverage:
-    artifact_dirs: 5
-    catalog_earned: 41.0
+    artifact_dirs: 6
+    catalog_earned: 38.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 26.3
+    access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 21.4
@@ -116,8 +135,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

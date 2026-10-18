@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 56.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 53
 apis:
 - baseURL: https://api.thousandeyes.com/v7
@@ -2046,7 +2046,7 @@ modified: '2026-08-19'
 name: ThousandEyes
 nav: Providers
 network: true
-overview: 'ThousandEyes publishes 98 APIs on the [APIs.io](https://apis.io/) network, including Account Groups API, Agent Proxies API, Agent to Agent Instant Tests API, and 95 more. Tagged areas include Monitoring, Network Visibility, Digital Experience, Observability, and Networking.
+overview: 'ThousandEyes publishes 98 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account Groups API, Agent Proxies API, Agent to Agent Instant Tests API, and 95 more. Tagged areas include Monitoring, Network Visibility, Digital Experience, Observability, and Networking.
 
 
   The ThousandEyes catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -2069,15 +2069,15 @@ scopes:
   summary_line: 2 scopes · authorizationCode/deviceCode
 score:
   band: exemplar
-  composite: 75.5
+  composite: 75.6
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_earned: 64.0
     catalog_earned_first_party: 24.0
     catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.1
   facets:
     access_clarity: 85.5
     contract_governance: 4.5
@@ -2085,7 +2085,7 @@ score:
     developer_ergonomics: 75.6
     discoverability: 80.0
     operational_transparency: 92.1
-  previous_composite: 75.0
+  previous_composite: 75.5
   provenance:
     conformance: derived
     contracts:
@@ -2101,8 +2101,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

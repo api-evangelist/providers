@@ -30,13 +30,13 @@ agent_readiness:
     mcp_server: verified
     openapi_examples: false
     protected_resource_metadata: verified
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 44.6
-  scored_at: '2026-10-04'
+  score: 42.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -111,6 +111,21 @@ collections:
   name: PeopleForce API
   slug: open-peopleforce
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/peopleforce/refs/heads/main/plans/peopleforce-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/peopleforce-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/peopleforce/refs/heads/main/rate-limits/peopleforce-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/peopleforce-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/peopleforce/refs/heads/main/finops/peopleforce-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/peopleforce-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/peopleforce/refs/heads/main/capabilities/peopleforce-capability-edges.yml
   title: ''
@@ -142,9 +157,13 @@ common:
 created: '2025-02-08'
 description: PeopleForce is an HR platform whose REST API allows retrieving information about HR entities such as employees, candidates, vacancies, leave requests, departments, divisions, and positions, and performing actions on them.
 finops:
-- name: Peopleforce Finops
+- has_sources: false
+  method: generated
+  name: Peopleforce Finops
+  primary_unit: ''
   service_category: API
   slug: peopleforce-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/peopleforce.png
 layout: provider
 mcp_servers:
@@ -155,10 +174,10 @@ modified: '2026-09-16'
 name: PeopleForce
 nav: Providers
 network: true
-overview: 'PeopleForce publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Candidates API, Departments API, Divisions API, and 4 more. Tagged areas include Human Resources, Recruiting, and Employees.
+overview: 'PeopleForce publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Candidates API, Departments API, Divisions API, and 4 more. Tagged areas include Human Resources, Recruiting, and Employees.
 
 
-  PeopleForce''s developer surface includes authentication, engineering blog, and 4 more developer resources.'
+  PeopleForce''s developer surface includes authentication, engineering blog, and 7 more developer resources.'
 plans:
 - name: Peopleforce Plans Pricing
   plan_count: 3
@@ -170,17 +189,17 @@ rate_limits:
   slug: peopleforce-rate-limits
 score:
   band: emerging
-  composite: 25.4
+  composite: 23.8
   coverage:
-    artifact_dirs: 15
-    catalog_earned: 41.0
+    artifact_dirs: 16
+    catalog_earned: 38.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 44.1
     developer_ergonomics: 26.2
@@ -201,8 +220,8 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

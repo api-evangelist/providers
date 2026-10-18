@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://vegas.insuretechconnect.com/blog
 - group: company
   title: ''
   type: Website
@@ -74,31 +78,31 @@ created: '2026-07-17'
 description: InsureTech Connect (ITC) is the world's largest insurance innovation event series, produced by Clarion Events. Its flagship, ITC Vegas, brings together 9,000+ insurance carriers, insurtech startups, brokers, reinsurers, and investors for three days of content, networking, and dealmaking, with regional editions in Europe and Asia. Surfaced as a portfolio company of qed-investors and added to the API Evangelist network. ITC is an events and media brand; as of this profile it does not publish a public developer API, OpenAPI, SDKs, or event webhooks, so this entry carries company identity and probed domain-security signals only.
 image: https://cdn.asp.events/CLIENT_CL_US_323E7AA7_5056_B733_8303D39C538813E0/sites/itc-vegas-2026/media/favicon.ico
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Insuretech Connect
 nav: Providers
 network: true
 overview: 'Insuretech Connect is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurtech, Insurance, Event, and Conferences.
 
 
-  Insuretech Connect''s developer surface includes signup flow, support, and 6 more developer resources.'
+  Insuretech Connect''s developer surface includes engineering blog, signup flow, support, and 6 more developer resources.'
 random_paper: 3
 score:
   band: emerging
-  composite: 12.7
+  composite: 13.2
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 34.2
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 4.8
+    developer_ergonomics: 7.1
     discoverability: 55.4
     operational_transparency: 0.0
   previous_composite: 12.7
@@ -108,8 +112,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 12.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

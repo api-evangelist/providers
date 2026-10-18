@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Actively's hosted (remote) Model Context Protocol server, which connects its Per-Account Agents — per-account research, strategy and persistent memory — into external AI clients such as ChatGPT, Claud
@@ -155,7 +155,7 @@ modified: '2026-08-13'
 name: Actively
 nav: Providers
 network: true
-overview: 'Actively publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Apps, AI Agents, Revenue Intelligence, and Sales.
+overview: 'Actively is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Apps, AI Agents, Revenue Intelligence, and Sales.
 
 
   Actively''s developer surface includes authentication, engineering blog, signup flow, and 18 more developer resources.'
@@ -177,7 +177,7 @@ score:
   band: thin
   composite: 28.4
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 16
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -201,8 +201,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

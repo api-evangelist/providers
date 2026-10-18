@@ -23,10 +23,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.admerahealth.com/news
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.admerahealth.com/news?format=rss
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/admera-health/refs/heads/main/security/admera-health-domain-security.yml
   title: ''
@@ -119,14 +127,14 @@ created: '2026-09-07'
 description: Admera Health is a CLIA-certified and CAP-accredited genomics service provider and contract research organization headquartered in South Plainfield, New Jersey, established in 2014 as a spinout of GENEWIZ. It runs 100% US-based next-generation sequencing, library preparation and bioinformatics operations for academic, biotech and biopharma customers, spanning whole genome and whole exome sequencing, metagenomics and amplicon sequencing, bulk and small RNA-seq, single-cell sequencing on 10x Genomics, Parse Biosciences and Takara Bio platforms, spatial transcriptomics on Visium HD and STOmics Stereo-seq, epigenomics, proteomics and metabolomics, plus BioEcho nucleic acid purification products. Customers submit and track projects through EraTrack, a login-only web portal. Admera Health publishes no public developer program, API reference, SDK or machine-readable specification of any kind.
 image: https://static1.squarespace.com/static/62fd3ea4903b393b1c2b91c4/t/6a9202d1ee934c04baae347f/1787953873973/admera_health_final_logo_final_transparent_500px.png?format=1500w
 layout: provider
-modified: '2026-09-07'
+modified: '2026-10-06'
 name: Admera Health
 nav: Providers
 network: true
 overview: 'Admera Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Genomics, Sequencing, Bioinformatics, and Life Sciences.
 
 
-  Admera Health''s developer surface includes engineering blog, support, FAQ, and 14 more developer resources.'
+  Admera Health''s developer surface includes engineering blog, support, FAQ, and 16 more developer resources.'
 plans:
 - name: Admera Health Plans Pricing
   plan_count: 0
@@ -134,15 +142,15 @@ plans:
 random_paper: 17
 score:
   band: emerging
-  composite: 18.5
+  composite: 18.6
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 9
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 42.1
     contract_governance: 18.2
@@ -166,13 +174,14 @@ score:
     regime: Health
     regime_id: health
     score: 18.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/admera-health/refs/heads/main/screenshots/admera-health-2026-10-11T092828.png
 security:
 - kind: domain-security
   name: Admera Health Domain Security

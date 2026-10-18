@@ -32,10 +32,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://oaknorth.co.uk/category/blog-categories/business-banking-blog-categories/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://oaknorth.co.uk/category/blog-categories/business-banking-blog-categories/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/oaknorth/refs/heads/main/security/oaknorth-vulnerability-disclosure.yml
   title: ''
@@ -78,20 +86,20 @@ created: '2026-07-17'
 description: OakNorth is a UK-based commercial bank and business-lending institution founded in 2015, providing debt financing to mid-market and lower-mid-market businesses in the UK and, through its New York team, the United States. Its products span business loans (from roughly GBP 1m to tens of millions), commercial real estate lending, commercial & industrial cash-flow financing, fund finance, and business and personal savings accounts. OakNorth is backed by the SoftBank Vision Fund. It publicly exposes no developer API, open-banking API, or developer portal; its public technical surface is limited to a HackerOne responsible-disclosure program and standard web/legal properties. This profile was enriched by the API Evangelist pipeline.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/oaknorth.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: OakNorth
 nav: Providers
 network: true
 overview: 'OakNorth is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Banking, Lending, and Commercial Real Estate.
 
 
-  OakNorth''s developer surface includes engineering blog, support, and 7 more developer resources.'
+  OakNorth''s developer surface includes engineering blog, support, and 9 more developer resources.'
 random_paper: 12
 score:
   band: emerging
   composite: 11.1
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -117,8 +125,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 15.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

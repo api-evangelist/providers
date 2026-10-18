@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.0
-  scored_at: '2026-10-04'
+  score: 17.8
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -60,6 +60,21 @@ collections:
   name: FSIS Recall API
   slug: open-fsis-recall
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/food-safety-and-inspection-service/refs/heads/main/plans/food-safety-and-inspection-service-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/food-safety-and-inspection-service-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/food-safety-and-inspection-service/refs/heads/main/rate-limits/food-safety-and-inspection-service-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/food-safety-and-inspection-service-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/food-safety-and-inspection-service/refs/heads/main/finops/food-safety-and-inspection-service-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/food-safety-and-inspection-service-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/food-safety-and-inspection-service/refs/heads/main/agentic-access/food-safety-and-inspection-service-agentic-access.yml
   title: ''
@@ -89,22 +104,26 @@ common:
 created: '2024-12-03'
 description: The Food Safety and Inspection Service (FSIS) is a branch of the United States Department of Agriculture (USDA) responsible for ensuring the safety of the nation's commercial supply of meat, poultry, and egg products. FSIS publishes a Recall API that provides machine-readable access to recall and public health alert records.
 finops:
-- name: Food Safety And Inspection Service Finops
+- has_sources: false
+  method: generated
+  name: Food Safety And Inspection Service Finops
+  primary_unit: ''
   service_category: API
   slug: food-safety-and-inspection-service-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/food-safety-and-inspection-service.png
 layout: provider
 modified: '2026-05-19'
 name: Food Safety and Inspection Service
 nav: Providers
 network: true
-overview: 'Food Safety and Inspection Service publishes 1 API on the [APIs.io](https://apis.io/) network: Recalls API. Tagged areas include Federal Government, Food, Food Safety, Inspection, and Recalls.
+overview: 'Food Safety and Inspection Service publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Recalls API. Tagged areas include Federal Government, Food, Food Safety, Inspection, and Recalls.
 
 
   The Food Safety and Inspection Service catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Food Safety and Inspection Service''s developer surface includes documentation and 5 more developer resources.'
+  Food Safety and Inspection Service''s developer surface includes documentation and 8 more developer resources.'
 plans:
 - name: Food Safety And Inspection Service Plans Pricing
   plan_count: 3
@@ -115,9 +134,10 @@ rate_limits:
   name: Food Safety And Inspection Service Rate Limits
   slug: food-safety-and-inspection-service-rate-limits
 rules:
-- effective_rule_count: 0
+- authorship: unmarked
+  effective_rule_count: 0
   extends: []
-  name: Food Safety and Inspection Service API Rules
+  name: Food Safety and Inspection Service — fsis recall rules
   rule_count: 0
   severity_counts:
     error: 0
@@ -127,17 +147,17 @@ rules:
   slug: fsis-recall-rules
 score:
   band: emerging
-  composite: 19.9
+  composite: 21.5
   coverage:
     artifact_dirs: 10
-    catalog_earned: 40.0
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 60.0
-    catalog_max: 100.0
+    catalog_gap: 72.0
+    catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.6
   facets:
-    access_clarity: 0.0
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 45.9
     developer_ergonomics: 9.5
@@ -162,8 +182,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: HTTP RPC-style API for age gates, age verification, verifiable parental consent, k-ID sessions, and permission management. Methods take the form https://game-api.k-id.com/api/v1/{method} with bearer A
@@ -47,6 +47,10 @@ asyncapis:
   name: K Id Webhooks
   slug: k-id-webhooks
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://k-id.com/news
 - group: company
   title: ''
   type: Website
@@ -178,17 +182,17 @@ created: '2026-07-17'
 description: k-ID is a compliance platform that lets games, social apps, AI products, and commerce deliver age-appropriate experiences across 200+ jurisdictions. Its Compliance Development Kit (CDK) encodes auto-updating regulatory logic for regimes like COPPA, GDPR-Kids, the UK Age Appropriate Design Code and Online Safety Act, Brazil's ECA Digital, and Australia's minimum-age rules, while AgeKit and AgeKit+ provide privacy-preserving age assurance (facial age estimation, ID checks, credit card, AgeKey reusable credentials) and Family Connect handles verifiable parental consent. Developers integrate through the k-ID HTTP RPC API (game-api.k-id.com) using bearer API keys, hosted widget URLs, HMAC-signed webhooks, and official Agent Skills for AI coding tools.
 image: https://avatars.githubusercontent.com/kidentify
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: k-ID
 nav: Providers
 network: true
-overview: 'k-ID publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Age Verification, Age Assurance, Compliance, and Parental Consent.
+overview: 'k-ID is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Age Verification, Age Assurance, Compliance, and Parental Consent.
 
 
   The k-ID catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  k-ID''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 21 more developer resources.'
+  k-ID''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, authentication, changelog, and 22 more developer resources.'
 random_paper: 5
 score:
   band: developing
@@ -219,8 +223,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

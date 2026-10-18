@@ -9,7 +9,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -25,14 +25,14 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: false
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.4
-  scored_at: '2026-10-04'
+  score: 32.0
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The BuildOps Public API, named by the BuildOps Dev Center as the REST + webhook-callback integration surface for customers, software partners and vendors. The Dev Center gates its reference behind "In
@@ -166,7 +166,7 @@ modified: '2026-08-10'
 name: BuildOps
 nav: Providers
 network: true
-overview: 'BuildOps publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Construction Software, Field Service Management, Contractor Management, and Commercial Services.
+overview: 'BuildOps is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Construction Software, Field Service, Contractor Management, and Commercial Services.
 
 
   The BuildOps catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -184,15 +184,15 @@ rate_limits:
   slug: buildops-rate-limits
 score:
   band: thin
-  composite: 34.8
+  composite: 34.9
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 60.5
     contract_governance: 0.0
@@ -209,8 +209,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -234,7 +234,7 @@ slug: buildops
 tags:
 - Company
 - Construction Software
-- Field Service Management
+- Field Service
 - Contractor Management
 - Commercial Services
 - HVAC

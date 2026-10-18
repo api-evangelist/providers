@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 14
+- acting_count: 13
   human_in_the_loop: 0
   name: Google Cloud Dataflow Agentic Access
   operation_count: 29
   slug: google-cloud-dataflow-agentic-access
-  summary_line: 29 operations · 14 acting
+  summary_line: 29 operations · 13 acting
 api_count: 1
 apis:
 - baseURL: https://dataflow.googleapis.com
@@ -151,6 +151,21 @@ collections:
   name: Google Cloud Dataflow Debug Templates API
   slug: open-google-cloud-dataflow-templates-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-dataflow/refs/heads/main/plans/google-cloud-dataflow-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/google-cloud-dataflow-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-dataflow/refs/heads/main/rate-limits/google-cloud-dataflow-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/google-cloud-dataflow-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-dataflow/refs/heads/main/finops/google-cloud-dataflow-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/google-cloud-dataflow-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/google-cloud-dataflow/refs/heads/main/agentic-access/google-cloud-dataflow-agentic-access.yml
   title: ''
@@ -309,9 +324,13 @@ common:
 created: '2024-01-01'
 description: Google Cloud Dataflow is a fully managed service for executing Apache Beam pipelines for batch and streaming data processing. It provides a serverless, fast, and cost-effective way to process data at scale.
 finops:
-- name: Google Cloud Dataflow Finops
+- has_sources: false
+  method: generated
+  name: Google Cloud Dataflow Finops
+  primary_unit: ''
   service_category: API
   slug: google-cloud-dataflow-finops
+  template: true
 image: https://cloud.google.com/images/social-icon-google-cloud-1200-630.png
 json_schemas:
 - name: Google Cloud Dataflow Environment
@@ -345,13 +364,13 @@ modified: '2026-05-19'
 name: Google Cloud Dataflow
 nav: Providers
 network: true
-overview: 'Google Cloud Dataflow publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Debug API, Flex Templates API, Jobs API, and 5 more. Tagged areas include Apache Beam, Batch Processing, Big Data, Data Processing, and ETL.
+overview: 'Google Cloud Dataflow publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Debug API, Flex Templates API, Jobs API, and 5 more. Tagged areas include Apache Beam, Batch Processing, Big Data, Data Processing, and ETL.
 
 
   The Google Cloud Dataflow catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Google Cloud Dataflow''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, support, changelog, and 28 more developer resources.'
+  Google Cloud Dataflow''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, support, changelog, and 31 more developer resources.'
 plans:
 - name: Google Cloud Dataflow Plans Pricing
   plan_count: 3
@@ -362,9 +381,10 @@ rate_limits:
   name: Google Cloud Dataflow Rate Limits
   slug: google-cloud-dataflow-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: Google Cloud Dataflow API Rules
+  name: Google Cloud Dataflow — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -379,17 +399,17 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: strong
-  composite: 59.3
+  composite: 57.8
   coverage:
     artifact_dirs: 17
-    catalog_earned: 66.3
+    catalog_earned: 63.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 48.8
+    catalog_gap: 51.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 47.4
+    access_clarity: 39.5
     contract_governance: 9.8
     contract_quality: 66.1
     developer_ergonomics: 75.0
@@ -409,8 +429,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

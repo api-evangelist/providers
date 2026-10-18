@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: REST API for managing HPE 3PAR StoreServ / Primera / Alletra storage arrays — virtual volumes, CPGs, hosts, ports, VLUNs, snapshots, and remote copy. Served by the WSAPI server that runs on each array
@@ -40,6 +40,10 @@ apis:
   slug: hpe-3par-web-services-api-wsapi
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://developer.hpe.com/blog/
 - group: start
   title: ''
   type: DeveloperPortal
@@ -74,31 +78,31 @@ created: '2026-07-17'
 description: 3PAR is an enterprise storage platform, now part of Hewlett Packard Enterprise (HPE acquired 3PAR in 2010), that powers mission-critical applications with HPE 3PAR StoreServ and Primera arrays. For developers and automation engineers, 3PAR exposes the HPE 3PAR Web Services API (WSAPI) — a REST interface that manages storage provisioning, virtual volumes, hosts, ports, CPGs, snapshots, and remote copy on 3PAR/Primera/Alletra arrays, offering a more flexible and programmable alternative to the 3PAR Command Line Interface. HPE publishes first-party client libraries (Python, Ruby, PowerShell) plus Ansible, Puppet, Chef, OpenStack Cinder, and Docker volume integrations against WSAPI. This profile was surfaced as a venture-portfolio lead (Mayfield, Menlo Ventures backed the original 3PAR before its IPO and HP acquisition) and enriched from HPE's public developer surface.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/3par.png
 layout: provider
-modified: '2026-07-17'
+modified: '2026-10-06'
 name: 3PAR (HPE 3PAR StoreServ)
 nav: Providers
 network: true
-overview: '3PAR (HPE 3PAR StoreServ) publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Storage, Enterprise Storage, Infrastructure, and Data Management.
+overview: '3PAR (HPE 3PAR StoreServ) is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Storage, Enterprise Storage, Infrastructure, and Data Management.
 
 
-  3PAR (HPE 3PAR StoreServ)''s developer surface includes documentation, API reference, support, and 4 more developer resources.'
+  3PAR (HPE 3PAR StoreServ)''s developer surface includes engineering blog, documentation, API reference, support, and 4 more developer resources.'
 random_paper: 0
 score:
   band: emerging
-  composite: 12.2
+  composite: 12.8
   coverage:
-    artifact_dirs: 2
+    artifact_dirs: 4
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 38.1
+    developer_ergonomics: 40.5
     discoverability: 66.1
     operational_transparency: 2.6
   needs_work:
@@ -114,8 +118,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 0.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

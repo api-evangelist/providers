@@ -39,14 +39,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 55.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 53
+- acting_count: 52
   human_in_the_loop: 1
   name: Adobe Experience Cloud Agentic Access
   operation_count: 110
   slug: adobe-experience-cloud-agentic-access
-  summary_line: 110 operations · 53 acting · 1 human-in-the-loop
+  summary_line: 110 operations · 52 acting · 1 human-in-the-loop
 api_count: 5
 apis:
 - baseURL: https://api.adobe.io
@@ -1435,9 +1435,13 @@ features:
 - description: Secure all APIs using OAuth 2.0 server-to-server credentials via Adobe Developer Console.
   name: OAuth 2.0 and JWT Authentication
 finops:
-- name: Adobe Experience Cloud Finops
+- has_sources: true
+  method: generated
+  name: Adobe Experience Cloud Finops
+  primary_unit: ''
   service_category: Marketing + Analytics + DXP SaaS
   slug: adobe-experience-cloud-finops
+  template: false
 image: /assets/icons/adobe-experience-cloud.png
 integrations:
 - description: Sync customer data and campaign results between Adobe Experience Cloud and Salesforce CRM.
@@ -2016,7 +2020,7 @@ modified: '2026-08-13'
 name: Adobe Experience Cloud
 nav: Providers
 network: true
-overview: 'Adobe Experience Cloud publishes 36 APIs on the [APIs.io](https://apis.io/) network, including Adobe I/O Events, Activities API, Audiences API, and 33 more. Tagged areas include Analytics, Customer Experience, Digital Marketing, Personalization, and Campaign Management.
+overview: 'Adobe Experience Cloud publishes 36 API contracts indexed on the [APIs.io](https://apis.io/) network, including Adobe I/O Events, Activities API, Audiences API, and 33 more. Tagged areas include Analytics, Customer Experience, Digital Marketing, Personalization, and Campaign Management.
 
 
   The Adobe Experience Cloud catalog on APIs.io includes 1 event-driven AsyncAPI specification, 7 JSON-LD contexts, and 3 Spectral governance rulesets.
@@ -2033,10 +2037,11 @@ rate_limits:
   name: Adobe Experience Cloud Rate Limits
   slug: adobe-experience-cloud-rate-limits
 rules:
-- effective_rule_count: 34
+- authorship: generated
+  effective_rule_count: 34
   extends:
   - spectral:asyncapi
-  name: Adobe Experience Cloud API Rules
+  name: Adobe Experience Cloud — asyncapi rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -2044,9 +2049,10 @@ rules:
     info: 0
     warn: 6
   slug: adobe-experience-cloud-asyncapi-spectral-rules
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Adobe Experience Cloud API Rules
+  name: Adobe Experience Cloud — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -2054,7 +2060,8 @@ rules:
     info: 2
     warn: 3
   slug: adobe-experience-cloud-jsonschema-spectral-rules
-- effective_rule_count: 78
+- authorship: generated
+  effective_rule_count: 78
   extends:
   - spectral:oas
   name: Adobe Experience Cloud API Rules
@@ -2072,23 +2079,23 @@ scopes:
   summary_line: 16 scopes
 score:
   band: exemplar
-  composite: 68.7
+  composite: 67.2
   coverage:
-    artifact_dirs: 37
-    catalog_earned: 78.0
+    artifact_dirs: 38
+    catalog_earned: 75.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 37.0
+    catalog_gap: 40.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -1.5
   facets:
-    access_clarity: 50.0
+    access_clarity: 42.1
     contract_governance: 31.8
     contract_quality: 68.9
     developer_ergonomics: 74.4
     discoverability: 80.0
     operational_transparency: 60.5
-  previous_composite: 68.2
+  previous_composite: 68.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -2105,8 +2112,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

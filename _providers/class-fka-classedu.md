@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -106,6 +106,10 @@ collections:
   name: Class Developer Classes Users API
   slug: open-class-fka-classedu-users-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.class.com/blog/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/class-fka-classedu/refs/heads/main/security/class-fka-classedu-trust-center.yml
   title: ''
@@ -228,14 +232,14 @@ created: '2026-07-17'
 description: Class (fka ClassEDU) is a virtual classroom platform, founded in 2020 by education-technology leader Michael Chasen, that adds a full teaching and learning layer on top of Zoom and Microsoft Teams for K-12, higher education, government, and corporate training. The platform provides interactive course setup and templates, real-time engagement analytics and attendance tracking, enhanced breakout rooms, polls, whiteboards, auto transcription, an AI assistant, proctoring, and LMS integrations. Class also publishes a REST developer API (developer.class.com) that lets administrators and integrators provision classes, manage enrollments, generate learner launch links, schedule class dates, manage class templates, manage non-learner users, and pull attendance and engagement reporting, authenticated with a per-organization API key presented as a Bearer token and gated by permission scopes.
 image: https://www.class.com/wp-content/uploads/2022/12/class_logo.svg
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Class (fka ClassEDU)
 nav: Providers
 network: true
-overview: 'Class (fka ClassEDU) publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Classes API, Enrollments API, Launch API, and 4 more. Tagged areas include Company, Education, EdTech, Virtual Classroom, and Learning Management.
+overview: 'Class (fka ClassEDU) publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Classes API, Enrollments API, Launch API, and 4 more. Tagged areas include Company, Education, EdTech, Virtual Classroom, and LMS.
 
 
-  Class (fka ClassEDU)''s developer surface includes authentication, documentation, API reference, support, engineering blog, and 21 more developer resources.'
+  Class (fka ClassEDU)''s developer surface includes authentication, documentation, API reference, support, engineering blog, and 22 more developer resources.'
 random_paper: 0
 score:
   band: thin
@@ -272,8 +276,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -298,8 +302,8 @@ tags:
 - Education
 - EdTech
 - Virtual Classroom
-- Learning Management
-- Online Learning
+- LMS
+- E-Learning
 - Training
 - Zoom
 - Microsoft Teams

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 4
 apis:
 - description: Public REST API on appws.picpay.com that lets merchants charge a PicPay user's wallet from an ecommerce checkout. Creates a payment with a referenceId, returns a payment URL plus a QR code for the buy
@@ -183,7 +183,7 @@ modified: '2026-05-25'
 name: PicPay
 nav: Providers
 network: true
-overview: 'PicPay publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Payments, Digital Wallet, Digital Bank, Neobank, and Fintech.
+overview: 'PicPay is listed with 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Payments, Digital Wallet, Digital Bank, Neobank, and Fintech.
 
 
   PicPay''s developer surface includes developer portal, documentation, engineering blog, support, YouTube channel, and 26 more developer resources.'
@@ -192,7 +192,7 @@ score:
   band: emerging
   composite: 19.5
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -220,8 +220,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 14.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

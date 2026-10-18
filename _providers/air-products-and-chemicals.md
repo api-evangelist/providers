@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'Air Products and Chemicals provides industrial, specialty, and process gases including hydrogen, helium, nitrogen, oxygen, argon, and carbon dioxide. The company also offers gas generation equipment, '
@@ -41,6 +41,21 @@ apis:
   slug: air-products
 artifact_total: 32
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/air-products-and-chemicals/refs/heads/main/plans/air-products-and-chemicals-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/air-products-and-chemicals-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/air-products-and-chemicals/refs/heads/main/rate-limits/air-products-and-chemicals-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/air-products-and-chemicals-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/air-products-and-chemicals/refs/heads/main/finops/air-products-and-chemicals-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/air-products-and-chemicals-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/air-products-and-chemicals/refs/heads/main/security/air-products-and-chemicals-domain-security.yml
   title: ''
@@ -158,9 +173,13 @@ features:
 - description: Engineering, design, and project management for industrial gas infrastructure and chemical plants.
   name: Industrial Engineering Services
 finops:
-- name: Air Products And Chemicals Finops
+- has_sources: true
+  method: generated
+  name: Air Products And Chemicals Finops
+  primary_unit: ''
   service_category: Industrial Gases / Chemicals
   slug: air-products-and-chemicals-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/air-products-and-chemicals.png
 integrations:
 - description: SAP ERP integration for order management and supply chain operations with industrial customers.
@@ -199,13 +218,13 @@ modified: '2026-08-30'
 name: Air Products and Chemicals
 nav: Providers
 network: true
-overview: 'Air Products and Chemicals publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Industrial Gases, Chemicals, Energy, Manufacturing, and Hydrogen.
+overview: 'Air Products and Chemicals is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Industrial Gases, Chemicals, Energy, Manufacturing, and Hydrogen.
 
 
   The Air Products and Chemicals catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Air Products and Chemicals'' developer surface includes documentation, developer portal, support, engineering blog, and 13 more developer resources.'
+  Air Products and Chemicals'' developer surface includes documentation, developer portal, support, engineering blog, and 16 more developer resources.'
 plans:
 - name: Air Products And Chemicals Plans Pricing
   plan_count: 1
@@ -232,9 +251,10 @@ rate_limits:
   name: Air Products And Chemicals Rate Limits
   slug: air-products-and-chemicals-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Air Products and Chemicals API Rules
+  name: Air Products and Chemicals — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -244,17 +264,17 @@ rules:
   slug: air-products-and-chemicals-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 28.2
+  composite: 26.7
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 50.3
+    artifact_dirs: 19
+    catalog_earned: 47.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 64.8
+    catalog_gap: 67.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 55.3
+    access_clarity: 47.4
     contract_governance: 9.8
     contract_quality: 10.7
     developer_ergonomics: 26.2
@@ -274,13 +294,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 19.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/air-products-and-chemicals/refs/heads/main/screenshots/air-products-and-chemicals-2026-10-11T140413.png
 security:
 - kind: domain-security
   name: Air Products And Chemicals Domain Security

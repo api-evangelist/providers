@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The Indie Hackers API provides programmatic access to the Indie Hackers community platform, enabling developers to connect with a network of founders who openly share the strategies and revenue number
@@ -41,6 +41,25 @@ apis:
   slug: indie-hackers-api
 artifact_total: 5
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/indie-hackers/refs/heads/main/plans/indie-hackers-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/indie-hackers-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/indie-hackers/refs/heads/main/rate-limits/indie-hackers-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/indie-hackers-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/indie-hackers/refs/heads/main/finops/indie-hackers-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/indie-hackers-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.indiehackers.com/stories
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/indie-hackers/refs/heads/main/security/indie-hackers-domain-security.yml
   title: ''
@@ -97,19 +116,23 @@ common:
 created: '2026-03-24'
 description: Indie Hackers is an online community where founders of profitable businesses and side projects share their stories, strategies, and revenue numbers to help each other build successful companies.
 finops:
-- name: Indie Hackers Finops
+- has_sources: false
+  method: generated
+  name: Indie Hackers Finops
+  primary_unit: ''
   service_category: API
   slug: indie-hackers-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/indie-hackers.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-10-06'
 name: Indie Hackers
 nav: Providers
 network: true
-overview: 'Indie Hackers publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Community, Entrepreneurship, and Startups.
+overview: 'Indie Hackers is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Community, Entrepreneurship, and Startups.
 
 
-  Indie Hackers'' developer surface includes documentation and 12 more developer resources.'
+  Indie Hackers'' developer surface includes engineering blog, documentation, and 15 more developer resources.'
 plans:
 - name: Indie Hackers Plans Pricing
   plan_count: 3
@@ -121,20 +144,20 @@ rate_limits:
   slug: indie-hackers-rate-limits
 score:
   band: emerging
-  composite: 14.4
+  composite: 13.3
   coverage:
-    artifact_dirs: 5
-    catalog_earned: 28.0
+    artifact_dirs: 7
+    catalog_earned: 25.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 87.0
+    catalog_gap: 90.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.1
   facets:
-    access_clarity: 36.8
+    access_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 14.3
+    developer_ergonomics: 16.7
     discoverability: 33.9
     operational_transparency: 7.9
   previous_composite: 14.4
@@ -144,8 +167,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

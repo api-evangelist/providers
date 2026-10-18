@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: The ONC-certified § 170.315(g)(10) Standardized API for Patient and Population Services. A HL7 FHIR R4 (4.0.1) RESTful server conforming to the US Core Implementation Guide v3.1.1, exposing 24 resourc
@@ -197,7 +197,7 @@ modified: '2026-09-02'
 name: Carefluence
 nav: Providers
 network: true
-overview: 'Carefluence publishes 2 APIs on the [APIs.io](https://apis.io/) network, including Open API R4, and 1 more. Tagged areas include Company, Healthcare, Interoperability, FHIR, and HL7.
+overview: 'Carefluence is listed with 2 APIs on the [APIs.io](https://apis.io/) network, including Open API R4, and 1 more. Tagged areas include Company, Healthcare, Interoperability, FHIR, and HL7.
 
 
   Carefluence''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, authentication, and 27 more developer resources.'
@@ -219,7 +219,7 @@ score:
   band: developing
   composite: 44.0
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -244,13 +244,14 @@ score:
     regime: Health
     regime_id: health
     score: 38.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/carefluence/refs/heads/main/screenshots/carefluence-2026-10-11T102717.png
 security:
 - kind: authentication
   name: Carefluence Authentication

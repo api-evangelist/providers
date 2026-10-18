@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'REST API for managing the full subscription lifecycle in Maxio Advanced Billing (formerly Chargify): customers, products, components, subscriptions, invoices, transactions, coupons, and webhooks. Auth'
@@ -114,7 +114,7 @@ modified: '2026-05-11'
 name: Maxio
 nav: Providers
 network: true
-overview: 'Maxio publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Billing, Subscription, Recurring Billing, Revenue Recognition, and SaaS Metrics.
+overview: 'Maxio is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Billing, Subscription, Recurring Billing, Revenue Recognition, and SaaS Metrics.
 
 
   Maxio''s developer surface includes sandbox, documentation, signup flow, pricing, engineering blog, and 11 more developer resources.'
@@ -123,7 +123,7 @@ score:
   band: emerging
   composite: 24.6
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -144,8 +144,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

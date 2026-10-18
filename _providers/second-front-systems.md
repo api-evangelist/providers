@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.secondfront.com/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/second-front-systems/refs/heads/main/security/second-front-systems-trust-center.yml
   title: ''
@@ -83,20 +87,20 @@ created: '2026-07-17'
 description: 'Second Front Systems is a public-benefit, venture-backed software company that accelerates government access to emerging technologies for the world''s democracies. Its 2F Suite delivers DevSecOps and continuous-accreditation tooling for defense and public-sector software teams: 2F Workshop (integrated security and compliance tooling for accredited development), 2F Game Warden (a fully accredited FedRAMP High and DoD ATO DevSecOps platform that fast-tracks commercial software to classified and unclassified government networks in roughly 90 days), and 2F Frontier (edge deployment to disconnected and denied environments). The company was surfaced as a portfolio company of Battery Ventures. It exposes no public developer API; its primary technical surface is the Game Warden platform documentation, a compliance Trust Center, and a broad certification posture (FedRAMP, SOC 2, ISO 27001, CMMC, FIPS 140).'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/second-front-systems.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Second Front Systems
 nav: Providers
 network: true
 overview: 'Second Front Systems is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, DevSecOps, Defense, Government, and GovTech.
 
 
-  Second Front Systems'' developer surface includes documentation, support, engineering blog, signup flow, and 6 more developer resources.'
+  Second Front Systems'' developer surface includes documentation, support, engineering blog, signup flow, and 7 more developer resources.'
 random_paper: 3
 score:
   band: emerging
   composite: 17.0
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -117,8 +121,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 14.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

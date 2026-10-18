@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 5
 apis:
 - description: Rolled aluminum sheet, plate, and coil products serving aerospace, automotive, commercial transportation, packaging (can sheet, can end stock, tab stock), and industrial customers. Manufactured at int
@@ -53,6 +53,21 @@ apis:
   slug: arconic-spectrochemical-reference-materials
 artifact_total: 32
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/arconic/refs/heads/main/plans/arconic-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/arconic-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/arconic/refs/heads/main/rate-limits/arconic-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/arconic-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/arconic/refs/heads/main/finops/arconic-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/arconic-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/arconic/refs/heads/main/security/arconic-domain-security.yml
   title: ''
@@ -90,9 +105,13 @@ features:
 - description: Operations across Canada, China, France, Germany, Hungary, the United Kingdom, and the United States.
   name: Global Manufacturing Footprint
 finops:
-- name: Arconic Finops
+- has_sources: true
+  method: generated
+  name: Arconic Finops
+  primary_unit: ''
   service_category: Industrial / Metals
   slug: arconic-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/arconic.png
 integrations:
 - description: Arconic was acquired by funds managed by Apollo Global Management in August 2023 for approximately $5.2 billion and is now a privately held Apollo portfolio company.
@@ -110,10 +129,10 @@ modified: '2026-05-23'
 name: Arconic
 nav: Providers
 network: true
-overview: 'Arconic publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Aluminum, Manufacturing, Extrusions, Rolled Products, and Building Products.
+overview: 'Arconic is listed with 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Aluminum, Manufacturing, Extrusions, Rolled Products, and Building Products.
 
 
-  Arconic''s developer surface includes product news, developer portal, and 3 more developer resources.'
+  Arconic''s developer surface includes product news, developer portal, and 6 more developer resources.'
 plans:
 - name: Arconic Plans Pricing
   plan_count: 2
@@ -124,23 +143,23 @@ rate_limits:
   name: Arconic Rate Limits
   slug: arconic-rate-limits
 score:
-  band: emerging
-  composite: 16.5
+  band: minimal
+  composite: 10.5
   coverage:
     artifact_dirs: 6
-    catalog_earned: 52.4
+    catalog_earned: 39.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 62.6
+    catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.0
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 19.0
     discoverability: 63.4
-    operational_transparency: 18.9
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -155,9 +174,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

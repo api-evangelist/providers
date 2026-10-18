@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.spatialedge.ai/blog
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/spatialedge/refs/heads/main/security/spatialedge-domain-security.yml
   title: ''
@@ -61,28 +65,31 @@ created: '2026-07-17'
 description: Spatialedge is an enterprise AI and data solutions firm headquartered in Stellenbosch, South Africa, with offices in London and Austin. The company builds and operationalizes analytical tooling that turns data into data-driven business decisions, spanning consulting and AI maturity assessments, custom solution development (data pipelines, optimization and forecasting models, AI-powered applications), integration and deployment into existing business systems, and ongoing MLOps and model maintenance. Products include Workforce Planner, Price Planner, Demand Forecaster, and DataLlume, applied across retail pricing, telecom infrastructure, and mining predictive maintenance. Spatialedge does not publish a public API, SDK, or developer portal; it is a services and solutions provider surfaced as a Techstars portfolio company and profiled in the API Evangelist network.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/spatialedge.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Spatialedge
 nav: Providers
 network: true
-overview: Spatialedge is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, Data, and Analytics.
+overview: 'Spatialedge is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, Data, and Analytics.
+
+
+  Spatialedge''s developer surface includes engineering blog and 5 more developer resources.'
 random_paper: 11
 score:
   band: minimal
-  composite: 5.9
+  composite: 6.5
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 10.5
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 48.2
     operational_transparency: 0.0
   jurisdiction:
@@ -99,8 +106,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 9.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

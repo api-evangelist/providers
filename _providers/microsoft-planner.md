@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -127,6 +127,16 @@ collections:
   name: Microsoft Planner Microsoft Graph Planner API
   slug: open-microsoft-planner
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-planner/refs/heads/main/plans/microsoft-planner-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/microsoft-planner-plans-pricing.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-planner/refs/heads/main/finops/microsoft-planner-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/microsoft-planner-finops.yml
 - group: company
   title: ''
   type: Website
@@ -457,9 +467,13 @@ features:
 - Category labels for cross-cutting task classification
 - Microsoft Graph API for programmatic access
 finops:
-- name: Microsoft Planner Finops
+- has_sources: true
+  method: generated
+  name: Microsoft Planner Finops
+  primary_unit: ''
   service_category: Project and Task Management
   slug: microsoft-planner-finops
+  template: false
 image: https://docs.microsoft.com/en-us/media/logos/logo-ms-social.png
 integrations:
 - Microsoft Teams for in-chat task management
@@ -746,13 +760,13 @@ modified: '2026-05-19'
 name: Microsoft Planner
 nav: Providers
 network: true
-overview: 'Microsoft Planner publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Buckets API, Plan Details API, Plans API, and 4 more. Tagged areas include Collaboration, Microsoft 365, Productivity, Project Management, and Task Management.
+overview: 'Microsoft Planner publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Buckets API, Plan Details API, Plans API, and 4 more. Tagged areas include Collaboration, Microsoft 365, Productivity, Project Management, and Task Management.
 
 
   The Microsoft Planner catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Microsoft Planner''s developer surface includes authentication, developer portal, getting-started guide, engineering blog, documentation, support, FAQ, and 31 more developer resources.'
+  Microsoft Planner''s developer surface includes authentication, developer portal, getting-started guide, engineering blog, documentation, support, FAQ, and 33 more developer resources.'
 plans:
 - name: Microsoft Planner Plans Pricing
   plan_count: 4
@@ -763,9 +777,10 @@ rate_limits:
   name: Microsoft Planner Rate Limits
   slug: microsoft-planner-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: Microsoft Planner API Rules
+  name: Microsoft Planner — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -773,7 +788,8 @@ rules:
     info: 2
     warn: 4
   slug: microsoft-planner-jsonschema-spectral-rules
-- effective_rule_count: 59
+- authorship: generated
+  effective_rule_count: 59
   extends:
   - spectral:oas
   name: Microsoft Planner API Rules
@@ -791,17 +807,17 @@ scopes:
   summary_line: 6 scopes · authorizationCode
 score:
   band: strong
-  composite: 59.4
+  composite: 57.9
   coverage:
     artifact_dirs: 21
-    catalog_earned: 60.4
+    catalog_earned: 57.4
     catalog_earned_first_party: 0.0
-    catalog_gap: 54.6
+    catalog_gap: 57.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 48.7
+    access_clarity: 40.8
     contract_governance: 27.3
     contract_quality: 68.7
     developer_ergonomics: 82.1
@@ -821,8 +837,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

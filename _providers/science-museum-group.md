@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-04'
+  score: 20.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -84,6 +84,25 @@ collections:
   name: Science Museum Group Collection Documents Search API
   slug: open-science-museum-group-search-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/science-museum-group/refs/heads/main/plans/science-museum-group-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/science-museum-group-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/science-museum-group/refs/heads/main/rate-limits/science-museum-group-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/science-museum-group-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/science-museum-group/refs/heads/main/finops/science-museum-group-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/science-museum-group-finops.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.sciencemuseumgroup.org.uk/feed/
 - group: operate
   title: ''
   type: IssueTracker
@@ -128,9 +147,13 @@ examples:
   name: Science Museum Group Search Objects Example
   slug: science-museum-group-search-objects-example
 finops:
-- name: Science Museum Group Finops
+- has_sources: false
+  method: generated
+  name: Science Museum Group Finops
+  primary_unit: ''
   service_category: API
   slug: science-museum-group-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/science-museum-group.png
 json_schemas:
 - name: Science Museum Group Collection Object
@@ -146,11 +169,11 @@ jsonld:
   property_count: 19
   slug: science-museum-group-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-10-06'
 name: Science Museum Group
 nav: Providers
 network: true
-overview: 'Science Museum Group publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Documents API, Objects API, People API, and 1 more. Tagged areas include Museums, Collection, Cultural Heritage, Open Data, and Science.
+overview: 'Science Museum Group publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Documents API, Objects API, People API, and 1 more. Tagged areas include Museums, Collection, Cultural Heritage, Open Data, and Science.
 
 
   The Science Museum Group catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.'
@@ -164,9 +187,10 @@ rate_limits:
   name: Science Museum Group Rate Limits
   slug: science-museum-group-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Science Museum Group API Rules
+  name: Science Museum Group — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -174,7 +198,8 @@ rules:
     info: 1
     warn: 4
   slug: science-museum-group-jsonschema-spectral-rules
-- effective_rule_count: 51
+- authorship: unmarked
+  effective_rule_count: 51
   extends:
   - spectral:oas
   name: Science Museum Group API Rules
@@ -186,18 +211,18 @@ rules:
     warn: 7
   slug: science-museum-group-rules
 score:
-  band: emerging
-  composite: 25.1
+  band: thin
+  composite: 26.5
   coverage:
-    artifact_dirs: 15
-    catalog_earned: 65.4
+    artifact_dirs: 16
+    catalog_earned: 68.4
     catalog_earned_first_party: 0.0
-    catalog_gap: 34.6
-    catalog_max: 100.0
+    catalog_gap: 46.6
+    catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.4
   facets:
-    access_clarity: 0.0
+    access_clarity: 7.9
     contract_governance: 27.3
     contract_quality: 60.6
     developer_ergonomics: 9.5
@@ -228,8 +253,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

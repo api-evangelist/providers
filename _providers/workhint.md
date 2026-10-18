@@ -32,10 +32,19 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
-artifact_total: 1
+artifact_total: 2
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/workhint/refs/heads/main/plans/workhint-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/workhint-plans-pricing.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.workhint.com/feed/
 - group: company
   title: ''
   type: Website
@@ -78,28 +87,32 @@ created: '2026-07-17'
 description: Workhint is a work orchestration platform that uses AI to configure workflows, roles, and operations from modular components, helping teams manage flexible and on-demand workforces. The platform spans sourcing and onboarding, a workflow engine, tasks and projects, shifts and field visits, delivery management, auto-invoicing, global payments and payout workflows, contract management, and 1099 compliance. Backed by 500 Global and Softeq. API access and custom integrations are offered on the Enterprise plan, but no public developer portal or API documentation is published.
 image: https://avatars.githubusercontent.com/u/245715413?v=4
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Workhint
 nav: Providers
 network: true
 overview: 'Workhint is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Workforce Management, Work Orchestration, Staffing, and Payments.
 
 
-  Workhint''s developer surface includes pricing, engineering blog, and 7 more developer resources.'
+  Workhint''s developer surface includes pricing, engineering blog, and 9 more developer resources.'
+plans:
+- name: Workhint Plans Pricing
+  plan_count: 3
+  slug: workhint-plans-pricing
 random_paper: 6
 score:
   band: emerging
-  composite: 12.8
+  composite: 19.1
   coverage:
-    artifact_dirs: 6
-    catalog_earned: 27.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 88.0
+    artifact_dirs: 7
+    catalog_earned: 39.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.3
   facets:
-    access_clarity: 38.2
+    access_clarity: 69.7
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 2.4
@@ -112,9 +125,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 11.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

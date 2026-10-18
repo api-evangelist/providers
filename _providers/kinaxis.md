@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 5.0
-  scored_at: '2026-10-04'
+  score: 3.1
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: REST-based interface exposing the Kinaxis Maestro (RapidResponse) supply chain planning platform for data integration, process orchestration, and insight embedding. Enables reading and writing plannin
@@ -108,16 +108,20 @@ common:
 created: 2026-06-13
 description: Kinaxis is a concurrent supply chain planning platform — branded Maestro (formerly RapidResponse) — that provides REST APIs for supply chain orchestration, scenario modeling, demand sensing, and supply planning across global manufacturing and distribution networks. The platform offers an AI-infused intelligence engine, digital twin simulation, and a Developer Studio for building custom applications and algorithms on top of the supply chain data fabric.
 finops:
-- name: Kinaxis Finops
+- has_sources: false
+  method: generated
+  name: Kinaxis Finops
+  primary_unit: ''
   service_category: ''
   slug: kinaxis-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kinaxis.png
 layout: provider
 modified: 2026-06-13
 name: Kinaxis
 nav: Providers
 network: true
-overview: 'Kinaxis publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Supply Chain, Supply Chain Planning, Demand Sensing, Scenario Modeling, and Supply Planning.
+overview: 'Kinaxis is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Supply Chain, Supply Chain Planning, Demand Sensing, Scenario Modeling, and Supply Planning.
 
 
   Kinaxis'' developer surface includes documentation, engineering blog, pricing, and 10 more developer resources.'
@@ -132,17 +136,17 @@ rate_limits:
   slug: kinaxis-rate-limits
 score:
   band: emerging
-  composite: 24.8
+  composite: 20.6
   coverage:
-    artifact_dirs: 8
-    catalog_earned: 50.2
+    artifact_dirs: 9
+    catalog_earned: 42.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 64.8
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -4.2
   facets:
-    access_clarity: 45.3
+    access_clarity: 23.7
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 35.7
@@ -162,8 +166,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

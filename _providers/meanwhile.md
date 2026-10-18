@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://meanwhile.bm/press/
 - group: company
   title: ''
   type: Website
@@ -65,31 +69,31 @@ created: '2026-07-17'
 description: Meanwhile is the first BMA-licensed innovative life insurer in Bermuda, offering whole life insurance policies denominated entirely in Bitcoin rather than fiat. Its BTC Life product lets customers pay premiums in Bitcoin that grow at a guaranteed rate in Bitcoin terms, borrow tax-free against up to 90% of policy value after one year, and pass a full day-one death benefit to beneficiaries without managing wallets or seed phrases. The company is backed by Pantera, Bain Capital Crypto, Sam Altman, Northwestern Mutual, and Framework Ventures, and raised $82M in October 2025. Meanwhile publishes no public developer API, portal, or SDKs; this profile captures its identity, public web properties, and probed domain-security posture.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/meanwhile.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Meanwhile
 nav: Providers
 network: true
-overview: 'Meanwhile is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto, Bitcoin, Insurance, and Life Insurance.
+overview: 'Meanwhile is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cryptocurrency, Bitcoin, Insurance, and Life Insurance.
 
 
-  Meanwhile''s developer surface includes support and 5 more developer resources.'
+  Meanwhile''s developer surface includes engineering blog, support, and 5 more developer resources.'
 random_paper: 8
 score:
-  band: minimal
-  composite: 10.6
+  band: emerging
+  composite: 11.1
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 27.6
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 4.8
+    developer_ergonomics: 7.1
     discoverability: 48.2
     operational_transparency: 0.0
   previous_composite: 10.6
@@ -99,8 +103,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 12.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -115,7 +119,7 @@ security:
 slug: meanwhile
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Bitcoin
 - Insurance
 - Life Insurance

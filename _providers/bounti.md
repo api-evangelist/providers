@@ -32,8 +32,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.8
-  scored_at: '2026-10-04'
-api_count: 2
+  scored_at: '2026-10-17'
+api_count: 4
 apis:
 - baseURL: https://bounti.ai
   baseurl_source: spec
@@ -57,6 +57,10 @@ collections:
   name: Bounti.ai Content Llms Full.txt Llms.txt API
   slug: open-bounti-llms-txt-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://bounti.ai/rss.xml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/bounti/refs/heads/main/overlays/bounti-content-api-overlay.yaml
   title: ''
@@ -192,14 +196,14 @@ description: Bounti (Bounti Labs, bounti.ai) is an AI-powered real estate visual
   a catalog of 303 named B.Claw skills as machine-readable schema.org SoftwareApplication definitions at bounti.ai/skills, and 34 connector listings at bounti.ai/integrations — but those skills execute only inside the authenticated B.Claw product, whose API at claw.bounti.ai/api has no published contract.
 image: https://bounti.ai/favicon.png
 layout: provider
-modified: '2026-08-14'
+modified: '2026-10-06'
 name: Bounti
 nav: Providers
 network: true
-overview: 'Bounti publishes 2 APIs on the [APIs.io](https://apis.io/) network: Llms Full.txt API and Llms.txt API. Tagged areas include Company, Real Estate, Artificial Intelligence, Marketing, and Sales Enablement.
+overview: 'Bounti publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Llms Full.txt API and Llms.txt API. Tagged areas include Company, Real Estate, Artificial Intelligence, Marketing, and Sales Enablement.
 
 
-  Bounti''s developer surface includes engineering blog, pricing, signup flow, support, authentication, and 23 more developer resources.'
+  Bounti''s developer surface includes engineering blog, pricing, signup flow, support, authentication, and 24 more developer resources.'
 plans:
 - name: Bounti Plans Pricing
   plan_count: 5
@@ -211,21 +215,21 @@ rate_limits:
   slug: bounti-rate-limits
 score:
   band: developing
-  composite: 41.4
+  composite: 42.0
   coverage:
     artifact_dirs: 19
-    catalog_earned: 44.0
+    catalog_earned: 47.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 71.0
+    catalog_gap: 68.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 69.7
     contract_governance: 4.5
     contract_quality: 42.2
     developer_ergonomics: 33.3
-    discoverability: 64.3
+    discoverability: 69.6
     operational_transparency: 10.5
   previous_composite: 41.4
   provenance:
@@ -243,8 +247,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 28.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

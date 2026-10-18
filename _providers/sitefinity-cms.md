@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -90,6 +90,21 @@ collections:
   name: Sitefinity CMS Content Blog Posts News Items API
   slug: open-sitefinity-cms-news-items-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sitefinity-cms/refs/heads/main/plans/sitefinity-cms-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/sitefinity-cms-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/sitefinity-cms/refs/heads/main/rate-limits/sitefinity-cms-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/sitefinity-cms-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sitefinity-cms/refs/heads/main/finops/sitefinity-cms-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/sitefinity-cms-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/sitefinity-cms/refs/heads/main/agentic-access/sitefinity-cms-agentic-access.yml
   title: ''
@@ -165,9 +180,13 @@ examples:
   name: Sitefinity Cms List News Items Example
   slug: sitefinity-cms-list-news-items-example
 finops:
-- name: Sitefinity Cms Finops
+- has_sources: true
+  method: generated
+  name: Sitefinity Cms Finops
+  primary_unit: ''
   service_category: Digital Experience Platform
   slug: sitefinity-cms-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sitefinity-cms.png
 json_schemas:
 - name: Sitefinity CMS Content Item
@@ -202,13 +221,13 @@ modified: '2026-05-19'
 name: Sitefinity CMS
 nav: Providers
 network: true
-overview: 'Sitefinity CMS publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Blog Posts API, Events API, News Items API, and 4 more. Tagged areas include Content Management, Headless CMS, .NET, and REST.
+overview: 'Sitefinity CMS publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Blog Posts API, Events API, News Items API, and 4 more. Tagged areas include Content Management, Headless CMS, .NET, and REST.
 
 
   The Sitefinity CMS catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Sitefinity CMS''s developer surface includes authentication, documentation, developer portal, engineering blog, support, and 10 more developer resources.'
+  Sitefinity CMS''s developer surface includes authentication, documentation, developer portal, engineering blog, support, and 13 more developer resources.'
 plans:
 - name: Sitefinity Cms Plans Pricing
   plan_count: 1
@@ -219,9 +238,10 @@ rate_limits:
   name: Sitefinity Cms Rate Limits
   slug: sitefinity-cms-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Sitefinity CMS API Rules
+  name: Sitefinity CMS — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -229,7 +249,8 @@ rules:
     info: 2
     warn: 3
   slug: sitefinity-cms-jsonschema-spectral-rules
-- effective_rule_count: 51
+- authorship: unmarked
+  effective_rule_count: 51
   extends:
   - spectral:oas
   name: Sitefinity CMS API Rules
@@ -242,17 +263,17 @@ rules:
   slug: sitefinity-cms-rules
 score:
   band: thin
-  composite: 37.5
+  composite: 35.9
   coverage:
     artifact_dirs: 17
-    catalog_earned: 53.0
+    catalog_earned: 50.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 62.0
+    catalog_gap: 65.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 21.1
+    access_clarity: 13.2
     contract_governance: 27.3
     contract_quality: 60.2
     developer_ergonomics: 38.1
@@ -272,8 +293,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -291,7 +312,7 @@ security:
 - kind: vulnerability-disclosure
   name: Sitefinity Cms Vulnerability Disclosure
   slug: sitefinity-cms-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 - kind: trust-center
   name: Sitefinity Cms Trust Center
   slug: sitefinity-cms-trust-center

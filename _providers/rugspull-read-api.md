@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 29.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 9
   slug: rugspull-read-api-agentic-access
   summary_line: 9 operations
-api_count: 2
+api_count: 4
 apis:
 - baseURL: https://rugspull.com
   baseurl_source: spec
@@ -76,6 +76,10 @@ collections:
   name: Rugspull Read API
   slug: open-rugspull-read-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://rugspull.com/feed.xml
 - group: company
   title: ''
   type: Website
@@ -223,14 +227,14 @@ created: '2026-07-19'
 description: A read-only, GET-only discovery-cache REST API for Rugspull, a self-described high-risk parody DeFi protocol on BNB Smart Chain (chain id 56). Exposes rebuildable discovery/indexed-event data with no write, settlement, or transaction-proxy operations; on-chain BSC contracts remain the source of financial truth. Unauthenticated, free, best-effort, with no published rate limits or SLA.
 image: https://rugspull.com/assets/og-mechanism.png
 layout: provider
-modified: '2026-09-16'
+modified: '2026-10-06'
 name: Rugspull Read API
 nav: Providers
 network: true
-overview: 'Rugspull Read API publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Indexer API, Market API, Objects API, and 2 more. Tagged areas include BNB Smart Chain, BSC, wbnb, Read Only, and OpenAPI.
+overview: 'Rugspull Read API publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Indexer API, Market API, Objects API, and 2 more. Tagged areas include BNB Smart Chain, BSC, wbnb, Read Only, and OpenAPI.
 
 
-  Rugspull Read API''s developer surface includes documentation, API reference, getting-started guide, support, authentication, changelog, code examples, and 23 more developer resources.'
+  Rugspull Read API''s developer surface includes documentation, API reference, getting-started guide, support, authentication, changelog, code examples, and 24 more developer resources.'
 plans:
 - name: Rugspull Read Api Plans Pricing
   plan_count: 0
@@ -242,21 +246,21 @@ rate_limits:
   slug: rugspull-read-api-rate-limits
 score:
   band: thin
-  composite: 37.1
+  composite: 37.7
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 32.0
+    artifact_dirs: 23
+    catalog_earned: 35.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 83.0
+    catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 0.0
     contract_governance: 18.2
     contract_quality: 45.8
     developer_ergonomics: 61.3
-    discoverability: 64.3
+    discoverability: 69.6
     operational_transparency: 28.9
   previous_composite: 37.1
   provenance:
@@ -275,8 +279,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

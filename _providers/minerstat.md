@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-04'
+  score: 20.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -62,6 +62,21 @@ collections:
   name: Minerstat Mining Pools API
   slug: open-minerstat
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/minerstat/refs/heads/main/plans/minerstat-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/minerstat-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/minerstat/refs/heads/main/rate-limits/minerstat-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/minerstat-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/minerstat/refs/heads/main/finops/minerstat-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/minerstat-finops.yml
 - group: company
   title: ''
   type: Website
@@ -96,19 +111,23 @@ common:
 created: '2025-03-01'
 description: Minerstat mining pools API is a public API that allows you to obtain basic information about different mining pools that are listed on minerstat. This documentation will help you understand which data is available in the public API and how the data can be used. Before you continue with reading this documentation and using this API, please read terms and conditions carefully and follow them appropriately as by using our API you agree with the terms and conditions.
 finops:
-- name: Minerstat Finops
+- has_sources: false
+  method: generated
+  name: Minerstat Finops
+  primary_unit: ''
   service_category: API
   slug: minerstat-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/minerstat.png
 layout: provider
 modified: '2026-09-16'
 name: Minerstat
 nav: Providers
 network: true
-overview: 'Minerstat publishes 1 API on the [APIs.io](https://apis.io/) network: Pools API. Tagged areas include Mining, Cryptocurrency, and Mining Pools.
+overview: 'Minerstat publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Pools API. Tagged areas include Mining, Cryptocurrency, and Mining Pools.
 
 
-  Minerstat''s developer surface includes authentication, engineering blog, and 5 more developer resources.'
+  Minerstat''s developer surface includes authentication, engineering blog, and 8 more developer resources.'
 plans:
 - name: Minerstat Plans Pricing
   plan_count: 3
@@ -119,18 +138,18 @@ rate_limits:
   name: Minerstat Rate Limits
   slug: minerstat-rate-limits
 score:
-  band: thin
-  composite: 26.5
+  band: emerging
+  composite: 25.0
   coverage:
     artifact_dirs: 11
-    catalog_earned: 41.0
+    catalog_earned: 38.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 48.4
     developer_ergonomics: 23.8
@@ -150,8 +169,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

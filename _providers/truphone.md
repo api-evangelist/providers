@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -94,6 +94,10 @@ collections:
   name: Truphone (1GLOBAL) IoT Portal API
   slug: open-truphone
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.1global.com/press
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/truphone/refs/heads/main/capabilities/truphone-capability-edges.yml
   title: ''
@@ -148,19 +152,23 @@ common:
 created: '2026-06-21'
 description: Truphone is a global eSIM, IoT, and enterprise connectivity provider now operating as 1GLOBAL after its 2022 acquisition. It runs its own global mobile network supplemented by roaming across 600+ partner networks in 190+ countries, and exposes REST APIs for SIM/eSIM lifecycle management, data usage and connectivity, rate plans, and IoT device management across its 1GLOBAL IoT Portal, 1GLOBAL Connect, and the 1GLOBAL platform API.
 finops:
-- name: Truphone Finops
+- has_sources: true
+  method: generated
+  name: Truphone Finops
+  primary_unit: ''
   service_category: IoT and Connectivity
   slug: truphone-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/truphone.png
 layout: provider
-modified: '2026-06-21'
+modified: '2026-10-06'
 name: Truphone (1GLOBAL)
 nav: Providers
 network: true
-overview: 'Truphone (1GLOBAL) publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Connectivity API, Devices API, Organization API, and 2 more. Tagged areas include eSIM, IoT, Connectivity, SIM Management, and Telecommunications.
+overview: 'Truphone (1GLOBAL) publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Connectivity API, Devices API, Organization API, and 2 more. Tagged areas include eSIM, IoT, Connectivity, SIM Management, and Telecommunications.
 
 
-  Truphone (1GLOBAL)''s developer surface includes authentication, documentation, and 9 more developer resources.'
+  Truphone (1GLOBAL)''s developer surface includes engineering blog, authentication, documentation, and 9 more developer resources.'
 plans:
 - name: Truphone Plans Pricing
   plan_count: 4
@@ -171,23 +179,23 @@ rate_limits:
   name: Truphone Rate Limits
   slug: truphone-rate-limits
 score:
-  band: thin
-  composite: 32.1
+  band: emerging
+  composite: 25.1
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 58.0
+    artifact_dirs: 12
+    catalog_earned: 42.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.0
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.0
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 47.8
-    developer_ergonomics: 28.6
+    developer_ergonomics: 31.0
     discoverability: 66.1
-    operational_transparency: 21.6
+    operational_transparency: 7.9
   previous_composite: 32.1
   provenance:
     agentic_access: derived
@@ -202,9 +210,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 10.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

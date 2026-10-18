@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.6
-  scored_at: '2026-10-04'
+  score: 28.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -133,6 +133,21 @@ collections:
   name: Microsoft Edge Add-ons Browser Targets API
   slug: open-microsoft-edge-targets-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-edge/refs/heads/main/plans/microsoft-edge-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/microsoft-edge-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-edge/refs/heads/main/rate-limits/microsoft-edge-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/microsoft-edge-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-edge/refs/heads/main/finops/microsoft-edge-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/microsoft-edge-finops.yml
 - group: company
   title: ''
   type: Website
@@ -326,9 +341,13 @@ features:
 - description: Build extensions using the latest Manifest V3 specification with service workers and declarative APIs.
   name: Manifest V3 Support
 finops:
-- name: Microsoft Edge Finops
+- has_sources: true
+  method: generated
+  name: Microsoft Edge Finops
+  primary_unit: ''
   service_category: Developer Tools
   slug: microsoft-edge-finops
+  template: false
 image: https://www.microsoft.com/edge/favicon.ico
 integrations:
 - description: Authenticate to the Edge Add-ons API using Azure AD OAuth 2.0 client credentials flow.
@@ -405,13 +424,13 @@ modified: '2026-05-19'
 name: Microsoft Edge
 nav: Providers
 network: true
-overview: 'Microsoft Edge publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Browser API, Packages API, Pages API, and 5 more. Tagged areas include Browser, Chromium, Developer Tools, Edge, and Extensions.
+overview: 'Microsoft Edge is listed with 8 APIs on the [APIs.io](https://apis.io/) network, including Browser API, Packages API, Pages API, and 5 more. Tagged areas include Browser, Chromium, Developer Tools, Edge, and Extensions.
 
 
   The Microsoft Edge catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Microsoft Edge''s developer surface includes authentication, documentation, engineering blog, support, release notes, changelog, signup flow, and 27 more developer resources.'
+  Microsoft Edge''s developer surface includes authentication, documentation, engineering blog, support, release notes, changelog, signup flow, and 30 more developer resources.'
 plans:
 - name: Microsoft Edge Plans Pricing
   plan_count: 2
@@ -422,9 +441,10 @@ rate_limits:
   name: Microsoft Edge Rate Limits
   slug: microsoft-edge-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Microsoft Edge API Rules
+  name: Microsoft Edge — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -432,7 +452,8 @@ rules:
     info: 2
     warn: 3
   slug: microsoft-edge-jsonschema-spectral-rules
-- effective_rule_count: 73
+- authorship: generated
+  effective_rule_count: 73
   extends:
   - spectral:oas
   name: Microsoft Edge API Rules
@@ -445,17 +466,17 @@ rules:
   slug: microsoft-edge-spectral-rules
 score:
   band: developing
-  composite: 44.4
+  composite: 42.8
   coverage:
     artifact_dirs: 19
-    catalog_earned: 74.0
+    catalog_earned: 71.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 41.0
+    catalog_gap: 44.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 40.8
+    access_clarity: 32.9
     contract_governance: 27.3
     contract_quality: 28.1
     developer_ergonomics: 65.5
@@ -475,8 +496,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

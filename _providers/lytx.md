@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 48.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 26
+- acting_count: 21
   human_in_the_loop: 1
   name: Lytx Agentic Access
-  operation_count: 123
+  operation_count: 105
   slug: lytx-agentic-access
-  summary_line: 123 operations · 26 acting · 1 human-in-the-loop
+  summary_line: 105 operations · 21 acting · 1 human-in-the-loop
 api_count: 42
 apis:
 - baseURL: https://api.lytx.com/consent-management
@@ -351,6 +351,10 @@ collections:
   name: Lytx..Management.Api Consent Zones (GO9) API
   slug: open-lytx-zones-go9-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.lytx.com/blogs
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/lytx/refs/heads/main/capabilities/lytx-capability-edges.yml
   title: ''
@@ -474,37 +478,37 @@ mcp_servers:
 - description: Remote MCP server at developer.lytx.com over HTTP.
   name: Lytx MCP Server
   slug: lytx
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Lytx
 nav: Providers
 network: true
-overview: 'Lytx publishes 37 APIs on the [APIs.io](https://apis.io/) network, including Consent API, Devices (DriveCam) API, Devices (GO9) API, and 34 more. Tagged areas include Company, Fleet Management, Video Telematics, Vehicle Safety, and GPS Tracking.
+overview: 'Lytx publishes 37 API contracts indexed on the [APIs.io](https://apis.io/) network, including Consent API, Devices (DriveCam) API, Devices (GO9) API, and 34 more. Tagged areas include Company, Fleet Management, Video Telematics, Vehicle Safety, and GPS Tracking.
 
 
   The Lytx catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Lytx''s developer surface includes documentation, getting-started guide, authentication, API reference, support, and 20 more developer resources.'
+  Lytx''s developer surface includes engineering blog, documentation, getting-started guide, authentication, API reference, support, and 20 more developer resources.'
 random_paper: 3
 score:
   band: developing
-  composite: 40.2
+  composite: 40.8
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 21
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.6
   facets:
     access_clarity: 10.5
     contract_governance: 4.5
     contract_quality: 58.8
-    developer_ergonomics: 58.9
+    developer_ergonomics: 61.3
     discoverability: 80.0
     operational_transparency: 23.7
-  previous_composite: 39.7
+  previous_composite: 40.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -521,8 +525,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

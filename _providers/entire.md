@@ -33,10 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://entire.io/feed.xml
 - group: company
   title: ''
   type: Website
@@ -140,18 +144,18 @@ created: '2026-07-17'
 description: 'Entire is a developer platform built for both humans and AI agents, founded by former GitHub CEO Thomas Dohmke and launched with a $60M seed round. It pairs fast, distributed, Git-compatible hosting with agent session management: the Entire CLI hooks into your Git workflow and captures every coding-agent session — prompts, tool calls, and decisions — as Checkpoints indexed alongside commits, creating a searchable record of how code was written. Features include session-to-commit pairing, secret detection and user-defined redaction, multi-agent parallel review, cross-agent work resumption, and a distributed Git mirroring network for fast, rate-limit-free clones.'
 image: https://entire.io/favicon.svg
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Entire
 nav: Providers
 network: true
 overview: 'Entire is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Developer Tools, Developer Platform, Git, and Git Hosting.
 
 
-  Entire''s developer surface includes documentation, getting-started guide, engineering blog, signup flow, authentication, CLI, changelog, and 15 more developer resources.'
+  Entire''s developer surface includes documentation, getting-started guide, engineering blog, signup flow, authentication, CLI, changelog, and 16 more developer resources.'
 random_paper: 9
 score:
   band: thin
-  composite: 31.4
+  composite: 31.5
   coverage:
     artifact_dirs: 12
     catalog_earned: 27.0
@@ -159,7 +163,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 28.9
     contract_governance: 18.2
@@ -185,8 +189,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -214,7 +218,6 @@ tags:
 - Git
 - Git Hosting
 - Version Control
-- Source Control
 - AI Agents
 - Agent Infrastructure
 - CLI

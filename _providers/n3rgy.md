@@ -36,15 +36,15 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 13
+- acting_count: 12
   human_in_the_loop: 1
   name: N3Rgy Agentic Access
   operation_count: 26
   slug: n3rgy-agentic-access
-  summary_line: 26 operations · 13 acting · 1 human-in-the-loop
-api_count: 1
+  summary_line: 26 operations · 12 acting · 1 human-in-the-loop
+api_count: 2
 apis:
 - baseURL: https://api-v2.data.n3rgy.com
   baseurl_source: declared
@@ -117,6 +117,15 @@ asyncapis:
   name: N3Rgy Push Notifications Webhooks
   slug: n3rgy-push-notifications-webhooks
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/n3rgy/refs/heads/main/rate-limits/n3rgy-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/n3rgy-rate-limits.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.n3rgy.com/feed/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/n3rgy/refs/heads/main/capabilities/n3rgy-capability-edges.yml
   title: ''
@@ -261,17 +270,17 @@ examples:
   slug: n3rgy-retrieve-consented-mpxns-example
 image: https://www.n3rgy.com/wp-content/uploads/2023/03/Group.png
 layout: provider
-modified: '2026-07-27'
+modified: '2026-10-06'
 name: n3rgy
 nav: Providers
 network: true
-overview: 'n3rgy publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Create Export Profiles API, Customer Service API V2 API, Find Mpxn API, and 10 more. Tagged areas include Energy, United Kingdom, Utilities, Smart Metering, and Electricity.
+overview: 'n3rgy publishes 13 API contracts indexed on the [APIs.io](https://apis.io/) network, including Create Export Profiles API, Customer Service API V2 API, Find Mpxn API, and 10 more. Tagged areas include Energy, United Kingdom, Utilities, Smart Metering, and Electricity.
 
 
   The n3rgy catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  n3rgy''s developer surface includes authentication, documentation, signup flow, developer portal, pricing, support, changelog, and 19 more developer resources.'
+  n3rgy''s developer surface includes authentication, documentation, signup flow, developer portal, pricing, support, changelog, and 21 more developer resources.'
 random_paper: 15
 rate_limits:
 - limit_count: 4
@@ -281,7 +290,7 @@ score:
   band: developing
   composite: 47.0
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -320,8 +329,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 36.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

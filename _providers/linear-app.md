@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -57,6 +57,16 @@ apis:
   slug: linear-agents-api
 artifact_total: 27
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/linear-app/refs/heads/main/plans/linear-app-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/linear-app-plans-pricing.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/linear-app/refs/heads/main/finops/linear-app-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/linear-app-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/linear-app/refs/heads/main/agentic-access/linear-app-agentic-access.yml
   title: ''
@@ -215,9 +225,13 @@ features:
 - Mobile apps for iOS and Android
 - 25,000+ product teams using Linear
 finops:
-- name: Linear App Finops
+- has_sources: false
+  method: generated
+  name: Linear App Finops
+  primary_unit: ''
   service_category: API
   slug: linear-app-finops
+  template: true
 graphqls:
 - description: 'Single GraphQL endpoint exposing Linear''s full data model - issues, projects, initiatives, cycles, teams, users, comments, documents, customers, customer requests, and more. Auth via OAuth 2.0 Bearer '
   name: Linear GraphQL API
@@ -232,10 +246,10 @@ modified: '2026-05-23'
 name: Linear
 nav: Providers
 network: true
-overview: 'Linear publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Project Management, Issue Tracking, Productivity, Software-as-a-Service, and GraphQL.
+overview: 'Linear is listed with 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Project Management, Issue Tracking, Productivity, Software-as-a-Service, and GraphQL.
 
 
-  Linear''s developer surface includes signup flow, documentation, API reference, authentication, pricing, changelog, engineering blog, and 27 more developer resources.'
+  Linear''s developer surface includes signup flow, documentation, API reference, authentication, pricing, changelog, engineering blog, and 29 more developer resources.'
 plans:
 - name: Linear App Plans Pricing
   plan_count: 1
@@ -251,23 +265,23 @@ scopes:
   slug: linear-app-scopes
   summary_line: 4 scopes · authorizationCode
 score:
-  band: developing
-  composite: 44.1
+  band: thin
+  composite: 38.1
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 47.4
+    artifact_dirs: 14
+    catalog_earned: 34.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 67.6
+    catalog_gap: 81.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.0
   facets:
-    access_clarity: 79.5
+    access_clarity: 57.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 42.9
     discoverability: 63.3
-    operational_transparency: 74.2
+    operational_transparency: 60.5
   previous_composite: 44.1
   provenance:
     agentic_access: derived
@@ -278,9 +292,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

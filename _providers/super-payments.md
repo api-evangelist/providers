@@ -17,7 +17,7 @@ agent_readiness:
   dimensions:
     agent_card: false
     agent_skills: derived
-    agentic_access: false
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
     consent_identity: false
@@ -27,7 +27,7 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -35,8 +35,15 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.7
-  scored_at: '2026-10-04'
+  score: 38.4
+  scored_at: '2026-10-17'
+agentic_access:
+- acting_count: 15
+  human_in_the_loop: 0
+  name: Super Payments Agentic Access
+  operation_count: 31
+  slug: super-payments-agentic-access
+  summary_line: 31 operations · 15 acting
 api_count: 1
 apis:
 - baseURL: https://api.superpayments.com/2026-04-01
@@ -84,7 +91,7 @@ apis:
   description: The Webhooks API from Super Payments — 0 operation(s) for webhooks.
   name: Super Payments Webhooks API
   slug: super-payments-webhooks-api
-artifact_total: 32
+artifact_total: 73
 asyncapis:
 - description: Super Payments delivers real-time event notifications to merchant-configured endpoints. Webhooks are configured per Integration in the Business Portal. Every request carries a super-signature header (
   name: Super Payments Webhooks
@@ -142,6 +149,41 @@ collections:
   name: Super Payments Checkout Sessions Settlements API
   slug: open-super-payments-settlements-api
 common:
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/super-payments/refs/heads/main/agentic-access/super-payments-agentic-access.yml
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/super-payments-agentic-access.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/super-payments/refs/heads/main/rules/super-payments-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/super-payments-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/super-payments/refs/heads/main/json-ld/super-payments-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/super-payments-context.jsonld
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/super-payments/refs/heads/main/vocabulary/super-payments-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/super-payments-vocabulary.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/super-payments/refs/heads/main/mcp/super-payments-mcp.yml
+  title: ''
+  type: MCPServer
+  url: mcp/super-payments-mcp.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/super-payments/refs/heads/main/integrations/super-payments-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/super-payments-integration-edges.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/super-payments/refs/heads/main/vendors/super-payments-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/super-payments-vendors.yml
 - group: commercial
   href: https://raw.githubusercontent.com/api-evangelist/super-payments/refs/heads/main/plans/super-payments-plans-pricing.yml
   title: ''
@@ -323,18 +365,139 @@ common:
 created: '2026-07-17'
 description: Super Payments is a UK payments provider offering free card and open-banking (pay-by-bank) payment processing for businesses, funded by a customer-acquisition and cash-rewards model rather than per-transaction fees. Its REST API lets merchants create payments and checkout sessions, issue refunds, manage customers and reusable payment methods, run settlements and reconciliation, create no-code payment links, and configure cash rewards. The API uses date-based URL versioning, static API-key authentication, RFC 9457 problem+json errors, cursor pagination, HMAC-signed webhooks, an embedded super-card web component and hosted payment page, and a React Native SDK. Backed by Accel and Union Square Ventures.
 image: https://framerusercontent.com/images/eAdDRGD6sLo1NlXEu8bPS71k.png
+json_schemas:
+- name: CreateCheckoutSessionRequestDto
+  property_count: 2
+  slug: super-payments-create-checkout-session-request-dto
+- name: CreateCheckoutSessionResponseDto
+  property_count: 2
+  slug: super-payments-create-checkout-session-response-dto
+- name: CreateCustomer20260401RequestDto
+  property_count: 7
+  slug: super-payments-create-customer20260401-request-dto
+- name: CreateOffSessionPaymentIntentOutput
+  property_count: 7
+  slug: super-payments-create-off-session-payment-intent-output
+- name: CreateOnSessionPaymentIntentOutput
+  property_count: 7
+  slug: super-payments-create-on-session-payment-intent-output
+- name: CreatePaymentIntentInput
+  property_count: 0
+  slug: super-payments-create-payment-intent-input
+- name: CreatePaymentMethodRequestDto
+  property_count: 4
+  slug: super-payments-create-payment-method-request-dto
+- name: Customer20260401ResponseDto
+  property_count: 11
+  slug: super-payments-customer20260401-response-dto
+- name: GenerateRewardCalculationInput
+  property_count: 4
+  slug: super-payments-generate-reward-calculation-input
+- name: GenerateRewardCalculationOutputDto
+  property_count: 3
+  slug: super-payments-generate-reward-calculation-output-dto
+- name: GetPaymentTransactionOutput
+  property_count: 9
+  slug: super-payments-get-payment-transaction-output
+- name: GetPaymentsListOutput
+  property_count: 4
+  slug: super-payments-get-payments-list-output
+- name: GetRefundTransactionOutput
+  property_count: 6
+  slug: super-payments-get-refund-transaction-output
+- name: GetRefundsListOutput
+  property_count: 4
+  slug: super-payments-get-refunds-list-output
+- name: InitiatePayoutRefundInputDto
+  property_count: 4
+  slug: super-payments-initiate-payout-refund-input-dto
+- name: InitiatePayoutRefundOutputDto
+  property_count: 2
+  slug: super-payments-initiate-payout-refund-output-dto
+- name: InitiateRefundInputDto
+  property_count: 5
+  slug: super-payments-initiate-refund-input-dto
+- name: InitiateRefundOutputDto
+  property_count: 3
+  slug: super-payments-initiate-refund-output-dto
+- name: LinkInputDto
+  property_count: 12
+  slug: super-payments-link-input-dto
+- name: LinkResponseDto
+  property_count: 18
+  slug: super-payments-link-response-dto
+- name: PaginatedCustomer20260401ListResponse
+  property_count: 3
+  slug: super-payments-paginated-customer20260401-list-response
+- name: PaginatedLinksOutput
+  property_count: 3
+  slug: super-payments-paginated-links-output
+- name: PaginatedPaymentMethodListOutput
+  property_count: 3
+  slug: super-payments-paginated-payment-method-list-output
+- name: PaymentMethodResponseDto
+  property_count: 8
+  slug: super-payments-payment-method-response-dto
+- name: ProceedPaymentViaCheckoutSessionRequestDto
+  property_count: 11
+  slug: super-payments-proceed-payment-via-checkout-session-request-dto
+- name: ProceedPaymentViaCheckoutSessionResponseDto
+  property_count: 6
+  slug: super-payments-proceed-payment-via-checkout-session-response-dto
+- name: PutRewardConfigurationInputBody
+  property_count: 3
+  slug: super-payments-put-reward-configuration-input-body
+- name: RewardConfigurationOutputDto
+  property_count: 3
+  slug: super-payments-reward-configuration-output-dto
+- name: SettlementDetailResponse
+  property_count: 9
+  slug: super-payments-settlement-detail-response
+- name: SettlementListResponse
+  property_count: 4
+  slug: super-payments-settlement-list-response
+- name: SettlementReconciliationResponse
+  property_count: 4
+  slug: super-payments-settlement-reconciliation-response
+- name: SetupIntentSessionInputDto
+  property_count: 1
+  slug: super-payments-setup-intent-session-input-dto
+- name: SetupIntentSessionListOutputDto
+  property_count: 1
+  slug: super-payments-setup-intent-session-list-output-dto
+- name: SetupIntentSessionOutputDto
+  property_count: 3
+  slug: super-payments-setup-intent-session-output-dto
+- name: UpdateCustomer20260401RequestDto
+  property_count: 5
+  slug: super-payments-update-customer20260401-request-dto
+- name: UpsertOrderDetailsRequestDto
+  property_count: 3
+  slug: super-payments-upsert-order-details-request-dto
+- name: UpsertOrderDetailsResponseDto
+  property_count: 4
+  slug: super-payments-upsert-order-details-response-dto
+jsonld:
+- class_count: 86
+  name: Super Payments Context
+  property_count: 161
+  slug: super-payments-context
 layout: provider
+mcp_servers:
+- description: No official hosted/remote MCP server was found for Super Payments (no mcp.superpayments.com, no @superpayments MCP package in npm, not in the MCP registry). This is a CANDIDATE tool surface derived on
+  name: Super Payments MCP Server
+  slug: super-payments
 modified: '2026-09-16'
 name: Super Payments
 nav: Providers
 network: true
-overview: 'Super Payments publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Checkout Sessions API, Customer API, Payment Links API, and 6 more. Tagged areas include Company, Payments, Open Banking, Cash Rewards, and Checkout.
+overview: 'Super Payments publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Checkout Sessions API, Customer API, Payment Links API, and 6 more. Tagged areas include Company, Payments, Open Banking, Cash Rewards, and Checkout.
 
 
-  The Super Payments catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Super Payments catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Super Payments'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 32 more developer resources.'
+  Super Payments'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 39 more developer resources.'
 plans:
 - name: Super Payments Plans Pricing
   plan_count: 11
@@ -347,23 +510,36 @@ rate_limits:
 - limit_count: 2
   name: Super Payments Rate Limits
   slug: super-payments-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 55
+  extends:
+  - spectral:oas
+  name: Super Payments API Rules
+  rule_count: 14
+  severity_counts:
+    error: 13
+    hint: 0
+    info: 1
+    warn: 0
+  slug: super-payments-rules
 score:
-  band: strong
-  composite: 61.6
+  band: exemplar
+  composite: 67.0
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 57.0
+    artifact_dirs: 33
+    catalog_earned: 82.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 58.0
+    catalog_gap: 33.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 5.4
   facets:
     access_clarity: 76.3
-    contract_governance: 18.2
-    contract_quality: 60.5
+    contract_governance: 33.3
+    contract_quality: 73.9
     developer_ergonomics: 55.4
-    discoverability: 73.2
+    discoverability: 75.0
     operational_transparency: 59.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -375,6 +551,7 @@ score:
     - united-kingdom-ireland
   previous_composite: 61.6
   provenance:
+    agentic_access: derived
     conformance: first-party
     contracts:
       callable: 100.0
@@ -389,9 +566,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 29.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: true
     score: 22.2

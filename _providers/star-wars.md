@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -161,9 +161,13 @@ examples:
   name: Vehicle
   slug: vehicle
 finops:
-- name: Star Wars Finops
+- has_sources: false
+  method: generated
+  name: Star Wars Finops
+  primary_unit: ''
   service_category: ''
   slug: star-wars-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/star-wars.png
 json_schemas:
 - name: Film
@@ -194,7 +198,7 @@ modified: '2026-06-13'
 name: Star Wars API
 nav: Providers
 network: true
-overview: 'Star Wars API publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Films API, People API, Planets API, and 3 more. Tagged areas include Star Wars, Science Fiction, Entertainment, Film, and Characters.
+overview: 'Star Wars API publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Films API, People API, Planets API, and 3 more. Tagged areas include Star Wars, Science Fiction, Entertainment, Film, and Characters.
 
 
   The Star Wars API catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -211,9 +215,10 @@ rate_limits:
   name: Star Wars Rate Limits
   slug: star-wars-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Star Wars API API Rules
+  name: Star Wars API — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -222,18 +227,18 @@ rules:
     warn: 4
   slug: star-wars-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 30.1
+  band: emerging
+  composite: 25.9
   coverage:
     artifact_dirs: 14
-    catalog_earned: 61.5
+    catalog_earned: 53.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.6
+    catalog_gap: 61.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -4.2
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 9.8
     contract_quality: 53.4
     developer_ergonomics: 13.1
@@ -253,8 +258,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

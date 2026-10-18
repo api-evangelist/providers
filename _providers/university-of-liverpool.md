@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 5.0
-  scored_at: '2026-10-04'
+  score: 3.1
+  scored_at: '2026-10-17'
 api_count: 14
 apis:
 - description: OAI-PMH 2.0 metadata-harvesting interface for the University of Liverpool Repository, an EPrints 3.4.5 open-access archive of research outputs (journal articles, conference papers, theses, reports and
@@ -201,9 +201,13 @@ created: '2026-06-03'
 description: 'The University of Liverpool is a public research university in Liverpool, United Kingdom, a founding member of the Russell Group and of the civic "red brick" universities. It runs no public developer portal, publishes no OpenAPI, issues no API keys, and this profile does not pretend otherwise. What it does operate, on its own liverpool.ac.uk and liv.ac.uk hosts, are five genuinely institution-run machine surfaces: two EPrints OAI-PMH 2.0 providers — the University of Liverpool Repository (EPrints 3.4.5, eight metadata formats including RIOXX and uketd_dc) and DataCat, the research data catalogue (EPrints 3.4.4) — a keyless EPrints REST read interface on the repository, an Active Directory Federation Services OAuth 2.0 / OpenID Connect authorization server at fs.liverpool.ac.uk whose discovery document and JWKS are public, and a Shibboleth SAML 2.0 identity provider registered in the UK Access Management Federation and visible in eduGAIN. Its DataCite membership (BL.LPOOL, prefix
   10.17638, 16,405 DOIs resolving into its own repository), its ORCID affiliation programme, its ROR record and its Crossref presence through Liverpool University Press are all verifiable from public endpoints. Alongside these it is a tenant on four vendor platforms — Ex Libris Alma/Primo VE, Talis Aspire reading lists, Instructure Canvas and Symplectic Elements — whose contracts belong to those vendors, not to Liverpool. Student records, timetabling, module enrolment and the VLE sit behind SSO and are not publicly documented APIs. One trap worth recording: livrepository.liverpool.ac.uk returns 403 to a desktop-browser User-Agent and 200 to a harvester, so a browser-only probe grades a live repository dead.'
 finops:
-- name: University Of Liverpool Finops
+- has_sources: true
+  method: generated
+  name: University Of Liverpool Finops
+  primary_unit: ''
   service_category: Education
   slug: university-of-liverpool-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/university-of-liverpool.png
 jsonld:
 - class_count: 21
@@ -215,7 +219,7 @@ modified: '2026-09-01'
 name: University of Liverpool
 nav: Providers
 network: true
-overview: 'University of Liverpool publishes 14 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Higher Education, University, Russell Group, and United Kingdom.
+overview: 'University of Liverpool is listed with 14 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Higher Education, University, Russell Group, and United Kingdom.
 
 
   The University of Liverpool catalog on APIs.io includes 1 JSON-LD context.
@@ -238,22 +242,22 @@ scopes:
   summary_line: 9 scopes
 score:
   band: thin
-  composite: 33.7
+  composite: 27.6
   coverage:
     artifact_dirs: 12
-    catalog_earned: 60.4
+    catalog_earned: 47.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 54.6
+    catalog_gap: 68.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.1
+  delta: -6.1
   facets:
-    access_clarity: 47.9
+    access_clarity: 26.3
     contract_governance: 18.2
     contract_quality: 14.3
     developer_ergonomics: 28.6
     discoverability: 62.5
-    operational_transparency: 21.6
+    operational_transparency: 7.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -262,7 +266,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 38.8
+  previous_composite: 33.7
   provenance:
     conformance: first-party
   regulatory:
@@ -271,8 +275,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 42.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: falling
   upsert:
     applies: false

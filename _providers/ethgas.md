@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: ETHGas v1 REST + WebSocket API for market data, order placement/management, funding (collateral deposits/withdrawals), and validator/builder operations across whole-block commitments and inclusion pre
@@ -164,7 +164,7 @@ modified: '2026-07-19'
 name: ETHGas
 nav: Providers
 network: true
-overview: 'ETHGas publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Infrastructure, Blockchain, Ethereum, and Trading.
+overview: 'ETHGas is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Infrastructure, Blockchain, Ethereum, and Trading.
 
 
   The ETHGas catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -200,8 +200,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 23.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

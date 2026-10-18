@@ -28,20 +28,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.8
-  scored_at: '2026-10-04'
+  score: 22.9
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 3
+- acting_count: 2
   human_in_the_loop: 0
   name: Alaska Air Agentic Access
   operation_count: 11
   slug: alaska-air-agentic-access
-  summary_line: 11 operations · 3 acting
+  summary_line: 11 operations · 2 acting
 api_count: 8
 apis:
 - baseURL: https://api.alaskaair.com
@@ -114,6 +114,21 @@ collections:
   name: Alaska Air Cargo Airports Transactions API
   slug: open-alaska-air-transactions-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/alaska-air/refs/heads/main/plans/alaska-air-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/alaska-air-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/alaska-air/refs/heads/main/rate-limits/alaska-air-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/alaska-air-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/alaska-air/refs/heads/main/finops/alaska-air-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/alaska-air-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/alaska-air/refs/heads/main/agentic-access/alaska-air-agentic-access.yml
   title: ''
@@ -264,9 +279,13 @@ features:
 - description: Developer portal powered by Microsoft Azure API Management with subscription-based key management, interactive API console, and automatic API documentation generation.
   name: API Management via Azure
 finops:
-- name: Alaska Air Finops
+- has_sources: true
+  method: generated
+  name: Alaska Air Finops
+  primary_unit: ''
   service_category: Travel & Transportation
   slug: alaska-air-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/alaska-air.png
 integrations:
 - description: Developer portal and API gateway powered by Azure API Management with subscription key management and interactive testing console.
@@ -423,13 +442,13 @@ modified: '2026-05-19'
 name: Alaska Airlines
 nav: Providers
 network: true
-overview: 'Alaska Airlines publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Airports API, Flight Status API, Members API, and 5 more. Tagged areas include Airlines, Aviation, Travel, Cargo, and Loyalty.
+overview: 'Alaska Airlines is listed with 8 APIs on the [APIs.io](https://apis.io/) network, including Airports API, Flight Status API, Members API, and 5 more. Tagged areas include Airlines, Aviation, Travel, Cargo, and Loyalty.
 
 
   The Alaska Airlines catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Alaska Airlines'' developer surface includes authentication, developer portal, engineering blog, support, documentation, and 9 more developer resources.'
+  Alaska Airlines'' developer surface includes authentication, developer portal, engineering blog, support, documentation, and 12 more developer resources.'
 plans:
 - name: Alaska Air Plans Pricing
   plan_count: 1
@@ -456,9 +475,10 @@ rate_limits:
   name: Alaska Air Rate Limits
   slug: alaska-air-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Alaska Airlines API Rules
+  name: Alaska Airlines — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -466,7 +486,8 @@ rules:
     info: 2
     warn: 3
   slug: alaska-air-jsonschema-spectral-rules
-- effective_rule_count: 77
+- authorship: generated
+  effective_rule_count: 77
   extends:
   - spectral:oas
   name: Alaska Airlines API Rules
@@ -484,17 +505,17 @@ scopes:
   summary_line: 2 scopes · clientCredentials
 score:
   band: thin
-  composite: 28.1
+  composite: 26.6
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 67.0
+    artifact_dirs: 21
+    catalog_earned: 64.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 48.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 13.2
+    access_clarity: 5.3
     contract_governance: 27.3
     contract_quality: 21.7
     developer_ergonomics: 38.1
@@ -514,8 +535,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 5
 apis:
 - description: API reference for Apono's privileged access management platform.
@@ -51,6 +51,10 @@ apis:
   slug: apono-user-api
 artifact_total: 6
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.apono.io/blog/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/apono/refs/heads/main/security/apono-domain-security.yml
   title: ''
@@ -71,29 +75,34 @@ coverage:
 created: '2026-09-25'
 description: Apono provides a cloud‑native privileged access management (PAM) platform that delivers just‑in‑time, zero‑standing‑privilege access for humans, machines and AI agents. Now part of 1Password, Apono helps security, IAM and DevOps teams reduce risk by granting scoped permissions only when needed and automatically revoking them, while offering audit evidence for compliance.
 layout: provider
-modified: '2026-09-25'
+modified: '2026-10-06'
 name: Apono
 nav: Providers
 network: true
-overview: Apono publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Api Reference API, Apono API, Docs API, and 2 more. Tagged areas include Company, Privileged Access Management, Cloud Security, Zero Standing Privilege, and AI Agents.
+overview: 'Apono is listed with 5 APIs on the [APIs.io](https://apis.io/) network, including Api Reference API, Apono API, Docs API, and 2 more. Tagged areas include Company, Privileged Access Management, Cloud Security, Zero Standing Privilege, and AI Agents.
+
+
+  Apono''s developer surface includes engineering blog and 2 more developer resources.'
 random_paper: 13
 score:
   band: minimal
-  composite: 10.2
+  composite: 10.7
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 7
     catalog_earned: 38.0
     catalog_earned_first_party: 0.0
     catalog_gap: 62.0
     catalog_max: 100.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.5
   facets:
     access_clarity: 0.0
     contract_governance: 18.2
     contract_quality: 10.7
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 67.9
     operational_transparency: 0.0
+  previous_composite: 10.2
   provenance:
     conformance: first-party
     contracts:
@@ -108,12 +117,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
     reason: read_only
+screenshot: https://raw.githubusercontent.com/api-evangelist/apono/refs/heads/main/screenshots/apono-2026-10-11T095948.png
 security:
 - kind: domain-security
   name: Apono Domain Security

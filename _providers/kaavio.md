@@ -32,10 +32,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://info.kaavio.ai/blog
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://info.kaavio.ai/blog/rss.xml
 - group: company
   title: ''
   type: Website
@@ -104,14 +112,14 @@ created: '2026-07-17'
 description: Kaavio is an AI-powered product content platform for B2B distributors and manufacturers. It sources product data from supplier submissions, PDFs, spec sheets, internal systems (PIM, DAM, ERP) and the web, validates it with conflict detection and confidence scoring, generates market-ready content (structured attributes, SEO descriptions, FAQs, comparisons, substitutes), and deploys it to destination systems such as PIMs, e-commerce platforms, and channels. The platform handles catalogs ranging from 20,000 to more than a million SKUs and claims a 90% reduction in the time and effort to get market-ready SKU content online. Founded by Derek Gregg and Sam Bobb, based in San Francisco, and backed by Baukunst, Techstars, and Looking Glass Capital ($2.9M pre-seed).
 image: https://framerusercontent.com/assets/fokZBfWqKr0JvI796Gdtzdh7Cw.png
 layout: provider
-modified: '2026-08-14'
+modified: '2026-10-06'
 name: Kaavio
 nav: Providers
 network: true
 overview: 'Kaavio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Product Content, Product Data, Product Information Management, and Catalog Management.
 
 
-  Kaavio''s developer surface includes engineering blog, signup flow, and 8 more developer resources.'
+  Kaavio''s developer surface includes engineering blog, signup flow, and 10 more developer resources.'
 plans:
 - name: Kaavio Plans Pricing
   plan_count: 0
@@ -125,7 +133,7 @@ score:
   band: minimal
   composite: 10.5
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -153,8 +161,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 9.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

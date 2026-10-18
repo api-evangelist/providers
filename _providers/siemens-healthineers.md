@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 14
 apis:
 - description: Authentication and identity federation surface that lets partner applications running on the teamplay digital health platform, syngo.via OpenApps, and Cios mobile C-arm systems sign users in using the
@@ -156,7 +156,7 @@ modified: '2026-05-23'
 name: Siemens Healthineers
 nav: Providers
 network: true
-overview: 'Siemens Healthineers publishes 14 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Healthcare, Medical Imaging, Laboratory Diagnostics, Cancer Care, and Radiation Oncology.
+overview: 'Siemens Healthineers is listed with 14 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Healthcare, Medical Imaging, Laboratory Diagnostics, Cancer Care, and Radiation Oncology.
 
 
   The Siemens Healthineers catalog on APIs.io includes 1 JSON-LD context.
@@ -194,8 +194,8 @@ score:
     regime: Health
     regime_id: health
     score: 13.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

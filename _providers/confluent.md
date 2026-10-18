@@ -35,15 +35,15 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 46.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 268
+- acting_count: 265
   human_in_the_loop: 5
   name: Confluent Agentic Access
   operation_count: 528
   slug: confluent-agentic-access
-  summary_line: 528 operations · 268 acting · 5 human-in-the-loop
-api_count: 8
+  summary_line: 528 operations · 265 acting · 5 human-in-the-loop
+api_count: 10
 apis:
 - description: Stream, connect, process, and govern your data with an all-in-one, real-time platform from the pioneer in data streaming. Build faster, scale smarter, and turn data chaos into instantly accessible and
   name: Confluent
@@ -2812,9 +2812,13 @@ common:
 created: '2025-08-19'
 description: Stream, connect, process, and govern your data with an all-in-one, real-time platform from the pioneer in data streaming. Build faster, scale smarter, and turn data chaos into instantly accessible and usable data products with the market leading Data Streaming Platform.
 finops:
-- name: Confluent Finops
+- has_sources: false
+  method: generated
+  name: Confluent Finops
+  primary_unit: ''
   service_category: API
   slug: confluent-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/confluent.png
 json_schemas:
 - name: ApiKeyList
@@ -3011,7 +3015,7 @@ modified: '2026-08-27'
 name: Confluent
 nav: Providers
 network: true
-overview: 'Confluent publishes 152 APIs on the [APIs.io](https://apis.io/) network, including API Keys API, Clusters API, Consumer Groups API, and 149 more. Tagged areas include Data Streaming, Apache Kafka, Event Streaming, Stream Processing, and Schema Registry.
+overview: 'Confluent publishes 152 API contracts indexed on the [APIs.io](https://apis.io/) network, including API Keys API, Clusters API, Consumer Groups API, and 149 more. Tagged areas include Data Streaming, Apache Kafka, Event Streaming, Stream Processing, and Schema Registry.
 
 
   The Confluent catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
@@ -3028,7 +3032,8 @@ rate_limits:
   name: Confluent Rate Limits
   slug: confluent-rate-limits
 rules:
-- effective_rule_count: 56
+- authorship: generated
+  effective_rule_count: 56
   extends:
   - spectral:oas
   name: Confluent API Rules
@@ -3046,23 +3051,23 @@ scopes:
   summary_line: 5 scopes · clientCredentials
 score:
   band: exemplar
-  composite: 86.8
+  composite: 85.3
   coverage:
-    artifact_dirs: 34
-    catalog_earned: 87.8
+    artifact_dirs: 36
+    catalog_earned: 84.8
     catalog_earned_first_party: 24.0
-    catalog_gap: 27.3
+    catalog_gap: 30.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 7.7
+  delta: -8.1
   facets:
-    access_clarity: 100.0
+    access_clarity: 92.1
     contract_governance: 35.6
     contract_quality: 74.3
     developer_ergonomics: 80.4
     discoverability: 71.7
     operational_transparency: 92.1
-  previous_composite: 79.1
+  previous_composite: 93.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -3079,9 +3084,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: rising
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 50.0

@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.6
-  scored_at: '2026-10-04'
+  score: 23.8
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 0
@@ -572,6 +572,21 @@ collections:
   name: SAP Sales and Distribution (SD) SAP Sales Scheduling Agreement API
   slug: open-sap-sd-sales-scheduling-agreement
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sap-sales-and-distribution-sd/refs/heads/main/plans/sap-sales-and-distribution-sd-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/sap-sales-and-distribution-sd-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/sap-sales-and-distribution-sd/refs/heads/main/rate-limits/sap-sales-and-distribution-sd-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/sap-sales-and-distribution-sd-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sap-sales-and-distribution-sd/refs/heads/main/finops/sap-sales-and-distribution-sd-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/sap-sales-and-distribution-sd-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/sap-sales-and-distribution-sd/refs/heads/main/capabilities/sap-sales-and-distribution-sd-capability-edges.yml
   title: ''
@@ -779,9 +794,13 @@ examples:
   name: Sap Sd List Sales Orders Example
   slug: sap-sd-list-sales-orders-example
 finops:
-- name: Sap Sales And Distribution Sd Finops
+- has_sources: true
+  method: generated
+  name: Sap Sales And Distribution Sd Finops
+  primary_unit: ''
   service_category: ERP Module
   slug: sap-sales-and-distribution-sd-finops
+  template: false
 json_schemas:
 - name: BillingDocument
   property_count: 26
@@ -1097,13 +1116,13 @@ modified: '2026-08-21'
 name: SAP Sales and Distribution (SD)
 nav: Providers
 network: true
-overview: 'SAP Sales and Distribution (SD) publishes 46 APIs on the [APIs.io](https://apis.io/) network, including Billing Document API, Billing Document Item API, Billing Document Partner API, and 43 more. Tagged areas include Distribution, ERP, OData, S/4HANA, and Sales.
+overview: 'SAP Sales and Distribution (SD) publishes 46 API contracts indexed on the [APIs.io](https://apis.io/) network, including Billing Document API, Billing Document Item API, Billing Document Partner API, and 43 more. Tagged areas include Distribution, ERP, OData, S/4HANA, and Sales.
 
 
   The SAP Sales and Distribution (SD) catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  SAP Sales and Distribution (SD)''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, support, signup flow, and 36 more developer resources.'
+  SAP Sales and Distribution (SD)''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, support, signup flow, and 39 more developer resources.'
 plans:
 - name: Sap Sales And Distribution Sd Plans Pricing
   plan_count: 1
@@ -1114,9 +1133,10 @@ rate_limits:
   name: Sap Sales And Distribution Sd Rate Limits
   slug: sap-sales-and-distribution-sd-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: SAP Sales and Distribution (SD) API Rules
+  name: SAP Sales and Distribution (SD) — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1124,10 +1144,11 @@ rules:
     info: 1
     warn: 4
   slug: sap-sales-and-distribution-sd-jsonschema-spectral-rules
-- effective_rule_count: 58
+- authorship: unmarked
+  effective_rule_count: 58
   extends:
   - spectral:oas
-  name: SAP Sales and Distribution (SD) API Rules
+  name: SAP Sales and Distribution (SD) — sap sd rules
   rule_count: 17
   severity_counts:
     error: 8
@@ -1142,23 +1163,23 @@ scopes:
   summary_line: 17 scopes · clientCredentials
 score:
   band: developing
-  composite: 48.4
+  composite: 46.9
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 71.0
+    artifact_dirs: 22
+    catalog_earned: 68.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 44.0
+    catalog_gap: 47.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: -1.5
   facets:
-    access_clarity: 40.8
+    access_clarity: 32.9
     contract_governance: 27.3
     contract_quality: 66.8
     developer_ergonomics: 36.9
     discoverability: 67.9
     operational_transparency: 23.7
-  previous_composite: 47.8
+  previous_composite: 48.4
   provenance:
     agentic_access: derived
     contracts:
@@ -1172,8 +1193,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

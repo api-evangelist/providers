@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 45.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'Core REST API for Service Cloud operations: sObject CRUD over Case, CaseComment, EmailMessage, Knowledge articles and every other standard and custom object, plus SOQL query, SOSL search and composite'
@@ -361,9 +361,13 @@ common:
 created: '2024-01-15'
 description: 'Salesforce Service Cloud is the customer-service and contact-centre product on the Salesforce Platform, and its API surface is the Salesforce Platform API applied to service objects — Case, CaseComment, Knowledge articles, LiveChatTranscript, MessagingSession, entitlements and omni-channel routing — reached through the REST, SOAP, Bulk and Composite APIs. Alongside that record layer Salesforce ships purpose-built runtimes with their own contracts: an OpenAPI 3.0 document for the Einstein Bots Runtime API, a gRPC/protobuf contract for the Pub/Sub event API, a CometD Streaming API, and generally available hosted MCP servers that expose the sObject layer to AI agents over OAuth. There is no single global API host — every call is made against the customer''s own org at the instance_url returned with the OAuth token, on API version 67.0 (Summer ''26). Authentication is OAuth 2.0 only; Salesforce issues no API keys.'
 finops:
-- name: Service Cloud Finops
+- has_sources: false
+  method: generated
+  name: Service Cloud Finops
+  primary_unit: ''
   service_category: API
   slug: service-cloud-finops
+  template: true
 image: https://wp.sfdcdigital.com/en-us/wp-content/uploads/sites/4/2024/11/logo-salesforce.svg
 layout: provider
 mcp_servers:
@@ -374,7 +378,7 @@ modified: '2026-09-16'
 name: Salesforce Service Cloud APIs
 nav: Providers
 network: true
-overview: 'Salesforce Service Cloud APIs publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Bot API, Health API, Versions API, and 16 more. Tagged areas include Cloud, CRM, Customer Service, Enterprise, and Salesforce.
+overview: 'Salesforce Service Cloud APIs publishes 19 API contracts indexed on the [APIs.io](https://apis.io/) network, including Bot API, Health API, Versions API, and 16 more. Tagged areas include Cloud, CRM, Customer Service, Enterprise, and Salesforce.
 
 
   The Salesforce Service Cloud APIs catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -397,17 +401,17 @@ scopes:
   summary_line: 36 scopes · authorizationCode/implicit
 score:
   band: exemplar
-  composite: 71.9
+  composite: 70.4
   coverage:
-    artifact_dirs: 27
-    catalog_earned: 54.0
+    artifact_dirs: 28
+    catalog_earned: 51.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 61.0
+    catalog_gap: 64.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 100.0
+    access_clarity: 92.1
     contract_governance: 18.2
     contract_quality: 50.8
     developer_ergonomics: 82.7
@@ -429,8 +433,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

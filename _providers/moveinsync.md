@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: JWT-authenticated REST and webhook API for employee-transport integration. Partners authenticate at api.moveinsync.com/auth/token (OAuth2 client-credentials over HTTP Basic) to obtain a 24-hour JWT, t
@@ -120,7 +120,7 @@ modified: '2026-07-20'
 name: MoveInSync
 nav: Providers
 network: true
-overview: 'MoveInSync publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Vertical Software, Transportation, Employee Commute, and Mobility.
+overview: 'MoveInSync is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Vertical Software, Transportation, Employee Commute, and Mobility.
 
 
   The MoveInSync catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -155,8 +155,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -32,10 +32,15 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 6
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/revv/refs/heads/main/rate-limits/revv-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/revv-rate-limits.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/revv/refs/heads/main/security/revv-domain-security.yml
   title: ''
@@ -125,10 +130,10 @@ modified: '2026-08-14'
 name: Revv
 nav: Providers
 network: true
-overview: 'Revv is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Document Automation, Electronic Signature, Contract Management, and Sales Enablement.
+overview: 'Revv is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Document Automation, E-Signature, Contract Management, and Sales Enablement.
 
 
-  Revv''s developer surface includes authentication, pricing, signup flow, engineering blog, and 11 more developer resources.'
+  Revv''s developer surface includes authentication, pricing, signup flow, engineering blog, and 12 more developer resources.'
 plans:
 - name: Revv Plans Pricing
   plan_count: 3
@@ -163,8 +168,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -192,7 +197,7 @@ slug: revv
 tags:
 - Company
 - Document Automation
-- Electronic Signature
+- E-Signature
 - Contract Management
 - Sales Enablement
 - Workflow Automation

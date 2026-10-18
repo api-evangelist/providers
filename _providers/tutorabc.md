@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -75,7 +75,7 @@ modified: '2026-07-21'
 name: TutorABC
 nav: Providers
 network: true
-overview: 'TutorABC is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, Online Learning, Language Learning, and EdTech.
+overview: 'TutorABC is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, E-Learning, Language Learning, and EdTech.
 
 
   TutorABC''s developer surface includes engineering blog, signup flow, and 5 more developer resources.'
@@ -84,7 +84,7 @@ score:
   band: minimal
   composite: 7.7
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -110,13 +110,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/tutorabc/refs/heads/main/screenshots/tutorabc-2026-10-11T131306.png
 security:
 - kind: domain-security
   name: Tutorabc Domain Security
@@ -126,10 +127,9 @@ slug: tutorabc
 tags:
 - Company
 - Education
-- Online Learning
+- E-Learning
 - Language Learning
 - EdTech
-- E-Learning
 - Consumer
 website: https://www.tutorabc.com/site/zh-tw
 ---

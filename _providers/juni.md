@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.juni.co/press
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/juni/refs/heads/main/security/juni-trust-center.yml
   title: ''
@@ -97,31 +101,31 @@ created: '2026-07-17'
 description: 'Juni is a Swedish fintech (headquartered in Göteborg, founded 2020) that provides a financial platform for ecommerce and digital businesses: business banking with multi-currency accounts, corporate and virtual cards, local and global payments, spend management, working-capital financing, and AI-driven accounting with integrations such as Fortnox. Juni is a licensed payment institution under the oversight of the Swedish Financial Supervisory Authority (SFSA) and is backed by EQT Ventures. It exposes a regulatory PSD2 / Open Banking (ASPSP) API surface for third-party providers, but publishes no public product API, SDKs, or developer portal. This profile was added to the API Evangelist network as a portfolio lead and enriched by the pipeline.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/juni.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Juni
 nav: Providers
 network: true
 overview: 'Juni is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Banking, Spend Management, and Payments.
 
 
-  Juni''s developer surface includes support, pricing, signup flow, and 10 more developer resources.'
+  Juni''s developer surface includes engineering blog, support, pricing, signup flow, and 10 more developer resources.'
 random_paper: 20
 score:
   band: emerging
-  composite: 17.4
+  composite: 17.9
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 8
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 36.8
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 4.8
+    developer_ergonomics: 7.1
     discoverability: 55.4
     operational_transparency: 15.8
   jurisdiction:
@@ -147,13 +151,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 15.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/juni/refs/heads/main/screenshots/juni-2026-10-11T190843.png
 security:
 - kind: domain-security
   name: Juni Domain Security

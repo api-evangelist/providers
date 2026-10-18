@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -31,7 +31,7 @@ agentic_access:
   operation_count: 48
   slug: phare-agentic-access
   summary_line: 48 operations · 26 acting
-api_count: 1
+api_count: 2
 apis:
 - baseURL: https://api.phare.io
   baseurl_source: declared
@@ -89,6 +89,10 @@ asyncapis:
   name: Phare Webhooks
   slug: phare-webhooks
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://phare.io/blog/rss/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/phare/refs/heads/main/capabilities/phare-capability-edges.yml
   title: ''
@@ -288,24 +292,25 @@ jsonld:
   property_count: 14
   slug: phare-context
 layout: provider
-modified: '2026-09-27'
+modified: '2026-10-06'
 name: Phare
 nav: Providers
 network: true
-overview: 'Phare publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Alert Rules API, Incidents API, Integrations API, and 7 more. Tagged areas include Company, Monitoring, Incident Management, Analytics, and European.
+overview: 'Phare publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Alert Rules API, Incidents API, Integrations API, and 7 more. Tagged areas include Company, Monitoring, Incident Management, Analytics, and European.
 
 
   The Phare catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Phare''s developer surface includes changelog, getting-started guide, API reference, authentication, documentation, pricing, engineering blog, and 30 more developer resources.'
+  Phare''s developer surface includes changelog, getting-started guide, API reference, authentication, documentation, pricing, engineering blog, and 31 more developer resources.'
 plans:
 - name: Phare Plans Pricing
   plan_count: 2
   slug: phare-plans-pricing
 random_paper: 0
 rules:
-- effective_rule_count: 57
+- authorship: generated
+  effective_rule_count: 57
   extends:
   - spectral:oas
   name: Phare API Rules
@@ -320,12 +325,13 @@ score:
   band: strong
   composite: 62.0
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 25
     catalog_earned: 70.8
     catalog_earned_first_party: 8.0
     catalog_gap: 44.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 65.8
     contract_governance: 22.0
@@ -338,6 +344,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - europe
+  previous_composite: 62.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -353,11 +360,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: flat
   upsert:
     applies: true
     score: 0.0
+screenshot: https://raw.githubusercontent.com/api-evangelist/phare/refs/heads/main/screenshots/phare-2026-10-11T112526.png
 security:
 - kind: authentication
   name: Phare Authentication

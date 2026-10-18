@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 39.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 192
   human_in_the_loop: 6
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 340
   slug: skilljar-agentic-access
   summary_line: 340 operations · 192 acting · 6 human-in-the-loop
-api_count: 1
+api_count: 2
 apis:
 - baseURL: https://api.skilljar.com/v1/
   baseurl_source: declared
@@ -823,7 +823,7 @@ modified: '2026-07-21'
 name: Skilljar
 nav: Providers
 network: true
-overview: 'Skilljar publishes 78 APIs on the [APIs.io](https://apis.io/) network, including Assets API, Courses API, Courses > Labels API, and 75 more. Tagged areas include Company, Education, Learning Management System, Customer Education, and Training.
+overview: 'Skilljar publishes 78 API contracts indexed on the [APIs.io](https://apis.io/) network, including Assets API, Courses API, Courses > Labels API, and 75 more. Tagged areas include Company, Education, LMS, Customer Education, and Training.
 
 
   The Skilljar catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -840,7 +840,7 @@ score:
   band: developing
   composite: 48.2
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -871,8 +871,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 34.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -891,7 +891,7 @@ slug: skilljar
 tags:
 - Company
 - Education
-- Learning Management System
+- LMS
 - Customer Education
 - Training
 - Online Courses

@@ -27,20 +27,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.0
-  scored_at: '2026-10-04'
+  score: 17.1
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 17
+- acting_count: 16
   human_in_the_loop: 1
   name: Usercentrics Agentic Access
   operation_count: 29
   slug: usercentrics-agentic-access
-  summary_line: 29 operations · 17 acting · 1 human-in-the-loop
+  summary_line: 29 operations · 16 acting · 1 human-in-the-loop
 api_count: 3
 apis:
 - description: Hosted server-side Google Tag Manager service for first-party data collection, consent enforcement, and tag execution off the browser. Includes Meta Signals Gateway for the Meta Conversions API and co
@@ -251,9 +251,13 @@ features:
 - description: 47+ supported languages with geotargeted banners.
   name: Multi-Language
 finops:
-- name: Usercentrics Finops
+- has_sources: true
+  method: generated
+  name: Usercentrics Finops
+  primary_unit: ''
   service_category: Privacy & Compliance
   slug: usercentrics-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/usercentrics.png
 integrations:
 - name: WordPress
@@ -292,7 +296,7 @@ modified: '2026-05-25'
 name: Usercentrics
 nav: Providers
 network: true
-overview: 'Usercentrics publishes 11 APIs on the [APIs.io](https://apis.io/) network, including CCPA API, Consent API, Consent Mode API, and 8 more. Tagged areas include Privacy, Consent, CMP, Compliance, and GDPR.
+overview: 'Usercentrics publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including CCPA API, Consent API, Consent Mode API, and 8 more. Tagged areas include Privacy, Consent, CMP, Compliance, and GDPR.
 
 
   Usercentrics'' developer surface includes developer portal, signup flow, pricing, engineering blog, support, documentation, and 12 more developer resources.'
@@ -306,23 +310,23 @@ rate_limits:
   name: Usercentrics Rate Limits
   slug: usercentrics-rate-limits
 score:
-  band: developing
-  composite: 44.9
+  band: thin
+  composite: 36.6
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 59.6
+    artifact_dirs: 12
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 55.4
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 81.1
+    access_clarity: 52.6
     contract_governance: 0.0
     contract_quality: 43.3
     developer_ergonomics: 42.9
     discoverability: 62.5
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -345,9 +349,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 11.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: REST threat-intelligence API from the QAX Threat Intelligence Center. Provides IP reputation, domain and URL reputation, file/hash verdicts, compromise (失陷) detection intelligence and vulnerability in
@@ -48,6 +48,10 @@ apis:
   slug: qax-threat-intelligence-mcp-service
 artifact_total: 8
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.xlab.qianxin.com/rss/
 - group: company
   title: ''
   type: Website
@@ -165,14 +169,14 @@ mcp_servers:
 - description: Remote MCP server at mcp.ti.qianxin.com requiring an API key; 16 tools listed.
   name: QAX Threat Intelligence MCP Service
   slug: qax-threat-intelligence-mcp-service
-modified: '2026-08-26'
+modified: '2026-10-06'
 name: Qi Anxin
 nav: Providers
 network: true
-overview: 'Qi Anxin publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Cybersecurity, Threat Intelligence, and Endpoint Security.
+overview: 'Qi Anxin is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Cybersecurity, Threat Intelligence, and Endpoint Security.
 
 
-  Qi Anxin''s developer surface includes documentation, API reference, signup flow, support, engineering blog, authentication, sandbox, and 16 more developer resources.'
+  Qi Anxin''s developer surface includes documentation, API reference, signup flow, support, engineering blog, authentication, sandbox, and 17 more developer resources.'
 plans:
 - name: Qi Anxin Plans Pricing
   plan_count: 0
@@ -184,7 +188,7 @@ rate_limits:
   slug: qi-anxin-rate-limits
 score:
   band: emerging
-  composite: 19.7
+  composite: 19.8
   coverage:
     artifact_dirs: 17
     catalog_earned: 37.0
@@ -192,7 +196,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 0.0
     contract_governance: 18.2
@@ -217,8 +221,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

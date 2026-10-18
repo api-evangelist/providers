@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 10.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 4
 apis:
 - description: Use your own applicant tracking or HR application to send candidate hire information to Insperity Premier Onboarding. One published operation, POST /public/Employee/Onboarding/v2, which accepts a call
@@ -156,7 +156,7 @@ modified: '2026-09-13'
 name: Insperity
 nav: Providers
 network: true
-overview: 'Insperity publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 1000, Human Resources, Payroll, Benefits, and HRIS.
+overview: 'Insperity is listed with 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 1000, Human Resources, Payroll, Benefits, and HRIS.
 
 
   Insperity''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 14 more developer resources.'
@@ -220,8 +220,8 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 20.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

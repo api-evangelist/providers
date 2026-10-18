@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: documented
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.4
-  scored_at: '2026-10-04'
+  score: 28.5
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 128
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 222
   slug: flatfile-agentic-access
   summary_line: 222 operations · 128 acting
-api_count: 1
+api_count: 2
 apis:
 - baseURL: https://api.x.flatfile.com/v1
   baseurl_source: declared
@@ -310,6 +310,16 @@ collections:
   name: API Reference subpackage_accounts subpackage_workbooks API
   slug: open-flatfile-subpackage-workbooks-api
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/flatfile/refs/heads/main/rate-limits/flatfile-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/flatfile-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/flatfile/refs/heads/main/finops/flatfile-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/flatfile-finops.yml
 - group: commercial
   href: https://raw.githubusercontent.com/api-evangelist/flatfile/refs/heads/main/plans/flatfile-plans-pricing.yml
   title: ''
@@ -391,9 +401,13 @@ common:
 created: '2026-03-16'
 description: Flatfile is a data exchange platform that helps teams import, transform, validate, and collaborate on file-based data. The Flatfile API provides programmatic access to spaces, workbooks, sheets, records, files, documents, jobs, events, agents, environments, users, guests, and related primitives for building automated data onboarding and ingestion workflows.
 finops:
-- name: Flatfile Finops
+- has_sources: false
+  method: generated
+  name: Flatfile Finops
+  primary_unit: ''
   service_category: API
   slug: flatfile-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/flatfile.png
 layout: provider
 mcp_servers:
@@ -404,10 +418,10 @@ modified: '2026-05-19'
 name: Flatfile
 nav: Providers
 network: true
-overview: 'Flatfile publishes 32 APIs on the [APIs.io](https://apis.io/) network, including Subpackage Accounts API, Subpackage Actions API, Subpackage Agent Exports API, and 29 more. Tagged areas include Data Exchange, Data Ingestion, Data Onboarding, Data Validation, and ETL.
+overview: 'Flatfile publishes 32 API contracts indexed on the [APIs.io](https://apis.io/) network, including Subpackage Accounts API, Subpackage Actions API, Subpackage Agent Exports API, and 29 more. Tagged areas include Data Exchange, Data Ingestion, Data Onboarding, Data Validation, and ETL.
 
 
-  Flatfile''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, and 11 more developer resources.'
+  Flatfile''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, and 13 more developer resources.'
 plans:
 - name: Flatfile Plans Pricing
   plan_count: 1
@@ -419,17 +433,17 @@ rate_limits:
   slug: flatfile-rate-limits
 score:
   band: developing
-  composite: 44.2
+  composite: 42.7
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 51.0
+    artifact_dirs: 13
+    catalog_earned: 48.0
     catalog_earned_first_party: 8.0
-    catalog_gap: 64.0
+    catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 60.5
+    access_clarity: 52.6
     contract_governance: 0.0
     contract_quality: 50.1
     developer_ergonomics: 50.0
@@ -449,8 +463,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

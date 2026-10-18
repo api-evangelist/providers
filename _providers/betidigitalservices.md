@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: API endpoints for Betidigitalservices platform
@@ -31,6 +31,14 @@ apis:
   slug: betidigitalservices-api
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://betadigital.in/category/blogs/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://betadigital.in/feed/
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/betidigitalservices/refs/heads/main/llms/betidigitalservices-llms.txt
   title: ''
@@ -70,30 +78,31 @@ created: '2026-09-28'
 description: Beta Digital Services is a technology and digital marketing firm based in India, offering a wide range of services including marketplace management, e‑commerce marketing, social media advertising, web development, and AI‑powered digital solutions. Founded in 2018, the company serves brands across major Indian marketplaces such as Amazon, Flipkart, and Myntra, helping them grow through product onboarding, catalog management, advertising, and analytics. The team combines strategy, creativity, and technology to deliver scalable solutions for businesses seeking to expand their online presence.
 image: https://betadigital.in/wp-content/uploads/2026/03/cropped-beta_logo_4__1_-removebg-preview.png
 layout: provider
-modified: '2026-09-28'
+modified: '2026-10-06'
 name: Betidigitalservices
 nav: Providers
 network: true
-overview: 'Betidigitalservices publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Digital Marketing, E-Commerce, Marketplace Services, and Web Development.
+overview: 'Betidigitalservices is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Digital Marketing, E-Commerce, Marketplace Services, and Web Development.
 
 
-  Betidigitalservices'' developer surface includes signup flow and 5 more developer resources.'
+  Betidigitalservices'' developer surface includes engineering blog, signup flow, and 6 more developer resources.'
 random_paper: 20
 score:
   band: minimal
-  composite: 10.3
+  composite: 10.9
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 9
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.6
   facets:
     access_clarity: 23.7
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 64.3
     operational_transparency: 0.0
   jurisdiction:
@@ -101,6 +110,7 @@ score:
     countries:
     - india
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 10.3
   provenance:
     mcp: derived
   regulatory:
@@ -109,12 +119,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 9.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/betidigitalservices/refs/heads/main/screenshots/betidigitalservices-2026-10-11T102003.png
 security:
 - kind: domain-security
   name: Betidigitalservices Domain Security

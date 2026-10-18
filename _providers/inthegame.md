@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 71
+- acting_count: 67
   human_in_the_loop: 0
   name: Inthegame Agentic Access
   operation_count: 108
   slug: inthegame-agentic-access
-  summary_line: 108 operations · 71 acting
+  summary_line: 108 operations · 67 acting
 api_count: 1
 apis:
 - baseURL: https://api-dev.inthegame.io
@@ -347,7 +347,7 @@ modified: '2026-07-19'
 name: Inthegame
 nav: Providers
 network: true
-overview: 'Inthegame publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Analytics API, Category API, and 18 more. Tagged areas include Company, Streaming, CTV, OTT, and Video.
+overview: 'Inthegame publishes 21 API contracts indexed on the [APIs.io](https://apis.io/) network, including Admin API, Analytics API, Category API, and 18 more. Tagged areas include Company, Streaming, CTV, OTT, and Video.
 
 
   The Inthegame catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -359,7 +359,7 @@ score:
   band: thin
   composite: 36.3
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -390,8 +390,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

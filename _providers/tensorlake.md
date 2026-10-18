@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -94,6 +94,10 @@ collections:
   name: Tensorlake API
   slug: open-tensorlake
 common:
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.tensorlake.ai/pricing
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/tensorlake/refs/heads/main/agentic-access/tensorlake-agentic-access.yml
   title: ''
@@ -147,46 +151,50 @@ common:
 created: '2026-07-12'
 description: Tensorlake is a document ingestion and data extraction platform for AI applications. Its Document Ingestion API parses PDFs, images, and other documents into layout-aware Markdown and structured chunks (OCR, tables, figures, signatures), performs schema-guided structured extraction and classification, and manages reusable files and datasets. Work is submitted as asynchronous parse jobs over a REST API and retrieved by polling or webhooks. Tensorlake Cloud also runs serverless workflows and MicroVM sandboxes for agentic document pipelines.
 finops:
-- name: Tensorlake Finops
+- has_sources: true
+  method: generated
+  name: Tensorlake Finops
+  primary_unit: ''
   service_category: AI and Machine Learning
   slug: tensorlake-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tensorlake.png
 layout: provider
 modified: '2026-07-12'
 name: Tensorlake
 nav: Providers
 network: true
-overview: 'Tensorlake publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Datasets API, Files API, Parse API, and 2 more. Tagged areas include Document Extraction, Data Extraction, Document Ingestion, Document Parsing, and OCR.
+overview: 'Tensorlake publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Datasets API, Files API, Parse API, and 2 more. Tagged areas include Document Extraction, Data Extraction, Document Ingestion, Document Parsing, and OCR.
 
 
-  Tensorlake''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
+  Tensorlake''s developer surface includes pricing, authentication, documentation, engineering blog, and 8 more developer resources.'
 plans:
 - name: Tensorlake Plans Pricing
-  plan_count: 4
+  plan_count: 14
   slug: tensorlake-plans-pricing
 random_paper: 2
 rate_limits:
-- limit_count: 3
+- limit_count: 0
   name: Tensorlake Rate Limits
   slug: tensorlake-rate-limits
 score:
   band: thin
-  composite: 36.8
+  composite: 34.3
   coverage:
     artifact_dirs: 11
-    catalog_earned: 61.6
-    catalog_earned_first_party: 0.0
-    catalog_gap: 53.4
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.5
   facets:
-    access_clarity: 36.3
+    access_clarity: 42.1
     contract_governance: 0.0
     contract_quality: 55.5
     developer_ergonomics: 32.1
     discoverability: 66.1
-    operational_transparency: 31.1
+    operational_transparency: 2.6
   previous_composite: 36.8
   provenance:
     agentic_access: derived
@@ -201,8 +209,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

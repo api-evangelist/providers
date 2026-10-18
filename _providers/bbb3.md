@@ -14,7 +14,7 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: platform
+    mcp_server: documented
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: false
@@ -22,8 +22,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.2
-  scored_at: '2026-10-04'
+  score: 3.5
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
@@ -66,14 +66,15 @@ overview: Bbb3 is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 random_paper: 15
 score:
   band: minimal
-  composite: 2.5
+  composite: 2.6
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 20.0
     catalog_earned_first_party: 0.0
     catalog_gap: 95.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.1
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
@@ -87,20 +88,23 @@ score:
     reasons:
     - owner: catalog
       reason: venue_as_website
+  previous_composite: 2.5
   provenance:
-    mcp: platform-generated
+    mcp: first-party
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/bbb3/refs/heads/main/screenshots/bbb3-2026-10-11T101632.png
 security:
 - kind: domain-security
   name: Bbb3 Domain Security

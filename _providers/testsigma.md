@@ -34,14 +34,23 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: REST API to manage Testsigma entities (projects, applications, environments, elements, uploads, test plans) and to trigger and poll test-plan executions remotely. Authenticated with a Bearer API Key.
   name: Testsigma REST API
   slug: testsigma-rest-api
-artifact_total: 5
+artifact_total: 6
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/testsigma/refs/heads/main/plans/testsigma-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/testsigma-plans-pricing.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://testsigma.com/blog/feed/
 - group: company
   title: ''
   type: Website
@@ -181,28 +190,32 @@ created: '2026-07-17'
 description: Testsigma is an agentic, GenAI-powered codeless test automation platform. AI co-workers work alongside QA teams to author and maintain automated tests in natural language across web, mobile, desktop, API, and packaged applications like Salesforce and SAP. Testsigma exposes a REST API (app.testsigma.com/api/v1, Bearer API-Key authentication) to manage projects, applications, environments, elements, uploads, and test plans, and to trigger and poll test-plan executions remotely from CI/CD pipelines. A Community Edition is open source under Apache 2.0. Testsigma is backed by Accel.
 image: https://website-static.testsigma.com/website-next/nextjs/6d1168/favicons/apple-touch-icon.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Testsigma
 nav: Providers
 network: true
-overview: 'Testsigma publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Testing, Test Automation, and QA.
+overview: 'Testsigma is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Testing, Test Automation, and QA.
 
 
-  Testsigma''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
+  Testsigma''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 25 more developer resources.'
+plans:
+- name: Testsigma Plans Pricing
+  plan_count: 2
+  slug: testsigma-plans-pricing
 random_paper: 9
 score:
   band: developing
-  composite: 43.6
+  composite: 47.8
   coverage:
-    artifact_dirs: 15
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 17
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 4.2
   facets:
-    access_clarity: 60.5
+    access_clarity: 81.6
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 71.4
@@ -224,8 +237,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

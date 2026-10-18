@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://api.luno.com
@@ -193,7 +193,7 @@ modified: '2026-07-20'
 name: Luno
 nav: Providers
 network: true
-overview: 'Luno publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cryptocurrency, Exchange, Bitcoin, and Ethereum.
+overview: 'Luno is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cryptocurrency, Exchange, Bitcoin, and Ethereum.
 
 
   The Luno catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -209,7 +209,7 @@ score:
   band: developing
   composite: 49.9
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
@@ -234,8 +234,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 32.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

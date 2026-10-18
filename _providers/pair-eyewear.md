@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Shopify-hosted Universal Commerce Protocol shopping service exposed over MCP for agent-driven catalog search, cart, and buyer-approved checkout on the Pair Eyewear storefront.
@@ -126,7 +126,7 @@ modified: '2026-07-20'
 name: Pair Eyewear
 nav: Providers
 network: true
-overview: 'Pair Eyewear publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Eyewear, E-Commerce, and Retail.
+overview: 'Pair Eyewear is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Eyewear, E-Commerce, and Retail.
 
 
   Pair Eyewear''s developer surface includes documentation, support, engineering blog, signup flow, authentication, and 11 more developer resources.'
@@ -140,7 +140,7 @@ score:
   band: thin
   composite: 26.5
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -165,8 +165,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

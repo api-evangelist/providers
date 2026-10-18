@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 14
+- acting_count: 10
   human_in_the_loop: 0
   name: Intelerad Agentic Access
   operation_count: 15
   slug: intelerad-agentic-access
-  summary_line: 15 operations · 14 acting
+  summary_line: 15 operations · 10 acting
 api_count: 1
 apis:
 - baseURL: https://access.dicomgrid.com/api/v3
@@ -123,6 +123,10 @@ collections:
   name: InteleShare / Ambra v3 Services API (Modeled) HL7 Webhook API
   slug: open-intelerad-webhook-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.intelerad.com/en/feed/
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/intelerad/refs/heads/main/agentic-access/intelerad-agentic-access.yml
   title: ''
@@ -177,19 +181,23 @@ common:
 created: '2026-07-05'
 description: Intelerad Medical Systems is an enterprise medical imaging company whose platform spans diagnostic PACS (IntelePACS), the InteleViewer / zero-footprint web viewer, a vendor-neutral archive (VNA), and the cloud image-exchange platform InteleShare - the product formed after Intelerad acquired Ambra Health (Ambra Image Exchange) in 2021. The InteleShare / Ambra platform exposes a documented public "v3 Services" REST-like API plus a Storage API for programmatically managing DICOM studies, patients, orders, reports, HL7 message flows, routing, and multi-tenant namespaces. Integration is built on medical-imaging interoperability standards - DICOM and DICOMweb (WADO / QIDO / STOW), HL7 v2 (ORM, ORU, ADT), and FHIR - with a Gateway that routes DICOM and HL7 between on-premise systems and the cloud, plus EHR/RIS integrations (Epic, Cerner, Athena). Core PACS/RIS APIs are partner- and contract-gated; the InteleShare / Ambra v3 API is the publicly documented developer surface.
 finops:
-- name: Intelerad Finops
+- has_sources: true
+  method: generated
+  name: Intelerad Finops
+  primary_unit: ''
   service_category: Healthcare Imaging Platform
   slug: intelerad-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/intelerad.png
 layout: provider
-modified: '2026-07-05'
+modified: '2026-10-06'
 name: Intelerad
 nav: Providers
 network: true
-overview: 'Intelerad publishes 9 APIs on the [APIs.io](https://apis.io/) network, including HL7 API, Namespace API, Order API, and 6 more. Tagged areas include Medical Imaging, PACS, Enterprise Imaging, Radiology, and DICOM.
+overview: 'Intelerad publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including HL7 API, Namespace API, Order API, and 6 more. Tagged areas include Medical Imaging, PACS, Enterprise Imaging, Radiology, and DICOM.
 
 
-  Intelerad''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
+  Intelerad''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
 plans:
 - name: Intelerad Plans Pricing
   plan_count: 1
@@ -201,22 +209,22 @@ rate_limits:
   slug: intelerad-rate-limits
 score:
   band: thin
-  composite: 33.4
+  composite: 26.5
   coverage:
-    artifact_dirs: 10
-    catalog_earned: 58.0
+    artifact_dirs: 11
+    catalog_earned: 42.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.0
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.9
   facets:
-    access_clarity: 34.7
+    access_clarity: 13.2
     contract_governance: 0.0
     contract_quality: 42.2
     developer_ergonomics: 31.0
     discoverability: 66.1
-    operational_transparency: 28.4
+    operational_transparency: 7.9
   previous_composite: 33.4
   provenance:
     agentic_access: derived
@@ -231,9 +239,9 @@ score:
     regime: Health
     regime_id: health
     score: 13.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

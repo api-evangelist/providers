@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -353,7 +353,7 @@ modified: '2026-07-18'
 name: Dinari
 nav: Providers
 network: true
-overview: 'Dinari publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Corporate Actions API, Entities API, and 7 more. Tagged areas include Company, Tokenized Securities, Stocks, ETFs, and Brokerage.
+overview: 'Dinari publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, Corporate Actions API, Entities API, and 7 more. Tagged areas include Company, Tokenized Securities, Stocks, ETFs, and Brokerage.
 
 
   The Dinari catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -365,7 +365,7 @@ score:
   band: developing
   composite: 44.0
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -396,8 +396,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

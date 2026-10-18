@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://modelmedicines.com/newsroom
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/model-medicines/refs/heads/main/security/model-medicines-domain-security.yml
   title: ''
@@ -53,28 +57,31 @@ created: '2026-07-17'
 description: Model Medicines is an AI-first biotechnology company based in San Diego, California, discovering and developing first-in-class small-molecule drugs by targeting fundamental disease mechanisms it calls biological choke points. Its end-to-end GALILEO AI engine spans drug design, target discovery, and preclinical development, supported by specialized models including AmesNet for regulatory-grade toxicology prediction and ChemPrint for chemical property prediction. Lead programs target RdRp Thumb-1 (a conserved allosteric pocket on viral RNA-dependent RNA polymerase) and BRD4, with lead assets MDL-001, a broad-spectrum oral antiviral candidate, and MDL-4102. Surfaced as a portfolio company of 8vc and added to the API Evangelist network. As of this enrichment pass Model Medicines publishes no public API, developer portal, SDK, or documentation surface; its AI platform is used internally for drug discovery.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/model-medicines.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Model Medicines
 nav: Providers
 network: true
-overview: Model Medicines is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Drug Discovery, Artificial Intelligence, and Pharmaceuticals.
+overview: 'Model Medicines is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Drug Discovery, Artificial Intelligence, and Pharmaceuticals.
+
+
+  Model Medicines'' developer surface includes engineering blog and 3 more developer resources.'
 random_paper: 1
 score:
   band: minimal
-  composite: 6.2
+  composite: 6.7
   coverage:
-    artifact_dirs: 2
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 10.5
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 48.2
     operational_transparency: 0.0
   jurisdiction:
@@ -91,13 +98,14 @@ score:
     regime: Health
     regime_id: health
     score: 7.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/model-medicines/refs/heads/main/screenshots/model-medicines-2026-10-11T191024.png
 security:
 - kind: domain-security
   name: Model Medicines Domain Security

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -92,6 +92,16 @@ collections:
   name: TheGamesDB API
   slug: open-thegamesdb
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/thegamesdb/refs/heads/main/plans/thegamesdb-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/thegamesdb-plans-pricing.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/thegamesdb/refs/heads/main/finops/thegamesdb-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/thegamesdb-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/thegamesdb/refs/heads/main/agentic-access/thegamesdb-agentic-access.yml
   title: ''
@@ -179,9 +189,13 @@ features:
 - description: Request multiple game or platform IDs in a single API call
   name: Batch Requests
 finops:
-- name: Thegamesdb Finops
+- has_sources: false
+  method: generated
+  name: Thegamesdb Finops
+  primary_unit: ''
   service_category: API
   slug: thegamesdb-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/thegamesdb.png
 integrations:
 - description: Popular retro gaming frontend using TheGamesDB for scraping
@@ -248,13 +262,13 @@ modified: '2026-05-19'
 name: TheGamesDB
 nav: Providers
 network: true
-overview: 'TheGamesDB publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Developers API, Games API, Genres API, and 2 more. Tagged areas include Database, Gaming, Video Games, Metadata, and Artwork.
+overview: 'TheGamesDB publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Developers API, Games API, Genres API, and 2 more. Tagged areas include Database, Gaming, Video Games, Metadata, and Artwork.
 
 
   The TheGamesDB catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  TheGamesDB''s developer surface includes documentation, signup flow, authentication, and 7 more developer resources.'
+  TheGamesDB''s developer surface includes documentation, signup flow, authentication, and 9 more developer resources.'
 plans:
 - name: Thegamesdb Plans Pricing
   plan_count: 3
@@ -265,9 +279,10 @@ rate_limits:
   name: Thegamesdb Rate Limits
   slug: thegamesdb-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: TheGamesDB API Rules
+  name: TheGamesDB — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -275,7 +290,8 @@ rules:
     info: 1
     warn: 4
   slug: thegamesdb-jsonschema-spectral-rules
-- effective_rule_count: 68
+- authorship: generated
+  effective_rule_count: 68
   extends:
   - spectral:oas
   name: TheGamesDB API Rules
@@ -288,17 +304,17 @@ rules:
   slug: thegamesdb-spectral-rules
 score:
   band: thin
-  composite: 33.7
+  composite: 32.2
   coverage:
     artifact_dirs: 15
-    catalog_earned: 66.4
+    catalog_earned: 63.4
     catalog_earned_first_party: 0.0
-    catalog_gap: 48.6
+    catalog_gap: 51.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 28.9
+    access_clarity: 21.1
     contract_governance: 27.3
     contract_quality: 52.4
     developer_ergonomics: 21.4
@@ -318,8 +334,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

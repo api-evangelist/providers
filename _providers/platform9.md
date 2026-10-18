@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: OpenStack-compatible REST API for Platform9 Private Cloud Director, covering Keystone identity/authentication, Nova compute, Cinder block storage, Neutron networking, Glance images, and a Kubernetes s
@@ -42,6 +42,10 @@ apis:
   slug: platform9-private-cloud-director-api
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://platform9.com/feed/
 - group: company
   title: ''
   type: Website
@@ -148,26 +152,26 @@ created: '2026-07-17'
 description: Platform9 is an enterprise private cloud company whose flagship Private Cloud Director is a full-featured VMware alternative for running virtual machines and containers on your own hardware. Built on a hardened OpenStack and Kubernetes foundation, it delivers high availability, live migration, dynamic resource rebalancing, and multi-tenancy, and exposes an OpenStack-compatible REST API (Keystone identity, Nova compute, Cinder block storage, Neutron networking, Glance images, and a Kubernetes service) together with the unified pcdctl CLI so teams can automate compute, storage, networking, and cluster operations programmatically at scale. Platform9 also offers Managed OpenStack, Managed Kubernetes, a free Community Edition, and the vJailbreak VMware migration tool.
 image: https://logo.clearbit.com/platform9.com
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Platform9
 nav: Providers
 network: true
-overview: 'Platform9 publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Infrastructure, Private Cloud, OpenStack, and Kubernetes.
+overview: 'Platform9 is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Infrastructure, Private Cloud, OpenStack, and Kubernetes.
 
 
-  Platform9''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 16 more developer resources.'
+  Platform9''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 17 more developer resources.'
 random_paper: 2
 score:
   band: thin
-  composite: 37.7
+  composite: 37.8
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 42.1
     contract_governance: 18.2
@@ -184,8 +188,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 25.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

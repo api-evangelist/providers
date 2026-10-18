@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.9
-  scored_at: '2026-10-04'
+  score: 19.0
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -139,6 +139,21 @@ collections:
   name: IBM MQ Administration REST Channels Topics API
   slug: open-ibm-mq-topics-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/ibm-mq/refs/heads/main/plans/ibm-mq-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/ibm-mq-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/ibm-mq/refs/heads/main/rate-limits/ibm-mq-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/ibm-mq-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/ibm-mq/refs/heads/main/finops/ibm-mq-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/ibm-mq-finops.yml
 - group: company
   title: ''
   type: Website
@@ -214,9 +229,13 @@ common:
 created: '2024-01-20'
 description: APIs for IBM MQ messaging middleware for enterprise integration.
 finops:
-- name: Ibm Mq Finops
+- has_sources: true
+  method: generated
+  name: Ibm Mq Finops
+  primary_unit: ''
   service_category: Messaging + Integration
   slug: ibm-mq-finops
+  template: false
 image: https://www.ibm.com/brand/experience-guides/developer/8f4e3cc842d31b9a55e57cb2b0e49605/02_8-bar-positive.svg
 json_schemas:
 - name: IBM MQ Queue Manager
@@ -235,13 +254,13 @@ modified: '2026-05-19'
 name: IBM MQ
 nav: Providers
 network: true
-overview: 'IBM MQ publishes 11 APIs on the [APIs.io](https://apis.io/) network, including JMS API, Channels API, Installations API, and 8 more. Tagged areas include Async, Enterprise, Integration, Messaging, and Middleware.
+overview: 'IBM MQ publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including JMS API, Channels API, Installations API, and 8 more. Tagged areas include Async, Enterprise, Integration, Messaging, and Middleware.
 
 
   The IBM MQ catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  IBM MQ''s developer surface includes authentication, getting-started guide, pricing, support, engineering blog, and 11 more developer resources.'
+  IBM MQ''s developer surface includes authentication, getting-started guide, pricing, support, engineering blog, and 14 more developer resources.'
 plans:
 - name: Ibm Mq Plans Pricing
   plan_count: 3
@@ -252,10 +271,11 @@ rate_limits:
   name: Ibm Mq Rate Limits
   slug: ibm-mq-rate-limits
 rules:
-- effective_rule_count: 33
+- authorship: generated
+  effective_rule_count: 33
   extends:
   - spectral:asyncapi
-  name: IBM MQ API Rules
+  name: IBM MQ — asyncapi rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -263,9 +283,10 @@ rules:
     info: 0
     warn: 6
   slug: ibm-mq-asyncapi-spectral-rules
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: IBM MQ API Rules
+  name: IBM MQ — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -273,7 +294,8 @@ rules:
     info: 2
     warn: 4
   slug: ibm-mq-jsonschema-spectral-rules
-- effective_rule_count: 0
+- authorship: unmarked
+  effective_rule_count: 0
   extends: []
   name: IBM MQ API Rules
   rule_count: 0
@@ -285,17 +307,17 @@ rules:
   slug: ibm-mq-rules
 score:
   band: thin
-  composite: 39.0
+  composite: 37.5
   coverage:
     artifact_dirs: 15
-    catalog_earned: 45.5
+    catalog_earned: 42.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 69.5
+    catalog_gap: 72.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 26.3
+    access_clarity: 18.4
     contract_governance: 13.6
     contract_quality: 61.4
     developer_ergonomics: 47.6
@@ -315,8 +337,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

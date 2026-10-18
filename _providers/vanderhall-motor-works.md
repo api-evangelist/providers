@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 35.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: An OAuth-protected Model Context Protocol endpoint served from the Vanderhall Admin Portal at https://portal.vanderhallusa.com/mcp. The endpoint is live and speaks JSON-RPC 2.0, but every method — inc
@@ -31,6 +31,10 @@ apis:
   slug: vanderhall-admin-portal-mcp-server
 artifact_total: 7
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://vanderhallusa.com/blog/
 - group: company
   title: ''
   type: Website
@@ -124,14 +128,14 @@ mcp_servers:
 - description: Remote MCP server at portal.vanderhallusa.com over HTTP requiring OAuth.
   name: Vanderhall Admin Portal MCP Server
   slug: vanderhall-admin-portal-mcp-server
-modified: '2026-09-02'
+modified: '2026-10-06'
 name: Vanderhall Motor Works
 nav: Providers
 network: true
-overview: 'Vanderhall Motor Works publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Automotive, Manufacturing, Electric Vehicles, and Power-Sports.
+overview: 'Vanderhall Motor Works is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Automotive, Manufacturing, Electric Vehicles, and Power-Sports.
 
 
-  Vanderhall Motor Works'' developer surface includes support, authentication, and 16 more developer resources.'
+  Vanderhall Motor Works'' developer surface includes engineering blog, support, authentication, and 16 more developer resources.'
 plans:
 - name: Vanderhall Motor Works Plans Pricing
   plan_count: 0
@@ -148,20 +152,20 @@ scopes:
   summary_line: 1 scope
 score:
   band: emerging
-  composite: 16.2
+  composite: 16.7
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 16
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 6.6
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 16.7
+    developer_ergonomics: 19.0
     discoverability: 68.3
     operational_transparency: 2.6
   jurisdiction:
@@ -181,13 +185,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 27.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/vanderhall-motor-works/refs/heads/main/screenshots/vanderhall-motor-works-2026-10-11T131611.png
 security:
 - kind: authentication
   name: Vanderhall Motor Works Authentication

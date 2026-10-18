@@ -26,14 +26,14 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: false
-    rate_limit_signal: documented
+    protected_resource_metadata: verified
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 13.7
-  scored_at: '2026-10-04'
+  score: 15.4
+  scored_at: '2026-10-17'
 api_count: 4
 apis:
 - description: Provision and manage employees in an Awardco instance. Awardco's public documentation names Create User, Import Users (bulk), and Reset User Password endpoints, all flagged as sensitive and permission
@@ -98,9 +98,13 @@ created: '2026-07-10'
 description: Awardco is an all-in-one employee recognition, rewards, and engagement platform built around a global rewards marketplace that includes a native Amazon Business integration, gift cards, service awards, and swag. Awardco exposes a documented public REST API at https://api.awardco.com/api for administrators and integration partners - callers authenticate with a permission-scoped API key passed as a request header, all responses are JSON with a success flag, and all timestamps are ISO 8601. The API is not open self-serve - it is gated behind an Awardco account and the API Key Management permission, and partners additionally send an X-Partner-Id header. Documented capabilities cover user provisioning (create, import, reset password), recognizing employees and awarding points, and retrieving or scheduling reports. Awardco also ships prebuilt HRIS, SSO/SAML, Slack, and Microsoft Teams integrations plus Awardco Connect for custom flows. Exact request and response schemas for individual
   methods are not published on the open web, so the API surfaces below are modeled from Awardco's public documentation and help center rather than a released OpenAPI definition.
 finops:
-- name: Awardco Finops
+- has_sources: true
+  method: generated
+  name: Awardco Finops
+  primary_unit: ''
   service_category: ''
   slug: awardco-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/awardco.png
 layout: provider
 mcp_servers:
@@ -111,7 +115,7 @@ modified: '2026-07-10'
 name: Awardco
 nav: Providers
 network: true
-overview: 'Awardco publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Employee Recognition, Rewards, Engagement, Human Resources, and Incentives.
+overview: 'Awardco is listed with 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Employee Recognition, Rewards, Engagement, Human Resources, and Incentives.
 
 
   Awardco''s developer surface includes documentation, authentication, engineering blog, and 6 more developer resources.'
@@ -126,17 +130,17 @@ rate_limits:
   slug: awardco-rate-limits
 score:
   band: emerging
-  composite: 17.1
+  composite: 11.4
   coverage:
-    artifact_dirs: 8
-    catalog_earned: 53.8
+    artifact_dirs: 9
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 61.2
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.7
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 17.9
@@ -151,9 +155,9 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

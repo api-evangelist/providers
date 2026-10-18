@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: CKAN Action API for data.gov.mk, a consistent JSON-over-HTTP interface over the national catalog. Standard actions include package_search, package_show, package_list, organization_list, group_list, an
@@ -61,7 +61,7 @@ modified: '2026-06-23'
 name: data.gov.mk
 nav: Providers
 network: true
-overview: 'data.gov.mk publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Open Data, CKAN, Data Catalog, DCAT, and Government Data.
+overview: 'data.gov.mk is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Open Data, CKAN, Data Catalog, DCAT, and Government Data.
 
 
   data.gov.mk''s developer surface includes documentation and 2 more developer resources.'
@@ -70,7 +70,7 @@ score:
   band: minimal
   composite: 6.5
   coverage:
-    artifact_dirs: 1
+    artifact_dirs: 2
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -102,13 +102,14 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 0.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/data-gov-mk/refs/heads/main/screenshots/data-gov-mk-2026-10-11T103540.png
 slug: data-gov-mk
 tags:
 - Open Data

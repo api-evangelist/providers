@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 10
+- acting_count: 9
   human_in_the_loop: 0
   name: Microsoft Fabric Agentic Access
   operation_count: 17
   slug: microsoft-fabric-agentic-access
-  summary_line: 17 operations · 10 acting
+  summary_line: 17 operations · 9 acting
 api_count: 5
 apis:
 - description: 'Microsoft Fabric provides SQL connectivity to lakehouses and data warehouses through TDS endpoints. Developers can query Fabric data using standard SQL tools, JDBC/ODBC drivers, and client libraries, '
@@ -89,6 +89,21 @@ collections:
   name: Microsoft Fabric REST API (Core)
   slug: open-microsoft-fabric
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-fabric/refs/heads/main/plans/microsoft-fabric-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/microsoft-fabric-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-fabric/refs/heads/main/rate-limits/microsoft-fabric-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/microsoft-fabric-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-fabric/refs/heads/main/finops/microsoft-fabric-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/microsoft-fabric-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/microsoft-fabric/refs/heads/main/agentic-access/microsoft-fabric-agentic-access.yml
   title: ''
@@ -168,19 +183,23 @@ common:
 created: '2024-01-01'
 description: Microsoft Fabric is a unified analytics platform that brings together data engineering, data science, real-time analytics, and business intelligence. It provides REST APIs for managing workspaces, lakehouses, warehouses, data pipelines, notebooks, and other Fabric items.
 finops:
-- name: Microsoft Fabric Finops
+- has_sources: false
+  method: generated
+  name: Microsoft Fabric Finops
+  primary_unit: ''
   service_category: API
   slug: microsoft-fabric-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/microsoft-fabric.png
 layout: provider
 modified: '2026-05-19'
 name: Microsoft Fabric
 nav: Providers
 network: true
-overview: 'Microsoft Fabric publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Capacities API, Connections API, Items API, and 2 more. Tagged areas include Data Analytics, Data Engineering, Data Platform, Lakehouse, and Microsoft.
+overview: 'Microsoft Fabric is listed with 5 APIs on the [APIs.io](https://apis.io/) network, including Capacities API, Connections API, Items API, and 2 more. Tagged areas include Data Analytics, Data Engineering, Data Platform, Lakehouse, and Microsoft.
 
 
-  Microsoft Fabric''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, engineering blog, support, and 11 more developer resources.'
+  Microsoft Fabric''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, engineering blog, support, and 14 more developer resources.'
 plans:
 - name: Microsoft Fabric Plans Pricing
   plan_count: 3
@@ -192,17 +211,17 @@ rate_limits:
   slug: microsoft-fabric-rate-limits
 score:
   band: developing
-  composite: 42.1
+  composite: 40.6
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 49.0
+    artifact_dirs: 12
+    catalog_earned: 46.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 66.0
+    catalog_gap: 69.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 47.4
+    access_clarity: 39.5
     contract_governance: 0.0
     contract_quality: 46.3
     developer_ergonomics: 50.0
@@ -222,8 +241,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 25.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

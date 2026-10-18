@@ -37,8 +37,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.9
-  scored_at: '2026-10-04'
-api_count: 1
+  scored_at: '2026-10-17'
+api_count: 2
 apis:
 - description: The documented v1 API on HyperDX Cloud, covering alerts, dashboards and chart series queries at api.hyperdx.io under /api/v1, authenticated with a Bearer personal API key. Documented as prose on hyper
   name: HyperDX Cloud API (v1)
@@ -91,7 +91,7 @@ apis:
   description: Endpoints for managing webhooks
   name: HyperDX Webhooks API
   slug: hyperdx-webhooks-api
-artifact_total: 17
+artifact_total: 18
 asyncapis:
 - description: ''
   name: Hyperdx Webhooks
@@ -267,6 +267,10 @@ common:
   title: ''
   type: OpenAPI
   url: openapi/_original/hyperdx-external-api-openapi.json
+- group: design
+  title: ''
+  type: SpectralRules
+  url: https://github.com/hyperdxio/hyperdx/blob/398270105758da5a2724906749886a0a0587a177/packages/api/.spectral.yaml
 created: '2026-08-27'
 description: HyperDX is an open-source observability platform that unifies logs, metrics, traces, session replay and errors on top of ClickHouse and OpenTelemetry, giving engineers one place to search raw events, correlate a log line to its trace and that span to a session replay, build dashboards and run threshold alerts. It ships as an MIT-licensed self-hostable stack (the app, a Node.js API, an opinionated OpenTelemetry collector distribution and ClickHouse), as HyperDX Cloud at hyperdx.io, and as the user interface of ClickStack after ClickHouse acquired the company in March 2025. Its developer surface is a REST management API for dashboards, alerts, sources, saved searches, connections and webhooks, plus a first-party MCP server and an agent-friendly terminal CLI.
 image: https://avatars.githubusercontent.com/u/130113031?v=4
@@ -279,13 +283,13 @@ modified: '2026-09-16'
 name: HyperDX
 nav: Providers
 network: true
-overview: 'HyperDX publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Alerts API, Charts API, Connections API, and 8 more. Tagged areas include Company, Observability, Monitoring, Logging, and Tracing.
+overview: 'HyperDX publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Alerts API, Charts API, Connections API, and 8 more. Tagged areas include Company, Observability, Monitoring, Logging, and Tracing.
 
 
-  The HyperDX catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The HyperDX catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  HyperDX''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, and 30 more developer resources.'
+  HyperDX''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, and 31 more developer resources.'
 plans:
 - name: Hyperdx Plans Pricing
   plan_count: 4
@@ -295,20 +299,33 @@ rate_limits:
 - limit_count: 1
   name: Hyperdx Rate Limits
   slug: hyperdx-rate-limits
+rules:
+- authorship: provider
+  effective_rule_count: 43
+  extends:
+  - spectral:oas
+  name: HyperDX — hyperdx rules
+  rule_count: 2
+  severity_counts:
+    error: 2
+    hint: 0
+    info: 0
+    warn: 0
+  slug: hyperdx-hyperdx-spectral-rules
 score:
-  band: strong
-  composite: 62.5
+  band: exemplar
+  composite: 68.1
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 57.0
-    catalog_earned_first_party: 20.0
-    catalog_gap: 58.0
+    artifact_dirs: 26
+    catalog_earned: 72.0
+    catalog_earned_first_party: 35.0
+    catalog_gap: 43.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 5.6
   facets:
     access_clarity: 76.3
-    contract_governance: 4.5
+    contract_governance: 50.0
     contract_quality: 59.9
     developer_ergonomics: 80.4
     discoverability: 68.3
@@ -329,9 +346,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

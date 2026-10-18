@@ -36,8 +36,8 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 34.9
-  scored_at: '2026-10-04'
-api_count: 2
+  scored_at: '2026-10-17'
+api_count: 4
 apis:
 - baseURL: https://pms.rentalready.io/api/v3/
   baseurl_source: declared
@@ -499,7 +499,7 @@ modified: '2026-08-22'
 name: GuestReady
 nav: Providers
 network: true
-overview: 'GuestReady publishes 62 APIs on the [APIs.io](https://apis.io/) network, including Accounting Invoices API, Amenities API, Bathrooms API, and 59 more. Tagged areas include Property Management, Short-Term Rental, Vacation Rentals, Hospitality, and Travel.
+overview: 'GuestReady publishes 62 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounting Invoices API, Amenities API, Bathrooms API, and 59 more. Tagged areas include Property Management, Short-Term Rental, Vacation Rentals, Hospitality, and Travel.
 
 
   GuestReady''s developer surface includes authentication, engineering blog, pricing, support, FAQ, changelog, and 23 more developer resources.'
@@ -519,12 +519,12 @@ scopes:
   summary_line: 54 scopes · authorizationCode
 score:
   band: developing
-  composite: 43.9
+  composite: 44.4
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 45.0
+    artifact_dirs: 24
+    catalog_earned: 48.0
     catalog_earned_first_party: 8.0
-    catalog_gap: 70.0
+    catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.5
@@ -533,9 +533,9 @@ score:
     contract_governance: 4.5
     contract_quality: 42.1
     developer_ergonomics: 39.9
-    discoverability: 71.7
+    discoverability: 76.7
     operational_transparency: 39.5
-  previous_composite: 43.4
+  previous_composite: 43.9
   provenance:
     conformance: derived
     contracts:
@@ -551,8 +551,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

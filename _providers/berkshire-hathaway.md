@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The BNSF API Center provides customer APIs for programmatic integration with BNSF Railway freight shipping operations. APIs enable real-time shipment tracing, intermodal hub operations, pricing and ra
@@ -146,9 +146,13 @@ features:
 - description: McLane Company provides wholesale distribution of grocery and foodservice products to retail and restaurant customers across the United States.
   name: Wholesale Distribution
 finops:
-- name: Berkshire Hathaway Finops
+- has_sources: false
+  method: generated
+  name: Berkshire Hathaway Finops
+  primary_unit: ''
   service_category: API
   slug: berkshire-hathaway-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/berkshire-hathaway.png
 integrations:
 - description: BNSF APIs integrate with TMS platforms used by shippers and third-party logistics providers to automate freight booking, tracking, and documentation within existing supply chain workflows.
@@ -160,7 +164,7 @@ modified: '2026-09-19'
 name: Berkshire Hathaway
 nav: Providers
 network: true
-overview: Berkshire Hathaway publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Conglomerate, Energy, Finance, Freight Rail, and Insurance.
+overview: Berkshire Hathaway is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Conglomerate, Energy, Finance, Freight Rail, and Insurance.
 plans:
 - name: Berkshire Hathaway Plans Pricing
   plan_count: 0
@@ -188,17 +192,17 @@ rate_limits:
   slug: berkshire-hathaway-rate-limits
 score:
   band: emerging
-  composite: 25.5
+  composite: 23.9
   coverage:
     artifact_dirs: 12
-    catalog_earned: 52.0
+    catalog_earned: 49.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 31.6
+    access_clarity: 23.7
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 40.5
@@ -216,8 +220,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 8.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

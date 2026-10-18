@@ -36,8 +36,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 52.0
-  scored_at: '2026-10-04'
-api_count: 1
+  scored_at: '2026-10-17'
+api_count: 2
 apis:
 - baseURL: https://partners-api.thriveglobal.com
   baseurl_source: declared
@@ -238,7 +238,7 @@ modified: '2026-07-21'
 name: Thrive Global
 nav: Providers
 network: true
-overview: 'Thrive Global publishes 8 APIs on the [APIs.io](https://apis.io/) network, including audio experiences API, Auth API, Content API, and 5 more. Tagged areas include Company, Consumer, Wellness, Wellbeing, and Behavior Change.
+overview: 'Thrive Global publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including audio experiences API, Auth API, Content API, and 5 more. Tagged areas include Company, Consumer, Wellness, Wellbeing, and Behavior Change.
 
 
   Thrive Global''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 19 more developer resources.'
@@ -247,7 +247,7 @@ score:
   band: thin
   composite: 38.0
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -277,8 +277,8 @@ score:
     regime: Health
     regime_id: health
     score: 23.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -65,6 +65,21 @@ collections:
   name: Amazon Kinesis Data Firehose API
   slug: open-amazon-kinesis-firehose
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-kinesis-firehose/refs/heads/main/plans/amazon-kinesis-firehose-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/amazon-kinesis-firehose-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-kinesis-firehose/refs/heads/main/rate-limits/amazon-kinesis-firehose-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/amazon-kinesis-firehose-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-kinesis-firehose/refs/heads/main/finops/amazon-kinesis-firehose-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/amazon-kinesis-firehose-finops.yml
 - group: company
   title: ''
   type: Website
@@ -174,9 +189,13 @@ features:
 - description: Compress data using GZIP, ZIP, or Snappy before delivering to S3 to reduce storage costs.
   name: Data Compression
 finops:
-- name: Amazon Kinesis Firehose Finops
+- has_sources: false
+  method: generated
+  name: Amazon Kinesis Firehose Finops
+  primary_unit: ''
   service_category: API
   slug: amazon-kinesis-firehose-finops
+  template: true
 image: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png
 integrations:
 - description: Deliver streaming data to S3 buckets as the primary data lake destination.
@@ -207,13 +226,13 @@ modified: '2026-09-16'
 name: Amazon Kinesis Data Firehose
 nav: Providers
 network: true
-overview: 'Amazon Kinesis Data Firehose publishes 1 API on the [APIs.io](https://apis.io/) network: Delivery Streams API. Tagged areas include Analytics, Data Delivery, and Streaming.
+overview: 'Amazon Kinesis Data Firehose publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Delivery Streams API. Tagged areas include Analytics, Data Delivery, and Streaming.
 
 
   The Amazon Kinesis Data Firehose catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Kinesis Data Firehose''s developer surface includes authentication, developer portal, documentation, support, developer console, signup flow, and 15 more developer resources.'
+  Amazon Kinesis Data Firehose''s developer surface includes authentication, developer portal, documentation, support, developer console, signup flow, and 18 more developer resources.'
 plans:
 - name: Amazon Kinesis Firehose Plans Pricing
   plan_count: 3
@@ -224,9 +243,10 @@ rate_limits:
   name: Amazon Kinesis Firehose Rate Limits
   slug: amazon-kinesis-firehose-rate-limits
 rules:
-- effective_rule_count: 4
+- authorship: generated
+  effective_rule_count: 4
   extends: []
-  name: Amazon Kinesis Data Firehose API Rules
+  name: Amazon Kinesis Data Firehose — jsonschema rules
   rule_count: 4
   severity_counts:
     error: 0
@@ -234,7 +254,8 @@ rules:
     info: 1
     warn: 3
   slug: amazon-kinesis-firehose-jsonschema-spectral-rules
-- effective_rule_count: 64
+- authorship: generated
+  effective_rule_count: 64
   extends:
   - spectral:oas
   name: Amazon Kinesis Data Firehose API Rules
@@ -247,17 +268,17 @@ rules:
   slug: amazon-kinesis-firehose-spectral-rules
 score:
   band: developing
-  composite: 53.6
+  composite: 52.1
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 60.4
+    artifact_dirs: 19
+    catalog_earned: 57.4
     catalog_earned_first_party: 0.0
-    catalog_gap: 54.6
+    catalog_gap: 57.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 61.8
+    access_clarity: 53.9
     contract_governance: 27.3
     contract_quality: 58.5
     developer_ergonomics: 56.0
@@ -277,8 +298,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

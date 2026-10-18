@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -121,7 +121,7 @@ modified: '2026-08-09'
 name: Chinese Medicine Online
 nav: Providers
 network: true
-overview: 'Chinese Medicine Online is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Traditional Chinese Medicine, Healthcare, Medical Education, Continuing Medical Education, and Online Learning.
+overview: 'Chinese Medicine Online is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Traditional Chinese Medicine, Healthcare, Medical Education, Continuing Medical Education, and E-Learning.
 
 
   Chinese Medicine Online''s developer surface includes support, signup flow, product news, and 11 more developer resources.'
@@ -158,8 +158,8 @@ score:
     regime: Health
     regime_id: health
     score: 10.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -177,7 +177,6 @@ tags:
 - Healthcare
 - Medical Education
 - Continuing Medical Education
-- Online Learning
 - E-Learning
 - Artificial Intelligence
 - China

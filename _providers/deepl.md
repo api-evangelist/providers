@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: platform
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.0
-  scored_at: '2026-10-04'
+  score: 21.1
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -135,6 +135,21 @@ collections:
   name: DeepL Translation Documents Write API
   slug: open-deepl-write-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/deepl/refs/heads/main/plans/deepl-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/deepl-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/deepl/refs/heads/main/rate-limits/deepl-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/deepl-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/deepl/refs/heads/main/finops/deepl-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/deepl-finops.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -225,9 +240,13 @@ common:
 created: '2024-11-07'
 description: DeepL is an AI-powered translation service that delivers high-quality machine translation between dozens of languages, with support for context-aware translation, document translation, glossaries, and rephrasing/improvement via DeepL Write. The DeepL API is offered in Pro and Free tiers and exposes endpoints for text translation, document translation, glossaries, language metadata, usage, and write/rephrase.
 finops:
-- name: Deepl Finops
+- has_sources: false
+  method: generated
+  name: Deepl Finops
+  primary_unit: ''
   service_category: API
   slug: deepl-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/deepl.png
 json_schemas:
 - name: DeepL Glossary
@@ -250,13 +269,13 @@ modified: '2026-05-30'
 name: DeepL
 nav: Providers
 network: true
-overview: 'DeepL publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Voice API, Documents API, Glossaries API, and 4 more. Tagged areas include Artificial Intelligence, Deep Learning, Glossary, Localization, and Machine Learning.
+overview: 'DeepL publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Voice API, Documents API, Glossaries API, and 4 more. Tagged areas include Artificial Intelligence, Deep Learning, Glossary, Localization, and Machine Learning.
 
 
   The DeepL catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  DeepL''s developer surface includes authentication, developer portal, documentation, pricing, engineering blog, and 15 more developer resources.'
+  DeepL''s developer surface includes authentication, developer portal, documentation, pricing, engineering blog, and 18 more developer resources.'
 plans:
 - name: Deepl Plans Pricing
   plan_count: 3
@@ -267,10 +286,11 @@ rate_limits:
   name: Deepl Rate Limits
   slug: deepl-rate-limits
 rules:
-- effective_rule_count: 32
+- authorship: generated
+  effective_rule_count: 32
   extends:
   - spectral:asyncapi
-  name: DeepL API Rules
+  name: DeepL — asyncapi rules
   rule_count: 5
   severity_counts:
     error: 1
@@ -278,9 +298,10 @@ rules:
     info: 0
     warn: 4
   slug: deepl-asyncapi-spectral-rules
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: DeepL API Rules
+  name: DeepL — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -288,10 +309,11 @@ rules:
     info: 1
     warn: 4
   slug: deepl-jsonschema-spectral-rules
-- effective_rule_count: 46
+- authorship: unmarked
+  effective_rule_count: 46
   extends:
   - spectral:oas
-  name: DeepL API Rules
+  name: DeepL — translation api rules
   rule_count: 5
   severity_counts:
     error: 2
@@ -301,17 +323,17 @@ rules:
   slug: deepl-translation-api-rules
 score:
   band: developing
-  composite: 50.0
+  composite: 48.5
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 69.0
+    artifact_dirs: 20
+    catalog_earned: 66.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 46.0
+    catalog_gap: 49.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 55.3
+    access_clarity: 47.4
     contract_governance: 27.3
     contract_quality: 62.1
     developer_ergonomics: 48.8
@@ -332,8 +354,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

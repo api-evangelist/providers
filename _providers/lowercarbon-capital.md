@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://lowercarbon.com/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/lowercarbon-capital/refs/heads/main/security/lowercarbon-capital-domain-security.yml
   title: ''
@@ -77,14 +81,14 @@ created: '2026-07-17'
 description: Lowercarbon Capital is a climate-focused venture capital firm that backs companies making real money by slashing CO2 emissions, removing carbon from the atmosphere, and buying the planet more time. The firm invests across energy, transportation, materials, agriculture, carbon removal, and planetary-cooling technologies, on the thesis that markets — not shame or guilt — will fix the climate. It was surfaced as a portfolio-linked company and added to the API Evangelist network. Lowercarbon Capital publishes no public API or developer program; this profile captures the firm's identity and web properties.
 image: https://lowercarbon.com/wp-content/uploads/lowercarbon-capital.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Lowercarbon Capital
 nav: Providers
 network: true
 overview: 'Lowercarbon Capital is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Venture Capital, Climate Tech, Carbon Removal, and Clean Energy.
 
 
-  Lowercarbon Capital''s developer surface includes engineering blog, support, and 7 more developer resources.'
+  Lowercarbon Capital''s developer surface includes engineering blog, support, and 8 more developer resources.'
 random_paper: 3
 score:
   band: minimal
@@ -111,8 +115,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 8.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

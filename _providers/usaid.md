@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 15.5
-  scored_at: '2026-10-04'
+  score: 13.6
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: The ForeignAssistance.gov Data API (OAS 3.0) is the U.S. government's flagship source for foreign assistance budgetary and financial data. It exposes spending, obligations, and disbursements across al
@@ -102,16 +102,20 @@ common:
 created: '2026-06-13'
 description: The U.S. Agency for International Development (USAID) provides programmatic access to foreign assistance data, development finance records, project tracking, aid flow analysis, and global development datasets through a suite of REST APIs. Key offerings include the ForeignAssistance.gov Data API (OAS 3.0) for budgetary and financial foreign aid data across U.S. government agencies, the Development Data Library (DDL) powered by the Socrata Open Data API (SODA) for querying and filtering open datasets, and the Development Experience Clearinghouse (DEC) API for programmatic access to USAID-funded international development documentation. These APIs support researchers, policymakers, journalists, and developers building tools around international aid transparency and global development outcomes.
 finops:
-- name: Usaid Finops
+- has_sources: false
+  method: generated
+  name: Usaid Finops
+  primary_unit: ''
   service_category: ''
   slug: usaid-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/usaid.png
 layout: provider
 modified: '2026-06-13'
 name: USAID
 nav: Providers
 network: true
-overview: 'USAID publishes 3 APIs on the [APIs.io](https://apis.io/) network, including ForeignAssistance.gov Data API, and 2 more. Tagged areas include Foreign Assistance, International Development, Aid Data, Development Finance, and Global Datasets.
+overview: 'USAID is listed with 3 APIs on the [APIs.io](https://apis.io/) network, including ForeignAssistance.gov Data API, and 2 more. Tagged areas include Foreign Assistance, International Development, Aid Data, Development Finance, and Global Datasets.
 
 
   USAID''s developer surface includes documentation, engineering blog, pricing, and 9 more developer resources.'
@@ -126,22 +130,22 @@ rate_limits:
   slug: usaid-rate-limits
 score:
   band: emerging
-  composite: 25.8
+  composite: 18.7
   coverage:
     artifact_dirs: 8
-    catalog_earned: 61.0
+    catalog_earned: 45.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 54.0
+    catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.1
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 24.0
     developer_ergonomics: 9.5
     discoverability: 71.4
-    operational_transparency: 49.5
+    operational_transparency: 28.9
   previous_composite: 25.8
   regulatory:
     applies: true
@@ -149,9 +153,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

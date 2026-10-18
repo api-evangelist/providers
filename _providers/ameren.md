@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: The Ameren Illinois Share My Usage API implements the Green Button Connect My Data program, providing authorized third parties access to up to 24 months of historical electric energy usage data for re
@@ -173,9 +173,13 @@ features:
 - description: Rebates and incentive programs for residential and business customers to reduce energy consumption and improve efficiency.
   name: Energy Efficiency Programs
 finops:
-- name: Ameren Finops
+- has_sources: true
+  method: generated
+  name: Ameren Finops
+  primary_unit: ''
   service_category: Utility / Energy
   slug: ameren-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ameren.png
 integrations:
 - description: Ameren Illinois participates in the national Green Button initiative providing standardized energy data access across utilities.
@@ -189,7 +193,7 @@ modified: '2026-09-02'
 name: Ameren
 nav: Providers
 network: true
-overview: 'Ameren publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Utility, Energy, Electric, Natural Gas, and Smart Grid.
+overview: 'Ameren is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Utility, Energy, Electric, Natural Gas, and Smart Grid.
 
 
   Ameren''s developer surface includes authentication, documentation, support, signup flow, developer portal, and 20 more developer resources.'
@@ -225,17 +229,17 @@ scopes:
   summary_line: 9 scopes
 score:
   band: thin
-  composite: 28.5
+  composite: 26.9
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 35.0
+    artifact_dirs: 19
+    catalog_earned: 32.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 80.0
+    catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 35.5
+    access_clarity: 27.6
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 35.7
@@ -251,8 +255,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 39.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

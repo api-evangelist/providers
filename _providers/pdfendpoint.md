@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -77,6 +77,10 @@ collections:
   name: PDFEndpoint API
   slug: open-pdfendpoint
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://pdfendpoint.com/blog
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/pdfendpoint/refs/heads/main/agentic-access/pdfendpoint-agentic-access.yml
   title: ''
@@ -118,19 +122,23 @@ common:
 created: '2026-06-25'
 description: PDFEndpoint is a lightweight HTML and URL to PDF conversion API. A single REST endpoint renders raw HTML or a publicly accessible HTTPS URL into a PDF using a headless browser, with extensive options for page size, margins, orientation, headers and footers, encryption, and multiple delivery modes (JSON URL, base64, inline, webhook, S3, GCP). A sandbox mode watermarks output without consuming the monthly quota.
 finops:
-- name: Pdfendpoint Finops
+- has_sources: true
+  method: generated
+  name: Pdfendpoint Finops
+  primary_unit: ''
   service_category: Document Generation
   slug: pdfendpoint-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pdfendpoint.png
 layout: provider
-modified: '2026-06-25'
+modified: '2026-10-06'
 name: PDFEndpoint
 nav: Providers
 network: true
-overview: 'PDFEndpoint publishes 3 APIs on the [APIs.io](https://apis.io/) network: Account API, Convert API, and Renders API. Tagged areas include PDF, HTML to PDF, URL to PDF, Document Generation, and Conversion.
+overview: 'PDFEndpoint publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Account API, Convert API, and Renders API. Tagged areas include PDF, HTML to PDF, URL to PDF, Document Generation, and Conversion.
 
 
-  PDFEndpoint''s developer surface includes authentication, documentation, and 6 more developer resources.'
+  PDFEndpoint''s developer surface includes engineering blog, authentication, documentation, and 6 more developer resources.'
 plans:
 - name: Pdfendpoint Plans Pricing
   plan_count: 2
@@ -141,23 +149,23 @@ rate_limits:
   name: Pdfendpoint Rate Limits
   slug: pdfendpoint-rate-limits
 score:
-  band: thin
-  composite: 31.5
+  band: emerging
+  composite: 25.0
   coverage:
-    artifact_dirs: 10
-    catalog_earned: 58.0
+    artifact_dirs: 11
+    catalog_earned: 42.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.0
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.5
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 50.2
-    developer_ergonomics: 22.6
+    developer_ergonomics: 25.0
     discoverability: 66.1
-    operational_transparency: 28.4
+    operational_transparency: 7.9
   previous_composite: 31.5
   provenance:
     agentic_access: derived
@@ -172,9 +180,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: 'Hosted GraphQL API for uploading, creating, and sharing holograms (quilt and RGBD media) on the Looking Glass Blocks platform. Authenticated via Auth0 (OAuth 2.0). Official client: @lookingglass/block'
@@ -44,6 +44,10 @@ apis:
   slug: looking-glass-bridge-rest-api
 artifact_total: 4
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.lookingglassfactory.com/rss/
 - group: company
   title: ''
   type: Website
@@ -110,18 +114,18 @@ created: '2026-07-17'
 description: 'Looking Glass Factory builds group-viewable 3D holographic (light field) displays that require no headset — the Looking Glass Go, Portrait, and the 16", 27", 32", 65" and 86" Light Field and Hololuminescent displays. Beyond hardware it ships a real developer surface: the Looking Glass Bridge runtime exposes a local HTTP REST API for driving the on-device media player, the hosted Blocks GraphQL API at blocks.glass lets apps upload and share holograms (quilt and RGBD images/videos), and official SDKs cover JavaScript/TypeScript (bridge.js, blocks.js, WebXR), Python (Bridge Python SDK), C/C++/C# (Core SDK), plus Unity and Unreal Engine plugins. It was surfaced as a portfolio company of Foundry Group and enriched from its public developer documentation, GitHub org, and package registries.'
 image: https://cdn.prod.website-files.com/6287baba42d48260dec3a37a/69b0dd694c6b84f4eb5ae9da_HLD-7-image8.jpg
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Looking Glass Factory
 nav: Providers
 network: true
-overview: 'Looking Glass Factory publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Hardware, Holographic Displays, 3D, and Light Field.
+overview: 'Looking Glass Factory is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Hardware, Holographic Displays, 3D, and Light Field.
 
 
-  Looking Glass Factory''s developer surface includes documentation, getting-started guide, engineering blog, support, signup flow, authentication, and 8 more developer resources.'
+  Looking Glass Factory''s developer surface includes documentation, getting-started guide, engineering blog, support, signup flow, authentication, and 9 more developer resources.'
 random_paper: 9
 score:
   band: emerging
-  composite: 21.1
+  composite: 21.2
   coverage:
     artifact_dirs: 8
     catalog_earned: 37.0
@@ -129,7 +133,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 13.2
     contract_governance: 0.0
@@ -144,8 +148,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

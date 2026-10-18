@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 6
+- acting_count: 5
   human_in_the_loop: 0
   name: Google Identity Platform Agentic Access
   operation_count: 6
   slug: google-identity-platform-agentic-access
-  summary_line: 6 operations · 6 acting
+  summary_line: 6 operations · 5 acting
 api_count: 1
 apis:
 - description: The Tenant Management API enables developers to create and manage tenants for multi-tenant Identity Platform configurations. Each tenant can have its own set of identity providers, authentication sett
@@ -68,6 +68,21 @@ collections:
   name: Google Identity Platform Google Identity Toolkit API
   slug: open-identity-toolkit
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/google-identity-platform/refs/heads/main/plans/google-identity-platform-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/google-identity-platform-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/google-identity-platform/refs/heads/main/rate-limits/google-identity-platform-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/google-identity-platform-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/google-identity-platform/refs/heads/main/finops/google-identity-platform-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/google-identity-platform-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/google-identity-platform/refs/heads/main/capabilities/google-identity-platform-capability-edges.yml
   title: ''
@@ -133,9 +148,13 @@ common:
 created: '2026-03-13'
 description: Google Identity Platform provides authentication and identity management APIs that enable developers to add sign-in, user management, and multi-tenancy capabilities to applications using industry-standard protocols including OAuth 2.0, OpenID Connect, and SAML.
 finops:
-- name: Google Identity Platform Finops
+- has_sources: true
+  method: generated
+  name: Google Identity Platform Finops
+  primary_unit: ''
   service_category: Identity
   slug: google-identity-platform-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/google-identity-platform.png
 json_schemas:
 - name: Google Identity Platform User Record
@@ -151,13 +170,13 @@ modified: '2026-09-16'
 name: Google Identity Platform
 nav: Providers
 network: true
-overview: 'Google Identity Platform publishes 3 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, and 2 more. Tagged areas include Authentication, Google Cloud, Identity, Multi-Tenancy, and OpenID Connect.
+overview: 'Google Identity Platform publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, and 2 more. Tagged areas include Authentication, Google Cloud, Identity, Multi-Tenancy, and OpenID Connect.
 
 
   The Google Identity Platform catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Google Identity Platform''s developer surface includes authentication, getting-started guide, pricing, developer console, support, and 9 more developer resources.'
+  Google Identity Platform''s developer surface includes authentication, getting-started guide, pricing, developer console, support, and 12 more developer resources.'
 plans:
 - name: Google Identity Platform Plans Pricing
   plan_count: 3
@@ -168,9 +187,10 @@ rate_limits:
   name: Google Identity Platform Rate Limits
   slug: google-identity-platform-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Google Identity Platform API Rules
+  name: Google Identity Platform — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -180,17 +200,17 @@ rules:
   slug: google-identity-platform-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 36.7
+  composite: 35.2
   coverage:
     artifact_dirs: 14
-    catalog_earned: 59.7
+    catalog_earned: 56.7
     catalog_earned_first_party: 0.0
-    catalog_gap: 55.4
+    catalog_gap: 58.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 26.3
+    access_clarity: 18.4
     contract_governance: 9.8
     contract_quality: 54.2
     developer_ergonomics: 33.3
@@ -210,8 +230,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.bagel.com/feed
 - group: company
   title: ''
   type: Website
@@ -86,18 +90,18 @@ created: '2026-07-17'
 description: Bagel Labs is an AI research lab building distributed diffusion training infrastructure for frontier diffusion workloads on commodity and heterogeneous GPU fleets. Its core method, Distributed Diffusion Models (DDM), replaces a single large diffusion model with an ensemble of smaller expert models trained independently on dataset partitions with no gradient synchronization, then ensembled at inference by a lightweight router (the Paris Inference Engine, PIE). Public releases include Paris-1 (image diffusion) and Paris 2.0 (video generation), with open weights on Hugging Face and papers on arXiv. Founded in 2023 by Bidhan Roy and backed by Polychain Capital, the lab targets image, video, world-model, and robotics / physical AI workloads.
 image: https://www.bagel.com/logo-full.svg
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Bagel Labs
 nav: Providers
 network: true
 overview: 'Bagel Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Data, Artificial Intelligence, Machine Learning, and Diffusion Models.
 
 
-  Bagel Labs'' developer surface includes documentation, engineering blog, and 9 more developer resources.'
+  Bagel Labs'' developer surface includes documentation, engineering blog, and 10 more developer resources.'
 random_paper: 2
 score:
   band: minimal
-  composite: 8.1
+  composite: 7.7
   coverage:
     artifact_dirs: 5
     catalog_earned: 27.0
@@ -105,7 +109,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.4
   facets:
     access_clarity: 6.6
     contract_governance: 0.0
@@ -116,12 +120,12 @@ score:
   previous_composite: 8.1
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 5.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

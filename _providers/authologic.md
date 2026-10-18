@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 49.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 14
   slug: authologic-agentic-access
   summary_line: 14 operations · 4 acting
-api_count: 1
+api_count: 2
 apis:
 - description: The Authologic Identity API enables businesses to initiate identity verification processes and receive results programmatically. Supports document verification, eID, Bank ID, and biometric liveness ch
   name: Authologic Identity API
@@ -292,9 +292,13 @@ features:
 - description: Compose verification workflows from modular steps combining document, biometric, data, and AML checks.
   name: Modular Workflows
 finops:
-- name: Authologic Finops
+- has_sources: false
+  method: generated
+  name: Authologic Finops
+  primary_unit: ''
   service_category: API
   slug: authologic-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/authologic.png
 layout: provider
 mcp_servers:
@@ -305,7 +309,7 @@ modified: '2026-09-14'
 name: Authologic
 nav: Providers
 network: true
-overview: 'Authologic publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Advanced API, Affordability assessment API, AML API, and 8 more. Tagged areas include AML, Digital Identity, eID, Identity Verification, and KYB.
+overview: 'Authologic publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Advanced API, Affordability assessment API, AML API, and 8 more. Tagged areas include AML, Digital Identity, eID, Identity Verification, and KYB.
 
 
   The Authologic catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -328,17 +332,17 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 53.7
+  composite: 51.6
   coverage:
     artifact_dirs: 27
-    catalog_earned: 40.0
+    catalog_earned: 37.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.1
   facets:
-    access_clarity: 44.7
+    access_clarity: 36.8
     contract_governance: 18.2
     contract_quality: 63.1
     developer_ergonomics: 73.2
@@ -357,12 +361,12 @@ score:
     skills: derived
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
-    score: 39.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
+    score: 37.7
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

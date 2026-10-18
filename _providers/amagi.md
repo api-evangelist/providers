@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -210,6 +210,10 @@ collections:
   name: services-amagi-tv Add User Submit API
   slug: open-amagi-submit-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.amagi.com/blog/rss.xml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/amagi/refs/heads/main/overlays/amagi-callisto-overlay.yaml
   title: ''
@@ -303,20 +307,20 @@ created: '2026-07-17'
 description: Amagi is a cloud-based technology company for the broadcast and streaming television industry. Its SaaS platform handles channel creation and playout, content distribution across linear, FAST (free ad-supported streaming TV) and connected-TV (CTV) destinations, server-side dynamic ad insertion and monetization, and viewership/ads analytics — letting content owners run live, linear and VOD channels from the cloud. Founded in 2008 and backed by Accel and Norwest Venture Partners, Amagi exposes internal operational REST APIs (Mapsor job/user orchestration and the services-amagi-tv key/customer service) documented via ReDoc, plus open-source tooling such as SLV. This profile was enriched by the API Evangelist pipeline from Amagi's published OpenAPI and public developer surface.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amagi.png
 layout: provider
-modified: '2026-07-17'
+modified: '2026-10-06'
 name: Amagi
 nav: Providers
 network: true
-overview: 'Amagi publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Add User API, Cancel API, Create Customer API, and 17 more. Tagged areas include Company, Media, Broadcast, Streaming, and Video.
+overview: 'Amagi publishes 20 API contracts indexed on the [APIs.io](https://apis.io/) network, including Add User API, Cancel API, Create Customer API, and 17 more. Tagged areas include Company, Media, Broadcast, Streaming, and Video.
 
 
-  Amagi''s developer surface includes documentation, support, engineering blog, authentication, CLI, and 14 more developer resources.'
+  Amagi''s developer surface includes documentation, support, engineering blog, authentication, CLI, and 15 more developer resources.'
 random_paper: 5
 score:
   band: thin
   composite: 29.0
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -347,8 +351,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.5
-  scored_at: '2026-10-04'
+  score: 19.6
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -124,6 +124,21 @@ collections:
   name: Synchrony Financial Credit Authorization Applications Reversals API
   slug: open-synchrony-financial-reversals-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/synchrony-financial/refs/heads/main/plans/synchrony-financial-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/synchrony-financial-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/synchrony-financial/refs/heads/main/rate-limits/synchrony-financial-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/synchrony-financial-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/synchrony-financial/refs/heads/main/finops/synchrony-financial-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/synchrony-financial-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/synchrony-financial/refs/heads/main/capabilities/synchrony-financial-capability-edges.yml
   title: ''
@@ -209,9 +224,13 @@ examples:
   name: Synchrony Financial Quickscreen Apply Submitpreapproval Example
   slug: synchrony-financial-quickscreen-apply-submitPreapproval-example
 finops:
-- name: Synchrony Financial Finops
+- has_sources: true
+  method: generated
+  name: Synchrony Financial Finops
+  primary_unit: ''
   service_category: Consumer Credit / Retail Finance
   slug: synchrony-financial-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/synchrony-financial.png
 json_schemas:
 - name: Credit Application
@@ -234,13 +253,13 @@ modified: '2026-05-19'
 name: Synchrony Financial
 nav: Providers
 network: true
-overview: 'Synchrony Financial publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Decisions API, Payments API, and 6 more. Tagged areas include Financial Services, Credit, Payments, Consumer Finance, and Retail Finance.
+overview: 'Synchrony Financial publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Applications API, Decisions API, Payments API, and 6 more. Tagged areas include Financial Services, Credit, Payments, Consumer Finance, and Retail Finance.
 
 
   The Synchrony Financial catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Synchrony Financial''s developer surface includes engineering blog, support, authentication, sandbox, and 13 more developer resources.'
+  Synchrony Financial''s developer surface includes engineering blog, support, authentication, sandbox, and 16 more developer resources.'
 plans:
 - name: Synchrony Financial Plans Pricing
   plan_count: 1
@@ -251,9 +270,10 @@ rate_limits:
   name: Synchrony Financial Rate Limits
   slug: synchrony-financial-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Synchrony Financial API Rules
+  name: Synchrony Financial — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -261,7 +281,8 @@ rules:
     info: 2
     warn: 3
   slug: synchrony-financial-jsonschema-spectral-rules
-- effective_rule_count: 52
+- authorship: unmarked
+  effective_rule_count: 52
   extends:
   - spectral:oas
   name: Synchrony Financial API Rules
@@ -274,17 +295,17 @@ rules:
   slug: synchrony-financial-rules
 score:
   band: developing
-  composite: 42.0
+  composite: 40.4
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 58.0
+    artifact_dirs: 19
+    catalog_earned: 55.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.0
+    catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 34.2
+    access_clarity: 26.3
     contract_governance: 27.3
     contract_quality: 56.9
     developer_ergonomics: 45.2
@@ -304,8 +325,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 27.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

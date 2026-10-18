@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 46.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -69,6 +69,10 @@ collections:
   name: API Samu
   slug: open-samu
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.samu.ai/blog
 - group: company
   title: ''
   type: Website
@@ -206,14 +210,14 @@ mcp_servers:
 - description: Remote MCP server at api.samu.ai over HTTP requiring OAuth.
   name: Samu MCP Server
   slug: samu
-modified: '2026-08-13'
+modified: '2026-10-06'
 name: Samu
 nav: Providers
 network: true
-overview: 'Samu publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Meetings API, Threads API, Usuarios API, and 1 more. Tagged areas include Company, Artificial Intelligence, Sales, Sales Intelligence, and Conversation Intelligence.
+overview: 'Samu publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Meetings API, Threads API, Usuarios API, and 1 more. Tagged areas include Company, Artificial Intelligence, Sales, Sales Intelligence, and Conversation Intelligence.
 
 
-  Samu''s developer surface includes pricing, signup flow, engineering blog, documentation, API reference, authentication, and 22 more developer resources.'
+  Samu''s developer surface includes engineering blog, pricing, signup flow, documentation, API reference, authentication, and 23 more developer resources.'
 plans:
 - name: Samu Plans Pricing
   plan_count: 3
@@ -232,7 +236,7 @@ score:
   band: developing
   composite: 49.9
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -268,8 +272,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 41.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

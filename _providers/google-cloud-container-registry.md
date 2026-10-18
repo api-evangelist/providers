@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -96,6 +96,21 @@ collections:
   name: Google Cloud Container Registry API
   slug: open-openapi
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-container-registry/refs/heads/main/plans/google-cloud-container-registry-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/google-cloud-container-registry-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-container-registry/refs/heads/main/rate-limits/google-cloud-container-registry-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/google-cloud-container-registry-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-container-registry/refs/heads/main/finops/google-cloud-container-registry-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/google-cloud-container-registry-finops.yml
 - group: company
   title: ''
   type: Website
@@ -167,22 +182,26 @@ common:
 created: '2026-03-13'
 description: Google Cloud Container Registry is a private Docker image storage service on Google Cloud Platform. It provides secure, private Docker image storage with integration into Google Cloud CI/CD pipelines, vulnerability scanning, and access control. Note that Container Registry has been superseded by Artifact Registry as the recommended container registry for Google Cloud.
 finops:
-- name: Google Cloud Container Registry Finops
+- has_sources: false
+  method: generated
+  name: Google Cloud Container Registry Finops
+  primary_unit: ''
   service_category: API
   slug: google-cloud-container-registry-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/google-cloud-container-registry.png
 layout: provider
 modified: '2026-05-19'
 name: Google Cloud Container Registry
 nav: Providers
 network: true
-overview: 'Google Cloud Container Registry publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Blobs API, Catalog API, Manifests API, and 1 more. Tagged areas include CI/CD, Containers, Docker, Google Cloud, and Image.
+overview: 'Google Cloud Container Registry publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Blobs API, Catalog API, Manifests API, and 1 more. Tagged areas include CI/CD, Containers, Docker, Google Cloud, and Image.
 
 
   The Google Cloud Container Registry catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Google Cloud Container Registry''s developer surface includes developer portal, getting-started guide, documentation, authentication, pricing, support, and 10 more developer resources.'
+  Google Cloud Container Registry''s developer surface includes developer portal, getting-started guide, documentation, authentication, pricing, support, and 13 more developer resources.'
 plans:
 - name: Google Cloud Container Registry Plans Pricing
   plan_count: 3
@@ -193,9 +212,10 @@ rate_limits:
   name: Google Cloud Container Registry Rate Limits
   slug: google-cloud-container-registry-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Google Cloud Container Registry API Rules
+  name: Google Cloud Container Registry — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -205,17 +225,17 @@ rules:
   slug: google-cloud-container-registry-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 38.8
+  composite: 37.3
   coverage:
     artifact_dirs: 13
-    catalog_earned: 54.7
+    catalog_earned: 51.7
     catalog_earned_first_party: 0.0
-    catalog_gap: 60.4
+    catalog_gap: 63.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 36.8
+    access_clarity: 28.9
     contract_governance: 9.8
     contract_quality: 48.4
     developer_ergonomics: 36.9
@@ -235,8 +255,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 25.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

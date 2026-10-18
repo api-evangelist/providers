@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -63,6 +63,21 @@ collections:
   name: Google Cloud Trace API
   slug: open-openapi
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-trace/refs/heads/main/plans/google-cloud-trace-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/google-cloud-trace-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-trace/refs/heads/main/rate-limits/google-cloud-trace-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/google-cloud-trace-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-trace/refs/heads/main/finops/google-cloud-trace-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/google-cloud-trace-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/google-cloud-trace/refs/heads/main/capabilities/google-cloud-trace-capability-edges.yml
   title: ''
@@ -143,22 +158,26 @@ common:
 created: '2026-03-13'
 description: Google Cloud Trace is a distributed tracing system that collects latency data from applications and displays it in near real-time. It helps developers understand how requests propagate through their application, identify performance bottlenecks, and analyze latency across microservices and distributed architectures running on Google Cloud.
 finops:
-- name: Google Cloud Trace Finops
+- has_sources: false
+  method: generated
+  name: Google Cloud Trace Finops
+  primary_unit: ''
   service_category: API
   slug: google-cloud-trace-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/google-cloud-trace.png
 layout: provider
 modified: '2026-05-19'
 name: Google Cloud Trace
 nav: Providers
 network: true
-overview: 'Google Cloud Trace publishes 1 API on the [APIs.io](https://apis.io/) network: Projects API. Tagged areas include Distributed Tracing, Google Cloud, Latency, Observability, and Performance.
+overview: 'Google Cloud Trace publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Projects API. Tagged areas include Distributed Tracing, Google Cloud, Latency, Observability, and Performance.
 
 
   The Google Cloud Trace catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Google Cloud Trace''s developer surface includes developer portal, getting-started guide, documentation, authentication, pricing, support, engineering blog, and 11 more developer resources.'
+  Google Cloud Trace''s developer surface includes developer portal, getting-started guide, documentation, authentication, pricing, support, engineering blog, and 14 more developer resources.'
 plans:
 - name: Google Cloud Trace Plans Pricing
   plan_count: 3
@@ -169,9 +188,10 @@ rate_limits:
   name: Google Cloud Trace Rate Limits
   slug: google-cloud-trace-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Google Cloud Trace API Rules
+  name: Google Cloud Trace — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -181,17 +201,17 @@ rules:
   slug: google-cloud-trace-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 42.1
+  composite: 40.6
   coverage:
     artifact_dirs: 15
-    catalog_earned: 54.7
+    catalog_earned: 51.7
     catalog_earned_first_party: 0.0
-    catalog_gap: 60.4
+    catalog_gap: 63.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 36.8
+    access_clarity: 28.9
     contract_governance: 9.8
     contract_quality: 50.2
     developer_ergonomics: 51.2
@@ -211,8 +231,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 25.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.0
-  scored_at: '2026-10-04'
+  score: 17.8
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -68,6 +68,21 @@ collections:
   name: National Science Foundation Awards API
   slug: open-national-science-foundation
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/national-science-foundation/refs/heads/main/plans/national-science-foundation-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/national-science-foundation-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/national-science-foundation/refs/heads/main/rate-limits/national-science-foundation-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/national-science-foundation-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/national-science-foundation/refs/heads/main/finops/national-science-foundation-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/national-science-foundation-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/national-science-foundation/refs/heads/main/capabilities/national-science-foundation-capability-edges.yml
   title: ''
@@ -106,19 +121,23 @@ common:
 created: '2024-12-03'
 description: The National Science Foundation (NSF) is an independent federal agency that supports fundamental research and education in all the non-medical fields of science and engineering. NSF provides grants and funding to researchers and institutions to drive innovation, discovery, and progress.
 finops:
-- name: National Science Foundation Finops
+- has_sources: false
+  method: generated
+  name: National Science Foundation Finops
+  primary_unit: ''
   service_category: API
   slug: national-science-foundation-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/national-science-foundation.png
 layout: provider
 modified: '2026-05-19'
 name: National Science Foundation
 nav: Providers
 network: true
-overview: 'National Science Foundation publishes 2 APIs on the [APIs.io](https://apis.io/) network: Awards API and Awards.{format} API. Tagged areas include Federal Government, Research, and Science.
+overview: 'National Science Foundation publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Awards API and Awards.{format} API. Tagged areas include Federal Government, Research, and Science.
 
 
-  National Science Foundation''s developer surface includes developer portal, engineering blog, and 6 more developer resources.'
+  National Science Foundation''s developer surface includes developer portal, engineering blog, and 9 more developer resources.'
 plans:
 - name: National Science Foundation Plans Pricing
   plan_count: 3
@@ -130,17 +149,17 @@ rate_limits:
   slug: national-science-foundation-rate-limits
 score:
   band: emerging
-  composite: 22.1
+  composite: 23.7
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 35.0
+    artifact_dirs: 12
+    catalog_earned: 38.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 65.0
-    catalog_max: 100.0
+    catalog_gap: 77.0
+    catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.6
   facets:
-    access_clarity: 0.0
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 41.6
     developer_ergonomics: 28.6
@@ -165,8 +184,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

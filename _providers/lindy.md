@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Lindy's callable surface. There is no public REST API and no published OpenAPI. The one documented HTTP endpoint is an inbound webhook trigger at https://public.lindy.ai/api/v1/webhooks/[unique-id], a
@@ -203,9 +203,13 @@ common:
 created: '2026-03-27'
 description: 'Lindy is an AI automation platform for building and running AI agents that do real work across a company''s tools. The current product, Lindy Teammate, lives in Slack and handles inbox triage and drafting, meeting recording, notes and scheduling, daily briefs and scheduled routines, backed by an agent builder that turns a natural-language prompt into a working agent and connects to thousands of third-party apps through OAuth integrations, stored credentials and any hosted MCP server. Lindy publishes no public REST API contract: its machine-readable surface is agent-native rather than contract-native — a live anonymous MCP server and a conformant A2A agent card on its documentation host, a published Agent Skill, llms.txt on two hosts, and a single bearer-authenticated inbound webhook endpoint that triggers an agent workflow.'
 finops:
-- name: Lindy Finops
+- has_sources: true
+  method: derived
+  name: Lindy Finops
+  primary_unit: ''
   service_category: API
   slug: lindy-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lindy.png
 layout: provider
 mcp_servers:
@@ -216,7 +220,7 @@ modified: '2026-08-29'
 name: Lindy
 nav: Providers
 network: true
-overview: 'Lindy publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include AI Agents, AI Automation, MCP, Workflow Automation, and Virtual Assistant.
+overview: 'Lindy is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include AI Agents, AI Automation, MCP, Workflow Automation, and Virtual Assistant.
 
 
   The Lindy catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -234,17 +238,17 @@ rate_limits:
   slug: lindy-rate-limits
 score:
   band: strong
-  composite: 58.7
+  composite: 57.2
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 52.0
+    artifact_dirs: 21
+    catalog_earned: 49.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 100.0
+    access_clarity: 92.1
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 47.6
@@ -261,8 +265,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

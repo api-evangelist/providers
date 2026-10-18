@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Single GraphQL endpoint exposing Sorare cards, users, auctions, offers and real-time subscriptions across football, NBA and MLB, with JWT / OAuth 2.0 / API-key auth.
@@ -45,6 +45,10 @@ asyncapis:
   name: Sorare Graphql Asyncapi
   slug: sorare-graphql-asyncapi
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://sorare.com/blog/
 - group: company
   title: ''
   type: Website
@@ -160,17 +164,17 @@ created: '2026-07-17'
 description: Sorare is a global fantasy sports platform for football (soccer), NBA basketball and MLB baseball built on blockchain-based digital collectible player cards stored on Ethereum and a StarkWare rollup. Its public developer surface is a single GraphQL API at https://api.sorare.com/graphql covering cards, users, auctions, offers and real-time subscriptions. The API supports JWT authentication (via the signIn mutation, with TOTP 2FA), OAuth 2.0 (Authorization Code and Client Credentials), and optional API keys for elevated rate limits, plus StarkWare payload signing for on-chain trading actions.
 image: https://sorare.com/favicon.ico
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Sorare
 nav: Providers
 network: true
-overview: 'Sorare publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto, GraphQL, Fantasy Sports, and NFT.
+overview: 'Sorare is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cryptocurrency, GraphQL, Fantasy Sports, and NFT.
 
 
   The Sorare catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Sorare''s developer surface includes documentation, API reference, support, signup flow, authentication, and 19 more developer resources.'
+  Sorare''s developer surface includes engineering blog, documentation, API reference, support, signup flow, authentication, and 19 more developer resources.'
 random_paper: 14
 rate_limits:
 - limit_count: 4
@@ -183,20 +187,20 @@ scopes:
   summary_line: 1 scope · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 40.1
+  composite: 40.7
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
     contract_quality: 39.0
-    developer_ergonomics: 42.3
+    developer_ergonomics: 44.6
     discoverability: 73.2
     operational_transparency: 47.4
   previous_composite: 40.1
@@ -210,8 +214,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -230,7 +234,7 @@ security:
 slug: sorare
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - GraphQL
 - Fantasy Sports
 - NFT

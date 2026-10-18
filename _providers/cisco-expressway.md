@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 3
@@ -243,6 +243,21 @@ collections:
   name: Cisco Expressway Configuration Admin Account Zones API
   slug: open-cisco-expressway-zones-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-expressway/refs/heads/main/plans/cisco-expressway-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/cisco-expressway-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-expressway/refs/heads/main/rate-limits/cisco-expressway-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/cisco-expressway-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-expressway/refs/heads/main/finops/cisco-expressway-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/cisco-expressway-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/cisco-expressway/refs/heads/main/capabilities/cisco-expressway-capability-edges.yml
   title: ''
@@ -427,9 +442,13 @@ common:
 created: '2024-01-01'
 description: API definitions for Cisco Expressway, a session border controller and firewall traversal solution for Unified Communications that provides secure remote and mobile access for collaboration workloads including video, voice, content, and presence. Programmatic access spans a REST API for configuration (/api/provisioning), a REST API for status and observability (/api/status), an SNMP MIB for metrics, and a legacy XML API for systems still in transition.
 finops:
-- name: Cisco Expressway Finops
+- has_sources: true
+  method: generated
+  name: Cisco Expressway Finops
+  primary_unit: ''
   service_category: Unified Communications
   slug: cisco-expressway-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cisco-expressway.png
 json_schemas:
 - name: Cisco Expressway Alarm
@@ -463,13 +482,13 @@ modified: '2026-08-19'
 name: Cisco Expressway
 nav: Providers
 network: true
-overview: 'Cisco Expressway publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Admin Account API, Alarms API, Calls API, and 15 more. Tagged areas include Collaboration, Firewall Traversal, H.323, Session Border Controller, and SIP.
+overview: 'Cisco Expressway publishes 18 API contracts indexed on the [APIs.io](https://apis.io/) network, including Admin Account API, Alarms API, Calls API, and 15 more. Tagged areas include Collaboration, Firewall Traversal, H.323, Session Border Controller, and SIP.
 
 
   The Cisco Expressway catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Cisco Expressway''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, support, signup flow, and 33 more developer resources.'
+  Cisco Expressway''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, support, signup flow, and 36 more developer resources.'
 plans:
 - name: Cisco Expressway Plans Pricing
   plan_count: 1
@@ -480,9 +499,10 @@ rate_limits:
   name: Cisco Expressway Rate Limits
   slug: cisco-expressway-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Cisco Expressway API Rules
+  name: Cisco Expressway — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -490,7 +510,8 @@ rules:
     info: 1
     warn: 4
   slug: cisco-expressway-jsonschema-spectral-rules
-- effective_rule_count: 49
+- authorship: unmarked
+  effective_rule_count: 49
   extends:
   - spectral:oas
   name: Cisco Expressway API Rules
@@ -503,23 +524,23 @@ rules:
   slug: cisco-expressway-rules
 score:
   band: developing
-  composite: 53.0
+  composite: 51.5
   coverage:
     artifact_dirs: 17
-    catalog_earned: 65.5
+    catalog_earned: 62.5
     catalog_earned_first_party: 0.0
     catalog_gap: 52.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -1.5
   facets:
-    access_clarity: 47.4
+    access_clarity: 39.5
     contract_governance: 13.6
     contract_quality: 63.4
     developer_ergonomics: 58.3
     discoverability: 66.1
     operational_transparency: 39.5
-  previous_composite: 52.5
+  previous_composite: 53.0
   provenance:
     agentic_access: derived
     contracts:
@@ -533,8 +554,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

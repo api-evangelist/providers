@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-04'
+  score: 20.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -78,6 +78,21 @@ collections:
   name: RTX EAGLE Analytics Reports API
   slug: open-rtx-reports-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/rtx/refs/heads/main/plans/rtx-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/rtx-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/rtx/refs/heads/main/rate-limits/rtx-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/rtx-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/rtx/refs/heads/main/finops/rtx-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/rtx-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/rtx/refs/heads/main/agentic-access/rtx-agentic-access.yml
   title: ''
@@ -120,9 +135,13 @@ examples:
   name: Rtx List Data Sources Example
   slug: rtx-list-data-sources-example
 finops:
-- name: Rtx Finops
+- has_sources: true
+  method: generated
+  name: Rtx Finops
+  primary_unit: ''
   service_category: Defense / Aerospace Software
   slug: rtx-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rtx.png
 json_schemas:
 - name: RTX EAGLE Data Source
@@ -142,13 +161,13 @@ modified: '2026-05-19'
 name: RTX
 nav: Providers
 network: true
-overview: 'RTX publishes 3 APIs on the [APIs.io](https://apis.io/) network: Analytics API, Data Sources API, and Reports API. Tagged areas include Defense, Aerospace, Government, Logistics, and Intelligence.
+overview: 'RTX publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Analytics API, Data Sources API, and Reports API. Tagged areas include Defense, Aerospace, Government, Logistics, and Intelligence.
 
 
   The RTX catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  RTX''s developer surface includes authentication, GitHub presence, engineering blog, and 5 more developer resources.'
+  RTX''s developer surface includes authentication, GitHub presence, engineering blog, and 8 more developer resources.'
 plans:
 - name: Rtx Plans Pricing
   plan_count: 1
@@ -159,9 +178,10 @@ rate_limits:
   name: Rtx Rate Limits
   slug: rtx-rate-limits
 rules:
-- effective_rule_count: 4
+- authorship: generated
+  effective_rule_count: 4
   extends: []
-  name: RTX API Rules
+  name: RTX — jsonschema rules
   rule_count: 4
   severity_counts:
     error: 0
@@ -169,7 +189,8 @@ rules:
     info: 1
     warn: 3
   slug: rtx-jsonschema-spectral-rules
-- effective_rule_count: 50
+- authorship: generated
+  effective_rule_count: 50
   extends:
   - spectral:oas
   name: RTX API Rules
@@ -182,17 +203,17 @@ rules:
   slug: rtx-spectral-rules
 score:
   band: thin
-  composite: 28.8
+  composite: 27.2
   coverage:
     artifact_dirs: 17
-    catalog_earned: 53.5
+    catalog_earned: 50.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 61.5
+    catalog_gap: 64.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 13.2
+    access_clarity: 5.3
     contract_governance: 13.6
     contract_quality: 45.0
     developer_ergonomics: 23.8
@@ -217,8 +238,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

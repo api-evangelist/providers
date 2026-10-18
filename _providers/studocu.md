@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.studocu.com/blog/en/feed
 - group: company
   title: ''
   type: Website
@@ -89,23 +93,23 @@ description: Studocu (operated by StudeerSnel B.V., Amsterdam) is a global onlin
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/studocu.png
 layout: provider
 mcp_servers:
-- description: Remote MCP server at mcp.studocu.com over HTTP; 1 tool listed.
+- description: Remote MCP server at agent-os-mcp.alpha.studocu.com over HTTP; 1 tool listed.
   name: Studocu MCP Server
   slug: studocu
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Studocu
 nav: Providers
 network: true
 overview: 'Studocu is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketplace, Education, EdTech, and Study Materials.
 
 
-  Studocu''s developer surface includes engineering blog, support, pricing, and 8 more developer resources.'
+  Studocu''s developer surface includes engineering blog, support, pricing, and 9 more developer resources.'
 random_paper: 5
 score:
   band: minimal
   composite: 6.8
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 7
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -128,13 +132,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 10.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/studocu/refs/heads/main/screenshots/studocu-2026-10-11T192926.png
 security:
 - kind: domain-security
   name: Studocu Domain Security

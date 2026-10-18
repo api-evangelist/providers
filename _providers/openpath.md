@@ -34,15 +34,15 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 302
+- acting_count: 295
   human_in_the_loop: 4
   name: Openpath Agentic Access
   operation_count: 546
   slug: openpath-agentic-access
-  summary_line: 546 operations · 302 acting · 4 human-in-the-loop
-api_count: 1
+  summary_line: 546 operations · 295 acting · 4 human-in-the-loop
+api_count: 2
 apis:
 - baseURL: https://api.openpath.com
   baseurl_source: declared
@@ -762,6 +762,10 @@ collections:
   name: Openpath API Documentation auth tokens API
   slug: open-openpath-tokens-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.avigilon.com/blog
 - group: other
   title: ''
   type: ParentCompany
@@ -864,14 +868,14 @@ created: '2026-07-17'
 description: 'Openpath is a cloud-based, mobile-first access control platform for the modern workplace — touchless entry, door/reader/relay hardware (ACUs), user and credential management, roles, schedules, sites and zones, video and alarm integrations. Founded in 2016 and backed by Emergence Capital, Openpath was acquired by Motorola Solutions in 2021 and is now marketed as Avigilon Alta; openpath.com redirects to avigilon.com/access-control. Its developer surface remains live: a documented REST API at api.openpath.com (546 operations, JWT scope-based auth, OpenID Connect) with reference docs on ReadMe.'
 image: https://files.readme.io/31f837c-small-Avigilon_Alta_favicon.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Openpath
 nav: Providers
 network: true
-overview: 'Openpath publishes 89 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Billable Features API, Identities API, and 86 more. Tagged areas include Company, Security, Access Control, Physical Security, and Identity.
+overview: 'Openpath publishes 89 API contracts indexed on the [APIs.io](https://apis.io/) network, including Auth API, Billable Features API, Identities API, and 86 more. Tagged areas include Company, Security, Access Control, Physical Security, and Identity.
 
 
-  Openpath''s developer surface includes documentation, API reference, getting-started guide, authentication, and 17 more developer resources.'
+  Openpath''s developer surface includes engineering blog, documentation, API reference, getting-started guide, authentication, and 17 more developer resources.'
 random_paper: 5
 scopes:
 - name: Openpath Scopes
@@ -880,23 +884,23 @@ scopes:
   summary_line: 3 scopes
 score:
   band: thin
-  composite: 32.5
+  composite: 33.1
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 20
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.6
   facets:
     access_clarity: 6.6
     contract_governance: 4.5
     contract_quality: 43.4
-    developer_ergonomics: 32.7
+    developer_ergonomics: 35.1
     discoverability: 73.2
     operational_transparency: 0.0
-  previous_composite: 32.0
+  previous_composite: 32.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -913,8 +917,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

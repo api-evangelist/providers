@@ -23,16 +23,39 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
-artifact_total: 0
+artifact_total: 1
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/alokai/refs/heads/main/hosts/alokai-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/alokai-hosts.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/alokai/refs/heads/main/vendors/alokai-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/alokai-vendors.yml
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/alokai/refs/heads/main/security/alokai-domain-security.yml
+  title: ''
+  type: DomainSecurity
+  url: security/alokai-domain-security.yml
 - group: company
   title: ''
   type: Website
   url: https://www.nasdaqprivatemarket.com/
+coverage:
+  checked: '2026-10-05'
+  detail: Documentation at https://docs.alokai.com provides API info but no OpenAPI/Swagger spec was found.
+  evidence:
+  - status: 200
+    url: https://docs.alokai.com
+  reason: no-machine-readable-spec
+  state: unreadable
 created: '2026-09-24'
-description: Alokai is a technology company that provides advanced data analytics and AI-driven solutions for financial markets. The company focuses on delivering real-time market insights, predictive modeling, and automated trading tools to institutional investors and hedge funds. Alokai aims to empower clients with actionable intelligence, customizable dashboards, and seamless integration with existing trading infrastructures, fostering more informed decision-making and optimized portfolio performance. and added to the network as a stub for full-pipeline profiling.
+description: Alokai is an enterprise frontend platform for composable commerce, offering a suite of tools including storefront UI, data layer, cloud infrastructure, monitoring, and AI-driven features. It enables retailers and brands to build, deploy, and scale high‑performance eCommerce storefronts quickly, integrating with existing back‑ends, CMS, and third‑party services. Alokai provides AI‑assisted development, performance analytics, and a unified platform that reduces time‑to‑market and operational complexity for modern commerce teams.
 layout: provider
 modified: '2026-09-24'
 name: Alokai
@@ -42,14 +65,15 @@ overview: Alokai is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 random_paper: 9
 score:
   band: minimal
-  composite: 1.2
+  composite: 2.2
   coverage:
-    artifact_dirs: 0
+    artifact_dirs: 6
     catalog_earned: 20.0
     catalog_earned_first_party: 0.0
     catalog_gap: 95.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 1.0
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
@@ -62,21 +86,28 @@ score:
     owner: catalog
     reasons:
     - owner: catalog
-      reason: no_resolvable_host
-    - owner: catalog
-      reason: never_enriched
+      reason: venue_as_website
+  previous_composite: 1.2
+  provenance:
+    mcp: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 0.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+    score: 5.9
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+security:
+- kind: domain-security
+  name: Alokai Domain Security
+  slug: alokai-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
 slug: alokai
 tags:
 - Company

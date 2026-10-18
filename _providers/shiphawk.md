@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: ShipHawk's public REST API. Key-based authentication (X-Api-Key header or api_key query parameter), JSON request and response bodies, POST used for both create and update (no PUT/PATCH). Resources cov
@@ -48,6 +48,10 @@ asyncapis:
   name: Shiphawk Webhooks
   slug: shiphawk-webhooks
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.shiphawk.com/rss.xml
 - group: company
   title: ''
   type: Website
@@ -175,17 +179,17 @@ created: '2026-08-27'
 description: ShipHawk is a Santa Barbara, California shipping and warehouse automation platform for high-volume eCommerce, wholesale and manufacturing shippers. It combines a multi-carrier transportation management system (TMS), a warehouse management system (WMS), packing and rate optimization, and shipping business rules, and it plugs into ERPs including NetSuite, Acumatica, Infor, Microsoft Dynamics 365, Sage and SAP. ShipHawk publishes a public REST API (v4) covering rating, address validation, orders, proposed shipments, shipments, SKUs, handling units, material containers, warehouses, workstations, documents (labels, BOLs, commercial invoices, packing slips), tracking and webhooks, documented in a single Slate reference at docs.shiphawk.com and served from shiphawk.com/api/v4 with a shared sandbox at sandbox.shiphawk.com.
 image: https://shiphawk.com/wp-content/uploads/2022/03/ShipHawk-favicon_2.png
 layout: provider
-modified: '2026-08-27'
+modified: '2026-10-06'
 name: ShipHawk
 nav: Providers
 network: true
-overview: 'ShipHawk publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Shipping, Logistics, Transportation Management, and Warehouse Management.
+overview: 'ShipHawk is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Shipping, Logistics, Transportation Management, and Warehouse Management.
 
 
   The ShipHawk catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  ShipHawk''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 20 more developer resources.'
+  ShipHawk''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 21 more developer resources.'
 plans:
 - name: Shiphawk Plans Pricing
   plan_count: 0
@@ -199,7 +203,7 @@ score:
   band: thin
   composite: 35.0
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -223,8 +227,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 20.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

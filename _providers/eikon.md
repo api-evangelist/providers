@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.eikontx.com/feed/
 - group: company
   title: ''
   type: News
@@ -93,14 +97,14 @@ created: '2026-07-17'
 description: Eikon Therapeutics is a biopharmaceutical company that integrates Nobel Prize-winning super-resolution single-molecule tracking (SMT) microscopy, advanced engineering, automation, and high-performance computing to visualize and measure the real-time movement of individual proteins in living cells. This proprietary live-cell imaging platform screens protein-ligand interactions across millions of cells per day, generating large, high-dimensional datasets that power the discovery and development of novel small-molecule medicines. Eikon advances a clinical- and preclinical-stage oncology and immunology pipeline, including EIK1001 (a TLR7/8 agonist) and IMP1734 (a selective PARP1 inhibitor). Backed by General Catalyst, the company is headquartered in Millbrae, California with offices in New York and Jersey City.
 image: https://www.eikontx.com/wp-content/uploads/2024/11/metadata_social_thumbnail2.jpg
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Eikon
 nav: Providers
 network: true
 overview: 'Eikon is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Biotechnology, Pharmaceuticals, and Drug Discovery.
 
 
-  Eikon''s developer surface includes product news, engineering blog, support, and 10 more developer resources.'
+  Eikon''s developer surface includes product news, engineering blog, support, and 11 more developer resources.'
 random_paper: 6
 score:
   band: minimal
@@ -134,8 +138,8 @@ score:
     regime: Health
     regime_id: health
     score: 7.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

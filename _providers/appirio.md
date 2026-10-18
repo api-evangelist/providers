@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.wipro.com/engineering/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/appirio/refs/heads/main/security/appirio-domain-security.yml
   title: ''
@@ -53,28 +57,31 @@ created: '2026-07-17'
 description: 'Appirio is a global cloud services and consulting company founded in 2006 and headquartered in Indianapolis, acquired by Wipro for USD 500 million in 2016 and now operating as "Appirio, a Wipro company." Appirio is a strategic implementation partner for Salesforce, Workday, Google, and Amazon, helping over 3,000 enterprises across healthcare and life sciences, banking, higher education, manufacturing, and retail adopt cloud-based solutions. Its services span Salesforce ecosystem consulting, CRM and platform implementation, cloud application development, and digital transformation. Appirio is a consulting and systems-integration firm rather than an API producer: it does not publish a public developer program, OpenAPI definitions, SDKs, or a developer portal, so this profile carries company identity only and no API artifacts.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/appirio.png
 layout: provider
-modified: '2026-07-17'
+modified: '2026-10-06'
 name: Appirio
 nav: Providers
 network: true
-overview: Appirio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cloud Services, Consulting, Systems Integration, and Salesforce.
+overview: 'Appirio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cloud Services, Consulting, Systems Integration, and Salesforce.
+
+
+  Appirio''s developer surface includes engineering blog and 3 more developer resources.'
 random_paper: 8
 score:
   band: minimal
-  composite: 3.5
+  composite: 4.0
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 49.1
     operational_transparency: 0.0
   jurisdiction:
@@ -91,8 +98,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -34,10 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.turintech.ai/feed.xml
 - group: company
   title: ''
   type: Website
@@ -91,26 +95,26 @@ created: '2026-07-17'
 description: TurinTech AI builds Artemis, a code and AI optimization platform that searches configuration spaces across models, runtime, hardware, and source code to make production AI systems and software faster, cheaper, and more reliable without changing the existing stack. Artemis spans AI inference, agentic software, latency-critical infrastructure, and planning & scheduling, and is driven through the Artemis CLI, which imports Git repositories, generates and validates AI-optimized code versions (via LLM, agent, or genetic-algorithm methods), runs compile/test/benchmark validation, and opens optimization pull requests. TurinTech also offers evoML for automated machine-learning model building. Access is via the Artemis CLI and platform using an API key (ARTEMIS_API_KEY). The company is backed by Speedinvest.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/turintech.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Turintech
 nav: Providers
 network: true
 overview: 'Turintech is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, Code Optimization, and Developer Tools.
 
 
-  Turintech''s developer surface includes documentation, engineering blog, signup flow, CLI, authentication, and 6 more developer resources.'
+  Turintech''s developer surface includes documentation, engineering blog, signup flow, CLI, authentication, and 7 more developer resources.'
 random_paper: 14
 score:
   band: emerging
-  composite: 15.9
+  composite: 16.0
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 13.2
     contract_governance: 0.0
@@ -125,8 +129,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

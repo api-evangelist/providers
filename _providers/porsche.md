@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'The Porsche ID API Portal is where Porsche AG publishes and manages the APIs that integrate Porsche ID, its customer identity platform. It is not a public API programme: the portal''s own FAQ states "W'
@@ -42,6 +42,11 @@ apis:
   slug: porsche
 artifact_total: 9
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/porsche/refs/heads/main/finops/porsche-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/porsche-finops.yml
 - group: company
   title: ''
   type: Website
@@ -167,9 +172,13 @@ common:
 created: '2025-02-25'
 description: Porsche is a luxury car manufacturer known for producing high-performance sports cars, sedans, and SUVs. Founded in 1931 by Ferdinand Porsche, the brand has a long history of engineering excellence and precision craftsmanship. Porsche vehicles are renowned for their sleek design, exceptional handling, and powerful engines, making them a favorite among driving enthusiasts around the world.
 finops:
-- name: Porsche Finops
+- has_sources: false
+  method: generated
+  name: Porsche Finops
+  primary_unit: ''
   service_category: API
   slug: porsche-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/porsche.png
 layout: provider
 mcp_servers:
@@ -180,10 +189,10 @@ modified: '2026-08-27'
 name: Porsche
 nav: Providers
 network: true
-overview: 'Porsche publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Automobiles, Cars, Vehicles, Automotive, and Connected Car.
+overview: 'Porsche is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Automobiles, Cars, Vehicles, Automotive, and Connected Vehicles.
 
 
-  Porsche''s developer surface includes developer portal, authentication, changelog, documentation, support, and 21 more developer resources.'
+  Porsche''s developer surface includes developer portal, authentication, changelog, documentation, support, and 22 more developer resources.'
 plans:
 - name: Porsche Plans Pricing
   plan_count: 0
@@ -200,17 +209,17 @@ scopes:
   summary_line: 14 scopes
 score:
   band: thin
-  composite: 31.4
+  composite: 30.0
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 35.0
+    artifact_dirs: 19
+    catalog_earned: 32.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 80.0
+    catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.4
   facets:
-    access_clarity: 28.9
+    access_clarity: 21.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 42.9
@@ -235,8 +244,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -262,7 +271,7 @@ tags:
 - Cars
 - Vehicles
 - Automotive
-- Connected Car
+- Connected Vehicles
 - Identity
 - Design Systems
 - Open Source

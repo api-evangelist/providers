@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: DNS Coffee collects, analyzes, and archives changes to root zone files provided by various top-level domains (TLDs), offering one of the most comprehensive views of the current state of the Domain Nam
@@ -41,6 +41,29 @@ apis:
   slug: dns-coffee
 artifact_total: 6
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/dns-coffee/refs/heads/main/plans/dns-coffee-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/dns-coffee-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/dns-coffee/refs/heads/main/rate-limits/dns-coffee-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/dns-coffee-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/dns-coffee/refs/heads/main/finops/dns-coffee-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/dns-coffee-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://dns.coffee/news
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://dns.coffee/news.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/dns-coffee/refs/heads/main/security/dns-coffee-vulnerability-disclosure.yml
   title: ''
@@ -66,19 +89,23 @@ common:
 created: '2025-02-09'
 description: DNS Coffee collects, analyzes, and archives changes to root zone files provided by various top-level domains (TLDs), offering one of the most comprehensive views of the current state of the Domain Name System (DNS). By continuously tracking these changes, DNS Coffee uncovers valuable trends over time, making it a powerful resource for analysis and research. What began in 2011 with just 4 zones has grown into a robust platform that now processes data from over 1,200 zones daily.
 finops:
-- name: Dns Coffee Finops
+- has_sources: false
+  method: generated
+  name: Dns Coffee Finops
+  primary_unit: ''
   service_category: API
   slug: dns-coffee-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dns-coffee.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-10-06'
 name: DNS Coffee
 nav: Providers
 network: true
-overview: 'DNS Coffee publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include DNS, Domain Names, and Domains.
+overview: 'DNS Coffee is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include DNS, Domain Names, and Domains.
 
 
-  DNS Coffee''s developer surface includes documentation and 4 more developer resources.'
+  DNS Coffee''s developer surface includes engineering blog, documentation, and 8 more developer resources.'
 plans:
 - name: Dns Coffee Plans Pricing
   plan_count: 3
@@ -90,20 +117,20 @@ rate_limits:
   slug: dns-coffee-rate-limits
 score:
   band: minimal
-  composite: 10.3
+  composite: 9.3
   coverage:
-    artifact_dirs: 5
-    catalog_earned: 36.0
+    artifact_dirs: 7
+    catalog_earned: 33.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 79.0
+    catalog_gap: 82.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.0
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 9.5
+    developer_ergonomics: 11.9
     discoverability: 48.2
     operational_transparency: 7.9
   previous_composite: 10.3
@@ -113,8 +140,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

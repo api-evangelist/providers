@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: verified
     openapi_examples: false
     protected_resource_metadata: verified
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 43.9
-  scored_at: '2026-10-04'
+  score: 42.0
+  scored_at: '2026-10-17'
 api_count: 10
 apis:
 - description: Unified GraphQL endpoint for querying onchain data across 40+ supported blockchains - blocks, transactions, transfers, DEX trades, balances, holders, NFTs, prices, events, traces. Standard GraphQL POS
@@ -73,6 +73,21 @@ asyncapis:
   name: Bitquery Streaming GraphQL Subscriptions
   slug: bitquery-asyncapi
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/bitquery/refs/heads/main/plans/bitquery-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/bitquery-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/bitquery/refs/heads/main/rate-limits/bitquery-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/bitquery-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/bitquery/refs/heads/main/finops/bitquery-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/bitquery-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/bitquery/refs/heads/main/security/bitquery-domain-security.yml
   title: ''
@@ -109,9 +124,13 @@ common:
 created: '2026-05-23'
 description: Bitquery is a blockchain data platform that exposes a single unified GraphQL schema across 40+ networks (Ethereum, Solana, BSC, Base, Polygon, Arbitrum, Optimism, Tron, and more) through multiple delivery modes - GraphQL over HTTP, GraphQL subscriptions over WebSocket, Kafka protobuf streams, gRPC (Solana CoreCast), an MCP server backed by ClickHouse, and parquet cloud datasets. Core data products cover token prices and OHLCV, DEX trades, transfers and wallet flows, contract calls and traces, events, NFTs and metadata, balances and holders, and mempool / pending transactions.
 finops:
-- name: Bitquery Finops
+- has_sources: false
+  method: generated
+  name: Bitquery Finops
+  primary_unit: ''
   service_category: API
   slug: bitquery-finops
+  template: true
 graphqls:
 - description: Unified GraphQL endpoint for querying onchain data across 40+ supported blockchains - blocks, transactions, transfers, DEX trades, balances, holders, NFTs, prices, events, traces. Standard GraphQL POS
   name: Bitquery GraphQL API
@@ -126,13 +145,13 @@ modified: '2026-05-29'
 name: Bitquery
 nav: Providers
 network: true
-overview: 'Bitquery publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Streaming Subscriptions, and 9 more. Tagged areas include Blockchain Data, GraphQL, Streaming, Indexer, and DEX.
+overview: 'Bitquery is listed with 10 APIs on the [APIs.io](https://apis.io/) network, including Streaming Subscriptions, and 9 more. Tagged areas include Blockchain Data, GraphQL, Streaming, Indexer, and Decentralized Exchange.
 
 
   The Bitquery catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Bitquery''s developer surface includes documentation, GitHub presence, engineering blog, and 5 more developer resources.'
+  Bitquery''s developer surface includes documentation, GitHub presence, engineering blog, and 8 more developer resources.'
 plans:
 - name: Bitquery Plans Pricing
   plan_count: 1
@@ -143,10 +162,11 @@ rate_limits:
   name: Bitquery Rate Limits
   slug: bitquery-rate-limits
 rules:
-- effective_rule_count: 34
+- authorship: generated
+  effective_rule_count: 34
   extends:
   - spectral:asyncapi
-  name: Bitquery API Rules
+  name: Bitquery — asyncapi rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -156,34 +176,34 @@ rules:
   slug: bitquery-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 32.3
+  composite: 26.2
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 61.2
+    artifact_dirs: 13
+    catalog_earned: 47.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.9
+    catalog_gap: 67.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.1
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 11.4
     contract_quality: 43.8
     developer_ergonomics: 23.8
     discoverability: 73.3
-    operational_transparency: 24.2
+    operational_transparency: 10.5
   previous_composite: 32.3
   provenance:
     mcp: first-party
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
-    score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+    matched_via: tags
+    regime: Securities & Market Data
+    regime_id: securities_market_data
+    score: 16.7
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -200,9 +220,9 @@ tags:
 - GraphQL
 - Streaming
 - Indexer
-- DEX
+- Decentralized Exchange
 - NFT
-- Crypto
+- Cryptocurrency
 - Web3
 - Real-Time
 - Ethereum

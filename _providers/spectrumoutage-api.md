@@ -36,8 +36,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.3
-  scored_at: '2026-10-04'
-api_count: 2
+  scored_at: '2026-10-17'
+api_count: 4
 apis:
 - baseURL: https://spectrumoutage.us/api/v1
   baseurl_source: declared
@@ -65,6 +65,10 @@ collections:
   name: SpectrumOutage API
   slug: open-spectrumoutage-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://spectrumoutage.us/blog
 - group: company
   title: ''
   type: Website
@@ -190,14 +194,14 @@ created: '2026-07-17'
 description: 'Community-powered REST API for live Spectrum internet, TV, and phone outage data across the United States, published by SpectrumOutage.us — an independent outage tracker with no affiliation to Charter Communications or Spectrum. The v1 API exposes eight operations over crowdsourced outage reports: national dashboard statistics with an hourly timeline and service breakdown, a paginated report feed, outage submission, city and state lookups by slug, ZIP-code status (issues_reported / all_clear) with the reports behind it, and map pin/cluster data over a 1h, 24h or 48h window. Access is a bearer API key issued manually by email, or through a free RapidAPI plan; the provider also publishes an OpenAPI 3.0.3 specification, an agent-facing llm.txt on both hosts, a Postman collection, and an open outage dataset mirrored to GitHub, Hugging Face, Kaggle and Figshare.'
 image: https://spectrumoutage.us/icons/icon-192.png
 layout: provider
-modified: '2026-08-11'
+modified: '2026-10-06'
 name: SpectrumOutage API
 nav: Providers
 network: true
-overview: 'SpectrumOutage API publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Locations API, Map API, Reports API, and 1 more. Tagged areas include Spectrum, Outage, Internet, TV, and Phone.
+overview: 'SpectrumOutage API publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Locations API, Map API, Reports API, and 1 more. Tagged areas include Spectrum, Outage, Internet, TV, and Phone.
 
 
-  SpectrumOutage API''s developer surface includes authentication, documentation, API reference, getting-started guide, support, pricing, changelog, and 20 more developer resources.'
+  SpectrumOutage API''s developer surface includes engineering blog, authentication, documentation, API reference, getting-started guide, support, pricing, and 21 more developer resources.'
 plans:
 - name: Spectrumoutage Api Plans Pricing
   plan_count: 1
@@ -209,21 +213,21 @@ rate_limits:
   slug: spectrumoutage-api-rate-limits
 score:
   band: developing
-  composite: 47.6
+  composite: 48.6
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 53.0
+    artifact_dirs: 21
+    catalog_earned: 56.0
     catalog_earned_first_party: 16.0
-    catalog_gap: 62.0
+    catalog_gap: 59.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.0
   facets:
     access_clarity: 52.6
     contract_governance: 4.5
     contract_quality: 51.9
-    developer_ergonomics: 55.4
-    discoverability: 73.2
+    developer_ergonomics: 57.7
+    discoverability: 78.6
     operational_transparency: 39.5
   previous_composite: 47.6
   provenance:
@@ -241,8 +245,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 25.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

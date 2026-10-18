@@ -17,7 +17,7 @@ description: Prosus Ventures is the venture-capital arm of Prosus, the Amsterdam
   across 40+ closed transactions, including roughly $88 million into AI. Its public portfolio spans 80+ companies including Meesho, Urban Company, PharmEasy, Klar, ElasticRun, BandLab, Ema, Corti and Oxford Ionics. The venture team is led by CEO Martin Tschopp with regional heads across India, Europe, Southeast Asia and the Middle East.
 image: https://www.prosus.com/favicon.ico
 layout: provider
-modified: '2026-07-17'
+modified: '2026-10-06'
 name: Prosus Ventures
 nav: Providers
 network: true

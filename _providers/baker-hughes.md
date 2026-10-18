@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.6
-  scored_at: '2026-10-04'
+  score: 15.7
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: Cordant is Baker Hughes' modular AI-enabled industrial enterprise software platform for asset performance management (APM), process optimization, and emissions management. It provides a digital thread
@@ -44,6 +44,21 @@ apis:
   slug: bhc3-ai-suite
 artifact_total: 33
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/baker-hughes/refs/heads/main/plans/baker-hughes-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/baker-hughes-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/baker-hughes/refs/heads/main/rate-limits/baker-hughes-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/baker-hughes-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/baker-hughes/refs/heads/main/finops/baker-hughes-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/baker-hughes-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/baker-hughes/refs/heads/main/security/baker-hughes-domain-security.yml
   title: ''
@@ -157,9 +172,13 @@ features:
 - description: AI-driven optimization of oil and gas production rates from well and reservoir data.
   name: Production Optimization
 finops:
-- name: Baker Hughes Finops
+- has_sources: true
+  method: generated
+  name: Baker Hughes Finops
+  primary_unit: ''
   service_category: Industrial / Energy Software
   slug: baker-hughes-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/baker-hughes.png
 integrations:
 - description: BHC3 AI Suite is optimized to run on Microsoft Azure cloud infrastructure.
@@ -191,13 +210,13 @@ modified: '2026-09-17'
 name: Baker Hughes
 nav: Providers
 network: true
-overview: 'Baker Hughes publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Energy Technology, Industrial IoT, Oil and Gas, Asset Performance Management, and Digital Energy.
+overview: 'Baker Hughes is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Energy Technology, Industrial IoT, Oil and Gas, Asset Performance Management, and Digital Energy.
 
 
   The Baker Hughes catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Baker Hughes'' developer surface includes engineering blog, support, authentication, and 14 more developer resources.'
+  Baker Hughes'' developer surface includes engineering blog, support, authentication, and 17 more developer resources.'
 plans:
 - name: Baker Hughes Plans Pricing
   plan_count: 1
@@ -224,9 +243,10 @@ rate_limits:
   name: Baker Hughes Rate Limits
   slug: baker-hughes-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Baker Hughes API Rules
+  name: Baker Hughes — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -234,7 +254,8 @@ rules:
     info: 2
     warn: 3
   slug: baker-hughes-jsonschema-spectral-rules
-- effective_rule_count: 15
+- authorship: unmarked
+  effective_rule_count: 15
   extends: []
   name: Baker Hughes API Rules
   rule_count: 15
@@ -251,17 +272,17 @@ scopes:
   summary_line: 5 scopes
 score:
   band: thin
-  composite: 30.1
+  composite: 28.6
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 54.8
+    artifact_dirs: 21
+    catalog_earned: 51.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 60.3
+    catalog_gap: 63.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 34.2
+    access_clarity: 26.3
     contract_governance: 41.7
     contract_quality: 10.7
     developer_ergonomics: 28.6
@@ -276,8 +297,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 34.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.8
-  scored_at: '2026-10-04'
+  score: 22.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 23
   slug: fyno-agentic-access
   summary_line: 23 operations · 20 acting
-api_count: 1
+api_count: 2
 apis:
 - description: REST API for creating, reading, updating, and deleting user profiles within the Fyno platform. Supports adding and updating channel-specific destination data, merging user profiles, and managing chann
   name: Fyno User Profiles API
@@ -233,9 +233,13 @@ examples:
   name: Fyno Notify With Explicit Channels Example
   slug: fyno-notify-with-explicit-channels-example
 finops:
-- name: Fyno Finops
+- has_sources: false
+  method: generated
+  name: Fyno Finops
+  primary_unit: ''
   service_category: ''
   slug: fyno-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fyno.png
 json_schemas:
 - name: Fyno Notification Event
@@ -254,7 +258,7 @@ modified: '2026-09-16'
 name: Fyno
 nav: Providers
 network: true
-overview: 'Fyno publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Fire an Event API, Verify API, Manage User Profiles API, and 7 more. Tagged areas include Notification, Messaging, Communications, Push Notifications, and Email.
+overview: 'Fyno publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Fire an Event API, Verify API, Manage User Profiles API, and 7 more. Tagged areas include Notification, Messaging, Communications, Push Notifications, and Email.
 
 
   The Fyno catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -271,9 +275,10 @@ rate_limits:
   name: Fyno Rate Limits
   slug: fyno-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Fyno API Rules
+  name: Fyno — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -283,22 +288,22 @@ rules:
   slug: fyno-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 48.3
+  composite: 40.0
   coverage:
     artifact_dirs: 17
-    catalog_earned: 86.4
+    catalog_earned: 67.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 28.7
+    catalog_gap: 47.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 44.2
+    access_clarity: 15.8
     contract_governance: 23.5
     contract_quality: 65.7
     developer_ergonomics: 32.1
     discoverability: 66.1
-    operational_transparency: 54.7
+    operational_transparency: 34.2
   previous_composite: 48.3
   provenance:
     agentic_access: derived
@@ -313,9 +318,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 18.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 11.1

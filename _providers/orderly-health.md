@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -59,6 +59,10 @@ collections:
   name: Orderly Provider Directory Look Up Practitioners API
   slug: open-orderly-health-look-up-practitioners-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://orderlyhealth.com/feed/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/orderly-health/refs/heads/main/overlays/orderly-health-provider-directory-overlay.yaml
   title: ''
@@ -167,14 +171,14 @@ created: '2026-07-17'
 description: Orderly Health is a Denver, Colorado healthcare data company that keeps provider directories accurate and usable. Founded in 2015, its API-first platform uses machine learning and AI to automatically identify and repair inaccuracies in healthcare provider data for providers, payers, and health-technology companies. Its products include the Orderly Provider Directory (6.4M+ practitioner profiles), a Roster Automation Suite that normalizes and validates rosters in seconds, and Data Updates that deliver traceable, field-level corrections. The public Orderly Provider Directory API lets developers search practitioners by NPI, name, location, specialty, care category, accepted insurance, and DEA number, returning per-field confidence scores and source attribution. Orderly Health was acquired by First Choice Health.
 image: https://files.readme.io/e494480-small-Orderly_Logo_4cMrk_NavyText.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Orderly Health
 nav: Providers
 network: true
-overview: 'Orderly Health publishes 1 API on the [APIs.io](https://apis.io/) network: Look Up Practitioners API. Tagged areas include Company, Healthcare, Provider Data, Provider Directory, and Health Data.
+overview: 'Orderly Health publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Look Up Practitioners API. Tagged areas include Company, Healthcare, Provider Data, Provider Directory, and Health Data.
 
 
-  Orderly Health''s developer surface includes authentication, sandbox, changelog, documentation, API reference, getting-started guide, engineering blog, and 16 more developer resources.'
+  Orderly Health''s developer surface includes authentication, sandbox, changelog, documentation, API reference, getting-started guide, engineering blog, and 17 more developer resources.'
 random_paper: 14
 score:
   band: thin
@@ -211,8 +215,8 @@ score:
     regime: Health
     regime_id: health
     score: 18.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

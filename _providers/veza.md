@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Publish identity, resource and authorization metadata from custom or unsupported applications into the Veza Entity Catalog, and run authorization assessment queries and reports.
@@ -46,6 +46,14 @@ asyncapis:
   name: Veza Webhooks
   slug: veza-webhooks
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://veza.com/blog/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://veza.com/feed/
 - group: start
   title: ''
   type: DeveloperPortal
@@ -160,29 +168,29 @@ created: '2026-07-17'
 description: Veza is an identity security platform. Its Open Authorization API (OAA) publishes identity, resource, and authorization metadata from custom or unsupported applications into the Veza Entity Catalog, making access across systems searchable and governable for least-privilege enforcement, access reviews, and rules and alerts. The REST API manages custom providers and their data sources, pushes OAA JSON payloads (users, groups, roles, resources, permissions), and runs authorization assessment queries and reports. It authenticates with a per-tenant API key presented as a bearer token, with official Python and C# SDKs and a command-line client.
 image: https://veza.com/wp-content/uploads/2024/01/Veza_Stacked-1.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Veza
 nav: Providers
 network: true
-overview: 'Veza publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Identity Security, Authorization, and Access Management.
+overview: 'Veza is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Identity Security, Authorization, and Identity and Access Management.
 
 
   The Veza catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Veza''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, authentication, CLI, and 17 more developer resources.'
+  Veza''s developer surface includes engineering blog, documentation, API reference, getting-started guide, signup flow, authentication, CLI, and 19 more developer resources.'
 random_paper: 20
 score:
   band: developing
-  composite: 40.2
+  composite: 40.3
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 23.7
     contract_governance: 4.5
@@ -201,8 +209,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -224,7 +232,7 @@ tags:
 - Security
 - Identity Security
 - Authorization
-- Access Management
+- Identity and Access Management
 - Identity Governance
 website: https://www.veza.com/
 ---

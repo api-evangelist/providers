@@ -28,20 +28,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.3
-  scored_at: '2026-10-04'
+  score: 20.4
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 318
+- acting_count: 311
   human_in_the_loop: 10
   name: Small Improvements Agentic Access
   operation_count: 575
   slug: small-improvements-agentic-access
-  summary_line: 575 operations · 318 acting · 10 human-in-the-loop
+  summary_line: 575 operations · 311 acting · 10 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://app.small-improvements.com/api/v2
@@ -2728,9 +2728,13 @@ examples:
   name: Viewsurveyresponsesusingget Example
   slug: viewSurveyResponsesUsingGET-example
 finops:
-- name: Small Improvements Finops
+- has_sources: false
+  method: generated
+  name: Small Improvements Finops
+  primary_unit: ''
   service_category: ''
   slug: small-improvements-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/small-improvements.png
 json_schemas:
 - name: ActionItemDTO
@@ -3481,7 +3485,7 @@ modified: 2026-06-13
 name: Small Improvements
 nav: Providers
 network: true
-overview: 'Small Improvements publishes 115 APIs on the [APIs.io](https://apis.io/) network, including Action Item Resource API, Activity Stream Resource API, Admin Overview Link Resource API, and 112 more. Tagged areas include Performance Management, Human Resources, Employee Feedback, OKRs, and 1:1 Meetings.
+overview: 'Small Improvements publishes 115 API contracts indexed on the [APIs.io](https://apis.io/) network, including Action Item Resource API, Activity Stream Resource API, Admin Overview Link Resource API, and 112 more. Tagged areas include Performance Management, Human Resources, Employee Feedback, OKRs, and 1:1 Meetings.
 
 
   The Small Improvements catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -3498,9 +3502,10 @@ rate_limits:
   name: Small Improvements Rate Limits
   slug: small-improvements-rate-limits
 rules:
-- effective_rule_count: 4
+- authorship: generated
+  effective_rule_count: 4
   extends: []
-  name: Small Improvements API Rules
+  name: Small Improvements — jsonschema rules
   rule_count: 4
   severity_counts:
     error: 0
@@ -3509,24 +3514,24 @@ rules:
     warn: 3
   slug: small-improvements-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 44.7
+  band: thin
+  composite: 36.3
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 85.7
+    artifact_dirs: 18
+    catalog_earned: 67.2
     catalog_earned_first_party: 0.0
-    catalog_gap: 29.3
+    catalog_gap: 47.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: -8.4
   facets:
-    access_clarity: 46.8
+    access_clarity: 18.4
     contract_governance: 23.5
     contract_quality: 62.8
     developer_ergonomics: 23.8
     discoverability: 66.1
-    operational_transparency: 49.5
-  previous_composite: 44.1
+    operational_transparency: 28.9
+  previous_composite: 44.7
   provenance:
     agentic_access: derived
     contracts:
@@ -3540,9 +3545,9 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

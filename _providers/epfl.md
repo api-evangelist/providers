@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
   name: Epfl Agentic Access
-  operation_count: 33
+  operation_count: 30
   slug: epfl-agentic-access
-  summary_line: 33 operations
+  summary_line: 30 operations
 api_count: 3
 apis:
 - baseURL: https://actu.epfl.ch/api/v1/
@@ -281,9 +281,13 @@ examples:
   name: Epfl Listnews Example
   slug: epfl-listNews-example
 finops:
-- name: Epfl Finops
+- has_sources: true
+  method: generated
+  name: Epfl Finops
+  primary_unit: ''
   service_category: Education
   slug: epfl-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/epfl.png
 json_schemas:
 - name: EPFL Memento Event
@@ -309,7 +313,7 @@ modified: '2026-08-19'
 name: EPFL
 nav: Providers
 network: true
-overview: 'EPFL publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Actu News API, Memento Events API, Primers API, and 6 more. Tagged areas include University, Higher Education, Education, Technical University, and Research.
+overview: 'EPFL publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Actu News API, Memento Events API, Primers API, and 6 more. Tagged areas include University, Higher Education, Education, Technical University, and Research.
 
 
   The EPFL catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -326,9 +330,10 @@ rate_limits:
   name: Epfl Rate Limits
   slug: epfl-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: EPFL API Rules
+  name: EPFL — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -336,7 +341,8 @@ rules:
     info: 1
     warn: 4
   slug: epfl-jsonschema-spectral-rules
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
   name: EPFL API Rules
   rule_count: 5
@@ -353,19 +359,19 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 38.2
+  composite: 36.0
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 68.9
+    artifact_dirs: 22
+    catalog_earned: 62.0
     catalog_earned_first_party: 8.0
-    catalog_gap: 46.1
+    catalog_gap: 53.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -4.4
+  delta: -2.2
   facets:
-    access_clarity: 34.2
+    access_clarity: 26.3
     contract_governance: 31.8
-    contract_quality: 27.1
+    contract_quality: 24.6
     developer_ergonomics: 35.7
     discoverability: 73.2
     operational_transparency: 23.7
@@ -377,7 +383,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 42.6
+  previous_composite: 38.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -392,8 +398,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 40.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

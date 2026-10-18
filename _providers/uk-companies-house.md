@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: UK Companies House Data from the UK government
@@ -65,7 +65,7 @@ modified: '2026-05-28'
 name: UK Companies House
 nav: Providers
 network: true
-overview: 'UK Companies House publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Government and Public APIs.
+overview: 'UK Companies House is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Government and Public APIs.
 
 
   UK Companies House''s developer surface includes engineering blog and 3 more developer resources.'
@@ -101,8 +101,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

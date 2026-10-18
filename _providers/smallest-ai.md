@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 4
+- acting_count: 3
   human_in_the_loop: 0
   name: Smallest Ai Agentic Access
   operation_count: 6
   slug: smallest-ai-agentic-access
-  summary_line: 6 operations · 4 acting
+  summary_line: 6 operations · 3 acting
 api_count: 1
 apis:
 - description: The Atoms platform for building, testing, and deploying production voice agents - orchestrating Waves TTS and Pulse STT with LLM-driven conversation flows, exposed through a developer API and dashboar
@@ -85,6 +85,14 @@ collections:
   name: Smallest AI Waves API
   slug: open-smallest-ai
 common:
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://smallest.ai/pricing/agents
+- group: company
+  title: ''
+  type: Blog
+  url: https://smallest.ai/blog
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/smallest-ai/refs/heads/main/agentic-access/smallest-ai-agentic-access.yml
   title: ''
@@ -144,36 +152,41 @@ common:
 created: '2026-06-21'
 description: Smallest AI builds ultra-low-latency voice infrastructure - the Waves text-to-speech engine (Lightning / Lightning v2 models) for realtime speech synthesis and instant voice cloning, plus the Atoms platform for building and deploying production voice agents. The Waves REST API at https://waves-api.smallest.ai/api/v1 generates speech with sub-100ms latency, supports SSE and WebSocket streaming, and exposes voice listing and cloning via a Bearer-authenticated interface.
 finops:
-- name: Smallest Ai Finops
+- has_sources: true
+  method: generated
+  name: Smallest Ai Finops
+  primary_unit: ''
   service_category: AI and Machine Learning
   slug: smallest-ai-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/smallest-ai.png
 layout: provider
-modified: '2026-06-21'
+modified: '2026-10-06'
 name: Smallest AI
 nav: Providers
 network: true
-overview: 'Smallest AI publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Streaming API, Text to Speech API, Voices API, and 1 more. Tagged areas include Artificial Intelligence, Text-to-Speech, Voice, Real-Time, and Voice Agents.
+overview: 'Smallest AI publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Streaming API, Text to Speech API, Voices API, and 1 more. Tagged areas include Artificial Intelligence, Text-to-Speech, Voice, Real-Time, and Voice Agents.
 
 
   The Smallest AI catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Smallest AI''s developer surface includes authentication, documentation, and 10 more developer resources.'
+  Smallest AI''s developer surface includes pricing, engineering blog, authentication, documentation, and 10 more developer resources.'
 plans:
 - name: Smallest Ai Plans Pricing
-  plan_count: 4
+  plan_count: 2
   slug: smallest-ai-plans-pricing
 random_paper: 16
 rate_limits:
-- limit_count: 3
+- limit_count: 0
   name: Smallest Ai Rate Limits
   slug: smallest-ai-rate-limits
 rules:
-- effective_rule_count: 35
+- authorship: generated
+  effective_rule_count: 35
   extends:
   - spectral:asyncapi
-  name: Smallest AI API Rules
+  name: Smallest AI — asyncapi rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -182,23 +195,23 @@ rules:
     warn: 7
   slug: smallest-ai-asyncapi-spectral-rules
 score:
-  band: developing
-  composite: 41.2
+  band: thin
+  composite: 36.7
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 65.4
-    catalog_earned_first_party: 0.0
-    catalog_gap: 49.6
+    artifact_dirs: 14
+    catalog_earned: 48.8
+    catalog_earned_first_party: 8.0
+    catalog_gap: 66.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -4.5
   facets:
-    access_clarity: 44.2
+    access_clarity: 39.5
     contract_governance: 11.4
     contract_quality: 58.2
-    developer_ergonomics: 28.6
+    developer_ergonomics: 31.0
     discoverability: 66.1
-    operational_transparency: 31.1
+    operational_transparency: 2.6
   previous_composite: 41.2
   provenance:
     agentic_access: derived
@@ -209,12 +222,12 @@ score:
       total: 3
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 20.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

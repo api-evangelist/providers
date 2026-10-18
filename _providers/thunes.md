@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 11
+- acting_count: 10
   human_in_the_loop: 0
   name: Thunes Agentic Access
   operation_count: 34
   slug: thunes-agentic-access
-  summary_line: 34 operations · 11 acting
+  summary_line: 34 operations · 10 acting
 api_count: 1
 apis:
 - description: Real-time cross-border money transfer to bank accounts, mobile wallets, cash pickup, and cards.
@@ -161,16 +161,20 @@ common:
 created: '2026-05-08'
 description: Thunes is a global cross-border payments network reaching 80+ countries via mobile wallets, bank accounts, cards, and cash. Powers send-money, accept-money, and direct-to-card flows.
 finops:
-- name: Thunes Finops
+- has_sources: true
+  method: generated
+  name: Thunes Finops
+  primary_unit: ''
   service_category: Fintech
   slug: thunes-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/thunes.png
 layout: provider
 modified: '2026-05-08'
 name: Thunes
 nav: Providers
 network: true
-overview: 'Thunes publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Account Management API, Connectivity API, Credit Parties API, and 6 more. Tagged areas include Fintech, Cross-Border, Payments, FX, and Mobile Money.
+overview: 'Thunes publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account Management API, Connectivity API, Credit Parties API, and 6 more. Tagged areas include Fintech, Cross-Border, Payments, Foreign Exchange, and Mobile Money.
 
 
   Thunes'' developer surface includes authentication and 8 more developer resources.'
@@ -185,17 +189,17 @@ rate_limits:
   slug: thunes-rate-limits
 score:
   band: emerging
-  composite: 25.3
+  composite: 23.8
   coverage:
     artifact_dirs: 12
-    catalog_earned: 39.0
+    catalog_earned: 36.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 76.0
+    catalog_gap: 79.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 13.2
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 42.2
     developer_ergonomics: 21.4
@@ -215,12 +219,13 @@ score:
     regime: Payments
     regime_id: payments
     score: 10.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
     score: 27.8
+screenshot: https://raw.githubusercontent.com/api-evangelist/thunes/refs/heads/main/screenshots/thunes-2026-10-11T194533.png
 security:
 - kind: authentication
   name: Thunes Authentication
@@ -235,7 +240,7 @@ tags:
 - Fintech
 - Cross-Border
 - Payments
-- FX
+- Foreign Exchange
 - Mobile Money
 - Cross-Border Payments
 website: https://www.thunes.com/

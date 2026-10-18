@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 19
 apis:
 - description: Official Anomalo MCP (Model Context Protocol) server, published by Anomalo as a Google Gemini CLI extension under the Apache-2.0 license. Runs locally over stdio against a customer's own Anomalo insta
@@ -140,6 +140,10 @@ collections:
   name: Anomalo Unstructured Data API
   slug: open-anomalo-unstructured
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.anomalo.com/feed/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/anomalo/refs/heads/main/overlays/anomalo-public-api-overlay.yaml
   title: ''
@@ -282,14 +286,14 @@ mcp_servers:
 - description: Local (stdio) MCP server; 9 tools listed.
   name: Anomalo MCP Server
   slug: anomalo-mcp-server
-modified: '2026-07-31'
+modified: '2026-10-06'
 name: Anomalo
 nav: Providers
 network: true
-overview: 'Anomalo publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Access Groups API, API Keys API, Check Runs API, and 16 more. Tagged areas include Data Quality, Data Observability, Data Monitoring, Anomaly Detection, and Data Governance.
+overview: 'Anomalo is listed with 19 APIs on the [APIs.io](https://apis.io/) network, including Access Groups API, API Keys API, Check Runs API, and 16 more. Tagged areas include Data Quality, Data Observability, Data Monitoring, Anomaly Detection, and Data Governance.
 
 
-  Anomalo''s developer surface includes documentation, support, engineering blog, signup flow, CLI, authentication, changelog, and 22 more developer resources.'
+  Anomalo''s developer surface includes documentation, support, engineering blog, signup flow, CLI, authentication, changelog, and 23 more developer resources.'
 random_paper: 17
 scopes:
 - name: Anomalo Scopes
@@ -298,15 +302,15 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: thin
-  composite: 35.5
+  composite: 35.6
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 42.1
     contract_governance: 4.5
@@ -330,8 +334,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 36.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

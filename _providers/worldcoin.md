@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 6
 apis:
 - description: Anonymous proof-of-human credential. Users prove uniqueness via Orb (highest assurance), government document with NFC, or selfie liveness check (beta). Applications request a zero-knowledge proof tied
@@ -56,6 +56,25 @@ apis:
   slug: world-chain
 artifact_total: 11
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/worldcoin/refs/heads/main/plans/worldcoin-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/worldcoin-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/worldcoin/refs/heads/main/rate-limits/worldcoin-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/worldcoin-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/worldcoin/refs/heads/main/finops/worldcoin-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/worldcoin-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://world.org/blog
 - group: operate
   title: ''
   type: IssueTracker
@@ -121,19 +140,23 @@ common:
 created: '2026-05-23'
 description: World (formerly Worldcoin, built by Tools for Humanity) is a proof-of-personhood network combining biometric Orb verification, the World App wallet, and World Chain - an OP Stack L2 prioritised for verified humans. World's developer platform at docs.world.org exposes World ID (anonymous proof of human), Mini Apps (apps distributed inside World App via MiniKit), AgentKit (distinguishing human-backed agents from bots), and World Chain (EVM RPC, contracts, indexers). World ID integrations use IDKit (web/React widget) and the Verify API on the developer portal at developer.worldcoin.org.
 finops:
-- name: Worldcoin Finops
+- has_sources: false
+  method: generated
+  name: Worldcoin Finops
+  primary_unit: ''
   service_category: API
   slug: worldcoin-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/worldcoin.png
 layout: provider
-modified: '2026-05-23'
+modified: '2026-10-06'
 name: World (Worldcoin)
 nav: Providers
 network: true
-overview: 'World (Worldcoin) publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Proof of Personhood, Identity, World ID, Mini Apps, and Blockchain.
+overview: 'World (Worldcoin) is listed with 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Proof of Personhood, Identity, World ID, Mini Apps, and Blockchain.
 
 
-  World (Worldcoin)''s developer surface includes documentation, GitHub presence, support, and 12 more developer resources.'
+  World (Worldcoin)''s developer surface includes engineering blog, documentation, GitHub presence, support, and 15 more developer resources.'
 plans:
 - name: Worldcoin Plans Pricing
   plan_count: 1
@@ -144,36 +167,36 @@ rate_limits:
   name: Worldcoin Rate Limits
   slug: worldcoin-rate-limits
 score:
-  band: thin
-  composite: 28.9
+  band: emerging
+  composite: 23.4
   coverage:
-    artifact_dirs: 6
-    catalog_earned: 54.4
+    artifact_dirs: 7
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 60.6
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.5
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 23.8
+    developer_ergonomics: 26.2
     discoverability: 66.1
-    operational_transparency: 50.5
+    operational_transparency: 36.8
   open_source:
     applies: true
     score: 85.0
   previous_composite: 28.9
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
-    score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
+    score: 11.3
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

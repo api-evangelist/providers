@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The Ensembl REST API (v15.12) provides language-agnostic HTTP access to genome annotation data across hundreds of vertebrate and eukaryotic species. It exposes 19 endpoint categories covering genome s
@@ -108,16 +108,20 @@ common:
 created: '2026-06-13'
 description: Ensembl is a genome annotation database and browser maintained by the European Bioinformatics Institute (EMBL-EBI) and the Wellcome Sanger Institute. It provides comprehensive genome data for vertebrates and other eukaryotic organisms, covering gene annotation, variant data, regulatory features, comparative genomics, and evolutionary analysis across hundreds of species. The Ensembl REST API offers language-agnostic HTTP access to this genome data without requiring local database installations or Perl API dependencies.
 finops:
-- name: Ensembl Finops
+- has_sources: true
+  method: generated
+  name: Ensembl Finops
+  primary_unit: ''
   service_category: Bioinformatics / Genomics Data
   slug: ensembl-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ensembl.png
 layout: provider
 modified: '2026-06-13'
 name: Ensembl
 nav: Providers
 network: true
-overview: 'Ensembl publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Genomics, Bioinformatics, Genome Annotation, Variant Annotation, and Comparative Genomics.
+overview: 'Ensembl is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Genomics, Bioinformatics, Genome Annotation, Variant Annotation, and Comparative Genomics.
 
 
   Ensembl''s developer surface includes documentation, tutorials, and 13 more developer resources.'
@@ -132,22 +136,22 @@ rate_limits:
   slug: ensembl-rate-limits
 score:
   band: emerging
-  composite: 18.9
+  composite: 12.8
   coverage:
-    artifact_dirs: 8
-    catalog_earned: 54.4
+    artifact_dirs: 9
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 60.6
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.1
   facets:
-    access_clarity: 32.1
+    access_clarity: 10.5
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 9.5
     discoverability: 66.1
-    operational_transparency: 37.4
+    operational_transparency: 23.7
   previous_composite: 18.9
   regulatory:
     applies: true
@@ -155,9 +159,9 @@ score:
     regime: Health
     regime_id: health
     score: 6.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

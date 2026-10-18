@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 50.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 29
   slug: yutori-agentic-access
   summary_line: 29 operations · 17 acting
-api_count: 1
+api_count: 2
 apis:
 - baseURL: https://api.yutori.com
   baseurl_source: declared
@@ -70,7 +70,7 @@ apis:
   description: The Scouting API from Yutori — 16 operation(s) for scouting.
   name: Yutori Scouting API
   slug: yutori-scouting-api
-artifact_total: 16
+artifact_total: 17
 asyncapis:
 - description: ''
   name: Yutori Webhooks
@@ -95,6 +95,11 @@ collections:
   name: Fast Browsing Scouting API
   slug: open-yutori-scouting-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/yutori/refs/heads/main/plans/yutori-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/yutori-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/yutori/refs/heads/main/overlays/yutori-openapi-overlay.yaml
   title: ''
@@ -240,27 +245,31 @@ modified: '2026-07-21'
 name: Yutori
 nav: Providers
 network: true
-overview: 'Yutori publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Browsing API, Chat Completions API, Health API, and 2 more. Tagged areas include Company, Artificial Intelligence, Agents, Web Automation, and Browser Automation.
+overview: 'Yutori publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Browsing API, Chat Completions API, Health API, and 2 more. Tagged areas include Company, Artificial Intelligence, Agents, Web Automation, and Browser Automation.
 
 
   The Yutori catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Yutori''s developer surface includes documentation, API reference, getting-started guide, authentication, pricing, signup flow, engineering blog, and 22 more developer resources.'
+  Yutori''s developer surface includes documentation, API reference, getting-started guide, authentication, pricing, signup flow, engineering blog, and 23 more developer resources.'
+plans:
+- name: Yutori Plans Pricing
+  plan_count: 10
+  slug: yutori-plans-pricing
 random_paper: 2
 score:
   band: developing
-  composite: 45.7
+  composite: 51.7
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 22
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.0
   facets:
-    access_clarity: 31.6
+    access_clarity: 63.2
     contract_governance: 4.5
     contract_quality: 57.2
     developer_ergonomics: 71.4
@@ -279,13 +288,13 @@ score:
     skills: first-party
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 22.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

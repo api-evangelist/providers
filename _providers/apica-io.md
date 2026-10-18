@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -36,12 +36,21 @@ apis:
 - description: Apica observability platform API
   name: Apica API
   slug: apica-api
-artifact_total: 7
+artifact_total: 8
 asyncapis:
 - description: ''
   name: Apica Io Webhooks
   slug: apica-io-webhooks
 common:
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.apica.io/cost-savings/
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/apica-io/refs/heads/main/plans/apica-io-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/apica-io-plans-pricing.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/apica-io/refs/heads/main/agentic-access/apica-io-agentic-access.yml
   title: ''
@@ -172,16 +181,21 @@ modified: '2026-10-03'
 name: Apica
 nav: Providers
 network: true
-overview: 'Apica publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Observability, Telemetry, Artificial Intelligence, and Cloud.
+overview: 'Apica is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Observability, Telemetry, Artificial Intelligence, and Cloud.
 
 
   The Apica catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Apica''s developer surface includes changelog, authentication, engineering blog, getting-started guide, documentation, API reference, and 21 more developer resources.'
+  Apica''s developer surface includes pricing, changelog, authentication, engineering blog, getting-started guide, documentation, API reference, and 22 more developer resources.'
+plans:
+- name: Apica Io Plans Pricing
+  plan_count: 0
+  slug: apica-io-plans-pricing
 random_paper: 1
 rules:
-- effective_rule_count: 46
+- authorship: generated
+  effective_rule_count: 46
   extends:
   - spectral:oas
   name: Apica API Rules
@@ -194,21 +208,23 @@ rules:
   slug: apica-io-rules
 score:
   band: developing
-  composite: 42.4
+  composite: 44.6
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 18
     catalog_earned: 41.5
     catalog_earned_first_party: 0.0
     catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -3.5
   facets:
-    access_clarity: 36.8
+    access_clarity: 47.4
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 42.9
     discoverability: 76.8
     operational_transparency: 39.5
+  previous_composite: 48.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -219,12 +235,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/apica-io/refs/heads/main/screenshots/apica-io-2026-10-11T095921.png
 security:
 - kind: authentication
   name: Apica Io Authentication

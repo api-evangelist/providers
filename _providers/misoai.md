@@ -34,8 +34,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.6
-  scored_at: '2026-10-04'
-api_count: 1
+  scored_at: '2026-10-17'
+api_count: 2
 apis:
 - baseURL: https://api.askmiso.com
   baseurl_source: declared
@@ -87,7 +87,7 @@ apis:
   description: APIs for recommending products and content to users based on their interests.
   name: miso.ai User Recommendations API
   slug: misoai-user-recommendations-api
-artifact_total: 23
+artifact_total: 24
 collections:
 - collection_type: open
   name: API Collection
@@ -123,6 +123,15 @@ collections:
   name: Miso Ask APIs User Recommendations API
   slug: open-misoai-user-recommendations-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/misoai/refs/heads/main/plans/misoai-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/misoai-plans-pricing.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://miso.ai/blog/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/misoai/refs/heads/main/capabilities/misoai-capability-edges.yml
   title: ''
@@ -262,31 +271,35 @@ created: '2026-07-17'
 description: Miso (Miso Technologies, askmiso.com) is an AI personalization, search, and answers platform for publishers, media companies, and retailers. Miso trains machine-learning "Engines" on three data sets a site already has — its log of historical and real-time user interactions, its catalog of products/content, and its users — and exposes the output as REST APIs for personalized semantic search, typo-tolerant autocomplete, product and user recommendations, and an LLM-grounded Q&A / "Answers" experience that answers questions using only the customer's own content (reducing hallucination). The platform ships JavaScript (client + server), Python, and PHP SDKs, a WordPress plugin, embeddable Ask / Explore / Hybrid Search web modules, and the Dojo console for training engines and managing API keys and environments.
 image: https://miso.ai/favicon.ico
 layout: provider
-modified: '2026-09-16'
+modified: '2026-10-06'
 name: miso.ai
 nav: Providers
 network: true
-overview: 'miso.ai publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Ask APIs API, Bulk API, Experiment APIs API, and 7 more. Tagged areas include Company, Artificial Intelligence, Machine Learning, Search, and Recommendations.
+overview: 'miso.ai publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Ask APIs API, Bulk API, Experiment APIs API, and 7 more. Tagged areas include Company, Artificial Intelligence, Machine Learning, Search, and Recommendations.
 
 
-  miso.ai''s developer surface includes documentation, API reference, getting-started guide, quickstart, authentication, pricing, signup flow, and 23 more developer resources.'
+  miso.ai''s developer surface includes engineering blog, documentation, API reference, getting-started guide, quickstart, authentication, pricing, and 25 more developer resources.'
+plans:
+- name: Misoai Plans Pricing
+  plan_count: 1
+  slug: misoai-plans-pricing
 random_paper: 4
 score:
-  band: thin
-  composite: 35.4
+  band: developing
+  composite: 40.1
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 24
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 4.7
   facets:
-    access_clarity: 10.5
+    access_clarity: 31.6
     contract_governance: 4.5
     contract_quality: 47.7
-    developer_ergonomics: 63.7
+    developer_ergonomics: 66.1
     discoverability: 73.2
     operational_transparency: 2.6
   previous_composite: 35.4
@@ -305,8 +318,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

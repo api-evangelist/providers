@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 18.0
-  scored_at: '2026-10-04'
+  score: 16.1
+  scored_at: '2026-10-17'
 api_count: 5
 apis:
 - description: RESTful management API for JBoss Enterprise Application Platform (EAP) administration and monitoring of server configuration, deployments, and runtime state.
@@ -53,6 +53,29 @@ apis:
   slug: jboss-fuse-rest-dsl
 artifact_total: 10
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/jboss/refs/heads/main/plans/jboss-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/jboss-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/jboss/refs/heads/main/rate-limits/jboss-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/jboss-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/jboss/refs/heads/main/finops/jboss-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/jboss-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.redhat.com/en/blog
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.redhat.com/en/rss/blog
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/jboss/refs/heads/main/security/jboss-vulnerability-disclosure.yml
   title: ''
@@ -86,19 +109,23 @@ common:
 created: '2024-01-15'
 description: JBoss is a division of Red Hat providing open source middleware and application server technologies for enterprise Java workloads. The JBoss product portfolio includes JBoss EAP (Enterprise Application Platform), the WildFly community application server, JBoss Data Grid (Red Hat Data Grid), Keycloak identity and access management, and JBoss Fuse integration platform built on Apache Camel. These projects power Jakarta EE deployments, single sign-on, distributed caching, and microservices integration in enterprise environments.
 finops:
-- name: Jboss Finops
+- has_sources: false
+  method: generated
+  name: Jboss Finops
+  primary_unit: ''
   service_category: API
   slug: jboss-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/jboss.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-10-06'
 name: JBoss
 nav: Providers
 network: true
-overview: 'JBoss publishes 5 APIs on the [APIs.io](https://apis.io/) network, including EAP Management API, Keycloak Admin REST API, and 3 more. Tagged areas include Application Server, Cloud-Native, Enterprise, Jakarta EE, and Java EE.
+overview: 'JBoss is listed with 5 APIs on the [APIs.io](https://apis.io/) network, including EAP Management API, Keycloak Admin REST API, and 3 more. Tagged areas include Application Server, Cloud-Native, Enterprise, Jakarta EE, and Java EE.
 
 
-  JBoss'' developer surface includes developer portal, getting-started guide, engineering blog, support, and 3 more developer resources.'
+  JBoss'' developer surface includes engineering blog, developer portal, getting-started guide, support, and 8 more developer resources.'
 plans:
 - name: Jboss Plans Pricing
   plan_count: 3
@@ -110,17 +137,17 @@ rate_limits:
   slug: jboss-rate-limits
 score:
   band: emerging
-  composite: 26.1
+  composite: 24.6
   coverage:
     artifact_dirs: 6
-    catalog_earned: 44.0
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 71.0
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 24.0
     developer_ergonomics: 45.2
@@ -133,8 +160,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 17.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

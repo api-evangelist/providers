@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 35
+- acting_count: 24
   human_in_the_loop: 1
   name: Velt Agentic Access
   operation_count: 35
   slug: velt-agentic-access
-  summary_line: 35 operations · 35 acting · 1 human-in-the-loop
+  summary_line: 35 operations · 24 acting · 1 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://api.velt.dev/v2
@@ -173,16 +173,20 @@ common:
 created: '2026-07-01'
 description: Velt is a real-time collaboration platform delivered primarily as a client SDK (React components and framework wrappers) for adding presence, live cursors, comments, notifications, huddles, recordings, and live selection to applications. Its server-side surface is the Velt Data (REST) API at api.velt.dev plus signed, retried webhooks, letting backends read and write comments, users, organizations, folders, documents, notifications, and user groups programmatically.
 finops:
-- name: Velt Finops
+- has_sources: true
+  method: generated
+  name: Velt Finops
+  primary_unit: ''
   service_category: Developer Tools and Collaboration
   slug: velt-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/velt.png
 layout: provider
 modified: '2026-07-01'
 name: Velt
 nav: Providers
 network: true
-overview: 'Velt publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Comments API, Documents API, and 4 more. Tagged areas include Real-Time Collaboration, Comments, Presence, Notification, and SDK.
+overview: 'Velt publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Auth API, Comments API, Documents API, and 4 more. Tagged areas include Real-Time Collaboration, Comments, Presence, Notification, and SDK.
 
 
   Velt''s developer surface includes authentication, documentation, engineering blog, and 10 more developer resources.'
@@ -197,22 +201,22 @@ rate_limits:
   slug: velt-rate-limits
 score:
   band: thin
-  composite: 36.5
+  composite: 28.2
   coverage:
     artifact_dirs: 12
-    catalog_earned: 61.6
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.4
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 44.2
+    access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 44.6
     developer_ergonomics: 32.1
     discoverability: 66.1
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   previous_composite: 36.5
   provenance:
     agentic_access: derived
@@ -227,9 +231,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

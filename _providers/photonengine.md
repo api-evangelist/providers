@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 18.3
-  scored_at: '2026-10-04'
+  score: 16.5
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -92,6 +92,10 @@ collections:
   name: Photon WebHooks and Webservice Contract Custom Authentication Room Lifecycle WebHooks API
   slug: open-photonengine-room-lifecycle-webhooks-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.photonengine.com/feed/
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/photonengine/refs/heads/main/agentic-access/photonengine-agentic-access.yml
   title: ''
@@ -142,22 +146,26 @@ created: '2026-07-03'
 description: Photon Engine (Exit Games) builds cross-platform multiplayer game networking backends - Photon Fusion, Photon Quantum, Photon Unity Networking (PUN), Photon Voice, Photon Chat, and the legacy Photon Bolt - all layered on the proprietary Photon Realtime transport protocol. Photon's core product is protocol-first and SDK-first, not REST-first - game clients exchange a custom binary message format (operation requests, operation responses, and events) with Name Server, Master Server, and Game Server roles, over UDP or TCP by default and, importantly, over WebSocket (ws:// unsecured, wss:// secured on port 443) as a first-class documented transport for WebGL and browser-hosted clients. Photon's own hosted surface exposes no general-purpose callable REST API for gameplay; the only genuinely HTTP surfaces are outbound - Room Lifecycle WebHooks (Photon POSTs room/join/leave/event/property/close notifications to a developer-hosted URL) and the Custom Authentication webservice contract
   (Photon calls out to a developer-hosted HTTP(S) endpoint to validate client tokens before allowing a connection). Pricing and account management are handled through the Photon Cloud Dashboard web UI, not a documented public REST API.
 finops:
-- name: Photonengine Finops
+- has_sources: true
+  method: generated
+  name: Photonengine Finops
+  primary_unit: ''
   service_category: Gaming and Multiplayer Networking
   slug: photonengine-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/photonengine.png
 layout: provider
-modified: '2026-07-03'
+modified: '2026-10-06'
 name: Photon Engine
 nav: Providers
 network: true
-overview: 'Photon Engine publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Photon Realtime Transport Protocol, Custom Authentication API, Room Lifecycle WebHooks API, and 6 more. Tagged areas include Gaming, Multiplayer, Real-Time, Netcode, and Game Networking.
+overview: 'Photon Engine publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Photon Realtime Transport Protocol, Custom Authentication API, Room Lifecycle WebHooks API, and 6 more. Tagged areas include Gaming, Multiplayer, Real-Time, Netcode, and Game Networking.
 
 
   The Photon Engine catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Photon Engine''s developer surface includes documentation and 9 more developer resources.'
+  Photon Engine''s developer surface includes documentation and 10 more developer resources.'
 plans:
 - name: Photonengine Plans Pricing
   plan_count: 6
@@ -168,10 +176,11 @@ rate_limits:
   name: Photonengine Rate Limits
   slug: photonengine-rate-limits
 rules:
-- effective_rule_count: 33
+- authorship: generated
+  effective_rule_count: 33
   extends:
   - spectral:asyncapi
-  name: Photon Engine API Rules
+  name: Photon Engine — asyncapi rules
   rule_count: 6
   severity_counts:
     error: 1
@@ -180,23 +189,23 @@ rules:
     warn: 4
   slug: photonengine-asyncapi-spectral-rules
 score:
-  band: thin
-  composite: 32.4
+  band: emerging
+  composite: 24.1
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 66.1
+    artifact_dirs: 13
+    catalog_earned: 47.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 48.9
+    catalog_gap: 67.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 13.6
     contract_quality: 50.7
     developer_ergonomics: 7.1
     discoverability: 66.1
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   previous_composite: 32.4
   provenance:
     agentic_access: derived
@@ -211,9 +220,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

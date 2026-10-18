@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: partner
+  gated_source:
+  - tag:Partner Gated
   label: Self-serve signup
   onboarding: self-serve
   pricing: unknown
@@ -35,7 +38,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The Unity Cloud (Unity Platform) developer surface, documented publicly at docs.unitycloud.io as the Unity Platform SDK reference. A single GraphQL endpoint collates the schemas of every installed ext
@@ -178,7 +181,7 @@ modified: '2026-07-25'
 name: Codafication
 nav: Providers
 network: true
-overview: 'Codafication publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Australia, Insurtech, Claims, and Claims Management.
+overview: 'Codafication is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Australia, Insurtech, Claims, and Claims Management.
 
 
   The Codafication catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -190,7 +193,7 @@ score:
   band: thin
   composite: 34.3
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -220,8 +223,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 19.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -252,6 +255,5 @@ tags:
 - SDK
 - Extensions
 - Multi-Tenant
-- Partner Gated
 website: https://codafication.com/
 ---

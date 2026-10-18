@@ -34,15 +34,15 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 48.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 93
+- acting_count: 92
   human_in_the_loop: 7
   name: Zippykid Agentic Access
   operation_count: 149
   slug: zippykid-agentic-access
-  summary_line: 149 operations · 93 acting · 7 human-in-the-loop
-api_count: 1
+  summary_line: 149 operations · 92 acting · 7 human-in-the-loop
+api_count: 2
 apis:
 - baseURL: https://my.pressable.com/v1
   baseurl_source: declared
@@ -272,7 +272,7 @@ modified: '2026-07-21'
 name: ZippyKid
 nav: Providers
 network: true
-overview: 'ZippyKid publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Account API, Activity API, Auth API, and 5 more. Tagged areas include Company, WordPress, Managed Hosting, WordPress Hosting, and Web Hosting.
+overview: 'ZippyKid publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Activity API, Auth API, and 5 more. Tagged areas include Company, WordPress, Managed Hosting, WordPress Hosting, and Web Hosting.
 
 
   The ZippyKid catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -320,8 +320,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

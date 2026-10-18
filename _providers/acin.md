@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The GraphQL gateway that backs the Acin / CUBE Platform web application. It is served from Acin's own Azure API Management instance at apim-prod.acin.com and is referenced by name in the application b
@@ -153,7 +153,7 @@ modified: '2026-09-06'
 name: Acin
 nav: Providers
 network: true
-overview: 'Acin publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Operational Risk, Risk Management, Non-Financial Risk, and Financial Services.
+overview: 'Acin is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Operational Risk, Risk Management, Non-Financial Risk, and Financial Services.
 
 
   Acin''s developer surface includes documentation, support, engineering blog, changelog, authentication, and 20 more developer resources.'
@@ -175,7 +175,7 @@ score:
   band: thin
   composite: 27.7
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 17
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -206,13 +206,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 37.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/acin/refs/heads/main/screenshots/acin-2026-10-11T092650.png
 security:
 - kind: authentication
   name: Acin Authentication
@@ -225,7 +226,7 @@ security:
 - kind: vulnerability-disclosure
   name: Acin Vulnerability Disclosure
   slug: acin-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 - kind: trust-center
   name: Acin Trust Center
   slug: acin-trust-center

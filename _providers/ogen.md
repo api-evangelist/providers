@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 3.4
-  scored_at: '2026-10-04'
+  score: 1.5
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The ogen code generator. Invoked as a build-time CLI against a local OpenAPI v3 document — `ogen [options] <spec>` — it writes a Go package containing a typed client, server, router, validators and JS
@@ -42,6 +42,21 @@ apis:
   slug: ogen
 artifact_total: 7
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/ogen/refs/heads/main/plans/ogen-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/ogen-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/ogen/refs/heads/main/rate-limits/ogen-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/ogen-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/ogen/refs/heads/main/finops/ogen-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/ogen-finops.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -166,9 +181,13 @@ common:
 created: '2026-03-25'
 description: 'Ogen is an Apache-2.0 OpenAPI v3 code generator for Go, maintained by the ogen-go organization. It reads an OpenAPI v3 document at build time and emits a statically typed Go client and server: code-generated JSON encoding with no reflection or interface{}, code-generated validators, a static radix router, sum types for oneOf with name, type and value discrimination, Opt/Nil/OptNil wrappers instead of pointers, a typed SecuritySource interface, webhook client and server generation, Server-Sent Events client generation, and OpenTelemetry tracing and metrics. Behaviour is steered by a YAML config file with a published JSON Schema and by a twelve-term registry of x-ogen-* specification extensions. Ogen operates no hosted API of its own — it is distributed as a Go module, a pinned go.mod tool dependency, and a distroless container image.'
 finops:
-- name: Ogen Finops
+- has_sources: false
+  method: generated
+  name: Ogen Finops
+  primary_unit: ''
   service_category: API
   slug: ogen-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ogen.png
 json_schemas:
 - name: Ogen Configuration Schema
@@ -179,10 +198,10 @@ modified: '2026-08-06'
 name: Ogen
 nav: Providers
 network: true
-overview: 'Ogen publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Code Generation, Go, OpenAPI, SDK, and Developer Tools.
+overview: 'Ogen is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Code Generation, Go, OpenAPI, SDK, and Developer Tools.
 
 
-  Ogen''s developer surface includes documentation, API reference, getting-started guide, support, CLI, sandbox, changelog, and 20 more developer resources.'
+  Ogen''s developer surface includes documentation, API reference, getting-started guide, support, CLI, sandbox, changelog, and 23 more developer resources.'
 plans:
 - name: Ogen Plans Pricing
   plan_count: 3
@@ -194,17 +213,17 @@ rate_limits:
   slug: ogen-rate-limits
 score:
   band: thin
-  composite: 38.1
+  composite: 36.7
   coverage:
     artifact_dirs: 18
-    catalog_earned: 51.4
+    catalog_earned: 48.4
     catalog_earned_first_party: 5.0
-    catalog_gap: 63.6
+    catalog_gap: 66.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.4
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 33.3
     contract_quality: 7.2
     developer_ergonomics: 66.1
@@ -223,8 +242,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

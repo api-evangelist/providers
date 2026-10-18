@@ -28,20 +28,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.5
-  scored_at: '2026-10-04'
+  score: 24.7
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 11
+- acting_count: 10
   human_in_the_loop: 2
   name: Chase Agentic Access
   operation_count: 23
   slug: chase-agentic-access
-  summary_line: 23 operations · 11 acting · 2 human-in-the-loop
+  summary_line: 23 operations · 10 acting · 2 human-in-the-loop
 api_count: 5
 apis:
 - baseURL: https://api.chase.com/loyalty/rewards-balance
@@ -153,6 +153,21 @@ collections:
   name: Chase Account Aggregation User Consent Accounts Transactions API
   slug: open-chase-transactions-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/chase/refs/heads/main/plans/chase-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/chase-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/chase/refs/heads/main/rate-limits/chase-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/chase-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/chase/refs/heads/main/finops/chase-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/chase-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/chase/refs/heads/main/capabilities/chase-capability-edges.yml
   title: ''
@@ -245,9 +260,13 @@ common:
 created: '2025-02-21'
 description: JPMorgan Chase Bank, N.A. is a leading US financial institution providing consumer and commercial banking, credit cards, mortgages, and merchant services. The Chase Developer Portal exposes APIs for FDX-aligned account aggregation, customer consent, rewards balances, and the Loyalty Pay with Points platform that lets enrolled merchants and partners enable customers to redeem Ultimate Rewards points at checkout.
 finops:
-- name: Chase Finops
+- has_sources: true
+  method: generated
+  name: Chase Finops
+  primary_unit: ''
   service_category: Financial Services / Banking
   slug: chase-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/chase.png
 json_schemas:
 - name: Chase FDX Account
@@ -270,13 +289,13 @@ modified: '2026-05-19'
 name: Chase
 nav: Providers
 network: true
-overview: 'Chase publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Rewards Balance API, Accounts API, Consents API, and 8 more. Tagged areas include Account Aggregation, Banking, Consent, Credit Cards, and FDX.
+overview: 'Chase publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Rewards Balance API, Accounts API, Consents API, and 8 more. Tagged areas include Account Aggregation, Banking, Consent, Credit Cards, and FDX.
 
 
   The Chase catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Chase''s developer surface includes authentication, developer portal, FAQ, support, and 16 more developer resources.'
+  Chase''s developer surface includes authentication, developer portal, FAQ, support, and 19 more developer resources.'
 plans:
 - name: Chase Plans Pricing
   plan_count: 2
@@ -287,9 +306,10 @@ rate_limits:
   name: Chase Rate Limits
   slug: chase-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Chase API Rules
+  name: Chase — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -304,17 +324,17 @@ scopes:
   summary_line: 11 scopes · authorizationCode/clientCredentials
 score:
   band: thin
-  composite: 35.0
+  composite: 33.4
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 55.3
+    artifact_dirs: 20
+    catalog_earned: 52.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 59.8
+    catalog_gap: 62.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 34.2
+    access_clarity: 26.3
     contract_governance: 9.8
     contract_quality: 45.6
     developer_ergonomics: 31.0
@@ -334,8 +354,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 33.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

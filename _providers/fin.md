@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -130,6 +130,10 @@ collections:
   name: Fin.com Authentication Virtual Accounts API
   slug: open-fin-virtual-accounts-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.fin.com/rss.xml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -250,23 +254,23 @@ created: '2026-07-17'
 description: Fin (fin.com) is a global cross-border payments infrastructure company that moves money internationally over stablecoin rails and direct liquidity networks instead of traditional correspondent banking, settling in minutes rather than days. Its Orchestration API lets businesses onboard individual and business customers (KYC/KYB), create beneficiaries, quote FX and fees, send transfer and batch payouts, provision multi-currency virtual accounts that convert fiat deposits to crypto (e.g. USD to USDC), and run crypto orchestration across exchanges. Founded by ex-Citadel engineers, Fin raised a $17M Series A to bring its stablecoin-powered high-value payments product to market. This profile was enriched from the public developer surface at developer.fin.com.
 image: https://cdn.sanity.io/images/xemwqsar/production/0e65aec0795ced77ed5301b8627cbb88059d11d2-1200x630.webp?w=1200&h=630&q=80&fit=crop
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Fin
 nav: Providers
 network: true
-overview: 'Fin publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Balances API, Beneficiaries API, and 7 more. Tagged areas include Company, Payments, Cross-Border Payments, Stablecoins, and Fintech.
+overview: 'Fin publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authentication API, Balances API, Beneficiaries API, and 7 more. Tagged areas include Company, Payments, Cross-Border Payments, Stablecoins, and Fintech.
 
 
   The Fin catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Fin''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, support, and 18 more developer resources.'
+  Fin''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, support, and 19 more developer resources.'
 random_paper: 9
 score:
   band: thin
   composite: 38.0
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 22
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -297,8 +301,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 15.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -323,6 +327,6 @@ tags:
 - Money Movement
 - Foreign Exchange
 - Virtual Accounts
-- Crypto
+- Cryptocurrency
 website: https://www.fin.com
 ---

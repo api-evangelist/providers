@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://tokagroup.com/news/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/toka/refs/heads/main/security/toka-domain-security.yml
   title: ''
@@ -78,20 +82,20 @@ created: '2026-07-17'
 description: Toka is a defense and intelligence technology company, founded in 2017-2018 and headquartered in Maryland with R&D in Israel, that develops signals intelligence, ISR, cyber operations, and force protection capabilities exclusively for militaries, homeland security organizations, intelligence agencies, and law enforcement in the United States and allied nations. Backed by Andreessen Horowitz (a16z), Eclipse Ventures, and Dell Technologies Capital, Toka sells government-facing capability platforms and cyber capacity-building services rather than a public developer or API surface, and publishes no developer portal, documentation, or machine-readable API artifacts.
 image: https://tokagroup.com/wp-content/uploads/2026/03/Toka-Logo-2.svg
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Toka
 nav: Providers
 network: true
 overview: 'Toka is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cybersecurity, Intelligence, Government, and Defense.
 
 
-  Toka''s developer surface includes product news, YouTube channel, and 7 more developer resources.'
+  Toka''s developer surface includes product news, YouTube channel, and 8 more developer resources.'
 random_paper: 13
 score:
   band: minimal
   composite: 9.9
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -119,8 +123,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

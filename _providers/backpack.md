@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.6
-  scored_at: '2026-10-04'
+  score: 27.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -423,9 +423,13 @@ features:
 - Open source wallet under GPL-3.0 at github.com/coral-xyz/backpack
 - Founded by Armani Ferrante (creator of the Anchor framework) and Tristan Yver via Coral
 finops:
-- name: Backpack Finops
+- has_sources: true
+  method: generated
+  name: Backpack Finops
+  primary_unit: ''
   service_category: ''
   slug: backpack-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/backpack.png
 integrations:
 - description: Native settlement chain for the wallet and the home of the Anchor framework and xNFT protocol.
@@ -472,7 +476,7 @@ modified: '2026-05-24'
 name: Backpack
 nav: Providers
 network: true
-overview: 'Backpack publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Account API, Assets API, Borrow Lend API, and 12 more. Tagged areas include Crypto, Exchange, Wallets, Trading, and Perpetuals.
+overview: 'Backpack publishes 15 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Assets API, Borrow Lend API, and 12 more. Tagged areas include Cryptocurrency, Exchange, Wallets, Trading, and Perpetuals.
 
 
   The Backpack catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -489,10 +493,11 @@ rate_limits:
   name: Backpack Rate Limits
   slug: backpack-rate-limits
 rules:
-- effective_rule_count: 35
+- authorship: generated
+  effective_rule_count: 35
   extends:
   - spectral:asyncapi
-  name: Backpack API Rules
+  name: Backpack — asyncapi rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -500,9 +505,10 @@ rules:
     info: 1
     warn: 6
   slug: backpack-asyncapi-spectral-rules
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: Backpack API Rules
+  name: Backpack — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -510,7 +516,8 @@ rules:
     info: 2
     warn: 4
   slug: backpack-jsonschema-spectral-rules
-- effective_rule_count: 47
+- authorship: unmarked
+  effective_rule_count: 47
   extends:
   - spectral:oas
   name: Backpack API Rules
@@ -523,22 +530,22 @@ rules:
   slug: backpack-rules
 score:
   band: developing
-  composite: 52.2
+  composite: 44.7
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 85.6
+    artifact_dirs: 19
+    catalog_earned: 67.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 29.4
+    catalog_gap: 48.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.5
   facets:
-    access_clarity: 60.0
+    access_clarity: 31.6
     contract_governance: 27.3
     contract_quality: 70.3
     developer_ergonomics: 31.0
     discoverability: 57.1
-    operational_transparency: 57.4
+    operational_transparency: 36.8
   open_source:
     applies: true
     score: 60.0
@@ -556,9 +563,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0
@@ -579,7 +586,7 @@ solutions:
 - description: Dedicated tag group for processing FTX creditor and FTX EU claims through the exchange.
   name: FTX Creditor Claims processing
 tags:
-- Crypto
+- Cryptocurrency
 - Exchange
 - Wallets
 - Trading

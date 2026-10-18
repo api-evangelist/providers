@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 44.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: RESTful API for the Mesh spend management platform. Documented capabilities include connectivity verification, virtual card lifecycle management (issuance, suspension, cancellation), merchant and cate
@@ -51,6 +51,10 @@ asyncapis:
   name: Mesh Payments Webhooks
   slug: mesh-payments-webhooks
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://meshpayments.com/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/mesh-payments/refs/heads/main/security/mesh-payments-domain-security.yml
   title: ''
@@ -189,17 +193,17 @@ mcp_servers:
 - description: Remote MCP server at api.meshpayments.com over HTTP.
   name: Mesh Payments MCP Server
   slug: mesh-payments
-modified: '2026-08-04'
+modified: '2026-10-06'
 name: Mesh Payments
 nav: Providers
 network: true
-overview: 'Mesh Payments publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Spend Management, Expense Management, and Corporate Cards.
+overview: 'Mesh Payments is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Spend Management, Expense Management, and Corporate Cards.
 
 
   The Mesh Payments catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Mesh Payments'' developer surface includes documentation, support, engineering blog, pricing, signup flow, changelog, authentication, and 22 more developer resources.'
+  Mesh Payments'' developer surface includes documentation, support, engineering blog, pricing, signup flow, changelog, authentication, and 23 more developer resources.'
 random_paper: 13
 scopes:
 - name: Mesh Payments Scopes
@@ -240,8 +244,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

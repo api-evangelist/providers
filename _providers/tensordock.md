@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 25
+- acting_count: 19
   human_in_the_loop: 3
   name: Tensordock Agentic Access
   operation_count: 33
   slug: tensordock-agentic-access
-  summary_line: 33 operations · 25 acting · 3 human-in-the-loop
+  summary_line: 33 operations · 19 acting · 3 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://dashboard.tensordock.com
@@ -375,9 +375,13 @@ features:
 - 100 requests per minute per organization on the v2 API
 - Customer balance, revenue, and monthly summary endpoints for host operators
 finops:
-- name: Tensordock Finops
+- has_sources: true
+  method: generated
+  name: Tensordock Finops
+  primary_unit: gpu_hour
   service_category: Compute
   slug: tensordock-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tensordock.png
 json_schemas:
 - name: TensorDock Hostnode
@@ -396,7 +400,7 @@ modified: '2026-05-25'
 name: TensorDock
 nav: Providers
 network: true
-overview: 'TensorDock publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Instances API, Secrets API, Authorization API, and 6 more. Tagged areas include GPU, Cloud, Marketplace, Compute, and Virtual Machines.
+overview: 'TensorDock publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Instances API, Secrets API, Authorization API, and 6 more. Tagged areas include GPU, Cloud, Marketplace, Compute, and Virtual Machines.
 
 
   The TensorDock catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -413,9 +417,10 @@ rate_limits:
   name: Tensordock Rate Limits
   slug: tensordock-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: TensorDock API Rules
+  name: TensorDock — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -423,7 +428,8 @@ rules:
     info: 2
     warn: 3
   slug: tensordock-jsonschema-spectral-rules
-- effective_rule_count: 49
+- authorship: unmarked
+  effective_rule_count: 49
   extends:
   - spectral:oas
   name: TensorDock API Rules
@@ -436,22 +442,22 @@ rules:
   slug: tensordock-rules
 score:
   band: strong
-  composite: 56.5
+  composite: 54.8
   coverage:
     artifact_dirs: 18
-    catalog_earned: 69.1
+    catalog_earned: 63.9
     catalog_earned_first_party: 12.0
-    catalog_gap: 45.9
+    catalog_gap: 51.1
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.7
   facets:
     access_clarity: 92.1
     contract_governance: 13.6
     contract_quality: 55.0
     developer_ergonomics: 65.5
     discoverability: 57.1
-    operational_transparency: 21.6
+    operational_transparency: 7.9
   previous_composite: 56.5
   provenance:
     agentic_access: derived
@@ -466,8 +472,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

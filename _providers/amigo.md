@@ -27,21 +27,21 @@ agent_readiness:
     mcp_server: documented
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 46.7
-  scored_at: '2026-10-04'
+  score: 49.2
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 273
+- acting_count: 272
   human_in_the_loop: 8
   name: Amigo Agentic Access
   operation_count: 586
   slug: amigo-agentic-access
-  summary_line: 586 operations · 273 acting · 8 human-in-the-loop
-api_count: 2
+  summary_line: 586 operations · 272 acting · 8 human-in-the-loop
+api_count: 3
 apis:
 - baseURL: https://api.amigo.ai
   baseurl_source: declared
@@ -403,7 +403,7 @@ apis:
   description: The World API from Amigo — 21 operation(s) for world.
   name: Amigo World API
   slug: amigo-world-api
-artifact_total: 223
+artifact_total: 407
 asyncapis:
 - description: ''
   name: Amigo Classic Webhooks
@@ -842,6 +842,63 @@ collections:
   name: Amigo Account World API
   slug: open-amigo-world-api
 common:
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amigo/refs/heads/main/integrations/amigo-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/amigo-integration-edges.yml
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.concurrence.com/terms-of-service
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/amigo/refs/heads/main/rate-limits/amigo-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/amigo-rate-limits.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amigo/refs/heads/main/rules/amigo-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/amigo-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amigo/refs/heads/main/json-ld/amigo-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/amigo-context.jsonld
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amigo/refs/heads/main/vocabulary/amigo-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/amigo-vocabulary.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/amigo/refs/heads/main/changelog/amigo-changelog.yml
+  title: ''
+  type: ChangeLog
+  url: changelog/amigo-changelog.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/amigo/refs/heads/main/lifecycle/amigo-lifecycle.yml
+  title: ''
+  type: Deprecation
+  url: lifecycle/amigo-lifecycle.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/amigo/refs/heads/main/hosts/amigo-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/amigo-hosts.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/amigo/refs/heads/main/vendors/amigo-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/amigo-vendors.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.concurrence.com/security
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://www.concurrence.com/press
 - group: company
   title: ''
   type: Website
@@ -903,18 +960,10 @@ common:
   title: ''
   type: Support
   url: https://amigo.ai/contact
-- group: commercial
-  title: ''
-  type: Pricing
-  url: https://amigo.ai/pricing
 - group: start
   title: ''
   type: SignUp
   url: https://amigo.ai/book-demo
-- group: commercial
-  title: ''
-  type: TermsOfService
-  url: https://amigo.ai/terms
 - group: commercial
   title: ''
   type: PrivacyPolicy
@@ -1019,6 +1068,552 @@ common:
 created: '2026-07-17'
 description: Amigo is a healthcare AI platform for building, training, and deploying clinical agents across voice and text channels. Built on an event-sourced data foundation that unifies messy healthcare data, it pairs a multi-channel reasoning engine with EHR/FHIR connectors, operator workflows, and a simulation-first "Digital Residency" training model. Amigo ships two public REST APIs — the Classic API (organization-scoped JWT, text-first digital-health apps) and the Platform API (workspace-scoped API keys and OAuth2, enterprise voice and healthcare operations) — plus official Python and TypeScript SDKs, the Agent Forge CLI, webhooks, and a workspace-scoped MCP server. Enterprise security is SOC 2 Type II, HIPAA, HITRUST, and GDPR aligned with multi-region data residency. Amigo is a General Catalyst AI portfolio company.
 image: https://amigo.ai/images/og-image-1200x630.jpg
+json_schemas:
+- name: AccessReviewResponse
+  property_count: 5
+  slug: amigo-access-review-response
+- name: AgentDefinitionDetail
+  property_count: 5
+  slug: amigo-agent-definition-detail
+- name: AgentDefinitionListResponse
+  property_count: 3
+  slug: amigo-agent-definition-list-response
+- name: AgentDefinitionVersionDetail
+  property_count: 8
+  slug: amigo-agent-definition-version-detail
+- name: AgentResponse
+  property_count: 7
+  slug: amigo-agent-response
+- name: AgentRunDetail
+  property_count: 8
+  slug: amigo-agent-run-detail
+- name: AgentVersionResponse
+  property_count: 13
+  slug: amigo-agent-version-response
+- name: AnalyticsDashboardResponse
+  property_count: 7
+  slug: amigo-analytics-dashboard-response
+- name: AuditEventsListResponse
+  property_count: 5
+  slug: amigo-audit-events-list-response
+- name: AuditExportListResponse
+  property_count: 1
+  slug: amigo-audit-export-list-response
+- name: AuditExportRequest
+  property_count: 5
+  slug: amigo-audit-export-request
+- name: AuditExportResponse
+  property_count: 5
+  slug: amigo-audit-export-response
+- name: AuditSummaryResponse
+  property_count: 4
+  slug: amigo-audit-summary-response
+- name: AuthInfoResponse
+  property_count: 5
+  slug: amigo-auth-info-response
+- name: BillingDashboardResponse
+  property_count: 8
+  slug: amigo-billing-dashboard-response
+- name: CallDetailResponse
+  property_count: 47
+  slug: amigo-call-detail-response
+- name: CallEvalResultsResponse
+  property_count: 2
+  slug: amigo-call-eval-results-response
+- name: CallIntelligenceDetail
+  property_count: 17
+  slug: amigo-call-intelligence-detail
+- name: CallStatsResponse
+  property_count: 7
+  slug: amigo-call-stats-response
+- name: ChatRequest
+  property_count: 1
+  slug: amigo-chat-request
+- name: ClientConfigResponse
+  property_count: 1
+  slug: amigo-client-config-response
+- name: ClusterForecastResponse
+  property_count: 3
+  slug: amigo-cluster-forecast-response
+- name: CommandCenterResponse
+  property_count: 9
+  slug: amigo-command-center-response
+- name: ComplianceDashboardResponse
+  property_count: 7
+  slug: amigo-compliance-dashboard-response
+- name: ContextGraphResponse
+  property_count: 8
+  slug: amigo-context-graph-response
+- name: ContextGraphVersionResponse
+  property_count: 15
+  slug: amigo-context-graph-version-response
+- name: ConversationDetail
+  property_count: 23
+  slug: amigo-conversation-detail
+- name: CreateAgentRunRequest
+  property_count: 6
+  slug: amigo-create-agent-run-request
+- name: CreateAgentRunResponse
+  property_count: 2
+  slug: amigo-create-agent-run-response
+- name: CreateAgentVersionRequest
+  property_count: 7
+  slug: amigo-create-agent-version-request
+- name: CreateApiKeyRequest
+  property_count: 4
+  slug: amigo-create-api-key-request
+- name: CreateApiKeyResponse
+  property_count: 8
+  slug: amigo-create-api-key-response
+- name: CreateContextGraphVersionRequest
+  property_count: 9
+  slug: amigo-create-context-graph-version-request
+- name: CreateConversationRequest
+  property_count: 7
+  slug: amigo-create-conversation-request
+- name: CreateCustomerRequest
+  property_count: 6
+  slug: amigo-create-customer-request
+- name: CreateDashboardRequest
+  property_count: 7
+  slug: amigo-create-dashboard-request
+- name: CreateDataSourceRequest
+  property_count: 8
+  slug: amigo-create-data-source-request
+- name: CreateOperatorRequest
+  property_count: 7
+  slug: amigo-create-operator-request
+- name: CreateOutboundCallRequest
+  property_count: 13
+  slug: amigo-create-outbound-call-request
+- name: CreateProductionEvalDefinitionRequest
+  property_count: 8
+  slug: amigo-create-production-eval-definition-request
+- name: CreateWorkspaceRequest
+  property_count: 4
+  slug: amigo-create-workspace-request
+- name: DashboardDefinitionResponse
+  property_count: 13
+  slug: amigo-dashboard-definition-response
+- name: DashboardExecuteResponse
+  property_count: 2
+  slug: amigo-dashboard-execute-response
+- name: DashboardResponse
+  property_count: 5
+  slug: amigo-dashboard-response
+- name: DataQualityResponse
+  property_count: 8
+  slug: amigo-data-quality-response
+- name: DataQueryResponse
+  property_count: 3
+  slug: amigo-data-query-response
+- name: DataSourceResponse
+  property_count: 18
+  slug: amigo-data-source-response
+- name: DataSourceStatusResponse
+  property_count: 10
+  slug: amigo-data-source-status-response
+- name: DataSourceSyncHistoryResponse
+  property_count: 4
+  slug: amigo-data-source-sync-history-response
+- name: DatasetRow
+  property_count: 7
+  slug: amigo-dataset-row
+- name: DatasetUpdateRunResponse
+  property_count: 10
+  slug: amigo-dataset-update-run-response
+- name: DistrictMetricsResponse
+  property_count: 3
+  slug: amigo-district-metrics-response
+- name: EgressIpsResponse
+  property_count: 3
+  slug: amigo-egress-ips-response
+- name: EndpointResponse
+  property_count: 14
+  slug: amigo-endpoint-response
+- name: EvalQualityResponse
+  property_count: 3
+  slug: amigo-eval-quality-response
+- name: EventBreakdownResponse
+  property_count: 6
+  slug: amigo-event-breakdown-response
+- name: ExecutePanelRequest
+  property_count: 1
+  slug: amigo-execute-panel-request
+- name: ExternalIntegrationCredentialRequest
+  property_count: 3
+  slug: amigo-external-integration-credential-request
+- name: ExternalIntegrationCredentialResponse
+  property_count: 12
+  slug: amigo-external-integration-credential-response
+- name: ExternalIntegrationRequest
+  property_count: 3
+  slug: amigo-external-integration-request
+- name: ExternalIntegrationResponse
+  property_count: 10
+  slug: amigo-external-integration-response
+- name: ExternalIntegrationUpdateRequest
+  property_count: 3
+  slug: amigo-external-integration-update-request
+- name: ExternalRoleAssignmentItem
+  property_count: 13
+  slug: amigo-external-role-assignment-item
+- name: ExternalRoleItem
+  property_count: 6
+  slug: amigo-external-role-item
+- name: FeatureDistributionResponse
+  property_count: 6
+  slug: amigo-feature-distribution-response
+- name: FhirImportRequest
+  property_count: 6
+  slug: amigo-fhir-import-request
+- name: FhirImportResponse
+  property_count: 13
+  slug: amigo-fhir-import-response
+- name: FhirOrganizationListResponse
+  property_count: 4
+  slug: amigo-fhir-organization-list-response
+- name: FhirResourceHistoryResponse
+  property_count: 6
+  slug: amigo-fhir-resource-history-response
+- name: FhirStatusResponse
+  property_count: 9
+  slug: amigo-fhir-status-response
+- name: FormTemplateListResponse
+  property_count: 1
+  slug: amigo-form-template-list-response
+- name: FormTemplate
+  property_count: 14
+  slug: amigo-form-template-output
+- name: FormTemplateUpdateRequest
+  property_count: 1
+  slug: amigo-form-template-update-request
+- name: HarnessContext
+  property_count: 9
+  slug: amigo-harness-context
+- name: HipaaReportResponse
+  property_count: 9
+  slug: amigo-hipaa-report-response
+- name: IntakeFileRow
+  property_count: 13
+  slug: amigo-intake-file-row
+- name: IntakeLinkResponse
+  property_count: 13
+  slug: amigo-intake-link-response
+- name: IntakeSourceRow
+  property_count: 9
+  slug: amigo-intake-source-row
+- name: InvokeRequest
+  property_count: 1
+  slug: amigo-invoke-request
+- name: InvokeResponse
+  property_count: 3
+  slug: amigo-invoke-response
+- name: JoinCallResponse
+  property_count: 4
+  slug: amigo-join-call-response
+- name: LinkInfoResponse
+  property_count: 4
+  slug: amigo-link-info-response
+- name: MeteringEmitRequest
+  property_count: 7
+  slug: amigo-metering-emit-request
+- name: MeteringEmitResponse
+  property_count: 2
+  slug: amigo-metering-emit-response
+- name: MetricCatalogResponse
+  property_count: 1
+  slug: amigo-metric-catalog-response
+- name: MetricListResponse
+  property_count: 1
+  slug: amigo-metric-list-response
+- name: NoteRollupResponse
+  property_count: 8
+  slug: amigo-note-rollup-response
+- name: OperatorResponse
+  property_count: 17
+  slug: amigo-operator-response
+- name: OutboundSinkSummary
+  property_count: 7
+  slug: amigo-outbound-sink-summary
+- name: PaginatedResponse[AgentResponse]
+  property_count: 4
+  slug: amigo-paginated-response-agent-response
+- name: PaginatedResponse[AgentVersionResponse]
+  property_count: 4
+  slug: amigo-paginated-response-agent-version-response
+- name: PaginatedResponse[ApiKeyResponse]
+  property_count: 4
+  slug: amigo-paginated-response-api-key-response
+- name: PaginatedResponse[ContextGraphResponse]
+  property_count: 4
+  slug: amigo-paginated-response-context-graph-response
+- name: PaginatedResponse[ContextGraphVersionResponse]
+  property_count: 4
+  slug: amigo-paginated-response-context-graph-version-response
+- name: PaginatedResponse[DashboardDefinitionResponse]
+  property_count: 4
+  slug: amigo-paginated-response-dashboard-definition-response
+- name: PaginatedResponse[DataSourceResponse]
+  property_count: 4
+  slug: amigo-paginated-response-data-source-response
+- name: PaginatedResponse[ExternalIntegrationResponse]
+  property_count: 4
+  slug: amigo-paginated-response-external-integration-response
+- name: PaginatedResponse[MeterValueItem]
+  property_count: 4
+  slug: amigo-paginated-response-meter-value-item
+- name: PaginatedResponse[ProductionEvalDefinition]
+  property_count: 4
+  slug: amigo-paginated-response-production-eval-definition
+- name: PatientNoteResponse
+  property_count: 6
+  slug: amigo-patient-note-response
+- name: PatientSummaryResponse
+  property_count: 12
+  slug: amigo-patient-summary-response
+- name: PatientTopologyResponse
+  property_count: 3
+  slug: amigo-patient-topology-response
+- name: PerformanceSummaryResponse
+  property_count: 8
+  slug: amigo-performance-summary-response
+- name: PermissionCatalogResponse
+  property_count: 2
+  slug: amigo-permission-catalog-response
+- name: PipelineStatusResponse
+  property_count: 15
+  slug: amigo-pipeline-status-response
+- name: PlaybackTimeline
+  property_count: 11
+  slug: amigo-playback-timeline
+- name: ProductionEvalDefinition
+  property_count: 12
+  slug: amigo-production-eval-definition
+- name: RegisterAgentDefinitionRequest
+  property_count: 2
+  slug: amigo-register-agent-definition-request
+- name: RegisterAgentDefinitionResponse
+  property_count: 7
+  slug: amigo-register-agent-definition-response
+- name: RegisterSchemaRequest
+  property_count: 7
+  slug: amigo-register-schema-request
+- name: RegisteredFunctionListResponse
+  property_count: 2
+  slug: amigo-registered-function-list-response
+- name: RegisteredFunctionResponse
+  property_count: 15
+  slug: amigo-registered-function-response
+- name: RegisteredFunction
+  property_count: 10
+  slug: amigo-registered-function
+- name: ResolveTemplateRequest
+  property_count: 1
+  slug: amigo-resolve-template-request
+- name: ResolveTemplateResponse
+  property_count: 3
+  slug: amigo-resolve-template-response
+- name: RestIntegrationResponse
+  property_count: 13
+  slug: amigo-rest-integration-response
+- name: ReviewMetrics
+  property_count: 6
+  slug: amigo-review-metrics
+- name: RotateApiKeyRequest
+  property_count: 1
+  slug: amigo-rotate-api-key-request
+- name: SchemaResponse
+  property_count: 4
+  slug: amigo-schema-response
+- name: SessionResponse
+  property_count: 2
+  slug: amigo-session-response
+- name: SourceListItem
+  property_count: 9
+  slug: amigo-source-list-item
+- name: SourceOverviewResponse
+  property_count: 15
+  slug: amigo-source-overview-response
+- name: SqlQueryRequest
+  property_count: 1
+  slug: amigo-sql-query-request
+- name: SqlQueryResponse
+  property_count: 3
+  slug: amigo-sql-query-response
+- name: Response
+  property_count: 1
+  slug: amigo-src-app-endpoints-admin-get-models-response
+- name: Request
+  property_count: 2
+  slug: amigo-src-app-endpoints-admin-submit-sql-query-request
+- name: SyncQueryResponse
+  property_count: 4
+  slug: amigo-src-app-endpoints-admin-submit-sql-query-response
+- name: Request
+  property_count: 5
+  slug: amigo-src-app-endpoints-conversation-create-conversation-request
+- name: src__app__endpoints__conversation__create_conversation__Response
+  property_count: 0
+  slug: amigo-src-app-endpoints-conversation-create-conversation-response
+- name: Request
+  property_count: 6
+  slug: amigo-src-app-endpoints-conversation-generate-conversation-starter-request
+- name: Response
+  property_count: 3
+  slug: amigo-src-app-endpoints-conversation-get-conversations-response
+- name: Response
+  property_count: 9
+  slug: amigo-src-app-endpoints-conversation-get-interaction-insights-response
+- name: Request
+  property_count: 2
+  slug: amigo-src-app-endpoints-conversation-modify-tags-of-conversation-request
+- name: Request
+  property_count: 4
+  slug: amigo-src-app-endpoints-dynamic-behavior-set-create-dynamic-behavior-set-request
+- name: Request
+  property_count: 2
+  slug: amigo-src-app-endpoints-dynamic-behavior-set-create-dynamic-behavior-set-version-request
+- name: Response
+  property_count: 3
+  slug: amigo-src-app-endpoints-dynamic-behavior-set-get-dynamic-behavior-invocations-response
+- name: Response
+  property_count: 3
+  slug: amigo-src-app-endpoints-dynamic-behavior-set-get-dynamic-behavior-set-versions-response
+- name: Response
+  property_count: 4
+  slug: amigo-src-app-endpoints-dynamic-behavior-set-get-dynamic-behavior-sets-response
+- name: Request
+  property_count: 4
+  slug: amigo-src-app-endpoints-dynamic-behavior-set-update-dynamic-behavior-set-request
+- name: Request
+  property_count: 5
+  slug: amigo-src-app-endpoints-metric-create-metric-request
+- name: Request
+  property_count: 3
+  slug: amigo-src-app-endpoints-metric-evaluate-metrics-request
+- name: Response
+  property_count: 4
+  slug: amigo-src-app-endpoints-metric-get-metric-evaluation-results-response
+- name: Response
+  property_count: 3
+  slug: amigo-src-app-endpoints-metric-get-metric-versions-response
+- name: Response
+  property_count: 4
+  slug: amigo-src-app-endpoints-metric-get-metrics-response
+- name: Request
+  property_count: 3
+  slug: amigo-src-app-endpoints-metric-update-metric-request
+- name: Request
+  property_count: 6
+  slug: amigo-src-app-endpoints-organization-create-agent-version-request
+- name: Request
+  property_count: 3
+  slug: amigo-src-app-endpoints-organization-create-api-key-request
+- name: Request
+  property_count: 7
+  slug: amigo-src-app-endpoints-organization-create-organization-request
+- name: Request
+  property_count: 9
+  slug: amigo-src-app-endpoints-organization-create-service-hierarchical-state-machine-version-request
+- name: Response
+  property_count: 4
+  slug: amigo-src-app-endpoints-organization-get-organization-response
+- name: Request
+  property_count: 5
+  slug: amigo-src-app-endpoints-organization-modify-organization-request
+- name: ListResponse
+  property_count: 3
+  slug: amigo-src-routes-external-role-assignments-list-response
+- name: CreateRequest
+  property_count: 3
+  slug: amigo-src-routes-external-roles-create-request
+- name: ListResponse
+  property_count: 3
+  slug: amigo-src-routes-external-roles-list-response
+- name: Request
+  property_count: 13
+  slug: amigo-src-routes-integrations-create-endpoint-request
+- name: Request
+  property_count: 8
+  slug: amigo-src-routes-integrations-create-integration-request
+- name: Request
+  property_count: 12
+  slug: amigo-src-routes-integrations-update-endpoint-request
+- name: Request
+  property_count: 7
+  slug: amigo-src-routes-integrations-update-integration-request
+- name: SuggestionsResponse
+  property_count: 1
+  slug: amigo-suggestions-response
+- name: SwitchChannelRequest
+  property_count: 6
+  slug: amigo-switch-channel-request
+- name: TestInvokeResponse
+  property_count: 6
+  slug: amigo-test-invoke-response
+- name: TraceAnalysisResponse
+  property_count: 17
+  slug: amigo-trace-analysis-response
+- name: TurnRequest
+  property_count: 9
+  slug: amigo-turn-request
+- name: TurnResponse
+  property_count: 6
+  slug: amigo-turn-response
+- name: TurnStreamEvent
+  property_count: 0
+  slug: amigo-turn-stream-event
+- name: UpdateAgentRequest
+  property_count: 2
+  slug: amigo-update-agent-request
+- name: UpdateConfigRequest
+  property_count: 8
+  slug: amigo-update-config-request
+- name: UpdateCustomerRequest
+  property_count: 6
+  slug: amigo-update-customer-request
+- name: UpdateDashboardRequest
+  property_count: 7
+  slug: amigo-update-dashboard-request
+- name: UpdateDataSourceRequest
+  property_count: 7
+  slug: amigo-update-data-source-request
+- name: UpdateOperatorRequest
+  property_count: 8
+  slug: amigo-update-operator-request
+- name: UpdateProductionEvalDefinitionRequest
+  property_count: 8
+  slug: amigo-update-production-eval-definition-request
+- name: UploadFileResponse
+  property_count: 6
+  slug: amigo-upload-file-response
+- name: UpsertRequest
+  property_count: 8
+  slug: amigo-upsert-request
+- name: UsageSummaryResponse
+  property_count: 5
+  slug: amigo-usage-summary-response
+- name: UsageTrendPoint
+  property_count: 6
+  slug: amigo-usage-trend-point
+- name: ValidateAgentDefinitionResponse
+  property_count: 4
+  slug: amigo-validate-agent-definition-response
+- name: WorkspaceBenchmarks
+  property_count: 8
+  slug: amigo-workspace-benchmarks
+- name: WorkspaceResponse
+  property_count: 10
+  slug: amigo-workspace-response
+- name: WorkspaceSSEEvent
+  property_count: 0
+  slug: amigo-workspace-sseevent
+jsonld:
+- class_count: 120
+  name: Amigo Context
+  property_count: 389
+  slug: amigo-context
 layout: provider
 mcp_servers:
 - description: Workspace-scoped Model Context Protocol server built into the Amigo Platform API. Exposes world-model read tools to MCP clients and partner agents. Authenticated with a workspace-scoped API key plus a
@@ -1028,37 +1623,58 @@ modified: '2026-07-17'
 name: Amigo
 nav: Providers
 network: true
-overview: 'Amigo publishes 72 APIs on the [APIs.io](https://apis.io/) network, including Account API, Admin API, Agent Definitions API, and 69 more. Tagged areas include Company, Artificial Intelligence, Healthcare, AI Agents, and Voice.
+overview: 'Amigo publishes 72 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Admin API, Agent Definitions API, and 69 more. Tagged areas include Company, Artificial Intelligence, Healthcare, AI Agents, and Voice.
 
 
-  The Amigo catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Amigo catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Amigo''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, support, pricing, and 31 more developer resources.'
+  Amigo''s developer surface includes changelog, authentication, documentation, API reference, getting-started guide, engineering blog, support, and 41 more developer resources.'
+plans:
+- name: Amigo Plans Pricing
+  plan_count: 0
+  slug: amigo-plans-pricing
 random_paper: 19
+rate_limits:
+- limit_count: 5
+  name: Amigo Rate Limits
+  slug: amigo-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 57
+  extends:
+  - spectral:oas
+  name: Amigo API Rules
+  rule_count: 16
+  severity_counts:
+    error: 7
+    hint: 0
+    info: 4
+    warn: 5
+  slug: amigo-rules
 scopes:
 - name: Amigo Scopes
   scope_count: 53
   slug: amigo-scopes
   summary_line: 53 scopes
 score:
-  band: strong
-  composite: 64.3
+  band: exemplar
+  composite: 79.3
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 35
+    catalog_earned: 77.8
+    catalog_earned_first_party: 12.0
+    catalog_gap: 37.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 15.0
   facets:
     access_clarity: 39.5
-    contract_governance: 18.2
-    contract_quality: 57.0
+    contract_governance: 35.6
+    contract_quality: 70.4
     developer_ergonomics: 81.5
-    discoverability: 71.7
-    operational_transparency: 26.3
+    discoverability: 81.7
+    operational_transparency: 92.1
   previous_composite: 64.3
   provenance:
     agentic_access: derived
@@ -1084,9 +1700,9 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: true
     score: 100.0
@@ -1114,7 +1730,7 @@ tags:
 - Clinical
 - Conversational AI
 - FHIR
-- EHR
+- Electronic Health Records
 - HIPAA
 website: https://www.amigo.ai/
 ---

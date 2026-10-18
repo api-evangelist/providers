@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.5
-  scored_at: '2026-10-04'
+  score: 23.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -87,6 +87,21 @@ collections:
   name: Rook Ceph Object Storage Buckets Objects API
   slug: open-rook-objects-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/rook/refs/heads/main/plans/rook-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/rook-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/rook/refs/heads/main/rate-limits/rook-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/rook-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/rook/refs/heads/main/finops/rook-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/rook-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/rook/refs/heads/main/capabilities/rook-capability-edges.yml
   title: ''
@@ -232,9 +247,13 @@ examples:
   name: Rook Put Object Example
   slug: rook-put-object-example
 finops:
-- name: Rook Finops
+- has_sources: true
+  method: generated
+  name: Rook Finops
+  primary_unit: ''
   service_category: Cloud Native Storage Orchestration
   slug: rook-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rook.png
 json_schemas:
 - name: Rook CephBlockPool
@@ -272,13 +291,13 @@ modified: '2026-05-19'
 name: Rook
 nav: Providers
 network: true
-overview: 'Rook publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Buckets API, Multipart Uploads API, Objects API, and 3 more. Tagged areas include Block Storage, CNCF, Ceph, Cloud-Native, and File Storage.
+overview: 'Rook publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Buckets API, Multipart Uploads API, Objects API, and 3 more. Tagged areas include Block Storage, CNCF, Ceph, Cloud-Native, and File Storage.
 
 
   The Rook catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Rook''s developer surface includes authentication, documentation, getting-started guide, engineering blog, changelog, Stack Overflow tag, and 24 more developer resources.'
+  Rook''s developer surface includes authentication, documentation, getting-started guide, engineering blog, changelog, Stack Overflow tag, and 27 more developer resources.'
 plans:
 - name: Rook Plans Pricing
   plan_count: 2
@@ -289,9 +308,10 @@ rate_limits:
   name: Rook Rate Limits
   slug: rook-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: Rook API Rules
+  name: Rook — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -299,7 +319,8 @@ rules:
     info: 2
     warn: 4
   slug: rook-jsonschema-spectral-rules
-- effective_rule_count: 58
+- authorship: generated
+  effective_rule_count: 58
   extends:
   - spectral:oas
   name: Rook API Rules
@@ -312,17 +333,17 @@ rules:
   slug: rook-spectral-rules
 score:
   band: developing
-  composite: 42.7
+  composite: 41.3
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 58.4
+    artifact_dirs: 19
+    catalog_earned: 55.4
     catalog_earned_first_party: 0.0
-    catalog_gap: 56.6
+    catalog_gap: 59.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.4
   facets:
-    access_clarity: 13.2
+    access_clarity: 5.3
     contract_governance: 27.3
     contract_quality: 55.4
     developer_ergonomics: 45.2
@@ -345,8 +366,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

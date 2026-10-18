@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 44.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 1
@@ -406,9 +406,13 @@ common:
 created: '2025-01-14'
 description: Broadcom is a global technology company that specializes in the design and manufacturing of semiconductors and other hardware components for a wide range of industries. They provide a diverse portfolio of products for the enterprise, data center, networking, telecommunications, and consumer electronics markets. Broadcom's technology is used in a variety of devices such as smartphones, tablets, routers, and smart TVs.
 finops:
-- name: Broadcom Finops
+- has_sources: true
+  method: generated
+  name: Broadcom Finops
+  primary_unit: ''
   service_category: Enterprise Software & Infrastructure
   slug: broadcom-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/broadcom.png
 json_schemas:
 - name: Broadcom Alert
@@ -442,7 +446,7 @@ modified: '2026-09-16'
 name: Broadcom
 nav: Providers
 network: true
-overview: 'Broadcom publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Alerts API, API Tokens API, Authentication API, and 17 more. Tagged areas include Cloud Infrastructure, Gateways, Management, Networks, and Observability.
+overview: 'Broadcom publishes 20 API contracts indexed on the [APIs.io](https://apis.io/) network, including Alerts API, API Tokens API, Authentication API, and 17 more. Tagged areas include Cloud Infrastructure, Gateways, Management, Networks, and Observability.
 
 
   The Broadcom catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -475,9 +479,10 @@ rate_limits:
   name: Broadcom Rate Limits
   slug: broadcom-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Broadcom API Rules
+  name: Broadcom — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -485,7 +490,8 @@ rules:
     info: 2
     warn: 3
   slug: broadcom-jsonschema-spectral-rules
-- effective_rule_count: 56
+- authorship: generated
+  effective_rule_count: 56
   extends:
   - spectral:oas
   name: Broadcom API Rules
@@ -498,23 +504,23 @@ rules:
   slug: broadcom-rules
 score:
   band: developing
-  composite: 47.5
+  composite: 46.0
   coverage:
-    artifact_dirs: 29
-    catalog_earned: 65.8
+    artifact_dirs: 30
+    catalog_earned: 62.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 49.3
+    catalog_gap: 52.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 14.9
+  delta: -5.0
   facets:
-    access_clarity: 36.8
+    access_clarity: 28.9
     contract_governance: 22.0
     contract_quality: 63.3
     developer_ergonomics: 47.0
     discoverability: 64.3
     operational_transparency: 44.7
-  previous_composite: 32.6
+  previous_composite: 51.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -531,9 +537,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: rising
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.6
-  scored_at: '2026-10-04'
+  score: 28.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 56
   human_in_the_loop: 11
@@ -560,9 +560,13 @@ examples:
   name: Virustotal Yara Rule Object Example
   slug: virustotal-yara-rule-object-example
 finops:
-- name: Virustotal Finops
+- has_sources: true
+  method: generated
+  name: Virustotal Finops
+  primary_unit: ''
   service_category: Threat Intelligence
   slug: virustotal-finops
+  template: false
 image: https://www.virustotal.com/gui/images/vt-logo.svg
 json_schemas:
 - name: AnalysisObject
@@ -690,7 +694,7 @@ modified: '2026-05-29'
 name: VirusTotal
 nav: Providers
 network: true
-overview: 'VirusTotal publishes 35 APIs on the [APIs.io](https://apis.io/) network, including Access Control - Group Management API, Access Control - Quota Management API, Access Control - Service Account Management API, and 32 more. Tagged areas include Anti Malware, Threat Intelligence, Security, File Analysis, and URL Analysis.
+overview: 'VirusTotal publishes 35 API contracts indexed on the [APIs.io](https://apis.io/) network, including Access Control - Group Management API, Access Control - Quota Management API, Access Control - Service Account Management API, and 32 more. Tagged areas include Anti Malware, Threat Intelligence, Security, File Analysis, and URL Analysis.
 
 
   The VirusTotal catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -707,9 +711,10 @@ rate_limits:
   name: Virustotal Rate Limits
   slug: virustotal-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: VirusTotal API Rules
+  name: VirusTotal — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -717,7 +722,8 @@ rules:
     info: 1
     warn: 4
   slug: virustotal-jsonschema-spectral-rules
-- effective_rule_count: 81
+- authorship: unmarked
+  effective_rule_count: 81
   extends:
   - spectral:oas
   name: VirusTotal API Rules
@@ -730,23 +736,23 @@ rules:
   slug: virustotal-rules
 score:
   band: developing
-  composite: 48.3
+  composite: 40.1
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 84.6
+    artifact_dirs: 19
+    catalog_earned: 66.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 30.4
+    catalog_gap: 49.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -8.2
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 27.3
     contract_quality: 61.9
     developer_ergonomics: 54.8
     discoverability: 78.6
-    operational_transparency: 31.1
-  previous_composite: 47.8
+    operational_transparency: 10.5
+  previous_composite: 48.3
   provenance:
     agentic_access: derived
     contracts:
@@ -760,9 +766,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

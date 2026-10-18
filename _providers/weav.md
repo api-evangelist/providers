@@ -34,14 +34,27 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: REST API for the Weav.ai Decisioning Platform, exposing document, folder, form, agent, workflow, action, and chat services used to build agentic insurance decisioning flows. Authenticated with a Beare
   name: Weav.ai Decisioning Platform API
   slug: weavai-decisioning-platform-api
-artifact_total: 3
+artifact_total: 4
 common:
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://weav.ai/pricing
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/weav/refs/heads/main/plans/weav-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/weav-plans-pricing.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://weav.ai/blog/rss.xml
 - group: company
   title: ''
   type: Website
@@ -109,28 +122,32 @@ created: '2026-07-17'
 description: Weav.ai is an AI-native decisioning platform for property & casualty (P&C) insurance, applying agentic AI and document intelligence across underwriting, premium audit, and claims. The platform pairs pre-configured, line-of-business knowledge graphs and scorecards with an agentic decision engine and human-in-the-loop review, delivered through an API-first, no-code architecture that integrates with existing insurance systems. Developers integrate via a documented REST surface (documents, folders, forms, agents, workflows, actions, and chat services) and a first-party Python developer library (weavaidev) published through the weav-ai GitHub organization, authenticated with a Bearer token against a per-tenant environment host. Weav.ai is backed by Sierra Ventures and is a member of the Guidewire Insurtech Vanguards program.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/weav.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Weav
 nav: Providers
 network: true
-overview: 'Weav publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Insurance, Insurtech, and Underwriting.
+overview: 'Weav is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Insurance, Insurtech, and Underwriting.
 
 
-  Weav''s developer surface includes documentation, API reference, engineering blog, support, authentication, and 9 more developer resources.'
+  Weav''s developer surface includes pricing, documentation, API reference, engineering blog, support, authentication, and 11 more developer resources.'
+plans:
+- name: Weav Plans Pricing
+  plan_count: 3
+  slug: weav-plans-pricing
 random_paper: 17
 score:
   band: emerging
-  composite: 16.2
+  composite: 24.6
   coverage:
-    artifact_dirs: 10
-    catalog_earned: 32.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 83.0
+    artifact_dirs: 11
+    catalog_earned: 44.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 8.4
   facets:
-    access_clarity: 0.0
+    access_clarity: 42.1
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 52.4
@@ -145,9 +162,9 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 9.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

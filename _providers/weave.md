@@ -27,20 +27,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.1
-  scored_at: '2026-10-04'
+  score: 26.2
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 11
+- acting_count: 10
   human_in_the_loop: 0
   name: Weave Agentic Access
   operation_count: 38
   slug: weave-agentic-access
-  summary_line: 38 operations · 11 acting
+  summary_line: 38 operations · 10 acting
 api_count: 1
 apis:
 - description: Weave's developer platform API for building apps and integrations against Weave communication, scheduling, and payments data. Authorized via OpenID Connect / OAuth 2.0 (authorization_code + client_cre
@@ -113,6 +113,10 @@ collections:
   name: Weave Contacts Scheduling API
   slug: open-weave-scheduling-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.getweave.com/feed/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/weave/refs/heads/main/capabilities/weave-capability-edges.yml
   title: ''
@@ -333,19 +337,23 @@ common:
 created: '2026-07-17'
 description: 'Weave (Weave Communications, Inc., NYSE: WEAV) is an all-in-one customer communication and payments platform built for small and medium healthcare and services businesses — dental, optometry, veterinary, medical, and beyond. Weave brings together a cloud phone system (VoIP), two-way text messaging, appointment scheduling and reminders, online reviews, forms, and integrated payments so practices can automate front-office work, keep schedules full, get paid faster, and collect more reviews. For developers, Weave runs a Developer Platform at dp.getweave.com backed by an OpenID Connect / OAuth 2.0 authorization server (api.weaveconnect.com) that lets partners build apps and integrations against Weave data and events. A Y Combinator company (W14), Weave is HIPAA compliant and maintains ISO 27001 and SOC 2 Type 2 attestations.'
 finops:
-- name: Weave Finops
+- has_sources: true
+  method: generated
+  name: Weave Finops
+  primary_unit: ''
   service_category: Business Communication and Payments
   slug: weave-finops
+  template: false
 image: https://dp.getweave.com/weave-favicon.svg
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Weave
 nav: Providers
 network: true
-overview: 'Weave publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Contacts API, Events API, Forms API, and 6 more. Tagged areas include Company, Communications, Messaging, Payments, and Healthcare.
+overview: 'Weave publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Contacts API, Events API, Forms API, and 6 more. Tagged areas include Company, Communications, Messaging, Payments, and Healthcare.
 
 
-  Weave''s developer surface includes documentation, signup flow, pricing, support, engineering blog, authentication, and 41 more developer resources.'
+  Weave''s developer surface includes documentation, signup flow, pricing, support, engineering blog, authentication, and 42 more developer resources.'
 plans:
 - name: Weave Plans Pricing
   plan_count: 4
@@ -361,23 +369,23 @@ scopes:
   slug: weave-scopes
   summary_line: 3 scopes
 score:
-  band: strong
-  composite: 58.6
+  band: developing
+  composite: 50.3
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 61.6
+    artifact_dirs: 18
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.4
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 96.8
+    access_clarity: 68.4
     contract_governance: 18.2
     contract_quality: 48.0
     developer_ergonomics: 33.3
     discoverability: 73.2
-    operational_transparency: 57.4
+    operational_transparency: 36.8
   previous_composite: 58.6
   provenance:
     agentic_access: derived
@@ -397,9 +405,9 @@ score:
     regime: Health
     regime_id: health
     score: 41.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

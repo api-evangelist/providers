@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.blendid.com/blog-feed.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/blendid/refs/heads/main/security/blendid-domain-security.yml
   title: ''
@@ -69,26 +73,26 @@ created: '2026-07-17'
 description: Blendid operates fully autonomous robotic smoothie kiosks that prepare chef-created blended beverages from real whole fruits, vegetables, seeds, nuts, and juice with no artificial flavors or added sugar. Each kiosk uses AI and robotics to run without on-site staff, taking mobile-app orders with customization and payment, producing up to eight simultaneous drinks and roughly thirty per hour. Blendid deploys its Blendid M2 platform into retail, colleges and universities, health clubs, and hospitals as a low-labor, low-capex, 24/7 automated food-service offering. It is tracked in the API Evangelist network as a portfolio company of Partech in the Food & Agritech sector; the company publishes no public developer API at this time.
 image: https://static.wixstatic.com/media/c3fd07_f653783b032e4c36be640f5bf2bb3dd1~mv2.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Blendid
 nav: Providers
 network: true
 overview: 'Blendid is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food & Agritech, Robotics, Automation, and Food Service.
 
 
-  Blendid''s developer surface includes support and 6 more developer resources.'
+  Blendid''s developer surface includes support and 7 more developer resources.'
 random_paper: 18
 score:
   band: minimal
-  composite: 6.9
+  composite: 7.0
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 10.5
     contract_governance: 0.0
@@ -103,8 +107,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 9.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

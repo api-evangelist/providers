@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -102,6 +102,10 @@ collections:
   name: Urjanet Utility Cloud API
   slug: open-urjanet
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.arcadia.com:443/blog
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/urjanet/refs/heads/main/agentic-access/urjanet-agentic-access.yml
   title: ''
@@ -151,18 +155,22 @@ common:
 created: '2026-06-21'
 description: Urjanet (now part of Arcadia) is a utility-data aggregation platform that programmatically collects utility bill, statement, meter, and interval usage data from thousands of electricity, gas, water, waste, and telecom providers worldwide. Following Arcadia's 2022 acquisition, Urjanet's data access powers the Arcadia "Arc" / Utility Cloud platform, exposed through a REST API (base URL https://api.urjanet.com) for connecting utility credentials and retrieving normalized utility data. Pricing is sales-led and not publicly published.
 finops:
-- name: Urjanet Finops
+- has_sources: true
+  method: generated
+  name: Urjanet Finops
+  primary_unit: ''
   service_category: Data and Analytics
   slug: urjanet-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/urjanet.png
 layout: provider
 name: Urjanet
 nav: Providers
 network: true
-overview: 'Urjanet publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Credentials & Connections API, Meters API, and 3 more. Tagged areas include Utility Data, Energy, Utility Bills, Aggregation, and Meters.
+overview: 'Urjanet publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authentication API, Credentials & Connections API, Meters API, and 3 more. Tagged areas include Utility Data, Energy, Utility Bills, Aggregation, and Meters.
 
 
-  Urjanet''s developer surface includes authentication, documentation, and 8 more developer resources.'
+  Urjanet''s developer surface includes engineering blog, authentication, documentation, and 8 more developer resources.'
 plans:
 - name: Urjanet Plans Pricing
   plan_count: 1
@@ -173,23 +181,23 @@ rate_limits:
   name: Urjanet Rate Limits
   slug: urjanet-rate-limits
 score:
-  band: thin
-  composite: 30.5
+  band: emerging
+  composite: 24.9
   coverage:
-    artifact_dirs: 10
-    catalog_earned: 54.4
+    artifact_dirs: 11
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 60.6
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.6
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 47.8
-    developer_ergonomics: 25.0
+    developer_ergonomics: 27.4
     discoverability: 66.1
-    operational_transparency: 21.6
+    operational_transparency: 7.9
   previous_composite: 30.5
   provenance:
     agentic_access: derived
@@ -204,9 +212,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 9.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

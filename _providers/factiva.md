@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 43.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 4
+- acting_count: 1
   human_in_the_loop: 0
   name: Factiva Agentic Access
   operation_count: 22
   slug: factiva-agentic-access
-  summary_line: 22 operations · 4 acting
+  summary_line: 22 operations · 1 acting
 api_count: 3
 apis:
 - description: Provides programmatic access to create, retrieve, and manage news snapshots based on search queries and filters. Supports analytics explain jobs and time series operations for volume estimation and tr
@@ -332,16 +332,20 @@ common:
 created: '2024'
 description: 'Factiva is Dow Jones'' business information and research service, providing licensed access to a global news and data archive drawn from more than 33,000 sources across 200 countries and 28 languages. Its API suite lets organizations search and retrieve licensed articles, run one-time historical extractions (Snapshots), subscribe to real-time filtered news streams over Google Cloud Pub/Sub, resolve the ~350,000-code Dow Jones Intelligent Identifiers taxonomy of companies, industries, regions and news subjects, and feed copyright-compliant content into retrieval-augmented generation stacks. Access is contract-based: there is no self-service signup and no published pricing, and credentials are issued by Dow Jones after a trial request.'
 finops:
-- name: Factiva Finops
+- has_sources: false
+  method: generated
+  name: Factiva Finops
+  primary_unit: ''
   service_category: API
   slug: factiva-finops
+  template: true
 image: https://www.dowjones.com/wp-content/uploads/sites/9/2021/03/factiva-logo.png
 layout: provider
 modified: '2026-08-13'
 name: Factiva
 nav: Providers
 network: true
-overview: 'Factiva publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Snapshots API, Streams API, Extractions API, and 10 more. Tagged areas include Artificial Intelligence, Business Intelligence, Content Aggregation, Enterprise Data, and Generative AI.
+overview: 'Factiva publishes 13 API contracts indexed on the [APIs.io](https://apis.io/) network, including Snapshots API, Streams API, Extractions API, and 10 more. Tagged areas include Artificial Intelligence, Business Intelligence, Content Aggregation, Enterprise Data, and Generative AI.
 
 
   The Factiva catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -364,23 +368,23 @@ scopes:
   summary_line: 8 scopes · password/authorizationCode/implicit
 score:
   band: developing
-  composite: 54.2
+  composite: 52.7
   coverage:
     artifact_dirs: 24
-    catalog_earned: 43.0
+    catalog_earned: 40.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 72.0
+    catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.5
+  delta: -1.5
   facets:
-    access_clarity: 50.0
+    access_clarity: 42.1
     contract_governance: 4.5
     contract_quality: 53.6
     developer_ergonomics: 68.5
     discoverability: 78.6
     operational_transparency: 44.7
-  previous_composite: 59.7
+  previous_composite: 54.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -397,9 +401,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 44.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: falling
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: flat
   upsert:
     applies: true
     score: 0.0

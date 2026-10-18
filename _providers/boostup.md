@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -64,6 +64,10 @@ collections:
   name: Boostup Export API
   slug: open-boostup-export-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.terret.ai/resources/rss.xml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/boostup/refs/heads/main/capabilities/boostup-capability-edges.yml
   title: ''
@@ -215,14 +219,14 @@ created: '2026-07-17'
 description: Boostup (now operating as Terret, terret.ai) is an AI-powered revenue intelligence platform that connects data across a company's revenue systems to analyze sales performance, forecast pipeline, and translate insights into real-time execution guidance for sales teams. Its products include Terret Nexus (an answer-to-action revenue engine that generates playbooks), Terret Forecast (pipeline forecasting), and Terret Conversation Intelligence (call analysis). For developers, Boostup exposes a public REST data-export API at app.boostup.ai/export that lets customers programmatically pull their Opportunities, Accounts, and Forecast Submissions out of the platform for in-house analysis and reporting. The API is authenticated with API keys passed in the Authorization header, returns JSON paginated in batches of up to 1000 records, and supports date-based filtering on close/create/update times. The company was surfaced as a portfolio company of Canaan Partners.
 image: https://terret.ai/images/nexus-og-logo-only.jpg
 layout: provider
-modified: '2026-08-13'
+modified: '2026-10-06'
 name: Boostup
 nav: Providers
 network: true
-overview: 'Boostup publishes 1 API on the [APIs.io](https://apis.io/) network: Export API. Tagged areas include Company, Revenue Intelligence, Sales, Forecasting, and Analytics.
+overview: 'Boostup publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Export API. Tagged areas include Company, Revenue Intelligence, Sales, Forecasting, and Analytics.
 
 
-  Boostup''s developer surface includes authentication, engineering blog, documentation, API reference, signup flow, support, and 26 more developer resources.'
+  Boostup''s developer surface includes authentication, engineering blog, documentation, API reference, signup flow, support, and 27 more developer resources.'
 plans:
 - name: Boostup Plans Pricing
   plan_count: 0
@@ -234,15 +238,15 @@ rate_limits:
   slug: boostup-rate-limits
 score:
   band: developing
-  composite: 42.0
+  composite: 42.1
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 36.8
     contract_governance: 18.2
@@ -267,8 +271,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

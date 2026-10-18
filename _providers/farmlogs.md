@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 15.5
-  scored_at: '2026-10-04'
+  score: 13.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Field boundary mapping and per-field record-keeping, the original core of FarmLogs. This capability now lives inside Bushel Farm (formerly Bushel Farm/FarmLogs); no self-serve public REST reference, b
@@ -101,16 +101,20 @@ created: '2026-07-03'
 description: FarmLogs was a farm management platform founded in 2011 (by Jesse Vollmar and Brad Koch, operating as AgriSight Inc.) offering field mapping, in-season satellite imagery, weather/rainfall tracking, yield estimation, and profitability tools for row-crop farmers. FarmLogs was acquired by Bushel in June 2021, and in March 2023 Bushel retired the FarmLogs brand in favor of "Bushel Farm," the next generation of its farm management software. As of this review, farmlogs.com 301-redirects to bushelfarm.com, which itself redirects to bushelpowered.com - the standalone FarmLogs product and website no longer exist. Bushel does publish a public API, but it is for a separate product line (Bushel Fulfillment and Bushel Production, covering grain contracts and scale-ticket data for grain merchandising) rather than for the FarmLogs-lineage farm-management capabilities (fields, imagery, weather, yield). No self-serve, openly documented public API exists for the farm-management product as of
   the review date.
 finops:
-- name: Farmlogs Finops
+- has_sources: true
+  method: generated
+  name: Farmlogs Finops
+  primary_unit: ''
   service_category: Software as a Service
   slug: farmlogs-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/farmlogs.png
 layout: provider
 modified: '2026-07-03'
 name: FarmLogs
 nav: Providers
 network: true
-overview: 'FarmLogs publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Fields, Satellite Imagery / NDVI, Weather & Rainfall, and 2 more. Tagged areas include Agriculture, Farm Management, Precision Agriculture, Satellite Imagery, and Acquired.
+overview: 'FarmLogs publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Fields, Satellite Imagery / NDVI, Weather & Rainfall, and 2 more. Tagged areas include Agriculture, Farm Management, Precision Agriculture, Satellite Imagery, and Acquired.
 
 
   FarmLogs'' developer surface includes documentation, engineering blog, and 6 more developer resources.'
@@ -125,22 +129,22 @@ rate_limits:
   slug: farmlogs-rate-limits
 score:
   band: emerging
-  composite: 20.3
+  composite: 14.3
   coverage:
     artifact_dirs: 9
-    catalog_earned: 49.4
+    catalog_earned: 36.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 65.6
+    catalog_gap: 79.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.0
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 23.3
     developer_ergonomics: 11.9
     discoverability: 57.1
-    operational_transparency: 18.9
+    operational_transparency: 5.3
   previous_composite: 20.3
   regulatory:
     applies: true
@@ -148,9 +152,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

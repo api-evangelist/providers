@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.marlo.co/blog/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/marlo-technologies/refs/heads/main/security/marlo-technologies-domain-security.yml
   title: ''
@@ -91,26 +95,26 @@ created: '2026-07-17'
 description: Marlo is a maritime ERP platform for dry bulk, tanker, and commercial shipping companies, unifying chartering, voyage management, finance, banking, and compliance in a single system. Operators use Marlo to plan charters, track voyage operations and cargo, model voyage P&L and cashflow, run valuations and credit scoring, manage loans and covenants, hold multi-currency accounts with FX transfers and corporate cards, and handle sanctions screening, emissions tracking, and CII rating management. Marlo is a Techstars-backed company and holds SOC 2 (AICPA) certification. It was surfaced as a portfolio company of Techstars and added to the API Evangelist network. As of this pass the company exposes a customer web application (app.marlo.co) but publishes no public developer API, API documentation, or SDKs.
 image: https://www.marlo.co/hubfs/marlo-co-logo.svg
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Marlo Technologies
 nav: Providers
 network: true
 overview: 'Marlo Technologies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Maritime, Shipping, ERP, and Fintech.
 
 
-  Marlo Technologies'' developer surface includes engineering blog, pricing, signup flow, support, and 8 more developer resources.'
+  Marlo Technologies'' developer surface includes engineering blog, pricing, signup flow, support, and 9 more developer resources.'
 random_paper: 20
 score:
   band: emerging
-  composite: 17.5
+  composite: 17.6
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 46.1
     contract_governance: 18.2
@@ -127,8 +131,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 15.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

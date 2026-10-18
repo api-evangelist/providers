@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 45.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Hosted remote MCP server (streamable HTTP) that connects Levitate to AI assistants — Claude Desktop, Claude Code, ChatGPT, Cursor, VS Code Copilot, Windsurf and any MCP-compatible HTTP client. Tools c
@@ -58,7 +58,7 @@ apis:
   description: The Notes API from Levitate — 2 operation(s) for notes.
   name: Levitate Notes API
   slug: levitate-notes-api
-artifact_total: 13
+artifact_total: 12
 common:
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/levitate/refs/heads/main/capabilities/levitate-capability-edges.yml
@@ -235,14 +235,11 @@ mcp_servers:
 - description: Remote MCP server at mcp.levitate.ai over streamable HTTP requiring OAuth.
   name: Levitate MCP Server
   slug: levitate-mcp-server
-- description: ''
-  name: Levitate MCP Server
-  slug: mcp
 modified: '2026-08-25'
 name: Levitate
 nav: Providers
 network: true
-overview: 'Levitate publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Companies API, Contacts API, Notes API, and 1 more. Tagged areas include relationship-marketing, CRM, Email Marketing, Contacts, and Small Business.
+overview: 'Levitate publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Companies API, Contacts API, Notes API, and 1 more. Tagged areas include relationship-marketing, CRM, Email Marketing, Contacts, and Small Business.
 
 
   Levitate''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 29 more developer resources.'
@@ -264,7 +261,7 @@ score:
   band: strong
   composite: 57.1
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -294,8 +291,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 46.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -313,7 +310,7 @@ security:
 - kind: vulnerability-disclosure
   name: Levitate Vulnerability Disclosure
   slug: levitate-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 - kind: trust-center
   name: Levitate Trust Center
   slug: levitate-trust-center

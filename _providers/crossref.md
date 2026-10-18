@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.0
-  scored_at: '2026-10-04'
+  score: 17.8
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -116,6 +116,21 @@ collections:
   name: Crossref
   slug: open-crossref
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/crossref/refs/heads/main/plans/crossref-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/crossref-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/crossref/refs/heads/main/rate-limits/crossref-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/crossref-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/crossref/refs/heads/main/finops/crossref-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/crossref-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/crossref/refs/heads/main/capabilities/crossref-capability-edges.yml
   title: ''
@@ -190,9 +205,13 @@ common:
 created: '2024-07-02'
 description: Crossref is a non-profit organization that provides digital infrastructure for scholarly communications. Best known for Digital Object Identifier (DOI) registration, Crossref also operates a public REST API offering searchable, filterable access to metadata for tens of millions of scholarly works, journals, members, funders, prefixes, types, licenses, and DOI registration agency information. The Crossref REST API supports free-form queries, field queries, filters, facets, deep-paging cursors, and selection of specific elements, and is used by reference managers, repositories, discovery layers, and analytics platforms.
 finops:
-- name: Crossref Finops
+- has_sources: false
+  method: generated
+  name: Crossref Finops
+  primary_unit: ''
   service_category: API
   slug: crossref-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/crossref.png
 json_schemas:
 - name: Crossref Work
@@ -208,13 +227,13 @@ modified: '2026-05-19'
 name: Crossref
 nav: Providers
 network: true
-overview: 'Crossref publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Agency API, Funders API, Journals API, and 5 more. Tagged areas include Citations, DOI, Funders, Identifiers, and Journals.
+overview: 'Crossref publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agency API, Funders API, Journals API, and 5 more. Tagged areas include Citations, DOI, Funders, Identifiers, and Journals.
 
 
   The Crossref catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Crossref''s developer surface includes documentation, engineering blog, and 14 more developer resources.'
+  Crossref''s developer surface includes documentation, engineering blog, and 17 more developer resources.'
 plans:
 - name: Crossref Plans Pricing
   plan_count: 3
@@ -225,9 +244,10 @@ rate_limits:
   name: Crossref Rate Limits
   slug: crossref-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: Crossref API Rules
+  name: Crossref — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -235,7 +255,8 @@ rules:
     info: 2
     warn: 4
   slug: crossref-jsonschema-spectral-rules
-- effective_rule_count: 47
+- authorship: unmarked
+  effective_rule_count: 47
   extends:
   - spectral:oas
   name: Crossref API Rules
@@ -248,17 +269,17 @@ rules:
   slug: crossref-rules
 score:
   band: thin
-  composite: 30.7
+  composite: 32.3
   coverage:
     artifact_dirs: 15
-    catalog_earned: 65.4
+    catalog_earned: 68.4
     catalog_earned_first_party: 0.0
-    catalog_gap: 34.6
-    catalog_max: 100.0
+    catalog_gap: 46.6
+    catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.6
   facets:
-    access_clarity: 0.0
+    access_clarity: 7.9
     contract_governance: 27.3
     contract_quality: 53.6
     developer_ergonomics: 21.4
@@ -278,8 +299,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: Unified ERC-4337 JSON-RPC endpoint exposing both the Pimlico bundler (eth_sendUserOperation, eth_estimateUserOperationGas, eth_getUserOperationReceipt, pimlico_getUserOperationGasPrice, pimlico_getUse
@@ -48,6 +48,25 @@ apis:
   slug: pimlico-platform-api
 artifact_total: 9
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/pimlico/refs/heads/main/plans/pimlico-plans.yml
+  title: ''
+  type: Plans
+  url: plans/pimlico-plans.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/pimlico/refs/heads/main/rate-limits/pimlico-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/pimlico-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/pimlico/refs/heads/main/finops/pimlico-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/pimlico-finops.yml
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.pimlico.io/pricing
 - group: company
   title: ''
   type: Website
@@ -217,19 +236,23 @@ common:
 created: '2026-07-17'
 description: Pimlico is the world's most popular ERC-4337 account abstraction infrastructure platform, providing production bundler and paymaster APIs plus a platform management API for building, deploying, and operating smart accounts on Ethereum and 100+ EVM-compatible chains. Its verifying paymaster sponsors gas for gasless transactions, its ERC-20 paymaster lets users pay gas in stablecoins and other tokens, and its bundler submits, estimates, and tracks ERC-4337 user operations. Developers integrate through the permissionless.js TypeScript SDK (built on viem) against a single JSON-RPC endpoint keyed by chain, and manage sponsorship policies, API keys, and billing through the Pimlico dashboard.
 finops:
-- name: Pimlico Finops
+- has_sources: true
+  method: searched
+  name: Pimlico Finops
+  primary_unit: ''
   service_category: ''
   slug: pimlico-finops
+  template: false
 image: https://avatars.githubusercontent.com/u/125581500?v=4
 layout: provider
 modified: '2026-07-20'
 name: Pimlico
 nav: Providers
 network: true
-overview: 'Pimlico publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Account Abstraction, ERC-4337, Blockchain, and Ethereum.
+overview: 'Pimlico is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Account Abstraction, ERC-4337, Blockchain, and Ethereum.
 
 
-  Pimlico''s developer surface includes documentation, API reference, quickstart, support, pricing, signup flow, authentication, and 29 more developer resources.'
+  Pimlico''s developer surface includes pricing, documentation, API reference, quickstart, support, signup flow, authentication, and 33 more developer resources.'
 plans:
 - name: Pimlico Plans
   plan_count: 2
@@ -241,17 +264,17 @@ rate_limits:
   slug: pimlico-rate-limits
 score:
   band: developing
-  composite: 45.4
+  composite: 43.8
   coverage:
     artifact_dirs: 22
-    catalog_earned: 56.0
+    catalog_earned: 53.0
     catalog_earned_first_party: 16.0
-    catalog_gap: 59.0
+    catalog_gap: 62.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 76.3
+    access_clarity: 68.4
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 61.3
@@ -268,8 +291,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 32.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

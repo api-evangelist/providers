@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: 'Cloud-based or on-premise API for integrating service robots and third-party applications with Otis elevators. Otis''s own service-robot data sheet lists the available operations as: place a hall call,'
@@ -155,7 +155,7 @@ modified: '2026-08-28'
 name: Otis Worldwide
 nav: Providers
 network: true
-overview: 'Otis Worldwide publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Elevators, Escalators, Building Management, Smart Buildings, and IoT.
+overview: 'Otis Worldwide is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Elevators, Escalators, Building Management, Smart Buildings, and IoT.
 
 
   Otis Worldwide''s developer surface includes API reference, getting-started guide, signup flow, support, engineering blog, authentication, sandbox, and 13 more developer resources.'
@@ -170,7 +170,7 @@ rate_limits:
   slug: otis-worldwide-rate-limits
 score:
   band: thin
-  composite: 26.4
+  composite: 26.5
   coverage:
     artifact_dirs: 13
     catalog_earned: 37.0
@@ -178,7 +178,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 34.2
     contract_governance: 0.0
@@ -195,13 +195,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/otis-worldwide/refs/heads/main/screenshots/otis-worldwide-2026-10-11T112219.png
 security:
 - kind: authentication
   name: Otis Worldwide Authentication

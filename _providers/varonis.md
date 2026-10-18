@@ -28,20 +28,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.6
-  scored_at: '2026-10-04'
+  score: 28.7
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 5
+- acting_count: 3
   human_in_the_loop: 0
   name: Varonis Agentic Access
   operation_count: 6
   slug: varonis-agentic-access
-  summary_line: 6 operations · 5 acting
+  summary_line: 6 operations · 3 acting
 api_count: 1
 apis:
 - description: API for integrating with Varonis Data Security Platform to manage data security policies, access permissions, and threat detection.
@@ -114,6 +114,21 @@ collections:
   name: Varonis DatAlert Alerts Threat Models API
   slug: open-varonis-threat-models-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/varonis/refs/heads/main/plans/varonis-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/varonis-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/varonis/refs/heads/main/rate-limits/varonis-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/varonis-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/varonis/refs/heads/main/finops/varonis-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/varonis-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/varonis/refs/heads/main/capabilities/varonis-capability-edges.yml
   title: ''
@@ -332,9 +347,13 @@ features:
 - description: Data security posture management for Microsoft 365, AWS, Azure, and Google Cloud environments.
   name: Cloud Security Posture
 finops:
-- name: Varonis Finops
+- has_sources: true
+  method: generated
+  name: Varonis Finops
+  primary_unit: ''
   service_category: Data Security
   slug: varonis-finops
+  template: false
 image: https://www.varonis.com/favicon.ico
 integrations:
 - description: Ingest Varonis alerts and events into Microsoft Sentinel for correlation and automated response.
@@ -437,13 +456,13 @@ modified: '2026-05-19'
 name: Varonis
 nav: Providers
 network: true
-overview: 'Varonis publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Alerts API, Events API, Threat Models API, and 3 more. Tagged areas include Cloud Security, Compliance, Data Analytics, Data Governance, and Data Security.
+overview: 'Varonis publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Alerts API, Events API, Threat Models API, and 3 more. Tagged areas include Cloud Security, Compliance, Data Analytics, Data Governance, and Data Security.
 
 
   The Varonis catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Varonis'' developer surface includes authentication, developer portal, support, engineering blog, changelog, signup flow, training material, and 29 more developer resources.'
+  Varonis'' developer surface includes authentication, developer portal, support, engineering blog, changelog, signup flow, training material, and 32 more developer resources.'
 plans:
 - name: Varonis Plans Pricing
   plan_count: 1
@@ -454,9 +473,10 @@ rate_limits:
   name: Varonis Rate Limits
   slug: varonis-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Varonis API Rules
+  name: Varonis — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -464,7 +484,8 @@ rules:
     info: 2
     warn: 3
   slug: varonis-jsonschema-spectral-rules
-- effective_rule_count: 78
+- authorship: generated
+  effective_rule_count: 78
   extends:
   - spectral:oas
   name: Varonis API Rules
@@ -476,18 +497,18 @@ rules:
     warn: 22
   slug: varonis-spectral-rules
 score:
-  band: developing
-  composite: 39.3
+  band: thin
+  composite: 37.8
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 69.8
+    artifact_dirs: 21
+    catalog_earned: 66.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 45.3
+    catalog_gap: 48.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 19.7
+    access_clarity: 11.8
     contract_governance: 17.4
     contract_quality: 67.8
     developer_ergonomics: 33.3
@@ -507,8 +528,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -526,7 +547,7 @@ security:
 - kind: vulnerability-disclosure
   name: Varonis Vulnerability Disclosure
   slug: varonis-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 - kind: trust-center
   name: Varonis Trust Center
   slug: varonis-trust-center

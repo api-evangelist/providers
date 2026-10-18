@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 15.5
-  scored_at: '2026-10-04'
+  score: 13.6
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: REST API providing property-level data including AVM valuations, rental value, land value, LTV, sales history, tax history, flood data, school info, and geographic features for US residential properti
@@ -99,9 +99,13 @@ common:
 created: 2026-06-12
 description: HouseCanary is a property analytics platform providing REST APIs for automated valuation model (AVM) data, property details, rental estimates, market forecasts, and flood/risk data across more than 100 million US residential properties. The Analytics API supports property-level endpoints including value, rental value, land value, sales history, tax history, and LTV calculations accessed via HTTP Basic Authentication. The Order Manager API allows clients to programmatically order HouseCanary valuation and inspection products and receive results via webhook. HouseCanary also offers a Python SDK and a Postman collection for integration testing.
 finops:
-- name: Housecanary Finops
+- has_sources: false
+  method: generated
+  name: Housecanary Finops
+  primary_unit: ''
   service_category: ''
   slug: housecanary-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/housecanary.png
 jsonld:
 - class_count: 19
@@ -113,7 +117,7 @@ modified: 2026-06-12
 name: HouseCanary
 nav: Providers
 network: true
-overview: 'HouseCanary publishes 2 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, and 1 more. Tagged areas include Real Estate, Property Analytics, AVM, Valuation, and Rental Estimates.
+overview: 'HouseCanary is listed with 2 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, and 1 more. Tagged areas include Real Estate, Property Analytics, AVM, Valuation, and Rental Estimates.
 
 
   The HouseCanary catalog on APIs.io includes 1 JSON-LD context.
@@ -130,23 +134,23 @@ rate_limits:
   name: Housecanary Rate Limits
   slug: housecanary-rate-limits
 score:
-  band: thin
-  composite: 32.4
+  band: emerging
+  composite: 24.1
   coverage:
     artifact_dirs: 8
-    catalog_earned: 69.6
+    catalog_earned: 51.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 45.4
+    catalog_gap: 64.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 46.8
+    access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 34.7
     developer_ergonomics: 11.9
     discoverability: 66.1
-    operational_transparency: 46.8
+    operational_transparency: 26.3
   previous_composite: 32.4
   regulatory:
     applies: true
@@ -154,9 +158,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

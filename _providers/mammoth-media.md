@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: REST + GraphQL API for TokenBot copy-trading — manage exchange accounts, strategies, copiers, trades, notifications, rewards, withdrawals, API keys, and webhooks. API-key or secp256k1 signed-request a
@@ -198,7 +198,7 @@ modified: '2026-07-20'
 name: Mammoth Media
 nav: Providers
 network: true
-overview: 'Mammoth Media publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Cryptocurrency, Trading, and Copy Trading.
+overview: 'Mammoth Media is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Cryptocurrency, Trading, and Copy Trading.
 
 
   The Mammoth Media catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -239,8 +239,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 23.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

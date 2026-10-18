@@ -34,14 +34,23 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: REST API to copy, move, pull, share, and list files across connected storage providers (Amazon S3, Google Drive, Dropbox, Box and more) using the DART acceleration protocol. Bearer API-key auth over h
   name: Byteport API
   slug: byteport-api
-artifact_total: 3
+artifact_total: 4
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/byteport/refs/heads/main/plans/byteport-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/byteport-plans-pricing.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://byteport.com/news
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/byteport/refs/heads/main/security/byteport-domain-security.yml
   title: ''
@@ -130,31 +139,35 @@ created: '2026-07-17'
 description: Byteport is a San Francisco-based file transfer acceleration company (Y Combinator W2026) that moves large datasets across the internet using DART (Dynamic Accelerated Record Transfer), a proprietary protocol the company reports as typically 10x faster than TCP and up to 1000-1500x faster over unreliable cellular or satellite links. The Byteport API lets developers copy, move, pull, share, and list files across connected storage providers such as Amazon S3, Google Drive, Dropbox, and Box at scales from 1GB to 100TB with zero network configuration, targeting robotics, satellite, AI/ML, SaaS data-distribution, and defense workloads.
 image: https://github.com/getbyteport.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Byteport
 nav: Providers
 network: true
-overview: 'Byteport publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, File Transfer, Data Transfer, Acceleration, and Cloud Storage.
+overview: 'Byteport is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, File Transfer, Data Transfer, Acceleration, and Cloud Storage.
 
 
-  Byteport''s developer surface includes documentation, API reference, pricing, signup flow, support, authentication, and 13 more developer resources.'
+  Byteport''s developer surface includes engineering blog, documentation, API reference, pricing, signup flow, support, authentication, and 14 more developer resources.'
+plans:
+- name: Byteport Plans Pricing
+  plan_count: 3
+  slug: byteport-plans-pricing
 random_paper: 9
 score:
-  band: emerging
-  composite: 24.2
+  band: thin
+  composite: 31.0
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 13
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.8
   facets:
-    access_clarity: 31.6
+    access_clarity: 63.2
     contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 42.9
+    developer_ergonomics: 45.2
     discoverability: 73.2
     operational_transparency: 2.6
   jurisdiction:
@@ -174,9 +187,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

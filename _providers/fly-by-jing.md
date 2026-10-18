@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 12.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'The live machine surface on the flybyjing.com domain: a Shopify Storefront MCP server for agentic product search and cart/checkout, plus a Shopify Customer Account API secured with OAuth 2.0 / OpenID '
@@ -43,6 +43,10 @@ apis:
   slug: fly-by-jing-storefront-shopify
 artifact_total: 5
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://flybyjing.com/blogs/news.atom
 - group: company
   title: ''
   type: Website
@@ -120,14 +124,14 @@ mcp_servers:
 - description: Remote MCP server at flybyjing.com over HTTP; 5 tools listed.
   name: Fly By Jing MCP Server
   slug: storefront-renderer
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Fly By Jing
 nav: Providers
 network: true
-overview: 'Fly By Jing publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food and Beverage, Consumer Packaged Goods, E-Commerce, and Shopify.
+overview: 'Fly By Jing is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food and Beverage, Consumer Packaged Goods, E-Commerce, and Shopify.
 
 
-  Fly By Jing''s developer surface includes engineering blog, support, pricing, authentication, and 12 more developer resources.'
+  Fly By Jing''s developer surface includes engineering blog, support, pricing, authentication, and 13 more developer resources.'
 random_paper: 8
 scopes:
 - name: Fly By Jing Scopes
@@ -136,15 +140,15 @@ scopes:
   summary_line: 4 scopes · authorization_code
 score:
   band: emerging
-  composite: 19.5
+  composite: 19.6
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 38.2
     contract_governance: 0.0
@@ -161,8 +165,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

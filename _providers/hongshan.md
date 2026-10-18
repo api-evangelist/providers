@@ -17,7 +17,7 @@ description: HongShan (HSG), formerly known as Sequoia Capital China, is a leadi
   and Moderna.
 image: https://www.hsgcap.com/favicon.ico
 layout: provider
-modified: '2026-07-17'
+modified: '2026-10-06'
 name: HongShan (HSG)
 nav: Providers
 network: true

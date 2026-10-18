@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 23.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: REST API over Welcome to the Jungle Solutions recruiting and employer-branding data. Bearer-token (OAuth access token) authentication with a published scope model, JSON request and response bodies, pa
@@ -179,7 +179,7 @@ modified: '2026-09-04'
 name: Welcome to the Jungle
 nav: Providers
 network: true
-overview: 'Welcome to the Jungle publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Human Resources, Recruiting, Applicant Tracking, and Job.
+overview: 'Welcome to the Jungle is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Human Resources, Recruiting, Applicant Tracking, and Job.
 
 
   Welcome to the Jungle''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
@@ -201,7 +201,7 @@ score:
   band: developing
   composite: 43.1
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -237,13 +237,14 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 39.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/welcome-to-the-jungle/refs/heads/main/screenshots/welcome-to-the-jungle-2026-10-11T194401.png
 security:
 - kind: authentication
   name: Welcome To The Jungle Authentication

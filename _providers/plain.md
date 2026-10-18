@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 51.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Plain's Core GraphQL API — the same API the Plain product is built on. Manage customers, companies, tenants, threads, messaging, help center, labels, tiers/SLAs, snippets, tasks, events, and webhook t
@@ -204,7 +204,7 @@ modified: '2026-07-20'
 name: Plain
 nav: Providers
 network: true
-overview: 'Plain publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Customer Support, Customer Service, Help Desk, and Support.
+overview: 'Plain is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Customer Service, Help Desk, Support, and Software-as-a-Service.
 
 
   The Plain catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -216,7 +216,7 @@ score:
   band: developing
   composite: 53.3
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -241,8 +241,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -265,7 +265,6 @@ security:
 slug: plain
 tags:
 - Company
-- Customer Support
 - Customer Service
 - Help Desk
 - Support

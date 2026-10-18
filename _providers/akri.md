@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.8
-  scored_at: '2026-10-04'
+  score: 23.6
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -57,6 +57,21 @@ collections:
   name: Akri Metrics API
   slug: open-akri-metrics-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/akri/refs/heads/main/plans/akri-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/akri-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/akri/refs/heads/main/rate-limits/akri-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/akri-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/akri/refs/heads/main/finops/akri-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/akri-finops.yml
 - group: company
   title: ''
   type: Website
@@ -185,9 +200,13 @@ features:
 - description: Supports Linux nodes on amd64, arm64v8, and arm32v7 architectures with Kubernetes v1.16+, K3s, and MicroK8s distributions.
   name: Multi-Architecture Support
 finops:
-- name: Akri Finops
+- has_sources: false
+  method: generated
+  name: Akri Finops
+  primary_unit: ''
   service_category: API
   slug: akri-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/akri.png
 integrations:
 - description: Native Prometheus metrics integration via ServiceMonitor and PodMonitor custom resources, with Grafana visualization support.
@@ -258,13 +277,13 @@ modified: '2026-09-16'
 name: Akri
 nav: Providers
 network: true
-overview: 'Akri publishes 1 API on the [APIs.io](https://apis.io/) network: Metrics API. Tagged areas include Device Management, Edge Computing, IoT, Kubernetes, and CNCF.
+overview: 'Akri is listed with 1 API on the [APIs.io](https://apis.io/) network: Metrics API. Tagged areas include Device Management, Edge Computing, IoT, Kubernetes, and CNCF.
 
 
   The Akri catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Akri''s developer surface includes documentation, getting-started guide, changelog, code examples, and 16 more developer resources.'
+  Akri''s developer surface includes documentation, getting-started guide, changelog, code examples, and 19 more developer resources.'
 plans:
 - name: Akri Plans Pricing
   plan_count: 3
@@ -275,9 +294,10 @@ rate_limits:
   name: Akri Rate Limits
   slug: akri-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Akri API Rules
+  name: Akri — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -285,7 +305,8 @@ rules:
     info: 2
     warn: 3
   slug: akri-jsonschema-spectral-rules
-- effective_rule_count: 68
+- authorship: generated
+  effective_rule_count: 68
   extends:
   - spectral:oas
   name: Akri API Rules
@@ -298,17 +319,17 @@ rules:
   slug: akri-spectral-rules
 score:
   band: thin
-  composite: 31.6
+  composite: 33.1
   coverage:
-    artifact_dirs: 16
-    catalog_earned: 64.0
+    artifact_dirs: 17
+    catalog_earned: 67.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 36.0
-    catalog_max: 100.0
+    catalog_gap: 48.0
+    catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.5
   facets:
-    access_clarity: 0.0
+    access_clarity: 7.9
     contract_governance: 27.3
     contract_quality: 28.1
     developer_ergonomics: 28.6
@@ -331,8 +352,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

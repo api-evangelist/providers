@@ -23,10 +23,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.agrourbana.ag/blog
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/agrourbana/refs/heads/main/security/agrourbana-domain-security.yml
   title: ''
@@ -87,11 +91,14 @@ created: '2026-09-13'
 description: AgroUrbana SpA is a Chilean vertical-farming company founded in 2018 in Santiago by Pablo Bunster and Cristian Sjogren, and widely described as the first commercial vertical farm in Latin America. It runs climate-controlled indoor grow facilities combining hydroponics, spectrum-programmed LED lighting, renewable energy, automation and data analytics to produce leafy greens year round, reporting up to twelve growing cycles a year and up to 95% less water use than open-field agriculture. Produce is sold to Chilean retailers including Cencosud and Walmart Chile, and direct to consumers under the Urban Rabbit brand through a hosted online store. The company has raised roughly USD 12 million, including a USD 4 million Series A led by Kayyak Ventures and a USD 6 million pre-Series B led by ALB Inversiones. AgroUrbana operates its technology internally to run its own farms and publishes no public API, SDK, developer portal or machine-readable API contract.
 image: https://static.bolder.run/23001/logo/original/logo-logo-UR_AU-para-notificacionepurp.png
 layout: provider
-modified: '2026-09-13'
+modified: '2026-10-06'
 name: AgroUrbana
 nav: Providers
 network: true
-overview: AgroUrbana is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Agriculture, AgTech, Vertical Farming, and Food and Beverage.
+overview: 'AgroUrbana is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Agriculture, AgTech, Vertical Farming, and Food and Beverage.
+
+
+  AgroUrbana''s developer surface includes engineering blog and 9 more developer resources.'
 plans:
 - name: Agrourbana Plans Pricing
   plan_count: 0
@@ -103,20 +110,20 @@ rate_limits:
   slug: agrourbana-rate-limits
 score:
   band: minimal
-  composite: 6.1
+  composite: 6.6
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 9
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 10.5
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 48.2
     operational_transparency: 0.0
   jurisdiction:
@@ -133,13 +140,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 9.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/agrourbana/refs/heads/main/screenshots/agrourbana-2026-10-11T093208.png
 security:
 - kind: domain-security
   name: Agrourbana Domain Security

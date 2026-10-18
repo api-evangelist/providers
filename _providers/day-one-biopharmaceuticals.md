@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.dayonebio.com/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/day-one-biopharmaceuticals/refs/heads/main/security/day-one-biopharmaceuticals-domain-security.yml
   title: ''
@@ -75,20 +79,20 @@ created: '2026-07-17'
 description: Day One Biopharmaceuticals is a commercial-stage biopharmaceutical company developing and commercializing targeted therapies for people of all ages living with life-threatening diseases, with an initial focus on pediatric and rare cancers. Its lead product OJEMDA (tovorafenib) is an FDA-approved treatment for relapsed or refractory pediatric low-grade glioma, and its pipeline includes DAY301 and the antibody-drug conjugate Emi-Le. Headquartered in Brisbane, California, the company was acquired by and is now part of the Servier Group as of March 2026. Day One was surfaced as a portfolio company of Canaan Partners and added to the API Evangelist network; it maintains a corporate and investor-relations web presence but publishes no public developer API, SDK, or programmatic surface.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/day-one-biopharmaceuticals.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Day One Biopharmaceuticals
 nav: Providers
 network: true
 overview: 'Day One Biopharmaceuticals is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biopharmaceutical, Oncology, Pediatric Cancer, and Rare Disease.
 
 
-  Day One Biopharmaceuticals'' developer surface includes support and 7 more developer resources.'
+  Day One Biopharmaceuticals'' developer surface includes support and 8 more developer resources.'
 random_paper: 16
 score:
   band: minimal
   composite: 10.5
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -116,8 +120,8 @@ score:
     regime: Health
     regime_id: health
     score: 10.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

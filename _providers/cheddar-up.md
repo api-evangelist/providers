@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 3
 asyncapis:
@@ -42,6 +42,14 @@ asyncapis:
   name: Cheddar Up Webhooks
   slug: cheddar-up-webhooks
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.cheddarup.com/press/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.cheddarup.com/feed/
 - group: company
   title: ''
   type: Website
@@ -124,7 +132,7 @@ created: '2026-07-17'
 description: Cheddar Up is an all-in-one online platform that helps groups and communities collect payments and forms in one place. Purpose-built for PTAs/PTOs, booster clubs, youth sports teams, nonprofits, schools, clubs, HOAs, churches, and other volunteer-led organizations, it lets organizers collect dues, registrations, donations, event fees, fundraisers, and group gifts without any technical setup. It combines online payments (credit card, e-check, Apple Pay, Google Pay, and Link), custom forms, waivers, sign-ups, recurring payments, itemized storefronts, automated tracking and reporting, and multi-manager team administration. For technical users, Cheddar Up exposes an embeddable JavaScript SDK (a guest-facing Checkout component instantiated via CheddarUpWidgetFactory), API keys on the Team plan, and a native webhooks integration for syncing collection and payment events to external apps.
 image: https://www.cheddarup.com/wp-content/uploads/2021/10/CUp_Logo_2c.svg
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Cheddar Up
 nav: Providers
 network: true
@@ -134,13 +142,13 @@ overview: 'Cheddar Up is profiled on the [APIs.io](https://apis.io/) network. Ta
   The Cheddar Up catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Cheddar Up''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 11 more developer resources.'
+  Cheddar Up''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, pricing, signup flow, and 13 more developer resources.'
 random_paper: 21
 score:
   band: thin
   composite: 36.4
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -161,8 +169,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 17.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

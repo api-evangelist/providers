@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.0
-  scored_at: '2026-10-04'
+  score: 30.1
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -166,6 +166,21 @@ collections:
   name: parseflow
   slug: open-parseflow
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/parseflow/refs/heads/main/plans/parseflow-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/parseflow-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/parseflow/refs/heads/main/rate-limits/parseflow-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/parseflow-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/parseflow/refs/heads/main/finops/parseflow-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/parseflow-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/parseflow/refs/heads/main/agentic-access/parseflow-agentic-access.yml
   title: ''
@@ -237,9 +252,13 @@ examples:
   name: Parseflow Search Example
   slug: parseflow-search-example
 finops:
-- name: Parseflow Finops
+- has_sources: true
+  method: generated
+  name: Parseflow Finops
+  primary_unit: ''
   service_category: ''
   slug: parseflow-finops
+  template: true
 image: https://docs.parseflow.tech/img/logo.svg
 json_schemas:
 - name: Parseflow Batch Request
@@ -273,13 +292,13 @@ modified: '2026-05-27'
 name: Parseflow
 nav: Providers
 network: true
-overview: 'Parseflow publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Analyze API, Batch API, and 11 more. Tagged areas include Document Parsing, PDF, OCR, Text Extraction, and Document AI.
+overview: 'Parseflow publishes 14 API contracts indexed on the [APIs.io](https://apis.io/) network, including Admin API, Analyze API, Batch API, and 11 more. Tagged areas include Document Parsing, PDF, OCR, Text Extraction, and Document AI.
 
 
   The Parseflow catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Parseflow''s developer surface includes authentication, documentation, getting-started guide, API reference, pricing, FAQ, and 7 more developer resources.'
+  Parseflow''s developer surface includes authentication, documentation, getting-started guide, API reference, pricing, FAQ, and 10 more developer resources.'
 plans:
 - name: Parseflow Plans Pricing
   plan_count: 3
@@ -290,9 +309,10 @@ rate_limits:
   name: Parseflow Rate Limits
   slug: parseflow-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Parseflow API Rules
+  name: Parseflow — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -300,7 +320,8 @@ rules:
     info: 1
     warn: 4
   slug: parseflow-jsonschema-spectral-rules
-- effective_rule_count: 48
+- authorship: unmarked
+  effective_rule_count: 48
   extends:
   - spectral:oas
   name: Parseflow API Rules
@@ -313,22 +334,22 @@ rules:
   slug: parseflow-rules
 score:
   band: thin
-  composite: 36.8
+  composite: 28.5
   coverage:
     artifact_dirs: 15
-    catalog_earned: 77.1
+    catalog_earned: 58.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 37.9
+    catalog_gap: 56.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 41.6
+    access_clarity: 13.2
     contract_governance: 13.6
     contract_quality: 49.2
     developer_ergonomics: 20.2
     discoverability: 73.2
-    operational_transparency: 28.4
+    operational_transparency: 7.9
   previous_composite: 36.8
   provenance:
     agentic_access: derived
@@ -343,9 +364,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

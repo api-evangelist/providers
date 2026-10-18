@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'DapperDox is an open-source API documentation generator that renders beautiful, customizable reference docs from OpenAPI specifications with support for themes, overlays, and cross-referencing across '
@@ -41,6 +41,21 @@ apis:
   slug: dapperdox
 artifact_total: 5
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/dapperdox/refs/heads/main/plans/dapperdox-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/dapperdox-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/dapperdox/refs/heads/main/rate-limits/dapperdox-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/dapperdox-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/dapperdox/refs/heads/main/finops/dapperdox-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/dapperdox-finops.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -82,19 +97,23 @@ common:
 created: '2026-03-27'
 description: DapperDox is an open-source API documentation generator that creates beautiful, customizable reference documentation from OpenAPI specifications. It supports theming, overlays, and cross-referencing across multiple API specifications, making it suitable for teams managing complex API ecosystems. DapperDox is a developer tool rather than a hosted service, so it does not expose its own public web API.
 finops:
-- name: Dapperdox Finops
+- has_sources: false
+  method: generated
+  name: Dapperdox Finops
+  primary_unit: ''
   service_category: API
   slug: dapperdox-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dapperdox.png
 layout: provider
 modified: '2026-04-28'
 name: DapperDox
 nav: Providers
 network: true
-overview: 'DapperDox publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include API Reference, Documentation, Developer Tools, Open Source, and OpenAPI.
+overview: 'DapperDox is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include API Reference, Documentation, Developer Tools, Open Source, and OpenAPI.
 
 
-  DapperDox''s developer surface includes documentation and 8 more developer resources.'
+  DapperDox''s developer surface includes documentation and 11 more developer resources.'
 plans:
 - name: Dapperdox Plans Pricing
   plan_count: 3
@@ -106,17 +125,17 @@ rate_limits:
   slug: dapperdox-rate-limits
 score:
   band: emerging
-  composite: 16.2
+  composite: 14.9
   coverage:
     artifact_dirs: 7
-    catalog_earned: 45.5
+    catalog_earned: 42.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 69.5
+    catalog_gap: 72.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.3
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 13.6
     contract_quality: 0.0
     developer_ergonomics: 10.7
@@ -132,8 +151,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

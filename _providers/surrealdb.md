@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 15.5
-  scored_at: '2026-10-04'
+  score: 13.6
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: The SurrealDB HTTP REST API provides stateless access to SurrealDB instances over standard HTTP. It supports CRUD operations on tables and records, SurrealQL query execution via POST /sql, GraphQL que
@@ -123,9 +123,13 @@ common:
 created: '2026-06-12'
 description: SurrealDB is a multi-model database that unifies documents, graphs, vectors, time-series, full-text search, and relational data within a single ACID transaction framework. It exposes a native HTTP REST API and supports SurrealQL, a powerful query language designed for multi-model data access. The platform includes built-in authentication with JWT tokens, row-level security, and live query subscriptions for real-time applications. SurrealDB Cloud provides a managed hosting option with usage-based pricing, while the open-source engine can be self-hosted. The database also ships a Model Context Protocol (MCP) server enabling AI agents and tools such as Claude, Cursor, and VS Code to query and manage data directly.
 finops:
-- name: Surrealdb Finops
+- has_sources: true
+  method: generated
+  name: Surrealdb Finops
+  primary_unit: ''
   service_category: Database
   slug: surrealdb-finops
+  template: false
 graphqls:
 - description: SurrealDB exposes an experimental GraphQL interface that dynamically generates a complete schema from your database's table definitions, field types, custom functions, and access definitions. Enabling
   name: SurrealDB GraphQL API
@@ -141,7 +145,7 @@ modified: '2026-06-12'
 name: SurrealDB
 nav: Providers
 network: true
-overview: 'SurrealDB publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Database, Multi-Model, Graph Database, Document Database, and Vector Database.
+overview: 'SurrealDB is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Database, Multi-Model, Graph Database, Document Database, and Vector Database.
 
 
   The SurrealDB catalog on APIs.io includes 1 JSON-LD context.
@@ -159,22 +163,22 @@ rate_limits:
   slug: surrealdb-rate-limits
 score:
   band: thin
-  composite: 30.8
+  composite: 28.2
   coverage:
-    artifact_dirs: 10
-    catalog_earned: 66.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 49.0
+    artifact_dirs: 11
+    catalog_earned: 59.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 56.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.6
   facets:
-    access_clarity: 44.2
+    access_clarity: 39.5
     contract_governance: 0.0
     contract_quality: 43.6
     developer_ergonomics: 0.0
     discoverability: 66.1
-    operational_transparency: 29.5
+    operational_transparency: 15.8
   previous_composite: 30.8
   regulatory:
     applies: true
@@ -182,8 +186,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

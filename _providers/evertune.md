@@ -32,10 +32,15 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 5
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/evertune/refs/heads/main/rate-limits/evertune-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/evertune-rate-limits.yml
 - group: company
   title: ''
   type: Website
@@ -147,7 +152,7 @@ network: true
 overview: 'Evertune is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Generative Engine Optimization, AI Search, Brand Monitoring, and Marketing Intelligence.
 
 
-  Evertune''s developer surface includes documentation, pricing, engineering blog, signup flow, YouTube channel, authentication, and 13 more developer resources.'
+  Evertune''s developer surface includes documentation, pricing, engineering blog, signup flow, YouTube channel, authentication, and 14 more developer resources.'
 plans:
 - name: Evertune Plans Pricing
   plan_count: 2
@@ -189,8 +194,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 31.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

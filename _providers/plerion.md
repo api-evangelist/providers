@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://au.api.plerion.com
@@ -147,6 +147,10 @@ collections:
   name: Plerion API Documentation Alerts Well-Architected frameworks API
   slug: open-plerion-well-architected-frameworks-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.plerion.com/blog/rss.xml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/plerion/refs/heads/main/capabilities/plerion-capability-edges.yml
   title: ''
@@ -292,20 +296,20 @@ created: '2026-07-17'
 description: Plerion is an AI-powered cloud security platform that gives teams unified visibility and automated remediation across cloud, code, and AI. It covers Cloud Security Posture Management (CSPM) for AWS, Azure, GCP, and Kubernetes; Cloud Workload Protection (CWPP) with vulnerability and SBOM scanning; Code Security (IaC and SCA scanning for GitHub, GitLab, and Bitbucket); AI Security Posture Management (AI-SPM) for Bedrock, OpenAI, and Anthropic deployments; attack-path analysis, entitlements analysis, resource access grants, and compliance tracking against frameworks like ISO 27001, SOC 2, CIS, and ISMS-P. Plerion exposes a tenant-scoped REST API (Bearer API key, regional hosts) plus a cross-platform CLI so teams can query findings, assets, risks, vulnerabilities, and compliance posture programmatically.
 image: https://www.plerion.com/favicon.ico
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Plerion
 nav: Providers
 network: true
-overview: 'Plerion publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Alerts API, Asset groups API, Assets API, and 10 more. Tagged areas include Company, Security, Cloud Security, CSPM, and Cloud Workload Protection.
+overview: 'Plerion publishes 13 API contracts indexed on the [APIs.io](https://apis.io/) network, including Alerts API, Asset groups API, Assets API, and 10 more. Tagged areas include Company, Security, Cloud Security, CSPM, and Cloud Workload Protection.
 
 
-  Plerion''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, changelog, engineering blog, and 24 more developer resources.'
+  Plerion''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, changelog, engineering blog, and 25 more developer resources.'
 random_paper: 13
 score:
   band: developing
   composite: 47.0
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -335,8 +339,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 31.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

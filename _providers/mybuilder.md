@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.mybuilder.com/blog
 - group: company
   title: ''
   type: Website
@@ -89,31 +93,31 @@ created: '2026-07-17'
 description: MyBuilder is a UK online marketplace that connects homeowners with local, reviewed tradespeople for home improvement, repair and maintenance work. Founded in 2004 by stonemason Ryan Notz and headquartered in London, the platform lets homeowners post a job for free, review interested tradespeople by their profiles, work history and customer feedback, and shortlist the ones they want to hire. Tradespeople browse leads for free and pay a fee only when a customer shortlists them. MyBuilder was acquired by IAC's HomeAdvisor in 2017 and now operates as part of the Instapro Group of European home-services marketplaces. MyBuilder is a consumer-facing web platform and does not publish a public developer API; this profile captures its public identity, security and domain posture.
 image: https://www.mybuilder.com/apple-touch-icon.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: MyBuilder
 nav: Providers
 network: true
 overview: 'MyBuilder is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Home Services, Marketplace, Tradespeople, and Home Improvement.
 
 
-  MyBuilder''s developer surface includes support, pricing, and 9 more developer resources.'
+  MyBuilder''s developer surface includes engineering blog, support, pricing, and 9 more developer resources.'
 random_paper: 5
 score:
   band: emerging
-  composite: 14.4
+  composite: 15.0
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 31.6
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 4.8
+    developer_ergonomics: 7.1
     discoverability: 48.2
     operational_transparency: 13.2
   jurisdiction:
@@ -131,8 +135,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

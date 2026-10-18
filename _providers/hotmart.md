@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 8
 apis:
 - description: 'The Hotmart authorization server. Exchanges a developer credential (client_id/client_secret, presented with HTTP Basic) for a short-lived OAuth 2.0 client_credentials access token, which is then sent '
@@ -240,7 +240,7 @@ modified: '2026-08-04'
 name: Hotmart
 nav: Providers
 network: true
-overview: 'Hotmart publishes 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Creator Economy, Digital Products, Online Courses, and E-Commerce.
+overview: 'Hotmart is listed with 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Creator Economy, Digital Products, Online Courses, and E-Commerce.
 
 
   The Hotmart catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -256,7 +256,7 @@ score:
   band: developing
   composite: 50.7
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 48.0
     catalog_earned_first_party: 8.0
     catalog_gap: 67.0
@@ -288,8 +288,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 27.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -320,7 +320,7 @@ tags:
 - Subscription
 - Affiliate Marketing
 - Webhook
-- Learning Management
+- LMS
 - Brazil
 website: https://hotmart.com/en
 ---

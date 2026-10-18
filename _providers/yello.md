@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 32.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'A remote Model Context Protocol (streamable HTTP) server operated by WayUp, a Yello company, at https://www.wayup.com/mcp. Discovered by probe: the host publishes RFC 9728 protected-resource metadata '
@@ -135,7 +135,7 @@ modified: '2026-09-04'
 name: Yello
 nav: Providers
 network: true
-overview: 'Yello publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Talent Acquisition, Recruiting, Human Resources, Campus Recruiting, and Applicant Tracking.
+overview: 'Yello is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Talent Acquisition, Recruiting, Human Resources, Campus Recruiting, and Applicant Tracking.
 
 
   Yello''s developer surface includes engineering blog, support, signup flow, pricing, and 16 more developer resources.'
@@ -157,7 +157,7 @@ score:
   band: thin
   composite: 32.7
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 16
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -196,13 +196,14 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 47.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/yello/refs/heads/main/screenshots/yello-2026-10-11T194854.png
 security:
 - kind: authentication
   name: Yello Authentication

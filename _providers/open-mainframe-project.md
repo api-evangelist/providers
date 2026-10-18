@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 12
 apis:
 - description: Zowe is an open source software framework that delivers modern interfaces to interact with z/OS, including a CLI, a web UI (Application Framework), and REST APIs (API Mediation Layer) for jobs, datase
@@ -74,6 +74,21 @@ apis:
   slug: mainframe-open-education
 artifact_total: 16
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/open-mainframe-project/refs/heads/main/plans/open-mainframe-project-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/open-mainframe-project-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/open-mainframe-project/refs/heads/main/rate-limits/open-mainframe-project-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/open-mainframe-project-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/open-mainframe-project/refs/heads/main/finops/open-mainframe-project-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/open-mainframe-project-finops.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -134,19 +149,23 @@ common:
 created: '2026-03-16'
 description: The Open Mainframe Project is a Linux Foundation project encouraging the use of Linux-based operating systems and open source software on mainframe computers. Founded in 2015 with IBM, it hosts projects such as Zowe (modern interfaces for z/OS), Feilong (z/VM cloud connector), Galasa (testing), and a range of community programs that promote mainframe skills and open source on IBM Z and LinuxONE platforms.
 finops:
-- name: Open Mainframe Project Finops
+- has_sources: false
+  method: generated
+  name: Open Mainframe Project Finops
+  primary_unit: ''
   service_category: API
   slug: open-mainframe-project-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/open-mainframe-project.png
 layout: provider
 modified: '2026-04-28'
 name: Open Mainframe Project
 nav: Providers
 network: true
-overview: 'Open Mainframe Project publishes 12 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Cloud-Native, Education, Enterprise, IBM Z, and Linux Foundation.
+overview: 'Open Mainframe Project is listed with 12 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Cloud-Native, Education, Enterprise, IBM Z, and Linux Foundation.
 
 
-  Open Mainframe Project''s developer surface includes documentation, engineering blog, and 12 more developer resources.'
+  Open Mainframe Project''s developer surface includes documentation, engineering blog, and 15 more developer resources.'
 plans:
 - name: Open Mainframe Project Plans Pricing
   plan_count: 3
@@ -158,17 +177,17 @@ rate_limits:
   slug: open-mainframe-project-rate-limits
 score:
   band: emerging
-  composite: 13.9
+  composite: 12.5
   coverage:
     artifact_dirs: 7
-    catalog_earned: 44.0
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 71.0
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.4
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
@@ -184,8 +203,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

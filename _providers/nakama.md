@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.9
-  scored_at: '2026-10-04'
+  score: 19.0
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 19
+- acting_count: 18
   human_in_the_loop: 0
   name: Nakama Agentic Access
   operation_count: 27
   slug: nakama-agentic-access
-  summary_line: 27 operations · 19 acting
+  summary_line: 27 operations · 18 acting
 api_count: 1
 apis:
 - baseURL: ws://127.0.0.1:7350/ws
@@ -191,16 +191,20 @@ common:
 created: '2026-07-01'
 description: Nakama by Heroic Labs is an open-source (Apache-2.0) game and app backend server providing user accounts and authentication, social features (friends, groups, chat), collaborative storage, realtime multiplayer and authoritative matches, matchmaking, leaderboards and tournaments, notifications, and a server runtime with custom RPCs in Go, TypeScript/JavaScript, and Lua. Nakama exposes a gRPC-gateway-generated REST API plus a realtime WebSocket socket API, and is available self-hosted or as the managed Heroic Cloud.
 finops:
-- name: Nakama Finops
+- has_sources: true
+  method: generated
+  name: Nakama Finops
+  primary_unit: ''
   service_category: Game Backend and Realtime Infrastructure
   slug: nakama-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nakama.png
 layout: provider
 modified: '2026-07-01'
 name: Nakama
 nav: Providers
 network: true
-overview: 'Nakama publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Realtime Socket API, Account API, Authentication API, and 8 more. Tagged areas include Gaming, Game Backend, Backend, Real-Time, and Multiplayer.
+overview: 'Nakama publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Realtime Socket API, Account API, Authentication API, and 8 more. Tagged areas include Gaming, Game Backend, Backend, Real-Time, and Multiplayer.
 
 
   The Nakama catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -217,10 +221,11 @@ rate_limits:
   name: Nakama Rate Limits
   slug: nakama-rate-limits
 rules:
-- effective_rule_count: 34
+- authorship: generated
+  effective_rule_count: 34
   extends:
   - spectral:asyncapi
-  name: Nakama API Rules
+  name: Nakama — asyncapi rules
   rule_count: 7
   severity_counts:
     error: 0
@@ -229,23 +234,23 @@ rules:
     warn: 7
   slug: nakama-asyncapi-spectral-rules
 score:
-  band: developing
-  composite: 41.2
+  band: thin
+  composite: 32.9
   coverage:
     artifact_dirs: 13
-    catalog_earned: 65.4
+    catalog_earned: 46.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 49.6
+    catalog_gap: 68.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 11.4
     contract_quality: 52.5
     developer_ergonomics: 31.0
     discoverability: 66.1
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   previous_composite: 41.2
   provenance:
     agentic_access: derived
@@ -260,9 +265,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 38.9

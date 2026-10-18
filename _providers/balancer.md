@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 4
 apis:
 - description: Public GraphQL API used by the Balancer UI and integrators. Provides pools, tokens, swaps, gauges, voting, and analytics across all supported chains.
@@ -105,9 +105,13 @@ common:
 created: '2026-05-08'
 description: Balancer is a DeFi AMM and programmable liquidity platform supporting weighted, stable, and custom pools (v2 and v3). Balancer publishes a public GraphQL API at api-v3.balancer.fi for pool, swap, and analytics data, plus per-chain subgraph endpoints. Smart-contract entry points (Vault and Router) are the primary write surface; SDKs wrap the SOR (Smart Order Router) for client-side route construction.
 finops:
-- name: Balancer Finops
+- has_sources: true
+  method: generated
+  name: Balancer Finops
+  primary_unit: ''
   service_category: DeFi Protocol
   slug: balancer-finops
+  template: false
 graphqls:
 - description: Public GraphQL API used by the Balancer UI and integrators. Provides pools, tokens, swaps, gauges, voting, and analytics across all supported chains.
   name: Balancer GraphQL API
@@ -118,7 +122,7 @@ modified: '2026-09-16'
 name: Balancer
 nav: Providers
 network: true
-overview: 'Balancer publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Web3, DeFi, DEX, AMM, and Liquidity.
+overview: 'Balancer is listed with 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Web3, DeFi, Decentralized Exchange, AMM, and Liquidity.
 
 
   Balancer''s developer surface includes developer portal, documentation, GitHub presence, engineering blog, and 8 more developer resources.'
@@ -133,17 +137,17 @@ rate_limits:
   slug: balancer-rate-limits
 score:
   band: emerging
-  composite: 15.7
+  composite: 14.1
   coverage:
-    artifact_dirs: 10
-    catalog_earned: 47.0
+    artifact_dirs: 11
+    catalog_earned: 44.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 68.0
+    catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 13.2
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 26.2
@@ -152,12 +156,12 @@ score:
   previous_composite: 15.7
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
-    score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+    matched_via: tags
+    regime: Securities & Market Data
+    regime_id: securities_market_data
+    score: 11.1
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -173,7 +177,7 @@ slug: balancer
 tags:
 - Web3
 - DeFi
-- DEX
+- Decentralized Exchange
 - AMM
 - Liquidity
 - Multi-Chain

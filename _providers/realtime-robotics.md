@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: The ASCII API is the primary runtime integration surface for the Realtime Controller. A client opens a TCP socket to the controller and exchanges inline YAML 1.2 command strings (topic / type / id / d
@@ -193,7 +193,7 @@ modified: '2026-08-26'
 name: Realtime Robotics
 nav: Providers
 network: true
-overview: 'Realtime Robotics publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Robotics, Motion Planning, Industrial Automation, and Manufacturing.
+overview: 'Realtime Robotics is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Robotics, Motion Planning, Industrial Automation, and Manufacturing.
 
 
   Realtime Robotics'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 21 more developer resources.'
@@ -246,8 +246,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

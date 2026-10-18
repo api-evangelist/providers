@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.1
-  scored_at: '2026-10-04'
+  score: 17.2
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: wss://stream.aisstream.io/v0/stream
@@ -93,16 +93,20 @@ common:
 created: '2026-07-12'
 description: AISStream.io is a free service that streams global real-time AIS (Automatic Identification System) vessel-tracking data over a WebSocket. Clients register for a free API key, open a secure WebSocket to "wss://stream.aisstream.io/v0/stream", and send a JSON subscription message declaring one or more geographic bounding boxes plus optional MMSI and message-type filters. The server then pushes a continuous stream of AIS messages - PositionReport, ShipStaticData, and the full set of ITU-R M.1371 message types - each wrapped in an envelope carrying MessageType, MetaData, and the decoded Message. There is no REST API; the service is WebSocket-only.
 finops:
-- name: Aisstream Finops
+- has_sources: true
+  method: generated
+  name: Aisstream Finops
+  primary_unit: ''
   service_category: Location and Mapping
   slug: aisstream-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aisstream.png
 layout: provider
 modified: '2026-07-12'
 name: AISStream
 nav: Providers
 network: true
-overview: 'AISStream publishes 1 API on the [APIs.io](https://apis.io/) network: AIS Stream API. Tagged areas include Vessel Tracking, AIS, Maritime, Ship Tracking, and Real-Time Data.
+overview: 'AISStream is listed with 1 API on the [APIs.io](https://apis.io/) network: AIS Stream API. Tagged areas include Vessel Tracking, AIS, Maritime, Ship Tracking, and Real-Time Data.
 
 
   The AISStream catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -119,10 +123,11 @@ rate_limits:
   name: Aisstream Rate Limits
   slug: aisstream-rate-limits
 rules:
-- effective_rule_count: 32
+- authorship: generated
+  effective_rule_count: 32
   extends:
   - spectral:asyncapi
-  name: AISStream API Rules
+  name: AISStream — asyncapi rules
   rule_count: 5
   severity_counts:
     error: 1
@@ -132,22 +137,22 @@ rules:
   slug: aisstream-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 35.8
+  composite: 28.9
   coverage:
-    artifact_dirs: 10
-    catalog_earned: 61.8
+    artifact_dirs: 11
+    catalog_earned: 45.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.2
+    catalog_gap: 69.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.9
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 11.4
     contract_quality: 43.8
     developer_ergonomics: 40.0
     discoverability: 66.1
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   previous_composite: 35.8
   regulatory:
     applies: true
@@ -155,9 +160,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

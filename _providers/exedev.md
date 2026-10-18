@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 12.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Programmatic access to the exe.dev command surface. POST the command exactly as typed in the ssh exe.dev REPL to https://exe.dev/exec with an exe1. bearer token; supported commands return JSON via --j
@@ -42,6 +42,10 @@ apis:
   slug: exedev-https-api
 artifact_total: 4
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.exe.dev/atom.xml
 - group: company
   title: ''
   type: Website
@@ -175,14 +179,14 @@ created: '2026-07-17'
 description: exe.dev is a cloud computing platform from Bold Software that provisions Linux VMs with persistent disks, instant HTTPS, and built-in authentication — all managed over SSH ("just use ssh"). It offers disposable Sandboxes for running AI-generated code, persistent VPS-style VMs, and Devbox cloud development environments, each reachable at https://<vm>.exe.xyz with automatic TLS. A companion HTTPS API (POST /exec) runs the same command surface with exe1. bearer tokens, and Shelley — a first-party, web-based coding agent — runs inside the VMs. exe.dev raised a $35M Series A and is backed by Amplify Partners. This profile was enriched by the API Evangelist pipeline from the provider's public docs, llms.txt, GitHub org (boldsoftware), and well-known surface.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/exedev.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: exe.dev
 nav: Providers
 network: true
-overview: 'exe.dev publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Developer Tools, Cloud Computing, Virtual Machines, and Sandbox.
+overview: 'exe.dev is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Developer Tools, Cloud Computing, Virtual Machines, and Sandbox.
 
 
-  exe.dev''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, support, authentication, and 21 more developer resources.'
+  exe.dev''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, support, authentication, and 22 more developer resources.'
 random_paper: 3
 score:
   band: thin
@@ -213,8 +217,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

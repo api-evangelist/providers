@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 16.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: JWT-based Single Sign-On REST API that lets a partner's online or mobile banking platform transfer an authenticated member into SavvyMoney without a second set of credentials. Publicly documented oper
@@ -170,7 +170,7 @@ modified: '2026-08-26'
 name: SavvyMoney
 nav: Providers
 network: true
-overview: 'SavvyMoney publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Credit Score, Credit Monitoring, and Financial Wellness.
+overview: 'SavvyMoney is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Credit Score, Credit Monitoring, and Financial Wellness.
 
 
   SavvyMoney''s developer surface includes documentation, support, engineering blog, signup flow, changelog, and 20 more developer resources.'
@@ -192,7 +192,7 @@ score:
   band: thin
   composite: 37.9
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -216,8 +216,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 46.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.igt.com/explore-igt/news
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/international-game-technology/refs/heads/main/security/international-game-technology-vulnerability-disclosure.yml
   title: ''
@@ -66,14 +70,14 @@ created: '2026-03-24'
 description: International Game Technology (IGT) is a global gaming company that delivers entertaining and responsible gaming experiences across all gaming channels and regulated segments, including lottery, gaming machines, sports betting, and digital gaming. IGT does not currently offer a public developer API program; its technical resources are delivered through licensed B2B partner channels.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/international-game-technology.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-10-06'
 name: International Game Technology
 nav: Providers
 network: true
 overview: 'International Game Technology is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Gaming, Lottery, Sports Betting, Gaming Machines, and B2B.
 
 
-  International Game Technology''s developer surface includes support and 5 more developer resources.'
+  International Game Technology''s developer surface includes engineering blog, support, and 5 more developer resources.'
 press:
 - date: ''
   title: Agreement and Plan of Merger by and among International ...
@@ -93,7 +97,7 @@ press:
 random_paper: 14
 score:
   band: minimal
-  composite: 4.3
+  composite: 4.8
   coverage:
     artifact_dirs: 6
     catalog_earned: 27.0
@@ -101,12 +105,12 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 48.2
     operational_transparency: 0.0
   previous_composite: 4.3
@@ -116,13 +120,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/international-game-technology/refs/heads/main/screenshots/international-game-technology-2026-10-11T190125.png
 security:
 - kind: domain-security
   name: International Game Technology Domain Security
@@ -131,7 +136,7 @@ security:
 - kind: vulnerability-disclosure
   name: International Game Technology Vulnerability Disclosure
   slug: international-game-technology-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 slug: international-game-technology
 tags:
 - Gaming

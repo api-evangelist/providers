@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: A lightweight (3kB gzipped) JavaScript SDK that lets developers programmatically create, open, and embed StackBlitz projects in web pages, documentation sites, or blog posts. Provides six primary meth
@@ -103,9 +103,13 @@ common:
 created: '2026-06-12'
 description: StackBlitz is an online development environment that runs Node.js applications entirely in the browser using WebContainers, a WebAssembly-based operating system that boots Node.js in milliseconds without a remote server. It serves developers, technical writers, and platform teams who need interactive coding environments, documentation playgrounds, or embedded IDE experiences. The platform provides a JavaScript SDK for programmatically creating and embedding projects, and a WebContainer API for booting full Node.js runtimes directly inside web applications. StackBlitz also offers Codeflow, a one-click GitHub integration for pull request review and issue fixing workflows.
 finops:
-- name: Stackblitz Finops
+- has_sources: true
+  method: generated
+  name: Stackblitz Finops
+  primary_unit: ''
   service_category: Developer Tools
   slug: stackblitz-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/stackblitz.png
 jsonld:
 - class_count: 0
@@ -117,7 +121,7 @@ modified: '2026-06-12'
 name: StackBlitz
 nav: Providers
 network: true
-overview: 'StackBlitz publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Developer Tools, WebAssembly, Node.js, IDE, and Browser Runtime.
+overview: 'StackBlitz is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Developer Tools, WebAssembly, Node.js, IDE, and Browser Runtime.
 
 
   The StackBlitz catalog on APIs.io includes 1 JSON-LD context.
@@ -134,23 +138,23 @@ rate_limits:
   name: Stackblitz Rate Limits
   slug: stackblitz-rate-limits
 score:
-  band: thin
-  composite: 26.6
+  band: emerging
+  composite: 19.3
   coverage:
-    artifact_dirs: 8
-    catalog_earned: 61.0
+    artifact_dirs: 9
+    catalog_earned: 45.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 54.0
+    catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.3
   facets:
-    access_clarity: 46.8
+    access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 10.7
     developer_ergonomics: 23.8
     discoverability: 57.1
-    operational_transparency: 37.4
+    operational_transparency: 23.7
   previous_composite: 26.6
   regulatory:
     applies: true
@@ -158,9 +162,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://join9am.com/blog/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/9am-health/refs/heads/main/security/9am-health-trust-center.yml
   title: ''
@@ -86,26 +90,26 @@ created: '2026-07-17'
 description: 9amHealth (join9am.com) is a US virtual cardiometabolic clinic delivering specialized care for type 2 diabetes, obesity/weight loss, high blood pressure, and high cholesterol entirely from home. Founded in 2021 in San Diego by mySugr co-founders Frank Westermann and Anton Kittelberger, the company pairs at-home lab test kits, asynchronous and synchronous telehealth visits with obesity specialists, pharmacists, dietitians, and behavioral health experts, mail-order pharmacy for prescriptions including GLP-1 receptor agonists, and optional connected devices such as continuous glucose monitors into individualized care plans. It sells direct to individuals and through employers, health plans, and pharmacy benefit managers. 9amHealth is a consumer and enterprise telehealth brand and does not publish a public developer API, SDK, or documentation program; this profile captures its public web identity for the API Evangelist network. Backed by Speedinvest.
 image: https://join9am.com/hubfs/raw_assets/public/9amHealthTheme2022/assets/images/OG-ima-9amHealth.jpg
 layout: provider
-modified: '2026-07-17'
+modified: '2026-10-06'
 name: 9am Health
 nav: Providers
 network: true
 overview: '9am Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Healthcare, Telehealth, and Digital Health.
 
 
-  9am Health''s developer surface includes signup flow, support, engineering blog, and 8 more developer resources.'
+  9am Health''s developer surface includes signup flow, support, engineering blog, and 9 more developer resources.'
 random_paper: 14
 score:
   band: emerging
-  composite: 16.9
+  composite: 17.0
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 50.0
     contract_governance: 0.0
@@ -120,8 +124,8 @@ score:
     regime: Health
     regime_id: health
     score: 14.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

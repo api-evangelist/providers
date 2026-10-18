@@ -36,8 +36,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 59.0
-  scored_at: '2026-10-04'
-api_count: 1
+  scored_at: '2026-10-17'
+api_count: 2
 apis:
 - baseURL: https://recipe-api.com
   baseurl_source: spec
@@ -85,6 +85,10 @@ collections:
   name: Recipe Recipes API
   slug: open-recipe-api-recipes-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://recipe-api.com/blog
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/recipe-api/refs/heads/main/security/recipe-api-domain-security.yml
   title: ''
@@ -154,14 +158,14 @@ mcp_servers:
 - description: An official Recipe API MCP server, documented for Claude and any MCP client. The JSON-RPC endpoint answers 401 rather than 404, so it exists and is auth-gated — the tool list could not be enumerated a
   name: Recipe API MCP Server
   slug: recipe-api
-modified: '2026-08-03'
+modified: '2026-10-06'
 name: Recipe API
 nav: Providers
 network: true
-overview: 'Recipe API publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Discovery API, Image Generation API, Ingredients API, and 2 more. Tagged areas include Recipes, Food, Nutrition, Ingredients, and Data.
+overview: 'Recipe API publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Discovery API, Image Generation API, Ingredients API, and 2 more. Tagged areas include Recipes, Food, Nutrition, Ingredients, and Data.
 
 
-  Recipe API''s developer surface includes documentation, pricing, signup flow, authentication, and 10 more developer resources.'
+  Recipe API''s developer surface includes engineering blog, documentation, pricing, signup flow, authentication, and 10 more developer resources.'
 plans:
 - name: Recipe Api Plans
   plan_count: 4
@@ -173,20 +177,20 @@ rate_limits:
   slug: recipe-api-rate-limits
 score:
   band: developing
-  composite: 41.6
+  composite: 41.8
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 12
     catalog_earned: 56.0
     catalog_earned_first_party: 24.0
     catalog_gap: 59.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.2
   facets:
     access_clarity: 69.7
     contract_governance: 0.0
     contract_quality: 51.8
-    developer_ergonomics: 21.4
+    developer_ergonomics: 23.8
     discoverability: 66.7
     operational_transparency: 31.6
   previous_composite: 41.6
@@ -199,12 +203,12 @@ score:
     mcp: first-party
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 18.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

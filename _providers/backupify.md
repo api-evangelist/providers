@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.6
-  scored_at: '2026-10-04'
+  score: 28.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -73,6 +73,21 @@ collections:
   name: Backupify SaaS Protection Domains Seats API
   slug: open-backupify-seats-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/backupify/refs/heads/main/plans/backupify-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/backupify-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/backupify/refs/heads/main/rate-limits/backupify-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/backupify-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/backupify/refs/heads/main/finops/backupify-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/backupify-finops.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -183,9 +198,13 @@ features:
 - description: Restore data to any point in time with granular item-level recovery.
   name: Point-in-Time Recovery
 finops:
-- name: Backupify Finops
+- has_sources: false
+  method: generated
+  name: Backupify Finops
+  primary_unit: ''
   service_category: API
   slug: backupify-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/backupify.png
 integrations:
 - description: Native integration with Exchange Online, OneDrive, SharePoint, and Microsoft Teams.
@@ -256,13 +275,13 @@ modified: '2026-05-19'
 name: Backupify
 nav: Providers
 network: true
-overview: 'Backupify publishes 2 APIs on the [APIs.io](https://apis.io/) network: Domains API and Seats API. Tagged areas include SaaS Backup, Data Protection, Cloud Backup, Microsoft 365, and Google Workspace.
+overview: 'Backupify is listed with 2 APIs on the [APIs.io](https://apis.io/) network: Domains API and Seats API. Tagged areas include SaaS Backup, Data Protection, Cloud Backup, Microsoft 365, and Google Workspace.
 
 
   The Backupify catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Backupify''s developer surface includes authentication, documentation, developer portal, pricing, engineering blog, support, and 10 more developer resources.'
+  Backupify''s developer surface includes authentication, documentation, developer portal, pricing, engineering blog, support, and 13 more developer resources.'
 plans:
 - name: Backupify Plans Pricing
   plan_count: 3
@@ -273,9 +292,10 @@ rate_limits:
   name: Backupify Rate Limits
   slug: backupify-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Backupify API Rules
+  name: Backupify — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -283,7 +303,8 @@ rules:
     info: 2
     warn: 3
   slug: backupify-jsonschema-spectral-rules
-- effective_rule_count: 60
+- authorship: generated
+  effective_rule_count: 60
   extends:
   - spectral:oas
   name: Backupify API Rules
@@ -296,17 +317,17 @@ rules:
   slug: backupify-spectral-rules
 score:
   band: thin
-  composite: 31.3
+  composite: 29.8
   coverage:
     artifact_dirs: 18
-    catalog_earned: 61.0
+    catalog_earned: 58.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 54.0
+    catalog_gap: 57.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 36.8
+    access_clarity: 28.9
     contract_governance: 27.3
     contract_quality: 22.7
     developer_ergonomics: 39.3
@@ -326,8 +347,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

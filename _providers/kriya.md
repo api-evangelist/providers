@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - baseURL: https://api.kriya.co/payments/
@@ -228,7 +228,7 @@ modified: '2026-09-16'
 name: Kriya
 nav: Providers
 network: true
-overview: 'Kriya publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Buyers API, Onboarding API, OnboardingJourney API, and 3 more. Tagged areas include Company, Fintech, Payments, Embedded Finance, and Buy Now Pay Later.
+overview: 'Kriya publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Buyers API, Onboarding API, OnboardingJourney API, and 3 more. Tagged areas include Company, Fintech, Payments, Embedded Finance, and Buy Now Pay Later.
 
 
   The Kriya catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -278,8 +278,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 27.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

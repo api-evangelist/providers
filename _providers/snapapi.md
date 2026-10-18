@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.8
-  scored_at: '2026-10-04'
+  score: 22.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -101,6 +101,21 @@ collections:
   name: SnapAPI
   slug: open-snapapi
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/snapapi/refs/heads/main/plans/snapapi-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/snapapi-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/snapapi/refs/heads/main/rate-limits/snapapi-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/snapapi-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/snapapi/refs/heads/main/finops/snapapi-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/snapapi-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/snapapi/refs/heads/main/capabilities/snapapi-capability-edges.yml
   title: ''
@@ -160,9 +175,13 @@ examples:
   name: Snapapi Text Example
   slug: snapapi-text-example
 finops:
-- name: Snapapi Finops
+- has_sources: false
+  method: generated
+  name: Snapapi Finops
+  primary_unit: ''
   service_category: API
   slug: snapapi-finops
+  template: true
 image: https://snap.michaelcli.com/favicon.ico
 json_schemas:
 - name: SnapAPI Metadata
@@ -193,13 +212,13 @@ modified: '2026-05-27'
 name: SnapAPI
 nav: Providers
 network: true
-overview: 'SnapAPI publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Metadata API, Pdf API, Screenshot API, and 3 more. Tagged areas include Screenshots, Website Screenshots, Metadata Extraction, Text Extraction, and PDF Generation.
+overview: 'SnapAPI publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Metadata API, Pdf API, Screenshot API, and 3 more. Tagged areas include Screenshots, Website Screenshots, Metadata Extraction, Text Extraction, and PDF Generation.
 
 
   The SnapAPI catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  SnapAPI''s developer surface includes authentication, documentation, signup flow, engineering blog, and 5 more developer resources.'
+  SnapAPI''s developer surface includes authentication, documentation, signup flow, engineering blog, and 8 more developer resources.'
 plans:
 - name: Snapapi Plans Pricing
   plan_count: 5
@@ -210,9 +229,10 @@ rate_limits:
   name: Snapapi Rate Limits
   slug: snapapi-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: SnapAPI API Rules
+  name: SnapAPI — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -220,7 +240,8 @@ rules:
     info: 1
     warn: 4
   slug: snapapi-jsonschema-spectral-rules
-- effective_rule_count: 53
+- authorship: unmarked
+  effective_rule_count: 53
   extends:
   - spectral:oas
   name: SnapAPI API Rules
@@ -232,23 +253,23 @@ rules:
     warn: 6
   slug: snapapi-rules
 score:
-  band: developing
-  composite: 39.6
+  band: thin
+  composite: 31.3
   coverage:
     artifact_dirs: 17
-    catalog_earned: 66.1
+    catalog_earned: 47.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 48.9
+    catalog_gap: 67.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 49.5
+    access_clarity: 21.1
     contract_governance: 13.6
     contract_quality: 54.8
     developer_ergonomics: 23.8
     discoverability: 64.3
-    operational_transparency: 28.4
+    operational_transparency: 7.9
   previous_composite: 39.6
   provenance:
     agentic_access: derived
@@ -263,9 +284,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

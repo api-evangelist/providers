@@ -32,10 +32,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://get.simplyinsured.com/blog
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://get.simplyinsured.com/blog/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/simplyinsured/refs/heads/main/security/simplyinsured-domain-security.yml
   title: ''
@@ -69,20 +77,20 @@ created: '2026-07-17'
 description: SimplyInsured is a small-business health insurance brokerage and online enrollment platform. It aggregates medical, dental, and vision plans from major carriers, provides unbiased plan recommendations, and lets small employers compare, quote, and enroll their teams entirely online at no cost to the business. Founded in 2012 and backed by Y Combinator, SimplyInsured is frequently embedded as the health-insurance offering inside partner payroll and HR platforms. As of this enrichment pass the company exposes a consumer-facing web application and a support/help surface but publishes no public developer API, SDKs, OpenAPI, or developer portal.
 image: https://21756504.fs1.hubspotusercontent-na1.net/hubfs/21756504/SI%20-%20Photography%20and%20Graphics/OpenGraph%20Images/SI_OG_img.jpeg
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Simplyinsured
 nav: Providers
 network: true
 overview: 'Simplyinsured is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health Insurance, Insurance, Employee Benefits, and Small Business.
 
 
-  Simplyinsured''s developer surface includes engineering blog, support, and 5 more developer resources.'
+  Simplyinsured''s developer surface includes engineering blog, support, and 7 more developer resources.'
 random_paper: 2
 score:
   band: emerging
   composite: 11.1
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -103,8 +111,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 12.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -96,6 +96,15 @@ collections:
   name: Granular Farm Management Activities Financials API
   slug: open-granular-financials-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/granular/refs/heads/main/finops/granular-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/granular-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://us.app.granular.ag/blog/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/granular/refs/heads/main/capabilities/granular-capability-edges.yml
   title: ''
@@ -175,9 +184,13 @@ coverage:
 created: '2026-04-28'
 description: Granular is a farm management platform now part of Corteva Agriscience, providing APIs for crop planning, field records management, financial analysis, and farm operational tracking. The platform serves commercial agriculture operations with data-driven decision support tools.
 finops:
-- name: Granular Finops
+- has_sources: false
+  method: generated
+  name: Granular Finops
+  primary_unit: ''
   service_category: API
   slug: granular-finops
+  template: true
 json_schemas:
 - name: Granular Farm Field
   property_count: 15
@@ -188,17 +201,17 @@ jsonld:
   property_count: 16
   slug: granular-context
 layout: provider
-modified: '2026-09-12'
+modified: '2026-10-06'
 name: Granular (Corteva Agriscience)
 nav: Providers
 network: true
-overview: 'Granular (Corteva Agriscience) publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Activities API, Crops API, Farms API, and 3 more. Tagged areas include Agriculture, Farm Management, Finance, Crop Planning, and Agronomy.
+overview: 'Granular (Corteva Agriscience) publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Activities API, Crops API, Farms API, and 3 more. Tagged areas include Agriculture, Farm Management, Finance, Crop Planning, and Agronomy.
 
 
   The Granular (Corteva Agriscience) catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Granular (Corteva Agriscience)''s developer surface includes authentication, support, developer portal, and 10 more developer resources.'
+  Granular (Corteva Agriscience)''s developer surface includes engineering blog, authentication, support, developer portal, and 11 more developer resources.'
 plans:
 - name: Granular Plans Pricing
   plan_count: 0
@@ -209,9 +222,10 @@ rate_limits:
   name: Granular Rate Limits
   slug: granular-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Granular (Corteva Agriscience) API Rules
+  name: Granular (Corteva Agriscience) — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -226,20 +240,20 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: thin
-  composite: 31.7
+  composite: 30.6
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 52.3
+    artifact_dirs: 21
+    catalog_earned: 49.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 62.8
+    catalog_gap: 65.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.1
   facets:
-    access_clarity: 7.9
+    access_clarity: 0.0
     contract_governance: 28.0
     contract_quality: 54.4
-    developer_ergonomics: 26.2
+    developer_ergonomics: 28.6
     discoverability: 62.5
     operational_transparency: 0.0
   previous_composite: 31.7
@@ -257,8 +271,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

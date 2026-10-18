@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.8
-  scored_at: '2026-10-04'
+  score: 22.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 2
@@ -171,16 +171,20 @@ common:
 created: '2026-07-03'
 description: Sensibo builds smart air conditioning controllers and indoor air quality monitors (Sensibo Sky, Air, Air Pro, and Elements) that add app, voice, and API control to existing mini-split, window, and portable AC and heat-pump units. The Sensibo REST API (base https://home.sensibo.com/api/v2) gives developers full control over enrolled devices ("pods") - reading temperature, humidity, and air quality measurements, getting and setting the AC state (power, mode, target temperature, fan, swing), configuring the Climate React smart automation, and managing schedules and timers. Authentication is a per-account API key passed as an apiKey query parameter, generated from home.sensibo.com/me/api. OAuth2 is available for commercial integrations.
 finops:
-- name: Sensibo Finops
+- has_sources: true
+  method: generated
+  name: Sensibo Finops
+  primary_unit: ''
   service_category: Smart Home and IoT
   slug: sensibo-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sensibo.png
 layout: provider
 modified: '2026-07-03'
 name: Sensibo
 nav: Providers
 network: true
-overview: 'Sensibo publishes 8 APIs on the [APIs.io](https://apis.io/) network, including AC States API, Climate React API, Devices API, and 5 more. Tagged areas include Smart Home, IoT, Air Conditioning, HVAC, and Air Quality.
+overview: 'Sensibo publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including AC States API, Climate React API, Devices API, and 5 more. Tagged areas include Smart Home, IoT, Air Conditioning, HVAC, and Air Quality.
 
 
   Sensibo''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
@@ -195,22 +199,22 @@ rate_limits:
   slug: sensibo-rate-limits
 score:
   band: thin
-  composite: 35.8
+  composite: 27.5
   coverage:
     artifact_dirs: 11
-    catalog_earned: 61.6
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.4
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 50.8
     developer_ergonomics: 32.1
     discoverability: 66.1
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   previous_composite: 35.8
   provenance:
     agentic_access: derived
@@ -225,9 +229,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

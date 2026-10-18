@@ -28,20 +28,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 2
+- acting_count: 0
   human_in_the_loop: 0
   name: Open Payments Agentic Access
   operation_count: 8
   slug: open-payments-agentic-access
-  summary_line: 8 operations · 2 acting
+  summary_line: 8 operations
 api_count: 1
 apis:
 - baseURL: https://openpaymentsdata.cms.gov/api/1
@@ -138,16 +138,20 @@ common:
 created: '2026-07-11'
 description: CMS Open Payments is the U.S. federal transparency program (run by the Centers for Medicare and Medicaid Services) that publishes payments and transfers of value made by drug and medical device manufacturers and group purchasing organizations to physicians, non-physician practitioners, and teaching hospitals. The public data site at openpaymentsdata.cms.gov exposes a free, open, no-authentication REST API (a DKAN-style data catalog under /api/1) that lets developers query general payments, research payments, and ownership and investment records by program year. The API offers a structured datastore query interface (filter, select, sort, paginate), a SQL query endpoint, CSV and JSON downloads, and a metastore catalog for dataset discovery and metadata. Reads are completely free and require no API key. Program Year 2025 alone contains roughly 17 million published records totaling about 14.67 billion dollars in payments.
 finops:
-- name: Open Payments Finops
+- has_sources: true
+  method: generated
+  name: Open Payments Finops
+  primary_unit: ''
   service_category: Government Open Data
   slug: open-payments-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/open-payments.png
 layout: provider
 modified: '2026-07-11'
 name: CMS Open Payments
 nav: Providers
 network: true
-overview: 'CMS Open Payments publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Datastore Query API, Datastore SQL API, Download API, and 2 more. Tagged areas include Government Data, Healthcare, Open Data, Transparency, and Payments.
+overview: 'CMS Open Payments publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Datastore Query API, Datastore SQL API, Download API, and 2 more. Tagged areas include Government Data, Healthcare, Open Data, Transparency, and Payments.
 
 
   CMS Open Payments'' developer surface includes authentication, documentation, signup flow, and 6 more developer resources.'
@@ -162,22 +166,22 @@ rate_limits:
   slug: open-payments-rate-limits
 score:
   band: thin
-  composite: 35.1
+  composite: 28.1
   coverage:
     artifact_dirs: 10
-    catalog_earned: 58.0
+    catalog_earned: 42.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.0
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.0
   facets:
-    access_clarity: 40.0
+    access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 44.4
     developer_ergonomics: 32.9
     discoverability: 66.1
-    operational_transparency: 28.4
+    operational_transparency: 7.9
   previous_composite: 35.1
   provenance:
     agentic_access: derived
@@ -192,9 +196,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

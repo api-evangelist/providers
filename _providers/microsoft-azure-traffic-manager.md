@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: documented
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-04'
+  score: 21.0
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -120,6 +120,16 @@ collections:
   name: Azure Traffic Manager REST API
   slug: open-microsoft-azure-traffic-manager
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-traffic-manager/refs/heads/main/rate-limits/microsoft-azure-traffic-manager-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/microsoft-azure-traffic-manager-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-traffic-manager/refs/heads/main/finops/microsoft-azure-traffic-manager-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/microsoft-azure-traffic-manager-finops.yml
 - group: commercial
   href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-traffic-manager/refs/heads/main/plans/microsoft-azure-traffic-manager-plans-pricing.yml
   title: ''
@@ -269,9 +279,13 @@ common:
 created: '2026-03-13'
 description: Azure Traffic Manager is a DNS-based traffic load balancer that enables you to distribute traffic optimally to services across global Azure regions, while providing high availability and responsiveness. It supports configurable routing methods including priority, weighted, performance, geographic, multivalue, and subnet routing.
 finops:
-- name: Microsoft Azure Traffic Manager Finops
+- has_sources: false
+  method: generated
+  name: Microsoft Azure Traffic Manager Finops
+  primary_unit: ''
   service_category: API
   slug: microsoft-azure-traffic-manager-finops
+  template: true
 image: https://azure.microsoft.com/svghandler/traffic-manager/
 layout: provider
 mcp_servers:
@@ -282,10 +296,10 @@ modified: '2026-05-19'
 name: Azure Traffic Manager
 nav: Providers
 network: true
-overview: 'Azure Traffic Manager publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Endpoints API, GeographicHierarchies API, HeatMap API, and 6 more. Tagged areas include DNS Load Balancing, Failover, Global Routing, Networking, and Traffic Distribution.
+overview: 'Azure Traffic Manager publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Endpoints API, GeographicHierarchies API, HeatMap API, and 6 more. Tagged areas include DNS Load Balancing, Failover, Global Routing, Networking, and Traffic Distribution.
 
 
-  Azure Traffic Manager''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, engineering blog, support, and 28 more developer resources.'
+  Azure Traffic Manager''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, engineering blog, support, and 30 more developer resources.'
 plans:
 - name: Microsoft Azure Traffic Manager Plans Pricing
   plan_count: 7
@@ -302,17 +316,17 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: strong
-  composite: 56.5
+  composite: 55.0
   coverage:
     artifact_dirs: 14
-    catalog_earned: 55.0
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 60.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 84.2
+    access_clarity: 76.3
     contract_governance: 0.0
     contract_quality: 43.2
     developer_ergonomics: 63.1
@@ -332,8 +346,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

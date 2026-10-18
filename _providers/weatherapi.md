@@ -29,21 +29,21 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.8
-  scored_at: '2026-10-04'
+  score: 22.9
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 1
+- acting_count: 0
   human_in_the_loop: 0
   name: Weatherapi Agentic Access
   operation_count: 12
   slug: weatherapi-agentic-access
-  summary_line: 12 operations · 1 acting
-api_count: 1
+  summary_line: 12 operations
+api_count: 2
 apis:
 - baseURL: https://api.weatherapi.com/v1
   baseurl_source: declared
@@ -427,9 +427,13 @@ features:
 - description: Drop-in Model Context Protocol server for Claude Desktop, Cursor, and other agents.
   name: Official MCP Server
 finops:
-- name: Weatherapi Finops
+- has_sources: true
+  method: generated
+  name: Weatherapi Finops
+  primary_unit: ''
   service_category: Weather Data & Geolocation
   slug: weatherapi-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/weatherapi.png
 integrations:
 - description: Drop-in MCP server (weatherapi-mcp) registered in claude_desktop_config.json.
@@ -614,7 +618,7 @@ modified: '2026-05-28'
 name: WeatherAPI
 nav: Providers
 network: true
-overview: 'WeatherAPI publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Alerts API, Future API, Geo API, and 4 more. Tagged areas include Weather, Forecast, History, Marine, and Astronomy.
+overview: 'WeatherAPI publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Alerts API, Future API, Geo API, and 4 more. Tagged areas include Weather, Forecast, History, Marine, and Astronomy.
 
 
   The WeatherAPI catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -631,9 +635,10 @@ rate_limits:
   name: Weatherapi Rate Limits
   slug: weatherapi-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: WeatherAPI API Rules
+  name: WeatherAPI — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -641,7 +646,8 @@ rules:
     info: 1
     warn: 4
   slug: weatherapi-jsonschema-spectral-rules
-- effective_rule_count: 78
+- authorship: unmarked
+  effective_rule_count: 78
   extends:
   - spectral:oas
   name: WeatherAPI API Rules
@@ -653,23 +659,23 @@ rules:
     warn: 21
   slug: weatherapi-rules
 score:
-  band: developing
-  composite: 45.9
+  band: thin
+  composite: 37.6
   coverage:
     artifact_dirs: 19
-    catalog_earned: 81.6
+    catalog_earned: 63.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 33.4
+    catalog_gap: 52.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 49.5
+    access_clarity: 21.1
     contract_governance: 27.3
     contract_quality: 63.6
     developer_ergonomics: 29.8
     discoverability: 73.2
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   previous_composite: 45.9
   provenance:
     agentic_access: derived
@@ -684,9 +690,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

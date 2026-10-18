@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 47.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Strongly-typed GraphQL API to query and mutate the Rad TV platform — catalog (features, series, seasons, episodes, streams, miniseries), content management, uploads (TUS resumable), transcoding with A
@@ -41,6 +41,10 @@ apis:
   slug: rad-tv-graphql-api
 artifact_total: 5
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://rad.live/blog/
 - group: company
   title: ''
   type: Website
@@ -109,14 +113,14 @@ mcp_servers:
 - description: Remote MCP server at api.rad.live over HTTP; 34 tools listed.
   name: Rad. MCP Server
   slug: rad-tv
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Rad.
 nav: Providers
 network: true
-overview: 'Rad. publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Video, Streaming, Creator Economy, and Artificial Intelligence.
+overview: 'Rad. is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Video, Streaming, Creator Economy, and Artificial Intelligence.
 
 
-  Rad.''s developer surface includes documentation, API reference, getting-started guide, quickstart, signup flow, pricing, and 8 more developer resources.'
+  Rad.''s developer surface includes engineering blog, documentation, API reference, getting-started guide, quickstart, signup flow, pricing, and 8 more developer resources.'
 random_paper: 3
 scopes:
 - name: Rad Scopes
@@ -125,20 +129,20 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: thin
-  composite: 37.5
+  composite: 38.1
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 35.1
-    developer_ergonomics: 51.8
+    developer_ergonomics: 54.2
     discoverability: 75.0
     operational_transparency: 0.0
   previous_composite: 37.5
@@ -152,8 +156,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 28.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

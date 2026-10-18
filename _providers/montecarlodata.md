@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 15.5
-  scored_at: '2026-10-04'
+  score: 13.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: GraphQL API powering the full Monte Carlo platform, enabling programmatic access to data monitors, incidents, field health, lineage, table and warehouse asset management, and the Push Ingest API for c
@@ -101,9 +101,13 @@ common:
 created: '2026-06-13'
 description: Monte Carlo is a data and AI observability platform that helps enterprise organizations find and fix bad data fast. The platform exposes a GraphQL API that powers all the same capabilities as the Monte Carlo web application, enabling programmatic management of data monitors, incidents, field health, and lineage across data warehouses, lakes, ETL, and BI. Developers can automate custom monitoring configurations, augment lineage with external resources, manage bulk operations, and push metadata from sources unreachable via standard collection through the Push Ingest API. Additional developer tools include a Python SDK (Pycarlo), a CLI for onboarding and integration operations, webhooks for routing incident data to custom platforms, and an Airflow provider for pipeline quality gates.
 finops:
-- name: Montecarlodata Finops
+- has_sources: false
+  method: generated
+  name: Montecarlodata Finops
+  primary_unit: ''
   service_category: ''
   slug: montecarlodata-finops
+  template: true
 graphqls:
 - description: Monte Carlo Data exposes a comprehensive GraphQL API that powers the full Monte Carlo data observability platform. The API provides programmatic access to all platform capabilities — including data mo
   name: Monte Carlo Data GraphQL API
@@ -119,7 +123,7 @@ modified: '2026-06-13'
 name: Monte Carlo
 nav: Providers
 network: true
-overview: 'Monte Carlo publishes 1 API on the [APIs.io](https://apis.io/) network: GraphQL API. Tagged areas include Data Observability, Data Quality, Data Monitoring, Data Lineage, and GraphQL.
+overview: 'Monte Carlo is listed with 1 API on the [APIs.io](https://apis.io/) network: GraphQL API. Tagged areas include Data Observability, Data Quality, Data Monitoring, Data Lineage, and GraphQL.
 
 
   The Monte Carlo catalog on APIs.io includes 1 JSON-LD context.
@@ -136,23 +140,23 @@ rate_limits:
   name: Montecarlodata Rate Limits
   slug: montecarlodata-rate-limits
 score:
-  band: developing
-  composite: 39.5
+  band: thin
+  composite: 31.2
   coverage:
     artifact_dirs: 9
-    catalog_earned: 72.6
+    catalog_earned: 54.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 42.4
+    catalog_gap: 61.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 54.7
+    access_clarity: 26.3
     contract_governance: 0.0
     contract_quality: 46.8
     developer_ergonomics: 19.0
     discoverability: 66.1
-    operational_transparency: 49.5
+    operational_transparency: 28.9
   previous_composite: 39.5
   regulatory:
     applies: true
@@ -160,9 +164,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

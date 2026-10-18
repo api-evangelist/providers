@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: Peek Pro's implementation of the OCTO API specification, the open API standard for the experiences industry. Resellers list a supplier's products, check the availability calendar and per-departure ava
@@ -212,7 +212,7 @@ modified: '2026-08-26'
 name: Peek
 nav: Providers
 network: true
-overview: 'Peek publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Travel, Tourism, Booking, and Reservations.
+overview: 'Peek is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Travel, Tourism, Booking, and Reservations.
 
 
   The Peek catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -232,7 +232,7 @@ score:
   band: developing
   composite: 48.0
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -263,8 +263,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 27.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

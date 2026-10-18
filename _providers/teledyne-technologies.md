@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.0
-  scored_at: '2026-10-04'
+  score: 17.8
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -85,6 +85,25 @@ collections:
   name: Teledyne FLIR Camera REST Alarms Measurements API
   slug: open-teledyne-technologies-measurements-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/teledyne-technologies/refs/heads/main/plans/teledyne-technologies-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/teledyne-technologies-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/teledyne-technologies/refs/heads/main/rate-limits/teledyne-technologies-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/teledyne-technologies-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/teledyne-technologies/refs/heads/main/finops/teledyne-technologies-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/teledyne-technologies-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.teledyne.com/news/
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/teledyne-technologies/refs/heads/main/agentic-access/teledyne-technologies-agentic-access.yml
   title: ''
@@ -140,9 +159,13 @@ examples:
   name: Teledyne Get Spot Measurement Example
   slug: teledyne-get-spot-measurement-example
 finops:
-- name: Teledyne Technologies Finops
+- has_sources: true
+  method: generated
+  name: Teledyne Technologies Finops
+  primary_unit: ''
   service_category: Instrumentation / Defense Electronics
   slug: teledyne-technologies-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/teledyne-technologies.png
 json_schemas:
 - name: Teledyne FLIR Camera Alarm
@@ -161,17 +184,17 @@ jsonld:
   property_count: 0
   slug: teledyne-technologies-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-10-06'
 name: Teledyne Technologies
 nav: Providers
 network: true
-overview: 'Teledyne Technologies publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Alarms API, Images API, Measurements API, and 3 more. Tagged areas include Aerospace, Defense, Digital Imaging, Instrumentation, and Thermal Imaging.
+overview: 'Teledyne Technologies publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Alarms API, Images API, Measurements API, and 3 more. Tagged areas include Aerospace, Defense, Digital Imaging, Instrumentation, and Thermal Imaging.
 
 
   The Teledyne Technologies catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Teledyne Technologies'' developer surface includes GitHub presence and 9 more developer resources.'
+  Teledyne Technologies'' developer surface includes engineering blog, GitHub presence, and 12 more developer resources.'
 plans:
 - name: Teledyne Technologies Plans Pricing
   plan_count: 1
@@ -198,9 +221,10 @@ rate_limits:
   name: Teledyne Technologies Rate Limits
   slug: teledyne-technologies-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Teledyne Technologies API Rules
+  name: Teledyne Technologies — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -208,7 +232,8 @@ rules:
     info: 1
     warn: 4
   slug: teledyne-technologies-jsonschema-spectral-rules
-- effective_rule_count: 51
+- authorship: unmarked
+  effective_rule_count: 51
   extends:
   - spectral:oas
   name: Teledyne Technologies API Rules
@@ -221,20 +246,20 @@ rules:
   slug: teledyne-technologies-rules
 score:
   band: thin
-  composite: 27.3
+  composite: 28.9
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 60.5
+    artifact_dirs: 18
+    catalog_earned: 62.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 39.5
-    catalog_max: 100.0
+    catalog_gap: 52.5
+    catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.6
   facets:
-    access_clarity: 0.0
+    access_clarity: 5.3
     contract_governance: 13.6
     contract_quality: 52.8
-    developer_ergonomics: 26.2
+    developer_ergonomics: 28.6
     discoverability: 66.1
     operational_transparency: 10.5
   jurisdiction:
@@ -258,8 +283,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

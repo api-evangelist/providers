@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -131,6 +131,10 @@ collections:
   name: Spaceship.com Async Operations SellerHub API
   slug: open-spaceship-sellerhub-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.spaceship.com/blog/
 - group: company
   title: ''
   type: Website
@@ -238,14 +242,14 @@ created: '2026-07-17'
 description: Spaceship is a domain registrar and domain marketplace offering domain registration, DNS management, WHOIS privacy protection, and a SellerHub resale marketplace with SafePay escrow. Its public REST API (https://spaceship.dev/api, v1) exposes 40 operations across domain management, availability, settings, transfers, personal nameservers, contacts, DNS records, SellerHub, and asynchronous operations. Authentication uses a paired API key and secret (X-API-Key / X-API-Secret) with per-key scopes; long-running actions use an async-operation polling model (202 + a spaceship-async-operationid header polled at /v1/async-operations/{operationId}).
 image: https://spaceship-cdn.com/spaceship-api-doc-assets/logo.svg
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Spaceship
 nav: Providers
 network: true
-overview: 'Spaceship publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Async Operations API, Contacts API, Contacts attributes API, and 7 more. Tagged areas include Company, Domains, Domain Registrar, DNS, and Domain Marketplace.
+overview: 'Spaceship publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Async Operations API, Contacts API, Contacts attributes API, and 7 more. Tagged areas include Company, Domains, Domain Registrar, DNS, and Domain Marketplace.
 
 
-  Spaceship''s developer surface includes documentation, API reference, getting-started guide, support, authentication, and 17 more developer resources.'
+  Spaceship''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, authentication, and 17 more developer resources.'
 random_paper: 14
 scopes:
 - name: Spaceship Scopes
@@ -254,20 +258,20 @@ scopes:
   summary_line: 11 scopes
 score:
   band: thin
-  composite: 33.7
+  composite: 34.2
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 23
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 0.0
     contract_governance: 4.5
     contract_quality: 54.9
-    developer_ergonomics: 56.5
+    developer_ergonomics: 58.9
     discoverability: 73.2
     operational_transparency: 2.6
   previous_composite: 33.7
@@ -287,8 +291,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 26.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

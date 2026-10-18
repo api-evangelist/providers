@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.8
-  scored_at: '2026-10-04'
+  score: 23.6
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -100,6 +100,21 @@ collections:
   name: Country.io Data Capitals Phone API
   slug: open-country-io-phone-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/country-io/refs/heads/main/plans/country-io-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/country-io-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/country-io/refs/heads/main/rate-limits/country-io-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/country-io-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/country-io/refs/heads/main/finops/country-io-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/country-io-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/country-io/refs/heads/main/agentic-access/country-io-agentic-access.yml
   title: ''
@@ -138,16 +153,20 @@ common:
 created: '2025-02-21'
 description: 'Country.io is a small open data project that publishes a set of static JSON files mapping ISO 3166-1 alpha-2 country codes to common reference data: country names, capital cities, ISO 3166-1 alpha-3 codes, continent codes, international telephone dialing prefixes, and ISO 4217 currency codes. The files are commonly consumed as a lightweight country-data dataset for forms, country pickers, and analytics enrichment.'
 finops:
-- name: Country Io Finops
+- has_sources: false
+  method: generated
+  name: Country Io Finops
+  primary_unit: ''
   service_category: API
   slug: country-io-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/country-io.png
 layout: provider
 modified: '2026-05-19'
 name: Country.io
 nav: Providers
 network: true
-overview: 'Country.io publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Capitals API, Continents API, Currency API, and 3 more. Tagged areas include Capital, Continents, Countries, Currency, and Currency Codes.
+overview: 'Country.io publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Capitals API, Continents API, Currency API, and 3 more. Tagged areas include Capital, Continents, Countries, Currency, and Currency Codes.
 
 
   The Country.io catalog on APIs.io includes 1 Spectral governance ruleset.'
@@ -161,10 +180,11 @@ rate_limits:
   name: Country Io Rate Limits
   slug: country-io-rate-limits
 rules:
-- effective_rule_count: 48
+- authorship: unmarked
+  effective_rule_count: 48
   extends:
   - spectral:oas
-  name: Country.io API Rules
+  name: Country.io — data rules
   rule_count: 7
   severity_counts:
     error: 6
@@ -174,18 +194,18 @@ rules:
   slug: country-io-data-rules
 score:
   band: emerging
-  composite: 25.7
+  composite: 23.7
   coverage:
     artifact_dirs: 11
-    catalog_earned: 53.0
+    catalog_earned: 46.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 47.0
-    catalog_max: 100.0
+    catalog_gap: 68.8
+    catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.0
   facets:
-    access_clarity: 0.0
-    contract_governance: 54.5
+    access_clarity: 7.9
+    contract_governance: 25.0
     contract_quality: 43.5
     developer_ergonomics: 9.5
     discoverability: 57.1
@@ -204,8 +224,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

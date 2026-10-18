@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: REST APIs for querying and collecting data from an Unravel instance — application details, recommendations and logs, apps search, cluster operations and resource metrics, chargeback reports, queue ana
@@ -130,7 +130,7 @@ modified: '2026-07-21'
 name: Unravel
 nav: Providers
 network: true
-overview: 'Unravel publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Data Observability, FinOps, DataOps, Cost Optimization, and Databricks.
+overview: 'Unravel is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Data Observability, FinOps, DataOps, Cost Optimization, and Databricks.
 
 
   Unravel''s developer surface includes documentation, getting-started guide, engineering blog, support, pricing, authentication, changelog, and 11 more developer resources.'
@@ -160,8 +160,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

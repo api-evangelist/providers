@@ -17,7 +17,7 @@ description: Initialized Capital is a seed-stage venture capital firm founded in
   Rippling, and Patreon, with portfolio companies creating an aggregate of over $200B in market value.
 image: https://initialized.com/favicon.ico
 layout: provider
-modified: '2026-07-17'
+modified: '2026-10-06'
 name: Initialized Capital
 nav: Providers
 network: true
@@ -30,7 +30,7 @@ tags:
 - Consumer
 - Marketplace
 - Fintech
-- Crypto
+- Cryptocurrency
 - Healthcare
 - Climate
 - Artificial Intelligence

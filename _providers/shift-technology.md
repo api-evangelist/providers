@@ -32,10 +32,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.shift-technology.com/resources/news
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.shift-technology.com/resources/news/rss.xml
 - group: company
   title: ''
   type: Website
@@ -78,20 +86,20 @@ created: '2026-07-17'
 description: Shift Technology is an insurance-focused artificial intelligence company that builds purpose-built AI agents automating critical insurance workflows, including claims processing and automation, fraud and financial-crime detection, coverage assessment, subrogation, and payment integrity. Founded in Paris and now operating globally, Shift serves 120+ insurance customers across more than 30 countries and has analyzed billions of policies, claims, and supporting documents. Shift deploys as cloud SaaS and integrates with insurer core systems through its technology, data, and service partner programs. The company does not publish a public developer API, OpenAPI specification, or self-service developer portal; integrations are delivered as enterprise engagements. This profile was surfaced as a venture-portfolio lead and enriched by the API Evangelist pipeline; the artifacts here capture the company's public security, compliance, and domain posture rather than a public API.
 image: https://www.shift-technology.com/favicon.ico
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Shift Technology
 nav: Providers
 network: true
 overview: 'Shift Technology is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Big Data, Insurance, Insurtech, and Fraud Prevention.
 
 
-  Shift Technology''s developer surface includes support, engineering blog, and 7 more developer resources.'
+  Shift Technology''s developer surface includes engineering blog, support, and 9 more developer resources.'
 random_paper: 21
 score:
   band: emerging
   composite: 15.6
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 6
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -120,8 +128,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 19.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

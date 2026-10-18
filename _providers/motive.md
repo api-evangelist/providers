@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 15.5
-  scored_at: '2026-10-04'
+  score: 13.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Core REST API providing access to driver management, vehicle tracking, Hours of Service logs, IFTA trip reports, inspection reports, dashcam events, dispatch workflows, geofencing, messaging, fuel pur
@@ -123,9 +123,13 @@ common:
 created: 2026-06-12
 description: Motive (formerly KeepTruckin) is a fleet management platform serving more than 120,000 businesses across trucking, logistics, construction, agriculture, and field service industries. The Motive REST API provides programmatic access to driver management, vehicle tracking, Hours of Service (HOS) compliance, IFTA reporting, dashcam events, dispatch workflows, geofencing, and real-time location data. Developers authenticate via OAuth 2.0 with scoped access tokens and can reach endpoints at api.gomotive.com (or the legacy api.keeptruckin.com base URL). The self-serve Developer Portal allows partners to build and publish apps to the Motive App Marketplace, and Postman collections are available alongside interactive API reference documentation.
 finops:
-- name: Motive Finops
+- has_sources: false
+  method: generated
+  name: Motive Finops
+  primary_unit: ''
   service_category: ''
   slug: motive-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/motive.png
 jsonld:
 - class_count: 30
@@ -137,7 +141,7 @@ modified: 2026-06-12
 name: Motive
 nav: Providers
 network: true
-overview: 'Motive publishes 1 API on the [APIs.io](https://apis.io/) network: Fleet API. Tagged areas include Fleet Management, Trucking, Logistics, GPS Tracking, and Hours of Service.
+overview: 'Motive is listed with 1 API on the [APIs.io](https://apis.io/) network: Fleet API. Tagged areas include Fleet Management, Trucking, Logistics, GPS Tracking, and Hours of Service.
 
 
   The Motive catalog on APIs.io includes 1 JSON-LD context.
@@ -154,18 +158,18 @@ rate_limits:
   name: Motive Rate Limits
   slug: motive-rate-limits
 score:
-  band: thin
-  composite: 31.4
+  band: emerging
+  composite: 25.8
   coverage:
-    artifact_dirs: 8
-    catalog_earned: 58.8
+    artifact_dirs: 9
+    catalog_earned: 48.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 56.2
+    catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.6
   facets:
-    access_clarity: 54.7
+    access_clarity: 26.3
     contract_governance: 0.0
     contract_quality: 34.7
     developer_ergonomics: 10.7
@@ -178,9 +182,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

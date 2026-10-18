@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 56
+- acting_count: 54
   human_in_the_loop: 16
   name: Cosmo Tech Agentic Access
   operation_count: 101
   slug: cosmo-tech-agentic-access
-  summary_line: 101 operations · 56 acting · 16 human-in-the-loop
+  summary_line: 101 operations · 54 acting · 16 human-in-the-loop
 api_count: 7
 apis:
 - baseURL: https://dev.api.cosmotech.com
@@ -105,6 +105,10 @@ collections:
   name: Cosmo Tech Manager dataset workspace API
   slug: open-cosmo-tech-workspace-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://cosmotech.com/articles/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/cosmo-tech/refs/heads/main/overlays/cosmo-tech-dataset-overlay.yaml
   title: ''
@@ -234,14 +238,14 @@ created: '2026-07-17'
 description: Cosmo Tech is a predictive and prescriptive AI-simulation (digital twin) platform for industry, based in Lyon, France and backed by Insight Partners. Its open-source Cosmo Tech Cloud Platform API (Kotlin, MIT) lets teams model organizations, workspaces, solutions, datasets, runners and runs, then configure and execute large-scale what-if simulations across supply chains, asset investment planning and enterprise operations. The API is modular across seven service specs (organization, workspace, solution, dataset, runner, run, meta), authenticates via OAuth2 / OpenID Connect (Keycloak), and ships auto-generated TypeScript and Python clients plus the Babylon CLI.
 image: https://avatars.githubusercontent.com/u/9283409?v=4
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Cosmo Tech
 nav: Providers
 network: true
-overview: 'Cosmo Tech publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Dataset API, Meta API, Organization API, and 4 more. Tagged areas include Company, Simulation, Digital Twin, Artificial Intelligence, and Supply Chain.
+overview: 'Cosmo Tech publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Dataset API, Meta API, Organization API, and 4 more. Tagged areas include Company, Simulation, Digital Twin, Artificial Intelligence, and Supply Chain.
 
 
-  Cosmo Tech''s developer surface includes documentation, API reference, support, CLI, authentication, changelog, and 21 more developer resources.'
+  Cosmo Tech''s developer surface includes engineering blog, documentation, API reference, support, CLI, authentication, changelog, and 21 more developer resources.'
 random_paper: 20
 scopes:
 - name: Cosmo Tech Scopes
@@ -250,20 +254,20 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 42.6
+  composite: 43.1
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 22
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 44.1
-    developer_ergonomics: 55.4
+    developer_ergonomics: 57.7
     discoverability: 78.6
     operational_transparency: 18.4
   jurisdiction:
@@ -291,8 +295,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 31.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

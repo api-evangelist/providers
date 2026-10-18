@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -100,7 +100,7 @@ apis:
   description: The Webhooks API from BitGo — 1 operation(s) for webhooks.
   name: BitGo Webhooks API
   slug: bitgo-webhooks-api
-artifact_total: 31
+artifact_total: 32
 collections:
 - collection_type: open
   name: API Collection
@@ -202,22 +202,33 @@ common:
   title: ''
   type: Blog
   url: https://www.bitgo.com/resources/blog/
+- group: design
+  title: ''
+  type: SpectralRules
+  url: https://github.com/BitGo/BitGoJS/blob/25f9537315a45269f8d82d21d2fc6208f19c3fd7/modules/express/ruleset.yaml
 created: '2026-07-01'
 description: BitGo is an institutional digital-asset custody, wallet, staking, trading, and settlement infrastructure provider and qualified custodian. The BitGo Platform REST API v2 lets developers programmatically create and manage multi-signature and advanced-cryptography wallets, addresses, keychains, transactions and transfers, webhooks, spending policies, staking, and Go Network off-chain settlement across hundreds of coins and tokens, with an optional self-hosted Express signing proxy.
 finops:
-- name: Bitgo Finops
+- has_sources: true
+  method: generated
+  name: Bitgo Finops
+  primary_unit: ''
   service_category: Digital Asset Custody and Infrastructure
   slug: bitgo-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bitgo.png
 layout: provider
 modified: '2026-07-01'
 name: BitGo
 nav: Providers
 network: true
-overview: 'BitGo publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Addresses API, Enterprise API, Keychains API, and 8 more. Tagged areas include Digital Assets, Custody, Wallets, Blockchain, and Crypto.
+overview: 'BitGo publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Addresses API, Enterprise API, Keychains API, and 8 more. Tagged areas include Digital Assets, Custody, Wallets, Blockchain, and Cryptocurrency.
 
 
-  BitGo''s developer surface includes authentication, documentation, engineering blog, and 10 more developer resources.'
+  The BitGo catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
+  BitGo''s developer surface includes authentication, documentation, engineering blog, and 11 more developer resources.'
 plans:
 - name: Bitgo Plans Pricing
   plan_count: 4
@@ -227,24 +238,36 @@ rate_limits:
 - limit_count: 2
   name: Bitgo Rate Limits
   slug: bitgo-rate-limits
+rules:
+- authorship: provider
+  effective_rule_count: 22
+  extends: []
+  name: BitGo — bitgojs rules
+  rule_count: 22
+  severity_counts:
+    error: 22
+    hint: 0
+    info: 0
+    warn: 0
+  slug: bitgo-bitgojs-spectral-rules
 score:
   band: thin
-  composite: 33.3
+  composite: 31.4
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 58.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 57.0
+    artifact_dirs: 14
+    catalog_earned: 57.0
+    catalog_earned_first_party: 15.0
+    catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.9
   facets:
-    access_clarity: 36.3
-    contract_governance: 0.0
+    access_clarity: 7.9
+    contract_governance: 45.5
     contract_quality: 45.9
     developer_ergonomics: 32.1
     discoverability: 66.1
-    operational_transparency: 21.6
+    operational_transparency: 7.9
   previous_composite: 33.3
   provenance:
     agentic_access: derived
@@ -259,8 +282,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 16.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -285,7 +308,7 @@ tags:
 - Custody
 - Wallets
 - Blockchain
-- Crypto
+- Cryptocurrency
 - Staking
 - Settlement
 website: https://www.bitgo.com/

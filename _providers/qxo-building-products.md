@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 6
 apis:
 - description: Enables customers to place material orders and track order status and deliveries within their own systems.
@@ -56,6 +56,21 @@ apis:
   slug: invoice-api
 artifact_total: 10
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/qxo-building-products/refs/heads/main/plans/qxo-building-products-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/qxo-building-products-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/qxo-building-products/refs/heads/main/rate-limits/qxo-building-products-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/qxo-building-products-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/qxo-building-products/refs/heads/main/finops/qxo-building-products-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/qxo-building-products-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/qxo-building-products/refs/heads/main/security/qxo-building-products-domain-security.yml
   title: ''
@@ -80,19 +95,23 @@ common:
 created: '2026-03-21'
 description: QXO is a publicly traded company focused on building a tech-forward leader in the building products distribution industry through acquisitions and operational improvements. QXO offers a suite of customer-facing APIs for ordering, pricing, account management, product catalog, delivery tracking, and invoicing.
 finops:
-- name: Qxo Building Products Finops
+- has_sources: false
+  method: generated
+  name: Qxo Building Products Finops
+  primary_unit: ''
   service_category: API
   slug: qxo-building-products-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/qxo-building-products.png
 layout: provider
 modified: '2026-04-28'
 name: QXO Building Products
 nav: Providers
 network: true
-overview: 'QXO Building Products publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Building Products, Distribution, B2B, Construction, and Fortune 500.
+overview: 'QXO Building Products is listed with 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Building Products, Distribution, B2B, Construction, and Fortune 500.
 
 
-  QXO Building Products'' developer surface includes signup flow and 4 more developer resources.'
+  QXO Building Products'' developer surface includes signup flow and 7 more developer resources.'
 plans:
 - name: Qxo Building Products Plans Pricing
   plan_count: 3
@@ -104,17 +123,17 @@ rate_limits:
   slug: qxo-building-products-rate-limits
 score:
   band: emerging
-  composite: 13.5
+  composite: 12.0
   coverage:
-    artifact_dirs: 6
-    catalog_earned: 44.0
+    artifact_dirs: 7
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 71.0
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 28.9
+    access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 9.5
@@ -127,8 +146,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

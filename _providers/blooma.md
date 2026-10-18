@@ -23,10 +23,19 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
-artifact_total: 1
+artifact_total: 2
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/blooma/refs/heads/main/plans/blooma-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/blooma-plans-pricing.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.blooma.ai/blog/rss.xml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/blooma/refs/heads/main/hosts/blooma-hosts.yml
   title: ''
@@ -85,32 +94,38 @@ coverage:
 created: '2026-09-29'
 description: Blooma is an AI‑powered commercial real‑estate (CRE) lending platform that provides data‑driven origination, portfolio intelligence, and workflow automation solutions for lenders. The company helps lenders make faster, data‑driven decisions, monitor portfolios with real‑time alerts, and integrate data sources to streamline CRE lending operations.
 layout: provider
-modified: '2026-09-29'
+modified: '2026-10-06'
 name: Blooma
 nav: Providers
 network: true
 overview: 'Blooma is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Commercial Real Estate, Lending, and Data Automation.
 
 
-  Blooma''s developer surface includes support, pricing, engineering blog, getting-started guide, documentation, and 6 more developer resources.'
+  Blooma''s developer surface includes support, pricing, engineering blog, getting-started guide, documentation, and 8 more developer resources.'
+plans:
+- name: Blooma Plans Pricing
+  plan_count: 2
+  slug: blooma-plans-pricing
 random_paper: 18
 score:
   band: emerging
-  composite: 16.1
+  composite: 20.3
   coverage:
-    artifact_dirs: 7
-    catalog_earned: 25.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 90.0
+    artifact_dirs: 9
+    catalog_earned: 33.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 82.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 4.2
   facets:
-    access_clarity: 31.6
+    access_clarity: 52.6
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 28.6
     discoverability: 44.6
     operational_transparency: 0.0
+  previous_composite: 16.1
   provenance:
     mcp: unknown
   regulatory:
@@ -119,12 +134,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 12.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/blooma/refs/heads/main/screenshots/blooma-2026-10-11T102439.png
 security:
 - kind: domain-security
   name: Blooma Domain Security

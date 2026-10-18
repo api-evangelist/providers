@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'The Discovery API allows you to surface both WorldCat and WorldCat Discovery central index data in search results, including: Materials held by your library and ...'
@@ -41,6 +41,21 @@ apis:
   slug: oclc
 artifact_total: 5
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/oclc/refs/heads/main/plans/oclc-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/oclc-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/oclc/refs/heads/main/rate-limits/oclc-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/oclc-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/oclc/refs/heads/main/finops/oclc-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/oclc-finops.yml
 - group: company
   title: ''
   type: Website
@@ -61,19 +76,23 @@ common:
 created: '2025-01-08'
 description: 'The Discovery API allows you to surface both WorldCat and WorldCat Discovery central index data in search results, including: Materials held by your library and ...'
 finops:
-- name: Oclc Finops
+- has_sources: false
+  method: generated
+  name: Oclc Finops
+  primary_unit: ''
   service_category: API
   slug: oclc-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/oclc.png
 layout: provider
 modified: '2026-09-16'
 name: OCLC
 nav: Providers
 network: true
-overview: 'OCLC publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Library, WorldCat, Discovery, and Bibliographic.
+overview: 'OCLC is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Library, WorldCat, Discovery, and Bibliographic.
 
 
-  OCLC''s developer surface includes engineering blog and 3 more developer resources.'
+  OCLC''s developer surface includes engineering blog and 6 more developer resources.'
 plans:
 - name: Oclc Plans Pricing
   plan_count: 3
@@ -85,17 +104,17 @@ rate_limits:
   slug: oclc-rate-limits
 score:
   band: minimal
-  composite: 8.6
+  composite: 7.0
   coverage:
-    artifact_dirs: 7
-    catalog_earned: 31.0
+    artifact_dirs: 8
+    catalog_earned: 28.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 84.0
+    catalog_gap: 87.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
@@ -108,8 +127,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

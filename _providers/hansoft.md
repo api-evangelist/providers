@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: GraphQL API service for P4 Plan (Hansoft) exposing 60+ queries, 100+ mutations, and 50+ subscriptions across projects, items (tasks, bugs, backlog), users and groups, sprints, timesheets, reports, das
@@ -51,6 +51,10 @@ asyncapis:
   name: Hansoft Webhooks
   slug: hansoft-webhooks
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.perforce.com/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/hansoft/refs/heads/main/security/hansoft-domain-security.yml
   title: ''
@@ -176,21 +180,21 @@ created: '2026-07-17'
 description: Hansoft, now branded P4 Plan by Perforce, is a real-time agile project planning and portfolio management tool for software, game, and hardware teams. It lets multiple teams work in their preferred methodology simultaneously (Scrum, Kanban, and Gantt) within a single backlog, with field-level permissions, capacity and resource planning, sprint and burndown reporting, and tight integration with Perforce version control (P4 changelists). For developers it exposes a GraphQL API service (queries, mutations, and subscriptions), a native SDK with C, C++, Java, and .NET wrappers, a WebSocket Web API, and outbound webhooks for integrations such as Jira. Hansoft is deployed on-premises for security-conscious organizations, so its API and SDK run against a customer-hosted P4 Plan server.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hansoft.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Hansoft
 nav: Providers
 network: true
-overview: 'Hansoft publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Project Management, Agile, Planning, and Software Development.
+overview: 'Hansoft is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Project Management, Agile, Planning, and Software Development.
 
 
   The Hansoft catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Hansoft''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 20 more developer resources.'
+  Hansoft''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 21 more developer resources.'
 random_paper: 7
 score:
   band: developing
-  composite: 47.7
+  composite: 47.8
   coverage:
     artifact_dirs: 15
     catalog_earned: 35.0
@@ -198,7 +202,7 @@ score:
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 50.0
     contract_governance: 4.5
@@ -216,8 +220,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

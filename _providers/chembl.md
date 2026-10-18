@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-04'
+  score: 20.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -177,6 +177,21 @@ collections:
   name: ChEMBL Data REST Activity Target API
   slug: open-chembl-target-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/chembl/refs/heads/main/plans/plans.yml
+  title: ''
+  type: Plans
+  url: plans/plans.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/chembl/refs/heads/main/rate-limits/rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/chembl/refs/heads/main/finops/finops.yml
+  title: ''
+  type: FinOps
+  url: finops/finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/chembl/refs/heads/main/capabilities/chembl-capability-edges.yml
   title: ''
@@ -237,9 +252,13 @@ examples:
   name: Similarity Search Example
   slug: similarity-search-example
 finops:
-- name: Finops
+- has_sources: false
+  method: generated
+  name: Finops
+  primary_unit: ''
   service_category: ''
   slug: finops
+  template: true
 image: https://www.ebi.ac.uk/chembl/static/chembl/img/chembl_logo.png
 json_schemas:
 - name: ChEMBL Activity
@@ -256,13 +275,13 @@ modified: '2026-06-13'
 name: ChEMBL
 nav: Providers
 network: true
-overview: 'ChEMBL publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Activity API, Assay API, ATC Classification API, and 13 more. Tagged areas include Drug Discovery, Bioactivity, Molecules, Cheminformatics, and Life Sciences.
+overview: 'ChEMBL publishes 16 API contracts indexed on the [APIs.io](https://apis.io/) network, including Activity API, Assay API, ATC Classification API, and 13 more. Tagged areas include Drug Discovery, Bioactivity, Molecules, Cheminformatics, and Life Sciences.
 
 
   The ChEMBL catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  ChEMBL''s developer surface includes authentication, status page, and 5 more developer resources.'
+  ChEMBL''s developer surface includes authentication, status page, and 8 more developer resources.'
 plans:
 - name: Plans
   plan_count: 1
@@ -273,9 +292,10 @@ rate_limits:
   name: Rate Limits
   slug: rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: ChEMBL API Rules
+  name: ChEMBL — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -285,17 +305,17 @@ rules:
   slug: chembl-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 31.4
+  composite: 27.1
   coverage:
     artifact_dirs: 13
-    catalog_earned: 50.5
+    catalog_earned: 42.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 64.6
+    catalog_gap: 72.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -4.3
   facets:
-    access_clarity: 37.4
+    access_clarity: 15.8
     contract_governance: 9.8
     contract_quality: 44.4
     developer_ergonomics: 21.4
@@ -315,8 +335,8 @@ score:
     regime: Health
     regime_id: health
     score: 12.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

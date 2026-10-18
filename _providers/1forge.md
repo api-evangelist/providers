@@ -11,7 +11,7 @@ access_model:
   trial: true
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.0
-  scored_at: '2026-10-04'
+  score: 27.8
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -102,6 +102,10 @@ collections:
   name: 1Forge Forex Data Convert Symbols API
   slug: open-1forge-symbols-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://1forge.com/blog/
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/1forge/refs/heads/main/agentic-access/1forge-agentic-access.yml
   title: ''
@@ -191,9 +195,13 @@ examples:
   name: Forex Data Api Quote Example
   slug: forex-data-api-quote-example
 finops:
-- name: 1Forge Finops
+- has_sources: true
+  method: generated
+  name: 1Forge Finops
+  primary_unit: ''
   service_category: Market Data
   slug: 1forge-finops
+  template: false
 image: https://1forge.com/assets/images/f-blue.svg
 json_schemas:
 - name: ConversionResult
@@ -227,17 +235,17 @@ jsonld:
   property_count: 12
   slug: 1forge-forex-data-api-context
 layout: provider
-modified: '2026-05-28'
+modified: '2026-10-06'
 name: 1Forge
 nav: Providers
 network: true
-overview: '1Forge publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Forex Stream, Convert API, Market Status API, and 3 more. Tagged areas include Currency Exchange, Forex, Cryptocurrency, Market Data, and Financial Data.
+overview: '1Forge is listed with 6 APIs on the [APIs.io](https://apis.io/) network, including Forex Stream, Convert API, Market Status API, and 3 more. Tagged areas include Foreign Exchange, Cryptocurrency, Market Data, Financial Data, and Real-Time Data.
 
 
   The 1Forge catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  1Forge''s developer surface includes authentication, documentation, signup flow, pricing, and 12 more developer resources.'
+  1Forge''s developer surface includes engineering blog, authentication, documentation, signup flow, pricing, and 12 more developer resources.'
 plans:
 - name: 1Forge Plans Pricing
   plan_count: 4
@@ -248,10 +256,11 @@ rate_limits:
   name: 1Forge Rate Limits
   slug: 1forge-rate-limits
 rules:
-- effective_rule_count: 32
+- authorship: generated
+  effective_rule_count: 32
   extends:
   - spectral:asyncapi
-  name: 1Forge API Rules
+  name: 1Forge — asyncapi rules
   rule_count: 5
   severity_counts:
     error: 1
@@ -259,9 +268,10 @@ rules:
     info: 0
     warn: 4
   slug: 1forge-asyncapi-spectral-rules
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: 1Forge API Rules
+  name: 1Forge — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -269,7 +279,8 @@ rules:
     info: 1
     warn: 4
   slug: 1forge-jsonschema-spectral-rules
-- effective_rule_count: 74
+- authorship: unmarked
+  effective_rule_count: 74
   extends:
   - spectral:oas
   name: 1Forge API Rules
@@ -282,22 +293,22 @@ rules:
   slug: 1forge-rules
 score:
   band: thin
-  composite: 37.1
+  composite: 30.2
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 78.0
+    artifact_dirs: 19
+    catalog_earned: 62.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 37.0
+    catalog_gap: 53.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.9
   facets:
-    access_clarity: 49.5
+    access_clarity: 21.1
     contract_governance: 27.3
     contract_quality: 29.9
-    developer_ergonomics: 28.6
+    developer_ergonomics: 31.0
     discoverability: 78.6
-    operational_transparency: 21.6
+    operational_transparency: 7.9
   previous_composite: 37.1
   provenance:
     agentic_access: derived
@@ -312,9 +323,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 21.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
@@ -331,8 +342,7 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: 1forge
 tags:
-- Currency Exchange
-- Forex
+- Foreign Exchange
 - Cryptocurrency
 - Market Data
 - Financial Data

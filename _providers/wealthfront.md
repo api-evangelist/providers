@@ -26,14 +26,14 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: false
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 11.2
-  scored_at: '2026-10-04'
+  score: 14.7
+  scored_at: '2026-10-17'
 api_count: 5
 apis:
 - description: Internal REST API powering Wealthfront's automated portfolio management service. Supports account creation, portfolio configuration, risk assessment, automated rebalancing, and tax-loss harvesting for
@@ -122,9 +122,13 @@ common:
 created: 2026-06-13
 description: Wealthfront is an automated investment service offering REST APIs and integrations for portfolio management, financial planning, tax optimization, direct indexing, and cash account management. Founded in 2008 and headquartered in Palo Alto, California, Wealthfront manages approximately $95 billion in assets for over 1.4 million clients as of 2026. The platform provides automated investing with tax-loss harvesting, direct indexing for accounts over $100,000, high-yield cash management accounts with FDIC insurance up to $8 million, and stock investing with no advisory fees. Wealthfront went public on Nasdaq (WLTH) in December 2025.
 finops:
-- name: Finops
+- has_sources: false
+  method: generated
+  name: Finops
+  primary_unit: ''
   service_category: ''
   slug: finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wealthfront.png
 layout: provider
 mcp_servers:
@@ -135,7 +139,7 @@ modified: 2026-06-13
 name: Wealthfront
 nav: Providers
 network: true
-overview: 'Wealthfront publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Finance, Investment, Portfolio Management, Tax Optimization, and Robo-Advisor.
+overview: 'Wealthfront is listed with 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Finance, Investment, Portfolio Management, Tax Optimization, and Robo-Advisor.
 
 
   Wealthfront''s developer surface includes GitHub presence, pricing, engineering blog, support, and 12 more developer resources.'
@@ -149,23 +153,23 @@ rate_limits:
   name: Rate Limits
   slug: rate-limits
 score:
-  band: thin
-  composite: 27.1
+  band: emerging
+  composite: 18.8
   coverage:
     artifact_dirs: 9
-    catalog_earned: 59.6
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 55.4
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 57.4
+    access_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 16.7
     discoverability: 65.0
-    operational_transparency: 44.2
+    operational_transparency: 23.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -182,9 +186,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

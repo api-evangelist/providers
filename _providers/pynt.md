@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.7
-  scored_at: '2026-10-04'
-api_count: 2
+  scored_at: '2026-10-17'
+api_count: 4
 apis:
 - baseURL: https://api.pynt.io
   baseurl_source: declared
@@ -202,6 +202,11 @@ asyncapis:
   name: Pynt Webhooks
   slug: pynt-webhooks
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/pynt/refs/heads/main/finops/pynt-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/pynt-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/pynt/refs/heads/main/capabilities/pynt-capability-edges.yml
   title: ''
@@ -358,22 +363,26 @@ common:
 created: '2025-01-08'
 description: Pynt is an API security testing platform that discovers and secures APIs, LLM endpoints and MCP servers. It wraps a team's existing functional tests — or proxies live traffic — and runs automated attack simulations against whatever API surface it observes, covering business-logic flaws, injection, mass assignment, authentication bypass, SSRF, GraphQL introspection and alias overloading, LLM prompt injection and sensitive-data exposure. Pynt builds an API catalog from Swagger/OpenAPI definitions, Postman collections, API gateways, code repositories and eBPF live-traffic capture, scores each endpoint for risk, applies LLM false-positive and business-impact analysis to its findings, and generates automated penetration-test reports. It is delivered as a Python CLI that manages a Docker container, with integrations across Postman, Burp Suite, Insomnia, ReadyAPI, a dozen test frameworks, and the major CI/CD platforms. Pynt exposes a public REST API at api.pynt.io.
 finops:
-- name: Pynt Finops
+- has_sources: false
+  method: generated
+  name: Pynt Finops
+  primary_unit: ''
   service_category: API
   slug: pynt-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pynt.png
 layout: provider
 modified: '2026-08-27'
 name: Pynt
 nav: Providers
 network: true
-overview: 'Pynt publishes 32 APIs on the [APIs.io](https://apis.io/) network, including Alive API, API Key API, Application API, and 29 more. Tagged areas include API Testing, API Security, Security, Application Security, and DAST.
+overview: 'Pynt publishes 32 API contracts indexed on the [APIs.io](https://apis.io/) network, including Alive API, API Key API, Application API, and 29 more. Tagged areas include API Testing, API Security, Security, Application Security, and DAST.
 
 
   The Pynt catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Pynt''s developer surface includes documentation, getting-started guide, support, engineering blog, signup flow, CLI, authentication, and 27 more developer resources.'
+  Pynt''s developer surface includes documentation, getting-started guide, support, engineering blog, signup flow, CLI, authentication, and 28 more developer resources.'
 plans:
 - name: Pynt Plans Pricing
   plan_count: 0
@@ -385,21 +394,21 @@ rate_limits:
   slug: pynt-rate-limits
 score:
   band: developing
-  composite: 52.7
+  composite: 51.8
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.9
   facets:
-    access_clarity: 57.9
+    access_clarity: 50.0
     contract_governance: 4.5
     contract_quality: 49.5
     developer_ergonomics: 68.5
-    discoverability: 73.2
+    discoverability: 78.6
     operational_transparency: 21.1
   previous_composite: 52.7
   provenance:
@@ -417,8 +426,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

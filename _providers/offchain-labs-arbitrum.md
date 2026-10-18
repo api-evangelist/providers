@@ -33,10 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.offchain.io/blog
 - group: company
   title: ''
   type: Website
@@ -117,18 +121,18 @@ created: '2026-07-17'
 description: 'Offchain Labs is the team behind Arbitrum, a suite of Ethereum Layer 2 scaling technologies (Arbitrum One and Arbitrum Nova) built on the Nitro tech stack and the AnyTrust and Rollup protocols. Rather than a traditional REST API, Arbitrum exposes an Ethereum-compatible JSON-RPC interface plus Arbitrum-specific precompiles and the NodeInterface, and ships first-party developer tooling: the TypeScript Arbitrum SDK for bridging and cross-chain messaging, the Orbit SDK for launching custom Arbitrum chains, and the Stylus SDK (Rust/Wasm) with the cargo-stylus CLI for writing EVM-compatible smart contracts. This profile was seeded as a pantera-capital portfolio lead and enriched from Arbitrum''s public developer surface.'
 image: https://github.com/OffchainLabs.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Offchain Labs (Arbitrum)
 nav: Providers
 network: true
-overview: 'Offchain Labs (Arbitrum) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto, Blockchain, Ethereum, and Layer 2.
+overview: 'Offchain Labs (Arbitrum) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cryptocurrency, Blockchain, Ethereum, and Layer 2.
 
 
-  Offchain Labs (Arbitrum)''s developer surface includes documentation, API reference, getting-started guide, engineering blog, CLI, changelog, and 11 more developer resources.'
+  Offchain Labs (Arbitrum)''s developer surface includes engineering blog, documentation, API reference, getting-started guide, CLI, changelog, and 12 more developer resources.'
 random_paper: 8
 score:
   band: emerging
-  composite: 20.7
+  composite: 20.8
   coverage:
     artifact_dirs: 10
     catalog_earned: 27.0
@@ -136,7 +140,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
@@ -151,8 +155,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -171,7 +175,7 @@ security:
 slug: offchain-labs-arbitrum
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Blockchain
 - Ethereum
 - Layer 2

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Single GraphQL endpoint for deploying and managing StackMachine apps, custom domains and DNS, managed databases and volumes, cron jobs, secrets, transactional email, cloud storage, package publishing,
@@ -179,7 +179,7 @@ modified: '2026-07-21'
 name: Stack Machine
 nav: Providers
 network: true
-overview: 'Stack Machine publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Infrastructure, Serverless, WebAssembly, and Edge Compute.
+overview: 'Stack Machine is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Infrastructure, Serverless, WebAssembly, and Edge Compute.
 
 
   Stack Machine''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 21 more developer resources.'
@@ -213,8 +213,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

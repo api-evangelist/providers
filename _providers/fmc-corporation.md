@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 7
 apis:
 - description: FMC's insecticide and miticide portfolio includes diamide chemistry (Rynaxypyr, Cyazypyr active ingredients) marketed under brands such as Coragen, Prevathon, Altacor, Verimark, Vantacor, and Premio f
@@ -59,6 +59,21 @@ apis:
   slug: fmc-arc-farm-intelligence
 artifact_total: 30
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/fmc-corporation/refs/heads/main/plans/fmc-corporation-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/fmc-corporation-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/fmc-corporation/refs/heads/main/rate-limits/fmc-corporation-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/fmc-corporation-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/fmc-corporation/refs/heads/main/finops/fmc-corporation-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/fmc-corporation-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/fmc-corporation/refs/heads/main/security/fmc-corporation-domain-security.yml
   title: ''
@@ -142,9 +157,13 @@ features:
 - description: Seed-applied insecticide, fungicide, and nematicide products including Ethos, Lucento, and Quartzo for corn, soybeans, cotton, and cereals.
   name: Seed Treatment Portfolio
 finops:
-- name: Fmc Corporation Finops
+- has_sources: true
+  method: generated
+  name: Fmc Corporation Finops
+  primary_unit: ''
   service_category: Agriculture / Crop Protection
   slug: fmc-corporation-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fmc-corporation.png
 integrations:
 - description: FMC distributes through agricultural retail and distribution networks including Nutrien Ag Solutions, Helena, Wilbur-Ellis, GROWMARK, and regional cooperatives.
@@ -162,10 +181,10 @@ modified: '2026-05-23'
 name: FMC
 nav: Providers
 network: true
-overview: 'FMC publishes 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Agriculture, Agricultural Sciences, Crop Protection, Plant Health, and Insecticides.
+overview: 'FMC is listed with 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Agriculture, Agricultural Sciences, Crop Protection, Plant Health, and Insecticides.
 
 
-  FMC''s developer surface includes engineering blog, GitHub presence, and 14 more developer resources.'
+  FMC''s developer surface includes engineering blog, GitHub presence, and 17 more developer resources.'
 plans:
 - name: Fmc Corporation Plans Pricing
   plan_count: 3
@@ -176,23 +195,23 @@ rate_limits:
   name: Fmc Corporation Rate Limits
   slug: fmc-corporation-rate-limits
 score:
-  band: emerging
-  composite: 18.0
+  band: minimal
+  composite: 10.6
   coverage:
-    artifact_dirs: 7
-    catalog_earned: 56.0
+    artifact_dirs: 8
+    catalog_earned: 40.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 59.0
+    catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.4
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
     discoverability: 63.4
-    operational_transparency: 24.2
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -207,9 +226,9 @@ score:
     regime: Health
     regime_id: health
     score: 4.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

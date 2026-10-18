@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The Doodle REST API for programmatically creating and managing group polls, booking pages, and meeting scheduling. This API has been deprecated and Doodle no longer supports new API integrations. Ente
@@ -97,9 +97,13 @@ common:
 created: 2026-06-12
 description: Doodle is a meeting scheduling platform that simplifies group coordination through polls, booking pages, 1:1 meeting links, and sign-up sheets. The platform automatically finds optimal meeting times by reading participant calendars and supports cross-timezone scheduling for distributed teams. Doodle integrates with Google Calendar, Microsoft Office 365, Zoom, Microsoft Teams, Google Meet, Webex, Stripe, and Zapier for workflow automation. The legacy public REST API has been officially deprecated and Doodle no longer supports new API integrations; enterprise customers with existing API implementations may contact support for continued assistance. Automation is now primarily available via Zapier on Professional and higher plans.
 finops:
-- name: Doodle Finops
+- has_sources: false
+  method: generated
+  name: Doodle Finops
+  primary_unit: ''
   service_category: ''
   slug: doodle-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/doodle.png
 jsonld:
 - class_count: 19
@@ -111,7 +115,7 @@ modified: 2026-06-12
 name: Doodle
 nav: Providers
 network: true
-overview: 'Doodle publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Scheduling, Meetings, Calendar, Group Polls, and Booking Pages.
+overview: 'Doodle is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Scheduling, Meetings, Calendar, Group Polls, and Booking Pages.
 
 
   The Doodle catalog on APIs.io includes 1 JSON-LD context.
@@ -128,23 +132,23 @@ rate_limits:
   name: Doodle Rate Limits
   slug: doodle-rate-limits
 score:
-  band: thin
-  composite: 27.5
+  band: emerging
+  composite: 19.2
   coverage:
-    artifact_dirs: 8
-    catalog_earned: 64.6
+    artifact_dirs: 9
+    catalog_earned: 46.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 50.4
+    catalog_gap: 69.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 54.7
+    access_clarity: 26.3
     contract_governance: 0.0
     contract_quality: 10.7
     developer_ergonomics: 11.9
     discoverability: 57.1
-    operational_transparency: 44.2
+    operational_transparency: 23.7
   previous_composite: 27.5
   regulatory:
     applies: true
@@ -152,9 +156,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.9
-  scored_at: '2026-10-04'
+  score: 24.0
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 14
+- acting_count: 10
   human_in_the_loop: 0
   name: Amazon Eventbridge Agentic Access
   operation_count: 14
   slug: amazon-eventbridge-agentic-access
-  summary_line: 14 operations · 14 acting
+  summary_line: 14 operations · 10 acting
 api_count: 1
 apis:
 - baseURL: https://events.amazonaws.com
@@ -129,6 +129,21 @@ collections:
   name: Amazon EventBridge API
   slug: open-amazon-eventbridge
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-eventbridge/refs/heads/main/plans/amazon-eventbridge-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/amazon-eventbridge-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-eventbridge/refs/heads/main/rate-limits/amazon-eventbridge-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/amazon-eventbridge-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-eventbridge/refs/heads/main/finops/amazon-eventbridge-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/amazon-eventbridge-finops.yml
 - group: company
   title: ''
   type: Website
@@ -398,9 +413,13 @@ features:
 - description: Send events to external HTTP endpoints via API Destinations
   name: API Destinations
 finops:
-- name: Amazon Eventbridge Finops
+- has_sources: false
+  method: generated
+  name: Amazon Eventbridge Finops
+  primary_unit: ''
   service_category: API
   slug: amazon-eventbridge-finops
+  template: true
 image: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png
 integrations:
 - description: Invoke Lambda functions in response to events
@@ -605,13 +624,13 @@ modified: '2026-09-16'
 name: Amazon EventBridge
 nav: Providers
 network: true
-overview: 'Amazon EventBridge publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Archives API, Event Buses API, Events API, and 2 more. Tagged areas include Amazon Web Services, Event Bus, Event-Driven, Event, and Integration.
+overview: 'Amazon EventBridge publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Archives API, Event Buses API, Events API, and 2 more. Tagged areas include Amazon Web Services, Event Bus, Event-Driven, Event, and Integration.
 
 
   The Amazon EventBridge catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Amazon EventBridge''s developer surface includes authentication, developer portal, documentation, engineering blog, developer console, signup flow, support, and 30 more developer resources.'
+  Amazon EventBridge''s developer surface includes authentication, developer portal, documentation, engineering blog, developer console, signup flow, support, and 33 more developer resources.'
 plans:
 - name: Amazon Eventbridge Plans Pricing
   plan_count: 3
@@ -622,10 +641,11 @@ rate_limits:
   name: Amazon Eventbridge Rate Limits
   slug: amazon-eventbridge-rate-limits
 rules:
-- effective_rule_count: 31
+- authorship: generated
+  effective_rule_count: 31
   extends:
   - spectral:asyncapi
-  name: Amazon EventBridge API Rules
+  name: Amazon EventBridge — asyncapi rules
   rule_count: 4
   severity_counts:
     error: 1
@@ -633,9 +653,10 @@ rules:
     info: 1
     warn: 2
   slug: amazon-eventbridge-asyncapi-spectral-rules
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Amazon EventBridge API Rules
+  name: Amazon EventBridge — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -643,7 +664,8 @@ rules:
     info: 1
     warn: 4
   slug: amazon-eventbridge-jsonschema-spectral-rules
-- effective_rule_count: 66
+- authorship: generated
+  effective_rule_count: 66
   extends:
   - spectral:oas
   name: Amazon EventBridge API Rules
@@ -656,17 +678,17 @@ rules:
   slug: amazon-eventbridge-spectral-rules
 score:
   band: strong
-  composite: 60.7
+  composite: 59.2
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 72.0
+    artifact_dirs: 21
+    catalog_earned: 69.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 43.0
+    catalog_gap: 46.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 69.7
+    access_clarity: 61.8
     contract_governance: 27.3
     contract_quality: 73.7
     developer_ergonomics: 53.6
@@ -686,8 +708,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

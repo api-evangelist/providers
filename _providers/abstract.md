@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The Abstract REST API provides programmatic access to design projects, branches, commits, files, collections, and component libraries managed within the Abstract platform. Access is provided via the a
@@ -96,9 +96,13 @@ common:
 created: '2026-06-13'
 description: Abstract is a design version control and collaboration platform that brings git-inspired branching, merging, and change history to design teams. It provides a REST API and JavaScript SDK for managing projects, branches, commits, files, collections, and design component libraries across teams, integrating with Sketch and other design tools.
 finops:
-- name: Abstract Finops
+- has_sources: false
+  method: generated
+  name: Abstract Finops
+  primary_unit: ''
   service_category: ''
   slug: abstract-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/abstract.png
 json_schemas:
 - name: Abstract API Schemas
@@ -114,7 +118,7 @@ modified: '2026-06-13'
 name: Abstract
 nav: Providers
 network: true
-overview: 'Abstract publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Design, Version Control, Collaboration, Sketch, and Design Systems.
+overview: 'Abstract is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Design, Version Control, Collaboration, Sketch, and Design Systems.
 
 
   The Abstract catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -131,9 +135,10 @@ rate_limits:
   name: Abstract Rate Limits
   slug: abstract-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: Abstract API Rules
+  name: Abstract — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -142,23 +147,23 @@ rules:
     warn: 4
   slug: abstract-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 26.9
+  band: emerging
+  composite: 19.5
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 69.3
+    artifact_dirs: 12
+    catalog_earned: 53.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 45.7
+    catalog_gap: 61.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.4
   facets:
-    access_clarity: 41.6
+    access_clarity: 13.2
     contract_governance: 9.8
     contract_quality: 10.7
     developer_ergonomics: 19.0
     discoverability: 66.1
-    operational_transparency: 32.1
+    operational_transparency: 18.4
   previous_composite: 26.9
   regulatory:
     applies: true
@@ -166,9 +171,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

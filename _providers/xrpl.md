@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: platform
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 4.7
-  scored_at: '2026-10-04'
+  score: 2.8
+  scored_at: '2026-10-17'
 api_count: 4
 apis:
 - description: JSON-RPC interface to the XRP Ledger mainnet for querying accounts, transactions, ledgers, order books, AMM pools, NFTs, and server info. Served by community-run public rippled and Clio nodes.
@@ -50,6 +50,21 @@ apis:
   slug: xrpl-websocket-api-testnet
 artifact_total: 9
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/xrpl/refs/heads/main/plans/plans.yml
+  title: ''
+  type: Plans
+  url: plans/plans.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/xrpl/refs/heads/main/rate-limits/rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/xrpl/refs/heads/main/finops/finops.yml
+  title: ''
+  type: FinOps
+  url: finops/finops.yml
 - group: company
   title: ''
   type: Website
@@ -138,9 +153,13 @@ common:
 created: '2026-06-14'
 description: The XRP Ledger (XRPL) is a decentralized, public blockchain with fast settlement and low transaction costs. It provides HTTP/WebSocket JSON-RPC APIs for querying accounts, transactions, ledgers, order books, payment channels, and network statistics. Developers can connect to community-run public servers on mainnet, testnet, and devnet without authentication for most operations.
 finops:
-- name: Finops
+- has_sources: false
+  method: generated
+  name: Finops
+  primary_unit: ''
   service_category: ''
   slug: finops
+  template: true
 image: https://xrpl.org/img/xrp-ledger-logo.svg
 layout: provider
 mcp_servers:
@@ -151,10 +170,10 @@ modified: '2026-06-14'
 name: XRP Ledger
 nav: Providers
 network: true
-overview: 'XRP Ledger publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Blockchain, XRP, Cryptocurrency, DeFi, and Ledger.
+overview: 'XRP Ledger is listed with 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Blockchain, XRP, Cryptocurrency, DeFi, and Ledger.
 
 
-  XRP Ledger''s developer surface includes documentation, getting-started guide, changelog, engineering blog, and 17 more developer resources.'
+  XRP Ledger''s developer surface includes documentation, getting-started guide, changelog, engineering blog, and 20 more developer resources.'
 plans:
 - name: Plans
   plan_count: 2
@@ -166,17 +185,17 @@ rate_limits:
   slug: rate-limits
 score:
   band: thin
-  composite: 31.3
+  composite: 27.5
   coverage:
     artifact_dirs: 9
-    catalog_earned: 50.2
+    catalog_earned: 42.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 64.8
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.8
   facets:
-    access_clarity: 47.9
+    access_clarity: 26.3
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 21.4
@@ -194,8 +213,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

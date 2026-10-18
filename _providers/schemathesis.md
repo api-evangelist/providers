@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 3.8
-  scored_at: '2026-10-04'
+  score: 1.9
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Schemathesis is a property-based API testing tool that automatically generates test cases from OpenAPI and GraphQL schemas to find bugs and spec violations. It detects server crashes, schema violation
@@ -41,6 +41,21 @@ apis:
   slug: schemathesis
 artifact_total: 11
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/schemathesis/refs/heads/main/plans/schemathesis-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/schemathesis-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/schemathesis/refs/heads/main/rate-limits/schemathesis-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/schemathesis-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/schemathesis/refs/heads/main/finops/schemathesis-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/schemathesis-finops.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -113,9 +128,13 @@ examples:
   name: Schemathesis Cli Test Example
   slug: schemathesis-cli-test-example
 finops:
-- name: Schemathesis Finops
+- has_sources: false
+  method: generated
+  name: Schemathesis Finops
+  primary_unit: ''
   service_category: API
   slug: schemathesis-finops
+  template: true
 graphqls:
 - description: Schemathesis is a property-based API testing tool that automatically generates test cases from OpenAPI and GraphQL schemas to find bugs and spec violations. It detects server crashes, schema violation
   name: Schemathesis GraphQL API
@@ -139,13 +158,13 @@ modified: '2026-05-02'
 name: Schemathesis
 nav: Providers
 network: true
-overview: 'Schemathesis publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include API Testing, Contract Testing, Developer Tools, Fuzzing, and OpenAPI.
+overview: 'Schemathesis is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include API Testing, Contract Testing, Developer Tools, Fuzzing, and OpenAPI.
 
 
   The Schemathesis catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Schemathesis'' developer surface includes documentation, engineering blog, code examples, and 13 more developer resources.'
+  Schemathesis'' developer surface includes documentation, engineering blog, code examples, and 16 more developer resources.'
 plans:
 - name: Schemathesis Plans Pricing
   plan_count: 3
@@ -156,9 +175,10 @@ rate_limits:
   name: Schemathesis Rate Limits
   slug: schemathesis-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Schemathesis API Rules
+  name: Schemathesis — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -168,17 +188,17 @@ rules:
   slug: schemathesis-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 31.7
+  composite: 30.4
   coverage:
     artifact_dirs: 14
-    catalog_earned: 62.2
+    catalog_earned: 59.2
     catalog_earned_first_party: 0.0
-    catalog_gap: 52.9
+    catalog_gap: 55.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.3
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 23.5
     contract_quality: 24.4
     developer_ergonomics: 11.9
@@ -194,8 +214,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

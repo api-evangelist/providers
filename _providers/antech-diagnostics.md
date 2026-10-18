@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 4
 apis:
 - description: 'Modeled partner-gated surface for submitting laboratory requisitions (test orders) electronically to Antech''s reference lab from a veterinary PIMS. Carries the ordering clinic, patient, and requested '
@@ -53,6 +53,14 @@ apis:
   slug: antech-diagnostics-reference-data-api
 artifact_total: 5
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.antechdiagnostics.com/category/news/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.antechdiagnostics.com/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/antech-diagnostics/refs/heads/main/security/antech-diagnostics-domain-security.yml
   title: ''
@@ -86,31 +94,31 @@ created: '2026-07-05'
 description: Antech Diagnostics operates North America's largest veterinary reference laboratory network, plus in-house diagnostic instruments, imaging, and the HealthTracks diagnostics platform. Antech is part of Mars Petcare (Mars Veterinary Health), acquired via Mars' 2017 purchase of VCA. Antech's programmatic surface is a partner-gated laboratory integration API - commonly configured in practice information management systems (PIMS) as "Antech V3" - that lets veterinary software submit lab requisitions to Antech and receive results back into the patient's medical record. There is no public, self-serve developer portal or published API reference; access requires an Antech account and a business / integration partner relationship, authenticated with an Account Number, Username, Password, and Clinic ID. The logical APIs below are modeled from documented PIMS integration behavior (Vetspire, Cornerstone, DaySmart Vet, NaVetor, ezyVet, NectarVet), not from an Antech-published specification.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/antech-diagnostics.png
 layout: provider
-modified: '2026-07-05'
+modified: '2026-10-06'
 name: Antech Diagnostics
 nav: Providers
 network: true
-overview: 'Antech Diagnostics publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Veterinary, Diagnostics, Laboratory, Reference Lab, and Lab Results.
+overview: 'Antech Diagnostics is listed with 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Veterinary, Diagnostics, Laboratory, Reference Lab, and Lab Results.
 
 
-  Antech Diagnostics'' developer surface includes developer portal, documentation, support, and 4 more developer resources.'
+  Antech Diagnostics'' developer surface includes engineering blog, developer portal, documentation, support, and 5 more developer resources.'
 random_paper: 0
 score:
   band: minimal
-  composite: 9.9
+  composite: 10.4
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 23.8
+    developer_ergonomics: 26.2
     discoverability: 62.5
     operational_transparency: 0.0
   previous_composite: 9.9
@@ -120,8 +128,8 @@ score:
     regime: Health
     regime_id: health
     score: 4.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

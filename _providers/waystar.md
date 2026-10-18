@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 11.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 7
 apis:
 - description: Real-time and batch insurance eligibility and benefits verification, exchanging X12 270 inquiries and 271 responses to confirm coverage, plan details, copays, deductibles, and service-type benefits be
@@ -59,6 +59,10 @@ apis:
   slug: waystar-denial-management-api
 artifact_total: 13
 common:
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.waystar.com/clients-partners/
 - group: company
   title: ''
   type: LinkedIn
@@ -202,19 +206,23 @@ created: '2026-07-04'
 description: Waystar is a healthcare payments and revenue cycle management (RCM) software company that operates a national clearinghouse connecting providers to payers. Its cloud platform spans financial clearance (eligibility, prior authorization, patient estimation), claim management, payment and remittance management, and denial prevention and recovery. Waystar exposes integration through REST APIs, web services, HL7, sFTP/batch, RPA, and X12 EDI transactions (270/271 eligibility, 276/277 claim status, 837 claims, 835 remittance/ERA, 278 authorization). API access is delivered through a partner/developer program at developer.waystar.com; the portal renders its full documentation navigation to anyone but serves a login form in place of every document body, and sandbox accounts are provisioned by email rather than self-service. Waystar publishes no OpenAPI, no llms.txt, no MCP server, no agent card and no client SDK in any package registry. Authentication is six hand-rolled schemes rather
   than one - HMAC-SHA1 body signatures on the classic Developer Suite, HMAC-SHA256 Authorization headers on Patient Estimation, credentials in the POST body on the eligibility gateway, HTTP Basic, WS-Security UsernameToken inside CAQH CORE SOAP envelopes, and X.509 client certificates - with no OAuth 2.0 and no OpenID Connect anywhere. The API surface below is documented from Waystar's public product pages, its developer-portal structure and the underlying X12 standards rather than from a published machine-readable definition.
 finops:
-- name: Waystar Finops
+- has_sources: true
+  method: generated
+  name: Waystar Finops
+  primary_unit: ''
   service_category: Healthcare Revenue Cycle Management
   slug: waystar-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/waystar.png
 layout: provider
 modified: '2026-08-15'
 name: Waystar
 nav: Providers
 network: true
-overview: 'Waystar publishes 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Healthcare, Revenue Cycle Management, RCM, Clearinghouse, and Healthcare Payments.
+overview: 'Waystar is listed with 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Healthcare, Revenue Cycle Management, RCM, Clearinghouse, and Healthcare Payments.
 
 
-  Waystar''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, engineering blog, authentication, and 24 more developer resources.'
+  Waystar''s developer surface includes pricing, documentation, API reference, getting-started guide, support, signup flow, engineering blog, and 25 more developer resources.'
 plans:
 - name: Waystar Plans Pricing
   plan_count: 2
@@ -226,17 +234,17 @@ rate_limits:
   slug: waystar-rate-limits
 score:
   band: developing
-  composite: 43.4
+  composite: 43.9
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 58.0
+    artifact_dirs: 21
+    catalog_earned: 55.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 57.0
+    catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
-    access_clarity: 63.2
+    access_clarity: 65.8
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 64.3
@@ -252,8 +260,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 27.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

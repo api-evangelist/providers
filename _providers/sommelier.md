@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - baseURL: https://api.sommelier.finance
@@ -66,6 +66,10 @@ collections:
   name: Sommelier Finance Integrations Vault Data API
   slug: open-sommelier-vault-data-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://somm.finance/blog
 - group: company
   title: ''
   type: Website
@@ -123,31 +127,31 @@ created: '2026-07-17'
 description: 'Sommelier (rebranding to "Somm") is a decentralized asset-management and DeFi vault protocol whose smart-contract "cellars" run automated yield strategies on Ethereum. It publishes a public, read-only HTTP API that exposes on-chain vault performance data — daily and hourly snapshots (APY, TVL, share price, total assets), protocol-wide total value locked, per-cellar snapshots, and integration datasets for Kelp and ether.fi points and balances. All endpoints are unauthenticated GET requests with path-based parameters and a { "Response": ... } envelope; the API currently serves the ethereum network. Backed by Multicoin Capital.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sommelier.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Sommelier
 nav: Providers
 network: true
-overview: 'Sommelier publishes 3 APIs on the [APIs.io](https://apis.io/) network: Integrations API, Protocol API, and Vault Data API. Tagged areas include Company, Crypto Web3, DeFi, Blockchain, and Ethereum.
+overview: 'Sommelier is listed with 3 APIs on the [APIs.io](https://apis.io/) network: Integrations API, Protocol API, and Vault Data API. Tagged areas include Company, Web3, DeFi, Blockchain, and Ethereum.
 
 
-  Sommelier''s developer surface includes authentication and 10 more developer resources.'
+  Sommelier''s developer surface includes engineering blog, authentication, and 10 more developer resources.'
 random_paper: 5
 score:
   band: thin
-  composite: 27.4
+  composite: 27.9
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 60.0
     catalog_max: 100.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 0.0
     contract_governance: 4.5
     contract_quality: 43.3
-    developer_ergonomics: 39.9
+    developer_ergonomics: 42.3
     discoverability: 78.6
     operational_transparency: 0.0
   previous_composite: 27.4
@@ -166,8 +170,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -186,14 +190,13 @@ security:
 slug: sommelier
 tags:
 - Company
-- Crypto Web3
+- Web3
 - DeFi
 - Blockchain
 - Ethereum
 - Vault
 - Yield
 - Analytics
-- Web3
 - Cryptocurrency
 website: https://www.somm.finance
 ---

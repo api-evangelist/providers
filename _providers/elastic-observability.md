@@ -37,14 +37,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 11
+- acting_count: 9
   human_in_the_loop: 0
   name: Elastic Observability Agentic Access
   operation_count: 14
   slug: elastic-observability-agentic-access
-  summary_line: 14 operations · 11 acting
+  summary_line: 14 operations · 9 acting
 api_count: 1
 apis:
 - description: 'The Elastic Observability product surface: logs, metrics, APM traces, synthetics, RUM, universal profiling and SLOs on the Elastic Stack. The callable contracts are the four APM Server intake APIs lis'
@@ -288,9 +288,13 @@ common:
 created: '2026-03-27'
 description: 'Elastic Observability is Elastic''s unified logs, metrics, traces and profiling solution, built on the Elastic Stack. Its published machine-readable contract is the Observability Intake API served by APM Server: a newline-delimited JSON event intake for Elastic APM agents, a central agent-configuration endpoint, and native OpenTelemetry Protocol ingest over both OTLP/HTTP and OTLP/gRPC. Analysis of the telemetry once it has landed happens through Kibana and, for agents, through the Elastic Agent Builder MCP server, which exposes sixteen observability.* tools over a deployment-scoped endpoint.'
 finops:
-- name: Elastic Observability Finops
+- has_sources: false
+  method: generated
+  name: Elastic Observability Finops
+  primary_unit: ''
   service_category: API
   slug: elastic-observability-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/elastic-observability.png
 layout: provider
 mcp_servers:
@@ -301,7 +305,7 @@ modified: '2026-08-29'
 name: Elastic Observability
 nav: Providers
 network: true
-overview: 'Elastic Observability publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Server Info API, agent config API, event intake API, and 2 more. Tagged areas include AIOps, Observability, APM, Logging, and Metrics.
+overview: 'Elastic Observability publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Server Info API, agent config API, event intake API, and 2 more. Tagged areas include AIOps, Observability, APM, Logging, and Metrics.
 
 
   Elastic Observability''s developer surface includes authentication, documentation, changelog, CLI, sandbox, API reference, getting-started guide, and 35 more developer resources.'
@@ -316,17 +320,17 @@ rate_limits:
   slug: elastic-observability-rate-limits
 score:
   band: strong
-  composite: 59.5
+  composite: 58.0
   coverage:
     artifact_dirs: 27
-    catalog_earned: 43.0
+    catalog_earned: 40.0
     catalog_earned_first_party: 8.0
-    catalog_gap: 72.0
+    catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 76.3
+    access_clarity: 68.4
     contract_governance: 18.2
     contract_quality: 43.4
     developer_ergonomics: 80.4
@@ -349,8 +353,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

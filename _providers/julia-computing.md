@@ -33,14 +33,19 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The JuliaHub cloud platform for scientific and technical computing - hosted Julia compute, batch/job execution, datasets, and the Julia package registry. Accessed programmatically through the first-pa
   name: JuliaHub Platform
   slug: juliahub-platform
-artifact_total: 5
+artifact_total: 6
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/julia-computing/refs/heads/main/plans/julia-computing-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/julia-computing-plans-pricing.yml
 - group: company
   title: ''
   type: Website
@@ -138,10 +143,14 @@ modified: '2026-07-19'
 name: Julia Computing
 nav: Providers
 network: true
-overview: 'Julia Computing publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Julia, Scientific Computing, Modeling and Simulation, and High Performance Computing.
+overview: 'Julia Computing is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Julia, Scientific Computing, Modeling and Simulation, and High Performance Computing.
 
 
-  Julia Computing''s developer surface includes documentation, getting-started guide, engineering blog, pricing, authentication, and 15 more developer resources.'
+  Julia Computing''s developer surface includes documentation, getting-started guide, engineering blog, pricing, authentication, and 16 more developer resources.'
+plans:
+- name: Julia Computing Plans Pricing
+  plan_count: 0
+  slug: julia-computing-plans-pricing
 random_paper: 20
 scopes:
 - name: Julia Computing Scopes
@@ -152,7 +161,7 @@ score:
   band: thin
   composite: 31.0
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -181,8 +190,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

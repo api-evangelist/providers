@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -260,7 +260,7 @@ modified: '2026-07-27'
 name: Smart DCC
 nav: Providers
 network: true
-overview: 'Smart DCC publishes 2 APIs on the [APIs.io](https://apis.io/) network: Sign API and Verify API. Tagged areas include Energy, United Kingdom, Utilities, Electricity, and Gas.
+overview: 'Smart DCC publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Sign API and Verify API. Tagged areas include Energy, United Kingdom, Utilities, Electricity, and Gas.
 
 
   Smart DCC''s developer surface includes engineering blog, documentation, CLI, sandbox, changelog, support, pricing, and 35 more developer resources.'
@@ -314,8 +314,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 32.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -101,6 +101,10 @@ collections:
   name: Pomelo API
   slug: open-pomelo
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.pomelo.la/blog
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/pomelo/refs/heads/main/agentic-access/pomelo-agentic-access.yml
   title: ''
@@ -155,19 +159,23 @@ common:
 created: '2026-06-21'
 description: Pomelo (pomelo.la) is a Latin American card-issuing and embedded-finance platform. Its REST API lets fintechs and enterprises onboard users (KYC/KYB), issue physical and virtual cards, manage card accounts and balances, process and query transactions, move money with transfers and settlements, and authorize transactions in real time over a synchronous authorization webhook.
 finops:
-- name: Pomelo Finops
+- has_sources: true
+  method: generated
+  name: Pomelo Finops
+  primary_unit: ''
   service_category: Financial Services
   slug: pomelo-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pomelo.png
 layout: provider
-modified: '2026-06-21'
+modified: '2026-10-06'
 name: Pomelo
 nav: Providers
 network: true
-overview: 'Pomelo publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Card Accounts API, Cards API, and 3 more. Tagged areas include Fintech, Card Issuing, Embedded Finance, Payments, and Latin America.
+overview: 'Pomelo publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authentication API, Card Accounts API, Cards API, and 3 more. Tagged areas include Fintech, Card Issuing, Embedded Finance, Payments, and Latin America.
 
 
-  Pomelo''s developer surface includes authentication, documentation, and 9 more developer resources.'
+  Pomelo''s developer surface includes engineering blog, authentication, documentation, and 9 more developer resources.'
 plans:
 - name: Pomelo Plans Pricing
   plan_count: 2
@@ -184,22 +192,22 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 32.7
+  composite: 26.2
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 58.0
+    artifact_dirs: 12
+    catalog_earned: 42.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.0
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.5
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 45.8
-    developer_ergonomics: 29.8
+    developer_ergonomics: 32.1
     discoverability: 66.1
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
@@ -219,9 +227,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 19.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://branddu.com/blogs/noticias.atom
 - group: company
   title: ''
   type: Website
@@ -86,26 +90,26 @@ created: '2026-07-17'
 description: Branddu (Branddu Colombia / Branddu AI) is a B2B MerchTech platform that digitizes corporate merchandising and promotional-product procurement across Latin America. Operating in Colombia and Mexico, it centralizes the full purchasing workflow - product discovery, inventory, quotations, customization, online design, and checkout - through a single online catalog of more than 15,000 fully customizable products across 46+ categories. Branddu AI (formed via a merger with Reno) combines AI, proprietary software, and a regional supplier network to simplify how companies source branded merchandise. The public storefront runs on Shopify. The company is backed by a US$300K pre-seed from 500 Global, bringing total capital raised to roughly US$800K.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/branddu.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Branddu
 nav: Providers
 network: true
 overview: 'Branddu is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Merchandising, Promotional Products, Procurement, and MerchTech.
 
 
-  Branddu''s developer surface includes engineering blog, signup flow, and 9 more developer resources.'
+  Branddu''s developer surface includes engineering blog, signup flow, and 10 more developer resources.'
 random_paper: 10
 score:
   band: emerging
-  composite: 12.7
+  composite: 12.8
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 34.2
     contract_governance: 0.0
@@ -127,8 +131,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

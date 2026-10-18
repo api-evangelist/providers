@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: The Jakarta Bean Validation 3.1 specification defines the constraint model, annotation processor, Validator API, method validation, group sequences, cascaded validation, constraint composition, and th
@@ -47,6 +47,21 @@ apis:
   slug: jakarta-validation-api
 artifact_total: 22
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/bean-validation/refs/heads/main/plans/bean-validation-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/bean-validation-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/bean-validation/refs/heads/main/rate-limits/bean-validation-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/bean-validation-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/bean-validation/refs/heads/main/finops/bean-validation-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/bean-validation-finops.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -108,9 +123,13 @@ features:
 - description: Build and configure validators programmatically using the Validator and ValidatorFactory APIs without annotations.
   name: Programmatic API
 finops:
-- name: Bean Validation Finops
+- has_sources: false
+  method: generated
+  name: Bean Validation Finops
+  primary_unit: ''
   service_category: API
   slug: bean-validation-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bean-validation.png
 integrations:
 - description: Spring integrates Jakarta Bean Validation for controller method argument validation and service layer validation.
@@ -128,10 +147,10 @@ modified: '2026-04-19'
 name: Bean Validation
 nav: Providers
 network: true
-overview: 'Bean Validation publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Bean Validation, Data Quality, Java, Validation, and Jakarta EE.
+overview: 'Bean Validation is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Bean Validation, Data Quality, Java, Validation, and Jakarta EE.
 
 
-  Bean Validation''s developer surface includes engineering blog, documentation, and 9 more developer resources.'
+  Bean Validation''s developer surface includes engineering blog, documentation, and 12 more developer resources.'
 plans:
 - name: Bean Validation Plans Pricing
   plan_count: 3
@@ -143,17 +162,17 @@ rate_limits:
   slug: bean-validation-rate-limits
 score:
   band: emerging
-  composite: 22.2
+  composite: 20.8
   coverage:
     artifact_dirs: 7
-    catalog_earned: 44.0
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 71.0
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.4
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 31.0
@@ -169,8 +188,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

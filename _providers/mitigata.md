@@ -32,10 +32,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://mitigata.com/blog/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://mitigata.com/blog/feed/
 - group: company
   title: ''
   type: Website
@@ -100,26 +108,26 @@ created: '2026-07-17'
 description: Mitigata is an India-based, IRDAI-licensed integrated cyber resilience platform that bundles cyber insurance, 24x7 security operations, and compliance under one accountable pod. It offers smart cyber liability, D&O, E&O, crime and EPLI insurance; an in-house Bengaluru SOC with MDR, EDR/XDR, SIEM, SASE, ZTNA and DFIR; automated compliance for ISO 27001, SOC 2, PCI DSS, DPDP, GDPR, HIPAA, RBI and SEBI-CSCRF; and Gordon AI, an autonomous AI SOC covering dark-web monitoring, attack-surface management, third-party risk and phishing simulation. Mitigata publishes eleven purpose-built APIs (cyber score, email security, asset discovery, phishing protect, dark-web scanner, security checklist, third-party risk, employee risk, attack assist, cyber insurance and claims) but gates technical onboarding behind a booked API walkthrough.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mitigata.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Mitigata
 nav: Providers
 network: true
 overview: 'Mitigata is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cybersecurity, Cyber Insurance, Compliance, and Security Operations.
 
 
-  Mitigata''s developer surface includes API reference, documentation, getting-started guide, engineering blog, support, and 9 more developer resources.'
+  Mitigata''s developer surface includes engineering blog, API reference, documentation, getting-started guide, support, and 11 more developer resources.'
 random_paper: 12
 score:
   band: emerging
-  composite: 20.0
+  composite: 20.1
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 36.8
     contract_governance: 0.0
@@ -141,13 +149,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/mitigata/refs/heads/main/screenshots/mitigata-2026-10-11T191226.png
 security:
 - kind: domain-security
   name: Mitigata Domain Security

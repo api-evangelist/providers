@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: 'The one API surface Convertedin hosts itself. A merchant''s storefront (Magento, Salla, or a custom platform) POSTs commerce events into Convertedin — orders, customers, products, collections, and app '
@@ -184,7 +184,7 @@ modified: '2026-08-12'
 name: Pinoffer
 nav: Providers
 network: true
-overview: 'Pinoffer publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AdTech, Marketing Technology, E-Commerce, and Marketing Automation.
+overview: 'Pinoffer is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AdTech, Marketing Technology, E-Commerce, and Marketing Automation.
 
 
   The Pinoffer catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -204,7 +204,7 @@ score:
   band: developing
   composite: 49.3
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 52.0
     catalog_earned_first_party: 12.0
     catalog_gap: 63.0
@@ -218,6 +218,11 @@ score:
     developer_ergonomics: 57.1
     discoverability: 78.6
     operational_transparency: 18.4
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - mena
   previous_composite: 49.3
   provenance:
     conformance: first-party
@@ -227,8 +232,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 22.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

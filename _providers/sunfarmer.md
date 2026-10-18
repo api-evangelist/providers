@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 0
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.sunfarmer.org/blog/
 - group: company
   title: ''
   type: Website
@@ -44,28 +48,31 @@ created: '2026-07-17'
 description: SunFarmer is a solar energy company operating primarily in Nepal that designs, installs, finances, and services solar power systems for health facilities, schools, agriculture, and businesses. Its mission is to make reliable solar energy affordable across underserved communities, powering water pumping, clinics, and irrigation. SunFarmer reports over 3.2 million cubic meters of water pumped, 1.5+ million units of clean electricity generated, and nearly 1.8 million kilograms of CO2 offset. It offers a "Get Solar" customer path and a "Give Solar" donation program. It is a direct-to-customer solar services and social-impact provider with no public developer API surface.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sunfarmer.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: SunFarmer
 nav: Providers
 network: true
-overview: SunFarmer is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Solar Energy, Renewable Energy, Clean Energy, and Agriculture.
+overview: 'SunFarmer is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Solar Energy, Renewable Energy, Clean Energy, and Agriculture.
+
+
+  SunFarmer''s developer surface includes engineering blog and 1 more developer resources.'
 random_paper: 11
 score:
   band: minimal
-  composite: 2.8
+  composite: 3.3
   coverage:
-    artifact_dirs: 2
+    artifact_dirs: 3
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 48.2
     operational_transparency: 0.0
   jurisdiction:
@@ -86,8 +93,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 0.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

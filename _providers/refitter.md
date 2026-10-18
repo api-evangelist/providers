@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: true
@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 6.1
-  scored_at: '2026-10-04'
+  score: 4.2
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: Refitter is a .NET source generator and CLI tool that produces Refit HTTP client interfaces from OpenAPI 2.0 and 3.x specifications. Supports compile-time code generation via MSBuild source generators
@@ -44,6 +44,21 @@ apis:
   slug: refit
 artifact_total: 12
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/refitter/refs/heads/main/plans/refitter-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/refitter-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/refitter/refs/heads/main/rate-limits/refitter-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/refitter-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/refitter/refs/heads/main/finops/refitter-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/refitter-finops.yml
 - group: docs
   title: ''
   type: ContributionGuide
@@ -170,9 +185,13 @@ common:
 created: '2026-03-25'
 description: Refitter is a .NET tool and source generator that produces Refit HTTP client interfaces from OpenAPI specifications. It runs at compile time as a source generator or as a standalone CLI tool (dotnet-refitter), enabling type-safe API consumption in .NET projects. Refitter reads OpenAPI 2.0 (Swagger) and OpenAPI 3.x specifications and generates strongly-typed C# interface definitions and model classes compatible with the Refit library.
 finops:
-- name: Refitter Finops
+- has_sources: false
+  method: generated
+  name: Refitter Finops
+  primary_unit: ''
   service_category: API
   slug: refitter-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/refitter.png
 json_schemas:
 - name: Refitter Format Mappings
@@ -198,13 +217,13 @@ modified: '2026-08-06'
 name: Refitter
 nav: Providers
 network: true
-overview: 'Refitter publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include .NET, C#, Code Generation, OpenAPI, and Refit.
+overview: 'Refitter is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include .NET, C#, Code Generation, OpenAPI, and Refit.
 
 
   The Refitter catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Refitter''s developer surface includes documentation, API reference, getting-started guide, support, CLI, changelog, and 21 more developer resources.'
+  Refitter''s developer surface includes documentation, API reference, getting-started guide, support, CLI, changelog, and 24 more developer resources.'
 plans:
 - name: Refitter Plans Pricing
   plan_count: 3
@@ -215,9 +234,10 @@ rate_limits:
   name: Refitter Rate Limits
   slug: refitter-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Refitter API Rules
+  name: Refitter — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -227,17 +247,17 @@ rules:
   slug: refitter-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 35.5
+  composite: 34.1
   coverage:
     artifact_dirs: 19
-    catalog_earned: 56.8
+    catalog_earned: 53.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 58.3
+    catalog_gap: 61.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.4
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 41.7
     contract_quality: 10.7
     developer_ergonomics: 54.8
@@ -256,8 +276,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

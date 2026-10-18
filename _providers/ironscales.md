@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 49.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 10
 apis:
 - description: Remote Model Context Protocol server operated by IRONSCALES at mcp.ironscales.com, served over streamable HTTP at /mcp/. Access is OAuth 2.0 protected — an unauthenticated tools/list returns an RFC 67
@@ -120,6 +120,10 @@ collections:
   name: IRONSCALES Management Settings API
   slug: open-ironscales-settings-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://ironscales.com/blog/rss.xml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/ironscales/refs/heads/main/capabilities/ironscales-capability-edges.yml
   title: ''
@@ -291,14 +295,14 @@ mcp_servers:
 - description: Remote MCP server at mcp.ironscales.com over HTTP.
   name: IRONSCALES MCP Server
   slug: ironscales
-modified: '2026-08-04'
+modified: '2026-10-06'
 name: IRONSCALES
 nav: Providers
 network: true
-overview: 'IRONSCALES publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Authorization API, Campaigns API, Deepfake API, and 7 more. Tagged areas include Email Security, Cybersecurity, Phishing, Anti-Phishing, and Business Email Compromise.
+overview: 'IRONSCALES publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authorization API, Campaigns API, Deepfake API, and 7 more. Tagged areas include Email Security, Cybersecurity, Phishing, Anti-Phishing, and Business Email Compromise.
 
 
-  IRONSCALES''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
+  IRONSCALES''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 30 more developer resources.'
 random_paper: 19
 rate_limits:
 - limit_count: 1
@@ -306,15 +310,15 @@ rate_limits:
   slug: ironscales-rate-limits
 score:
   band: strong
-  composite: 56.9
+  composite: 56.4
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 48.0
     catalog_earned_first_party: 8.0
     catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.5
   facets:
     access_clarity: 60.5
     contract_governance: 4.5
@@ -338,12 +342,12 @@ score:
     - jurisdiction: EU
       standard: gdpr
     jurisdictions_satisfied: 1
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
-    score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
+    score: 34.0
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

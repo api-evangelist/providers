@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 4
 apis:
 - description: The CarMax Store Locations API, discussed publicly on the CarMax Engineering Blog, exposes details about all CarMax store locations including addresses, hours, services offered, and geographic metadat
@@ -51,6 +51,21 @@ apis:
   slug: chatgpt-app
 artifact_total: 10
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/carmax/refs/heads/main/plans/carmax-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/carmax-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/carmax/refs/heads/main/rate-limits/carmax-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/carmax-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/carmax/refs/heads/main/finops/carmax-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/carmax-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/carmax/refs/heads/main/security/carmax-domain-security.yml
   title: ''
@@ -152,9 +167,13 @@ common:
 created: '2026-03-21'
 description: 'CarMax (NYSE: KMX) is the largest retailer of used cars in the United States, operating an omnichannel business that spans brick-and-mortar stores, carmax.com online purchasing, home delivery, financing, appraisals, and trade-ins. CarMax does not publish a public developer portal, but its engineering organization operates an extensive internal API program built around distinct API roles (Data Access Layer, Business Logic Layer, Server-Driven UI, Backend for Frontend). Public-facing APIs documented by the CarMax Engineering Blog include a Store Locations API and a Vehicle Inventory API, and CarMax has publicly discussed a Server-Driven UI API that controls vehicle search filters across web and mobile. Partner and syndication integrations are handled case by case rather than through a self-service portal.'
 finops:
-- name: Carmax Finops
+- has_sources: true
+  method: generated
+  name: Carmax Finops
+  primary_unit: ''
   service_category: Auto Retail / Vehicle Inventory
   slug: carmax-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/carmax.png
 layout: provider
 mcp_servers:
@@ -165,10 +184,10 @@ modified: '2026-09-05'
 name: CarMax
 nav: Providers
 network: true
-overview: 'CarMax publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Auto Financing, Auto Retail, Appraisal, Automotive, and Omnichannel.
+overview: 'CarMax is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Auto Financing, Auto Retail, Appraisal, Automotive, and Omnichannel.
 
 
-  CarMax''s developer surface includes engineering blog, support, and 21 more developer resources.'
+  CarMax''s developer surface includes engineering blog, support, and 24 more developer resources.'
 plans:
 - name: Carmax Plans Pricing
   plan_count: 0
@@ -196,17 +215,17 @@ rate_limits:
   slug: carmax-rate-limits
 score:
   band: emerging
-  composite: 18.4
+  composite: 17.0
   coverage:
     artifact_dirs: 14
-    catalog_earned: 38.0
+    catalog_earned: 35.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 77.0
+    catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.4
   facets:
-    access_clarity: 28.9
+    access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 16.7
@@ -221,8 +240,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

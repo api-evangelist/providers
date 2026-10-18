@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.novabenefits.com/blog
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/nova-benefits/refs/heads/main/security/nova-benefits-domain-security.yml
   title: ''
@@ -70,14 +74,14 @@ created: '2026-07-17'
 description: Nova Benefits is an India-based employee health and benefits platform that provides group health insurance, super top-up plans, and COVID-19 cover alongside wellness services such as telehealth consultations, mental-wellness support, fitness programs, maternity benefits, and annual health, dental and vision checkups. It gives HR teams an employer dashboard for administering benefits and managing claims, and gives employees web and mobile (iOS/Android) apps to view coverage, book consultations, and file and track claims. The company reports serving 500+ companies covering 200,000+ employees, is ISO 27001:2022 certified and SOC 2 Type II compliant, and operates as an IRDAI-regulated insurance broker. Nova Benefits publishes no public API or developer platform.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nova-benefits.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Nova Benefits
 nav: Providers
 network: true
 overview: 'Nova Benefits is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Insurance, Employee Benefits, and Health Insurance.
 
 
-  Nova Benefits'' developer surface includes engineering blog, support, and 5 more developer resources.'
+  Nova Benefits'' developer surface includes engineering blog, support, and 6 more developer resources.'
 random_paper: 9
 score:
   band: emerging
@@ -113,8 +117,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

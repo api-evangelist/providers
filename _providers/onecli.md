@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 0
@@ -397,7 +397,7 @@ modified: '2026-07-20'
 name: Onecli
 nav: Providers
 network: true
-overview: 'Onecli publishes 24 APIs on the [APIs.io](https://apis.io/) network, including Agent Setup API, Agents API, Approvals API, and 21 more. Tagged areas include Company, Security, Identity, AI Agents, and Secrets Management.
+overview: 'Onecli publishes 24 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agent Setup API, Agents API, Approvals API, and 21 more. Tagged areas include Company, Security, Identity, AI Agents, and Secrets Management.
 
 
   Onecli''s developer surface includes pricing, authentication, documentation, API reference, getting-started guide, signup flow, engineering blog, and 25 more developer resources.'
@@ -448,8 +448,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

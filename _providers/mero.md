@@ -32,10 +32,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.mero.co/blog
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.mero.co/blog/rss.xml
 - group: company
   title: ''
   type: Website
@@ -73,18 +81,18 @@ created: '2026-07-17'
 description: 'Mero is a Canadian SaaS platform for commercial building cleaning operations that uses smart sensors and analytics to automatically log, validate, and prove cleaning activity without manual input from janitorial staff. Its product is organized into three modules: Validate (hands-free proof that cleaning was completed), Dispatch (occupancy- and supply-driven scheduling), and Inspect (in-app QA and inspection tooling). Mero serves janitorial companies, property managers, and commercial facilities, with data captured across roughly 100M square feet at customers including Harvard, Colliers, and Toronto Pearson Airport. The company advertises a data-integration API and a Zapier connector to send and receive data with other tools, but publishes no public developer portal, API reference, or machine-readable specification; API access is gated behind a sales demo.'
 image: https://cdn.prod.website-files.com/6111627014d0c2d40cdc27e0/63be536e464ebd43eebd0c02_logo-mero%20(1).svg
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Mero
 nav: Providers
 network: true
 overview: 'Mero is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cleaning, Facilities Management, Janitorial, and Building Operations.
 
 
-  Mero''s developer surface includes pricing, engineering blog, support, and 5 more developer resources.'
+  Mero''s developer surface includes engineering blog, pricing, support, and 7 more developer resources.'
 random_paper: 17
 score:
   band: emerging
-  composite: 13.6
+  composite: 13.7
   coverage:
     artifact_dirs: 4
     catalog_earned: 27.0
@@ -92,7 +100,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 38.2
     contract_governance: 0.0
@@ -112,8 +120,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

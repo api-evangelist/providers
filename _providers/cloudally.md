@@ -30,13 +30,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.5
-  scored_at: '2026-10-04'
+  score: 19.6
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -111,6 +111,25 @@ collections:
   name: CloudAlly API
   slug: open-cloudally
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/cloudally/refs/heads/main/plans/cloudally-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/cloudally-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cloudally/refs/heads/main/rate-limits/cloudally-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/cloudally-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/cloudally/refs/heads/main/finops/cloudally-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/cloudally-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://cybersecurity.opentext.com/blog/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/cloudally/refs/heads/main/capabilities/cloudally-capability-edges.yml
   title: ''
@@ -187,9 +206,13 @@ common:
 created: '2026-03-27'
 description: CloudAlly (now part of OpenText Cybersecurity) is a SaaS backup and recovery service that protects business data in Microsoft 365, Google Workspace, Salesforce, Box, Dropbox, SharePoint, and OneDrive. The platform offers automated daily backups, point-in-time restore, cross-user restore, granular search, and partner-portal multitenancy features. Beyond the web console, CloudAlly exposes a REST API at api.cloudally.com that lets administrators and partners automate backup-task management, restore/download requests, user provisioning, partner-portal operations, and billing reporting.
 finops:
-- name: Cloudally Finops
+- has_sources: false
+  method: generated
+  name: Cloudally Finops
+  primary_unit: ''
   service_category: API
   slug: cloudally-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cloudally.png
 json_schemas:
 - name: CloudAlly Backup Task
@@ -201,17 +224,17 @@ jsonld:
   property_count: 8
   slug: cloudally-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-10-06'
 name: CloudAlly
 nav: Providers
 network: true
-overview: 'CloudAlly publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Backups API, Billing API, and 4 more. Tagged areas include Backup, Box, Data Protection, Disaster Recovery, and Dropbox.
+overview: 'CloudAlly publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authentication API, Backups API, Billing API, and 4 more. Tagged areas include Backup, Box, Data Protection, Disaster Recovery, and Dropbox.
 
 
   The CloudAlly catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  CloudAlly''s developer surface includes authentication, documentation, support, and 13 more developer resources.'
+  CloudAlly''s developer surface includes engineering blog, authentication, documentation, support, and 16 more developer resources.'
 plans:
 - name: Cloudally Plans Pricing
   plan_count: 3
@@ -222,9 +245,10 @@ rate_limits:
   name: Cloudally Rate Limits
   slug: cloudally-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: CloudAlly API Rules
+  name: CloudAlly — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -232,7 +256,8 @@ rules:
     info: 2
     warn: 3
   slug: cloudally-jsonschema-spectral-rules
-- effective_rule_count: 47
+- authorship: unmarked
+  effective_rule_count: 47
   extends:
   - spectral:oas
   name: CloudAlly API Rules
@@ -245,20 +270,20 @@ rules:
   slug: cloudally-rules
 score:
   band: thin
-  composite: 31.7
+  composite: 30.7
   coverage:
-    artifact_dirs: 14
-    catalog_earned: 55.5
+    artifact_dirs: 16
+    catalog_earned: 52.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 59.5
+    catalog_gap: 62.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.0
   facets:
-    access_clarity: 23.7
+    access_clarity: 15.8
     contract_governance: 13.6
     contract_quality: 49.2
-    developer_ergonomics: 26.2
+    developer_ergonomics: 28.6
     discoverability: 66.1
     operational_transparency: 7.9
   previous_composite: 31.7
@@ -275,8 +300,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

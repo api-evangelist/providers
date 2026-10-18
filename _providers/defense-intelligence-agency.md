@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: Public-facing presence of the Defense Intelligence Agency, providing organizational information, leadership, careers, news, and links to mission-specific programs. The website is the primary public su
@@ -47,6 +47,21 @@ apis:
   slug: defense-intelligence-agency-gamechanger
 artifact_total: 7
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/defense-intelligence-agency/refs/heads/main/plans/defense-intelligence-agency-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/defense-intelligence-agency-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/defense-intelligence-agency/refs/heads/main/rate-limits/defense-intelligence-agency-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/defense-intelligence-agency-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/defense-intelligence-agency/refs/heads/main/finops/defense-intelligence-agency-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/defense-intelligence-agency-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/defense-intelligence-agency/refs/heads/main/security/defense-intelligence-agency-domain-security.yml
   title: ''
@@ -87,19 +102,23 @@ common:
 created: '2024-12-03'
 description: The Defense Intelligence Agency (DIA) is the U.S. Department of Defense combat support agency that produces, analyzes, and disseminates military intelligence on foreign militaries and operating environments to support warfighters, defense planners, and national-security policymakers. As an intelligence agency, DIA does not publish a general-purpose public API; its developer-facing surface is largely internal or restricted to the Intelligence Community. Public touchpoints include the GAMECHANGER policy analytics initiative, the DIA FOIA reading room, public news and article feeds, and procurement and recruiting portals.
 finops:
-- name: Defense Intelligence Agency Finops
+- has_sources: false
+  method: generated
+  name: Defense Intelligence Agency Finops
+  primary_unit: ''
   service_category: API
   slug: defense-intelligence-agency-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/defense-intelligence-agency.png
 layout: provider
 modified: '2026-04-28'
 name: Defense Intelligence Agency
 nav: Providers
 network: true
-overview: 'Defense Intelligence Agency publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Defense, Department of Defense, DIA, Federal Government, and Intelligence.
+overview: 'Defense Intelligence Agency is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Defense, Department of Defense, DIA, Federal Government, and Intelligence.
 
 
-  Defense Intelligence Agency''s developer surface includes product news and 8 more developer resources.'
+  Defense Intelligence Agency''s developer surface includes product news and 11 more developer resources.'
 plans:
 - name: Defense Intelligence Agency Plans Pricing
   plan_count: 3
@@ -111,17 +130,17 @@ rate_limits:
   slug: defense-intelligence-agency-rate-limits
 score:
   band: emerging
-  composite: 14.4
+  composite: 12.8
   coverage:
     artifact_dirs: 6
-    catalog_earned: 44.0
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 71.0
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 26.3
+    access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 9.5
@@ -139,8 +158,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 9.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

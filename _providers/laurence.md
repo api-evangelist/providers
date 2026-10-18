@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'Laurence MCP is a hosted, remote Model Context Protocol server that exposes a read-only set of nine tools over a customer''s Amazon Advertising and Amazon Marketing Stream data — allowed ads profiles, '
@@ -175,7 +175,7 @@ modified: '2026-08-13'
 name: Laurence
 nav: Providers
 network: true
-overview: 'Laurence publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, Amazon, E-Commerce, and Marketing.
+overview: 'Laurence is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, Amazon, E-Commerce, and Marketing.
 
 
   Laurence''s developer surface includes authentication, documentation, engineering blog, signup flow, support, and 22 more developer resources.'
@@ -197,7 +197,7 @@ score:
   band: emerging
   composite: 25.4
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -222,8 +222,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 31.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

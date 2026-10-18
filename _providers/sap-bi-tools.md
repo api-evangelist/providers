@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -266,6 +266,21 @@ collections:
   name: SAP BI Tools SAP BusinessObjects BI Platform RESTful Web Services
   slug: open-sap-businessobjects-bi-platform-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sap-bi-tools/refs/heads/main/plans/sap-bi-tools-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/sap-bi-tools-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/sap-bi-tools/refs/heads/main/rate-limits/sap-bi-tools-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/sap-bi-tools-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sap-bi-tools/refs/heads/main/finops/sap-bi-tools-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/sap-bi-tools-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/sap-bi-tools/refs/heads/main/capabilities/sap-bi-tools-capability-edges.yml
   title: ''
@@ -516,9 +531,13 @@ examples:
   name: Sap Bi Tools List Users Example
   slug: sap-bi-tools-list-users-example
 finops:
-- name: Sap Bi Tools Finops
+- has_sources: true
+  method: generated
+  name: Sap Bi Tools Finops
+  primary_unit: ''
   service_category: Business Intelligence / Reporting
   slug: sap-bi-tools-finops
+  template: false
 json_schemas:
 - name: CalendarEvent
   property_count: 7
@@ -606,13 +625,13 @@ modified: '2026-08-21'
 name: SAP BI Tools
 nav: Providers
 network: true
-overview: 'SAP BI Tools publishes 26 APIs on the [APIs.io](https://apis.io/) network, including Administration API, Authentication API, Calendars API, and 23 more. Tagged areas include Analytics, Business Intelligence, Data Visualization, Reporting, and SAP.
+overview: 'SAP BI Tools publishes 26 API contracts indexed on the [APIs.io](https://apis.io/) network, including Administration API, Authentication API, Calendars API, and 23 more. Tagged areas include Analytics, Business Intelligence, Data Visualization, Reporting, and SAP.
 
 
   The SAP BI Tools catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  SAP BI Tools'' developer surface includes authentication, developer portal, getting-started guide, documentation, support, engineering blog, changelog, and 45 more developer resources.'
+  SAP BI Tools'' developer surface includes authentication, developer portal, getting-started guide, documentation, support, engineering blog, changelog, and 48 more developer resources.'
 plans:
 - name: Sap Bi Tools Plans Pricing
   plan_count: 1
@@ -623,9 +642,10 @@ rate_limits:
   name: Sap Bi Tools Rate Limits
   slug: sap-bi-tools-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: SAP BI Tools API Rules
+  name: SAP BI Tools — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -633,7 +653,8 @@ rules:
     info: 2
     warn: 3
   slug: sap-bi-tools-jsonschema-spectral-rules
-- effective_rule_count: 51
+- authorship: unmarked
+  effective_rule_count: 51
   extends:
   - spectral:oas
   name: SAP BI Tools API Rules
@@ -651,23 +672,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 52.7
+  composite: 51.2
   coverage:
     artifact_dirs: 21
-    catalog_earned: 52.0
+    catalog_earned: 49.0
     catalog_earned_first_party: 0.0
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -1.5
   facets:
-    access_clarity: 47.4
+    access_clarity: 39.5
     contract_governance: 27.3
     contract_quality: 63.0
     developer_ergonomics: 46.4
     discoverability: 57.1
     operational_transparency: 39.5
-  previous_composite: 52.2
+  previous_composite: 52.7
   provenance:
     agentic_access: derived
     contracts:
@@ -681,8 +702,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

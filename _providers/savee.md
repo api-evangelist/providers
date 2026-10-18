@@ -23,8 +23,8 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 57.8
-  scored_at: '2026-10-04'
-api_count: 2
+  scored_at: '2026-10-17'
+api_count: 4
 apis:
 - baseURL: https://api.savee.com/v1
   baseurl_source: declared
@@ -53,6 +53,10 @@ apis:
   slug: savee-user-api
 artifact_total: 12
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://inspire.savee.com/rss/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/savee/refs/heads/main/security/savee-vulnerability-disclosure.yml
   title: ''
@@ -199,14 +203,14 @@ mcp_servers:
 - description: Remote MCP server at mcp.savee.com requiring OAuth.
   name: Savee MCP Server
   slug: savee-mcp-server
-modified: '2026-09-03'
+modified: '2026-10-06'
 name: Savee
 nav: Providers
 network: true
-overview: 'Savee publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Boards API, Saves API, Search API, and 2 more. Tagged areas include Design, visual inspiration, Image, Creative, and Moodboards.
+overview: 'Savee publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Boards API, Saves API, Search API, and 2 more. Tagged areas include Design, visual inspiration, Image, Creative, and Moodboards.
 
 
-  Savee''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, engineering blog, support, and 23 more developer resources.'
+  Savee''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, engineering blog, support, and 24 more developer resources.'
 plans:
 - name: Savee Plans Pricing
   plan_count: 4
@@ -223,21 +227,21 @@ scopes:
   summary_line: 6 scopes · authorizationCode
 score:
   band: strong
-  composite: 59.4
+  composite: 60.0
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 61.0
+    artifact_dirs: 21
+    catalog_earned: 64.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 54.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 76.3
     contract_governance: 18.2
     contract_quality: 50.2
     developer_ergonomics: 64.3
-    discoverability: 75.0
+    discoverability: 80.0
     operational_transparency: 44.7
   previous_composite: 59.4
   provenance:
@@ -255,8 +259,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 37.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

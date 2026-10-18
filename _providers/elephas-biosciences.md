@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 11.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The private backend API behind the Elephas Portal, the secure cloud-based web application through which clinicians, laboratories and research partners receive elive test reports and manage specimen re
@@ -171,7 +171,7 @@ modified: '2026-08-12'
 name: Elephas Biosciences
 nav: Providers
 network: true
-overview: 'Elephas Biosciences publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Life Sciences, Biotechnology, and Precision Oncology.
+overview: 'Elephas Biosciences is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Life Sciences, Biotechnology, and Precision Oncology.
 
 
   Elephas Biosciences'' developer surface includes support, engineering blog, FAQ, authentication, and 19 more developer resources.'
@@ -216,8 +216,8 @@ score:
     regime: Health
     regime_id: health
     score: 32.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 8.9
-  scored_at: '2026-10-04'
+  score: 7.0
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Sumsub's REST API provides programmatic access to a full-stack verification platform spanning identity verification (KYC), business verification (KYB), AML screening, transaction monitoring, Travel Ru
@@ -194,9 +194,13 @@ features:
 - description: First-party SDKs for iOS, Android, React Native, and the web to embed verification into native apps.
   name: Web and Mobile SDKs
 finops:
-- name: Sumsub Finops
+- has_sources: false
+  method: generated
+  name: Sumsub Finops
+  primary_unit: ''
   service_category: API
   slug: sumsub-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sumsub.png
 integrations:
 - description: Integrate Sumsub with Auth0 to verify users before issuing authorization tokens.
@@ -218,7 +222,7 @@ modified: '2026-05-25'
 name: Sumsub
 nav: Providers
 network: true
-overview: 'Sumsub publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include AML, Compliance, Fraud Prevention, Identity Verification, and KYB.
+overview: 'Sumsub is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include AML, Compliance, Fraud Prevention, Identity Verification, and KYB.
 
 
   Sumsub''s developer surface includes documentation, API reference, getting-started guide, developer console, signup flow, changelog, engineering blog, and 24 more developer resources.'
@@ -233,22 +237,22 @@ rate_limits:
   slug: sumsub-rate-limits
 score:
   band: developing
-  composite: 50.4
+  composite: 42.1
   coverage:
-    artifact_dirs: 6
-    catalog_earned: 61.6
+    artifact_dirs: 8
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.4
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 81.1
+    access_clarity: 52.6
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 76.2
     discoverability: 66.1
-    operational_transparency: 83.7
+    operational_transparency: 63.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -264,9 +268,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 25.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

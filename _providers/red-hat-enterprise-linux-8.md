@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: documented
     openapi_examples: documented
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.0
-  scored_at: '2026-10-04'
+  score: 25.8
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -82,6 +82,21 @@ collections:
   name: Red Hat Security Data API
   slug: open-red-hat-enterprise-linux-8-security-data
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat-enterprise-linux-8/refs/heads/main/plans/red-hat-enterprise-linux-8-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/red-hat-enterprise-linux-8-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat-enterprise-linux-8/refs/heads/main/rate-limits/red-hat-enterprise-linux-8-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/red-hat-enterprise-linux-8-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat-enterprise-linux-8/refs/heads/main/finops/red-hat-enterprise-linux-8-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/red-hat-enterprise-linux-8-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/red-hat-enterprise-linux-8/refs/heads/main/capabilities/red-hat-enterprise-linux-8-capability-edges.yml
   title: ''
@@ -211,9 +226,13 @@ examples:
   name: Red Hat Enterprise Linux 8 List Advisories Example
   slug: red-hat-enterprise-linux-8-list-advisories-example
 finops:
-- name: Red Hat Enterprise Linux 8 Finops
+- has_sources: true
+  method: generated
+  name: Red Hat Enterprise Linux 8 Finops
+  primary_unit: ''
   service_category: Operating System Subscription
   slug: red-hat-enterprise-linux-8-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/red-hat-enterprise-linux-8.png
 json_schemas:
 - name: AdvisoryDetail
@@ -252,13 +271,13 @@ modified: '2026-08-06'
 name: Red Hat Enterprise Linux 8
 nav: Providers
 network: true
-overview: 'Red Hat Enterprise Linux 8 publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Advisories API, OVAL API, CV Es API, and 2 more. Tagged areas include Enterprise, Linux, Operating System, Red Hat, and RHEL.
+overview: 'Red Hat Enterprise Linux 8 publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Advisories API, OVAL API, CV Es API, and 2 more. Tagged areas include Enterprise, Linux, Operating System, Red Hat, and RHEL.
 
 
   The Red Hat Enterprise Linux 8 catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Red Hat Enterprise Linux 8''s developer surface includes developer portal, documentation, support, engineering blog, release notes, training material, and 21 more developer resources.'
+  Red Hat Enterprise Linux 8''s developer surface includes developer portal, documentation, support, engineering blog, release notes, training material, and 24 more developer resources.'
 plans:
 - name: Red Hat Enterprise Linux 8 Plans Pricing
   plan_count: 6
@@ -269,9 +288,10 @@ rate_limits:
   name: Red Hat Enterprise Linux 8 Rate Limits
   slug: red-hat-enterprise-linux-8-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Red Hat Enterprise Linux 8 API Rules
+  name: Red Hat Enterprise Linux 8 — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -279,7 +299,8 @@ rules:
     info: 1
     warn: 4
   slug: red-hat-enterprise-linux-8-jsonschema-spectral-rules
-- effective_rule_count: 52
+- authorship: unmarked
+  effective_rule_count: 52
   extends:
   - spectral:oas
   name: Red Hat Enterprise Linux 8 API Rules
@@ -292,17 +313,17 @@ rules:
   slug: red-hat-enterprise-linux-8-rules
 score:
   band: developing
-  composite: 53.7
+  composite: 45.4
   coverage:
     artifact_dirs: 17
-    catalog_earned: 51.0
+    catalog_earned: 54.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 49.0
-    catalog_max: 100.0
+    catalog_gap: 61.0
+    catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 78.6
+    access_clarity: 36.8
     contract_governance: 27.3
     contract_quality: 55.9
     developer_ergonomics: 38.1
@@ -322,9 +343,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

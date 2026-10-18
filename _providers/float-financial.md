@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - baseURL: https://api.floatfinancial.com
@@ -326,7 +326,7 @@ modified: '2026-08-16'
 name: Float Financial
 nav: Providers
 network: true
-overview: 'Float Financial publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Account Transactions API, Accounting Connections API, Accounts API, and 20 more. Tagged areas include Spend Management, Corporate Cards, Expense Management, Accounts Payable, and Bill Pay.
+overview: 'Float Financial publishes 23 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account Transactions API, Accounting Connections API, Accounts API, and 20 more. Tagged areas include Spend Management, Corporate Cards, Expense Management, Accounts Payable, and Bill Pay.
 
 
   The Float Financial catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -346,7 +346,7 @@ score:
   band: strong
   composite: 59.9
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -383,8 +383,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 32.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

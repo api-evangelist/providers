@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://florin.inc/blog
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/florin/refs/heads/main/security/florin-domain-security.yml
   title: ''
@@ -49,28 +53,31 @@ created: '2026-07-17'
 description: Florin is a San Francisco fintech startup building an integrated financial operating system for venture-backed companies. Rather than reselling another bank's infrastructure, Florin is building the underlying money-movement rails end to end so that funds settle in real time on a single ledger the company owns. The product combines business accounts, cards, payments, and treasury management into one invite-only membership aimed at startup founders who would otherwise stitch together half a dozen separate tools to hold, move, and grow their capital. Florin was founded in 2026 by Shaurya Aggarwal (CEO), Amol Pant (CTO), and Aydin Sorensen, and is a member of Y Combinator's Summer 2026 batch. At the time of this profile Florin operates a single marketing landing page with a waitlist and publishes no public API, developer documentation, or other developer-facing surface yet; this entry captures the company's identity and awaits a public API to enrich further.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/florin.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Florin
 nav: Providers
 network: true
-overview: Florin is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Banking as a Service, Neobank, and Payments.
+overview: 'Florin is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Banking as a Service, Neobank, and Payments.
+
+
+  Florin''s developer surface includes engineering blog and 2 more developer resources.'
 random_paper: 12
 score:
   band: minimal
-  composite: 2.7
+  composite: 3.2
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 48.2
     operational_transparency: 0.0
   previous_composite: 2.7
@@ -80,8 +87,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 5.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

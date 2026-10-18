@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.9
-  scored_at: '2026-10-04'
+  score: 19.0
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -204,16 +204,20 @@ common:
 created: '2026-07-12'
 description: Fortnox is a Swedish cloud accounting, ERP, and business-administration platform for small and medium-sized businesses and accounting bureaus. Its REST API at https://api.fortnox.se/3/ programmatically manages accounting and financial data - invoices, customers, articles, orders, offers, vouchers, accounts, suppliers, supplier invoices, projects, and financial years - authenticated with OAuth2 Authorization Code Flow. Fortnox also publishes a duplex WebSocket event stream at wss://ws.fortnox.se/topics-v1 that pushes minimal change notifications across domains so integrations can react to changes instead of polling.
 finops:
-- name: Fortnox Finops
+- has_sources: true
+  method: generated
+  name: Fortnox Finops
+  primary_unit: ''
   service_category: Business Applications
   slug: fortnox-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fortnox.png
 layout: provider
 modified: '2026-07-12'
 name: Fortnox
 nav: Providers
 network: true
-overview: 'Fortnox publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Topics WebSocket API, Accounts API, Articles API, and 9 more. Tagged areas include Accounting, ERP, Invoicing, Bookkeeping, and Sweden.
+overview: 'Fortnox publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including Topics WebSocket API, Accounts API, Articles API, and 9 more. Tagged areas include Accounting, ERP, Invoicing, Bookkeeping, and Sweden.
 
 
   The Fortnox catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -230,10 +234,11 @@ rate_limits:
   name: Fortnox Rate Limits
   slug: fortnox-rate-limits
 rules:
-- effective_rule_count: 30
+- authorship: generated
+  effective_rule_count: 30
   extends:
   - spectral:asyncapi
-  name: Fortnox API Rules
+  name: Fortnox — asyncapi rules
   rule_count: 3
   severity_counts:
     error: 1
@@ -243,22 +248,22 @@ rules:
   slug: fortnox-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 35.3
+  composite: 27.9
   coverage:
-    artifact_dirs: 14
-    catalog_earned: 62.5
+    artifact_dirs: 15
+    catalog_earned: 46.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 52.5
+    catalog_gap: 68.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.4
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 13.6
     contract_quality: 54.4
     developer_ergonomics: 25.0
     discoverability: 66.1
-    operational_transparency: 18.9
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -281,9 +286,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

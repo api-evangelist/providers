@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.8
-  scored_at: '2026-10-04'
+  score: 22.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -232,9 +232,13 @@ examples:
   name: Bluecart User List Example
   slug: bluecart-user-list-example
 finops:
-- name: Bluecart Finops
+- has_sources: true
+  method: generated
+  name: Bluecart Finops
+  primary_unit: ''
   service_category: Wholesale Commerce + Procurement
   slug: bluecart-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bluecart.png
 json_schemas:
 - name: CatalogCreate
@@ -362,7 +366,7 @@ modified: '2026-06-02'
 name: BlueCart
 nav: Providers
 network: true
-overview: 'BlueCart publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Catalogs API, Clients API, Orders API, and 2 more. Tagged areas include Restaurant, Procurement, Wholesale, Ordering, and Food Distribution.
+overview: 'BlueCart is listed with 5 APIs on the [APIs.io](https://apis.io/) network, including Catalogs API, Clients API, Orders API, and 2 more. Tagged areas include Restaurant, Procurement, Wholesale, Ordering, and Food Distribution.
 
 
   The BlueCart catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -379,9 +383,10 @@ rate_limits:
   name: Bluecart Rate Limits
   slug: bluecart-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: BlueCart API Rules
+  name: BlueCart — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -389,7 +394,8 @@ rules:
     info: 2
     warn: 3
   slug: bluecart-jsonschema-spectral-rules
-- effective_rule_count: 85
+- authorship: generated
+  effective_rule_count: 85
   extends:
   - spectral:oas
   name: BlueCart API Rules
@@ -402,22 +408,22 @@ rules:
   slug: bluecart-spectral-rules
 score:
   band: thin
-  composite: 38.4
+  composite: 30.1
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 79.6
+    artifact_dirs: 18
+    catalog_earned: 61.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 35.4
+    catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 49.5
+    access_clarity: 21.1
     contract_governance: 27.3
     contract_quality: 25.2
     developer_ergonomics: 47.6
     discoverability: 62.5
-    operational_transparency: 28.4
+    operational_transparency: 7.9
   previous_composite: 38.4
   provenance:
     agentic_access: derived
@@ -432,9 +438,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

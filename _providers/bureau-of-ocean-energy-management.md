@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: MarineCadastre.gov is the authoritative source for marine cadastre data and services. It provides an interactive map viewer with integrated submerged lands information including legal, property owners
@@ -47,6 +47,11 @@ apis:
   slug: espis
 artifact_total: 10
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/bureau-of-ocean-energy-management/refs/heads/main/finops/bureau-of-ocean-energy-management-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/bureau-of-ocean-energy-management-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/bureau-of-ocean-energy-management/refs/heads/main/security/bureau-of-ocean-energy-management-vulnerability-disclosure.yml
   title: ''
@@ -169,9 +174,13 @@ common:
 created: '2024-11-30'
 description: The Bureau of Ocean Energy Management (BOEM) manages the nation's offshore resources in an environmentally and economically responsible way. BOEM oversees the responsible development of U.S. Outer Continental Shelf energy and mineral resources while protecting the environment and conserving natural resources.
 finops:
-- name: Bureau Of Ocean Energy Management Finops
+- has_sources: false
+  method: generated
+  name: Bureau Of Ocean Energy Management Finops
+  primary_unit: ''
   service_category: API
   slug: bureau-of-ocean-energy-management-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bureau-of-ocean-energy-management.png
 layout: provider
 mcp_servers:
@@ -182,10 +191,10 @@ modified: '2026-09-05'
 name: Bureau of Ocean Energy Management
 nav: Providers
 network: true
-overview: 'Bureau of Ocean Energy Management publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Federal Government, Marine, Ocean, and GIS.
+overview: 'Bureau of Ocean Energy Management is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Federal Government, Marine, Ocean, and GIS.
 
 
-  Bureau of Ocean Energy Management''s developer surface includes developer portal, engineering blog, documentation, support, authentication, and 21 more developer resources.'
+  Bureau of Ocean Energy Management''s developer surface includes developer portal, engineering blog, documentation, support, authentication, and 22 more developer resources.'
 plans:
 - name: Bureau Of Ocean Energy Management Plans Pricing
   plan_count: 0
@@ -197,17 +206,17 @@ rate_limits:
   slug: bureau-of-ocean-energy-management-rate-limits
 score:
   band: thin
-  composite: 28.0
+  composite: 26.5
   coverage:
     artifact_dirs: 17
-    catalog_earned: 43.0
+    catalog_earned: 40.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 72.0
+    catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 28.9
+    access_clarity: 21.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 45.2
@@ -228,8 +237,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 25.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

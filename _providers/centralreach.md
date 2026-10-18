@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The CentralReach Enhanced API lets partner organizations connect securely to the CentralReach platform and integrate with third-party applications. Authentication is OAuth 2.0 client-credentials again
@@ -41,6 +41,14 @@ apis:
   slug: centralreach-enhanced-api
 artifact_total: 5
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://centralreach.com/news/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://centralreach.com/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/centralreach/refs/heads/main/security/centralreach-domain-security.yml
   title: ''
@@ -142,14 +150,14 @@ created: '2026-07-17'
 description: CentralReach is a healthcare software and services platform for organizations that serve children and adults diagnosed with autism and related intellectual and developmental disabilities (IDD). Its integrated practice-management and electronic-medical-record (EMR) system covers clinical data collection, scheduling, note drafting and auditing, claims management and billing, staff training and certification, and caregiver engagement across ABA therapy, multidisciplinary therapy, and special-education providers. CentralReach publishes a gated Enhanced API (OAuth 2.0 client-credentials, JWT) at partners-api.centralreach.com for securely connecting the platform to critical third-party applications, with access provisioned through a dedicated CentralReach representative. Surfaced as a portfolio company of Insight Partners and enriched by the API Evangelist pipeline.
 image: https://centralreach.com/wp-content/uploads/2022/05/logo-centralreach-navy-teal-yoast.jpg
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: CentralReach
 nav: Providers
 network: true
-overview: 'CentralReach publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, ABA Therapy, Autism, and IDD.
+overview: 'CentralReach is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, ABA Therapy, Autism, and IDD.
 
 
-  CentralReach''s developer surface includes documentation, getting-started guide, support, engineering blog, signup flow, authentication, and 16 more developer resources.'
+  CentralReach''s developer surface includes engineering blog, documentation, getting-started guide, support, signup flow, authentication, and 18 more developer resources.'
 random_paper: 6
 scopes:
 - name: Centralreach Scopes
@@ -160,7 +168,7 @@ score:
   band: thin
   composite: 36.5
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -193,8 +201,8 @@ score:
     regime: Health
     regime_id: health
     score: 36.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -221,7 +229,7 @@ tags:
 - ABA Therapy
 - Autism
 - IDD
-- EMR
+- Electronic Health Records
 - Practice Management
 - Behavioral Health
 - Special Education

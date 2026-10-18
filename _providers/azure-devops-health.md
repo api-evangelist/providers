@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Resource health helps you diagnose and get support when an Azure issue impacts your resources
@@ -66,7 +66,7 @@ modified: '2026-05-28'
 name: Azure DevOps Health
 nav: Providers
 network: true
-overview: Azure DevOps Health publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Continuous Integration, Developer Tools, and Public APIs.
+overview: Azure DevOps Health is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Continuous Integration, Developer Tools, and Public APIs.
 random_paper: 14
 score:
   band: minimal
@@ -93,8 +93,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

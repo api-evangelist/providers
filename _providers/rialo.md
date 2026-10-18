@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -86,7 +86,7 @@ modified: '2026-07-21'
 name: Rialo
 nav: Providers
 network: true
-overview: 'Rialo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto, Blockchain, Layer 1, and Infrastructure.
+overview: 'Rialo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cryptocurrency, Blockchain, Layer 1, and Infrastructure.
 
 
   Rialo''s developer surface includes documentation, engineering blog, sandbox, support, and 6 more developer resources.'
@@ -116,8 +116,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -132,7 +132,7 @@ security:
 slug: rialo
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Blockchain
 - Layer 1
 - Infrastructure

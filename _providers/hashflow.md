@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 4.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: 'REST API for takers/aggregators: discover market makers, query indicative price levels, request signed executable RFQ quotes, and check trader rate-limit restrictions. Quotes settle on-chain via Hashf'
@@ -45,6 +45,10 @@ apis:
   slug: hashflow-market-maker-api-v3
 artifact_total: 5
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.hashflow.com/blog/
 - group: company
   title: ''
   type: Website
@@ -158,18 +162,18 @@ created: '2026-07-17'
 description: Hashflow is a decentralized exchange (DEX) and the leading request-for-quote (RFQ) trading platform in crypto. Instead of an automated market maker (AMM) pricing curve, Hashflow brokers signed, off-chain-priced quotes from a network of professional market makers, giving traders zero-slippage, MEV-protected swaps across EVM chains and Solana, including cross-chain trades. Market makers publish price levels and respond to RFQs with EIP-712 signed quotes that settle on-chain via the HashflowRouter contract. Developers integrate through the Taker API v3 (market-makers, price-levels, rfq, and restrictions endpoints) and market-maker tooling, with first-party JavaScript and Python SDKs.
 image: https://www.hashflow.com/logo.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Hashflow
 nav: Providers
 network: true
-overview: 'Hashflow publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, DeFi, DEX, RFQ, and Trading.
+overview: 'Hashflow is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, DeFi, Decentralized Exchange, RFQ, and Trading.
 
 
-  Hashflow''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, support, pricing, and 17 more developer resources.'
+  Hashflow''s developer surface includes engineering blog, documentation, API reference, getting-started guide, signup flow, support, pricing, and 18 more developer resources.'
 random_paper: 2
 score:
   band: thin
-  composite: 26.6
+  composite: 26.7
   coverage:
     artifact_dirs: 14
     catalog_earned: 37.0
@@ -177,7 +181,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 23.7
     contract_governance: 4.5
@@ -196,8 +200,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 21.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -221,10 +225,10 @@ slug: hashflow
 tags:
 - Company
 - DeFi
-- DEX
+- Decentralized Exchange
 - RFQ
 - Trading
-- Crypto
+- Cryptocurrency
 - Market Making
 - Cross-Chain
 - Blockchain

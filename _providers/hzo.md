@@ -33,10 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://hzo.com/blog/rss.xml
 - group: company
   title: ''
   type: Website
@@ -102,14 +106,14 @@ created: '2026-08-22'
 description: 'HZO is a protective coating company specializing in Parylene and thin-film conformal coatings that safeguard electronics from moisture, humidity, salt fog, corrosion, and harsh chemicals. Founded in Salt Lake City and now headquartered in Raleigh, North Carolina, HZO delivers turnkey coating services and manufacturing solutions across consumer electronics, automotive and mobility, industrial, medical device, IoT, and battery markets, with coating facilities and centers of excellence in the United States, Hungary, China, and Vietnam. HZO is a physical-materials and contract-manufacturing business ("Protection from the Inside Out") rather than a software vendor: it publishes no public developer program, API, or machine-readable API contract. This profile records the public web hygiene surface it does serve — an llms.txt discovery file, an RFC 9116 security.txt, and domain security posture.'
 image: https://hzo.com/hs-fs/hubfs/hzo-logo-1.png
 layout: provider
-modified: '2026-08-22'
+modified: '2026-10-06'
 name: HZO
 nav: Providers
 network: true
 overview: 'HZO is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Electronics, Manufacturing, Coatings, and Parylene.
 
 
-  HZO''s developer surface includes engineering blog, support, and 9 more developer resources.'
+  HZO''s developer surface includes engineering blog, support, and 10 more developer resources.'
 random_paper: 7
 score:
   band: emerging
@@ -143,8 +147,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

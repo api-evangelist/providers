@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 44
+- acting_count: 42
   human_in_the_loop: 0
   name: Agile Crm Agentic Access
   operation_count: 71
   slug: agile-crm-agentic-access
-  summary_line: 71 operations · 44 acting
+  summary_line: 71 operations · 42 acting
 api_count: 1
 apis:
 - description: HTTPS-only REST API for managing contacts, companies, deals, campaigns, tasks, notes, and tickets in Agile CRM. Authentication uses HTTP Basic auth with the account email as username and the REST clie
@@ -297,7 +297,7 @@ modified: '2026-08-13'
 name: Agile CRM
 nav: Providers
 network: true
-overview: 'Agile CRM publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Campaigns API, Companies API, Contacts API, and 8 more. Tagged areas include CRM, Sales Automation, Marketing Automation, Help Desk, and Small Business.
+overview: 'Agile CRM publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Campaigns API, Companies API, Contacts API, and 8 more. Tagged areas include CRM, Sales Automation, Marketing Automation, Help Desk, and Small Business.
 
 
   The Agile CRM catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -315,15 +315,15 @@ rate_limits:
   slug: agile-crm-rate-limits
 score:
   band: developing
-  composite: 49.7
+  composite: 49.8
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 69.7
     contract_governance: 4.5
@@ -348,8 +348,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

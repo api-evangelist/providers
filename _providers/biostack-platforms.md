@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.getbiostack.com/blog?format=rss
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/biostack-platforms/refs/heads/main/security/biostack-platforms-domain-security.yml
   title: ''
@@ -69,14 +73,14 @@ created: '2026-07-17'
 description: BioStack Platforms is a San Francisco healthcare-data company (Y Combinator Spring 2026, backed by Afore Capital, Verdict, Heroic VC, and angels from Meta and Google DeepMind) building the data engine for healthcare and drug-discovery AI. It sources and structures ML-ready biomedical datasets — longitudinal, multimodal data across EHR, medical imaging, ECGs, labs, clinical notes, audio, and outcomes — and turns real clinical and preclinical workflows into training environments, evals, reward functions, and verifiable tasks for reinforcement learning and post-training. It serves biotech startups, frontier AI labs, and healthcare data companies. At profiling time BioStack publishes a marketing site and blog only; it exposes no public API, developer portal, OpenAPI, or other machine-readable developer surface, so this remains an identity-only profile in the API Evangelist network pending a public developer offering.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/biostack-platforms.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Biostack Platforms
 nav: Providers
 network: true
 overview: 'Biostack Platforms is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Artificial Intelligence, Machine Learning, and Data.
 
 
-  Biostack Platforms'' developer surface includes engineering blog, support, signup flow, and 4 more developer resources.'
+  Biostack Platforms'' developer surface includes engineering blog, support, signup flow, and 5 more developer resources.'
 random_paper: 7
 score:
   band: minimal
@@ -103,8 +107,8 @@ score:
     regime: Health
     regime_id: health
     score: 4.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

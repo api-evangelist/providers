@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -79,6 +79,20 @@ collections:
   name: Odos Information Smart Order Routing API
   slug: open-odos-smart-order-routing-api
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/odos/refs/heads/main/rate-limits/apis.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/apis.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/odos/refs/heads/main/finops/apis.yml
+  title: ''
+  type: FinOps
+  url: finops/apis.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://odos.xyz/blog/
 - group: company
   title: ''
   type: Website
@@ -156,9 +170,13 @@ examples:
   name: Examples
   slug: examples
 finops:
-- name: Apis
+- has_sources: false
+  method: generated
+  name: Apis
+  primary_unit: ''
   service_category: ''
   slug: apis
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/odos.png
 json_schemas:
 - name: Odos API Schemas
@@ -170,17 +188,17 @@ jsonld:
   property_count: 44
   slug: context
 layout: provider
-modified: '2026-06-14'
+modified: '2026-10-06'
 name: Odos
 nav: Providers
 network: true
-overview: 'Odos publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Information API, Pricing API, Smart Order Routing API, and 2 more. Tagged areas include DEX, Aggregator, DeFi, Token Swaps, and Liquidity.
+overview: 'Odos publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Information API, Pricing API, Smart Order Routing API, and 2 more. Tagged areas include Decentralized Exchange, Aggregator, DeFi, Token Swaps, and Liquidity.
 
 
   The Odos catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Odos'' developer surface includes developer portal, documentation, FAQ, status page, GitHub presence, and 12 more developer resources.'
+  Odos'' developer surface includes engineering blog, developer portal, documentation, FAQ, status page, GitHub presence, and 14 more developer resources.'
 plans:
 - name: Apis
   plan_count: 4
@@ -191,9 +209,10 @@ rate_limits:
   name: Apis
   slug: apis
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: Odos API Rules
+  name: Odos — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -203,20 +222,20 @@ rules:
   slug: odos-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 32.2
+  composite: 27.0
   coverage:
-    artifact_dirs: 14
-    catalog_earned: 62.1
+    artifact_dirs: 15
+    catalog_earned: 51.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.0
+    catalog_gap: 63.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.2
   facets:
-    access_clarity: 41.6
+    access_clarity: 13.2
     contract_governance: 9.8
     contract_quality: 47.1
-    developer_ergonomics: 23.8
+    developer_ergonomics: 26.2
     discoverability: 66.1
     operational_transparency: 5.3
   previous_composite: 32.2
@@ -229,13 +248,13 @@ score:
       total: 3
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
-    score: 12.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+    matched_via: tags
+    regime: Securities & Market Data
+    regime_id: securities_market_data
+    score: 17.6
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0
@@ -247,7 +266,7 @@ security:
   summary_line: TLSv1.3 · DNSSEC · DMARC
 slug: odos
 tags:
-- DEX
+- Decentralized Exchange
 - Aggregator
 - DeFi
 - Token Swaps

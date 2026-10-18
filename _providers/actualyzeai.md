@@ -32,10 +32,23 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
-artifact_total: 1
+artifact_total: 2
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/actualyzeai/refs/heads/main/plans/actualyzeai-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/actualyzeai-plans-pricing.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://actualyze.ai/insights/feed
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://actualyze.ai/feed.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/actualyzeai/refs/heads/main/security/actualyzeai-domain-security.yml
   title: ''
@@ -94,28 +107,32 @@ created: '2026-07-17'
 description: Actualyze AI is an enterprise AI governance and management company building tools that give organizations the visibility and control they need to adopt AI at scale without slowing their teams down. Founded by Rafi Khardalian (CEO) and Sean Lynch (CTO) — veterans of building and operating distributed systems at global scale — the company designs for regulated industries from day one, embedding compliance, defense-in-depth data protection, comprehensive audit logging, and continuous monitoring into the platform rather than bolting it on. Surfaced as a portfolio company of Canaan Partners and added to the API Evangelist network.
 image: https://actualyze.ai/og-default.png
 layout: provider
-modified: '2026-07-17'
+modified: '2026-10-06'
 name: Actualyze AI
 nav: Providers
 network: true
 overview: 'Actualyze AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Governance, Enterprise AI, and Compliance.
 
 
-  Actualyze AI''s developer surface includes engineering blog, pricing, support, and 10 more developer resources.'
+  Actualyze AI''s developer surface includes engineering blog, pricing, support, and 13 more developer resources.'
+plans:
+- name: Actualyzeai Plans Pricing
+  plan_count: 2
+  slug: actualyzeai-plans-pricing
 random_paper: 14
 score:
   band: emerging
-  composite: 13.2
+  composite: 17.5
   coverage:
-    artifact_dirs: 6
-    catalog_earned: 27.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 88.0
+    artifact_dirs: 8
+    catalog_earned: 35.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 4.3
   facets:
-    access_clarity: 31.6
+    access_clarity: 52.6
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
@@ -128,8 +145,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 12.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

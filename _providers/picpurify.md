@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.3
-  scored_at: '2026-10-04'
+  score: 15.4
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -65,6 +65,21 @@ collections:
   name: PicPurify Image and Video Moderation Image Analysis Video Analysis API
   slug: open-picpurify-video-analysis-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/picpurify/refs/heads/main/plans/picpurify-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/picpurify-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/picpurify/refs/heads/main/rate-limits/picpurify-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/picpurify-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/picpurify/refs/heads/main/finops/picpurify-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/picpurify-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/picpurify/refs/heads/main/agentic-access/picpurify-agentic-access.yml
   title: ''
@@ -98,19 +113,23 @@ common:
 created: '2025-02-17'
 description: PicPurify provides image and video moderation services including gun and knife weapon detection, nudity, drug, gore, hate sign, age, gender, and other content moderation tasks. Pictures showing someone posing with a firearm or holding a knife can offend visitors, shock young minds and displease advertisers - PicPurify detects these images so they can be filtered before publication.
 finops:
-- name: Picpurify Finops
+- has_sources: false
+  method: generated
+  name: Picpurify Finops
+  primary_unit: ''
   service_category: API
   slug: picpurify-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/picpurify.png
 layout: provider
 modified: '2026-05-19'
 name: PicPurify
 nav: Providers
 network: true
-overview: 'PicPurify publishes 2 APIs on the [APIs.io](https://apis.io/) network: Image Analysis API and Video Analysis API. Tagged areas include Image Moderation, Content Moderation, Computer Vision, and Weapon Detection.
+overview: 'PicPurify publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Image Analysis API and Video Analysis API. Tagged areas include Image Moderation, Content Moderation, Computer Vision, and Weapon Detection.
 
 
-  PicPurify''s developer surface includes documentation, pricing, signup flow, and 4 more developer resources.'
+  PicPurify''s developer surface includes documentation, pricing, signup flow, and 7 more developer resources.'
 plans:
 - name: Picpurify Plans Pricing
   plan_count: 3
@@ -122,17 +141,17 @@ rate_limits:
   slug: picpurify-rate-limits
 score:
   band: emerging
-  composite: 23.6
+  composite: 22.1
   coverage:
     artifact_dirs: 9
-    catalog_earned: 36.0
+    catalog_earned: 33.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 79.0
+    catalog_gap: 82.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 28.9
+    access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 43.5
     developer_ergonomics: 16.7
@@ -152,8 +171,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

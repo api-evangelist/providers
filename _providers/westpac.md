@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: First-party Westpac payment API (beyond CDR). PayWay is Westpac's merchant payment platform; its public REST API v1 processes real-time credit-card and bank-account payments, refunds, pre-authorisatio
@@ -104,6 +104,10 @@ collections:
   name: CDR Banking Banking Account Balances Banking Products API
   slug: open-westpac-banking-products-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.westpac.com.au/news/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/westpac/refs/heads/main/capabilities/westpac-capability-edges.yml
   title: ''
@@ -237,31 +241,31 @@ created: '2026-07-20'
 description: Westpac Banking Corporation is Australia's oldest bank and company, founded in 1817 as the Bank of New South Wales, and is one of the country's "Big Four" banks. Headquartered in Sydney, it is a publicly listed company on the Australian Securities Exchange (ASX:WBC), not a customer-owned mutual, and operates a multi-brand group that includes St.George, BankSA, Bank of Melbourne, and RAMS. As an authorised deposit-taking institution (ADI) regulated by APRA, Westpac is a designated data holder under Australia's Consumer Data Right (CDR / Open Banking) regime and exposes a public, unauthenticated Product Reference Data (PRD) API conforming to the DSB Consumer Data Standards. Consumer and account data sharing beyond product reference data is available only to accredited data recipients through the CDR's authenticated, consent-driven channels.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/westpac.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Westpac
 nav: Providers
 network: true
-overview: 'Westpac publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Banking Corporation Banking Account Balances API, Banking Corporation Banking Account Direct Debits API, Banking Corporation Banking Account Scheduled Payments API, and 6 more. Tagged areas include Finance, Banks, Open Banking, CDR, and Consumer Banking.
+overview: 'Westpac publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Banking Corporation Banking Account Balances API, Banking Corporation Banking Account Direct Debits API, Banking Corporation Banking Account Scheduled Payments API, and 6 more. Tagged areas include Finance, Banks, Open Banking, CDR, and Consumer Banking.
 
 
-  Westpac''s developer surface includes documentation, authentication, changelog, sandbox, getting-started guide, API reference, and 22 more developer resources.'
+  Westpac''s developer surface includes engineering blog, documentation, authentication, changelog, sandbox, getting-started guide, API reference, and 22 more developer resources.'
 random_paper: 11
 score:
   band: developing
-  composite: 46.0
+  composite: 46.5
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 22
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 42.1
     contract_governance: 4.5
     contract_quality: 47.8
-    developer_ergonomics: 58.9
+    developer_ergonomics: 61.3
     discoverability: 73.2
     operational_transparency: 28.9
   jurisdiction:
@@ -287,8 +291,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 40.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 23
 apis:
 - description: Endpoints for MLS listings data assembled by Anywhere's MLS Data Platform (MDP), which downloads, processes and enriches listings from multiple MLS sources. Returns listings in canonical RESO format e
@@ -290,7 +290,7 @@ modified: '2026-07-26'
 name: Anywhere Real Estate
 nav: Providers
 network: true
-overview: 'Anywhere Real Estate publishes 23 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Real Estate, United States, Property Listings, MLS, and RESO.
+overview: 'Anywhere Real Estate is listed with 23 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Real Estate, United States, Property Listings, MLS, and RESO.
 
 
   Anywhere Real Estate''s developer surface includes authentication, changelog, sandbox, developer portal, documentation, getting-started guide, signup flow, and 32 more developer resources.'
@@ -304,7 +304,7 @@ score:
   band: thin
   composite: 38.9
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -334,8 +334,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 37.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

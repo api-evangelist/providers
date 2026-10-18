@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Terex digital solutions including MyTerex fleet management, Connected Dealer Inventory (CDI), and telematics data access for real-time machine monitoring, performance dashboards, and predictive mainte
@@ -41,6 +41,21 @@ apis:
   slug: terex-telematics
 artifact_total: 6
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/terex/refs/heads/main/plans/terex-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/terex-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/terex/refs/heads/main/rate-limits/terex-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/terex-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/terex/refs/heads/main/finops/terex-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/terex-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/terex/refs/heads/main/security/terex-domain-security.yml
   title: ''
@@ -73,9 +88,13 @@ common:
 created: '2026-05-03'
 description: Terex Corporation is a global manufacturer of aerial work platforms and materials processing equipment. Terex provides digital telematics solutions through its MyTerex platform and Connect by Terex for remote diagnostics, fleet management, and predictive maintenance of construction and industrial equipment.
 finops:
-- name: Terex Finops
+- has_sources: false
+  method: generated
+  name: Terex Finops
+  primary_unit: ''
   service_category: API
   slug: terex-finops
+  template: true
 image: https://www.terex.com/content/dam/terex/logos/terex-logo.png
 jsonld:
 - class_count: 6
@@ -87,13 +106,13 @@ modified: '2026-05-03'
 name: Terex
 nav: Providers
 network: true
-overview: 'Terex publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Aerial Work Platforms, Construction Equipment, Fleet Management, Manufacturing, and Materials Processing.
+overview: 'Terex is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Aerial Work Platforms, Construction Equipment, Fleet Management, Manufacturing, and Materials Processing.
 
 
   The Terex catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Terex''s developer surface includes support, engineering blog, and 5 more developer resources.'
+  Terex''s developer surface includes support, engineering blog, and 8 more developer resources.'
 plans:
 - name: Terex Plans Pricing
   plan_count: 3
@@ -121,17 +140,17 @@ rate_limits:
   slug: terex-rate-limits
 score:
   band: emerging
-  composite: 17.8
+  composite: 16.3
   coverage:
     artifact_dirs: 11
-    catalog_earned: 56.5
+    catalog_earned: 53.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 58.5
+    catalog_gap: 61.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 13.6
     contract_quality: 14.7
     developer_ergonomics: 16.7
@@ -144,8 +163,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

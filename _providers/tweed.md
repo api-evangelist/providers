@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Legacy marketplace/collections API — obtain a JWT with your API key and secret, then manage NFT collections and in-platform tokens for token checkout.
@@ -255,7 +255,7 @@ modified: '2026-07-21'
 name: Tweed
 nav: Providers
 network: true
-overview: 'Tweed publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Assets API, Audit Event Mappings API, Auth API, and 9 more. Tagged areas include Company, Payments, Crypto, Wallets, and NFT.
+overview: 'Tweed publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including Assets API, Audit Event Mappings API, Auth API, and 9 more. Tagged areas include Company, Payments, Cryptocurrency, Wallets, and NFT.
 
 
   The Tweed catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -297,8 +297,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 19.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -317,7 +317,7 @@ slug: tweed
 tags:
 - Company
 - Payments
-- Crypto
+- Cryptocurrency
 - Wallets
 - NFT
 - Blockchain

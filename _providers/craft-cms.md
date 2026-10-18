@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 15.5
-  scored_at: '2026-10-04'
+  score: 13.6
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: 'Auto-generated GraphQL API providing schema-based access to Craft CMS content including entries, assets, categories, tags, and custom fields. Access is controlled via bearer token authentication tied '
@@ -113,9 +113,13 @@ common:
 created: '2026-06-12'
 description: Craft CMS is a flexible, self-hosted PHP content management system built on Yii 2, designed for creating bespoke digital experiences. It features an auto-generated GraphQL API for headless implementations, enabling queries against entries, assets, categories, and custom fields via token-based authentication. The Element API plugin extends Craft with configurable JSON REST endpoints for any element type, using URL pattern routing and the Fractal transformation library. Craft supports multi-site architecture, unlimited content types, and is deployable on-premise or via Craft Cloud, the official managed hosting platform.
 finops:
-- name: Craft Cms Finops
+- has_sources: true
+  method: generated
+  name: Craft Cms Finops
+  primary_unit: ''
   service_category: Developer Tools
   slug: craft-cms-finops
+  template: false
 graphqls:
 - description: 'Craft CMS includes a built-in, auto-generated GraphQL API available since version 3.3. The schema exposes all content elements — entries, assets, categories, tags, global sets, users, and addresses — '
   name: Craft CMS GraphQL API
@@ -131,7 +135,7 @@ modified: '2026-06-12'
 name: Craft CMS
 nav: Providers
 network: true
-overview: 'Craft CMS publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include CMS, Content Management, GraphQL, REST, and Headless.
+overview: 'Craft CMS is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include CMS, Content Management, GraphQL, REST, and Headless.
 
 
   The Craft CMS catalog on APIs.io includes 1 JSON-LD context.
@@ -148,23 +152,23 @@ rate_limits:
   name: Craft Cms Rate Limits
   slug: craft-cms-rate-limits
 score:
-  band: thin
-  composite: 33.0
+  band: emerging
+  composite: 25.6
   coverage:
     artifact_dirs: 9
-    catalog_earned: 66.0
+    catalog_earned: 50.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 49.0
+    catalog_gap: 65.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.4
   facets:
-    access_clarity: 46.8
+    access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 42.6
     developer_ergonomics: 11.9
     discoverability: 66.1
-    operational_transparency: 29.5
+    operational_transparency: 15.8
   previous_composite: 33.0
   regulatory:
     applies: true
@@ -172,9 +176,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

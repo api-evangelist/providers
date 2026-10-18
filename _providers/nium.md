@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 6
 apis:
 - description: Cross-border payouts to bank accounts, cards and wallets in 220+ countries with real-time delivery in 100+.
@@ -56,6 +56,21 @@ apis:
   slug: nium-onboarding-api
 artifact_total: 10
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/nium/refs/heads/main/plans/nium-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/nium-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/nium/refs/heads/main/rate-limits/nium-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/nium-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/nium/refs/heads/main/finops/nium-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/nium-finops.yml
 - group: company
   title: ''
   type: Website
@@ -72,19 +87,23 @@ common:
 created: '2026-05-08'
 description: Nium is a global payments infrastructure platform for cross-border payouts, collections, FX, and card issuing. Serves financial institutions, fintechs, and corporates with a single API.
 finops:
-- name: Nium Finops
+- has_sources: true
+  method: generated
+  name: Nium Finops
+  primary_unit: ''
   service_category: Fintech
   slug: nium-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nium.png
 layout: provider
 modified: '2026-09-16'
 name: Nium
 nav: Providers
 network: true
-overview: 'Nium publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Fintech, Cross-Border, Payments, FX, and Issuing.
+overview: 'Nium is listed with 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Fintech, Cross-Border, Payments, Foreign Exchange, and Issuing.
 
 
-  Nium''s developer surface includes engineering blog and 2 more developer resources.'
+  Nium''s developer surface includes engineering blog and 5 more developer resources.'
 plans:
 - name: Nium Plans Pricing
   plan_count: 1
@@ -96,17 +115,17 @@ rate_limits:
   slug: nium-rate-limits
 score:
   band: minimal
-  composite: 9.8
+  composite: 8.3
   coverage:
-    artifact_dirs: 7
-    catalog_earned: 42.0
+    artifact_dirs: 8
+    catalog_earned: 39.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 73.0
+    catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 13.2
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
@@ -119,8 +138,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 5.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -137,7 +156,7 @@ tags:
 - Fintech
 - Cross-Border
 - Payments
-- FX
+- Foreign Exchange
 - Issuing
 - Cross-Border Payments
 website: https://nium.com

@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.7
-  scored_at: '2026-10-04'
+  score: 25.8
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -144,6 +144,16 @@ collections:
   name: SAP HANA Cloud REST Alerts Metrics API
   slug: open-sap-hana-metrics-api
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/sap-hana/refs/heads/main/rate-limits/sap-hana-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/sap-hana-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sap-hana/refs/heads/main/finops/sap-hana-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/sap-hana-finops.yml
 - group: commercial
   href: https://raw.githubusercontent.com/api-evangelist/sap-hana/refs/heads/main/plans/sap-hana-plans-pricing.yml
   title: ''
@@ -356,9 +366,13 @@ features:
 - description: Real-time and batch data replication from heterogeneous sources with built-in data quality.
   name: Smart Data Integration
 finops:
-- name: Sap Hana Finops
+- has_sources: true
+  method: generated
+  name: Sap Hana Finops
+  primary_unit: ''
   service_category: Database
   slug: sap-hana-finops
+  template: false
 image: https://www.sap.com/content/dam/application/shared/logos/sap-logo-svg.svg
 integrations:
 - description: Native integration with SAP Business Technology Platform for enterprise application development.
@@ -589,13 +603,13 @@ modified: '2026-09-16'
 name: SAP HANA
 nav: Providers
 network: true
-overview: 'SAP HANA publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Alerts API, Instance Mappings API, Instances API, and 14 more. Tagged areas include Analytics, Cloud, Database, Enterprise, and In-Memory.
+overview: 'SAP HANA publishes 17 API contracts indexed on the [APIs.io](https://apis.io/) network, including Alerts API, Instance Mappings API, Instances API, and 14 more. Tagged areas include Analytics, Cloud, Database, Enterprise, and In-Memory.
 
 
   The SAP HANA catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  SAP HANA''s developer surface includes authentication, support, pricing, getting-started guide, and 17 more developer resources.'
+  SAP HANA''s developer surface includes authentication, support, pricing, getting-started guide, and 19 more developer resources.'
 plans:
 - name: Sap Hana Plans Pricing
   plan_count: 0
@@ -606,9 +620,10 @@ rate_limits:
   name: Sap Hana Rate Limits
   slug: sap-hana-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: SAP HANA API Rules
+  name: SAP HANA — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -616,7 +631,8 @@ rules:
     info: 2
     warn: 4
   slug: sap-hana-jsonschema-spectral-rules
-- effective_rule_count: 61
+- authorship: generated
+  effective_rule_count: 61
   extends:
   - spectral:oas
   name: SAP HANA API Rules
@@ -634,23 +650,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 45.3
+  composite: 43.8
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 58.5
+    artifact_dirs: 20
+    catalog_earned: 55.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 56.5
+    catalog_gap: 59.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -1.5
   facets:
-    access_clarity: 39.5
+    access_clarity: 31.6
     contract_governance: 13.6
     contract_quality: 69.8
     developer_ergonomics: 27.4
     discoverability: 64.3
     operational_transparency: 26.3
-  previous_composite: 44.8
+  previous_composite: 45.3
   provenance:
     agentic_access: derived
     contracts:
@@ -664,8 +680,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

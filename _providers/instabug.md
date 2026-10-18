@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.0
-  scored_at: '2026-10-04'
+  score: 27.8
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -370,9 +370,13 @@ features:
 - 'Retention: Crash 180d, Bug 365d, APM 8w, Session Replay 4w, Surveys 365d'
 - 100 Observer seats included on Enterprise plans
 finops:
-- name: Instabug Finops
+- has_sources: true
+  method: generated
+  name: Instabug Finops
+  primary_unit: ''
   service_category: Mobile Observability
   slug: instabug-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/instabug.png
 integrations:
 - 'Project Management: Jira, Trello, Asana, ClickUp, Basecamp (v2 & v3), Shortcut, Pivotal Tracker, Teamwork Projects, Manuscript, Microsoft Azure DevOps, Phabricator'
@@ -420,7 +424,7 @@ modified: '2026-05-23'
 name: Instabug (Luciq)
 nav: Providers
 network: true
-overview: 'Instabug (Luciq) publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Luciq Webhooks, App Hangs API, Applications API, and 10 more. Tagged areas include AI Agents, APM, Application Performance Monitoring, Bug Reporting, and Crash Reporting.
+overview: 'Instabug (Luciq) publishes 13 API contracts indexed on the [APIs.io](https://apis.io/) network, including Luciq Webhooks, App Hangs API, Applications API, and 10 more. Tagged areas include AI Agents, APM, Application Performance Monitoring, Bug Reporting, and Crash Reporting.
 
 
   The Instabug (Luciq) catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -437,10 +441,11 @@ rate_limits:
   name: Instabug Rate Limits
   slug: instabug-rate-limits
 rules:
-- effective_rule_count: 33
+- authorship: generated
+  effective_rule_count: 33
   extends:
   - spectral:asyncapi
-  name: Instabug (Luciq) API Rules
+  name: Instabug (Luciq) — asyncapi rules
   rule_count: 6
   severity_counts:
     error: 1
@@ -448,9 +453,10 @@ rules:
     info: 0
     warn: 5
   slug: instabug-asyncapi-spectral-rules
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Instabug (Luciq) API Rules
+  name: Instabug (Luciq) — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -458,7 +464,8 @@ rules:
     info: 1
     warn: 4
   slug: instabug-jsonschema-spectral-rules
-- effective_rule_count: 50
+- authorship: unmarked
+  effective_rule_count: 50
   extends:
   - spectral:oas
   name: Instabug (Luciq) API Rules
@@ -476,22 +483,22 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 51.0
+  composite: 42.7
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 67.6
+    artifact_dirs: 21
+    catalog_earned: 49.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 47.4
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 53.4
+    access_clarity: 25.0
     contract_governance: 27.3
     contract_quality: 56.4
     developer_ergonomics: 50.0
     discoverability: 51.8
-    operational_transparency: 46.8
+    operational_transparency: 26.3
   previous_composite: 51.0
   provenance:
     agentic_access: derived
@@ -506,9 +513,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

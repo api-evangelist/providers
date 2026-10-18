@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.0
-  scored_at: '2026-10-04'
+  score: 27.8
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -75,6 +75,21 @@ collections:
   name: KEDA Metrics API
   slug: open-keda-metrics-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/keda/refs/heads/main/plans/keda-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/keda-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/keda/refs/heads/main/rate-limits/keda-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/keda-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/keda/refs/heads/main/finops/keda-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/keda-finops.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -177,9 +192,13 @@ common:
 created: '2025-01-01'
 description: KEDA (Kubernetes Event Driven Autoscaling) is a CNCF graduated application autoscaler that drives scaling of any container in Kubernetes based on the number of events needing to be processed. It extends Kubernetes with custom resources for defining scaling behavior and supports over 50 built-in scalers for event sources including Kafka, RabbitMQ, AWS SQS, Azure Service Bus, and Prometheus.
 finops:
-- name: Keda Finops
+- has_sources: true
+  method: generated
+  name: Keda Finops
+  primary_unit: ''
   service_category: Open-Source Kubernetes Autoscaling
   slug: keda-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/keda.png
 json_schemas:
 - name: KEDA CloudEvent
@@ -198,13 +217,13 @@ modified: '2026-05-19'
 name: KEDA
 nav: Providers
 network: true
-overview: 'KEDA publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Metrics API, CloudEventSource API, and 3 more. Tagged areas include Auto-Scaling, CNCF, Event-Driven, Graduated, and Kubernetes.
+overview: 'KEDA is listed with 5 APIs on the [APIs.io](https://apis.io/) network, including Metrics API, CloudEventSource API, and 3 more. Tagged areas include Auto-Scaling, CNCF, Event-Driven, Graduated, and Kubernetes.
 
 
   The KEDA catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  KEDA''s developer surface includes authentication, documentation, getting-started guide, engineering blog, changelog, Stack Overflow tag, and 17 more developer resources.'
+  KEDA''s developer surface includes authentication, documentation, getting-started guide, engineering blog, changelog, Stack Overflow tag, and 20 more developer resources.'
 plans:
 - name: Keda Plans Pricing
   plan_count: 1
@@ -215,10 +234,11 @@ rate_limits:
   name: Keda Rate Limits
   slug: keda-rate-limits
 rules:
-- effective_rule_count: 34
+- authorship: generated
+  effective_rule_count: 34
   extends:
   - spectral:asyncapi
-  name: KEDA API Rules
+  name: KEDA — asyncapi rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -226,9 +246,10 @@ rules:
     info: 0
     warn: 6
   slug: keda-asyncapi-spectral-rules
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: KEDA API Rules
+  name: KEDA — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -238,17 +259,17 @@ rules:
   slug: keda-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 46.9
+  composite: 45.6
   coverage:
-    artifact_dirs: 15
-    catalog_earned: 63.5
+    artifact_dirs: 16
+    catalog_earned: 60.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 51.5
+    catalog_gap: 54.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.3
   facets:
-    access_clarity: 13.2
+    access_clarity: 5.3
     contract_governance: 13.6
     contract_quality: 67.3
     developer_ergonomics: 45.2
@@ -271,8 +292,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

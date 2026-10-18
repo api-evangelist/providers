@@ -32,10 +32,19 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
-artifact_total: 0
+artifact_total: 1
 common:
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.salesforce.com/agentforce/pricing/?bc=OTH
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/cquotient/refs/heads/main/plans/cquotient-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/cquotient-plans-pricing.yml
 - group: company
   title: ''
   type: Website
@@ -63,32 +72,30 @@ network: true
 overview: 'CQuotient is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Commerce, E-Commerce, Personalization, and Artificial Intelligence.
 
 
-  CQuotient''s developer surface includes documentation, API reference, and 2 more developer resources.'
+  CQuotient''s developer surface includes pricing, documentation, API reference, and 3 more developer resources.'
+plans:
+- name: Cquotient Plans Pricing
+  plan_count: 8
+  slug: cquotient-plans-pricing
 random_paper: 20
 score:
-  band: minimal
-  composite: 5.8
+  band: emerging
+  composite: 14.3
   coverage:
-    artifact_dirs: 2
-    catalog_earned: 27.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 88.0
+    artifact_dirs: 4
+    catalog_earned: 39.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 8.5
   facets:
-    access_clarity: 0.0
+    access_clarity: 42.1
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 16.7
     discoverability: 48.2
     operational_transparency: 0.0
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: never_enriched
   previous_composite: 5.8
   regulatory:
     applies: true
@@ -96,9 +103,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 0.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Impart Security's v0 REST management API — programmatically manage specs, API/log bindings, connectors, core rules, rule scripts and recipes, lists, labels, tags, event monitors, and notification temp
@@ -42,6 +42,10 @@ apis:
   slug: impart-security-v0-rest-api
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.impart.ai/blog/rss.xml
 - group: company
   title: ''
   type: Website
@@ -117,18 +121,18 @@ created: '2026-07-17'
 description: Impart Security is a runtime security platform that unifies WAF, API security, and AI/LLM/agent/MCP protection on one inline enforcement engine. It analyzes the full request/response flow — headers, parameters, query strings, and bodies — models API behavior with machine learning, detects anomalies from a learned baseline, and takes inline mitigation actions (alert, block, behavioral rate limiting, deception, tarpits) before requests reach backend systems. Impart also auto-generates OpenAPI documentation from live traffic, integrates with gateways such as Kong, and ships a programmable rules engine managed as code via first-party Terraform and Pulumi providers against its v0 REST API. Founded by Jonathan DiVincenzo, Marc Harrison, and Brian Joe; backed by Madrona, CRV, 8-bit Capital, and Haystack. SOC 2 Type II certified and GDPR ready.
 image: https://cdn.prod.website-files.com/69c2a371d79849d9c09b537d/6a086ac25135439db8499dee_64b88db668b71259bd9720385d8dde1e_Impart%20Open%20Graph.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Impart Security
 nav: Providers
 network: true
-overview: 'Impart Security publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, API Security, Runtime Protection, and WAF.
+overview: 'Impart Security is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, API Security, Runtime Protection, and WAF.
 
 
-  Impart Security''s developer surface includes documentation, engineering blog, signup flow, support, authentication, and 11 more developer resources.'
+  Impart Security''s developer surface includes documentation, engineering blog, signup flow, support, authentication, and 12 more developer resources.'
 random_paper: 2
 score:
   band: emerging
-  composite: 23.8
+  composite: 23.9
   coverage:
     artifact_dirs: 10
     catalog_earned: 37.0
@@ -136,7 +140,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 31.6
     contract_governance: 18.2
@@ -153,8 +157,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 25.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

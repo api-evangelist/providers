@@ -32,10 +32,23 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
-artifact_total: 1
+artifact_total: 2
 common:
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.sainapse.ai/pricing
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sainapse/refs/heads/main/plans/sainapse-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/sainapse-plans-pricing.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.sainapse.ai/blog
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/sainapse/refs/heads/main/security/sainapse-domain-security.yml
   title: ''
@@ -75,31 +88,35 @@ created: '2026-07-17'
 description: Sainapse, built by Bayestree Intelligence, is a unified, explainable AI engine for customer support, outreach, and operations that is embedded directly in an enterprise's environment. It connects to existing integrations to source real-time data for autonomous resolution, grounds every response in verified sources of data, and can act as an agent copilot (next best actions, suggested responses) or as an autonomous agent. Sainapse learns from human-in-the-loop corrections and evolving business rules, supports 220+ integrations, and is offered as a hosted service or deployed on-premises. It publishes SOC 2, HIPAA, ISO 27001, and GDPR compliance. Sainapse is an enterprise, demo-led product with no public self-serve API, developer portal, or machine-readable specification at this time.
 image: https://framerusercontent.com/assets/4rXmFdrSY82YyZS8UOUbYkRR8.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Sainapse
 nav: Providers
 network: true
-overview: 'Sainapse is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Customer Support, Customer Experience, and Support Automation.
+overview: 'Sainapse is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Customer Service, Customer Experience, and Support Automation.
 
 
-  Sainapse''s developer surface includes support and 7 more developer resources.'
+  Sainapse''s developer surface includes pricing, engineering blog, support, and 8 more developer resources.'
+plans:
+- name: Sainapse Plans Pricing
+  plan_count: 3
+  slug: sainapse-plans-pricing
 random_paper: 16
 score:
-  band: minimal
-  composite: 9.4
+  band: emerging
+  composite: 18.3
   coverage:
-    artifact_dirs: 4
-    catalog_earned: 27.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 88.0
+    artifact_dirs: 6
+    catalog_earned: 39.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 8.9
   facets:
-    access_clarity: 7.9
+    access_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 4.8
+    developer_ergonomics: 7.1
     discoverability: 48.2
     operational_transparency: 0.0
   previous_composite: 9.4
@@ -117,9 +134,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 14.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -134,7 +151,7 @@ slug: sainapse
 tags:
 - Company
 - Artificial Intelligence
-- Customer Support
+- Customer Service
 - Customer Experience
 - Support Automation
 - Explainable AI

@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.5
-  scored_at: '2026-10-04'
+  score: 23.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -146,6 +146,16 @@ collections:
   name: Sybase ASE REST Backups Users API
   slug: open-sybase-users-api
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/sybase/refs/heads/main/rate-limits/sybase-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/sybase-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sybase/refs/heads/main/finops/sybase-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/sybase-finops.yml
 - group: commercial
   href: https://raw.githubusercontent.com/api-evangelist/sybase/refs/heads/main/plans/sybase-plans-pricing.yml
   title: ''
@@ -270,9 +280,13 @@ examples:
   name: Sybase List Databases Example
   slug: sybase-list-databases-example
 finops:
-- name: Sybase Finops
+- has_sources: true
+  method: generated
+  name: Sybase Finops
+  primary_unit: ''
   service_category: Enterprise Database
   slug: sybase-finops
+  template: false
 json_schemas:
 - name: Backup
   property_count: 8
@@ -339,13 +353,13 @@ modified: '2026-08-21'
 name: Sybase
 nav: Providers
 network: true
-overview: 'Sybase publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Backups API, Configuration API, Databases API, and 9 more. Tagged areas include Database, Enterprise, SAP, and SQL.
+overview: 'Sybase publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including Backups API, Configuration API, Databases API, and 9 more. Tagged areas include Database, Enterprise, SAP, and SQL.
 
 
   The Sybase catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Sybase''s developer surface includes authentication, developer portal, support, engineering blog, documentation, getting-started guide, changelog, and 20 more developer resources.'
+  Sybase''s developer surface includes authentication, developer portal, support, engineering blog, documentation, getting-started guide, changelog, and 22 more developer resources.'
 plans:
 - name: Sybase Plans Pricing
   plan_count: 0
@@ -356,9 +370,10 @@ rate_limits:
   name: Sybase Rate Limits
   slug: sybase-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Sybase API Rules
+  name: Sybase — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -366,7 +381,8 @@ rules:
     info: 2
     warn: 3
   slug: sybase-jsonschema-spectral-rules
-- effective_rule_count: 49
+- authorship: unmarked
+  effective_rule_count: 49
   extends:
   - spectral:oas
   name: Sybase API Rules
@@ -379,17 +395,17 @@ rules:
   slug: sybase-rules
 score:
   band: developing
-  composite: 42.4
+  composite: 40.9
   coverage:
     artifact_dirs: 19
-    catalog_earned: 42.5
+    catalog_earned: 39.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 72.5
+    catalog_gap: 75.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 46.1
+    access_clarity: 38.2
     contract_governance: 13.6
     contract_quality: 53.8
     developer_ergonomics: 41.7
@@ -409,8 +425,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

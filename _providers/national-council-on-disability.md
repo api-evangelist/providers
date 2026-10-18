@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: FOIA-accessible data from the National Council on Disability including performance and results act reports, congressional budget justification reports, financial audit reports, strategic plans, bylaws
@@ -47,6 +47,11 @@ apis:
   slug: ncd-accountability-data
 artifact_total: 42
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/national-council-on-disability/refs/heads/main/finops/national-council-on-disability-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/national-council-on-disability-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/national-council-on-disability/refs/heads/main/security/national-council-on-disability-domain-security.yml
   title: ''
@@ -264,9 +269,13 @@ features:
 - description: Press releases, newsroom updates, and letters to federal agency stakeholders documenting NCD's ongoing policy engagement and recommendations.
   name: Newsroom and Stakeholder Letters
 finops:
-- name: National Council On Disability Finops
+- has_sources: false
+  method: generated
+  name: National Council On Disability Finops
+  primary_unit: ''
   service_category: API
   slug: national-council-on-disability-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/national-council-on-disability.png
 integrations:
 - description: NCD's work intersects with the Americans with Disabilities Act guidance provided through ADA.gov maintained by the Department of Justice.
@@ -319,13 +328,13 @@ modified: '2026-09-14'
 name: National Council on Disability
 nav: Providers
 network: true
-overview: 'National Council on Disability publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Disability, Federal Government, Policy, Civil Rights, and Healthcare.
+overview: 'National Council on Disability is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Disability, Federal Government, Policy, Civil Rights, and Healthcare.
 
 
   The National Council on Disability catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  National Council on Disability''s developer surface includes documentation, code examples, engineering blog, support, FAQ, and 32 more developer resources.'
+  National Council on Disability''s developer surface includes documentation, code examples, engineering blog, support, FAQ, and 33 more developer resources.'
 plans:
 - name: National Council On Disability Plans Pricing
   plan_count: 0
@@ -336,9 +345,10 @@ rate_limits:
   name: National Council On Disability Rate Limits
   slug: national-council-on-disability-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: National Council on Disability API Rules
+  name: National Council on Disability — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -348,17 +358,17 @@ rules:
   slug: national-council-on-disability-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 21.4
+  composite: 19.9
   coverage:
     artifact_dirs: 16
-    catalog_earned: 50.8
+    catalog_earned: 47.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 64.3
+    catalog_gap: 67.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 23.5
     contract_quality: 13.2
     developer_ergonomics: 16.7
@@ -378,8 +388,8 @@ score:
     regime: Health
     regime_id: health
     score: 17.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

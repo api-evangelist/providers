@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.6
-  scored_at: '2026-10-04'
+  score: 28.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -112,6 +112,21 @@ collections:
   name: WattTime API
   slug: open-watttime
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/watttime/refs/heads/main/plans/watttime-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/watttime-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/watttime/refs/heads/main/rate-limits/watttime-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/watttime-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/watttime/refs/heads/main/finops/watttime-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/watttime-finops.yml
 - group: company
   title: ''
   type: Website
@@ -240,9 +255,13 @@ features:
 - description: Date-based model versioning (e.g., 2026-03-01) allowing unique versions per region and signal for reproducibility and comparison.
   name: Model Versioning
 finops:
-- name: Watttime Finops
+- has_sources: false
+  method: generated
+  name: Watttime Finops
+  primary_unit: ''
   service_category: API
   slug: watttime-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/watttime.png
 integrations:
 - description: WattTime provides the carbon intensity data underlying the Green Software Foundation's Software Carbon Intensity (SCI) specification.
@@ -341,13 +360,13 @@ modified: '2026-05-19'
 name: WattTime
 nav: Providers
 network: true
-overview: 'WattTime publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Account API, Authentication API, Emissions Data API, and 3 more. Tagged areas include Emissions, Climate, Carbon, Energy, and Electricity Grid.
+overview: 'WattTime is listed with 6 APIs on the [APIs.io](https://apis.io/) network, including Account API, Authentication API, Emissions Data API, and 3 more. Tagged areas include Emissions, Climate, Carbon, Energy, and Electricity Grid.
 
 
   The WattTime catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  WattTime''s developer surface includes authentication, developer portal, documentation, release notes, support, engineering blog, and 10 more developer resources.'
+  WattTime''s developer surface includes authentication, developer portal, documentation, release notes, support, engineering blog, and 13 more developer resources.'
 plans:
 - name: Watttime Plans Pricing
   plan_count: 3
@@ -358,9 +377,10 @@ rate_limits:
   name: Watttime Rate Limits
   slug: watttime-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: WattTime API Rules
+  name: WattTime — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -368,7 +388,8 @@ rules:
     info: 1
     warn: 4
   slug: watttime-jsonschema-spectral-rules
-- effective_rule_count: 80
+- authorship: generated
+  effective_rule_count: 80
   extends:
   - spectral:oas
   name: WattTime API Rules
@@ -381,17 +402,17 @@ rules:
   slug: watttime-spectral-rules
 score:
   band: thin
-  composite: 34.7
+  composite: 33.1
   coverage:
     artifact_dirs: 18
-    catalog_earned: 73.0
+    catalog_earned: 70.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 42.0
+    catalog_gap: 45.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 27.3
     contract_quality: 31.4
     developer_ergonomics: 46.4
@@ -411,8 +432,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 13.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

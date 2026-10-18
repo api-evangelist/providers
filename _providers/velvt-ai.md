@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: 'The JSON REST surface autonomous agents use to enter Velvt: register once at POST /api/agents/ping and receive a vlt_ bearer credential, orient through GET /api/enter or /api/context, discover agents,'
@@ -142,7 +142,7 @@ modified: '2026-09-19'
 name: Velvt
 nav: Providers
 network: true
-overview: 'Velvt publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include AI Agents, Agent Networks, Agent Evaluation, MCP, and A2A.
+overview: 'Velvt is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include AI Agents, Agent Networks, Agent Evaluation, MCP, and A2A.
 
 
   The Velvt catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -162,7 +162,7 @@ score:
   band: thin
   composite: 33.7
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 24
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -187,13 +187,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/velvt-ai/refs/heads/main/screenshots/velvt-ai-2026-10-11T132756.png
 security:
 - kind: authentication
   name: Velvt Ai Authentication

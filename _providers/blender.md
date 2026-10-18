@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 3.8
-  scored_at: '2026-10-04'
+  score: 1.9
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: The Blender Python API (bpy) provides Python access to Blender's internal data, operators, and UI components. It enables developers to automate tasks, create addons, build custom tools, manipulate sce
@@ -44,6 +44,21 @@ apis:
   slug: blender-extensions
 artifact_total: 32
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/blender/refs/heads/main/plans/blender-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/blender-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/blender/refs/heads/main/rate-limits/blender-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/blender-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/blender/refs/heads/main/finops/blender-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/blender-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/blender/refs/heads/main/security/blender-domain-security.yml
   title: ''
@@ -140,9 +155,13 @@ features:
 - description: Blender 3.x+ includes an asset library system with Python API support for managing and accessing reusable 3D assets across projects.
   name: Asset Library System
 finops:
-- name: Blender Finops
+- has_sources: false
+  method: generated
+  name: Blender Finops
+  primary_unit: ''
   service_category: API
   slug: blender-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/blender.png
 integrations:
 - description: Blender's built-in path-tracing render engine with Python API access for controlling render settings, passes, and denoising.
@@ -179,13 +198,13 @@ modified: '2026-04-21'
 name: Blender
 nav: Providers
 network: true
-overview: 'Blender publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include 3D, Animation, Game Development, Modeling, and Open Source.
+overview: 'Blender is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include 3D, Animation, Game Development, Modeling, and Open Source.
 
 
   The Blender catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Blender''s developer surface includes documentation, getting-started guide, support, GitHub presence, engineering blog, training material, FAQ, and 10 more developer resources.'
+  Blender''s developer surface includes documentation, getting-started guide, support, GitHub presence, engineering blog, training material, FAQ, and 13 more developer resources.'
 plans:
 - name: Blender Plans Pricing
   plan_count: 3
@@ -196,9 +215,10 @@ rate_limits:
   name: Blender Rate Limits
   slug: blender-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Blender API Rules
+  name: Blender — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -206,7 +226,8 @@ rules:
     info: 1
     warn: 4
   slug: blender-jsonschema-spectral-rules
-- effective_rule_count: 5
+- authorship: unmarked
+  effective_rule_count: 5
   extends: []
   name: Blender API Rules
   rule_count: 5
@@ -218,17 +239,17 @@ rules:
   slug: blender-spectral-rules
 score:
   band: thin
-  composite: 29.3
+  composite: 27.8
   coverage:
     artifact_dirs: 13
-    catalog_earned: 65.8
+    catalog_earned: 62.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 49.3
+    catalog_gap: 52.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 23.5
     contract_quality: 29.2
     developer_ergonomics: 38.1
@@ -241,8 +262,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

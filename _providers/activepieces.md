@@ -28,14 +28,14 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: documented
-    protected_resource_metadata: false
-    rate_limit_signal: documented
+    protected_resource_metadata: verified
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.7
-  scored_at: '2026-10-04'
+  score: 31.4
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -153,6 +153,25 @@ collections:
   name: Activepieces API
   slug: open-activepieces
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/activepieces/refs/heads/main/plans/activepieces-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/activepieces-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/activepieces/refs/heads/main/rate-limits/activepieces-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/activepieces-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/activepieces/refs/heads/main/finops/activepieces-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/activepieces-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.activepieces.com/solutions/engineering
 - group: company
   title: ''
   type: Website
@@ -355,9 +374,13 @@ features:
 - description: Share and reuse flow templates across projects and teams.
   name: Flow Templates
 finops:
-- name: Activepieces Finops
+- has_sources: false
+  method: generated
+  name: Activepieces Finops
+  primary_unit: ''
   service_category: API
   slug: activepieces-finops
+  template: true
 image: /assets/icons/activepieces.png
 integrations:
 - description: Trigger workflows on GitHub events and automate repository operations.
@@ -538,17 +561,17 @@ mcp_servers:
 - description: Remote MCP server at mcp.activepieces.com over HTTP.
   name: Activepieces MCP Server
   slug: activepieces
-modified: '2026-05-19'
+modified: '2026-10-06'
 name: Activepieces
 nav: Providers
 network: true
-overview: 'Activepieces publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Connections API, Flow Runs API, Flows API, and 6 more. Tagged areas include Automation, No-Code, Open Source, Workflows, and AI Agents.
+overview: 'Activepieces publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Connections API, Flow Runs API, Flows API, and 6 more. Tagged areas include Automation, No-Code, Open Source, Workflows, and AI Agents.
 
 
   The Activepieces catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Activepieces'' developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, engineering blog, and 17 more developer resources.'
+  Activepieces'' developer surface includes engineering blog, authentication, developer portal, documentation, getting-started guide, pricing, and 21 more developer resources.'
 plans:
 - name: Activepieces Plans Pricing
   plan_count: 3
@@ -559,9 +582,10 @@ rate_limits:
   name: Activepieces Rate Limits
   slug: activepieces-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Activepieces API Rules
+  name: Activepieces — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -569,7 +593,8 @@ rules:
     info: 2
     warn: 3
   slug: activepieces-jsonschema-spectral-rules
-- effective_rule_count: 72
+- authorship: generated
+  effective_rule_count: 72
   extends:
   - spectral:oas
   name: Activepieces API Rules
@@ -582,17 +607,17 @@ rules:
   slug: activepieces-spectral-rules
 score:
   band: developing
-  composite: 42.0
+  composite: 40.5
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 75.0
+    artifact_dirs: 20
+    catalog_earned: 72.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 40.0
+    catalog_gap: 43.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 26.3
+    access_clarity: 18.4
     contract_governance: 27.3
     contract_quality: 33.7
     developer_ergonomics: 53.6
@@ -613,8 +638,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

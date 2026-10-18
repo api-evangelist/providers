@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 68
+- acting_count: 64
   human_in_the_loop: 0
   name: Eve Online Agentic Access
   operation_count: 411
   slug: eve-online-agentic-access
-  summary_line: 411 operations · 68 acting
+  summary_line: 411 operations · 64 acting
 api_count: 7
 apis:
 - description: EVE Single Sign-On (SSO) is the OAuth 2.0 authorization service for EVE Online third-party applications, hosted at login.eveonline.com. It supports the Authorization Code flow for confidential (server
@@ -705,7 +705,7 @@ modified: '2026-05-30'
 name: EVE Online
 nav: Providers
 network: true
-overview: 'EVE Online publishes 34 APIs on the [APIs.io](https://apis.io/) network, including Alliance API, Assets API, Calendar API, and 31 more. Tagged areas include Authentication, Authorization, Gaming, Image, and MMO.
+overview: 'EVE Online publishes 34 API contracts indexed on the [APIs.io](https://apis.io/) network, including Alliance API, Assets API, Calendar API, and 31 more. Tagged areas include Authentication, Authorization, Gaming, Image, and MMO.
 
 
   The EVE Online catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -714,9 +714,10 @@ overview: 'EVE Online publishes 34 APIs on the [APIs.io](https://apis.io/) netwo
   EVE Online''s developer surface includes authentication, documentation, getting-started guide, engineering blog, changelog, support, tooling, and 43 more developer resources.'
 random_paper: 20
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: EVE Online API Rules
+  name: EVE Online — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -724,7 +725,8 @@ rules:
     info: 1
     warn: 4
   slug: eve-online-jsonschema-spectral-rules
-- effective_rule_count: 78
+- authorship: unmarked
+  effective_rule_count: 78
   extends:
   - spectral:oas
   name: EVE Online API Rules
@@ -742,23 +744,23 @@ scopes:
   summary_line: 63 scopes · implicit
 score:
   band: developing
-  composite: 43.4
+  composite: 44.1
   coverage:
     artifact_dirs: 19
     catalog_earned: 50.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 67.5
+    catalog_gap: 64.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 2.2
+  delta: 0.1
   facets:
     access_clarity: 10.5
     contract_governance: 13.6
     contract_quality: 55.8
     developer_ergonomics: 64.3
-    discoverability: 57.1
+    discoverability: 62.5
     operational_transparency: 36.8
-  previous_composite: 41.2
+  previous_composite: 44.0
   provenance:
     agentic_access: derived
     contracts:
@@ -772,8 +774,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 36.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

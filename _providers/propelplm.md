@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 33
   slug: propelplm-agentic-access
   summary_line: 33 operations · 9 acting
-api_count: 10
+api_count: 18
 apis:
 - baseURL: https://na85.salesforce.com/services/apexrest/PDLM/api
   baseurl_source: declared
@@ -168,6 +168,10 @@ collections:
   name: Get Bom Assembly variants API
   slug: open-propelplm-variants-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.propelsoftware.com/newsroom
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/propelplm/refs/heads/main/capabilities/propelplm-capability-edges.yml
   title: ''
@@ -328,17 +332,17 @@ created: '2026-07-17'
 description: Propel Software is an AI-powered product data platform for manufacturers and product companies, unifying Product Lifecycle Management (PLM), Quality Management (QMS), and Product Information Management (PIM) on a single system of record built natively on the Salesforce Platform. Propel exposes a resource-based REST API (Salesforce Apex REST) for the core PLM objects — Items, Bills of Material, Changes/ECOs, and Attachments — plus a bulk Import API and a read-oriented PIM API for syndicating product, variant, category, channel, and digital-asset data to commerce and marketing channels. All API access is authenticated with Salesforce OAuth 2.0 bearer tokens and executes within the requesting user's permission scope. Propel is backed by Norwest Venture Partners.
 image: https://www.propelsoftware.com/favicon.ico
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Propel Software (Propel PLM)
 nav: Providers
 network: true
-overview: 'Propel Software (Propel PLM) publishes 14 APIs on the [APIs.io](https://apis.io/) network, including assets API, Attachment API, Bill of Material API, and 11 more. Tagged areas include Company, PLM, Quality Management, QMS, and Product Information Management.
+overview: 'Propel Software (Propel PLM) publishes 14 API contracts indexed on the [APIs.io](https://apis.io/) network, including assets API, Attachment API, Bill of Material API, and 11 more. Tagged areas include Company, PLM, Quality Management, QMS, and Product Information Management.
 
 
   The Propel Software (Propel PLM) catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Propel Software (Propel PLM)''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, pricing, and 27 more developer resources.'
+  Propel Software (Propel PLM)''s developer surface includes engineering blog, documentation, API reference, getting-started guide, authentication, support, pricing, and 28 more developer resources.'
 random_paper: 19
 scopes:
 - name: Propelplm Scopes
@@ -347,15 +351,15 @@ scopes:
   summary_line: 4 scopes · implicit/authorizationCode
 score:
   band: strong
-  composite: 57.7
+  composite: 57.8
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 47.4
     contract_governance: 18.2
@@ -386,8 +390,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

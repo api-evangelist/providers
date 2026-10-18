@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -87,6 +87,21 @@ collections:
   name: Vesper Finance Pools VSP API
   slug: open-vesper-vsp-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/vesper/refs/heads/main/plans/plans.yml
+  title: ''
+  type: Plans
+  url: plans/plans.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/vesper/refs/heads/main/rate-limits/rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/vesper/refs/heads/main/finops/finops.yml
+  title: ''
+  type: FinOps
+  url: finops/finops.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -147,9 +162,13 @@ examples:
   name: Getvspstats Response
   slug: getVspStats-response
 finops:
-- name: Finops
+- has_sources: false
+  method: generated
+  name: Finops
+  primary_unit: ''
   service_category: ''
   slug: finops
+  template: true
 graphqls:
 - description: The Vesper Finance subgraph is deployed on The Graph protocol and provides a GraphQL API for querying on-chain pool data, revenue metrics, and token statistics for Vesper pools on Ethereum Mainnet.
   name: Vesper Finance GraphQL Subgraph
@@ -184,13 +203,13 @@ modified: '2026-06-14'
 name: Vesper Finance
 nav: Providers
 network: true
-overview: 'Vesper Finance publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Pools API, Rates API, TVL API, and 3 more. Tagged areas include DeFi, Yield Aggregator, Liquidity Pools, APY, and Staking.
+overview: 'Vesper Finance publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Pools API, Rates API, TVL API, and 3 more. Tagged areas include DeFi, Yield Aggregator, Liquidity Pools, APY, and Staking.
 
 
   The Vesper Finance catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Vesper Finance''s developer surface includes documentation, engineering blog, and 10 more developer resources.'
+  Vesper Finance''s developer surface includes documentation, engineering blog, and 13 more developer resources.'
 plans:
 - name: Plans
   plan_count: 1
@@ -201,9 +220,10 @@ rate_limits:
   name: Rate Limits
   slug: rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Vesper Finance API Rules
+  name: Vesper Finance — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -212,18 +232,18 @@ rules:
     warn: 3
   slug: vesper-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 26.5
+  band: emerging
+  composite: 22.7
   coverage:
     artifact_dirs: 16
-    catalog_earned: 61.5
+    catalog_earned: 53.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.6
+    catalog_gap: 61.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.8
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 9.8
     contract_quality: 53.6
     developer_ergonomics: 16.7
@@ -246,8 +266,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 40.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 55
   human_in_the_loop: 2
@@ -46,7 +46,7 @@ agentic_access:
   operation_count: 93
   slug: unqork-agentic-access
   summary_line: 93 operations · 55 acting · 2 human-in-the-loop
-api_count: 1
+api_count: 2
 apis:
 - baseURL: https://training.unqork.io/api/1.0
   baseurl_source: declared
@@ -143,6 +143,15 @@ collections:
   name: Unqork Customer API
   slug: open-unqork-customer-api
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/unqork/refs/heads/main/rate-limits/unqork-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/unqork-rate-limits.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://unqork.com/resource-center/feed/
 - group: commercial
   href: https://raw.githubusercontent.com/api-evangelist/unqork/refs/heads/main/plans/unqork-plans-pricing.yml
   title: ''
@@ -299,17 +308,17 @@ created: '2026-07-31'
 description: Unqork is an enterprise application development platform — a no-code / "codeless" platform-as-a-service used by banks, insurers, healthcare organizations and government agencies to build and operate complex, regulated business applications without hand-written application code. Creators assemble applications from modules, workflows, components and data models in the Unqork Designer, and the platform exposes a REST Customer API (documented as OpenAPI 3.0.3 at developers.unqork.io) that lets external systems manage submissions, modules, applications, workflows, users, groups, promotions, transforms, global variables and API access credentials in an Unqork environment. The API is served per-tenant at https://{subdomain}.unqork.io/api/1.0, secured with OAuth 2.0 client-credentials and password grants issued through API Access Management, and the platform ships on a quarterly GA release cadence with weekly patch releases.
 image: https://developers.unqork.io/unqork-logo.png
 layout: provider
-modified: '2026-07-31'
+modified: '2026-10-06'
 name: Unqork
 nav: Providers
 network: true
-overview: 'Unqork publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Authentication API, Credentials API, and 14 more. Tagged areas include Company, No-Code, Low-Code, Application Development, and Enterprise Software.
+overview: 'Unqork publishes 17 API contracts indexed on the [APIs.io](https://apis.io/) network, including Applications API, Authentication API, Credentials API, and 14 more. Tagged areas include Company, No-Code, Low-Code, Application Development, and Enterprise Software.
 
 
   The Unqork catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Unqork''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, pricing, and 27 more developer resources.'
+  Unqork''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, pricing, and 29 more developer resources.'
 plans:
 - name: Unqork Plans Pricing
   plan_count: 0
@@ -328,7 +337,7 @@ score:
   band: developing
   composite: 50.3
   coverage:
-    artifact_dirs: 27
+    artifact_dirs: 28
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
@@ -359,8 +368,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 39.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

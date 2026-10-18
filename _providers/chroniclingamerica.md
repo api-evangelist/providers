@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.8
-  scored_at: '2026-10-04'
+  score: 23.6
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -166,9 +166,13 @@ common:
 created: '2026-06-13'
 description: Chronicling America is a Library of Congress initiative providing free public access to a searchable database of historic American newspaper pages from 1770 to 1963. The platform hosts over 20 million digitized newspaper pages from hundreds of US newspapers contributed by institutions in the National Digital Newspaper Program (NDNP). The API exposes search, title, issue, batch, and OCR text endpoints with no authentication required, returning responses in JSON and Atom feed formats.
 finops:
-- name: Chroniclingamerica Finops
+- has_sources: false
+  method: generated
+  name: Chroniclingamerica Finops
+  primary_unit: ''
   service_category: API
   slug: chroniclingamerica-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/chroniclingamerica.png
 jsonld:
 - class_count: 0
@@ -180,7 +184,7 @@ modified: '2026-06-13'
 name: Chronicling America
 nav: Providers
 network: true
-overview: 'Chronicling America publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Batches API, Issues API, OCR API, and 3 more. Tagged areas include Newspapers, Historical, Archives, Library of Congress, and Government.
+overview: 'Chronicling America publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Batches API, Issues API, OCR API, and 3 more. Tagged areas include Newspapers, Historical, Archives, Library of Congress, and Government.
 
 
   The Chronicling America catalog on APIs.io includes 1 JSON-LD context.
@@ -198,22 +202,22 @@ rate_limits:
   slug: chroniclingamerica-rate-limits
 score:
   band: thin
-  composite: 36.1
+  composite: 29.1
   coverage:
     artifact_dirs: 10
-    catalog_earned: 58.0
+    catalog_earned: 42.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.0
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.0
   facets:
-    access_clarity: 47.9
+    access_clarity: 26.3
     contract_governance: 0.0
     contract_quality: 51.2
     developer_ergonomics: 9.5
     discoverability: 57.1
-    operational_transparency: 33.7
+    operational_transparency: 13.2
   previous_composite: 36.1
   provenance:
     agentic_access: derived
@@ -228,9 +232,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

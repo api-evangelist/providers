@@ -29,21 +29,21 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.2
-  scored_at: '2026-10-04'
+  score: 24.3
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 61
+- acting_count: 59
   human_in_the_loop: 0
   name: Pdf Co Agentic Access
   operation_count: 68
   slug: pdf-co-agentic-access
-  summary_line: 68 operations · 61 acting
-api_count: 1
+  summary_line: 68 operations · 59 acting
+api_count: 2
 apis:
 - baseURL: https://api.pdf.co
   baseurl_source: spec
@@ -164,6 +164,10 @@ collections:
   name: PDF.co API
   slug: open-pdf-co
 common:
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.pdf.co/pricing
 - group: company
   title: ''
   type: Website
@@ -301,9 +305,13 @@ examples:
   name: Pdf Co Pdf To Json Example
   slug: pdf-co-pdf-to-json-example
 finops:
-- name: Pdf Co Finops
+- has_sources: true
+  method: generated
+  name: Pdf Co Finops
+  primary_unit: credit
   service_category: Document Automation and OCR
   slug: pdf-co-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pdf-co.png
 json_schemas:
 - name: PDF.co AI Invoice Parser Request
@@ -325,16 +333,16 @@ modified: '2026-09-15'
 name: PDF.co
 nav: Providers
 network: true
-overview: 'PDF.co publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Barcodes API, Document, File & System API, Editing API, and 7 more. Tagged areas include PDF, Document Automation, Artificial Intelligence, OCR, and Invoice Parsing.
+overview: 'PDF.co publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Barcodes API, Document, File & System API, Editing API, and 7 more. Tagged areas include PDF, Document Automation, Artificial Intelligence, OCR, and Invoice Parsing.
 
 
   The PDF.co catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  PDF.co''s developer surface includes authentication, developer portal, documentation, signup flow, pricing, support, GitHub presence, and 23 more developer resources.'
+  PDF.co''s developer surface includes pricing, authentication, developer portal, documentation, signup flow, support, GitHub presence, and 24 more developer resources.'
 plans:
 - name: Pdf Co Plans Pricing
-  plan_count: 7
+  plan_count: 6
   slug: pdf-co-plans-pricing
 random_paper: 19
 rate_limits:
@@ -342,9 +350,10 @@ rate_limits:
   name: Pdf Co Rate Limits
   slug: pdf-co-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: PDF.co API Rules
+  name: PDF.co — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -354,17 +363,17 @@ rules:
   slug: pdf-co-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 50.8
+  composite: 51.5
   coverage:
-    artifact_dirs: 16
-    catalog_earned: 56.5
-    catalog_earned_first_party: 0.0
-    catalog_gap: 58.6
+    artifact_dirs: 17
+    catalog_earned: 57.7
+    catalog_earned_first_party: 12.0
+    catalog_gap: 57.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.7
   facets:
-    access_clarity: 88.9
+    access_clarity: 92.1
     contract_governance: 9.8
     contract_quality: 58.5
     developer_ergonomics: 39.3
@@ -384,8 +393,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

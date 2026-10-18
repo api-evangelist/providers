@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 22
+- acting_count: 20
   human_in_the_loop: 0
   name: Mealme Agentic Access
   operation_count: 36
   slug: mealme-agentic-access
-  summary_line: 36 operations · 22 acting
+  summary_line: 36 operations · 20 acting
 api_count: 1
 apis:
 - baseURL: https://api.mealme.ai
@@ -235,9 +235,13 @@ examples:
   name: Mealme Api Store Example
   slug: mealme-api-store-example
 finops:
-- name: Mealme Finops
+- has_sources: false
+  method: generated
+  name: Mealme Finops
+  primary_unit: ''
   service_category: API
   slug: mealme-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mealme.png
 json_schemas:
 - name: CartItem
@@ -305,7 +309,7 @@ modified: '2026-06-02'
 name: MealMe
 nav: Providers
 network: true
-overview: 'MealMe publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Carts API, Connect Accounts API, Geocoding API, and 6 more. Tagged areas include Delivery, Food, Grocery, Ordering, and Restaurant.
+overview: 'MealMe publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Carts API, Connect Accounts API, Geocoding API, and 6 more. Tagged areas include Delivery, Food, Grocery, Ordering, and Restaurant.
 
 
   The MealMe catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -322,9 +326,10 @@ rate_limits:
   name: Mealme Rate Limits
   slug: mealme-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: MealMe API Rules
+  name: MealMe — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -332,7 +337,8 @@ rules:
     info: 1
     warn: 4
   slug: mealme-jsonschema-spectral-rules
-- effective_rule_count: 80
+- authorship: generated
+  effective_rule_count: 80
   extends:
   - spectral:oas
   name: MealMe API Rules
@@ -345,17 +351,17 @@ rules:
   slug: mealme-spectral-rules
 score:
   band: thin
-  composite: 37.0
+  composite: 35.5
   coverage:
     artifact_dirs: 19
-    catalog_earned: 66.0
+    catalog_earned: 63.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 49.0
+    catalog_gap: 52.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 27.3
     contract_quality: 61.2
     developer_ergonomics: 35.7
@@ -375,8 +381,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

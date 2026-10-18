@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -78,6 +78,10 @@ collections:
   name: Credgenics Recovery Authentication Lending API
   slug: open-credgenics-lending-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.credgenics.com/feed/
 - group: company
   title: ''
   type: Website
@@ -201,17 +205,17 @@ created: '2026-07-17'
 description: Credgenics is an AI-powered debt collection and loan recovery SaaS platform used by banks, NBFCs, housing-finance companies, microfinance institutions, fintechs and asset-reconstruction companies (primarily in India). Its REST Recovery API lets lenders push loan, customer, payment and transaction data into the platform and read collections status, DPD and penalties back, alongside digital communications, a GenAI voicebot (Swara), predictive dialing (DialNext), field collections (CG Collect), litigation management, online dispute resolution and the Billzy loan-repayment payments product. Authentication is a client-credentials exchange returning a short-lived `authenticationtoken`; every request carries the tenant `company_id`.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/credgenics.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Credgenics
 nav: Providers
 network: true
-overview: 'Credgenics publishes 3 APIs on the [APIs.io](https://apis.io/) network: Authentication API, Credit Line API, and Lending API. Tagged areas include Company, Enterprise, Financial Services, Debt Collection, and Loan Recovery.
+overview: 'Credgenics publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Authentication API, Credit Line API, and Lending API. Tagged areas include Company, Enterprise, Financial Services, Debt Collection, and Loan Recovery.
 
 
   The Credgenics catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Credgenics'' developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, and 21 more developer resources.'
+  Credgenics'' developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, and 22 more developer resources.'
 random_paper: 13
 score:
   band: thin
@@ -255,8 +259,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

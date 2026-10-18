@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -278,7 +278,7 @@ modified: '2026-09-16'
 name: TalkPush
 nav: Providers
 network: true
-overview: 'TalkPush publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Calls API, Campaigns API, and 11 more. Tagged areas include Company, Recruiting, Recruitment Automation, Human Resources, and Hiring.
+overview: 'TalkPush publishes 14 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agents API, Calls API, Campaigns API, and 11 more. Tagged areas include Company, Recruiting, Recruitment Automation, Human Resources, and Hiring.
 
 
   TalkPush''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 17 more developer resources.'
@@ -287,7 +287,7 @@ score:
   band: thin
   composite: 34.1
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -318,8 +318,8 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

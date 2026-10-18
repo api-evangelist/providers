@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 0
@@ -162,6 +162,21 @@ collections:
   name: Istio Extensions AuthorizationPolicy WorkloadGroup API
   slug: open-istio-workloadgroup-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/istio/refs/heads/main/plans/istio-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/istio-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/istio/refs/heads/main/rate-limits/istio-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/istio-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/istio/refs/heads/main/finops/istio-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/istio-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/istio/refs/heads/main/capabilities/istio-capability-edges.yml
   title: ''
@@ -269,9 +284,13 @@ common:
 created: '2025-06-05'
 description: Istio is an open-source service mesh platform that provides a comprehensive solution for managing, securing, and monitoring microservices in a distributed system. It acts as a middle layer between services, handling communication, routing, and load balancing, as well as providing visibility into the traffic flowing between services. Istio also offers advanced security features such as access control, authentication, and encryption to ensure that communication between services is secure.
 finops:
-- name: Istio Finops
+- has_sources: true
+  method: generated
+  name: Istio Finops
+  primary_unit: ''
   service_category: Service Mesh / Networking
   slug: istio-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/istio.png
 json_schemas:
 - name: Istio AuthorizationPolicy
@@ -317,13 +336,13 @@ modified: '2026-05-19'
 name: Istio
 nav: Providers
 network: true
-overview: 'Istio publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Telemetry API, AuthorizationPolicy API, DestinationRule API, and 11 more. Tagged areas include Istio, CNCF, Kubernetes, Microservices, and Open Source.
+overview: 'Istio publishes 14 API contracts indexed on the [APIs.io](https://apis.io/) network, including Telemetry API, AuthorizationPolicy API, DestinationRule API, and 11 more. Tagged areas include Istio, CNCF, Kubernetes, Microservices, and Open Source.
 
 
   The Istio catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Istio''s developer surface includes authentication, engineering blog, product news, documentation, GitHub presence, getting-started guide, changelog, and 17 more developer resources.'
+  Istio''s developer surface includes authentication, engineering blog, product news, documentation, GitHub presence, getting-started guide, changelog, and 20 more developer resources.'
 plans:
 - name: Istio Plans Pricing
   plan_count: 1
@@ -334,9 +353,10 @@ rate_limits:
   name: Istio Rate Limits
   slug: istio-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: Istio API Rules
+  name: Istio — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -346,17 +366,17 @@ rules:
   slug: istio-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 36.4
+  composite: 34.9
   coverage:
-    artifact_dirs: 14
-    catalog_earned: 62.3
+    artifact_dirs: 16
+    catalog_earned: 59.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 52.8
+    catalog_gap: 55.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 13.2
+    access_clarity: 5.3
     contract_governance: 9.8
     contract_quality: 58.4
     developer_ergonomics: 38.1
@@ -376,8 +396,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

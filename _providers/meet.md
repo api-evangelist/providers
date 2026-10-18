@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -141,7 +141,7 @@ modified: '2026-05-11'
 name: Google Meet
 nav: Providers
 network: true
-overview: 'Google Meet publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Conference Records API, Participants API, Recordings API, and 2 more. Tagged areas include Video Conferencing, Meetings, Communications, Collaboration, and Google Workspace.
+overview: 'Google Meet publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Conference Records API, Participants API, Recordings API, and 2 more. Tagged areas include Video Conferencing, Meetings, Communications, Collaboration, and Google Workspace.
 
 
   Google Meet''s developer surface includes authentication, documentation, pricing, signup flow, and 5 more developer resources.'
@@ -183,8 +183,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

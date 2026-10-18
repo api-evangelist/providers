@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 103
   human_in_the_loop: 0
@@ -567,6 +567,21 @@ collections:
   name: 'Akamai: Application Security API'
   slug: open-akamai-api-security
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/akamai-api-security/refs/heads/main/plans/akamai-api-security-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/akamai-api-security-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/akamai-api-security/refs/heads/main/rate-limits/akamai-api-security-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/akamai-api-security-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/akamai-api-security/refs/heads/main/finops/akamai-api-security-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/akamai-api-security-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/akamai-api-security/refs/heads/main/capabilities/akamai-api-security-capability-edges.yml
   title: ''
@@ -864,9 +879,13 @@ features:
 - description: Direct integration with Akamai App and API Protector for blocking API threats detected at runtime.
   name: App and API Protector Integration
 finops:
-- name: Akamai Api Security Finops
+- has_sources: false
+  method: generated
+  name: Akamai Api Security Finops
+  primary_unit: ''
   service_category: API
   slug: akamai-api-security-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/akamai-api-security.png
 integrations:
 - description: Direct integration for blocking API threats detected by API Security
@@ -1317,13 +1336,13 @@ modified: '2026-09-16'
 name: Akamai API Security
 nav: Providers
 network: true
-overview: 'Akamai API Security publishes 65 APIs on the [APIs.io](https://apis.io/) network, including Activation history API, Activation status API, Activations API, and 62 more. Tagged areas include API Discovery, API Security, Cloud Security, Posture Management, and Runtime Protection.
+overview: 'Akamai API Security publishes 65 API contracts indexed on the [APIs.io](https://apis.io/) network, including Activation history API, Activation status API, Activations API, and 62 more. Tagged areas include API Discovery, API Security, Cloud Security, Posture Management, and Runtime Protection.
 
 
   The Akamai API Security catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Akamai API Security''s developer surface includes documentation, engineering blog, pricing, support, signup flow, and 11 more developer resources.'
+  Akamai API Security''s developer surface includes documentation, engineering blog, pricing, support, signup flow, and 14 more developer resources.'
 plans:
 - name: Akamai Api Security Plans Pricing
   plan_count: 3
@@ -1334,9 +1353,10 @@ rate_limits:
   name: Akamai Api Security Rate Limits
   slug: akamai-api-security-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Akamai API Security API Rules
+  name: Akamai API Security — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1344,7 +1364,8 @@ rules:
     info: 2
     warn: 3
   slug: akamai-api-security-jsonschema-spectral-rules
-- effective_rule_count: 69
+- authorship: generated
+  effective_rule_count: 69
   extends:
   - spectral:oas
   name: Akamai API Security API Rules
@@ -1357,23 +1378,23 @@ rules:
   slug: akamai-api-security-spectral-rules
 score:
   band: thin
-  composite: 37.6
+  composite: 36.1
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 61.0
+    artifact_dirs: 18
+    catalog_earned: 58.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 54.0
+    catalog_gap: 57.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: -1.5
   facets:
-    access_clarity: 32.9
+    access_clarity: 25.0
     contract_governance: 27.3
     contract_quality: 53.6
     developer_ergonomics: 28.6
     discoverability: 57.1
     operational_transparency: 26.3
-  previous_composite: 37.0
+  previous_composite: 37.6
   provenance:
     agentic_access: derived
     contracts:
@@ -1387,8 +1408,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

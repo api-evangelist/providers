@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.pw.live/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/physics-wallah/refs/heads/main/security/physics-wallah-domain-security.yml
   title: ''
@@ -70,20 +74,20 @@ description: Physics Wallah (PW) is India's leading affordable education technol
   org.
 image: https://static.pw.live/5eb393ee95fab7468a79d189/b14fb7f0-5b34-4aea-a602-bfbad4adce9c.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Physics Wallah
 nav: Providers
 network: true
 overview: 'Physics Wallah is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, EdTech, E-Learning, and Online Courses.
 
 
-  Physics Wallah''s developer surface includes support and 6 more developer resources.'
+  Physics Wallah''s developer surface includes support and 7 more developer resources.'
 random_paper: 19
 score:
   band: minimal
   composite: 9.6
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -111,8 +115,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

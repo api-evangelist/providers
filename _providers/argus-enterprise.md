@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -189,6 +189,21 @@ collections:
   name: Argus Enterprise Webhook API
   slug: open-argus-enterprise-webhooks
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/argus-enterprise/refs/heads/main/plans/argus-enterprise-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/argus-enterprise-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/argus-enterprise/refs/heads/main/rate-limits/argus-enterprise-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/argus-enterprise-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/argus-enterprise/refs/heads/main/finops/argus-enterprise-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/argus-enterprise-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/argus-enterprise/refs/heads/main/capabilities/argus-enterprise-capability-edges.yml
   title: ''
@@ -401,9 +416,13 @@ features:
 - description: Integrated with ARGUS Intelligence Platform for portfolio-level dashboards and benchmarking.
   name: ARGUS Intelligence Integration
 finops:
-- name: Argus Enterprise Finops
+- has_sources: false
+  method: generated
+  name: Argus Enterprise Finops
+  primary_unit: ''
   service_category: API
   slug: argus-enterprise-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/argus-enterprise.png
 integrations:
 - description: Native integration with ARGUS Intelligence for portfolio dashboards, analytics, and benchmarking.
@@ -646,13 +665,13 @@ modified: '2026-05-19'
 name: ARGUS Enterprise
 nav: Providers
 network: true
-overview: 'ARGUS Enterprise publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Cash Flows API, Events API, and 9 more. Tagged areas include Altus Group, Asset Management, Cash Flow Modeling, Commercial Real Estate, and Portfolio Management.
+overview: 'ARGUS Enterprise publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authentication API, Cash Flows API, Events API, and 9 more. Tagged areas include Altus Group, Asset Management, Cash Flow Modeling, Commercial Real Estate, and Portfolio Management.
 
 
   The ARGUS Enterprise catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  ARGUS Enterprise''s developer surface includes authentication, documentation, getting-started guide, developer portal, support, training material, engineering blog, and 11 more developer resources.'
+  ARGUS Enterprise''s developer surface includes authentication, documentation, getting-started guide, developer portal, support, training material, engineering blog, and 14 more developer resources.'
 plans:
 - name: Argus Enterprise Plans Pricing
   plan_count: 3
@@ -663,9 +682,10 @@ rate_limits:
   name: Argus Enterprise Rate Limits
   slug: argus-enterprise-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: ARGUS Enterprise API Rules
+  name: ARGUS Enterprise — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -673,7 +693,8 @@ rules:
     info: 2
     warn: 3
   slug: argus-enterprise-jsonschema-spectral-rules
-- effective_rule_count: 64
+- authorship: generated
+  effective_rule_count: 64
   extends:
   - spectral:oas
   name: ARGUS Enterprise API Rules
@@ -686,17 +707,17 @@ rules:
   slug: argus-enterprise-spectral-rules
 score:
   band: developing
-  composite: 41.2
+  composite: 39.7
   coverage:
     artifact_dirs: 19
-    catalog_earned: 60.0
+    catalog_earned: 57.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 55.0
+    catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 26.3
+    access_clarity: 18.4
     contract_governance: 27.3
     contract_quality: 58.8
     developer_ergonomics: 51.2
@@ -716,8 +737,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

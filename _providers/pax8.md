@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 102
   slug: pax8-agentic-access
   summary_line: 102 operations · 49 acting
-api_count: 6
+api_count: 9
 apis:
 - baseURL: https://api.pax8.com/v1
   baseurl_source: declared
@@ -263,6 +263,14 @@ collections:
 common:
 - group: company
   title: ''
+  type: Blog
+  url: https://www.pax8.com/blog/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.pax8.com/blog/feed/
+- group: company
+  title: ''
   type: Website
   url: https://www.pax8.com/
 - group: other
@@ -403,17 +411,17 @@ mcp_servers:
 - description: Remote MCP server at app.pax8.com over HTTP.
   name: Pax8 MCP Server
   slug: pax8
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Pax8
 nav: Providers
 network: true
-overview: 'Pax8 publishes 26 APIs on the [APIs.io](https://apis.io/) network, including Access Token API, Companies API, Contacts API, and 23 more. Tagged areas include Company, Enterprise, Cloud Marketplace, MSP, and Distribution.
+overview: 'Pax8 publishes 26 API contracts indexed on the [APIs.io](https://apis.io/) network, including Access Token API, Companies API, Contacts API, and 23 more. Tagged areas include Company, Enterprise, Cloud Marketplace, MSP, and Distribution.
 
 
   The Pax8 catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Pax8''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, engineering blog, and 22 more developer resources.'
+  Pax8''s developer surface includes engineering blog, documentation, API reference, getting-started guide, authentication, changelog, sandbox, and 24 more developer resources.'
 random_paper: 11
 scopes:
 - name: Pax8 Scopes
@@ -422,15 +430,15 @@ scopes:
   summary_line: 4 scopes · clientCredentials
 score:
   band: developing
-  composite: 48.0
+  composite: 48.1
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 23
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 28.9
     contract_governance: 4.5
@@ -455,8 +463,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 31.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

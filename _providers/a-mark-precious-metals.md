@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 9.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 4
 apis:
 - description: A-Mark's wholesale precious metals trading platform enables dealers and financial institutions to buy and sell gold, silver, platinum, and palladium bullion products. Offers spot, forward, and deferre
@@ -158,9 +158,13 @@ features:
 - description: Retail precious metals sales to individual consumers through their JMBullion.com brand.
   name: Direct-to-Consumer
 finops:
-- name: A Mark Precious Metals Finops
+- has_sources: true
+  method: generated
+  name: A Mark Precious Metals Finops
+  primary_unit: ''
   service_category: Financial Services / Commodities
   slug: a-mark-precious-metals-finops
+  template: false
 image: /assets/icons/a-mark-precious-metals.png
 integrations:
 - description: A-Mark's direct-to-consumer retail brand for individual precious metals buyers selling gold, silver, platinum, and palladium.
@@ -174,7 +178,7 @@ modified: '2026-08-29'
 name: A-Mark Precious Metals
 nav: Providers
 network: true
-overview: 'A-Mark Precious Metals publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Precious Metals, Trading, Wholesale, Gold, and Silver.
+overview: 'A-Mark Precious Metals is listed with 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Precious Metals, Trading, Wholesale, Gold, and Silver.
 
 
   A-Mark Precious Metals'' developer surface includes authentication, documentation, and 17 more developer resources.'
@@ -210,17 +214,17 @@ scopes:
   summary_line: 6 scopes
 score:
   band: emerging
-  composite: 23.1
+  composite: 21.6
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 38.0
+    artifact_dirs: 19
+    catalog_earned: 35.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 77.0
+    catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 35.5
+    access_clarity: 27.6
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 21.4
@@ -236,8 +240,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 38.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

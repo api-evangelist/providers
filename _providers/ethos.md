@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Partner-gated API surface exposing Ethos's underwriting and interview engines. Partners can retrieve customized quotes, conduct interviews and instant underwriting, collect required policy and billing
@@ -111,7 +111,7 @@ modified: '2026-07-19'
 name: Ethos
 nav: Providers
 network: true
-overview: 'Ethos publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, Life Insurance, Insurtech, and Underwriting.
+overview: 'Ethos is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, Life Insurance, Insurtech, and Underwriting.
 
 
   Ethos'' developer surface includes engineering blog, support, authentication, and 11 more developer resources.'
@@ -143,8 +143,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 18.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

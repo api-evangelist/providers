@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-04'
+  score: 20.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -93,6 +93,21 @@ collections:
   name: PyPI Index Downloads Upload API
   slug: open-pypi-upload-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/pypi/refs/heads/main/plans/pypi-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/pypi-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/pypi/refs/heads/main/rate-limits/pypi-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/pypi-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/pypi/refs/heads/main/finops/pypi-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/pypi-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/pypi/refs/heads/main/agentic-access/pypi-agentic-access.yml
   title: ''
@@ -152,9 +167,13 @@ common:
 created: '2025-03-01'
 description: PyPI (Python Package Index) is the official third-party software repository for Python, serving as the central hub where developers publish and distribute Python packages. Their developer platform provides a suite of APIs for querying package metadata, downloading distributions, publishing packages, verifying supply chain integrity, and tracking download statistics across the Python ecosystem.
 finops:
-- name: Pypi Finops
+- has_sources: true
+  method: generated
+  name: Pypi Finops
+  primary_unit: ''
   service_category: Package Registry
   slug: pypi-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pypi.png
 json_schemas:
 - name: PyPI Project Metadata
@@ -173,13 +192,13 @@ modified: '2026-05-19'
 name: PyPI
 nav: Providers
 network: true
-overview: 'PyPI publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Downloads API, Projects API, Provenance API, and 1 more. Tagged areas include Developer Tools, Open Source, Package Management, Packages, and Python.
+overview: 'PyPI publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Downloads API, Projects API, Provenance API, and 1 more. Tagged areas include Developer Tools, Open Source, Package Management, Packages, and Python.
 
 
   The PyPI catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  PyPI''s developer surface includes authentication, developer portal, documentation, support, engineering blog, and 8 more developer resources.'
+  PyPI''s developer surface includes authentication, developer portal, documentation, support, engineering blog, and 11 more developer resources.'
 plans:
 - name: Pypi Plans Pricing
   plan_count: 1
@@ -190,9 +209,10 @@ rate_limits:
   name: Pypi Rate Limits
   slug: pypi-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: PyPI API Rules
+  name: PyPI — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -202,17 +222,17 @@ rules:
   slug: pypi-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 36.2
+  composite: 35.1
   coverage:
     artifact_dirs: 14
-    catalog_earned: 45.3
+    catalog_earned: 47.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 54.8
-    catalog_max: 100.0
+    catalog_gap: 67.8
+    catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.1
   facets:
-    access_clarity: 28.6
+    access_clarity: 22.4
     contract_governance: 9.8
     contract_quality: 51.2
     developer_ergonomics: 38.1
@@ -232,8 +252,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

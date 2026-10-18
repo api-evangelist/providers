@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 56.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -327,7 +327,7 @@ modified: '2026-07-12'
 name: Contrast Security
 nav: Providers
 network: true
-overview: 'Contrast Security publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Organizations API, Rules API, and 2 more. Tagged areas include Application Security, AppSec, IAST, RASP, and SCA.
+overview: 'Contrast Security publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Applications API, Organizations API, Rules API, and 2 more. Tagged areas include Application Security, AppSec, IAST, RASP, and Software Composition Analysis.
 
 
   The Contrast Security catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
@@ -340,7 +340,8 @@ plans:
   slug: contrast-security-plans-pricing
 random_paper: 7
 rules:
-- effective_rule_count: 57
+- authorship: generated
+  effective_rule_count: 57
   extends:
   - spectral:oas
   name: Contrast Security API Rules
@@ -353,15 +354,15 @@ rules:
   slug: contrast-security-rules
 score:
   band: strong
-  composite: 58.5
+  composite: 58.6
   coverage:
-    artifact_dirs: 28
+    artifact_dirs: 29
     catalog_earned: 74.8
     catalog_earned_first_party: 12.0
     catalog_gap: 40.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 29.4
+  delta: -6.2
   facets:
     access_clarity: 52.6
     contract_governance: 22.0
@@ -369,7 +370,7 @@ score:
     developer_ergonomics: 57.1
     discoverability: 76.7
     operational_transparency: 55.3
-  previous_composite: 29.1
+  previous_composite: 64.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -385,9 +386,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: rising
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
@@ -412,7 +413,7 @@ tags:
 - AppSec
 - IAST
 - RASP
-- SCA
+- Software Composition Analysis
 - DevSecOps
 - Runtime Protection
 website: https://www.contrastsecurity.com

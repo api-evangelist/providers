@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://banqu.app/api/v1
@@ -364,7 +364,7 @@ modified: '2026-08-06'
 name: BanQu
 nav: Providers
 network: true
-overview: 'BanQu publishes 25 APIs on the [APIs.io](https://apis.io/) network, including Asset Categories API, Asset Sharing API, Asset Transactions API, and 22 more. Tagged areas include Supply Chain, Traceability, Sustainability, ESG, and Agriculture.
+overview: 'BanQu publishes 25 API contracts indexed on the [APIs.io](https://apis.io/) network, including Asset Categories API, Asset Sharing API, Asset Transactions API, and 22 more. Tagged areas include Supply Chain, Traceability, Sustainability, ESG, and Agriculture.
 
 
   The BanQu catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -406,8 +406,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

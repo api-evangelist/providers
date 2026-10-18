@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 13
 apis:
 - description: Buildium's REST Public API used by customers and certified partners to read and write property, lease, tenant, owner, vendor, rental application, financial, and association data inside the Buildium pl
@@ -77,6 +77,21 @@ apis:
   slug: webhooks
 artifact_total: 17
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/buildium/refs/heads/main/plans/buildium-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/buildium-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/buildium/refs/heads/main/rate-limits/buildium-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/buildium-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/buildium/refs/heads/main/finops/buildium-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/buildium-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/buildium/refs/heads/main/security/buildium-domain-security.yml
   title: ''
@@ -109,19 +124,23 @@ common:
 created: '2026-05-23'
 description: Buildium, part of RealPage, is a cloud property-management platform aimed at small and mid-sized residential, association, and community-association property managers. The platform covers accounting, leasing, applicant and tenant management, rent collection, maintenance, communications, owner and resident portals, and association management. Buildium publishes a Public API used by certified partners and customers for property, lease, tenant, owner, vendor, rental application, financial, and webhook integration with the Buildium platform.
 finops:
-- name: Buildium Finops
+- has_sources: false
+  method: generated
+  name: Buildium Finops
+  primary_unit: ''
   service_category: API
   slug: buildium-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/buildium.png
 layout: provider
 modified: '2026-05-23'
 name: Buildium
 nav: Providers
 network: true
-overview: 'Buildium publishes 13 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Property Management, Residential, Community Associations, Accounting, and PropTech.
+overview: 'Buildium is listed with 13 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Property Management, Residential, Community Associations, Accounting, and PropTech.
 
 
-  Buildium''s developer surface includes engineering blog and 6 more developer resources.'
+  Buildium''s developer surface includes engineering blog and 9 more developer resources.'
 plans:
 - name: Buildium Plans Pricing
   plan_count: 1
@@ -132,23 +151,23 @@ rate_limits:
   name: Buildium Rate Limits
   slug: buildium-rate-limits
 score:
-  band: emerging
-  composite: 14.0
+  band: minimal
+  composite: 8.0
   coverage:
-    artifact_dirs: 7
-    catalog_earned: 57.4
+    artifact_dirs: 8
+    catalog_earned: 44.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.6
+    catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.0
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 2.4
     discoverability: 71.4
-    operational_transparency: 18.9
+    operational_transparency: 5.3
   previous_composite: 14.0
   regulatory:
     applies: true
@@ -156,9 +175,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

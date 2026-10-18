@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 44.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 8
 apis:
 - description: Single API onto the SIX financial data universe - real-time, intraday, end-of-day, and historical pricing across asset classes, reference data, corporate actions, tax, and ESG datasets from 900+ price
@@ -156,6 +156,14 @@ collections:
   name: 'debiX Auth Provider API: Provider-to-SIX 3DS Token Provisioning API'
   slug: open-six-group-token-provisioning-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.six-group.com/en/blog.html
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.six-group.com/en/blog.rss.xml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/six-group/refs/heads/main/capabilities/six-group-capability-edges.yml
   title: ''
@@ -320,29 +328,29 @@ created: '2026-07-21'
 description: SIX operates the financial market infrastructure of Switzerland and Spain, including SIX Swiss Exchange, BME, and Swiss interbank clearing and securities services, alongside SIX Financial Information, one of the largest global market data vendors. It sells real-time, intraday, end-of-day, and historical pricing, reference data, corporate actions, and regulatory/ESG datasets from more than 900 price sources, delivered via the SIX Web API (REST/JSON, GraphQL, WebSocket), the SIX Bulk API, streaming Market Data Feed, SIX Flex and Valordata Feed files, and Snowflake cloud shares. A public developer portal at developer.six-group.com fronts the bLink open banking platform, the debiX debit card API, and a shared Kong-based API catalog with Swiss interbank clearing and settlement APIs. Financial data access is enterprise and sales-gated with MTLS certificate authentication, while several Swiss payment infrastructure APIs are publicly documented with downloadable OpenAPI.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/six-group.png
 layout: provider
-modified: '2026-07-22'
+modified: '2026-10-06'
 name: SIX
 nav: Providers
 network: true
-overview: 'SIX publishes 11 APIs on the [APIs.io](https://apis.io/) network, including bLink API, Debi X API, debiX Auth Provider API, and 8 more. Tagged areas include Finance, Market Data, Stocks, Reference Data, and Corporate Actions.
+overview: 'SIX publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including bLink API, Debi X API, debiX Auth Provider API, and 8 more. Tagged areas include Finance, Market Data, Stocks, Reference Data, and Corporate Actions.
 
 
   The SIX catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  SIX''s developer surface includes developer portal, documentation, engineering blog, support, authentication, sandbox, changelog, and 28 more developer resources.'
+  SIX''s developer surface includes engineering blog, developer portal, documentation, support, authentication, sandbox, changelog, and 30 more developer resources.'
 random_paper: 18
 score:
   band: developing
-  composite: 51.1
+  composite: 51.2
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -3.0
+  delta: 0.1
   facets:
     access_clarity: 34.2
     contract_governance: 18.2
@@ -358,7 +366,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 54.1
+  previous_composite: 51.1
   provenance:
     conformance: first-party
     contracts:
@@ -374,8 +382,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 34.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

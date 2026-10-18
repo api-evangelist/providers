@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.0
-  scored_at: '2026-10-04'
+  score: 19.2
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -129,6 +129,19 @@ collections:
   name: Restaurant365 OData Connector AP Invoices Transactions API
   slug: open-restaurant365-transactions-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/restaurant365/refs/heads/main/finops/restaurant365-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/restaurant365-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.restaurant365.com/resource-category/blog/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.restaurant365.com/resource-category/blog/feed/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/restaurant365/refs/heads/main/capabilities/restaurant365-capability-edges.yml
   title: ''
@@ -230,9 +243,13 @@ features:
 - description: EntityDeleted view exposes records removed from the system for audit reconciliation.
   name: Audit Tracking
 finops:
-- name: Restaurant365 Finops
+- has_sources: true
+  method: generated
+  name: Restaurant365 Finops
+  primary_unit: ''
   service_category: Restaurant Management Software
   slug: restaurant365-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/restaurant365.png
 integrations:
 - description: Connect to OData views through the Excel OData feed and R365 Excel plug-in.
@@ -283,17 +300,17 @@ jsonld:
   property_count: 24
   slug: restaurant365-r365-api-context
 layout: provider
-modified: '2026-06-03'
+modified: '2026-10-06'
 name: Restaurant365
 nav: Providers
 network: true
-overview: 'Restaurant365 publishes 9 APIs on the [APIs.io](https://apis.io/) network, including AP Invoices API, Audit API, Authentication API, and 6 more. Tagged areas include Restaurant, Accounting, Inventory, Invoices, and Reporting.
+overview: 'Restaurant365 publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including AP Invoices API, Audit API, Authentication API, and 6 more. Tagged areas include Restaurant, Accounting, Inventory, Invoices, and Reporting.
 
 
   The Restaurant365 catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Restaurant365''s developer surface includes authentication, documentation, pricing, engineering blog, and 11 more developer resources.'
+  Restaurant365''s developer surface includes engineering blog, authentication, documentation, pricing, and 14 more developer resources.'
 plans:
 - name: Restaurant365 Plans Pricing
   plan_count: 4
@@ -304,9 +321,10 @@ rate_limits:
   name: Restaurant365 Rate Limits
   slug: restaurant365-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Restaurant365 API Rules
+  name: Restaurant365 — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -314,7 +332,8 @@ rules:
     info: 2
     warn: 3
   slug: restaurant365-jsonschema-spectral-rules
-- effective_rule_count: 25
+- authorship: unmarked
+  effective_rule_count: 25
   extends: []
   name: Restaurant365 API Rules
   rule_count: 25
@@ -325,23 +344,23 @@ rules:
     warn: 15
   slug: restaurant365-rules
 score:
-  band: developing
-  composite: 44.9
+  band: thin
+  composite: 36.6
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 90.6
+    artifact_dirs: 20
+    catalog_earned: 72.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 24.4
+    catalog_gap: 43.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 46.8
+    access_clarity: 18.4
     contract_governance: 27.3
     contract_quality: 66.7
     developer_ergonomics: 23.8
     discoverability: 73.2
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   previous_composite: 44.9
   provenance:
     agentic_access: derived
@@ -356,9 +375,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

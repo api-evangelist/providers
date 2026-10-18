@@ -23,10 +23,20 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 3
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/adaptive-biotechnologies/refs/heads/main/plans/adaptive-biotechnologies-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/adaptive-biotechnologies-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/adaptive-biotechnologies/refs/heads/main/rate-limits/adaptive-biotechnologies-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/adaptive-biotechnologies-rate-limits.yml
 - group: design
   href: https://raw.githubusercontent.com/api-evangelist/adaptive-biotechnologies/refs/heads/main/conformance/adaptive-biotechnologies-conformance.yml
   title: ''
@@ -112,7 +122,7 @@ network: true
 overview: 'Adaptive Biotechnologies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Life Sciences, Genomics, and Immunology.
 
 
-  Adaptive Biotechnologies'' developer surface includes support, engineering blog, and 11 more developer resources.'
+  Adaptive Biotechnologies'' developer surface includes support, engineering blog, and 13 more developer resources.'
 plans:
 - name: Adaptive Biotechnologies Plans Pricing
   plan_count: 0
@@ -126,7 +136,7 @@ score:
   band: emerging
   composite: 16.5
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 11
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -153,13 +163,14 @@ score:
     regime: Health
     regime_id: health
     score: 18.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/adaptive-biotechnologies/refs/heads/main/screenshots/adaptive-biotechnologies-2026-10-11T092737.png
 security:
 - kind: domain-security
   name: Adaptive Biotechnologies Domain Security

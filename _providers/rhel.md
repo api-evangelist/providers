@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-04'
+  score: 20.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -96,6 +96,21 @@ collections:
   name: Red Hat Security Data Advisories Systems API
   slug: open-rhel-systems-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/rhel/refs/heads/main/plans/rhel-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/rhel-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/rhel/refs/heads/main/rate-limits/rhel-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/rhel-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/rhel/refs/heads/main/finops/rhel-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/rhel-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/rhel/refs/heads/main/capabilities/rhel-capability-edges.yml
   title: ''
@@ -225,9 +240,13 @@ examples:
   name: Rhel List Cves Example
   slug: rhel-list-cves-example
 finops:
-- name: Rhel Finops
+- has_sources: true
+  method: generated
+  name: Rhel Finops
+  primary_unit: ''
   service_category: Operating System Subscription
   slug: rhel-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rhel.png
 json_schemas:
 - name: Advisory
@@ -271,13 +290,13 @@ modified: '2026-05-19'
 name: Red Hat Enterprise Linux
 nav: Providers
 network: true
-overview: 'Red Hat Enterprise Linux publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Advisories API, OVAL API, Subscriptions API, and 2 more. Tagged areas include Automation, Compliance, Enterprise, Linux, and Operating System.
+overview: 'Red Hat Enterprise Linux publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Advisories API, OVAL API, Subscriptions API, and 2 more. Tagged areas include Automation, Compliance, Enterprise, Linux, and Operating System.
 
 
   The Red Hat Enterprise Linux catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Red Hat Enterprise Linux''s developer surface includes authentication, engineering blog, developer portal, documentation, support, and 23 more developer resources.'
+  Red Hat Enterprise Linux''s developer surface includes authentication, engineering blog, developer portal, documentation, support, and 26 more developer resources.'
 plans:
 - name: Rhel Plans Pricing
   plan_count: 7
@@ -288,9 +307,10 @@ rate_limits:
   name: Rhel Rate Limits
   slug: rhel-rate-limits
 rules:
-- effective_rule_count: 4
+- authorship: generated
+  effective_rule_count: 4
   extends: []
-  name: Red Hat Enterprise Linux API Rules
+  name: Red Hat Enterprise Linux — jsonschema rules
   rule_count: 4
   severity_counts:
     error: 0
@@ -298,7 +318,8 @@ rules:
     info: 2
     warn: 2
   slug: rhel-jsonschema-spectral-rules
-- effective_rule_count: 9
+- authorship: unmarked
+  effective_rule_count: 9
   extends: []
   name: Red Hat Enterprise Linux API Rules
   rule_count: 9
@@ -315,17 +336,17 @@ scopes:
   summary_line: 1 scope · password
 score:
   band: developing
-  composite: 44.7
+  composite: 43.3
   coverage:
     artifact_dirs: 19
-    catalog_earned: 60.8
+    catalog_earned: 57.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 54.3
+    catalog_gap: 57.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.4
   facets:
-    access_clarity: 44.7
+    access_clarity: 36.8
     contract_governance: 23.5
     contract_quality: 50.1
     developer_ergonomics: 38.1
@@ -348,8 +369,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

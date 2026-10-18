@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 5.0
-  scored_at: '2026-10-04'
+  score: 3.1
+  scored_at: '2026-10-17'
 api_count: 10
 apis:
 - description: The University of Barcelona's own SAML 2.0 identity provider, published as a signed EntityDescriptor through RedIRIS SIR — the Spanish academic identity federation — and carried into eduGAIN. entityID
@@ -131,9 +131,13 @@ created: '2026-06-03'
 description: 'The University of Barcelona (Universitat de Barcelona, UB) is a public research university founded in 1450 in Barcelona, Catalonia, Spain, ranked #165 in the QS World University Rankings 2025. UB operates no central developer portal, no public API program and no confirmed organization-wide GitHub account, and its main web estate at www.ub.edu sits behind a Cloudflare bot challenge that returns HTTP 403 to any automated client. What it does operate is a genuine, machine-readable institutional footprint that is easy to miss because none of it is marketed as an API: a SAML 2.0 identity provider published through RedIRIS SIR into eduGAIN with the ub.edu attribute scope; an LTI 1.3 Advantage tool platform on its self-hosted Moodle at campusvirtual.ub.edu, with a live JWKS and token endpoint; an OAI-PMH 2.0 data provider over 100 journal sets at revistes.ub.edu; a DSpace 7.6.6 repository at diposit.ub.edu that was live in June 2026 and returned 503 across every probe on 2026-09-01;
   and a Crossref membership for the university press. Its research-data repository and library discovery layer are tenancies on consortium and vendor platforms operated by CSUC and Ex Libris, not UB engineering, and are recorded here as relationships rather than as UB contracts.'
 finops:
-- name: University Of Barcelona Finops
+- has_sources: true
+  method: generated
+  name: University Of Barcelona Finops
+  primary_unit: ''
   service_category: Education
   slug: university-of-barcelona-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/university-of-barcelona.png
 jsonld:
 - class_count: 37
@@ -145,7 +149,7 @@ modified: '2026-09-01'
 name: University of Barcelona
 nav: Providers
 network: true
-overview: 'University of Barcelona publishes 10 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include University, Higher Education, Education, Spain, and Catalonia.
+overview: 'University of Barcelona is listed with 10 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include University, Higher Education, Education, Spain, and Catalonia.
 
 
   The University of Barcelona catalog on APIs.io includes 1 JSON-LD context.
@@ -163,22 +167,22 @@ rate_limits:
   slug: university-of-barcelona-rate-limits
 score:
   band: emerging
-  composite: 22.6
+  composite: 16.5
   coverage:
-    artifact_dirs: 9
-    catalog_earned: 63.4
+    artifact_dirs: 10
+    catalog_earned: 50.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 51.6
+    catalog_gap: 65.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.8
+  delta: -6.1
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 18.0
     developer_ergonomics: 21.4
     discoverability: 62.5
-    operational_transparency: 18.9
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -187,7 +191,7 @@ score:
     regions:
     - europe
     - france-iberia
-  previous_composite: 24.4
+  previous_composite: 22.6
   provenance:
     conformance: first-party
   regulatory:
@@ -196,9 +200,9 @@ score:
     regime: Education & Research
     regime_id: education
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -220,7 +224,7 @@ tags:
 - Shibboleth
 - eduGAIN
 - LTI
-- Learning Management
+- LMS
 - OAI-PMH
 - Repository
 - DSpace

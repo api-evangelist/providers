@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 32
+- acting_count: 29
   human_in_the_loop: 0
   name: Accredible Agentic Access
   operation_count: 45
   slug: accredible-agentic-access
-  summary_line: 45 operations · 32 acting
+  summary_line: 45 operations · 29 acting
 api_count: 1
 apis:
 - baseURL: https://api.accredible.com/v1
@@ -134,6 +134,10 @@ collections:
   name: Accredible API
   slug: open-accredible
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.accredible.com/blog
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/accredible/refs/heads/main/agentic-access/accredible-agentic-access.yml
   title: ''
@@ -188,19 +192,23 @@ common:
 created: '2026-07-05'
 description: Accredible is a digital credentialing platform for issuing, managing, and verifying digital certificates and Open Badges. The REST API lets issuers create and update credentials (certificates and badges) for recipients, organize them into Groups (courses/achievements), apply reusable visual Designs, attach Evidence Items and References, generate PDFs and blockchain-verifiable records, pull engagement analytics, manage Departments and Team Members, and generate recipient SSO links. Credentials are issued against a Group and rendered with a Design; the platform hosts a public verification page and share links for each credential.
 finops:
-- name: Accredible Finops
+- has_sources: true
+  method: generated
+  name: Accredible Finops
+  primary_unit: ''
   service_category: Digital Credentialing
   slug: accredible-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/accredible.png
 layout: provider
-modified: '2026-07-05'
+modified: '2026-10-06'
 name: Accredible
 nav: Providers
 network: true
-overview: 'Accredible publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Credentials API, Departments API, and 7 more. Tagged areas include Digital Credentials, Certificates, Badges, Open Badges, and Credentialing.
+overview: 'Accredible publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Analytics API, Credentials API, Departments API, and 7 more. Tagged areas include Digital Credentials, Certificates, Badges, Open Badges, and Credentialing.
 
 
-  Accredible''s developer surface includes authentication, documentation, and 9 more developer resources.'
+  Accredible''s developer surface includes engineering blog, authentication, documentation, and 9 more developer resources.'
 plans:
 - name: Accredible Plans Pricing
   plan_count: 4
@@ -212,22 +220,22 @@ rate_limits:
   slug: accredible-rate-limits
 score:
   band: thin
-  composite: 34.8
+  composite: 27.0
   coverage:
-    artifact_dirs: 10
-    catalog_earned: 61.6
+    artifact_dirs: 12
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.4
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.8
   facets:
-    access_clarity: 44.2
+    access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 53.0
-    developer_ergonomics: 13.1
+    developer_ergonomics: 15.5
     discoverability: 66.1
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   previous_composite: 34.8
   provenance:
     agentic_access: derived
@@ -242,9 +250,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

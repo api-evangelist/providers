@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -299,16 +299,20 @@ common:
 created: '2026-06-20'
 description: SimpleTexting is a business SMS and MMS marketing platform. Its v2 REST API lets developers send single text messages, run bulk campaigns to lists and segments, manage contacts and contact lists, upload MMS media, provision sending numbers, and subscribe to delivery and incoming-message webhooks, all authenticated with a bearer token.
 finops:
-- name: Simpletexting Finops
+- has_sources: true
+  method: generated
+  name: Simpletexting Finops
+  primary_unit: ''
   service_category: Communications
   slug: simpletexting-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/simpletexting.png
 layout: provider
 modified: '2026-08-13'
 name: SimpleTexting
 nav: Providers
 network: true
-overview: 'SimpleTexting publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Campaigns API, Contact Lists API, Contact Segments API, and 9 more. Tagged areas include SMS, MMS, Messaging, Marketing, and Text Messaging.
+overview: 'SimpleTexting publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including Campaigns API, Contact Lists API, Contact Segments API, and 9 more. Tagged areas include SMS, MMS, Messaging, Marketing, and Text Messaging.
 
 
   The SimpleTexting catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -326,17 +330,17 @@ rate_limits:
   slug: simpletexting-rate-limits
 score:
   band: developing
-  composite: 54.0
+  composite: 52.4
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 60.0
+    artifact_dirs: 26
+    catalog_earned: 57.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 55.0
+    catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 75.0
+    access_clarity: 67.1
     contract_governance: 4.5
     contract_quality: 57.7
     developer_ergonomics: 41.1
@@ -359,8 +363,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 30.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

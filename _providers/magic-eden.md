@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.0
-  scored_at: '2026-10-04'
+  score: 22.1
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 25
+- acting_count: 27
   human_in_the_loop: 0
   name: Magic Eden Agentic Access
-  operation_count: 86
+  operation_count: 151
   slug: magic-eden-agentic-access
-  summary_line: 86 operations · 25 acting
+  summary_line: 151 operations · 27 acting
 api_count: 4
 apis:
 - baseURL: https://api-mainnet.magiceden.dev/v2
@@ -406,9 +406,13 @@ features:
 - description: Free public tier available without API key; higher QPS tiers accessible via application form
   name: API Key Application
 finops:
-- name: Magic Eden Finops
+- has_sources: true
+  method: generated
+  name: Magic Eden Finops
+  primary_unit: ''
   service_category: Web3
   slug: magic-eden-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/magic-eden.png
 json_schemas:
 - name: MagicEdenActivity
@@ -440,7 +444,7 @@ modified: '2026-08-08'
 name: Magic Eden
 nav: Providers
 network: true
-overview: 'Magic Eden publishes 24 APIs on the [APIs.io](https://apis.io/) network, including Activity API, Assets API, Blocks API, and 21 more. Tagged areas include NFT, Web3, Blockchain, Marketplace, and Solana.
+overview: 'Magic Eden publishes 24 API contracts indexed on the [APIs.io](https://apis.io/) network, including Activity API, Assets API, Blocks API, and 21 more. Tagged areas include NFT, Web3, Blockchain, Marketplace, and Solana.
 
 
   The Magic Eden catalog on APIs.io includes 2 JSON-LD contexts and 1 Spectral governance ruleset.
@@ -460,9 +464,10 @@ rate_limits:
   name: Magic Eden Rate Limits
   slug: magic-eden-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Magic Eden API Rules
+  name: Magic Eden — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -471,23 +476,23 @@ rules:
     warn: 3
   slug: magic-eden-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 44.4
+  band: thin
+  composite: 37.5
   coverage:
     artifact_dirs: 15
-    catalog_earned: 72.3
+    catalog_earned: 56.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 42.7
+    catalog_gap: 58.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.9
   facets:
-    access_clarity: 37.4
+    access_clarity: 15.8
     contract_governance: 9.8
     contract_quality: 49.1
     developer_ergonomics: 42.9
     discoverability: 78.6
-    operational_transparency: 46.8
+    operational_transparency: 26.3
   previous_composite: 44.4
   provenance:
     agentic_access: derived
@@ -502,9 +507,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

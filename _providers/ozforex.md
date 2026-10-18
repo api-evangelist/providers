@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: RESTful partner API for international mass payments — live FX rate quotes, recipient account management, and automated payment processing to 170+ countries in 50+ currencies. Authenticated with API ke
@@ -129,7 +129,7 @@ modified: '2026-07-20'
 name: OFX (OzForex)
 nav: Providers
 network: true
-overview: 'OFX (OzForex) publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Money Transfer, Foreign Exchange, and International Payments.
+overview: 'OFX (OzForex) is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Money Transfer, Foreign Exchange, and International Payments.
 
 
   OFX (OzForex)''s developer surface includes documentation, getting-started guide, signup flow, pricing, support, engineering blog, authentication, and 11 more developer resources.'
@@ -161,8 +161,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

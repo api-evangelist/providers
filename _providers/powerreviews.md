@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 12
   slug: powerreviews-agentic-access
   summary_line: 12 operations · 4 acting
-api_count: 4
+api_count: 6
 apis:
 - baseURL: https://readservices-b2c.powerreviews.com
   baseurl_source: declared
@@ -85,6 +85,11 @@ apis:
   slug: powerreviews-snippets-api
 artifact_total: 14
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/powerreviews/refs/heads/main/finops/powerreviews-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/powerreviews-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/powerreviews/refs/heads/main/capabilities/powerreviews-capability-edges.yml
   title: ''
@@ -252,19 +257,23 @@ common:
 created: '2026-03-16'
 description: 'PowerReviews provides ratings and reviews software and APIs for collecting, syndicating, and displaying user-generated reviews, questions, and answers so shoppers can make better purchase decisions and retailers and brands can drive e-commerce conversion. The platform publishes two public HTTP API surfaces: a Read API (readservices-b2c.powerreviews.com) that returns reviews, questions, answers, product snippets, and merchant display configuration for a merchant and locale, and a Write API (writeservices.powerreviews.com) that retrieves the write-a-review template and submits reviews, questions, answers, and merchant responses server-to-server. Both are authenticated with a merchant-scoped apikey query parameter issued by PowerReviews support, and are documented in a MadCap Flare developer portal with Swagger 2.0 references. PowerReviews was acquired by Syndigo and now sits inside the Syndigo Product Experience Cloud.'
 finops:
-- name: Powerreviews Finops
+- has_sources: false
+  method: generated
+  name: Powerreviews Finops
+  primary_unit: ''
   service_category: API
   slug: powerreviews-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/powerreviews.png
 layout: provider
 modified: '2026-08-13'
 name: PowerReviews
 nav: Providers
 network: true
-overview: 'PowerReviews publishes 8 APIs on the [APIs.io](https://apis.io/) network, including B2B Answer API, B2B MerchantResponse API, B2B Question API, and 5 more. Tagged areas include E-Commerce, Ratings and Reviews, User Generated Content, Retail, and Marketing.
+overview: 'PowerReviews publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including B2B Answer API, B2B MerchantResponse API, B2B Question API, and 5 more. Tagged areas include E-Commerce, Ratings and Reviews, User Generated Content, Retail, and Marketing.
 
 
-  PowerReviews'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 29 more developer resources.'
+  PowerReviews'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 30 more developer resources.'
 plans:
 - name: Powerreviews Plans Pricing
   plan_count: 0
@@ -276,17 +285,17 @@ rate_limits:
   slug: powerreviews-rate-limits
 score:
   band: developing
-  composite: 47.5
+  composite: 46.0
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 51.0
+    artifact_dirs: 25
+    catalog_earned: 48.0
     catalog_earned_first_party: 8.0
-    catalog_gap: 64.0
+    catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 42.1
+    access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 40.3
     developer_ergonomics: 58.9
@@ -309,8 +318,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

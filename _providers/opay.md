@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 5
+- acting_count: 4
   human_in_the_loop: 0
   name: Opay Agentic Access
   operation_count: 5
   slug: opay-agentic-access
-  summary_line: 5 operations · 5 acting
+  summary_line: 5 operations · 4 acting
 api_count: 3
 apis:
 - baseURL: https://liveapi.opaycheckout.com/api/v1/international
@@ -74,6 +74,10 @@ collections:
   name: OPay Cashier Refunds API
   slug: open-opay-refunds-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.opayweb.com/newsroom/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/opay/refs/heads/main/capabilities/opay-capability-edges.yml
   title: ''
@@ -249,31 +253,31 @@ integrations:
 - description: Partner bank for virtual-account bank-transfer settlement (referenced in API responses).
   name: Wema Bank
 layout: provider
-modified: '2026-05-24'
+modified: '2026-10-06'
 name: OPay
 nav: Providers
 network: true
-overview: 'OPay publishes 3 APIs on the [APIs.io](https://apis.io/) network: Cashier API, Payments API, and Refunds API. Tagged areas include Payments, Mobile Money, Fintech, Super App, and Nigeria.
+overview: 'OPay is listed with 3 APIs on the [APIs.io](https://apis.io/) network: Cashier API, Payments API, and Refunds API. Tagged areas include Payments, Mobile Money, Fintech, Super App, and Nigeria.
 
 
-  OPay''s developer surface includes authentication, developer portal, documentation, getting-started guide, API reference, sandbox, signup flow, and 23 more developer resources.'
+  OPay''s developer surface includes engineering blog, authentication, developer portal, documentation, getting-started guide, API reference, sandbox, and 24 more developer resources.'
 random_paper: 1
 score:
   band: thin
-  composite: 32.5
+  composite: 33.0
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 10
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 13.2
     contract_governance: 0.0
     contract_quality: 50.1
-    developer_ergonomics: 59.5
+    developer_ergonomics: 61.9
     discoverability: 71.4
     operational_transparency: 2.6
   jurisdiction:
@@ -297,8 +301,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 10.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

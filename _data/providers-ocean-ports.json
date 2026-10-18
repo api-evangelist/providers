@@ -16,7 +16,7 @@
      "slug": "vesselfinder",
      "description": "VesselFinder is a maritime intelligence company operating a global AIS vessel-tracking network (terrestrial AIS plus satellite AIS) and offering ship positions, voyage history, vessel particulars, port-call events, sea-distance routing, and ocean-container track-and-trace through its developer APIs. The platform pairs a credit-metered AIS REST API (Vessels, PortCalls, ExpectedArrivals, MasterData, Distance, plus subscription feeds VesselsList and LiveData) with a separate Container Tracking API that returns shipment schedules and real-time vessel positions by container number. VesselFinder also runs a public web map, iOS/Android apps, an embeddable map widget, a fleet explorer, and a route planner.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/vesselfinder/refs/heads/main/screenshots/vesselfinder-2026-06-20T201006.png",
-     "score": 48.8,
+     "score": 44.8,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
@@ -25,10 +25,10 @@
       "contract_governance": 27.3,
       "operational_transparency": 5.3,
       "developer_ergonomics": 46.4,
-      "access_clarity": 67.9
+      "access_clarity": 47.4
      },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
+     "scored_at": "2026-10-17",
+     "schema_version": "0.24.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
@@ -36,7 +36,7 @@
       "score": 24.5,
       "matched_via": "fallback"
      },
-     "agent_score": 19.8,
+     "agent_score": 17.9,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
@@ -47,7 +47,7 @@
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": "documented",
+      "rate_limit_signal": "derived",
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
@@ -78,8 +78,8 @@
       "developer_ergonomics": 37.5,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
+     "scored_at": "2026-10-17",
+     "schema_version": "0.24.0",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -129,7 +129,7 @@
      "slug": "vizion",
      "description": "Vizion provides a container tracking API that delivers clean, standardized, and detailed shipment tracking events from ocean carriers, terminals, rail, and customs data sources. The REST API returns JSON-encoded responses and supports webhooks for real-time shipment data. Vizion sources data from all major global ocean carriers and standardizes it into a consistent schema regardless of carrier or data source.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/vizion/refs/heads/main/screenshots/vizion-2026-06-20T201119.png",
-     "score": 35.8,
+     "score": 34.3,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
@@ -138,10 +138,10 @@
       "contract_governance": 13.6,
       "operational_transparency": 13.2,
       "developer_ergonomics": 41.7,
-      "access_clarity": 15.8
+      "access_clarity": 7.9
      },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
+     "scored_at": "2026-10-17",
+     "schema_version": "0.24.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
@@ -149,7 +149,7 @@
       "score": 16.7,
       "matched_via": "fallback"
      },
-     "agent_score": 22.3,
+     "agent_score": 20.4,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
@@ -160,7 +160,7 @@
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
+      "rate_limit_signal": "derived",
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
@@ -180,19 +180,19 @@
      "slug": "terminal49",
      "description": "Terminal49 is an automated container and ocean-freight tracking platform. Its v2 REST API (JSON:API) lets shippers, forwarders, and logistics software track Bills of Lading, bookings, and container numbers across global ocean carriers and North American rail, returning normalized milestones, ETAs, terminal availability, holds, demurrage fees, and last free day, with webhooks for real-time updates.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/terminal49/refs/heads/main/screenshots/terminal49-2026-09-02T163138.png",
-     "score": 35.5,
+     "score": 27.2,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 68.3,
       "contract_quality": 48.8,
       "contract_governance": 0.0,
-      "operational_transparency": 31.1,
+      "operational_transparency": 10.5,
       "developer_ergonomics": 32.1,
-      "access_clarity": 36.3
+      "access_clarity": 7.9
      },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
+     "scored_at": "2026-10-17",
+     "schema_version": "0.24.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
@@ -200,7 +200,7 @@
       "score": 11.8,
       "matched_via": "fallback"
      },
-     "agent_score": 44.6,
+     "agent_score": 42.7,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -211,7 +211,7 @@
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": "documented",
+      "rate_limit_signal": "derived",
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
@@ -231,19 +231,19 @@
      "slug": "portcast",
      "description": "Portcast is a predictive supply-chain visibility platform whose Container Tracking API delivers the full journey of an ocean container - milestones, vessel schedules, port codes, and machine-learning predicted ETAs and ETDs - in a single JSON response, tracked by container number, bill of lading, or booking number plus carrier SCAC, with push (webhook) callbacks on every update.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/portcast/refs/heads/main/screenshots/portcast-2026-09-02T151804.png",
-     "score": 31.9,
+     "score": 26.3,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 66.1,
       "contract_quality": 50.6,
       "contract_governance": 0.0,
-      "operational_transparency": 21.6,
-      "developer_ergonomics": 28.6,
-      "access_clarity": 26.8
+      "operational_transparency": 7.9,
+      "developer_ergonomics": 31.0,
+      "access_clarity": 5.3
      },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
+     "scored_at": "2026-10-17",
+     "schema_version": "0.24.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
@@ -251,7 +251,7 @@
       "score": 11.8,
       "matched_via": "fallback"
      },
-     "agent_score": 19.8,
+     "agent_score": 17.9,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
@@ -262,7 +262,7 @@
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": "documented",
+      "rate_limit_signal": "derived",
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
@@ -293,7 +293,7 @@
      "slug": "cma-cgm",
      "description": "CMA CGM is a Marseille-headquartered French container shipping, logistics, and port operator and the third-largest ocean carrier in the world. Founded in 1978 by Jacques Saadé and led today by Chairman & CEO Rodolphe Saadé, the CMA CGM Group operates a fleet of 593 vessels with 4.5 million TEU of capacity calling 420 ports across 160 countries on 257 maritime services. The group includes maritime brands ANL, APL, CNC Line, Containerships, Comanav, and Mercosul Line; terminal operator CMA Terminals and Terminal Link; the CEVA Logistics contract logistics and freight forwarding business (acquired 2019); CMA CGM Air Cargo; Brittany Ferries and La Méridionale passenger ferries; and the CMA Média portfolio (La Provence, La Tribune, BFM-RMC, Brut). Through api-portal.cma-cgm.com the group exposes a DCSA-aligned REST API surface — Track and Trace v1 (DCSA v2.2.0), Schedules, Booking Request, Quotation, and Invoice — plus a parallel EDI catalog (EDIFACT IFTSAI, IFTMBF, IFTSTA, INVOIC) and group-level digital initiatives including ZEBOX (startup accelerator), Traxens-based IoT smart containers, and a strategic AI partnership with Mistral.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/cma-cgm/refs/heads/main/screenshots/cma-cgm-2026-06-20T174627.png",
-     "score": 14.2,
+     "score": 14.3,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
@@ -304,8 +304,8 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
+     "scored_at": "2026-10-17",
+     "schema_version": "0.24.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
@@ -354,7 +354,7 @@
      "slug": "dp-world",
      "description": "DP World is an Emirati global logistics company that specializes in port operations, maritime services, and supply chain solutions. It manages and operates marine and inland terminals across more than 40 countries and operates a portfolio of digital platforms - including the CARGOES suite (Flow, Runner, TOS+, PCS, Customs), Searates, and the Digital Freight Alliance - that expose APIs and integrations for shipment visibility, freight pricing, terminal operations, and trade workflows.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/dp-world/refs/heads/main/screenshots/dp-world-2026-06-20T180227.png",
-     "score": 7.6,
+     "score": 6.5,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -362,11 +362,11 @@
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 7.9,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 15.8
+      "developer_ergonomics": 2.4,
+      "access_clarity": 7.9
      },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
+     "scored_at": "2026-10-17",
+     "schema_version": "0.24.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
@@ -374,7 +374,7 @@
       "score": 5.9,
       "matched_via": "fallback"
      },
-     "agent_score": 2.5,
+     "agent_score": 0.6,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -385,7 +385,7 @@
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": "documented",
+      "rate_limit_signal": "derived",
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
@@ -405,7 +405,7 @@
      "slug": "hapag-lloyd",
      "description": "A German multinational container shipping company and one of the world's largest liner shipping companies. Operates a fleet of over 250 vessels serving approximately 600 ports across 130 countries with a focus on quality and reliability. Provides a public API portal (api-portal.hlag.com) exposing container tracking, schedule, and booking APIs to customers, partners, and logistics platforms.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/hapag-lloyd/refs/heads/main/screenshots/hapag-lloyd-2026-06-20T182512.png",
-     "score": 5.6,
+     "score": 5.7,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -416,8 +416,8 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
+     "scored_at": "2026-10-17",
+     "schema_version": "0.24.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
@@ -467,8 +467,8 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
+     "scored_at": "2026-10-17",
+     "schema_version": "0.24.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
@@ -518,8 +518,8 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
+     "scored_at": "2026-10-17",
+     "schema_version": "0.24.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
@@ -558,7 +558,7 @@
      "slug": "ocean-network-express",
      "description": "Ocean Network Express (ONE) is a Singapore-headquartered global container liner shipping company formed in 2017 through the integration of the container shipping businesses of three Japanese carriers — Nippon Yusen Kaisha (NYK), Mitsui O.S.K. Lines (MOL), and Kawasaki Kisen Kaisha (K-Line) — with commercial operations launching on 1 April 2018. Operating under the magenta \"ONE\" brand and the Standard Carrier Alpha Code ONEY, the company runs a fleet exceeding 2,200,000 TEU across 165+ weekly service loops calling at 244+ ports worldwide, making it one of the largest ocean container carriers globally. ONE participates in THE Alliance vessel sharing agreement and offers reefer, dangerous goods, out-of-gauge, and project cargo services alongside standard dry container moves. Its customer-facing digital surface centers on the ONE eCommerce platform (ecomm.one-line.com), which provides cargo tracking, instant quotation via ONE QUOTE (powered by Descartes Kontainers), spot booking, shipping instructions, electronic bill of lading, ePayment, and demurrage/detention inquiry. A partner-facing developer portal exists at developers.one-line.com alongside EDI integration channels, but ONE does not publish a fully open, self-service OpenAPI specification, public SDK, or open-source code at either the github.com/ocean-network-express or github.com/OceanNetworkExpress organizations (both exist with zero public repositories). Tracking, booking, and schedule integrations are most commonly accessed by shippers and BCOs through third-party aggregators (Vizion, Portcast, JSONCargo, Terminal49, Tradlinx) or via DCSA-conformant carrier APIs delivered under commercial agreement.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ocean-network-express/refs/heads/main/screenshots/ocean-network-express-2026-06-20T190604.png",
-     "score": 4.1,
+     "score": 4.7,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -566,11 +566,11 @@
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 5.3,
-      "developer_ergonomics": 0.0,
+      "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
+     "scored_at": "2026-10-17",
+     "schema_version": "0.24.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
@@ -620,8 +620,8 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
+     "scored_at": "2026-10-17",
+     "schema_version": "0.24.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",

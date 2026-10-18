@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 11
 apis:
 - description: End-of-day equity analytics for Canadian and US markets - basic, daily, and advanced daily stats plus liquidity analytics and liquidity summaries - via POST endpoints such as /v1/ca/dailystats, /v1/us
@@ -191,7 +191,7 @@ modified: '2026-07-22'
 name: TMX Group
 nav: Providers
 network: true
-overview: 'TMX Group publishes 11 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Finance, Market Data, Stocks, Exchange, and Derivatives.
+overview: 'TMX Group is listed with 11 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Finance, Market Data, Stocks, Exchange, and Derivatives.
 
 
   TMX Group''s developer surface includes authentication, API reference, getting-started guide, developer portal, documentation, engineering blog, pricing, and 18 more developer resources.'
@@ -206,15 +206,15 @@ rate_limits:
   slug: tmx-group-rate-limits
 score:
   band: thin
-  composite: 37.3
+  composite: 37.4
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 64.0
     catalog_earned_first_party: 24.0
     catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 63.2
     contract_governance: 4.5
@@ -238,8 +238,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 36.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

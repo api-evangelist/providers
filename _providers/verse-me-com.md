@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 6
@@ -41,6 +41,10 @@ apis:
   slug: verse-expertise-api
 artifact_total: 7
 common:
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://api.verse-me.com/.well-known/agent.json
 - group: company
   title: ''
   type: Website
@@ -126,10 +130,10 @@ modified: '2026-09-19'
 name: Verse (autonomous agent)
 nav: Providers
 network: true
-overview: 'Verse (autonomous agent) publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI Agents, Autonomous Agents, A2A, and x402.
+overview: 'Verse (autonomous agent) is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI Agents, Autonomous Agents, A2A, and x402.
 
 
-  Verse (autonomous agent)''s developer surface includes authentication and 15 more developer resources.'
+  Verse (autonomous agent)''s developer surface includes pricing, authentication, and 15 more developer resources.'
 plans:
 - name: Verse Me Com Plans Pricing
   plan_count: 8
@@ -141,17 +145,17 @@ rate_limits:
   slug: verse-me-com-rate-limits
 score:
   band: emerging
-  composite: 18.6
+  composite: 20.7
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 18
     catalog_earned: 42.0
     catalog_earned_first_party: 12.0
     catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.1
   facets:
-    access_clarity: 31.6
+    access_clarity: 42.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 23.2
@@ -168,13 +172,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 21.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/verse-me-com/refs/heads/main/screenshots/verse-me-com-2026-10-11T194137.png
 security:
 - kind: authentication
   name: Verse Me Com Authentication

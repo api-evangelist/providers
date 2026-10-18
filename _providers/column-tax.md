@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: REST API to embed IRS-authorized income-tax preparation and e-filing. Create a Column Tax user, obtain a short-lived authenticated URL to launch the embedded filing UI, list a user's tax returns and j
@@ -182,7 +182,7 @@ modified: '2026-07-18'
 name: Column Tax
 nav: Providers
 network: true
-overview: 'Column Tax publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Tax, Tax Filing, and Embedded Finance.
+overview: 'Column Tax is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Tax, Tax Filing, and Embedded Finance.
 
 
   The Column Tax catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -194,7 +194,7 @@ score:
   band: thin
   composite: 38.0
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -218,8 +218,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 29.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

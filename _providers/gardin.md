@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: 'Asynchronous bulk data API for downloading chlorophyll-fluorescence (ChF) and Gardin-indices data. Submit a query, poll its status, then download the result set as CSV. Supports control-area, device, '
@@ -173,7 +173,7 @@ modified: '2026-07-19'
 name: Gardin
 nav: Providers
 network: true
-overview: 'Gardin publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Agriculture, AgTech, Precision Agriculture, and Plant Health.
+overview: 'Gardin is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Agriculture, AgTech, Precision Agriculture, and Plant Health.
 
 
   The Gardin catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -219,8 +219,8 @@ score:
     regime: Health
     regime_id: health
     score: 29.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

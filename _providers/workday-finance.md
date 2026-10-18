@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -190,6 +190,16 @@ collections:
   name: Workday Finance Financial Management Accounts Worktags API
   slug: open-workday-finance-worktags-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/workday-finance/refs/heads/main/plans/workday-finance-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/workday-finance-plans-pricing.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/workday-finance/refs/heads/main/finops/workday-finance-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/workday-finance-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/workday-finance/refs/heads/main/capabilities/workday-finance-capability-edges.yml
   title: ''
@@ -381,9 +391,13 @@ examples:
   name: Workday Finance List Journal Entries Example
   slug: workday-finance-list-journal-entries-example
 finops:
-- name: Workday Finance Finops
+- has_sources: true
+  method: generated
+  name: Workday Finance Finops
+  primary_unit: ''
   service_category: Financial Management SaaS
   slug: workday-finance-finops
+  template: false
 graphqls:
 - description: This GraphQL schema represents the Workday Financial Management ERP domain, covering the full spectrum of enterprise financial operations. Workday Financial Management is a cloud-native ERP platform p
   name: Workday Financial Management GraphQL Schema
@@ -461,13 +475,13 @@ modified: '2026-05-19'
 name: Workday Finance
 nav: Providers
 network: true
-overview: 'Workday Finance publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Cost Centers API, Financial Periods API, and 14 more. Tagged areas include Accounting, Cloud, Enterprise, ERP, and Finance.
+overview: 'Workday Finance publishes 17 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, Cost Centers API, Financial Periods API, and 14 more. Tagged areas include Accounting, Cloud, Enterprise, ERP, and Finance.
 
 
   The Workday Finance catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Workday Finance''s developer surface includes authentication, developer portal, documentation, getting-started guide, developer console, signup flow, engineering blog, and 33 more developer resources.'
+  Workday Finance''s developer surface includes authentication, developer portal, documentation, getting-started guide, developer console, signup flow, engineering blog, and 35 more developer resources.'
 plans:
 - name: Workday Finance Plans Pricing
   plan_count: 1
@@ -478,9 +492,10 @@ rate_limits:
   name: Workday Finance Rate Limits
   slug: workday-finance-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Workday Finance API Rules
+  name: Workday Finance — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -488,7 +503,8 @@ rules:
     info: 2
     warn: 3
   slug: workday-finance-jsonschema-spectral-rules
-- effective_rule_count: 53
+- authorship: unmarked
+  effective_rule_count: 53
   extends:
   - spectral:oas
   name: Workday Finance API Rules
@@ -501,17 +517,17 @@ rules:
   slug: workday-finance-rules
 score:
   band: developing
-  composite: 45.6
+  composite: 44.1
   coverage:
     artifact_dirs: 21
-    catalog_earned: 56.0
+    catalog_earned: 53.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 59.0
+    catalog_gap: 62.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 55.3
+    access_clarity: 47.4
     contract_governance: 27.3
     contract_quality: 59.6
     developer_ergonomics: 34.5
@@ -531,8 +547,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

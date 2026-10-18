@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -134,6 +134,14 @@ collections:
   name: Komerce Payment Service Cost Tracking API
   slug: open-komerce-tracking-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://komerce.id/blog/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://komerce.id/blog/feed/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/komerce/refs/heads/main/overlays/komerce-payment-overlay.yaml
   title: ''
@@ -303,17 +311,17 @@ created: '2026-07-17'
 description: 'Komerce is an Indonesian end-to-end e-commerce enabler serving more than 50,000 online sellers and SMEs with an integrated suite covering fulfilment, logistics, marketplace operations, CRM, advertising and payments — Komship, Kompack, Komplace, Komchat, Komcards, Komtim, Komads and Komclass. Its developer surface is published under the RajaOngkir brand and exposes four APIs: Shipping Cost (Cek Ongkir) for domestic and international rate lookup and airway-bill tracking across 17 Indonesian couriers, Shipping Delivery (Komship) for creating orders, requesting pickup, printing labels and tracking shipments, Payment Service for Virtual Account and QRIS transactions with signed callbacks, and QRISLY for turning a static QRIS into dynamic per-transaction QRIS codes. All four authenticate with a per-product header API key issued from the Collaborator dashboard, and the delivery, payment and QRIS products run a full isolated sandbox.'
 image: https://komerce.id/img/komerce.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Komerce
 nav: Providers
 network: true
-overview: 'Komerce publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Cost API, Destinations API, Orders API, and 4 more. Tagged areas include Company, Shipping, Logistics, E-Commerce, and Payments.
+overview: 'Komerce publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Cost API, Destinations API, Orders API, and 4 more. Tagged areas include Company, Shipping, Logistics, E-Commerce, and Payments.
 
 
   The Komerce catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Komerce''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, support, engineering blog, and 29 more developer resources.'
+  Komerce''s developer surface includes engineering blog, documentation, API reference, getting-started guide, signup flow, pricing, support, and 31 more developer resources.'
 plans:
 - name: Komerce Plans
   plan_count: 3
@@ -327,7 +335,7 @@ score:
   band: developing
   composite: 45.9
   coverage:
-    artifact_dirs: 26
+    artifact_dirs: 28
     catalog_earned: 69.0
     catalog_earned_first_party: 29.0
     catalog_gap: 46.0
@@ -365,8 +373,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 15.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

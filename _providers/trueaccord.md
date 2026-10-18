@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -48,7 +48,7 @@ apis:
   description: Create, retrieve, and manage customers (consumers) and their debts.
   name: TrueAccord Customers API
   slug: trueaccord-customers-api
-artifact_total: 5
+artifact_total: 6
 collections:
 - collection_type: open
   name: API Collection
@@ -57,6 +57,23 @@ collections:
   name: TrueAccord Recover Customers API
   slug: open-trueaccord-customers-api
 common:
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.trueaccord.com/
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/trueaccord/refs/heads/main/plans/trueaccord-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/trueaccord-plans-pricing.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.trueaccord.com/press
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.trueaccord.com/feed/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/trueaccord/refs/heads/main/capabilities/trueaccord-capability-edges.yml
   title: ''
@@ -158,28 +175,32 @@ created: '2026-07-17'
 description: TrueAccord is a digital-first, omnichannel debt collection agency that uses data science and machine learning to recover consumer debt with a consumer-friendly, self-service experience. Through its Recover API, creditors and debt buyers place consumers and their debts for collection and manage customer records — customers, their contact information (addresses, phones, emails), and the debts placed against them — over a simple HTTPS interface secured with HTTP Basic authentication (API key as username) plus an X-TA-CREDITOR header for multi-creditor accounts. TrueAccord also operates first-party collections through its Sentry Credit subsidiary and its HeartBeat and HumAIn platforms, and is ISO 27001 certified.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/trueaccord.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: TrueAccord
 nav: Providers
 network: true
-overview: 'TrueAccord publishes 1 API on the [APIs.io](https://apis.io/) network: Customers API. Tagged areas include Company, Debt Collection, Financial Services, Fintech, and Machine Learning.
+overview: 'TrueAccord publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Customers API. Tagged areas include Company, Debt Collection, Financial Services, Fintech, and Machine Learning.
 
 
-  TrueAccord''s developer surface includes documentation, API reference, engineering blog, authentication, and 17 more developer resources.'
+  TrueAccord''s developer surface includes pricing, engineering blog, documentation, API reference, authentication, and 20 more developer resources.'
+plans:
+- name: Trueaccord Plans Pricing
+  plan_count: 0
+  slug: trueaccord-plans-pricing
 random_paper: 12
 score:
   band: thin
-  composite: 33.1
+  composite: 35.3
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.2
   facets:
-    access_clarity: 21.1
+    access_clarity: 31.6
     contract_governance: 4.5
     contract_quality: 52.0
     developer_ergonomics: 42.3
@@ -202,8 +223,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 17.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

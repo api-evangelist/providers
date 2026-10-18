@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The customer-gated Infinitus backend API. Infinitus' own AI Agent Security Guide instructs customers to allowlist https://api.infinitusai.com on TCP 443 for "portal and backend API access". Probing co
@@ -40,6 +40,10 @@ apis:
   slug: platform-api
 artifact_total: 9
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.infinitus.ai/blog/feed/
 - group: company
   title: ''
   type: Website
@@ -163,14 +167,14 @@ mcp_servers:
 - description: Remote MCP server at www.infinitus.ai over HTTP requiring OAuth.
   name: Infinitus MCP Server
   slug: infinitus-mcp-oauth-server
-modified: '2026-08-15'
+modified: '2026-10-06'
 name: Infinitus
 nav: Providers
 network: true
-overview: 'Infinitus publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Healthcare, Voice AI, and Benefit Verification.
+overview: 'Infinitus is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Healthcare, Voice AI, and Benefit Verification.
 
 
-  Infinitus'' developer surface includes pricing, engineering blog, support, documentation, authentication, and 20 more developer resources.'
+  Infinitus'' developer surface includes pricing, engineering blog, support, documentation, authentication, and 21 more developer resources.'
 plans:
 - name: Infinitus Plans Pricing
   plan_count: 0
@@ -219,8 +223,8 @@ score:
     regime: Health
     regime_id: health
     score: 39.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

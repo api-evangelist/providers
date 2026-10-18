@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.solfacil.com.br/feed/
 - group: company
   title: ''
   type: Website
@@ -90,20 +94,20 @@ created: '2026-07-17'
 description: Solfacil is a Brazilian clean-energy fintech and photovoltaic distributor that operates the largest solar-energy ecosystem in Latin America. Through a B2B2C model it connects more than 20,000 partner solar integrators to 100% digital solar financing (approval in ~30 seconds, terms up to 120 months), distribution of homologated PV equipment (own branches in Jundiai-SP, Jaboatao dos Guararapes-PE and Tubarao-SC), the Solfacil Smart monitoring and asset-management platform, battery/BESS storage, insurance products, and the Solfacil Academy training programs. Financial products are regulated by the Banco Central do Brasil via Solfacil SCFI S.A. Surfaced as a portfolio company of Fifth Wall and QED Investors; no public developer API was found - the customer surface is the partner Integrator Portal, storefront, and monitoring platform.
 image: https://solfacil.com.br/wp-content/uploads/2025/03/Solfacil-Destaque.jpg
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Solfacil
 nav: Providers
 network: true
 overview: 'Solfacil is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Clean Energy, Solar Energy, Fintech, and Financing.
 
 
-  Solfacil''s developer surface includes engineering blog, training material, and 10 more developer resources.'
+  Solfacil''s developer surface includes engineering blog, training material, and 11 more developer resources.'
 random_paper: 9
 score:
   band: minimal
   composite: 8.6
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -131,13 +135,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 8.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/solfacil/refs/heads/main/screenshots/solfacil-2026-10-11T193433.png
 security:
 - kind: domain-security
   name: Solfacil Domain Security

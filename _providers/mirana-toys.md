@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 0
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://miranatoys.com/blog
 - group: company
   title: ''
   type: Website
@@ -52,31 +56,31 @@ created: '2026-07-17'
 description: Mirana Toys (Mirana Innovations Pvt Ltd) is an India-based smart-toy company and OEM/ODM manufacturer of electronic toys — RC cars, monster trucks, drones, educational toys, and AI/AR toys. It pairs its consumer products with the Mirana smart app (iOS and Android), a mobile gaming platform that lets kids and adults control and play with Mirana toys over Bluetooth. As an OEM partner it offers in-house PCB/PCBA design and SMT assembly, tooling and mold design, mobile app development, compliance support (ASTM, EN-71, RoHS, ISO, SMETA), and global logistics for toy brands and retailers. Backed by Accel. The company publishes a consumer e-commerce storefront and support center but no public API or developer platform.
 image: https://miranatoys.com/icons/miranatoys.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Mirana Toys
 nav: Providers
 network: true
 overview: 'Mirana Toys is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Toys, Consumer Electronics, and Manufacturing.
 
 
-  Mirana Toys'' developer surface includes support and 2 more developer resources.'
+  Mirana Toys'' developer surface includes engineering blog, support, and 2 more developer resources.'
 random_paper: 18
 score:
   band: minimal
-  composite: 3.8
+  composite: 4.4
   coverage:
-    artifact_dirs: 2
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 6.6
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 48.2
     operational_transparency: 0.0
   jurisdiction:
@@ -99,8 +103,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 0.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

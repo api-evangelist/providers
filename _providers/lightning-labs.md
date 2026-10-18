@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.0
-  scored_at: '2026-10-04'
+  score: 17.1
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 3
@@ -58,6 +58,21 @@ collections:
   name: Lightning Labs LND API
   slug: open-lightning-labs
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/lightning-labs/refs/heads/main/plans/lightning-labs-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/lightning-labs-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/lightning-labs/refs/heads/main/rate-limits/lightning-labs-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/lightning-labs-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/lightning-labs/refs/heads/main/finops/lightning-labs-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/lightning-labs-finops.yml
 - group: company
   title: ''
   type: Website
@@ -87,19 +102,23 @@ common:
 created: '2024-11-08'
 description: At Lightning Labs, we develop software that powers the Lightning Network. Our open source, secure, and scalable Lightning systems enable users to send and receive money more efficiently than ever before. We also offer a series of verifiable, non-custodial Lightning-based financial services. We bridge the world of open source software and the next-generation of bitcoin financial software.
 finops:
-- name: Lightning Labs Finops
+- has_sources: false
+  method: generated
+  name: Lightning Labs Finops
+  primary_unit: ''
   service_category: API
   slug: lightning-labs-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lightning-labs.png
 layout: provider
 modified: '2026-09-16'
 name: Lightning Labs
 nav: Providers
 network: true
-overview: 'Lightning Labs publishes 1 API on the [APIs.io](https://apis.io/) network: Lightning API. Tagged areas include Bitcoin, Crypto, Lightning Network, and Payments.
+overview: 'Lightning Labs publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Lightning API. Tagged areas include Bitcoin, Cryptocurrency, Lightning Network, and Payments.
 
 
-  Lightning Labs'' developer surface includes engineering blog and 5 more developer resources.'
+  Lightning Labs'' developer surface includes engineering blog and 8 more developer resources.'
 plans:
 - name: Lightning Labs Plans Pricing
   plan_count: 3
@@ -111,17 +130,17 @@ rate_limits:
   slug: lightning-labs-rate-limits
 score:
   band: emerging
-  composite: 17.0
+  composite: 15.4
   coverage:
     artifact_dirs: 10
-    catalog_earned: 36.0
+    catalog_earned: 33.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 79.0
+    catalog_gap: 82.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 32.4
     developer_ergonomics: 11.9
@@ -141,8 +160,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 5.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -156,7 +175,7 @@ security:
 slug: lightning-labs
 tags:
 - Bitcoin
-- Crypto
+- Cryptocurrency
 - Lightning Network
 - Payments
 website: https://lightning.engineering

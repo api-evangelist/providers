@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Production JSON API served from api.metricwire.com backing the Metricwire research data collection platform (studies, participants, schedules, survey responses, and passive/sensor data). No public Ope
@@ -40,6 +40,10 @@ apis:
   slug: metricwire-api
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://metricwire.com/blog/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/metricwire/refs/heads/main/security/metricwire-domain-security.yml
   title: ''
@@ -92,31 +96,31 @@ created: '2026-07-17'
 description: Metricwire is a real-world data collection platform for ecological momentary assessment (EMA), experience sampling (ESM), and digital-health research. It helps organizations measure real-world experiences to inform treatments, service offerings, and policies. Researchers design studies, schedule time- and event-based prompts, collect participant self-reports alongside passive sensor and wearable data through native iOS and Android apps, and export the results for analysis. The platform is used across clinical trials, behavioral and public-health research, and patient-reported outcome programs, with an emphasis on data privacy and security (ISO 27001, GDPR). A production JSON API is served from api.metricwire.com and a participant/researcher application from app.metricwire.com, though Metricwire does not currently publish an open developer portal or machine-readable API specification.
 image: https://metricwire.com/wp-content/uploads/2016/12/mw_icon_512x512_iTunesArtwork-270x270.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Metricwire
 nav: Providers
 network: true
-overview: 'Metricwire publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Research, Data Collection, Ecological Momentary Assessment, and Experience Sampling.
+overview: 'Metricwire is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Research, Data Collection, Ecological Momentary Assessment, and Experience Sampling.
 
 
-  Metricwire''s developer surface includes support and 10 more developer resources.'
+  Metricwire''s developer surface includes engineering blog, support, and 10 more developer resources.'
 random_paper: 5
 score:
   band: emerging
-  composite: 20.6
+  composite: 21.1
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 35.5
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 4.8
+    developer_ergonomics: 7.1
     discoverability: 73.2
     operational_transparency: 15.8
   previous_composite: 20.6
@@ -132,8 +136,8 @@ score:
     regime: Health
     regime_id: health
     score: 18.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

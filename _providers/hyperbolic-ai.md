@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -73,6 +73,12 @@ apis:
   description: List available inference models
   name: Hyperbolic Models API
   slug: hyperbolic-ai-models-api
+- description: OpenAI-compatible inference API for 25+ open-source models. Surfaces include text chat, vision, image generation (FLUX, Stable Diffusion, LoRA adapters), and audio (Melo TTS). Pay-as-you-go from $0.00
+  name: Hyperbolic Serverless Inference API
+  slug: hyperbolic-ai-serverless-inference-api
+- description: Bare-metal GPU rental with SSH access for full control. Hourly rates from $1.39-$1.99 with no long-term commitments. Reserved clusters available monthly/annually with up to 40% discount.
+  name: Hyperbolic On-Demand GPU API
+  slug: hyperbolic-ai-on-demand-gpu-api
 arazzos:
 - description: Use an LLM to craft a vivid image prompt, then render it with a diffusion model.
   name: Hyperbolic Chat To Image
@@ -101,7 +107,7 @@ arazzos:
 - description: Run an OpenAI-compatible tool call and feed the tool result back for a final answer.
   name: Hyperbolic Tool Calling Roundtrip
   slug: hyperbolic-ai-tool-calling-roundtrip-workflow
-artifact_total: 66
+artifact_total: 68
 collections:
 - collection_type: postman
   name: Hyperbolic Audio Generation API
@@ -152,6 +158,36 @@ collections:
   name: Hyperbolic Models API
   slug: open-hyperbolic-models-api
 common:
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hyperbolic-ai/refs/heads/main/rules/hyperbolic-ai-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/hyperbolic-ai-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hyperbolic-ai/refs/heads/main/rules/hyperbolic-ai-jsonschema-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/hyperbolic-ai-jsonschema-spectral-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hyperbolic-ai/refs/heads/main/data-model/hyperbolic-ai-data-model.yml
+  title: ''
+  type: DataModel
+  url: data-model/hyperbolic-ai-data-model.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hyperbolic-ai/refs/heads/main/errors/hyperbolic-ai-problem-types.yml
+  title: ''
+  type: ErrorCatalog
+  url: errors/hyperbolic-ai-problem-types.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hyperbolic-ai/refs/heads/main/conformance/hyperbolic-ai-conformance.yml
+  title: ''
+  type: Conformance
+  url: conformance/hyperbolic-ai-conformance.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/hyperbolic-ai/refs/heads/main/integrations/hyperbolic-ai-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/hyperbolic-ai-integration-edges.yml
 - group: company
   title: ''
   type: Website
@@ -463,9 +499,13 @@ features:
 - 200,000+ builder community
 - Marketplace platform fee of 10% on GPU rental income
 finops:
-- name: Hyperbolic Ai Finops
+- has_sources: true
+  method: generated
+  name: Hyperbolic Ai Finops
+  primary_unit: token
   service_category: AI and Machine Learning
   slug: hyperbolic-ai-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hyperbolic-ai.png
 json_schemas:
 - name: Hyperbolic Chat Completion
@@ -481,13 +521,13 @@ modified: '2026-05-25'
 name: Hyperbolic
 nav: Providers
 network: true
-overview: 'Hyperbolic publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Audio Generation API, Chat Completions API, Completions API, and 3 more. Tagged areas include Artificial Intelligence, Compute, Decentralized, DePIN, and GPU.
+overview: 'Hyperbolic publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Audio Generation API, Chat Completions API, Completions API, and 5 more. Tagged areas include Artificial Intelligence, Compute, Decentralized, DePIN, and GPU.
 
 
   The Hyperbolic catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Hyperbolic''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, sandbox, engineering blog, and 57 more developer resources.'
+  Hyperbolic''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, sandbox, engineering blog, and 63 more developer resources.'
 plans:
 - name: Hyperbolic Ai Plans Pricing
   plan_count: 16
@@ -498,9 +538,10 @@ rate_limits:
   name: Hyperbolic Ai Rate Limits
   slug: hyperbolic-ai-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: Hyperbolic API Rules
+  name: Hyperbolic — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -508,7 +549,8 @@ rules:
     info: 1
     warn: 5
   slug: hyperbolic-ai-jsonschema-spectral-rules
-- effective_rule_count: 50
+- authorship: unmarked
+  effective_rule_count: 50
   extends:
   - spectral:oas
   name: Hyperbolic API Rules
@@ -520,42 +562,44 @@ rules:
     warn: 7
   slug: hyperbolic-ai-rules
 score:
-  band: strong
-  composite: 57.7
+  band: developing
+  composite: 53.7
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 79.0
+    artifact_dirs: 23
+    catalog_earned: 63.4
     catalog_earned_first_party: 0.0
-    catalog_gap: 36.0
+    catalog_gap: 51.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -4.0
   facets:
-    access_clarity: 70.5
-    contract_governance: 27.3
+    access_clarity: 60.5
+    contract_governance: 31.8
     contract_quality: 63.6
     developer_ergonomics: 75.0
     discoverability: 62.5
-    operational_transparency: 49.5
+    operational_transparency: 28.9
   open_source:
     applies: true
     score: 25.0
   previous_composite: 57.7
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 5
+    mcp: derived
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 22.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

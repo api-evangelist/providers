@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 5
 apis:
 - description: The primary API for integrating with Burp Suite DAST, recommended for all new integrations. Exposes the broadest range of functionality including managing sites, initiating and monitoring scans, retri
@@ -121,9 +121,13 @@ common:
 created: '2026-06-12'
 description: PortSwigger is the UK-based security research company behind Burp Suite, the industry-standard web and API security testing platform used by penetration testers and enterprise AppSec teams worldwide. The platform is available as Burp Suite Community Edition (free), Burp Suite Professional (manual testing toolkit), and Burp Suite DAST (enterprise dynamic application security testing). Developers can automate and integrate with Burp Suite DAST via a GraphQL API and a REST API, both secured with API key authentication. PortSwigger also provides the Montoya extension API for building custom Burp Suite extensions and an official MCP Server extension that bridges Burp Suite with AI clients such as Claude Desktop.
 finops:
-- name: Portswigger Finops
+- has_sources: true
+  method: generated
+  name: Portswigger Finops
+  primary_unit: ''
   service_category: Security
   slug: portswigger-finops
+  template: false
 graphqls:
 - description: PortSwigger exposes a native GraphQL API for Burp Suite DAST (Dynamic Application Security Testing). This is the recommended integration path for all new Burp Suite DAST integrations, providing the br
   name: PortSwigger GraphQL
@@ -139,7 +143,7 @@ modified: '2026-06-12'
 name: PortSwigger
 nav: Providers
 network: true
-overview: 'PortSwigger publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Security, Web Security, Penetration Testing, DAST, and API Security.
+overview: 'PortSwigger is listed with 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Security, Web Security, Penetration Testing, DAST, and API Security.
 
 
   The PortSwigger catalog on APIs.io includes 1 JSON-LD context.
@@ -156,37 +160,37 @@ rate_limits:
   name: Portswigger Rate Limits
   slug: portswigger-rate-limits
 score:
-  band: thin
-  composite: 28.3
+  band: emerging
+  composite: 20.1
   coverage:
-    artifact_dirs: 9
-    catalog_earned: 67.6
+    artifact_dirs: 10
+    catalog_earned: 49.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 47.4
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -11.1
+  delta: -8.2
   facets:
-    access_clarity: 54.7
+    access_clarity: 26.3
     contract_governance: 0.0
     contract_quality: 10.7
     developer_ergonomics: 11.9
     discoverability: 62.5
-    operational_transparency: 46.8
+    operational_transparency: 26.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - united-kingdom
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 39.4
+  previous_composite: 28.3
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: falling
   upsert:
     applies: false

@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.eqlgames.com/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/eql-games/refs/heads/main/security/eql-games-domain-security.yml
   title: ''
@@ -61,7 +65,7 @@ created: '2026-07-17'
 description: EQL Games is a Louisville, Kentucky based lottery-industry technology company that operates as an original game studio, third-party content aggregator, and boutique licensor for the global iLottery market. Its iLottery Marketplace aggregates a catalog of 300+ games from 24 partner studios behind a single integration point for lottery operators, while its EQL Labs innovation division builds original instant-win and eInstant titles that fold in licensed intellectual property and live sports. The company also represents brands across lottery verticals (instant scratch and eInstant) and reports serving 8 lottery clients. EQL Games was surfaced through Bullpen Capital's portfolio and added to the API Evangelist network; it publishes a marketing and corporate web presence but no public developer portal, API documentation, or machine-readable API specification at this time.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/eql-games.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: EQL Games
 nav: Providers
 network: true
@@ -71,7 +75,7 @@ score:
   band: minimal
   composite: 3.4
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -92,8 +96,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

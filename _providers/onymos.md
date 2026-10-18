@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Asynchronous document-image enhancement REST API. POST /api/enhance accepts a base64-encoded image plus a preset (document, auto-crop, photo or watermark) and returns a result_url immediately; GET /ap
@@ -144,7 +144,7 @@ modified: '2026-08-26'
 name: Onymos
 nav: Providers
 network: true
-overview: 'Onymos publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Features as a Service, SDK, Application Development, Mobile, and Document Processing.
+overview: 'Onymos is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Features as a Service, SDK, Application Development, Mobile, and Document Processing.
 
 
   Onymos'' developer surface includes API reference, documentation, support, engineering blog, authentication, and 15 more developer resources.'
@@ -185,8 +185,8 @@ score:
     regime: Health
     regime_id: health
     score: 23.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: REST HTTP API returning JSON/CSV for crypto market datasets. Includes a free Research scope (no paid key required) and a paid Market Events v1 scope with versioned releases, schema, manifest, and chec
@@ -31,6 +31,11 @@ apis:
   slug: coinnudge-data-api
 artifact_total: 6
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/coinnudge-api/refs/heads/main/rate-limits/coinnudge-api-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/coinnudge-api-rate-limits.yml
 - group: company
   title: ''
   type: Website
@@ -77,10 +82,10 @@ modified: '2026-09-13'
 name: CoinNudge API
 nav: Providers
 network: true
-overview: 'CoinNudge API publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Cryptocurrency, Market Data, Trading, Quantitative Finance, and Research.
+overview: 'CoinNudge API is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Cryptocurrency, Market Data, Trading, Quantitative Finance, and Research.
 
 
-  CoinNudge API''s developer surface includes pricing, support, and 6 more developer resources.'
+  CoinNudge API''s developer surface includes pricing, support, and 7 more developer resources.'
 plans:
 - name: Coinnudge Api Plans Pricing
   plan_count: 5
@@ -94,7 +99,7 @@ score:
   band: thin
   composite: 30.7
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 59.0
     catalog_earned_first_party: 24.0
     catalog_gap: 56.0
@@ -118,13 +123,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/coinnudge-api/refs/heads/main/screenshots/coinnudge-api-2026-10-11T103125.png
 security:
 - kind: authentication
   name: Coinnudge Api Authentication

@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.0
-  scored_at: '2026-10-04'
+  score: 21.8
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -74,6 +74,21 @@ collections:
   name: ICE Consolidated Feed Instruments Reference Data API
   slug: open-intercontinental-exchange-reference-data-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/intercontinental-exchange/refs/heads/main/plans/intercontinental-exchange-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/intercontinental-exchange-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/intercontinental-exchange/refs/heads/main/rate-limits/intercontinental-exchange-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/intercontinental-exchange-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/intercontinental-exchange/refs/heads/main/finops/intercontinental-exchange-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/intercontinental-exchange-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/intercontinental-exchange/refs/heads/main/agentic-access/intercontinental-exchange-agentic-access.yml
   title: ''
@@ -191,19 +206,23 @@ common:
 created: '2026-03-21'
 description: Intercontinental Exchange (ICE) operates global exchanges, clearing houses, and data services for financial and commodity markets, including the New York Stock Exchange (NYSE). ICE provides multiple developer portals including the Developer Center at developer.theice.com for market data APIs, the IDS Portal for real-time data integration, and the ICE Mortgage Technology Developer Portal for lending application development.
 finops:
-- name: Intercontinental Exchange Finops
+- has_sources: true
+  method: generated
+  name: Intercontinental Exchange Finops
+  primary_unit: ''
   service_category: Market Data
   slug: intercontinental-exchange-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/intercontinental-exchange.png
 layout: provider
 modified: '2026-07-22'
 name: Intercontinental Exchange
 nav: Providers
 network: true
-overview: 'Intercontinental Exchange publishes 3 APIs on the [APIs.io](https://apis.io/) network, including ICE Consolidated Feed API, and 2 more. Tagged areas include Commodities, Financial Exchanges, Market Data, NYSE, and Trading.
+overview: 'Intercontinental Exchange publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network, including ICE Consolidated Feed API, and 2 more. Tagged areas include Commodities, Financial Exchanges, Market Data, NYSE, and Trading.
 
 
-  Intercontinental Exchange''s developer surface includes authentication, engineering blog, support, developer portal, and 21 more developer resources.'
+  Intercontinental Exchange''s developer surface includes authentication, engineering blog, support, developer portal, and 24 more developer resources.'
 plans:
 - name: Intercontinental Exchange Plans Pricing
   plan_count: 1
@@ -231,17 +250,17 @@ rate_limits:
   slug: intercontinental-exchange-rate-limits
 score:
   band: developing
-  composite: 42.9
+  composite: 41.4
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 44.0
+    artifact_dirs: 25
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 71.0
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 50.0
+    access_clarity: 42.1
     contract_governance: 4.5
     contract_quality: 44.7
     developer_ergonomics: 48.2
@@ -268,8 +287,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 33.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

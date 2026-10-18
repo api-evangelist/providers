@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.0
-  scored_at: '2026-10-04'
+  score: 31.1
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 70
   human_in_the_loop: 4
@@ -372,9 +372,13 @@ common:
 created: '2026-06-12'
 description: SuprSend is a notification infrastructure platform that enables engineering teams to build, manage, and scale multi-channel notifications through a single unified API. It supports delivery across email, SMS, push notifications, in-app inbox, WhatsApp, Slack, and Microsoft Teams without requiring separate integrations for each channel. The platform provides workflow orchestration, template management, user preference management, smart channel routing with vendor fallback, and real-time delivery logs. SuprSend also offers a Management API for programmatic control of workflows and templates, a CLI for asset synchronization, and an MCP server enabling AI agents to interact with notification infrastructure through tool calling.
 finops:
-- name: Suprsend Finops
+- has_sources: false
+  method: generated
+  name: Suprsend Finops
+  primary_unit: ''
   service_category: ''
   slug: suprsend-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/suprsend.png
 json_schemas:
 - name: SuprSend API Schemas
@@ -390,7 +394,7 @@ modified: '2026-06-12'
 name: SuprSend
 nav: Providers
 network: true
-overview: 'SuprSend publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Broadcast API, Broadcast Run API, Bulk API, and 18 more. Tagged areas include Notification, Multi-Channel, Email, SMS, and Push Notifications.
+overview: 'SuprSend publishes 21 API contracts indexed on the [APIs.io](https://apis.io/) network, including Broadcast API, Broadcast Run API, Bulk API, and 18 more. Tagged areas include Notification, Multi-Channel, Email, SMS, and Push Notifications.
 
 
   The SuprSend catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -407,9 +411,10 @@ rate_limits:
   name: Suprsend Rate Limits
   slug: suprsend-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: SuprSend API Rules
+  name: SuprSend — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -419,22 +424,22 @@ rules:
   slug: suprsend-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 53.8
+  composite: 45.4
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 80.4
+    artifact_dirs: 18
+    catalog_earned: 61.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 34.6
+    catalog_gap: 53.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.4
   facets:
-    access_clarity: 54.7
+    access_clarity: 26.3
     contract_governance: 23.5
     contract_quality: 61.8
     developer_ergonomics: 28.6
     discoverability: 66.1
-    operational_transparency: 54.7
+    operational_transparency: 34.2
   previous_composite: 53.8
   provenance:
     agentic_access: derived
@@ -449,9 +454,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 18.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 61.1

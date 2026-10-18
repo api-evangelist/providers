@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 6
 apis:
 - description: Open-source Python framework (superduper-framework) for declaring AI models, embeddings, vector indexes, RAG pipelines, and listeners directly on top of an existing database. Apache 2.0 licensed.
@@ -56,6 +56,21 @@ apis:
   slug: agents
 artifact_total: 10
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/superduperdb/refs/heads/main/plans/superduperdb-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/superduperdb-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/superduperdb/refs/heads/main/rate-limits/superduperdb-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/superduperdb-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/superduperdb/refs/heads/main/finops/superduperdb-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/superduperdb-finops.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -100,19 +115,23 @@ common:
 created: '2026-05-23'
 description: Superduper (formerly SuperDuperDB) is an open-source Python framework for building database-integrated AI agents and applications directly on top of existing databases - MongoDB, SQL databases, Snowflake, and Redis - without separate vector stores or ETL. It supports semantic / vector search, RAG, transformer and PyTorch model integration, LLM serving, and distributed ML workflows. The commercial side, Superduper Agents, is an enterprise AI agent orchestration platform for BI and data operations, distributed via the Snowflake Marketplace and self-hosted enterprise installs.
 finops:
-- name: Superduperdb Finops
+- has_sources: false
+  method: generated
+  name: Superduperdb Finops
+  primary_unit: ''
   service_category: API
   slug: superduperdb-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/superduperdb.png
 layout: provider
 modified: '2026-05-23'
 name: Superduper
 nav: Providers
 network: true
-overview: 'Superduper publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include AI Framework, Vector Search, RAG, LLM, and MLOps.
+overview: 'Superduper is listed with 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include AI Framework, Vector Search, RAG, LLM, and MLOps.
 
 
-  Superduper''s developer surface includes documentation, GitHub presence, and 8 more developer resources.'
+  Superduper''s developer surface includes documentation, GitHub presence, and 11 more developer resources.'
 plans:
 - name: Superduperdb Plans Pricing
   plan_count: 1
@@ -124,22 +143,22 @@ rate_limits:
   slug: superduperdb-rate-limits
 score:
   band: emerging
-  composite: 22.7
+  composite: 17.3
   coverage:
     artifact_dirs: 6
-    catalog_earned: 52.4
+    catalog_earned: 39.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 62.6
+    catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.4
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 14.3
     discoverability: 62.5
-    operational_transparency: 40.0
+    operational_transparency: 26.3
   open_source:
     applies: true
     score: 65.0
@@ -150,9 +169,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 9.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: REST API for the Hush Security platform, secured with OAuth 2.0 client-credentials (API Key ID + Secret exchanged at POST /v1/oauth/token for a Bearer access token). Region-scoped host (US). Errors fo
@@ -41,6 +41,14 @@ apis:
   slug: hush-security-api
 artifact_total: 4
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.hush.security/blog/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.hush.security/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/hush-security/refs/heads/main/security/hush-security-domain-security.yml
   title: ''
@@ -156,26 +164,26 @@ created: '2026-07-17'
 description: Hush Security delivers identity-first access management for AI agents, workloads, and non-human identities (NHIs), replacing static secrets and long-lived API keys with dynamic, identity-based access at runtime. The platform provides runtime discovery and inventory of non-human identities, secrets detection and remediation, risk and posture management, and identity-based access for workloads and agentic AI through an "identity as code" model. Hush exposes a REST API (api.us.hush-security.com/v1) secured with OAuth 2.0 client-credentials, a Terraform provider, Helm charts, a Kubernetes Universal Access Management (UAM) operator with AccessCredential / AccessPrivilege / AccessPolicy CRDs, and first-party Claude Code agent skills. The company is SOC 2 and ISO 27001 certified.
 image: https://avatars.githubusercontent.com/u/170552960?v=4
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Hush Security
 nav: Providers
 network: true
-overview: 'Hush Security publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Non-Human Identity, Identity and Access Management, and Secrets Management.
+overview: 'Hush Security is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Non-Human Identity, Identity and Access Management, and Secrets Management.
 
 
-  Hush Security''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 18 more developer resources.'
+  Hush Security''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, signup flow, authentication, and 20 more developer resources.'
 random_paper: 9
 score:
   band: thin
-  composite: 37.6
+  composite: 37.7
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 50.0
     contract_governance: 18.2
@@ -193,8 +201,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

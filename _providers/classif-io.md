@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: One of the sixteen demo classification APIs Classif.io advertised, named "Fashion Style classification API" in the site navigation of the last archived capture of the homepage (2025-03-21). What the A
@@ -41,6 +41,21 @@ apis:
   slug: fashion-style-classification-api
 artifact_total: 6
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/classif-io/refs/heads/main/plans/classif-io-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/classif-io-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/classif-io/refs/heads/main/rate-limits/classif-io-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/classif-io-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/classif-io/refs/heads/main/finops/classif-io-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/classif-io-finops.yml
 - group: company
   title: ''
   type: Website
@@ -83,9 +98,13 @@ coverage:
 created: '2025-03-01'
 description: 'Classif.io was a machine-learning classification service that offered to build a custom classification model from a written description of the customer''s task, publish it as a REST API, and let prospects try an interactive demo before buying. Its site listed sixteen such demo APIs — Fashion Style Classification, Custom Car Part Identification, Surgical Instrument Classification, Retail Planogram Compliance and others — each on its own landing page, alongside a "describe your use case" intake form. The homepage credited Kindwise, the team behind Plant.id, Insect.id, Mushroom ID and crop.health, as the maker. The service is retired: the classif.io domain is no longer registered, the last live capture of the site is 2025-03-21, and no developer documentation, OpenAPI definition or other machine-readable contract survives in any public archive. See lifecycle/classif-io-lifecycle.yml for the retirement evidence.'
 finops:
-- name: Classif Io Finops
+- has_sources: true
+  method: probed
+  name: Classif Io Finops
+  primary_unit: ''
   service_category: API
   slug: classif-io-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/classif-io.png
 jsonld:
 - class_count: 13
@@ -97,7 +116,7 @@ modified: '2026-09-16'
 name: Classif.io
 nav: Providers
 network: true
-overview: 'Classif.io publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Apparel, Classification, Computer Vision, Fashion, and Image Recognition.
+overview: 'Classif.io is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Apparel, Classification, Computer Vision, Fashion, and Image Recognition.
 
 
   The Classif.io catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.'
@@ -111,7 +130,8 @@ rate_limits:
   name: Classif Io Rate Limits
   slug: classif-io-rate-limits
 rules:
-- effective_rule_count: 47
+- authorship: unmarked
+  effective_rule_count: 47
   extends:
   - spectral:oas
   name: Classif.io API Rules
@@ -123,19 +143,19 @@ rules:
     warn: 3
   slug: classif-io-rules
 score:
-  band: emerging
-  composite: 13.2
+  band: minimal
+  composite: 8.2
   coverage:
     artifact_dirs: 9
-    catalog_earned: 56.5
+    catalog_earned: 43.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 58.5
+    catalog_gap: 71.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.0
   facets:
-    access_clarity: 7.9
-    contract_governance: 40.9
+    access_clarity: 0.0
+    contract_governance: 11.4
     contract_quality: 10.7
     developer_ergonomics: 0.0
     discoverability: 57.1
@@ -147,9 +167,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 4.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

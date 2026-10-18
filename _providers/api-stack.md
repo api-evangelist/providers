@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'The API Stack Directory is a searchable catalog of 213+ API tools and services organized into 50+ categories. Each listing includes descriptions, features, pricing, screenshots, and external links to '
@@ -41,6 +41,21 @@ apis:
   slug: api-stack-directory
 artifact_total: 15
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/api-stack/refs/heads/main/plans/api-stack-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/api-stack-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/api-stack/refs/heads/main/rate-limits/api-stack-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/api-stack-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/api-stack/refs/heads/main/finops/api-stack-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/api-stack-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/api-stack/refs/heads/main/security/api-stack-domain-security.yml
   title: ''
@@ -146,19 +161,23 @@ features:
 - description: Built and maintained by Apideck as part of the broader API ecosystem alongside API Tracker and Open Banking Tracker.
   name: Powered by Apideck
 finops:
-- name: Api Stack Finops
+- has_sources: false
+  method: generated
+  name: Api Stack Finops
+  primary_unit: ''
   service_category: API
   slug: api-stack-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/api-stack.png
 layout: provider
 modified: '2026-09-02'
 name: API Stack
 nav: Providers
 network: true
-overview: 'API Stack publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include API Design, API Directory, API Gateways, API Management, and API Monitoring.
+overview: 'API Stack is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include API Design, API Directory, API Gateways, API Management, and API Monitoring.
 
 
-  API Stack''s developer surface includes signup flow and 16 more developer resources.'
+  API Stack''s developer surface includes signup flow and 19 more developer resources.'
 plans:
 - name: Api Stack Plans Pricing
   plan_count: 0
@@ -170,17 +189,17 @@ rate_limits:
   slug: api-stack-rate-limits
 score:
   band: emerging
-  composite: 14.1
+  composite: 12.6
   coverage:
     artifact_dirs: 10
-    catalog_earned: 35.0
+    catalog_earned: 32.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 80.0
+    catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 31.6
+    access_clarity: 23.7
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 0.0
@@ -195,8 +214,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 14.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

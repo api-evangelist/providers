@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The TraderOnline REST API is the integration surface behind Trader Interactive's marketplace network. It is an OAuth 2.0 protected, JSON, offset/limit paginated REST API served from api.traderonline.c
@@ -154,7 +154,7 @@ modified: '2026-08-30'
 name: Trader Interactive
 nav: Providers
 network: true
-overview: 'Trader Interactive publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketplace, Classifieds, Automotive, and Power-Sports.
+overview: 'Trader Interactive is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketplace, Classifieds, Automotive, and Power-Sports.
 
 
   Trader Interactive''s developer surface includes engineering blog, support, authentication, and 20 more developer resources.'
@@ -195,8 +195,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 20.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 7
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 114
   slug: qargo-agentic-access
   summary_line: 114 operations · 64 acting · 7 human-in-the-loop
-api_count: 1
+api_count: 2
 apis:
 - description: Fleet dispatch and subcontractor-specific endpoints for transportation management.
   name: Qargo Subcontractor API
@@ -382,7 +382,7 @@ modified: '2026-07-20'
 name: Qargo
 nav: Providers
 network: true
-overview: 'Qargo publishes 22 APIs on the [APIs.io](https://apis.io/) network, including API / Accounting API, API / Authentication API, API / Company API, and 19 more. Tagged areas include Company, Transport Management, Logistics, Supply Chain, and Freight.
+overview: 'Qargo publishes 22 API contracts indexed on the [APIs.io](https://apis.io/) network, including API / Accounting API, API / Authentication API, API / Company API, and 19 more. Tagged areas include Company, Transport Management, Logistics, Supply Chain, and Freight.
 
 
   The Qargo catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -394,7 +394,7 @@ score:
   band: developing
   composite: 48.2
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -425,8 +425,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

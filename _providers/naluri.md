@@ -32,10 +32,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.naluri.life/news
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.naluri.life/news/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/naluri/refs/heads/main/security/naluri-domain-security.yml
   title: ''
@@ -74,14 +82,14 @@ created: '2026-07-17'
 description: Naluri is a digital health and corporate wellness platform operating across Southeast Asia. It delivers Employee Assistance Programmes, chronic disease management (mental health, obesity, diabetes, hypertension, and cholesterol), health coaching and consultations, performance workshops, and Mental Health First Aid training for employers, insurers, and individuals. The company reports serving over one million members and 200-plus companies, and states it is certified for HIPAA, GDPR, and ISO/IEC 27001. No public developer portal, API documentation, or API surface is published as of this enrichment pass.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/naluri.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Naluri
 nav: Providers
 network: true
 overview: 'Naluri is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Healthcare, Digital Health, and Wellness.
 
 
-  Naluri''s developer surface includes support, engineering blog, and 6 more developer resources.'
+  Naluri''s developer surface includes engineering blog, support, and 8 more developer resources.'
 random_paper: 13
 score:
   band: emerging
@@ -108,8 +116,8 @@ score:
     regime: Health
     regime_id: health
     score: 14.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

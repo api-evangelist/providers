@@ -32,10 +32,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.lovepop.com/blogs/pop-up-cards
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.lovepop.com/blogs/pop-up-cards.atom
 - group: company
   title: ''
   type: Website
@@ -78,20 +86,20 @@ created: '2026-07-17'
 description: Lovepop is a Boston-based consumer greeting-card and gifting company, founded in 2014 and known for its intricate laser-cut 3D pop-up cards inspired by Vietnamese "kirigami" paper engineering. The company sells directly to consumers through its Shopify-powered storefront at lovepop.com and through retail partners, offering pop-up greeting cards, gift boxes, flowers, and personalized gifting. Lovepop was accelerated by Techstars and appeared on ABC's Shark Tank. It is tracked in the API Evangelist network as a Techstars portfolio company; as of this pass Lovepop publishes no first-party developer API, SDKs, or developer portal, and its public digital surface is a standard Shopify commerce storefront (including Shopify Customer Account OIDC/OAuth well-known documents served on the domain).
 image: https://www.lovepop.com/cdn/shop/files/lovepop-logo.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Lovepop
 nav: Providers
 network: true
 overview: 'Lovepop is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Greeting Cards, Gifting, E-Commerce, and Retail.
 
 
-  Lovepop''s developer surface includes engineering blog, support, signup flow, and 6 more developer resources.'
+  Lovepop''s developer surface includes engineering blog, support, signup flow, and 8 more developer resources.'
 random_paper: 3
 score:
   band: emerging
   composite: 12.8
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -119,8 +127,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 17.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

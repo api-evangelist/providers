@@ -13,7 +13,7 @@ agent_readiness:
   band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: derived
+    agent_skills: false
     agentic_access: derived
     agentic_commerce: platform
     auth_clarity: bearer
@@ -25,22 +25,22 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: partial
+    openapi_examples: false
     protected_resource_metadata: verified
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.7
-  scored_at: '2026-10-04'
+  score: 22.4
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 8
-  human_in_the_loop: 8
+- acting_count: 6
+  human_in_the_loop: 6
   name: Saviynt Agentic Access
   operation_count: 8
   slug: saviynt-agentic-access
-  summary_line: 8 operations · 8 acting · 8 human-in-the-loop
+  summary_line: 8 operations · 6 acting · 6 human-in-the-loop
 api_count: 2
 apis:
 - baseURL: https://{tenant}.saviyntcloud.com/ECM/api
@@ -48,12 +48,7 @@ apis:
   description: The Analytics API from Saviynt — 8 operation(s) for analytics.
   name: Saviynt Analytics API
   slug: saviynt-analytics-api
-- baseURL: https://{tenant}.saviyntcloud.com/ECM/api
-  baseurl_source: declared
-  description: The connections API from Saviynt — 3 operation(s) for connections.
-  name: Saviynt Connections API
-  slug: saviynt-connections-api
-artifact_total: 28
+artifact_total: 27
 collections:
 - collection_type: open
   name: API Collection
@@ -62,83 +57,11 @@ collections:
   name: Saviynt Enterprise Identity Cloud (EIC) Analytics API
   slug: open-saviynt-analytics-api
 common:
-- group: design
-  href: https://raw.githubusercontent.com/api-evangelist/saviynt/refs/heads/main/rules/saviynt-rules.yml
-  title: ''
-  type: Spectral
-  url: rules/saviynt-rules.yml
-- group: design
-  href: https://raw.githubusercontent.com/api-evangelist/saviynt/refs/heads/main/rules/saviynt-jsonschema-spectral-rules.yml
-  title: ''
-  type: Spectral
-  url: rules/saviynt-jsonschema-spectral-rules.yml
-- group: design
-  href: https://raw.githubusercontent.com/api-evangelist/saviynt/refs/heads/main/json-ld/saviynt-context.jsonld
-  title: ''
-  type: JSONLD
-  url: json-ld/saviynt-context.jsonld
-- group: design
-  href: https://raw.githubusercontent.com/api-evangelist/saviynt/refs/heads/main/vocabulary/saviynt-vocabulary.yml
-  title: ''
-  type: Vocabulary
-  url: vocabulary/saviynt-vocabulary.yml
-- group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/saviynt/refs/heads/main/skills/_index.yml
-  title: ''
-  type: AgentSkill
-  url: skills/_index.yml
-- group: design
-  href: https://raw.githubusercontent.com/api-evangelist/saviynt/refs/heads/main/data-model/saviynt-data-model.yml
-  title: ''
-  type: DataModel
-  url: data-model/saviynt-data-model.yml
-- group: auth
-  title: ''
-  type: Compliance
-  url: https://trust.saviynt.com/
-- group: design
-  href: https://raw.githubusercontent.com/api-evangelist/saviynt/refs/heads/main/conformance/saviynt-conformance.yml
-  title: ''
-  type: Conformance
-  url: conformance/saviynt-conformance.yml
-- group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/saviynt/refs/heads/main/llms/saviynt-llms.txt
-  title: ''
-  type: LLMsTxt
-  url: llms/saviynt-llms.txt
-- group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/saviynt/refs/heads/main/well-known/saviynt-well-known.yml
-  title: ''
-  type: WellKnown
-  url: well-known/saviynt-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/saviynt/refs/heads/main/hosts/saviynt-hosts.yml
+  href: https://raw.githubusercontent.com/api-evangelist/saviynt/refs/heads/main/capabilities/saviynt-capability-edges.yml
   title: ''
-  type: Hosts
-  url: hosts/saviynt-hosts.yml
-- group: other
-  href: https://raw.githubusercontent.com/api-evangelist/saviynt/refs/heads/main/vendors/saviynt-vendors.yml
-  title: ''
-  type: Vendors
-  url: vendors/saviynt-vendors.yml
-- group: build
-  href: https://raw.githubusercontent.com/api-evangelist/saviynt/refs/heads/main/packages/saviynt-packages.yml
-  title: ''
-  type: SDKs
-  url: packages/saviynt-packages.yml
-- group: build
-  href: https://raw.githubusercontent.com/api-evangelist/saviynt/refs/heads/main/packages/saviynt-packages.yml
-  title: ''
-  type: Packages
-  url: packages/saviynt-packages.yml
-- group: commercial
-  title: ''
-  type: PrivacyPolicy
-  url: https://saviynt.com/privacy-policy?hsLang=en
-- group: company
-  title: ''
-  type: Newsroom
-  url: https://saviynt.com/newsroom
+  type: CapabilityMap
+  url: capabilities/saviynt-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/saviynt/refs/heads/main/agentic-access/saviynt-agentic-access.yml
   title: ''
@@ -186,10 +109,6 @@ common:
   title: ''
   type: X
   url: https://x.com/saviynt
-- group: operate
-  title: ''
-  type: Support
-  url: https://saviynt.com/services/customer-support
 - group: commercial
   href: https://raw.githubusercontent.com/api-evangelist/saviynt/refs/heads/main/plans/saviynt-plans-pricing.yml
   title: ''
@@ -205,14 +124,6 @@ common:
   title: ''
   type: FinOps
   url: finops/saviynt-finops.yml
-coverage:
-  checked: '2026-10-04'
-  detail: No OpenAPI or other machine-readable contract could be found despite accessible documentation.
-  evidence:
-  - status: null
-    url: https://developers.saviynt.com/apis/rest/
-  reason: no-machine-readable-spec
-  state: unreadable
 created: '2026-06-13'
 description: Saviynt is an identity governance and administration (IGA) platform providing REST APIs for managing user identities, access requests, SOD violations, certifications, and privileged access controls across enterprise environments. The Saviynt Enterprise Identity Cloud API enables CRUD operations on user, account, and entitlement records; access request and approval workflows; rule engineering; segregation of duties policy management; and identity analytics.
 examples:
@@ -232,9 +143,13 @@ examples:
   name: Fetchruntimecontrolsdatav2 Request
   slug: fetchRuntimeControlsDataV2-request
 finops:
-- name: Saviynt Finops
+- has_sources: false
+  method: generated
+  name: Saviynt Finops
+  primary_unit: ''
   service_category: ''
   slug: saviynt-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/saviynt.png
 json_schemas:
 - name: FetchControlAttributesRequest
@@ -277,13 +192,13 @@ modified: '2026-06-13'
 name: Saviynt
 nav: Providers
 network: true
-overview: 'Saviynt publishes 2 APIs on the [APIs.io](https://apis.io/) network: Analytics API and Connections API. Tagged areas include Identity Governance, Identity Administration, Access Management, Privileged Access Management, and Segregation of Duties.
+overview: 'Saviynt publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Analytics API. Tagged areas include Identity Governance, Identity Administration, Identity and Access Management, Privileged Access Management, and Segregation of Duties.
 
 
   The Saviynt catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Saviynt''s developer surface includes documentation, engineering blog, pricing, support, and 27 more developer resources.'
+  Saviynt''s developer surface includes documentation, engineering blog, pricing, and 12 more developer resources.'
 plans:
 - name: Saviynt Plans Pricing
   plan_count: 3
@@ -294,9 +209,10 @@ rate_limits:
   name: Saviynt Rate Limits
   slug: saviynt-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Saviynt API Rules
+  name: Saviynt — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -304,7 +220,8 @@ rules:
     info: 2
     warn: 3
   slug: saviynt-jsonschema-spectral-rules
-- effective_rule_count: 50
+- authorship: generated
+  effective_rule_count: 50
   extends:
   - spectral:oas
   name: Saviynt API Rules
@@ -316,24 +233,24 @@ rules:
     warn: 1
   slug: saviynt-rules
 score:
-  band: developing
-  composite: 54.0
+  band: thin
+  composite: 38.2
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 84.4
+    artifact_dirs: 28
+    catalog_earned: 65.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 30.7
+    catalog_gap: 49.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 10.0
+  delta: -19.3
   facets:
-    access_clarity: 73.2
+    access_clarity: 26.3
     contract_governance: 22.0
-    contract_quality: 47.3
-    developer_ergonomics: 39.9
-    discoverability: 75.0
-    operational_transparency: 49.5
-  previous_composite: 44.0
+    contract_quality: 45.9
+    developer_ergonomics: 26.2
+    discoverability: 73.2
+    operational_transparency: 28.9
+  previous_composite: 57.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -349,10 +266,10 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 25.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: rising
+    score: 21.6
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 22.2
@@ -370,10 +287,9 @@ slug: saviynt
 tags:
 - Identity Governance
 - Identity Administration
-- Access Management
+- Identity and Access Management
 - Privileged Access Management
 - Segregation of Duties
-- IGA
 - Security
 website: https://saviynt.com
 ---

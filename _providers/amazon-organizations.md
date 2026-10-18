@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -84,6 +84,21 @@ collections:
   name: Amazon Organizations AWS Organizations API
   slug: open-amazon-organizations
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-organizations/refs/heads/main/plans/amazon-organizations-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/amazon-organizations-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-organizations/refs/heads/main/rate-limits/amazon-organizations-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/amazon-organizations-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-organizations/refs/heads/main/finops/amazon-organizations-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/amazon-organizations-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/amazon-organizations/refs/heads/main/agentic-access/amazon-organizations-agentic-access.yml
   title: ''
@@ -279,9 +294,13 @@ examples:
   name: Openapi Policy Example
   slug: openapi-policy-example
 finops:
-- name: Amazon Organizations Finops
+- has_sources: false
+  method: generated
+  name: Amazon Organizations Finops
+  primary_unit: ''
   service_category: API
   slug: amazon-organizations-finops
+  template: true
 image: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png
 json_schemas:
 - name: AWS Organizations Definition
@@ -329,13 +348,13 @@ modified: '2026-09-16'
 name: Amazon Organizations
 nav: Providers
 network: true
-overview: 'Amazon Organizations publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Account Management, Consolidated Billing, Governance, Multi-Account, and Organization.
+overview: 'Amazon Organizations publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network. Tagged areas include Account Management, Consolidated Billing, Governance, Multi-Account, and Organization.
 
 
   The Amazon Organizations catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Amazon Organizations'' developer surface includes authentication, engineering blog, support, developer console, documentation, pricing, getting-started guide, and 32 more developer resources.'
+  Amazon Organizations'' developer surface includes authentication, engineering blog, support, developer console, documentation, pricing, getting-started guide, and 35 more developer resources.'
 plans:
 - name: Amazon Organizations Plans Pricing
   plan_count: 3
@@ -346,9 +365,10 @@ rate_limits:
   name: Amazon Organizations Rate Limits
   slug: amazon-organizations-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: Amazon Organizations API Rules
+  name: Amazon Organizations — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -356,7 +376,8 @@ rules:
     info: 1
     warn: 5
   slug: amazon-organizations-jsonschema-spectral-rules
-- effective_rule_count: 66
+- authorship: generated
+  effective_rule_count: 66
   extends:
   - spectral:oas
   name: Amazon Organizations API Rules
@@ -369,17 +390,17 @@ rules:
   slug: amazon-organizations-spectral-rules
 score:
   band: developing
-  composite: 54.2
+  composite: 52.7
   coverage:
     artifact_dirs: 19
-    catalog_earned: 63.4
+    catalog_earned: 60.4
     catalog_earned_first_party: 0.0
-    catalog_gap: 51.6
+    catalog_gap: 54.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 65.8
+    access_clarity: 57.9
     contract_governance: 27.3
     contract_quality: 60.5
     developer_ergonomics: 63.1
@@ -399,8 +420,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: SuperTest is a Node.js library for testing HTTP servers by providing a high-level abstraction for HTTP assertions with a fluent API built on SuperAgent. Supports GET, POST, PUT, DELETE, PATCH HTTP met
@@ -41,6 +41,21 @@ apis:
   slug: supertest
 artifact_total: 10
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/supertest/refs/heads/main/plans/supertest-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/supertest-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/supertest/refs/heads/main/rate-limits/supertest-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/supertest-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/supertest/refs/heads/main/finops/supertest-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/supertest-finops.yml
 - group: build
   title: ''
   type: CodeOfConduct
@@ -87,9 +102,13 @@ examples:
   name: Supertest Post Request Example
   slug: supertest-post-request-example
 finops:
-- name: Supertest Finops
+- has_sources: false
+  method: generated
+  name: Supertest Finops
+  primary_unit: ''
   service_category: API
   slug: supertest-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/supertest.png
 json_schemas:
 - name: SuperTest Test Configuration
@@ -109,13 +128,13 @@ modified: '2026-05-02'
 name: SuperTest
 nav: Providers
 network: true
-overview: 'SuperTest publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Testing, Functional Testing, HTTP Testing, Node.js, and JavaScript.
+overview: 'SuperTest is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Testing, Functional Testing, HTTP Testing, Node.js, and JavaScript.
 
 
   The SuperTest catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  SuperTest''s developer surface includes documentation, release notes, and 7 more developer resources.'
+  SuperTest''s developer surface includes documentation, release notes, and 10 more developer resources.'
 plans:
 - name: Supertest Plans Pricing
   plan_count: 3
@@ -126,9 +145,10 @@ rate_limits:
   name: Supertest Rate Limits
   slug: supertest-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: SuperTest API Rules
+  name: SuperTest — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -138,17 +158,17 @@ rules:
   slug: supertest-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 24.2
+  composite: 22.9
   coverage:
     artifact_dirs: 11
-    catalog_earned: 62.2
+    catalog_earned: 59.2
     catalog_earned_first_party: 0.0
-    catalog_gap: 52.9
+    catalog_gap: 55.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.3
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 23.5
     contract_quality: 17.9
     developer_ergonomics: 9.5
@@ -164,8 +184,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 4.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

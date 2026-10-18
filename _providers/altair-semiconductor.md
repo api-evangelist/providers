@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.altairsemi.com/news/feed/
 - group: other
   title: ''
   type: ParentCompany
@@ -77,18 +81,18 @@ created: '2026-07-17'
 description: 'Altair Semiconductor is a fabless semiconductor company that designs low-power, highly integrated cellular IoT chipsets. Its core products are the ALT1250 (a dual-mode LTE-M / NB-IoT modem and SoC with integrated iSIM, MCU and GNSS) and the ALT1350 (a next-generation 5G LPWA SoC that combines LTE-M/NB-IoT, unlicensed-spectrum and satellite NTN connectivity), used in smart meters, asset trackers, wearables, sensors and vehicle telematics. Altair was acquired by Sony in 2016, operated as Sony''s cellular IoT unit, and in 2026 was spun back out as an independent company with $50M in funding led by Pitango. This is a hardware/semiconductor provider: it ships chipsets, evaluation kits and datasheets rather than a public developer API, so it carries no OpenAPI, SDK, MCP or developer-portal surface to enrich.'
 image: https://www.altairsemi.com/wp-content/uploads/2026/03/logo.svg
 layout: provider
-modified: '2026-07-17'
+modified: '2026-10-06'
 name: Altair Semiconductor
 nav: Providers
 network: true
 overview: 'Altair Semiconductor is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductors, Cellular IoT, Chipset, and LPWA.
 
 
-  Altair Semiconductor''s developer surface includes engineering blog and 8 more developer resources.'
+  Altair Semiconductor''s developer surface includes engineering blog and 9 more developer resources.'
 random_paper: 21
 score:
   band: minimal
-  composite: 3.8
+  composite: 3.9
   coverage:
     artifact_dirs: 4
     catalog_earned: 27.0
@@ -96,7 +100,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
@@ -111,8 +115,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

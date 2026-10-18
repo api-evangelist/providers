@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://data.tankutility.com/api
@@ -165,7 +165,7 @@ modified: '2026-07-21'
 name: Tank Utility
 nav: Providers
 network: true
-overview: 'Tank Utility publishes 2 APIs on the [APIs.io](https://apis.io/) network: Authentication API and Devices API. Tagged areas include Propane, Tank Monitoring, IoT, Fuel Delivery, and Telemetry.
+overview: 'Tank Utility publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Authentication API and Devices API. Tagged areas include Propane, Tank Monitoring, IoT, Fuel Delivery, and Telemetry.
 
 
   Tank Utility''s developer surface includes authentication, CLI, support, engineering blog, and 16 more developer resources.'
@@ -204,8 +204,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 20.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

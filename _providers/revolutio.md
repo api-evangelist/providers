@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 4
+- acting_count: 0
   human_in_the_loop: 0
   name: Revolutio Agentic Access
   operation_count: 8
   slug: revolutio-agentic-access
-  summary_line: 8 operations · 4 acting
+  summary_line: 8 operations
 api_count: 1
 apis:
 - baseURL: https://api.revolutio.com.au
@@ -86,6 +86,21 @@ collections:
   name: Revolutio Hazard Combined Hazard Wind API
   slug: open-revolutio-wind-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/revolutio/refs/heads/main/plans/revolutio-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/revolutio-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/revolutio/refs/heads/main/rate-limits/revolutio-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/revolutio-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/revolutio/refs/heads/main/finops/revolutio-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/revolutio-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/revolutio/refs/heads/main/capabilities/revolutio-capability-edges.yml
   title: ''
@@ -132,9 +147,13 @@ examples:
   name: Revolutio Get Wind Hazard Example
   slug: revolutio-get-wind-hazard-example
 finops:
-- name: Revolutio Finops
+- has_sources: false
+  method: generated
+  name: Revolutio Finops
+  primary_unit: ''
   service_category: API
   slug: revolutio-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/revolutio.png
 json_schemas:
 - name: Revolutio Wind Hazard Analysis Result
@@ -154,13 +173,13 @@ modified: '2026-05-19'
 name: Revolutio
 nav: Providers
 network: true
-overview: 'Revolutio publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Combined Hazard API, Seismic API, Snow And Ice API, and 1 more. Tagged areas include Engineering, Hazard, Weather, Structural Engineering, and Wind Analysis.
+overview: 'Revolutio publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Combined Hazard API, Seismic API, Snow And Ice API, and 1 more. Tagged areas include Engineering, Hazard, Weather, Structural Engineering, and Wind Analysis.
 
 
   The Revolutio catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Revolutio''s developer surface includes authentication, documentation, and 6 more developer resources.'
+  Revolutio''s developer surface includes authentication, documentation, and 9 more developer resources.'
 plans:
 - name: Revolutio Plans Pricing
   plan_count: 3
@@ -171,9 +190,10 @@ rate_limits:
   name: Revolutio Rate Limits
   slug: revolutio-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Revolutio API Rules
+  name: Revolutio — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -181,7 +201,8 @@ rules:
     info: 2
     warn: 3
   slug: revolutio-jsonschema-spectral-rules
-- effective_rule_count: 8
+- authorship: unmarked
+  effective_rule_count: 8
   extends: []
   name: Revolutio API Rules
   rule_count: 8
@@ -192,18 +213,18 @@ rules:
     warn: 4
   slug: revolutio-rules
 score:
-  band: thin
-  composite: 27.4
+  band: emerging
+  composite: 25.9
   coverage:
     artifact_dirs: 18
-    catalog_earned: 57.3
+    catalog_earned: 54.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.8
+    catalog_gap: 60.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 9.8
     contract_quality: 54.3
     developer_ergonomics: 11.9
@@ -223,8 +244,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

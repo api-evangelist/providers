@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 39.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 24
 apis:
 - baseURL: https://api.podium.com/v4/
@@ -446,9 +446,13 @@ common:
 created: '2026-06-13'
 description: Podium is a customer communication platform providing a REST API for local businesses to manage text-based conversations, reviews, payment requests, lead capture forms, webchat, and AI-driven lead conversion. The API is organized around REST with predictable resource-oriented URLs, JSON-encoded responses, and OAuth 2.0 authentication.
 finops:
-- name: Podium Finops
+- has_sources: false
+  method: generated
+  name: Podium Finops
+  primary_unit: ''
   service_category: ''
   slug: podium-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/podium.png
 jsonld:
 - class_count: 18
@@ -460,7 +464,7 @@ modified: '2026-08-14'
 name: Podium
 nav: Providers
 network: true
-overview: 'Podium publishes 27 APIs on the [APIs.io](https://apis.io/) network, including Appointment API, Call API, Campaign API, and 24 more. Tagged areas include Customer Communication, Reviews, Messaging, Payments, and Web Chat.
+overview: 'Podium publishes 27 API contracts indexed on the [APIs.io](https://apis.io/) network, including Appointment API, Call API, Campaign API, and 24 more. Tagged areas include Customer Communication, Reviews, Messaging, Payments, and Web Chat.
 
 
   The Podium catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 JSON-LD context.
@@ -483,23 +487,23 @@ scopes:
   summary_line: 25 scopes · authorizationCode
 score:
   band: developing
-  composite: 48.7
+  composite: 47.1
   coverage:
-    artifact_dirs: 27
-    catalog_earned: 59.0
+    artifact_dirs: 28
+    catalog_earned: 56.0
     catalog_earned_first_party: 8.0
-    catalog_gap: 56.0
+    catalog_gap: 59.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -1.6
   facets:
-    access_clarity: 43.4
+    access_clarity: 35.5
     contract_governance: 4.5
     contract_quality: 59.5
     developer_ergonomics: 45.8
     discoverability: 71.4
     operational_transparency: 51.3
-  previous_composite: 48.2
+  previous_composite: 48.7
   provenance:
     conformance: derived
     contracts:
@@ -515,8 +519,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 35.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

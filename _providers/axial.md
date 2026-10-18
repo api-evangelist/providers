@@ -33,10 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.axial.net/forum/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/axial/refs/heads/main/security/axial-domain-security.yml
   title: ''
@@ -112,20 +116,20 @@ created: '2026-08-06'
 description: Axial Networks operates Axial (axial.net), a private deal network for mergers, acquisitions and capital raising in the North American lower middle market. Founded in 2010 and based in New York, the platform connects business owners, M&A advisors, private equity buyers, strategic acquirers and lenders around live sell-side and buy-side transactions, and publishes a public member directory, the Middle Market Review editorial forum, industry deal-activity dashboards and business valuation calculators. The member product runs at network.axial.net and product help documentation at guide.axial.net. Axial publishes an llms.txt orientation file for language models and a public status page, but ships no public API, SDK, webhook surface or developer program — the platform is delivered as an authenticated end-user application only.
 image: https://www.axial.net/wp-content/uploads/2024/12/cropped-00_Axial-favicon-120x120.png
 layout: provider
-modified: '2026-08-06'
+modified: '2026-10-06'
 name: Axial Networks
 nav: Providers
 network: true
 overview: 'Axial Networks is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Mergers and Acquisitions, Private Capital, Deal Sourcing, and Financial Services.
 
 
-  Axial Networks'' developer surface includes engineering blog and 12 more developer resources.'
+  Axial Networks'' developer surface includes engineering blog and 13 more developer resources.'
 random_paper: 21
 score:
   band: emerging
   composite: 13.0
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -153,8 +157,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 11.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

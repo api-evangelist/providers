@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 4
 apis:
 - baseURL: grpc://localhost:3343
@@ -266,7 +266,7 @@ modified: '2026-08-02'
 name: Picarro
 nav: Providers
 network: true
-overview: 'Picarro publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Edge — SAM FOUP gRPC API, and 3 more. Tagged areas include Company, Gas Detection, Environmental Monitoring, Emissions, and Methane.
+overview: 'Picarro is listed with 4 APIs on the [APIs.io](https://apis.io/) network, including Edge — SAM FOUP gRPC API, and 3 more. Tagged areas include Company, Gas Detection, Environmental Monitoring, Emissions, and Methane.
 
 
   The Picarro catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -308,8 +308,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 38.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

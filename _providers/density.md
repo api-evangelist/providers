@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Density v3 Public API for real-time occupancy and presence, historical space metrics (occupancy, utilization, time used, sessions), spaces / doorways / sensors / labels management, sensor and space he
@@ -45,6 +45,10 @@ asyncapis:
   name: Density Websockets Events
   slug: density-websockets-events
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://density.io/about-density/press
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/density/refs/heads/main/security/density-domain-security.yml
   title: ''
@@ -167,34 +171,34 @@ created: '2026-07-17'
 description: Density builds radar-based occupancy sensors and a workplace analytics platform that measures how people use physical space without cameras or personally identifiable information. Its v3 Public API (api.density.io) exposes real-time occupancy and presence, historical metrics (occupancy, utilization, time used, sessions, raw sessions), spaces / doorways / sensors / labels resources, sensor and space health, wayfinding display tokens, and WebSocket streams for live floor presence and space occupancy. Authentication is OAuth 2.0 client-credentials (Auth0-backed) or static Bearer API tokens. Originally surfaced as a portfolio company of kleiner-perkins and enriched from Density's public developer surface.
 image: https://cdn.prod.website-files.com/5f49c40736fbe713860f9203/681a28ab6cdef3f72543b7bd_density-favicon_256x256.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Density
 nav: Providers
 network: true
-overview: 'Density publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Occupancy Sensors, Workplace Analytics, and Real-Time.
+overview: 'Density is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Occupancy Sensors, Workplace Analytics, and Real-Time.
 
 
   The Density catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Density''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, pricing, authentication, and 19 more developer resources.'
+  Density''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, signup flow, pricing, and 20 more developer resources.'
 random_paper: 20
 score:
   band: developing
-  composite: 40.7
+  composite: 41.2
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 31.6
     contract_governance: 4.5
     contract_quality: 39.0
-    developer_ergonomics: 54.8
+    developer_ergonomics: 57.1
     discoverability: 73.2
     operational_transparency: 34.2
   previous_composite: 40.7
@@ -207,8 +211,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

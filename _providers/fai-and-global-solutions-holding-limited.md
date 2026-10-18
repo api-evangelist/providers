@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -53,7 +53,7 @@ modified: '2026-07-20'
 name: FAI & GLOBAL SOLUTIONS HOLDING LIMITED
 nav: Providers
 network: true
-overview: FAI & GLOBAL SOLUTIONS HOLDING LIMITED is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Holding Company, Saudi Arabia, Middle East, and Venture Backed.
+overview: FAI & GLOBAL SOLUTIONS HOLDING LIMITED is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Holding Company, Saudi Arabia, Middle East, and 500 Global.
 random_paper: 16
 score:
   band: minimal
@@ -79,6 +79,7 @@ score:
     - saudi-arabia
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
+    - mena
     - middle-east
   previous_composite: 3.4
   regulatory:
@@ -87,8 +88,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -106,7 +107,6 @@ tags:
 - Holding Company
 - Saudi Arabia
 - Middle East
-- Venture Backed
 - 500 Global
 website: https://fai.sa
 ---

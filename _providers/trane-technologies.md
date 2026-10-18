@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 8
 apis:
 - description: 'Partner-facing developer portal hosted at developer.devops.chvac.trane.com for Trane Commercial HVAC ("CHVAC") cloud and controls APIs. The portal is gated and surfaces API design, documentation, and '
@@ -171,9 +171,13 @@ common:
 created: '2026-05-23'
 description: 'Trane Technologies plc (NYSE: TT) is an Ireland-domiciled global climate innovator that designs, manufactures, sells, and services heating, ventilation, air conditioning (HVAC), transport refrigeration, and building-automation systems. The company operates through two reportable segments — the Americas and EMEA / Asia Pacific — under the Trane, Thermo King, and American Standard Heating & Air Conditioning brands. Spun off from Ingersoll-Rand in 2020, Trane Technologies reported approximately US$23.9B in 2025 revenue, ~45,000 employees, and operations across 61 countries. Its digital surface centers on Trane Connect (cloud building portal), Tracer SC+ / Symbio controllers for commercial building automation, and the Thermo King TracKing / ConnectedSuite telematics platform for transport refrigeration.'
 finops:
-- name: Trane Technologies Finops
+- has_sources: true
+  method: generated
+  name: Trane Technologies Finops
+  primary_unit: ''
   service_category: HVAC / IoT Platform
   slug: trane-technologies-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/trane-technologies.png
 jsonld:
 - class_count: 0
@@ -185,7 +189,7 @@ modified: '2026-05-23'
 name: Trane Technologies
 nav: Providers
 network: true
-overview: 'Trane Technologies publishes 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include HVAC, Cold Chain, Telematics, Building Automation, and IoT.
+overview: 'Trane Technologies is listed with 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include HVAC, Cold Chain, Telematics, Building Automation, and IoT.
 
 
   The Trane Technologies catalog on APIs.io includes 1 JSON-LD context.
@@ -202,23 +206,23 @@ rate_limits:
   name: Trane Technologies Rate Limits
   slug: trane-technologies-rate-limits
 score:
-  band: thin
-  composite: 28.8
+  band: emerging
+  composite: 20.5
   coverage:
     artifact_dirs: 9
-    catalog_earned: 72.1
+    catalog_earned: 53.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 42.9
+    catalog_gap: 61.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 42.9
+    access_clarity: 14.5
     contract_governance: 13.6
     contract_quality: 10.7
     developer_ergonomics: 21.4
     discoverability: 62.5
-    operational_transparency: 46.8
+    operational_transparency: 26.3
   previous_composite: 28.8
   regulatory:
     applies: true
@@ -226,9 +230,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

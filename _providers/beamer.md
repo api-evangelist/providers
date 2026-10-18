@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'The Beamer REST API provides programmatic access to changelog posts, user management, segmentation, and notification feeds. Key endpoints include unread count retrieval, post creation and management, '
@@ -45,6 +45,21 @@ asyncapis:
   name: Beamer Webhooks
   slug: beamer-webhooks
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/beamer/refs/heads/main/plans/beamer-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/beamer-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/beamer/refs/heads/main/rate-limits/beamer-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/beamer-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/beamer/refs/heads/main/finops/beamer-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/beamer-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/beamer/refs/heads/main/security/beamer-trust-center.yml
   title: ''
@@ -167,9 +182,13 @@ features:
 - description: Hosted public changelog page for external users, prospects, and documentation.
   name: Public Changelog
 finops:
-- name: Beamer Finops
+- has_sources: false
+  method: generated
+  name: Beamer Finops
+  primary_unit: ''
   service_category: API
   slug: beamer-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/beamer.png
 integrations:
 - description: Automation integration connecting Beamer with thousands of apps via Zapier workflows.
@@ -187,13 +206,13 @@ modified: '2026-09-14'
 name: Beamer
 nav: Providers
 network: true
-overview: 'Beamer publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Changelog, Deprecation, Notification, Product Updates, and User Engagement.
+overview: 'Beamer is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Changelog, Deprecation, Notification, Product Updates, and User Engagement.
 
 
   The Beamer catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Beamer''s developer surface includes engineering blog, documentation, getting-started guide, support, pricing, signup flow, changelog, and 17 more developer resources.'
+  Beamer''s developer surface includes engineering blog, documentation, getting-started guide, support, pricing, signup flow, changelog, and 20 more developer resources.'
 plans:
 - name: Beamer Plans Pricing
   plan_count: 5
@@ -205,17 +224,17 @@ rate_limits:
   slug: beamer-rate-limits
 score:
   band: strong
-  composite: 61.3
+  composite: 59.8
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 64.0
+    artifact_dirs: 22
+    catalog_earned: 61.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 51.0
+    catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 100.0
+    access_clarity: 92.1
     contract_governance: 0.0
     contract_quality: 39.0
     developer_ergonomics: 50.0
@@ -235,8 +254,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

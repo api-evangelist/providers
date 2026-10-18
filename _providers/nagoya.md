@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 5.0
-  scored_at: '2026-10-04'
+  score: 3.1
+  scored_at: '2026-10-17'
 api_count: 5
 apis:
 - description: Institution-operated Shibboleth SAML 2.0 identity provider on the university's own host, published as machine-readable metadata in the GakuNin (学術認証フェデレーション) aggregate. EntityDescriptor ID PI0136JP, e
@@ -140,9 +140,13 @@ created: '2026-06-03'
 description: 'Nagoya University (名古屋大学) is a national research university in Nagoya, Aichi, Japan, founded 1871, a member of Japan''s Designated National University group and, since 2020, part of the Tokai National Higher Education and Research System (THERS) alongside Gifu University. It runs no developer portal, publishes no OpenAPI and issues no API keys, and this profile does not pretend otherwise. What it does operate, on its own nagoya-u.ac.jp hosts, are two genuinely institution-run machine surfaces: a Shibboleth SAML 2.0 identity provider (https://shib.nagoya-u.ac.jp/idp/shibboleth) registered in GakuNin, Japan''s academic access management federation, since 2014; and the ERG Science Center at the Institute for Space-Earth Environmental Research, which serves the Arase (ERG) satellite and ground-based observation data archive as an open, machine-traversable HTTPS tree that the pySPEDAS and SPEDAS analysis clients read directly. Its institutional repository, NAGOYA Repository, is
   a TENANT deployment on the National Institute of Informatics'' WEKO3 / JAIRO Cloud platform: the content, the metadata and the library administrators are Nagoya''s, but the OAI-PMH endpoint and its contract are NII''s and are not credited here. The university is registered in ROR (04chrp450) but is a member of neither DataCite nor Crossref — Japanese repositories mint DOIs through JaLC. Student records, course registration, the NU Portal and campus IT all sit behind THERS/GakuNin authentication and are not publicly documented developer APIs. Several relevant surfaces, including the university''s own GakuNin service documentation, exist only in Japanese.'
 finops:
-- name: Nagoya Finops
+- has_sources: true
+  method: generated
+  name: Nagoya Finops
+  primary_unit: ''
   service_category: Education
   slug: nagoya-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nagoya.png
 jsonld:
 - class_count: 16
@@ -154,7 +158,7 @@ modified: '2026-09-01'
 name: Nagoya University
 nav: Providers
 network: true
-overview: 'Nagoya University publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Higher Education, University, Japan, and Designated National University.
+overview: 'Nagoya University is listed with 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Higher Education, University, Japan, and Designated National University.
 
 
   The Nagoya University catalog on APIs.io includes 1 JSON-LD context.
@@ -172,22 +176,22 @@ rate_limits:
   slug: nagoya-rate-limits
 score:
   band: thin
-  composite: 33.3
+  composite: 27.3
   coverage:
     artifact_dirs: 10
-    catalog_earned: 65.4
+    catalog_earned: 52.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 49.6
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -3.4
+  delta: -6.0
   facets:
-    access_clarity: 50.5
+    access_clarity: 28.9
     contract_governance: 18.2
     contract_quality: 14.3
     developer_ergonomics: 28.6
     discoverability: 71.4
-    operational_transparency: 24.2
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -195,7 +199,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - japan-korea
-  previous_composite: 36.7
+  previous_composite: 33.3
   provenance:
     conformance: first-party
   regulatory:
@@ -204,9 +208,9 @@ score:
     regime: Education & Research
     regime_id: education
     score: 28.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

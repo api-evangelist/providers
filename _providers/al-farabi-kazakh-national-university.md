@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.5
-  scored_at: '2026-10-04'
+  score: 19.6
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 184
+- acting_count: 183
   human_in_the_loop: 4
   name: Al Farabi Kazakh National University Agentic Access
   operation_count: 400
   slug: al-farabi-kazakh-national-university-agentic-access
-  summary_line: 400 operations · 184 acting · 4 human-in-the-loop
+  summary_line: 400 operations · 183 acting · 4 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://open.kaznu.kz/api
@@ -546,9 +546,13 @@ examples:
   name: Al Farabi Kazakh National University List Courses Example
   slug: al-farabi-kazakh-national-university-list-courses-example
 finops:
-- name: Al Farabi Kazakh National University Finops
+- has_sources: true
+  method: generated
+  name: Al Farabi Kazakh National University Finops
+  primary_unit: ''
   service_category: Education
   slug: al-farabi-kazakh-national-university-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/al-farabi-kazakh-national-university.png
 json_schemas:
 - name: Bookmark
@@ -586,7 +590,7 @@ modified: '2026-09-01'
 name: Al-Farabi Kazakh National University
 nav: Providers
 network: true
-overview: 'Al-Farabi Kazakh National University publishes 51 APIs on the [APIs.io](https://apis.io/) network, including Agreements API, Bookmarks API, Certificates API, and 48 more. Tagged areas include Education, Higher Education, University, Research, and Library.
+overview: 'Al-Farabi Kazakh National University publishes 51 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agreements API, Bookmarks API, Certificates API, and 48 more. Tagged areas include Education, Higher Education, University, Research, and Library.
 
 
   The Al-Farabi Kazakh National University catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -603,9 +607,10 @@ rate_limits:
   name: Al Farabi Kazakh National University Rate Limits
   slug: al-farabi-kazakh-national-university-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Al-Farabi Kazakh National University API Rules
+  name: Al-Farabi Kazakh National University — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -613,7 +618,8 @@ rules:
     info: 1
     warn: 4
   slug: al-farabi-kazakh-national-university-jsonschema-spectral-rules
-- effective_rule_count: 6
+- authorship: unmarked
+  effective_rule_count: 6
   extends: []
   name: Al-Farabi Kazakh National University API Rules
   rule_count: 6
@@ -625,23 +631,23 @@ rules:
   slug: al-farabi-kazakh-national-university-rules
 score:
   band: thin
-  composite: 39.0
+  composite: 33.4
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 62.7
+    artifact_dirs: 19
+    catalog_earned: 49.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 52.4
+    catalog_gap: 65.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -3.3
+  delta: -6.1
   facets:
-    access_clarity: 37.4
+    access_clarity: 15.8
     contract_governance: 9.8
     contract_quality: 52.3
     developer_ergonomics: 22.6
-    discoverability: 60.7
-    operational_transparency: 24.2
-  previous_composite: 42.3
+    discoverability: 66.1
+    operational_transparency: 10.5
+  previous_composite: 39.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -656,9 +662,9 @@ score:
     regime: Education & Research
     regime_id: education
     score: 20.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 38.9
@@ -683,7 +689,7 @@ tags:
 - Kazakhstan
 - Central Asia
 - Course Catalog
-- Learning Management
+- LMS
 - Open edX
 - MOOC
 - Scholarly Publishing

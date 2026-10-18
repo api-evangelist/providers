@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 4
 apis:
 - description: The Rental business line of the EHI API Marketplace, covering Enterprise Rent-A-Car's network of neighborhood and airport branches. The public overview page describes the capabilities as vehicle renta
@@ -157,7 +157,7 @@ modified: '2026-07-28'
 name: Enterprise Mobility
 nav: Providers
 network: true
-overview: 'Enterprise Mobility publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Travel, United States, Car Rental, Ground Transportation, and Mobility.
+overview: 'Enterprise Mobility is listed with 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Travel, United States, Car Rental, Ground Transportation, and Mobility.
 
 
   Enterprise Mobility''s developer surface includes developer portal, documentation, authentication, support, engineering blog, and 16 more developer resources.'
@@ -201,8 +201,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 42.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -34,8 +34,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.9
-  scored_at: '2026-10-04'
-api_count: 1
+  scored_at: '2026-10-17'
+api_count: 2
 apis:
 - baseURL: https://uniform.app
   baseurl_source: declared
@@ -541,7 +541,7 @@ modified: '2026-07-21'
 name: Uniform
 nav: Providers
 network: true
-overview: 'Uniform publishes 41 APIs on the [APIs.io](https://apis.io/) network, including Aggregates API, AI Agents API, Assets API, and 38 more. Tagged areas include Company, Digital Experience Platform, Content Management, Personalization, and A/B Testing.
+overview: 'Uniform publishes 41 API contracts indexed on the [APIs.io](https://apis.io/) network, including Aggregates API, AI Agents API, Assets API, and 38 more. Tagged areas include Company, Digital Experience Platform, Content Management, Personalization, and A/B Testing.
 
 
   The Uniform catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -560,7 +560,7 @@ score:
   band: strong
   composite: 59.3
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -594,8 +594,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

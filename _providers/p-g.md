@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The central API hub for Developers, Consumers, Application Managers, and Architects to discover and use P&G APIs.
@@ -41,6 +41,25 @@ apis:
   slug: p-g
 artifact_total: 6
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/p-g/refs/heads/main/plans/p-g-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/p-g-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/p-g/refs/heads/main/rate-limits/p-g-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/p-g-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/p-g/refs/heads/main/finops/p-g-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/p-g-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://us.pg.com/blogs/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/p-g/refs/heads/main/security/p-g-vulnerability-disclosure.yml
   title: ''
@@ -66,19 +85,23 @@ common:
 created: '2025-02-08'
 description: Procter & Gamble provides an API Marketplace - the central API hub for Developers, Consumers, Application Managers, and Architects to discover and use P&G APIs.
 finops:
-- name: P G Finops
+- has_sources: false
+  method: generated
+  name: P G Finops
+  primary_unit: ''
   service_category: API
   slug: p-g-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/p-g.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-10-06'
 name: P&G
 nav: Providers
 network: true
-overview: 'P&G publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include API Marketplace and Consumer Goods.
+overview: 'P&G is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include API Marketplace and Consumer Goods.
 
 
-  P&G''s developer surface includes developer portal and 4 more developer resources.'
+  P&G''s developer surface includes engineering blog, developer portal, and 7 more developer resources.'
 plans:
 - name: P G Plans Pricing
   plan_count: 3
@@ -90,20 +113,20 @@ rate_limits:
   slug: p-g-rate-limits
 score:
   band: minimal
-  composite: 9.8
+  composite: 8.8
   coverage:
-    artifact_dirs: 6
-    catalog_earned: 31.0
+    artifact_dirs: 7
+    catalog_earned: 28.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 84.0
+    catalog_gap: 87.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.0
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 9.5
+    developer_ergonomics: 11.9
     discoverability: 39.3
     operational_transparency: 10.5
   previous_composite: 9.8
@@ -113,8 +136,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

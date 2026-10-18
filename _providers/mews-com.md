@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 238
+- acting_count: 150
   human_in_the_loop: 1
   name: Mews Com Agentic Access
   operation_count: 291
   slug: mews-com-agentic-access
-  summary_line: 291 operations · 238 acting · 1 human-in-the-loop
+  summary_line: 291 operations · 150 acting · 1 human-in-the-loop
 api_count: 3
 apis:
 - description: Two-way API for channel managers and distribution channels. Mews-side operations let channel managers receive reservations from Mews; channel-manager-side endpoints let Mews push availability, rate, a
@@ -1046,9 +1046,13 @@ features:
 - Open-source contributions: Mews Flutter packages, Fiscalizations .NET library, gitbook-based open-api-docs
 - Pricing is quote-based per property — no public price list; commercial terms negotiated with the partner success team
 finops:
-- name: Mews Com Finops
+- has_sources: true
+  method: generated
+  name: Mews Com Finops
+  primary_unit: property-month
   service_category: Hospitality Software
   slug: mews-com-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mews-com.png
 json_schemas:
 - name: MewsCustomer
@@ -1071,7 +1075,7 @@ modified: '2026-05-25'
 name: Mews
 nav: Providers
 network: true
-overview: 'Mews publishes 78 APIs on the [APIs.io](https://apis.io/) network, including Account notes API, Accounting categories API, Accounting items API, and 75 more. Tagged areas include Hospitality, Hotels, PMS, Property Management, and Travel.
+overview: 'Mews publishes 78 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account notes API, Accounting categories API, Accounting items API, and 75 more. Tagged areas include Hospitality, Hotels, PMS, Property Management, and Travel.
 
 
   The Mews catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -1088,9 +1092,10 @@ rate_limits:
   name: Mews Com Rate Limits
   slug: mews-com-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Mews API Rules
+  name: Mews — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1098,7 +1103,8 @@ rules:
     info: 1
     warn: 4
   slug: mews-com-jsonschema-spectral-rules
-- effective_rule_count: 50
+- authorship: unmarked
+  effective_rule_count: 50
   extends:
   - spectral:oas
   name: Mews API Rules
@@ -1110,24 +1116,24 @@ rules:
     warn: 5
   slug: mews-com-rules
 score:
-  band: strong
-  composite: 60.7
+  band: developing
+  composite: 54.0
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 82.6
+    artifact_dirs: 20
+    catalog_earned: 67.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 32.4
+    catalog_gap: 48.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.4
+  delta: -6.7
   facets:
-    access_clarity: 88.9
+    access_clarity: 68.4
     contract_governance: 27.3
     contract_quality: 61.2
     developer_ergonomics: 41.7
     discoverability: 62.5
-    operational_transparency: 62.6
-  previous_composite: 60.5
+    operational_transparency: 42.1
+  previous_composite: 60.7
   provenance:
     agentic_access: derived
     contracts:
@@ -1141,9 +1147,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 23.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 11.1

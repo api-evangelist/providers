@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.jobcorps.gov/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/job-corps/refs/heads/main/security/job-corps-domain-security.yml
   title: ''
@@ -81,7 +85,7 @@ created: '2024-12-25'
 description: Job Corps is the nation's largest free residential education and job training program for young adults, operated by the U.S. Department of Labor. It helps eligible young people ages 16 through 24 improve the quality of their lives through vocational and academic training across 100+ training areas, 10 in-demand industries, and 120+ campuses nationwide.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/job-corps.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-10-06'
 name: Job Corps
 nav: Providers
 network: true
@@ -91,7 +95,7 @@ score:
   band: minimal
   composite: 3.3
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -112,8 +116,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

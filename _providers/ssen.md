@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 16
   slug: ssen-agentic-access
   summary_line: 16 operations
-api_count: 1
+api_count: 2
 apis:
 - description: The public CKAN 2.10.10 Action API behind the SSEN Distribution Data Portal, serving 45 open datasets covering substations, LV feeder smart meter half-hourly usage, the Embedded Capacity Register, fle
   name: SSEN Distribution Data Portal API
@@ -239,7 +239,7 @@ modified: '2026-07-27'
 name: Scottish and Southern Electricity Networks
 nav: Providers
 network: true
-overview: 'Scottish and Southern Electricity Networks publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Catalog API, Dataset API, and 3 more. Tagged areas include Energy, United Kingdom, Utilities, Electricity, and Grid.
+overview: 'Scottish and Southern Electricity Networks publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Catalog API, Dataset API, and 3 more. Tagged areas include Energy, United Kingdom, Utilities, Electricity, and Grid.
 
 
   Scottish and Southern Electricity Networks'' developer surface includes authentication, getting-started guide, support, engineering blog, signup flow, documentation, developer portal, and 29 more developer resources.'
@@ -291,8 +291,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 32.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

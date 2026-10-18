@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 6
 apis:
 - description: 'SOAP web service for serialized operations: commissioning, aggregation, decommissioning, shipment and receipt orders, serial number verification, lot status, market release, sampling, and destruction.'
@@ -62,6 +62,10 @@ asyncapis:
   name: Tracelink Event Surface
   slug: tracelink-event-surface
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.tracelink.com/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/tracelink/refs/heads/main/security/tracelink-vulnerability-disclosure.yml
   title: ''
@@ -334,23 +338,23 @@ json_schemas:
   property_count: 5
   slug: multienterprise-process-connect_canonicalWarehouseStockTransferShipAdvice_v3
 layout: provider
-modified: '2026-08-02'
+modified: '2026-10-06'
 name: TraceLink
 nav: Providers
 network: true
-overview: 'TraceLink publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Supply Chain, Pharmaceuticals, Life Sciences, and Serialization.
+overview: 'TraceLink is listed with 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Supply Chain, Pharmaceuticals, Life Sciences, and Serialization.
 
 
   The TraceLink catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  TraceLink''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, code examples, and 27 more developer resources.'
+  TraceLink''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, code examples, and 28 more developer resources.'
 random_paper: 11
 score:
   band: developing
   composite: 49.6
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -382,8 +386,8 @@ score:
     regime: Health
     regime_id: health
     score: 28.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

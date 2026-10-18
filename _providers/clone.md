@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'High-level gRPC (proto3) API to directly control the Clone Robot — muscle actuation (impulses/pulses/pressures), pinch/hydra valve control, water-pump pressure source, telemetry streaming, and camera '
@@ -40,6 +40,10 @@ apis:
   slug: clone-robot-control-api
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://clonerobotics.com/blog/
 - group: operate
   title: ''
   type: IssueTracker
@@ -128,31 +132,31 @@ created: '2026-07-17'
 description: Clone Robotics develops musculoskeletal, intelligent humanoid androids and robotic hands built on Myofiber, its artificial-muscle technology pioneered in 2021, driven by water-based hydraulics and biomimetic joints. Its flagship Clone Alpha is a full-body biomimetic humanoid with synthetic organs; the Clone Hand is its foundational dexterous-manipulation platform. The developer surface is a first-party Python client (clone_client) exposing a high-level gRPC (proto3) API to directly control the Clone Robot over the local network — actuating muscles via impulses/pulses/pressures, driving pinch and hydra valves, managing the water-pump pressure source, streaming IMU/pose/joint telemetry, and configuring cameras. There is no public HTTP/REST API or hosted endpoint; control is LAN-scoped gRPC discovered over zeroconf/mDNS by robot name or IP. Co-founded 2021 by Dhanush Radhakrishna and Lukasz Kozlik.
 image: https://avatars.githubusercontent.com/u/140611352?v=4
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Clone
 nav: Providers
 network: true
-overview: 'Clone publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Frontier Tech, Robotics, Humanoid, and Androids.
+overview: 'Clone is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Frontier Tech, Robotics, Humanoid, and Androids.
 
 
-  Clone''s developer surface includes YouTube channel and 18 more developer resources.'
+  Clone''s developer surface includes engineering blog, YouTube channel, and 18 more developer resources.'
 random_paper: 1
 score:
   band: emerging
-  composite: 18.1
+  composite: 18.7
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 24.0
-    developer_ergonomics: 7.1
+    developer_ergonomics: 9.5
     discoverability: 64.3
     operational_transparency: 2.6
   previous_composite: 18.1
@@ -162,8 +166,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

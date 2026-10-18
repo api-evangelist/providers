@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 6
 apis:
 - description: Standards for Carrier APIs
@@ -74,6 +74,10 @@ collections:
   name: Preliminary Freight Charges (PFC) API
   slug: open-nmfta-dsdc-ltl-preliminary-freight-charges
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://nmfta.org/news-resources/blog/
 - group: company
   title: ''
   type: Website
@@ -182,31 +186,31 @@ features:
 - 'Server declarations across all six harvested specifications: zero'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nmfta.png
 layout: provider
-modified: '2026-08-03'
+modified: '2026-10-06'
 name: NMFTA
 nav: Providers
 network: true
-overview: 'NMFTA publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Carrier API Standards API, Document Management API, Events API, and 6 more. Tagged areas include API Standards, DSDC, Digital FTL Council, Digital LTL Council, and Freight.
+overview: 'NMFTA publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Carrier API Standards API, Document Management API, Events API, and 6 more. Tagged areas include API Standards, DSDC, Digital FTL Council, Digital LTL Council, and Freight.
 
 
-  NMFTA''s developer surface includes developer portal, product news, and 19 more developer resources.'
+  NMFTA''s developer surface includes engineering blog, developer portal, product news, and 19 more developer resources.'
 random_paper: 6
 score:
   band: emerging
-  composite: 18.4
+  composite: 18.9
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 43.8
-    developer_ergonomics: 19.0
+    developer_ergonomics: 21.4
     discoverability: 63.4
     operational_transparency: 2.6
   previous_composite: 18.4
@@ -222,8 +226,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 0.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

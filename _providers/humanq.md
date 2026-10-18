@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://humanq.com/feed/
 - group: company
   title: ''
   type: Website
@@ -61,20 +65,20 @@ created: '2026-07-17'
 description: HumanQ is an execution-capability and intelligence platform that helps organizations move critical work forward through structured, live execution sprints called QPods. Each QPod is a 60-minute facilitated session, led by trained "Catalysts," for small groups of up to six participants working through decision drag, unclear ownership, and cross-team stalls. HumanQ is offered as HumanQ Scale (an enterprise-wide program with weekly and monthly tracks, on-demand drop-ins, and deep customization) and HumanQ Teams (a manager-led tool for up to four groups, live in two weeks with no contract). Progress is tracked through the QStart, QImpact, and QSignal measurement framework, with delivery across 74 countries. HumanQ is a portfolio company of Kindred Ventures. It is a managed-services platform and does not currently publish a public API, SDK, or developer documentation surface.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/humanq.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: HumanQ
 nav: Providers
 network: true
 overview: 'HumanQ is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Execution, Facilitation, Team Productivity, and Leadership Development.
 
 
-  HumanQ''s developer surface includes pricing and 4 more developer resources.'
+  HumanQ''s developer surface includes pricing and 5 more developer resources.'
 random_paper: 12
 score:
   band: minimal
   composite: 10.9
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -95,8 +99,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

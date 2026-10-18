@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -340,9 +340,13 @@ features:
 - Shanghai Megafactory — Tesla's second Megapack factory, online 2025
 - Energy revenue $10.1B in 2024 (+67% YoY); 31.4 GWh battery deployments in 2023 (+113% YoY)
 finops:
-- name: Tesla Energy Finops
+- has_sources: true
+  method: generated
+  name: Tesla Energy Finops
+  primary_unit: request
   service_category: Energy / Storage / API
   slug: tesla-energy-finops
+  template: false
 json_schemas:
 - name: Tesla Energy Site Live Status
   property_count: 13
@@ -360,7 +364,7 @@ modified: '2026-05-25'
 name: Tesla Energy
 nav: Providers
 network: true
-overview: 'Tesla Energy publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Backup API, History API, Live Status API, and 7 more. Tagged areas include Energy, Clean Energy, Solar, Battery Storage, and Powerwall.
+overview: 'Tesla Energy publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Backup API, History API, Live Status API, and 7 more. Tagged areas include Energy, Clean Energy, Solar, Battery Storage, and Powerwall.
 
 
   The Tesla Energy catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -377,9 +381,10 @@ rate_limits:
   name: Tesla Energy Rate Limits
   slug: tesla-energy-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Tesla Energy API Rules
+  name: Tesla Energy — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -387,7 +392,8 @@ rules:
     info: 1
     warn: 4
   slug: tesla-energy-jsonschema-spectral-rules
-- effective_rule_count: 49
+- authorship: unmarked
+  effective_rule_count: 49
   extends:
   - spectral:oas
   name: Tesla Energy API Rules
@@ -404,23 +410,23 @@ scopes:
   slug: tesla-energy-scopes
   summary_line: 3 scopes · authorizationCode
 score:
-  band: strong
-  composite: 55.8
+  band: developing
+  composite: 49.0
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 84.1
+    artifact_dirs: 18
+    catalog_earned: 68.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 30.9
+    catalog_gap: 46.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.8
   facets:
-    access_clarity: 57.4
+    access_clarity: 36.8
     contract_governance: 13.6
     contract_quality: 65.9
     developer_ergonomics: 57.1
     discoverability: 62.5
-    operational_transparency: 46.8
+    operational_transparency: 26.3
   previous_composite: 55.8
   provenance:
     agentic_access: derived
@@ -435,9 +441,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 34.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -126,6 +126,21 @@ collections:
   slug: open-litecoin-utxo-api
 common:
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/litecoin/refs/heads/main/plans/litecoin-core-json-rpc.yml
+  title: ''
+  type: Plans
+  url: plans/litecoin-core-json-rpc.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/litecoin/refs/heads/main/rate-limits/litecoin-core-json-rpc.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/litecoin-core-json-rpc.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/litecoin/refs/heads/main/finops/litecoin-core-json-rpc.yml
+  title: ''
+  type: FinOps
+  url: finops/litecoin-core-json-rpc.yml
+- group: commercial
   title: ''
   type: License
   url: https://github.com/litecoin-project/litecoin/blob/master/LICENSE
@@ -179,28 +194,44 @@ common:
 created: '2026-06-14'
 description: Litecoin is a peer-to-peer cryptocurrency network based on the Bitcoin protocol, offering faster block times (2.5 minutes) and lower transaction fees. It exposes a JSON-RPC interface via Litecoin Core for direct node interaction, a built-in unauthenticated REST interface for public blockchain queries, and a Litecoin Space block explorer REST and WebSocket API (mempool.space-compatible) for querying transactions, addresses, blocks, UTXO data, mempool state, and fee estimates.
 finops:
-- name: Litecoin Core Json Rpc
+- has_sources: false
+  method: generated
+  name: Litecoin Core Json Rpc
+  primary_unit: ''
   service_category: ''
   slug: litecoin-core-json-rpc
-- name: Litecoin Core Rest
+  template: true
+- has_sources: false
+  method: generated
+  name: Litecoin Core Rest
+  primary_unit: ''
   service_category: ''
   slug: litecoin-core-rest
-- name: Litecoin Space Rest
+  template: true
+- has_sources: false
+  method: generated
+  name: Litecoin Space Rest
+  primary_unit: ''
   service_category: ''
   slug: litecoin-space-rest
-- name: Litecoin Space Websocket
+  template: true
+- has_sources: false
+  method: generated
+  name: Litecoin Space Websocket
+  primary_unit: ''
   service_category: ''
   slug: litecoin-space-websocket
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/litecoin.png
 layout: provider
 modified: '2026-06-14'
 name: Litecoin
 nav: Providers
 network: true
-overview: 'Litecoin publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Addresses API, Blockchain API, Blocks API, and 7 more. Tagged areas include Cryptocurrency, Blockchain, Litecoin, LTC, and Payments.
+overview: 'Litecoin publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Addresses API, Blockchain API, Blocks API, and 7 more. Tagged areas include Cryptocurrency, Blockchain, Litecoin, LTC, and Payments.
 
 
-  Litecoin''s developer surface includes authentication, engineering blog, changelog, and 9 more developer resources.'
+  Litecoin''s developer surface includes authentication, engineering blog, changelog, and 12 more developer resources.'
 plans:
 - name: Litecoin Core Json Rpc
   plan_count: 1
@@ -229,18 +260,18 @@ rate_limits:
   name: Litecoin Space Websocket
   slug: litecoin-space-websocket
 score:
-  band: thin
-  composite: 27.8
+  band: emerging
+  composite: 23.6
   coverage:
     artifact_dirs: 12
-    catalog_earned: 45.2
+    catalog_earned: 37.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 69.8
+    catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -4.2
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 44.1
     developer_ergonomics: 22.6
@@ -260,8 +291,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 10.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

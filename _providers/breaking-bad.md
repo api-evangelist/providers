@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -174,15 +174,16 @@ modified: '2026-05-29'
 name: Breaking Bad
 nav: Providers
 network: true
-overview: 'Breaking Bad publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Characters API, Deaths API, Episodes API, and 1 more. Tagged areas include Video, Television, Public APIs, Open Source, and Breaking Bad.
+overview: 'Breaking Bad is listed with 4 APIs on the [APIs.io](https://apis.io/) network, including Characters API, Deaths API, Episodes API, and 1 more. Tagged areas include Video, Television, Public APIs, Open Source, and Breaking Bad.
 
 
   The Breaking Bad catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.'
 random_paper: 9
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Breaking Bad API Rules
+  name: Breaking Bad — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -190,7 +191,8 @@ rules:
     info: 1
     warn: 4
   slug: breaking-bad-jsonschema-spectral-rules
-- effective_rule_count: 73
+- authorship: unmarked
+  effective_rule_count: 73
   extends:
   - spectral:oas
   name: Breaking Bad API Rules
@@ -233,8 +235,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 4.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'RESTful API for managing B2B events including conferences, speakers, ticketing, attendee registration, contacts, sessions, and event analytics. Enables third-party developers and Bizzabo customers to '
@@ -41,6 +41,21 @@ apis:
   slug: bizzabo-public-api
 artifact_total: 6
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/bizzabo/refs/heads/main/plans/plans.yml
+  title: ''
+  type: Plans
+  url: plans/plans.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/bizzabo/refs/heads/main/rate-limits/rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/bizzabo/refs/heads/main/finops/finops.yml
+  title: ''
+  type: FinOps
+  url: finops/finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/bizzabo/refs/heads/main/security/bizzabo-domain-security.yml
   title: ''
@@ -81,9 +96,13 @@ common:
 created: '2026-06-13'
 description: Bizzabo is a B2B event experience platform with REST APIs for managing conferences, speakers, ticketing, attendee data, and event analytics and performance metrics. The open API enables developers to build custom integrations, automate event workflows, synchronize attendee data with CRM and marketing platforms, and deliver personalized event experiences at scale.
 finops:
-- name: Finops
+- has_sources: false
+  method: generated
+  name: Finops
+  primary_unit: ''
   service_category: ''
   slug: finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bizzabo.png
 jsonld:
 - class_count: 0
@@ -95,13 +114,13 @@ modified: '2026-06-13'
 name: Bizzabo
 nav: Providers
 network: true
-overview: 'Bizzabo publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Event, Event Management, B2B Events, Conference Management, and Ticketing.
+overview: 'Bizzabo is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Event, Event Management, B2B Events, Conference Management, and Ticketing.
 
 
   The Bizzabo catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Bizzabo''s developer surface includes documentation, engineering blog, pricing, and 6 more developer resources.'
+  Bizzabo''s developer surface includes documentation, engineering blog, pricing, and 9 more developer resources.'
 plans:
 - name: Plans
   plan_count: 1
@@ -113,17 +132,17 @@ rate_limits:
   slug: rate-limits
 score:
   band: emerging
-  composite: 24.4
+  composite: 20.2
   coverage:
-    artifact_dirs: 9
-    catalog_earned: 52.2
+    artifact_dirs: 10
+    catalog_earned: 44.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 62.8
+    catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -4.2
   facets:
-    access_clarity: 43.9
+    access_clarity: 22.4
     contract_governance: 0.0
     contract_quality: 6.7
     developer_ergonomics: 23.8
@@ -136,8 +155,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

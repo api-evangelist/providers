@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.0
-  scored_at: '2026-10-04'
+  score: 17.1
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -92,6 +92,21 @@ collections:
   name: OCI Distribution Specification
   slug: open-open-container-initiative
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/open-container-initiative/refs/heads/main/plans/open-container-initiative-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/open-container-initiative-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/open-container-initiative/refs/heads/main/rate-limits/open-container-initiative-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/open-container-initiative-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/open-container-initiative/refs/heads/main/finops/open-container-initiative-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/open-container-initiative-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/open-container-initiative/refs/heads/main/agentic-access/open-container-initiative-agentic-access.yml
   title: ''
@@ -129,19 +144,23 @@ common:
 created: '2026-03-26'
 description: The Open Container Initiative (OCI) is an open governance structure for creating open industry standards around container formats and runtimes, hosted under the Linux Foundation.
 finops:
-- name: Open Container Initiative Finops
+- has_sources: false
+  method: generated
+  name: Open Container Initiative Finops
+  primary_unit: ''
   service_category: API
   slug: open-container-initiative-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/open-container-initiative.png
 layout: provider
 modified: '2026-05-19'
 name: Open Container Initiative
 nav: Providers
 network: true
-overview: 'Open Container Initiative publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Blobs API, Manifests API, OCI Distribution Specification API, and 2 more. Tagged areas include Cloud-Native, Containers, OCI, Open Source, and Standards.
+overview: 'Open Container Initiative publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Blobs API, Manifests API, OCI Distribution Specification API, and 2 more. Tagged areas include Cloud-Native, Containers, OCI, Open Source, and Standards.
 
 
-  Open Container Initiative''s developer surface includes engineering blog, FAQ, and 6 more developer resources.'
+  Open Container Initiative''s developer surface includes engineering blog, FAQ, and 9 more developer resources.'
 plans:
 - name: Open Container Initiative Plans Pricing
   plan_count: 3
@@ -153,17 +172,17 @@ rate_limits:
   slug: open-container-initiative-rate-limits
 score:
   band: emerging
-  composite: 23.0
+  composite: 21.5
   coverage:
     artifact_dirs: 10
-    catalog_earned: 36.0
+    catalog_earned: 33.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 79.0
+    catalog_gap: 82.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 40.4
     developer_ergonomics: 28.6
@@ -183,8 +202,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

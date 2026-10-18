@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -764,9 +764,13 @@ features:
 - description: Export Web APIs as OpenAPI 3.0.1 specifications for documentation sharing.
   name: OpenAPI Export
 finops:
-- name: Appian Finops
+- has_sources: true
+  method: generated
+  name: Appian Finops
+  primary_unit: ''
   service_category: Low-Code / Process Automation
   slug: appian-finops
+  template: false
 image: https://www.appian.com/favicon.ico
 integrations:
 - description: Connect Appian to Salesforce CRM for data synchronization and process automation.
@@ -971,7 +975,7 @@ modified: '2026-05-19'
 name: Appian
 nav: Providers
 network: true
-overview: 'Appian publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Export API, Import API, Inspection API, and 9 more. Tagged areas include Automation, Business Process Management, Enterprise Software, Low-Code, and Process Automation.
+overview: 'Appian publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including Export API, Import API, Inspection API, and 9 more. Tagged areas include Automation, Business Process Management, Enterprise Software, Low-Code, and Process Automation.
 
 
   The Appian catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -988,9 +992,10 @@ rate_limits:
   name: Appian Rate Limits
   slug: appian-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Appian API Rules
+  name: Appian — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -998,7 +1003,8 @@ rules:
     info: 2
     warn: 3
   slug: appian-jsonschema-spectral-rules
-- effective_rule_count: 60
+- authorship: generated
+  effective_rule_count: 60
   extends:
   - spectral:oas
   name: Appian API Rules
@@ -1011,23 +1017,23 @@ rules:
   slug: appian-rules
 score:
   band: exemplar
-  composite: 69.0
+  composite: 67.5
   coverage:
-    artifact_dirs: 28
-    catalog_earned: 70.0
+    artifact_dirs: 30
+    catalog_earned: 67.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 45.0
+    catalog_gap: 48.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 8.3
+  delta: -2.2
   facets:
-    access_clarity: 76.3
+    access_clarity: 68.4
     contract_governance: 45.5
     contract_quality: 66.0
     developer_ergonomics: 74.4
     discoverability: 64.3
     operational_transparency: 63.2
-  previous_composite: 60.7
+  previous_composite: 69.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -1044,9 +1050,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: rising
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: flat
   upsert:
     applies: true
     score: 0.0

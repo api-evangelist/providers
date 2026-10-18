@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Merchant-facing payment API for GCash mini programs — cashier payment, payment inquiry, refund and refund inquiry, plus OAuth2 user authorization (authCode -> applyToken). Signed requests (Client-Id +
@@ -154,7 +154,7 @@ modified: '2026-07-19'
 name: GCash
 nav: Providers
 network: true
-overview: 'GCash publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Mobile Wallet, E-Money, and Fintech.
+overview: 'GCash is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Mobile Wallet, E-Money, and Fintech.
 
 
   The GCash catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -197,8 +197,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 27.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

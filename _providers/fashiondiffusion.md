@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'REST API for asynchronous AI fashion generation tasks. Authenticates with a single long-lived bearer API key (Authorization: Bearer fd_live_xxx); the secret is shown only once at creation and a key ma'
@@ -44,6 +44,16 @@ apis:
   slug: fashion-diffusion-public-api
 artifact_total: 5
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/fashiondiffusion/refs/heads/main/plans/fashiondiffusion-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/fashiondiffusion-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/fashiondiffusion/refs/heads/main/rate-limits/fashiondiffusion-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/fashiondiffusion-rate-limits.yml
 - group: company
   title: ''
   type: Website
@@ -108,10 +118,10 @@ modified: '2026-08-31'
 name: Fashion Diffusion
 nav: Providers
 network: true
-overview: 'Fashion Diffusion publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Fashion, E-Commerce, Retail, Generative AI, and Image Generation.
+overview: 'Fashion Diffusion is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Fashion, E-Commerce, Retail, Generative AI, and Image Generation.
 
 
-  Fashion Diffusion''s developer surface includes pricing, signup flow, engineering blog, support, and 9 more developer resources.'
+  Fashion Diffusion''s developer surface includes pricing, signup flow, engineering blog, support, and 11 more developer resources.'
 plans:
 - name: Fashiondiffusion Plans Pricing
   plan_count: 4
@@ -123,15 +133,15 @@ rate_limits:
   slug: fashiondiffusion-rate-limits
 score:
   band: thin
-  composite: 36.8
+  composite: 36.4
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.4
   facets:
     access_clarity: 84.2
     contract_governance: 18.2
@@ -145,12 +155,12 @@ score:
     mcp: derived
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 27.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -33,14 +33,23 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'Hosted, OAuth-secured Model Context Protocol server that lets supported AI assistants work inside Martini projects using the signed-in user''s account permissions — browse projects, canvases, subjects '
   name: Martini MCP Connector
   slug: martini-mcp-connector
-artifact_total: 5
+artifact_total: 6
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/martini/refs/heads/main/plans/martini-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/martini-plans-pricing.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.martini.film/blog
 - group: company
   title: ''
   type: Website
@@ -132,31 +141,35 @@ mcp_servers:
 - description: Remote MCP server at www.martini.film over HTTP requiring OAuth; 22 tools listed.
   name: Martini MCP Server
   slug: martini
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Martini
 nav: Providers
 network: true
-overview: 'Martini publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Video, Filmmaking, and Generative AI.
+overview: 'Martini is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Video, Filmmaking, and Generative AI.
 
 
-  Martini''s developer surface includes documentation, API reference, pricing, signup flow, support, authentication, and 13 more developer resources.'
+  Martini''s developer surface includes engineering blog, documentation, API reference, pricing, signup flow, support, authentication, and 14 more developer resources.'
+plans:
+- name: Martini Plans Pricing
+  plan_count: 5
+  slug: martini-plans-pricing
 random_paper: 8
 score:
   band: emerging
-  composite: 14.3
+  composite: 20.7
   coverage:
-    artifact_dirs: 9
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 12
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.4
   facets:
-    access_clarity: 6.6
+    access_clarity: 38.2
     contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 19.0
+    developer_ergonomics: 21.4
     discoverability: 75.0
     operational_transparency: 2.6
   previous_composite: 14.3
@@ -166,13 +179,13 @@ score:
     skills: first-party
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 20.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

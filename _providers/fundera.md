@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The Fundera by NerdWallet marketplace platform for comparing and applying for small business loan products, credit cards, and checking accounts. Provides a single application to prequalify across mult
@@ -96,16 +96,20 @@ common:
 created: '2026-06-13'
 description: Fundera by NerdWallet is a small business financial guidance and lending marketplace platform that helps small business owners compare and access loan products, business credit cards, checking accounts, and financial health tools. Fundera connects borrowers with a vetted network of lenders offering SBA loans, term loans, lines of credit, equipment financing, invoice factoring, merchant cash advances, and commercial real estate loans. Acquired by NerdWallet in 2020, Fundera has secured over $5.4 billion in funds for more than 77,000 small businesses.
 finops:
-- name: Fundera Finops
+- has_sources: false
+  method: generated
+  name: Fundera Finops
+  primary_unit: ''
   service_category: ''
   slug: fundera-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fundera.png
 layout: provider
 modified: '2026-06-13'
 name: Fundera
 nav: Providers
 network: true
-overview: 'Fundera publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Small Business, Business Loans, Financial Services, Lending Marketplace, and Credit Cards.
+overview: 'Fundera is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Small Business, Business Loans, Financial Services, Lending Marketplace, and Credit Cards.
 
 
   Fundera''s developer surface includes documentation, engineering blog, pricing, and 9 more developer resources.'
@@ -120,17 +124,17 @@ rate_limits:
   slug: fundera-rate-limits
 score:
   band: emerging
-  composite: 16.2
+  composite: 11.9
   coverage:
     artifact_dirs: 8
-    catalog_earned: 42.2
+    catalog_earned: 34.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 72.8
+    catalog_gap: 81.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -4.3
   facets:
-    access_clarity: 37.4
+    access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
@@ -143,13 +147,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 5.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/fundera/refs/heads/main/screenshots/fundera-2026-10-11T185223.png
 security:
 - kind: domain-security
   name: Fundera Domain Security

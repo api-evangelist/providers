@@ -30,13 +30,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.8
-  scored_at: '2026-10-04'
+  score: 28.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 3
@@ -109,6 +109,10 @@ collections:
   name: Telr Payment Gateway Agreements Remote API
   slug: open-telr-remote-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://telr.com/blog/rss.xml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/telr/refs/heads/main/capabilities/telr-capability-edges.yml
   title: ''
@@ -288,22 +292,26 @@ common:
 created: '2026-07-17'
 description: Telr is a Dubai-headquartered online payment gateway operating across the MENA region (UAE, Saudi Arabia, Bahrain, Jordan), supporting 120+ currencies and 30 languages. Its HTTPS/JSON gateway exposes a Hosted Payment Page, a Remote (direct) card and wallet API, repeat-billing agreements, mobile SDKs, and a newer REST Payments API - all PCI DSS v4.0 Level 1 and NESA certified.
 finops:
-- name: Telr Finops
+- has_sources: true
+  method: generated
+  name: Telr Finops
+  primary_unit: ''
   service_category: Financial Services
   slug: telr-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/telr.png
 layout: provider
-modified: '2026-09-16'
+modified: '2026-10-06'
 name: Telr
 nav: Providers
 network: true
-overview: 'Telr publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Agreements API, Hosted Payment Page API, Payments API, and 4 more. Tagged areas include Payments, Payment Gateway, Fintech, MENA, and United Arab Emirates.
+overview: 'Telr publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agreements API, Hosted Payment Page API, Payments API, and 4 more. Tagged areas include Payments, Payment Gateway, Fintech, MENA, and United Arab Emirates.
 
 
   The Telr catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Telr''s developer surface includes authentication, documentation, engineering blog, sandbox, getting-started guide, support, pricing, and 31 more developer resources.'
+  Telr''s developer surface includes authentication, documentation, engineering blog, sandbox, getting-started guide, support, pricing, and 32 more developer resources.'
 plans:
 - name: Telr Plans Pricing
   plan_count: 7
@@ -315,28 +323,29 @@ rate_limits:
   slug: telr-rate-limits
 score:
   band: strong
-  composite: 62.6
+  composite: 54.3
   coverage:
     artifact_dirs: 27
-    catalog_earned: 61.6
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.4
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 96.8
+    access_clarity: 68.4
     contract_governance: 18.2
     contract_quality: 55.8
     developer_ergonomics: 63.7
     discoverability: 73.2
-    operational_transparency: 38.9
+    operational_transparency: 18.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - united-arab-emirates
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
+    - mena
     - middle-east
   previous_composite: 62.6
   provenance:
@@ -359,9 +368,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 37.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

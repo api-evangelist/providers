@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 5.0
-  scored_at: '2026-10-04'
+  score: 3.1
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The SevenRooms API is a RESTful interface for hospitality data and operations. It exposes reservations, guest profiles, and feedback scores, and supports retrieving venue info, searching shift-level a
@@ -146,9 +146,13 @@ features:
 - description: Business intelligence dashboards for venue performance.
   name: Reporting & Analytics
 finops:
-- name: Sevenrooms Finops
+- has_sources: true
+  method: generated
+  name: Sevenrooms Finops
+  primary_unit: ''
   service_category: Hospitality Guest Experience Software
   slug: sevenrooms-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sevenrooms.png
 integrations:
 - description: 35-plus point-of-sale integrations including Square, Toast, Lightspeed, MICROS Simphony, NCR Aloha, Revel, and SpotOn.
@@ -170,7 +174,7 @@ modified: '2026-06-03'
 name: SevenRooms
 nav: Providers
 network: true
-overview: 'SevenRooms publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Restaurant, Reservations, Waitlist, CRM, and Marketing.
+overview: 'SevenRooms is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Restaurant, Reservations, Waitlist, CRM, and Marketing.
 
 
   SevenRooms'' developer surface includes documentation, API reference, signup flow, support, engineering blog, pricing, and 13 more developer resources.'
@@ -185,22 +189,22 @@ rate_limits:
   slug: sevenrooms-rate-limits
 score:
   band: thin
-  composite: 33.2
+  composite: 27.1
   coverage:
-    artifact_dirs: 7
-    catalog_earned: 49.4
+    artifact_dirs: 8
+    catalog_earned: 36.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 65.6
+    catalog_gap: 79.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.1
   facets:
-    access_clarity: 80.8
+    access_clarity: 59.2
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 35.7
     discoverability: 57.1
-    operational_transparency: 21.6
+    operational_transparency: 7.9
   previous_composite: 33.2
   regulatory:
     applies: true
@@ -208,9 +212,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

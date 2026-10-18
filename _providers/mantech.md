@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.mantech.com/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/mantech/refs/heads/main/security/mantech-domain-security.yml
   title: ''
@@ -81,7 +85,7 @@ created: '2026-05-23'
 description: ManTech International is a Herndon, Virginia-based federal services contractor providing cybersecurity, data and AI, digital transformation, and intelligent engineering capabilities to U.S. defense, intelligence, and federal civilian agencies. Founded in 1968 and publicly traded on NASDAQ as MANT until 2022, the company was acquired by The Carlyle Group in April 2022 in an all-cash take-private transaction valued at approximately $4.2 billion and now operates as a Carlyle portfolio company. ManTech holds positions on major federal contract vehicles including Alliant 2/3, OASIS+, SeaPort NxG, CIO-SP3, T4NG, and ICON, and does not publish any developer-facing API or public OpenAPI surface.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mantech.png
 layout: provider
-modified: '2026-07-25'
+modified: '2026-10-06'
 name: ManTech International
 nav: Providers
 network: true
@@ -89,7 +93,7 @@ overview: ManTech International is profiled on the [APIs.io](https://apis.io/) n
 random_paper: 10
 score:
   band: minimal
-  composite: 4.2
+  composite: 4.1
   coverage:
     artifact_dirs: 4
     catalog_earned: 27.0
@@ -97,7 +101,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
@@ -119,8 +123,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

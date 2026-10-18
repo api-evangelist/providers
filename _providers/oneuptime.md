@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.3
-  scored_at: '2026-10-04'
+  score: 15.4
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -60,6 +60,21 @@ collections:
   name: OneUptime API
   slug: open-oneuptime
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/oneuptime/refs/heads/main/plans/oneuptime-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/oneuptime-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/oneuptime/refs/heads/main/rate-limits/oneuptime-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/oneuptime-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/oneuptime/refs/heads/main/finops/oneuptime-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/oneuptime-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/oneuptime/refs/heads/main/capabilities/oneuptime-capability-edges.yml
   title: ''
@@ -132,19 +147,23 @@ common:
 created: '2026-03-25'
 description: OneUptime is an open source observability platform combining monitoring, incident management, status pages, and on-call scheduling in one OpenTelemetry-native tool.
 finops:
-- name: Oneuptime Finops
+- has_sources: false
+  method: generated
+  name: Oneuptime Finops
+  primary_unit: ''
   service_category: API
   slug: oneuptime-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/oneuptime.png
 layout: provider
 modified: '2026-05-19'
 name: OneUptime
 nav: Providers
 network: true
-overview: 'OneUptime publishes 1 API on the [APIs.io](https://apis.io/) network: Projects API. Tagged areas include Observability and Open Source.
+overview: 'OneUptime is listed with 1 API on the [APIs.io](https://apis.io/) network: Projects API. Tagged areas include Observability and Open Source.
 
 
-  OneUptime''s developer surface includes documentation, engineering blog, and 14 more developer resources.'
+  OneUptime''s developer surface includes documentation, engineering blog, and 17 more developer resources.'
 plans:
 - name: Oneuptime Plans Pricing
   plan_count: 3
@@ -156,17 +175,17 @@ rate_limits:
   slug: oneuptime-rate-limits
 score:
   band: thin
-  composite: 31.5
+  composite: 30.2
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 31.0
+    artifact_dirs: 13
+    catalog_earned: 28.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 84.0
+    catalog_gap: 87.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.3
   facets:
-    access_clarity: 23.7
+    access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 38.6
     developer_ergonomics: 11.9
@@ -189,8 +208,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

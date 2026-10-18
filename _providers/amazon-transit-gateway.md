@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.7
-  scored_at: '2026-10-04'
+  score: 26.6
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -87,6 +87,20 @@ collections:
   name: Amazon Transit Gateway API
   slug: open-amazon-transit-gateway
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-transit-gateway/refs/heads/main/rate-limits/amazon-transit-gateway-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/amazon-transit-gateway-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-transit-gateway/refs/heads/main/finops/amazon-transit-gateway-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/amazon-transit-gateway-finops.yml
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://aws.amazon.com/transit-gateway/pricing/
 - group: commercial
   href: https://raw.githubusercontent.com/api-evangelist/amazon-transit-gateway/refs/heads/main/plans/amazon-transit-gateway-plans-pricing.yml
   title: ''
@@ -210,9 +224,13 @@ features:
 - description: Programmatic access to Amazon Transit Gateway resources.
   name: API Access
 finops:
-- name: Amazon Transit Gateway Finops
+- has_sources: false
+  method: generated
+  name: Amazon Transit Gateway Finops
+  primary_unit: ''
   service_category: API
   slug: amazon-transit-gateway-finops
+  template: true
 image: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png
 json_schemas:
 - name: Amazon Transit Gateway
@@ -244,13 +262,13 @@ modified: '2026-05-19'
 name: Amazon Transit Gateway
 nav: Providers
 network: true
-overview: 'Amazon Transit Gateway publishes 3 APIs on the [APIs.io](https://apis.io/) network: Route Tables API, Transit Gateways API, and VPC Attachments API. Tagged areas include Cloud Networking, Network Hub, Networking, Transit Gateway, and VPC.
+overview: 'Amazon Transit Gateway publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Route Tables API, Transit Gateways API, and VPC Attachments API. Tagged areas include Cloud Networking, Network Hub, Networking, Transit Gateway, and VPC.
 
 
   The Amazon Transit Gateway catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Transit Gateway''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 19 more developer resources.'
+  Amazon Transit Gateway''s developer surface includes pricing, authentication, developer portal, documentation, support, engineering blog, developer console, and 22 more developer resources.'
 plans:
 - name: Amazon Transit Gateway Plans Pricing
   plan_count: 2
@@ -261,9 +279,10 @@ rate_limits:
   name: Amazon Transit Gateway Rate Limits
   slug: amazon-transit-gateway-rate-limits
 rules:
-- effective_rule_count: 4
+- authorship: generated
+  effective_rule_count: 4
   extends: []
-  name: Amazon Transit Gateway API Rules
+  name: Amazon Transit Gateway — jsonschema rules
   rule_count: 4
   severity_counts:
     error: 0
@@ -271,7 +290,8 @@ rules:
     info: 1
     warn: 3
   slug: amazon-transit-gateway-jsonschema-spectral-rules
-- effective_rule_count: 55
+- authorship: generated
+  effective_rule_count: 55
   extends:
   - spectral:oas
   name: Amazon Transit Gateway API Rules
@@ -284,17 +304,17 @@ rules:
   slug: amazon-transit-gateway-spectral-rules
 score:
   band: strong
-  composite: 59.7
+  composite: 58.2
   coverage:
     artifact_dirs: 19
-    catalog_earned: 68.4
+    catalog_earned: 65.4
     catalog_earned_first_party: 8.0
-    catalog_gap: 46.6
+    catalog_gap: 49.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 75.0
+    access_clarity: 67.1
     contract_governance: 27.3
     contract_quality: 60.5
     developer_ergonomics: 60.7
@@ -314,8 +334,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

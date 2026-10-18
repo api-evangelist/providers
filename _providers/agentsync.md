@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 13.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'A modern REST API delivering enriched, actionable producer and adjuster data from the NIPR (200+ data points: licensing, carrier appointments, adjuster licensing) into your existing tech stack. OAuth '
@@ -41,6 +41,10 @@ apis:
   slug: producersync-api
 artifact_total: 4
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://agentsync.io/feed
 - group: company
   title: ''
   type: Website
@@ -139,20 +143,20 @@ created: '2026-07-17'
 description: AgentSync builds modern insurance compliance infrastructure that connects carriers, agencies, MGAs, and producers. Its ProducerSync API is a REST API delivering more than 200 enriched data points sourced from the National Insurance Producer Registry (NIPR) — producer and adjuster licensing, carrier appointments, and personal information — so insurance businesses can automate producer onboarding, licensing validation, and appointment compliance without manual paperwork. The platform (Manage, AutoPilot, Contracting, and the ProducerSync API) is cloud-native on AWS, SOC 2 compliant, and authenticates with OAuth 2.0. AgentSync is backed by Anthemis and Craft Ventures and was added to the API Evangelist network as a company profile.
 image: https://agentsync.io/wp-content/uploads/2022/09/AgentSync-header-1200x750-1.png
 layout: provider
-modified: '2026-07-17'
+modified: '2026-10-06'
 name: Agentsync
 nav: Providers
 network: true
-overview: 'Agentsync publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, Insurtech, Compliance, and Producer Management.
+overview: 'Agentsync is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, Insurtech, Compliance, and Producer Management.
 
 
-  Agentsync''s developer surface includes documentation, support, engineering blog, pricing, signup flow, authentication, sandbox, and 14 more developer resources.'
+  Agentsync''s developer surface includes documentation, support, engineering blog, pricing, signup flow, authentication, sandbox, and 15 more developer resources.'
 random_paper: 4
 score:
   band: thin
   composite: 38.3
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -175,8 +179,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 26.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

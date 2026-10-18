@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -61,6 +61,10 @@ collections:
   name: Commercial Listings API
   slug: open-rightmove-commercial-listings
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.rightmove.co.uk/news/feed/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/rightmove/refs/heads/main/capabilities/rightmove-capability-edges.yml
   title: ''
@@ -225,14 +229,14 @@ description: Rightmove is the United Kingdom's largest residential property port
   publishes the Real Time Data Feed specification, but working credentials for every environment are issued case by case by the Rightmove Data Feed Team and use is governed by a binding End User Licence Agreement. No RESO Web API or Data Dictionary certification, OData `$metadata` document or Universal Property Identifier appears anywhere in Rightmove's surface - RESO is a North American, NAR-driven standard with no UK counterpart, and Rightmove uses its own proprietary ADF/RTDF schema instead.
 image: https://media.rightmove.co.uk/assets/shared-assets/favicons/light/favicon.ico
 layout: provider
-modified: '2026-07-26'
+modified: '2026-10-06'
 name: Rightmove
 nav: Providers
 network: true
-overview: 'Rightmove publishes 2 APIs on the [APIs.io](https://apis.io/) network, including Property API, and 1 more. Tagged areas include Real Estate, United Kingdom, Property Listings, Property Portal, and PropTech.
+overview: 'Rightmove publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network, including Property API, and 1 more. Tagged areas include Real Estate, United Kingdom, Property Listings, Property Portal, and PropTech.
 
 
-  Rightmove''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, signup flow, and 28 more developer resources.'
+  Rightmove''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, signup flow, and 29 more developer resources.'
 random_paper: 13
 rate_limits:
 - limit_count: 0
@@ -245,7 +249,7 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: thin
-  composite: 27.0
+  composite: 27.1
   coverage:
     artifact_dirs: 24
     catalog_earned: 37.0
@@ -253,7 +257,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 13.2
     contract_governance: 4.5
@@ -286,8 +290,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

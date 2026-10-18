@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: Gloo Mesh Enterprise (documented as "Gloo Mesh (Gloo Platform APIs)", current version 2.14, released 2026-09-09) is a service mesh management platform built on Istio that provides intra-mesh and multi
@@ -266,9 +266,13 @@ crds:
 created: '2026-04-28'
 description: Gloo Mesh is Solo.io's enterprise service mesh management platform, built on Istio and shipped as Kubernetes software you run in your own clusters. It provides multi-cluster and multi-mesh traffic management, security policy enforcement, workload identity and observability, with a management plane in one cluster and relay-connected agents in each workload cluster. Its API surface is not an HTTP endpoint but 70 Kubernetes Custom Resource Definitions across 13 API groups — AccessPolicy, JWTPolicy, RateLimitPolicy, RouteTable, VirtualDestination, VirtualGateway, Workspace and the rest — each carrying an OpenAPI v3 structural schema and CEL validation rules, generated from 92 public protobuf definitions. Solo.io distributes it as the gloo-platform Helm charts and the meshctl CLI, documents it at docs.solo.io/gloo-mesh-enterprise, and runs an unauthenticated remote MCP server over its documentation corpus.
 finops:
-- name: Gloo Mesh Finops
+- has_sources: false
+  method: generated
+  name: Gloo Mesh Finops
+  primary_unit: ''
   service_category: API
   slug: gloo-mesh-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/gloo-mesh.png
 layout: provider
 mcp_servers:
@@ -279,7 +283,7 @@ modified: '2026-09-12'
 name: Gloo Mesh
 nav: Providers
 network: true
-overview: 'Gloo Mesh publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Istio, Kubernetes, Multi-Cluster, Open Source, and Service Mesh.
+overview: 'Gloo Mesh is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Istio, Kubernetes, Multi-Cluster, Open Source, and Service Mesh.
 
 
   Gloo Mesh''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, support, pricing, and 34 more developer resources.'
@@ -294,17 +298,17 @@ rate_limits:
   slug: gloo-mesh-rate-limits
 score:
   band: developing
-  composite: 47.3
+  composite: 45.8
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 40.0
+    artifact_dirs: 24
+    catalog_earned: 37.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 50.0
+    access_clarity: 42.1
     contract_governance: 4.5
     contract_quality: 24.0
     developer_ergonomics: 80.4
@@ -321,8 +325,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 31.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

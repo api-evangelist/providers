@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'Hosted public REST API (the block-explorer and faucet backend) exposing blocks, transactions, and network data with a list/object JSON envelope and cursor-style pagination. No authentication required '
@@ -41,6 +41,10 @@ apis:
   slug: iron-fish-public-rest-api
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://ironfish.network/learn/blog/feed.rss
 - group: company
   title: ''
   type: Website
@@ -129,14 +133,14 @@ created: '2026-07-17'
 description: Iron Fish is a zero-knowledge Layer 1 blockchain that brings optional, best-in-class privacy to cryptocurrency. Built on zk-SNARK cryptography, it lets anyone send, receive, and bridge assets privately across 20+ EVM-compatible chains while running their own node. For developers, Iron Fish exposes a self-hosted node RPC server (over TCP, IPC, and HTTP with JSON and streaming responses) organized into chain, wallet, node, peer, miner, config, event, mempool, and worker namespaces, plus a hosted public REST API at api.ironfish.network powering the block explorer and faucet. Integration is supported by a first-party JavaScript SDK (@ironfish/sdk), Rust/Node bindings, and the ironfish CLI for node operation, wallet management, mining, and multisig. Backed by a16z and Electric Capital.
 image: https://avatars.githubusercontent.com/u/43299557?v=4
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Iron Fish
 nav: Providers
 network: true
-overview: 'Iron Fish publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Blockchain, Cryptocurrency, Privacy, Zero Knowledge, and Layer 1.
+overview: 'Iron Fish is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Blockchain, Cryptocurrency, Privacy, Zero Knowledge, and Layer 1.
 
 
-  Iron Fish''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, CLI, authentication, and 12 more developer resources.'
+  Iron Fish''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, CLI, authentication, and 13 more developer resources.'
 random_paper: 9
 score:
   band: thin
@@ -163,8 +167,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 17.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

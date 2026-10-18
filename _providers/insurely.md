@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Create end users, capture consent, run data collections (including PSD2 banking data), and retrieve structured wealth data. Dual auth (backend API key + per-user JWT), date-based versioning, and colle
@@ -47,6 +47,10 @@ asyncapis:
   name: Insurely Collection Webhooks
   slug: insurely-collection-webhooks
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.insurely.com/blog/rss.xml
 - group: company
   title: ''
   type: Website
@@ -150,23 +154,23 @@ created: '2026-07-17'
 description: Insurely is a European open finance platform that provides real-time access to consented, structured financial data across investments, pensions, insurance, savings, and credit. Its Open Finance API lets financial institutions, fintechs, and AI companies create end users, capture user consent, run data collections (including PSD2 banking data), and retrieve normalized wealth data through a signal-and-fetch webhook model. The API pairs a static backend API key with short-lived per-user JWT session tokens, pins versions via a date-based Insurely-Version header, and runs on EU-only AWS infrastructure under ISO/IEC 27001 certification and GDPR compliance. Insurely is backed by Insight Partners.
 image: https://assets.insurely.com/images/favicon.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Insurely
 nav: Providers
 network: true
-overview: 'Insurely publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Open Finance, Insurance, Fintech, and PSD2.
+overview: 'Insurely is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Open Finance, Insurance, Fintech, and PSD2.
 
 
   The Insurely catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Insurely''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, authentication, and 15 more developer resources.'
+  Insurely''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, authentication, and 16 more developer resources.'
 random_paper: 11
 score:
   band: thin
   composite: 33.9
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -201,8 +205,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 17.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

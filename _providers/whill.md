@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://whill.inc/us/feed/
 - group: company
   title: ''
   type: Website
@@ -70,14 +74,14 @@ created: '2026-07-17'
 description: WHILL, Inc. designs and manufactures enhanced personal mobility solutions — electric power chairs and mobility scooters, including the Model C2, Model F, the Modo Breeze ultralight foldable wheelchair, and the Model R three- and four-wheel scooters — and operates an autonomous personal mobility service that has completed over 700,000 rides worldwide across airports and other venues. WHILL was surfaced as a portfolio company of 500 Global and added to the API Evangelist network. As of this writing it is a consumer hardware and mobility-service company and publishes no public developer API, SDK, or developer portal; this profile is maintained as a company record and will be enriched if WHILL launches a developer program.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/whill.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Whill
 nav: Providers
 network: true
 overview: 'Whill is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Mobility, Personal Mobility, Wheelchairs, and Mobility Scooters.
 
 
-  Whill''s developer surface includes engineering blog, support, and 5 more developer resources.'
+  Whill''s developer surface includes engineering blog, support, and 6 more developer resources.'
 random_paper: 16
 score:
   band: emerging
@@ -104,8 +108,8 @@ score:
     regime: Health
     regime_id: health
     score: 10.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

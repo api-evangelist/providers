@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -26,14 +26,14 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: false
+    protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.4
-  scored_at: '2026-10-04'
+  score: 32.0
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: GraphQL Content Graph API that indexes CMS/Commerce content for fast, federated querying across the Optimizely platform.
@@ -188,7 +188,7 @@ modified: '2026-07-19'
 name: Episerver
 nav: Providers
 network: true
-overview: 'Episerver publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Content Management, Digital Experience Platform, and CMS.
+overview: 'Episerver is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Content Management, Digital Experience Platform, and CMS.
 
 
   The Episerver catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -230,8 +230,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -250,7 +250,7 @@ security:
 - kind: vulnerability-disclosure
   name: Episerver Vulnerability Disclosure
   slug: episerver-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 - kind: trust-center
   name: Episerver Trust Center
   slug: episerver-trust-center

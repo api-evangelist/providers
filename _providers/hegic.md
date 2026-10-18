@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.7
-  scored_at: '2026-10-04'
+  score: 26.6
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -116,6 +116,21 @@ collections:
   name: Arbiscan Token API - HEGIC Token Accounts TVL API
   slug: open-hegic-tvl-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/hegic/refs/heads/main/plans/plans.yml
+  title: ''
+  type: Plans
+  url: plans/plans.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/hegic/refs/heads/main/rate-limits/rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/hegic/refs/heads/main/finops/finops.yml
+  title: ''
+  type: FinOps
+  url: finops/finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/hegic/refs/heads/main/agentic-access/hegic-agentic-access.yml
   title: ''
@@ -170,9 +185,13 @@ common:
 created: '2026-06-14'
 description: Hegic is an on-chain peer-to-pool options trading protocol deployed on Arbitrum, enabling users to trade ETH and WBTC call and put options with AMM mechanics. Liquidity providers fund shared pools and earn premiums, while traders access non-custodial options with on-chain settlement in USDC. Protocol data including option positions, liquidity pool TVL, strike prices, premiums, open interest, and hedge contract analytics are queryable via DefiLlama's public REST API, the Arbiscan token API, and community-maintained Graph Protocol subgraphs.
 finops:
-- name: Finops
+- has_sources: false
+  method: generated
+  name: Finops
+  primary_unit: ''
   service_category: ''
   slug: finops
+  template: true
 graphqls:
 - description: Hegic is a decentralized peer-to-pool options trading protocol deployed on Ethereum and Arbitrum. The GraphQL API is served via The Graph Protocol subgraph maintained by cvauclair, indexing Hegic smar
   name: Hegic GraphQL API
@@ -183,10 +202,10 @@ modified: '2026-06-14'
 name: Hegic
 nav: Providers
 network: true
-overview: 'Hegic publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Contracts API, Fees API, and 7 more. Tagged areas include DeFi, Options Trading, Onchain, Arbitrum, and Ethereum.
+overview: 'Hegic publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, Contracts API, Fees API, and 7 more. Tagged areas include DeFi, Options Trading, Onchain, Arbitrum, and Ethereum.
 
 
-  Hegic''s developer surface includes authentication, engineering blog, status page, and 9 more developer resources.'
+  Hegic''s developer surface includes authentication, engineering blog, status page, and 12 more developer resources.'
 plans:
 - name: Plans
   plan_count: 4
@@ -198,17 +217,17 @@ rate_limits:
   slug: rate-limits
 score:
   band: thin
-  composite: 36.2
+  composite: 30.6
   coverage:
     artifact_dirs: 13
-    catalog_earned: 50.8
+    catalog_earned: 40.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 64.2
+    catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.6
   facets:
-    access_clarity: 46.8
+    access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 47.5
     developer_ergonomics: 40.5
@@ -228,9 +247,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 20.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

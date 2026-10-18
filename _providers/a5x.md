@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The trading, market data and post-trade interfaces A5X exposes to exchange participants — order entry and drop copy over FIX, a binary market data feed, and post-trade capture, allocation, positioning
@@ -116,7 +116,7 @@ modified: '2026-09-05'
 name: A5X
 nav: Providers
 network: true
-overview: 'A5X publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Capital Markets, Stock Exchange, and Derivatives.
+overview: 'A5X is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Capital Markets, Stock Exchange, and Derivatives.
 
 
   A5X''s developer surface includes engineering blog, support, and 12 more developer resources.'
@@ -133,7 +133,7 @@ score:
   band: emerging
   composite: 18.4
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 11
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -163,13 +163,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 23.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/a5x/refs/heads/main/screenshots/a5x-2026-10-11T092337.png
 security:
 - kind: domain-security
   name: A5X Domain Security

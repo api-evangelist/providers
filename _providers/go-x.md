@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.goxapp.com/rss/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/go-x/refs/heads/main/security/go-x-domain-security.yml
   title: ''
@@ -65,14 +69,14 @@ created: '2026-07-17'
 description: 'Go X is an electric micromobility sharing company that lets riders rent scooters, e-bikes, and cars on demand, 24/7, through a consumer mobile app. Operating in cities such as New Orleans, Go X builds its own connected electric vehicles and manages fleet access, unlocking, ride sessions, and payments entirely in-app on iOS and Android. It is a consumer-facing mobility service rather than a public API provider: it exposes no developer portal, documentation, SDKs, or documented public API surface (its api.goxapp.com host is the private backend for the mobile apps).'
 image: https://goxapp.com/assets/0654faaf65d035705ee9ef75144447d3.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Go X
 nav: Providers
 network: true
 overview: 'Go X is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Micromobility, Electric Scooters, Scooter Sharing, and E-Bikes.
 
 
-  Go X''s developer surface includes engineering blog, support, signup flow, and 3 more developer resources.'
+  Go X''s developer surface includes engineering blog, support, signup flow, and 4 more developer resources.'
 random_paper: 5
 score:
   band: minimal
@@ -99,8 +103,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 9.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

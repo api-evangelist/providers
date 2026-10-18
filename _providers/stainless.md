@@ -15,7 +15,7 @@ agent_readiness:
   band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 18.8
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 1
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 22
   slug: stainless-agentic-access
   summary_line: 22 operations · 10 acting · 1 human-in-the-loop
-api_count: 4
+api_count: 7
 apis:
 - description: Generate production-ready SDKs in TypeScript, Python, Go, Java, Kotlin, Ruby, C#, PHP, and Terraform from an OpenAPI specification. Stainless handles HTTP requests, retries with exponential backoff, s
   name: Stainless SDK Generator
@@ -95,7 +95,7 @@ apis:
   description: The Open API API from Stainless — 1 operation(s) for open api.
   name: Stainless Open API
   slug: stainless-open-api-api
-artifact_total: 28
+artifact_total: 38
 collections:
 - collection_type: open
   name: API Collection
@@ -119,6 +119,113 @@ collections:
   name: Stainless Platform API
   slug: open-stainless
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/stainless/refs/heads/main/finops/stainless-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/stainless-finops.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/stainless/refs/heads/main/rate-limits/stainless-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/stainless-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/stainless/refs/heads/main/plans/stainless-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/stainless-plans-pricing.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stainless/refs/heads/main/rules/stainless-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/stainless-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stainless/refs/heads/main/json-ld/stainless-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/stainless-context.jsonld
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stainless/refs/heads/main/vocabulary/stainless-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/stainless-vocabulary.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/stainless/refs/heads/main/skills/_index.yml
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stainless/refs/heads/main/data-model/stainless-data-model.yml
+  title: ''
+  type: DataModel
+  url: data-model/stainless-data-model.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/stainless/refs/heads/main/cli/stainless-cli.yml
+  title: ''
+  type: CLI
+  url: cli/stainless-cli.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stainless/refs/heads/main/conventions/stainless-conventions.yml
+  title: ''
+  type: Conventions
+  url: conventions/stainless-conventions.yml
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/stainless/refs/heads/main/security/stainless-vulnerability-disclosure.yml
+  title: ''
+  type: Security
+  url: security/stainless-vulnerability-disclosure.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stainless/refs/heads/main/conformance/stainless-conformance.yml
+  title: ''
+  type: Conformance
+  url: conformance/stainless-conformance.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/stainless/refs/heads/main/llms/stainless-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/stainless-llms.txt
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/stainless/refs/heads/main/well-known/stainless-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/stainless-security.txt
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/stainless/refs/heads/main/well-known/stainless-app-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/stainless-app-security.txt
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/stainless/refs/heads/main/well-known/stainless-api-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/stainless-api-security.txt
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/stainless/refs/heads/main/well-known/stainless-well-known.yml
+  title: ''
+  type: WellKnown
+  url: well-known/stainless-well-known.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/stainless/refs/heads/main/hosts/stainless-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/stainless-hosts.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/stainless/refs/heads/main/vendors/stainless-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/stainless-vendors.yml
+- group: operate
+  title: ''
+  type: Support
+  url: https://support.stainless.com/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://www.stainless.com/docs/reference/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://www.stainless.com/docs/quickstart-studio
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/stainless/refs/heads/main/capabilities/stainless-capability-edges.yml
   title: ''
@@ -157,6 +264,10 @@ common:
   title: ''
   type: LinkedIn
   url: https://www.linkedin.com/company/stainless-api
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: https://storage.googleapis.com/stainless-sdk-openapi-specs/stainless/stainless-v0-4ec3b12ce6b2e1e2eb800fab7dea5fc272c8c7aaf364a5305af5f4eda95e07b3.yml
 - group: start
   title: ''
   type: Portal
@@ -197,6 +308,14 @@ common:
   title: ''
   type: Customers
   url: https://www.stainless.com/customers
+coverage:
+  checked: '2026-10-10'
+  detail: The OpenAPI file at the requested URL does not appear to belong to Stainless, lacking company-specific info.
+  evidence:
+  - status: 200
+    url: https://storage.googleapis.com/stainless-sdk-openapi-specs/stainless/stainless-v0-4ec3b12ce6b2e1e2eb800fab7dea5fc272c8c7aaf364a5305af5f4eda95e07b3.yml
+  reason: no-machine-readable-spec
+  state: unreadable
 created: '2025-01-08'
 description: Stainless is an API developer experience platform that generates best-in-class SDKs, interactive documentation, production-ready CLI tools, MCP servers, and Terraform providers directly from an OpenAPI specification. Trusted by Anthropic, Cloudflare, Google, and OpenAI, Stainless automates the boilerplate of client library development including HTTP requests, retries with exponential backoff, streaming, and pagination. The platform supports TypeScript, Python, Go, Java, Kotlin, Ruby, C#, PHP, and Terraform, with Rust and Swift in development.
 examples:
@@ -204,10 +323,42 @@ examples:
   name: Stainless Sdk Generation Example
   slug: stainless-sdk-generation-example
 finops:
-- name: Stainless Finops
+- has_sources: false
+  method: generated
+  name: Stainless Finops
+  primary_unit: ''
   service_category: API
   slug: stainless-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/stainless.png
+json_schemas:
+- name: BuildDiagnostic
+  property_count: 7
+  slug: stainless-build-diagnostic
+- name: Build
+  property_count: 9
+  slug: stainless-build
+- name: FileInput
+  property_count: 0
+  slug: stainless-file-input
+- name: Org
+  property_count: 4
+  slug: stainless-org
+- name: ProjectBranchMinimal
+  property_count: 6
+  slug: stainless-project-branch-minimal
+- name: ProjectBranch
+  property_count: 6
+  slug: stainless-project-branch
+- name: Project
+  property_count: 6
+  slug: stainless-project
+- name: Target
+  property_count: 0
+  slug: stainless-target
+- name: User
+  property_count: 5
+  slug: stainless-user
 jsonld:
 - class_count: 18
   name: Stainless Context
@@ -218,13 +369,13 @@ modified: '2026-05-02'
 name: Stainless
 nav: Providers
 network: true
-overview: 'Stainless publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Build Target Outputs API, Builds API, Orgs API, and 9 more. Tagged areas include Code Generation, Documentation, Developer Experience, MCP, and Platform.
+overview: 'Stainless publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including Build Target Outputs API, Builds API, Orgs API, and 9 more. Tagged areas include Code Generation, Documentation, Developer Experience, MCP, and Platform.
 
 
-  The Stainless catalog on APIs.io includes 1 JSON-LD context.
+  The Stainless catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Stainless'' developer surface includes authentication, developer portal, documentation, pricing, engineering blog, changelog, and 12 more developer resources.'
+  Stainless'' developer surface includes CLI, support, API reference, getting-started guide, authentication, developer portal, documentation, and 34 more developer resources.'
 plans:
 - name: Stainless Plans Pricing
   plan_count: 3
@@ -234,32 +385,47 @@ rate_limits:
 - limit_count: 5
   name: Stainless Rate Limits
   slug: stainless-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 51
+  extends:
+  - spectral:oas
+  name: Stainless API Rules
+  rule_count: 10
+  severity_counts:
+    error: 7
+    hint: 0
+    info: 1
+    warn: 2
+  slug: stainless-rules
 score:
   band: developing
-  composite: 41.1
+  composite: 50.1
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 52.0
+    artifact_dirs: 32
+    catalog_earned: 63.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 63.0
+    catalog_gap: 51.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 11.7
+  delta: 18.8
   facets:
-    access_clarity: 50.0
-    contract_governance: 0.0
-    contract_quality: 44.6
-    developer_ergonomics: 45.2
-    discoverability: 62.5
-    operational_transparency: 28.9
-  previous_composite: 29.4
+    access_clarity: 42.1
+    contract_governance: 22.0
+    contract_quality: 50.7
+    developer_ergonomics: 66.1
+    discoverability: 69.6
+    operational_transparency: 39.5
+  previous_composite: 31.3
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 7
+    mcp: derived
     skills: derived
   regulatory:
     applies: true
@@ -267,8 +433,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: rising
   upsert:
     applies: true

@@ -34,10 +34,19 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/prenav/refs/heads/main/plans/prenav-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/prenav-plans-pricing.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.prenav.com/news/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/prenav/refs/heads/main/security/prenav-domain-security.yml
   title: ''
@@ -110,14 +119,14 @@ created: '2026-08-26'
 description: PRENAV, Inc. is a Belmont, California company that automates the visual inspection of large civil and industrial structures using commercially available drones, photogrammetry and deep learning. Its PRENAV.XYZ web platform stitches thousands of drone photographs into a high-resolution 3D point-cloud digital twin, then runs machine-learning models over that twin to detect cracking in concrete, spalling, exposed rebar, cracks in steel and rust, resolving features under 0.2mm and tracking change over time. A second line, Synthetic Imagery as a Service, procedurally renders thousands of annotated photoreal defect images each month to augment a customer's own AI training sets. PRENAV publishes no developer program, no public API, and no machine-readable API description; the product is sold as an enterprise service through a contact form.
 image: https://images.squarespace-cdn.com/content/5c86f3b7e66669535a6c9f4e/1552348158584-N3TXONPXQMFUWZZ4B658/PRENAV_RGB_Color+Gradient.png?content-type=image%2Fpng
 layout: provider
-modified: '2026-08-26'
+modified: '2026-10-06'
 name: Prenav
 nav: Providers
 network: true
 overview: 'Prenav is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Drones, Infrastructure Inspection, Digital Twin, and Deep Learning.
 
 
-  Prenav''s developer surface includes support, product news, YouTube channel, and 10 more developer resources.'
+  Prenav''s developer surface includes engineering blog, support, product news, YouTube channel, and 11 more developer resources.'
 plans:
 - name: Prenav Plans Pricing
   plan_count: 0
@@ -125,20 +134,20 @@ plans:
 random_paper: 14
 score:
   band: minimal
-  composite: 10.4
+  composite: 10.9
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 4.8
+    developer_ergonomics: 7.1
     discoverability: 56.3
     operational_transparency: 0.0
   previous_composite: 10.4
@@ -148,8 +157,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 12.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

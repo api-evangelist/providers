@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.3
-  scored_at: '2026-10-04'
+  score: 15.4
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -108,6 +108,21 @@ collections:
   name: OpenPanel API
   slug: open-openpanel
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/openpanel/refs/heads/main/plans/openpanel-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/openpanel-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/openpanel/refs/heads/main/rate-limits/openpanel-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/openpanel-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/openpanel/refs/heads/main/finops/openpanel-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/openpanel-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/openpanel/refs/heads/main/capabilities/openpanel-capability-edges.yml
   title: ''
@@ -167,19 +182,23 @@ common:
 created: '2026-03-26'
 description: OpenPanel is an open source product analytics platform that provides event tracking, user journey analysis, real-time dashboards, and funnel analysis, offering a privacy-friendly alternative to tools like Mixpanel and Amplitude.
 finops:
-- name: Openpanel Finops
+- has_sources: false
+  method: generated
+  name: Openpanel Finops
+  primary_unit: ''
   service_category: API
   slug: openpanel-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/openpanel.png
 layout: provider
 modified: '2026-05-19'
 name: OpenPanel
 nav: Providers
 network: true
-overview: 'OpenPanel publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Event API, Export API, Import API, and 4 more. Tagged areas include Event Tracking, Funnels, Open Source, Product Analytics, and Real-Time Analytics.
+overview: 'OpenPanel publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Event API, Export API, Import API, and 4 more. Tagged areas include Event Tracking, Funnels, Open Source, Product Analytics, and Real-Time Analytics.
 
 
-  OpenPanel''s developer surface includes documentation, GitHub presence, getting-started guide, engineering blog, and 9 more developer resources.'
+  OpenPanel''s developer surface includes documentation, GitHub presence, getting-started guide, engineering blog, and 12 more developer resources.'
 plans:
 - name: Openpanel Plans Pricing
   plan_count: 3
@@ -191,17 +210,17 @@ rate_limits:
   slug: openpanel-rate-limits
 score:
   band: emerging
-  composite: 25.8
+  composite: 24.3
   coverage:
     artifact_dirs: 12
-    catalog_earned: 46.0
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 69.0
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 22.4
+    access_clarity: 14.5
     contract_governance: 0.0
     contract_quality: 40.7
     developer_ergonomics: 16.7
@@ -221,8 +240,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

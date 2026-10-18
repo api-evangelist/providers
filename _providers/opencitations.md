@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -141,7 +141,7 @@ modified: '2026-09-16'
 name: OpenCitations
 nav: Providers
 network: true
-overview: 'OpenCitations publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Authors API, Citations API, Editors API, and 3 more. Tagged areas include Citations, Scholarly, Research, Open Science, and Bibliometrics.
+overview: 'OpenCitations publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authors API, Citations API, Editors API, and 3 more. Tagged areas include Citations, Scholarly, Research, Open Science, and Bibliometrics.
 
 
   The OpenCitations catalog on APIs.io includes 1 JSON-LD context.
@@ -181,8 +181,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

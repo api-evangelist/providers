@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The Waste Connections MyAccount customer portal provides online access to account management, service scheduling, pickup notifications, billing, and payment services for residential and commercial cus
@@ -41,6 +41,21 @@ apis:
   slug: waste-connections-customer-portal
 artifact_total: 6
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/waste-connections/refs/heads/main/plans/waste-connections-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/waste-connections-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/waste-connections/refs/heads/main/rate-limits/waste-connections-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/waste-connections-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/waste-connections/refs/heads/main/finops/waste-connections-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/waste-connections-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/waste-connections/refs/heads/main/security/waste-connections-domain-security.yml
   title: ''
@@ -75,9 +90,13 @@ common:
 created: '2026-03-24'
 description: Waste Connections is the third-largest integrated provider of solid waste services in North America, serving approximately nine million residential, commercial, and industrial customers across 46 U.S. states and six Canadian provinces. The company provides non-hazardous waste collection, transfer, disposal, and recycling services, primarily in exclusive and secondary markets. Waste Connections is investing in AI-powered dynamic routing and expanding customer connectivity features through its online customer portal.
 finops:
-- name: Waste Connections Finops
+- has_sources: true
+  method: generated
+  name: Waste Connections Finops
+  primary_unit: ''
   service_category: Environmental / Waste Services
   slug: waste-connections-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/waste-connections.png
 jsonld:
 - class_count: 10
@@ -89,13 +108,13 @@ modified: '2026-05-03'
 name: Waste Connections
 nav: Providers
 network: true
-overview: 'Waste Connections publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Environmental Services, Fortune 500, Recycling, Solid Waste, and Sustainability.
+overview: 'Waste Connections is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Environmental Services, Fortune 500, Recycling, Solid Waste, and Sustainability.
 
 
   The Waste Connections catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Waste Connections'' developer surface includes developer portal and 6 more developer resources.'
+  Waste Connections'' developer surface includes developer portal and 9 more developer resources.'
 plans:
 - name: Waste Connections Plans Pricing
   plan_count: 1
@@ -123,17 +142,17 @@ rate_limits:
   slug: waste-connections-rate-limits
 score:
   band: emerging
-  composite: 16.2
+  composite: 14.7
   coverage:
     artifact_dirs: 11
-    catalog_earned: 54.5
+    catalog_earned: 51.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 60.5
+    catalog_gap: 63.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 13.2
+    access_clarity: 5.3
     contract_governance: 13.6
     contract_quality: 14.7
     developer_ergonomics: 9.5
@@ -146,8 +165,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

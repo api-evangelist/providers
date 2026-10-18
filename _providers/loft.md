@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://portal.loft.com.br/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/loft/refs/heads/main/security/loft-domain-security.yml
   title: ''
@@ -69,20 +73,20 @@ created: '2026-07-17'
 description: Loft is a Brazilian real estate technology (proptech) company founded in 2018 and headquartered in Sao Paulo. It operates a marketplace for buying, selling, and renting residential property alongside a broad platform of software and financial services for the real estate sector, including a CRM and property-management tools for agencies, digital proposals and e-signatures, lead generation, rental administration, and fintech products such as rental guarantees (Fianca Aluguel), home financing, credit with property collateral, and residential and commercial insurance. Backed by a16z, QED Investors, Fifth Wall, D1 Capital, Thrive Capital, and Baillie Gifford, Loft is a market leader in Brazil's real estate fintech space. Loft does not publish a public developer API, OpenAPI definitions, or client SDKs; its GitHub organization (loft-br) hosts internal engineering and data-science tooling.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/loft.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Loft
 nav: Providers
 network: true
 overview: 'Loft is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real Estate, PropTech, Fintech, and Marketplace.
 
 
-  Loft''s developer surface includes developer portal, support, and 5 more developer resources.'
+  Loft''s developer surface includes developer portal, support, and 6 more developer resources.'
 random_paper: 19
 score:
   band: emerging
   composite: 12.0
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -110,8 +114,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

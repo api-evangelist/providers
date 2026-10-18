@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 5
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://news.andersonsinc.com/press-releases?pagetemplate=rss
 - group: company
   title: ''
   type: Website
@@ -123,14 +127,14 @@ description: 'The Andersons, Inc. (NASDAQ: ANDE) is a diversified North American
   — all federated through an Active Directory Federation Services identity provider at portalauth.andersonsinc.com. Business-to-business integration is handled through EDI and direct merchant relationships rather than a self-service API. NOTE ON IDENTITY: the domain andersons.com belongs to Anderson''s of White Bear Lake, Minnesota, an unrelated prom and school-spirit party-supply retailer; The Andersons, Inc. is at andersonsinc.com.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/andersons.png
 layout: provider
-modified: '2026-09-02'
+modified: '2026-10-06'
 name: The Andersons
 nav: Providers
 network: true
 overview: 'The Andersons is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Agribusiness, Agriculture, Grain, Commodity Merchandising, and Plant Nutrients.
 
 
-  The Andersons'' developer surface includes support, authentication, and 12 more developer resources.'
+  The Andersons'' developer surface includes support, authentication, and 13 more developer resources.'
 plans:
 - name: Andersons Plans Pricing
   plan_count: 0
@@ -195,8 +199,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 34.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

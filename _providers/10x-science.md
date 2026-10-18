@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://10xscience.com/blog/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/10x-science/refs/heads/main/security/10x-science-domain-security.yml
   title: ''
@@ -61,31 +65,31 @@ created: '2026-07-17'
 description: 10x Science is an AI-native software company building the first AI-native protein characterization platform for the life sciences, starting with drug development. A Y Combinator W26 company founded out of Nobel laureate Carolyn Bertozzi's laboratory at Stanford University, it automates peptide mapping for protein therapeutics, delivering explainable molecular insights in minutes where legacy tools and manual workflows take months. The company raised a $4.8M seed round led by Initialized Capital and is headquartered in the San Francisco Bay Area. This API Evangelist profile tracks the company; it does not yet publish a public developer API.
 image: https://10xscience.com/assets/10x-Science_graphic-light.svg
 layout: provider
-modified: '2026-07-17'
+modified: '2026-10-06'
 name: 10x Science
 nav: Providers
 network: true
 overview: '10x Science is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Frontier Tech, Life Sciences, Drug Discovery, and Protein Therapeutics.
 
 
-  10x Science''s developer surface includes signup flow and 4 more developer resources.'
+  10x Science''s developer surface includes engineering blog, signup flow, and 4 more developer resources.'
 random_paper: 2
 score:
   band: minimal
-  composite: 6.3
+  composite: 6.8
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 13.2
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 48.2
     operational_transparency: 0.0
   previous_composite: 6.3
@@ -95,8 +99,8 @@ score:
     regime: Health
     regime_id: health
     score: 4.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://api.qgenda.com/v2
@@ -399,7 +399,7 @@ modified: '2026-07-20'
 name: QGenda
 nav: Providers
 network: true
-overview: 'QGenda publishes 27 APIs on the [APIs.io](https://apis.io/) network, including Company API, Contacts API, Corporate Entities API, and 24 more. Tagged areas include Company, Healthcare, Scheduling, Workforce Management, and Physician Scheduling.
+overview: 'QGenda publishes 27 API contracts indexed on the [APIs.io](https://apis.io/) network, including Company API, Contacts API, Corporate Entities API, and 24 more. Tagged areas include Company, Healthcare, Scheduling, Workforce Management, and Physician Scheduling.
 
 
   QGenda''s developer surface includes documentation, API reference, authentication, support, engineering blog, signup flow, and 23 more developer resources.'
@@ -408,7 +408,7 @@ score:
   band: developing
   composite: 47.7
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -438,8 +438,8 @@ score:
     regime: Health
     regime_id: health
     score: 23.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

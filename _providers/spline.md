@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 5
 apis:
 - description: Client SDK for embedding and interacting with Spline scenes from JavaScript.
@@ -53,6 +53,10 @@ apis:
   slug: webhooks
 artifact_total: 11
 common:
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://spline.design/pricing
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/spline/refs/heads/main/security/spline-trust-center.yml
   title: ''
@@ -110,22 +114,26 @@ common:
 created: '2026-05-08'
 description: Spline is a real-time collaborative 3D design tool with AI-driven object generation, web embedding, and animation. Spline does NOT publish a REST API for 3D scene generation as of May 2026; instead it exposes Code APIs (Web, SwiftUI, Kotlin) for embedding scenes, plus a real-time API for variables/data and webhooks for event-driven integrations.
 finops:
-- name: Spline Finops
+- has_sources: true
+  method: generated
+  name: Spline Finops
+  primary_unit: ''
   service_category: 3D
   slug: spline-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/spline.png
 layout: provider
 modified: '2026-05-08'
 name: Spline
 nav: Providers
 network: true
-overview: 'Spline publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include 3D, Design, Artificial Intelligence, Collaboration, and Web.
+overview: 'Spline is listed with 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include 3D, Design, Artificial Intelligence, Collaboration, and Web.
 
 
-  Spline''s developer surface includes documentation, engineering blog, and 10 more developer resources.'
+  Spline''s developer surface includes pricing, documentation, engineering blog, and 10 more developer resources.'
 plans:
 - name: Spline Plans Pricing
-  plan_count: 4
+  plan_count: 5
   slug: spline-plans-pricing
 random_paper: 13
 rate_limits:
@@ -134,17 +142,17 @@ rate_limits:
   slug: spline-rate-limits
 score:
   band: emerging
-  composite: 16.0
+  composite: 21.3
   coverage:
-    artifact_dirs: 8
-    catalog_earned: 48.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 67.0
+    artifact_dirs: 9
+    catalog_earned: 54.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 61.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 5.3
   facets:
-    access_clarity: 23.7
+    access_clarity: 50.0
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
@@ -157,9 +165,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -173,7 +181,7 @@ security:
 - kind: vulnerability-disclosure
   name: Spline Vulnerability Disclosure
   slug: spline-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 - kind: trust-center
   name: Spline Trust Center
   slug: spline-trust-center

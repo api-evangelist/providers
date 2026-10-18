@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.8
-  scored_at: '2026-10-04'
+  score: 24.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -97,6 +97,21 @@ collections:
   name: Spiceworks Cloud Apps Comments Users API
   slug: open-spiceworks-users-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/spiceworks/refs/heads/main/plans/spiceworks-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/spiceworks-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/spiceworks/refs/heads/main/rate-limits/spiceworks-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/spiceworks-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/spiceworks/refs/heads/main/finops/spiceworks-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/spiceworks-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/spiceworks/refs/heads/main/capabilities/spiceworks-capability-edges.yml
   title: ''
@@ -211,9 +226,13 @@ examples:
   name: Spiceworks List Tickets Example
   slug: spiceworks-list-tickets-example
 finops:
-- name: Spiceworks Finops
+- has_sources: false
+  method: generated
+  name: Spiceworks Finops
+  primary_unit: ''
   service_category: API
   slug: spiceworks-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/spiceworks.png
 json_schemas:
 - name: Spiceworks Inventory Device
@@ -236,13 +255,13 @@ modified: '2026-05-19'
 name: Spiceworks
 nav: Providers
 network: true
-overview: 'Spiceworks publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Comments API, Devices API, Tickets API, and 1 more. Tagged areas include Community, Enterprise IT, and IT Management.
+overview: 'Spiceworks publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Comments API, Devices API, Tickets API, and 1 more. Tagged areas include Community, Enterprise IT, and IT Management.
 
 
   The Spiceworks catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Spiceworks'' developer surface includes authentication, signup flow, developer portal, documentation, support, engineering blog, YouTube channel, and 17 more developer resources.'
+  Spiceworks'' developer surface includes authentication, signup flow, developer portal, documentation, support, engineering blog, YouTube channel, and 20 more developer resources.'
 plans:
 - name: Spiceworks Plans Pricing
   plan_count: 3
@@ -253,9 +272,10 @@ rate_limits:
   name: Spiceworks Rate Limits
   slug: spiceworks-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Spiceworks API Rules
+  name: Spiceworks — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -263,7 +283,8 @@ rules:
     info: 1
     warn: 4
   slug: spiceworks-jsonschema-spectral-rules
-- effective_rule_count: 49
+- authorship: unmarked
+  effective_rule_count: 49
   extends:
   - spectral:oas
   name: Spiceworks API Rules
@@ -281,17 +302,17 @@ scopes:
   summary_line: 3 scopes · implicit
 score:
   band: developing
-  composite: 44.4
+  composite: 42.9
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 56.0
+    artifact_dirs: 20
+    catalog_earned: 53.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 59.0
+    catalog_gap: 62.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 50.0
+    access_clarity: 42.1
     contract_governance: 27.3
     contract_quality: 60.3
     developer_ergonomics: 36.9
@@ -311,8 +332,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

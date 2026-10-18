@@ -34,15 +34,15 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 18
+- acting_count: 17
   human_in_the_loop: 0
   name: Creditbenchmark Agentic Access
   operation_count: 23
   slug: creditbenchmark-agentic-access
-  summary_line: 23 operations · 18 acting
-api_count: 2
+  summary_line: 23 operations · 17 acting
+api_count: 3
 apis:
 - baseURL: https://api.creditbenchmark.com
   baseurl_source: declared
@@ -248,30 +248,30 @@ modified: '2026-08-08'
 name: Credit Benchmark
 nav: Providers
 network: true
-overview: 'Credit Benchmark publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Authentication API, Contributor Data API, and 6 more. Tagged areas include Company, Credit Risk, Financial Data, Credit Ratings, and Analytics.
+overview: 'Credit Benchmark publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Analytics API, Authentication API, Contributor Data API, and 6 more. Tagged areas include Company, Credit Risk, Financial Data, Credit Ratings, and Analytics.
 
 
   Credit Benchmark''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 20 more developer resources.'
 random_paper: 12
 score:
   band: developing
-  composite: 43.2
+  composite: 43.8
   coverage:
     artifact_dirs: 17
-    catalog_earned: 37.0
+    catalog_earned: 40.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.3
+  delta: 0.6
   facets:
     access_clarity: 35.5
     contract_governance: 4.5
     contract_quality: 54.6
     developer_ergonomics: 56.5
-    discoverability: 73.2
+    discoverability: 78.6
     operational_transparency: 7.9
-  previous_composite: 41.9
+  previous_composite: 43.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -288,8 +288,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -307,7 +307,7 @@ security:
 - kind: vulnerability-disclosure
   name: Creditbenchmark Vulnerability Disclosure
   slug: creditbenchmark-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 - kind: trust-center
   name: Creditbenchmark Trust Center
   slug: creditbenchmark-trust-center

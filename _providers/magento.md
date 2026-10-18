@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.1
-  scored_at: '2026-10-04'
+  score: 23.2
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -168,6 +168,21 @@ collections:
   name: Magento REST Authentication Tax API
   slug: open-magento-tax-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/magento/refs/heads/main/plans/magento-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/magento-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/magento/refs/heads/main/rate-limits/magento-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/magento-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/magento/refs/heads/main/finops/magento-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/magento-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/magento/refs/heads/main/capabilities/magento-capability-edges.yml
   title: ''
@@ -239,9 +254,13 @@ features:
 - Composer-based dependency management
 - Cloud edition includes Fastly CDN, New Relic APM, AWS hosting
 finops:
-- name: Magento Finops
+- has_sources: true
+  method: generated
+  name: Magento Finops
+  primary_unit: ''
   service_category: E-Commerce Platform
   slug: magento-finops
+  template: false
 graphqls:
 - description: 'The Adobe Commerce GraphQL API offers a flexible, query-driven interface designed primarily for building headless storefronts and progressive web applications. It exposes a single endpoint and allows '
   name: magento GraphQL API
@@ -367,13 +386,13 @@ modified: '2026-09-16'
 name: Magento
 nav: Providers
 network: true
-overview: 'Magento publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Adobe Commerce Webhooks, Adobe Commerce Eventing, Authentication API, and 13 more. Tagged areas include E-Commerce, Catalog, Headless Commerce, and Magento.
+overview: 'Magento publishes 16 API contracts indexed on the [APIs.io](https://apis.io/) network, including Adobe Commerce Webhooks, Adobe Commerce Eventing, Authentication API, and 13 more. Tagged areas include E-Commerce, Catalog, Headless Commerce, and Magento.
 
 
   The Magento catalog on APIs.io includes 2 event-driven AsyncAPI specifications, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Magento''s developer surface includes authentication and 10 more developer resources.'
+  Magento''s developer surface includes authentication and 13 more developer resources.'
 plans:
 - name: Magento Plans Pricing
   plan_count: 3
@@ -384,10 +403,11 @@ rate_limits:
   name: Magento Rate Limits
   slug: magento-rate-limits
 rules:
-- effective_rule_count: 36
+- authorship: generated
+  effective_rule_count: 36
   extends:
   - spectral:asyncapi
-  name: Magento API Rules
+  name: Magento — asyncapi rules
   rule_count: 9
   severity_counts:
     error: 1
@@ -395,9 +415,10 @@ rules:
     info: 0
     warn: 8
   slug: magento-asyncapi-spectral-rules
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: Magento API Rules
+  name: Magento — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -407,17 +428,17 @@ rules:
   slug: magento-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 30.7
+  composite: 29.2
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 42.5
+    artifact_dirs: 21
+    catalog_earned: 39.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 72.5
+    catalog_gap: 75.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 13.6
     contract_quality: 62.7
     developer_ergonomics: 21.4
@@ -437,8 +458,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

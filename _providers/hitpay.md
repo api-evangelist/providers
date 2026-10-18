@@ -31,20 +31,20 @@ agent_readiness:
     mcp_server: verified
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 41.1
-  scored_at: '2026-10-04'
+  score: 39.2
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 50
+- acting_count: 49
   human_in_the_loop: 0
   name: Hitpay Agentic Access
   operation_count: 92
   slug: hitpay-agentic-access
-  summary_line: 92 operations · 50 acting
+  summary_line: 92 operations · 49 acting
 api_count: 2
 apis:
 - baseURL: https://api.hit-pay.com/v1
@@ -505,9 +505,13 @@ common:
 created: '2026-07-17'
 description: HitPay is a Singapore-headquartered all-in-one payments platform for small and medium businesses across Asia-Pacific, unifying online checkout, point of sale, and B2B billing. Its REST API creates hosted Payment Requests, runs Recurring Billing on saved cards, and issues Refunds, with first-class Southeast Asian local methods (PayNow, GrabPay, WeChat Pay, Alipay, ShopeePay, Atome) alongside cards. Requests authenticate with the X-BUSINESS-API-KEY header.
 finops:
-- name: Hitpay Finops
+- has_sources: true
+  method: generated
+  name: Hitpay Finops
+  primary_unit: ''
   service_category: Financial Services
   slug: hitpay-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hitpay.png
 layout: provider
 mcp_servers:
@@ -518,7 +522,7 @@ modified: '2026-07-17'
 name: HitPay
 nav: Providers
 network: true
-overview: 'HitPay publishes 24 APIs on the [APIs.io](https://apis.io/) network, including Account Status API, Balances API, Beneficiaries API, and 21 more. Tagged areas include Payments, Fintech, PayNow, Southeast Asia, and Small Business.
+overview: 'HitPay publishes 24 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account Status API, Balances API, Beneficiaries API, and 21 more. Tagged areas include Payments, Fintech, PayNow, Southeast Asia, and Small Business.
 
 
   The HitPay catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -536,22 +540,22 @@ rate_limits:
   slug: hitpay-rate-limits
 score:
   band: strong
-  composite: 63.4
+  composite: 55.9
   coverage:
-    artifact_dirs: 28
-    catalog_earned: 58.0
+    artifact_dirs: 29
+    catalog_earned: 42.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.0
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.5
   facets:
-    access_clarity: 75.8
+    access_clarity: 47.4
     contract_governance: 18.2
     contract_quality: 57.5
     developer_ergonomics: 69.6
     discoverability: 75.0
-    operational_transparency: 45.3
+    operational_transparency: 31.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -576,9 +580,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 34.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 27.8

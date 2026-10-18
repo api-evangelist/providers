@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Ameriprise Financial is a diversified financial services company providing financial planning, products, and services including wealth management, asset management, insurance, and annuities. The compa
@@ -48,6 +48,21 @@ collections:
   name: Ameriprise Financial API
   slug: open-ameriprise
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/ameriprise-financial/refs/heads/main/plans/ameriprise-financial-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/ameriprise-financial-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/ameriprise-financial/refs/heads/main/rate-limits/ameriprise-financial-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/ameriprise-financial-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/ameriprise-financial/refs/heads/main/finops/ameriprise-financial-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/ameriprise-financial-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/ameriprise-financial/refs/heads/main/security/ameriprise-financial-domain-security.yml
   title: ''
@@ -138,9 +153,13 @@ features:
 - description: Legacy planning services to help clients transfer wealth efficiently to future generations.
   name: Estate Planning
 finops:
-- name: Ameriprise Financial Finops
+- has_sources: true
+  method: searched
+  name: Ameriprise Financial Finops
+  primary_unit: ''
   service_category: Financial Services
   slug: ameriprise-financial-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ameriprise-financial.png
 integrations:
 - description: Third-party account aggregation through Plaid enables external financial apps to access Ameriprise account data with client consent.
@@ -152,10 +171,10 @@ modified: '2026-09-02'
 name: Ameriprise Financial
 nav: Providers
 network: true
-overview: 'Ameriprise Financial publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Planning, Wealth Management, Retirement, Insurance, and Annuities.
+overview: 'Ameriprise Financial publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Planning, Wealth Management, Retirement, Insurance, and Annuities.
 
 
-  Ameriprise Financial''s developer surface includes legal docs, engineering blog, support, YouTube channel, and 8 more developer resources.'
+  Ameriprise Financial''s developer surface includes legal docs, engineering blog, support, YouTube channel, and 11 more developer resources.'
 plans:
 - name: Ameriprise Financial Plans Pricing
   plan_count: 0
@@ -183,17 +202,17 @@ rate_limits:
   slug: ameriprise-financial-rate-limits
 score:
   band: emerging
-  composite: 14.3
+  composite: 12.7
   coverage:
     artifact_dirs: 13
-    catalog_earned: 35.0
+    catalog_earned: 32.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 80.0
+    catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 35.5
+    access_clarity: 27.6
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
@@ -206,8 +225,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 12.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

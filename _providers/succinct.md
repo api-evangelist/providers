@@ -33,10 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.succinct.xyz/rss/
 - group: company
   title: ''
   type: Website
@@ -151,14 +155,14 @@ created: '2026-07-17'
 description: Succinct is an applied cryptography company building zero-knowledge proof infrastructure. Its flagship product is SP1, an open-source zkVM that proves the correct execution of RISC-V programs, and the Succinct Prover Network (SPN), a decentralized on-chain marketplace on Ethereum that coordinates a distributed network of provers to generate ZK proofs for any piece of software, settled with the PROVE token. Succinct's programmatic surface is a gRPC/protobuf API (the ProverNetwork, ArtifactStore, and Verifier services) rather than REST/OpenAPI; developers integrate in Rust via the SP1 SDK and CLI (cargo prove / sp1up) and authenticate to the network with a Secp256k1 key pair. Backed by Paradigm.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/succinct.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Succinct
 nav: Providers
 network: true
 overview: 'Succinct is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto Infrastructure, Zero-Knowledge Proofs, zkVM, and Blockchain.
 
 
-  Succinct''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, changelog, CLI, and 17 more developer resources.'
+  Succinct''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, changelog, CLI, and 18 more developer resources.'
 random_paper: 2
 score:
   band: thin
@@ -187,8 +191,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

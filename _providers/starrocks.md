@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: 'Stream Load is a synchronous HTTP-based ingestion API. Clients PUT a CSV or JSON payload to /api/{db}/{table}/_stream_load with HTTP Basic authentication and headers like `label`, `column_separator`, '
@@ -122,16 +122,20 @@ common:
 created: '2026-05-08'
 description: StarRocks is a high-performance, open-source (Apache 2.0) OLAP / lakehouse engine. Clients run SQL via the MySQL protocol, while the FE HTTP server exposes REST endpoints for management and Stream Load is an HTTP-based ingestion API. CelerData provides the managed cloud offering.
 finops:
-- name: Starrocks Finops
+- has_sources: false
+  method: generated
+  name: Starrocks Finops
+  primary_unit: ''
   service_category: API
   slug: starrocks-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/starrocks.png
 layout: provider
 modified: '2026-05-08'
 name: StarRocks
 nav: Providers
 network: true
-overview: 'StarRocks publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include OLAP, Lakehouse, SQL, Open Source, and Real-Time Analytics.
+overview: 'StarRocks is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include OLAP, Lakehouse, SQL, Open Source, and Real-Time Analytics.
 
 
   StarRocks'' developer surface includes developer portal, engineering blog, and 15 more developer resources.'
@@ -146,17 +150,17 @@ rate_limits:
   slug: starrocks-rate-limits
 score:
   band: thin
-  composite: 30.0
+  composite: 28.6
   coverage:
-    artifact_dirs: 8
-    catalog_earned: 49.0
+    artifact_dirs: 9
+    catalog_earned: 46.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 66.0
+    catalog_gap: 69.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.4
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 33.3
@@ -172,8 +176,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

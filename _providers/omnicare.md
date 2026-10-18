@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.omnicare.com/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/omnicare/refs/heads/main/security/omnicare-domain-security.yml
   title: ''
@@ -73,7 +77,7 @@ created: '2026-03-21'
 description: Omnicare is a long-term care pharmacy services company providing pharmacy services to long-term care facilities, senior living communities, and other healthcare providers. Customer-facing portals (Omniview, MyOmniview) exist for clients but no public developer APIs have been documented at this time.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/omnicare.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-10-06'
 name: Omnicare
 nav: Providers
 network: true
@@ -120,8 +124,8 @@ score:
     regime: Health
     regime_id: health
     score: 4.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

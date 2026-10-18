@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 13
+- acting_count: 7
   human_in_the_loop: 0
   name: Bithumb Agentic Access
   operation_count: 19
   slug: bithumb-agentic-access
-  summary_line: 19 operations · 13 acting
+  summary_line: 19 operations · 7 acting
 api_count: 1
 apis:
 - description: Real-time WebSocket API for streaming market data including tickers, order books, and trade executions, as well as authenticated streams for personal order updates and account changes.
@@ -94,6 +94,21 @@ collections:
   name: Bithumb Global REST Account Wallet API
   slug: open-bithumb-wallet-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/bithumb/refs/heads/main/plans/plans.yml
+  title: ''
+  type: Plans
+  url: plans/plans.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/bithumb/refs/heads/main/rate-limits/rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/bithumb/refs/heads/main/finops/finops.yml
+  title: ''
+  type: FinOps
+  url: finops/finops.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -158,9 +173,13 @@ examples:
   name: Place Order
   slug: place-order
 finops:
-- name: Finops
+- has_sources: true
+  method: generated
+  name: Finops
+  primary_unit: ''
   service_category: ''
   slug: finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bithumb.png
 json_schemas:
 - name: Bithumb Spot Order
@@ -174,13 +193,13 @@ modified: '2026-06-13'
 name: Bithumb
 nav: Providers
 network: true
-overview: 'Bithumb publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Account API, General API, Market Data API, and 3 more. Tagged areas include Cryptocurrency, Exchange, Trading, South Korea, and KRW.
+overview: 'Bithumb publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, General API, Market Data API, and 3 more. Tagged areas include Cryptocurrency, Exchange, Trading, South Korea, and KRW.
 
 
   The Bithumb catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Bithumb''s developer surface includes authentication, documentation, changelog, support, engineering blog, and 7 more developer resources.'
+  Bithumb''s developer surface includes authentication, documentation, changelog, support, engineering blog, and 10 more developer resources.'
 plans:
 - name: Plans
   plan_count: 1
@@ -191,9 +210,10 @@ rate_limits:
   name: Rate Limits
   slug: rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Bithumb API Rules
+  name: Bithumb — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -202,23 +222,23 @@ rules:
     warn: 3
   slug: bithumb-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 32.2
+  band: emerging
+  composite: 26.1
   coverage:
-    artifact_dirs: 15
-    catalog_earned: 57.7
+    artifact_dirs: 16
+    catalog_earned: 44.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.4
+    catalog_gap: 70.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.1
   facets:
-    access_clarity: 32.1
+    access_clarity: 10.5
     contract_governance: 9.8
     contract_quality: 43.3
     developer_ergonomics: 20.2
     discoverability: 66.1
-    operational_transparency: 32.1
+    operational_transparency: 18.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -240,9 +260,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 18.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

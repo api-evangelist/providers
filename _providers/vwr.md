@@ -27,16 +27,35 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 5
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/vwr/refs/heads/main/plans/vwr-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/vwr-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/vwr/refs/heads/main/rate-limits/vwr-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/vwr-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/vwr/refs/heads/main/finops/vwr-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/vwr-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.vwr.com/blog/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/vwr/refs/heads/main/security/vwr-domain-security.yml
   title: ''
@@ -71,9 +90,13 @@ common:
 created: '2026-05-03'
 description: VWR International, now part of Avantor, is a global distributor of laboratory supplies, chemicals, equipment, and services for the life sciences, pharmaceutical, biotechnology, and research industries. With over 180 years of history, VWR serves more than one million customers in over 30 countries. The company operates as Avantor's distribution and procurement platform, providing laboratory consumables, reagents, instruments, and cold chain solutions. VWR/Avantor offers e-procurement integrations and eProcurement APIs to support laboratory supply chain automation for enterprise customers through EDI, OCI/PunchOut, and catalog integration.
 finops:
-- name: Vwr Finops
+- has_sources: false
+  method: generated
+  name: Vwr Finops
+  primary_unit: ''
   service_category: API
   slug: vwr-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vwr.png
 jsonld:
 - class_count: 4
@@ -81,7 +104,7 @@ jsonld:
   property_count: 15
   slug: vwr-context
 layout: provider
-modified: '2026-07-25'
+modified: '2026-10-06'
 name: VWR International (Avantor)
 nav: Providers
 network: true
@@ -91,7 +114,7 @@ overview: 'VWR International (Avantor) is profiled on the [APIs.io](https://apis
   The VWR International (Avantor) catalog on APIs.io includes 1 JSON-LD context.
 
 
-  VWR International (Avantor)''s developer surface includes developer portal and 6 more developer resources.'
+  VWR International (Avantor)''s developer surface includes engineering blog, developer portal, and 9 more developer resources.'
 plans:
 - name: Vwr Plans Pricing
   plan_count: 3
@@ -119,20 +142,20 @@ rate_limits:
   slug: vwr-rate-limits
 score:
   band: emerging
-  composite: 14.6
+  composite: 13.6
   coverage:
-    artifact_dirs: 10
-    catalog_earned: 48.5
+    artifact_dirs: 11
+    catalog_earned: 45.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 66.5
+    catalog_gap: 69.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.0
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 13.6
     contract_quality: 10.7
-    developer_ergonomics: 9.5
+    developer_ergonomics: 11.9
     discoverability: 48.2
     operational_transparency: 7.9
   previous_composite: 14.6
@@ -142,8 +165,8 @@ score:
     regime: Health
     regime_id: health
     score: 8.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

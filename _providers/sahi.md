@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.sahi.com/feed.xml
 - group: company
   title: ''
   type: Website
@@ -87,14 +91,14 @@ created: '2026-07-17'
 description: Sahi is a high-performance Indian stock trading platform built for active retail traders, operated by Aaritya Broking Private Limited (SEBI INZ000317632) and based in Bangalore. Founded by Dale Vaz (former Swiggy CTO) and Manish Jain (former Kotak Securities executive), Sahi offers futures & options trading, equity/stock trading, IPO applications, and ETF investing at a flat brokerage of Rs.10 per executed order. The mobile-native platform emphasizes millisecond order-execution latency, an in-house charting tool (Sahi Charts), real-time stock scanners, AI-backed market intelligence, and SEBI-registered research. Sahi is an Accel portfolio company. It does not currently publish a public developer API, but it does publish a machine-readable /llms.txt.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sahi.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Sahi
 nav: Providers
 network: true
 overview: 'Sahi is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Stock Trading, Brokerage, and Investing.
 
 
-  Sahi''s developer surface includes pricing, engineering blog, and 9 more developer resources.'
+  Sahi''s developer surface includes pricing, engineering blog, and 10 more developer resources.'
 random_paper: 3
 score:
   band: minimal
@@ -128,8 +132,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 9.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.3
-  scored_at: '2026-10-04'
+  score: 20.4
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -167,16 +167,20 @@ common:
 created: '2026-07-11'
 description: sanctions.io is a sanctions, PEP, and criminal watchlist screening API for AML (anti-money laundering) compliance. The REST API (base https://api.sanctions.io) screens individuals, entities, vessels, and aircraft against 75+ sanctions lists from 30+ jurisdictions (OFAC SDN and Non-SDN, EU, UN, HM Treasury, and more), over one million politically exposed person (PEP) records, criminal watchlists like Interpol Red Notices and FBI Most Wanted, and adverse media from 60,000+ news sources. It supports real-time single screening, batch screening of up to 10,000 records per request, continuous monitoring with webhook alerts, and a full sanctions database export, all behind Bearer token auth with Accept-header versioning and a self-serve 7-day free trial.
 finops:
-- name: Sanctions Io Finops
+- has_sources: true
+  method: generated
+  name: Sanctions Io Finops
+  primary_unit: ''
   service_category: Compliance and Risk Screening
   slug: sanctions-io-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sanctions-io.png
 layout: provider
 modified: '2026-07-11'
 name: sanctions.io
 nav: Providers
 network: true
-overview: 'sanctions.io publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Account Management API, Adverse Media API, Batch Screening API, and 3 more. Tagged areas include AML, Sanctions Screening, Compliance, PEP Screening, and Watchlist.
+overview: 'sanctions.io publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account Management API, Adverse Media API, Batch Screening API, and 3 more. Tagged areas include AML, Sanctions Screening, Compliance, PEP Screening, and Watchlist.
 
 
   sanctions.io''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, support, and 8 more developer resources.'
@@ -190,23 +194,23 @@ rate_limits:
   name: Sanctions Io Rate Limits
   slug: sanctions-io-rate-limits
 score:
-  band: developing
-  composite: 40.0
+  band: thin
+  composite: 31.8
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 61.6
+    artifact_dirs: 13
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.4
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.2
   facets:
-    access_clarity: 60.0
+    access_clarity: 31.6
     contract_governance: 0.0
     contract_quality: 53.2
     developer_ergonomics: 28.6
     discoverability: 66.1
-    operational_transparency: 28.4
+    operational_transparency: 7.9
   previous_composite: 40.0
   provenance:
     agentic_access: derived
@@ -221,9 +225,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

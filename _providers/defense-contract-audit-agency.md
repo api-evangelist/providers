@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: The public JSON backend of DCAA's Field Audit Office Branch Locator. It resolves the DCAA field audit office cognizant over a contractor from a CAGE code (searchType 0), a SAM.gov Unique Entity Identi
@@ -49,6 +49,11 @@ collections:
   name: API Collection
   slug: open-defense-contract-audit-agency
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/defense-contract-audit-agency/refs/heads/main/finops/defense-contract-audit-agency-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/defense-contract-audit-agency-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/defense-contract-audit-agency/refs/heads/main/security/defense-contract-audit-agency-domain-security.yml
   title: ''
@@ -130,19 +135,23 @@ common:
 created: '2024-12-03'
 description: 'The Defense Contract Audit Agency (DCAA), under the authority, direction, and control of the Under Secretary of Defense (Comptroller), provides audit and financial advisory services to the Department of Defense and other federal entities responsible for acquisition and contract administration. DCAA runs no developer program: no API documentation, no OpenAPI, no SDK, no MCP server, no agent card and no /.well-known surface exist on any host it operates. It does serve one public, unauthenticated and undocumented JSON API — the Field Audit Office Branch Locator at https://fao.dcaa.mil/api — which resolves the cognizant DCAA audit office for a contractor by CAGE code, SAM.gov UEI or ZIP code and returns RFC 9457 problem details on validation failure. A second, gated surface, the Contractor Submission Portal at https://csp.dcaa.mil, takes certified incurred cost submissions behind an OpenID Connect sign-in federated to DoD PIEE.'
 finops:
-- name: Defense Contract Audit Agency Finops
+- has_sources: false
+  method: generated
+  name: Defense Contract Audit Agency Finops
+  primary_unit: ''
   service_category: API
   slug: defense-contract-audit-agency-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/defense-contract-audit-agency.png
 layout: provider
 modified: '2026-09-07'
 name: Defense Contract Audit Agency
 nav: Providers
 network: true
-overview: 'Defense Contract Audit Agency publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Federal Government, Defense, Department of Defense, Audit, and Contract Audit.
+overview: 'Defense Contract Audit Agency is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Federal Government, Defense, Department of Defense, Audit, and Contract Audit.
 
 
-  Defense Contract Audit Agency''s developer surface includes authentication, support, and 15 more developer resources.'
+  Defense Contract Audit Agency''s developer surface includes authentication, support, and 16 more developer resources.'
 plans:
 - name: Defense Contract Audit Agency Plans Pricing
   plan_count: 0
@@ -159,17 +168,17 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: emerging
-  composite: 22.3
+  composite: 20.7
   coverage:
     artifact_dirs: 18
-    catalog_earned: 40.0
+    catalog_earned: 37.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 25.0
+    access_clarity: 17.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 26.2
@@ -190,8 +199,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 30.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

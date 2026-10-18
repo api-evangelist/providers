@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://draigtherapeutics.com/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/draig-therapeutics/refs/heads/main/security/draig-therapeutics-domain-security.yml
   title: ''
@@ -65,20 +69,20 @@ created: '2026-07-17'
 description: Draig Therapeutics is a clinical-stage biopharmaceutical company developing transformative, best-in-class therapies for major neuropsychiatric disorders, including Major Depressive Disorder. A Cardiff University spinout co-founded with SV Health Investors, Draig ("dragon" in Welsh) leverages its founders' expertise in modulating the core glutamate/GABA pathways that underlie synaptic excitation and inhibition imbalance in the brain. Its pipeline is led by DT-101, a next-generation AMPA receptor positive allosteric modulator (PAM) advancing toward Phase 2 in MDD, alongside DT-201 and DT-301, subtype-selective GABAA receptor modulators. The company launched from stealth in June 2025 with a $140 million (£107 million) oversubscribed Series A led by Access Biotechnology, with participation from Canaan Partners, SR One, Sanofi Ventures, Schroders Capital, SV Health Investors, and ICG. Added to the API Evangelist network as a portfolio company of Canaan Partners.
 image: https://draigtherapeutics.com/wp-content/uploads/2026/05/cropped-Draig_favicon-192x192.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Draig Therapeutics
 nav: Providers
 network: true
 overview: 'Draig Therapeutics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Pharmaceuticals, Therapeutics, and Neuroscience.
 
 
-  Draig Therapeutics'' developer surface includes support and 5 more developer resources.'
+  Draig Therapeutics'' developer surface includes support and 6 more developer resources.'
 random_paper: 13
 score:
   band: minimal
   composite: 7.2
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -99,8 +103,8 @@ score:
     regime: Health
     regime_id: health
     score: 7.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

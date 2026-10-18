@@ -29,14 +29,14 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: verified
-    protected_resource_metadata: false
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 41.2
-  scored_at: '2026-10-04'
+  score: 44.8
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -1702,9 +1702,13 @@ features:
 - Live archive (Data Plus)
 - Custom dashboards via NRQL
 finops:
-- name: New Relic Finops
+- has_sources: true
+  method: generated
+  name: New Relic Finops
+  primary_unit: ''
   service_category: Observability
   slug: new-relic-finops
+  template: false
 graphqls:
 - description: NerdGraph is New Relic's primary GraphQL API for querying observability data, managing account configuration, and accessing the full breadth of New Relic platform capabilities. It is the recommended A
   name: New Relic GraphQL API
@@ -3450,7 +3454,7 @@ modified: '2026-05-19'
 name: New Relic
 nav: Providers
 network: true
-overview: 'New Relic publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Alerts API, Applications API, Events API, and 15 more. Tagged areas include Analysis, Analytics, APM, DevOps, and Infrastructure.
+overview: 'New Relic publishes 18 API contracts indexed on the [APIs.io](https://apis.io/) network, including Alerts API, Applications API, Events API, and 15 more. Tagged areas include Analysis, Analytics, APM, DevOps, and Infrastructure.
 
 
   The New Relic catalog on APIs.io includes 1 event-driven AsyncAPI specification, 10 JSON-LD contexts, and 4 Spectral governance rulesets.
@@ -3467,10 +3471,11 @@ rate_limits:
   name: New Relic Rate Limits
   slug: new-relic-rate-limits
 rules:
-- effective_rule_count: 35
+- authorship: generated
+  effective_rule_count: 35
   extends:
   - spectral:asyncapi
-  name: New Relic API Rules
+  name: New Relic — asyncapi rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -3478,9 +3483,10 @@ rules:
     info: 1
     warn: 6
   slug: new-relic-asyncapi-spectral-rules
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: New Relic API Rules
+  name: New Relic — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -3488,7 +3494,8 @@ rules:
     info: 1
     warn: 5
   slug: new-relic-jsonschema-spectral-rules
-- effective_rule_count: 54
+- authorship: generated
+  effective_rule_count: 54
   extends:
   - spectral:oas
   name: New Relic API Rules
@@ -3499,7 +3506,8 @@ rules:
     info: 1
     warn: 0
   slug: new-relic-rules
-- effective_rule_count: 69
+- authorship: generated
+  effective_rule_count: 69
   extends:
   - spectral:oas
   name: New Relic API Rules
@@ -3512,17 +3520,17 @@ rules:
   slug: new-relic-spectral-rules
 score:
   band: exemplar
-  composite: 72.3
+  composite: 71.0
   coverage:
-    artifact_dirs: 36
-    catalog_earned: 78.0
+    artifact_dirs: 37
+    catalog_earned: 75.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 37.0
+    catalog_gap: 40.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 4.2
+  delta: -3.4
   facets:
-    access_clarity: 68.4
+    access_clarity: 60.5
     contract_governance: 31.8
     contract_quality: 80.6
     developer_ergonomics: 87.5
@@ -3531,7 +3539,7 @@ score:
   open_source:
     applies: true
     score: 65.0
-  previous_composite: 68.1
+  previous_composite: 74.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -3548,8 +3556,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

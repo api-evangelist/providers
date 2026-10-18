@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 4
   slug: packagex-agentic-access
   summary_line: 4 operations · 2 acting
-api_count: 1
+api_count: 2
 apis:
 - baseURL: https://api.packagex.io
   baseurl_source: declared
@@ -205,7 +205,7 @@ modified: '2026-07-20'
 name: PackageX
 nav: Providers
 network: true
-overview: 'PackageX publishes 1 API on the [APIs.io](https://apis.io/) network: Shipments API. Tagged areas include Company, Logistics, Shipping, Supply Chain, and Computer Vision.
+overview: 'PackageX publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Shipments API. Tagged areas include Company, Logistics, Shipping, Supply Chain, and Computer Vision.
 
 
   The PackageX catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -215,7 +215,7 @@ overview: 'PackageX publishes 1 API on the [APIs.io](https://apis.io/) network: 
 random_paper: 0
 score:
   band: developing
-  composite: 47.5
+  composite: 47.6
   coverage:
     artifact_dirs: 22
     catalog_earned: 37.0
@@ -223,7 +223,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
@@ -248,8 +248,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

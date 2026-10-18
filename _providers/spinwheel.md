@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 24
+- acting_count: 23
   human_in_the_loop: 0
   name: Spinwheel Agentic Access
   operation_count: 36
   slug: spinwheel-agentic-access
-  summary_line: 36 operations · 24 acting
+  summary_line: 36 operations · 23 acting
 api_count: 1
 apis:
 - baseURL: https://api.spinwheel.io/v1
@@ -164,16 +164,20 @@ common:
 created: '2026-06-20'
 description: Spinwheel is an embedded credit and debt data platform. Its REST API and drop-in modules connect a consumer (via SMS, KBA, phone, or network token), pull an Equifax-backed debt profile across credit cards, student, auto, home, and personal loans, refresh real-time liability balances and payoff quotes, and originate bank-account-funded payments - all surfaced to partners as user-scoped endpoints and webhook events.
 finops:
-- name: Spinwheel Finops
+- has_sources: true
+  method: generated
+  name: Spinwheel Finops
+  primary_unit: ''
   service_category: Financial Services
   slug: spinwheel-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/spinwheel.png
 layout: provider
 modified: '2026-06-20'
 name: Spinwheel
 nav: Providers
 network: true
-overview: 'Spinwheel publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Bank Accounts API, Credit Data API, Liabilities API, and 4 more. Tagged areas include Fintech, Credit Data, Debt, Liabilities, and Payments.
+overview: 'Spinwheel publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Bank Accounts API, Credit Data API, Liabilities API, and 4 more. Tagged areas include Fintech, Credit Data, Debt, Liabilities, and Payments.
 
 
   Spinwheel''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
@@ -187,23 +191,23 @@ rate_limits:
   name: Spinwheel Rate Limits
   slug: spinwheel-rate-limits
 score:
-  band: thin
-  composite: 29.8
+  band: emerging
+  composite: 22.9
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 58.0
+    artifact_dirs: 13
+    catalog_earned: 42.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.0
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.9
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 42.8
     developer_ergonomics: 27.4
     discoverability: 66.1
-    operational_transparency: 28.4
+    operational_transparency: 7.9
   previous_composite: 29.8
   provenance:
     agentic_access: derived
@@ -218,9 +222,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 10.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

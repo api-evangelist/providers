@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: REST API to manage payment workflows end to end — create projects, manage payers and payees, run KYC verification, and authorise payments to disburse funds securely. Secured with mTLS + API key + RSA-
@@ -47,6 +47,10 @@ asyncapis:
   name: Shieldpay Webhooks
   slug: shieldpay-webhooks
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.shieldpay.com/blog/rss.xml
 - group: company
   title: ''
   type: Website
@@ -179,23 +183,23 @@ description: Shieldpay is an FCA-authorised (firm reference 770210) payments pla
   over webhooks.
 image: https://d24lr4zqs1tgqh.cloudfront.net/69dd90cd-7657-4b6d-8bb5-361a7e0d99d6.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Shieldpay
 nav: Providers
 network: true
-overview: 'Shieldpay publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Escrow, Legal Tech, and Fintech.
+overview: 'Shieldpay is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Escrow, Legal Tech, and Fintech.
 
 
   The Shieldpay catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Shieldpay''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 21 more developer resources.'
+  Shieldpay''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 22 more developer resources.'
 random_paper: 17
 score:
   band: developing
   composite: 47.5
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -218,8 +222,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 33.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

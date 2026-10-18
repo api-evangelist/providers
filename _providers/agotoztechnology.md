@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: A first-party API host AgotoZ operates on its own registrable domain at openapi.agotoz.com, named for an open API surface and serving a valid wildcard *.agotoz.com TLS certificate. It is not reachable
@@ -94,7 +94,7 @@ modified: '2026-09-12'
 name: AgotoZ Technology
 nav: Providers
 network: true
-overview: 'AgotoZ Technology publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include SD-WAN, Network as a Service, Network Acceleration, Enterprise Networking, and CDN.
+overview: 'AgotoZ Technology is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include SD-WAN, Network as a Service, Network Acceleration, Enterprise Networking, and CDN.
 
 
   AgotoZ Technology''s developer surface includes engineering blog and 7 more developer resources.'
@@ -111,7 +111,7 @@ score:
   band: minimal
   composite: 4.8
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 10
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -141,13 +141,14 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 5.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/agotoztechnology/refs/heads/main/screenshots/agotoztechnology-2026-10-11T093141.png
 security:
 - kind: domain-security
   name: Agotoztechnology Domain Security

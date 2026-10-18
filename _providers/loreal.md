@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: ModiFace, a L'Oréal company, provides an augmented reality virtual try-on platform for beauty brands and retailers. The platform offers a software development kit (SDK), embeddable miniprogram, and AP
@@ -106,7 +106,7 @@ modified: '2026-05-16'
 name: L'Oréal
 nav: Providers
 network: true
-overview: 'L''Oréal publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Augmented Reality, Beauty, Beauty Tech, Consumer Products, and Cosmetics.
+overview: 'L''Oréal is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Augmented Reality, Beauty, Beauty Tech, Consumer Products, and Cosmetics.
 
 
   L''Oréal''s developer surface includes product news, engineering blog, and 12 more developer resources.'
@@ -136,13 +136,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/loreal/refs/heads/main/screenshots/loreal-2026-10-11T191155.png
 security:
 - kind: domain-security
   name: Loreal Domain Security

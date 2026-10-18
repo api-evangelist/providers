@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.versatile.ai/blog/rss.xml
 - group: operate
   title: ''
   type: HelpCenter
@@ -77,26 +81,26 @@ created: '2026-07-17'
 description: Versatile is a construction-technology company building AI-powered crane intelligence for jobsites, primarily serving steel erectors and general contractors. Its CraneView hardware device attaches to a crane's hook block and passively captures operational data, which the Control Center software turns into real-time insight on pace, progress, productivity, and delays without asking crews to change how they work. The company is backed by Insight Partners. As of this profile Versatile publishes no public API, SDK, or developer platform; this record captures its identity, published web properties, and probed domain-security posture.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/versatileai.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Versatile
 nav: Providers
 network: true
 overview: 'Versatile is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Construction, Construction Technology, Artificial Intelligence, and Crane Intelligence.
 
 
-  Versatile''s developer surface includes engineering blog, support, and 7 more developer resources.'
+  Versatile''s developer surface includes engineering blog, support, and 8 more developer resources.'
 random_paper: 11
 score:
   band: emerging
-  composite: 11.3
+  composite: 11.4
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 27.6
     contract_governance: 0.0
@@ -111,8 +115,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 12.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

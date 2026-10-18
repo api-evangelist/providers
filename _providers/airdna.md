@@ -13,7 +13,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -30,20 +29,20 @@ agent_readiness:
     mcp_server: verified
     openapi_examples: false
     protected_resource_metadata: verified
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 40.3
-  scored_at: '2026-10-04'
+  score: 38.4
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 22
+- acting_count: 7
   human_in_the_loop: 0
   name: Airdna Agentic Access
   operation_count: 26
   slug: airdna-agentic-access
-  summary_line: 26 operations · 22 acting
+  summary_line: 26 operations · 7 acting
 api_count: 1
 apis:
 - baseURL: https://api.airdna.co/api/enterprise/v2
@@ -95,6 +94,10 @@ collections:
   name: AirDNA Enterprise API
   slug: open-airdna
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.airdna.co/press
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/airdna/refs/heads/main/agentic-access/airdna-agentic-access.yml
   title: ''
@@ -140,23 +143,27 @@ common:
 created: '2026-06-21'
 description: AirDNA provides short-term rental market data and analytics for Airbnb and Vrbo, tracking over 10 million listings across 120,000+ markets. The AirDNA Enterprise API exposes market metrics, STR listing data, comparable property sets, Rentalizer revenue estimates, and Smart Rates pricing through a Bearer-authenticated REST interface.
 finops:
-- name: Airdna Finops
+- has_sources: true
+  method: generated
+  name: Airdna Finops
+  primary_unit: ''
   service_category: Data and Analytics
   slug: airdna-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/airdna.png
 layout: provider
 mcp_servers:
 - description: Remote MCP server at mcp.airdna.co over HTTP.
   name: AirDNA MCP Server
   slug: airdna
-modified: '2026-06-21'
+modified: '2026-10-06'
 name: AirDNA
 nav: Providers
 network: true
-overview: 'AirDNA publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Market Data API, Rentalizer API, Rentalizer Lead Gen API, and 2 more. Tagged areas include Short-Term Rental, Vacation Rentals, Market Data, Real Estate, and Analytics.
+overview: 'AirDNA publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Market Data API, Rentalizer API, Rentalizer Lead Gen API, and 2 more. Tagged areas include Short-Term Rental, Vacation Rentals, Market Data, Real Estate, and Analytics.
 
 
-  AirDNA''s developer surface includes authentication, documentation, and 7 more developer resources.'
+  AirDNA''s developer surface includes engineering blog, authentication, documentation, and 7 more developer resources.'
 plans:
 - name: Airdna Plans Pricing
   plan_count: 1
@@ -167,23 +174,23 @@ rate_limits:
   name: Airdna Rate Limits
   slug: airdna-rate-limits
 score:
-  band: thin
-  composite: 30.9
+  band: emerging
+  composite: 25.4
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 54.4
+    artifact_dirs: 14
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 60.6
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.5
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 47.6
-    developer_ergonomics: 28.6
+    developer_ergonomics: 31.0
     discoverability: 68.3
-    operational_transparency: 18.9
+    operational_transparency: 5.3
   previous_composite: 30.9
   provenance:
     agentic_access: derived
@@ -199,9 +206,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0
@@ -214,7 +221,7 @@ security:
 - kind: domain-security
   name: Airdna Domain Security
   slug: airdna-domain-security
-  summary_line: TLSv1.3 · DMARC
+  summary_line: TLSv1.3 · HSTS · DMARC
 slug: airdna
 tags:
 - Short-Term Rental

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Japan grants and subsidies (central J-Grants + 1,916 municipalities)
@@ -69,7 +69,7 @@ modified: '2026-05-28'
 name: LocalGov.jp
 nav: Providers
 network: true
-overview: 'LocalGov.jp publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Government and Public APIs.
+overview: 'LocalGov.jp is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Government and Public APIs.
 
 
   LocalGov.jp''s developer surface includes engineering blog and 3 more developer resources.'
@@ -78,7 +78,7 @@ score:
   band: minimal
   composite: 6.3
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 22.0
     catalog_earned_first_party: 0.0
     catalog_gap: 93.0
@@ -101,8 +101,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

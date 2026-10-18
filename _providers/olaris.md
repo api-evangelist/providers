@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Unauthenticated remote Model Context Protocol endpoint served from Olaris' own host at https://www.myolaris.com/_api/mcp. It is the Wix platform Site MCP — provisioned by the website platform, not a f
@@ -98,7 +98,7 @@ modified: '2026-08-26'
 name: Olaris
 nav: Providers
 network: true
-overview: 'Olaris publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Diagnostics, Precision Medicine, and Metabolomics.
+overview: 'Olaris is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Diagnostics, Precision Medicine, and Metabolomics.
 
 
   Olaris'' developer surface includes authentication, support, and 7 more developer resources.'
@@ -138,8 +138,8 @@ score:
     regime: Health
     regime_id: health
     score: 8.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

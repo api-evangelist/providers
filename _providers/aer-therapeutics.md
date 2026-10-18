@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://aertherapeutics.com/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/aer-therapeutics/refs/heads/main/security/aer-therapeutics-domain-security.yml
   title: ''
@@ -65,20 +69,20 @@ created: '2026-07-17'
 description: Aer Therapeutics is a clinical-stage biopharmaceutical company based in the Research Triangle Park / Raleigh area of North Carolina, developing novel treatments for muco-obstructive lung diseases such as COPD, asthma, cystic fibrosis, and non-CF bronchiectasis. A spinout from Dr. John Fahy's laboratory at the University of California, San Francisco (UCSF), the company's lead candidate, AER-01 (fexlamose), is an inhaled small-molecule mucolytic designed to break down and liquefy the dense mucus plugs that obstruct airflow in the lungs. Aer closed a $36 million Series A backed by life-science investors including Canaan, OrbiMed, Hatteras Venture Partners, and Pappas Capital. Aer Therapeutics is a private, research-focused therapeutics company and does not publish a public developer platform, API, or SDKs; this profile captures its corporate identity within the API Evangelist network.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aer-therapeutics.png
 layout: provider
-modified: '2026-07-17'
+modified: '2026-10-06'
 name: Aer Therapeutics
 nav: Providers
 network: true
 overview: 'Aer Therapeutics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biopharmaceutical, Biotechnology, Therapeutics, and Life Sciences.
 
 
-  Aer Therapeutics'' developer surface includes support and 5 more developer resources.'
+  Aer Therapeutics'' developer surface includes support and 6 more developer resources.'
 random_paper: 4
 score:
   band: minimal
   composite: 9.8
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -99,8 +103,8 @@ score:
     regime: Health
     regime_id: health
     score: 10.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

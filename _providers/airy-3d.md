@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 2.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Airy:3D provides 3D depth sensing solutions via its platform.
@@ -55,13 +55,13 @@ modified: '2026-09-21'
 name: Airy:3D
 nav: Providers
 network: true
-overview: Airy:3D publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
+overview: Airy:3D is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
 random_paper: 17
 score:
   band: minimal
   composite: 2.0
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 6
     catalog_earned: 20.0
     catalog_earned_first_party: 0.0
     catalog_gap: 95.0
@@ -90,13 +90,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 0.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/airy-3d/refs/heads/main/screenshots/airy-3d-2026-10-11T093452.png
 slug: airy-3d
 tags:
 - Company

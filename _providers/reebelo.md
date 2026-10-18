@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The seller-side REST API behind Reebelo's Cobalt vendor back-office. Authenticated with a Reebelo-issued x-api-key header, it exposes offer management (list offers, look up an offer by SKU, create/upd
@@ -48,6 +48,15 @@ asyncapis:
   name: Reebelo Webhooks
   slug: reebelo-webhooks
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/reebelo/refs/heads/main/rate-limits/reebelo-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/reebelo-rate-limits.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://reebelo.com/blogs
 - group: company
   title: ''
   type: Website
@@ -127,17 +136,17 @@ created: '2026-08-26'
 description: 'Reebelo is a marketplace for certified refurbished consumer technology — smartphones, laptops, tablets, smartwatches, gaming and home electronics — sold by a vetted network of third-party refurbishers at up to 70% below new, with a 12-month warranty and a 30-day trial. Founded in 2019 and operating in the United States, Australia, New Zealand and Singapore, Reebelo positions refurbished tech as the sustainable alternative to new-device purchase. Its developer surface is seller-facing rather than buyer-facing: the Cobalt vendor back-office publishes a REST integration API on https://a.reebelo.com that lets a refurbisher list and reprice offers, pull orders, push carrier tracking and IMEI numbers, and upload seller invoices, alongside hosted-CSV feed and order-forwarding webhook alternatives for vendors without API resources.'
 image: https://edge.reebelo.com/images/opengraph.png
 layout: provider
-modified: '2026-08-26'
+modified: '2026-10-06'
 name: Reebelo
 nav: Providers
 network: true
-overview: 'Reebelo publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Refurbished Electronics, Marketplace, E-Commerce, Consumer Electronics, and Reverse Logistics.
+overview: 'Reebelo is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Refurbished Electronics, Marketplace, E-Commerce, Consumer Electronics, and Reverse Logistics.
 
 
   The Reebelo catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Reebelo''s developer surface includes documentation, API reference, getting-started guide, support, authentication, and 12 more developer resources.'
+  Reebelo''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, authentication, and 13 more developer resources.'
 plans:
 - name: Reebelo Plans Pricing
   plan_count: 0
@@ -149,20 +158,20 @@ rate_limits:
   slug: reebelo-rate-limits
 score:
   band: thin
-  composite: 28.2
+  composite: 28.8
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 19
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
     contract_quality: 39.0
-    developer_ergonomics: 23.8
+    developer_ergonomics: 26.2
     discoverability: 66.1
     operational_transparency: 7.9
   previous_composite: 28.2
@@ -175,8 +184,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: verified
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.1
-  scored_at: '2026-10-04'
+  score: 22.2
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Free business checking with a Mastercard business debit card, team cards with spend controls, check and cash deposits, wires, check payments, contractor payments, and sub-accounts. App feature only; n
@@ -109,9 +109,13 @@ common:
 created: '2026-06-20'
 description: Found is a fintech business-banking app for the self-employed, freelancers, and sole proprietors that combines a free business checking account (banking services provided by Lead Bank, Member FDIC) with built-in bookkeeping, real-time tax estimates and payments, invoicing, and contractor management. As of the 2026-06-20 review Found exposes no public or partner developer API; the surfaces below are documented as in-app product features, not programmatic APIs.
 finops:
-- name: Found Business Finops
+- has_sources: true
+  method: generated
+  name: Found Business Finops
+  primary_unit: ''
   service_category: Financial Services
   slug: found-business-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/found-business.png
 layout: provider
 mcp_servers:
@@ -122,7 +126,7 @@ modified: '2026-06-20'
 name: Found
 nav: Providers
 network: true
-overview: 'Found publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Banking, Bookkeeping, Taxes, and 2 more. Tagged areas include Fintech, Business Banking, Bookkeeping, Tax, and Self-Employed.
+overview: 'Found publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Banking, Bookkeeping, Taxes, and 2 more. Tagged areas include Fintech, Business Banking, Bookkeeping, Tax, and Self-Employed.
 
 
   Found''s developer surface includes documentation, engineering blog, and 8 more developer resources.'
@@ -137,17 +141,17 @@ rate_limits:
   slug: found-business-rate-limits
 score:
   band: emerging
-  composite: 22.0
+  composite: 16.3
   coverage:
-    artifact_dirs: 9
-    catalog_earned: 45.8
+    artifact_dirs: 11
+    catalog_earned: 35.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 69.2
+    catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.7
   facets:
-    access_clarity: 44.2
+    access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 23.3
     developer_ergonomics: 11.9
@@ -162,9 +166,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 13.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

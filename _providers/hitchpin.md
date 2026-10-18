@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -74,6 +74,10 @@ collections:
   name: Django instant-invoice-share rendering API
   slug: open-hitchpin-rendering-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.hitchpin.com/news/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/hitchpin/refs/heads/main/capabilities/hitchpin-capability-edges.yml
   title: ''
@@ -200,31 +204,31 @@ json_schemas:
   property_count: 7
   slug: hitchpin-problem-details.schema
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: HitchPin
 nav: Providers
 network: true
-overview: 'HitchPin publishes 3 APIs on the [APIs.io](https://apis.io/) network: Instant Invoice Share API, Instant Invoices API, and Rendering API. Tagged areas include Company, Marketplace, Agriculture, Livestock, and Hay and Forage.
+overview: 'HitchPin publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Instant Invoice Share API, Instant Invoices API, and Rendering API. Tagged areas include Company, Marketplace, Agriculture, Livestock, and Hay and Forage.
 
 
-  HitchPin''s developer surface includes documentation, getting-started guide, pricing, signup flow, support, authentication, sandbox, and 18 more developer resources.'
+  HitchPin''s developer surface includes engineering blog, documentation, getting-started guide, pricing, signup flow, support, authentication, and 19 more developer resources.'
 random_paper: 19
 score:
   band: thin
-  composite: 26.6
+  composite: 27.1
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 6.6
     contract_governance: 4.5
     contract_quality: 47.4
-    developer_ergonomics: 30.4
+    developer_ergonomics: 32.7
     discoverability: 78.6
     operational_transparency: 2.6
   previous_composite: 26.6
@@ -244,8 +248,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 15.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

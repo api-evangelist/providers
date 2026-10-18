@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 2
@@ -458,7 +458,7 @@ modified: '2026-09-16'
 name: Langflow
 nav: Providers
 network: true
-overview: 'Langflow publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Base API, Chat API, Files API, and 12 more. Tagged areas include Artificial Intelligence, Agents, Workflows, Low-Code, and Visual Builder.
+overview: 'Langflow publishes 15 API contracts indexed on the [APIs.io](https://apis.io/) network, including Base API, Chat API, Files API, and 12 more. Tagged areas include Artificial Intelligence, Agents, Workflows, Low-Code, and Visual Builder.
 
 
   The Langflow catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -467,9 +467,10 @@ overview: 'Langflow publishes 15 APIs on the [APIs.io](https://apis.io/) network
   Langflow''s developer surface includes authentication, developer portal, documentation, getting-started guide, changelog, tooling, code examples, and 46 more developer resources.'
 random_paper: 0
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Langflow API Rules
+  name: Langflow — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -477,7 +478,8 @@ rules:
     info: 1
     warn: 4
   slug: langflow-jsonschema-spectral-rules
-- effective_rule_count: 47
+- authorship: unmarked
+  effective_rule_count: 47
   extends:
   - spectral:oas
   name: Langflow API Rules
@@ -495,15 +497,15 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 41.4
+  composite: 41.5
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 17
     catalog_earned: 61.0
     catalog_earned_first_party: 0.0
     catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 0.0
     contract_governance: 27.3
@@ -525,8 +527,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

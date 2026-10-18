@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 34.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: REST API for B2B data enrichment (emails, phones, profile/company enrichment, verification, search, SIRET/SIREN). Bearer API-key auth; requires Standard plan or above.
@@ -32,7 +32,7 @@ apis:
 - description: Hosted streamable-HTTP MCP server exposing 12 enrichment tools; also available as a local npm package (derrick-mcp). Bearer API-key auth; requires Standard plan or above.
   name: Derrick MCP Server
   slug: derrick-mcp-server
-artifact_total: 9
+artifact_total: 8
 common:
 - group: company
   title: ''
@@ -155,14 +155,11 @@ mcp_servers:
 - description: ''
   name: Derrick MCP Server
   slug: mcp
-- description: Remote MCP server at app1.derrick-app.com requiring OAuth; 32 tools listed.
-  name: Derrick MCP Server
-  slug: derrick-mcp-server
 modified: '2026-09-09'
 name: Derrick
 nav: Providers
 network: true
-overview: 'Derrick publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include b2b-data-enrichment, Email Finder, Phone Finder, company-firmographics, and Lead Generation.
+overview: 'Derrick is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Data Enrichment, Email Finder, Phone Finder, company-firmographics, and Lead Generation.
 
 
   Derrick''s developer surface includes authentication, changelog, pricing, engineering blog, signup flow, and 19 more developer resources.'
@@ -177,15 +174,15 @@ rate_limits:
   slug: derrick-rate-limits
 score:
   band: thin
-  composite: 35.7
+  composite: 35.8
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 18
     catalog_earned: 57.0
     catalog_earned_first_party: 20.0
     catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 60.5
     contract_governance: 18.2
@@ -204,13 +201,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/derrick/refs/heads/main/screenshots/derrick-2026-10-11T184704.png
 security:
 - kind: authentication
   name: Derrick Authentication
@@ -226,7 +224,7 @@ security:
   summary_line: security.txt · contact published
 slug: derrick
 tags:
-- b2b-data-enrichment
+- Data Enrichment
 - Email Finder
 - Phone Finder
 - company-firmographics
@@ -240,6 +238,5 @@ tags:
 - llms-txt
 - Google Sheets
 - gtm-tools
-- Data Enrichment
 website: https://derrick-app.com
 ---

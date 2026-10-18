@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 79
   slug: release-agentic-access
   summary_line: 79 operations · 37 acting · 1 human-in-the-loop
-api_count: 1
+api_count: 2
 apis:
 - baseURL: https://api.release.com
   baseurl_source: declared
@@ -284,7 +284,7 @@ modified: '2026-07-21'
 name: Release
 nav: Providers
 network: true
-overview: 'Release publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Apps API, Builds API, and 6 more. Tagged areas include Company, Developer Tools, Ephemeral Environments, Platform Engineering, and Deployment.
+overview: 'Release publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, Apps API, Builds API, and 6 more. Tagged areas include Company, Developer Tools, Ephemeral Environments, Platform Engineering, and Deployment.
 
 
   Release''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 27 more developer resources.'
@@ -293,7 +293,7 @@ score:
   band: developing
   composite: 52.6
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -324,8 +324,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -343,7 +343,7 @@ security:
 - kind: vulnerability-disclosure
   name: Release Vulnerability Disclosure
   slug: release-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 - kind: trust-center
   name: Release Trust Center
   slug: release-trust-center

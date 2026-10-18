@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.3
-  scored_at: '2026-10-04'
+  score: 25.4
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 0
@@ -528,6 +528,21 @@ collections:
   name: Salesforce Sales Cloud Salesforce Analytics REST Change Events Users API
   slug: open-salesforce-sales-cloud-users-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/plans/salesforce-sales-cloud-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/salesforce-sales-cloud-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/rate-limits/salesforce-sales-cloud-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/salesforce-sales-cloud-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/finops/salesforce-sales-cloud-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/salesforce-sales-cloud-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/capabilities/salesforce-sales-cloud-capability-edges.yml
   title: ''
@@ -803,9 +818,13 @@ examples:
   name: Salesforce Sales Cloud Soql Query Example
   slug: salesforce-sales-cloud-soql-query-example
 finops:
-- name: Salesforce Sales Cloud Finops
+- has_sources: true
+  method: generated
+  name: Salesforce Sales Cloud Finops
+  primary_unit: ''
   service_category: CRM
   slug: salesforce-sales-cloud-finops
+  template: false
 graphqls:
 - description: Query Salesforce data using GraphQL, allowing clients to request exactly the fields they need in a single request. Reduces payload size and supports aggregation across object relationships.
   name: Salesforce Sales Cloud GraphQL API
@@ -994,13 +1013,13 @@ modified: '2026-08-21'
 name: Salesforce Sales Cloud
 nav: Providers
 network: true
-overview: 'Salesforce Sales Cloud publishes 46 APIs on the [APIs.io](https://apis.io/) network, including Change Events API, Communities API, Completions API, and 43 more. Tagged areas include Cloud, CRM, Customer Management, Enterprise, and Sales.
+overview: 'Salesforce Sales Cloud publishes 46 API contracts indexed on the [APIs.io](https://apis.io/) network, including Change Events API, Communities API, Completions API, and 43 more. Tagged areas include Cloud, CRM, Customer Management, Enterprise, and Sales.
 
 
   The Salesforce Sales Cloud catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Salesforce Sales Cloud''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, support, signup flow, and 51 more developer resources.'
+  Salesforce Sales Cloud''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, support, signup flow, and 54 more developer resources.'
 plans:
 - name: Salesforce Sales Cloud Plans Pricing
   plan_count: 1
@@ -1011,9 +1030,10 @@ rate_limits:
   name: Salesforce Sales Cloud Rate Limits
   slug: salesforce-sales-cloud-rate-limits
 rules:
-- effective_rule_count: 4
+- authorship: generated
+  effective_rule_count: 4
   extends: []
-  name: Salesforce Sales Cloud API Rules
+  name: Salesforce Sales Cloud — jsonschema rules
   rule_count: 4
   severity_counts:
     error: 0
@@ -1021,7 +1041,8 @@ rules:
     info: 1
     warn: 3
   slug: salesforce-sales-cloud-jsonschema-spectral-rules
-- effective_rule_count: 10
+- authorship: unmarked
+  effective_rule_count: 10
   extends: []
   name: Salesforce Sales Cloud API Rules
   rule_count: 10
@@ -1038,17 +1059,17 @@ scopes:
   summary_line: 4 scopes · authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 58.1
+  composite: 56.6
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 54.8
+    artifact_dirs: 23
+    catalog_earned: 51.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 60.3
+    catalog_gap: 63.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 40.8
+    access_clarity: 32.9
     contract_governance: 23.5
     contract_quality: 63.8
     developer_ergonomics: 76.2
@@ -1068,8 +1089,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

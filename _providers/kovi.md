@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.kovi.com.br/blog/rss.xml
 - group: company
   title: ''
   type: Website
@@ -123,18 +127,18 @@ created: '2026-07-17'
 description: Kovi (Kovi Tecnologia S.A.) is a Brazilian mobility company founded in 2018 that rents and subscribes cars to ride-hailing and delivery app drivers across Latin America. It operates a fleet of new (0km) and certified pre-owned vehicles under monthly, annual and pay-per-kilometer plans that bundle maintenance, insurance-style protection and vehicle documentation, with a purchase option on its Kovi Proprio product. Kovi serves twelve Brazilian cities including Sao Paulo, Porto Alegre, Belo Horizonte, Florianopolis, Curitiba, Fortaleza, Goiania, Brasilia, Recife, Santos, Campinas and Salvador, plus a Mexican operation at kovi.mx, and employs more than 1,400 people. Driver onboarding and account self-service run through the Central do Motorista web app and an Android application, which are backed by a private, authentication-gated GraphQL API. Kovi publishes no public developer program, API documentation or SDKs as of this profile.
 image: https://www.kovi.com.br/hubfs/Kovi-2024/Images/Logo%20preto%20-%20horizontal.svg
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Kovi
 nav: Providers
 network: true
 overview: 'Kovi is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Mobility, Car Rental, Car Subscription, and Ride Hailing.
 
 
-  Kovi''s developer surface includes engineering blog, support, signup flow, pricing, YouTube channel, and 15 more developer resources.'
+  Kovi''s developer surface includes engineering blog, support, signup flow, pricing, YouTube channel, and 16 more developer resources.'
 random_paper: 1
 score:
   band: emerging
-  composite: 19.5
+  composite: 19.6
   coverage:
     artifact_dirs: 7
     catalog_earned: 27.0
@@ -142,7 +146,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 46.1
     contract_governance: 18.2
@@ -166,8 +170,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 23.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

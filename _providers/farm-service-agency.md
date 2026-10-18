@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: As directed by the OPEN (Open, Public, Electronic, and Necessary) Government Data Act and through its commitment to United States agriculturalists and interested public, FSA provides numerous data res
@@ -41,6 +41,21 @@ apis:
   slug: farm-service-agency
 artifact_total: 5
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/farm-service-agency/refs/heads/main/plans/farm-service-agency-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/farm-service-agency-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/farm-service-agency/refs/heads/main/rate-limits/farm-service-agency-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/farm-service-agency-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/farm-service-agency/refs/heads/main/finops/farm-service-agency-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/farm-service-agency-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/farm-service-agency/refs/heads/main/security/farm-service-agency-domain-security.yml
   title: ''
@@ -53,16 +68,20 @@ common:
 created: '2024-12-03'
 description: As directed by the OPEN (Open, Public, Electronic, and Necessary) Government Data Act and through its commitment to United States agriculturalists and interested public, FSA provides numerous data resources through reports, visualizations, and other formats.
 finops:
-- name: Farm Service Agency Finops
+- has_sources: false
+  method: generated
+  name: Farm Service Agency Finops
+  primary_unit: ''
   service_category: API
   slug: farm-service-agency-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/farm-service-agency.png
 layout: provider
 modified: '2026-04-28'
 name: Farm Service Agency
 nav: Providers
 network: true
-overview: Farm Service Agency publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Agriculture and Federal Government.
+overview: Farm Service Agency is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Agriculture and Federal Government.
 plans:
 - name: Farm Service Agency Plans Pricing
   plan_count: 3
@@ -74,17 +93,17 @@ rate_limits:
   slug: farm-service-agency-rate-limits
 score:
   band: minimal
-  composite: 9.8
+  composite: 8.2
   coverage:
     artifact_dirs: 5
-    catalog_earned: 36.0
+    catalog_earned: 33.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 79.0
+    catalog_gap: 82.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 9.5
@@ -102,8 +121,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

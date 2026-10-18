@@ -27,20 +27,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.5
-  scored_at: '2026-10-04'
+  score: 19.6
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 97
+- acting_count: 44
   human_in_the_loop: 0
   name: Nano Agentic Access
   operation_count: 97
   slug: nano-agentic-access
-  summary_line: 97 operations · 97 acting
+  summary_line: 97 operations · 44 acting
 api_count: 1
 apis:
 - baseURL: http://localhost:7076
@@ -113,6 +113,29 @@ collections:
   name: Nano RPC Accounts Work API
   slug: open-nano-work-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/nano/refs/heads/main/plans/plans.yml
+  title: ''
+  type: Plans
+  url: plans/plans.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/nano/refs/heads/main/rate-limits/rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/nano/refs/heads/main/finops/finops.yml
+  title: ''
+  type: FinOps
+  url: finops/finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://nano.org/en/news
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://nano.org/en/news/rss
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/nano/refs/heads/main/agentic-access/nano-agentic-access.yml
   title: ''
@@ -175,9 +198,13 @@ examples:
   name: Unit Conversion
   slug: unit-conversion
 finops:
-- name: Finops
+- has_sources: false
+  method: generated
+  name: Finops
+  primary_unit: ''
   service_category: ''
   slug: finops
+  template: true
 image: https://nano.org/favicon.ico
 json_schemas:
 - name: Nano State Block
@@ -192,17 +219,17 @@ jsonld:
   property_count: 25
   slug: nano-context
 layout: provider
-modified: '2026-06-14'
+modified: '2026-10-06'
 name: Nano
 nav: Providers
 network: true
-overview: 'Nano publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Blocks API, Keys API, and 5 more. Tagged areas include Cryptocurrency, Payments, Blockchain, Feeless, and Instant Payments.
+overview: 'Nano publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, Blocks API, Keys API, and 5 more. Tagged areas include Cryptocurrency, Payments, Blockchain, Feeless, and Instant Payments.
 
 
   The Nano catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Nano''s developer surface includes documentation, release notes, GitHub presence, engineering blog, and 7 more developer resources.'
+  Nano''s developer surface includes engineering blog, documentation, release notes, GitHub presence, and 12 more developer resources.'
 plans:
 - name: Plans
   plan_count: 2
@@ -213,9 +240,10 @@ rate_limits:
   name: Rate Limits
   slug: rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Nano API Rules
+  name: Nano — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -225,17 +253,17 @@ rules:
   slug: nano-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 25.8
+  composite: 21.5
   coverage:
     artifact_dirs: 15
-    catalog_earned: 53.5
+    catalog_earned: 45.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 61.6
+    catalog_gap: 69.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -4.3
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 9.8
     contract_quality: 44.4
     developer_ergonomics: 9.5
@@ -255,8 +283,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 9.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

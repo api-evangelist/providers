@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://forteraglobal.com/news/
 - group: company
   title: ''
   type: Website
@@ -62,31 +66,31 @@ created: '2026-07-17'
 description: Fortera is a Silicon Valley materials-technology company advancing zero-CO2 cement. Its ReCarb process economically converts captured CO2 into ReAct green cement that meets regulatory standards and can be blended with or used in place of Ordinary Portland Cement inside existing production infrastructure. Fortera operates its first commercial ReCarb plant in Redding, California, holds 100+ patents, and is backed by Khosla Ventures and Temasek. The company is a climate-tech materials producer rather than a software/API provider; it publishes a public marketing website and an llms.txt but no developer API surface.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/forterausa.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Fortera
 nav: Providers
 network: true
 overview: 'Fortera is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Climate Tech, Cement, Materials, and Carbon Capture.
 
 
-  Fortera''s developer surface includes support and 4 more developer resources.'
+  Fortera''s developer surface includes engineering blog, support, and 4 more developer resources.'
 random_paper: 6
 score:
   band: minimal
-  composite: 7.0
+  composite: 7.5
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 10.5
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 4.8
+    developer_ergonomics: 7.1
     discoverability: 48.2
     operational_transparency: 0.0
   previous_composite: 7.0
@@ -96,8 +100,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 9.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

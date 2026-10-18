@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: npm-compatible package registry API implemented by vsr, vlt's serverless registry. Exposes package publish/install endpoints (packuments, tarballs, dist-tags), user and token management, granular acce
@@ -43,6 +43,10 @@ apis:
   slug: vlt-serverless-registry-api
 artifact_total: 5
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.vlt.io/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/vlt/refs/heads/main/security/vlt-vulnerability-disclosure.yml
   title: ''
@@ -186,14 +190,14 @@ created: '2026-07-17'
 description: vlt (pronounced "volt") is a JavaScript package management company started by the creator of npm and former members of the npm core team, and backed by Accel. It ships the open source vlt package manager CLI, the npm-compatible vlt serverless registry (vsr) that runs on Cloudflare's edge network, and a hosted registry platform at vlt.io with user, token, and access management exposed through an npm-compatible registry API at registry.vlt.io.
 image: https://github.com/vltpkg.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: vlt
 nav: Providers
 network: true
-overview: 'vlt publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, JavaScript, Package Management, Package Registry, and Developer Tools.
+overview: 'vlt is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, JavaScript, Package Management, Package Registry, and Developer Tools.
 
 
-  vlt''s developer surface includes CLI, changelog, authentication, documentation, getting-started guide, engineering blog, pricing, and 25 more developer resources.'
+  vlt''s developer surface includes CLI, changelog, authentication, documentation, getting-started guide, engineering blog, pricing, and 26 more developer resources.'
 plans:
 - name: Vlt Plans
   plan_count: 4
@@ -201,7 +205,7 @@ plans:
 random_paper: 12
 score:
   band: developing
-  composite: 48.0
+  composite: 48.1
   coverage:
     artifact_dirs: 13
     catalog_earned: 49.0
@@ -209,7 +213,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 84.2
     contract_governance: 18.2
@@ -226,8 +230,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -246,7 +250,7 @@ security:
 - kind: vulnerability-disclosure
   name: Vlt Vulnerability Disclosure
   slug: vlt-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 slug: vlt
 tags:
 - Company

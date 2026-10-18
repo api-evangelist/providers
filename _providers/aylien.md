@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 2
+- acting_count: 0
   human_in_the_loop: 0
   name: Aylien Agentic Access
   operation_count: 20
   slug: aylien-agentic-access
-  summary_line: 20 operations · 2 acting
+  summary_line: 20 operations
 api_count: 2
 apis:
 - baseURL: https://api.aylien.com
@@ -249,9 +249,13 @@ common:
 created: '2026-06-13'
 description: AYLIEN is a news intelligence and text analysis platform providing REST APIs for article extraction, sentiment analysis, entity recognition, summarization, concept detection, and NLP-enriched news aggregation from over 80,000 public and licensed sources delivering 1.4 million articles daily. Now part of Quantexa, AYLIEN enables developers, data scientists, and risk analysts to build intelligent applications powered by global news intelligence.
 finops:
-- name: Finops
+- has_sources: false
+  method: generated
+  name: Finops
+  primary_unit: ''
   service_category: ''
   slug: finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aylien.png
 json_schemas:
 - name: AggregatedSentiment
@@ -511,7 +515,7 @@ modified: '2026-06-13'
 name: AYLIEN
 nav: Providers
 network: true
-overview: 'AYLIEN publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Absa API, Autocomplete API, Classify API, and 14 more. Tagged areas include News Intelligence, Text Analysis, NLP, Sentiment Analysis, and Entity Recognition.
+overview: 'AYLIEN publishes 17 API contracts indexed on the [APIs.io](https://apis.io/) network, including Absa API, Autocomplete API, Classify API, and 14 more. Tagged areas include News Intelligence, Text Analysis, Natural Language Processing, Sentiment Analysis, and Entity Recognition.
 
 
   The AYLIEN catalog on APIs.io includes 2 JSON-LD contexts and 1 Spectral governance ruleset.
@@ -528,9 +532,10 @@ rate_limits:
   name: Rate Limits
   slug: rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: AYLIEN API Rules
+  name: AYLIEN — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -540,22 +545,22 @@ rules:
   slug: aylien-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 38.5
+  composite: 30.4
   coverage:
     artifact_dirs: 15
-    catalog_earned: 69.9
+    catalog_earned: 51.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 45.1
+    catalog_gap: 63.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.1
   facets:
-    access_clarity: 41.6
+    access_clarity: 13.2
     contract_governance: 9.8
     contract_quality: 52.3
     developer_ergonomics: 17.9
     discoverability: 66.1
-    operational_transparency: 49.5
+    operational_transparency: 28.9
   previous_composite: 38.5
   provenance:
     agentic_access: derived
@@ -569,10 +574,10 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 15.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+    score: 16.7
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0
@@ -589,10 +594,9 @@ slug: aylien
 tags:
 - News Intelligence
 - Text Analysis
-- NLP
+- Natural Language Processing
 - Sentiment Analysis
 - Entity Recognition
-- Natural Language Processing
 - News API
 - Article Extraction
 - Summarization

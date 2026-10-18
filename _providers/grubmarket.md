@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.grubmarket.com/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/grubmarket/refs/heads/main/security/grubmarket-domain-security.yml
   title: ''
@@ -81,20 +85,20 @@ created: '2026-07-17'
 description: GrubMarket is a food technology company founded in 2014 that digitally transforms the American food supply chain across the U.S. and Canada. It operates a B2B wholesale eCommerce marketplace connecting buyers to thousands of food products, an AI-powered ERP and warehouse-management software suite (WholesaleWare) for food distributors and growers, and a direct-to-consumer farm-fresh food delivery service. Backed by Battery Ventures, GGV Capital, and Y Combinator, GrubMarket was surfaced as a portfolio company and added to the API Evangelist network. As of this enrichment pass GrubMarket publishes no public developer API, API documentation, or developer portal; this profile captures its public web and domain-security posture.
 image: https://www.grubmarket.com/favicon.ico
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Grubmarket
 nav: Providers
 network: true
 overview: 'Grubmarket is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food Technology, Supply Chain, E-Commerce, and Wholesale.
 
 
-  Grubmarket''s developer surface includes engineering blog and 9 more developer resources.'
+  Grubmarket''s developer surface includes engineering blog and 10 more developer resources.'
 random_paper: 20
 score:
   band: minimal
   composite: 7.8
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -115,8 +119,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 7
 apis:
 - description: The IsatData Pro (IDP) Messaging API is a web service for sending and receiving short binary messages over Inmarsat's global L-band satellite network to and from IDP remote modems. The API is organize
@@ -176,7 +176,7 @@ modified: '2026-05-25'
 name: Inmarsat
 nav: Providers
 network: true
-overview: 'Inmarsat publishes 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Satellite Communications, SATCOM, Maritime, Aviation, and Government.
+overview: 'Inmarsat is listed with 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Satellite Communications, SATCOM, Maritime, Aviation, and Government.
 
 
   Inmarsat''s developer surface includes signup flow, GitHub presence, status page, YouTube channel, and 23 more developer resources.'
@@ -211,8 +211,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

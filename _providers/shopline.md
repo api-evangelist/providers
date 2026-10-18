@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: Versioned REST access to store data (products, orders, customers, inventory, fulfillment, discounts, and more) for SHOPLINE apps.
@@ -185,7 +185,7 @@ modified: '2026-07-21'
 name: SHOPLINE
 nav: Providers
 network: true
-overview: 'SHOPLINE publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Commerce, Retail, and Point-of-Sale.
+overview: 'SHOPLINE is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Commerce, Retail, and Point-of-Sale.
 
 
   The SHOPLINE catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -202,7 +202,7 @@ score:
   band: developing
   composite: 50.6
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -225,8 +225,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 31.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

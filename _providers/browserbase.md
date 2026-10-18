@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -86,6 +86,21 @@ collections:
   name: Browserbase API
   slug: open-browserbase
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/browserbase/refs/heads/main/plans/browserbase-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/browserbase-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/browserbase/refs/heads/main/rate-limits/browserbase-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/browserbase-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/browserbase/refs/heads/main/finops/browserbase-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/browserbase-finops.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -193,9 +208,13 @@ examples:
   name: Browserbase List Projects Example
   slug: browserbase-list-projects-example
 finops:
-- name: Browserbase Finops
+- has_sources: false
+  method: generated
+  name: Browserbase Finops
+  primary_unit: ''
   service_category: API
   slug: browserbase-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/browserbase.png
 json_schemas:
 - name: Browserbase Context
@@ -227,13 +246,13 @@ modified: '2026-05-25'
 name: Browserbase
 nav: Providers
 network: true
-overview: 'Browserbase publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Contexts API, Extensions API, Projects API, and 1 more. Tagged areas include Headless Browser, Browser Infrastructure, Web Automation, AI Agents, and Web Scraping.
+overview: 'Browserbase publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Contexts API, Extensions API, Projects API, and 1 more. Tagged areas include Headless Browser, Browser Infrastructure, Web Automation, AI Agents, and Web Scraping.
 
 
   The Browserbase catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Browserbase''s developer surface includes authentication, documentation, API reference, engineering blog, pricing, changelog, signup flow, and 14 more developer resources.'
+  Browserbase''s developer surface includes authentication, documentation, API reference, engineering blog, pricing, changelog, signup flow, and 17 more developer resources.'
 plans:
 - name: Browserbase Plans Pricing
   plan_count: 1
@@ -244,9 +263,10 @@ rate_limits:
   name: Browserbase Rate Limits
   slug: browserbase-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Browserbase API Rules
+  name: Browserbase — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -254,7 +274,8 @@ rules:
     info: 2
     warn: 3
   slug: browserbase-jsonschema-spectral-rules
-- effective_rule_count: 51
+- authorship: unmarked
+  effective_rule_count: 51
   extends:
   - spectral:oas
   name: Browserbase API Rules
@@ -266,23 +287,23 @@ rules:
     warn: 5
   slug: browserbase-rules
 score:
-  band: strong
-  composite: 55.2
+  band: developing
+  composite: 49.7
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 73.8
+    artifact_dirs: 19
+    catalog_earned: 60.4
     catalog_earned_first_party: 0.0
-    catalog_gap: 41.2
+    catalog_gap: 54.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.5
   facets:
-    access_clarity: 71.6
+    access_clarity: 50.0
     contract_governance: 27.3
     contract_quality: 52.4
     developer_ergonomics: 59.5
     discoverability: 73.2
-    operational_transparency: 53.2
+    operational_transparency: 39.5
   open_source:
     applies: true
     score: 25.0
@@ -300,9 +321,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

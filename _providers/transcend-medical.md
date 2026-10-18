@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 0
 created: '2026-07-17'
@@ -43,7 +43,7 @@ modified: '2026-09-16'
 name: Transcend Medical
 nav: Providers
 network: true
-overview: Transcend Medical is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, Glaucoma, Ophthalmology, and MedTech.
+overview: Transcend Medical is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, Glaucoma, Ophthalmology, and Medical Technology.
 random_paper: 10
 score:
   band: minimal
@@ -86,8 +86,8 @@ score:
     regime: Health
     regime_id: health
     score: 0.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -99,9 +99,8 @@ tags:
 - Medical Devices
 - Glaucoma
 - Ophthalmology
-- MedTech
+- Medical Technology
 - Healthcare
-- Venture Backed
 - Acquired
 - Defunct
 ---

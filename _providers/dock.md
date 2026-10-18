@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Dock's financial infrastructure API, branded Caradhras, covering card issuing and processing, digital accounts, transfers, Pix, bank slips and acquiring. The gateway is live at api.caradhras.io (AWS A
@@ -43,6 +43,10 @@ apis:
   slug: caradhras
 artifact_total: 5
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://dock.tech/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/dock/refs/heads/main/security/dock-domain-security.yml
   title: ''
@@ -139,14 +143,14 @@ created: '2026-08-12'
 description: Dock is a Latin American financial technology infrastructure provider — formerly Conductor Technology — that delivers card issuing and processing, core banking, digital accounts and wallets, Pix instant payments, bank slips, acquiring, loyalty/benefits and transactional anti-fraud from a single cloud-native platform marketed as Dock One. Dock operates in Brazil as a payment institution regulated by the Banco Central do Brasil (bank code 301) and states that it serves more than 400 companies across 11 countries, processes roughly R$1.4 trillion in annual card volume and supports around 70 million active digital accounts. Its API estate is branded Caradhras and is reached through the api.caradhras.io gateway; the developer reference at developers.dock.tech is a private ReadMe hub that redirects anonymous visitors to a login, and the previously public Caradhras reference at lighthouse.dock.tech no longer resolves.
 image: https://dock.tech/wp-content/uploads/2024/08/icone-dock.svg
 layout: provider
-modified: '2026-08-12'
+modified: '2026-10-06'
 name: Dock
 nav: Providers
 network: true
-overview: 'Dock publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Banking, Payments, Cards, Card Issuing, and Banking as a Service.
+overview: 'Dock is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Banking, Payments, Cards, Card Issuing, and Banking as a Service.
 
 
-  Dock''s developer surface includes engineering blog, support, and 15 more developer resources.'
+  Dock''s developer surface includes engineering blog, support, and 16 more developer resources.'
 plans:
 - name: Dock Plans Pricing
   plan_count: 0
@@ -158,15 +162,15 @@ rate_limits:
   slug: dock-rate-limits
 score:
   band: emerging
-  composite: 13.4
+  composite: 13.5
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 18.4
     contract_governance: 0.0
@@ -190,8 +194,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 17.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

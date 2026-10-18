@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 9
+- acting_count: 8
   human_in_the_loop: 0
   name: Smartlook Agentic Access
   operation_count: 24
   slug: smartlook-agentic-access
-  summary_line: 24 operations · 9 acting
+  summary_line: 24 operations · 8 acting
 api_count: 1
 apis:
 - baseURL: https://api.eu.smartlook.cloud
@@ -192,9 +192,13 @@ common:
 created: '2026-06-13'
 description: Smartlook is a product analytics and session recording platform that helps businesses understand how users interact with their web and mobile applications. The platform offers a REST API for programmatically accessing session replays, heatmaps, funnel analysis, event analytics, and visitor behavior insights. Developers can retrieve data across four primary resources—Visitors, Events, Funnels, and Sessions—using bearer token authentication against regional API endpoints. Smartlook supports multiple data regions and provides SDK integrations for web, iOS, Android, and cross-platform frameworks including Cordova and React Native.
 finops:
-- name: Smartlook Finops
+- has_sources: false
+  method: generated
+  name: Smartlook Finops
+  primary_unit: ''
   service_category: ''
   slug: smartlook-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/smartlook.png
 jsonld:
 - class_count: 14
@@ -206,7 +210,7 @@ modified: '2026-06-13'
 name: Smartlook
 nav: Providers
 network: true
-overview: 'Smartlook publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Events API, Funnels API, Mapping Files API, and 4 more. Tagged areas include Product Analytics, Session Recording, Heatmaps, Funnels, and User Behavior.
+overview: 'Smartlook publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Events API, Funnels API, Mapping Files API, and 4 more. Tagged areas include Product Analytics, Session Recording, Heatmaps, Funnels, and User Behavior.
 
 
   The Smartlook catalog on APIs.io includes 1 JSON-LD context.
@@ -224,17 +228,17 @@ rate_limits:
   slug: smartlook-rate-limits
 score:
   band: thin
-  composite: 34.8
+  composite: 29.2
   coverage:
-    artifact_dirs: 14
-    catalog_earned: 66.3
+    artifact_dirs: 15
+    catalog_earned: 55.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 48.7
+    catalog_gap: 59.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.6
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 13.6
     contract_quality: 55.0
     developer_ergonomics: 16.7
@@ -254,9 +258,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

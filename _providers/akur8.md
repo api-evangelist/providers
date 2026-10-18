@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Akur8 Deploy auto-generates a real-time REST rating endpoint from a finalized pricing model built in Akur8 Rate. A customer's policy admin system or quoting engine calls the generated endpoint to scor
@@ -77,16 +77,20 @@ common:
 created: '2026-07-03'
 description: Akur8 is a cloud-based actuarial AI platform for P&C and life insurers, covering pricing (Data, Risk, Demand, Rate, Rate Repo, Optim, Discover), reserving, and production deployment of rating models. There is no self-serve public developer API or public API reference published on akur8.com; the platform is sold and onboarded as enterprise SaaS through a sales-led, typically two-week free pilot. The one confirmed API capability is Akur8 Deploy - once a pricing model built in Akur8 Rate is finalized, Deploy auto-generates a private, tenant-specific real-time REST rating/scoring endpoint that a customer's own policy admin or quoting system calls at quote time to return a price in milliseconds. Access to that generated endpoint is provisioned per customer within a paid contract, not published for anonymous developer signup; rating tables can also be exported in CSV, JSON, PMML, and POJO formats for offline integration.
 finops:
-- name: Akur8 Finops
+- has_sources: true
+  method: generated
+  name: Akur8 Finops
+  primary_unit: ''
   service_category: Insurtech / Actuarial Software
   slug: akur8-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/akur8.png
 layout: provider
 modified: '2026-07-03'
 name: Akur8
 nav: Providers
 network: true
-overview: 'Akur8 publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Insurtech, Actuarial, Pricing, and GLM.
+overview: 'Akur8 is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Insurtech, Actuarial, Pricing, and GLM.
 
 
   Akur8''s developer surface includes engineering blog and 6 more developer resources.'
@@ -96,18 +100,18 @@ plans:
   slug: akur8-plans-pricing
 random_paper: 7
 score:
-  band: emerging
-  composite: 14.0
+  band: minimal
+  composite: 9.7
   coverage:
-    artifact_dirs: 6
-    catalog_earned: 42.2
+    artifact_dirs: 7
+    catalog_earned: 34.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 72.8
+    catalog_gap: 81.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -4.3
   facets:
-    access_clarity: 34.7
+    access_clarity: 13.2
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
@@ -120,8 +124,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 9.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

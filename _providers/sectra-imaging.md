@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 5
 apis:
 - description: 'Web-based access to imaging studies, series, and instances using the DICOM standard''s RESTful services - QIDO-RS (query), WADO-RS (retrieve), and STOW-RS (store). Sectra''s enterprise imaging platform '
@@ -100,7 +100,7 @@ modified: '2026-07-25'
 name: Sectra
 nav: Providers
 network: true
-overview: 'Sectra publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Medical Imaging, Enterprise Imaging, PACS, VNA, and Radiology.
+overview: 'Sectra is listed with 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Medical Imaging, Enterprise Imaging, PACS, VNA, and Radiology.
 
 
   Sectra''s developer surface includes documentation and 7 more developer resources.'
@@ -109,7 +109,7 @@ score:
   band: minimal
   composite: 8.4
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -138,8 +138,8 @@ score:
     regime: Health
     regime_id: health
     score: 9.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

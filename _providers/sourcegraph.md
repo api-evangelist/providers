@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: documented
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 5.6
-  scored_at: '2026-10-04'
+  score: 3.7
+  scored_at: '2026-10-17'
 api_count: 10
 apis:
 - description: Versioned external REST API introduced in Sourcegraph 7.0 and intended as the stable integration surface going forward. Each Sourcegraph instance exposes its own /api-reference path where the live Ope
@@ -68,6 +68,21 @@ apis:
   slug: src-cli
 artifact_total: 37
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sourcegraph/refs/heads/main/plans/sourcegraph-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/sourcegraph-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/sourcegraph/refs/heads/main/rate-limits/sourcegraph-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/sourcegraph-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sourcegraph/refs/heads/main/finops/sourcegraph-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/sourcegraph-finops.yml
 - group: company
   title: ''
   type: Website
@@ -177,9 +192,13 @@ features:
 - description: Push events to external systems and expose Sourcegraph as a tool surface to AI agents via MCP.
   name: Webhooks and MCP Server
 finops:
-- name: Sourcegraph Finops
+- has_sources: false
+  method: generated
+  name: Sourcegraph Finops
+  primary_unit: ''
   service_category: API
   slug: sourcegraph-finops
+  template: true
 graphqls:
 - description: The historical GraphQL API used by most Sourcegraph integrations to date. It is still available but Sourcegraph now recommends migrating to the versioned REST API for compatibility guarantees. Also ex
   name: Sourcegraph GraphQL API
@@ -205,10 +224,10 @@ modified: '2026-05-30'
 name: Sourcegraph
 nav: Providers
 network: true
-overview: 'Sourcegraph publishes 10 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Code Intelligence, Code Search, Cody, AMP, and AI Coding Agents.
+overview: 'Sourcegraph is listed with 10 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Code Intelligence, Code Search, Cody, AMP, and AI Coding Agents.
 
 
-  Sourcegraph''s developer surface includes developer portal, documentation, API reference, engineering blog, CLI, pricing, support, and 14 more developer resources.'
+  Sourcegraph''s developer surface includes developer portal, documentation, API reference, engineering blog, CLI, pricing, support, and 17 more developer resources.'
 plans:
 - name: Sourcegraph Plans Pricing
   plan_count: 1
@@ -219,23 +238,23 @@ rate_limits:
   name: Sourcegraph Rate Limits
   slug: sourcegraph-rate-limits
 score:
-  band: thin
-  composite: 30.2
+  band: emerging
+  composite: 24.8
   coverage:
-    artifact_dirs: 8
-    catalog_earned: 52.4
+    artifact_dirs: 9
+    catalog_earned: 39.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 62.6
+    catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.4
   facets:
-    access_clarity: 45.3
+    access_clarity: 23.7
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 52.4
     discoverability: 61.7
-    operational_transparency: 37.4
+    operational_transparency: 23.7
   open_source:
     applies: true
     score: 25.0
@@ -246,9 +265,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -262,7 +281,7 @@ security:
 - kind: vulnerability-disclosure
   name: Sourcegraph Vulnerability Disclosure
   slug: sourcegraph-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 - kind: trust-center
   name: Sourcegraph Trust Center
   slug: sourcegraph-trust-center

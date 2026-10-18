@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 2
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 54
   slug: datavant-agentic-access
   summary_line: 54 operations · 28 acting · 2 human-in-the-loop
-api_count: 2
+api_count: 4
 apis:
 - baseURL: https://api.datavant.io/v2
   baseurl_source: declared
@@ -295,7 +295,7 @@ modified: '2026-09-16'
 name: Datavant
 nav: Providers
 network: true
-overview: 'Datavant publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Configuration API, Documents API, Order Queries API, and 5 more. Tagged areas include Healthcare, United States, Interoperability, Health Data, and De-Identification.
+overview: 'Datavant publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Configuration API, Documents API, Order Queries API, and 5 more. Tagged areas include Healthcare, United States, Interoperability, Health Data, and De-Identification.
 
 
   Datavant''s developer surface includes authentication, engineering blog, documentation, API reference, support, changelog, CLI, and 37 more developer resources.'
@@ -315,21 +315,21 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 56.5
+  composite: 57.1
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 45.0
+    artifact_dirs: 25
+    catalog_earned: 48.0
     catalog_earned_first_party: 8.0
-    catalog_gap: 70.0
+    catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 67.1
     contract_governance: 18.2
     contract_quality: 50.3
     developer_ergonomics: 54.2
-    discoverability: 73.2
+    discoverability: 78.6
     operational_transparency: 44.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -355,8 +355,8 @@ score:
     regime: Health
     regime_id: health
     score: 46.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

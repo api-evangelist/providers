@@ -36,8 +36,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 58.0
-  scored_at: '2026-10-04'
-api_count: 1
+  scored_at: '2026-10-17'
+api_count: 2
 apis:
 - description: The original Cobot REST API, still available and still the only surface that carries the webhook subscription API. Documented per-resource on dev.cobot.me/api-docs; Cobot directs new integrations to A
   name: Cobot API v1 (legacy)
@@ -560,7 +560,7 @@ modified: '2026-08-09'
 name: Cobot
 nav: Providers
 network: true
-overview: 'Cobot publishes 44 APIs on the [APIs.io](https://apis.io/) network, including Allocation API, Approval API, Article API, and 41 more. Tagged areas include Company, Co-Working, Workspace Management, Space Management, and Real Estate.
+overview: 'Cobot publishes 44 API contracts indexed on the [APIs.io](https://apis.io/) network, including Allocation API, Approval API, Article API, and 41 more. Tagged areas include Company, Co-Working, Workspace Management, Space Management, and Real Estate.
 
 
   The Cobot catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -577,7 +577,7 @@ score:
   band: developing
   composite: 51.7
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -615,8 +615,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 34.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

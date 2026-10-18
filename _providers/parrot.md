@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
@@ -92,14 +92,14 @@ modified: '2026-07-20'
 name: Parrot
 nav: Providers
 network: true
-overview: 'Parrot is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Ml, Legal Tech, Court Reporting, and Deposition.
+overview: 'Parrot is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Legal Tech, Court Reporting, and Deposition.
 
 
   Parrot''s developer surface includes engineering blog, support, changelog, and 8 more developer resources.'
 random_paper: 4
 score:
   band: emerging
-  composite: 16.7
+  composite: 16.5
   coverage:
     artifact_dirs: 5
     catalog_earned: 27.0
@@ -107,7 +107,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 36.8
     contract_governance: 0.0
@@ -121,9 +121,9 @@ score:
     matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+    score: 15.6
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -142,7 +142,7 @@ security:
 slug: parrot
 tags:
 - Company
-- Ai Ml
+- Artificial Intelligence
 - Legal Tech
 - Court Reporting
 - Deposition

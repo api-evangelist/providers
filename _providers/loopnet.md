@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Access commercial real estate property listings including office, retail, industrial, multifamily, land, and hospitality properties for sale and lease across the US, Canada, and UK. Data includes prop
@@ -96,16 +96,20 @@ common:
 created: '2026-06-13'
 description: LoopNet is the leading commercial real estate marketplace, owned by CoStar Group, offering access to property listings, sale comparables, lease rates, market analytics, and CRE investment data. Brokers, owners, and investors use LoopNet to market and discover office, retail, industrial, multifamily, land, and hospitality properties across the US, Canada, and the UK. Integration is available via LoopLink for embedding property search on third-party websites, and data access for enterprise clients is arranged through CoStar Group agreements.
 finops:
-- name: Loopnet Finops
+- has_sources: false
+  method: generated
+  name: Loopnet Finops
+  primary_unit: ''
   service_category: ''
   slug: loopnet-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/loopnet.png
 layout: provider
 modified: '2026-06-13'
 name: LoopNet
 nav: Providers
 network: true
-overview: 'LoopNet publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Commercial Real Estate, Property Listings, CRE, Real Estate, and Market Analytics.
+overview: 'LoopNet is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Commercial Real Estate, Property Listings, CRE, Real Estate, and Market Analytics.
 
 
   LoopNet''s developer surface includes documentation, engineering blog, pricing, and 9 more developer resources.'
@@ -120,17 +124,17 @@ rate_limits:
   slug: loopnet-rate-limits
 score:
   band: emerging
-  composite: 19.6
+  composite: 14.0
   coverage:
     artifact_dirs: 8
-    catalog_earned: 50.8
+    catalog_earned: 40.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 64.2
+    catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.6
   facets:
-    access_clarity: 46.8
+    access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
@@ -143,13 +147,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/loopnet/refs/heads/main/screenshots/loopnet-2026-10-11T191323.png
 security:
 - kind: domain-security
   name: Loopnet Domain Security

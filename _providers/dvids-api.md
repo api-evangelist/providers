@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-04'
+  score: 20.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -78,6 +78,21 @@ collections:
   name: DVIDS API
   slug: open-dvids-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/dvids-api/refs/heads/main/plans/dvids-api-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/dvids-api-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/dvids-api/refs/heads/main/rate-limits/dvids-api-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/dvids-api-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/dvids-api/refs/heads/main/finops/dvids-api-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/dvids-api-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/dvids-api/refs/heads/main/agentic-access/dvids-api-agentic-access.yml
   title: ''
@@ -113,19 +128,23 @@ common:
 created: '2025-05-02'
 description: The Defense Visual Information Distribution Service (DVIDS) API provides programmatic access to over 1.8 million U.S. military news, photos, video, audio, publications, and unit assets. The API is implemented as JSON over HTTP and integration is possible from any language that can make an HTTP request and parse JSON responses.
 finops:
-- name: Dvids Api Finops
+- has_sources: false
+  method: generated
+  name: Dvids Api Finops
+  primary_unit: ''
   service_category: API
   slug: dvids-api-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dvids-api.png
 layout: provider
 modified: '2026-05-19'
 name: DVIDS API
 nav: Providers
 network: true
-overview: 'DVIDS API publishes 3 APIs on the [APIs.io](https://apis.io/) network: Asset API, Search API, and Unit API. Tagged areas include Media, Defense, Government, and Search.
+overview: 'DVIDS API publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Asset API, Search API, and Unit API. Tagged areas include Media, Defense, Government, and Search.
 
 
-  DVIDS API''s developer surface includes authentication, documentation, engineering blog, and 4 more developer resources.'
+  DVIDS API''s developer surface includes authentication, documentation, engineering blog, and 7 more developer resources.'
 plans:
 - name: Dvids Api Plans Pricing
   plan_count: 3
@@ -136,18 +155,18 @@ rate_limits:
   name: Dvids Api Rate Limits
   slug: dvids-api-rate-limits
 score:
-  band: thin
-  composite: 27.7
+  band: emerging
+  composite: 26.1
   coverage:
     artifact_dirs: 11
-    catalog_earned: 41.0
+    catalog_earned: 38.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 49.6
     developer_ergonomics: 23.8
@@ -167,8 +186,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 17.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

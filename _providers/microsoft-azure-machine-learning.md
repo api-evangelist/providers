@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -69,6 +69,21 @@ collections:
   name: Azure Machine Learning REST API
   slug: open-microsoft-azure-machine-learning
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-machine-learning/refs/heads/main/plans/microsoft-azure-machine-learning-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/microsoft-azure-machine-learning-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-machine-learning/refs/heads/main/rate-limits/microsoft-azure-machine-learning-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/microsoft-azure-machine-learning-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-machine-learning/refs/heads/main/finops/microsoft-azure-machine-learning-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/microsoft-azure-machine-learning-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-machine-learning/refs/heads/main/capabilities/microsoft-azure-machine-learning-capability-edges.yml
   title: ''
@@ -154,9 +169,13 @@ features:
 - description: Use built-in tools for fairness assessment, interpretability, and model monitoring across the lifecycle.
   name: Responsible AI
 finops:
-- name: Microsoft Azure Machine Learning Finops
+- has_sources: false
+  method: generated
+  name: Microsoft Azure Machine Learning Finops
+  primary_unit: ''
   service_category: API
   slug: microsoft-azure-machine-learning-finops
+  template: true
 image: https://azure.microsoft.com/svghandler/machine-learning/
 integrations:
 - description: Store training data, models, and experiment artifacts in Azure Blob Storage and Data Lake.
@@ -174,10 +193,10 @@ modified: '2026-05-19'
 name: Azure Machine Learning
 nav: Providers
 network: true
-overview: 'Azure Machine Learning publishes 2 APIs on the [APIs.io](https://apis.io/) network: Operations API and Workspaces API. Tagged areas include Artificial Intelligence, Azure, Machine Learning, MLOps, and Model Deployment.
+overview: 'Azure Machine Learning is listed with 2 APIs on the [APIs.io](https://apis.io/) network: Operations API and Workspaces API. Tagged areas include Artificial Intelligence, Microsoft Azure, Machine Learning, MLOps, and Model Deployment.
 
 
-  Azure Machine Learning''s developer surface includes authentication, developer portal, documentation, pricing, engineering blog, support, and 10 more developer resources.'
+  Azure Machine Learning''s developer surface includes authentication, developer portal, documentation, pricing, engineering blog, support, and 13 more developer resources.'
 plans:
 - name: Microsoft Azure Machine Learning Plans Pricing
   plan_count: 3
@@ -194,17 +213,17 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: developing
-  composite: 48.1
+  composite: 46.6
   coverage:
     artifact_dirs: 14
-    catalog_earned: 46.0
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 69.0
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 47.4
+    access_clarity: 39.5
     contract_governance: 0.0
     contract_quality: 44.1
     developer_ergonomics: 64.3
@@ -224,8 +243,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -243,7 +262,7 @@ security:
 slug: microsoft-azure-machine-learning
 tags:
 - Artificial Intelligence
-- Azure
+- Microsoft Azure
 - Machine Learning
 - MLOps
 - Model Deployment

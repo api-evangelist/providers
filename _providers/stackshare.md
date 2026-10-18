@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 5.0
-  scored_at: '2026-10-04'
+  score: 3.1
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'The StackShare GraphQL API provides programmatic access to StackShare''s database of developer tools and company tech stacks. It exposes four primary capability areas: Leads (find companies using speci'
@@ -41,6 +41,21 @@ apis:
   slug: stackshare-graphql-api
 artifact_total: 12
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/stackshare/refs/heads/main/plans/stackshare-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/stackshare-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/stackshare/refs/heads/main/rate-limits/stackshare-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/stackshare-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/stackshare/refs/heads/main/finops/stackshare-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/stackshare-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/stackshare/refs/heads/main/security/stackshare-domain-security.yml
   title: ''
@@ -105,9 +120,13 @@ examples:
   name: Stackshare Enrichment Example
   slug: stackshare-enrichment-example
 finops:
-- name: Stackshare Finops
+- has_sources: false
+  method: generated
+  name: Stackshare Finops
+  primary_unit: ''
   service_category: API
   slug: stackshare-finops
+  template: true
 graphqls:
 - description: 'The StackShare GraphQL API provides programmatic access to StackShare''s database of developer tools and company tech stacks. It exposes four primary capability areas: Leads (find companies using speci'
   name: StackShare GraphQL API
@@ -134,13 +153,13 @@ modified: '2026-05-02'
 name: StackShare
 nav: Providers
 network: true
-overview: 'StackShare publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Developer Tools, Software Discovery, and Tech Stacks.
+overview: 'StackShare is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Developer Tools, Software Discovery, and Tech Stacks.
 
 
   The StackShare catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  StackShare''s developer surface includes documentation, getting-started guide, signup flow, pricing, authentication, engineering blog, GitHub presence, and 7 more developer resources.'
+  StackShare''s developer surface includes documentation, getting-started guide, signup flow, pricing, authentication, engineering blog, GitHub presence, and 10 more developer resources.'
 plans:
 - name: Stackshare Plans Pricing
   plan_count: 3
@@ -151,9 +170,10 @@ rate_limits:
   name: Stackshare Rate Limits
   slug: stackshare-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: StackShare API Rules
+  name: StackShare — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -163,17 +183,17 @@ rules:
   slug: stackshare-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 31.9
+  composite: 30.3
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 52.3
+    artifact_dirs: 14
+    catalog_earned: 49.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 62.8
+    catalog_gap: 65.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 60.5
+    access_clarity: 52.6
     contract_governance: 9.8
     contract_quality: 10.7
     developer_ergonomics: 35.7
@@ -186,13 +206,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/stackshare/refs/heads/main/screenshots/stackshare-2026-10-11T192917.png
 security:
 - kind: domain-security
   name: Stackshare Domain Security

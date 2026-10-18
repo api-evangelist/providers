@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: documented
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-04'
+  score: 21.0
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -94,6 +94,25 @@ collections:
   name: Uptrace API
   slug: open-uptrace
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/uptrace/refs/heads/main/plans/uptrace-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/uptrace-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/uptrace/refs/heads/main/rate-limits/uptrace-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/uptrace-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/uptrace/refs/heads/main/finops/uptrace-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/uptrace-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://uptrace.dev/blog
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/uptrace/refs/heads/main/capabilities/uptrace-capability-edges.yml
   title: ''
@@ -168,9 +187,13 @@ examples:
   name: Uptrace Create Annotation Example
   slug: uptrace-create-annotation-example
 finops:
-- name: Uptrace Finops
+- has_sources: false
+  method: generated
+  name: Uptrace Finops
+  primary_unit: ''
   service_category: API
   slug: uptrace-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/uptrace.png
 json_schemas:
 - name: Uptrace Alert
@@ -193,17 +216,17 @@ mcp_servers:
 - description: ''
   name: MCP Server
   slug: mcp-server
-modified: '2026-05-19'
+modified: '2026-10-06'
 name: Uptrace
 nav: Providers
 network: true
-overview: 'Uptrace publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Alerts API, Annotations API, Dashboards API, and 2 more. Tagged areas include APM, Observability, OpenTelemetry, Distributed Tracing, and Monitoring.
+overview: 'Uptrace publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Alerts API, Annotations API, Dashboards API, and 2 more. Tagged areas include APM, Observability, OpenTelemetry, Distributed Tracing, and Monitoring.
 
 
   The Uptrace catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Uptrace''s developer surface includes authentication, documentation, and 13 more developer resources.'
+  Uptrace''s developer surface includes engineering blog, authentication, documentation, and 16 more developer resources.'
 plans:
 - name: Uptrace Plans Pricing
   plan_count: 3
@@ -214,9 +237,10 @@ rate_limits:
   name: Uptrace Rate Limits
   slug: uptrace-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Uptrace API Rules
+  name: Uptrace — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -224,7 +248,8 @@ rules:
     info: 2
     warn: 3
   slug: uptrace-jsonschema-spectral-rules
-- effective_rule_count: 48
+- authorship: unmarked
+  effective_rule_count: 48
   extends:
   - spectral:oas
   name: Uptrace API Rules
@@ -237,20 +262,20 @@ rules:
   slug: uptrace-rules
 score:
   band: thin
-  composite: 35.5
+  composite: 34.6
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 61.5
+    artifact_dirs: 20
+    catalog_earned: 58.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.5
+    catalog_gap: 56.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.9
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 13.6
     contract_quality: 59.3
-    developer_ergonomics: 21.4
+    developer_ergonomics: 23.8
     discoverability: 71.7
     operational_transparency: 26.3
   open_source:
@@ -270,8 +295,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

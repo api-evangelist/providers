@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 0
 common:
@@ -61,7 +61,7 @@ modified: '2026-07-20'
 name: DAOex
 nav: Providers
 network: true
-overview: DAOex is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto Web3, DAO, Community Management, and Web3.
+overview: DAOex is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Web3, DAO, Community Management, and Discord.
 random_paper: 1
 score:
   band: minimal
@@ -95,8 +95,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 0.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -105,10 +105,9 @@ score:
 slug: daoex
 tags:
 - Company
-- Crypto Web3
+- Web3
 - DAO
 - Community Management
-- Web3
 - Discord
 - NFT
 - Rewards

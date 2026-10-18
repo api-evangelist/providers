@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The MyStericycle.com customer portal provides healthcare organizations with 24/7 online access to account management, waste pickup scheduling, HIPAA and OSHA compliance training, compliance reporting,
@@ -41,6 +41,21 @@ apis:
   slug: mystericycle-portal
 artifact_total: 10
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/stericycle/refs/heads/main/plans/stericycle-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/stericycle-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/stericycle/refs/heads/main/rate-limits/stericycle-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/stericycle-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/stericycle/refs/heads/main/finops/stericycle-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/stericycle-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/stericycle/refs/heads/main/security/stericycle-domain-security.yml
   title: ''
@@ -69,9 +84,13 @@ common:
 created: '2026-05-02'
 description: Stericycle is a Fortune 500 compliance company specializing in regulated medical waste disposal, sharps management, pharmaceutical waste, secure information destruction, and healthcare compliance training. In November 2024, Stericycle was acquired by Waste Management (WM) for approximately $7.2 billion. The company operates as WM Healthcare Solutions division, serving hospitals, clinics, medical offices, dental practices, veterinary facilities, and other healthcare organizations. Stericycle's MyStericycle customer portal enables online account management, scheduling, compliance training, and billing.
 finops:
-- name: Stericycle Finops
+- has_sources: true
+  method: generated
+  name: Stericycle Finops
+  primary_unit: ''
   service_category: Regulated Waste & Compliance Services
   slug: stericycle-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/stericycle.png
 json_schemas:
 - name: Stericycle Compliance Training Record
@@ -94,13 +113,13 @@ modified: '2026-05-02'
 name: Stericycle
 nav: Providers
 network: true
-overview: 'Stericycle publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Healthcare, Medical Waste, Compliance, Waste Management, and Environmental Services.
+overview: 'Stericycle is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Healthcare, Medical Waste, Compliance, Waste Management, and Environmental Services.
 
 
   The Stericycle catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Stericycle''s developer surface includes documentation, developer portal, and 4 more developer resources.'
+  Stericycle''s developer surface includes documentation, developer portal, and 7 more developer resources.'
 plans:
 - name: Stericycle Plans Pricing
   plan_count: 1
@@ -127,9 +146,10 @@ rate_limits:
   name: Stericycle Rate Limits
   slug: stericycle-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Stericycle API Rules
+  name: Stericycle — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -139,17 +159,17 @@ rules:
   slug: stericycle-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 16.1
+  composite: 14.6
   coverage:
     artifact_dirs: 14
-    catalog_earned: 50.3
+    catalog_earned: 47.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 64.8
+    catalog_gap: 67.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 13.2
+    access_clarity: 5.3
     contract_governance: 9.8
     contract_quality: 10.7
     developer_ergonomics: 19.0
@@ -162,8 +182,8 @@ score:
     regime: Health
     regime_id: health
     score: 8.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

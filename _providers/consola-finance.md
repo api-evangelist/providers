@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: REST API for the Request Finance platform — accounts payable / receivable, invoices, payroll, organizations and clients — that Consola Finance's crypto accounting product is now part of. JSON over HTT
@@ -138,7 +138,7 @@ modified: '2026-07-18'
 name: Consola Finance
 nav: Providers
 network: true
-overview: 'Consola Finance publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto Accounting, Digital Assets, Web3 Finance, and Accounts Payable.
+overview: 'Consola Finance is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto Accounting, Digital Assets, Web3 Finance, and Accounts Payable.
 
 
   The Consola Finance catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -180,8 +180,8 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 21.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

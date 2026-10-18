@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: Open, unauthenticated bulk data files covering every current Australian Airworthiness Directive (AD). combinedadweb.json lists all current ADs with aircraft and equipment references; adweb.csv lists a
@@ -212,26 +212,26 @@ modified: '2026-07-28'
 name: Civil Aviation Safety Authority (CASA)
 nav: Providers
 network: true
-overview: 'Civil Aviation Safety Authority (CASA) publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Travel, Australia, Aviation, Airports, and Government.
+overview: 'Civil Aviation Safety Authority (CASA) is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Travel, Australia, Aviation, Airports, and Government.
 
 
   Civil Aviation Safety Authority (CASA)''s developer surface includes code examples, getting-started guide, authentication, documentation, developer portal, support, engineering blog, and 23 more developer resources.'
 random_paper: 14
 score:
-  band: thin
-  composite: 27.1
+  band: emerging
+  composite: 24.9
   coverage:
     artifact_dirs: 18
-    catalog_earned: 50.3
+    catalog_earned: 43.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 64.8
+    catalog_gap: 71.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.2
   facets:
     access_clarity: 10.5
     contract_governance: 8.3
-    contract_quality: 18.5
+    contract_quality: 9.9
     developer_ergonomics: 37.5
     discoverability: 71.4
     operational_transparency: 21.1
@@ -253,8 +253,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 26.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

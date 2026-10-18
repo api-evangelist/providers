@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 21
+- acting_count: 20
   human_in_the_loop: 0
   name: Cabify Agentic Access
   operation_count: 46
   slug: cabify-agentic-access
-  summary_line: 46 operations · 21 acting
+  summary_line: 46 operations · 20 acting
 api_count: 2
 apis:
 - baseURL: https://cabify.com/api/v4
@@ -157,6 +157,10 @@ collections:
   name: Cabify Logistics delivery webhooks API
   slug: open-cabify-webhooks-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://cabify.com/es/empresas/blog
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/cabify/refs/heads/main/capabilities/cabify-capability-edges.yml
   title: ''
@@ -309,34 +313,34 @@ created: '2026-07-17'
 description: 'Cabify is a Spanish multi-mobility company founded in 2011 and headquartered in Madrid, operating ride-hailing, corporate mobility, and last-mile logistics across Spain and Latin America (6+ countries and 40+ cities). Its public developer platform exposes two authenticated REST APIs: a Ride-Hailing API (v4) for price estimation, journey booking, real-time state tracking, rider and label management, and sales reporting; and a Logistics API (v1) for creating, shipping, tracking, and configuring proof of delivery for parcels, including ecommerce integrations with Shopify, Tiendanube, and VTEX. Both APIs authenticate with OAuth2 client-credentials access tokens (Bearer), publish independent sandbox environments, and deliver asynchronous updates via webhooks.'
 image: https://cabify.com/static/head/cover.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Cabify
 nav: Providers
 network: true
-overview: 'Cabify publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Delivery API, Estimates API, Hubs API, and 10 more. Tagged areas include Company, Transportation, Ride Hailing, Mobility, and Logistics.
+overview: 'Cabify publishes 13 API contracts indexed on the [APIs.io](https://apis.io/) network, including Delivery API, Estimates API, Hubs API, and 10 more. Tagged areas include Company, Transportation, Ride Hailing, Mobility, and Logistics.
 
 
   The Cabify catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Cabify''s developer surface includes documentation, getting-started guide, API reference, authentication, sandbox, changelog, support, and 25 more developer resources.'
+  Cabify''s developer surface includes engineering blog, documentation, getting-started guide, API reference, authentication, sandbox, changelog, and 26 more developer resources.'
 random_paper: 6
 score:
   band: developing
-  composite: 53.3
+  composite: 53.9
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 59.1
-    developer_ergonomics: 63.7
+    developer_ergonomics: 66.1
     discoverability: 73.2
     operational_transparency: 52.6
   jurisdiction:
@@ -364,8 +368,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

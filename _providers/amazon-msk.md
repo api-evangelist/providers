@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.8
-  scored_at: '2026-10-04'
+  score: 31.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 1
@@ -120,6 +120,21 @@ collections:
   name: Amazon MSK API
   slug: open-openapi
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-msk/refs/heads/main/plans/amazon-msk-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/amazon-msk-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-msk/refs/heads/main/rate-limits/amazon-msk-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/amazon-msk-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-msk/refs/heads/main/finops/amazon-msk-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/amazon-msk-finops.yml
 - group: company
   title: ''
   type: Website
@@ -637,9 +652,13 @@ features:
 - description: Manage and enforce schemas for Kafka topics with AWS Glue Schema Registry integration.
   name: Schema Registry
 finops:
-- name: Amazon Msk Finops
+- has_sources: false
+  method: generated
+  name: Amazon Msk Finops
+  primary_unit: ''
   service_category: API
   slug: amazon-msk-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amazon-msk.png
 json_schemas:
 - name: BatchAssociateScramSecretRequest
@@ -1463,13 +1482,13 @@ modified: '2026-09-16'
 name: Amazon MSK
 nav: Providers
 network: true
-overview: 'Amazon MSK publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Clusters API, Compatible Kafka Versions API, Configurations API, and 3 more. Tagged areas include Streaming, Kafka, Apache Kafka, Event Streaming, and Data Pipeline.
+overview: 'Amazon MSK publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Clusters API, Compatible Kafka Versions API, Configurations API, and 3 more. Tagged areas include Streaming, Kafka, Apache Kafka, Event Streaming, and Data Pipeline.
 
 
   The Amazon MSK catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon MSK''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 15 more developer resources.'
+  Amazon MSK''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 18 more developer resources.'
 plans:
 - name: Amazon Msk Plans Pricing
   plan_count: 3
@@ -1480,9 +1499,10 @@ rate_limits:
   name: Amazon Msk Rate Limits
   slug: amazon-msk-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Amazon MSK API Rules
+  name: Amazon MSK — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1490,7 +1510,8 @@ rules:
     info: 1
     warn: 4
   slug: amazon-msk-jsonschema-spectral-rules
-- effective_rule_count: 67
+- authorship: generated
+  effective_rule_count: 67
   extends:
   - spectral:oas
   name: Amazon MSK API Rules
@@ -1503,23 +1524,23 @@ rules:
   slug: amazon-msk-spectral-rules
 score:
   band: strong
-  composite: 58.5
+  composite: 57.0
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 66.0
+    artifact_dirs: 20
+    catalog_earned: 63.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 49.0
+    catalog_gap: 52.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.8
+  delta: -1.5
   facets:
-    access_clarity: 68.4
+    access_clarity: 60.5
     contract_governance: 27.3
     contract_quality: 65.4
     developer_ergonomics: 64.8
     discoverability: 66.1
     operational_transparency: 26.3
-  previous_composite: 56.7
+  previous_composite: 58.5
   provenance:
     agentic_access: derived
     contracts:
@@ -1533,8 +1554,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

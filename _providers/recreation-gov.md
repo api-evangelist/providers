@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-04'
+  score: 20.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -134,6 +134,25 @@ collections:
   name: Recreation Information Database (RIDB) API
   slug: open-recreation-gov
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/recreation-gov/refs/heads/main/plans/recreation-gov-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/recreation-gov-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/recreation-gov/refs/heads/main/rate-limits/recreation-gov-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/recreation-gov-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/recreation-gov/refs/heads/main/finops/recreation-gov-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/recreation-gov-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.recreation.gov/articles
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/recreation-gov/refs/heads/main/agentic-access/recreation-gov-agentic-access.yml
   title: ''
@@ -169,19 +188,23 @@ common:
 created: '2025-03-01'
 description: The Recreation Information Database (RIDB) provides data resources to citizens, offering a single point of access to information about recreational opportunities nationwide. The RIDB represents an authoritative source of information and services for millions of visitors to federal lands, historic sites, museums, and other attractions/resources.
 finops:
-- name: Recreation Gov Finops
+- has_sources: false
+  method: generated
+  name: Recreation Gov Finops
+  primary_unit: ''
   service_category: API
   slug: recreation-gov-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/recreation-gov.png
 layout: provider
-modified: '2026-05-19'
+modified: '2026-10-06'
 name: Recreation.gov
 nav: Providers
 network: true
-overview: 'Recreation.gov publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Activities API, Campsites API, Events API, and 7 more. Tagged areas include Recreation, Federal, Camping, Outdoors, and Public Lands.
+overview: 'Recreation.gov publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Activities API, Campsites API, Events API, and 7 more. Tagged areas include Recreation, Federal, Camping, Outdoors, and Public Lands.
 
 
-  Recreation.gov''s developer surface includes authentication, documentation, and 5 more developer resources.'
+  Recreation.gov''s developer surface includes engineering blog, authentication, documentation, and 8 more developer resources.'
 plans:
 - name: Recreation Gov Plans Pricing
   plan_count: 3
@@ -193,20 +216,20 @@ rate_limits:
   slug: recreation-gov-rate-limits
 score:
   band: thin
-  composite: 28.2
+  composite: 27.1
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 46.0
+    artifact_dirs: 13
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 69.0
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.1
   facets:
-    access_clarity: 28.9
+    access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 44.1
-    developer_ergonomics: 11.9
+    developer_ergonomics: 14.3
     discoverability: 73.2
     operational_transparency: 7.9
   previous_composite: 28.2
@@ -223,8 +246,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 17.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

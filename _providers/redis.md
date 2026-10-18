@@ -13,7 +13,7 @@ agent_readiness:
   band: agent-native
   dimensions:
     agent_card: false
-    agent_skills: derived
+    agent_skills: false
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
@@ -32,8 +32,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 45.8
-  scored_at: '2026-10-04'
+  score: 44.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 103
   human_in_the_loop: 9
@@ -55,264 +55,143 @@ apis:
 - description: Redis Insight is a free GUI management tool for Redis. Provides database browsing, query execution, memory analysis, slow log inspection, and Redis Streams visualization. Available as a desktop app an
   name: Redis Insight
   slug: redis-insight
-- baseURL: https://packages.redis.io
-  baseurl_source: declared
+- baseURL: https://api.redislabs.com
+  baseurl_source: spec
   description: Current account details.
   name: Redis Account API
   slug: redis-account-api
 - baseURL: https://packages.redis.io
-  baseurl_source: declared
+  baseurl_source: spec
   description: The Actuator API from Redis — 1 operation(s) for actuator.
   name: Redis Actuator API
   slug: redis-actuator-api
-- baseURL: https://packages.redis.io
-  baseurl_source: declared
+- baseURL: https://api.redislabs.com
+  baseurl_source: spec
   description: All operations related to Agent Memory store lifecycle
   name: Redis Agent Memory - Stores API
   slug: redis-agent-memory-stores-api
 - baseURL: https://packages.redis.io
-  baseurl_source: declared
+  baseurl_source: spec
   description: The Ai API from Redis — 1 operation(s) for ai.
   name: Redis AI API
   slug: redis-ai-api
 - baseURL: https://packages.redis.io
-  baseurl_source: declared
+  baseurl_source: spec
   description: The Bdbs API from Redis — 1 operation(s) for bdbs.
   name: Redis Bdbs API
   slug: redis-bdbs-api
 - baseURL: https://packages.redis.io
-  baseurl_source: declared
+  baseurl_source: spec
   description: The Caches API from Redis — 5 operation(s) for caches.
   name: Redis Caches API
   slug: redis-caches-api
-- baseURL: https://packages.redis.io
-  baseurl_source: declared
+- baseURL: https://api.redislabs.com
+  baseurl_source: spec
   description: All operations related to cloud accounts (AWS only).
   name: Redis Cloud Accounts API
   slug: redis-cloud-accounts-api
-- baseURL: https://packages.redis.io
-  baseurl_source: declared
+- baseURL: https://api.redislabs.com
+  baseurl_source: spec
   description: The Data Integration API from Redis — 3 operation(s) for data integration.
   name: Redis Data Integration API
   slug: redis-data-integration-api
-- baseURL: https://packages.redis.io
-  baseurl_source: declared
+- baseURL: https://api.redislabs.com
+  baseurl_source: spec
   description: All Essentials database operations.
   name: Redis Databases - Essentials API
   slug: redis-databases-essentials-api
-- baseURL: https://packages.redis.io
-  baseurl_source: declared
+- baseURL: https://api.redislabs.com
+  baseurl_source: spec
   description: All Pro database operations.
   name: Redis Databases - Pro API
   slug: redis-databases-pro-api
 - baseURL: https://packages.redis.io
-  baseurl_source: declared
+  baseurl_source: spec
   description: The Dedup API from Redis — 2 operation(s) for dedup.
   name: Redis Dedup API
   slug: redis-dedup-api
-- baseURL: https://packages.redis.io
-  baseurl_source: declared
+- baseURL: https://api.redislabs.com
+  baseurl_source: spec
   description: Dynamic endpoint redirection operations.
   name: Redis Endpoint Redirections API
   slug: redis-endpoint-redirections-api
 - baseURL: https://packages.redis.io
-  baseurl_source: declared
+  baseurl_source: spec
   description: The Gpg API from Redis — 1 operation(s) for gpg.
   name: Redis Gpg API
   slug: redis-gpg-api
 - baseURL: https://packages.redis.io
-  baseurl_source: declared
+  baseurl_source: spec
   description: The Homebrew API from Redis — 1 operation(s) for homebrew.
   name: Redis Homebrew API
   slug: redis-homebrew-api
 - baseURL: https://packages.redis.io
-  baseurl_source: declared
+  baseurl_source: spec
   description: The Images API from Redis — 1 operation(s) for images.
   name: Redis Images API
   slug: redis-images-api
 - baseURL: https://packages.redis.io
-  baseurl_source: declared
+  baseurl_source: spec
   description: The Long Term Memory API from Redis — 1 operation(s) for long term memory.
   name: Redis Long Term Memory API
   slug: redis-long-term-memory-api
 - baseURL: https://packages.redis.io
-  baseurl_source: declared
+  baseurl_source: spec
   description: The Redis API API from Redis — 1 operation(s) for redis api.
   name: Redis Redis API
   slug: redis-redis-api-api
 - baseURL: https://packages.redis.io
-  baseurl_source: declared
+  baseurl_source: spec
   description: The Redis Cli API from Redis — 1 operation(s) for redis cli.
   name: Redis Redis Cli API
   slug: redis-redis-cli-api
-- baseURL: https://packages.redis.io
-  baseurl_source: declared
+- baseURL: https://api.redislabs.com
+  baseurl_source: spec
   description: All operations for [Role-based Access Control](https://redis.io/docs/latest/operate/rc/security/access-control/data-access-control/role-based-access-control/) (RBAC).
   name: Redis Role-based Access Control (RBAC) API
   slug: redis-role-based-access-control-rbac-api
-- baseURL: https://packages.redis.io
-  baseurl_source: declared
+- baseURL: https://api.redislabs.com
+  baseurl_source: spec
   description: All Essentials subscription operations.
   name: Redis Subscriptions - Essentials API
   slug: redis-subscriptions-essentials-api
-- baseURL: https://packages.redis.io
-  baseurl_source: declared
+- baseURL: https://api.redislabs.com
+  baseurl_source: spec
   description: All Pro subscription operations.
   name: Redis Subscriptions - Pro API
   slug: redis-subscriptions-pro-api
-- baseURL: https://packages.redis.io
-  baseurl_source: declared
+- baseURL: https://api.redislabs.com
+  baseurl_source: spec
   description: All Pro subscription connectivity operations.
   name: Redis Subscriptions - Pro - Connectivity API
   slug: redis-subscriptions-pro-connectivity-api
-- baseURL: https://packages.redis.io
-  baseurl_source: declared
+- baseURL: https://api.redislabs.com
+  baseurl_source: spec
   description: Tracks asynchronous background operations. See [API request lifecycle](https://redis.io/docs/latest/operate/rc/api/get-started/process-lifecycle/) for more information.
   name: Redis Tasks API
   slug: redis-tasks-api
-- baseURL: https://packages.redis.io
-  baseurl_source: declared
-  description: The Users API from Redis — 5 operation(s) for users.
+- baseURL: https://api.redislabs.com
+  baseurl_source: spec
+  description: Data and operations related to account's users
   name: Redis Users API
   slug: redis-users-api
 artifact_total: 70
 common:
-- group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/redis/refs/heads/main/agentic-access/redis-agentic-access.yml
-  title: ''
-  type: AgenticAccess
-  url: agentic-access/redis-agentic-access.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/redis/refs/heads/main/finops/redis-finops.yml
+  href: https://raw.githubusercontent.com/api-evangelist/redis/refs/heads/main/plans/redis-plans-pricing.yml
   title: ''
-  type: FinOps
-  url: finops/redis-finops.yml
+  type: Plans
+  url: plans/redis-plans-pricing.yml
 - group: operate
   href: https://raw.githubusercontent.com/api-evangelist/redis/refs/heads/main/rate-limits/redis-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/redis-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/redis/refs/heads/main/plans/redis-plans-pricing.yml
+  href: https://raw.githubusercontent.com/api-evangelist/redis/refs/heads/main/finops/redis-finops.yml
   title: ''
-  type: Plans
-  url: plans/redis-plans-pricing.yml
-- group: design
-  href: https://raw.githubusercontent.com/api-evangelist/redis/refs/heads/main/rules/redis-rules.yml
-  title: ''
-  type: Spectral
-  url: rules/redis-rules.yml
-- group: design
-  href: https://raw.githubusercontent.com/api-evangelist/redis/refs/heads/main/rules/redis-jsonschema-spectral-rules.yml
-  title: ''
-  type: Spectral
-  url: rules/redis-jsonschema-spectral-rules.yml
-- group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/redis/refs/heads/main/skills/_index.yml
-  title: ''
-  type: AgentSkill
-  url: skills/_index.yml
-- group: design
-  href: https://raw.githubusercontent.com/api-evangelist/redis/refs/heads/main/data-model/redis-data-model.yml
-  title: ''
-  type: DataModel
-  url: data-model/redis-data-model.yml
-- group: build
-  href: https://raw.githubusercontent.com/api-evangelist/redis/refs/heads/main/cli/redis-cli.yml
-  title: ''
-  type: CLI
-  url: cli/redis-cli.yml
-- group: auth
-  title: ''
-  type: Compliance
-  url: https://trust.redis.io/
-- group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/redis/refs/heads/main/authentication/redis-authentication.yml
-  title: ''
-  type: Authentication
-  url: authentication/redis-authentication.yml
-- group: design
-  href: https://raw.githubusercontent.com/api-evangelist/redis/refs/heads/main/errors/redis-problem-types.yml
-  title: ''
-  type: ErrorCatalog
-  url: errors/redis-problem-types.yml
-- group: design
-  href: https://raw.githubusercontent.com/api-evangelist/redis/refs/heads/main/conformance/redis-conformance.yml
-  title: ''
-  type: Conformance
-  url: conformance/redis-conformance.yml
-- group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/redis/refs/heads/main/llms/redis-llms.txt
-  title: ''
-  type: LLMsTxt
-  url: llms/redis-llms.txt
-- group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/redis/refs/heads/main/mcp/redis-mcp.yml
-  title: ''
-  type: MCPServer
-  url: mcp/redis-mcp.yml
-- group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/redis/refs/heads/main/well-known/redis-security.txt
-  title: ''
-  type: SecurityTxt
-  url: well-known/redis-security.txt
-- group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/redis/refs/heads/main/well-known/redis-docs-security.txt
-  title: ''
-  type: SecurityTxt
-  url: well-known/redis-docs-security.txt
-- group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/redis/refs/heads/main/well-known/redis-well-known.yml
-  title: ''
-  type: WellKnown
-  url: well-known/redis-well-known.yml
-- group: other
-  href: https://raw.githubusercontent.com/api-evangelist/redis/refs/heads/main/hosts/redis-hosts.yml
-  title: ''
-  type: Hosts
-  url: hosts/redis-hosts.yml
-- group: other
-  href: https://raw.githubusercontent.com/api-evangelist/redis/refs/heads/main/vendors/redis-vendors.yml
-  title: ''
-  type: Vendors
-  url: vendors/redis-vendors.yml
-- group: build
-  href: https://raw.githubusercontent.com/api-evangelist/redis/refs/heads/main/packages/redis-packages.yml
-  title: ''
-  type: Packages
-  url: packages/redis-packages.yml
-- group: auth
-  title: ''
-  type: Security
-  url: https://redis.io/security/notice-apache-log4j2-cve-2021-44228/
-- group: commercial
-  title: ''
-  type: Pricing
-  url: https://redis.io/pricing/
-- group: company
-  title: ''
-  type: Newsroom
-  url: https://redis.io/company/news/
-- group: start
-  title: ''
-  type: Login
-  url: https://redis.io/login/
-- group: other
-  title: ''
-  type: Leadership
-  url: https://redis.io/company/team/
-- group: operate
-  title: ''
-  type: ChangeLog
-  url: https://redis.io/docs/latest/develop/whats-new/
-- group: docs
-  title: ''
-  type: APIReference
-  url: https://redis.io/docs/latest/develop/reference/
-- group: start
-  title: ''
-  type: GettingStarted
-  url: https://redis.io/docs/latest/operate/rc/rc-quickstart/index.html
+  type: FinOps
+  url: finops/redis-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/redis/refs/heads/main/security/redis-trust-center.yml
   title: ''
@@ -396,17 +275,6 @@ common:
   title: ''
   type: LlmsText
   url: https://redis.io/llms.txt
-coverage:
-  detail: the company publishes developer documentation but serves no machine-readable contract from it
-  evidence:
-  - status: null
-    url: https://redis.io/mcp
-  - status: 403
-    url: https://packages.redis.io/mcp
-  - status: 200
-    url: https://redis.io/
-  reason: no-machine-readable-spec
-  state: unreadable
 created: '2024-01-01'
 description: Redis is an open source, in-memory data structure store used as a database, cache, message broker, and streaming engine. It supports strings, hashes, lists, sets, sorted sets, streams, JSON, and more. Redis is used by millions of developers for caching, session management, leaderboards, pub/sub messaging, real-time analytics, and event streaming. The Redis project is governed by the Redis Community and maintained by Redis Inc.
 examples:
@@ -437,9 +305,13 @@ features:
 - OAuth + API keys
 - Open-source self-managed Redis OSS alternative
 finops:
-- name: Redis Finops
+- has_sources: true
+  method: generated
+  name: Redis Finops
+  primary_unit: ''
   service_category: Database / Cache
   slug: redis-finops
+  template: false
 image: https://redis.io/images/redis-logo.png
 json_schemas:
 - name: Redis Command
@@ -490,13 +362,13 @@ modified: '2026-05-04'
 name: Redis
 nav: Providers
 network: true
-overview: 'Redis publishes 28 APIs on the [APIs.io](https://apis.io/) network, including Account API, Actuator API, Agent Memory - Stores API, and 25 more. Tagged areas include Cache, Database, In-Memory, Key-Value Store, and NoSQL.
+overview: 'Redis publishes 28 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Actuator API, Agent Memory - Stores API, and 25 more. Tagged areas include Cache, Database, In-Memory, Key-Value Store, and NoSQL.
 
 
   The Redis catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Redis'' developer surface includes CLI, authentication, pricing, changelog, API reference, getting-started guide, documentation, and 42 more developer resources.'
+  Redis'' developer surface includes documentation, engineering blog, YouTube channel, support, and 19 more developer resources.'
 plans:
 - name: Redis Plans Pricing
   plan_count: 4
@@ -507,9 +379,10 @@ rate_limits:
   name: Redis Rate Limits
   slug: redis-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Redis API Rules
+  name: Redis — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -517,7 +390,8 @@ rules:
     info: 1
     warn: 4
   slug: redis-jsonschema-spectral-rules
-- effective_rule_count: 61
+- authorship: generated
+  effective_rule_count: 61
   extends:
   - spectral:oas
   name: Redis API Rules
@@ -529,24 +403,24 @@ rules:
     warn: 3
   slug: redis-rules
 score:
-  band: strong
-  composite: 59.4
+  band: developing
+  composite: 46.0
   coverage:
-    artifact_dirs: 29
-    catalog_earned: 64.0
+    artifact_dirs: 31
+    catalog_earned: 61.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 51.0
+    catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 18.8
+  delta: -19.2
   facets:
-    access_clarity: 76.3
+    access_clarity: 36.8
     contract_governance: 31.8
     contract_quality: 44.4
-    developer_ergonomics: 63.7
-    discoverability: 70.0
-    operational_transparency: 55.3
-  previous_composite: 40.6
+    developer_ergonomics: 54.8
+    discoverability: 66.7
+    operational_transparency: 28.9
+  previous_composite: 65.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -563,9 +437,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: rising
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

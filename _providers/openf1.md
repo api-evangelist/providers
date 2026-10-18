@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.0
-  scored_at: '2026-10-04'
+  score: 17.8
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -140,6 +140,21 @@ collections:
   name: OpenF1 API
   slug: open-openf1
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/openf1/refs/heads/main/plans/openf1-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/openf1-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/openf1/refs/heads/main/rate-limits/openf1-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/openf1-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/openf1/refs/heads/main/finops/openf1-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/openf1-finops.yml
 - group: company
   title: ''
   type: Website
@@ -177,9 +192,13 @@ common:
 created: '2025-02-06'
 description: OpenF1 is a free and open-source API providing real-time and historical Formula 1 data including car telemetry, lap timings, race control messages, weather, pit stops, team radio, and championship standings.
 finops:
-- name: Openf1 Finops
+- has_sources: false
+  method: generated
+  name: Openf1 Finops
+  primary_unit: ''
   service_category: API
   slug: openf1-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/openf1.png
 json_schemas:
 - name: OpenF1 Car Telemetry
@@ -204,13 +223,13 @@ modified: '2026-09-16'
 name: OpenF1
 nav: Providers
 network: true
-overview: 'OpenF1 publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Drivers API, Laps API, Meetings API, and 8 more. Tagged areas include Formula 1, Motorsports, Telemetry, Real-Time, and Sports.
+overview: 'OpenF1 publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Drivers API, Laps API, Meetings API, and 8 more. Tagged areas include Formula 1, Motorsports, Telemetry, Real-Time, and Sports.
 
 
   The OpenF1 catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  OpenF1''s developer surface includes documentation and 7 more developer resources.'
+  OpenF1''s developer surface includes documentation and 10 more developer resources.'
 plans:
 - name: Openf1 Plans Pricing
   plan_count: 3
@@ -221,9 +240,10 @@ rate_limits:
   name: Openf1 Rate Limits
   slug: openf1-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: OpenF1 API Rules
+  name: OpenF1 — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -232,18 +252,18 @@ rules:
     warn: 4
   slug: openf1-jsonschema-spectral-rules
 score:
-  band: emerging
-  composite: 25.4
+  band: thin
+  composite: 27.1
   coverage:
     artifact_dirs: 12
-    catalog_earned: 57.3
+    catalog_earned: 60.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 42.8
-    catalog_max: 100.0
+    catalog_gap: 54.8
+    catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.7
   facets:
-    access_clarity: 0.0
+    access_clarity: 7.9
     contract_governance: 9.8
     contract_quality: 50.9
     developer_ergonomics: 9.5
@@ -263,8 +283,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

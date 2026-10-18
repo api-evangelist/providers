@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'The FlashExpress Open API is the merchant-facing integration surface for Flash Express parcel logistics in Thailand. All calls are HTTPS POST with an application/x-www-form-urlencoded body and a JSON '
@@ -178,7 +178,7 @@ modified: '2026-08-12'
 name: Flash Express
 nav: Providers
 network: true
-overview: 'Flash Express publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Logistics, Shipping, Delivery, and Parcel Tracking.
+overview: 'Flash Express is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Logistics, Shipping, Delivery, and Parcel Tracking.
 
 
   The Flash Express catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -198,7 +198,7 @@ score:
   band: thin
   composite: 34.9
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -228,8 +228,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

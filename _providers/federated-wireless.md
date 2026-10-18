@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 6
 apis:
 - description: The external API of the Federated Wireless Spectrum Controller, the cloud platform that manages CBRS spectrum assignment, CBSD lifecycle, monitoring and compliance. The Spectrum Controller web applica
@@ -219,7 +219,7 @@ modified: '2026-08-12'
 name: Federated Wireless
 nav: Providers
 network: true
-overview: 'Federated Wireless publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Spectrum, CBRS, Wireless, and Telecommunications.
+overview: 'Federated Wireless is listed with 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Spectrum, CBRS, Wireless, and Telecommunications.
 
 
   Federated Wireless'' developer surface includes developer portal, support, engineering blog, signup flow, authentication, and 25 more developer resources.'
@@ -272,8 +272,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 35.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

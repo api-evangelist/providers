@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: 'Agent-native commerce surface for the honest.com Shopify storefront. Exposes a live Universal Commerce Protocol (UCP) shopping MCP endpoint for catalog search, cart, and buyer-approved checkout, plus '
@@ -120,7 +120,7 @@ modified: '2026-07-19'
 name: Honest Company
 nav: Providers
 network: true
-overview: 'Honest Company publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer Goods, E-Commerce, Retail, and Baby Care.
+overview: 'Honest Company is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer Goods, E-Commerce, Retail, and Baby Care.
 
 
   Honest Company''s developer surface includes signup flow, support, engineering blog, authentication, and 10 more developer resources.'
@@ -134,7 +134,7 @@ score:
   band: emerging
   composite: 24.6
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -166,8 +166,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 1
@@ -170,6 +170,14 @@ collections:
   name: AskUI access-tokens workspaces API
   slug: open-askui-workspaces-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.askui.com/blog/index.html
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.askui.com/rss.xml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/askui/refs/heads/main/capabilities/askui-capability-edges.yml
   title: ''
@@ -324,26 +332,26 @@ created: '2026-07-17'
 description: AskUI is a German (Karlsruhe-based) company building agentic test automation and computer-use agents for any interface. Its vision agents observe the screen, reason, and act — clicking, typing, and extracting data without DOM queries or brittle UI selectors — across Windows, macOS, Linux, Android, iOS, and embedded/HMI systems. The platform ships a Python Vision Agent SDK, a TypeScript SDK, the AskUI Suite (AgentOS runtime + AskUI Development Environment PowerShell CLI), and the AskUI Hub management console. Developers drive it programmatically through the AskUI Workspaces API — an OpenAPI 3.1 REST service for workspaces, agents, agent executions, access tokens, schedules, runs, files, usage, and billing. AskUI GmbH is ISO/IEC 27001:2022 certified and GDPR-aligned. Surfaced as a Seedcamp portfolio company and enriched into the API Evangelist network.
 image: https://files.askui.com/assets/logo/askui-logo-primary.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: AskUI
 nav: Providers
 network: true
-overview: 'AskUI publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Access Tokens API, Agent Executions API, Agents API, and 12 more. Tagged areas include Company, Test Automation, UI Automation, AI Agents, and Computer Use.
+overview: 'AskUI publishes 15 API contracts indexed on the [APIs.io](https://apis.io/) network, including Access Tokens API, Agent Executions API, Agents API, and 12 more. Tagged areas include Company, Test Automation, UI Automation, AI Agents, and Computer Use.
 
 
-  AskUI''s developer surface includes documentation, API reference, getting-started guide, quickstart, support, engineering blog, signup flow, and 26 more developer resources.'
+  AskUI''s developer surface includes engineering blog, documentation, API reference, getting-started guide, quickstart, support, signup flow, and 28 more developer resources.'
 random_paper: 13
 score:
   band: developing
-  composite: 41.5
+  composite: 41.6
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 35.5
     contract_governance: 4.5
@@ -359,12 +367,6 @@ score:
     regions:
     - dach
     - europe
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: no_resolvable_host
   previous_composite: 41.5
   provenance:
     agentic_access: derived
@@ -386,8 +388,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

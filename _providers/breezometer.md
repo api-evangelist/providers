@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 5
 apis:
 - description: Real-time and forecast air quality data with street-level accuracy, including pollutant levels (CO, NO2, O3, PM10, PM2.5, SO2), AQI scores, and health recommendations for any location worldwide.
@@ -109,16 +109,20 @@ common:
 created: '2026-06-13'
 description: Environmental intelligence REST API providing real-time and forecast air quality, pollen counts, wildfire data, and weather information with street-level accuracy. BreezoMeter was acquired by Google in September 2022 and its technology is now integrated into Google Maps Platform.
 finops:
-- name: Breezometer Finops
+- has_sources: false
+  method: generated
+  name: Breezometer Finops
+  primary_unit: ''
   service_category: ''
   slug: breezometer-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/breezometer.png
 layout: provider
 modified: '2026-06-13'
 name: BreezoMeter
 nav: Providers
 network: true
-overview: 'BreezoMeter publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Air Quality, Environment, Pollen, Wildfire, and Weather.
+overview: 'BreezoMeter is listed with 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Air Quality, Environment, Pollen, Wildfire, and Weather.
 
 
   BreezoMeter''s developer surface includes documentation, engineering blog, pricing, and 9 more developer resources.'
@@ -132,18 +136,18 @@ rate_limits:
   name: Breezometer Rate Limits
   slug: breezometer-rate-limits
 score:
-  band: emerging
-  composite: 14.5
+  band: minimal
+  composite: 8.9
   coverage:
     artifact_dirs: 8
-    catalog_earned: 53.8
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 61.2
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.6
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
@@ -156,9 +160,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

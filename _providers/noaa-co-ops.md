@@ -26,13 +26,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: false
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-04'
+  score: 20.0
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -190,21 +190,6 @@ common:
   title: ''
   type: StatusPage
   url: https://tidesandcurrents.noaa.gov/
-- group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/noaa-co-ops/refs/heads/main/plans/free.md
-  title: ''
-  type: Plans
-  url: /plans/free.md
-- group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/noaa-co-ops/refs/heads/main/rate-limits/rate-limits.md
-  title: ''
-  type: RateLimits
-  url: /rate-limits/rate-limits.md
-- group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/noaa-co-ops/refs/heads/main/finops/finops.md
-  title: ''
-  type: FinOps
-  url: /finops/finops.md
 - group: docs
   href: https://raw.githubusercontent.com/api-evangelist/noaa-co-ops/refs/heads/main/json-schema/data-point.json
   title: ''
@@ -286,18 +271,19 @@ modified: '2026-06-13'
 name: NOAA CO-OPS
 nav: Providers
 network: true
-overview: 'NOAA CO-OPS publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Benchmarks API, Datagetter API, Extremewaterlevels API, and 10 more. Tagged areas include NOAA, Tides, Currents, Oceanographic, and Water Level.
+overview: 'NOAA CO-OPS publishes 13 API contracts indexed on the [APIs.io](https://apis.io/) network, including Benchmarks API, Datagetter API, Extremewaterlevels API, and 10 more. Tagged areas include NOAA, Tides, Currents, Oceanographic, and Water Level.
 
 
   The NOAA CO-OPS catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  NOAA CO-OPS''s developer surface includes developer portal, documentation, code examples, and 19 more developer resources.'
+  NOAA CO-OPS''s developer surface includes developer portal, documentation, code examples, and 16 more developer resources.'
 random_paper: 19
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: NOAA CO-OPS API Rules
+  name: NOAA CO-OPS — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -307,7 +293,7 @@ rules:
   slug: noaa-co-ops-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 30.7
+  composite: 30.6
   coverage:
     artifact_dirs: 14
     catalog_earned: 47.8
@@ -315,7 +301,7 @@ score:
     catalog_gap: 67.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 10.5
     contract_governance: 23.5
@@ -337,8 +323,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 14.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

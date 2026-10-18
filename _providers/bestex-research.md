@@ -23,10 +23,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.bestexresearch.com/insight/articles
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/bestex-research/refs/heads/main/hosts/bestex-research-hosts.yml
   title: ''
@@ -86,32 +90,34 @@ created: '2026-09-27'
 description: BestEx Research provides independent, research-driven execution algorithms, trading technology, and trade analytics built on rigorous market microstructure research across equities and futures. Serving asset managers, hedge funds, banks, and brokers, it offers end‑to‑end global execution platforms and AI‑powered market impact models to optimize execution costs and improve trading performance.
 image: https://cdn.prod.website-files.com/63c8555b3d6b34a2c0620e39/63fe708e9a8ee16724148e17_home-featured-image.webp
 layout: provider
-modified: '2026-09-27'
+modified: '2026-10-06'
 name: BestEx Research
 nav: Providers
 network: true
 overview: 'BestEx Research is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Finance, Trading, Algorithms, Analytics, and Research.
 
 
-  BestEx Research''s developer surface includes support, getting-started guide, and 9 more developer resources.'
+  BestEx Research''s developer surface includes engineering blog, support, getting-started guide, and 9 more developer resources.'
 random_paper: 1
 score:
   band: emerging
-  composite: 14.7
+  composite: 15.2
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 9
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.5
   facets:
     access_clarity: 34.2
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 16.7
+    developer_ergonomics: 19.0
     discoverability: 50.0
     operational_transparency: 5.3
+  previous_composite: 14.7
   provenance:
     mcp: unknown
   regulatory:
@@ -120,12 +126,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 13.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/bestex-research/refs/heads/main/screenshots/bestex-research-2026-10-11T101941.png
 security:
 - kind: domain-security
   name: Bestex Research Domain Security

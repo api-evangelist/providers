@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.0
-  scored_at: '2026-10-04'
+  score: 21.1
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -134,6 +134,21 @@ collections:
   name: DatoCMS Content Management Environments Webhooks API
   slug: open-datocms-webhooks-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/datocms/refs/heads/main/plans/datocms-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/datocms-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/datocms/refs/heads/main/rate-limits/datocms-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/datocms-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/datocms/refs/heads/main/finops/datocms-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/datocms-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/datocms/refs/heads/main/capabilities/datocms-capability-edges.yml
   title: ''
@@ -225,9 +240,13 @@ common:
 created: '2025-01-08'
 description: DatoCMS is a headless content management system that enables users to create, manage, and deliver digital content across websites, mobile apps, and other digital experiences. The platform exposes a JSON:API-based Content Management API for content and schema, and a CDN-fronted GraphQL Content Delivery API for read-heavy client applications.
 finops:
-- name: Datocms Finops
+- has_sources: false
+  method: generated
+  name: Datocms Finops
+  primary_unit: ''
   service_category: API
   slug: datocms-finops
+  template: true
 graphqls:
 - description: The DatoCMS Content Delivery API is a CDN-fronted GraphQL endpoint optimized for low-latency reads of published content from client applications such as Jamstack and SSR sites.
   name: DatoCMS GraphQL API
@@ -247,13 +266,13 @@ modified: '2026-05-19'
 name: DatoCMS
 nav: Providers
 network: true
-overview: 'DatoCMS publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Environments API, Fields API, Item Types API, and 5 more. Tagged areas include CMS, Content Delivery, Content Management, GraphQL, and Headless CMS.
+overview: 'DatoCMS publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Environments API, Fields API, Item Types API, and 5 more. Tagged areas include CMS, Content Delivery, Content Management, GraphQL, and Headless CMS.
 
 
   The DatoCMS catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  DatoCMS''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, GitHub presence, support, and 13 more developer resources.'
+  DatoCMS''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, GitHub presence, support, and 16 more developer resources.'
 plans:
 - name: Datocms Plans Pricing
   plan_count: 3
@@ -264,9 +283,10 @@ rate_limits:
   name: Datocms Rate Limits
   slug: datocms-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: DatoCMS API Rules
+  name: DatoCMS — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -274,7 +294,8 @@ rules:
     info: 1
     warn: 4
   slug: datocms-jsonschema-spectral-rules
-- effective_rule_count: 46
+- authorship: unmarked
+  effective_rule_count: 46
   extends:
   - spectral:oas
   name: DatoCMS API Rules
@@ -287,17 +308,17 @@ rules:
   slug: datocms-rules
 score:
   band: developing
-  composite: 41.5
+  composite: 40.0
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 65.4
+    artifact_dirs: 20
+    catalog_earned: 62.4
     catalog_earned_first_party: 0.0
-    catalog_gap: 49.6
+    catalog_gap: 52.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 32.9
+    access_clarity: 25.0
     contract_governance: 27.3
     contract_quality: 55.0
     developer_ergonomics: 36.2
@@ -317,8 +338,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

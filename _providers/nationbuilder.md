@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 108
   human_in_the_loop: 0
@@ -527,7 +527,7 @@ modified: '2026-07-20'
 name: NationBuilder
 nav: Providers
 network: true
-overview: 'NationBuilder publishes 41 APIs on the [APIs.io](https://apis.io/) network, including Async Processes API, Automation Enrollments API, Automations API, and 38 more. Tagged areas include Community Organizing, CRM, Political, Non-Profit, and Fundraising.
+overview: 'NationBuilder publishes 41 API contracts indexed on the [APIs.io](https://apis.io/) network, including Async Processes API, Automation Enrollments API, Automations API, and 38 more. Tagged areas include Community Organizing, CRM, Political, Non-Profit, and Fundraising.
 
 
   NationBuilder''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, signup flow, changelog, and 24 more developer resources.'
@@ -545,15 +545,15 @@ rate_limits:
   slug: nationbuilder-rate-limits
 score:
   band: strong
-  composite: 61.7
+  composite: 61.8
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 57.0
     catalog_earned_first_party: 20.0
     catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.1
   facets:
     access_clarity: 76.3
     contract_governance: 18.2
@@ -561,7 +561,7 @@ score:
     developer_ergonomics: 58.9
     discoverability: 73.2
     operational_transparency: 63.2
-  previous_composite: 61.2
+  previous_composite: 61.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -578,8 +578,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

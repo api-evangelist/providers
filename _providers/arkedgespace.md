@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Ground station reservation service API for ArkEdge Space satellites.
@@ -31,6 +31,10 @@ apis:
   slug: clover-api
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://arkedgespace.com/feed
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/arkedgespace/refs/heads/main/llms/arkedgespace-llms.txt
   title: ''
@@ -90,22 +94,23 @@ created: '2026-09-26'
 description: ArkEdge Space is a Japanese satellite technology company developing low‑Earth‑orbit positioning, navigation and timing (LEO‑PNT) services, maritime communication, lunar infrastructure and deep‑space exploration capabilities. It builds its own satellites, onboard computers and ground‑segment solutions to empower safe, connected futures for people and industries worldwide.
 image: https://arkedgespace.com/wp-content/uploads/2023/11/eyecatch_common_1-1-1.png
 layout: provider
-modified: '2026-09-26'
+modified: '2026-10-06'
 name: Arkedgespace
 nav: Providers
 network: true
-overview: Arkedgespace publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Satellite, SpaceTech, LEO, and Navigation.
+overview: Arkedgespace is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Satellite, SpaceTech, LEO, and Navigation.
 random_paper: 15
 score:
   band: minimal
-  composite: 8.5
+  composite: 8.6
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 8
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.1
   facets:
     access_clarity: 10.5
     contract_governance: 0.0
@@ -118,6 +123,7 @@ score:
     countries:
     - japan
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 8.5
   provenance:
     mcp: unknown
   regulatory:
@@ -126,12 +132,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 9.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/arkedgespace/refs/heads/main/screenshots/arkedgespace-2026-10-11T100318.png
 security:
 - kind: domain-security
   name: Arkedgespace Domain Security

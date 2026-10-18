@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'Cloud-based REST API for controlling Sonos players and groups: playback, volume, grouping, favorites, playlists, home theater, audio clips, and cloud-queue playback sessions, with OAuth 2.0 auth and e'
@@ -45,6 +45,10 @@ asyncapis:
   name: Sonos Events Webhooks
   slug: sonos-events-webhooks
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.sonos.com/en-us/blog
 - group: company
   title: ''
   type: Website
@@ -145,17 +149,17 @@ created: '2026-07-17'
 description: Sonos is a consumer audio company whose wireless home-sound systems are controlled programmatically through the Sonos Control API — a cloud-based REST API that lets third-party integrations discover a household's players and groups and drive playback, volume, grouping, favorites, playlists, home theater options, audio clips, and cloud-queue sessions. The API authenticates with OAuth 2.0 (authorization code grant) using the single playback-control-all scope, is organized into per-resource namespaces (households, groups, groupVolume, playback, playbackMetadata, playbackSession, playerVolume, favorites, playlists, audioClip, homeTheater), and delivers real-time state through an event-subscription (webhook callback) model.
 image: https://www.sonos.com/apple-touch-icon.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Sonos
 nav: Providers
 network: true
-overview: 'Sonos publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Audio, Music, and Smart Home.
+overview: 'Sonos is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Audio, Music, and Smart Home.
 
 
   The Sonos catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Sonos'' developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, and 15 more developer resources.'
+  Sonos'' developer surface includes engineering blog, documentation, API reference, getting-started guide, signup flow, support, authentication, and 15 more developer resources.'
 random_paper: 12
 scopes:
 - name: Sonos Scopes
@@ -164,20 +168,20 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: thin
-  composite: 30.8
+  composite: 31.3
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 6.6
     contract_governance: 4.5
     contract_quality: 39.0
-    developer_ergonomics: 37.5
+    developer_ergonomics: 39.9
     discoverability: 66.1
     operational_transparency: 26.3
   previous_composite: 30.8
@@ -191,8 +195,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://fincompare.de/feed
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/fincompare/refs/heads/main/security/fincompare-domain-security.yml
   title: ''
@@ -69,20 +73,20 @@ created: '2026-07-17'
 description: Fincompare (now operating under the Fynbiz brand alongside Compeon) is a Berlin-based digital financing marketplace for small and medium-sized enterprises. Founded in 2017, the platform lets businesses request, compare, and close financing offers from 100+ banks and alternative lenders in one place, covering business loans, leasing, factoring, goods and warehouse financing, real-estate financing, and revenue-based financing. Fincompare connects lenders such as ING, VR Smart Finanz, and iwoca directly through bank API integrations to automate credit decisions. The company was acquired by a consortium of DZ Bank, several Volksbanken, and Atruvia in 2021. Fincompare operates a customer-facing SME financing product; it does not publish a public developer API or documentation surface.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fincompare.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Fincompare
 nav: Providers
 network: true
 overview: 'Fincompare is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financing, SME Lending, Fintech, and Loans.
 
 
-  Fincompare''s developer surface includes signup flow, support, and 5 more developer resources.'
+  Fincompare''s developer surface includes signup flow, support, and 6 more developer resources.'
 random_paper: 4
 score:
   band: emerging
   composite: 11.2
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -111,8 +115,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 11.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

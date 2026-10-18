@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 5
 apis:
 - description: 'A model by Leonard Richardson that breaks down the maturity of a RESTful API into four levels: Level 0 (The Swamp of POX), Level 1 (Resources), Level 2 (HTTP Verbs), and Level 3 (Hypermedia Controls /'
@@ -53,6 +53,21 @@ apis:
   slug: http-rfc-9110
 artifact_total: 13
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/restful/refs/heads/main/plans/restful-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/restful-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/restful/refs/heads/main/rate-limits/restful-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/restful-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/restful/refs/heads/main/finops/restful-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/restful-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/restful/refs/heads/main/security/restful-domain-security.yml
   title: ''
@@ -77,9 +92,13 @@ common:
 created: '2025-01-01'
 description: 'Representational State Transfer (REST) is an architectural style for designing networked applications using stateless HTTP communication and uniform interfaces. RESTful describes systems and APIs that conform to the REST constraints: client-server separation, statelessness, cacheability, layered system, uniform interface, and (optionally) code-on-demand. This index covers the RESTful design paradigm including maturity models, API design patterns, documentation formats, and key reference implementations.'
 finops:
-- name: Restful Finops
+- has_sources: false
+  method: generated
+  name: Restful Finops
+  primary_unit: ''
   service_category: API
   slug: restful-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/restful.png
 json_schemas:
 - name: RESTful API Description
@@ -99,7 +118,7 @@ modified: '2026-05-02'
 name: RESTful
 nav: Providers
 network: true
-overview: 'RESTful publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Architecture, HTTP, and Web Services.
+overview: 'RESTful is listed with 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Architecture, HTTP, and Web Services.
 
 
   The RESTful catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.'
@@ -113,9 +132,10 @@ rate_limits:
   name: Restful Rate Limits
   slug: restful-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: RESTful API Rules
+  name: RESTful — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -125,17 +145,17 @@ rules:
   slug: restful-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 14.6
+  composite: 13.1
   coverage:
     artifact_dirs: 11
-    catalog_earned: 50.3
+    catalog_earned: 47.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 64.8
+    catalog_gap: 67.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 9.8
     contract_quality: 10.7
     developer_ergonomics: 9.5
@@ -148,8 +168,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

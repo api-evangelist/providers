@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 60
+- acting_count: 59
   human_in_the_loop: 4
   name: Resemble Ai Agentic Access
   operation_count: 112
   slug: resemble-ai-agentic-access
-  summary_line: 112 operations · 60 acting · 4 human-in-the-loop
+  summary_line: 112 operations · 59 acting · 4 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://api.resemble.ai
@@ -325,16 +325,20 @@ common:
 created: '2026-05-08'
 description: Resemble AI is a voice cloning, TTS, voice conversion, and voice agent platform. The Resemble REST API at https://api.resemble.ai exposes synchronous synthesis, HTTP streaming, WebSocket streaming, voice creation/cloning/design, speech-to-speech conversion, speech-to-text, audio editing, deepfake detection/watermarking, and AI agents with knowledge bases. Public OpenAPI 3.1 published.
 finops:
-- name: Resemble Ai Finops
+- has_sources: true
+  method: generated
+  name: Resemble Ai Finops
+  primary_unit: ''
   service_category: AI
   slug: resemble-ai-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/resemble-ai.png
 layout: provider
 modified: '2026-05-19'
 name: Resemble AI
 nav: Providers
 network: true
-overview: 'Resemble AI publishes 26 APIs on the [APIs.io](https://apis.io/) network, including Subpackage Account API, Subpackage Agent Knowledge Base API, Subpackage Agent Phone Numbers API, and 23 more. Tagged areas include Artificial Intelligence, Voice, TTS, Voice Cloning, and Voice Conversion.
+overview: 'Resemble AI publishes 26 API contracts indexed on the [APIs.io](https://apis.io/) network, including Subpackage Account API, Subpackage Agent Knowledge Base API, Subpackage Agent Phone Numbers API, and 23 more. Tagged areas include Artificial Intelligence, Voice, TTS, Voice Cloning, and Voice Conversion.
 
 
   Resemble AI''s developer surface includes authentication, documentation, and 11 more developer resources.'
@@ -349,17 +353,17 @@ rate_limits:
   slug: resemble-ai-rate-limits
 score:
   band: thin
-  composite: 33.1
+  composite: 31.1
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 44.0
+    artifact_dirs: 12
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 71.0
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.0
   facets:
-    access_clarity: 44.7
+    access_clarity: 36.8
     contract_governance: 0.0
     contract_quality: 49.0
     developer_ergonomics: 21.4
@@ -375,12 +379,12 @@ score:
       total: 26
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
-    score: 15.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
+    score: 14.9
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

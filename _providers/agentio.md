@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Agentio's hosted, remote Model Context Protocol server. A brand adds https://mcp.agentio.com/mcp to any MCP client (Claude, ChatGPT, or any other custom-connector host), authorizes over OAuth 2.1, and
@@ -167,7 +167,7 @@ modified: '2026-08-12'
 name: Agentio
 nav: Providers
 network: true
-overview: 'Agentio publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AdTech, Advertising, Creator Economy, and Influencer Marketing.
+overview: 'Agentio is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AdTech, Advertising, Creator Economy, and Influencer Marketing.
 
 
   Agentio''s developer surface includes engineering blog, support, documentation, getting-started guide, signup flow, authentication, and 19 more developer resources.'
@@ -189,7 +189,7 @@ score:
   band: thin
   composite: 31.3
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -220,8 +220,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 36.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

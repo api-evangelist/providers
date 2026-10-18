@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://sdsa.ai/blog/
 - group: company
   title: ''
   type: Website
@@ -49,28 +53,31 @@ created: '2026-07-17'
 description: '/dev/agents (homepage sdsa.ai) is building a next-generation operating system for AI agents - a cloud platform, developer tools, and new UI primitives meant to let autonomous agents coordinate work across a user''s apps and devices instead of people navigating individual applications. It was founded in 2024 by David Singleton (former Stripe CTO and Google Android VP of Engineering), Hugo Barra, Ficus Kirkpatrick, and Nicholas Jitkoff, and raised a $56M seed round at a $500M valuation led by Index Ventures with CapitalG and Conviction. As of this profile the company is pre-launch: it publishes no public API, SDK, or developer documentation yet, so this API Evangelist entry captures verified company identity and domain posture only.'
 image: https://sdsa.ai/social_card.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: /dev/agents
 nav: Providers
 network: true
-overview: /dev/agents is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Ml, AI Agents, Agent Operating System, and Autonomous Agents.
+overview: '/dev/agents is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, Agent Operating System, and Autonomous Agents.
+
+
+  /dev/agents'' developer surface includes engineering blog and 2 more developer resources.'
 random_paper: 16
 score:
   band: minimal
-  composite: 3.3
+  composite: 3.9
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 48.2
     operational_transparency: 0.0
   previous_composite: 3.3
@@ -80,8 +87,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -96,11 +103,10 @@ security:
 slug: dev-agents
 tags:
 - Company
-- Ai Ml
+- Artificial Intelligence
 - AI Agents
 - Agent Operating System
 - Autonomous Agents
 - Developer Platform
-- Artificial Intelligence
 website: https://sdsa.ai
 ---

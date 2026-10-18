@@ -33,10 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://freetrade.io/news/rss.xml
 - group: company
   title: ''
   type: Website
@@ -145,18 +149,18 @@ description: Freetrade is a UK retail investment platform, founded in 2018 and h
   web platform but has introspection disabled and no published schema or terms for third-party use — so its machine-readable public surface is a hand-curated llms.txt at freetrade.io/llms.txt plus an Intercom-hosted help-centre llms.txt.
 image: https://cdn.prod.website-files.com/66289cd2c30bc8d40bd60733/66d57108811c51c4ec028669_f2cae9e0047401c7c4b8b8ef268df408_og-image_default.jpg
 layout: provider
-modified: '2026-08-04'
+modified: '2026-10-06'
 name: Freetrade
 nav: Providers
 network: true
 overview: 'Freetrade is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Investing, Stock Trading, Brokerage, and Financial Services.
 
 
-  Freetrade''s developer surface includes engineering blog, product news, changelog, pricing, signup flow, support, and 18 more developer resources.'
+  Freetrade''s developer surface includes engineering blog, product news, changelog, pricing, signup flow, support, and 19 more developer resources.'
 random_paper: 0
 score:
   band: emerging
-  composite: 22.3
+  composite: 22.4
   coverage:
     artifact_dirs: 9
     catalog_earned: 27.0
@@ -164,7 +168,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 52.6
     contract_governance: 18.2
@@ -193,8 +197,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 22.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

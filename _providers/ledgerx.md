@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - baseURL: https://api.ledgerx.com
@@ -154,7 +154,7 @@ modified: '2026-07-19'
 name: LedgerX (MIAX Derivatives Exchange)
 nav: Providers
 network: true
-overview: 'LedgerX (MIAX Derivatives Exchange) publishes 2 APIs on the [APIs.io](https://apis.io/) network, including MIAXdx Market Data and Account API, and 1 more. Tagged areas include Company, Enterprise, Financial Services, Derivatives, and Trading.
+overview: 'LedgerX (MIAX Derivatives Exchange) is listed with 2 APIs on the [APIs.io](https://apis.io/) network, including MIAXdx Market Data and Account API, and 1 more. Tagged areas include Company, Enterprise, Financial Services, Derivatives, and Trading.
 
 
   The LedgerX (MIAX Derivatives Exchange) catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -193,8 +193,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 20.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

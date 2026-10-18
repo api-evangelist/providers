@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'Partner API for programmable multi-asset banking: Accounts, Address, Balance, Crypto, Documents, FX, Return, RFI, Sandbox, Statement, Transactions, and Transfer resources, plus real-time signed webhoo'
@@ -150,7 +150,7 @@ modified: '2026-07-20'
 name: Pave Bank
 nav: Providers
 network: true
-overview: 'Pave Bank publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Banking, Payments, and Digital Assets.
+overview: 'Pave Bank is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Banking, Payments, and Digital Assets.
 
 
   The Pave Bank catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -162,7 +162,7 @@ score:
   band: thin
   composite: 38.5
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -185,8 +185,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 20.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

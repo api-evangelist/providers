@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Single GraphQL API for the Edvisor.io education-recruitment platform, covering students, quotes, school offerings, enrollments, invoices, and agency/school company management. Bearer API-key authentic
@@ -186,7 +186,7 @@ modified: '2026-07-19'
 name: Edvisor.io
 nav: Providers
 network: true
-overview: 'Edvisor.io publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, Student Recruitment, International Education, and EdTech.
+overview: 'Edvisor.io is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, Student Recruitment, International Education, and EdTech.
 
 
   The Edvisor.io catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -227,8 +227,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

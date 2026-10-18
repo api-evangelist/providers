@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.4
-  scored_at: '2026-10-04'
+  score: 22.2
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -70,6 +70,21 @@ collections:
   name: The Open Movie Database API
   slug: open-the-open-movie-database
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/the-open-movie-database/refs/heads/main/plans/the-open-movie-database-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/the-open-movie-database-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/the-open-movie-database/refs/heads/main/rate-limits/the-open-movie-database-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/the-open-movie-database-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/the-open-movie-database/refs/heads/main/finops/the-open-movie-database-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/the-open-movie-database-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/the-open-movie-database/refs/heads/main/agentic-access/the-open-movie-database-agentic-access.yml
   title: ''
@@ -112,9 +127,13 @@ examples:
   name: The Open Movie Database Get Movie Example
   slug: the-open-movie-database-get-movie-example
 finops:
-- name: The Open Movie Database Finops
+- has_sources: false
+  method: generated
+  name: The Open Movie Database Finops
+  primary_unit: ''
   service_category: API
   slug: the-open-movie-database-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/the-open-movie-database.png
 json_schemas:
 - name: OMDb Movie
@@ -134,13 +153,13 @@ modified: '2026-05-19'
 name: The Open Movie Database
 nav: Providers
 network: true
-overview: 'The Open Movie Database publishes 2 APIs on the [APIs.io](https://apis.io/) network: Movies API and Search API. Tagged areas include Entertainment, Movies, Television, IMDb, and Metadata.
+overview: 'The Open Movie Database publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Movies API and Search API. Tagged areas include Entertainment, Movies, Television, IMDb, and Metadata.
 
 
   The The Open Movie Database catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  The Open Movie Database''s developer surface includes authentication, documentation, signup flow, and 5 more developer resources.'
+  The Open Movie Database''s developer surface includes authentication, documentation, signup flow, and 8 more developer resources.'
 plans:
 - name: The Open Movie Database Plans Pricing
   plan_count: 3
@@ -151,9 +170,10 @@ rate_limits:
   name: The Open Movie Database Rate Limits
   slug: the-open-movie-database-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: The Open Movie Database API Rules
+  name: The Open Movie Database — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -161,7 +181,8 @@ rules:
     info: 2
     warn: 3
   slug: the-open-movie-database-jsonschema-spectral-rules
-- effective_rule_count: 9
+- authorship: unmarked
+  effective_rule_count: 9
   extends: []
   name: The Open Movie Database API Rules
   rule_count: 9
@@ -173,17 +194,17 @@ rules:
   slug: the-open-movie-database-rules
 score:
   band: thin
-  composite: 39.2
+  composite: 37.6
   coverage:
     artifact_dirs: 16
-    catalog_earned: 67.2
+    catalog_earned: 64.2
     catalog_earned_first_party: 0.0
-    catalog_gap: 47.9
+    catalog_gap: 50.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 39.5
+    access_clarity: 31.6
     contract_governance: 23.5
     contract_quality: 61.7
     developer_ergonomics: 21.4
@@ -203,8 +224,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

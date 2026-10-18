@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.0
-  scored_at: '2026-10-04'
+  score: 19.2
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -159,9 +159,13 @@ examples:
   name: Narvar Create Order Example
   slug: narvar-create-order-example
 finops:
-- name: Narvar Finops
+- has_sources: false
+  method: generated
+  name: Narvar Finops
+  primary_unit: ''
   service_category: ''
   slug: narvar-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/narvar.png
 json_schemas:
 - name: NarvarOrder
@@ -177,7 +181,7 @@ modified: '2026-06-12'
 name: Narvar
 nav: Providers
 network: true
-overview: 'Narvar publishes 3 APIs on the [APIs.io](https://apis.io/) network, including Orders API, and 2 more. Tagged areas include Post-Purchase, Order Tracking, Delivery Notifications, Returns, and E-Commerce.
+overview: 'Narvar publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network, including Orders API, and 2 more. Tagged areas include Post-Purchase, Order Tracking, Delivery Notifications, Returns, and E-Commerce.
 
 
   The Narvar catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -194,9 +198,10 @@ rate_limits:
   name: Narvar Rate Limits
   slug: narvar-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: Narvar API Rules
+  name: Narvar — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -205,24 +210,24 @@ rules:
     warn: 5
   slug: narvar-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 45.5
+  band: thin
+  composite: 38.1
   coverage:
-    artifact_dirs: 16
-    catalog_earned: 82.1
+    artifact_dirs: 18
+    catalog_earned: 66.2
     catalog_earned_first_party: 0.0
-    catalog_gap: 32.9
+    catalog_gap: 48.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -3.6
+  delta: -7.4
   facets:
-    access_clarity: 44.2
+    access_clarity: 15.8
     contract_governance: 23.5
     contract_quality: 64.7
     developer_ergonomics: 23.8
     discoverability: 66.1
-    operational_transparency: 29.5
-  previous_composite: 49.1
+    operational_transparency: 15.8
+  previous_composite: 45.5
   provenance:
     agentic_access: derived
     contracts:
@@ -236,9 +241,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 22.2

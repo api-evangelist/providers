@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.8
-  scored_at: '2026-10-04'
+  score: 23.6
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -60,6 +60,21 @@ collections:
   name: 2020 Police Brutality API
   slug: open-2020-police-brutality
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/2020-police-brutality/refs/heads/main/plans/2020-police-brutality-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/2020-police-brutality-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/2020-police-brutality/refs/heads/main/rate-limits/2020-police-brutality-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/2020-police-brutality-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/2020-police-brutality/refs/heads/main/finops/2020-police-brutality-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/2020-police-brutality-finops.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -126,9 +141,13 @@ features:
 - description: MIT licensed open dataset available for public use
   name: Open Data
 finops:
-- name: 2020 Police Brutality Finops
+- has_sources: false
+  method: generated
+  name: 2020 Police Brutality Finops
+  primary_unit: ''
   service_category: API
   slug: 2020-police-brutality-finops
+  template: true
 image: /assets/icons/2020-police-brutality.png
 json_schemas:
 - name: IncidentCollection
@@ -154,13 +173,13 @@ modified: '2026-05-19'
 name: 2020 Police Brutality
 nav: Providers
 network: true
-overview: '2020 Police Brutality publishes 1 API on the [APIs.io](https://apis.io/) network: Incidents API. Tagged areas include Brutality, Civil Rights, Policing, and Public Data.
+overview: '2020 Police Brutality is listed with 1 API on the [APIs.io](https://apis.io/) network: Incidents API. Tagged areas include Brutality, Civil Rights, Policing, and Public Data.
 
 
   The 2020 Police Brutality catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  2020 Police Brutality''s developer surface includes documentation and 9 more developer resources.'
+  2020 Police Brutality''s developer surface includes documentation and 12 more developer resources.'
 plans:
 - name: 2020 Police Brutality Plans Pricing
   plan_count: 3
@@ -171,9 +190,10 @@ rate_limits:
   name: 2020 Police Brutality Rate Limits
   slug: 2020-police-brutality-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: 2020 Police Brutality API Rules
+  name: 2020 Police Brutality — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -181,7 +201,8 @@ rules:
     info: 1
     warn: 4
   slug: 2020-police-brutality-jsonschema-spectral-rules
-- effective_rule_count: 64
+- authorship: generated
+  effective_rule_count: 64
   extends:
   - spectral:oas
   name: 2020 Police Brutality API Rules
@@ -194,17 +215,17 @@ rules:
   slug: 2020-police-brutality-spectral-rules
 score:
   band: emerging
-  composite: 22.7
+  composite: 24.0
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 64.0
+    artifact_dirs: 14
+    catalog_earned: 67.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 36.0
-    catalog_max: 100.0
+    catalog_gap: 48.0
+    catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.3
   facets:
-    access_clarity: 0.0
+    access_clarity: 7.9
     contract_governance: 27.3
     contract_quality: 26.7
     developer_ergonomics: 9.5
@@ -227,8 +248,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 4.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

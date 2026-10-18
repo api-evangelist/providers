@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://workforcesoftware.com/feed/
 - group: company
   title: ''
   type: Website
@@ -87,14 +91,14 @@ created: '2026-07-17'
 description: WorkForce Software, an ADP company since October 2024, makes the WorkForce Suite, an enterprise workforce management platform covering time and attendance, employee scheduling, absence and leave management, labor forecasting, data capture, and payroll compliance for large, complex organizations. The Suite integrates with leading HCM and ERP systems (SAP, Oracle, Workday, ADP) via RESTful APIs, SOAP APIs, and file-based interfaces, with SSO/SLO and MFA support; API and integration documentation is provided to customers through the WorkForce Software community portal rather than a public developer portal.
 image: https://workforcesoftware.com/wp-content/uploads/2025/06/cropped-wf-adp-favicon-1-192x192.webp
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: WorkForce Software
 nav: Providers
 network: true
 overview: 'WorkForce Software is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Workforce Management, Time and Attendance, Scheduling, and Absence Management.
 
 
-  WorkForce Software''s developer surface includes documentation, support, engineering blog, and 8 more developer resources.'
+  WorkForce Software''s developer surface includes documentation, support, engineering blog, and 9 more developer resources.'
 random_paper: 6
 score:
   band: emerging
@@ -123,8 +127,8 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 18.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

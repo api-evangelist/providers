@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: First-party GraphQL API powering Drip Shop Live's livestream shopping clients — streams, auctions, box breaks, giveaways, catalog, carts, orders, payments and messaging. 268 queries, 283 mutations, 56
@@ -41,6 +41,10 @@ apis:
   slug: drip-shop-live-graphql-api
 artifact_total: 4
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.dripshop.live/blog/
 - group: docs
   href: https://raw.githubusercontent.com/api-evangelist/dripshop/refs/heads/main/graphql/dripshop-schema.graphql
   title: ''
@@ -105,31 +109,31 @@ graphqls:
   slug: dripshop-graphql
 image: https://cdn.dripshop.live/images/mini_app_hero.jpg
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Dripshop
 nav: Providers
 network: true
-overview: 'Dripshop publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Live Shopping, Collectibles, Trading Cards, and Marketplace.
+overview: 'Dripshop is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Live Shopping, Collectibles, Trading Cards, and Marketplace.
 
 
-  Dripshop''s developer surface includes authentication, support, getting-started guide, and 9 more developer resources.'
+  Dripshop''s developer surface includes engineering blog, authentication, support, getting-started guide, and 9 more developer resources.'
 random_paper: 15
 score:
   band: emerging
-  composite: 23.6
+  composite: 24.1
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 13
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 0.0
     contract_governance: 4.5
     contract_quality: 35.1
-    developer_ergonomics: 38.1
+    developer_ergonomics: 40.5
     discoverability: 73.2
     operational_transparency: 0.0
   previous_composite: 23.6
@@ -142,8 +146,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 15.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

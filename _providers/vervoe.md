@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 4
 apis:
 - description: Retrieve the assessments available to an employer - both content the employer has authored and items selected from Vervoe's public Assessment Library - so an external system such as an ATS can display
@@ -54,6 +54,10 @@ apis:
   slug: vervoe-report-notification-webhook
 artifact_total: 8
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://vervoe.com/feed.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/vervoe/refs/heads/main/security/vervoe-domain-security.yml
   title: ''
@@ -97,19 +101,23 @@ common:
 created: '2026-07-10'
 description: Vervoe is an AI-powered skills assessment and skills-based hiring platform. Employers build their own assessment content or select from a public Assessment Library - assessments can include video, spreadsheets, presentations, and code challenges that simulate real work - then invite candidates and let Vervoe's AI grade and rank them by predicted on-the-job performance in "Talent Trials". The Vervoe API is a partner/integration REST API, accessed over HTTPS, that lets an external system (typically an ATS or internal hiring dashboard) list an employer's assessments, invite candidates to complete an assessment, retrieve candidate assessment reports and scores, and receive real-time report notifications through a signed webhook. API access is provisioned by Vervoe - partners contact sales to set up credentials. Detailed REST endpoint paths are not published in the public documentation, so the logical APIs below are modeled from Vervoe's documented Example Scenarios and webhook reference.
 finops:
-- name: Vervoe Finops
+- has_sources: true
+  method: generated
+  name: Vervoe Finops
+  primary_unit: ''
   service_category: Human Resources and Recruitment
   slug: vervoe-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vervoe.png
 layout: provider
-modified: '2026-07-10'
+modified: '2026-10-06'
 name: Vervoe
 nav: Providers
 network: true
-overview: 'Vervoe publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Hiring, Recruiting, Skills Assessment, Talent, and Human Resources.
+overview: 'Vervoe is listed with 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Hiring, Recruiting, Skills Assessment, Talent, and Human Resources.
 
 
-  Vervoe''s developer surface includes documentation, engineering blog, and 7 more developer resources.'
+  Vervoe''s developer surface includes documentation, engineering blog, and 8 more developer resources.'
 plans:
 - name: Vervoe Plans Pricing
   plan_count: 2
@@ -121,22 +129,22 @@ rate_limits:
   slug: vervoe-rate-limits
 score:
   band: emerging
-  composite: 18.1
+  composite: 11.1
   coverage:
-    artifact_dirs: 6
-    catalog_earned: 61.0
+    artifact_dirs: 8
+    catalog_earned: 45.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 54.0
+    catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.0
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 19.0
     discoverability: 71.4
-    operational_transparency: 28.4
+    operational_transparency: 7.9
   previous_composite: 18.1
   regulatory:
     applies: true
@@ -144,9 +152,9 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

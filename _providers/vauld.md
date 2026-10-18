@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 25.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Enterprise API for partner organisations covering fiat<>crypto trading on India INR rails (deposits via Cards/UPI/NEFT/IMPS/RTGS), automated KYC verification (Aadhar/PAN/VoterID/Passport), crypto<>cry
@@ -45,6 +45,10 @@ asyncapis:
   name: Vauld Webhooks
   slug: vauld-webhooks
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.vauld.com/news/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/vauld/refs/heads/main/security/vauld-domain-security.yml
   title: ''
@@ -131,34 +135,34 @@ created: '2026-07-17'
 description: Vauld (formerly Bank of Hodlers) is a crypto asset management platform founded in India and headquartered in Singapore, backed by Peter Thiel's Valar Ventures, Pantera Capital, and Coinbase Ventures. Its Enterprise API exposes wallets, INR fiat rails, KYC verification, crypto swaps, borrowing, and lending to partner organisations, authenticated with HMAC-SHA256 request signing. Vauld suspended customer withdrawals in July 2022 and entered creditor-protection restructuring in Singapore; the API documentation remains published and the platform API still responds, though the documented testnet hosts no longer resolve.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vauld.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Vauld
 nav: Providers
 network: true
-overview: 'Vauld publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto, Lending, Borrowing, and Trading.
+overview: 'Vauld is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cryptocurrency, Lending, Borrowing, and Trading.
 
 
   The Vauld catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Vauld''s developer surface includes documentation, API reference, getting-started guide, support, pricing, authentication, sandbox, and 11 more developer resources.'
+  Vauld''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, pricing, authentication, and 12 more developer resources.'
 random_paper: 12
 score:
   band: thin
-  composite: 28.1
+  composite: 28.6
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 0.0
     contract_governance: 4.5
     contract_quality: 39.0
-    developer_ergonomics: 52.4
+    developer_ergonomics: 54.8
     discoverability: 66.1
     operational_transparency: 10.5
   jurisdiction:
@@ -179,8 +183,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 15.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -199,7 +203,7 @@ security:
 slug: vauld
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Lending
 - Borrowing
 - Trading

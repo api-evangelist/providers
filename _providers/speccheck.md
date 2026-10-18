@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -90,6 +90,10 @@ collections:
   name: SpecCheck Authentication Orders API
   slug: open-speccheck-orders-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.speccheckrx.com/blog
 - group: start
   title: ''
   type: DeveloperPortal
@@ -212,31 +216,31 @@ created: '2026-07-17'
 description: SpecCheck (speccheckrx.com) is an optical lab ordering platform for eyecare practices and eyewear partners. Its REST API lets integrators authenticate with client credentials, list the labs a user is associated with, retrieve a lab's order settings, browse the lens catalog (styles, materials, and add-on coats, colors, and tints), and create prescription (rx), frame, redo, and multi-pair orders. The API uses 24-hour bearer tokens plus a User-Email actor header, an Idempotency-Key header for safe POST retries, cursor pagination on list endpoints, and a consistent error envelope. SpecCheck was surfaced as a portfolio company of Initialized Capital and enriched by the API Evangelist pipeline from its public documentation at docs.speccheckrx.com.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/speccheck.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: SpecCheck
 nav: Providers
 network: true
-overview: 'SpecCheck publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Catalogs API, Labs API, and 1 more. Tagged areas include Company, Enterprise Saas, Optical, Eyewear, and Eye Care.
+overview: 'SpecCheck publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authentication API, Catalogs API, Labs API, and 1 more. Tagged areas include Company, Enterprise Saas, Optical, Eyewear, and Eye Care.
 
 
-  SpecCheck''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, and 20 more developer resources.'
+  SpecCheck''s developer surface includes engineering blog, documentation, API reference, getting-started guide, authentication, sandbox, and 20 more developer resources.'
 random_paper: 13
 score:
   band: thin
-  composite: 34.4
+  composite: 34.9
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 6.6
     contract_governance: 4.5
     contract_quality: 52.0
-    developer_ergonomics: 58.9
+    developer_ergonomics: 61.3
     discoverability: 73.2
     operational_transparency: 7.9
   previous_composite: 34.4
@@ -256,8 +260,8 @@ score:
     regime: Health
     regime_id: health
     score: 13.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

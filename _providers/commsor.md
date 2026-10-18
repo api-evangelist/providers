@@ -34,10 +34,20 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 5
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/commsor/refs/heads/main/plans/commsor-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/commsor-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/commsor/refs/heads/main/rate-limits/commsor-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/commsor-rate-limits.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/commsor/refs/heads/main/security/commsor-domain-security.yml
   title: ''
@@ -157,7 +167,7 @@ network: true
 overview: 'Commsor is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Sales, Marketing, Go To Network, and Referrals.
 
 
-  Commsor''s developer surface includes signup flow, support, engineering blog, and 18 more developer resources.'
+  Commsor''s developer surface includes signup flow, support, engineering blog, and 20 more developer resources.'
 plans:
 - name: Commsor Plans Pricing
   plan_count: 0
@@ -171,7 +181,7 @@ score:
   band: emerging
   composite: 24.0
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -198,8 +208,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

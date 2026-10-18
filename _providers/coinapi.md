@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 16.5
-  scored_at: '2026-10-04'
+  score: 14.7
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: Normalized cryptocurrency market data covering more than 350 exchanges and 28,000+ assets. Provides trades, quotes, order books, OHLCV time series, exchange rates, and derivatives metrics (funding rat
@@ -51,6 +51,21 @@ asyncapis:
   name: CoinAPI Market Data WebSocket API
   slug: coinapi-asyncapi
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/coinapi/refs/heads/main/plans/coinapi-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/coinapi-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/coinapi/refs/heads/main/rate-limits/coinapi-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/coinapi-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/coinapi/refs/heads/main/finops/coinapi-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/coinapi-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/coinapi/refs/heads/main/security/coinapi-domain-security.yml
   title: ''
@@ -103,22 +118,26 @@ common:
 created: '2025-03-01'
 description: CoinAPI is a financial data and execution platform delivering normalized real-time and historical cryptocurrency market data and trade execution across more than 350 exchanges. Its product family covers a Market Data API (REST, WebSocket, FIX, and flat-file S3 delivery) for trades, quotes, order books, OHLCV, exchange rates, and derivatives metrics; an EMS Trading API (Execution Management System) that lets users place, manage, and route orders across multiple venues through one normalized REST/WebSocket/FIX interface; and Index and Metrics APIs that aggregate cross-exchange data into reference indexes and risk metrics. FIX endpoints (fix.coinapi.io) use GeoDNS to route to the nearest datacenter for low-latency connectivity.
 finops:
-- name: Coinapi Finops
+- has_sources: false
+  method: generated
+  name: Coinapi Finops
+  primary_unit: ''
   service_category: API
   slug: coinapi-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/coinapi.png
 layout: provider
 modified: '2026-05-29'
 name: CoinAPI
 nav: Providers
 network: true
-overview: 'CoinAPI publishes 3 APIs on the [APIs.io](https://apis.io/) network, including Market Data API, and 2 more. Tagged areas include Blockchain, Crypto Indexes, Crypto Metrics, Cryptocurrency, and EMS.
+overview: 'CoinAPI is listed with 3 APIs on the [APIs.io](https://apis.io/) network, including Market Data API, and 2 more. Tagged areas include Blockchain, Crypto Indexes, Crypto Metrics, Cryptocurrency, and EMS.
 
 
   The CoinAPI catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  CoinAPI''s developer surface includes documentation, pricing, changelog, GitHub presence, engineering blog, and 7 more developer resources.'
+  CoinAPI''s developer surface includes documentation, pricing, changelog, GitHub presence, engineering blog, and 10 more developer resources.'
 plans:
 - name: Coinapi Plans Pricing
   plan_count: 3
@@ -129,10 +148,11 @@ rate_limits:
   name: Coinapi Rate Limits
   slug: coinapi-rate-limits
 rules:
-- effective_rule_count: 33
+- authorship: generated
+  effective_rule_count: 33
   extends:
   - spectral:asyncapi
-  name: CoinAPI API Rules
+  name: CoinAPI — asyncapi rules
   rule_count: 6
   severity_counts:
     error: 1
@@ -142,17 +162,17 @@ rules:
   slug: coinapi-asyncapi-spectral-rules
 score:
   band: emerging
-  composite: 25.5
+  composite: 24.0
   coverage:
     artifact_dirs: 11
-    catalog_earned: 47.8
+    catalog_earned: 44.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 67.3
+    catalog_gap: 70.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 26.3
+    access_clarity: 18.4
     contract_governance: 11.4
     contract_quality: 40.6
     developer_ergonomics: 2.4
@@ -165,8 +185,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 11.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

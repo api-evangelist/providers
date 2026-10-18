@@ -28,20 +28,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.8
-  scored_at: '2026-10-04'
+  score: 20.9
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 33
+- acting_count: 32
   human_in_the_loop: 0
   name: Unify Ai Agentic Access
   operation_count: 48
   slug: unify-ai-agentic-access
-  summary_line: 48 operations · 33 acting
+  summary_line: 48 operations · 32 acting
 api_count: 1
 apis:
 - baseURL: https://api.unify.ai/v0
@@ -234,9 +234,13 @@ examples:
   name: Unify Ai Send Message Example
   slug: unify-ai-send-message-example
 finops:
-- name: Unify Ai Finops
+- has_sources: false
+  method: generated
+  name: Unify Ai Finops
+  primary_unit: ''
   service_category: ''
   slug: unify-ai-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/unify-ai.png
 json_schemas:
 - name: Unify Assistant
@@ -255,7 +259,7 @@ modified: '2026-06-12'
 name: Unify
 nav: Providers
 network: true
-overview: 'Unify publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Agent API, Assistants API, Contexts API, and 5 more. Tagged areas include LLM, Artificial Intelligence, LLM Routing, Model Gateway, and AI Gateway.
+overview: 'Unify publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agent API, Assistants API, Contexts API, and 5 more. Tagged areas include LLM, Artificial Intelligence, LLM Routing, Model Gateway, and AI Gateway.
 
 
   The Unify catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -272,9 +276,10 @@ rate_limits:
   name: Unify Ai Rate Limits
   slug: unify-ai-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Unify API Rules
+  name: Unify — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -284,22 +289,22 @@ rules:
   slug: unify-ai-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 49.8
+  composite: 41.5
   coverage:
     artifact_dirs: 17
-    catalog_earned: 89.4
+    catalog_earned: 70.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 25.7
+    catalog_gap: 44.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 54.7
+    access_clarity: 26.3
     contract_governance: 23.5
     contract_quality: 64.3
     developer_ergonomics: 25.0
     discoverability: 66.1
-    operational_transparency: 49.5
+    operational_transparency: 28.9
   previous_composite: 49.8
   provenance:
     agentic_access: derived
@@ -314,9 +319,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 25.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 11.1
@@ -333,7 +338,7 @@ security:
 - kind: vulnerability-disclosure
   name: Unify Ai Vulnerability Disclosure
   slug: unify-ai-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 - kind: trust-center
   name: Unify Ai Trust Center
   slug: unify-ai-trust-center

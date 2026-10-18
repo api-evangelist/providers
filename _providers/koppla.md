@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: koppla advertises an "Offene Schnittstelle / API" (open interface / API) as an included capability of its Enterprise plan, alongside a Power BI integration that pushes koppla schedule data into custom
@@ -212,7 +212,7 @@ modified: '2026-07-19'
 name: Koppla
 nav: Providers
 network: true
-overview: 'Koppla publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Construction, Construction Technology, Project Management, and Scheduling.
+overview: 'Koppla is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Construction, Construction Technology, Project Management, and Scheduling.
 
 
   Koppla''s developer surface includes signup flow, support, engineering blog, pricing, YouTube channel, authentication, and 29 more developer resources.'
@@ -221,7 +221,7 @@ score:
   band: developing
   composite: 43.9
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -258,8 +258,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

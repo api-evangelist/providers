@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://carma.com.au/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/carma/refs/heads/main/security/carma-vulnerability-disclosure.yml
   title: ''
@@ -93,26 +97,26 @@ created: '2026-07-17'
 description: Carma is an Australian online used-car retailer that lets consumers buy, sell, and trade in pre-owned vehicles entirely online. Every car is inspected and reconditioned, and the platform bundles financing through partner lenders, home delivery, trade-in valuations, a 7-day money-back guarantee, a 3-month warranty, and NRMA roadside assistance as an alternative to the traditional dealership experience. Backed by General Catalyst since 2022, Carma is headquartered in Sydney, Australia. This API Evangelist profile was surfaced as a General Catalyst portfolio company and enriched from Carma's public web surface; Carma publishes no public developer API at this time.
 image: https://carma.com.au/icon.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Carma
 nav: Providers
 network: true
 overview: 'Carma is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Automotive, Used Cars, and Marketplace.
 
 
-  Carma''s developer surface includes support and 11 more developer resources.'
+  Carma''s developer surface includes support and 12 more developer resources.'
 random_paper: 10
 score:
   band: emerging
-  composite: 12.7
+  composite: 12.8
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 7
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
@@ -134,8 +138,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

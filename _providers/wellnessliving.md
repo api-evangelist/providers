@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.6
-  scored_at: '2026-10-04'
+  score: 20.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 1
@@ -234,16 +234,20 @@ created: '2026-07-03'
 description: 'WellnessLiving is all-in-one business-management software for fitness studios, gyms, spas, salons, and wellness businesses - scheduling, point of sale, memberships/passes, marketing, and client engagement in one platform, serving over 10 million users worldwide. WellnessLiving publishes a real, extensive RESTful API (324+ JSON-over-HTTPS endpoints across 45+ resource areas as of the 2026-06-20 build) that powers its own Achieve client app and Elevate staff app - documented in an official public OpenAPI specification (github.com/wellnessliving/openapi) and public PHP/JavaScript SDKs (wl-sdk, wl-sdk-js) - but the API itself is partner-gated: access requires contacting a WellnessLiving Account Executive or Support, completing an API Access Questionnaire, and signing an NDA and API Agreement before the Integrations Team issues application credentials for staging and production. Core resources cover clients/members, classes and schedules, one-on-one appointments, the shared booking/checkout
   wizard, memberships and passes (Purchase Options), staff, locations, business configuration, retail sales/catalog, payments (the Thoth payment microservice), authentication, rewards/loyalty, reviews, reporting, and a channel-based real-time WebSocket notification layer.'
 finops:
-- name: Wellnessliving Finops
+- has_sources: true
+  method: generated
+  name: Wellnessliving Finops
+  primary_unit: ''
   service_category: Business Applications and SaaS
   slug: wellnessliving-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wellnessliving.png
 layout: provider
 modified: '2026-07-03'
 name: WellnessLiving
 nav: Providers
 network: true
-overview: 'WellnessLiving publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Appointments API, Authentication API, Booking API, and 12 more. Tagged areas include Fitness, Wellness, Spa, Business Management, and Scheduling.
+overview: 'WellnessLiving publishes 15 API contracts indexed on the [APIs.io](https://apis.io/) network, including Appointments API, Authentication API, Booking API, and 12 more. Tagged areas include Fitness, Wellness, Spa, Business Management, and Scheduling.
 
 
   The WellnessLiving catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -260,10 +264,11 @@ rate_limits:
   name: Wellnessliving Rate Limits
   slug: wellnessliving-rate-limits
 rules:
-- effective_rule_count: 29
+- authorship: generated
+  effective_rule_count: 29
   extends:
   - spectral:asyncapi
-  name: WellnessLiving API Rules
+  name: WellnessLiving — asyncapi rules
   rule_count: 2
   severity_counts:
     error: 1
@@ -272,23 +277,23 @@ rules:
     warn: 1
   slug: wellnessliving-asyncapi-spectral-rules
 score:
-  band: developing
-  composite: 41.0
+  band: thin
+  composite: 32.8
   coverage:
-    artifact_dirs: 14
-    catalog_earned: 65.4
+    artifact_dirs: 15
+    catalog_earned: 46.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 49.6
+    catalog_gap: 68.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.2
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 11.4
     contract_quality: 57.6
     developer_ergonomics: 32.1
     discoverability: 66.1
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   previous_composite: 41.0
   provenance:
     agentic_access: derived
@@ -303,9 +308,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 22.2

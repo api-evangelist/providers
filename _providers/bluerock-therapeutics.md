@@ -23,10 +23,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.bluerocktx.com/feed/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/bluerock-therapeutics/refs/heads/main/hosts/bluerock-therapeutics-hosts.yml
   title: ''
@@ -78,7 +82,7 @@ created: '2026-09-29'
 description: BlueRock Therapeutics is a biopharmaceutical company focused on developing transformative cell therapies for neurodegenerative and ophthalmic diseases. Leveraging advanced stem cell technologies, the company aims to address unmet medical needs in Parkinson’s disease, Alzheimer’s disease, and retinal disorders, advancing candidates through preclinical and clinical stages to bring innovative treatments to patients.
 image: https://www.bluerocktx.com/wp-content/uploads/2023/06/BRT_Open_GraphIMG.jpg
 layout: provider
-modified: '2026-09-29'
+modified: '2026-10-06'
 name: BlueRock Therapeutics
 nav: Providers
 network: true
@@ -88,12 +92,13 @@ score:
   band: minimal
   composite: 9.9
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 6
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
@@ -101,18 +106,21 @@ score:
     developer_ergonomics: 0.0
     discoverability: 51.8
     operational_transparency: 5.3
+  previous_composite: 9.9
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 10.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/bluerock-therapeutics/refs/heads/main/screenshots/bluerock-therapeutics-2026-10-11T102506.png
 security:
 - kind: domain-security
   name: Bluerock Therapeutics Domain Security

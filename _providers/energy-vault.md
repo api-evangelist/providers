@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.energyvault.com/newsroom/rss.xml
 - group: company
   title: ''
   type: Website
@@ -61,14 +65,14 @@ created: '2026-07-17'
 description: 'Energy Vault Holdings (NYSE: NRGV) is a Swiss-founded, US-headquartered energy storage company delivering grid-scale storage hardware, software, and services worldwide. Its portfolio spans battery energy storage (B-VAULT), gravity-based storage (G-VAULT / EVx), and green-hydrogen storage (H-VAULT), unified by VaultOS, an energy management software platform providing real-time monitoring, operational control, and optimized dispatch across storage and generation assets, alongside Vault Bidder and Vault Manager for market bidding and asset management. The company serves utilities, independent power producers, and large energy users, with more than 1.4 GWh deployed since 2023. Backed by SoftBank Vision Fund, Energy Vault is a frontier-tech company in the API Evangelist network. As of this enrichment pass it publishes no public developer API, developer portal, SDK, or API reference; VaultOS is delivered as a proprietary, deployment-integrated platform rather than a public API product.'
 image: https://www.energyvault.com/hubfs/ev-fav.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Energy Vault
 nav: Providers
 network: true
 overview: 'Energy Vault is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Frontier Tech, Energy Storage, Energy Management, and Battery Storage.
 
 
-  Energy Vault''s developer surface includes engineering blog, support, and 3 more developer resources.'
+  Energy Vault''s developer surface includes engineering blog, support, and 4 more developer resources.'
 random_paper: 19
 score:
   band: minimal
@@ -95,8 +99,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 8.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

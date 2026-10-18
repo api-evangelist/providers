@@ -33,10 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://cinchy.com/blog/feed.xml
 - group: company
   title: ''
   type: Website
@@ -131,26 +135,26 @@ created: '2026-07-17'
 description: Cinchy is a data collaboration ("dataware") platform whose network-based data architecture lets enterprise applications share live, governed data without making copies or building point-to-point integrations. Its current focus, PeriMind, is an enterprise control plane for AI that secures, governs, and audits every interaction between AI agents and enterprise systems, data, and applications. Cinchy exposes a REST API for executing Cinchy Query Language (CQL), calling versioned saved queries, triggering data-sync jobs, and managing secrets, with authentication via bearer tokens, personal access tokens, HTTP Basic, and an embedded OAuth2/OIDC IdentityServer. Official Angular and JavaScript SDKs and embeddable app experiences are published on GitHub. Cinchy was surfaced as a Techstars portfolio company.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cinchy.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Cinchy
 nav: Providers
 network: true
 overview: 'Cinchy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data, Data Collaboration, Dataware, and Data Integration.
 
 
-  Cinchy''s developer surface includes documentation, API reference, support, engineering blog, changelog, authentication, and 14 more developer resources.'
+  Cinchy''s developer surface includes documentation, API reference, support, engineering blog, changelog, authentication, and 15 more developer resources.'
 random_paper: 0
 score:
   band: emerging
-  composite: 22.5
+  composite: 22.6
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 28.9
     contract_governance: 4.5
@@ -168,8 +172,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

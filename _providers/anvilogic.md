@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: The Anvilogic MCP Server is the platform's Model Context Protocol surface, letting AI agents and MCP clients call Anvilogic platform tools against a customer's security graph, detections, searches, an
@@ -43,8 +43,17 @@ apis:
 - description: 'The OAuth 2.1 authorization surface for the Anvilogic platform, advertised at the RFC 8414 /.well-known/oauth-authorization-server document on secure.anvilogic.com. It supports the authorization_code '
   name: Anvilogic Platform Authorization API
   slug: authorization
-artifact_total: 6
+artifact_total: 7
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/anvilogic/refs/heads/main/plans/anvilogic-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/anvilogic-plans-pricing.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.anvilogic.com/learn/rss.xml
 - group: company
   title: ''
   type: Website
@@ -163,28 +172,32 @@ mcp_servers:
 - description: Remote MCP server at secure.anvilogic.com over HTTP.
   name: Anvilogic MCP Server
   slug: anvilogic
-modified: '2026-07-31'
+modified: '2026-10-06'
 name: Anvilogic
 nav: Providers
 network: true
-overview: 'Anvilogic publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Cybersecurity, Security Operations, and Detection Engineering.
+overview: 'Anvilogic is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Cybersecurity, Security Operations, and Detection Engineering.
 
 
-  Anvilogic''s developer surface includes documentation, getting-started guide, engineering blog, signup flow, pricing, support, authentication, and 18 more developer resources.'
+  Anvilogic''s developer surface includes documentation, getting-started guide, engineering blog, signup flow, pricing, support, authentication, and 20 more developer resources.'
+plans:
+- name: Anvilogic Plans Pricing
+  plan_count: 10
+  slug: anvilogic-plans-pricing
 random_paper: 10
 score:
   band: thin
-  composite: 32.3
+  composite: 38.7
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 15
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.4
   facets:
-    access_clarity: 47.4
+    access_clarity: 78.9
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 50.0
@@ -200,9 +213,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

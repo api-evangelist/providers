@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Streamable HTTP MCP server providing search_gaps, get_top_gaps, and validate_idea operations.
@@ -31,6 +31,10 @@ apis:
   slug: ddmarketer-mcp
 artifact_total: 4
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.ddmarketer.com/feed.xml
 - group: commercial
   href: https://raw.githubusercontent.com/api-evangelist/ddmarketer/refs/heads/main/plans/ddmarketer-plans-pricing.yml
   title: ''
@@ -110,29 +114,30 @@ mcp_servers:
 - description: Remote MCP server at www.ddmarketer.com requiring an API key.
   name: DDMarketer MCP Server
   slug: ddmarketer-mcp-yml
-modified: '2026-09-28'
+modified: '2026-10-06'
 name: DDMarketer
 nav: Providers
 network: true
-overview: 'DDMarketer publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Software-as-a-Service, Market Research, OpportunityValidation, and AI Integration.
+overview: 'DDMarketer is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Software-as-a-Service, Market Research, OpportunityValidation, and AI Integration.
 
 
-  DDMarketer''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, and 11 more developer resources.'
+  DDMarketer''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, and 12 more developer resources.'
 plans:
 - name: Ddmarketer Plans Pricing
   plan_count: 2
   slug: ddmarketer-plans-pricing
 random_paper: 3
 score:
-  band: emerging
-  composite: 26.1
+  band: thin
+  composite: 26.2
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 11
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.1
   facets:
     access_clarity: 65.8
     contract_governance: 0.0
@@ -140,6 +145,7 @@ score:
     developer_ergonomics: 28.6
     discoverability: 75.0
     operational_transparency: 0.0
+  previous_composite: 26.1
   provenance:
     mcp: first-party
   regulatory:
@@ -148,12 +154,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/ddmarketer/refs/heads/main/screenshots/ddmarketer-2026-10-11T103615.png
 security:
 - kind: domain-security
   name: Ddmarketer Domain Security

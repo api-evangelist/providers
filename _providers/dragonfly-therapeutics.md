@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Model Context Protocol endpoint served from the Dragonfly Therapeutics website host. This is a platform-provided surface automatically provisioned by Wix for every site it builds — not a first-party D
@@ -43,6 +43,16 @@ apis:
   slug: dragonfly-therapeutics-site-mcp
 artifact_total: 6
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/dragonfly-therapeutics/refs/heads/main/plans/dragonfly-therapeutics-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/dragonfly-therapeutics-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/dragonfly-therapeutics/refs/heads/main/rate-limits/dragonfly-therapeutics-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/dragonfly-therapeutics-rate-limits.yml
 - group: company
   title: ''
   type: Website
@@ -126,10 +136,10 @@ modified: '2026-08-12'
 name: Dragonfly Therapeutics
 nav: Providers
 network: true
-overview: 'Dragonfly Therapeutics publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Pharmaceuticals, Immunotherapy, and Oncology.
+overview: 'Dragonfly Therapeutics is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Pharmaceuticals, Immunotherapy, and Oncology.
 
 
-  Dragonfly Therapeutics'' developer surface includes engineering blog, product news, authentication, and 9 more developer resources.'
+  Dragonfly Therapeutics'' developer surface includes engineering blog, product news, authentication, and 11 more developer resources.'
 plans:
 - name: Dragonfly Therapeutics Plans Pricing
   plan_count: 0
@@ -174,8 +184,8 @@ score:
     regime: Health
     regime_id: health
     score: 16.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

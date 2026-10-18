@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 5
 apis:
 - description: The canonical RISC-V Instruction Set Architecture specifications including the Unprivileged ISA (RV32I/RV64I base integer instructions) and Privileged Architecture specification. Freely available as r
@@ -53,6 +53,21 @@ apis:
   slug: opensbi
 artifact_total: 13
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/risc-v/refs/heads/main/plans/risc-v-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/risc-v-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/risc-v/refs/heads/main/rate-limits/risc-v-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/risc-v-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/risc-v/refs/heads/main/finops/risc-v-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/risc-v-finops.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -125,9 +140,13 @@ common:
 created: '2026-03-16'
 description: RISC-V International advances the RISC-V open standard instruction set architecture (ISA), promoting open hardware development and reducing dependency on proprietary processor designs. The organization maintains the canonical RISC-V ISA specifications, profiles, non-ISA specifications, extensions, and a rich ecosystem of open-source tools including simulators, compilers, debuggers, and verification frameworks.
 finops:
-- name: Risc V Finops
+- has_sources: false
+  method: generated
+  name: Risc V Finops
+  primary_unit: ''
   service_category: API
   slug: risc-v-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/risc-v.png
 json_schemas:
 - name: RISC-V Specification
@@ -147,13 +166,13 @@ modified: '2026-05-02'
 name: RISC-V International
 nav: Providers
 network: true
-overview: 'RISC-V International publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include C API, Compilers, Hardware, Instruction Set Architecture, and Linux Foundation.
+overview: 'RISC-V International is listed with 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include C API, Compilers, Hardware, Instruction Set Architecture, and Linux Foundation.
 
 
   The RISC-V International catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  RISC-V International''s developer surface includes documentation, engineering blog, and 15 more developer resources.'
+  RISC-V International''s developer surface includes documentation, engineering blog, and 18 more developer resources.'
 plans:
 - name: Risc V Plans Pricing
   plan_count: 3
@@ -164,9 +183,10 @@ rate_limits:
   name: Risc V Rate Limits
   slug: risc-v-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: RISC-V International API Rules
+  name: RISC-V International — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -176,17 +196,17 @@ rules:
   slug: risc-v-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 23.0
+  composite: 21.5
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 59.8
+    artifact_dirs: 13
+    catalog_earned: 56.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 55.3
+    catalog_gap: 58.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 26.3
+    access_clarity: 18.4
     contract_governance: 23.5
     contract_quality: 10.7
     developer_ergonomics: 11.9
@@ -199,8 +219,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 14.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

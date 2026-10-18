@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: Wholesale reseller API for domain-name lookup, registration, transfer, renewal, DNS-zone management and TLS/SSL certificate ordering. An XML-over-HTTPS POST protocol authenticated with a reseller user
@@ -50,6 +50,10 @@ asyncapis:
   name: Tucows Opensrs Domains Events
   slug: tucows-opensrs-domains-events
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://tucows.com/investors/news
 - group: company
   title: ''
   type: Website
@@ -167,34 +171,34 @@ created: '2026-07-17'
 description: Tucows is one of the world's largest internet-services and domain companies. Its OpenSRS division runs a wholesale reseller platform for domain-name registration, DNS, TLS/SSL certificates and hosted email, exposed through the OpenSRS API (an XML-over-HTTPS reseller protocol) and the OpenSRS Mail API (OMA). Tucows also operates Wavelo, a telecom BSS/OSS billing, provisioning and subscriber-management platform for communication service providers, and the Ting Internet fiber business. This profile captures the public OpenSRS developer surface — the domains/SSL API, the email provisioning API, authentication, error codes, sandbox, events and lifecycle. Tucows is a Union Square Ventures portfolio company.
 image: https://files.readme.io/fd0f1b4-small-OpenSRS_knowledgebase_1.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Tucows
 nav: Providers
 network: true
-overview: 'Tucows publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Infrastructure, Domains, DNS, and SSL.
+overview: 'Tucows is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Infrastructure, Domains, DNS, and SSL.
 
 
   The Tucows catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Tucows'' developer surface includes documentation, API reference, getting-started guide, support, pricing, authentication, sandbox, and 18 more developer resources.'
+  Tucows'' developer surface includes engineering blog, documentation, API reference, getting-started guide, support, pricing, authentication, and 19 more developer resources.'
 random_paper: 17
 score:
   band: thin
-  composite: 38.6
+  composite: 39.1
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 38.2
     contract_governance: 4.5
     contract_quality: 39.0
-    developer_ergonomics: 49.4
+    developer_ergonomics: 51.8
     discoverability: 73.2
     operational_transparency: 26.3
   previous_composite: 38.6
@@ -208,8 +212,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 20.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

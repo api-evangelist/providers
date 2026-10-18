@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: REST API providing real-time fraud risk scores including Synthetic Abuse Score, ID Theft Score, First-Party Fraud Score, and PII Risk Scores. Returns a numeric score (0–999) along with reason codes ex
@@ -108,9 +108,13 @@ common:
 created: '2026-06-13'
 description: SentiLink is an identity fraud prevention platform that empowers financial institutions to transact confidently by stopping synthetic identity fraud, account takeover, and first-party fraud at the point of account application and beyond. The platform provides a REST API delivering real-time scores and signals derived from behavioral and identity data, enabling lenders, banks, credit unions, and fintechs to make instant, accurate decisions without adding friction to the onboarding experience.
 finops:
-- name: Sentilink Finops
+- has_sources: false
+  method: generated
+  name: Sentilink Finops
+  primary_unit: ''
   service_category: ''
   slug: sentilink-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sentilink.png
 jsonld:
 - class_count: 8
@@ -122,7 +126,7 @@ modified: '2026-06-13'
 name: SentiLink
 nav: Providers
 network: true
-overview: 'SentiLink publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Fraud Prevention, Identity Verification, Synthetic Identity, Account Takeover, and First-Party Fraud.
+overview: 'SentiLink is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Fraud Prevention, Identity Verification, Synthetic Identity, Account Takeover, and First-Party Fraud.
 
 
   The SentiLink catalog on APIs.io includes 1 JSON-LD context.
@@ -140,17 +144,17 @@ rate_limits:
   slug: sentilink-rate-limits
 score:
   band: emerging
-  composite: 24.5
+  composite: 20.2
   coverage:
     artifact_dirs: 8
-    catalog_earned: 58.2
+    catalog_earned: 50.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 56.8
+    catalog_gap: 65.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -4.3
   facets:
-    access_clarity: 45.3
+    access_clarity: 23.7
     contract_governance: 0.0
     contract_quality: 14.7
     developer_ergonomics: 11.9
@@ -163,8 +167,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

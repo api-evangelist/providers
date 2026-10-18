@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: Atlas is the Abios REST and WebSocket data API delivering fixtures, live match state, historical stats, players, teams, tournaments, and series across covered esports titles. Designed as a developer-f
@@ -47,6 +47,29 @@ apis:
   slug: widgets-api
 artifact_total: 7
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/abios-gaming/refs/heads/main/plans/abios-gaming-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/abios-gaming-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/abios-gaming/refs/heads/main/rate-limits/abios-gaming-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/abios-gaming-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/abios-gaming/refs/heads/main/finops/abios-gaming-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/abios-gaming-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://abiosgaming.com/press
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://abiosgaming.com/press/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/abios-gaming/refs/heads/main/security/abios-gaming-domain-security.yml
   title: ''
@@ -95,19 +118,23 @@ common:
 created: '2026-05-23'
 description: Abios, a Sportradar company headquartered in Stockholm, provides enterprise-scale esports data, odds, and engagement products for sportsbooks and media platforms. The Abios Atlas API delivers REST and WebSocket access to fixtures, live statistics, odds, and player props across 60,000+ yearly matches and 50 billion+ data points spanning major esports titles plus traditional sports coverage via Sportradar integration.
 finops:
-- name: Abios Gaming Finops
+- has_sources: false
+  method: generated
+  name: Abios Gaming Finops
+  primary_unit: ''
   service_category: API
   slug: abios-gaming-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/abios-gaming.png
 layout: provider
-modified: '2026-05-23'
+modified: '2026-10-06'
 name: Abios (Sportradar)
 nav: Providers
 network: true
-overview: 'Abios (Sportradar) publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Esports, Sports Data, Odds, Widgets, and Live Data.
+overview: 'Abios (Sportradar) is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Esports, Sports Data, Odds, Widgets, and Live Data.
 
 
-  Abios (Sportradar)''s developer surface includes documentation, API reference, GitHub presence, and 8 more developer resources.'
+  Abios (Sportradar)''s developer surface includes engineering blog, documentation, API reference, GitHub presence, and 12 more developer resources.'
 plans:
 - name: Abios Gaming Plans Pricing
   plan_count: 1
@@ -119,22 +146,22 @@ rate_limits:
   slug: abios-gaming-rate-limits
 score:
   band: emerging
-  composite: 16.8
+  composite: 11.3
   coverage:
-    artifact_dirs: 7
-    catalog_earned: 57.4
+    artifact_dirs: 9
+    catalog_earned: 44.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.6
+    catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.5
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 9.5
+    developer_ergonomics: 11.9
     discoverability: 78.6
-    operational_transparency: 24.2
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -150,9 +177,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

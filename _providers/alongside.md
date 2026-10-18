@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -53,13 +53,13 @@ modified: '2026-07-17'
 name: Alongside
 nav: Providers
 network: true
-overview: Alongside is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto, Compliance, KYC, and AML.
+overview: Alongside is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cryptocurrency, Compliance, KYC, and AML.
 random_paper: 4
 score:
   band: minimal
   composite: 3.4
   coverage:
-    artifact_dirs: 2
+    artifact_dirs: 3
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -80,13 +80,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/alongside/refs/heads/main/screenshots/alongside-2026-10-11T141345.png
 security:
 - kind: domain-security
   name: Alongside Domain Security
@@ -95,7 +96,7 @@ security:
 slug: alongside
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Compliance
 - KYC
 - AML

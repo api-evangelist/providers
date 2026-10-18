@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.3
-  scored_at: '2026-10-04'
+  score: 15.4
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -112,6 +112,21 @@ collections:
   name: Contour Gateway TLSRoute API
   slug: open-contour-tlsroute-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/contour/refs/heads/main/plans/contour-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/contour-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/contour/refs/heads/main/rate-limits/contour-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/contour-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/contour/refs/heads/main/finops/contour-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/contour-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/contour/refs/heads/main/capabilities/contour-capability-edges.yml
   title: ''
@@ -215,9 +230,13 @@ common:
 created: '2025-01-01'
 description: A Kubernetes ingress controller using Envoy proxy that provides dynamic configuration updates and advanced routing capabilities for managing external access to services in a cluster.
 finops:
-- name: Contour Finops
+- has_sources: true
+  method: generated
+  name: Contour Finops
+  primary_unit: ''
   service_category: Open Source Networking
   slug: contour-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/contour.png
 json_schemas:
 - name: AuthorizationServer
@@ -363,13 +382,13 @@ modified: '2026-05-19'
 name: Contour
 nav: Providers
 network: true
-overview: 'Contour publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Gateway API, GatewayClass API, HTTPProxy API, and 6 more. Tagged areas include Envoy, Ingress Controller, Kubernetes, Networking, and Proxy.
+overview: 'Contour publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Gateway API, GatewayClass API, HTTPProxy API, and 6 more. Tagged areas include Envoy, Ingress Controller, Kubernetes, Networking, and Proxy.
 
 
   The Contour catalog on APIs.io includes 1 JSON-LD context and 3 Spectral governance rulesets.
 
 
-  Contour''s developer surface includes getting-started guide, documentation, support, changelog, and 19 more developer resources.'
+  Contour''s developer surface includes getting-started guide, documentation, support, changelog, and 22 more developer resources.'
 plans:
 - name: Contour Plans Pricing
   plan_count: 1
@@ -380,10 +399,11 @@ rate_limits:
   name: Contour Rate Limits
   slug: contour-rate-limits
 rules:
-- effective_rule_count: 46
+- authorship: unmarked
+  effective_rule_count: 46
   extends:
   - spectral:oas
-  name: Contour API Rules
+  name: Contour — gateway rules
   rule_count: 5
   severity_counts:
     error: 4
@@ -391,10 +411,11 @@ rules:
     info: 0
     warn: 1
   slug: contour-gateway-rules
-- effective_rule_count: 46
+- authorship: unmarked
+  effective_rule_count: 46
   extends:
   - spectral:oas
-  name: Contour API Rules
+  name: Contour — httpproxy rules
   rule_count: 5
   severity_counts:
     error: 3
@@ -402,9 +423,10 @@ rules:
     info: 0
     warn: 2
   slug: contour-httpproxy-rules
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: Contour API Rules
+  name: Contour — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -414,18 +436,18 @@ rules:
   slug: contour-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 45.2
+  composite: 40.0
   coverage:
-    artifact_dirs: 16
-    catalog_earned: 69.1
+    artifact_dirs: 17
+    catalog_earned: 54.4
     catalog_earned_first_party: 0.0
-    catalog_gap: 45.9
+    catalog_gap: 60.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.2
   facets:
-    access_clarity: 13.2
-    contract_governance: 62.7
+    access_clarity: 5.3
+    contract_governance: 27.3
     contract_quality: 54.1
     developer_ergonomics: 33.3
     discoverability: 55.4
@@ -447,9 +469,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

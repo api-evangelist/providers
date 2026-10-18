@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.9
-  scored_at: '2026-10-04'
+  score: 19.0
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 16
+- acting_count: 15
   human_in_the_loop: 0
   name: Contextual Ai Agentic Access
   operation_count: 25
   slug: contextual-ai-agentic-access
-  summary_line: 25 operations · 16 acting
+  summary_line: 25 operations · 15 acting
 api_count: 1
 apis:
 - baseURL: https://api.contextual.ai/v1
@@ -130,6 +130,10 @@ collections:
   name: Contextual AI Platform API
   slug: open-contextual-ai
 common:
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://contextual.ai/pricing
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/contextual-ai/refs/heads/main/capabilities/contextual-ai-capability-edges.yml
   title: ''
@@ -198,25 +202,29 @@ common:
 created: '2026-06-20'
 description: Contextual AI is an enterprise RAG platform built around a Grounded Language Model (GLM) engineered to minimize hallucinations. Its REST API exposes end-to-end RAG agents (create, configure, query) plus standalone component APIs - Generate, Rerank, Parse, and LMUnit - over datastores of ingested documents, all authenticated with a Bearer API key.
 finops:
-- name: Contextual Ai Finops
+- has_sources: true
+  method: generated
+  name: Contextual Ai Finops
+  primary_unit: ''
   service_category: AI and Machine Learning
   slug: contextual-ai-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/contextual-ai.png
 layout: provider
 modified: '2026-06-20'
 name: Contextual AI
 nav: Providers
 network: true
-overview: 'Contextual AI publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Agents Query API, Datastores API, and 6 more. Tagged areas include Artificial Intelligence, RAG, LLM, Grounded Language Model, and Enterprise.
+overview: 'Contextual AI publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agents API, Agents Query API, Datastores API, and 6 more. Tagged areas include Artificial Intelligence, RAG, LLM, Grounded Language Model, and Enterprise.
 
 
   The Contextual AI catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Contextual AI''s developer surface includes authentication, documentation, engineering blog, and 11 more developer resources.'
+  Contextual AI''s developer surface includes pricing, authentication, documentation, engineering blog, and 11 more developer resources.'
 plans:
 - name: Contextual Ai Plans Pricing
-  plan_count: 2
+  plan_count: 9
   slug: contextual-ai-plans-pricing
 random_paper: 0
 rate_limits:
@@ -224,10 +232,11 @@ rate_limits:
   name: Contextual Ai Rate Limits
   slug: contextual-ai-rate-limits
 rules:
-- effective_rule_count: 35
+- authorship: generated
+  effective_rule_count: 35
   extends:
   - spectral:asyncapi
-  name: Contextual AI API Rules
+  name: Contextual AI — asyncapi rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -239,20 +248,20 @@ score:
   band: developing
   composite: 40.0
   coverage:
-    artifact_dirs: 14
-    catalog_earned: 61.8
-    catalog_earned_first_party: 0.0
-    catalog_gap: 53.2
+    artifact_dirs: 15
+    catalog_earned: 55.8
+    catalog_earned_first_party: 12.0
+    catalog_gap: 59.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 34.7
+    access_clarity: 50.0
     contract_governance: 11.4
     contract_quality: 58.0
     developer_ergonomics: 32.1
     discoverability: 66.1
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   previous_composite: 40.0
   provenance:
     agentic_access: derived
@@ -263,12 +272,12 @@ score:
       total: 9
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 20.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

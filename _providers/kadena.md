@@ -32,15 +32,15 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 20
+- acting_count: 13
   human_in_the_loop: 0
   name: Kadena Agentic Access
-  operation_count: 37
+  operation_count: 38
   slug: kadena-agentic-access
-  summary_line: 37 operations · 20 acting
-api_count: 2
+  summary_line: 38 operations · 13 acting
+api_count: 3
 apis:
 - baseURL: https://api.chainweb.com/chainweb/0.0/mainnet01
   baseurl_source: declared
@@ -297,7 +297,7 @@ modified: '2026-07-19'
 name: Kadena
 nav: Providers
 network: true
-overview: 'Kadena publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Block API, Blockhash API, Config API, and 13 more. Tagged areas include Company, Crypto Web3, Blockchain, Smart Contracts, and Proof of Work.
+overview: 'Kadena publishes 16 API contracts indexed on the [APIs.io](https://apis.io/) network, including Block API, Blockhash API, Config API, and 13 more. Tagged areas include Company, Web3, Blockchain, Smart Contracts, and Proof of Work.
 
 
   Kadena''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, CLI, sandbox, and 17 more developer resources.'
@@ -307,9 +307,9 @@ score:
   composite: 0.0
   coverage:
     artifact_dirs: 19
-    catalog_earned: 37.0
+    catalog_earned: 40.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
@@ -337,8 +337,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -352,12 +352,11 @@ security:
 slug: kadena
 tags:
 - Company
-- Crypto Web3
+- Web3
 - Blockchain
 - Smart Contracts
 - Proof of Work
 - Layer 1
-- Web3
 - Cryptocurrency
 - Developer Tools
 - Decentralized

@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 43.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
   name: Ripe Insurance Agentic Access
-  operation_count: 8
+  operation_count: 16
   slug: ripe-insurance-agentic-access
-  summary_line: 8 operations
+  summary_line: 16 operations
 api_count: 2
 apis:
 - baseURL: https://www.ripeinsurance.co.uk/umbraco/delivery/api/v2
@@ -223,7 +223,7 @@ modified: '2026-07-25'
 name: Ripe Insurance
 nav: Providers
 network: true
-overview: 'Ripe Insurance publishes 2 APIs on the [APIs.io](https://apis.io/) network: Content API and Media API. Tagged areas include Insurance, United Kingdom, Insurtech, Managing General Agent, and Specialist Insurance.
+overview: 'Ripe Insurance publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Content API and Media API. Tagged areas include Insurance, United Kingdom, Insurtech, Managing General Agent, and Specialist Insurance.
 
 
   Ripe Insurance''s developer surface includes authentication, support, product news, engineering blog, and 29 more developer resources.'
@@ -276,8 +276,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 36.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -304,6 +304,6 @@ tags:
 - Small Business Insurance
 - Underwriting
 - Direct to Consumer
-- Brokers
+- Brokerage
 website: https://www.ripeinsurance.co.uk/
 ---

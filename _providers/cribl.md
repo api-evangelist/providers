@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.5
-  scored_at: '2026-10-04'
+  score: 19.6
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 67
   human_in_the_loop: 0
@@ -324,6 +324,16 @@ collections:
   name: Cribl As Code API Credentials Workspaces API
   slug: open-cribl-workspaces-api
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cribl/refs/heads/main/rate-limits/cribl-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/cribl-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/cribl/refs/heads/main/finops/cribl-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/cribl-finops.yml
 - group: commercial
   title: ''
   type: Pricing
@@ -436,9 +446,13 @@ common:
 created: '2025-03-05'
 description: Cribl is an observability pipeline company providing a suite of products for collecting, processing, routing, searching, and storing telemetry data at scale. Cribl's developer platform offers REST APIs across Stream, Edge, Search, Lake, and the As Code product line, exposing programmatic control over data pipelines, edge agents, federated search jobs, lake datasets, and infrastructure-as-code configuration management. The Cribl Cloud API acts as a centrally managed control plane across all deployments and authenticates with OAuth 2.0 client credentials.
 finops:
-- name: Cribl Finops
+- has_sources: true
+  method: generated
+  name: Cribl Finops
+  primary_unit: ''
   service_category: Observability Pipeline
   slug: cribl-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cribl.png
 json_schemas:
 - name: ApiCredential
@@ -569,13 +583,13 @@ modified: '2026-05-19'
 name: Cribl
 nav: Providers
 network: true
-overview: 'Cribl publishes 32 APIs on the [APIs.io](https://apis.io/) network, including API Credentials API, Authentication API, Collectors API, and 29 more. Tagged areas include Configuration, Data Lake, Data Pipeline, Data Routing, and Edge Computing.
+overview: 'Cribl publishes 32 API contracts indexed on the [APIs.io](https://apis.io/) network, including API Credentials API, Authentication API, Collectors API, and 29 more. Tagged areas include Configuration, Data Lake, Data Pipeline, Data Routing, and Edge Computing.
 
 
   The Cribl catalog on APIs.io includes 1 JSON-LD context and 7 Spectral governance rulesets.
 
 
-  Cribl''s developer surface includes pricing, authentication, documentation, developer portal, engineering blog, and 19 more developer resources.'
+  Cribl''s developer surface includes pricing, authentication, documentation, developer portal, engineering blog, and 21 more developer resources.'
 plans:
 - name: Cribl Plans Pricing
   plan_count: 3
@@ -586,10 +600,11 @@ rate_limits:
   name: Cribl Rate Limits
   slug: cribl-rate-limits
 rules:
-- effective_rule_count: 47
+- authorship: unmarked
+  effective_rule_count: 47
   extends:
   - spectral:oas
-  name: Cribl API Rules
+  name: Cribl — as code api rules
   rule_count: 6
   severity_counts:
     error: 5
@@ -597,10 +612,11 @@ rules:
     info: 0
     warn: 1
   slug: cribl-as-code-api-rules
-- effective_rule_count: 47
+- authorship: unmarked
+  effective_rule_count: 47
   extends:
   - spectral:oas
-  name: Cribl API Rules
+  name: Cribl — cloud api rules
   rule_count: 6
   severity_counts:
     error: 5
@@ -608,10 +624,11 @@ rules:
     info: 0
     warn: 1
   slug: cribl-cloud-api-rules
-- effective_rule_count: 46
+- authorship: unmarked
+  effective_rule_count: 46
   extends:
   - spectral:oas
-  name: Cribl API Rules
+  name: Cribl — edge api rules
   rule_count: 5
   severity_counts:
     error: 5
@@ -619,9 +636,10 @@ rules:
     info: 0
     warn: 0
   slug: cribl-edge-api-rules
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: Cribl API Rules
+  name: Cribl — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -629,10 +647,11 @@ rules:
     info: 2
     warn: 4
   slug: cribl-jsonschema-spectral-rules
-- effective_rule_count: 46
+- authorship: unmarked
+  effective_rule_count: 46
   extends:
   - spectral:oas
-  name: Cribl API Rules
+  name: Cribl — lake api rules
   rule_count: 5
   severity_counts:
     error: 5
@@ -640,10 +659,11 @@ rules:
     info: 0
     warn: 0
   slug: cribl-lake-api-rules
-- effective_rule_count: 46
+- authorship: unmarked
+  effective_rule_count: 46
   extends:
   - spectral:oas
-  name: Cribl API Rules
+  name: Cribl — search api rules
   rule_count: 5
   severity_counts:
     error: 5
@@ -651,10 +671,11 @@ rules:
     info: 0
     warn: 0
   slug: cribl-search-api-rules
-- effective_rule_count: 46
+- authorship: unmarked
+  effective_rule_count: 46
   extends:
   - spectral:oas
-  name: Cribl API Rules
+  name: Cribl — stream api rules
   rule_count: 5
   severity_counts:
     error: 5
@@ -668,24 +689,24 @@ scopes:
   slug: cribl-scopes
   summary_line: 6 scopes · clientCredentials
 score:
-  band: strong
-  composite: 55.0
+  band: developing
+  composite: 49.2
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 82.2
+    artifact_dirs: 21
+    catalog_earned: 67.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 35.8
+    catalog_gap: 47.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: -5.8
   facets:
-    access_clarity: 77.6
-    contract_governance: 49.1
+    access_clarity: 69.7
+    contract_governance: 13.6
     contract_quality: 58.7
     developer_ergonomics: 33.3
     discoverability: 78.6
     operational_transparency: 10.5
-  previous_composite: 54.4
+  previous_composite: 55.0
   provenance:
     agentic_access: derived
     contracts:
@@ -699,9 +720,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

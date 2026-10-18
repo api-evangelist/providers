@@ -27,20 +27,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.3
-  scored_at: '2026-10-04'
+  score: 15.4
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 3
+- acting_count: 1
   human_in_the_loop: 0
   name: Openssf Agentic Access
   operation_count: 6
   slug: openssf-agentic-access
-  summary_line: 6 operations · 3 acting
+  summary_line: 6 operations · 1 acting
 api_count: 2
 apis:
 - description: Sigstore is an OpenSSF-hosted standard and service for signing, verifying, and protecting software. The public-good Sigstore instance exposes Fulcio (code-signing certificate authority) and Rekor (tra
@@ -101,6 +101,21 @@ collections:
   name: OSV (Open Source Vulnerabilities) Projects Vulns API
   slug: open-openssf-vulns-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/openssf/refs/heads/main/plans/openssf-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/openssf-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/openssf/refs/heads/main/rate-limits/openssf-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/openssf-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/openssf/refs/heads/main/finops/openssf-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/openssf-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/openssf/refs/heads/main/capabilities/openssf-capability-edges.yml
   title: ''
@@ -187,9 +202,13 @@ common:
 created: '2026-03-16'
 description: The Open Source Security Foundation (OpenSSF) is a collaborative initiative under the Linux Foundation dedicated to improving the security of open source software. It brings together industry leaders, developers, and security experts to address vulnerabilities, enhance supply chain security, and develop security tools and best practices. OpenSSF stewards a number of projects with public REST APIs, including the OSV (Open Source Vulnerabilities) database, the Scorecard automated security health-check service, and Sigstore signing infrastructure.
 finops:
-- name: Openssf Finops
+- has_sources: false
+  method: generated
+  name: Openssf Finops
+  primary_unit: ''
   service_category: API
   slug: openssf-finops
+  template: true
 graphqls:
 - description: GUAC aggregates software supply-chain security metadata (SBOMs, attestations, vulnerabilities, signatures) into a queryable graph. GUAC exposes a GraphQL API for supply-chain queries when self-hosted.
   name: OpenSSF GraphQL API
@@ -209,13 +228,13 @@ modified: '2026-05-19'
 name: OpenSSF
 nav: Providers
 network: true
-overview: 'OpenSSF publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Projects API, Query API, Querybatch API, and 4 more. Tagged areas include Linux Foundation, Open Source, Security, Supply Chain, and Vulnerabilities.
+overview: 'OpenSSF publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Projects API, Query API, Querybatch API, and 4 more. Tagged areas include Linux Foundation, Open Source, Security, Supply Chain, and Vulnerabilities.
 
 
   The OpenSSF catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  OpenSSF''s developer surface includes documentation, developer portal, engineering blog, and 17 more developer resources.'
+  OpenSSF''s developer surface includes documentation, developer portal, engineering blog, and 20 more developer resources.'
 plans:
 - name: Openssf Plans Pricing
   plan_count: 3
@@ -226,9 +245,10 @@ rate_limits:
   name: Openssf Rate Limits
   slug: openssf-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: OpenSSF API Rules
+  name: OpenSSF — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -238,17 +258,17 @@ rules:
   slug: openssf-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 33.2
+  composite: 31.7
   coverage:
-    artifact_dirs: 15
-    catalog_earned: 62.7
+    artifact_dirs: 16
+    catalog_earned: 59.7
     catalog_earned_first_party: 0.0
-    catalog_gap: 52.4
+    catalog_gap: 55.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 9.8
     contract_quality: 54.8
     developer_ergonomics: 26.2
@@ -268,8 +288,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

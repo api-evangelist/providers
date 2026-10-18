@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.comento.kr/rss/
 - group: company
   title: ''
   type: Website
@@ -61,20 +65,20 @@ created: '2026-07-17'
 description: Comento is a South Korean career development and mentoring platform based in Seoul that connects job seekers with working professionals. The service offers a Q&A community and timeline for career discussions, free unlimited mentoring questions answered by industry practitioners, resume and cover letter (자기소개서) review, an AI resume analyzer, interview preparation, and job-focused educational programs including bootcamps (직무부트캠프) and classes for the Korean job market. It also runs corporate training and university affiliation partnerships. Comento operates as a consumer-facing web platform and does not publish a public developer API or documentation surface; this profile was surfaced as a portfolio company of 500 Global and enriched with the domain and identity signals that are publicly observable.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/comento.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Comento
 nav: Providers
 network: true
 overview: 'Comento is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Careers, Mentoring, Recruiting, and Education.
 
 
-  Comento''s developer surface includes support and 4 more developer resources.'
+  Comento''s developer surface includes support and 5 more developer resources.'
 random_paper: 9
 score:
   band: minimal
   composite: 9.3
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -102,8 +106,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

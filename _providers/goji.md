@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'The Goji Platform API for private-markets investing: create and KYC/KYB investors, open and administer IF ISAs, move funds via investor and manager payment APIs, settle debt and equity investments, ma'
@@ -47,6 +47,10 @@ asyncapis:
   name: Goji Webhooks
   slug: goji-webhooks
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://goji.investments/insights/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/goji/refs/heads/main/security/goji-domain-security.yml
   title: ''
@@ -151,17 +155,17 @@ created: '2026-07-17'
 description: Goji is a private-fund digitisation platform, part of the Euroclear group and regulated by the UK Financial Conduct Authority. Founded in 2015 and backed by Anthemis, Goji provides end-to-end infrastructure for asset managers, fund administrators and distributors to digitise access to private markets -- investor onboarding, KYC/KYB and AML, ISA administration, payments, and debt and equity settlement. Its Platform API exposes investor, payment, settlement, bond and ISA operations over HTTPS with HMAC-signed requests and a webhook event stream, letting distributors offer investors a fully digital investment journey into private market funds.
 image: https://goji.investments/hubfs/Goji%20favicon.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Goji
 nav: Providers
 network: true
-overview: 'Goji publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Private Markets, Investment, and Fund.
+overview: 'Goji is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Private Markets, Investment, and Fund.
 
 
   The Goji catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Goji''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, authentication, and 15 more developer resources.'
+  Goji''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, authentication, and 16 more developer resources.'
 random_paper: 7
 score:
   band: thin
@@ -192,8 +196,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 22.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -71,7 +71,7 @@ modified: '2026-07-18'
 name: contentbox
 nav: Providers
 network: true
-overview: 'contentbox is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Blockchain, Digital Content, Podcasting, and Cryptocurrency.
+overview: 'contentbox is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Blockchain, Digital Content, Podcasts, and Cryptocurrency.
 
 
   contentbox''s developer surface includes engineering blog and 5 more developer resources.'
@@ -101,8 +101,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 5.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -119,7 +119,7 @@ tags:
 - Company
 - Blockchain
 - Digital Content
-- Podcasting
+- Podcasts
 - Cryptocurrency
 - Content Distribution
 - Payments

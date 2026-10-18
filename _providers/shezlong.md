@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.shezlong.com/feed/
 - group: company
   title: ''
   type: Website
@@ -49,7 +53,7 @@ created: '2026-07-17'
 description: Shezlong is an online mental health and therapy platform serving Egypt and the wider MENA region, connecting users with licensed psychologists and therapists through confidential video, voice, and text sessions delivered from any device. Founded in 2015 and Arabic-first, the consumer service offers subscription-based access to counseling, self-assessment tools, and educational content. It was surfaced as a portfolio company of 500 Global and added to the API Evangelist network. As of this enrichment pass Shezlong operates a client-side (Angular) web application behind Cloudflare and publishes no public developer API, OpenAPI definition, SDK, or /.well-known discovery surface; the profile is maintained as a lead for discovery and future enrichment.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/shezlong.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Shezlong
 nav: Providers
 network: true
@@ -59,7 +63,7 @@ score:
   band: minimal
   composite: 3.7
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -73,6 +77,11 @@ score:
     developer_ergonomics: 0.0
     discoverability: 48.2
     operational_transparency: 0.0
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - mena
   previous_composite: 3.7
   regulatory:
     applies: true
@@ -80,8 +89,8 @@ score:
     regime: Health
     regime_id: health
     score: 4.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

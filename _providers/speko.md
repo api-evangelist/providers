@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 60.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 1
@@ -64,7 +64,7 @@ apis:
   description: The Voice API from Speko — 8 operation(s) for voice.
   name: Speko Voice API
   slug: speko-voice-api
-artifact_total: 14
+artifact_total: 15
 asyncapis:
 - description: ''
   name: Speko Webhooks
@@ -86,6 +86,11 @@ collections:
   name: Speko Agents Voice API
   slug: open-speko-voice-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/speko/refs/heads/main/plans/speko-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/speko-plans-pricing.yml
 - group: company
   title: ''
   type: Website
@@ -204,27 +209,31 @@ modified: '2026-09-16'
 name: Speko
 nav: Providers
 network: true
-overview: 'Speko publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Providers API, Telephony API, and 1 more. Tagged areas include Voice, Voice AI, Speech-to-Text, Text-to-Speech, and LLM.
+overview: 'Speko publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agents API, Providers API, Telephony API, and 1 more. Tagged areas include Voice, Voice AI, Speech-to-Text, Text-to-Speech, and LLM.
 
 
   The Speko catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Speko''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, support, and 17 more developer resources.'
+  Speko''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, support, and 18 more developer resources.'
+plans:
+- name: Speko Plans Pricing
+  plan_count: 4
+  slug: speko-plans-pricing
 random_paper: 18
 score:
-  band: developing
-  composite: 50.5
+  band: strong
+  composite: 56.5
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 22
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.0
   facets:
-    access_clarity: 39.5
+    access_clarity: 71.1
     contract_governance: 18.2
     contract_quality: 61.0
     developer_ergonomics: 66.1
@@ -256,13 +265,13 @@ score:
     - jurisdiction: US
       standard: hipaa
     jurisdictions_satisfied: 2
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 27.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

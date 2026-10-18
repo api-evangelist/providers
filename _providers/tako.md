@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 43.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 6
-  human_in_the_loop: 0
+- acting_count: 5
+  human_in_the_loop: 2
   name: Tako Agentic Access
   operation_count: 13
   slug: tako-agentic-access
-  summary_line: 13 operations · 6 acting
+  summary_line: 13 operations · 5 acting · 2 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://tako.com/api
@@ -56,7 +56,7 @@ apis:
   description: The tako API from Tako — 7 operation(s) for tako.
   name: Tako API
   slug: tako-tako-api
-artifact_total: 11
+artifact_total: 12
 collections:
 - collection_type: open
   name: API Collection
@@ -68,6 +68,11 @@ collections:
   name: Knowledge Search agent tako API
   slug: open-tako-tako-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/tako/refs/heads/main/plans/tako-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/tako-plans-pricing.yml
 - group: company
   title: ''
   type: Website
@@ -215,9 +220,13 @@ created: '2026-07-17'
 description: Tako is an AI answer-engine API for authoritative, source-grounded data. It serves live financial, macroeconomic, and company data as cited answers, structured knowledge cards (charts, tables, maps), and embeddable visualizations for agents and applications. Developers build with four core APIs — Search (fast structured knowledge cards with no LLM in the loop), Answer (a single written, cited response), Contents (the exact numbers behind a card, as CSV), and Agent (asynchronous deep research runs) — plus a Data Graph for discovering what data exists, and Thin-Viz for turning your own data into embeddable Tako cards. Tako pulls from authoritative government, academic, think-tank, and licensed providers (S&P Global, SimilarWeb, YouGov, NOAA) — not scraped web content. It publishes an OpenAPI 3.1 spec, an official hosted MCP server, Python and TypeScript SDKs, an installable Agent Skill, an llms.txt, a Machine Payments Protocol surface, and emphasizes zero data retention, SOC 2
   compliance, and guaranteed SLAs. Surfaced as a portfolio company of Ribbit Capital.
 finops:
-- name: Tako Finops
+- has_sources: true
+  method: searched
+  name: Tako Finops
+  primary_unit: ''
   service_category: ''
   slug: tako-finops
+  template: false
 image: https://tako.com/apple-touch-icon
 layout: provider
 mcp_servers:
@@ -228,28 +237,32 @@ modified: '2026-09-16'
 name: Tako
 nav: Providers
 network: true
-overview: 'Tako publishes 2 APIs on the [APIs.io](https://apis.io/) network, including Agent API, and 1 more. Tagged areas include Company, Artificial Intelligence, Data, Search, and Answer Engine.
+overview: 'Tako publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agent API, and 1 more. Tagged areas include Company, Artificial Intelligence, Data, Search, and Answer Engine.
 
 
-  Tako''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, support, and 24 more developer resources.'
+  Tako''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, support, and 25 more developer resources.'
+plans:
+- name: Tako Plans Pricing
+  plan_count: 6
+  slug: tako-plans-pricing
 random_paper: 13
 rate_limits:
 - limit_count: 1
   name: Tako Rate Limits
   slug: tako-rate-limits
 score:
-  band: developing
-  composite: 49.5
+  band: strong
+  composite: 54.3
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 48.0
-    catalog_earned_first_party: 8.0
-    catalog_gap: 67.0
+    artifact_dirs: 24
+    catalog_earned: 57.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 4.8
   facets:
-    access_clarity: 52.6
+    access_clarity: 76.3
     contract_governance: 4.5
     contract_quality: 51.4
     developer_ergonomics: 75.0
@@ -272,8 +285,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

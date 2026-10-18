@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.8
-  scored_at: '2026-10-04'
+  score: 27.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -134,6 +134,21 @@ collections:
   name: Docker HUB API
   slug: open-docker-hub
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/docker-hub/refs/heads/main/plans/docker-hub-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/docker-hub-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/docker-hub/refs/heads/main/rate-limits/docker-hub-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/docker-hub-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/docker-hub/refs/heads/main/finops/docker-hub-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/docker-hub-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/docker-hub/refs/heads/main/capabilities/docker-hub-capability-edges.yml
   title: ''
@@ -230,19 +245,23 @@ common:
 created: '2024-01-01'
 description: Docker Hub is the world's largest container image registry, providing a cloud-based service for finding, storing, sharing, and managing container images. It offers public and private repositories, automated builds, webhooks, and integrations with Docker tooling and CI/CD pipelines.
 finops:
-- name: Docker Hub Finops
+- has_sources: false
+  method: generated
+  name: Docker Hub Finops
+  primary_unit: ''
   service_category: API
   slug: docker-hub-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/docker-hub.png
 layout: provider
 modified: '2026-09-16'
 name: Docker Hub
 nav: Providers
 network: true
-overview: 'Docker Hub publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Access Tokens API, Audit Logs API, Authentication API, and 7 more. Tagged areas include Containers, DevOps, Docker, and Registry.
+overview: 'Docker Hub publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Access Tokens API, Audit Logs API, Authentication API, and 7 more. Tagged areas include Containers, DevOps, Docker, and Registry.
 
 
-  Docker Hub''s developer surface includes authentication, documentation, signup flow, pricing, changelog, engineering blog, support, and 15 more developer resources.'
+  Docker Hub''s developer surface includes authentication, documentation, signup flow, pricing, changelog, engineering blog, support, and 18 more developer resources.'
 plans:
 - name: Docker Hub Plans Pricing
   plan_count: 3
@@ -254,17 +273,17 @@ rate_limits:
   slug: docker-hub-rate-limits
 score:
   band: developing
-  composite: 43.6
+  composite: 42.1
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 38.0
+    artifact_dirs: 15
+    catalog_earned: 35.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 77.0
+    catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 60.5
+    access_clarity: 52.6
     contract_governance: 0.0
     contract_quality: 53.1
     developer_ergonomics: 28.6
@@ -284,8 +303,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 25.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

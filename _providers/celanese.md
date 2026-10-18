@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 artifact_total: 6
 collections:
@@ -44,6 +44,21 @@ collections:
   name: Celanese API
   slug: open-celanese
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/celanese/refs/heads/main/plans/celanese-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/celanese-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/celanese/refs/heads/main/rate-limits/celanese-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/celanese-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/celanese/refs/heads/main/finops/celanese-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/celanese-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/celanese/refs/heads/main/security/celanese-domain-security.yml
   title: ''
@@ -87,16 +102,20 @@ coverage:
 created: '2024-01-15'
 description: Celanese Corporation is a global chemical and specialty materials company that produces high-performance engineered polymers and acetyl products used across automotive, medical, consumer, and industrial applications. Celanese has no publicly documented developer API; digital engagement is delivered through the Chemille digital materials assistant for product search and selection, and a Cognite Data Fusion based manufacturing data platform for internal operations.
 finops:
-- name: Celanese Finops
+- has_sources: false
+  method: generated
+  name: Celanese Finops
+  primary_unit: ''
   service_category: API
   slug: celanese-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/celanese.png
 layout: provider
 modified: '2026-09-06'
 name: Celanese
 nav: Providers
 network: true
-overview: Celanese publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Chemicals, Engineered Polymers, Materials, Specialty Materials, and Fortune 500.
+overview: Celanese publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network. Tagged areas include Chemicals, Engineered Polymers, Materials, Specialty Materials, and Fortune 500.
 plans:
 - name: Celanese Plans Pricing
   plan_count: 0
@@ -124,17 +143,17 @@ rate_limits:
   slug: celanese-rate-limits
 score:
   band: minimal
-  composite: 6.0
+  composite: 4.5
   coverage:
     artifact_dirs: 14
-    catalog_earned: 30.0
+    catalog_earned: 27.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 85.0
+    catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 7.9
+    access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
@@ -147,8 +166,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

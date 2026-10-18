@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.3
-  scored_at: '2026-10-04'
+  score: 20.4
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -73,6 +73,21 @@ collections:
   name: Apache Livy REST Batches Statements API
   slug: open-apache-livy-statements-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/apache-livy/refs/heads/main/plans/apache-livy-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/apache-livy-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/apache-livy/refs/heads/main/rate-limits/apache-livy-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/apache-livy-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/apache-livy/refs/heads/main/finops/apache-livy-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/apache-livy-finops.yml
 - group: company
   title: ''
   type: Website
@@ -193,9 +208,13 @@ features:
 - description: Simple HTTP REST API for Spark cluster interaction without native clients.
   name: REST Interface
 finops:
-- name: Apache Livy Finops
+- has_sources: false
+  method: generated
+  name: Apache Livy Finops
+  primary_unit: ''
   service_category: API
   slug: apache-livy-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/apache-livy.png
 integrations:
 - description: Livy requires a Spark cluster and acts as the REST gateway to Spark.
@@ -292,13 +311,13 @@ modified: '2026-05-19'
 name: Apache Livy
 nav: Providers
 network: true
-overview: 'Apache Livy publishes 3 APIs on the [APIs.io](https://apis.io/) network: Batches API, Sessions API, and Statements API. Tagged areas include Big Data, Interactive Computing, Open Source, REST, and Spark.
+overview: 'Apache Livy publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Batches API, Sessions API, and Statements API. Tagged areas include Big Data, Interactive Computing, Open Source, REST, and Spark.
 
 
   The Apache Livy catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Apache Livy''s developer surface includes documentation, getting-started guide, and 13 more developer resources.'
+  Apache Livy''s developer surface includes documentation, getting-started guide, and 16 more developer resources.'
 plans:
 - name: Apache Livy Plans Pricing
   plan_count: 3
@@ -309,9 +328,10 @@ rate_limits:
   name: Apache Livy Rate Limits
   slug: apache-livy-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Apache Livy API Rules
+  name: Apache Livy — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -319,7 +339,8 @@ rules:
     info: 2
     warn: 3
   slug: apache-livy-jsonschema-spectral-rules
-- effective_rule_count: 59
+- authorship: generated
+  effective_rule_count: 59
   extends:
   - spectral:oas
   name: Apache Livy API Rules
@@ -332,17 +353,17 @@ rules:
   slug: apache-livy-spectral-rules
 score:
   band: thin
-  composite: 32.5
+  composite: 31.1
   coverage:
     artifact_dirs: 16
-    catalog_earned: 61.0
+    catalog_earned: 58.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 54.0
+    catalog_gap: 57.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.4
   facets:
-    access_clarity: 26.3
+    access_clarity: 18.4
     contract_governance: 27.3
     contract_quality: 49.7
     developer_ergonomics: 21.4
@@ -365,8 +386,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

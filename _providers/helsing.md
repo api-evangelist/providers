@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 8
 apis:
 - description: 'Altra is Helsing''s reconnaissance-strike software platform. It fuses multi-sensor and multi-drone data feeds to cover wider areas, identify targets, and coordinate strikes. Altra is the AI layer that '
@@ -62,6 +62,21 @@ apis:
   slug: sg-1-fathom
 artifact_total: 32
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/helsing/refs/heads/main/plans/helsing-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/helsing-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/helsing/refs/heads/main/rate-limits/helsing-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/helsing-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/helsing/refs/heads/main/finops/helsing-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/helsing-finops.yml
 - group: company
   title: ''
   type: Website
@@ -122,9 +137,13 @@ features:
 - description: European-headquartered AI defense supplier serving Germany, France, the UK, Estonia, Ukraine, and allied militaries.
   name: Sovereign European Defense AI
 finops:
-- name: Helsing Finops
+- has_sources: false
+  method: generated
+  name: Helsing Finops
+  primary_unit: ''
   service_category: API
   slug: helsing-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/helsing.png
 integrations:
 - description: Centaur integrated into the Saab Gripen E; 2025 Project Beyond combat trial.
@@ -144,10 +163,10 @@ modified: '2026-09-16'
 name: Helsing
 nav: Providers
 network: true
-overview: 'Helsing publishes 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Defense AI, European Defense, Autonomy, Loitering Munitions, and Underwater Autonomy.
+overview: 'Helsing is listed with 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Defense AI, European Defense, Autonomy, Loitering Munitions, and Underwater Autonomy.
 
 
-  Helsing''s developer surface includes developer portal, engineering blog, support, and 4 more developer resources.'
+  Helsing''s developer surface includes developer portal, engineering blog, support, and 7 more developer resources.'
 plans:
 - name: Helsing Plans Pricing
   plan_count: 1
@@ -158,23 +177,23 @@ rate_limits:
   name: Helsing Rate Limits
   slug: helsing-rate-limits
 score:
-  band: emerging
-  composite: 16.2
+  band: minimal
+  composite: 10.2
   coverage:
     artifact_dirs: 8
-    catalog_earned: 52.4
+    catalog_earned: 39.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 62.6
+    catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.0
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 17.9
     discoverability: 62.5
-    operational_transparency: 18.9
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -190,13 +209,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/helsing/refs/heads/main/screenshots/helsing-2026-10-11T185740.png
 security:
 - kind: domain-security
   name: Helsing Domain Security

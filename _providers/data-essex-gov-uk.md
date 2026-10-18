@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: CKAN Action API for Essex Open Data, a consistent JSON-over-HTTP interface over a catalog of an open datasets. Standard actions include package_search, package_show, package_list, organization_list, g
@@ -41,6 +41,14 @@ apis:
   slug: catalog
 artifact_total: 6
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://blog.essex.gov.uk/blogs
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.essex.gov.uk/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/data-essex-gov-uk/refs/heads/main/security/data-essex-gov-uk-vulnerability-disclosure.yml
   title: ''
@@ -82,19 +90,23 @@ common:
 created: '2026-06-04'
 description: Essex Open Data is a local council open-data portal for United Kingdom running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately an open datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.
 finops:
-- name: Data Essex Gov Uk Finops
+- has_sources: true
+  method: generated
+  name: Data Essex Gov Uk Finops
+  primary_unit: ''
   service_category: Open Data
   slug: data-essex-gov-uk-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/data-essex-gov-uk.png
 layout: provider
-modified: '2026-06-04'
+modified: '2026-10-06'
 name: Essex Open Data
 nav: Providers
 network: true
-overview: 'Essex Open Data publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Open Data, CKAN, Data Catalog, DCAT, and Government Data.
+overview: 'Essex Open Data is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Open Data, CKAN, Data Catalog, DCAT, and Government Data.
 
 
-  Essex Open Data''s developer surface includes documentation and 7 more developer resources.'
+  Essex Open Data''s developer surface includes engineering blog, documentation, and 8 more developer resources.'
 plans:
 - name: Data Essex Gov Uk Plans Pricing
   plan_count: 1
@@ -105,23 +117,23 @@ rate_limits:
   name: Data Essex Gov Uk Rate Limits
   slug: data-essex-gov-uk-rate-limits
 score:
-  band: emerging
-  composite: 16.1
+  band: minimal
+  composite: 10.5
   coverage:
-    artifact_dirs: 6
-    catalog_earned: 54.4
+    artifact_dirs: 7
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 60.6
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.6
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 9.5
+    developer_ergonomics: 11.9
     discoverability: 66.1
-    operational_transparency: 18.9
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -137,9 +149,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

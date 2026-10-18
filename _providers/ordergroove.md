@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: verified
     openapi_examples: false
     protected_resource_metadata: verified
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 37.7
-  scored_at: '2026-10-04'
+  score: 35.8
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -104,6 +104,10 @@ collections:
   name: Ordergroove REST API
   slug: open-ordergroove
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.ordergroove.com/feed/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/ordergroove/refs/heads/main/capabilities/ordergroove-capability-edges.yml
   title: ''
@@ -176,23 +180,27 @@ common:
 created: '2026-07-10'
 description: Ordergroove is an enterprise subscription and relationship-commerce platform that lets retailers and DTC brands offer recurring purchases, autoship, memberships, bundles, prepaid, and rotating/curation subscriptions on top of their existing eCommerce store. It exposes a documented public REST API at restapi.ordergroove.com organized around a four-object data model - Customer, Subscription, Item, and Order - plus supporting resources for Products, Offers and Incentives, Payments, Addresses, and Entitlements, along with outbound Webhooks for order, item, subscription, and subscriber events. Requests use an Application API scope (x-api-key header, server-to-server) or a Storefront API scope (HMAC-SHA256-signed, single-customer context). A GraphQL API for subscription and order data is in Early Access. The platform itself is enterprise and sold through sales, but the developer documentation and API reference are publicly readable.
 finops:
-- name: Ordergroove Finops
+- has_sources: true
+  method: generated
+  name: Ordergroove Finops
+  primary_unit: ''
   service_category: Commerce and Subscriptions
   slug: ordergroove-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ordergroove.png
 layout: provider
 mcp_servers:
 - description: Remote MCP server at mcp.ordergroove.com over HTTP.
   name: Ordergroove MCP Server
   slug: ordergroove
-modified: '2026-07-10'
+modified: '2026-10-06'
 name: Ordergroove
 nav: Providers
 network: true
-overview: 'Ordergroove publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Customers API, Items API, Offers API, and 4 more. Tagged areas include Subscription, Recurring Commerce, Relationship Commerce, E-Commerce, and Autoship.
+overview: 'Ordergroove publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Customers API, Items API, Offers API, and 4 more. Tagged areas include Subscription, Recurring Commerce, Relationship Commerce, E-Commerce, and Autoship.
 
 
-  Ordergroove''s developer surface includes authentication, documentation, signup flow, engineering blog, and 11 more developer resources.'
+  Ordergroove''s developer surface includes authentication, documentation, signup flow, engineering blog, and 12 more developer resources.'
 plans:
 - name: Ordergroove Plans Pricing
   plan_count: 2
@@ -204,22 +212,22 @@ rate_limits:
   slug: ordergroove-rate-limits
 score:
   band: thin
-  composite: 33.9
+  composite: 27.0
   coverage:
-    artifact_dirs: 14
-    catalog_earned: 58.0
+    artifact_dirs: 15
+    catalog_earned: 42.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.0
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.9
   facets:
-    access_clarity: 34.7
+    access_clarity: 13.2
     contract_governance: 0.0
     contract_quality: 44.1
     developer_ergonomics: 23.8
     discoverability: 68.3
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   previous_composite: 33.9
   provenance:
     agentic_access: derived
@@ -235,9 +243,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0
@@ -254,7 +262,7 @@ security:
 - kind: vulnerability-disclosure
   name: Ordergroove Vulnerability Disclosure
   slug: ordergroove-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 - kind: trust-center
   name: Ordergroove Trust Center
   slug: ordergroove-trust-center

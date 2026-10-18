@@ -23,14 +23,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 2
   name: Enfuce Agentic Access
-  operation_count: 12
+  operation_count: 13
   slug: enfuce-agentic-access
-  summary_line: 12 operations · 9 acting · 2 human-in-the-loop
+  summary_line: 13 operations · 9 acting · 2 human-in-the-loop
 api_count: 2
 apis:
 - baseURL: https://api.{{tenant}}.eu.live.prod.mycore.enfuce.com/issuer
@@ -204,7 +204,7 @@ modified: '2026-09-21'
 name: Enfuce
 nav: Providers
 network: true
-overview: 'Enfuce publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Authorisation Request API, Create Card API, Create PIN Control access token API, and 4 more. Tagged areas include Company, Payments, Card Issuing, Fintech, and API Platform.
+overview: 'Enfuce publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authorisation Request API, Create Card API, Create PIN Control access token API, and 4 more. Tagged areas include Company, Payments, Card Issuing, Fintech, and API Platform.
 
 
   Enfuce''s developer surface includes changelog, pricing, authentication, documentation, API reference, getting-started guide, engineering blog, and 21 more developer resources.'
@@ -217,7 +217,7 @@ score:
   band: developing
   composite: 49.3
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
@@ -248,12 +248,13 @@ score:
     regime: Payments
     regime_id: payments
     score: 29.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
     score: 0.0
+screenshot: https://raw.githubusercontent.com/api-evangelist/enfuce/refs/heads/main/screenshots/enfuce-2026-10-11T104207.png
 security:
 - kind: authentication
   name: Enfuce Authentication

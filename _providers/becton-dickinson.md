@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: 'The BD Incada Connected Care Platform is a scalable, AI-enabled, cloud-based platform launched in October 2025 that unifies BD device data from infusion pumps, patient monitors, and pharmacy robotics '
@@ -44,6 +44,21 @@ apis:
   slug: pyxis
 artifact_total: 23
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/becton-dickinson/refs/heads/main/plans/becton-dickinson-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/becton-dickinson-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/becton-dickinson/refs/heads/main/rate-limits/becton-dickinson-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/becton-dickinson-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/becton-dickinson/refs/heads/main/finops/becton-dickinson-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/becton-dickinson-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/becton-dickinson/refs/heads/main/security/becton-dickinson-domain-security.yml
   title: ''
@@ -123,9 +138,13 @@ features:
 - description: Customizable dashboards and analytics enabling frontline clinical teams to act on device and medication data insights.
   name: Enterprise Analytics
 finops:
-- name: Becton Dickinson Finops
+- has_sources: true
+  method: generated
+  name: Becton Dickinson Finops
+  primary_unit: ''
   service_category: Healthcare / Medical Device Connectivity
   slug: becton-dickinson-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/becton-dickinson.png
 integrations:
 - description: Integration with Epic electronic medical records for medication order and administration workflow connectivity.
@@ -143,10 +162,10 @@ modified: '2026-09-04'
 name: Becton Dickinson
 nav: Providers
 network: true
-overview: 'Becton Dickinson publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Healthcare, Medical Devices, Infusion Therapy, Medication Management, and Connected Health.
+overview: 'Becton Dickinson is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Healthcare, Medical Devices, Infusion Therapy, Medication Management, and Connected Health.
 
 
-  Becton Dickinson''s developer surface includes support, engineering blog, and 12 more developer resources.'
+  Becton Dickinson''s developer surface includes support, engineering blog, and 15 more developer resources.'
 plans:
 - name: Becton Dickinson Plans Pricing
   plan_count: 1
@@ -173,18 +192,18 @@ rate_limits:
   name: Becton Dickinson Rate Limits
   slug: becton-dickinson-rate-limits
 score:
-  band: thin
-  composite: 26.4
+  band: emerging
+  composite: 24.8
   coverage:
     artifact_dirs: 13
-    catalog_earned: 39.0
+    catalog_earned: 36.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 76.0
+    catalog_gap: 79.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 50.0
+    access_clarity: 42.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 16.7
@@ -199,8 +218,8 @@ score:
     regime: Health
     regime_id: health
     score: 28.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

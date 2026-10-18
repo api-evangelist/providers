@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.8
-  scored_at: '2026-10-04'
+  score: 22.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -96,6 +96,14 @@ collections:
   name: SMART Health IT Sandbox FHIR APIs
   slug: open-smarthealthit
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://smarthealthit.org/category/news/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://smarthealthit.org/feed/
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/smarthealthit/refs/heads/main/agentic-access/smarthealthit-agentic-access.yml
   title: ''
@@ -150,19 +158,23 @@ common:
 created: '2026-07-11'
 description: SMART Health IT is the open standards and open source project run by the Computational Health Informatics Program at Boston Children's Hospital and Harvard Medical School that defines SMART on FHIR - the OAuth 2.0-based SMART App Launch framework that lets patient-facing and clinician-facing apps plug into any EHR and read clinical records over FHIR. The project publishes the HL7 SMART App Launch and FHIR Bulk Data specifications, the SMART Health Cards and SMART Health Links verifiable clinical data frameworks, open source client libraries, and free public sandboxes - an open FHIR R4 server loaded with synthetic patient records, the SMART App Launcher for simulating EHR and patient portal launches, and a reference Bulk Data server for testing system-level export.
 finops:
-- name: Smarthealthit Finops
+- has_sources: true
+  method: generated
+  name: Smarthealthit Finops
+  primary_unit: ''
   service_category: Healthcare Interoperability
   slug: smarthealthit-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/smarthealthit.png
 layout: provider
-modified: '2026-07-11'
+modified: '2026-10-06'
 name: SMART Health IT
 nav: Providers
 network: true
-overview: 'SMART Health IT publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Bulk Data API, Clinical Records API, Conformance API, and 3 more. Tagged areas include SMART on FHIR, FHIR, Health IT, EHR Integration, and Clinical Data.
+overview: 'SMART Health IT publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Bulk Data API, Clinical Records API, Conformance API, and 3 more. Tagged areas include SMART on FHIR, FHIR, Health IT, EHR Integration, and Clinical Data.
 
 
-  SMART Health IT''s developer surface includes authentication, documentation, and 9 more developer resources.'
+  SMART Health IT''s developer surface includes engineering blog, authentication, documentation, and 10 more developer resources.'
 plans:
 - name: Smarthealthit Plans Pricing
   plan_count: 1
@@ -174,22 +186,22 @@ rate_limits:
   slug: smarthealthit-rate-limits
 score:
   band: thin
-  composite: 33.3
+  composite: 26.9
   coverage:
-    artifact_dirs: 10
-    catalog_earned: 58.0
+    artifact_dirs: 11
+    catalog_earned: 42.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.0
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.4
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 48.1
-    developer_ergonomics: 28.6
+    developer_ergonomics: 31.0
     discoverability: 66.1
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   previous_composite: 33.3
   provenance:
     agentic_access: derived
@@ -204,9 +216,9 @@ score:
     regime: Health
     regime_id: health
     score: 14.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0
@@ -223,7 +235,7 @@ security:
 - kind: vulnerability-disclosure
   name: Smarthealthit Vulnerability Disclosure
   slug: smarthealthit-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 slug: smarthealthit
 tags:
 - SMART on FHIR

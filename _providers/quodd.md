@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.4
-  scored_at: '2026-10-04'
+  score: 19.5
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 4
+- acting_count: 2
   human_in_the_loop: 0
   name: Quodd Agentic Access
   operation_count: 8
   slug: quodd-agentic-access
-  summary_line: 8 operations · 4 acting
+  summary_line: 8 operations · 2 acting
 api_count: 1
 apis:
 - baseURL: https://api.quodd.com
@@ -102,6 +102,10 @@ collections:
   name: QUODD Market Data API (Modeled) Authentication Snapshots API
   slug: open-quodd-snapshots-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.quodd.com/insights/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/quodd/refs/heads/main/security/quodd-domain-security.yml
   title: ''
@@ -212,19 +216,23 @@ common:
 created: '2026-07-11'
 description: QUODD is a cloud-native market data provider delivering real-time, delayed, historical, end-of-day, and point-in-time pricing, plus reference data, a security master, fundamentals, estimates, corporate actions, ESG, and news across global equities, ETFs, options, fixed income, FX, funds, and indices. The QUODD Developer Platform (developer.quodd.com) exposes market data through REST and gRPC snapshot APIs, token-based authentication, and cloud delivery options - Cloud APIs, Cloud Streaming, Cloud Alerts, Cloud Search, and Cloud Files. QUODD advertises more than 250 billion data points across 150-plus global exchanges. Developer documentation is public, but production access is gated behind trial or firm credentials and enterprise contact-sales agreements; exact REST base URLs and full endpoint paths are not published openly.
 finops:
-- name: Quodd Finops
+- has_sources: true
+  method: generated
+  name: Quodd Finops
+  primary_unit: ''
   service_category: Market Data and Financial Information
   slug: quodd-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/quodd.png
 layout: provider
-modified: '2026-07-22'
+modified: '2026-10-06'
 name: QUODD
 nav: Providers
 network: true
-overview: 'QUODD publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Snap API, Batch Snaps API, Options Snaps API, and 7 more. Tagged areas include Market Data, Real-Time Data, Financial Data, Streaming, and Historical Data.
+overview: 'QUODD publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Snap API, Batch Snaps API, Options Snaps API, and 7 more. Tagged areas include Market Data, Real-Time Data, Financial Data, Streaming, and Historical Data.
 
 
-  QUODD''s developer surface includes authentication, documentation, support, engineering blog, and 19 more developer resources.'
+  QUODD''s developer surface includes authentication, documentation, support, engineering blog, and 20 more developer resources.'
 plans:
 - name: Quodd Plans Pricing
   plan_count: 2
@@ -235,23 +243,23 @@ rate_limits:
   name: Quodd Rate Limits
   slug: quodd-rate-limits
 score:
-  band: developing
-  composite: 43.1
+  band: thin
+  composite: 36.2
   coverage:
     artifact_dirs: 23
-    catalog_earned: 58.0
+    catalog_earned: 42.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.0
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.9
   facets:
-    access_clarity: 47.9
+    access_clarity: 26.3
     contract_governance: 4.5
     contract_quality: 48.4
     developer_ergonomics: 47.0
     discoverability: 73.2
-    operational_transparency: 28.4
+    operational_transparency: 7.9
   previous_composite: 43.1
   provenance:
     agentic_access: derived
@@ -269,9 +277,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

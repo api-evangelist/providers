@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'Atlas is Duplo''s global payments API for African and emerging-market businesses: collect payments (checkout, payment links, virtual accounts), disburse funds (single and bulk bank payouts, internation'
@@ -47,6 +47,14 @@ asyncapis:
   name: Duplo Atlas Webhooks
   slug: duplo-atlas-webhooks
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://tryduplo.com/news/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://tryduplo.com/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/duplo/refs/heads/main/security/duplo-domain-security.yml
   title: ''
@@ -177,17 +185,17 @@ description: 'Duplo is a fintech company building the financial operating system
   oversight as a licensed Payment Service Solution Provider (PSSP).'
 image: https://tryduplo.com/wp-content/uploads/2026/04/Dashboard-1-01-scaled.webp
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Duplo
 nav: Providers
 network: true
-overview: 'Duplo publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Payments, B2B Payments, and Cross-Border Payments.
+overview: 'Duplo is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Payments, B2B Payments, and Cross-Border Payments.
 
 
   The Duplo catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Duplo''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 21 more developer resources.'
+  Duplo''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, pricing, signup flow, and 23 more developer resources.'
 random_paper: 20
 score:
   band: developing
@@ -225,8 +233,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 33.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -27,20 +27,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 18.3
-  scored_at: '2026-10-04'
+  score: 16.5
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 1
+- acting_count: 0
   human_in_the_loop: 0
   name: Hyperliquid Agentic Access
   operation_count: 1
   slug: hyperliquid-agentic-access
-  summary_line: 1 operation · 1 acting
+  summary_line: 1 operation
 api_count: 1
 apis:
 - description: Public REST API for the Hyperliquid exchange. Read endpoints expose market metadata, order books, candles, trades, funding rates, user state, open orders, fills, and historical data. Write endpoints (
@@ -82,6 +82,21 @@ collections:
   name: Hyperliquid Info API
   slug: open-hyperliquid
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/hyperliquid/refs/heads/main/plans/hyperliquid-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/hyperliquid-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/hyperliquid/refs/heads/main/rate-limits/hyperliquid-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/hyperliquid-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/hyperliquid/refs/heads/main/finops/hyperliquid-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/hyperliquid-finops.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -143,22 +158,26 @@ common:
 created: '2026-05-23'
 description: Hyperliquid is a high-performance Layer 1 blockchain (HyperBFT consensus, HyperCore + HyperEVM execution) best known for its native perpetual futures and spot DEX with capacity for hundreds of thousands of orders per second. Developers and traders interact with Hyperliquid through a public REST and WebSocket API at api.hyperliquid.xyz for trading, order management, market data, and account state. Official Python and Rust SDKs wrap the API, and the node, order-book server, and HyperEVM tooling are open-sourced under the hyperliquid-dex GitHub organization.
 finops:
-- name: Hyperliquid Finops
+- has_sources: false
+  method: generated
+  name: Hyperliquid Finops
+  primary_unit: ''
   service_category: API
   slug: hyperliquid-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hyperliquid.png
 layout: provider
 modified: '2026-05-29'
 name: Hyperliquid
 nav: Providers
 network: true
-overview: 'Hyperliquid publishes 7 APIs on the [APIs.io](https://apis.io/) network, including WebSocket API, Info API, and 5 more. Tagged areas include DeFi, Perpetuals, DEX, Layer 1, and Trading.
+overview: 'Hyperliquid publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including WebSocket API, Info API, and 5 more. Tagged areas include DeFi, Perpetuals, Decentralized Exchange, Layer 1, and Trading.
 
 
   The Hyperliquid catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Hyperliquid''s developer surface includes documentation, GitHub presence, and 12 more developer resources.'
+  Hyperliquid''s developer surface includes documentation, GitHub presence, and 15 more developer resources.'
 plans:
 - name: Hyperliquid Plans Pricing
   plan_count: 1
@@ -169,10 +188,11 @@ rate_limits:
   name: Hyperliquid Rate Limits
   slug: hyperliquid-rate-limits
 rules:
-- effective_rule_count: 32
+- authorship: generated
+  effective_rule_count: 32
   extends:
   - spectral:asyncapi
-  name: Hyperliquid API Rules
+  name: Hyperliquid — asyncapi rules
   rule_count: 5
   severity_counts:
     error: 1
@@ -182,22 +202,22 @@ rules:
   slug: hyperliquid-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 36.8
+  composite: 31.3
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 58.2
+    artifact_dirs: 13
+    catalog_earned: 44.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 56.9
+    catalog_gap: 70.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.5
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 11.4
     contract_quality: 55.4
     developer_ergonomics: 14.3
     discoverability: 66.1
-    operational_transparency: 50.5
+    operational_transparency: 36.8
   open_source:
     applies: true
     score: 60.0
@@ -215,9 +235,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 11.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0
@@ -231,7 +251,7 @@ slug: hyperliquid
 tags:
 - DeFi
 - Perpetuals
-- DEX
+- Decentralized Exchange
 - Layer 1
 - Trading
 - Order Book

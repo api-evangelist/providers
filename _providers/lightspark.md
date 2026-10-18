@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 46.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 82
   human_in_the_loop: 5
@@ -160,7 +160,7 @@ apis:
   description: Webhook endpoints and configuration for receiving notifications
   name: Lightspark Webhooks API
   slug: lightspark-webhooks-api
-artifact_total: 76
+artifact_total: 159
 asyncapis:
 - description: ''
   name: Lightspark Grid Webhooks
@@ -302,6 +302,56 @@ collections:
   name: Grid Agent Management Transactions API
   slug: open-lightspark-transactions-api
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/lightspark/refs/heads/main/rate-limits/lightspark-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/lightspark-rate-limits.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lightspark/refs/heads/main/rules/lightspark-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/lightspark-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lightspark/refs/heads/main/rules/lightspark-grid-api-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/lightspark-grid-api-spectral-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lightspark/refs/heads/main/json-ld/lightspark-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/lightspark-context.jsonld
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lightspark/refs/heads/main/vocabulary/lightspark-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/lightspark-vocabulary.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/lightspark/refs/heads/main/changelog/lightspark-changelog.yml
+  title: ''
+  type: ChangeLog
+  url: changelog/lightspark-changelog.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lightspark/refs/heads/main/errors/lightspark-problem-types.yml
+  title: ''
+  type: ErrorCatalog
+  url: errors/lightspark-problem-types.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/lightspark/refs/heads/main/a2a/lightspark-a2a.yml
+  title: ''
+  type: AgentCard
+  url: a2a/lightspark-a2a.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/lightspark/refs/heads/main/hosts/lightspark-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/lightspark-hosts.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/lightspark/refs/heads/main/vendors/lightspark-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/lightspark-vendors.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/lightspark/refs/heads/main/capabilities/lightspark-capability-edges.yml
   title: ''
@@ -507,9 +557,253 @@ common:
   title: ''
   type: WellKnown
   url: well-known/lightspark-well-known.yml
+- group: design
+  title: ''
+  type: SpectralRules
+  url: https://github.com/lightsparkdev/grid-api/blob/db243ccb20e4ad10ecc9ee81e0d60268a2a141a4/.spectral.yaml
 created: '2026-07-17'
 description: 'Lightspark builds global money-movement infrastructure on open payment networks. Its developer product is the Grid API — a dated-version REST API (OpenAPI 3.1, 104 paths, 564 schemas, 12 webhooks) for cross-border payouts, on/off-ramps, stablecoins, embedded wallets, card issuing, KYC/KYB verification and payments to Universal Money Addresses ($user@domain). Grid is unusually agent-native: it ships a first-class agent surface with device-code credentials, per-agent policy and human-in-the-loop approvals, a hosted MCP server, a published Claude agent skill, an open-source CLI, and generated TypeScript and Kotlin SDKs. Lightspark also operates the Spark and UMA protocol stacks and is backed by a16z, Matrix Partners, Paradigm and Ribbit Capital.'
 image: https://images.prismic.io/lightspark-web/ageHhqYofJOwHSa5_og-05-2026.png?auto=format,compress
+json_schemas:
+- name: AgentActionListResponse
+  property_count: 4
+  slug: lightspark-agent-action-list-response
+- name: AgentAction
+  property_count: 12
+  slug: lightspark-agent-action
+- name: AgentDeviceCodeRedeemResponse
+  property_count: 4
+  slug: lightspark-agent-device-code-redeem-response
+- name: AgentDeviceCode
+  property_count: 4
+  slug: lightspark-agent-device-code
+- name: AgentPolicyUpdateRequest
+  property_count: 5
+  slug: lightspark-agent-policy-update-request
+- name: Agent
+  property_count: 9
+  slug: lightspark-agent
+- name: ApiTokenCreateRequest
+  property_count: 2
+  slug: lightspark-api-token-create-request
+- name: ApiToken
+  property_count: 7
+  slug: lightspark-api-token
+- name: ApprovePaymentRequest
+  property_count: 1
+  slug: lightspark-approve-payment-request
+- name: Auth Credential Challenge Request
+  property_count: 1
+  slug: lightspark-auth-credential-challenge-request
+- name: Auth Method Response
+  property_count: 0
+  slug: lightspark-auth-method-response
+- name: Authentication Session
+  property_count: 0
+  slug: lightspark-auth-session
+- name: Authentication Signed Request Challenge
+  property_count: 0
+  slug: lightspark-auth-signed-request-challenge
+- name: BeneficialOwnerCreateRequest
+  property_count: 4
+  slug: lightspark-beneficial-owner-create-request
+- name: BeneficialOwnerListResponse
+  property_count: 4
+  slug: lightspark-beneficial-owner-list-response
+- name: BeneficialOwner
+  property_count: 8
+  slug: lightspark-beneficial-owner
+- name: BeneficiaryTrustConfirmRequest
+  property_count: 4
+  slug: lightspark-beneficiary-trust-confirm-request
+- name: BulkCustomerImportJob
+  property_count: 5
+  slug: lightspark-bulk-customer-import-job
+- name: CardCreateRequest
+  property_count: 4
+  slug: lightspark-card-create-request
+- name: CardListResponse
+  property_count: 4
+  slug: lightspark-card-list-response
+- name: CardRevealResponse
+  property_count: 2
+  slug: lightspark-card-reveal-response
+- name: Card
+  property_count: 16
+  slug: lightspark-card
+- name: Card Transaction
+  property_count: 20
+  slug: lightspark-card-transaction
+- name: CardUpdateRequest
+  property_count: 2
+  slug: lightspark-card-update-request
+- name: ConfirmReceiptDeliveryRequest
+  property_count: 1
+  slug: lightspark-confirm-receipt-delivery-request
+- name: ContactVerificationConfirmRequest
+  property_count: 1
+  slug: lightspark-contact-verification-confirm-request
+- name: CustomerCreateRequestOneOf
+  property_count: 0
+  slug: lightspark-customer-create-request-one-of
+- name: CustomerListResponse
+  property_count: 4
+  slug: lightspark-customer-list-response
+- name: CustomerOneOf
+  property_count: 0
+  slug: lightspark-customer-one-of
+- name: Customer
+  property_count: 12
+  slug: lightspark-customer
+- name: CustomerUpdateRequestOneOf
+  property_count: 0
+  slug: lightspark-customer-update-request-one-of
+- name: Delegated Key
+  property_count: 10
+  slug: lightspark-delegated-key
+- name: DiscoveryListResponse
+  property_count: 1
+  slug: lightspark-discovery-list-response
+- name: DocumentListResponse
+  property_count: 4
+  slug: lightspark-document-list-response
+- name: Document
+  property_count: 10
+  slug: lightspark-document
+- name: EstimateCryptoWithdrawalFeeRequest
+  property_count: 5
+  slug: lightspark-estimate-crypto-withdrawal-fee-request
+- name: EstimateCryptoWithdrawalFeeResponse
+  property_count: 5
+  slug: lightspark-estimate-crypto-withdrawal-fee-response
+- name: ExchangeRateListResponse
+  property_count: 1
+  slug: lightspark-exchange-rate-list-response
+- name: ExecuteQuoteRequest
+  property_count: 1
+  slug: lightspark-execute-quote-request
+- name: ExternalAccountCreateRequest
+  property_count: 0
+  slug: lightspark-external-account-create-request
+- name: ExternalAccountListResponse
+  property_count: 4
+  slug: lightspark-external-account-list-response
+- name: ExternalAccount
+  property_count: 0
+  slug: lightspark-external-account
+- name: Incoming Transaction
+  property_count: 0
+  slug: lightspark-incoming-transaction
+- name: Internal Account Export Request
+  property_count: 1
+  slug: lightspark-internal-account-export-request
+- name: Internal Account Export Response
+  property_count: 2
+  slug: lightspark-internal-account-export-response
+- name: InternalAccountListResponse
+  property_count: 4
+  slug: lightspark-internal-account-list-response
+- name: InternalAccount
+  property_count: 10
+  slug: lightspark-internal-account
+- name: Internal Account Update Request
+  property_count: 1
+  slug: lightspark-internal-account-update-request
+- name: KycLinkResponse
+  property_count: 4
+  slug: lightspark-kyc-link-response
+- name: Outgoing Transaction
+  property_count: 0
+  slug: lightspark-outgoing-transaction
+- name: PlatformConfig
+  property_count: 9
+  slug: lightspark-platform-config
+- name: PlatformConfigUpdateRequest
+  property_count: 4
+  slug: lightspark-platform-config-update-request
+- name: PlatformExternalAccountCreateRequest
+  property_count: 3
+  slug: lightspark-platform-external-account-create-request
+- name: QuoteRequest
+  property_count: 11
+  slug: lightspark-quote-request
+- name: Quote
+  property_count: 18
+  slug: lightspark-quote
+- name: ReceiverExternalAccountLookupResponse
+  property_count: 0
+  slug: lightspark-receiver-external-account-lookup-response
+- name: RejectPaymentRequest
+  property_count: 1
+  slug: lightspark-reject-payment-request
+- name: SandboxCardClearingRequest
+  property_count: 2
+  slug: lightspark-sandbox-card-clearing-request
+- name: SandboxUmaReceiveRequest
+  property_count: 5
+  slug: lightspark-sandbox-uma-receive-request
+- name: ScaAuthorization
+  property_count: 3
+  slug: lightspark-sca-authorization
+- name: ScaLoginCompleteRequest
+  property_count: 5
+  slug: lightspark-sca-login-complete-request
+- name: ScaLoginStart
+  property_count: 6
+  slug: lightspark-sca-login-start
+- name: Signed Request Challenge
+  property_count: 3
+  slug: lightspark-signed-request-challenge
+- name: StablecoinProviderAccountLinkRequest
+  property_count: 4
+  slug: lightspark-stablecoin-provider-account-link-request
+- name: StablecoinProviderAccountListResponse
+  property_count: 4
+  slug: lightspark-stablecoin-provider-account-list-response
+- name: StablecoinProviderAccount
+  property_count: 8
+  slug: lightspark-stablecoin-provider-account
+- name: TokenListResponse
+  property_count: 4
+  slug: lightspark-token-list-response
+- name: TransactionListResponse
+  property_count: 4
+  slug: lightspark-transaction-list-response
+- name: TransactionOneOf
+  property_count: 0
+  slug: lightspark-transaction-one-of
+- name: TransferInRequest
+  property_count: 3
+  slug: lightspark-transfer-in-request
+- name: TransferOutRequest
+  property_count: 4
+  slug: lightspark-transfer-out-request
+- name: TwoFactorResetStatus
+  property_count: 5
+  slug: lightspark-two-factor-reset-status
+- name: UmaInvitationClaimRequest
+  property_count: 1
+  slug: lightspark-uma-invitation-claim-request
+- name: UmaInvitationCreateRequest
+  property_count: 4
+  slug: lightspark-uma-invitation-create-request
+- name: UmaInvitation
+  property_count: 10
+  slug: lightspark-uma-invitation
+- name: UmaProviderListResponse
+  property_count: 4
+  slug: lightspark-uma-provider-list-response
+- name: VerificationListResponse
+  property_count: 4
+  slug: lightspark-verification-list-response
+- name: Verification
+  property_count: 6
+  slug: lightspark-verification
+jsonld:
+- class_count: 120
+  name: Lightspark Context
+  property_count: 140
+  slug: lightspark-context
 layout: provider
 mcp_servers:
 - description: Remote MCP server at grid-mcp.stlmcp.com.
@@ -519,19 +813,40 @@ modified: '2026-07-19'
 name: Lightspark
 nav: Providers
 network: true
-overview: 'Lightspark publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Agent Management API, Agent Operations API, API Tokens API, and 20 more. Tagged areas include Company, Payments, Cross-Border Payments, Stablecoins, and Bitcoin.
+overview: 'Lightspark publishes 23 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agent Management API, Agent Operations API, API Tokens API, and 20 more. Tagged areas include Company, Payments, Cross-Border Payments, Stablecoins, and Bitcoin.
 
 
-  The Lightspark catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
+  The Lightspark catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Lightspark''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 38 more developer resources.'
+  Lightspark''s developer surface includes changelog, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 49 more developer resources.'
+plans:
+- name: Lightspark Plans Pricing
+  plan_count: 0
+  slug: lightspark-plans-pricing
 random_paper: 3
+rate_limits:
+- limit_count: 5
+  name: Lightspark Rate Limits
+  slug: lightspark-rate-limits
 rules:
-- effective_rule_count: 54
+- authorship: provider
+  effective_rule_count: 54
   extends:
   - spectral:oas
-  name: Lightspark API Rules
+  name: Lightspark — grid api rules
+  rule_count: 13
+  severity_counts:
+    error: 8
+    hint: 0
+    info: 1
+    warn: 4
+  slug: lightspark-grid-api-spectral-rules
+- authorship: unmarked
+  effective_rule_count: 54
+  extends:
+  - spectral:oas
+  name: Lightspark — grid spectral rules
   rule_count: 13
   severity_counts:
     error: 8
@@ -539,24 +854,36 @@ rules:
     info: 1
     warn: 4
   slug: lightspark-grid-spectral
+- authorship: generated
+  effective_rule_count: 59
+  extends:
+  - spectral:oas
+  name: Lightspark API Rules
+  rule_count: 18
+  severity_counts:
+    error: 14
+    hint: 0
+    info: 2
+    warn: 2
+  slug: lightspark-rules
 score:
-  band: strong
-  composite: 66.4
+  band: exemplar
+  composite: 67.0
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 53.2
+    artifact_dirs: 35
+    catalog_earned: 65.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 61.8
+    catalog_gap: 49.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 36.8
-    contract_governance: 67.3
-    contract_quality: 61.6
+    contract_governance: 35.6
+    contract_quality: 75.0
     developer_ergonomics: 81.5
     discoverability: 75.0
-    operational_transparency: 60.5
+    operational_transparency: 68.4
   previous_composite: 66.4
   provenance:
     agentic_access: derived
@@ -574,8 +901,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 32.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 46.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 189
+- acting_count: 194
   human_in_the_loop: 0
   name: Cvent Event Cloud Agentic Access
-  operation_count: 383
+  operation_count: 458
   slug: cvent-event-cloud-agentic-access
-  summary_line: 383 operations · 189 acting
+  summary_line: 458 operations · 194 acting
 api_count: 2
 apis:
 - description: RESTful API for managing events, contacts, registrations, attendees, sessions, speakers, exhibitors, surveys, webhooks, and Attendee Hub data. Uses OAuth 2.0 client credentials. Authorization code flo
@@ -1607,9 +1607,13 @@ created: '2024-01-01'
 description: 'Cvent Event Cloud is the event management product line of the Cvent Platform. It supports the full event lifecycle: event creation, registration, marketing, agenda and session management, mobile event apps, onsite check-in, virtual and hybrid event delivery via the Attendee Hub, surveys, and analytics. Cvent publishes its own OpenAPI specification in public git at github.com/cvent/rest-sdks (cvent-public-spec/openapi.yaml) — 346 paths, 458 operations, 1,302 schemas — and generates its first-party TypeScript, .NET and Java SDKs from it with Speakeasy, applying five published OpenAPI Overlay 1.0.0 documents in the process. Access is OAuth 2.0, client credentials for server-to-server and authorization code for planner administrators, with the token endpoint at api-platform.cvent.com/ea/oauth2/token and 235 declared scopes. Regional bases split North America (api-platform.cvent.com/ea) from Europe (api-platform-eur.cvent.com/ea) with no cross-region read. Cvent also runs a live
   remote MCP server at mcp.cvent.com/mcp secured with OAuth 2.1 and PKCE, publishes a dated biweekly changelog, a 40-message webhook catalogue, SCIM 2.0 user provisioning, and a Custom Widgets browser SDK for embedding components in Cvent-hosted event pages.'
 finops:
-- name: Cvent Event Cloud Finops
+- has_sources: false
+  method: generated
+  name: Cvent Event Cloud Finops
+  primary_unit: ''
   service_category: API
   slug: cvent-event-cloud-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cvent-event-cloud.png
 layout: provider
 mcp_servers:
@@ -1620,7 +1624,7 @@ modified: '2026-08-13'
 name: Cvent Event Cloud
 nav: Providers
 network: true
-overview: 'Cvent Event Cloud publishes 55 APIs on the [APIs.io](https://apis.io/) network, including Attendees API, Contacts API, Events API, and 52 more. Tagged areas include Attendee Hub, Attendees, Bulk, Contacts, and Event Cloud.
+overview: 'Cvent Event Cloud publishes 55 API contracts indexed on the [APIs.io](https://apis.io/) network, including Attendees API, Contacts API, Events API, and 52 more. Tagged areas include Attendee Hub, Attendees, Bulk, Contacts, and Event Cloud.
 
 
   The Cvent Event Cloud catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -1643,23 +1647,23 @@ scopes:
   summary_line: 235 scopes · authorizationCode/clientCredentials
 score:
   band: exemplar
-  composite: 72.4
+  composite: 70.9
   coverage:
-    artifact_dirs: 28
-    catalog_earned: 64.0
+    artifact_dirs: 29
+    catalog_earned: 61.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 51.0
+    catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -1.5
   facets:
-    access_clarity: 100.0
+    access_clarity: 92.1
     contract_governance: 4.5
     contract_quality: 65.5
     developer_ergonomics: 67.3
     discoverability: 75.0
     operational_transparency: 81.6
-  previous_composite: 71.9
+  previous_composite: 72.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1676,8 +1680,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

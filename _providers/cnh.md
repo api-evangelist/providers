@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.8
-  scored_at: '2026-10-04'
+  score: 22.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -112,6 +112,21 @@ collections:
   name: CNH FieldOps Equipment Webhooks API
   slug: open-cnh-webhooks-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/cnh/refs/heads/main/plans/cnh-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/cnh-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cnh/refs/heads/main/rate-limits/cnh-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/cnh-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/cnh/refs/heads/main/finops/cnh-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/cnh-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/cnh/refs/heads/main/capabilities/cnh-capability-edges.yml
   title: ''
@@ -189,9 +204,13 @@ common:
 created: '2025-03-01'
 description: CNH Industrial is a global leader in the manufacturing and distribution of agricultural and construction equipment, with brands including Case IH, New Holland, STEYR, Case CE, and New Holland Construction. Through develop.cnh.com CNH operates a developer portal that exposes the FieldOps API - a unified, ISO 15143-3 compliant REST API for vehicle telemetry, equipment management, farm/grower hierarchy, operations, prescription Rx delivery, and webhook subscriptions across both agronomic machinery and construction equipment.
 finops:
-- name: Cnh Finops
+- has_sources: false
+  method: generated
+  name: Cnh Finops
+  primary_unit: ''
   service_category: API
   slug: cnh-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cnh.png
 json_schemas:
 - name: CNH FieldOps Equipment
@@ -210,13 +229,13 @@ modified: '2026-05-19'
 name: CNH
 nav: Providers
 network: true
-overview: 'CNH publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Equipment API, Farm Setup API, Operations API, and 5 more. Tagged areas include Agriculture, Construction, Telematics, Equipment, and FieldOps.
+overview: 'CNH publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Equipment API, Farm Setup API, Operations API, and 5 more. Tagged areas include Agriculture, Construction, Telematics, Equipment, and FieldOps.
 
 
   The CNH catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  CNH''s developer surface includes authentication, developer portal, getting-started guide, documentation, and 12 more developer resources.'
+  CNH''s developer surface includes authentication, developer portal, getting-started guide, documentation, and 15 more developer resources.'
 plans:
 - name: Cnh Plans Pricing
   plan_count: 3
@@ -227,9 +246,10 @@ rate_limits:
   name: Cnh Rate Limits
   slug: cnh-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: CNH API Rules
+  name: CNH — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -237,7 +257,8 @@ rules:
     info: 2
     warn: 3
   slug: cnh-jsonschema-spectral-rules
-- effective_rule_count: 50
+- authorship: unmarked
+  effective_rule_count: 50
   extends:
   - spectral:oas
   name: CNH API Rules
@@ -255,17 +276,17 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: thin
-  composite: 38.9
+  composite: 37.4
   coverage:
-    artifact_dirs: 14
-    catalog_earned: 62.5
+    artifact_dirs: 16
+    catalog_earned: 59.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 52.5
+    catalog_gap: 55.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 26.3
+    access_clarity: 18.4
     contract_governance: 13.6
     contract_quality: 55.0
     developer_ergonomics: 50.0
@@ -285,8 +306,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

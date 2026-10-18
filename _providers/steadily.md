@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 39
   slug: steadily-agentic-access
   summary_line: 39 operations · 14 acting
-api_count: 3
+api_count: 4
 apis:
 - baseURL: https://api.steadily.com
   baseurl_source: declared
@@ -114,6 +114,10 @@ collections:
   name: Partner Account Reporting API
   slug: open-steadily-reporting-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.steadily.com/blog/rss.xml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/steadily/refs/heads/main/capabilities/steadily-capability-edges.yml
   title: ''
@@ -228,14 +232,14 @@ created: '2026-07-17'
 description: Steadily is a US landlord-insurance provider — built by landlords, for landlords — writing rental-property policies in all 50 states with online quotes in minutes and coverage designed around how rental properties actually work. Its Partner API, a FastAPI-based REST service at api.steadily.com, lets property managers, lenders, and marketplaces generate instant insurance estimates, refer leads, and track bound policies. Appointed independent agencies use the companion Rater Quotes API to create, price, underwrite, and offer quotes directly from their rater. Steadily was founded by a landlord who could not find decent insurance for his own rental property.
 image: https://app.steadily.com/static/images/steadily-logo.svg
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Steadily
 nav: Providers
 network: true
-overview: 'Steadily publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Account API, Draft Quote API, Lead Referrals API, and 5 more. Tagged areas include Company, Fintech, Insurance, Landlord Insurance, and Insurtech.
+overview: 'Steadily publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Draft Quote API, Lead Referrals API, and 5 more. Tagged areas include Company, Fintech, Insurance, Landlord Insurance, and Insurtech.
 
 
-  Steadily''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, signup flow, and 18 more developer resources.'
+  Steadily''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, signup flow, and 19 more developer resources.'
 random_paper: 5
 score:
   band: thin
@@ -272,8 +276,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 23.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -291,7 +295,7 @@ security:
 - kind: vulnerability-disclosure
   name: Steadily Vulnerability Disclosure
   slug: steadily-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 slug: steadily
 tags:
 - Company

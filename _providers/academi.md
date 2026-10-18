@@ -23,10 +23,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://constellis.com/news/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://constellis.com/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/academi/refs/heads/main/security/academi-domain-security.yml
   title: ''
@@ -56,17 +64,20 @@ created: '2026-09-06'
 description: 'ACADEMI was the 2011-2014 name of the American private military, security and training company founded on 26 December 1996 in North Carolina by Erik Prince and Al Clark as Blackwater. It was renamed Blackwater Worldwide in October 2007 after the Nisour Square shooting in Baghdad, then Xe Services LLC in February 2009. In December 2010 the training business and its Moyock, North Carolina campus - the largest private training facility in the United States - were bought by USTC Holdings, an investor consortium led by Forte Capital Advisors and Manhattan Strategic Ventures, ending Erik Prince''s involvement, and the company was rebranded ACADEMI in December 2011 under chairman Red McCombs. In June 2014 Academi Training Center, LLC was merged with Triple Canopy, Constellis Ltd., Strategic Social, Tidewater Global Services, National Strategic Protective Services and International Development Solutions to form Constellis Holdings, which Apollo Global Management acquired in September
   2016 and which is headquartered in Herndon, Virginia. The ACADEMI brand was retired in the merger: Constellis states on its own site that "Academi remains part of historical, legal, and contractual records, but Constellis does not operate under the Academi name", and the Moyock campus now trades as the Constellis Training Center. The business sells physical services - firearms, driving, maritime, K-9, UAS/C-UAS and advanced security and military training, protective security details, and logistics and complex program management for United States government customers - not software. It never operated a developer program, public API, SDK, webhook surface or machine-readable API specification, and academi.com no longer serves a website: the domain is retained by Constellis for email only. This profile is retained as a historical record; there is no API surface to enrich.'
 layout: provider
-modified: '2026-09-06'
+modified: '2026-10-06'
 name: Academi
 nav: Providers
 network: true
-overview: Academi is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defense, Private Military, Security Services, and Physical Security.
+overview: 'Academi is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defense, Private Military, Security Services, and Physical Security.
+
+
+  Academi''s developer surface includes engineering blog and 3 more developer resources.'
 random_paper: 4
 score:
   band: minimal
   composite: 0.0
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 6
     catalog_earned: 25.0
     catalog_earned_first_party: 0.0
     catalog_gap: 90.0
@@ -93,13 +104,14 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/academi/refs/heads/main/screenshots/academi-2026-10-11T092458.png
 security:
 - kind: domain-security
   name: Academi Domain Security

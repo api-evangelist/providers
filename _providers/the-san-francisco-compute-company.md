@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 53.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 31
+- acting_count: 30
   human_in_the_loop: 2
   name: The San Francisco Compute Company Agentic Access
   operation_count: 65
   slug: the-san-francisco-compute-company-agentic-access
-  summary_line: 65 operations · 31 acting · 2 human-in-the-loop
+  summary_line: 65 operations · 30 acting · 2 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://api.sfcompute.com/preview/v2
@@ -162,6 +162,14 @@ collections:
   name: sfc-api Account Workspaces API
   slug: open-the-san-francisco-compute-company-workspaces-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://sfcompute.com/news
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://sfcompute.com/news/rss.xml
 - group: commercial
   href: https://raw.githubusercontent.com/api-evangelist/the-san-francisco-compute-company/refs/heads/main/plans/the-san-francisco-compute-company-plans-pricing.yml
   title: ''
@@ -338,14 +346,14 @@ created: '2026-07-17'
 description: The San Francisco Compute Company (SF Compute) runs large-scale, vetted GPU clusters and operates a compute marketplace where buyers reserve H100/H200 capacity by the hour and sellers resell unused compute back into the market with no long-term lock-in. Its public preview REST API (api.sfcompute.com, base path /preview/v2) and the `sf` CLI let developers buy and sell compute via orders and an orderbook, manage pools of reserved balance, launch and operate GPU instances from images and templates, run procurements and deployments, and organize resources across workspaces with roles, grants, and tags. Authentication is a Bearer token (sk_live_ API key). The API is documented on a Mintlify docs site with a per-operation OpenAPI reference, an llms.txt index, and an official agent skill.
 image: https://sfcompute.com/icon.svg
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: The San Francisco Compute Company
 nav: Providers
 network: true
-overview: 'The San Francisco Compute Company publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Account API, Deployments API, Feature Flags API, and 11 more. Tagged areas include Company, GPU, Compute, Cloud Infrastructure, and Artificial Intelligence.
+overview: 'The San Francisco Compute Company publishes 14 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Deployments API, Feature Flags API, and 11 more. Tagged areas include Company, GPU, Compute, Cloud Infrastructure, and Artificial Intelligence.
 
 
-  The San Francisco Compute Company''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, support, pricing, and 31 more developer resources.'
+  The San Francisco Compute Company''s developer surface includes engineering blog, documentation, API reference, getting-started guide, changelog, support, pricing, and 33 more developer resources.'
 plans:
 - name: The San Francisco Compute Company Plans Pricing
   plan_count: 3
@@ -353,7 +361,7 @@ plans:
 random_paper: 21
 score:
   band: strong
-  composite: 57.1
+  composite: 57.2
   coverage:
     artifact_dirs: 23
     catalog_earned: 49.0
@@ -361,7 +369,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 67.1
     contract_governance: 4.5
@@ -386,8 +394,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 23.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

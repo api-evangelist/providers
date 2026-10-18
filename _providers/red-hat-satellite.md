@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.8
-  scored_at: '2026-10-04'
+  score: 22.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -120,6 +120,21 @@ collections:
   name: Red Hat Satellite REST Content Views Subscriptions API
   slug: open-red-hat-satellite-subscriptions-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat-satellite/refs/heads/main/plans/red-hat-satellite-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/red-hat-satellite-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat-satellite/refs/heads/main/rate-limits/red-hat-satellite-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/red-hat-satellite-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat-satellite/refs/heads/main/finops/red-hat-satellite-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/red-hat-satellite-finops.yml
 - group: company
   title: ''
   type: Website
@@ -368,9 +383,13 @@ features:
 - description: Organize hosts, content, and subscriptions into isolated organizations and locations.
   name: Multi-Tenancy
 finops:
-- name: Red Hat Satellite Finops
+- has_sources: true
+  method: generated
+  name: Red Hat Satellite Finops
+  primary_unit: ''
   service_category: System Management
   slug: red-hat-satellite-finops
+  template: false
 image: https://www.redhat.com/profiles/rh/themes/redhatdotcom/img/logo.png
 integrations:
 - description: Automate Satellite operations and host configuration using the redhat.satellite Ansible collection.
@@ -503,13 +522,13 @@ modified: '2026-05-19'
 name: Red Hat Satellite
 nav: Providers
 network: true
-overview: 'Red Hat Satellite publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Content Views API, Hosts API, Lifecycle Environments API, and 6 more. Tagged areas include Configuration Management, Lifecycle Management, Patch Management, Subscription Management, and Systems Management.
+overview: 'Red Hat Satellite publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Content Views API, Hosts API, Lifecycle Environments API, and 6 more. Tagged areas include Configuration Management, Lifecycle Management, Patch Management, Subscription Management, and Systems Management.
 
 
   The Red Hat Satellite catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Red Hat Satellite''s developer surface includes authentication, developer portal, documentation, support, engineering blog, release notes, API reference, and 24 more developer resources.'
+  Red Hat Satellite''s developer surface includes authentication, developer portal, documentation, support, engineering blog, release notes, API reference, and 27 more developer resources.'
 plans:
 - name: Red Hat Satellite Plans Pricing
   plan_count: 1
@@ -520,9 +539,10 @@ rate_limits:
   name: Red Hat Satellite Rate Limits
   slug: red-hat-satellite-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Red Hat Satellite API Rules
+  name: Red Hat Satellite — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -530,7 +550,8 @@ rules:
     info: 1
     warn: 4
   slug: red-hat-satellite-jsonschema-spectral-rules
-- effective_rule_count: 57
+- authorship: generated
+  effective_rule_count: 57
   extends:
   - spectral:oas
   name: Red Hat Satellite API Rules
@@ -548,17 +569,17 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 46.4
+  composite: 45.1
   coverage:
     artifact_dirs: 20
-    catalog_earned: 57.0
+    catalog_earned: 54.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 58.0
+    catalog_gap: 61.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.4
+  delta: -1.3
   facets:
-    access_clarity: 21.1
+    access_clarity: 13.2
     contract_governance: 27.3
     contract_quality: 61.8
     developer_ergonomics: 65.5
@@ -567,7 +588,7 @@ score:
   open_source:
     applies: true
     score: 25.0
-  previous_composite: 46.0
+  previous_composite: 46.4
   provenance:
     agentic_access: derived
     contracts:
@@ -581,8 +602,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 37.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

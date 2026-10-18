@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.8
-  scored_at: '2026-10-04'
+  score: 23.6
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -60,6 +60,21 @@ collections:
   name: Corporate Bullshit Generator API
   slug: open-corporate-bullshit-generator-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/corporate-bullshit-generator-api/refs/heads/main/plans/corporate-bullshit-generator-api-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/corporate-bullshit-generator-api-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/corporate-bullshit-generator-api/refs/heads/main/rate-limits/corporate-bullshit-generator-api-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/corporate-bullshit-generator-api-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/corporate-bullshit-generator-api/refs/heads/main/finops/corporate-bullshit-generator-api-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/corporate-bullshit-generator-api-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/corporate-bullshit-generator-api/refs/heads/main/agentic-access/corporate-bullshit-generator-api-agentic-access.yml
   title: ''
@@ -89,9 +104,13 @@ common:
 created: '2024-12-25'
 description: The Corporate Bullshit Generator API is a free public REST API that returns randomly-generated corporate jargon phrases as JSON. Each request returns a single buzzword-laden phrase suitable for placeholder text, parody content, test fixtures, or comic relief in mock dashboards. The API is unauthenticated and returns a single phrase property in the JSON response body.
 finops:
-- name: Corporate Bullshit Generator Api Finops
+- has_sources: false
+  method: generated
+  name: Corporate Bullshit Generator Api Finops
+  primary_unit: ''
   service_category: API
   slug: corporate-bullshit-generator-api-finops
+  template: true
 jsonld:
 - class_count: 2
   name: Corporate Bullshit Generator Context
@@ -102,13 +121,13 @@ modified: '2026-05-19'
 name: Corporate Bullshit Generator API
 nav: Providers
 network: true
-overview: 'Corporate Bullshit Generator API publishes 1 API on the [APIs.io](https://apis.io/) network: Phrases API. Tagged areas include Buzzwords, Comedy, Corporate Jargon, Fake Data, and Free.
+overview: 'Corporate Bullshit Generator API publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Phrases API. Tagged areas include Buzzwords, Comedy, Corporate Jargon, Fake Data, and Free.
 
 
   The Corporate Bullshit Generator API catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Corporate Bullshit Generator API''s developer surface includes GitHub presence and 5 more developer resources.'
+  Corporate Bullshit Generator API''s developer surface includes GitHub presence and 8 more developer resources.'
 plans:
 - name: Corporate Bullshit Generator Api Plans Pricing
   plan_count: 3
@@ -119,7 +138,8 @@ rate_limits:
   name: Corporate Bullshit Generator Api Rate Limits
   slug: corporate-bullshit-generator-api-rate-limits
 rules:
-- effective_rule_count: 51
+- authorship: unmarked
+  effective_rule_count: 51
   extends:
   - spectral:oas
   name: Corporate Bullshit Generator API API Rules
@@ -132,18 +152,18 @@ rules:
   slug: corporate-bullshit-generator-api-rules
 score:
   band: emerging
-  composite: 25.2
+  composite: 23.3
   coverage:
     artifact_dirs: 12
-    catalog_earned: 56.0
+    catalog_earned: 49.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 44.0
-    catalog_max: 100.0
+    catalog_gap: 65.8
+    catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.9
   facets:
-    access_clarity: 0.0
-    contract_governance: 54.5
+    access_clarity: 7.9
+    contract_governance: 25.0
     contract_quality: 49.3
     developer_ergonomics: 0.0
     discoverability: 53.6
@@ -162,8 +182,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

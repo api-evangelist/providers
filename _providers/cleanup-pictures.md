@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -65,6 +65,10 @@ collections:
   name: Cleanup.pictures API (ClipDrop)
   slug: open-cleanup-pictures
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://cleanup.pictures/blog/
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/cleanup-pictures/refs/heads/main/agentic-access/cleanup-pictures-agentic-access.yml
   title: ''
@@ -114,19 +118,23 @@ common:
 created: '2026-05-08'
 description: Cleanup.pictures provides AI-powered photo cleanup, object and watermark removal via inpainting. The public API is hosted on the ClipDrop platform (now Jasper.ai) at https://clipdrop-api.co/cleanup/v1, billed at 1 credit per successful call.
 finops:
-- name: Cleanup Pictures Finops
+- has_sources: true
+  method: generated
+  name: Cleanup Pictures Finops
+  primary_unit: ''
   service_category: AI
   slug: cleanup-pictures-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cleanup-pictures.png
 layout: provider
-modified: '2026-05-08'
+modified: '2026-10-06'
 name: Cleanup.pictures
 nav: Providers
 network: true
-overview: 'Cleanup.pictures publishes 2 APIs on the [APIs.io](https://apis.io/) network, including Cleanup API, and 1 more. Tagged areas include Artificial Intelligence, Image Editing, Object Removal, Inpainting, and Visual.
+overview: 'Cleanup.pictures publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network, including Cleanup API, and 1 more. Tagged areas include Artificial Intelligence, Image Editing, Object Removal, Inpainting, and Visual.
 
 
-  Cleanup.pictures'' developer surface includes authentication, documentation, and 8 more developer resources.'
+  Cleanup.pictures'' developer surface includes engineering blog, authentication, documentation, and 8 more developer resources.'
 plans:
 - name: Cleanup Pictures Plans Pricing
   plan_count: 3
@@ -138,20 +146,20 @@ rate_limits:
   slug: cleanup-pictures-rate-limits
 score:
   band: thin
-  composite: 32.3
+  composite: 31.3
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 46.0
+    artifact_dirs: 12
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 69.0
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.0
   facets:
-    access_clarity: 39.5
+    access_clarity: 31.6
     contract_governance: 0.0
     contract_quality: 51.4
-    developer_ergonomics: 21.4
+    developer_ergonomics: 23.8
     discoverability: 73.2
     operational_transparency: 10.5
   previous_composite: 32.3
@@ -168,8 +176,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

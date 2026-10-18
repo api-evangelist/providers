@@ -30,20 +30,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 36.7
-  scored_at: '2026-10-04'
+  score: 34.8
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 89
-  human_in_the_loop: 6
+- acting_count: 73
+  human_in_the_loop: 5
   name: Unstoppable Domains Agentic Access
-  operation_count: 142
+  operation_count: 136
   slug: unstoppable-domains-agentic-access
-  summary_line: 142 operations · 89 acting · 6 human-in-the-loop
+  summary_line: 136 operations · 73 acting · 5 human-in-the-loop
 api_count: 4
 apis:
 - baseURL: https://api.unstoppabledomains.com/resolve
@@ -403,16 +403,20 @@ common:
 created: '2026-06-14'
 description: Web3 domain name service providing REST APIs for resolving crypto domain names, managing NFT domains, reverse lookups, cross-chain address resolution, domain registration, and DNS management across 150+ TLDs on multiple blockchains.
 finops:
-- name: Unstoppable Domains Finops
+- has_sources: false
+  method: generated
+  name: Unstoppable Domains Finops
+  primary_unit: ''
   service_category: ''
   slug: unstoppable-domains-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/unstoppable-domains.png
 layout: provider
 modified: '2026-09-16'
 name: Unstoppable Domains
 nav: Providers
 network: true
-overview: 'Unstoppable Domains publishes 33 APIs on the [APIs.io](https://apis.io/) network, including Account API, AI Lander API, Backorders API, and 30 more. Tagged areas include Web3, Blockchain, Domain Names, NFT Domains, and Crypto.
+overview: 'Unstoppable Domains publishes 33 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, AI Lander API, Backorders API, and 30 more. Tagged areas include Web3, Blockchain, Domain Names, NFT Domains, and Cryptocurrency.
 
 
   Unstoppable Domains'' developer surface includes authentication, documentation, API reference, sandbox, pricing, engineering blog, and 13 more developer resources.'
@@ -426,24 +430,24 @@ rate_limits:
   name: Unstoppable Domains Rate Limits
   slug: unstoppable-domains-rate-limits
 score:
-  band: developing
-  composite: 40.2
+  band: thin
+  composite: 32.8
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 61.0
+    artifact_dirs: 13
+    catalog_earned: 45.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 54.0
+    catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: -7.4
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 54.0
     developer_ergonomics: 31.0
     discoverability: 71.4
-    operational_transparency: 24.2
-  previous_composite: 39.6
+    operational_transparency: 10.5
+  previous_composite: 40.2
   provenance:
     agentic_access: derived
     contracts:
@@ -457,9 +461,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 17.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 33.3
@@ -483,7 +487,7 @@ tags:
 - Blockchain
 - Domain Names
 - NFT Domains
-- Crypto
+- Cryptocurrency
 - Resolution
 - DNS
 - Decentralized

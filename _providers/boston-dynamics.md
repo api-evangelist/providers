@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The Spot SDK is an open-source SDK for developing applications and payloads for the Spot quadruped robot. Built on gRPC and Protocol Buffers, it provides Python and C++ libraries to control Spot, read
@@ -41,6 +41,21 @@ apis:
   slug: spot-sdk
 artifact_total: 7
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/boston-dynamics/refs/heads/main/plans/boston-dynamics-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/boston-dynamics-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/boston-dynamics/refs/heads/main/rate-limits/boston-dynamics-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/boston-dynamics-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/boston-dynamics/refs/heads/main/finops/boston-dynamics-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/boston-dynamics-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/boston-dynamics/refs/heads/main/security/boston-dynamics-vulnerability-disclosure.yml
   title: ''
@@ -122,9 +137,13 @@ common:
 created: '2026-05-23'
 description: Boston Dynamics, a Hyundai Motor Group subsidiary, designs advanced mobile robots including Spot (agile quadruped for dynamic sensing and industrial inspection), Atlas (electric humanoid for manufacturing), Stretch (warehouse case-handling robot), and the Orbit enterprise fleet management platform. Boston Dynamics publishes a public, open-source Spot SDK (Python and C++) on GitHub built on gRPC and Protocol Buffers for developing applications and payloads for Spot; Atlas and Stretch are enterprise products without public APIs.
 finops:
-- name: Boston Dynamics Finops
+- has_sources: false
+  method: generated
+  name: Boston Dynamics Finops
+  primary_unit: ''
   service_category: API
   slug: boston-dynamics-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/boston-dynamics.png
 jsonld:
 - class_count: 25
@@ -136,13 +155,13 @@ modified: '2026-05-23'
 name: Boston Dynamics
 nav: Providers
 network: true
-overview: 'Boston Dynamics publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Atlas, Boston Dynamics, Fleet Management, gRPC, and Hardware.
+overview: 'Boston Dynamics is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Atlas, Boston Dynamics, Fleet Management, gRPC, and Hardware.
 
 
   The Boston Dynamics catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Boston Dynamics'' developer surface includes support, training material, engineering blog, product news, and 15 more developer resources.'
+  Boston Dynamics'' developer surface includes support, training material, engineering blog, product news, and 18 more developer resources.'
 plans:
 - name: Boston Dynamics Plans Pricing
   plan_count: 1
@@ -154,22 +173,22 @@ rate_limits:
   slug: boston-dynamics-rate-limits
 score:
   band: emerging
-  composite: 25.4
+  composite: 19.4
   coverage:
     artifact_dirs: 9
-    catalog_earned: 60.4
+    catalog_earned: 47.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 54.6
+    catalog_gap: 68.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.0
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 14.7
     developer_ergonomics: 38.1
     discoverability: 58.0
-    operational_transparency: 21.6
+    operational_transparency: 7.9
   previous_composite: 25.4
   regulatory:
     applies: true
@@ -177,9 +196,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -193,7 +212,7 @@ security:
 - kind: vulnerability-disclosure
   name: Boston Dynamics Vulnerability Disclosure
   slug: boston-dynamics-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 slug: boston-dynamics
 tags:
 - Atlas

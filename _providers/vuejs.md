@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 3.8
-  scored_at: '2026-10-04'
+  score: 1.9
+  scored_at: '2026-10-17'
 api_count: 6
 apis:
 - description: 'Core Vue.js composition and options API for building reactive user interfaces. Provides reactivity primitives (ref, reactive, computed, watch), lifecycle hooks, component system, template directives, '
@@ -56,6 +56,21 @@ apis:
   slug: nuxtjs
 artifact_total: 13
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/vuejs/refs/heads/main/plans/vuejs-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/vuejs-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/vuejs/refs/heads/main/rate-limits/vuejs-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/vuejs-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/vuejs/refs/heads/main/finops/vuejs-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/vuejs-finops.yml
 - group: company
   title: ''
   type: Website
@@ -126,9 +141,13 @@ common:
 created: '2024-01-01'
 description: Vue.js is a progressive JavaScript framework for building user interfaces and single-page applications. Created by Evan You and maintained by an open-source community, Vue.js is designed to be incrementally adoptable and focuses on the view layer. It integrates with other libraries or existing projects and powers complex single-page applications when combined with modern tooling like Vue Router, Pinia state management, and Vite build tooling. Vue.js is one of the most popular frontend frameworks with over 4 million weekly npm downloads and a rich ecosystem of components and plugins.
 finops:
-- name: Vuejs Finops
+- has_sources: false
+  method: generated
+  name: Vuejs Finops
+  primary_unit: ''
   service_category: API
   slug: vuejs-finops
+  template: true
 image: https://vuejs.org/images/logo.png
 json_schemas:
 - name: Vue.js Component Options
@@ -148,13 +167,13 @@ modified: '2026-05-03'
 name: Vue.js
 nav: Providers
 network: true
-overview: 'Vue.js publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Component-Based, Framework, Frontend, JavaScript, and Open Source.
+overview: 'Vue.js is listed with 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Component-Based, Framework, Frontend, JavaScript, and Open Source.
 
 
   The Vue.js catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Vue.js'' developer surface includes engineering blog, changelog, support, and 13 more developer resources.'
+  Vue.js'' developer surface includes engineering blog, changelog, support, and 16 more developer resources.'
 plans:
 - name: Vuejs Plans Pricing
   plan_count: 3
@@ -165,9 +184,10 @@ rate_limits:
   name: Vuejs Rate Limits
   slug: vuejs-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Vue.js API Rules
+  name: Vue.js — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -177,17 +197,17 @@ rules:
   slug: vuejs-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 28.9
+  composite: 27.4
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 54.8
+    artifact_dirs: 13
+    catalog_earned: 51.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 60.3
+    catalog_gap: 63.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 36.8
+    access_clarity: 28.9
     contract_governance: 23.5
     contract_quality: 17.2
     developer_ergonomics: 21.4
@@ -200,8 +220,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 12.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

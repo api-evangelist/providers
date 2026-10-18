@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 48.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 24
+- acting_count: 23
   human_in_the_loop: 5
   name: Gumloop Agentic Access
   operation_count: 49
   slug: gumloop-agentic-access
-  summary_line: 49 operations · 24 acting · 5 human-in-the-loop
+  summary_line: 49 operations · 23 acting · 5 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://api.gumloop.com/api/v1
@@ -116,7 +116,7 @@ apis:
   description: The Teams API from Gumloop — 1 operation(s) for teams.
   name: Gumloop Teams API
   slug: gumloop-teams-api
-artifact_total: 36
+artifact_total: 37
 asyncapis:
 - description: ''
   name: Gumloop Webhooks
@@ -168,6 +168,11 @@ collections:
   name: Public Agents Teams API
   slug: open-gumloop-teams-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/gumloop/refs/heads/main/plans/gumloop-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/gumloop-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/gumloop/refs/heads/main/capabilities/gumloop-capability-edges.yml
   title: ''
@@ -332,13 +337,17 @@ modified: '2026-07-19'
 name: Gumloop
 nav: Providers
 network: true
-overview: 'Gumloop publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Artifacts API, Brain API, and 11 more. Tagged areas include Company, Artificial Intelligence, AI Agents, Automation, and Workflow Automation.
+overview: 'Gumloop publishes 14 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agents API, Artifacts API, Brain API, and 11 more. Tagged areas include Company, Artificial Intelligence, AI Agents, Automation, and Workflow Automation.
 
 
   The Gumloop catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Gumloop''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, changelog, engineering blog, and 26 more developer resources.'
+  Gumloop''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, changelog, engineering blog, and 27 more developer resources.'
+plans:
+- name: Gumloop Plans Pricing
+  plan_count: 2
+  slug: gumloop-plans-pricing
 random_paper: 1
 scopes:
 - name: Gumloop Scopes
@@ -347,17 +356,17 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: strong
-  composite: 57.8
+  composite: 62.1
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 28
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 4.3
   facets:
-    access_clarity: 44.7
+    access_clarity: 65.8
     contract_governance: 4.5
     contract_quality: 57.2
     developer_ergonomics: 73.2
@@ -380,8 +389,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 31.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

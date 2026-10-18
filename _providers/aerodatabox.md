@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.1
-  scored_at: '2026-10-04'
+  score: 26.2
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 42
   slug: aerodatabox-agentic-access
   summary_line: 42 operations · 4 acting
-api_count: 1
+api_count: 2
 apis:
 - baseURL: https://prod.api.market/api/v1/aedbx/aerodatabox
   baseurl_source: declared
@@ -116,6 +116,29 @@ collections:
   name: AeroDataBox API - Aviation and Flight API
   slug: open-aerodatabox
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/aerodatabox/refs/heads/main/plans/aerodatabox-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/aerodatabox-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/aerodatabox/refs/heads/main/rate-limits/aerodatabox-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/aerodatabox-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/aerodatabox/refs/heads/main/finops/aerodatabox-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/aerodatabox-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://aerodatabox.com/news
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://aerodatabox.com/news/rss.xml
 - group: company
   title: ''
   type: Website
@@ -497,9 +520,13 @@ features:
 - description: Daily route statistics for airports showing which routes operate and their frequency.
   name: Route Statistics
 finops:
-- name: Aerodatabox Finops
+- has_sources: true
+  method: generated
+  name: Aerodatabox Finops
+  primary_unit: ''
   service_category: Aviation Data
   slug: aerodatabox-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aerodatabox.png
 integrations:
 - description: Available on RapidAPI Hub with interactive API playground and usage metering for easy developer onboarding.
@@ -1197,17 +1224,17 @@ jsonld:
   property_count: 200
   slug: aerodatabox-context
 layout: provider
-modified: '2026-09-16'
+modified: '2026-10-06'
 name: AeroDataBox
 nav: Providers
 network: true
-overview: 'AeroDataBox publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Aircraft API, Airport API, Flight Alert API, and 5 more. Tagged areas include Aviation, Flights, Aerospace, Flight Data, and Airport Data.
+overview: 'AeroDataBox publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Aircraft API, Airport API, Flight Alert API, and 5 more. Tagged areas include Aviation, Flights, Aerospace, Flight Data, and Airport Data.
 
 
   The AeroDataBox catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  AeroDataBox''s developer surface includes documentation, developer portal, pricing, and 11 more developer resources.'
+  AeroDataBox''s developer surface includes engineering blog, documentation, developer portal, pricing, and 15 more developer resources.'
 plans:
 - name: Aerodatabox Plans Pricing
   plan_count: 1
@@ -1218,9 +1245,10 @@ rate_limits:
   name: Aerodatabox Rate Limits
   slug: aerodatabox-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: AeroDataBox API Rules
+  name: AeroDataBox — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1228,7 +1256,8 @@ rules:
     info: 2
     warn: 3
   slug: aerodatabox-jsonschema-spectral-rules
-- effective_rule_count: 74
+- authorship: generated
+  effective_rule_count: 74
   extends:
   - spectral:oas
   name: AeroDataBox API Rules
@@ -1241,20 +1270,20 @@ rules:
   slug: aerodatabox-spectral-rules
 score:
   band: thin
-  composite: 37.4
+  composite: 36.4
   coverage:
-    artifact_dirs: 16
-    catalog_earned: 64.0
+    artifact_dirs: 17
+    catalog_earned: 61.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 51.0
+    catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.0
   facets:
-    access_clarity: 44.7
+    access_clarity: 36.8
     contract_governance: 27.3
     contract_quality: 57.5
-    developer_ergonomics: 19.0
+    developer_ergonomics: 21.4
     discoverability: 66.1
     operational_transparency: 5.3
   previous_composite: 37.4
@@ -1271,8 +1300,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

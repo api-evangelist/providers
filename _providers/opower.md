@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: RESTful API for viewing and managing Opower customer, utility-account, usage, billing, disaggregation, neighbor-comparison, tips, threshold and notification data. HTTP/REST with JSON, OAuth 2.0 client
@@ -136,7 +136,7 @@ modified: '2026-07-20'
 name: OPOWER
 nav: Providers
 network: true
-overview: 'OPOWER publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Energy, Utilities, Energy Efficiency, and Customer Engagement.
+overview: 'OPOWER is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Energy, Utilities, Energy Efficiency, and Customer Engagement.
 
 
   OPOWER''s developer surface includes documentation, API reference, getting-started guide, support, changelog, authentication, sandbox, and 11 more developer resources.'
@@ -169,8 +169,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 13.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

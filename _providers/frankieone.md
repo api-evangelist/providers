@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.6
-  scored_at: '2026-10-04'
+  score: 28.7
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 38
+- acting_count: 34
   human_in_the_loop: 1
   name: Frankieone Agentic Access
-  operation_count: 52
+  operation_count: 50
   slug: frankieone-agentic-access
-  summary_line: 52 operations · 38 acting · 1 human-in-the-loop
+  summary_line: 50 operations · 34 acting · 1 human-in-the-loop
 api_count: 2
 apis:
 - baseURL: https://api.frankie.one
@@ -161,6 +161,21 @@ collections:
   name: KYC V2 API
   slug: open-kyc-v2
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/frankieone/refs/heads/main/plans/frankieone-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/frankieone-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/frankieone/refs/heads/main/rate-limits/frankieone-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/frankieone-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/frankieone/refs/heads/main/finops/frankieone-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/frankieone-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/frankieone/refs/heads/main/capabilities/frankieone-capability-edges.yml
   title: ''
@@ -217,22 +232,26 @@ common:
 created: '2025-02-08'
 description: FrankieOne is an identity verification, compliance, and fraud prevention platform connecting applications to hundreds of global data sources through a single API for KYC, KYB, document IDV, ongoing monitoring, and matchlist management.
 finops:
-- name: Frankieone Finops
+- has_sources: false
+  method: generated
+  name: Frankieone Finops
+  primary_unit: ''
   service_category: API
   slug: frankieone-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/frankieone.png
 layout: provider
 modified: '2026-05-19'
 name: FrankieOne
 nav: Providers
 network: true
-overview: 'FrankieOne publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Audit API, HostedURL API, IDV API, and 10 more. Tagged areas include Identity Verification, KYC, KYB, AML, and Fraud Prevention.
+overview: 'FrankieOne publishes 13 API contracts indexed on the [APIs.io](https://apis.io/) network, including Audit API, HostedURL API, IDV API, and 10 more. Tagged areas include Identity Verification, KYC, KYB, AML, and Fraud Prevention.
 
 
   The FrankieOne catalog on APIs.io includes 2 Spectral governance rulesets.
 
 
-  FrankieOne''s developer surface includes authentication, documentation, signup flow, engineering blog, and 8 more developer resources.'
+  FrankieOne''s developer surface includes authentication, documentation, signup flow, engineering blog, and 11 more developer resources.'
 plans:
 - name: Frankieone Plans Pricing
   plan_count: 3
@@ -243,9 +262,10 @@ rate_limits:
   name: Frankieone Rate Limits
   slug: frankieone-rate-limits
 rules:
-- effective_rule_count: 0
+- authorship: unmarked
+  effective_rule_count: 0
   extends: []
-  name: FrankieOne API Rules
+  name: FrankieOne — core rules
   rule_count: 0
   severity_counts:
     error: 0
@@ -253,9 +273,10 @@ rules:
     info: 0
     warn: 0
   slug: frankieone-core-rules
-- effective_rule_count: 0
+- authorship: unmarked
+  effective_rule_count: 0
   extends: []
-  name: FrankieOne API Rules
+  name: FrankieOne — kyc rules
   rule_count: 0
   severity_counts:
     error: 0
@@ -265,17 +286,17 @@ rules:
   slug: frankieone-kyc-rules
 score:
   band: thin
-  composite: 32.6
+  composite: 31.1
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 46.0
+    artifact_dirs: 14
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 69.0
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 36.8
+    access_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 57.0
     developer_ergonomics: 14.3
@@ -295,8 +316,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

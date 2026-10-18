@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.7
-  scored_at: '2026-10-04'
+  score: 25.8
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -74,6 +74,21 @@ collections:
   name: Abacus Authentication Members API
   slug: open-abacus-members-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/abacus/refs/heads/main/plans/abacus-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/abacus-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/abacus/refs/heads/main/rate-limits/abacus-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/abacus-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/abacus/refs/heads/main/finops/abacus-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/abacus-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/abacus/refs/heads/main/agentic-access/abacus-agentic-access.yml
   title: ''
@@ -172,9 +187,13 @@ features:
 - description: Paginated API responses with configurable page sizes
   name: Paginated Results
 finops:
-- name: Abacus Finops
+- has_sources: false
+  method: generated
+  name: Abacus Finops
+  primary_unit: ''
   service_category: API
   slug: abacus-finops
+  template: true
 image: /assets/icons/abacus.png
 integrations:
 - description: Sync expense data with QuickBooks for accounting reconciliation
@@ -245,13 +264,13 @@ modified: '2026-05-19'
 name: Abacus
 nav: Providers
 network: true
-overview: 'Abacus publishes 3 APIs on the [APIs.io](https://apis.io/) network: Authentication API, Expenses API, and Members API. Tagged areas include Accounting, Expense Management, Finance, and Reimbursement.
+overview: 'Abacus is listed with 3 APIs on the [APIs.io](https://apis.io/) network: Authentication API, Expenses API, and Members API. Tagged areas include Accounting, Expense Management, Finance, and Reimbursement.
 
 
   The Abacus catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Abacus'' developer surface includes authentication, documentation, support, and 10 more developer resources.'
+  Abacus'' developer surface includes authentication, documentation, support, and 13 more developer resources.'
 plans:
 - name: Abacus Plans Pricing
   plan_count: 3
@@ -262,9 +281,10 @@ rate_limits:
   name: Abacus Rate Limits
   slug: abacus-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Abacus API Rules
+  name: Abacus — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -272,7 +292,8 @@ rules:
     info: 1
     warn: 4
   slug: abacus-jsonschema-spectral-rules
-- effective_rule_count: 87
+- authorship: generated
+  effective_rule_count: 87
   extends:
   - spectral:oas
   name: Abacus API Rules
@@ -290,17 +311,17 @@ scopes:
   summary_line: 3 scopes · clientCredentials
 score:
   band: thin
-  composite: 29.9
+  composite: 28.4
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 73.0
+    artifact_dirs: 18
+    catalog_earned: 70.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 42.0
+    catalog_gap: 45.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 34.2
+    access_clarity: 26.3
     contract_governance: 27.3
     contract_quality: 27.9
     developer_ergonomics: 11.9
@@ -320,8 +341,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 41.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

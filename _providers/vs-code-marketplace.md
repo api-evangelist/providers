@@ -27,20 +27,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.3
-  scored_at: '2026-10-04'
+  score: 15.4
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 1
+- acting_count: 0
   human_in_the_loop: 0
   name: Vs Code Marketplace Agentic Access
   operation_count: 3
   slug: vs-code-marketplace-agentic-access
-  summary_line: 3 operations · 1 acting
+  summary_line: 3 operations
 api_count: 1
 apis:
 - baseURL: https://marketplace.visualstudio.com/_apis/public/gallery
@@ -76,6 +76,21 @@ collections:
   name: VS Code Marketplace Gallery Assets Publishers API
   slug: open-vs-code-marketplace-publishers-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/vs-code-marketplace/refs/heads/main/plans/vs-code-marketplace-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/vs-code-marketplace-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/vs-code-marketplace/refs/heads/main/rate-limits/vs-code-marketplace-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/vs-code-marketplace-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/vs-code-marketplace/refs/heads/main/finops/vs-code-marketplace-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/vs-code-marketplace-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/vs-code-marketplace/refs/heads/main/agentic-access/vs-code-marketplace-agentic-access.yml
   title: ''
@@ -168,9 +183,13 @@ examples:
   name: Vs Code Marketplace Queryextensions Example
   slug: vs-code-marketplace-queryExtensions-example
 finops:
-- name: Vs Code Marketplace Finops
+- has_sources: false
+  method: generated
+  name: Vs Code Marketplace Finops
+  primary_unit: ''
   service_category: API
   slug: vs-code-marketplace-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vs-code-marketplace.png
 json_schemas:
 - name: VS Code Marketplace Extension
@@ -190,13 +209,13 @@ modified: '2026-05-19'
 name: VS Code Marketplace
 nav: Providers
 network: true
-overview: 'VS Code Marketplace publishes 3 APIs on the [APIs.io](https://apis.io/) network: Assets API, Extensions API, and Publishers API. Tagged areas include Developer Tools, Extensions, IDE, and Microsoft.
+overview: 'VS Code Marketplace publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Assets API, Extensions API, and Publishers API. Tagged areas include Developer Tools, Extensions, IDE, and Microsoft.
 
 
   The VS Code Marketplace catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  VS Code Marketplace''s developer surface includes documentation, developer portal, getting-started guide, changelog, engineering blog, GitHub presence, Stack Overflow tag, and 13 more developer resources.'
+  VS Code Marketplace''s developer surface includes documentation, developer portal, getting-started guide, changelog, engineering blog, GitHub presence, Stack Overflow tag, and 16 more developer resources.'
 plans:
 - name: Vs Code Marketplace Plans Pricing
   plan_count: 3
@@ -207,9 +226,10 @@ rate_limits:
   name: Vs Code Marketplace Rate Limits
   slug: vs-code-marketplace-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: VS Code Marketplace API Rules
+  name: VS Code Marketplace — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -217,7 +237,8 @@ rules:
     info: 2
     warn: 3
   slug: vs-code-marketplace-jsonschema-spectral-rules
-- effective_rule_count: 50
+- authorship: unmarked
+  effective_rule_count: 50
   extends:
   - spectral:oas
   name: VS Code Marketplace API Rules
@@ -230,17 +251,17 @@ rules:
   slug: vs-code-marketplace-rules
 score:
   band: thin
-  composite: 37.6
+  composite: 36.1
   coverage:
-    artifact_dirs: 15
-    catalog_earned: 47.5
+    artifact_dirs: 17
+    catalog_earned: 44.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 67.5
+    catalog_gap: 70.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 36.8
+    access_clarity: 28.9
     contract_governance: 13.6
     contract_quality: 49.1
     developer_ergonomics: 38.1
@@ -260,8 +281,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

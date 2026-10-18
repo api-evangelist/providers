@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.2
-  scored_at: '2026-10-04'
+  score: 28.0
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -160,6 +160,21 @@ collections:
   name: WellCare FHIR Patient Access Condition Practitioner Role API
   slug: open-wellcare-health-plans-practitioner-role-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/wellcare-health-plans/refs/heads/main/plans/wellcare-health-plans-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/wellcare-health-plans-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/wellcare-health-plans/refs/heads/main/rate-limits/wellcare-health-plans-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/wellcare-health-plans-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/wellcare-health-plans/refs/heads/main/finops/wellcare-health-plans-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/wellcare-health-plans-finops.yml
 - group: other
   title: ''
   type: ParentCompany
@@ -226,9 +241,13 @@ examples:
   name: Wellcare Fhir Provider Directory Api Searchpractitioners Example
   slug: wellcare-fhir-provider-directory-api-searchPractitioners-example
 finops:
-- name: Wellcare Health Plans Finops
+- has_sources: false
+  method: generated
+  name: Wellcare Health Plans Finops
+  primary_unit: ''
   service_category: API
   slug: wellcare-health-plans-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wellcare-health-plans.png
 json_schemas:
 - name: WellCare FHIR Explanation of Benefit
@@ -251,13 +270,13 @@ modified: '2026-05-19'
 name: WellCare Health Plans
 nav: Providers
 network: true
-overview: 'WellCare Health Plans publishes 13 APIs on the [APIs.io](https://apis.io/) network, including wellcare-health-plans Condition API, wellcare-health-plans Coverage API, wellcare-health-plans Encounter API, and 10 more. Tagged areas include Fortune 500.
+overview: 'WellCare Health Plans publishes 13 API contracts indexed on the [APIs.io](https://apis.io/) network, including wellcare-health-plans Condition API, wellcare-health-plans Coverage API, wellcare-health-plans Encounter API, and 10 more. Tagged areas include Fortune 500.
 
 
   The WellCare Health Plans catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  WellCare Health Plans'' developer surface includes authentication and 11 more developer resources.'
+  WellCare Health Plans'' developer surface includes authentication and 14 more developer resources.'
 plans:
 - name: Wellcare Health Plans Plans Pricing
   plan_count: 3
@@ -284,9 +303,10 @@ rate_limits:
   name: Wellcare Health Plans Rate Limits
   slug: wellcare-health-plans-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: WellCare Health Plans API Rules
+  name: WellCare Health Plans — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -294,7 +314,8 @@ rules:
     info: 2
     warn: 3
   slug: wellcare-health-plans-jsonschema-spectral-rules
-- effective_rule_count: 50
+- authorship: unmarked
+  effective_rule_count: 50
   extends:
   - spectral:oas
   name: WellCare Health Plans API Rules
@@ -312,17 +333,17 @@ scopes:
   summary_line: 8 scopes · authorizationCode
 score:
   band: thin
-  composite: 36.2
+  composite: 34.7
   coverage:
     artifact_dirs: 20
-    catalog_earned: 67.0
+    catalog_earned: 64.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 48.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 27.3
     contract_quality: 67.8
     developer_ergonomics: 21.4
@@ -342,8 +363,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

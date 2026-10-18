@@ -30,7 +30,7 @@ tags:
 - Early Stage
 - Marketplace
 - Fintech
-- Crypto
+- Cryptocurrency
 - Artificial Intelligence
 - Robotics
 - Deep Tech

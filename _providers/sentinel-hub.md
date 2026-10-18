@@ -28,21 +28,21 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.9
-  scored_at: '2026-10-04'
+  score: 25.0
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 36
+- acting_count: 34
   human_in_the_loop: 2
   name: Sentinel Hub Agentic Access
   operation_count: 95
   slug: sentinel-hub-agentic-access
-  summary_line: 95 operations · 36 acting · 2 human-in-the-loop
-api_count: 1
+  summary_line: 95 operations · 34 acting · 2 human-in-the-loop
+api_count: 2
 apis:
 - description: OGC-standard web services (WMS, WCS, WFS, WMTS) for integrating Sentinel Hub satellite imagery into GIS applications such as QGIS, ArcGIS, OpenLayers, and Google Earth. Authentication uses a configura
   name: Sentinel Hub OGC Services
@@ -337,9 +337,13 @@ examples:
   name: Postcatalogitemsearch  Resp 200  Response_200
   slug: postCatalogItemSearch--resp-200--response_200
 finops:
-- name: Sentinel Hub Finops
+- has_sources: true
+  method: generated
+  name: Sentinel Hub Finops
+  primary_unit: ''
   service_category: Geospatial and Earth Observation
   slug: sentinel-hub-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sentinel-hub.png
 json_schemas:
 - name: Aggregation
@@ -1190,7 +1194,7 @@ modified: '2026-06-13'
 name: Sentinel Hub
 nav: Providers
 network: true
-overview: 'Sentinel Hub publishes 26 APIs on the [APIs.io](https://apis.io/) network, including Async Process API, Batch Statistical API, Batch V2 Process API, and 23 more. Tagged areas include Satellite Imagery, Geospatial, Remote Sensing, Earth Observation, and NDVI.
+overview: 'Sentinel Hub publishes 26 API contracts indexed on the [APIs.io](https://apis.io/) network, including Async Process API, Batch Statistical API, Batch V2 Process API, and 23 more. Tagged areas include Satellite Imagery, Geospatial, Remote Sensing, Earth Observation, and NDVI.
 
 
   The Sentinel Hub catalog on APIs.io includes 2 JSON-LD contexts and 1 Spectral governance ruleset.
@@ -1207,9 +1211,10 @@ rate_limits:
   name: Sentinel Hub Rate Limits
   slug: sentinel-hub-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Sentinel Hub API Rules
+  name: Sentinel Hub — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1223,23 +1228,23 @@ scopes:
   slug: sentinel-hub-scopes
   summary_line: 1 scope · clientCredentials
 score:
-  band: developing
-  composite: 41.1
+  band: thin
+  composite: 34.2
   coverage:
-    artifact_dirs: 16
-    catalog_earned: 69.3
+    artifact_dirs: 18
+    catalog_earned: 53.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 45.7
+    catalog_gap: 61.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.9
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 9.8
     contract_quality: 59.6
     developer_ergonomics: 33.3
     discoverability: 66.1
-    operational_transparency: 33.7
+    operational_transparency: 13.2
   previous_composite: 41.1
   provenance:
     agentic_access: derived
@@ -1254,9 +1259,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 11.1

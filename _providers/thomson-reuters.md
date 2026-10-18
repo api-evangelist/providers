@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 6
 apis:
 - description: 'Access Westlaw legal research content including case law, statutes, regulations, and secondary sources. Includes SEC Filings API, Dockets API, and Litigation Analytics providing structured legal data '
@@ -56,6 +56,21 @@ apis:
   slug: risk-fraud-api
 artifact_total: 11
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/thomson-reuters/refs/heads/main/plans/thomson-reuters-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/thomson-reuters-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/thomson-reuters/refs/heads/main/rate-limits/thomson-reuters-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/thomson-reuters-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/thomson-reuters/refs/heads/main/finops/thomson-reuters-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/thomson-reuters-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/thomson-reuters/refs/heads/main/security/thomson-reuters-domain-security.yml
   title: ''
@@ -92,9 +107,13 @@ common:
 created: '2026-03-16'
 description: Thomson Reuters provides over 137 APIs across legal, tax and accounting, risk and fraud, and trade and supply industries through their global developer portal. APIs cover Westlaw legal research, Checkpoint tax content, ONESOURCE tax software, HighQ document management, Legal Tracker matter management, and risk and fraud solutions including identity verification and adverse media screening.
 finops:
-- name: Thomson Reuters Finops
+- has_sources: false
+  method: generated
+  name: Thomson Reuters Finops
+  primary_unit: ''
   service_category: API
   slug: thomson-reuters-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/thomson-reuters.png
 jsonld:
 - class_count: 22
@@ -106,13 +125,13 @@ modified: '2026-05-03'
 name: Thomson Reuters
 nav: Providers
 network: true
-overview: 'Thomson Reuters publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Legal, Tax, Finance, Risk Management, and Fraud Prevention.
+overview: 'Thomson Reuters is listed with 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Legal, Tax, Finance, Risk Management, and Fraud Prevention.
 
 
   The Thomson Reuters catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Thomson Reuters'' developer surface includes documentation, engineering blog, and 6 more developer resources.'
+  Thomson Reuters'' developer surface includes documentation, engineering blog, and 9 more developer resources.'
 plans:
 - name: Thomson Reuters Plans Pricing
   plan_count: 3
@@ -124,17 +143,17 @@ rate_limits:
   slug: thomson-reuters-rate-limits
 score:
   band: emerging
-  composite: 13.4
+  composite: 11.9
   coverage:
-    artifact_dirs: 10
-    catalog_earned: 52.0
+    artifact_dirs: 11
+    catalog_earned: 49.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 63.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 10.7
     developer_ergonomics: 0.0
@@ -147,8 +166,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

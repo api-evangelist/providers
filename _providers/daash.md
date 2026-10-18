@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://daash.co/press
 - group: company
   title: ''
   type: Website
@@ -65,31 +69,31 @@ created: '2026-07-17'
 description: DAASH is an AI-powered predictive commerce intelligence platform built specifically for the beauty and cosmetics industry. It combines consumer shopping panels covering 6M+ people with social and advertising trend data and enriched product attributes to estimate sales performance, market share, and emerging trends at the SKU level. DAASH delivers weekly competitive intelligence to beauty brands, manufacturers, and financial services firms so they can uncover category shifts, benchmark competitor performance, and spot growth opportunities. The company was founded at the intersection of predictive intelligence and consumer products by retail and data experts (Philip Smolin, CEO; Justin Stewart, CTO; Melissa Munnerlyn, CMO), and is a portfolio company of Bullpen Capital. DAASH is delivered as a hosted SaaS application (my.daash.co); it currently exposes no public developer API surface.
 image: https://cdn.prod.website-files.com/66109b23edef07cc0cd19202/663cc81602539dc4e69fac78_Daash-Logo-Digital-Black.svg
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Daash
 nav: Providers
 network: true
 overview: 'Daash is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Competitive Intelligence, Market Intelligence, Beauty, and Cosmetics.
 
 
-  Daash''s developer surface includes support and 5 more developer resources.'
+  Daash''s developer surface includes engineering blog, support, and 5 more developer resources.'
 random_paper: 7
 score:
   band: minimal
-  composite: 8.3
+  composite: 8.9
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 17.1
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 4.8
+    developer_ergonomics: 7.1
     discoverability: 48.2
     operational_transparency: 0.0
   previous_composite: 8.3
@@ -99,8 +103,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 9.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

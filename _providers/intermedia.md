@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 5
 apis:
 - description: The Intermedia Voice API enables developers to embed voice calling capabilities into CRMs, ERPs, ticketing systems, and other business applications.
@@ -53,6 +53,21 @@ apis:
   slug: contact-center-api
 artifact_total: 9
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/intermedia/refs/heads/main/plans/intermedia-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/intermedia-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/intermedia/refs/heads/main/rate-limits/intermedia-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/intermedia-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/intermedia/refs/heads/main/finops/intermedia-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/intermedia-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/intermedia/refs/heads/main/security/intermedia-domain-security.yml
   title: ''
@@ -89,19 +104,23 @@ common:
 created: '2024-11-13'
 description: Intermedia is a cloud communications company serving over 145,000 businesses with an AI-powered platform spanning voice, video conferencing, chat, SMS, contact center, business email, productivity, file sharing, security, and archiving. The Intermedia Extend API platform exposes Voice, Meeting, Analytics, Address Book, and Contact Center APIs for embedding communications into CRMs, ERPs, ticketing systems, and custom business applications.
 finops:
-- name: Intermedia Finops
+- has_sources: false
+  method: generated
+  name: Intermedia Finops
+  primary_unit: ''
   service_category: API
   slug: intermedia-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/intermedia.png
 layout: provider
 modified: '2026-04-28'
 name: Intermedia
 nav: Providers
 network: true
-overview: 'Intermedia publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Cloud, Communications, Contact Center, Video Conferencing, and Voice.
+overview: 'Intermedia is listed with 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Cloud, Communications, Contact Center, Video Conferencing, and Voice.
 
 
-  Intermedia''s developer surface includes documentation, developer portal, support, engineering blog, and 4 more developer resources.'
+  Intermedia''s developer surface includes documentation, developer portal, support, engineering blog, and 7 more developer resources.'
 plans:
 - name: Intermedia Plans Pricing
   plan_count: 3
@@ -113,17 +132,17 @@ rate_limits:
   slug: intermedia-rate-limits
 score:
   band: emerging
-  composite: 14.6
+  composite: 13.1
   coverage:
     artifact_dirs: 7
-    catalog_earned: 44.0
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 71.0
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 26.2
@@ -136,8 +155,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

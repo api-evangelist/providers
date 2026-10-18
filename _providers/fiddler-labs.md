@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The Fiddler REST API (v3) is organized around resource-oriented URLs with JSON request/response bodies, Bearer-token authentication, and standard HTTP verbs and status codes. Resource groups include P
@@ -48,6 +48,10 @@ asyncapis:
   name: Fiddler Labs Webhooks
   slug: fiddler-labs-webhooks
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.fiddler.ai/blog/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/fiddler-labs/refs/heads/main/security/fiddler-labs-trust-center.yml
   title: ''
@@ -186,17 +190,17 @@ mcp_servers:
 - description: Remote MCP server over HTTP.
   name: Fiddler Labs MCP Server
   slug: fiddler-genai
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Fiddler Labs
 nav: Providers
 network: true
-overview: 'Fiddler Labs publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI Observability, ML Monitoring, LLM Observability, and AI Agents.
+overview: 'Fiddler Labs is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI Observability, ML Monitoring, LLM Observability, and AI Agents.
 
 
   The Fiddler Labs catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Fiddler Labs'' developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 22 more developer resources.'
+  Fiddler Labs'' developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 23 more developer resources.'
 random_paper: 5
 rate_limits:
 - limit_count: 2
@@ -204,7 +208,7 @@ rate_limits:
   slug: fiddler-labs-rate-limits
 score:
   band: strong
-  composite: 54.8
+  composite: 54.9
   coverage:
     artifact_dirs: 17
     catalog_earned: 43.0
@@ -212,7 +216,7 @@ score:
     catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 60.5
     contract_governance: 18.2
@@ -234,8 +238,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

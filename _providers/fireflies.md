@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 60.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -338,9 +338,13 @@ examples:
   name: Fireflies Upload Audio Example
   slug: fireflies-upload-audio-example
 finops:
-- name: Fireflies Finops
+- has_sources: false
+  method: generated
+  name: Fireflies Finops
+  primary_unit: ''
   service_category: ''
   slug: fireflies-finops
+  template: true
 graphqls:
 - description: 'The Fireflies.ai GraphQL API provides a single endpoint at `https://api.fireflies.ai/graphql` for querying and mutating all meeting intelligence data. The API exposes rich access to transcripts (with '
   name: Fireflies.ai GraphQL API
@@ -364,7 +368,7 @@ modified: '2026-08-14'
 name: Fireflies.ai
 nav: Providers
 network: true
-overview: 'Fireflies.ai publishes 1 API on the [APIs.io](https://apis.io/) network: Transcripts API. Tagged areas include Artificial Intelligence, Meeting Assistant, Transcription, Summary, and Action Items.
+overview: 'Fireflies.ai publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Transcripts API. Tagged areas include Artificial Intelligence, Meeting Assistant, Transcription, Summary, and Action Items.
 
 
   The Fireflies.ai catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
@@ -381,9 +385,10 @@ rate_limits:
   name: Fireflies Rate Limits
   slug: fireflies-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Fireflies.ai API Rules
+  name: Fireflies.ai — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -398,17 +403,17 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 72.6
+  composite: 71.1
   coverage:
-    artifact_dirs: 32
-    catalog_earned: 76.2
+    artifact_dirs: 33
+    catalog_earned: 73.2
     catalog_earned_first_party: 12.0
-    catalog_gap: 38.9
+    catalog_gap: 41.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 100.0
+    access_clarity: 92.1
     contract_governance: 41.7
     contract_quality: 76.7
     developer_ergonomics: 59.5
@@ -431,8 +436,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 41.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

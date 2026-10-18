@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: documented
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 34.4
-  scored_at: '2026-10-04'
+  score: 32.5
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -152,6 +152,25 @@ collections:
   name: Veryfi OCR Any Documents W-9 Forms API
   slug: open-veryfi-w-9-forms-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/veryfi/refs/heads/main/plans/veryfi-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/veryfi-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/veryfi/refs/heads/main/rate-limits/veryfi-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/veryfi-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/veryfi/refs/heads/main/finops/veryfi-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/veryfi-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.veryfi.com/engineering/
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -250,9 +269,13 @@ examples:
   name: Veryfi Process W2 Example
   slug: veryfi-process-w2-example
 finops:
-- name: Veryfi Finops
+- has_sources: true
+  method: generated
+  name: Veryfi Finops
+  primary_unit: ''
   service_category: Document AI / OCR
   slug: veryfi-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/veryfi.png
 json_schemas:
 - name: Veryfi Bank Statement
@@ -296,17 +319,17 @@ mcp_servers:
 - description: ''
   name: MCP Server
   slug: mcp-server
-modified: '2026-05-19'
+modified: '2026-10-06'
 name: Veryfi
 nav: Providers
 network: true
-overview: 'Veryfi publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Any Documents API, Bank Statements API, Checks API, and 11 more. Tagged areas include Artificial Intelligence, Document Processing, Finance, Invoices, and OCR.
+overview: 'Veryfi publishes 14 API contracts indexed on the [APIs.io](https://apis.io/) network, including Any Documents API, Bank Statements API, Checks API, and 11 more. Tagged areas include Artificial Intelligence, Document Processing, Finance, Invoices, and OCR.
 
 
   The Veryfi catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Veryfi''s developer surface includes authentication, documentation, developer console, signup flow, support, and 15 more developer resources.'
+  Veryfi''s developer surface includes engineering blog, authentication, documentation, developer console, signup flow, support, and 18 more developer resources.'
 plans:
 - name: Veryfi Plans Pricing
   plan_count: 3
@@ -317,9 +340,10 @@ rate_limits:
   name: Veryfi Rate Limits
   slug: veryfi-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Veryfi API Rules
+  name: Veryfi — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -327,10 +351,11 @@ rules:
     info: 1
     warn: 4
   slug: veryfi-jsonschema-spectral-rules
-- effective_rule_count: 51
+- authorship: unmarked
+  effective_rule_count: 51
   extends:
   - spectral:oas
-  name: Veryfi API Rules
+  name: Veryfi — ocr rules
   rule_count: 10
   severity_counts:
     error: 2
@@ -340,20 +365,20 @@ rules:
   slug: veryfi-ocr-rules
 score:
   band: developing
-  composite: 50.3
+  composite: 49.3
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 55.5
+    artifact_dirs: 21
+    catalog_earned: 52.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 59.5
+    catalog_gap: 62.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.0
   facets:
-    access_clarity: 57.9
+    access_clarity: 50.0
     contract_governance: 13.6
     contract_quality: 60.7
-    developer_ergonomics: 48.1
+    developer_ergonomics: 50.5
     discoverability: 63.3
     operational_transparency: 10.5
   previous_composite: 50.3
@@ -370,8 +395,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -389,7 +414,7 @@ security:
 - kind: vulnerability-disclosure
   name: Veryfi Vulnerability Disclosure
   slug: veryfi-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 - kind: trust-center
   name: Veryfi Trust Center
   slug: veryfi-trust-center

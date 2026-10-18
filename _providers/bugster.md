@@ -32,10 +32,19 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
-artifact_total: 2
+artifact_total: 3
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/bugster/refs/heads/main/plans/bugster-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/bugster-plans-pricing.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://bugster.dev/blog
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/bugster/refs/heads/main/security/bugster-trust-center.yml
   title: ''
@@ -127,28 +136,32 @@ created: '2026-07-17'
 description: Bugster is an AI-powered end-to-end testing and QA automation platform for web applications. It provides an autonomous QA agent that simulates a real user in a real browser, clicking, typing, and navigating to validate critical flows, then reports what is broken directly in your pull request. Developers describe test scenarios in plain English and Bugster generates, runs, and self-heals the test suite, eliminating flaky, hand-maintained scripts. The product is delivered primarily through the Bugster CLI (auth, init, generate, run, update, destructive, and interactive shell commands) plus a web app, GitHub App, and CI/CD integrations for Vercel, Netlify, Railway, and Google Cloud Build. It also ships a destructive testing agent that actively tries to break changed pages to surface bugs before release. Bugster is a portfolio company of 500 Global and targets developers at VC-backed startups who want to ship with confidence.
 image: https://www.bugster.dev/images/og/bugster-og.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Bugster
 nav: Providers
 network: true
 overview: 'Bugster is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Testing, QA, Test Automation, and End-to-End Testing.
 
 
-  Bugster''s developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, support, changelog, and 13 more developer resources.'
+  Bugster''s developer surface includes engineering blog, documentation, getting-started guide, pricing, signup flow, support, changelog, and 15 more developer resources.'
+plans:
+- name: Bugster Plans Pricing
+  plan_count: 2
+  slug: bugster-plans-pricing
 random_paper: 16
 score:
   band: thin
-  composite: 26.8
+  composite: 31.1
   coverage:
-    artifact_dirs: 8
-    catalog_earned: 27.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 88.0
+    artifact_dirs: 9
+    catalog_earned: 35.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 4.3
   facets:
-    access_clarity: 40.8
+    access_clarity: 61.8
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 52.4
@@ -161,8 +174,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 17.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

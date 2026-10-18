@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: RSS feed providing the latest articles and news from The New Stack covering cloud native, DevOps, AI, and open source technologies. Feed follows RSS 2.0 with Dublin Core and WordPress content extensio
@@ -44,6 +44,21 @@ apis:
   slug: podcast-rss
 artifact_total: 11
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/the-new-stack/refs/heads/main/plans/the-new-stack-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/the-new-stack-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/the-new-stack/refs/heads/main/rate-limits/the-new-stack-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/the-new-stack-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/the-new-stack/refs/heads/main/finops/the-new-stack-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/the-new-stack-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/the-new-stack/refs/heads/main/security/the-new-stack-domain-security.yml
   title: ''
@@ -128,9 +143,13 @@ examples:
   name: The New Stack Rss Feed Example
   slug: the-new-stack-rss-feed-example
 finops:
-- name: The New Stack Finops
+- has_sources: false
+  method: generated
+  name: The New Stack Finops
+  primary_unit: ''
   service_category: API
   slug: the-new-stack-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/the-new-stack.png
 json_schemas:
 - name: The New Stack RSS Article Item
@@ -150,13 +169,13 @@ modified: '2026-05-03'
 name: The New Stack
 nav: Providers
 network: true
-overview: 'The New Stack publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Cloud-Native, DevOps, Media, and Technology News.
+overview: 'The New Stack is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Cloud-Native, DevOps, Media, and Technology News.
 
 
   The The New Stack catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  The New Stack''s developer surface includes YouTube channel and 18 more developer resources.'
+  The New Stack''s developer surface includes YouTube channel and 21 more developer resources.'
 plans:
 - name: The New Stack Plans Pricing
   plan_count: 3
@@ -167,9 +186,10 @@ rate_limits:
   name: The New Stack Rate Limits
   slug: the-new-stack-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: The New Stack API Rules
+  name: The New Stack — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -179,17 +199,17 @@ rules:
   slug: the-new-stack-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 17.1
+  composite: 15.6
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 47.3
+    artifact_dirs: 13
+    catalog_earned: 44.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 67.8
+    catalog_gap: 70.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 26.3
+    access_clarity: 18.4
     contract_governance: 9.8
     contract_quality: 10.7
     developer_ergonomics: 9.5
@@ -202,8 +222,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 14.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 6
 apis:
 - description: The AutoRest Core package (@autorest/core) is the central engine that orchestrates code generation from OpenAPI specifications. It handles input processing, configuration resolution, pipeline manageme
@@ -56,6 +56,21 @@ apis:
   slug: autorest-go
 artifact_total: 21
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/autorest/refs/heads/main/plans/autorest-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/autorest-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/autorest/refs/heads/main/rate-limits/autorest-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/autorest-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/autorest/refs/heads/main/finops/autorest-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/autorest-finops.yml
 - group: build
   title: ''
   type: CodeOfConduct
@@ -171,9 +186,13 @@ features:
 - description: Supports literate configuration using Markdown code blocks for per-client customization of generated output including namespace, output folder, and generator-specific options.
   name: Configuration File Support
 finops:
-- name: Autorest Finops
+- has_sources: false
+  method: generated
+  name: Autorest Finops
+  primary_unit: ''
   service_category: API
   slug: autorest-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/autorest.png
 integrations:
 - description: AutoRest is the primary tool consuming the Azure/azure-rest-api-specs repository to generate official Azure SDK client libraries.
@@ -187,10 +206,10 @@ modified: '2026-08-06'
 name: AutoRest
 nav: Providers
 network: true
-overview: 'AutoRest publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Code Generation, Microsoft, OpenAPI, SDK Generation, and Azure SDK.
+overview: 'AutoRest is listed with 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Code Generation, Microsoft, OpenAPI, SDK Generation, and Azure SDK.
 
 
-  AutoRest''s developer surface includes documentation, getting-started guide, release notes, API reference, support, CLI, changelog, and 16 more developer resources.'
+  AutoRest''s developer surface includes documentation, getting-started guide, release notes, API reference, support, CLI, changelog, and 19 more developer resources.'
 plans:
 - name: Autorest Plans Pricing
   plan_count: 3
@@ -202,17 +221,17 @@ rate_limits:
   slug: autorest-rate-limits
 score:
   band: thin
-  composite: 36.0
+  composite: 34.7
   coverage:
     artifact_dirs: 13
-    catalog_earned: 49.0
+    catalog_earned: 46.0
     catalog_earned_first_party: 5.0
-    catalog_gap: 66.0
+    catalog_gap: 69.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.3
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 33.3
     contract_quality: 0.0
     developer_ergonomics: 47.6
@@ -230,8 +249,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.bibit.id/blog-1?format=rss
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/bibit/refs/heads/main/security/bibit-vulnerability-disclosure.yml
   title: ''
@@ -89,20 +93,20 @@ created: '2026-07-17'
 description: Bibit is an Indonesian retail investment application that lets everyday users invest in mutual funds (reksa dana), government bonds (SBN/SBR/ORI), fixed-rate bonds, and stocks. Built for beginner investors, it uses robo-advisor technology to recommend diversified portfolios and is licensed by Indonesia's financial regulator OJK. Bibit operates within the Stockbit group and is a portfolio company of Prosus Ventures. As of this profile no public developer API, SDK, or developer portal is published; this repo tracks the company's public surface (security.txt, legal, help, blog) for the API Evangelist network.
 image: https://assets.bibit.id/logos/thumbnail-bibit.jpg
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Bibit
 nav: Providers
 network: true
 overview: 'Bibit is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Investment, Mutual Funds, and Wealth Management.
 
 
-  Bibit''s developer surface includes engineering blog, support, and 9 more developer resources.'
+  Bibit''s developer surface includes engineering blog, support, and 10 more developer resources.'
 random_paper: 16
 score:
   band: emerging
   composite: 12.5
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -130,13 +134,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/bibit/refs/heads/main/screenshots/bibit-2026-10-11T182925.png
 security:
 - kind: domain-security
   name: Bibit Domain Security

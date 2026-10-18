@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.0
-  scored_at: '2026-10-04'
+  score: 28.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -62,6 +62,21 @@ collections:
   name: Estated Property Data API
   slug: open-estated-property-data-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/estated/refs/heads/main/plans/estated-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/estated-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/estated/refs/heads/main/rate-limits/estated-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/estated-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/estated/refs/heads/main/finops/estated-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/estated-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/estated/refs/heads/main/agentic-access/estated-agentic-access.yml
   title: ''
@@ -133,9 +148,13 @@ examples:
   name: Estated Get Property Example
   slug: estated-get-property-example
 finops:
-- name: Estated Finops
+- has_sources: false
+  method: generated
+  name: Estated Finops
+  primary_unit: ''
   service_category: ''
   slug: estated-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/estated.png
 json_schemas:
 - name: Estated Property
@@ -151,13 +170,13 @@ modified: '2026-05-25'
 name: Estated
 nav: Providers
 network: true
-overview: 'Estated publishes 1 API on the [APIs.io](https://apis.io/) network: Property API. Tagged areas include Property Data, Real Estate, Property Records, Assessor, and Parcel.
+overview: 'Estated publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Property API. Tagged areas include Property Data, Real Estate, Property Records, Assessor, and APN.
 
 
   The Estated catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Estated''s developer surface includes authentication, documentation, signup flow, GitHub presence, and 11 more developer resources.'
+  Estated''s developer surface includes authentication, documentation, signup flow, GitHub presence, and 14 more developer resources.'
 plans:
 - name: Estated Plans Pricing
   plan_count: 3
@@ -168,9 +187,10 @@ rate_limits:
   name: Estated Rate Limits
   slug: estated-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Estated API Rules
+  name: Estated — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -178,7 +198,8 @@ rules:
     info: 1
     warn: 4
   slug: estated-jsonschema-spectral-rules
-- effective_rule_count: 45
+- authorship: unmarked
+  effective_rule_count: 45
   extends:
   - spectral:oas
   name: Estated API Rules
@@ -191,17 +212,17 @@ rules:
   slug: estated-rules
 score:
   band: developing
-  composite: 46.0
+  composite: 40.4
   coverage:
     artifact_dirs: 15
-    catalog_earned: 73.2
+    catalog_earned: 62.4
     catalog_earned_first_party: 0.0
-    catalog_gap: 41.8
+    catalog_gap: 52.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.6
   facets:
-    access_clarity: 70.5
+    access_clarity: 42.1
     contract_governance: 27.3
     contract_quality: 62.7
     developer_ergonomics: 21.4
@@ -221,9 +242,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
@@ -244,7 +265,6 @@ tags:
 - Real Estate
 - Property Records
 - Assessor
-- Parcel
 - APN
 - FIPS
 - Deeds
@@ -254,5 +274,7 @@ tags:
 - GIS
 - Owner Of Record
 - Tax Assessment
+- Land Parcels
+- Acquired
 website: https://estated.com
 ---

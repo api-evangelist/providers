@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://scodix.com/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/scodix/refs/heads/main/security/scodix-domain-security.yml
   title: ''
@@ -69,18 +73,18 @@ created: '2026-07-17'
 description: Scodix is a digital print enhancement (embellishment) technology company founded in 2007 and headquartered in Rosh HaAyin, Israel. It manufactures the Scodix Ultra series of digital embellishment presses and the Scodix Studio web-to-print software, enabling decorative effects across 17 applications including Spot UV, foil, glitter, metallic, cast-and-cure, braille and variable data. Scodix serves commercial print, folding-carton packaging, publishing and web-to-print markets with over 400 installations worldwide, and went public on the Tel Aviv Stock Exchange (TASE) in 2021. Scodix Studio exposes integration APIs for connecting embellishment workflows to MIS and web-to-print storefronts, but Scodix does not publish a public developer portal, OpenAPI definition, or self-serve API documentation.
 image: https://scodix.com/wp-content/uploads/2021/06/scodix-logo.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Scodix
 nav: Providers
 network: true
 overview: 'Scodix is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Printing, Digital Printing, Embellishment, and Packaging.
 
 
-  Scodix''s developer surface includes support, engineering blog, and 5 more developer resources.'
+  Scodix''s developer surface includes support, engineering blog, and 6 more developer resources.'
 random_paper: 12
 score:
   band: minimal
-  composite: 3.8
+  composite: 3.9
   coverage:
     artifact_dirs: 4
     catalog_earned: 27.0
@@ -88,7 +92,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
@@ -108,8 +112,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

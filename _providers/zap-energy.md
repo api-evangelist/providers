@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://legacy.zapenergy.com/blog/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/zap-energy/refs/heads/main/security/zap-energy-domain-security.yml
   title: ''
@@ -90,14 +94,14 @@ description: Zap Energy is a Seattle, Washington fusion energy company pursuing 
   Z-pinch and a marker on the path to scientific energy gain (Q>1). Zap Energy was selected for the U.S. Department of Energy's Milestone-Based Fusion Development Program in May 2023 and received DOE approval of the preconceptual design of its Fusion Pilot Plant. The company has raised over $325 million across Series A–D from Breakthrough Energy Ventures, Lowercarbon Capital, Energy Impact Partners, Chevron Technology Ventures, Shell Ventures, DCVC, Valor Equity Partners, and Addition. As of April 2026, Zabrina Johal serves as CEO with Conway as President, and the company has expanded its mandate to also pursue small modular fission alongside its fusion roadmap. Zap Energy has no public developer API, SDK, GitHub organization, or open-source release; the technical surface is published as peer-reviewed papers and DOE milestone reports.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zap-energy.png
 layout: provider
-modified: '2026-05-24'
+modified: '2026-10-06'
 name: Zap Energy
 nav: Providers
 network: true
 overview: 'Zap Energy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fusion, Fusion Energy, Nuclear Fusion, Z-Pinch, and Sheared-Flow-Stabilized Z-Pinch.
 
 
-  Zap Energy''s developer surface includes product news, YouTube channel, and 10 more developer resources.'
+  Zap Energy''s developer surface includes product news, YouTube channel, and 11 more developer resources.'
 random_paper: 14
 score:
   band: minimal
@@ -124,8 +128,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 4.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

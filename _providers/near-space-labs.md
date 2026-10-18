@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 4
 apis:
 - baseURL: https://api.nearspacelabs.net
@@ -206,7 +206,7 @@ modified: '2026-08-26'
 name: Near Space Labs
 nav: Providers
 network: true
-overview: 'Near Space Labs publishes 2 APIs on the [APIs.io](https://apis.io/) network: Tile API and OAUTH API. Tagged areas include Company, Earth Observation, Aerial Imagery, Geospatial, and Satellite and Remote Sensing.
+overview: 'Near Space Labs publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Tile API and OAUTH API. Tagged areas include Company, Earth Observation, Aerial Imagery, Geospatial, and Satellite and Remote Sensing.
 
 
   Near Space Labs'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, code examples, and 21 more developer resources.'
@@ -253,8 +253,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 18.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

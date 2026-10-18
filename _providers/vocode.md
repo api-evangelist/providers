@@ -30,13 +30,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.5
-  scored_at: '2026-10-04'
+  score: 19.6
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -166,16 +166,20 @@ common:
 created: '2026-06-21'
 description: Vocode is an open-source Python library (vocode-core, MIT licensed) for building real-time, streaming voice AI agents that run over phone calls, plus a hosted REST API at https://api.vocode.dev/v1 (Bearer API key) for placing and managing outbound and inbound phone calls, configuring agents, voices, prompts, actions, phone numbers, and webhooks without operating the streaming infrastructure yourself.
 finops:
-- name: Vocode Finops
+- has_sources: true
+  method: generated
+  name: Vocode Finops
+  primary_unit: ''
   service_category: AI and Machine Learning
   slug: vocode-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vocode.png
 layout: provider
 modified: '2026-06-21'
 name: Vocode
 nav: Providers
 network: true
-overview: 'Vocode publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Actions API, Agents API, Calls API, and 6 more. Tagged areas include Voice AI, Voice Agents, Telephony, Conversational AI, and Phone Calls.
+overview: 'Vocode publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Actions API, Agents API, Calls API, and 6 more. Tagged areas include Voice AI, Voice Agents, Telephony, Conversational AI, and Phone Calls.
 
 
   Vocode''s developer surface includes authentication, documentation, and 8 more developer resources.'
@@ -189,23 +193,23 @@ rate_limits:
   name: Vocode Rate Limits
   slug: vocode-rate-limits
 score:
-  band: thin
-  composite: 34.0
+  band: emerging
+  composite: 25.3
   coverage:
     artifact_dirs: 10
-    catalog_earned: 61.6
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.4
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.7
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 45.7
     developer_ergonomics: 29.8
     discoverability: 66.1
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   previous_composite: 34.0
   provenance:
     agentic_access: derived
@@ -216,13 +220,13 @@ score:
       total: 7
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

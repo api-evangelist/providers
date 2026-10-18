@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 55
+- acting_count: 51
   human_in_the_loop: 0
   name: Currencycloud Agentic Access
   operation_count: 111
   slug: currencycloud-agentic-access
-  summary_line: 111 operations · 55 acting
+  summary_line: 111 operations · 51 acting
 api_count: 2
 apis:
 - baseURL: https://api.currencycloud.com/v2
@@ -181,7 +181,7 @@ apis:
   description: Manage withdrawal accounts
   name: Currencycloud Withdrawal Accounts API
   slug: currencycloud-withdrawal-accounts-api
-artifact_total: 88
+artifact_total: 147
 asyncapis:
 - description: ''
   name: Currencycloud Webhooks
@@ -353,6 +353,44 @@ collections:
   name: api-onboarding Account Usage Withdrawal Accounts API
   slug: open-currencycloud-withdrawal-accounts-api
 common:
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/currencycloud/refs/heads/main/rules/currencycloud-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/currencycloud-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/currencycloud/refs/heads/main/json-ld/currencycloud-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/currencycloud-context.jsonld
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/currencycloud/refs/heads/main/vocabulary/currencycloud-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/currencycloud-vocabulary.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/currencycloud/refs/heads/main/errors/currencycloud-problem-types.yml
+  title: ''
+  type: ErrorCatalog
+  url: errors/currencycloud-problem-types.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/currencycloud/refs/heads/main/hosts/currencycloud-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/currencycloud-hosts.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/currencycloud/refs/heads/main/vendors/currencycloud-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/currencycloud-vendors.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.currencycloud.com/legal/security
+- group: company
+  title: ''
+  type: Blog
+  url: https://blog.currencycloud.com/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/currencycloud/refs/heads/main/capabilities/currencycloud-capability-edges.yml
   title: ''
@@ -435,11 +473,6 @@ common:
   title: ''
   type: X-MCPServerCandidate
   url: mcp/currencycloud-mcp.yml
-- group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/currencycloud/refs/heads/main/llms/currencycloud-llms.txt
-  title: ''
-  type: LLMsTxt
-  url: llms/currencycloud-llms.txt
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/currencycloud/refs/heads/main/well-known/currencycloud-well-known.yml
   title: ''
@@ -527,41 +560,232 @@ common:
 created: '2026-07-17'
 description: 'Currencycloud is a cross-border payments and foreign-exchange platform, part of Visa, that provides a robust, predictable REST API for converting money between currencies, holding multi-currency balances, and making payments around the world. Its API v2 spans 18 domains — authentication, accounts and sub-accounts, balances, beneficiaries, contacts, conversions, funding, payers, payments, quotes, rates, reference data, reporting, transactions, transfers and withdrawal accounts — and lets businesses dynamically register sub-accounts to offer white-labelled money-transfer services to their own customers. Currencycloud is an FCA-authorised Electronic Money Institution (registration #900199) and a FinCEN-registered money transmitter, and publishes official SDKs for JavaScript, Python, Ruby, PHP, Java and .NET.'
 image: https://raw.githubusercontent.com/CurrencyCloud/currencycloud-swagger/master/apps/website/public/images/introduction-header.png
+json_schemas:
+- name: AcceptTermsResponse
+  property_count: 2
+  slug: currencycloud-accept-terms-response
+- name: AccountComplianceSettings
+  property_count: 18
+  slug: currencycloud-account-compliance-settings
+- name: AccountPaymentChargesSetting
+  property_count: 5
+  slug: currencycloud-account-payment-charges-setting
+- name: Account
+  property_count: 28
+  slug: currencycloud-account
+- name: account_usage
+  property_count: 16
+  slug: currencycloud-account-usage
+- name: AuthenticationToken
+  property_count: 1
+  slug: currencycloud-authentication-token
+- name: Balance
+  property_count: 6
+  slug: currencycloud-balance
+- name: BankDetails
+  property_count: 13
+  slug: currencycloud-bank-details
+- name: BeneficiaryAccountVerificationResult
+  property_count: 5
+  slug: currencycloud-beneficiary-account-verification-result
+- name: BeneficiaryRequirements
+  property_count: 19
+  slug: currencycloud-beneficiary-requirements
+- name: Beneficiary
+  property_count: 36
+  slug: currencycloud-beneficiary
+- name: business_information
+  property_count: 17
+  slug: currencycloud-business-information
+- name: Contact
+  property_count: 16
+  slug: currencycloud-contact
+- name: ConversionCancellationQuote
+  property_count: 3
+  slug: currencycloud-conversion-cancellation-quote
+- name: ConversionDateChange
+  property_count: 8
+  slug: currencycloud-conversion-date-change
+- name: ConversionDates
+  property_count: 7
+  slug: currencycloud-conversion-dates
+- name: ConversionProfitAndLoss
+  property_count: 2
+  slug: currencycloud-conversion-profit-and-loss
+- name: Conversion
+  property_count: 29
+  slug: currencycloud-conversion
+- name: ConversionSplitHistory
+  property_count: 3
+  slug: currencycloud-conversion-split-history
+- name: create_account_usage_request
+  property_count: 12
+  slug: currencycloud-create-account-usage-request
+- name: create_business_information_request
+  property_count: 13
+  slug: currencycloud-create-business-information-request
+- name: create_document_image_request
+  property_count: 2
+  slug: currencycloud-create-document-image-request
+- name: create_document_request
+  property_count: 2
+  slug: currencycloud-create-document-request
+- name: create_form_request
+  property_count: 12
+  slug: currencycloud-create-form-request
+- name: create_person_request
+  property_count: 14
+  slug: currencycloud-create-person-request
+- name: document_image
+  property_count: 4
+  slug: currencycloud-document-image
+- name: document
+  property_count: 5
+  slug: currencycloud-document
+- name: document_with_image_ids
+  property_count: 8
+  slug: currencycloud-document-with-image-ids
+- name: form
+  property_count: 18
+  slug: currencycloud-form
+- name: form_with_associations
+  property_count: 21
+  slug: currencycloud-form-with-associations
+- name: FundingAccount
+  property_count: 14
+  slug: currencycloud-funding-account
+- name: FundingTransaction
+  property_count: 13
+  slug: currencycloud-funding-transaction
+- name: HeldRateQuote
+  property_count: 19
+  slug: currencycloud-held-rate-quote
+- name: HMACKey
+  property_count: 1
+  slug: currencycloud-hmackey
+- name: Pagination
+  property_count: 8
+  slug: currencycloud-pagination
+- name: Payer
+  property_count: 15
+  slug: currencycloud-payer
+- name: PaymentConfirmation
+  property_count: 9
+  slug: currencycloud-payment-confirmation
+- name: PaymentDates
+  property_count: 2
+  slug: currencycloud-payment-dates
+- name: PaymentDeliveryDate
+  property_count: 6
+  slug: currencycloud-payment-delivery-date
+- name: PaymentFeeRule
+  property_count: 6
+  slug: currencycloud-payment-fee-rule
+- name: PaymentFee
+  property_count: 7
+  slug: currencycloud-payment-fee
+- name: Payment
+  property_count: 31
+  slug: currencycloud-payment
+- name: PaymentTrackingInfo
+  property_count: 6
+  slug: currencycloud-payment-tracking-info
+- name: person
+  property_count: 18
+  slug: currencycloud-person
+- name: QuotePaymentFee
+  property_count: 7
+  slug: currencycloud-quote-payment-fee
+- name: RateDetailed
+  property_count: 14
+  slug: currencycloud-rate-detailed
+- name: RatesBasic
+  property_count: 2
+  slug: currencycloud-rates-basic
+- name: ReportRequest
+  property_count: 12
+  slug: currencycloud-report-request
+- name: Sender
+  property_count: 10
+  slug: currencycloud-sender
+- name: SettlementAccount
+  property_count: 14
+  slug: currencycloud-settlement-account
+- name: SimulateFunding
+  property_count: 17
+  slug: currencycloud-simulate-funding
+- name: TopUpMarginBalance
+  property_count: 3
+  slug: currencycloud-top-up-margin-balance
+- name: Transaction
+  property_count: 17
+  slug: currencycloud-transaction
+- name: Transfer
+  property_count: 14
+  slug: currencycloud-transfer
+- name: WithdrawalAccount
+  property_count: 8
+  slug: currencycloud-withdrawal-account
+- name: WithdrawalPullFundsRequestDetails
+  property_count: 5
+  slug: currencycloud-withdrawal-pull-funds-request-details
+jsonld:
+- class_count: 120
+  name: Currencycloud Context
+  property_count: 314
+  slug: currencycloud-context
 layout: provider
 modified: '2026-07-18'
 name: Currencycloud
 nav: Providers
 network: true
-overview: 'Currencycloud publishes 27 APIs on the [APIs.io](https://apis.io/) network, including Account Usage API, Accounts API, Authenticate API, and 24 more. Tagged areas include Company, Fintech, Payments, Foreign Exchange, and Cross-Border Payments.
+overview: 'Currencycloud publishes 27 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account Usage API, Accounts API, Authenticate API, and 24 more. Tagged areas include Company, Fintech, Payments, Foreign Exchange, and Cross-Border Payments.
 
 
-  The Currencycloud catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Currencycloud catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Currencycloud''s developer surface includes documentation, API reference, getting-started guide, authentication, signup flow, support, changelog, and 30 more developer resources.'
+  Currencycloud''s developer surface includes engineering blog, documentation, API reference, getting-started guide, authentication, signup flow, support, and 37 more developer resources.'
+plans:
+- name: Currencycloud Plans Pricing
+  plan_count: 0
+  slug: currencycloud-plans-pricing
 random_paper: 2
 rate_limits:
-- limit_count: 5
+- limit_count: 10
   name: Currencycloud Rate Limits
   slug: currencycloud-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 54
+  extends:
+  - spectral:oas
+  name: Currencycloud API Rules
+  rule_count: 13
+  severity_counts:
+    error: 8
+    hint: 0
+    info: 4
+    warn: 1
+  slug: currencycloud-rules
 score:
   band: strong
-  composite: 57.2
+  composite: 63.8
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 49.0
+    artifact_dirs: 32
+    catalog_earned: 74.8
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 40.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.6
   facets:
     access_clarity: 50.0
-    contract_governance: 4.5
-    contract_quality: 55.6
-    developer_ergonomics: 75.6
-    discoverability: 73.2
-    operational_transparency: 81.6
+    contract_governance: 22.0
+    contract_quality: 69.0
+    developer_ergonomics: 78.0
+    discoverability: 66.1
+    operational_transparency: 92.1
   previous_composite: 57.2
   provenance:
     agentic_access: derived
@@ -583,9 +807,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 23.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

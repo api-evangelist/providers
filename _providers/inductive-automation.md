@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 349
   human_in_the_loop: 9
@@ -749,6 +749,14 @@ collections:
   name: Ignition Gateway REST access-control vision-sessions API
   slug: open-inductive-automation-vision-sessions-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://inductiveautomation.com/blog/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://inductiveautomation.com/blog/rss.xml
 - group: commercial
   href: https://raw.githubusercontent.com/api-evangelist/inductive-automation/refs/heads/main/plans/inductive-automation-plans-pricing.yml
   title: ''
@@ -864,17 +872,17 @@ jsonld:
   property_count: 19
   slug: inductive-automation-context
 layout: provider
-modified: '2026-06-05'
+modified: '2026-10-06'
 name: Inductive Automation
 nav: Providers
 network: true
-overview: 'Inductive Automation publishes 88 APIs on the [APIs.io](https://apis.io/) network, including Access Control API, Agent Group API, Agent Management API, and 85 more. Tagged areas include SCADA, HMI, Manufacturing, Industrial IoT, and Industrial Automation.
+overview: 'Inductive Automation publishes 88 API contracts indexed on the [APIs.io](https://apis.io/) network, including Access Control API, Agent Group API, Agent Management API, and 85 more. Tagged areas include SCADA, HMI, Manufacturing, Industrial IoT, and Industrial Automation.
 
 
   The Inductive Automation catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Inductive Automation''s developer surface includes authentication, documentation, developer portal, engineering blog, YouTube channel, pricing, support, and 11 more developer resources.'
+  Inductive Automation''s developer surface includes engineering blog, authentication, documentation, developer portal, YouTube channel, pricing, support, and 13 more developer resources.'
 plans:
 - name: Inductive Automation Plans Pricing
   plan_count: 4
@@ -884,9 +892,10 @@ plans:
   slug: inductive-automation-price-estimates
 random_paper: 15
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Inductive Automation API Rules
+  name: Inductive Automation — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -894,7 +903,8 @@ rules:
     info: 2
     warn: 3
   slug: inductive-automation-jsonschema-spectral-rules
-- effective_rule_count: 8
+- authorship: unmarked
+  effective_rule_count: 8
   extends: []
   name: Inductive Automation API Rules
   rule_count: 8
@@ -908,13 +918,13 @@ score:
   band: developing
   composite: 42.5
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 63.3
     catalog_earned_first_party: 12.0
     catalog_gap: 51.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 50.0
     contract_governance: 9.8
@@ -922,7 +932,7 @@ score:
     developer_ergonomics: 38.1
     discoverability: 66.1
     operational_transparency: 2.6
-  previous_composite: 41.9
+  previous_composite: 42.5
   provenance:
     agentic_access: derived
     contracts:
@@ -936,8 +946,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -955,7 +965,7 @@ security:
 - kind: vulnerability-disclosure
   name: Inductive Automation Vulnerability Disclosure
   slug: inductive-automation-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 - kind: trust-center
   name: Inductive Automation Trust Center
   slug: inductive-automation-trust-center

@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.5
-  scored_at: '2026-10-04'
+  score: 19.6
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 121
+- acting_count: 96
   human_in_the_loop: 4
   name: Utrecht Agentic Access
   operation_count: 121
   slug: utrecht-agentic-access
-  summary_line: 121 operations · 121 acting · 4 human-in-the-loop
+  summary_line: 121 operations · 96 acting · 4 human-in-the-loop
 api_count: 2
 apis:
 - description: 'OAI-PMH 2.0 metadata harvesting interface for the Utrecht University Library institutional repository. Verified live 2026-08-30 on DSpace 9.0: Identify, ListMetadataFormats and ListRecords all answer,'
@@ -223,6 +223,10 @@ collections:
   name: Yoda core admin vault_deaccession API
   slug: open-utrecht-vault-deaccession-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.uu.nl/en/organisation/news
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/utrecht/refs/heads/main/capabilities/utrecht-capability-edges.yml
   title: ''
@@ -356,9 +360,13 @@ examples:
   name: Utrecht Yoda Folder Submit Example
   slug: utrecht-yoda-folder-submit-example
 finops:
-- name: Utrecht Finops
+- has_sources: true
+  method: generated
+  name: Utrecht Finops
+  primary_unit: ''
   service_category: Education
   slug: utrecht-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/utrecht.png
 json_schemas:
 - name: Yoda API Error Result
@@ -380,17 +388,17 @@ jsonld:
   property_count: 3
   slug: utrecht-context
 layout: provider
-modified: '2026-08-30'
+modified: '2026-10-06'
 name: Utrecht University
 nav: Providers
 network: true
-overview: 'Utrecht University publishes 24 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Browse API, Data Access Token API, and 21 more. Tagged areas include Education, Higher Education, University, Netherlands, and Europe.
+overview: 'Utrecht University publishes 24 API contracts indexed on the [APIs.io](https://apis.io/) network, including Admin API, Browse API, Data Access Token API, and 21 more. Tagged areas include Education, Higher Education, University, Netherlands, and Europe.
 
 
   The Utrecht University catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Utrecht University''s developer surface includes authentication, GitHub presence, documentation, API reference, support, and 23 more developer resources.'
+  Utrecht University''s developer surface includes engineering blog, authentication, GitHub presence, documentation, API reference, support, and 23 more developer resources.'
 plans:
 - name: Utrecht Plans Pricing
   plan_count: 2
@@ -401,9 +409,10 @@ rate_limits:
   name: Utrecht Rate Limits
   slug: utrecht-rate-limits
 rules:
-- effective_rule_count: 4
+- authorship: generated
+  effective_rule_count: 4
   extends: []
-  name: Utrecht University API Rules
+  name: Utrecht University — jsonschema rules
   rule_count: 4
   severity_counts:
     error: 0
@@ -411,7 +420,8 @@ rules:
     info: 1
     warn: 3
   slug: utrecht-jsonschema-spectral-rules
-- effective_rule_count: 8
+- authorship: derived
+  effective_rule_count: 8
   extends: []
   name: Utrecht University API Rules
   rule_count: 8
@@ -423,22 +433,22 @@ rules:
   slug: utrecht-rules
 score:
   band: developing
-  composite: 44.8
+  composite: 39.7
   coverage:
     artifact_dirs: 19
-    catalog_earned: 71.1
+    catalog_earned: 57.7
     catalog_earned_first_party: 0.0
-    catalog_gap: 46.9
+    catalog_gap: 57.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -5.1
   facets:
-    access_clarity: 47.9
+    access_clarity: 26.3
     contract_governance: 9.8
     contract_quality: 52.9
-    developer_ergonomics: 33.3
+    developer_ergonomics: 35.7
     discoverability: 66.1
-    operational_transparency: 34.7
+    operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -450,7 +460,7 @@ score:
   open_source:
     applies: true
     score: 50.0
-  previous_composite: 44.3
+  previous_composite: 44.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -465,9 +475,9 @@ score:
     regime: Education & Research
     regime_id: education
     score: 30.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 11.1

@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 39.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'Simetrik''s hosted remote Model Context Protocol server. An MCP client adds one URL and signs in with a Simetrik account over OAuth 2.1 (authorization code + PKCE, dynamic client registration) - there '
@@ -197,7 +197,7 @@ modified: '2026-08-27'
 name: Simetrik
 nav: Providers
 network: true
-overview: 'Simetrik publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Reconciliation, Financial Operations, Payments, and Accounting.
+overview: 'Simetrik is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Reconciliation, Financial Operations, Payments, and Accounting.
 
 
   Simetrik''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 24 more developer resources.'
@@ -249,8 +249,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 35.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Bulk contact matching and enrichment. A customer creates a dataset, uploads a UTF-8 CSV of contacts as a dataset-file via a multipart upload, and Aidentified matches and enriches every record once. Th
@@ -171,7 +171,7 @@ modified: '2026-09-14'
 name: Aidentified
 nav: Providers
 network: true
-overview: 'Aidentified publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data Enrichment, Wealth Management, Financial Services, and Relationship Intelligence.
+overview: 'Aidentified is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data Enrichment, Wealth Management, Financial Services, and Relationship Intelligence.
 
 
   Aidentified''s developer surface includes documentation, support, pricing, signup flow, authentication, CLI, and 22 more developer resources.'
@@ -191,15 +191,15 @@ scopes:
   summary_line: 6 scopes
 score:
   band: developing
-  composite: 40.0
+  composite: 40.1
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 17
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 85.5
     contract_governance: 18.2
@@ -224,13 +224,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/aidentified/refs/heads/main/screenshots/aidentified-2026-10-11T093249.png
 security:
 - kind: authentication
   name: Aidentified Authentication

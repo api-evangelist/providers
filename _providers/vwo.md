@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -152,16 +152,20 @@ common:
 created: '2026-05-08'
 description: VWO is a digital experience optimization platform offering A/B testing, personalization, feature management, behavior analytics, and insights.
 finops:
-- name: Vwo Finops
+- has_sources: true
+  method: generated
+  name: Vwo Finops
+  primary_unit: ''
   service_category: A/B Testing
   slug: vwo-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vwo.png
 layout: provider
 modified: '2026-05-08'
 name: VWO
 nav: Providers
 network: true
-overview: 'VWO publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Campaigns API, Feature Flags API, Reports API, and 2 more. Tagged areas include Experimentation, A/B Testing, Personalization, Conversion Optimization, and Feature Flags.
+overview: 'VWO publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Campaigns API, Feature Flags API, Reports API, and 2 more. Tagged areas include Experimentation, A/B Testing, Personalization, Conversion Optimization, and Feature Flags.
 
 
   VWO''s developer surface includes authentication, documentation, engineering blog, and 10 more developer resources.'
@@ -176,17 +180,17 @@ rate_limits:
   slug: vwo-rate-limits
 score:
   band: emerging
-  composite: 25.3
+  composite: 23.8
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 39.0
+    artifact_dirs: 13
+    catalog_earned: 36.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 76.0
+    catalog_gap: 79.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 13.2
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 46.2
     developer_ergonomics: 23.8
@@ -206,8 +210,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 17.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.5
-  scored_at: '2026-10-04'
+  score: 23.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -176,9 +176,13 @@ examples:
   name: Lmnt Voice List Response
   slug: lmnt-voice-list-response
 finops:
-- name: Lmnt Finops
+- has_sources: false
+  method: generated
+  name: Lmnt Finops
+  primary_unit: ''
   service_category: ''
   slug: lmnt-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lmnt.png
 json_schemas:
 - name: LMNT Speech Synthesis Request
@@ -197,7 +201,7 @@ modified: 2026-06-12
 name: LMNT
 nav: Providers
 network: true
-overview: 'LMNT publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Ai API, Health Check API, Speech API, and 1 more. Tagged areas include Text-to-Speech, Voice Synthesis, Voice Cloning, Audio Streaming, and Conversational AI.
+overview: 'LMNT publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Ai API, Health Check API, Speech API, and 1 more. Tagged areas include Text-to-Speech, Voice Synthesis, Voice Cloning, Audio Streaming, and Conversational AI.
 
 
   The LMNT catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -214,9 +218,10 @@ rate_limits:
   name: Lmnt Rate Limits
   slug: lmnt-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: LMNT API Rules
+  name: LMNT — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -225,23 +230,23 @@ rules:
     warn: 4
   slug: lmnt-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 43.1
+  band: thin
+  composite: 35.2
   coverage:
-    artifact_dirs: 16
-    catalog_earned: 73.8
+    artifact_dirs: 17
+    catalog_earned: 57.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 41.2
+    catalog_gap: 57.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.9
   facets:
-    access_clarity: 54.7
+    access_clarity: 26.3
     contract_governance: 23.5
     contract_quality: 53.5
     developer_ergonomics: 21.4
     discoverability: 66.1
-    operational_transparency: 37.4
+    operational_transparency: 23.7
   previous_composite: 43.1
   provenance:
     agentic_access: derived
@@ -252,13 +257,13 @@ score:
       total: 3
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
-    score: 21.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
+    score: 20.8
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

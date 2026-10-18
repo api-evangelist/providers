@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 4
 apis:
 - description: An OpenRPC 1.3.2 contract for real-time control of live calls over RELAY — 8 methods (calling.dial, calling.update, calling.end, calling.ai_hold, calling.ai_unhold, calling.ai_message, calling.live_tr
@@ -663,7 +663,7 @@ modified: '2026-08-27'
 name: SignalWire
 nav: Providers
 network: true
-overview: 'SignalWire publishes 80 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Addresses API, AI Agents: Custom API, and 77 more. Tagged areas include Company, Communications, CPaaS, Voice, and Messaging.
+overview: 'SignalWire publishes 80 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, Addresses API, AI Agents: Custom API, and 77 more. Tagged areas include Company, Communications, CPaaS, Voice, and Messaging.
 
 
   The SignalWire catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -683,21 +683,21 @@ score:
   band: strong
   composite: 65.9
   coverage:
-    artifact_dirs: 26
+    artifact_dirs: 27
     catalog_earned: 52.0
     catalog_earned_first_party: 12.0
     catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 60.5
     contract_governance: 18.2
     contract_quality: 62.3
     developer_ergonomics: 90.5
-    discoverability: 75.0
+    discoverability: 80.0
     operational_transparency: 65.8
-  previous_composite: 65.4
+  previous_composite: 65.9
   provenance:
     conformance: first-party
     contracts:
@@ -713,8 +713,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 34.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

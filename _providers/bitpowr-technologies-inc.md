@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 22
+- acting_count: 19
   human_in_the_loop: 0
   name: Bitpowr Technologies Inc Agentic Access
   operation_count: 55
   slug: bitpowr-technologies-inc-agentic-access
-  summary_line: 55 operations · 22 acting
+  summary_line: 55 operations · 19 acting
 api_count: 1
 apis:
 - baseURL: https://developers.bitpowr.com/api/v1
@@ -256,7 +256,7 @@ modified: '2026-07-18'
 name: BitPowr Technologies
 nav: Providers
 network: true
-overview: 'BitPowr Technologies publishes 10 APIs on the [APIs.io](https://apis.io/) network, including BitPowr Technologies, Inc. Account API, BitPowr Technologies, Inc. Address API, BitPowr Technologies, Inc. Assets API, and 7 more. Tagged areas include Company, Cryptocurrency, Blockchain, Digital Assets, and Wallet Infrastructure.
+overview: 'BitPowr Technologies publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including BitPowr Technologies, Inc. Account API, BitPowr Technologies, Inc. Address API, BitPowr Technologies, Inc. Assets API, and 7 more. Tagged areas include Company, Cryptocurrency, Blockchain, Digital Assets, and Wallet Infrastructure.
 
 
   The BitPowr Technologies catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -299,8 +299,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 22.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'Dredd is a language-agnostic command-line tool for validating an API description document against a backend implementation. It supports API Blueprint, OpenAPI 2.0, and OpenAPI 3.0, and provides hooks '
@@ -42,6 +42,11 @@ apis:
   slug: dredd
 artifact_total: 5
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/dredd/refs/heads/main/finops/dredd-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/dredd-finops.yml
 - group: docs
   title: ''
   type: ContributionGuide
@@ -132,19 +137,23 @@ common:
 created: '2026-03-25'
 description: Dredd is a language-agnostic, MIT-licensed open source command-line tool that validates a running HTTP API against its own API description document. It compiles every request/response pair documented in an API Blueprint, OpenAPI 2.0 or (experimentally) OpenAPI 3.0 file into an HTTP transaction, calls the API under test, and reports where the implementation and the documentation disagree. Hooks written in Node.js, Ruby, Python, PHP, Perl, Go or Rust handle per-transaction test setup and teardown, and pluggable reporters (xunit, dot, markdown, html) wire it into CI. Dredd publishes no API of its own — it is a client you install and run. The project has been archived and unmaintained since November 2024; the last release, 14.1.0, shipped in November 2021.
 finops:
-- name: Dredd Finops
+- has_sources: false
+  method: generated
+  name: Dredd Finops
+  primary_unit: ''
   service_category: API
   slug: dredd-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dredd.png
 layout: provider
 modified: '2026-09-13'
 name: Dredd
 nav: Providers
 network: true
-overview: 'Dredd publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Contract Testing, API Testing, OpenAPI, API Blueprint, and Tooling.
+overview: 'Dredd is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Contract Testing, API Testing, OpenAPI, API Blueprint, and Tooling.
 
 
-  Dredd''s developer surface includes documentation, getting-started guide, support, CLI, changelog, and 14 more developer resources.'
+  Dredd''s developer surface includes documentation, getting-started guide, support, CLI, changelog, and 15 more developer resources.'
 plans:
 - name: Dredd Plans Pricing
   plan_count: 0
@@ -156,17 +165,17 @@ rate_limits:
   slug: dredd-rate-limits
 score:
   band: emerging
-  composite: 19.2
+  composite: 17.7
   coverage:
     artifact_dirs: 14
-    catalog_earned: 35.0
+    catalog_earned: 32.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 80.0
+    catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 7.9
+    access_clarity: 0.0
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 40.5
@@ -181,8 +190,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

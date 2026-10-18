@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.5
-  scored_at: '2026-10-04'
+  score: 23.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 2
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 43
   slug: openhands-agentic-access
   summary_line: 43 operations · 15 acting · 2 human-in-the-loop
-api_count: 1
+api_count: 2
 apis:
 - description: Composable Python SDK for defining, running, and orchestrating agents locally or scaled to thousands in the cloud. Source at github.com/All-Hands-AI/agent-sdk.
   name: OpenHands Agent SDK
@@ -146,6 +146,21 @@ collections:
   name: OpenHands
   slug: open-openhands
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/openhands/refs/heads/main/plans/openhands-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/openhands-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/openhands/refs/heads/main/rate-limits/openhands-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/openhands-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/openhands/refs/heads/main/finops/openhands-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/openhands-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/openhands/refs/heads/main/capabilities/openhands-capability-edges.yml
   title: ''
@@ -274,19 +289,23 @@ features:
 - 75K+ GitHub stars, 9.5K+ forks, 100+ releases
 - Use cases include vuln scanning, PR review, legacy migration, incident triage, test expansion, docs automation
 finops:
-- name: Openhands Finops
+- has_sources: false
+  method: generated
+  name: Openhands Finops
+  primary_unit: ''
   service_category: API
   slug: openhands-finops
+  template: true
 image: https://www.openhands.dev/og-image.png
 layout: provider
 modified: '2026-05-23'
 name: OpenHands
 nav: Providers
 network: true
-overview: 'OpenHands publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Add Git Providers API, Alive API, Conversations API, and 11 more. Tagged areas include Artificial Intelligence, Agents, Autonomous, Open Source, and Developer Tools.
+overview: 'OpenHands publishes 14 API contracts indexed on the [APIs.io](https://apis.io/) network, including Add Git Providers API, Alive API, Conversations API, and 11 more. Tagged areas include Artificial Intelligence, Agents, Autonomous, Open Source, and Developer Tools.
 
 
-  OpenHands'' developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, and 21 more developer resources.'
+  OpenHands'' developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, and 24 more developer resources.'
 plans:
 - name: Openhands Plans Pricing
   plan_count: 1
@@ -297,23 +316,23 @@ rate_limits:
   name: Openhands Rate Limits
   slug: openhands-rate-limits
 score:
-  band: developing
-  composite: 42.7
+  band: thin
+  composite: 36.6
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 44.4
+    artifact_dirs: 12
+    catalog_earned: 31.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 70.6
+    catalog_gap: 84.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.1
   facets:
-    access_clarity: 47.9
+    access_clarity: 26.3
     contract_governance: 0.0
     contract_quality: 47.2
     developer_ergonomics: 57.1
     discoverability: 55.4
-    operational_transparency: 29.5
+    operational_transparency: 15.8
   previous_composite: 42.7
   provenance:
     agentic_access: derived
@@ -328,9 +347,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 23.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

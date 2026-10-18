@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -185,7 +185,7 @@ modified: '2026-07-18'
 name: 酷学院 (Cool College)
 nav: Providers
 network: true
-overview: '酷学院 (Cool College) publishes 3 APIs on the [APIs.io](https://apis.io/) network: 学习 API, pet API, and thirdoa API. Tagged areas include Company, Corporate Training, E-Learning, Talent Development, and Human Resources.
+overview: '酷学院 (Cool College) publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: 学习 API, pet API, and thirdoa API. Tagged areas include Company, Corporate Training, E-Learning, Talent Development, and Human Resources.
 
 
   酷学院 (Cool College)''s developer surface includes API reference, documentation, support, engineering blog, signup flow, authentication, and 17 more developer resources.'
@@ -228,12 +228,12 @@ score:
     skills: derived
   regulatory:
     applies: true
-    matched_via: tags
+    matched_via: weak_tags
     regime: Education & Research
     regime_id: education
     score: 22.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -256,7 +256,7 @@ tags:
 - Talent Development
 - Human Resources
 - Software-as-a-Service
-- Learning Management
+- LMS
 - China
 website: https://www.coolcollege.com
 ---

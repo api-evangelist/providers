@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Non-custodial yield REST API to discover yields, construct unsigned transaction flows (enter/exit/manage), and read unified balances across 80+ networks.
@@ -44,6 +44,11 @@ apis:
   slug: yieldxyz-api
 artifact_total: 6
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/yieldxyz/refs/heads/main/plans/yieldxyz-plans.yml
+  title: ''
+  type: Plans
+  url: plans/yieldxyz-plans.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/yieldxyz/refs/heads/main/security/yieldxyz-domain-security.yml
   title: ''
@@ -186,10 +191,10 @@ modified: '2026-07-21'
 name: Yield.xyz
 nav: Providers
 network: true
-overview: 'Yield.xyz publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto Web3, Staking, DeFi, and Yield.
+overview: 'Yield.xyz is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Web3, Staking, DeFi, and Yield.
 
 
-  Yield.xyz''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, changelog, and 22 more developer resources.'
+  Yield.xyz''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, changelog, and 23 more developer resources.'
 plans:
 - name: Yieldxyz Plans
   plan_count: 3
@@ -227,8 +232,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -247,7 +252,7 @@ security:
 slug: yieldxyz
 tags:
 - Company
-- Crypto Web3
+- Web3
 - Staking
 - DeFi
 - Yield
@@ -256,7 +261,6 @@ tags:
 - Vault
 - Web3 Infrastructure
 - Non-Custodial
-- Web3
 - Cryptocurrency
 website: https://yield.xyz
 ---

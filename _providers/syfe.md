@@ -34,10 +34,24 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 4
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/syfe/refs/heads/main/plans/syfe-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/syfe-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/syfe/refs/heads/main/rate-limits/syfe-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/syfe-rate-limits.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.syfe.com/magazine/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/syfe/refs/heads/main/security/syfe-domain-security.yml
   title: ''
@@ -114,14 +128,14 @@ created: '2026-08-29'
 description: 'Syfe is a Singapore-headquartered digital wealth management platform, licensed by the Monetary Authority of Singapore under Capital Markets Services licence CMS100837 and operating in Singapore, Hong Kong and Australia (where it trades as Selfwealth by Syfe). Founded in 2019 by Dhruv Arora and backed by Valar Ventures and Unbound, Syfe combines robo-advised managed portfolios (Core, REIT+, Income+, Select Themes), a self-directed brokerage for US, Singapore and Hong Kong listed stocks and ETFs, and Cash+ cash-management products, alongside a private wealth and a business treasury offering. Syfe is a consumer and business end-user product company: as of this profile it publishes no public developer portal, API reference, machine-readable specification, SDK or webhook surface. Its application backend at api.syfe.com is a private, WAF-protected first-party host and is not a documented developer API.'
 image: https://cdn.prod.website-files.com/64d3542964db4e6ae6de7d1d/66e14507296bdb1ed3c04bc8_Syfe%20Homepage%20Open%20Graph.png
 layout: provider
-modified: '2026-08-29'
+modified: '2026-10-06'
 name: Syfe
 nav: Providers
 network: true
 overview: 'Syfe is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Wealth Management, Investing, and Brokerage.
 
 
-  Syfe''s developer surface includes pricing, support, engineering blog, and 10 more developer resources.'
+  Syfe''s developer surface includes pricing, support, engineering blog, and 13 more developer resources.'
 plans:
 - name: Syfe Plans Pricing
   plan_count: 0
@@ -166,8 +180,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 33.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

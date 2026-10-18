@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 7
 apis:
 - description: 'Place title and escrow orders programmatically (into Qualia Core or to third-party systems) and track their status through the closing lifecycle. Modeled from Qualia''s public description of push/pull '
@@ -59,6 +59,14 @@ apis:
   slug: qualia-api
 artifact_total: 13
 common:
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.qualia.com/qualia-api/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.qualia.com/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/qualia-title/refs/heads/main/security/qualia-title-trust-center.yml
   title: ''
@@ -162,14 +170,14 @@ created: '2026-07-04'
 description: Qualia is a digital real estate closing platform for the title, escrow, and settlement industry, connecting title agents, lenders, real estate agents, and homebuyers on a single system for managing closings end to end. The Qualia API is an enterprise-grade, cloud-based GraphQL read-write API with a developer hub and sandbox. It lets real estate businesses and PropTech companies place and track title orders, send and receive messages and documents, and pull order, accounting, and contact data for custom reporting and to connect accounting, CRM, and BI systems. Access is partner-gated behind a secure authorization framework (capability gates, authorized organizations, HTTP authentication, and rate limiting); Qualia does not publish an open, unauthenticated developer portal, so the API areas below are modeled from Qualia's public product and press material rather than from a public GraphQL schema.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/qualia-title.png
 layout: provider
-modified: '2026-09-16'
+modified: '2026-10-06'
 name: Qualia
 nav: Providers
 network: true
-overview: 'Qualia publishes 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Title Insurance, Escrow, Real Estate, Closing, and Settlement.
+overview: 'Qualia is listed with 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Title Insurance, Escrow, Real Estate, Closing, and Settlement.
 
 
-  Qualia''s developer surface includes documentation, engineering blog, authentication, and 19 more developer resources.'
+  Qualia''s developer surface includes pricing, documentation, engineering blog, authentication, and 20 more developer resources.'
 plans:
 - name: Qualia Title Plans Pricing
   plan_count: 1
@@ -181,17 +189,17 @@ rate_limits:
   slug: qualia-title-rate-limits
 score:
   band: thin
-  composite: 32.6
+  composite: 34.7
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 56.0
     catalog_earned_first_party: 16.0
     catalog_gap: 59.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.1
   facets:
-    access_clarity: 57.9
+    access_clarity: 68.4
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 23.8
@@ -204,8 +212,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 27.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

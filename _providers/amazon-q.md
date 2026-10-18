@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -106,6 +106,21 @@ collections:
   name: Amazon Q Business API
   slug: open-amazon-q
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-q/refs/heads/main/rate-limits/amazon-q-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/amazon-q-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-q/refs/heads/main/finops/amazon-q-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/amazon-q-finops.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-q/refs/heads/main/plans/amazon-q-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/amazon-q-plans-pricing.yml
 - group: company
   title: ''
   type: Website
@@ -353,9 +368,13 @@ examples:
   name: Amazon Q Openapi Message Example
   slug: amazon-q-openapi-message-example
 finops:
-- name: Amazon Q Finops
+- has_sources: true
+  method: generated
+  name: Amazon Q Finops
+  primary_unit: ''
   service_category: AI / Assistant
   slug: amazon-q-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amazon-q.png
 json_schemas:
 - name: Application
@@ -433,16 +452,16 @@ modified: '2026-09-16'
 name: Amazon Q
 nav: Providers
 network: true
-overview: 'Amazon Q publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Conversations API, Data Sources API, and 4 more. Tagged areas include Artificial Intelligence, Assistant, Enterprise, and Generative AI.
+overview: 'Amazon Q publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Applications API, Conversations API, Data Sources API, and 4 more. Tagged areas include Artificial Intelligence, Assistant, Enterprise, and Generative AI.
 
 
   The Amazon Q catalog on APIs.io includes 5 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Amazon Q''s developer surface includes authentication, developer portal, getting-started guide, documentation, engineering blog, FAQ, support, and 43 more developer resources.'
+  Amazon Q''s developer surface includes authentication, developer portal, getting-started guide, documentation, engineering blog, FAQ, support, and 46 more developer resources.'
 plans:
 - name: Amazon Q Plans Pricing
-  plan_count: 7
+  plan_count: 6
   slug: amazon-q-plans-pricing
 random_paper: 12
 rate_limits:
@@ -450,9 +469,10 @@ rate_limits:
   name: Amazon Q Rate Limits
   slug: amazon-q-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Amazon Q API Rules
+  name: Amazon Q — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -460,7 +480,8 @@ rules:
     info: 2
     warn: 3
   slug: amazon-q-jsonschema-spectral-rules
-- effective_rule_count: 66
+- authorship: generated
+  effective_rule_count: 66
   extends:
   - spectral:oas
   name: Amazon Q API Rules
@@ -473,17 +494,17 @@ rules:
   slug: amazon-q-spectral-rules
 score:
   band: strong
-  composite: 58.6
+  composite: 61.1
   coverage:
     artifact_dirs: 18
-    catalog_earned: 55.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 60.0
+    catalog_earned: 61.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.5
   facets:
-    access_clarity: 68.4
+    access_clarity: 84.2
     contract_governance: 27.3
     contract_quality: 54.5
     developer_ergonomics: 70.2
@@ -502,12 +523,12 @@ score:
       total: 4
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 32.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

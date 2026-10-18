@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.jobbatical.com/blog/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/jobbatical/refs/heads/main/security/jobbatical-domain-security.yml
   title: ''
@@ -73,14 +77,14 @@ created: '2026-07-17'
 description: Jobbatical is a global mobility and immigration platform that helps companies manage international employee relocations, work visas, residence permits, and cross-border compliance across 45+ countries. It combines AI-powered case automation with expert immigration support to streamline eligibility assessments, visa and permit applications, renewal tracking, and settlement services for HR and mobility teams. The product centralizes case management, document processing, visa form automation, real-time status tracking, and renewal alerts, and offers pay-as-you-go or pre-purchased credit (FlexyPocket) pricing. Backed by Union Square Ventures.
 image: https://jobbatical.com/favicon.ico
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Jobbatical
 nav: Providers
 network: true
 overview: 'Jobbatical is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Immigration, Global Mobility, Relocation, and Visa.
 
 
-  Jobbatical''s developer surface includes engineering blog, pricing, signup flow, support, and 4 more developer resources.'
+  Jobbatical''s developer surface includes engineering blog, pricing, signup flow, support, and 5 more developer resources.'
 random_paper: 1
 score:
   band: emerging
@@ -107,8 +111,8 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

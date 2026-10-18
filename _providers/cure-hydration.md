@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: 'A live, first-party, anonymously discoverable Model Context Protocol server implementing the Shopify Universal Commerce Protocol shopping service for the CURE storefront. Thirteen tools cover catalog '
@@ -50,6 +50,10 @@ apis:
   slug: cure-storefront-json-endpoints
 artifact_total: 12
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.curehydration.com/blogs/news.atom
 - group: company
   title: ''
   type: Website
@@ -212,14 +216,14 @@ mcp_servers:
 - description: CURE (Cure Hydration) serves a live, first-party, anonymously reachable Model Context Protocol server on its own domain at /api/ucp/mcp. It is the Shopify Universal Commerce Protocol (UCP) shopping se
   name: CURE Universal Commerce Protocol (UCP) MCP Server
   slug: cure-universal-commerce-protocol-ucp-mcp-server
-modified: '2026-08-11'
+modified: '2026-10-06'
 name: Cure Hydration
 nav: Providers
 network: true
-overview: 'Cure Hydration publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer Packaged Goods, Beverages, Health and Wellness, and E-Commerce.
+overview: 'Cure Hydration is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer Packaged Goods, Beverages, Health and Wellness, and E-Commerce.
 
 
-  Cure Hydration''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 24 more developer resources.'
+  Cure Hydration''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 25 more developer resources.'
 plans:
 - name: Cure Hydration Plans Pricing
   plan_count: 0
@@ -238,7 +242,7 @@ score:
   band: thin
   composite: 35.9
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -263,8 +267,8 @@ score:
     regime: Health
     regime_id: health
     score: 32.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

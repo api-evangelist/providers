@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'The CAOC publishes its charter, membership roster, meeting summaries, working group output, and federal acquisition guidance through Acquisition.gov. The Council does not expose a dedicated developer '
@@ -41,6 +41,21 @@ apis:
   slug: caoc-resources
 artifact_total: 18
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/chief-acquisition-officers-council/refs/heads/main/plans/chief-acquisition-officers-council-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/chief-acquisition-officers-council-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/chief-acquisition-officers-council/refs/heads/main/rate-limits/chief-acquisition-officers-council-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/chief-acquisition-officers-council-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/chief-acquisition-officers-council/refs/heads/main/finops/chief-acquisition-officers-council-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/chief-acquisition-officers-council-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/chief-acquisition-officers-council/refs/heads/main/security/chief-acquisition-officers-council-domain-security.yml
   title: ''
@@ -124,19 +139,23 @@ features:
 - name: Industry Engagement
 - name: Performance Reporting
 finops:
-- name: Chief Acquisition Officers Council Finops
+- has_sources: false
+  method: generated
+  name: Chief Acquisition Officers Council Finops
+  primary_unit: ''
   service_category: API
   slug: chief-acquisition-officers-council-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/chief-acquisition-officers-council.png
 layout: provider
 modified: '2026-09-05'
 name: Chief Acquisition Officers Council
 nav: Providers
 network: true
-overview: 'Chief Acquisition Officers Council publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Acquisition, CAOC, FAR, Federal Government, and GSA.
+overview: 'Chief Acquisition Officers Council is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Acquisition, CAOC, FAR, Federal Government, and GSA.
 
 
-  Chief Acquisition Officers Council''s developer surface includes engineering blog and 11 more developer resources.'
+  Chief Acquisition Officers Council''s developer surface includes engineering blog and 14 more developer resources.'
 plans:
 - name: Chief Acquisition Officers Council Plans Pricing
   plan_count: 0
@@ -147,18 +166,18 @@ rate_limits:
   name: Chief Acquisition Officers Council Rate Limits
   slug: chief-acquisition-officers-council-rate-limits
 score:
-  band: emerging
-  composite: 12.0
+  band: minimal
+  composite: 10.4
   coverage:
     artifact_dirs: 9
-    catalog_earned: 35.0
+    catalog_earned: 32.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 80.0
+    catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 18.4
+    access_clarity: 10.5
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
@@ -176,8 +195,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 9.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

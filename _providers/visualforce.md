@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Visualforce is the Salesforce framework for building custom user interfaces using tag-based markup and Apex server-side controllers. Developers use it to create pages, email templates, and PDF documen
@@ -41,6 +41,21 @@ apis:
   slug: visualforce-api
 artifact_total: 21
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/visualforce/refs/heads/main/plans/visualforce-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/visualforce-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/visualforce/refs/heads/main/rate-limits/visualforce-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/visualforce-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/visualforce/refs/heads/main/finops/visualforce-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/visualforce-finops.yml
 - group: company
   title: ''
   type: Website
@@ -106,9 +121,13 @@ features:
 - description: Build dynamic HTML email templates with merge fields and conditional content.
   name: Email Templates
 finops:
-- name: Visualforce Finops
+- has_sources: false
+  method: generated
+  name: Visualforce Finops
+  primary_unit: ''
   service_category: API
   slug: visualforce-finops
+  template: true
 image: /assets/icons/visualforce.png
 integrations:
 - description: Visualforce pages can be embedded in Lightning Experience as components and tabs.
@@ -126,10 +145,10 @@ modified: '2026-04-18'
 name: Visualforce
 nav: Providers
 network: true
-overview: 'Visualforce publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Salesforce, UI Framework, and Web Development.
+overview: 'Visualforce is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Salesforce, UI Framework, and Web Development.
 
 
-  Visualforce''s developer surface includes developer portal, documentation, getting-started guide, engineering blog, support, Stack Overflow tag, training material, and 5 more developer resources.'
+  Visualforce''s developer surface includes developer portal, documentation, getting-started guide, engineering blog, support, Stack Overflow tag, training material, and 8 more developer resources.'
 plans:
 - name: Visualforce Plans Pricing
   plan_count: 3
@@ -141,17 +160,17 @@ rate_limits:
   slug: visualforce-rate-limits
 score:
   band: emerging
-  composite: 22.3
+  composite: 20.8
   coverage:
     artifact_dirs: 8
-    catalog_earned: 36.0
+    catalog_earned: 33.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 79.0
+    catalog_gap: 82.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 36.8
+    access_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 45.2
@@ -164,8 +183,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

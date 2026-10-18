@@ -33,14 +33,23 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 19.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'Kubernetes-style declarative control-plane API for managing Datum Cloud resources — projects, domains, DNS zones and record sets, gateways, HTTPProxies, HTTPRoutes, traffic protection policies (WAF), '
   name: Datum Cloud API
   slug: datum-cloud-api
-artifact_total: 5
+artifact_total: 6
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/datum/refs/heads/main/plans/datum-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/datum-plans-pricing.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.datum.net/rss.xml
 - group: company
   title: ''
   type: Website
@@ -170,14 +179,18 @@ mcp_servers:
 - description: Remote MCP server at www.datum.net.
   name: Datum MCP Server
   slug: datum-mcp-yml
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Datum
 nav: Providers
 network: true
-overview: 'Datum publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data, Cloud, Networking, and Edge.
+overview: 'Datum is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data, Cloud, Networking, and Edge.
 
 
-  Datum''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 20 more developer resources.'
+  Datum''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 22 more developer resources.'
+plans:
+- name: Datum Plans Pricing
+  plan_count: 15
+  slug: datum-plans-pricing
 random_paper: 11
 scopes:
 - name: Datum Scopes
@@ -185,18 +198,18 @@ scopes:
   slug: datum-scopes
   summary_line: 6 scopes
 score:
-  band: thin
-  composite: 34.1
+  band: developing
+  composite: 40.5
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 18
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.4
   facets:
-    access_clarity: 23.7
+    access_clarity: 55.3
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 71.4
@@ -213,9 +226,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

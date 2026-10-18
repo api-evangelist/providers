@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 75
   human_in_the_loop: 5
@@ -248,6 +248,21 @@ collections:
   name: Bluesky Bruno Collection
   slug: bruno
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/bluesky/refs/heads/main/plans/bluesky-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/bluesky-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/bluesky/refs/heads/main/rate-limits/bluesky-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/bluesky-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/bluesky/refs/heads/main/finops/bluesky-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/bluesky-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/bluesky/refs/heads/main/capabilities/bluesky-capability-edges.yml
   title: ''
@@ -376,22 +391,26 @@ common:
 created: '2024-11-16'
 description: API for the Bluesky decentralized social network built on the AT Protocol.
 finops:
-- name: Bluesky Finops
+- has_sources: false
+  method: generated
+  name: Bluesky Finops
+  primary_unit: ''
   service_category: API
   slug: bluesky-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bluesky.png
 layout: provider
 modified: '2026-05-29'
 name: Bluesky
 nav: Providers
 network: true
-overview: 'Bluesky publishes 24 APIs on the [APIs.io](https://apis.io/) network, including Jetstream, Actor Profiles API, Administration API, and 21 more. Tagged areas include At-Protocol, Decentralized, Federated, Open Source, and Social Network.
+overview: 'Bluesky publishes 24 API contracts indexed on the [APIs.io](https://apis.io/) network, including Jetstream, Actor Profiles API, Administration API, and 21 more. Tagged areas include At-Protocol, Decentralized, Federated, Open Source, and Social Network.
 
 
   The Bluesky catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Bluesky''s developer surface includes authentication, support, engineering blog, getting-started guide, and 25 more developer resources.'
+  Bluesky''s developer surface includes authentication, support, engineering blog, getting-started guide, and 28 more developer resources.'
 plans:
 - name: Bluesky Plans Pricing
   plan_count: 3
@@ -402,10 +421,11 @@ rate_limits:
   name: Bluesky Rate Limits
   slug: bluesky-rate-limits
 rules:
-- effective_rule_count: 34
+- authorship: generated
+  effective_rule_count: 34
   extends:
   - spectral:asyncapi
-  name: Bluesky API Rules
+  name: Bluesky — asyncapi rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -415,23 +435,23 @@ rules:
   slug: bluesky-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 45.3
+  composite: 43.8
   coverage:
     artifact_dirs: 14
-    catalog_earned: 39.8
+    catalog_earned: 36.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.3
+    catalog_gap: 78.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -1.5
   facets:
-    access_clarity: 36.8
+    access_clarity: 28.9
     contract_governance: 11.4
     contract_quality: 60.5
     developer_ergonomics: 59.5
     discoverability: 48.2
     operational_transparency: 13.2
-  previous_composite: 44.8
+  previous_composite: 45.3
   provenance:
     agentic_access: derived
     contracts:
@@ -445,8 +465,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 25.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.3
-  scored_at: '2026-10-04'
+  score: 20.4
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -159,16 +159,20 @@ common:
 created: '2026-07-04'
 description: Pollfish is a mobile-first survey and market research platform, owned by Prodege LLC. It lets researchers reach real respondents inside mobile apps and websites and lets app publishers monetize their audience by serving Pollfish (and mediated third-party) surveys as rewarded ads or an offerwall. Pollfish exposes a REST Dashboard API on https://www.pollfish.com for managing publisher apps and pulling performance, revenue, demographic, and user-log analytics (HTTP Basic Auth), plus a survey-serving / offerwall API on https://wss.pollfish.com for requesting and rendering surveys, and server-to-server postback callbacks for survey-completion and eligibility events. Survey creation and audience targeting for researchers are done through the Pollfish dashboard and are not exposed as a documented public REST API.
 finops:
-- name: Pollfish Finops
+- has_sources: true
+  method: generated
+  name: Pollfish Finops
+  primary_unit: ''
   service_category: Market Research and Survey Monetization
   slug: pollfish-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pollfish.png
 layout: provider
 modified: '2026-07-04'
 name: Pollfish
 nav: Providers
 network: true
-overview: 'Pollfish publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Apps API, Demographics API, Logs API, and 3 more. Tagged areas include Surveys, Market Research, Mobile, Monetization, and Offerwall.
+overview: 'Pollfish publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Apps API, Demographics API, Logs API, and 3 more. Tagged areas include Surveys, Market Research, Mobile, Monetization, and Offerwall.
 
 
   Pollfish''s developer surface includes authentication, documentation, pricing, engineering blog, and 8 more developer resources.'
@@ -183,22 +187,22 @@ rate_limits:
   slug: pollfish-rate-limits
 score:
   band: thin
-  composite: 36.9
+  composite: 28.6
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 61.6
+    artifact_dirs: 12
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.4
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 46.8
+    access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 53.5
     developer_ergonomics: 23.8
     discoverability: 66.1
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   previous_composite: 36.9
   provenance:
     agentic_access: derived
@@ -213,9 +217,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

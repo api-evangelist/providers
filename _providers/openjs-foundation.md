@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 6
 apis:
 - description: Node.js is a JavaScript runtime built on Chrome's V8 engine that powers server-side applications and tooling across the JavaScript ecosystem.
@@ -56,6 +56,21 @@ apis:
   slug: express
 artifact_total: 11
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/openjs-foundation/refs/heads/main/plans/openjs-foundation-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/openjs-foundation-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/openjs-foundation/refs/heads/main/rate-limits/openjs-foundation-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/openjs-foundation-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/openjs-foundation/refs/heads/main/finops/openjs-foundation-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/openjs-foundation-finops.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -109,19 +124,23 @@ common:
 created: '2026-03-16'
 description: The OpenJS Foundation is a Linux Foundation project that supports the growth of JavaScript and web technologies through open governance and collaboration. It hosts critical web ecosystem projects including Node.js, jQuery, Electron, webpack, ESLint, Express, Fastify, LoopBack, Appium, Mocha, Jest, and many more.
 finops:
-- name: Openjs Foundation Finops
+- has_sources: false
+  method: generated
+  name: Openjs Foundation Finops
+  primary_unit: ''
   service_category: API
   slug: openjs-foundation-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/openjs-foundation.png
 layout: provider
 modified: '2026-07-25'
 name: OpenJS Foundation
 nav: Providers
 network: true
-overview: 'OpenJS Foundation publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include JavaScript, Linux Foundation, Node.js, Web, and API Frameworks.
+overview: 'OpenJS Foundation is listed with 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include JavaScript, Linux Foundation, Node.js, Web, and API Frameworks.
 
 
-  OpenJS Foundation''s developer surface includes documentation, engineering blog, and 10 more developer resources.'
+  OpenJS Foundation''s developer surface includes documentation, engineering blog, and 13 more developer resources.'
 plans:
 - name: Openjs Foundation Plans Pricing
   plan_count: 3
@@ -133,17 +152,17 @@ rate_limits:
   slug: openjs-foundation-rate-limits
 score:
   band: emerging
-  composite: 16.4
+  composite: 14.9
   coverage:
-    artifact_dirs: 7
-    catalog_earned: 44.0
+    artifact_dirs: 8
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 71.0
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
@@ -156,8 +175,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -172,7 +191,7 @@ security:
 - kind: vulnerability-disclosure
   name: Openjs Foundation Vulnerability Disclosure
   slug: openjs-foundation-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 slug: openjs-foundation
 tags:
 - JavaScript

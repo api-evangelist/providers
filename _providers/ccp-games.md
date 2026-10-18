@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 34
+- acting_count: 30
   human_in_the_loop: 0
   name: Ccp Games Agentic Access
   operation_count: 197
   slug: ccp-games-agentic-access
-  summary_line: 197 operations · 34 acting
+  summary_line: 197 operations · 30 acting
 api_count: 1
 apis:
 - baseURL: https://esi.evetech.net
@@ -297,6 +297,10 @@ collections:
   name: EVE Swagger Incineration (ESI) - tranquility Alliance Wars API
   slug: open-ccp-games-wars-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://developers.eveonline.com/feed.xml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/ccp-games/refs/heads/main/capabilities/ccp-games-capability-edges.yml
   title: ''
@@ -435,14 +439,14 @@ created: '2026-07-17'
 description: 'CCP Games is the Reykjavik-based studio behind EVE Online, the long-running single-shard massively multiplayer space sandbox. CCP operates one of the most mature third-party developer programs in gaming through the EVE Swagger Interface (ESI) - a public, versioned REST API that exposes character, corporation, alliance, market, industry, universe, and fleet data from the live Tranquility server. ESI is secured with EVE SSO (OAuth 2.0 / OpenID Connect on login.eveonline.com) using fine-grained per-scope consent, and is governed by a free third-party Developer License Agreement. This profile enriches the CCP Games entry with the real ESI API surface: its OpenAPI 3.1 description, authentication and OAuth scope model, error and error-limit conventions, lifecycle/deprecation posture, and agent-readiness artifacts.'
 image: https://developers.eveonline.com/favicon.ico
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: CCP Games
 nav: Providers
 network: true
-overview: 'CCP Games publishes 31 APIs on the [APIs.io](https://apis.io/) network, including Alliance API, Assets API, Calendar API, and 28 more. Tagged areas include Company, Gaming, Games, MMO, and EVE Online.
+overview: 'CCP Games publishes 31 API contracts indexed on the [APIs.io](https://apis.io/) network, including Alliance API, Assets API, Calendar API, and 28 more. Tagged areas include Company, Gaming, Games, MMO, and EVE Online.
 
 
-  CCP Games'' developer surface includes changelog, authentication, documentation, API reference, getting-started guide, support, engineering blog, and 22 more developer resources.'
+  CCP Games'' developer surface includes changelog, authentication, documentation, API reference, getting-started guide, support, engineering blog, and 23 more developer resources.'
 random_paper: 0
 scopes:
 - name: Ccp Games Scopes
@@ -451,7 +455,7 @@ scopes:
   summary_line: 70 scopes · authorizationCode
 score:
   band: developing
-  composite: 43.4
+  composite: 43.5
   coverage:
     artifact_dirs: 20
     catalog_earned: 37.0
@@ -459,7 +463,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 23.7
     contract_governance: 4.5
@@ -490,8 +494,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 36.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

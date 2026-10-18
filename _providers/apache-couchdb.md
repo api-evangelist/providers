@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.7
-  scored_at: '2026-10-04'
+  score: 29.8
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 11
+- acting_count: 10
   human_in_the_loop: 0
   name: Apache Couchdb Agentic Access
   operation_count: 21
   slug: apache-couchdb-agentic-access
-  summary_line: 21 operations · 11 acting
+  summary_line: 21 operations · 10 acting
 api_count: 9
 apis:
 - baseURL: http://localhost:5984
@@ -154,6 +154,21 @@ collections:
   name: Apache CouchDB HTTP Authentication Server API
   slug: open-apache-couchdb-server-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/apache-couchdb/refs/heads/main/plans/apache-couchdb-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/apache-couchdb-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/apache-couchdb/refs/heads/main/rate-limits/apache-couchdb-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/apache-couchdb-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/apache-couchdb/refs/heads/main/finops/apache-couchdb-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/apache-couchdb-finops.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -331,9 +346,13 @@ features:
 - description: Multi-Version Concurrency Control ensures non-blocking reads; document updates are ACID-compliant at the document level.
   name: MVCC and ACID
 finops:
-- name: Apache Couchdb Finops
+- has_sources: false
+  method: generated
+  name: Apache Couchdb Finops
+  primary_unit: ''
   service_category: API
   slug: apache-couchdb-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/apache-couchdb.png
 integrations:
 - description: Browser and Node.js database that syncs with CouchDB via the Couch Replication Protocol.
@@ -504,13 +523,13 @@ modified: '2026-05-29'
 name: Apache CouchDB
 nav: Providers
 network: true
-overview: 'Apache CouchDB publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Changes API, Cluster API, and 6 more. Tagged areas include Apache, Database, Document Store, JSON, and NoSQL.
+overview: 'Apache CouchDB is listed with 9 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Changes API, Cluster API, and 6 more. Tagged areas include Apache, Database, Document Store, JSON, and NoSQL.
 
 
   The Apache CouchDB catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Apache CouchDB''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, release notes, support, and 13 more developer resources.'
+  Apache CouchDB''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, release notes, support, and 16 more developer resources.'
 plans:
 - name: Apache Couchdb Plans Pricing
   plan_count: 3
@@ -521,10 +540,11 @@ rate_limits:
   name: Apache Couchdb Rate Limits
   slug: apache-couchdb-rate-limits
 rules:
-- effective_rule_count: 36
+- authorship: generated
+  effective_rule_count: 36
   extends:
   - spectral:asyncapi
-  name: Apache CouchDB API Rules
+  name: Apache CouchDB — asyncapi rules
   rule_count: 9
   severity_counts:
     error: 1
@@ -532,9 +552,10 @@ rules:
     info: 1
     warn: 7
   slug: apache-couchdb-asyncapi-spectral-rules
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Apache CouchDB API Rules
+  name: Apache CouchDB — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -542,7 +563,8 @@ rules:
     info: 2
     warn: 3
   slug: apache-couchdb-jsonschema-spectral-rules
-- effective_rule_count: 74
+- authorship: generated
+  effective_rule_count: 74
   extends:
   - spectral:oas
   name: Apache CouchDB API Rules
@@ -555,17 +577,17 @@ rules:
   slug: apache-couchdb-spectral-rules
 score:
   band: developing
-  composite: 41.0
+  composite: 39.7
   coverage:
     artifact_dirs: 18
-    catalog_earned: 68.5
+    catalog_earned: 65.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 46.5
+    catalog_gap: 49.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -1.3
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 13.6
     contract_quality: 37.2
     developer_ergonomics: 72.6
@@ -574,7 +596,7 @@ score:
   open_source:
     applies: true
     score: 40.0
-  previous_composite: 40.5
+  previous_composite: 41.0
   provenance:
     agentic_access: derived
     contracts:
@@ -588,8 +610,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'SM Energy Company (NYSE: SM) financial and operational data is accessible through investor relations resources, SEC EDGAR filings, and third-party financial data providers. The company reports quarter'
@@ -41,6 +41,25 @@ apis:
   slug: investor-data
 artifact_total: 6
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sm-energy/refs/heads/main/plans/sm-energy-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/sm-energy-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/sm-energy/refs/heads/main/rate-limits/sm-energy-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/sm-energy-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sm-energy/refs/heads/main/finops/sm-energy-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/sm-energy-finops.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.sm-energy.com/investors/news-events/press-releases/rss
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/sm-energy/refs/heads/main/security/sm-energy-domain-security.yml
   title: ''
@@ -95,9 +114,13 @@ common:
 created: '2026-05-02'
 description: 'SM Energy Company (NYSE: SM) is an independent oil and gas exploration and production company headquartered in Denver, Colorado. Founded in 1908 (originally as St. Mary Land & Exploration Company), SM Energy focuses on acquiring, exploring, developing, and producing crude oil, natural gas, and natural gas liquids (NGLs) from top-tier assets across the Permian Basin in West Texas and New Mexico, the Maverick Basin in South Texas, the DJ Basin in Colorado, and the Uinta Basin in northeast Utah. The company is a Fortune 1000 member with approximately 1,241 employees and average daily net production of 206.8 MBoe/d. SM Energy completed a merger with Civitas Resources in early 2026. The company does not offer a public developer API; investor data is accessible through financial data APIs and SEC EDGAR.'
 finops:
-- name: Sm Energy Finops
+- has_sources: true
+  method: generated
+  name: Sm Energy Finops
+  primary_unit: ''
   service_category: Oil and Gas Exploration and Production
   slug: sm-energy-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sm-energy.png
 jsonld:
 - class_count: 0
@@ -105,11 +128,11 @@ jsonld:
   property_count: 6
   slug: sm-energy-context
 layout: provider
-modified: '2026-05-02'
+modified: '2026-10-06'
 name: SM Energy
 nav: Providers
 network: true
-overview: 'SM Energy publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Oil and Gas, Energy, Exploration, Production, and Permian Basin.
+overview: 'SM Energy is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Oil and Gas, Energy, Exploration, Production, and Permian Basin.
 
 
   The SM Energy catalog on APIs.io includes 1 JSON-LD context.'
@@ -148,18 +171,18 @@ rate_limits:
   name: Sm Energy Rate Limits
   slug: sm-energy-rate-limits
 score:
-  band: emerging
-  composite: 11.8
+  band: minimal
+  composite: 10.2
   coverage:
     artifact_dirs: 11
-    catalog_earned: 48.5
+    catalog_earned: 45.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 66.5
+    catalog_gap: 69.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 13.2
+    access_clarity: 5.3
     contract_governance: 13.6
     contract_quality: 6.7
     developer_ergonomics: 0.0
@@ -179,8 +202,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 9.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

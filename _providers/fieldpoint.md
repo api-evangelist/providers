@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The Fieldpoint Data Transfer Service (FPDTS) is Fieldpoint's open REST API that enables data exchange between the Fieldpoint FSM platform and external enterprise systems. The API supports creating and
@@ -92,9 +92,13 @@ common:
 created: '2026-06-13'
 description: Fieldpoint is an enterprise field service management (FSM) platform built for commercial contractors and service organizations across HVAC, electrical, fire inspection, security, medical equipment, and technology verticals. The platform covers the full service lifecycle including quoting, work order management, scheduling and dispatching, mobile technician apps, inventory tracking, service contracts, project costing, and customer management. Fieldpoint exposes an open REST API known as the Fieldpoint Data Transfer Service (FPDTS) that enables custom integrations with ERP, CRM, accounting, payroll, and workforce management systems. The platform ships pre-built connectors for Microsoft Dynamics GP/365, NetSuite, QuickBooks, Salesforce, WorkMarket, AvaTax, and more, while the FPDTS API allows enterprises to build bespoke integrations with any additional back-office system.
 finops:
-- name: Fieldpoint Finops
+- has_sources: false
+  method: generated
+  name: Fieldpoint Finops
+  primary_unit: ''
   service_category: ''
   slug: fieldpoint-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fieldpoint.png
 jsonld:
 - class_count: 7
@@ -106,7 +110,7 @@ modified: '2026-06-13'
 name: Fieldpoint
 nav: Providers
 network: true
-overview: 'Fieldpoint publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Field Service Management, Work Orders, Scheduling, Dispatching, and Technician Management.
+overview: 'Fieldpoint is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Field Service, Work Orders, Scheduling, Dispatching, and Technician Management.
 
 
   The Fieldpoint catalog on APIs.io includes 1 JSON-LD context.
@@ -124,17 +128,17 @@ rate_limits:
   slug: fieldpoint-rate-limits
 score:
   band: emerging
-  composite: 17.3
+  composite: 13.1
   coverage:
     artifact_dirs: 8
-    catalog_earned: 58.2
+    catalog_earned: 50.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 56.8
+    catalog_gap: 65.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -4.2
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 14.7
     developer_ergonomics: 11.9
@@ -147,8 +151,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -162,7 +166,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: fieldpoint
 tags:
-- Field Service Management
+- Field Service
 - Work Orders
 - Scheduling
 - Dispatching

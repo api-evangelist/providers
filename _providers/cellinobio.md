@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://cellinobio.com/press
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/cellinobio/refs/heads/main/security/cellinobio-domain-security.yml
   title: ''
@@ -53,28 +57,31 @@ created: '2026-07-17'
 description: Cellino Bio develops AI-driven optical bioprocessing technology for personalized regenerative medicine. Its proprietary Nebula platform combines deep learning, laser-based cell management, and closed-loop optical bioprocesses to manufacture patient-specific, induced-pluripotent-stem-cell-derived cell and tissue replacements at scale. The company targets degenerative and chronic conditions including kidney disease, lung disease, spinal cord injury, Alzheimer's, and diabetes. Cellino is a life-sciences/biotech company with no public developer API surface; this profile is maintained in the API Evangelist network for company intelligence and is backed by Felicis and Khosla Ventures.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cellinobio.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Cellinobio
 nav: Providers
 network: true
-overview: Cellinobio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Regenerative Medicine, Cell Therapy, and Artificial Intelligence.
+overview: 'Cellinobio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Regenerative Medicine, Cell Therapy, and Artificial Intelligence.
+
+
+  Cellinobio''s developer surface includes engineering blog and 3 more developer resources.'
 random_paper: 0
 score:
   band: minimal
-  composite: 6.2
+  composite: 6.7
   coverage:
-    artifact_dirs: 2
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 10.5
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 48.2
     operational_transparency: 0.0
   previous_composite: 6.2
@@ -84,13 +91,14 @@ score:
     regime: Health
     regime_id: health
     score: 7.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/cellinobio/refs/heads/main/screenshots/cellinobio-2026-10-11T184201.png
 security:
 - kind: domain-security
   name: Cellinobio Domain Security

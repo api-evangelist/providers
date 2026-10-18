@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - baseURL: https://fulfillment.noyo.com
@@ -675,7 +675,7 @@ modified: '2026-07-20'
 name: Noyo
 nav: Providers
 network: true
-overview: 'Noyo publishes 64 APIs on the [APIs.io](https://apis.io/) network, including Carrier Mapped Field API, Carrier Sync API, Carriers API, and 61 more. Tagged areas include Company, Healthcare, Insurance, Employee Benefits, and Enrollment.
+overview: 'Noyo publishes 64 API contracts indexed on the [APIs.io](https://apis.io/) network, including Carrier Mapped Field API, Carrier Sync API, Carriers API, and 61 more. Tagged areas include Company, Healthcare, Insurance, Employee Benefits, and Enrollment.
 
 
   The Noyo catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -717,8 +717,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 21.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

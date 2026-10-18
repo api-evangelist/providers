@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 44.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -369,6 +369,11 @@ collections:
   name: Facebook Business Manager Facebook Pages API
   slug: open-facebook-pages
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/facebook-business-manager/refs/heads/main/finops/facebook-business-manager-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/facebook-business-manager-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/facebook-business-manager/refs/heads/main/capabilities/facebook-business-manager-capability-edges.yml
   title: ''
@@ -624,9 +629,13 @@ common:
 created: '2024-01-01'
 description: APIs for managing Facebook Business accounts, advertising, pages, and assets across the Meta platform family. Facebook Business Manager exposes a deep catalog of Graph API surfaces for marketing, pages, conversions, business asset management, Instagram, insights, Messenger, catalogs, live video, Threads, and the WhatsApp Business Platform, all governed through a shared authentication and access model.
 finops:
-- name: Facebook Business Manager Finops
+- has_sources: true
+  method: generated
+  name: Facebook Business Manager Finops
+  primary_unit: ''
   service_category: Advertising / Business Management
   slug: facebook-business-manager-finops
+  template: false
 image: https://www.facebook.com/images/fb_icon_325x325.png
 json_schemas:
 - name: Ad
@@ -738,13 +747,13 @@ modified: '2026-08-13'
 name: Facebook Business Manager
 nav: Providers
 network: true
-overview: 'Facebook Business Manager publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Ad Accounts API, Ad Creatives API, Ad Images API, and 20 more. Tagged areas include Advertising, Analytics, Business Management, Marketing, and Social Media.
+overview: 'Facebook Business Manager publishes 23 API contracts indexed on the [APIs.io](https://apis.io/) network, including Ad Accounts API, Ad Creatives API, Ad Images API, and 20 more. Tagged areas include Advertising, Analytics, Business Management, Marketing, and Social Media.
 
 
   The Facebook Business Manager catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Facebook Business Manager''s developer surface includes authentication, developer portal, developer console, support, getting-started guide, documentation, changelog, and 49 more developer resources.'
+  Facebook Business Manager''s developer surface includes authentication, developer portal, developer console, support, getting-started guide, documentation, changelog, and 50 more developer resources.'
 plans:
 - name: Facebook Business Manager Plans Pricing
   plan_count: 3
@@ -755,9 +764,10 @@ rate_limits:
   name: Facebook Business Manager Rate Limits
   slug: facebook-business-manager-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Facebook Business Manager API Rules
+  name: Facebook Business Manager — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -772,23 +782,23 @@ scopes:
   summary_line: 85 scopes
 score:
   band: exemplar
-  composite: 68.5
+  composite: 67.0
   coverage:
     artifact_dirs: 34
-    catalog_earned: 67.3
+    catalog_earned: 64.3
     catalog_earned_first_party: 24.0
     catalog_gap: 50.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -1.5
   facets:
-    access_clarity: 64.5
+    access_clarity: 56.6
     contract_governance: 28.0
     contract_quality: 59.8
     developer_ergonomics: 83.9
     discoverability: 75.0
     operational_transparency: 76.3
-  previous_composite: 68.0
+  previous_composite: 68.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -805,8 +815,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 41.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

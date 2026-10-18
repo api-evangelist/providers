@@ -23,10 +23,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.batchgeo.com/feed/
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/batchgeo/refs/heads/main/llms/batchgeo-llms.txt
   title: ''
@@ -89,25 +93,26 @@ coverage:
 created: '2026-09-27'
 description: BatchGeo is a SaaS platform founded in 2006 that lets users create interactive Google Maps from spreadsheet data. It supports bulk address mapping, custom marker groups, and embedded maps for websites. Over 1.5 million live maps have been generated for users worldwide, serving sectors like real‑estate, sales, and nonprofit. The service offers free and Pro plans, a REST API for automated mapping, and extensive support resources.
 layout: provider
-modified: '2026-09-27'
+modified: '2026-10-06'
 name: Batchgeo
 nav: Providers
 network: true
 overview: 'Batchgeo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Mapping, Software-as-a-Service, Data Visualization, Real Estate, and Sales.
 
 
-  Batchgeo''s developer surface includes documentation, API reference, pricing, engineering blog, support, signup flow, and 5 more developer resources.'
+  Batchgeo''s developer surface includes documentation, API reference, pricing, engineering blog, support, signup flow, and 6 more developer resources.'
 random_paper: 15
 score:
   band: emerging
-  composite: 13.2
+  composite: 13.3
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 25.0
     catalog_earned_first_party: 0.0
     catalog_gap: 90.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.1
   facets:
     access_clarity: 23.7
     contract_governance: 0.0
@@ -115,6 +120,7 @@ score:
     developer_ergonomics: 23.8
     discoverability: 51.8
     operational_transparency: 0.0
+  previous_composite: 13.2
   provenance:
     mcp: unknown
   regulatory:
@@ -123,12 +129,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/batchgeo/refs/heads/main/screenshots/batchgeo-2026-10-11T101617.png
 security:
 - kind: domain-security
   name: Batchgeo Domain Security

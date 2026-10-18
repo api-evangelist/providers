@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 11.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 5
 apis:
 - description: JavaScript/TypeScript SDK (@pushchain/core) for the Push Chain Universal Layer 1 blockchain. Exposes PushChain.initialize(signer, {network}) for client setup, pushChainClient.universal.sendTransaction
@@ -53,6 +53,11 @@ apis:
   slug: push-chain-ui-kit
 artifact_total: 10
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/push-protocol/refs/heads/main/plans/push-protocol-plans.yml
+  title: ''
+  type: Plans
+  url: plans/push-protocol-plans.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/push-protocol/refs/heads/main/security/push-protocol-domain-security.yml
   title: ''
@@ -120,9 +125,13 @@ common:
   url: https://push.org/privacy
 description: Push Protocol (formerly EPNS) is a Web3 communication and Layer 1 blockchain protocol that enables universal applications deployable once and accessible from any chain. Push Chain is the first true Universal Layer 1 blockchain offering 100% EVM compatibility, 4.2k TPS, 1-second native block time, and instant finality. The platform provides a JavaScript/TypeScript SDK (@pushchain/core) that wraps universal signing, cross-chain transaction routing, multichain execution, message signing, smart contract helpers, and utility functions. Developers can send universal transactions from Ethereum, Solana, BNB Chain, Base, and Arbitrum to Push Chain via a single SDK call, with fee abstraction allowing gas payment in any supported token (ETH, SOL, USDC, USDT). Push Chain also offers a testnet faucet (faucet.push.org) delivering 1 PC per address per 6 hours, and a UI Kit for React-based wallet and signer abstraction.
 finops:
-- name: Push Protocol Finops
+- has_sources: true
+  method: generated
+  name: Push Protocol Finops
+  primary_unit: transaction
   service_category: Blockchain Infrastructure
   slug: push-protocol-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/push-protocol.png
 layout: provider
 mcp_servers:
@@ -133,10 +142,10 @@ modified: 2026-06-13 00:00:00+00:00
 name: Push Protocol
 nav: Providers
 network: true
-overview: 'Push Protocol publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Web3, Blockchain, Layer 1, Universal Apps, and Cross-Chain.
+overview: 'Push Protocol is listed with 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Web3, Blockchain, Layer 1, Universal Apps, and Cross-Chain.
 
 
-  Push Protocol''s developer surface includes developer portal, documentation, getting-started guide, pricing, GitHub presence, engineering blog, and 10 more developer resources.'
+  Push Protocol''s developer surface includes developer portal, documentation, getting-started guide, pricing, GitHub presence, engineering blog, and 11 more developer resources.'
 plans:
 - name: Push Protocol Plans
   plan_count: 1
@@ -147,23 +156,23 @@ rate_limits:
   name: Push Protocol Rate Limits
   slug: push-protocol-rate-limits
 score:
-  band: thin
-  composite: 28.4
+  band: emerging
+  composite: 23.0
   coverage:
     artifact_dirs: 10
-    catalog_earned: 56.0
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 59.0
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.4
   facets:
-    access_clarity: 58.4
+    access_clarity: 44.7
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 38.1
     discoverability: 65.0
-    operational_transparency: 28.4
+    operational_transparency: 7.9
   previous_composite: 28.4
   provenance:
     mcp: first-party
@@ -173,9 +182,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 12.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

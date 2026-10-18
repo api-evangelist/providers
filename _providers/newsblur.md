@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 43.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://www.newsblur.com
@@ -217,7 +217,7 @@ modified: '2026-07-20'
 name: NewsBlur
 nav: Providers
 network: true
-overview: 'NewsBlur publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Classifiers API, Feed Management API, and 4 more. Tagged areas include Company, RSS, News, Feed Reader, and Aggregator.
+overview: 'NewsBlur publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authentication API, Classifiers API, Feed Management API, and 4 more. Tagged areas include Company, RSS, News, Feed Reader, and Aggregator.
 
 
   NewsBlur''s developer surface includes documentation, API reference, support, engineering blog, signup flow, authentication, and 17 more developer resources.'
@@ -226,7 +226,7 @@ score:
   band: thin
   composite: 35.2
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -256,8 +256,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

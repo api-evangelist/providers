@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 9
 apis:
 - description: Modern Python API for Maya scripting and plugin development, offering improved performance and a more Pythonic interface compared to API 1.0.
@@ -65,6 +65,21 @@ apis:
   slug: autodesk-platform-services-maya-api
 artifact_total: 12
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/maya/refs/heads/main/plans/maya-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/maya-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/maya/refs/heads/main/rate-limits/maya-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/maya-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/maya/refs/heads/main/finops/maya-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/maya-finops.yml
 - group: start
   title: ''
   type: X-portal
@@ -132,16 +147,20 @@ common:
 created: '2024'
 description: A collection of APIs for Maya, the popular 3D animation and modeling software developed by Autodesk, providing scripting and plugin development capabilities through Python, C++, MEL, and .NET interfaces.
 finops:
-- name: Maya Finops
+- has_sources: false
+  method: generated
+  name: Maya Finops
+  primary_unit: ''
   service_category: API
   slug: maya-finops
+  template: true
 image: https://www.autodesk.com/products/maya/overview
 layout: provider
 modified: '2026-04-28'
 name: Maya
 nav: Providers
 network: true
-overview: Maya publishes 9 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include 3D, Animation, Autodesk, CGI, and Modeling.
+overview: Maya is listed with 9 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include 3D, Animation, Autodesk, CGI, and Modeling.
 plans:
 - name: Maya Plans Pricing
   plan_count: 3
@@ -153,17 +172,17 @@ rate_limits:
   slug: maya-rate-limits
 score:
   band: minimal
-  composite: 7.9
+  composite: 6.4
   coverage:
     artifact_dirs: 5
-    catalog_earned: 39.0
+    catalog_earned: 36.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 76.0
+    catalog_gap: 79.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
@@ -182,8 +201,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 0.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -196,16 +196,20 @@ common:
 created: '2026-06-21'
 description: Fleetio is a cloud-based fleet management software platform that helps organizations track and manage vehicles, equipment, maintenance, fuel, parts, and inspections. The Fleetio Developer API is a JSON REST API at https://secure.fleetio.com/api for managing vehicles, contacts, fuel entries, service entries, work orders, parts, inspections, and issues, with webhooks for event notifications.
 finops:
-- name: Fleetio Finops
+- has_sources: true
+  method: generated
+  name: Fleetio Finops
+  primary_unit: ''
   service_category: Management and Governance
   slug: fleetio-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fleetio.png
 layout: provider
 modified: '2026-06-21'
 name: Fleetio
 nav: Providers
 network: true
-overview: 'Fleetio publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Contacts API, Fuel Entries API, Inspections API, and 8 more. Tagged areas include Fleet Management, Vehicles, Maintenance, Telematics, and Software-as-a-Service.
+overview: 'Fleetio publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Contacts API, Fuel Entries API, Inspections API, and 8 more. Tagged areas include Fleet Management, Vehicles, Maintenance, Telematics, and Software-as-a-Service.
 
 
   Fleetio''s developer surface includes authentication, documentation, and 9 more developer resources.'
@@ -220,22 +224,22 @@ rate_limits:
   slug: fleetio-rate-limits
 score:
   band: thin
-  composite: 35.3
+  composite: 27.9
   coverage:
-    artifact_dirs: 10
-    catalog_earned: 58.0
+    artifact_dirs: 11
+    catalog_earned: 42.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.0
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.4
   facets:
-    access_clarity: 44.2
+    access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 47.5
     developer_ergonomics: 28.6
     discoverability: 66.1
-    operational_transparency: 21.6
+    operational_transparency: 7.9
   previous_composite: 35.3
   provenance:
     agentic_access: derived
@@ -250,9 +254,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: verified
     openapi_examples: verified
     protected_resource_metadata: verified
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 55.4
-  scored_at: '2026-10-04'
+  score: 53.5
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -80,7 +80,7 @@ apis:
   description: Financial and engagement reports for teams and organizations.
   name: Upwork Reports API
   slug: upwork-reports-api
-artifact_total: 111
+artifact_total: 112
 collections:
 - collection_type: open
   name: API Collection
@@ -113,6 +113,25 @@ collections:
   name: Upwork REST API
   slug: open-upwork-rest-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/upwork/refs/heads/main/plans/upwork-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/upwork-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/upwork/refs/heads/main/rate-limits/upwork-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/upwork-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/upwork/refs/heads/main/finops/upwork-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/upwork-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.upwork.com/blog
 - group: operate
   title: ''
   type: IssueTracker
@@ -307,9 +326,13 @@ features:
 - description: Interactive GraphQL API explorer at upwork.com/developer/explorer for testing queries.
   name: GraphQL Explorer
 finops:
-- name: Upwork Finops
+- has_sources: false
+  method: generated
+  name: Upwork Finops
+  primary_unit: ''
   service_category: API
   slug: upwork-finops
+  template: true
 graphqls:
 - description: The primary Upwork API surface, providing GraphQL queries and mutations for job search, profile access, contract management, and messaging. Authentication uses OAuth 2.0 authorization code flow. The A
   name: Upwork GraphQL API
@@ -466,17 +489,17 @@ mcp_servers:
 - description: Remote MCP server at mcp.upwork.com over HTTP.
   name: Upwork MCP Server
   slug: upwork
-modified: '2026-05-19'
+modified: '2026-10-06'
 name: Upwork
 nav: Providers
 network: true
-overview: 'Upwork publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Contracts API, Jobs API, and 4 more. Tagged areas include Freelancing, Job, Talent, Marketplace, and Contracts.
+overview: 'Upwork is listed with 7 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Contracts API, Jobs API, and 4 more. Tagged areas include Freelancing, Job, Talent, Marketplace, and Contracts.
 
 
   The Upwork catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Upwork''s developer surface includes authentication, documentation, developer portal, support, and 21 more developer resources.'
+  Upwork''s developer surface includes engineering blog, authentication, documentation, developer portal, support, and 24 more developer resources.'
 plans:
 - name: Upwork Plans Pricing
   plan_count: 3
@@ -487,9 +510,10 @@ rate_limits:
   name: Upwork Rate Limits
   slug: upwork-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Upwork API Rules
+  name: Upwork — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -497,7 +521,8 @@ rules:
     info: 2
     warn: 3
   slug: upwork-jsonschema-spectral-rules
-- effective_rule_count: 68
+- authorship: generated
+  effective_rule_count: 68
   extends:
   - spectral:oas
   name: Upwork API Rules
@@ -515,20 +540,20 @@ scopes:
   summary_line: 9 scopes · authorizationCode
 score:
   band: thin
-  composite: 33.0
+  composite: 32.0
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 69.0
+    artifact_dirs: 22
+    catalog_earned: 66.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 46.0
+    catalog_gap: 49.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.0
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 27.3
     contract_quality: 22.8
-    developer_ergonomics: 35.7
+    developer_ergonomics: 38.1
     discoverability: 73.3
     operational_transparency: 26.3
   open_source:
@@ -549,8 +574,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -565,6 +590,10 @@ security:
   name: Upwork Domain Security
   slug: upwork-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Upwork Vulnerability Disclosure
+  slug: upwork-vulnerability-disclosure
+  summary_line: Bugcrowd · security.txt · contact published
 slug: upwork
 tags:
 - Freelancing

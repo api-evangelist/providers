@@ -32,10 +32,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://ecog.io/resources/news
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://ecog.io/resources/news/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/ecog/refs/heads/main/security/ecog-domain-security.yml
   title: ''
@@ -77,14 +85,14 @@ created: '2026-07-17'
 description: EcoG is a Munich-based technology company that builds the software and hardware platform powering electric-vehicle DC fast chargers. Its EcoG OS operating system, Universal Core platform, and controllers let charger manufacturers, charge point operators (CPOs), and EV businesses design, launch, and scale DC charging solutions with reduced complexity, claiming more than 15% market share in Europe with operations across India and North America. For developers, EcoG OS exposes an on-device programmatic surface (an OpenAPI-based application interface, a local web interface, and the LifeC remote management tool) so smart value-added charging applications can be built and run at the device level. This profile was surfaced as a Techstars portfolio company and enriched from EcoG's public website; it publishes no public REST API developer portal or specification.
 image: https://ecog.io/hubfs/Feature_Main.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: EcoG
 nav: Providers
 network: true
 overview: 'EcoG is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, EV Charging, Electric Vehicles, Charging Infrastructure, and Energy.
 
 
-  EcoG''s developer surface includes engineering blog, support, YouTube channel, and 6 more developer resources.'
+  EcoG''s developer surface includes engineering blog, support, YouTube channel, and 8 more developer resources.'
 random_paper: 18
 score:
   band: minimal
@@ -119,8 +127,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 8.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 3
+- acting_count: 2
   human_in_the_loop: 0
   name: Lakera Agentic Access
   operation_count: 7
   slug: lakera-agentic-access
-  summary_line: 7 operations · 3 acting
+  summary_line: 7 operations · 2 acting
 api_count: 1
 apis:
 - description: 'Lakera Guard is a low-latency screening API that inspects text content sent to or from LLMs and flags threats including prompt injection, jailbreaks, PII, profanity, and policy violations. The /guard '
@@ -87,6 +87,21 @@ collections:
   name: Lakera Guard API
   slug: open-lakera
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/lakera/refs/heads/main/plans/lakera-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/lakera-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/lakera/refs/heads/main/rate-limits/lakera-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/lakera-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/lakera/refs/heads/main/finops/lakera-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/lakera-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/lakera/refs/heads/main/agentic-access/lakera-agentic-access.yml
   title: ''
@@ -188,9 +203,13 @@ features:
 - description: Model Context Protocol server for embedding Lakera Guard into AI clients like Claude Code and Cursor.
   name: MCP Server
 finops:
-- name: Lakera Finops
+- has_sources: false
+  method: generated
+  name: Lakera Finops
+  primary_unit: ''
   service_category: API
   slug: lakera-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lakera.png
 integrations:
 - description: Wrap OpenAI calls with Guard screening for input and output safety.
@@ -210,10 +229,10 @@ modified: '2026-05-23'
 name: Lakera
 nav: Providers
 network: true
-overview: 'Lakera publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Guard API, Health API, Policies API, and 3 more. Tagged areas include AI Security, LLM Security, Prompt Injection, Guardrails, and Red Teaming.
+overview: 'Lakera publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Guard API, Health API, Policies API, and 3 more. Tagged areas include AI Security, LLM Security, Prompt Injection, Guardrails, and Red Teaming.
 
 
-  Lakera''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, engineering blog, pricing, and 12 more developer resources.'
+  Lakera''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, engineering blog, pricing, and 15 more developer resources.'
 plans:
 - name: Lakera Plans Pricing
   plan_count: 1
@@ -224,23 +243,23 @@ rate_limits:
   name: Lakera Rate Limits
   slug: lakera-rate-limits
 score:
-  band: developing
-  composite: 40.1
+  band: thin
+  composite: 33.7
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 49.4
+    artifact_dirs: 13
+    catalog_earned: 36.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 65.6
+    catalog_gap: 79.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.4
   facets:
-    access_clarity: 51.8
+    access_clarity: 30.3
     contract_governance: 0.0
     contract_quality: 47.3
     developer_ergonomics: 42.9
     discoverability: 64.3
-    operational_transparency: 21.6
+    operational_transparency: 7.9
   previous_composite: 40.1
   provenance:
     agentic_access: derived
@@ -251,13 +270,13 @@ score:
       total: 3
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 20.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0
@@ -274,7 +293,7 @@ security:
 - kind: vulnerability-disclosure
   name: Lakera Vulnerability Disclosure
   slug: lakera-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 - kind: trust-center
   name: Lakera Trust Center
   slug: lakera-trust-center

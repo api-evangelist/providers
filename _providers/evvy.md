@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.evvy.com/blog/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/evvy/refs/heads/main/security/evvy-domain-security.yml
   title: ''
@@ -82,20 +86,20 @@ created: '2026-07-17'
 description: Evvy is a women's health company offering at-home vaginal microbiome testing and personalized care. Its CLIA-certified metagenomic (mNGS) Vaginal Health Test identifies over 700 bacteria and fungi from a self-collected sample, with results reviewed by licensed clinicians who deliver personalized insights and clinician-designed treatment programs for conditions such as bacterial vaginosis, aerobic vaginitis, yeast infections, recurrent UTIs, and fertility-related concerns. Evvy also sells a line of vaginal health products including probiotics and boric-acid, hyaluronic-acid, and probiotic suppositories, plus a provider program for clinicians and a large library of science-backed educational content. Backed by General Catalyst, Evvy was surfaced as a portfolio company and added to the API Evangelist network. Evvy is a direct-to-consumer health and e-commerce business and does not currently publish a public developer API, OpenAPI, or SDK surface.
 image: https://cdn.prod.website-files.com/60a1cd099a728eed5b4a7cdf/60ee4d8bca56740485fd865e_Site%20Preview%20(1).jpg
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Evvy
 nav: Providers
 network: true
 overview: 'Evvy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Women''s Health, Diagnostics, and Microbiome.
 
 
-  Evvy''s developer surface includes engineering blog, support, pricing, and 7 more developer resources.'
+  Evvy''s developer surface includes engineering blog, support, pricing, and 8 more developer resources.'
 random_paper: 18
 score:
   band: emerging
   composite: 14.4
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -116,8 +120,8 @@ score:
     regime: Health
     regime_id: health
     score: 10.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

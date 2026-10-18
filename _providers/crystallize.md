@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 6
 apis:
 - description: Read-optimized GraphQL API for fetching structured product data, shapes, topics, price variants, stock, and rich content for storefronts. Queries are scoped to a tenant identifier and return path-base
@@ -56,6 +56,21 @@ apis:
   slug: core-pim-api
 artifact_total: 11
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/crystallize/refs/heads/main/plans/crystallize-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/crystallize-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/crystallize/refs/heads/main/rate-limits/crystallize-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/crystallize-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/crystallize/refs/heads/main/finops/crystallize-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/crystallize-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/crystallize/refs/heads/main/security/crystallize-domain-security.yml
   title: ''
@@ -124,9 +139,13 @@ common:
 created: '2026-05-23'
 description: Crystallize is a headless product information management (PIM) and commerce platform built around a set of GraphQL APIs. It separates product storytelling from the commerce engine, exposing a Catalogue API for reading structured product data, a Discovery (Search) API for browse and search, a Shop API for cart and checkout, an Order/Subscription API, and a Core/PIM API for managing shapes, items, and tenants.
 finops:
-- name: Crystallize Finops
+- has_sources: false
+  method: generated
+  name: Crystallize Finops
+  primary_unit: ''
   service_category: API
   slug: crystallize-finops
+  template: true
 graphqls:
 - description: Read-optimized GraphQL API for fetching structured product data, shapes, topics, price variants, stock, and rich content for storefronts. Queries are scoped to a tenant identifier and return path-base
   name: Crystallize GraphQL API
@@ -137,10 +156,10 @@ modified: '2026-05-23'
 name: Crystallize
 nav: Providers
 network: true
-overview: 'Crystallize publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Commerce, Headless Commerce, Product Information Management, GraphQL, and Catalog.
+overview: 'Crystallize is listed with 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Commerce, Headless Commerce, Product Information Management, GraphQL, and Catalog.
 
 
-  Crystallize''s developer surface includes developer portal, documentation, signup flow, pricing, engineering blog, GitHub presence, CLI, and 9 more developer resources.'
+  Crystallize''s developer surface includes developer portal, documentation, signup flow, pricing, engineering blog, GitHub presence, CLI, and 12 more developer resources.'
 plans:
 - name: Crystallize Plans Pricing
   plan_count: 1
@@ -152,22 +171,22 @@ rate_limits:
   slug: crystallize-rate-limits
 score:
   band: emerging
-  composite: 24.7
+  composite: 18.7
   coverage:
     artifact_dirs: 9
-    catalog_earned: 57.4
+    catalog_earned: 44.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.6
+    catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.0
   facets:
-    access_clarity: 33.4
+    access_clarity: 11.8
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 32.1
     discoverability: 78.6
-    operational_transparency: 40.0
+    operational_transparency: 26.3
   previous_composite: 24.7
   regulatory:
     applies: true
@@ -175,9 +194,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 5.0
-  scored_at: '2026-10-04'
+  score: 3.1
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: The WTO flagship API providing programmatic access to a large number of statistical indicators related to WTO issues. Data covers merchandise trade and trade in services statistics (annual, quarterly,
@@ -99,16 +99,20 @@ common:
 created: '2026-06-13'
 description: The World Trade Organization (WTO) provides a REST API for programmatic access to global trade statistics, tariff data, trade flows, quantitative restrictions, dispute settlement records, and trade policy notifications. The flagship Timeseries API covers merchandise trade and services statistics (annual, quarterly, monthly), market access indicators including bound, applied, and preferential tariffs, non-tariff measures, and other WTO-related indicators. API access requires a free API key obtained from the WTO API Developer Portal at apiportal.wto.org.
 finops:
-- name: Wto Finops
+- has_sources: true
+  method: generated
+  name: Wto Finops
+  primary_unit: ''
   service_category: Open Government Data / Trade Statistics
   slug: wto-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wto.png
 layout: provider
 modified: '2026-06-13'
 name: WTO
 nav: Providers
 network: true
-overview: 'WTO publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include World Trade, Trade Statistics, Tariffs, Trade Flows, and Trade Policy.
+overview: 'WTO is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include World Trade, Trade Statistics, Tariffs, Trade Flows, and Trade Policy.
 
 
   WTO''s developer surface includes documentation, engineering blog, pricing, and 9 more developer resources.'
@@ -123,22 +127,22 @@ rate_limits:
   slug: wto-rate-limits
 score:
   band: emerging
-  composite: 25.8
+  composite: 19.6
   coverage:
     artifact_dirs: 8
-    catalog_earned: 54.4
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 60.6
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.2
   facets:
-    access_clarity: 37.4
+    access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 33.3
     discoverability: 66.1
-    operational_transparency: 40.0
+    operational_transparency: 26.3
   previous_composite: 25.8
   regulatory:
     applies: true
@@ -146,9 +150,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 16.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 79
   human_in_the_loop: 0
@@ -40,7 +40,7 @@ agentic_access:
   operation_count: 173
   slug: eden-health-agentic-access
   summary_line: 173 operations · 79 acting
-api_count: 1
+api_count: 2
 apis:
 - baseURL: https://api.edenhealth.com
   baseurl_source: declared
@@ -449,7 +449,7 @@ modified: '2026-07-19'
 name: Eden Health
 nav: Providers
 network: true
-overview: Eden Health publishes 43 APIs on the [APIs.io](https://apis.io/) network, including grdn.handler API, grdn.routes.impl.addons API, Grdn.routes.impl.app API, and 40 more. Tagged areas include Company, Healthcare, Primary Care, Virtual Care, and Telehealth.
+overview: Eden Health publishes 43 API contracts indexed on the [APIs.io](https://apis.io/) network, including grdn.handler API, grdn.routes.impl.addons API, Grdn.routes.impl.app API, and 40 more. Tagged areas include Company, Healthcare, Primary Care, Virtual Care, and Telehealth.
 random_paper: 9
 score:
   band: emerging
@@ -484,8 +484,8 @@ score:
     regime: Health
     regime_id: health
     score: 8.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

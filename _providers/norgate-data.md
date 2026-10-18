@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 5
 apis:
 - description: Retrieve daily EOD open/high/low/close, volume, turnover, unadjusted close, dividends and open interest as a Pandas DataFrame or NumPy array. Supports date ranges, record limits, weekly/monthly/quarte
@@ -84,16 +84,20 @@ created: '2026-07-11'
 description: Norgate Data provides high-quality, survivorship-bias-free end-of-day (EOD) historical market data for US, Australian and Canadian stocks, around 100 worldwide futures markets, and foreign exchange. Data is not delivered as a hosted REST API. Instead, subscribers install the Norgate Data Updater (NDU), a Windows desktop application that downloads and maintains a complete local database and runs a local data service. Programmatic access is through the norgatedata Python package (on PyPI), which talks to that local NDU service and returns price/volume history, corporate actions, index constituent history, security metadata, fundamentals, and watchlists as Pandas DataFrames or NumPy arrays. Norgate also ships plugins for platforms such as Amibroker and is widely used with Python backtesting frameworks (Zipline, Backtrader). This entry honestly models the norgatedata library's logical operations as capability areas; it is a client library over a local service, not a public HTTP/REST
   API.
 finops:
-- name: Norgate Data Finops
+- has_sources: true
+  method: generated
+  name: Norgate Data Finops
+  primary_unit: ''
   service_category: Market Data and Financial Data
   slug: norgate-data-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/norgate-data.png
 layout: provider
 modified: '2026-07-25'
 name: Norgate Data
 nav: Providers
 network: true
-overview: 'Norgate Data publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Market Data, Financial Data, Historical Data, Futures, and Stocks.
+overview: 'Norgate Data is listed with 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Market Data, Financial Data, Historical Data, Futures, and Stocks.
 
 
   Norgate Data''s developer surface includes documentation and 5 more developer resources.'
@@ -107,23 +111,23 @@ rate_limits:
   name: Norgate Data Rate Limits
   slug: norgate-data-rate-limits
 score:
-  band: emerging
-  composite: 17.5
+  band: minimal
+  composite: 9.2
   coverage:
     artifact_dirs: 5
-    catalog_earned: 59.6
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 55.4
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 9.5
     discoverability: 62.5
-    operational_transparency: 33.7
+    operational_transparency: 13.2
   previous_composite: 17.5
   regulatory:
     applies: true
@@ -131,9 +135,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 5.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

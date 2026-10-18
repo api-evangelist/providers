@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -128,6 +128,16 @@ collections:
   name: Shopify Admin REST Collections Webhooks API
   slug: open-shopify-admin-webhooks-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/shopify-admin/refs/heads/main/plans/shopify-admin-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/shopify-admin-plans-pricing.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/shopify-admin/refs/heads/main/finops/shopify-admin-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/shopify-admin-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/shopify-admin/refs/heads/main/capabilities/shopify-admin-capability-edges.yml
   title: ''
@@ -243,9 +253,13 @@ examples:
   name: Shopify Admin List Products Example
   slug: shopify-admin-list-products-example
 finops:
-- name: Shopify Admin Finops
+- has_sources: true
+  method: generated
+  name: Shopify Admin Finops
+  primary_unit: ''
   service_category: Commerce
   slug: shopify-admin-finops
+  template: false
 graphqls:
 - description: The Shopify Admin GraphQL API is the recommended API for building Shopify apps and integrations. It provides access to all Shopify admin resources including products, customers, orders, inventory, ful
   name: Shopify Admin API GraphQL API
@@ -275,13 +289,13 @@ modified: '2026-05-30'
 name: Shopify Admin API
 nav: Providers
 network: true
-overview: 'Shopify Admin API publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Shopify Webhooks, Collections API, Customers API, and 7 more. Tagged areas include Commerce, E-Commerce, Admin, Product, and Order.
+overview: 'Shopify Admin API publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Shopify Webhooks, Collections API, Customers API, and 7 more. Tagged areas include Commerce, E-Commerce, Admin, Product, and Order.
 
 
   The Shopify Admin API catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Shopify Admin API''s developer surface includes authentication, documentation, changelog, engineering blog, GitHub presence, code examples, and 17 more developer resources.'
+  Shopify Admin API''s developer surface includes authentication, documentation, changelog, engineering blog, GitHub presence, code examples, and 19 more developer resources.'
 plans:
 - name: Shopify Admin Plans Pricing
   plan_count: 5
@@ -292,10 +306,11 @@ rate_limits:
   name: Shopify Admin Rate Limits
   slug: shopify-admin-rate-limits
 rules:
-- effective_rule_count: 31
+- authorship: generated
+  effective_rule_count: 31
   extends:
   - spectral:asyncapi
-  name: Shopify Admin API API Rules
+  name: Shopify Admin API — asyncapi rules
   rule_count: 4
   severity_counts:
     error: 1
@@ -303,9 +318,10 @@ rules:
     info: 0
     warn: 3
   slug: shopify-admin-asyncapi-spectral-rules
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: Shopify Admin API API Rules
+  name: Shopify Admin API — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -313,7 +329,8 @@ rules:
     info: 1
     warn: 5
   slug: shopify-admin-jsonschema-spectral-rules
-- effective_rule_count: 50
+- authorship: unmarked
+  effective_rule_count: 50
   extends:
   - spectral:oas
   name: Shopify Admin API API Rules
@@ -326,17 +343,17 @@ rules:
   slug: shopify-admin-rules
 score:
   band: thin
-  composite: 37.8
+  composite: 36.3
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 67.0
+    artifact_dirs: 22
+    catalog_earned: 64.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 48.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 27.3
     contract_quality: 73.4
     developer_ergonomics: 16.7
@@ -356,8 +373,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

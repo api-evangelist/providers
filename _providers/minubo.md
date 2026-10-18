@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 8
   slug: minubo-agentic-access
   summary_line: 8 operations · 3 acting
-api_count: 1
+api_count: 2
 apis:
 - baseURL: https://api.minubo.com
   baseurl_source: declared
@@ -82,6 +82,10 @@ collections:
   name: Minubo Auth ETL API
   slug: open-minubo-etl-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.minubo.com/de/ecommerce-insights/rss.xml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/minubo/refs/heads/main/capabilities/minubo-capability-edges.yml
   title: ''
@@ -214,14 +218,14 @@ created: '2026-07-17'
 description: Minubo is a German business-intelligence platform for e-commerce and retail that integrates, models, and contextualizes commerce data — orders, products, customers, and suppliers — into AI Insights, Profit Management, reporting, and a supplier portal. Minubo also exposes a public REST API (Auth, ETL, and Data services) so tenants can authenticate with a JWT, trigger and monitor data loads, discover their queryable schema, and run queries against their modeled commerce data, plus connectors to tools like Power BI, Superset, n8n, and LLMs.
 image: https://www.minubo.com/hubfs/minubo_logo_rz_POS_20210924.svg
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Minubo
 nav: Providers
 network: true
-overview: 'Minubo publishes 3 APIs on the [APIs.io](https://apis.io/) network: Auth API, Data API, and ETL API. Tagged areas include Company, E-Commerce, Business Intelligence, Analytics, and Retail.
+overview: 'Minubo publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Auth API, Data API, and ETL API. Tagged areas include Company, E-Commerce, Business Intelligence, Analytics, and Retail.
 
 
-  Minubo''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, support, signup flow, and 21 more developer resources.'
+  Minubo''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, support, signup flow, and 22 more developer resources.'
 random_paper: 12
 rate_limits:
 - limit_count: 1
@@ -229,15 +233,15 @@ rate_limits:
   slug: minubo-rate-limits
 score:
   band: developing
-  composite: 46.0
+  composite: 46.1
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 44.7
     contract_governance: 4.5
@@ -267,8 +271,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

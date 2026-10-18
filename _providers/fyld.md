@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://fyld.ai/resources/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/fyld/refs/heads/main/security/fyld-domain-security.yml
   title: ''
@@ -74,14 +78,14 @@ created: '2026-07-17'
 description: FYLD is an AI-native frontline intelligence platform for the global critical-infrastructure sector, turning field-operations data into real-time, structured intelligence for utilities, energy, and heavy-civils operators. Its products include the FYLD Platform for work execution, FYLD Control Room for remote supervision, and FYLD ShowMe for customer self-service reporting, serving managers, fieldworkers, contractors, and civil engineers via web and mobile (iOS and Android) apps. FYLD is a Partech portfolio company. As of this profile FYLD publishes no public developer API, SDKs, or developer portal; integration is delivered through partnerships such as Procore, and this record captures its public identity, security, and trust surface.
 image: https://fyld.ai/hubfs/FYLD%20Website%20-%20Featured%20Image.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: FYLD
 nav: Providers
 network: true
 overview: 'FYLD is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Industrial, Energy & Iot, Field Operations, Utilities, and Energy.
 
 
-  FYLD''s developer surface includes support, engineering blog, and 6 more developer resources.'
+  FYLD''s developer surface includes support, engineering blog, and 7 more developer resources.'
 random_paper: 13
 score:
   band: emerging
@@ -108,8 +112,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 14.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

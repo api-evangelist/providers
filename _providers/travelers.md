@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.7
-  scored_at: '2026-10-04'
+  score: 20.8
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -77,6 +77,21 @@ collections:
   name: Travelers API
   slug: open-travelers
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/travelers/refs/heads/main/plans/travelers-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/travelers-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/travelers/refs/heads/main/rate-limits/travelers-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/travelers-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/travelers/refs/heads/main/finops/travelers-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/travelers-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/travelers/refs/heads/main/capabilities/travelers-capability-edges.yml
   title: ''
@@ -126,6 +141,14 @@ common:
   title: ''
   type: Signup
   url: https://developer.travelers.com/s/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developer.travelers.com
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/travelers
 created: '2026-05-03'
 description: Travelers is one of the largest property casualty insurance companies in the United States and a Fortune 500 company. Through their developer portal, Travelers provides APIs for business insurance claim reporting, commercial quoting, and policy management to enable agents, brokers, and partners to programmatically manage insurance workflows.
 examples:
@@ -136,9 +159,13 @@ examples:
   name: Travelers Request Quote Example
   slug: travelers-request-quote-example
 finops:
-- name: Travelers Finops
+- has_sources: true
+  method: generated
+  name: Travelers Finops
+  primary_unit: ''
   service_category: Insurance
   slug: travelers-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/travelers.png
 json_schemas:
 - name: Travelers Insurance Claim
@@ -158,13 +185,13 @@ modified: '2026-05-19'
 name: Travelers
 nav: Providers
 network: true
-overview: 'Travelers publishes 3 APIs on the [APIs.io](https://apis.io/) network: Claims API, Policies API, and Quoting API. Tagged areas include Insurance, Property Casualty, Commercial Insurance, Claims, and Fintech.
+overview: 'Travelers publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Claims API, Policies API, and Quoting API. Tagged areas include Insurance, Property and Casualty, Commercial Insurance, Claims, and Fintech.
 
 
   The Travelers catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Travelers'' developer surface includes authentication, documentation, signup flow, and 8 more developer resources.'
+  Travelers'' developer surface includes authentication, documentation, signup flow, and 13 more developer resources.'
 plans:
 - name: Travelers Plans Pricing
   plan_count: 1
@@ -191,9 +218,10 @@ rate_limits:
   name: Travelers Rate Limits
   slug: travelers-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Travelers API Rules
+  name: Travelers — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -201,7 +229,8 @@ rules:
     info: 1
     warn: 4
   slug: travelers-jsonschema-spectral-rules
-- effective_rule_count: 52
+- authorship: unmarked
+  effective_rule_count: 52
   extends:
   - spectral:oas
   name: Travelers API Rules
@@ -219,17 +248,17 @@ scopes:
   summary_line: 5 scopes · clientCredentials
 score:
   band: thin
-  composite: 38.8
+  composite: 37.2
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 66.4
+    artifact_dirs: 22
+    catalog_earned: 63.4
     catalog_earned_first_party: 0.0
-    catalog_gap: 48.6
+    catalog_gap: 51.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 26.3
+    access_clarity: 18.4
     contract_governance: 27.3
     contract_quality: 60.5
     developer_ergonomics: 31.0
@@ -249,8 +278,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 29.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -268,10 +297,22 @@ security:
 slug: travelers
 tags:
 - Insurance
-- Property Casualty
+- Property and Casualty
 - Commercial Insurance
 - Claims
 - Fintech
 - Fortune 500
+- Agency Distribution
+- Auto Insurance
+- Bond and Specialty
+- Business Insurance
+- Cyber Insurance
+- Dow Jones Industrial Average
+- Homeowners
+- Personal Insurance
+- Risk Management
+- Surety Bonds
+- Telematics
+- Workers Compensation
 website: https://www.travelers.com/
 ---

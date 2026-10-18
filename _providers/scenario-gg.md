@@ -25,14 +25,14 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: documented
-    protected_resource_metadata: false
+    protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 12.4
-  scored_at: '2026-10-04'
+  score: 16.0
+  scored_at: '2026-10-17'
 api_count: 5
 apis:
 - description: List, inspect, and manage custom and base AI models available to a Scenario account. Returns training status, training progress, model type (image, video, audio, 3D), and metadata for the 500+ base mo
@@ -50,8 +50,21 @@ apis:
 - description: Retrieve unified compute-unit consumption for an account, filtered by date range, project, or model. Compute units match the metering used by the Scenario web application and are consumed by both gene
   name: Scenario Usage API
   slug: scenario-usage-api
-artifact_total: 24
+artifact_total: 25
 common:
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.scenario.com/
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/scenario-gg/refs/heads/main/plans/scenario-gg-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/scenario-gg-plans-pricing.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.scenario.com/blog
 - group: company
   title: ''
   type: Website
@@ -183,31 +196,35 @@ mcp_servers:
 - description: Remote MCP server at mcp.scenario.com over HTTP.
   name: Scenario MCP Server
   slug: scenario-gg
-modified: '2026-05-25'
+modified: '2026-10-06'
 name: Scenario
 nav: Providers
 network: true
-overview: 'Scenario publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Game Assets, Game Development, Generative AI, and Image Generation.
+overview: 'Scenario is listed with 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Game Assets, Game Development, Generative AI, and Image Generation.
 
 
-  Scenario''s developer surface includes developer portal, documentation, getting-started guide, authentication, signup flow, tooling, code examples, and 19 more developer resources.'
+  Scenario''s developer surface includes pricing, engineering blog, developer portal, documentation, getting-started guide, authentication, signup flow, and 22 more developer resources.'
+plans:
+- name: Scenario Gg Plans Pricing
+  plan_count: 4
+  slug: scenario-gg-plans-pricing
 random_paper: 3
 score:
-  band: emerging
-  composite: 25.7
+  band: thin
+  composite: 34.3
   coverage:
-    artifact_dirs: 4
-    catalog_earned: 40.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    artifact_dirs: 6
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 8.6
   facets:
-    access_clarity: 21.1
+    access_clarity: 63.2
     contract_governance: 0.0
     contract_quality: 6.5
-    developer_ergonomics: 59.5
+    developer_ergonomics: 61.9
     discoverability: 73.3
     operational_transparency: 5.3
   jurisdiction:
@@ -222,13 +239,13 @@ score:
     mcp: first-party
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 15.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

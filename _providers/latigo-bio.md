@@ -33,10 +33,14 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 2.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://latigobio.com/news/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/latigo-bio/refs/heads/main/security/latigo-bio-domain-security.yml
   title: ''
@@ -72,28 +76,31 @@ created: '2026-08-23'
 description: 'Latigo Biotherapeutics, Inc. ("Latigo Bio") is a clinical-stage biotechnology company headquartered in Thousand Oaks, California, developing novel non-opioid medicines for acute and chronic pain. Its lead candidates LTG-001 and LTG-321 are oral NaV1.8 sodium-channel inhibitors targeting pain at its peripheral source without the addiction risk of opioids; LTG-001 holds FDA Fast Track designation and reported positive Phase 2b results in post-abdominoplasty acute pain, published in the New England Journal of Medicine in July 2026. The company was founded on human-genetics-validated targets and uses in-house AI/ML and structure-based drug design to optimize potency and selectivity. It debuted in 2024 with a $135M Series A and closed a $150M Series B in March 2025, backed by Westlake Village BioPartners, 5AM Ventures, Foresite Capital and Corner Ventures. Latigo is a therapeutics developer, not a software vendor: it publishes no public API, developer portal, SDK or machine-readable
   specification.'
 layout: provider
-modified: '2026-08-23'
+modified: '2026-10-06'
 name: Latigo Bio
 nav: Providers
 network: true
-overview: Latigo Bio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Pharmaceuticals, Life Sciences, and Drug Discovery.
+overview: 'Latigo Bio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Pharmaceuticals, Life Sciences, and Drug Discovery.
+
+
+  Latigo Bio''s developer surface includes engineering blog and 4 more developer resources.'
 random_paper: 9
 score:
   band: minimal
-  composite: 3.3
+  composite: 3.8
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 25.0
     catalog_earned_first_party: 0.0
     catalog_gap: 90.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 44.6
     operational_transparency: 0.0
   jurisdiction:
@@ -110,8 +117,8 @@ score:
     regime: Health
     regime_id: health
     score: 4.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

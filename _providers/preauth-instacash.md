@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://api.preauth.io/v1
@@ -187,7 +187,7 @@ modified: '2026-07-20'
 name: PreAuth (Instacash)
 nav: Providers
 network: true
-overview: 'PreAuth (Instacash) publishes 1 API on the [APIs.io](https://apis.io/) network: Orders API. Tagged areas include Company, Payments, Payment Pre-Authorization, Payment Guarantees, and Fintech.
+overview: 'PreAuth (Instacash) publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Orders API. Tagged areas include Company, Payments, Payment Pre-Authorization, Payment Guarantees, and Fintech.
 
 
   The PreAuth (Instacash) catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -234,8 +234,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

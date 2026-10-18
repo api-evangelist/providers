@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 16.5
-  scored_at: '2026-10-04'
+  score: 14.7
+  scored_at: '2026-10-17'
 api_count: 6
 apis:
 - description: Web application for searching, browsing, and analysing labelled onchain entities - wallets, exchanges, funds, projects - across supported blockchains. Powers visualisations, alerts, and watchlists use
@@ -60,6 +60,21 @@ asyncapis:
   name: Arkham Intelligence Transfers WebSocket API
   slug: arkham-intelligence-asyncapi
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/arkham-intelligence/refs/heads/main/plans/arkham-intelligence-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/arkham-intelligence-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/arkham-intelligence/refs/heads/main/rate-limits/arkham-intelligence-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/arkham-intelligence-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/arkham-intelligence/refs/heads/main/finops/arkham-intelligence-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/arkham-intelligence-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/arkham-intelligence/refs/heads/main/security/arkham-intelligence-domain-security.yml
   title: ''
@@ -96,22 +111,26 @@ common:
 created: '2026-05-23'
 description: Arkham operates two related products. Arkham Intelligence (the Arkham Platform / Intel) is an onchain entity intelligence service that labels wallets and contracts with real-world identities and exposes them through a web app, intel exchange (Dreadnought / bounties), and an API for entity lookups, address profiles, balances, and transaction history. Arkham Exchange (arkm.com) is a centralized crypto exchange that publishes a REST and WebSocket trading API for spot and perpetual markets. Both share the ARKM token and operate under the same parent.
 finops:
-- name: Arkham Intelligence Finops
+- has_sources: false
+  method: generated
+  name: Arkham Intelligence Finops
+  primary_unit: ''
   service_category: API
   slug: arkham-intelligence-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/arkham-intelligence.png
 layout: provider
 modified: '2026-05-29'
 name: Arkham Intelligence
 nav: Providers
 network: true
-overview: 'Arkham Intelligence publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Arkham Entity Intelligence API, and 5 more. Tagged areas include Onchain Intelligence, Entity Resolution, Crypto Exchange, Trading, and Market Data.
+overview: 'Arkham Intelligence is listed with 6 APIs on the [APIs.io](https://apis.io/) network, including Arkham Entity Intelligence API, and 5 more. Tagged areas include Onchain Intelligence, Entity Resolution, Cryptocurrency Exchange, Trading, and Market Data.
 
 
   The Arkham Intelligence catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Arkham Intelligence''s developer surface includes engineering blog and 7 more developer resources.'
+  Arkham Intelligence''s developer surface includes engineering blog and 10 more developer resources.'
 plans:
 - name: Arkham Intelligence Plans Pricing
   plan_count: 1
@@ -122,10 +141,11 @@ rate_limits:
   name: Arkham Intelligence Rate Limits
   slug: arkham-intelligence-rate-limits
 rules:
-- effective_rule_count: 34
+- authorship: generated
+  effective_rule_count: 34
   extends:
   - spectral:asyncapi
-  name: Arkham Intelligence API Rules
+  name: Arkham Intelligence — asyncapi rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -134,23 +154,23 @@ rules:
     warn: 5
   slug: arkham-intelligence-asyncapi-spectral-rules
 score:
-  band: thin
-  composite: 27.1
+  band: emerging
+  composite: 21.1
   coverage:
     artifact_dirs: 9
-    catalog_earned: 61.9
+    catalog_earned: 48.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.1
+    catalog_gap: 66.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.0
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 13.6
     contract_quality: 38.5
     developer_ergonomics: 11.9
     discoverability: 71.4
-    operational_transparency: 18.9
+    operational_transparency: 5.3
   previous_composite: 27.1
   regulatory:
     applies: true
@@ -158,9 +178,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 11.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -175,10 +195,10 @@ slug: arkham-intelligence
 tags:
 - Onchain Intelligence
 - Entity Resolution
-- Crypto Exchange
+- Cryptocurrency Exchange
 - Trading
 - Market Data
-- Crypto
+- Cryptocurrency
 - Web3
 - Real-Time
 website: https://www.arkhamintelligence.com/

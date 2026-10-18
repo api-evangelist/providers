@@ -29,7 +29,7 @@ tags:
 - Seed
 - Series A
 - Growth
-- Crypto
+- Cryptocurrency
 - Web3
 - DeFi
 - Blockchain Infrastructure

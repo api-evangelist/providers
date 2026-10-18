@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Anonymous, publicly callable MCP server on binske's direct-to-consumer storefront host implementing the Universal Commerce Protocol shopping service. A live JSON-RPC 2.0 tools/list returned 13 tools w
@@ -154,7 +154,7 @@ modified: '2026-08-07'
 name: Binske
 nav: Providers
 network: true
-overview: 'Binske publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Cannabis, Consumer Packaged Goods, Direct to Consumer, E-Commerce, and Retail.
+overview: 'Binske is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Cannabis, Consumer Packaged Goods, Direct to Consumer, E-Commerce, and Retail.
 
 
   Binske''s developer surface includes documentation, authentication, engineering blog, support, and 17 more developer resources.'
@@ -168,7 +168,7 @@ score:
   band: emerging
   composite: 22.5
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -193,8 +193,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

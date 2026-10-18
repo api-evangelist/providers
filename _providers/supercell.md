@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: Read-only access to Clash of Clans game data — clan search, global and local leaderboards, clan and player profiles, leagues, war logs, capital raid seasons and the Gold Pass season. Authenticated wit
@@ -48,6 +48,10 @@ apis:
   slug: brawl-stars-api
 artifact_total: 6
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://supercell.com/en/news/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/supercell/refs/heads/main/security/supercell-vulnerability-disclosure.yml
   title: ''
@@ -105,31 +109,31 @@ created: '2026-07-17'
 description: Supercell is the Finnish mobile game developer behind Clash of Clans, Clash Royale, Brawl Stars, Hay Day, Boom Beach and Squad Busters. Supercell operates three official public game APIs — the Clash of Clans API, the Clash Royale API and the Brawl Stars API — that expose read-only game data including clan search, global and local leaderboards, player and clan profiles, leagues, cards, brawlers, rankings and live events. Access is authenticated with a JWT bearer API token created in each game's developer portal and locked to a set of whitelisted IP addresses. Added to the API Evangelist network from a VC-portfolio lead and enriched with verified developer-surface artifacts.
 image: https://cdn.supercell.com/gameapi/website/og_coc_share_img.jpg
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Supercell
 nav: Providers
 network: true
-overview: 'Supercell publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Gaming, Mobile Games, and Video Games.
+overview: 'Supercell is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Gaming, Mobile Games, and Video Games.
 
 
-  Supercell''s developer surface includes authentication, support, and 10 more developer resources.'
+  Supercell''s developer surface includes engineering blog, authentication, support, and 10 more developer resources.'
 random_paper: 7
 score:
   band: emerging
-  composite: 17.7
+  composite: 18.3
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 11.9
+    developer_ergonomics: 14.3
     discoverability: 89.3
     operational_transparency: 5.3
   jurisdiction:
@@ -144,8 +148,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 25.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -32,10 +32,15 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
-artifact_total: 3
+artifact_total: 4
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/taitoai/refs/heads/main/plans/taitoai-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/taitoai-plans-pricing.yml
 - group: company
   title: ''
   type: Website
@@ -103,21 +108,25 @@ network: true
 overview: 'Taito.ai is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Human Resources, People Operations, and HRIS.
 
 
-  Taito.ai''s developer surface includes pricing, engineering blog, and 10 more developer resources.'
+  Taito.ai''s developer surface includes pricing, engineering blog, and 11 more developer resources.'
+plans:
+- name: Taitoai Plans Pricing
+  plan_count: 2
+  slug: taitoai-plans-pricing
 random_paper: 21
 score:
   band: emerging
-  composite: 14.3
+  composite: 18.5
   coverage:
-    artifact_dirs: 7
-    catalog_earned: 27.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 88.0
+    artifact_dirs: 8
+    catalog_earned: 35.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 4.2
   facets:
-    access_clarity: 31.6
+    access_clarity: 52.6
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 2.4
@@ -145,8 +154,8 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 17.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

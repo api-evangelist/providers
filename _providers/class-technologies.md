@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'REST API for the Class virtual classroom platform. Manage classes, enrollments, schedules, templates, and non-learner users; generate per-user launch URLs; and pull attendance and activity reporting. '
@@ -43,6 +43,10 @@ apis:
   slug: class-api
 artifact_total: 5
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.class.com/blog/feed/
 - group: start
   title: ''
   type: GettingStarted
@@ -139,14 +143,14 @@ created: '2026-07-17'
 description: Class Technologies Inc. builds Class, a virtual instructor-led learning platform that layers a full classroom experience on top of Zoom and Microsoft Teams, plus the web-based Class Collaborate. It gives instructors breakout rooms, whiteboards, polling, chat, attendance, transcription, a gradebook, engagement scoring, and deep LMS integration for K-12, higher education, corporate training, government (FedRAMP), healthcare (HIPAA), and financial services. Class exposes a REST API (developer.class.com) for managing classes, enrollments, schedules, templates, users, launch URLs, and attendance/activity reporting, secured with scoped API-key bearer tokens.
 image: https://www.class.com/wp-content/uploads/2024/03/class-virtual-classroom-featured.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Class Technologies
 nav: Providers
 network: true
-overview: 'Class Technologies publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, EdTech, Education, Virtual Classroom, and E-Learning.
+overview: 'Class Technologies is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, EdTech, Education, Virtual Classroom, and E-Learning.
 
 
-  Class Technologies'' developer surface includes getting-started guide, documentation, API reference, support, engineering blog, signup flow, authentication, and 14 more developer resources.'
+  Class Technologies'' developer surface includes getting-started guide, documentation, API reference, support, engineering blog, signup flow, authentication, and 15 more developer resources.'
 random_paper: 15
 scopes:
 - name: Class Technologies Scopes
@@ -157,7 +161,7 @@ score:
   band: thin
   composite: 32.7
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -180,8 +184,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 34.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -209,7 +213,6 @@ tags:
 - Virtual Classroom
 - E-Learning
 - LMS
-- Online Learning
 - Corporate Training
 - Video Conferencing
 website: https://www.class.com/

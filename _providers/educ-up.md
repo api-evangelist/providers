@@ -35,10 +35,20 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 3
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/educ-up/refs/heads/main/plans/educ-up-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/educ-up-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/educ-up/refs/heads/main/rate-limits/educ-up-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/educ-up-rate-limits.yml
 - group: company
   title: ''
   type: Website
@@ -120,7 +130,7 @@ network: true
 overview: 'Educ-up is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, EdTech, Education, Childcare, and Training.
 
 
-  Educ-up''s developer surface includes engineering blog, support, and 9 more developer resources.'
+  Educ-up''s developer surface includes engineering blog, support, and 11 more developer resources.'
 plans:
 - name: Educ Up Plans Pricing
   plan_count: 0
@@ -163,8 +173,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

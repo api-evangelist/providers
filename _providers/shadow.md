@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Shadow GPU is Shadow's sovereign GPU cloud, delivered as a curated OpenStack 2024.1 deployment rather than a bespoke REST API. Every programmatic action — launching NVIDIA RTX 2000 Ada or RTX A4500 GP
@@ -137,7 +137,7 @@ modified: '2026-08-17'
 name: Shadow
 nav: Providers
 network: true
-overview: 'Shadow publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cloud Computing, GPU, Cloud Gaming, and Infrastructure.
+overview: 'Shadow is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cloud Computing, GPU, Cloud Gaming, and Infrastructure.
 
 
   Shadow''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, authentication, and 13 more developer resources.'
@@ -152,7 +152,7 @@ rate_limits:
   slug: shadow-rate-limits
 score:
   band: thin
-  composite: 34.2
+  composite: 34.3
   coverage:
     artifact_dirs: 15
     catalog_earned: 49.0
@@ -160,7 +160,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 69.7
     contract_governance: 18.2
@@ -185,8 +185,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

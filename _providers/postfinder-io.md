@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -31,7 +31,7 @@ agentic_access:
   operation_count: 12
   slug: postfinder-io-agentic-access
   summary_line: 12 operations
-api_count: 1
+api_count: 2
 apis:
 - baseURL: https://api.postfinder.io
   baseurl_source: declared
@@ -181,7 +181,7 @@ modified: '2026-10-02'
 name: Postfinder
 nav: Providers
 network: true
-overview: 'Postfinder publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Nearby API, Places API, Postcodes API, and 2 more. Tagged areas include Company, Address, Autocomplete, Logistics, and Australia.
+overview: 'Postfinder publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Nearby API, Places API, Postcodes API, and 2 more. Tagged areas include Company, Address, Autocomplete, Logistics, and Australia.
 
 
   The Postfinder catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -190,7 +190,8 @@ overview: 'Postfinder publishes 5 APIs on the [APIs.io](https://apis.io/) networ
   Postfinder''s developer surface includes documentation and 18 more developer resources.'
 random_paper: 5
 rules:
-- effective_rule_count: 55
+- authorship: generated
+  effective_rule_count: 55
   extends:
   - spectral:oas
   name: Postfinder API Rules
@@ -205,12 +206,13 @@ score:
   band: developing
   composite: 43.1
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 19
     catalog_earned: 62.0
     catalog_earned_first_party: 0.0
     catalog_gap: 38.0
     catalog_max: 100.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 57.1
     contract_governance: 19.7
@@ -225,6 +227,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
+  previous_composite: 43.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -240,12 +243,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
     reason: read_only
+screenshot: https://raw.githubusercontent.com/api-evangelist/postfinder-io/refs/heads/main/screenshots/postfinder-io-2026-10-11T112723.png
 security:
 - kind: domain-security
   name: Postfinder Io Domain Security

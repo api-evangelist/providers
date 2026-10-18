@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.iamfy.co/blogs/inspiration.atom
 - group: company
   title: ''
   type: Website
@@ -70,20 +74,20 @@ created: '2026-07-17'
 description: Fy! (iamfy.co) is an online marketplace for wall art and home decor, curating canvas prints, framed prints, gallery wall sets, and handmade UK-manufactured frames from a community of independent artists. The storefront runs on Shopify and offers an AI-powered "Advisor" tool for personalized wall-design recommendations, an art-for-business program, and an artists hub for creators. Fy was surfaced as a portfolio company of 500 Global and added to the API Evangelist network. It publishes no first-party developer API; the only machine-readable surface reachable on the domain is the Shopify Customer Account OIDC/OAuth discovery served by the platform.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fy.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Fy
 nav: Providers
 network: true
 overview: 'Fy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketplace, E-Commerce, Retail, and Wall Art.
 
 
-  Fy''s developer surface includes engineering blog and 6 more developer resources.'
+  Fy''s developer surface includes engineering blog and 7 more developer resources.'
 random_paper: 3
 score:
   band: emerging
   composite: 11.1
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -104,8 +108,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

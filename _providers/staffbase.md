@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: REST API for the Staffbase employee experience platform — manage users, groups, news, pages, media, notifications, spaces, campaigns, analytics, and audit logs. Authenticated with HTTP Basic auth carr
@@ -188,7 +188,7 @@ modified: '2026-07-21'
 name: Staffbase
 nav: Providers
 network: true
-overview: 'Staffbase publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Employee Communications, Internal Communications, Employee Experience, and Intranet.
+overview: 'Staffbase is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Employee Communications, Internal Communications, Employee Experience, and Intranet.
 
 
   Staffbase''s developer surface includes documentation, API reference, getting-started guide, changelog, engineering blog, support, pricing, and 24 more developer resources.'
@@ -197,7 +197,7 @@ score:
   band: developing
   composite: 41.0
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -227,8 +227,8 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 43.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

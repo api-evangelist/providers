@@ -35,18 +35,27 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: GraphQL API for personalized nutrition — users, programs/diets, meal-plan generation, recipe and restaurant search, food logging (incl. AI food log), shopping lists, health trackers, lab tests/biomark
   name: Suggestic GraphQL API
   slug: suggestic-graphql-api
-artifact_total: 4
+artifact_total: 5
 asyncapis:
 - description: ''
   name: Suggestic Webhooks
   slug: suggestic-webhooks
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/suggestic/refs/heads/main/plans/suggestic-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/suggestic-plans-pricing.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.suggestic.com/feed
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/suggestic/refs/heads/main/security/suggestic-domain-security.yml
   title: ''
@@ -187,31 +196,35 @@ created: '2026-07-17'
 description: Suggestic is a personalized-nutrition and health platform that exposes a GraphQL API for building meal-planning, food-logging, and coaching applications. Developers use the API to create users, assign nutrition programs and diets, generate personalized meal plans, search a large recipe and restaurant database, log food (including AI photo-based logging), build shopping lists, and track sleep, steps, water, weight, heart rate, symptoms, biomarkers, and supplements. The platform also powers an AI Assistant with journeys and guardrails, a Console for configuration and webhooks, and a Telehealth/Coaching Portal. Suggestic (a Techstars-backed company) markets an enterprise AI offering for regulated health verticals and is HIPAA and SOC 2 Type II certified. Authentication is via a server-side API token plus an sg-user header, or client-side JWT bearer tokens.
 image: https://suggestic.com/assets/images/og-image.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Suggestic
 nav: Providers
 network: true
-overview: 'Suggestic publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Nutrition, Health, Meal Planning, and Recipes.
+overview: 'Suggestic is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Nutrition, Health, Meal Planning, and Recipes.
 
 
   The Suggestic catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Suggestic''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 23 more developer resources.'
+  Suggestic''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 25 more developer resources.'
+plans:
+- name: Suggestic Plans Pricing
+  plan_count: 2
+  slug: suggestic-plans-pricing
 random_paper: 6
 score:
   band: developing
-  composite: 45.3
+  composite: 49.6
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 20
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 4.3
   facets:
-    access_clarity: 31.6
+    access_clarity: 52.6
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 68.5
@@ -232,8 +245,8 @@ score:
     regime: Health
     regime_id: health
     score: 16.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

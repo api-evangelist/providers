@@ -30,13 +30,13 @@ agent_readiness:
     mcp_server: verified
     openapi_examples: false
     protected_resource_metadata: verified
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 50.4
-  scored_at: '2026-10-04'
+  score: 48.5
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 3
@@ -278,9 +278,13 @@ examples:
   name: Spike Sh Incident Response Example
   slug: spike-sh-incident-response-example
 finops:
-- name: Spike Sh Finops
+- has_sources: false
+  method: generated
+  name: Spike Sh Finops
+  primary_unit: ''
   service_category: ''
   slug: spike-sh-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/spike-sh.png
 json_schemas:
 - name: Spike.sh Escalation Policy
@@ -306,7 +310,7 @@ modified: '2026-07-20'
 name: Spike.sh
 nav: Providers
 network: true
-overview: 'Spike.sh publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Alert Rules API, Components API, Escalations API, and 14 more. Tagged areas include Incident Management, On-Call, Alerting, Escalation Policies, and Status Pages.
+overview: 'Spike.sh publishes 17 API contracts indexed on the [APIs.io](https://apis.io/) network, including Alert Rules API, Components API, Escalations API, and 14 more. Tagged areas include Incident Management, On-Call, Alerting, Escalation Policies, and Status Pages.
 
 
   The Spike.sh catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -323,9 +327,10 @@ rate_limits:
   name: Spike Sh Rate Limits
   slug: spike-sh-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Spike.sh API Rules
+  name: Spike.sh — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -335,17 +340,17 @@ rules:
   slug: spike-sh-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 38.8
+  composite: 33.1
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 65.1
+    artifact_dirs: 20
+    catalog_earned: 54.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 49.9
+    catalog_gap: 60.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.7
   facets:
-    access_clarity: 46.8
+    access_clarity: 18.4
     contract_governance: 9.8
     contract_quality: 57.7
     developer_ergonomics: 23.8
@@ -366,9 +371,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

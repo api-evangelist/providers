@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.2
-  scored_at: '2026-10-04'
+  score: 23.3
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -162,6 +162,21 @@ collections:
   name: RingCentral Events Bank Questions Tickets API
   slug: open-hopin-tickets-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/hopin/refs/heads/main/plans/plans.yml
+  title: ''
+  type: Plans
+  url: plans/plans.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/hopin/refs/heads/main/rate-limits/rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/hopin/refs/heads/main/finops/finops.yml
+  title: ''
+  type: FinOps
+  url: finops/finops.yml
 - group: company
   title: ''
   type: Website
@@ -251,9 +266,13 @@ examples:
   name: List Events
   slug: list-events
 finops:
-- name: Finops
+- has_sources: false
+  method: generated
+  name: Finops
+  primary_unit: ''
   service_category: ''
   slug: finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hopin.png
 json_schemas:
 - name: RingCentral Events API Schema
@@ -269,13 +288,13 @@ modified: '2026-09-16'
 name: RingCentral Events
 nav: Providers
 network: true
-overview: 'RingCentral Events publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Bank Questions API, Booths API, Data Subscriptions API, and 11 more. Tagged areas include Event, Virtual Events, Hybrid Events, Webinars, and Event Management.
+overview: 'RingCentral Events publishes 14 API contracts indexed on the [APIs.io](https://apis.io/) network, including Bank Questions API, Booths API, Data Subscriptions API, and 11 more. Tagged areas include Event, Virtual Events, Hybrid Events, Webinars, and Event Management.
 
 
   The RingCentral Events catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  RingCentral Events'' developer surface includes authentication, documentation, developer portal, changelog, status page, release notes, pricing, and 10 more developer resources.'
+  RingCentral Events'' developer surface includes authentication, documentation, developer portal, changelog, status page, release notes, pricing, and 13 more developer resources.'
 plans:
 - name: Plans
   plan_count: 4
@@ -286,9 +305,10 @@ rate_limits:
   name: Rate Limits
   slug: rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: RingCentral Events API Rules
+  name: RingCentral Events — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -303,17 +323,17 @@ scopes:
   summary_line: 2 scopes · clientCredentials
 score:
   band: thin
-  composite: 39.1
+  composite: 33.5
   coverage:
     artifact_dirs: 17
-    catalog_earned: 67.5
+    catalog_earned: 56.7
     catalog_earned_first_party: 0.0
-    catalog_gap: 47.6
+    catalog_gap: 58.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.6
   facets:
-    access_clarity: 54.7
+    access_clarity: 26.3
     contract_governance: 9.8
     contract_quality: 56.5
     developer_ergonomics: 21.4
@@ -333,9 +353,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 31.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

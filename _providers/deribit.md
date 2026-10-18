@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 39.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 351
   slug: deribit-agentic-access
   summary_line: 351 operations
-api_count: 3
+api_count: 5
 apis:
 - description: JSON-RPC over WebSocket interface for real-time bidirectional communication with the Deribit exchange. Recommended for most use cases, supporting real-time market data subscriptions, trading operation
   name: Deribit WebSocket API
@@ -168,6 +168,25 @@ collections:
   name: Deribit Account Management WebSocket Only API
   slug: open-deribit-websocket-only-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/deribit/refs/heads/main/plans/plans.yml
+  title: ''
+  type: Plans
+  url: plans/plans.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/deribit/refs/heads/main/rate-limits/rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/deribit/refs/heads/main/finops/finops.yml
+  title: ''
+  type: FinOps
+  url: finops/finops.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://insights.deribit.com/feed/
 - group: company
   title: ''
   type: Website
@@ -742,9 +761,13 @@ examples:
   name: Public_Unsubscribe_Get_Request_Request
   slug: public_unsubscribe_get_request_request
 finops:
-- name: Finops
+- has_sources: false
+  method: generated
+  name: Finops
+  primary_unit: ''
   service_category: ''
   slug: finops
+  template: true
 image: https://www.deribit.com/images/deribit-logo.png
 json_schemas:
 - name: Addressownershipresponse
@@ -1959,17 +1982,17 @@ jsonld:
   property_count: 0
   slug: context
 layout: provider
-modified: '2026-06-13'
+modified: '2026-10-06'
 name: Deribit
 nav: Providers
 network: true
-overview: 'Deribit publishes 14 APIs on the [APIs.io](https://apis.io/) network, including WebSocket API, Account Management API, Authentication API, and 11 more. Tagged areas include Derivatives, Cryptocurrency, Bitcoin, Ethereum, and Options.
+overview: 'Deribit publishes 14 API contracts indexed on the [APIs.io](https://apis.io/) network, including WebSocket API, Account Management API, Authentication API, and 11 more. Tagged areas include Derivatives, Cryptocurrency, Bitcoin, Ethereum, and Options.
 
 
   The Deribit catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Deribit''s developer surface includes authentication, engineering blog, developer portal, status page, support, developer console, changelog, and 11 more developer resources.'
+  Deribit''s developer surface includes authentication, engineering blog, developer portal, status page, support, developer console, changelog, and 15 more developer resources.'
 plans:
 - name: Plans
   plan_count: 7
@@ -1980,9 +2003,10 @@ rate_limits:
   name: Rate Limits
   slug: rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Deribit API Rules
+  name: Deribit — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1991,18 +2015,18 @@ rules:
     warn: 4
   slug: deribit-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 43.9
+  band: thin
+  composite: 38.2
   coverage:
-    artifact_dirs: 16
-    catalog_earned: 60.1
+    artifact_dirs: 17
+    catalog_earned: 49.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 55.0
+    catalog_gap: 65.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.7
   facets:
-    access_clarity: 57.4
+    access_clarity: 28.9
     contract_governance: 9.8
     contract_quality: 59.0
     developer_ergonomics: 45.2
@@ -2022,9 +2046,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

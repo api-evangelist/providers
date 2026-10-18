@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: 'The production JSON API behind the Sdui school-communication platform, serving the Sdui web app, the iOS/Android clients and the WebUntis messenger integration. Every resource path probed (/v1/users, '
@@ -142,7 +142,7 @@ modified: '2026-08-26'
 name: Sdui
 nav: Providers
 network: true
-overview: 'Sdui publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, EdTech, Schools, and Communications.
+overview: 'Sdui is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, EdTech, Schools, and Communications.
 
 
   Sdui''s developer surface includes support, engineering blog, signup flow, and 15 more developer resources.'
@@ -200,8 +200,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 40.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

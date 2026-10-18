@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.peerrobotics.ai/rss/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/peer-robotics/refs/heads/main/security/peer-robotics-domain-security.yml
   title: ''
@@ -61,18 +65,18 @@ created: '2026-07-17'
 description: Peer Robotics builds collaborative autonomous mobile robots (AMRs) for manufacturing and warehouse material movement, designed to learn directly from humans to lower the cost and complexity of traditional automation. Its lineup includes the Peer 3000 collaborative mobile robot and the RM250 and RM500 AMRs (250kg and 500kg payloads) that handle pallets, trolleys, bin delivery, and machine tending through an intuitive human-robot dashboard interface. Backed by Techstars, the company operates a hardware and robotics product line rather than a public developer API surface; no public API, SDK, developer documentation, or GitHub repositories were found during enrichment probing.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/peer-robotics.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Peer Robotics
 nav: Providers
 network: true
 overview: 'Peer Robotics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Robotics, Autonomous Mobile Robots, Manufacturing, and Warehouse Automation.
 
 
-  Peer Robotics'' developer surface includes engineering blog, support, and 3 more developer resources.'
+  Peer Robotics'' developer surface includes engineering blog, support, and 4 more developer resources.'
 random_paper: 0
 score:
   band: minimal
-  composite: 5.1
+  composite: 5.2
   coverage:
     artifact_dirs: 4
     catalog_earned: 27.0
@@ -80,7 +84,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
@@ -95,8 +99,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

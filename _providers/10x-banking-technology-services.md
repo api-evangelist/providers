@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The REST API surface of the 10x SuperCore platform, covering parties, subscriptions, arrangements, transaction/deposit/loan/credit-card products, repayment schedules, interest overrides, cards, statem
@@ -184,7 +184,7 @@ modified: '2026-09-05'
 name: 10x Banking Technology Services
 nav: Providers
 network: true
-overview: '10x Banking Technology Services publishes 1 API on the [APIs.io](https://apis.io/) network: 10x Banking Platform API. Tagged areas include Financial Services, Banking, Core Banking, Cloud-Native, and Banking as a Service.
+overview: '10x Banking Technology Services is listed with 1 API on the [APIs.io](https://apis.io/) network: 10x Banking Platform API. Tagged areas include Financial Services, Banking, Core Banking, Cloud-Native, and Banking as a Service.
 
 
   10x Banking Technology Services'' developer surface includes documentation, engineering blog, support, signup flow, authentication, changelog, sandbox, and 21 more developer resources.'
@@ -201,7 +201,7 @@ score:
   band: thin
   composite: 28.7
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 19
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -233,13 +233,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 27.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/10x-banking-technology-services/refs/heads/main/screenshots/10x-banking-technology-services-2026-10-11T092012.png
 security:
 - kind: authentication
   name: 10X Banking Technology Services Authentication

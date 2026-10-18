@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 7
 apis:
 - description: Batch transcription API for pre-recorded audio files supporting uploads up to 2 GB (multipart) or 5 TB (source URL), with results typically available within 15 minutes.
@@ -125,9 +125,13 @@ common:
 created: 2026-06-12
 description: Rev AI is a speech recognition and transcription API platform from Rev.com that delivers high-accuracy AI-powered speech-to-text for pre-recorded audio and real-time streaming. The platform supports asynchronous batch transcription, real-time streaming via WebSocket, topic extraction, sentiment analysis, language identification, forced alignment, and custom vocabulary to improve accuracy. Rev AI uses Bearer token authentication and offers pay-as-you-go pricing starting at $0.10/hour for Reverb Turbo transcription, plus a free tier of 5 hours of credits for new accounts. Official SDKs are available for Python, Node.js, and Java through the revdotcom GitHub organization.
 finops:
-- name: Rev Ai Finops
+- has_sources: false
+  method: generated
+  name: Rev Ai Finops
+  primary_unit: ''
   service_category: ''
   slug: rev-ai-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rev-ai.png
 jsonld:
 - class_count: 0
@@ -139,7 +143,7 @@ modified: 2026-06-12
 name: Rev AI
 nav: Providers
 network: true
-overview: 'Rev AI publishes 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Speech Recognition, Speech-to-Text, Transcription, Audio, and Natural Language Processing.
+overview: 'Rev AI is listed with 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Speech Recognition, Speech-to-Text, Transcription, Audio, and Natural Language Processing.
 
 
   The Rev AI catalog on APIs.io includes 1 JSON-LD context.
@@ -156,23 +160,23 @@ rate_limits:
   name: Rev Ai Rate Limits
   slug: rev-ai-rate-limits
 score:
-  band: thin
-  composite: 29.2
+  band: emerging
+  composite: 21.0
   coverage:
-    artifact_dirs: 8
-    catalog_earned: 72.6
+    artifact_dirs: 9
+    catalog_earned: 54.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 42.4
+    catalog_gap: 61.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.2
   facets:
-    access_clarity: 54.7
+    access_clarity: 26.3
     contract_governance: 0.0
     contract_quality: 10.7
     developer_ergonomics: 11.9
     discoverability: 71.4
-    operational_transparency: 46.8
+    operational_transparency: 26.3
   previous_composite: 29.2
   regulatory:
     applies: true
@@ -180,9 +184,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

@@ -35,14 +35,19 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 4.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Real-time speech-enhancement SDK (Quail, Rook, Quail VAD, Quail Voice Focus, Tyto) with a JWT token-minting API for client authentication. Delivered as native language bindings.
   name: ai-coustics SDK
   slug: ai-coustics-sdk
-artifact_total: 4
+artifact_total: 5
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/ai-coustics/refs/heads/main/plans/ai-coustics-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/ai-coustics-plans-pricing.yml
 - group: company
   title: ''
   type: Website
@@ -152,24 +157,28 @@ modified: '2026-07-18'
 name: ai-coustics
 nav: Providers
 network: true
-overview: 'ai-coustics publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Ml, Audio, Speech Enhancement, and Voice AI.
+overview: 'ai-coustics is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Audio, Speech Enhancement, and Voice AI.
 
 
-  ai-coustics'' developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 15 more developer resources.'
+  ai-coustics'' developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 16 more developer resources.'
+plans:
+- name: Ai Coustics Plans Pricing
+  plan_count: 4
+  slug: ai-coustics-plans-pricing
 random_paper: 2
 score:
-  band: thin
-  composite: 34.6
+  band: developing
+  composite: 40.6
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 14
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.0
   facets:
-    access_clarity: 44.7
+    access_clarity: 76.3
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 66.7
@@ -188,13 +197,13 @@ score:
     mcp: first-party
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 18.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -212,7 +221,7 @@ security:
 slug: ai-coustics
 tags:
 - Company
-- Ai Ml
+- Artificial Intelligence
 - Audio
 - Speech Enhancement
 - Voice AI

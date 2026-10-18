@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The Opterrix Data API provides real-time and historical weather and hazard data through high-performance endpoints designed for the insurance industry. It supports storm event history with location-ba
@@ -41,6 +41,29 @@ apis:
   slug: data-api
 artifact_total: 5
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/opterrix/refs/heads/main/plans/opterrix-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/opterrix-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/opterrix/refs/heads/main/rate-limits/opterrix-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/opterrix-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/opterrix/refs/heads/main/finops/opterrix-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/opterrix-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.opterrix.com/en/news
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.opterrix.com/en/news/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/opterrix/refs/heads/main/security/opterrix-domain-security.yml
   title: ''
@@ -69,16 +92,23 @@ common:
 created: '2025-02-17'
 description: Opterrix delivers real-time and historical weather and natural hazard intelligence to inform and automate key decision-making throughout the insurance value chain. Their high-performance APIs provide property-level data on perils such as wind, hail, precipitation, wildfire, and convective storms, supporting underwriting, claims, portfolio risk management, and moratorium verification workflows.
 finops:
-- name: Opterrix Finops
+- has_sources: false
+  method: generated
+  name: Opterrix Finops
+  primary_unit: ''
   service_category: API
   slug: opterrix-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/opterrix.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-10-06'
 name: Opterrix
 nav: Providers
 network: true
-overview: Opterrix publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Hazard Data, Insurance, Insurtech, Risk Intelligence, and Underwriting.
+overview: 'Opterrix is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Hazard Data, Insurance, Insurtech, Risk Intelligence, and Underwriting.
+
+
+  Opterrix''s developer surface includes engineering blog and 10 more developer resources.'
 plans:
 - name: Opterrix Plans Pricing
   plan_count: 3
@@ -90,20 +120,20 @@ rate_limits:
   slug: opterrix-rate-limits
 score:
   band: minimal
-  composite: 10.1
+  composite: 9.0
   coverage:
-    artifact_dirs: 6
-    catalog_earned: 41.0
+    artifact_dirs: 8
+    catalog_earned: 38.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.1
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 9.5
+    developer_ergonomics: 11.9
     discoverability: 57.1
     operational_transparency: 7.9
   previous_composite: 10.1
@@ -113,8 +143,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 5.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

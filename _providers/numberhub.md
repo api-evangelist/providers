@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: REST API for prepaid wallet, SMS verification, number rentals, eSIMs, email OTP and residential proxies.
@@ -103,28 +103,29 @@ common:
   type: Documentation
   url: https://numberhub.io/api-docs/
 created: '2026-09-28'
-description: NumberHub provides a REST API for a prepaid USD wallet offering SMS verification numbers, number rentals, travel eSIM data plans, email OTP services, and residential proxy data packages. The platform enables developers to programmatically order numbers, rent eSIMs, send OTPs via SMS or email, and access proxy endpoints, with pricing and catalog updates reflected in real time. It supports idempotent operations via Idempotency-Key and detailed retry semantics for action endpoints.
+description: NumberHub provides a REST API for a prepaid USD wallet offering SMS verification numbers, number rentals, travel eSIM data plans, email OTP services, and residential proxy data packages. The platform enables developers to programmatically receive verification SMS and email, rent phone numbers, buy prepaid data-only travel eSIMs, and access proxy endpoints, with pricing and catalog updates reflected in real time. It supports idempotent operations via Idempotency-Key and detailed retry semantics for action endpoints.
 image: https://numberhub.io/og.jpg
 layout: provider
 modified: '2026-09-28'
 name: NumberHub
 nav: Providers
 network: true
-overview: 'NumberHub publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Telecommunications, SMS Verification, eSIM, and Residential Proxies.
+overview: 'NumberHub is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Telecommunications, SMS Verification, eSIM, and Residential Proxies.
 
 
   NumberHub''s developer surface includes changelog, pricing, documentation, and 13 more developer resources.'
 random_paper: 0
 score:
   band: emerging
-  composite: 23.4
+  composite: 23.3
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -0.1
   facets:
     access_clarity: 44.7
     contract_governance: 4.5
@@ -132,6 +133,7 @@ score:
     developer_ergonomics: 9.5
     discoverability: 64.3
     operational_transparency: 42.1
+  previous_composite: 23.4
   provenance:
     conformance: derived
     mcp: unknown
@@ -141,12 +143,14 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 20.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/numberhub/refs/heads/main/screenshots/numberhub-2026-10-11T111657.png
 security:
 - kind: domain-security
   name: Numberhub Domain Security
@@ -155,7 +159,7 @@ security:
 - kind: vulnerability-disclosure
   name: Numberhub Vulnerability Disclosure
   slug: numberhub-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 slug: numberhub
 tags:
 - Telecommunications

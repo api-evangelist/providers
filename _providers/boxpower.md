@@ -23,10 +23,24 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/boxpower/refs/heads/main/hosts/boxpower-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/boxpower-hosts.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/boxpower/refs/heads/main/vendors/boxpower-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/boxpower-vendors.yml
+- group: other
+  title: ''
+  type: Leadership
+  url: https://boxpower.io/team
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/boxpower/refs/heads/main/security/boxpower-domain-security.yml
   title: ''
@@ -56,8 +70,17 @@ common:
   title: ''
   type: TermsOfUse
   url: https://boxpower.io/legal/terms-of-use
+coverage:
+  checked: '2026-10-05'
+  detail: The provider's website presents only HTML pages without any discoverable OpenAPI, AsyncAPI, GraphQL, gRPC, or WSDL specifications.
+  evidence:
+  - status: 200
+    url: https://boxpower.io
+  reason: no-machine-readable-spec
+  state: unreadable
 created: '2026-10-03'
 description: BoxPower designs, deploys, and operates utility‑grade distributed energy infrastructure at the grid edge. It provides turnkey microgrid solutions, including solar‑plus‑storage containers, software platforms, and services for utilities, developers, and communities, enabling rapid, reliable, and clean power delivery where traditional grid expansion is slow or costly.
+image: https://cdn.prod.website-files.com/670d01fbeb728f367fca2449/68243b5e898b9103448ef86b_boxpower.jpg
 layout: provider
 modified: '2026-10-03'
 name: Boxpower
@@ -66,33 +89,38 @@ network: true
 overview: 'Boxpower is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Energy, Microgrid, Renewables, and Infrastructure.
 
 
-  Boxpower''s developer surface includes engineering blog and 6 more developer resources.'
+  Boxpower''s developer surface includes engineering blog and 9 more developer resources.'
 random_paper: 6
 score:
   band: minimal
-  composite: 8.9
+  composite: 9.4
   coverage:
-    artifact_dirs: 1
-    catalog_earned: 25.0
+    artifact_dirs: 6
+    catalog_earned: 27.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 90.0
+    catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.5
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 2.4
-    discoverability: 44.6
+    discoverability: 50.0
     operational_transparency: 0.0
+  previous_composite: 8.9
+  provenance:
+    mcp: unknown
   regulatory:
     applies: true
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 11.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

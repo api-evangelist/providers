@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.zeromark.com/news
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/zeromark/refs/heads/main/security/zeromark-domain-security.yml
   title: ''
@@ -69,31 +73,31 @@ created: '2026-07-17'
 description: ZeroMark is a defense-technology company building an AI-powered targeting system for counter-drone (counter-UAS) defense. Its bolt-on hardware and software components attach to existing weapons, platforms, and sensing systems to detect, track, and neutralize small drone threats in milliseconds while minimizing collateral damage. The product line spans Apex (AI aim-assist for shoulder-mounted rifles), Vanguard (a precision system for turret-mounted and vehicle platforms effective against Group 1-3 drones), and Nexus (a command-and-control software layer that integrates deployments into shared targeting and battlespace-awareness environments). ZeroMark was surfaced as a portfolio company of a16z and added to the API Evangelist network. As of this enrichment pass the company publishes no public API, SDK, developer documentation, or open-source presence; its Nexus C2 integration is delivered through defense procurement rather than a public developer program.
 image: https://zeromark.com/favicon.ico
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: ZeroMark
 nav: Providers
 network: true
 overview: 'ZeroMark is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defense, Counter-Drone, Counter-UAS, and Artificial Intelligence.
 
 
-  ZeroMark''s developer surface includes product news and 6 more developer resources.'
+  ZeroMark''s developer surface includes engineering blog, product news, and 6 more developer resources.'
 random_paper: 17
 score:
   band: minimal
-  composite: 3.4
+  composite: 4.0
   coverage:
-    artifact_dirs: 2
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 49.1
     operational_transparency: 0.0
   previous_composite: 3.4
@@ -103,13 +107,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/zeromark/refs/heads/main/screenshots/zeromark-2026-10-11T200137.png
 security:
 - kind: domain-security
   name: Zeromark Domain Security

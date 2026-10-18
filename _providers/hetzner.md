@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.5
-  scored_at: '2026-10-04'
+  score: 24.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 107
   human_in_the_loop: 7
@@ -305,6 +305,16 @@ collections:
   name: Hetzner Cloud API
   slug: open-hetzner
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/hetzner/refs/heads/main/rate-limits/hetzner-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/hetzner-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/hetzner/refs/heads/main/finops/hetzner-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/hetzner-finops.yml
 - group: commercial
   href: https://raw.githubusercontent.com/api-evangelist/hetzner/refs/heads/main/plans/hetzner-plans-pricing.yml
   title: ''
@@ -386,19 +396,23 @@ common:
 created: '2025-02-09'
 description: Hetzner Online is a German hosting provider offering cloud servers, dedicated servers, and domain services. Hetzner provides a Cloud API for programmatic management of cloud resources, as well as a DNS API for managing DNS zones and records.
 finops:
-- name: Hetzner Finops
+- has_sources: false
+  method: generated
+  name: Hetzner Finops
+  primary_unit: ''
   service_category: API
   slug: hetzner-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hetzner.png
 layout: provider
 modified: '2026-05-19'
 name: Hetzner
 nav: Providers
 network: true
-overview: 'Hetzner publishes 32 APIs on the [APIs.io](https://apis.io/) network, including Actions API, Certificate Actions API, Certificates API, and 29 more. Tagged areas include Cloud Hosting, DNS, Infrastructure, and Servers.
+overview: 'Hetzner publishes 32 API contracts indexed on the [APIs.io](https://apis.io/) network, including Actions API, Certificate Actions API, Certificates API, and 29 more. Tagged areas include Cloud Hosting, DNS, Infrastructure, and Servers.
 
 
-  Hetzner''s developer surface includes authentication, documentation, signup flow, support, pricing, engineering blog, and 12 more developer resources.'
+  Hetzner''s developer surface includes authentication, documentation, signup flow, support, pricing, engineering blog, and 14 more developer resources.'
 plans:
 - name: Hetzner Plans Pricing
   plan_count: 0
@@ -410,17 +424,17 @@ rate_limits:
   slug: hetzner-rate-limits
 score:
   band: thin
-  composite: 38.2
+  composite: 36.7
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 38.0
+    artifact_dirs: 14
+    catalog_earned: 35.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 77.0
+    catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 46.1
+    access_clarity: 38.2
     contract_governance: 0.0
     contract_quality: 53.6
     developer_ergonomics: 22.6
@@ -445,8 +459,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 25.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://your-organization.tachyus.com/api/v1
@@ -69,6 +69,10 @@ collections:
   name: Tachapps Production Data Wells API
   slug: open-tachyus-wells-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.tachyus.com/press
 - group: company
   title: ''
   type: Website
@@ -176,14 +180,14 @@ created: '2026-07-17'
 description: Tachyus provides AI-powered operational optimization and greenhouse-gas emissions management software for the energy and industrial sectors, combining data, reservoir physics, and machine learning. Its Tachapps platform spans Strateon (production and injection allocation), Aqueon (conventional reservoir management and optimization), and Aurion (GHG emissions accounting, monitoring, forecasting, and regulatory reporting). The Tachapps REST API (v1) is organized around Projects, Wells, and Production Data, using Bearer API-token authentication with scopes, JSON over HTTPS, cursor-based pagination, and per-plan rate limits.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tachyus.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Tachyus
 nav: Providers
 network: true
-overview: 'Tachyus publishes 3 APIs on the [APIs.io](https://apis.io/) network: Production Data API, Projects API, and Wells API. Tagged areas include Company, Energy, Oil and Gas, Reservoir Management, and Production Optimization.
+overview: 'Tachyus publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Production Data API, Projects API, and Wells API. Tagged areas include Company, Energy, Oil and Gas, Reservoir Management, and Production Optimization.
 
 
-  Tachyus'' developer surface includes documentation, API reference, getting-started guide, changelog, authentication, and 17 more developer resources.'
+  Tachyus'' developer surface includes engineering blog, documentation, API reference, getting-started guide, changelog, authentication, and 17 more developer resources.'
 random_paper: 21
 rate_limits:
 - limit_count: 3
@@ -196,20 +200,20 @@ scopes:
   summary_line: 6 scopes
 score:
   band: thin
-  composite: 29.2
+  composite: 29.7
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 10.5
     contract_governance: 4.5
     contract_quality: 16.7
-    developer_ergonomics: 32.7
+    developer_ergonomics: 35.1
     discoverability: 66.1
     operational_transparency: 57.9
   previous_composite: 29.2
@@ -228,8 +232,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 29.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

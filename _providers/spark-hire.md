@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 1
@@ -110,6 +110,10 @@ collections:
   name: Spark Hire API
   slug: open-spark-hire
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.sparkhire.com/feed/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/spark-hire/refs/heads/main/capabilities/spark-hire-capability-edges.yml
   title: ''
@@ -160,19 +164,23 @@ common:
 created: '2026-07-10'
 description: Spark Hire is a video interviewing and talent assessment platform that lets recruiters screen, interview, and evaluate candidates asynchronously and live. The Spark Hire REST API embeds video interviewing into an applicant tracking system or custom hiring app - programmatically managing jobs, one-way and live interviews, interview questions and question sets, company users (evaluators), candidate share links, and webhook subscriptions for interview and job lifecycle events. Responses are JSON over HTTPS under https://api.sparkhire.com/v1.0, authenticated with a per-user API key via HTTP Basic. API access is not self-serve - it must be enabled on your account by Spark Hire - but the API reference is fully public.
 finops:
-- name: Spark Hire Finops
+- has_sources: true
+  method: generated
+  name: Spark Hire Finops
+  primary_unit: ''
   service_category: Human Resources and Recruiting Software
   slug: spark-hire-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/spark-hire.png
 layout: provider
-modified: '2026-07-10'
+modified: '2026-10-06'
 name: Spark Hire
 nav: Providers
 network: true
-overview: 'Spark Hire publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Account API, Interview Questions API, Interviews API, and 4 more. Tagged areas include Video Interviewing, Recruiting, Hiring, Human Resources, and Talent Assessment.
+overview: 'Spark Hire publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Interview Questions API, Interviews API, and 4 more. Tagged areas include Video Interviewing, Recruiting, Hiring, Human Resources, and Talent Assessment.
 
 
-  Spark Hire''s developer surface includes authentication, documentation, and 8 more developer resources.'
+  Spark Hire''s developer surface includes authentication, documentation, and 9 more developer resources.'
 plans:
 - name: Spark Hire Plans Pricing
   plan_count: 4
@@ -183,23 +191,23 @@ rate_limits:
   name: Spark Hire Rate Limits
   slug: spark-hire-rate-limits
 score:
-  band: thin
-  composite: 29.5
+  band: emerging
+  composite: 22.1
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 58.0
+    artifact_dirs: 13
+    catalog_earned: 42.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.0
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.4
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 49.4
     developer_ergonomics: 13.1
     discoverability: 66.1
-    operational_transparency: 18.9
+    operational_transparency: 5.3
   previous_composite: 29.5
   provenance:
     agentic_access: derived
@@ -214,9 +222,9 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

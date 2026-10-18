@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -76,6 +76,16 @@ collections:
   name: Optimism Etherscan Accounts Transactions API
   slug: open-optimistic-etherscan-transactions-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/optimistic-etherscan/refs/heads/main/plans/optimistic-etherscan-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/optimistic-etherscan-plans-pricing.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/optimistic-etherscan/refs/heads/main/finops/optimistic-etherscan-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/optimistic-etherscan-finops.yml
 - group: company
   title: ''
   type: Website
@@ -135,9 +145,13 @@ common:
 created: '2026-06-13'
 description: Optimism Etherscan is the official blockchain explorer and API platform for the Optimism L2 network (OP Mainnet, chain ID 10). It provides REST APIs for querying Optimism transactions, token events, smart contract source code, account balances, block data, and OP Mainnet statistics. API subscriptions have migrated to Etherscan API V2, enabling a single API key to access Optimism alongside 60+ EVM chains. The free tier covers select chains with 3 calls/second and 100,000 calls/day; paid plans start at $49/month for full multichain access.
 finops:
-- name: Optimistic Etherscan Finops
+- has_sources: false
+  method: generated
+  name: Optimistic Etherscan Finops
+  primary_unit: ''
   service_category: API
   slug: optimistic-etherscan-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/optimistic-etherscan.png
 jsonld:
 - class_count: 0
@@ -149,13 +163,13 @@ modified: '2026-06-13'
 name: Optimism Etherscan
 nav: Providers
 network: true
-overview: 'Optimism Etherscan publishes 1 API on the [APIs.io](https://apis.io/) network: Accounts API. Tagged areas include Blockchain, Optimism, Layer 2, Ethereum, and EVM.
+overview: 'Optimism Etherscan publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Accounts API. Tagged areas include Blockchain, Optimism, Layer 2, Ethereum, and EVM.
 
 
   The Optimism Etherscan catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Optimism Etherscan''s developer surface includes authentication, developer portal, documentation, pricing, signup flow, sandbox, and 7 more developer resources.'
+  Optimism Etherscan''s developer surface includes authentication, developer portal, documentation, pricing, signup flow, sandbox, and 9 more developer resources.'
 plans:
 - name: Optimistic Etherscan Plans Pricing
   plan_count: 7
@@ -167,22 +181,22 @@ rate_limits:
   slug: optimistic-etherscan-rate-limits
 score:
   band: developing
-  composite: 49.1
+  composite: 40.8
   coverage:
     artifact_dirs: 12
-    catalog_earned: 74.1
+    catalog_earned: 55.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 40.9
+    catalog_gap: 59.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 70.5
+    access_clarity: 42.1
     contract_governance: 13.6
     contract_quality: 56.3
     developer_ergonomics: 33.3
     discoverability: 73.2
-    operational_transparency: 28.4
+    operational_transparency: 7.9
   previous_composite: 49.1
   provenance:
     agentic_access: derived
@@ -197,9 +211,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
@@ -217,7 +231,7 @@ security:
 - kind: vulnerability-disclosure
   name: Optimistic Etherscan Vulnerability Disclosure
   slug: optimistic-etherscan-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 slug: optimistic-etherscan
 tags:
 - Blockchain

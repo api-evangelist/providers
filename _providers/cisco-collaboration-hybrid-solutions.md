@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -120,6 +120,21 @@ collections:
   name: Cisco Webex Platform API (Collaboration Hybrid Solutions)
   slug: open-cisco-collaboration-hybrid-solutions
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-collaboration-hybrid-solutions/refs/heads/main/plans/cisco-collaboration-hybrid-solutions-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/cisco-collaboration-hybrid-solutions-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-collaboration-hybrid-solutions/refs/heads/main/rate-limits/cisco-collaboration-hybrid-solutions-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/cisco-collaboration-hybrid-solutions-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-collaboration-hybrid-solutions/refs/heads/main/finops/cisco-collaboration-hybrid-solutions-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/cisco-collaboration-hybrid-solutions-finops.yml
 - group: other
   title: ''
   type: ParentCompany
@@ -146,9 +161,13 @@ common:
 created: '2024-01-15'
 description: APIs for Cisco's hybrid collaboration solutions that combine Webex cloud services with on-premises Unified Communications Manager (CUCM), Expressway, and supporting infrastructure. Hybrid Services let an organization keep calling, calendaring, and identity on-premises while using Webex for meetings, messaging, devices, and management.
 finops:
-- name: Cisco Collaboration Hybrid Solutions Finops
+- has_sources: false
+  method: generated
+  name: Cisco Collaboration Hybrid Solutions Finops
+  primary_unit: ''
   service_category: API
   slug: cisco-collaboration-hybrid-solutions-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cisco-collaboration-hybrid-solutions.png
 jsonld:
 - class_count: 0
@@ -160,13 +179,13 @@ modified: '2026-08-19'
 name: Cisco Collaboration Hybrid Solutions
 nav: Providers
 network: true
-overview: 'Cisco Collaboration Hybrid Solutions publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Devices API, Memberships API, Messages API, and 9 more. Tagged areas include Calling, Collaboration, Hybrid Cloud, Meetings, and Messaging.
+overview: 'Cisco Collaboration Hybrid Solutions publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including Devices API, Memberships API, Messages API, and 9 more. Tagged areas include Calling, Collaboration, Hybrid Cloud, Meetings, and Messaging.
 
 
   The Cisco Collaboration Hybrid Solutions catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Cisco Collaboration Hybrid Solutions'' developer surface includes authentication, engineering blog, and 3 more developer resources.'
+  Cisco Collaboration Hybrid Solutions'' developer surface includes authentication, engineering blog, and 6 more developer resources.'
 plans:
 - name: Cisco Collaboration Hybrid Solutions Plans Pricing
   plan_count: 3
@@ -178,17 +197,17 @@ rate_limits:
   slug: cisco-collaboration-hybrid-solutions-rate-limits
 score:
   band: thin
-  composite: 30.9
+  composite: 29.4
   coverage:
     artifact_dirs: 11
-    catalog_earned: 51.0
+    catalog_earned: 48.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 64.0
+    catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 52.1
     developer_ergonomics: 38.1
@@ -208,8 +227,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

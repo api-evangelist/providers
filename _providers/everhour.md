@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 2
@@ -165,6 +165,10 @@ collections:
   name: Everhour API
   slug: open-everhour
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://everhour.com/blog/feed/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/everhour/refs/heads/main/capabilities/everhour-capability-edges.yml
   title: ''
@@ -228,19 +232,23 @@ common:
 created: '2026-07-11'
 description: Everhour is a time tracking and budgeting platform for teams that embeds timers and timesheets directly inside the project management tools teams already use - Asana, Trello, ClickUp, Jira, GitHub, Basecamp, Notion, Monday, Linear, and more. The Everhour REST API (api.everhour.com, X-Api-Key auth) gives programmatic access to time records, running timers, weekly timesheets and approvals, clock-in/clock-out timecards, projects and tasks, clients, invoices, expenses, resource scheduling, time off, and reporting dashboards, plus webhooks for time, timer, task, and project change events.
 finops:
-- name: Everhour Finops
+- has_sources: true
+  method: generated
+  name: Everhour Finops
+  primary_unit: ''
   service_category: Business Applications
   slug: everhour-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/everhour.png
 layout: provider
-modified: '2026-07-11'
+modified: '2026-10-06'
 name: Everhour
 nav: Providers
 network: true
-overview: 'Everhour publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Clients API, Expenses API, Invoices API, and 11 more. Tagged areas include Time Tracking, Timesheets, Productivity, Project Management, and Budgeting.
+overview: 'Everhour publishes 14 API contracts indexed on the [APIs.io](https://apis.io/) network, including Clients API, Expenses API, Invoices API, and 11 more. Tagged areas include Time Tracking, Timesheets, Productivity, Project Management, and Budgeting.
 
 
-  Everhour''s developer surface includes authentication, documentation, pricing, engineering blog, and 9 more developer resources.'
+  Everhour''s developer surface includes authentication, documentation, pricing, engineering blog, and 10 more developer resources.'
 plans:
 - name: Everhour Plans Pricing
   plan_count: 3
@@ -252,22 +260,22 @@ rate_limits:
   slug: everhour-rate-limits
 score:
   band: thin
-  composite: 38.9
+  composite: 30.7
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 61.6
+    artifact_dirs: 13
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.4
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.2
   facets:
-    access_clarity: 54.7
+    access_clarity: 26.3
     contract_governance: 0.0
     contract_quality: 54.8
     developer_ergonomics: 22.6
     discoverability: 66.1
-    operational_transparency: 28.4
+    operational_transparency: 7.9
   previous_composite: 38.9
   provenance:
     agentic_access: derived
@@ -282,9 +290,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

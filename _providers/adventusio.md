@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The GraphQL API behind the Adventus.io recruiter and student applications. Exposes 47 queries and 30 mutations across students, student documents, academic achievements, notes, activities, messaging t
@@ -135,7 +135,7 @@ modified: '2026-09-09'
 name: Adventus.io
 nav: Providers
 network: true
-overview: 'Adventus.io publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, International Education, Student Recruitment, and Marketplace.
+overview: 'Adventus.io is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, International Education, Student Recruitment, and Marketplace.
 
 
   Adventus.io''s developer surface includes signup flow, pricing, support, engineering blog, and 17 more developer resources.'
@@ -152,7 +152,7 @@ score:
   band: thin
   composite: 28.1
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 19
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
@@ -177,13 +177,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/adventusio/refs/heads/main/screenshots/adventusio-2026-10-11T092904.png
 security:
 - kind: authentication
   name: Adventusio Authentication

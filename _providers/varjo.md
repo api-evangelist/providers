@@ -32,10 +32,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://varjo.com/news
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://varjo.com/news/rss.xml
 - group: company
   title: ''
   type: Website
@@ -123,14 +131,14 @@ created: '2026-07-17'
 description: Varjo is a Helsinki-based maker of high-fidelity virtual and mixed reality headsets for professional training and simulation across air, land, and sea. Its platform centers on the XR-4 Series headsets and the Varjo Base companion software, with a developer surface built around a native C SDK (rendering, foveated rendering, mixed reality, eye and hand tracking, DataStream API), the Varjo XR Plugin for Unity, an OpenXR plugin for Unreal Engine, and WebXR support. Varjo ships its own Khronos OpenXR runtime and is a contributing member of the OpenXR working group.
 image: https://25667574.fs1.hubspotusercontent-eu1.net/hubfs/25667574/favicon_48_light-2.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Varjo
 nav: Providers
 network: true
 overview: 'Varjo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Virtual Reality, Mixed Reality, Extended Reality, and Headsets.
 
 
-  Varjo''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, and 13 more developer resources.'
+  Varjo''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, changelog, and 15 more developer resources.'
 random_paper: 18
 score:
   band: thin
@@ -167,8 +175,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -27,20 +27,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 9
+- acting_count: 2
   human_in_the_loop: 0
   name: Eosio Agentic Access
   operation_count: 10
   slug: eosio-agentic-access
-  summary_line: 10 operations · 9 acting
+  summary_line: 10 operations · 2 acting
 api_count: 1
 apis:
 - description: The history_api_plugin exposes endpoints under /v1/history for retrieving historical actions, transactions, key accounts, and controlled accounts. On modern Antelope deployments this is typically repl
@@ -141,6 +141,25 @@ collections:
   name: EOSIO / Antelope Nodeos Chain Get Abi Send Transaction API
   slug: open-eosio-send-transaction-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/eosio/refs/heads/main/plans/eosio-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/eosio-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/eosio/refs/heads/main/rate-limits/eosio-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/eosio-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/eosio/refs/heads/main/finops/eosio-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/eosio-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.eosnetwork.com/press/
 - group: operate
   title: ''
   type: IssueTracker
@@ -210,19 +229,23 @@ common:
 created: '2025-02-08'
 description: EOSIO, now known as the Antelope protocol, is a free, open-source blockchain software protocol that provides developers and entrepreneurs with a platform on which to build, deploy, and run high-performing blockchain applications. Reference node software (nodeos) exposes HTTP/JSON RPC plugins for chain reads, history queries, transaction submission, and producer operations.
 finops:
-- name: Eosio Finops
+- has_sources: true
+  method: generated
+  name: Eosio Finops
+  primary_unit: ''
   service_category: Blockchain Infrastructure
   slug: eosio-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/eosio.png
 layout: provider
-modified: '2026-05-19'
+modified: '2026-10-06'
 name: EOSIO
 nav: Providers
 network: true
-overview: 'EOSIO publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Get Abi API, Get Account API, Get Block API, and 10 more. Tagged areas include Antelope, Blockchain, and EOS.
+overview: 'EOSIO publishes 13 API contracts indexed on the [APIs.io](https://apis.io/) network, including Get Abi API, Get Account API, Get Block API, and 10 more. Tagged areas include Antelope, Blockchain, and EOS.
 
 
-  EOSIO''s developer surface includes developer portal, getting-started guide, documentation, FAQ, changelog, and 11 more developer resources.'
+  EOSIO''s developer surface includes engineering blog, developer portal, getting-started guide, documentation, FAQ, changelog, and 14 more developer resources.'
 plans:
 - name: Eosio Plans Pricing
   plan_count: 2
@@ -234,20 +257,20 @@ rate_limits:
   slug: eosio-rate-limits
 score:
   band: thin
-  composite: 30.3
+  composite: 29.3
   coverage:
-    artifact_dirs: 8
-    catalog_earned: 35.0
+    artifact_dirs: 10
+    catalog_earned: 32.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 80.0
+    catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.0
   facets:
-    access_clarity: 34.2
+    access_clarity: 26.3
     contract_governance: 0.0
     contract_quality: 42.6
-    developer_ergonomics: 26.2
+    developer_ergonomics: 28.6
     discoverability: 48.2
     operational_transparency: 28.9
   previous_composite: 30.3
@@ -264,12 +287,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
     score: 0.0
+screenshot: https://raw.githubusercontent.com/api-evangelist/eosio/refs/heads/main/screenshots/eosio-2026-10-11T104236.png
 security:
 - kind: domain-security
   name: Eosio Domain Security

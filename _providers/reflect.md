@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -78,6 +78,21 @@ collections:
   name: Reflect
   slug: open-reflect
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/reflect/refs/heads/main/rate-limits/reflect-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/reflect-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/reflect/refs/heads/main/finops/reflect-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/reflect-finops.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/reflect/refs/heads/main/plans/reflect-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/reflect-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/reflect/refs/heads/main/capabilities/reflect-capability-edges.yml
   title: ''
@@ -199,9 +214,13 @@ examples:
   name: Reflect Run Test Example
   slug: reflect-run-test-example
 finops:
-- name: Reflect Finops
+- has_sources: false
+  method: generated
+  name: Reflect Finops
+  primary_unit: ''
   service_category: API
   slug: reflect-finops
+  template: true
 image: https://reflect.run/assets/logo.png
 json_schemas:
 - name: Reflect Test Execution
@@ -224,13 +243,13 @@ modified: '2026-09-16'
 name: Reflect
 nav: Providers
 network: true
-overview: 'Reflect publishes 3 APIs on the [APIs.io](https://apis.io/) network: Execution API, Executions API, and Tests API. Tagged areas include AI Testing, Artificial Intelligence, Automated Testing, CI/CD, and Developer Tools.
+overview: 'Reflect publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Execution API, Executions API, and Tests API. Tagged areas include AI Testing, Artificial Intelligence, Automated Testing, CI/CD, and Developer Tools.
 
 
   The Reflect catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Reflect''s developer surface includes authentication, engineering blog, pricing, signup flow, getting-started guide, and 20 more developer resources.'
+  Reflect''s developer surface includes authentication, engineering blog, pricing, signup flow, getting-started guide, and 23 more developer resources.'
 plans:
 - name: Reflect Plans Pricing
   plan_count: 3
@@ -241,9 +260,10 @@ rate_limits:
   name: Reflect Rate Limits
   slug: reflect-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Reflect API Rules
+  name: Reflect — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -251,7 +271,8 @@ rules:
     info: 2
     warn: 3
   slug: reflect-jsonschema-spectral-rules
-- effective_rule_count: 47
+- authorship: unmarked
+  effective_rule_count: 47
   extends:
   - spectral:oas
   name: Reflect API Rules
@@ -263,18 +284,18 @@ rules:
     warn: 3
   slug: reflect-rules
 score:
-  band: thin
-  composite: 38.0
+  band: developing
+  composite: 41.3
   coverage:
     artifact_dirs: 19
-    catalog_earned: 63.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 52.0
+    catalog_earned: 69.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 46.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 3.3
   facets:
-    access_clarity: 53.9
+    access_clarity: 69.7
     contract_governance: 27.3
     contract_quality: 48.3
     developer_ergonomics: 14.3
@@ -294,8 +315,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

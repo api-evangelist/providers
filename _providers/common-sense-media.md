@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-04'
+  score: 20.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -64,6 +64,25 @@ collections:
   name: Common Sense Media reviews system API
   slug: open-common-sense-media-system-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/common-sense-media/refs/heads/main/plans/common-sense-media-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/common-sense-media-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/common-sense-media/refs/heads/main/rate-limits/common-sense-media-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/common-sense-media-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/common-sense-media/refs/heads/main/finops/common-sense-media-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/common-sense-media-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.commonsensemedia.org/articles
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/common-sense-media/refs/heads/main/capabilities/common-sense-media-capability-edges.yml
   title: ''
@@ -142,9 +161,13 @@ common:
 created: '2025-03-01'
 description: Common Sense Media is a nonprofit organization providing independent, age-rated reviews and ratings of movies, TV shows, books, video games, apps, podcasts, websites, and YouTube channels. The Common Sense Media Reviews API (v3) exposes this catalog via a partner-keyed REST surface hosted at api.commonsense.org/api/v3, with the partnership granted through Common Sense's Business Partner Program. The API is used by parenting apps, smart-TV guides, education platforms, and family- discovery products to surface age-appropriate guidance and the Common Sense Selection award.
 finops:
-- name: Common Sense Media Finops
+- has_sources: false
+  method: generated
+  name: Common Sense Media Finops
+  primary_unit: ''
   service_category: API
   slug: common-sense-media-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/common-sense-media.png
 json_schemas:
 - name: Common Sense Media Review
@@ -156,17 +179,17 @@ jsonld:
   property_count: 8
   slug: common-sense-media-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-10-06'
 name: Common Sense Media
 nav: Providers
 network: true
-overview: 'Common Sense Media publishes 2 APIs on the [APIs.io](https://apis.io/) network: Reviews API and System API. Tagged areas include Application, Books, Media, Movies, and Non-Profit.
+overview: 'Common Sense Media is listed with 2 APIs on the [APIs.io](https://apis.io/) network: Reviews API and System API. Tagged areas include Application, Books, Media, Movies, and Non-Profit.
 
 
   The Common Sense Media catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Common Sense Media''s developer surface includes authentication and 16 more developer resources.'
+  Common Sense Media''s developer surface includes engineering blog, authentication, and 19 more developer resources.'
 plans:
 - name: Common Sense Media Plans Pricing
   plan_count: 3
@@ -177,9 +200,10 @@ rate_limits:
   name: Common Sense Media Rate Limits
   slug: common-sense-media-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Common Sense Media API Rules
+  name: Common Sense Media — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -187,7 +211,8 @@ rules:
     info: 2
     warn: 3
   slug: common-sense-media-jsonschema-spectral-rules
-- effective_rule_count: 50
+- authorship: unmarked
+  effective_rule_count: 50
   extends:
   - spectral:oas
   name: Common Sense Media API Rules
@@ -200,20 +225,20 @@ rules:
   slug: common-sense-media-rules
 score:
   band: thin
-  composite: 30.8
+  composite: 29.8
   coverage:
-    artifact_dirs: 14
-    catalog_earned: 55.5
+    artifact_dirs: 15
+    catalog_earned: 52.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 59.5
+    catalog_gap: 62.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.0
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 13.6
     contract_quality: 54.5
-    developer_ergonomics: 21.4
+    developer_ergonomics: 23.8
     discoverability: 66.1
     operational_transparency: 10.5
   previous_composite: 30.8
@@ -230,8 +255,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

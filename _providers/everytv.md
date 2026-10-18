@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://corp.every.tv/news
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/everytv/refs/heads/main/security/everytv-domain-security.yml
   title: ''
@@ -61,14 +65,14 @@ created: '2026-07-17'
 description: Every, Inc. (株式会社エブリー, corp.every.tv) is a Tokyo-based Japanese video-media and advertising company that runs consumer lifestyle products including DELISH KITCHEN (recipe video media), retailHUB (a retail promotion and data platform connecting physical stores with digital channels), トモニテ / Tomonite (parenting video media and community), and MOMENTH (a professional video production and social team). Led by CEO Taissei Yoshida and headquartered in Roppongi, Minato, Tokyo, the company approached an IPO on the Tokyo Stock Exchange Growth Market. It was surfaced as a portfolio company of dcm-ventures and added to the API Evangelist network for enrichment. Every, Inc. publishes an engineering blog and owned media but exposes no public developer API program.
 image: https://corp.every.tv/media/3Kyf0nwiFIpNszv6mB72QNsQJQqLi0E5SDgZ3ZAs.webp
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Every.tv
 nav: Providers
 network: true
 overview: 'Every.tv is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Media, Video, and Advertising.
 
 
-  Every.tv''s developer surface includes engineering blog, support, and 3 more developer resources.'
+  Every.tv''s developer surface includes engineering blog, support, and 4 more developer resources.'
 random_paper: 19
 score:
   band: minimal
@@ -102,8 +106,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 9.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 40.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'The S1 REST API manages a StorONE storage system: create and manage applications, volumes, snapshots, shares, file systems and object stores; register hosts and mappings; configure NAS servers, floati'
@@ -49,6 +49,10 @@ asyncapis:
   name: Storone Notifications Events
   slug: storone-notifications-events
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.storone.com/feed/
 - group: company
   title: ''
   type: Website
@@ -182,17 +186,17 @@ mcp_servers:
 - description: StorONE serves a live Model Context Protocol endpoint from its WordPress marketing site at www.storone.com. It is a real, reachable remote MCP server — it answers MCP JSON-RPC over HTTP with a spec-co
   name: StorONE MCP server
   slug: storone-mcp-server
-modified: '2026-08-29'
+modified: '2026-10-06'
 name: StorONE
 nav: Providers
 network: true
-overview: 'StorONE publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Storage, Enterprise Storage, Software-Defined Storage, Data Management, and Infrastructure.
+overview: 'StorONE is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Storage, Enterprise Storage, Software-Defined Storage, Data Management, and Infrastructure.
 
 
   The StorONE catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  StorONE''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 20 more developer resources.'
+  StorONE''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 21 more developer resources.'
 plans:
 - name: Storone Plans Pricing
   plan_count: 0
@@ -236,8 +240,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 36.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://31api.31huiyi.com
@@ -191,7 +191,7 @@ modified: '2026-09-05'
 name: 31huiyi
 nav: Providers
 network: true
-overview: '31huiyi publishes 1 API on the [APIs.io](https://apis.io/) network: 31 OpenAPI. Tagged areas include Company, Event, Event Management, Conferences, and Exhibitions.
+overview: '31huiyi is listed with 1 API on the [APIs.io](https://apis.io/) network: 31 OpenAPI. Tagged areas include Company, Event, Event Management, Conferences, and Exhibitions.
 
 
   The 31huiyi catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -216,7 +216,7 @@ score:
   band: developing
   composite: 44.0
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 21
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -247,13 +247,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/31huiyi/refs/heads/main/screenshots/31huiyi-2026-10-11T092038.png
 security:
 - kind: authentication
   name: 31Huiyi Authentication

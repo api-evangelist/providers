@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.burbankdev.co.uk/blog-feed.xml
 - group: company
   title: ''
   type: Website
@@ -78,14 +82,14 @@ created: '2026-07-17'
 description: Burbank is a Cardiff and London based payments technology company that builds card-present authentication for online and remote payments. Its flagship Card Present Over Internet (CPoI) technology lets consumers authenticate anywhere using the globally familiar "tap and PIN" gesture, alongside a SoftPOS product and an Issuer Toolkit for identity verification. Burbank ships a white-label SDK (mobile library plus containerized backend services) to issuers, acquirers, and payment service providers to reduce online fraud and improve conversion. Backed by Anthemis, Mouro Capital, and Portfolio Ventures.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/burbank.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Burbank
 nav: Providers
 network: true
 overview: 'Burbank is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Authentication, Fintech, and Card Present.
 
 
-  Burbank''s developer surface includes engineering blog, support, and 7 more developer resources.'
+  Burbank''s developer surface includes engineering blog, support, and 8 more developer resources.'
 random_paper: 15
 score:
   band: minimal
@@ -112,8 +116,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 12.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

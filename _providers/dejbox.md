@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Public OAuth2 / OpenID Connect authorization server (Ory-style) backing the Refectory (Dejbox) consumer and B2B applications. Advertises a standards-compliant OpenID discovery document with authorizat
@@ -41,6 +41,10 @@ apis:
   slug: refectory-identity-oauth2-openid-connect
 artifact_total: 4
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.refectory.fr/blog/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/dejbox/refs/heads/main/security/dejbox-domain-security.yml
   title: ''
@@ -83,14 +87,14 @@ created: '2026-07-17'
 description: Dejbox is a French corporate-catering company founded in Lille in 2015 by Adrien Verhack and Vincent Dupied, acquired by the Carrefour Group in January 2020 and since rebranded as Refectory (refectory.fr). It delivers prepared, seasonal meals to employees of companies located in the peripheral zones of major French cities via a digital canteen (click-and-collect precommande before 10:30) and connected self-service fridges, controlling 100% of its value chain through its own Manufactures and a national network of 23 logistics hubs. Originally surfaced as a Partech portfolio company, it operates in Bordeaux, Grenoble, Lille, Lyon, Nantes, Paris and other French cities. Its consumer platform runs on a public OAuth2/OIDC identity server (customers.refectory.fr) and an API gateway (gateway.refectory.fr).
 image: https://www.refectory.fr/_nuxt/icons/512x512.0114ee25.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Dejbox (Refectory)
 nav: Providers
 network: true
-overview: 'Dejbox (Refectory) publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food & Agritech, Corporate Catering, Food Delivery, and B2B.
+overview: 'Dejbox (Refectory) is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food & Agritech, Corporate Catering, Food Delivery, and B2B.
 
 
-  Dejbox (Refectory)''s developer surface includes support, authentication, and 6 more developer resources.'
+  Dejbox (Refectory)''s developer surface includes engineering blog, support, authentication, and 6 more developer resources.'
 random_paper: 20
 scopes:
 - name: Dejbox Scopes
@@ -99,20 +103,20 @@ scopes:
   summary_line: 3 scopes · authorizationCode/clientCredentials
 score:
   band: emerging
-  composite: 12.8
+  composite: 13.4
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 0.0
     contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 16.7
+    developer_ergonomics: 19.0
     discoverability: 73.2
     operational_transparency: 0.0
   jurisdiction:
@@ -132,8 +136,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

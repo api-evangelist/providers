@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Hytale blog posts and jobs
@@ -65,7 +65,7 @@ modified: '2026-05-28'
 name: Hytale
 nav: Providers
 network: true
-overview: 'Hytale publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Public APIs, Gaming, and Video Games.
+overview: 'Hytale is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Public APIs, Gaming, and Video Games.
 
 
   Hytale''s developer surface includes engineering blog and 3 more developer resources.'
@@ -95,13 +95,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/hytale/refs/heads/main/screenshots/hytale-2026-10-11T190414.png
 security:
 - kind: domain-security
   name: Hytale Domain Security

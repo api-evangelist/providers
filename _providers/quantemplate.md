@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://api.prod.quantemplate.com/v1
@@ -55,6 +55,10 @@ collections:
   name: Quantemplate FabricAPI API
   slug: open-quantemplate-fabricapi-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.quantemplate.com/news
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/quantemplate/refs/heads/main/overlays/quantemplate-fabric-overlay.yaml
   title: ''
@@ -180,23 +184,23 @@ created: '2026-07-17'
 description: Quantemplate is a data integration and management platform for the insurance industry. It automatically translates, validates, and enriches business-critical data across enterprise networks - connecting insurers, brokers, MGAs, and partners in a secure real-time data network. Its no-code environment lets business users build data-preparation workflows with AI-assisted mapping, full audit trails, permissions, and version history, plus dashboards and reporting. The FabricAPI automates data ingress and egress - run preconfigured pipelines and download the resulting datasets as CSV. Bordereaux management is a marquee solution, and the platform is used by insurers including Sompo, AXA, and Falls Lake Insurance.
 image: https://files.readme.io/29b07e5-small-QT-HEX-RGB-TRANSP_400.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: QuanTemplate
 nav: Providers
 network: true
-overview: 'QuanTemplate publishes 1 API on the [APIs.io](https://apis.io/) network: FabricAPI API. Tagged areas include Company, Insurance, Insurtech, Data Integration, and Data Management.
+overview: 'QuanTemplate publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: FabricAPI API. Tagged areas include Company, Insurance, Insurtech, Data Integration, and Data Management.
 
 
   The QuanTemplate catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  QuanTemplate''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 20 more developer resources.'
+  QuanTemplate''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, pricing, signup flow, and 21 more developer resources.'
 random_paper: 21
 score:
   band: thin
   composite: 29.1
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -226,8 +230,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 22.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Partner-facing PayCargo API for retrieving charges due, processing payments, and reconciling transactions directly from a customer's accounting or transportation-management system. Uses GET and POST c
@@ -111,7 +111,7 @@ modified: '2026-07-20'
 name: PayCargo
 nav: Providers
 network: true
-overview: 'PayCargo publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Freight, Logistics, and Supply Chain.
+overview: 'PayCargo is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Freight, Logistics, and Supply Chain.
 
 
   PayCargo''s developer surface includes documentation, support, engineering blog, pricing, signup flow, changelog, and 9 more developer resources.'
@@ -149,8 +149,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 28.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

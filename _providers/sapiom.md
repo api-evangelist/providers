@@ -33,14 +33,23 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: REST API for transaction management, payment authorization, agents, spending rules, analytics, and phone verification. Bearer-token authenticated; JSON envelope with cursor pagination.
   name: Sapiom REST API
   slug: sapiom-rest-api
-artifact_total: 5
+artifact_total: 6
 common:
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.sapiom.ai/
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sapiom/refs/heads/main/plans/sapiom-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/sapiom-plans-pricing.yml
 - group: company
   title: ''
   type: Website
@@ -181,10 +190,14 @@ modified: '2026-07-21'
 name: Sapiom
 nav: Providers
 network: true
-overview: 'Sapiom publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, Agent Infrastructure, and MCP.
+overview: 'Sapiom is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, Agent Infrastructure, and MCP.
 
 
-  Sapiom''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, support, CLI, and 21 more developer resources.'
+  Sapiom''s developer surface includes pricing, documentation, API reference, getting-started guide, engineering blog, signup flow, support, and 23 more developer resources.'
+plans:
+- name: Sapiom Plans Pricing
+  plan_count: 0
+  slug: sapiom-plans-pricing
 random_paper: 11
 rate_limits:
 - limit_count: 2
@@ -192,17 +205,17 @@ rate_limits:
   slug: sapiom-rate-limits
 score:
   band: thin
-  composite: 36.2
+  composite: 38.3
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 20
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.1
   facets:
-    access_clarity: 34.2
+    access_clarity: 44.7
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 82.1
@@ -219,8 +232,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 20.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

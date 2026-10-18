@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 3.8
-  scored_at: '2026-10-04'
+  score: 1.9
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: The Air Force OPEN Data Program provides public access to Department of the Air Force datasets, covering military installations, personnel data, research findings, and operational information. The pro
@@ -44,6 +44,21 @@ apis:
   slug: us-air-force-developer-api
 artifact_total: 11
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/us-air-force/refs/heads/main/plans/us-air-force-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/us-air-force-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/us-air-force/refs/heads/main/rate-limits/us-air-force-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/us-air-force-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/us-air-force/refs/heads/main/finops/us-air-force-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/us-air-force-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/us-air-force/refs/heads/main/security/us-air-force-domain-security.yml
   title: ''
@@ -60,9 +75,13 @@ examples:
   name: Us Air Force Open Data Dataset Example
   slug: us-air-force-open-data-dataset-example
 finops:
-- name: Us Air Force Finops
+- has_sources: false
+  method: generated
+  name: Us Air Force Finops
+  primary_unit: ''
   service_category: API
   slug: us-air-force-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/us-air-force.png
 json_schemas:
 - name: Air Force Open Dataset
@@ -82,7 +101,7 @@ modified: '2026-05-03'
 name: US Air Force
 nav: Providers
 network: true
-overview: 'US Air Force publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Air Force, Federal Government, Military, Defense, and Open Data.
+overview: 'US Air Force is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Air Force, Federal Government, Military, Defense, and Open Data.
 
 
   The US Air Force catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.'
@@ -96,9 +115,10 @@ rate_limits:
   name: Us Air Force Rate Limits
   slug: us-air-force-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: US Air Force API Rules
+  name: US Air Force — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -108,17 +128,17 @@ rules:
   slug: us-air-force-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 21.3
+  composite: 19.7
   coverage:
     artifact_dirs: 12
-    catalog_earned: 57.7
+    catalog_earned: 54.7
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.4
+    catalog_gap: 60.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 9.8
     contract_quality: 24.4
     developer_ergonomics: 19.0
@@ -136,8 +156,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

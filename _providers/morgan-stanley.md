@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 11.2
-  scored_at: '2026-10-04'
+  score: 9.3
+  scored_at: '2026-10-17'
 api_count: 6
 apis:
 - description: 'The institutional REST APIs on the Morgan Stanley API Platform let onboarded clients and third-party partners integrate Morgan Stanley data and services directly into their own systems and processes. '
@@ -57,6 +57,21 @@ apis:
   slug: etrade-alerts
 artifact_total: 12
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/morgan-stanley/refs/heads/main/plans/morgan-stanley-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/morgan-stanley-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/morgan-stanley/refs/heads/main/rate-limits/morgan-stanley-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/morgan-stanley-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/morgan-stanley/refs/heads/main/finops/morgan-stanley-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/morgan-stanley-finops.yml
 - group: company
   title: ''
   type: Website
@@ -155,19 +170,23 @@ common:
 created: '2025-03-01'
 description: Morgan Stanley is a global financial services firm that offers a wide range of services to individuals, corporations, and governments. The firm is known for its investment banking and wealth management services, helping clients raise capital, make strategic acquisitions, and manage their assets. Morgan Stanley also provides services in areas such as asset management, trading, research, and risk management. Its public developer surface is split between an invitation-only institutional API Platform at developer.morganstanley.com (OAuth 2.0 with certificate-based token exchange, REST and WebSocket, built to the OpenAPI Specification) and the genuinely public E*TRADE from Morgan Stanley brokerage API at developer.etrade.com (OAuth 1.0a, REST, with a sandbox).
 finops:
-- name: Morgan Stanley Finops
+- has_sources: true
+  method: generated
+  name: Morgan Stanley Finops
+  primary_unit: ''
   service_category: Financial Services
   slug: morgan-stanley-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/morgan-stanley.png
 layout: provider
 modified: '2026-07-23'
 name: Morgan Stanley
 nav: Providers
 network: true
-overview: 'Morgan Stanley publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Finance, Investment Banking, Wealth Management, Brokerage, and Market Data.
+overview: 'Morgan Stanley is listed with 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Finance, Investment Banking, Wealth Management, Brokerage, and Market Data.
 
 
-  Morgan Stanley''s developer surface includes documentation, engineering blog, getting-started guide, authentication, sandbox, and 16 more developer resources.'
+  Morgan Stanley''s developer surface includes documentation, engineering blog, getting-started guide, authentication, sandbox, and 19 more developer resources.'
 plans:
 - name: Morgan Stanley Plans Pricing
   plan_count: 2
@@ -194,18 +213,18 @@ rate_limits:
   name: Morgan Stanley Rate Limits
   slug: morgan-stanley-rate-limits
 score:
-  band: thin
-  composite: 27.5
+  band: emerging
+  composite: 26.0
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 42.0
+    artifact_dirs: 18
+    catalog_earned: 39.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 73.0
+    catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 23.7
+    access_clarity: 15.8
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 52.4
@@ -227,8 +246,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 30.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -247,7 +266,7 @@ security:
 - kind: vulnerability-disclosure
   name: Morgan Stanley Vulnerability Disclosure
   slug: morgan-stanley-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 slug: morgan-stanley
 tags:
 - Finance

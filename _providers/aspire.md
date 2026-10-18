@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'Aspire''s public REST API for business finance automation: payout/transfer operations across 30+ currencies (local and SWIFT), FX quotes, virtual card issuance and controls, and bank-feed/transaction r'
@@ -124,7 +124,7 @@ modified: '2026-07-18'
 name: Aspire
 nav: Providers
 network: true
-overview: 'Aspire publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Business Banking, Payments, and Payouts.
+overview: 'Aspire is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Business Banking, Payments, and Payouts.
 
 
   The Aspire catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -172,8 +172,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 35.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

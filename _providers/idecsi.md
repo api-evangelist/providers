@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.idecsi.com/rss.xml
 - group: company
   title: ''
   type: Website
@@ -65,26 +69,26 @@ created: '2026-07-17'
 description: IDECSI is a Microsoft 365 and on-premises data security platform focused on Data Security Posture Management (DSPM) and Data Access Governance (DAG). It helps mid-size and large enterprises eliminate access, permission, and sharing risks across Microsoft 365, SharePoint, and file systems, with advanced monitoring, permission analysis, and user-driven security workflows. IDECSI serves large organizations such as L'Oreal, TotalEnergies, SNCF, Renault, and ADP, and aligns with regulatory frameworks including NIS2, DORA, and the EU AI Act. Surfaced as a portfolio company of Partech and added to the API Evangelist network; the company publishes a marketing site, blog, and help center but no public developer API or specification at this time.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/idecsi.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Idecsi
 nav: Providers
 network: true
 overview: 'Idecsi is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Infrastructure Saas, Data Security, Microsoft 365, and Data Access Governance.
 
 
-  Idecsi''s developer surface includes engineering blog, support, signup flow, and 3 more developer resources.'
+  Idecsi''s developer surface includes engineering blog, support, signup flow, and 4 more developer resources.'
 random_paper: 9
 score:
   band: minimal
-  composite: 10.1
+  composite: 10.2
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 23.7
     contract_governance: 0.0
@@ -99,8 +103,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 9.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

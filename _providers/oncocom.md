@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.onco.com/rss/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/oncocom/refs/heads/main/security/oncocom-domain-security.yml
   title: ''
@@ -70,14 +74,14 @@ created: '2026-07-17'
 description: Onco.com is a comprehensive cancer care platform operated by Apollo Hospitals Enterprise Ltd that connects cancer patients across India with oncologists and treatment services. The platform offers priority expert oncology consultations, pan-India cancer medicine delivery at discounted rates, diagnostic testing and imaging, curated treatment packages with negotiated hospital rates, and the CanWin peer support group for survivors and caregivers. Onco.com reports a network of 400+ oncologists and 23+ treatment centers, having served more than 100,000 patients. It also publishes extensive patient-education content covering many cancer types (breast, lung, blood, prostate, colon, and others) through its About Cancer library and blog. This profile was surfaced as an Accel portfolio company; the platform is consumer/patient facing and does not publish a public developer API, developer portal, or machine-readable API specification.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/oncocom.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Onco.com
 nav: Providers
 network: true
 overview: 'Onco.com is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Oncology, Cancer Care, and Telehealth.
 
 
-  Onco.com''s developer surface includes engineering blog, support, and 5 more developer resources.'
+  Onco.com''s developer surface includes engineering blog, support, and 6 more developer resources.'
 random_paper: 2
 score:
   band: emerging
@@ -111,8 +115,8 @@ score:
     regime: Health
     regime_id: health
     score: 10.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

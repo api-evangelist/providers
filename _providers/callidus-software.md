@@ -29,7 +29,7 @@ tags:
 - CPQ
 - Contract Lifecycle Management
 - Marketing Automation
-- Learning Management
+- LMS
 - Software-as-a-Service
 - Acquired
 ---

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -104,7 +104,7 @@ apis:
   description: The usage API from Capy — 1 operation(s) for usage.
   name: Capy Usage API
   slug: capy-usage-api
-artifact_total: 30
+artifact_total: 31
 collections:
 - collection_type: open
   name: API Collection
@@ -146,6 +146,11 @@ collections:
   name: Capy automations usage API
   slug: open-capy-usage-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/capy/refs/heads/main/plans/capy-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/capy-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/capy/refs/heads/main/capabilities/capy-capability-edges.yml
   title: ''
@@ -281,24 +286,28 @@ modified: '2026-07-18'
 name: Capy
 nav: Providers
 network: true
-overview: 'Capy publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Automations API, Browser Snapshots API, Environment Variables API, and 9 more. Tagged areas include Company, Artificial Intelligence, AI Coding Agents, Software Engineering, and Developer Tools.
+overview: 'Capy publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including Automations API, Browser Snapshots API, Environment Variables API, and 9 more. Tagged areas include Company, Artificial Intelligence, AI Coding Agents, Software Engineering, and Developer Tools.
 
 
-  Capy''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 21 more developer resources.'
+  Capy''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
+plans:
+- name: Capy Plans Pricing
+  plan_count: 8
+  slug: capy-plans-pricing
 random_paper: 11
 score:
-  band: developing
-  composite: 49.4
+  band: strong
+  composite: 55.8
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 20
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.4
   facets:
-    access_clarity: 52.6
+    access_clarity: 84.2
     contract_governance: 18.2
     contract_quality: 51.3
     developer_ergonomics: 58.9
@@ -321,9 +330,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 28.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: true
     score: 22.2
@@ -340,7 +349,7 @@ security:
 - kind: vulnerability-disclosure
   name: Capy Vulnerability Disclosure
   slug: capy-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 - kind: trust-center
   name: Capy Trust Center
   slug: capy-trust-center

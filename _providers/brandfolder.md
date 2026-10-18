@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -285,9 +285,13 @@ common:
 created: 2026-06-13
 description: Brandfolder is a digital asset management (DAM) platform and Smartsheet company that provides a RESTful API for managing brand assets, collections, sections, tags, share links, webhooks, and asset distribution permissions. The API enables organizations to push Brandfolder content to other applications, pull data from external sources, and synchronize Brandfolder with other platforms.
 finops:
-- name: Brandfolder Finops
+- has_sources: false
+  method: generated
+  name: Brandfolder Finops
+  primary_unit: ''
   service_category: ''
   slug: brandfolder-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/brandfolder.png
 jsonld:
 - class_count: 0
@@ -303,7 +307,7 @@ modified: 2026-08-13
 name: Brandfolder
 nav: Providers
 network: true
-overview: 'Brandfolder publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Assets API, Attachments API, Binary Upload API, and 10 more. Tagged areas include Digital Asset Management, Brand Management, Assets, Media, and Collection.
+overview: 'Brandfolder publishes 13 API contracts indexed on the [APIs.io](https://apis.io/) network, including Assets API, Attachments API, Binary Upload API, and 10 more. Tagged areas include Digital Asset Management, Brand Management, Assets, Media, and Collection.
 
 
   The Brandfolder catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 JSON-LD context.
@@ -321,17 +325,17 @@ rate_limits:
   slug: brandfolder-rate-limits
 score:
   band: strong
-  composite: 57.4
+  composite: 55.9
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 56.0
+    artifact_dirs: 27
+    catalog_earned: 53.0
     catalog_earned_first_party: 8.0
-    catalog_gap: 59.0
+    catalog_gap: 62.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 82.9
+    access_clarity: 75.0
     contract_governance: 4.5
     contract_quality: 61.2
     developer_ergonomics: 47.0
@@ -354,8 +358,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

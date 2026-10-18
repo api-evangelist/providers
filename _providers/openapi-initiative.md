@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: API for accessing OpenAPI Initiative resources, specifications, and tooling ecosystem documentation for defining standard interfaces to RESTful APIs.
@@ -41,6 +41,21 @@ apis:
   slug: openapi-initiative-api
 artifact_total: 5
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/openapi-initiative/refs/heads/main/plans/openapi-initiative-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/openapi-initiative-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/openapi-initiative/refs/heads/main/rate-limits/openapi-initiative-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/openapi-initiative-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/openapi-initiative/refs/heads/main/finops/openapi-initiative-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/openapi-initiative-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/openapi-initiative/refs/heads/main/security/openapi-initiative-domain-security.yml
   title: ''
@@ -61,19 +76,23 @@ common:
 created: '2026-03-16'
 description: The OpenAPI Initiative is a Linux Foundation project that promotes the OpenAPI Specification for defining standard, language-agnostic interfaces to RESTful APIs. It provides governance, tooling ecosystem support, and community collaboration for the most widely adopted API description format.
 finops:
-- name: Openapi Initiative Finops
+- has_sources: false
+  method: generated
+  name: Openapi Initiative Finops
+  primary_unit: ''
   service_category: API
   slug: openapi-initiative-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/openapi-initiative.png
 layout: provider
 modified: '2026-04-28'
 name: OpenAPI Initiative
 nav: Providers
 network: true
-overview: 'OpenAPI Initiative publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Linux Foundation, Specification, and Standards.
+overview: 'OpenAPI Initiative is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Linux Foundation, Specification, and Standards.
 
 
-  OpenAPI Initiative''s developer surface includes documentation and 3 more developer resources.'
+  OpenAPI Initiative''s developer surface includes documentation and 6 more developer resources.'
 plans:
 - name: Openapi Initiative Plans Pricing
   plan_count: 3
@@ -85,17 +104,17 @@ rate_limits:
   slug: openapi-initiative-rate-limits
 score:
   band: minimal
-  composite: 10.1
+  composite: 8.6
   coverage:
     artifact_dirs: 15
-    catalog_earned: 36.0
+    catalog_earned: 33.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 79.0
+    catalog_gap: 82.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 9.5
@@ -108,8 +127,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

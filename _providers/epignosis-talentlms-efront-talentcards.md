@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -182,6 +182,19 @@ collections:
   name: Efront Account User Type API
   slug: open-epignosis-talentlms-efront-talentcards-user-type-api
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/epignosis-talentlms-efront-talentcards/refs/heads/main/rate-limits/epignosis-talentlms-efront-talentcards-talentlms-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/epignosis-talentlms-efront-talentcards-talentlms-rate-limits.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.epignosishq.com/category/news/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.epignosishq.com/category/news/feed/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/epignosis-talentlms-efront-talentcards/refs/heads/main/capabilities/epignosis-talentlms-efront-talentcards-capability-edges.yml
   title: ''
@@ -316,14 +329,14 @@ created: '2026-07-17'
 description: 'Epignosis is a learning-technology company serving more than 70,000 organizations worldwide with a family of cloud training products: TalentLMS (an all-in-one LMS for growing businesses), eFront (a flexible enterprise LMS), TalentCards (mobile-first microlearning for deskless workers) and TalentHR. Each product exposes a REST API for managing users, courses, groups, branches, enrollments, and reporting. The TalentLMS API is a JSON REST API scoped to a per-tenant subdomain with API-key HTTP Basic auth and per-plan hourly rate limits; eFront publishes an OpenAPI 3.0 definition on SwaggerHub; TalentCards ships a PHP API wrapper. Epignosis holds ISO/IEC 27001:2022, ISO 9001:2015, CSA STAR Level 1 and is GDPR compliant.'
 image: https://www.epignosishq.com/favicon.ico
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Epignosis (TalentLMS, eFront, TalentCards)
 nav: Providers
 network: true
-overview: 'Epignosis (TalentLMS, eFront, TalentCards) publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Account API, Autologin API, Branch API, and 14 more. Tagged areas include Company, Education, Learning Management System, LMS, and Training.
+overview: 'Epignosis (TalentLMS, eFront, TalentCards) publishes 17 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Autologin API, Branch API, and 14 more. Tagged areas include Company, Education, LMS, Training, and E-Learning.
 
 
-  Epignosis (TalentLMS, eFront, TalentCards)''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, authentication, and 22 more developer resources.'
+  Epignosis (TalentLMS, eFront, TalentCards)''s developer surface includes engineering blog, documentation, API reference, support, pricing, signup flow, authentication, and 25 more developer resources.'
 random_paper: 3
 rate_limits:
 - limit_count: 0
@@ -331,7 +344,7 @@ rate_limits:
   slug: epignosis-talentlms-efront-talentcards-talentlms-rate-limits
 score:
   band: developing
-  composite: 47.7
+  composite: 47.8
   coverage:
     artifact_dirs: 21
     catalog_earned: 37.0
@@ -339,7 +352,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 60.5
     contract_governance: 18.2
@@ -364,8 +377,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -392,7 +405,6 @@ slug: epignosis-talentlms-efront-talentcards
 tags:
 - Company
 - Education
-- Learning Management System
 - LMS
 - Training
 - E-Learning

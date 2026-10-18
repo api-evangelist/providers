@@ -32,14 +32,19 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Kaaj's REST API for submitting borrower application packages and receiving decision-ready credit analysis, with webhook callbacks. Access is authenticated (the base host requires credentials) and prov
   name: Kaaj Underwriting API
   slug: kaaj-underwriting-api
-artifact_total: 3
+artifact_total: 4
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/kaaj/refs/heads/main/plans/kaaj-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/kaaj-plans-pricing.yml
 - group: company
   title: ''
   type: Website
@@ -125,24 +130,28 @@ modified: '2026-07-19'
 name: Kaaj
 nav: Providers
 network: true
-overview: 'Kaaj publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Lending, Underwriting, and Credit Risk.
+overview: 'Kaaj is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Lending, Underwriting, and Credit Risk.
 
 
-  Kaaj''s developer surface includes documentation, engineering blog, pricing, support, YouTube channel, and 13 more developer resources.'
+  Kaaj''s developer surface includes documentation, engineering blog, pricing, support, YouTube channel, and 14 more developer resources.'
+plans:
+- name: Kaaj Plans Pricing
+  plan_count: 4
+  slug: kaaj-plans-pricing
 random_paper: 11
 score:
-  band: emerging
-  composite: 23.1
+  band: thin
+  composite: 29.4
   coverage:
-    artifact_dirs: 7
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 8
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.3
   facets:
-    access_clarity: 36.8
+    access_clarity: 68.4
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 26.2
@@ -157,9 +166,9 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 16.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

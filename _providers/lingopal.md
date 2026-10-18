@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -64,7 +64,7 @@ apis:
   description: Create storage uploads and register jobs for later use.
   name: Lingopal Upload API
   slug: lingopal-upload-api
-artifact_total: 12
+artifact_total: 13
 collections:
 - collection_type: open
   name: API Collection
@@ -82,6 +82,11 @@ collections:
   name: Lingopal API v2 Jobs Upload API
   slug: open-lingopal-upload-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/lingopal/refs/heads/main/plans/lingopal-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/lingopal-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/lingopal/refs/heads/main/capabilities/lingopal-capability-edges.yml
   title: ''
@@ -208,24 +213,28 @@ modified: '2026-07-19'
 name: Lingopal
 nav: Providers
 network: true
-overview: 'Lingopal publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Jobs API, Languages API, Translate API, and 1 more. Tagged areas include Company, Frontier Tech, Artificial Intelligence, Translation, and Localization.
+overview: 'Lingopal publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Jobs API, Languages API, Translate API, and 1 more. Tagged areas include Company, Frontier Tech, Artificial Intelligence, Translation, and Localization.
 
 
-  Lingopal''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, pricing, and 19 more developer resources.'
+  Lingopal''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, pricing, and 20 more developer resources.'
+plans:
+- name: Lingopal Plans Pricing
+  plan_count: 4
+  slug: lingopal-plans-pricing
 random_paper: 18
 score:
   band: developing
-  composite: 39.6
+  composite: 45.4
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 20
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 5.8
   facets:
-    access_clarity: 31.6
+    access_clarity: 63.2
     contract_governance: 4.5
     contract_quality: 51.6
     developer_ergonomics: 58.9
@@ -244,13 +253,13 @@ score:
     skills: derived
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
-    score: 22.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
+    score: 21.9
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

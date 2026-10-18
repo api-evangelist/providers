@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Custom Laravel REST API for data.egov.bg with action-named endpoints under /api, almost all POST with JSON bodies. Public read methods include listDatasets, getDatasetDetails, listResources, getResour
@@ -66,7 +66,7 @@ modified: '2026-06-23'
 name: data.egov.bg (Open Data Portal of Bulgaria)
 nav: Providers
 network: true
-overview: 'data.egov.bg (Open Data Portal of Bulgaria) publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Open Data, Custom Platform, REST, Government Data, and National Government.
+overview: 'data.egov.bg (Open Data Portal of Bulgaria) is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Open Data, Custom Platform, REST, Government Data, and National Government.
 
 
   data.egov.bg (Open Data Portal of Bulgaria)''s developer surface includes documentation and 3 more developer resources.'
@@ -75,7 +75,7 @@ score:
   band: minimal
   composite: 7.4
   coverage:
-    artifact_dirs: 2
+    artifact_dirs: 3
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -102,13 +102,14 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/data-egov-bg/refs/heads/main/screenshots/data-egov-bg-2026-10-11T184701.png
 security:
 - kind: domain-security
   name: Data Egov Bg Domain Security

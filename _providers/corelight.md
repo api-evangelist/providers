@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'RESTful API for remotely configuring and controlling a Corelight Sensor and Fleet Manager. Device-local and account-gated (no public OpenAPI); driven by the official open-source corelight-client CLI. '
@@ -42,6 +42,10 @@ apis:
   slug: corelight-sensor-api
 artifact_total: 5
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://corelight.com/blog/rss.xml
 - group: company
   title: ''
   type: Website
@@ -135,26 +139,26 @@ created: '2026-07-17'
 description: Corelight is a network detection and response (NDR) company founded by the creators of the open-source Zeek (formerly Bro) network security monitor. Its Open NDR Platform transforms network traffic into high-fidelity security evidence — logs, alerts, and metadata — powering threat detection, hunting, investigation, and incident response across on-premises and cloud environments. Corelight Sensors expose a comprehensive RESTful API for remote configuration and control, driven by the open-source corelight-client command-line client, with a Fleet Manager for centralized fleet management. Backed by Accel and General Catalyst, Corelight is listed on the FedRAMP Marketplace (In Process, Moderate).
 image: https://corelight.com/hubfs/images/thumbs/Corelight_LinkShare_Thumbnail_V2.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Corelight
 nav: Providers
 network: true
-overview: 'Corelight publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cybersecurity, Network Detection and Response, NDR, and Network Security.
+overview: 'Corelight is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cybersecurity, Network Detection and Response, NDR, and Network Security.
 
 
-  Corelight''s developer surface includes documentation, engineering blog, support, pricing, CLI, authentication, and 14 more developer resources.'
+  Corelight''s developer surface includes documentation, engineering blog, support, pricing, CLI, authentication, and 15 more developer resources.'
 random_paper: 15
 score:
   band: thin
-  composite: 34.1
+  composite: 34.2
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 47.4
     contract_governance: 18.2
@@ -177,8 +181,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

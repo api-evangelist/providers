@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 45.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -45,7 +45,7 @@ agentic_access:
   operation_count: 5
   slug: amber-electric-agentic-access
   summary_line: 5 operations
-api_count: 1
+api_count: 2
 apis:
 - description: Amber's Consumer Data Right energy data-holder surface, mandated by the Australian CDR regime extended from banking into energy and administered by the ACCC with standards set by the Data Standards Bo
   name: Amber Electric Consumer Data Right Energy API
@@ -66,6 +66,14 @@ collections:
   name: Amber Electric Public API
   slug: open-amber-electric-public-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.amber.com.au/blog
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.amber.com.au/blog/rss.xml
 - group: operate
   title: ''
   type: IssueTracker
@@ -231,14 +239,14 @@ description: 'Amber Electric is an Australian electricity retailer (ABN 98623603
   and that grid renewables-percentage feed really does answer anonymously for NSW, VIC, QLD and SA, so open market data and gated consumer data live inside the same contract. Separately, Amber is a designated Consumer Data Right energy data holder that is genuinely live, not merely designated: it is listed on the ACCC CDR Register with a working public base URI at https://public.cdr.amber.com.au, whose CDS discovery endpoints and anonymously-served OpenID Connect configuration advertise the full Consumer Data Standards energy scope set behind private_key_jwt and CDR accreditation.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amber-electric.png
 layout: provider
-modified: '2026-07-27'
+modified: '2026-10-06'
 name: Amber Electric
 nav: Providers
 network: true
-overview: 'Amber Electric publishes 3 APIs on the [APIs.io](https://apis.io/) network, including Sites API, State API, and 1 more. Tagged areas include Energy, Australia, Electricity, Utilities, and Consumer Data Right.
+overview: 'Amber Electric publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network, including Sites API, State API, and 1 more. Tagged areas include Energy, Australia, Electricity, Utilities, and Consumer Data Right.
 
 
-  Amber Electric''s developer surface includes authentication, code examples, documentation, API reference, engineering blog, support, pricing, and 28 more developer resources.'
+  Amber Electric''s developer surface includes engineering blog, authentication, code examples, documentation, API reference, support, pricing, and 30 more developer resources.'
 random_paper: 21
 rate_limits:
 - limit_count: 1
@@ -253,7 +261,7 @@ score:
   band: developing
   composite: 49.4
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
@@ -291,8 +299,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 45.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

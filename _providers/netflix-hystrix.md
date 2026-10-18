@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Netflix Hystrix is a latency and fault tolerance library designed to isolate points of access to remote systems, services, and third-party libraries, stop cascading failure, and enable resilience in c
@@ -41,6 +41,21 @@ apis:
   slug: netflix-hystrix
 artifact_total: 6
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/netflix-hystrix/refs/heads/main/plans/netflix-hystrix-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/netflix-hystrix-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/netflix-hystrix/refs/heads/main/rate-limits/netflix-hystrix-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/netflix-hystrix-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/netflix-hystrix/refs/heads/main/finops/netflix-hystrix-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/netflix-hystrix-finops.yml
 - group: company
   title: ''
   type: Website
@@ -72,9 +87,13 @@ common:
 created: '2026-03-26'
 description: Netflix Hystrix is a latency and fault tolerance library designed to isolate points of access to remote systems, services, and third-party libraries, stop cascading failure, and enable resilience in complex distributed systems where failure is inevitable. Now in maintenance mode, with Resilience4j recommended as a replacement.
 finops:
-- name: Netflix Hystrix Finops
+- has_sources: false
+  method: generated
+  name: Netflix Hystrix Finops
+  primary_unit: ''
   service_category: API
   slug: netflix-hystrix-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/netflix-hystrix.png
 json_schemas:
 - name: Netflix Hystrix Command Configuration
@@ -85,13 +104,13 @@ modified: '2026-03-26'
 name: Netflix Hystrix
 nav: Providers
 network: true
-overview: 'Netflix Hystrix publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Circuit Breaker, Fault Tolerance, Java, Latency, and Maintenance Mode.
+overview: 'Netflix Hystrix is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Circuit Breaker, Fault Tolerance, Java, Latency, and Maintenance Mode.
 
 
   The Netflix Hystrix catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Netflix Hystrix''s developer surface includes documentation, getting-started guide, release notes, and 4 more developer resources.'
+  Netflix Hystrix''s developer surface includes documentation, getting-started guide, release notes, and 7 more developer resources.'
 plans:
 - name: Netflix Hystrix Plans Pricing
   plan_count: 3
@@ -102,9 +121,10 @@ rate_limits:
   name: Netflix Hystrix Rate Limits
   slug: netflix-hystrix-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Netflix Hystrix API Rules
+  name: Netflix Hystrix — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -114,17 +134,17 @@ rules:
   slug: netflix-hystrix-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 17.5
+  composite: 16.0
   coverage:
     artifact_dirs: 7
-    catalog_earned: 49.7
+    catalog_earned: 46.7
     catalog_earned_first_party: 0.0
-    catalog_gap: 65.4
+    catalog_gap: 68.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 9.8
     contract_quality: 7.2
     developer_ergonomics: 21.4
@@ -137,8 +157,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 0.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://app.visotrust.com/api/v1
@@ -143,6 +143,10 @@ collections:
   name: VISO TRUST API Documentation client-api-assessment-rest-resource client-api-webhook-rest-resource API
   slug: open-viso-trust-client-api-webhook-rest-resource-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://visotrust.com/resource-types/blog/feed/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/viso-trust/refs/heads/main/capabilities/viso-trust-capability-edges.yml
   title: ''
@@ -273,21 +277,21 @@ created: '2026-07-17'
 description: VISO TRUST is an AI-powered third-party risk management (TPRM) platform that helps security teams assess and continuously monitor vendor risk across third, fourth, and nth parties. Its Artifact Intelligence AI engine reads vendor security documentation to automate assessments, and the platform covers vendor onboarding, questionnaires, external intelligence reports (SecurityScorecard, Recorded Future, BitSight), risk scoring, audit logging, and a VISO Chat agent. The public Client API (v1) exposes relationships, assessments, vendor risk summaries, questionnaires, users, and webhooks over HTTPS with bearer-token auth.
 image: https://visotrust.com/wp-content/uploads/2026/03/Viso-trust.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: VISO Trust
 nav: Providers
 network: true
-overview: 'VISO Trust publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Client API Assessment Rest Resource API, Client API Audit Log Rest Resource API, Client API Chat Rest Resource API, and 9 more. Tagged areas include Company, Security, Third-Party Risk Management, Vendor Risk, and Risk Management.
+overview: 'VISO Trust publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including Client API Assessment Rest Resource API, Client API Audit Log Rest Resource API, Client API Chat Rest Resource API, and 9 more. Tagged areas include Company, Security, Third-Party Risk Management, Vendor Risk, and Risk Management.
 
 
   The VISO Trust catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  VISO Trust''s developer surface includes documentation, API reference, quickstart, support, engineering blog, changelog, authentication, and 21 more developer resources.'
+  VISO Trust''s developer surface includes documentation, API reference, quickstart, support, engineering blog, changelog, authentication, and 22 more developer resources.'
 random_paper: 16
 score:
   band: developing
-  composite: 50.2
+  composite: 50.3
   coverage:
     artifact_dirs: 19
     catalog_earned: 37.0
@@ -295,7 +299,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 35.5
     contract_governance: 4.5
@@ -319,8 +323,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

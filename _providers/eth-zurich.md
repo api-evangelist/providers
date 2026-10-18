@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.8
-  scored_at: '2026-10-04'
+  score: 27.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -567,9 +567,13 @@ examples:
   name: Eth Zurich Research Collection Search Example
   slug: eth-zurich-research-collection-search-example
 finops:
-- name: Eth Zurich Finops
+- has_sources: true
+  method: generated
+  name: Eth Zurich Finops
+  primary_unit: ''
   service_category: Education
   slug: eth-zurich-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/eth-zurich.png
 json_schemas:
 - name: ETH Research Collection Item
@@ -589,7 +593,7 @@ modified: '2026-08-19'
 name: ETH Zurich – Swiss Federal Institute of Technology
 nav: Providers
 network: true
-overview: 'ETH Zurich – Swiss Federal Institute of Technology publishes 44 APIs on the [APIs.io](https://apis.io/) network, including Bitstreams API, Collections API, Communities API, and 41 more. Tagged areas include University, Higher Education, Education, Switzerland, and ETH Domain.
+overview: 'ETH Zurich – Swiss Federal Institute of Technology publishes 44 API contracts indexed on the [APIs.io](https://apis.io/) network, including Bitstreams API, Collections API, Communities API, and 41 more. Tagged areas include University, Higher Education, Education, Switzerland, and ETH Domain.
 
 
   The ETH Zurich – Swiss Federal Institute of Technology catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -606,9 +610,10 @@ rate_limits:
   name: Eth Zurich Rate Limits
   slug: eth-zurich-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: ETH Zurich – Swiss Federal Institute of Technology API Rules
+  name: ETH Zurich – Swiss Federal Institute of Technology — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -616,7 +621,8 @@ rules:
     info: 2
     warn: 3
   slug: eth-zurich-jsonschema-spectral-rules
-- effective_rule_count: 5
+- authorship: unmarked
+  effective_rule_count: 5
   extends: []
   name: ETH Zurich – Swiss Federal Institute of Technology API Rules
   rule_count: 5
@@ -627,23 +633,23 @@ rules:
     warn: 3
   slug: eth-zurich-rules
 score:
-  band: developing
-  composite: 42.3
+  band: thin
+  composite: 36.2
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 68.2
+    artifact_dirs: 21
+    catalog_earned: 54.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 46.8
+    catalog_gap: 60.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -6.1
   facets:
-    access_clarity: 50.5
+    access_clarity: 28.9
     contract_governance: 23.5
     contract_quality: 54.7
     developer_ergonomics: 23.8
     discoverability: 73.2
-    operational_transparency: 24.2
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -652,7 +658,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 41.8
+  previous_composite: 42.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -667,9 +673,9 @@ score:
     regime: Education & Research
     regime_id: education
     score: 26.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

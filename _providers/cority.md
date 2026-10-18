@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: RESTful API and SDK for developing custom interfaces with the Cority Enviance system and integrating it with corporate and third-party systems. Use requires an express Cority Enviance Connectors licen
@@ -40,6 +40,14 @@ apis:
   slug: cority-enviance-api
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.cority.com/resources/blog/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.cority.com/feed/
 - group: company
   title: ''
   type: Website
@@ -113,20 +121,20 @@ created: '2026-07-17'
 description: Cority is an enterprise Environmental, Health, Safety, and Quality (EHSQ) and sustainability software provider, founded in 1985 as Medgate and headquartered in Toronto, Canada. Its CorityOne platform converges occupational health, safety and incident management, industrial hygiene, environmental and ESG/sustainability reporting, quality, and audit/compliance management for more than 1,500 enterprise organizations worldwide, layered with its Cortex AI agents. Cority exposes RESTful integration through the Cority Enviance API (Swagger-documented), used to connect CorityOne with corporate and third-party systems under a Connectors license.
 image: https://www.cority.com/wp-content/uploads/2025/06/Cority_Logo_RGB_orange.svg
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Cority
 nav: Providers
 network: true
-overview: 'Cority publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Environmental Health and Safety, EHS, Sustainability, and ESG.
+overview: 'Cority is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Environmental Health and Safety, EHS, Sustainability, and ESG.
 
 
-  Cority''s developer surface includes documentation, API reference, engineering blog, support, signup flow, and 11 more developer resources.'
+  Cority''s developer surface includes engineering blog, documentation, API reference, support, signup flow, and 13 more developer resources.'
 random_paper: 6
 score:
   band: emerging
   composite: 25.7
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -160,8 +168,8 @@ score:
     regime: Health
     regime_id: health
     score: 18.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

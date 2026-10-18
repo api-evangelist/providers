@@ -28,20 +28,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.4
-  scored_at: '2026-10-04'
+  score: 22.5
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 15
+- acting_count: 14
   human_in_the_loop: 0
   name: Td Synnex Agentic Access
   operation_count: 34
   slug: td-synnex-agentic-access
-  summary_line: 34 operations · 15 acting
+  summary_line: 34 operations · 14 acting
 api_count: 1
 apis:
 - baseURL: https://ion.tdsynnex.com
@@ -133,6 +133,21 @@ collections:
   name: TD SYNNEX StreamOne Ion Partner Authentication Subscriptions API
   slug: open-td-synnex-subscriptions-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/td-synnex/refs/heads/main/plans/td-synnex-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/td-synnex-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/td-synnex/refs/heads/main/rate-limits/td-synnex-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/td-synnex-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/td-synnex/refs/heads/main/finops/td-synnex-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/td-synnex-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/td-synnex/refs/heads/main/capabilities/td-synnex-capability-edges.yml
   title: ''
@@ -208,9 +223,13 @@ examples:
   name: Td Synnex Create Order Example
   slug: td-synnex-create-order-example
 finops:
-- name: Td Synnex Finops
+- has_sources: true
+  method: generated
+  name: Td Synnex Finops
+  primary_unit: ''
   service_category: Technology Distribution
   slug: td-synnex-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/td-synnex.png
 json_schemas:
 - name: TD SYNNEX StreamOne Customer
@@ -233,13 +252,13 @@ modified: '2026-05-19'
 name: TD SYNNEX
 nav: Providers
 network: true
-overview: 'TD SYNNEX publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Cart Items API, Carts API, and 7 more. Tagged areas include Technology Distribution, IT Distribution, Cloud, Reseller, and StreamOne.
+overview: 'TD SYNNEX publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authentication API, Cart Items API, Carts API, and 7 more. Tagged areas include Technology Distribution, IT Distribution, Cloud, Reseller, and StreamOne.
 
 
   The TD SYNNEX catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  TD SYNNEX''s developer surface includes authentication, documentation, developer portal, and 12 more developer resources.'
+  TD SYNNEX''s developer surface includes authentication, documentation, developer portal, and 15 more developer resources.'
 plans:
 - name: Td Synnex Plans Pricing
   plan_count: 1
@@ -250,9 +269,10 @@ rate_limits:
   name: Td Synnex Rate Limits
   slug: td-synnex-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: TD SYNNEX API Rules
+  name: TD SYNNEX — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -260,7 +280,8 @@ rules:
     info: 2
     warn: 3
   slug: td-synnex-jsonschema-spectral-rules
-- effective_rule_count: 53
+- authorship: unmarked
+  effective_rule_count: 53
   extends:
   - spectral:oas
   name: TD SYNNEX API Rules
@@ -278,17 +299,17 @@ scopes:
   summary_line: 2 scopes · clientCredentials
 score:
   band: thin
-  composite: 34.3
+  composite: 32.8
   coverage:
     artifact_dirs: 19
-    catalog_earned: 61.0
+    catalog_earned: 58.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 54.0
+    catalog_gap: 57.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 13.2
+    access_clarity: 5.3
     contract_governance: 27.3
     contract_quality: 56.0
     developer_ergonomics: 31.0
@@ -308,8 +329,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -108,6 +108,21 @@ collections:
   name: KEGG REST conv list API
   slug: open-kegg-list-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/kegg/refs/heads/main/plans/kegg-rest-api.yml
+  title: ''
+  type: Plans
+  url: plans/kegg-rest-api.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/kegg/refs/heads/main/rate-limits/kegg-rest-api.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/kegg-rest-api.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/kegg/refs/heads/main/finops/overview.yml
+  title: ''
+  type: FinOps
+  url: finops/overview.yml
 - group: company
   title: ''
   type: Website
@@ -125,16 +140,20 @@ common:
 created: '2026-06-13'
 description: The Kyoto Encyclopedia of Genes and Genomes (KEGG) is an integrated database resource for understanding high-level functions and utilities of biological systems from molecular-level information derived from genome sequencing and other high-throughput experiments. The KEGG REST API at rest.kegg.jp provides programmatic access to KEGG databases covering biological pathways, metabolic networks, molecular interactions, drug targets, disease associations, chemical compounds, genomic sequences, and functional orthologs across thousands of organisms. The API exposes seven core operations — info, list, find, get, conv, link, and ddi — enabling identifier conversion, cross-database linking, keyword and structure searches, and full entry retrieval in text, KGML, and JSON formats. Academic use is free via the REST API; FTP and commercial access require subscriptions managed through NPO Bioinformatics Japan and Pathway Solutions.
 finops:
-- name: Overview
+- has_sources: false
+  method: generated
+  name: Overview
+  primary_unit: ''
   service_category: ''
   slug: overview
+  template: true
 image: https://www.kegg.jp/favicon.ico
 layout: provider
 modified: '2026-09-16'
 name: Kyoto Encyclopedia of Genes and Genomes (KEGG)
 nav: Providers
 network: true
-overview: Kyoto Encyclopedia of Genes and Genomes (KEGG) publishes 8 APIs on the [APIs.io](https://apis.io/) network, including conv API, ddi API, Find API, and 5 more. Tagged areas include Bioinformatics, Genomics, Life Sciences, Pathways, and Metabolomics.
+overview: Kyoto Encyclopedia of Genes and Genomes (KEGG) publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including conv API, ddi API, Find API, and 5 more. Tagged areas include Bioinformatics, Genomics, Life Sciences, Pathways, and Metabolomics.
 plans:
 - name: Kegg Rest Api
   plan_count: 4
@@ -145,23 +164,23 @@ rate_limits:
   name: Kegg Rest Api
   slug: kegg-rest-api
 score:
-  band: thin
-  composite: 32.4
+  band: emerging
+  composite: 25.0
   coverage:
     artifact_dirs: 11
-    catalog_earned: 58.0
+    catalog_earned: 42.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.0
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.4
   facets:
-    access_clarity: 46.8
+    access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 48.4
     developer_ergonomics: 9.5
     discoverability: 73.2
-    operational_transparency: 18.9
+    operational_transparency: 5.3
   previous_composite: 32.4
   provenance:
     agentic_access: derived
@@ -176,9 +195,9 @@ score:
     regime: Health
     regime_id: health
     score: 7.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

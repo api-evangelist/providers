@@ -27,20 +27,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 22
+- acting_count: 20
   human_in_the_loop: 0
   name: National Archives And Records Administration Agentic Access
   operation_count: 64
   slug: national-archives-and-records-administration-agentic-access
-  summary_line: 64 operations · 22 acting
+  summary_line: 64 operations · 20 acting
 api_count: 1
 apis:
 - baseURL: https://catalog.archives.gov/api/v2/
@@ -180,6 +180,25 @@ collections:
   name: NextGen Catalog API
   slug: open-national-archives-and-records-administration
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/national-archives-and-records-administration/refs/heads/main/plans/national-archives-and-records-administration-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/national-archives-and-records-administration-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/national-archives-and-records-administration/refs/heads/main/rate-limits/national-archives-and-records-administration-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/national-archives-and-records-administration-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/national-archives-and-records-administration/refs/heads/main/finops/national-archives-and-records-administration-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/national-archives-and-records-administration-finops.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.archives.gov/rss.xml
 - group: operate
   title: ''
   type: IssueTracker
@@ -209,19 +228,23 @@ common:
 created: '2024-12-03'
 description: The National Archives Catalog API is a read-write web API for the National Archives Catalog. This API can be used to perform fielded search of archival metadata, bulk export of metadata and digital media, and post contributions to records.
 finops:
-- name: National Archives And Records Administration Finops
+- has_sources: false
+  method: generated
+  name: National Archives And Records Administration Finops
+  primary_unit: ''
   service_category: API
   slug: national-archives-and-records-administration-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/national-archives-and-records-administration.png
 layout: provider
-modified: '2026-05-19'
+modified: '2026-10-06'
 name: National Archives and Records Administration
 nav: Providers
 network: true
-overview: 'National Archives and Records Administration publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Announcements API, Comments API, and 13 more. Tagged areas include Archives, Federal Government, Records, and Catalog.
+overview: 'National Archives and Records Administration publishes 16 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, Announcements API, Comments API, and 13 more. Tagged areas include Archives, Federal Government, Records, and Catalog.
 
 
-  National Archives and Records Administration''s developer surface includes developer portal and 5 more developer resources.'
+  National Archives and Records Administration''s developer surface includes developer portal and 9 more developer resources.'
 plans:
 - name: National Archives And Records Administration Plans Pricing
   plan_count: 3
@@ -232,18 +255,18 @@ rate_limits:
   name: National Archives And Records Administration Rate Limits
   slug: national-archives-and-records-administration-rate-limits
 score:
-  band: thin
-  composite: 26.9
+  band: emerging
+  composite: 25.3
   coverage:
     artifact_dirs: 10
-    catalog_earned: 41.0
+    catalog_earned: 38.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 45.4
     developer_ergonomics: 19.0
@@ -268,8 +291,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

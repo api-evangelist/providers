@@ -37,14 +37,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 7
+- acting_count: 6
   human_in_the_loop: 0
   name: Human Api Agentic Access
   operation_count: 15
   slug: human-api-agentic-access
-  summary_line: 15 operations · 7 acting
+  summary_line: 15 operations · 6 acting
 api_count: 15
 apis:
 - description: The consumer-mediated Data API (legacy v2.1) for querying a user's normalized health data - wellness data from wearable devices and apps, and medical data (records, labs, medications, encounters) from
@@ -346,7 +346,7 @@ modified: '2026-08-15'
 name: Human API
 nav: Providers
 network: true
-overview: 'Human API publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Connect API, Orders API, and 5 more. Tagged areas include Healthcare, United States, Health Data, EHR, and Interoperability.
+overview: 'Human API publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Admin API, Connect API, Orders API, and 5 more. Tagged areas include Healthcare, United States, Health Data, Electronic Health Records, and Interoperability.
 
 
   The Human API catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -366,7 +366,7 @@ score:
   band: developing
   composite: 51.7
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -408,8 +408,8 @@ score:
     regime: Health
     regime_id: health
     score: 36.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -429,7 +429,7 @@ tags:
 - Healthcare
 - United States
 - Health Data
-- EHR
+- Electronic Health Records
 - Interoperability
 - Remote Monitoring
 - Wearables

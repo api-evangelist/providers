@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.6
-  scored_at: '2026-10-04'
+  score: 28.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -117,6 +117,21 @@ collections:
   name: Apache Atlas REST Discovery Types API
   slug: open-apache-atlas-types-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/apache-atlas/refs/heads/main/plans/apache-atlas-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/apache-atlas-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/apache-atlas/refs/heads/main/rate-limits/apache-atlas-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/apache-atlas-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/apache-atlas/refs/heads/main/finops/apache-atlas-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/apache-atlas-finops.yml
 - group: company
   title: ''
   type: Website
@@ -249,9 +264,13 @@ features:
 - description: Extensible type system for defining custom entity types, classification types, and relationship types.
   name: Type System
 finops:
-- name: Apache Atlas Finops
+- has_sources: false
+  method: generated
+  name: Apache Atlas Finops
+  primary_unit: ''
   service_category: API
   slug: apache-atlas-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/apache-atlas.png
 integrations:
 - description: Native Hive hook for automatic metadata harvesting of Hive databases, tables, and query lineage.
@@ -346,13 +365,13 @@ modified: '2026-05-19'
 name: Apache Atlas
 nav: Providers
 network: true
-overview: 'Apache Atlas publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Discovery API, Entities API, Glossary API, and 3 more. Tagged areas include Apache, Big Data, Compliance, Data Governance, and Data Lineage.
+overview: 'Apache Atlas is listed with 6 APIs on the [APIs.io](https://apis.io/) network, including Discovery API, Entities API, Glossary API, and 3 more. Tagged areas include Apache, Big Data, Compliance, Data Governance, and Data Lineage.
 
 
   The Apache Atlas catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Apache Atlas'' developer surface includes authentication, documentation, getting-started guide, support, changelog, and 12 more developer resources.'
+  Apache Atlas'' developer surface includes authentication, documentation, getting-started guide, support, changelog, and 15 more developer resources.'
 plans:
 - name: Apache Atlas Plans Pricing
   plan_count: 3
@@ -363,9 +382,10 @@ rate_limits:
   name: Apache Atlas Rate Limits
   slug: apache-atlas-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Apache Atlas API Rules
+  name: Apache Atlas — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -373,7 +393,8 @@ rules:
     info: 2
     warn: 3
   slug: apache-atlas-jsonschema-spectral-rules
-- effective_rule_count: 61
+- authorship: generated
+  effective_rule_count: 61
   extends:
   - spectral:oas
   name: Apache Atlas API Rules
@@ -386,17 +407,17 @@ rules:
   slug: apache-atlas-spectral-rules
 score:
   band: thin
-  composite: 31.2
+  composite: 29.7
   coverage:
     artifact_dirs: 17
-    catalog_earned: 64.0
+    catalog_earned: 61.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 51.0
+    catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 26.3
+    access_clarity: 18.4
     contract_governance: 27.3
     contract_quality: 21.2
     developer_ergonomics: 22.6
@@ -416,8 +437,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 0
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.lolli.com/rss/
 - group: company
   title: ''
   type: Website
@@ -64,26 +68,26 @@ created: '2026-07-17'
 description: Lolli is a bitcoin and cash-back rewards company founded in 2018 by CEO Alex Adelman, on a mission to make bitcoin accessible to everyone. Through a browser extension, website, and mobile app, Lolli gives shoppers a percentage of their purchase back in bitcoin or cash when they shop online and in-store at 25,000+ merchants including Adidas, Microsoft, Ulta, and Kroger. Merchants pay Lolli for driving sales, and Lolli shares that commission with users as rewards paid into their Lolli wallet. The company reports having distributed over $10 million in bitcoin rewards and onboarded thousands of people into bitcoin for the first time. Lolli is a consumer product; it does not currently publish a public developer API, SDKs, or API documentation. It was surfaced as a portfolio company of version-one-ventures and added to the API Evangelist network.
 image: https://lolli.com/images/og.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Lolli
 nav: Providers
 network: true
-overview: 'Lolli is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto, Bitcoin, Rewards, and Cashback.
+overview: 'Lolli is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cryptocurrency, Bitcoin, Rewards, and Cashback.
 
 
-  Lolli''s developer surface includes engineering blog, support, and 4 more developer resources.'
+  Lolli''s developer surface includes engineering blog, support, and 5 more developer resources.'
 random_paper: 12
 score:
   band: minimal
-  composite: 9.6
+  composite: 9.7
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
@@ -104,8 +108,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 7.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -115,7 +119,7 @@ screenshot: https://raw.githubusercontent.com/api-evangelist/lolli/refs/heads/ma
 slug: lolli
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Bitcoin
 - Rewards
 - Cashback

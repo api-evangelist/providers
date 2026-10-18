@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 1
@@ -188,16 +188,20 @@ common:
 created: '2026-07-05'
 description: Ambra Health (now part of Intelerad Medical Systems, and rebranded as InteleShare) is a cloud-based medical image management, exchange, and interoperability platform - a cloud VNA and PACS that lets healthcare providers, patients, and researchers store, view, route, and share diagnostic imaging in real time without a VPN or CD. Its imaging data is DICOM, and its v3 Services Public API (historically the DICOM Grid API) exposes programmatic control over studies, patients, users, groups, accounts, namespaces, sharing, storage/images, and webhooks. The REST API is JSON over HTTPS and is authenticated with a session id (sid) obtained from /session/login. Intelerad acquired Ambra Health in 2021 to form a $1.7B cloud PACS and enterprise-imaging leader.
 finops:
-- name: Ambra Health Finops
+- has_sources: true
+  method: generated
+  name: Ambra Health Finops
+  primary_unit: ''
   service_category: Healthcare Medical Imaging Platform
   slug: ambra-health-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ambra-health.png
 layout: provider
 modified: '2026-07-05'
 name: Ambra Health
 nav: Providers
 network: true
-overview: 'Ambra Health publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Groups API, Namespaces API, and 7 more. Tagged areas include Medical Imaging, DICOM, Healthcare, PACS, and Image Exchange.
+overview: 'Ambra Health publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, Groups API, Namespaces API, and 7 more. Tagged areas include Medical Imaging, DICOM, Healthcare, PACS, and Image Exchange.
 
 
   Ambra Health''s developer surface includes authentication, documentation, and 9 more developer resources.'
@@ -211,23 +215,23 @@ rate_limits:
   name: Ambra Health Rate Limits
   slug: ambra-health-rate-limits
 score:
-  band: thin
-  composite: 33.8
+  band: emerging
+  composite: 25.5
   coverage:
     artifact_dirs: 11
-    catalog_earned: 61.6
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.4
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 44.4
     developer_ergonomics: 29.8
     discoverability: 66.1
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   previous_composite: 33.8
   provenance:
     agentic_access: derived
@@ -242,9 +246,9 @@ score:
     regime: Health
     regime_id: health
     score: 9.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

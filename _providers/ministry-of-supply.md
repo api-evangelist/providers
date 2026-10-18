@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: The store's Universal Commerce Protocol service, exposed over MCP at /api/ucp/mcp. An anonymous tools/list returns thirteen tools covering catalog search and lookup, product detail, cart create / read
@@ -47,6 +47,10 @@ apis:
   slug: ministry-of-supply-storefront-json
 artifact_total: 8
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.ministryofsupply.com/blogs/news.atom
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/ministry-of-supply/refs/heads/main/security/ministry-of-supply-domain-security.yml
   title: ''
@@ -163,14 +167,14 @@ mcp_servers:
 - description: Remote MCP server at www.ministryofsupply.com over HTTP; 13 tools listed.
   name: Ministry of Supply MCP Server
   slug: ministry-of-supply-ucp
-modified: '2026-08-25'
+modified: '2026-10-06'
 name: Ministry of Supply
 nav: Providers
 network: true
-overview: 'Ministry of Supply publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Apparel, Retail, E-Commerce, and Direct to Consumer.
+overview: 'Ministry of Supply is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Apparel, Retail, E-Commerce, and Direct to Consumer.
 
 
-  Ministry of Supply''s developer surface includes documentation, authentication, support, engineering blog, and 19 more developer resources.'
+  Ministry of Supply''s developer surface includes documentation, authentication, support, engineering blog, and 20 more developer resources.'
 plans:
 - name: Ministry Of Supply Plans Pricing
   plan_count: 0
@@ -189,7 +193,7 @@ score:
   band: thin
   composite: 27.1
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 40.0
     catalog_earned_first_party: 8.0
     catalog_gap: 75.0
@@ -221,8 +225,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

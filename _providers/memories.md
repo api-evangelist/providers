@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 27
+- acting_count: 20
   human_in_the_loop: 1
   name: Memories Agentic Access
   operation_count: 34
   slug: memories-agentic-access
-  summary_line: 34 operations · 27 acting · 1 human-in-the-loop
+  summary_line: 34 operations · 20 acting · 1 human-in-the-loop
 api_count: 2
 apis:
 - baseURL: https://api.memories.ai
@@ -60,7 +60,7 @@ apis:
   description: The Understand API from Memories — 2 operation(s) for understand.
   name: Memories Understand API
   slug: memories-understand-api
-artifact_total: 13
+artifact_total: 14
 asyncapis:
 - description: ''
   name: Memories Webhooks
@@ -79,6 +79,15 @@ collections:
   name: Memories Platform API (Docs Mapping) Serve Understand API
   slug: open-memories-understand-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/memories/refs/heads/main/plans/memories-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/memories-plans-pricing.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://memories.ai/blogs
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/memories/refs/heads/main/security/memories-trust-center.yml
   title: ''
@@ -209,17 +218,21 @@ created: '2026-07-17'
 description: 'Memories.ai (MAVI) is a video-intelligence platform that turns raw video into searchable, agent-ready understanding. It ships three products on a shared video-understanding stack: Visual Intelligence (stateless REST APIs for transcription, captioning, frame description, embeddings, social-media scraping, and real-time audio/video stream moderation via VLMs such as Gemini, Nova, and Qwen), Visual Search (an auto-indexed private and public video/image library searchable by text, image, or transcript), and Visual Agents (pre-built workflows for video search, AI video editing, and screenplay extraction). The platform authenticates with sk-mavi- API keys, bills on a unified per-endpoint credit model, and is HIPAA, SOC 2 Type 2, and GDPR compliant. It is a Seedcamp portfolio company.'
 image: https://mintcdn.com/memories/xyhRN3OJaXxxzcxh/logo/logo.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Memories
 nav: Providers
 network: true
-overview: 'Memories publishes 3 APIs on the [APIs.io](https://apis.io/) network: Serve API, Stream Understanding API, and Understand API. Tagged areas include Company, Video Intelligence, Video Understanding, Video Search, and Transcription.
+overview: 'Memories publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Serve API, Stream Understanding API, and Understand API. Tagged areas include Company, Video Intelligence, Video Understanding, Video Search, and Transcription.
 
 
   The Memories catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Memories'' developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, authentication, CLI, and 20 more developer resources.'
+  Memories'' developer surface includes engineering blog, documentation, API reference, getting-started guide, signup flow, pricing, authentication, and 22 more developer resources.'
+plans:
+- name: Memories Plans Pricing
+  plan_count: 15
+  slug: memories-plans-pricing
 random_paper: 7
 rate_limits:
 - limit_count: 4
@@ -227,20 +240,20 @@ rate_limits:
   slug: memories-rate-limits
 score:
   band: developing
-  composite: 44.9
+  composite: 51.3
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 49.0
-    catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    artifact_dirs: 23
+    catalog_earned: 61.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.4
   facets:
-    access_clarity: 26.3
+    access_clarity: 57.9
     contract_governance: 18.2
     contract_quality: 55.0
-    developer_ergonomics: 54.8
+    developer_ergonomics: 57.1
     discoverability: 73.2
     operational_transparency: 42.1
   previous_composite: 44.9
@@ -262,13 +275,13 @@ score:
     - jurisdiction: US
       standard: hipaa
     jurisdictions_satisfied: 2
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 20.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

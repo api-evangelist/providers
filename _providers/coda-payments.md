@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 4
 apis:
 - description: Initiate a payment request, redirect the shopper to Coda's hosted payment page, receive the transaction completion notification, and check transaction status. Available as v1.0 (API key per title/coun
@@ -218,7 +218,7 @@ modified: '2026-08-04'
 name: Coda Payments
 nav: Providers
 network: true
-overview: 'Coda Payments publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Merchant of Record, Gaming, and Digital Goods.
+overview: 'Coda Payments is listed with 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Merchant of Record, Gaming, and Digital Goods.
 
 
   The Coda Payments catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -266,8 +266,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 37.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: VistaCenter, VitalConnect's cloud clinician application, transmits events to third-party application servers by POSTing to a subscriber-supplied Target URL. Event classes are patient notifications, ne
@@ -131,7 +131,7 @@ modified: '2026-09-04'
 name: VitalConnect
 nav: Providers
 network: true
-overview: 'VitalConnect publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Health, Healthcare, Medical Devices, Remote Patient Monitoring, and Cardiac Monitoring.
+overview: 'VitalConnect is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Health, Healthcare, Medical Devices, Remote Patient Monitoring, and Cardiac Monitoring.
 
 
   The VitalConnect catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -151,7 +151,7 @@ score:
   band: emerging
   composite: 26.0
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -172,13 +172,14 @@ score:
     regime: Health
     regime_id: health
     score: 14.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/vitalconnect/refs/heads/main/screenshots/vitalconnect-2026-10-11T133048.png
 security:
 - kind: domain-security
   name: Vitalconnect Domain Security

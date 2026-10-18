@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: verified
     openapi_examples: false
     protected_resource_metadata: documented
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.4
-  scored_at: '2026-10-04'
+  score: 26.5
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'The official public API for the Manifest Cyber platform v1. Used by Manifest''s frontend apps and internal ETL processes to access SBOM data, vulnerability analysis, and software supply chain security '
@@ -93,6 +93,21 @@ collections:
   name: Manifest Cyber Vulnerabilities API
   slug: open-manifest-cyber-vulnerabilities-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/manifest-cyber/refs/heads/main/plans/manifest-cyber-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/manifest-cyber-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/manifest-cyber/refs/heads/main/rate-limits/manifest-cyber-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/manifest-cyber-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/manifest-cyber/refs/heads/main/finops/manifest-cyber-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/manifest-cyber-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/manifest-cyber/refs/heads/main/capabilities/manifest-cyber-capability-edges.yml
   title: ''
@@ -127,9 +142,13 @@ common:
 created: '2025-02-12'
 description: Manifest Cyber provides a cybersecurity platform with an official public API for accessing software bill of materials (SBOM) data, vulnerability analysis, and supply chain security information used by Manifest's frontend apps and internal ETL pipelines.
 finops:
-- name: Manifest Cyber Finops
+- has_sources: false
+  method: generated
+  name: Manifest Cyber Finops
+  primary_unit: ''
   service_category: API
   slug: manifest-cyber-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/manifest-cyber.png
 layout: provider
 mcp_servers:
@@ -140,10 +159,10 @@ modified: '2026-04-28'
 name: Manifest Cyber
 nav: Providers
 network: true
-overview: 'Manifest Cyber publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Assets API, Organizations API, Products API, and 4 more. Tagged areas include Cybersecurity, SBOM, Supply Chain Security, and Vulnerability Management.
+overview: 'Manifest Cyber publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Assets API, Organizations API, Products API, and 4 more. Tagged areas include Cybersecurity, SBOM, Supply Chain Security, and Vulnerability Management.
 
 
-  Manifest Cyber''s developer surface includes engineering blog and 6 more developer resources.'
+  Manifest Cyber''s developer surface includes engineering blog and 9 more developer resources.'
 plans:
 - name: Manifest Cyber Plans Pricing
   plan_count: 3
@@ -154,18 +173,18 @@ rate_limits:
   name: Manifest Cyber Rate Limits
   slug: manifest-cyber-rate-limits
 score:
-  band: thin
-  composite: 26.6
+  band: emerging
+  composite: 25.1
   coverage:
     artifact_dirs: 12
-    catalog_earned: 41.0
+    catalog_earned: 38.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 23.7
+    access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 45.3
     developer_ergonomics: 11.9
@@ -185,8 +204,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

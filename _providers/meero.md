@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 41.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://api.car-cutter.com
@@ -63,6 +63,10 @@ apis:
   slug: meero-vehicle-api
 artifact_total: 10
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.carcutter.com/feed/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/meero/refs/heads/main/overlays/meero-carcutter-overlay.yaml
   title: ''
@@ -223,14 +227,14 @@ mcp_servers:
 - description: Remote MCP server at www.carcutter.com requiring OAuth.
   name: CarCutter MCP Server
   slug: carcutter-mcp-server
-modified: '2026-08-25'
+modified: '2026-10-06'
 name: Meero
 nav: Providers
 network: true
-overview: 'Meero publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Asynchronous API, Feature API, Synchronous API, and 1 more. Tagged areas include Automotive, Image, Artificial Intelligence, Computer Vision, and Photography.
+overview: 'Meero publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Asynchronous API, Feature API, Synchronous API, and 1 more. Tagged areas include Automotive, Image, Artificial Intelligence, Computer Vision, and Photography.
 
 
-  Meero''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 26 more developer resources.'
+  Meero''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 27 more developer resources.'
 plans:
 - name: Meero Plans Pricing
   plan_count: 0
@@ -247,15 +251,15 @@ scopes:
   summary_line: 1 scope
 score:
   band: developing
-  composite: 42.4
+  composite: 42.5
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 6.6
     contract_governance: 4.5
@@ -279,8 +283,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

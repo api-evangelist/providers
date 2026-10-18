@@ -33,10 +33,19 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
-artifact_total: 5
+artifact_total: 6
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/codspeed/refs/heads/main/plans/codspeed-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/codspeed-plans-pricing.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://codspeed.io/blog/feed/rss.xml
 - group: company
   title: ''
   type: Website
@@ -172,28 +181,32 @@ mcp_servers:
 - description: Hosted, remote MCP server that gives AI-powered coding tools direct access to CodSpeed performance data (benchmark runs, comparisons, flamegraphs) so agents can investigate regressions and optimize co
   name: CodSpeed MCP Server
   slug: codspeed
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: CodSpeed
 nav: Providers
 network: true
 overview: 'CodSpeed is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Performance, Benchmarking, Continuous Integration, and Developer Tools.
 
 
-  CodSpeed''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 22 more developer resources.'
+  CodSpeed''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 24 more developer resources.'
+plans:
+- name: Codspeed Plans Pricing
+  plan_count: 3
+  slug: codspeed-plans-pricing
 random_paper: 3
 score:
-  band: thin
-  composite: 35.5
+  band: developing
+  composite: 41.9
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 27.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 88.0
+    artifact_dirs: 15
+    catalog_earned: 39.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.4
   facets:
-    access_clarity: 44.7
+    access_clarity: 76.3
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 64.3
@@ -210,9 +223,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 28.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

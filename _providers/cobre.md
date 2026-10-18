@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://api.cobre.co
@@ -171,7 +171,7 @@ modified: '2026-07-18'
 name: Cobre
 nav: Providers
 network: true
-overview: 'Cobre publishes 1 API on the [APIs.io](https://apis.io/) network: Platform API. Tagged areas include Company, Fintech, Payments, Treasury, and Money Movement.
+overview: 'Cobre is listed with 1 API on the [APIs.io](https://apis.io/) network: Platform API. Tagged areas include Company, Fintech, Payments, Treasury, and Money Movement.
 
 
   The Cobre catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
@@ -187,7 +187,7 @@ score:
   band: developing
   composite: 39.3
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
@@ -219,8 +219,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 17.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -244,7 +244,7 @@ tags:
 - Treasury
 - Money Movement
 - Cross-Border Payments
-- FX
+- Foreign Exchange
 - Stablecoins
 - Banking
 - Latin America

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 44.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -104,6 +104,16 @@ collections:
   name: Mapbox Tiling Service API
   slug: open-mapbox
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/mapbox/refs/heads/main/plans/mapbox-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/mapbox-plans-pricing.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/mapbox/refs/heads/main/finops/mapbox-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/mapbox-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/mapbox/refs/heads/main/agentic-access/mapbox-agentic-access.yml
   title: ''
@@ -230,9 +240,13 @@ features:
 - Tilequery API for spatial point-in-polygon queries
 - Map Matching API to snap GPS traces to road networks
 finops:
-- name: Mapbox Finops
+- has_sources: true
+  method: generated
+  name: Mapbox Finops
+  primary_unit: ''
   service_category: Location Services
   slug: mapbox-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mapbox.png
 layout: provider
 mcp_servers:
@@ -243,10 +257,10 @@ modified: '2026-09-16'
 name: Mapbox
 nav: Providers
 network: true
-overview: 'Mapbox publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Activity API, Tiling Service API, Tilesets API, and 9 more. Tagged areas include Mapping, Maps, Geospatial, Location, and Geocoding.
+overview: 'Mapbox is listed with 12 APIs on the [APIs.io](https://apis.io/) network, including Activity API, Tiling Service API, Tilesets API, and 9 more. Tagged areas include Mapping, Maps, Geospatial, Location, and Geocoding.
 
 
-  Mapbox''s developer surface includes support, authentication, signup flow, privacy policy, getting-started guide, engineering blog, and 20 more developer resources.'
+  Mapbox''s developer surface includes support, authentication, signup flow, privacy policy, getting-started guide, engineering blog, and 22 more developer resources.'
 plans:
 - name: Mapbox Plans Pricing
   plan_count: 8
@@ -258,17 +272,17 @@ rate_limits:
   slug: mapbox-rate-limits
 score:
   band: developing
-  composite: 42.8
+  composite: 41.3
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 49.0
+    artifact_dirs: 15
+    catalog_earned: 46.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 66.0
+    catalog_gap: 69.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 51.3
+    access_clarity: 43.4
     contract_governance: 0.0
     contract_quality: 38.6
     developer_ergonomics: 47.6
@@ -289,8 +303,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

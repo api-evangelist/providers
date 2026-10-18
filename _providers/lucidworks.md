@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -160,6 +160,25 @@ collections:
   name: Lucidworks AI Platform Chunking Tokenization API
   slug: open-lucidworks-tokenization-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/lucidworks/refs/heads/main/plans/lucidworks-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/lucidworks-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/lucidworks/refs/heads/main/rate-limits/lucidworks-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/lucidworks-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/lucidworks/refs/heads/main/finops/lucidworks-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/lucidworks-finops.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://lucidworks.com/blog/feed
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/lucidworks/refs/heads/main/capabilities/lucidworks-capability-edges.yml
   title: ''
@@ -224,9 +243,13 @@ common:
 created: '2025-01-07'
 description: Lucidworks builds AI-powered search, discovery, and agent platforms used by enterprise commerce, support, and workplace teams. The Lucidworks AI Platform, Fusion, Neural Hybrid Search, Agent Studio, Commerce Studio, and Analytics Studio expose REST APIs for prediction, embedding, classification, signals capture, query rewriting, custom rule management, content chunking, and model deployment.
 finops:
-- name: Lucidworks Finops
+- has_sources: true
+  method: generated
+  name: Lucidworks Finops
+  primary_unit: ''
   service_category: Enterprise Search
   slug: lucidworks-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lucidworks.png
 json_schemas:
 - name: ChunkAck
@@ -288,17 +311,17 @@ json_structures:
   property_count: 0
   slug: lucidworks-structure
 layout: provider
-modified: '2026-05-19'
+modified: '2026-10-06'
 name: Lucidworks
 nav: Providers
 network: true
-overview: 'Lucidworks publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Chunking API, Classification API, Deployments API, and 9 more. Tagged areas include Search, Artificial Intelligence, Enterprise Search, Vector Search, and RAG.
+overview: 'Lucidworks publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including Chunking API, Classification API, Deployments API, and 9 more. Tagged areas include Search, Artificial Intelligence, Enterprise Search, Vector Search, and RAG.
 
 
   The Lucidworks catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Lucidworks'' developer surface includes authentication, documentation, API reference, engineering blog, and 10 more developer resources.'
+  Lucidworks'' developer surface includes authentication, documentation, API reference, engineering blog, and 14 more developer resources.'
 plans:
 - name: Lucidworks Plans Pricing
   plan_count: 1
@@ -309,9 +332,10 @@ rate_limits:
   name: Lucidworks Rate Limits
   slug: lucidworks-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Lucidworks API Rules
+  name: Lucidworks — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -321,17 +345,17 @@ rules:
   slug: lucidworks-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 31.9
+  composite: 30.4
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 45.3
+    artifact_dirs: 18
+    catalog_earned: 42.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 69.8
+    catalog_gap: 72.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 21.1
+    access_clarity: 13.2
     contract_governance: 9.8
     contract_quality: 46.5
     developer_ergonomics: 38.1
@@ -351,8 +375,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

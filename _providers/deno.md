@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.5
-  scored_at: '2026-10-04'
+  score: 19.6
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 1
@@ -133,6 +133,21 @@ collections:
   name: Deno Subhosting API
   slug: open-deno-subhosting-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/deno/refs/heads/main/plans/deno-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/deno-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/deno/refs/heads/main/rate-limits/deno-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/deno-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/deno/refs/heads/main/finops/deno-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/deno-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/deno/refs/heads/main/capabilities/deno-capability-edges.yml
   title: ''
@@ -218,9 +233,13 @@ common:
 created: '2026-03-21'
 description: Deno is a modern JavaScript and TypeScript runtime built on V8 that emphasizes security, simplicity, and developer productivity. It provides a comprehensive developer platform including the Deno Deploy serverless edge network, a built-in key-value store, and a standard library of audited modules, all designed to run TypeScript natively without additional tooling.
 finops:
-- name: Deno Finops
+- has_sources: true
+  method: generated
+  name: Deno Finops
+  primary_unit: ''
   service_category: Edge Compute / Serverless Runtime
   slug: deno-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/deno.png
 json_schemas:
 - name: Deno Deployment
@@ -239,13 +258,13 @@ modified: '2026-05-19'
 name: Deno
 nav: Providers
 network: true
-overview: 'Deno publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Apps API, Deployments API, Domains API, and 8 more. Tagged areas include Deployment, Edge, JavaScript, Runtime, and Serverless.
+overview: 'Deno publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Apps API, Deployments API, Domains API, and 8 more. Tagged areas include Deployment, Edge, JavaScript, Runtime, and Serverless.
 
 
   The Deno catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Deno''s developer surface includes authentication, developer portal, documentation, engineering blog, and 14 more developer resources.'
+  Deno''s developer surface includes authentication, developer portal, documentation, engineering blog, and 17 more developer resources.'
 plans:
 - name: Deno Plans Pricing
   plan_count: 4
@@ -256,9 +275,10 @@ rate_limits:
   name: Deno Rate Limits
   slug: deno-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: Deno API Rules
+  name: Deno — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -266,7 +286,8 @@ rules:
     info: 2
     warn: 4
   slug: deno-jsonschema-spectral-rules
-- effective_rule_count: 46
+- authorship: unmarked
+  effective_rule_count: 46
   extends:
   - spectral:oas
   name: Deno API Rules
@@ -278,18 +299,18 @@ rules:
     warn: 3
   slug: deno-rules
 score:
-  band: developing
-  composite: 39.8
+  band: thin
+  composite: 38.3
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 68.4
+    artifact_dirs: 18
+    catalog_earned: 65.4
     catalog_earned_first_party: 0.0
-    catalog_gap: 46.6
+    catalog_gap: 49.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 22.4
+    access_clarity: 14.5
     contract_governance: 27.3
     contract_quality: 63.3
     developer_ergonomics: 33.3
@@ -309,8 +330,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

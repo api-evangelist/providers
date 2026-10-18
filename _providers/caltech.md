@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.8
-  scored_at: '2026-10-04'
+  score: 21.6
+  scored_at: '2026-10-17'
 api_count: 4
 apis:
 - description: OAI-PMH 2.0 metadata harvesting endpoint for CaltechDATA. Verified live 2026-08-19 via the Identify verb (repositoryName CaltechDATA, protocolVersion 2.0) and via ListMetadataFormats, which advertises
@@ -233,9 +233,13 @@ examples:
   name: Caltech Caltechdata Record Example
   slug: caltech-caltechdata-record-example
 finops:
-- name: Caltech Finops
+- has_sources: true
+  method: generated
+  name: Caltech Finops
+  primary_unit: ''
   service_category: Education
   slug: caltech-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/caltech.png
 json_schemas:
 - name: CaltechDATA Record
@@ -254,7 +258,7 @@ modified: '2026-09-16'
 name: California Institute of Technology
 nav: Providers
 network: true
-overview: 'California Institute of Technology publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Data Select API, Event API, Records API, and 10 more. Tagged areas include University, Higher Education, Education, Private Research University, and Institute of Technology.
+overview: 'California Institute of Technology publishes 13 API contracts indexed on the [APIs.io](https://apis.io/) network, including Data Select API, Event API, Records API, and 10 more. Tagged areas include University, Higher Education, Education, Private Research University, and Institute of Technology.
 
 
   The California Institute of Technology catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -271,7 +275,8 @@ rate_limits:
   name: Caltech Rate Limits
   slug: caltech-rate-limits
 rules:
-- effective_rule_count: 0
+- authorship: derived
+  effective_rule_count: 0
   extends: []
   name: California Institute of Technology API Rules
   rule_count: 0
@@ -282,23 +287,23 @@ rules:
     warn: 0
   slug: caltech-rules
 score:
-  band: thin
-  composite: 29.6
+  band: emerging
+  composite: 22.9
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 67.1
+    artifact_dirs: 18
+    catalog_earned: 49.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 47.9
+    catalog_gap: 65.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -2.5
+  delta: -6.7
   facets:
-    access_clarity: 37.4
+    access_clarity: 15.8
     contract_governance: 3.8
-    contract_quality: 26.5
+    contract_quality: 23.9
     developer_ergonomics: 28.6
     discoverability: 62.5
-    operational_transparency: 21.6
+    operational_transparency: 7.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -306,7 +311,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 32.1
+  previous_composite: 29.6
   provenance:
     conformance: first-party
     contracts:
@@ -320,9 +325,9 @@ score:
     regime: Education & Research
     regime_id: education
     score: 20.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

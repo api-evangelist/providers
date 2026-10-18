@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 56.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -59,6 +59,10 @@ collections:
   name: Sitefire Book-a-Demo Book Demo API
   slug: open-sitefire-book-demo-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://sitefire.ai/feed.xml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/sitefire/refs/heads/main/agentic-access/sitefire-agentic-access.yml
   title: ''
@@ -205,14 +209,14 @@ mcp_servers:
 - description: Remote MCP server at app.sitefire.ai over HTTP requiring OAuth; 10 tools listed.
   name: Sitefire MCP (Spark)
   slug: sitefire
-modified: '2026-08-13'
+modified: '2026-10-06'
 name: Sitefire
 nav: Providers
 network: true
-overview: 'Sitefire publishes 1 API on the [APIs.io](https://apis.io/) network: Book Demo API. Tagged areas include Company, Generative Engine Optimization, AI Visibility, Marketing, and SEO.
+overview: 'Sitefire publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Book Demo API. Tagged areas include Company, Generative Engine Optimization, AI Visibility, Marketing, and SEO.
 
 
-  Sitefire''s developer surface includes changelog, documentation, quickstart, engineering blog, pricing, signup flow, support, and 23 more developer resources.'
+  Sitefire''s developer surface includes changelog, documentation, quickstart, engineering blog, pricing, signup flow, support, and 24 more developer resources.'
 plans:
 - name: Sitefire Plans Pricing
   plan_count: 3
@@ -262,8 +266,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 36.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

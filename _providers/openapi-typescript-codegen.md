@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The openapi CLI and Node.js library. Consumes an OpenAPI 2.0 or 3.0 specification and writes a typed TypeScript client (models, services, and core runtime) for fetch, node-fetch, XHR, Axios, or Angula
@@ -42,6 +42,20 @@ apis:
   slug: openapi-typescript-codegen
 artifact_total: 4
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/openapi-typescript-codegen/refs/heads/main/rate-limits/openapi-typescript-codegen-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/openapi-typescript-codegen-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/openapi-typescript-codegen/refs/heads/main/finops/openapi-typescript-codegen-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/openapi-typescript-codegen-finops.yml
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://github.com/ferdikoomen/openapi-typescript-codegen/blob/main/LICENSE
 - group: operate
   title: ''
   type: Releases
@@ -142,19 +156,23 @@ coverage:
 created: '2026-03-27'
 description: 'OpenAPI TypeScript Codegen is an MIT-licensed Node.js library and CLI by Ferdi Koomen that reads an OpenAPI 2.0 or 3.0 specification — JSON or YAML, from a path, URL, or string — and generates a lightweight, fully typed TypeScript client. It emits models, services, and core runtime files for one of five HTTP clients (fetch, node-fetch, XHR, Axios, or Angular), and supports cancelable promises, union types instead of enums, runtime schemas, custom request files, and external $ref resolution. It is a build-time developer tool, not a hosted service: there is no API to call, no key to issue, and no pricing. The maintainer has publicly declared the project unmaintained and asks users to migrate to @hey-api/openapi-ts, yet maintenance releases still shipped in December 2025 and June 2026 and the package records roughly 2.46 million npm downloads a month.'
 finops:
-- name: Openapi Typescript Codegen Finops
+- has_sources: true
+  method: derived
+  name: Openapi Typescript Codegen Finops
+  primary_unit: ''
   service_category: Developer Tools
   slug: openapi-typescript-codegen-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/openapi-typescript-codegen.png
 layout: provider
 modified: '2026-08-06'
 name: OpenAPI TypeScript Codegen
 nav: Providers
 network: true
-overview: 'OpenAPI TypeScript Codegen publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Code Generation, OpenAPI, Swagger, SDK, and TypeScript.
+overview: 'OpenAPI TypeScript Codegen is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Code Generation, OpenAPI, Swagger, SDK, and TypeScript.
 
 
-  OpenAPI TypeScript Codegen''s developer surface includes documentation, getting-started guide, support, changelog, CLI, and 14 more developer resources.'
+  OpenAPI TypeScript Codegen''s developer surface includes pricing, documentation, getting-started guide, support, changelog, CLI, and 16 more developer resources.'
 plans:
 - name: Openapi Typescript Codegen Plans Pricing
   plan_count: 1
@@ -166,17 +184,17 @@ rate_limits:
   slug: openapi-typescript-codegen-rate-limits
 score:
   band: thin
-  composite: 26.9
+  composite: 27.5
   coverage:
     artifact_dirs: 11
-    catalog_earned: 43.0
+    catalog_earned: 40.0
     catalog_earned_first_party: 8.0
-    catalog_gap: 72.0
+    catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
-    access_clarity: 28.9
+    access_clarity: 31.6
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 33.3
@@ -194,8 +212,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 4.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

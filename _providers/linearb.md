@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: verified
     openapi_examples: false
     protected_resource_metadata: verified
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 44.6
-  scored_at: '2026-10-04'
+  score: 42.7
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 14
+- acting_count: 13
   human_in_the_loop: 0
   name: Linearb Agentic Access
   operation_count: 19
   slug: linearb-agentic-access
-  summary_line: 19 operations · 14 acting
+  summary_line: 19 operations · 13 acting
 api_count: 1
 apis:
 - baseURL: https://public-api.linearb.io/api/v1
@@ -94,6 +94,10 @@ collections:
   name: LinearB Public API
   slug: open-linearb
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://linearb.io/blog
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/linearb/refs/heads/main/capabilities/linearb-capability-edges.yml
   title: ''
@@ -153,23 +157,27 @@ common:
 created: '2026-06-21'
 description: LinearB is a software engineering intelligence (SEI) and developer productivity platform that correlates Git, CI/CD, project management, and incident data into DORA and engineering metrics. The LinearB REST API lets teams report deployments, push incidents, export measurements, and manage teams and services programmatically.
 finops:
-- name: Linearb Finops
+- has_sources: true
+  method: generated
+  name: Linearb Finops
+  primary_unit: ''
   service_category: Developer Tools
   slug: linearb-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/linearb.png
 layout: provider
 mcp_servers:
 - description: Remote MCP server at mcp.linearb.io over HTTP.
   name: LinearB MCP Server
   slug: linearb
-modified: '2026-06-21'
+modified: '2026-10-06'
 name: LinearB
 nav: Providers
 network: true
-overview: 'LinearB publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Deployments API, Incidents API, Measurements API, and 2 more. Tagged areas include Engineering Analytics, SEI, Developer Productivity, DORA Metrics, and DevOps.
+overview: 'LinearB publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Deployments API, Incidents API, Measurements API, and 2 more. Tagged areas include Engineering Analytics, SEI, Developer Productivity, DORA Metrics, and DevOps.
 
 
-  LinearB''s developer surface includes authentication, documentation, and 10 more developer resources.'
+  LinearB''s developer surface includes engineering blog, authentication, documentation, and 10 more developer resources.'
 plans:
 - name: Linearb Plans Pricing
   plan_count: 3
@@ -181,22 +189,22 @@ rate_limits:
   slug: linearb-rate-limits
 score:
   band: thin
-  composite: 36.3
+  composite: 29.4
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 58.0
+    artifact_dirs: 15
+    catalog_earned: 42.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.0
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.9
   facets:
-    access_clarity: 44.2
+    access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 49.7
-    developer_ergonomics: 29.8
+    developer_ergonomics: 32.1
     discoverability: 68.3
-    operational_transparency: 21.6
+    operational_transparency: 7.9
   previous_composite: 36.3
   provenance:
     agentic_access: derived
@@ -212,9 +220,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

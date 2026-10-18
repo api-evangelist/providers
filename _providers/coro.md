@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 44.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Coro's REST API (v1) for managing workspaces, subscriptions, tickets, devices, protected users, portal users, usage, audit logs, and webhooks across the Coro cybersecurity platform. OAuth 2.0 client-c
@@ -46,6 +46,10 @@ asyncapis:
   name: Coro Webhooks
   slug: coro-webhooks
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.coro.net/feed
 - group: company
   title: ''
   type: Website
@@ -162,23 +166,23 @@ mcp_servers:
 - description: Coro publishes an official, hosted MCP (Model Context Protocol) server that acts as a secure intermediary between an organization's AI tools and Coro's workspace security data. The MCP server authenti
   name: Coro MCP Server
   slug: coro
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Coro
 nav: Providers
 network: true
-overview: 'Coro publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cybersecurity, Security, Endpoint Protection, and Email Security.
+overview: 'Coro is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cybersecurity, Security, Endpoint Security, and Email Security.
 
 
   The Coro catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Coro''s developer surface includes documentation, getting-started guide, authentication, changelog, support, engineering blog, pricing, and 17 more developer resources.'
+  Coro''s developer surface includes documentation, getting-started guide, authentication, changelog, support, engineering blog, pricing, and 18 more developer resources.'
 random_paper: 17
 score:
   band: developing
   composite: 44.1
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -208,8 +212,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -234,7 +238,7 @@ tags:
 - Company
 - Cybersecurity
 - Security
-- Endpoint Protection
+- Endpoint Security
 - Email Security
 - Cloud Security
 - Data Protection

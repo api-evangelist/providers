@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.5
-  scored_at: '2026-10-04'
+  score: 19.6
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -172,16 +172,20 @@ common:
 created: '2026-07-11'
 description: Scalable Press is a technology-driven print-on-demand and fulfillment platform for custom apparel, accessories, and promotional products, offering DTG (direct-to-garment) and screen printing, embroidery, laser engraving, posters, and phone cases with worldwide shipping. Its public REST API lets developers browse a wholesale blank-and-printed product catalog, generate price quotes (including item, print, and shipping costs), place and manage print-and-ship orders, track fulfillment status through order events, create designs and product mockups, and retrieve billing invoices. The API uses HTTP Basic authentication with a private API key supplied as the password, spans v2 (product, quote, order, design, customization, billing) and v3 (event, mockup) surfaces, and operates on a pay-per-order model with no monthly subscription fee.
 finops:
-- name: Scalablepress Finops
+- has_sources: true
+  method: generated
+  name: Scalablepress Finops
+  primary_unit: ''
   service_category: Print on Demand and Fulfillment
   slug: scalablepress-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/scalablepress.png
 layout: provider
 modified: '2026-07-11'
 name: Scalable Press
 nav: Providers
 network: true
-overview: 'Scalable Press publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Billing API, Customization API, Design API, and 5 more. Tagged areas include Print on Demand, Fulfillment, Apparel, Custom Printing, and E-Commerce.
+overview: 'Scalable Press publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Billing API, Customization API, Design API, and 5 more. Tagged areas include Print on Demand, Fulfillment, Apparel, Custom Printing, and E-Commerce.
 
 
   Scalable Press'' developer surface includes authentication, documentation, signup flow, and 8 more developer resources.'
@@ -196,22 +200,22 @@ rate_limits:
   slug: scalablepress-rate-limits
 score:
   band: thin
-  composite: 35.6
+  composite: 28.7
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 58.0
+    artifact_dirs: 12
+    catalog_earned: 42.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.0
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.9
   facets:
-    access_clarity: 40.0
+    access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 50.4
     developer_ergonomics: 29.8
     discoverability: 66.1
-    operational_transparency: 28.4
+    operational_transparency: 7.9
   previous_composite: 35.6
   provenance:
     agentic_access: derived
@@ -226,9 +230,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

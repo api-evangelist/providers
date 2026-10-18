@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://conexiom.com/blog/rss.xml
 - group: company
   title: ''
   type: Website
@@ -92,14 +96,14 @@ created: '2026-07-17'
 description: Conexiom is an AI-powered sales order and invoice automation platform for manufacturers and distributors. It captures order and document data from any format (PDFs, Excel, email bodies, scans, and handwritten notes), validates and corrects it against ERP systems, and pushes clean, touchless transactions into a customer's order-management workflow. The platform surfaces its own document API (retrieving document lists and attachments) and a set of ERP integrations, documented in an authenticated help center rather than a public developer portal. Conexiom is backed by ICONIQ Capital and runs on Microsoft Azure with a SOC 2 Type II and GDPR-aligned security posture.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/conexiom.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Conexiom
 nav: Providers
 network: true
 overview: 'Conexiom is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise Software, Order Automation, Invoice Automation, and Document Processing.
 
 
-  Conexiom''s developer surface includes documentation, support, engineering blog, changelog, and 8 more developer resources.'
+  Conexiom''s developer surface includes documentation, support, engineering blog, changelog, and 9 more developer resources.'
 random_paper: 8
 score:
   band: emerging
@@ -132,8 +136,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

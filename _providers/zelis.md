@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'Zelis'' partner-facing API platform, published through the Zelis developer portal and API marketplace. The catalog spans claims document search and viewing, member ID card search and viewing, provider '
@@ -41,6 +41,10 @@ apis:
   slug: zelis-api
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.zelis.com/feed/
 - group: company
   title: ''
   type: Website
@@ -114,20 +118,20 @@ created: '2026-07-17'
 description: Zelis is a healthcare financial technology company that modernizes the business of healthcare by connecting payers, providers, and members through a connected platform for claims cost management, electronic payments, and member and provider communications. Its solutions span network analytics and optimization, claims pricing, editing and payment integrity, electronic provider payments (including the ZAPP platform), member engagement, price transparency and Transparency in Coverage compliance, and provider directory data. Zelis exposes these capabilities to partners through a public developer portal and API marketplace, where integrators can register for OAuth2 client-credential access to a catalog of claims, ID card, provider directory, enrollment, payments, and member-engagement communication APIs. The company serves 725+ payers and processes payments to hundreds of thousands of healthcare providers.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zelis.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Zelis
 nav: Providers
 network: true
-overview: 'Zelis publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Healthcare Payments, Claims, and Payments.
+overview: 'Zelis is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Healthcare Payments, Claims, and Payments.
 
 
-  Zelis'' developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, support, engineering blog, and 9 more developer resources.'
+  Zelis'' developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, support, engineering blog, and 10 more developer resources.'
 random_paper: 1
 score:
   band: emerging
   composite: 24.5
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -150,8 +154,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 21.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

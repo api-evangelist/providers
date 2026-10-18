@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 5.0
-  scored_at: '2026-10-04'
+  score: 3.1
+  scored_at: '2026-10-17'
 api_count: 8
 apis:
 - description: Griffith's SAML 2.0 Shibboleth Identity Provider, entityID https://idp1.griffith.edu.au/idp/shibboleth, registered in the Australian Access Federation on 2023-03-06 and exported to eduGAIN as entity 6
@@ -161,9 +161,13 @@ created: '2026-06-03'
 description: 'Griffith University is a public research university in South East Queensland, Australia, a member of the Innovative Research Universities (IRU) network and ranked #255 in the QS World University Rankings 2025. Griffith operates no public developer portal and publishes no institution-authored API contract; a 2026-09-01 operator audit found that every machine-readable surface running under a griffith.edu.au hostname is a vendor platform under a Griffith tenancy, confirmed by DNS. Griffith Research Online (research-repository.griffith.edu.au) is a DSpace 7.6 repository hosted by Atmire, serving a live REST API and a fully conformant OAI-PMH 2.0 endpoint over Griffith''s own research outputs. lms.griffith.edu.au is an Instructure Canvas tenancy exposing an LTI 1.3 keyset and an OpenID Connect discovery document, with the REST API itself behind authentication. Griffith Experts (experts.griffith.edu.au) is a Symplectic Discovery deployment. The one surface that is unambiguously Griffith''s
   own engineering identity is its SAML 2.0 Shibboleth Identity Provider, registered in the Australian Access Federation and exported to eduGAIN with REFEDS Research & Scholarship, Code of Conduct v2 and SIRTFI assertions. Griffith is additionally a registrant in DataCite, Crossref and ROR. The main website sits behind a Cloudflare managed challenge and is unreadable to non-browser clients.'
 finops:
-- name: Griffith Finops
+- has_sources: true
+  method: generated
+  name: Griffith Finops
+  primary_unit: ''
   service_category: Education
   slug: griffith-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/griffith.png
 jsonld:
 - class_count: 19
@@ -175,7 +179,7 @@ modified: '2026-09-01'
 name: Griffith University
 nav: Providers
 network: true
-overview: 'Griffith University publishes 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Higher Education, University, Australia, and Queensland.
+overview: 'Griffith University is listed with 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Higher Education, University, Australia, and Queensland.
 
 
   The Griffith University catalog on APIs.io includes 1 JSON-LD context.'
@@ -190,22 +194,22 @@ rate_limits:
   slug: griffith-rate-limits
 score:
   band: emerging
-  composite: 24.4
+  composite: 18.3
   coverage:
     artifact_dirs: 10
-    catalog_earned: 63.4
+    catalog_earned: 50.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 51.6
+    catalog_gap: 65.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.7
+  delta: -6.1
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 18.0
     developer_ergonomics: 28.6
     discoverability: 62.5
-    operational_transparency: 21.6
+    operational_transparency: 7.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -213,7 +217,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 26.1
+  previous_composite: 24.4
   provenance:
     conformance: first-party
   regulatory:
@@ -222,9 +226,9 @@ score:
     regime: Education & Research
     regime_id: education
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -246,7 +250,7 @@ tags:
 - Research
 - Research Repository
 - Identity Federation
-- Learning Management
+- LMS
 - OAI-PMH
 - Open Data
 - Repository

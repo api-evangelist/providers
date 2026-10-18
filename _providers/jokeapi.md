@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.9
-  scored_at: '2026-10-04'
+  score: 29.0
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -76,6 +76,10 @@ collections:
   name: JokeAPI
   slug: open-jokeapi
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://jokeapi.dev/blog/
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/jokeapi/refs/heads/main/agentic-access/jokeapi-agentic-access.yml
   title: ''
@@ -209,9 +213,13 @@ examples:
   name: Jokeapi Twopart Joke Example
   slug: jokeapi-twopart-joke-example
 finops:
-- name: Jokeapi Finops
+- has_sources: false
+  method: generated
+  name: Jokeapi Finops
+  primary_unit: ''
   service_category: ''
   slug: jokeapi-finops
+  template: true
 image: https://sv443.net/cdn/jokeapi/icon_readme.png
 json_schemas:
 - name: CategoriesResponse
@@ -305,17 +313,17 @@ jsonld:
   property_count: 47
   slug: jokeapi-context
 layout: provider
-modified: '2026-08-08'
+modified: '2026-10-06'
 name: JokeAPI
 nav: Providers
 network: true
-overview: 'JokeAPI publishes 3 APIs on the [APIs.io](https://apis.io/) network: Jokes API, Metadata API, and System API. Tagged areas include Jokes, Humor, Entertainment, Open Source, and REST API.
+overview: 'JokeAPI is listed with 3 APIs on the [APIs.io](https://apis.io/) network: Jokes API, Metadata API, and System API. Tagged areas include Jokes, Humor, Entertainment, Open Source, and REST API.
 
 
   The JokeAPI catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  JokeAPI''s developer surface includes documentation, GitHub presence, and 18 more developer resources.'
+  JokeAPI''s developer surface includes engineering blog, documentation, GitHub presence, and 18 more developer resources.'
 plans:
 - name: Jokeapi Plans Pricing
   plan_count: 2
@@ -326,9 +334,10 @@ rate_limits:
   name: Jokeapi Rate Limits
   slug: jokeapi-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: JokeAPI API Rules
+  name: JokeAPI — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -336,7 +345,8 @@ rules:
     info: 1
     warn: 4
   slug: jokeapi-jsonschema-spectral-rules
-- effective_rule_count: 87
+- authorship: generated
+  effective_rule_count: 87
   extends:
   - spectral:oas
   name: JokeAPI API Rules
@@ -348,23 +358,23 @@ rules:
     warn: 21
   slug: jokeapi-spectral-rules
 score:
-  band: thin
-  composite: 31.0
+  band: emerging
+  composite: 25.5
   coverage:
     artifact_dirs: 16
-    catalog_earned: 77.4
+    catalog_earned: 64.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 37.6
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.5
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 27.3
     contract_quality: 21.1
-    developer_ergonomics: 31.0
+    developer_ergonomics: 33.3
     discoverability: 71.4
-    operational_transparency: 40.0
+    operational_transparency: 26.3
   previous_composite: 31.0
   provenance:
     agentic_access: derived
@@ -379,9 +389,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

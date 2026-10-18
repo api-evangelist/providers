@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: New South Wales Government Open Data
@@ -66,7 +66,7 @@ modified: '2026-05-28'
 name: Open Government, New South Wales
 nav: Providers
 network: true
-overview: Open Government, New South Wales publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Government and Public APIs.
+overview: Open Government, New South Wales is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Government and Public APIs.
 random_paper: 16
 score:
   band: minimal
@@ -93,8 +93,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

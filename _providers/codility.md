@@ -32,10 +32,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.codility.com/blog/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.codility.com/blog/feed/
 - group: company
   title: ''
   type: Website
@@ -108,20 +116,20 @@ created: '2026-07-17'
 description: Codility is a technical skills assessment and technical interview platform used by engineering and talent teams to screen, interview, and benchmark software developers. The platform provides real-world coding challenges (CodeCheck), an in-browser and VS Code-based technical interview environment (CodeLive), and Skills Intelligence for mapping and measuring engineering capabilities across an organization. Codility serves more than 20,000 engineering teams, is SOC 2 Type II and ISO 27001 certified, GDPR compliant, and hosts data in both US and EU regions. This API Evangelist profile captures the company's public developer, product, trust, and operational surface.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/codility.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Codility
 nav: Providers
 network: true
 overview: 'Codility is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Technical Assessment, Developer Hiring, Coding Assessment, and Technical Interview.
 
 
-  Codility''s developer surface includes pricing, support, engineering blog, changelog, and 12 more developer resources.'
+  Codility''s developer surface includes engineering blog, pricing, support, changelog, and 14 more developer resources.'
 random_paper: 7
 score:
   band: emerging
   composite: 24.4
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -148,8 +156,8 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 23.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

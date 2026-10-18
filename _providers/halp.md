@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -64,7 +64,7 @@ modified: '2026-07-19'
 name: Halp
 nav: Providers
 network: true
-overview: Halp is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Help Desk, Ticketing, Customer Support, and Slack.
+overview: Halp is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Help Desk, Ticketing, Customer Service, and Slack.
 random_paper: 3
 score:
   band: minimal
@@ -91,8 +91,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -109,7 +109,7 @@ tags:
 - Company
 - Help Desk
 - Ticketing
-- Customer Support
+- Customer Service
 - Slack
 - Microsoft Teams
 - Acquired

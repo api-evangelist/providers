@@ -28,20 +28,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.5
-  scored_at: '2026-10-04'
+  score: 24.7
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 31
+- acting_count: 22
   human_in_the_loop: 0
   name: Bloomberg Aim Agentic Access
-  operation_count: 47
+  operation_count: 48
   slug: bloomberg-aim-agentic-access
-  summary_line: 47 operations · 31 acting
+  summary_line: 48 operations · 22 acting
 api_count: 3
 apis:
 - description: Server API delivers real-time market data, historical data, premium reference data, and calculation tools from the Bloomberg Terminal into front-office applications.
@@ -249,6 +249,21 @@ collections:
   name: Bloomberg HTTP API
   slug: open-bloomberg-http-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/bloomberg-aim/refs/heads/main/plans/bloomberg-aim-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/bloomberg-aim-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/bloomberg-aim/refs/heads/main/rate-limits/bloomberg-aim-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/bloomberg-aim-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/bloomberg-aim/refs/heads/main/finops/bloomberg-aim-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/bloomberg-aim-finops.yml
 - group: company
   title: ''
   type: Website
@@ -597,9 +612,13 @@ features:
 - Instrument and Field Search
 - Scheduled Data Delivery via Triggers
 finops:
-- name: Bloomberg Aim Finops
+- has_sources: true
+  method: generated
+  name: Bloomberg Aim Finops
+  primary_unit: ''
   service_category: Buy-side OMS / IBOR
   slug: bloomberg-aim-finops
+  template: false
 image: /assets/icons/bloomberg-aim.png
 integrations:
 - Bloomberg Terminal
@@ -1116,13 +1135,13 @@ modified: '2026-09-16'
 name: Bloomberg AIM
 nav: Providers
 network: true
-overview: 'Bloomberg AIM publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Broker Strategies API, Catalogs API, Distributions API, and 15 more. Tagged areas include Financial Data, Market Data, Order Management, Portfolio Management, and Trading.
+overview: 'Bloomberg AIM publishes 18 API contracts indexed on the [APIs.io](https://apis.io/) network, including Broker Strategies API, Catalogs API, Distributions API, and 15 more. Tagged areas include Financial Data, Market Data, Order Management, Portfolio Management, and Trading.
 
 
   The Bloomberg AIM catalog on APIs.io includes 4 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Bloomberg AIM''s developer surface includes authentication, developer portal, documentation, getting-started guide, developer console, engineering blog, and 18 more developer resources.'
+  Bloomberg AIM''s developer surface includes authentication, developer portal, documentation, getting-started guide, developer console, engineering blog, and 21 more developer resources.'
 plans:
 - name: Bloomberg Aim Plans Pricing
   plan_count: 1
@@ -1133,9 +1152,10 @@ rate_limits:
   name: Bloomberg Aim Rate Limits
   slug: bloomberg-aim-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Bloomberg AIM API Rules
+  name: Bloomberg AIM — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1143,7 +1163,8 @@ rules:
     info: 2
     warn: 3
   slug: bloomberg-aim-jsonschema-spectral-rules
-- effective_rule_count: 56
+- authorship: generated
+  effective_rule_count: 56
   extends:
   - spectral:oas
   name: Bloomberg AIM API Rules
@@ -1161,17 +1182,17 @@ scopes:
   summary_line: 3 scopes · clientCredentials
 score:
   band: developing
-  composite: 45.1
+  composite: 43.8
   coverage:
     artifact_dirs: 20
-    catalog_earned: 51.5
+    catalog_earned: 48.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 63.5
+    catalog_gap: 66.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.3
   facets:
-    access_clarity: 34.2
+    access_clarity: 26.3
     contract_governance: 13.6
     contract_quality: 57.4
     developer_ergonomics: 63.1
@@ -1194,8 +1215,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 43.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -115,6 +115,10 @@ collections:
   name: PayFit Partner & Customer API
   slug: open-payfit
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://payfit.com/blog/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/payfit/refs/heads/main/capabilities/payfit-capability-edges.yml
   title: ''
@@ -177,31 +181,31 @@ created: '2026-05-11'
 description: 'PayFit is a cloud-based payroll and HR platform serving small and mid-sized businesses in France, the United Kingdom, Spain, Germany, and Italy with automated payroll, expense management, leave and time tracking, and employee self-service. The platform handles country-specific payroll calculations, tax filings, and social declarations alongside core HR workflows. PayFit exposes two REST APIs: a Customer API authenticated via private API keys for direct company-data access, and a Partner API using OAuth 2.0 for integration developers building marketplace solutions.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/payfit.png
 layout: provider
-modified: '2026-05-11'
+modified: '2026-10-06'
 name: PayFit
 nav: Providers
 network: true
-overview: 'PayFit publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Absences API, Collaborators API, Company API, and 6 more. Tagged areas include Payroll, Human Resources, Europe Payroll, Time and Attendance, and Employee Management.
+overview: 'PayFit publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Absences API, Collaborators API, Company API, and 6 more. Tagged areas include Payroll, Human Resources, Europe Payroll, Time and Attendance, and Employee Management.
 
 
-  PayFit''s developer surface includes authentication, documentation, pricing, signup flow, and 9 more developer resources.'
+  PayFit''s developer surface includes engineering blog, authentication, documentation, pricing, signup flow, and 9 more developer resources.'
 random_paper: 15
 score:
   band: emerging
-  composite: 25.6
+  composite: 26.0
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.4
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 44.7
-    developer_ergonomics: 10.7
+    developer_ergonomics: 13.1
     discoverability: 73.2
     operational_transparency: 6.6
   previous_composite: 25.6
@@ -218,8 +222,8 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 22.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

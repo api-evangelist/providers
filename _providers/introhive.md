@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The OAuth 2.0 authorization surface in front of the Introhive platform. Introhive publishes an RFC 8414 OAuth 2.0 Authorization Server Metadata document at /.well-known/oauth-authorization-server on e
@@ -137,7 +137,7 @@ modified: '2026-08-01'
 name: Introhive
 nav: Providers
 network: true
-overview: 'Introhive publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Relationship Intelligence, CRM, Data Automation, and Contact Management.
+overview: 'Introhive is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Relationship Intelligence, CRM, Data Automation, and Contact Management.
 
 
   Introhive''s developer surface includes support, engineering blog, YouTube channel, authentication, and 16 more developer resources.'
@@ -146,7 +146,7 @@ score:
   band: emerging
   composite: 24.0
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -174,8 +174,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 31.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -209,6 +209,6 @@ tags:
 - Data Quality
 - Professional Services
 - Sales
-- Enrichment
+- Data Enrichment
 website: https://www.introhive.com/
 ---

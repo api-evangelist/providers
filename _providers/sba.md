@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 5
 apis:
 - description: A microservice API providing search access to SBA.gov content including lenders, articles, documents, and personnel. The lenders endpoint constructs queries to the AWS CloudSearch domain for lenders.
@@ -53,6 +53,19 @@ apis:
   slug: sba-open-data-api
 artifact_total: 10
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sba/refs/heads/main/plans/sba-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/sba-plans-pricing.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.sba.gov/sba-newsroom/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.sba.gov/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/sba/refs/heads/main/security/sba-domain-security.yml
   title: ''
@@ -104,9 +117,13 @@ common:
 created: '2026-06-13'
 description: The U.S. Small Business Administration provides REST APIs for accessing SBA loan data including 7(a) and 504 loan programs, SBIR/STTR award data, business licensing and size standards, disaster loan application processing, government contracting opportunities, and small business certification programs including HUBZone, 8(a), WOSB, and SDVOSB.
 finops:
-- name: Sba Finops
+- has_sources: false
+  method: generated
+  name: Sba Finops
+  primary_unit: ''
   service_category: ''
   slug: sba-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sba.png
 jsonld:
 - class_count: 11
@@ -114,17 +131,17 @@ jsonld:
   property_count: 37
   slug: sba-context
 layout: provider
-modified: '2026-06-13'
+modified: '2026-10-06'
 name: Small Business Administration (SBA)
 nav: Providers
 network: true
-overview: 'Small Business Administration (SBA) publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Government, Small Business, Loans, Certification, and Contracting.
+overview: 'Small Business Administration (SBA) is listed with 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Government, Small Business, Loans, Certification, and Contracting.
 
 
   The Small Business Administration (SBA) catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Small Business Administration (SBA)''s developer surface includes documentation, engineering blog, pricing, and 8 more developer resources.'
+  Small Business Administration (SBA)''s developer surface includes engineering blog, documentation, pricing, and 11 more developer resources.'
 plans:
 - name: Sba Plans Pricing
   plan_count: 3
@@ -136,17 +153,17 @@ rate_limits:
   slug: sba-rate-limits
 score:
   band: emerging
-  composite: 25.0
+  composite: 19.2
   coverage:
     artifact_dirs: 8
-    catalog_earned: 64.8
+    catalog_earned: 54.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 50.2
+    catalog_gap: 61.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.8
   facets:
-    access_clarity: 46.8
+    access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 14.7
     developer_ergonomics: 11.9
@@ -159,9 +176,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

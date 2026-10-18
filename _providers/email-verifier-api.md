@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -64,6 +64,21 @@ collections:
   name: Email Verifier API
   slug: open-email-verifier-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/email-verifier-api/refs/heads/main/plans/email-verifier-api-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/email-verifier-api-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/email-verifier-api/refs/heads/main/rate-limits/email-verifier-api-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/email-verifier-api-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/email-verifier-api/refs/heads/main/finops/email-verifier-api-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/email-verifier-api-finops.yml
 - group: company
   title: ''
   type: Website
@@ -239,9 +254,13 @@ features:
 - description: Both GET and POST supported on the single endpoint for ad-hoc and server-to-server use.
   name: GET or POST
 finops:
-- name: Email Verifier Api Finops
+- has_sources: true
+  method: generated
+  name: Email Verifier Api Finops
+  primary_unit: ''
   service_category: Email Verification
   slug: email-verifier-api-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/email-verifier-api.png
 integrations:
 - description: Apex HTTP-callout integration for lead validation inside Salesforce.
@@ -272,13 +291,13 @@ modified: '2026-08-13'
 name: Email Verifier API
 nav: Providers
 network: true
-overview: 'Email Verifier API publishes 1 API on the [APIs.io](https://apis.io/) network: Verification API. Tagged areas include Email Verification, Deliverability, SMTP Check, Bounce Prevention, and Lead Validation.
+overview: 'Email Verifier API publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Verification API. Tagged areas include Email Verification, Deliverability, SMTP Check, Bounce Prevention, and Lead Validation.
 
 
   The Email Verifier API catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Email Verifier API''s developer surface includes authentication, documentation, signup flow, pricing, engineering blog, support, API reference, and 21 more developer resources.'
+  Email Verifier API''s developer surface includes authentication, documentation, signup flow, pricing, engineering blog, support, API reference, and 24 more developer resources.'
 plans:
 - name: Email Verifier Api Plans Pricing
   plan_count: 14
@@ -289,9 +308,10 @@ rate_limits:
   name: Email Verifier Api Rate Limits
   slug: email-verifier-api-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Email Verifier API API Rules
+  name: Email Verifier API — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -299,7 +319,8 @@ rules:
     info: 2
     warn: 3
   slug: email-verifier-api-jsonschema-spectral-rules
-- effective_rule_count: 50
+- authorship: unmarked
+  effective_rule_count: 50
   extends:
   - spectral:oas
   name: Email Verifier API API Rules
@@ -311,23 +332,23 @@ rules:
     warn: 3
   slug: email-verifier-api-rules
 score:
-  band: strong
-  composite: 54.8
+  band: developing
+  composite: 46.5
   coverage:
-    artifact_dirs: 29
-    catalog_earned: 84.0
+    artifact_dirs: 30
+    catalog_earned: 65.4
     catalog_earned_first_party: 0.0
-    catalog_gap: 31.0
+    catalog_gap: 49.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 74.5
+    access_clarity: 46.1
     contract_governance: 31.8
     contract_quality: 61.2
     developer_ergonomics: 45.8
     discoverability: 73.2
-    operational_transparency: 28.4
+    operational_transparency: 7.9
   previous_composite: 54.8
   provenance:
     agentic_access: derived
@@ -345,9 +366,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

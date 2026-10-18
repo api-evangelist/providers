@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://mymedisage.com/news
 - group: company
   title: ''
   type: Website
@@ -65,14 +69,14 @@ created: '2026-07-17'
 description: MediSage is an India-based digital health company that operates one of Asia's largest online medical communities, connecting doctors and healthcare practitioners with first-hand, peer-reviewed medical information, live CME webinars, clinical discussion forums, medical news, and professional networking. Backed by Bessemer Venture Partners, MediSage delivers its knowledge platform primarily through consumer-facing web and mobile applications for physicians; no public developer API, OpenAPI specification, or partner integration surface has been identified at this time.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/medisage.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: MediSage
 nav: Providers
 network: true
 overview: 'MediSage is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Medical Community, Doctors, and Continuing Medical Education.
 
 
-  MediSage''s developer surface includes signup flow, engineering blog, and 4 more developer resources.'
+  MediSage''s developer surface includes engineering blog, signup flow, and 5 more developer resources.'
 random_paper: 17
 score:
   band: minimal
@@ -106,8 +110,8 @@ score:
     regime: Health
     regime_id: health
     score: 4.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

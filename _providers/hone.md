@@ -32,10 +32,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://honehq.com/stories/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://honehq.com/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/hone/refs/heads/main/security/hone-trust-center.yml
   title: ''
@@ -111,26 +119,26 @@ created: '2026-07-17'
 description: Hone is an employee development platform that combines live, expert-led virtual workshops with AI-powered coaching to drive behavior change and continuous learning across an organization. Founded in 2018 and headquartered in San Francisco and New York City, Hone delivers 100+ live classes, AI lessons and roleplays, 1:1 and group coaching, and on-demand membership learning focused on leadership, management, and people skills. The platform integrates with major HRIS and LMS systems to sync learners and report on program impact, and has reached millions of employees across 58+ countries. Backed by F-Prime Capital, Cowboy Ventures, Slack Fund, and others. Hone does not currently publish a public developer API.
 image: https://honehq.com/wp-content/uploads/home-hero-new2.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Hone
 nav: Providers
 network: true
 overview: 'Hone is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Future Of Work, Leadership Development, Corporate Training, and Learning and Development.
 
 
-  Hone''s developer surface includes documentation, support, engineering blog, pricing, signup flow, and 12 more developer resources.'
+  Hone''s developer surface includes engineering blog, documentation, support, pricing, signup flow, and 14 more developer resources.'
 random_paper: 8
 score:
   band: emerging
-  composite: 23.8
+  composite: 23.9
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 60.5
     contract_governance: 0.0
@@ -152,8 +160,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

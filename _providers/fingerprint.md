@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.5
-  scored_at: '2026-10-04'
+  score: 23.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -151,16 +151,20 @@ common:
 created: '2026-06-25'
 description: Fingerprint (formerly FingerprintJS) is a device-identification and fraud-prevention platform. Its browser and mobile agents generate a stable visitorId, and the Server API returns detailed identification events enriched with Smart Signals (bot, VPN, proxy, tampering, emulator, and more) for account takeover, payment fraud, and bot-mitigation use cases.
 finops:
-- name: Fingerprint Finops
+- has_sources: true
+  method: generated
+  name: Fingerprint Finops
+  primary_unit: ''
   service_category: Identity and Fraud Prevention
   slug: fingerprint-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fingerprint.png
 layout: provider
 modified: '2026-06-25'
 name: Fingerprint
 nav: Providers
 network: true
-overview: 'Fingerprint publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Event Search API, Events API, Related Visitors API, and 2 more. Tagged areas include Device Identification, Fraud Prevention, Bot Detection, Smart Signals, and Identity.
+overview: 'Fingerprint publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Event Search API, Events API, Related Visitors API, and 2 more. Tagged areas include Device Identification, Fraud Prevention, Bot Detection, Smart Signals, and Identity.
 
 
   Fingerprint''s developer surface includes authentication, documentation, engineering blog, and 10 more developer resources.'
@@ -175,22 +179,22 @@ rate_limits:
   slug: fingerprint-rate-limits
 score:
   band: thin
-  composite: 36.5
+  composite: 29.1
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 58.0
+    artifact_dirs: 13
+    catalog_earned: 42.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.0
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.4
   facets:
-    access_clarity: 44.2
+    access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 49.3
     developer_ergonomics: 32.1
     discoverability: 66.1
-    operational_transparency: 21.6
+    operational_transparency: 7.9
   previous_composite: 36.5
   provenance:
     agentic_access: derived
@@ -205,9 +209,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

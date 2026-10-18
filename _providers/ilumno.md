@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -57,7 +57,7 @@ modified: '2026-07-19'
 name: Ilumno
 nav: Providers
 network: true
-overview: Ilumno is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, Higher Education, EdTech, and Online Learning.
+overview: Ilumno is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, Higher Education, EdTech, and E-Learning.
 random_paper: 0
 score:
   band: minimal
@@ -89,8 +89,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 7.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -108,7 +108,7 @@ tags:
 - Education
 - Higher Education
 - EdTech
-- Online Learning
+- E-Learning
 - Student Analytics
 - Latin America
 website: https://www.ilumno.com/

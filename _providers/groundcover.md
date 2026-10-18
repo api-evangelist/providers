@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 50.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The groundcover platform REST API. Data query endpoints run gcQL pipelines against logs (POST /api/logs/v2/search), trace spans (POST /api/traces/v2/search) and Kubernetes events (POST /api/k8s/v2/eve
@@ -46,6 +46,11 @@ asyncapis:
   name: Groundcover Webhooks
   slug: groundcover-webhooks
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/groundcover/refs/heads/main/finops/groundcover-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/groundcover-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/groundcover/refs/heads/main/security/groundcover-trust-center.yml
   title: ''
@@ -220,9 +225,13 @@ common:
 created: '2026-03-27'
 description: groundcover is a cloud-native observability platform that uses eBPF for zero-instrumentation monitoring of Kubernetes and Linux workloads, covering logs, metrics, traces, Kubernetes events, real user monitoring, synthetics and AI/LLM observability. Its BYOC (bring your own cloud) architecture keeps the data plane inside the customer's own VPC, which lets it price per monitored host rather than per ingested byte. Programmatic access is delivered through a REST API at api.groundcover.com (gcQL search endpoints for logs, traces and Kubernetes events, a Prometheus-compatible metrics API, and management endpoints for monitors, silences, ingestion keys and pipelines), a remote MCP server at mcp.groundcover.com for agents, official Go, Python and TypeScript SDKs, a CLI, and Terraform, Pulumi and Crossplane providers.
 finops:
-- name: Groundcover Finops
+- has_sources: false
+  method: generated
+  name: Groundcover Finops
+  primary_unit: ''
   service_category: API
   slug: groundcover-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/groundcover.png
 layout: provider
 mcp_servers:
@@ -233,13 +242,13 @@ modified: '2026-08-29'
 name: Groundcover
 nav: Providers
 network: true
-overview: 'Groundcover publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include AIOps, Observability, Kubernetes, eBPF, and Monitoring.
+overview: 'Groundcover is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include AIOps, Observability, Kubernetes, eBPF, and Monitoring.
 
 
   The Groundcover catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Groundcover''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, engineering blog, and 30 more developer resources.'
+  Groundcover''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, engineering blog, and 31 more developer resources.'
 plans:
 - name: Groundcover Plans Pricing
   plan_count: 4
@@ -256,17 +265,17 @@ scopes:
   summary_line: 1 scope
 score:
   band: strong
-  composite: 64.0
+  composite: 62.5
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 60.0
+    artifact_dirs: 23
+    catalog_earned: 57.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 55.0
+    catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 100.0
+    access_clarity: 92.1
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 69.0
@@ -282,8 +291,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

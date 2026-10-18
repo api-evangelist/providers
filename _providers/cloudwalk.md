@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -246,7 +246,7 @@ modified: '2026-08-01'
 name: CloudWalk
 nav: Providers
 network: true
-overview: 'CloudWalk publishes 3 APIs on the [APIs.io](https://apis.io/) network: Checkout Links API, InfinitePay Checkout API, and Payments API. Tagged areas include Company, Payments, Financial Services, Fintech, and Checkout.
+overview: 'CloudWalk publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Checkout Links API, InfinitePay Checkout API, and Payments API. Tagged areas include Company, Payments, Financial Services, Fintech, and Checkout.
 
 
   The CloudWalk catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -262,7 +262,7 @@ score:
   band: developing
   composite: 54.2
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -300,8 +300,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 32.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

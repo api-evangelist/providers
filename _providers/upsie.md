@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -122,6 +122,10 @@ collections:
   name: Upsie Partner Network Authorization Webhooks API
   slug: open-upsie-webhooks-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://upsie.com/news
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/upsie/refs/heads/main/overlays/upsie-partner-network-overlay.yaml
   title: ''
@@ -232,34 +236,34 @@ created: '2026-07-17'
 description: Upsie is a direct-to-consumer warranty company offering affordable, transparent extended-warranty and protection plans for smartphones, laptops, TVs, appliances, and other consumer electronics, positioning itself as "the new way to warranty" against overpriced retailer protection plans. Alongside its consumer products, Upsie operates an independent repair network and publishes the Upsie Partner Network API — a JWT-authenticated REST API (api.upsie.com, documented via a public Postman collection) that lets repair-network partners create and manage repairs, repair items, notes, assignments, and categories, and subscribe to webhook events such as repair status updates.
 image: https://res.cloudinary.com/upsie/image/upload/f_auto,fl_lossy,q_auto/v1635433345/Upsie_Badge.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Upsie
 nav: Providers
 network: true
-overview: 'Upsie publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Authorization API, Repair Assignments (/repairassignments) API, Repair Categories API, and 5 more. Tagged areas include Company, Warranties, Protection-Plans, Consumer Electronics, and Repairs.
+overview: 'Upsie is listed with 8 APIs on the [APIs.io](https://apis.io/) network, including Authorization API, Repair Assignments (/repairassignments) API, Repair Categories API, and 5 more. Tagged areas include Company, Warranties, Protection-Plans, Consumer Electronics, and Repairs.
 
 
   The Upsie catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Upsie''s developer surface includes documentation, API reference, support, signup flow, authentication, sandbox, and 17 more developer resources.'
+  Upsie''s developer surface includes engineering blog, documentation, API reference, support, signup flow, authentication, sandbox, and 17 more developer resources.'
 random_paper: 0
 score:
   band: thin
-  composite: 30.9
+  composite: 31.4
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 22.0
-    developer_ergonomics: 43.5
+    developer_ergonomics: 45.8
     discoverability: 78.6
     operational_transparency: 10.5
   previous_composite: 30.9
@@ -279,8 +283,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 21.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

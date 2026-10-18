@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 5
 apis:
 - description: The Advance Passenger Information System (APIS) collects pre-arrival and pre-departure manifest data on all passengers and crew members flown or sailed into and out of the United States. The eAPIS web
@@ -53,6 +53,21 @@ apis:
   slug: acas
 artifact_total: 9
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/customs-and-border-protection/refs/heads/main/plans/customs-and-border-protection-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/customs-and-border-protection-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/customs-and-border-protection/refs/heads/main/rate-limits/customs-and-border-protection-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/customs-and-border-protection-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/customs-and-border-protection/refs/heads/main/finops/customs-and-border-protection-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/customs-and-border-protection-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/customs-and-border-protection/refs/heads/main/security/customs-and-border-protection-domain-security.yml
   title: ''
@@ -113,19 +128,23 @@ common:
 created: '2024-12-03'
 description: U.S. Customs and Border Protection (CBP) is the federal law enforcement agency within the Department of Homeland Security responsible for apprehending individuals attempting to enter the United States illegally, stemming the flow of illegal drugs and contraband, protecting agricultural and economic interests from harmful pests and diseases, protecting intellectual property, and regulating and facilitating international trade, collecting import duties, and enforcing U.S. trade laws. CBP's primary trade automation systems are the Automated Commercial Environment (ACE), the Automated Export System (AES), AESDirect, the Advance Passenger Information System (APIS / eAPIS), and the Air Cargo Advance Screening (ACAS) program. Trade integrations are predominantly delivered through Electronic Data Interchange (EDI) messaging via ACE, with a small set of CBP web services (e.g., the AESDirect WebLink Inquiry API) exposed for programmatic use.
 finops:
-- name: Customs And Border Protection Finops
+- has_sources: false
+  method: generated
+  name: Customs And Border Protection Finops
+  primary_unit: ''
   service_category: API
   slug: customs-and-border-protection-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/customs-and-border-protection.png
 layout: provider
 modified: '2026-04-28'
 name: Customs and Border Protection
 nav: Providers
 network: true
-overview: 'Customs and Border Protection publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include ACE, ACAS, AES, AESDirect, and Borders.
+overview: 'Customs and Border Protection is listed with 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include ACE, ACAS, AES, AESDirect, and Borders.
 
 
-  Customs and Border Protection''s developer surface includes YouTube channel, engineering blog, and 12 more developer resources.'
+  Customs and Border Protection''s developer surface includes YouTube channel, engineering blog, and 15 more developer resources.'
 plans:
 - name: Customs And Border Protection Plans Pricing
   plan_count: 3
@@ -137,17 +156,17 @@ rate_limits:
   slug: customs-and-border-protection-rate-limits
 score:
   band: emerging
-  composite: 21.1
+  composite: 19.5
   coverage:
     artifact_dirs: 7
-    catalog_earned: 49.0
+    catalog_earned: 46.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 66.0
+    catalog_gap: 69.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 26.3
+    access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 38.1
@@ -165,8 +184,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 9.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

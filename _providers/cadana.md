@@ -35,15 +35,15 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 39.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 74
+- acting_count: 73
   human_in_the_loop: 0
   name: Cadana Agentic Access
   operation_count: 150
   slug: cadana-agentic-access
-  summary_line: 150 operations · 74 acting
-api_count: 5
+  summary_line: 150 operations · 73 acting
+api_count: 9
 apis:
 - baseURL: https://api.cadanapay.com
   baseurl_source: declared
@@ -302,6 +302,10 @@ collections:
   name: Embedded Consumer Wallets Balances Virtual Accounts API
   slug: open-cadana-virtual-accounts-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.cadanapay.com/rss/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/cadana/refs/heads/main/capabilities/cadana-capability-edges.yml
   title: ''
@@ -458,23 +462,23 @@ created: '2026-07-17'
 description: Cadana is a white-label global payment and payroll infrastructure provider for talent platforms, staffing companies, and HR providers. Its APIs let partners onboard and pay employees and contractors in 100+ countries, run multi-currency payroll, provision embedded wallets and virtual accounts, calculate gross-to-net tax across 150+ jurisdictions, and automate statutory filing and government remittance. The platform is delivered as five REST APIs (Workforce Management, Embedded Payments, Embedded Consumer Wallets, Global Tax Engine, and Statutory Compliance) with bearer-token auth, Svix-signed webhooks, a sandbox, and an embeddable white-label UI and salary-calculator widget. Backed by 500 Global.
 image: https://framerusercontent.com/images/ikikrpQNMIduf7aphtBIOOee650.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Cadana
 nav: Providers
 network: true
-overview: 'Cadana publishes 30 APIs on the [APIs.io](https://apis.io/) network, including Balances API, Beneficiaries API, Businesses API, and 27 more. Tagged areas include Company, Payroll, Payments, Global Payroll, and Contractor Payments.
+overview: 'Cadana publishes 30 API contracts indexed on the [APIs.io](https://apis.io/) network, including Balances API, Beneficiaries API, Businesses API, and 27 more. Tagged areas include Company, Payroll, Payments, Global Payroll, and Contractor Payments.
 
 
   The Cadana catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Cadana''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 26 more developer resources.'
+  Cadana''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 27 more developer resources.'
 random_paper: 6
 score:
   band: developing
   composite: 48.2
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -505,8 +509,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

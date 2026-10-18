@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'An OAuth-protected Model Context Protocol server mounted on OSSIO''s WordPress corporate site at /wp-json/mcp/mcp-oauth-server, discoverable through the site''s RFC 9728 protected-resource document. It '
@@ -110,7 +110,7 @@ modified: '2026-08-26'
 name: OSSIO
 nav: Providers
 network: true
-overview: 'OSSIO publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, Health, Orthopedics, and Life Sciences.
+overview: 'OSSIO is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, Health, Orthopedics, and Life Sciences.
 
 
   OSSIO''s developer surface includes support, engineering blog, and 10 more developer resources.'
@@ -163,8 +163,8 @@ score:
     regime: Health
     regime_id: health
     score: 32.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

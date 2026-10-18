@@ -26,14 +26,14 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: false
-    rate_limit_signal: documented
+    protected_resource_metadata: verified
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 11.2
-  scored_at: '2026-10-04'
+  score: 12.9
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: REST API for Darwinbox HRMS covering employee management, attendance, recruitment, organizational management, payroll, background verification, project management, and travel. Authentication uses toke
@@ -96,9 +96,13 @@ common:
 created: '2026-06-13'
 description: Darwinbox is a cloud-based HRMS platform offering a REST API for managing employee records, recruitment, performance, payroll, attendance, travel, and workforce analytics in enterprise organizations. The API supports programmatic access to data stored in Darwinbox instances and enables importing data into the platform. Access is provided on a request-only basis to privileged users and supports token-based authentication using SHA512 hashing.
 finops:
-- name: Darwinbox Finops
+- has_sources: false
+  method: generated
+  name: Darwinbox Finops
+  primary_unit: ''
   service_category: ''
   slug: darwinbox-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/darwinbox.png
 layout: provider
 mcp_servers:
@@ -109,7 +113,7 @@ modified: '2026-06-13'
 name: Darwinbox
 nav: Providers
 network: true
-overview: 'Darwinbox publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include HRMS, Human Resources, Payroll, Recruiting, and Performance Management.
+overview: 'Darwinbox is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include HRMS, Human Resources, Payroll, Recruiting, and Performance Management.
 
 
   Darwinbox''s developer surface includes documentation, engineering blog, pricing, and 9 more developer resources.'
@@ -124,17 +128,17 @@ rate_limits:
   slug: darwinbox-rate-limits
 score:
   band: emerging
-  composite: 18.5
+  composite: 14.1
   coverage:
-    artifact_dirs: 9
-    catalog_earned: 47.2
+    artifact_dirs: 10
+    catalog_earned: 39.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 67.8
+    catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -4.4
   facets:
-    access_clarity: 37.4
+    access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 16.7
@@ -149,8 +153,8 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

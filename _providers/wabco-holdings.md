@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: WABCO's fleet management and telematics capabilities, now delivered through ZF's Commercial Vehicle Control Systems division. Provides remote diagnostics, vehicle connectivity, real-time fleet trackin
@@ -41,6 +41,21 @@ apis:
   slug: wabco-fleet-management
 artifact_total: 6
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/wabco-holdings/refs/heads/main/plans/wabco-holdings-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/wabco-holdings-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/wabco-holdings/refs/heads/main/rate-limits/wabco-holdings-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/wabco-holdings-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/wabco-holdings/refs/heads/main/finops/wabco-holdings-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/wabco-holdings-finops.yml
 - group: other
   title: ''
   type: ParentCompany
@@ -73,9 +88,13 @@ common:
 created: '2025-03-01'
 description: WABCO Holdings was a leading global supplier of technologies and services that improve the safety, efficiency, and connectivity of commercial vehicles. The company developed advanced braking, stability, suspension, and transmission automation systems. WABCO was acquired by ZF Friedrichshafen in 2020 and now operates as ZF's Commercial Vehicle Control Systems division, continuing to serve OEMs, fleets, and aftermarket customers worldwide with integrated telematics, fleet management, and vehicle safety technologies.
 finops:
-- name: Wabco Holdings Finops
+- has_sources: false
+  method: generated
+  name: Wabco Holdings Finops
+  primary_unit: ''
   service_category: API
   slug: wabco-holdings-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wabco-holdings.png
 jsonld:
 - class_count: 33
@@ -87,13 +106,13 @@ modified: '2026-05-03'
 name: WABCO Holdings
 nav: Providers
 network: true
-overview: 'WABCO Holdings publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Commercial Vehicles, Fleet Management, Telematics, Safety Systems, and Transportation.
+overview: 'WABCO Holdings is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Commercial Vehicles, Fleet Management, Telematics, Safety Systems, and Transportation.
 
 
   The WABCO Holdings catalog on APIs.io includes 1 JSON-LD context.
 
 
-  WABCO Holdings'' developer surface includes developer portal, engineering blog, and 5 more developer resources.'
+  WABCO Holdings'' developer surface includes developer portal, engineering blog, and 8 more developer resources.'
 plans:
 - name: Wabco Holdings Plans Pricing
   plan_count: 3
@@ -121,17 +140,17 @@ rate_limits:
   slug: wabco-holdings-rate-limits
 score:
   band: emerging
-  composite: 17.1
+  composite: 15.6
   coverage:
     artifact_dirs: 11
-    catalog_earned: 54.0
+    catalog_earned: 51.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 61.0
+    catalog_gap: 64.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 10.7
     developer_ergonomics: 20.2
@@ -144,8 +163,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

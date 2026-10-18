@@ -23,8 +23,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.5
-  scored_at: '2026-10-04'
-api_count: 1
+  scored_at: '2026-10-17'
+api_count: 2
 apis:
 - baseURL: https://api.icallagent.com/api/public/v1/
   baseurl_source: declared
@@ -57,6 +57,16 @@ asyncapis:
   name: Icallagent Public Api Webhooks
   slug: icallagent-public-api-webhooks
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/icallagent-public-api/refs/heads/main/plans/icallagent-public-api-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/icallagent-public-api-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/icallagent-public-api/refs/heads/main/rate-limits/icallagent-public-api-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/icallagent-public-api-rate-limits.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/icallagent-public-api/refs/heads/main/capabilities/icallagent-public-api-capability-edges.yml
   title: ''
@@ -141,13 +151,13 @@ modified: '2026-09-15'
 name: iCallAgent Public API
 nav: Providers
 network: true
-overview: 'iCallAgent Public API publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Campaigns API, Contacts API, and 2 more. Tagged areas include Voice AI, voice ai assistant, Conversational AI, Voice Agents, and telephony / CPaaS.
+overview: 'iCallAgent Public API publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agents API, Campaigns API, Contacts API, and 2 more. Tagged areas include Voice AI, voice ai assistant, Conversational AI, Voice Agents, and telephony / CPaaS.
 
 
   The iCallAgent Public API catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  iCallAgent Public API''s developer surface includes authentication, pricing, engineering blog, signup flow, and 12 more developer resources.'
+  iCallAgent Public API''s developer surface includes authentication, pricing, engineering blog, signup flow, and 14 more developer resources.'
 plans:
 - name: Icallagent Public Api Plans Pricing
   plan_count: 2
@@ -166,7 +176,7 @@ score:
   band: developing
   composite: 49.3
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 22
     catalog_earned: 40.0
     catalog_earned_first_party: 8.0
     catalog_gap: 75.0
@@ -196,12 +206,13 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 35.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
     score: 38.9
+screenshot: https://raw.githubusercontent.com/api-evangelist/icallagent-public-api/refs/heads/main/screenshots/icallagent-public-api-2026-10-11T105624.png
 security:
 - kind: authentication
   name: Icallagent Public Api Authentication

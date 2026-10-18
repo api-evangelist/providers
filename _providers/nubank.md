@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 5
 apis:
 - description: Open Finance Brasil endpoints registered by Nubank in the Central Bank directory. Provides consent-driven access to account, credit-card, loan, and payment-initiation data for authorised TPPs under th
@@ -53,6 +53,25 @@ apis:
   slug: nupay-webhook
 artifact_total: 10
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/nubank/refs/heads/main/plans/nubank-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/nubank-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/nubank/refs/heads/main/rate-limits/nubank-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/nubank-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/nubank/refs/heads/main/finops/nubank-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/nubank-finops.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.nubank.com.br/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/nubank/refs/heads/main/security/nubank-vulnerability-disclosure.yml
   title: ''
@@ -94,19 +113,23 @@ common:
 created: '2026-05-23'
 description: Nu Holdings (Nubank) is Latin America's largest digital bank, with tens of millions of customers across Brazil, Mexico, and Colombia. Its core product surface - credit card, account, lending, investments, and insurance - is consumer-facing through the Nu mobile app, and Nubank does not publish a general-purpose public developer portal. Nubank participates in Brazil's Open Finance (Open Banking Brasil) regime, which standardises consent-driven access to account, transaction, and payment-initiation APIs for authorised third parties; Nubank's Open Finance endpoints are registered with the Brazilian Central Bank's directory. For merchant acceptance, Nubank operates NuPay for Business, a REST API for checkout payments, refunds, OAuth2/CIBA-based authorization, beneficiary management, and webhook event notifications, hosted at api.spinpay.com.br.
 finops:
-- name: Nubank Finops
+- has_sources: false
+  method: generated
+  name: Nubank Finops
+  primary_unit: ''
   service_category: API
   slug: nubank-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nubank.png
 layout: provider
-modified: '2026-05-23'
+modified: '2026-10-06'
 name: Nu (Nubank)
 nav: Providers
 network: true
-overview: 'Nu (Nubank) publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Neobank, Banking, Credit Cards, Open Finance, and Payments.
+overview: 'Nu (Nubank) is listed with 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Neobank, Banking, Credit Cards, Open Finance, and Payments.
 
 
-  Nu (Nubank)''s developer surface includes GitHub presence and 8 more developer resources.'
+  Nu (Nubank)''s developer surface includes GitHub presence and 12 more developer resources.'
 plans:
 - name: Nubank Plans Pricing
   plan_count: 1
@@ -117,23 +140,23 @@ rate_limits:
   name: Nubank Rate Limits
   slug: nubank-rate-limits
 score:
-  band: emerging
-  composite: 15.3
+  band: minimal
+  composite: 9.3
   coverage:
-    artifact_dirs: 7
-    catalog_earned: 54.4
+    artifact_dirs: 8
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 60.6
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.0
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 9.5
     discoverability: 66.1
-    operational_transparency: 24.2
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -150,9 +173,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 9.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

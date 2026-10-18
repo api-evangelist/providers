@@ -27,20 +27,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 34.6
-  scored_at: '2026-10-04'
+  score: 32.8
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 17
+- acting_count: 14
   human_in_the_loop: 0
   name: Dtn Agentic Access
-  operation_count: 250
+  operation_count: 232
   slug: dtn-agentic-access
-  summary_line: 250 operations · 17 acting
+  summary_line: 232 operations · 14 acting
 api_count: 37
 apis:
 - description: DTN Point Forecast API delivers high-quality weather forecasts for specified locations. Provides hourly and daily forecast data for agriculture, aviation, shipping, and utilities use cases. Uses the s
@@ -657,6 +657,21 @@ collections:
   name: DTN Winds Aloft API
   slug: open-dtn-windsaloft-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/dtn/refs/heads/main/plans/dtn-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/dtn-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/dtn/refs/heads/main/rate-limits/dtn-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/dtn-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/dtn/refs/heads/main/finops/dtn-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/dtn-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/dtn/refs/heads/main/capabilities/dtn-capability-edges.yml
   title: ''
@@ -823,9 +838,13 @@ common:
 created: '2026-05-01'
 description: DTN is an operational intelligence company delivering weather, agriculture, energy, and commodity market data through a catalog of 36 published APIs on its developer portal. Coverage spans current conditions, point and probabilistic forecasts, 30-year station observation history, lightning, radar and map tiles, tropical cyclones, marine weather, aviation weather (METARs, TAFs, NOTAMs, PIREPs, SIGMETs, flight hazards), soil conditions, renewables production forecasting, refined fuels, and Prophet X commodity market data. All APIs authenticate with OAuth2 client credentials via the DTN Auth and Identity Service, publish OpenAPI specs and Postman collections, and stream real-time data over WebSocket and HTTP streaming surfaces.
 finops:
-- name: Dtn Finops
+- has_sources: true
+  method: generated
+  name: Dtn Finops
+  primary_unit: ''
   service_category: Weather & Industry Data
   slug: dtn-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dtn.png
 json_schemas:
 - name: DTN Weather Observation
@@ -841,13 +860,13 @@ modified: '2026-09-16'
 name: DTN
 nav: Providers
 network: true
-overview: 'DTN publishes 99 APIs on the [APIs.io](https://apis.io/) network, including Account API, Agency API, Alerts API, and 96 more. Tagged areas include Weather, Agriculture, Energy, Market Data, and Aviation.
+overview: 'DTN publishes 99 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Agency API, Alerts API, and 96 more. Tagged areas include Weather, Agriculture, Energy, Market Data, and Aviation.
 
 
   The DTN catalog on APIs.io includes 2 event-driven AsyncAPI specifications, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  DTN''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, changelog, sandbox, and 29 more developer resources.'
+  DTN''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, changelog, sandbox, and 32 more developer resources.'
 plans:
 - name: Dtn Plans Pricing
   plan_count: 2
@@ -858,9 +877,10 @@ rate_limits:
   name: Dtn Rate Limits
   slug: dtn-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: DTN API Rules
+  name: DTN — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -870,28 +890,28 @@ rules:
   slug: dtn-jsonschema-spectral-rules
 scopes:
 - name: Dtn Scopes
-  scope_count: 0
+  scope_count: 1
   slug: dtn-scopes
-  summary_line: OAuth 2.0 · no documented scopes
+  summary_line: 1 scope · clientCredentials
 score:
   band: developing
-  composite: 52.5
+  composite: 50.9
   coverage:
-    artifact_dirs: 28
-    catalog_earned: 58.3
+    artifact_dirs: 30
+    catalog_earned: 55.3
     catalog_earned_first_party: 0.0
     catalog_gap: 59.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -1.6
   facets:
-    access_clarity: 34.2
+    access_clarity: 26.3
     contract_governance: 14.4
     contract_quality: 60.5
     developer_ergonomics: 68.5
     discoverability: 78.6
     operational_transparency: 36.8
-  previous_composite: 52.0
+  previous_composite: 52.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -908,8 +928,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 34.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

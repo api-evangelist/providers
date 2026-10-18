@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.3
-  scored_at: '2026-10-04'
+  score: 20.4
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -105,6 +105,14 @@ collections:
   name: Nomic Atlas API
   slug: open-nomic-ai
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.nomic.ai/news
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.nomic.ai/feed.xml
 - group: operate
   title: ''
   type: IssueTracker
@@ -176,19 +184,23 @@ common:
 created: '2026-05-23'
 description: Nomic AI builds open and accessible AI infrastructure. The company is known for the open-source Nomic Embed family (nomic-embed-text-v1.5, nomic-embed-vision-v1.5) of multilingual text and vision embedding models, the Nomic Atlas platform for exploring, labelling, and operationalising unstructured data via interactive 2D maps, and the GPT4All open-source ecosystem for running large language models locally on consumer CPUs and GPUs. The Nomic Atlas REST API at api-atlas.nomic.ai exposes endpoints for datasets, maps, embeddings, file parsing, and task status, with official Python and TypeScript SDKs.
 finops:
-- name: Nomic Ai Finops
+- has_sources: false
+  method: generated
+  name: Nomic Ai Finops
+  primary_unit: ''
   service_category: API
   slug: nomic-ai-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nomic-ai.png
 layout: provider
-modified: '2026-05-23'
+modified: '2026-10-06'
 name: Nomic AI
 nav: Providers
 network: true
-overview: 'Nomic AI publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Embeddings API, Files API, Tasks API, and 9 more. Tagged areas include Embeddings, Data Exploration, LLM, Open Source, and RAG.
+overview: 'Nomic AI publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including Embeddings API, Files API, Tasks API, and 9 more. Tagged areas include Embeddings, Data Exploration, LLM, Open Source, and RAG.
 
 
-  Nomic AI''s developer surface includes authentication, documentation, GitHub presence, and 12 more developer resources.'
+  Nomic AI''s developer surface includes engineering blog, authentication, documentation, GitHub presence, and 13 more developer resources.'
 plans:
 - name: Nomic Ai Plans Pricing
   plan_count: 1
@@ -200,22 +212,22 @@ rate_limits:
   slug: nomic-ai-rate-limits
 score:
   band: thin
-  composite: 36.2
+  composite: 30.6
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 54.4
+    artifact_dirs: 12
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 60.6
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.6
   facets:
-    access_clarity: 34.7
+    access_clarity: 13.2
     contract_governance: 0.0
     contract_quality: 52.2
-    developer_ergonomics: 21.4
+    developer_ergonomics: 23.8
     discoverability: 66.1
-    operational_transparency: 40.0
+    operational_transparency: 26.3
   previous_composite: 36.2
   provenance:
     agentic_access: derived
@@ -230,9 +242,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0
@@ -249,7 +261,7 @@ security:
 - kind: vulnerability-disclosure
   name: Nomic Ai Vulnerability Disclosure
   slug: nomic-ai-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 - kind: trust-center
   name: Nomic Ai Trust Center
   slug: nomic-ai-trust-center

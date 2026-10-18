@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 6
   slug: princess-beef-heavy-industries-agentic-access
   summary_line: 6 operations · 3 acting
-api_count: 1
+api_count: 2
 apis:
 - description: At Princess Beef Heavy Industries (or as we call it pb33f), we build beautifully designed heavy-duty and enterprise grade software for code hackers and ...
   name: Princess Beef Heavy Industries
@@ -65,6 +65,21 @@ collections:
   name: Princess Beef Heavy Industries pb33f Giftshop Product API
   slug: open-princess-beef-heavy-industries-product-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/princess-beef-heavy-industries/refs/heads/main/plans/princess-beef-heavy-industries-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/princess-beef-heavy-industries-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/princess-beef-heavy-industries/refs/heads/main/rate-limits/princess-beef-heavy-industries-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/princess-beef-heavy-industries-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/princess-beef-heavy-industries/refs/heads/main/finops/princess-beef-heavy-industries-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/princess-beef-heavy-industries-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/princess-beef-heavy-industries/refs/heads/main/agentic-access/princess-beef-heavy-industries-agentic-access.yml
   title: ''
@@ -87,9 +102,13 @@ common:
 created: '2025-01-08'
 description: At Princess Beef Heavy Industries (or as we call it pb33f), we build beautifully designed heavy-duty and enterprise grade software for code hackers and ...
 finops:
-- name: Princess Beef Heavy Industries Finops
+- has_sources: false
+  method: generated
+  name: Princess Beef Heavy Industries Finops
+  primary_unit: ''
   service_category: API
   slug: princess-beef-heavy-industries-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/princess-beef-heavy-industries.png
 json_schemas:
 - name: pb33f Giftshop Error
@@ -108,13 +127,13 @@ modified: '2026-05-19'
 name: Princess Beef Heavy Industries
 nav: Providers
 network: true
-overview: 'Princess Beef Heavy Industries publishes 2 APIs on the [APIs.io](https://apis.io/) network, including Product API, and 1 more. Tagged areas include Commerce, Documentation, Editor, Governance, and Platform.
+overview: 'Princess Beef Heavy Industries publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network, including Product API, and 1 more. Tagged areas include Commerce, Documentation, Editor, Governance, and Platform.
 
 
   The Princess Beef Heavy Industries catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Princess Beef Heavy Industries'' developer surface includes authentication and 3 more developer resources.'
+  Princess Beef Heavy Industries'' developer surface includes authentication and 6 more developer resources.'
 plans:
 - name: Princess Beef Heavy Industries Plans Pricing
   plan_count: 3
@@ -125,9 +144,10 @@ rate_limits:
   name: Princess Beef Heavy Industries Rate Limits
   slug: princess-beef-heavy-industries-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Princess Beef Heavy Industries API Rules
+  name: Princess Beef Heavy Industries — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -137,17 +157,17 @@ rules:
   slug: princess-beef-heavy-industries-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 30.6
+  composite: 29.1
   coverage:
     artifact_dirs: 12
-    catalog_earned: 53.3
+    catalog_earned: 50.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 61.8
+    catalog_gap: 64.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 9.8
     contract_quality: 65.2
     developer_ergonomics: 21.4
@@ -167,8 +187,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

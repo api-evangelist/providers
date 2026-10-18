@@ -20,21 +20,21 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: derived
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
-    reversibility_documented: na
+    rate_limit_signal: derived
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-04'
+  score: 18.6
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -69,7 +69,30 @@ apis:
   description: The RESO Web API API from Bridge Interactive — 7 operation(s) for reso web api.
   name: Bridge Interactive RESO Web API
   slug: bridge-interactive-reso-web-api-api
-artifact_total: 18
+- baseURL: https://api.bridgedataoutput.com/api/v2/OData
+  baseurl_source: declared
+  description: The Webhooks API from Bridge — 3 operation(s) for webhooks.
+  name: Bridge Interactive Webhooks API
+  slug: bridge-interactive-webhooks-api
+- baseURL: https://api.bridgedataoutput.com/api/v2/OData
+  baseurl_source: declared
+  description: RESO Property resource (listings)
+  name: Bridge Interactive Property API
+  slug: bridge-interactive-property-api
+- baseURL: https://api.bridgedataoutput.com/api/v2/OData
+  baseurl_source: declared
+  description: RESO Member resource (agents)
+  name: Bridge Interactive Member API
+  slug: bridge-interactive-member-api
+- baseURL: https://api.bridgedataoutput.com/api/v2/OData
+  baseurl_source: declared
+  description: RESO Office resource (brokerages)
+  name: Bridge Interactive Office API
+  slug: bridge-interactive-office-api
+- description: Zillow Group Data feeds delivered through Bridge — parcels, assessments, transactions, and Zillow Group Econ Data (ZHVI, ZORI, market metrics) — accessible via the same OData/RESO Web API surface as M
+  name: Zillow Group Data (ZG Data) API
+  slug: bridge-interactive-zillow-group-data-api
+artifact_total: 30
 collections:
 - collection_type: open
   name: API Collection
@@ -93,6 +116,36 @@ collections:
   name: Bridge API (Bridge Data Output)
   slug: open-bridge-interactive
 common:
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bridge-interactive/refs/heads/main/rules/bridge-interactive-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/bridge-interactive-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bridge-interactive/refs/heads/main/vocabulary/bridge-interactive-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/bridge-interactive-vocabulary.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bridge-interactive/refs/heads/main/data-model/bridge-interactive-data-model.yml
+  title: ''
+  type: DataModel
+  url: data-model/bridge-interactive-data-model.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bridge-interactive/refs/heads/main/errors/bridge-interactive-problem-types.yml
+  title: ''
+  type: ErrorCatalog
+  url: errors/bridge-interactive-problem-types.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bridge-interactive/refs/heads/main/conformance/bridge-interactive-conformance.yml
+  title: ''
+  type: Conformance
+  url: conformance/bridge-interactive-conformance.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/bridge-interactive/refs/heads/main/integrations/bridge-interactive-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/bridge-interactive-integration-edges.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/bridge-interactive/refs/heads/main/capabilities/bridge-interactive-capability-edges.yml
   title: ''
@@ -143,19 +196,47 @@ common:
 created: '2026-06-21'
 description: Bridge Interactive (a Zillow Group company) is a real-estate data-access platform that normalizes MLS listing data to RESO standards and serves it through the Bridge API. The Bridge Data Output platform exposes a proprietary RESTful Bridge Web API and a RESO-compliant RESO Web API (OData) for properties, members, offices, open houses, and media, all secured with a Bearer server token.
 finops:
-- name: Bridge Interactive Finops
+- has_sources: true
+  method: generated
+  name: Bridge Interactive Finops
+  primary_unit: ''
   service_category: Analytics and Data
   slug: bridge-interactive-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bridge-interactive.png
+json_schemas:
+- name: Bundle
+  property_count: 4
+  slug: bridge-interactive-bundle
+- name: ODataCollection
+  property_count: 3
+  slug: bridge-interactive-odata-collection
+- name: SingleResource
+  property_count: 3
+  slug: bridge-interactive-single-resource
+- name: Bridge RESO Member
+  property_count: 23
+  slug: bridge-member
+- name: Bridge RESO Property
+  property_count: 51
+  slug: bridge-property
+jsonld:
+- class_count: 31
+  name: Bridge Interactive Context
+  property_count: 1
+  slug: bridge-interactive-context
 layout: provider
 modified: '2026-09-16'
 name: Bridge Interactive
 nav: Providers
 network: true
-overview: 'Bridge Interactive publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Listings API, Offices API, and 2 more. Tagged areas include Real Estate, MLS, RESO, Listings, and Property Data.
+overview: 'Bridge Interactive publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agents API, Listings API, Offices API, and 7 more. Tagged areas include Real Estate, MLS, RESO, Listings, and Property Data.
 
 
-  Bridge Interactive''s developer surface includes authentication, documentation, and 8 more developer resources.'
+  The Bridge Interactive catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+
+
+  Bridge Interactive''s developer surface includes authentication, documentation, and 14 more developer resources.'
 plans:
 - name: Bridge Interactive Plans Pricing
   plan_count: 3
@@ -165,45 +246,59 @@ rate_limits:
 - limit_count: 4
   name: Bridge Interactive Rate Limits
   slug: bridge-interactive-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 53
+  extends:
+  - spectral:oas
+  name: Bridge Interactive API Rules
+  rule_count: 12
+  severity_counts:
+    error: 11
+    hint: 0
+    info: 1
+    warn: 0
+  slug: bridge-interactive-rules
 score:
   band: thin
-  composite: 31.7
+  composite: 28.5
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 61.6
+    artifact_dirs: 20
+    catalog_earned: 65.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.4
+    catalog_gap: 50.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.2
   facets:
-    access_clarity: 36.3
-    contract_governance: 0.0
-    contract_quality: 49.5
+    access_clarity: 7.9
+    contract_governance: 19.7
+    contract_quality: 59.9
     developer_ergonomics: 11.9
     discoverability: 66.1
-    operational_transparency: 28.4
+    operational_transparency: 7.9
   previous_composite: 31.7
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 5
+      total: 9
+    mcp: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+    score: 16.7
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/bridge-interactive/refs/heads/main/screenshots/bridge-interactive-2026-07-25T203811.png
 security:
 - kind: authentication

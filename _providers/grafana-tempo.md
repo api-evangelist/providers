@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: verified
     openapi_examples: false
     protected_resource_metadata: verified
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 51.7
-  scored_at: '2026-10-04'
+  score: 49.5
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -74,7 +74,7 @@ apis:
   description: The Traces API from Grafana Tempo — 1 operation(s) for traces.
   name: Grafana Tempo Traces API
   slug: grafana-tempo-traces-api
-artifact_total: 22
+artifact_total: 23
 collections:
 - collection_type: open
   name: API Collection
@@ -101,6 +101,21 @@ collections:
   name: Grafana Tempo HTTP API
   slug: open-tempo-http-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/grafana-tempo/refs/heads/main/plans/grafana-tempo-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/grafana-tempo-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/grafana-tempo/refs/heads/main/rate-limits/grafana-tempo-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/grafana-tempo-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/grafana-tempo/refs/heads/main/finops/grafana-tempo-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/grafana-tempo-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/grafana-tempo/refs/heads/main/capabilities/grafana-tempo-capability-edges.yml
   title: ''
@@ -152,9 +167,13 @@ common:
 created: '2026-03-26'
 description: Grafana Tempo is an open-source, high-scale distributed tracing backend that requires only object storage to operate, making it cost-effective and easy to run. It integrates deeply with Grafana, Prometheus, and Loki for seamless observability across metrics, logs, and traces.
 finops:
-- name: Grafana Tempo Finops
+- has_sources: false
+  method: generated
+  name: Grafana Tempo Finops
+  primary_unit: ''
   service_category: API
   slug: grafana-tempo-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/grafana-tempo.png
 layout: provider
 mcp_servers:
@@ -165,13 +184,13 @@ modified: '2026-05-19'
 name: Grafana Tempo
 nav: Providers
 network: true
-overview: 'Grafana Tempo publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Echo API, Metrics API, Ready API, and 3 more. Tagged areas include Distributed Tracing, Grafana, Microservices, Observability, and Open Source.
+overview: 'Grafana Tempo publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Echo API, Metrics API, Ready API, and 3 more. Tagged areas include Distributed Tracing, Grafana, Microservices, Observability, and Open Source.
 
 
   The Grafana Tempo catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Grafana Tempo''s developer surface includes documentation, getting-started guide, GitHub presence, engineering blog, pricing, and 6 more developer resources.'
+  Grafana Tempo''s developer surface includes documentation, getting-started guide, GitHub presence, engineering blog, pricing, and 9 more developer resources.'
 plans:
 - name: Grafana Tempo Plans Pricing
   plan_count: 3
@@ -182,9 +201,10 @@ rate_limits:
   name: Grafana Tempo Rate Limits
   slug: grafana-tempo-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: Grafana Tempo API Rules
+  name: Grafana Tempo — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -194,17 +214,17 @@ rules:
   slug: grafana-tempo-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 32.5
+  composite: 30.9
   coverage:
-    artifact_dirs: 16
-    catalog_earned: 49.7
+    artifact_dirs: 17
+    catalog_earned: 46.7
     catalog_earned_first_party: 0.0
-    catalog_gap: 65.4
+    catalog_gap: 68.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 34.2
+    access_clarity: 26.3
     contract_governance: 9.8
     contract_quality: 44.5
     developer_ergonomics: 23.8
@@ -225,8 +245,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -238,6 +258,10 @@ security:
   name: Grafana Tempo Domain Security
   slug: grafana-tempo-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Grafana Tempo Vulnerability Disclosure
+  slug: grafana-tempo-vulnerability-disclosure
+  summary_line: no policy recorded
 - kind: trust-center
   name: Grafana Tempo Trust Center
   slug: grafana-tempo-trust-center

@@ -26,13 +26,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.5
-  scored_at: '2026-10-04'
+  score: 30.3
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -59,6 +59,10 @@ collections:
   name: Kanye REST
   slug: open-kanye-rest
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://kanye.rest/blog/
 - group: operate
   title: ''
   type: IssueTracker
@@ -170,26 +174,27 @@ jsonld:
   property_count: 2
   slug: kanye-rest-context
 layout: provider
-modified: '2026-05-29'
+modified: '2026-10-06'
 name: kanye.rest
 nav: Providers
 network: true
-overview: 'kanye.rest publishes 1 API on the [APIs.io](https://apis.io/) network: Quotes API. Tagged areas include Personality, Quotes, Open Source, Cloudflare Workers, and Public APIs.
+overview: 'kanye.rest is listed with 1 API on the [APIs.io](https://apis.io/) network: Quotes API. Tagged areas include Personality, Quotes, Open Source, Cloudflare Workers, and Public APIs.
 
 
   The kanye.rest catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  kanye.rest''s developer surface includes CLI, code examples, and 16 more developer resources.'
+  kanye.rest''s developer surface includes engineering blog, CLI, code examples, and 16 more developer resources.'
 random_paper: 15
 rate_limits:
 - limit_count: 3
   name: Kanye Rest Rate Limits
   slug: kanye-rest-rate-limits
 rules:
-- effective_rule_count: 4
+- authorship: generated
+  effective_rule_count: 4
   extends: []
-  name: kanye.rest API Rules
+  name: kanye.rest — jsonschema rules
   rule_count: 4
   severity_counts:
     error: 0
@@ -197,7 +202,8 @@ rules:
     info: 1
     warn: 3
   slug: kanye-rest-jsonschema-spectral-rules
-- effective_rule_count: 84
+- authorship: generated
+  effective_rule_count: 84
   extends:
   - spectral:oas
   name: kanye.rest API Rules
@@ -210,22 +216,22 @@ rules:
   slug: kanye-rest-spectral-rules
 score:
   band: emerging
-  composite: 21.0
+  composite: 18.9
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 64.8
+    artifact_dirs: 14
+    catalog_earned: 57.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 50.2
+    catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.1
   facets:
     access_clarity: 0.0
     contract_governance: 27.3
     contract_quality: 21.3
-    developer_ergonomics: 7.1
+    developer_ergonomics: 9.5
     discoverability: 73.2
-    operational_transparency: 33.7
+    operational_transparency: 13.2
   previous_composite: 21.0
   provenance:
     agentic_access: derived
@@ -240,8 +246,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

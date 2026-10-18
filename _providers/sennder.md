@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: sennder offers partner-gated integration APIs that allow shippers, carriers, and TMS vendors to connect to the sennOS platform for shipment booking, dispatch, status updates, and real-time visibility.
@@ -41,6 +41,21 @@ apis:
   slug: partner-integration
 artifact_total: 5
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sennder/refs/heads/main/plans/sennder-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/sennder-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/sennder/refs/heads/main/rate-limits/sennder-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/sennder-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sennder/refs/heads/main/finops/sennder-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/sennder-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/sennder/refs/heads/main/security/sennder-domain-security.yml
   title: ''
@@ -125,19 +140,23 @@ common:
 created: '2026-05-23'
 description: sennder is Europe's leading digital road freight forwarder, connecting enterprise shippers with a vetted carrier network of 40,000+ small and medium-sized European carriers operating 250,000+ vehicles across 20+ European markets. Headquartered in Berlin with 20 offices across Germany, Italy, Spain, France, Poland, the Netherlands, Latvia, and Romania, sennder runs its proprietary sennOS platform covering end-to-end digital shipment lifecycle management, real-time visibility and tracking, self- service booking at fixed and market prices, and integrated carrier and shipper portals (including a driver app and shipper TMS connectors). sennder operates partner-gated integration APIs for carriers, shippers, and TMS vendors (joined via business onboarding rather than public self- service), and publishes open-source tooling on GitHub including a generator for Python httpx + Pydantic clients from OpenAPI definitions. Sustainability offerings include biofuel and electric vehicle options.
 finops:
-- name: Sennder Finops
+- has_sources: false
+  method: generated
+  name: Sennder Finops
+  primary_unit: ''
   service_category: API
   slug: sennder-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sennder.png
 layout: provider
 modified: '2026-05-23'
 name: sennder
 nav: Providers
 network: true
-overview: 'sennder publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Carrier, Digital Freight, Europe, Freight Forwarding, and Logistics.
+overview: 'sennder is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Carrier, Digital Freight, Europe, Freight Forwarding, and Logistics.
 
 
-  sennder''s developer surface includes engineering blog, developer portal, YouTube channel, and 17 more developer resources.'
+  sennder''s developer surface includes engineering blog, developer portal, YouTube channel, and 20 more developer resources.'
 plans:
 - name: Sennder Plans Pricing
   plan_count: 1
@@ -149,22 +168,22 @@ rate_limits:
   slug: sennder-rate-limits
 score:
   band: emerging
-  composite: 22.6
+  composite: 16.5
   coverage:
-    artifact_dirs: 6
-    catalog_earned: 49.4
+    artifact_dirs: 7
+    catalog_earned: 36.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 65.6
+    catalog_gap: 79.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.1
   facets:
-    access_clarity: 47.9
+    access_clarity: 26.3
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 23.8
     discoverability: 64.3
-    operational_transparency: 24.2
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -180,9 +199,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 11.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

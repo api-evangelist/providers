@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.prodigaltech.com/blog/rss.xml
 - group: company
   title: ''
   type: Website
@@ -79,18 +83,18 @@ created: '2026-07-17'
 description: Prodigal is an AI company building purpose-built agents and intelligence for the loan-servicing and debt-collections industry. Its products include proAgent (end-to-end collections automation across voice and digital), PIE (an intelligence layer trained on more than half a billion consumer-finance interactions), proCollect (omnichannel digital orchestration), proScore (propensity-to-pay scoring from 500+ consumer attributes), proPay (an AI-native self-serve payment portal), proNotes (automated call notes), proInsight (QA automation, scorecards, and revenue analytics), and proAssist (real-time agent assistance). Prodigal serves auto finance, collections, healthcare revenue-cycle management, and lending, integrating with dialers and contact-center platforms such as Five9, Genesys, NICE, TCN, and DialConnect. It is backed by Accel and Menlo Ventures. Prodigal exposes no public developer API; this profile captures its identity, security posture, and compliance program.
 image: https://cdn.prod.website-files.com/5fcb3bbf6fdac54bdd345a59/66f54623a3eac7d7e5edab8e_home.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Prodigal
 nav: Providers
 network: true
 overview: 'Prodigal is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Artificial Intelligence, Debt Collections, and Loan Servicing.
 
 
-  Prodigal''s developer surface includes engineering blog, support, and 7 more developer resources.'
+  Prodigal''s developer surface includes engineering blog, support, and 8 more developer resources.'
 random_paper: 14
 score:
   band: emerging
-  composite: 13.8
+  composite: 13.9
   coverage:
     artifact_dirs: 5
     catalog_earned: 27.0
@@ -98,7 +102,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 36.8
     contract_governance: 0.0
@@ -113,8 +117,8 @@ score:
     regime: Health
     regime_id: health
     score: 14.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

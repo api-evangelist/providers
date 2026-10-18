@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 5
 apis:
 - description: Resurface captures complete API request and response data in real time, providing full-payload API call logging with no sampling. Security teams use it to detect threats, identify data leaks, and ensu
@@ -54,6 +54,21 @@ apis:
   slug: resurface-trino-connector
 artifact_total: 13
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/resurface/refs/heads/main/plans/resurface-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/resurface-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/resurface/refs/heads/main/rate-limits/resurface-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/resurface-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/resurface/refs/heads/main/finops/resurface-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/resurface-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/resurface/refs/heads/main/security/resurface-domain-security.yml
   title: ''
@@ -110,9 +125,13 @@ common:
 created: '2026-03-26'
 description: Resurface (now Graylog API Security) is an API runtime security and observability platform that captures and analyzes complete API request and response payloads in real time. It provides full API call logging, threat detection, data leak prevention, and compliance auditing for API traffic without sampling or aggregation. Acquired by Graylog and integrated into the Graylog SIEM platform.
 finops:
-- name: Resurface Finops
+- has_sources: false
+  method: generated
+  name: Resurface Finops
+  primary_unit: ''
   service_category: API
   slug: resurface-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/resurface.png
 json_schemas:
 - name: Resurface API Call Log
@@ -132,13 +151,13 @@ modified: '2026-05-02'
 name: Resurface
 nav: Providers
 network: true
-overview: 'Resurface publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include API Analytics, API Compliance, API Logging, API Observability, and API Security.
+overview: 'Resurface is listed with 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include API Analytics, API Compliance, API Logging, API Observability, and API Security.
 
 
   The Resurface catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Resurface''s developer surface includes documentation, engineering blog, GitHub presence, pricing, support, and 8 more developer resources.'
+  Resurface''s developer surface includes documentation, engineering blog, GitHub presence, pricing, support, and 11 more developer resources.'
 plans:
 - name: Resurface Plans Pricing
   plan_count: 3
@@ -149,9 +168,10 @@ rate_limits:
   name: Resurface Rate Limits
   slug: resurface-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Resurface API Rules
+  name: Resurface — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -161,17 +181,17 @@ rules:
   slug: resurface-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 21.9
+  composite: 20.4
   coverage:
     artifact_dirs: 12
-    catalog_earned: 68.2
+    catalog_earned: 65.2
     catalog_earned_first_party: 0.0
-    catalog_gap: 46.9
+    catalog_gap: 49.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 22.4
+    access_clarity: 14.5
     contract_governance: 23.5
     contract_quality: 21.9
     developer_ergonomics: 9.5
@@ -184,8 +204,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 1
@@ -249,7 +249,7 @@ modified: '2026-07-23'
 name: TSB Bank
 nav: Providers
 network: true
-overview: 'TSB Bank publishes 12 APIs on the [APIs.io](https://apis.io/) network, including ATM API, Authorization Server APIs API, BCA API, and 9 more. Tagged areas include Financial Services, Banking, Open Banking, PSD2, and OBIE.
+overview: 'TSB Bank publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including ATM API, Authorization Server APIs API, BCA API, and 9 more. Tagged areas include Financial Services, Banking, Open Banking, PSD2, and OBIE.
 
 
   TSB Bank''s developer surface includes authentication, documentation, support, and 25 more developer resources.'
@@ -263,7 +263,7 @@ score:
   band: thin
   composite: 36.7
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -306,8 +306,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 48.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

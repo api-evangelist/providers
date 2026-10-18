@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://medium.com/feed/@admin_31497
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/stockly/refs/heads/main/security/stockly-domain-security.yml
   title: ''
@@ -74,26 +78,26 @@ created: '2026-07-17'
 description: Stockly (Stockly SAS, headquartered in Vitry-sur-Seine, France) operates a global inventory network for e-commerce, positioning itself as "the first global inventory for Retail." It connects online retailers that are missing stock (Demanders) with brands and official retailers that hold surplus inventory (Suppliers), detecting out-of-stock variants and filling the gaps in real time so that e-shops never run out of stock. Stockly integrates directly with a retailer's e-commerce infrastructure via API, a CMS, or a marketplace, and is building toward a stock exchange for e-commerce inventory in compliance with brands' distribution policies. The company reports 300+ partnered retailers across Europe and 100M+ available items, and is backed by Techstars. Stockly is primarily a partner-onboarded platform rather than a broad self-serve public developer API.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/stockly.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Stockly
 nav: Providers
 network: true
 overview: 'Stockly is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Retail, Inventory, and Stock Management.
 
 
-  Stockly''s developer surface includes support, engineering blog, and 6 more developer resources.'
+  Stockly''s developer surface includes support, engineering blog, and 7 more developer resources.'
 random_paper: 7
 score:
   band: emerging
-  composite: 11.2
+  composite: 11.3
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
@@ -113,8 +117,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

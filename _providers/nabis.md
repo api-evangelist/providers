@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 27.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - baseURL: https://platform-api.nabis.pro
@@ -283,7 +283,7 @@ modified: '2026-09-16'
 name: Nabis
 nav: Providers
 network: true
-overview: 'Nabis publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Collection API, Inventory API, Inventory History API, and 15 more. Tagged areas include Cannabis, Distribution, Wholesale, Marketplace, and Logistics.
+overview: 'Nabis publishes 18 API contracts indexed on the [APIs.io](https://apis.io/) network, including Collection API, Inventory API, Inventory History API, and 15 more. Tagged areas include Cannabis, Distribution, Wholesale, Marketplace, and Logistics.
 
 
   Nabis'' developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, signup flow, and 24 more developer resources.'
@@ -330,8 +330,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

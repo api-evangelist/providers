@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://api.postex.pk/services/integration/api/order
@@ -59,6 +59,10 @@ collections:
   name: PostEx Merchant Order Integration Orders Reference API
   slug: open-postex-reference-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://postex.pk/blogs
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/postex/refs/heads/main/overlays/postex-order-overlay.yaml
   title: ''
@@ -102,31 +106,31 @@ created: '2026-07-17'
 description: PostEx is a Pakistani e-commerce logistics, courier, and fintech platform that provides cash-on-delivery parcel fulfilment with instant upfront payments to online merchants, alongside a business suite for expense management, working- capital financing, and the XPay payment gateway. Merchants and order- management systems integrate with PostEx through its merchant Order Integration API (https://api.postex.pk) to book shipments, look up operational cities and pickup addresses, track parcels, and reconcile orders. This profile was enriched by API Evangelist by live-probing the production API host, which confirmed a real merchant integration surface authenticated with a token request header. PostEx is backed by 500 Global.
 image: https://postex.pk/favicon.ico
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: PostEx
 nav: Providers
 network: true
-overview: 'PostEx publishes 2 APIs on the [APIs.io](https://apis.io/) network: Orders API and Reference API. Tagged areas include Company, Logistics, Couriers, Shipping, and E-Commerce.
+overview: 'PostEx publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Orders API and Reference API. Tagged areas include Company, Logistics, Couriers, Shipping, and E-Commerce.
 
 
-  PostEx''s developer surface includes authentication and 7 more developer resources.'
+  PostEx''s developer surface includes engineering blog, authentication, and 7 more developer resources.'
 random_paper: 15
 score:
   band: emerging
-  composite: 21.1
+  composite: 21.6
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 18
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 0.0
     contract_governance: 4.5
     contract_quality: 50.2
-    developer_ergonomics: 13.7
+    developer_ergonomics: 16.1
     discoverability: 66.1
     operational_transparency: 0.0
   jurisdiction:
@@ -150,8 +154,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 15.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

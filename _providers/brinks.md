@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The 24SEVEN ACCESS customer portal enables businesses to digitally manage Brink's cash management services including tracking cash deposits, ordering change, and monitoring operations through mobile d
@@ -41,6 +41,11 @@ apis:
   slug: customer-portal-api
 artifact_total: 5
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/brinks/refs/heads/main/finops/brinks-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/brinks-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/brinks/refs/heads/main/security/brinks-domain-security.yml
   title: ''
@@ -124,19 +129,23 @@ coverage:
 created: '2026-03-23'
 description: Brink's is a global leader in secure cash management, armored transport, ATM services, and financial security solutions. The company serves retail, restaurant, financial institutions, and entertainment businesses with its Total Cash Management platform, combining hardware, software, and logistics services. Brink's digital customer portal 24SEVEN ACCESS enables businesses to track cash deposits, order change, and manage operations via mobile and desktop interfaces. Additional products include the Brink's Armored Account payment processing service, Brink's Money paycard for employee payments, and RetailBox point-of-sale cash management.
 finops:
-- name: Brinks Finops
+- has_sources: true
+  method: generated
+  name: Brinks Finops
+  primary_unit: ''
   service_category: Cash Management & Logistics
   slug: brinks-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/brinks.png
 layout: provider
 modified: '2026-09-04'
 name: Brinks
 nav: Providers
 network: true
-overview: 'Brinks publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Cash Management, Security, ATM Services, Financial Services, and Armored Transport.
+overview: 'Brinks is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Cash Management, Security, ATM Services, Financial Services, and Armored Transport.
 
 
-  Brinks'' developer surface includes pricing, support, engineering blog, and 12 more developer resources.'
+  Brinks'' developer surface includes pricing, support, engineering blog, and 13 more developer resources.'
 plans:
 - name: Brinks Plans Pricing
   plan_count: 2
@@ -164,17 +173,17 @@ rate_limits:
   slug: brinks-rate-limits
 score:
   band: emerging
-  composite: 23.2
+  composite: 21.7
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 43.0
+    artifact_dirs: 12
+    catalog_earned: 40.0
     catalog_earned_first_party: 8.0
-    catalog_gap: 72.0
+    catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 67.1
+    access_clarity: 59.2
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 16.7
@@ -187,8 +196,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

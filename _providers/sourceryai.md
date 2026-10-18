@@ -32,10 +32,19 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
-artifact_total: 3
+artifact_total: 4
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sourceryai/refs/heads/main/plans/sourceryai-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/sourceryai-plans-pricing.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.sourcery.ai/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/sourceryai/refs/heads/main/security/sourceryai-trust-center.yml
   title: ''
@@ -128,28 +137,32 @@ created: '2026-07-17'
 description: Sourcery is an AI-powered code review platform built for teams shipping large volumes of AI-generated and human-written code. It delivers instant automated pull-request reviews with summaries, diagrams, and line-by-line suggestions, continuous security scanning (SAST, SCA, secrets, IaC, and license detection), team analytics, and real-time in-IDE review feedback. Sourcery integrates with GitHub, GitLab, VS Code, Cursor, and JetBrains IDEs, and works alongside coding agents to automatically fix the issues it identifies. The company also maintains the open-source Sourcery Python refactoring CLI and the sourcery-analytics code quality toolkit. Sourcery is SOC 2 and GDPR compliant, with enterprise options for self-hosting, zero data retention, custom LLM endpoints, and no training on customer code.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sourceryai.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Sourcery.AI
 nav: Providers
 network: true
 overview: 'Sourcery.AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Code Review, Developer Tools, Static Analysis, and Security Scanning.
 
 
-  Sourcery.AI''s developer surface includes CLI, documentation, getting-started guide, pricing, engineering blog, signup flow, changelog, and 13 more developer resources.'
+  Sourcery.AI''s developer surface includes CLI, documentation, getting-started guide, pricing, engineering blog, signup flow, changelog, and 15 more developer resources.'
+plans:
+- name: Sourceryai Plans Pricing
+  plan_count: 6
+  slug: sourceryai-plans-pricing
 random_paper: 16
 score:
-  band: emerging
-  composite: 25.2
+  band: thin
+  composite: 31.6
   coverage:
-    artifact_dirs: 8
-    catalog_earned: 27.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 88.0
+    artifact_dirs: 10
+    catalog_earned: 39.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.4
   facets:
-    access_clarity: 39.5
+    access_clarity: 71.1
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 38.1
@@ -162,9 +175,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -178,7 +191,7 @@ security:
 - kind: vulnerability-disclosure
   name: Sourceryai Vulnerability Disclosure
   slug: sourceryai-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 - kind: trust-center
   name: Sourceryai Trust Center
   slug: sourceryai-trust-center

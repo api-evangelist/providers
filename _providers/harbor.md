@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: verified
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.4
-  scored_at: '2026-10-04'
+  score: 26.5
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -102,6 +102,21 @@ collections:
   name: Harbor API
   slug: open-harbor
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/harbor/refs/heads/main/plans/harbor-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/harbor-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/harbor/refs/heads/main/rate-limits/harbor-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/harbor-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/harbor/refs/heads/main/finops/harbor-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/harbor-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/harbor/refs/heads/main/capabilities/harbor-capability-edges.yml
   title: ''
@@ -151,9 +166,13 @@ common:
 created: '2025-02-17'
 description: Harbor is a no-code tool that lets brands build an owned community platform where superfans can engage with the brand and earn rewards. Harbor enables businesses to create superfan strategies through customizable community platforms with engagement and loyalty features.
 finops:
-- name: Harbor Finops
+- has_sources: false
+  method: generated
+  name: Harbor Finops
+  primary_unit: ''
   service_category: API
   slug: harbor-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/harbor.png
 json_schemas:
 - name: Harbor Account
@@ -176,13 +195,13 @@ modified: '2026-05-19'
 name: Harbor
 nav: Providers
 network: true
-overview: 'Harbor publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Challenges API, Communities API, Leaderboards API, and 3 more. Tagged areas include Community, Engagement, Loyalty, and Superfans.
+overview: 'Harbor publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Challenges API, Communities API, Leaderboards API, and 3 more. Tagged areas include Community, Engagement, Loyalty, and Superfans.
 
 
   The Harbor catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Harbor''s developer surface includes authentication, documentation, and 8 more developer resources.'
+  Harbor''s developer surface includes authentication, documentation, and 11 more developer resources.'
 plans:
 - name: Harbor Plans Pricing
   plan_count: 3
@@ -193,9 +212,10 @@ rate_limits:
   name: Harbor Rate Limits
   slug: harbor-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: Harbor API Rules
+  name: Harbor — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -205,17 +225,17 @@ rules:
   slug: harbor-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 35.5
+  composite: 34.0
   coverage:
-    artifact_dirs: 14
-    catalog_earned: 53.3
+    artifact_dirs: 17
+    catalog_earned: 50.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 61.8
+    catalog_gap: 64.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 26.3
+    access_clarity: 18.4
     contract_governance: 9.8
     contract_quality: 61.6
     developer_ergonomics: 21.4
@@ -236,8 +256,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -36,10 +36,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 5
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.juullabs.com/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/juul/refs/heads/main/security/juul-domain-security.yml
   title: ''
@@ -130,14 +134,14 @@ description: 'JUUL Labs is the San Francisco-headquartered maker of the JUUL vap
   under the com.juul.* group IDs — and it serves a real OAuth 2.0 / OpenID Connect discovery document from its consumer commerce host for its own first-party web and mobile sign-in.'
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 layout: provider
-modified: '2026-08-23'
+modified: '2026-10-06'
 name: JUUL
 nav: Providers
 network: true
 overview: 'JUUL is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer Products, Nicotine, Vaping, and Hardware.
 
 
-  JUUL''s developer surface includes support, engineering blog, authentication, and 12 more developer resources.'
+  JUUL''s developer surface includes support, engineering blog, authentication, and 13 more developer resources.'
 plans:
 - name: Juul Plans Pricing
   plan_count: 0
@@ -186,8 +190,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 34.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

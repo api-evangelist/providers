@@ -28,21 +28,21 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.5
-  scored_at: '2026-10-04'
+  score: 23.7
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 16
+- acting_count: 12
   human_in_the_loop: 0
   name: Parea Agentic Access
   operation_count: 20
   slug: parea-agentic-access
-  summary_line: 20 operations · 16 acting
-api_count: 1
+  summary_line: 20 operations · 12 acting
+api_count: 2
 apis:
 - baseURL: https://parea-ai-backend-us-9ac16cdbc7a7b006.onporter.run
   baseurl_source: declared
@@ -139,9 +139,13 @@ common:
 created: 2026-06-13
 description: Parea AI is an LLM evaluation, testing, and observability platform designed for AI engineering teams building production-ready LLM applications. The platform provides a REST API for managing prompt versions, running automated test suites, collecting human feedback, and tracking quality metrics across model versions. Parea supports experiment tracking with aggregate statistics, trace logging for end-to-end observability, and an LLM proxy gateway that enables unified access to multiple model providers with built-in caching and retries. Native SDKs for Python and TypeScript integrate with popular frameworks including OpenAI, Anthropic, LangChain, Instructor, DSPy, and LiteLLM, making it easy to instrument existing applications.
 finops:
-- name: Parea Finops
+- has_sources: false
+  method: generated
+  name: Parea Finops
+  primary_unit: ''
   service_category: ''
   slug: parea-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/parea.png
 json_schemas:
 - name: AddColumnsSchema
@@ -184,7 +188,7 @@ modified: 2026-06-13
 name: Parea AI
 nav: Providers
 network: true
-overview: 'Parea AI publishes 1 API on the [APIs.io](https://apis.io/) network: Parea API. Tagged areas include LLM, Evaluation, Observability, Testing, and Prompt Management.
+overview: 'Parea AI publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Parea API. Tagged areas include LLM, Evaluation, Observability, Testing, and Prompt Management.
 
 
   The Parea AI catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -201,9 +205,10 @@ rate_limits:
   name: Parea Rate Limits
   slug: parea-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Parea AI API Rules
+  name: Parea AI — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -217,23 +222,23 @@ scopes:
   slug: parea-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 44.3
+  band: thin
+  composite: 36.0
   coverage:
     artifact_dirs: 17
-    catalog_earned: 80.4
+    catalog_earned: 61.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 34.6
+    catalog_gap: 53.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 41.6
+    access_clarity: 13.2
     contract_governance: 23.5
     contract_quality: 51.6
     developer_ergonomics: 23.8
     discoverability: 66.1
-    operational_transparency: 33.7
+    operational_transparency: 13.2
   previous_composite: 44.3
   provenance:
     agentic_access: derived
@@ -248,9 +253,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 38.9

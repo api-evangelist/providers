@@ -32,14 +32,19 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: HTTP API that gives programmatic access to SnapMagic Search's library of electronic component symbols, PCB footprints, and 3D models. Access is provided on request via the get-api page.
   name: SnapMagic Search API
   slug: snapmagic-search-api
-artifact_total: 2
+artifact_total: 3
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/snapmagic/refs/heads/main/plans/snapmagic-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/snapmagic-plans-pricing.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/snapmagic/refs/heads/main/security/snapmagic-domain-security.yml
   title: ''
@@ -101,24 +106,28 @@ modified: '2026-07-21'
 name: SnapMagic
 nav: Providers
 network: true
-overview: 'SnapMagic publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Electronics, PCB Design, Electronic Design Automation, and CAD.
+overview: 'SnapMagic is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Electronics, PCB Design, Electronic Design Automation, and CAD.
 
 
-  SnapMagic''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 6 more developer resources.'
+  SnapMagic''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 7 more developer resources.'
+plans:
+- name: Snapmagic Plans Pricing
+  plan_count: 5
+  slug: snapmagic-plans-pricing
 random_paper: 1
 score:
-  band: emerging
-  composite: 24.5
+  band: thin
+  composite: 30.9
   coverage:
-    artifact_dirs: 4
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 5
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.4
   facets:
-    access_clarity: 44.7
+    access_clarity: 76.3
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 45.2
@@ -131,9 +140,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 12.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

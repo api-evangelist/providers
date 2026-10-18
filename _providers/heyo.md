@@ -34,10 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.heyo.com/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/heyo/refs/heads/main/security/heyo-domain-security.yml
   title: ''
@@ -108,14 +112,14 @@ created: '2026-07-17'
 description: Heyo is a social marketing platform for building and running online promotions such as sweepstakes, contests, giveaways, quizzes, and coupons. Businesses use Heyo's drag-and-drop campaign builder and landing pages to create interactive campaign apps that publish to the web, mobile, and social networks including Facebook, Instagram, and Twitter. It is used to grow email marketing lists, generate sales leads, acquire new customers, reward existing customers, and increase social followers, with templated promotion apps and a free trial. Heyo is a portfolio company of 500 Global and was acquired by Votigo, Inc. in January 2016, continuing to operate as a stand-alone self-serve brand. Heyo publishes no public API, SDK or developer portal; the product is used entirely through the web dashboard at platform.heyo.com.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/heyo.png
 layout: provider
-modified: '2026-08-13'
+modified: '2026-10-06'
 name: Heyo
 nav: Providers
 network: true
 overview: 'Heyo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketing, Social Media, Promotions, and Contests.
 
 
-  Heyo''s developer surface includes pricing, signup flow, support, engineering blog, and 8 more developer resources.'
+  Heyo''s developer surface includes pricing, signup flow, support, engineering blog, and 9 more developer resources.'
 plans:
 - name: Heyo Plans Pricing
   plan_count: 4
@@ -127,7 +131,7 @@ rate_limits:
   slug: heyo-rate-limits
 score:
   band: emerging
-  composite: 21.9
+  composite: 22.0
   coverage:
     artifact_dirs: 8
     catalog_earned: 39.0
@@ -135,7 +139,7 @@ score:
     catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 76.3
     contract_governance: 0.0
@@ -150,8 +154,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

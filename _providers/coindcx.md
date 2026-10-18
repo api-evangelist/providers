@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 14.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: Cryptocurrency Trading Platform
@@ -70,16 +70,17 @@ modified: '2026-05-30'
 name: CoinDCX
 nav: Providers
 network: true
-overview: 'CoinDCX publishes 2 APIs on the [APIs.io](https://apis.io/) network, including Streaming Socket.IO API, and 1 more. Tagged areas include Cryptocurrency, Public APIs, and Real-Time.
+overview: 'CoinDCX is listed with 2 APIs on the [APIs.io](https://apis.io/) network, including Streaming Socket.IO API, and 1 more. Tagged areas include Cryptocurrency, Public APIs, and Real-Time.
 
 
   The CoinDCX catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.'
 random_paper: 18
 rules:
-- effective_rule_count: 36
+- authorship: generated
+  effective_rule_count: 36
   extends:
   - spectral:asyncapi
-  name: CoinDCX API Rules
+  name: CoinDCX — asyncapi rules
   rule_count: 9
   severity_counts:
     error: 1
@@ -91,7 +92,7 @@ score:
   band: emerging
   composite: 17.7
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 26.5
     catalog_earned_first_party: 0.0
     catalog_gap: 88.5
@@ -112,8 +113,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

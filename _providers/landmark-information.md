@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 45.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 1
@@ -346,7 +346,7 @@ modified: '2026-07-26'
 name: Landmark Information Group
 nav: Providers
 network: true
-overview: 'Landmark Information Group publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Activities API, Cases API, Document Vaults API, and 7 more. Tagged areas include Real Estate, United Kingdom, PropTech, Property Data, and Conveyancing.
+overview: 'Landmark Information Group publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Activities API, Cases API, Document Vaults API, and 7 more. Tagged areas include Real Estate, United Kingdom, PropTech, Property Data, and Conveyancing.
 
 
   The Landmark Information Group catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -367,7 +367,7 @@ score:
   band: developing
   composite: 52.4
   coverage:
-    artifact_dirs: 25
+    artifact_dirs: 26
     catalog_earned: 43.0
     catalog_earned_first_party: 8.0
     catalog_gap: 72.0
@@ -406,8 +406,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

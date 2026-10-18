@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 44.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 136
+- acting_count: 115
   human_in_the_loop: 0
   name: Nationgraph Agentic Access
   operation_count: 253
   slug: nationgraph-agentic-access
-  summary_line: 253 operations · 136 acting
+  summary_line: 253 operations · 115 acting
 api_count: 1
 apis:
 - baseURL: https://api.nationgraph.com
@@ -633,7 +633,7 @@ modified: '2026-08-14'
 name: NationGraph
 nav: Providers
 network: true
-overview: 'NationGraph publishes 56 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Automations API, Budgets API, and 53 more. Tagged areas include Company, Sales Intelligence, Public Sector, Government, and SLED.
+overview: 'NationGraph publishes 56 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, Automations API, Budgets API, and 53 more. Tagged areas include Company, Sales Intelligence, Public Sector, Government, and SLED.
 
 
   NationGraph''s developer surface includes authentication, documentation, support, engineering blog, and 23 more developer resources.'
@@ -655,7 +655,7 @@ score:
   band: developing
   composite: 43.4
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -686,8 +686,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 39.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

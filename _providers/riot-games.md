@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-04'
+  score: 20.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -132,6 +132,25 @@ collections:
   name: Riot Games League of Legends Champion Summoner API
   slug: open-riot-games-summoner-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/riot-games/refs/heads/main/plans/riot-games-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/riot-games-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/riot-games/refs/heads/main/rate-limits/riot-games-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/riot-games-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/riot-games/refs/heads/main/finops/riot-games-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/riot-games-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.riotgames.com/en/news
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/riot-games/refs/heads/main/agentic-access/riot-games-agentic-access.yml
   title: ''
@@ -222,9 +241,13 @@ examples:
   name: Riot Games Get Summoner Example
   slug: riot-games-get-summoner-example
 finops:
-- name: Riot Games Finops
+- has_sources: true
+  method: generated
+  name: Riot Games Finops
+  primary_unit: ''
   service_category: Gaming Developer Platform
   slug: riot-games-finops
+  template: false
 graphqls:
 - description: This GraphQL schema provides a unified query interface over the Riot Games Developer API, covering League of Legends, VALORANT, Teamfight Tactics, Legends of Runeterra, and the cross-game Account API.
   name: Riot Games GraphQL Schema
@@ -292,17 +315,17 @@ jsonld:
   property_count: 0
   slug: riot-games-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-10-06'
 name: Riot Games
 nav: Providers
 network: true
-overview: 'Riot Games publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Champion API, Champion Mastery API, Clash API, and 10 more. Tagged areas include Esports, Gaming, League of Legends, Legends of Runeterra, and Teamfight Tactics.
+overview: 'Riot Games publishes 13 API contracts indexed on the [APIs.io](https://apis.io/) network, including Champion API, Champion Mastery API, Clash API, and 10 more. Tagged areas include Esports, Gaming, League of Legends, Legends of Runeterra, and Teamfight Tactics.
 
 
   The Riot Games catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Riot Games'' developer surface includes authentication, documentation, signup flow, and 16 more developer resources.'
+  Riot Games'' developer surface includes engineering blog, authentication, documentation, signup flow, and 19 more developer resources.'
 plans:
 - name: Riot Games Plans Pricing
   plan_count: 3
@@ -313,9 +336,10 @@ rate_limits:
   name: Riot Games Rate Limits
   slug: riot-games-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Riot Games API Rules
+  name: Riot Games — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -323,7 +347,8 @@ rules:
     info: 2
     warn: 3
   slug: riot-games-jsonschema-spectral-rules
-- effective_rule_count: 10
+- authorship: unmarked
+  effective_rule_count: 10
   extends: []
   name: Riot Games API Rules
   rule_count: 10
@@ -335,20 +360,20 @@ rules:
   slug: riot-games-rules
 score:
   band: thin
-  composite: 39.1
+  composite: 38.1
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 61.8
+    artifact_dirs: 18
+    catalog_earned: 58.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.3
+    catalog_gap: 56.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.0
   facets:
-    access_clarity: 39.5
+    access_clarity: 31.6
     contract_governance: 23.5
     contract_quality: 56.7
-    developer_ergonomics: 21.4
+    developer_ergonomics: 23.8
     discoverability: 66.1
     operational_transparency: 13.2
   previous_composite: 39.1
@@ -365,8 +390,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

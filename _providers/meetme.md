@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.meetme.com/en/press/
 - group: company
   title: ''
   type: Website
@@ -61,31 +65,31 @@ created: '2026-07-17'
 description: MeetMe is a consumer social-discovery and chat platform that helps people find and connect with new people nearby who share their interests, through profiles, feeds, live streaming, and real-time messaging on web and mobile. Operated by The Meet Group as part of the ParshipMeet Group, MeetMe grew out of the myYearbook social network and today runs as a location-aware social networking and dating-adjacent app. It was surfaced as a portfolio company of a16z and Norwest Venture Partners and added to the API Evangelist network. As of this enrichment pass MeetMe publishes no public developer portal, API reference, OpenAPI, or SDKs — this profile captures its identity, legal surface, and live domain-security posture only.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/meetme.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: MeetMe
 nav: Providers
 network: true
 overview: 'MeetMe is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Social, Social Network, Dating, and Messaging.
 
 
-  MeetMe''s developer surface includes support and 4 more developer resources.'
+  MeetMe''s developer surface includes engineering blog, support, and 4 more developer resources.'
 random_paper: 21
 score:
   band: minimal
-  composite: 9.7
+  composite: 10.3
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 4.8
+    developer_ergonomics: 7.1
     discoverability: 48.2
     operational_transparency: 0.0
   previous_composite: 9.7
@@ -95,8 +99,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

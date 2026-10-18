@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'Armature''s programmable surface: an ingest API fed by the TypeScript/Python/Go MCP-analytics SDKs, and a read-only hosted MCP server (mcp.armature.tech) that serves reconstructed sessions, use-case cl'
@@ -148,7 +148,7 @@ modified: '2026-07-18'
 name: Armature
 nav: Providers
 network: true
-overview: 'Armature publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Agent Experience, MCP, Analytics, and Observability.
+overview: 'Armature is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Agent Experience, MCP, Analytics, and Observability.
 
 
   Armature''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, and 15 more developer resources.'
@@ -182,8 +182,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

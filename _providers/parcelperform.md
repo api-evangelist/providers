@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -110,6 +110,10 @@ collections:
   name: Parcel Perform API
   slug: open-parcelperform
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.perform.ai/insights
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/parcelperform/refs/heads/main/capabilities/parcelperform-capability-edges.yml
   title: ''
@@ -169,19 +173,23 @@ common:
 created: '2026-07-03'
 description: Parcel Perform is a Singapore-headquartered Data & Delivery Experience Platform that aggregates real-time tracking data across hundreds of carriers worldwide into one standardized event model, then layers post-purchase tracking pages, proactive notifications, logistics performance analytics, and returns management on top. The Parcel Perform API (developer portal at developer.parcelperform.com) lets merchants and platforms create and retrieve shipments and their tracking events, manage returns, and receive outgoing webhooks for tracking-status changes, authenticated with OAuth2 client-credentials bearer tokens.
 finops:
-- name: Parcelperform Finops
+- has_sources: true
+  method: generated
+  name: Parcelperform Finops
+  primary_unit: ''
   service_category: Logistics and Delivery Experience
   slug: parcelperform-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/parcelperform.png
 layout: provider
-modified: '2026-07-03'
+modified: '2026-10-06'
 name: Parcel Perform
 nav: Providers
 network: true
-overview: 'Parcel Perform publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Authentication API, Couriers API, and 4 more. Tagged areas include Logistics, Shipment Tracking, Post-Purchase, Delivery Experience, and Returns.
+overview: 'Parcel Perform publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Analytics API, Authentication API, Couriers API, and 4 more. Tagged areas include Logistics, Shipment Tracking, Post-Purchase, Delivery Experience, and Returns.
 
 
-  Parcel Perform''s developer surface includes authentication, documentation, and 10 more developer resources.'
+  Parcel Perform''s developer surface includes engineering blog, authentication, documentation, and 10 more developer resources.'
 plans:
 - name: Parcelperform Plans Pricing
   plan_count: 1
@@ -193,22 +201,22 @@ rate_limits:
   slug: parcelperform-rate-limits
 score:
   band: thin
-  composite: 34.0
+  composite: 27.6
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 58.0
+    artifact_dirs: 13
+    catalog_earned: 42.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.0
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.4
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 50.7
-    developer_ergonomics: 28.6
+    developer_ergonomics: 31.0
     discoverability: 66.1
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -228,9 +236,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 17.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

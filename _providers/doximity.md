@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -65,6 +65,14 @@ collections:
   name: Doximity 2.0 & OAuth OpenID Connect API
   slug: open-doximity-openid-connect-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://blog.doximity.com/updates
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.doximity.com/feed
 - group: company
   title: ''
   type: Website
@@ -219,14 +227,14 @@ description: Doximity is the leading digital platform for U.S. medical professio
   and OpenID Connect discovery metadata.
 image: https://www.doximity.com/img/logos/doximity-logo.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Doximity
 nav: Providers
 network: true
-overview: 'Doximity publishes 2 APIs on the [APIs.io](https://apis.io/) network: OpenID Connect API and O Auth API. Tagged areas include Company, Health Tech, Identity, Authentication, and OpenID Connect.
+overview: 'Doximity publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: OpenID Connect API and O Auth API. Tagged areas include Company, Health Tech, Identity, Authentication, and OpenID Connect.
 
 
-  Doximity''s developer surface includes documentation, getting-started guide, signup flow, support, authentication, and 27 more developer resources.'
+  Doximity''s developer surface includes engineering blog, documentation, getting-started guide, signup flow, support, authentication, and 28 more developer resources.'
 random_paper: 7
 rate_limits:
 - limit_count: 1
@@ -239,20 +247,20 @@ scopes:
   summary_line: 21 scopes · authorizationCode
 score:
   band: developing
-  composite: 50.0
+  composite: 50.6
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 42.2
-    developer_ergonomics: 56.5
+    developer_ergonomics: 58.9
     discoverability: 73.2
     operational_transparency: 34.2
   previous_composite: 50.0
@@ -272,8 +280,8 @@ score:
     regime: Health
     regime_id: health
     score: 45.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

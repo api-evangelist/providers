@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -58,6 +58,10 @@ collections:
   name: Cirrus Identity Log endpoints API
   slug: open-cirrus-identity-endpoints-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.cirrusidentity.com/blog/rss.xml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -193,20 +197,20 @@ created: '2026-07-17'
 description: Cirrus Identity provides managed identity and access management for higher education, connecting modern identity providers, federations, and legacy systems to standardize authentication across campus environments without replacing existing infrastructure. Its products include Cirrus Bridge (multilateral SAML & CAS for Entra ID, Okta, and Duo SSO), External User Sign-In, Trusted Federation & Affiliates Sign-In, a Slate applicant sign-in extension, and an Admin Console with event logs. Cirrus also publishes a REST Log API for programmatically retrieving authentication and service event logs, and maintains a suite of open-source SimpleSAMLphp modules on GitHub and Packagist.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cirrus-identity.png
 layout: provider
-modified: '2026-09-16'
+modified: '2026-10-06'
 name: Cirrus Identity
 nav: Providers
 network: true
-overview: 'Cirrus Identity publishes 1 API on the [APIs.io](https://apis.io/) network: Endpoints API. Tagged areas include Company, Identity, Authentication, SSO, and SAML.
+overview: 'Cirrus Identity publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Endpoints API. Tagged areas include Company, Identity, Authentication, SSO, and SAML.
 
 
-  Cirrus Identity''s developer surface includes documentation, API reference, engineering blog, support, signup flow, authentication, and 23 more developer resources.'
+  Cirrus Identity''s developer surface includes documentation, API reference, engineering blog, support, signup flow, authentication, and 24 more developer resources.'
 random_paper: 21
 score:
   band: developing
   composite: 44.5
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 38.3
     catalog_earned_first_party: 0.0
     catalog_gap: 76.8
@@ -237,8 +241,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -269,9 +273,9 @@ tags:
 - Authentication
 - SSO
 - SAML
-- OIDC
+- OpenID Connect
 - Higher Education
-- Identity Management
+- Identity and Access Management
 - Federation
 - Logs
 - Identity Federation

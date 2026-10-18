@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.8
-  scored_at: '2026-10-04'
+  score: 22.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 65
   human_in_the_loop: 1
@@ -322,6 +322,21 @@ collections:
   name: Spot Ocean API
   slug: open-spot-ocean-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/flexera/refs/heads/main/plans/flexera-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/flexera-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/flexera/refs/heads/main/rate-limits/flexera-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/flexera-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/flexera/refs/heads/main/finops/flexera-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/flexera-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/flexera/refs/heads/main/capabilities/flexera-capability-edges.yml
   title: ''
@@ -701,12 +716,20 @@ features:
 - description: Support for stateful applications with persistent storage, ENI, and IP preservation during instance replacements.
   name: Stateful Workload Management
 finops:
-- name: Flexera Finops
+- has_sources: true
+  method: generated
+  name: Flexera Finops
+  primary_unit: ''
   service_category: FinOps / Cloud Cost Optimization
   slug: flexera-finops
-- name: Spot Finops
+  template: false
+- has_sources: true
+  method: generated
+  name: Spot Finops
+  primary_unit: ''
   service_category: Cloud Cost Optimization
   slug: spot-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/flexera.png
 integrations:
 - description: Deep integration with EC2, EKS, ECS, EMR, Auto Scaling Groups, and Savings Plans for AWS workload optimization.
@@ -1205,13 +1228,13 @@ modified: '2026-05-19'
 name: Spot by Flexera
 nav: Providers
 network: true
-overview: 'Spot by Flexera publishes 32 APIs on the [APIs.io](https://apis.io/) network, including Spot Access Policies API, Spot Accounts API, Spot Audit API, and 29 more. Tagged areas include Auto-Scaling, Cloud Infrastructure, Containers, Cost Optimization, and FinOps.
+overview: 'Spot by Flexera publishes 32 API contracts indexed on the [APIs.io](https://apis.io/) network, including Spot Access Policies API, Spot Accounts API, Spot Audit API, and 29 more. Tagged areas include Auto-Scaling, Cloud Infrastructure, Containers, Cost Optimization, and FinOps.
 
 
   The Spot by Flexera catalog on APIs.io includes 6 JSON-LD contexts and 3 Spectral governance rulesets.
 
 
-  Spot by Flexera''s developer surface includes authentication, documentation, API reference, engineering blog, and 9 more developer resources.'
+  Spot by Flexera''s developer surface includes authentication, documentation, API reference, engineering blog, and 12 more developer resources.'
 plans:
 - name: Flexera Plans Pricing
   plan_count: 3
@@ -1228,9 +1251,10 @@ rate_limits:
   name: Spot Rate Limits
   slug: spot-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Spot by Flexera API Rules
+  name: Spot by Flexera — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1238,7 +1262,8 @@ rules:
     info: 2
     warn: 3
   slug: flexera-jsonschema-spectral-rules
-- effective_rule_count: 50
+- authorship: generated
+  effective_rule_count: 50
   extends:
   - spectral:oas
   name: Spot by Flexera API Rules
@@ -1249,9 +1274,10 @@ rules:
     info: 1
     warn: 7
   slug: flexera-spectral-rules
-- effective_rule_count: 7
+- authorship: unmarked
+  effective_rule_count: 7
   extends: []
-  name: Spot by Flexera API Rules
+  name: Spot by Flexera — spot rules
   rule_count: 7
   severity_counts:
     error: 7
@@ -1261,23 +1287,23 @@ rules:
   slug: spot-spectral-rules
 score:
   band: thin
-  composite: 35.5
+  composite: 34.0
   coverage:
     artifact_dirs: 17
-    catalog_earned: 66.5
+    catalog_earned: 63.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 48.5
+    catalog_gap: 51.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 13.6
     contract_quality: 64.2
     developer_ergonomics: 31.0
     discoverability: 71.4
     operational_transparency: 7.9
-  previous_composite: 35.0
+  previous_composite: 35.5
   provenance:
     agentic_access: derived
     contracts:
@@ -1291,8 +1317,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -1310,7 +1336,7 @@ security:
 - kind: vulnerability-disclosure
   name: Flexera Vulnerability Disclosure
   slug: flexera-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 slug: flexera
 tags:
 - Auto-Scaling

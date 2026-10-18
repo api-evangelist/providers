@@ -1,6 +1,10 @@
 ---
 access_model:
   confidence: medium
+  gated: partner
+  gated_source:
+  - tag:No Public API
+  - description
   label: Paid
   onboarding: unknown
   pricing: paid
@@ -33,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Partner-only integration announced by SimplePractice Enterprise (September 2022) that connects to overlapping SimplePractice provider accounts so that Employee Assistance Programs (EAPs), Managed Care
@@ -82,16 +86,20 @@ created: '2026-07-10'
 description: SimplePractice is a cloud-based practice management platform and EHR for behavioral and mental health, therapy, and wellness practices, covering scheduling, client management, telehealth, intake and clinical documentation, insurance and superbill billing, and a secure client portal (Client Secure Messaging). As of this cataloging, SimplePractice does NOT publish a public, self-serve developer API - there is no developer portal, no documented REST endpoints, no OpenAPI, and no webhooks for third parties. The only programmatic surface is the partner-only SimplePractice Enterprise scheduling integration, which lets EAPs and Managed Care Organizations view in-network provider availability and request appointments; it is delivered through customized partnerships rather than as public developer documentation. Third-party pages that advertise a "stable SimplePractice REST API" for clients, appointments, notes, or billing are unofficial and not backed by any SimplePractice developer
   program.
 finops:
-- name: Simplepractice Finops
+- has_sources: true
+  method: generated
+  name: Simplepractice Finops
+  primary_unit: ''
   service_category: Practice Management and EHR
   slug: simplepractice-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/simplepractice.png
 layout: provider
 modified: '2026-07-25'
 name: SimplePractice
 nav: Providers
 network: true
-overview: 'SimplePractice publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Behavioral Health, Mental Health, EHR, Practice Management, and Healthcare.
+overview: 'SimplePractice is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Behavioral Health, Mental Health, Electronic Health Records, Practice Management, and Healthcare.
 
 
   SimplePractice''s developer surface includes documentation and 7 more developer resources.'
@@ -101,18 +109,18 @@ plans:
   slug: simplepractice-plans-pricing
 random_paper: 19
 score:
-  band: emerging
-  composite: 14.8
+  band: minimal
+  composite: 9.1
   coverage:
     artifact_dirs: 5
-    catalog_earned: 45.8
+    catalog_earned: 35.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 69.2
+    catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.7
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 9.5
@@ -125,9 +133,9 @@ score:
     regime: Health
     regime_id: health
     score: 9.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -141,18 +149,17 @@ security:
 - kind: vulnerability-disclosure
   name: Simplepractice Vulnerability Disclosure
   slug: simplepractice-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 slug: simplepractice
 tags:
 - Behavioral Health
 - Mental Health
-- EHR
+- Electronic Health Records
 - Practice Management
 - Healthcare
 - Scheduling
 - Telehealth
 - HIPAA
 - Partner API
-- No Public API
 website: https://www.simplepractice.com
 ---

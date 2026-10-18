@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://zypl.ai/blog
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/zypl/refs/heads/main/security/zypl-domain-security.yml
   title: ''
@@ -57,31 +61,31 @@ created: '2026-07-17'
 description: Zypl (zypl.ai) is an AI company building synthetic-data and machine-learning technology for financial services and government. Its core is proprietary zGAN generative synthetic-data technology, delivered through Lucid, a no-code platform for developing and deploying robust scoring models. Products include zScore for credit decisioning, plus fraud detection, collection scoring, and IFRS-9/GAAP-compliant provisioning for credit-loss estimation. Zypl serves banks, financial institutions, and public-sector entities, and operates an R&D lab (zehnlab.ai). It is backed by Prosus Ventures. Zypl publishes no public developer/API surface at this time; this profile carries verified identity and a live domain-security probe.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zypl.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Zypl
 nav: Providers
 network: true
 overview: 'Zypl is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Fintech, Machine Learning, and Synthetic Data.
 
 
-  Zypl''s developer surface includes support and 3 more developer resources.'
+  Zypl''s developer surface includes engineering blog, support, and 3 more developer resources.'
 random_paper: 1
 score:
   band: minimal
-  composite: 4.6
+  composite: 5.1
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 4.8
+    developer_ergonomics: 7.1
     discoverability: 48.2
     operational_transparency: 2.6
   previous_composite: 4.6
@@ -91,8 +95,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

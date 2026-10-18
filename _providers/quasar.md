@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 4
+- acting_count: 3
   human_in_the_loop: 0
   name: Quasar Agentic Access
-  operation_count: 12
+  operation_count: 14
   slug: quasar-agentic-access
-  summary_line: 12 operations · 4 acting
+  summary_line: 14 operations · 3 acting
 api_count: 1
 apis:
 - baseURL: /api
@@ -258,7 +258,7 @@ modified: '2026-07-20'
 name: Quasar
 nav: Providers
 network: true
-overview: 'Quasar publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Cluster API, Login API, Max In Buffer Size API, and 7 more. Tagged areas include Company, Time Series Database, Database, Analytics, and Infrastructure.
+overview: 'Quasar publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Cluster API, Login API, Max In Buffer Size API, and 7 more. Tagged areas include Company, Time Series Database, Database, Analytics, and Infrastructure.
 
 
   Quasar''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, support, CLI, and 19 more developer resources.'
@@ -267,7 +267,7 @@ score:
   band: thin
   composite: 36.3
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -298,8 +298,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

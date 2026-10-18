@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.factris.com/en/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/factris/refs/heads/main/security/factris-domain-security.yml
   title: ''
@@ -77,14 +81,14 @@ created: '2026-07-17'
 description: Factris is a European fintech that provides invoice financing (factoring) for small and medium-sized enterprises, converting unpaid B2B invoices into working capital within 24 hours. Its services span invoice financing, debtor management and collections, credit insurance, and credit-risk assessment, delivered through the self-service FAB platform where customers upload invoices and track payments. Factris operates across the Netherlands, Lithuania, and other European markets and has financed over two billion euros in receivables. This profile was surfaced as a portfolio company of Speedinvest and is being enriched in the API Evangelist network; Factris publishes no public developer API or documentation at this time.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/factris.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Factris
 nav: Providers
 network: true
 overview: 'Factris is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Factoring, Invoice Financing, and Working Capital.
 
 
-  Factris'' developer surface includes signup flow, engineering blog, support, and 6 more developer resources.'
+  Factris'' developer surface includes signup flow, engineering blog, support, and 7 more developer resources.'
 random_paper: 0
 score:
   band: emerging
@@ -116,8 +120,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 12.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

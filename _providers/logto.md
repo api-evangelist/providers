@@ -34,15 +34,15 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 223
+- acting_count: 222
   human_in_the_loop: 6
   name: Logto Agentic Access
   operation_count: 335
   slug: logto-agentic-access
-  summary_line: 335 operations · 223 acting · 6 human-in-the-loop
-api_count: 1
+  summary_line: 335 operations · 222 acting · 6 human-in-the-loop
+api_count: 2
 apis:
 - baseURL: https://[tenant_id].logto.app/
   baseurl_source: spec
@@ -362,6 +362,11 @@ collections:
   name: Logto API references Account center Well-known API
   slug: open-logto-well-known-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/logto/refs/heads/main/finops/logto-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/logto-finops.yml
 - group: operate
   href: https://raw.githubusercontent.com/api-evangelist/logto/refs/heads/main/rate-limits/logto-rate-limits.yml
   title: ''
@@ -452,19 +457,23 @@ common:
 created: '2026-03-25'
 description: Logto is an open source identity infrastructure platform with authentication, authorization, user management, and multi-tenancy supporting OIDC, OAuth, and SAML.
 finops:
-- name: Logto Finops
+- has_sources: false
+  method: generated
+  name: Logto Finops
+  primary_unit: ''
   service_category: API
   slug: logto-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/logto.png
 layout: provider
 modified: '2026-09-16'
 name: Logto
 nav: Providers
 network: true
-overview: 'Logto publishes 39 APIs on the [APIs.io](https://apis.io/) network, including Account center API, Applications API, Audit logs API, and 36 more. Tagged areas include Authentication, Authorization, Identity, OIDC, and SAML.
+overview: 'Logto publishes 39 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account center API, Applications API, Audit logs API, and 36 more. Tagged areas include Authentication, Authorization, Identity, OpenID Connect, and SAML.
 
 
-  Logto''s developer surface includes pricing, authentication, documentation, engineering blog, and 16 more developer resources.'
+  Logto''s developer surface includes pricing, authentication, documentation, engineering blog, and 17 more developer resources.'
 plans:
 - name: Logto Plans Pricing
   plan_count: 3
@@ -484,17 +493,17 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: developing
-  composite: 44.1
+  composite: 42.7
   coverage:
     artifact_dirs: 14
-    catalog_earned: 50.0
+    catalog_earned: 47.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 65.0
+    catalog_gap: 68.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.4
   facets:
-    access_clarity: 50.0
+    access_clarity: 42.1
     contract_governance: 0.0
     contract_quality: 49.6
     developer_ergonomics: 23.8
@@ -517,8 +526,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -538,7 +547,7 @@ tags:
 - Authentication
 - Authorization
 - Identity
-- OIDC
+- OpenID Connect
 - SAML
 - Open Source
 - Identity Federation

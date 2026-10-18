@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Provides current and historical currency exchange rates with free plan 1K requests/month
@@ -65,7 +65,7 @@ modified: '2026-05-28'
 name: CurrencyFreaks
 nav: Providers
 network: true
-overview: 'CurrencyFreaks publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Currency Exchange, Public APIs, and Exchange Rates.
+overview: 'CurrencyFreaks is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Foreign Exchange, Public APIs, and Exchange Rates.
 
 
   CurrencyFreaks'' developer surface includes engineering blog and 3 more developer resources.'
@@ -95,8 +95,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -110,7 +110,7 @@ security:
   summary_line: TLSv1.3 · DNSSEC · DMARC
 slug: currencyfreaks
 tags:
-- Currency Exchange
+- Foreign Exchange
 - Public APIs
 - Exchange Rates
 website: https://currencyfreaks.com/

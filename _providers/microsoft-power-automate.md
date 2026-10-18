@@ -28,20 +28,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 34.6
-  scored_at: '2026-10-04'
+  score: 32.8
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 9
+- acting_count: 8
   human_in_the_loop: 1
   name: Microsoft Power Automate Agentic Access
   operation_count: 18
   slug: microsoft-power-automate-agentic-access
-  summary_line: 18 operations · 9 acting · 1 human-in-the-loop
+  summary_line: 18 operations · 8 acting · 1 human-in-the-loop
 api_count: 10
 apis:
 - baseURL: https://api.flow.microsoft.com
@@ -156,6 +156,21 @@ collections:
   name: Microsoft Power Automate Management Connections Flows API
   slug: open-microsoft-power-automate-flows-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/plans/microsoft-power-automate-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/microsoft-power-automate-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/rate-limits/microsoft-power-automate-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/microsoft-power-automate-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/finops/microsoft-power-automate-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/microsoft-power-automate-finops.yml
 - group: docs
   title: ''
   type: Documentation
@@ -433,9 +448,13 @@ features:
 - description: Configure error handling, retry policies, and notifications for flow failures.
   name: Error Handling
 finops:
-- name: Microsoft Power Automate Finops
+- has_sources: false
+  method: generated
+  name: Microsoft Power Automate Finops
+  primary_unit: ''
   service_category: API
   slug: microsoft-power-automate-finops
+  template: true
 image: https://powerautomate.microsoft.com/images/application-logos/svg/powerautomate.svg
 integrations:
 - description: Deep integration with SharePoint, Outlook, Teams, and other Microsoft 365 apps.
@@ -486,13 +505,13 @@ modified: '2026-06-20'
 name: Microsoft Power Automate
 nav: Providers
 network: true
-overview: 'Microsoft Power Automate publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Connections API, Connectors API, Environments API, and 7 more. Tagged areas include Automation, Business Process, Integration, Low-Code, and Microsoft.
+overview: 'Microsoft Power Automate is listed with 10 APIs on the [APIs.io](https://apis.io/) network, including Connections API, Connectors API, Environments API, and 7 more. Tagged areas include Automation, Business Process, Integration, Low-Code, and Microsoft.
 
 
   The Microsoft Power Automate catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Microsoft Power Automate''s developer surface includes documentation, getting-started guide, signup flow, authentication, changelog, CLI, developer portal, and 45 more developer resources.'
+  Microsoft Power Automate''s developer surface includes documentation, getting-started guide, signup flow, authentication, changelog, CLI, developer portal, and 48 more developer resources.'
 plans:
 - name: Microsoft Power Automate Plans Pricing
   plan_count: 3
@@ -503,9 +522,10 @@ rate_limits:
   name: Microsoft Power Automate Rate Limits
   slug: microsoft-power-automate-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Microsoft Power Automate API Rules
+  name: Microsoft Power Automate — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -513,7 +533,8 @@ rules:
     info: 2
     warn: 3
   slug: microsoft-power-automate-jsonschema-spectral-rules
-- effective_rule_count: 69
+- authorship: generated
+  effective_rule_count: 69
   extends:
   - spectral:oas
   name: Microsoft Power Automate API Rules
@@ -531,17 +552,17 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 50.8
+  composite: 49.3
   coverage:
     artifact_dirs: 33
-    catalog_earned: 73.0
+    catalog_earned: 70.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 42.0
+    catalog_gap: 45.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 57.9
+    access_clarity: 50.0
     contract_governance: 31.8
     contract_quality: 31.0
     developer_ergonomics: 60.7
@@ -563,8 +584,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 43.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

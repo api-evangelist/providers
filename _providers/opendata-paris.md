@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Provides access to Paris open data sets via the API console.
@@ -95,7 +95,7 @@ modified: '2026-09-21'
 name: Paris Open Data
 nav: Providers
 network: true
-overview: 'Paris Open Data publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Open Data, Government, Transparency, and Paris.
+overview: 'Paris Open Data is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Open Data, Government, Transparency, and Paris.
 
 
   Paris Open Data''s developer surface includes documentation, API reference, getting-started guide, and 8 more developer resources.'
@@ -104,7 +104,7 @@ score:
   band: emerging
   composite: 17.6
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 6
     catalog_earned: 30.0
     catalog_earned_first_party: 0.0
     catalog_gap: 85.0
@@ -127,13 +127,14 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 19.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/opendata-paris/refs/heads/main/screenshots/opendata-paris-2026-10-11T112040.png
 security:
 - kind: domain-security
   name: Opendata Paris Domain Security

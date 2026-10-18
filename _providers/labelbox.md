@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 15.5
-  scored_at: '2026-10-04'
+  score: 13.6
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: GraphQL API for programmatic access to Labelbox platform resources including datasets, projects, labels, ontologies, and model evaluation workflows. Labelbox recommends using the Python SDK as a wrapp
@@ -147,9 +147,13 @@ common:
 created: 2026-06-12
 description: 'Labelbox is an enterprise-grade data labeling and AI training data platform that enables teams to build, manage, and evaluate machine learning models. The platform provides a REST API and a GraphQL API (endpoint: https://api.labelbox.com/graphql) for programmatic access to datasets, annotation projects, labels, ontologies, and model evaluation workflows. Labelbox strongly recommends using its official Python SDK rather than querying the GraphQL API directly, as GraphQL endpoints may change without notice. The platform also supports JavaScript/TypeScript through a Node.js SDK and offers notebook-based examples via its GitHub organization.'
 finops:
-- name: Labelbox Finops
+- has_sources: false
+  method: generated
+  name: Labelbox Finops
+  primary_unit: ''
   service_category: ''
   slug: labelbox-finops
+  template: true
 graphqls:
 - description: The Labelbox GraphQL API provides programmatic access to the full range of Labelbox platform resources, including projects, datasets, data rows, labels, ontologies, model runs, and annotation imports.
   name: Labelbox GraphQL API
@@ -165,7 +169,7 @@ modified: 2026-06-12
 name: Labelbox
 nav: Providers
 network: true
-overview: 'Labelbox publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Data Labeling, AI Training, Machine Learning, Annotation, and Computer Vision.
+overview: 'Labelbox is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Data Labeling, AI Training, Machine Learning, Annotation, and Computer Vision.
 
 
   The Labelbox catalog on APIs.io includes 1 JSON-LD context.
@@ -182,23 +186,23 @@ rate_limits:
   name: Labelbox Rate Limits
   slug: labelbox-rate-limits
 score:
-  band: developing
-  composite: 40.8
+  band: thin
+  composite: 35.4
   coverage:
-    artifact_dirs: 9
-    catalog_earned: 62.4
+    artifact_dirs: 10
+    catalog_earned: 49.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 52.6
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.4
   facets:
-    access_clarity: 34.7
+    access_clarity: 13.2
     contract_governance: 0.0
     contract_quality: 43.6
     developer_ergonomics: 11.9
     discoverability: 66.1
-    operational_transparency: 63.7
+    operational_transparency: 50.0
   open_source:
     applies: true
     score: 85.0
@@ -209,9 +213,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -225,7 +229,7 @@ security:
 - kind: vulnerability-disclosure
   name: Labelbox Vulnerability Disclosure
   slug: labelbox-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 - kind: trust-center
   name: Labelbox Trust Center
   slug: labelbox-trust-center

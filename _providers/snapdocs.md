@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.snapdocs.com/resource-center/blog/rss.xml
 - group: company
   title: ''
   type: Website
@@ -78,14 +82,14 @@ created: '2026-07-17'
 description: Snapdocs is a digital mortgage closing platform that connects lenders, title and settlement companies, notaries, and signing services on a single system to automate the loan closing process. The platform provides eClosing and hybrid closing workflows, Notary Connect for scheduling and coordinating signing agents, automated document quality control, and an eVault for secure eNote registration and management. Snapdocs is used across roughly one in four U.S. residential mortgage transactions and connects to the major loan origination, point-of-sale, title production, and RON systems through pre-built partner integrations rather than a public self-serve developer API. This profile was surfaced as a portfolio company of SV Angel and Y Combinator and enriched by the API Evangelist pipeline.
 image: https://www.snapdocs.com/hubfs/Snapdocs-Logo-Main.svg
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Snapdocs
 nav: Providers
 network: true
 overview: 'Snapdocs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, PropTech, Mortgage, Real Estate, and Fintech.
 
 
-  Snapdocs'' developer surface includes support, engineering blog, and 7 more developer resources.'
+  Snapdocs'' developer surface includes support, engineering blog, and 8 more developer resources.'
 random_paper: 1
 score:
   band: minimal
@@ -112,8 +116,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 9.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

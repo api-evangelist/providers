@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -69,6 +69,21 @@ collections:
   name: Azure Arc Hybrid Compute REST API
   slug: open-microsoft-azure-arc
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-arc/refs/heads/main/plans/microsoft-azure-arc-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/microsoft-azure-arc-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-arc/refs/heads/main/rate-limits/microsoft-azure-arc-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/microsoft-azure-arc-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-arc/refs/heads/main/finops/microsoft-azure-arc-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/microsoft-azure-arc-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-arc/refs/heads/main/capabilities/microsoft-azure-arc-capability-edges.yml
   title: ''
@@ -133,19 +148,23 @@ common:
 created: '2026-03-13'
 description: Operation groups for the Hybrid Compute REST API.
 finops:
-- name: Microsoft Azure Arc Finops
+- has_sources: false
+  method: generated
+  name: Microsoft Azure Arc Finops
+  primary_unit: ''
   service_category: API
   slug: microsoft-azure-arc-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/microsoft-azure-arc.png
 layout: provider
 modified: '2026-05-19'
 name: Azure Arc
 nav: Providers
 network: true
-overview: 'Azure Arc publishes 2 APIs on the [APIs.io](https://apis.io/) network: Machines API and Operations API. Tagged areas include Arc, Hybrid Cloud, Kubernetes, Multi-Cloud, and Server Management.
+overview: 'Azure Arc is listed with 2 APIs on the [APIs.io](https://apis.io/) network: Machines API and Operations API. Tagged areas include Arc, Hybrid Cloud, Kubernetes, Multi-Cloud, and Server Management.
 
 
-  Azure Arc''s developer surface includes authentication, developer portal, pricing, support, engineering blog, and 9 more developer resources.'
+  Azure Arc''s developer surface includes authentication, developer portal, pricing, support, engineering blog, and 12 more developer resources.'
 plans:
 - name: Microsoft Azure Arc Plans Pricing
   plan_count: 3
@@ -161,18 +180,18 @@ scopes:
   slug: microsoft-azure-arc-scopes
   summary_line: 1 scope · implicit
 score:
-  band: developing
-  composite: 39.5
+  band: thin
+  composite: 38.0
   coverage:
     artifact_dirs: 14
-    catalog_earned: 41.0
+    catalog_earned: 38.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 47.4
+    access_clarity: 39.5
     contract_governance: 0.0
     contract_quality: 44.1
     developer_ergonomics: 38.1
@@ -192,8 +211,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

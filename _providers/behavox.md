@@ -32,10 +32,23 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
-artifact_total: 3
+artifact_total: 4
 common:
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://behavox.com/digital-employees
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/behavox/refs/heads/main/plans/behavox-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/behavox-plans-pricing.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://behavox.com/news
 - group: company
   title: ''
   type: Website
@@ -89,31 +102,35 @@ created: '2026-07-17'
 description: Behavox is an AI-native compliance and conduct-surveillance software company serving the world's leading financial institutions and regulated enterprises. Its Unified AI Controls Platform spans directive, preventive, detective, and corrective controls — including Quantum (voice and text communication surveillance across 50+ languages and 150+ channels), Polaris (trade surveillance), Falcon (insider-threat and human-risk detection), Compass (conflicts of interest and personal account dealing), Atlas (control-room enforcement), Pathfinder (regulatory-change-to-policy), Intelligent Archive, Digital Employees, and Mosaic front-office revenue intelligence. Behavox is backed by Index Ventures and the SoftBank Vision Fund. The company sells directly to enterprise financial-services customers and does not publish a public developer portal, API documentation, or SDKs.
 image: https://www.behavox.com/icon.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Behavox
 nav: Providers
 network: true
 overview: 'Behavox is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Compliance, RegTech, and Artificial Intelligence.
 
 
-  Behavox''s developer surface includes support and 10 more developer resources.'
+  Behavox''s developer surface includes pricing, engineering blog, support, and 11 more developer resources.'
+plans:
+- name: Behavox Plans Pricing
+  plan_count: 0
+  slug: behavox-plans-pricing
 random_paper: 1
 score:
   band: emerging
-  composite: 19.2
+  composite: 21.8
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 7
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.6
   facets:
-    access_clarity: 36.8
+    access_clarity: 47.4
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 4.8
+    developer_ergonomics: 7.1
     discoverability: 55.4
     operational_transparency: 10.5
   previous_composite: 19.2
@@ -135,8 +152,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

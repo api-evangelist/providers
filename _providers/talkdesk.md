@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 14.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: AsyncAPI 2.6 description of Talkdesk's publicly documented outbound webhook surface, covering the Events API (partner-app lifecycle), the Webhook Trigger API (Talkdesk Connections triggers for call/ag
@@ -90,7 +90,7 @@ modified: '2026-05-30'
 name: Talkdesk
 nav: Providers
 network: true
-overview: 'Talkdesk publishes 1 API on the [APIs.io](https://apis.io/) network: Webhook Surface. Tagged areas include Contact Center, CCaaS, Voice, Webhook, and Event.
+overview: 'Talkdesk is listed with 1 API on the [APIs.io](https://apis.io/) network: Webhook Surface. Tagged areas include Contact Center, CCaaS, Voice, Webhook, and Event.
 
 
   The Talkdesk catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -99,10 +99,11 @@ overview: 'Talkdesk publishes 1 API on the [APIs.io](https://apis.io/) network: 
   Talkdesk''s developer surface includes documentation, support, engineering blog, and 6 more developer resources.'
 random_paper: 15
 rules:
-- effective_rule_count: 35
+- authorship: generated
+  effective_rule_count: 35
   extends:
   - spectral:asyncapi
-  name: Talkdesk API Rules
+  name: Talkdesk — asyncapi rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -114,7 +115,7 @@ score:
   band: thin
   composite: 27.2
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 36.5
     catalog_earned_first_party: 0.0
     catalog_gap: 78.5
@@ -135,8 +136,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

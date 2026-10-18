@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 39.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 22
+- acting_count: 21
   human_in_the_loop: 0
   name: Kita Agentic Access
   operation_count: 52
   slug: kita-agentic-access
-  summary_line: 52 operations · 22 acting
+  summary_line: 52 operations · 21 acting
 api_count: 2
 apis:
 - baseURL: https://portal.usekita.com
@@ -413,7 +413,7 @@ modified: '2026-07-19'
 name: Kita
 nav: Providers
 network: true
-overview: 'Kita publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Batch API, Conversation API, and 11 more. Tagged areas include Company, Fintech, Lending, Underwriting, and Credit Scoring.
+overview: 'Kita publishes 14 API contracts indexed on the [APIs.io](https://apis.io/) network, including Applications API, Batch API, Conversation API, and 11 more. Tagged areas include Company, Fintech, Lending, Underwriting, and Credit Scoring.
 
 
   The Kita catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -464,8 +464,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 29.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

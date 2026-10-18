@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 4
 apis:
 - description: Client-library operations for managing 128-byte double-entry accounts - create_accounts (establish immutable accounts on a ledger with debit/credit constraint flags), lookup_accounts (fetch accounts b
@@ -88,16 +88,20 @@ common:
 created: '2026-07-02'
 description: TigerBeetle is an open-source (Apache 2.0) distributed financial accounting and transactions database, purpose-built for high-throughput, mission-critical double-entry bookkeeping and online transaction processing (OLTP). It is NOT an HTTP/REST API and ships no OpenAPI - the database is accessed over a custom binary wire protocol on TCP (default port 3000) via official client libraries for .NET, Go, Java, Node.js, Python, Ruby, and Rust. The "API" is the set of client operations - create_accounts, create_transfers, lookup_accounts, lookup_transfers, get_account_transfers, get_account_balances, query_accounts, and query_transfers - that use fixed-size, cache-line-aligned structs for zero-deserialization performance. TigerBeetle is self-hostable; a fully managed service is also offered to select enterprise partners via sales@tigerbeetle.com.
 finops:
-- name: Tigerbeetle Finops
+- has_sources: true
+  method: generated
+  name: Tigerbeetle Finops
+  primary_unit: ''
   service_category: Databases
   slug: tigerbeetle-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tigerbeetle.png
 layout: provider
 modified: '2026-07-02'
 name: TigerBeetle
 nav: Providers
 network: true
-overview: 'TigerBeetle publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Finance, Accounting, Transaction, Database, and Double-Entry.
+overview: 'TigerBeetle is listed with 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Finance, Accounting, Transaction, Database, and Double-Entry.
 
 
   TigerBeetle''s developer surface includes documentation, engineering blog, and 6 more developer resources.'
@@ -107,18 +111,18 @@ plans:
   slug: tigerbeetle-plans-pricing
 random_paper: 20
 score:
-  band: emerging
-  composite: 14.3
+  band: minimal
+  composite: 10.1
   coverage:
     artifact_dirs: 6
-    catalog_earned: 45.2
+    catalog_earned: 37.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 69.8
+    catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -4.2
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 19.0
@@ -131,8 +135,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

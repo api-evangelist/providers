@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 5
 apis:
 - description: Self-service patient check-in and registration - kiosk, tablet, and mobile intake that captures demographics, consent forms, and identity, then writes the completed registration back to the practice's
@@ -57,6 +57,14 @@ apis:
   slug: clearwave-payments-api
 artifact_total: 6
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.clearwaveinc.com/blog/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.clearwaveinc.com/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/clearwave-intake/refs/heads/main/security/clearwave-intake-domain-security.yml
   title: ''
@@ -78,31 +86,31 @@ created: '2026-07-05'
 description: Clearwave is a patient revenue-cycle and self-service engagement platform for healthcare practices, covering online scheduling, self-service registration and intake, multi-factor insurance eligibility verification, and patient payments. Rather than publishing an open developer API, Clearwave connects to more than 50 electronic health record (EHR) and practice management (PM) systems - including athenahealth, NextGen, eClinicalWorks, Modernizing Medicine, Veradigm, Nextech, Greenway, and Unlimited Systems - through formal, partner-gated API license and integration agreements. Data such as appointments, patient demographics, eligibility results, and payments flows bidirectionally between Clearwave and the practice's EHR/PM in real time. There is no public, self-service developer portal, OpenAPI definition, or documented public WebSocket API; the API surfaces below are logical capability areas modeled from Clearwave's product documentation, not publicly documented endpoints.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/clearwave-intake.png
 layout: provider
-modified: '2026-07-05'
+modified: '2026-10-06'
 name: Clearwave
 nav: Providers
 network: true
-overview: 'Clearwave publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Healthcare, Patient Access, Revenue Cycle, Patient Check-In, and Insurance Eligibility.
+overview: 'Clearwave is listed with 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Healthcare, Patient Access, Revenue Cycle, Patient Check-In, and Insurance Eligibility.
 
 
-  Clearwave''s developer surface includes documentation and 3 more developer resources.'
+  Clearwave''s developer surface includes engineering blog, documentation, and 4 more developer resources.'
 random_paper: 7
 score:
   band: minimal
-  composite: 7.0
+  composite: 7.5
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 9.5
+    developer_ergonomics: 11.9
     discoverability: 62.5
     operational_transparency: 0.0
   previous_composite: 7.0
@@ -112,8 +120,8 @@ score:
     regime: Health
     regime_id: health
     score: 4.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 39.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 14
+- acting_count: 13
   human_in_the_loop: 0
   name: Adobe Photoshop Agentic Access
   operation_count: 17
   slug: adobe-photoshop-agentic-access
-  summary_line: 17 operations · 14 acting
+  summary_line: 17 operations · 13 acting
 api_count: 1
 apis:
 - description: A unified Node.js and TypeScript SDK that provides typed client libraries for accessing the Photoshop API and other Firefly Services. The PhotoshopClient class offers methods for background removal, m
@@ -221,6 +221,21 @@ collections:
   name: Adobe Photoshop Actions Text API
   slug: open-adobe-photoshop-text-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-photoshop/refs/heads/main/plans/adobe-photoshop-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/adobe-photoshop-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-photoshop/refs/heads/main/rate-limits/adobe-photoshop-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/adobe-photoshop-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-photoshop/refs/heads/main/finops/adobe-photoshop-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/adobe-photoshop-finops.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -522,9 +537,13 @@ features:
 - description: Apply realistic depth-of-field blur effects using AI depth estimation.
   name: Depth Blur
 finops:
-- name: Adobe Photoshop Finops
+- has_sources: true
+  method: generated
+  name: Adobe Photoshop Finops
+  primary_unit: ''
   service_category: Creative SaaS
   slug: adobe-photoshop-finops
+  template: false
 image: /assets/icons/adobe-photoshop.png
 integrations:
 - description: Native integration with other Creative Cloud apps via shared libraries and cloud storage.
@@ -643,13 +662,13 @@ modified: '2026-06-20'
 name: Adobe Photoshop
 nav: Providers
 network: true
-overview: 'Adobe Photoshop publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Actions API, Background Removal API, Crop and Effects API, and 13 more. Tagged areas include Ai Ml, Creative Cloud, Image Editing, Photoshop, and Plugins.
+overview: 'Adobe Photoshop publishes 16 API contracts indexed on the [APIs.io](https://apis.io/) network, including Actions API, Background Removal API, Crop and Effects API, and 13 more. Tagged areas include Artificial Intelligence, Creative Cloud, Image Editing, Photoshop, and Plugins.
 
 
   The Adobe Photoshop catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Adobe Photoshop''s developer surface includes authentication, changelog, developer portal, documentation, getting-started guide, API reference, engineering blog, and 42 more developer resources.'
+  Adobe Photoshop''s developer surface includes authentication, changelog, developer portal, documentation, getting-started guide, API reference, engineering blog, and 45 more developer resources.'
 plans:
 - name: Adobe Photoshop Plans Pricing
   plan_count: 4
@@ -660,10 +679,11 @@ rate_limits:
   name: Adobe Photoshop Rate Limits
   slug: adobe-photoshop-rate-limits
 rules:
-- effective_rule_count: 31
+- authorship: generated
+  effective_rule_count: 31
   extends:
   - spectral:asyncapi
-  name: Adobe Photoshop API Rules
+  name: Adobe Photoshop — asyncapi rules
   rule_count: 4
   severity_counts:
     error: 1
@@ -671,9 +691,10 @@ rules:
     info: 1
     warn: 2
   slug: adobe-photoshop-asyncapi-spectral-rules
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Adobe Photoshop API Rules
+  name: Adobe Photoshop — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -681,7 +702,8 @@ rules:
     info: 2
     warn: 3
   slug: adobe-photoshop-jsonschema-spectral-rules
-- effective_rule_count: 69
+- authorship: generated
+  effective_rule_count: 69
   extends:
   - spectral:oas
   name: Adobe Photoshop API Rules
@@ -694,17 +716,17 @@ rules:
   slug: adobe-photoshop-spectral-rules
 score:
   band: developing
-  composite: 52.6
+  composite: 50.7
   coverage:
-    artifact_dirs: 30
-    catalog_earned: 65.9
+    artifact_dirs: 32
+    catalog_earned: 62.9
     catalog_earned_first_party: 0.0
-    catalog_gap: 49.1
+    catalog_gap: 52.1
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.9
   facets:
-    access_clarity: 36.8
+    access_clarity: 28.9
     contract_governance: 18.2
     contract_quality: 70.7
     developer_ergonomics: 46.4
@@ -725,9 +747,9 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 30.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+    score: 28.2
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -757,7 +779,7 @@ solutions:
 - description: Automation via UXP scripts (.psjs) or legacy ExtendScript (.jsx).
   name: Photoshop Scripting
 tags:
-- Ai Ml
+- Artificial Intelligence
 - Creative Cloud
 - Image Editing
 - Photoshop

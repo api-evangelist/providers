@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -44,7 +44,7 @@ agentic_access:
   operation_count: 42
   slug: debank-agentic-access
   summary_line: 42 operations · 4 acting
-api_count: 2
+api_count: 4
 apis:
 - description: OAuth 2.0 authorization-code sign-in for dApps. After a user authorizes, the dApp exchanges the code at api.connect.debank.com/oauth/token using HTTP Basic client credentials and reads the user's base
   name: DeBank Connect
@@ -105,6 +105,10 @@ collections:
   name: DeBank OpenAPI
   slug: open-debank-pro
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://debank.com/blog/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/debank/refs/heads/main/overlays/debank-pro-openapi-overlay.yaml
   title: ''
@@ -224,14 +228,14 @@ created: '2026-08-12'
 description: DeBank is a Web3 portfolio tracker and DeFi data platform operated by DeBank Global Pte. Ltd. (Singapore) that indexes wallet balances, protocol positions, NFTs, token prices and transaction history across a large set of EVM and non-EVM chains. Its developer arm, DeBank Cloud, exposes that data core as the DeBank OpenAPI (a Swagger 2.0 contract at pro-openapi.debank.com covering chain, protocol, pool, token, user-portfolio and wallet transaction-simulation endpoints), as DeBank Connect (an OAuth 2.0 authorization-code sign-in that lets a dApp read an authorizing user's base, on-chain and social data), and as an Official Account messaging API for reaching on-chain users through DeBank Hi. Access is metered in prepaid "units" bought from the DeBank Cloud dashboard, keyed by an AccessKey header, with a 14-day free trial and a documented 100 requests/second ceiling on the Pro plan.
 image: https://static-assets.debank.com/files/e8aeedfa-2679-429e-ad80-b469f5ca96c2.png
 layout: provider
-modified: '2026-08-12'
+modified: '2026-10-06'
 name: DeBank
 nav: Providers
 network: true
-overview: 'DeBank publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Account API, App Protocol API, Chain API, and 8 more. Tagged areas include Web3, DeFi, Blockchain, Crypto, and Portfolio Tracking.
+overview: 'DeBank publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, App Protocol API, Chain API, and 8 more. Tagged areas include Web3, DeFi, Blockchain, Cryptocurrency, and Portfolio Tracking.
 
 
-  DeBank''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, support, changelog, and 18 more developer resources.'
+  DeBank''s developer surface includes engineering blog, authentication, documentation, API reference, getting-started guide, signup flow, support, and 19 more developer resources.'
 plans:
 - name: Debank Plans Pricing
   plan_count: 0
@@ -248,21 +252,21 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: thin
-  composite: 34.7
+  composite: 35.8
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 45.0
+    artifact_dirs: 23
+    catalog_earned: 48.0
     catalog_earned_first_party: 8.0
-    catalog_gap: 70.0
+    catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.1
   facets:
     access_clarity: 10.5
     contract_governance: 4.5
     contract_quality: 39.0
-    developer_ergonomics: 47.0
-    discoverability: 73.2
+    developer_ergonomics: 49.4
+    discoverability: 78.6
     operational_transparency: 39.5
   previous_composite: 34.7
   provenance:
@@ -281,8 +285,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 27.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -302,7 +306,7 @@ tags:
 - Web3
 - DeFi
 - Blockchain
-- Crypto
+- Cryptocurrency
 - Portfolio Tracking
 - On-Chain Data
 - Wallets

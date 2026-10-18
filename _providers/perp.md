@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: Public GraphQL subgraph indexing the Perpetual Protocol Curie (v2) perpetual futures protocol on Optimism (positions, markets, trades, liquidations, funding). Served via The Graph hosted service and S
@@ -160,7 +160,7 @@ modified: '2026-07-20'
 name: Perp
 nav: Providers
 network: true
-overview: 'Perp publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto Web3, DeFi, Derivatives, and Perpetual Futures.
+overview: 'Perp is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Web3, DeFi, Derivatives, and Perpetual Futures.
 
 
   The Perp catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -200,8 +200,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 11.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -220,7 +220,7 @@ security:
 slug: perp
 tags:
 - Company
-- Crypto Web3
+- Web3
 - DeFi
 - Derivatives
 - Perpetual Futures
@@ -229,7 +229,6 @@ tags:
 - GraphQL
 - Blockchain
 - SDK
-- Web3
 - Cryptocurrency
 website: https://perp.com
 ---

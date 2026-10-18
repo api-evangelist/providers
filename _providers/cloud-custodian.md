@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 16.5
-  scored_at: '2026-10-04'
+  score: 14.7
+  scored_at: '2026-10-17'
 api_count: 6
 apis:
 - description: Cloud Custodian provides rules-engine capabilities for managing cloud resources with security, compliance, and cost optimization policies.
@@ -60,6 +60,21 @@ asyncapis:
   name: Cloud Custodian c7n-mailer Notification Events
   slug: cloud-custodian-mailer-asyncapi
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/cloud-custodian/refs/heads/main/plans/cloud-custodian-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/cloud-custodian-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cloud-custodian/refs/heads/main/rate-limits/cloud-custodian-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/cloud-custodian-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/cloud-custodian/refs/heads/main/finops/cloud-custodian-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/cloud-custodian-finops.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -123,9 +138,13 @@ common:
 created: '2025-01-01'
 description: Cloud Custodian is an open-source rules engine for cloud security, compliance, and cost-optimization governance now stewarded by Stacklet. Operators express policies as YAML files that select a cloud resource type, apply filters, and execute actions; the engine then runs those policies against AWS, Azure, and GCP via provider-specific plugins. Custodian does not expose a developer REST API of its own - integration is via the c7n CLI, the policy YAML schema, c7n-org for multi-account fan-out, and c7n-mailer for SQS-driven notifications.
 finops:
-- name: Cloud Custodian Finops
+- has_sources: false
+  method: generated
+  name: Cloud Custodian Finops
+  primary_unit: ''
   service_category: API
   slug: cloud-custodian-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cloud-custodian.png
 json_schemas:
 - name: Cloud Custodian Policy File
@@ -141,13 +160,13 @@ modified: '2026-04-27'
 name: Cloud Custodian
 nav: Providers
 network: true
-overview: 'Cloud Custodian publishes 6 APIs on the [APIs.io](https://apis.io/) network, including C7n-Mailer, and 5 more. Tagged areas include Cloud Security, Compliance, Cost Optimization, Multi-Cloud, and Policy as Code.
+overview: 'Cloud Custodian is listed with 6 APIs on the [APIs.io](https://apis.io/) network, including C7n-Mailer, and 5 more. Tagged areas include Cloud Security, Compliance, Cost Optimization, Multi-Cloud, and Policy as Code.
 
 
   The Cloud Custodian catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Cloud Custodian''s developer surface includes documentation, getting-started guide, changelog, and 11 more developer resources.'
+  Cloud Custodian''s developer surface includes documentation, getting-started guide, changelog, and 14 more developer resources.'
 plans:
 - name: Cloud Custodian Plans Pricing
   plan_count: 3
@@ -158,10 +177,11 @@ rate_limits:
   name: Cloud Custodian Rate Limits
   slug: cloud-custodian-rate-limits
 rules:
-- effective_rule_count: 30
+- authorship: generated
+  effective_rule_count: 30
   extends:
   - spectral:asyncapi
-  name: Cloud Custodian API Rules
+  name: Cloud Custodian — asyncapi rules
   rule_count: 3
   severity_counts:
     error: 1
@@ -169,9 +189,10 @@ rules:
     info: 0
     warn: 2
   slug: cloud-custodian-asyncapi-spectral-rules
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: Cloud Custodian API Rules
+  name: Cloud Custodian — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -181,17 +202,17 @@ rules:
   slug: cloud-custodian-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 36.7
+  composite: 35.3
   coverage:
-    artifact_dirs: 10
-    catalog_earned: 58.9
+    artifact_dirs: 11
+    catalog_earned: 55.9
     catalog_earned_first_party: 0.0
-    catalog_gap: 56.1
+    catalog_gap: 59.1
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.4
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 13.6
     contract_quality: 51.5
     developer_ergonomics: 31.0
@@ -207,8 +228,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

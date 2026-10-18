@@ -36,8 +36,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 41.7
-  scored_at: '2026-10-04'
-api_count: 1
+  scored_at: '2026-10-17'
+api_count: 2
 apis:
 - baseURL: https://wealthville.net/api/v1
   baseurl_source: declared
@@ -221,7 +221,7 @@ modified: '2026-08-09'
 name: WealthVille — DeFi Liquidity Pool Scores API (Solana & EVM)
 nav: Providers
 network: true
-overview: 'WealthVille — DeFi Liquidity Pool Scores API (Solana & EVM) publishes 3 APIs on the [APIs.io](https://apis.io/) network: Scores API, Signals API, and Track Record API. Tagged areas include DeFi, Liquidity Pools, Blockchain Analytics, Solana, and EVM.
+overview: 'WealthVille — DeFi Liquidity Pool Scores API (Solana & EVM) publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Scores API, Signals API, and Track Record API. Tagged areas include DeFi, Liquidity Pools, Blockchain Analytics, Solana, and EVM.
 
 
   WealthVille — DeFi Liquidity Pool Scores API (Solana & EVM)''s developer surface includes authentication, API reference, support, engineering blog, pricing, and 23 more developer resources.'
@@ -234,7 +234,7 @@ score:
   band: developing
   composite: 45.7
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
@@ -264,8 +264,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

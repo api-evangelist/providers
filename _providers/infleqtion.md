@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Superstaq is Infleqtion's open-source quantum software platform. Developers write circuits in Qiskit, Cirq, or OpenQASM, and Superstaq applies cross-layer compilation, dynamical-decoupling error mitig
@@ -150,7 +150,7 @@ modified: '2026-05-24'
 name: Infleqtion
 nav: Providers
 network: true
-overview: 'Infleqtion publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Quantum Computing, Quantum Software, Neutral Atom, Atomic Clocks, and Quantum Sensing.
+overview: 'Infleqtion is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Quantum Computing, Quantum Software, Neutral Atom, Atomic Clocks, and Quantum Sensing.
 
 
   Infleqtion''s developer surface includes documentation, engineering blog, YouTube channel, and 22 more developer resources.'
@@ -183,8 +183,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: Laundryheap's primary product API. A single GraphQL endpoint serving the consumer web and mobile apps, covering ordering, recurring orders, addresses, timeslots, services, hotels, subscriptions, bundl
@@ -175,7 +175,7 @@ modified: '2026-08-23'
 name: Laundryheap
 nav: Providers
 network: true
-overview: 'Laundryheap publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Laundry, Dry Cleaning, On-Demand Services, and Logistics.
+overview: 'Laundryheap is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Laundry, Dry Cleaning, On-Demand Services, and Logistics.
 
 
   Laundryheap''s developer surface includes pricing, support, engineering blog, signup flow, authentication, code examples, and 19 more developer resources.'
@@ -222,8 +222,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

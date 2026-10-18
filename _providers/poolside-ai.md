@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.5
-  scored_at: '2026-10-04'
+  score: 23.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -136,16 +136,20 @@ common:
 created: '2026-07-02'
 description: Poolside is an AI foundation model lab (founded 2023 by former GitHub CTO Jason Warner and Eiso Kant) building open-weight foundation models - the Laguna family - purpose-built for agentic software engineering. Poolside does not run a shared public SaaS API the way OpenAI or Groq do. Instead it publishes a full, public API reference (docs.poolside.ai) for an OpenAI-compatible inference API plus an admin/identity API, but the API itself only comes alive once a customer has a provisioned Poolside deployment - into their own AWS/Azure/Google Cloud VPC, on customer-owned NVIDIA GPU clusters via Helm, or fully air-gapped on-prem. There is no public signup page, free tier, or published pricing; access is arranged directly with Poolside's sales team. Separately, Poolside's smaller open-weight model, Laguna XS 2.1, can be called by anyone through third-party inference hosts such as OpenRouter, which is the closest thing to a public, self-serve way to hit a Poolside model over HTTP.
 finops:
-- name: Poolside Ai Finops
+- has_sources: true
+  method: generated
+  name: Poolside Ai Finops
+  primary_unit: ''
   service_category: AI and Machine Learning
   slug: poolside-ai-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/poolside-ai.png
 layout: provider
 modified: '2026-07-02'
 name: Poolside
 nav: Providers
 network: true
-overview: 'Poolside publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Chat API, Models API, and 2 more. Tagged areas include Artificial Intelligence, LLM, Foundation Models, Agentic Coding, and Software Engineering.
+overview: 'Poolside publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Chat API, Models API, and 2 more. Tagged areas include Artificial Intelligence, LLM, Foundation Models, Agentic Coding, and Software Engineering.
 
 
   Poolside''s developer surface includes authentication, documentation, engineering blog, and 10 more developer resources.'
@@ -159,23 +163,23 @@ rate_limits:
   name: Poolside Ai Rate Limits
   slug: poolside-ai-rate-limits
 score:
-  band: thin
-  composite: 34.0
+  band: emerging
+  composite: 25.3
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 61.6
+    artifact_dirs: 13
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.4
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.7
   facets:
-    access_clarity: 44.2
+    access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 41.9
     developer_ergonomics: 23.8
     discoverability: 66.1
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   previous_composite: 34.0
   provenance:
     agentic_access: derived
@@ -186,16 +190,17 @@ score:
       total: 2
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 15.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0
+screenshot: https://raw.githubusercontent.com/api-evangelist/poolside-ai/refs/heads/main/screenshots/poolside-ai-2026-10-11T112908.png
 security:
 - kind: authentication
   name: Poolside Ai Authentication

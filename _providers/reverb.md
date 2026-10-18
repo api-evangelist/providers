@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -217,6 +217,10 @@ collections:
   name: Reverb API
   slug: open-reverb
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://reverb.com/news
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/reverb/refs/heads/main/agentic-access/reverb-agentic-access.yml
   title: ''
@@ -271,19 +275,23 @@ common:
 created: '2026-05-08'
 description: Reverb is a marketplace for musicians to buy and sell new, used, and vintage musical instruments and gear, owned by Etsy. The Reverb API is a HATEOAS hypermedia REST API using application/hal+json, with interactive Swagger documentation and an X-Auth-Token header authentication scheme.
 finops:
-- name: Reverb Finops
+- has_sources: true
+  method: generated
+  name: Reverb Finops
+  primary_unit: ''
   service_category: Marketplace
   slug: reverb-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/reverb.png
 layout: provider
-modified: '2026-09-16'
+modified: '2026-10-06'
 name: Reverb
 nav: Providers
 network: true
-overview: 'Reverb publishes 21 APIs on the [APIs.io](https://apis.io/) network, including REST API, Accounts API, Articles API, and 18 more. Tagged areas include Marketplace, Music, Instruments, and E-Commerce.
+overview: 'Reverb publishes 21 API contracts indexed on the [APIs.io](https://apis.io/) network, including REST API, Accounts API, Articles API, and 18 more. Tagged areas include Marketplace, Music, Instruments, and E-Commerce.
 
 
-  Reverb''s developer surface includes authentication and 10 more developer resources.'
+  Reverb''s developer surface includes engineering blog, authentication, and 10 more developer resources.'
 plans:
 - name: Reverb Plans Pricing
   plan_count: 2
@@ -295,20 +303,20 @@ rate_limits:
   slug: reverb-rate-limits
 score:
   band: emerging
-  composite: 24.6
+  composite: 23.6
   coverage:
-    artifact_dirs: 10
-    catalog_earned: 39.0
+    artifact_dirs: 12
+    catalog_earned: 36.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 76.0
+    catalog_gap: 79.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.0
   facets:
-    access_clarity: 13.2
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 45.5
-    developer_ergonomics: 21.4
+    developer_ergonomics: 23.8
     discoverability: 57.1
     operational_transparency: 7.9
   previous_composite: 24.6
@@ -325,12 +333,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 17.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
     score: 0.0
+screenshot: https://raw.githubusercontent.com/api-evangelist/reverb/refs/heads/main/screenshots/reverb-2026-10-11T125212.png
 security:
 - kind: authentication
   name: Reverb Authentication

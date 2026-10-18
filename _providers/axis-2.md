@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.axis.xyz/blog
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/axis-2/refs/heads/main/security/axis-2-domain-security.yml
   title: ''
@@ -61,31 +65,31 @@ created: '2026-07-17'
 description: Axis (axis.xyz) is a Y Combinator-backed (W2022) knowledge base platform for corporate affairs, government relations, and compliance teams that helps large companies understand their markets and regulatory obligations across the world. The platform delivers regulatory intelligence for international expansion - which laws to comply with and which officials to seek approvals from - spanning 40+ countries and 200+ industries across Europe, the Middle East, and Africa. This is a product SaaS company; as of this enrichment pass it publishes no public developer API, OpenAPI specification, SDKs, or developer portal.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/axis-2.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Axis 2
 nav: Providers
 network: true
 overview: 'Axis 2 is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Regulatory Intelligence, Compliance, Corporate Affairs, and Government Relations.
 
 
-  Axis 2''s developer surface includes changelog, support, and 3 more developer resources.'
+  Axis 2''s developer surface includes engineering blog, changelog, support, and 3 more developer resources.'
 random_paper: 4
 score:
   band: minimal
-  composite: 8.1
+  composite: 8.5
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.4
   facets:
     access_clarity: 6.6
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 4.8
+    developer_ergonomics: 7.1
     discoverability: 48.2
     operational_transparency: 15.8
   previous_composite: 8.1
@@ -95,8 +99,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

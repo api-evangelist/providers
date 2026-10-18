@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 3
 common:
@@ -118,22 +118,22 @@ modified: '2026-07-19'
 name: Linx Security
 nav: Providers
 network: true
-overview: 'Linx Security is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Identity, Identity Governance, and Access Management.
+overview: 'Linx Security is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Identity, Identity Governance, and Identity and Access Management.
 
 
   Linx Security''s developer surface includes engineering blog, signup flow, support, and 13 more developer resources.'
 random_paper: 12
 score:
   band: emerging
-  composite: 19.4
+  composite: 19.5
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 42.1
     contract_governance: 18.2
@@ -151,8 +151,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -174,11 +174,10 @@ tags:
 - Security
 - Identity
 - Identity Governance
-- Access Management
+- Identity and Access Management
 - Identity Security
 - Non-Human Identity
 - AI Agents
 - MCP
-- IGA
 website: https://www.linx.security
 ---

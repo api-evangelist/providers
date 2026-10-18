@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - baseURL: https://sight.inspectorio.com
@@ -248,6 +248,14 @@ collections:
   name: File Management ANALYTICS Upload File API
   slug: open-inspectorio-upload-file-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.inspectorio.com/about/newsroom/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.inspectorio.com/feed/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/inspectorio/refs/heads/main/capabilities/inspectorio-capability-edges.yml
   title: ''
@@ -406,21 +414,21 @@ created: '2026-07-17'
 description: Inspectorio is a supply-chain management software platform that helps brands, retailers, suppliers, and laboratories digitize and optimize production across quality risk management, responsible sourcing & compliance, production management, traceability, and lab-test management. It serves 15,000+ organizations in apparel/footwear, food & beverage, home & furniture, retail, and outdoor/sports. For integrators it exposes REST integration APIs (organization API-key auth via the `apiKey` header) for its Quality Risk Management (Sight), Responsible Sourcing & Compliance (Rise), and File Management domains, plus HMAC-signed outbound webhooks following the Standard Webhooks specification.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/inspectorio.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Inspectorio
 nav: Providers
 network: true
-overview: 'Inspectorio publishes 25 APIs on the [APIs.io](https://apis.io/) network, including ANALYTICS API, ASSESSMENT-V1 API, ASSIGNMENT API, and 22 more. Tagged areas include Supply Chain, Quality Management, Compliance, Responsible Sourcing, and Traceability.
+overview: 'Inspectorio publishes 25 API contracts indexed on the [APIs.io](https://apis.io/) network, including ANALYTICS API, ASSESSMENT-V1 API, ASSIGNMENT API, and 22 more. Tagged areas include Supply Chain, Quality Management, Compliance, Responsible Sourcing, and Traceability.
 
 
   The Inspectorio catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Inspectorio''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 26 more developer resources.'
+  Inspectorio''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, authentication, changelog, and 28 more developer resources.'
 random_paper: 11
 score:
   band: strong
-  composite: 55.7
+  composite: 55.8
   coverage:
     artifact_dirs: 22
     catalog_earned: 40.0
@@ -428,7 +436,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 43.4
     contract_governance: 4.5
@@ -456,8 +464,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

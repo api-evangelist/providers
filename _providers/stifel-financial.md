@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: Stifel Bank account data accessible via Finicity (Mastercard) open banking aggregation API, enabling third-party applications to retrieve account balances, transaction history, and investment portfoli
@@ -47,6 +47,21 @@ apis:
   slug: stifel-wealth-tracker
 artifact_total: 8
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/stifel-financial/refs/heads/main/plans/stifel-financial-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/stifel-financial-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/stifel-financial/refs/heads/main/rate-limits/stifel-financial-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/stifel-financial-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/stifel-financial/refs/heads/main/finops/stifel-financial-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/stifel-financial-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/stifel-financial/refs/heads/main/security/stifel-financial-domain-security.yml
   title: ''
@@ -75,9 +90,13 @@ common:
 created: '2026-05-02'
 description: Stifel Financial is a financial services holding company whose subsidiaries provide securities brokerage, investment banking, trading, investment advisory, and related financial services to individual investors, corporations, and government entities. Stifel bank accounts are accessible via open banking data aggregators including Plaid and Finicity (Mastercard) for third-party financial applications.
 finops:
-- name: Stifel Financial Finops
+- has_sources: true
+  method: generated
+  name: Stifel Financial Finops
+  primary_unit: ''
   service_category: Financial Services
   slug: stifel-financial-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/stifel-financial.png
 jsonld:
 - class_count: 13
@@ -89,13 +108,13 @@ modified: '2026-05-02'
 name: Stifel Financial
 nav: Providers
 network: true
-overview: 'Stifel Financial publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Finance, Wealth Management, Investment Banking, Open Banking, and Financial Services.
+overview: 'Stifel Financial is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Finance, Wealth Management, Investment Banking, Open Banking, and Financial Services.
 
 
   The Stifel Financial catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Stifel Financial''s developer surface includes engineering blog and 5 more developer resources.'
+  Stifel Financial''s developer surface includes engineering blog and 8 more developer resources.'
 plans:
 - name: Stifel Financial Plans Pricing
   plan_count: 1
@@ -123,17 +142,17 @@ rate_limits:
   slug: stifel-financial-rate-limits
 score:
   band: emerging
-  composite: 12.8
+  composite: 11.3
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 50.0
+    artifact_dirs: 12
+    catalog_earned: 47.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 65.0
+    catalog_gap: 68.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 13.2
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 10.7
     developer_ergonomics: 11.9
@@ -146,8 +165,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 8.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

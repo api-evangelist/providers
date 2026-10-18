@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 3
@@ -277,7 +277,7 @@ modified: '2026-07-19'
 name: Ledger Investing
 nav: Providers
 network: true
-overview: 'Ledger Investing publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Cashflow Models API, Development Models API, Forecast Models API, and 3 more. Tagged areas include Company, Insurance Tech, Insurance, Reinsurance, and Insurance-Linked Securities.
+overview: 'Ledger Investing publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Cashflow Models API, Development Models API, Forecast Models API, and 3 more. Tagged areas include Company, Insurance Tech, Insurance, Reinsurance, and Insurance-Linked Securities.
 
 
   Ledger Investing''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, engineering blog, and 31 more developer resources.'
@@ -327,8 +327,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 31.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

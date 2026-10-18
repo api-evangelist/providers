@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.ignet.gov/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/office-of-inspector-general/refs/heads/main/security/office-of-inspector-general-domain-security.yml
   title: ''
@@ -53,7 +57,7 @@ created: '2024-12-25'
 description: The Office of Inspector General (OIG) conducts audits, investigations, inspections, and other reviews to promote economy and efficiency in government programs and operations, and to prevent and detect fraud, waste, and abuse.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/office-of-inspector-general.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-10-06'
 name: Office of Inspector General
 nav: Providers
 network: true
@@ -63,7 +67,7 @@ score:
   band: minimal
   composite: 2.8
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 22.0
     catalog_earned_first_party: 0.0
     catalog_gap: 93.0
@@ -89,8 +93,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

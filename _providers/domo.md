@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 5.0
-  scored_at: '2026-10-04'
+  score: 3.1
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Domo API allows users to integrate and interact with data from various sources within the Domo platform. With Domo API, users can access real-time data, automate data processes, and create custom data
@@ -41,6 +41,25 @@ apis:
   slug: domo-api
 artifact_total: 5
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/domo/refs/heads/main/plans/domo-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/domo-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/domo/refs/heads/main/rate-limits/domo-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/domo-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/domo/refs/heads/main/finops/domo-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/domo-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.domo.com/blog
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/domo/refs/heads/main/security/domo-domain-security.yml
   title: ''
@@ -65,16 +84,23 @@ common:
 created: '2025-03-01'
 description: Domo is a cloud-based software company that specializes in providing business intelligence tools for organizations. Their platform allows businesses to gather, analyze, and visualize data from various sources in order to make more informed decisions. Domo helps companies streamline their data management processes and gain valuable insights into their operations, sales, marketing, and overall performance.
 finops:
-- name: Domo Finops
+- has_sources: false
+  method: generated
+  name: Domo Finops
+  primary_unit: ''
   service_category: API
   slug: domo-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/domo.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-10-06'
 name: Domo
 nav: Providers
 network: true
-overview: Domo publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Analysis, Business Intelligence, Data, Pipelines, and Visualization.
+overview: 'Domo is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Analysis, Business Intelligence, Data, Pipelines, and Visualization.
+
+
+  Domo''s developer surface includes engineering blog and 8 more developer resources.'
 plans:
 - name: Domo Plans Pricing
   plan_count: 3
@@ -86,20 +112,20 @@ rate_limits:
   slug: domo-rate-limits
 score:
   band: emerging
-  composite: 13.7
+  composite: 12.6
   coverage:
-    artifact_dirs: 6
-    catalog_earned: 46.0
+    artifact_dirs: 8
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 69.0
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.1
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 15.5
+    developer_ergonomics: 17.9
     discoverability: 66.1
     operational_transparency: 10.5
   previous_composite: 13.7
@@ -109,8 +135,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

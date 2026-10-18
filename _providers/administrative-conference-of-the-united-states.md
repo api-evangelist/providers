@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 9.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: 'ACUS maintains an online database of Equal Access to Justice Act (EAJA) awards, tracking awards of attorney''s fees and other costs against the United States government. ACUS collects and reports this '
@@ -47,6 +47,11 @@ apis:
   slug: federal-administrative-procedure-sourcebook
 artifact_total: 20
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/administrative-conference-of-the-united-states/refs/heads/main/finops/administrative-conference-of-the-united-states-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/administrative-conference-of-the-united-states-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/administrative-conference-of-the-united-states/refs/heads/main/authentication/administrative-conference-of-the-united-states-authentication.yml
   title: ''
@@ -171,19 +176,23 @@ features:
 - description: ACUS maintains open data resources and has designated a Chief Data Officer in compliance with the Foundations for Evidence-Based Policymaking Act of 2018.
   name: Open Government Data Initiative
 finops:
-- name: Administrative Conference Of The United States Finops
+- has_sources: false
+  method: generated
+  name: Administrative Conference Of The United States Finops
+  primary_unit: ''
   service_category: API
   slug: administrative-conference-of-the-united-states-finops
+  template: true
 image: /assets/icons/administrative-conference-of-the-united-states.png
 layout: provider
 modified: '2026-08-30'
 name: Administrative Conference of the United States
 nav: Providers
 network: true
-overview: 'Administrative Conference of the United States publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Federal Government, Regulatory Reform, Administrative Law, Government Efficiency, and Open Data.
+overview: 'Administrative Conference of the United States is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Federal Government, Regulatory Reform, Administrative Law, Government Efficiency, and Open Data.
 
 
-  Administrative Conference of the United States'' developer surface includes authentication, code examples, API reference, documentation, engineering blog, support, developer portal, and 17 more developer resources.'
+  Administrative Conference of the United States'' developer surface includes authentication, code examples, API reference, documentation, engineering blog, support, developer portal, and 18 more developer resources.'
 plans:
 - name: Administrative Conference Of The United States Plans Pricing
   plan_count: 0
@@ -194,18 +203,18 @@ rate_limits:
   name: Administrative Conference Of The United States Rate Limits
   slug: administrative-conference-of-the-united-states-rate-limits
 score:
-  band: thin
-  composite: 26.2
+  band: emerging
+  composite: 24.5
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 38.0
+    artifact_dirs: 18
+    catalog_earned: 35.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 77.0
+    catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.7
   facets:
-    access_clarity: 18.4
+    access_clarity: 10.5
     contract_governance: 18.2
     contract_quality: 6.5
     developer_ergonomics: 45.2
@@ -226,13 +235,14 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 26.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/administrative-conference-of-the-united-states/refs/heads/main/screenshots/administrative-conference-of-the-united-states-2026-10-11T092822.png
 security:
 - kind: authentication
   name: Administrative Conference Of The United States Authentication

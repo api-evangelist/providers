@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 15.5
-  scored_at: '2026-10-04'
+  score: 13.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://packback.co
@@ -103,16 +103,20 @@ common:
 created: '2026-06-21'
 description: Packback is an AI-powered instructional platform for higher education and K-12 that delivers real-time, formative feedback on student discussion and writing. Its products - Questions/Discussions, Writing and Deep Dives, and Originality - embed into a school's LMS through the IMS Global LTI standard rather than a public REST API.
 finops:
-- name: Packback Finops
+- has_sources: true
+  method: generated
+  name: Packback Finops
+  primary_unit: ''
   service_category: Education and Learning Technology
   slug: packback-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/packback.png
 layout: provider
 modified: '2026-06-21'
 name: Packback
 nav: Providers
 network: true
-overview: 'Packback publishes 3 APIs on the [APIs.io](https://apis.io/) network: Questions / Discussions, Writing / Deep Dives, and LTI Integration. Tagged areas include Education, EdTech, Artificial Intelligence, Discussions, and Writing Feedback.
+overview: 'Packback publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Questions / Discussions, Writing / Deep Dives, and LTI Integration. Tagged areas include Education, EdTech, Artificial Intelligence, Discussions, and Writing Feedback.
 
 
   Packback''s developer surface includes documentation, engineering blog, and 7 more developer resources.'
@@ -127,22 +131,22 @@ rate_limits:
   slug: packback-rate-limits
 score:
   band: emerging
-  composite: 22.5
+  composite: 15.0
   coverage:
-    artifact_dirs: 9
-    catalog_earned: 53.0
+    artifact_dirs: 10
+    catalog_earned: 37.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 62.0
+    catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.5
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 25.1
     developer_ergonomics: 11.9
     discoverability: 57.1
-    operational_transparency: 21.6
+    operational_transparency: 7.9
   previous_composite: 22.5
   regulatory:
     applies: true
@@ -150,9 +154,9 @@ score:
     regime: Education & Research
     regime_id: education
     score: 5.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

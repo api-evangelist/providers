@@ -17,7 +17,7 @@ description: Lightspeed Venture Partners is a global, multi-stage venture capita
   Grafana, ngrok, Faire, and Navan.
 image: https://lsvp.com/wp-content/themes/lightspeed/assets/images/lightspeed-logo.svg
 layout: provider
-modified: '2026-07-17'
+modified: '2026-10-06'
 name: Lightspeed Venture Partners
 nav: Providers
 network: true

@@ -28,21 +28,21 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 37.1
-  scored_at: '2026-10-04'
+  score: 35.2
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 30
+- acting_count: 28
   human_in_the_loop: 0
   name: Drivewealth Agentic Access
   operation_count: 102
   slug: drivewealth-agentic-access
-  summary_line: 102 operations · 30 acting
-api_count: 1
+  summary_line: 102 operations · 28 acting
+api_count: 2
 apis:
 - description: Financial Information Exchange (FIX) protocol API for institutional-grade connectivity to DriveWealth's trading infrastructure.
   name: DriveWealth FIX API
@@ -413,9 +413,13 @@ examples:
   name: Drivewealth Place Order Example
   slug: drivewealth-place-order-example
 finops:
-- name: Drivewealth Finops
+- has_sources: false
+  method: generated
+  name: Drivewealth Finops
+  primary_unit: ''
   service_category: ''
   slug: drivewealth-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/drivewealth.png
 json_schemas:
 - name: DriveWealth Account
@@ -437,7 +441,7 @@ modified: 2026-06-12
 name: DriveWealth
 nav: Providers
 network: true
-overview: 'DriveWealth publishes 31 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Advisor Reports API, Asset Transfer API, and 28 more. Tagged areas include Brokerage-as-a-Service, Embedded Investing, Fractional Shares, Trading, and Fintech.
+overview: 'DriveWealth publishes 31 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, Advisor Reports API, Asset Transfer API, and 28 more. Tagged areas include Brokerage-as-a-Service, Embedded Investing, Fractional Shares, Trading, and Fintech.
 
 
   The DriveWealth catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -454,9 +458,10 @@ rate_limits:
   name: Drivewealth Rate Limits
   slug: drivewealth-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: DriveWealth API Rules
+  name: DriveWealth — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -465,23 +470,23 @@ rules:
     warn: 3
   slug: drivewealth-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 39.7
+  band: thin
+  composite: 33.6
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 73.2
+    artifact_dirs: 18
+    catalog_earned: 59.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 41.8
+    catalog_gap: 55.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.1
   facets:
-    access_clarity: 37.4
+    access_clarity: 15.8
     contract_governance: 23.5
     contract_quality: 58.9
     developer_ergonomics: 19.0
     discoverability: 66.1
-    operational_transparency: 37.4
+    operational_transparency: 23.7
   previous_composite: 39.7
   provenance:
     agentic_access: derived
@@ -496,9 +501,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 21.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-04'
+  score: 20.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -151,6 +151,21 @@ collections:
   name: PandaScore API
   slug: open-pandascore
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/pandascore/refs/heads/main/plans/pandascore-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/pandascore-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/pandascore/refs/heads/main/rate-limits/pandascore-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/pandascore-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/pandascore/refs/heads/main/finops/pandascore-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/pandascore-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/pandascore/refs/heads/main/agentic-access/pandascore-agentic-access.yml
   title: ''
@@ -209,19 +224,23 @@ common:
 created: '2026-05-23'
 description: PandaScore is a Paris-based esports data and odds provider supplying real-time fixtures, live statistics, historical data, and betting markets across 13+ esports titles including League of Legends, Counter-Strike 2, Dota 2, Valorant, Rainbow Six Siege, Overwatch, Call of Duty, Rocket League, EA Sports FC, King of Glory, Wild Rift, StarCraft, and Mobile Legends Bang Bang. The PandaScore REST API at api.pandascore.co plus WebSocket feeds power fantasy platforms, media outlets, predictive analytics, live score apps, and regulated sportsbooks.
 finops:
-- name: Pandascore Finops
+- has_sources: false
+  method: generated
+  name: Pandascore Finops
+  primary_unit: ''
   service_category: API
   slug: pandascore-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pandascore.png
 layout: provider
 modified: '2026-05-23'
 name: PandaScore
 nav: Providers
 network: true
-overview: 'PandaScore publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Changes API, Game - CS:GO API, Game - Dota 2 API, and 11 more. Tagged areas include Esports, Odds, Betting, Live Data, and Stats.
+overview: 'PandaScore publishes 14 API contracts indexed on the [APIs.io](https://apis.io/) network, including Changes API, Game - CS:GO API, Game - Dota 2 API, and 11 more. Tagged areas include Esports, Odds, Betting, Live Data, and Stats.
 
 
-  PandaScore''s developer surface includes authentication, developer portal, documentation, signup flow, engineering blog, and 8 more developer resources.'
+  PandaScore''s developer surface includes authentication, developer portal, documentation, signup flow, engineering blog, and 11 more developer resources.'
 plans:
 - name: Pandascore Plans Pricing
   plan_count: 1
@@ -233,22 +252,22 @@ rate_limits:
   slug: pandascore-rate-limits
 score:
   band: thin
-  composite: 39.2
+  composite: 33.1
   coverage:
     artifact_dirs: 12
-    catalog_earned: 54.4
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 60.6
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.1
   facets:
-    access_clarity: 61.1
+    access_clarity: 39.5
     contract_governance: 0.0
     contract_quality: 45.3
     developer_ergonomics: 26.2
     discoverability: 73.2
-    operational_transparency: 18.9
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -271,9 +290,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

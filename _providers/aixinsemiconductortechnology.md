@@ -23,10 +23,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://axera-tech.com/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/aixinsemiconductortechnology/refs/heads/main/security/aixinsemiconductortechnology-domain-security.yml
   title: ''
@@ -65,7 +69,7 @@ coverage:
 created: '2026-09-22'
 description: Axera Semiconductor Co., Ltd. (Aixin Semiconductor Technology) is a global leader in AI inference SoC solutions, delivering high‑performance perception and computing platforms for on‑device computing, edge AI inference, and smart vehicles. Listed on the Hong Kong Stock Exchange in February 2026, the company focuses on advanced edge and terminal‑side AI technologies, serving industries such as smart vehicles, vision, and edge AI chips.
 layout: provider
-modified: '2026-09-22'
+modified: '2026-10-06'
 name: Aixinsemiconductortechnology
 nav: Providers
 network: true
@@ -73,14 +77,15 @@ overview: Aixinsemiconductortechnology is profiled on the [APIs.io](https://apis
 random_paper: 14
 score:
   band: minimal
-  composite: 5.2
+  composite: 5.3
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 10
     catalog_earned: 25.0
     catalog_earned_first_party: 0.0
     catalog_gap: 90.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.1
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
@@ -88,6 +93,7 @@ score:
     developer_ergonomics: 7.1
     discoverability: 46.4
     operational_transparency: 5.3
+  previous_composite: 5.2
   provenance:
     mcp: unknown
   regulatory:
@@ -96,12 +102,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/aixinsemiconductortechnology/refs/heads/main/screenshots/aixinsemiconductortechnology-2026-10-11T093514.png
 security:
 - kind: domain-security
   name: Aixinsemiconductortechnology Domain Security

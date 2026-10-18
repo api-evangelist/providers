@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 12.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: REST API (/api/v1) for managing Ascend workspaces, deployments, environments, projects, profiles, flows, flow runs, and Otto. Service-account Bearer authentication.
@@ -42,6 +42,10 @@ apis:
   slug: ascend-instance-api
 artifact_total: 4
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.ascend.io/blog/
 - group: company
   title: ''
   type: Website
@@ -147,31 +151,31 @@ mcp_servers:
 - description: Official MCP server for the Ascend Instance web API. Exposes 25 tools for managing workspaces, deployments, environments, projects, profiles, flows, flow runs, and Otto (Ascend's agentic AI assistant)
   name: Ascend.io MCP Server
   slug: ascend-tools
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Ascend.io
 nav: Providers
 network: true
-overview: 'Ascend.io publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Big Data, Data Engineering, Data Pipeline, and ETL.
+overview: 'Ascend.io is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Big Data, Data Engineering, Data Pipeline, and ETL.
 
 
-  Ascend.io''s developer surface includes documentation, API reference, quickstart, signup flow, support, CLI, authentication, and 14 more developer resources.'
+  Ascend.io''s developer surface includes engineering blog, documentation, API reference, quickstart, signup flow, support, CLI, and 15 more developer resources.'
 random_paper: 2
 score:
   band: emerging
-  composite: 22.4
+  composite: 22.9
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 6.6
     contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 64.3
+    developer_ergonomics: 66.7
     discoverability: 71.7
     operational_transparency: 2.6
   previous_composite: 22.4
@@ -185,8 +189,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

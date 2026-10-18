@@ -32,10 +32,15 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 5
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/madethis/refs/heads/main/rate-limits/madethis-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/madethis-rate-limits.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/madethis/refs/heads/main/security/madethis-domain-security.yml
   title: ''
@@ -127,7 +132,7 @@ network: true
 overview: 'MadeThis is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, Business Automation, and Software-as-a-Service.
 
 
-  MadeThis'' developer surface includes signup flow, pricing, authentication, support, and 10 more developer resources.'
+  MadeThis'' developer surface includes signup flow, pricing, authentication, support, and 11 more developer resources.'
 plans:
 - name: Madethis Plans Pricing
   plan_count: 4
@@ -146,7 +151,7 @@ score:
   band: emerging
   composite: 26.1
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 39.0
     catalog_earned_first_party: 12.0
     catalog_gap: 76.0
@@ -177,8 +182,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 31.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

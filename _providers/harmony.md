@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 5
+- acting_count: 4
   human_in_the_loop: 0
   name: Harmony Agentic Access
   operation_count: 9
   slug: harmony-agentic-access
-  summary_line: 9 operations · 5 acting
+  summary_line: 9 operations · 4 acting
 api_count: 1
 apis:
 - baseURL: https://api.harmony.io/service-desk
@@ -63,6 +63,15 @@ collections:
   name: service-desk tickets API
   slug: open-harmony-tickets-api
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/harmony/refs/heads/main/rate-limits/harmony-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/harmony-rate-limits.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://harmony.io/feed.xml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/harmony/refs/heads/main/capabilities/harmony-capability-edges.yml
   title: ''
@@ -165,14 +174,14 @@ created: '2026-07-17'
 description: Harmony is an agentic enterprise service management (ESM) platform that gives every employee an always-on AI expert for IT, HR, finance, procurement, and legal service requests inside Slack and Microsoft Teams. Its AI agents autonomously resolve requests — password and MFA resets, application access, device recovery, employee onboarding and offboarding — using a context graph that connects each employee's identity, devices, applications, and history, often resolving issues before a ticket is opened. Harmony exposes a public REST Service Desk API for programmatically listing, creating, updating, querying, and bulk-updating tickets along with their custom fields and activity history. Founded in 2025 by Nitzan Shapira and Ran Ribenzaft and backed by Lightspeed Venture Partners.
 image: https://harmony.io/favicon.ico
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Harmony
 nav: Providers
 network: true
-overview: 'Harmony publishes 1 API on the [APIs.io](https://apis.io/) network: Tickets API. Tagged areas include ITSM, Service Desk, Ticketing, Enterprise Service Management, and AI Agents.
+overview: 'Harmony publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Tickets API. Tagged areas include ITSM, Service Desk, Ticketing, Enterprise Service Management, and AI Agents.
 
 
-  Harmony''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 16 more developer resources.'
+  Harmony''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 18 more developer resources.'
 random_paper: 18
 rate_limits:
 - limit_count: 2
@@ -182,7 +191,7 @@ score:
   band: developing
   composite: 44.2
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 21
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
@@ -213,8 +222,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

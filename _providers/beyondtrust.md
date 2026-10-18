@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 36.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -103,6 +103,10 @@ collections:
   name: BeyondTrust Password Safe Authentication Secrets API
   slug: open-beyondtrust-secrets-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.beyondtrust.com/blog
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/beyondtrust/refs/heads/main/well-known/beyondtrust-beyondtrust-security.txt
   title: ''
@@ -299,9 +303,13 @@ features:
 - description: Extend Active Directory authentication and group policies to Unix and Linux systems.
   name: AD Bridge
 finops:
-- name: Beyondtrust Finops
+- has_sources: false
+  method: generated
+  name: Beyondtrust Finops
+  primary_unit: ''
   service_category: API
   slug: beyondtrust-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/beyondtrust.png
 integrations:
 - description: Integrate access requests with ServiceNow ITSM workflows for approval management.
@@ -392,17 +400,17 @@ jsonld:
   property_count: 37
   slug: beyondtrust-context
 layout: provider
-modified: '2026-09-16'
+modified: '2026-10-06'
 name: BeyondTrust
 nav: Providers
 network: true
-overview: 'BeyondTrust publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Credentials API, Managed Accounts API, and 3 more. Tagged areas include Access, Access Management, Compliance, Credentials, and Privileged Access.
+overview: 'BeyondTrust is listed with 6 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Credentials API, Managed Accounts API, and 3 more. Tagged areas include Access, Identity and Access Management, Compliance, Credentials, and Privileged Access Management.
 
 
   The BeyondTrust catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  BeyondTrust''s developer surface includes authentication, developer portal, getting-started guide, and 27 more developer resources.'
+  BeyondTrust''s developer surface includes engineering blog, authentication, developer portal, getting-started guide, and 27 more developer resources.'
 plans:
 - name: Beyondtrust Plans Pricing
   plan_count: 3
@@ -413,9 +421,10 @@ rate_limits:
   name: Beyondtrust Rate Limits
   slug: beyondtrust-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: BeyondTrust API Rules
+  name: BeyondTrust — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -423,7 +432,8 @@ rules:
     info: 2
     warn: 3
   slug: beyondtrust-jsonschema-spectral-rules
-- effective_rule_count: 57
+- authorship: generated
+  effective_rule_count: 57
   extends:
   - spectral:oas
   name: BeyondTrust API Rules
@@ -434,7 +444,8 @@ rules:
     info: 1
     warn: 1
   slug: beyondtrust-rules
-- effective_rule_count: 70
+- authorship: generated
+  effective_rule_count: 70
   extends:
   - spectral:oas
   name: BeyondTrust API Rules
@@ -447,23 +458,23 @@ rules:
   slug: beyondtrust-spectral-rules
 score:
   band: thin
-  composite: 38.9
+  composite: 37.9
   coverage:
-    artifact_dirs: 27
-    catalog_earned: 78.0
+    artifact_dirs: 29
+    catalog_earned: 75.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 37.0
+    catalog_gap: 40.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 8.9
+  delta: -1.7
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 45.5
     contract_quality: 37.7
-    developer_ergonomics: 44.6
+    developer_ergonomics: 47.0
     discoverability: 78.6
     operational_transparency: 28.9
-  previous_composite: 30.0
+  previous_composite: 39.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -486,9 +497,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: rising
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: flat
   upsert:
     applies: true
     score: 0.0
@@ -509,10 +520,10 @@ security:
 slug: beyondtrust
 tags:
 - Access
-- Access Management
+- Identity and Access Management
 - Compliance
 - Credentials
-- Privileged Access
+- Privileged Access Management
 - Security
 - Secrets
 - Zero Trust

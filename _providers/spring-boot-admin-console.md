@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.3
-  scored_at: '2026-10-04'
+  score: 15.4
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 1
@@ -88,6 +88,21 @@ collections:
   name: Spring Boot Admin Server API
   slug: open-spring-boot-admin-console
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/spring-boot-admin-console/refs/heads/main/plans/spring-boot-admin-console-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/spring-boot-admin-console-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/spring-boot-admin-console/refs/heads/main/rate-limits/spring-boot-admin-console-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/spring-boot-admin-console-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/spring-boot-admin-console/refs/heads/main/finops/spring-boot-admin-console-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/spring-boot-admin-console-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/spring-boot-admin-console/refs/heads/main/capabilities/spring-boot-admin-console-capability-edges.yml
   title: ''
@@ -151,9 +166,13 @@ examples:
   name: Spring Boot Admin Console Register Application Example
   slug: spring-boot-admin-console-register-application-example
 finops:
-- name: Spring Boot Admin Console Finops
+- has_sources: true
+  method: generated
+  name: Spring Boot Admin Console Finops
+  primary_unit: ''
   service_category: Developer Tools
   slug: spring-boot-admin-console-finops
+  template: false
 image: https://raw.githubusercontent.com/codecentric/spring-boot-admin/master/spring-boot-admin-docs/src/site/resources/images/spring-boot-admin-logo.png
 json_schemas:
 - name: Spring Boot Admin Instance Event
@@ -176,13 +195,13 @@ modified: '2026-05-19'
 name: Spring Boot Admin Console
 nav: Providers
 network: true
-overview: 'Spring Boot Admin Console publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Events API, Instances API, and 4 more. Tagged areas include Actuators, Administration, Java, Microservices, and Monitoring.
+overview: 'Spring Boot Admin Console publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Applications API, Events API, Instances API, and 4 more. Tagged areas include Actuators, Administration, Java, Microservices, and Monitoring.
 
 
   The Spring Boot Admin Console catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Spring Boot Admin Console''s developer surface includes engineering blog and 11 more developer resources.'
+  Spring Boot Admin Console''s developer surface includes engineering blog and 14 more developer resources.'
 plans:
 - name: Spring Boot Admin Console Plans Pricing
   plan_count: 1
@@ -193,9 +212,10 @@ rate_limits:
   name: Spring Boot Admin Console Rate Limits
   slug: spring-boot-admin-console-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Spring Boot Admin Console API Rules
+  name: Spring Boot Admin Console — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -203,7 +223,8 @@ rules:
     info: 2
     warn: 3
   slug: spring-boot-admin-console-jsonschema-spectral-rules
-- effective_rule_count: 49
+- authorship: unmarked
+  effective_rule_count: 49
   extends:
   - spectral:oas
   name: Spring Boot Admin Console API Rules
@@ -216,17 +237,17 @@ rules:
   slug: spring-boot-admin-console-rules
 score:
   band: emerging
-  composite: 25.4
+  composite: 23.9
   coverage:
     artifact_dirs: 15
-    catalog_earned: 54.5
+    catalog_earned: 51.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 60.5
+    catalog_gap: 63.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 13.2
+    access_clarity: 5.3
     contract_governance: 13.6
     contract_quality: 49.5
     developer_ergonomics: 9.5
@@ -246,12 +267,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 4.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
     score: 0.0
+screenshot: https://raw.githubusercontent.com/api-evangelist/spring-boot-admin-console/refs/heads/main/screenshots/spring-boot-admin-console-2026-10-11T130247.png
 slug: spring-boot-admin-console
 tags:
 - Actuators

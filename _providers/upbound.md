@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: documented
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-04'
+  score: 21.0
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 3
@@ -94,6 +94,21 @@ collections:
   name: Upbound API
   slug: open-upbound
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/upbound/refs/heads/main/plans/upbound-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/upbound-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/upbound/refs/heads/main/rate-limits/upbound-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/upbound-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/upbound/refs/heads/main/finops/upbound-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/upbound-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/upbound/refs/heads/main/capabilities/upbound-capability-edges.yml
   title: ''
@@ -161,9 +176,13 @@ examples:
   name: Upbound List Control Planes Example
   slug: upbound-list-control-planes-example
 finops:
-- name: Upbound Finops
+- has_sources: false
+  method: generated
+  name: Upbound Finops
+  primary_unit: ''
   service_category: API
   slug: upbound-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/upbound.png
 json_schemas:
 - name: Upbound Control Plane
@@ -187,13 +206,13 @@ modified: '2026-05-19'
 name: Upbound
 nav: Providers
 network: true
-overview: 'Upbound publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Control Planes API, Organizations API, Repositories API, and 2 more. Tagged areas include Cloud Infrastructure, Crossplane, Developer Experience, Internal Developer Platform, and Platform Engineering.
+overview: 'Upbound publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Control Planes API, Organizations API, Repositories API, and 2 more. Tagged areas include Cloud Infrastructure, Crossplane, Developer Experience, Internal Developer Platform, and Platform Engineering.
 
 
   The Upbound catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Upbound''s developer surface includes authentication, engineering blog, documentation, and 10 more developer resources.'
+  Upbound''s developer surface includes authentication, engineering blog, documentation, and 13 more developer resources.'
 plans:
 - name: Upbound Plans Pricing
   plan_count: 3
@@ -204,9 +223,10 @@ rate_limits:
   name: Upbound Rate Limits
   slug: upbound-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Upbound API Rules
+  name: Upbound — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -214,7 +234,8 @@ rules:
     info: 2
     warn: 3
   slug: upbound-jsonschema-spectral-rules
-- effective_rule_count: 49
+- authorship: unmarked
+  effective_rule_count: 49
   extends:
   - spectral:oas
   name: Upbound API Rules
@@ -227,17 +248,17 @@ rules:
   slug: upbound-rules
 score:
   band: thin
-  composite: 35.2
+  composite: 33.7
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 61.5
+    artifact_dirs: 20
+    catalog_earned: 58.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.5
+    catalog_gap: 56.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 23.7
+    access_clarity: 15.8
     contract_governance: 13.6
     contract_quality: 61.5
     developer_ergonomics: 23.8
@@ -257,8 +278,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

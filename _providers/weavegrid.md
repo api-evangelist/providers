@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: WeaveGrid markets a partner API that lets aggregators, OEMs and device manufacturers align their software stack with electric utilities and participate in WeaveGrid-operated grid programs. The product
@@ -31,6 +31,11 @@ apis:
   slug: weavegrid-partner-api
 artifact_total: 5
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/weavegrid/refs/heads/main/rate-limits/weavegrid-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/weavegrid-rate-limits.yml
 - group: company
   title: ''
   type: Website
@@ -93,10 +98,10 @@ modified: '2026-09-04'
 name: WeaveGrid
 nav: Providers
 network: true
-overview: 'WeaveGrid publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Electric Utilities, Electric Vehicles, EV Charging, and Smart Grid.
+overview: 'WeaveGrid is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Electric Utilities, Electric Vehicles, EV Charging, and Smart Grid.
 
 
-  WeaveGrid''s developer surface includes engineering blog, support, and 7 more developer resources.'
+  WeaveGrid''s developer surface includes engineering blog, support, and 8 more developer resources.'
 plans:
 - name: Weavegrid Plans Pricing
   plan_count: 0
@@ -108,15 +113,15 @@ rate_limits:
   slug: weavegrid-rate-limits
 score:
   band: emerging
-  composite: 14.8
+  composite: 14.9
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 17.1
     contract_governance: 0.0
@@ -131,13 +136,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 13.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/weavegrid/refs/heads/main/screenshots/weavegrid-2026-10-11T194619.png
 security:
 - kind: authentication
   name: Weavegrid Authentication

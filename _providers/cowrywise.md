@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 5.0
-  scored_at: '2026-10-04'
+  score: 3.1
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Investment-as-a-service REST API that allows developers to embed regulated investment products (savings, mutual funds, treasury bills, Eurobonds, equities) into their applications. Supports user accou
@@ -97,16 +97,20 @@ common:
 created: '2026-06-13'
 description: Cowrywise is a Nigerian wealth management platform and SEC-licensed fund manager offering savings plans, investment portfolios, dollar accounts, and financial goal tracking for individuals. The Embed API provides investment-as-a-service capabilities, enabling developers to integrate regulated African investment products — including savings, mutual funds, treasury bills, Eurobonds, and equities — into their own applications via a single REST API with OAuth 2.0 authentication.
 finops:
-- name: Cowrywise Finops
+- has_sources: false
+  method: generated
+  name: Cowrywise Finops
+  primary_unit: ''
   service_category: ''
   slug: cowrywise-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cowrywise.png
 layout: provider
 modified: '2026-06-13'
 name: Cowrywise
 nav: Providers
 network: true
-overview: 'Cowrywise publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Fintech, Wealth Management, Investment, Savings, and Mutual Funds.
+overview: 'Cowrywise is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Fintech, Wealth Management, Investment, Savings, and Mutual Funds.
 
 
   Cowrywise''s developer surface includes documentation, engineering blog, pricing, and 9 more developer resources.'
@@ -120,23 +124,23 @@ rate_limits:
   name: Cowrywise Rate Limits
   slug: cowrywise-rate-limits
 score:
-  band: thin
-  composite: 28.8
+  band: emerging
+  composite: 21.9
   coverage:
     artifact_dirs: 8
-    catalog_earned: 58.0
+    catalog_earned: 42.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.0
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.9
   facets:
-    access_clarity: 37.4
+    access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 50.0
     discoverability: 66.1
-    operational_transparency: 33.7
+    operational_transparency: 13.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -151,9 +155,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 17.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -167,7 +171,7 @@ security:
 - kind: vulnerability-disclosure
   name: Cowrywise Vulnerability Disclosure
   slug: cowrywise-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 slug: cowrywise
 tags:
 - Fintech

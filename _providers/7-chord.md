@@ -32,10 +32,19 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
-artifact_total: 1
+artifact_total: 2
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/7-chord/refs/heads/main/plans/7-chord-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/7-chord-plans-pricing.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.7-chord.com/blog/
 - group: company
   title: ''
   type: Website
@@ -77,31 +86,35 @@ created: '2026-07-17'
 description: 7 Chord is a New York-based financial technology company providing AI-driven, real-time pricing and analytics for fixed income (corporate bond) markets. Its flagship engine, BondDroid, ingests 100 million-plus data points per day - firm and indicative quotes, post-trade prints, and macro and country risk factors - and distills them into risk-neutral bid, ask, and mid prices, yields, and option-adjusted spreads, including for thinly traded bonds. Founded in 2017, 7 Chord delivers BondDroid pricing in streaming, delayed, and historical bulk formats, and can run behind a client's firewall so proprietary data never leaves their environment. Its pricing powers platforms including Broadridge's LTX, TS Imagine, and PortfolioBI, and is distributed through partners such as Bonds.com and Dewey Data.
 image: https://www.7-chord.com/static/media/logoOpt.85b87e25.png
 layout: provider
-modified: '2026-07-17'
+modified: '2026-10-06'
 name: 7 Chord
 nav: Providers
 network: true
 overview: '7 Chord is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Fixed Income, Bond Pricing, and Artificial Intelligence.
 
 
-  7 Chord''s developer surface includes pricing, signup flow, support, and 6 more developer resources.'
+  7 Chord''s developer surface includes engineering blog, pricing, signup flow, support, and 7 more developer resources.'
+plans:
+- name: 7 Chord Plans Pricing
+  plan_count: 3
+  slug: 7-chord-plans-pricing
 random_paper: 12
 score:
-  band: minimal
-  composite: 3.4
+  band: emerging
+  composite: 11.0
   coverage:
-    artifact_dirs: 3
-    catalog_earned: 27.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 88.0
+    artifact_dirs: 6
+    catalog_earned: 39.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 7.6
   facets:
-    access_clarity: 0.0
+    access_clarity: 31.6
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 4.8
+    developer_ergonomics: 7.1
     discoverability: 48.2
     operational_transparency: 0.0
   jurisdiction:
@@ -117,10 +130,10 @@ score:
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 5.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+    score: 10.3
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

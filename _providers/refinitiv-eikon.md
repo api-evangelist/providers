@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.3
-  scored_at: '2026-10-04'
+  score: 26.5
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 12
+- acting_count: 8
   human_in_the_loop: 0
   name: Refinitiv Eikon Agentic Access
-  operation_count: 29
+  operation_count: 28
   slug: refinitiv-eikon-agentic-access
-  summary_line: 29 operations · 12 acting
+  summary_line: 28 operations · 8 acting
 api_count: 3
 apis:
 - description: Python and R library that allows programmatic access to Refinitiv Eikon data. Provides access to instrument pricing, fundamentals, estimates, time series, news, and symbology. Requires the Eikon or LS
@@ -338,6 +338,21 @@ collections:
   name: Refinitiv Eikon LSEG Tick History REST API
   slug: open-refinitiv-eikon-tick-history
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/refinitiv-eikon/refs/heads/main/plans/refinitiv-eikon-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/refinitiv-eikon-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/refinitiv-eikon/refs/heads/main/rate-limits/refinitiv-eikon-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/refinitiv-eikon-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/refinitiv-eikon/refs/heads/main/finops/refinitiv-eikon-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/refinitiv-eikon-finops.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -527,9 +542,13 @@ examples:
   name: Refinitiv Eikon Get Interday Pricing Example
   slug: refinitiv-eikon-get-interday-pricing-example
 finops:
-- name: Refinitiv Eikon Finops
+- has_sources: true
+  method: generated
+  name: Refinitiv Eikon Finops
+  primary_unit: ''
   service_category: Market Data
   slug: refinitiv-eikon-finops
+  template: false
 image: https://www.refinitiv.com/content/dam/marketing/en_us/images/logos/refinitiv-logo.png
 json_schemas:
 - name: Error
@@ -630,13 +649,13 @@ modified: '2026-05-29'
 name: Refinitiv Eikon
 nav: Providers
 network: true
-overview: 'Refinitiv Eikon publishes 47 APIs on the [APIs.io](https://apis.io/) network, including LSEG WebSocket API, Authentication API, ESG API, and 44 more. Tagged areas include Analytics, Financial Data, Financial News, Market Data, and Real-Time Data.
+overview: 'Refinitiv Eikon publishes 47 API contracts indexed on the [APIs.io](https://apis.io/) network, including LSEG WebSocket API, Authentication API, ESG API, and 44 more. Tagged areas include Analytics, Financial Data, Financial News, Market Data, and Real-Time Data.
 
 
   The Refinitiv Eikon catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Refinitiv Eikon''s developer surface includes authentication, developer portal, getting-started guide, documentation, signup flow, engineering blog, support, and 33 more developer resources.'
+  Refinitiv Eikon''s developer surface includes authentication, developer portal, getting-started guide, documentation, signup flow, engineering blog, support, and 36 more developer resources.'
 plans:
 - name: Refinitiv Eikon Plans Pricing
   plan_count: 1
@@ -647,10 +666,11 @@ rate_limits:
   name: Refinitiv Eikon Rate Limits
   slug: refinitiv-eikon-rate-limits
 rules:
-- effective_rule_count: 32
+- authorship: generated
+  effective_rule_count: 32
   extends:
   - spectral:asyncapi
-  name: Refinitiv Eikon API Rules
+  name: Refinitiv Eikon — asyncapi rules
   rule_count: 5
   severity_counts:
     error: 1
@@ -658,9 +678,10 @@ rules:
     info: 1
     warn: 3
   slug: refinitiv-eikon-asyncapi-spectral-rules
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Refinitiv Eikon API Rules
+  name: Refinitiv Eikon — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -668,7 +689,8 @@ rules:
     info: 2
     warn: 3
   slug: refinitiv-eikon-jsonschema-spectral-rules
-- effective_rule_count: 50
+- authorship: unmarked
+  effective_rule_count: 50
   extends:
   - spectral:oas
   name: Refinitiv Eikon API Rules
@@ -681,23 +703,23 @@ rules:
   slug: refinitiv-eikon-rules
 score:
   band: developing
-  composite: 49.8
+  composite: 48.3
   coverage:
     artifact_dirs: 20
-    catalog_earned: 67.0
+    catalog_earned: 64.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 48.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -1.5
   facets:
-    access_clarity: 30.3
+    access_clarity: 22.4
     contract_governance: 27.3
     contract_quality: 66.5
     developer_ergonomics: 58.3
-    discoverability: 66.1
+    discoverability: 71.4
     operational_transparency: 39.5
-  previous_composite: 49.3
+  previous_composite: 49.8
   provenance:
     agentic_access: derived
     contracts:
@@ -711,8 +733,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 25.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

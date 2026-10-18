@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: Zebra Data Services provides cloud REST APIs for managing Zebra devices, printers, and scanners enrolled in the Zebra cloud. The API covers asset ownership service (AOS), cloud print via SendFileToPri
@@ -41,7 +41,7 @@ apis:
 - description: The Zebra IoT Connector (ZIOTC) provides a local deployment REST API for managing RFID reader configuration, tag data collection, and event streaming on Zebra fixed RFID readers. Enables integration o
   name: Zebra RFID IoT Connector REST API
   slug: zebra-rfid-iot-connector-api
-artifact_total: 4
+artifact_total: 5
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/zebra-technologies/refs/heads/main/security/zebra-technologies-domain-security.yml
@@ -88,6 +88,10 @@ common:
   title: ''
   type: Support
   url: https://www.zebra.com/us/en/support-downloads.html
+- group: design
+  title: ''
+  type: SpectralRules
+  url: https://github.com/ZebraDevs/SWS-API_Linting_Ruleset/blob/7c42468b9859f2f1b160e9b589090b52f259bc58/.spectral.yml
 created: '2026-06-05'
 description: Zebra Technologies is a global leader in barcode printing, RFID, mobile computing, and machine vision solutions for manufacturing, warehousing, healthcare, and retail. The Zebra Developer Portal and TechDocs expose cloud REST APIs for printing, device management, barcode generation, RFID IoT connectivity, asset tracking, and label design, enabling integration of Zebra hardware into enterprise workflows and manufacturing operations systems.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zebra-technologies.png
@@ -101,28 +105,41 @@ modified: '2026-06-05'
 name: Zebra Technologies
 nav: Providers
 network: true
-overview: 'Zebra Technologies publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Manufacturing, RFID, Barcodes, Warehouse Automation, and IoT.
+overview: 'Zebra Technologies is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Manufacturing, RFID, Barcodes, Warehouse Automation, and IoT.
 
 
-  The Zebra Technologies catalog on APIs.io includes 1 JSON-LD context.
+  The Zebra Technologies catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Zebra Technologies'' developer surface includes developer portal, documentation, engineering blog, YouTube channel, signup flow, support, and 5 more developer resources.'
+  Zebra Technologies'' developer surface includes developer portal, documentation, engineering blog, YouTube channel, signup flow, support, and 6 more developer resources.'
 random_paper: 13
+rules:
+- authorship: provider
+  effective_rule_count: 65
+  extends:
+  - spectral:oas
+  name: Zebra Technologies — sws api linting ruleset rules
+  rule_count: 24
+  severity_counts:
+    error: 18
+    hint: 0
+    info: 0
+    warn: 6
+  slug: zebra-technologies-sws-api-linting-ruleset-spectral-rules
 score:
   band: emerging
-  composite: 19.2
+  composite: 24.7
   coverage:
-    artifact_dirs: 6
-    catalog_earned: 45.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 70.0
+    artifact_dirs: 8
+    catalog_earned: 60.0
+    catalog_earned_first_party: 15.0
+    catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 5.5
   facets:
     access_clarity: 13.2
-    contract_governance: 0.0
+    contract_governance: 45.5
     contract_quality: 10.7
     developer_ergonomics: 38.1
     discoverability: 66.1
@@ -134,9 +151,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://stockbit.com/blog
 - group: company
   title: ''
   type: Website
@@ -77,31 +81,31 @@ created: '2026-07-17'
 description: Stockbit (PT Stockbit Sekuritas Digital) is an Indonesian retail-investing platform and social community for the Indonesia Stock Exchange (IDX), letting members discuss, analyze, and trade stocks with real-time market data, fundamentals, trading ideas, news, and sentiment. The product is delivered as consumer iOS and Android apps plus a web experience, with a separate crypto brand (Stockbit Crypto). It was surfaced as a portfolio company of 500 Global. As of this enrichment pass Stockbit publishes no public developer API, developer portal, OpenAPI/Swagger definition, SDK, or .well-known discovery surface — the profile is maintained as a consumer-app company record rather than an API provider.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/stockbit.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Stockbit
 nav: Providers
 network: true
 overview: 'Stockbit is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Investing, Stock Trading, and Brokerage.
 
 
-  Stockbit''s developer surface includes support and 8 more developer resources.'
+  Stockbit''s developer surface includes engineering blog, support, and 8 more developer resources.'
 random_paper: 9
 score:
   band: minimal
-  composite: 9.2
+  composite: 9.7
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 4.8
+    developer_ergonomics: 7.1
     discoverability: 48.2
     operational_transparency: 2.6
   jurisdiction:
@@ -118,8 +122,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 13.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

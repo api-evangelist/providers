@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.8
-  scored_at: '2026-10-04'
+  score: 22.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -94,6 +94,21 @@ collections:
   name: Veli API
   slug: open-veli
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/veli/refs/heads/main/plans/veli-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/veli-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/veli/refs/heads/main/rate-limits/veli-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/veli-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/veli/refs/heads/main/finops/veli-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/veli-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/veli/refs/heads/main/agentic-access/veli-agentic-access.yml
   title: ''
@@ -171,9 +186,13 @@ features:
 - description: Portfolio performance metrics, returns, allocation breakdowns, and transaction history for investor reporting and dashboards.
   name: Performance Reporting
 finops:
-- name: Veli Finops
+- has_sources: false
+  method: generated
+  name: Veli Finops
+  primary_unit: ''
   service_category: API
   slug: veli-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/veli.png
 integrations:
 - description: Integrate with major crypto exchanges for execution of buy/sell orders triggered by Veli strategy signals.
@@ -231,13 +250,13 @@ modified: '2026-05-19'
 name: Veli
 nav: Providers
 network: true
-overview: 'Veli publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Orders API, Performance API, Portfolios API, and 2 more. Tagged areas include Crypto, DeFi, Finance, Investment, and Portfolio Management.
+overview: 'Veli is listed with 5 APIs on the [APIs.io](https://apis.io/) network, including Orders API, Performance API, Portfolios API, and 2 more. Tagged areas include Cryptocurrency, DeFi, Finance, Investment, and Portfolio Management.
 
 
   The Veli catalog on APIs.io includes 2 Spectral governance rulesets.
 
 
-  Veli''s developer surface includes authentication, developer portal, documentation, engineering blog, and 5 more developer resources.'
+  Veli''s developer surface includes authentication, developer portal, documentation, engineering blog, and 8 more developer resources.'
 plans:
 - name: Veli Plans Pricing
   plan_count: 3
@@ -248,9 +267,10 @@ rate_limits:
   name: Veli Rate Limits
   slug: veli-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Veli API Rules
+  name: Veli — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -258,7 +278,8 @@ rules:
     info: 2
     warn: 3
   slug: veli-jsonschema-spectral-rules
-- effective_rule_count: 77
+- authorship: generated
+  effective_rule_count: 77
   extends:
   - spectral:oas
   name: Veli API Rules
@@ -271,17 +292,17 @@ rules:
   slug: veli-spectral-rules
 score:
   band: emerging
-  composite: 25.6
+  composite: 24.1
   coverage:
     artifact_dirs: 16
-    catalog_earned: 62.0
+    catalog_earned: 59.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.0
+    catalog_gap: 56.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 27.3
     contract_quality: 23.0
     developer_ergonomics: 33.3
@@ -301,8 +322,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -319,7 +340,7 @@ security:
   summary_line: TLSv1.2 · DMARC
 slug: veli
 tags:
-- Crypto
+- Cryptocurrency
 - DeFi
 - Finance
 - Investment

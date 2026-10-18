@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: GraphQL API backing the Glife food-tech commerce and supply-chain platform. Exposes 535 queries, 870 mutations, and 139 subscriptions across ecommerce (customers, products, categories, orders, article
@@ -115,7 +115,7 @@ modified: '2026-07-19'
 name: Glife
 nav: Providers
 network: true
-overview: 'Glife publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food Tech, Grocery, Supply Chain, and E-Commerce.
+overview: 'Glife is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food Tech, Grocery, Supply Chain, and E-Commerce.
 
 
   Glife''s developer surface includes engineering blog, signup flow, support, authentication, and 10 more developer resources.'
@@ -124,7 +124,7 @@ score:
   band: emerging
   composite: 22.0
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -154,8 +154,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

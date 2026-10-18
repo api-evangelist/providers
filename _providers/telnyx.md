@@ -14,7 +14,7 @@ agent_readiness:
   band: agent-native
   dimensions:
     agent_card: conformant
-    agent_skills: derived
+    agent_skills: true
     agentic_access: derived
     agentic_commerce: self
     auth_clarity: served
@@ -25,23 +25,23 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: verified
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: partial
     protected_resource_metadata: verified
-    rate_limit_signal: verified
+    rate_limit_signal: documented
     reversibility_documented: verified
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 83.6
-  scored_at: '2026-10-04'
+  score: 78.6
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 553
+- acting_count: 550
   human_in_the_loop: 61
   name: Telnyx Agentic Access
   operation_count: 1038
   slug: telnyx-agentic-access
-  summary_line: 1038 operations · 553 acting · 61 human-in-the-loop
+  summary_line: 1038 operations · 550 acting · 61 human-in-the-loop
 api_count: 2
 apis:
 - baseURL: https://api.telnyx.com/v2
@@ -889,277 +889,7 @@ apis:
   description: IP operations
   name: Telnyx I Ps API
   slug: telnyx-ips-api
-- baseURL: https://api.telnyx.com/v2
-  baseurl_source: declared
-  description: Create and manage logical collections of your Telnyx data, tune retrieval settings, manage sources, and run collection-scoped semantic search.
-  name: Telnyx AI Collections API
-  slug: telnyx-ai-collections-api
-- baseURL: https://api.telnyx.com/v2
-  baseurl_source: declared
-  description: The Anthropic Messages API from Telnyx — 1 operation(s) for anthropic messages.
-  name: Telnyx Anthropic Messages API
-  slug: telnyx-anthropic-messages-api
-- baseURL: https://api.telnyx.com/v2
-  baseurl_source: declared
-  description: 'Agentic (bot) signup for Telnyx accounts. An AI agent solves a reverse-CAPTCHA challenge designed to be easy for LLMs and hard for humans, registers an account, and signs in by consuming a magic link '
-  name: Telnyx Bot Signup API
-  slug: telnyx-bot-signup-api
-- baseURL: https://api.telnyx.com/v2
-  baseurl_source: declared
-  description: Manage CloudFS filesystems — JuiceFS-compatible filesystems backed by Telnyx Cloud Storage
-  name: Telnyx cloudfs filesystems API
-  slug: telnyx-cloudfs-filesystems-api
-- baseURL: https://api.telnyx.com/v2
-  baseurl_source: declared
-  description: Read messages from the Telnyx vetting team and reply with clarifying information.
-  name: Telnyx Comments API
-  slug: telnyx-comments-api
-- baseURL: https://api.telnyx.com/v2
-  baseurl_source: declared
-  description: Page content retrieval for URLs.
-  name: Telnyx Contents API
-  slug: telnyx-contents-api
-- baseURL: https://api.telnyx.com/v2
-  baseurl_source: declared
-  description: Semantic vector search over ingested conversation history records with multi-region fan-out.
-  name: Telnyx Conversation Histories API
-  slug: telnyx-conversation-histories-api
-- baseURL: https://api.telnyx.com/v2
-  baseurl_source: declared
-  description: Beta API for evaluating shared context with typed questions and structured answers using Flash or Pro.
-  name: Telnyx Decision Models API
-  slug: telnyx-decision-models-api
-- baseURL: https://api.telnyx.com/v2
-  baseurl_source: declared
-  description: Submit and manage the two business references and one financial reference that vouch for a DIR. References are contacted to confirm the business identity during vetting.
-  name: Telnyx DIR References API
-  slug: telnyx-dir-references-api
-- baseURL: https://api.telnyx.com/v2
-  baseurl_source: declared
-  description: A Display Identity Record (DIR) is the verified calling identity (display name, logo, call reasons) shown to recipients on outbound calls.
-  name: Telnyx Display Identity Records API
-  slug: telnyx-display-identity-records-api
-- baseURL: https://api.telnyx.com/v2
-  baseurl_source: declared
-  description: DNS verification records for email domains
-  name: Telnyx Email Domain DNS Records API
-  slug: telnyx-email-domain-dns-records-api
-- baseURL: https://api.telnyx.com/v2
-  baseurl_source: declared
-  description: Email domain CRUD operations
-  name: Telnyx Email Domains API
-  slug: telnyx-email-domains-api
-- baseURL: https://api.telnyx.com/v2
-  baseurl_source: declared
-  description: Create, list, retrieve, update, delete, and send unsent draft messages belonging to an agent inbox.
-  name: Telnyx Email Drafts API
-  slug: telnyx-email-drafts-api
-- baseURL: https://api.telnyx.com/v2
-  baseurl_source: declared
-  description: Retrieve account-level email events and event statistics.
-  name: Telnyx Email Events API
-  slug: telnyx-email-events-api
-- baseURL: https://api.telnyx.com/v2
-  baseurl_source: declared
-  description: Create and manage agent inboxes, retrieve inbound messages and threads, and reply to or forward messages.
-  name: Telnyx Email Inboxes API
-  slug: telnyx-email-inboxes-api
-- baseURL: https://api.telnyx.com/v2
-  baseurl_source: declared
-  description: Send and manage email messages. Legacy `/v2/emails` routes are aliases for these endpoints.
-  name: Telnyx Email Messages API
-  slug: telnyx-email-messages-api
-- baseURL: https://api.telnyx.com/v2
-  baseurl_source: declared
-  description: Async CSV import of competitor suppression lists.
-  name: Telnyx Email Suppression Imports API
-  slug: telnyx-email-suppression-imports-api
-- baseURL: https://api.telnyx.com/v2
-  baseurl_source: declared
-  description: Recipient suppression records (`/v2/email_blocks`).
-  name: Telnyx Email Suppressions API
-  slug: telnyx-email-suppressions-api
-- baseURL: https://api.telnyx.com/v2
-  baseurl_source: declared
-  description: Create, list, retrieve, update, delete, and render Liquid email templates.
-  name: Telnyx Email Templates API
-  slug: telnyx-email-templates-api
-- baseURL: https://api.telnyx.com/v2
-  baseurl_source: declared
-  description: Account-wide conversation threads across every inbox, for agents operating many inboxes at once.
-  name: Telnyx Email Threads API
-  slug: telnyx-email-threads-api
-- baseURL: https://api.telnyx.com/v2
-  baseurl_source: declared
-  description: Named groups and group-scoped suppressions.
-  name: Telnyx Email Unsubscribe Groups API
-  slug: telnyx-email-unsubscribe-groups-api
-- baseURL: https://api.telnyx.com/v2
-  baseurl_source: declared
-  description: Validate email addresses synchronously or in asynchronous batches.
-  name: Telnyx Email Validations API
-  slug: telnyx-email-validations-api
-- baseURL: https://api.telnyx.com/v2
-  baseurl_source: declared
-  description: Verify ownership of a DIR's authorizer email. A short code is emailed and confirmed; the email must be verified before references can be submitted.
-  name: Telnyx Email Verification API
-  slug: telnyx-email-verification-api
-- baseURL: https://api.telnyx.com/v2
-  baseurl_source: declared
-  description: Per-domain webhook endpoints with event subscriptions
-  name: Telnyx Email Webhooks API
-  slug: telnyx-email-webhooks-api
-- baseURL: https://api.telnyx.com/v2
-  baseurl_source: declared
-  description: The functions API from Telnyx — 5 operation(s) for functions.
-  name: Telnyx Functions API
-  slug: telnyx-functions-api
-- baseURL: https://api.telnyx.com/v2
-  baseurl_source: declared
-  description: Trademark or impersonation claims filed against your DIR. Customers may contest a claim with supporting evidence.
-  name: Telnyx Infringement Claims API
-  slug: telnyx-infringement-claims-api
-- baseURL: https://api.telnyx.com/v2
-  baseurl_source: declared
-  description: Read and write keys within a KV namespace
-  name: Telnyx kv keys API
-  slug: telnyx-kv-keys-api
-- baseURL: https://api.telnyx.com/v2
-  baseurl_source: declared
-  description: Manage KV storage namespaces
-  name: Telnyx kv namespaces API
-  slug: telnyx-kv-namespaces-api
-- baseURL: https://api.telnyx.com/v2
-  baseurl_source: declared
-  description: Machine payment (MPP) account-credit operations. Fund your Telnyx account programmatically from a machine or agent using the Machine Payment Protocol, an HTTP-402 flow settled via Stripe or Tempo.
-  name: Telnyx Machine Payments API
-  slug: telnyx-machine-payments-api
-- baseURL: https://api.telnyx.com/v2
-  baseurl_source: declared
-  description: Send real-time speech and chat actions to an active meeting session.
-  name: Telnyx Meeting Session Actions API
-  slug: telnyx-meeting-session-actions-api
-- baseURL: https://api.telnyx.com/v2
-  baseurl_source: declared
-  description: Create and retrieve asynchronous summaries and action-item artifacts.
-  name: Telnyx Meeting Session Artifacts API
-  slug: telnyx-meeting-session-artifacts-api
-- baseURL: https://api.telnyx.com/v2
-  baseurl_source: declared
-  description: Read lifecycle events, transcript segments, and recordings for a meeting session.
-  name: Telnyx Meeting Session Data API
-  slug: telnyx-meeting-session-data-api
-- baseURL: https://api.telnyx.com/v2
-  baseurl_source: declared
-  description: Outbound webhook deliveries for meeting session events.
-  name: Telnyx Meeting Session Webhooks API
-  slug: telnyx-meeting-session-webhooks-api
-- baseURL: https://api.telnyx.com/v2
-  baseurl_source: declared
-  description: Create, list, retrieve, update, and stop meeting sessions.
-  name: Telnyx Meeting Sessions API
-  slug: telnyx-meeting-sessions-api
-- baseURL: https://api.telnyx.com/v2
-  baseurl_source: declared
-  description: Write memories into a profile and recall them.
-  name: Telnyx Memory API
-  slug: telnyx-memory-api
-- baseURL: https://api.telnyx.com/v2
-  baseurl_source: declared
-  description: The Namespaces API from Telnyx — 2 operation(s) for namespaces.
-  name: Telnyx Namespaces API
-  slug: telnyx-namespaces-api
-- baseURL: https://api.telnyx.com/v2
-  baseurl_source: declared
-  description: Noise suppression engines that can be selected when configuring noise suppression on voice connections.
-  name: Telnyx Noise Suppression Engines API
-  slug: telnyx-noise-suppression-engines-api
-- baseURL: https://api.telnyx.com/v2
-  baseurl_source: declared
-  description: Whether a write has finished.
-  name: Telnyx Operations API
-  slug: telnyx-operations-api
-- baseURL: https://api.telnyx.com/v2
-  baseurl_source: declared
-  description: Phone numbers are submitted to Telnyx for vetting in batches. Batches group all numbers added in a single request under the same Letter of Authorization.
-  name: Telnyx Phone Number Batches API
-  slug: telnyx-phone-number-batches-api
-- baseURL: https://api.telnyx.com/v2
-  baseurl_source: declared
-  description: Associate phone numbers with a verified DIR so calls from those numbers carry the DIR's display identity.
-  name: Telnyx Phone Numbers API
-  slug: telnyx-phone-numbers-api
-- baseURL: https://api.telnyx.com/v2
-  baseurl_source: declared
-  description: Public pricing operations
-  name: Telnyx Pricing API
-  slug: telnyx-pricing-api
-- baseURL: https://api.telnyx.com/v2
-  baseurl_source: declared
-  description: Manage RCS agent registration, testing, verification, and launch.
-  name: Telnyx RCS Agents API
-  slug: telnyx-rcs-agents-api
-- baseURL: https://api.telnyx.com/v2
-  baseurl_source: declared
-  description: Manage the legal business entities that operate RCS agents.
-  name: Telnyx RCS Brands API
-  slug: telnyx-rcs-brands-api
-- baseURL: https://api.telnyx.com/v2
-  baseurl_source: declared
-  description: 'Static reference values the API accepts: call reasons, document types, rejection types.'
-  name: Telnyx Reference Data API
-  slug: telnyx-reference-data-api
-- baseURL: https://api.telnyx.com/v2
-  baseurl_source: declared
-  description: Phone-number reputation monitoring (spam-score lookup and tracking).
-  name: Telnyx Reputation API
-  slug: telnyx-reputation-api
-- baseURL: https://api.telnyx.com/v2
-  baseurl_source: declared
-  description: Deep research with citations and async task polling.
-  name: Telnyx Research API
-  slug: telnyx-research-api
-- baseURL: https://api.telnyx.com/v2
-  baseurl_source: declared
-  description: How a namespace's summaries are written.
-  name: Telnyx Settings API
-  slug: telnyx-settings-api
-- baseURL: https://api.telnyx.com/v2
-  baseurl_source: declared
-  description: What a profile stored, and what its memories came from.
-  name: Telnyx Sources API
-  slug: telnyx-sources-api
-- baseURL: https://api.telnyx.com/v2
-  baseurl_source: declared
-  description: Discover available speech-to-text providers, models, and supported languages.
-  name: Telnyx Speech To Text Capabilities API
-  slug: telnyx-speech-to-text-capabilities-api
-- baseURL: https://api.telnyx.com/v2
-  baseurl_source: declared
-  description: Daily and monthly spend limits per product. A limit applies to the organization of the authenticated user, or to the user's own account when they belong to no organization; every user of the organizat
-  name: Telnyx Spend Limits API
-  slug: telnyx-spend-limits-api
-- baseURL: https://api.telnyx.com/v2
-  baseurl_source: declared
-  description: Manage SQL databases and run SQL against them
-  name: Telnyx sql databases API
-  slug: telnyx-sql-databases-api
-- baseURL: https://api.telnyx.com/v2
-  baseurl_source: declared
-  description: Retrieve raw Voice SDK call report stats payloads for WebRTC call troubleshooting.
-  name: Telnyx Voice SDK Stats API
-  slug: telnyx-voice-sdk-stats-api
-- baseURL: https://api.telnyx.com/v2
-  baseurl_source: declared
-  description: Real-time web search returning structured, LLM-ready JSON results.
-  name: Telnyx Web Search API
-  slug: telnyx-web-search-api
-- baseURL: https://api.telnyx.com/v2
-  baseurl_source: declared
-  description: The x402 API from Telnyx — 3 operation(s) for x402.
-  name: Telnyx X402 API
-  slug: telnyx-x402-api
-artifact_total: 586
+artifact_total: 589
 asyncapis:
 - description: ''
   name: Telnyx Webhooks
@@ -1677,6 +1407,16 @@ collections:
   slug: open-telnyx
 common:
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/asyncapi/telnyx-webhooks.yml
+  title: ''
+  type: Webhooks
+  url: asyncapi/telnyx-webhooks.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/llms/telnyx-site-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/telnyx-site-llms.txt
+- group: design
   href: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/rules/telnyx-rules.yml
   title: ''
   type: Spectral
@@ -1697,15 +1437,25 @@ common:
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/asyncapi/telnyx-webhooks.yml
-  title: ''
-  type: Webhooks
-  url: asyncapi/telnyx-webhooks.yml
-- group: design
   href: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/data-model/telnyx-data-model.yml
   title: ''
   type: DataModel
   url: data-model/telnyx-data-model.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/components/telnyx-components.yml
+  title: ''
+  type: Components
+  url: components/telnyx-components.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/cli/telnyx-cli.yml
+  title: ''
+  type: CLI
+  url: cli/telnyx-cli.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/changelog/telnyx-changelog.yml
+  title: ''
+  type: ChangeLog
+  url: changelog/telnyx-changelog.yml
 - group: design
   href: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/conventions/telnyx-conventions.yml
   title: ''
@@ -1720,6 +1470,16 @@ common:
   title: ''
   type: Compliance
   url: https://trust.telnyx.com/
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/lifecycle/telnyx-lifecycle.yml
+  title: ''
+  type: Lifecycle
+  url: lifecycle/telnyx-lifecycle.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/errors/telnyx-error-codes.yml
+  title: ''
+  type: ErrorCatalog
+  url: errors/telnyx-error-codes.yml
 - group: design
   href: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/errors/telnyx-problem-types.yml
   title: ''
@@ -1740,6 +1500,11 @@ common:
   title: ''
   type: AgentCard
   url: a2a/telnyx-a2a.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/mcp/telnyx-tool-crosswalk.yml
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/telnyx-tool-crosswalk.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/mcp/telnyx-mcp.yml
   title: ''
@@ -1770,46 +1535,18 @@ common:
   title: ''
   type: Packages
   url: packages/telnyx-packages.yml
-- group: commercial
-  title: ''
-  type: TermsOfService
-  url: https://telnyx.com/terms-and-conditions
-- group: operate
-  title: ''
-  type: Support
-  url: https://support.telnyx.com/
 - group: operate
   title: ''
   type: StatusPage
   url: https://status.telnyx.com/
-- group: start
-  title: ''
-  type: SignUp
-  url: https://telnyx.com/sign-up
 - group: auth
   title: ''
   type: Security
   url: https://telnyx.com/security
-- group: start
-  title: ''
-  type: GettingStarted
-  url: https://developers.telnyx.com/docs/inference/getting-started
-- group: operate
-  title: ''
-  type: ChangeLog
-  url: https://telnyx.com/release-notes
-- group: docs
-  title: ''
-  type: Documentation
-  url: https://developers.telnyx.com/
-- group: docs
-  title: ''
-  type: APIReference
-  url: https://developers.telnyx.com/api-reference/embeddings/embed-documents
 - group: commercial
   title: ''
   type: Pricing
-  url: https://telnyx.com/pricing/iot-data-plans
+  url: https://telnyx.com/pricing
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/capabilities/telnyx-capability-edges.yml
   title: ''
@@ -1879,13 +1616,57 @@ common:
 - group: company
   title: ''
   type: Blog
+  url: https://telnyx.com/resources
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://developers.telnyx.com/docs/overview
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developers.telnyx.com/api-reference
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://portal.telnyx.com
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://developers.telnyx.com/docs/account-setup/create-account
+- group: operate
+  title: ''
+  type: Support
+  url: https://support.telnyx.com/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://telnyx.com/sign-up
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://telnyx.com/terms-and-conditions
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://telnyx.com/privacy-policy
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://telnyx.com/release-notes
+- group: company
+  title: ''
+  type: BlogRSS
   url: https://telnyx.com/rss.xml
 created: '2026-05-08'
-description: Telnyx is a private‑IP cloud communications platform that provides a comprehensive suite of real‑time communications APIs. It enables developers to embed voice calling, SMS, MMS, fax, number management, IoT SIM connectivity, AI inference, and authentication capabilities into applications. Telnyx offers programmable SIP trunks, global phone numbers, messaging services, and edge compute resources, supporting use cases from contact centers to AI‑driven agents and IoT deployments.
+description: Telnyx is a carrier-owned, private-IP cloud communications and AI infrastructure platform. Its REST API (api.telnyx.com/v2, ~1,400 operations) covers programmable voice and SIP trunking, SMS/MMS/RCS/WhatsApp messaging, email, fax, phone numbers and porting, IoT SIM and private wireless, networking, storage, AI inference, embeddings, voice AI assistants and agent memory, plus a hosted MCP server, OAuth 2.0 and x402 pay-per-call access for agents.
 finops:
-- name: Telnyx Finops
+- has_sources: true
+  method: generated
+  name: Telnyx Finops
+  primary_unit: ''
   service_category: Communications
   slug: telnyx-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/telnyx.png
 json_schemas:
 - name: AcceptSuggestionsRequest
@@ -1945,9 +1726,21 @@ json_schemas:
 - name: AuthenticationProvider
   property_count: 10
   slug: telnyx-authentication-provider
+- name: AuthorizationServerMetadata
+  property_count: 11
+  slug: telnyx-authorization-server-metadata
 - name: AutoRechargePrefRequest
   property_count: 5
   slug: telnyx-auto-recharge-pref-request
+- name: AutoRespConfigCreateSchema
+  property_count: 4
+  slug: telnyx-auto-resp-config-create-schema
+- name: AutorespConfigResponseSchema
+  property_count: 1
+  slug: telnyx-autoresp-config-response-schema
+- name: AutorespConfigsResponseSchema
+  property_count: 2
+  slug: telnyx-autoresp-configs-response-schema
 - name: BillingBundleResponse
   property_count: 1
   slug: telnyx-billing-bundle-response
@@ -1966,6 +1759,9 @@ json_schemas:
 - name: BucketUsage
   property_count: 4
   slug: telnyx-bucket-usage
+- name: BulkMessagingSettingsUpdatePhoneNumbersRequest
+  property_count: 3
+  slug: telnyx-bulk-messaging-settings-update-phone-numbers-request
 - name: Dial Request
   property_count: 60
   slug: telnyx-call-request
@@ -2023,9 +1819,15 @@ json_schemas:
 - name: Conference Speak Request
   property_count: 8
   slug: telnyx-conference-speak-request
+- name: ConsentTokenResponse
+  property_count: 1
+  slug: telnyx-consent-token-response
 - name: Conversation
   property_count: 5
   slug: telnyx-conversation
+- name: CreateAlphanumericSenderIdRequest
+  property_count: 3
+  slug: telnyx-create-alphanumeric-sender-id-request
 - name: CreateAssistantRequest
   property_count: 27
   slug: telnyx-create-assistant-request
@@ -2050,6 +1852,9 @@ json_schemas:
 - name: CreateDocServiceDocumentRequest
   property_count: 4
   slug: telnyx-create-doc-service-document-request
+- name: CreateEventRequest
+  property_count: 6
+  slug: telnyx-create-event-request
 - name: Create External Connection Request
   property_count: 8
   slug: telnyx-create-external-connection-request
@@ -2080,15 +1885,27 @@ json_schemas:
 - name: CreateMessagingHostedNumberOrderRequest
   property_count: 2
   slug: telnyx-create-messaging-hosted-number-order-request
+- name: CreateMissionRequest
+  property_count: 6
+  slug: telnyx-create-mission-request
 - name: CreateMsgReq
   property_count: 8
   slug: telnyx-create-msg-req
 - name: CreateMultiPartDocServiceDocumentRequest
   property_count: 2
   slug: telnyx-create-multi-part-doc-service-document-request
+- name: CreateNumberBlockOrderRequest
+  property_count: 13
+  slug: telnyx-create-number-block-order-request
+- name: Outbound Voice Profile
+  property_count: 14
+  slug: telnyx-create-outbound-voice-profile-request
 - name: CreatedVerificationCodesResponse
   property_count: 1
   slug: telnyx-created-verification-codes-response
+- name: DefaultGateway
+  property_count: 0
+  slug: telnyx-default-gateway
 - name: DetailRecordsSearchResponse
   property_count: 2
   slug: telnyx-detail-records-search-response
@@ -2128,6 +1945,15 @@ json_schemas:
 - name: EnterprisePublicWrapped
   property_count: 1
   slug: telnyx-enterprise-public-wrapped
+- name: EnterpriseReputationCreate
+  property_count: 2
+  slug: telnyx-enterprise-reputation-create
+- name: EnterpriseReputationPublicWrapped
+  property_count: 1
+  slug: telnyx-enterprise-reputation-public-wrapped
+- name: EnterpriseReputationUpdateFrequency
+  property_count: 1
+  slug: telnyx-enterprise-reputation-update-frequency
 - name: EnterpriseUpdate
   property_count: 16
   slug: telnyx-enterprise-update
@@ -2206,6 +2032,9 @@ json_schemas:
 - name: IntegrationsListResponse
   property_count: 1
   slug: telnyx-integrations-list-response
+- name: IntrospectResponse
+  property_count: 7
+  slug: telnyx-introspect-response
 - name: Invoice
   property_count: 6
   slug: telnyx-invoice
@@ -2251,6 +2080,9 @@ json_schemas:
 - name: MdrUsageRequestLegacy
   property_count: 6
   slug: telnyx-mdr-usage-request-legacy
+- name: messaging_PaginationMeta
+  property_count: 4
+  slug: telnyx-messaging-pagination-meta
 - name: MigrationParams
   property_count: 12
   slug: telnyx-migration-params
@@ -2260,6 +2092,33 @@ json_schemas:
 - name: MigrationSourceParams
   property_count: 5
   slug: telnyx-migration-source-params
+- name: MissionRunsListResponse
+  property_count: 2
+  slug: telnyx-mission-runs-list-response
+- name: MissionsListResponse
+  property_count: 2
+  slug: telnyx-missions-list-response
+- name: MobilePhoneNumber
+  property_count: 22
+  slug: telnyx-mobile-phone-number
+- name: MobilePhoneNumberUpdate
+  property_count: 11
+  slug: telnyx-mobile-phone-number-update
+- name: mobile_phone_numbers_PaginationMeta
+  property_count: 4
+  slug: telnyx-mobile-phone-numbers-pagination-meta
+- name: MobileVoiceConnectionCreate
+  property_count: 9
+  slug: telnyx-mobile-voice-connection-create
+- name: MobileVoiceConnection
+  property_count: 13
+  slug: telnyx-mobile-voice-connection
+- name: MobileVoiceConnectionUpdate
+  property_count: 9
+  slug: telnyx-mobile-voice-connection-update
+- name: mobile_voice_connections_PaginationMeta
+  property_count: 4
+  slug: telnyx-mobile-voice-connections-pagination-meta
 - name: ModelsResponse
   property_count: 2
   slug: telnyx-models-response
@@ -2269,9 +2128,60 @@ json_schemas:
 - name: MonthlyChargesSummaryResponse
   property_count: 1
   slug: telnyx-monthly-charges-summary-response
+- name: NetworkCreate
+  property_count: 0
+  slug: telnyx-network-create
 - name: NewBillingGroup
   property_count: 1
   slug: telnyx-new-billing-group
+- name: NotificationChannel
+  property_count: 6
+  slug: telnyx-notification-channel
+- name: NotificationEventCondition
+  property_count: 12
+  slug: telnyx-notification-event-condition
+- name: NotificationEvent
+  property_count: 6
+  slug: telnyx-notification-event
+- name: NotificationProfile
+  property_count: 4
+  slug: telnyx-notification-profile
+- name: NotificationSetting
+  property_count: 10
+  slug: telnyx-notification-setting
+- name: OAuthClientCreateRequest
+  property_count: 9
+  slug: telnyx-oauth-client-create-request
+- name: OAuthClient
+  property_count: 16
+  slug: telnyx-oauth-client
+- name: OAuthClientUpdateRequest
+  property_count: 8
+  slug: telnyx-oauth-client-update-request
+- name: OAuthDynamicRegistrationRequest
+  property_count: 9
+  slug: telnyx-oauth-dynamic-registration-request
+- name: OAuthDynamicRegistrationResponse
+  property_count: 12
+  slug: telnyx-oauth-dynamic-registration-response
+- name: OAuthGrant
+  property_count: 6
+  slug: telnyx-oauth-grant
+- name: oauth_PaginationMeta
+  property_count: 4
+  slug: telnyx-oauth-pagination-meta
+- name: OpenAIEmbeddingModelsResponse
+  property_count: 2
+  slug: telnyx-open-aiembedding-models-response
+- name: OpenAIEmbeddingRequest
+  property_count: 5
+  slug: telnyx-open-aiembedding-request
+- name: OpenAIEmbeddingResponse
+  property_count: 4
+  slug: telnyx-open-aiembedding-response
+- name: OptOutListResponse
+  property_count: 2
+  slug: telnyx-opt-out-list-response
 - name: OutboundMessagePayloadCancelled
   property_count: 28
   slug: telnyx-outbound-message-payload-cancelled
@@ -2287,9 +2197,24 @@ json_schemas:
 - name: PaginationMetaSimple
   property_count: 4
   slug: telnyx-pagination-meta-simple
+- name: PhoneNumberBlocksJobDeletePhoneNumberBlockRequest
+  property_count: 1
+  slug: telnyx-phone-number-blocks-job-delete-phone-number-block-request
+- name: PhoneNumberBlocksJob
+  property_count: 9
+  slug: telnyx-phone-number-blocks-job
+- name: PhoneNumberCampaignCreate
+  property_count: 2
+  slug: telnyx-phone-number-campaign-create
+- name: PhoneNumberCampaign
+  property_count: 10
+  slug: telnyx-phone-number-campaign
 - name: PhoneNumberStatusResponsePaginated
   property_count: 1
   slug: telnyx-phone-number-status-response-paginated
+- name: PhoneNumberWithMessagingSettings
+  property_count: 15
+  slug: telnyx-phone-number-with-messaging-settings
 - name: PhoneNumbersJobDeletePhoneNumbersRequest
   property_count: 1
   slug: telnyx-phone-numbers-job-delete-phone-numbers-request
@@ -2302,9 +2227,18 @@ json_schemas:
 - name: PhoneNumbersJobUpdatePhoneNumbersRequest
   property_count: 9
   slug: telnyx-phone-numbers-job-update-phone-numbers-request
+- name: ProfileMetricsHighLevel
+  property_count: 0
+  slug: telnyx-profile-metrics-high-level
+- name: ProfileMetrics
+  property_count: 0
+  slug: telnyx-profile-metrics
 - name: PublicTextClusteringRequest
   property_count: 5
   slug: telnyx-public-text-clustering-request
+- name: ResourceMetadata
+  property_count: 2
+  slug: telnyx-resource-metadata
 - name: Speak Request
   property_count: 11
   slug: telnyx-speak-request
@@ -2344,6 +2278,12 @@ json_schemas:
 - name: TextClusteringResponseData
   property_count: 1
   slug: telnyx-text-clustering-response-data
+- name: TokenRequest
+  property_count: 8
+  slug: telnyx-token-request
+- name: TokenResponse
+  property_count: 5
+  slug: telnyx-token-response
 - name: Transfer Call Request
   property_count: 38
   slug: telnyx-transfer-call-request
@@ -2401,6 +2341,18 @@ json_schemas:
 - name: Upload media request
   property_count: 2
   slug: telnyx-update-media-request
+- name: UpdateMissionRequest
+  property_count: 6
+  slug: telnyx-update-mission-request
+- name: UpdateMissionRunRequest
+  property_count: 5
+  slug: telnyx-update-mission-run-request
+- name: Outbound Voice Profile
+  property_count: 14
+  slug: telnyx-update-outbound-voice-profile-request
+- name: UpdatePhoneNumberMessagingSettingsRequest
+  property_count: 3
+  slug: telnyx-update-phone-number-messaging-settings-request
 - name: UploadFileMessagingHostedNumberOrderRequest
   property_count: 2
   slug: telnyx-upload-file-messaging-hosted-number-order-request
@@ -2432,20 +2384,20 @@ jsonld:
   slug: telnyx-context
 layout: provider
 mcp_servers:
-- description: Remote MCP server at api.telnyx.com over HTTP; 6 tools listed.
+- description: Remote MCP server at api.telnyx.com over streamable HTTP requiring an API key; 6 tools listed.
   name: Telnyx MCP Server
-  slug: telnyx
-modified: '2026-09-16'
+  slug: io-github-team-telnyx-telnyx-mcp
+modified: '2026-10-08'
 name: Telnyx
 nav: Providers
 network: true
-overview: 'Telnyx publishes 223 APIs on the [APIs.io](https://apis.io/) network, including Access Tokens API, Addresses API, Advanced Number Orders API, and 220 more. Tagged areas include Communications, CPaaS, Voice, SMS, and IoT.
+overview: 'Telnyx publishes 169 API contracts indexed on the [APIs.io](https://apis.io/) network, including Access Tokens API, Addresses API, Advanced Number Orders API, and 166 more. Tagged areas include Communications, CPaaS, Voice, SMS, and IoT.
 
 
   The Telnyx catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Telnyx''s developer surface includes support, signup flow, getting-started guide, changelog, documentation, API reference, pricing, and 37 more developer resources.'
+  Telnyx''s developer surface includes CLI, changelog, pricing, authentication, engineering blog, documentation, API reference, and 47 more developer resources.'
 plans:
 - name: Telnyx Plans Pricing
   plan_count: 19
@@ -2459,60 +2411,61 @@ rate_limits:
   name: Telnyx Rate Limits
   slug: telnyx-rate-limits
 rules:
-- effective_rule_count: 54
+- authorship: generated
+  effective_rule_count: 54
   extends:
   - spectral:oas
   name: Telnyx API Rules
   rule_count: 13
   severity_counts:
-    error: 10
+    error: 11
     hint: 0
     info: 1
-    warn: 2
+    warn: 1
   slug: telnyx-rules
 scopes:
 - name: Telnyx Scopes
-  scope_count: 1
+  scope_count: 33
   slug: telnyx-scopes
-  summary_line: 1 scope · authorizationCode/clientCredentials
+  summary_line: 33 scopes · authorizationCode/clientCredentials
 score:
   band: exemplar
-  composite: 79.6
+  composite: 86.1
   coverage:
-    artifact_dirs: 31
-    catalog_earned: 89.8
+    artifact_dirs: 37
+    catalog_earned: 86.8
     catalog_earned_first_party: 24.0
-    catalog_gap: 25.3
+    catalog_gap: 28.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 31.4
+  delta: -1.5
   facets:
-    access_clarity: 89.5
-    contract_governance: 22.0
-    contract_quality: 76.6
-    developer_ergonomics: 56.5
+    access_clarity: 92.1
+    contract_governance: 35.6
+    contract_quality: 75.9
+    developer_ergonomics: 78.6
     discoverability: 75.0
     operational_transparency: 84.2
-  previous_composite: 48.2
+  previous_composite: 87.6
   provenance:
     agentic_access: derived
-    conformance: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 223
     mcp: first-party
-    skills: derived
+    skills: first-party
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 40.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: rising
+    score: 41.4
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: flat
   upsert:
     applies: true
     score: 77.8
@@ -2521,7 +2474,7 @@ security:
 - kind: authentication
   name: Telnyx Authentication
   slug: telnyx-authentication
-  summary_line: http/oauth2 · 2 schemes
+  summary_line: http/oauth2 · 3 schemes
 - kind: domain-security
   name: Telnyx Domain Security
   slug: telnyx-domain-security
@@ -2529,7 +2482,7 @@ security:
 - kind: vulnerability-disclosure
   name: Telnyx Vulnerability Disclosure
   slug: telnyx-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 - kind: trust-center
   name: Telnyx Trust Center
   slug: telnyx-trust-center
@@ -2542,5 +2495,11 @@ tags:
 - SMS
 - IoT
 - Telecommunications
+- Messaging
+- Artificial Intelligence
+- MCP
+- Voice AI
+- Phone Numbers
+- Inference
 website: https://telnyx.com/
 ---

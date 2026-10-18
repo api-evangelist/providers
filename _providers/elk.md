@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 9.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'Elk''s own server surface, served by its Nuxt runtime at https://elk.zone/api. Four endpoints: list the Mastodon-compatible instances offered in the sign-in picker, build the instance authorize URL, co'
@@ -41,6 +41,20 @@ apis:
   slug: elk-client-api
 artifact_total: 8
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/elk/refs/heads/main/rate-limits/elk-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/elk-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/elk/refs/heads/main/finops/elk-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/elk-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://elk.zone/blog/
 - group: operate
   title: ''
   type: Releases
@@ -123,19 +137,23 @@ common:
 created: '2024-01-01'
 description: 'Elk is a nimble, MIT-licensed Mastodon web client maintained by Anthony Fu, Daniel Roe, Kevin Deng and Patak. It runs as a Nuxt 4 progressive web app at elk.zone and connects to any Mastodon-compatible instance the user chooses, speaking the Mastodon Client API through Masto.js with WebSocket streaming and Web Push notifications. Elk sells no API product and issues no credential of its own: its small server surface at elk.zone/api exists to list sign-in instances and broker the OAuth 2.0 handshake with the user''s own server, and every timeline, post and notification call goes to that instance directly.'
 finops:
-- name: Elk Finops
+- has_sources: false
+  method: generated
+  name: Elk Finops
+  primary_unit: ''
   service_category: API
   slug: elk-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/elk.png
 layout: provider
-modified: '2026-08-27'
+modified: '2026-10-06'
 name: Elk
 nav: Providers
 network: true
-overview: 'Elk publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Fediverse, Mastodon, Open Source, Social Network, and Social Media.
+overview: 'Elk is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Fediverse, Mastodon, Open Source, Social Network, and Social Media.
 
 
-  Elk''s developer surface includes support, documentation, getting-started guide, changelog, and 14 more developer resources.'
+  Elk''s developer surface includes engineering blog, support, documentation, getting-started guide, changelog, and 16 more developer resources.'
 plans:
 - name: Elk Plans Pricing
   plan_count: 0
@@ -152,20 +170,20 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 30.0
+  composite: 29.1
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 40.0
+    artifact_dirs: 19
+    catalog_earned: 37.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.9
   facets:
-    access_clarity: 18.4
+    access_clarity: 10.5
     contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 45.2
+    developer_ergonomics: 47.6
     discoverability: 80.4
     operational_transparency: 18.4
   open_source:
@@ -182,8 +200,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

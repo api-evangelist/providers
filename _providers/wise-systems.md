@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.wisesystems.com/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/wise-systems/refs/heads/main/security/wise-systems-domain-security.yml
   title: ''
@@ -61,20 +65,20 @@ created: '2026-07-17'
 description: Wise Systems provides autonomous routing and last-mile delivery optimization software powered by machine learning. Its platform helps fleet operators plan strategy, optimize and dynamically re-route deliveries, dispatch in real time, track driver performance, and improve last-mile efficiency across industries including auto parts, beverage, building materials, container management, field service, food service, healthcare, linen services, parcel/courier, and retail. Wise Systems exposes an internal "Engine API" during customer implementations to connect data inputs and outputs, but publishes no public developer portal, API reference, or SDKs. Backed by Techstars and headquartered in Cambridge, Massachusetts.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wise-systems.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Wise Systems
 nav: Providers
 network: true
 overview: 'Wise Systems is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Logistics, Last Mile Delivery, Route Optimization, and Fleet Management.
 
 
-  Wise Systems'' developer surface includes support, engineering blog, and 3 more developer resources.'
+  Wise Systems'' developer surface includes support, engineering blog, and 4 more developer resources.'
 random_paper: 1
 score:
   band: minimal
   composite: 7.4
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -102,8 +106,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 9.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

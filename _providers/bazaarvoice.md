@@ -37,14 +37,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 30
+- acting_count: 26
   human_in_the_loop: 0
   name: Bazaarvoice Agentic Access
   operation_count: 79
   slug: bazaarvoice-agentic-access
-  summary_line: 79 operations · 30 acting
+  summary_line: 79 operations · 26 acting
 api_count: 23
 apis:
 - baseURL: https://api.bazaarvoice.com
@@ -255,6 +255,10 @@ collections:
   name: Transactions API
   slug: open-bazaarvoice-transactions
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.bazaarvoice.com/feed/
 - group: company
   title: ''
   type: Website
@@ -503,14 +507,14 @@ description: 'Bazaarvoice operates a retail and brand user-generated-content net
   header or Passkey query parameter), HTTP bearer tokens from 2-legged or 3-legged OAuth2, or an X-Curalate-Api-Key header on the acquired Curalate social-commerce platform. Bazaarvoice serves a real llms.txt on every documentation section, publishes first-party Postman collections and iOS, Android, SEO, Magento and Salesforce Commerce SDKs on GitHub, and is ISO/IEC 27001 certified with a HackerOne vulnerability disclosure policy.'
 image: https://github.com/bazaarvoice.png
 layout: provider
-modified: '2026-08-13'
+modified: '2026-10-06'
 name: Bazaarvoice
 nav: Providers
 network: true
-overview: 'Bazaarvoice publishes 29 APIs on the [APIs.io](https://apis.io/) network, including Answers API, Clients API, Contributor API, and 26 more. Tagged areas include BazaarVoice, Company, Reviews, Ratings, and User Generated Content.
+overview: 'Bazaarvoice publishes 29 API contracts indexed on the [APIs.io](https://apis.io/) network, including Answers API, Clients API, Contributor API, and 26 more. Tagged areas include BazaarVoice, Company, Reviews, Ratings, and User Generated Content.
 
 
-  Bazaarvoice''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 45 more developer resources.'
+  Bazaarvoice''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 46 more developer resources.'
 plans:
 - name: Bazaarvoice Plans Pricing
   plan_count: 9
@@ -524,13 +528,13 @@ score:
   band: strong
   composite: 62.8
   coverage:
-    artifact_dirs: 27
+    artifact_dirs: 28
     catalog_earned: 52.0
     catalog_earned_first_party: 12.0
     catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.5
+  delta: 0.0
   facets:
     access_clarity: 85.5
     contract_governance: 18.2
@@ -538,7 +542,7 @@ score:
     developer_ergonomics: 63.7
     discoverability: 78.6
     operational_transparency: 48.7
-  previous_composite: 61.3
+  previous_composite: 62.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -561,8 +565,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

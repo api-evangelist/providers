@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: Partner-gated programmatic access to Helix Exome+ sequencing data - more than 100 million base pairs including SNPs, indels, and copy number variants, with panel-grade coverage of clinically important
@@ -72,7 +72,7 @@ modified: '2026-07-05'
 name: Helix
 nav: Providers
 network: true
-overview: 'Helix publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Genomics, Population Genomics, Sequencing, Exome, and Precision Health.
+overview: 'Helix is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Genomics, Population Genomics, Sequencing, Exome, and Precision Health.
 
 
   Helix''s developer surface includes documentation and 3 more developer resources.'
@@ -102,8 +102,8 @@ score:
     regime: Health
     regime_id: health
     score: 4.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

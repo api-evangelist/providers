@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.exegy.com/category/insights/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/exegy/refs/heads/main/security/exegy-domain-security.yml
   title: ''
@@ -84,14 +88,14 @@ description: Exegy is a St. Louis-based provider of low-latency market data infr
   with no self-serve API surface.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/exegy.png
 layout: provider
-modified: '2026-07-22'
+modified: '2026-10-06'
 name: Exegy
 nav: Providers
 network: true
 overview: 'Exegy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Finance, Market Data, Trading, Real-Time, and Low Latency.
 
 
-  Exegy''s developer surface includes developer portal, engineering blog, support, and 7 more developer resources.'
+  Exegy''s developer surface includes developer portal, engineering blog, support, and 8 more developer resources.'
 random_paper: 18
 score:
   band: minimal
@@ -123,8 +127,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 9.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

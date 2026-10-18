@@ -34,14 +34,27 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Managed training/fine-tuning and sampling API for open-weight language models, consumed through the official Tinker Python SDK and CLI. Supports SFT, RL, and distillation workflows, checkpoint managem
   name: Tinker API
   slug: tinker-api
-artifact_total: 4
+artifact_total: 5
 common:
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://tinker-docs.thinkingmachines.ai/tinker/models/models_and_pricing/
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/thinking-machines/refs/heads/main/plans/thinking-machines-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/thinking-machines-plans-pricing.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://thinkingmachines.ai/blog/index.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/thinking-machines/refs/heads/main/security/thinking-machines-domain-security.yml
   title: ''
@@ -174,32 +187,40 @@ common:
   title: ''
   type: Security
   url: security/thinking-machines-vulnerability-disclosure.yml
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://tinker-docs.thinkingmachines.ai/tinker/api-reference/restclient/
 created: '2026-07-17'
 description: Thinking Machines Lab is an artificial intelligence research and product company building tools to make AI systems more widely understood, customizable, and generally capable. Its flagship developer product is Tinker, a managed API with an official Python SDK and CLI for fine-tuning and sampling open-weight language models (supervised fine-tuning, reinforcement learning, and distillation), alongside Inkling, an open-weights model. The Tinker platform exposes ServiceClient, TrainingClient, SamplingClient, and RestClient interfaces plus OpenAI- and Anthropic-compatible inference endpoints, governed by a project-scoped permission model.
 image: https://thinkingmachines.ai/images/home.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Thinking Machines
 nav: Providers
 network: true
-overview: 'Thinking Machines publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, Fine-Tuning, and LLM.
+overview: 'Thinking Machines is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, Fine-Tuning, and LLM.
 
 
-  Thinking Machines'' developer surface includes documentation, API reference, quickstart, signup flow, support, engineering blog, CLI, and 22 more developer resources.'
+  Thinking Machines'' developer surface includes pricing, documentation, API reference, quickstart, signup flow, support, engineering blog, and 26 more developer resources.'
+plans:
+- name: Thinking Machines Plans Pricing
+  plan_count: 11
+  slug: thinking-machines-plans-pricing
 random_paper: 7
 score:
-  band: thin
-  composite: 36.3
+  band: developing
+  composite: 42.3
   coverage:
-    artifact_dirs: 15
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 17
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.0
   facets:
-    access_clarity: 44.7
+    access_clarity: 76.3
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 64.3
@@ -210,13 +231,13 @@ score:
     conformance: derived
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 28.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -245,5 +266,6 @@ tags:
 - Model Training
 - Developer Tools
 - Foundation Models
+- Reinforcement Learning
 website: https://thinkingmachines.ai/
 ---

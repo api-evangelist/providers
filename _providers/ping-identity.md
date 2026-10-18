@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -348,9 +348,13 @@ common:
 created: '2025-02-08'
 description: Identity for enterprises - flawless user experience with fortified enterprise protection. Ping Identity's PingOne platform provides cloud-based identity and access management with REST APIs covering authentication, authorization, user and population management, applications, MFA, risk, verification, and more.
 finops:
-- name: Ping Identity Finops
+- has_sources: false
+  method: generated
+  name: Ping Identity Finops
+  primary_unit: ''
   service_category: API
   slug: ping-identity-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ping-identity.png
 json_schemas:
 - name: PingOne Application DaVinci Flow Policy
@@ -498,7 +502,7 @@ modified: '2026-05-19'
 name: Ping Identity
 nav: Providers
 network: true
-overview: 'Ping Identity publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Configuration Management API, DaVinci Admin Application Flow Policies API, DaVinci Admin Applications API, and 8 more. Tagged areas include Identity, Authentication, Authorization, SSO, and MFA.
+overview: 'Ping Identity publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Configuration Management API, DaVinci Admin Application Flow Policies API, DaVinci Admin Applications API, and 8 more. Tagged areas include Identity, Authentication, Authorization, SSO, and MFA.
 
 
   The Ping Identity catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -515,7 +519,8 @@ rate_limits:
   name: Ping Identity Rate Limits
   slug: ping-identity-rate-limits
 rules:
-- effective_rule_count: 60
+- authorship: generated
+  effective_rule_count: 60
   extends:
   - spectral:oas
   name: Ping Identity API Rules
@@ -533,17 +538,17 @@ scopes:
   summary_line: 26 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 50.8
+  composite: 49.5
   coverage:
-    artifact_dirs: 29
-    catalog_earned: 71.8
+    artifact_dirs: 30
+    catalog_earned: 68.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 43.3
+    catalog_gap: 46.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 17.1
+  delta: -8.3
   facets:
-    access_clarity: 52.6
+    access_clarity: 44.7
     contract_governance: 22.0
     contract_quality: 64.1
     developer_ergonomics: 42.3
@@ -552,7 +557,7 @@ score:
   open_source:
     applies: true
     score: 0.0
-  previous_composite: 33.7
+  previous_composite: 57.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -569,9 +574,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: rising
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

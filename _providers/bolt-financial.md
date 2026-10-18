@@ -30,21 +30,21 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 52.4
-  scored_at: '2026-10-04'
+  score: 50.6
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 43
+- acting_count: 41
   human_in_the_loop: 0
   name: Bolt Financial Agentic Access
   operation_count: 58
   slug: bolt-financial-agentic-access
-  summary_line: 58 operations · 43 acting
-api_count: 4
+  summary_line: 58 operations · 41 acting
+api_count: 5
 apis:
 - description: 'Bolt exposes two Model Context Protocol surfaces: a hosted documentation MCP server advertised at help.boltapp.com/mcp with search_docs, get_doc_page and list_doc_sections tools, and a Speakeasy-gener'
   name: Bolt MCP Servers
@@ -353,9 +353,13 @@ common:
 created: '2026-07-31'
 description: 'Bolt Financial, Inc. is an American commerce technology company that gives retailers a one-click, identity-powered checkout backed by a shopper account network, payments processing, tokenization and fraud protection. Merchants integrate Bolt either through platform plugins (Adobe Commerce/Magento, BigCommerce, Salesforce Commerce Cloud, Shopify, WooCommerce) or directly against a REST API surface that covers shopper accounts, order tokens, transaction authorize/capture/refund/void, subscriptions, product catalog, merchant statements, webhooks and a hosted card tokenizer. Bolt publishes OpenAPI 3.0 definitions for its Bolt API, Embeddable Checkout v1 and v3, and Tokenizer endpoints, ships first-party SDKs for TypeScript, Python, C#, Go, PHP, iOS/Swift, Android/Kotlin, React Native, Unity and Unreal, and maintains an explicit agent-facing surface: an llms.txt index, a hosted documentation MCP server and two published agent skills.'
 finops:
-- name: Bolt Financial Finops
+- has_sources: false
+  method: generated
+  name: Bolt Financial Finops
+  primary_unit: ''
   service_category: ''
   slug: bolt-financial-finops
+  template: true
 image: https://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company-images/bolt-financial.png
 layout: provider
 mcp_servers:
@@ -366,7 +370,7 @@ modified: '2026-07-31'
 name: Bolt Financial
 nav: Providers
 network: true
-overview: 'Bolt Financial publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Account API, Callbacks API, Configuration API, and 10 more. Tagged areas include Company, Payments, Checkout, E-Commerce, and Fintech.
+overview: 'Bolt Financial publishes 13 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Callbacks API, Configuration API, and 10 more. Tagged areas include Company, Payments, Checkout, E-Commerce, and Fintech.
 
 
   The Bolt Financial catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -389,17 +393,17 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: strong
-  composite: 65.0
+  composite: 60.7
   coverage:
-    artifact_dirs: 28
-    catalog_earned: 50.2
+    artifact_dirs: 29
+    catalog_earned: 42.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 64.8
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -4.3
   facets:
-    access_clarity: 63.7
+    access_clarity: 42.1
     contract_governance: 18.2
     contract_quality: 57.5
     developer_ergonomics: 79.8
@@ -427,8 +431,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 44.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

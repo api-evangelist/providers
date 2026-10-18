@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.6
-  scored_at: '2026-10-04'
+  score: 28.7
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 12
+- acting_count: 7
   human_in_the_loop: 0
   name: Amazon Fraud Detector Agentic Access
   operation_count: 13
   slug: amazon-fraud-detector-agentic-access
-  summary_line: 13 operations · 12 acting
+  summary_line: 13 operations · 7 acting
 api_count: 1
 apis:
 - baseURL: https://frauddetector.amazonaws.com
@@ -138,6 +138,21 @@ collections:
   name: Amazon Fraud Detector API
   slug: open-amazon-fraud-detector
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-fraud-detector/refs/heads/main/plans/amazon-fraud-detector-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/amazon-fraud-detector-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-fraud-detector/refs/heads/main/rate-limits/amazon-fraud-detector-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/amazon-fraud-detector-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-fraud-detector/refs/heads/main/finops/amazon-fraud-detector-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/amazon-fraud-detector-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/amazon-fraud-detector/refs/heads/main/capabilities/amazon-fraud-detector-capability-edges.yml
   title: ''
@@ -313,9 +328,13 @@ features:
 - description: Ingest historical labeled events to continuously improve model accuracy over time.
   name: Event Ingestion
 finops:
-- name: Amazon Fraud Detector Finops
+- has_sources: false
+  method: generated
+  name: Amazon Fraud Detector Finops
+  primary_unit: ''
   service_category: API
   slug: amazon-fraud-detector-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amazon-fraud-detector.png
 json_schemas:
 - name: Detector
@@ -359,13 +378,13 @@ modified: '2026-05-19'
 name: Amazon Fraud Detector
 nav: Providers
 network: true
-overview: 'Amazon Fraud Detector publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Detectors API, Event Types API, Labels API, and 4 more. Tagged areas include Financial Services, Fraud Prevention, Machine Learning, and Security.
+overview: 'Amazon Fraud Detector publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Detectors API, Event Types API, Labels API, and 4 more. Tagged areas include Financial Services, Fraud Prevention, Machine Learning, and Security.
 
 
   The Amazon Fraud Detector catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Fraud Detector''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 24 more developer resources.'
+  Amazon Fraud Detector''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 27 more developer resources.'
 plans:
 - name: Amazon Fraud Detector Plans Pricing
   plan_count: 3
@@ -376,9 +395,10 @@ rate_limits:
   name: Amazon Fraud Detector Rate Limits
   slug: amazon-fraud-detector-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Amazon Fraud Detector API Rules
+  name: Amazon Fraud Detector — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -386,7 +406,8 @@ rules:
     info: 2
     warn: 3
   slug: amazon-fraud-detector-jsonschema-spectral-rules
-- effective_rule_count: 76
+- authorship: generated
+  effective_rule_count: 76
   extends:
   - spectral:oas
   name: Amazon Fraud Detector API Rules
@@ -399,17 +420,17 @@ rules:
   slug: amazon-fraud-detector-spectral-rules
 score:
   band: strong
-  composite: 56.0
+  composite: 54.5
   coverage:
     artifact_dirs: 20
-    catalog_earned: 70.0
+    catalog_earned: 67.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 45.0
+    catalog_gap: 48.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 68.4
+    access_clarity: 60.5
     contract_governance: 27.3
     contract_quality: 69.4
     developer_ergonomics: 53.6
@@ -429,8 +450,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

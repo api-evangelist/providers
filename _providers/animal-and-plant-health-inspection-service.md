@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 4
 apis:
 - description: The APHIS Public Search Tool provides public access to search APHIS program data, permits, and regulatory information related to animal and plant health programs.
@@ -194,16 +194,20 @@ common:
 created: '2024-11-21'
 description: USDA's Animal and Plant Health Inspection Service (APHIS) protects the health and value of U.S. agriculture and natural resources by safeguarding against agricultural pests and diseases, ensuring the welfare of animals, and supporting sustainable agricultural practices. APHIS provides digital services including the eFile permitting system for import/export permits, the Agricultural Commodity Import Requirements (ACIR) portal, a geospatial hub for spatial analysis, data visualization tools, and open datasets via data.gov.
 finops:
-- name: Animal And Plant Health Inspection Service Finops
+- has_sources: false
+  method: generated
+  name: Animal And Plant Health Inspection Service Finops
+  primary_unit: ''
   service_category: API
   slug: animal-and-plant-health-inspection-service-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/animal-and-plant-health-inspection-service.png
 layout: provider
 modified: '2026-09-02'
 name: Animal and Plant Health Inspection Service
 nav: Providers
 network: true
-overview: 'Animal and Plant Health Inspection Service publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Agriculture, Animal Health, Animal Welfare, Biotechnology, and Federal Government.
+overview: 'Animal and Plant Health Inspection Service is listed with 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Agriculture, Animal Health, Animal Welfare, Biotechnology, and Federal Government.
 
 
   Animal and Plant Health Inspection Service''s developer surface includes developer portal, support, documentation, getting-started guide, signup flow, authentication, and 26 more developer resources.'
@@ -223,17 +227,17 @@ scopes:
   summary_line: 36 scopes
 score:
   band: thin
-  composite: 35.4
+  composite: 33.8
   coverage:
-    artifact_dirs: 15
-    catalog_earned: 55.0
+    artifact_dirs: 16
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 60.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 35.5
+    access_clarity: 27.6
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 54.8
@@ -254,8 +258,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 34.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

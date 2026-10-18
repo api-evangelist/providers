@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: The Testcontainers Cloud Agent API enables CI/CD pipelines and desktop environments to allocate hosted Docker container workers in the cloud. Authentication is performed via TC_CLOUD_TOKEN service acc
@@ -117,9 +117,13 @@ common:
 created: '2026-06-12'
 description: Testcontainers is an open-source library ecosystem that provides throwaway, lightweight Docker container instances for integration testing across more than a dozen programming languages including Java, Go, .NET, Node.js, and Python. Developers define real test dependencies — databases, message brokers, browsers — as code rather than relying on mocks or shared environments. Testcontainers Cloud extends the library to a hosted container runtime service that runs container-backed tests in the cloud, eliminating the need for a local Docker daemon and enabling parallel execution in CI/CD pipelines. The platform authenticates via a TC_CLOUD_TOKEN environment variable or service account token, and usage is metered in Worker Minutes bundled with Docker Pro, Team, and Business subscriptions.
 finops:
-- name: Testcontainers Finops
+- has_sources: true
+  method: generated
+  name: Testcontainers Finops
+  primary_unit: ''
   service_category: Developer Tools
   slug: testcontainers-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/testcontainers.png
 jsonld:
 - class_count: 10
@@ -131,7 +135,7 @@ modified: '2026-06-12'
 name: Testcontainers
 nav: Providers
 network: true
-overview: 'Testcontainers publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Testing, Integration Testing, Docker, Containers, and CI/CD.
+overview: 'Testcontainers is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Testing, Integration Testing, Docker, Containers, and CI/CD.
 
 
   The Testcontainers catalog on APIs.io includes 1 JSON-LD context.
@@ -148,23 +152,23 @@ rate_limits:
   name: Testcontainers Rate Limits
   slug: testcontainers-rate-limits
 score:
-  band: thin
-  composite: 27.2
+  band: emerging
+  composite: 18.9
   coverage:
     artifact_dirs: 8
-    catalog_earned: 69.6
+    catalog_earned: 51.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 45.4
+    catalog_gap: 64.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 46.8
+    access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 10.7
     developer_ergonomics: 26.2
     discoverability: 66.1
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   previous_composite: 27.2
   regulatory:
     applies: true
@@ -172,9 +176,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

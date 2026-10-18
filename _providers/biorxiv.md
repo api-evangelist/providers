@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -105,6 +105,21 @@ collections:
   name: bioRxiv REST Details Usage API
   slug: open-biorxiv-usage-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/biorxiv/refs/heads/main/plans/plans.yml
+  title: ''
+  type: Plans
+  url: plans/plans.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/biorxiv/refs/heads/main/rate-limits/rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/biorxiv/refs/heads/main/finops/finops.yml
+  title: ''
+  type: FinOps
+  url: finops/finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/biorxiv/refs/heads/main/agentic-access/biorxiv-agentic-access.yml
   title: ''
@@ -143,9 +158,13 @@ examples:
   name: Usage Statistics Response
   slug: usage-statistics-response
 finops:
-- name: Finops
+- has_sources: false
+  method: generated
+  name: Finops
+  primary_unit: ''
   service_category: ''
   slug: finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/biorxiv.png
 json_schemas:
 - name: PreprintMetadata
@@ -167,7 +186,7 @@ modified: '2026-06-13'
 name: bioRxiv
 nav: Providers
 network: true
-overview: 'bioRxiv publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Details API, Funder API, Pub API, and 4 more. Tagged areas include Biology, Preprints, Research, Open Access, and Life Sciences.
+overview: 'bioRxiv publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Details API, Funder API, Pub API, and 4 more. Tagged areas include Biology, Preprints, Research, Open Access, and Life Sciences.
 
 
   The bioRxiv catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.'
@@ -181,9 +200,10 @@ rate_limits:
   name: Rate Limits
   slug: rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: bioRxiv API Rules
+  name: bioRxiv — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -193,17 +213,17 @@ rules:
   slug: biorxiv-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 30.6
+  composite: 26.3
   coverage:
-    artifact_dirs: 14
-    catalog_earned: 61.5
+    artifact_dirs: 15
+    catalog_earned: 53.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.6
+    catalog_gap: 61.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -4.3
   facets:
-    access_clarity: 37.4
+    access_clarity: 15.8
     contract_governance: 9.8
     contract_quality: 54.1
     developer_ergonomics: 9.5
@@ -223,8 +243,8 @@ score:
     regime: Health
     regime_id: health
     score: 11.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

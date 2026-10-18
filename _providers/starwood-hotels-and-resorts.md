@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.7
-  scored_at: '2026-10-04'
+  score: 24.5
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -82,6 +82,21 @@ collections:
   name: Starwood Hotel Search Availability Properties API
   slug: open-starwood-hotels-and-resorts-properties-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/starwood-hotels-and-resorts/refs/heads/main/plans/starwood-hotels-and-resorts-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/starwood-hotels-and-resorts-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/starwood-hotels-and-resorts/refs/heads/main/rate-limits/starwood-hotels-and-resorts-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/starwood-hotels-and-resorts-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/starwood-hotels-and-resorts/refs/heads/main/finops/starwood-hotels-and-resorts-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/starwood-hotels-and-resorts-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/starwood-hotels-and-resorts/refs/heads/main/agentic-access/starwood-hotels-and-resorts-agentic-access.yml
   title: ''
@@ -160,9 +175,13 @@ examples:
   name: Starwood Search Hotels Example
   slug: starwood-search-hotels-example
 finops:
-- name: Starwood Hotels And Resorts Finops
+- has_sources: true
+  method: generated
+  name: Starwood Hotels And Resorts Finops
+  primary_unit: ''
   service_category: Hospitality / Hotels
   slug: starwood-hotels-and-resorts-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/starwood-hotels-and-resorts.png
 json_schemas:
 - name: Hotel
@@ -182,13 +201,13 @@ modified: '2026-09-16'
 name: Starwood Hotels and Resorts
 nav: Providers
 network: true
-overview: 'Starwood Hotels and Resorts publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Availability API, Hotels API, Properties API, and 2 more. Tagged areas include Hotels, Travel, Hospitality, Loyalty, and Rewards.
+overview: 'Starwood Hotels and Resorts publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Availability API, Hotels API, Properties API, and 2 more. Tagged areas include Hotels, Travel, Hospitality, Loyalty, and Rewards.
 
 
   The Starwood Hotels and Resorts catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Starwood Hotels and Resorts'' developer surface includes engineering blog and 15 more developer resources.'
+  Starwood Hotels and Resorts'' developer surface includes engineering blog and 18 more developer resources.'
 plans:
 - name: Starwood Hotels And Resorts Plans Pricing
   plan_count: 1
@@ -215,9 +234,10 @@ rate_limits:
   name: Starwood Hotels And Resorts Rate Limits
   slug: starwood-hotels-and-resorts-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Starwood Hotels and Resorts API Rules
+  name: Starwood Hotels and Resorts — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -225,7 +245,8 @@ rules:
     info: 2
     warn: 3
   slug: starwood-hotels-and-resorts-jsonschema-spectral-rules
-- effective_rule_count: 54
+- authorship: unmarked
+  effective_rule_count: 54
   extends:
   - spectral:oas
   name: Starwood Hotels and Resorts API Rules
@@ -237,18 +258,18 @@ rules:
     warn: 9
   slug: starwood-hotels-and-resorts-rules
 score:
-  band: emerging
-  composite: 26.0
+  band: thin
+  composite: 27.1
   coverage:
     artifact_dirs: 18
-    catalog_earned: 53.0
+    catalog_earned: 55.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 47.0
-    catalog_max: 100.0
+    catalog_gap: 60.0
+    catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.1
   facets:
-    access_clarity: 0.0
+    access_clarity: 5.3
     contract_governance: 27.3
     contract_quality: 51.4
     developer_ergonomics: 19.0
@@ -273,8 +294,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

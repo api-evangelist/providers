@@ -33,10 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.onthebeachgroupplc.com/rss/financial-calendar
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/on-the-beach/refs/heads/main/mcp/on-the-beach-mcp.yml
   title: ''
@@ -124,20 +128,20 @@ mcp_servers:
 - description: On the Beach shipped a ChatGPT App on 1 April 2026, claiming to be the first UK online travel agent to connect to ChatGPT Apps. ChatGPT Apps are served by an MCP server (OpenAI Apps SDK), so this is O
   name: On the Beach ChatGPT App (MCP, distribution-gated)
   slug: on-the-beach
-modified: '2026-07-28'
+modified: '2026-10-06'
 name: On the Beach
 nav: Providers
 network: true
 overview: 'On the Beach is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Travel, United Kingdom, OTA, Online Travel Agency, and Booking.
 
 
-  On the Beach''s developer surface includes support and 17 more developer resources.'
+  On the Beach''s developer surface includes support and 18 more developer resources.'
 random_paper: 9
 score:
   band: minimal
   composite: 10.3
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -168,8 +172,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 12.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -23,14 +23,23 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: API documentation not publicly machine‑readable; no OpenAPI/AsyncAPI/GraphQL spec found.
   name: Asato API
   slug: asato-api
-artifact_total: 3
+artifact_total: 4
 common:
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.asato.ai
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/asato/refs/heads/main/plans/asato-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/asato-plans-pricing.yml
 - group: auth
   title: ''
   type: Compliance
@@ -122,28 +131,34 @@ modified: '2026-09-26'
 name: Asato
 nav: Providers
 network: true
-overview: 'Asato publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, IT Asset Management, Software-as-a-Service, and Cloud.
+overview: 'Asato is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, IT Asset Management, Software-as-a-Service, and Cloud.
 
 
-  Asato''s developer surface includes documentation, engineering blog, support, and 14 more developer resources.'
+  Asato''s developer surface includes pricing, documentation, engineering blog, support, and 15 more developer resources.'
+plans:
+- name: Asato Plans Pricing
+  plan_count: 0
+  slug: asato-plans-pricing
 random_paper: 8
 score:
   band: emerging
-  composite: 23.8
+  composite: 26.0
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 10
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 2.2
   facets:
-    access_clarity: 36.8
+    access_clarity: 47.4
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 16.7
     discoverability: 66.1
     operational_transparency: 26.3
+  previous_composite: 23.8
   provenance:
     conformance: first-party
     mcp: unknown
@@ -159,12 +174,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/asato/refs/heads/main/screenshots/asato-2026-10-11T100456.png
 security:
 - kind: domain-security
   name: Asato Domain Security

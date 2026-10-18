@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Partner integration API for accessing Meitre's restaurant reservations, availability, and guest data. Documentation is behind an authenticated developer portal at meitre-api.com; access is arranged vi
@@ -40,6 +40,10 @@ apis:
   slug: meitre-partner-api
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://meitre.com/blog/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/meitre/refs/heads/main/security/meitre-domain-security.yml
   title: ''
@@ -92,31 +96,31 @@ mcp_servers:
 - description: ''
   name: Meitre MCP Server
   slug: meitre
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Meitre
 nav: Providers
 network: true
-overview: 'Meitre publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Restaurant, Reservations, Hospitality, and Booking.
+overview: 'Meitre is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Restaurant, Reservations, Hospitality, and Booking.
 
 
-  Meitre''s developer surface includes API reference, signup flow, and 8 more developer resources.'
+  Meitre''s developer surface includes engineering blog, API reference, signup flow, and 8 more developer resources.'
 random_paper: 8
 score:
   band: minimal
-  composite: 5.7
+  composite: 6.3
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 71.7
     operational_transparency: 0.0
   jurisdiction:
@@ -133,8 +137,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

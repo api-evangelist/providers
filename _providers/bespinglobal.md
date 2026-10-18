@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: AI Platform provides AI model deployment, monitoring, and management services.
@@ -31,6 +31,10 @@ apis:
   slug: ai-platform
 artifact_total: 4
 common:
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.bespinglobal.com/newsroom/news-pr-plan-7layertotal-260813/
 - group: commercial
   href: https://raw.githubusercontent.com/api-evangelist/bespinglobal/refs/heads/main/plans/bespinglobal-plans-pricing.yml
   title: ''
@@ -108,10 +112,10 @@ modified: '2026-09-27'
 name: Bespinglobal
 nav: Providers
 network: true
-overview: 'Bespinglobal publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Cloud, Artificial Intelligence, Consulting, Services, and Global.
+overview: 'Bespinglobal is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Cloud, Artificial Intelligence, Consulting, Services, and Global.
 
 
-  Bespinglobal''s developer surface includes documentation, engineering blog, getting-started guide, support, and 9 more developer resources.'
+  Bespinglobal''s developer surface includes pricing, documentation, engineering blog, getting-started guide, support, and 9 more developer resources.'
 plans:
 - name: Bespinglobal Plans Pricing
   plan_count: 1
@@ -119,16 +123,17 @@ plans:
 random_paper: 12
 score:
   band: emerging
-  composite: 18.6
+  composite: 20.8
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 11
     catalog_earned: 40.0
     catalog_earned_first_party: 8.0
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 2.2
   facets:
-    access_clarity: 31.6
+    access_clarity: 42.1
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 28.6
@@ -139,6 +144,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - global
+  previous_composite: 18.6
   provenance:
     mcp: first-party
   regulatory:
@@ -147,12 +153,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 9.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/bespinglobal/refs/heads/main/screenshots/bespinglobal-2026-10-11T101954.png
 security:
 - kind: domain-security
   name: Bespinglobal Domain Security

@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 43
+- acting_count: 36
   human_in_the_loop: 1
   name: Amazon Application Migration Service Agentic Access
   operation_count: 45
   slug: amazon-application-migration-service-agentic-access
-  summary_line: 45 operations · 43 acting · 1 human-in-the-loop
+  summary_line: 45 operations · 36 acting · 1 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://mgn.us-east-1.amazonaws.com
@@ -1117,7 +1117,7 @@ modified: '2026-09-16'
 name: Amazon Application Migration Service
 nav: Providers
 network: true
-overview: 'Amazon Application Migration Service publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Exports API, Jobs API, and 7 more. Tagged areas include Amazon Application Migration Service, Migration, Lift And Shift, and Cloud Migration.
+overview: 'Amazon Application Migration Service publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Applications API, Exports API, Jobs API, and 7 more. Tagged areas include Amazon Application Migration Service, Migration, Lift And Shift, and Cloud Migration.
 
 
   The Amazon Application Migration Service catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -1126,9 +1126,10 @@ overview: 'Amazon Application Migration Service publishes 10 APIs on the [APIs.i
   Amazon Application Migration Service''s developer surface includes authentication and 9 more developer resources.'
 random_paper: 2
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Amazon Application Migration Service API Rules
+  name: Amazon Application Migration Service — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1136,7 +1137,8 @@ rules:
     info: 2
     warn: 3
   slug: amazon-application-migration-service-jsonschema-spectral-rules
-- effective_rule_count: 69
+- authorship: generated
+  effective_rule_count: 69
   extends:
   - spectral:oas
   name: Amazon Application Migration Service API Rules
@@ -1149,7 +1151,7 @@ rules:
   slug: amazon-application-migration-service-spectral-rules
 score:
   band: thin
-  composite: 29.0
+  composite: 29.1
   coverage:
     artifact_dirs: 21
     catalog_earned: 58.0
@@ -1157,7 +1159,7 @@ score:
     catalog_gap: 57.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.1
   facets:
     access_clarity: 0.0
     contract_governance: 31.8
@@ -1165,7 +1167,7 @@ score:
     developer_ergonomics: 11.9
     discoverability: 57.1
     operational_transparency: 0.0
-  previous_composite: 28.5
+  previous_composite: 29.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1181,8 +1183,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

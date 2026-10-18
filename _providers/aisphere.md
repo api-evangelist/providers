@@ -23,10 +23,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 0
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://aishiai.com/news/
 - group: company
   title: ''
   type: Website
@@ -42,28 +46,31 @@ coverage:
 created: '2026-09-21'
 description: Aisphere, operating under the brand 爱诗科技 (AIsphere), is a Beijing‑based artificial intelligence company founded in 2023. It focuses on developing generative AI video models and related cloud services, offering an open API platform for developers to create text‑to‑video content, multi‑shot productions, and AI‑assisted creative workflows. The company emphasizes high‑quality, accessible AI video generation tools for global users, targeting industries such as e‑commerce, entertainment, gaming, and advertising. Aisphere aims to democratize AI‑driven video creation and accelerate digital transformation across media production.
 layout: provider
-modified: '2026-09-21'
+modified: '2026-10-06'
 name: Aisphere
 nav: Providers
 network: true
-overview: Aisphere is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Video, Generative AI, Cloud, and Beijing.
+overview: 'Aisphere is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Video, Generative AI, Cloud, and Beijing.
+
+
+  Aisphere''s developer surface includes engineering blog and 1 more developer resources.'
 random_paper: 13
 score:
   band: minimal
-  composite: 2.1
+  composite: 2.3
   coverage:
-    artifact_dirs: 1
+    artifact_dirs: 4
     catalog_earned: 25.0
     catalog_earned_first_party: 0.0
     catalog_gap: 90.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.2
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 44.6
     operational_transparency: 0.0
   jurisdiction:
@@ -76,12 +83,12 @@ score:
   previous_composite: 2.1
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 0.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 48
@@ -177,6 +177,10 @@ collections:
   name: Vapi API
   slug: open-vapi
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://vapi.ai/blog
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/vapi/refs/heads/main/capabilities/vapi-capability-edges.yml
   title: ''
@@ -245,9 +249,13 @@ common:
 created: '2026-05-08'
 description: Vapi is a voice AI agents platform for building, testing, and deploying real-time voice agents across phone, web, and SIP. The Vapi REST API exposes assistants, calls, chats, campaigns, phone numbers, tools, files, squads, sessions, structured outputs, and analytics, plus server/client webhook events. A published OpenAPI spec is available at https://api.vapi.ai/api-json.
 finops:
-- name: Vapi Finops
+- has_sources: true
+  method: generated
+  name: Vapi Finops
+  primary_unit: ''
   service_category: AI
   slug: vapi-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vapi.png
 json_schemas:
 - name: AddVoiceToProviderDTO
@@ -2895,17 +2903,17 @@ json_structures:
   property_count: 0
   slug: vapi-structure
 layout: provider
-modified: '2026-05-19'
+modified: '2026-10-06'
 name: Vapi
 nav: Providers
 network: true
-overview: 'Vapi publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Assistants API, Calls API, and 13 more. Tagged areas include Artificial Intelligence, Voice, Agents, Real-Time, and CPaaS.
+overview: 'Vapi publishes 16 API contracts indexed on the [APIs.io](https://apis.io/) network, including Analytics API, Assistants API, Calls API, and 13 more. Tagged areas include Artificial Intelligence, Voice, Agents, Real-Time, and CPaaS.
 
 
   The Vapi catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Vapi''s developer surface includes authentication, documentation, and 12 more developer resources.'
+  Vapi''s developer surface includes engineering blog, authentication, documentation, and 12 more developer resources.'
 plans:
 - name: Vapi Plans Pricing
   plan_count: 2
@@ -2916,9 +2924,10 @@ rate_limits:
   name: Vapi Rate Limits
   slug: vapi-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Vapi API Rules
+  name: Vapi — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -2928,20 +2937,20 @@ rules:
   slug: vapi-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 35.5
+  composite: 34.4
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 47.3
+    artifact_dirs: 18
+    catalog_earned: 44.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 67.8
+    catalog_gap: 70.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.1
   facets:
-    access_clarity: 44.7
+    access_clarity: 36.8
     contract_governance: 9.8
     contract_quality: 46.8
-    developer_ergonomics: 21.4
+    developer_ergonomics: 23.8
     discoverability: 73.2
     operational_transparency: 7.9
   previous_composite: 35.5
@@ -2958,8 +2967,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 13.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

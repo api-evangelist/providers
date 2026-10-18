@@ -23,10 +23,14 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 2.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.eyenurse.net/blog/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/ainostechnology/refs/heads/main/security/ainostechnology-domain-security.yml
   title: ''
@@ -91,28 +95,31 @@ created: '2026-09-14'
 description: Ainos Technology (北京爱诺斯科技有限公司, brand eYenurse) is a Beijing health-informatization company founded in 2016 that applies artificial intelligence to children's eye health and school health administration in China, selling to government and institutional buyers rather than to developers. Its products are a national vision and common-disease monitoring, early-warning and intervention system for education bureaus and schools, a student infectious-disease early-warning system, a 0-6 eye-health screening platform for maternal and child health institutions, AI screening hardware (smart visual-acuity charts and a module linking 130+ third-party ophthalmic instruments), and the eYenurse smart ophthalmology cloud platform. It reports deployments in all 31 provinces across 1,700+ institutions and is backed by Donghua Software (002065). It publishes no developer program, public API, SDK or machine-readable API contract.
 image: https://www.eyenurse.net/img/logo.f7a8ff7d.svg
 layout: provider
-modified: '2026-09-14'
+modified: '2026-10-06'
 name: Ainos Technology
 nav: Providers
 network: true
-overview: Ainos Technology is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Artificial Intelligence, Public Health, and Vision Screening.
+overview: 'Ainos Technology is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Artificial Intelligence, Public Health, and Vision Screening.
+
+
+  Ainos Technology''s developer surface includes engineering blog and 6 more developer resources.'
 random_paper: 16
 score:
   band: minimal
-  composite: 3.7
+  composite: 4.2
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 6
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 49.1
     operational_transparency: 0.0
   jurisdiction:
@@ -129,13 +136,14 @@ score:
     regime: Health
     regime_id: health
     score: 4.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/ainostechnology/refs/heads/main/screenshots/ainostechnology-2026-10-11T093337.png
 security:
 - kind: domain-security
   name: Ainostechnology Domain Security

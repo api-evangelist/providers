@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -120,6 +120,16 @@ collections:
   name: Wikidata REST API & MediaWiki Descriptions Statements API
   slug: open-wikidata-statements-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/wikidata/refs/heads/main/plans/wikidata-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/wikidata-plans-pricing.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/wikidata/refs/heads/main/finops/wikidata-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/wikidata-finops.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -269,9 +279,13 @@ features:
 - description: Full JSON and RDF/TTL database dumps refreshed weekly at dumps.wikimedia.org for local bulk processing.
   name: Database Dumps
 finops:
-- name: Wikidata Finops
+- has_sources: true
+  method: generated
+  name: Wikidata Finops
+  primary_unit: ''
   service_category: Open Knowledge Graph
   slug: wikidata-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wikidata.png
 integrations:
 - description: Wikidata powers structured data for all Wikipedia language editions via Lua modules and infobox templates.
@@ -354,13 +368,13 @@ modified: '2026-05-19'
 name: Wikidata
 nav: Providers
 network: true
-overview: 'Wikidata publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Descriptions API, Items API, Labels API, and 6 more. Tagged areas include Knowledge Graph, Linked Data, Open Data, Semantic Web, and SPARQL.
+overview: 'Wikidata publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Descriptions API, Items API, Labels API, and 6 more. Tagged areas include Knowledge Graph, Linked Data, Open Data, Semantic Web, and SPARQL.
 
 
   The Wikidata catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Wikidata''s developer surface includes authentication, developer portal, documentation, support, engineering blog, and 19 more developer resources.'
+  Wikidata''s developer surface includes authentication, developer portal, documentation, support, engineering blog, and 21 more developer resources.'
 plans:
 - name: Wikidata Plans Pricing
   plan_count: 2
@@ -371,9 +385,10 @@ rate_limits:
   name: Wikidata Rate Limits
   slug: wikidata-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Wikidata API Rules
+  name: Wikidata — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -381,7 +396,8 @@ rules:
     info: 1
     warn: 4
   slug: wikidata-jsonschema-spectral-rules
-- effective_rule_count: 78
+- authorship: generated
+  effective_rule_count: 78
   extends:
   - spectral:oas
   name: Wikidata API Rules
@@ -399,17 +415,17 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: developing
-  composite: 53.6
+  composite: 52.0
   coverage:
     artifact_dirs: 19
-    catalog_earned: 70.4
+    catalog_earned: 67.4
     catalog_earned_first_party: 0.0
-    catalog_gap: 44.6
+    catalog_gap: 47.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 34.2
+    access_clarity: 26.3
     contract_governance: 27.3
     contract_quality: 64.4
     developer_ergonomics: 63.1
@@ -429,8 +445,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 40.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

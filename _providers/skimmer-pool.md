@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -122,6 +122,10 @@ collections:
   name: Skimmer Public Bodies of Water Work Orders API
   slug: open-skimmer-pool-work-orders-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.getskimmer.com/blog
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/skimmer-pool/refs/heads/main/capabilities/skimmer-pool-capability-edges.yml
   title: ''
@@ -180,19 +184,23 @@ common:
 created: '2026-07-04'
 description: Skimmer is pool-service business management software (customers, bodies of water, service stops and routes, work orders, quotes, invoices, and billing) used by residential and commercial pool-service companies. Skimmer exposes a real, documented public REST API at https://publicapi.getskimmer.com, with a Zudoku-based developer portal at https://devportal.getskimmer.com. The API is enterprise-oriented and access is sales-led - it is available only on Skimmer's top ("Owning the Market" / Enterprise) tier and provisioned through Skimmer's sales team rather than self-service signup. Authentication is via a per-account skimmer-api-key request header, and the API is rate limited to 500 requests per minute per key.
 finops:
-- name: Skimmer Pool Finops
+- has_sources: true
+  method: generated
+  name: Skimmer Pool Finops
+  primary_unit: ''
   service_category: Business Application Software
   slug: skimmer-pool-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/skimmer-pool.png
 layout: provider
-modified: '2026-07-04'
+modified: '2026-10-06'
 name: Skimmer
 nav: Providers
 network: true
-overview: 'Skimmer publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Bodies of Water API, Customers API, Invoices API, and 6 more. Tagged areas include Pool Service, Field Service Management, Pool Maintenance, Scheduling, and Routes.
+overview: 'Skimmer publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Bodies of Water API, Customers API, Invoices API, and 6 more. Tagged areas include Pool Service, Field Service, Pool Maintenance, Scheduling, and Routes.
 
 
-  Skimmer''s developer surface includes authentication, documentation, API reference, signup flow, and 8 more developer resources.'
+  Skimmer''s developer surface includes engineering blog, authentication, documentation, API reference, signup flow, and 8 more developer resources.'
 plans:
 - name: Skimmer Pool Plans Pricing
   plan_count: 3
@@ -204,22 +212,22 @@ rate_limits:
   slug: skimmer-pool-rate-limits
 score:
   band: thin
-  composite: 35.6
+  composite: 28.7
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 58.0
+    artifact_dirs: 12
+    catalog_earned: 42.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.0
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.9
   facets:
-    access_clarity: 49.5
+    access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 47.9
-    developer_ergonomics: 29.8
+    developer_ergonomics: 32.1
     discoverability: 66.1
-    operational_transparency: 18.9
+    operational_transparency: 5.3
   previous_composite: 35.6
   provenance:
     agentic_access: derived
@@ -234,9 +242,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0
@@ -253,7 +261,7 @@ security:
 slug: skimmer-pool
 tags:
 - Pool Service
-- Field Service Management
+- Field Service
 - Pool Maintenance
 - Scheduling
 - Routes

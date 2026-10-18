@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://bridge-u.com/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/bridgeu/refs/heads/main/security/bridgeu-domain-security.yml
   title: ''
@@ -77,14 +81,14 @@ created: '2026-07-17'
 description: BridgeU is an education technology company providing a university and careers guidance platform for international schools. Used by more than 1,200 partner schools across 150+ countries, the platform helps students from Grade 9 onward explore careers, research over 26,000 global universities, build shortlists, and manage applications in one connected system, with analytics dashboards for counsellors and AI-assisted guidance. BridgeU is a Seedcamp portfolio company and is tracked in the API Evangelist network. It publishes no public developer API, OpenAPI, or well-known discovery surface as of this enrichment pass; integration with school systems (for example ManageBac+) is handled via partner single sign-on rather than an openly documented API.
 image: https://bridge-u.com/wp-content/uploads/2023/06/Homepage-Social-SEO-Image.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: BridgeU
 nav: Providers
 network: true
 overview: 'BridgeU is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, EdTech, University Guidance, and Careers Guidance.
 
 
-  BridgeU''s developer surface includes signup flow, support, engineering blog, and 6 more developer resources.'
+  BridgeU''s developer surface includes signup flow, support, engineering blog, and 7 more developer resources.'
 random_paper: 12
 score:
   band: emerging
@@ -111,8 +115,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

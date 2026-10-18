@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 5
 apis:
 - baseURL: https://api.gokonfetti.com/v1
@@ -229,7 +229,7 @@ modified: '2026-07-19'
 name: konfetti
 nav: Providers
 network: true
-overview: 'konfetti publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Account API, Auth API, Catalog API, and 2 more. Tagged areas include Company, Marketplace, Experience, Booking, and Event.
+overview: 'konfetti is listed with 5 APIs on the [APIs.io](https://apis.io/) network, including Account API, Auth API, Catalog API, and 2 more. Tagged areas include Company, Marketplace, Experience, Booking, and Event.
 
 
   konfetti''s developer surface includes support, FAQ, engineering blog, signup flow, developer portal, pricing, and 26 more developer resources.'
@@ -276,8 +276,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 22.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

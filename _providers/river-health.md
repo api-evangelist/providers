@@ -33,10 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://river.health/news/
 - group: company
   title: ''
   type: Website
@@ -70,31 +74,31 @@ created: '2026-07-17'
 description: River Health is an employer-sponsored virtual-first health plan operated by Mountain (joinmountain.com) that gives employees comprehensive primary and behavioral care at no cost to them. Members get unlimited virtual primary care and in-person doctor visits, behavioral health and therapy, thousands of free medications with home delivery or pharmacy pickup, free preventive care and screenings, after-hours urgent care, no-cost specialty and chronic- condition care, and free lab testing through Quest Diagnostics. Employers from small businesses to the Fortune 500 sponsor the plan; members enroll and manage care through the River Health member app at app.helloriver.com. River Health is a portfolio company of Techstars. No public developer API, documentation, or developer portal has been published.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/river-health.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: River Health
 nav: Providers
 network: true
 overview: 'River Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Telehealth, Primary Care, and Behavioral Health.
 
 
-  River Health''s developer surface includes signup flow and 6 more developer resources.'
+  River Health''s developer surface includes engineering blog, signup flow, and 6 more developer resources.'
 random_paper: 17
 score:
   band: emerging
-  composite: 11.4
+  composite: 12.0
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 34.2
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 48.2
     operational_transparency: 0.0
   previous_composite: 11.4
@@ -104,8 +108,8 @@ score:
     regime: Health
     regime_id: health
     score: 10.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

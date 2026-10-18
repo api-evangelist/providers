@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -93,13 +93,13 @@ modified: '2026-09-16'
 name: Unlonely
 nav: Providers
 network: true
-overview: Unlonely is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto Web3, Live Streaming, Video, and Base.
+overview: Unlonely is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Web3, Live Streaming, Video, and Base.
 random_paper: 6
 score:
   band: minimal
   composite: 0.0
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -121,17 +121,18 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 0.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/unlonely/refs/heads/main/screenshots/unlonely-2026-10-11T131454.png
 slug: unlonely
 tags:
 - Company
-- Crypto Web3
+- Web3
 - Live Streaming
 - Video
 - Base
@@ -139,6 +140,5 @@ tags:
 - Creator Economy
 - GraphQL
 - Defunct
-- Web3
 website: https://unlonely.app
 ---

@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -81,6 +81,21 @@ collections:
   name: Palantir Foundry API v2
   slug: open-palantir
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/palantir/refs/heads/main/plans/palantir-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/palantir-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/palantir/refs/heads/main/rate-limits/palantir-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/palantir-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/palantir/refs/heads/main/finops/palantir-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/palantir-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/palantir/refs/heads/main/agentic-access/palantir-agentic-access.yml
   title: ''
@@ -136,19 +151,23 @@ common:
 created: '2025-03-01'
 description: Palantir is a data analytics company providing software platforms for organizations to integrate, analyze, and visualize data. Palantir Foundry and AIP provide REST APIs for data workflows, AI operations, ontology management, orchestration, and decision-making across enterprise and government use cases.
 finops:
-- name: Palantir Finops
+- has_sources: false
+  method: generated
+  name: Palantir Finops
+  primary_unit: ''
   service_category: API
   slug: palantir-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/palantir.png
 layout: provider
 modified: '2026-04-28'
 name: Palantir
 nav: Providers
 network: true
-overview: 'Palantir publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Admin - Groups API, Admin - Users API, Datasets API, and 1 more. Tagged areas include AI Platform, Data Analytics, Enterprise, and Government.
+overview: 'Palantir publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Admin - Groups API, Admin - Users API, Datasets API, and 1 more. Tagged areas include AI Platform, Data Analytics, Enterprise, and Government.
 
 
-  Palantir''s developer surface includes authentication, developer portal, documentation, engineering blog, and 8 more developer resources.'
+  Palantir''s developer surface includes authentication, developer portal, documentation, engineering blog, and 11 more developer resources.'
 plans:
 - name: Palantir Plans Pricing
   plan_count: 3
@@ -160,17 +179,17 @@ rate_limits:
   slug: palantir-rate-limits
 score:
   band: emerging
-  composite: 23.8
+  composite: 22.2
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 36.0
+    artifact_dirs: 12
+    catalog_earned: 33.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 79.0
+    catalog_gap: 82.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 48.4
     developer_ergonomics: 11.9
@@ -190,8 +209,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 17.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -36,15 +36,15 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 8
+- acting_count: 7
   human_in_the_loop: 1
   name: Green Button Alliance Agentic Access
-  operation_count: 24
+  operation_count: 23
   slug: green-button-alliance-agentic-access
-  summary_line: 24 operations · 8 acting · 1 human-in-the-loop
-api_count: 3
+  summary_line: 23 operations · 7 acting · 1 human-in-the-loop
+api_count: 5
 apis:
 - description: The Third Party side of the OpenESPI reference implementation — ApplicationInformation, Authorization and RetailCustomer operations documented as legacy Swagger 1.2 resource listings served from GBA's
   name: Green Button Third Party (OpenESPI) API
@@ -367,7 +367,7 @@ modified: '2026-07-27'
 name: Green Button Alliance
 nav: Providers
 network: true
-overview: 'Green Button Alliance publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Application Information API, Authorization API, Batch API, and 6 more. Tagged areas include Energy, United States, Utilities, Electricity, and Gas.
+overview: 'Green Button Alliance publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Application Information API, Authorization API, Batch API, and 6 more. Tagged areas include Energy, United States, Utilities, Electricity, and Gas.
 
 
   The Green Button Alliance catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -426,8 +426,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 39.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -37,15 +37,15 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 36
+- acting_count: 35
   human_in_the_loop: 3
   name: Starlink Agentic Access
   operation_count: 63
   slug: starlink-agentic-access
-  summary_line: 63 operations · 36 acting · 3 human-in-the-loop
-api_count: 1
+  summary_line: 63 operations · 35 acting · 3 human-in-the-loop
+api_count: 2
 apis:
 - baseURL: https://starlink.com/api/public/v2
   baseurl_source: declared
@@ -369,7 +369,7 @@ modified: '2026-07-25'
 name: Starlink
 nav: Providers
 network: true
-overview: 'Starlink publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Telemetry Stream API, Account API, Addresses API, and 13 more. Tagged areas include Non-Terrestrial Network, Starlink, Telecommunications, United States, and Satellite.
+overview: 'Starlink publishes 16 API contracts indexed on the [APIs.io](https://apis.io/) network, including Telemetry Stream API, Account API, Addresses API, and 13 more. Tagged areas include Non-Terrestrial Network, Starlink, Telecommunications, United States, and Satellite.
 
 
   The Starlink catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -435,8 +435,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 38.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

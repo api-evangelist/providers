@@ -27,16 +27,35 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 17
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/autoliv/refs/heads/main/plans/autoliv-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/autoliv-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/autoliv/refs/heads/main/rate-limits/autoliv-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/autoliv-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/autoliv/refs/heads/main/finops/autoliv-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/autoliv-finops.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.autoliv.com/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/autoliv/refs/heads/main/security/autoliv-domain-security.yml
   title: ''
@@ -74,9 +93,13 @@ features:
 - description: Seat belt and airbag solutions tailored for trucks, buses, and off-road vehicles.
   name: Commercial Vehicle Safety
 finops:
-- name: Autoliv Finops
+- has_sources: true
+  method: generated
+  name: Autoliv Finops
+  primary_unit: ''
   service_category: Automotive Safety / Tier-1 Supplier
   slug: autoliv-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/autoliv.png
 integrations:
 - description: EDI and system integrations with OEM enterprise resource planning systems for procurement, logistics, and order management.
@@ -86,7 +109,7 @@ integrations:
 - description: Quality management integrations aligned with the IATF 16949 automotive quality management standard.
   name: IATF 16949 Quality Systems
 layout: provider
-modified: '2026-07-25'
+modified: '2026-10-06'
 name: Autoliv
 nav: Providers
 network: true
@@ -118,17 +141,17 @@ rate_limits:
   slug: autoliv-rate-limits
 score:
   band: minimal
-  composite: 7.0
+  composite: 5.5
   coverage:
     artifact_dirs: 9
-    catalog_earned: 34.0
+    catalog_earned: 31.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 81.0
+    catalog_gap: 84.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 13.2
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
@@ -141,8 +164,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

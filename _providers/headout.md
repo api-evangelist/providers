@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -99,6 +99,10 @@ collections:
   name: Headout Partner Booking Subcategories API
   slug: open-headout-subcategories-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://newsroom.headout.com/rss/
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/headout/refs/heads/main/agentic-access/headout-agentic-access.yml
   title: ''
@@ -227,18 +231,18 @@ created: '2026-07-17'
 description: Headout is a global experiences marketplace that curates and sells tickets to tours, attractions, events, shows and activities across major cities worldwide. For developers, Headout operates a public Partner API (github.com/headout/api-docs) that lets affiliates and resellers browse the catalog (products, categories, collections and subcategories by city and language), pull live inventory and per-person/per-group pricing for a variant, and place bookings through a two-step create-then-capture flow. The API is versioned by URI path (v1 and v2 under /api/public/), authenticates with a Headout-Auth API key (pk_ production / tk_ sandbox), paginates with offset/limit, and returns a structured error envelope. A registrable seatmap iframe component is offered for seat selection. Headout is backed by 500 Global and Version One Ventures.
 image: https://cdn-imgix.headout.com/static-pages/logo.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: HeadOut
 nav: Providers
 network: true
-overview: 'HeadOut publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Booking API, Categories API, Collections API, and 3 more. Tagged areas include Travel, Tours and Activities, Experience, Attractions, and Ticketing.
+overview: 'HeadOut publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Booking API, Categories API, Collections API, and 3 more. Tagged areas include Travel, Tours and Activities, Experience, Attractions, and Ticketing.
 
 
-  HeadOut''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 20 more developer resources.'
+  HeadOut''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 21 more developer resources.'
 random_paper: 20
 score:
   band: emerging
-  composite: 18.9
+  composite: 19.0
   coverage:
     artifact_dirs: 19
     catalog_earned: 37.0
@@ -246,7 +250,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 13.2
     contract_governance: 4.5
@@ -271,8 +275,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

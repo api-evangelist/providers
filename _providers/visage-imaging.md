@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 5
 apis:
 - description: Open API for integrating third-party and customer AI algorithms into the Visage 7 platform and Visage AI Accelerator research server, unifying research and diagnostic imaging. Publicly described as su
@@ -57,6 +57,14 @@ apis:
   slug: visage-imaging-viewer-launch-api
 artifact_total: 6
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://blog.visageimaging.com/blog
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.visageimaging.com/blog/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/visage-imaging/refs/heads/main/security/visage-imaging-domain-security.yml
   title: ''
@@ -86,31 +94,31 @@ created: '2026-07-05'
 description: Visage Imaging is a global enterprise imaging vendor and a wholly-owned subsidiary of Pro Medicus Limited (ASX PME). Its flagship Visage 7 Enterprise Imaging Platform delivers server-side rendered images adaptively streamed to an intelligent zero-footprint thin-client viewer for diagnostic radiology, cardiology, and mobile reading, alongside Visage 7 Open Archive and the Visage AI Accelerator research platform. Interoperability is built on healthcare imaging standards - DICOM / DICOMweb, HL7, FHIR, and IHE profiles - and Visage exposes REST and open-API surfaces for AI algorithm integration and QA workflows. There is no public self-service developer portal; API access is partner- and customer-gated (Client Portal login, product documentation login, and an invitation-only AI Accelerator Program), so the API entries below are logically modeled from public product and release-note material rather than a published API reference.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/visage-imaging.png
 layout: provider
-modified: '2026-07-05'
+modified: '2026-10-06'
 name: Visage Imaging
 nav: Providers
 network: true
-overview: 'Visage Imaging publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Enterprise Imaging, Medical Imaging, Radiology, PACS, and DICOM.
+overview: 'Visage Imaging is listed with 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Enterprise Imaging, Medical Imaging, Radiology, PACS, and DICOM.
 
 
-  Visage Imaging''s developer surface includes documentation and 5 more developer resources.'
+  Visage Imaging''s developer surface includes engineering blog, documentation, and 6 more developer resources.'
 random_paper: 8
 score:
   band: minimal
-  composite: 7.0
+  composite: 7.5
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 5
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 9.5
+    developer_ergonomics: 11.9
     discoverability: 62.5
     operational_transparency: 0.0
   previous_composite: 7.0
@@ -120,8 +128,8 @@ score:
     regime: Health
     regime_id: health
     score: 4.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -100,6 +100,25 @@ collections:
   name: LabVantage LIMS Containers Tests API
   slug: open-labvantage-tests-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/labvantage/refs/heads/main/plans/labvantage-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/labvantage-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/labvantage/refs/heads/main/rate-limits/labvantage-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/labvantage-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/labvantage/refs/heads/main/finops/labvantage-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/labvantage-finops.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.labvantage.com/feed/
 - group: company
   title: ''
   type: Website
@@ -125,9 +144,13 @@ common:
   url: https://www.linkedin.com/company/labvantage
 description: LabVantage Solutions provides LIMS (Laboratory Information Management System), ELN (Electronic Lab Notebook), LES (Laboratory Execution System), and SDMS (Scientific Data Management System) platforms with APIs for GxP-compliant data exchange in pharmaceutical, biotech, and clinical laboratory environments. Support is available 24/7 globally through the VantageCare portal.
 finops:
-- name: Labvantage Finops
+- has_sources: true
+  method: generated
+  name: Labvantage Finops
+  primary_unit: ''
   service_category: Laboratory Informatics / LIMS
   slug: labvantage-finops
+  template: false
 json_schemas:
 - name: LabVantage LIMS Sample
   property_count: 16
@@ -138,17 +161,17 @@ jsonld:
   property_count: 19
   slug: labvantage-context
 layout: provider
-modified: '2026-09-16'
+modified: '2026-10-06'
 name: LabVantage Solutions
 nav: Providers
 network: true
-overview: 'LabVantage Solutions publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Containers API, Instruments API, Results API, and 4 more. Tagged areas include Pharma, Laboratory, LIMS, Quality, and GxP.
+overview: 'LabVantage Solutions publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Containers API, Instruments API, Results API, and 4 more. Tagged areas include Pharma, Laboratory, LIMS, Quality, and GxP.
 
 
   The LabVantage Solutions catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  LabVantage Solutions'' developer surface includes authentication and 4 more developer resources.'
+  LabVantage Solutions'' developer surface includes authentication and 8 more developer resources.'
 plans:
 - name: Labvantage Plans Pricing
   plan_count: 1
@@ -159,9 +182,10 @@ rate_limits:
   name: Labvantage Rate Limits
   slug: labvantage-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: LabVantage Solutions API Rules
+  name: LabVantage Solutions — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -171,17 +195,17 @@ rules:
   slug: labvantage-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 28.7
+  composite: 27.1
   coverage:
     artifact_dirs: 14
-    catalog_earned: 53.3
+    catalog_earned: 50.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 61.8
+    catalog_gap: 64.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 13.2
+    access_clarity: 5.3
     contract_governance: 9.8
     contract_quality: 55.2
     developer_ergonomics: 26.2
@@ -201,8 +225,8 @@ score:
     regime: Health
     regime_id: health
     score: 13.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

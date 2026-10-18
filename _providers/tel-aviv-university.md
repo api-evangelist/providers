@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 5
 apis:
 - description: 'Open Archives Initiative Protocol for Metadata Harvesting 2.0 service for the Tel Aviv University library record, served from TAU''s Ex Libris Alma tenant. Verified live and keyless on 2026-08-30: Iden'
@@ -182,9 +182,13 @@ created: '2026-06-03'
 description: 'Tel Aviv University (TAU / אוניברסיטת תל אביב) is Israel''s largest university, a public research institution in Tel Aviv with roughly 30,000 students across nine faculties, and a member of the Israeli research-university group served by the Inter-University Computation Center (IUCC). Re-profiled on 2026-08-30 with operator attribution settled before any artifact was saved: TAU operates NO central developer portal, NO open-data portal and NO institution-operated public API. api.tau.ac.il, developer.tau.ac.il, opendata.tau.ac.il and services.tau.ac.il do not resolve; data.tau.ac.il and digital.tau.ac.il resolve only as vanity redirects. Every machine-readable, callable surface TAU has is a vendor product deployed under the institution''s name and is recorded here as a TENANT relationship, not as TAU engineering: the Ex Libris Alma OAI-PMH 2.0 service and SRU 1.2 search service for the library record, the Ex Libris Primo VE discovery layer (institution code 972TAU_INST:TAU, branded
   "DaTA Search"), the Elsevier Pure CRIS at cris.tau.ac.il whose OAI-PMH endpoint self-identifies as "Pure OAI Repository" administered from purehosted@elsevier.com, and TAU''s SAML identity, which is a tau.ac.il scope on the IUCC national proxy identity provider in eduGAIN rather than a TAU- registered entity of its own. The only machine-readable documents TAU itself serves from its own hosts are the Drupal RSS 2.0 news feeds at www.tau.ac.il/rss.xml and english.tau.ac.il/rss.xml, and its public timetable and course search at www.ims.tau.ac.il/Tal/KR/Search_P.aspx is an HTML form with no API behind it. TAU publishes an institutional generative-AI guidance set for students and faculty through its Deanery for Innovation in Teaching and Learning. There is no official institution-wide GitHub organisation; code lives in lab and student-club orgs.'
 finops:
-- name: Tel Aviv University Finops
+- has_sources: true
+  method: generated
+  name: Tel Aviv University Finops
+  primary_unit: ''
   service_category: Education
   slug: tel-aviv-university-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tel-aviv-university.png
 jsonld:
 - class_count: 5
@@ -196,7 +200,7 @@ modified: '2026-08-30'
 name: Tel Aviv University
 nav: Providers
 network: true
-overview: 'Tel Aviv University publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include University, Higher Education, Education, Israel, and Research.
+overview: 'Tel Aviv University is listed with 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include University, Higher Education, Education, Israel, and Research.
 
 
   The Tel Aviv University catalog on APIs.io includes 1 JSON-LD context.
@@ -214,30 +218,31 @@ rate_limits:
   slug: tel-aviv-university-rate-limits
 score:
   band: emerging
-  composite: 25.2
+  composite: 19.1
   coverage:
     artifact_dirs: 9
-    catalog_earned: 65.4
+    catalog_earned: 52.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 49.6
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -2.6
+  delta: -6.1
   facets:
-    access_clarity: 37.4
+    access_clarity: 15.8
     contract_governance: 18.2
     contract_quality: 11.7
     developer_ergonomics: 11.9
     discoverability: 71.4
-    operational_transparency: 18.9
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - israel
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
+    - mena
     - middle-east
-  previous_composite: 27.8
+  previous_composite: 25.2
   provenance:
     conformance: first-party
   regulatory:
@@ -246,9 +251,9 @@ score:
     regime: Education & Research
     regime_id: education
     score: 22.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

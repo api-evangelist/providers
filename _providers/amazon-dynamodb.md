@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 15
+- acting_count: 12
   human_in_the_loop: 0
   name: Amazon Dynamodb Agentic Access
   operation_count: 15
   slug: amazon-dynamodb-agentic-access
-  summary_line: 15 operations · 15 acting
+  summary_line: 15 operations · 12 acting
 api_count: 1
 apis:
 - baseURL: https://dynamodb.{region}.amazonaws.com
@@ -183,6 +183,11 @@ collections:
   name: Amazon DynamoDB API
   slug: open-amazon-dynamodb
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/finops/amazon-dynamodb-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/amazon-dynamodb-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/smithy/dynamodb-2012-08-10.json
   title: ''
@@ -578,9 +583,13 @@ features:
 - description: Time to Live automatically deletes expired items to reduce storage costs.
   name: TTL
 finops:
-- name: Amazon Dynamodb Finops
+- has_sources: false
+  method: generated
+  name: Amazon Dynamodb Finops
+  primary_unit: ''
   service_category: API
   slug: amazon-dynamodb-finops
+  template: true
 image: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png
 json_schemas:
 - name: Amazon DynamoDB Table
@@ -808,13 +817,13 @@ modified: '2026-09-18'
 name: Amazon DynamoDB
 nav: Providers
 network: true
-overview: 'Amazon DynamoDB publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Batch API, Items API, Queries API, and 3 more. Tagged areas include Database, Document Store, Key-Value Store, NoSQL, and Serverless.
+overview: 'Amazon DynamoDB publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Batch API, Items API, Queries API, and 3 more. Tagged areas include Database, Document Store, Key-Value Store, NoSQL, and Serverless.
 
 
   The Amazon DynamoDB catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon DynamoDB''s developer surface includes CLI, sandbox, changelog, pricing, authentication, developer portal, documentation, and 51 more developer resources.'
+  Amazon DynamoDB''s developer surface includes CLI, sandbox, changelog, pricing, authentication, developer portal, documentation, and 52 more developer resources.'
 plans:
 - name: Amazon Dynamodb Plans Pricing
   plan_count: 5
@@ -825,9 +834,10 @@ rate_limits:
   name: Amazon Dynamodb Rate Limits
   slug: amazon-dynamodb-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: Amazon DynamoDB API Rules
+  name: Amazon DynamoDB — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -835,7 +845,8 @@ rules:
     info: 2
     warn: 4
   slug: amazon-dynamodb-jsonschema-spectral-rules
-- effective_rule_count: 75
+- authorship: generated
+  effective_rule_count: 75
   extends:
   - spectral:oas
   name: Amazon DynamoDB API Rules
@@ -848,17 +859,17 @@ rules:
   slug: amazon-dynamodb-spectral-rules
 score:
   band: exemplar
-  composite: 80.3
+  composite: 78.8
   coverage:
-    artifact_dirs: 34
-    catalog_earned: 89.4
+    artifact_dirs: 35
+    catalog_earned: 86.4
     catalog_earned_first_party: 24.0
-    catalog_gap: 25.6
+    catalog_gap: 28.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 93.4
+    access_clarity: 85.5
     contract_governance: 45.5
     contract_quality: 69.6
     developer_ergonomics: 81.5
@@ -881,8 +892,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

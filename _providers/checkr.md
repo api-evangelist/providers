@@ -30,13 +30,13 @@ agent_readiness:
     mcp_server: verified
     openapi_examples: false
     protected_resource_metadata: verified
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 46.3
-  scored_at: '2026-10-04'
+  score: 44.4
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -167,6 +167,10 @@ collections:
   name: Checkr API
   slug: open-checkr
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://checkr.com/blog
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/checkr/refs/heads/main/capabilities/checkr-capability-edges.yml
   title: ''
@@ -226,23 +230,27 @@ common:
 created: '2026-07-03'
 description: Checkr is a technology-driven background check platform for employment screening. Its REST API lets employers, staffing firms, and platform partners run compliant background checks programmatically - creating candidates, sending invitations, ordering packages, and retrieving reports composed of individual screenings (SSN trace, county/state/national/federal criminal searches, sex offender registry, motor vehicle records, education and employment verifications, and more). The API also covers adverse action workflows, continuous checks and subscriptions, node/hierarchy and geo account structure, Form I-9, documents, and webhooks for event-driven report status updates. Authentication is HTTP Basic auth with a secret API key, with OAuth for Checkr Partner integrations.
 finops:
-- name: Checkr Finops
+- has_sources: true
+  method: generated
+  name: Checkr Finops
+  primary_unit: ''
   service_category: Background Screening and Compliance
   slug: checkr-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/checkr.png
 layout: provider
 mcp_servers:
 - description: Remote MCP server at mcp.checkr.com over HTTP.
   name: Checkr MCP Server
   slug: checkr
-modified: '2026-07-03'
+modified: '2026-10-06'
 name: Checkr
 nav: Providers
 network: true
-overview: 'Checkr publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Account API, Adverse Actions API, Candidates API, and 11 more. Tagged areas include Background Checks, Employment Screening, Compliance, Human Resources, and Identity Verification.
+overview: 'Checkr publishes 14 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Adverse Actions API, Candidates API, and 11 more. Tagged areas include Background Checks, Employment Screening, Compliance, Human Resources, and Identity Verification.
 
 
-  Checkr''s developer surface includes authentication, documentation, and 10 more developer resources.'
+  Checkr''s developer surface includes engineering blog, authentication, documentation, and 10 more developer resources.'
 plans:
 - name: Checkr Plans Pricing
   plan_count: 5
@@ -254,22 +262,22 @@ rate_limits:
   slug: checkr-rate-limits
 score:
   band: thin
-  composite: 35.3
+  composite: 28.3
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 58.0
+    artifact_dirs: 15
+    catalog_earned: 42.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.0
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.0
   facets:
-    access_clarity: 44.2
+    access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 47.7
-    developer_ergonomics: 29.8
+    developer_ergonomics: 32.1
     discoverability: 68.3
-    operational_transparency: 21.6
+    operational_transparency: 7.9
   previous_composite: 35.3
   provenance:
     agentic_access: derived
@@ -285,9 +293,9 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

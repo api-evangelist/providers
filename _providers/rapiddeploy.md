@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The RapidDeploy platform API host that backs Nimbus CAD, Radius Mapping, Lightning and Eclipse Analytics. The host is live and answers with a JSON envelope, but every anonymous path returns 404 "Resou
@@ -44,6 +44,14 @@ apis:
   slug: rapiddeploy-platform
 artifact_total: 6
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.motorolasolutions.com/en_us/blog
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.motorolasolutions.com/en_us/blog/rss.xml
 - group: other
   title: ''
   type: ParentCompany
@@ -138,14 +146,14 @@ created: '2026-08-26'
 description: 'RapidDeploy is a cloud-native Next Generation 9-1-1 (NG911) software company founded in 2013 in South Africa and headquartered in Austin, Texas from 2018. It builds call-taking, dispatch, mapping and analytics software for Public Safety Answering Points (PSAPs) on Microsoft Azure: Nimbus CAD (cloud computer-aided dispatch), Radius Mapping (NG911 primary call-taking tactical map with a deep ESRI integration and supplemental location data sources), Lightning (a first-responder mobile application) and Eclipse Analytics (response-time and staffing analytics). The company was acquired by Motorola Solutions and folded into its Command Center software portfolio; rapiddeploy.com and every path beneath it now HTTP 301 to a Motorola Solutions NG9-1-1 product page. RapidDeploy markets an open-API framework for integrating third-party systems such as Priority Dispatch for police, fire and EMS, but publishes no public API reference or machine-readable contract.'
 image: https://avatars.githubusercontent.com/u/85182598?v=4
 layout: provider
-modified: '2026-08-26'
+modified: '2026-10-06'
 name: RapidDeploy
 nav: Providers
 network: true
-overview: 'RapidDeploy publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Public Safety, Emergency Services, NG911, and Computer-Aided Dispatch.
+overview: 'RapidDeploy is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Public Safety, Emergency Services, NG911, and Computer-Aided Dispatch.
 
 
-  RapidDeploy''s developer surface includes authentication and 15 more developer resources.'
+  RapidDeploy''s developer surface includes engineering blog, authentication, and 16 more developer resources.'
 plans:
 - name: Rapiddeploy Plans Pricing
   plan_count: 0
@@ -162,20 +170,20 @@ scopes:
   summary_line: 14 scopes
 score:
   band: emerging
-  composite: 21.7
+  composite: 22.1
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 14
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.4
   facets:
     access_clarity: 21.1
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 11.9
+    developer_ergonomics: 14.3
     discoverability: 73.2
     operational_transparency: 18.4
   jurisdiction:
@@ -195,13 +203,14 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 34.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/rapiddeploy/refs/heads/main/screenshots/rapiddeploy-2026-10-11T113128.png
 security:
 - kind: authentication
   name: Rapiddeploy Authentication

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 26.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 1
@@ -274,7 +274,7 @@ modified: '2026-07-19'
 name: Gameye
 nav: Providers
 network: true
-overview: 'Gameye publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Artifacts API, Available Location API, Logs API, and 2 more. Tagged areas include Company, Game Server Hosting, Game Server Orchestration, Multiplayer, and Containers.
+overview: 'Gameye publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Artifacts API, Available Location API, Logs API, and 2 more. Tagged areas include Company, Game Server Hosting, Game Server Orchestration, Multiplayer, and Containers.
 
 
   Gameye''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
@@ -314,8 +314,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: verified
     openapi_examples: partial
     protected_resource_metadata: verified
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 54.6
-  scored_at: '2026-10-04'
+  score: 52.4
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -107,6 +107,21 @@ collections:
   name: JamBase Concert Data Artists Venues API
   slug: open-jambase-venues-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/jambase/refs/heads/main/plans/jambase-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/jambase-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/jambase/refs/heads/main/rate-limits/jambase-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/jambase-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/jambase/refs/heads/main/finops/jambase-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/jambase-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/jambase/refs/heads/main/agentic-access/jambase-agentic-access.yml
   title: ''
@@ -218,9 +233,13 @@ examples:
   name: Searchvenues
   slug: searchVenues
 finops:
-- name: Jambase Finops
+- has_sources: true
+  method: generated
+  name: Jambase Finops
+  primary_unit: ''
   service_category: Live Music Data
   slug: jambase-finops
+  template: false
 image: https://www.jambase.com/favicon.ico
 json_schemas:
 - name: Concert
@@ -267,13 +286,13 @@ modified: '2026-06-13'
 name: JamBase
 nav: Providers
 network: true
-overview: 'JamBase publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Artists API, Events API, Genres API, and 4 more. Tagged areas include Artists, Concerts, Event, Festivals, and Live Music.
+overview: 'JamBase publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Artists API, Events API, Genres API, and 4 more. Tagged areas include Artists, Concerts, Event, Festivals, and Live Music.
 
 
   The JamBase catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  JamBase''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, engineering blog, and 7 more developer resources.'
+  JamBase''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, engineering blog, and 10 more developer resources.'
 plans:
 - name: Jambase Plans Pricing
   plan_count: 5
@@ -284,9 +303,10 @@ rate_limits:
   name: Jambase Rate Limits
   slug: jambase-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: JamBase API Rules
+  name: JamBase — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -295,23 +315,23 @@ rules:
     warn: 3
   slug: jambase-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 46.8
+  band: thin
+  composite: 38.6
   coverage:
     artifact_dirs: 17
-    catalog_earned: 78.3
+    catalog_earned: 59.7
     catalog_earned_first_party: 0.0
-    catalog_gap: 36.7
+    catalog_gap: 55.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.2
   facets:
-    access_clarity: 46.8
+    access_clarity: 18.4
     contract_governance: 9.8
     contract_quality: 62.8
     developer_ergonomics: 45.2
     discoverability: 68.3
-    operational_transparency: 28.4
+    operational_transparency: 7.9
   previous_composite: 46.8
   provenance:
     agentic_access: derived
@@ -327,9 +347,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.9
-  scored_at: '2026-10-04'
+  score: 19.0
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -85,6 +85,21 @@ collections:
   name: Codehooks Database REST Documents Queue API
   slug: open-codehooks-queue-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/codehooks/refs/heads/main/plans/codehooks-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/codehooks-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/codehooks/refs/heads/main/rate-limits/codehooks-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/codehooks-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/codehooks/refs/heads/main/finops/codehooks-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/codehooks-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/codehooks/refs/heads/main/agentic-access/codehooks-agentic-access.yml
   title: ''
@@ -172,9 +187,13 @@ common:
 created: '2025-02-08'
 description: Codehooks is a JavaScript-native serverless backend platform that bundles a NoSQL document database, key-value store, persistent queues with workers, CRON jobs, blob storage, frontend hosting, and an automatic CRUD REST API in a single CLI-deployable runtime. Developers write small Node.js handler files and Codehooks generates a secure REST API, OpenAPI documentation, and event hooks (onBefore/onAfter Create/Read/Update/Delete) without managing servers. The platform targets agent-native and AI backend use cases where simple, fast, MongoDB-style data access and event-driven automation matter.
 finops:
-- name: Codehooks Finops
+- has_sources: false
+  method: generated
+  name: Codehooks Finops
+  primary_unit: ''
   service_category: API
   slug: codehooks-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/codehooks.png
 json_schemas:
 - name: Codehooks Document
@@ -196,13 +215,13 @@ modified: '2026-05-19'
 name: Codehooks
 nav: Providers
 network: true
-overview: 'Codehooks publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Events (AsyncAPI), Documents API, Key-Value Store API, and 1 more. Tagged areas include Backend, Database, Event, Hooks, and JavaScript.
+overview: 'Codehooks publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Events (AsyncAPI), Documents API, Key-Value Store API, and 1 more. Tagged areas include Backend, Database, Event, Hooks, and JavaScript.
 
 
   The Codehooks catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Codehooks'' developer surface includes authentication, documentation, getting-started guide, engineering blog, pricing, GitHub presence, and 13 more developer resources.'
+  Codehooks'' developer surface includes authentication, documentation, getting-started guide, engineering blog, pricing, GitHub presence, and 16 more developer resources.'
 plans:
 - name: Codehooks Plans Pricing
   plan_count: 3
@@ -213,10 +232,11 @@ rate_limits:
   name: Codehooks Rate Limits
   slug: codehooks-rate-limits
 rules:
-- effective_rule_count: 34
+- authorship: generated
+  effective_rule_count: 34
   extends:
   - spectral:asyncapi
-  name: Codehooks API Rules
+  name: Codehooks — asyncapi rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -224,9 +244,10 @@ rules:
     info: 1
     warn: 5
   slug: codehooks-asyncapi-spectral-rules
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Codehooks API Rules
+  name: Codehooks — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -234,7 +255,8 @@ rules:
     info: 2
     warn: 3
   slug: codehooks-jsonschema-spectral-rules
-- effective_rule_count: 51
+- authorship: unmarked
+  effective_rule_count: 51
   extends:
   - spectral:oas
   name: Codehooks API Rules
@@ -247,17 +269,17 @@ rules:
   slug: codehooks-rules
 score:
   band: developing
-  composite: 41.5
+  composite: 40.0
   coverage:
     artifact_dirs: 16
-    catalog_earned: 53.5
+    catalog_earned: 50.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 61.5
+    catalog_gap: 64.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 42.1
+    access_clarity: 34.2
     contract_governance: 13.6
     contract_quality: 62.3
     developer_ergonomics: 35.7
@@ -277,8 +299,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

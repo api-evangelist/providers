@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 118
   human_in_the_loop: 12
@@ -44,7 +44,7 @@ agentic_access:
   operation_count: 190
   slug: didomi-agentic-access
   summary_line: 190 operations · 118 acting · 12 human-in-the-loop
-api_count: 1
+api_count: 2
 apis:
 - description: The Didomi Web SDK is the browser-side library that renders consent notices, preference centers, and privacy widgets, gates third-party tags on user consent, and writes IAB TCF v2 / GPP / Didomi conse
   name: Didomi Web SDK
@@ -771,9 +771,13 @@ features:
 - description: Programmatic management of organization members, roles, SSO connections, partner-portal sessions, and per-key API quotas via the Platform API.
   name: SSO and member management
 finops:
-- name: Didomi Finops
+- has_sources: false
+  method: generated
+  name: Didomi Finops
+  primary_unit: ''
   service_category: ''
   slug: didomi-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/didomi.png
 integrations:
 - description: First-class Didomi GTM template and native integration; certified Google Consent Mode v2 signal delivery.
@@ -832,7 +836,7 @@ modified: '2026-08-13'
 name: Didomi
 nav: Providers
 network: true
-overview: 'Didomi publishes 37 APIs on the [APIs.io](https://apis.io/) network, including consents/events API, consents/proofs API, Consents/tokens API, and 34 more. Tagged areas include Advertising, AdTech, CCPA, CMP, and Consent.
+overview: 'Didomi publishes 37 API contracts indexed on the [APIs.io](https://apis.io/) network, including consents/events API, consents/proofs API, Consents/tokens API, and 34 more. Tagged areas include Advertising, AdTech, CCPA, CMP, and Consent.
 
 
   The Didomi catalog on APIs.io includes 2 event-driven AsyncAPI specifications, 1 JSON-LD context, and 2 Spectral governance rulesets.
@@ -849,9 +853,10 @@ rate_limits:
   name: Didomi Rate Limits
   slug: didomi-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Didomi API Rules
+  name: Didomi — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -859,7 +864,8 @@ rules:
     info: 1
     warn: 4
   slug: didomi-jsonschema-spectral-rules
-- effective_rule_count: 51
+- authorship: unmarked
+  effective_rule_count: 51
   extends:
   - spectral:oas
   name: Didomi API Rules
@@ -872,17 +878,17 @@ rules:
   slug: didomi-rules
 score:
   band: exemplar
-  composite: 81.5
+  composite: 80.0
   coverage:
-    artifact_dirs: 34
-    catalog_earned: 84.0
+    artifact_dirs: 35
+    catalog_earned: 81.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 31.0
+    catalog_gap: 34.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -1.5
   facets:
-    access_clarity: 100.0
+    access_clarity: 92.1
     contract_governance: 45.5
     contract_quality: 74.5
     developer_ergonomics: 76.8
@@ -896,7 +902,7 @@ score:
     regions:
     - europe
     - france-iberia
-  previous_composite: 81.0
+  previous_composite: 81.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -913,8 +919,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

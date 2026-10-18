@@ -34,14 +34,23 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'Prediko''s public REST API for inventory operations: manage orders and deliveries, read SKUs and procurement suggestions, manage bill-of-materials and production consumption, and sync suppliers and war'
   name: Prediko API
   slug: prediko-api
-artifact_total: 4
+artifact_total: 5
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/prediko/refs/heads/main/plans/prediko-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/prediko-plans-pricing.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.prediko.io/blog/rss.xml
 - group: company
   title: ''
   type: Website
@@ -159,28 +168,32 @@ created: '2026-07-17'
 description: Prediko is an AI-powered inventory management and planning platform for Shopify D2C and B2B brands, covering demand forecasting, supply and replenishment planning, purchase-order management, raw-materials and bill-of-materials tracking, and multi-location inventory. Prediko exposes a public REST API (https://api.prediko.io/api/v1) authenticated with pk_live_ bearer API keys, letting merchants and integrators manage orders, read SKU stock levels and procurement suggestions, sync suppliers and warehouses, and automate inventory workflows. "Pia" is Prediko's AI inventory agent. The company is backed by Techstars.
 image: https://cdn.prod.website-files.com/68ceeb4f2c25c399d42f4726/696653966c56edb6b763849e_predikoinventorymanagement.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Prediko
 nav: Providers
 network: true
-overview: 'Prediko publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Inventory, Demand Forecasting, Supply Chain, and E-Commerce.
+overview: 'Prediko is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Inventory, Demand Forecasting, Supply Chain, and E-Commerce.
 
 
-  Prediko''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, support, changelog, and 18 more developer resources.'
+  Prediko''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, support, changelog, and 20 more developer resources.'
+plans:
+- name: Prediko Plans Pricing
+  plan_count: 2
+  slug: prediko-plans-pricing
 random_paper: 2
 score:
   band: thin
-  composite: 30.3
+  composite: 34.6
   coverage:
-    artifact_dirs: 14
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 16
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 4.3
   facets:
-    access_clarity: 21.1
+    access_clarity: 42.1
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 57.1
@@ -196,8 +209,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

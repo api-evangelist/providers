@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Travel booking API documented on the sandbox portal
@@ -31,6 +31,10 @@ apis:
   slug: asiayo-api
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.asiayo.com/feed/
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/asiayo/refs/heads/main/llms/asiayo-llms.txt
   title: ''
@@ -74,25 +78,26 @@ created: '2026-09-26'
 description: AsiaYo is a global travel platform offering bookings for hotels, tours, sports activities, and transportation. It provides a marketplace for travelers to discover and reserve accommodations, group tours, cruises, and day trips worldwide, with multilingual support and member discounts.
 image: https://img.asiayo.com/static/images/fb_og.jpg
 layout: provider
-modified: '2026-09-26'
+modified: '2026-10-06'
 name: Asiayo
 nav: Providers
 network: true
-overview: 'Asiayo publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Travel, Marketplace, Booking, Tours, and Hospitality.
+overview: 'Asiayo is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Travel, Marketplace, Booking, Tours, and Hospitality.
 
 
-  Asiayo''s developer surface includes engineering blog and 6 more developer resources.'
+  Asiayo''s developer surface includes engineering blog and 7 more developer resources.'
 random_paper: 8
 score:
   band: minimal
-  composite: 10.8
+  composite: 10.9
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 9
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.1
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
@@ -100,6 +105,7 @@ score:
     developer_ergonomics: 2.4
     discoverability: 64.3
     operational_transparency: 0.0
+  previous_composite: 10.8
   provenance:
     mcp: unknown
   regulatory:
@@ -108,12 +114,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/asiayo/refs/heads/main/screenshots/asiayo-2026-10-11T180529.png
 security:
 - kind: domain-security
   name: Asiayo Domain Security

@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.osha.gov/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/occupational-safety-and-health-administration/refs/heads/main/security/occupational-safety-and-health-administration-domain-security.yml
   title: ''
@@ -57,20 +61,20 @@ created: '2024-12-25'
 description: The Occupational Safety and Health Administration (OSHA) is a US federal agency that sets and enforces standards for safe and healthful working conditions. OSHA provides data APIs for accessing workplace injury and illness data, establishment inspection records, and compliance information.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/occupational-safety-and-health-administration.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-10-06'
 name: Occupational Safety and Health Administration
 nav: Providers
 network: true
 overview: 'Occupational Safety and Health Administration is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Government, Occupational Health, OSHA, and Workplace Safety.
 
 
-  Occupational Safety and Health Administration''s developer surface includes documentation and 3 more developer resources.'
+  Occupational Safety and Health Administration''s developer surface includes documentation and 4 more developer resources.'
 random_paper: 7
 score:
   band: minimal
   composite: 2.8
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 22.0
     catalog_earned_first_party: 0.0
     catalog_gap: 93.0
@@ -91,8 +95,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

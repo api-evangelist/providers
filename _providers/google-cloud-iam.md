@@ -28,20 +28,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.8
-  scored_at: '2026-10-04'
+  score: 22.9
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 6
+- acting_count: 5
   human_in_the_loop: 0
   name: Google Cloud Iam Agentic Access
   operation_count: 11
   slug: google-cloud-iam-agentic-access
-  summary_line: 11 operations · 6 acting
+  summary_line: 11 operations · 5 acting
 api_count: 1
 apis:
 - baseURL: https://iam.googleapis.com
@@ -97,6 +97,21 @@ collections:
   name: Google Cloud IAM API
   slug: open-openapi
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-iam/refs/heads/main/plans/google-cloud-iam-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/google-cloud-iam-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-iam/refs/heads/main/rate-limits/google-cloud-iam-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/google-cloud-iam-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-iam/refs/heads/main/finops/google-cloud-iam-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/google-cloud-iam-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/google-cloud-iam/refs/heads/main/capabilities/google-cloud-iam-capability-edges.yml
   title: ''
@@ -183,9 +198,13 @@ common:
 created: '2026-03-13'
 description: Google Cloud Identity and Access Management (IAM) enables fine-grained access control and visibility for managing cloud resources. It provides the ability to create and manage service accounts, roles, and permissions to enforce least-privilege security policies across Google Cloud resources.
 finops:
-- name: Google Cloud Iam Finops
+- has_sources: false
+  method: generated
+  name: Google Cloud Iam Finops
+  primary_unit: ''
   service_category: API
   slug: google-cloud-iam-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/google-cloud-iam.png
 json_schemas:
 - name: ServiceAccount
@@ -201,13 +220,13 @@ modified: '2026-05-19'
 name: Google Cloud IAM
 nav: Providers
 network: true
-overview: 'Google Cloud IAM publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Permissions API, Roles API, Service Account Keys API, and 1 more. Tagged areas include Access Management, Google Cloud, Identity and Access Management, Identity, and Permissions.
+overview: 'Google Cloud IAM publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Permissions API, Roles API, Service Account Keys API, and 1 more. Tagged areas include Identity and Access Management, Google Cloud, Identity, Permissions, and Security.
 
 
   The Google Cloud IAM catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Google Cloud IAM''s developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, support, and 13 more developer resources.'
+  Google Cloud IAM''s developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, support, and 16 more developer resources.'
 plans:
 - name: Google Cloud Iam Plans Pricing
   plan_count: 3
@@ -218,9 +237,10 @@ rate_limits:
   name: Google Cloud Iam Rate Limits
   slug: google-cloud-iam-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Google Cloud IAM API Rules
+  name: Google Cloud IAM — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -235,17 +255,17 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: developing
-  composite: 46.0
+  composite: 44.5
   coverage:
     artifact_dirs: 16
-    catalog_earned: 59.7
+    catalog_earned: 56.7
     catalog_earned_first_party: 0.0
-    catalog_gap: 55.4
+    catalog_gap: 58.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 47.4
+    access_clarity: 39.5
     contract_governance: 9.8
     contract_quality: 54.2
     developer_ergonomics: 44.0
@@ -265,8 +285,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -287,9 +307,8 @@ security:
   summary_line: security.txt · contact published
 slug: google-cloud-iam
 tags:
-- Access Management
-- Google Cloud
 - Identity and Access Management
+- Google Cloud
 - Identity
 - Permissions
 - Security

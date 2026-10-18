@@ -34,15 +34,15 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 283
+- acting_count: 266
   human_in_the_loop: 9
   name: Virto Commerce Agentic Access
-  operation_count: 426
+  operation_count: 452
   slug: virto-commerce-agentic-access
-  summary_line: 426 operations · 283 acting · 9 human-in-the-loop
-api_count: 14
+  summary_line: 452 operations · 266 acting · 9 human-in-the-loop
+api_count: 15
 apis:
 - baseURL: https://virtostart-demo-admin.govirto.com/api
   baseurl_source: declared
@@ -697,9 +697,13 @@ common:
 created: '2026-06-13'
 description: Virto Commerce is an open-source, API-first B2B e-commerce platform built on .NET Core. It provides REST and GraphQL APIs for catalog management, pricing, inventory, order management, customer organizations, marketing, payments, shipping, subscriptions, and complex B2B purchasing workflows including quotes, contracts, and approval routing. The modular architecture offers 100+ independently deployable modules covering the full commerce stack for enterprise deployments.
 finops:
-- name: Virto Commerce Finops
+- has_sources: true
+  method: derived
+  name: Virto Commerce Finops
+  primary_unit: ''
   service_category: ''
   slug: virto-commerce-finops
+  template: false
 graphqls:
 - description: Virto Commerce exposes a unified GraphQL API (the "Experience API" or xAPI) as the primary interface for headless storefronts. Built on top of the GraphQL.NET library, the xAPI aggregates catalog, car
   name: Virto Commerce GraphQL API
@@ -719,7 +723,7 @@ modified: '2026-08-13'
 name: Virto Commerce
 nav: Providers
 network: true
-overview: 'Virto Commerce publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Catalog API, Companies and Contacts API, Inventory API, and 10 more. Tagged areas include B2B eCommerce, Catalog Management, Order Management, Pricing, and Inventory.
+overview: 'Virto Commerce publishes 13 API contracts indexed on the [APIs.io](https://apis.io/) network, including Catalog API, Companies and Contacts API, Inventory API, and 10 more. Tagged areas include B2B eCommerce, Catalog Management, Order Management, Pricing, and Inventory.
 
 
   The Virto Commerce catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 JSON-LD context.
@@ -742,23 +746,23 @@ scopes:
   summary_line: 84 scopes · password/clientCredentials
 score:
   band: exemplar
-  composite: 71.4
+  composite: 69.9
   coverage:
-    artifact_dirs: 31
-    catalog_earned: 75.0
+    artifact_dirs: 32
+    catalog_earned: 72.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 40.0
+    catalog_gap: 43.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -4.6
+  delta: -1.5
   facets:
-    access_clarity: 78.9
+    access_clarity: 71.1
     contract_governance: 18.2
     contract_quality: 50.8
     developer_ergonomics: 80.4
     discoverability: 76.7
     operational_transparency: 57.9
-  previous_composite: 76.0
+  previous_composite: 71.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -775,8 +779,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

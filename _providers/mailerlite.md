@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 54.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -450,9 +450,13 @@ common:
 created: '2026-05-08'
 description: MailerLite is an email marketing and automation platform used by creators, e-commerce sellers and small businesses to build lists, send campaigns and run behavioural automations. The current REST API at connect.mailerlite.com exposes subscribers, groups, segments, custom fields, campaigns, automations, forms, webhooks, batching, and a full e-commerce surface (shops, products, categories, customers, orders, carts) that drives abandoned-cart and post-purchase automations. Authentication is a bearer API key minted in the dashboard; responses are cursor-paginated and the API version can be pinned with an X-Version date header. Alongside the REST API, MailerLite ships six official SDKs, a first-party Go CLI with an interactive TUI, a published Agent Skill, and a hosted OAuth-protected MCP server at mcp.mailerlite.com exposing roughly 76 tools to AI assistants. A legacy Classic API v2 still serves older accounts.
 finops:
-- name: Mailerlite Finops
+- has_sources: true
+  method: generated
+  name: Mailerlite Finops
+  primary_unit: ''
   service_category: Email Marketing
   slug: mailerlite-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mailerlite.png
 layout: provider
 mcp_servers:
@@ -463,7 +467,7 @@ modified: '2026-08-13'
 name: MailerLite
 nav: Providers
 network: true
-overview: 'MailerLite publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Automations API, Campaigns API, Fields API, and 6 more. Tagged areas include Email Marketing, Automation, Newsletters, Subscribers, and Campaigns.
+overview: 'MailerLite publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Automations API, Campaigns API, Fields API, and 6 more. Tagged areas include Email Marketing, Automation, Newsletters, Subscribers, and Campaigns.
 
 
   The MailerLite catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -480,10 +484,11 @@ rate_limits:
   name: Mailerlite Rate Limits
   slug: mailerlite-rate-limits
 rules:
-- effective_rule_count: 34
+- authorship: generated
+  effective_rule_count: 34
   extends:
   - spectral:asyncapi
-  name: MailerLite API Rules
+  name: MailerLite — asyncapi rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -493,17 +498,17 @@ rules:
   slug: mailerlite-asyncapi-spectral-rules
 score:
   band: exemplar
-  composite: 73.7
+  composite: 72.1
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 63.8
+    artifact_dirs: 27
+    catalog_earned: 60.8
     catalog_earned_first_party: 20.0
-    catalog_gap: 51.3
+    catalog_gap: 54.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 100.0
+    access_clarity: 92.1
     contract_governance: 29.5
     contract_quality: 54.8
     developer_ergonomics: 88.1
@@ -530,8 +535,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 35.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -2,28 +2,28 @@
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_card: false
+    agent_card: conformant
     agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: served
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: served
     dry_run_mode: false
-    dynamic_client_registration: false
-    error_semantics: documented
+    dynamic_client_registration: true
+    error_semantics: verified
     event_surface_described: true
-    idempotency: documented
+    idempotency: verified
     mcp_server: documented
-    openapi_examples: false
-    protected_resource_metadata: false
+    openapi_examples: partial
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
   score: 68.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -311,14 +311,14 @@ jsonld:
   slug: jobspipe-context
 layout: provider
 mcp_servers:
-- description: Remote MCP server at jobspipe.dev requiring an API key.
+- description: Remote MCP server at mcp.jobspipe.dev requiring OAuth.
   name: JobsPipe MCP Server
   slug: jobspipe-mcp-yml
 modified: '2026-10-02'
 name: JobsPipe
 nav: Providers
 network: true
-overview: 'JobsPipe publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Account API, Billing API, Companies API, and 7 more. Tagged areas include Company, Job, Data, and Hiring.
+overview: 'JobsPipe publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Billing API, Companies API, and 7 more. Tagged areas include Company, Job, Data, and Hiring.
 
 
   The JobsPipe catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
@@ -335,7 +335,8 @@ rate_limits:
   name: Jobspipe Rate Limits
   slug: jobspipe-rate-limits
 rules:
-- effective_rule_count: 57
+- authorship: generated
+  effective_rule_count: 57
   extends:
   - spectral:oas
   name: JobsPipe API Rules
@@ -348,14 +349,15 @@ rules:
   slug: jobspipe-rules
 score:
   band: exemplar
-  composite: 73.9
+  composite: 74.0
   coverage:
-    artifact_dirs: 25
+    artifact_dirs: 28
     catalog_earned: 81.8
     catalog_earned_first_party: 24.0
     catalog_gap: 33.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -5.9
   facets:
     access_clarity: 92.1
     contract_governance: 22.0
@@ -363,6 +365,7 @@ score:
     developer_ergonomics: 73.2
     discoverability: 66.7
     operational_transparency: 86.8
+  previous_composite: 79.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -379,11 +382,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0
+screenshot: https://raw.githubusercontent.com/api-evangelist/jobspipe/refs/heads/main/screenshots/jobspipe-2026-10-11T105939.png
 security:
 - kind: authentication
   name: Jobspipe Authentication

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: First-party backend API for the Sollis Health Member Portal (mp.sollishealth.com), the members-only web application used to book appointments, view records and manage membership. Authentication is Mic
@@ -148,7 +148,7 @@ modified: '2026-08-05'
 name: Sollis Health
 nav: Providers
 network: true
-overview: 'Sollis Health publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Healthcare, Concierge Medicine, and Urgent Care.
+overview: 'Sollis Health is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Healthcare, Concierge Medicine, and Urgent Care.
 
 
   Sollis Health''s developer surface includes signup flow, pricing, support, FAQ, engineering blog, authentication, and 12 more developer resources.'
@@ -189,8 +189,8 @@ score:
     regime: Health
     regime_id: health
     score: 32.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

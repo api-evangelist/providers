@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -69,6 +69,21 @@ collections:
   name: Azure Database for PostgreSQL REST API
   slug: open-microsoft-azure-postgresql
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-postgresql/refs/heads/main/plans/microsoft-azure-postgresql-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/microsoft-azure-postgresql-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-postgresql/refs/heads/main/rate-limits/microsoft-azure-postgresql-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/microsoft-azure-postgresql-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-postgresql/refs/heads/main/finops/microsoft-azure-postgresql-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/microsoft-azure-postgresql-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-postgresql/refs/heads/main/capabilities/microsoft-azure-postgresql-capability-edges.yml
   title: ''
@@ -141,19 +156,23 @@ common:
 created: '2026-03-13'
 description: Azure Database for PostgreSQL is a fully managed relational database service based on the open-source PostgreSQL engine. It provides Flexible Server and Cosmos DB for PostgreSQL deployment options with built-in high availability, automated backups, scaling, and security.
 finops:
-- name: Microsoft Azure Postgresql Finops
+- has_sources: false
+  method: generated
+  name: Microsoft Azure Postgresql Finops
+  primary_unit: ''
   service_category: API
   slug: microsoft-azure-postgresql-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/microsoft-azure-postgresql.png
 layout: provider
 modified: '2026-05-19'
 name: Azure Database for PostgreSQL
 nav: Providers
 network: true
-overview: 'Azure Database for PostgreSQL publishes 2 APIs on the [APIs.io](https://apis.io/) network: Operations API and Servers API. Tagged areas include Database, Managed Database, Open Source, PostgreSQL, and Relational.
+overview: 'Azure Database for PostgreSQL is listed with 2 APIs on the [APIs.io](https://apis.io/) network: Operations API and Servers API. Tagged areas include Database, Managed Database, Open Source, PostgreSQL, and Relational.
 
 
-  Azure Database for PostgreSQL''s developer surface includes authentication, developer portal, pricing, documentation, signup flow, support, and 10 more developer resources.'
+  Azure Database for PostgreSQL''s developer surface includes authentication, developer portal, pricing, documentation, signup flow, support, and 13 more developer resources.'
 plans:
 - name: Microsoft Azure Postgresql Plans Pricing
   plan_count: 3
@@ -170,17 +189,17 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: developing
-  composite: 45.6
+  composite: 44.1
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 46.0
+    artifact_dirs: 15
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 69.0
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 60.5
+    access_clarity: 52.6
     contract_governance: 0.0
     contract_quality: 44.1
     developer_ergonomics: 47.6
@@ -200,8 +219,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

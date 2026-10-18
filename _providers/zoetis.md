@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: Zoetis Vetscan Connectivity provides bidirectional communication between veterinary practice information management systems (PIMS) and Zoetis point-of-care analyzers and reference laboratory services.
@@ -44,6 +44,21 @@ apis:
   slug: direct-integrated-ordering
 artifact_total: 6
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/zoetis/refs/heads/main/plans/zoetis-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/zoetis-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/zoetis/refs/heads/main/rate-limits/zoetis-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/zoetis-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/zoetis/refs/heads/main/finops/zoetis-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/zoetis-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/zoetis/refs/heads/main/security/zoetis-domain-security.yml
   title: ''
@@ -76,19 +91,23 @@ common:
 created: '2026-05-03'
 description: Zoetis is the world's leading animal health company, dedicated to discovering, developing, manufacturing, and commercializing medicines, vaccines, diagnostics, and technologies for animals. The company operates in over 100 countries and provides digital connectivity solutions that integrate veterinary diagnostics, reference laboratory services, and practice management systems through the Vetscan platform, enabling bidirectional communication between point-of-care analyzers and veterinary practice information management systems (PIMS).
 finops:
-- name: Zoetis Finops
+- has_sources: false
+  method: generated
+  name: Zoetis Finops
+  primary_unit: ''
   service_category: API
   slug: zoetis-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zoetis.png
 layout: provider
 modified: '2026-05-03'
 name: Zoetis
 nav: Providers
 network: true
-overview: 'Zoetis publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Animal Health, Veterinary, Diagnostics, and Life Sciences.
+overview: 'Zoetis is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Animal Health, Veterinary, Diagnostics, and Life Sciences.
 
 
-  Zoetis'' developer surface includes engineering blog, documentation, and 5 more developer resources.'
+  Zoetis'' developer surface includes engineering blog, documentation, and 8 more developer resources.'
 plans:
 - name: Zoetis Plans Pricing
   plan_count: 3
@@ -116,17 +135,17 @@ rate_limits:
   slug: zoetis-rate-limits
 score:
   band: emerging
-  composite: 12.8
+  composite: 11.3
   coverage:
     artifact_dirs: 9
-    catalog_earned: 36.0
+    catalog_earned: 33.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 79.0
+    catalog_gap: 82.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 26.3
+    access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
@@ -139,8 +158,8 @@ score:
     regime: Health
     regime_id: health
     score: 7.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

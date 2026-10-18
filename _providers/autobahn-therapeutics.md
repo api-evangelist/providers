@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://autobahntx.com/news/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/autobahn-therapeutics/refs/heads/main/security/autobahn-therapeutics-domain-security.yml
   title: ''
@@ -81,14 +85,14 @@ created: '2026-07-17'
 description: Autobahn Therapeutics is a clinical-stage biopharmaceutical company based in San Diego, California, developing regenerative medicines for central nervous system (CNS) disorders. The company pairs a proprietary brain-targeting chemistry platform - which creates orally administered small-molecule prodrugs designed to cross the blood-brain barrier - with validated human biology and biomarker-driven development strategies. Its pipeline includes elunetirom (its lead clinical program, being developed for indications such as bipolar depression), ABX-101 (a next-generation CNS-active S1P molecule), and ABX-003. Autobahn is backed by venture investors including Canaan Partners and Insight Partners. This profile is maintained in the API Evangelist network; the company does not currently publish a public developer API, so this record captures company identity and published web properties only.
 image: https://www.autobahntx.com/wp-content/themes/autobahn/assets/images/logo.svg
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Autobahn Therapeutics
 nav: Providers
 network: true
 overview: 'Autobahn Therapeutics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biopharmaceutical, Biotechnology, Central Nervous System, and Neuroscience.
 
 
-  Autobahn Therapeutics'' developer surface includes engineering blog, support, and 8 more developer resources.'
+  Autobahn Therapeutics'' developer surface includes engineering blog, support, and 9 more developer resources.'
 random_paper: 14
 score:
   band: minimal
@@ -122,8 +126,8 @@ score:
     regime: Health
     regime_id: health
     score: 7.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

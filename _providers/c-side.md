@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 5
 asyncapis:
@@ -40,6 +40,10 @@ asyncapis:
   name: C Side Webhooks
   slug: c-side-webhooks
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://cside.com/blog/rss.xml
 - group: company
   title: ''
   type: Website
@@ -176,7 +180,7 @@ mcp_servers:
 - description: cside operates a public, read-only remote MCP (Model Context Protocol) server at https://mcp.cside.com that exposes cside.com marketing-site and docs.cside.com documentation content (not the cside pro
   name: c/side MCP Server
   slug: cside
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: c/side
 nav: Providers
 network: true
@@ -186,7 +190,7 @@ overview: 'c/side is profiled on the [APIs.io](https://apis.io/) network. Tagged
   The c/side catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  c/side''s developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, CLI, changelog, and 21 more developer resources.'
+  c/side''s developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, CLI, changelog, and 22 more developer resources.'
 random_paper: 15
 score:
   band: developing
@@ -224,8 +228,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 23.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

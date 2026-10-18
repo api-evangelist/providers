@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Compensation platform API (no public spec discovered)
@@ -31,6 +31,10 @@ apis:
   slug: bettercomp-api
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.bettercomp.com/feed/
 - group: design
   href: https://raw.githubusercontent.com/api-evangelist/bettercomp/refs/heads/main/conformance/bettercomp-conformance.yml
   title: ''
@@ -105,25 +109,26 @@ created: '2026-09-28'
 description: BetterComp provides a modern compensation platform that leverages AI and data integration to help companies price jobs, manage compensation structures, and make data‑driven pay decisions. The solution unifies HRIS data, market surveys, and internal pay logic, offering tools for range modeling, market pricing, reporting, and AI‑assisted decision making, aimed at improving speed, fairness, and strategic impact of compensation across organizations.
 image: https://www.bettercomp.com/wp-content/uploads/2026/02/51f265ba727c8b32740c5ebd2c65093c0672d6a9-1200x630-1.webp
 layout: provider
-modified: '2026-09-28'
+modified: '2026-10-06'
 name: BetterComp
 nav: Providers
 network: true
-overview: 'BetterComp publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Compensation, Human Resources, Artificial Intelligence, Software-as-a-Service, and Enterprise.
+overview: 'BetterComp is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Compensation, Human Resources, Artificial Intelligence, Software-as-a-Service, and Enterprise.
 
 
-  BetterComp''s developer surface includes support, pricing, engineering blog, getting-started guide, and 9 more developer resources.'
+  BetterComp''s developer surface includes support, pricing, engineering blog, getting-started guide, and 10 more developer resources.'
 random_paper: 21
 score:
   band: emerging
   composite: 17.6
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 18.2
@@ -131,6 +136,7 @@ score:
     developer_ergonomics: 19.0
     discoverability: 64.3
     operational_transparency: 5.3
+  previous_composite: 17.6
   provenance:
     conformance: first-party
     mcp: unknown
@@ -140,12 +146,14 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 20.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/bettercomp/refs/heads/main/screenshots/bettercomp-2026-10-11T102017.png
 security:
 - kind: domain-security
   name: Bettercomp Domain Security

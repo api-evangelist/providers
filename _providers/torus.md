@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://usetorus.com/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/torus/refs/heads/main/security/torus-domain-security.yml
   title: ''
@@ -58,7 +62,7 @@ created: '2026-07-17'
 description: Torus is a Y Combinator (Summer 2026) startup building an AI-powered engineering intelligence platform for capital projects. Its agents analyze engineering documents such as P&IDs, datasheets, specification sheets, and drawings to extract parameters, flag cross-document inconsistencies across 50+ categories, and automate workflow deliverables like procurement approvals and RFIs for infrastructure, data center, and energy projects. Torus runs as a managed cloud or a sovereign in-VPC deployment and publishes no public API or developer surface as of July 2026.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/torus.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Torus
 nav: Providers
 network: true
@@ -68,7 +72,7 @@ score:
   band: minimal
   composite: 6.7
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 6
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -89,8 +93,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

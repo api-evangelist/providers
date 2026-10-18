@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 4
 apis:
 - description: High-performance Solana JSON-RPC HTTP endpoints served from a fault-tolerant elastic-node architecture across four global regions (Northern Virginia, Oregon, London, Singapore). Supports the full stan
@@ -195,7 +195,7 @@ modified: '2026-05-25'
 name: Syndica
 nav: Providers
 network: true
-overview: 'Syndica publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Solana RPC (WebSocket) API, ChainStream API, and 2 more. Tagged areas include Solana, Blockchain, Web3, RPC, and Streaming.
+overview: 'Syndica is listed with 4 APIs on the [APIs.io](https://apis.io/) network, including Solana RPC (WebSocket) API, ChainStream API, and 2 more. Tagged areas include Solana, Blockchain, Web3, RPC, and Streaming.
 
 
   The Syndica catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -204,10 +204,11 @@ overview: 'Syndica publishes 4 APIs on the [APIs.io](https://apis.io/) network, 
   Syndica''s developer surface includes developer portal, documentation, FAQ, support, engineering blog, signup flow, pricing, and 19 more developer resources.'
 random_paper: 18
 rules:
-- effective_rule_count: 34
+- authorship: generated
+  effective_rule_count: 34
   extends:
   - spectral:asyncapi
-  name: Syndica API Rules
+  name: Syndica — asyncapi rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -240,8 +241,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

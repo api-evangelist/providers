@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 4
 apis:
 - description: REST API for exchanging patient, prescription, encounter and assistance-program application data between a health system, clinic or pharmacy and the TailorMed platform. Part of TailorMed's DTA (Data T
@@ -172,7 +172,7 @@ modified: '2026-08-29'
 name: TailorMed
 nav: Providers
 network: true
-overview: 'TailorMed publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Health IT, Medication Access, and Medication Affordability.
+overview: 'TailorMed is listed with 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Health IT, Medication Access, and Medication Affordability.
 
 
   The TailorMed catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -227,8 +227,8 @@ score:
     regime: Health
     regime_id: health
     score: 47.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

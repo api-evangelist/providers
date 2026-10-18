@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 4
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://nexus0ne.substack.com/feed
 - group: company
   title: ''
   type: Website
@@ -120,14 +124,14 @@ mcp_servers:
 - description: NexusOne describes MCP (Model Context Protocol) endpoint exposure as part of its "Composable Intelligence" layer, so AI agents can discover and act on governed data products across the estate. The MCP
   name: NexusOne MCP
   slug: nexusone-mcp
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Nexus One
 nav: Providers
 network: true
 overview: 'Nexus One is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data Infrastructure, Data Governance, Artificial Intelligence, and Data Platform.
 
 
-  Nexus One''s developer surface includes engineering blog and 15 more developer resources.'
+  Nexus One''s developer surface includes engineering blog and 16 more developer resources.'
 random_paper: 6
 score:
   band: emerging
@@ -162,8 +166,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: OAuth-protected Model Context Protocol server exposing Nowlun freight-forwarding capabilities to agents. Requires an access token holding the "mcp" scope.
@@ -102,7 +102,7 @@ modified: '2026-07-20'
 name: Nowlun
 nav: Providers
 network: true
-overview: 'Nowlun publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Logistics, Freight Forwarding, Shipping, and Supply Chain.
+overview: 'Nowlun is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Logistics, Freight Forwarding, Shipping, and Supply Chain.
 
 
   Nowlun''s developer surface includes authentication, signup flow, engineering blog, support, and 7 more developer resources.'
@@ -130,6 +130,11 @@ score:
     developer_ergonomics: 19.0
     discoverability: 68.3
     operational_transparency: 0.0
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - mena
   previous_composite: 16.9
   provenance:
     mcp: first-party
@@ -139,8 +144,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 25.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

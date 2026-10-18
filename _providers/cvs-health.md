@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: CVS Health does not publish a unified public REST API or developer portal. Pharmacy, PBM, and Aetna integrations are conducted via contracted partner channels using industry-standard rails such as NCP
@@ -41,6 +41,21 @@ apis:
   slug: partner-integrations
 artifact_total: 5
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/cvs-health/refs/heads/main/plans/cvs-health-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/cvs-health-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cvs-health/refs/heads/main/rate-limits/cvs-health-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/cvs-health-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/cvs-health/refs/heads/main/finops/cvs-health-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/cvs-health-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/cvs-health/refs/heads/main/security/cvs-health-domain-security.yml
   title: ''
@@ -117,16 +132,20 @@ common:
 created: '2026-03-21'
 description: CVS Health is a Fortune 50 healthcare services and retail pharmacy company. Its core operating units include CVS Pharmacy (retail pharmacy and mail-order), CVS Caremark (pharmacy benefit management / PBM), Aetna (health insurance, Medicare, Medicaid, dental and vision), MinuteClinic (walk-in clinics), Oak Street Health (primary care for Medicare patients), and Signify Health (in-home health evaluations). CVS Health does not currently operate a public developer portal or generally available REST API. Programmatic integrations with CVS Pharmacy, Caremark, and Aetna are typically established through business partnership agreements, EDI / NCPDP pharmacy networks, and HIPAA-aligned interoperability channels (e.g., FHIR endpoints exposed to qualifying healthcare partners under regulatory mandates such as the CMS Interoperability Rule). Developer-facing artifacts in this index are limited to public marketing, corporate, and digital health references.
 finops:
-- name: Cvs Health Finops
+- has_sources: true
+  method: generated
+  name: Cvs Health Finops
+  primary_unit: ''
   service_category: Healthcare
   slug: cvs-health-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cvs-health.png
 layout: provider
 modified: '2026-04-28'
 name: CVS Health
 nav: Providers
 network: true
-overview: CVS Health publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Aetna, Caremark, CVS Pharmacy, Digital Health, and FHIR.
+overview: CVS Health is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Aetna, Caremark, CVS Pharmacy, Digital Health, and FHIR.
 plans:
 - name: Cvs Health Plans Pricing
   plan_count: 2
@@ -154,17 +173,17 @@ rate_limits:
   slug: cvs-health-rate-limits
 score:
   band: minimal
-  composite: 8.3
+  composite: 6.8
   coverage:
-    artifact_dirs: 9
-    catalog_earned: 39.0
+    artifact_dirs: 10
+    catalog_earned: 36.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 76.0
+    catalog_gap: 79.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 13.2
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
@@ -177,8 +196,8 @@ score:
     regime: Health
     regime_id: health
     score: 4.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

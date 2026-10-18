@@ -30,20 +30,20 @@ agent_readiness:
     mcp_server: documented
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.9
-  scored_at: '2026-10-04'
+  score: 29.0
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 14
-  human_in_the_loop: 5
+- acting_count: 11
+  human_in_the_loop: 0
   name: Prometeo Agentic Access
-  operation_count: 26
+  operation_count: 28
   slug: prometeo-agentic-access
-  summary_line: 26 operations · 14 acting · 5 human-in-the-loop
+  summary_line: 28 operations · 11 acting
 api_count: 1
 apis:
 - description: Government / fiscal data access - Colombia DIAN, Mexico SAT and CEP (payment receipt), and Uruguay BCU (central bank) filings and statements. Sandbox host fiscal.sandbox.prometeoapi.com.
@@ -303,9 +303,13 @@ common:
 created: '2026-07-17'
 description: Prometeo is a LatAm-founded (Uruguay) fintech infrastructure company offering a single financial API over 7,500+ banking connections across the Americas. Products span banking data access, real-time account validation, cross-border pay-in / payout / FX, account-to-account payments, Mexican CURP identity, and fiscal data (DIAN / SAT / CEP / BCU). All products authenticate with an X-API-Key header and offer a mock-data sandbox.
 finops:
-- name: Prometeo Finops
+- has_sources: true
+  method: generated
+  name: Prometeo Finops
+  primary_unit: ''
   service_category: Financial Services
   slug: prometeo-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/prometeo.png
 layout: provider
 mcp_servers:
@@ -316,7 +320,7 @@ modified: '2026-07-17'
 name: Prometeo
 nav: Providers
 network: true
-overview: 'Prometeo publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Account Validation API, Banking API, Cross-Border API, and 3 more. Tagged areas include Open Banking, Payments, Fintech, Latin America, and Financial Data.
+overview: 'Prometeo publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account Validation API, Banking API, Cross-Border API, and 3 more. Tagged areas include Open Banking, Payments, Fintech, Latin America, and Financial Data.
 
 
   The Prometeo catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -334,22 +338,22 @@ rate_limits:
   slug: prometeo-rate-limits
 score:
   band: developing
-  composite: 51.1
+  composite: 45.1
   coverage:
-    artifact_dirs: 27
-    catalog_earned: 54.4
+    artifact_dirs: 28
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 60.6
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.0
   facets:
-    access_clarity: 53.2
+    access_clarity: 31.6
     contract_governance: 18.2
     contract_quality: 51.9
     developer_ergonomics: 64.9
     discoverability: 71.7
-    operational_transparency: 40.0
+    operational_transparency: 26.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
@@ -376,9 +380,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 25.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

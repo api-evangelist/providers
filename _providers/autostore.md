@@ -32,10 +32,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.autostoresystem.com/news
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.autostoresystem.com/news/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/autostore/refs/heads/main/security/autostore-domain-security.yml
   title: ''
@@ -61,18 +69,18 @@ created: '2026-07-17'
 description: AutoStore is a global warehouse robotics and technology company headquartered in Nedre Vats, Norway, that pioneered the cube storage automated storage and retrieval system (AS/RS). Its goods-to-person solution combines autonomous robots, an aluminum storage grid of stacked bins, workstation ports, and controlling software (marketed as CubeVerse, spanning design, simulation, operations, and predictive diagnostics) to fulfill orders in a fraction of the floor space of conventional warehouses. With more than 1,950 systems deployed across nearly 65 countries, AutoStore serves retail, grocery, 3PL, healthcare, and industrial customers. Systems are distributed, designed, installed, and serviced through a global network of qualified system integrators rather than a public developer/API program. AutoStore was surfaced as a portfolio company of SoftBank Vision Fund and added to the API Evangelist network.
 image: https://www.autostoresystem.com/favicon.ico
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: AutoStore
 nav: Providers
 network: true
 overview: 'AutoStore is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Logistics, Warehouse Automation, Robotics, and Supply Chain.
 
 
-  AutoStore''s developer surface includes engineering blog, support, and 3 more developer resources.'
+  AutoStore''s developer surface includes engineering blog, support, and 5 more developer resources.'
 random_paper: 8
 score:
   band: minimal
-  composite: 4.8
+  composite: 4.9
   coverage:
     artifact_dirs: 5
     catalog_earned: 27.0
@@ -80,7 +88,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
@@ -100,8 +108,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

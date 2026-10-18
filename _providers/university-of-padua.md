@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 5.0
-  scored_at: '2026-10-04'
+  score: 3.1
+  scored_at: '2026-10-17'
 api_count: 5
 apis:
 - description: PHAIDRA is the University of Padua Library System's digital-collections repository, holding the institution's digitised images, documents, books and video. The data, the objects and the persistent ide
@@ -53,6 +53,10 @@ apis:
   slug: shibboleth-idp
 artifact_total: 9
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.unipd.it/en/news
 - group: commercial
   title: ''
   type: License
@@ -139,19 +143,23 @@ created: '2026-06-03'
 description: 'The University of Padua (Università degli Studi di Padova) is a public research university in Padua, Italy, founded in 1222. It operates no central developer portal and publishes no institution-authored API contract: an "API first" programme exists internally, routed through the IUNGO integration infrastructure and a GovWay API gateway, but the catalogue of REST web services it promises is not public and access runs through a helpdesk ticket. What Padua does operate, and what this profile records, is protocol infrastructure rather than product APIs — four live OAI-PMH 2.0 endpoints on its own hosts (the IRIS research catalogue, the Research Data Unipd data archive, the theses archive, and PHAIDRA), and a Shibboleth Identity Provider publishing SAML 2.0 metadata into the IDEM GARR federation and eduGAIN. The one documented REST API on a Padua host, PHAIDRA''s, is the contract of the PHAIDRA open-source repository platform developed at the University of Vienna, not Padua engineering;
   it is recorded here as a deployment and its specification is deliberately not held under this slug. An institutional Open Data portal was announced in December 2024 but has not launched — no open-data host resolves. There is no institutional GitHub organisation; github.com/unipd exists but holds zero public repositories.'
 finops:
-- name: University Of Padua Finops
+- has_sources: true
+  method: generated
+  name: University Of Padua Finops
+  primary_unit: ''
   service_category: Education
   slug: university-of-padua-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/university-of-padua.png
 layout: provider
-modified: '2026-08-30'
+modified: '2026-10-06'
 name: University of Padua
 nav: Providers
 network: true
-overview: 'University of Padua publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include University, Higher Education, Education, Italy, and Europe.
+overview: 'University of Padua is listed with 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include University, Higher Education, Education, Italy, and Europe.
 
 
-  University of Padua''s developer surface includes authentication and 18 more developer resources.'
+  University of Padua''s developer surface includes engineering blog, authentication, and 18 more developer resources.'
 plans:
 - name: University Of Padua Plans Pricing
   plan_count: 2
@@ -162,23 +170,23 @@ rate_limits:
   name: University Of Padua Rate Limits
   slug: university-of-padua-rate-limits
 score:
-  band: thin
-  composite: 26.7
+  band: emerging
+  composite: 21.1
   coverage:
     artifact_dirs: 8
-    catalog_earned: 57.4
+    catalog_earned: 44.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.6
+    catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -2.9
+  delta: -5.6
   facets:
-    access_clarity: 40.0
+    access_clarity: 18.4
     contract_governance: 18.2
     contract_quality: 4.4
-    developer_ergonomics: 21.4
+    developer_ergonomics: 23.8
     discoverability: 71.4
-    operational_transparency: 24.2
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -187,7 +195,7 @@ score:
     regions:
     - europe
     - italy-southern-europe
-  previous_composite: 29.6
+  previous_composite: 26.7
   provenance:
     conformance: first-party
   regulatory:
@@ -196,9 +204,9 @@ score:
     regime: Education & Research
     regime_id: education
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

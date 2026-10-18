@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.beyondreachlabs.com/news/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/beyond-reach-labs/refs/heads/main/security/beyond-reach-labs-domain-security.yml
   title: ''
@@ -57,28 +61,31 @@ created: '2026-07-17'
 description: Beyond Reach Labs is a Brooklyn, New York aerospace company building deployable solar arrays and thermal radiators for spacecraft that expand from compact launch sizes to enormous structures in orbit. Its patented geometry-changing panels grow from the size of a dining table to a football field once deployed, giving satellites, orbital data centers, commercial space stations, and lunar outposts up to 10x more usable power without adding launch mass or volume. Founded by two aerospace engineers, the company is targeting its first in-space demonstration in Q2 2027 and is a Y Combinator portfolio company. Beyond Reach Labs is a hardware manufacturer and does not currently publish a public API or developer program.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/beyond-reach-labs.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Beyond Reach Labs
 nav: Providers
 network: true
-overview: Beyond Reach Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Aerospace, Space Technology, Spacecraft, and Solar Arrays.
+overview: 'Beyond Reach Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Aerospace, Space Technology, Spacecraft, and Solar Arrays.
+
+
+  Beyond Reach Labs'' developer surface includes engineering blog and 4 more developer resources.'
 random_paper: 14
 score:
   band: minimal
-  composite: 3.6
+  composite: 4.1
   coverage:
-    artifact_dirs: 2
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 48.2
     operational_transparency: 0.0
   previous_composite: 3.6
@@ -88,13 +95,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 4.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/beyond-reach-labs/refs/heads/main/screenshots/beyond-reach-labs-2026-10-11T102059.png
 security:
 - kind: domain-security
   name: Beyond Reach Labs Domain Security

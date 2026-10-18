@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Bugcrowd API for interacting and tracking the reported issues programmatically
@@ -75,7 +75,7 @@ modified: '2026-05-28'
 name: Bugcrowd
 nav: Providers
 network: true
-overview: 'Bugcrowd publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Security, Public APIs, Cybersecurity, Vulnerability Management, and Bug Bounty.
+overview: 'Bugcrowd is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Security, Public APIs, Cybersecurity, Vulnerability Management, and Bug Bounty.
 
 
   Bugcrowd''s developer surface includes engineering blog and 5 more developer resources.'
@@ -84,7 +84,7 @@ score:
   band: minimal
   composite: 9.7
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -105,8 +105,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

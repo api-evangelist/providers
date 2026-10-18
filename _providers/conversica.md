@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -252,7 +252,7 @@ modified: '2026-09-16'
 name: Conversica
 nav: Providers
 network: true
-overview: 'Conversica publishes 2 APIs on the [APIs.io](https://apis.io/) network: Integrations API and Leads API. Tagged areas include Company, Artificial Intelligence, Conversational AI, AI Agents, and Sales.
+overview: 'Conversica publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Integrations API and Leads API. Tagged areas include Company, Artificial Intelligence, Conversational AI, AI Agents, and Sales.
 
 
   The Conversica catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -272,7 +272,7 @@ score:
   band: developing
   composite: 40.2
   coverage:
-    artifact_dirs: 26
+    artifact_dirs: 27
     catalog_earned: 42.0
     catalog_earned_first_party: 5.0
     catalog_gap: 73.0
@@ -303,8 +303,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 32.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

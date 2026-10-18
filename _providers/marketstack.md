@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://api.marketstack.com/v2
@@ -260,7 +260,7 @@ modified: '2026-07-22'
 name: Marketstack
 nav: Providers
 network: true
-overview: 'Marketstack publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Bonds API, Commodities API, Company Ratings API, and 12 more. Tagged areas include Finance, Stock Market, Market Data, End-of-Day Data, and Intraday Data.
+overview: 'Marketstack publishes 15 API contracts indexed on the [APIs.io](https://apis.io/) network, including Bonds API, Commodities API, Company Ratings API, and 12 more. Tagged areas include Finance, Stock Market, Market Data, End-of-Day Data, and Intraday Data.
 
 
   Marketstack''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, engineering blog, and 22 more developer resources.'
@@ -307,8 +307,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.3
-  scored_at: '2026-10-04'
+  score: 20.4
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -84,6 +84,21 @@ collections:
   name: Blast Network JSON-RPC
   slug: open-blast-network
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/blast-network/refs/heads/main/plans/blast-network-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/blast-network-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/blast-network/refs/heads/main/rate-limits/blast-network-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/blast-network-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/blast-network/refs/heads/main/finops/blast-network-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/blast-network-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/blast-network/refs/heads/main/agentic-access/blast-network-agentic-access.yml
   title: ''
@@ -162,19 +177,23 @@ common:
 created: '2026-05-23'
 description: Blast is an Ethereum Layer 2 network (OP Stack-derived, post-Pacific Meridian upgrade) that pays native yield on bridged ETH and stablecoins via auto- rebasing tokens — roughly 4% on ETH (from Ethereum staking) and 5% on USDB (from T-Bill protocols) — and programmatically returns a share of net gas revenue to dApps. Mainnet runs at chain ID 81457 with public JSON-RPC at rpc.blast.io and a Sepolia testnet at chain ID 168587773 / sepolia.blast.io. Developer surfaces include Blastscan and Sepolia Blastscan explorers, the native bridge, USDB stablecoin, and the gas / yield smart contracts.
 finops:
-- name: Blast Network Finops
+- has_sources: false
+  method: generated
+  name: Blast Network Finops
+  primary_unit: ''
   service_category: API
   slug: blast-network-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/blast-network.png
 layout: provider
 modified: '2026-05-23'
 name: Blast
 nav: Providers
 network: true
-overview: 'Blast publishes 9 APIs on the [APIs.io](https://apis.io/) network, including JSON-RPC API, and 8 more. Tagged areas include Blockchain, Layer 2, Ethereum, EVM, and Native Yield.
+overview: 'Blast publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including JSON-RPC API, and 8 more. Tagged areas include Blockchain, Layer 2, Ethereum, EVM, and Native Yield.
 
 
-  Blast''s developer surface includes documentation, getting-started guide, API reference, engineering blog, GitHub presence, status page, and 12 more developer resources.'
+  Blast''s developer surface includes documentation, getting-started guide, API reference, engineering blog, GitHub presence, status page, and 15 more developer resources.'
 plans:
 - name: Blast Network Plans Pricing
   plan_count: 1
@@ -186,22 +205,22 @@ rate_limits:
   slug: blast-network-rate-limits
 score:
   band: thin
-  composite: 33.5
+  composite: 27.5
   coverage:
     artifact_dirs: 11
-    catalog_earned: 54.4
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 60.6
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.0
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 47.1
     developer_ergonomics: 35.7
     discoverability: 73.2
-    operational_transparency: 24.2
+    operational_transparency: 10.5
   previous_composite: 33.5
   provenance:
     agentic_access: derived
@@ -216,9 +235,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

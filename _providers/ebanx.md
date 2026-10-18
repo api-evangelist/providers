@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: verified
     openapi_examples: documented
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.5
-  scored_at: '2026-10-04'
+  score: 30.6
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 29
+- acting_count: 18
   human_in_the_loop: 0
   name: Ebanx Agentic Access
   operation_count: 29
   slug: ebanx-agentic-access
-  summary_line: 29 operations · 29 acting
+  summary_line: 29 operations · 18 acting
 api_count: 3
 apis:
 - baseURL: https://api.ebanxpay.com
@@ -107,6 +107,25 @@ collections:
   name: EBANX FX Tokenization API
   slug: open-ebanx-tokenization-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/ebanx/refs/heads/main/plans/ebanx-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/ebanx-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/ebanx/refs/heads/main/rate-limits/ebanx-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/ebanx-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/ebanx/refs/heads/main/finops/ebanx-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/ebanx-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.ebanx.com/en/insights/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/ebanx/refs/heads/main/capabilities/ebanx-capability-edges.yml
   title: ''
@@ -152,9 +171,13 @@ examples:
   name: Ebanx Payment Notification Example
   slug: ebanx-payment-notification-example
 finops:
-- name: Ebanx Finops
+- has_sources: false
+  method: generated
+  name: Ebanx Finops
+  primary_unit: ''
   service_category: ''
   slug: ebanx-finops
+  template: true
 image: https://www.ebanx.com/static/images/ebanx-symbol-yellow.svg
 json_schemas:
 - name: EBANX Card Token
@@ -186,17 +209,17 @@ mcp_servers:
 - description: Remote MCP server at mcp.ebanx.com over HTTP; 2 tools listed.
   name: EBANX MCP Server
   slug: ebanx
-modified: '2026-09-16'
+modified: '2026-10-06'
 name: EBANX
 nav: Providers
 network: true
-overview: 'EBANX publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Tokenization API, FX API, Payment Notifications, and 3 more. Tagged areas include Payments, Pay-In, Payouts, Foreign Exchange, and Tokenization.
+overview: 'EBANX publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Tokenization API, FX API, Payment Notifications, and 3 more. Tagged areas include Payments, Pay-In, Payouts, Foreign Exchange, and Tokenization.
 
 
   The EBANX catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  EBANX''s developer surface includes authentication and 5 more developer resources.'
+  EBANX''s developer surface includes engineering blog, authentication, and 8 more developer resources.'
 plans:
 - name: Ebanx Plans Pricing
   plan_count: 2
@@ -207,10 +230,11 @@ rate_limits:
   name: Ebanx Rate Limits
   slug: ebanx-rate-limits
 rules:
-- effective_rule_count: 33
+- authorship: generated
+  effective_rule_count: 33
   extends:
   - spectral:asyncapi
-  name: EBANX API Rules
+  name: EBANX — asyncapi rules
   rule_count: 6
   severity_counts:
     error: 1
@@ -218,9 +242,10 @@ rules:
     info: 0
     warn: 5
   slug: ebanx-asyncapi-spectral-rules
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: EBANX API Rules
+  name: EBANX — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -228,7 +253,8 @@ rules:
     info: 1
     warn: 4
   slug: ebanx-jsonschema-spectral-rules
-- effective_rule_count: 50
+- authorship: unmarked
+  effective_rule_count: 50
   extends:
   - spectral:oas
   name: EBANX API Rules
@@ -240,23 +266,23 @@ rules:
     warn: 4
   slug: ebanx-rules
 score:
-  band: developing
-  composite: 41.2
+  band: thin
+  composite: 34.7
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 77.5
+    artifact_dirs: 21
+    catalog_earned: 61.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 37.5
+    catalog_gap: 53.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.5
   facets:
-    access_clarity: 34.7
+    access_clarity: 13.2
     contract_governance: 13.6
     contract_quality: 67.6
-    developer_ergonomics: 28.6
+    developer_ergonomics: 31.0
     discoverability: 65.0
-    operational_transparency: 28.4
+    operational_transparency: 7.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
@@ -277,9 +303,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 23.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

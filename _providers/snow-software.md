@@ -30,13 +30,13 @@ agent_readiness:
     mcp_server: verified
     openapi_examples: partial
     protected_resource_metadata: verified
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 48.6
-  scored_at: '2026-10-04'
+  score: 46.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 1
@@ -309,6 +309,21 @@ collections:
   name: 'SAM: Computers Applications Upgrades API'
   slug: open-snow-software-upgrades-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/snow-software/refs/heads/main/plans/snow-software-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/snow-software-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/snow-software/refs/heads/main/rate-limits/snow-software-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/snow-software-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/snow-software/refs/heads/main/finops/snow-software-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/snow-software-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/snow-software/refs/heads/main/capabilities/snow-software-capability-edges.yml
   title: ''
@@ -372,9 +387,13 @@ examples:
   name: Snow Software Get Saas Applications Example
   slug: snow-software-get-saas-applications-example
 finops:
-- name: Snow Software Finops
+- has_sources: true
+  method: generated
+  name: Snow Software Finops
+  primary_unit: ''
   service_category: Software Asset Management
   slug: snow-software-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/snow-software.png
 json_schemas:
 - name: Snow Atlas Software License
@@ -401,13 +420,13 @@ modified: '2026-05-19'
 name: Snow Software
 nav: Providers
 network: true
-overview: 'Snow Software publishes 31 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Assignments API, Compliance API, and 28 more. Tagged areas include Cloud License Management, FinOps, IT Asset Management, SaaS Management, and Software Asset Management.
+overview: 'Snow Software publishes 31 API contracts indexed on the [APIs.io](https://apis.io/) network, including Applications API, Assignments API, Compliance API, and 28 more. Tagged areas include Cloud License Management, FinOps, IT Asset Management, SaaS Management, and Software Asset Management.
 
 
   The Snow Software catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Snow Software''s developer surface includes authentication, documentation, engineering blog, support, and 9 more developer resources.'
+  Snow Software''s developer surface includes authentication, documentation, engineering blog, support, and 12 more developer resources.'
 plans:
 - name: Snow Software Plans Pricing
   plan_count: 1
@@ -418,9 +437,10 @@ rate_limits:
   name: Snow Software Rate Limits
   slug: snow-software-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Snow Software API Rules
+  name: Snow Software — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -428,7 +448,8 @@ rules:
     info: 2
     warn: 3
   slug: snow-software-jsonschema-spectral-rules
-- effective_rule_count: 50
+- authorship: unmarked
+  effective_rule_count: 50
   extends:
   - spectral:oas
   name: Snow Software API Rules
@@ -441,17 +462,17 @@ rules:
   slug: snow-software-rules
 score:
   band: thin
-  composite: 37.8
+  composite: 36.3
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 57.5
+    artifact_dirs: 20
+    catalog_earned: 54.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.5
+    catalog_gap: 60.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 19.7
+    access_clarity: 11.8
     contract_governance: 13.6
     contract_quality: 61.4
     developer_ergonomics: 35.7
@@ -472,8 +493,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

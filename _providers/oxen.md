@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 22
@@ -139,7 +139,7 @@ apis:
   description: The Workspaces API from Oxen — 5 operation(s) for workspaces.
   name: Oxen Workspaces API
   slug: oxen-workspaces-api
-artifact_total: 42
+artifact_total: 43
 collections:
 - collection_type: open
   name: API Collection
@@ -202,6 +202,11 @@ collections:
   name: oxen Ai Workspaces API
   slug: open-oxen-workspaces-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/oxen/refs/heads/main/plans/oxen-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/oxen-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/oxen/refs/heads/main/capabilities/oxen-capability-edges.yml
   title: ''
@@ -350,24 +355,28 @@ modified: '2026-07-20'
 name: Oxen
 nav: Providers
 network: true
-overview: 'Oxen publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Ai API, Branches API, Commits API, and 16 more. Tagged areas include Company, Data Version Control, Machine Learning, Artificial Intelligence, and Fine-Tuning.
+overview: 'Oxen publishes 19 API contracts indexed on the [APIs.io](https://apis.io/) network, including Ai API, Branches API, Commits API, and 16 more. Tagged areas include Company, Data Version Control, Machine Learning, Artificial Intelligence, and Fine-Tuning.
 
 
-  Oxen''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 24 more developer resources.'
+  Oxen''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 25 more developer resources.'
+plans:
+- name: Oxen Plans Pricing
+  plan_count: 12
+  slug: oxen-plans-pricing
 random_paper: 2
 score:
-  band: thin
-  composite: 36.7
+  band: developing
+  composite: 43.1
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 24
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.4
   facets:
-    access_clarity: 6.6
+    access_clarity: 38.2
     contract_governance: 4.5
     contract_quality: 50.5
     developer_ergonomics: 66.1
@@ -390,9 +399,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

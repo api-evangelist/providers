@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 55.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://api.withallo.com
@@ -317,7 +317,7 @@ modified: '2026-07-21'
 name: The Mobile First Company
 nav: Providers
 network: true
-overview: 'The Mobile First Company publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Calls API, Contacts API, and 10 more. Tagged areas include Company, Communications, Telephony, Voice, and SMS.
+overview: 'The Mobile First Company publishes 13 API contracts indexed on the [APIs.io](https://apis.io/) network, including Analytics API, Calls API, Contacts API, and 10 more. Tagged areas include Company, Communications, Telephony, Voice, and SMS.
 
 
   The The Mobile First Company catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -345,7 +345,7 @@ score:
   band: strong
   composite: 62.0
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 57.0
     catalog_earned_first_party: 20.0
     catalog_gap: 58.0
@@ -375,8 +375,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 32.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

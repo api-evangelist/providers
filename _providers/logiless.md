@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://app2.logiless.com/api/v1
@@ -249,7 +249,7 @@ modified: '2026-07-20'
 name: Logiless
 nav: Providers
 network: true
-overview: 'Logiless publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Articles API, Inbound Deliveries API, Inter-Warehouse Transfers API, and 6 more. Tagged areas include Logistics, E-Commerce, Order Management, Warehouse Management, and Inventory.
+overview: 'Logiless publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Articles API, Inbound Deliveries API, Inter-Warehouse Transfers API, and 6 more. Tagged areas include Logistics, E-Commerce, Order Management, Warehouse Management, and Inventory.
 
 
   Logiless'' developer surface includes authentication, changelog, documentation, API reference, getting-started guide, support, engineering blog, and 21 more developer resources.'
@@ -267,7 +267,7 @@ score:
   band: thin
   composite: 38.4
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
@@ -304,8 +304,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

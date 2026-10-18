@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 3
 common:
@@ -119,7 +119,7 @@ modified: '2026-07-21'
 name: Sling Money
 nav: Providers
 network: true
-overview: 'Sling Money is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto, Stablecoins, Payments, and Money Transfer.
+overview: 'Sling Money is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cryptocurrency, Stablecoins, Payments, and Money Transfer.
 
 
   Sling Money''s developer surface includes engineering blog, support, pricing, and 14 more developer resources.'
@@ -151,8 +151,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -175,7 +175,7 @@ security:
 slug: sling-money
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Stablecoins
 - Payments
 - Money Transfer

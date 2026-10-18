@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 34
   slug: opsmill-agentic-access
   summary_line: 34 operations · 10 acting
-api_count: 1
+api_count: 2
 apis:
 - description: The GraphQL API is Infrahub's primary interface, auto-generated from core and user-defined schema models, supporting branch-aware queries, time-travel (global branch), mutations, and subscriptions. En
   name: Infrahub GraphQL API
@@ -173,6 +173,10 @@ collections:
   name: Infrahub Artifact Transform API
   slug: open-opsmill-transform-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://opsmill.com/feed/
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/opsmill/refs/heads/main/agentic-access/opsmill-agentic-access.yml
   title: ''
@@ -313,26 +317,26 @@ mcp_servers:
 - description: Local (stdio) MCP server; 12 tools listed.
   name: OpsMill MCP Server
   slug: infrahub-mcp
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: OpsMill
 nav: Providers
 network: true
-overview: 'OpsMill publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Artifact API, Auth API, Config API, and 13 more. Tagged areas include Company, Infrastructure Saas, Network Automation, Source of Truth, and Data Management.
+overview: 'OpsMill publishes 16 API contracts indexed on the [APIs.io](https://apis.io/) network, including Artifact API, Auth API, Config API, and 13 more. Tagged areas include Company, Infrastructure Saas, Network Automation, Source of Truth, and Data Management.
 
 
-  OpsMill''s developer surface includes authentication, documentation, API reference, getting-started guide, sandbox, engineering blog, support, and 22 more developer resources.'
+  OpsMill''s developer surface includes authentication, documentation, API reference, getting-started guide, sandbox, engineering blog, support, and 23 more developer resources.'
 random_paper: 20
 score:
   band: developing
-  composite: 45.6
+  composite: 45.7
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 44.7
     contract_governance: 4.5
@@ -357,8 +361,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

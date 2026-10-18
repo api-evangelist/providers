@@ -28,6 +28,6 @@ tags:
 - Esports
 - Streaming
 - Blockchain
-- Crypto
+- Cryptocurrency
 - Rewards
 ---

@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://app.hubbleprotocol.io/blog/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/hubble-protocol/refs/heads/main/security/hubble-protocol-domain-security.yml
   title: ''
@@ -98,31 +102,31 @@ created: '2026-07-17'
 description: Hubble Protocol is a Solana-based decentralized finance (DeFi) protocol that lets users borrow the USDH stablecoin against multiple crypto collateral assets (SOL, mSOL, stSOL, ETH, BTC and more) with interest-free, fixed-fee loans held open for unlimited time. The protocol pairs a Stability Vault, a Peg Stability Module, a hybrid liquidation model, and native yield on deposited collateral. Developers integrate with Hubble on-chain through its Anchor programs (IDLs published on GitHub) and the open-source "@hubbleprotocol/hubble-sdk" TypeScript client, which exposes borrowing market states, HBB staking and USDH stability-pool data, user loans, treasury and circulating-supply metrics, and peg-stability swaps. Hubble published security audits (Arcadia, Kudelski, Smart State, Sec3) and runs a funded bug-bounty program; its core contributors later built Kamino Finance.
 image: https://app.hubbleprotocol.io/Hubble-URL-Banner.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Hubble Protocol
 nav: Providers
 network: true
-overview: 'Hubble Protocol is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto Web3, DeFi, Solana, and Stablecoins.
+overview: 'Hubble Protocol is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Web3, DeFi, Solana, and Stablecoins.
 
 
-  Hubble Protocol''s developer surface includes documentation, getting-started guide, API reference, support, and 9 more developer resources.'
+  Hubble Protocol''s developer surface includes engineering blog, documentation, getting-started guide, API reference, support, and 9 more developer resources.'
 random_paper: 13
 score:
   band: emerging
-  composite: 15.7
+  composite: 16.3
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 45.2
+    developer_ergonomics: 47.6
     discoverability: 55.4
     operational_transparency: 13.2
   previous_composite: 15.7
@@ -132,8 +136,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -152,7 +156,7 @@ security:
 slug: hubble-protocol
 tags:
 - Company
-- Crypto Web3
+- Web3
 - DeFi
 - Solana
 - Stablecoins
@@ -160,7 +164,6 @@ tags:
 - Borrowing
 - Blockchain
 - SDK
-- Web3
 - Cryptocurrency
 website: https://hubbleprotocol.io
 ---

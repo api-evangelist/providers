@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: unknown
@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 5.8
-  scored_at: '2026-10-04'
+  score: 3.9
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: Programmatic access to the TypeScript compiler. The Compiler API allows developers to parse TypeScript files into ASTs, perform type checking, emit JavaScript, and transform code programmatically.
@@ -47,6 +47,21 @@ apis:
   slug: typescript-transform-api
 artifact_total: 13
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/typescript/refs/heads/main/plans/typescript-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/typescript-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/typescript/refs/heads/main/rate-limits/typescript-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/typescript-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/typescript/refs/heads/main/finops/typescript-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/typescript-finops.yml
 - group: company
   title: ''
   type: LinkedIn
@@ -172,9 +187,13 @@ common:
 created: '2024-01-01'
 description: TypeScript is a strongly typed programming language that builds on JavaScript, adding optional static type checking and other features. Developed and maintained by Microsoft, TypeScript compiles to plain JavaScript and is widely used for large-scale web applications, Node.js services, and developer tooling. The TypeScript Compiler API and Language Service API enable programmatic compilation, type checking, code transformation, and IDE integrations.
 finops:
-- name: Typescript Finops
+- has_sources: false
+  method: generated
+  name: Typescript Finops
+  primary_unit: ''
   service_category: API
   slug: typescript-finops
+  template: true
 image: https://www.typescriptlang.org/favicon-32x32.png
 json_schemas:
 - name: TypeScript Compiler Options
@@ -197,13 +216,13 @@ modified: '2026-05-19'
 name: TypeScript
 nav: Providers
 network: true
-overview: 'TypeScript publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Compilers, JavaScript, Language Service, Programming Language, and Static Typing.
+overview: 'TypeScript is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Compilers, JavaScript, Language Service, Programming Language, and Static Typing.
 
 
   The TypeScript catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  TypeScript''s developer surface includes developer portal, getting-started guide, support, documentation, engineering blog, release notes, and 23 more developer resources.'
+  TypeScript''s developer surface includes developer portal, getting-started guide, support, documentation, engineering blog, release notes, and 26 more developer resources.'
 plans:
 - name: Typescript Plans Pricing
   plan_count: 3
@@ -214,9 +233,10 @@ rate_limits:
   name: Typescript Rate Limits
   slug: typescript-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: TypeScript API Rules
+  name: TypeScript — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -226,17 +246,17 @@ rules:
   slug: typescript-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 43.4
+  composite: 42.1
   coverage:
     artifact_dirs: 13
-    catalog_earned: 62.8
+    catalog_earned: 59.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 52.3
+    catalog_gap: 55.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.3
   facets:
-    access_clarity: 36.8
+    access_clarity: 28.9
     contract_governance: 23.5
     contract_quality: 14.7
     developer_ergonomics: 55.2
@@ -252,8 +272,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.8
-  scored_at: '2026-10-04'
+  score: 22.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -174,9 +174,13 @@ examples:
   name: V2 Real Time Feedback List
   slug: v2-real-time-feedback-list
 finops:
-- name: Reflektive Finops
+- has_sources: false
+  method: generated
+  name: Reflektive Finops
+  primary_unit: ''
   service_category: ''
   slug: reflektive-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/reflektive.png
 json_schemas:
 - name: Employee
@@ -201,7 +205,7 @@ modified: '2026-06-13'
 name: Reflektive
 nav: Providers
 network: true
-overview: 'Reflektive publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Real-time Feedback (v1) API, Real-time Feedback (v2) API, Reports API, and 1 more. Tagged areas include Performance Management, Human Resources, Employee Feedback, Goal Tracking, and Engagement Surveys.
+overview: 'Reflektive publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Real-time Feedback (v1) API, Real-time Feedback (v2) API, Reports API, and 1 more. Tagged areas include Performance Management, Human Resources, Employee Feedback, Goal Tracking, and Engagement Surveys.
 
 
   The Reflektive catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -218,9 +222,10 @@ rate_limits:
   name: Reflektive Rate Limits
   slug: reflektive-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Reflektive API Rules
+  name: Reflektive — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -229,23 +234,23 @@ rules:
     warn: 4
   slug: reflektive-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 46.2
+  band: thin
+  composite: 39.2
   coverage:
     artifact_dirs: 17
-    catalog_earned: 85.8
+    catalog_earned: 69.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 29.3
+    catalog_gap: 45.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.0
   facets:
-    access_clarity: 45.3
+    access_clarity: 23.7
     contract_governance: 23.5
     contract_quality: 67.2
     developer_ergonomics: 23.8
     discoverability: 66.1
-    operational_transparency: 49.5
+    operational_transparency: 28.9
   previous_composite: 46.2
   provenance:
     agentic_access: derived
@@ -260,9 +265,9 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 21.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

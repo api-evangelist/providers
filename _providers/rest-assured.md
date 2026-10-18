@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 3.8
-  scored_at: '2026-10-04'
+  score: 1.9
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: REST Assured is a Java DSL library for testing and validating RESTful APIs using a fluent, BDD-style syntax with given-when-then patterns. It supports HTTP methods, JSON/XML validation, authentication
@@ -41,6 +41,21 @@ apis:
   slug: rest-assured
 artifact_total: 12
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/rest-assured/refs/heads/main/plans/rest-assured-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/rest-assured-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/rest-assured/refs/heads/main/rate-limits/rest-assured-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/rest-assured-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/rest-assured/refs/heads/main/finops/rest-assured-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/rest-assured-finops.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -92,9 +107,13 @@ examples:
   name: Rest Assured Post User Example
   slug: rest-assured-post-user-example
 finops:
-- name: Rest Assured Finops
+- has_sources: false
+  method: generated
+  name: Rest Assured Finops
+  primary_unit: ''
   service_category: API
   slug: rest-assured-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rest-assured.png
 json_schemas:
 - name: REST Assured Request Specification
@@ -117,13 +136,13 @@ modified: '2026-05-02'
 name: REST Assured
 nav: Providers
 network: true
-overview: 'REST Assured publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Functional Testing, Testing, Java, API Testing, and Automation.
+overview: 'REST Assured is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Functional Testing, Testing, Java, API Testing, and Automation.
 
 
   The REST Assured catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  REST Assured''s developer surface includes documentation, support, and 8 more developer resources.'
+  REST Assured''s developer surface includes documentation, support, and 11 more developer resources.'
 plans:
 - name: Rest Assured Plans Pricing
   plan_count: 3
@@ -134,9 +153,10 @@ rate_limits:
   name: Rest Assured Rate Limits
   slug: rest-assured-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: REST Assured API Rules
+  name: REST Assured — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -146,17 +166,17 @@ rules:
   slug: rest-assured-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 28.9
+  composite: 27.6
   coverage:
     artifact_dirs: 13
-    catalog_earned: 68.8
+    catalog_earned: 65.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 46.3
+    catalog_gap: 49.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.3
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 23.5
     contract_quality: 33.2
     developer_ergonomics: 21.4
@@ -172,8 +192,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

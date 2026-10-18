@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://culdesac.com/news/
 - group: company
   title: ''
   type: Website
@@ -77,31 +81,31 @@ created: '2026-07-17'
 description: Culdesac is a post-car real estate development company building walkable, car-free neighborhoods in the United States. Its first project, Culdesac Tempe in Tempe, Arizona, broke ground in 2019 and welcomed its first residents in 2021 — a 16-acre, roughly $140 million development of 636 apartment units plus 24,000 square feet of restaurant and retail space, designed with no resident parking. Residents receive transportation benefits such as free light-rail rides and discounted rideshare and scooter access in place of car ownership. Culdesac operates leasing, tours, and resident services through its website and HubSpot-backed portals, and intends to replicate the car-free neighborhood model in other cities. It was surfaced as a portfolio company of Initialized Capital and added to the API Evangelist network. Culdesac publishes no public developer API; this profile captures the company identity and domain-security posture.
 image: https://culdesac.com/favicon.ico
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Culdesac
 nav: Providers
 network: true
 overview: 'Culdesac is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real Estate, Real Estate Development, Housing, and Urban Planning.
 
 
-  Culdesac''s developer surface includes signup flow, support, and 7 more developer resources.'
+  Culdesac''s developer surface includes engineering blog, signup flow, support, and 7 more developer resources.'
 random_paper: 0
 score:
   band: minimal
-  composite: 4.3
+  composite: 4.9
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 4.8
+    developer_ergonomics: 7.1
     discoverability: 48.2
     operational_transparency: 0.0
   previous_composite: 4.3
@@ -111,8 +115,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

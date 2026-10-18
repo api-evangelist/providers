@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 89
   human_in_the_loop: 0
@@ -269,6 +269,16 @@ collections:
   name: Webflow Webhooks API
   slug: open-webflow-webhooks
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/webflow-api-and-documentation-webflow/refs/heads/main/plans/webflow-api-and-documentation-webflow-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/webflow-api-and-documentation-webflow-plans-pricing.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/webflow-api-and-documentation-webflow/refs/heads/main/finops/webflow-api-and-documentation-webflow-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/webflow-api-and-documentation-webflow-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/webflow-api-and-documentation-webflow/refs/heads/main/capabilities/webflow-api-and-documentation-webflow-capability-edges.yml
   title: ''
@@ -788,9 +798,13 @@ features:
 - description: Manage multiple Webflow sites across workspaces from a single API key.
   name: Multisite Support
 finops:
-- name: Webflow Api And Documentation Webflow Finops
+- has_sources: true
+  method: generated
+  name: Webflow Api And Documentation Webflow Finops
+  primary_unit: ''
   service_category: Web Publishing / CMS
   slug: webflow-api-and-documentation-webflow-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/webflow-api-and-documentation-webflow.png
 json_schemas:
 - name: Webflow Collection Item
@@ -831,13 +845,13 @@ modified: '2026-05-19'
 name: Webflow API and Documentation
 nav: Providers
 network: true
-overview: 'Webflow API and Documentation publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Asset Folders API, Assets API, Collections API, and 16 more. Tagged areas include CMS, Content Management, E-Commerce, No-Code, and Publishing.
+overview: 'Webflow API and Documentation publishes 19 API contracts indexed on the [APIs.io](https://apis.io/) network, including Asset Folders API, Assets API, Collections API, and 16 more. Tagged areas include CMS, Content Management, E-Commerce, No-Code, and Publishing.
 
 
   The Webflow API and Documentation catalog on APIs.io includes 1 JSON-LD context and 3 Spectral governance rulesets.
 
 
-  Webflow API and Documentation''s developer surface includes authentication, developer portal, getting-started guide, changelog, engineering blog, support, academy / training, and 31 more developer resources.'
+  Webflow API and Documentation''s developer surface includes authentication, developer portal, getting-started guide, changelog, engineering blog, support, academy / training, and 33 more developer resources.'
 plans:
 - name: Webflow Api And Documentation Webflow Plans Pricing
   plan_count: 5
@@ -848,9 +862,10 @@ rate_limits:
   name: Webflow Api And Documentation Webflow Rate Limits
   slug: webflow-api-and-documentation-webflow-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Webflow API and Documentation API Rules
+  name: Webflow API and Documentation — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -858,7 +873,8 @@ rules:
     info: 2
     warn: 3
   slug: webflow-api-and-documentation-webflow-jsonschema-spectral-rules
-- effective_rule_count: 53
+- authorship: generated
+  effective_rule_count: 53
   extends:
   - spectral:oas
   name: Webflow API and Documentation API Rules
@@ -869,9 +885,10 @@ rules:
     info: 1
     warn: 10
   slug: webflow-api-and-documentation-webflow-spectral-rules
-- effective_rule_count: 26
+- authorship: unmarked
+  effective_rule_count: 26
   extends: []
-  name: Webflow API and Documentation API Rules
+  name: Webflow API and Documentation — webflow rules
   rule_count: 26
   severity_counts:
     error: 8
@@ -886,23 +903,23 @@ scopes:
   summary_line: 29 scopes · authorizationCode
 score:
   band: strong
-  composite: 56.0
+  composite: 54.5
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 70.0
+    artifact_dirs: 23
+    catalog_earned: 67.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 45.0
+    catalog_gap: 48.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 2.5
+  delta: -1.5
   facets:
-    access_clarity: 44.7
+    access_clarity: 36.8
     contract_governance: 27.3
     contract_quality: 62.4
     developer_ergonomics: 58.3
     discoverability: 69.6
     operational_transparency: 44.7
-  previous_composite: 53.5
+  previous_composite: 56.0
   provenance:
     agentic_access: derived
     contracts:
@@ -916,8 +933,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 4
 apis:
 - baseURL: https://quickbooks.api.intuit.com/v3/company
@@ -108,7 +108,7 @@ modified: '2026-05-30'
 name: QuickBooks
 nav: Providers
 network: true
-overview: 'QuickBooks publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Online Accounting API, and 3 more. Tagged areas include Accounting, Bookkeeping, Small Business, Finance, and Invoicing.
+overview: 'QuickBooks is listed with 4 APIs on the [APIs.io](https://apis.io/) network, including Online Accounting API, and 3 more. Tagged areas include Accounting, Bookkeeping, Small Business, Finance, and Invoicing.
 
 
   The QuickBooks catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -117,10 +117,11 @@ overview: 'QuickBooks publishes 4 APIs on the [APIs.io](https://apis.io/) networ
   QuickBooks'' developer surface includes documentation, API reference, signup flow, pricing, and 6 more developer resources.'
 random_paper: 5
 rules:
-- effective_rule_count: 30
+- authorship: generated
+  effective_rule_count: 30
   extends:
   - spectral:asyncapi
-  name: QuickBooks API Rules
+  name: QuickBooks — asyncapi rules
   rule_count: 3
   severity_counts:
     error: 1
@@ -132,13 +133,13 @@ score:
   band: thin
   composite: 34.2
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 44.5
     catalog_earned_first_party: 0.0
     catalog_gap: 70.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 23.7
     contract_governance: 13.6
@@ -146,15 +147,15 @@ score:
     developer_ergonomics: 57.1
     discoverability: 70.0
     operational_transparency: 2.6
-  previous_composite: 34.8
+  previous_composite: 34.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -32,10 +32,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://vial.com/updates/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://vial.com/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/vial/refs/heads/main/security/vial-domain-security.yml
   title: ''
@@ -53,28 +61,31 @@ created: '2026-07-17'
 description: Vial is a next-generation biotech company advancing first and best-in-class biologics to treat unmet need in Immunology and Inflammation. The company pairs AI-driven drug discovery with automated, technology-enabled clinical trials, working across target discovery (identifying high-value therapeutic targets), molecule design (generating and optimizing molecular candidates), and experimental validation (high-throughput approaches to accelerate development). Its lead pipeline program is an IL-13 x TSLP bi-specific antibody in Phase 1. Vial was originally built as a tech-enabled contract research organization (CRO) focused on reimagining clinical trials, and was backed by General Catalyst. This profile is maintained in the API Evangelist network; as of this enrichment pass Vial publishes no public developer, API, or documentation surface.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vial.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Vial
 nav: Providers
 network: true
-overview: Vial is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Life Sciences, Clinical Trials, and Drug Discovery.
+overview: 'Vial is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Life Sciences, Clinical Trials, and Drug Discovery.
+
+
+  Vial''s developer surface includes engineering blog and 4 more developer resources.'
 random_paper: 10
 score:
   band: minimal
-  composite: 6.2
+  composite: 6.7
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 10.5
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 48.2
     operational_transparency: 0.0
   previous_composite: 6.2
@@ -84,8 +95,8 @@ score:
     regime: Health
     regime_id: health
     score: 7.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

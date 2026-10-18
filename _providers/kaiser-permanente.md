@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Kaiser Permanente provides a patient access FHIR API supporting the CMS Interoperability and Patient Access Final Rule. Authenticated members and their authorized third-party applications can retrieve
@@ -73,7 +73,7 @@ modified: '2026-05-16'
 name: Kaiser Permanente
 nav: Providers
 network: true
-overview: 'Kaiser Permanente publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Healthcare, Insurance, Health Insurance, Hospitals, and FHIR.
+overview: 'Kaiser Permanente is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Healthcare, Insurance, Health Insurance, Hospitals, and FHIR.
 
 
   Kaiser Permanente''s developer surface includes developer portal, engineering blog, and 4 more developer resources.'
@@ -103,8 +103,8 @@ score:
     regime: Health
     regime_id: health
     score: 4.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

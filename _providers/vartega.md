@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.vartega.com/news?format=rss
 - group: company
   title: ''
   type: Website
@@ -61,18 +65,18 @@ created: '2026-07-17'
 description: Vartega is a Denver, Colorado-based advanced materials company that produces recycled carbon fiber (rCF) from post-industrial scrap as a sustainable, lower-cost drop-in alternative to virgin carbon fiber. Its product line includes EasyFeed Bundles for thermoplastic compounding, chopped carbon fiber in multiple lengths and sizings, and carbon fiber reinforced polypropylene and nylon pellets. Added to the API Evangelist network as a Techstars portfolio company; enrichment probing found no public developer API, SDK, developer portal, or event surface.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vartega.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Vartega
 nav: Providers
 network: true
 overview: 'Vartega is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advanced Materials, Carbon Fiber, Recycling, and Sustainability.
 
 
-  Vartega''s developer surface includes engineering blog and 4 more developer resources.'
+  Vartega''s developer surface includes engineering blog and 5 more developer resources.'
 random_paper: 20
 score:
   band: minimal
-  composite: 9.2
+  composite: 9.3
   coverage:
     artifact_dirs: 4
     catalog_earned: 27.0
@@ -80,7 +84,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
@@ -102,8 +106,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

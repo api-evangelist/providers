@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.5
-  scored_at: '2026-10-04'
+  score: 23.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -81,6 +81,10 @@ collections:
   name: MailPace API
   slug: open-mailpace
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://mailpace.com/rss.xml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/mailpace/refs/heads/main/agentic-access/mailpace-agentic-access.yml
   title: ''
@@ -130,19 +134,23 @@ common:
 created: '2026-06-20'
 description: MailPace is a fast, privacy-focused transactional email API for developers. It delivers application email - password resets, receipts, notifications - over a simple HTTPS REST API and SMTP, with DKIM-verified sending domains, Ed25519-signed webhooks, and EU-based hosting.
 finops:
-- name: Mailpace Finops
+- has_sources: true
+  method: generated
+  name: Mailpace Finops
+  primary_unit: ''
   service_category: Email and Messaging
   slug: mailpace-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mailpace.png
 layout: provider
-modified: '2026-06-20'
+modified: '2026-10-06'
 name: MailPace
 nav: Providers
 network: true
-overview: 'MailPace publishes 4 APIs on the [APIs.io](https://apis.io/) network, including API Tokens API, Domains API, Send API, and 1 more. Tagged areas include Email, Transactional Email, Messaging, SMTP, and Privacy.
+overview: 'MailPace publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including API Tokens API, Domains API, Send API, and 1 more. Tagged areas include Email, Transactional Email, Messaging, SMTP, and Privacy.
 
 
-  MailPace''s developer surface includes authentication, documentation, and 8 more developer resources.'
+  MailPace''s developer surface includes authentication, documentation, and 9 more developer resources.'
 plans:
 - name: Mailpace Plans Pricing
   plan_count: 2
@@ -153,23 +161,23 @@ rate_limits:
   name: Mailpace Rate Limits
   slug: mailpace-rate-limits
 score:
-  band: thin
-  composite: 32.8
+  band: emerging
+  composite: 25.9
   coverage:
-    artifact_dirs: 10
-    catalog_earned: 58.0
+    artifact_dirs: 11
+    catalog_earned: 42.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.0
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.9
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 49.4
     developer_ergonomics: 28.6
     discoverability: 66.1
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   previous_composite: 32.8
   provenance:
     agentic_access: derived
@@ -184,9 +192,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

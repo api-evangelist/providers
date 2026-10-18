@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: Arist runs its customer-facing authentication on an Auth0 tenant at auth.arist.app. The tenant publishes an RFC 8414 / OpenID Connect Discovery document anonymously, describing the authorization, toke
@@ -44,8 +44,13 @@ apis:
 - description: The Arist platform API host at api.arist.app fronts an Amazon API Gateway deployment and answers every anonymous request with a 403 MissingAuthenticationToken, so the surface is real but entirely cred
   name: Arist Platform API
   slug: platform
-artifact_total: 6
+artifact_total: 7
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/arist/refs/heads/main/plans/arist-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/arist-plans-pricing.yml
 - group: company
   title: ''
   type: Website
@@ -161,10 +166,14 @@ modified: '2026-08-02'
 name: Arist
 nav: Providers
 network: true
-overview: 'Arist publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Learning, Training, Enablement, and Microlearning.
+overview: 'Arist is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Learning, Training, Enablement, and Microlearning.
 
 
-  Arist''s developer surface includes documentation, support, getting-started guide, engineering blog, authentication, changelog, and 18 more developer resources.'
+  Arist''s developer surface includes documentation, support, getting-started guide, engineering blog, authentication, changelog, and 19 more developer resources.'
+plans:
+- name: Arist Plans Pricing
+  plan_count: 0
+  slug: arist-plans-pricing
 random_paper: 19
 scopes:
 - name: Arist Scopes
@@ -175,7 +184,7 @@ score:
   band: thin
   composite: 31.1
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -205,8 +214,8 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 31.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

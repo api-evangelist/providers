@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: verified
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.9
-  scored_at: '2026-10-04'
+  score: 29.0
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 126
+- acting_count: 123
   human_in_the_loop: 4
   name: Nuclei Agentic Access
-  operation_count: 273
+  operation_count: 279
   slug: nuclei-agentic-access
-  summary_line: 273 operations · 126 acting · 4 human-in-the-loop
+  summary_line: 279 operations · 123 acting · 4 human-in-the-loop
 api_count: 1
 apis:
 - description: Nuclei is an open source vulnerability scanner from ProjectDiscovery that uses YAML-based templates to find security issues in APIs, web apps, and infrastructure.
@@ -337,6 +337,21 @@ collections:
   name: PDCP API
   slug: open-nuclei
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/nuclei/refs/heads/main/plans/nuclei-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/nuclei-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/nuclei/refs/heads/main/rate-limits/nuclei-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/nuclei-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/nuclei/refs/heads/main/finops/nuclei-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/nuclei-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/nuclei/refs/heads/main/capabilities/nuclei-capability-edges.yml
   title: ''
@@ -414,9 +429,13 @@ common:
 created: '2026-03-25'
 description: Nuclei is an open source vulnerability scanner from ProjectDiscovery that uses YAML-based templates to find security issues in APIs, web apps, and infrastructure. It supports multiple protocols (HTTP, DNS, TCP, file), parallel scanning, CI/CD integration, and ships with thousands of community-contributed templates. The ProjectDiscovery Cloud Platform exposes a REST API for managing templates, scans, vulnerabilities, leaks, asset discovery, exports, and more.
 finops:
-- name: Nuclei Finops
+- has_sources: false
+  method: generated
+  name: Nuclei Finops
+  primary_unit: ''
   service_category: API
   slug: nuclei-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nuclei.png
 layout: provider
 mcp_servers:
@@ -427,10 +446,10 @@ modified: '2026-05-19'
 name: Nuclei
 nav: Providers
 network: true
-overview: 'Nuclei publishes 36 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Asset API, Assets API, and 33 more. Tagged areas include Security Testing, Testing, Vulnerability Scanning, DAST, and Open Source.
+overview: 'Nuclei publishes 36 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agents API, Asset API, Assets API, and 33 more. Tagged areas include Security Testing, Testing, Vulnerability Scanning, DAST, and Open Source.
 
 
-  Nuclei''s developer surface includes authentication, documentation, engineering blog, and 14 more developer resources.'
+  Nuclei''s developer surface includes authentication, documentation, engineering blog, and 17 more developer resources.'
 plans:
 - name: Nuclei Plans Pricing
   plan_count: 3
@@ -442,17 +461,17 @@ rate_limits:
   slug: nuclei-rate-limits
 score:
   band: developing
-  composite: 41.8
+  composite: 40.5
   coverage:
     artifact_dirs: 13
-    catalog_earned: 41.0
+    catalog_earned: 38.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.3
   facets:
-    access_clarity: 23.7
+    access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 47.6
     developer_ergonomics: 40.5
@@ -476,8 +495,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -495,7 +514,7 @@ security:
 - kind: vulnerability-disclosure
   name: Nuclei Vulnerability Disclosure
   slug: nuclei-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 - kind: trust-center
   name: Nuclei Trust Center
   slug: nuclei-trust-center

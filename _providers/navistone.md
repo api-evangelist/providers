@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 20
@@ -44,7 +44,7 @@ agentic_access:
   operation_count: 36
   slug: navistone-agentic-access
   summary_line: 36 operations · 20 acting · 20 human-in-the-loop
-api_count: 1
+api_count: 2
 apis:
 - baseURL: https://docs.navistone.com
   baseurl_source: declared
@@ -120,6 +120,10 @@ collections:
   name: Zazmic Platform API Info Segments API
   slug: open-navistone-segments-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.navistone.com/blog/rss.xml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/navistone/refs/heads/main/agentic-access/navistone-agentic-access.yml
   title: ''
@@ -245,14 +249,14 @@ created: '2026-07-17'
 description: NaviStone is a direct-mail marketing technology company that turns first-party and "unknown" website audiences into addressable postcard campaigns for consumer brands. Its platform helps businesses prospect (lookalike audiences), retain (mailing customers who opt out of digital channels), and retarget (postcards that amplify campaign performance), claiming up to a 70% increase in return on marketing spend. NaviStone's platform API (implemented on the Zazmic platform and published at docs.navistone.com) manages clients, website domains, audience segments, campaigns tied to Modern Postcard creative IDs, ZIP-code and state geo-targeting, and output tracking, all secured with an X-API-Key header. NaviStone is backed by Bullpen Capital and works with brands including Sleep Number, Vitamix, and Hey Dude across retail, travel, beauty, apparel, and home services.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/navistone.png
 layout: provider
-modified: '2026-08-13'
+modified: '2026-10-06'
 name: NaviStone
 nav: Providers
 network: true
-overview: 'NaviStone publishes 8 APIs on the [APIs.io](https://apis.io/) network, including API Info API, Campaigns API, Clients API, and 5 more. Tagged areas include Company, Marketing, Direct Mail, Advertising, and Customer Acquisition.
+overview: 'NaviStone publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including API Info API, Campaigns API, Clients API, and 5 more. Tagged areas include Company, Marketing, Direct Mail, Advertising, and Customer Acquisition.
 
 
-  NaviStone''s developer surface includes documentation, API reference, engineering blog, signup flow, authentication, and 21 more developer resources.'
+  NaviStone''s developer surface includes documentation, API reference, engineering blog, signup flow, authentication, and 22 more developer resources.'
 plans:
 - name: Navistone Plans Pricing
   plan_count: 0
@@ -264,7 +268,7 @@ rate_limits:
   slug: navistone-rate-limits
 score:
   band: thin
-  composite: 35.6
+  composite: 35.7
   coverage:
     artifact_dirs: 22
     catalog_earned: 37.0
@@ -272,7 +276,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 23.7
     contract_governance: 18.2
@@ -297,8 +301,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 1
   slug: automat-agentic-access
   summary_line: 1 operation · 1 acting
-api_count: 1
+api_count: 2
 apis:
 - baseURL: https://studio.runautomat.com
   baseurl_source: declared
@@ -145,7 +145,7 @@ modified: '2026-07-18'
 name: Automat
 nav: Providers
 network: true
-overview: 'Automat publishes 1 API on the [APIs.io](https://apis.io/) network: Extract API. Tagged areas include Company, Enterprise Saas, Automation, RPA, and Document Extraction.
+overview: 'Automat publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Extract API. Tagged areas include Company, Enterprise Saas, Automation, RPA, and Document Extraction.
 
 
   Automat''s developer surface includes documentation, getting-started guide, API reference, engineering blog, support, authentication, and 11 more developer resources.'
@@ -154,7 +154,7 @@ score:
   band: thin
   composite: 34.4
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -191,8 +191,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -218,7 +218,7 @@ tags:
 - Automation
 - RPA
 - Document Extraction
-- IDP
+- Intelligent Document Processing
 - iPaaS
 - AI Agents
 - Computer Use

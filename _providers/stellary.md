@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: Hosted remote MCP server (streamable HTTP) exposing board read/write, cockpit supervision, agent runtime, and auto-registered plugin tools. Bearer-authenticated. Listed in the official MCP registry as
@@ -46,8 +46,12 @@ apis:
 - description: 'REST API at the application root covering auth/identity, organizations/workspaces/projects, delivery (cards, comments, attachments, labels), documents, AI runtime (agents, missions, drafts), platform '
   name: Stellary REST API
   slug: stellary-rest-api
-artifact_total: 10
+artifact_total: 9
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://stellary.co/feed.xml
 - group: company
   title: ''
   type: Website
@@ -192,17 +196,14 @@ mcp_servers:
 - description: ''
   name: Stellary MCP Server
   slug: mcp
-- description: Remote MCP server at api.stellary.co requiring OAuth.
-  name: Stellary Project Management MCP Server
-  slug: stellary-project-management-mcp-server
-modified: '2026-09-01'
+modified: '2026-10-06'
 name: Stellary
 nav: Providers
 network: true
-overview: 'Stellary publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Project Management, Productivity, AI Agents, Agent Orchestration, and MCP.
+overview: 'Stellary is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Project Management, Productivity, AI Agents, Agent Orchestration, and MCP.
 
 
-  Stellary''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, support, engineering blog, and 23 more developer resources.'
+  Stellary''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, support, engineering blog, and 24 more developer resources.'
 plans:
 - name: Stellary Plans Pricing
   plan_count: 2
@@ -221,7 +222,7 @@ score:
   band: developing
   composite: 43.3
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 53.0
     catalog_earned_first_party: 16.0
     catalog_gap: 62.0
@@ -246,8 +247,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

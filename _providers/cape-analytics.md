@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://capeanalytics.com/feed/
 - group: company
   title: ''
   type: Website
@@ -88,20 +92,20 @@ description: Cape Analytics (now part of Moody's) is a geospatial property intel
   partners through a gated onboarding flow.
 image: https://capeanalytics.com/wp-content/uploads/2025/10/mdy_logo_rgb_white-reduced-centered.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Cape Analytics
 nav: Providers
 network: true
 overview: 'Cape Analytics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Property Intelligence, Geospatial, Computer Vision, and Machine Learning.
 
 
-  Cape Analytics'' developer surface includes engineering blog, support, and 9 more developer resources.'
+  Cape Analytics'' developer surface includes engineering blog, support, and 10 more developer resources.'
 random_paper: 14
 score:
   band: emerging
   composite: 14.0
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -122,8 +126,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 11.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

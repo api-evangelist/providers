@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.3
-  scored_at: '2026-10-04'
+  score: 24.1
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -72,6 +72,25 @@ collections:
   name: CCH Tagetik OData Financial Data Metadata API
   slug: open-tagetik-metadata-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/tagetik/refs/heads/main/plans/tagetik-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/tagetik-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/tagetik/refs/heads/main/rate-limits/tagetik-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/tagetik-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/tagetik/refs/heads/main/finops/tagetik-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/tagetik-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.wolterskluwer.com/en/news
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/tagetik/refs/heads/main/agentic-access/tagetik-agentic-access.yml
   title: ''
@@ -139,9 +158,13 @@ examples:
   name: Cch Tagetik Query Financial Data Example
   slug: cch-tagetik-query-financial-data-example
 finops:
-- name: Tagetik Finops
+- has_sources: false
+  method: generated
+  name: Tagetik Finops
+  primary_unit: ''
   service_category: API
   slug: tagetik-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tagetik.png
 json_schemas:
 - name: Financial Record
@@ -157,17 +180,17 @@ jsonld:
   property_count: 20
   slug: tagetik-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-10-06'
 name: CCH Tagetik
 nav: Providers
 network: true
-overview: 'CCH Tagetik publishes 3 APIs on the [APIs.io](https://apis.io/) network, including Financial Data API, Metadata API, and 1 more. Tagged areas include Analytics, Budgeting, Corporate Performance Management, ESG, and Financial Close.
+overview: 'CCH Tagetik publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network, including Financial Data API, Metadata API, and 1 more. Tagged areas include Analytics, Budgeting, Corporate Performance Management, ESG, and Financial Close.
 
 
   The CCH Tagetik catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  CCH Tagetik''s developer surface includes authentication, documentation, support, training material, and 10 more developer resources.'
+  CCH Tagetik''s developer surface includes engineering blog, authentication, documentation, support, training material, and 13 more developer resources.'
 plans:
 - name: Tagetik Plans Pricing
   plan_count: 3
@@ -178,10 +201,11 @@ rate_limits:
   name: Tagetik Rate Limits
   slug: tagetik-rate-limits
 rules:
-- effective_rule_count: 48
+- authorship: unmarked
+  effective_rule_count: 48
   extends:
   - spectral:oas
-  name: CCH Tagetik API Rules
+  name: CCH Tagetik — cch tagetik odata rules
   rule_count: 7
   severity_counts:
     error: 2
@@ -189,9 +213,10 @@ rules:
     info: 1
     warn: 4
   slug: cch-tagetik-odata-rules
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: CCH Tagetik API Rules
+  name: CCH Tagetik — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -206,20 +231,20 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: thin
-  composite: 39.0
+  composite: 33.7
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 74.7
+    artifact_dirs: 19
+    catalog_earned: 60.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 40.3
+    catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.3
   facets:
-    access_clarity: 15.8
-    contract_governance: 62.7
+    access_clarity: 7.9
+    contract_governance: 27.3
     contract_quality: 55.3
-    developer_ergonomics: 26.2
+    developer_ergonomics: 28.6
     discoverability: 66.1
     operational_transparency: 7.9
   previous_composite: 39.0
@@ -236,9 +261,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

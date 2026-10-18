@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.0
-  scored_at: '2026-10-04'
+  score: 30.1
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -73,6 +73,21 @@ collections:
   name: Amazon Prometheus Service Tags Workspaces API
   slug: open-amazon-managed-prometheus-workspaces-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-managed-prometheus/refs/heads/main/plans/amazon-managed-prometheus-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/amazon-managed-prometheus-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-managed-prometheus/refs/heads/main/rate-limits/amazon-managed-prometheus-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/amazon-managed-prometheus-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-managed-prometheus/refs/heads/main/finops/amazon-managed-prometheus-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/amazon-managed-prometheus-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/amazon-managed-prometheus/refs/heads/main/capabilities/amazon-managed-prometheus-capability-edges.yml
   title: ''
@@ -423,9 +438,13 @@ features:
 - description: Use standard Prometheus remote write and query APIs with existing tooling and clients.
   name: Prometheus-Compatible APIs
 finops:
-- name: Amazon Managed Prometheus Finops
+- has_sources: false
+  method: generated
+  name: Amazon Managed Prometheus Finops
+  primary_unit: ''
   service_category: API
   slug: amazon-managed-prometheus-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amazon-managed-prometheus.png
 json_schemas:
 - name: AccessDeniedException
@@ -913,13 +932,13 @@ modified: '2026-09-16'
 name: Amazon Managed Service for Prometheus
 nav: Providers
 network: true
-overview: 'Amazon Managed Service for Prometheus publishes 2 APIs on the [APIs.io](https://apis.io/) network: Tags API and Workspaces API. Tagged areas include Containers, Monitoring, Observability, and Prometheus.
+overview: 'Amazon Managed Service for Prometheus publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Tags API and Workspaces API. Tagged areas include Containers, Monitoring, Observability, and Prometheus.
 
 
   The Amazon Managed Service for Prometheus catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Managed Service for Prometheus'' developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 15 more developer resources.'
+  Amazon Managed Service for Prometheus'' developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 18 more developer resources.'
 plans:
 - name: Amazon Managed Prometheus Plans Pricing
   plan_count: 3
@@ -930,9 +949,10 @@ rate_limits:
   name: Amazon Managed Prometheus Rate Limits
   slug: amazon-managed-prometheus-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Amazon Managed Service for Prometheus API Rules
+  name: Amazon Managed Service for Prometheus — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -940,7 +960,8 @@ rules:
     info: 2
     warn: 3
   slug: amazon-managed-prometheus-jsonschema-spectral-rules
-- effective_rule_count: 63
+- authorship: generated
+  effective_rule_count: 63
   extends:
   - spectral:oas
   name: Amazon Managed Service for Prometheus API Rules
@@ -953,17 +974,17 @@ rules:
   slug: amazon-managed-prometheus-spectral-rules
 score:
   band: developing
-  composite: 51.5
+  composite: 50.0
   coverage:
     artifact_dirs: 19
-    catalog_earned: 66.4
+    catalog_earned: 63.4
     catalog_earned_first_party: 0.0
-    catalog_gap: 48.6
+    catalog_gap: 51.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 61.8
+    access_clarity: 53.9
     contract_governance: 27.3
     contract_quality: 60.7
     developer_ergonomics: 46.4
@@ -983,8 +1004,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

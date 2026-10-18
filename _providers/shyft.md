@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://app.myshyft.com
@@ -589,7 +589,7 @@ modified: '2026-07-21'
 name: Shyft
 nav: Providers
 network: true
-overview: 'Shyft publishes 56 APIs on the [APIs.io](https://apis.io/) network, including Authentication > Email API, Authentication > PhoneNumber API, Callbacks API, and 53 more. Tagged areas include Company, Workforce Management, Employee Scheduling, Shift Swapping, and Team Communication.
+overview: 'Shyft publishes 56 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authentication > Email API, Authentication > PhoneNumber API, Callbacks API, and 53 more. Tagged areas include Company, Workforce Management, Employee Scheduling, Shift Swapping, and Team Communication.
 
 
   Shyft''s developer surface includes authentication, documentation, API reference, pricing, signup flow, sandbox, and 13 more developer resources.'
@@ -628,8 +628,8 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

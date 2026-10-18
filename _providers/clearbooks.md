@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 5.0
-  scored_at: '2026-10-04'
+  score: 3.1
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: RESTful API for integrating with Clear Books accounting software to manage invoices, payments, contacts, bank transactions, and expenses.
@@ -96,9 +96,13 @@ common:
 created: '2026-06-13'
 description: Clear Books is UK cloud accounting software with a REST API for managing invoices, expenses, bank transactions, contacts, reports, and tax submissions for small businesses.
 finops:
-- name: Clearbooks Finops
+- has_sources: false
+  method: generated
+  name: Clearbooks Finops
+  primary_unit: ''
   service_category: ''
   slug: clearbooks-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/clearbooks.png
 jsonld:
 - class_count: 28
@@ -110,7 +114,7 @@ modified: '2026-06-13'
 name: Clear Books
 nav: Providers
 network: true
-overview: 'Clear Books publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Accounting, Invoicing, Finance, United Kingdom, and Small Business.
+overview: 'Clear Books is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Accounting, Invoicing, Finance, United Kingdom, and Small Business.
 
 
   The Clear Books catalog on APIs.io includes 1 JSON-LD context.
@@ -127,23 +131,23 @@ rate_limits:
   name: Clearbooks Rate Limits
   slug: clearbooks-rate-limits
 score:
-  band: thin
-  composite: 28.9
+  band: emerging
+  composite: 21.5
   coverage:
-    artifact_dirs: 8
-    catalog_earned: 64.0
+    artifact_dirs: 9
+    catalog_earned: 48.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 51.0
+    catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.4
   facets:
-    access_clarity: 46.8
+    access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 14.7
     developer_ergonomics: 23.8
     discoverability: 57.1
-    operational_transparency: 40.0
+    operational_transparency: 26.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -159,9 +163,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

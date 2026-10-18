@@ -33,10 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://skillsync.com/blog/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/skillsync/refs/heads/main/security/skillsync-domain-security.yml
   title: ''
@@ -117,14 +121,14 @@ mcp_servers:
 - description: 'Skillsync ships an official Model Context Protocol server as a subcommand of its CLI binary: `skl mcp`, running over stdio (no hosted URL, no port). Connect it to Claude Code, Claude Desktop, or Curso'
   name: Skillsync MCP server
   slug: skl
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Skillsync
 nav: Providers
 network: true
 overview: 'Skillsync is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Developer Tools, Artificial Intelligence, Agents, and Coding Assistants.
 
 
-  Skillsync''s developer surface includes documentation, getting-started guide, engineering blog, CLI, authentication, changelog, and 10 more developer resources.'
+  Skillsync''s developer surface includes documentation, getting-started guide, engineering blog, CLI, authentication, changelog, and 11 more developer resources.'
 random_paper: 20
 score:
   band: emerging
@@ -154,8 +158,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

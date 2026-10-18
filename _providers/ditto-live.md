@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: platform
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.7
-  scored_at: '2026-10-04'
+  score: 30.8
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 20
+- acting_count: 21
   human_in_the_loop: 0
   name: Ditto Live Agentic Access
-  operation_count: 27
+  operation_count: 32
   slug: ditto-live-agentic-access
-  summary_line: 27 operations · 20 acting
+  summary_line: 32 operations · 21 acting
 api_count: 2
 apis:
 - description: Multi-platform embeddable SDK for peer-to-peer and cloud-synced data storage. Supports Swift, Kotlin, Flutter, React Native, JavaScript, .NET/C#, C++, Rust, Go, and Java. Developers use DQL to create,
@@ -200,9 +200,13 @@ examples:
   name: Ditto Live Store Write Response Example
   slug: ditto-live-store-write-response-example
 finops:
-- name: Ditto Live Finops
+- has_sources: true
+  method: generated
+  name: Ditto Live Finops
+  primary_unit: ''
   service_category: Database / Sync
   slug: ditto-live-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ditto-live.png
 json_schemas:
 - name: ApiKey
@@ -252,7 +256,7 @@ modified: '2026-06-12'
 name: Ditto
 nav: Providers
 network: true
-overview: 'Ditto publishes 7 APIs on the [APIs.io](https://apis.io/) network, including API Keys API, Apps API, BigPeerReplication API, and 4 more. Tagged areas include Developer Tools, Database, Synchronization, Peer-to-Peer, and Edge Computing.
+overview: 'Ditto publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including API Keys API, Apps API, BigPeerReplication API, and 4 more. Tagged areas include Developer Tools, Database, Synchronization, Peer-to-Peer, and Edge Computing.
 
 
   The Ditto catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -269,9 +273,10 @@ rate_limits:
   name: Ditto Live Rate Limits
   slug: ditto-live-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Ditto API Rules
+  name: Ditto — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -280,24 +285,24 @@ rules:
     warn: 3
   slug: ditto-live-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 45.1
+  band: thin
+  composite: 36.8
   coverage:
     artifact_dirs: 18
-    catalog_earned: 67.9
+    catalog_earned: 49.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 47.1
+    catalog_gap: 65.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.1
+  delta: -8.3
   facets:
-    access_clarity: 54.7
+    access_clarity: 26.3
     contract_governance: 9.8
     contract_quality: 51.7
     developer_ergonomics: 33.3
     discoverability: 60.0
-    operational_transparency: 46.8
-  previous_composite: 46.2
+    operational_transparency: 26.3
+  previous_composite: 45.1
   provenance:
     agentic_access: derived
     contracts:
@@ -312,9 +317,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 11.1

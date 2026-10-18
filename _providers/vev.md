@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The Vev REST API (api.vev.design) for API-key introspection and platform integration, authenticated with an x-vev-key header. Complemented by a publish webhook and a React component SDK/CLI toolchain.
@@ -173,7 +173,7 @@ modified: '2026-07-21'
 name: Vev
 nav: Providers
 network: true
-overview: 'Vev publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Design Tech, No-Code, Web Design, and CMS.
+overview: 'Vev is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Design Tech, No-Code, Web Design, and CMS.
 
 
   The Vev catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -185,7 +185,7 @@ score:
   band: developing
   composite: 41.5
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -206,8 +206,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 25.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

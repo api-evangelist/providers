@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -105,6 +105,21 @@ collections:
   name: Medium OAuth2 Authorization Users API
   slug: open-medium-users-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/medium/refs/heads/main/plans/medium-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/medium-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/medium/refs/heads/main/rate-limits/medium-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/medium-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/medium/refs/heads/main/finops/medium-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/medium-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/medium/refs/heads/main/agentic-access/medium-agentic-access.yml
   title: ''
@@ -229,9 +244,13 @@ common:
 created: '2026-05-04'
 description: 'Medium is an online publishing platform where writers publish stories and readers follow topics, publications and authors. Its developer surface is a small OAuth2 REST API at api.medium.com/v1 that lets an integration read the authenticated user''s profile, list the publications they write to or edit, upload images, and publish posts to a profile or into a publication. Medium states the API is no longer supported and does not accept new integrations: existing tokens continue to work, but new integration tokens have not been issued since 2023 and the documentation repository was archived in 2023.'
 finops:
-- name: Medium Finops
+- has_sources: false
+  method: generated
+  name: Medium Finops
+  primary_unit: ''
   service_category: API
   slug: medium-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/medium.png
 json_schemas:
 - name: Medium Post
@@ -253,13 +272,13 @@ modified: '2026-09-17'
 name: Medium
 nav: Providers
 network: true
-overview: 'Medium publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Authorization API, Images API, Posts API, and 3 more. Tagged areas include Publishing, Content, Blogging, Media, and Social.
+overview: 'Medium publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authorization API, Images API, Posts API, and 3 more. Tagged areas include Publishing, Content, Blogging, Media, and Social.
 
 
   The Medium catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Medium''s developer surface includes authentication, engineering blog, documentation, API reference, getting-started guide, support, and 20 more developer resources.'
+  Medium''s developer surface includes authentication, engineering blog, documentation, API reference, getting-started guide, support, and 23 more developer resources.'
 plans:
 - name: Medium Plans Pricing
   plan_count: 0
@@ -270,9 +289,10 @@ rate_limits:
   name: Medium Rate Limits
   slug: medium-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Medium API Rules
+  name: Medium — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -287,17 +307,17 @@ scopes:
   summary_line: 4 scopes · authorization_code
 score:
   band: thin
-  composite: 37.7
+  composite: 36.2
   coverage:
     artifact_dirs: 26
-    catalog_earned: 48.3
+    catalog_earned: 45.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 66.8
+    catalog_gap: 69.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 7.9
+    access_clarity: 0.0
     contract_governance: 14.4
     contract_quality: 52.5
     developer_ergonomics: 56.5
@@ -320,8 +340,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

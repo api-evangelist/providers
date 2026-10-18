@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Relay-compliant GraphQL API for the Asset Register — a metadata ledger that defines what an asset is, what it can do, and which environments it works in, across chains and for off-chain assets. 29 que
@@ -212,7 +212,7 @@ modified: '2026-08-16'
 name: Futureverse
 nav: Providers
 network: true
-overview: 'Futureverse publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Campaigns API, Quests API, and 4 more. Tagged areas include Blockchain, Web3, Metaverse, Digital Assets, and NFT.
+overview: 'Futureverse publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Campaigns API, Quests API, and 4 more. Tagged areas include Blockchain, Web3, Metaverse, Digital Assets, and NFT.
 
 
   The Futureverse catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -267,8 +267,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

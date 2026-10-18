@@ -16,19 +16,19 @@
      "slug": "lightspeed",
      "description": "Omnichannel commerce platform with REST APIs for retail and restaurant POS, inventory management, loyalty programs, and e-commerce integrations. Lightspeed serves retailers and restaurateurs with cloud-based point-of-sale systems, enabling custom integrations through APIs for sales, inventory, customers, orders, payments, and loyalty programs across multiple product lines including Retail X-Series, Retail R-Series, Restaurant K-Series, and eCom.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/lightspeed/refs/heads/main/screenshots/lightspeed-2026-06-20T184527.png",
-     "score": 79.3,
+     "score": 83.8,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
-      "discoverability": 75.0,
-      "contract_quality": 61.3,
-      "contract_governance": 4.5,
+      "discoverability": 81.7,
+      "contract_quality": 74.7,
+      "contract_governance": 22.0,
       "operational_transparency": 92.1,
       "developer_ergonomics": 85.1,
-      "access_clarity": 100.0
+      "access_clarity": 92.1
      },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
+     "scored_at": "2026-10-17",
+     "schema_version": "0.24.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -36,11 +36,11 @@
       "score": 48.2,
       "matched_via": "tags"
      },
-     "agent_score": 37.5,
+     "agent_score": 42.6,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
-      "agentic_access": false,
+      "agentic_access": "derived",
       "reversibility_documented": "documented",
       "mcp_server": "platform",
       "auth_clarity": "bearer",
@@ -48,7 +48,7 @@
       "error_semantics": "verified",
       "openapi_examples": "partial",
       "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
+      "event_surface_described": true,
       "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
@@ -78,19 +78,19 @@
      "slug": "vopay",
      "description": "VoPay is a Vancouver, Canada based fintech offering an API-first embedded finance and payments-as-a-service platform that lets software companies, marketplaces, lenders, and enterprises move money across Canadian and North American bank rails from a single set of REST endpoints. Its Fintech-as-a-Service suite spans EFT, Interac e-Transfer, ACH, RTP/FedNow/FedWire, VoPay Instant, card and digital-wallet payments, cross-border and global cash management, virtual accounts, ledgering, scheduled and recurring payments, bank-account verification (IQ11), KYC/AML onboarding, and dispute management. VoPay ships a genuine public developer portal (docs.vopay.com) with a sandbox, an OpenAPI-backed API reference segmented by product, webhooks for transaction and account events, and API-key-plus-shared-secret signature authentication with IP whitelisting. Its home market is Canada, where it operates as an API-native money-movement layer over Interac and Payments Canada rails.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/vopay/refs/heads/main/screenshots/vopay-2026-08-17T082823.png",
-     "score": 57.5,
+     "score": 62.3,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 78.6,
-      "contract_quality": 53.3,
-      "contract_governance": 4.5,
+      "discoverability": 81.7,
+      "contract_quality": 62.7,
+      "contract_governance": 22.0,
       "operational_transparency": 44.7,
       "developer_ergonomics": 57.7,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
+     "scored_at": "2026-10-17",
+     "schema_version": "0.24.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -98,13 +98,13 @@
       "score": 24.4,
       "matched_via": "tags"
      },
-     "agent_score": 38.6,
-     "agent_band": "agent-ready",
+     "agent_score": 42.1,
+     "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": "documented",
-      "mcp_server": false,
+      "mcp_server": "documented",
       "auth_clarity": "bearer",
       "idempotency": "verified",
       "error_semantics": "documented",
@@ -129,40 +129,40 @@
      "slug": "trulioo",
      "description": "Trulioo is a Vancouver-based global identity verification platform that operates GlobalGateway, a single-API gateway into 450+ data sources across 195+ countries for person verification (KYC), business verification (KYB), watchlist and PEP screening, identity document verification (DocV), biometric face match, and fraud-intelligence risk scoring. The Trulioo Platform layers Workflow Studio (hosted and low-code), reusable end-client profiles, event-driven webhooks, native mobile and web capture SDKs, and an MCP server on top of the underlying Verifications and Business APIs.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/trulioo/refs/heads/main/screenshots/trulioo-2026-06-20T195758.png",
-     "score": 54.9,
+     "score": 55.6,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 76.7,
-      "contract_quality": 60.1,
-      "contract_governance": 13.6,
-      "operational_transparency": 42.9,
-      "developer_ergonomics": 56.0,
-      "access_clarity": 53.4
+      "contract_quality": 68.2,
+      "contract_governance": 22.0,
+      "operational_transparency": 69.7,
+      "developer_ergonomics": 63.1,
+      "access_clarity": 6.6
      },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
+     "scored_at": "2026-10-17",
+     "schema_version": "0.24.0",
      "regulatory": {
       "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 26.5,
-      "matched_via": "fallback"
+      "regime": "AI & Biometrics",
+      "regime_id": "ai_biometrics",
+      "score": 42.5,
+      "matched_via": "residual_tags"
      },
-     "agent_score": 53.9,
+     "agent_score": 52.7,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": false,
-      "mcp_server": "verified",
+      "mcp_server": "documented",
       "auth_clarity": "served",
       "idempotency": false,
       "error_semantics": "documented",
       "openapi_examples": "partial",
       "rate_limit_signal": "documented",
-      "event_surface_described": "unknown",
-      "agent_skills": false,
+      "event_surface_described": true,
+      "agent_skills": true,
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -191,7 +191,7 @@
      "slug": "versapay",
      "description": "Versapay is a Toronto, Canada based B2B payments company focused on accounts receivable (AR) automation and integrated payment acceptance for suppliers and their buyers. Its \"Collaborative AR\" platform combines electronic invoicing, customer collaboration, cash application, and embedded payment processing so businesses can invoice, get paid, and reconcile inside one workflow, with ERP-adjacent integrations for order-to-cash. Versapay serves the North American mid-market and enterprise segment and, unlike consumer money-movement players in Canada's Interac-dominated market, sits in the API-native B2B acquiring and AR/AP money-movement layer. Its API posture is genuinely public and honest: developers.versapay.com hosts a Redocly-rendered reference for a broad REST platform API (onboarding, wallets, orders, order transactions, gift cards, card-present EMV, settlement reporting, autopay, customers, invoices, divisions, notifications, and webhooks) plus a separate hosted-iframe Ecommerce API for PCI-reduced payment sessions. Authentication is HTTPS Basic access authentication using an API Token and Key issued from the account console, with a UAT sandbox alongside production and a documented webhook event model.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/versapay/refs/heads/main/screenshots/versapay-2026-08-17T082740.png",
-     "score": 53.5,
+     "score": 53.6,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
@@ -202,8 +202,8 @@
       "developer_ergonomics": 49.4,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
+     "scored_at": "2026-10-17",
+     "schema_version": "0.24.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -242,7 +242,7 @@
      "slug": "helcim",
      "description": "Helcim is a Calgary, Canada based payment processor and merchant services provider serving small and medium-sized businesses across Canada and the United States with interchange-plus pricing and no monthly fees. Beyond its merchant dashboard, Smart Terminal hardware, and online store, Helcim ships a genuine developer surface: the versioned Helcim API (v2) for taking card and ACH payments, managing customers, cards, bank accounts and pre-authorized debits (PADs), issuing invoices, settling card and ACH batches, and driving in-person Card Terminal devices, alongside HelcimPay.js hosted checkout and connected-account webhooks. Authentication is a permissioned API access token passed in an api-token header, and the public developer portal publishes a downloadable OpenAPI 3.0 definition. In Canada's small, concentrated payments market, Helcim is one of the API-native SMB money-movement fintechs building above the incumbent acquiring and Interac rails.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/helcim/refs/heads/main/screenshots/helcim-2026-07-25T220910.png",
-     "score": 52.5,
+     "score": 53.0,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
@@ -250,11 +250,11 @@
       "contract_quality": 52.1,
       "contract_governance": 18.2,
       "operational_transparency": 77.6,
-      "developer_ergonomics": 45.4,
+      "developer_ergonomics": 47.7,
       "access_clarity": 48.7
      },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
+     "scored_at": "2026-10-17",
+     "schema_version": "0.24.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -304,8 +304,8 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
+     "scored_at": "2026-10-17",
+     "schema_version": "0.24.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -355,8 +355,8 @@
       "developer_ergonomics": 45.8,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
+     "scored_at": "2026-10-17",
+     "schema_version": "0.24.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -406,8 +406,8 @@
       "developer_ergonomics": 68.5,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
+     "scored_at": "2026-10-17",
+     "schema_version": "0.24.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -456,7 +456,7 @@
      "slug": "rotessa",
      "description": "Rotessa is a Winnipeg, Manitoba-based fintech that helps small and mid-sized North American businesses collect recurring payments directly from their customers' bank accounts. In Canada it moves money over the pre-authorized debit (PAD) rails and in the United States over ACH, positioning itself as a low-cost, bank-account-native alternative to card processing for invoices, memberships, subscriptions, tuition, and rent. Rotessa exposes a genuine public REST API (https://api.rotessa.com/v1) that lets platforms and businesses programmatically create customers, verify bank details (including via the Flinks aggregator), and schedule one-time or recurring transactions, backed by a free sandbox (sandbox.rotessa.com) and API-key authentication. As an API-native SMB money-movement fintech, it sits in the thin-but-real account-to-account layer of Canada's payments market, alongside peers like VoPay, Plooto, and Helcim, operating through bank rails and aggregators rather than any live open-banking payment mandate.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/rotessa/refs/heads/main/screenshots/rotessa-2026-08-17T081633.png",
-     "score": 34.8,
+     "score": 34.9,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
@@ -467,8 +467,8 @@
       "developer_ergonomics": 37.5,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
+     "scored_at": "2026-10-17",
+     "schema_version": "0.24.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -507,19 +507,19 @@
      "slug": "flinks",
      "description": "Flinks is a Canadian financial data platform (owned by National Bank of Canada) that lets businesses connect to consumer and business bank accounts to aggregate account, transaction, and statement data, verify identity, and derive income, credit-risk, and fraud analytics. Access begins with a Flinks Connect authentication session and a multi-step /Authorize (MFA) call, after which banking, enrichment, and analytics endpoints are invoked with the returned RequestId.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/flinks/refs/heads/main/screenshots/flinks-2026-07-25T214800.png",
-     "score": 34.5,
+     "score": 27.6,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 68.3,
       "contract_quality": 46.8,
       "contract_governance": 0.0,
-      "operational_transparency": 28.4,
+      "operational_transparency": 7.9,
       "developer_ergonomics": 32.1,
-      "access_clarity": 34.7
+      "access_clarity": 13.2
      },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
+     "scored_at": "2026-10-17",
+     "schema_version": "0.24.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -527,7 +527,7 @@
       "score": 18.1,
       "matched_via": "tags"
      },
-     "agent_score": 27.7,
+     "agent_score": 25.8,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
@@ -538,7 +538,7 @@
       "idempotency": false,
       "error_semantics": "verified",
       "openapi_examples": false,
-      "rate_limit_signal": "documented",
+      "rate_limit_signal": "derived",
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
@@ -552,57 +552,6 @@
      },
      "tier": "Financial Data & Aggregation",
      "rank": 10
-    },
-    {
-     "name": "Nuvei",
-     "slug": "nuvei",
-     "description": "Nuvei is a global payment technology company headquartered in Montreal, Canada, providing a single platform for online card acquiring, alternative payment methods (700+ APMs), payouts, currency management across 150+ currencies, risk and fraud, and payment orchestration. Nuvei serves merchants in 200+ markets with local acquiring in 52 markets across eCommerce, iGaming, sports betting, travel, retail, B2B, and financial services. Originally listed on Nasdaq and TSX as NVEI, Nuvei was taken private by Advent International in 2024.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nuvei/refs/heads/main/screenshots/nuvei-2026-06-20T190542.png",
-     "score": 30.8,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 57.1,
-      "contract_quality": 60.0,
-      "contract_governance": 13.6,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 26.2,
-      "access_clarity": 26.8
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 9.8,
-      "matched_via": "tags"
-     },
-     "agent_score": 20.1,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Gateways & PSPs",
-     "rank": 11
     },
     {
      "name": "Interac",
@@ -620,8 +569,8 @@
       "developer_ergonomics": 51.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
+     "scored_at": "2026-10-17",
+     "schema_version": "0.24.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -653,6 +602,57 @@
       "agentic_commerce": false
      },
      "tier": "Domestic Rails & Schemes",
+     "rank": 11
+    },
+    {
+     "name": "Nuvei",
+     "slug": "nuvei",
+     "description": "Nuvei is a global payment technology company headquartered in Montreal, Canada, providing a single platform for online card acquiring, alternative payment methods (700+ APMs), payouts, currency management across 150+ currencies, risk and fraud, and payment orchestration. Nuvei serves merchants in 200+ markets with local acquiring in 52 markets across eCommerce, iGaming, sports betting, travel, retail, B2B, and financial services. Originally listed on Nasdaq and TSX as NVEI, Nuvei was taken private by Advent International in 2024.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nuvei/refs/heads/main/screenshots/nuvei-2026-06-20T190542.png",
+     "score": 26.5,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 57.1,
+      "contract_quality": 60.0,
+      "contract_governance": 13.6,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 26.2,
+      "access_clarity": 5.3
+     },
+     "scored_at": "2026-10-17",
+     "schema_version": "0.24.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 9.8,
+      "matched_via": "tags"
+     },
+     "agent_score": 18.2,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "derived",
+      "event_surface_described": "derived",
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Gateways & PSPs",
      "rank": 12
     }
    ]
@@ -670,7 +670,7 @@
      "slug": "peoples-group",
      "description": "Peoples Group is the operating name of Peoples Trust Company, a Vancouver-based Canadian trust company and chartered-bank group founded in 1985 and owned by the Triple Five Group. Alongside its mortgage, deposit, and commercial-lending businesses, Peoples Group runs a fintech and payments arm that provides embedded banking-as-a-service to program managers, fintechs, brokers, and merchants across Canada: prepaid and credit card issuing under Visa and Mastercard BIN sponsorship, merchant acquiring, trust account services, and API-driven money movement including Interac e-Transfer (send, request money, and autodeposit), Electronic Funds Transfer (EFT) for CAD and USD debits and credits, bill payment to more than 12,000 Canadian billers, and push-to-card payouts via Visa Direct and Mastercard Send. In February 2026 Peoples Group partnered with Fiserv to build a next-generation, always-on payments platform carrying rich ISO 20022 data over direct connections to Canada's payment systems, positioning it for Payments Canada's Real-Time Rail. Its APIs are real and in production, but access is partnership- and sales-gated: there is no public self-serve developer portal, no downloadable OpenAPI/Swagger specification, and no public Postman workspace. Integration is arranged through a client relationship and the product documentation lives on the corporate fintech site.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/peoples-group/refs/heads/main/screenshots/peoples-group-2026-09-02T151017.png",
-     "score": 20.0,
+     "score": 20.1,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
@@ -681,8 +681,8 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
+     "scored_at": "2026-10-17",
+     "schema_version": "0.24.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -721,7 +721,7 @@
      "slug": "plooto",
      "description": "Plooto is a Toronto-based payments automation company (founded 2015 by Hamed Abbasi and Serguei Kloubkov) that helps small and medium businesses and accounting firms automate domestic and international accounts payable and accounts receivable. Its cloud platform unifies bill pay, approval workflows, supplier and customer payments, reconciliation, and reporting across Canadian EFT, US ACH, credit card, and cross-border rails, syncing two-way with QuickBooks Online, Xero, and NetSuite. Plooto is a licensed money services business in its home market of Canada, working with Tier 1 banks and processing partners. Its posture is integration-led rather than API-platform-led: money movement runs on a first-party backend gateway (api.plooto.com) that powers the app and its accounting connectors, but Plooto does not publish a public, self-serve developer portal, downloadable OpenAPI/Swagger specification, or public API reference. Partner and embedded access is arranged through a gated partner onboarding process, not open developer sign-up.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/plooto/refs/heads/main/screenshots/plooto-2026-09-02T151525.png",
-     "score": 19.5,
+     "score": 19.6,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
@@ -732,8 +732,8 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 46.1
      },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
+     "scored_at": "2026-10-17",
+     "schema_version": "0.24.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",

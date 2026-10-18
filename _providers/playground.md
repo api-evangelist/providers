@@ -23,8 +23,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.8
-  scored_at: '2026-10-04'
-api_count: 1
+  scored_at: '2026-10-17'
+api_count: 2
 apis:
 - description: GraphQL gateway providing stateful mock query and mutation access to the same dataset, with an interactive explorer.
   name: Playground GraphQL API
@@ -76,6 +76,10 @@ apis:
   slug: playground-to-dos-api
 artifact_total: 15
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://playground.nileslabs.com/blog
 - group: company
   title: ''
   type: Website
@@ -174,14 +178,14 @@ mcp_servers:
 - description: ''
   name: Playground API — Free Stateful Mock REST & GraphQL Service MCP Server
   slug: playground-mcp-yml
-modified: '2026-09-14'
+modified: '2026-10-06'
 name: Playground API — Free Stateful Mock REST & GraphQL Service
 nav: Providers
 network: true
-overview: 'Playground API — Free Stateful Mock REST & GraphQL Service publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Avatars API, Comments API, and 7 more. Tagged areas include Developer Tools, Testing, Mock API, api-sandbox, and REST.
+overview: 'Playground API — Free Stateful Mock REST & GraphQL Service publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Auth API, Avatars API, Comments API, and 7 more. Tagged areas include Developer Tools, Testing, Mock API, api-sandbox, and REST.
 
 
-  Playground API — Free Stateful Mock REST & GraphQL Service''s developer surface includes getting-started guide, sandbox, authentication, and 16 more developer resources.'
+  Playground API — Free Stateful Mock REST & GraphQL Service''s developer surface includes engineering blog, getting-started guide, sandbox, authentication, and 16 more developer resources.'
 plans:
 - name: Playground Plans Pricing
   plan_count: 1
@@ -193,20 +197,20 @@ rate_limits:
   slug: playground-rate-limits
 score:
   band: thin
-  composite: 31.5
+  composite: 32.0
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 21
     catalog_earned: 40.0
     catalog_earned_first_party: 8.0
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
     contract_quality: 44.3
-    developer_ergonomics: 47.0
+    developer_ergonomics: 49.4
     discoverability: 64.3
     operational_transparency: 2.6
   previous_composite: 31.5
@@ -225,12 +229,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
     score: 0.0
+screenshot: https://raw.githubusercontent.com/api-evangelist/playground/refs/heads/main/screenshots/playground-2026-10-11T112622.png
 security:
 - kind: authentication
   name: Playground Authentication

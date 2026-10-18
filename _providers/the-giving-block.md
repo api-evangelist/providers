@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: RESTful JSON API for accepting crypto, stock, and card donations on behalf of nonprofits in The Giving Block network. Provides organization management, currency and exchange-rate lookups, crypto depos
@@ -140,7 +140,7 @@ modified: '2026-07-21'
 name: The Giving Block
 nav: Providers
 network: true
-overview: 'The Giving Block publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto Web3, Donations, Fundraising, and Non-Profit.
+overview: 'The Giving Block is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Web3, Donations, Fundraising, and Non-Profit.
 
 
   The Giving Block''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, authentication, sandbox, and 12 more developer resources.'
@@ -149,7 +149,7 @@ score:
   band: emerging
   composite: 18.1
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -174,8 +174,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 15.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -194,7 +194,7 @@ security:
 slug: the-giving-block
 tags:
 - Company
-- Crypto Web3
+- Web3
 - Donations
 - Fundraising
 - Non-Profit
@@ -203,6 +203,5 @@ tags:
 - Stock Donations
 - Webhook
 - Widgets
-- Web3
 website: https://thegivingblock.com
 ---

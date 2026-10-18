@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The Hearth & Home Technologies storefront implements the Universal Commerce Protocol (UCP) over an anonymous Model Context Protocol endpoint. A tools/list probe on 2026-09-13 returned 13 tools — searc
@@ -42,6 +42,10 @@ apis:
   slug: hearth-home-agent-commerce
 artifact_total: 7
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.hnicorp.com/rss.xml
 - group: company
   title: ''
   type: Website
@@ -146,14 +150,14 @@ mcp_servers:
 - description: Remote MCP server at hearthnhome.com requiring OAuth; 13 tools listed.
   name: Hearth & Home Technologies Agent Commerce MCP Server
   slug: hearth-home-technologies-agent-commerce-mcp-server
-modified: '2026-09-13'
+modified: '2026-10-06'
 name: HNI
 nav: Providers
 network: true
-overview: 'HNI publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 1000, Manufacturing, Office Furniture, Workplace, and Building Products.
+overview: 'HNI is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 1000, Manufacturing, Office Furniture, Workplace, and Building Products.
 
 
-  HNI''s developer surface includes authentication and 19 more developer resources.'
+  HNI''s developer surface includes authentication and 20 more developer resources.'
 plans:
 - name: Hni Plans Pricing
   plan_count: 0
@@ -188,7 +192,7 @@ score:
   band: emerging
   composite: 16.0
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -220,8 +224,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

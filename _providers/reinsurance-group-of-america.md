@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 3.8
-  scored_at: '2026-10-04'
+  score: 1.9
+  scored_at: '2026-10-17'
 api_count: 4
 apis:
 - description: AURA NEXT is RGA's SaaS-based automated underwriting decision management platform powered by 40+ years of underwriting expertise. The API enables insurance carriers to integrate real-time underwriting
@@ -50,6 +50,21 @@ apis:
   slug: rga-central-portal
 artifact_total: 15
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/reinsurance-group-of-america/refs/heads/main/plans/reinsurance-group-of-america-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/reinsurance-group-of-america-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/reinsurance-group-of-america/refs/heads/main/rate-limits/reinsurance-group-of-america-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/reinsurance-group-of-america-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/reinsurance-group-of-america/refs/heads/main/finops/reinsurance-group-of-america-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/reinsurance-group-of-america-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/reinsurance-group-of-america/refs/heads/main/security/reinsurance-group-of-america-domain-security.yml
   title: ''
@@ -155,9 +170,13 @@ examples:
   name: Reinsurance Group Of America Underwriting Decision Example
   slug: reinsurance-group-of-america-underwriting-decision-example
 finops:
-- name: Reinsurance Group Of America Finops
+- has_sources: true
+  method: generated
+  name: Reinsurance Group Of America Finops
+  primary_unit: ''
   service_category: Reinsurance
   slug: reinsurance-group-of-america-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/reinsurance-group-of-america.png
 json_schemas:
 - name: Digital Health Data Risk Score
@@ -180,13 +199,13 @@ modified: '2026-05-02'
 name: Reinsurance Group of America
 nav: Providers
 network: true
-overview: 'Reinsurance Group of America publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Services, Health Insurance, Insurance Technology, Life Insurance, and Reinsurance.
+overview: 'Reinsurance Group of America is listed with 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Services, Health Insurance, Insurance Technology, Life Insurance, and Reinsurance.
 
 
   The Reinsurance Group of America catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Reinsurance Group of America''s developer surface includes documentation, code examples, and 21 more developer resources.'
+  Reinsurance Group of America''s developer surface includes documentation, code examples, and 24 more developer resources.'
 plans:
 - name: Reinsurance Group Of America Plans Pricing
   plan_count: 1
@@ -213,9 +232,10 @@ rate_limits:
   name: Reinsurance Group Of America Rate Limits
   slug: reinsurance-group-of-america-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Reinsurance Group of America API Rules
+  name: Reinsurance Group of America — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -225,22 +245,22 @@ rules:
   slug: reinsurance-group-of-america-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 21.4
+  composite: 15.3
   coverage:
     artifact_dirs: 15
-    catalog_earned: 65.2
+    catalog_earned: 51.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 49.8
+    catalog_gap: 63.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.1
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 23.5
     contract_quality: 13.2
     developer_ergonomics: 9.5
     discoverability: 62.5
-    operational_transparency: 21.6
+    operational_transparency: 7.9
   previous_composite: 21.4
   regulatory:
     applies: true
@@ -248,9 +268,9 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 9.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

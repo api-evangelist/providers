@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -242,7 +242,7 @@ modified: '2026-07-20'
 name: Rentahuman
 nav: Providers
 network: true
-overview: 'Rentahuman publishes 3 APIs on the [APIs.io](https://apis.io/) network: Bookings API, Humans API, and Wallet API. Tagged areas include Company, Marketplace, AI Agents, Human-in-the-Loop, and Gig Economy.
+overview: 'Rentahuman publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Bookings API, Humans API, and Wallet API. Tagged areas include Company, Marketplace, AI Agents, Human-in-the-Loop, and Gig Economy.
 
 
   The Rentahuman catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -289,8 +289,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 24.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

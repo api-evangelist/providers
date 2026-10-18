@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 4
 apis:
 - description: 'Market API for electronic placement in the London subscription market — create submissions and submission versions, upload Market Reform Contract and quote documents, add carriers and underwriters to '
@@ -253,7 +253,7 @@ modified: '2026-07-25'
 name: Lloyd's of London
 nav: Providers
 network: true
-overview: 'Lloyd''s of London publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, United Kingdom, Reinsurance, Specialty Insurance, and London Market.
+overview: 'Lloyd''s of London is listed with 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, United Kingdom, Reinsurance, Specialty Insurance, and London Market.
 
 
   Lloyd''s of London''s developer surface includes authentication, code examples, changelog, sandbox, support, engineering blog, documentation, and 20 more developer resources.'
@@ -298,8 +298,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 42.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -329,7 +329,7 @@ tags:
 - Underwriting
 - Claims
 - Delegated Authority
-- Brokers
+- Brokerage
 - Market Infrastructure
 - Standards
 - ACORD

@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 0
   name: Wikimedia Agentic Access
-  operation_count: 99
+  operation_count: 101
   slug: wikimedia-agentic-access
-  summary_line: 99 operations · 41 acting
+  summary_line: 101 operations · 41 acting
 api_count: 2
 apis:
 - description: The MediaWiki REST API provides a modern RESTful interface for reading and writing wiki content including pages, revisions, file metadata, search, and content transformation between wikitext and HTML.
@@ -206,6 +206,21 @@ collections:
   name: Wikimedia Enterprise API spec articles wikidata API
   slug: open-wikimedia-wikidata-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/wikimedia/refs/heads/main/plans/wikimedia-enterprise.yml
+  title: ''
+  type: Plans
+  url: plans/wikimedia-enterprise.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/wikimedia/refs/heads/main/rate-limits/mediawiki-action-api.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/mediawiki-action-api.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/wikimedia/refs/heads/main/finops/wikimedia-enterprise.yml
+  title: ''
+  type: FinOps
+  url: finops/wikimedia-enterprise.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/wikimedia/refs/heads/main/agentic-access/wikimedia-agentic-access.yml
   title: ''
@@ -285,9 +300,13 @@ examples:
   name: Page Summary
   slug: page-summary
 finops:
-- name: Wikimedia Enterprise
+- has_sources: false
+  method: generated
+  name: Wikimedia Enterprise
+  primary_unit: ''
   service_category: ''
   slug: wikimedia-enterprise
+  template: true
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Wikimedia-logo.svg/240px-Wikimedia-logo.svg.png
 json_schemas:
 - name: article
@@ -498,13 +517,13 @@ modified: '2026-06-13'
 name: Wikimedia
 nav: Providers
 network: true
-overview: 'Wikimedia publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Articles API, Batches API, Citation API, and 17 more. Tagged areas include Wikipedia, Wikimedia, Encyclopedia, Open Knowledge, and Content.
+overview: 'Wikimedia publishes 20 API contracts indexed on the [APIs.io](https://apis.io/) network, including Articles API, Batches API, Citation API, and 17 more. Tagged areas include Wikipedia, Wikimedia, Encyclopedia, Open Knowledge, and Content.
 
 
   The Wikimedia catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Wikimedia''s developer surface includes authentication, developer portal, engineering blog, getting-started guide, GitHub presence, and 9 more developer resources.'
+  Wikimedia''s developer surface includes authentication, developer portal, engineering blog, getting-started guide, GitHub presence, and 12 more developer resources.'
 plans:
 - name: Wikimedia Enterprise
   plan_count: 2
@@ -524,9 +543,10 @@ rate_limits:
   name: Wikimedia Rest Api
   slug: wikimedia-rest-api
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Wikimedia API Rules
+  name: Wikimedia — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -536,22 +556,22 @@ rules:
   slug: wikimedia-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 47.3
+  composite: 41.3
   coverage:
     artifact_dirs: 14
-    catalog_earned: 65.7
+    catalog_earned: 52.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 49.3
+    catalog_gap: 62.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.0
   facets:
-    access_clarity: 47.9
+    access_clarity: 26.3
     contract_governance: 9.8
     contract_quality: 54.4
     developer_ergonomics: 47.6
     discoverability: 73.2
-    operational_transparency: 40.0
+    operational_transparency: 26.3
   previous_composite: 47.3
   provenance:
     agentic_access: derived
@@ -566,9 +586,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

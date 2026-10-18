@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 16.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://api.joinmesa.com/v1
@@ -59,6 +59,10 @@ collections:
   name: Mesa Partner Authentication Invoices API
   slug: open-mesa-invoices-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.joinmesa.com/blog/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/mesa/refs/heads/main/overlays/mesa-partner-api-overlay.yaml
   title: ''
@@ -167,31 +171,31 @@ created: '2026-07-17'
 description: Mesa is a Boulder, Colorado fintech that provides embedded electronic-invoicing, payments, and invoice-financing (early-payment) infrastructure for B2B supplier networks. Suppliers get paid early via ACH while Mesa automates repayment once the buyer settles. Mesa ships as drop-in embedded UI — a JavaScript SDK (MesaClient) that renders Mesa's onboarding, dashboard, and instant-payout flows in an origin-pinned iframe inside a partner's web app — backed by a Partner REST API for user authentication and invoice retrieval. Auth is via API keys (clientId/clientSecret) exchanged for a short-lived JWT, with optional OIDC (Okta, Azure AD, Google). Backed by Matrix Partners; SOC 2.
 image: https://www.joinmesa.com/favicon.ico
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Mesa
 nav: Providers
 network: true
-overview: 'Mesa publishes 2 APIs on the [APIs.io](https://apis.io/) network: Authentication API and Invoices API. Tagged areas include Company, Fintech, Payments, Invoice Financing, and Embedded Finance.
+overview: 'Mesa publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Authentication API and Invoices API. Tagged areas include Company, Fintech, Payments, Invoice Financing, and Embedded Finance.
 
 
-  Mesa''s developer surface includes documentation, API reference, getting-started guide, authentication, signup flow, support, and 17 more developer resources.'
+  Mesa''s developer surface includes engineering blog, documentation, API reference, getting-started guide, authentication, signup flow, support, and 17 more developer resources.'
 random_paper: 4
 score:
   band: emerging
-  composite: 14.8
+  composite: 15.3
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 34.0
     catalog_earned_first_party: 0.0
     catalog_gap: 81.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 0.0
     contract_governance: 18.2
     contract_quality: 14.0
-    developer_ergonomics: 18.5
+    developer_ergonomics: 20.8
     discoverability: 67.9
     operational_transparency: 0.0
   previous_composite: 14.8
@@ -210,8 +214,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 15.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

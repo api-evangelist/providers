@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -55,7 +55,7 @@ apis:
   description: Session minting and language discovery for the real-time voice translation service.
   name: Krisp Voice Translation API
   slug: krisp-voice-translation-api
-artifact_total: 11
+artifact_total: 12
 asyncapis:
 - description: NOT PUBLISHED BY KRISP. Krisp publishes no AsyncAPI document. This is a faithful transcription by the API Evangelist enrichment pipeline of the WebSocket protocol Krisp documents in prose at https://s
   name: Krisp Voice Translation WebSocket API
@@ -71,6 +71,15 @@ collections:
   name: Krisp Developers SDK Distribution Voice Translation API
   slug: open-krisp-voice-translation-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/krisp/refs/heads/main/plans/krisp-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/krisp-plans-pricing.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://krisp.ai/blog/feed/
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/krisp/refs/heads/main/mcp/krisp-mcp.yml
   title: ''
@@ -237,31 +246,35 @@ created: '2026-07-17'
 description: 'Krisp is a Voice AI platform whose real-time speech-enhancement models run on over 200 million devices, licensed by Discord, Twilio, and VMware among others. Beyond its consumer AI Note Taker, Krisp ships a developer surface: the AI Voice SDK family (VIVA for voice AI agents — voice isolation, turn prediction, interruption prediction, VAD; and RTC for human-to-human calls — accent conversion, bidirectional noise cancellation, background voice cancellation) across Windows, macOS, Linux, Web (JS/WASM), iOS, and Android with C++, Python, Node.js, Go, Rust, and JavaScript bindings, plus framework integrations for LiveKit, WebRTC, and Pipecat. Krisp also runs a self-serve Voice Translation API — a streaming WebSocket speech-to-speech translation service covering 61 languages behind a REST session-token mint — and a programmatic SDK and model download REST API for CI/CD pipelines.'
 image: https://krisp.ai/wp-content/uploads/2025/08/thumb1.jpg
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Krisp
 nav: Providers
 network: true
-overview: 'Krisp publishes 2 APIs on the [APIs.io](https://apis.io/) network: SDK Distribution API and Voice Translation API. Tagged areas include Company, Artificial Intelligence, Voice AI, Speech, and Audio.
+overview: 'Krisp publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: SDK Distribution API and Voice Translation API. Tagged areas include Company, Artificial Intelligence, Voice AI, Speech, and Audio.
 
 
   The Krisp catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Krisp''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
+  Krisp''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 31 more developer resources.'
+plans:
+- name: Krisp Plans Pricing
+  plan_count: 10
+  slug: krisp-plans-pricing
 random_paper: 3
 score:
   band: developing
-  composite: 42.3
+  composite: 48.2
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 24
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 5.9
   facets:
-    access_clarity: 53.9
+    access_clarity: 85.5
     contract_governance: 18.2
     contract_quality: 22.4
     developer_ergonomics: 55.4
@@ -280,13 +293,13 @@ score:
     skills: derived
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 32.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

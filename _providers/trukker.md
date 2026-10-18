@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.trukker.com/feed/
 - group: company
   title: ''
   type: Website
@@ -65,18 +69,18 @@ created: '2026-07-17'
 description: TruKKer is a tech-enabled logistics and transportation company serving businesses across the EMEA region. Its platform uses AI-driven freight matching and smart route visibility to connect shippers with carriers for land freight, cross-border transport, rent-by-trip, and home and office moving, alongside services such as ProcureCo and TruKKer Safe. TruKKer was surfaced as a portfolio company of 500 Global and added to the API Evangelist network. During enrichment no public developer API, API documentation, SDK, CLI, MCP server, or /.well-known discovery surface was found on trukker.com; this profile captures the company's public web identity and a domain-security probe.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/trukker.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: TruKKer
 nav: Providers
 network: true
 overview: 'TruKKer is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Logistics, Transportation, Freight, and Supply Chain.
 
 
-  TruKKer''s developer surface includes engineering blog, support, and 4 more developer resources.'
+  TruKKer''s developer surface includes engineering blog, support, and 5 more developer resources.'
 random_paper: 6
 score:
   band: minimal
-  composite: 4.8
+  composite: 4.9
   coverage:
     artifact_dirs: 4
     catalog_earned: 27.0
@@ -84,7 +88,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
@@ -99,8 +103,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

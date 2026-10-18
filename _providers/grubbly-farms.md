@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 12.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'The machine-consumable surface of the Grubbly Farms Shopify storefront: a hosted Storefront MCP server for agentic product discovery and cart/checkout, plus a Customer Account OpenID Connect / OAuth 2'
@@ -41,6 +41,10 @@ apis:
   slug: grubbly-farms-storefront-shopify-mcp-customer-account
 artifact_total: 5
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://grubblyfarms.com/blogs/the-flyer.atom
 - group: company
   title: ''
   type: Website
@@ -112,14 +116,14 @@ mcp_servers:
 - description: Remote MCP server at grubblyfarms.com over HTTP; 5 tools listed.
   name: Grubbly Farms MCP Server
   slug: grubbly-farms-storefront
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Grubbly Farms
 nav: Providers
 network: true
-overview: 'Grubbly Farms publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Retail, Consumer Packaged Goods, and Pet & Animal.
+overview: 'Grubbly Farms is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Retail, Consumer Packaged Goods, and Pet & Animal.
 
 
-  Grubbly Farms'' developer surface includes support, engineering blog, signup flow, authentication, and 10 more developer resources.'
+  Grubbly Farms'' developer surface includes support, engineering blog, signup flow, authentication, and 11 more developer resources.'
 random_paper: 21
 scopes:
 - name: Grubbly Farms Scopes
@@ -130,7 +134,7 @@ score:
   band: emerging
   composite: 22.5
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -154,8 +158,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://deblock.com/en/press
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/deblock/refs/heads/main/security/deblock-domain-security.yml
   title: ''
@@ -86,31 +90,31 @@ created: '2026-07-17'
 description: Deblock is a fintech company offering a hybrid financial app that combines a fully licensed current account with a French IBAN and a Visa debit card alongside a self-custodial (non-custodial) crypto wallet, so customers hold their own private keys while spending fiat and crypto in everyday life. Founded by former Revolut and Ledger team members and registered with France's AMF as a digital-asset service provider, Deblock lets users buy, sell and swap crypto through an integrated exchange, earn interest on their current account balance, and round spare change up into Bitcoin. Its consumer product is delivered as a mobile app under the tagline "Own Your Money"; Deblock does not currently publish a public developer API, portal, or documentation. This profile was added to the API Evangelist network from the Speedinvest venture portfolio.
 image: https://deblock.com/favicon.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Deblock
 nav: Providers
 network: true
 overview: 'Deblock is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Banking, Neobank, and Cryptocurrency.
 
 
-  Deblock''s developer surface includes signup flow, pricing, support, and 8 more developer resources.'
+  Deblock''s developer surface includes engineering blog, signup flow, pricing, support, and 8 more developer resources.'
 random_paper: 20
 score:
   band: emerging
-  composite: 15.7
+  composite: 16.2
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 6
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 44.7
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 4.8
+    developer_ergonomics: 7.1
     discoverability: 48.2
     operational_transparency: 18.4
   previous_composite: 15.7
@@ -120,8 +124,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 11.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

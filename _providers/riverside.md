@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -98,6 +98,21 @@ collections:
   name: Riverside Business Exports Webinars API
   slug: open-riverside-webinars-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/riverside/refs/heads/main/plans/riverside-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/riverside-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/riverside/refs/heads/main/rate-limits/riverside-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/riverside-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/riverside/refs/heads/main/finops/riverside-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/riverside-finops.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -180,9 +195,13 @@ examples:
   name: Riverside List Recordings Example
   slug: riverside-list-recordings-example
 finops:
-- name: Riverside Finops
+- has_sources: false
+  method: generated
+  name: Riverside Finops
+  primary_unit: ''
   service_category: API
   slug: riverside-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/riverside.png
 json_schemas:
 - name: Riverside Recording
@@ -202,13 +221,13 @@ modified: '2026-05-19'
 name: Riverside
 nav: Providers
 network: true
-overview: 'Riverside publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Exports API, Productions API, Recordings API, and 1 more. Tagged areas include Podcasts, Video Recording, Media, Content Creation, and Audio.
+overview: 'Riverside publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Exports API, Productions API, Recordings API, and 1 more. Tagged areas include Podcasts, Video Recording, Media, Content Creation, and Audio.
 
 
   The Riverside catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Riverside''s developer surface includes authentication, documentation, support, pricing, engineering blog, signup flow, and 12 more developer resources.'
+  Riverside''s developer surface includes authentication, documentation, support, pricing, engineering blog, signup flow, and 15 more developer resources.'
 plans:
 - name: Riverside Plans Pricing
   plan_count: 3
@@ -219,10 +238,11 @@ rate_limits:
   name: Riverside Rate Limits
   slug: riverside-rate-limits
 rules:
-- effective_rule_count: 52
+- authorship: unmarked
+  effective_rule_count: 52
   extends:
   - spectral:oas
-  name: Riverside API Rules
+  name: Riverside — business rules
   rule_count: 11
   severity_counts:
     error: 3
@@ -230,9 +250,10 @@ rules:
     info: 4
     warn: 4
   slug: riverside-business-rules
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Riverside API Rules
+  name: Riverside — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -242,18 +263,18 @@ rules:
   slug: riverside-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 48.2
+  composite: 42.5
   coverage:
     artifact_dirs: 19
-    catalog_earned: 80.1
+    catalog_earned: 65.4
     catalog_earned_first_party: 0.0
-    catalog_gap: 34.9
+    catalog_gap: 49.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.7
   facets:
-    access_clarity: 43.4
-    contract_governance: 62.7
+    access_clarity: 35.5
+    contract_governance: 27.3
     contract_quality: 59.8
     developer_ergonomics: 41.7
     discoverability: 73.2
@@ -272,9 +293,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

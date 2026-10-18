@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 15.5
-  scored_at: '2026-10-04'
+  score: 13.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: REST API for searching scientific reagents, experimental data, literature, antibodies, and accelerating preclinical drug discovery workflows. Provides programmatic access to BenchSci's curated databas
@@ -102,16 +102,20 @@ common:
 created: '2026-06-13'
 description: BenchSci is an AI-powered biopharma R&D platform offering EMET, an integrated biology workbench for autonomous preclinical drug discovery. The platform provides access to 85M+ reagent and model system records (including 16M antibodies, 22M RNAi entries, and 18M CRISPR records), 38M+ scientific publications curated by PhD scientists, and an 858M-node knowledge graph. BenchSci enables scientists to search scientific reagents, experimental data, and literature through REST APIs and agentic workflows, accelerating target identification, experiment design, and lead optimization for biopharma research.
 finops:
-- name: Benchsci Finops
+- has_sources: false
+  method: generated
+  name: Benchsci Finops
+  primary_unit: ''
   service_category: ''
   slug: benchsci-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/benchsci.png
 layout: provider
 modified: '2026-06-13'
 name: BenchSci
 nav: Providers
 network: true
-overview: 'BenchSci publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Biopharma, Drug Discovery, Artificial Intelligence, Reagents, and Antibodies.
+overview: 'BenchSci is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Biopharma, Drug Discovery, Artificial Intelligence, Reagents, and Antibodies.
 
 
   BenchSci''s developer surface includes documentation, engineering blog, pricing, and 10 more developer resources.'
@@ -125,18 +129,18 @@ rate_limits:
   name: Benchsci Rate Limits
   slug: benchsci-rate-limits
 score:
-  band: thin
-  composite: 26.6
+  band: emerging
+  composite: 21.0
   coverage:
     artifact_dirs: 8
-    catalog_earned: 50.8
+    catalog_earned: 40.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 64.2
+    catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.6
   facets:
-    access_clarity: 54.7
+    access_clarity: 26.3
     contract_governance: 0.0
     contract_quality: 24.0
     developer_ergonomics: 11.9
@@ -149,9 +153,9 @@ score:
     regime: Health
     regime_id: health
     score: 12.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -165,7 +169,7 @@ security:
 - kind: vulnerability-disclosure
   name: Benchsci Vulnerability Disclosure
   slug: benchsci-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 - kind: trust-center
   name: Benchsci Trust Center
   slug: benchsci-trust-center

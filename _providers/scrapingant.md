@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -44,7 +44,7 @@ agentic_access:
   operation_count: 6
   slug: scrapingant-agentic-access
   summary_line: 6 operations · 4 acting
-api_count: 2
+api_count: 3
 apis:
 - description: ScrapingAnt is a web scraping API service that handles proxy rotation, headless browsers, and CAPTCHA solving for reliable web data extraction.
   name: ScrapingAnt
@@ -232,9 +232,13 @@ common:
 created: '2026-03-29'
 description: ScrapingAnt is a web-data infrastructure platform operated by DATAANT that puts headless Chrome rendering, a rotating pool of 3M+ residential and datacenter proxies, CAPTCHA avoidance and AI-powered extraction behind a single HTTP API. One request returns a fully JavaScript-rendered page as raw HTML, as LLM-ready Markdown, as an extended JSON envelope carrying cookies, headers, XHRs and iframes, or as structured JSON described in plain English. A hosted, remote MCP server exposes three of those formats as native tools to Claude, Cursor, Windsurf, Cline and VS Code, so an AI agent gets live web access without running a browser locally. Billing is metered in API credits with a permanently free 10,000-credit monthly tier; standalone rotating proxies are sold separately by bandwidth.
 finops:
-- name: Scrapingant Finops
+- has_sources: false
+  method: generated
+  name: Scrapingant Finops
+  primary_unit: ''
   service_category: API
   slug: scrapingant-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/scrapingant.png
 layout: provider
 mcp_servers:
@@ -245,7 +249,7 @@ modified: '2026-08-29'
 name: ScrapingAnt
 nav: Providers
 network: true
-overview: 'ScrapingAnt publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Scraping API, Usage API, General API, and 2 more. Tagged areas include Data Extraction, Proxies, Scraping, Web Scraping, and Headless Browser.
+overview: 'ScrapingAnt publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Scraping API, Usage API, General API, and 2 more. Tagged areas include Data Extraction, Proxies, Web Scraping, Headless Browser, and AI Agents.
 
 
   ScrapingAnt''s developer surface includes authentication, documentation, engineering blog, API reference, getting-started guide, pricing, signup flow, and 26 more developer resources.'
@@ -260,21 +264,21 @@ rate_limits:
   slug: scrapingant-rate-limits
 score:
   band: developing
-  composite: 51.2
+  composite: 50.2
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 64.0
     catalog_earned_first_party: 24.0
     catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.0
   facets:
-    access_clarity: 72.4
+    access_clarity: 64.5
     contract_governance: 4.5
     contract_quality: 47.3
     developer_ergonomics: 63.7
-    discoverability: 68.3
+    discoverability: 73.3
     operational_transparency: 34.2
   previous_composite: 51.2
   provenance:
@@ -293,8 +297,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -313,7 +317,6 @@ slug: scrapingant
 tags:
 - Data Extraction
 - Proxies
-- Scraping
 - Web Scraping
 - Headless Browser
 - AI Agents

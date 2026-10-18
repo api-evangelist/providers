@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 4
 apis:
 - description: The Component Model specification repository under the W3C WebAssembly Community Group. Contains design documents, the formal specification drafts, the WIT grammar, the canonical ABI, and the binary a
@@ -50,6 +50,21 @@ apis:
   slug: bytecode-alliance-implementations
 artifact_total: 8
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/component-model/refs/heads/main/plans/component-model-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/component-model-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/component-model/refs/heads/main/rate-limits/component-model-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/component-model-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/component-model/refs/heads/main/finops/component-model-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/component-model-finops.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -94,19 +109,23 @@ common:
 created: '2025-01-01'
 description: The WebAssembly Component Model is a broad-reaching architecture for building interoperable WebAssembly libraries, applications, and environments. It defines components as portable, sandboxed units of code that can compose with each other across language and runtime boundaries. The model introduces interfaces, worlds, and the WebAssembly Interface Type (WIT) language, along with a canonical ABI, binary and text formats, and a concurrency model. The Component Model underpins the WebAssembly System Interface (WASI) Preview 2 and is the foundation for portable Wasm on browsers, servers, edge, and embedded environments.
 finops:
-- name: Component Model Finops
+- has_sources: false
+  method: generated
+  name: Component Model Finops
+  primary_unit: ''
   service_category: API
   slug: component-model-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/component-model.png
 layout: provider
 modified: '2026-04-28'
 name: Component Model
 nav: Providers
 network: true
-overview: 'Component Model publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include ABI, Bytecode Alliance, Components, Interfaces, and Modular.
+overview: 'Component Model is listed with 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include ABI, Bytecode Alliance, Components, Interfaces, and Modular.
 
 
-  Component Model''s developer surface includes documentation and 9 more developer resources.'
+  Component Model''s developer surface includes documentation and 12 more developer resources.'
 plans:
 - name: Component Model Plans Pricing
   plan_count: 3
@@ -118,17 +137,17 @@ rate_limits:
   slug: component-model-rate-limits
 score:
   band: emerging
-  composite: 12.7
+  composite: 11.2
   coverage:
     artifact_dirs: 6
-    catalog_earned: 44.0
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 71.0
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 16.7
@@ -141,8 +160,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

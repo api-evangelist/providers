@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -54,7 +54,7 @@ apis:
   description: OpenAI-compatible chat completion inference.
   name: Sahara AI Inference API
   slug: sahara-ai-inference-api
-artifact_total: 8
+artifact_total: 9
 collections:
 - collection_type: open
   name: API Collection
@@ -66,6 +66,11 @@ collections:
   name: Sahara AI Compute Discovery Inference API
   slug: open-sahara-ai-inference-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sahara-ai/refs/heads/main/plans/sahara-ai-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/sahara-ai-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/sahara-ai/refs/heads/main/capabilities/sahara-ai-capability-edges.yml
   title: ''
@@ -177,16 +182,20 @@ modified: '2026-07-21'
 name: Sahara AI
 nav: Providers
 network: true
-overview: 'Sahara AI publishes 2 APIs on the [APIs.io](https://apis.io/) network: Discovery API and Inference API. Tagged areas include Company, Crypto, Artificial Intelligence, Machine Learning, and Agents.
+overview: 'Sahara AI publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Discovery API and Inference API. Tagged areas include Company, Cryptocurrency, Artificial Intelligence, Machine Learning, and Agents.
 
 
-  Sahara AI''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 16 more developer resources.'
+  Sahara AI''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 17 more developer resources.'
+plans:
+- name: Sahara Ai Plans Pricing
+  plan_count: 0
+  slug: sahara-ai-plans-pricing
 random_paper: 13
 score:
   band: developing
   composite: 42.4
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 23
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -217,8 +226,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -236,7 +245,7 @@ security:
 slug: sahara-ai
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Artificial Intelligence
 - Machine Learning
 - Agents

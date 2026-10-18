@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: API to access annual reports of public US companies
@@ -65,7 +65,7 @@ modified: '2026-05-28'
 name: SEC EDGAR Data
 nav: Providers
 network: true
-overview: 'SEC EDGAR Data publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Finance and Public APIs.
+overview: 'SEC EDGAR Data is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Finance and Public APIs.
 
 
   SEC EDGAR Data''s developer surface includes engineering blog and 3 more developer resources.'
@@ -95,8 +95,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

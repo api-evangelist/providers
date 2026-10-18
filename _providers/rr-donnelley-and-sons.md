@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 8
 common:
@@ -199,9 +199,10 @@ rate_limits:
   name: Rr Donnelley And Sons Rate Limits
   slug: rr-donnelley-and-sons-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: RR Donnelley And Sons API Rules
+  name: RR Donnelley And Sons — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -236,8 +237,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

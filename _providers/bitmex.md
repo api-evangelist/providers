@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 14.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Real-Time Cryptocurrency derivatives trading platform based in Hong Kong
@@ -74,7 +74,7 @@ modified: '2026-05-29'
 name: Bitmex
 nav: Providers
 network: true
-overview: 'Bitmex publishes 1 API on the [APIs.io](https://apis.io/) network: Bitmex. Tagged areas include Cryptocurrency, Public APIs, and Real-Time.
+overview: 'Bitmex is listed with 1 API on the [APIs.io](https://apis.io/) network: Bitmex. Tagged areas include Cryptocurrency, Public APIs, and Real-Time.
 
 
   The Bitmex catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -83,10 +83,11 @@ overview: 'Bitmex publishes 1 API on the [APIs.io](https://apis.io/) network: Bi
   Bitmex''s developer surface includes engineering blog and 4 more developer resources.'
 random_paper: 11
 rules:
-- effective_rule_count: 37
+- authorship: generated
+  effective_rule_count: 37
   extends:
   - spectral:asyncapi
-  name: Bitmex API Rules
+  name: Bitmex — asyncapi rules
   rule_count: 10
   severity_counts:
     error: 1
@@ -96,15 +97,15 @@ rules:
   slug: bitmex-asyncapi-spectral-rules
 score:
   band: emerging
-  composite: 19.0
+  composite: 19.1
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 26.5
     catalog_earned_first_party: 0.0
     catalog_gap: 88.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 0.0
     contract_governance: 13.6
@@ -124,8 +125,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: The Brief's versioned REST API for creative automation — list and search designs, templates and brand templates, read a template's editable elements and size variants, submit exports with element chan
@@ -203,7 +203,7 @@ modified: '2026-08-12'
 name: TheBrief
 nav: Providers
 network: true
-overview: 'TheBrief publishes 2 APIs on the [APIs.io](https://apis.io/) network, including The Brief Public GraphQL API, and 1 more. Tagged areas include Company, Advertising, Creative, Design, and Artificial Intelligence.
+overview: 'TheBrief is listed with 2 APIs on the [APIs.io](https://apis.io/) network, including The Brief Public GraphQL API, and 1 more. Tagged areas include Company, Advertising, Creative, Design, and Artificial Intelligence.
 
 
   The TheBrief catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -247,8 +247,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

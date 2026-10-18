@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 5.0
-  scored_at: '2026-10-04'
+  score: 3.1
+  scored_at: '2026-10-17'
 api_count: 8
 apis:
 - description: api.ui.ac.id is a Kong Enterprise 3.3.1.0 API gateway operated by the university on its own network. Every probed path — /, /v1, /status, /docs, /openapi.json, /oauth2/token, /.well-known/openid-confi
@@ -169,9 +169,13 @@ created: '2026-06-03'
 description: 'University of Indonesia (Universitas Indonesia, UI) is a public research university in Depok and Salemba, Jakarta, the highest-ranked university in Indonesia. Its programmable footprint is real but almost entirely closed. UI operates its own Kong Enterprise API gateway at api.ui.ac.id on its own network allocation (152.118.0.0/16, APNIC "INDONESIAUNI-ID"), a campus-wide CAS Single Sign-On at sso.ui.ac.id, an institution-hosted Moodle learning platform at emas2.ui.ac.id exposing Moodle Web Services and an LTI 1.3 platform endpoint, and the LONTAR library OPAC at lib.ui.ac.id. Every one of those is credential-gated: the gateway answers 401 {"message":"Unauthorized"} on every probed path, the LMS web service rejects anonymous calls with invalidtoken, and no developer portal, API reference, OpenAPI description, key issuance or client registration exists anywhere on the public surface. The two research-discovery surfaces that DO answer anonymously are vendor tenancies on UI hostnames,
   not UI engineering — scholarhub.ui.ac.id CNAMEs to bepress (Digital Commons) and scholar.ui.ac.id CNAMEs to ui.elsevierpure.com (Elsevier Pure Portal) — and are recorded here as tenant relationships with the vendor contracts deliberately left in the vendors'' own repositories. UI is a Crossref member (4386, prefix 10.7454) and carries a ROR identifier. The main web estate at www.ui.ac.id sits behind an F5 bot-defense interstitial that returns HTTP 200 for every path including ones that do not exist, so no claim in this profile rests on a status code from that host.'
 finops:
-- name: University Of Indonesia Finops
+- has_sources: true
+  method: generated
+  name: University Of Indonesia Finops
+  primary_unit: ''
   service_category: Education
   slug: university-of-indonesia-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/university-of-indonesia.png
 jsonld:
 - class_count: 25
@@ -183,7 +187,7 @@ modified: '2026-09-16'
 name: University of Indonesia
 nav: Providers
 network: true
-overview: 'University of Indonesia publishes 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Higher Education, University, Indonesia, and Southeast Asia.
+overview: 'University of Indonesia is listed with 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Higher Education, University, Indonesia, and Southeast Asia.
 
 
   The University of Indonesia catalog on APIs.io includes 1 JSON-LD context.
@@ -201,22 +205,22 @@ rate_limits:
   slug: university-of-indonesia-rate-limits
 score:
   band: emerging
-  composite: 22.6
+  composite: 16.6
   coverage:
     artifact_dirs: 9
-    catalog_earned: 60.4
+    catalog_earned: 47.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 54.6
+    catalog_gap: 68.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -2.9
+  delta: -6.0
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 18.2
     contract_quality: 14.3
     developer_ergonomics: 9.5
     discoverability: 62.5
-    operational_transparency: 18.9
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -224,7 +228,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - southeast-asia
-  previous_composite: 25.5
+  previous_composite: 22.6
   provenance:
     conformance: first-party
   regulatory:
@@ -233,13 +237,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-indonesia/refs/heads/main/screenshots/university-of-indonesia-2026-10-11T131504.png
 security:
 - kind: domain-security
   name: University Of Indonesia Domain Security
@@ -257,7 +262,7 @@ tags:
 - OAI-PMH
 - Identity
 - SSO
-- Learning Management
+- LMS
 - Library
 - API Gateway
 - Identity Federation

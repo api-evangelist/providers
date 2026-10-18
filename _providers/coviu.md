@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -245,7 +245,7 @@ modified: '2026-07-24'
 name: Coviu
 nav: Providers
 network: true
-overview: 'Coviu publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Collections API, Participants API, and 4 more. Tagged areas include Healthcare, Telehealth, Australia, Virtual Care, and Video.
+overview: 'Coviu publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Auth API, Collections API, Participants API, and 4 more. Tagged areas include Healthcare, Telehealth, Australia, Virtual Care, and Video.
 
 
   The Coviu catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -306,8 +306,8 @@ score:
     regime: Health
     regime_id: health
     score: 36.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

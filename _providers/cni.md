@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: The CNI specification defines the interface between container runtimes and network plugins. It specifies how runtimes invoke plugins via environment variables (CNI_COMMAND, CNI_CONTAINERID, CNI_NETNS,
@@ -44,6 +44,21 @@ apis:
   slug: cni-plugins
 artifact_total: 10
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/cni/refs/heads/main/plans/cni-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/cni-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cni/refs/heads/main/rate-limits/cni-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/cni-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/cni/refs/heads/main/finops/cni-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/cni-finops.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -107,9 +122,13 @@ common:
 created: '2026-03-16'
 description: CNI (Container Network Interface) is a CNCF-incubating project that defines a specification and libraries for configuring network interfaces in Linux containers. It provides a simple exec/stdin interface between the container runtime and network implementation plugins, enabling pluggable networking for Kubernetes and other container orchestrators. The CNI spec defines four operations (ADD, DEL, CHECK, VERSION), a network configuration document format, and a plugin Result document. CNI also publishes a collection of reference plugins (bridge, ipvlan, macvlan, host-device, ptp, loopback) and meta-plugins (portmap, bandwidth, firewall, sbr).
 finops:
-- name: Cni Finops
+- has_sources: false
+  method: generated
+  name: Cni Finops
+  primary_unit: ''
   service_category: API
   slug: cni-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cni.png
 json_schemas:
 - name: CNI Network Configuration
@@ -128,13 +147,13 @@ modified: '2026-04-23'
 name: Container Network Interface (CNI)
 nav: Providers
 network: true
-overview: 'Container Network Interface (CNI) publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Cloud-Native, Containers, Incubating, Kubernetes, and Networking.
+overview: 'Container Network Interface (CNI) is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Cloud-Native, Containers, Incubating, Kubernetes, and Networking.
 
 
   The Container Network Interface (CNI) catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Container Network Interface (CNI)''s developer surface includes documentation and 13 more developer resources.'
+  Container Network Interface (CNI)''s developer surface includes documentation and 16 more developer resources.'
 plans:
 - name: Cni Plans Pricing
   plan_count: 3
@@ -145,9 +164,10 @@ rate_limits:
   name: Cni Rate Limits
   slug: cni-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: Container Network Interface (CNI) API Rules
+  name: Container Network Interface (CNI) — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -157,17 +177,17 @@ rules:
   slug: cni-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 25.4
+  composite: 24.0
   coverage:
-    artifact_dirs: 9
-    catalog_earned: 61.3
+    artifact_dirs: 10
+    catalog_earned: 58.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.8
+    catalog_gap: 56.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.4
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 9.8
     contract_quality: 22.7
     developer_ergonomics: 9.5
@@ -183,8 +203,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

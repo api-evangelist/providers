@@ -35,10 +35,15 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 4
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/harmonya/refs/heads/main/rate-limits/harmonya-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/harmonya-rate-limits.yml
 - group: company
   title: ''
   type: Website
@@ -114,7 +119,7 @@ network: true
 overview: 'Harmonya is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Product Intelligence, Product Data, Data Enrichment, and Consumer Packaged Goods.
 
 
-  Harmonya''s developer surface includes engineering blog, support, signup flow, and 7 more developer resources.'
+  Harmonya''s developer surface includes engineering blog, support, signup flow, and 8 more developer resources.'
 plans:
 - name: Harmonya Plans Pricing
   plan_count: 0
@@ -128,7 +133,7 @@ score:
   band: emerging
   composite: 13.5
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -148,6 +153,7 @@ score:
     - israel
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
+    - mena
     - middle-east
   previous_composite: 13.5
   regulatory:
@@ -156,8 +162,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

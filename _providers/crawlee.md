@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: The Crawlee JavaScript SDK is a Node.js/TypeScript library for building reliable web scrapers and crawlers. It provides a family of crawler classes - BasicCrawler, HttpCrawler, CheerioCrawler, JSDOMCr
@@ -44,6 +44,21 @@ apis:
   slug: crawlee-python-sdk
 artifact_total: 6
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/crawlee/refs/heads/main/plans/crawlee-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/crawlee-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/crawlee/refs/heads/main/rate-limits/crawlee-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/crawlee-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/crawlee/refs/heads/main/finops/crawlee-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/crawlee-finops.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -158,19 +173,23 @@ common:
 created: '2025-02-08'
 description: Crawlee is an open-source web scraping and crawling library maintained by Apify, providing a unified set of crawler classes, request queues, datasets, and key-value stores for building reliable scrapers. It is available for both JavaScript/TypeScript (Node.js) and Python, offering HTTP, Cheerio, JSDOM, LinkeDOM, Puppeteer, Playwright, and Stagehand crawler implementations along with proxy and session management utilities for production-grade scraping.
 finops:
-- name: Crawlee Finops
+- has_sources: true
+  method: searched
+  name: Crawlee Finops
+  primary_unit: ''
   service_category: Open Source Library
   slug: crawlee-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/crawlee.png
 layout: provider
 modified: '2026-09-07'
 name: Crawlee
 nav: Providers
 network: true
-overview: 'Crawlee publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Apache 2.0, Apify, Browser Automation, Crawlers, and Harvesting.
+overview: 'Crawlee is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Apache 2.0, Apify, Browser Automation, Crawlers, and Harvesting.
 
 
-  Crawlee''s developer surface includes documentation, engineering blog, changelog, CLI, and 21 more developer resources.'
+  Crawlee''s developer surface includes documentation, engineering blog, changelog, CLI, and 24 more developer resources.'
 plans:
 - name: Crawlee Plans Pricing
   plan_count: 0
@@ -182,17 +201,17 @@ rate_limits:
   slug: crawlee-rate-limits
 score:
   band: thin
-  composite: 28.1
+  composite: 26.8
   coverage:
     artifact_dirs: 17
-    catalog_earned: 35.0
+    catalog_earned: 32.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 80.0
+    catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.3
   facets:
-    access_clarity: 7.9
+    access_clarity: 0.0
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 64.3
@@ -212,8 +231,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -238,7 +257,7 @@ tags:
 - Playwright
 - Puppeteer
 - Python
-- Scraping
+- Web Scraping
 - Web
 website: https://crawlee.dev/
 ---

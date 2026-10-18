@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The REST API behind the Hnry app. It backs the Hnry iOS/Android clients and the published Hnry Zapier integration, which exposes create/find operations over clients, invoices, invoice line items and e
@@ -154,7 +154,7 @@ modified: '2026-08-22'
 name: Hnry
 nav: Providers
 network: true
-overview: 'Hnry publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Accounting, Tax, Payments, Invoicing, and Expense Management.
+overview: 'Hnry is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Accounting, Tax, Payments, Invoicing, and Expense Management.
 
 
   Hnry''s developer surface includes pricing, signup flow, support, engineering blog, authentication, and 17 more developer resources.'
@@ -205,8 +205,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 32.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

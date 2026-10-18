@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 0
@@ -361,7 +361,7 @@ modified: '2026-07-18'
 name: Defacto
 nav: Providers
 network: true
-overview: 'Defacto publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Accounting API, Billing API, Business and accounts API, and 15 more. Tagged areas include Company, Fintech, Embedded Finance, Lending, and Working Capital.
+overview: 'Defacto publishes 18 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounting API, Billing API, Business and accounts API, and 15 more. Tagged areas include Company, Fintech, Embedded Finance, Lending, and Working Capital.
 
 
   The Defacto catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
@@ -373,7 +373,7 @@ score:
   band: developing
   composite: 45.3
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -418,8 +418,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

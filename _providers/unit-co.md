@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 8
@@ -45,94 +45,94 @@ agentic_access:
   operation_count: 138
   slug: unit-co-agentic-access
   summary_line: 138 operations · 73 acting · 8 human-in-the-loop
-api_count: 18
+api_count: 20
 apis:
-- baseURL: https://api.s.unit.sh
+- baseURL: https://api.unit.co
   baseurl_source: declared
   description: Deposit and credit accounts.
   name: Unit Accounts API
   slug: unit-co-accounts-api
-- baseURL: https://api.s.unit.sh
+- baseURL: https://api.unit.co
   baseurl_source: declared
   description: Org-level and customer-level authentication tokens.
   name: Unit API Tokens API
   slug: unit-co-api-tokens-api
-- baseURL: https://api.s.unit.sh
+- baseURL: https://api.unit.co
   baseurl_source: declared
   description: Individual and business application onboarding (KYC/KYB).
   name: Unit Applications API
   slug: unit-co-applications-api
-- baseURL: https://api.s.unit.sh
+- baseURL: https://api.unit.co
   baseurl_source: declared
   description: Completed card authorizations and real-time authorization requests.
   name: Unit Authorizations API
   slug: unit-co-authorizations-api
-- baseURL: https://api.s.unit.sh
+- baseURL: https://api.unit.co
   baseurl_source: declared
   description: Debit and credit card issuance and management.
   name: Unit Cards API
   slug: unit-co-cards-api
-- baseURL: https://api.s.unit.sh
+- baseURL: https://api.unit.co
   baseurl_source: declared
   description: Check deposits and outbound check payments.
   name: Unit Checks API
   slug: unit-co-checks-api
-- baseURL: https://api.s.unit.sh
+- baseURL: https://api.unit.co
   baseurl_source: declared
   description: External bank accounts and routing-number institution lookups.
   name: Unit Counterparties API
   slug: unit-co-counterparties-api
-- baseURL: https://api.s.unit.sh
+- baseURL: https://api.unit.co
   baseurl_source: declared
   description: Repayments on credit accounts and receivables.
   name: Unit Credit and Repayments API
   slug: unit-co-credit-and-repayments-api
-- baseURL: https://api.s.unit.sh
+- baseURL: https://api.unit.co
   baseurl_source: declared
   description: Customer profiles created from approved applications.
   name: Unit Customers API
   slug: unit-co-customers-api
-- baseURL: https://api.s.unit.sh
+- baseURL: https://api.unit.co
   baseurl_source: declared
   description: Platform activity log.
   name: Unit Events API
   slug: unit-co-events-api
-- baseURL: https://api.s.unit.sh
+- baseURL: https://api.unit.co
   baseurl_source: declared
   description: Ad hoc fees and cashback-style rewards.
   name: Unit Fees and Rewards API
   slug: unit-co-fees-and-rewards-api
-- baseURL: https://api.s.unit.sh
+- baseURL: https://api.unit.co
   baseurl_source: declared
   description: Book, ACH, wire, recurring, and cash-deposit payments.
   name: Unit Payments API
   slug: unit-co-payments-api
-- baseURL: https://api.s.unit.sh
+- baseURL: https://api.unit.co
   baseurl_source: declared
   description: Stop payments and card/ACH disputes.
   name: Unit Risk and Fraud API
   slug: unit-co-risk-and-fraud-api
-- baseURL: https://api.s.unit.sh
+- baseURL: https://api.unit.co
   baseurl_source: declared
   description: Monthly account statements.
   name: Unit Statements API
   slug: unit-co-statements-api
-- baseURL: https://api.s.unit.sh
+- baseURL: https://api.unit.co
   baseurl_source: declared
   description: Annual tax documents.
   name: Unit Tax Forms API
   slug: unit-co-tax-forms-api
-- baseURL: https://api.s.unit.sh
+- baseURL: https://api.unit.co
   baseurl_source: declared
   description: Posted, immutable ledger entries.
   name: Unit Transactions API
   slug: unit-co-transactions-api
-- baseURL: https://api.s.unit.sh
+- baseURL: https://api.unit.co
   baseurl_source: declared
   description: Subscriptions that deliver events as signed HTTP callbacks.
   name: Unit Webhooks API
   slug: unit-co-webhooks-api
-artifact_total: 79
+artifact_total: 86
 asyncapis:
 - description: ''
   name: Unit Co Events Webhooks
@@ -295,6 +295,54 @@ collections:
   name: Unit API
   slug: open-unit-co
 common:
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/unit-co/refs/heads/main/rules/unit-co-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/unit-co-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/unit-co/refs/heads/main/json-ld/unit-co-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/unit-co-context.jsonld
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/unit-co/refs/heads/main/vocabulary/unit-co-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/unit-co-vocabulary.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/unit-co/refs/heads/main/errors/unit-co-decline-codes.yml
+  title: ''
+  type: DeclineCodes
+  url: errors/unit-co-decline-codes.yml
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/unit-co/refs/heads/main/well-known/unit-co-status-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/unit-co-status-security.txt
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/unit-co/refs/heads/main/well-known/unit-co-well-known.yml
+  title: ''
+  type: WellKnown
+  url: well-known/unit-co-well-known.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/unit-co/refs/heads/main/hosts/unit-co-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/unit-co-hosts.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/unit-co/refs/heads/main/vendors/unit-co-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/unit-co-vendors.yml
+- group: operate
+  title: ''
+  type: Support
+  url: https://support.unit.co/hc/en-us
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://www.unit.co/resources/press
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/unit-co/refs/heads/main/capabilities/unit-co-capability-edges.yml
   title: ''
@@ -496,31 +544,69 @@ common:
 created: '2026-07-02'
 description: Unit is a Banking-as-a-Service (BaaS) platform that lets companies embed deposit accounts, cards, payments, and lending into their own products without becoming a bank. A single REST API, built on the JSON:API specification (media type application/vnd.api+json) and secured with Bearer/JWT tokens, covers onboarding (Applications), Customers, Deposit and Credit Accounts, Debit and Credit Cards, real-time card Authorizations, Payments (Book, ACH, Wire, Recurring, Cash Deposits), Counterparties, Checks, Transactions, Statements, Tax Forms, Fees, Rewards, Credit and Repayments, and Events delivered as signed HTTP webhooks. Unit publishes an official OpenAPI 3.0.2 specification (github.com/unit-finance/openapi-unit-sdk) plus generated Node.js, Python, Ruby, and Java SDKs. Sandbox runs at api.s.unit.sh; production access is provisioned per signed BaaS agreement with Unit's partner banks.
 finops:
-- name: Unit Co Finops
+- has_sources: true
+  method: generated
+  name: Unit Co Finops
+  primary_unit: ''
   service_category: Banking as a Service
   slug: unit-co-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/unit-co.png
+json_schemas:
+- name: CreateAccountRequest
+  property_count: 1
+  slug: unit-co-create-account-request
+- name: CreateApplicationRequest
+  property_count: 1
+  slug: unit-co-create-application-request
+- name: CreateCardRequest
+  property_count: 1
+  slug: unit-co-create-card-request
+- name: CreatePaymentRequest
+  property_count: 1
+  slug: unit-co-create-payment-request
+- name: CreateWebhookRequest
+  property_count: 1
+  slug: unit-co-create-webhook-request
+jsonld:
+- class_count: 10
+  name: Unit Co Context
+  property_count: 13
+  slug: unit-co-context
 layout: provider
 modified: '2026-08-08'
 name: Unit
 nav: Providers
 network: true
-overview: 'Unit publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, API Tokens API, Applications API, and 14 more. Tagged areas include Fintech, Banking as a Service, Banking, Payments, and Card Issuing.
+overview: 'Unit publishes 17 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, API Tokens API, Applications API, and 14 more. Tagged areas include Fintech, Banking as a Service, Banking, Payments, and Card Issuing.
 
 
-  The Unit catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Unit catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Unit''s developer surface includes authentication, documentation, engineering blog, API reference, getting-started guide, signup flow, sandbox, and 36 more developer resources.'
+  Unit''s developer surface includes support, authentication, documentation, engineering blog, API reference, getting-started guide, signup flow, and 46 more developer resources.'
 plans:
 - name: Unit Co Plans Pricing
-  plan_count: 2
+  plan_count: 0
   slug: unit-co-plans-pricing
 random_paper: 21
 rate_limits:
-- limit_count: 4
+- limit_count: 2
   name: Unit Co Rate Limits
   slug: unit-co-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 53
+  extends:
+  - spectral:oas
+  name: Unit API Rules
+  rule_count: 12
+  severity_counts:
+    error: 10
+    hint: 0
+    info: 1
+    warn: 1
+  slug: unit-co-rules
 scopes:
 - name: Unit Co Scopes
   scope_count: 46
@@ -528,23 +614,23 @@ scopes:
   summary_line: 46 scopes
 score:
   band: strong
-  composite: 65.0
+  composite: 64.7
   coverage:
-    artifact_dirs: 28
-    catalog_earned: 61.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 54.0
+    artifact_dirs: 36
+    catalog_earned: 70.2
+    catalog_earned_first_party: 8.0
+    catalog_gap: 44.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -0.3
   facets:
-    access_clarity: 63.7
-    contract_governance: 18.2
-    contract_quality: 49.9
-    developer_ergonomics: 73.2
-    discoverability: 78.6
-    operational_transparency: 88.9
-  previous_composite: 64.5
+    access_clarity: 36.8
+    contract_governance: 35.6
+    contract_quality: 60.9
+    developer_ergonomics: 78.0
+    discoverability: 80.4
+    operational_transparency: 81.6
+  previous_composite: 65.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -561,8 +647,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -580,7 +666,7 @@ security:
 - kind: vulnerability-disclosure
   name: Unit Co Vulnerability Disclosure
   slug: unit-co-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 - kind: trust-center
   name: Unit Co Trust Center
   slug: unit-co-trust-center

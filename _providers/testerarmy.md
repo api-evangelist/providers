@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 31.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://tester.army/api/v1
@@ -88,6 +88,10 @@ collections:
   name: TestArmy Groups Webhooks API
   slug: open-testerarmy-webhooks-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://tester.army/blog/feed.xml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/testerarmy/refs/heads/main/capabilities/testerarmy-capability-edges.yml
   title: ''
@@ -230,29 +234,29 @@ mcp_servers:
 - description: Official hosted MCP server for TesterArmy documentation (Claude Code, Cursor, etc.). It serves docs/search; it is not a wrapper of the REST API.
   name: Testerarmy MCP Server
   slug: testerarmy-docs
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Testerarmy
 nav: Providers
 network: true
-overview: 'Testerarmy publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Groups API, Projects API, Test Runs API, and 2 more. Tagged areas include Company, QA, Software Testing, Browser Automation, and AI Agents.
+overview: 'Testerarmy publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Groups API, Projects API, Test Runs API, and 2 more. Tagged areas include Company, QA, Software Testing, Browser Automation, and AI Agents.
 
 
   The Testerarmy catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Testerarmy''s developer surface includes authentication, CLI, sandbox, documentation, API reference, getting-started guide, pricing, and 22 more developer resources.'
+  Testerarmy''s developer surface includes authentication, CLI, sandbox, documentation, API reference, getting-started guide, pricing, and 23 more developer resources.'
 random_paper: 4
 score:
   band: developing
-  composite: 47.7
+  composite: 47.8
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 31.6
     contract_governance: 4.5
@@ -276,8 +280,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 4
 common:
@@ -92,9 +92,10 @@ press:
   url: https://www.stocktitan.net/sec-filings/RRX/8-k-regal-rexnord-corp-reports-material-event-31cbc937a3d0.html
 random_paper: 0
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Rexnord API Rules
+  name: Rexnord — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -106,7 +107,7 @@ score:
   band: minimal
   composite: 8.0
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 38.3
     catalog_earned_first_party: 0.0
     catalog_gap: 76.8
@@ -134,8 +135,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

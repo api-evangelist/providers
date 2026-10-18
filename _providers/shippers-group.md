@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 3.8
-  scored_at: '2026-10-04'
+  score: 1.9
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: The Shippers Group provides third-party logistics services including warehousing, co-packaging, fulfillment, and transportation management. As a national 3PL provider operating across 12 US locations,
@@ -46,6 +46,21 @@ apis:
   slug: kenco-group
 artifact_total: 11
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/shippers-group/refs/heads/main/plans/shippers-group-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/shippers-group-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/shippers-group/refs/heads/main/rate-limits/shippers-group-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/shippers-group-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/shippers-group/refs/heads/main/finops/shippers-group-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/shippers-group-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/shippers-group/refs/heads/main/security/shippers-group-domain-security.yml
   title: ''
@@ -115,9 +130,13 @@ examples:
   name: Shippers Group Warehouse Example
   slug: shippers-group-warehouse-example
 finops:
-- name: Shippers Group Finops
+- has_sources: false
+  method: generated
+  name: Shippers Group Finops
+  primary_unit: ''
   service_category: API
   slug: shippers-group-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/shippers-group.png
 json_schemas:
 - name: Warehouse
@@ -137,13 +156,13 @@ modified: '2026-05-02'
 name: The Shippers Group
 nav: Providers
 network: true
-overview: 'The Shippers Group publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Third Party Logistics, Warehousing, Fulfillment, Supply Chain, and Transportation Management.
+overview: 'The Shippers Group publishes no API. The 2 entries listed on the [APIs.io](https://apis.io/) network are product areas recorded for completeness, each marked as not an API. Tagged areas include Third Party Logistics, Warehousing, Fulfillment, Supply Chain, and Transportation Management.
 
 
   The The Shippers Group catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  The Shippers Group''s developer surface includes code examples and 13 more developer resources.'
+  The Shippers Group''s developer surface includes code examples and 16 more developer resources.'
 plans:
 - name: Shippers Group Plans Pricing
   plan_count: 3
@@ -154,9 +173,10 @@ rate_limits:
   name: Shippers Group Rate Limits
   slug: shippers-group-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: The Shippers Group API Rules
+  name: The Shippers Group — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -166,17 +186,17 @@ rules:
   slug: shippers-group-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 18.2
+  composite: 16.7
   coverage:
     artifact_dirs: 13
-    catalog_earned: 56.8
+    catalog_earned: 53.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 58.3
+    catalog_gap: 61.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 23.5
     contract_quality: 17.2
     developer_ergonomics: 9.5
@@ -196,13 +216,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/shippers-group/refs/heads/main/screenshots/shippers-group-2026-10-11T125825.png
 security:
 - kind: domain-security
   name: Shippers Group Domain Security

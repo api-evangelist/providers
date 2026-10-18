@@ -25,14 +25,14 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: false
+    protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 8.6
-  scored_at: '2026-10-04'
+  score: 12.2
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'JSON:API compliant REST API for managing candidates, jobs, applications, users, departments, and recruitment workflows in Teamtailor. Available in EU (api.teamtailor.com), NA (api.na.teamtailor.com), '
@@ -86,7 +86,7 @@ modified: '2026-05-11'
 name: Teamtailor
 nav: Providers
 network: true
-overview: 'Teamtailor publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Applicant Tracking, Recruiting, Human Resources, Hiring, and Employer Branding.
+overview: 'Teamtailor is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Applicant Tracking, Recruiting, Human Resources, Hiring, and Employer Branding.
 
 
   Teamtailor''s developer surface includes documentation, pricing, signup flow, and 5 more developer resources.'
@@ -95,7 +95,7 @@ score:
   band: emerging
   composite: 14.2
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -118,8 +118,8 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

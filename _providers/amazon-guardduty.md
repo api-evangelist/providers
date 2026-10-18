@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 37.1
-  scored_at: '2026-10-04'
+  score: 35.2
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 48
+- acting_count: 39
   human_in_the_loop: 2
   name: Amazon Guardduty Agentic Access
   operation_count: 67
   slug: amazon-guardduty-agentic-access
-  summary_line: 67 operations · 48 acting · 2 human-in-the-loop
+  summary_line: 67 operations · 39 acting · 2 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://guardduty.amazonaws.com
@@ -98,6 +98,25 @@ collections:
   name: Amazon GuardDuty
   slug: open-amazon-guardduty
 common:
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://aws.amazon.com/guardduty/pricing/
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-guardduty/refs/heads/main/rate-limits/amazon-guardduty-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/amazon-guardduty-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-guardduty/refs/heads/main/finops/amazon-guardduty-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/amazon-guardduty-finops.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-guardduty/refs/heads/main/plans/amazon-guardduty-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/amazon-guardduty-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/amazon-guardduty/refs/heads/main/capabilities/amazon-guardduty-capability-edges.yml
   title: ''
@@ -1116,9 +1135,13 @@ features:
 - description: Scans EC2 instance volumes and S3 objects for malware and known threats.
   name: Malware Protection
 finops:
-- name: Amazon Guardduty Finops
+- has_sources: false
+  method: generated
+  name: Amazon Guardduty Finops
+  primary_unit: ''
   service_category: API
   slug: amazon-guardduty-finops
+  template: true
 image: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png
 integrations:
 - description: Automatically send GuardDuty findings to Security Hub for centralized security management.
@@ -3777,16 +3800,16 @@ modified: '2026-09-16'
 name: Amazon GuardDuty
 nav: Providers
 network: true
-overview: 'Amazon GuardDuty publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Detector API, Invitation API, and 1 more. Tagged areas include Anomaly Detection, Compliance, Machine Learning, Monitoring, and Security.
+overview: 'Amazon GuardDuty publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Admin API, Detector API, Invitation API, and 1 more. Tagged areas include Anomaly Detection, Compliance, Machine Learning, Monitoring, and Security.
 
 
   The Amazon GuardDuty catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon GuardDuty''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 14 more developer resources.'
+  Amazon GuardDuty''s developer surface includes pricing, authentication, developer portal, documentation, support, engineering blog, developer console, and 18 more developer resources.'
 plans:
 - name: Amazon Guardduty Plans Pricing
-  plan_count: 3
+  plan_count: 13
   slug: amazon-guardduty-plans-pricing
 random_paper: 4
 rate_limits:
@@ -3794,9 +3817,10 @@ rate_limits:
   name: Amazon Guardduty Rate Limits
   slug: amazon-guardduty-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Amazon GuardDuty API Rules
+  name: Amazon GuardDuty — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -3804,7 +3828,8 @@ rules:
     info: 1
     warn: 4
   slug: amazon-guardduty-jsonschema-spectral-rules
-- effective_rule_count: 57
+- authorship: generated
+  effective_rule_count: 57
   extends:
   - spectral:oas
   name: Amazon GuardDuty API Rules
@@ -3817,17 +3842,17 @@ rules:
   slug: amazon-guardduty-spectral-rules
 score:
   band: strong
-  composite: 57.7
+  composite: 60.9
   coverage:
     artifact_dirs: 19
-    catalog_earned: 68.2
-    catalog_earned_first_party: 0.0
-    catalog_gap: 46.9
+    catalog_earned: 74.2
+    catalog_earned_first_party: 12.0
+    catalog_gap: 40.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 3.2
   facets:
-    access_clarity: 68.4
+    access_clarity: 84.2
     contract_governance: 17.4
     contract_quality: 67.7
     developer_ergonomics: 65.5
@@ -3847,8 +3872,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

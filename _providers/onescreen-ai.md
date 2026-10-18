@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'OneScreen''s only API surface: a remote Model Context Protocol server over Streamable HTTP that exposes OOH audience personas, market and inventory rankings, geospatial points of interest, media-owner '
@@ -42,6 +42,14 @@ apis:
   slug: onescreen-mcp-server
 artifact_total: 7
 common:
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.onescreen.ai/mcp/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.onescreen.ai/feed/
 - group: company
   title: ''
   type: Website
@@ -142,14 +150,14 @@ mcp_servers:
 - description: Remote MCP server at mcp.onescreen.ai over HTTP.
   name: OneScreen MCP Server
   slug: onescreen-mcp-server
-modified: '2026-08-13'
+modified: '2026-10-06'
 name: OneScreen AI
 nav: Providers
 network: true
-overview: 'OneScreen AI publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, Out-of-Home, Digital Out Of Home, and AdTech.
+overview: 'OneScreen AI is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, Out-of-Home, Digital Out Of Home, and AdTech.
 
 
-  OneScreen AI''s developer surface includes documentation, authentication, engineering blog, support, and 16 more developer resources.'
+  OneScreen AI''s developer surface includes pricing, documentation, authentication, engineering blog, support, and 17 more developer resources.'
 plans:
 - name: Onescreen Ai Plans Pricing
   plan_count: 2
@@ -166,17 +174,17 @@ scopes:
   summary_line: 22 scopes
 score:
   band: thin
-  composite: 29.3
+  composite: 31.4
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.1
   facets:
-    access_clarity: 55.3
+    access_clarity: 65.8
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 28.6
@@ -199,8 +207,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: The HRSA Health Center Data Service enables users to query for health centers by state, county, or ZIP Code, providing access to federally qualified health center location and service information.
@@ -44,6 +44,21 @@ apis:
   slug: hrsa-ryan-white-medical-care-provider
 artifact_total: 6
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/health-resources-and-services-administration/refs/heads/main/plans/health-resources-and-services-administration-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/health-resources-and-services-administration-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/health-resources-and-services-administration/refs/heads/main/rate-limits/health-resources-and-services-administration-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/health-resources-and-services-administration-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/health-resources-and-services-administration/refs/heads/main/finops/health-resources-and-services-administration-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/health-resources-and-services-administration-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/health-resources-and-services-administration/refs/heads/main/security/health-resources-and-services-administration-domain-security.yml
   title: ''
@@ -76,19 +91,23 @@ common:
 created: '2024-12-03'
 description: The Health Resources and Services Administration (HRSA) is the primary Federal agency for improving access to health care services for people who are uninsured, isolated, or medically vulnerable. HRSA provides data and web services for healthcare resources, facility locations, and program information.
 finops:
-- name: Health Resources And Services Administration Finops
+- has_sources: false
+  method: generated
+  name: Health Resources And Services Administration Finops
+  primary_unit: ''
   service_category: API
   slug: health-resources-and-services-administration-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/health-resources-and-services-administration.png
 layout: provider
 modified: '2026-04-28'
 name: Health Resources and Services Administration
 nav: Providers
 network: true
-overview: 'Health Resources and Services Administration publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Federal Government, Healthcare, Open Data, and Public Health.
+overview: 'Health Resources and Services Administration is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Federal Government, Healthcare, Open Data, and Public Health.
 
 
-  Health Resources and Services Administration''s developer surface includes developer portal, support, and 5 more developer resources.'
+  Health Resources and Services Administration''s developer surface includes developer portal, support, and 8 more developer resources.'
 plans:
 - name: Health Resources And Services Administration Plans Pricing
   plan_count: 3
@@ -100,17 +119,17 @@ rate_limits:
   slug: health-resources-and-services-administration-rate-limits
 score:
   band: emerging
-  composite: 16.5
+  composite: 14.9
   coverage:
     artifact_dirs: 6
-    catalog_earned: 41.0
+    catalog_earned: 38.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 28.9
+    access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 23.8
@@ -128,8 +147,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

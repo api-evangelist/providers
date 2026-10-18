@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -54,7 +54,7 @@ modified: '2026-07-19'
 name: LexSpot
 nav: Providers
 network: true
-overview: LexSpot is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Stub, Portfolio, 500 Global, and Unverified.
+overview: LexSpot is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Portfolio, 500 Global, Unverified, and Leads.
 random_paper: 13
 score:
   band: minimal
@@ -81,8 +81,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -96,7 +96,6 @@ security:
 slug: lexspot
 tags:
 - Company
-- Stub
 - Portfolio
 - 500 Global
 - Unverified

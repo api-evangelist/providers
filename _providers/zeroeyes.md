@@ -33,10 +33,15 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
-artifact_total: 2
+artifact_total: 3
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/zeroeyes/refs/heads/main/plans/zeroeyes-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/zeroeyes-plans-pricing.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/zeroeyes/refs/heads/main/security/zeroeyes-domain-security.yml
   title: ''
@@ -110,13 +115,17 @@ network: true
 overview: 'ZeroEyes is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Physical Security, Artificial Intelligence, and Computer Vision.
 
 
-  ZeroEyes'' developer surface includes support, engineering blog, pricing, and 11 more developer resources.'
+  ZeroEyes'' developer surface includes support, engineering blog, pricing, and 12 more developer resources.'
+plans:
+- name: Zeroeyes Plans Pricing
+  plan_count: 0
+  slug: zeroeyes-plans-pricing
 random_paper: 6
 score:
   band: emerging
   composite: 19.1
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -144,8 +153,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 21.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

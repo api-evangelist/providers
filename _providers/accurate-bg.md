@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.7
-  scored_at: '2026-10-04'
+  score: 20.8
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -125,6 +125,14 @@ collections:
   name: Accurate Background Adjudication Verifications API
   slug: open-accurate-bg-verifications-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.accurate.com/blog/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.accurate.com/feed/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/accurate-bg/refs/heads/main/capabilities/accurate-bg-capability-edges.yml
   title: ''
@@ -188,19 +196,23 @@ common:
 created: '2026-07-03'
 description: Accurate Background is an employment background screening and workforce compliance company. Its Accurate API (v3) lets HR platforms, ATS/HRIS vendors, and staffing tools embed background checks - criminal searches, SSN trace, employment and education verification, drug and health screening, driving records, identity/work authorization (Form I-9, E-Verify), and international screening - directly into their own applications. Integrators create candidates, order preset or custom screening packages, track order status and ETA, retrieve completed reports, adjudicate results, and receive status updates via webhooks. A free developer account and sandbox environment are available for testing; production access is provisioned under a screening services agreement.
 finops:
-- name: Accurate Bg Finops
+- has_sources: true
+  method: generated
+  name: Accurate Bg Finops
+  primary_unit: ''
   service_category: Background Screening and Compliance
   slug: accurate-bg-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/accurate-bg.png
 layout: provider
-modified: '2026-07-03'
+modified: '2026-10-06'
 name: Accurate Background
 nav: Providers
 network: true
-overview: 'Accurate Background publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Adjudication API, Candidates API, Documents API, and 7 more. Tagged areas include Background Checks, Employment Screening, Identity Verification, Compliance, and Human Resources.
+overview: 'Accurate Background publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Adjudication API, Candidates API, Documents API, and 7 more. Tagged areas include Background Checks, Employment Screening, Identity Verification, Compliance, and Human Resources.
 
 
-  Accurate Background''s developer surface includes authentication, documentation, API reference, signup flow, and 9 more developer resources.'
+  Accurate Background''s developer surface includes engineering blog, authentication, documentation, API reference, signup flow, and 10 more developer resources.'
 plans:
 - name: Accurate Bg Plans Pricing
   plan_count: 3
@@ -217,22 +229,22 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 36.7
+  composite: 28.8
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 61.6
+    artifact_dirs: 14
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.4
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.9
   facets:
-    access_clarity: 49.5
+    access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 44.1
-    developer_ergonomics: 28.6
+    developer_ergonomics: 31.0
     discoverability: 66.1
-    operational_transparency: 28.4
+    operational_transparency: 7.9
   previous_composite: 36.7
   provenance:
     agentic_access: derived
@@ -247,9 +259,9 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 21.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

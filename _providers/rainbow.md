@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.5
-  scored_at: '2026-10-04'
+  score: 23.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -116,6 +116,21 @@ collections:
   name: Rainbow Application Portal Applications Users API
   slug: open-rainbow-users-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/rainbow/refs/heads/main/plans/rainbow-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/rainbow-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/rainbow/refs/heads/main/rate-limits/rainbow-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/rainbow-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/rainbow/refs/heads/main/finops/rainbow-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/rainbow-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/rainbow/refs/heads/main/agentic-access/rainbow-agentic-access.yml
   title: ''
@@ -204,9 +219,13 @@ examples:
   name: Rainbow Send Message Example
   slug: rainbow-send-message-example
 finops:
-- name: Rainbow Finops
+- has_sources: true
+  method: generated
+  name: Rainbow Finops
+  primary_unit: ''
   service_category: Communications
   slug: rainbow-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rainbow.png
 json_schemas:
 - name: Rainbow Contact
@@ -229,13 +248,13 @@ modified: '2026-05-19'
 name: Rainbow
 nav: Providers
 network: true
-overview: 'Rainbow publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Authentication API, Bubbles API, and 4 more. Tagged areas include Communications, CPaaS, Chat, Voice, and Video.
+overview: 'Rainbow publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Applications API, Authentication API, Bubbles API, and 4 more. Tagged areas include Communications, CPaaS, Chat, Voice, and Video.
 
 
   The Rainbow catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Rainbow''s developer surface includes authentication, signup flow, GitHub presence, CLI, and 13 more developer resources.'
+  Rainbow''s developer surface includes authentication, signup flow, GitHub presence, CLI, and 16 more developer resources.'
 plans:
 - name: Rainbow Plans Pricing
   plan_count: 1
@@ -246,9 +265,10 @@ rate_limits:
   name: Rainbow Rate Limits
   slug: rainbow-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Rainbow API Rules
+  name: Rainbow — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -256,7 +276,8 @@ rules:
     info: 2
     warn: 3
   slug: rainbow-jsonschema-spectral-rules
-- effective_rule_count: 48
+- authorship: unmarked
+  effective_rule_count: 48
   extends:
   - spectral:oas
   name: Rainbow API Rules
@@ -269,17 +290,17 @@ rules:
   slug: rainbow-rules
 score:
   band: thin
-  composite: 36.8
+  composite: 35.2
   coverage:
     artifact_dirs: 17
-    catalog_earned: 67.0
+    catalog_earned: 64.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 48.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 34.2
+    access_clarity: 26.3
     contract_governance: 27.3
     contract_quality: 58.7
     developer_ergonomics: 19.0
@@ -299,8 +320,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 18.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -19,6 +19,21 @@ apis:
   slug: related-conventions
 artifact_total: 5
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/contributing-md/refs/heads/main/plans/contributing-md-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/contributing-md-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/contributing-md/refs/heads/main/rate-limits/contributing-md-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/contributing-md-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/contributing-md/refs/heads/main/finops/contributing-md-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/contributing-md-finops.yml
 - group: docs
   title: ''
   type: Documentation
@@ -38,19 +53,23 @@ common:
 created: '2025-01-01'
 description: CONTRIBUTING.md is a community health convention used by open source projects on GitHub and other platforms to document how external contributors can participate. The file communicates contribution guidelines, pull request processes, issue reporting procedures, coding standards, development setup, testing expectations, and code of conduct references. GitHub recognizes CONTRIBUTING.md placed in the repository root, the .github folder, or the docs folder, and surfaces a link to it whenever a contributor opens a new issue or pull request.
 finops:
-- name: Contributing Md Finops
+- has_sources: false
+  method: generated
+  name: Contributing Md Finops
+  primary_unit: ''
   service_category: API
   slug: contributing-md-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/contributing-md.png
 layout: provider
 modified: '2026-04-28'
 name: CONTRIBUTING.md
 nav: Providers
 network: true
-overview: 'CONTRIBUTING.md publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Code Of Conduct, Collaboration, Community Health, Developer Guidelines, and Documentation.
+overview: 'CONTRIBUTING.md is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Code Of Conduct, Collaboration, Community Health, Developer Guidelines, and Documentation.
 
 
-  CONTRIBUTING.md''s developer surface includes documentation, code examples, and 2 more developer resources.'
+  CONTRIBUTING.md''s developer surface includes documentation, code examples, and 5 more developer resources.'
 plans:
 - name: Contributing Md Plans Pricing
   plan_count: 3

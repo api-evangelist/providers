@@ -29,21 +29,21 @@ agent_readiness:
     mcp_server: documented
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.8
-  scored_at: '2026-10-04'
+  score: 36.4
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 42
+- acting_count: 39
   human_in_the_loop: 1
   name: Griffin Agentic Access
   operation_count: 97
   slug: griffin-agentic-access
-  summary_line: 97 operations · 42 acting · 1 human-in-the-loop
-api_count: 1
+  summary_line: 97 operations · 39 acting · 1 human-in-the-loop
+api_count: 2
 apis:
 - baseURL: https://api.griffin.com/v0
   baseurl_source: declared
@@ -185,7 +185,7 @@ apis:
   description: A [workflow](/docs/terms/workflow) determines which checks will be run against a [legal person](#tag/Legal-persons) as part of a [verification](#tag/Verifications)
   name: Griffin Workflows API
   slug: griffin-workflows-api
-artifact_total: 64
+artifact_total: 66
 asyncapis:
 - description: ''
   name: Griffin Webhooks
@@ -279,6 +279,49 @@ collections:
   name: The Griffin API keys Workflows API
   slug: open-griffin-workflows-api
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/griffin/refs/heads/main/rate-limits/griffin-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/griffin-rate-limits.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/griffin/refs/heads/main/rules/griffin-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/griffin-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/griffin/refs/heads/main/vocabulary/griffin-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/griffin-vocabulary.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/griffin/refs/heads/main/hosts/griffin-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/griffin-hosts.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/griffin/refs/heads/main/integrations/griffin-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/griffin-integration-edges.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/griffin/refs/heads/main/vendors/griffin-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/griffin-vendors.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/griffin/refs/heads/main/packages/griffin-packages.yml
+  title: ''
+  type: SDKs
+  url: packages/griffin-packages.yml
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://griffin.com/newsroom
+- group: other
+  title: ''
+  type: Leadership
+  url: https://griffin.com/team
 - group: commercial
   href: https://raw.githubusercontent.com/api-evangelist/griffin/refs/heads/main/plans/griffin-plans-pricing.yml
   title: ''
@@ -455,13 +498,13 @@ modified: '2026-07-19'
 name: Griffin
 nav: Providers
 network: true
-overview: 'Griffin publishes 28 APIs on the [APIs.io](https://apis.io/) network, including API keys API, Bank account holds API, Bank account restrictions API, and 25 more. Tagged areas include Company, Fintech, Banking, Banking as a Service, and Payments.
+overview: 'Griffin publishes 28 API contracts indexed on the [APIs.io](https://apis.io/) network, including API keys API, Bank account holds API, Bank account restrictions API, and 25 more. Tagged areas include Company, Fintech, Banking, Banking as a Service, and Payments.
 
 
-  The Griffin catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Griffin catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Griffin''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, support, and 29 more developer resources.'
+  Griffin''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, support, and 38 more developer resources.'
 plans:
 - name: Griffin Plans Pricing
   plan_count: 6
@@ -470,24 +513,41 @@ plans:
   plan_count: 0
   slug: griffin-price-estimates
 random_paper: 15
+rate_limits:
+- limit_count: 1
+  name: Griffin Rate Limits
+  slug: griffin-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 56
+  extends:
+  - spectral:oas
+  name: Griffin API Rules
+  rule_count: 15
+  severity_counts:
+    error: 11
+    hint: 0
+    info: 1
+    warn: 3
+  slug: griffin-rules
 score:
   band: strong
-  composite: 58.5
+  composite: 65.2
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 49.0
-    catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    artifact_dirs: 30
+    catalog_earned: 62.8
+    catalog_earned_first_party: 20.0
+    catalog_gap: 52.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.7
   facets:
     access_clarity: 69.7
-    contract_governance: 18.2
+    contract_governance: 35.6
     contract_quality: 61.7
-    developer_ergonomics: 70.8
-    discoverability: 71.7
-    operational_transparency: 50.0
+    developer_ergonomics: 78.0
+    discoverability: 75.0
+    operational_transparency: 71.1
   previous_composite: 58.5
   provenance:
     agentic_access: derived
@@ -505,9 +565,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 19.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

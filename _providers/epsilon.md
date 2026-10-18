@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: Serves brand-page content modules for retailer-hosted brand landing pages. A retailer routes /brands/{slug} on its own domain, calls POST /ads/v3/brand-pages on its assigned regional Epsilon RMN ads h
@@ -227,7 +227,7 @@ modified: '2026-08-12'
 name: Epsilon
 nav: Providers
 network: true
-overview: 'Epsilon publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Ads API, Catalog Products API, Catalogs API, and 5 more. Tagged areas include Company, Marketing, Advertising, Retail Media, and AdTech.
+overview: 'Epsilon publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Ads API, Catalog Products API, Catalogs API, and 5 more. Tagged areas include Company, Marketing, Advertising, Retail Media, and AdTech.
 
 
   Epsilon''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 21 more developer resources.'
@@ -244,7 +244,7 @@ score:
   band: thin
   composite: 35.7
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -274,8 +274,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

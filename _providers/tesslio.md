@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 111
   human_in_the_loop: 19
@@ -320,6 +320,10 @@ collections:
   name: Tessl Admin Keys Workspaces API
   slug: open-tesslio-workspaces-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://tessl.io/blog/feed
 - group: commercial
   href: https://raw.githubusercontent.com/api-evangelist/tesslio/refs/heads/main/plans/tesslio-plans-pricing.yml
   title: ''
@@ -498,14 +502,14 @@ mcp_servers:
 - description: ''
   name: tessl.io MCP Server
   slug: tesslio-mcp-yml
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: tessl.io
 nav: Providers
 network: true
-overview: 'tessl.io publishes 35 APIs on the [APIs.io](https://apis.io/) network, including Admin Keys API, Agent Logs API, API Keys API, and 32 more. Tagged areas include Company, Ai Ml, Agent Enablement, Agentic Development, and Developer Tools.
+overview: 'tessl.io publishes 35 API contracts indexed on the [APIs.io](https://apis.io/) network, including Admin Keys API, Agent Logs API, API Keys API, and 32 more. Tagged areas include Company, Artificial Intelligence, Agent Enablement, Agentic Development, and Developer Tools.
 
 
-  tessl.io''s developer surface includes authentication, changelog, CLI, documentation, API reference, getting-started guide, support, and 30 more developer resources.'
+  tessl.io''s developer surface includes authentication, changelog, CLI, documentation, API reference, getting-started guide, support, and 31 more developer resources.'
 plans:
 - name: Tesslio Plans Pricing
   plan_count: 3
@@ -516,7 +520,7 @@ plans:
 random_paper: 1
 score:
   band: strong
-  composite: 56.5
+  composite: 56.3
   coverage:
     artifact_dirs: 23
     catalog_earned: 49.0
@@ -524,7 +528,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 50.0
     contract_governance: 4.5
@@ -548,9 +552,9 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 27.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+    score: 25.5
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -576,7 +580,7 @@ security:
 slug: tesslio
 tags:
 - Company
-- Ai Ml
+- Artificial Intelligence
 - Agent Enablement
 - Agentic Development
 - Developer Tools

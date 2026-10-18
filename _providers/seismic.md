@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 51.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
   name: Seismic Agentic Access
-  operation_count: 57
+  operation_count: 60
   slug: seismic-agentic-access
-  summary_line: 57 operations · 20 acting
+  summary_line: 60 operations · 20 acting
 api_count: 4
 apis:
 - baseURL: https://api.seismic.com/integration/v2
@@ -256,6 +256,16 @@ collections:
   name: Seismic Analytics Content Analytics Users API
   slug: open-seismic-users-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/seismic/refs/heads/main/plans/seismic-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/seismic-plans-pricing.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/seismic/refs/heads/main/finops/seismic-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/seismic-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/seismic/refs/heads/main/security/seismic-trust-center.yml
   title: ''
@@ -555,9 +565,13 @@ examples:
   name: Seismic List Content Items Example
   slug: seismic-list-content-items-example
 finops:
-- name: Seismic Finops
+- has_sources: true
+  method: generated
+  name: Seismic Finops
+  primary_unit: ''
   service_category: Sales Enablement SaaS
   slug: seismic-finops
+  template: false
 image: https://seismic.com/wp-content/uploads/2023/02/seismic-logo.svg
 json_schemas:
 - name: Seismic Content Item
@@ -593,13 +607,13 @@ modified: '2026-09-17'
 name: Seismic
 nav: Providers
 network: true
-overview: 'Seismic publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Content Analytics API, Content API, Content Profiles API, and 14 more. Tagged areas include Sales Enablement, Content Management, Document Generation, Sales Content, and Buyer Engagement.
+overview: 'Seismic publishes 17 API contracts indexed on the [APIs.io](https://apis.io/) network, including Content Analytics API, Content API, Content Profiles API, and 14 more. Tagged areas include Sales Enablement, Content Management, Document Generation, Sales Content, and Buyer Engagement.
 
 
   The Seismic catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Seismic''s developer surface includes authentication, developer portal, getting-started guide, documentation, changelog, support, engineering blog, and 55 more developer resources.'
+  Seismic''s developer surface includes authentication, developer portal, getting-started guide, documentation, changelog, support, engineering blog, and 57 more developer resources.'
 plans:
 - name: Seismic Plans Pricing
   plan_count: 1
@@ -610,9 +624,10 @@ rate_limits:
   name: Seismic Rate Limits
   slug: seismic-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Seismic API Rules
+  name: Seismic — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -620,7 +635,8 @@ rules:
     info: 2
     warn: 3
   slug: seismic-jsonschema-spectral-rules
-- effective_rule_count: 55
+- authorship: unmarked
+  effective_rule_count: 55
   extends:
   - spectral:oas
   name: Seismic API Rules
@@ -638,17 +654,17 @@ scopes:
   summary_line: 50 scopes
 score:
   band: strong
-  composite: 66.4
+  composite: 64.9
   coverage:
-    artifact_dirs: 35
-    catalog_earned: 92.0
+    artifact_dirs: 36
+    catalog_earned: 89.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 23.0
+    catalog_gap: 26.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 72.4
+    access_clarity: 64.5
     contract_governance: 45.5
     contract_quality: 75.6
     developer_ergonomics: 38.1
@@ -671,8 +687,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

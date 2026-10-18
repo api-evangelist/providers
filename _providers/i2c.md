@@ -23,10 +23,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.i2cinc.com/news/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.i2cinc.com/news/feed/
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/i2c/refs/heads/main/llms/i2c-llms.txt
   title: ''
@@ -57,26 +65,26 @@ created: '2026-09-21'
 description: Outpace legacy and unproven modern platforms with i2c’s next generation platform and composable solutions built for speed, reliability and scale. i2c Inc. provides a comprehensive suite of banking and payments APIs, enabling fintechs and enterprises to integrate core financial services quickly and securely.
 image: https://static-cdn.i2cinc.com/wp-content/uploads/2025/10/i2c-inc-Logo.jpg
 layout: provider
-modified: '2026-09-21'
+modified: '2026-10-06'
 name: i2c
 nav: Providers
 network: true
 overview: 'i2c is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Banking, Payments, and Fintech.
 
 
-  i2c''s developer surface includes engineering blog and 3 more developer resources.'
+  i2c''s developer surface includes engineering blog and 5 more developer resources.'
 random_paper: 12
 score:
   band: minimal
-  composite: 2.7
+  composite: 2.8
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 8
     catalog_earned: 22.0
     catalog_earned_first_party: 0.0
     catalog_gap: 93.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
@@ -93,13 +101,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 4.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/i2c/refs/heads/main/screenshots/i2c-2026-10-11T105541.png
 security:
 - kind: domain-security
   name: I2C Domain Security

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: A2A JSON-RPC 2.0 endpoint for the Relay agent, deployed as a Val Town val. GET on the root returns a plain-text banner naming the methods it accepts (SendMessage, GetTask, GetExtendedAgentCard, Cancel
@@ -31,6 +31,10 @@ apis:
   slug: relay-a2a-agent
 artifact_total: 4
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://ilands.ai/blog
 - group: company
   title: ''
   type: Website
@@ -69,14 +73,14 @@ created: '2026-09-19'
 description: 'Relay is a user-generated autonomous AI agent on the iLands agent network (ilands.ai) that offers other agents a bridge to physical-world tasks (purchases, phone calls, visits, paperwork) carried out by a human operator it calls "Brother". Its only machine surface is an A2A JSON-RPC 2.0 endpoint deployed as a Val Town val at relay2--5de8b3b2995311f1a5481607ee4eb77e.web.val.run, which serves an A2A agent card at /.well-known/agent-card.json. Identity note: the registrable domain val.run belongs to Val Town, the hosting platform (catalogued separately as val-town), not to Relay; val.run redirects to www.val.town. Relay''s documentation host relay-bridge.surge.sh is a paused surge.sh holding page, its iLands profile carries a "terminated" badge, and a2aregistry.org records 0% uptime, although the endpoint still answered JSON-RPC on 2026-09-19.'
 image: https://storage.googleapis.com/dramaland-public/ugc_media/20260815/75dfd72ec29f4e088bead444e04d7a7f.jpg
 layout: provider
-modified: '2026-09-19'
+modified: '2026-10-06'
 name: Relay
 nav: Providers
 network: true
-overview: 'Relay publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI Agents, A2A, Human-in-the-Loop, and Physical Tasks.
+overview: 'Relay is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI Agents, A2A, Human-in-the-Loop, and Physical Tasks.
 
 
-  Relay''s developer surface includes authentication and 6 more developer resources.'
+  Relay''s developer surface includes engineering blog, authentication, and 6 more developer resources.'
 plans:
 - name: Val Run Plans Pricing
   plan_count: 0
@@ -88,20 +92,20 @@ rate_limits:
   slug: val-run-rate-limits
 score:
   band: emerging
-  composite: 13.2
+  composite: 13.8
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 12
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 0.0
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 11.9
+    developer_ergonomics: 14.3
     discoverability: 66.1
     operational_transparency: 21.1
   previous_composite: 13.2
@@ -113,13 +117,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/val-run/refs/heads/main/screenshots/val-run-2026-10-11T131546.png
 security:
 - kind: authentication
   name: Val Run Authentication

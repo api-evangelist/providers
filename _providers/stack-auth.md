@@ -13,7 +13,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: flavored
     agent_skills: false
@@ -30,13 +30,13 @@ agent_readiness:
     mcp_server: verified
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.3
-  scored_at: '2026-10-04'
+  score: 27.4
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -174,6 +174,26 @@ collections:
   name: Stack Auth REST API
   slug: open-stack-auth
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/stack-auth/refs/heads/main/plans/stack-auth-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/stack-auth-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/stack-auth/refs/heads/main/rate-limits/stack-auth-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/stack-auth-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/stack-auth/refs/heads/main/finops/stack-auth-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/stack-auth-finops.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/stack-auth/refs/heads/main/capabilities/stack-auth-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/stack-auth-capability-edges.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -237,9 +257,13 @@ common:
 created: '2026-05-23'
 description: Stack Auth is an open-source authentication and user management platform positioned as a self-hostable alternative to closed-source providers like Clerk and Auth0. It bundles password, OAuth / SSO, and two-factor sign-in flows with organizations, teams, role-based access control, impersonation, webhooks, and pre-built UI components built on shadcn/ui (or a headless SDK). Stack Auth is available as a hosted SaaS at app.stack-auth.com and as a self-hosted deployment from the stack-auth/stack monorepo on GitHub. Authentication is JWT-based. Y Combinator-backed.
 finops:
-- name: Stack Auth Finops
+- has_sources: false
+  method: generated
+  name: Stack Auth Finops
+  primary_unit: ''
   service_category: API
   slug: stack-auth-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
 mcp_servers:
@@ -250,10 +274,10 @@ modified: '2026-09-16'
 name: Stack Auth
 nav: Providers
 network: true
-overview: 'Stack Auth publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Connected Accounts API, Contact Channels API, and 16 more. Tagged areas include Authentication, User Management, Open Source, Self-Hosted, and Identity.
+overview: 'Stack Auth publishes 18 API contracts indexed on the [APIs.io](https://apis.io/) network, including Connected Accounts API, Contact Channels API, and 16 more. Tagged areas include Authentication, User Management, Open Source, Self-Hosted, and Identity.
 
 
-  Stack Auth''s developer surface includes authentication, documentation, GitHub presence, pricing, engineering blog, and 9 more developer resources.'
+  Stack Auth''s developer surface includes authentication, documentation, GitHub presence, pricing, engineering blog, and 13 more developer resources.'
 plans:
 - name: Stack Auth Plans Pricing
   plan_count: 1
@@ -265,22 +289,22 @@ rate_limits:
   slug: stack-auth-rate-limits
 score:
   band: emerging
-  composite: 24.1
+  composite: 18.1
   coverage:
-    artifact_dirs: 14
-    catalog_earned: 54.4
+    artifact_dirs: 15
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 60.6
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.0
   facets:
-    access_clarity: 37.4
+    access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 1.8
     developer_ergonomics: 23.8
     discoverability: 75.0
-    operational_transparency: 40.0
+    operational_transparency: 26.3
   previous_composite: 24.1
   provenance:
     agentic_access: derived
@@ -296,9 +320,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

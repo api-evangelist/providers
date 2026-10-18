@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -73,6 +73,10 @@ collections:
   name: Empirical Security CVE Groups Search API
   slug: open-empirical-security-search-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://research.empiricalsecurity.com/research?format=rss
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/empirical-security/refs/heads/main/overlays/empirical-security-openapi-overlay.yaml
   title: ''
@@ -187,14 +191,14 @@ created: '2026-07-17'
 description: Empirical Security builds data-driven models that predict which vulnerabilities will actually be exploited, so security teams can prioritize remediation by real-world risk instead of raw CVSS severity. It operates the Foundation (global) model, which combines real-time internet exploitation telemetry with EPSS and monitors 18,000+ exploited CVEs; hourly-updated EPSS models (epss_v3, epss_v4, epss_v5); and Radiant, an organization-specific model that layers your local assets, configurations and internal telemetry on top of the Foundation data. The read-only REST API exposes CVE detail, per-model scores and percentiles, malware hashes, critical indicators, score history, change history, full dataset export, search, and saved CVE groups, secured with OAuth 2.0 client credentials (JWT bearer). Empirical Security is backed by Costanoa Ventures.
 image: https://www.empiricalsecurity.com/favicon.ico
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Empirical Security
 nav: Providers
 network: true
-overview: 'Empirical Security publishes 3 APIs on the [APIs.io](https://apis.io/) network: CVE Groups API, Search API, and CV Es API. Tagged areas include Company, Security, Cybersecurity, Vulnerability Management, and Vulnerability Prioritization.
+overview: 'Empirical Security publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: CVE Groups API, Search API, and CV Es API. Tagged areas include Company, Security, Cybersecurity, Vulnerability Management, and Vulnerability Prioritization.
 
 
-  Empirical Security''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, authentication, and 18 more developer resources.'
+  Empirical Security''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, authentication, and 19 more developer resources.'
 random_paper: 13
 scopes:
 - name: Empirical Security Scopes
@@ -236,8 +240,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

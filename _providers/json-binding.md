@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'The Jakarta JSON Binding specification for marshaling Java objects to JSON and unmarshaling JSON back into Java objects. Provides a default mapping algorithm and customization through annotations and '
@@ -41,6 +41,21 @@ apis:
   slug: json-b
 artifact_total: 5
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/json-binding/refs/heads/main/plans/json-binding-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/json-binding-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/json-binding/refs/heads/main/rate-limits/json-binding-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/json-binding-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/json-binding/refs/heads/main/finops/json-binding-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/json-binding-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/json-binding/refs/heads/main/security/json-binding-domain-security.yml
   title: ''
@@ -61,19 +76,23 @@ common:
 created: '2025-01-01'
 description: Jakarta JSON Binding (JSON-B) defines a standard binding layer for converting Java objects to and from JSON documents. It specifies a default mapping algorithm for serializing and deserializing existing Java classes to and from JSON, while enabling developers to customize the mapping process through a Java API. JSON-B 3.0 is the stable release shipped with Jakarta EE 10, with version 3.1 under development for Jakarta EE 12.
 finops:
-- name: Json Binding Finops
+- has_sources: false
+  method: generated
+  name: Json Binding Finops
+  primary_unit: ''
   service_category: API
   slug: json-binding-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/json-binding.png
 layout: provider
 modified: '2026-04-28'
 name: JSON Binding
 nav: Providers
 network: true
-overview: 'JSON Binding publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Java, JSON, JSON Binding, Jakarta EE, and Serialization.
+overview: 'JSON Binding is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Java, JSON, JSON Binding, Jakarta EE, and Serialization.
 
 
-  JSON Binding''s developer surface includes documentation and 3 more developer resources.'
+  JSON Binding''s developer surface includes documentation and 6 more developer resources.'
 plans:
 - name: Json Binding Plans Pricing
   plan_count: 3
@@ -85,17 +104,17 @@ rate_limits:
   slug: json-binding-rate-limits
 score:
   band: minimal
-  composite: 10.7
+  composite: 9.2
   coverage:
     artifact_dirs: 7
-    catalog_earned: 41.0
+    catalog_earned: 38.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 9.5
@@ -108,8 +127,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

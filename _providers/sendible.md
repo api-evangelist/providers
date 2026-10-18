@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: REST API for managing social media clients, scheduling posts, monitoring mentions, and accessing analytics and reports across multiple social networks. The API is live at https://api.sendible.com/api/
@@ -129,16 +129,20 @@ common:
 created: '2026-06-13'
 description: Sendible is a social media management platform for agencies, franchises, multi-location brands and marketing teams, headquartered in London. It schedules and publishes content across Instagram, Facebook, LinkedIn, X, TikTok, Threads, Bluesky, YouTube, Google Business Profile and WordPress, centralises replies in a Priority Inbox, and produces client-facing analytics reports. Sendible operates a live REST API at api.sendible.com/api/v1 and markets an API-led path for software integrators, but the public developer portal has been retired and no machine-readable contract is published.
 finops:
-- name: Sendible Finops
+- has_sources: true
+  method: derived
+  name: Sendible Finops
+  primary_unit: ''
   service_category: ''
   slug: sendible-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sendible.png
 layout: provider
 modified: '2026-08-13'
 name: Sendible
 nav: Providers
 network: true
-overview: 'Sendible publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Social Media, Social Media Management, Agencies, Scheduling, and Analytics.
+overview: 'Sendible is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Social Media, Social Media Management, Agencies, Scheduling, and Analytics.
 
 
   Sendible''s developer surface includes engineering blog, pricing, support, signup flow, changelog, and 15 more developer resources.'
@@ -153,17 +157,17 @@ rate_limits:
   slug: sendible-rate-limits
 score:
   band: thin
-  composite: 31.1
+  composite: 29.6
   coverage:
-    artifact_dirs: 15
-    catalog_earned: 64.0
+    artifact_dirs: 16
+    catalog_earned: 61.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 51.0
+    catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 71.1
+    access_clarity: 63.2
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
@@ -183,8 +187,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

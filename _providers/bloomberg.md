@@ -28,20 +28,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.8
-  scored_at: '2026-10-04'
+  score: 28.9
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 9
+- acting_count: 8
   human_in_the_loop: 1
   name: Bloomberg Agentic Access
   operation_count: 9
   slug: bloomberg-agentic-access
-  summary_line: 9 operations · 9 acting · 1 human-in-the-loop
+  summary_line: 9 operations · 8 acting · 1 human-in-the-loop
 api_count: 1
 apis:
 - description: Provides real-time and historical market data, including stock prices, indices, commodities, and currencies.
@@ -146,6 +146,21 @@ collections:
   name: Bloomberg BLPAPI Core
   slug: open-blpapi-core
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/bloomberg/refs/heads/main/plans/bloomberg-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/bloomberg-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/bloomberg/refs/heads/main/rate-limits/bloomberg-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/bloomberg-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/bloomberg/refs/heads/main/finops/bloomberg-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/bloomberg-finops.yml
 - group: company
   title: ''
   type: Website
@@ -479,9 +494,13 @@ features:
 - description: Access BLPAPI through C, C++, Java, .NET, Python, Perl, and COM Excel SDKs.
   name: Multi-Language SDK
 finops:
-- name: Bloomberg Finops
+- has_sources: true
+  method: generated
+  name: Bloomberg Finops
+  primary_unit: ''
   service_category: Market Data / Financial Services
   slug: bloomberg-finops
+  template: false
 image: /assets/icons/bloomberg.png
 integrations:
 - description: Extend Bloomberg Terminal capabilities through the Desktop API integration.
@@ -556,13 +575,13 @@ modified: '2026-09-16'
 name: Bloomberg
 nav: Providers
 network: true
-overview: 'Bloomberg publishes 9 APIs on the [APIs.io](https://apis.io/) network, including BLPAPI Core, and 8 more. Tagged areas include Analytics, Business Intelligence, Data License, Enterprise, and Execution Management.
+overview: 'Bloomberg publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including BLPAPI Core, and 8 more. Tagged areas include Analytics, Business Intelligence, Data License, Enterprise, and Execution Management.
 
 
   The Bloomberg catalog on APIs.io includes 1 event-driven AsyncAPI specification, 2 JSON-LD contexts, and 2 Spectral governance rulesets.
 
 
-  Bloomberg''s developer surface includes developer portal, documentation, getting-started guide, support, API reference, engineering blog, authentication, and 64 more developer resources.'
+  Bloomberg''s developer surface includes developer portal, documentation, getting-started guide, support, API reference, engineering blog, authentication, and 67 more developer resources.'
 plans:
 - name: Bloomberg Plans Pricing
   plan_count: 2
@@ -573,9 +592,10 @@ rate_limits:
   name: Bloomberg Rate Limits
   slug: bloomberg-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: Bloomberg API Rules
+  name: Bloomberg — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -583,7 +603,8 @@ rules:
     info: 2
     warn: 4
   slug: bloomberg-jsonschema-spectral-rules
-- effective_rule_count: 51
+- authorship: generated
+  effective_rule_count: 51
   extends:
   - spectral:oas
   name: Bloomberg API Rules
@@ -601,17 +622,17 @@ scopes:
   summary_line: 3 scopes · authorizationCode/refreshToken
 score:
   band: strong
-  composite: 56.3
+  composite: 54.8
   coverage:
-    artifact_dirs: 32
-    catalog_earned: 66.0
+    artifact_dirs: 33
+    catalog_earned: 63.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 49.0
+    catalog_gap: 52.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 44.7
+    access_clarity: 36.8
     contract_governance: 45.5
     contract_quality: 61.1
     developer_ergonomics: 67.3
@@ -634,8 +655,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 43.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

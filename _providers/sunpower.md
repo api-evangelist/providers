@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: pvfactors is an open-source Python library for modeling diffuse shading and bifacial photovoltaic (PV) irradiance. It implements 2D geometry and view-factor mathematics to account for reflections betw
@@ -47,6 +47,21 @@ apis:
   slug: solar-utils
 artifact_total: 7
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sunpower/refs/heads/main/plans/sunpower-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/sunpower-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/sunpower/refs/heads/main/rate-limits/sunpower-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/sunpower-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sunpower/refs/heads/main/finops/sunpower-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/sunpower-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/sunpower/refs/heads/main/security/sunpower-domain-security.yml
   title: ''
@@ -71,19 +86,23 @@ common:
 created: '2026-05-02'
 description: 'SunPower is a residential solar energy company (Nasdaq: SPWR) that designs, installs, and finances solar systems and battery storage for homeowners. The original SunPower Corporation filed for Chapter 11 bankruptcy in August 2024; its assets were acquired by Complete Solaria in September 2024, which rebranded as SunPower Inc. in April 2025. SunPower maintains the GitHub org github.com/SunPower, hosting open-source solar modeling tools including pvfactors (view-factor model for bifacial PV modeling), PVMismatch (mismatch loss calculations), and SolarUtils. These Python libraries are used by solar energy professionals and researchers for photovoltaic system modeling and simulation.'
 finops:
-- name: Sunpower Finops
+- has_sources: false
+  method: generated
+  name: Sunpower Finops
+  primary_unit: ''
   service_category: API
   slug: sunpower-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sunpower.png
 layout: provider
 modified: '2026-05-02'
 name: SunPower
 nav: Providers
 network: true
-overview: 'SunPower publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Solar Energy, Renewable Energy, Photovoltaics, Open Source, and Python.
+overview: 'SunPower is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Solar Energy, Renewable Energy, Photovoltaics, Open Source, and Python.
 
 
-  SunPower''s developer surface includes engineering blog and 4 more developer resources.'
+  SunPower''s developer surface includes engineering blog and 7 more developer resources.'
 plans:
 - name: Sunpower Plans Pricing
   plan_count: 3
@@ -110,18 +129,18 @@ rate_limits:
   name: Sunpower Rate Limits
   slug: sunpower-rate-limits
 score:
-  band: emerging
-  composite: 11.9
+  band: minimal
+  composite: 10.3
   coverage:
-    artifact_dirs: 9
-    catalog_earned: 44.0
+    artifact_dirs: 10
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 71.0
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
@@ -134,8 +153,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 4.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

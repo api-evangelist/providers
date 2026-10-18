@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://drexel.edu/feed.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/drexel-university/refs/heads/main/security/drexel-university-domain-security.yml
   title: ''
@@ -73,20 +77,20 @@ created: '2025-03-01'
 description: Drexel University is a private research university in Philadelphia, Pennsylvania, with roughly 24,000 students and a Carnegie R1 (very high research activity) classification. Drexel is internationally known for its cooperative education (co-op) program, which embeds full-time professional work experience into undergraduate degrees. Core enterprise systems run on Ellucian Banner, surfaced to students and staff through the DrexelOne portal. Drexel does not publish a public developer API, OpenAPI specification, SDK, or open data portal; the organization's GitHub org (drexel-university) currently lists no public repositories, and library, catalog, and IT service pages do not expose documented integration endpoints. This profile is maintained as a tier-3 no-public-API index entry.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/drexel-university.png
 layout: provider
-modified: '2026-07-25'
+modified: '2026-10-06'
 name: Drexel University
 nav: Providers
 network: true
 overview: 'Drexel University is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Higher Education, University, Research, and Philadelphia.
 
 
-  Drexel University''s developer surface includes developer portal, GitHub presence, and 6 more developer resources.'
+  Drexel University''s developer surface includes developer portal, GitHub presence, and 7 more developer resources.'
 random_paper: 7
 score:
   band: minimal
   composite: 4.6
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 5
     catalog_earned: 22.0
     catalog_earned_first_party: 0.0
     catalog_gap: 93.0
@@ -107,8 +111,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

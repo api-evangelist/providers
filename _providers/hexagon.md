@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: platform
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.8
-  scored_at: '2026-10-04'
+  score: 19.9
+  scored_at: '2026-10-17'
 api_count: 5
 apis:
 - description: REST APIs for the Nexus digital reality platform enabling manufacturers to build connected workflows integrating metrology, quality inspection, and production monitoring data. All endpoints are authen
@@ -212,9 +212,13 @@ common:
 created: '2026-06-13'
 description: Hexagon is a global leader in digital reality solutions, combining sensor, software and autonomous technologies. Through the Nexus platform and product APIs, Hexagon delivers manufacturing intelligence capabilities spanning metrology, quality inspection, production monitoring, and digital factory solutions. The Nexus Developer Portal provides REST APIs authenticated via OAuth 2.0, enabling manufacturers and third-party developers to build connected, collaborative workflows integrating measurement data, quality processes, and industrial automation across the smart factory lifecycle.
 finops:
-- name: Hexagon Finops
+- has_sources: false
+  method: generated
+  name: Hexagon Finops
+  primary_unit: ''
   service_category: ''
   slug: hexagon-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hexagon.png
 layout: provider
 mcp_servers:
@@ -225,7 +229,7 @@ modified: '2026-06-13'
 name: Hexagon
 nav: Providers
 network: true
-overview: 'Hexagon publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Nexus API, and 4 more. Tagged areas include Manufacturing, Metrology, Quality Inspection, Digital Factory, and Production Monitoring.
+overview: 'Hexagon is listed with 5 APIs on the [APIs.io](https://apis.io/) network, including Nexus API, and 4 more. Tagged areas include Manufacturing, Metrology, Quality Inspection, Digital Factory, and Production Monitoring.
 
 
   Hexagon''s developer surface includes API reference, getting-started guide, support, signup flow, changelog, authentication, FAQ, and 28 more developer resources.'
@@ -245,17 +249,17 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 60.2
+  composite: 54.6
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 53.8
+    artifact_dirs: 23
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 61.2
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.6
   facets:
-    access_clarity: 96.8
+    access_clarity: 68.4
     contract_governance: 18.2
     contract_quality: 39.4
     developer_ergonomics: 58.9
@@ -272,9 +276,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

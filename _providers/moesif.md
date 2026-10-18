@@ -28,22 +28,22 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: false
+    protected_resource_metadata: verified
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 40.0
-  scored_at: '2026-10-04'
+  score: 43.6
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 106
+- acting_count: 46
   human_in_the_loop: 0
   name: Moesif Agentic Access
-  operation_count: 174
+  operation_count: 87
   slug: moesif-agentic-access
-  summary_line: 174 operations · 106 acting
-api_count: 2
+  summary_line: 87 operations · 46 acting
+api_count: 4
 apis:
 - description: The Moesif Collector API is the high-volume ingestion endpoint that receives API event data from server, client, and gateway SDKs. It accepts HTTP API call records, user/company entity updates, and cu
   name: Moesif Collector API
@@ -177,6 +177,21 @@ collections:
   name: Management API
   slug: open-moesif
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/moesif/refs/heads/main/plans/moesif-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/moesif-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/moesif/refs/heads/main/rate-limits/moesif-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/moesif-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/moesif/refs/heads/main/finops/moesif-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/moesif-finops.yml
 - group: design
   href: https://raw.githubusercontent.com/api-evangelist/moesif/refs/heads/main/rules/moesif-rules.yml
   title: ''
@@ -424,9 +439,13 @@ common:
 created: '2025-01-08'
 description: Moesif is an API analytics, monitoring, monetization, and governance platform for API and AI product teams. The platform unifies API observability (analytics, logs, metrics, traces via OpenTelemetry), usage-based monetization (billing meters, product catalog, prepaid credits, Stripe integration), quotas and governance (rate limiting, contract enforcement), and customer-experience tooling (behavioral cohorts, emails, embedded metrics, developer portal). Moesif has expanded into AI agent and LLM analytics with usage-based billing for AI apps, GenAI-powered "Ask AI" analytics queries, and content monetization for LLM training.
 finops:
-- name: Moesif Finops
+- has_sources: false
+  method: generated
+  name: Moesif Finops
+  primary_unit: ''
   service_category: API
   slug: moesif-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/moesif.png
 json_schemas:
 - name: AddSubscriptionDTO
@@ -539,13 +558,13 @@ modified: '2026-05-22'
 name: Moesif
 nav: Providers
 network: true
-overview: 'Moesif publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Balance Transactions API, Billing Meters API, and 13 more. Tagged areas include Analytics, Monitoring, Monetization, Governance, and Observability.
+overview: 'Moesif publishes 16 API contracts indexed on the [APIs.io](https://apis.io/) network, including Applications API, Balance Transactions API, Billing Meters API, and 13 more. Tagged areas include Analytics, Monitoring, Monetization, Governance, and Observability.
 
 
   The Moesif catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Moesif''s developer surface includes support, authentication, documentation, API reference, pricing, signup flow, getting-started guide, and 50 more developer resources.'
+  Moesif''s developer surface includes support, authentication, documentation, API reference, pricing, signup flow, getting-started guide, and 53 more developer resources.'
 plans:
 - name: Moesif Plans Pricing
   plan_count: 3
@@ -556,7 +575,8 @@ rate_limits:
   name: Moesif Rate Limits
   slug: moesif-rate-limits
 rules:
-- effective_rule_count: 51
+- authorship: unmarked
+  effective_rule_count: 51
   extends:
   - spectral:oas
   name: Moesif API Rules
@@ -573,24 +593,24 @@ scopes:
   slug: moesif-scopes
   summary_line: 71 scopes · password
 score:
-  band: exemplar
-  composite: 66.9
+  band: strong
+  composite: 62.4
   coverage:
-    artifact_dirs: 27
-    catalog_earned: 80.8
+    artifact_dirs: 28
+    catalog_earned: 71.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 34.3
+    catalog_gap: 44.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 21.2
+  delta: -6.4
   facets:
-    access_clarity: 50.0
-    contract_governance: 62.9
+    access_clarity: 42.1
+    contract_governance: 33.3
     contract_quality: 58.8
     developer_ergonomics: 75.6
-    discoverability: 76.7
+    discoverability: 81.7
     operational_transparency: 36.8
-  previous_composite: 45.7
+  previous_composite: 68.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -613,9 +633,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: rising
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 50.0

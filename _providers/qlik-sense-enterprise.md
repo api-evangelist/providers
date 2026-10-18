@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: documented
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.3
-  scored_at: '2026-10-04'
+  score: 31.4
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 65
   human_in_the_loop: 1
@@ -314,6 +314,21 @@ collections:
   name: Qlik Sense Enterprise Qlik Sense Service About Virtual Proxy API
   slug: open-qlik-sense-enterprise-virtual-proxy-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/qlik-sense-enterprise/refs/heads/main/plans/qlik-sense-enterprise-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/qlik-sense-enterprise-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/qlik-sense-enterprise/refs/heads/main/rate-limits/qlik-sense-enterprise-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/qlik-sense-enterprise-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/qlik-sense-enterprise/refs/heads/main/finops/qlik-sense-enterprise-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/qlik-sense-enterprise-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/qlik-sense-enterprise/refs/heads/main/capabilities/qlik-sense-enterprise-capability-edges.yml
   title: ''
@@ -397,9 +412,13 @@ common:
 created: '2024-01-01'
 description: Collection of APIs for Qlik Sense Enterprise, a modern analytics platform for business intelligence and data visualization.
 finops:
-- name: Qlik Sense Enterprise Finops
+- has_sources: true
+  method: generated
+  name: Qlik Sense Enterprise Finops
+  primary_unit: ''
   service_category: Analytics
   slug: qlik-sense-enterprise-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/qlik-sense-enterprise.png
 json_schemas:
 - name: AboutInfo
@@ -621,13 +640,13 @@ modified: '2026-05-19'
 name: Qlik Sense Enterprise
 nav: Providers
 network: true
-overview: 'Qlik Sense Enterprise publishes 32 APIs on the [APIs.io](https://apis.io/) network, including About API, Access Type API, App API, and 29 more. Tagged areas include Analytics, Business Intelligence, Data Visualization, Enterprise, and REST API.
+overview: 'Qlik Sense Enterprise publishes 32 API contracts indexed on the [APIs.io](https://apis.io/) network, including About API, Access Type API, App API, and 29 more. Tagged areas include Analytics, Business Intelligence, Data Visualization, Enterprise, and REST API.
 
 
   The Qlik Sense Enterprise catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Qlik Sense Enterprise''s developer surface includes authentication, developer portal, documentation, engineering blog, support, signup flow, and 13 more developer resources.'
+  Qlik Sense Enterprise''s developer surface includes authentication, developer portal, documentation, engineering blog, support, signup flow, and 16 more developer resources.'
 plans:
 - name: Qlik Sense Enterprise Plans Pricing
   plan_count: 1
@@ -638,9 +657,10 @@ rate_limits:
   name: Qlik Sense Enterprise Rate Limits
   slug: qlik-sense-enterprise-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: Qlik Sense Enterprise API Rules
+  name: Qlik Sense Enterprise — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -650,23 +670,23 @@ rules:
   slug: qlik-sense-enterprise-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 37.8
+  composite: 36.3
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 48.3
+    artifact_dirs: 18
+    catalog_earned: 45.3
     catalog_earned_first_party: 0.0
     catalog_gap: 69.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -1.5
   facets:
-    access_clarity: 30.3
+    access_clarity: 22.4
     contract_governance: 9.8
     contract_quality: 57.8
     developer_ergonomics: 38.1
     discoverability: 53.3
     operational_transparency: 15.8
-  previous_composite: 37.3
+  previous_composite: 37.8
   provenance:
     agentic_access: derived
     contracts:
@@ -680,8 +700,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

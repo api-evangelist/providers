@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 41.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: gRPC/Connect API for managing Polar Signals Cloud organizations, projects, service accounts, tokens, roles/RBAC, rate limits, and billing, plus a Parca-compatible profiling data plane for uploading an
@@ -196,7 +196,7 @@ modified: '2026-07-20'
 name: Polar Signals
 nav: Providers
 network: true
-overview: 'Polar Signals publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Observability, Continuous Profiling, and Performance.
+overview: 'Polar Signals is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Observability, Continuous Profiling, and Performance.
 
 
   Polar Signals'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 24 more developer resources.'
@@ -210,7 +210,7 @@ score:
   band: developing
   composite: 44.5
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -235,8 +235,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 41.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

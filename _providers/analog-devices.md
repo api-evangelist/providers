@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 4
 apis:
 - description: The libiio library provides a cross-platform C API for interfacing with Linux Industrial I/O (IIO) devices including ADCs, DACs, and RF transceivers. It supports local and remote device access via a n
@@ -224,9 +224,13 @@ features:
 - description: Active contributor to Linux kernel IIO subsystem, Zephyr RTOS, and other open source projects.
   name: Open Source Ecosystem
 finops:
-- name: Analog Devices Finops
+- has_sources: true
+  method: generated
+  name: Analog Devices Finops
+  primary_unit: ''
   service_category: Semiconductors
   slug: analog-devices-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/analog-devices.png
 integrations:
 - description: ADI actively contributes drivers to the Linux kernel IIO framework.
@@ -256,7 +260,7 @@ modified: '2026-09-02'
 name: Analog Devices
 nav: Providers
 network: true
-overview: 'Analog Devices publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Embedded Systems, Hardware, IoT, Semiconductors, and Signal Processing.
+overview: 'Analog Devices is listed with 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Embedded Systems, Hardware, IoT, Semiconductors, and Signal Processing.
 
 
   The Analog Devices catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -289,9 +293,10 @@ rate_limits:
   name: Analog Devices Rate Limits
   slug: analog-devices-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Analog Devices API Rules
+  name: Analog Devices — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -299,7 +304,8 @@ rules:
     info: 1
     warn: 4
   slug: analog-devices-jsonschema-spectral-rules
-- effective_rule_count: 4
+- authorship: unmarked
+  effective_rule_count: 4
   extends: []
   name: Analog Devices API Rules
   rule_count: 4
@@ -311,17 +317,17 @@ rules:
   slug: analog-devices-spectral-rules
 score:
   band: developing
-  composite: 41.8
+  composite: 40.3
   coverage:
-    artifact_dirs: 27
-    catalog_earned: 62.8
+    artifact_dirs: 28
+    catalog_earned: 59.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 52.3
+    catalog_gap: 55.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 18.4
+    access_clarity: 10.5
     contract_governance: 41.7
     contract_quality: 34.7
     developer_ergonomics: 65.5
@@ -338,8 +344,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -109,6 +109,20 @@ collections:
   name: Upbit REST Exchange - Account Quotation API
   slug: open-upbit-quotation-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/upbit/refs/heads/main/plans/upbit-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/upbit-plans-pricing.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/upbit/refs/heads/main/finops/upbit-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/upbit-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.upbit.com/blog/
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/upbit/refs/heads/main/agentic-access/upbit-agentic-access.yml
   title: ''
@@ -184,9 +198,13 @@ common:
 created: '2026-06-13'
 description: Upbit is a leading South Korean cryptocurrency exchange operated by Dunamu Inc., offering REST and WebSocket APIs for market data retrieval, order management, account balances, and transaction history. Developers must register an Upbit account with security level 2 or higher to issue API keys. Authenticated requests use JWT bearer tokens (HS512) generated from an Access Key and Secret Key pair, while public quotation endpoints (market data, tickers, orderbooks, candles) require no authentication. Upbit supports KRW, BTC, and USDT trading markets and complies with travel-rule regulations for digital asset transfers. Regional API endpoints are available for Korea, Singapore, Indonesia, and Thailand.
 finops:
-- name: Upbit Finops
+- has_sources: true
+  method: generated
+  name: Upbit Finops
+  primary_unit: ''
   service_category: Financial Services
   slug: upbit-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/upbit.png
 jsonld:
 - class_count: 0
@@ -194,17 +212,17 @@ jsonld:
   property_count: 0
   slug: apis
 layout: provider
-modified: '2026-06-13'
+modified: '2026-10-06'
 name: Upbit
 nav: Providers
 network: true
-overview: 'Upbit publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Exchange - Account API, Exchange - Deposits API, Exchange - Orders API, and 5 more. Tagged areas include Cryptocurrency, Exchange, Market Data, Order, and Trading.
+overview: 'Upbit publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Exchange - Account API, Exchange - Deposits API, Exchange - Orders API, and 5 more. Tagged areas include Cryptocurrency, Exchange, Market Data, Order, and Trading.
 
 
   The Upbit catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Upbit''s developer surface includes authentication, documentation, getting-started guide, GitHub presence, support, and 12 more developer resources.'
+  Upbit''s developer surface includes engineering blog, authentication, documentation, getting-started guide, GitHub presence, support, and 14 more developer resources.'
 plans:
 - name: Upbit Plans Pricing
   plan_count: 2
@@ -216,22 +234,22 @@ rate_limits:
   slug: upbit-rate-limits
 score:
   band: thin
-  composite: 36.8
+  composite: 30.3
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 63.0
+    artifact_dirs: 14
+    catalog_earned: 47.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 52.0
+    catalog_gap: 68.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.5
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 53.3
-    developer_ergonomics: 31.0
+    developer_ergonomics: 33.3
     discoverability: 73.2
-    operational_transparency: 33.7
+    operational_transparency: 13.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -251,9 +269,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 26.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0
@@ -270,7 +288,7 @@ security:
 - kind: vulnerability-disclosure
   name: Upbit Vulnerability Disclosure
   slug: upbit-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 slug: upbit
 tags:
 - Cryptocurrency

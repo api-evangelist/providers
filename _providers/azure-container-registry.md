@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 25
   slug: azure-container-registry-agentic-access
   summary_line: 25 operations · 16 acting
-api_count: 1
+api_count: 2
 apis:
 - baseURL: https://management.azure.com
   baseurl_source: spec
@@ -102,6 +102,21 @@ collections:
   name: ContainerRegistryManagementClient Operation Webhooks API
   slug: open-azure-container-registry-webhooks-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/azure-container-registry/refs/heads/main/plans/azure-container-registry-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/azure-container-registry-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/azure-container-registry/refs/heads/main/rate-limits/azure-container-registry-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/azure-container-registry-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/azure-container-registry/refs/heads/main/finops/azure-container-registry-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/azure-container-registry-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/azure-container-registry/refs/heads/main/capabilities/azure-container-registry-capability-edges.yml
   title: ''
@@ -283,9 +298,13 @@ examples:
   name: Azure Container Registry Registry Name Status Example
   slug: azure-container-registry-registry-name-status-example
 finops:
-- name: Azure Container Registry Finops
+- has_sources: false
+  method: generated
+  name: Azure Container Registry Finops
+  primary_unit: ''
   service_category: API
   slug: azure-container-registry-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/azure-container-registry.png
 json_schemas:
 - name: Actor
@@ -473,13 +492,13 @@ modified: '2026-05-19'
 name: Azure Container Registry
 nav: Providers
 network: true
-overview: 'Azure Container Registry publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Operation API, Registries API, Replications API, and 5 more. Tagged areas include Azure, Container Images, Containers, Docker, and Registry.
+overview: 'Azure Container Registry publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Operation API, Registries API, Replications API, and 5 more. Tagged areas include Microsoft Azure, Container Images, Containers, Docker, and Registry.
 
 
   The Azure Container Registry catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Azure Container Registry''s developer surface includes developer portal, support, authentication, documentation, getting-started guide, pricing, engineering blog, and 14 more developer resources.'
+  Azure Container Registry''s developer surface includes developer portal, support, authentication, documentation, getting-started guide, pricing, engineering blog, and 17 more developer resources.'
 plans:
 - name: Azure Container Registry Plans Pricing
   plan_count: 3
@@ -490,9 +509,10 @@ rate_limits:
   name: Azure Container Registry Rate Limits
   slug: azure-container-registry-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Azure Container Registry API Rules
+  name: Azure Container Registry — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -500,7 +520,8 @@ rules:
     info: 2
     warn: 3
   slug: azure-container-registry-jsonschema-spectral-rules
-- effective_rule_count: 59
+- authorship: generated
+  effective_rule_count: 59
   extends:
   - spectral:oas
   name: Azure Container Registry API Rules
@@ -518,17 +539,17 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: developing
-  composite: 50.9
+  composite: 49.4
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 61.0
+    artifact_dirs: 21
+    catalog_earned: 58.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 54.0
+    catalog_gap: 57.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 60.5
+    access_clarity: 52.6
     contract_governance: 27.3
     contract_quality: 50.6
     developer_ergonomics: 50.0
@@ -548,8 +569,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -570,7 +591,7 @@ security:
   summary_line: security.txt · contact published
 slug: azure-container-registry
 tags:
-- Azure
+- Microsoft Azure
 - Container Images
 - Containers
 - Docker

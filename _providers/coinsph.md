@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 63
+- acting_count: 52
   human_in_the_loop: 0
   name: Coinsph Agentic Access
   operation_count: 113
   slug: coinsph-agentic-access
-  summary_line: 113 operations · 63 acting
+  summary_line: 113 operations · 52 acting
 api_count: 11
 apis:
 - baseURL: https://api.pro.coins.ph
@@ -422,7 +422,7 @@ modified: '2026-07-18'
 name: Coins.ph
 nav: Providers
 network: true
-overview: 'Coins.ph publishes 26 APIs on the [APIs.io](https://apis.io/) network, including Account API, Account Validation API, Checkout API, and 23 more. Tagged areas include Company, Crypto, Cryptocurrency Exchange, Payments, and Fintech.
+overview: 'Coins.ph publishes 26 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Account Validation API, Checkout API, and 23 more. Tagged areas include Company, Cryptocurrency, Cryptocurrency Exchange, Payments, and Fintech.
 
 
   The Coins.ph catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -434,7 +434,7 @@ score:
   band: developing
   composite: 50.5
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -472,8 +472,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 27.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -495,7 +495,7 @@ security:
 slug: coinsph
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Cryptocurrency Exchange
 - Payments
 - Fintech

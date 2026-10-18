@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.obligate.com/press
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/obligate/refs/heads/main/security/obligate-domain-security.yml
   title: ''
@@ -86,14 +90,14 @@ created: '2026-07-17'
 description: Obligate (formerly FQX) is a Swiss digital-securities infrastructure provider for regulated on-chain debt capital markets. Its AssetOS platform lets companies issue tokenized bonds and short-term notes as blockchain-based eNotes and eTrackers under the Swiss DLT Act and Code of Obligations, while institutional investors access regulated on-chain private credit, asset-backed securities and trade-finance yield products. Obligate automates the bond lifecycle with smart contracts across multiple blockchains, with built-in KYB/KYC, settlement and enforcement, reducing issuance cost and time versus traditional debt issuance.
 image: https://cdn.prod.website-files.com/63a02e47caead88db4be659f/6a0c7575182806154dc15372_Screenshot%202026-05-19%20at%2016.36.06.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Obligate
 nav: Providers
 network: true
 overview: 'Obligate is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Digital Securities, Tokenization, Blockchain, and Debt Capital Markets.
 
 
-  Obligate''s developer surface includes documentation, getting-started guide, signup flow, pricing, engineering blog, and 6 more developer resources.'
+  Obligate''s developer surface includes engineering blog, documentation, getting-started guide, signup flow, pricing, and 7 more developer resources.'
 random_paper: 3
 score:
   band: emerging
@@ -125,8 +129,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 13.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

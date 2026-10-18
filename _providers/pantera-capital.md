@@ -17,7 +17,7 @@ description: 'Pantera Capital is a U.S.-based investment firm founded in 2003 by
   Circle, Ripple, Uniswap, Bitstamp, Polkadot, Near, Filecoin, StarkWare, and Ondo Finance.'
 image: https://panteracapital.com/favicon.ico
 layout: provider
-modified: '2026-07-17'
+modified: '2026-10-06'
 name: Pantera Capital
 nav: Providers
 network: true
@@ -25,7 +25,7 @@ random_paper: 8
 slug: pantera-capital
 tags:
 - Venture Capital
-- Crypto
+- Cryptocurrency
 - Blockchain
 - Web3
 - DeFi

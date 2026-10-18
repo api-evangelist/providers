@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 44.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -127,6 +127,14 @@ collections:
   name: Kintsugi Tax API
   slug: open-kintsugi
 common:
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://trykintsugi.com/pricing
+- group: company
+  title: ''
+  type: Blog
+  url: https://trykintsugi.com/blog
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/kintsugi/refs/heads/main/capabilities/kintsugi-capability-edges.yml
   title: ''
@@ -181,50 +189,54 @@ common:
 created: '2026-06-21'
 description: Kintsugi is an AI-driven sales tax compliance and automation platform that calculates US sales tax, VAT, and GST in real time, monitors economic and physical nexus, manages exemptions and registrations, and auto-prepares and files returns. Its REST API exposes tax estimation, transactions, products, address validation, nexus, exemptions, registrations, and filings, authenticated with an API key plus organization ID header.
 finops:
-- name: Kintsugi Finops
+- has_sources: true
+  method: generated
+  name: Kintsugi Finops
+  primary_unit: ''
   service_category: Tax Compliance and Automation
   slug: kintsugi-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kintsugi.png
 layout: provider
 mcp_servers:
 - description: Remote MCP server at mcp.trykintsugi.com over HTTP.
   name: Kintsugi MCP Server
   slug: kintsugi
-modified: '2026-06-21'
+modified: '2026-10-06'
 name: Kintsugi
 nav: Providers
 network: true
-overview: 'Kintsugi publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Address Validation API, Customers API, Exemptions API, and 6 more. Tagged areas include Sales Tax, Tax Compliance, Tax Automation, VAT, and GST.
+overview: 'Kintsugi publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Address Validation API, Customers API, Exemptions API, and 6 more. Tagged areas include Sales Tax, Tax Compliance, Tax Automation, VAT, and GST.
 
 
-  Kintsugi''s developer surface includes authentication, documentation, and 9 more developer resources.'
+  Kintsugi''s developer surface includes pricing, engineering blog, authentication, documentation, and 9 more developer resources.'
 plans:
 - name: Kintsugi Plans Pricing
-  plan_count: 4
+  plan_count: 3
   slug: kintsugi-plans-pricing
 random_paper: 20
 rate_limits:
-- limit_count: 2
+- limit_count: 1
   name: Kintsugi Rate Limits
   slug: kintsugi-rate-limits
 score:
   band: thin
-  composite: 36.2
+  composite: 38.1
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 58.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 57.0
+    artifact_dirs: 15
+    catalog_earned: 57.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.9
   facets:
-    access_clarity: 36.3
+    access_clarity: 42.1
     contract_governance: 0.0
     contract_quality: 47.7
-    developer_ergonomics: 29.8
+    developer_ergonomics: 32.1
     discoverability: 68.3
-    operational_transparency: 21.6
+    operational_transparency: 23.7
   previous_composite: 36.2
   provenance:
     agentic_access: derived
@@ -240,8 +252,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

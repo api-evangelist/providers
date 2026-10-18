@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 5
 apis:
 - description: Create and update applicants, contacts, prospects, and opportunities in the EZLynx management system and CRM so external lead-capture, marketing, and onboarding tools stay in sync without rekeying dat
@@ -99,7 +99,7 @@ modified: '2026-07-10'
 name: EZLynx
 nav: Providers
 network: true
-overview: 'EZLynx publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Insurtech, Comparative Rating, Agency Management System, and CRM.
+overview: 'EZLynx is listed with 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Insurtech, Comparative Rating, Agency Management System, and CRM.
 
 
   EZLynx''s developer surface includes documentation, API reference, signup flow, engineering blog, and 5 more developer resources.'
@@ -108,7 +108,7 @@ score:
   band: emerging
   composite: 14.0
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -129,8 +129,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 14.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

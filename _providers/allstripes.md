@@ -33,10 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://picnichealth.com/blog
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/allstripes/refs/heads/main/security/allstripes-domain-security.yml
   title: ''
@@ -76,28 +80,31 @@ created: '2026-08-06'
 description: AllStripes was a San Francisco healthcare technology company, founded in 2017 as RDMD by Nancy Yu and Onno Faber, that built a research platform dedicated to rare disease. It retrieved, digitized and de-identified patients' medical records into regulatory-ready real-world evidence for biopharma drug development, and paired that with a patient application through which families affected by conditions such as Batten disease, Hunter syndrome and sickle cell anemia could participate in treatment research from home. The company raised roughly $74M in venture funding, including a $50M Series B in August 2021 led by Lux Capital with JAZZ Venture Partners, Spark Capital, Medidata, McKesson Ventures and Maveron. PicnicHealth acquired AllStripes on October 23, 2023 and folded the platform into its own; the AllStripes brand has since been retired, and allstripes.com and app.allstripes.com now issue blanket 301 redirects to picnichealth.com. AllStripes never published a public developer
   portal, REST/OpenAPI contract, SDK, or webhook surface, and no such surface survives the acquisition.
 layout: provider
-modified: '2026-08-06'
+modified: '2026-10-06'
 name: AllStripes
 nav: Providers
 network: true
-overview: AllStripes is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Rare Disease, Real-World Data, and Real-World Evidence.
+overview: 'AllStripes is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Rare Disease, Real-World Data, and Real-World Evidence.
+
+
+  AllStripes'' developer surface includes engineering blog and 4 more developer resources.'
 random_paper: 13
 score:
   band: minimal
-  composite: 3.3
+  composite: 3.8
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 25.0
     catalog_earned_first_party: 0.0
     catalog_gap: 90.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 44.6
     operational_transparency: 0.0
   previous_composite: 3.3
@@ -107,8 +114,8 @@ score:
     regime: Health
     regime_id: health
     score: 4.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

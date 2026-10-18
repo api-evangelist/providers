@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.9
-  scored_at: '2026-10-04'
+  score: 29.0
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 1
@@ -186,6 +186,25 @@ collections:
   name: Nomba Virtual Accounts API
   slug: open-nomba-virtual-accounts
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/nomba/refs/heads/main/plans/nomba-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/nomba-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/nomba/refs/heads/main/rate-limits/nomba-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/nomba-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/nomba/refs/heads/main/finops/nomba-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/nomba-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://nomba.com/blog/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/nomba/refs/heads/main/capabilities/nomba-capability-edges.yml
   title: ''
@@ -259,9 +278,13 @@ common:
 created: '2026-03-24'
 description: Nomba is a Nigerian fintech platform that provides payment infrastructure for businesses, offering APIs for payment acceptance, transfers, virtual accounts, and cross-border payouts. Their developer platform enables merchants and platforms to integrate card payments, bank transfers, USSD, and QR code payments into applications.
 finops:
-- name: Nomba Finops
+- has_sources: true
+  method: generated
+  name: Nomba Finops
+  primary_unit: ''
   service_category: Payments
   slug: nomba-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nomba.png
 json_schemas:
 - name: Account
@@ -379,17 +402,17 @@ jsonld:
   property_count: 9
   slug: nomba-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-10-06'
 name: Nomba
 nav: Providers
 network: true
-overview: 'Nomba publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Authentication API, Card Charge API, and 11 more. Tagged areas include Payments, Fintech, Banking, Transfers, and Virtual Accounts.
+overview: 'Nomba publishes 14 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, Authentication API, Card Charge API, and 11 more. Tagged areas include Payments, Fintech, Banking, Transfers, and Virtual Accounts.
 
 
   The Nomba catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Nomba''s developer surface includes authentication, engineering blog, and 13 more developer resources.'
+  Nomba''s developer surface includes engineering blog, authentication, and 17 more developer resources.'
 plans:
 - name: Nomba Plans Pricing
   plan_count: 1
@@ -400,10 +423,11 @@ rate_limits:
   name: Nomba Rate Limits
   slug: nomba-rate-limits
 rules:
-- effective_rule_count: 34
+- authorship: generated
+  effective_rule_count: 34
   extends:
   - spectral:asyncapi
-  name: Nomba API Rules
+  name: Nomba — asyncapi rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -411,9 +435,10 @@ rules:
     info: 1
     warn: 5
   slug: nomba-asyncapi-spectral-rules
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: Nomba API Rules
+  name: Nomba — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -423,17 +448,17 @@ rules:
   slug: nomba-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 34.5
+  composite: 33.0
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 56.5
+    artifact_dirs: 21
+    catalog_earned: 53.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 58.5
+    catalog_gap: 61.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 13.2
+    access_clarity: 5.3
     contract_governance: 13.6
     contract_quality: 63.6
     developer_ergonomics: 33.3
@@ -458,8 +483,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

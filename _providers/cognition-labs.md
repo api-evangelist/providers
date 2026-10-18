@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: verified
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 37.9
-  scored_at: '2026-10-04'
+  score: 36.1
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -294,9 +294,13 @@ common:
 created: '2026-07-02'
 description: Cognition Labs is the applied AI lab behind Devin, the autonomous AI software engineer that plans, writes, tests, and ships code inside its own shell, code editor, and browser. The Devin API lets teams create and drive Devin sessions programmatically - sending prompts and follow-up messages, attaching files, storing organizational knowledge and reusable playbooks, injecting secrets, and tracking Agent Compute Unit (ACU) consumption - across a legacy v1 surface, a v2 enterprise surface, and a current v3 organizations/enterprise surface built around service-user and personal access tokens.
 finops:
-- name: Cognition Labs Finops
+- has_sources: true
+  method: generated
+  name: Cognition Labs Finops
+  primary_unit: ''
   service_category: AI and Machine Learning
   slug: cognition-labs-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cognition-labs.png
 json_schemas:
 - name: CreateSessionInput
@@ -342,7 +346,7 @@ modified: '2026-07-02'
 name: Cognition Labs
 nav: Providers
 network: true
-overview: 'Cognition Labs publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Attachments API, Consumption API, Enterprise (v3) API, and 8 more. Tagged areas include Artificial Intelligence, AI Agents, Autonomous Coding, Software Engineering, and LLM.
+overview: 'Cognition Labs publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Attachments API, Consumption API, Enterprise (v3) API, and 8 more. Tagged areas include Artificial Intelligence, AI Agents, Autonomous Coding, Software Engineering, and LLM.
 
 
   The Cognition Labs catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -359,7 +363,8 @@ rate_limits:
   name: Cognition Labs Rate Limits
   slug: cognition-labs-rate-limits
 rules:
-- effective_rule_count: 55
+- authorship: generated
+  effective_rule_count: 55
   extends:
   - spectral:oas
   name: Cognition Labs API Rules
@@ -371,24 +376,24 @@ rules:
     warn: 3
   slug: cognition-labs-rules
 score:
-  band: strong
-  composite: 60.6
+  band: developing
+  composite: 52.3
   coverage:
     artifact_dirs: 27
-    catalog_earned: 87.4
+    catalog_earned: 68.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 27.7
+    catalog_gap: 46.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 19.8
+  delta: -14.4
   facets:
-    access_clarity: 62.6
+    access_clarity: 34.2
     contract_governance: 35.6
     contract_quality: 68.3
     developer_ergonomics: 53.0
     discoverability: 73.2
-    operational_transparency: 57.4
-  previous_composite: 40.8
+    operational_transparency: 36.8
+  previous_composite: 66.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -408,9 +413,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: rising
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0
@@ -427,7 +432,7 @@ security:
 - kind: vulnerability-disclosure
   name: Cognition Labs Vulnerability Disclosure
   slug: cognition-labs-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 - kind: trust-center
   name: Cognition Labs Trust Center
   slug: cognition-labs-trust-center

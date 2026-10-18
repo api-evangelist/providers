@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: Transport Canada's only first-party public REST API. Returns safety-related recall records for vehicles, tires and child restraints recorded by the Defect Investigations and Recalls Division. The serv
@@ -48,6 +48,10 @@ apis:
   slug: transport-canada-canadian-airports-wms
 artifact_total: 5
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://tc.canada.ca/en/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/transport-canada/refs/heads/main/security/transport-canada-domain-security.yml
   title: ''
@@ -171,20 +175,20 @@ description: 'Transport Canada (Transports Canada) is the federal department tha
   a self-describing JSON/XML Vehicle Recalls Database API at data.tc.gc.ca, an ArcGIS REST and OGC WMS service for Canadian airports with air navigation services, and bulk CSV/XML extracts of CADORS, the Air Cargo Security members list and the vessel registers, all indexed through the Treasury-Board-operated open.canada.ca CKAN Action API under the Open Government Licence – Canada. No key, no account, no accreditation, no contract.'
 image: https://tc.canada.ca/favicon.ico
 layout: provider
-modified: '2026-07-28'
+modified: '2026-10-06'
 name: Transport Canada
 nav: Providers
 network: true
-overview: 'Transport Canada publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Travel, Canada, Aviation, Regulator, and Government.
+overview: 'Transport Canada is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Travel, Canada, Aviation, Regulator, and Government.
 
 
-  Transport Canada''s developer surface includes authentication, documentation, support, product news, and 23 more developer resources.'
+  Transport Canada''s developer surface includes authentication, documentation, support, product news, and 24 more developer resources.'
 random_paper: 0
 score:
   band: emerging
   composite: 22.0
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -214,8 +218,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

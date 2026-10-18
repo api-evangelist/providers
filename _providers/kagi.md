@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 2
+- acting_count: 1
   human_in_the_loop: 0
   name: Kagi Agentic Access
   operation_count: 3
   slug: kagi-agentic-access
-  summary_line: 3 operations · 2 acting
+  summary_line: 3 operations · 1 acting
 api_count: 1
 apis:
 - description: The Kagi Search API delivers premium, ad-free web search results powered by the Kagi index, designed for AI agents, research workflows, and applications that demand high-quality results.
@@ -82,6 +82,21 @@ collections:
   name: Kagi Search API
   slug: open-kagi
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/kagi/refs/heads/main/plans/kagi-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/kagi-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/kagi/refs/heads/main/rate-limits/kagi-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/kagi-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/kagi/refs/heads/main/finops/kagi-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/kagi-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/kagi/refs/heads/main/agentic-access/kagi-agentic-access.yml
   title: ''
@@ -145,19 +160,23 @@ common:
 created: '2026-05-23'
 description: Kagi is a privacy-focused premium search engine that also operates a commercial APIs portfolio for developers. The Kagi APIs Portal exposes Search, Enrichment, Universal Summarizer, and FastGPT endpoints, plus a free Small Web RSS feed for non-commercial use. The portal includes an API Playground, usage dashboard, and API key management with IP allowlists and per-product scopes. Kagi publishes an OpenAPI specification and ships official client libraries in Python, Go, Rust, and TypeScript. Billing is pay-per-use with monthly invoicing and a Discord community for developer support.
 finops:
-- name: Kagi Finops
+- has_sources: false
+  method: generated
+  name: Kagi Finops
+  primary_unit: ''
   service_category: API
   slug: kagi-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kagi.png
 layout: provider
 modified: '2026-05-23'
 name: Kagi
 nav: Providers
 network: true
-overview: 'Kagi publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Extract API, Search API, and 4 more. Tagged areas include Search, Premium Search, AI Search, Summarization, and FastGPT.
+overview: 'Kagi publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Extract API, Search API, and 4 more. Tagged areas include Search, Premium Search, AI Search, Summarization, and FastGPT.
 
 
-  Kagi''s developer surface includes authentication, documentation, engineering blog, pricing, changelog, and 9 more developer resources.'
+  Kagi''s developer surface includes authentication, documentation, engineering blog, pricing, changelog, and 12 more developer resources.'
 plans:
 - name: Kagi Plans Pricing
   plan_count: 1
@@ -168,23 +187,23 @@ rate_limits:
   name: Kagi Rate Limits
   slug: kagi-rate-limits
 score:
-  band: developing
-  composite: 42.4
+  band: thin
+  composite: 36.4
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 54.4
+    artifact_dirs: 12
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 60.6
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.0
   facets:
-    access_clarity: 61.1
+    access_clarity: 39.5
     contract_governance: 0.0
     contract_quality: 49.0
     developer_ergonomics: 31.0
     discoverability: 66.1
-    operational_transparency: 40.0
+    operational_transparency: 26.3
   previous_composite: 42.4
   provenance:
     agentic_access: derived
@@ -199,9 +218,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0
@@ -226,7 +245,7 @@ tags:
 - AI Search
 - Summarization
 - FastGPT
-- Enrichment
+- Data Enrichment
 - OpenAPI
 - Pay-Per-Use
 - Privacy

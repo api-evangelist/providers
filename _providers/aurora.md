@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'Ethereum-compatible JSON-RPC 2.0 API for the Aurora EVM network of virtual chains on NEAR. Exposes the standard eth_* method set over HTTPS (and WebSocket subscriptions) on public mainnet and testnet '
@@ -155,7 +155,7 @@ modified: '2026-07-18'
 name: Aurora
 nav: Providers
 network: true
-overview: 'Aurora publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Blockchain, EVM, Web3, and JSON-RPC.
+overview: 'Aurora is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Blockchain, EVM, Web3, and JSON-RPC.
 
 
   Aurora''s developer surface includes documentation, getting-started guide, engineering blog, support, CLI, authentication, sandbox, and 16 more developer resources.'
@@ -187,8 +187,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

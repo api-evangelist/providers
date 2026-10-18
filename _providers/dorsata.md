@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -86,7 +86,7 @@ modified: '2026-07-18'
 name: Dorsata
 nav: Providers
 network: true
-overview: 'Dorsata is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health Tech, Health, Electronic Health Records, and EHR.
+overview: 'Dorsata is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health Tech, Health, Electronic Health Records, and Obstetrics.
 
 
   Dorsata''s developer surface includes engineering blog, support, and 8 more developer resources.'
@@ -123,8 +123,8 @@ score:
     regime: Health
     regime_id: health
     score: 10.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -142,7 +142,6 @@ tags:
 - Health Tech
 - Health
 - Electronic Health Records
-- EHR
 - Obstetrics
 - Women's Health
 - Prenatal

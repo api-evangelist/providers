@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Public Cosmos SDK REST (LCD / gRPC-gateway), gRPC, and Tendermint RPC interface to the Provenance Blockchain. Query and broadcast transactions against the marker, metadata, exchange, ledger, name, att
@@ -41,6 +41,10 @@ apis:
   slug: provenance-blockchain-api
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://provenance.io/blog
 - group: company
   title: ''
   type: Website
@@ -133,31 +137,31 @@ created: '2026-07-17'
 description: Provenance Blockchain is a public, proof-of-stake blockchain purpose-built for financial services and the tokenization of real-world assets. Built on the Cosmos SDK with CometBFT consensus, it exposes its functionality through first-party modules including marker (token/marker issuance), metadata (asset registry and the p8e contract execution environment), exchange (on-chain order book), ledger, name, attribute, hold, trigger, and msgfees/flatfees. Applications integrate over the public Cosmos REST (LCD / gRPC-gateway) API at api.provenance.io, gRPC, and Tendermint RPC at rpc.provenance.io, and via first-party SDKs (Go, Kotlin gRPC client, Rust/CosmWasm provwasm bindings, and JavaScript wallet libraries). HASH is the native staking and gas token. The chain, protobuf data model, and SDKs are open source under the provenance-io GitHub organization.
 image: https://avatars.githubusercontent.com/provenance-io
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Provenance
 nav: Providers
 network: true
-overview: 'Provenance publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Blockchain, Financial Services, Tokenization, and Real World Assets.
+overview: 'Provenance is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Blockchain, Financial Services, Tokenization, and Real World Assets.
 
 
-  Provenance''s developer surface includes documentation, API reference, getting-started guide, support, changelog, authentication, and 13 more developer resources.'
+  Provenance''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, changelog, authentication, and 13 more developer resources.'
 random_paper: 17
 score:
   band: thin
-  composite: 28.8
+  composite: 29.4
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 0.0
     contract_governance: 4.5
     contract_quality: 24.0
-    developer_ergonomics: 61.9
+    developer_ergonomics: 64.3
     discoverability: 73.2
     operational_transparency: 18.4
   previous_composite: 28.8
@@ -170,8 +174,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.8
-  scored_at: '2026-10-04'
+  score: 22.9
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 2
+- acting_count: 1
   human_in_the_loop: 0
   name: Lavu Agentic Access
   operation_count: 2
   slug: lavu-agentic-access
-  summary_line: 2 operations · 2 acting
+  summary_line: 2 operations · 1 acting
 api_count: 2
 apis:
 - baseURL: https://admin.poslavu.com/cp/reqserv
@@ -162,9 +162,13 @@ examples:
   name: Poslavu Api Table Example
   slug: poslavu-api-table-example
 finops:
-- name: Lavu Finops
+- has_sources: true
+  method: generated
+  name: Lavu Finops
+  primary_unit: ''
   service_category: Point of Sale
   slug: lavu-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lavu.png
 json_schemas:
 - name: MenuCategory
@@ -220,7 +224,7 @@ modified: '2026-06-02'
 name: Lavu
 nav: Providers
 network: true
-overview: 'Lavu publishes 2 APIs on the [APIs.io](https://apis.io/) network: Menu API and Orders API. Tagged areas include Restaurant, Point-of-Sale, Payments, Inventory, and Menu Management.
+overview: 'Lavu is listed with 2 APIs on the [APIs.io](https://apis.io/) network: Menu API and Orders API. Tagged areas include Restaurant, Point-of-Sale, Payments, Inventory, and Menu Management.
 
 
   The Lavu catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -237,9 +241,10 @@ rate_limits:
   name: Lavu Rate Limits
   slug: lavu-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Lavu API Rules
+  name: Lavu — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -247,7 +252,8 @@ rules:
     info: 1
     warn: 4
   slug: lavu-jsonschema-spectral-rules
-- effective_rule_count: 76
+- authorship: generated
+  effective_rule_count: 76
   extends:
   - spectral:oas
   name: Lavu API Rules
@@ -260,22 +266,22 @@ rules:
   slug: lavu-spectral-rules
 score:
   band: emerging
-  composite: 26.0
+  composite: 18.6
   coverage:
     artifact_dirs: 17
-    catalog_earned: 68.0
+    catalog_earned: 52.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 47.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.4
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 27.3
     contract_quality: 21.3
     developer_ergonomics: 21.4
     discoverability: 48.2
-    operational_transparency: 18.9
+    operational_transparency: 5.3
   previous_composite: 26.0
   provenance:
     agentic_access: derived
@@ -290,9 +296,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 15.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

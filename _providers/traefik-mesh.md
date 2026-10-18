@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -225,7 +225,7 @@ modified: '2026-05-23'
 name: Traefik Mesh
 nav: Providers
 network: true
-overview: 'Traefik Mesh publishes 3 APIs on the [APIs.io](https://apis.io/) network: Configuration API, Status API, and Topology API. Tagged areas include Kubernetes, Service Mesh, Open Source, SMI, and Traffic Management.
+overview: 'Traefik Mesh publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Configuration API, Status API, and Topology API. Tagged areas include Kubernetes, Service Mesh, Open Source, SMI, and Traffic Management.
 
 
   The Traefik Mesh catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -234,9 +234,10 @@ overview: 'Traefik Mesh publishes 3 APIs on the [APIs.io](https://apis.io/) netw
   Traefik Mesh''s developer surface includes documentation, engineering blog, release notes, changelog, and 18 more developer resources.'
 random_paper: 6
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Traefik Mesh API Rules
+  name: Traefik Mesh — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -244,7 +245,8 @@ rules:
     info: 2
     warn: 3
   slug: traefik-mesh-jsonschema-spectral-rules
-- effective_rule_count: 15
+- authorship: unmarked
+  effective_rule_count: 15
   extends: []
   name: Traefik Mesh API Rules
   rule_count: 15
@@ -256,15 +258,15 @@ rules:
   slug: traefik-mesh-rules
 score:
   band: thin
-  composite: 28.6
+  composite: 28.7
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 61.8
     catalog_earned_first_party: 0.0
     catalog_gap: 38.3
     catalog_max: 100.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 0.0
     contract_governance: 23.5
@@ -286,8 +288,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

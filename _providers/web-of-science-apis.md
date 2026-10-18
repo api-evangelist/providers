@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.5
-  scored_at: '2026-10-04'
+  score: 23.7
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 1
+- acting_count: 0
   human_in_the_loop: 0
   name: Web Of Science Apis Agentic Access
   operation_count: 14
   slug: web-of-science-apis-agentic-access
-  summary_line: 14 operations · 1 acting
+  summary_line: 14 operations
 api_count: 2
 apis:
 - baseURL: https://api.clarivate.com/api/wos
@@ -123,6 +123,21 @@ collections:
   name: Web of Science Starter API
   slug: open-web-of-science-starter
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/web-of-science-apis/refs/heads/main/plans/web-of-science-apis-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/web-of-science-apis-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/web-of-science-apis/refs/heads/main/rate-limits/web-of-science-apis-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/web-of-science-apis-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/web-of-science-apis/refs/heads/main/finops/web-of-science-apis-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/web-of-science-apis-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/web-of-science-apis/refs/heads/main/capabilities/web-of-science-apis-capability-edges.yml
   title: ''
@@ -299,9 +314,13 @@ features:
 - description: Access real-time times-cited counts for documents across Web of Science databases for impact assessment.
   name: Times-Cited Counts
 finops:
-- name: Web Of Science Apis Finops
+- has_sources: false
+  method: generated
+  name: Web Of Science Apis Finops
+  primary_unit: ''
   service_category: API
   slug: web-of-science-apis-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/web-of-science-apis.png
 json_schemas:
 - name: Author
@@ -489,13 +508,13 @@ modified: '2026-05-19'
 name: Web of Science APIs
 nav: Providers
 network: true
-overview: 'Web of Science APIs publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Citations API, Documents API, Journals API, and 3 more. Tagged areas include Research, Academic, Bibliometrics, Citations, and Science.
+overview: 'Web of Science APIs publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Citations API, Documents API, Journals API, and 3 more. Tagged areas include Research, Academic, Bibliometrics, Citations, and Science.
 
 
   The Web of Science APIs catalog on APIs.io includes 1 JSON-LD context and 3 Spectral governance rulesets.
 
 
-  Web of Science APIs'' developer surface includes authentication, documentation, support, engineering blog, and 12 more developer resources.'
+  Web of Science APIs'' developer surface includes authentication, documentation, support, engineering blog, and 15 more developer resources.'
 plans:
 - name: Web Of Science Apis Plans Pricing
   plan_count: 3
@@ -506,9 +525,10 @@ rate_limits:
   name: Web Of Science Apis Rate Limits
   slug: web-of-science-apis-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Web of Science APIs API Rules
+  name: Web of Science APIs — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -516,7 +536,8 @@ rules:
     info: 2
     warn: 3
   slug: web-of-science-apis-jsonschema-spectral-rules
-- effective_rule_count: 51
+- authorship: generated
+  effective_rule_count: 51
   extends:
   - spectral:oas
   name: Web of Science APIs API Rules
@@ -527,9 +548,10 @@ rules:
     info: 1
     warn: 8
   slug: web-of-science-apis-spectral-rules
-- effective_rule_count: 22
+- authorship: unmarked
+  effective_rule_count: 22
   extends: []
-  name: Web of Science APIs API Rules
+  name: Web of Science APIs — web of science rules
   rule_count: 22
   severity_counts:
     error: 8
@@ -538,18 +560,18 @@ rules:
     warn: 7
   slug: web-of-science-spectral-rules
 score:
-  band: developing
-  composite: 40.1
+  band: thin
+  composite: 38.5
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 58.0
+    artifact_dirs: 19
+    catalog_earned: 55.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.0
+    catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 36.8
+    access_clarity: 28.9
     contract_governance: 27.3
     contract_quality: 57.2
     developer_ergonomics: 39.3
@@ -569,8 +591,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

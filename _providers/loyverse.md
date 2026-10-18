@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.9
-  scored_at: '2026-10-04'
+  score: 20.1
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -234,16 +234,20 @@ common:
 created: '2026-07-11'
 description: Loyverse is a free point of sale (POS) platform for small and independent retail stores, cafes, bars, and restaurants, spanning the Loyverse POS app, Back Office dashboard, Kitchen Display, and Customer Display. The Loyverse API is a documented REST API at https://api.loyverse.com/v1.0 that exposes the same POS data - items and variants, categories, receipts (sales), customers and loyalty, inventory levels, stores, employees, payment types, taxes, discounts, modifiers, suppliers, POS devices, and shifts - so developers can build integrations for accounting, e-commerce order sync, inventory synchronization, loyalty and marketing, e-invoicing compliance, and custom reporting. Authentication is by personal access token (Bearer) or OAuth 2.0 authorization-code flow with scoped permissions, and webhooks push events such as receipts and inventory changes to consumer endpoints.
 finops:
-- name: Loyverse Finops
+- has_sources: true
+  method: generated
+  name: Loyverse Finops
+  primary_unit: ''
   service_category: Point of Sale and Commerce
   slug: loyverse-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/loyverse.png
 layout: provider
 modified: '2026-07-11'
 name: Loyverse
 nav: Providers
 network: true
-overview: 'Loyverse publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Categories API, Customers API, Discounts API, and 12 more. Tagged areas include Point-of-Sale, Retail, Inventory, Cafe and Restaurant, and Loyalty.
+overview: 'Loyverse publishes 15 API contracts indexed on the [APIs.io](https://apis.io/) network, including Categories API, Customers API, Discounts API, and 12 more. Tagged areas include Point-of-Sale, Retail, Inventory, Cafe and Restaurant, and Loyalty.
 
 
   Loyverse''s developer surface includes authentication, documentation, signup flow, support, engineering blog, and 8 more developer resources.'
@@ -258,22 +262,22 @@ rate_limits:
   slug: loyverse-rate-limits
 score:
   band: thin
-  composite: 36.0
+  composite: 27.7
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 61.6
+    artifact_dirs: 12
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.4
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 46.8
     developer_ergonomics: 36.9
     discoverability: 66.1
-    operational_transparency: 28.4
+    operational_transparency: 7.9
   previous_composite: 36.0
   provenance:
     agentic_access: derived
@@ -288,9 +292,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 5.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 22.2

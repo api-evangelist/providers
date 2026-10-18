@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 50.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: REST API for embedding and automating Syncari. Covers instance provisioning, synapse create/test/activate, entity and field pipeline authoring, validation and publishing, Quick Start install, schema (
@@ -47,12 +47,16 @@ apis:
 - description: Hosted remote MCP server that connects Claude (web and desktop) and ChatGPT to a customer's unified Syncari data. Documented capabilities include listing the datasets in an instance, running analytica
   name: Syncari MCP Server
   slug: syncari-mcp-server
-artifact_total: 11
+artifact_total: 10
 asyncapis:
 - description: ''
   name: Syncari Notifications Webhooks
   slug: syncari-notifications-webhooks
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://syncari.com/blog/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/syncari/refs/heads/main/security/syncari-domain-security.yml
   title: ''
@@ -211,20 +215,17 @@ mcp_servers:
 - description: Syncari publishes a first-party hosted remote MCP server that exposes a customer's unified Syncari data and actions to MCP clients. Syncari documents setup for Anthropic Claude (web and desktop, Pro/M
   name: Syncari MCP Server
   slug: syncari-mcp-server
-- description: ''
-  name: Syncari MCP Server
-  slug: mcp
-modified: '2026-08-29'
+modified: '2026-10-06'
 name: Syncari
 nav: Providers
 network: true
-overview: 'Syncari publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Master Data Management, data-unification, Data Integration, and iPaaS.
+overview: 'Syncari is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Master Data Management, data-unification, Data Integration, and iPaaS.
 
 
   The Syncari catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Syncari''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
+  Syncari''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
 plans:
 - name: Syncari Plans Pricing
   plan_count: 0
@@ -241,7 +242,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 53.9
+  composite: 54.0
   coverage:
     artifact_dirs: 19
     catalog_earned: 45.0
@@ -249,7 +250,7 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 60.5
     contract_governance: 18.2
@@ -267,8 +268,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

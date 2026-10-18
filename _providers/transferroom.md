@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Real-time football market-intelligence API exposing valuation data (Expected Transfer Value / xTV base and development values), transfer data (availability signals, contract expiry, estimated salary b
@@ -40,6 +40,14 @@ apis:
   slug: transferroom-api
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://blog.transferroom.com/all
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.transferroom.com/rss.xml
 - group: company
   title: ''
   type: Website
@@ -78,18 +86,18 @@ created: '2026-07-17'
 description: 'TransferRoom is football''s real-time transfer marketplace, connecting clubs, agents and players to buy, sell and loan players and to recruit head coaches. Its API delivers verified, real-time market intelligence — Expected Transfer Value (xTV) benchmarks, player availability and deal-viability signals, contract-expiry and estimated-salary data, agent and coach representation, and head-coach ratings — returned as JSON for clubs to integrate directly into their own systems (SQL databases, BI dashboards, spreadsheets and code notebooks). Trusted by 800+ clubs across 130 leagues and 500+ agencies, covering 130,000+ players and 7,000+ head coaches, and powering 7,500+ transfer deals. The API is sales-gated: technical reference (endpoints, authentication, base URL) is provided to clubs on engagement and is not published publicly.'
 image: https://www.transferroom.com/hubfs/Featured-Images/TransferRoom_Homepage.jpg
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: TransferRoom
 nav: Providers
 network: true
-overview: 'TransferRoom publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Applicative Saas, Football, Soccer, and Sports.
+overview: 'TransferRoom is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Applicative Saas, Football, Soccer, and Sports.
 
 
-  TransferRoom''s developer surface includes documentation, engineering blog, and 6 more developer resources.'
+  TransferRoom''s developer surface includes engineering blog, documentation, and 8 more developer resources.'
 random_paper: 16
 score:
   band: emerging
-  composite: 14.0
+  composite: 14.1
   coverage:
     artifact_dirs: 6
     catalog_earned: 32.0
@@ -97,7 +105,7 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 27.6
     contract_governance: 0.0
@@ -112,8 +120,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 5
 common:
@@ -147,7 +147,7 @@ score:
   band: emerging
   composite: 19.3
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 10
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -182,13 +182,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 33.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/lemfi/refs/heads/main/screenshots/lemfi-2026-10-11T191103.png
 security:
 - kind: domain-security
   name: Lemfi Domain Security
@@ -197,7 +198,7 @@ security:
 - kind: vulnerability-disclosure
   name: Lemfi Vulnerability Disclosure
   slug: lemfi-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 - kind: trust-center
   name: Lemfi Trust Center
   slug: lemfi-trust-center

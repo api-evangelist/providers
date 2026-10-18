@@ -33,10 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://teradar.com/feed/
 - group: company
   title: ''
   type: Website
@@ -112,20 +116,20 @@ description: 'Teradar is a Boston, Massachusetts semiconductor and sensing compa
   sheets, but no public developer program, API, SDK, or machine-readable interface contract.'
 image: https://teradar.com/wp-content/themes/teradar-theme/assets/images/teradar-logo-grey.svg
 layout: provider
-modified: '2026-08-05'
+modified: '2026-10-06'
 name: Teradar
 nav: Providers
 network: true
 overview: 'Teradar is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Sensors, Semiconductors, Terahertz, and Automotive.
 
 
-  Teradar''s developer surface includes YouTube channel and 12 more developer resources.'
+  Teradar''s developer surface includes YouTube channel and 13 more developer resources.'
 random_paper: 13
 score:
   band: minimal
   composite: 6.8
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -146,8 +150,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 9.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

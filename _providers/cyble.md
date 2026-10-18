@@ -35,8 +35,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.6
-  scored_at: '2026-10-04'
-api_count: 2
+  scored_at: '2026-10-17'
+api_count: 4
 apis:
 - baseURL: https://api.odin.io/
   baseurl_source: declared
@@ -74,6 +74,10 @@ collections:
   name: Odin
   slug: open-cyble-odin
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://cyble.com/feed/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/cyble/refs/heads/main/capabilities/cyble-capability-edges.yml
   title: ''
@@ -251,14 +255,14 @@ created: '2026-08-11'
 description: 'Cyble Inc. is an AI-native cyber threat intelligence company headquartered in Cupertino, California, serving enterprises, governments and federal bodies with dark-web monitoring, attack-surface management and actionable threat intelligence. Its product family includes Cyble Vision (the enterprise threat-intelligence platform, integrated with 70+ SIEM/SOAR/TIP platforms), Cyble Hawk (built for federal and government bodies), AmIBreached (dark-web exposure monitoring), The Cyber Express (its security news publication), and ODIN — a public internet-scanning search engine that indexes 254M+ IPv4 hosts, 3B+ services across 500+ ports, 789k+ exposed cloud storage buckets, 117B+ exposed files and 10B+ subdomains. ODIN is the company''s public, self-serve developer surface: a documented REST API at api.odin.io with a published OpenAPI 3.0.1 definition, first-party Go/Python/JavaScript SDKs, a Go CLI, a public Postman collection, and an llms.txt documentation index.'
 image: https://search.odin.io/opengraph-image.png
 layout: provider
-modified: '2026-08-11'
+modified: '2026-10-06'
 name: Cyble
 nav: Providers
 network: true
-overview: 'Cyble publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Domain API, Exposed Buckets API, Exposed Files API, and 3 more. Tagged areas include Threat Intelligence, Cybersecurity, Attack Surface Management, Internet Scanning, and Dark Web Monitoring.
+overview: 'Cyble publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Domain API, Exposed Buckets API, Exposed Files API, and 3 more. Tagged areas include Threat Intelligence, Cybersecurity, Attack Surface Management, Internet Scanning, and Dark Web Monitoring.
 
 
-  Cyble''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 31 more developer resources.'
+  Cyble''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 32 more developer resources.'
 plans:
 - name: Cyble Plans Pricing
   plan_count: 0
@@ -270,21 +274,21 @@ rate_limits:
   slug: cyble-rate-limits
 score:
   band: developing
-  composite: 43.6
+  composite: 44.2
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 37.0
+    artifact_dirs: 25
+    catalog_earned: 40.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 28.9
     contract_governance: 4.5
     contract_quality: 48.0
     developer_ergonomics: 70.8
-    discoverability: 73.2
+    discoverability: 78.6
     operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -309,8 +313,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

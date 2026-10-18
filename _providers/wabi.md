@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://wabi.ai/blog/rss.xml
 - group: company
   title: ''
   type: Website
@@ -61,26 +65,26 @@ created: '2026-07-17'
 description: Wabi is a consumer AI mini-app platform — billed as "the first personal software platform" and a "YouTube of apps" — where anyone can create, discover, share, and remix AI-generated mini-apps from a single natural-language prompt while Wabi handles the underlying infrastructure, UI, hosting, and data. Founded by Eugenia Kuyda (founder of the AI companion app Replika) and backed by a roughly $20M pre-seed round (investors include Naval Ravikant, Garry Tan, Justin Kan, and Forerunner Ventures), Wabi is an invite/beta consumer product. As of this profile it publishes no public developer API, SDKs, OpenAPI, or developer documentation — only the consumer web app and its Terms/Privacy pages.
 image: https://wabi.ai/opengraph-image.jpg
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Wabi
 nav: Providers
 network: true
 overview: 'Wabi is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, App Builder, No-Code, and Personal Software.
 
 
-  Wabi''s developer surface includes signup flow and 4 more developer resources.'
+  Wabi''s developer surface includes signup flow and 5 more developer resources.'
 random_paper: 1
 score:
-  band: emerging
-  composite: 11.2
+  band: minimal
+  composite: 10.9
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 34.2
     contract_governance: 0.0
@@ -91,12 +95,12 @@ score:
   previous_composite: 11.2
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 12.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

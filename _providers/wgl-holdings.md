@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: WGL Energy Services is an unregulated retail energy subsidiary of WGL Holdings that sells natural gas and electricity to commercial, industrial, and residential customers in Maryland, Virginia, Delawa
@@ -47,6 +47,21 @@ apis:
   slug: hampshire-gas
 artifact_total: 11
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/wgl-holdings/refs/heads/main/plans/wgl-holdings-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/wgl-holdings-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/wgl-holdings/refs/heads/main/rate-limits/wgl-holdings-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/wgl-holdings-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/wgl-holdings/refs/heads/main/finops/wgl-holdings-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/wgl-holdings-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/wgl-holdings/refs/heads/main/security/wgl-holdings-domain-security.yml
   title: ''
@@ -95,9 +110,13 @@ common:
 created: '2026-03-24'
 description: WGL Holdings was an integrated energy holding company headquartered in Washington, D.C., serving over 1 million customers across the District of Columbia, Maryland, and Virginia. Its operations spanned regulated natural gas distribution (Washington Gas), retail energy marketing (WGL Energy Services), commercial energy systems, and midstream energy services (WGL Midstream, Hampshire Gas). WGL Holdings was acquired by AltaGas on July 6, 2018, and continues to operate as a subsidiary.
 finops:
-- name: Wgl Holdings Finops
+- has_sources: false
+  method: generated
+  name: Wgl Holdings Finops
+  primary_unit: ''
   service_category: API
   slug: wgl-holdings-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wgl-holdings.png
 json_schemas:
 - name: WGL Holdings Customer Account
@@ -117,7 +136,7 @@ modified: '2026-07-25'
 name: WGL Holdings
 nav: Providers
 network: true
-overview: 'WGL Holdings publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Natural Gas, Utilities, Electricity, and Retail Energy.
+overview: 'WGL Holdings is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Natural Gas, Utilities, Electricity, and Retail Energy.
 
 
   The WGL Holdings catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.'
@@ -147,9 +166,10 @@ rate_limits:
   name: Wgl Holdings Rate Limits
   slug: wgl-holdings-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: WGL Holdings API Rules
+  name: WGL Holdings — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -159,17 +179,17 @@ rules:
   slug: wgl-holdings-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 16.6
+  composite: 15.0
   coverage:
     artifact_dirs: 14
-    catalog_earned: 59.8
+    catalog_earned: 56.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 55.3
+    catalog_gap: 58.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 22.4
+    access_clarity: 14.5
     contract_governance: 23.5
     contract_quality: 10.7
     developer_ergonomics: 0.0
@@ -189,8 +209,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 9.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

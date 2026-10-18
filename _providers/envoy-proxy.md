@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.3
-  scored_at: '2026-10-04'
+  score: 15.4
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 4
@@ -220,6 +220,21 @@ collections:
   name: Envoy Proxy xDS Discovery API
   slug: open-envoy-proxy-xds-discovery-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/envoy-proxy/refs/heads/main/plans/envoy-proxy-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/envoy-proxy-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/envoy-proxy/refs/heads/main/rate-limits/envoy-proxy-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/envoy-proxy-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/envoy-proxy/refs/heads/main/finops/envoy-proxy-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/envoy-proxy-finops.yml
 - group: build
   title: ''
   type: CodeOfConduct
@@ -322,9 +337,13 @@ common:
 created: '2026-01-02'
 description: Envoy Proxy is an open-source edge and service proxy that is designed for cloud-native applications. It acts as a gateway for all incoming and outgoing traffic within a microservices architecture, providing functionalities such as load balancing, service discovery, encryption, authentication, and observability. Envoy Proxy is known for its high performance and low latency, making it a popular choice for companies seeking to optimize their network traffic and improve overall system efficiency.
 finops:
-- name: Envoy Proxy Finops
+- has_sources: true
+  method: generated
+  name: Envoy Proxy Finops
+  primary_unit: ''
   service_category: Networking / API Gateway
   slug: envoy-proxy-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/envoy-proxy.png
 json_schemas:
 - name: Envoy Proxy Cluster
@@ -349,13 +368,13 @@ modified: '2026-05-19'
 name: Envoy Proxy
 nav: Providers
 network: true
-overview: 'Envoy Proxy publishes 25 APIs on the [APIs.io](https://apis.io/) network, including Certificates API, Cluster Discovery API, Clusters API, and 22 more. Tagged areas include Gateways and Proxies.
+overview: 'Envoy Proxy publishes 25 API contracts indexed on the [APIs.io](https://apis.io/) network, including Certificates API, Cluster Discovery API, Clusters API, and 22 more. Tagged areas include Gateways and Proxies.
 
 
   The Envoy Proxy catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Envoy Proxy''s developer surface includes documentation, getting-started guide, engineering blog, changelog, and 19 more developer resources.'
+  Envoy Proxy''s developer surface includes documentation, getting-started guide, engineering blog, changelog, and 22 more developer resources.'
 plans:
 - name: Envoy Proxy Plans Pricing
   plan_count: 1
@@ -366,9 +385,10 @@ rate_limits:
   name: Envoy Proxy Rate Limits
   slug: envoy-proxy-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Envoy Proxy API Rules
+  name: Envoy Proxy — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -378,17 +398,17 @@ rules:
   slug: envoy-proxy-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 37.2
+  composite: 35.9
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 45.3
+    artifact_dirs: 13
+    catalog_earned: 42.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 69.8
+    catalog_gap: 72.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.3
   facets:
-    access_clarity: 13.2
+    access_clarity: 5.3
     contract_governance: 9.8
     contract_quality: 45.2
     developer_ergonomics: 35.7
@@ -411,8 +431,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

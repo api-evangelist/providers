@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://api-qa.phenompro.com
@@ -82,7 +82,7 @@ apis:
   description: SCIM 2.0 user and group management.
   name: Phenom User Management API
   slug: phenom-user-management-api
-artifact_total: 22
+artifact_total: 23
 collections:
 - collection_type: open
   name: API Collection
@@ -115,6 +115,11 @@ collections:
   name: Phenom Talent Experience Platform Applicants User Management API
   slug: open-phenom-user-management-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/phenom/refs/heads/main/plans/phenom-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/phenom-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/phenom/refs/heads/main/capabilities/phenom-capability-edges.yml
   title: ''
@@ -255,16 +260,20 @@ modified: '2026-07-20'
 name: Phenom
 nav: Providers
 network: true
-overview: 'Phenom publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Applicants API, Applications API, Candidates API, and 6 more. Tagged areas include Company, Human Resources, Talent Experience, Recruiting, and Applicant Tracking.
+overview: 'Phenom publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Applicants API, Applications API, Candidates API, and 6 more. Tagged areas include Company, Human Resources, Talent Experience, Recruiting, and Applicant Tracking.
 
 
-  Phenom''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, authentication, and 22 more developer resources.'
+  Phenom''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, authentication, and 23 more developer resources.'
+plans:
+- name: Phenom Plans Pricing
+  plan_count: 0
+  slug: phenom-plans-pricing
 random_paper: 9
 score:
   band: developing
   composite: 44.8
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 21
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -301,8 +310,8 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 32.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.2
-  scored_at: '2026-10-04'
+  score: 23.3
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -117,6 +117,19 @@ collections:
   name: MemberClicks MC Professional API
   slug: open-memberclicks
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://memberclicks.com/blog/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://memberclicks.com/feed/
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/memberclicks/refs/heads/main/capabilities/memberclicks-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/memberclicks-capability-edges.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/memberclicks/refs/heads/main/agentic-access/memberclicks-agentic-access.yml
   title: ''
@@ -171,19 +184,23 @@ common:
 created: '2026-07-05'
 description: MemberClicks is association and membership management software owned by Personify (marketed as "MemberClicks by Personify"). Its flagship MC Professional platform (formerly branded "Oasis") is an all-in-one AMS for professional associations, chambers, and trade groups - covering member profiles and databases, dues and invoicing, event registration, email and communications, community groups, and websites. MemberClicks exposes a documented public/partner developer API - the MC Professional API, a JSON REST interface protected by the OAuth 2.0 authorization framework and hosted per organization at https://{orgId}.memberclicks.net. The API is intended for developers with technical expertise; MemberClicks support does not assist with custom integrations. Access to profile, event, and related data is gated behind per-organization OAuth client credentials rather than open self-serve signup.
 finops:
-- name: Memberclicks Finops
+- has_sources: true
+  method: generated
+  name: Memberclicks Finops
+  primary_unit: ''
   service_category: Management and Governance
   slug: memberclicks-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/memberclicks.png
 layout: provider
-modified: '2026-07-05'
+modified: '2026-10-06'
 name: MemberClicks
 nav: Providers
 network: true
-overview: 'MemberClicks publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Attributes API, Authorization API, Continuing Education API, and 5 more. Tagged areas include Membership Management, Association Management, AMS, Non-Profit, and Event.
+overview: 'MemberClicks publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Attributes API, Authorization API, Continuing Education API, and 5 more. Tagged areas include Membership Management, Association Management, AMS, Non-Profit, and Event.
 
 
-  MemberClicks'' developer surface includes authentication, documentation, signup flow, and 8 more developer resources.'
+  MemberClicks'' developer surface includes engineering blog, authentication, documentation, signup flow, and 10 more developer resources.'
 plans:
 - name: Memberclicks Plans Pricing
   plan_count: 3
@@ -200,22 +217,22 @@ scopes:
   summary_line: 2 scopes · clientCredentials
 score:
   band: thin
-  composite: 38.7
+  composite: 31.0
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 61.6
+    artifact_dirs: 14
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.4
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.7
   facets:
-    access_clarity: 49.5
+    access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 50.5
-    developer_ergonomics: 28.6
+    developer_ergonomics: 31.0
     discoverability: 66.1
-    operational_transparency: 28.4
+    operational_transparency: 7.9
   previous_composite: 38.7
   provenance:
     agentic_access: derived
@@ -230,9 +247,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

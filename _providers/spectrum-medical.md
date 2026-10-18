@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 3
 common:
@@ -118,7 +118,7 @@ modified: '2026-08-28'
 name: Spectrum Medical
 nav: Providers
 network: true
-overview: 'Spectrum Medical is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, Healthcare, Health IT, and Electronic Medical Records.
+overview: 'Spectrum Medical is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, Healthcare, Health IT, and Electronic Health Records.
 
 
   Spectrum Medical''s developer surface includes support, engineering blog, and 10 more developer resources.'
@@ -158,8 +158,8 @@ score:
     regime: Health
     regime_id: health
     score: 23.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -177,7 +177,7 @@ tags:
 - Medical Devices
 - Healthcare
 - Health IT
-- Electronic Medical Records
+- Electronic Health Records
 - Perfusion
 - Extracorporeal Life Support
 - Clinical Information Systems

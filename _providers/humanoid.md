@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 0
 common:
@@ -48,16 +48,16 @@ modified: '2026-09-15'
 name: Humanoid
 nav: Providers
 network: true
-overview: Humanoid is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Portfolio Company, 500 Global, Stub, and Parked Domain.
+overview: Humanoid is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, 500 Global, Parked Domain, and Defunct.
 random_paper: 17
 score:
   band: minimal
   composite: 0.0
   coverage:
-    artifact_dirs: 1
-    catalog_earned: 27.0
+    artifact_dirs: 2
+    catalog_earned: 22.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 88.0
+    catalog_gap: 93.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
@@ -82,19 +82,18 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 0.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/humanoid/refs/heads/main/screenshots/humanoid-2026-10-11T185834.png
 slug: humanoid
 tags:
 - Company
-- Portfolio Company
 - 500 Global
-- Stub
 - Parked Domain
 - Defunct
 website: https://speakertext.com

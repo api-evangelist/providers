@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 9
 apis:
 - description: Core Java SE API including fundamental classes and utilities for building Java applications, including the java.lang, java.util, java.io, and other foundational packages.
@@ -65,6 +65,21 @@ apis:
   slug: java-stream-api
 artifact_total: 13
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/java/refs/heads/main/plans/java-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/java-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/java/refs/heads/main/rate-limits/java-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/java-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/java/refs/heads/main/finops/java-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/java-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/java/refs/heads/main/security/java-domain-security.yml
   title: ''
@@ -101,19 +116,23 @@ common:
 created: '2024-01-01'
 description: Java is a high-level, class-based, object-oriented programming language developed by Sun Microsystems and now stewarded by Oracle. The Java Standard Edition (SE) platform provides a comprehensive set of APIs and class libraries for building cross-platform applications. Key APIs include Collections, Concurrency, I/O, NIO, Networking, JDBC, Reflection, and Streams. Java is the foundation for the Jakarta EE enterprise platform and is supported by an extensive ecosystem of open source projects, frameworks, and runtimes.
 finops:
-- name: Java Finops
+- has_sources: false
+  method: generated
+  name: Java Finops
+  primary_unit: ''
   service_category: API
   slug: java-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/java.png
 layout: provider
 modified: '2026-04-28'
 name: Java
 nav: Providers
 network: true
-overview: 'Java publishes 9 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Enterprise, Java, JVM, Object-Oriented, and Oracle.
+overview: 'Java is listed with 9 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Enterprise, Java, JVM, Object-Oriented, and Oracle.
 
 
-  Java''s developer surface includes documentation, getting-started guide, support, and 5 more developer resources.'
+  Java''s developer surface includes documentation, getting-started guide, support, and 8 more developer resources.'
 plans:
 - name: Java Plans Pricing
   plan_count: 3
@@ -125,17 +144,17 @@ rate_limits:
   slug: java-rate-limits
 score:
   band: emerging
-  composite: 16.3
+  composite: 14.8
   coverage:
     artifact_dirs: 6
-    catalog_earned: 44.0
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 71.0
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 26.3
+    access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 21.4
@@ -148,8 +167,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 9.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

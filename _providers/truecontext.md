@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: REST API for full programmatic access to TrueContext (ProntoForms) forms, submissions, users, and dispatch, available on the Elite tier. Supports HTTP GET/POST for bidirectional data, webhooks to push
@@ -42,6 +42,10 @@ apis:
   slug: truecontext-rest-api
 artifact_total: 4
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://truecontext.com/feed/
 - group: company
   title: ''
   type: Website
@@ -157,14 +161,14 @@ created: '2026-07-17'
 description: TrueContext (formerly ProntoForms) is an enterprise field-intelligence and mobile-workflow platform that helps field service teams capture rich data, guide technicians through smart context-aware forms, and connect frontline work to back-office systems. Its low-code platform covers mobile forms, guided workflow automation, connected data, dispatch, and reporting for industries such as field service, installation, maintenance and repair, inspections and compliance, EHS, industrial and medical equipment, and oil and gas. The platform exposes a REST API (v1.0 and v2.0 at api.prontoforms.com) for programmatic access to forms, submissions, users, and dispatch, plus webhooks, OData, and FTP/sFTP data connectors, with out-of-the-box integrations for ServiceNow, Salesforce, ServiceMax, and Microsoft.
 image: https://truecontext.com/wp-content/uploads/2023/11/feature-image-homepage.jpg
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: TrueContext
 nav: Providers
 network: true
-overview: 'TrueContext publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Field Service, Mobile Forms, Workflow Automation, and Data Collection.
+overview: 'TrueContext is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Field Service, Mobile Forms, Workflow Automation, and Data Collection.
 
 
-  TrueContext''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 19 more developer resources.'
+  TrueContext''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 20 more developer resources.'
 random_paper: 11
 score:
   band: thin
@@ -199,8 +203,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

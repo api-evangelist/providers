@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 0
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://mochatrade.com/blog
 - group: company
   title: ''
   type: Website
@@ -48,28 +52,31 @@ created: '2026-07-17'
 description: Mochatrade is a regulated neo-brokerage for Indian traders offering onchain perpetual futures on US stocks and commodities. Traders access 50+ US equities (including TSLA, NVDA, AAPL), pre-IPO names, commodities, and crypto with up to 20x leverage, settled in USDC on Hyperliquid, with INR on- and off-ramps via UPI and self-custody wallets. Founded in 2026 by IIT graduates who previously built a crypto wallet acquired after 2M installs, the company brings professional-grade derivatives execution to India's 140M+ demat account holders. Backed by Y Combinator (Spring 2026) and Pioneer. As of this enrichment pass Mochatrade publishes only a marketing landing page (a client-rendered SPA) and no public developer API, documentation, or developer portal surface.
 image: https://mochatrade.com/og-image.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Mochatrade
 nav: Providers
 network: true
-overview: Mochatrade is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Trading, Brokerage, Fintech, and Cryptocurrency.
+overview: 'Mochatrade is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Trading, Brokerage, Fintech, and Cryptocurrency.
+
+
+  Mochatrade''s developer surface includes engineering blog and 2 more developer resources.'
 random_paper: 14
 score:
   band: minimal
-  composite: 1.7
+  composite: 2.2
   coverage:
-    artifact_dirs: 2
+    artifact_dirs: 3
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 48.2
     operational_transparency: 0.0
   jurisdiction:
@@ -92,8 +99,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 0.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

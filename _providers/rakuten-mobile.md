@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: Carrier-grade SMS API for sending and receiving A2P and P2A SMS at scale on the Rakuten Mobile network, with delivery receipts pushed to caller-configured webhooks. UTF-8 encoded, JWT-authenticated RE
@@ -149,7 +149,7 @@ modified: '2026-05-25'
 name: Rakuten Mobile
 nav: Providers
 network: true
-overview: 'Rakuten Mobile publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Telecommunications, Mobile Network Operator, Carrier, 5G, and 4G LTE.
+overview: 'Rakuten Mobile is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Telecommunications, Mobile Network Operator, Carrier, 5G, and 4G LTE.
 
 
   Rakuten Mobile''s developer surface includes developer portal, engineering blog, YouTube channel, and 20 more developer resources.'
@@ -186,8 +186,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 10.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

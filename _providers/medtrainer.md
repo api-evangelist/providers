@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 43.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://api.medtrainer.com
@@ -242,7 +242,7 @@ modified: '2026-09-16'
 name: MedTrainer
 nav: Providers
 network: true
-overview: 'MedTrainer publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Departments API, Divisions API, Locations API, and 3 more. Tagged areas include Company, Healthcare, Compliance, Credentialing, and Learning Management.
+overview: 'MedTrainer publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Departments API, Divisions API, Locations API, and 3 more. Tagged areas include Company, Healthcare, Compliance, Credentialing, and LMS.
 
 
   MedTrainer''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 27 more developer resources.'
@@ -264,7 +264,7 @@ score:
   band: strong
   composite: 55.9
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -294,8 +294,8 @@ score:
     regime: Health
     regime_id: health
     score: 41.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -313,14 +313,14 @@ security:
 - kind: vulnerability-disclosure
   name: Medtrainer Vulnerability Disclosure
   slug: medtrainer-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 slug: medtrainer
 tags:
 - Company
 - Healthcare
 - Compliance
 - Credentialing
-- Learning Management
+- LMS
 - Provider Directory
 - FHIR
 - HL7

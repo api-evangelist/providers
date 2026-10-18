@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -168,7 +168,7 @@ modified: '2026-05-11'
 name: Nextcloud
 nav: Providers
 network: true
-overview: 'Nextcloud publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Autocomplete API, Capabilities API, DAV API, and 3 more. Tagged areas include File Sync, File Sharing, Collaboration, Self-Hosted, and Open Source.
+overview: 'Nextcloud publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Autocomplete API, Capabilities API, DAV API, and 3 more. Tagged areas include File Sync, File Sharing, Collaboration, Self-Hosted, and Open Source.
 
 
   Nextcloud''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 10 more developer resources.'
@@ -177,7 +177,7 @@ score:
   band: thin
   composite: 29.9
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -205,8 +205,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

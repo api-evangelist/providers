@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://api.qentaz.com
@@ -163,7 +163,7 @@ modified: '2026-07-20'
 name: Qentaz
 nav: Providers
 network: true
-overview: 'Qentaz publishes 1 API on the [APIs.io](https://apis.io/) network: Trazo API. Tagged areas include Company, Payments, Collection, Disbursements, and Reconciliation.
+overview: 'Qentaz is listed with 1 API on the [APIs.io](https://apis.io/) network: Trazo API. Tagged areas include Company, Payments, Collection, Disbursements, and Reconciliation.
 
 
   The Qentaz catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -175,7 +175,7 @@ score:
   band: developing
   composite: 41.1
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -205,8 +205,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

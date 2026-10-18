@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.photobucket.com/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/photobucket/refs/heads/main/security/photobucket-domain-security.yml
   title: ''
@@ -77,26 +81,26 @@ created: '2026-07-17'
 description: 'Photobucket is a consumer image and video hosting service founded in 2003 and now operated by Photobucket Inc. of Seattle. It provides cloud photo/video storage, organization, and private group sharing through subscription plans (My Bucket and +Group Buckets, each including 1TB of storage) alongside a free tier. Historically one of the largest image-hosting platforms on the early social web, Photobucket opened a public developer API in 2008, but no current public/documented API surface could be found during enrichment: the developer portal is bot-blocked, the GitHub organization holds only forks and hiring challenges (no official SDK), and the app runs as a single-page application with no published /.well-known/ discovery documents. Added to the API Evangelist network as a portfolio company of Trinity Ventures.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/photobucket.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Photobucket
 nav: Providers
 network: true
 overview: 'Photobucket is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Photo Sharing, Image Hosting, and Video Sharing.
 
 
-  Photobucket''s developer surface includes signup flow, pricing, support, and 6 more developer resources.'
+  Photobucket''s developer surface includes signup flow, pricing, support, and 7 more developer resources.'
 random_paper: 4
 score:
   band: minimal
-  composite: 6.0
+  composite: 6.1
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 6.6
     contract_governance: 0.0
@@ -111,8 +115,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 5
 apis:
 - baseURL: https://sandbox.kredivo.com
@@ -258,7 +258,7 @@ modified: '2026-07-19'
 name: Kredivo
 nav: Providers
 network: true
-overview: 'Kredivo publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Calculator API, Checkout API, Confirmation API, and 2 more. Tagged areas include Company, Payments, Buy Now Pay Later, Lending, and Consumer Credit.
+overview: 'Kredivo is listed with 5 APIs on the [APIs.io](https://apis.io/) network, including Calculator API, Checkout API, Confirmation API, and 2 more. Tagged areas include Company, Payments, Buy Now Pay Later, Lending, and Consumer Credit.
 
 
   The Kredivo catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -268,15 +268,15 @@ overview: 'Kredivo publishes 5 APIs on the [APIs.io](https://apis.io/) network, 
 random_paper: 8
 score:
   band: developing
-  composite: 40.3
+  composite: 40.4
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
@@ -307,8 +307,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 27.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

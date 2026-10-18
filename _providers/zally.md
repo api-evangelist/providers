@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.6
-  scored_at: '2026-10-04'
+  score: 28.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -84,6 +84,21 @@ collections:
   name: Zally - Zalando's API Linter Api Violations Supported Rules API
   slug: open-zally-supported-rules-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/zally/refs/heads/main/plans/zally-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/zally-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/zally/refs/heads/main/rate-limits/zally-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/zally-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/zally/refs/heads/main/finops/zally-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/zally-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/zally/refs/heads/main/capabilities/zally-capability-edges.yml
   title: ''
@@ -206,9 +221,13 @@ features:
 - description: Track linting requests and aggregate review statistics over time.
   name: Linting Statistics
 finops:
-- name: Zally Finops
+- has_sources: false
+  method: generated
+  name: Zally Finops
+  primary_unit: ''
   service_category: API
   slug: zally-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zally.png
 integrations:
 - description: Run Zally linting in GitHub Actions workflows on PRs.
@@ -277,13 +296,13 @@ modified: '2026-05-19'
 name: Zally
 nav: Providers
 network: true
-overview: 'Zally publishes 3 APIs on the [APIs.io](https://apis.io/) network: Api Violations API, Review Statistics API, and Supported Rules API. Tagged areas include API Design, API Linting, API Quality, Open Source, and OpenAPI.
+overview: 'Zally publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Api Violations API, Review Statistics API, and Supported Rules API. Tagged areas include API Design, API Linting, API Quality, Open Source, and OpenAPI.
 
 
   The Zally catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Zally''s developer surface includes authentication, documentation, changelog, CLI, and 16 more developer resources.'
+  Zally''s developer surface includes authentication, documentation, changelog, CLI, and 19 more developer resources.'
 plans:
 - name: Zally Plans Pricing
   plan_count: 3
@@ -294,9 +313,10 @@ rate_limits:
   name: Zally Rate Limits
   slug: zally-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Zally API Rules
+  name: Zally — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -304,7 +324,8 @@ rules:
     info: 1
     warn: 4
   slug: zally-jsonschema-spectral-rules
-- effective_rule_count: 18
+- authorship: unmarked
+  effective_rule_count: 18
   extends: []
   name: Zally API Rules
   rule_count: 18
@@ -316,17 +337,17 @@ rules:
   slug: zally-rules
 score:
   band: developing
-  composite: 41.0
+  composite: 39.5
   coverage:
     artifact_dirs: 19
-    catalog_earned: 70.2
+    catalog_earned: 67.2
     catalog_earned_first_party: 0.0
-    catalog_gap: 44.9
+    catalog_gap: 47.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 23.5
     contract_quality: 61.6
     developer_ergonomics: 44.0
@@ -346,8 +367,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

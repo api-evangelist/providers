@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -111,6 +111,25 @@ collections:
   name: Xerox Public Print EULA Status API
   slug: open-xerox-status-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/xerox/refs/heads/main/plans/xerox-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/xerox-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/xerox/refs/heads/main/rate-limits/xerox-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/xerox-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/xerox/refs/heads/main/finops/xerox-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/xerox-finops.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.news.xerox.com/rss.xml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/xerox/refs/heads/main/agentic-access/xerox-agentic-access.yml
   title: ''
@@ -165,19 +184,23 @@ common:
 created: '2024-01-01'
 description: Xerox is a global technology company and document management leader providing printing, digital document management, and business process solutions. Xerox offers the Xerox Developer Program providing open, standards-based APIs for integration with ConnectKey multifunction printers, FreeFlow production printing, Managed Print Services (MPS), and the Xerox Public Print Service. The program provides SDKs, APIs, and tools for building custom printing applications, workflow integrations, and enterprise print management solutions.
 finops:
-- name: Xerox Finops
+- has_sources: true
+  method: generated
+  name: Xerox Finops
+  primary_unit: ''
   service_category: Managed Print Services
   slug: xerox-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/xerox.png
 layout: provider
-modified: '2026-05-19'
+modified: '2026-10-06'
 name: Xerox
 nav: Providers
 network: true
-overview: 'Xerox publishes 9 APIs on the [APIs.io](https://apis.io/) network, including EULA API, Jobs API, Provider Types API, and 6 more. Tagged areas include Document Management, Enterprise, Fortune 500, Managed Print Services, and Print Services.
+overview: 'Xerox publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including EULA API, Jobs API, Provider Types API, and 6 more. Tagged areas include Document Management, Enterprise, Fortune 500, Managed Print Services, and Print Services.
 
 
-  Xerox''s developer surface includes authentication and 11 more developer resources.'
+  Xerox''s developer surface includes authentication and 15 more developer resources.'
 plans:
 - name: Xerox Plans Pricing
   plan_count: 1
@@ -205,17 +228,17 @@ rate_limits:
   slug: xerox-rate-limits
 score:
   band: thin
-  composite: 29.5
+  composite: 28.0
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 39.0
+    artifact_dirs: 20
+    catalog_earned: 36.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 76.0
+    catalog_gap: 79.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 13.2
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 53.3
     developer_ergonomics: 31.0
@@ -235,8 +258,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

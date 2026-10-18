@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.vontier.com/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/vontier/refs/heads/main/security/vontier-domain-security.yml
   title: ''
@@ -57,7 +61,7 @@ created: '2026-05-04'
 description: Vontier is a global mobility technology company serving convenience stores, fleet operators, and auto repair shops. Its portfolio spans traditional fueling, alternative energy (EV, CNG, RNG), repair tools, and car-wash technology through brands including Gilbarco, DRB, Driivz, Matco Tools, Teletrac Navman, ANGI Energy, and Invenco.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vontier.png
 layout: provider
-modified: '2026-05-04'
+modified: '2026-10-06'
 name: Vontier
 nav: Providers
 network: true
@@ -88,8 +92,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 4.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

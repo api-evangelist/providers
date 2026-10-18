@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-04'
+  score: 20.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 19
   slug: pulse-grow-agentic-access
   summary_line: 19 operations
-api_count: 1
+api_count: 2
 apis:
 - baseURL: https://api.pulsegrow.com
   baseurl_source: declared
@@ -124,6 +124,21 @@ collections:
   name: Pulse Api
   slug: open-pulse-grow
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/pulse-grow/refs/heads/main/plans/pulse-grow-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/pulse-grow-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/pulse-grow/refs/heads/main/rate-limits/pulse-grow-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/pulse-grow-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/pulse-grow/refs/heads/main/finops/pulse-grow-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/pulse-grow-finops.yml
 - group: company
   title: ''
   type: Website
@@ -145,16 +160,20 @@ common:
 created: '2025-02-24'
 description: The Pulse API is an HTTP API that is designed to interact with your pulse account and devices.
 finops:
-- name: Pulse Grow Finops
+- has_sources: false
+  method: generated
+  name: Pulse Grow Finops
+  primary_unit: ''
   service_category: API
   slug: pulse-grow-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pulse-grow.png
 layout: provider
 modified: '2026-09-16'
 name: Pulse Grow
 nav: Providers
 network: true
-overview: Pulse Grow publishes 9 APIs on the [APIs.io](https://apis.io/) network, including AllDevices API, Devices API, Hub API, and 6 more. Tagged areas include Devices, Sensors, Hub, Monitoring, and Growing.
+overview: Pulse Grow publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including AllDevices API, Devices API, Hub API, and 6 more. Tagged areas include Devices, Sensors, Hub, Monitoring, and Growing.
 plans:
 - name: Pulse Grow Plans Pricing
   plan_count: 3
@@ -166,17 +185,17 @@ rate_limits:
   slug: pulse-grow-rate-limits
 score:
   band: emerging
-  composite: 17.1
+  composite: 18.7
   coverage:
     artifact_dirs: 9
-    catalog_earned: 35.0
+    catalog_earned: 38.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 65.0
-    catalog_max: 100.0
+    catalog_gap: 77.0
+    catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.6
   facets:
-    access_clarity: 0.0
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 39.5
     developer_ergonomics: 9.5
@@ -196,8 +215,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

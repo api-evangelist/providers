@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://terranox.ai/blog/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/terranox-ai/refs/heads/main/security/terranox-ai-domain-security.yml
   title: ''
@@ -53,28 +57,31 @@ created: '2026-07-17'
 description: Terranox AI is the first vertically integrated, AI-powered uranium discovery company, founded in 2026 and part of Y Combinator's Winter 2026 batch. The company finds high-grade uranium deposits in North America by training machine learning models on more than seventy years of exploration outcomes locked in thousands of legacy PDFs, drill logs, and hand-drawn geological maps. Traditional uranium exploration has a hit rate below one percent and timelines measured in decades; Terranox aims to raise that hit rate and compress discovery time to help supply the fuel a global nuclear-energy resurgence needs — the world must roughly quadruple uranium production by 2050. Terranox is a private operating company focused on geoscience and mineral exploration and does not currently publish a public developer API, SDK, or developer portal. It is backed by General Catalyst, 776 Ventures, and Y Combinator.
 image: https://terranox.ai
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Terranox AI
 nav: Providers
 network: true
-overview: Terranox AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, Energy, and Nuclear.
+overview: 'Terranox AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, Energy, and Nuclear.
+
+
+  Terranox AI''s developer surface includes engineering blog and 3 more developer resources.'
 random_paper: 8
 score:
   band: minimal
-  composite: 3.5
+  composite: 4.0
   coverage:
-    artifact_dirs: 2
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 48.2
     operational_transparency: 0.0
   previous_composite: 3.5
@@ -84,13 +91,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 4.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/terranox-ai/refs/heads/main/screenshots/terranox-ai-2026-10-11T130847.png
 security:
 - kind: domain-security
   name: Terranox Ai Domain Security

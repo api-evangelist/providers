@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 42.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 6
-  human_in_the_loop: 0
+- acting_count: 5
+  human_in_the_loop: 1
   name: Messari Agentic Access
   operation_count: 42
   slug: messari-agentic-access
-  summary_line: 42 operations · 6 acting
+  summary_line: 42 operations · 5 acting · 1 human-in-the-loop
 api_count: 1
 apis:
 - description: Comprehensive REST API exposing /v1, /v2 endpoints for asset metrics (price, market cap, ROI, mining stats, supply, developer activity, ROI), markets, news, Token Unlocks, screener, and curated intel.
@@ -203,9 +203,13 @@ common:
 created: '2026-05-08'
 description: Messari provides crypto research, analytics, fundamentals, intelligence, and asset profiles through a REST API at data.messari.io. Endpoints cover assets metrics, market data, news, Token Unlocks, screener, governance, treasuries, and AI-powered Messari Copilot. Authentication is via the x-messari-api-key header.
 finops:
-- name: Messari Finops
+- has_sources: true
+  method: generated
+  name: Messari Finops
+  primary_unit: ''
   service_category: Crypto Research
   slug: messari-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/messari.png
 layout: provider
 mcp_servers:
@@ -216,7 +220,7 @@ modified: '2026-09-16'
 name: Messari
 nav: Providers
 network: true
-overview: 'Messari publishes 12 APIs on the [APIs.io](https://apis.io/) network, including AI API, Assets API, Datasets API, and 9 more. Tagged areas include Web3, Crypto, Research, Analytics, and Asset Data.
+overview: 'Messari publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including AI API, Assets API, Datasets API, and 9 more. Tagged areas include Web3, Cryptocurrency, Research, Analytics, and Asset Data.
 
 
   Messari''s developer surface includes authentication, developer portal, documentation, pricing, GitHub presence, and 7 more developer resources.'
@@ -231,17 +235,17 @@ rate_limits:
   slug: messari-rate-limits
 score:
   band: thin
-  composite: 28.1
+  composite: 26.6
   coverage:
     artifact_dirs: 12
-    catalog_earned: 46.0
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 69.0
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 21.1
+    access_clarity: 13.2
     contract_governance: 0.0
     contract_quality: 45.3
     developer_ergonomics: 26.2
@@ -262,8 +266,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -281,7 +285,7 @@ security:
 slug: messari
 tags:
 - Web3
-- Crypto
+- Cryptocurrency
 - Research
 - Analytics
 - Asset Data

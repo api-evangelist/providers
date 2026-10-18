@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.6
-  scored_at: '2026-10-04'
+  score: 28.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 26
   slug: 123formbuilder-agentic-access
   summary_line: 26 operations · 17 acting
-api_count: 1
+api_count: 2
 apis:
 - baseURL: https://api.123formbuilder.com/v2
   baseurl_source: declared
@@ -116,6 +116,16 @@ collections:
   name: 123FormBuilder REST API v2 Accounts Users API
   slug: open-123formbuilder-users-api
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/123formbuilder/refs/heads/main/rate-limits/123formbuilder-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/123formbuilder-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/123formbuilder/refs/heads/main/finops/123formbuilder-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/123formbuilder-finops.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -312,9 +322,13 @@ features:
 - description: Integrate PayPal, Stripe, Square, Authorize.Net, Braintree, and PayU as form fields.
   name: Payment Collection
 finops:
-- name: 123Formbuilder Finops
+- has_sources: true
+  method: generated
+  name: 123Formbuilder Finops
+  primary_unit: ''
   service_category: SaaS / Online Forms
   slug: 123formbuilder-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/123formbuilder.png
 integrations:
 - description: Deep Salesforce Cloud integration on Platinum and above.
@@ -413,13 +427,13 @@ modified: '2026-05-28'
 name: 123FormBuilder
 nav: Providers
 network: true
-overview: '123FormBuilder publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Forms API, Groups API, and 2 more. Tagged areas include Online Forms, Form Builder, Surveys, Workflows, and Data Collection.
+overview: '123FormBuilder publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, Forms API, Groups API, and 2 more. Tagged areas include Online Forms, Form Builder, Surveys, Workflows, and Data Collection.
 
 
   The 123FormBuilder catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  123FormBuilder''s developer surface includes authentication, documentation, signup flow, pricing, engineering blog, support, and 27 more developer resources.'
+  123FormBuilder''s developer surface includes authentication, documentation, signup flow, pricing, engineering blog, support, and 29 more developer resources.'
 plans:
 - name: 123Formbuilder Plans Pricing
   plan_count: 5
@@ -430,9 +444,10 @@ rate_limits:
   name: 123Formbuilder Rate Limits
   slug: 123formbuilder-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: 123FormBuilder API Rules
+  name: 123FormBuilder — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -440,7 +455,8 @@ rules:
     info: 1
     warn: 4
   slug: 123formbuilder-jsonschema-spectral-rules
-- effective_rule_count: 27
+- authorship: unmarked
+  effective_rule_count: 27
   extends: []
   name: 123FormBuilder API Rules
   rule_count: 27
@@ -451,23 +467,23 @@ rules:
     warn: 14
   slug: 123formbuilder-rules
 score:
-  band: strong
-  composite: 59.4
+  band: developing
+  composite: 51.1
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 90.6
+    artifact_dirs: 20
+    catalog_earned: 72.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 24.4
+    catalog_gap: 43.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 82.4
+    access_clarity: 53.9
     contract_governance: 27.3
     contract_quality: 68.6
     developer_ergonomics: 53.6
     discoverability: 66.1
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   previous_composite: 59.4
   provenance:
     agentic_access: derived
@@ -482,9 +498,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 32.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

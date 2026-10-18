@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 4
+- acting_count: 3
   human_in_the_loop: 0
   name: Nirvana Agentic Access
   operation_count: 4
   slug: nirvana-agentic-access
-  summary_line: 4 operations · 4 acting
+  summary_line: 4 operations · 3 acting
 api_count: 1
 apis:
 - baseURL: https://coverage-api.meetnirvana.com/v1
@@ -107,16 +107,20 @@ common:
 created: '2026-06-21'
 description: Nirvana is a real-time insurance eligibility, benefits, and patient cost-estimation platform purpose-built for behavioral and mental health. Its Coverage API normalizes complex payer data into structured JSON, returning eligibility, plan-level benefits, patient cost-share, session limits, and prior authorization details, and can recover active coverage from only basic patient demographics.
 finops:
-- name: Nirvana Finops
+- has_sources: true
+  method: generated
+  name: Nirvana Finops
+  primary_unit: ''
   service_category: Healthcare and Insurance
   slug: nirvana-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nirvana.png
 layout: provider
 modified: '2026-06-21'
 name: Nirvana Health
 nav: Providers
 network: true
-overview: 'Nirvana Health publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Cost Estimation API, Coverage Scan API, Eligibility API, and 1 more. Tagged areas include Healthcare, Insurance, Eligibility, Benefits, and Cost Estimation.
+overview: 'Nirvana Health publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Cost Estimation API, Coverage Scan API, Eligibility API, and 1 more. Tagged areas include Healthcare, Insurance, Eligibility, Benefits, and Cost Estimation.
 
 
   Nirvana Health''s developer surface includes authentication, engineering blog, and 2 more developer resources.'
@@ -130,23 +134,23 @@ rate_limits:
   name: Nirvana Rate Limits
   slug: nirvana-rate-limits
 score:
-  band: thin
-  composite: 31.8
+  band: emerging
+  composite: 25.7
   coverage:
     artifact_dirs: 12
-    catalog_earned: 54.4
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 60.6
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.1
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 51.1
     developer_ergonomics: 28.6
     discoverability: 66.1
-    operational_transparency: 18.9
+    operational_transparency: 5.3
   previous_composite: 31.8
   provenance:
     agentic_access: derived
@@ -161,9 +165,9 @@ score:
     regime: Health
     regime_id: health
     score: 9.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

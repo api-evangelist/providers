@@ -29,14 +29,14 @@ agent_readiness:
     idempotency: na
     mcp_server: verified
     openapi_examples: verified
-    protected_resource_metadata: false
-    rate_limit_signal: documented
+    protected_resource_metadata: verified
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 38.8
-  scored_at: '2026-10-04'
+  score: 40.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -135,9 +135,13 @@ common:
 created: '2026-06-21'
 description: Serif Health turns federal hospital and payer price-transparency disclosures (machine-readable files) into normalized, decision-ready negotiated-rate data. Its REST APIs let teams query negotiated reimbursement rates and rate distributions by CPT/DRG code, payer, provider, and geography, search for in-network providers, and pull custom datasets and extracts.
 finops:
-- name: Serif Health Finops
+- has_sources: true
+  method: generated
+  name: Serif Health Finops
+  primary_unit: ''
   service_category: Healthcare Data and Analytics
   slug: serif-health-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/serif-health.png
 layout: provider
 mcp_servers:
@@ -148,7 +152,7 @@ modified: '2026-06-21'
 name: Serif Health
 nav: Providers
 network: true
-overview: 'Serif Health publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Distributions API, Rates API, and 2 more. Tagged areas include Healthcare, Price Transparency, Negotiated Rates, Payers, and Data.
+overview: 'Serif Health publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Distributions API, Rates API, and 2 more. Tagged areas include Healthcare, Price Transparency, Negotiated Rates, Payers, and Data.
 
 
   Serif Health''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
@@ -162,23 +166,23 @@ rate_limits:
   name: Serif Health Rate Limits
   slug: serif-health-rate-limits
 score:
-  band: thin
-  composite: 32.5
+  band: emerging
+  composite: 25.1
   coverage:
     artifact_dirs: 13
-    catalog_earned: 53.0
+    catalog_earned: 37.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 62.0
+    catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.4
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 49.6
     developer_ergonomics: 22.6
     discoverability: 60.0
-    operational_transparency: 21.6
+    operational_transparency: 7.9
   previous_composite: 32.5
   provenance:
     agentic_access: derived
@@ -194,9 +198,9 @@ score:
     regime: Health
     regime_id: health
     score: 9.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

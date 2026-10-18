@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 0
@@ -304,7 +304,7 @@ modified: '2026-07-26'
 name: National Association of REALTORS
 nav: Providers
 network: true
-overview: 'National Association of REALTORS publishes 24 APIs on the [APIs.io](https://apis.io/) network, including Association API, Data Extract Request API, Data Extract Schedule API, and 21 more. Tagged areas include Real Estate, United States, Industry Body, MLS, and RESO.
+overview: 'National Association of REALTORS publishes 24 API contracts indexed on the [APIs.io](https://apis.io/) network, including Association API, Data Extract Request API, Data Extract Schedule API, and 21 more. Tagged areas include Real Estate, United States, Industry Body, MLS, and RESO.
 
 
   National Association of REALTORS''s developer surface includes authentication, engineering blog, documentation, support, and 23 more developer resources.'
@@ -317,7 +317,7 @@ score:
   band: thin
   composite: 32.0
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
@@ -355,8 +355,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

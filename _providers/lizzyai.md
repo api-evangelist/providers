@@ -32,10 +32,15 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
-artifact_total: 1
+artifact_total: 2
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/lizzyai/refs/heads/main/plans/lizzyai-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/lizzyai-plans-pricing.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/lizzyai/refs/heads/main/security/lizzyai-domain-security.yml
   title: ''
@@ -104,21 +109,25 @@ network: true
 overview: 'Lizzyai is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Legal, Legal AI, Generative AI, and Artificial Intelligence.
 
 
-  Lizzyai''s developer surface includes signup flow, pricing, engineering blog, documentation, support, FAQ, YouTube channel, and 7 more developer resources.'
+  Lizzyai''s developer surface includes signup flow, pricing, engineering blog, documentation, support, FAQ, YouTube channel, and 8 more developer resources.'
+plans:
+- name: Lizzyai Plans Pricing
+  plan_count: 4
+  slug: lizzyai-plans-pricing
 random_paper: 10
 score:
   band: emerging
-  composite: 14.0
+  composite: 20.0
   coverage:
-    artifact_dirs: 4
-    catalog_earned: 27.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 88.0
+    artifact_dirs: 5
+    catalog_earned: 39.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.0
   facets:
-    access_clarity: 31.6
+    access_clarity: 63.2
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 16.7
@@ -127,13 +136,13 @@ score:
   previous_composite: 14.0
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 12.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

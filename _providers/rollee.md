@@ -16,14 +16,14 @@ agent_readiness:
   dimensions:
     agent_card: false
     agent_skills: derived
-    agentic_access: false
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: true
     idempotency: false
     mcp_server: verified
@@ -34,22 +34,127 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.2
-  scored_at: '2026-10-04'
+  score: 36.9
+  scored_at: '2026-10-17'
+agentic_access:
+- acting_count: 23
+  human_in_the_loop: 0
+  name: Rollee Agentic Access
+  operation_count: 68
+  slug: rollee-agentic-access
+  summary_line: 68 operations · 23 acting
 api_count: 2
 apis:
 - description: 'Connect a worker''s accounts and retrieve normalized income, employment, transactions, activity, assets, banking info, documents, and vehicle data across 70+ gig-economy, tax, payroll, and wallet data '
   name: Rollee User API
-  slug: rollee-user-api
+  slug: rollee-user-api-2
 - description: Company-side (employer / fleet) API to manage companies and company accounts and retrieve employees, absences, employment, income, activity, banking info, documents, trips, vehicles, and wallet data f
   name: Rollee Company API
-  slug: rollee-company-api
-artifact_total: 7
+  slug: rollee-company-api-2
+- baseURL: https://api.getrollee.com/api/v0.5
+  baseurl_source: declared
+  description: The Accounts API from Rollee — 5 operation(s) for accounts.
+  name: Rollee Accounts API
+  slug: rollee-accounts-api
+- baseURL: https://api.getrollee.com/api/v0.5
+  baseurl_source: declared
+  description: The Authentication API from Rollee — 1 operation(s) for authentication.
+  name: Rollee Authentication API
+  slug: rollee-authentication-api
+- baseURL: https://api.getrollee.com/api/v0.5
+  baseurl_source: declared
+  description: The Companies API from Rollee — 3 operation(s) for companies.
+  name: Rollee Companies API
+  slug: rollee-companies-api
+- baseURL: https://api.getrollee.com/api/v0.5
+  baseurl_source: declared
+  description: The Company accounts API from Rollee — 3 operation(s) for company accounts.
+  name: Rollee Company accounts API
+  slug: rollee-company-accounts-api
+- baseURL: https://api.getrollee.com/api/v0.5
+  baseurl_source: declared
+  description: The Data settings API from Rollee — 1 operation(s) for data settings.
+  name: Rollee Data settings API
+  slug: rollee-data-settings-api
+- baseURL: https://api.getrollee.com/api/v0.5
+  baseurl_source: declared
+  description: The Data sources API from Rollee — 1 operation(s) for data sources.
+  name: Rollee Data sources API
+  slug: rollee-data-sources-api
+- baseURL: https://api.getrollee.com/api/v0.5
+  baseurl_source: declared
+  description: The Employer endpoints API from Rollee — 2 operation(s) for employer endpoints.
+  name: Rollee Employer endpoints API
+  slug: rollee-employer-endpoints-api
+- baseURL: https://api.getrollee.com/api/v0.5
+  baseurl_source: declared
+  description: The Endpoints API from Rollee — 16 operation(s) for endpoints.
+  name: Rollee Endpoints API
+  slug: rollee-endpoints-api
+- baseURL: https://api.getrollee.com/api/v0.5
+  baseurl_source: declared
+  description: The Fleet endpoints API from Rollee — 10 operation(s) for fleet endpoints.
+  name: Rollee Fleet endpoints API
+  slug: rollee-fleet-endpoints-api
+- baseURL: https://api.getrollee.com/api/v0.5
+  baseurl_source: declared
+  description: The Sessions API from Rollee — 1 operation(s) for sessions.
+  name: Rollee Sessions API
+  slug: rollee-sessions-api
+- baseURL: https://api.getrollee.com/api/v0.5
+  baseurl_source: declared
+  description: The Users API from Rollee — 4 operation(s) for users.
+  name: Rollee Users API
+  slug: rollee-users-api
+- baseURL: https://api.getrollee.com/api/v0.5
+  baseurl_source: declared
+  description: The Webhooks API from Rollee — 11 operation(s) for webhooks.
+  name: Rollee Webhooks API
+  slug: rollee-webhooks-api
+artifact_total: 33
 asyncapis:
 - description: ''
   name: Rollee Webhooks
   slug: rollee-webhooks
 common:
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/rollee/refs/heads/main/agentic-access/rollee-agentic-access.yml
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/rollee-agentic-access.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/rollee/refs/heads/main/rules/rollee-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/rollee-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/rollee/refs/heads/main/json-ld/rollee-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/rollee-context.jsonld
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/rollee/refs/heads/main/vocabulary/rollee-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/rollee-vocabulary.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/rollee/refs/heads/main/hosts/rollee-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/rollee-hosts.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/rollee/refs/heads/main/vendors/rollee-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/rollee-vendors.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.getrollee.com/
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://www.getrollee.com/company/newsroom
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/rollee/refs/heads/main/security/rollee-trust-center.yml
   title: ''
@@ -190,6 +295,45 @@ common:
 created: '2026-07-17'
 description: Rollee is an Open Finance / employment-data platform that lets fintechs, lenders, and HR platforms verify the income, employment, and work history of both salaried and self-employed workers in real time. Through a single API and the embeddable Rollee Connect flow, Rollee aggregates data from 70+ sources — gig-economy platforms (Uber, Bolt, Deliveroo, Just Eat, Stuart, and more), government tax portals, payroll systems, and digital wallets — and normalizes it into a common "Rollee Standard" schema covering income, transactions, employment, activity, assets, banking info, documents, and vehicles. It powers consumer lending, vehicle financing, tenant and income verification, earned-wage access, and recruitment / work-history checks. The platform is ISO 27001 certified and GDPR-compliant, and is backed by Seedcamp and Speedinvest.
 image: https://www.getrollee.com/favicon.ico
+json_schemas:
+- name: account.Account
+  property_count: 9
+  slug: rollee-account-account
+- name: account.CompanyResponse
+  property_count: 7
+  slug: rollee-account-company-response
+- name: go-rl_cmd_api_company_v05_models.ResponseGetUsers
+  property_count: 3
+  slug: rollee-go-rl-cmd-api-company-v05-models-response-get-users
+- name: go-rl_cmd_api_v05_models.User
+  property_count: 9
+  slug: rollee-go-rl-cmd-api-v05-models-user
+- name: models.Account
+  property_count: 9
+  slug: rollee-models-account
+- name: models.PerformanceIndices
+  property_count: 22
+  slug: rollee-models-performance-indices
+- name: std_models.DocumentClientOutput
+  property_count: 10
+  slug: rollee-std-models-document-client-output
+- name: v5.CompanySessionResponse
+  property_count: 4
+  slug: rollee-v5-company-session-response
+- name: v5.UpdateUserResponse
+  property_count: 4
+  slug: rollee-v5-update-user-response
+- name: v5.UserResponse
+  property_count: 8
+  slug: rollee-v5-user-response
+- name: webhooks.ConfiguredWebhook
+  property_count: 8
+  slug: rollee-webhooks-configured-webhook
+jsonld:
+- class_count: 95
+  name: Rollee Context
+  property_count: 391
+  slug: rollee-context
 layout: provider
 mcp_servers:
 - description: Remote MCP server at rollee-api-mcp.getrollee.com over HTTP.
@@ -199,35 +343,54 @@ modified: '2026-07-21'
 name: Rollee
 nav: Providers
 network: true
-overview: 'Rollee publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Open Finance, Income Verification, Employment Verification, and Payroll Data.
+overview: 'Rollee publishes 14 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, Authentication API, Companies API, and 11 more. Tagged areas include Company, Open Finance, Income Verification, Employment Verification, and Payroll Data.
 
 
-  The Rollee catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Rollee catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Rollee''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, changelog, and 23 more developer resources.'
+  Rollee''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, changelog, and 31 more developer resources.'
 random_paper: 5
+rules:
+- authorship: generated
+  effective_rule_count: 52
+  extends:
+  - spectral:oas
+  name: Rollee API Rules
+  rule_count: 11
+  severity_counts:
+    error: 9
+    hint: 0
+    info: 1
+    warn: 1
+  slug: rollee-rules
 score:
-  band: developing
-  composite: 44.6
+  band: strong
+  composite: 55.6
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 37.0
+    artifact_dirs: 28
+    catalog_earned: 62.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 52.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 11.0
   facets:
     access_clarity: 50.0
-    contract_governance: 18.2
-    contract_quality: 39.0
+    contract_governance: 35.6
+    contract_quality: 68.5
     developer_ergonomics: 57.7
-    discoverability: 75.0
-    operational_transparency: 15.8
+    discoverability: 76.7
+    operational_transparency: 31.6
   previous_composite: 44.6
   provenance:
+    agentic_access: derived
     conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 100.0
+      total: 12
     mcp: first-party
     skills: derived
   regulatory:
@@ -240,13 +403,12 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/rollee/refs/heads/main/screenshots/rollee-2026-08-17T081628.png
 security:
 - kind: authentication

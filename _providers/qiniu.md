@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 9.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: REST API for Qiniu Kodo object storage — bucket administration, object upload/download, stat/copy/move/delete, lifecycle and CORS rules, async fetch, and CDN prefetch/refresh. S3-compatible surface av
@@ -43,8 +43,17 @@ apis:
 - description: Identity and access management API — IAM sub-users, AK/SK keypairs, groups, and permission policies scoping services/actions/resources.
   name: IAM
   slug: iam
-artifact_total: 5
+artifact_total: 6
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/qiniu/refs/heads/main/plans/qiniu-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/qiniu-plans-pricing.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://news.qiniu.com/rss.xml
 - group: company
   title: ''
   type: Website
@@ -162,28 +171,32 @@ mcp_servers:
 - description: Official Qiniu Cloud MCP server exposing Kodo object storage, intelligent media processing (Dora), CDN, and live-streaming operations to MCP-capable AI clients through a unified interface.
   name: Qiniu Cloud MCP Server
   slug: qiniu-mcp-server
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Qiniu Cloud
 nav: Providers
 network: true
-overview: 'Qiniu Cloud publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cloud, Object Storage, CDN, and Media Processing.
+overview: 'Qiniu Cloud is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cloud, Object Storage, CDN, and Media Processing.
 
 
-  Qiniu Cloud''s developer surface includes documentation, API reference, getting-started guide, support, pricing, CLI, authentication, and 17 more developer resources.'
+  Qiniu Cloud''s developer surface includes documentation, API reference, getting-started guide, support, pricing, CLI, authentication, and 19 more developer resources.'
+plans:
+- name: Qiniu Plans Pricing
+  plan_count: 10
+  slug: qiniu-plans-pricing
 random_paper: 0
 score:
   band: thin
-  composite: 30.9
+  composite: 37.3
   coverage:
-    artifact_dirs: 14
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 17
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.4
   facets:
-    access_clarity: 38.2
+    access_clarity: 69.7
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 70.8
@@ -207,9 +220,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

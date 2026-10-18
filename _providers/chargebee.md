@@ -27,14 +27,14 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: false
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.5
-  scored_at: '2026-10-04'
+  score: 33.1
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -257,7 +257,7 @@ modified: '2026-05-30'
 name: Chargebee
 nav: Providers
 network: true
-overview: 'Chargebee publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Customers API, Invoices API, Items API, and 5 more. Tagged areas include Billing, Subscription, Recurring Billing, Revenue, and Payments.
+overview: 'Chargebee publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Customers API, Invoices API, Items API, and 5 more. Tagged areas include Billing, Subscription, Recurring Billing, Revenue, and Payments.
 
 
   The Chargebee catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -266,10 +266,11 @@ overview: 'Chargebee publishes 8 APIs on the [APIs.io](https://apis.io/) network
   Chargebee''s developer surface includes sandbox, changelog, getting-started guide, authentication, documentation, API reference, pricing, and 23 more developer resources.'
 random_paper: 16
 rules:
-- effective_rule_count: 36
+- authorship: generated
+  effective_rule_count: 36
   extends:
   - spectral:asyncapi
-  name: Chargebee API Rules
+  name: Chargebee — asyncapi rules
   rule_count: 9
   severity_counts:
     error: 1
@@ -281,7 +282,7 @@ score:
   band: developing
   composite: 48.5
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 40.8
     catalog_earned_first_party: 0.0
     catalog_gap: 74.3
@@ -310,8 +311,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 17.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.3
-  scored_at: '2026-10-04'
+  score: 15.4
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -79,6 +79,21 @@ collections:
   name: Spring Cloud Gateway Actuator Filters Routes API
   slug: open-spring-cloud-gateway-routes-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/spring-cloud-gateway/refs/heads/main/plans/spring-cloud-gateway-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/spring-cloud-gateway-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/spring-cloud-gateway/refs/heads/main/rate-limits/spring-cloud-gateway-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/spring-cloud-gateway-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/spring-cloud-gateway/refs/heads/main/finops/spring-cloud-gateway-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/spring-cloud-gateway-finops.yml
 - group: operate
   title: ''
   type: Support
@@ -157,9 +172,13 @@ examples:
   name: Spring Cloud Gateway List Routes Example
   slug: spring-cloud-gateway-list-routes-example
 finops:
-- name: Spring Cloud Gateway Finops
+- has_sources: false
+  method: generated
+  name: Spring Cloud Gateway Finops
+  primary_unit: ''
   service_category: API
   slug: spring-cloud-gateway-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/spring-cloud-gateway.png
 json_schemas:
 - name: Spring Cloud Gateway Route Definition
@@ -179,13 +198,13 @@ modified: '2026-05-19'
 name: Spring Cloud Gateway
 nav: Providers
 network: true
-overview: 'Spring Cloud Gateway publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Filters API, Predicates API, Routes API, and 1 more. Tagged areas include API Gateway, Circuit Breaker, Load Balancing, Microservices, and Rate Limiting.
+overview: 'Spring Cloud Gateway publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Filters API, Predicates API, Routes API, and 1 more. Tagged areas include API Gateway, Circuit Breaker, Load Balancing, Microservices, and Rate Limiting.
 
 
   The Spring Cloud Gateway catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Spring Cloud Gateway''s developer surface includes support, getting-started guide, engineering blog, documentation, GitHub presence, release notes, Stack Overflow tag, and 9 more developer resources.'
+  Spring Cloud Gateway''s developer surface includes support, getting-started guide, engineering blog, documentation, GitHub presence, release notes, Stack Overflow tag, and 12 more developer resources.'
 plans:
 - name: Spring Cloud Gateway Plans Pricing
   plan_count: 3
@@ -196,9 +215,10 @@ rate_limits:
   name: Spring Cloud Gateway Rate Limits
   slug: spring-cloud-gateway-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Spring Cloud Gateway API Rules
+  name: Spring Cloud Gateway — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -206,7 +226,8 @@ rules:
     info: 1
     warn: 4
   slug: spring-cloud-gateway-jsonschema-spectral-rules
-- effective_rule_count: 50
+- authorship: unmarked
+  effective_rule_count: 50
   extends:
   - spectral:oas
   name: Spring Cloud Gateway API Rules
@@ -219,17 +240,17 @@ rules:
   slug: spring-cloud-gateway-rules
 score:
   band: thin
-  composite: 35.5
+  composite: 34.0
   coverage:
     artifact_dirs: 16
-    catalog_earned: 63.4
+    catalog_earned: 60.4
     catalog_earned_first_party: 0.0
-    catalog_gap: 51.6
+    catalog_gap: 54.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 27.3
     contract_quality: 50.7
     developer_ergonomics: 28.6
@@ -249,8 +270,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

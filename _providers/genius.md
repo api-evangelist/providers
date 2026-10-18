@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.1
-  scored_at: '2026-10-04'
+  score: 24.2
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -125,6 +125,20 @@ collections:
   name: Genius API
   slug: open-genius
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/genius/refs/heads/main/plans/genius-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/genius-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/genius/refs/heads/main/rate-limits/genius-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/genius-rate-limits.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://genius.com/articles
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/genius/refs/heads/main/agentic-access/genius-agentic-access.yml
   title: ''
@@ -260,17 +274,17 @@ jsonld:
   property_count: 35
   slug: genius-context
 layout: provider
-modified: '2026-05-29'
+modified: '2026-10-06'
 name: Genius
 nav: Providers
 network: true
-overview: 'Genius publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Account API, Albums API, Annotations API, and 6 more. Tagged areas include Music, Lyrics, Annotation, Crowdsourced, and Reference Data.
+overview: 'Genius is listed with 9 APIs on the [APIs.io](https://apis.io/) network, including Account API, Albums API, Annotations API, and 6 more. Tagged areas include Music, Lyrics, Annotation, Crowdsourced, and Reference Data.
 
 
   The Genius catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Genius'' developer surface includes authentication, tooling, and 15 more developer resources.'
+  Genius'' developer surface includes authentication, tooling, and 18 more developer resources.'
 plans:
 - name: Genius Plans Pricing
   plan_count: 1
@@ -281,9 +295,10 @@ rate_limits:
   name: Genius Rate Limits
   slug: genius-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Genius API Rules
+  name: Genius — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -291,7 +306,8 @@ rules:
     info: 1
     warn: 4
   slug: genius-jsonschema-spectral-rules
-- effective_rule_count: 54
+- authorship: unmarked
+  effective_rule_count: 54
   extends:
   - spectral:oas
   name: Genius API Rules
@@ -309,17 +325,17 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: thin
-  composite: 37.1
+  composite: 34.4
   coverage:
-    artifact_dirs: 16
-    catalog_earned: 73.2
+    artifact_dirs: 17
+    catalog_earned: 68.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 41.8
+    catalog_gap: 47.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.7
   facets:
-    access_clarity: 42.6
+    access_clarity: 28.9
     contract_governance: 27.3
     contract_quality: 28.9
     developer_ergonomics: 41.7
@@ -339,12 +355,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
     score: 0.0
+screenshot: https://raw.githubusercontent.com/api-evangelist/genius/refs/heads/main/screenshots/genius-2026-10-11T185330.png
 security:
 - kind: authentication
   name: Genius Authentication

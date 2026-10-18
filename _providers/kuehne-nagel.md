@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 17
 apis:
 - baseURL: https://gateway.api.kuehne-nagel.com/track-trace/shipment/v2
@@ -320,6 +320,10 @@ collections:
   name: ShipmentTracking
   slug: open-kuehne-nagel-shipment-tracking-v2
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.kuehne-nagel.com/stories
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/kuehne-nagel/refs/heads/main/capabilities/kuehne-nagel-capability-edges.yml
   title: ''
@@ -362,31 +366,31 @@ description: 'Kuehne+Nagel International AG is a Swiss freight forwarder and con
   the REST veneer the company''s own connectivity page still advertises EDIFACT, ANSI X.12, Tradacoms, RosettaNet, iDOC, GS1 and CargoImp over AS2, OFTP-2, (S)FTP and VAN as the primary integration path, and its one customs "EDI" API is an unschematized pass-through. One surface — OceanEventInbox v1 — is explicitly built to the DCSA equipment-event standard, which makes Kuehne+Nagel a non-member implementer of a carrier standards body; the other sixteen APIs are proprietary Kuehne+Nagel contracts.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kuehne-nagel.png
 layout: provider
-modified: '2026-07-30'
+modified: '2026-10-06'
 name: Kuehne+Nagel
 nav: Providers
 network: true
-overview: 'Kuehne+Nagel publishes 48 APIs on the [APIs.io](https://apis.io/) network, including Administration Layer API, API Keys API, Assigned Consignments API, and 45 more. Tagged areas include Logistics, Supply Chain, Switzerland, Freight Forwarding, and Ocean Freight.
+overview: 'Kuehne+Nagel publishes 48 API contracts indexed on the [APIs.io](https://apis.io/) network, including Administration Layer API, API Keys API, Assigned Consignments API, and 45 more. Tagged areas include Logistics, Supply Chain, Switzerland, Freight Forwarding, and Ocean Freight.
 
 
-  Kuehne+Nagel''s developer surface includes documentation, developer portal, signup flow, and 6 more developer resources.'
+  Kuehne+Nagel''s developer surface includes engineering blog, documentation, developer portal, signup flow, and 6 more developer resources.'
 random_paper: 16
 score:
   band: emerging
-  composite: 20.7
+  composite: 21.3
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 7
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.6
   facets:
     access_clarity: 13.2
     contract_governance: 0.0
     contract_quality: 47.0
-    developer_ergonomics: 9.5
+    developer_ergonomics: 11.9
     discoverability: 71.4
     operational_transparency: 2.6
   jurisdiction:
@@ -397,7 +401,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 20.2
+  previous_composite: 20.7
   provenance:
     contracts:
       callable: 70.8
@@ -410,8 +414,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 0.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

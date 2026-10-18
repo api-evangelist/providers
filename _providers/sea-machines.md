@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 15.5
-  scored_at: '2026-10-04'
+  score: 13.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://sea-machines.com
@@ -103,16 +103,20 @@ common:
 created: '2026-06-20'
 description: Sea Machines Robotics builds autonomous command-and-control systems (SM300-SP, SM300-NG) and computer-vision perception (AI-ris) for commercial and defense marine vessels. In September 2025 it announced the SMLink Streaming-API and SMLink Control-API, partner-gated interfaces that stream real-time vessel telemetry to external systems and let approved third parties command SM300 autonomy functions from their own mission software. These interfaces are embedded, vessel-side product features, not a self-service public developer platform; access is arranged through Sea Machines sales.
 finops:
-- name: Sea Machines Finops
+- has_sources: true
+  method: generated
+  name: Sea Machines Finops
+  primary_unit: ''
   service_category: Marine Autonomy and Robotics
   slug: sea-machines-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sea-machines.png
 layout: provider
 modified: '2026-06-20'
 name: Sea Machines Robotics
 nav: Providers
 network: true
-overview: 'Sea Machines Robotics publishes 5 APIs on the [APIs.io](https://apis.io/) network, including SMLink Streaming-API, SMLink Control-API, and 3 more. Tagged areas include Marine, Autonomy, Robotics, Maritime, and Computer Vision.
+overview: 'Sea Machines Robotics publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including SMLink Streaming-API, SMLink Control-API, and 3 more. Tagged areas include Marine, Autonomy, Robotics, Maritime, and Computer Vision.
 
 
   Sea Machines Robotics'' developer surface includes documentation, engineering blog, and 6 more developer resources.'
@@ -127,22 +131,22 @@ rate_limits:
   slug: sea-machines-rate-limits
 score:
   band: emerging
-  composite: 20.7
+  composite: 14.7
   coverage:
     artifact_dirs: 9
-    catalog_earned: 49.4
+    catalog_earned: 36.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 65.6
+    catalog_gap: 79.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.0
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 25.1
     developer_ergonomics: 11.9
     discoverability: 57.1
-    operational_transparency: 18.9
+    operational_transparency: 5.3
   previous_composite: 20.7
   regulatory:
     applies: true
@@ -150,9 +154,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

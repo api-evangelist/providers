@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.6
-  scored_at: '2026-10-04'
+  score: 24.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -152,6 +152,21 @@ collections:
   name: npm Hooks Downloads Trusted Publishers API
   slug: open-npm-trusted-publishers-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/npm/refs/heads/main/plans/npm-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/npm-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/npm/refs/heads/main/rate-limits/npm-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/npm-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/npm/refs/heads/main/finops/npm-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/npm-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/npm/refs/heads/main/capabilities/npm-capability-edges.yml
   title: ''
@@ -240,9 +255,13 @@ common:
 created: '2026-03-20'
 description: npm is the world's largest software registry, hosting over two million JavaScript packages for the Node.js ecosystem. Their developer platform provides APIs for searching and retrieving package metadata, managing access tokens, subscribing to registry event webhooks, and publishing packages with supply chain provenance verification.
 finops:
-- name: Npm Finops
+- has_sources: true
+  method: generated
+  name: Npm Finops
+  primary_unit: ''
   service_category: Developer Tools / Package Registry
   slug: npm-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/npm.png
 json_schemas:
 - name: Distribution
@@ -316,13 +335,13 @@ modified: '2026-05-19'
 name: npm
 nav: Providers
 network: true
-overview: 'npm publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Registry API, Hooks API, Downloads API, and 7 more. Tagged areas include Packages, JavaScript, Node.js, Package Management, and Registry.
+overview: 'npm publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Registry API, Hooks API, Downloads API, and 7 more. Tagged areas include Packages, JavaScript, Node.js, Package Management, and Registry.
 
 
   The npm catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  npm''s developer surface includes authentication, developer portal, documentation, engineering blog, support, and 15 more developer resources.'
+  npm''s developer surface includes authentication, developer portal, documentation, engineering blog, support, and 18 more developer resources.'
 plans:
 - name: Npm Plans Pricing
   plan_count: 4
@@ -333,10 +352,11 @@ rate_limits:
   name: Npm Rate Limits
   slug: npm-rate-limits
 rules:
-- effective_rule_count: 33
+- authorship: generated
+  effective_rule_count: 33
   extends:
   - spectral:asyncapi
-  name: npm API Rules
+  name: npm — asyncapi rules
   rule_count: 6
   severity_counts:
     error: 1
@@ -344,9 +364,10 @@ rules:
     info: 1
     warn: 4
   slug: npm-asyncapi-spectral-rules
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: npm API Rules
+  name: npm — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -356,17 +377,17 @@ rules:
   slug: npm-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 49.8
+  composite: 48.3
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 55.9
+    artifact_dirs: 20
+    catalog_earned: 52.9
     catalog_earned_first_party: 0.0
-    catalog_gap: 59.1
+    catalog_gap: 62.1
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 50.0
+    access_clarity: 42.1
     contract_governance: 13.6
     contract_quality: 68.8
     developer_ergonomics: 39.3
@@ -386,8 +407,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

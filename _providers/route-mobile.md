@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 69
+- acting_count: 61
   human_in_the_loop: 3
   name: Route Mobile Agentic Access
   operation_count: 108
   slug: route-mobile-agentic-access
-  summary_line: 108 operations · 69 acting · 3 human-in-the-loop
+  summary_line: 108 operations · 61 acting · 3 human-in-the-loop
 api_count: 5
 apis:
 - description: 'Route Mobile''s enterprise voice and cloud telephony surface, documented as narrative guides on the developer portal (send message and template management calls) and published as a first-party Postman '
@@ -236,6 +236,14 @@ collections:
   name: Route Mobile WhatsApp Business API
   slug: open-route-mobile-whatsapp-business
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://routemobile.com/blogs/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://routemobile.com/feed/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/route-mobile/refs/heads/main/capabilities/route-mobile-capability-edges.yml
   title: ''
@@ -416,17 +424,17 @@ description: 'Route Mobile Limited is a Mumbai-headquartered cloud communication
   in the request body for email.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-modified: '2026-07-25'
+modified: '2026-10-06'
 name: Route Mobile
 nav: Providers
 network: true
-overview: 'Route Mobile publishes 34 APIs on the [APIs.io](https://apis.io/) network, including Enterprise Voice 2.0 API, Account API, Account Management API, and 31 more. Tagged areas include Telecommunications, India, CPaaS, Messaging, and SMS.
+overview: 'Route Mobile publishes 34 API contracts indexed on the [APIs.io](https://apis.io/) network, including Enterprise Voice 2.0 API, Account API, Account Management API, and 31 more. Tagged areas include Telecommunications, India, CPaaS, Messaging, and SMS.
 
 
   The Route Mobile catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Route Mobile''s developer surface includes authentication, sandbox, getting-started guide, support, documentation, engineering blog, signup flow, and 31 more developer resources.'
+  Route Mobile''s developer surface includes engineering blog, authentication, sandbox, getting-started guide, support, documentation, signup flow, and 33 more developer resources.'
 random_paper: 4
 rate_limits:
 - limit_count: 6
@@ -442,7 +450,7 @@ score:
     catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 42.1
     contract_governance: 18.2
@@ -457,7 +465,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - india-south-asia
-  previous_composite: 51.0
+  previous_composite: 51.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -478,8 +486,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 34.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

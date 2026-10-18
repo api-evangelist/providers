@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 5
 apis:
 - baseURL: https://app.pixee.ai/api/v1
@@ -62,7 +62,7 @@ apis:
   description: The Webhooks API from Pixee — 2 operation(s) for webhooks.
   name: Pixee Webhooks API
   slug: pixee-ai-webhooks-api
-artifact_total: 25
+artifact_total: 26
 asyncapis:
 - description: Pixee webhooks deliver real-time HTTP POST notifications when remediation events occur. This AsyncAPI document is a faithful reconstruction of the event types and payload schemas documented at https:/
   name: Pixee Webhooks
@@ -87,6 +87,15 @@ collections:
   name: Pixee REST Findings Webhooks API
   slug: open-pixee-ai-webhooks-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/pixee-ai/refs/heads/main/plans/pixee-ai-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/pixee-ai-plans-pricing.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.pixee.ai/rss.xml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/pixee-ai/refs/heads/main/mcp/pixee-ai-mcp.yml
   title: ''
@@ -195,31 +204,35 @@ created: '2026-07-17'
 description: Pixee is an agentic security engineering (AppSec) platform — "your automated product security engineer." It ingests findings from SAST, SCA, and IaC scanners as SARIF, runs a three-tier triage engine that classifies each vulnerability with auditable, timestamped evidence, and delivers remediations as native pull requests across GitHub, GitLab, Azure DevOps, and Bitbucket using deterministic codemods plus quality-evaluated AI fixes. Pixee exposes a HAL-based REST API (organization-scoped bearer tokens), documented webhooks, a first-party CLI with bundled agent skills, and the open-source Codemodder framework (Java and Python). It is backed by Wing Venture Capital.
 image: https://cdn.prod.website-files.com/696822cb241ff5e67581075b/69b1a742e6436bad27408920_pixee%20agentic%20appsec%20image.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Pixee
 nav: Providers
 network: true
-overview: 'Pixee publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Findings API, Fixes API, Repositories API, and 2 more. Tagged areas include Company, Security, Application Security, AppSec, and Vulnerability Remediation.
+overview: 'Pixee is listed with 5 APIs on the [APIs.io](https://apis.io/) network, including Findings API, Fixes API, Repositories API, and 2 more. Tagged areas include Company, Security, Application Security, AppSec, and Vulnerability Remediation.
 
 
   The Pixee catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Pixee''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, CLI, and 16 more developer resources.'
+  Pixee''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, CLI, and 18 more developer resources.'
+plans:
+- name: Pixee Ai Plans Pricing
+  plan_count: 1
+  slug: pixee-ai-plans-pricing
 random_paper: 16
 score:
   band: developing
-  composite: 42.4
+  composite: 46.7
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 40.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    artifact_dirs: 23
+    catalog_earned: 48.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 4.3
   facets:
-    access_clarity: 47.4
+    access_clarity: 68.4
     contract_governance: 4.5
     contract_quality: 21.1
     developer_ergonomics: 73.8
@@ -241,8 +254,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

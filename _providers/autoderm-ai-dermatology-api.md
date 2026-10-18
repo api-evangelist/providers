@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -44,7 +44,7 @@ agentic_access:
   operation_count: 17
   slug: autoderm-ai-dermatology-api-agentic-access
   summary_line: 17 operations · 5 acting
-api_count: 2
+api_count: 4
 apis:
 - baseURL: https://api.autoderm.ai
   baseurl_source: declared
@@ -84,6 +84,10 @@ collections:
   name: Autoderm Utils API
   slug: open-autoderm-ai-dermatology-api-utils-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://autoderm.ai/feed/
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/autoderm-ai-dermatology-api/refs/heads/main/mcp/autoderm-ai-dermatology-api-mcp.yml
   title: ''
@@ -311,14 +315,14 @@ json_schemas:
   property_count: 2
   slug: autoderm-ai-dermatology-api-Version
 layout: provider
-modified: '2026-08-09'
+modified: '2026-10-06'
 name: Autoderm – AI Dermatology API
 nav: Providers
 network: true
-overview: 'Autoderm – AI Dermatology API publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Device API, Inference API, System API, and 1 more. Tagged areas include dermatology-api, ai-dermatology, Medical Imaging, Telehealth, and skin-analysis.
+overview: 'Autoderm – AI Dermatology API publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Device API, Inference API, System API, and 1 more. Tagged areas include dermatology-api, ai-dermatology, Medical Imaging, Telehealth, and skin-analysis.
 
 
-  Autoderm – AI Dermatology API''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
+  Autoderm – AI Dermatology API''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
 plans:
 - name: Autoderm Ai Dermatology Api Plans
   plan_count: 3
@@ -330,21 +334,21 @@ rate_limits:
   slug: autoderm-ai-dermatology-api-rate-limits
 score:
   band: strong
-  composite: 60.5
+  composite: 61.1
   coverage:
     artifact_dirs: 25
-    catalog_earned: 61.0
+    catalog_earned: 64.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 54.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 84.2
     contract_governance: 18.2
     contract_quality: 50.6
     developer_ergonomics: 66.1
-    discoverability: 73.2
+    discoverability: 78.6
     operational_transparency: 57.9
   previous_composite: 60.5
   provenance:
@@ -363,8 +367,8 @@ score:
     regime: Health
     regime_id: health
     score: 22.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -23,10 +23,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.gsk.com/en-gb/careers/early-careers/graduate-programme/engineering/
 - group: company
   title: ''
   type: Website
@@ -62,28 +66,31 @@ created: '2026-09-14'
 description: 'Aiolos Bio was a clinical-stage biopharmaceutical company founded in 2023 with offices in San Francisco, California and London, United Kingdom, developing treatments for respiratory and inflammatory disease. Its sole disclosed asset was AIO-001, a half-life-extended monoclonal antibody against thymic stromal lymphopoietin (TSLP), positioned as a Phase 2-ready candidate for moderate-to-severe asthma with potential six-month dosing intervals. The company launched in October 2023 with an oversubscribed $245 million Series A co-led by Atlas Venture, Bain Capital Life Sciences, Forbion and Sofinnova Investments, with RA Capital Management. GSK plc agreed to acquire it on 9 January 2024 for $1 billion upfront plus up to $400 million in milestones, completing on 14 February 2024. Aiolos Bio is a drug developer, not a software vendor: it never ran a developer program, public API, SDK or machine-readable contract, and aiolosbio.com now serves a blanket HTTP 301 to www.gsk.com on every
   path.'
 layout: provider
-modified: '2026-09-14'
+modified: '2026-10-06'
 name: Aiolos Bio
 nav: Providers
 network: true
-overview: Aiolos Bio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Biopharmaceutical, Pharmaceuticals, and Drug Development.
+overview: 'Aiolos Bio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Biopharmaceutical, Pharmaceuticals, and Drug Development.
+
+
+  Aiolos Bio''s developer surface includes engineering blog and 4 more developer resources.'
 random_paper: 16
 score:
   band: minimal
-  composite: 3.3
+  composite: 3.8
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 6
     catalog_earned: 25.0
     catalog_earned_first_party: 0.0
     catalog_gap: 90.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 44.6
     operational_transparency: 0.0
   previous_composite: 3.3
@@ -93,13 +100,14 @@ score:
     regime: Health
     regime_id: health
     score: 4.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/aiolos-bio/refs/heads/main/screenshots/aiolos-bio-2026-10-11T093334.png
 security:
 - kind: domain-security
   name: Aiolos Bio Domain Security

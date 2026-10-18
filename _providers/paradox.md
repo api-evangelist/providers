@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -174,6 +174,21 @@ collections:
   name: Paradox Authentication Users API
   slug: open-paradox-users-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/paradox/refs/heads/main/plans/paradox-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/paradox-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/paradox/refs/heads/main/rate-limits/paradox-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/paradox-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/paradox/refs/heads/main/finops/paradox-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/paradox-finops.yml
 - group: company
   title: ''
   type: Website
@@ -285,9 +300,13 @@ common:
 created: '2025-01-01'
 description: APIs and resources for Paradox, a conversational AI recruiting assistant platform powered by Olivia, an AI assistant that automates candidate screening, interview scheduling, and hiring workflows through chat, SMS, and mobile-driven experiences.
 finops:
-- name: Paradox Finops
+- has_sources: true
+  method: generated
+  name: Paradox Finops
+  primary_unit: ''
   service_category: HR Technology
   slug: paradox-finops
+  template: false
 image: https://www.paradox.ai/images/paradox-logo.png
 json_schemas:
 - name: AiAssistant
@@ -376,13 +395,13 @@ modified: '2026-05-19'
 name: Paradox
 nav: Providers
 network: true
-overview: 'Paradox publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Candidate Attributes API, Candidates API, and 8 more. Tagged areas include Artificial Intelligence, Candidate Screening, Chatbots, Conversational AI, and Hiring Automation.
+overview: 'Paradox publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authentication API, Candidate Attributes API, Candidates API, and 8 more. Tagged areas include Artificial Intelligence, Candidate Screening, Chatbots, Conversational AI, and Hiring Automation.
 
 
   The Paradox catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Paradox''s developer surface includes authentication, developer portal, documentation, changelog, FAQ, engineering blog, and 19 more developer resources.'
+  Paradox''s developer surface includes authentication, developer portal, documentation, changelog, FAQ, engineering blog, and 22 more developer resources.'
 plans:
 - name: Paradox Plans Pricing
   plan_count: 1
@@ -393,9 +412,10 @@ rate_limits:
   name: Paradox Rate Limits
   slug: paradox-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Paradox API Rules
+  name: Paradox — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -410,17 +430,17 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 43.6
+  composite: 42.0
   coverage:
     artifact_dirs: 20
-    catalog_earned: 57.7
+    catalog_earned: 54.7
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.4
+    catalog_gap: 60.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 40.8
+    access_clarity: 32.9
     contract_governance: 9.8
     contract_quality: 59.2
     developer_ergonomics: 31.0
@@ -440,8 +460,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 32.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

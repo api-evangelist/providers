@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Social media APIs to post, get analytics, and manage multiple users social media accounts
@@ -65,7 +65,7 @@ modified: '2026-05-28'
 name: Ayrshare
 nav: Providers
 network: true
-overview: 'Ayrshare publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Social and Public APIs.
+overview: 'Ayrshare is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Social and Public APIs.
 
 
   Ayrshare''s developer surface includes engineering blog and 3 more developer resources.'
@@ -74,7 +74,7 @@ score:
   band: minimal
   composite: 5.6
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 22.0
     catalog_earned_first_party: 0.0
     catalog_gap: 93.0
@@ -95,8 +95,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

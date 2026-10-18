@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 0
@@ -533,9 +533,13 @@ examples:
   name: Retail X Series Sale Example
   slug: retail-x-series-sale-example
 finops:
-- name: Lightspeed Pos Finops
+- has_sources: true
+  method: generated
+  name: Lightspeed Pos Finops
+  primary_unit: ''
   service_category: Payments & POS
   slug: lightspeed-pos-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lightspeed-pos.png
 json_schemas:
 - name: apeAccountProfile
@@ -1121,7 +1125,7 @@ modified: '2026-06-02'
 name: Lightspeed
 nav: Providers
 network: true
-overview: 'Lightspeed publishes 28 APIs on the [APIs.io](https://apis.io/) network, including Account API, Brands API, Catalog API, and 25 more. Tagged areas include Lightspeed, Point-of-Sale, Retail, Restaurant, and E-Commerce.
+overview: 'Lightspeed publishes 28 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Brands API, Catalog API, and 25 more. Tagged areas include Lightspeed, Point-of-Sale, Retail, Restaurant, and E-Commerce.
 
 
   The Lightspeed catalog on APIs.io includes 3 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -1138,9 +1142,10 @@ rate_limits:
   name: Lightspeed Pos Rate Limits
   slug: lightspeed-pos-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Lightspeed API Rules
+  name: Lightspeed — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1148,7 +1153,8 @@ rules:
     info: 2
     warn: 3
   slug: lightspeed-pos-jsonschema-spectral-rules
-- effective_rule_count: 74
+- authorship: generated
+  effective_rule_count: 74
   extends:
   - spectral:oas
   name: Lightspeed API Rules
@@ -1165,18 +1171,18 @@ scopes:
   slug: lightspeed-pos-scopes
   summary_line: 24 scopes · authorizationCode
 score:
-  band: thin
-  composite: 26.7
+  band: emerging
+  composite: 25.2
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 55.5
+    artifact_dirs: 19
+    catalog_earned: 52.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 59.5
+    catalog_gap: 62.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 13.2
+    access_clarity: 5.3
     contract_governance: 13.6
     contract_quality: 26.8
     developer_ergonomics: 23.8
@@ -1196,8 +1202,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

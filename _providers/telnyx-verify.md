@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 17
   slug: telnyx-verify-agentic-access
   summary_line: 17 operations · 11 acting
-api_count: 1
+api_count: 2
 apis:
 - baseURL: https://api.telnyx.com/v2
   baseurl_source: declared
@@ -78,6 +78,10 @@ collections:
   name: Telnyx Verify and Number Lookup API
   slug: open-telnyx-verify
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://telnyx.com/rss.xml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/telnyx-verify/refs/heads/main/agentic-access/telnyx-verify-agentic-access.yml
   title: ''
@@ -127,19 +131,23 @@ common:
 created: '2026-07-11'
 description: Telnyx Verify API is a phone-number verification and two-factor authentication (2FA / OTP) product, paired with Telnyx Number Lookup for number intelligence (carrier, line type, caller name / CNAM, and portability). Verify sends a one-time passcode over SMS, voice call, flash call, or WhatsApp and checks the code the user enters - by verification ID or by phone number - with reusable per-channel Verify Profiles and message templates, plus verification webhooks and built-in anti-fraud controls against SMS pumping and brute-force attacks. Number Lookup returns carrier and caller data for an E.164 number for routing, validation, lead enrichment, and fraud workflows. Both run on the Telnyx API v2 (https://api.telnyx.com/v2) with Bearer API-key auth. This is a product-specific treatment of the parent Telnyx cloud-communications (CPaaS) platform, whose full voice / messaging / numbers / fax / wireless surface is documented in the `telnyx` catalog entry.
 finops:
-- name: Telnyx Verify Finops
+- has_sources: true
+  method: generated
+  name: Telnyx Verify Finops
+  primary_unit: ''
   service_category: Identity and Communications
   slug: telnyx-verify-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/telnyx-verify.png
 layout: provider
-modified: '2026-07-11'
+modified: '2026-10-06'
 name: Telnyx Verify API
 nav: Providers
 network: true
-overview: 'Telnyx Verify API publishes 3 APIs on the [APIs.io](https://apis.io/) network: Number Lookup API, Verify API, and Verify Profiles API. Tagged areas include Number Verification, Phone Verification, OTP, 2FA, and Lookup.
+overview: 'Telnyx Verify API publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Number Lookup API, Verify API, and Verify Profiles API. Tagged areas include Number Verification, Phone Verification, OTP, 2FA, and Lookup.
 
 
-  Telnyx Verify API''s developer surface includes authentication, documentation, and 8 more developer resources.'
+  Telnyx Verify API''s developer surface includes authentication, documentation, and 9 more developer resources.'
 plans:
 - name: Telnyx Verify Plans Pricing
   plan_count: 3
@@ -150,23 +158,23 @@ rate_limits:
   name: Telnyx Verify Rate Limits
   slug: telnyx-verify-rate-limits
 score:
-  band: thin
-  composite: 33.3
+  band: emerging
+  composite: 24.9
   coverage:
-    artifact_dirs: 10
-    catalog_earned: 61.6
+    artifact_dirs: 11
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.4
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.4
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 52.5
     developer_ergonomics: 22.6
     discoverability: 66.1
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   previous_composite: 33.3
   provenance:
     agentic_access: derived
@@ -181,9 +189,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 10.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

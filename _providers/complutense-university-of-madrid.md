@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 6
 apis:
 - description: 'Docta Complutense is UCM''s open-access institutional repository, migrated in 2023 to DSpace 7 and self-hosted on UCM''s own domain. Probed 2026-08-30: GET https://docta.ucm.es/rest/api returns HTTP 200'
@@ -56,6 +56,10 @@ apis:
   slug: universidata-dcat
 artifact_total: 11
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.ucm.es/news/
 - group: company
   title: ''
   type: Website
@@ -147,9 +151,13 @@ created: '2026-06-03'
 description: 'Universidad Complutense de Madrid (UCM) is Spain''s largest public research university, founded 1499 and ranked #164 in the QS World University Rankings 2025. UCM operates no central developer portal and publishes no OpenAPI, AsyncAPI or SDK of its own — a re-profile on 2026-08-30 probed every candidate host and found none. What it does operate, verified live, is two things. First, Docta Complutense (docta.ucm.es), its institutional repository, self-hosted on UCM''s own domain running DSpace 7.6.5: the DSpace REST/HAL API answers at /rest/api and an OAI-PMH 2.0 endpoint answers verb=Identify at /rest/oai/request with twelve metadata formats. The repository is UCM''s; the API contract is DSpace''s open-source one and is not saved here. Second, UCM is registered in eduGAIN through the Spanish RedIRIS SIR federation as a SAML 2.0 Identity Provider (entityID https://www.rediris.es/sir/ucmidp, scope ucm.es, Sirtfi asserted) — machine-readable, institution-scoped, but hosted on RedIRIS
   infrastructure, so recorded as a tenant relationship. UCM''s open data is not self-hosted either: it is published through UniversiDATA, a five-university DKAN consortium portal (UAM, UCM, UHU, UVa, URJC) that exposes DataStore, CKAN and DCAT APIs. Thirteen of the portal''s seventy-one datasets are UCM''s — degree programmes, faculties, departments, budgets, mobility and procurement. UCM''s data, the consortium''s platform, so every UniversiDATA surface below is x-operator tenant, not institution. No course/timetable API, no library discovery API, no research-computing or campus-life API was found on any ucm.es host.'
 finops:
-- name: Complutense University Of Madrid Finops
+- has_sources: true
+  method: generated
+  name: Complutense University Of Madrid Finops
+  primary_unit: ''
   service_category: Education
   slug: complutense-university-of-madrid-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/complutense-university-of-madrid.png
 jsonld:
 - class_count: 20
@@ -157,17 +165,17 @@ jsonld:
   property_count: 0
   slug: complutense-university-of-madrid-context
 layout: provider
-modified: '2026-08-30'
+modified: '2026-10-06'
 name: Complutense University of Madrid
 nav: Providers
 network: true
-overview: 'Complutense University of Madrid publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include University, Higher Education, Education, Public Research University, and Spain.
+overview: 'Complutense University of Madrid is listed with 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include University, Higher Education, Education, Public Research University, and Spain.
 
 
   The Complutense University of Madrid catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Complutense University of Madrid''s developer surface includes documentation, API reference, GitHub presence, and 17 more developer resources.'
+  Complutense University of Madrid''s developer surface includes engineering blog, documentation, API reference, GitHub presence, and 17 more developer resources.'
 plans:
 - name: Complutense University Of Madrid Plans Pricing
   plan_count: 2
@@ -178,23 +186,23 @@ rate_limits:
   name: Complutense University Of Madrid Rate Limits
   slug: complutense-university-of-madrid-rate-limits
 score:
-  band: thin
-  composite: 27.0
+  band: emerging
+  composite: 21.4
   coverage:
-    artifact_dirs: 9
-    catalog_earned: 65.4
+    artifact_dirs: 10
+    catalog_earned: 52.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 49.6
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -2.6
+  delta: -5.6
   facets:
-    access_clarity: 37.4
+    access_clarity: 15.8
     contract_governance: 4.5
     contract_quality: 14.3
-    developer_ergonomics: 22.6
+    developer_ergonomics: 25.0
     discoverability: 71.4
-    operational_transparency: 24.2
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -203,7 +211,7 @@ score:
     regions:
     - europe
     - france-iberia
-  previous_composite: 29.6
+  previous_composite: 27.0
   provenance:
     conformance: derived
   regulatory:
@@ -212,9 +220,9 @@ score:
     regime: Education & Research
     regime_id: education
     score: 22.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: SpecFlow is a BDD framework for .NET that bridges the communication gap between domain experts and developers by enabling natural language specifications (Gherkin) to be executed as automated tests. I
@@ -44,6 +44,21 @@ apis:
   slug: reqnroll
 artifact_total: 26
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/specflow/refs/heads/main/plans/specflow-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/specflow-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/specflow/refs/heads/main/rate-limits/specflow-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/specflow-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/specflow/refs/heads/main/finops/specflow-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/specflow-finops.yml
 - group: other
   title: ''
   type: ParentCompany
@@ -99,9 +114,13 @@ features:
 - name: Parallel Execution
 - name: Living Documentation
 finops:
-- name: Specflow Finops
+- has_sources: false
+  method: generated
+  name: Specflow Finops
+  primary_unit: ''
   service_category: API
   slug: specflow-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/specflow.png
 json_schemas:
 - name: SpecFlow Feature
@@ -124,13 +143,13 @@ modified: '2026-05-02'
 name: SpecFlow
 nav: Providers
 network: true
-overview: 'SpecFlow publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include .NET, BDD, Cucumber, Gherkin, and Testing.
+overview: 'SpecFlow is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include .NET, BDD, Cucumber, Gherkin, and Testing.
 
 
   The SpecFlow catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  SpecFlow''s developer surface includes documentation, engineering blog, and 6 more developer resources.'
+  SpecFlow''s developer surface includes documentation, engineering blog, and 9 more developer resources.'
 plans:
 - name: Specflow Plans Pricing
   plan_count: 3
@@ -141,9 +160,10 @@ rate_limits:
   name: Specflow Rate Limits
   slug: specflow-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: SpecFlow API Rules
+  name: SpecFlow — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -153,17 +173,17 @@ rules:
   slug: specflow-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 16.1
+  composite: 14.6
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 52.3
+    artifact_dirs: 13
+    catalog_earned: 49.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 62.8
+    catalog_gap: 65.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 9.8
     contract_quality: 10.7
     developer_ergonomics: 11.9
@@ -176,8 +196,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

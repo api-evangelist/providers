@@ -27,20 +27,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 18.5
-  scored_at: '2026-10-04'
+  score: 16.6
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 1
+- acting_count: 0
   human_in_the_loop: 0
   name: Department Of The Treasury Agentic Access
   operation_count: 10
   slug: department-of-the-treasury-agentic-access
-  summary_line: 10 operations · 1 acting
+  summary_line: 10 operations
 api_count: 2
 apis:
 - description: Public reference data on marketable Treasury securities (auctions, results, security details) published via TreasuryDirect.
@@ -128,6 +128,21 @@ collections:
   name: OFAC Sanctions List Service API
   slug: open-ofac-sdn-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/department-of-the-treasury/refs/heads/main/plans/department-of-the-treasury-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/department-of-the-treasury-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/department-of-the-treasury/refs/heads/main/rate-limits/department-of-the-treasury-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/department-of-the-treasury-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/department-of-the-treasury/refs/heads/main/finops/department-of-the-treasury-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/department-of-the-treasury-finops.yml
 - group: company
   title: ''
   type: Website
@@ -181,9 +196,13 @@ examples:
   name: Sanctioned Entity Example
   slug: sanctioned-entity-example
 finops:
-- name: Department Of The Treasury Finops
+- has_sources: true
+  method: generated
+  name: Department Of The Treasury Finops
+  primary_unit: ''
   service_category: Federal Government / Public Open Data
   slug: department-of-the-treasury-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/department-of-the-treasury.png
 json_schemas:
 - name: Sanctioned Entity
@@ -202,13 +221,13 @@ modified: '2026-09-16'
 name: Department of the Treasury
 nav: Providers
 network: true
-overview: 'Department of the Treasury publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Auctions API, Debt API, Exchange Rates API, and 8 more. Tagged areas include Federal Government, Finance, Debt, and Sanctions.
+overview: 'Department of the Treasury publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Auctions API, Debt API, Exchange Rates API, and 8 more. Tagged areas include Federal Government, Finance, Debt, and Sanctions.
 
 
   The Department of the Treasury catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Department of the Treasury''s developer surface includes developer portal, documentation, engineering blog, and 7 more developer resources.'
+  Department of the Treasury''s developer surface includes developer portal, documentation, engineering blog, and 10 more developer resources.'
 plans:
 - name: Department Of The Treasury Plans Pricing
   plan_count: 1
@@ -219,9 +238,10 @@ rate_limits:
   name: Department Of The Treasury Rate Limits
   slug: department-of-the-treasury-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Department of the Treasury API Rules
+  name: Department of the Treasury — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -229,9 +249,10 @@ rules:
     info: 2
     warn: 3
   slug: department-of-the-treasury-jsonschema-spectral-rules
-- effective_rule_count: 0
+- authorship: unmarked
+  effective_rule_count: 0
   extends: []
-  name: Department of the Treasury API Rules
+  name: Department of the Treasury — treasury rules
   rule_count: 0
   severity_counts:
     error: 0
@@ -241,17 +262,17 @@ rules:
   slug: treasury-rules
 score:
   band: thin
-  composite: 29.0
+  composite: 27.3
   coverage:
     artifact_dirs: 16
-    catalog_earned: 52.3
+    catalog_earned: 49.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 62.8
+    catalog_gap: 65.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.7
   facets:
-    access_clarity: 13.2
+    access_clarity: 5.3
     contract_governance: 9.8
     contract_quality: 54.3
     developer_ergonomics: 28.6
@@ -276,8 +297,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

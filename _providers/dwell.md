@@ -32,10 +32,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.dwell.com/articles
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.dwell.com/@dwell/rss
 - group: company
   title: ''
   type: Website
@@ -65,31 +73,31 @@ created: '2026-07-17'
 description: Dwell is a digital publication and lifestyle brand focused on modern home design, architecture, and interior inspiration, published by Ziff Davis. It offers curated home tours, architectural features, renovation and before/after projects, design photography, real estate listings, shopping guides, and design news, plus a Dwell+ subscription for ad-free access and subscriber exclusives, a shop for furniture and decor, and a "Find a Pro" professional directory. Dwell was surfaced as a portfolio-adjacent lead in the API Evangelist network; the public dwell.com property is a consumer media site with no developer API, SDK, or developer portal, so no API artifacts are captured for it.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dwell.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: dwell
 nav: Providers
 network: true
 overview: 'dwell is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Media, Publishing, Home Design, and Architecture.
 
 
-  dwell''s developer surface includes signup flow, support, and 4 more developer resources.'
+  dwell''s developer surface includes engineering blog, signup flow, support, and 5 more developer resources.'
 random_paper: 8
 score:
   band: emerging
-  composite: 12.3
+  composite: 12.9
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 34.2
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 4.8
+    developer_ergonomics: 7.1
     discoverability: 48.2
     operational_transparency: 0.0
   previous_composite: 12.3
@@ -99,8 +107,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

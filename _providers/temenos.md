@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 27.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 3
@@ -642,6 +642,16 @@ collections:
   name: Temenos Buy Now Pay Later Accounts Workspaces API
   slug: open-temenos-workspaces-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/temenos/refs/heads/main/plans/temenos-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/temenos-plans-pricing.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/temenos/refs/heads/main/finops/temenos-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/temenos-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/temenos/refs/heads/main/capabilities/temenos-capability-edges.yml
   title: ''
@@ -926,9 +936,13 @@ examples:
   name: Temenos Transact List Accounts Example
   slug: temenos-transact-list-accounts-example
 finops:
-- name: Temenos Finops
+- has_sources: true
+  method: generated
+  name: Temenos Finops
+  primary_unit: ''
   service_category: Banking Software
   slug: temenos-finops
+  template: false
 image: https://www.temenos.com/wp-content/uploads/2025/04/Temenos_Logo.png
 json_schemas:
 - name: Temenos Banking Account
@@ -963,13 +977,13 @@ modified: '2026-05-19'
 name: Temenos
 nav: Providers
 network: true
-overview: 'Temenos publishes 61 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Accounts Arrangement Details API, Alert Management API, and 58 more. Tagged areas include Banking, Cloud Banking, Core Banking, Digital Banking, and Financial Services.
+overview: 'Temenos publishes 61 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, Accounts Arrangement Details API, Alert Management API, and 58 more. Tagged areas include Banking, Cloud Banking, Core Banking, Digital Banking, and Financial Services.
 
 
   The Temenos catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Temenos'' developer surface includes authentication, developer portal, getting-started guide, support, sandbox, engineering blog, signup flow, and 52 more developer resources.'
+  Temenos'' developer surface includes authentication, developer portal, getting-started guide, support, sandbox, engineering blog, signup flow, and 54 more developer resources.'
 plans:
 - name: Temenos Plans Pricing
   plan_count: 1
@@ -980,10 +994,11 @@ rate_limits:
   name: Temenos Rate Limits
   slug: temenos-rate-limits
 rules:
-- effective_rule_count: 35
+- authorship: generated
+  effective_rule_count: 35
   extends:
   - spectral:asyncapi
-  name: Temenos API Rules
+  name: Temenos — asyncapi rules
   rule_count: 8
   severity_counts:
     error: 0
@@ -991,9 +1006,10 @@ rules:
     info: 1
     warn: 7
   slug: temenos-asyncapi-spectral-rules
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: Temenos API Rules
+  name: Temenos — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -1001,7 +1017,8 @@ rules:
     info: 2
     warn: 4
   slug: temenos-jsonschema-spectral-rules
-- effective_rule_count: 55
+- authorship: unmarked
+  effective_rule_count: 55
   extends:
   - spectral:oas
   name: Temenos API Rules
@@ -1019,23 +1036,23 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: developing
-  composite: 53.9
+  composite: 52.3
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 61.0
+    artifact_dirs: 23
+    catalog_earned: 58.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 54.0
+    catalog_gap: 57.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -1.6
   facets:
-    access_clarity: 40.8
+    access_clarity: 32.9
     contract_governance: 27.3
     contract_quality: 62.6
     developer_ergonomics: 60.7
     discoverability: 89.3
     operational_transparency: 31.6
-  previous_composite: 53.4
+  previous_composite: 53.9
   provenance:
     agentic_access: derived
     contracts:
@@ -1049,8 +1066,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 36.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

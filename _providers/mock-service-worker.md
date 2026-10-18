@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 3.8
-  scored_at: '2026-10-04'
+  score: 1.9
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Mock Service Worker (MSW) is an open-source library for mocking REST, GraphQL, WebSocket, and Server-Sent Events APIs at the network level. It provides setupWorker for browser environments and setupSe
@@ -41,6 +41,21 @@ apis:
   slug: msw
 artifact_total: 9
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/mock-service-worker/refs/heads/main/plans/mock-service-worker-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/mock-service-worker-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/mock-service-worker/refs/heads/main/rate-limits/mock-service-worker-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/mock-service-worker-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/mock-service-worker/refs/heads/main/finops/mock-service-worker-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/mock-service-worker-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/mock-service-worker/refs/heads/main/security/mock-service-worker-domain-security.yml
   title: ''
@@ -103,9 +118,13 @@ common:
 created: '2025-01-08'
 description: Mock Service Worker (MSW) is an industry-standard, open-source API mocking library for the browser and Node.js. MSW intercepts outgoing requests at the network level using Service Workers in browsers and a request interception algorithm in Node.js, allowing developers to write client-agnostic mocks for HTTP, GraphQL, WebSocket, and Server-Sent Events and reuse them across any framework, tool, or environment for development, testing, and debugging.
 finops:
-- name: Mock Service Worker Finops
+- has_sources: false
+  method: generated
+  name: Mock Service Worker Finops
+  primary_unit: ''
   service_category: API
   slug: mock-service-worker-finops
+  template: true
 graphqls:
 - description: Mock Service Worker (MSW) is an open-source library for mocking REST, GraphQL, WebSocket, and Server-Sent Events APIs at the network level. It provides setupWorker for browser environments and setupSe
   name: Mock Service Worker GraphQL API
@@ -125,13 +144,13 @@ modified: '2026-04-28'
 name: Mock Service Worker
 nav: Providers
 network: true
-overview: 'Mock Service Worker publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include API Mocking, GraphQL, HTTP, Mock Servers, and Mocking.
+overview: 'Mock Service Worker is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include API Mocking, GraphQL, HTTP, Mock Servers, and Mocking.
 
 
   The Mock Service Worker catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Mock Service Worker''s developer surface includes documentation, getting-started guide, GitHub presence, code examples, engineering blog, and 9 more developer resources.'
+  Mock Service Worker''s developer surface includes documentation, getting-started guide, GitHub presence, code examples, engineering blog, and 12 more developer resources.'
 plans:
 - name: Mock Service Worker Plans Pricing
   plan_count: 3
@@ -142,9 +161,10 @@ rate_limits:
   name: Mock Service Worker Rate Limits
   slug: mock-service-worker-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Mock Service Worker API Rules
+  name: Mock Service Worker — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -154,17 +174,17 @@ rules:
   slug: mock-service-worker-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 20.1
+  composite: 18.6
   coverage:
     artifact_dirs: 11
-    catalog_earned: 49.3
+    catalog_earned: 46.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 65.8
+    catalog_gap: 68.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 9.8
     contract_quality: 13.2
     developer_ergonomics: 28.6
@@ -177,8 +197,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

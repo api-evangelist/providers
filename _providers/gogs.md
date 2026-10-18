@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 0
@@ -31,7 +31,7 @@ agentic_access:
   operation_count: 104
   slug: gogs-agentic-access
   summary_line: 104 operations · 52 acting
-api_count: 1
+api_count: 2
 apis:
 - description: RESTful API for interacting with Gogs instances, similar to GitHub REST API v3.
   name: Gogs API
@@ -198,7 +198,7 @@ modified: '2026-09-21'
 name: Gogs
 nav: Providers
 network: true
-overview: 'Gogs publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Administration API, Collaborators and Deploy Keys API, Issues API, and 7 more. Tagged areas include Company, Git, Self-Hosted, Open Source, and Go.
+overview: 'Gogs publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Administration API, Collaborators and Deploy Keys API, Issues API, and 7 more. Tagged areas include Company, Git, Self-Hosted, Open Source, and Go.
 
 
   The Gogs catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -207,7 +207,8 @@ overview: 'Gogs publishes 10 APIs on the [APIs.io](https://apis.io/) network, in
   Gogs'' developer surface includes authentication, documentation, API reference, getting-started guide, support, and 15 more developer resources.'
 random_paper: 14
 rules:
-- effective_rule_count: 54
+- authorship: generated
+  effective_rule_count: 54
   extends:
   - spectral:oas
   name: Gogs API Rules
@@ -220,15 +221,15 @@ rules:
   slug: gogs-rules
 score:
   band: thin
-  composite: 33.7
+  composite: 33.8
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 20
     catalog_earned: 48.8
     catalog_earned_first_party: 0.0
     catalog_gap: 66.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 0.0
     contract_governance: 22.0
@@ -253,12 +254,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
     score: 22.2
+screenshot: https://raw.githubusercontent.com/api-evangelist/gogs/refs/heads/main/screenshots/gogs-2026-10-11T104945.png
 security:
 - kind: authentication
   name: Gogs Authentication

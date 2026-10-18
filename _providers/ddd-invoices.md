@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Single JSON API for issuing, receiving, and archiving locally compliant invoices — e-invoicing, PEPPOL exchange, fiscalization, and real-time tax reporting across 30+ countries. Uses a custom IoT conn
@@ -138,7 +138,7 @@ modified: '2026-07-18'
 name: DDD Invoices
 nav: Providers
 network: true
-overview: 'DDD Invoices publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Invoicing, Fiscalization, Tax Compliance, and Real-Time Reporting.
+overview: 'DDD Invoices is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Invoicing, Fiscalization, Tax Compliance, and Real-Time Reporting.
 
 
   DDD Invoices'' developer surface includes documentation, API reference, quickstart, pricing, signup flow, engineering blog, support, and 13 more developer resources.'
@@ -147,7 +147,7 @@ score:
   band: thin
   composite: 33.1
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -175,8 +175,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.4
-  scored_at: '2026-10-04'
+  score: 33.2
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -79,6 +79,21 @@ collections:
   name: USDA AMS MARS API (MyMarketNews) Offices Reports API
   slug: open-agricultural-marketing-service-reports-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/agricultural-marketing-service/refs/heads/main/plans/agricultural-marketing-service-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/agricultural-marketing-service-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/agricultural-marketing-service/refs/heads/main/rate-limits/agricultural-marketing-service-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/agricultural-marketing-service-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/agricultural-marketing-service/refs/heads/main/finops/agricultural-marketing-service-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/agricultural-marketing-service-finops.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -177,9 +192,13 @@ features:
 - description: LMPRS API provides federally mandated livestock price data under the Livestock Mandatory Reporting Act.
   name: Mandatory Price Reporting
 finops:
-- name: Agricultural Marketing Service Finops
+- has_sources: false
+  method: generated
+  name: Agricultural Marketing Service Finops
+  primary_unit: ''
   service_category: API
   slug: agricultural-marketing-service-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/agricultural-marketing-service.png
 integrations:
 - description: USDA AMS provides guides for integrating MARS API data directly into Microsoft Excel for market analysis.
@@ -246,13 +265,13 @@ modified: '2026-07-25'
 name: Agricultural Marketing Service
 nav: Providers
 network: true
-overview: 'Agricultural Marketing Service publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Offices API, Reports API, and 2 more. Tagged areas include Agriculture, Federal Government, Market News, Livestock, and Dairy.
+overview: 'Agricultural Marketing Service is listed with 4 APIs on the [APIs.io](https://apis.io/) network, including Offices API, Reports API, and 2 more. Tagged areas include Agriculture, Federal Government, Market News, Livestock, and Dairy.
 
 
   The Agricultural Marketing Service catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Agricultural Marketing Service''s developer surface includes authentication, engineering blog, developer portal, and 10 more developer resources.'
+  Agricultural Marketing Service''s developer surface includes authentication, engineering blog, developer portal, and 13 more developer resources.'
 plans:
 - name: Agricultural Marketing Service Plans Pricing
   plan_count: 3
@@ -263,9 +282,10 @@ rate_limits:
   name: Agricultural Marketing Service Rate Limits
   slug: agricultural-marketing-service-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Agricultural Marketing Service API Rules
+  name: Agricultural Marketing Service — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -273,7 +293,8 @@ rules:
     info: 1
     warn: 4
   slug: agricultural-marketing-service-jsonschema-spectral-rules
-- effective_rule_count: 70
+- authorship: generated
+  effective_rule_count: 70
   extends:
   - spectral:oas
   name: Agricultural Marketing Service API Rules
@@ -286,17 +307,17 @@ rules:
   slug: agricultural-marketing-service-spectral-rules
 score:
   band: thin
-  composite: 34.8
+  composite: 33.1
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 78.0
+    artifact_dirs: 19
+    catalog_earned: 75.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 37.0
+    catalog_gap: 40.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.7
   facets:
-    access_clarity: 36.8
+    access_clarity: 28.9
     contract_governance: 27.3
     contract_quality: 28.0
     developer_ergonomics: 34.5
@@ -321,8 +342,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

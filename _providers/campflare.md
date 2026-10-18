@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Real-time campground availability data at the campsite level across all public campgrounds Campflare tracks. Developers can query current and upcoming availability, inspect amenities (hookups, facilit
@@ -41,6 +41,15 @@ apis:
   slug: campflare-availability-api
 artifact_total: 5
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/campflare/refs/heads/main/finops/campflare-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/campflare-finops.yml
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://campflare.com/api
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/campflare/refs/heads/main/security/campflare-domain-security.yml
   title: ''
@@ -131,19 +140,23 @@ coverage:
 created: '2024-11-14'
 description: Campflare provides real-time campground availability data and cancellation alerts as a public API. The platform tracks campsites across every major public reservation system in North America and notifies users (via webhook) the moment a site matching their criteria becomes available. Campflare's data and services are open to the public programmatically — individuals and non-profits get free access to all APIs, while commercial use requires a paid license. Campflare also powers partner products such as Hipcamp Alerts. Current API access is invite-only; requests go to contact@campflare.com and are typically granted within 24–48 hours.
 finops:
-- name: Campflare Finops
+- has_sources: false
+  method: generated
+  name: Campflare Finops
+  primary_unit: ''
   service_category: API
   slug: campflare-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/campflare.png
 layout: provider
 modified: '2026-09-05'
 name: Campflare
 nav: Providers
 network: true
-overview: 'Campflare publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Campgrounds, Outdoor, Recreation, Availability, and Alerts.
+overview: 'Campflare is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Campgrounds, Outdoor, Recreation, Availability, and Alerts.
 
 
-  Campflare''s developer surface includes documentation, FAQ, support, and 14 more developer resources.'
+  Campflare''s developer surface includes pricing, documentation, FAQ, support, and 15 more developer resources.'
 plans:
 - name: Campflare Plans Pricing
   plan_count: 2
@@ -155,17 +168,17 @@ rate_limits:
   slug: campflare-rate-limits
 score:
   band: emerging
-  composite: 25.5
+  composite: 26.1
   coverage:
     artifact_dirs: 11
-    catalog_earned: 48.0
+    catalog_earned: 45.0
     catalog_earned_first_party: 8.0
-    catalog_gap: 67.0
+    catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
-    access_clarity: 56.6
+    access_clarity: 59.2
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 23.8
@@ -180,8 +193,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

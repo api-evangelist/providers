@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'REST/JSON API for stock and options market data: quotes, history, options chains, unusual options activity, financials, analyst ratings, SEC filings, insider trades, calendar events, technical indicat'
@@ -127,7 +127,7 @@ modified: '2026-09-20'
 name: Mboum
 nav: Providers
 network: true
-overview: 'Mboum publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Stocks, Stock Market, Options, options market, and Trading.
+overview: 'Mboum is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Stocks, Stock Market, Options, options market, and Trading.
 
 
   Mboum''s developer surface includes authentication, documentation, API reference, pricing, signup flow, engineering blog, support, and 13 more developer resources.'
@@ -144,7 +144,7 @@ score:
   band: thin
   composite: 31.2
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 15
     catalog_earned: 47.0
     catalog_earned_first_party: 20.0
     catalog_gap: 68.0
@@ -165,13 +165,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 24.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/mboum/refs/heads/main/screenshots/mboum-2026-10-11T110843.png
 security:
 - kind: authentication
   name: Mboum Authentication
@@ -198,6 +199,6 @@ tags:
 - Earnings
 - Historical Data
 - Screener
-- Crypto
+- Cryptocurrency
 website: https://mboum.com
 ---

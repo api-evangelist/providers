@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.9
-  scored_at: '2026-10-04'
+  score: 28.0
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -114,6 +114,21 @@ collections:
   name: Microsoft Copilot Microsoft 365 Copilot APIs
   slug: open-microsoft-copilot
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-copilot/refs/heads/main/plans/microsoft-copilot-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/microsoft-copilot-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-copilot/refs/heads/main/rate-limits/microsoft-copilot-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/microsoft-copilot-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-copilot/refs/heads/main/finops/microsoft-copilot-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/microsoft-copilot-finops.yml
 - group: company
   title: ''
   type: Website
@@ -328,9 +343,13 @@ features:
 - description: Extend Copilot with custom plugins, agents, and API integrations using declarative or code-first approaches.
   name: Extensibility
 finops:
-- name: Microsoft Copilot Finops
+- has_sources: true
+  method: generated
+  name: Microsoft Copilot Finops
+  primary_unit: ''
   service_category: AI / Productivity
   slug: microsoft-copilot-finops
+  template: false
 image: https://www.microsoft.com/en-us/microsoft-copilot/assets/images/copilot-icon.png
 integrations:
 - description: Deep integration with Word, Excel, PowerPoint, Outlook, Teams, and other Microsoft 365 applications.
@@ -590,13 +609,13 @@ modified: '2026-05-19'
 name: Microsoft Copilot
 nav: Providers
 network: true
-overview: 'Microsoft Copilot publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Change Notifications API, Chat API, Interaction Export API, and 4 more. Tagged areas include Agents, AI Assistant, Artificial Intelligence, Chatbots, and Copilot.
+overview: 'Microsoft Copilot publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Change Notifications API, Chat API, Interaction Export API, and 4 more. Tagged areas include Agents, AI Assistant, Artificial Intelligence, Chatbots, and Copilot.
 
 
   The Microsoft Copilot catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Microsoft Copilot''s developer surface includes authentication, getting-started guide, pricing, support, engineering blog, developer portal, code examples, and 16 more developer resources.'
+  Microsoft Copilot''s developer surface includes authentication, getting-started guide, pricing, support, engineering blog, developer portal, code examples, and 19 more developer resources.'
 plans:
 - name: Microsoft Copilot Plans Pricing
   plan_count: 7
@@ -607,9 +626,10 @@ rate_limits:
   name: Microsoft Copilot Rate Limits
   slug: microsoft-copilot-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: Microsoft Copilot API Rules
+  name: Microsoft Copilot — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -617,7 +637,8 @@ rules:
     info: 2
     warn: 4
   slug: microsoft-copilot-jsonschema-spectral-rules
-- effective_rule_count: 58
+- authorship: generated
+  effective_rule_count: 58
   extends:
   - spectral:oas
   name: Microsoft Copilot API Rules
@@ -635,17 +656,17 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: developing
-  composite: 52.8
+  composite: 50.8
   coverage:
     artifact_dirs: 19
-    catalog_earned: 55.9
+    catalog_earned: 52.9
     catalog_earned_first_party: 0.0
-    catalog_gap: 59.1
+    catalog_gap: 62.1
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.0
   facets:
-    access_clarity: 36.8
+    access_clarity: 28.9
     contract_governance: 13.6
     contract_quality: 67.9
     developer_ergonomics: 58.3
@@ -661,12 +682,12 @@ score:
       total: 5
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 37.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

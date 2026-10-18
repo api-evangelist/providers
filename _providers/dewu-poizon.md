@@ -34,10 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://dewu.com/news/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/dewu-poizon/refs/heads/main/security/dewu-poizon-domain-security.yml
   title: ''
@@ -77,31 +81,31 @@ created: '2026-07-17'
 description: Dewu (POIZON) is a leading Chinese online marketplace for sneakers, streetwear, luxury goods, and collectibles, distinguished by its integrated product authentication (legit-check) service that verifies items before they ship to buyers. Operated by Shanghai-based Poizon and backed by Hongshan (formerly Sequoia China), it runs both the domestic Dewu (得物) app and the global POIZON marketplace. For developers it operates the POIZON / Dewu Open Platform (open.poizon.com and open.dewu.com), a partner program that lets sellers, ISVs, and ERP integrators connect to the marketplace over an app-key plus request-signature authenticated API covering product data, pricing, catalog search, delivery modes, and vendor information.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dewu-poizon.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Dewu (POIZON)
 nav: Providers
 network: true
 overview: 'Dewu (POIZON) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Technology, E-Commerce, Marketplace, and Retail.
 
 
-  Dewu (POIZON)''s developer surface includes authentication, documentation, API reference, and 5 more developer resources.'
+  Dewu (POIZON)''s developer surface includes engineering blog, authentication, documentation, API reference, and 5 more developer resources.'
 random_paper: 9
 score:
   band: minimal
-  composite: 7.4
+  composite: 7.9
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 7
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 11.9
+    developer_ergonomics: 14.3
     discoverability: 55.4
     operational_transparency: 0.0
   jurisdiction:
@@ -118,8 +122,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

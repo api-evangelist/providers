@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 5
+- acting_count: 4
   human_in_the_loop: 0
   name: Port Io Agentic Access
   operation_count: 8
   slug: port-io-agentic-access
-  summary_line: 8 operations · 5 acting
+  summary_line: 8 operations · 4 acting
 api_count: 1
 apis:
 - description: Public REST API for the Port platform. Bearer-token authenticated (3-hour tokens minted from Port credentials), with regional base URLs for EU and US tenants. Body size capped at 1 MiB and every respo
@@ -195,16 +195,20 @@ common:
 created: '2026-05-23'
 description: Port is an Internal Developer Portal built around an API-first software catalog, customizable blueprints and entities, self-service actions, and scorecards. Platform teams model their own domain (services, environments, pipelines, AI agents, cloud resources) as blueprints, ingest data from integrations (GitHub, GitLab, AWS, Azure, GCP, Kubernetes, Datadog, PagerDuty, Snyk, ServiceNow), and expose developer workflows as self-service actions backed by GitHub Actions, GitLab pipelines, Jenkins, Argo, or webhooks. Everything in Port - blueprints, entities, actions, runs, scorecards, integrations, pages, webhooks, AI agents - is reachable via the public REST API.
 finops:
-- name: Port Io Finops
+- has_sources: false
+  method: generated
+  name: Port Io Finops
+  primary_unit: ''
   service_category: API
   slug: port-io-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/port-io.png
 layout: provider
 modified: '2026-05-23'
 name: Port
 nav: Providers
 network: true
-overview: 'Port publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Blueprints API, Entities API, and 14 more. Tagged areas include Internal Developer Portal, Service Catalog, Self-Service Actions, Platform Engineering, and Scorecards.
+overview: 'Port publishes 16 API contracts indexed on the [APIs.io](https://apis.io/) network, including Blueprints API, Entities API, and 14 more. Tagged areas include Internal Developer Portal, Service Catalog, Self-Service Actions, Platform Engineering, and Scorecards.
 
 
   Port''s developer surface includes authentication, documentation, GitHub presence, and 15 more developer resources.'
@@ -218,23 +222,23 @@ rate_limits:
   name: Port Io Rate Limits
   slug: port-io-rate-limits
 score:
-  band: thin
-  composite: 31.4
+  band: emerging
+  composite: 26.0
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 54.4
+    artifact_dirs: 13
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 60.6
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.4
   facets:
-    access_clarity: 34.7
+    access_clarity: 13.2
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 21.4
     discoverability: 73.2
-    operational_transparency: 50.5
+    operational_transparency: 36.8
   open_source:
     applies: true
     score: 85.0
@@ -252,9 +256,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0
@@ -271,7 +275,7 @@ security:
 - kind: vulnerability-disclosure
   name: Port Io Vulnerability Disclosure
   slug: port-io-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 - kind: trust-center
   name: Port Io Trust Center
   slug: port-io-trust-center

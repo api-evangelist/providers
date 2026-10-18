@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.0
-  scored_at: '2026-10-04'
+  score: 19.2
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 17
+- acting_count: 16
   human_in_the_loop: 0
   name: Mastra Agentic Access
   operation_count: 37
   slug: mastra-agentic-access
-  summary_line: 37 operations · 17 acting
+  summary_line: 37 operations · 16 acting
 api_count: 1
 apis:
 - description: Mastra is an open-source TypeScript AI agent framework that enables developers to build and deploy AI-powered applications with agents, workflows, RAG pipelines, and third-party integrations.
@@ -137,6 +137,21 @@ collections:
   name: Mastra Server REST API
   slug: open-mastra
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/mastra/refs/heads/main/rate-limits/mastra-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/mastra-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/mastra/refs/heads/main/finops/mastra-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/mastra-finops.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/mastra/refs/heads/main/plans/mastra-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/mastra-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/mastra/refs/heads/main/capabilities/mastra-capability-edges.yml
   title: ''
@@ -248,22 +263,26 @@ common:
 created: '2026-01-02'
 description: Mastra is an open-source TypeScript AI agent framework from the team that built Gatsby. It enables developers to prototype and productionize AI features using a modern JavaScript stack with tools for agents, workflows, RAG, and integrations.
 finops:
-- name: Mastra Finops
+- has_sources: false
+  method: generated
+  name: Mastra Finops
+  primary_unit: ''
   service_category: API
   slug: mastra-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mastra.png
 layout: provider
 modified: '2026-08-08'
 name: Mastra
 nav: Providers
 network: true
-overview: 'Mastra publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Conversations API, Logs API, and 8 more. Tagged areas include Agents, Artificial Intelligence, JavaScript, RAG, and TypeScript.
+overview: 'Mastra publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agents API, Conversations API, Logs API, and 8 more. Tagged areas include Agents, Artificial Intelligence, JavaScript, RAG, and TypeScript.
 
 
-  Mastra''s developer surface includes authentication, documentation, engineering blog, GitHub presence, changelog, pricing, code examples, and 19 more developer resources.'
+  Mastra''s developer surface includes authentication, documentation, engineering blog, GitHub presence, changelog, pricing, code examples, and 22 more developer resources.'
 plans:
 - name: Mastra Plans Pricing
-  plan_count: 3
+  plan_count: 5
   slug: mastra-plans-pricing
 random_paper: 10
 rate_limits:
@@ -272,17 +291,17 @@ rate_limits:
   slug: mastra-rate-limits
 score:
   band: thin
-  composite: 34.5
+  composite: 37.7
   coverage:
     artifact_dirs: 13
-    catalog_earned: 41.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    catalog_earned: 47.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 68.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 3.2
   facets:
-    access_clarity: 26.3
+    access_clarity: 42.1
     contract_governance: 0.0
     contract_quality: 43.7
     developer_ergonomics: 38.1
@@ -302,8 +321,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

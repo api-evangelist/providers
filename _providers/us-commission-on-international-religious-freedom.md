@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The US Commission on International Religious Freedom (USCIRF) is an independent, bipartisan federal government commission created by the International Religious Freedom Act of 1998 that monitors relig
@@ -41,6 +41,25 @@ apis:
   slug: us-commission-on-international-religious-freedom
 artifact_total: 29
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/us-commission-on-international-religious-freedom/refs/heads/main/plans/us-commission-on-international-religious-freedom-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/us-commission-on-international-religious-freedom-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/us-commission-on-international-religious-freedom/refs/heads/main/rate-limits/us-commission-on-international-religious-freedom-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/us-commission-on-international-religious-freedom-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/us-commission-on-international-religious-freedom/refs/heads/main/finops/us-commission-on-international-religious-freedom-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/us-commission-on-international-religious-freedom-finops.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.uscirf.gov/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/us-commission-on-international-religious-freedom/refs/heads/main/security/us-commission-on-international-religious-freedom-domain-security.yml
   title: ''
@@ -104,9 +123,13 @@ features:
 - description: Targeted policy recommendations on specific issues, countries, or legislation for the President, Secretary of State, and Congress.
   name: Policy Briefs and Recommendations
 finops:
-- name: Us Commission On International Religious Freedom Finops
+- has_sources: false
+  method: generated
+  name: Us Commission On International Religious Freedom Finops
+  primary_unit: ''
   service_category: API
   slug: us-commission-on-international-religious-freedom-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/us-commission-on-international-religious-freedom.png
 integrations:
 - description: USCIRF works with the State Department's Office of International Religious Freedom, and State uses USCIRF recommendations for CPC and SWL designations.
@@ -139,17 +162,17 @@ jsonld:
   property_count: 25
   slug: us-commission-on-international-religious-freedom-context
 layout: provider
-modified: '2026-05-03'
+modified: '2026-10-06'
 name: US Commission on International Religious Freedom
 nav: Providers
 network: true
-overview: 'US Commission on International Religious Freedom publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Federal Government, Religious Freedom, International Human Rights, and Foreign Policy.
+overview: 'US Commission on International Religious Freedom is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Federal Government, Religious Freedom, International Human Rights, and Foreign Policy.
 
 
   The US Commission on International Religious Freedom catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  US Commission on International Religious Freedom''s developer surface includes documentation and 8 more developer resources.'
+  US Commission on International Religious Freedom''s developer surface includes documentation and 12 more developer resources.'
 plans:
 - name: Us Commission On International Religious Freedom Plans Pricing
   plan_count: 3
@@ -160,9 +183,10 @@ rate_limits:
   name: Us Commission On International Religious Freedom Rate Limits
   slug: us-commission-on-international-religious-freedom-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: US Commission on International Religious Freedom API Rules
+  name: US Commission on International Religious Freedom — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -172,17 +196,17 @@ rules:
   slug: us-commission-on-international-religious-freedom-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 19.1
+  composite: 17.4
   coverage:
     artifact_dirs: 13
-    catalog_earned: 60.8
+    catalog_earned: 57.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 54.3
+    catalog_gap: 57.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.7
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 23.5
     contract_quality: 22.7
     developer_ergonomics: 9.5
@@ -200,8 +224,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 15.5
-  scored_at: '2026-10-04'
+  score: 13.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The Zip Procurement API is a REST-based interface for automating and integrating enterprise procurement workflows. It provides endpoints for managing intake requests, vendor onboarding, approval routi
@@ -111,9 +111,13 @@ common:
 created: '2026-06-13'
 description: Zip is an AI-powered procurement orchestration platform that provides a REST API for managing the full intake-to-pay lifecycle. The API enables developers to build custom integrations that extract, create, and update procurement data including intake requests, vendor onboarding, approval workflows, and contract management. Authentication is handled via API keys passed as Basic Auth credentials, with separate sandbox and production environments available. Zip's platform serves enterprise customers by creating a single front door for all corporate purchase requests and routing them through configurable approval chains before connecting to ERPs and financial systems. The API supports webhook callbacks for async event notifications when procurement workflows complete, enabling deep integration with existing enterprise toolchains.
 finops:
-- name: Zip Finops
+- has_sources: false
+  method: generated
+  name: Zip Finops
+  primary_unit: ''
   service_category: ''
   slug: zip-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zip.png
 jsonld:
 - class_count: 11
@@ -125,7 +129,7 @@ modified: '2026-06-13'
 name: Zip
 nav: Providers
 network: true
-overview: 'Zip publishes 1 API on the [APIs.io](https://apis.io/) network: Procurement API. Tagged areas include Procurement, Spend Management, Intake to Pay, Approval Workflows, and Vendor Management.
+overview: 'Zip is listed with 1 API on the [APIs.io](https://apis.io/) network: Procurement API. Tagged areas include Procurement, Spend Management, Intake to Pay, Approval Workflows, and Vendor Management.
 
 
   The Zip catalog on APIs.io includes 1 JSON-LD context.
@@ -143,22 +147,22 @@ rate_limits:
   slug: zip-rate-limits
 score:
   band: thin
-  composite: 32.9
+  composite: 26.9
   coverage:
     artifact_dirs: 8
-    catalog_earned: 65.4
+    catalog_earned: 52.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 49.6
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.0
   facets:
-    access_clarity: 45.3
+    access_clarity: 23.7
     contract_governance: 0.0
     contract_quality: 38.7
     developer_ergonomics: 11.9
     discoverability: 66.1
-    operational_transparency: 40.0
+    operational_transparency: 26.3
   previous_composite: 32.9
   regulatory:
     applies: true
@@ -166,9 +170,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -209,7 +209,7 @@ modified: '2026-07-25'
 name: Liberty Global
 nav: Providers
 network: true
-overview: 'Liberty Global publishes 3 APIs on the [APIs.io](https://apis.io/) network: Applications API, Maintainer API, and STB API. Tagged areas include Telecommunications, United Kingdom, Broadband, Fixed Broadband, and Mobile Network Operator.
+overview: 'Liberty Global publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Applications API, Maintainer API, and STB API. Tagged areas include Telecommunications, United Kingdom, Broadband, Fixed Broadband, and Mobile Network Operator.
 
 
   Liberty Global''s developer surface includes engineering blog, authentication, changelog, sandbox, and 25 more developer resources.'
@@ -257,8 +257,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 35.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

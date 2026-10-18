@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -170,9 +170,13 @@ common:
 created: '2026-05-08'
 description: Envato runs Envato Market (per-asset marketplaces like ThemeForest, CodeCanyon, AudioJungle, VideoHive, GraphicRiver, 3DOcean, PhotoDune) and Envato Elements (subscription-based unlimited stock media). The Envato API exposes Market endpoints for items, search, downloads, user accounts, and earnings; Elements has a separate affiliate API.
 finops:
-- name: Envato Finops
+- has_sources: true
+  method: generated
+  name: Envato Finops
+  primary_unit: ''
   service_category: Stock Media / Digital Marketplace
   slug: envato-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/envato.png
 layout: provider
 mcp_servers:
@@ -183,7 +187,7 @@ modified: '2026-05-08'
 name: Envato
 nav: Providers
 network: true
-overview: 'Envato publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Author API, Catalog API, Downloads API, and 5 more. Tagged areas include Stock Media, Marketplace, Themes, Audio, and Video.
+overview: 'Envato publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Author API, Catalog API, Downloads API, and 5 more. Tagged areas include Stock Media, Marketplace, Themes, Audio, and Video.
 
 
   Envato''s developer surface includes authentication, engineering blog, and 11 more developer resources.'
@@ -203,17 +207,17 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: thin
-  composite: 27.9
+  composite: 26.4
   coverage:
     artifact_dirs: 13
-    catalog_earned: 44.0
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 71.0
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 13.2
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 45.3
     developer_ergonomics: 21.4
@@ -241,8 +245,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

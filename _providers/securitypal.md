@@ -32,10 +32,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.securitypalhq.com/blog
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.securitypalhq.com/blog/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/securitypal/refs/heads/main/security/securitypal-domain-security.yml
   title: ''
@@ -78,14 +86,14 @@ created: '2026-07-17'
 description: SecurityPal AI is a cybersecurity assurance management platform that pairs AI agents with certified human experts to automate security questionnaires, vendor risk assessments (TPRM), audit response preparation, Trust Center management, and broader GRC workflows for regulated industries including healthcare, financial services, technology, and manufacturing. The platform advertises 700+ native integrations (Salesforce, Okta, Jira, Slack, Microsoft Teams, HubSpot, Zendesk, Google Workspace, and more) and offers three service tiers (Basecamp self-serve AI, Summit AI-plus-concierge, and Everest fully managed). SecurityPal is a Craft Ventures portfolio company. No public developer API or documentation is published at this time; this profile captures the company identity, public web properties, domain-security posture, and Trust Center.
 image: https://securitypalhq.com/favicon.ico
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: SecurityPal
 nav: Providers
 network: true
 overview: 'SecurityPal is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Compliance, GRC, and Vendor Risk.
 
 
-  SecurityPal''s developer surface includes engineering blog, signup flow, and 7 more developer resources.'
+  SecurityPal''s developer surface includes engineering blog, signup flow, and 9 more developer resources.'
 random_paper: 17
 score:
   band: emerging
@@ -112,8 +120,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

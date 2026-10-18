@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -97,6 +97,20 @@ collections:
   name: OpenMenu API
   slug: open-openmenu
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/openmenu/refs/heads/main/plans/openmenu-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/openmenu-plans-pricing.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/openmenu/refs/heads/main/finops/openmenu-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/openmenu-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.openmenu.com/insights
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/openmenu/refs/heads/main/agentic-access/openmenu-agentic-access.yml
   title: ''
@@ -150,9 +164,13 @@ examples:
   name: Openmenu Search Example
   slug: openmenu-search-example
 finops:
-- name: Openmenu Finops
+- has_sources: true
+  method: generated
+  name: Openmenu Finops
+  primary_unit: ''
   service_category: ''
   slug: openmenu-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/openmenu.png
 json_schemas:
 - name: OpenMenu Menu Item
@@ -174,17 +192,17 @@ jsonld:
   property_count: 7
   slug: openmenu-context
 layout: provider
-modified: '2026-06-03'
+modified: '2026-10-06'
 name: OpenMenu
 nav: Providers
 network: true
-overview: 'OpenMenu publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Deals API, Ingredients API, and 3 more. Tagged areas include Restaurant, Menus, Menu Data, Search, and Nutrition.
+overview: 'OpenMenu publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Analytics API, Deals API, Ingredients API, and 3 more. Tagged areas include Restaurant, Menus, Menu Data, Search, and Nutrition.
 
 
   The OpenMenu catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  OpenMenu''s developer surface includes authentication, documentation, API reference, signup flow, and 6 more developer resources.'
+  OpenMenu''s developer surface includes engineering blog, authentication, documentation, API reference, signup flow, and 8 more developer resources.'
 plans:
 - name: Openmenu Plans Pricing
   plan_count: 4
@@ -195,9 +213,10 @@ rate_limits:
   name: Openmenu Rate Limits
   slug: openmenu-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: OpenMenu API Rules
+  name: OpenMenu — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -205,7 +224,8 @@ rules:
     info: 1
     warn: 4
   slug: openmenu-jsonschema-spectral-rules
-- effective_rule_count: 48
+- authorship: unmarked
+  effective_rule_count: 48
   extends:
   - spectral:oas
   name: OpenMenu API Rules
@@ -218,20 +238,20 @@ rules:
   slug: openmenu-rules
 score:
   band: developing
-  composite: 46.3
+  composite: 41.2
   coverage:
-    artifact_dirs: 16
-    catalog_earned: 76.8
+    artifact_dirs: 17
+    catalog_earned: 66.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 38.2
+    catalog_gap: 49.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.1
   facets:
-    access_clarity: 60.0
+    access_clarity: 31.6
     contract_governance: 27.3
     contract_quality: 62.3
-    developer_ergonomics: 40.5
+    developer_ergonomics: 42.9
     discoverability: 66.1
     operational_transparency: 0.0
   previous_composite: 46.3
@@ -248,9 +268,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://screendoor.dobt.co/api
@@ -220,7 +220,7 @@ modified: '2026-07-18'
 name: Department of Better Technology
 nav: Providers
 network: true
-overview: 'Department of Better Technology publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Files API, Forms API, Labels API, and 5 more. Tagged areas include Company, Forms, Government, GovTech, and Civic Technology.
+overview: 'Department of Better Technology publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Files API, Forms API, Labels API, and 5 more. Tagged areas include Company, Forms, Government, GovTech, and Civic Technology.
 
 
   Department of Better Technology''s developer surface includes documentation, API reference, support, engineering blog, signup flow, authentication, and 17 more developer resources.'
@@ -259,8 +259,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

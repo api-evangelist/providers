@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 52
+- acting_count: 45
   human_in_the_loop: 0
   name: Dojo Agentic Access
   operation_count: 75
   slug: dojo-agentic-access
-  summary_line: 75 operations · 52 acting
+  summary_line: 75 operations · 45 acting
 api_count: 5
 apis:
 - baseURL: https://api.dojo.tech
@@ -349,7 +349,7 @@ modified: '2026-07-24'
 name: Dojo
 nav: Providers
 network: true
-overview: 'Dojo publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Areas API, Capabilities API, Captures API, and 16 more. Tagged areas include Payments, United Kingdom, Payment Gateway, Payment Processing, and Acquiring.
+overview: 'Dojo publishes 19 API contracts indexed on the [APIs.io](https://apis.io/) network, including Areas API, Capabilities API, Captures API, and 16 more. Tagged areas include Payments, United Kingdom, Payment Gateway, Payment Processing, and Acquiring.
 
 
   The Dojo catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -361,7 +361,7 @@ score:
   band: developing
   composite: 53.6
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -400,8 +400,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 27.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -419,7 +419,7 @@ security:
 - kind: vulnerability-disclosure
   name: Dojo Vulnerability Disclosure
   slug: dojo-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 slug: dojo
 tags:
 - Payments
@@ -429,9 +429,9 @@ tags:
 - Acquiring
 - Card Payments
 - In-Person Payments
-- Terminal
 - Point-of-Sale
 - Webhook
 - Real-Time
+- Payment Terminals
 website: https://dojo.tech/
 ---

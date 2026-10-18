@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 5
 apis:
 - description: Version 1 of the LetsGetChecked Orders API. Create a pre-activated test-kit order against a client-supplied order identifier (PUT is documented as idempotent), query order status from dispatch through
@@ -220,7 +220,7 @@ modified: '2026-08-04'
 name: LetsGetChecked
 nav: Providers
 network: true
-overview: 'LetsGetChecked publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Healthcare, Diagnostics, and Laboratory.
+overview: 'LetsGetChecked is listed with 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Healthcare, Diagnostics, and Laboratory.
 
 
   The LetsGetChecked catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -255,8 +255,8 @@ score:
     regime: Health
     regime_id: health
     score: 30.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

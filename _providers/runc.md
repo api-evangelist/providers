@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 3.8
-  scored_at: '2026-10-04'
+  score: 1.9
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: runc is a CLI tool for spawning and running containers on Linux according to the OCI (Open Container Initiative) specification. It is the reference implementation of the OCI runtime specification, pro
@@ -41,6 +41,21 @@ apis:
   slug: runc
 artifact_total: 10
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/runc/refs/heads/main/plans/runc-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/runc-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/runc/refs/heads/main/rate-limits/runc-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/runc-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/runc/refs/heads/main/finops/runc-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/runc-finops.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -93,9 +108,13 @@ examples:
   name: Runc Container Config Example
   slug: runc-container-config-example
 finops:
-- name: Runc Finops
+- has_sources: false
+  method: generated
+  name: Runc Finops
+  primary_unit: ''
   service_category: API
   slug: runc-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/runc.png
 json_schemas:
 - name: OCI Runtime Container Configuration
@@ -115,13 +134,13 @@ modified: '2026-05-02'
 name: Runc
 nav: Providers
 network: true
-overview: 'Runc publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Container Runtime, Containers, Linux, OCI, and Open Source.
+overview: 'Runc is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Container Runtime, Containers, Linux, OCI, and Open Source.
 
 
   The Runc catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Runc''s developer surface includes engineering blog, documentation, and 9 more developer resources.'
+  Runc''s developer surface includes engineering blog, documentation, and 12 more developer resources.'
 plans:
 - name: Runc Plans Pricing
   plan_count: 3
@@ -132,9 +151,10 @@ rate_limits:
   name: Runc Rate Limits
   slug: runc-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Runc API Rules
+  name: Runc — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -144,17 +164,17 @@ rules:
   slug: runc-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 33.9
+  composite: 32.5
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 62.2
+    artifact_dirs: 14
+    catalog_earned: 59.2
     catalog_earned_first_party: 0.0
-    catalog_gap: 52.9
+    catalog_gap: 55.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.4
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 23.5
     contract_quality: 24.4
     developer_ergonomics: 23.8
@@ -170,8 +190,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

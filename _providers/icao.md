@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 3.8
-  scored_at: '2026-10-04'
+  score: 1.9
+  scored_at: '2026-10-17'
 api_count: 7
 apis:
 - description: The ICAO API Data Service provides programmatic access to authoritative civil aviation data published by ICAO, with continuously updated endpoints across six data areas. An API key is required and res
@@ -59,6 +59,25 @@ apis:
   slug: icao-aircraft-api
 artifact_total: 11
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/icao/refs/heads/main/plans/icao-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/icao-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/icao/refs/heads/main/rate-limits/icao-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/icao-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/icao/refs/heads/main/finops/icao-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/icao-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.icao.int/news
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/icao/refs/heads/main/security/icao-domain-security.yml
   title: ''
@@ -99,19 +118,23 @@ common:
 created: '2026-03-16'
 description: The International Civil Aviation Organization (ICAO) is a specialized agency of the United Nations that codifies the principles and techniques of international air navigation and fosters the planning and development of international air transport. ICAO's API Data Service provides 50+ continuously updated APIs covering states, airports, operators, airspace, occurrences, and aircraft, including official reference datasets such as DOC7910 location indicators, DOC8585 operator three-letter codes, and DOC8643 aircraft type designators.
 finops:
-- name: Icao Finops
+- has_sources: false
+  method: generated
+  name: Icao Finops
+  primary_unit: ''
   service_category: API
   slug: icao-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/icao.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-10-06'
 name: ICAO
 nav: Providers
 network: true
-overview: 'ICAO publishes 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Airlines, Airports, Airspace, Aviation, and Reference Data.
+overview: 'ICAO is listed with 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Airlines, Airports, Airspace, Aviation, and Reference Data.
 
 
-  ICAO''s developer surface includes developer portal, documentation, code examples, pricing, support, and 4 more developer resources.'
+  ICAO''s developer surface includes engineering blog, developer portal, documentation, code examples, pricing, support, and 7 more developer resources.'
 plans:
 - name: Icao Plans Pricing
   plan_count: 3
@@ -123,20 +146,20 @@ rate_limits:
   slug: icao-rate-limits
 score:
   band: emerging
-  composite: 18.1
+  composite: 17.0
   coverage:
-    artifact_dirs: 6
-    catalog_earned: 44.0
+    artifact_dirs: 7
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 71.0
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.1
   facets:
-    access_clarity: 26.3
+    access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 6.5
-    developer_ergonomics: 23.8
+    developer_ergonomics: 26.2
     discoverability: 62.5
     operational_transparency: 7.9
   previous_composite: 18.1
@@ -146,8 +169,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 9.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

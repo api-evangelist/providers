@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.7
-  scored_at: '2026-10-04'
+  score: 25.8
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 4
   slug: openfigi-agentic-access
   summary_line: 4 operations · 3 acting
-api_count: 1
+api_count: 2
 apis:
 - baseURL: https://api.openfigi.com
   baseurl_source: declared
@@ -78,6 +78,21 @@ collections:
   name: OpenFIGI API
   slug: open-openfigi
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/openfigi/refs/heads/main/plans/openfigi-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/openfigi-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/openfigi/refs/heads/main/rate-limits/openfigi-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/openfigi-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/openfigi/refs/heads/main/finops/openfigi-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/openfigi-finops.yml
 - group: company
   title: ''
   type: Website
@@ -132,19 +147,23 @@ common:
 created: 2024-09-27 00:00:00+00:00
 description: OpenFIGI is your entry point to multiple tools for identifying, mapping and requesting a free Financial Instrument Global Identifier (FIGI). OpenFIGI is an open system for identifying instruments globally across all asset classes. Combining the FIGI with additional descriptive meta-data, firms are able to link fragmented proprietary symbologies, fill the gaps that remain to create a data lineage, streamline the trade workflow and reduce operational risk.
 finops:
-- name: Openfigi Finops
+- has_sources: false
+  method: generated
+  name: Openfigi Finops
+  primary_unit: ''
   service_category: API
   slug: openfigi-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/openfigi.png
 layout: provider
 modified: '2026-05-19'
 name: OpenFIGI
 nav: Providers
 network: true
-overview: 'OpenFIGI publishes 3 APIs on the [APIs.io](https://apis.io/) network: Filter API, Mapping API, and Search API. Tagged areas include Finance and Instruments.
+overview: 'OpenFIGI publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Filter API, Mapping API, and Search API. Tagged areas include Finance and Instruments.
 
 
-  OpenFIGI''s developer surface includes authentication, product news, signup flow, FAQ, engineering blog, and 7 more developer resources.'
+  OpenFIGI''s developer surface includes authentication, product news, signup flow, FAQ, engineering blog, and 10 more developer resources.'
 plans:
 - name: Openfigi Plans Pricing
   plan_count: 3
@@ -156,17 +175,17 @@ rate_limits:
   slug: openfigi-rate-limits
 score:
   band: thin
-  composite: 33.0
+  composite: 31.5
   coverage:
     artifact_dirs: 11
-    catalog_earned: 41.0
+    catalog_earned: 38.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 28.9
+    access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 54.8
     developer_ergonomics: 23.8
@@ -186,8 +205,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

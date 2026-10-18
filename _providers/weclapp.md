@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -109,6 +109,10 @@ collections:
   name: weclapp REST API
   slug: open-weclapp
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.weclapp.com/de/blog/
 - group: commercial
   title: ''
   type: Pricing
@@ -163,19 +167,23 @@ common:
 created: '2026-07-12'
 description: weclapp is a German cloud ERP / CRM / commerce platform for small and mid-sized businesses, combining CRM, sales, order management, accounting, inventory / warehouse management, purchasing, and e-commerce in one SaaS suite. Every weclapp tenant exposes a documented REST API at https://<tenant>.weclapp.com/webapp/api/v1/ with a live Swagger, covering 150+ business entities - parties (customers, suppliers, contacts, leads), articles, sales orders, quotations, sales invoices, shipments, purchase orders, warehouses, and more. Authentication is a per-user API token sent in the AuthenticationToken request header.
 finops:
-- name: Weclapp Finops
+- has_sources: true
+  method: generated
+  name: Weclapp Finops
+  primary_unit: ''
   service_category: Business Applications
   slug: weclapp-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/weclapp.png
 layout: provider
-modified: '2026-07-12'
+modified: '2026-10-06'
 name: weclapp
 nav: Providers
 network: true
-overview: 'weclapp publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Article API, Customer API, Purchase Order API, and 4 more. Tagged areas include ERP, CRM, Cloud ERP, Accounting, and Inventory.
+overview: 'weclapp publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Article API, Customer API, Purchase Order API, and 4 more. Tagged areas include ERP, CRM, Cloud ERP, Accounting, and Inventory.
 
 
-  weclapp''s developer surface includes pricing, authentication, documentation, and 8 more developer resources.'
+  weclapp''s developer surface includes engineering blog, pricing, authentication, documentation, and 8 more developer resources.'
 plans:
 - name: Weclapp Plans Pricing
   plan_count: 15
@@ -190,22 +198,22 @@ rate_limits:
   slug: weclapp-rate-limits
 score:
   band: thin
-  composite: 35.7
+  composite: 32.8
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 59.2
+    artifact_dirs: 13
+    catalog_earned: 51.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 55.8
+    catalog_gap: 64.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.9
   facets:
-    access_clarity: 50.0
+    access_clarity: 42.1
     contract_governance: 0.0
     contract_quality: 47.6
-    developer_ergonomics: 29.8
+    developer_ergonomics: 32.1
     discoverability: 66.1
-    operational_transparency: 18.9
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -228,8 +236,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

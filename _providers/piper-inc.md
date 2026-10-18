@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Agent-driven commerce for the Piper storefront over the Universal Commerce Protocol (UCP), exposed as an MCP endpoint on the store's Shopify platform (store id 9256256). Catalog search/lookup, cart, c
@@ -41,6 +41,10 @@ apis:
   slug: piper-commerce-ucp
 artifact_total: 5
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.playpiper.in/blogs/news.atom
 - group: company
   title: ''
   type: Website
@@ -104,14 +108,14 @@ mcp_servers:
 - description: Remote MCP server at piper-llc.myshopify.com; 5 tools listed.
   name: Piper MCP Server
   slug: piper-ucp-shopping
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Piper
 nav: Providers
 network: true
-overview: 'Piper publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, EdTech, STEM, and Hardware.
+overview: 'Piper is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, EdTech, STEM, and Hardware.
 
 
-  Piper''s developer surface includes engineering blog, support, authentication, and 9 more developer resources.'
+  Piper''s developer surface includes engineering blog, support, authentication, and 10 more developer resources.'
 random_paper: 1
 scopes:
 - name: Piper Inc Scopes
@@ -122,7 +126,7 @@ score:
   band: emerging
   composite: 20.1
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -146,8 +150,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 34.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

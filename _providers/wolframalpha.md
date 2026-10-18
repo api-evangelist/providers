@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -354,9 +354,13 @@ features:
 - description: Full Results API returns answer pods and subpods enabling fine-grained drilldown into computational results.
   name: Pod-Based Decomposition
 finops:
-- name: Wolframalpha Finops
+- has_sources: true
+  method: generated
+  name: Wolframalpha Finops
+  primary_unit: ''
   service_category: AI / Computational Knowledge
   slug: wolframalpha-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wolframalpha.png
 integrations:
 - description: Wolfram Language and Mathematica integration for computational workflows.
@@ -421,7 +425,7 @@ modified: '2026-06-13'
 name: Wolfram|Alpha
 nav: Providers
 network: true
-overview: 'Wolfram|Alpha publishes 2 APIs on the [APIs.io](https://apis.io/) network: Classification API and Queries API. Tagged areas include Artificial Intelligence, Computational Knowledge, Machine Learning, Natural Language Processing, and Public APIs.
+overview: 'Wolfram|Alpha is listed with 2 APIs on the [APIs.io](https://apis.io/) network: Classification API and Queries API. Tagged areas include Artificial Intelligence, Computational Knowledge, Machine Learning, Natural Language Processing, and Public APIs.
 
 
   The Wolfram|Alpha catalog on APIs.io includes 4 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -438,9 +442,10 @@ rate_limits:
   name: Wolframalpha Rate Limits
   slug: wolframalpha-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Wolfram|Alpha API Rules
+  name: Wolfram|Alpha — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -448,7 +453,8 @@ rules:
     info: 1
     warn: 4
   slug: wolframalpha-jsonschema-spectral-rules
-- effective_rule_count: 26
+- authorship: unmarked
+  effective_rule_count: 26
   extends: []
   name: Wolfram|Alpha API Rules
   rule_count: 26
@@ -459,18 +465,18 @@ rules:
     warn: 11
   slug: wolframalpha-rules
 score:
-  band: developing
-  composite: 40.1
+  band: thin
+  composite: 38.6
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 74.0
+    artifact_dirs: 20
+    catalog_earned: 71.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 41.0
+    catalog_gap: 44.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 50.0
+    access_clarity: 42.1
     contract_governance: 27.3
     contract_quality: 30.8
     developer_ergonomics: 51.2
@@ -490,8 +496,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.3
-  scored_at: '2026-10-04'
+  score: 20.4
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 0
@@ -348,6 +348,21 @@ collections:
   name: Kuma Dataplane ZoneIngress API
   slug: open-kuma-zoneingress-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/kuma/refs/heads/main/plans/kuma-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/kuma-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/kuma/refs/heads/main/rate-limits/kuma-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/kuma-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/kuma/refs/heads/main/finops/kuma-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/kuma-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/kuma/refs/heads/main/capabilities/kuma-capability-edges.yml
   title: ''
@@ -449,9 +464,13 @@ common:
 created: '2026-03-16'
 description: Kuma is a platform-agnostic open-source service mesh built on top of Envoy proxy. It provides universal connectivity, security, and observability for services and microservices running on any infrastructure including Kubernetes and VMs.
 finops:
-- name: Kuma Finops
+- has_sources: true
+  method: generated
+  name: Kuma Finops
+  primary_unit: ''
   service_category: Service Mesh / Networking
   slug: kuma-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kuma.png
 json_schemas:
 - name: Kuma Mesh Resource Schema
@@ -467,13 +486,13 @@ modified: '2026-05-19'
 name: Kuma
 nav: Providers
 network: true
-overview: 'Kuma publishes 38 APIs on the [APIs.io](https://apis.io/) network, including Dataplane API, GlobalInsight API, HostnameGenerator API, and 35 more. Tagged areas include Envoy, Kubernetes, Microservices, Security, and Service Mesh.
+overview: 'Kuma publishes 38 API contracts indexed on the [APIs.io](https://apis.io/) network, including Dataplane API, GlobalInsight API, HostnameGenerator API, and 35 more. Tagged areas include Envoy, Kubernetes, Microservices, Security, and Service Mesh.
 
 
   The Kuma catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Kuma''s developer surface includes authentication, documentation, getting-started guide, engineering blog, changelog, support, Stack Overflow tag, and 16 more developer resources.'
+  Kuma''s developer surface includes authentication, documentation, getting-started guide, engineering blog, changelog, support, Stack Overflow tag, and 19 more developer resources.'
 plans:
 - name: Kuma Plans Pricing
   plan_count: 2
@@ -484,9 +503,10 @@ rate_limits:
   name: Kuma Rate Limits
   slug: kuma-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Kuma API Rules
+  name: Kuma — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -496,17 +516,17 @@ rules:
   slug: kuma-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 42.0
+  composite: 40.7
   coverage:
-    artifact_dirs: 15
-    catalog_earned: 55.7
+    artifact_dirs: 16
+    catalog_earned: 52.7
     catalog_earned_first_party: 0.0
-    catalog_gap: 59.4
+    catalog_gap: 62.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.3
   facets:
-    access_clarity: 13.2
+    access_clarity: 5.3
     contract_governance: 9.8
     contract_quality: 50.7
     developer_ergonomics: 47.6
@@ -529,8 +549,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

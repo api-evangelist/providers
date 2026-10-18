@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: API for Atlantiasearch platform, providing market research data and insights.
@@ -31,6 +31,10 @@ apis:
   slug: atlantiasearch-api
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.atlantia.ai/insights
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/atlantiasearch/refs/heads/main/llms/atlantiasearch-llms.txt
   title: ''
@@ -79,32 +83,34 @@ created: '2026-09-26'
 description: Atlantiasearch, operating under the brand Atlantia, provides an AI‑powered market research platform that automates consumer insights, product testing, and data analysis. The service helps brands make faster, data‑driven decisions by delivering automated studies, concept tests, and reporting in minutes rather than weeks. It serves teams across the Americas, offering tools for market research, shopper insights, and product innovation, with a focus on AI and large‑scale data processing.
 image: https://www.atlantia.ai/assets/atlantia-vertical.png
 layout: provider
-modified: '2026-09-26'
+modified: '2026-10-06'
 name: Atlantiasearch
 nav: Providers
 network: true
-overview: 'Atlantiasearch publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Market Research, Consumer Insights, Data Analytics, and Software-as-a-Service.
+overview: 'Atlantiasearch is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Market Research, Consumer Insights, Data Analytics, and Software-as-a-Service.
 
 
-  Atlantiasearch''s developer surface includes pricing, documentation, and 6 more developer resources.'
+  Atlantiasearch''s developer surface includes engineering blog, pricing, documentation, and 6 more developer resources.'
 random_paper: 2
 score:
   band: emerging
-  composite: 11.6
+  composite: 12.1
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 9
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.5
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 9.5
+    developer_ergonomics: 11.9
     discoverability: 64.3
     operational_transparency: 0.0
+  previous_composite: 11.6
   provenance:
     mcp: unknown
   regulatory:
@@ -113,12 +119,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 9.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/atlantiasearch/refs/heads/main/screenshots/atlantiasearch-2026-10-11T100659.png
 security:
 - kind: domain-security
   name: Atlantiasearch Domain Security

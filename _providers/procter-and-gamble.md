@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-04'
+  score: 20.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -78,6 +78,21 @@ collections:
   name: Procter & Gamble API Marketplace Orders Supply Chain API
   slug: open-procter-and-gamble-supply-chain-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/procter-and-gamble/refs/heads/main/plans/procter-and-gamble-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/procter-and-gamble-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/procter-and-gamble/refs/heads/main/rate-limits/procter-and-gamble-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/procter-and-gamble-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/procter-and-gamble/refs/heads/main/finops/procter-and-gamble-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/procter-and-gamble-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/procter-and-gamble/refs/heads/main/capabilities/procter-and-gamble-capability-edges.yml
   title: ''
@@ -110,19 +125,23 @@ common:
 created: '2026-03-21'
 description: Procter & Gamble (P&G) is one of the world's largest consumer goods companies, with a portfolio of trusted brands across beauty, grooming, health care, fabric and home care, and baby, feminine, and family care. P&G operates an API Marketplace at developer.pg.com that provides partners, suppliers, and developers with programmatic access to P&G systems for integrating with the company's supply chain, product data, and business operations.
 finops:
-- name: Procter And Gamble Finops
+- has_sources: true
+  method: generated
+  name: Procter And Gamble Finops
+  primary_unit: ''
   service_category: Consumer Goods
   slug: procter-and-gamble-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/procter-and-gamble.png
 layout: provider
 modified: '2026-05-19'
 name: Procter & Gamble
 nav: Providers
 network: true
-overview: 'Procter & Gamble publishes 3 APIs on the [APIs.io](https://apis.io/) network: Orders API, Products API, and Supply Chain API. Tagged areas include Consumer Goods, Manufacturing, Retail, Supply Chain, and Fortune 100.
+overview: 'Procter & Gamble publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Orders API, Products API, and Supply Chain API. Tagged areas include Consumer Goods, Manufacturing, Retail, Supply Chain, and Fortune 100.
 
 
-  Procter & Gamble''s developer surface includes authentication and 5 more developer resources.'
+  Procter & Gamble''s developer surface includes authentication and 8 more developer resources.'
 plans:
 - name: Procter And Gamble Plans Pricing
   plan_count: 1
@@ -150,17 +169,17 @@ rate_limits:
   slug: procter-and-gamble-rate-limits
 score:
   band: emerging
-  composite: 26.0
+  composite: 24.5
   coverage:
     artifact_dirs: 14
-    catalog_earned: 44.0
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 71.0
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 13.2
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 44.7
     developer_ergonomics: 21.4
@@ -180,8 +199,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 17.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

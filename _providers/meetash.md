@@ -32,10 +32,20 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 4
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/meetash/refs/heads/main/plans/meetash-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/meetash-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/meetash/refs/heads/main/rate-limits/meetash-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/meetash-rate-limits.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/meetash/refs/heads/main/security/meetash-domain-security.yml
   title: ''
@@ -118,7 +128,7 @@ network: true
 overview: 'MeetAsh is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Healthcare, Diagnostics, and At-Home Testing.
 
 
-  MeetAsh''s developer surface includes documentation, engineering blog, support, and 10 more developer resources.'
+  MeetAsh''s developer surface includes documentation, engineering blog, support, and 12 more developer resources.'
 plans:
 - name: Meetash Plans Pricing
   plan_count: 0
@@ -166,8 +176,8 @@ score:
     regime: Health
     regime_id: health
     score: 18.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

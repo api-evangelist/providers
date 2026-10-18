@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'The ANELLO device interface: an ASCII sentence protocol (#APIMU, #APIM1, #APGPS, #APHDG, #APINS, #APAHRS output; #APCFG, #APVEH, #APODO, #APPNG, #APECH, #APRST input) plus an RTCM 10403 binary framing'
@@ -41,6 +41,10 @@ apis:
   slug: anello-device-messaging-protocol
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.anellophotonics.com/blog?format=rss
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/anello-photonics/refs/heads/main/security/anello-photonics-domain-security.yml
   title: ''
@@ -145,14 +149,14 @@ created: '2026-08-06'
 description: 'ANELLO Photonics is a Santa Clara, California company building solid-state, high-precision inertial navigation and sensing products for positioning, navigation and orientation when GNSS is jammed, spoofed, blocked or otherwise unavailable. Its products are powered by SiPhOG (Silicon Photonics Optical Gyroscope), a chip-scale optical gyroscope built on standard semiconductor processes. The developer surface is an embedded one rather than a web API: ANELLO Ground INS, Ground IMU, Maritime INS, Aerial INS, X3 IMU and the Evaluation Kit expose a documented ASCII and RTCM-binary message protocol over RS-232 serial, USB-C and UDP/Ethernet, with a public developer manual, a first-party Python configuration and logging tool, a ROS/ROS2 driver that publishes machine-readable .msg/.srv interface definitions, and PX4/ArduPilot and MAVLink integrations.'
 image: https://static1.squarespace.com/static/60404157b68a5453a865f98e/t/6a2742eefb5f0723d0178a9c/1624159401076/social.png?format=1500w
 layout: provider
-modified: '2026-08-06'
+modified: '2026-10-06'
 name: ANELLO Photonics
 nav: Providers
 network: true
-overview: 'ANELLO Photonics publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Inertial Navigation, Optical Gyroscope, Silicon Photonics, and GNSS.
+overview: 'ANELLO Photonics is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Inertial Navigation, Optical Gyroscope, Silicon Photonics, and GNSS.
 
 
-  ANELLO Photonics'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, CLI, changelog, and 15 more developer resources.'
+  ANELLO Photonics'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, CLI, changelog, and 16 more developer resources.'
 random_paper: 13
 score:
   band: emerging
@@ -181,8 +185,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 14.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

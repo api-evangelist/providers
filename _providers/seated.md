@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 5.0
-  scored_at: '2026-10-04'
+  score: 3.1
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The Seated Artist API enables developers and artist teams to build custom integrations with the Seated platform. The API provides access to tour date listings and event data, supporting use cases such
@@ -92,16 +92,20 @@ common:
 created: '2026-06-13'
 description: Seated is a live event discovery and direct ticketing platform that connects fans with artists through a frictionless ticketing experience. The platform enables artists to publish tour dates via a single embed line or a custom API integration, manage fan presales and waitlists, capture and sync fan data with marketing tools, and generate additional revenue through merchandise and digital content bundled into the ticket purchase flow. Fans can follow favorite artists to receive text or notification alerts for nearby shows, purchase tickets via mobile without downloading an app, and access live event information for music and entertainment. Seated serves independent artists and major touring acts including Noah Kahan, Shawn Mendes, Brandi Carlile, Post Malone, and Billie Eilish, operating as an independent founder-led company focused on direct artist-to-fan ticketing.
 finops:
-- name: Seated Finops
+- has_sources: true
+  method: generated
+  name: Seated Finops
+  primary_unit: ''
   service_category: ''
   slug: seated-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/seated.png
 layout: provider
 modified: '2026-06-13'
 name: Seated
 nav: Providers
 network: true
-overview: 'Seated publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Live Events, Concerts, Ticketing, Artists, and Venues.
+overview: 'Seated is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Live Events, Concerts, Ticketing, Artists, and Venues.
 
 
   Seated''s developer surface includes documentation, getting-started guide, engineering blog, and 8 more developer resources.'
@@ -115,23 +119,23 @@ rate_limits:
   name: Seated Rate Limits
   slug: seated-rate-limits
 score:
-  band: thin
-  composite: 28.3
+  band: emerging
+  composite: 20.9
   coverage:
     artifact_dirs: 8
-    catalog_earned: 58.0
+    catalog_earned: 42.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.0
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.4
   facets:
-    access_clarity: 57.4
+    access_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 35.7
     discoverability: 66.1
-    operational_transparency: 18.9
+    operational_transparency: 5.3
   previous_composite: 28.3
   regulatory:
     applies: true
@@ -139,9 +143,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

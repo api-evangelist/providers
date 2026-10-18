@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The FRVR games SDK — one JavaScript SDK (plus Unity, Cocos Creator, and Construct 3 wrappers) that integrates ads, IAP, analytics, auth, storage, social, leaderboards, tournaments, and notifications i
@@ -41,6 +41,14 @@ apis:
   slug: frvr-sdk
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://frvr.com/blog/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://frvr.com/blog/feed/
 - group: company
   title: ''
   type: Website
@@ -129,14 +137,14 @@ created: '2026-07-17'
 description: 'FRVR is a gaming company that builds and distributes instant, no-download HTML5 games across channels beyond the app stores — Facebook Instant, Google Play, iOS WebView, Samsung, Xiaomi, and web portals. Its developer surface is the FRVR SDK: a single JavaScript SDK (with thin wrappers for Unity WebGL exports, Cocos Creator, and Construct 3) that integrates ads, in-app purchases, analytics, auth, local and cloud storage, social/friends, leaderboards, tournaments, challenges, consent, and notifications into a game, then adapts per distribution channel while FRVR''s release pipeline injects the correct channel bundle at build time. FRVR also operates the UpIt no-code game creation tool. Backed by Accel.'
 image: https://frvr.com/i/share-image.jpg
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: FRVR
 nav: Providers
 network: true
-overview: 'FRVR publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Gaming, Games, Game Development, and SDK.
+overview: 'FRVR is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Gaming, Games, Game Development, and SDK.
 
 
-  FRVR''s developer surface includes documentation, getting-started guide, API reference, support, engineering blog, signup flow, sandbox, and 12 more developer resources.'
+  FRVR''s developer surface includes engineering blog, documentation, getting-started guide, API reference, support, signup flow, sandbox, and 14 more developer resources.'
 random_paper: 8
 score:
   band: thin
@@ -165,8 +173,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

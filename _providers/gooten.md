@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.3
-  scored_at: '2026-10-04'
+  score: 20.4
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 8
+- acting_count: 6
   human_in_the_loop: 0
   name: Gooten Agentic Access
   operation_count: 17
   slug: gooten-agentic-access
-  summary_line: 17 operations · 8 acting
+  summary_line: 17 operations · 6 acting
 api_count: 1
 apis:
 - baseURL: https://api.print.io/api/v/5/source/api
@@ -86,6 +86,10 @@ collections:
   name: Gooten API
   slug: open-gooten
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.gooten.com/blog/feed/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/gooten/refs/heads/main/capabilities/gooten-capability-edges.yml
   title: ''
@@ -144,19 +148,23 @@ common:
 created: '2026-07-11'
 description: Gooten is a print-on-demand and global manufacturing and fulfillment platform for custom products - apparel, wall art, drinkware, home goods, and more. Its REST API (hosted at api.print.io, the platform Gooten was built on) lets ecommerce brands and developers browse the product catalog and per-region SKUs, retrieve print templates, create print-ready products from artwork, quote shipping and order prices, and submit and manage manufacturing orders routed across Gooten's distributed vendor network. Requests are authenticated with a public RecipeID and, for order and billing operations, a private PartnerBillingKey. There are no setup or monthly fees - you pay the per-order production and shipping cost only when an item is manufactured and shipped.
 finops:
-- name: Gooten Finops
+- has_sources: true
+  method: generated
+  name: Gooten Finops
+  primary_unit: ''
   service_category: Manufacturing and Fulfillment
   slug: gooten-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/gooten.png
 layout: provider
-modified: '2026-07-11'
+modified: '2026-10-06'
 name: Gooten
 nav: Providers
 network: true
-overview: 'Gooten publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Orders API, Print Assets API, Products API, and 1 more. Tagged areas include Print on Demand, Fulfillment, Manufacturing, E-Commerce, and Dropshipping.
+overview: 'Gooten publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Orders API, Print Assets API, Products API, and 1 more. Tagged areas include Print on Demand, Fulfillment, Manufacturing, E-Commerce, and Dropshipping.
 
 
-  Gooten''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
+  Gooten''s developer surface includes authentication, documentation, engineering blog, and 10 more developer resources.'
 plans:
 - name: Gooten Plans Pricing
   plan_count: 2
@@ -168,22 +176,22 @@ rate_limits:
   slug: gooten-rate-limits
 score:
   band: thin
-  composite: 33.3
+  composite: 26.4
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 58.0
+    artifact_dirs: 13
+    catalog_earned: 42.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.0
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.9
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 49.9
     developer_ergonomics: 32.1
     discoverability: 66.1
-    operational_transparency: 28.4
+    operational_transparency: 7.9
   previous_composite: 33.3
   provenance:
     agentic_access: derived
@@ -198,9 +206,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

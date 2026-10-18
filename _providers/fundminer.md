@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://hub.fundminer.com/fundminer-blog/rss.xml
 - group: company
   title: ''
   type: Website
@@ -65,20 +69,20 @@ created: '2026-07-17'
 description: FundMiner is a fund management and donor stewardship platform for mission-driven organizations, giving universities, healthcare systems, and community foundations one place to manage the full fund lifecycle. It combines fund management with compliance monitoring, impact and donor reporting, and a branded donor portal that gives donors real-time visibility into how their gifts are used. The platform integrates with existing financial systems and offers role-based dashboards and access controls. FundMiner is a Techstars-backed company; it exposes no public developer API, SDK, or API reference at this time, so this profile captures its public identity and web presence.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fundminer.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: FundMiner
 nav: Providers
 network: true
 overview: 'FundMiner is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fund Management, Donor Engagement, Non-Profit, and Higher Education.
 
 
-  FundMiner''s developer surface includes engineering blog and 5 more developer resources.'
+  FundMiner''s developer surface includes engineering blog and 6 more developer resources.'
 random_paper: 0
 score:
   band: minimal
   composite: 10.1
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -99,8 +103,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

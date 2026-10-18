@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 6
 common:
@@ -98,9 +98,13 @@ created: '2026-06-13'
 description: Ivalua is an enterprise AI-powered procurement platform offering a unified source-to-pay solution that enables organizations to manage all categories of spend and suppliers. The platform exposes a REST API built on open standards, supporting JSON and XML data formats via secure web services, enabling programmatic integration for supplier onboarding, contract lifecycle management, sourcing events, purchase orders, invoice automation, and spend analytics. Ivalua's Enterprise Application Interface (EAI) module combines APIs, ETL, and query tools to orchestrate data transfer between Ivalua and external enterprise systems including SAP, Oracle, and Microsoft Dynamics. The Integration Hub supports 60+ ERP and enterprise system connectors, providing developer tooling to build and discover APIs without requiring middleware. Authentication leverages SAML-based SSO and two-factor authentication, with raw interface request/response logging available through the Integration Console for
   audit and debugging purposes.
 finops:
-- name: Ivalua Finops
+- has_sources: false
+  method: generated
+  name: Ivalua Finops
+  primary_unit: ''
   service_category: ''
   slug: ivalua-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ivalua.png
 jsonld:
 - class_count: 17
@@ -130,22 +134,22 @@ rate_limits:
   slug: ivalua-rate-limits
 score:
   band: emerging
-  composite: 24.0
+  composite: 17.0
   coverage:
     artifact_dirs: 8
-    catalog_earned: 56.0
+    catalog_earned: 40.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 59.0
+    catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.0
   facets:
-    access_clarity: 37.4
+    access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 10.7
     developer_ergonomics: 11.9
     discoverability: 48.2
-    operational_transparency: 49.5
+    operational_transparency: 28.9
   previous_composite: 24.0
   regulatory:
     applies: true
@@ -153,9 +157,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

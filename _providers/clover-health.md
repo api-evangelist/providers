@@ -34,8 +34,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-10-04'
-api_count: 1
+  scored_at: '2026-10-17'
+api_count: 2
 apis:
 - baseURL: https://public-api.cloverhealth.com
   baseurl_source: declared
@@ -59,6 +59,10 @@ collections:
   name: FHIR fhir-r4-formulary-api FHIR R4 ProviderDirectory API API
   slug: open-clover-health-fhir-r4-providerdirectory-api-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.cloverhealth.com/blog
 - group: start
   title: ''
   type: DeveloperPortal
@@ -173,31 +177,31 @@ created: '2026-07-17'
 description: Clover Health is a Medicare Advantage health insurer that runs a public developer program built on healthcare interoperability standards. Its public FHIR R4 API exposes a Formulary service (covered drugs, tiers, and utilization management) and a Provider Directory service (practitioners, organizations, locations, healthcare services, and insurance plans), and a separate consent-based Patient Access API delivers a member's clinical and claims data in FHIR-native format via CareEvolution. The APIs implement the CMS Interoperability and Patient Access final rule (CMS-9115-F); Clover was the first payer to go live on a CMS-aligned/TEFCA network. Developers register for approved credentials and authenticate with HTTP Basic or a session cookie.
 image: https://cdn.cloverhealth.com/filer_cloudrun_public/img/live-tile-large-310x310.png
 layout: provider
-modified: '2026-09-16'
+modified: '2026-10-06'
 name: Clover Health
 nav: Providers
 network: true
-overview: 'Clover Health publishes 2 APIs on the [APIs.io](https://apis.io/) network: Fhir R4 Formulary API and FHIR R4 ProviderDirectory API. Tagged areas include Company, Healthcare, Health Insurance, Medicare Advantage, and FHIR.
+overview: 'Clover Health publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Fhir R4 Formulary API and FHIR R4 ProviderDirectory API. Tagged areas include Company, Healthcare, Health Insurance, Medicare Advantage, and FHIR.
 
 
-  Clover Health''s developer surface includes documentation, API reference, signup flow, support, authentication, and 19 more developer resources.'
+  Clover Health''s developer surface includes engineering blog, documentation, API reference, signup flow, support, authentication, and 19 more developer resources.'
 random_paper: 6
 score:
-  band: thin
-  composite: 39.1
+  band: developing
+  composite: 39.6
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 44.7
-    developer_ergonomics: 44.6
+    developer_ergonomics: 47.0
     discoverability: 73.2
     operational_transparency: 7.9
   previous_composite: 39.1
@@ -216,8 +220,8 @@ score:
     regime: Health
     regime_id: health
     score: 34.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

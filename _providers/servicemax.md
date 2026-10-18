@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 3
 common:
@@ -96,7 +96,7 @@ modified: '2026-08-08'
 name: ServiceMax
 nav: Providers
 network: true
-overview: 'ServiceMax is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise Software, Field Service Management, Asset Management, and Salesforce.
+overview: 'ServiceMax is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise Software, Field Service, Asset Management, and Salesforce.
 
 
   ServiceMax''s developer surface includes support, documentation, and 10 more developer resources.'
@@ -126,8 +126,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -151,7 +151,7 @@ slug: servicemax
 tags:
 - Company
 - Enterprise Software
-- Field Service Management
+- Field Service
 - Asset Management
 - Salesforce
 - Maintenance

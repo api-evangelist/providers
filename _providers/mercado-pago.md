@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -208,7 +208,7 @@ apis:
   description: Recurring preapproval subscriptions
   name: Mercado Pago Subscriptions API
   slug: mercado-pago-subscriptions-api
-artifact_total: 85
+artifact_total: 86
 asyncapis:
 - description: Mercado Pago webhook notifications for payments, refunds, chargebacks, merchant orders, subscriptions, and POS events. Webhook payloads include `x-signature` and `x-request-id` headers — receivers MUS
   name: Mercado Pago Webhooks (IPN / Webhooks v2)
@@ -269,6 +269,11 @@ collections:
   name: Mercado Pago REST API
   slug: open-mercado-pago
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mercado-pago/refs/heads/main/capabilities/mercado-pago-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/mercado-pago-capability-edges.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -377,6 +382,10 @@ common:
   title: ''
   type: Blog
   url: https://www.mercadopago.com.ar/developers/en/news
+- group: design
+  title: ''
+  type: SpectralRules
+  url: https://github.com/mercadopago/openapi/blob/4bf7b8751434d29f5a1d9a2dfe498c69ce50d3cb/.spectral.yaml
 created: '2026-05-25'
 description: Mercado Pago is the payments and financial-services arm of Mercado Libre, Latin America's largest e-commerce and fintech platform. Founded in 2003, it processes a substantial share of LatAm digital payments across Brazil (PIX, Boleto, cards), Argentina, Mexico (SPEI, OXXO), Chile, Colombia, Peru, and Uruguay, with consumer wallet, merchant acquiring, card issuing, lending, and crypto products layered on top. The developer portal at developers.mercadopago.com exposes a deep payments stack — Checkout Pro (hosted), Checkout Bricks (composable web components), Checkout API (full server-side control), Orders API (next-gen checkout), Subscriptions, Payment Links, Point (in-person card readers), and QR payments — backed by REST APIs and official SDKs in Node.js / TypeScript, Python, PHP, Ruby, Java, .NET, Go, iOS, and Android, plus a CLI, an MCP server for AI agents, e-commerce plugins (WooCommerce, VTEX, Tiendanube, Shopify), and an n8n integration. Regional developer portals (.com.ar,
   .com.br, .com.mx, .com.cl, .com.co, .com.pe, .com.uy) localise docs and pricing per LATAM market.
@@ -397,9 +406,13 @@ examples:
   name: Mercado Pago Webhook Payment Example
   slug: mercado-pago-webhook-payment-example
 finops:
-- name: Mercado Pago Finops
+- has_sources: false
+  method: generated
+  name: Mercado Pago Finops
+  primary_unit: ''
   service_category: Payments
   slug: mercado-pago-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mercado-pago.png
 json_schemas:
 - name: Mercado Pago Payment
@@ -431,13 +444,13 @@ modified: '2026-05-25'
 name: Mercado Pago
 nav: Providers
 network: true
-overview: 'Mercado Pago publishes 44 APIs on the [APIs.io](https://apis.io/) network, including Webhooks / Notifications, Authentication API, Cards API, and 41 more. Tagged areas include Payments, Checkout, Subscription, Point-of-Sale, and QR.
+overview: 'Mercado Pago publishes 44 API contracts indexed on the [APIs.io](https://apis.io/) network, including Webhooks / Notifications, Authentication API, Cards API, and 41 more. Tagged areas include Payments, Checkout, Subscription, Point-of-Sale, and QR.
 
 
-  The Mercado Pago catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
+  The Mercado Pago catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 4 Spectral governance rulesets.
 
 
-  Mercado Pago''s developer surface includes authentication, documentation, API reference, getting-started guide, status page, engineering blog, and 20 more developer resources.'
+  Mercado Pago''s developer surface includes authentication, documentation, API reference, getting-started guide, status page, engineering blog, and 22 more developer resources.'
 plans:
 - name: Mercado Pago Plans Pricing
   plan_count: 2
@@ -448,10 +461,11 @@ rate_limits:
   name: Mercado Pago Rate Limits
   slug: mercado-pago-rate-limits
 rules:
-- effective_rule_count: 35
+- authorship: generated
+  effective_rule_count: 35
   extends:
   - spectral:asyncapi
-  name: Mercado Pago API Rules
+  name: Mercado Pago — asyncapi rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -459,9 +473,10 @@ rules:
     info: 0
     warn: 7
   slug: mercado-pago-asyncapi-spectral-rules
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Mercado Pago API Rules
+  name: Mercado Pago — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -469,7 +484,20 @@ rules:
     info: 1
     warn: 4
   slug: mercado-pago-jsonschema-spectral-rules
-- effective_rule_count: 49
+- authorship: provider
+  effective_rule_count: 41
+  extends:
+  - spectral:oas
+  name: Mercado Pago — openapi rules
+  rule_count: 0
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 0
+    warn: 0
+  slug: mercado-pago-openapi-spectral-rules
+- authorship: unmarked
+  effective_rule_count: 49
   extends:
   - spectral:oas
   name: Mercado Pago API Rules
@@ -487,22 +515,22 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: developing
-  composite: 48.1
+  composite: 41.8
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 72.0
+    artifact_dirs: 21
+    catalog_earned: 56.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 43.0
+    catalog_gap: 59.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.3
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 27.3
     contract_quality: 58.0
     developer_ergonomics: 54.8
     discoverability: 60.7
-    operational_transparency: 46.8
+    operational_transparency: 26.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -532,9 +560,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 24.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

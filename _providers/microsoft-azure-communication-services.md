@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -78,6 +78,21 @@ collections:
   name: Azure Communication Services REST API
   slug: open-microsoft-azure-communication-services
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-communication-services/refs/heads/main/plans/microsoft-azure-communication-services-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/microsoft-azure-communication-services-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-communication-services/refs/heads/main/rate-limits/microsoft-azure-communication-services-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/microsoft-azure-communication-services-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-communication-services/refs/heads/main/finops/microsoft-azure-communication-services-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/microsoft-azure-communication-services-finops.yml
 - group: company
   title: ''
   type: Website
@@ -132,19 +147,23 @@ common:
 created: '2026-03-13'
 description: Azure Communication Services REST API.
 finops:
-- name: Microsoft Azure Communication Services Finops
+- has_sources: false
+  method: generated
+  name: Microsoft Azure Communication Services Finops
+  primary_unit: ''
   service_category: API
   slug: microsoft-azure-communication-services-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/microsoft-azure-communication-services.png
 layout: provider
 modified: '2026-09-16'
 name: Microsoft Azure Communication Services
 nav: Providers
 network: true
-overview: 'Microsoft Azure Communication Services publishes 3 APIs on the [APIs.io](https://apis.io/) network: microsoft-azure-communication-services Email API, microsoft-azure-communication-services Identity API, and microsoft-azure-communication-services SMS API. Tagged areas include Email, Identity, and SMS.
+overview: 'Microsoft Azure Communication Services is listed with 3 APIs on the [APIs.io](https://apis.io/) network: microsoft-azure-communication-services Email API, microsoft-azure-communication-services Identity API, and microsoft-azure-communication-services SMS API. Tagged areas include Email, Identity, and SMS.
 
 
-  Microsoft Azure Communication Services'' developer surface includes authentication, developer portal, pricing, support, engineering blog, and 7 more developer resources.'
+  Microsoft Azure Communication Services'' developer surface includes authentication, developer portal, pricing, support, engineering blog, and 10 more developer resources.'
 plans:
 - name: Microsoft Azure Communication Services Plans Pricing
   plan_count: 3
@@ -156,17 +175,17 @@ rate_limits:
   slug: microsoft-azure-communication-services-rate-limits
 score:
   band: thin
-  composite: 34.9
+  composite: 33.3
   coverage:
     artifact_dirs: 12
-    catalog_earned: 39.0
+    catalog_earned: 36.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 76.0
+    catalog_gap: 79.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 47.4
+    access_clarity: 39.5
     contract_governance: 0.0
     contract_quality: 46.5
     developer_ergonomics: 38.1
@@ -186,8 +205,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

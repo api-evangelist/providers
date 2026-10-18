@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.5
-  scored_at: '2026-10-04'
+  score: 19.6
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 19
+- acting_count: 13
   human_in_the_loop: 0
   name: Camunda Agentic Access
   operation_count: 23
   slug: camunda-agentic-access
-  summary_line: 23 operations · 19 acting
+  summary_line: 23 operations · 13 acting
 api_count: 1
 apis:
 - baseURL_template: '{baseUrl}/v2'
@@ -95,7 +95,7 @@ apis:
   description: The User Tasks API from Camunda — 3 operation(s) for user tasks.
   name: Camunda User Tasks API
   slug: camunda-user-tasks-api
-artifact_total: 30
+artifact_total: 31
 collections:
 - collection_type: open
   name: API Collection
@@ -134,6 +134,21 @@ collections:
   name: Camunda 8 REST Cluster User Tasks API
   slug: open-camunda-user-tasks-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/camunda/refs/heads/main/plans/camunda-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/camunda-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/camunda/refs/heads/main/rate-limits/camunda-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/camunda-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/camunda/refs/heads/main/finops/camunda-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/camunda-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/camunda/refs/heads/main/capabilities/camunda-capability-edges.yml
   title: ''
@@ -208,22 +223,33 @@ common:
   title: ''
   type: LlmsText
   url: https://docs.camunda.io/llms.txt
+- group: design
+  title: ''
+  type: SpectralRules
+  url: https://github.com/camunda/camunda/blob/bb9c4b0c35d450622e77f151a814bf3c1c6a27e8/zeebe/gateway-protocol/.spectral.yaml
 created: '2026-03-16'
 description: Camunda is a process orchestration platform that enables organizations to design, automate, and improve business processes using BPMN (Business Process Model and Notation). Camunda provides a complete solution for workflow automation, decision automation, and process monitoring.
 finops:
-- name: Camunda Finops
+- has_sources: false
+  method: generated
+  name: Camunda Finops
+  primary_unit: ''
   service_category: API
   slug: camunda-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/camunda.png
 layout: provider
 modified: '2026-05-19'
 name: Camunda
 nav: Providers
 network: true
-overview: 'Camunda publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Cluster API, Decisions API, Deployments API, and 7 more. Tagged areas include BPMN, Business Process Management, Process Automation, Workflows, and Workflow Automation.
+overview: 'Camunda publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Cluster API, Decisions API, Deployments API, and 7 more. Tagged areas include BPMN, Business Process Management, Process Automation, Workflows, and Workflow Automation.
 
 
-  Camunda''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, and 12 more developer resources.'
+  The Camunda catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
+  Camunda''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, and 16 more developer resources.'
 plans:
 - name: Camunda Plans Pricing
   plan_count: 3
@@ -233,25 +259,38 @@ rate_limits:
 - limit_count: 5
   name: Camunda Rate Limits
   slug: camunda-rate-limits
+rules:
+- authorship: provider
+  effective_rule_count: 71
+  extends:
+  - spectral:oas
+  name: Camunda — camunda rules
+  rule_count: 30
+  severity_counts:
+    error: 28
+    hint: 0
+    info: 0
+    warn: 2
+  slug: camunda-camunda-spectral-rules
 score:
-  band: thin
-  composite: 39.2
+  band: developing
+  composite: 43.2
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 41.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    artifact_dirs: 14
+    catalog_earned: 53.0
+    catalog_earned_first_party: 15.0
+    catalog_gap: 62.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: 4.0
   facets:
-    access_clarity: 44.7
-    contract_governance: 0.0
+    access_clarity: 36.8
+    contract_governance: 45.5
     contract_quality: 45.9
     developer_ergonomics: 47.6
     discoverability: 64.3
     operational_transparency: 10.5
-  previous_composite: 37.6
+  previous_composite: 39.2
   provenance:
     agentic_access: derived
     contracts:
@@ -265,8 +304,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -284,7 +323,7 @@ security:
 - kind: vulnerability-disclosure
   name: Camunda Vulnerability Disclosure
   slug: camunda-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 - kind: trust-center
   name: Camunda Trust Center
   slug: camunda-trust-center

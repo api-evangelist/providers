@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -126,6 +126,25 @@ collections:
   name: Terrain Discovery Environment API
   slug: open-terrain
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/terrain-discovery-environment-api/refs/heads/main/plans/terrain-discovery-environment-api-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/terrain-discovery-environment-api-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/terrain-discovery-environment-api/refs/heads/main/rate-limits/terrain-discovery-environment-api-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/terrain-discovery-environment-api-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/terrain-discovery-environment-api/refs/heads/main/finops/terrain-discovery-environment-api-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/terrain-discovery-environment-api-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://cyverse.org/news
 - group: company
   title: ''
   type: Website
@@ -184,9 +203,13 @@ examples:
   name: Terrain List Directory Example
   slug: terrain-list-directory-example
 finops:
-- name: Terrain Discovery Environment Api Finops
+- has_sources: false
+  method: generated
+  name: Terrain Discovery Environment Api Finops
+  primary_unit: ''
   service_category: API
   slug: terrain-discovery-environment-api-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/terrain-discovery-environment-api.png
 json_schemas:
 - name: Terrain Analysis
@@ -202,17 +225,17 @@ jsonld:
   property_count: 0
   slug: terrain-discovery-environment-api-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-10-06'
 name: Terrain Discovery Environment API
 nav: Providers
 network: true
-overview: 'Terrain Discovery Environment API publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Analyses API, Apps API, Authentication API, and 6 more. Tagged areas include Bioinformatics, Data Science, Life Sciences, Filesystem, and Cloud Computing.
+overview: 'Terrain Discovery Environment API publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Analyses API, Apps API, Authentication API, and 6 more. Tagged areas include Bioinformatics, Data Science, Life Sciences, Filesystem, and Cloud Computing.
 
 
   The Terrain Discovery Environment API catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Terrain Discovery Environment API''s developer surface includes authentication, developer portal, documentation, and 9 more developer resources.'
+  Terrain Discovery Environment API''s developer surface includes engineering blog, authentication, developer portal, documentation, and 12 more developer resources.'
 plans:
 - name: Terrain Discovery Environment Api Plans Pricing
   plan_count: 3
@@ -223,9 +246,10 @@ rate_limits:
   name: Terrain Discovery Environment Api Rate Limits
   slug: terrain-discovery-environment-api-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Terrain Discovery Environment API API Rules
+  name: Terrain Discovery Environment API — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -233,10 +257,11 @@ rules:
     info: 1
     warn: 4
   slug: terrain-discovery-environment-api-jsonschema-spectral-rules
-- effective_rule_count: 49
+- authorship: unmarked
+  effective_rule_count: 49
   extends:
   - spectral:oas
-  name: Terrain Discovery Environment API API Rules
+  name: Terrain Discovery Environment API — terrain rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -246,20 +271,20 @@ rules:
   slug: terrain-rules
 score:
   band: thin
-  composite: 32.5
+  composite: 31.5
   coverage:
     artifact_dirs: 17
-    catalog_earned: 58.5
+    catalog_earned: 55.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 56.5
+    catalog_gap: 59.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.0
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 13.6
     contract_quality: 54.6
-    developer_ergonomics: 21.4
+    developer_ergonomics: 23.8
     discoverability: 66.1
     operational_transparency: 28.9
   previous_composite: 32.5
@@ -276,8 +301,8 @@ score:
     regime: Health
     regime_id: health
     score: 13.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

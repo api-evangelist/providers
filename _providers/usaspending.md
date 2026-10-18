@@ -26,20 +26,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 6
+- acting_count: 3
   human_in_the_loop: 0
   name: Usaspending Agentic Access
   operation_count: 14
   slug: usaspending-agentic-access
-  summary_line: 14 operations · 6 acting
+  summary_line: 14 operations · 3 acting
 api_count: 1
 apis:
 - baseURL: https://api.usaspending.gov/api/v2
@@ -126,6 +126,10 @@ collections:
   name: USAspending API
   slug: open-usaspending
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.usaspending.gov/blog/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/usaspending/refs/heads/main/capabilities/usaspending-capability-edges.yml
   title: ''
@@ -166,14 +170,14 @@ created: '2026-07-03'
 description: USAspending.gov is the official open data source of federal spending information operated by the U.S. Department of the Treasury's Bureau of the Fiscal Service, implementing the DATA Act's transparency mandate. The underlying USAspending API (api.usaspending.gov) is a free, public, unauthenticated REST API that exposes federal contracts, grants, loans, direct payments, and other financial assistance awards, along with agency budgets, federal account and Treasury Account Symbol data, recipient profiles, and COVID-19 / disaster emergency relief spending. Most search and listing endpoints accept a POST with a JSON filter object rather than query parameters, given the complexity of the filter combinations; simpler lookup endpoints use GET with path parameters. The API and the usaspending-api server are open source.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/usaspending.png
 layout: provider
-modified: '2026-07-03'
+modified: '2026-10-06'
 name: USAspending.gov
 nav: Providers
 network: true
-overview: 'USAspending.gov publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Agency API, Awards Search API, Budget Functions API, and 7 more. Tagged areas include Government, Federal Spending, Open Data, Contracts, and Grants.
+overview: 'USAspending.gov publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agency API, Awards Search API, Budget Functions API, and 7 more. Tagged areas include Government, Federal Spending, Open Data, Contracts, and Grants.
 
 
-  USAspending.gov''s developer surface includes documentation and 7 more developer resources.'
+  USAspending.gov''s developer surface includes engineering blog, documentation, and 7 more developer resources.'
 random_paper: 19
 rate_limits:
 - limit_count: 3
@@ -181,22 +185,22 @@ rate_limits:
   slug: usaspending-rate-limits
 score:
   band: emerging
-  composite: 23.6
+  composite: 21.3
   coverage:
-    artifact_dirs: 8
-    catalog_earned: 47.8
+    artifact_dirs: 9
+    catalog_earned: 40.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 67.2
+    catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.3
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 45.4
-    developer_ergonomics: 16.7
+    developer_ergonomics: 19.0
     discoverability: 66.1
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   previous_composite: 23.6
   provenance:
     agentic_access: derived
@@ -211,8 +215,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

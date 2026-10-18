@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 4
 apis:
 - description: The Universal Commerce Protocol commerce server David serves at davidprotein.com/api/ucp/mcp, advertised in the store robots.txt and agents.md. Thirteen MCP tools cover catalog search and lookup, prod
@@ -210,7 +210,7 @@ modified: '2026-08-11'
 name: David Protein
 nav: Providers
 network: true
-overview: 'David Protein publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Agents, MCP, Universal Commerce Protocol, Commerce, and E-Commerce.
+overview: 'David Protein is listed with 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Agents, MCP, Universal Commerce Protocol, Commerce, and E-Commerce.
 
 
   David Protein''s developer surface includes documentation, getting-started guide, authentication, support, engineering blog, pricing, signup flow, and 25 more developer resources.'
@@ -232,7 +232,7 @@ score:
   band: thin
   composite: 29.4
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -257,8 +257,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 31.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

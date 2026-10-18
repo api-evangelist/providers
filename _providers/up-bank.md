@@ -34,15 +34,15 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 48.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 9
+- acting_count: 6
   human_in_the_loop: 0
   name: Up Bank Agentic Access
   operation_count: 39
   slug: up-bank-agentic-access
-  summary_line: 39 operations · 9 acting
-api_count: 2
+  summary_line: 39 operations · 6 acting
+api_count: 3
 apis:
 - baseURL: https://api.up.com.au/cds-au/v1/banking/products
   baseurl_source: declared
@@ -166,6 +166,10 @@ collections:
   name: CDR Banking Accounts Webhooks API
   slug: open-up-bank-webhooks-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://up.com.au/blog/feed.xml
 - group: commercial
   href: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/plans/up-bank-plans-pricing.yml
   title: ''
@@ -350,17 +354,17 @@ description: Up is an Australian digital-only neobank founded in 2018 as a colla
   Standards.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/up-bank.png
 layout: provider
-modified: '2026-07-22'
+modified: '2026-10-06'
 name: Up
 nav: Providers
 network: true
-overview: 'Up publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Attachments API, Banking Account Balances API, and 11 more. Tagged areas include Finance, Banks, Open Banking, CDR, and Consumer Banking.
+overview: 'Up publishes 14 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, Attachments API, Banking Account Balances API, and 11 more. Tagged areas include Finance, Banks, Open Banking, CDR, and Consumer Banking.
 
 
   The Up catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Up''s developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, support, authentication, and 32 more developer resources.'
+  Up''s developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, support, authentication, and 33 more developer resources.'
 plans:
 - name: Up Bank Plans Pricing
   plan_count: 6
@@ -377,21 +381,21 @@ scopes:
   summary_line: 10 scopes
 score:
   band: developing
-  composite: 50.1
+  composite: 50.6
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 49.0
+    artifact_dirs: 25
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 76.3
     contract_governance: 4.5
     contract_quality: 55.6
     developer_ergonomics: 49.4
-    discoverability: 73.2
+    discoverability: 78.6
     operational_transparency: 28.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -424,8 +428,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 55.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

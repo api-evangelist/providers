@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 55.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 8
 apis:
 - description: First-party remote Model Context Protocol server giving an agent read-only access to the caller's Northbeam dashboards — performance, attribution, spend and orders. Documented as a custom connector fo
@@ -351,9 +351,13 @@ common:
 created: '2026-06-13'
 description: 'Northbeam is a multi-touch marketing attribution platform for e-commerce brands. It joins first-party click and view data collected by its own browser pixel to order-level revenue and to ad spend across every channel, then reports channel, campaign, adset and ad level ROAS, CAC, AOV and creative performance under a choice of attribution models and windows. The developer surface is three REST APIs published as OpenAPI: an Orders API for pushing purchase data in as the revenue ground truth, a Spend API for uploading cost from channels Northbeam does not integrate with natively, and an asynchronous Data Export API for pulling attribution metrics back out to Northbeam documents, GCS or S3. Northbeam also runs a first-party remote MCP server at mcp.northbeam.io, OAuth-secured and read-only, which it documents as a custom connector for Claude and ChatGPT.'
 finops:
-- name: Northbeam Finops
+- has_sources: false
+  method: generated
+  name: Northbeam Finops
+  primary_unit: ''
   service_category: ''
   slug: northbeam-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/northbeam.png
 jsonld:
 - class_count: 11
@@ -369,7 +373,7 @@ modified: '2026-08-13'
 name: Northbeam
 nav: Providers
 network: true
-overview: 'Northbeam publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Attribution Models API, Breakdowns API, Data Export API, and 5 more. Tagged areas include Marketing Attribution, Multi-Touch Attribution, E-Commerce, ROAS, and Media Mix Modeling.
+overview: 'Northbeam publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Attribution Models API, Breakdowns API, Data Export API, and 5 more. Tagged areas include Marketing Attribution, Multi-Touch Attribution, E-Commerce, ROAS, and Media Mix Modeling.
 
 
   The Northbeam catalog on APIs.io includes 1 JSON-LD context.
@@ -386,18 +390,18 @@ rate_limits:
   name: Northbeam Rate Limits
   slug: northbeam-rate-limits
 score:
-  band: exemplar
-  composite: 66.7
+  band: strong
+  composite: 65.2
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 82.5
+    artifact_dirs: 26
+    catalog_earned: 79.5
     catalog_earned_first_party: 24.0
-    catalog_gap: 32.5
+    catalog_gap: 35.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 100.0
+    access_clarity: 92.1
     contract_governance: 31.8
     contract_quality: 55.9
     developer_ergonomics: 55.4
@@ -419,8 +423,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

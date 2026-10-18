@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -28,14 +28,14 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: false
-    rate_limit_signal: documented
+    protected_resource_metadata: verified
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.4
-  scored_at: '2026-10-04'
+  score: 30.1
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -137,6 +137,21 @@ collections:
   name: mabl API
   slug: open-mabl
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/mabl/refs/heads/main/plans/mabl-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/mabl-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/mabl/refs/heads/main/rate-limits/mabl-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/mabl-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/mabl/refs/heads/main/finops/mabl-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/mabl-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/mabl/refs/heads/main/capabilities/mabl-capability-edges.yml
   title: ''
@@ -193,9 +208,13 @@ common:
 created: '2025-01-08'
 description: mabl, the leading AI-native test automation platform, empowers software teams to accelerate innovation while ensuring exceptional quality. Their unified platform streamlines testing across web, mobile, API, accessibility, and performance, enabling teams to release faster with confidence. Trusted by industry leaders like Microsoft, Charles Schwab, and JetBlue, mabl transforms how teams approach software quality.
 finops:
-- name: Mabl Finops
+- has_sources: false
+  method: generated
+  name: Mabl Finops
+  primary_unit: ''
   service_category: API
   slug: mabl-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mabl.png
 layout: provider
 mcp_servers:
@@ -206,10 +225,10 @@ modified: '2026-04-28'
 name: Mabl
 nav: Providers
 network: true
-overview: 'Mabl publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Credentials API, Database Connections API, and 8 more. Tagged areas include Test Automation, QA, DevOps, AI Testing, and Platform.
+overview: 'Mabl publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Applications API, Credentials API, Database Connections API, and 8 more. Tagged areas include Test Automation, QA, DevOps, AI Testing, and Platform.
 
 
-  Mabl''s developer surface includes authentication, documentation, API reference, engineering blog, and 8 more developer resources.'
+  Mabl''s developer surface includes authentication, documentation, API reference, engineering blog, and 11 more developer resources.'
 plans:
 - name: Mabl Plans Pricing
   plan_count: 3
@@ -221,17 +240,17 @@ rate_limits:
   slug: mabl-rate-limits
 score:
   band: thin
-  composite: 29.9
+  composite: 28.4
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 41.0
+    artifact_dirs: 15
+    catalog_earned: 38.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 23.7
+    access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 48.7
     developer_ergonomics: 27.4
@@ -252,8 +271,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

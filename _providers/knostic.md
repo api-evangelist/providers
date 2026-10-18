@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 1
@@ -66,7 +66,7 @@ apis:
   description: AI agent skills (SKILL.md) discovered and scanned by AgentMesh
   name: Knostic Skills API
   slug: knostic-skills-api
-artifact_total: 17
+artifact_total: 18
 collections:
 - collection_type: open
   name: API Collection
@@ -84,6 +84,19 @@ collections:
   name: Knostic AgentMesh extensions skills API
   slug: open-knostic-skills-api
 common:
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.knostic.ai/pricing
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/knostic/refs/heads/main/plans/knostic-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/knostic-plans-pricing.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.knostic.ai/blog/rss.xml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/knostic/refs/heads/main/capabilities/knostic-capability-edges.yml
   title: ''
@@ -246,32 +259,36 @@ examples:
   slug: knostic-list-skills-response
 image: https://www.knostic.ai/og-image.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Knostic
 nav: Providers
 network: true
-overview: 'Knostic publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Extensions API, MCP API, Scans API, and 1 more. Tagged areas include Company, Security, Artificial Intelligence, AI Agents, and Agent Security.
+overview: 'Knostic publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Extensions API, MCP API, Scans API, and 1 more. Tagged areas include Company, Security, Artificial Intelligence, AI Agents, and Agent Security.
 
 
-  Knostic''s developer surface includes documentation, API reference, support, engineering blog, authentication, changelog, CLI, and 25 more developer resources.'
+  Knostic''s developer surface includes pricing, documentation, API reference, support, engineering blog, authentication, changelog, and 28 more developer resources.'
+plans:
+- name: Knostic Plans Pricing
+  plan_count: 6
+  slug: knostic-plans-pricing
 random_paper: 15
 rate_limits:
 - limit_count: 3
   name: Knostic Rate Limits
   slug: knostic-rate-limits
 score:
-  band: developing
-  composite: 47.7
+  band: strong
+  composite: 56.2
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 49.0
-    catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    artifact_dirs: 27
+    catalog_earned: 61.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 8.5
   facets:
-    access_clarity: 43.4
+    access_clarity: 85.5
     contract_governance: 4.5
     contract_quality: 56.6
     developer_ergonomics: 40.5
@@ -298,9 +315,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

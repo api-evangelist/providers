@@ -30,20 +30,20 @@ agent_readiness:
     mcp_server: verified
     openapi_examples: false
     protected_resource_metadata: verified
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 44.6
-  scored_at: '2026-10-04'
+  score: 42.7
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 21
+- acting_count: 20
   human_in_the_loop: 0
   name: Xano Agentic Access
   operation_count: 37
   slug: xano-agentic-access
-  summary_line: 37 operations · 21 acting
+  summary_line: 37 operations · 20 acting
 api_count: 1
 apis:
 - description: The REST APIs that Xano users build visually. Each API group is served at its own /api:{token} path on the instance and auto-generates its own OpenAPI/Swagger document; surface, paths, and auth are de
@@ -106,6 +106,10 @@ collections:
   name: Xano Metadata API
   slug: open-xano
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.xano.com/blog/
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/xano/refs/heads/main/agentic-access/xano-agentic-access.yml
   title: ''
@@ -165,23 +169,27 @@ common:
 created: '2026-06-20'
 description: Xano is a no-code backend / backend-as-a-service that lets users visually build production REST APIs backed by a managed PostgreSQL database and serverless functions. Each workspace auto-generates its own OpenAPI/Swagger for the user-built API groups, and a separate per-instance Metadata API lets you manage tables, schema, records, files, and branches programmatically with Bearer auth.
 finops:
-- name: Xano Finops
+- has_sources: true
+  method: generated
+  name: Xano Finops
+  primary_unit: ''
   service_category: Developer Tools and Backend Platform
   slug: xano-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/xano.png
 layout: provider
 mcp_servers:
 - description: Remote MCP server at mcp.xano.com over HTTP.
   name: Xano MCP Server
   slug: xano
-modified: '2026-06-20'
+modified: '2026-10-06'
 name: Xano
 nav: Providers
 network: true
-overview: 'Xano publishes 7 APIs on the [APIs.io](https://apis.io/) network, including API Groups API, Auth API, Content API, and 4 more. Tagged areas include No-Code, Backend-as-a-Service, API Builder, Database, and Serverless.
+overview: 'Xano publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including API Groups API, Auth API, Content API, and 4 more. Tagged areas include No-Code, Backend-as-a-Service, API Builder, Database, and Serverless.
 
 
-  Xano''s developer surface includes authentication, documentation, and 10 more developer resources.'
+  Xano''s developer surface includes engineering blog, authentication, documentation, and 10 more developer resources.'
 plans:
 - name: Xano Plans Pricing
   plan_count: 4
@@ -193,22 +201,22 @@ rate_limits:
   slug: xano-rate-limits
 score:
   band: thin
-  composite: 37.3
+  composite: 29.5
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 61.6
+    artifact_dirs: 14
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.4
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.8
   facets:
-    access_clarity: 44.2
+    access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 45.2
-    developer_ergonomics: 29.8
+    developer_ergonomics: 32.1
     discoverability: 68.3
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   previous_composite: 37.3
   provenance:
     agentic_access: derived
@@ -224,9 +232,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0
@@ -243,7 +251,7 @@ security:
 - kind: vulnerability-disclosure
   name: Xano Vulnerability Disclosure
   slug: xano-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 - kind: trust-center
   name: Xano Trust Center
   slug: xano-trust-center

@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://talently.tech/blog/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/talently/refs/heads/main/security/talently-domain-security.yml
   title: ''
@@ -54,7 +58,7 @@ created: '2026-07-17'
 description: Talently is a Latin American tech hiring and talent marketplace connecting software engineers and digital professionals (Tech, Marketing, Sales, Product, Customer Experience) with technology companies across LATAM and the United States. The platform offers pre-evaluated talent, free job postings, and a suite of hiring tools including per-country tech salary calculators, a technical glossary, and specialized job boards. Backed by 500 Global. Public web surface spans talently.tech plus hire, match, admin, strapi, and stream subdomains; it publishes an llms.txt catalog for AI agents but exposes no public developer/API documentation at this time.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/talently.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Talently
 nav: Providers
 network: true
@@ -62,15 +66,15 @@ overview: Talently is profiled on the [APIs.io](https://apis.io/) network. Tagge
 random_paper: 19
 score:
   band: minimal
-  composite: 4.1
+  composite: 4.2
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
@@ -90,8 +94,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

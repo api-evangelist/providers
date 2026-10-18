@@ -35,70 +35,25 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.8
-  scored_at: '2026-10-04'
-api_count: 3
+  scored_at: '2026-10-17'
+api_count: 2
 apis:
 - baseURL: https://app.strongdm.com
   baseurl_source: declared
   description: The StrongDM control-plane API for automating management of resources, accounts, roles, access grants, gateways, relays, secret stores, and audit logs. The transport is gRPC with request signing; Stro
   name: StrongDM Admin API
   slug: strongdm-admin-api
-- description: GraphQL endpoint for StrongDM providing schema introspection and operations.
-  name: StrongDM GraphQL API
-  slug: strongdm-graphql-api
 - baseURL: https://app.strongdm.com
   baseurl_source: declared
   description: The Admin API from StrongDM — 4 operation(s) for admin.
   name: StrongDM Admin API
   slug: strongdm-admin-api
-artifact_total: 10
+artifact_total: 9
 common:
-- group: design
-  href: https://raw.githubusercontent.com/api-evangelist/strongdm/refs/heads/main/rules/strongdm-rules.yml
-  title: ''
-  type: Spectral
-  url: rules/strongdm-rules.yml
-- group: design
-  href: https://raw.githubusercontent.com/api-evangelist/strongdm/refs/heads/main/json-ld/strongdm-context.jsonld
-  title: ''
-  type: JSONLD
-  url: json-ld/strongdm-context.jsonld
-- group: design
-  href: https://raw.githubusercontent.com/api-evangelist/strongdm/refs/heads/main/vocabulary/strongdm-vocabulary.yml
-  title: ''
-  type: Vocabulary
-  url: vocabulary/strongdm-vocabulary.yml
-- group: design
-  href: https://raw.githubusercontent.com/api-evangelist/strongdm/refs/heads/main/data-model/strongdm-data-model.yml
-  title: ''
-  type: DataModel
-  url: data-model/strongdm-data-model.yml
-- group: other
-  href: https://raw.githubusercontent.com/api-evangelist/strongdm/refs/heads/main/hosts/strongdm-hosts.yml
-  title: ''
-  type: Hosts
-  url: hosts/strongdm-hosts.yml
-- group: other
-  href: https://raw.githubusercontent.com/api-evangelist/strongdm/refs/heads/main/vendors/strongdm-vendors.yml
-  title: ''
-  type: Vendors
-  url: vendors/strongdm-vendors.yml
-- group: commercial
-  title: ''
-  type: TermsOfService
-  url: https://www.strongdm.com/terms-of-use
-- group: auth
-  title: ''
-  type: Security
-  url: https://www.strongdm.com/security
 - group: company
   title: ''
-  type: Newsroom
-  url: https://www.strongdm.com/press
-- group: other
-  title: ''
-  type: Leadership
-  url: https://www.strongdm.com/team/iam
+  type: BlogRSS
+  url: https://discover.strongdm.com/blog/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/strongdm/refs/heads/main/security/strongdm-trust-center.yml
   title: ''
@@ -207,10 +162,6 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/strongdm-llms.txt
-- group: commercial
-  title: ''
-  type: PrivacyPolicy
-  url: https://www.strongdm.com/privacy
 created: '2026-07-17'
 description: StrongDM is a Zero Trust Privileged Access Management (PAM) platform that brokers and governs access to infrastructure — databases, servers, Kubernetes clusters, cloud resources, network devices, and internal web apps — through a central control plane. It enforces policy and authorization continuously with adaptive action controls, full session recording and audit, and no standing privileges. Automation is exposed through the StrongDM Admin API, a gRPC-based control-plane API that first-party SDKs (Go, Java, Python, Ruby, C#) wrap with REST-like ergonomics and request signing, plus a Terraform provider and the sdm command-line client. This profile was enriched by the API Evangelist pipeline from StrongDM's public developer surface.
 image: https://www.strongdm.com/hubfs/strongdm-logo.svg
@@ -224,24 +175,25 @@ jsonld:
   property_count: 1
   slug: strongdm-context
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: StrongDM
 nav: Providers
 network: true
-overview: 'StrongDM publishes 3 APIs on the [APIs.io](https://apis.io/) network, including Admin API, and 2 more. Tagged areas include Company, Security, Privileged Access Management, Zero Trust, and Access Management.
+overview: 'StrongDM is listed with 2 APIs on the [APIs.io](https://apis.io/) network, including Admin API, and 1 more. Tagged areas include Company, Security, Privileged Access Management, Zero Trust, and Identity and Access Management.
 
 
   The StrongDM catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  StrongDM''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, support, signup flow, and 28 more developer resources.'
+  StrongDM''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, support, signup flow, and 18 more developer resources.'
 random_paper: 20
 rate_limits:
 - limit_count: 4
   name: Strongdm Rate Limits
   slug: strongdm-rate-limits
 rules:
-- effective_rule_count: 52
+- authorship: generated
+  effective_rule_count: 52
   extends:
   - spectral:oas
   name: StrongDM API Rules
@@ -254,23 +206,23 @@ rules:
   slug: strongdm-rules
 score:
   band: developing
-  composite: 52.6
+  composite: 43.7
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 68.2
+    artifact_dirs: 25
+    catalog_earned: 58.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 46.9
+    catalog_gap: 56.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 14.7
+  delta: -21.2
   facets:
-    access_clarity: 47.4
-    contract_governance: 35.6
-    contract_quality: 17.6
+    access_clarity: 26.3
+    contract_governance: 31.8
+    contract_quality: 13.9
     developer_ergonomics: 71.4
-    discoverability: 82.1
-    operational_transparency: 76.3
-  previous_composite: 37.9
+    discoverability: 73.2
+    operational_transparency: 65.8
+  previous_composite: 64.9
   provenance:
     conformance: first-party
     contracts:
@@ -288,10 +240,10 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: rising
+    score: 21.6
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
@@ -316,7 +268,7 @@ tags:
 - Security
 - Privileged Access Management
 - Zero Trust
-- Access Management
+- Identity and Access Management
 - Identity
 - Infrastructure
 - Audit

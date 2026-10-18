@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 11.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The OpenID Connect issuer Glacier Bank serves at connect.glacierbank.com for its Jack Henry Banno Digital Toolkit tenant. Issuer https://connect.glacierbank.com/a/consumer/api/v0/oidc; the base URL fo
@@ -41,6 +41,11 @@ apis:
   slug: glacier-bancorp-api
 artifact_total: 7
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/glacier-bancorp/refs/heads/main/finops/glacier-bancorp-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/glacier-bancorp-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/glacier-bancorp/refs/heads/main/security/glacier-bancorp-domain-security.yml
   title: ''
@@ -112,19 +117,23 @@ common:
 created: '2026-04-19'
 description: 'Glacier Bancorp, Inc. (NYSE: GBCI) is a Kalispell, Montana bank holding company operating Glacier Bank and its division banks across the western United States. It runs no developer program and publishes no OpenAPI: the only machine-readable API surface it serves from its own hosts is the OpenID Connect issuer for Glacier Bank''s Jack Henry Banno digital-banking tenant at connect.glacierbank.com, which advertises 116 OAuth scopes covering accounts, transfers, bill pay, ACH batches, wire transfers, positive pay and Zelle. Client credentials for that issuer are provisioned out of band, not self-service.'
 finops:
-- name: Glacier Bancorp Finops
+- has_sources: true
+  method: generated
+  name: Glacier Bancorp Finops
+  primary_unit: ''
   service_category: Banking
   slug: glacier-bancorp-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/glacier-bancorp.png
 layout: provider
 modified: '2026-09-14'
 name: Glacier Bancorp
 nav: Providers
 network: true
-overview: 'Glacier Bancorp publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Banking, Financial Services, Digital Banking, Authentication, and Treasury Management.
+overview: 'Glacier Bancorp is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Banking, Financial Services, Digital Banking, Authentication, and Treasury Management.
 
 
-  Glacier Bancorp''s developer surface includes authentication, signup flow, support, and 12 more developer resources.'
+  Glacier Bancorp''s developer surface includes authentication, signup flow, support, and 13 more developer resources.'
 plans:
 - name: Glacier Bancorp Plans Pricing
   plan_count: 1
@@ -141,17 +150,17 @@ scopes:
   summary_line: 116 scopes
 score:
   band: emerging
-  composite: 24.9
+  composite: 23.3
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 44.0
+    artifact_dirs: 12
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 71.0
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 47.4
+    access_clarity: 39.5
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 16.7
@@ -166,13 +175,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 37.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/glacier-bancorp/refs/heads/main/screenshots/glacier-bancorp-2026-10-11T104926.png
 security:
 - kind: authentication
   name: Glacier Bancorp Authentication

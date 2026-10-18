@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://rylo.com/post/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/nagish/refs/heads/main/security/nagish-domain-security.yml
   title: ''
@@ -69,14 +73,14 @@ created: '2026-07-17'
 description: Nagish (now operating as Rylo, following an $85M raise and rebrand) is a free phone-call captioning and live-transcription service for people who are Deaf, hard of hearing, or have a speech disability. Originally launched as the Nagish app (talknagish.com), the FCC-certified service delivers real-time captions on incoming and outgoing calls, in-person Live Transcribe, voicemail captioning, 50+ language support, and AI-powered quick replies, with transcripts kept private on-device. It is a consumer mobile/telecom product and publishes no public API, SDK, or developer portal. Backed by Canaan Partners and Techstars; profiled in the API Evangelist network as a company lead.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nagish.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Nagish
 nav: Providers
 network: true
 overview: 'Nagish is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Accessibility, Captioning, Transcription, and Telecommunications.
 
 
-  Nagish''s developer surface includes engineering blog, support, and 5 more developer resources.'
+  Nagish''s developer surface includes engineering blog, support, and 6 more developer resources.'
 random_paper: 18
 score:
   band: minimal
@@ -103,8 +107,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 11.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

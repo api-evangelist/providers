@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.9
-  scored_at: '2026-10-04'
+  score: 19.0
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -97,6 +97,21 @@ collections:
   name: CargoSmart Shipment Tracking Bookings Vessels API
   slug: open-cargosmart-vessels-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/cargosmart/refs/heads/main/plans/cargosmart-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/cargosmart-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cargosmart/refs/heads/main/rate-limits/cargosmart-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/cargosmart-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/cargosmart/refs/heads/main/finops/cargosmart-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/cargosmart-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/cargosmart/refs/heads/main/capabilities/cargosmart-capability-edges.yml
   title: ''
@@ -169,9 +184,13 @@ common:
 created: '2025-01-15'
 description: CargoSmart (now operating as IQAX) is a global shipment management software provider that gives shippers, consignees, freight forwarders, and logistics service providers ocean freight booking, container tracking, vessel scheduling, and shipping documentation tools across multiple ocean carriers. CargoSmart co-founded the Global Shipping Business Network (GSBN), a blockchain-based data exchange for carriers, terminals, banks, and customs authorities, and exposes its APIs so trading partners can embed booking, visibility, schedule, and documentation workflows directly into TMS, ERP, and supply-chain platforms.
 finops:
-- name: Cargosmart Finops
+- has_sources: true
+  method: generated
+  name: Cargosmart Finops
+  primary_unit: ''
   service_category: Shipment Management Platform
   slug: cargosmart-finops
+  template: false
 json_schemas:
 - name: CargoSmart Container Booking
   property_count: 14
@@ -189,13 +208,13 @@ modified: '2026-05-19'
 name: CargoSmart
 nav: Providers
 network: true
-overview: 'CargoSmart publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Bookings API, Containers API, Documents API, and 2 more. Tagged areas include Booking, Containers, GSBN, IQAX, and Logistics.
+overview: 'CargoSmart publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Bookings API, Containers API, Documents API, and 2 more. Tagged areas include Booking, Containers, GSBN, IQAX, and Logistics.
 
 
   The CargoSmart catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  CargoSmart''s developer surface includes authentication, developer portal, documentation, and 13 more developer resources.'
+  CargoSmart''s developer surface includes authentication, developer portal, documentation, and 16 more developer resources.'
 plans:
 - name: Cargosmart Plans Pricing
   plan_count: 1
@@ -206,10 +225,11 @@ rate_limits:
   name: Cargosmart Rate Limits
   slug: cargosmart-rate-limits
 rules:
-- effective_rule_count: 33
+- authorship: generated
+  effective_rule_count: 33
   extends:
   - spectral:asyncapi
-  name: CargoSmart API Rules
+  name: CargoSmart — asyncapi rules
   rule_count: 6
   severity_counts:
     error: 1
@@ -217,9 +237,10 @@ rules:
     info: 0
     warn: 5
   slug: cargosmart-asyncapi-spectral-rules
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: CargoSmart API Rules
+  name: CargoSmart — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -234,17 +255,17 @@ scopes:
   summary_line: 4 scopes · clientCredentials
 score:
   band: thin
-  composite: 33.9
+  composite: 32.4
   coverage:
-    artifact_dirs: 15
-    catalog_earned: 51.5
+    artifact_dirs: 16
+    catalog_earned: 48.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 63.5
+    catalog_gap: 66.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 13.2
+    access_clarity: 5.3
     contract_governance: 13.6
     contract_quality: 62.4
     developer_ergonomics: 31.0
@@ -264,8 +285,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

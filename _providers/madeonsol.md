@@ -1,53 +1,142 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: unknown
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: derived
+    error_semantics: verified
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
-    openapi_examples: verified
+    openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: false
-    reversibility_documented: na
+    rate_limit_signal: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.7
-  scored_at: '2026-10-04'
+  score: 33.8
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 0
-  human_in_the_loop: 0
+- acting_count: 46
+  human_in_the_loop: 1
   name: Madeonsol Agentic Access
-  operation_count: 35
+  operation_count: 233
   slug: madeonsol-agentic-access
-  summary_line: 35 operations
-api_count: 1
+  summary_line: 233 operations · 46 acting · 1 human-in-the-loop
+api_count: 3
 apis:
-- description: Pay-per-call on-chain intelligence API for Solana and Robinhood Chain, providing KOL signals, feeds, leaderboards, and token analytics.
+- description: The primary keyed MadeOnSol REST API (Bearer msk_ API keys, free and paid tiers), version 1.20.0 with 198 operations across Solana and Robinhood Chain (78 Robinhood Chain operations under /rhc/*) - KO
   name: MadeOnSol API
   slug: madeonsol-api
-- baseURL: https://madeonsol.com
-  baseurl_source: spec
-  description: The Robinhood Chain API from MadeOnSol — 10 operation(s) for robinhood chain.
+- baseURL: https://madeonsol.com/api/v1
+  baseurl_source: declared
+  description: Self-service account inspection — quota, tier, feature usage. 1 operation(s) of the keyed MadeOnSol API (Bearer msk_ key).
+  name: MadeOnSol Account API
+  slug: madeonsol-account-api
+- baseURL: https://madeonsol.com/api/v1
+  baseurl_source: declared
+  description: Profitable non-KOL alpha wallets — leaderboard + per-wallet drilldown. 5 operation(s) of the keyed MadeOnSol API (Bearer msk_ key).
+  name: MadeOnSol Alpha API
+  slug: madeonsol-alpha-api
+- baseURL: https://madeonsol.com/api/v1
+  baseurl_source: declared
+  description: Rule-based copy-trade subscriptions (PRO+). 6 operation(s) of the keyed MadeOnSol API (Bearer msk_ key).
+  name: MadeOnSol Copy Trade API
+  slug: madeonsol-copy-trade-api
+- baseURL: https://madeonsol.com/api/v1
+  baseurl_source: declared
+  description: Pump.fun deployer reputation alerts, leaderboard, and per-deployer drilldowns. 13 operation(s) of the keyed MadeOnSol API (Bearer msk_ key).
+  name: MadeOnSol Deployer Hunter API
+  slug: madeonsol-deployer-hunter-api
+- baseURL: https://madeonsol.com/api/v1
+  baseurl_source: declared
+  description: Bulk Parquet exports of every fully archived closed month (token_trades, rhc_trades, token_ohlc_1m, rhc_ohlc_1m) via presigned S3 links. BUSINESS+. 1 operation(s) of the keyed MadeOnSol API (Bearer ms
+  name: MadeOnSol Exports API
+  slug: madeonsol-exports-api
+- baseURL: https://madeonsol.com/api/v1
+  baseurl_source: declared
+  description: KOL wallet trade feed, leaderboard, coordination, hot tokens, and per-KOL profile. 29 operation(s) of the keyed MadeOnSol API (Bearer msk_ key).
+  name: MadeOnSol KOL API
+  slug: madeonsol-kol-api
+- baseURL: https://madeonsol.com/api/v1
+  baseurl_source: declared
+  description: Nightly dataset manifests — per-dataset fingerprint and schema hash to cite an exact data state. Any key. 1 operation(s) of the keyed MadeOnSol API (Bearer msk_ key).
+  name: MadeOnSol Meta API
+  slug: madeonsol-meta-api
+- baseURL: https://madeonsol.com/api/v1
+  baseurl_source: declared
+  description: Token MC dip/recovery alerts, evaluated every 250 ms. PRO+ (PRO 5 / ULTRA 25 / BUSINESS 125 rules). 6 operation(s) of the keyed MadeOnSol API (Bearer msk_ key).
+  name: MadeOnSol Price Alerts API
+  slug: madeonsol-price-alerts-api
+- baseURL: https://madeonsol.com/api/v1
+  baseurl_source: declared
+  description: Robinhood Chain (chain id 4663) coverage — same intel, EVM-native contracts (0x addresses, eth_amount, tx_hash). Bundled into existing tiers at no extra cost. 78 operation(s) of the keyed MadeOnSol AP
   name: MadeOnSol Robinhood Chain API
   slug: madeonsol-robinhood-chain-api
-- baseURL: https://madeonsol.com
-  baseurl_source: spec
-  description: The Solana API from MadeOnSol — 25 operation(s) for solana.
-  name: MadeOnSol Solana API
-  slug: madeonsol-solana-api
-artifact_total: 10
+- baseURL: https://madeonsol.com/api/v1
+  baseurl_source: declared
+  description: Pre-confirmation pump.fun deploy detection — recent deploys, by-deployer feed, custom watchlist. PRO+ (curated to elite/good deployers); ULTRA gets every tier + watchlist + by-deployer. 5 operation(s)
+  name: MadeOnSol Sniper API
+  slug: madeonsol-sniper-api
+- baseURL: https://madeonsol.com/api/v1
+  baseurl_source: declared
+  description: Public service health + data-quality status (no auth). 1 operation(s) of the keyed MadeOnSol API (Bearer msk_ key).
+  name: MadeOnSol Status API
+  slug: madeonsol-status-api
+- baseURL: https://madeonsol.com/api/v1
+  baseurl_source: declared
+  description: WebSocket stream tokens and live session management — 30 channels (16 Solana + 14 Robinhood Chain) on one socket, with seq/id on event frames and resume (memory, then up to 60 minutes of backfill from
+  name: MadeOnSol Streaming API
+  slug: madeonsol-streaming-api
+- baseURL: https://madeonsol.com/api/v1
+  baseurl_source: declared
+  description: Token-level buyer-quality, cap-table, and filtered token directory. 26 operation(s) of the keyed MadeOnSol API (Bearer msk_ key).
+  name: MadeOnSol Tokens API
+  slug: madeonsol-tokens-api
+- baseURL: https://madeonsol.com/api/v1
+  baseurl_source: declared
+  description: Public Solana & Robinhood Chain tools directory search. 1 operation(s) of the keyed MadeOnSol API (Bearer msk_ key).
+  name: MadeOnSol Tools API
+  slug: madeonsol-tools-api
+- baseURL: https://madeonsol.com/api/v1
+  baseurl_source: declared
+  description: 'Universal per-wallet endpoints: aggregate stats with cross-product flags, FIFO cost-basis PnL with daily curve, open positions with live unrealized, and cursor-paginated raw trades. PRO+. 10 operation'
+  name: MadeOnSol Wallet API
+  slug: madeonsol-wallet-api
+- baseURL: https://madeonsol.com/api/v1
+  baseurl_source: declared
+  description: Track any Solana wallet — aggregate stats and recent trades. 6 operation(s) of the keyed MadeOnSol API (Bearer msk_ key).
+  name: MadeOnSol Wallet Tracker API
+  slug: madeonsol-wallet-tracker-api
+- baseURL: https://madeonsol.com/api/v1
+  baseurl_source: declared
+  description: 'HMAC-signed webhook registrations for KOL, deployer, wallet-tracker, sniper, token momentum, RHC KOL and realtime developer activity (dev:activity, live since 2026-10-05) events. PRO+. 6 operation(s) '
+  name: MadeOnSol Webhooks API
+  slug: madeonsol-webhooks-api
+- baseURL: https://madeonsol.com/api/x402/rhc
+  baseurl_source: declared
+  description: 'Keyless x402 pay-per-call subset of MadeOnSol for Robinhood Chain: 10 operations priced per call in USDG on Robinhood Chain (EIP-3009), no API key. A separate, smaller surface than the keyed MadeOnSol'
+  name: MadeOnSol x402 Robinhood Chain API
+  slug: madeonsol-x402-robinhood-chain-api
+- baseURL: https://madeonsol.com/api/x402
+  baseurl_source: declared
+  description: 'Keyless x402 pay-per-call subset of MadeOnSol for Solana: 25 operations priced per call in USDC on Solana, no API key. A separate, smaller surface than the keyed MadeOnSol API.'
+  name: MadeOnSol x402 Solana API
+  slug: madeonsol-x402-solana-api
+artifact_total: 27
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://madeonsol.com/feed.xml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/madeonsol/refs/heads/main/agentic-access/madeonsol-agentic-access.yml
   title: ''
@@ -170,6 +259,42 @@ common:
   title: ''
   type: Website
   url: https://madeonsol.com
+- group: other
+  title: ''
+  type: APIsJSON
+  url: https://madeonsol.com/.well-known/apis.json
+- group: other
+  title: ''
+  type: APICatalog
+  url: https://madeonsol.com/.well-known/api-catalog
+- group: docs
+  title: ''
+  type: AsyncAPI
+  url: https://madeonsol.com/api/v1/asyncapi.json
+- group: agent
+  title: ''
+  type: AgentSkills
+  url: https://madeonsol.com/skills/index.json
+- group: docs
+  title: ''
+  type: MCPDocumentation
+  url: https://madeonsol.com/mcp
+- group: agent
+  title: ''
+  type: MCPPackages
+  url: https://madeonsol.com/mcp-packages.json
+- group: other
+  title: ''
+  type: AgentsJSON
+  url: https://madeonsol.com/agents.json
+- group: other
+  title: ''
+  type: X402
+  url: https://madeonsol.com/.well-known/x402
+- group: agent
+  title: ''
+  type: LLMsFullTxt
+  url: https://madeonsol.com/llms-full.txt
 - group: docs
   title: ''
   type: Documentation
@@ -202,24 +327,25 @@ created: '2026-09-28'
 description: MadeOnSol provides on-chain intelligence APIs for Solana and Robinhood Chain, offering real-time KOL wallet tracking, deployer reputation scoring, and all-DEX trade streams. It also hosts a directory of tools and a developer API with SDKs and a pay-per-call x402 model.
 image: https://madeonsol.com/opengraph-image?v=3
 layout: provider
-modified: '2026-09-28'
+modified: '2026-10-06'
 name: MadeOnSol
 nav: Providers
 network: true
-overview: 'MadeOnSol publishes 3 APIs on the [APIs.io](https://apis.io/) network, including Robinhood Chain API, Solana API, and 1 more. Tagged areas include Blockchain, Analytics, Solana, and Robinhood Chain.
+overview: 'MadeOnSol publishes 20 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Alpha API, and 18 more. Tagged areas include Blockchain, Analytics, Solana, and Robinhood Chain.
 
 
   The MadeOnSol catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  MadeOnSol''s developer surface includes CLI, changelog, authentication, documentation, support, engineering blog, pricing, and 26 more developer resources.'
+  MadeOnSol''s developer surface includes CLI, changelog, authentication, documentation, support, engineering blog, pricing, and 36 more developer resources.'
 plans:
 - name: Madeonsol Plans Pricing
   plan_count: 5
   slug: madeonsol-plans-pricing
 random_paper: 16
 rules:
-- effective_rule_count: 53
+- authorship: generated
+  effective_rule_count: 53
   extends:
   - spectral:oas
   name: MadeOnSol API Rules
@@ -232,29 +358,31 @@ rules:
   slug: madeonsol-rules
 score:
   band: strong
-  composite: 56.7
+  composite: 63.9
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 42.8
+    artifact_dirs: 19
+    catalog_earned: 50.8
     catalog_earned_first_party: 12.0
-    catalog_gap: 72.3
+    catalog_gap: 64.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 8.1
   facets:
     access_clarity: 92.1
     contract_governance: 15.9
-    contract_quality: 44.9
-    developer_ergonomics: 52.4
-    discoverability: 55.4
+    contract_quality: 51.8
+    developer_ergonomics: 70.7
+    discoverability: 80.4
     operational_transparency: 47.4
+  previous_composite: 55.8
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 2
+      derived: 2
+      marker_coverage: 10.5
+      total: 19
     mcp: derived
   regulatory:
     applies: true
@@ -262,12 +390,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
-    applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
+    applies: true
+    score: 0.0
+screenshot: https://raw.githubusercontent.com/api-evangelist/madeonsol/refs/heads/main/screenshots/madeonsol-2026-10-11T110633.png
 security:
 - kind: authentication
   name: Madeonsol Authentication

@@ -23,10 +23,10 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: derived
     event_surface_described: derived
     idempotency: false
-    mcp_server: documented
+    mcp_server: templated
     openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -34,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.7
-  scored_at: '2026-10-04'
+  score: 33.5
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -51,97 +51,97 @@ apis:
 - description: 'WooCommerce GraphQL support is provided by the WPGraphQL WooCommerce extension (WooGraphQL), an open-source WordPress plugin that exposes the full WooCommerce data model through a GraphQL endpoint at '
   name: WooCommerce GraphQL API
   slug: graphql-api
-- baseURL: https://example.com/wp-json/wc/v3
+- baseURL: https://{store-domain}/wp-json/wc/v3
   baseurl_source: declared
   description: Manage the current shopper's cart session including items, coupons, and shipping
   name: WooCommerce Cart API
   slug: woocommerce-cart-api
-- baseURL: https://example.com/wp-json/wc/v3
+- baseURL: https://{store-domain}/wp-json/wc/v3
   baseurl_source: declared
   description: Submit and manage the checkout process for the current shopper
   name: WooCommerce Checkout API
   slug: woocommerce-checkout-api
-- baseURL: https://example.com/wp-json/wc/v3
+- baseURL: https://{store-domain}/wp-json/wc/v3
   baseurl_source: declared
   description: Create, retrieve, update, and delete discount coupons
   name: WooCommerce Coupons API
   slug: woocommerce-coupons-api
-- baseURL: https://example.com/wp-json/wc/v3
+- baseURL: https://{store-domain}/wp-json/wc/v3
   baseurl_source: declared
   description: Create, retrieve, update, and delete customer accounts
   name: WooCommerce Customers API
   slug: woocommerce-customers-api
-- baseURL: https://example.com/wp-json/wc/v3
+- baseURL: https://{store-domain}/wp-json/wc/v3
   baseurl_source: declared
   description: Manage private and customer-facing notes on orders
   name: WooCommerce Order Notes API
   slug: woocommerce-order-notes-api
-- baseURL: https://example.com/wp-json/wc/v3
+- baseURL: https://{store-domain}/wp-json/wc/v3
   baseurl_source: declared
   description: Create and retrieve refunds associated with orders
   name: WooCommerce Order Refunds API
   slug: woocommerce-order-refunds-api
-- baseURL: https://example.com/wp-json/wc/v3
+- baseURL: https://{store-domain}/wp-json/wc/v3
   baseurl_source: declared
   description: Create, retrieve, update, and delete customer orders
   name: WooCommerce Orders API
   slug: woocommerce-orders-api
-- baseURL: https://example.com/wp-json/wc/v3
+- baseURL: https://{store-domain}/wp-json/wc/v3
   baseurl_source: declared
   description: Retrieve and configure available payment gateways
   name: WooCommerce Payment Gateways API
   slug: woocommerce-payment-gateways-api
-- baseURL: https://example.com/wp-json/wc/v3
+- baseURL: https://{store-domain}/wp-json/wc/v3
   baseurl_source: declared
   description: Retrieve global product attributes and their terms for filtering
   name: WooCommerce Product Attributes API
   slug: woocommerce-product-attributes-api
-- baseURL: https://example.com/wp-json/wc/v3
+- baseURL: https://{store-domain}/wp-json/wc/v3
   baseurl_source: declared
   description: Manage product categories used to organize the store catalog
   name: WooCommerce Product Categories API
   slug: woocommerce-product-categories-api
-- baseURL: https://example.com/wp-json/wc/v3
+- baseURL: https://{store-domain}/wp-json/wc/v3
   baseurl_source: declared
   description: Retrieve customer reviews on products
   name: WooCommerce Product Reviews API
   slug: woocommerce-product-reviews-api
-- baseURL: https://example.com/wp-json/wc/v3
+- baseURL: https://{store-domain}/wp-json/wc/v3
   baseurl_source: declared
   description: Retrieve product tags for filtering
   name: WooCommerce Product Tags API
   slug: woocommerce-product-tags-api
-- baseURL: https://example.com/wp-json/wc/v3
+- baseURL: https://{store-domain}/wp-json/wc/v3
   baseurl_source: declared
   description: Manage variations of variable products including price, stock, and attributes
   name: WooCommerce Product Variations API
   slug: woocommerce-product-variations-api
-- baseURL: https://example.com/wp-json/wc/v3
+- baseURL: https://{store-domain}/wp-json/wc/v3
   baseurl_source: declared
   description: Create, retrieve, update, and delete store products and their variations
   name: WooCommerce Products API
   slug: woocommerce-products-api
-- baseURL: https://example.com/wp-json/wc/v3
+- baseURL: https://{store-domain}/wp-json/wc/v3
   baseurl_source: declared
   description: Retrieve aggregated sales, product, and customer report data
   name: WooCommerce Reports API
   slug: woocommerce-reports-api
-- baseURL: https://example.com/wp-json/wc/v3
+- baseURL: https://{store-domain}/wp-json/wc/v3
   baseurl_source: declared
   description: Manage shipping zones, their locations, and shipping methods
   name: WooCommerce Shipping Zones API
   slug: woocommerce-shipping-zones-api
-- baseURL: https://example.com/wp-json/wc/v3
+- baseURL: https://{store-domain}/wp-json/wc/v3
   baseurl_source: declared
   description: Retrieve system environment, active plugins, and store configuration status
   name: WooCommerce System Status API
   slug: woocommerce-system-status-api
-- baseURL: https://example.com/wp-json/wc/v3
+- baseURL: https://{store-domain}/wp-json/wc/v3
   baseurl_source: declared
   description: Manage tax rates and tax classes applied at checkout
   name: WooCommerce Tax Rates API
   slug: woocommerce-tax-rates-api
-- baseURL: https://example.com/wp-json/wc/v3
+- baseURL: https://{store-domain}/wp-json/wc/v3
   baseurl_source: declared
   description: Create and manage webhooks that deliver event notifications to URLs
   name: WooCommerce Webhooks API
@@ -195,7 +195,7 @@ arazzos:
 - description: Find a product by its SKU and create it only if no matching product exists.
   name: WooCommerce Upsert Product by SKU
   slug: woocommerce-upsert-product-by-sku-workflow
-artifact_total: 305
+artifact_total: 306
 asyncapis:
 - description: The WooCommerce webhook system delivers real-time HTTP POST event notifications to a subscriber-configured endpoint URL whenever specific store events occur. Supported topics cover create, update, del
   name: WooCommerce Webhook Events
@@ -271,6 +271,291 @@ collections:
   name: WooCommerce REST Cart Webhooks API
   slug: open-woocommerce-webhooks-api
 common:
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/rules/woocommerce-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/woocommerce-spectral-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/rules/woocommerce-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/woocommerce-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/rules/woocommerce-jsonschema-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/woocommerce-jsonschema-spectral-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/rules/woocommerce-asyncapi-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/woocommerce-asyncapi-spectral-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/json-ld/woocommerce-webhook-schema.json-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/woocommerce-webhook-schema.json-context.jsonld
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/json-ld/woocommerce-store-api-store-product-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/woocommerce-store-api-store-product-context.jsonld
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/json-ld/woocommerce-store-api-store-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/woocommerce-store-api-store-context.jsonld
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/json-ld/woocommerce-store-api-product-collection-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/woocommerce-store-api-product-collection-context.jsonld
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/json-ld/woocommerce-store-api-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/woocommerce-store-api-context.jsonld
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/json-ld/woocommerce-store-api-checkout-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/woocommerce-store-api-checkout-context.jsonld
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/json-ld/woocommerce-store-api-cart-shipping-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/woocommerce-store-api-cart-shipping-context.jsonld
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/json-ld/woocommerce-store-api-cart-customer-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/woocommerce-store-api-cart-customer-context.jsonld
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/json-ld/woocommerce-store-api-cart-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/woocommerce-store-api-cart-context.jsonld
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/json-ld/woocommerce-store-api-attribute-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/woocommerce-store-api-attribute-context.jsonld
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/json-ld/woocommerce-store-api-add-cart-item-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/woocommerce-store-api-add-cart-item-context.jsonld
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/json-ld/woocommerce-rest-api-webhook-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/woocommerce-rest-api-webhook-context.jsonld
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/json-ld/woocommerce-rest-api-tax-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/woocommerce-rest-api-tax-context.jsonld
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/json-ld/woocommerce-rest-api-system-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/woocommerce-rest-api-system-context.jsonld
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/json-ld/woocommerce-rest-api-shipping-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/woocommerce-rest-api-shipping-context.jsonld
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/json-ld/woocommerce-rest-api-sales-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/woocommerce-rest-api-sales-context.jsonld
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/json-ld/woocommerce-rest-api-product-variation-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/woocommerce-rest-api-product-variation-context.jsonld
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/json-ld/woocommerce-rest-api-product-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/woocommerce-rest-api-product-context.jsonld
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/json-ld/woocommerce-rest-api-product-category-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/woocommerce-rest-api-product-category-context.jsonld
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/json-ld/woocommerce-rest-api-payment-gateway-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/woocommerce-rest-api-payment-gateway-context.jsonld
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/json-ld/woocommerce-rest-api-payment-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/woocommerce-rest-api-payment-context.jsonld
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/json-ld/woocommerce-rest-api-order-refund-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/woocommerce-rest-api-order-refund-context.jsonld
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/json-ld/woocommerce-rest-api-order-note-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/woocommerce-rest-api-order-note-context.jsonld
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/json-ld/woocommerce-rest-api-order-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/woocommerce-rest-api-order-context.jsonld
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/json-ld/woocommerce-rest-api-meta-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/woocommerce-rest-api-meta-context.jsonld
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/json-ld/woocommerce-rest-api-line-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/woocommerce-rest-api-line-context.jsonld
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/json-ld/woocommerce-rest-api-customer-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/woocommerce-rest-api-customer-context.jsonld
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/json-ld/woocommerce-rest-api-coupon-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/woocommerce-rest-api-coupon-context.jsonld
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/json-ld/woocommerce-rest-api-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/woocommerce-rest-api-context.jsonld
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/json-ld/woocommerce-rest-api-batch-product-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/woocommerce-rest-api-batch-product-context.jsonld
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/json-ld/woocommerce-product-schema.json-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/woocommerce-product-schema.json-context.jsonld
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/json-ld/woocommerce-order-schema.json-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/woocommerce-order-schema.json-context.jsonld
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/vocabulary/woocommerce-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/woocommerce-vocabulary.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/asyncapi/woocommerce-webhooks-asyncapi.yml
+  title: ''
+  type: Webhooks
+  url: asyncapi/woocommerce-webhooks-asyncapi.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/data-model/woocommerce-data-model.yml
+  title: ''
+  type: DataModel
+  url: data-model/woocommerce-data-model.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/conventions/woocommerce-conventions.yml
+  title: ''
+  type: Conventions
+  url: conventions/woocommerce-conventions.yml
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/security/woocommerce-vulnerability-disclosure.yml
+  title: ''
+  type: Security
+  url: security/woocommerce-vulnerability-disclosure.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://developer.woocommerce.com/docs/features/mcp/
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/lifecycle/woocommerce-lifecycle.yml
+  title: ''
+  type: Lifecycle
+  url: lifecycle/woocommerce-lifecycle.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/errors/woocommerce-problem-types.yml
+  title: ''
+  type: ErrorCatalog
+  url: errors/woocommerce-problem-types.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/conformance/woocommerce-conformance.yml
+  title: ''
+  type: Conformance
+  url: conformance/woocommerce-conformance.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/llms/woocommerce-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/woocommerce-llms.txt
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/well-known/woocommerce-wordpress-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/woocommerce-wordpress-security.txt
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/well-known/woocommerce-well-known.yml
+  title: ''
+  type: WellKnown
+  url: well-known/woocommerce-well-known.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/hosts/woocommerce-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/woocommerce-hosts.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/integrations/woocommerce-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/woocommerce-integration-edges.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/packages/woocommerce-packages.yml
+  title: ''
+  type: Packages
+  url: packages/woocommerce-packages.yml
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://woocommerce.com/posts/terms-of-service-update/
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://developer.woocommerce.com/status/
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://woocommerce.com/pricing/
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://woocommerce.com/newsroom/
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/plans/woocommerce-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/woocommerce-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/rate-limits/woocommerce-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/woocommerce-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/finops/woocommerce-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/woocommerce-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/capabilities/woocommerce-capability-edges.yml
   title: ''
@@ -424,10 +709,6 @@ common:
   title: ''
   type: ReleaseNotes
   url: https://developer.woocommerce.com/changelog/
-- group: operate
-  title: ''
-  type: StatusPage
-  url: https://status.woocommerce.com
 - group: design
   href: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/json-ld/woocommerce-context.jsonld
   title: ''
@@ -663,9 +944,13 @@ features:
 - Multilingual via WPML/Polylang
 - Run multiple gateways simultaneously
 finops:
-- name: Woocommerce Finops
+- has_sources: true
+  method: generated
+  name: Woocommerce Finops
+  primary_unit: ''
   service_category: E-Commerce
   slug: woocommerce-finops
+  template: false
 graphqls:
 - description: WooCommerce provides GraphQL support via the **WPGraphQL WooCommerce** extension (also known as **WooGraphQL**). This is an open-source WordPress plugin that exposes WooCommerce store data through a G
   name: WooCommerce GraphQL
@@ -1172,27 +1457,28 @@ modified: '2026-05-19'
 name: WooCommerce
 nav: Providers
 network: true
-overview: 'WooCommerce publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Webhook Events, Cart API, Checkout API, and 18 more. Tagged areas include WooCommerce, E-Commerce, Open Source, Order, and Product.
+overview: 'WooCommerce publishes 21 API contracts indexed on the [APIs.io](https://apis.io/) network, including Webhook Events, Cart API, Checkout API, and 18 more. Tagged areas include WooCommerce, E-Commerce, Open Source, Order, and Product.
 
 
-  The WooCommerce catalog on APIs.io includes 1 event-driven AsyncAPI specification, 33 JSON-LD contexts, and 3 Spectral governance rulesets.
+  The WooCommerce catalog on APIs.io includes 1 event-driven AsyncAPI specification, 33 JSON-LD contexts, and 4 Spectral governance rulesets.
 
 
-  WooCommerce''s developer surface includes authentication, documentation, getting-started guide, GitHub presence, engineering blog, support, release notes, and 37 more developer resources.'
+  WooCommerce''s developer surface includes pricing, authentication, documentation, getting-started guide, GitHub presence, engineering blog, support, and 94 more developer resources.'
 plans:
 - name: Woocommerce Plans Pricing
-  plan_count: 4
+  plan_count: 2
   slug: woocommerce-plans-pricing
 random_paper: 18
 rate_limits:
-- limit_count: 3
+- limit_count: 2
   name: Woocommerce Rate Limits
   slug: woocommerce-rate-limits
 rules:
-- effective_rule_count: 34
+- authorship: generated
+  effective_rule_count: 34
   extends:
   - spectral:asyncapi
-  name: WooCommerce API Rules
+  name: WooCommerce — asyncapi rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -1200,9 +1486,10 @@ rules:
     info: 0
     warn: 6
   slug: woocommerce-asyncapi-spectral-rules
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: WooCommerce API Rules
+  name: WooCommerce — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -1210,7 +1497,20 @@ rules:
     info: 1
     warn: 5
   slug: woocommerce-jsonschema-spectral-rules
-- effective_rule_count: 86
+- authorship: generated
+  effective_rule_count: 57
+  extends:
+  - spectral:oas
+  name: WooCommerce API Rules
+  rule_count: 16
+  severity_counts:
+    error: 13
+    hint: 0
+    info: 2
+    warn: 1
+  slug: woocommerce-rules
+- authorship: generated
+  effective_rule_count: 86
   extends:
   - spectral:oas
   name: WooCommerce API Rules
@@ -1222,40 +1522,42 @@ rules:
     warn: 28
   slug: woocommerce-spectral-rules
 score:
-  band: developing
-  composite: 49.2
+  band: strong
+  composite: 60.7
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 70.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 48.0
+    artifact_dirs: 34
+    catalog_earned: 77.0
+    catalog_earned_first_party: 16.0
+    catalog_gap: 38.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 11.5
   facets:
-    access_clarity: 15.8
-    contract_governance: 27.3
+    access_clarity: 42.1
+    contract_governance: 31.8
     contract_quality: 74.4
     developer_ergonomics: 65.5
-    discoverability: 63.3
-    operational_transparency: 34.2
-  previous_composite: 48.7
+    discoverability: 61.7
+    operational_transparency: 73.7
+  previous_composite: 49.2
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 19
+    mcp: first-party
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 22.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+    score: 26.5
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

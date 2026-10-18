@@ -32,10 +32,19 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
-artifact_total: 2
+artifact_total: 3
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/worky/refs/heads/main/plans/worky-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/worky-plans-pricing.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.worky.mx/rss.xml
 - group: company
   title: ''
   type: Website
@@ -109,28 +118,32 @@ created: '2026-07-17'
 description: Worky is a Mexican HR and payroll SaaS platform for SMBs and mid-market companies that unifies operations, talent, and payroll in one system — from employee onboarding through CFDI 4.0 payroll stamping (timbrado) and salary dispersal — with direct IMSS, SUA, and INFONAVIT connectivity, digital time-clock and attendance, recruiting, performance reviews, people analytics, and an operational AI agent (SophIA). Backed by QED Investors. Worky publishes no public developer API; its backend at api.worky.mx is a private JWT-authenticated service.
 image: https://www.worky.mx/hubfs/%5BWS%5D%20Assets/Im%C3%A1genes%20Website%202024/Thumbnails/thumbnail%20-%20home.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Worky
 nav: Providers
 network: true
 overview: 'Worky is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payroll, Human Resources, Mexico, and CFDI.
 
 
-  Worky''s developer surface includes engineering blog, support, pricing, signup flow, and 12 more developer resources.'
+  Worky''s developer surface includes engineering blog, support, pricing, signup flow, and 14 more developer resources.'
+plans:
+- name: Worky Plans Pricing
+  plan_count: 6
+  slug: worky-plans-pricing
 random_paper: 0
 score:
-  band: emerging
-  composite: 25.1
+  band: thin
+  composite: 31.4
   coverage:
-    artifact_dirs: 8
-    catalog_earned: 27.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 88.0
+    artifact_dirs: 9
+    catalog_earned: 39.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.3
   facets:
-    access_clarity: 60.5
+    access_clarity: 92.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 7.1
@@ -152,9 +165,9 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 21.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

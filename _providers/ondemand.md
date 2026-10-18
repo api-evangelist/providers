@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 1
@@ -103,6 +103,10 @@ collections:
   name: OnDemand AI Chat Workflow API
   slug: open-ondemand-workflow-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.on-demand.io/rss/
 - group: company
   title: ''
   type: Website
@@ -219,17 +223,17 @@ created: '2026-07-17'
 description: OnDemand AI (on-demand.io) is a RAG-powered AI Platform-as-a-Service that lets companies infuse AI into their products without managing model infrastructure. The platform exposes a REST API for chat sessions and queries against a library of predefined, BYOI (Bring Your Own Inference) and BYOM (Bring Your Own Model) fulfillment models, media ingestion and vector search, Knowledge / REST-API / IoT(MQTT) agents, an Agents Flow Builder for workflow automation, and cloud services for speech-to-text, text-to-speech and language translation. API access is authenticated with API keys, supports sync / stream / webhook response modes, offset- and cursor-based pagination, and per-object rate limits. Surfaced as a Canaan Partners portfolio lead and enriched from the provider's public developer documentation at docs.on-demand.io.
 image: https://files.readme.io/52eb008-favicon.ico
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Ondemand
 nav: Providers
 network: true
-overview: 'Ondemand publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Chat API, Config API, Execute API, and 3 more. Tagged areas include Company, Artificial Intelligence, Machine Learning, RAG, and Agents.
+overview: 'Ondemand publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Chat API, Config API, Execute API, and 3 more. Tagged areas include Company, Artificial Intelligence, Machine Learning, RAG, and Agents.
 
 
   The Ondemand catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Ondemand''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, authentication, and 18 more developer resources.'
+  Ondemand''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, authentication, and 19 more developer resources.'
 random_paper: 2
 rate_limits:
 - limit_count: 4
@@ -237,15 +241,15 @@ rate_limits:
   slug: ondemand-rate-limits
 score:
   band: thin
-  composite: 34.3
+  composite: 34.4
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 0.0
     contract_governance: 4.5
@@ -270,8 +274,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

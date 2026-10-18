@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 7
 apis:
 - description: Public DSpace REST API for "edoc", the open-access institutional repository of the University of Basel, running DSpace-CRIS 7.6.2 (cris-2023.02.06) on the university's own host. The API root reports d
@@ -174,16 +174,20 @@ created: '2026-06-03'
 description: 'The University of Basel (Universität Basel) is the oldest university in Switzerland, founded in 1460, and a canton-funded public research university. It operates no developer portal, no self-serve API program and no public product API; every machine-readable surface it runs is scholarly infrastructure, federated identity, or the back end of one of its own administrative systems. Exactly one OpenAPI contract is served under unibas.ch — the REST back end of UNIverse, the research information system, which publishes an OpenAPI 3.1.0 description and a Swagger UI anonymously while enforcing a bearer token on every data path. Beyond it, verified live on the university''s own hosts: "edoc", the open-access institutional repository running DSpace-CRIS 7.6.2, which answers on both a DSpace REST API and an OAI-PMH 2.0 interface carrying eleven metadata formats and an OpenAIRE-CRIS profile; a SWITCHaai / eduGAIN SAML 2.0 identity provider scoped to unibas.ch, alongside thirty-two registered
   service providers under the same domain; an OpenID Connect issuer at the sciCORE scientific computing centre; and an LTI launch endpoint on ADAM, the university''s ILIAS learning platform. Library discovery is a tenancy, not a Basel system — swisscovery is operated by SLSP on Ex Libris Alma, with Basel holding the 41SLSP_UBS institution zone. The DaSCH Service Platform API (api.dasch.swiss), previously catalogued here as Basel''s, is not: DaSCH is a legally independent association hosted at the university, and that contract and its derived artifacts were removed in the 2026-08-30 pass.'
 finops:
-- name: University Of Basel Finops
+- has_sources: true
+  method: generated
+  name: University Of Basel Finops
+  primary_unit: ''
   service_category: Education
   slug: university-of-basel-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/university-of-basel.png
 layout: provider
 modified: '2026-08-30'
 name: University of Basel
 nav: Providers
 network: true
-overview: 'University of Basel publishes 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include University, Higher Education, Education, Switzerland, and Basel.
+overview: 'University of Basel is listed with 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include University, Higher Education, Education, Switzerland, and Basel.
 
 
   University of Basel''s developer surface includes engineering blog, support, authentication, and 22 more developer resources.'
@@ -198,17 +202,17 @@ rate_limits:
   slug: university-of-basel-rate-limits
 score:
   band: thin
-  composite: 31.4
+  composite: 29.9
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 51.0
+    artifact_dirs: 14
+    catalog_earned: 48.0
     catalog_earned_first_party: 8.0
-    catalog_gap: 64.0
+    catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -3.0
+  delta: -1.5
   facets:
-    access_clarity: 50.0
+    access_clarity: 42.1
     contract_governance: 18.2
     contract_quality: 4.4
     developer_ergonomics: 37.5
@@ -222,7 +226,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 34.4
+  previous_composite: 31.4
   provenance:
     conformance: first-party
     skills: derived
@@ -232,8 +236,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 30.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

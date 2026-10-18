@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -283,7 +283,7 @@ modified: '2026-07-28'
 name: Air Canada
 nav: Providers
 network: true
-overview: 'Air Canada publishes 10 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Travel, Canada, Aviation, Airlines, and NDC.
+overview: 'Air Canada is listed with 10 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Travel, Canada, Aviation, Airlines, and NDC.
 
 
   The Air Canada catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -295,7 +295,7 @@ score:
   band: thin
   composite: 32.7
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 41.3
     catalog_earned_first_party: 0.0
     catalog_gap: 73.8
@@ -327,8 +327,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

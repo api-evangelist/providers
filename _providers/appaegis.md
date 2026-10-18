@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: REST (v1 + v2) and GraphQL management API for the Mammoth Cyber (Appaegis) zero-trust access platform. Administers users, teams, access roles, policies, applications, networks, registered devices, blo
@@ -138,7 +138,7 @@ modified: '2026-07-17'
 name: Appaegis
 nav: Providers
 network: true
-overview: 'Appaegis publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Zero Trust, Enterprise Browser, and Access Management.
+overview: 'Appaegis is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Zero Trust, Enterprise Browser, and Identity and Access Management.
 
 
   Appaegis'' developer surface includes documentation, getting-started guide, engineering blog, support, signup flow, authentication, and 14 more developer resources.'
@@ -171,8 +171,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -194,7 +194,7 @@ tags:
 - Security
 - Zero Trust
 - Enterprise Browser
-- Access Management
+- Identity and Access Management
 - Data Loss Prevention
 - GenAI Security
 - Identity

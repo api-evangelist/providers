@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 22
+- acting_count: 21
   human_in_the_loop: 0
   name: Ragie Ai Agentic Access
   operation_count: 38
   slug: ragie-ai-agentic-access
-  summary_line: 38 operations · 22 acting
+  summary_line: 38 operations · 21 acting
 api_count: 1
 apis:
 - baseURL: https://api.ragie.ai
@@ -94,6 +94,10 @@ collections:
   name: Ragie API
   slug: open-ragie-ai
 common:
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.ragie.ai/pricing
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/ragie-ai/refs/heads/main/agentic-access/ragie-ai-agentic-access.yml
   title: ''
@@ -152,22 +156,26 @@ common:
 created: '2026-06-20'
 description: Ragie is a fully-managed Retrieval-Augmented Generation (RAG) as-a-service platform. Its REST API ingests documents (file upload, raw, or from URL), processes them into searchable chunks, and serves low-latency semantic retrieval, agentic responses, entity extraction, and managed data connectors to sources like Google Drive, Notion, and Confluence.
 finops:
-- name: Ragie Ai Finops
+- has_sources: true
+  method: generated
+  name: Ragie Ai Finops
+  primary_unit: ''
   service_category: AI and Machine Learning
   slug: ragie-ai-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ragie-ai.png
 layout: provider
 modified: '2026-06-20'
 name: Ragie
 nav: Providers
 network: true
-overview: 'Ragie publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Connections API, Documents API, Entities API, and 2 more. Tagged areas include Artificial Intelligence, RAG, Retrieval, Vector Search, and Document Ingestion.
+overview: 'Ragie publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Connections API, Documents API, Entities API, and 2 more. Tagged areas include Artificial Intelligence, RAG, Retrieval, Vector Search, and Document Ingestion.
 
 
-  Ragie''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
+  Ragie''s developer surface includes pricing, authentication, documentation, engineering blog, and 9 more developer resources.'
 plans:
 - name: Ragie Ai Plans Pricing
-  plan_count: 4
+  plan_count: 5
   slug: ragie-ai-plans-pricing
 random_paper: 19
 rate_limits:
@@ -176,22 +184,22 @@ rate_limits:
   slug: ragie-ai-rate-limits
 score:
   band: thin
-  composite: 37.5
+  composite: 36.1
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 61.6
-    catalog_earned_first_party: 0.0
-    catalog_gap: 53.4
+    artifact_dirs: 12
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.4
   facets:
-    access_clarity: 36.3
+    access_clarity: 42.1
     contract_governance: 0.0
     contract_quality: 50.7
     developer_ergonomics: 23.8
     discoverability: 66.1
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   previous_composite: 37.5
   provenance:
     agentic_access: derived
@@ -206,8 +214,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

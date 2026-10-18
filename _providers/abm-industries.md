@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 11.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: ABM Connect is a data intelligence platform that unifies facility, financial, equipment, IoT, and service-delivery data into a real-time, action-focused view. It aggregates data from front-line team m
@@ -41,6 +41,11 @@ apis:
   slug: abm-connect
 artifact_total: 24
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/abm-industries/refs/heads/main/rate-limits/abm-industries-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/abm-industries-rate-limits.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/abm-industries/refs/heads/main/security/abm-industries-domain-security.yml
   title: ''
@@ -139,9 +144,13 @@ features:
 - description: Aggregates BI, CMMS, energy, engineering, financial, and service delivery data from multiple sources into a centralized stack.
   name: Data Aggregation
 finops:
-- name: Abm Industries Finops
+- has_sources: true
+  method: generated
+  name: Abm Industries Finops
+  primary_unit: ''
   service_category: Facilities Management
   slug: abm-industries-finops
+  template: false
 image: /assets/icons/abm-industries.png
 integrations:
 - description: Open API integration with Computerized Maintenance Management Systems for work order and asset tracking.
@@ -160,13 +169,13 @@ modified: '2026-08-29'
 name: ABM Industries
 nav: Providers
 network: true
-overview: 'ABM Industries publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Facilities Management, Engineering, Infrastructure, Mobility, and Fortune 500.
+overview: 'ABM Industries is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Facilities Management, Engineering, Infrastructure, Mobility, and Fortune 500.
 
 
   The ABM Industries catalog on APIs.io includes 1 JSON-LD context.
 
 
-  ABM Industries'' developer surface includes developer portal, engineering blog, YouTube channel, and 15 more developer resources.'
+  ABM Industries'' developer surface includes developer portal, engineering blog, YouTube channel, and 16 more developer resources.'
 plans:
 - name: Abm Industries Plans Pricing
   plan_count: 0
@@ -199,17 +208,17 @@ scopes:
   summary_line: 2 scopes
 score:
   band: thin
-  composite: 30.1
+  composite: 28.6
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 55.5
+    artifact_dirs: 22
+    catalog_earned: 52.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 59.5
+    catalog_gap: 62.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 28.9
+    access_clarity: 21.1
     contract_governance: 31.8
     contract_quality: 14.7
     developer_ergonomics: 33.3
@@ -225,8 +234,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

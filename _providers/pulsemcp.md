@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Public v0.1 API for browsing MCP servers, server versions, and ecosystem metadata in the PulseMCP Registry. Implements the Generic MCP Registry API specification with PulseMCP enrichments (popularity,
@@ -40,6 +40,16 @@ apis:
   slug: registry
 artifact_total: 6
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/pulsemcp/refs/heads/main/plans/pulsemcp-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/pulsemcp-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/pulsemcp/refs/heads/main/rate-limits/pulsemcp-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/pulsemcp-rate-limits.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/pulsemcp/refs/heads/main/security/pulsemcp-domain-security.yml
   title: ''
@@ -186,10 +196,10 @@ modified: '2026-08-13'
 name: PulseMCP
 nav: Providers
 network: true
-overview: 'PulseMCP publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include MCP, AI Agents, Agentic Engineering, Directory, and Registry.
+overview: 'PulseMCP is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include MCP, AI Agents, Agentic Engineering, Directory, and Registry.
 
 
-  PulseMCP''s developer surface includes CLI, changelog, engineering blog, documentation, support, GitHub presence, and 25 more developer resources.'
+  PulseMCP''s developer surface includes CLI, changelog, engineering blog, documentation, support, GitHub presence, and 27 more developer resources.'
 plans:
 - name: Pulsemcp Plans Pricing
   plan_count: 0
@@ -201,7 +211,7 @@ rate_limits:
   slug: pulsemcp-rate-limits
 score:
   band: thin
-  composite: 35.7
+  composite: 35.8
   coverage:
     artifact_dirs: 19
     catalog_earned: 49.0
@@ -209,7 +219,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
@@ -228,8 +238,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

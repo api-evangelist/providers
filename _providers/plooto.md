@@ -33,10 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.plooto.com/blog/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/plooto/refs/heads/main/security/plooto-domain-security.yml
   title: ''
@@ -96,18 +100,18 @@ description: 'Plooto is a Toronto-based payments automation company (founded 201
   partner onboarding process, not open developer sign-up.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-modified: '2026-07-24T15:05:00Z'
+modified: '2026-10-06'
 name: Plooto
 nav: Providers
 network: true
 overview: 'Plooto is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Payments, Canada, Accounts Payable, Accounts Receivable, and AP Automation.
 
 
-  Plooto''s developer surface includes engineering blog, pricing, getting-started guide, and 10 more developer resources.'
+  Plooto''s developer surface includes engineering blog, pricing, getting-started guide, and 11 more developer resources.'
 random_paper: 9
 score:
   band: emerging
-  composite: 19.5
+  composite: 19.6
   coverage:
     artifact_dirs: 7
     catalog_earned: 27.0
@@ -115,7 +119,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 46.1
     contract_governance: 0.0
@@ -137,8 +141,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 17.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

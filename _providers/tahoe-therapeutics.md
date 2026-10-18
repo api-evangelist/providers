@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.tahoebio.ai/feed
 - group: company
   title: ''
   type: Website
@@ -84,26 +88,26 @@ created: '2026-07-17'
 description: Tahoe Therapeutics (formerly Vevo Therapeutics) is a South San Francisco digital-biology company building the "ground truth for biological superintelligence." Its Mosaic platform generates perturbative single-cell data in vivo at gigascale, and it trains AI models — including the Tahoe-x1 single-cell foundation model (up to 3 billion parameters) and the Rhaister family of perturbation-response models — on the resulting data to discover novel drug targets and predict how patient cells respond to drugs. Tahoe openly publishes datasets (including the 100-million-cell Tahoe-100M atlas) and model weights on Hugging Face, ships the tahoe-x1 Python package on PyPI, and operates Tara, an autonomous research agent. The company does not run a public REST API. Backed by Amplify Partners; raised $30M in 2025.
 image: https://cdn.prod.website-files.com/680520b565c47255409f799e/6a3ae6d3b6d71c19cb591fc9_01.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Tahoe Therapeutics
 nav: Providers
 network: true
 overview: 'Tahoe Therapeutics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Digital Biology, Single Cell, Machine Learning, and Foundation Models.
 
 
-  Tahoe Therapeutics'' developer surface includes engineering blog, support, and 8 more developer resources.'
+  Tahoe Therapeutics'' developer surface includes engineering blog, support, and 9 more developer resources.'
 random_paper: 1
 score:
   band: minimal
-  composite: 5.8
+  composite: 5.4
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.4
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
@@ -114,17 +118,18 @@ score:
   previous_composite: 5.8
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 5.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/tahoe-therapeutics/refs/heads/main/screenshots/tahoe-therapeutics-2026-10-11T130652.png
 security:
 - kind: domain-security
   name: Tahoe Therapeutics Domain Security

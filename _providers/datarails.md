@@ -39,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 56.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,7 +47,7 @@ agentic_access:
   operation_count: 5
   slug: datarails-agentic-access
   summary_line: 5 operations
-api_count: 1
+api_count: 2
 apis:
 - description: REST file-upload endpoint used to push a CSV or Excel file into a Datarails Filebox. Authenticated with HTTP Basic using a base64-encoded Datarails sync user (which must not have MFA enabled). The tar
   name: Datarails Data Gateway Service (DGS)
@@ -78,6 +78,10 @@ collections:
   name: Datarails Finance OS MCP Server
   slug: open-datarails-financeos-mcp
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.datarails.com/feed/
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/datarails/refs/heads/main/mcp/datarails-mcp.yml
   title: ''
@@ -264,14 +268,14 @@ mcp_servers:
 - description: Remote MCP server at mcp.datarails.com over HTTP; 25 tools listed.
   name: Datarails MCP Server
   slug: datarails-finance-os
-modified: '2026-08-01'
+modified: '2026-10-06'
 name: Datarails
 nav: Providers
 network: true
-overview: 'Datarails publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Health API, Ready API, .well Known API, and 2 more. Tagged areas include Company, FP&A, Financial Planning, Finance, and Accounting.
+overview: 'Datarails publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Health API, Ready API, .well Known API, and 2 more. Tagged areas include Company, FP&A, Financial Planning, Finance, and Accounting.
 
 
-  Datarails'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 32 more developer resources.'
+  Datarails'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 33 more developer resources.'
 plans:
 - name: Datarails Plans
   plan_count: 3
@@ -290,7 +294,7 @@ score:
   band: strong
   composite: 55.3
   coverage:
-    artifact_dirs: 25
+    artifact_dirs: 26
     catalog_earned: 57.0
     catalog_earned_first_party: 20.0
     catalog_gap: 58.0
@@ -324,8 +328,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 36.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

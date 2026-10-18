@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -157,6 +157,21 @@ collections:
   name: Gandi Domain Authorization Zone Transfers API
   slug: open-gandi-zone-transfers-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/gandi/refs/heads/main/plans/gandi-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/gandi-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/gandi/refs/heads/main/rate-limits/gandi-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/gandi-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/gandi/refs/heads/main/finops/gandi-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/gandi-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/gandi/refs/heads/main/agentic-access/gandi-agentic-access.yml
   title: ''
@@ -204,9 +219,13 @@ common:
 created: '2025-02-09'
 description: Gandi is a domain name registrar and web hosting provider. The Gandi v5 Public API exposes domain management, LiveDNS, certificates, email, organization, billing, and hosting capabilities for programmatic use.
 finops:
-- name: Gandi Finops
+- has_sources: true
+  method: generated
+  name: Gandi Finops
+  primary_unit: ''
   service_category: Domain Registrar & DNS
   slug: gandi-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/gandi.png
 json_structures:
 - name: Gandi Structure
@@ -217,10 +236,10 @@ modified: '2026-05-19'
 name: Gandi
 nav: Providers
 network: true
-overview: 'Gandi publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Authorization API, Availability API, DNSSEC API, and 14 more. Tagged areas include DNS, Domains, Domain Registrar, Email, and Hosting.
+overview: 'Gandi publishes 17 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authorization API, Availability API, DNSSEC API, and 14 more. Tagged areas include DNS, Domains, Domain Registrar, Email, and Hosting.
 
 
-  Gandi''s developer surface includes authentication, documentation, sandbox, engineering blog, and 6 more developer resources.'
+  Gandi''s developer surface includes authentication, documentation, sandbox, engineering blog, and 9 more developer resources.'
 plans:
 - name: Gandi Plans Pricing
   plan_count: 2
@@ -231,18 +250,18 @@ rate_limits:
   name: Gandi Rate Limits
   slug: gandi-rate-limits
 score:
-  band: thin
-  composite: 27.5
+  band: emerging
+  composite: 26.0
   coverage:
     artifact_dirs: 15
-    catalog_earned: 39.0
+    catalog_earned: 36.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 76.0
+    catalog_gap: 79.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 13.2
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 51.2
     developer_ergonomics: 31.0
@@ -262,8 +281,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 17.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

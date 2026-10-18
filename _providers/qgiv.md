@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.5
-  scored_at: '2026-10-04'
+  score: 19.6
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 23
+- acting_count: 9
   human_in_the_loop: 0
   name: Qgiv Agentic Access
   operation_count: 34
   slug: qgiv-agentic-access
-  summary_line: 34 operations · 23 acting
+  summary_line: 34 operations · 9 acting
 api_count: 1
 apis:
 - baseURL: https://secure.qgiv.com/admin/api
@@ -188,16 +188,20 @@ common:
 created: '2026-07-03'
 description: Qgiv (now Bloomerang Fundraising) is an online donation, event registration, peer-to-peer fundraising, and payment processing platform for nonprofits, faith-based organizations, and schools. Qgiv was acquired by Bloomerang in January 2024 and now operates as Bloomerang's giving platform; the legacy Qgiv API documentation lives at qgiv.com/api and remains the documented programmatic surface for existing Qgiv forms and accounts. The API is a token-authenticated, form-scoped REST-style service at secure.qgiv.com/admin/api that accepts XML or JSON input and returns XML or JSON based on the URL extension, covering transactions, recurring donations, refunds, peer-to-peer registrations, events, account settings, custom fields, custom amounts, statements, and report mappings.
 finops:
-- name: Qgiv Finops
+- has_sources: true
+  method: generated
+  name: Qgiv Finops
+  primary_unit: ''
   service_category: Nonprofit Fundraising and Payments
   slug: qgiv-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/qgiv.png
 layout: provider
 modified: '2026-07-03'
 name: Qgiv
 nav: Providers
 network: true
-overview: 'Qgiv publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Account Settings API, Custom Amounts API, Custom Fields API, and 7 more. Tagged areas include Non-Profit, Fundraising, Donations, Payments, and Peer-to-Peer.
+overview: 'Qgiv publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account Settings API, Custom Amounts API, Custom Fields API, and 7 more. Tagged areas include Non-Profit, Fundraising, Donations, Payments, and Peer-to-Peer.
 
 
   Qgiv''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
@@ -211,23 +215,23 @@ rate_limits:
   name: Qgiv Rate Limits
   slug: qgiv-rate-limits
 score:
-  band: thin
-  composite: 34.0
+  band: emerging
+  composite: 25.7
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 61.6
+    artifact_dirs: 12
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.4
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 44.2
+    access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 40.2
     developer_ergonomics: 31.0
     discoverability: 66.1
-    operational_transparency: 28.4
+    operational_transparency: 7.9
   previous_composite: 34.0
   provenance:
     agentic_access: derived
@@ -242,9 +246,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 15.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

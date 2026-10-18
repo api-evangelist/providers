@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 39.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 8
 apis:
 - description: QR code generation API documented at QRSalt.
@@ -203,7 +203,7 @@ modified: '2026-10-03'
 name: QRSalt
 nav: Providers
 network: true
-overview: 'QRSalt publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Barcode API, Codes API, Domains API, and 5 more. Tagged areas include QR Codes, Barcodes, Analytics, and Dynamic links.
+overview: 'QRSalt is listed with 8 APIs on the [APIs.io](https://apis.io/) network, including Barcode API, Codes API, Domains API, and 5 more. Tagged areas include QR Codes, Barcodes, Analytics, and Dynamic links.
 
 
   The QRSalt catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -216,7 +216,8 @@ plans:
   slug: qrsalt-plans-pricing
 random_paper: 3
 rules:
-- effective_rule_count: 54
+- authorship: generated
+  effective_rule_count: 54
   extends:
   - spectral:oas
   name: QRSalt API Rules
@@ -229,14 +230,15 @@ rules:
   slug: qrsalt-rules
 score:
   band: thin
-  composite: 35.0
+  composite: 35.1
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 67.8
     catalog_earned_first_party: 12.0
     catalog_gap: 47.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -10.2
   facets:
     access_clarity: 76.3
     contract_governance: 22.0
@@ -244,6 +246,7 @@ score:
     developer_ergonomics: 14.3
     discoverability: 63.3
     operational_transparency: 7.9
+  previous_composite: 45.3
   provenance:
     conformance: derived
     contracts:
@@ -258,8 +261,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

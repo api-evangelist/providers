@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 43.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 7
 apis:
 - description: Remote MCP server that lets any MCP-compatible assistant query the NordStellar platform in natural language. Clients connect through the open-source nordstellar-mcp auth proxy (PyPI, run via uvx, or a
@@ -228,6 +228,14 @@ collections:
   name: Platform Integration API
   slug: open-nord-security-nordstellar-platform-integration-api-v3
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://nordsecurity.com/blog/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://nordsecurity.com/blog/feed/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/nord-security/refs/heads/main/capabilities/nord-security-capability-edges.yml
   title: ''
@@ -473,14 +481,14 @@ mcp_servers:
 - description: Remote MCP server at platform-mcp.nordstellar.com over HTTP; 4 tools listed.
   name: Nord Security MCP Server
   slug: nordstellar
-modified: '2026-08-01'
+modified: '2026-10-06'
 name: Nord Security
 nav: Providers
 network: true
-overview: 'Nord Security publishes 35 APIs on the [APIs.io](https://apis.io/) network, including API User Management API, Applications API, AUC API, and 32 more. Tagged areas include Cybersecurity, Threat Intelligence, Dark Web Monitoring, Attack Surface Management, and Breach Intelligence.
+overview: 'Nord Security publishes 35 API contracts indexed on the [APIs.io](https://apis.io/) network, including API User Management API, Applications API, AUC API, and 32 more. Tagged areas include Cybersecurity, Threat Intelligence, Dark Web Monitoring, Attack Surface Management, and Breach Intelligence.
 
 
-  Nord Security''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 45 more developer resources.'
+  Nord Security''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, pricing, signup flow, and 47 more developer resources.'
 random_paper: 4
 rate_limits:
 - limit_count: 0
@@ -490,13 +498,13 @@ score:
   band: strong
   composite: 56.9
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 23
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 47.4
     contract_governance: 4.5
@@ -507,7 +515,7 @@ score:
   open_source:
     applies: true
     score: 100.0
-  previous_composite: 56.4
+  previous_composite: 56.9
   provenance:
     conformance: derived
     contracts:
@@ -523,8 +531,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

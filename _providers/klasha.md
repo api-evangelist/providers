@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 5
 apis:
 - description: Collect payments from customers in Africa via card, bank transfer, USSD, M-Pesa, mobile money and the Klasha wallet, including charge validation, refunds and exchange rates.
@@ -215,7 +215,7 @@ modified: '2026-07-19'
 name: Klasha
 nav: Providers
 network: true
-overview: 'Klasha publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Cross-Border Payments, Africa, and Emerging Markets.
+overview: 'Klasha is listed with 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Cross-Border Payments, Africa, and Emerging Markets.
 
 
   The Klasha catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -227,7 +227,7 @@ score:
   band: developing
   composite: 51.3
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -257,8 +257,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

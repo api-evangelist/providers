@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Access-as-a-Service is Payactiv's API-driven infrastructure for embedding Earned Wage Access, debit and payroll card programs, instant payouts, and HCM workforce-data workflows into a partner platform
@@ -41,6 +41,14 @@ apis:
   slug: payactiv-access-as-a-service-api
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://payactiv.com/category/blog/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://payactiv.com/category/blog/feed/
 - group: company
   title: ''
   type: Website
@@ -133,14 +141,14 @@ created: '2026-08-04'
 description: Payactiv is a Milpitas, California financial-worktech company that provides Earned Wage Access (EWA), a digital wallet, Visa prepaid and payroll cards, savings and financial-wellness services to hourly workers through their employers. Its developer-facing product, Access-as-a-Service, packages that platform as modular APIs so HCM, HRIS, payroll and benefits platforms can embed earned wage access, card issuance and transactions, instant payouts and workforce-data workflows under their own brand. The API surface is documented as OpenAPI-based inside a developer portal at developer.payactiv.com, which also carries the platform change log and sandbox environments; the portal requires an account, so no public specification, reference or sandbox values are reachable anonymously. Payactiv is registered with NMLS (ID 2591928) and holds state EWA licenses, and publishes a Trust Center citing SOC 2, ISO 27001, PCI DSS and CCPA.
 image: https://payactiv.com/wp-content/uploads/2021/04/cropped-siteicon-192x192.png
 layout: provider
-modified: '2026-08-04'
+modified: '2026-10-06'
 name: PayActiv
 nav: Providers
 network: true
-overview: 'PayActiv publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Earned Wage Access, Payments, and Payroll.
+overview: 'PayActiv is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Earned Wage Access, Payments, and Payroll.
 
 
-  PayActiv''s developer surface includes documentation, signup flow, support, engineering blog, and 13 more developer resources.'
+  PayActiv''s developer surface includes engineering blog, documentation, signup flow, support, and 15 more developer resources.'
 random_paper: 7
 score:
   band: emerging
@@ -173,8 +181,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 28.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

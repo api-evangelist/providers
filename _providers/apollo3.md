@@ -23,10 +23,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 14.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://ambiq.com/blog/feed/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/apollo3/refs/heads/main/vendors/apollo3-vendors.yml
   title: ''
@@ -88,25 +92,26 @@ created: '2026-09-25'
 description: Apollo3 is a technology company focused on developing advanced microcontroller platforms and IoT solutions. Founded to accelerate embedded innovation, Apollo3 offers hardware, firmware, and cloud services that enable developers to build low-power, high-performance applications across industries such as automotive, industrial automation, and consumer electronics. The company emphasizes open-source tools, comprehensive documentation, and robust SDKs to streamline product development cycles.
 image: https://ambiq.com/wp-content/uploads/2023/09/ambiq-visual.jpg
 layout: provider
-modified: '2026-09-25'
+modified: '2026-10-06'
 name: Apollo3
 nav: Providers
 network: true
 overview: 'Apollo3 is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, IoT, Embedded, Microcontroller, and Low Power.
 
 
-  Apollo3''s developer surface includes support, engineering blog, and 11 more developer resources.'
+  Apollo3''s developer surface includes support, engineering blog, and 12 more developer resources.'
 random_paper: 16
 score:
   band: emerging
   composite: 15.9
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 0.0
@@ -114,6 +119,7 @@ score:
     developer_ergonomics: 14.3
     discoverability: 57.1
     operational_transparency: 0.0
+  previous_composite: 15.9
   provenance:
     mcp: unknown
   regulatory:
@@ -122,12 +128,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 16.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/apollo3/refs/heads/main/screenshots/apollo3-2026-10-11T095948.png
 security:
 - kind: domain-security
   name: Apollo3 Domain Security

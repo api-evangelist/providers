@@ -32,10 +32,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://finli.com/insights/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://finli.com/feed/
 - group: company
   title: ''
   type: Website
@@ -86,20 +94,20 @@ created: '2026-07-17'
 description: Finli is a financial technology platform serving two markets. For small and medium-sized businesses it provides a full digital back office — professional invoicing and quoting, payment processing (ACH, credit card, and Apple Pay), customer relationship management, inventory tracking, and autopay. For banks and credit unions it delivers those same tools as a white-labeled offering so financial institutions can attract and deepen small-business relationships, keep deposits, and own their customer data without taking on operational risk. Finli is SOC 2 Type II certified and PCI DSS compliant, and was founded by CEO Lori Shao. Added to the API Evangelist network as a Techstars portfolio company; Finli publishes no public developer API at this time.
 image: https://finli.com/wp-content/uploads/2021/11/cropped-finli_circle_blue-larger-192x192.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Finli
 nav: Providers
 network: true
 overview: 'Finli is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Payments, Invoicing, and Small Business.
 
 
-  Finli''s developer surface includes pricing, signup flow, support, engineering blog, and 7 more developer resources.'
+  Finli''s developer surface includes engineering blog, pricing, signup flow, support, and 9 more developer resources.'
 random_paper: 2
 score:
   band: emerging
   composite: 18.7
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -122,8 +130,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 18.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 22
   slug: cariqa-agentic-access
   summary_line: 22 operations · 9 acting · 1 human-in-the-loop
-api_count: 1
+api_count: 2
 apis:
 - baseURL: https://connect.cariqa.com
   baseurl_source: declared
@@ -248,7 +248,7 @@ modified: '2026-07-18'
 name: Cariqa
 nav: Providers
 network: true
-overview: 'Cariqa publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Billing Details API, Charging Sessions API, Debts API, and 4 more. Tagged areas include Company, EV Charging, Electric Vehicles, Payments, and Mobility.
+overview: 'Cariqa publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Billing Details API, Charging Sessions API, Debts API, and 4 more. Tagged areas include Company, EV Charging, Electric Vehicles, Payments, and Mobility.
 
 
   Cariqa''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, quickstart, and 21 more developer resources.'
@@ -292,8 +292,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 24.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -27,20 +27,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.3
-  scored_at: '2026-10-04'
+  score: 15.4
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 1
+- acting_count: 0
   human_in_the_loop: 0
   name: Nasa Cmr Agentic Access
   operation_count: 10
   slug: nasa-cmr-agentic-access
-  summary_line: 10 operations · 1 acting
+  summary_line: 10 operations
 api_count: 2
 apis:
 - description: REST API for creating, updating, and deleting metadata records in the Common Metadata Repository. Supports collections, granules, variables, services, tools, and subscriptions. Requires EDL Bearer Tok
@@ -177,9 +177,13 @@ examples:
   name: Nasa Cmr Stac Landing Page
   slug: nasa-cmr-stac-landing-page
 finops:
-- name: Nasa Cmr Finops
+- has_sources: false
+  method: generated
+  name: Nasa Cmr Finops
+  primary_unit: ''
   service_category: ''
   slug: nasa-cmr-finops
+  template: true
 graphqls:
 - description: The NASA Common Metadata Repository (CMR) GraphQL API provides a unified interface for querying and managing Earth science metadata across NASA data centers. It exposes collections, granules, variable
   name: NASA CMR GraphQL API
@@ -218,7 +222,7 @@ modified: '2026-06-13'
 name: NASA CMR
 nav: Providers
 network: true
-overview: 'NASA CMR publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Capabilities API, Collections API, Data API, and 6 more. Tagged areas include NASA, Earth Science, Satellite Data, Remote Sensing, and Geospatial.
+overview: 'NASA CMR publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Capabilities API, Collections API, Data API, and 6 more. Tagged areas include NASA, Earth Science, Satellite Data, Remote Sensing, and Geospatial.
 
 
   The NASA CMR catalog on APIs.io includes 2 JSON-LD contexts and 1 Spectral governance ruleset.
@@ -235,9 +239,10 @@ rate_limits:
   name: Nasa Cmr Rate Limits
   slug: nasa-cmr-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: NASA CMR API Rules
+  name: NASA CMR — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -246,23 +251,23 @@ rules:
     warn: 3
   slug: nasa-cmr-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 41.8
+  band: thin
+  composite: 33.4
   coverage:
     artifact_dirs: 16
-    catalog_earned: 72.9
+    catalog_earned: 54.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 42.1
+    catalog_gap: 60.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.4
   facets:
-    access_clarity: 42.9
+    access_clarity: 14.5
     contract_governance: 9.8
     contract_quality: 55.7
     developer_ergonomics: 16.7
     discoverability: 66.1
-    operational_transparency: 65.3
+    operational_transparency: 44.7
   previous_composite: 41.8
   provenance:
     agentic_access: derived
@@ -277,9 +282,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

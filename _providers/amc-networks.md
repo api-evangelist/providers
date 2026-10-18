@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: AMC Global Media delivers entertainment content through cable networks, FAST channels and subscription streaming platforms. There is no public API, developer portal or machine-readable contract. Affil
@@ -44,6 +44,10 @@ apis:
   slug: amc-networks
 artifact_total: 19
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.amcglobalmedia.com/news/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/amc-networks/refs/heads/main/security/amc-networks-domain-security.yml
   title: ''
@@ -131,9 +135,13 @@ features:
 - description: AI-powered content indexing of AMC's original content library enabling contextual ad placement adjacent to relevant scenes.
   name: Contextual AI Advertising
 finops:
-- name: Amc Networks Finops
+- has_sources: true
+  method: generated
+  name: Amc Networks Finops
+  primary_unit: ''
   service_category: Media & Entertainment
   slug: amc-networks-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amc-networks.png
 integrations:
 - description: Expanded global streaming licensing relationship announced with AMC's Q2 2026 results, bringing AMC titles to Netflix.
@@ -145,14 +153,14 @@ integrations:
 - description: HIDIVE's streaming delivery runs on the third-party DICE platform, a vendor-operated surface rather than an AMC-published API.
   name: DICE (IMG Arena)
 layout: provider
-modified: '2026-09-02'
+modified: '2026-10-06'
 name: AMC Global Media
 nav: Providers
 network: true
-overview: 'AMC Global Media publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Entertainment, Streaming, Cable Television, Advertising, and Media.
+overview: 'AMC Global Media publishes no API. The 1 entry listed on the [APIs.io](https://apis.io/) network are product areas recorded for completeness, each marked as not an API. Tagged areas include Entertainment, Streaming, Cable Television, Advertising, and Media.
 
 
-  AMC Global Media''s developer surface includes engineering blog, support, and 10 more developer resources.'
+  AMC Global Media''s developer surface includes engineering blog, support, and 11 more developer resources.'
 plans:
 - name: Amc Networks Plans Pricing
   plan_count: 0
@@ -180,17 +188,17 @@ rate_limits:
   slug: amc-networks-rate-limits
 score:
   band: emerging
-  composite: 12.6
+  composite: 11.1
   coverage:
     artifact_dirs: 11
-    catalog_earned: 35.0
+    catalog_earned: 32.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 80.0
+    catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 28.9
+    access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
@@ -203,8 +211,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

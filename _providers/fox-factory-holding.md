@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The FOX storefront's Universal Commerce Protocol service, transported over the Model Context Protocol at https://ridefox.com/api/ucp/mcp. Anonymous JSON-RPC; every tool call carries a UCP agent profil
@@ -42,6 +42,11 @@ apis:
   slug: fox-factory-holding-api
 artifact_total: 8
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/fox-factory-holding/refs/heads/main/finops/fox-factory-holding-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/fox-factory-holding-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/fox-factory-holding/refs/heads/main/mcp/fox-factory-holding-mcp.yml
   title: ''
@@ -157,9 +162,13 @@ common:
 created: '2026-04-19'
 description: 'Fox Factory Holding Corp. (NASDAQ: FOXF) designs and manufactures performance ride dynamics products — FOX suspension for mountain bikes, trucks and powersports vehicles, plus Race Face and Easton Cycling components, Method Race Wheels, Tensor Tire and Marucci Sports. It runs no developer program and publishes no OpenAPI, but its direct-to-consumer storefronts do expose a real, callable agent surface: ridefox.com serves a live Model Context Protocol endpoint implementing the Universal Commerce Protocol (UCP 2026-08-25) at https://ridefox.com/api/ucp/mcp, answering an anonymous tools/list with 13 tools for catalog search, product lookup, cart lifecycle, checkout lifecycle and order retrieval. The store also publishes llms.txt and agents.md agent instructions, a UCP merchant profile, and OpenID Connect / OAuth 2.0 discovery documents for customer accounts. The same surface is served by the Race Face, Easton Cycling and Method Race Wheels storefronts.'
 finops:
-- name: Fox Factory Holding Finops
+- has_sources: true
+  method: generated
+  name: Fox Factory Holding Finops
+  primary_unit: ''
   service_category: Manufacturing & Components
   slug: fox-factory-holding-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fox-factory-holding.png
 layout: provider
 mcp_servers:
@@ -170,10 +179,10 @@ modified: '2026-09-14'
 name: Fox Factory Holding
 nav: Providers
 network: true
-overview: 'Fox Factory Holding publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Suspension, Cycling, Power-Sports, Manufacturing, and E-Commerce.
+overview: 'Fox Factory Holding is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Suspension, Cycling, Power-Sports, Manufacturing, and E-Commerce.
 
 
-  Fox Factory Holding''s developer surface includes authentication, documentation, engineering blog, support, and 20 more developer resources.'
+  Fox Factory Holding''s developer surface includes authentication, documentation, engineering blog, support, and 21 more developer resources.'
 plans:
 - name: Fox Factory Holding Plans Pricing
   plan_count: 0
@@ -190,17 +199,17 @@ scopes:
   summary_line: 4 scopes
 score:
   band: thin
-  composite: 27.8
+  composite: 26.2
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 48.0
+    artifact_dirs: 20
+    catalog_earned: 45.0
     catalog_earned_first_party: 8.0
-    catalog_gap: 67.0
+    catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 28.9
+    access_clarity: 21.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 30.4
@@ -217,8 +226,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 34.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.ollie.com/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/ollie/refs/heads/main/security/ollie-domain-security.yml
   title: ''
@@ -69,20 +73,20 @@ created: '2026-07-17'
 description: Ollie (ollie.com, formerly myollie.com) is a direct-to-consumer pet health company that makes fresh, human-grade dog food tailored to each dog. Customers build a personalized meal plan from their dog's profile (breed, age, weight, activity, allergies), and Ollie delivers pre-portioned, chef-and-vet-developed recipes on a recurring subscription, along with app-based health tracking and check-ins. The company reports having served more than one million dogs. Ollie is a venture-backed consumer brand and a portfolio company of Canaan Partners; it operates as a subscription e-commerce and mobile-app business and does not publish a public developer platform, API, or developer documentation.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ollie.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Ollie
 nav: Providers
 network: true
 overview: 'Ollie is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Pets, Pet Food, Dog Food, and Direct to Consumer.
 
 
-  Ollie''s developer surface includes engineering blog, signup flow, support, and 4 more developer resources.'
+  Ollie''s developer surface includes engineering blog, signup flow, support, and 5 more developer resources.'
 random_paper: 5
 score:
   band: emerging
   composite: 12.9
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -103,8 +107,8 @@ score:
     regime: Health
     regime_id: health
     score: 10.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

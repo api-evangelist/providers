@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -210,9 +210,13 @@ common:
 created: '2026-05-08'
 description: Weights & Biases is the ML developer platform for experiment tracking, model registry, artifact management, sweeps, reports, and (Weave) GenAI evaluation. The W&B API is primarily a GraphQL endpoint, surfaced through a Python `wandb.Api` SDK.
 finops:
-- name: Weights And Biases Finops
+- has_sources: true
+  method: generated
+  name: Weights And Biases Finops
+  primary_unit: ''
   service_category: ML
   slug: weights-and-biases-finops
+  template: false
 graphqls:
 - description: The W&B Public API is a GraphQL endpoint at `https://api.wandb.ai/graphql`. It backs the Python `wandb.Api()` SDK and exposes runs, projects, sweeps, artifacts, reports, registries, and automations. A
   name: Weights & Biases GraphQL API
@@ -223,13 +227,13 @@ modified: '2026-05-08'
 name: Weights & Biases
 nav: Providers
 network: true
-overview: 'Weights & Biases publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Calls API, Costs API, Feedback API, and 8 more. Tagged areas include Machine Learning, MLOps, Experiment Tracking, Model Registry, and Generative AI.
+overview: 'Weights & Biases publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Calls API, Costs API, Feedback API, and 8 more. Tagged areas include Machine Learning, MLOps, Experiment Tracking, Model Registry, and Generative AI.
 
 
   Weights & Biases'' developer surface includes authentication, developer portal, pricing, and 14 more developer resources.'
 plans:
 - name: Weights And Biases Plans Pricing
-  plan_count: 1
+  plan_count: 4
   slug: weights-and-biases-plans-pricing
 random_paper: 9
 rate_limits:
@@ -238,17 +242,17 @@ rate_limits:
   slug: weights-and-biases-rate-limits
 score:
   band: developing
-  composite: 41.3
+  composite: 44.3
   coverage:
     artifact_dirs: 11
-    catalog_earned: 44.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 71.0
+    catalog_earned: 51.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 64.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 3.0
   facets:
-    access_clarity: 23.7
+    access_clarity: 42.1
     contract_governance: 0.0
     contract_quality: 46.7
     developer_ergonomics: 38.1
@@ -267,12 +271,12 @@ score:
       total: 9
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 16.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -290,7 +294,7 @@ security:
 - kind: vulnerability-disclosure
   name: Weights And Biases Vulnerability Disclosure
   slug: weights-and-biases-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 slug: weights-and-biases
 tags:
 - Machine Learning

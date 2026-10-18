@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Reflexivity's institutional REST API. Documented by the company as "JSON REST based services" whose requests are authenticated with an OAuth 2.0 Bearer token obtained from the Reflexivity OAuth servic
@@ -44,6 +44,11 @@ apis:
   slug: reflexivity-api
 artifact_total: 6
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/reflexivity/refs/heads/main/rate-limits/reflexivity-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/reflexivity-rate-limits.yml
 - group: company
   title: ''
   type: Website
@@ -148,10 +153,10 @@ modified: '2026-08-26'
 name: Reflexivity
 nav: Providers
 network: true
-overview: 'Reflexivity publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Investment Analysis, Market Data, and Artificial Intelligence.
+overview: 'Reflexivity is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Investment Analysis, Market Data, and Artificial Intelligence.
 
 
-  Reflexivity''s developer surface includes documentation, API reference, engineering blog, support, signup flow, pricing, and 12 more developer resources.'
+  Reflexivity''s developer surface includes documentation, API reference, engineering blog, support, signup flow, pricing, and 13 more developer resources.'
 plans:
 - name: Reflexivity Plans Pricing
   plan_count: 0
@@ -194,8 +199,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 39.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

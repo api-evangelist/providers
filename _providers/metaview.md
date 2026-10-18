@@ -32,10 +32,23 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
-artifact_total: 2
+artifact_total: 3
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/metaview/refs/heads/main/plans/metaview-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/metaview-plans-pricing.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.metaview.ai/resources/blog
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://content.metaview.ai/rss/
 - group: company
   title: ''
   type: Website
@@ -83,28 +96,32 @@ created: '2026-07-17'
 description: Metaview is an AI-native, agentic recruiting platform used by more than 5,000 organizations to source, engage, and hire candidates. Its autonomous agents handle candidate sourcing, inbound application review against an Ideal Candidate Profile, AI interview notetaking purpose-built for recruiting, personalized outreach sequences, customizable recruiting reports, and job-post generation. Metaview integrates two-way with 60+ recruiting tools including ATS platforms (Ashby, Greenhouse, Lever, Gem, SmartRecruiters, Workday, SAP SuccessFactors), video conferencing (Zoom, Google Meet, Microsoft Teams), scheduling, and SSO providers. The company is backed by GV and Seedcamp. It exposes no public developer API today; this profile captures its identity, llms.txt, trust posture (SOC 2, GDPR), and domain security for the API Evangelist network.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/metaview.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Metaview
 nav: Providers
 network: true
 overview: 'Metaview is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Recruiting, Hiring, and Talent Acquisition.
 
 
-  Metaview''s developer surface includes pricing, engineering blog, and 8 more developer resources.'
+  Metaview''s developer surface includes engineering blog, pricing, and 11 more developer resources.'
+plans:
+- name: Metaview Plans Pricing
+  plan_count: 5
+  slug: metaview-plans-pricing
 random_paper: 8
 score:
   band: emerging
-  composite: 16.6
+  composite: 22.9
   coverage:
-    artifact_dirs: 5
-    catalog_earned: 27.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 88.0
+    artifact_dirs: 8
+    catalog_earned: 39.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.3
   facets:
-    access_clarity: 53.9
+    access_clarity: 85.5
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 2.4
@@ -117,13 +134,14 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 17.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/metaview/refs/heads/main/screenshots/metaview-2026-10-11T111046.png
 security:
 - kind: domain-security
   name: Metaview Domain Security

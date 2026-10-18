@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 29.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'Hyundai Developers exposes connected-car data from Bluelink-enrolled vehicles to third-party services over a REST API on prd.kr-ccapi.hyundai.com. Nineteen operations are published across five groups:'
@@ -48,6 +48,16 @@ asyncapis:
   name: Hyundai Webhooks
   slug: hyundai-webhooks
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/hyundai/refs/heads/main/rate-limits/hyundai-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/hyundai-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/hyundai/refs/heads/main/finops/hyundai-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/hyundai-finops.yml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -154,22 +164,26 @@ common:
 created: '2025-02-25'
 description: Hyundai Motor Company is a South Korean multinational automotive manufacturer and, through Hyundai Developers, the operator of a connected-car data platform for third-party developers. The platform exposes the Hyundai integrated account over OAuth 2.0 and serves nineteen documented REST operations covering user profile, vehicle list, connected-service contract dates, odometer, distance-to-empty, EV battery and charging state, and seven warning-light indicators, sourced from vehicles enrolled in Bluelink. Access is governed by a two-stage consent model built around the Korean Personal Information Protection Act — a per-vehicle OAuth consent plus a separate third-party data-provision consent — and a manual commercialization review before any real customer vehicle data is released. The API reference, a public sample-test tier with fixture vehicles, and the developer guide are all readable without an account; data is limited to vehicles in South Korea.
 finops:
-- name: Hyundai Finops
+- has_sources: false
+  method: generated
+  name: Hyundai Finops
+  primary_unit: ''
   service_category: API
   slug: hyundai-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hyundai.png
 layout: provider
 modified: '2026-09-13'
 name: Hyundai
 nav: Providers
 network: true
-overview: 'Hyundai publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Automobiles, Cars, Connected Vehicles, Mobility, and Vehicles.
+overview: 'Hyundai is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Automobiles, Cars, Connected Vehicles, Mobility, and Vehicles.
 
 
   The Hyundai catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Hyundai''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, changelog, and 17 more developer resources.'
+  Hyundai''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, changelog, and 19 more developer resources.'
 plans:
 - name: Hyundai Plans Pricing
   plan_count: 0
@@ -181,17 +195,17 @@ rate_limits:
   slug: hyundai-rate-limits
 score:
   band: developing
-  composite: 48.4
+  composite: 46.9
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 48.0
+    artifact_dirs: 21
+    catalog_earned: 45.0
     catalog_earned_first_party: 8.0
-    catalog_gap: 67.0
+    catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 31.6
+    access_clarity: 23.7
     contract_governance: 18.2
     contract_quality: 45.3
     developer_ergonomics: 61.9
@@ -214,8 +228,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

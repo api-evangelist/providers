@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.internationalpaper.com/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/international-paper/refs/heads/main/security/international-paper-domain-security.yml
   title: ''
@@ -61,7 +65,7 @@ created: '2026-03-21'
 description: International Paper is a Fortune 500 producer of fiber-based packaging, pulp, and paper products serving customers in more than 150 countries. The company does not currently publish a public developer API program; business integrations are handled through customer and supplier portals.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/international-paper.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-10-06'
 name: International Paper
 nav: Providers
 network: true
@@ -108,8 +112,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

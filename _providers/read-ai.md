@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 53.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: Open-beta public REST API for programmatic access to a user's Read AI meeting data. Three documented meeting endpoints — list meetings with cursor pagination and epoch-millisecond time filters, retrie
@@ -211,7 +211,7 @@ modified: '2026-08-05'
 name: Read AI
 nav: Providers
 network: true
-overview: 'Read AI publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Meeting Intelligence, Artificial Intelligence, Transcription, and Productivity.
+overview: 'Read AI is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Meeting Intelligence, Artificial Intelligence, Transcription, and Productivity.
 
 
   The Read AI catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -236,7 +236,7 @@ score:
   band: strong
   composite: 57.4
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 57.0
     catalog_earned_first_party: 20.0
     catalog_gap: 58.0
@@ -261,8 +261,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 36.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 5
 apis:
 - description: The Ola Ride Booking API enables affiliates and partners to let users find, book, and manage Ola rides directly within their applications. It covers ride availability checks, fare estimates, booking c
@@ -53,6 +53,21 @@ apis:
   slug: ola-maps
 artifact_total: 21
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/ola/refs/heads/main/plans/ola-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/ola-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/ola/refs/heads/main/rate-limits/ola-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/ola-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/ola/refs/heads/main/finops/ola-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/ola-finops.yml
 - group: company
   title: ''
   type: Website
@@ -120,9 +135,13 @@ features:
 - description: Ola Maps navigation and search APIs support 11+ Indian languages including Hindi, Tamil, Telugu, Kannada, and Marathi, with localization across web and mobile SDKs.
   name: Indic Language Support
 finops:
-- name: Ola Finops
+- has_sources: true
+  method: generated
+  name: Ola Finops
+  primary_unit: ''
   service_category: Mobility / Geospatial
   slug: ola-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ola.png
 integrations:
 - description: Ola Corporate bulk user management integrates with HR systems to sync employees and expense codes automatically.
@@ -139,13 +158,13 @@ modified: '2026-09-16'
 name: Ola
 nav: Providers
 network: true
-overview: 'Ola publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Ridesharing, Transportation, Maps, Geocoding, and Routing.
+overview: 'Ola is listed with 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Ride Hailing, Transportation, Maps, Geocoding, and Routing.
 
 
   The Ola catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Ola''s developer surface includes developer portal, documentation, signup flow, authentication, pricing, engineering blog, and 7 more developer resources.'
+  Ola''s developer surface includes developer portal, documentation, signup flow, authentication, pricing, engineering blog, and 10 more developer resources.'
 plans:
 - name: Ola Plans Pricing
   plan_count: 5
@@ -157,22 +176,22 @@ rate_limits:
   slug: ola-rate-limits
 score:
   band: thin
-  composite: 35.7
+  composite: 27.4
   coverage:
     artifact_dirs: 8
-    catalog_earned: 75.6
+    catalog_earned: 57.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 39.4
+    catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 60.0
+    access_clarity: 31.6
     contract_governance: 0.0
     contract_quality: 14.3
     developer_ergonomics: 42.9
     discoverability: 71.4
-    operational_transparency: 32.4
+    operational_transparency: 11.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -187,13 +206,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/ola/refs/heads/main/screenshots/ola-2026-10-11T111825.png
 security:
 - kind: domain-security
   name: Ola Domain Security
@@ -201,7 +221,7 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: ola
 tags:
-- Ridesharing
+- Ride Hailing
 - Transportation
 - Maps
 - Geocoding

@@ -34,15 +34,15 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 84
+- acting_count: 83
   human_in_the_loop: 4
   name: Lichess Agentic Access
-  operation_count: 185
+  operation_count: 188
   slug: lichess-agentic-access
-  summary_line: 185 operations · 84 acting · 4 human-in-the-loop
-api_count: 1
+  summary_line: 188 operations · 83 acting · 4 human-in-the-loop
+api_count: 2
 apis:
 - baseURL: https://lichess.dev
   baseurl_source: declared
@@ -564,7 +564,7 @@ modified: '2026-05-25'
 name: Lichess
 nav: Providers
 network: true
-overview: 'Lichess publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Account API, Analysis API, Board API, and 20 more. Tagged areas include Chess, Games, Open Source, Non-Profit, and Tournaments.
+overview: 'Lichess publishes 23 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Analysis API, Board API, and 20 more. Tagged areas include Chess, Games, Open Source, Non-Profit, and Tournaments.
 
 
   The Lichess catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -581,10 +581,11 @@ rate_limits:
   name: Lichess Rate Limits
   slug: lichess-rate-limits
 rules:
-- effective_rule_count: 36
+- authorship: generated
+  effective_rule_count: 36
   extends:
   - spectral:asyncapi
-  name: Lichess API Rules
+  name: Lichess — asyncapi rules
   rule_count: 9
   severity_counts:
     error: 1
@@ -592,9 +593,10 @@ rules:
     info: 1
     warn: 7
   slug: lichess-asyncapi-spectral-rules
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Lichess API Rules
+  name: Lichess — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -602,7 +604,8 @@ rules:
     info: 2
     warn: 3
   slug: lichess-jsonschema-spectral-rules
-- effective_rule_count: 11
+- authorship: unmarked
+  effective_rule_count: 11
   extends: []
   name: Lichess API Rules
   rule_count: 11
@@ -618,23 +621,23 @@ scopes:
   slug: lichess-scopes
   summary_line: 23 scopes · authorizationCode
 score:
-  band: strong
-  composite: 57.0
+  band: developing
+  composite: 51.6
   coverage:
     artifact_dirs: 19
-    catalog_earned: 79.5
+    catalog_earned: 66.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 35.5
+    catalog_gap: 48.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.4
   facets:
-    access_clarity: 40.0
+    access_clarity: 26.3
     contract_governance: 13.6
     contract_quality: 74.7
     developer_ergonomics: 63.1
     discoverability: 66.1
-    operational_transparency: 49.5
+    operational_transparency: 28.9
   previous_composite: 57.0
   provenance:
     agentic_access: derived
@@ -649,9 +652,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

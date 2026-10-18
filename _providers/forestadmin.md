@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 15.5
-  scored_at: '2026-10-04'
+  score: 13.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The Forest Admin Admin Backend is a REST API deployed on the customer's own infrastructure. It translates UI calls from the Forest Admin browser interface into database queries covering CRUD operation
@@ -107,9 +107,13 @@ common:
 created: 2026-06-12
 description: Forest Admin is an ops orchestration platform and internal tool builder that enables operations and compliance teams to manage data, workflows, and business processes through a customizable admin panel. It uses an agent-based architecture where developers deploy a REST API agent (Admin Backend) on their own infrastructure, keeping data entirely within client-controlled servers. The platform supports Node.js, Ruby on Rails, Python (Django/Flask), and PHP (Laravel/Symfony) agents that introspect data models and expose CRUD, filtering, pagination, and sorting capabilities through a generated Admin API. Forest Admin includes role-based access control (RBAC), JWT-based dual authentication, AI-assisted workflows, MCP server integration, SOC 2 compliance, and human-AI collaboration features for regulated industries such as fintech, KYC/AML, and payments operations.
 finops:
-- name: Forestadmin Finops
+- has_sources: false
+  method: generated
+  name: Forestadmin Finops
+  primary_unit: ''
   service_category: ''
   slug: forestadmin-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/forestadmin.png
 jsonld:
 - class_count: 12
@@ -121,7 +125,7 @@ modified: 2026-06-12
 name: Forest Admin
 nav: Providers
 network: true
-overview: 'Forest Admin publishes 1 API on the [APIs.io](https://apis.io/) network: REST API (Admin Backend). Tagged areas include Admin Panel, Internal Tools, RBAC, Workflow Automation, and CRUD.
+overview: 'Forest Admin is listed with 1 API on the [APIs.io](https://apis.io/) network: REST API (Admin Backend). Tagged areas include Admin Panel, Internal Tools, RBAC, Workflow Automation, and CRUD.
 
 
   The Forest Admin catalog on APIs.io includes 1 JSON-LD context.
@@ -138,23 +142,23 @@ rate_limits:
   name: Forestadmin Rate Limits
   slug: forestadmin-rate-limits
 score:
-  band: thin
-  composite: 32.6
+  band: emerging
+  composite: 24.3
   coverage:
-    artifact_dirs: 9
-    catalog_earned: 77.1
+    artifact_dirs: 10
+    catalog_earned: 58.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 37.9
+    catalog_gap: 56.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 46.8
+    access_clarity: 18.4
     contract_governance: 13.6
     contract_quality: 38.7
     developer_ergonomics: 4.8
     discoverability: 66.1
-    operational_transparency: 38.9
+    operational_transparency: 18.4
   previous_composite: 32.6
   regulatory:
     applies: true
@@ -162,9 +166,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.3
-  scored_at: '2026-10-04'
+  score: 20.4
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -84,6 +84,21 @@ collections:
   name: Google Apps Script API
   slug: open-openapi
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/google-apps-script/refs/heads/main/plans/google-apps-script-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/google-apps-script-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/google-apps-script/refs/heads/main/rate-limits/google-apps-script-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/google-apps-script-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/google-apps-script/refs/heads/main/finops/google-apps-script-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/google-apps-script-finops.yml
 - group: company
   title: ''
   type: Website
@@ -200,9 +215,13 @@ features:
 - Monitor script execution processes and metrics
 - Version management with immutable snapshots of script code
 finops:
-- name: Google Apps Script Finops
+- has_sources: false
+  method: generated
+  name: Google Apps Script Finops
+  primary_unit: ''
   service_category: API
   slug: google-apps-script-finops
+  template: true
 image: /assets/icons/google-apps-script.png
 integrations:
 - Google Workspace apps including Sheets, Docs, Slides, Gmail, and Calendar
@@ -316,13 +335,13 @@ modified: '2026-05-19'
 name: Google Apps Script
 nav: Providers
 network: true
-overview: 'Google Apps Script publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Processes API, processes:listScriptProcesses API, Projects API, and 1 more. Tagged areas include Apps Script, Automation, Deployment, Google, and Google Workspace.
+overview: 'Google Apps Script publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Processes API, processes:listScriptProcesses API, Projects API, and 1 more. Tagged areas include Apps Script, Automation, Deployment, Google, and Google Workspace.
 
 
   The Google Apps Script catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Google Apps Script''s developer surface includes getting-started guide, pricing, CLI, documentation, support, engineering blog, and 8 more developer resources.'
+  Google Apps Script''s developer surface includes getting-started guide, pricing, CLI, documentation, support, engineering blog, and 11 more developer resources.'
 plans:
 - name: Google Apps Script Plans Pricing
   plan_count: 3
@@ -333,9 +352,10 @@ rate_limits:
   name: Google Apps Script Rate Limits
   slug: google-apps-script-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: Google Apps Script API Rules
+  name: Google Apps Script — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -343,7 +363,8 @@ rules:
     info: 2
     warn: 4
   slug: google-apps-script-jsonschema-spectral-rules
-- effective_rule_count: 55
+- authorship: generated
+  effective_rule_count: 55
   extends:
   - spectral:oas
   name: Google Apps Script API Rules
@@ -356,17 +377,17 @@ rules:
   slug: google-apps-script-spectral-rules
 score:
   band: thin
-  composite: 36.1
+  composite: 34.6
   coverage:
     artifact_dirs: 16
-    catalog_earned: 60.9
+    catalog_earned: 57.9
     catalog_earned_first_party: 0.0
-    catalog_gap: 54.1
+    catalog_gap: 57.1
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 26.3
+    access_clarity: 18.4
     contract_governance: 13.6
     contract_quality: 54.7
     developer_ergonomics: 40.5
@@ -386,8 +407,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

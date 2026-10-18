@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://hdsupply.com/press
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/hd-supply-holdings/refs/heads/main/security/hd-supply-holdings-vulnerability-disclosure.yml
   title: ''
@@ -66,11 +70,14 @@ created: '2024-12-03'
 description: HD Supply is one of the largest industrial distributors in North America, providing maintenance, repair, and operations products and value-added services to multifamily, hospitality, healthcare, and government facilities. HD Supply operates as a wholly owned subsidiary of The Home Depot following its acquisition in 2020.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hd-supply-holdings.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-10-06'
 name: HD Supply Holdings
 nav: Providers
 network: true
-overview: HD Supply Holdings is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Industrial Distribution, Maintenance Repair Operations, Wholesale, Retail, and Fortune 500.
+overview: 'HD Supply Holdings is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Industrial Distribution, Maintenance Repair Operations, Wholesale, Retail, and Fortune 500.
+
+
+  HD Supply Holdings'' developer surface includes engineering blog and 6 more developer resources.'
 press:
 - date: ''
   title: The Home Depot Announces Agreement to Acquire HD ...
@@ -90,7 +97,7 @@ press:
 random_paper: 9
 score:
   band: minimal
-  composite: 5.0
+  composite: 5.5
   coverage:
     artifact_dirs: 7
     catalog_earned: 27.0
@@ -98,12 +105,12 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 55.4
     operational_transparency: 0.0
   previous_composite: 5.0
@@ -113,8 +120,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -129,7 +136,7 @@ security:
 - kind: vulnerability-disclosure
   name: Hd Supply Holdings Vulnerability Disclosure
   slug: hd-supply-holdings-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 slug: hd-supply-holdings
 tags:
 - Industrial Distribution

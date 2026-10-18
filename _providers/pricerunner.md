@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'Product and price data API marketed by Pricerunner for retailers and businesses: product search, competitor analysis, market trend identification, price history and automatic price matching across rou'
@@ -40,6 +40,10 @@ apis:
   slug: pricerunner-api
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.pricerunner.com/blog
 - group: company
   title: ''
   type: Website
@@ -73,31 +77,31 @@ created: '2026-07-17'
 description: Pricerunner is a product price-comparison platform founded in 1999 and owned by Klarna since 2022 (operated by Klarna Technologies AB). It helps shoppers compare prices and products across thousands of retailers in 13 countries (Sweden, Denmark, the UK, Norway, USA, Germany, Austria, Finland, France, Ireland, Italy, the Netherlands and Spain). Pricerunner markets a product-and-price-data API for retailers and businesses covering product search, competitor analysis, price history and automatic price matching across roughly 126 million daily-updated prices, but access is gated behind a sales contact form, with no public developer documentation, OpenAPI specification, or self-serve onboarding published.
 image: https://owp.klarna.com/images/assets/library/illustrations/b2b/signup/pr-emblem.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Pricerunner
 nav: Providers
 network: true
-overview: 'Pricerunner publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Price Comparison, E-Commerce, and Shopping.
+overview: 'Pricerunner is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Price Comparison, E-Commerce, and Shopping.
 
 
-  Pricerunner''s developer surface includes signup flow, support, and 5 more developer resources.'
+  Pricerunner''s developer surface includes engineering blog, signup flow, support, and 5 more developer resources.'
 random_paper: 9
 score:
   band: emerging
-  composite: 15.1
+  composite: 15.7
   coverage:
-    artifact_dirs: 2
+    artifact_dirs: 5
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 34.2
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 14.3
+    developer_ergonomics: 16.7
     discoverability: 57.1
     operational_transparency: 0.0
   previous_composite: 15.1
@@ -107,13 +111,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/pricerunner/refs/heads/main/screenshots/pricerunner-2026-10-11T192220.png
 security:
 - kind: domain-security
   name: Pricerunner Domain Security

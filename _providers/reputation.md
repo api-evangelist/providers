@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 26
+- acting_count: 24
   human_in_the_loop: 0
   name: Reputation Agentic Access
   operation_count: 67
   slug: reputation-agentic-access
-  summary_line: 67 operations · 26 acting
+  summary_line: 67 operations · 24 acting
 api_count: 1
 apis:
 - baseURL: https://api.reputation.com
@@ -372,9 +372,13 @@ examples:
   name: Reputation Send Review Request Example
   slug: reputation-send-review-request-example
 finops:
-- name: Reputation Finops
+- has_sources: false
+  method: generated
+  name: Reputation Finops
+  primary_unit: ''
   service_category: ''
   slug: reputation-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/reputation.png
 json_schemas:
 - name: Location
@@ -402,7 +406,7 @@ modified: '2026-08-13'
 name: Reputation
 nav: Providers
 network: true
-overview: 'Reputation publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Asset Library API, Authorize API, Categories API, and 13 more. Tagged areas include Reputation Management, Online Reviews, Business Listings, Surveys, and Social Listening.
+overview: 'Reputation publishes 16 API contracts indexed on the [APIs.io](https://apis.io/) network, including Asset Library API, Authorize API, Categories API, and 13 more. Tagged areas include Reputation Management, Online Reviews, Business Listings, Surveys, and Social Listening.
 
 
   The Reputation catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -419,9 +423,10 @@ rate_limits:
   name: Reputation Rate Limits
   slug: reputation-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Reputation API Rules
+  name: Reputation — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -431,17 +436,17 @@ rules:
   slug: reputation-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 61.8
+  composite: 60.3
   coverage:
-    artifact_dirs: 29
-    catalog_earned: 76.8
+    artifact_dirs: 30
+    catalog_earned: 73.8
     catalog_earned_first_party: 12.0
-    catalog_gap: 38.3
+    catalog_gap: 41.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 93.4
+    access_clarity: 85.5
     contract_governance: 41.7
     contract_quality: 65.3
     developer_ergonomics: 51.8
@@ -472,8 +477,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The Expel Workbench API is a gated REST API used by customers and technology partners to integrate with the Expel MDR platform. The API powers ingest of signals from endpoint, cloud, SIEM, identity, a
@@ -41,6 +41,21 @@ apis:
   slug: expel-workbench-api
 artifact_total: 27
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/expel/refs/heads/main/plans/expel-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/expel-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/expel/refs/heads/main/rate-limits/expel-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/expel-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/expel/refs/heads/main/finops/expel-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/expel-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/expel/refs/heads/main/security/expel-trust-center.yml
   title: ''
@@ -118,9 +133,13 @@ features:
 - description: Investigation, case-management, and analytics platform with REST API for customers and integration partners
   name: Workbench
 finops:
-- name: Expel Finops
+- has_sources: false
+  method: generated
+  name: Expel Finops
+  primary_unit: ''
   service_category: API
   slug: expel-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/expel.png
 integrations:
 - description: Native MDR integrations for AWS accounts, GuardDuty, and related cloud signals
@@ -144,10 +163,10 @@ modified: '2026-05-23'
 name: Expel
 nav: Providers
 network: true
-overview: 'Expel publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Cybersecurity, MDR, Managed Detection and Response, SOC, and SIEM.
+overview: 'Expel is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Cybersecurity, MDR, Managed Detection and Response, SOC, and SIEM.
 
 
-  Expel''s developer surface includes developer portal, engineering blog, and 12 more developer resources.'
+  Expel''s developer surface includes developer portal, engineering blog, and 15 more developer resources.'
 plans:
 - name: Expel Plans Pricing
   plan_count: 1
@@ -159,22 +178,22 @@ rate_limits:
   slug: expel-rate-limits
 score:
   band: emerging
-  composite: 22.0
+  composite: 16.0
   coverage:
     artifact_dirs: 8
-    catalog_earned: 54.4
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 60.6
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.0
   facets:
-    access_clarity: 45.3
+    access_clarity: 23.7
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
     discoverability: 73.2
-    operational_transparency: 18.9
+    operational_transparency: 5.3
   previous_composite: 22.0
   regulatory:
     applies: true
@@ -182,9 +201,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

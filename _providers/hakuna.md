@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 1
@@ -248,7 +248,7 @@ modified: '2026-07-19'
 name: Hakuna
 nav: Providers
 network: true
-overview: 'Hakuna publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Absences API, Company API, Management API, and 7 more. Tagged areas include Company, Time Tracking, Human Resources, Workforce Management, and Absence Management.
+overview: 'Hakuna publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Absences API, Company API, Management API, and 7 more. Tagged areas include Company, Time Tracking, Human Resources, Workforce Management, and Absence Management.
 
 
   Hakuna''s developer surface includes authentication, documentation, API reference, signup flow, pricing, support, engineering blog, and 17 more developer resources.'
@@ -300,8 +300,8 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

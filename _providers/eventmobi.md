@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 5
 apis:
 - description: Read and update the events an Organizer manages. Confirmed request patterns include GET and PATCH on the events collection and nested resources such as /events/{event_id}/images/. Each API key is scop
@@ -96,16 +96,20 @@ common:
 created: '2026-07-05'
 description: 'EventMobi is an event management platform for in-person, virtual, and hybrid events - event apps, registration and ticketing, event websites, badges and check-in, and live engagement - all configured through its Experience Manager. EventMobi exposes a documented public Unified API (UAPI) that lets organizers programmatically read and manage the data behind an event: events, people (attendees, speakers, and other participants), sessions, companies (sponsors and exhibitors), and groups. Access is gated by an EventMobi Organizer account - API keys are generated inside Experience Manager and carry the same access rights as the Organizer they belong to - so the API is available to paying customers rather than through open self-service signup.'
 finops:
-- name: Eventmobi Finops
+- has_sources: true
+  method: generated
+  name: Eventmobi Finops
+  primary_unit: ''
   service_category: Event Management
   slug: eventmobi-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/eventmobi.png
 layout: provider
 modified: '2026-07-05'
 name: EventMobi
 nav: Providers
 network: true
-overview: 'EventMobi publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Event, Event Management, Event Apps, Attendees, and Sessions.
+overview: 'EventMobi is listed with 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Event, Event Management, Event Apps, Attendees, and Sessions.
 
 
   EventMobi''s developer surface includes documentation, engineering blog, and 7 more developer resources.'
@@ -120,22 +124,22 @@ rate_limits:
   slug: eventmobi-rate-limits
 score:
   band: emerging
-  composite: 20.8
+  composite: 12.5
   coverage:
-    artifact_dirs: 7
-    catalog_earned: 64.6
+    artifact_dirs: 8
+    catalog_earned: 46.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 50.4
+    catalog_gap: 69.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 19.0
     discoverability: 71.4
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   previous_composite: 20.8
   regulatory:
     applies: true
@@ -143,9 +147,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

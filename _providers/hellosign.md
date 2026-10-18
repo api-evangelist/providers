@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 44.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 0
@@ -45,7 +45,7 @@ agentic_access:
   operation_count: 73
   slug: hellosign-agentic-access
   summary_line: 73 operations · 46 acting
-api_count: 1
+api_count: 2
 apis:
 - baseURL: https://api.hellosign.com/v3
   baseurl_source: declared
@@ -112,8 +112,11 @@ apis:
   description: '{''$ref'': ''./markdown/en/tags/oauth-tag-description.md''}'
   name: Dropbox Sign (HelloSign) O Auth API
   slug: hellosign-oauth-api
-artifact_total: 46
+artifact_total: 47
 asyncapis:
+- description: 'AsyncAPI description of the Dropbox Sign (formerly HelloSign) outbound event / callback surface. Dropbox Sign delivers event notifications by issuing HTTP POST requests to a subscriber-configured URL '
+  name: Dropbox Sign Events and Callbacks
+  slug: hellosign-events-asyncapi
 - description: ''
   name: Hellosign Events Webhooks
   slug: hellosign-events-webhooks
@@ -194,6 +197,18 @@ collections:
   name: Dropbox Sign Account Unclaimed Draft API
   slug: open-hellosign-unclaimed-draft-api
 common:
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/dropboxsign
+- group: company
+  title: ''
+  type: Blog
+  url: https://sign.dropbox.com/blog
+- group: agent
+  title: ''
+  type: LlmsText
+  url: https://developers.hellosign.com/llms.txt
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/hellosign/refs/heads/main/capabilities/hellosign-capability-edges.yml
   title: ''
@@ -385,13 +400,13 @@ modified: '2026-09-16'
 name: Dropbox Sign (HelloSign)
 nav: Providers
 network: true
-overview: 'Dropbox Sign (HelloSign) publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Account API, Api App API, Bulk Send Job API, and 10 more. Tagged areas include Company, E-Signature, Electronic Signature, Documents, and Digital Agreements.
+overview: 'Dropbox Sign (HelloSign) publishes 13 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Api App API, Bulk Send Job API, and 10 more. Tagged areas include Company, E-Signature, Documents, Digital Agreements, and Signature Workflow.
 
 
-  The Dropbox Sign (HelloSign) catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Dropbox Sign (HelloSign) catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
 
 
-  Dropbox Sign (HelloSign)''s developer surface includes authentication, sandbox, changelog, documentation, API reference, getting-started guide, support, and 32 more developer resources.'
+  Dropbox Sign (HelloSign)''s developer surface includes engineering blog, authentication, sandbox, changelog, documentation, API reference, getting-started guide, and 35 more developer resources.'
 random_paper: 19
 scopes:
 - name: Hellosign Scopes
@@ -400,20 +415,20 @@ scopes:
   summary_line: 7 scopes
 score:
   band: strong
-  composite: 59.6
+  composite: 60.2
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 27
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 60.5
     contract_governance: 18.2
     contract_quality: 58.6
-    developer_ergonomics: 64.9
+    developer_ergonomics: 67.3
     discoverability: 75.0
     operational_transparency: 50.0
   previous_composite: 59.6
@@ -437,8 +452,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -465,7 +480,6 @@ slug: hellosign
 tags:
 - Company
 - E-Signature
-- Electronic Signature
 - Documents
 - Digital Agreements
 - Signature Workflow

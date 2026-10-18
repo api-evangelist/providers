@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 3.8
-  scored_at: '2026-10-04'
+  score: 1.9
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The Aladdin Developer program provides APIs that enable clients to access BlackRock's Aladdin platform capabilities programmatically. Aladdin APIs support portfolio analytics, risk reporting, data acc
@@ -41,6 +41,21 @@ apis:
   slug: aladdin-api
 artifact_total: 29
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/blackrock/refs/heads/main/plans/blackrock-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/blackrock-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/blackrock/refs/heads/main/rate-limits/blackrock-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/blackrock-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/blackrock/refs/heads/main/finops/blackrock-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/blackrock-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/blackrock/refs/heads/main/security/blackrock-domain-security.yml
   title: ''
@@ -107,9 +122,13 @@ features:
 - description: Event-driven workflow APIs enabling clients to automate investment operations processes and integrate with third-party systems.
   name: Workflow Automation
 finops:
-- name: Blackrock Finops
+- has_sources: true
+  method: generated
+  name: Blackrock Finops
+  primary_unit: ''
   service_category: Asset Management Technology
   slug: blackrock-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/blackrock.png
 integrations:
 - description: Aladdin integrates with Charles River IMS for order management and compliance workflow automation.
@@ -144,13 +163,13 @@ modified: '2026-04-21'
 name: BlackRock
 nav: Providers
 network: true
-overview: 'BlackRock publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Asset Management, Finance, Fintech, Investment Management, and Portfolio Management.
+overview: 'BlackRock is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Asset Management, Finance, Fintech, Investment Management, and Portfolio Management.
 
 
   The BlackRock catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  BlackRock''s developer surface includes documentation, engineering blog, and 8 more developer resources.'
+  BlackRock''s developer surface includes documentation, engineering blog, and 11 more developer resources.'
 plans:
 - name: Blackrock Plans Pricing
   plan_count: 1
@@ -177,9 +196,10 @@ rate_limits:
   name: Blackrock Rate Limits
   slug: blackrock-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: BlackRock API Rules
+  name: BlackRock — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -187,7 +207,8 @@ rules:
     info: 2
     warn: 3
   slug: blackrock-jsonschema-spectral-rules
-- effective_rule_count: 5
+- authorship: unmarked
+  effective_rule_count: 5
   extends: []
   name: BlackRock API Rules
   rule_count: 5
@@ -199,17 +220,17 @@ rules:
   slug: blackrock-spectral-rules
 score:
   band: emerging
-  composite: 20.7
+  composite: 19.2
   coverage:
     artifact_dirs: 15
-    catalog_earned: 63.8
+    catalog_earned: 60.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 51.3
+    catalog_gap: 54.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 13.2
+    access_clarity: 5.3
     contract_governance: 23.5
     contract_quality: 29.2
     developer_ergonomics: 9.5
@@ -222,8 +243,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

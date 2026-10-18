@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.7
-  scored_at: '2026-10-04'
+  score: 26.6
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -86,6 +86,21 @@ collections:
   name: RentCast API
   slug: open-rentcast
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/rentcast/refs/heads/main/plans/rentcast-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/rentcast-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/rentcast/refs/heads/main/rate-limits/rentcast-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/rentcast-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/rentcast/refs/heads/main/finops/rentcast-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/rentcast-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/rentcast/refs/heads/main/capabilities/rentcast-capability-edges.yml
   title: ''
@@ -148,9 +163,13 @@ examples:
   name: Rentcast Rent Estimate Example
   slug: rentcast-rent-estimate-example
 finops:
-- name: Rentcast Finops
+- has_sources: false
+  method: generated
+  name: Rentcast Finops
+  primary_unit: ''
   service_category: API
   slug: rentcast-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rentcast.png
 json_schemas:
 - name: RentCast Property Estimate
@@ -173,13 +192,13 @@ modified: '2026-05-19'
 name: RentCast
 nav: Providers
 network: true
-overview: 'RentCast publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Avm API, Listings API, Markets API, and 1 more. Tagged areas include Real Estate, Property Data, Valuation, Rental Market, and AVM.
+overview: 'RentCast publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Avm API, Listings API, Markets API, and 1 more. Tagged areas include Real Estate, Property Data, Valuation, Rental Market, and AVM.
 
 
   The RentCast catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  RentCast''s developer surface includes authentication, developer portal, documentation, support, engineering blog, and 7 more developer resources.'
+  RentCast''s developer surface includes authentication, developer portal, documentation, support, engineering blog, and 10 more developer resources.'
 plans:
 - name: Rentcast Plans Pricing
   plan_count: 3
@@ -190,9 +209,10 @@ rate_limits:
   name: Rentcast Rate Limits
   slug: rentcast-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: RentCast API Rules
+  name: RentCast — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -200,7 +220,8 @@ rules:
     info: 2
     warn: 3
   slug: rentcast-jsonschema-spectral-rules
-- effective_rule_count: 48
+- authorship: unmarked
+  effective_rule_count: 48
   extends:
   - spectral:oas
   name: RentCast API Rules
@@ -213,17 +234,17 @@ rules:
   slug: rentcast-rules
 score:
   band: thin
-  composite: 38.0
+  composite: 36.5
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 68.4
+    artifact_dirs: 20
+    catalog_earned: 65.4
     catalog_earned_first_party: 0.0
-    catalog_gap: 46.6
+    catalog_gap: 49.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 27.3
     contract_quality: 60.5
     developer_ergonomics: 38.1
@@ -243,8 +264,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

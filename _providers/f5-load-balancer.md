@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -195,6 +195,21 @@ collections:
   name: F5 Load Balancer F5 BIG-IP Application Services 3 Extension (AS3) Config Virtual Servers API
   slug: open-f5-load-balancer-virtual-servers-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/f5-load-balancer/refs/heads/main/plans/f5-load-balancer-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/f5-load-balancer-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/f5-load-balancer/refs/heads/main/rate-limits/f5-load-balancer-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/f5-load-balancer-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/f5-load-balancer/refs/heads/main/finops/f5-load-balancer-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/f5-load-balancer-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/f5-load-balancer/refs/heads/main/capabilities/f5-load-balancer-capability-edges.yml
   title: ''
@@ -255,19 +270,23 @@ common:
 created: '2024-01-01'
 description: APIs for managing F5 BIG-IP Load Balancer configuration, monitoring, and operations. F5 BIG-IP is an application delivery controller that provides intelligent traffic management, load balancing, and application security.
 finops:
-- name: F5 Load Balancer Finops
+- has_sources: true
+  method: generated
+  name: F5 Load Balancer Finops
+  primary_unit: ''
   service_category: Application Delivery / Networking
   slug: f5-load-balancer-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/f5-load-balancer.png
 layout: provider
 modified: '2026-05-19'
 name: F5 Load Balancer
 nav: Providers
 network: true
-overview: 'F5 Load Balancer publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Config API, Data Groups API, Declarations API, and 14 more. Tagged areas include Application Delivery, BIG-IP, Load Balancer, Networking, and Traffic Management.
+overview: 'F5 Load Balancer publishes 17 API contracts indexed on the [APIs.io](https://apis.io/) network, including Config API, Data Groups API, Declarations API, and 14 more. Tagged areas include Application Delivery, BIG-IP, Load Balancer, Networking, and Traffic Management.
 
 
-  F5 Load Balancer''s developer surface includes authentication, developer portal, documentation, support, engineering blog, and 8 more developer resources.'
+  F5 Load Balancer''s developer surface includes authentication, developer portal, documentation, support, engineering blog, and 11 more developer resources.'
 plans:
 - name: F5 Load Balancer Plans Pricing
   plan_count: 4
@@ -279,17 +298,17 @@ rate_limits:
   slug: f5-load-balancer-rate-limits
 score:
   band: thin
-  composite: 37.0
+  composite: 35.5
   coverage:
     artifact_dirs: 12
-    catalog_earned: 49.0
+    catalog_earned: 46.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 66.0
+    catalog_gap: 69.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 44.7
+    access_clarity: 36.8
     contract_governance: 0.0
     contract_quality: 51.9
     developer_ergonomics: 26.2
@@ -309,8 +328,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

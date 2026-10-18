@@ -30,13 +30,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.8
-  scored_at: '2026-10-04'
+  score: 29.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 470
   human_in_the_loop: 12
@@ -380,7 +380,7 @@ arazzos:
 - description: Create a milestone and label, open an issue under them, and apply the label.
   name: Gitea Sprint Issue Setup
   slug: gitea-sprint-issue-setup-workflow
-artifact_total: 140
+artifact_total: 141
 collections:
 - collection_type: postman
   name: Gitea API
@@ -806,6 +806,10 @@ common:
   title: ''
   type: Vocabulary
   url: vocabulary/gitea-vocabulary.yml
+- group: design
+  title: ''
+  type: SpectralRules
+  url: https://github.com/go-gitea/gitea/blob/76aabbff9f0644743b30882b5910d9e1d818ec2e/.spectral.yaml
 created: '2026-05-06'
 description: Gitea is an open-source, self-hosted Git service and all-in-one DevOps platform written in Go and licensed under the MIT License. It provides Git hosting, code review, team collaboration, an integrated package registry across 24+ formats, issue tracking, project boards, and GitHub-Actions-compatible CI/CD via Gitea Actions. Gitea ships with a comprehensive Swagger 2.0 / OpenAPI-described REST API at /api/v1/ exposing roughly 300 operations across repositories, users, organizations, issues, packages, notifications, admin, and miscellaneous tags. The project is governed by CommitGo, Inc., which also offers Gitea Enterprise (self-managed, with SSO, audit logs and Kubernetes auto-scaling runners) and Gitea Cloud (single-tenant fully-managed hosting in multiple regions).
 examples:
@@ -900,9 +904,13 @@ features:
 - description: Pull and push mirrors plus one-shot migration import from GitHub, GitLab, Bitbucket, Gitea, and other sources.
   name: Mirroring And Migration
 finops:
-- name: Gitea Finops
+- has_sources: false
+  method: generated
+  name: Gitea Finops
+  primary_unit: ''
   service_category: Developer Tools / DevOps
   slug: gitea-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/gitea.png
 integrations:
 - description: GitHub-compatible workflow ecosystem; most public Actions run unmodified on Gitea Actions runners.
@@ -1033,13 +1041,13 @@ modified: '2026-06-20'
 name: Gitea
 nav: Providers
 network: true
-overview: 'Gitea publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Issue API, Miscellaneous API, and 10 more. Tagged areas include Gitea, Git, Source Control, DevOps, and CI/CD.
+overview: 'Gitea publishes 13 API contracts indexed on the [APIs.io](https://apis.io/) network, including Admin API, Issue API, Miscellaneous API, and 10 more. Tagged areas include Gitea, Git, Version Control, DevOps, and CI/CD.
 
 
-  The Gitea catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+  The Gitea catalog on APIs.io includes 1 JSON-LD context and 3 Spectral governance rulesets.
 
 
-  Gitea''s developer surface includes authentication, changelog, CLI, documentation, API reference, engineering blog, signup flow, and 77 more developer resources.'
+  Gitea''s developer surface includes authentication, changelog, CLI, documentation, API reference, engineering blog, signup flow, and 78 more developer resources.'
 plans:
 - name: Gitea Plans Pricing
   plan_count: 3
@@ -1050,9 +1058,22 @@ rate_limits:
   name: Gitea Rate Limits
   slug: gitea-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: provider
+  effective_rule_count: 41
+  extends:
+  - spectral:oas
+  name: Gitea — gitea rules
+  rule_count: 0
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 0
+    warn: 0
+  slug: gitea-gitea-spectral-rules
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: Gitea API Rules
+  name: Gitea — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -1060,7 +1081,8 @@ rules:
     info: 1
     warn: 5
   slug: gitea-jsonschema-spectral-rules
-- effective_rule_count: 57
+- authorship: unmarked
+  effective_rule_count: 57
   extends:
   - spectral:oas
   name: Gitea API Rules
@@ -1077,27 +1099,27 @@ scopes:
   slug: gitea-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: exemplar
-  composite: 73.0
+  band: strong
+  composite: 65.5
   coverage:
-    artifact_dirs: 35
-    catalog_earned: 82.6
+    artifact_dirs: 36
+    catalog_earned: 64.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 35.4
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -7.5
   facets:
-    access_clarity: 75.8
+    access_clarity: 47.4
     contract_governance: 31.8
     contract_quality: 60.6
     developer_ergonomics: 79.8
     discoverability: 64.3
-    operational_transparency: 62.6
+    operational_transparency: 42.1
   open_source:
     applies: true
     score: 100.0
-  previous_composite: 72.5
+  previous_composite: 73.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1113,9 +1135,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 37.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 22.2
@@ -1150,7 +1172,7 @@ solutions:
 tags:
 - Gitea
 - Git
-- Source Control
+- Version Control
 - DevOps
 - CI/CD
 - Code Hosting

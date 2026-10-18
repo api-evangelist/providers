@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.5
-  scored_at: '2026-10-04'
+  score: 19.6
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 8
+- acting_count: 7
   human_in_the_loop: 0
   name: Grab Agentic Access
   operation_count: 12
   slug: grab-agentic-access
-  summary_line: 12 operations · 8 acting
+  summary_line: 12 operations · 7 acting
 api_count: 1
 apis:
 - description: Grab ID is Grab's OAuth 2.0 / OpenID Connect identity provider. Partner applications use the Login With Grab flow to authenticate Grab consumers and obtain ID and access tokens scoped to a specific Gr
@@ -126,6 +126,21 @@ collections:
   name: Grab Partner APIs (GrabID, GrabPay, GrabExpress)
   slug: open-grab
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/grab/refs/heads/main/plans/grab-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/grab-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/grab/refs/heads/main/rate-limits/grab-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/grab-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/grab/refs/heads/main/finops/grab-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/grab-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/grab/refs/heads/main/capabilities/grab-capability-edges.yml
   title: ''
@@ -206,19 +221,23 @@ common:
 created: '2026-05-23'
 description: Grab is Southeast Asia's leading on-demand superapp, offering ride-hailing (GrabCar / GrabBike / GrabTaxi), food delivery (GrabFood), package delivery (GrabExpress), grocery and retail (GrabMart), digital payments (GrabPay), financial services (GrabFin), and a B2B / enterprise business unit (Grab for Business). Grab exposes a partner-grade developer platform at developer.grab.com covering ride pricing (Farefeed), delivery (Express, GrabFood, GrabMart), payments (GrabPay QR, One-Time Charge, Tokenisation, Grab POS), identity (Login with Grab), loyalty (GrabRewards / Points / GrabGifts), corporate accounts (Grab for Business), and digital products / bill payments via Grab Kios. The platform is OAuth 2.0 based with partner-issued client credentials.
 finops:
-- name: Grab Finops
+- has_sources: false
+  method: generated
+  name: Grab Finops
+  primary_unit: ''
   service_category: API
   slug: grab-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/grab.png
 layout: provider
 modified: '2026-05-23'
 name: Grab
 nav: Providers
 network: true
-overview: 'Grab publishes 19 APIs on the [APIs.io](https://apis.io/) network, including GrabExpress API, GrabID API, GrabPay API, and 16 more. Tagged areas include Ride Hailing, Food Delivery, Last Mile Delivery, Digital Payments, and Super App.
+overview: 'Grab publishes 19 API contracts indexed on the [APIs.io](https://apis.io/) network, including GrabExpress API, GrabID API, GrabPay API, and 16 more. Tagged areas include Ride Hailing, Food Delivery, Last Mile Delivery, Digital Payments, and Super App.
 
 
-  Grab''s developer surface includes authentication, documentation, GitHub presence, engineering blog, and 14 more developer resources.'
+  Grab''s developer surface includes authentication, documentation, GitHub presence, engineering blog, and 17 more developer resources.'
 plans:
 - name: Grab Plans Pricing
   plan_count: 1
@@ -229,23 +248,23 @@ rate_limits:
   name: Grab Rate Limits
   slug: grab-rate-limits
 score:
-  band: thin
-  composite: 29.9
+  band: emerging
+  composite: 23.8
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 54.4
+    artifact_dirs: 14
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 60.6
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.1
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 41.8
     developer_ergonomics: 23.8
     discoverability: 74.1
-    operational_transparency: 24.2
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
@@ -265,9 +284,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 16.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

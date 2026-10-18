@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -186,6 +186,25 @@ collections:
   name: Pixelfed REST Accounts Timelines API
   slug: open-pixelfed-timelines-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/pixelfed/refs/heads/main/plans/plans.yml
+  title: ''
+  type: Plans
+  url: plans/plans.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/pixelfed/refs/heads/main/rate-limits/rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/pixelfed/refs/heads/main/finops/finops.yml
+  title: ''
+  type: FinOps
+  url: finops/finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://pixelfed.org/blog/
 - group: company
   title: ''
   type: Website
@@ -237,9 +256,13 @@ common:
 created: '2024-01-01'
 description: Pixelfed is a decentralized, federated photo-sharing platform and open-source alternative to Instagram. Built on the ActivityPub protocol, it connects with the broader Fediverse — including Mastodon, PeerTube, and other federated networks — while giving users full ownership of their content. Pixelfed exposes a REST API that is broadly compatible with the Mastodon v1/v2 API, covering media uploads, status management, timelines, notifications, follower graphs, direct messages, stories, collections, and administrative functions. Developers can register OAuth2 applications against any public Pixelfed instance and build clients using the same patterns used for Mastodon- compatible apps.
 finops:
-- name: Finops
+- has_sources: false
+  method: generated
+  name: Finops
+  primary_unit: ''
   service_category: ''
   slug: finops
+  template: true
 image: https://pixelfed.org/img/logo.svg
 jsonld:
 - class_count: 0
@@ -247,17 +270,17 @@ jsonld:
   property_count: 0
   slug: pixelfed
 layout: provider
-modified: '2026-09-16'
+modified: '2026-10-06'
 name: Pixelfed
 nav: Providers
 network: true
-overview: 'Pixelfed publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Blocks and Mutes API, Bookmarks API, and 14 more. Tagged areas include Fediverse, ActivityPub, Photo Sharing, Social Media, and Open Source.
+overview: 'Pixelfed publishes 17 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, Blocks and Mutes API, Bookmarks API, and 14 more. Tagged areas include Fediverse, ActivityPub, Photo Sharing, Social Media, and Open Source.
 
 
   The Pixelfed catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Pixelfed''s developer surface includes authentication and 10 more developer resources.'
+  Pixelfed''s developer surface includes engineering blog, authentication, and 13 more developer resources.'
 plans:
 - name: Plans
   plan_count: 3
@@ -273,23 +296,23 @@ scopes:
   slug: pixelfed-scopes
   summary_line: 4 scopes · authorizationCode
 score:
-  band: developing
-  composite: 44.2
+  band: thin
+  composite: 37.2
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 66.6
+    artifact_dirs: 15
+    catalog_earned: 48.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 48.4
+    catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.0
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 53.6
-    developer_ergonomics: 9.5
+    developer_ergonomics: 11.9
     discoverability: 66.1
-    operational_transparency: 60.0
+    operational_transparency: 39.5
   open_source:
     applies: true
     score: 100.0
@@ -307,9 +330,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

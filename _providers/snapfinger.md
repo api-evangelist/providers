@@ -33,10 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.tillster.com/blog
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/snapfinger/refs/heads/main/security/snapfinger-domain-security.yml
   title: ''
@@ -50,17 +54,20 @@ created: '2026-07-17'
 description: Snapfinger was an online and mobile food-ordering platform that let diners browse menus and place takeout and delivery orders across a network of restaurant brands. The snapfinger.com domain now 301-redirects to Tillster, the restaurant-commerce company (ordering, kiosk, loyalty, menu, and data solutions for 40,000+ restaurants), so Snapfinger operates today as a defunct brand absorbed into Tillster. No public API, developer portal, OpenAPI specification, or SDK surface is published under the Snapfinger name. It remains in the API Evangelist network as a Norwest Venture Partners portfolio lead pending any future developer surface.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/snapfinger.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Snapfinger
 nav: Providers
 network: true
-overview: Snapfinger is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Restaurant Technology, Food Ordering, Online Ordering, and Restaurant.
+overview: 'Snapfinger is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Restaurant Technology, Food Ordering, Online Ordering, and Restaurant.
+
+
+  Snapfinger''s developer surface includes engineering blog and 2 more developer resources.'
 random_paper: 13
 score:
   band: minimal
   composite: 0.0
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -82,8 +89,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

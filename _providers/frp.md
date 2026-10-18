@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.5
-  scored_at: '2026-10-04'
+  score: 23.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -129,6 +129,21 @@ collections:
   name: frp Client Admin Clients Store API
   slug: open-frp-store-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/frp/refs/heads/main/plans/frp-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/frp-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/frp/refs/heads/main/rate-limits/frp-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/frp-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/frp/refs/heads/main/finops/frp-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/frp-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/frp/refs/heads/main/agentic-access/frp-agentic-access.yml
   title: ''
@@ -175,19 +190,23 @@ common:
 created: '2026-03-27'
 description: frp is an open-source fast reverse proxy that exposes services running behind a NAT or firewall to the public internet. Both the server (frps) and the client (frpc) include built-in HTTP admin APIs that operators can use to inspect runtime status, manage proxies and visitors, hot-reload configuration, and scrape Prometheus metrics.
 finops:
-- name: Frp Finops
+- has_sources: false
+  method: generated
+  name: Frp Finops
+  primary_unit: ''
   service_category: API
   slug: frp-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/frp.png
 layout: provider
 modified: '2026-05-19'
 name: frp
 nav: Providers
 network: true
-overview: 'frp publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Clients API, Configuration API, Health API, and 6 more. Tagged areas include NAT Traversal, Reverse Proxy, Tunneling, and Open Source.
+overview: 'frp publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Clients API, Configuration API, Health API, and 6 more. Tagged areas include NAT Traversal, Reverse Proxy, Tunneling, and Open Source.
 
 
-  frp''s developer surface includes authentication, documentation, getting-started guide, release notes, and 6 more developer resources.'
+  frp''s developer surface includes authentication, documentation, getting-started guide, release notes, and 9 more developer resources.'
 plans:
 - name: Frp Plans Pricing
   plan_count: 3
@@ -199,17 +218,17 @@ rate_limits:
   slug: frp-rate-limits
 score:
   band: thin
-  composite: 29.7
+  composite: 28.2
   coverage:
     artifact_dirs: 10
-    catalog_earned: 36.0
+    catalog_earned: 33.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 79.0
+    catalog_gap: 82.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 50.2
     developer_ergonomics: 33.3
@@ -229,8 +248,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

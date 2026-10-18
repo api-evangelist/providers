@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -356,7 +356,7 @@ modified: '2026-09-16'
 name: Nestcoin
 nav: Providers
 network: true
-overview: 'Nestcoin publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Auth OAUTH API, Auth Userauth API, Exchange External API, and 20 more. Tagged areas include Company, Fintech, Crypto, Exchange, and On-Off Ramp.
+overview: 'Nestcoin publishes 23 API contracts indexed on the [APIs.io](https://apis.io/) network, including Auth OAUTH API, Auth Userauth API, Exchange External API, and 20 more. Tagged areas include Company, Fintech, Cryptocurrency, Exchange, and On-Off Ramp.
 
 
   The Nestcoin catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -404,8 +404,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 22.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -424,7 +424,7 @@ slug: nestcoin
 tags:
 - Company
 - Fintech
-- Crypto
+- Cryptocurrency
 - Exchange
 - On-Off Ramp
 - Payments

@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: verified
     openapi_examples: documented
     protected_resource_metadata: verified
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 51.5
-  scored_at: '2026-10-04'
+  score: 49.6
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -735,9 +735,13 @@ features:
 - description: Native integrations with STC Pay, mada, Apple Pay, Tabby, Tamara, HyperPay, Mada Pay, Aramex, SMSA, DHL, J&T, and other regional payment and logistics providers.
   name: Saudi Payments and Logistics
 finops:
-- name: Salla Finops
+- has_sources: true
+  method: generated
+  name: Salla Finops
+  primary_unit: store
   service_category: Commerce Platform
   slug: salla-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/salla.png
 integrations:
 - description: Native STC Bank digital wallet payment option across all Salla-powered stores.
@@ -782,7 +786,7 @@ modified: '2026-09-16'
 name: Salla
 nav: Providers
 network: true
-overview: 'Salla publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Webhooks, Branches API, Brands API, and 15 more. Tagged areas include Arabic, E-Commerce, GCC, Headless Commerce, and Merchants.
+overview: 'Salla publishes 18 API contracts indexed on the [APIs.io](https://apis.io/) network, including Webhooks, Branches API, Brands API, and 15 more. Tagged areas include Arabic, E-Commerce, GCC, Headless Commerce, and Merchants.
 
 
   The Salla catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -799,9 +803,10 @@ rate_limits:
   name: Salla Rate Limits
   slug: salla-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Salla API Rules
+  name: Salla — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -809,7 +814,8 @@ rules:
     info: 1
     warn: 4
   slug: salla-jsonschema-spectral-rules
-- effective_rule_count: 50
+- authorship: unmarked
+  effective_rule_count: 50
   extends:
   - spectral:oas
   name: Salla API Rules
@@ -826,29 +832,30 @@ scopes:
   slug: salla-scopes
   summary_line: 11 scopes · authorizationCode
 score:
-  band: exemplar
-  composite: 68.3
+  band: strong
+  composite: 61.6
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 82.6
+    artifact_dirs: 24
+    catalog_earned: 67.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 32.4
+    catalog_gap: 48.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.7
   facets:
-    access_clarity: 81.1
+    access_clarity: 60.5
     contract_governance: 27.3
     contract_quality: 65.6
     developer_ergonomics: 82.1
     discoverability: 65.0
-    operational_transparency: 65.3
+    operational_transparency: 44.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - saudi-arabia
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
+    - mena
     - middle-east
   previous_composite: 68.3
   provenance:
@@ -865,9 +872,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 31.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

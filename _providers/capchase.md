@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 5
@@ -63,6 +63,10 @@ collections:
   name: Capchase Pay API
   slug: open-capchase-pay-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.capchase.com/blog/rss.xml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/capchase/refs/heads/main/mcp/capchase-mcp.yml
   title: ''
@@ -165,14 +169,14 @@ created: '2026-07-17'
 description: 'Capchase provides embedded financing and B2B payment infrastructure for software and hardware vendors. Its Capchase Pay API lets vendors offer buyers flexible installment payment terms at checkout while the vendor is paid the full contract value upfront. Vendors create buyer companies, run automated KYB/underwriting qualification, create subscriptions that generate hosted payment links, list and retrieve subscription status, and pull instalment receipts. The v2 REST API is served from universe.capchase.com, uses HTTP Basic authentication (clientId / clientSecret), ships a Playground environment, and is documented on a ReadMe developer portal with an OpenAPI reference and an AI-agent llms.txt index. Sector: fintech; backed by QED Investors.'
 image: https://cdn.prod.website-files.com/6146543ab50f167ae088b201/61701898ec2756274d6e8665_256px.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Capchase
 nav: Providers
 network: true
-overview: 'Capchase publishes 1 API on the [APIs.io](https://apis.io/) network: Pay API. Tagged areas include Company, Fintech, Payments, Embedded Finance, and Financing.
+overview: 'Capchase publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Pay API. Tagged areas include Company, Fintech, Payments, Embedded Finance, and Financing.
 
 
-  Capchase''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, signup flow, sandbox, and 15 more developer resources.'
+  Capchase''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, signup flow, sandbox, and 16 more developer resources.'
 random_paper: 10
 score:
   band: developing
@@ -213,8 +217,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 26.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

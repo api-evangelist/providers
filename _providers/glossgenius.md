@@ -32,10 +32,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 0
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://glossgenius.com/blog
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://glossgenius.com/blog/rss.xml
 - group: company
   title: ''
   type: Website
@@ -76,14 +84,14 @@ created: '2026-07-17'
 description: GlossGenius is a business management platform for the beauty, wellness, and health services industry, combining appointment scheduling, integrated payment processing (flat 2.6% rate), point of sale, marketing, client management, staff and payroll tools, and AI agents that answer booking inquiries and follow up with clients. It serves solo professionals and multi-location businesses such as salons, spas, barbershops, and medspas, powering more than 120,000 appointment-based businesses. GlossGenius was surfaced as a portfolio company of Bessemer Venture Partners and Techstars and added to the API Evangelist network. As of this enrichment pass GlossGenius publishes no public developer API, OpenAPI, SDKs, MCP server, or developer portal; this profile captures the company identity and public link surface only.
 image: https://cdn.prod.website-files.com/6292053974c40677f3ec8971/6931ab749d973d252352c9c0_Homepage-OG-1200x630.webp
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: GlossGenius
 nav: Providers
 network: true
 overview: 'GlossGenius is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Vertical Software, Beauty, Wellness, and Salon Software.
 
 
-  GlossGenius'' developer surface includes pricing, signup flow, engineering blog, support, and 5 more developer resources.'
+  GlossGenius'' developer surface includes engineering blog, pricing, signup flow, support, and 7 more developer resources.'
 random_paper: 15
 score:
   band: emerging
@@ -116,8 +124,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 7.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 5
 apis:
 - description: Single GraphQL endpoint delivering Spire's satellite AIS maritime data - vessel positions, voyages, port calls, and predicted ETAs - with flexible querying for analytics and integration use cases. Now
@@ -53,6 +53,21 @@ apis:
   slug: rf-geolocation
 artifact_total: 10
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/spire-global/refs/heads/main/plans/spire-global-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/spire-global-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/spire-global/refs/heads/main/rate-limits/spire-global-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/spire-global-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/spire-global/refs/heads/main/finops/spire-global-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/spire-global-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/spire-global/refs/heads/main/security/spire-global-domain-security.yml
   title: ''
@@ -109,9 +124,13 @@ common:
 created: '2026-05-23'
 description: 'Spire Global operates a constellation of more than 100 LEMUR nanosatellites collecting maritime AIS, aviation ADS-B, GNSS-RO weather profiles, and RF geolocation data, and offers Space Services for hosted payloads and managed satellite missions. Its data products are exposed as developer-friendly APIs: Spire Maritime 2.0 (now operated by Kpler) delivers vessel-tracking AIS through a GraphQL endpoint; Spire Aviation publishes REST APIs and real-time streams for flight metadata, live ADS-B tracking, historic positions, and event feeds; Spire Weather and Climate provides RESTful weather and ocean data APIs including 30 years of maritime weather history; and Spire Space Services exposes a developer portal for managed satellite operations. Spire''s APIs are documented at product-specific subdomains and authenticated with API keys.'
 finops:
-- name: Spire Global Finops
+- has_sources: false
+  method: generated
+  name: Spire Global Finops
+  primary_unit: ''
   service_category: API
   slug: spire-global-finops
+  template: true
 graphqls:
 - description: Single GraphQL endpoint delivering Spire's satellite AIS maritime data - vessel positions, voyages, port calls, and predicted ETAs - with flexible querying for analytics and integration use cases. Now
   name: Spire Global GraphQL API
@@ -122,7 +141,7 @@ modified: '2026-05-23'
 name: Spire Global
 nav: Providers
 network: true
-overview: Spire Global publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Satellite, Earth Observation, AIS, Maritime, and ADS-B.
+overview: Spire Global is listed with 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Satellite, Earth Observation, AIS, Maritime, and ADS-B.
 plans:
 - name: Spire Global Plans Pricing
   plan_count: 1
@@ -133,23 +152,23 @@ rate_limits:
   name: Spire Global Rate Limits
   slug: spire-global-rate-limits
 score:
-  band: emerging
-  composite: 15.8
+  band: minimal
+  composite: 9.8
   coverage:
     artifact_dirs: 8
-    catalog_earned: 57.4
+    catalog_earned: 44.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.6
+    catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.0
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 9.5
     discoverability: 72.3
-    operational_transparency: 21.6
+    operational_transparency: 7.9
   previous_composite: 15.8
   regulatory:
     applies: true
@@ -157,9 +176,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

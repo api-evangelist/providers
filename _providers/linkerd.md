@@ -27,20 +27,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 7
+- acting_count: 3
   human_in_the_loop: 1
   name: Linkerd Agentic Access
-  operation_count: 12
+  operation_count: 11
   slug: linkerd-agentic-access
-  summary_line: 12 operations · 7 acting · 1 human-in-the-loop
+  summary_line: 11 operations · 3 acting · 1 human-in-the-loop
 api_count: 3
 apis:
 - description: The Linkerd Proxy Control Plane gRPC API defines the protobuf service contracts used by the data-plane proxy to communicate with the control plane. It includes the Destination API for service discover
@@ -136,6 +136,21 @@ collections:
   name: Linkerd Viz Metrics API
   slug: open-linkerd-viz-metrics
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/linkerd/refs/heads/main/plans/linkerd-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/linkerd-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/linkerd/refs/heads/main/rate-limits/linkerd-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/linkerd-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/linkerd/refs/heads/main/finops/linkerd-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/linkerd-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/linkerd/refs/heads/main/capabilities/linkerd-capability-edges.yml
   title: ''
@@ -244,9 +259,13 @@ common:
 created: '2025-08-19'
 description: Service mesh without the mess. Linkerd adds security, observability, and reliability to any Kubernetes cluster without the complexity of bloat of other meshes.
 finops:
-- name: Linkerd Finops
+- has_sources: true
+  method: generated
+  name: Linkerd Finops
+  primary_unit: ''
   service_category: Service Mesh / Kubernetes Infrastructure
   slug: linkerd-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/linkerd.png
 json_schemas:
 - name: Linkerd Edge
@@ -274,13 +293,13 @@ modified: '2026-05-19'
 name: Linkerd
 nav: Providers
 network: true
-overview: 'Linkerd publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Discovery API, Edges API, Gateways API, and 8 more. Tagged areas include Kubernetes, mTLS, Observability, Security, and Service Mesh.
+overview: 'Linkerd publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Discovery API, Edges API, Gateways API, and 8 more. Tagged areas include Kubernetes, mTLS, Observability, Security, and Service Mesh.
 
 
   The Linkerd catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Linkerd''s developer surface includes documentation, getting-started guide, engineering blog, changelog, support, release notes, Stack Overflow tag, and 18 more developer resources.'
+  Linkerd''s developer surface includes documentation, getting-started guide, engineering blog, changelog, support, release notes, Stack Overflow tag, and 21 more developer resources.'
 plans:
 - name: Linkerd Plans Pricing
   plan_count: 5
@@ -291,9 +310,10 @@ rate_limits:
   name: Linkerd Rate Limits
   slug: linkerd-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: Linkerd API Rules
+  name: Linkerd — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -303,17 +323,17 @@ rules:
   slug: linkerd-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 37.0
+  composite: 35.7
   coverage:
-    artifact_dirs: 14
-    catalog_earned: 56.3
+    artifact_dirs: 15
+    catalog_earned: 53.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 58.8
+    catalog_gap: 61.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.3
   facets:
-    access_clarity: 26.3
+    access_clarity: 18.4
     contract_governance: 9.8
     contract_quality: 51.3
     developer_ergonomics: 35.7
@@ -336,8 +356,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 14.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

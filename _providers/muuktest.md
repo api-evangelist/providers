@@ -32,10 +32,19 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
-artifact_total: 1
+artifact_total: 2
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/muuktest/refs/heads/main/plans/muuktest-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/muuktest-plans-pricing.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://muuktest.com/blog/rss.xml
 - group: company
   title: ''
   type: Website
@@ -69,28 +78,32 @@ created: '2026-07-17'
 description: MuukTest (MuukLabs) is an AI-powered test automation and managed QA services company founded in 2019 that helps software teams reach high end-to-end test coverage in weeks rather than months. It blends an AI-driven automation platform with expert QA engineers to deliver end-to-end, functional, regression, API, and performance testing across web, mobile, and API surfaces, using self-healing scripts (Playwright, Selenium, Appium), CI/CD integration, and detailed bug reporting with repro steps, logs, recordings, and Slack alerts. MuukTest is a managed testing service delivered through a Chrome recorder and a dedicated team rather than a self-service public developer API; it is backed by Techstars, the NSF SBIR program, MassChallenge, and Google for Startups.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/muuktest.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Muuktest
 nav: Providers
 network: true
 overview: 'Muuktest is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Testing, Test Automation, QA, and Quality Assurance.
 
 
-  Muuktest''s developer surface includes pricing, engineering blog, support, and 4 more developer resources.'
+  Muuktest''s developer surface includes pricing, engineering blog, support, and 6 more developer resources.'
+plans:
+- name: Muuktest Plans Pricing
+  plan_count: 2
+  slug: muuktest-plans-pricing
 random_paper: 18
 score:
   band: emerging
-  composite: 12.1
+  composite: 16.4
   coverage:
-    artifact_dirs: 4
-    catalog_earned: 27.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 88.0
+    artifact_dirs: 5
+    catalog_earned: 35.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 4.3
   facets:
-    access_clarity: 31.6
+    access_clarity: 52.6
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
@@ -103,8 +116,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 12.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

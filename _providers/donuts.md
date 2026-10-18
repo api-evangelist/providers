@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'HTTP Reports API for accredited registrars: retrieves weekly domain and billing report files (CSV, gzip-compressed) from the Identity Digital registry. Authenticated with registrar login credentials o'
@@ -86,7 +86,7 @@ modified: '2026-07-18'
 name: Donuts
 nav: Providers
 network: true
-overview: 'Donuts publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Infrastructure, Domains, DNS, and Domain Registry.
+overview: 'Donuts is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Infrastructure, Domains, DNS, and Domain Registry.
 
 
   Donuts'' developer surface includes documentation, API reference, support, engineering blog, and 5 more developer resources.'
@@ -116,8 +116,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

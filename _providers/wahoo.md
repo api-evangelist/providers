@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.2
-  scored_at: '2026-10-04'
+  score: 25.3
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 1
@@ -127,6 +127,16 @@ collections:
   name: Wahoo Cloud Permissions Workouts API
   slug: open-wahoo-workouts-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/wahoo/refs/heads/main/plans/wahoo-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/wahoo-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/wahoo/refs/heads/main/rate-limits/wahoo-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/wahoo-rate-limits.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/wahoo/refs/heads/main/agentic-access/wahoo-agentic-access.yml
   title: ''
@@ -227,13 +237,13 @@ modified: '2026-05-25'
 name: Wahoo Fitness
 nav: Providers
 network: true
-overview: 'Wahoo Fitness publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Permissions API, Plans API, Power Zones API, and 7 more. Tagged areas include Fitness, Cycling, Endurance Training, Bike Computers, and Smart Trainers.
+overview: 'Wahoo Fitness publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Permissions API, Plans API, Power Zones API, and 7 more. Tagged areas include Fitness, Cycling, Endurance Training, Bike Computers, and Smart Trainers.
 
 
   The Wahoo Fitness catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Wahoo Fitness'' developer surface includes authentication, API reference, GitHub presence, support, engineering blog, YouTube channel, and 11 more developer resources.'
+  Wahoo Fitness'' developer surface includes authentication, API reference, GitHub presence, support, engineering blog, YouTube channel, and 13 more developer resources.'
 plans:
 - name: Wahoo Plans Pricing
   plan_count: 2
@@ -244,10 +254,11 @@ rate_limits:
   name: Wahoo Rate Limits
   slug: wahoo-rate-limits
 rules:
-- effective_rule_count: 29
+- authorship: generated
+  effective_rule_count: 29
   extends:
   - spectral:asyncapi
-  name: Wahoo Fitness API Rules
+  name: Wahoo Fitness — asyncapi rules
   rule_count: 2
   severity_counts:
     error: 0
@@ -255,9 +266,10 @@ rules:
     info: 0
     warn: 2
   slug: wahoo-asyncapi-spectral-rules
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Wahoo Fitness API Rules
+  name: Wahoo Fitness — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -272,22 +284,22 @@ scopes:
   summary_line: 12 scopes · authorizationCode
 score:
   band: developing
-  composite: 51.9
+  composite: 46.5
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 73.0
+    artifact_dirs: 18
+    catalog_earned: 60.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 42.0
+    catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.4
   facets:
-    access_clarity: 42.6
+    access_clarity: 28.9
     contract_governance: 27.3
     contract_quality: 67.6
     developer_ergonomics: 39.3
     discoverability: 57.1
-    operational_transparency: 37.6
+    operational_transparency: 17.1
   previous_composite: 51.9
   provenance:
     agentic_access: derived
@@ -302,9 +314,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 31.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 27.8

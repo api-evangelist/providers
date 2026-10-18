@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -58,6 +58,14 @@ collections:
   name: StarTree Cloud Query Query API API
   slug: open-startree-query-api-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://startree.ai/news/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://startree.ai/feed/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/startree/refs/heads/main/overlays/startree-query-overlay.yaml
   title: ''
@@ -196,20 +204,20 @@ mcp_servers:
 - description: Official StarTree MCP server for Apache Pinot. Lets an agent list tables, segments, and schema info and execute read-only SQL queries against a Pinot / StarTree Cloud cluster.
   name: StarTree MCP Server
   slug: mcp-pinot
-modified: '2026-09-16'
+modified: '2026-10-06'
 name: StarTree
 nav: Providers
 network: true
-overview: 'StarTree publishes 1 API on the [APIs.io](https://apis.io/) network: Query API. Tagged areas include Company, Data, Analytics, Real-Time Analytics, and OLAP.
+overview: 'StarTree publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Query API. Tagged areas include Company, Data, Analytics, Real-Time Analytics, and OLAP.
 
 
-  StarTree''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
+  StarTree''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, pricing, signup flow, and 24 more developer resources.'
 random_paper: 16
 score:
   band: developing
   composite: 49.8
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -244,8 +252,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -263,7 +271,7 @@ security:
 - kind: vulnerability-disclosure
   name: Startree Vulnerability Disclosure
   slug: startree-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 slug: startree
 tags:
 - Company

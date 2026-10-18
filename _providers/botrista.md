@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The Model Context Protocol endpoint served on Botrista's Wix-hosted content site (botrista.info). It is a platform-provided site MCP — supplied by the Wix website builder rather than authored by Botri
@@ -122,7 +122,7 @@ modified: '2026-08-02'
 name: Botrista
 nav: Providers
 network: true
-overview: 'Botrista publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Robotics, Beverages, Food Service, and Automation.
+overview: 'Botrista is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Robotics, Beverages, Food Service, and Automation.
 
 
   Botrista''s developer surface includes engineering blog, support, and 14 more developer resources.'
@@ -155,8 +155,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

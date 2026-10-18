@@ -23,10 +23,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 5
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://360privacy.io/newsroom/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://360privacy.io/newsroom/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/360-privacy/refs/heads/main/security/360-privacy-domain-security.yml
   title: ''
@@ -113,14 +121,14 @@ created: '2026-09-05'
 description: 360 Privacy is a Nashville, Tennessee based digital executive protection company, founded in 2019, that reduces the online exposure of executives, public figures, athletes and their families. Its analyst-led platform pairs proprietary technology with human intelligence to locate and delete personally identifiable information from data broker and people-search sites (360 Delete), to scan the deep and dark web for compromised credentials and exposed PII (360 Monitor), and to provide continuous monitoring with hands-on threat response for high-risk individuals (360 Defend). The product is delivered as a managed service through an authenticated customer dashboard; as of this profile the company publishes no public developer program, API reference or machine-readable contract.
 image: https://360privacy.io/wp-content/uploads/2026/05/WHITE_PRIMARY-scaled.jpg
 layout: provider
-modified: '2026-09-05'
+modified: '2026-10-06'
 name: 360 Privacy
 nav: Providers
 network: true
 overview: '360 Privacy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Privacy, Data Removal, Executive Protection, and Cybersecurity.
 
 
-  360 Privacy''s developer surface includes engineering blog, authentication, and 13 more developer resources.'
+  360 Privacy''s developer surface includes engineering blog, authentication, and 15 more developer resources.'
 plans:
 - name: 360 Privacy Plans Pricing
   plan_count: 0
@@ -134,7 +142,7 @@ score:
   band: emerging
   composite: 18.8
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 11
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -157,13 +165,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/360-privacy/refs/heads/main/screenshots/360-privacy-2026-10-11T092044.png
 security:
 - kind: authentication
   name: 360 Privacy Authentication

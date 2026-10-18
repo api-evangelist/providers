@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.dillards.com/blog
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/dillards/refs/heads/main/security/dillards-domain-security.yml
   title: ''
@@ -98,14 +102,14 @@ created: '2026-03-24'
 description: Dillard's, Inc. is a Little Rock, Arkansas department store chain selling apparel, footwear, cosmetics, handbags, menswear and home goods through its stores across the United States and dillards.com. Dillard's publishes no developer program, no OpenAPI, GraphQL, AsyncAPI, gRPC or SOAP contract, and no MCP or A2A agent surface — contract discovery on 2026-09-06 found every /.well-known/ and /openapi.json path answering with the storefront single-page-app shell under HTTP 200, matching a nonsense control path. Its two real machine-facing surfaces are a first-party llms.txt at https://www.dillards.com/llms.txt that maps the retail catalog for language models, and an ANSI ASC X12 EDI trading-partner program (810/816/820/832/850/856/860/864/997 over the OpenText/GXS VAN) whose implementation guide and vendor portal are gated behind a login on the Dillard's eBiz extranet.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dillards.png
 layout: provider
-modified: '2026-09-06'
+modified: '2026-10-06'
 name: Dillard's
 nav: Providers
 network: true
 overview: 'Dillard''s is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Retail, Department Store, Apparel, E-Commerce, and Fortune 500.
 
 
-  Dillard''s'' developer surface includes support and 9 more developer resources.'
+  Dillard''s'' developer surface includes engineering blog, support, and 9 more developer resources.'
 plans:
 - name: Dillards Plans Pricing
   plan_count: 0
@@ -133,20 +137,20 @@ rate_limits:
   slug: dillards-rate-limits
 score:
   band: minimal
-  composite: 9.7
+  composite: 10.2
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 10.5
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 55.4
     operational_transparency: 0.0
   previous_composite: 9.7
@@ -158,8 +162,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 14.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

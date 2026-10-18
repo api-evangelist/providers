@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.8
-  scored_at: '2026-10-04'
+  score: 22.9
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 26
+- acting_count: 22
   human_in_the_loop: 0
   name: Ncr Agentic Access
   operation_count: 43
   slug: ncr-agentic-access
-  summary_line: 43 operations · 26 acting
+  summary_line: 43 operations · 22 acting
 api_count: 7
 apis:
 - baseURL: https://api.ncr.com
@@ -113,6 +113,10 @@ collections:
   name: NCR Voyix Commerce Platform APIs
   slug: open-ncr-voyix-commerce-platform
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.ncrvoyix.com/resources/blog
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/ncr/refs/heads/main/agentic-access/ncr-agentic-access.yml
   title: ''
@@ -283,9 +287,13 @@ examples:
   name: Ncr Voyix Commerce Platform User Profile Example
   slug: ncr-voyix-commerce-platform-user-profile-example
 finops:
-- name: Ncr Finops
+- has_sources: true
+  method: generated
+  name: Ncr Finops
+  primary_unit: ''
   service_category: Commerce + Point of Sale + Payments
   slug: ncr-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ncr.png
 json_schemas:
 - name: Address
@@ -475,17 +483,17 @@ jsonld:
   property_count: 65
   slug: ncr-voyix-commerce-platform-context
 layout: provider
-modified: '2026-06-02'
+modified: '2026-10-06'
 name: NCR Voyix
 nav: Providers
 network: true
-overview: 'NCR Voyix publishes 7 APIs on the [APIs.io](https://apis.io/) network, including NCR Catalog API, NCR Category API, NCR Order API, and 4 more. Tagged areas include Restaurant, Retail, Banking, Point-of-Sale, and Commerce.
+overview: 'NCR Voyix is listed with 7 APIs on the [APIs.io](https://apis.io/) network, including NCR Catalog API, NCR Category API, NCR Order API, and 4 more. Tagged areas include Restaurant, Retail, Banking, Point-of-Sale, and Commerce.
 
 
   The NCR Voyix catalog on APIs.io includes 1 JSON-LD context and 3 Spectral governance rulesets.
 
 
-  NCR Voyix''s developer surface includes authentication, documentation, and 15 more developer resources.'
+  NCR Voyix''s developer surface includes engineering blog, authentication, documentation, and 15 more developer resources.'
 plans:
 - name: Ncr Plans Pricing
   plan_count: 2
@@ -521,9 +529,10 @@ rate_limits:
   name: Ncr Rate Limits
   slug: ncr-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: NCR Voyix API Rules
+  name: NCR Voyix — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -531,7 +540,8 @@ rules:
     info: 2
     warn: 3
   slug: ncr-jsonschema-spectral-rules
-- effective_rule_count: 50
+- authorship: generated
+  effective_rule_count: 50
   extends:
   - spectral:oas
   name: NCR Voyix API Rules
@@ -542,9 +552,10 @@ rules:
     info: 1
     warn: 7
   slug: ncr-spectral-rules
-- effective_rule_count: 37
+- authorship: unmarked
+  effective_rule_count: 37
   extends: []
-  name: NCR Voyix API Rules
+  name: NCR Voyix — voyix commerce platform rules
   rule_count: 37
   severity_counts:
     error: 11
@@ -554,22 +565,22 @@ rules:
   slug: ncr-voyix-commerce-platform-spectral-rules
 score:
   band: thin
-  composite: 33.1
+  composite: 27.5
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 77.4
+    artifact_dirs: 22
+    catalog_earned: 64.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 37.6
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.6
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 27.3
     contract_quality: 25.9
-    developer_ergonomics: 34.5
+    developer_ergonomics: 36.9
     discoverability: 78.6
-    operational_transparency: 21.6
+    operational_transparency: 7.9
   previous_composite: 33.1
   provenance:
     agentic_access: derived
@@ -584,9 +595,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 13.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 22.2

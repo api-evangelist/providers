@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 7
 apis:
 - description: RESTful API for managing storage volumes, disk groups, and storage operations.
@@ -59,6 +59,21 @@ apis:
   slug: infoscale-for-kubernetes-api
 artifact_total: 12
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/veritas-volume-manager/refs/heads/main/plans/veritas-volume-manager-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/veritas-volume-manager-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/veritas-volume-manager/refs/heads/main/rate-limits/veritas-volume-manager-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/veritas-volume-manager-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/veritas-volume-manager/refs/heads/main/finops/veritas-volume-manager-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/veritas-volume-manager-finops.yml
 - group: company
   title: ''
   type: Website
@@ -108,18 +123,22 @@ common:
 created: '2024-01-01'
 description: APIs for managing storage volumes, disk groups, and file systems using Veritas Volume Manager (VVM).
 finops:
-- name: Veritas Volume Manager Finops
+- has_sources: false
+  method: generated
+  name: Veritas Volume Manager Finops
+  primary_unit: ''
   service_category: API
   slug: veritas-volume-manager-finops
+  template: true
 layout: provider
 modified: '2026-09-16'
 name: Veritas Volume Manager
 nav: Providers
 network: true
-overview: 'Veritas Volume Manager publishes 7 APIs on the [APIs.io](https://apis.io/) network, including REST API, and 6 more. Tagged areas include Disaster Recovery, Enterprise Storage, Filesystem, Storage, and Volume Management.
+overview: 'Veritas Volume Manager is listed with 7 APIs on the [APIs.io](https://apis.io/) network, including REST API, and 6 more. Tagged areas include Disaster Recovery, Enterprise Storage, Filesystem, Storage, and Volume Management.
 
 
-  Veritas Volume Manager''s developer surface includes developer portal, getting-started guide, changelog, engineering blog, support, and 6 more developer resources.'
+  Veritas Volume Manager''s developer surface includes developer portal, getting-started guide, changelog, engineering blog, support, and 9 more developer resources.'
 plans:
 - name: Veritas Volume Manager Plans Pricing
   plan_count: 3
@@ -131,17 +150,17 @@ rate_limits:
   slug: veritas-volume-manager-rate-limits
 score:
   band: thin
-  composite: 39.1
+  composite: 37.6
   coverage:
     artifact_dirs: 7
-    catalog_earned: 37.0
+    catalog_earned: 34.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 81.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 36.8
+    access_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 30.5
     developer_ergonomics: 64.3
@@ -154,8 +173,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 25.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -170,7 +189,7 @@ security:
 - kind: vulnerability-disclosure
   name: Veritas Volume Manager Vulnerability Disclosure
   slug: veritas-volume-manager-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 slug: veritas-volume-manager
 tags:
 - Disaster Recovery

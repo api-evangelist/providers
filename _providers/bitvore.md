@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 0
@@ -205,6 +205,10 @@ collections:
   name: Bitvore Legacy Sentiment Scores API
   slug: open-bitvore-sentiment-scores-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://bondwave.com/feed/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/bitvore/refs/heads/main/capabilities/bitvore-capability-edges.yml
   title: ''
@@ -370,14 +374,14 @@ created: '2026-08-07'
 description: 'Bitvore Corp. builds Cellenus, an AI/NLP platform that reads unstructured public text — global news, press releases, SEC filings and proxy statements, earnings-call transcripts — and turns it into structured material business events, signals, trended sentiment, and growth and risk scores. Coverage spans 500,000+ surveilled companies across 60,000+ sources, sold as two separately licensed datasets: Cellenus Corporate Intelligence (corporate and economic news, organizations, financial filings, sentiment scores) and Cellenus Municipal (municipal bond news by CUSIP, location, FIPS and sector), with an ESG signal and scoring layer over both. Access is by REST API, bulk dataset and changeset exports, and a Microsoft-certified Power Platform connector. Bitvore''s fixed-income data-analytics unit was acquired by BondWave in November 2024; bitvore.com now redirects to bondwave.com/muni-news/, while developer.bitvore.com and api.bitvore.com remain live and serving the Cellenus API surface.'
 image: https://conn-afd-prod-endpoint-bmc9bqahasf3grgk.b01.azurefd.net/u/shgogna/version-mismatches-special-train/1.0.1670.3520/bitvorecellenus/icon.png
 layout: provider
-modified: '2026-09-16'
+modified: '2026-10-06'
 name: Bitvore
 nav: Providers
 network: true
-overview: 'Bitvore publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Alert API, Bond API, Corporate News API, and 16 more. Tagged areas include Financial Data, Market Intelligence, Alternative Data, News API, and NLP.
+overview: 'Bitvore publishes 19 API contracts indexed on the [APIs.io](https://apis.io/) network, including Alert API, Bond API, Corporate News API, and 16 more. Tagged areas include Financial Data, Market Intelligence, Alternative Data, News API, and Natural Language Processing.
 
 
-  Bitvore''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, changelog, authentication, and 28 more developer resources.'
+  Bitvore''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, changelog, authentication, and 29 more developer resources.'
 plans:
 - name: Bitvore Plans Pricing
   plan_count: 0
@@ -394,7 +398,7 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: thin
-  composite: 35.7
+  composite: 36.0
   coverage:
     artifact_dirs: 26
     catalog_earned: 48.0
@@ -402,7 +406,7 @@ score:
     catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.3
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
@@ -426,9 +430,9 @@ score:
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 31.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+    score: 34.3
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -449,7 +453,7 @@ tags:
 - Market Intelligence
 - Alternative Data
 - News API
-- NLP
+- Natural Language Processing
 - ESG
 - Municipal Bonds
 - Credit Risk

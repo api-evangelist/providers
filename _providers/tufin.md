@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -186,6 +186,21 @@ collections:
   name: Tufin SecureChange REST Compliance Zones API
   slug: open-tufin-zones-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/tufin/refs/heads/main/plans/tufin-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/tufin-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/tufin/refs/heads/main/rate-limits/tufin-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/tufin-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/tufin/refs/heads/main/finops/tufin-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/tufin-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/tufin/refs/heads/main/capabilities/tufin-capability-edges.yml
   title: ''
@@ -332,9 +347,13 @@ examples:
   name: Tufin Gettopologypath Example
   slug: tufin-getTopologyPath-example
 finops:
-- name: Tufin Finops
+- has_sources: true
+  method: generated
+  name: Tufin Finops
+  primary_unit: ''
   service_category: Network Security Policy Management
   slug: tufin-finops
+  template: false
 graphqls:
 - description: GraphQL API for the Tufin Orchestration Suite providing flexible querying capabilities for security policy data, network topology, and compliance information. Uses OAuth2 authentication and supports c
   name: Tufin GraphQL API
@@ -409,13 +428,13 @@ modified: '2026-05-19'
 name: Tufin
 nav: Providers
 network: true
-overview: 'Tufin publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Compliance API, Devices API, Objects API, and 11 more. Tagged areas include Cloud Security, Compliance, Firewall Management, Network Security, and Network Topology.
+overview: 'Tufin publishes 14 API contracts indexed on the [APIs.io](https://apis.io/) network, including Compliance API, Devices API, Objects API, and 11 more. Tagged areas include Cloud Security, Compliance, Firewall Management, Network Security, and Network Topology.
 
 
   The Tufin catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Tufin''s developer surface includes authentication, developer portal, support, documentation, engineering blog, getting-started guide, signup flow, and 23 more developer resources.'
+  Tufin''s developer surface includes authentication, developer portal, support, documentation, engineering blog, getting-started guide, signup flow, and 26 more developer resources.'
 plans:
 - name: Tufin Plans Pricing
   plan_count: 1
@@ -426,9 +445,10 @@ rate_limits:
   name: Tufin Rate Limits
   slug: tufin-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Tufin API Rules
+  name: Tufin — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -436,10 +456,11 @@ rules:
     info: 1
     warn: 4
   slug: tufin-jsonschema-spectral-rules
-- effective_rule_count: 52
+- authorship: unmarked
+  effective_rule_count: 52
   extends:
   - spectral:oas
-  name: Tufin API Rules
+  name: Tufin — securetrack rules
   rule_count: 11
   severity_counts:
     error: 2
@@ -449,17 +470,17 @@ rules:
   slug: tufin-securetrack-rules
 score:
   band: developing
-  composite: 44.0
+  composite: 42.5
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 58.0
+    artifact_dirs: 21
+    catalog_earned: 55.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.0
+    catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 30.3
+    access_clarity: 22.4
     contract_governance: 27.3
     contract_quality: 49.9
     developer_ergonomics: 69.0
@@ -479,8 +500,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'The Adaptive Shield REST API v1 provides programmatic access to SaaS security posture data including alerts, user and device inventory, integration configurations, security check results, violations, '
@@ -42,6 +42,16 @@ apis:
   slug: adaptive-shield-api
 artifact_total: 28
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/adaptive-shield/refs/heads/main/rate-limits/adaptive-shield-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/adaptive-shield-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/adaptive-shield/refs/heads/main/finops/adaptive-shield-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/adaptive-shield-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/adaptive-shield/refs/heads/main/security/adaptive-shield-trust-center.yml
   title: ''
@@ -151,9 +161,13 @@ features:
 - description: Integrates with SIEM platforms (Splunk, Datadog), security platforms (CrowdStrike Falcon), and vulnerability management platforms via API and native connectors.
   name: SIEM And Platform Integrations
 finops:
-- name: Adaptive Shield Finops
+- has_sources: false
+  method: generated
+  name: Adaptive Shield Finops
+  primary_unit: ''
   service_category: API
   slug: adaptive-shield-finops
+  template: true
 image: /assets/icons/adaptive-shield.png
 integrations:
 - description: SaaS security monitoring for Microsoft 365 suite including Exchange, Teams, SharePoint, and OneDrive.
@@ -177,10 +191,10 @@ modified: '2026-08-30'
 name: Adaptive Shield
 nav: Providers
 network: true
-overview: 'Adaptive Shield publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include SaaS Security, SSPM, Security Posture Management, Cybersecurity, and Cloud Security.
+overview: 'Adaptive Shield is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include SaaS Security, SSPM, Security Posture Management, Cybersecurity, and Cloud Security.
 
 
-  Adaptive Shield''s developer surface includes developer portal, engineering blog, support, and 17 more developer resources.'
+  Adaptive Shield''s developer surface includes developer portal, engineering blog, support, and 19 more developer resources.'
 plans:
 - name: Adaptive Shield Plans Pricing
   plan_count: 0
@@ -192,17 +206,17 @@ rate_limits:
   slug: adaptive-shield-rate-limits
 score:
   band: thin
-  composite: 29.9
+  composite: 28.4
   coverage:
-    artifact_dirs: 15
-    catalog_earned: 40.0
+    artifact_dirs: 16
+    catalog_earned: 37.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 44.7
+    access_clarity: 36.8
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 28.6
@@ -224,8 +238,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -256,7 +270,7 @@ tags:
 - Security Posture Management
 - Cybersecurity
 - Cloud Security
-- Identity Management
+- Identity and Access Management
 - Compliance
 use_cases:
 - description: Security teams can continuously monitor and remediate misconfigurations across the organization's entire SaaS stack from a single dashboard.

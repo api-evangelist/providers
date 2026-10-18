@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 7
 apis:
 - description: Create new patients, update and synchronize patient demographics and medical history, and upload patient documents into Denticon. Access is partner approved and scoped by practice group (PGID) and off
@@ -65,6 +65,14 @@ apis:
   slug: denticon-events-webhooks-api
 artifact_total: 9
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.planetdds.com/blog/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.planetdds.com/blog/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/denticon/refs/heads/main/security/denticon-trust-center.yml
   title: ''
@@ -103,31 +111,31 @@ created: '2026-07-04'
 description: Denticon is a cloud-based dental practice management platform built for dental service organizations (DSOs) and multi-location group practices, owned and operated by Planet DDS (which also owns Cloud 9 Ortho and Apteryx imaging). The Denticon API program - relaunched in July 2024 on a new developer portal powered by Azure API Management - exposes RESTful APIs, webhooks, and batch data extracts covering patient, appointment, financial/ledger, insurance and claims (Revenue Cycle Management), clinical, and practice/office data, with OAuth 2.0 auth, an event-driven architecture for synchronized updates, and writebacks into Denticon. API access is partner-gated - Planet DDS must approve vendors and each client practice authorizes vendor access to specific office locations (OIDs). Public documentation exists, but keys and interactive access require program enrollment, so the endpoint surface below is modeled from the published API categories rather than a downloadable OpenAPI specification.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/denticon.png
 layout: provider
-modified: '2026-07-04'
+modified: '2026-10-06'
 name: Denticon
 nav: Providers
 network: true
-overview: 'Denticon publishes 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Dental, Practice Management, Healthcare, DSO, and EHR.
+overview: 'Denticon is listed with 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Dental, Practice Management, Healthcare, DSO, and Electronic Health Records.
 
 
-  Denticon''s developer surface includes documentation, signup flow, and 6 more developer resources.'
+  Denticon''s developer surface includes engineering blog, documentation, signup flow, and 7 more developer resources.'
 random_paper: 16
 score:
   band: emerging
-  composite: 14.1
+  composite: 14.6
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 5
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 16.7
+    developer_ergonomics: 19.0
     discoverability: 71.4
     operational_transparency: 0.0
   previous_composite: 14.1
@@ -137,8 +145,8 @@ score:
     regime: Health
     regime_id: health
     score: 8.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -160,7 +168,7 @@ tags:
 - Practice Management
 - Healthcare
 - DSO
-- EHR
+- Electronic Health Records
 - Patient Data
 - Revenue Cycle Management
 - Partner API

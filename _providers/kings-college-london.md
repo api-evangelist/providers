@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 5.0
-  scored_at: '2026-10-04'
+  score: 3.1
+  scored_at: '2026-10-17'
 api_count: 6
 apis:
 - description: An OpenAI-compatible LLM inference API operated by King's e-Research for researchers, students and staff. Per King's documentation it serves chat completions against a curated set of hosted models, im
@@ -231,16 +231,20 @@ created: '2026-06-03'
 description: 'King''s College London is a UK public research university and Russell Group member, founded in 1829, ranked #40 in the QS World University Rankings. Re-profiled on 2026-08-19 under the API Evangelist university pipeline, which settles WHO OPERATES a surface before crediting it to the institution. The June 2026 profile credited King''s with eleven API entries and ten OpenAPI contracts; every one of them was api.figshare.com/v2 — a single Figshare document that the same pass attributed to twenty-five different universities — split by tag into eleven apparent surfaces. Those contracts, and the collections and agentic-access artifacts derived from them, have been removed. What is left is what King''s actually operates. The genuine find is the e-Research AI Hub at ai.create.kcl.ac.uk: King''s own OpenAI-compatible LLM inference platform for researchers, live, bearer-authenticated, metered and billed, running on King''s own infrastructure — a real institution-operated API, and a
   rare one in this cohort. Alongside it sit four tenancies that are real institutional facts but somebody else''s engineering: the King''s Research Portal OAI-PMH endpoint (Elsevier Pure), the research data repository (Figshare), LibrarySearch (Ex Libris Primo) and the UK federation identity provider (OpenAthens). King''s holds its own DataCite membership and prefix, and is registered in the UK Access Management Federation and eduGAIN. It publishes no OpenAPI, no developer portal, no open data portal, no llms.txt and no security.txt.'
 finops:
-- name: Kings College London Finops
+- has_sources: true
+  method: generated
+  name: Kings College London Finops
+  primary_unit: ''
   service_category: Education
   slug: kings-college-london-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kings-college-london.png
 layout: provider
 modified: '2026-08-19'
 name: King's College London
 nav: Providers
 network: true
-overview: 'King''s College London publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include University, Higher Education, Education, Russell Group, and United Kingdom.
+overview: 'King''s College London is listed with 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include University, Higher Education, Education, Russell Group, and United Kingdom.
 
 
   King''s College London''s developer surface includes engineering blog, documentation, support, authentication, and 20 more developer resources.'
@@ -254,23 +258,23 @@ rate_limits:
   name: Kings College London Rate Limits
   slug: kings-college-london-rate-limits
 score:
-  band: thin
-  composite: 33.5
+  band: emerging
+  composite: 26.0
   coverage:
-    artifact_dirs: 10
-    catalog_earned: 56.0
+    artifact_dirs: 11
+    catalog_earned: 40.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 59.0
+    catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -3.3
+  delta: -7.5
   facets:
-    access_clarity: 57.4
+    access_clarity: 28.9
     contract_governance: 18.2
     contract_quality: 4.4
     developer_ergonomics: 45.2
     discoverability: 62.5
-    operational_transparency: 21.6
+    operational_transparency: 7.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -279,7 +283,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 36.8
+  previous_composite: 33.5
   provenance:
     conformance: first-party
   regulatory:
@@ -288,9 +292,9 @@ score:
     regime: Education & Research
     regime_id: education
     score: 22.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

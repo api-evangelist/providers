@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.8
-  scored_at: '2026-10-04'
+  score: 23.6
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 9
   slug: interpol-agentic-access
   summary_line: 9 operations
-api_count: 1
+api_count: 2
 apis:
 - baseURL: https://ws-public.interpol.int/notices/v1/
   baseurl_source: declared
@@ -60,6 +60,21 @@ collections:
   name: Interpol Notices API
   slug: open-interpol
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/interpol/refs/heads/main/plans/interpol-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/interpol-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/interpol/refs/heads/main/rate-limits/interpol-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/interpol-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/interpol/refs/heads/main/finops/interpol-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/interpol-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/interpol/refs/heads/main/capabilities/interpol-capability-edges.yml
   title: ''
@@ -90,16 +105,20 @@ common:
 created: '2024-12-03'
 description: INTERPOL (International Criminal Police Organization) is an inter-governmental organization with 196 member countries that helps police worldwide work together to make the world a safer place. INTERPOL exposes a public Notices web service that returns Red, Yellow, and UN Notices data. An OpenAPI description of that service is published by the bundesAPI community and mirrored in this repository.
 finops:
-- name: Interpol Finops
+- has_sources: false
+  method: generated
+  name: Interpol Finops
+  primary_unit: ''
   service_category: API
   slug: interpol-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/interpol.png
 layout: provider
 modified: '2026-05-19'
 name: Interpol
 nav: Providers
 network: true
-overview: 'Interpol publishes 1 API on the [APIs.io](https://apis.io/) network: Notices API. Tagged areas include Federal Government, International, Law Enforcement, Notices, and Police.
+overview: 'Interpol publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Notices API. Tagged areas include Federal Government, International, Law Enforcement, Notices, and Police.
 
 
   The Interpol catalog on APIs.io includes 1 Spectral governance ruleset.'
@@ -113,7 +132,8 @@ rate_limits:
   name: Interpol Rate Limits
   slug: interpol-rate-limits
 rules:
-- effective_rule_count: 0
+- authorship: unmarked
+  effective_rule_count: 0
   extends: []
   name: Interpol API Rules
   rule_count: 0
@@ -125,17 +145,17 @@ rules:
   slug: interpol-rules
 score:
   band: emerging
-  composite: 18.9
+  composite: 20.4
   coverage:
     artifact_dirs: 11
-    catalog_earned: 40.0
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 60.0
-    catalog_max: 100.0
+    catalog_gap: 72.0
+    catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.5
   facets:
-    access_clarity: 0.0
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 41.6
     developer_ergonomics: 9.5
@@ -161,8 +181,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

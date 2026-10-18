@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 51.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 96
   human_in_the_loop: 0
@@ -219,7 +219,7 @@ apis:
   description: Work orders represent maintenance tasks, repairs, and scheduled jobs across your facilities. Track them from creation through assignment, execution, and closure. Assign to staff or teams, set prioriti
   name: Facilio Work Orders API
   slug: facilio-work-orders-api
-artifact_total: 77
+artifact_total: 78
 collections:
 - collection_type: open
   name: API Collection
@@ -330,6 +330,15 @@ collections:
   name: Facilio REST Assets Work Orders API
   slug: open-facilio-work-orders-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/facilio/refs/heads/main/plans/facilio-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/facilio-plans-pricing.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://facilio.com/blog/rss/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/facilio/refs/heads/main/capabilities/facilio-capability-edges.yml
   title: ''
@@ -490,14 +499,18 @@ mcp_servers:
 - description: Connected operations platform for facility, property, and asset management. The Facilio MCP server lets agents query and act on work orders, assets, service requests, tenants, vendors, and portfolio d
   name: Facilio
   slug: facilio
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Facilio
 nav: Providers
 network: true
-overview: 'Facilio publishes 35 APIs on the [APIs.io](https://apis.io/) network, including Assets API, Buildings API, Client Contacts API, and 32 more. Tagged areas include Company, Artificial Intelligence, Facility Management, CMMS, and Property Operations.
+overview: 'Facilio publishes 35 API contracts indexed on the [APIs.io](https://apis.io/) network, including Assets API, Buildings API, Client Contacts API, and 32 more. Tagged areas include Company, Artificial Intelligence, Facility Management, CMMS, and Property Operations.
 
 
-  Facilio''s developer surface includes authentication, documentation, API reference, pricing, engineering blog, support, signup flow, and 26 more developer resources.'
+  Facilio''s developer surface includes authentication, documentation, API reference, pricing, engineering blog, support, signup flow, and 28 more developer resources.'
+plans:
+- name: Facilio Plans Pricing
+  plan_count: 3
+  slug: facilio-plans-pricing
 random_paper: 1
 scopes:
 - name: Facilio Scopes
@@ -505,18 +518,18 @@ scopes:
   slug: facilio-scopes
   summary_line: 7 scopes · authorizationCode/password
 score:
-  band: developing
-  composite: 50.8
+  band: strong
+  composite: 57.2
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 24
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.4
   facets:
-    access_clarity: 52.6
+    access_clarity: 84.2
     contract_governance: 18.2
     contract_quality: 49.6
     developer_ergonomics: 54.2
@@ -539,9 +552,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 41.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: true
     score: 27.8

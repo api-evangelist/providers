@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: SOAP web service for the ConcreteGO cloud dispatch platform. Uses an RSA public-key credential exchange (GetPublicKey) and a session login (Login/Login2) with a Sysdyne-issued AppID/AppKey, then submi
@@ -41,6 +41,10 @@ apis:
   slug: webcrete-api-concretego
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://sysdynetechnologies.com/resources/rss.xml
 - group: company
   title: ''
   type: Website
@@ -104,18 +108,18 @@ created: '2026-07-17'
 description: Sysdyne Technologies is a Stamford, Connecticut software company that has served ready-mix concrete producers worldwide since 1976. Its cloud-native platform spans the full production lifecycle — Slabstack quoting and CRM, Concrete-Go central dispatch, Batch-Go batch automation, Delivery-Go / iStrada delivery management and paperless e-ticketing, QuickLink ERP/accounting sync, and Insight-Go operational analytics. Sysdyne exposes the ConcreteGO "Webcrete" SOAP web-service API plus full-suite interoperability, letting producers integrate dispatch, batch, and delivery data bi-directionally with ERP, accounting, and telematics systems such as QuickBooks, SAP, Microsoft Dynamics, Acumatica, Samsara, and Geotab.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sysdyne.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Sysdyne Technologies
 nav: Providers
 network: true
-overview: 'Sysdyne Technologies publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Concrete, Construction, Ready-Mix, and Dispatch.
+overview: 'Sysdyne Technologies is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Concrete, Construction, Ready-Mix, and Dispatch.
 
 
-  Sysdyne Technologies'' developer surface includes API reference, support, engineering blog, authentication, and 9 more developer resources.'
+  Sysdyne Technologies'' developer surface includes API reference, support, engineering blog, authentication, and 10 more developer resources.'
 random_paper: 13
 score:
   band: emerging
-  composite: 21.9
+  composite: 22.0
   coverage:
     artifact_dirs: 11
     catalog_earned: 37.0
@@ -123,7 +127,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 6.6
     contract_governance: 4.5
@@ -141,8 +145,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

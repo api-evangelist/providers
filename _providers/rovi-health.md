@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.rovi.health/blog/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/rovi-health/refs/heads/main/security/rovi-health-domain-security.yml
   title: ''
@@ -61,28 +65,31 @@ created: '2026-07-17'
 description: Rovi Health is a clinical navigation platform for employer health plans that puts "a clinician in every member's pocket." Members get text-based access to registered nurse care advisors who help them find high-quality, in-network doctors and specialists, navigate their insurance benefits and coverage, and coordinate care across every stage of treatment. The company also uses AI agents to search millions of pricing and quality data points to surface the best in-network providers for complex care and to handle appointment scheduling, aiming to help employers cut 10-20% of healthcare spend while improving employee outcomes. Rovi Health was a Y Combinator (Fall 2025) company operating in the digital health, health insurance navigation, and consumer health services space. As of this enrichment pass Rovi Health publishes no public API, SDK, or developer documentation surface.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rovi-health.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Rovi Health
 nav: Providers
 network: true
-overview: Rovi Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Healthcare, Digital Health, and Health Insurance.
+overview: 'Rovi Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Healthcare, Digital Health, and Health Insurance.
+
+
+  Rovi Health''s developer surface includes engineering blog and 5 more developer resources.'
 random_paper: 1
 score:
   band: minimal
-  composite: 10.1
+  composite: 10.6
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 27.6
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 48.2
     operational_transparency: 0.0
   previous_composite: 10.1
@@ -92,8 +99,8 @@ score:
     regime: Health
     regime_id: health
     score: 10.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

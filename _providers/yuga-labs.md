@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -61,13 +61,13 @@ modified: '2026-07-21'
 name: Yuga Labs
 nav: Providers
 network: true
-overview: Yuga Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto, NFT, Blockchain, and Web3.
+overview: Yuga Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cryptocurrency, NFT, Blockchain, and Web3.
 random_paper: 21
 score:
   band: minimal
   composite: 8.8
   coverage:
-    artifact_dirs: 2
+    artifact_dirs: 3
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -88,13 +88,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/yuga-labs/refs/heads/main/screenshots/yuga-labs-2026-10-11T200132.png
 security:
 - kind: domain-security
   name: Yuga Labs Domain Security
@@ -103,7 +104,7 @@ security:
 slug: yuga-labs
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - NFT
 - Blockchain
 - Web3

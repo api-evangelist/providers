@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Read-only REST API for Walnut demo analytics. Two data endpoints plus a health check — GET /demo-sessions returns individual demo-session records across 29 documented fields with filtering, offset pag
@@ -218,9 +218,13 @@ common:
 created: '2026-06-13'
 description: Walnut is an AI-powered interactive demo platform for B2B go-to-market teams, used to capture a live product into an editable demo, personalize it at scale, embed it, and measure how buyers engage with it. Its developer surface is the Walnut Customer Data API — a read-only REST analytics API at customer-api.teamwalnut.com that returns demo-session records with 29 documented fields, plus filtering, offset pagination, field selection and multi-dimensional aggregation. Walnut also ships a first-party Model Context Protocol server that wraps the same three operations for AI assistants, and two signed webhook events for demo and playlist session completion. API and MCP access are exclusive to the enterprise Scale plan, and keys are issued by an account representative rather than self-service.
 finops:
-- name: Walnut Finops
+- has_sources: true
+  method: searched
+  name: Walnut Finops
+  primary_unit: ''
   service_category: ''
   slug: walnut-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/walnut.png
 layout: provider
 mcp_servers:
@@ -231,7 +235,7 @@ modified: '2026-08-13'
 name: Walnut
 nav: Providers
 network: true
-overview: 'Walnut publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Sales Demo, Interactive Demos, Product Demos, Sales Enablement, and Demo Analytics.
+overview: 'Walnut is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Sales Demo, Interactive Demos, Product Demos, Sales Enablement, and Demo Analytics.
 
 
   The Walnut catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -248,18 +252,18 @@ rate_limits:
   name: Walnut Rate Limits
   slug: walnut-rate-limits
 score:
-  band: exemplar
-  composite: 66.5
+  band: strong
+  composite: 65.0
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 64.0
+    artifact_dirs: 23
+    catalog_earned: 61.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 51.0
+    catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 100.0
+    access_clarity: 92.1
     contract_governance: 18.2
     contract_quality: 50.5
     developer_ergonomics: 64.3
@@ -275,8 +279,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

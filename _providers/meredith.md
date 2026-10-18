@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 12.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -136,6 +136,16 @@ apis:
   slug: specialty-marketing-solutions-sms-suite
 artifact_total: 46
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/meredith/refs/heads/main/plans/meredith-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/meredith-plans-pricing.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/meredith/refs/heads/main/finops/meredith-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/meredith-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/meredith/refs/heads/main/security/meredith-vulnerability-disclosure.yml
   title: ''
@@ -303,9 +313,13 @@ examples:
   name: People Rss Feed Example
   slug: people-rss-feed-example
 finops:
-- name: Meredith Finops
+- has_sources: false
+  method: generated
+  name: Meredith Finops
+  primary_unit: ''
   service_category: ''
   slug: meredith-finops
+  template: true
 image: https://avatars.githubusercontent.com/u/46611466?v=4
 json_schemas:
 - name: PeopleIncRobotsPolicy
@@ -331,13 +345,13 @@ modified: '2026-08-12'
 name: Dotdash Meredith / People Inc
 nav: Providers
 network: true
-overview: 'Dotdash Meredith / People Inc publishes 30 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Media, Publishing, Magazines, Content, and Advertising.
+overview: 'Dotdash Meredith / People Inc is listed with 29 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Media, Publishing, Magazines, Content, and Advertising.
 
 
   The Dotdash Meredith / People Inc catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Dotdash Meredith / People Inc''s developer surface includes developer portal, engineering blog, changelog, support, pricing, and 30 more developer resources.'
+  Dotdash Meredith / People Inc''s developer surface includes developer portal, engineering blog, changelog, support, pricing, and 32 more developer resources.'
 plans:
 - name: Meredith Plans Pricing
   plan_count: 8
@@ -348,9 +362,10 @@ rate_limits:
   name: Meredith Rate Limits
   slug: meredith-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Dotdash Meredith / People Inc API Rules
+  name: Dotdash Meredith / People Inc — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -358,10 +373,11 @@ rules:
     info: 2
     warn: 3
   slug: meredith-jsonschema-spectral-rules
-- effective_rule_count: 43
+- authorship: unmarked
+  effective_rule_count: 43
   extends:
   - spectral:oas
-  name: Dotdash Meredith / People Inc API Rules
+  name: Dotdash Meredith / People Inc — people inc rss rules
   rule_count: 2
   severity_counts:
     error: 2
@@ -371,17 +387,17 @@ rules:
   slug: people-inc-rss-rules
 score:
   band: developing
-  composite: 43.0
+  composite: 41.5
   coverage:
     artifact_dirs: 20
-    catalog_earned: 77.4
+    catalog_earned: 74.4
     catalog_earned_first_party: 12.0
-    catalog_gap: 37.6
+    catalog_gap: 40.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 75.0
+    access_clarity: 67.1
     contract_governance: 45.5
     contract_quality: 17.9
     developer_ergonomics: 23.8
@@ -397,8 +413,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

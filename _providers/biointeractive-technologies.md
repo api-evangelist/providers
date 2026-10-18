@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://tenzrhealth.com/blog
 - group: company
   title: ''
   type: Website
@@ -66,31 +70,31 @@ created: '2026-07-17'
 description: BioInteractive Technologies operates Tenzr Health, a configurable digital care layer that helps health systems, rehabilitation programs, orthopedic groups, and therapy organizations extend care beyond the clinic. The platform gives patients structured guidance, education, tasks, check-ins, and recovery support while giving clinicians better visibility into patient progress, adherence, symptoms, and recovery signals across the episode of care. Tenzr supports musculoskeletal, orthopedic, and stroke rehabilitation, acquired brain injury recovery, outpatient therapy, Remote Therapeutic Monitoring, and hybrid or virtual care pathways. The company does not currently publish a public developer API or developer program.
 image: https://framerusercontent.com/assets/xWiQPFWd9BYVyQ2zTPQjTxpYswo.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: BioInteractive Technologies
 nav: Providers
 network: true
 overview: 'BioInteractive Technologies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Digital Health, Rehabilitation, and Remote Therapeutic Monitoring.
 
 
-  BioInteractive Technologies'' developer surface includes support and 5 more developer resources.'
+  BioInteractive Technologies'' developer surface includes engineering blog, support, and 5 more developer resources.'
 random_paper: 9
 score:
-  band: minimal
-  composite: 10.5
+  band: emerging
+  composite: 11.0
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 4.8
+    developer_ergonomics: 7.1
     discoverability: 55.4
     operational_transparency: 0.0
   previous_composite: 10.5
@@ -100,8 +104,8 @@ score:
     regime: Health
     regime_id: health
     score: 10.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

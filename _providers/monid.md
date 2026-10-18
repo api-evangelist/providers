@@ -27,7 +27,7 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
     protected_resource_metadata: verified
     rate_limit_signal: verified
@@ -35,15 +35,15 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 56.5
-  scored_at: '2026-10-04'
+  score: 51.3
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 9
+- acting_count: 7
   human_in_the_loop: 3
   name: Monid Agentic Access
   operation_count: 33
   slug: monid-agentic-access
-  summary_line: 33 operations · 9 acting · 3 human-in-the-loop
+  summary_line: 33 operations · 7 acting · 3 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://api.monid.ai
@@ -96,12 +96,63 @@ apis:
   description: The Wallet API from Monid — 2 operation(s) for wallet.
   name: Monid Wallet API
   slug: monid-wallet-api
-artifact_total: 16
+- baseURL: https://api.monid.ai
+  baseurl_source: declared
+  description: The Identities API from Monid — 2 operation(s) for identities.
+  name: Monid Identities API
+  slug: monid-identities-api
+- description: Pay-per-run execution surface on x402.monid.ai — POST /v1/run answers HTTP 402 with an accepts[] array of CAIP-2 networks (Base eip155:8453, Monad eip155:143), the client signs a USDC authorization an
+  name: Monid x402 Run API
+  slug: monid-x402-run-api
+artifact_total: 63
 collections:
 - collection_type: open
   name: Monid API
   slug: open-monid
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/monid/refs/heads/main/rate-limits/monid-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/monid-rate-limits.yml
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://monid.ai/tools/news
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/monid/refs/heads/main/plans/monid-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/monid-plans-pricing.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/monid/refs/heads/main/rules/monid-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/monid-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/monid/refs/heads/main/json-ld/monid-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/monid-context.jsonld
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/monid/refs/heads/main/vocabulary/monid-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/monid-vocabulary.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/monid/refs/heads/main/hosts/monid-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/monid-hosts.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/monid/refs/heads/main/vendors/monid-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/monid-vendors.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://monid.ai/rss.xml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/monid/refs/heads/main/capabilities/monid-capability-edges.yml
   title: ''
@@ -172,11 +223,6 @@ common:
   type: Overlay
   url: overlays/monid-openapi-overlay.yaml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/monid/refs/heads/main/packages/monid-packages.yml
-  title: ''
-  type: Packages
-  url: packages/monid-packages.yml
-- group: build
   href: https://raw.githubusercontent.com/api-evangelist/monid/refs/heads/main/cli/monid-cli.yml
   title: ''
   type: CLI
@@ -206,7 +252,7 @@ common:
 - group: docs
   title: ''
   type: APIReference
-  url: https://monid.ai/docs
+  url: https://monid.ai/docs/api/overview
 - group: start
   title: ''
   type: GettingStarted
@@ -223,44 +269,214 @@ common:
   title: ''
   type: SignUp
   url: https://app.monid.ai
-created: 2026-07-23
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://monid.ai/docs/guide/pricing
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://monid.ai/legal/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://monid.ai/legal/privacy
+- group: operate
+  title: ''
+  type: Support
+  url: https://discord.gg/rQzztcgJV8
+created: '2026-07-23'
 description: Monid is a San Francisco-based data-access and agent-tool integration platform that gives developers and AI agents on-demand, pay-per-use access to hundreds of web data endpoints and 1,300+ tools across 13+ providers (Semrush, Apollo, ElevenLabs, web scrapers, and more) through a single integration. Agents discover, inspect, compare, and execute tools at runtime and pay only for actual usage, with a unified balance and no per-tool API key management or subscriptions. Monid exposes its catalog through four connection methods — an MCP (Model Context Protocol) server for Claude and other AI assistants, a Skill integration for Claude Code and Cursor, a CLI for shell access, and an HTTP API for programmatic integration — with OAuth, proxy, and master API key options for embedded use.
+image: https://monid.ai/share-card.png
+json_schemas:
+- name: ApiKey
+  property_count: 12
+  slug: monid-api-key
+- name: DiscoverCategoriesRequest
+  property_count: 6
+  slug: monid-discover-categories-request
+- name: DiscoverEndpointsRequest
+  property_count: 8
+  slug: monid-discover-endpoints-request
+- name: DiscoverProvidersRequest
+  property_count: 6
+  slug: monid-discover-providers-request
+- name: DiscoverRequest
+  property_count: 8
+  slug: monid-discover-request
+- name: ExternalResourceDetail
+  property_count: 4
+  slug: monid-external-resource-detail
+- name: IdentityLinkCompleteRequest
+  property_count: 2
+  slug: monid-identity-link-complete-request
+- name: IdentityLinkCompleteResponse
+  property_count: 4
+  slug: monid-identity-link-complete-response
+- name: IdentityLinkStartRequest
+  property_count: 1
+  slug: monid-identity-link-start-request
+- name: IdentityLinkStartResponse
+  property_count: 2
+  slug: monid-identity-link-start-response
+- name: InspectRequest
+  property_count: 2
+  slug: monid-inspect-request
+- name: InspectResponse
+  property_count: 14
+  slug: monid-inspect-response
+- name: ProviderResourcesResponse
+  property_count: 1
+  slug: monid-provider-resources-response
+- name: PublicCategoriesResponse
+  property_count: 2
+  slug: monid-public-categories-response
+- name: PublicEndpointDetail
+  property_count: 0
+  slug: monid-public-endpoint-detail
+- name: PublicEndpointInfo
+  property_count: 10
+  slug: monid-public-endpoint-info
+- name: PublicProviderEntry
+  property_count: 6
+  slug: monid-public-provider-entry
+- name: PublicRegistryStats
+  property_count: 2
+  slug: monid-public-registry-stats
+- name: ResourceEvent
+  property_count: 6
+  slug: monid-resource-event
+- name: ResourceReleaseAccepted
+  property_count: 3
+  slug: monid-resource-release-accepted
+- name: Resource
+  property_count: 35
+  slug: monid-resource
+- name: RunAccepted
+  property_count: 7
+  slug: monid-run-accepted
+- name: RunBlocked
+  property_count: 10
+  slug: monid-run-blocked
+- name: RunCompleted
+  property_count: 15
+  slug: monid-run-completed
+- name: RunListItem
+  property_count: 16
+  slug: monid-run-list-item
+- name: RunRequest
+  property_count: 3
+  slug: monid-run-request
+- name: Run
+  property_count: 22
+  slug: monid-run
+- name: ScopeCatalog
+  property_count: 1
+  slug: monid-scope-catalog
+- name: UpdateApiKeyRequest
+  property_count: 1
+  slug: monid-update-api-key-request
+- name: WalletBalanceResponse
+  property_count: 3
+  slug: monid-wallet-balance-response
+- name: WalletTopupConfigResponse
+  property_count: 9
+  slug: monid-wallet-topup-config-response
+- name: WalletTopupRequest
+  property_count: 5
+  slug: monid-wallet-topup-request
+- name: WalletTopupSessionResponse
+  property_count: 3
+  slug: monid-wallet-topup-session-response
+- name: WhoamiResponse
+  property_count: 5
+  slug: monid-whoami-response
+- name: WorkspaceBudgetPatchRequest
+  property_count: 2
+  slug: monid-workspace-budget-patch-request
+- name: WorkspaceBudgetRun
+  property_count: 9
+  slug: monid-workspace-budget-run
+- name: WorkspaceBudget
+  property_count: 12
+  slug: monid-workspace-budget
+- name: WorkspaceListResponse
+  property_count: 1
+  slug: monid-workspace-list-response
+- name: WorkspaceRunCapPatchRequest
+  property_count: 2
+  slug: monid-workspace-run-cap-patch-request
+- name: WorkspaceRunCapRun
+  property_count: 7
+  slug: monid-workspace-run-cap-run
+- name: WorkspaceRunCap
+  property_count: 7
+  slug: monid-workspace-run-cap
+jsonld:
+- class_count: 71
+  name: Monid Context
+  property_count: 189
+  slug: monid-context
 layout: provider
 mcp_servers:
 - description: Official hosted Monid MCP server (Streamable HTTP). Gives an AI client tools to discover, inspect, and run hundreds of data endpoints across the web, with pay-per-use billing against a Monid workspace
   name: Monid MCP Server
   slug: monid-mcp-server
-modified: 2026-07-23
+modified: '2026-10-07'
 name: Monid
 nav: Providers
 network: true
-overview: 'Monid publishes 10 APIs on the [APIs.io](https://apis.io/) network, including API Keys API, Auth API, Controls API, and 7 more. Tagged areas include Company, Agents, MCP, Tools, and Data.
+overview: 'Monid publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including API Keys API, Auth API, Controls API, and 9 more. Tagged areas include Company, Agents, MCP, Tools, and Data.
 
 
-  Monid''s developer surface includes authentication, CLI, documentation, API reference, getting-started guide, engineering blog, signup flow, and 19 more developer resources.'
+  The Monid catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+
+
+  Monid''s developer surface includes authentication, CLI, documentation, API reference, getting-started guide, engineering blog, signup flow, and 31 more developer resources.'
+plans:
+- name: Monid Plans Pricing
+  plan_count: 1
+  slug: monid-plans-pricing
 random_paper: 7
+rate_limits:
+- limit_count: 0
+  name: Monid Rate Limits
+  slug: monid-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 58
+  extends:
+  - spectral:oas
+  name: Monid API Rules
+  rule_count: 17
+  severity_counts:
+    error: 11
+    hint: 0
+    info: 3
+    warn: 3
+  slug: monid-rules
 scopes:
 - name: Monid Scopes
   scope_count: 5
   slug: monid-scopes
   summary_line: 5 scopes · authorizationCode
 score:
-  band: thin
-  composite: 37.5
+  band: strong
+  composite: 56.2
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 35.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 80.0
+    artifact_dirs: 31
+    catalog_earned: 70.8
+    catalog_earned_first_party: 8.0
+    catalog_gap: 44.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
-    access_clarity: 0.0
-    contract_governance: 18.2
-    contract_quality: 49.9
-    developer_ergonomics: 66.7
-    discoverability: 71.7
+    access_clarity: 52.6
+    contract_governance: 35.6
+    contract_quality: 63.6
+    developer_ergonomics: 71.4
+    discoverability: 76.7
     operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -269,7 +485,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 37.5
+  previous_composite: 56.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -277,7 +493,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 10
+      total: 11
     mcp: first-party
     skills: first-party
   regulatory:
@@ -285,9 +501,9 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 26.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+    score: 34.3
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -301,7 +517,7 @@ security:
 - kind: domain-security
   name: Monid Domain Security
   slug: monid-domain-security
-  summary_line: TLSv1.3 · DNSSEC
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: monid
 tags:
 - Company

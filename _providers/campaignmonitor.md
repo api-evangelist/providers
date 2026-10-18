@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: REST API for managing email campaigns, subscriber lists, transactional emails, segments, journeys, templates, and campaign performance analytics.
@@ -233,9 +233,13 @@ common:
 created: '2026-06-13'
 description: Campaign Monitor, a Marigold brand, is an email marketing platform for marketers and agencies. Its REST API — served under the original createsend name at api.createsend.com/api/v3.3 — manages clients, subscriber lists, subscribers and custom fields, segments, campaigns, HTML templates, automated journeys, authenticated sending domains and transactional email, and returns per-recipient reporting for opens, clicks, bounces, unsubscribes and spam complaints. Authentication is OAuth 2.0 with twelve coarse permissions, or an API key over HTTP Basic. Per-list webhooks push Subscribe, Update and Deactivate events. Campaign Monitor publishes no OpenAPI, no AsyncAPI and no MCP server; the contract is HTML reference documentation plus seven official client libraries.
 finops:
-- name: Campaignmonitor Finops
+- has_sources: false
+  method: generated
+  name: Campaignmonitor Finops
+  primary_unit: ''
   service_category: ''
   slug: campaignmonitor-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/campaignmonitor.png
 jsonld:
 - class_count: 18
@@ -247,7 +251,7 @@ modified: '2026-08-13'
 name: Campaign Monitor
 nav: Providers
 network: true
-overview: 'Campaign Monitor publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Email Marketing, Campaigns, Subscribers, Transactional Email, and Segments.
+overview: 'Campaign Monitor is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Email Marketing, Campaigns, Subscribers, Transactional Email, and Segments.
 
 
   The Campaign Monitor catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 JSON-LD context.
@@ -270,17 +274,17 @@ scopes:
   summary_line: 12 scopes
 score:
   band: strong
-  composite: 66.1
+  composite: 64.5
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 68.0
+    artifact_dirs: 22
+    catalog_earned: 65.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 47.0
+    catalog_gap: 50.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 100.0
+    access_clarity: 92.1
     contract_governance: 18.2
     contract_quality: 49.4
     developer_ergonomics: 57.1
@@ -300,8 +304,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 44.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

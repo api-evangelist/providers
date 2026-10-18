@@ -23,10 +23,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.unison.com/blog/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/unison/refs/heads/main/security/unison-domain-security.yml
   title: ''
@@ -96,26 +100,26 @@ description: Unison (Unison Home Ownership Investors, headquartered in San Franc
   only agent-facing artifact it serves is an llms.txt at the site root.
 image: https://cdn.prod.website-files.com/688b907742517387194e886d/688bcf59a60dac663e6ab4c4_Unison%20symbol%20square%20brand.png
 layout: provider
-modified: '2026-09-02'
+modified: '2026-10-06'
 name: Unison
 nav: Providers
 network: true
 overview: 'Unison is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Fintech, Real Estate, and Home Equity.
 
 
-  Unison''s developer surface includes engineering blog, support, and 7 more developer resources.'
+  Unison''s developer surface includes engineering blog, support, and 8 more developer resources.'
 random_paper: 8
 score:
   band: emerging
-  composite: 11.2
+  composite: 11.3
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
@@ -137,13 +141,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/unison/refs/heads/main/screenshots/unison-2026-10-11T193953.png
 security:
 - kind: domain-security
   name: Unison Domain Security

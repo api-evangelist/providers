@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 8
 apis:
 - description: 'Xact via SWIFT delivers settlement, custody, asset servicing and reporting messages over the SWIFTNet FIN network. The interface uses ISO 15022 MT messages today and is being migrated to ISO 20022 MX '
@@ -62,6 +62,11 @@ apis:
   slug: scim2-user-management
 artifact_total: 16
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/clearstream/refs/heads/main/finops/clearstream-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/clearstream-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/clearstream/refs/heads/main/security/clearstream-domain-security.yml
   title: ''
@@ -206,9 +211,13 @@ created: '2024-01-15'
 description: 'Clearstream Banking S.A. is the Deutsche Borse Group post-trade infrastructure business, providing settlement, custody, collateral management and investment-fund order routing for international securities. Its programmable surface has two layers. The incumbent layer is regulated post-trade messaging: clients connect through ClearstreamXact (Xact Web Portal, Xact File Transfer over SWIFTNet FileAct, and Xact via SWIFT FIN), CASCADE via SWIFT and MQ, Vestima for fund order routing and CmaX for triparty collateral, exchanging ISO 15022 MT and ISO 20022 MX messages whose specifications Clearstream publishes to SWIFT MyStandards, with migration to ISO 20022 driven by the SWIFT CBPR+ programme. The newer layer is a genuine REST platform at api.clearstream.com, running an OAuth 2.0 password grant hardened by mandatory mutual TLS, whose first published API is SCIM 2.0 user management for the Xact Web Portal; a free synthetic Playground API and a CmaX collateral surface are live alongside
   it. The OpenAPI definitions are published into the Deutsche Borse Digital Business Platform catalogue, which requires registration.'
 finops:
-- name: Clearstream Finops
+- has_sources: false
+  method: generated
+  name: Clearstream Finops
+  primary_unit: ''
   service_category: API
   slug: clearstream-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/clearstream.png
 jsonld:
 - class_count: 0
@@ -220,13 +229,13 @@ modified: '2026-09-05'
 name: Clearstream
 nav: Providers
 network: true
-overview: 'Clearstream publishes 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Capital Markets, Collateral Management, Custody, Financial Services, and ISO 15022.
+overview: 'Clearstream is listed with 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Capital Markets, Collateral Management, Custody, Financial Services, and ISO 15022.
 
 
   The Clearstream catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Clearstream''s developer surface includes developer portal, documentation, getting-started guide, support, signup flow, engineering blog, authentication, and 24 more developer resources.'
+  Clearstream''s developer surface includes developer portal, documentation, getting-started guide, support, signup flow, engineering blog, authentication, and 25 more developer resources.'
 plans:
 - name: Clearstream Plans Pricing
   plan_count: 0
@@ -237,7 +246,8 @@ rate_limits:
   name: Clearstream Rate Limits
   slug: clearstream-rate-limits
 rules:
-- effective_rule_count: 52
+- authorship: unmarked
+  effective_rule_count: 52
   extends:
   - spectral:oas
   name: Clearstream API Rules
@@ -254,19 +264,19 @@ scopes:
   slug: clearstream-scopes
   summary_line: 4 scopes
 score:
-  band: developing
-  composite: 44.1
+  band: thin
+  composite: 39.0
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 56.5
+    artifact_dirs: 22
+    catalog_earned: 43.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 58.5
+    catalog_gap: 71.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.1
   facets:
-    access_clarity: 52.6
-    contract_governance: 59.1
+    access_clarity: 44.7
+    contract_governance: 29.5
     contract_quality: 6.7
     developer_ergonomics: 52.4
     discoverability: 69.6
@@ -281,9 +291,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 38.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

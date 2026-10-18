@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.8
-  scored_at: '2026-10-04'
+  score: 22.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -97,6 +97,21 @@ collections:
   name: Google Cloud Compute Engine Google Compute Engine Disks Networks API
   slug: open-google-cloud-compute-engine-networks-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-compute-engine/refs/heads/main/plans/google-cloud-compute-engine-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/google-cloud-compute-engine-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-compute-engine/refs/heads/main/rate-limits/google-cloud-compute-engine-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/google-cloud-compute-engine-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-compute-engine/refs/heads/main/finops/google-cloud-compute-engine-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/google-cloud-compute-engine-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/google-cloud-compute-engine/refs/heads/main/capabilities/google-cloud-compute-engine-capability-edges.yml
   title: ''
@@ -183,9 +198,13 @@ common:
 created: '2026-03-13'
 description: Google Cloud Compute Engine delivers virtual machines running in Google's innovative data centers and worldwide fiber network. Compute Engine VMs boot quickly, come with persistent disk storage, and deliver consistent performance. It offers predefined and custom machine types, preemptible VMs, and sole-tenant nodes for specialized workloads.
 finops:
-- name: Google Cloud Compute Engine Finops
+- has_sources: false
+  method: generated
+  name: Google Cloud Compute Engine Finops
+  primary_unit: ''
   service_category: API
   slug: google-cloud-compute-engine-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/google-cloud-compute-engine.png
 json_schemas:
 - name: Google Compute Engine Instance
@@ -201,13 +220,13 @@ modified: '2026-05-19'
 name: Google Cloud Compute Engine
 nav: Providers
 network: true
-overview: 'Google Cloud Compute Engine publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Disks API, Firewalls API, Instances API, and 1 more. Tagged areas include Compute, Google Cloud, Infrastructure-as-a-Service, Infrastructure, and Virtual Machines.
+overview: 'Google Cloud Compute Engine publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Disks API, Firewalls API, Instances API, and 1 more. Tagged areas include Compute, Google Cloud, Infrastructure-as-a-Service, Infrastructure, and Virtual Machines.
 
 
   The Google Cloud Compute Engine catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Google Cloud Compute Engine''s developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, support, and 13 more developer resources.'
+  Google Cloud Compute Engine''s developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, support, and 16 more developer resources.'
 plans:
 - name: Google Cloud Compute Engine Plans Pricing
   plan_count: 3
@@ -218,9 +237,10 @@ rate_limits:
   name: Google Cloud Compute Engine Rate Limits
   slug: google-cloud-compute-engine-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Google Cloud Compute Engine API Rules
+  name: Google Cloud Compute Engine — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -235,17 +255,17 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: developing
-  composite: 48.0
+  composite: 46.4
   coverage:
     artifact_dirs: 16
-    catalog_earned: 62.7
+    catalog_earned: 59.7
     catalog_earned_first_party: 0.0
-    catalog_gap: 52.4
+    catalog_gap: 55.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 47.4
+    access_clarity: 39.5
     contract_governance: 9.8
     contract_quality: 58.1
     developer_ergonomics: 48.8
@@ -265,8 +285,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

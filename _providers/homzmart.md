@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://homzmart.com/blog
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/homzmart/refs/heads/main/security/homzmart-vulnerability-disclosure.yml
   title: ''
@@ -59,28 +63,31 @@ created: '2026-07-17'
 description: Homzmart is a Cairo, Egypt-based online marketplace for furniture, home decor, appliances, and workspace products that connects thousands of local manufacturers, brands, and merchants with consumers across Egypt and the wider MENA region. Founded in 2019 by Mahmoud Ibrahim and Ibrahim Mohamed, the platform lists more than 55,000 products and layers in flexible financing, delivery, and assembly services. Homzmart runs consumer web and mobile storefronts alongside merchant-facing "Sell With Us" and "Homzmart For Business" programs, and has raised roughly $40M in venture funding including a $15M Series A, with 500 Global among its backers. No public developer API program, SDK, or API documentation was found during enrichment; the company publishes a vulnerability-disclosure page and standard trust/policy pages.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/homzmart.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Homzmart
 nav: Providers
 network: true
-overview: Homzmart is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Furniture, Marketplace, and Home Goods.
+overview: 'Homzmart is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Furniture, Marketplace, and Home Goods.
+
+
+  Homzmart''s developer surface includes engineering blog and 4 more developer resources.'
 random_paper: 2
 score:
   band: minimal
-  composite: 5.6
+  composite: 6.2
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 48.2
     operational_transparency: 10.5
   jurisdiction:
@@ -90,6 +97,8 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - africa
+    - mena
+    - north-africa
   previous_composite: 5.6
   regulatory:
     applies: true
@@ -97,8 +106,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

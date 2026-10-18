@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 15.5
-  scored_at: '2026-10-04'
+  score: 13.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The SessionStack REST API provides programmatic access to session recordings, user events, errors, and logs. Developers can retrieve and search sessions associated with their websites, get details abo
@@ -93,9 +93,13 @@ common:
 created: '2026-06-13'
 description: SessionStack is an AI-driven session replay and digital experience analytics platform that enables product and support teams to record, replay, and analyze real user sessions on web applications. It provides a REST API for retrieving session recordings, events, errors, and user-generated logs, enabling teams to integrate session playback into support workflows, export data to external systems, and automate session management. SessionStack integrates with tools such as Zendesk and Sentry to surface session replays directly alongside support tickets and error reports. The platform uses tagless autocapture and retroactive data history to ensure no user interaction is missed, and supports co-browsing for live collaborative troubleshooting sessions.
 finops:
-- name: Sessionstack Finops
+- has_sources: false
+  method: generated
+  name: Sessionstack Finops
+  primary_unit: ''
   service_category: ''
   slug: sessionstack-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sessionstack.png
 jsonld:
 - class_count: 11
@@ -107,7 +111,7 @@ modified: '2026-06-13'
 name: SessionStack
 nav: Providers
 network: true
-overview: 'SessionStack publishes 1 API on the [APIs.io](https://apis.io/) network: REST API. Tagged areas include Session Replay, User Monitoring, Digital Experience Analytics, Session Recording, and Co-Browsing.
+overview: 'SessionStack is listed with 1 API on the [APIs.io](https://apis.io/) network: REST API. Tagged areas include Session Replay, User Monitoring, Digital Experience Analytics, Session Recording, and Co-Browsing.
 
 
   The SessionStack catalog on APIs.io includes 1 JSON-LD context.
@@ -124,23 +128,23 @@ rate_limits:
   name: Sessionstack Rate Limits
   slug: sessionstack-rate-limits
 score:
-  band: thin
-  composite: 28.6
+  band: emerging
+  composite: 20.3
   coverage:
     artifact_dirs: 8
-    catalog_earned: 69.6
+    catalog_earned: 51.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 45.4
+    catalog_gap: 64.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 34.7
     developer_ergonomics: 11.9
     discoverability: 66.1
-    operational_transparency: 33.7
+    operational_transparency: 13.2
   previous_composite: 28.6
   regulatory:
     applies: true
@@ -148,13 +152,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/sessionstack/refs/heads/main/screenshots/sessionstack-2026-10-11T192706.png
 security:
 - kind: domain-security
   name: Sessionstack Domain Security

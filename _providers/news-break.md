@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 20
+- acting_count: 19
   human_in_the_loop: 0
   name: News Break Agentic Access
   operation_count: 28
   slug: news-break-agentic-access
-  summary_line: 28 operations · 20 acting
+  summary_line: 28 operations · 19 acting
 api_count: 2
 apis:
 - baseURL: https://business.newsbreak.com/business-api/v1
@@ -106,6 +106,10 @@ collections:
   name: NewsBreak MSP Monetization Reporting API
   slug: open-news-break-monetization-reporting
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.newsbreak.com/blog/rss.xml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/news-break/refs/heads/main/capabilities/news-break-capability-edges.yml
   title: ''
@@ -254,14 +258,14 @@ description: 'NewsBreak is the leading local news and information platform in th
   impressions, revenue, publisher net revenue and eCPM for publishers and monetization partners. NewsBreak also publishes an llms.txt that scopes AI access to its verified local-business content surface.'
 image: https://static.newsbreak.com/static/favicon-32x32.png
 layout: provider
-modified: '2026-08-01'
+modified: '2026-10-06'
 name: News Break
 nav: Providers
 network: true
-overview: 'News Break publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Account Billing API, Ad Account API, Ad API, and 6 more. Tagged areas include Company, Advertising, AdTech, News, and Media.
+overview: 'News Break publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account Billing API, Ad Account API, Ad API, and 6 more. Tagged areas include Company, Advertising, AdTech, News, and Media.
 
 
-  News Break''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 24 more developer resources.'
+  News Break''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 25 more developer resources.'
 random_paper: 17
 rate_limits:
 - limit_count: 9
@@ -269,15 +273,15 @@ rate_limits:
   slug: news-break-rate-limits
 score:
   band: developing
-  composite: 46.4
+  composite: 46.5
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
@@ -302,8 +306,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

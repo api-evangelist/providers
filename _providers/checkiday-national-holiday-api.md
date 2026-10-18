@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -65,6 +65,21 @@ collections:
   name: Checkiday - National Holiday and Event API
   slug: open-checkiday
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/checkiday-national-holiday-api/refs/heads/main/plans/checkiday-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/checkiday-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/checkiday-national-holiday-api/refs/heads/main/rate-limits/checkiday-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/checkiday-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/checkiday-national-holiday-api/refs/heads/main/finops/checkiday-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/checkiday-finops.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -189,9 +204,13 @@ examples:
   name: Checkiday Search Example
   slug: checkiday-search-example
 finops:
-- name: Checkiday Finops
+- has_sources: false
+  method: generated
+  name: Checkiday Finops
+  primary_unit: ''
   service_category: API
   slug: checkiday-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/checkiday-national-holiday-api.png
 json_schemas:
 - name: Checkiday Event Detail
@@ -226,13 +245,13 @@ modified: '2026-05-30'
 name: Checkiday - National Holiday and Event API
 nav: Providers
 network: true
-overview: 'Checkiday - National Holiday and Event API publishes 1 API on the [APIs.io](https://apis.io/) network: Events API. Tagged areas include Calendar, Holidays, Event, Observances, and Dates.
+overview: 'Checkiday - National Holiday and Event API publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Events API. Tagged areas include Calendar, Holidays, Event, Observances, and Dates.
 
 
   The Checkiday - National Holiday and Event API catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Checkiday - National Holiday and Event API''s developer surface includes authentication, developer portal, signup flow, pricing, support, engineering blog, and 20 more developer resources.'
+  Checkiday - National Holiday and Event API''s developer surface includes authentication, developer portal, signup flow, pricing, support, engineering blog, and 23 more developer resources.'
 plans:
 - name: Checkiday Plans Pricing
   plan_count: 5
@@ -243,9 +262,10 @@ rate_limits:
   name: Checkiday Rate Limits
   slug: checkiday-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Checkiday - National Holiday and Event API API Rules
+  name: Checkiday - National Holiday and Event API — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -253,10 +273,11 @@ rules:
     info: 2
     warn: 3
   slug: checkiday-national-holiday-api-jsonschema-spectral-rules
-- effective_rule_count: 51
+- authorship: unmarked
+  effective_rule_count: 51
   extends:
   - spectral:oas
-  name: Checkiday - National Holiday and Event API API Rules
+  name: Checkiday - National Holiday and Event API — checkiday rules
   rule_count: 10
   severity_counts:
     error: 6
@@ -266,22 +287,22 @@ rules:
   slug: checkiday-rules
 score:
   band: developing
-  composite: 52.1
+  composite: 44.6
   coverage:
     artifact_dirs: 18
-    catalog_earned: 83.1
+    catalog_earned: 64.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 31.9
+    catalog_gap: 50.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.5
   facets:
-    access_clarity: 53.4
+    access_clarity: 25.0
     contract_governance: 13.6
     contract_quality: 66.9
     developer_ergonomics: 57.1
     discoverability: 73.2
-    operational_transparency: 54.7
+    operational_transparency: 34.2
   open_source:
     applies: true
     score: 25.0
@@ -299,9 +320,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

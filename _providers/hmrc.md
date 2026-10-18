@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.8
-  scored_at: '2026-10-04'
+  score: 22.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -109,6 +109,29 @@ collections:
   name: HMRC VAT (Making Tax Digital) API
   slug: open-hmrc-vat-mtd
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/hmrc/refs/heads/main/plans/hmrc-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/hmrc-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/hmrc/refs/heads/main/rate-limits/hmrc-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/hmrc-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/hmrc/refs/heads/main/finops/hmrc-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/hmrc-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.gov.uk/search/news-and-communications
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.gov.uk/search/news-and-communications.atom
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/hmrc/refs/heads/main/capabilities/hmrc-capability-edges.yml
   title: ''
@@ -201,9 +224,13 @@ common:
 created: '2025'
 description: HM Revenue and Customs (HMRC) provides over 115 APIs through the HMRC Developer Hub for UK tax compliance including Making Tax Digital for VAT and Income Tax, PAYE, customs declarations, corporation tax, and construction industry scheme. APIs use OAuth 2.0 and support both REST and XML protocols with a sandbox testing environment.
 finops:
-- name: Hmrc Finops
+- has_sources: true
+  method: generated
+  name: Hmrc Finops
+  primary_unit: ''
   service_category: Government / Tax
   slug: hmrc-finops
+  template: false
 json_schemas:
 - name: Error
   property_count: 3
@@ -248,17 +275,17 @@ jsonld:
   property_count: 21
   slug: hmrc-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-10-06'
 name: HMRC UK Tax Authority
 nav: Providers
 network: true
-overview: 'HMRC UK Tax Authority publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Liabilities API, Obligations API, Payments API, and 5 more. Tagged areas include Government, Making Tax Digital, Regulatory, Tax, and United Kingdom.
+overview: 'HMRC UK Tax Authority publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Liabilities API, Obligations API, Payments API, and 5 more. Tagged areas include Government, Making Tax Digital, Regulatory, Tax, and United Kingdom.
 
 
   The HMRC UK Tax Authority catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  HMRC UK Tax Authority''s developer surface includes authentication, developer portal, documentation, getting-started guide, support, and 15 more developer resources.'
+  HMRC UK Tax Authority''s developer surface includes engineering blog, authentication, developer portal, documentation, getting-started guide, support, and 19 more developer resources.'
 plans:
 - name: Hmrc Plans Pricing
   plan_count: 2
@@ -269,9 +296,10 @@ rate_limits:
   name: Hmrc Rate Limits
   slug: hmrc-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: HMRC UK Tax Authority API Rules
+  name: HMRC UK Tax Authority — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -286,20 +314,20 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: developing
-  composite: 40.9
+  composite: 39.8
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 54.3
+    artifact_dirs: 21
+    catalog_earned: 51.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 60.8
+    catalog_gap: 63.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.1
   facets:
-    access_clarity: 13.2
+    access_clarity: 5.3
     contract_governance: 9.8
     contract_quality: 56.3
-    developer_ergonomics: 56.0
+    developer_ergonomics: 58.3
     discoverability: 62.5
     operational_transparency: 26.3
   jurisdiction:
@@ -324,8 +352,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 32.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

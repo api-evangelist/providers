@@ -23,10 +23,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.ardentprivacy.ai/rss/
 - group: commercial
   href: https://raw.githubusercontent.com/api-evangelist/ardent-privacy/refs/heads/main/plans/ardent-privacy-plans-pricing.yml
   title: ''
@@ -86,14 +90,14 @@ created: '2026-09-25'
 description: Ardent Privacy is a data privacy and protection company that helps businesses strengthen data privacy, adopt a data‑centric approach, and secure critical data where it resides. By providing tools and services for data‑centric security, Ardent Privacy enables organizations to protect personal information, comply with regulations, and build trust with customers.
 image: https://storage.ghost.io/c/d4/1b/d41be213-aa43-42e1-bcac-9b7970940a7d/content/images/2026/05/Untitled-design--66-.png
 layout: provider
-modified: '2026-09-25'
+modified: '2026-10-06'
 name: Ardent Privacy
 nav: Providers
 network: true
 overview: 'Ardent Privacy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Privacy, Security, Software-as-a-Service, and Compliance.
 
 
-  Ardent Privacy''s developer surface includes support, pricing, engineering blog, and 8 more developer resources.'
+  Ardent Privacy''s developer surface includes support, pricing, engineering blog, and 9 more developer resources.'
 plans:
 - name: Ardent Privacy Plans Pricing
   plan_count: 1
@@ -101,14 +105,15 @@ plans:
 random_paper: 19
 score:
   band: emerging
-  composite: 16.6
+  composite: 16.7
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 35.0
     catalog_earned_first_party: 8.0
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.1
   facets:
     access_clarity: 55.3
     contract_governance: 0.0
@@ -116,18 +121,21 @@ score:
     developer_ergonomics: 7.1
     discoverability: 50.0
     operational_transparency: 0.0
+  previous_composite: 16.6
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 9.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/ardent-privacy/refs/heads/main/screenshots/ardent-privacy-2026-10-11T100217.png
 security:
 - kind: domain-security
   name: Ardent Privacy Domain Security

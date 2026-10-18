@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 41.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -104,6 +104,10 @@ collections:
   name: The Helcim API
   slug: open-helcim-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.helcim.com/blog/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/helcim/refs/heads/main/capabilities/helcim-capability-edges.yml
   title: ''
@@ -294,17 +298,17 @@ created: '2026-07-24'
 description: 'Helcim is a Calgary, Canada based payment processor and merchant services provider serving small and medium-sized businesses across Canada and the United States with interchange-plus pricing and no monthly fees. Beyond its merchant dashboard, Smart Terminal hardware, and online store, Helcim ships a genuine developer surface: the versioned Helcim API (v2) for taking card and ACH payments, managing customers, cards, bank accounts and pre-authorized debits (PADs), issuing invoices, settling card and ACH batches, and driving in-person Card Terminal devices, alongside HelcimPay.js hosted checkout and connected-account webhooks. Authentication is a permissioned API access token passed in an api-token header, and the public developer portal publishes a downloadable OpenAPI 3.0 definition. In Canada''s small, concentrated payments market, Helcim is one of the API-native SMB money-movement fintechs building above the incumbent acquiring and Interac rails.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-modified: '2026-07-24'
+modified: '2026-10-06'
 name: Helcim
 nav: Providers
 network: true
-overview: 'Helcim publishes 9 APIs on the [APIs.io](https://apis.io/) network, including ACH Payment API, Card Batch API, Card Terminal API, and 6 more. Tagged areas include Payments, Canada, Payment Gateway, Payment Processing, and Acquiring.
+overview: 'Helcim publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including ACH Payment API, Card Batch API, Card Terminal API, and 6 more. Tagged areas include Payments, Canada, Payment Gateway, Payment Processing, and Acquiring.
 
 
   The Helcim catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Helcim''s developer surface includes authentication, documentation, API reference, getting-started guide, sandbox, changelog, pricing, and 34 more developer resources.'
+  Helcim''s developer surface includes engineering blog, authentication, documentation, API reference, getting-started guide, sandbox, changelog, and 35 more developer resources.'
 random_paper: 10
 rate_limits:
 - limit_count: 3
@@ -312,20 +316,20 @@ rate_limits:
   slug: helcim-rate-limits
 score:
   band: developing
-  composite: 52.5
+  composite: 53.0
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 27
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 48.7
     contract_governance: 18.2
     contract_quality: 52.1
-    developer_ergonomics: 45.4
+    developer_ergonomics: 47.7
     discoverability: 73.2
     operational_transparency: 77.6
   jurisdiction:
@@ -352,8 +356,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 31.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -378,7 +382,7 @@ tags:
 - Merchant Services
 - ACH
 - Invoicing
-- Card Terminal
+- Payment Terminals
 - Small Business
 website: https://www.helcim.com/
 ---

@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://noise.xyz/news
 - group: company
   title: ''
   type: Website
@@ -58,31 +62,31 @@ created: '2026-07-17'
 description: Noise is a consumer "attention markets" / trend-prediction platform built on Base where curators propose trend pages and communities trade markets on how relevant a topic, brand, or movement becomes over time. Market price reflects a central "relevance" number, with funding and liquidation mechanics familiar from perpetual markets. Noise raised a $7.1M seed round led by Paradigm and launched an invite-only testnet beta. It is a mobile-first consumer app rather than a developer platform; its public surface is product documentation (Mintlify) at docs.noise.xyz — no first-party developer API, SDKs, or authentication scheme is currently published.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/noise.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Noise
 nav: Providers
 network: true
-overview: 'Noise is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto, Prediction Markets, Attention Markets, and Base.
+overview: 'Noise is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cryptocurrency, Prediction Markets, Attention Markets, and Base.
 
 
-  Noise''s developer surface includes documentation and 3 more developer resources.'
+  Noise''s developer surface includes engineering blog, documentation, and 3 more developer resources.'
 random_paper: 14
 score:
   band: minimal
-  composite: 5.1
+  composite: 5.7
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 9.5
+    developer_ergonomics: 11.9
     discoverability: 55.4
     operational_transparency: 0.0
   previous_composite: 5.1
@@ -92,8 +96,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 5.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -108,7 +112,7 @@ security:
 slug: noise
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Prediction Markets
 - Attention Markets
 - Base

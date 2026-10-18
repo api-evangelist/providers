@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.csx.com/index.cfm/customers/news/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/csx/refs/heads/main/security/csx-vulnerability-disclosure.yml
   title: ''
@@ -74,14 +78,14 @@ created: '2026-03-21'
 description: CSX Corporation is a Class I freight railroad operating one of the largest rail networks in the eastern United States, serving 23 states with roughly 20,000 route miles of track. CSX moves bulk commodities, intermodal shipments, and merchandise for industrial customers and operates the ShipCSX customer portal for shipment management, EDI integration, and freight tracking.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/csx.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-10-06'
 name: CSX
 nav: Providers
 network: true
 overview: 'CSX is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Class I Railroad, Freight, Intermodal, Logistics, and Rail.
 
 
-  CSX''s developer surface includes developer portal and 7 more developer resources.'
+  CSX''s developer surface includes engineering blog, developer portal, and 7 more developer resources.'
 press:
 - date: ''
   title: CSX embraces AI in drive to improve operations
@@ -101,20 +105,20 @@ press:
 random_paper: 4
 score:
   band: minimal
-  composite: 6.2
+  composite: 6.7
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 9.5
+    developer_ergonomics: 11.9
     discoverability: 48.2
     operational_transparency: 0.0
   previous_composite: 6.2
@@ -124,8 +128,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -140,7 +144,7 @@ security:
 - kind: vulnerability-disclosure
   name: Csx Vulnerability Disclosure
   slug: csx-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 slug: csx
 tags:
 - Class I Railroad

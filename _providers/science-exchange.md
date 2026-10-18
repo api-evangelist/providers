@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 23
 apis:
 - baseURL: https://www.scienceexchange.com/api/providers/v1
@@ -227,6 +227,10 @@ collections:
   name: Science Exchange Providers addresses users API
   slug: open-science-exchange-users-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.scienceexchange.com/blog/rss.xml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/science-exchange/refs/heads/main/overlays/science-exchange-providers-overlay.yaml
   title: ''
@@ -354,18 +358,18 @@ created: '2026-07-17'
 description: Science Exchange is an R&D supplier orchestration and procurement platform for life-sciences organizations. It runs a marketplace of 3,800+ pre-qualified scientific service providers under a single master service agreement, and streamlines supplier sourcing, onboarding, contracting, compliance, and payment. The platform integrates with ERP (SAP, Oracle, Workday), P2P (Ariba, Coupa), and SSO/SAML identity systems, and exposes a read-only Providers REST API (v1) that lets scientific-service suppliers pull their RFQs, quotes, services, facilities, line items, ratings, tags, and users. Founded in 2011 and headquartered in Palo Alto, California; backed by a16z, Index Ventures, and Union Square Ventures.
 image: https://avatars.githubusercontent.com/scienceexchange
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Science Exchange
 nav: Providers
 network: true
-overview: 'Science Exchange publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Addresses API, Attachments API, Currency Codes API, and 20 more. Tagged areas include Company, Life Sciences, Research and Development, Scientific Services, and Procurement.
+overview: 'Science Exchange is listed with 23 APIs on the [APIs.io](https://apis.io/) network, including Addresses API, Attachments API, Currency Codes API, and 20 more. Tagged areas include Company, Life Sciences, Research and Development, Scientific Services, and Procurement.
 
 
-  Science Exchange''s developer surface includes documentation, API reference, engineering blog, signup flow, authentication, and 22 more developer resources.'
+  Science Exchange''s developer surface includes documentation, API reference, engineering blog, signup flow, authentication, and 23 more developer resources.'
 random_paper: 4
 score:
   band: thin
-  composite: 33.3
+  composite: 33.4
   coverage:
     artifact_dirs: 18
     catalog_earned: 40.0
@@ -373,7 +377,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 50.0
     contract_governance: 18.2
@@ -410,8 +414,8 @@ score:
     regime: Health
     regime_id: health
     score: 27.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

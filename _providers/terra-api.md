@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.3
-  scored_at: '2026-10-04'
+  score: 20.4
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 5
+- acting_count: 4
   human_in_the_loop: 0
   name: Terra Api Agentic Access
   operation_count: 16
   slug: terra-api-agentic-access
-  summary_line: 16 operations · 5 acting
+  summary_line: 16 operations · 4 acting
 api_count: 1
 apis:
 - description: Terra's primary data-delivery mechanism. Rather than a polling or WebSocket transport, Terra streams normalized health data and lifecycle events - auth, deauth, connection errors, and activity/body/da
@@ -190,16 +190,20 @@ common:
 created: '2026-07-03'
 description: Terra is a unified wearables and health-data API that aggregates data from 500+ wearables, fitness trackers, and health apps - Garmin, Fitbit, Oura, Apple Health, Whoop, Strava, Google Fit, Polar, Withings, and many more - behind a single normalized REST interface. Developers connect end users through the Terra Widget or a custom authentication flow, then receive normalized Activity, Body, Daily, Sleep, Nutrition, Menstruation, and Athlete data. Terra's primary delivery model is asynchronous - requested and newly available health data is streamed to a developer-configured webhook destination rather than returned inline, with REST read endpoints available for on-demand historical pulls.
 finops:
-- name: Terra Api Finops
+- has_sources: true
+  method: generated
+  name: Terra Api Finops
+  primary_unit: ''
   service_category: Health and Wearable Data
   slug: terra-api-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/terra-api.png
 layout: provider
 modified: '2026-07-03'
 name: Terra
 nav: Providers
 network: true
-overview: 'Terra publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Activity API, Athlete API, Authentication API, and 8 more. Tagged areas include Wearables, Health Data, Fitness, Aggregator, and Webhook.
+overview: 'Terra publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Activity API, Athlete API, Authentication API, and 8 more. Tagged areas include Wearables, Health Data, Fitness, Aggregator, and Webhook.
 
 
   Terra''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
@@ -214,22 +218,22 @@ rate_limits:
   slug: terra-api-rate-limits
 score:
   band: thin
-  composite: 35.5
+  composite: 27.2
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 61.6
+    artifact_dirs: 12
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.4
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 50.3
     developer_ergonomics: 31.0
     discoverability: 66.1
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   previous_composite: 35.5
   provenance:
     agentic_access: derived
@@ -244,9 +248,9 @@ score:
     regime: Health
     regime_id: health
     score: 9.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

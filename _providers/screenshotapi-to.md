@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://screenshotapi.to
@@ -42,33 +42,40 @@ collections:
 common:
 - group: company
   title: ''
+  type: Blog
+  url: https://screenshotapi.to/blog
+- group: company
+  title: ''
   type: Website
   url: https://screenshotapi.to
 created: '2026-08-02'
 description: 'ScreenshotAPI (screenshotapi.to) is a hosted screenshot and PDF capture API — send a URL or raw HTML, get back a PNG, JPEG, WebP or PDF without running browser infrastructure. The contract is deliberately small: one screenshot resource answering both GET and POST, plus a health check. What sets it apart from its size is the agent-readable surface around it — an llms.txt on the root, a 302KB llms-full.txt, a separate docs llms.txt, an agent install guide, a dedicated AI-agents page, and per-page markdown by appending .md to any /docs/ URL. An MCP server exists but runs locally over stdio and is not yet published to npm, so it is described here rather than advertised as a hosted endpoint. Not to be confused with ScreenshotAPI.net, a different company in the same category — see the screenshotapi-net entry.'
 layout: provider
-modified: '2026-09-16'
+modified: '2026-10-06'
 name: ScreenshotAPI
 nav: Providers
 network: true
-overview: 'ScreenshotAPI publishes 1 API on the [APIs.io](https://apis.io/) network: Screenshots API. Tagged areas include Screenshots, Website Screenshots, URL to Image, URL to PDF, and HTML to Image.'
+overview: 'ScreenshotAPI publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Screenshots API. Tagged areas include Screenshots, Website Screenshots, URL to Image, URL to PDF, and HTML to Image.
+
+
+  ScreenshotAPI''s developer surface includes engineering blog and 1 more developer resources.'
 random_paper: 0
 score:
   band: emerging
-  composite: 20.3
+  composite: 20.9
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 30.0
     catalog_earned_first_party: 0.0
     catalog_gap: 85.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 10.5
     contract_governance: 0.0
     contract_quality: 53.1
-    developer_ergonomics: 9.5
+    developer_ergonomics: 11.9
     discoverability: 60.7
     operational_transparency: 0.0
   previous_composite: 20.3
@@ -84,8 +91,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 0.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

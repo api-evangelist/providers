@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 54.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 506
   human_in_the_loop: 20
@@ -32,7 +32,7 @@ agentic_access:
   operation_count: 900
   slug: apiclaw-agentic-access
   summary_line: 900 operations · 506 acting · 20 human-in-the-loop
-api_count: 1
+api_count: 2
 apis:
 - description: APIClaw provides a unified API to access multiple large language models via an OpenAI‑compatible interface. See the Quick start documentation for usage.
   name: APIClaw
@@ -603,6 +603,10 @@ asyncapis:
   name: Apiclaw Webhooks
   slug: apiclaw-webhooks
 common:
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://apiclaw.biz/#pricing
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/apiclaw/refs/heads/main/capabilities/apiclaw-capability-edges.yml
   title: ''
@@ -745,20 +749,21 @@ modified: '2026-09-27'
 name: APIClaw
 nav: Providers
 network: true
-overview: 'APIClaw publishes 113 APIs on the [APIs.io](https://apis.io/) network, including A2a API, A2a Registration API, Access Groups API, and 110 more. Tagged areas include Company, Artificial Intelligence, LLM, Software-as-a-Service, and Platform.
+overview: 'APIClaw publishes 113 API contracts indexed on the [APIs.io](https://apis.io/) network, including A2a API, A2a Registration API, Access Groups API, and 110 more. Tagged areas include Company, Artificial Intelligence, LLM, Software-as-a-Service, and Platform.
 
 
   The APIClaw catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  APIClaw''s developer surface includes getting-started guide, authentication, documentation, API reference, engineering blog, support, signup flow, and 18 more developer resources.'
+  APIClaw''s developer surface includes pricing, getting-started guide, authentication, documentation, API reference, engineering blog, support, and 19 more developer resources.'
 plans:
 - name: Apiclaw Plans Pricing
   plan_count: 7
   slug: apiclaw-plans-pricing
 random_paper: 11
 rules:
-- effective_rule_count: 53
+- authorship: generated
+  effective_rule_count: 53
   extends:
   - spectral:oas
   name: APIClaw API Rules
@@ -770,22 +775,24 @@ rules:
     warn: 5
   slug: apiclaw-rules
 score:
-  band: developing
-  composite: 52.4
+  band: strong
+  composite: 54.6
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 22
     catalog_earned: 65.8
     catalog_earned_first_party: 12.0
     catalog_gap: 49.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 2.2
   facets:
-    access_clarity: 44.7
+    access_clarity: 55.3
     contract_governance: 22.0
     contract_quality: 60.5
     developer_ergonomics: 58.9
     discoverability: 75.0
     operational_transparency: 7.9
+  previous_composite: 52.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -802,11 +809,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: flat
   upsert:
     applies: true
     score: 61.1
+screenshot: https://raw.githubusercontent.com/api-evangelist/apiclaw/refs/heads/main/screenshots/apiclaw-2026-10-11T095928.png
 security:
 - kind: authentication
   name: Apiclaw Authentication

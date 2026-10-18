@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 5
 apis:
 - description: Keyless, read-only HAL+JSON REST API of the university's self-hosted DSpace 8.2 / DSpace-CRIS (cris-2024.02.04) institutional repository, served from the university's own domain at repository.nottingh
@@ -159,9 +159,13 @@ created: '2026-06-03'
 description: 'The University of Nottingham is a public research university in Nottingham, United Kingdom — a founding Russell Group member with campuses in the UK, Malaysia (UNM) and Ningbo, China (UNNC). It runs no public developer portal and publishes no OpenAPI, and this profile does not pretend otherwise. What it does operate, on its own nottingham.ac.uk hosts, is three genuinely institution-run machine surfaces: a self-hosted DSpace 8.2 / DSpace-CRIS repository at repository.nottingham.ac.uk exposing a keyless read-only HAL+JSON REST API and an OAI-PMH 2.0 provider (oai_dc, qdc, mets, rdf, dim, etdms, uketd_dc and RIOXX v3.0, plus an OpenAIRE CERIF 1.1 base URL), and a Shibboleth SAML 2.0 identity provider registered in the UK Access Management Federation for all three campuses. Its ORCID member integration and its DataCite prefix 10.17639 (1,609 DOIs resolving to its own repository) are verifiable from public endpoints. Alongside these it is a tenant on two vendor platforms — a Worktribe-hosted
   Repository@Nottingham OAI-PMH interface and Ex Libris Alma/Primo VE library discovery (NUsearch) — whose contracts belong to those vendors, not to Nottingham. Student records, timetabling, module enrolment and the VLE are behind SSO and are not publicly documented APIs. Notably, the repository''s human Angular UI is behind an AWS WAF human-verification challenge while its machine API is entirely open.'
 finops:
-- name: University Of Nottingham Finops
+- has_sources: true
+  method: generated
+  name: University Of Nottingham Finops
+  primary_unit: ''
   service_category: Education
   slug: university-of-nottingham-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/university-of-nottingham.png
 jsonld:
 - class_count: 8
@@ -173,7 +177,7 @@ modified: '2026-08-30'
 name: University of Nottingham
 nav: Providers
 network: true
-overview: 'University of Nottingham publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Higher Education, University, Russell Group, and United Kingdom.
+overview: 'University of Nottingham is listed with 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Higher Education, University, Russell Group, and United Kingdom.
 
 
   The University of Nottingham catalog on APIs.io includes 1 JSON-LD context.
@@ -190,23 +194,23 @@ rate_limits:
   name: University Of Nottingham Rate Limits
   slug: university-of-nottingham-rate-limits
 score:
-  band: thin
-  composite: 29.9
+  band: emerging
+  composite: 23.8
   coverage:
-    artifact_dirs: 9
-    catalog_earned: 60.4
+    artifact_dirs: 10
+    catalog_earned: 47.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 54.6
+    catalog_gap: 68.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -3.1
+  delta: -6.1
   facets:
-    access_clarity: 47.9
+    access_clarity: 26.3
     contract_governance: 18.2
     contract_quality: 14.3
     developer_ergonomics: 21.4
     discoverability: 62.5
-    operational_transparency: 21.6
+    operational_transparency: 7.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -215,7 +219,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 33.0
+  previous_composite: 29.9
   provenance:
     conformance: first-party
   regulatory:
@@ -224,9 +228,9 @@ score:
     regime: Education & Research
     regime_id: education
     score: 26.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://indrive.com/newsroom
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/indrive/refs/heads/main/security/indrive-domain-security.yml
   title: ''
@@ -69,26 +73,26 @@ created: '2026-07-17'
 description: inDrive is a global ride-hailing, delivery, and urban-services platform built around a peer-to-peer, name-your-price model in which passengers propose a fare and nearby drivers accept, counter, or decline it directly. Founded in 2012 by Arsen Tomsky in Yakutsk, Russia and now headquartered in Mountain View, California, the company operates across roughly 48 countries and more than 1,000 cities, with over 400 million app downloads. Beyond city rides it offers intercity transport, courier and freight delivery, on-demand task services, and driver lending. inDrive was added to the API Evangelist network as a portfolio company of Bond Capital and General Catalyst. inDrive does not publish a public developer API, OpenAPI specification, SDKs, or a developer portal; its GitHub organization hosts internal engineering frameworks and an engineering handbook rather than external API definitions.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/indrive.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Indrive
 nav: Providers
 network: true
-overview: 'Indrive is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Mobility, Ride Hailing, Ridesharing, and Delivery.
+overview: 'Indrive is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Mobility, Ride Hailing, Delivery, and Freight.
 
 
-  Indrive''s developer surface includes engineering blog, support, and 5 more developer resources.'
+  Indrive''s developer surface includes engineering blog, support, and 6 more developer resources.'
 random_paper: 5
 score:
   band: minimal
-  composite: 10.5
+  composite: 10.6
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
@@ -110,13 +114,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/indrive/refs/heads/main/screenshots/indrive-2026-10-11T190553.png
 security:
 - kind: domain-security
   name: Indrive Domain Security
@@ -127,7 +132,6 @@ tags:
 - Company
 - Mobility
 - Ride Hailing
-- Ridesharing
 - Delivery
 - Freight
 - Transportation

@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.3
-  scored_at: '2026-10-04'
+  score: 20.4
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 40
+- acting_count: 16
   human_in_the_loop: 0
   name: Uniswap Agentic Access
-  operation_count: 48
+  operation_count: 24
   slug: uniswap-agentic-access
-  summary_line: 48 operations · 40 acting
+  summary_line: 24 operations · 16 acting
 api_count: 2
 apis:
 - description: The Uniswap Subgraph API provides GraphQL endpoints for querying on-chain data across Uniswap protocol versions v1, v2, v3, and v4. Powered by The Graph Protocol decentralized network, it supports que
@@ -192,6 +192,21 @@ collections:
   name: Token Trading Approval WalletEncode7702 API
   slug: open-uniswap-walletencode7702-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/uniswap/refs/heads/main/plans/uniswap-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/uniswap-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/uniswap/refs/heads/main/rate-limits/uniswap-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/uniswap-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/uniswap/refs/heads/main/finops/uniswap-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/uniswap-finops.yml
 - group: company
   title: ''
   type: Website
@@ -308,9 +323,13 @@ features:
 - description: Query historical and real-time on-chain data for pools, positions, swaps, and ticks via GraphQL subgraph endpoints.
   name: On-Chain Data via Subgraphs
 finops:
-- name: Uniswap Finops
+- has_sources: true
+  method: generated
+  name: Uniswap Finops
+  primary_unit: ''
   service_category: DeFi / On-Chain Data
   slug: uniswap-finops
+  template: false
 graphqls:
 - description: The Uniswap Subgraph API provides GraphQL endpoints for querying on-chain data across Uniswap protocol versions v1, v2, v3, and v4. Powered by The Graph Protocol decentralized network, it supports que
   name: Uniswap GraphQL API
@@ -448,13 +467,13 @@ modified: '2026-09-16'
 name: Uniswap
 nav: Providers
 network: true
-overview: 'Uniswap publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Approval API, LimitOrderQuote API, Liquidity API, and 11 more. Tagged areas include Blockchain, Cryptocurrency, DeFi, Decentralized Exchange, and Liquidity.
+overview: 'Uniswap publishes 14 API contracts indexed on the [APIs.io](https://apis.io/) network, including Approval API, LimitOrderQuote API, Liquidity API, and 11 more. Tagged areas include Blockchain, Cryptocurrency, DeFi, Decentralized Exchange, and Liquidity.
 
 
   The Uniswap catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Uniswap''s developer surface includes authentication, developer portal, documentation, engineering blog, and 16 more developer resources.'
+  Uniswap''s developer surface includes authentication, developer portal, documentation, engineering blog, and 19 more developer resources.'
 plans:
 - name: Uniswap Plans Pricing
   plan_count: 3
@@ -465,9 +484,10 @@ rate_limits:
   name: Uniswap Rate Limits
   slug: uniswap-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Uniswap API Rules
+  name: Uniswap — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -475,7 +495,8 @@ rules:
     info: 2
     warn: 3
   slug: uniswap-jsonschema-spectral-rules
-- effective_rule_count: 84
+- authorship: generated
+  effective_rule_count: 84
   extends:
   - spectral:oas
   name: Uniswap API Rules
@@ -488,17 +509,17 @@ rules:
   slug: uniswap-spectral-rules
 score:
   band: developing
-  composite: 43.6
+  composite: 42.1
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 66.0
+    artifact_dirs: 21
+    catalog_earned: 63.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 49.0
+    catalog_gap: 52.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 28.9
+    access_clarity: 21.1
     contract_governance: 27.3
     contract_quality: 64.8
     developer_ergonomics: 56.0
@@ -518,8 +539,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 21.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 4
 apis:
 - description: 'The AutoTrac Supervisor Web platform provides fleet management capabilities for monitoring vehicle locations, managing fleet operations, generating reports, and coordinating driver assignments across '
@@ -53,6 +53,11 @@ apis:
   slug: integration-api
 artifact_total: 21
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/autotrac/refs/heads/main/finops/autotrac-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/autotrac-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/autotrac/refs/heads/main/security/autotrac-domain-security.yml
   title: ''
@@ -132,9 +137,13 @@ features:
 - description: Specialized tracking solutions for agricultural machinery including harvesters, tractors, and implements with field operation monitoring.
   name: Agricultural Equipment Tracking
 finops:
-- name: Autotrac Finops
+- has_sources: false
+  method: generated
+  name: Autotrac Finops
+  primary_unit: ''
   service_category: API
   slug: autotrac-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/autotrac.png
 integrations:
 - description: Integration with transportation management systems for freight dispatch, route optimization, and delivery confirmation workflows.
@@ -148,10 +157,10 @@ modified: '2026-09-18'
 name: AutoTrac
 nav: Providers
 network: true
-overview: 'AutoTrac publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Fleet Management, GPS Tracking, Telematics, Vehicle Tracking, and Logistics.
+overview: 'AutoTrac is listed with 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Fleet Management, GPS Tracking, Telematics, Vehicle Tracking, and Logistics.
 
 
-  AutoTrac''s developer surface includes support, engineering blog, and 9 more developer resources.'
+  AutoTrac''s developer surface includes support, engineering blog, and 10 more developer resources.'
 plans:
 - name: Autotrac Plans Pricing
   plan_count: 0
@@ -162,18 +171,18 @@ rate_limits:
   name: Autotrac Rate Limits
   slug: autotrac-rate-limits
 score:
-  band: emerging
-  composite: 11.5
+  band: minimal
+  composite: 9.9
   coverage:
     artifact_dirs: 8
-    catalog_earned: 38.0
+    catalog_earned: 35.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 77.0
+    catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 25.0
+    access_clarity: 17.1
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
@@ -193,8 +202,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 8.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

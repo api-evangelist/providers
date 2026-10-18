@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'GS1 AISBL''s own live, unauthenticated GS1-Conformant Resolver, implementing the GS1-Conformant Resolver Standard 1.2.0. It takes a GS1 Digital Link URI built from a GS1 identification key and returns '
@@ -181,7 +181,7 @@ modified: '2026-07-30'
 name: GS1
 nav: Providers
 network: true
-overview: 'GS1 publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Capture API, Discovery API, Events API, and 4 more. Tagged areas include Logistics, Supply Chain, Belgium, Standards, and Track and Trace.
+overview: 'GS1 publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Capture API, Discovery API, Events API, and 4 more. Tagged areas include Logistics, Supply Chain, Belgium, Standards, and Track and Trace.
 
 
   The GS1 catalog on APIs.io includes 1 JSON-LD context.
@@ -228,8 +228,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 2.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

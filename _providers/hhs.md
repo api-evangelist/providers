@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.3
-  scored_at: '2026-10-04'
+  score: 24.4
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: OpenFDA provides RESTful APIs and raw download access to high-value FDA public datasets including drug adverse events, drug labels, drug recalls, medical device 510(k) clearances, device classificatio
@@ -137,6 +137,21 @@ collections:
   name: API Collection
   slug: open-.refine-report
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/hhs/refs/heads/main/plans/openfda.yml
+  title: ''
+  type: Plans
+  url: plans/openfda.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/hhs/refs/heads/main/rate-limits/openfda.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/openfda.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/hhs/refs/heads/main/finops/overview.yml
+  title: ''
+  type: FinOps
+  url: finops/overview.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/hhs/refs/heads/main/capabilities/hhs-capability-edges.yml
   title: ''
@@ -197,9 +212,13 @@ examples:
   name: V1_Opportunities_Search_Post_Request
   slug: v1_opportunities_search_post_request
 finops:
-- name: Overview
+- has_sources: false
+  method: generated
+  name: Overview
+  primary_unit: ''
   service_category: ''
   slug: overview
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hhs.png
 json_schemas:
 - name: AgencyV1Schema
@@ -225,13 +244,13 @@ modified: '2026-06-13'
 name: HHS (US Department of Health and Human Services)
 nav: Providers
 network: true
-overview: 'HHS (US Department of Health and Human Services) publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Agency v1 API, Application Alpha API, Award Recommendation Alpha API, and 18 more. Tagged areas include Health, Public Health, Grants, Interoperability, and FHIR.
+overview: 'HHS (US Department of Health and Human Services) publishes 21 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agency v1 API, Application Alpha API, Award Recommendation Alpha API, and 18 more. Tagged areas include Health, Public Health, Grants, Interoperability, and FHIR.
 
 
   The HHS (US Department of Health and Human Services) catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  HHS (US Department of Health and Human Services)''s developer surface includes GitHub presence, status page, engineering blog, and 6 more developer resources.'
+  HHS (US Department of Health and Human Services)''s developer surface includes GitHub presence, status page, engineering blog, and 9 more developer resources.'
 plans:
 - name: Openfda
   plan_count: 2
@@ -248,9 +267,10 @@ rate_limits:
   name: Simpler Grants
   slug: simpler-grants
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: HHS (US Department of Health and Human Services) API Rules
+  name: HHS (US Department of Health and Human Services) — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -259,23 +279,23 @@ rules:
     warn: 4
   slug: hhs-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 42.5
+  band: thin
+  composite: 35.5
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 70.3
+    artifact_dirs: 14
+    catalog_earned: 54.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 44.7
+    catalog_gap: 60.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.0
   facets:
-    access_clarity: 47.9
+    access_clarity: 26.3
     contract_governance: 9.8
     contract_quality: 55.9
     developer_ergonomics: 23.8
     discoverability: 66.1
-    operational_transparency: 33.7
+    operational_transparency: 13.2
   previous_composite: 42.5
   provenance:
     contracts:
@@ -289,9 +309,9 @@ score:
     regime: Health
     regime_id: health
     score: 15.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 22.2

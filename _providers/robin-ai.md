@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.5
-  scored_at: '2026-10-04'
+  score: 19.6
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -283,9 +283,13 @@ features:
 - GDPR, ISO 27001, and SOC 2 certified; Privacy by Design methodology
 - Hosted on AWS; available via AWS Marketplace and Microsoft AppSource
 finops:
-- name: Robin Ai Finops
+- has_sources: true
+  method: generated
+  name: Robin Ai Finops
+  primary_unit: ''
   service_category: ''
   slug: robin-ai-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/robin-ai.png
 integrations:
 - Contract Lifecycle Management (CLM) systems
@@ -320,7 +324,7 @@ modified: '2026-05-24'
 name: Robin AI
 nav: Providers
 network: true
-overview: 'Robin AI publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Documents API, Groups API, Properties API, and 2 more. Tagged areas include Legal, Legal Tech, Contract Review, Contract Analysis, and Contract Lifecycle Management.
+overview: 'Robin AI publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Documents API, Groups API, Properties API, and 2 more. Tagged areas include Legal, Legal Tech, Contract Review, Contract Analysis, and Contract Lifecycle Management.
 
 
   The Robin AI catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -337,9 +341,10 @@ rate_limits:
   name: Robin Ai Rate Limits
   slug: robin-ai-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Robin AI API Rules
+  name: Robin AI — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -347,7 +352,8 @@ rules:
     info: 1
     warn: 4
   slug: robin-ai-jsonschema-spectral-rules
-- effective_rule_count: 47
+- authorship: unmarked
+  effective_rule_count: 47
   extends:
   - spectral:oas
   name: Robin AI API Rules
@@ -359,18 +365,18 @@ rules:
     warn: 2
   slug: robin-ai-rules
 score:
-  band: developing
-  composite: 43.0
+  band: thin
+  composite: 37.4
   coverage:
     artifact_dirs: 18
-    catalog_earned: 72.3
+    catalog_earned: 61.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 42.7
+    catalog_gap: 53.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.6
   facets:
-    access_clarity: 63.9
+    access_clarity: 35.5
     contract_governance: 13.6
     contract_quality: 55.0
     developer_ergonomics: 38.1
@@ -398,9 +404,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

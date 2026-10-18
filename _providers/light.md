@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 120
   human_in_the_loop: 5
@@ -414,7 +414,7 @@ modified: '2026-07-19'
 name: Light
 nav: Providers
 network: true
-overview: 'Light publishes 28 APIs on the [APIs.io](https://apis.io/) network, including Authorization API, v1 - Accounting Documents API, v1 - Attachments API, and 25 more. Tagged areas include Accounting, Finance, ERP, Accounts Payable, and Accounts Receivable.
+overview: 'Light publishes 28 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authorization API, v1 - Accounting Documents API, v1 - Attachments API, and 25 more. Tagged areas include Accounting, Finance, ERP, Accounts Payable, and Accounts Receivable.
 
 
   Light''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 21 more developer resources.'
@@ -427,7 +427,7 @@ score:
   band: developing
   composite: 46.4
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
@@ -458,8 +458,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

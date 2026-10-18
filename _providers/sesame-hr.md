@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: verified
     openapi_examples: false
     protected_resource_metadata: verified
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 44.6
-  scored_at: '2026-10-04'
+  score: 42.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -110,6 +110,10 @@ collections:
   name: Sesame HR Public API
   slug: open-sesame-hr
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.sesamehr.com/blog/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/sesame-hr/refs/heads/main/capabilities/sesame-hr-capability-edges.yml
   title: ''
@@ -155,23 +159,27 @@ common:
 created: '2026-07-11'
 description: Sesame HR is an all-in-one HR and time-tracking platform used by small and mid-sized companies across Spain, Latin America, and beyond to manage employees, time clock (check-in / check-out), work hours, shifts and scheduling, vacations, absences and leave, contracts, payroll data, and recruitment. The Sesame Public API (v3) exposes that same functionality over a documented REST interface authenticated with a Bearer API token, letting teams sync HRIS data with payroll and ERP systems, build custom dashboards, and automate onboarding, shift assignment, and absence-approval workflows.
 finops:
-- name: Sesame Hr Finops
+- has_sources: true
+  method: generated
+  name: Sesame Hr Finops
+  primary_unit: ''
   service_category: Human Resources and Workforce Management
   slug: sesame-hr-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sesame-hr.png
 layout: provider
 mcp_servers:
 - description: Remote MCP server at mcp.sesametime.com over HTTP.
   name: Sesame HR MCP Server
   slug: sesame-hr
-modified: '2026-07-11'
+modified: '2026-10-06'
 name: Sesame HR
 nav: Providers
 network: true
-overview: 'Sesame HR publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Absences and Leave API, Departments and Org API, Employees API, and 4 more. Tagged areas include Human Resources, HRIS, Time Tracking, Workforce Management, and Employee Management.
+overview: 'Sesame HR publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Absences and Leave API, Departments and Org API, Employees API, and 4 more. Tagged areas include Human Resources, HRIS, Time Tracking, Workforce Management, and Employee Management.
 
 
-  Sesame HR''s developer surface includes authentication, documentation, and 7 more developer resources.'
+  Sesame HR''s developer surface includes engineering blog, authentication, documentation, and 7 more developer resources.'
 plans:
 - name: Sesame Hr Plans Pricing
   plan_count: 4
@@ -183,22 +191,22 @@ rate_limits:
   slug: sesame-hr-rate-limits
 score:
   band: thin
-  composite: 33.2
+  composite: 26.2
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 58.0
+    artifact_dirs: 13
+    catalog_earned: 42.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.0
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.0
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 53.3
-    developer_ergonomics: 29.8
+    developer_ergonomics: 32.1
     discoverability: 68.3
-    operational_transparency: 18.9
+    operational_transparency: 5.3
   previous_composite: 33.2
   provenance:
     agentic_access: derived
@@ -214,9 +222,9 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

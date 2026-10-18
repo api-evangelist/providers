@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.3
-  scored_at: '2026-10-04'
+  score: 26.5
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -125,6 +125,25 @@ collections:
   name: Spinnaker Gate Applications Tasks API
   slug: open-spinnaker-tasks-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/spinnaker/refs/heads/main/plans/spinnaker-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/spinnaker-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/spinnaker/refs/heads/main/rate-limits/spinnaker-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/spinnaker-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/spinnaker/refs/heads/main/finops/spinnaker-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/spinnaker-finops.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.spinnaker.io/feed
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/spinnaker/refs/heads/main/capabilities/spinnaker-capability-edges.yml
   title: ''
@@ -235,9 +254,13 @@ examples:
   name: Spinnaker List Applications Example
   slug: spinnaker-list-applications-example
 finops:
-- name: Spinnaker Finops
+- has_sources: false
+  method: generated
+  name: Spinnaker Finops
+  primary_unit: ''
   service_category: API
   slug: spinnaker-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/spinnaker.png
 json_schemas:
 - name: Spinnaker Pipeline Execution
@@ -253,17 +276,17 @@ jsonld:
   property_count: 12
   slug: spinnaker-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-10-06'
 name: Spinnaker
 nav: Providers
 network: true
-overview: 'Spinnaker publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Build Services API, Clusters API, and 6 more. Tagged areas include Continuous Delivery, Containers, DevOps, Multi-Cloud, and Pipelines.
+overview: 'Spinnaker publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Applications API, Build Services API, Clusters API, and 6 more. Tagged areas include Continuous Delivery, Containers, DevOps, Multi-Cloud, and Pipelines.
 
 
   The Spinnaker catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Spinnaker''s developer surface includes authentication, documentation, engineering blog, changelog, and 19 more developer resources.'
+  Spinnaker''s developer surface includes authentication, documentation, engineering blog, changelog, and 23 more developer resources.'
 plans:
 - name: Spinnaker Plans Pricing
   plan_count: 3
@@ -274,9 +297,10 @@ rate_limits:
   name: Spinnaker Rate Limits
   slug: spinnaker-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Spinnaker API Rules
+  name: Spinnaker — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -284,7 +308,8 @@ rules:
     info: 2
     warn: 3
   slug: spinnaker-jsonschema-spectral-rules
-- effective_rule_count: 49
+- authorship: unmarked
+  effective_rule_count: 49
   extends:
   - spectral:oas
   name: Spinnaker API Rules
@@ -302,17 +327,17 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: thin
-  composite: 37.3
+  composite: 36.0
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 61.0
+    artifact_dirs: 20
+    catalog_earned: 58.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 54.0
+    catalog_gap: 57.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.3
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 27.3
     contract_quality: 52.1
     developer_ergonomics: 23.8
@@ -335,8 +360,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

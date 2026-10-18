@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://playgoals.com/en/news
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/goals/refs/heads/main/security/goals-domain-security.yml
   title: ''
@@ -73,31 +77,31 @@ created: '2026-07-17'
 description: Goals (playgoals.com, formerly goals.co) is a free-to-play competitive football (soccer) video game studio backed by Northzone. It positions itself as a gameplay-first football game — "No scripts, no excuses, just football" — with fast, skill-based competitive matches, unique player squads, card-pack collection, ranked leaderboards, and multiple game modes across Steam, Xbox, PlayStation, and the Epic Games Store. A companion app lets players manage squads and open packs. This profile was surfaced as a Northzone portfolio company (consumer sector) and added to the API Evangelist network; the studio publishes a consumer game and a community surface (Discord, guides, leaderboards) but no public developer API.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/goals.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Goals
 nav: Providers
 network: true
 overview: 'Goals is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Gaming, Video Game, and Football.
 
 
-  Goals'' developer surface includes documentation, getting-started guide, support, and 5 more developer resources.'
+  Goals'' developer surface includes engineering blog, documentation, getting-started guide, support, and 5 more developer resources.'
 random_paper: 6
 score:
   band: emerging
-  composite: 14.0
+  composite: 14.6
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 26.2
+    developer_ergonomics: 28.6
     discoverability: 48.2
     operational_transparency: 0.0
   previous_composite: 14.0
@@ -107,8 +111,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

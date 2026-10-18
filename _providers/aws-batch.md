@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 23
+- acting_count: 21
   human_in_the_loop: 1
   name: Aws Batch Agentic Access
   operation_count: 24
   slug: aws-batch-agentic-access
-  summary_line: 24 operations · 23 acting · 1 human-in-the-loop
+  summary_line: 24 operations · 21 acting · 1 human-in-the-loop
 api_count: 1
 apis:
 - description: REST API for managing AWS Batch compute environments, job queues, job definitions, scheduling policies, consumable resources, and jobs. Operations are exposed as POST endpoints under /v1/ paths with J
@@ -158,7 +158,7 @@ modified: '2026-05-11'
 name: AWS Batch
 nav: Providers
 network: true
-overview: 'AWS Batch publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Compute Environments API, Job Definitions API, Job Queues API, and 4 more. Tagged areas include Batch Computing, Compute, HPC, Job Scheduling, and Containers.
+overview: 'AWS Batch publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Compute Environments API, Job Definitions API, Job Queues API, and 4 more. Tagged areas include Batch Computing, Compute, HPC, Job Scheduling, and Containers.
 
 
   AWS Batch''s developer surface includes authentication, documentation, pricing, signup flow, and 6 more developer resources.'
@@ -195,8 +195,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

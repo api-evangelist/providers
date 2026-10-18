@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 16
   slug: pixc-agentic-access
   summary_line: 16 operations · 8 acting
-api_count: 1
+api_count: 2
 apis:
 - description: 'REST API for automated product-photo optimization. Three resources — templates (the reusable photo standard: background, border, shadow, output file types and aspect sizes), orders (a batch of submitt'
   name: Pixc Public API
@@ -217,7 +217,7 @@ modified: '2026-08-13'
 name: Pixc
 nav: Providers
 network: true
-overview: 'Pixc publishes 1 API on the [APIs.io](https://apis.io/) network: Public API. Tagged areas include Company, Shopify, E-Commerce, Photo Editing, and Image Optimization.
+overview: 'Pixc publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Public API. Tagged areas include Company, Shopify, E-Commerce, Photo Editing, and Image Optimization.
 
 
   The Pixc catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -242,7 +242,7 @@ score:
   band: developing
   composite: 53.7
   coverage:
-    artifact_dirs: 25
+    artifact_dirs: 26
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -273,8 +273,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 31.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

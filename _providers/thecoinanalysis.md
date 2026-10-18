@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,6 +43,10 @@ apis:
   slug: thecoinanalysis-public-api-api
 artifact_total: 6
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.thecoinanalysis.com/feed.xml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/thecoinanalysis/refs/heads/main/agentic-access/thecoinanalysis-agentic-access.yml
   title: ''
@@ -114,20 +118,21 @@ created: '2026-09-28'
 description: The Coin Analysis provides real-time cryptocurrency news, market analysis, and price data through a REST API. It offers endpoints for current crypto prices, historical data, and news articles, secured with an API key. The service targets developers building financial, trading, or analytics applications.
 image: https://www.thecoinanalysis.com/logo.png
 layout: provider
-modified: '2026-09-28'
+modified: '2026-10-06'
 name: The Coin Analysis
 nav: Providers
 network: true
-overview: 'The Coin Analysis publishes 2 APIs on the [APIs.io](https://apis.io/) network, including Public API, and 1 more. Tagged areas include Company, Crypto, News, and Data.
+overview: 'The Coin Analysis publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network, including Public API, and 1 more. Tagged areas include Company, Cryptocurrency, News, and Data.
 
 
   The The Coin Analysis catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  The Coin Analysis'' developer surface includes pricing, authentication, documentation, API reference, getting-started guide, and 10 more developer resources.'
+  The Coin Analysis'' developer surface includes pricing, authentication, documentation, API reference, getting-started guide, and 11 more developer resources.'
 random_paper: 8
 rules:
-- effective_rule_count: 52
+- authorship: generated
+  effective_rule_count: 52
   extends:
   - spectral:oas
   name: The Coin Analysis API Rules
@@ -142,12 +147,13 @@ score:
   band: thin
   composite: 33.3
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 16
     catalog_earned: 31.5
     catalog_earned_first_party: 0.0
     catalog_gap: 83.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 31.6
     contract_governance: 18.2
@@ -155,6 +161,7 @@ score:
     developer_ergonomics: 40.5
     discoverability: 50.0
     operational_transparency: 0.0
+  previous_composite: 33.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -170,11 +177,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: flat
   upsert:
     applies: true
     score: 0.0
+screenshot: https://raw.githubusercontent.com/api-evangelist/thecoinanalysis/refs/heads/main/screenshots/thecoinanalysis-2026-10-11T130843.png
 security:
 - kind: authentication
   name: Thecoinanalysis Authentication
@@ -187,7 +196,7 @@ security:
 slug: thecoinanalysis
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - News
 - Data
 website: https://www.thecoinanalysis.com/

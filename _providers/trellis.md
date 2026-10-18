@@ -34,18 +34,31 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'Programmatic access to Trellis''s state and federal trial court dataset: Smart Search over rulings, dockets and documents; docket/case data (parties, attorneys, documents, events); docket refresh; ruli'
   name: Trellis Trial Court Data API
   slug: trellis-trial-court-data-api
-artifact_total: 4
+artifact_total: 5
 asyncapis:
 - description: ''
   name: Trellis Webhooks
   slug: trellis-webhooks
 common:
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://trellis.law/plans
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/trellis/refs/heads/main/plans/trellis-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/trellis-plans-pricing.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.trellis.law/feed/
 - group: company
   title: ''
   type: Website
@@ -108,31 +121,35 @@ created: '2026-07-17'
 description: Trellis (Trellis Research, Inc.) is an AI-powered state and federal trial court research and litigation analytics platform founded by former litigator Nicole Clark. It makes the fragmented U.S. state trial court system — plus federal, appellate, supreme, and bankruptcy courts via PACER — searchable through a single interface, and exposes that data programmatically through the Trellis Trial Court Data API. Law firms, financial institutions, insurers, and researchers use Trellis for case research, judge and ruling analytics, docket monitoring with alerts, document retrieval, business development, lead generation, and due diligence. API access (V2, adding federal + PACER on top of V1 state coverage) is provisioned through a sales-gated free trial.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/trellis.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Trellis
 nav: Providers
 network: true
-overview: 'Trellis publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Legal, Legal Analytics, Court Data, and Litigation.
+overview: 'Trellis is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Legal, Legal Analytics, Court Data, and Litigation.
 
 
   The Trellis catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Trellis'' developer surface includes documentation, API reference, support, engineering blog, authentication, changelog, and 7 more developer resources.'
+  Trellis'' developer surface includes pricing, documentation, API reference, support, engineering blog, authentication, changelog, and 9 more developer resources.'
+plans:
+- name: Trellis Plans Pricing
+  plan_count: 5
+  slug: trellis-plans-pricing
 random_paper: 19
 score:
   band: thin
-  composite: 28.5
+  composite: 37.0
   coverage:
-    artifact_dirs: 9
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 10
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 8.5
   facets:
-    access_clarity: 0.0
+    access_clarity: 42.1
     contract_governance: 0.0
     contract_quality: 39.0
     developer_ergonomics: 45.2
@@ -145,9 +162,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

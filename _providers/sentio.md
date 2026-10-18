@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 31
+- acting_count: 27
   human_in_the_loop: 0
   name: Sentio Agentic Access
   operation_count: 81
   slug: sentio-agentic-access
-  summary_line: 81 operations · 31 acting
+  summary_line: 81 operations · 27 acting
 api_count: 1
 apis:
 - baseURL: https://api.sentio.xyz
@@ -313,7 +313,7 @@ modified: '2026-07-21'
 name: Sentio
 nav: Providers
 network: true
-overview: 'Sentio publishes 11 APIs on the [APIs.io](https://apis.io/) network, including AI API, Alerts API, Data API, and 8 more. Tagged areas include Web3, Blockchain, Observability, Analytics, and Data.
+overview: 'Sentio publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including AI API, Alerts API, Data API, and 8 more. Tagged areas include Web3, Blockchain, Observability, Analytics, and Data.
 
 
   The Sentio catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -325,7 +325,7 @@ score:
   band: developing
   composite: 44.6
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -356,8 +356,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -382,6 +382,6 @@ tags:
 - Indexing
 - Monitoring
 - Developer Tools
-- Crypto
+- Cryptocurrency
 website: https://www.sentio.xyz/
 ---

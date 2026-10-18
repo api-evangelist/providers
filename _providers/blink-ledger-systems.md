@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 26.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Browser SDK exposing window.blinkSDK. Provides Login with Blink (getAuthorizationCode), subscription entitlement checks (isSubscribed, getSubscription, onSubscriptionChange), single-article charging (
@@ -76,6 +76,10 @@ collections:
   name: Blink Server-Side Authentication Users API
   slug: open-blink-ledger-systems-users-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://blink.net/blog/
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/blink-ledger-systems/refs/heads/main/mcp/blink-ledger-systems-mcp.yml
   title: ''
@@ -205,34 +209,34 @@ created: '2026-07-17'
 description: Blink (Blink Ledger Systems Inc.) builds online identity and payment technologies for digital publishers. A single Blink account works across publishers, giving readers one universal login and frictionless payment so they can subscribe, donate, or buy an individual article or podcast with one click, or enable autopay for small frequent purchases. Publishers integrate three products — Blink Identity, Blink Pay and Blink Donate — through one hosted JavaScript SDK that places Blink-managed panels into the page, a dashboard-configured User Journeys rules engine, four server-side JSON endpoints for OAuth2 login, and a signed webhook notification stream covering subscription, payment and donation events. Founded 2017; incorporated in the US in 2018 and surfaced in the API Evangelist network as a Polychain portfolio company.
 image: https://blink.net/resources/favicon.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Blink Ledger Systems
 nav: Providers
 network: true
-overview: 'Blink Ledger Systems publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, OAuth Applications API, Users API, and 2 more. Tagged areas include Company, Infrastructure, Payments, Identity, and Authentication.
+overview: 'Blink Ledger Systems publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authentication API, OAuth Applications API, Users API, and 2 more. Tagged areas include Company, Infrastructure, Payments, Identity, and Authentication.
 
 
   The Blink Ledger Systems catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Blink Ledger Systems'' developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, sandbox, and 20 more developer resources.'
+  Blink Ledger Systems'' developer surface includes engineering blog, documentation, API reference, getting-started guide, support, signup flow, authentication, and 21 more developer resources.'
 random_paper: 13
 score:
   band: thin
-  composite: 27.1
+  composite: 27.6
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 0.0
     contract_governance: 4.5
     contract_quality: 21.0
-    developer_ergonomics: 61.3
+    developer_ergonomics: 63.7
     discoverability: 73.2
     operational_transparency: 23.7
   previous_composite: 27.1
@@ -251,8 +255,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 15.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

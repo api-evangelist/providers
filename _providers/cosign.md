@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: Cosign is a command-line tool for signing, verifying, and storing container images and OCI artifacts. It supports keyless signing, hardware-backed keys, KMS providers, in-toto and SLSA attestations, a
@@ -47,6 +47,11 @@ apis:
   slug: fulcio-api
 artifact_total: 9
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/cosign/refs/heads/main/finops/cosign-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/cosign-finops.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -220,19 +225,23 @@ common:
 created: '2026-03-26'
 description: Cosign is the command-line client of the Sigstore project for signing, verifying, and storing container images, OCI artifacts, blobs, and in-toto attestations. Cosign supports keyless signing using OpenID Connect identity providers (Google, GitHub, Microsoft) by obtaining short-lived certificates from the Fulcio certificate authority and recording signing events in the Rekor transparency log. Signatures and attestations are stored alongside the signed artifact in any OCI-compliant registry, and cosign integrates with policy controllers, KMS providers, hardware tokens, and SBOM workflows for software supply chain security.
 finops:
-- name: Cosign Finops
+- has_sources: false
+  method: generated
+  name: Cosign Finops
+  primary_unit: ''
   service_category: API
   slug: cosign-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cosign.png
 layout: provider
 modified: '2026-09-07'
 name: Cosign
 nav: Providers
 network: true
-overview: 'Cosign publishes 3 APIs on the [APIs.io](https://apis.io/) network, including Sigstore Rekor API (consumed), Sigstore Fulcio API (consumed), and 1 more. Tagged areas include Apache 2.0, Attestation, CLI, Code Signing, and Containers.
+overview: 'Cosign is listed with 3 APIs on the [APIs.io](https://apis.io/) network, including Sigstore Rekor API (consumed), Sigstore Fulcio API (consumed), and 1 more. Tagged areas include Apache 2.0, Attestation, CLI, Code Signing, and Containers.
 
 
-  Cosign''s developer surface includes documentation, getting-started guide, release notes, engineering blog, CLI, changelog, sandbox, and 31 more developer resources.'
+  Cosign''s developer surface includes documentation, getting-started guide, release notes, engineering blog, CLI, changelog, sandbox, and 32 more developer resources.'
 plans:
 - name: Cosign Plans Pricing
   plan_count: 0
@@ -244,17 +253,17 @@ rate_limits:
   slug: cosign-rate-limits
 score:
   band: developing
-  composite: 42.5
+  composite: 41.1
   coverage:
     artifact_dirs: 21
-    catalog_earned: 38.0
+    catalog_earned: 35.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 77.0
+    catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.4
   facets:
-    access_clarity: 7.9
+    access_clarity: 0.0
     contract_governance: 18.2
     contract_quality: 24.0
     developer_ergonomics: 78.0
@@ -274,8 +283,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -306,7 +315,7 @@ tags:
 - Go
 - Keyless
 - OCI
-- OIDC
+- OpenID Connect
 - Open Source
 - Rekor
 - Sigstore

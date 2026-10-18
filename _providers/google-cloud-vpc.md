@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -85,6 +85,11 @@ collections:
   name: Google Cloud VPC API
   slug: open-openapi
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-vpc/refs/heads/main/finops/google-cloud-vpc-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/google-cloud-vpc-finops.yml
 - group: operate
   href: https://raw.githubusercontent.com/api-evangelist/google-cloud-vpc/refs/heads/main/rate-limits/google-cloud-vpc-rate-limits.yml
   title: ''
@@ -153,22 +158,26 @@ common:
 created: '2026-03-13'
 description: Google Cloud Virtual Private Cloud (VPC) provides networking functionality for Google Cloud resources, enabling you to create and manage virtual networks, subnets, firewall rules, and routes for secure and isolated cloud networking.
 finops:
-- name: Google Cloud Vpc Finops
+- has_sources: false
+  method: generated
+  name: Google Cloud Vpc Finops
+  primary_unit: ''
   service_category: API
   slug: google-cloud-vpc-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/google-cloud-vpc.png
 layout: provider
 modified: '2026-05-19'
 name: Google Cloud VPC
 nav: Providers
 network: true
-overview: 'Google Cloud VPC publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Firewalls API, Networks API, Routes API, and 1 more. Tagged areas include Firewall, Google Cloud, Networking, Virtual Networks, and VPC.
+overview: 'Google Cloud VPC publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Firewalls API, Networks API, Routes API, and 1 more. Tagged areas include Firewall, Google Cloud, Networking, Virtual Networks, and VPC.
 
 
   The Google Cloud VPC catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Google Cloud VPC''s developer surface includes authentication, getting-started guide, pricing, engineering blog, and 10 more developer resources.'
+  Google Cloud VPC''s developer surface includes authentication, getting-started guide, pricing, engineering blog, and 11 more developer resources.'
 plans:
 - name: Google Cloud Vpc Plans Pricing
   plan_count: 23
@@ -182,9 +191,10 @@ rate_limits:
   name: Google Cloud Vpc Rate Limits
   slug: google-cloud-vpc-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Google Cloud VPC API Rules
+  name: Google Cloud VPC — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -199,17 +209,17 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: developing
-  composite: 41.7
+  composite: 40.2
   coverage:
     artifact_dirs: 16
-    catalog_earned: 72.7
+    catalog_earned: 69.7
     catalog_earned_first_party: 24.0
-    catalog_gap: 42.4
+    catalog_gap: 45.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 50.0
+    access_clarity: 42.1
     contract_governance: 9.8
     contract_quality: 52.7
     developer_ergonomics: 26.2
@@ -229,8 +239,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

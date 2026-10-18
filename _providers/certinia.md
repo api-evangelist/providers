@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 5.0
-  scored_at: '2026-10-04'
+  score: 3.1
+  scored_at: '2026-10-17'
 api_count: 6
 apis:
 - description: Global Apex service classes for automating revenue recognition to ASC 606 and IFRS 15. RevenueContractService creates and updates revenue contracts, generates performance obligations, allocates revenu
@@ -57,6 +57,10 @@ apis:
   slug: certinia-services-cpq-api
 artifact_total: 11
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.certinia.com/blog/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/certinia/refs/heads/main/security/certinia-domain-security.yml
   title: ''
@@ -101,19 +105,23 @@ common:
 created: '2026-07-11'
 description: Certinia (formerly FinancialForce) is a Salesforce-native ERP, Professional Services Automation (PSA), and revenue-management suite delivered as managed packages that run inside a customer's Salesforce org. Its programmatic surface is not a standalone public REST product; it is a set of global Apex service classes (and legacy SOAP APIs) - Revenue Management, Billing Central, PSA, Accounting/ERP, Supply Chain, and Services CPQ - invoked on the Salesforce platform against Certinia managed-package objects. Certinia automates revenue recognition to ASC 606 and IFRS 15, subscription billing, project and resource management, and accounting. Access is gated - it requires a provisioned Salesforce org with the relevant Certinia managed package installed and the appropriate permission set or profile assigned. The endpoints documented here are modeled from Certinia's public Apex API developer references; they are not called against a public, unauthenticated HTTP base URL.
 finops:
-- name: Certinia Finops
+- has_sources: true
+  method: generated
+  name: Certinia Finops
+  primary_unit: ''
   service_category: ERP and Professional Services Automation
   slug: certinia-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/certinia.png
 layout: provider
-modified: '2026-07-11'
+modified: '2026-10-06'
 name: Certinia
 nav: Providers
 network: true
-overview: 'Certinia publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Revenue Recognition, ASC 606, ERP, Professional Services Automation, and PSA.
+overview: 'Certinia is listed with 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Revenue Recognition, ASC 606, ERP, Professional Services Automation, and PSA.
 
 
-  Certinia''s developer surface includes authentication, documentation, and 7 more developer resources.'
+  Certinia''s developer surface includes engineering blog, authentication, documentation, and 7 more developer resources.'
 plans:
 - name: Certinia Plans Pricing
   plan_count: 5
@@ -125,22 +133,22 @@ rate_limits:
   slug: certinia-rate-limits
 score:
   band: emerging
-  composite: 20.8
+  composite: 13.0
   coverage:
-    artifact_dirs: 7
-    catalog_earned: 59.6
+    artifact_dirs: 9
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 55.4
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.8
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 19.0
+    developer_ergonomics: 21.4
     discoverability: 62.5
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   previous_composite: 20.8
   regulatory:
     applies: true
@@ -148,9 +156,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

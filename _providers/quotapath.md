@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -261,7 +261,7 @@ modified: '2026-08-14'
 name: QuotaPath
 nav: Providers
 network: true
-overview: 'QuotaPath publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Data API, Deal API, Path API, and 4 more. Tagged areas include Company, Sales Commissions, Compensation Management, Sales Operations, and Revenue Operations.
+overview: 'QuotaPath publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Data API, Deal API, Path API, and 4 more. Tagged areas include Company, Sales Commissions, Compensation Management, Sales Operations, and Revenue Operations.
 
 
   QuotaPath''s developer surface includes authentication, documentation, API reference, support, engineering blog, pricing, signup flow, and 25 more developer resources.'
@@ -278,7 +278,7 @@ score:
   band: developing
   composite: 53.7
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -309,8 +309,8 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 37.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

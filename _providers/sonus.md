@@ -32,10 +32,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://ribboncommunications.com/company/media-center/blog
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://ribboncommunications.com/rss/blog
 - group: company
   title: ''
   type: Website
@@ -62,31 +70,31 @@ created: '2026-07-17'
 description: 'Sonus is the API Evangelist network profile for the company that began as Sonus Networks, an early pioneer of VoIP softswitches and session border controllers (SBCs), and which today operates as Ribbon Communications (NASDAQ: RBBN) following its 2017 merger with GENBAND. Ribbon builds real-time communications, IP optical networking, session border control, cloud and edge, and network security and analytics software for service providers and enterprises. This profile originated as a Matrix Partners portfolio lead. Ribbon publishes enterprise product, support, and responsible-disclosure resources but no public developer API or open API specification was found at the time of enrichment.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sonus.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Sonus
 nav: Providers
 network: true
 overview: 'Sonus is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Infrastructure, Communications, Networking, and Telecommunications.
 
 
-  Sonus'' developer surface includes support and 4 more developer resources.'
+  Sonus'' developer surface includes engineering blog, support, and 5 more developer resources.'
 random_paper: 18
 score:
   band: minimal
-  composite: 5.6
+  composite: 6.0
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.4
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 4.8
+    developer_ergonomics: 7.1
     discoverability: 48.2
     operational_transparency: 10.5
   previous_composite: 5.6
@@ -96,8 +104,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 10.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

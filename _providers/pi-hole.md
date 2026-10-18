@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -144,7 +144,7 @@ modified: '2026-05-11'
 name: Pi-hole
 nav: Providers
 network: true
-overview: 'Pi-hole publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Auth API, DNS API, Groups API, and 1 more. Tagged areas include DNS, Ad Blocking, Network Security, Privacy, and Open Source.
+overview: 'Pi-hole publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Auth API, DNS API, Groups API, and 1 more. Tagged areas include DNS, Ad Blocking, Network Security, Privacy, and Open Source.
 
 
   Pi-hole''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
@@ -181,8 +181,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

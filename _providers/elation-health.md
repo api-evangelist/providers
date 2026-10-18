@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 42.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 455
   human_in_the_loop: 0
@@ -2964,7 +2964,7 @@ apis:
     question: What does a single v2.0 vitals record include?
   phrasing_ops: 10
   slug: elation-health-vitals-api
-artifact_total: 182
+artifact_total: 457
 asyncapis:
 - description: ''
   name: Elation Health Events Webhooks
@@ -3097,6 +3097,39 @@ collections:
   name: Visit Notes API
   slug: open-elation-visit-notes-api
 common:
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/elation-health/refs/heads/main/rules/elation-health-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/elation-health-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/elation-health/refs/heads/main/rules/elation-health-jsonschema-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/elation-health-jsonschema-spectral-rules.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://help.elationhealth.com/articles/rest/changelog/changelog
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/elation-health/refs/heads/main/hosts/elation-health-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/elation-health-hosts.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/elation-health/refs/heads/main/integrations/elation-health-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/elation-health-integration-edges.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/elation-health/refs/heads/main/vendors/elation-health-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/elation-health-vendors.yml
+- group: other
+  title: ''
+  type: Leadership
+  url: https://www.elationhealth.com/about-us/team/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/elation-health/refs/heads/main/capabilities/elation-health-capability-edges.yml
   title: ''
@@ -3250,11 +3283,6 @@ common:
   title: ''
   type: WellKnown
   url: well-known/elation-health-well-known.yml
-- group: build
-  href: https://raw.githubusercontent.com/api-evangelist/elation-health/refs/heads/main/packages/elation-health-packages.yml
-  title: ''
-  type: Packages
-  url: packages/elation-health-packages.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/elation-health/refs/heads/main/llms/elation-health-llms.txt
   title: ''
@@ -3320,10 +3348,6 @@ common:
   title: ''
   type: LinkedIn
   url: https://www.linkedin.com/company/elationhealth/
-- group: company
-  title: ''
-  type: Blog
-  url: https://www.elationhealth.com/blog/
 - group: commercial
   title: ''
   type: Pricing
@@ -3490,14 +3514,840 @@ examples:
   name: Elation Health Patient Example
   slug: elation-health-patient-example
 finops:
-- name: Elation Health Finops
+- has_sources: false
+  method: generated
+  name: Elation Health Finops
+  primary_unit: ''
   service_category: ''
   slug: elation-health-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 json_schemas:
+- name: AddSignaturesToNote
+  property_count: 4
+  slug: elation-health-add-signatures-to-note
+- name: AllergyCreate
+  property_count: 7
+  slug: elation-health-allergy-create
+- name: Allergy
+  property_count: 0
+  slug: elation-health-allergy
+- name: AncillaryCompany
+  property_count: 2
+  slug: elation-health-ancillary-company
+- name: ApiResponse
+  property_count: 3
+  slug: elation-health-api-response
+- name: Appointment
+  property_count: 25
+  slug: elation-health-appointment
+- name: AppointmentType
+  property_count: 18
+  slug: elation-health-appointment-type
+- name: Bill
+  property_count: 28
+  slug: elation-health-bill
+- name: BillingCodeCreate
+  property_count: 4
+  slug: elation-health-billing-code-create
+- name: BillingCode
+  property_count: 0
+  slug: elation-health-billing-code
+- name: Body_definitions_get_page_caregaps_api__quality_program__definition__get
+  property_count: 2
+  slug: elation-health-body-definitions-get-page-caregaps-api-quality-program-definition-get
+- name: CardiacCenter
+  property_count: 14
+  slug: elation-health-cardiac-center
+- name: CardiacOrder
+  property_count: 21
+  slug: elation-health-cardiac-order
+- name: CardiacOrderTest
+  property_count: 6
+  slug: elation-health-cardiac-order-test
+- name: CaregapAPI
+  property_count: 10
+  slug: elation-health-caregap-api
+- name: CaregapAPIModel
+  property_count: 8
+  slug: elation-health-caregap-apimodel
+- name: CaregapAPIPaginatedResponse
+  property_count: 3
+  slug: elation-health-caregap-apipaginated-response
+- name: CaregapPatchAPI
+  property_count: 1
+  slug: elation-health-caregap-patch-api
+- name: CCDA
+  property_count: 2
+  slug: elation-health-ccda
+- name: CodedDocumentTag
+  property_count: 11
+  slug: elation-health-coded-document-tag
+- name: Comment
+  property_count: 6
+  slug: elation-health-comment
+- name: Contact
+  property_count: 30
+  slug: elation-health-contact
+- name: CPTCode
+  property_count: 6
+  slug: elation-health-cptcode
+- name: CreateInsuranceCard
+  property_count: 3
+  slug: elation-health-create-insurance-card
+- name: CreateInsuranceEligibility
+  property_count: 3
+  slug: elation-health-create-insurance-eligibility
+- name: DataImportRequestArray
+  property_count: 0
+  slug: elation-health-data-import-request-array
+- name: DefinitionAPI
+  property_count: 16
+  slug: elation-health-definition-api
+- name: DefinitionAPIModel
+  property_count: 15
+  slug: elation-health-definition-apimodel
+- name: DefinitionAPIPaginatedResponse
+  property_count: 3
+  slug: elation-health-definition-apipaginated-response
+- name: DelegatePermission
+  property_count: 6
+  slug: elation-health-delegate-permission
+- name: DiscontinueMedOrder
+  property_count: 19
+  slug: elation-health-discontinue-med-order
+- name: ElationNoteAmendment
+  property_count: 15
+  slug: elation-health-elation-note-amendment
+- name: ElationNoteAmendmentUpdate
+  property_count: 8
+  slug: elation-health-elation-note-amendment-update
+- name: ElationNoteCreate
+  property_count: 10
+  slug: elation-health-elation-note-create
+- name: ElationNote
+  property_count: 19
+  slug: elation-health-elation-note
+- name: ElationNoteUpdate
+  property_count: 9
+  slug: elation-health-elation-note-update
+- name: EligibilityUsage
+  property_count: 5
+  slug: elation-health-eligibility-usage
+- name: ExistingDataImportRequest
+  property_count: 1
+  slug: elation-health-existing-data-import-request
+- name: FacilityIdentifier
+  property_count: 14
+  slug: elation-health-facility-identifier
+- name: Handout
+  property_count: 10
+  slug: elation-health-handout
+- name: ImagingCenter
+  property_count: 14
+  slug: elation-health-imaging-center
+- name: ImagingOrder
+  property_count: 21
+  slug: elation-health-imaging-order
+- name: ImagingOrderTest
+  property_count: 6
+  slug: elation-health-imaging-order-test
+- name: IncomingFileGroup
+  property_count: 22
+  slug: elation-health-incoming-file-group
+- name: Injection
+  property_count: 27
+  slug: elation-health-injection
+- name: InsuranceCard
+  property_count: 2
+  slug: elation-health-insurance-card
+- name: InsuranceCompanyCreate
+  property_count: 5
+  slug: elation-health-insurance-company-create
+- name: InsuranceCompany
+  property_count: 0
+  slug: elation-health-insurance-company
+- name: InsuranceCompanySingleInstance
+  property_count: 21
+  slug: elation-health-insurance-company-single-instance
+- name: InsuranceEligibilityFullReport
+  property_count: 9
+  slug: elation-health-insurance-eligibility-full-report
+- name: InsuranceEligibility
+  property_count: 6
+  slug: elation-health-insurance-eligibility
+- name: InsurancePlan
+  property_count: 6
+  slug: elation-health-insurance-plan
+- name: InsurancePlanSingleInstance
+  property_count: 7
+  slug: elation-health-insurance-plan-single-instance
+- name: InternalPracticeNoteSerializerProxy
+  property_count: 3
+  slug: elation-health-internal-practice-note-serializer-proxy
+- name: JobStatus
+  property_count: 0
+  slug: elation-health-job-status
+- name: LabOrder_2
+  property_count: 0
+  slug: elation-health-lab-order-2
+- name: LabOrderCreate
+  property_count: 8
+  slug: elation-health-lab-order-create
+- name: LabOrder
+  property_count: 27
+  slug: elation-health-lab-order
+- name: LabOrderSet
+  property_count: 8
+  slug: elation-health-lab-order-set
+- name: LabOrderTestCompendium
+  property_count: 7
+  slug: elation-health-lab-order-test-compendium
+- name: LabOrderTest
+  property_count: 12
+  slug: elation-health-lab-order-test
+- name: LabVendorIntegration
+  property_count: 8
+  slug: elation-health-lab-vendor-integration
+- name: LabVendorPatientSite
+  property_count: 13
+  slug: elation-health-lab-vendor-patient-site
+- name: LabVendor
+  property_count: 13
+  slug: elation-health-lab-vendor
+- name: LetterCategory
+  property_count: 4
+  slug: elation-health-letter-category
+- name: Letter
+  property_count: 32
+  slug: elation-health-letter
+- name: MedOrder
+  property_count: 31
+  slug: elation-health-med-order
+- name: MedOrderTemplate
+  property_count: 10
+  slug: elation-health-med-order-template
+- name: MedicationHistoryDownloadFill
+  property_count: 27
+  slug: elation-health-medication-history-download-fill
+- name: Medication
+  property_count: 17
+  slug: elation-health-medication
+- name: MessageThreadCreate
+  property_count: 4
+  slug: elation-health-message-thread-create
+- name: MessageThread
+  property_count: 0
+  slug: elation-health-message-thread
+- name: NonVisitNote
+  property_count: 13
+  slug: elation-health-non-visit-note
+- name: NoteAmendment
+  property_count: 15
+  slug: elation-health-note-amendment
+- name: NoteCreate
+  property_count: 10
+  slug: elation-health-note-create
+- name: Note
+  property_count: 17
+  slug: elation-health-note
+- name: NoteUpdate
+  property_count: 10
+  slug: elation-health-note-update
+- name: PackagedMedicationLabeler
+  property_count: 3
+  slug: elation-health-packaged-medication-labeler
+- name: PackagedMedication
+  property_count: 21
+  slug: elation-health-packaged-medication
+- name: PaginatedAncillaryCompanyList
+  property_count: 4
+  slug: elation-health-paginated-ancillary-company-list
+- name: PaginatedAppointmentList
+  property_count: 4
+  slug: elation-health-paginated-appointment-list
+- name: PaginatedAppointmentTypeList
+  property_count: 4
+  slug: elation-health-paginated-appointment-type-list
+- name: PaginatedBillingCodeList
+  property_count: 0
+  slug: elation-health-paginated-billing-code-list
+- name: PaginatedCardiacCenterList
+  property_count: 4
+  slug: elation-health-paginated-cardiac-center-list
+- name: PaginatedCardiacOrderList
+  property_count: 4
+  slug: elation-health-paginated-cardiac-order-list
+- name: PaginatedCardiacOrderTestList
+  property_count: 4
+  slug: elation-health-paginated-cardiac-order-test-list
+- name: PaginatedCodedDocumentTagList
+  property_count: 4
+  slug: elation-health-paginated-coded-document-tag-list
+- name: PaginatedCommentList
+  property_count: 4
+  slug: elation-health-paginated-comment-list
+- name: PaginatedContactList
+  property_count: 4
+  slug: elation-health-paginated-contact-list
+- name: PaginatedContactsSearchResultList
+  property_count: 4
+  slug: elation-health-paginated-contacts-search-result-list
+- name: PaginatedCPTCodeList
+  property_count: 4
+  slug: elation-health-paginated-cptcode-list
+- name: PaginatedDelegatePermissionList
+  property_count: 4
+  slug: elation-health-paginated-delegate-permission-list
+- name: PaginatedDiscontinueMedOrderList
+  property_count: 4
+  slug: elation-health-paginated-discontinue-med-order-list
+- name: PaginatedFacilityIdentifierList
+  property_count: 4
+  slug: elation-health-paginated-facility-identifier-list
+- name: PaginatedHandoutsSerializerNoBase64ContentList
+  property_count: 4
+  slug: elation-health-paginated-handouts-serializer-no-base64-content-list
+- name: PaginatedImagingCenterList
+  property_count: 4
+  slug: elation-health-paginated-imaging-center-list
+- name: PaginatedImagingOrderList
+  property_count: 4
+  slug: elation-health-paginated-imaging-order-list
+- name: PaginatedImagingOrderTestList
+  property_count: 4
+  slug: elation-health-paginated-imaging-order-test-list
+- name: PaginatedIncomingFileGroupList
+  property_count: 4
+  slug: elation-health-paginated-incoming-file-group-list
+- name: PaginatedInjectionList
+  property_count: 4
+  slug: elation-health-paginated-injection-list
+- name: PaginatedInsuranceCompanyList
+  property_count: 0
+  slug: elation-health-paginated-insurance-company-list
+- name: PaginatedInsurancePlanList
+  property_count: 4
+  slug: elation-health-paginated-insurance-plan-list
+- name: PaginatedLabOrderList
+  property_count: 4
+  slug: elation-health-paginated-lab-order-list
+- name: PaginatedLabOrderSetList
+  property_count: 4
+  slug: elation-health-paginated-lab-order-set-list
+- name: PaginatedLabOrderTestCompendiumList
+  property_count: 4
+  slug: elation-health-paginated-lab-order-test-compendium-list
+- name: PaginatedLabOrderTestList
+  property_count: 4
+  slug: elation-health-paginated-lab-order-test-list
+- name: PaginatedLabVendorIntegrationList
+  property_count: 4
+  slug: elation-health-paginated-lab-vendor-integration-list
+- name: PaginatedLabVendorList
+  property_count: 4
+  slug: elation-health-paginated-lab-vendor-list
+- name: PaginatedLabVendorPatientSiteList
+  property_count: 4
+  slug: elation-health-paginated-lab-vendor-patient-site-list
+- name: PaginatedLanguageList
+  property_count: 4
+  slug: elation-health-paginated-language-list
+- name: PaginatedLetterCategoryList
+  property_count: 4
+  slug: elation-health-paginated-letter-category-list
+- name: PaginatedLetterList
+  property_count: 4
+  slug: elation-health-paginated-letter-list
+- name: PaginatedMedOrderList
+  property_count: 4
+  slug: elation-health-paginated-med-order-list
+- name: PaginatedMedOrderTemplateList
+  property_count: 4
+  slug: elation-health-paginated-med-order-template-list
+- name: PaginatedMedicationHistoryDownloadFillList
+  property_count: 4
+  slug: elation-health-paginated-medication-history-download-fill-list
+- name: PaginatedMedicationList
+  property_count: 4
+  slug: elation-health-paginated-medication-list
+- name: PaginatedMessageThreadList
+  property_count: 0
+  slug: elation-health-paginated-message-thread-list
+- name: PaginatedNonVisitNoteList
+  property_count: 4
+  slug: elation-health-paginated-non-visit-note-list
+- name: PaginatedPackagedMedicationLabelerList
+  property_count: 4
+  slug: elation-health-paginated-packaged-medication-labeler-list
+- name: PaginatedPackagedMedicationList
+  property_count: 4
+  slug: elation-health-paginated-packaged-medication-list
+- name: PaginatedPatientAllergyDocumentationList
+  property_count: 4
+  slug: elation-health-paginated-patient-allergy-documentation-list
+- name: PaginatedPatientAllergyList
+  property_count: 4
+  slug: elation-health-paginated-patient-allergy-list
+- name: PaginatedPatientDrugIntoleranceList
+  property_count: 4
+  slug: elation-health-paginated-patient-drug-intolerance-list
+- name: PaginatedPatientFamilyHistoryList
+  property_count: 4
+  slug: elation-health-paginated-patient-family-history-list
+- name: PaginatedPatientFormList
+  property_count: 4
+  slug: elation-health-paginated-patient-form-list
+- name: PaginatedPatientFormRequestList
+  property_count: 4
+  slug: elation-health-paginated-patient-form-request-list
+- name: PaginatedPatientFormSubmissionList
+  property_count: 4
+  slug: elation-health-paginated-patient-form-submission-list
+- name: PaginatedPatientHistoryList
+  property_count: 4
+  slug: elation-health-paginated-patient-history-list
+- name: PaginatedPatientImmunizationList
+  property_count: 4
+  slug: elation-health-paginated-patient-immunization-list
+- name: PaginatedPatientLetterList
+  property_count: 4
+  slug: elation-health-paginated-patient-letter-list
+- name: PaginatedPatientList
+  property_count: 4
+  slug: elation-health-paginated-patient-list
+- name: PaginatedPatientProblemList
+  property_count: 4
+  slug: elation-health-paginated-patient-problem-list
+- name: PaginatedPatientProviderTeamList
+  property_count: 4
+  slug: elation-health-paginated-patient-provider-team-list
+- name: PaginatedPharmacyList
+  property_count: 4
+  slug: elation-health-paginated-pharmacy-list
+- name: PaginatedPhysicianList
+  property_count: 4
+  slug: elation-health-paginated-physician-list
+- name: PaginatedPracticeList
+  property_count: 4
+  slug: elation-health-paginated-practice-list
+- name: PaginatedPracticePrintHeaderList
+  property_count: 4
+  slug: elation-health-paginated-practice-print-header-list
+- name: PaginatedPracticeToStaffList
+  property_count: 4
+  slug: elation-health-paginated-practice-to-staff-list
+- name: PaginatedPrescriptionFillList
+  property_count: 4
+  slug: elation-health-paginated-prescription-fill-list
+- name: PaginatedPublishedEventList
+  property_count: 4
+  slug: elation-health-paginated-published-event-list
+- name: PaginatedPulmonaryCenterList
+  property_count: 4
+  slug: elation-health-paginated-pulmonary-center-list
+- name: PaginatedPulmonaryOrderList
+  property_count: 4
+  slug: elation-health-paginated-pulmonary-order-list
+- name: PaginatedPulmonaryOrderTestList
+  property_count: 4
+  slug: elation-health-paginated-pulmonary-order-test-list
+- name: PaginatedRecurringEventGroupList
+  property_count: 4
+  slug: elation-health-paginated-recurring-event-group-list
+- name: PaginatedReferenceMedicationList
+  property_count: 4
+  slug: elation-health-paginated-reference-medication-list
+- name: PaginatedReferralOrderList
+  property_count: 4
+  slug: elation-health-paginated-referral-order-list
+- name: PaginatedReportList
+  property_count: 4
+  slug: elation-health-paginated-report-list
+- name: PaginatedReportTypeList
+  property_count: 4
+  slug: elation-health-paginated-report-type-list
+- name: PaginatedResponse[CustomBlockResponse]
+  property_count: 6
+  slug: elation-health-paginated-response-custom-block-response
+- name: PaginatedResponse[NoteMetadata]
+  property_count: 6
+  slug: elation-health-paginated-response-note-metadata
+- name: PaginatedRxHistoryDownloadList
+  property_count: 4
+  slug: elation-health-paginated-rx-history-download-list
+- name: PaginatedRxRefillRequestList
+  property_count: 4
+  slug: elation-health-paginated-rx-refill-request-list
+- name: PaginatedServiceLocationList
+  property_count: 4
+  slug: elation-health-paginated-service-location-list
+- name: PaginatedSleepCenterList
+  property_count: 4
+  slug: elation-health-paginated-sleep-center-list
+- name: PaginatedSleepOrderList
+  property_count: 4
+  slug: elation-health-paginated-sleep-order-list
+- name: PaginatedSleepOrderTestList
+  property_count: 4
+  slug: elation-health-paginated-sleep-order-test-list
+- name: PaginatedStaffGroupList
+  property_count: 4
+  slug: elation-health-paginated-staff-group-list
+- name: PaginatedSubscriptionList
+  property_count: 4
+  slug: elation-health-paginated-subscription-list
+- name: PaginatedThreadMemberList
+  property_count: 4
+  slug: elation-health-paginated-thread-member-list
+- name: PaginatedThreadMessageList
+  property_count: 4
+  slug: elation-health-paginated-thread-message-list
+- name: PaginatedUserList
+  property_count: 4
+  slug: elation-health-paginated-user-list
+- name: PaginatedVaccineList
+  property_count: 4
+  slug: elation-health-paginated-vaccine-list
+- name: PaginatedVisitNoteList
+  property_count: 4
+  slug: elation-health-paginated-visit-note-list
+- name: PaginatedVisitNoteTemplateList
+  property_count: 4
+  slug: elation-health-paginated-visit-note-template-list
+- name: PaginatedVisitNoteTypeList
+  property_count: 4
+  slug: elation-health-paginated-visit-note-type-list
+- name: PaginatedVitalsCollectionList
+  property_count: 4
+  slug: elation-health-paginated-vitals-collection-list
+- name: PaginatedXmlPatientSummaryList
+  property_count: 4
+  slug: elation-health-paginated-xml-patient-summary-list
+- name: PatchedAddSignaturesToNote
+  property_count: 4
+  slug: elation-health-patched-add-signatures-to-note
+- name: PatchedAppointment
+  property_count: 25
+  slug: elation-health-patched-appointment
+- name: PatchedAppointmentType
+  property_count: 18
+  slug: elation-health-patched-appointment-type
+- name: PatchedCardiacOrder
+  property_count: 21
+  slug: elation-health-patched-cardiac-order
+- name: PatchedCodedDocumentTag
+  property_count: 11
+  slug: elation-health-patched-coded-document-tag
+- name: PatchedContact
+  property_count: 30
+  slug: elation-health-patched-contact
+- name: PatchedCPTCode
+  property_count: 6
+  slug: elation-health-patched-cptcode
+- name: PatchedFacilityIdentifier
+  property_count: 14
+  slug: elation-health-patched-facility-identifier
+- name: PatchedHandout
+  property_count: 10
+  slug: elation-health-patched-handout
+- name: PatchedImagingOrder
+  property_count: 21
+  slug: elation-health-patched-imaging-order
+- name: PatchedInsuranceCompanySingleInstance
+  property_count: 21
+  slug: elation-health-patched-insurance-company-single-instance
+- name: PatchedInsurancePlanSingleInstance
+  property_count: 7
+  slug: elation-health-patched-insurance-plan-single-instance
+- name: PatchedLabOrder
+  property_count: 27
+  slug: elation-health-patched-lab-order
+- name: PatchedLabOrderSet
+  property_count: 8
+  slug: elation-health-patched-lab-order-set
+- name: PatchedLabOrderTestCompendium
+  property_count: 7
+  slug: elation-health-patched-lab-order-test-compendium
+- name: PatchedLabVendorIntegration
+  property_count: 8
+  slug: elation-health-patched-lab-vendor-integration
+- name: PatchedLabVendorPatientSite
+  property_count: 13
+  slug: elation-health-patched-lab-vendor-patient-site
+- name: PatchedLabVendor
+  property_count: 13
+  slug: elation-health-patched-lab-vendor
+- name: PatchedLetter
+  property_count: 32
+  slug: elation-health-patched-letter
+- name: PatchedMedOrderTemplate
+  property_count: 10
+  slug: elation-health-patched-med-order-template
+- name: PatchedMedication
+  property_count: 17
+  slug: elation-health-patched-medication
+- name: PatchedMessageThread
+  property_count: 13
+  slug: elation-health-patched-message-thread
+- name: PatchedNonVisitNote
+  property_count: 13
+  slug: elation-health-patched-non-visit-note
+- name: PatchedPatientAllergy
+  property_count: 11
+  slug: elation-health-patched-patient-allergy
+- name: PatchedPatientDrugIntolerance
+  property_count: 9
+  slug: elation-health-patched-patient-drug-intolerance
+- name: PatchedPatientFormRequest
+  property_count: 8
+  slug: elation-health-patched-patient-form-request
+- name: PatchedPatientLetter
+  property_count: 22
+  slug: elation-health-patched-patient-letter
+- name: PatchedPatientProblem
+  property_count: 13
+  slug: elation-health-patched-patient-problem
+- name: PatchedPatientProviderTeamMemberUpdate
+  property_count: 10
+  slug: elation-health-patched-patient-provider-team-member-update
+- name: PatchedPatient
+  property_count: 53
+  slug: elation-health-patched-patient
+- name: PatchedPhysician
+  property_count: 14
+  slug: elation-health-patched-physician
+- name: PatchedPractice
+  property_count: 14
+  slug: elation-health-patched-practice
+- name: PatchedPublishedEvent
+  property_count: 9
+  slug: elation-health-patched-published-event
+- name: PatchedPulmonaryOrder
+  property_count: 21
+  slug: elation-health-patched-pulmonary-order
+- name: PatchedReferralOrder
+  property_count: 16
+  slug: elation-health-patched-referral-order
+- name: PatchedServiceLocation
+  property_count: 18
+  slug: elation-health-patched-service-location
+- name: PatchedSleepOrder
+  property_count: 20
+  slug: elation-health-patched-sleep-order
+- name: PatchedStaffGroup
+  property_count: 7
+  slug: elation-health-patched-staff-group
+- name: PatchedThreadMember
+  property_count: 6
+  slug: elation-health-patched-thread-member
+- name: PatchedUpdateReport
+  property_count: 4
+  slug: elation-health-patched-update-report
+- name: PatchedUser
+  property_count: 13
+  slug: elation-health-patched-user
+- name: PatchedVisitNoteTemplate
+  property_count: 6
+  slug: elation-health-patched-visit-note-template
+- name: PatchedVisitNoteType
+  property_count: 8
+  slug: elation-health-patched-visit-note-type
+- name: PatchedVitalsCollection
+  property_count: 24
+  slug: elation-health-patched-vitals-collection
+- name: Patient_2
+  property_count: 0
+  slug: elation-health-patient-2
+- name: PatientAllergyDocumentation
+  property_count: 4
+  slug: elation-health-patient-allergy-documentation
+- name: PatientAllergy
+  property_count: 11
+  slug: elation-health-patient-allergy
+- name: PatientChartInputGetId
+  property_count: 1
+  slug: elation-health-patient-chart-input-get-id
+- name: PatientChartInputGetList
+  property_count: 8
+  slug: elation-health-patient-chart-input-get-list
+- name: PatientChartInputPost
+  property_count: 3
+  slug: elation-health-patient-chart-input-post
+- name: PatientChartInputPut
+  property_count: 3
+  slug: elation-health-patient-chart-input-put
+- name: PatientCreate
+  property_count: 26
+  slug: elation-health-patient-create
+- name: PatientDrugIntolerance
+  property_count: 9
+  slug: elation-health-patient-drug-intolerance
+- name: PatientFamilyHistory
+  property_count: 9
+  slug: elation-health-patient-family-history
+- name: PatientFormRequest
+  property_count: 8
+  slug: elation-health-patient-form-request
+- name: PatientForm
+  property_count: 12
+  slug: elation-health-patient-form
+- name: PatientFormSubmission
+  property_count: 10
+  slug: elation-health-patient-form-submission
+- name: PatientHistory
+  property_count: 7
+  slug: elation-health-patient-history
+- name: PatientImmunization
+  property_count: 32
+  slug: elation-health-patient-immunization
+- name: PatientLetter
+  property_count: 22
+  slug: elation-health-patient-letter
+- name: PatientOutstandingBalance
+  property_count: 2
+  slug: elation-health-patient-outstanding-balance
+- name: PatientPhoto
+  property_count: 12
+  slug: elation-health-patient-photo
+- name: PatientProblem
+  property_count: 13
+  slug: elation-health-patient-problem
+- name: PatientProviderTeamMember
+  property_count: 10
+  slug: elation-health-patient-provider-team-member
+- name: PatientProviderTeamMemberUpdate
+  property_count: 10
+  slug: elation-health-patient-provider-team-member-update
+- name: PatientProviderTeam
+  property_count: 3
+  slug: elation-health-patient-provider-team
 - name: Patient
   property_count: 43
   slug: elation-health-patient
+- name: Pharmacy
+  property_count: 14
+  slug: elation-health-pharmacy
+- name: Physician
+  property_count: 14
+  slug: elation-health-physician
+- name: PracticePrintHeader
+  property_count: 9
+  slug: elation-health-practice-print-header
+- name: Practice
+  property_count: 14
+  slug: elation-health-practice
+- name: PracticeToStaff
+  property_count: 13
+  slug: elation-health-practice-to-staff
+- name: PrescriptionFill
+  property_count: 8
+  slug: elation-health-prescription-fill
+- name: ProblemCreate
+  property_count: 7
+  slug: elation-health-problem-create
+- name: Problem
+  property_count: 0
+  slug: elation-health-problem
+- name: ProviderAvailabilityBlock
+  property_count: 8
+  slug: elation-health-provider-availability-block
+- name: ProviderAvailabilityBlockSerializerPracticeTimeZone
+  property_count: 8
+  slug: elation-health-provider-availability-block-serializer-practice-time-zone
+- name: PublishedEvent
+  property_count: 9
+  slug: elation-health-published-event
+- name: PulmonaryCenter
+  property_count: 14
+  slug: elation-health-pulmonary-center
+- name: PulmonaryOrder
+  property_count: 21
+  slug: elation-health-pulmonary-order
+- name: PulmonaryOrderTest
+  property_count: 6
+  slug: elation-health-pulmonary-order-test
+- name: RecurringEventGroup
+  property_count: 8
+  slug: elation-health-recurring-event-group
+- name: ReferenceMedication
+  property_count: 17
+  slug: elation-health-reference-medication
+- name: ReferralOrder
+  property_count: 16
+  slug: elation-health-referral-order
+- name: Report
+  property_count: 23
+  slug: elation-health-report
+- name: ReportType
+  property_count: 5
+  slug: elation-health-report-type
+- name: RoutedDocumentDelegate
+  property_count: 5
+  slug: elation-health-routed-document-delegate
+- name: RxHistoryDownload
+  property_count: 19
+  slug: elation-health-rx-history-download
+- name: RxRefillRequest
+  property_count: 10
+  slug: elation-health-rx-refill-request
+- name: ServiceLocation
+  property_count: 18
+  slug: elation-health-service-location
+- name: SleepCenter
+  property_count: 14
+  slug: elation-health-sleep-center
+- name: SleepOrder
+  property_count: 20
+  slug: elation-health-sleep-order
+- name: SleepOrderTest
+  property_count: 6
+  slug: elation-health-sleep-order-test
+- name: StaffGroup
+  property_count: 7
+  slug: elation-health-staff-group
+- name: Subscription
+  property_count: 7
+  slug: elation-health-subscription
+- name: ThreadMember
+  property_count: 6
+  slug: elation-health-thread-member
+- name: ThreadMessage
+  property_count: 8
+  slug: elation-health-thread-message
+- name: TokenResponse
+  property_count: 5
+  slug: elation-health-token-response
+- name: UpdateReport
+  property_count: 4
+  slug: elation-health-update-report
+- name: User
+  property_count: 13
+  slug: elation-health-user
+- name: Vaccine
+  property_count: 12
+  slug: elation-health-vaccine
+- name: VisitNote_2
+  property_count: 0
+  slug: elation-health-visit-note-2
+- name: VisitNoteCreate
+  property_count: 10
+  slug: elation-health-visit-note-create
+- name: VisitNote
+  property_count: 21
+  slug: elation-health-visit-note
+- name: VisitNoteTemplate
+  property_count: 6
+  slug: elation-health-visit-note-template
+- name: VisitNoteType
+  property_count: 8
+  slug: elation-health-visit-note-type
+- name: VitalsCollection
+  property_count: 24
+  slug: elation-health-vitals-collection
+- name: XmlPatientSummary
+  property_count: 17
+  slug: elation-health-xml-patient-summary
 jsonld:
 - class_count: 28
   name: Elation Health Context
@@ -3505,33 +4355,34 @@ jsonld:
   slug: elation-health-context
 layout: provider
 mcp_servers:
-- description: ''
+- description: Remote MCP server at help.elationhealth.com.
   name: Elation Health MCP Server
   slug: elation-health-mcp-yml
 modified: '2026-08-14'
 name: Elation Health
 nav: Providers
 network: true
-overview: 'Elation Health publishes 126 APIs on the [APIs.io](https://apis.io/) network, including Allergies API, Appointments API, Authentication API, and 123 more. Tagged areas include Healthcare, United States, EHR, EMR, and FHIR.
+overview: 'Elation Health publishes 126 API contracts indexed on the [APIs.io](https://apis.io/) network, including Allergies API, Appointments API, Authentication API, and 123 more. Tagged areas include Healthcare, United States, Electronic Health Records, FHIR, and HL7.
 
 
-  The Elation Health catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
+  The Elation Health catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Elation Health''s developer surface includes sandbox, changelog, authentication, documentation, API reference, getting-started guide, engineering blog, and 77 more developer resources.'
+  Elation Health''s developer surface includes sandbox, changelog, authentication, documentation, API reference, getting-started guide, pricing, and 82 more developer resources.'
 plans:
 - name: Elation Health Plans Pricing
-  plan_count: 3
+  plan_count: 2
   slug: elation-health-plans-pricing
 random_paper: 15
 rate_limits:
-- limit_count: 0
+- limit_count: 1
   name: Elation Health Rate Limits
   slug: elation-health-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Elation Health API Rules
+  name: Elation Health — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -3539,6 +4390,18 @@ rules:
     info: 1
     warn: 4
   slug: elation-health-jsonschema-spectral-rules
+- authorship: generated
+  effective_rule_count: 51
+  extends:
+  - spectral:oas
+  name: Elation Health API Rules
+  rule_count: 10
+  severity_counts:
+    error: 6
+    hint: 0
+    info: 1
+    warn: 3
+  slug: elation-health-rules
 scopes:
 - name: Elation Health Scopes
   scope_count: 154
@@ -3546,22 +4409,22 @@ scopes:
   summary_line: 154 scopes · clientCredentials/password
 score:
   band: exemplar
-  composite: 77.5
+  composite: 79.4
   coverage:
-    artifact_dirs: 35
-    catalog_earned: 73.8
-    catalog_earned_first_party: 12.0
-    catalog_gap: 44.3
+    artifact_dirs: 38
+    catalog_earned: 81.8
+    catalog_earned_first_party: 16.0
+    catalog_gap: 33.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.1
+  delta: 1.4
   facets:
-    access_clarity: 92.1
-    contract_governance: 41.7
-    contract_quality: 67.6
+    access_clarity: 73.7
+    contract_governance: 35.6
+    contract_quality: 73.6
     developer_ergonomics: 72.6
-    discoverability: 71.7
-    operational_transparency: 42.1
+    discoverability: 81.7
+    operational_transparency: 71.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -3569,7 +4432,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 83.6
+  previous_composite: 78.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -3590,9 +4453,9 @@ score:
     regime: Health
     regime_id: health
     score: 57.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: falling
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: flat
   upsert:
     applies: true
     score: 38.9
@@ -3610,8 +4473,7 @@ slug: elation-health
 tags:
 - Healthcare
 - United States
-- EHR
-- EMR
+- Electronic Health Records
 - FHIR
 - HL7
 - Interoperability

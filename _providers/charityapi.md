@@ -30,13 +30,13 @@ agent_readiness:
     mcp_server: verified
     openapi_examples: false
     protected_resource_metadata: verified
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 51.7
-  scored_at: '2026-10-04'
+  score: 49.5
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -79,6 +79,29 @@ collections:
   name: CharityAPI
   slug: open-charityapi
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/charityapi/refs/heads/main/plans/charityapi-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/charityapi-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/charityapi/refs/heads/main/rate-limits/charityapi-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/charityapi-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/charityapi/refs/heads/main/finops/charityapi-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/charityapi-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.charityapi.org/news
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.charityapi.org/news/feed.xml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/charityapi/refs/heads/main/agentic-access/charityapi-agentic-access.yml
   title: ''
@@ -144,9 +167,13 @@ common:
 created: '2025-03-01'
 description: CharityAPI provides a simple REST API for data about US nonprofits and charities sourced directly from IRS filings. Developers can retrieve nonprofit records by EIN, verify whether an organization is a public charity (501c3) with tax-deductible status, and integrate organization name autocomplete to power donation, vetting, and compliance workflows.
 finops:
-- name: Charityapi Finops
+- has_sources: false
+  method: generated
+  name: Charityapi Finops
+  primary_unit: ''
   service_category: API
   slug: charityapi-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/charityapi.png
 json_schemas:
 - name: CharityAPI Organization
@@ -165,17 +192,17 @@ mcp_servers:
 - description: Remote MCP server at api.charityapi.org over HTTP.
   name: CharityAPI MCP Server
   slug: charityapi
-modified: '2026-05-19'
+modified: '2026-10-06'
 name: CharityAPI
 nav: Providers
 network: true
-overview: 'CharityAPI publishes 3 APIs on the [APIs.io](https://apis.io/) network: Autocomplete API, Organizations API, and Public Charity Check API. Tagged areas include 501c3, Charities, Donations, EIN, and IRS.
+overview: 'CharityAPI publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Autocomplete API, Organizations API, and Public Charity Check API. Tagged areas include 501c3, Charities, Donations, EIN, and IRS.
 
 
   The CharityAPI catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  CharityAPI''s developer surface includes authentication, documentation, pricing, engineering blog, signup flow, support, and 8 more developer resources.'
+  CharityAPI''s developer surface includes engineering blog, authentication, documentation, pricing, signup flow, support, and 13 more developer resources.'
 plans:
 - name: Charityapi Plans Pricing
   plan_count: 3
@@ -186,9 +213,10 @@ rate_limits:
   name: Charityapi Rate Limits
   slug: charityapi-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: CharityAPI API Rules
+  name: CharityAPI — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -198,17 +226,17 @@ rules:
   slug: charityapi-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 36.8
+  composite: 35.3
   coverage:
     artifact_dirs: 17
-    catalog_earned: 54.3
+    catalog_earned: 51.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 60.8
+    catalog_gap: 63.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 28.9
+    access_clarity: 21.1
     contract_governance: 9.8
     contract_quality: 54.8
     developer_ergonomics: 40.5
@@ -229,8 +257,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

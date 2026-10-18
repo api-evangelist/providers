@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.8
-  scored_at: '2026-10-04'
+  score: 22.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -221,9 +221,13 @@ examples:
   name: Noun Project Usage Window Example
   slug: noun-project-usage-window-example
 finops:
-- name: Noun Project Finops
+- has_sources: true
+  method: generated
+  name: Noun Project Finops
+  primary_unit: ''
   service_category: Design Assets
   slug: noun-project-finops
+  template: false
 image: https://thenounproject.com/icon.png
 json_schemas:
 - name: AutocompleteResponse
@@ -333,7 +337,7 @@ modified: '2026-05-28'
 name: Noun Project
 nav: Providers
 network: true
-overview: 'Noun Project publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Autocomplete API, Blocklist API, Collection API, and 2 more. Tagged areas include Icons, SVG, Visual Language, Design Assets, and Public APIs.
+overview: 'Noun Project is listed with 5 APIs on the [APIs.io](https://apis.io/) network, including Autocomplete API, Blocklist API, Collection API, and 2 more. Tagged areas include Icons, SVG, Visual Language, Design Assets, and Public APIs.
 
 
   The Noun Project catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -350,9 +354,10 @@ rate_limits:
   name: Noun Project Rate Limits
   slug: noun-project-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Noun Project API Rules
+  name: Noun Project — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -360,7 +365,8 @@ rules:
     info: 1
     warn: 4
   slug: noun-project-jsonschema-spectral-rules
-- effective_rule_count: 90
+- authorship: unmarked
+  effective_rule_count: 90
   extends:
   - spectral:oas
   name: Noun Project API Rules
@@ -372,23 +378,23 @@ rules:
     warn: 24
   slug: noun-project-rules
 score:
-  band: developing
-  composite: 39.3
+  band: thin
+  composite: 31.1
   coverage:
     artifact_dirs: 17
-    catalog_earned: 84.6
+    catalog_earned: 66.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 30.4
+    catalog_gap: 49.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.2
   facets:
-    access_clarity: 49.5
+    access_clarity: 21.1
     contract_governance: 27.3
     contract_quality: 22.4
     developer_ergonomics: 40.5
     discoverability: 78.6
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   previous_composite: 39.3
   provenance:
     agentic_access: derived
@@ -403,9 +409,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 11.1

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 10
 apis:
 - description: Solana wallet provider injected at window.phantom.solana exposing connect, disconnect, signMessage, signIn (Sign-In With Solana), signTransaction, signAllTransactions, and signAndSendTransaction. Impl
@@ -305,7 +305,7 @@ modified: '2026-05-24'
 name: Phantom
 nav: Providers
 network: true
-overview: 'Phantom publishes 10 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Base, Bitcoin, Blockchain, Crypto, and Cryptocurrency.
+overview: 'Phantom is listed with 10 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Base, Bitcoin, Blockchain, Cryptocurrency, and Deep Links.
 
 
   Phantom''s developer surface includes developer portal, documentation, signup flow, GitHub presence, code examples, tooling, changelog, and 49 more developer resources.'
@@ -340,8 +340,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 10.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -362,7 +362,6 @@ tags:
 - Base
 - Bitcoin
 - Blockchain
-- Crypto
 - Cryptocurrency
 - Deep Links
 - Embedded Wallets

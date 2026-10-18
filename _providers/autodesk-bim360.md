@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.8
-  scored_at: '2026-10-04'
+  score: 22.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -280,9 +280,13 @@ examples:
   name: Autodesk Bim360 User Example
   slug: autodesk-bim360-user-example
 finops:
-- name: Autodesk Bim360 Finops
+- has_sources: false
+  method: generated
+  name: Autodesk Bim360 Finops
+  primary_unit: ''
   service_category: ''
   slug: autodesk-bim360-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/autodesk-bim360.png
 json_schemas:
 - name: attachment
@@ -322,7 +326,7 @@ modified: '2026-06-13'
 name: Autodesk BIM 360
 nav: Providers
 network: true
-overview: 'Autodesk BIM 360 publishes 25 APIs on the [APIs.io](https://apis.io/) network, including Account Users API, Business Units API, Companies API, and 22 more. Tagged areas include Construction, Project Management, BIM, Document Management, and Field Management.
+overview: 'Autodesk BIM 360 publishes 25 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account Users API, Business Units API, Companies API, and 22 more. Tagged areas include Construction, Project Management, BIM, Document Management, and Field Management.
 
 
   The Autodesk BIM 360 catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -339,9 +343,10 @@ rate_limits:
   name: Autodesk Bim360 Rate Limits
   slug: autodesk-bim360-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Autodesk BIM 360 API Rules
+  name: Autodesk BIM 360 — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -355,18 +360,18 @@ scopes:
   slug: autodesk-bim360-scopes
   summary_line: 17 scopes · clientCredentials/implicit/authorizationCode
 score:
-  band: developing
-  composite: 41.2
+  band: thin
+  composite: 35.6
   coverage:
     artifact_dirs: 18
-    catalog_earned: 65.1
+    catalog_earned: 54.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 49.9
+    catalog_gap: 60.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.6
   facets:
-    access_clarity: 46.8
+    access_clarity: 18.4
     contract_governance: 9.8
     contract_quality: 53.8
     developer_ergonomics: 23.8
@@ -386,9 +391,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 22.2

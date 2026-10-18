@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 41.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 293
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 412
   slug: limble-cmms-agentic-access
   summary_line: 412 operations · 293 acting
-api_count: 2
+api_count: 4
 apis:
 - description: 'The Limble CMMS REST API V2 provides HTTPS access to maintenance management data including assets, locations, work orders, preventive maintenance tasks, parts, purchase orders, users, vendors, teams, '
   name: Limble API V2
@@ -524,7 +524,7 @@ modified: '2026-06-05'
 name: Limble CMMS
 nav: Providers
 network: true
-overview: 'Limble CMMS publishes 3 APIs on the [APIs.io](https://apis.io/) network, including Routes API, and 2 more. Tagged areas include CMMS, Maintenance Management, Asset Management, Manufacturing, and Facility Management.
+overview: 'Limble CMMS publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network, including Routes API, and 2 more. Tagged areas include CMMS, Maintenance Management, Asset Management, Manufacturing, and Facility Management.
 
 
   The Limble CMMS catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
@@ -541,9 +541,10 @@ rate_limits:
   name: Limble Cmms Rate Limits
   slug: limble-cmms-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Limble CMMS API Rules
+  name: Limble CMMS — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -551,7 +552,8 @@ rules:
     info: 2
     warn: 3
   slug: limble-cmms-jsonschema-spectral-rules
-- effective_rule_count: 7
+- authorship: unmarked
+  effective_rule_count: 7
   extends: []
   name: Limble CMMS API Rules
   rule_count: 7
@@ -563,21 +565,21 @@ rules:
   slug: limble-cmms-rules
 score:
   band: exemplar
-  composite: 75.4
+  composite: 76.0
   coverage:
     artifact_dirs: 28
-    catalog_earned: 75.3
+    catalog_earned: 78.3
     catalog_earned_first_party: 24.0
-    catalog_gap: 39.8
+    catalog_gap: 36.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 92.1
     contract_governance: 14.4
     contract_quality: 71.9
     developer_ergonomics: 63.7
-    discoverability: 75.0
+    discoverability: 80.0
     operational_transparency: 84.2
   previous_composite: 75.4
   provenance:
@@ -602,8 +604,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

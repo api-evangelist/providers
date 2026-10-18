@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://plotbox.com/blog/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/plotbox/refs/heads/main/security/plotbox-domain-security.yml
   title: ''
@@ -74,14 +78,14 @@ created: '2026-07-17'
 description: PlotBox is a deathcare management platform for cemeteries, crematories, and funeral homes. Founded in Northern Ireland, its cloud SaaS combines records management, interactive digital cemetery mapping, financial and trust-fund management, work orders, scheduling, and family-facing records portals to help deathcare providers run compliant, efficient operations. PlotBox serves over 2,000 facilities globally, is hosted on Microsoft Azure, and holds ISO 9001 and ISO 27001 certifications. The company does not currently publish a public developer API or developer portal.
 image: https://plotbox.com/hubfs/Imported_Blog_Media/PlotBox%20Logo%20-%20cropped-1.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: PlotBox
 nav: Providers
 network: true
 overview: 'PlotBox is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Death Care, Cemetery Management, Funeral Homes, and Crematory.
 
 
-  PlotBox''s developer surface includes engineering blog, support, pricing, and 5 more developer resources.'
+  PlotBox''s developer surface includes engineering blog, support, pricing, and 6 more developer resources.'
 random_paper: 6
 score:
   band: emerging
@@ -108,8 +112,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 14.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

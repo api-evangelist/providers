@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: partner
+  gated_source:
+  - tag:Partner Gated
   label: Self-serve signup
   onboarding: self-serve
   pricing: unknown
@@ -35,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'The Auth0-backed OpenID Connect tenant behind nib member sign-in, issuer https://id.nib.com.au/. It is the only nib API surface with anonymously readable, machine-readable metadata: the OIDC discovery'
@@ -154,7 +157,7 @@ modified: '2026-07-25'
 name: nib
 nav: Providers
 network: true
-overview: 'nib publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Australia, Health Insurance, Carrier, and Claims.
+overview: 'nib is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Australia, Health Insurance, Carrier, and Claims.
 
 
   nib''s developer surface includes authentication, engineering blog, support, and 20 more developer resources.'
@@ -199,8 +202,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 42.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -231,6 +234,5 @@ tags:
 - Travel Insurance
 - New Zealand
 - NDIS
-- Partner Gated
 website: https://www.nib.com.au/
 ---

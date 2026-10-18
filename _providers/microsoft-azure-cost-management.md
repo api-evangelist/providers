@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 42
+- acting_count: 40
   human_in_the_loop: 0
   name: Microsoft Azure Cost Management Agentic Access
   operation_count: 75
   slug: microsoft-azure-cost-management-agentic-access
-  summary_line: 75 operations · 42 acting
+  summary_line: 75 operations · 40 acting
 api_count: 1
 apis:
 - baseURL: https://management.azure.com/
@@ -1014,16 +1014,20 @@ examples:
   name: Settingslist
   slug: settingsList
 finops:
-- name: Microsoft Azure Cost Management Finops
+- has_sources: false
+  method: generated
+  name: Microsoft Azure Cost Management Finops
+  primary_unit: ''
   service_category: API
   slug: microsoft-azure-cost-management-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/microsoft-azure-cost-management.png
 layout: provider
 modified: '2026-09-17'
 name: Azure Cost Management
 nav: Providers
 network: true
-overview: 'Azure Cost Management publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Exports API, Operations API, Alerts API, and 12 more. Tagged areas include Cost Management, FinOps, Cloud Cost, Billing, and Budgets.
+overview: 'Azure Cost Management publishes 15 API contracts indexed on the [APIs.io](https://apis.io/) network, including Exports API, Operations API, Alerts API, and 12 more. Tagged areas include Cost Management, FinOps, Cloud Cost, Billing, and Budgets.
 
 
   Azure Cost Management''s developer surface includes authentication, developer portal, pricing, support, documentation, API reference, getting-started guide, and 35 more developer resources.'
@@ -1043,23 +1047,23 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: exemplar
-  composite: 69.0
+  composite: 67.5
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 60.0
+    artifact_dirs: 27
+    catalog_earned: 57.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 55.0
+    catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 4.0
+  delta: -1.5
   facets:
-    access_clarity: 89.5
+    access_clarity: 81.6
     contract_governance: 0.0
     contract_quality: 46.1
     developer_ergonomics: 73.2
     discoverability: 73.2
     operational_transparency: 89.5
-  previous_composite: 65.0
+  previous_composite: 69.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1076,8 +1080,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -1112,7 +1116,7 @@ tags:
 - Forecasting
 - Chargebacks
 - Focus
-- Azure
+- Microsoft Azure
 - Reserved Instances
 website: https://www.microsoft.com/
 ---

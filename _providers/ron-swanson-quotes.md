@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -189,7 +189,7 @@ modified: '2026-09-16'
 name: Ron Swanson Quotes
 nav: Providers
 network: true
-overview: 'Ron Swanson Quotes publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Entertainment, Television, Parks and Recreation, Quotes, and Open Source.
+overview: 'Ron Swanson Quotes publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network. Tagged areas include Entertainment, Television, Parks and Recreation, Quotes, and Open Source.
 
 
   The Ron Swanson Quotes catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -198,9 +198,10 @@ overview: 'Ron Swanson Quotes publishes 1 API on the [APIs.io](https://apis.io/)
   Ron Swanson Quotes'' developer surface includes documentation, changelog, authentication, code examples, and 12 more developer resources.'
 random_paper: 5
 rules:
-- effective_rule_count: 4
+- authorship: generated
+  effective_rule_count: 4
   extends: []
-  name: Ron Swanson Quotes API Rules
+  name: Ron Swanson Quotes — jsonschema rules
   rule_count: 4
   severity_counts:
     error: 0
@@ -208,7 +209,8 @@ rules:
     info: 1
     warn: 3
   slug: ron-swanson-quotes-jsonschema-spectral-rules
-- effective_rule_count: 78
+- authorship: unmarked
+  effective_rule_count: 78
   extends:
   - spectral:oas
   name: Ron Swanson Quotes API Rules
@@ -251,8 +253,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.8
-  scored_at: '2026-10-04'
+  score: 22.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -118,6 +118,14 @@ collections:
   name: Quenza ArchiveClient UpdateMember API
   slug: open-quenza-updatemember-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://quenza.com/blog/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://quenza.com/blog/feed/
 - group: commercial
   title: ''
   type: Pricing
@@ -176,19 +184,23 @@ common:
 created: '2026-07-10'
 description: Quenza is a digital care and client-engagement platform for coaches, therapists, and other helping professionals. Practitioners build activities - worksheets, exercises, psycho-education, intake forms, reflection prompts, and surveys - bundle them into timed pathways (care programs), and share them with clients through a branded client portal and mobile apps, then track responses, results, notes, tasks, and chat. Quenza exposes a documented public REST API (v1) for programmatically managing clients, team members, groups, and tasks, authenticated with a workspace Bearer token. API access is available on the Collective and Beyond plans; webhooks are available from the Growth plan up.
 finops:
-- name: Quenza Finops
+- has_sources: true
+  method: generated
+  name: Quenza Finops
+  primary_unit: ''
   service_category: Practice Management and Client Engagement
   slug: quenza-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/quenza.png
 layout: provider
-modified: '2026-07-10'
+modified: '2026-10-06'
 name: Quenza
 nav: Providers
 network: true
-overview: 'Quenza publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Clients API, Groups API, Members API, and 1 more. Tagged areas include Coaching, Therapy, Client Engagement, Digital Health, and Mental Health.
+overview: 'Quenza publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Clients API, Groups API, Members API, and 1 more. Tagged areas include Coaching, Therapy, Client Engagement, Digital Health, and Mental Health.
 
 
-  Quenza''s developer surface includes pricing, authentication, documentation, and 9 more developer resources.'
+  Quenza''s developer surface includes engineering blog, pricing, authentication, documentation, and 10 more developer resources.'
 plans:
 - name: Quenza Plans Pricing
   plan_count: 9
@@ -203,22 +215,22 @@ rate_limits:
   slug: quenza-rate-limits
 score:
   band: thin
-  composite: 37.3
+  composite: 33.6
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 62.8
+    artifact_dirs: 13
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 52.2
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.7
   facets:
-    access_clarity: 50.0
+    access_clarity: 42.1
     contract_governance: 0.0
     contract_quality: 49.7
-    developer_ergonomics: 28.6
+    developer_ergonomics: 31.0
     discoverability: 66.1
-    operational_transparency: 28.4
+    operational_transparency: 7.9
   previous_composite: 37.3
   provenance:
     agentic_access: derived
@@ -233,8 +245,8 @@ score:
     regime: Health
     regime_id: health
     score: 9.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

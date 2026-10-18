@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Kitex is a high-performance, extensible RPC framework for building microservices in Go, developed by ByteDance. It supports Thrift and Protocol Buffers serialization, provides built-in service governa
@@ -41,6 +41,21 @@ apis:
   slug: kitex
 artifact_total: 7
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/kitex/refs/heads/main/plans/kitex-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/kitex-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/kitex/refs/heads/main/rate-limits/kitex-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/kitex-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/kitex/refs/heads/main/finops/kitex-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/kitex-finops.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -93,9 +108,13 @@ common:
 created: '2026-03-26'
 description: Kitex is a high-performance, extensible RPC framework for building microservices in Go, developed by ByteDance. It supports Thrift and Protocol Buffers serialization, provides built-in service governance features including service discovery, load balancing, circuit breaking, and retry policies, and is optimized for high throughput and low latency.
 finops:
-- name: Kitex Finops
+- has_sources: false
+  method: generated
+  name: Kitex Finops
+  primary_unit: ''
   service_category: API
   slug: kitex-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kitex.png
 json_schemas:
 - name: Kitex Service Configuration
@@ -106,13 +125,13 @@ modified: '2026-04-28'
 name: Kitex
 nav: Providers
 network: true
-overview: 'Kitex publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Framework, Go, High Performance, Microservices, and Protocol Buffers.
+overview: 'Kitex is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Framework, Go, High Performance, Microservices, and Protocol Buffers.
 
 
   The Kitex catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Kitex''s developer surface includes documentation, getting-started guide, engineering blog, and 9 more developer resources.'
+  Kitex''s developer surface includes documentation, getting-started guide, engineering blog, and 12 more developer resources.'
 plans:
 - name: Kitex Plans Pricing
   plan_count: 3
@@ -123,9 +142,10 @@ rate_limits:
   name: Kitex Rate Limits
   slug: kitex-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Kitex API Rules
+  name: Kitex — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -135,17 +155,17 @@ rules:
   slug: kitex-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 23.1
+  composite: 21.7
   coverage:
     artifact_dirs: 9
-    catalog_earned: 49.7
+    catalog_earned: 46.7
     catalog_earned_first_party: 0.0
-    catalog_gap: 65.4
+    catalog_gap: 68.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.4
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 9.8
     contract_quality: 7.2
     developer_ergonomics: 23.8
@@ -161,8 +181,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

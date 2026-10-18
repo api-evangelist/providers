@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://distrokid.com/resources/blog/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/distrokid/refs/heads/main/security/distrokid-vulnerability-disclosure.yml
   title: ''
@@ -139,14 +143,14 @@ description: DistroKid is a Brooklyn, New York based digital music distribution 
   company has historically operated without a public developer API — integrations with stores, DSPs, rights organizations, and partners are handled through private B2B arrangements, and the only public web endpoints exposed under distrokid.com/api are unauthenticated pre-save widgets used to drive Spotify follow/save campaigns. DistroKid is actively hiring API engineers to scale partner and AI-facing integrations, suggesting a more formal developer surface may emerge, but as of 2026 there is no published OpenAPI specification, SDK, CLI, sandbox, or developer portal. Third-party reverse-engineered wrappers such as the unofficial Golang `distrogo` library exist but are not endorsed.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/distrokid.png
 layout: provider
-modified: '2026-05-25'
+modified: '2026-10-06'
 name: DistroKid
 nav: Providers
 network: true
 overview: 'DistroKid is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Music, Music Distribution, Digital Music, Streaming, and Independent Artists.
 
 
-  DistroKid''s developer surface includes pricing, signup flow, engineering blog, YouTube channel, GitHub presence, and 19 more developer resources.'
+  DistroKid''s developer surface includes engineering blog, pricing, signup flow, YouTube channel, GitHub presence, and 20 more developer resources.'
 random_paper: 5
 score:
   band: minimal
@@ -173,8 +177,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

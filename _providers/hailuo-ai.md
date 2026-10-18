@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.9
-  scored_at: '2026-10-04'
+  score: 19.0
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -97,6 +97,10 @@ collections:
   name: Hailuo AI / MiniMax API
   slug: open-hailuo-ai
 common:
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://platform.minimax.io/docs/pricing/overview
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/hailuo-ai/refs/heads/main/agentic-access/hailuo-ai-agentic-access.yml
   title: ''
@@ -145,25 +149,29 @@ common:
 created: '2026-07-11'
 description: Hailuo AI is MiniMax's generative video and audio platform. MiniMax is a Singapore- and China-based foundation-model company whose developer platform (platform.minimax.io / api.minimax.io, and intl.minimaxi.com for international users) exposes documented HTTP APIs for AI video generation (the Hailuo text-to-video and image-to-video models - MiniMax-Hailuo-2.3, MiniMax-Hailuo-02, Video-01, T2V-01, I2V-01, S2V-01), large language model chat completions (the MiniMax / abab family), text-to-speech (T2A) over both HTTP and a real-time WebSocket, music generation, and voice cloning. Video generation follows an asynchronous create-task-then-poll pattern; all APIs authenticate with a Bearer API key.
 finops:
-- name: Hailuo Ai Finops
+- has_sources: true
+  method: generated
+  name: Hailuo Ai Finops
+  primary_unit: ''
   service_category: AI and Machine Learning
   slug: hailuo-ai-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hailuo-ai.png
 layout: provider
 modified: '2026-07-11'
 name: Hailuo AI / MiniMax
 nav: Providers
 network: true
-overview: 'Hailuo AI / MiniMax publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Chat Completions API, Files API, Music Generation API, and 2 more. Tagged areas include Video Generation, AI Video, Generative AI, Text-to-Video, and Image-to-Video.
+overview: 'Hailuo AI / MiniMax publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Chat Completions API, Files API, Music Generation API, and 2 more. Tagged areas include Video Generation, AI Video, Generative AI, Image-to-Video, and Text-to-Speech.
 
 
   The Hailuo AI / MiniMax catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Hailuo AI / MiniMax''s developer surface includes authentication, documentation, signup flow, engineering blog, and 6 more developer resources.'
+  Hailuo AI / MiniMax''s developer surface includes pricing, authentication, documentation, signup flow, engineering blog, and 6 more developer resources.'
 plans:
 - name: Hailuo Ai Plans Pricing
-  plan_count: 4
+  plan_count: 25
   slug: hailuo-ai-plans-pricing
 random_paper: 9
 rate_limits:
@@ -171,10 +179,11 @@ rate_limits:
   name: Hailuo Ai Rate Limits
   slug: hailuo-ai-rate-limits
 rules:
-- effective_rule_count: 34
+- authorship: generated
+  effective_rule_count: 34
   extends:
   - spectral:asyncapi
-  name: Hailuo AI / MiniMax API Rules
+  name: Hailuo AI / MiniMax — asyncapi rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -183,23 +192,23 @@ rules:
     warn: 6
   slug: hailuo-ai-asyncapi-spectral-rules
 score:
-  band: developing
-  composite: 40.2
+  band: thin
+  composite: 38.3
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 65.4
-    catalog_earned_first_party: 0.0
-    catalog_gap: 49.6
+    artifact_dirs: 13
+    catalog_earned: 55.8
+    catalog_earned_first_party: 12.0
+    catalog_gap: 59.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.9
   facets:
-    access_clarity: 49.5
+    access_clarity: 55.3
     contract_governance: 11.4
     contract_quality: 57.6
     developer_ergonomics: 32.1
     discoverability: 66.1
-    operational_transparency: 28.4
+    operational_transparency: 7.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -215,12 +224,12 @@ score:
       total: 5
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 5.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -236,7 +245,6 @@ tags:
 - Video Generation
 - AI Video
 - Generative AI
-- Text-to-Video
 - Image-to-Video
 - Text-to-Speech
 - LLM

@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: The Parloa Agent Management Platform (AMP) is the primary product surface for designing, testing, scaling, optimizing, and securing AI voice and chat agents for contact centers. AMP supports custom RE
@@ -44,6 +44,21 @@ apis:
   slug: parloa-custom-rest-services
 artifact_total: 7
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/parloa/refs/heads/main/plans/parloa-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/parloa-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/parloa/refs/heads/main/rate-limits/parloa-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/parloa-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/parloa/refs/heads/main/finops/parloa-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/parloa-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/parloa/refs/heads/main/security/parloa-trust-center.yml
   title: ''
@@ -97,19 +112,23 @@ common:
 created: '2026-05-23'
 description: Parloa is an enterprise conversational AI platform for contact centers that automates voice and chat customer interactions across industries including financial services, utilities, eCommerce, healthcare, media, and IT. The Parloa Agent Management Platform (AMP) supports designing, testing, scaling, optimizing, and securing AI agents that integrate with CCaaS, telephony, CRM, and ERP systems. Parloa is a sales-led enterprise product and developer access to its REST APIs and integration tooling is provided through customer and partner accounts rather than a fully public developer portal.
 finops:
-- name: Parloa Finops
+- has_sources: false
+  method: generated
+  name: Parloa Finops
+  primary_unit: ''
   service_category: API
   slug: parloa-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/parloa.png
 layout: provider
 modified: '2026-05-23'
 name: Parloa
 nav: Providers
 network: true
-overview: 'Parloa publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Agents, Artificial Intelligence, Call Center, CCaaS, and Contact Center.
+overview: 'Parloa is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Agents, Artificial Intelligence, Call Center, CCaaS, and Contact Center.
 
 
-  Parloa''s developer surface includes documentation, engineering blog, changelog, support, and 8 more developer resources.'
+  Parloa''s developer surface includes documentation, engineering blog, changelog, support, and 11 more developer resources.'
 plans:
 - name: Parloa Plans Pricing
   plan_count: 1
@@ -121,32 +140,32 @@ rate_limits:
   slug: parloa-rate-limits
 score:
   band: emerging
-  composite: 17.4
+  composite: 11.0
   coverage:
-    artifact_dirs: 8
-    catalog_earned: 49.4
+    artifact_dirs: 9
+    catalog_earned: 36.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 65.6
+    catalog_gap: 79.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.4
   facets:
-    access_clarity: 34.7
+    access_clarity: 13.2
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
     discoverability: 64.3
-    operational_transparency: 18.9
+    operational_transparency: 5.3
   previous_composite: 17.4
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 10.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

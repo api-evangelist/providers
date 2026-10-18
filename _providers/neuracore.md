@@ -33,14 +33,23 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: REST backend for the Neuracore robot-learning platform, consumed by the official Neuracore Python SDK and CLI. Handles authentication, organizations, datasets, training runs and policy inference. Auth
   name: Neuracore Platform API
   slug: neuracore-platform-api
-artifact_total: 3
+artifact_total: 4
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/neuracore/refs/heads/main/plans/neuracore-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/neuracore-plans-pricing.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.neuracore.com/resources/articles
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/neuracore/refs/heads/main/security/neuracore-domain-security.yml
   title: ''
@@ -118,31 +127,35 @@ created: '2026-07-17'
 description: Neuracore is an end-to-end cloud platform for robot skill creation. Teams use it to collect teleoperation demonstrations, curate and version datasets, train imitation-learning and reinforcement-learning policies, and deploy them to production robots for real-time inference. The platform is driven by an official Python SDK and command-line interface (pip install neuracore) that stream 14 first-class data modalities to the Neuracore cloud backend at api.neuracore.com, plus a Rust data daemon for high-throughput recording. Founded by Stephen James and backed by Earlybird, Neuracore is used by robotics teams including Anvil Robotics, AIRA, Flexiv and Scale AI.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/neuracore.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Neuracore
 nav: Providers
 network: true
-overview: 'Neuracore publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Robotics, Robot Learning, Machine Learning, and Imitation Learning.
+overview: 'Neuracore is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Robotics, Robot Learning, Machine Learning, and Imitation Learning.
 
 
-  Neuracore''s developer surface includes documentation, getting-started guide, pricing, signup flow, CLI, authentication, changelog, and 9 more developer resources.'
+  Neuracore''s developer surface includes engineering blog, documentation, getting-started guide, pricing, signup flow, CLI, authentication, and 11 more developer resources.'
+plans:
+- name: Neuracore Plans Pricing
+  plan_count: 2
+  slug: neuracore-plans-pricing
 random_paper: 18
 score:
-  band: emerging
-  composite: 23.3
+  band: thin
+  composite: 28.0
   coverage:
-    artifact_dirs: 10
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 12
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 4.7
   facets:
-    access_clarity: 21.1
+    access_clarity: 42.1
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 47.6
+    developer_ergonomics: 50.0
     discoverability: 73.2
     operational_transparency: 18.4
   previous_composite: 23.3
@@ -152,8 +165,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 14.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

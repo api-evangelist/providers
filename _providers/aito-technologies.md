@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 27
+- acting_count: 25
   human_in_the_loop: 0
   name: Aito Technologies Agentic Access
   operation_count: 34
   slug: aito-technologies-agentic-access
-  summary_line: 34 operations · 27 acting
+  summary_line: 34 operations · 25 acting
 api_count: 1
 apis:
 - baseURL: https://shared.aito.ai
@@ -60,7 +60,7 @@ apis:
   description: The schema API from Aito Technologies — 5 operation(s) for schema.
   name: Aito Technologies Schema API
   slug: aito-technologies-schema-api
-artifact_total: 10
+artifact_total: 11
 collections:
 - collection_type: open
   name: API Collection
@@ -75,6 +75,11 @@ collections:
   name: Aito Technologies data schema API
   slug: open-aito-technologies-schema-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/aito-technologies/refs/heads/main/plans/aito-technologies-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/aito-technologies-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/aito-technologies/refs/heads/main/capabilities/aito-technologies-capability-edges.yml
   title: ''
@@ -232,30 +237,34 @@ modified: '2026-07-17'
 name: Aito Technologies
 nav: Providers
 network: true
-overview: 'Aito Technologies publishes 3 APIs on the [APIs.io](https://apis.io/) network: Data API, Query API, and Schema API. Tagged areas include Company, Predictive Database, Machine Learning, Artificial Intelligence, and Recommendations.
+overview: 'Aito Technologies publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Data API, Query API, and Schema API. Tagged areas include Company, Predictive Database, Machine Learning, Artificial Intelligence, and Recommendations.
 
 
-  Aito Technologies'' developer surface includes authentication, CLI, sandbox, changelog, documentation, API reference, getting-started guide, and 26 more developer resources.'
+  Aito Technologies'' developer surface includes authentication, CLI, sandbox, changelog, documentation, API reference, getting-started guide, and 27 more developer resources.'
+plans:
+- name: Aito Technologies Plans Pricing
+  plan_count: 7
+  slug: aito-technologies-plans-pricing
 random_paper: 20
 score:
-  band: developing
-  composite: 50.0
+  band: strong
+  composite: 56.3
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 24
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: 6.3
   facets:
-    access_clarity: 47.4
+    access_clarity: 78.9
     contract_governance: 18.2
     contract_quality: 41.4
     developer_ergonomics: 80.4
     discoverability: 73.2
     operational_transparency: 18.4
-  previous_composite: 49.4
+  previous_composite: 50.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -276,9 +285,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: true
     score: 11.1

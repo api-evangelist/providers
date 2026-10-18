@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Rogers Control Centre is Rogers' managed IoT and M2M connectivity management platform, a white-labelled deployment of Cisco IoT Control Center (formerly Jasper). Rogers' own product pages list "Access
@@ -48,6 +48,16 @@ asyncapis:
   name: Rogers Push Api Webhooks
   slug: rogers-push-api-webhooks
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/rogers/refs/heads/main/plans/rogers-plans.yml
+  title: ''
+  type: Plans
+  url: plans/rogers-plans.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/rogers/refs/heads/main/rate-limits/rogers-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/rogers-rate-limits.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/rogers/refs/heads/main/security/rogers-domain-security.yml
   title: ''
@@ -135,13 +145,13 @@ modified: '2026-07-25'
 name: Rogers Communications
 nav: Providers
 network: true
-overview: 'Rogers Communications publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Telecommunications, Canada, Mobile Network Operator, Broadband, and 5G.
+overview: 'Rogers Communications is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Telecommunications, Canada, Mobile Network Operator, Broadband, and 5G.
 
 
   The Rogers Communications catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Rogers Communications'' developer surface includes documentation, engineering blog, support, pricing, product news, and 13 more developer resources.'
+  Rogers Communications'' developer surface includes documentation, engineering blog, support, pricing, product news, and 15 more developer resources.'
 plans:
 - name: Rogers Plans
   plan_count: 3
@@ -155,7 +165,7 @@ score:
   band: developing
   composite: 50.5
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 16
     catalog_earned: 61.0
     catalog_earned_first_party: 24.0
     catalog_gap: 54.0
@@ -185,8 +195,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 25.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

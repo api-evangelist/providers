@@ -17,7 +17,7 @@ description: Menlo Ventures is an early-stage venture capital firm founded in 19
   firm's history, and reports $7.6B+ in assets under management. Its ethos is "when we invest, we're invested" — active, hands-on support beyond capital.
 image: https://menlovc.com/wp-content/uploads/menlo-logo.png
 layout: provider
-modified: '2026-07-17'
+modified: '2026-10-06'
 name: Menlo Ventures
 nav: Providers
 network: true

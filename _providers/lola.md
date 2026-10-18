@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://lola.com/press
 - group: other
   title: ''
   type: ParentCompany
@@ -69,31 +73,31 @@ created: '2026-07-17'
 description: Lola is a consumer travel booking platform at lola.com that lets travelers discover, compare, and book flights, hotels, and trips in one place, built around insider access to the world's leading travel brands, competitive rates, and a simple "just ask" booking experience. The lola.com domain was previously the Boston-based corporate travel and expense-management startup founded by Kayak veterans Paul English and Bill O'Donnell (backed by Accel and GV, more than $80M raised) which wound down operations in 2021 with its technology acquired by Capital One; the domain now hosts this new consumer travel product. No public API or developer program is currently published — this profile captures the provider's public web and security posture.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lola.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Lola
 nav: Providers
 network: true
 overview: 'Lola is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Travel, Booking, and Trip Planning.
 
 
-  Lola''s developer surface includes support and 6 more developer resources.'
+  Lola''s developer surface includes engineering blog, support, and 6 more developer resources.'
 random_paper: 6
 score:
   band: emerging
-  composite: 11.0
+  composite: 11.6
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 27.6
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 4.8
+    developer_ergonomics: 7.1
     discoverability: 48.2
     operational_transparency: 0.0
   jurisdiction:
@@ -108,8 +112,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

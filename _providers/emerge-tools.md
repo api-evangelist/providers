@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://api.emergetools.com/
@@ -123,6 +123,10 @@ collections:
   name: Emerge Analysis UploadFromLink API
   slug: open-emerge-tools-uploadfromlink-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.emergetools.com/rss.xml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/emerge-tools/refs/heads/main/capabilities/emerge-tools-capability-edges.yml
   title: ''
@@ -264,20 +268,20 @@ created: '2026-07-17'
 description: Emerge Tools is a mobile developer-tools platform used by teams at DoorDash, Square, and Duolingo to ship faster, smaller, better-performing iOS and Android apps. Its products include Size Analysis (monitor and reduce app size with PR alerts and competitor benchmarking), Snapshots (visual regression testing for SwiftUI and Jetpack Compose), Build Distribution (share iOS/Android builds via QR or web), Reaper (runtime dead-code detection), Launch Booster (order-file startup optimization), and Performance testing. The Emerge API (OpenAPI 3.1.0, api.emergetools.com) exposes build upload, size/PR analysis, snapshot comparison, performance results, and Reaper dead-code export, authenticated with an X-API-Token key. Emerge is joining Sentry.
 image: https://emergeassets.s3.us-west-1.amazonaws.com/seo/default-seo.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Emerge Tools
 nav: Providers
 network: true
-overview: 'Emerge Tools publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Analysis API, AppHistory API, BuildDetails API, and 7 more. Tagged areas include Company, B2B, Mobile, Developer Tools, and App Performance.
+overview: 'Emerge Tools publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Analysis API, AppHistory API, BuildDetails API, and 7 more. Tagged areas include Company, B2B, Mobile, Developer Tools, and App Performance.
 
 
-  Emerge Tools'' developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 23 more developer resources.'
+  Emerge Tools'' developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 24 more developer resources.'
 random_paper: 3
 score:
   band: developing
   composite: 46.8
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 21
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -307,8 +311,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

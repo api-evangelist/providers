@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.9
-  scored_at: '2026-10-04'
+  score: 0.0
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -112,6 +112,21 @@ collections:
   name: PlayAI API
   slug: open-playht
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/playht/refs/heads/main/plans/playht-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/playht-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/playht/refs/heads/main/rate-limits/playht-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/playht-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/playht/refs/heads/main/finops/playht-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/playht-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/playht/refs/heads/main/agentic-access/playht-agentic-access.yml
   title: ''
@@ -174,22 +189,26 @@ common:
 created: '2026-05-23'
 description: PlayHT, now operating as PlayAI, is a generative voice platform offering realistic text-to-speech models, AI voice agents, and a podcast generation tool called PlayNote. The platform centers on the PlayDialog and Play 3.0 Mini models, providing more than 200 prebuilt voices across multiple languages and accents with sub-second latency suited to conversational applications. PlayAI exposes REST and streaming endpoints for text-to-speech, voice listing, voice cloning, and voice agent management. It ships Python and Node.js SDKs and a hosted playground, and integrates with the major voice agent infrastructure stacks. The product is widely used to build voice assistants, IVRs, narration pipelines, and content production workflows.
 finops:
-- name: Playht Finops
+- has_sources: false
+  method: generated
+  name: Playht Finops
+  primary_unit: ''
   service_category: API
   slug: playht-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/playht.png
 layout: provider
 modified: '2026-05-29'
 name: PlayHT
 nav: Providers
 network: true
-overview: 'PlayHT publishes 8 APIs on the [APIs.io](https://apis.io/) network, including PlayAI Text-to-Speech API, PlayAI Voice Agents API, Agents API, and 5 more. Tagged areas include Voice, TTS, Text-to-Speech, Voice Cloning, and Voice Agents.
+overview: 'PlayHT publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including PlayAI Text-to-Speech API, PlayAI Voice Agents API, Agents API, and 5 more. Tagged areas include Voice, TTS, Text-to-Speech, Voice Cloning, and Voice Agents.
 
 
   The PlayHT catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  PlayHT''s developer surface includes authentication, documentation, engineering blog, pricing, and 10 more developer resources.'
+  PlayHT''s developer surface includes authentication, documentation, engineering blog, pricing, and 13 more developer resources.'
 plans:
 - name: Playht Plans Pricing
   plan_count: 1
@@ -200,10 +219,11 @@ rate_limits:
   name: Playht Rate Limits
   slug: playht-rate-limits
 rules:
-- effective_rule_count: 34
+- authorship: generated
+  effective_rule_count: 34
   extends:
   - spectral:asyncapi
-  name: PlayHT API Rules
+  name: PlayHT — asyncapi rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -212,24 +232,25 @@ rules:
     warn: 5
   slug: playht-asyncapi-spectral-rules
 score:
-  band: developing
-  composite: 42.8
+  band: minimal
+  composite: 0.0
   coverage:
     artifact_dirs: 14
-    catalog_earned: 58.9
+    catalog_earned: 45.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 56.1
+    catalog_gap: 69.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.9
+  delta: -42.8
   facets:
-    access_clarity: 55.8
-    contract_governance: 13.6
-    contract_quality: 46.5
-    developer_ergonomics: 42.9
-    discoverability: 73.2
-    operational_transparency: 24.2
-  previous_composite: 44.7
+    access_clarity: 0.0
+    contract_governance: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 0.0
+    operational_transparency: 0.0
+  lifecycle: defunct
+  previous_composite: 42.8
   provenance:
     agentic_access: derived
     contracts:
@@ -239,13 +260,13 @@ score:
       total: 6
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
-    score: 15.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
+    score: 15.1
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0
@@ -271,5 +292,6 @@ tags:
 - PlayNote
 - Multilingual
 - Real-Time
+- Defunct
 website: https://play.ht
 ---

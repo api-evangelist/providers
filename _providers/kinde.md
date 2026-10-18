@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 48.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 111
   human_in_the_loop: 13
@@ -44,7 +44,7 @@ agentic_access:
   operation_count: 179
   slug: kinde-agentic-access
   summary_line: 179 operations · 111 acting · 13 human-in-the-loop
-api_count: 2
+api_count: 3
 apis:
 - description: The Kinde Management MCP server bridges AI agents and a Kinde account. It is TENANT-SCOPED — the endpoint is https://{subdomain}.kinde.com/mcp, one per Kinde business — and is authenticated with an En
   name: Kinde MCP Server
@@ -1254,9 +1254,13 @@ examples:
   name: Kinde Create Webhook Example
   slug: kinde-create-webhook-example
 finops:
-- name: Kinde Finops
+- has_sources: true
+  method: generated
+  name: Kinde Finops
+  primary_unit: ''
   service_category: Identity
   slug: kinde-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kinde.png
 json_schemas:
 - name: Application
@@ -1301,7 +1305,7 @@ modified: '2026-09-12'
 name: Kinde
 nav: Providers
 network: true
-overview: 'Kinde publishes 31 APIs on the [APIs.io](https://apis.io/) network, including API Keys API, Applications API, Billing Agreements API, and 28 more. Tagged areas include Authentication, Authorization, Customer Identity, Identity Management, and OpenID Connect.
+overview: 'Kinde publishes 31 API contracts indexed on the [APIs.io](https://apis.io/) network, including API Keys API, Applications API, Billing Agreements API, and 28 more. Tagged areas include Authentication, Authorization, Customer Identity, Identity and Access Management, and OpenID Connect.
 
 
   The Kinde catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -1318,9 +1322,10 @@ rate_limits:
   name: Kinde Rate Limits
   slug: kinde-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Kinde API Rules
+  name: Kinde — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1328,7 +1333,8 @@ rules:
     info: 1
     warn: 4
   slug: kinde-jsonschema-spectral-rules
-- effective_rule_count: 53
+- authorship: unmarked
+  effective_rule_count: 53
   extends:
   - spectral:oas
   name: Kinde API Rules
@@ -1346,23 +1352,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 88.0
+  composite: 82.9
   coverage:
-    artifact_dirs: 37
-    catalog_earned: 88.8
+    artifact_dirs: 39
+    catalog_earned: 81.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 26.2
+    catalog_gap: 34.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -5.1
   facets:
-    access_clarity: 90.3
+    access_clarity: 61.8
     contract_governance: 45.5
     contract_quality: 68.2
     developer_ergonomics: 91.1
-    discoverability: 68.3
+    discoverability: 73.3
     operational_transparency: 92.1
-  previous_composite: 87.5
+  previous_composite: 88.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -1379,9 +1385,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 66.7
@@ -1408,7 +1414,7 @@ tags:
 - Authentication
 - Authorization
 - Customer Identity
-- Identity Management
+- Identity and Access Management
 - OpenID Connect
 - SSO
 - Multi-Factor Authentication

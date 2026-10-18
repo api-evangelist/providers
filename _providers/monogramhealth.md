@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.monogramhealth.com/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/monogramhealth/refs/heads/main/security/monogramhealth-domain-security.yml
   title: ''
@@ -49,7 +53,7 @@ created: '2026-07-17'
 description: Monogram Health is a value-based, in-home specialty care provider for people living with chronic kidney disease, end-stage renal disease, and other complex chronic conditions. Multidisciplinary teams of physicians, nurse practitioners, nurses, dietitians, pharmacists, and social workers deliver coordinated care in patients' homes with 24/7 access, addressing both medical needs and social determinants of health to reduce hospitalizations and emergency visits. Headquartered in Nashville, Tennessee, the company partners with health plans (payer partners) and provider groups and serves over 200,000 patients annually. This is a healthcare services company with no public developer, API, or platform surface; the enrichment pass probed domain security and found no API.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/monogramhealth.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Monogramhealth
 nav: Providers
 network: true
@@ -59,7 +63,7 @@ score:
   band: minimal
   composite: 3.7
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -87,8 +91,8 @@ score:
     regime: Health
     regime_id: health
     score: 4.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

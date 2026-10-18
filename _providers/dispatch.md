@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - baseURL: https://api.dispatch.me
@@ -134,6 +134,14 @@ collections:
   name: Dispatch Files API v1 Appointments Work Orders API
   slug: open-dispatch-work-orders-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://dispatch.me/resources/blog/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://dispatch.me/feed/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/dispatch/refs/heads/main/overlays/dispatch-files-v1-overlay.yaml
   title: ''
@@ -262,29 +270,29 @@ created: '2026-07-17'
 description: Dispatch (Dispatch Technologies, Boston MA) is a service-orchestration platform for enterprises that fulfil work through networks of independent contractors and third-party service providers - manufacturer warranty, home and property claims, retail, franchise and proptech. Dispatch gives the brand visibility into work performed by providers who keep using their own field-service tools, and gives the homeowner a tracked, branded service experience. Its public REST API v3 exposes the core business objects - jobs, customers, organizations, appointments, users, sources, brands, survey responses and composite work orders - to job sources such as warranty companies and equipment manufacturers, and to service enterprises running first-party branch networks. The API is secured with OAuth 2.0 bearer tokens, offers a full sandbox environment, and is documented in a public GitHub repository.
 image: https://dispatch.me/wp-content/uploads/2019/11/cropped-favicon-1-300x300.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Dispatch
 nav: Providers
 network: true
-overview: 'Dispatch publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Appointments API, Authentication API, Brands API, and 8 more. Tagged areas include Field Service, Service Orchestration, Work Orders, Scheduling, and Contractor Networks.
+overview: 'Dispatch publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Appointments API, Authentication API, Brands API, and 8 more. Tagged areas include Field Service, Service Orchestration, Work Orders, Scheduling, and Contractor Networks.
 
 
   The Dispatch catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Dispatch''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 20 more developer resources.'
+  Dispatch''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, authentication, sandbox, and 22 more developer resources.'
 random_paper: 12
 score:
   band: thin
-  composite: 38.1
+  composite: 38.2
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 27.6
     contract_governance: 4.5
@@ -308,8 +316,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

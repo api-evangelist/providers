@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: River's GraphQL data API secured with OAuth 2.0 authorization-code + PKCE and OpenID Connect. Read scopes cover account balances, transactions, identity, and payment networks.
@@ -140,7 +140,7 @@ modified: '2026-07-21'
 name: River Financial
 nav: Providers
 network: true
-overview: 'River Financial publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Bitcoin Services, Cryptocurrency, Financial Services, and Banking.
+overview: 'River Financial is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Bitcoin Services, Cryptocurrency, Financial Services, and Banking.
 
 
   River Financial''s developer surface includes support, signup flow, authentication, and 17 more developer resources.'
@@ -154,7 +154,7 @@ score:
   band: thin
   composite: 28.2
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -183,8 +183,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 41.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

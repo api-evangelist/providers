@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 7
 apis:
 - description: 'The TAP v2 API exposes the Threat Insight Dashboard to machines: SIEM event download (blocked/permitted clicks, blocked/delivered messages, issues, all), campaign identifiers and detail, forensic evid'
@@ -184,7 +184,7 @@ modified: '2026-09-13'
 name: Proofpoint
 nav: Providers
 network: true
-overview: 'Proofpoint publishes 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Security, Cybersecurity, Email Security, Threat Intelligence, and Data Loss Prevention.
+overview: 'Proofpoint is listed with 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Security, Cybersecurity, Email Security, Threat Intelligence, and Data Loss Prevention.
 
 
   Proofpoint''s developer surface includes documentation, API reference, engineering blog, support, CLI, authentication, and 22 more developer resources.'
@@ -199,15 +199,15 @@ rate_limits:
   slug: proofpoint-rate-limits
 score:
   band: developing
-  composite: 40.0
+  composite: 40.1
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 19
     catalog_earned: 52.0
     catalog_earned_first_party: 12.0
     catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 50.0
     contract_governance: 18.2
@@ -225,13 +225,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/proofpoint/refs/heads/main/screenshots/proofpoint-2026-10-11T112846.png
 security:
 - kind: authentication
   name: Proofpoint Authentication

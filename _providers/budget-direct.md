@@ -1,6 +1,10 @@
 ---
 access_model:
   confidence: low
+  gated: partner
+  gated_source:
+  - tag:No Public API
+  - description
   label: Unknown
   onboarding: unknown
   pricing: unknown
@@ -33,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
@@ -137,7 +141,7 @@ modified: '2026-07-25'
 name: Budget Direct
 nav: Providers
 network: true
-overview: 'Budget Direct is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Australia, Property and Casualty, Direct to Consumer Insurance, and Motor Insurance.
+overview: 'Budget Direct is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Australia, Property and Casualty, Direct to Consumer Insurance, and Auto Insurance.
 
 
   Budget Direct''s developer surface includes support and 20 more developer resources.'
@@ -176,8 +180,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 26.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -199,13 +203,12 @@ tags:
 - Australia
 - Property and Casualty
 - Direct to Consumer Insurance
-- Motor Insurance
+- Auto Insurance
 - Home Insurance
 - Travel Insurance
 - Life Insurance
 - Underwriting
 - Claims
 - Carrier
-- No Public API
 website: https://www.budgetdirect.com.au/
 ---

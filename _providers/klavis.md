@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -89,6 +89,21 @@ collections:
   name: Klavis AI MCP Platform API
   slug: open-klavis
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/klavis/refs/heads/main/plans/klavis-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/klavis-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/klavis/refs/heads/main/rate-limits/klavis-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/klavis-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/klavis/refs/heads/main/finops/klavis-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/klavis-finops.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -159,19 +174,23 @@ common:
 created: '2026-05-23'
 description: Klavis AI is an open-source MCP integration platform that lets AI agents reliably use external tools at production scale. The product line is organized around Strata (intelligent connectors that compress and route tool context), 100+ prebuilt MCP integrations with OAuth, and an MCP Sandbox for live agent training and evaluation. Target customers are AI agent companies, RL teams, and enterprises that need long-horizon multi-app environments with seeded state, resets, and verifiable outcomes, plus SOC 2 Type II and GDPR posture. SDKs are available for Python and TypeScript/JavaScript, integrations cover Claude, OpenAI, Gemini, Cohere, Mistral, LangChain/LangGraph, LlamaIndex, CrewAI, Mastra, Agno, Fireworks, Together, and Google ADK, and the project is Apache-2.0 on GitHub.
 finops:
-- name: Klavis Finops
+- has_sources: false
+  method: generated
+  name: Klavis Finops
+  primary_unit: ''
   service_category: API
   slug: klavis-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/klavis.png
 layout: provider
 modified: '2026-05-23'
 name: Klavis AI
 nav: Providers
 network: true
-overview: 'Klavis AI publishes 5 APIs on the [APIs.io](https://apis.io/) network, including MCP Servers API, Sandbox API, Tools API, and 2 more. Tagged areas include MCP, MCP Server, MCP Hosting, Connectors, and Authentication.
+overview: 'Klavis AI publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including MCP Servers API, Sandbox API, Tools API, and 2 more. Tagged areas include MCP, MCP Server, MCP Hosting, Connectors, and Authentication.
 
 
-  Klavis AI''s developer surface includes authentication, documentation, engineering blog, pricing, and 12 more developer resources.'
+  Klavis AI''s developer surface includes authentication, documentation, engineering blog, pricing, and 15 more developer resources.'
 plans:
 - name: Klavis Plans Pricing
   plan_count: 1
@@ -182,23 +201,23 @@ rate_limits:
   name: Klavis Rate Limits
   slug: klavis-rate-limits
 score:
-  band: developing
-  composite: 44.5
+  band: thin
+  composite: 39.0
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 54.4
+    artifact_dirs: 13
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 60.6
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.5
   facets:
-    access_clarity: 50.5
+    access_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 51.9
     developer_ergonomics: 50.0
     discoverability: 73.2
-    operational_transparency: 37.4
+    operational_transparency: 23.7
   open_source:
     applies: true
     score: 50.0
@@ -216,9 +235,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

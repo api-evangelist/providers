@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: A live, anonymously reachable Model Context Protocol endpoint served from the atma.io marketing site (Avery Dennison's connected product cloud and Digital Product Passport brand). It is the Wix-platfo
@@ -40,6 +40,11 @@ apis:
   slug: atma-io-site-mcp
 artifact_total: 6
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/avery-dennison/refs/heads/main/rate-limits/avery-dennison-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/avery-dennison-rate-limits.yml
 - group: company
   title: ''
   type: Website
@@ -118,10 +123,10 @@ modified: '2026-09-18'
 name: Avery Dennison
 nav: Providers
 network: true
-overview: 'Avery Dennison publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500, IoT, RFID, Labels, and Supply Chain.
+overview: 'Avery Dennison is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500, IoT, RFID, Labels, and Supply Chain.
 
 
-  Avery Dennison''s developer surface includes developer portal, engineering blog, support, and 9 more developer resources.'
+  Avery Dennison''s developer surface includes developer portal, engineering blog, support, and 10 more developer resources.'
 plans:
 - name: Avery Dennison Plans Pricing
   plan_count: 0
@@ -151,7 +156,7 @@ score:
   band: emerging
   composite: 18.7
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -175,8 +180,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

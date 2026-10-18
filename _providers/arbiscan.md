@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.7
-  scored_at: '2026-10-04'
+  score: 26.6
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -80,6 +80,21 @@ collections:
   name: Arbiscan Accounts Transactions API
   slug: open-arbiscan-transactions-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/arbiscan/refs/heads/main/plans/arbiscan-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/arbiscan-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/arbiscan/refs/heads/main/rate-limits/arbiscan-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/arbiscan-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/arbiscan/refs/heads/main/finops/arbiscan-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/arbiscan-finops.yml
 - group: company
   title: ''
   type: Website
@@ -135,9 +150,13 @@ common:
 created: '2026-06-13'
 description: Arbiscan is the official blockchain explorer, search, API, and analytics platform for Arbitrum One, the leading Ethereum Layer 2 scaling network. It enables developers and users to query Arbitrum One transaction histories, token transfers (ERC-20, ERC-721, ERC-1155), smart contract source code and ABIs, block data, and L2 network statistics. The Arbiscan API is part of the Etherscan unified V2 platform, accessible across 60+ EVM-compatible chains with a single API key. A free tier provides 100,000 daily calls at 3 requests per second; paid tiers scale up to enterprise with unmetered access.
 finops:
-- name: Arbiscan Finops
+- has_sources: false
+  method: generated
+  name: Arbiscan Finops
+  primary_unit: ''
   service_category: API
   slug: arbiscan-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/arbiscan.png
 jsonld:
 - class_count: 48
@@ -149,13 +168,13 @@ modified: '2026-06-13'
 name: Arbiscan
 nav: Providers
 network: true
-overview: 'Arbiscan publishes 1 API on the [APIs.io](https://apis.io/) network: Accounts API. Tagged areas include Blockchain, Cryptocurrency, Arbitrum, Layer 2, and EVM.
+overview: 'Arbiscan publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Accounts API. Tagged areas include Blockchain, Cryptocurrency, Arbitrum, Layer 2, and EVM.
 
 
   The Arbiscan catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Arbiscan''s developer surface includes authentication, developer portal, documentation, pricing, signup flow, and 7 more developer resources.'
+  Arbiscan''s developer surface includes authentication, developer portal, documentation, pricing, signup flow, and 10 more developer resources.'
 plans:
 - name: Arbiscan Plans Pricing
   plan_count: 7
@@ -166,23 +185,23 @@ rate_limits:
   name: Arbiscan Rate Limits
   slug: arbiscan-rate-limits
 score:
-  band: developing
-  composite: 47.1
+  band: thin
+  composite: 38.8
   coverage:
     artifact_dirs: 13
-    catalog_earned: 74.1
+    catalog_earned: 55.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 40.9
+    catalog_gap: 59.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 70.5
+    access_clarity: 42.1
     contract_governance: 13.6
     contract_quality: 56.3
     developer_ergonomics: 21.4
     discoverability: 73.2
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   previous_composite: 47.1
   provenance:
     agentic_access: derived
@@ -197,9 +216,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
@@ -217,7 +236,7 @@ security:
 - kind: vulnerability-disclosure
   name: Arbiscan Vulnerability Disclosure
   slug: arbiscan-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 slug: arbiscan
 tags:
 - Blockchain

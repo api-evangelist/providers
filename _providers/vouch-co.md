@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.vouch.us/blog/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/vouch-co/refs/heads/main/security/vouch-co-domain-security.yml
   title: ''
@@ -178,14 +182,14 @@ description: Vouch is a San Francisco, California business insurance broker and 
   pre-fill applications, surface quotes, and bind coverage inline via Vouch's partner API. Public developer documentation, an OpenAPI specification, and a self-serve sandbox are not exposed; the partner API and Vouch Corporate documentation (hosted on GitBook) are gated to onboarded venture, technology, and service-provider partners contracted through hello@vouch.us.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vouch-co.png
 layout: provider
-modified: '2026-08-08'
+modified: '2026-10-06'
 name: Vouch
 nav: Providers
 network: true
 overview: 'Vouch is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Business Insurance, Commercial Insurance, Insurtech, and Startup Insurance.
 
 
-  Vouch''s developer surface includes engineering blog, support, GitHub presence, and 31 more developer resources.'
+  Vouch''s developer surface includes engineering blog, support, GitHub presence, and 32 more developer resources.'
 random_paper: 12
 score:
   band: emerging
@@ -212,13 +216,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 12.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/vouch-co/refs/heads/main/screenshots/vouch-co-2026-10-11T194323.png
 security:
 - kind: domain-security
   name: Vouch Co Domain Security

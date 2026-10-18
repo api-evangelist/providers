@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 5
 apis:
 - description: OpenAI-compatible chat and text-completion endpoints serving open-source LLMs including Llama 2, Llama 3, Mixtral 8x7B, Mistral 7B, Code Llama, and customer fine-tunes. Supported streaming, function c
@@ -127,7 +127,7 @@ modified: '2026-09-15'
 name: OctoAI
 nav: Providers
 network: true
-overview: OctoAI publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Acquired, Defunct, Inference, Generative AI, and LLM.
+overview: OctoAI is listed with 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Acquired, Defunct, Inference, Generative AI, and LLM.
 random_paper: 1
 score:
   band: minimal
@@ -158,12 +158,12 @@ score:
   previous_composite: 0.0
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 5.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

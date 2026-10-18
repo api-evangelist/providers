@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 6
 apis:
 - description: The university's own institutional repository of theses and research outputs, running DSpace 8 on www.ros.hw.ac.uk — a host under Heriot-Watt's registrable domain with a matching PTR record, an open.a
@@ -151,9 +151,13 @@ created: '2026-06-03'
 description: 'Heriot-Watt University is a public research university based in Edinburgh, Scotland, with further campuses in the Scottish Borders, Orkney, Dubai and Malaysia, ROR 04mghma93. Its programmable footprint is small but — unusually for this cohort — not empty and not entirely rented. Two surfaces are genuinely institution-operated and openly callable without credentials: the Research Output Service (ROS) at www.ros.hw.ac.uk, a DSpace 8 deployment on the university''s own domain with a live OAI-PMH 2.0 endpoint and an unauthenticated DSpace REST/HAL API over its theses and research outputs; and the university''s SAML 2.0 identity provider, registered in the UK Access Management Federation as Heriot-Watt University, whose signed metadata is machine-readable through the federation''s MDQ service. Everything else that looks like a Heriot-Watt API is a vendor platform the university rents under its own name and is recorded here as a tenant relationship, not as Heriot-Watt engineering:
   the research portal at researchportal.hw.ac.uk is Elsevier Pure (the host CNAMEs to hwu.elsevierpure.com), library discovery at discovery.hw.ac.uk is Ex Libris Primo, canvas.hw.ac.uk is Instructure Canvas, and hw.ac.libcal.com is Springshare LibCal. Heriot-Watt operates no central developer portal, no public API documentation, no open-data portal and no course-catalog or timetabling API; the programme search at hw.ac.uk is server-rendered HTML with no JSON backend, and timetable.hw.ac.uk, though on the university''s own network, exposes no reachable public endpoint.'
 finops:
-- name: Heriot Watt Finops
+- has_sources: true
+  method: generated
+  name: Heriot Watt Finops
+  primary_unit: ''
   service_category: Education
   slug: heriot-watt-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/heriot-watt.png
 jsonld:
 - class_count: 11
@@ -165,7 +169,7 @@ modified: '2026-08-30'
 name: Heriot-Watt University
 nav: Providers
 network: true
-overview: 'Heriot-Watt University publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include University, Higher Education, Education, Scotland, and United Kingdom.
+overview: 'Heriot-Watt University is listed with 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include University, Higher Education, Education, Scotland, and United Kingdom.
 
 
   The Heriot-Watt University catalog on APIs.io includes 1 JSON-LD context.
@@ -182,23 +186,23 @@ rate_limits:
   name: Heriot Watt Rate Limits
   slug: heriot-watt-rate-limits
 score:
-  band: thin
-  composite: 29.7
+  band: emerging
+  composite: 23.6
   coverage:
-    artifact_dirs: 9
-    catalog_earned: 60.4
+    artifact_dirs: 10
+    catalog_earned: 47.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 54.6
+    catalog_gap: 68.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -2.8
+  delta: -6.1
   facets:
-    access_clarity: 47.9
+    access_clarity: 26.3
     contract_governance: 18.2
     contract_quality: 14.3
     developer_ergonomics: 23.8
     discoverability: 62.5
-    operational_transparency: 18.9
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -207,7 +211,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 32.5
+  previous_composite: 29.7
   provenance:
     conformance: first-party
   regulatory:
@@ -216,9 +220,9 @@ score:
     regime: Education & Research
     regime_id: education
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -248,6 +252,6 @@ tags:
 - OAI-PMH
 - Identity Federation
 - Library
-- Learning Management
+- LMS
 website: https://www.hw.ac.uk/
 ---

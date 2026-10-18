@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: documented
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.4
-  scored_at: '2026-10-04'
+  score: 30.2
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -139,6 +139,21 @@ collections:
   name: Flightradar24 Airlines Usage API
   slug: open-flightradar24-usage-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/flightradar24/refs/heads/main/plans/plans.yml
+  title: ''
+  type: Plans
+  url: plans/plans.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/flightradar24/refs/heads/main/rate-limits/rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/flightradar24/refs/heads/main/finops/finops.yml
+  title: ''
+  type: FinOps
+  url: finops/finops.yml
 - group: company
   title: ''
   type: Website
@@ -251,9 +266,13 @@ examples:
   name: Live Positions Light
   slug: live-positions-light
 finops:
-- name: Finops
+- has_sources: false
+  method: generated
+  name: Finops
+  primary_unit: ''
   service_category: ''
   slug: finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/flightradar24.png
 json_schemas:
 - name: AirportFull
@@ -279,13 +298,13 @@ modified: '2026-09-16'
 name: Flightradar24
 nav: Providers
 network: true
-overview: 'Flightradar24 publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Airlines API, Airports API, Flight Summary API, and 13 more. Tagged areas include Aviation, Flight Tracking, Real-Time, Aircraft, and Airports.
+overview: 'Flightradar24 publishes 16 API contracts indexed on the [APIs.io](https://apis.io/) network, including Airlines API, Airports API, Flight Summary API, and 13 more. Tagged areas include Aviation, Flight Tracking, Real-Time, Aircraft, and Airports.
 
 
   The Flightradar24 catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Flightradar24''s developer surface includes authentication, developer portal, documentation, getting-started guide, sandbox, pricing, FAQ, and 16 more developer resources.'
+  Flightradar24''s developer surface includes authentication, developer portal, documentation, getting-started guide, sandbox, pricing, FAQ, and 19 more developer resources.'
 plans:
 - name: Plans
   plan_count: 3
@@ -296,9 +315,10 @@ rate_limits:
   name: Rate Limits
   slug: rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Flightradar24 API Rules
+  name: Flightradar24 — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -307,18 +327,18 @@ rules:
     warn: 4
   slug: flightradar24-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 44.0
+  band: thin
+  composite: 38.4
   coverage:
     artifact_dirs: 16
-    catalog_earned: 62.1
+    catalog_earned: 51.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.0
+    catalog_gap: 63.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.6
   facets:
-    access_clarity: 46.8
+    access_clarity: 18.4
     contract_governance: 9.8
     contract_quality: 60.0
     developer_ergonomics: 57.1
@@ -338,9 +358,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

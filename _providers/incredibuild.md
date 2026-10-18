@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Standard REST APIs exposed by the Incredibuild Coordinator for managing build groups and users, and a Build History API that returns build telemetry as JSON. Requests authenticate with a custom API ke
@@ -42,6 +42,10 @@ apis:
   slug: incredibuild-build-group-build-history-api
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.incredibuild.com/feed
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/incredibuild/refs/heads/main/security/incredibuild-domain-security.yml
   title: ''
@@ -113,26 +117,26 @@ created: '2026-07-17'
 description: Incredibuild is a development acceleration platform that speeds up developer and CI/CD builds using distributed processing and build caching. Its universal acceleration layer parallelizes compilation and other tasks across idle CPUs on-premises and in the cloud, removes redundant work with organization-wide caching, and surfaces pipeline bottlenecks through observability dashboards. Products include Build Cache, Distributed Processing, Observability, Build Runner (managed CI runners), Build Guard (audit-ready SBOMs), and Islo (an AI sandbox for coding agents). Incredibuild exposes a set of Build Group REST APIs for managing build groups and users on the Coordinator, plus a Build History API that returns build telemetry as JSON for dashboards and analysis. It serves gaming, automotive, semiconductor, embedded, financial services, and medtech teams, and is natively embedded in Visual Studio. Backed by Insight Partners.
 image: https://www.incredibuild.com/wp-content/themes/incredibuild/assets/images/logo.svg
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Incredibuild
 nav: Providers
 network: true
-overview: 'Incredibuild publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, DevOps, Build Acceleration, Continuous Integration, and Distributed Computing.
+overview: 'Incredibuild is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, DevOps, Build Acceleration, Continuous Integration, and Distributed Computing.
 
 
-  Incredibuild''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, engineering blog, support, and 9 more developer resources.'
+  Incredibuild''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, engineering blog, support, and 10 more developer resources.'
 random_paper: 8
 score:
   band: thin
-  composite: 27.3
+  composite: 27.4
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 31.6
     contract_governance: 0.0
@@ -147,8 +151,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

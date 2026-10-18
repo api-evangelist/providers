@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -81,6 +81,14 @@ collections:
   name: Nowsta Integration API
   slug: open-nowsta-integration
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.nowsta.com/blog_category/insights/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.nowsta.com/blog_category/insights/feed/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/nowsta/refs/heads/main/overlays/nowsta-integration-overlay.yaml
   title: ''
@@ -207,14 +215,14 @@ description: Nowsta is a Brooklyn, New York workforce management platform for ho
   and workers into Nowsta in bulk.
 image: https://www.nowsta.com/wp-content/uploads/2025/02/cropped-nowsta-favicon-v2-270x270.png
 layout: provider
-modified: '2026-08-01'
+modified: '2026-10-06'
 name: Nowsta
 nav: Providers
 network: true
-overview: 'Nowsta publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Clients API, Events API, Positions API, and 3 more. Tagged areas include Workforce Management, staff-scheduling, shift-scheduling, Time and Attendance, and Hourly Workforce.
+overview: 'Nowsta publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Clients API, Events API, Positions API, and 3 more. Tagged areas include Workforce Management, staff-scheduling, shift-scheduling, Time and Attendance, and Hourly Workforce.
 
 
-  Nowsta''s developer surface includes API reference, support, engineering blog, and 25 more developer resources.'
+  Nowsta''s developer surface includes engineering blog, API reference, support, and 27 more developer resources.'
 random_paper: 8
 score:
   band: thin
@@ -251,8 +259,8 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

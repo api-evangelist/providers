@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: documented
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 5.6
-  scored_at: '2026-10-04'
+  score: 3.7
+  scored_at: '2026-10-17'
 api_count: 8
 apis:
 - description: Core Aave V3 protocol contracts — Pool, L2 Pool, Wrapped Token Gateway, PoolAddressesProvider, Pool Configurator, Interest Rate Strategy, Access Control Manager, Oracles, aTokens, variable / stable de
@@ -62,6 +62,21 @@ apis:
   slug: interface
 artifact_total: 15
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/aave/refs/heads/main/plans/aave-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/aave-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/aave/refs/heads/main/rate-limits/aave-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/aave-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/aave/refs/heads/main/finops/aave-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/aave-finops.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -131,9 +146,13 @@ common:
 created: '2026-05-23'
 description: 'Aave is a decentralized, non-custodial liquidity protocol where users supply assets to earn yield and borrow against collateral. The protocol runs on Ethereum and many L2s (Arbitrum, Optimism, Base, Polygon, Avalanche, zkSync, Scroll, Metis) and exposes developer surfaces beyond on-chain contracts: official Aave V3 / V4 TypeScript SDKs, Aave Kit (React + TypeScript + GraphQL), and protocol subgraphs hosted on The Graph for indexed market, reserve, user, and historical data.'
 finops:
-- name: Aave Finops
+- has_sources: false
+  method: generated
+  name: Aave Finops
+  primary_unit: ''
   service_category: API
   slug: aave-finops
+  template: true
 graphqls:
 - description: Higher-level toolkit (React + TypeScript + GraphQL) for embedding Aave market data and protocol actions into apps. Built on top of the Aave SDK and protocol subgraphs.
   name: Aave GraphQL API
@@ -148,10 +167,10 @@ modified: '2026-09-13'
 name: Aave
 nav: Providers
 network: true
-overview: 'Aave publishes 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include DeFi, Lending, Borrowing, Liquidity, and Protocol.
+overview: 'Aave is listed with 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include DeFi, Lending, Borrowing, Liquidity, and Protocol.
 
 
-  Aave''s developer surface includes documentation, GitHub presence, engineering blog, and 13 more developer resources.'
+  Aave''s developer surface includes documentation, GitHub presence, engineering blog, and 16 more developer resources.'
 plans:
 - name: Aave Plans Pricing
   plan_count: 1
@@ -163,22 +182,22 @@ rate_limits:
   slug: aave-rate-limits
 score:
   band: emerging
-  composite: 21.8
+  composite: 15.8
   coverage:
-    artifact_dirs: 9
-    catalog_earned: 57.4
+    artifact_dirs: 10
+    catalog_earned: 44.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.6
+    catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.0
   facets:
-    access_clarity: 34.7
+    access_clarity: 13.2
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 16.7
     discoverability: 70.0
-    operational_transparency: 40.0
+    operational_transparency: 26.3
   previous_composite: 21.8
   regulatory:
     applies: true
@@ -186,9 +205,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

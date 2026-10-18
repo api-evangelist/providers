@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -70,6 +70,21 @@ collections:
   name: OurPeople API
   slug: open-ourpeople
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/ourpeople/refs/heads/main/plans/ourpeople-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/ourpeople-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/ourpeople/refs/heads/main/rate-limits/ourpeople-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/ourpeople-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/ourpeople/refs/heads/main/finops/ourpeople-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/ourpeople-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/ourpeople/refs/heads/main/capabilities/ourpeople-capability-edges.yml
   title: ''
@@ -117,19 +132,23 @@ common:
 created: '2025-02-08'
 description: The OurPeople API uses common standards to allow easy read and write access to your data. OurPeople is a frontline communications platform that helps organizations communicate with deskless workers.
 finops:
-- name: Ourpeople Finops
+- has_sources: false
+  method: generated
+  name: Ourpeople Finops
+  primary_unit: ''
   service_category: API
   slug: ourpeople-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ourpeople.png
 layout: provider
 modified: '2026-05-19'
 name: OurPeople
 nav: Providers
 network: true
-overview: 'OurPeople publishes 2 APIs on the [APIs.io](https://apis.io/) network: Authentication API and Broadcasts API. Tagged areas include Communications, Workforce, and Frontline.
+overview: 'OurPeople publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Authentication API and Broadcasts API. Tagged areas include Communications, Workforce, and Frontline.
 
 
-  OurPeople''s developer surface includes authentication, developer portal, documentation, support, and 6 more developer resources.'
+  OurPeople''s developer surface includes authentication, developer portal, documentation, support, and 9 more developer resources.'
 plans:
 - name: Ourpeople Plans Pricing
   plan_count: 3
@@ -141,17 +160,17 @@ rate_limits:
   slug: ourpeople-rate-limits
 score:
   band: emerging
-  composite: 24.2
+  composite: 22.7
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 36.0
+    artifact_dirs: 12
+    catalog_earned: 33.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 79.0
+    catalog_gap: 82.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 49.3
     developer_ergonomics: 19.0
@@ -171,8 +190,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.5
-  scored_at: '2026-10-04'
+  score: 19.6
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -77,6 +77,21 @@ collections:
   name: GitHub Container Registry API
   slug: open-github-container-registry
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/github-container-registry/refs/heads/main/plans/github-container-registry-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/github-container-registry-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/github-container-registry/refs/heads/main/rate-limits/github-container-registry-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/github-container-registry-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/github-container-registry/refs/heads/main/finops/github-container-registry-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/github-container-registry-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/github-container-registry/refs/heads/main/agentic-access/github-container-registry-agentic-access.yml
   title: ''
@@ -126,22 +141,26 @@ common:
 created: '2026-03-26'
 description: GitHub Container Registry stores container images within your GitHub organization or personal account, allows you to associate images with repositories, and provides fine-grained permissions for managing access. It supports Docker and OCI image formats and is integrated with GitHub Actions for automated workflows.
 finops:
-- name: Github Container Registry Finops
+- has_sources: false
+  method: generated
+  name: Github Container Registry Finops
+  primary_unit: ''
   service_category: API
   slug: github-container-registry-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/github-container-registry.png
 layout: provider
 modified: '2026-05-19'
 name: GitHub Container Registry
 nav: Providers
 network: true
-overview: 'GitHub Container Registry publishes 3 APIs on the [APIs.io](https://apis.io/) network: Organization Packages API, User Namespace Packages API, and User Packages API. Tagged areas include Container Images, Containers, GitHub, Packages, and Registry.
+overview: 'GitHub Container Registry publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Organization Packages API, User Namespace Packages API, and User Packages API. Tagged areas include Container Images, Containers, GitHub, Packages, and Registry.
 
 
   The GitHub Container Registry catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  GitHub Container Registry''s developer surface includes authentication, documentation, getting-started guide, pricing, engineering blog, signup flow, and 5 more developer resources.'
+  GitHub Container Registry''s developer surface includes authentication, documentation, getting-started guide, pricing, engineering blog, signup flow, and 8 more developer resources.'
 plans:
 - name: Github Container Registry Plans Pricing
   plan_count: 3
@@ -152,7 +171,8 @@ rate_limits:
   name: Github Container Registry Rate Limits
   slug: github-container-registry-rate-limits
 rules:
-- effective_rule_count: 0
+- authorship: unmarked
+  effective_rule_count: 0
   extends: []
   name: GitHub Container Registry API Rules
   rule_count: 0
@@ -164,17 +184,17 @@ rules:
   slug: github-container-registry-rules
 score:
   band: thin
-  composite: 36.1
+  composite: 34.6
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 46.0
+    artifact_dirs: 14
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 69.0
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 39.5
+    access_clarity: 31.6
     contract_governance: 0.0
     contract_quality: 44.1
     developer_ergonomics: 42.9
@@ -194,8 +214,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

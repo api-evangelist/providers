@@ -30,13 +30,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 1
@@ -119,6 +119,21 @@ collections:
   name: Vagrant Cloud Boxes Versions API
   slug: open-vagrant-versions-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/vagrant/refs/heads/main/plans/vagrant-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/vagrant-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/vagrant/refs/heads/main/rate-limits/vagrant-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/vagrant-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/vagrant/refs/heads/main/finops/vagrant-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/vagrant-finops.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -200,9 +215,13 @@ examples:
   name: Vagrant List Boxes Example
   slug: vagrant-list-boxes-example
 finops:
-- name: Vagrant Finops
+- has_sources: false
+  method: generated
+  name: Vagrant Finops
+  primary_unit: ''
   service_category: API
   slug: vagrant-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vagrant.png
 json_schemas:
 - name: Vagrant Box
@@ -222,13 +241,13 @@ modified: '2026-05-19'
 name: Vagrant
 nav: Providers
 network: true
-overview: 'Vagrant publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Boxes API, Providers API, Registries API, and 4 more. Tagged areas include DevOps, Virtualization, Development Environments, Box, and Cloud.
+overview: 'Vagrant publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Boxes API, Providers API, Registries API, and 4 more. Tagged areas include DevOps, Virtualization, Development Environments, Box, and Cloud.
 
 
   The Vagrant catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Vagrant''s developer surface includes authentication, developer portal, documentation, support, engineering blog, GitHub presence, and 11 more developer resources.'
+  Vagrant''s developer surface includes authentication, developer portal, documentation, support, engineering blog, GitHub presence, and 14 more developer resources.'
 plans:
 - name: Vagrant Plans Pricing
   plan_count: 3
@@ -239,9 +258,10 @@ rate_limits:
   name: Vagrant Rate Limits
   slug: vagrant-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Vagrant API Rules
+  name: Vagrant — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -249,7 +269,8 @@ rules:
     info: 1
     warn: 4
   slug: vagrant-jsonschema-spectral-rules
-- effective_rule_count: 48
+- authorship: unmarked
+  effective_rule_count: 48
   extends:
   - spectral:oas
   name: Vagrant API Rules
@@ -261,24 +282,24 @@ rules:
     warn: 5
   slug: vagrant-rules
 score:
-  band: developing
-  composite: 40.3
+  band: thin
+  composite: 38.8
   coverage:
     artifact_dirs: 18
-    catalog_earned: 55.0
+    catalog_earned: 52.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 60.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.7
+  delta: -1.5
   facets:
-    access_clarity: 32.9
+    access_clarity: 25.0
     contract_governance: 27.3
     contract_quality: 55.8
     developer_ergonomics: 45.2
     discoverability: 57.1
     operational_transparency: 13.2
-  previous_composite: 41.0
+  previous_composite: 40.3
   provenance:
     agentic_access: derived
     contracts:
@@ -292,8 +313,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: The Real-Time Streaming Protocol (RTSP) is a stateful protocol defined in RFC 2326 (1.0) and RFC 7826 (2.0). It defines methods including OPTIONS, DESCRIBE, SETUP, PLAY, PAUSE, RECORD, ANNOUNCE, GET_P
@@ -44,6 +44,21 @@ apis:
   slug: rtsp-implementations
 artifact_total: 10
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/rtsp/refs/heads/main/plans/rtsp-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/rtsp-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/rtsp/refs/heads/main/rate-limits/rtsp-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/rtsp-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/rtsp/refs/heads/main/finops/rtsp-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/rtsp-finops.yml
 - group: company
   title: ''
   type: Website
@@ -68,9 +83,13 @@ common:
 created: '2025-01-01'
 description: Real-Time Streaming Protocol (RTSP) is an application-level network protocol designed for controlling streaming media servers. Defined by IETF RFC 2326 (RTSP 1.0) and RFC 7826 (RTSP 2.0), it acts as a network remote control for multimedia servers, enabling on-demand delivery of real-time audio and video data. RTSP controls sessions between endpoints but relies on RTP (Real-time Transport Protocol) for actual media transport. It is widely used in IP cameras, DVR systems, media servers, and live streaming platforms.
 finops:
-- name: Rtsp Finops
+- has_sources: false
+  method: generated
+  name: Rtsp Finops
+  primary_unit: ''
   service_category: API
   slug: rtsp-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rtsp.png
 json_schemas:
 - name: RTSP Session
@@ -90,7 +109,7 @@ modified: '2026-05-02'
 name: RTSP
 nav: Providers
 network: true
-overview: 'RTSP publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Streaming, Video, Media, Protocol, and Real-Time.
+overview: 'RTSP is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Streaming, Video, Media, Protocol, and Real-Time.
 
 
   The RTSP catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.'
@@ -104,9 +123,10 @@ rate_limits:
   name: Rtsp Rate Limits
   slug: rtsp-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: RTSP API Rules
+  name: RTSP — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -116,17 +136,17 @@ rules:
   slug: rtsp-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 13.9
+  composite: 12.4
   coverage:
     artifact_dirs: 11
-    catalog_earned: 49.3
+    catalog_earned: 46.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 65.8
+    catalog_gap: 68.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 9.8
     contract_quality: 6.7
     developer_ergonomics: 9.5
@@ -139,8 +159,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

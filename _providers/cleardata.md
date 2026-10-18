@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.cleardata.com/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/cleardata/refs/heads/main/security/cleardata-trust-center.yml
   title: ''
@@ -79,20 +83,20 @@ created: '2026-07-17'
 description: ClearDATA is healthcare's dedicated cloud security, compliance, and operations partner, helping providers, payers, health-tech software companies, medical device makers, and life sciences organizations build and run on AWS, Microsoft Azure, and Google Cloud in a HIPAA- and HITRUST-aligned way. Its offering spans Cloud Security Posture Management (CSPM) with 300+ healthcare-specific safeguards, Managed Detection & Response (MDR), automated Cloud Compliance, and Cloud Operations, delivered through the CyberHealth platform and managed/professional services. ClearDATA is an AWS Level 1 MSSP and Microsoft Gold Partner, and maps controls to HIPAA, HITRUST, SOC 2, NIST, ISO, PCI, and GDPR. ClearDATA is backed by Norwest Venture Partners. This profile is maintained in the API Evangelist network; ClearDATA does not publish a public developer API or portal.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cleardata.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Cleardata
 nav: Providers
 network: true
 overview: 'Cleardata is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Cloud Security, Compliance, and HIPAA.
 
 
-  Cleardata''s developer surface includes engineering blog, support, and 7 more developer resources.'
+  Cleardata''s developer surface includes engineering blog, support, and 8 more developer resources.'
 random_paper: 5
 score:
   band: emerging
   composite: 14.7
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 6
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -113,8 +117,8 @@ score:
     regime: Health
     regime_id: health
     score: 14.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

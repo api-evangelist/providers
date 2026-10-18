@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 5
 apis:
 - baseURL: http://192.168.0.95
@@ -82,6 +82,10 @@ collections:
   name: Nine Fives Programmable REST Attenuator System API
   slug: open-nine-fives-system-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.ninefives.com/rss.xml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/nine-fives/refs/heads/main/overlays/nine-fives-attenuator-overlay.yaml
   title: ''
@@ -182,18 +186,18 @@ created: '2026-07-17'
 description: 'Nine Fives builds modern, simple-to-use RF (radio frequency) test equipment for next-generation spacecraft, drones, and cellphones. Founded in 2025 by Andrew Kurtz and Noah Levy — RF hardware engineers who spent a decade at SpaceX designing radios and test systems for Falcon 9, Dragon, and Starship — the Y Combinator-backed company sells programmable, network-connected instruments: the POE-ATTEN-6G programmable attenuator and the POE-SWITCH-6G programmable SPDT switch, powered over USB-C or Power over Ethernet. Each instrument is automation-first: it serves a JSON REST API and a SCPI command interface (raw TCP and HiSLIP/IVI-6.1) directly on the device, plus a browser Web UI and touchscreen, with no drivers to install — control it with a plain curl command. The NineVue platform adds version-controlled test-rack configuration and an LLM skill that turns a rack drawing into functional test-automation code.'
 image: https://ninefives.com/cdn/shop/files/NineFivesLogo.svg?v=1775235707
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Nine Fives
 nav: Providers
 network: true
-overview: 'Nine Fives publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Attenuator API, Firmware API, Network API, and 2 more. Tagged areas include Company, RF Test Equipment, Test and Measurement, Hardware, and IoT.
+overview: 'Nine Fives is listed with 5 APIs on the [APIs.io](https://apis.io/) network, including Attenuator API, Firmware API, Network API, and 2 more. Tagged areas include Company, RF Test Equipment, Test and Measurement, Hardware, and IoT.
 
 
-  Nine Fives'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 14 more developer resources.'
+  Nine Fives'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 15 more developer resources.'
 random_paper: 0
 score:
   band: thin
-  composite: 29.6
+  composite: 29.7
   coverage:
     artifact_dirs: 17
     catalog_earned: 40.0
@@ -201,7 +205,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 23.7
     contract_governance: 18.2
@@ -225,8 +229,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

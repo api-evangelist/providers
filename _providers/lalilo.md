@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.lalilo.com/feed/
 - group: company
   title: ''
   type: Website
@@ -91,14 +95,14 @@ created: '2026-07-17'
 description: 'Lalilo is an adaptive reading and literacy web application for primary-school classrooms, founded in Paris in 2016 and acquired by Renaissance (Wisconsin Rapids, USA) in 2021. It delivers roughly 90,000 interactive phonics, fluency and comprehension exercises that adapt in real time to each student, uses speech recognition to assess oral reading aloud, and gives teachers a dashboard for tracking progress and running differentiated small-group instruction. It is used by around 40,000 teachers and 400,000 students a year in France across cycles 2 and 3, with explicit support for DYS, allophone, ULIS, SEGPA and IME learners. Lalilo publishes no public API, developer portal or API documentation: the product is consumed through the teacher and student web applications at app.lalilo.com, and integration or rostering questions are handled through Renaissance support rather than a self-serve developer program.'
 image: https://www.lalilo.com/_assets/v11/485604b61b151af7f5d48f6f1ad7eff4dd906228.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Lalilo
 nav: Providers
 network: true
 overview: 'Lalilo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Applicative Saas, Education, EdTech, and Literacy.
 
 
-  Lalilo''s developer surface includes pricing, support, engineering blog, and 9 more developer resources.'
+  Lalilo''s developer surface includes pricing, support, engineering blog, and 10 more developer resources.'
 random_paper: 21
 score:
   band: emerging
@@ -133,8 +137,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

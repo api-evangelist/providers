@@ -35,14 +35,19 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The Lightcone API by Tzafon provides cloud browser and desktop computers operated by AI. It spans an agent Tasks API (start, stream, pause, resume, inject messages) driven by the Northstar computer-us
   name: Lightcone API
   slug: lightcone-api
-artifact_total: 5
+artifact_total: 6
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/tzafon/refs/heads/main/plans/tzafon-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/tzafon-plans-pricing.yml
 - group: company
   title: ''
   type: Website
@@ -182,28 +187,32 @@ modified: '2026-07-21'
 name: Tzafon
 nav: Providers
 network: true
-overview: 'Tzafon publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Computer Use Agents, Browser Automation, and AI Agents.
+overview: 'Tzafon is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Computer Use Agents, Browser Automation, and AI Agents.
 
 
-  Tzafon''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, CLI, code examples, and 21 more developer resources.'
+  Tzafon''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, CLI, code examples, and 22 more developer resources.'
+plans:
+- name: Tzafon Plans Pricing
+  plan_count: 8
+  slug: tzafon-plans-pricing
 random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Tzafon Rate Limits
   slug: tzafon-rate-limits
 score:
-  band: thin
-  composite: 35.6
+  band: developing
+  composite: 42.0
   coverage:
-    artifact_dirs: 16
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 17
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.4
   facets:
-    access_clarity: 34.2
+    access_clarity: 65.8
     contract_governance: 18.2
     contract_quality: 6.5
     developer_ergonomics: 69.0
@@ -219,9 +228,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

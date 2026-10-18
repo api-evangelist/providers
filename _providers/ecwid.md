@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -177,7 +177,7 @@ modified: '2026-05-11'
 name: Ecwid by Lightspeed
 nav: Providers
 network: true
-overview: 'Ecwid by Lightspeed publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Categories API, Customers API, Discount Coupons API, and 4 more. Tagged areas include E-Commerce, Online Store, Storefront, Retail, and Point-of-Sale.
+overview: 'Ecwid by Lightspeed publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Categories API, Customers API, Discount Coupons API, and 4 more. Tagged areas include E-Commerce, Online Store, Storefront, Retail, and Point-of-Sale.
 
 
   Ecwid by Lightspeed''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 10 more developer resources.'
@@ -190,7 +190,7 @@ score:
   band: developing
   composite: 42.2
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -218,8 +218,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

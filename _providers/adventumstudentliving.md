@@ -23,10 +23,20 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 3
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/adventumstudentliving/refs/heads/main/plans/adventumstudentliving-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/adventumstudentliving-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/adventumstudentliving/refs/heads/main/rate-limits/adventumstudentliving-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/adventumstudentliving-rate-limits.yml
 - group: company
   title: ''
   type: Website
@@ -88,7 +98,7 @@ network: true
 overview: 'Adventum Student Living is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, Student Housing, Study Abroad, and Real Estate.
 
 
-  Adventum Student Living''s developer surface includes engineering blog, support, and 6 more developer resources.'
+  Adventum Student Living''s developer surface includes engineering blog, support, and 8 more developer resources.'
 plans:
 - name: Adventumstudentliving Plans Pricing
   plan_count: 0
@@ -102,7 +112,7 @@ score:
   band: minimal
   composite: 10.8
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 10
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -130,13 +140,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/adventumstudentliving/refs/heads/main/screenshots/adventumstudentliving-2026-10-11T092855.png
 security:
 - kind: domain-security
   name: Adventumstudentliving Domain Security

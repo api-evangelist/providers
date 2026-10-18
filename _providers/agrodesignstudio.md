@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: A live, unauthenticated remote Model Context Protocol endpoint served at the AgroBox structural-biology service site. The server is the Wix "Site Visitor Assistant" — a PLATFORM-AUTHORED MCP surface g
@@ -34,6 +34,10 @@ apis:
   slug: agrodesignshop-site-mcp
 artifact_total: 7
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.agrodesign.co.jp/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/agrodesignstudio/refs/heads/main/security/agrodesignstudio-domain-security.yml
   title: ''
@@ -111,14 +115,14 @@ mcp_servers:
 - description: 'Two live, unauthenticated remote MCP endpoints served from hosts AgroDesign Studios (株式会社アグロデザイン・スタジオ) controls: the AgroBox structural-biology service site and the AgroDesign.SHOP lab-equipment store'
   name: AgroDesign Studios — Site MCP servers
   slug: agrodesign-studios-site-mcp-servers
-modified: '2026-09-13'
+modified: '2026-10-06'
 name: AgroDesign Studios
 nav: Providers
 network: true
-overview: 'AgroDesign Studios publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Agriculture, AgTech, Biotechnology, Life Sciences, and Structural Biology.
+overview: 'AgroDesign Studios is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Agriculture, AgTech, Biotechnology, Life Sciences, and Structural Biology.
 
 
-  AgroDesign Studios'' developer surface includes support, engineering blog, authentication, and 12 more developer resources.'
+  AgroDesign Studios'' developer surface includes support, engineering blog, authentication, and 13 more developer resources.'
 plans:
 - name: Agrodesignstudio Plans Pricing
   plan_count: 0
@@ -132,7 +136,7 @@ score:
   band: emerging
   composite: 18.8
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 14
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -163,13 +167,14 @@ score:
     regime: Health
     regime_id: health
     score: 19.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/agrodesignstudio/refs/heads/main/screenshots/agrodesignstudio-2026-10-11T093200.png
 security:
 - kind: authentication
   name: Agrodesignstudio Authentication

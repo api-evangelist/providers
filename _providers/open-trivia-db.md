@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.0
-  scored_at: '2026-10-04'
+  score: 17.8
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -76,6 +76,21 @@ collections:
   name: Open Trivia DB API
   slug: open-open-trivia-db
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/open-trivia-db/refs/heads/main/plans/open-trivia-db-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/open-trivia-db-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/open-trivia-db/refs/heads/main/rate-limits/open-trivia-db-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/open-trivia-db-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/open-trivia-db/refs/heads/main/finops/open-trivia-db-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/open-trivia-db-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/open-trivia-db/refs/heads/main/agentic-access/open-trivia-db-agentic-access.yml
   title: ''
@@ -97,19 +112,23 @@ common:
 created: '2025-02-12'
 description: The Open Trivia Database provides a completely free JSON API for use in programming projects. Use of this API does not require an API key, just generate the URL and use it in your own application to retrieve trivia questions across multiple categories, difficulties, and types.
 finops:
-- name: Open Trivia Db Finops
+- has_sources: false
+  method: generated
+  name: Open Trivia Db Finops
+  primary_unit: ''
   service_category: API
   slug: open-trivia-db-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/open-trivia-db.png
 layout: provider
 modified: '2026-05-19'
 name: Open Trivia DB
 nav: Providers
 network: true
-overview: 'Open Trivia DB publishes 3 APIs on the [APIs.io](https://apis.io/) network: Categories API, Questions API, and Tokens API. Tagged areas include Free, Games, Questions, and Trivia.
+overview: 'Open Trivia DB publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Categories API, Questions API, and Tokens API. Tagged areas include Free, Games, Questions, and Trivia.
 
 
-  Open Trivia DB''s developer surface includes documentation and 3 more developer resources.'
+  Open Trivia DB''s developer surface includes documentation and 6 more developer resources.'
 plans:
 - name: Open Trivia Db Plans Pricing
   plan_count: 3
@@ -121,17 +140,17 @@ rate_limits:
   slug: open-trivia-db-rate-limits
 score:
   band: emerging
-  composite: 17.5
+  composite: 19.1
   coverage:
     artifact_dirs: 9
-    catalog_earned: 30.0
+    catalog_earned: 33.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 70.0
-    catalog_max: 100.0
+    catalog_gap: 82.0
+    catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.6
   facets:
-    access_clarity: 0.0
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 44.7
     developer_ergonomics: 9.5
@@ -151,8 +170,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

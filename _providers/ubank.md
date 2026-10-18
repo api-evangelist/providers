@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://public.cdr-api.86400.com.au/cds-au/v1
@@ -98,6 +98,10 @@ collections:
   name: CDR Banking Banking Account Balances Banking Products API
   slug: open-ubank-banking-products-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.ubank.com.au/newsroom
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/ubank/refs/heads/main/capabilities/ubank-capability-edges.yml
   title: ''
@@ -195,14 +199,14 @@ created: '2026-07-20'
 description: ubank is an Australian digital-only bank offering savings accounts and home loans online and over the phone. Launched in 2008 as the online banking brand of National Australia Bank (NAB), ubank operates under NAB's authorised deposit-taking institution (ADI) licence and is registered in the Consumer Data Right (CDR) ecosystem as the "UBank" data holder brand under NAB (ABN 12 004 044 937). After NAB acquired neobank 86 400 in 2021, its customers and technology were migrated onto the 86 400 platform, which is why ubank's public CDR API surface is hosted at public.cdr-api.86400.com.au. As a CDR data holder, ubank exposes a public, unauthenticated Product Reference Data (PRD) API conforming to the Consumer Data Standards, while authenticated consumer banking data is shared only with accredited data recipients under the CDR's OAuth2/OIDC (FAPI) authorization model.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ubank.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: ubank
 nav: Providers
 network: true
-overview: 'ubank publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Banking Account Balances API, Banking Account Direct Debits API, Banking Account Scheduled Payments API, and 4 more. Tagged areas include Finance, Banks, Banking, Open Banking, and CDR.
+overview: 'ubank publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Banking Account Balances API, Banking Account Direct Debits API, Banking Account Scheduled Payments API, and 4 more. Tagged areas include Finance, Banks, Banking, Open Banking, and CDR.
 
 
-  ubank''s developer surface includes authentication, documentation, support, and 17 more developer resources.'
+  ubank''s developer surface includes engineering blog, authentication, documentation, support, and 17 more developer resources.'
 random_paper: 1
 scopes:
 - name: Ubank Scopes
@@ -211,20 +215,20 @@ scopes:
   summary_line: 9 scopes
 score:
   band: thin
-  composite: 31.9
+  composite: 32.4
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 19
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 10.5
     contract_governance: 4.5
     contract_quality: 44.7
-    developer_ergonomics: 35.1
+    developer_ergonomics: 37.5
     discoverability: 73.2
     operational_transparency: 23.7
   jurisdiction:
@@ -250,8 +254,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 29.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -26,14 +26,14 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: false
+    protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 14.4
-  scored_at: '2026-10-04'
+  score: 18.0
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The fastest continuous integration and continuous delivery platform
@@ -83,7 +83,7 @@ modified: '2026-05-28'
 name: Buddy
 nav: Providers
 network: true
-overview: 'Buddy publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Continuous Integration, Developer Tools, Public APIs, and A2A.
+overview: 'Buddy is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Continuous Integration, Developer Tools, Public APIs, and A2A.
 
 
   Buddy''s developer surface includes engineering blog, support, and 5 more developer resources.'
@@ -92,7 +92,7 @@ score:
   band: minimal
   composite: 8.9
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 20.0
     catalog_earned_first_party: 0.0
     catalog_gap: 95.0
@@ -115,8 +115,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

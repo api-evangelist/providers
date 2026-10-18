@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -53,7 +53,7 @@ modified: '2026-07-20'
 name: Eeki Foods
 nav: Providers
 network: true
-overview: Eeki Foods is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food and Beverage, Food, Portfolio Company, and Venture Backed.
+overview: Eeki Foods is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food and Beverage, Food, General Catalyst, and Pre-Launch.
 random_paper: 8
 score:
   band: minimal
@@ -80,8 +80,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -98,8 +98,6 @@ tags:
 - Company
 - Food and Beverage
 - Food
-- Portfolio Company
-- Venture Backed
 - General Catalyst
 - Pre-Launch
 website: https://www.eekifoods.com

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Read-only API for querying OpenStreetMap data. Supports retrieval of nodes, ways, relations, and areas using the Overpass Query Language (QL) or XML syntax, with output in JSON, XML, CSV, or custom fo
@@ -96,9 +96,13 @@ common:
   url: https://raw.githubusercontent.com/api-evangelist/overpass-api/refs/heads/main/finops/finops.yml
 description: Overpass API is a read-only OpenStreetMap data API that enables querying geographic features including nodes, ways, relations, and tags using the Overpass Query Language (QL). It supports complex spatial queries with filters for bounding boxes, tags, proximity, area containment, and element relationships, making it the primary tool for extracting custom subsets of OSM data programmatically.
 finops:
-- name: Finops
+- has_sources: false
+  method: generated
+  name: Finops
+  primary_unit: ''
   service_category: ''
   slug: finops
+  template: true
 image: https://overpass-api.de/img/osm_logo.png
 jsonld:
 - class_count: 0
@@ -110,7 +114,7 @@ modified: '2026-09-16'
 name: Overpass API
 nav: Providers
 network: true
-overview: 'Overpass API publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include OpenStreetMap, Geographic, Spatial, GIS, and Maps.
+overview: 'Overpass API is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include OpenStreetMap, Geographic, Spatial, GIS, and Maps.
 
 
   The Overpass API catalog on APIs.io includes 1 JSON-LD context.
@@ -128,22 +132,22 @@ rate_limits:
   slug: rate-limits
 score:
   band: emerging
-  composite: 22.9
+  composite: 16.6
   coverage:
     artifact_dirs: 8
-    catalog_earned: 63.0
+    catalog_earned: 47.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 52.0
+    catalog_gap: 68.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.3
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 6.7
     developer_ergonomics: 9.5
     discoverability: 66.1
-    operational_transparency: 57.4
+    operational_transparency: 36.8
   open_source:
     applies: true
     score: 25.0
@@ -154,9 +158,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

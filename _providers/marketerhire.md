@@ -34,10 +34,20 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 3
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/marketerhire/refs/heads/main/plans/marketerhire-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/marketerhire-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/marketerhire/refs/heads/main/rate-limits/marketerhire-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/marketerhire-rate-limits.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/marketerhire/refs/heads/main/security/marketerhire-domain-security.yml
   title: ''
@@ -119,7 +129,7 @@ network: true
 overview: 'MarketerHire is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketing, Talent Marketplace, Freelance, and Recruiting.
 
 
-  MarketerHire''s developer surface includes engineering blog, pricing, signup flow, FAQ, and 9 more developer resources.'
+  MarketerHire''s developer surface includes engineering blog, pricing, signup flow, FAQ, and 11 more developer resources.'
 plans:
 - name: Marketerhire Plans Pricing
   plan_count: 0
@@ -154,8 +164,8 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 67
+- acting_count: 66
   human_in_the_loop: 4
   name: Orderly Network Agentic Access
   operation_count: 248
   slug: orderly-network-agentic-access
-  summary_line: 248 operations · 67 acting · 4 human-in-the-loop
+  summary_line: 248 operations · 66 acting · 4 human-in-the-loop
 api_count: 2
 apis:
 - baseURL: https://api.orderly.org
@@ -237,7 +237,7 @@ modified: '2026-07-20'
 name: Orderly Network
 nav: Providers
 network: true
-overview: 'Orderly Network publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Client API, Private API, and 1 more. Tagged areas include Company, Crypto, DeFi, Trading, and Perpetual Futures.
+overview: 'Orderly Network publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Admin API, Client API, Private API, and 1 more. Tagged areas include Company, Cryptocurrency, DeFi, Trading, and Perpetual Futures.
 
 
   The Orderly Network catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -280,8 +280,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 23.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -299,7 +299,7 @@ security:
 slug: orderly-network
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - DeFi
 - Trading
 - Perpetual Futures

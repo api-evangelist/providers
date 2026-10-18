@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.5
-  scored_at: '2026-10-04'
+  score: 19.6
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 1
@@ -163,6 +163,21 @@ collections:
   name: airSlate signNow REST API
   slug: open-airslate
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/airslate/refs/heads/main/plans/airslate-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/airslate-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/airslate/refs/heads/main/rate-limits/airslate-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/airslate-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/airslate/refs/heads/main/finops/airslate-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/airslate-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/airslate/refs/heads/main/capabilities/airslate-capability-edges.yml
   title: ''
@@ -210,19 +225,23 @@ common:
 created: '2026-05-23'
 description: airSlate is a document workflow automation holding company whose product family covers no-code workflow automation (altaFlow, formerly airSlate WorkFlow), electronic signature (signNow), PDF editing and form filling (pdfFiller and DocHub), legal forms (US Legal Forms), landing pages (Instapage), and an AI-powered marketing intelligence platform. Developer APIs are exposed primarily through the signNow and pdfFiller product lines; WorkFlow / altaFlow surfaces automation bots and integrations rather than a broad public REST API.
 finops:
-- name: Airslate Finops
+- has_sources: false
+  method: generated
+  name: Airslate Finops
+  primary_unit: ''
   service_category: API
   slug: airslate-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/airslate.png
 layout: provider
 modified: '2026-05-23'
 name: airSlate
 nav: Providers
 network: true
-overview: 'airSlate publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Document Fields API, Document Groups API, Documents API, and 15 more. Tagged areas include Document Automation, E-Signature, Workflows, PDF, and No-Code.
+overview: 'airSlate publishes 18 API contracts indexed on the [APIs.io](https://apis.io/) network, including Document Fields API, Document Groups API, Documents API, and 15 more. Tagged areas include Document Automation, E-Signature, Workflows, PDF, and No-Code.
 
 
-  airSlate''s developer surface includes authentication, engineering blog, documentation, GitHub presence, and 6 more developer resources.'
+  airSlate''s developer surface includes authentication, engineering blog, documentation, GitHub presence, and 9 more developer resources.'
 plans:
 - name: Airslate Plans Pricing
   plan_count: 1
@@ -233,23 +252,23 @@ rate_limits:
   name: Airslate Rate Limits
   slug: airslate-rate-limits
 score:
-  band: thin
-  composite: 29.5
+  band: emerging
+  composite: 23.5
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 49.4
+    artifact_dirs: 13
+    catalog_earned: 36.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 65.6
+    catalog_gap: 79.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.0
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 47.6
     developer_ergonomics: 23.8
     discoverability: 57.1
-    operational_transparency: 24.2
+    operational_transparency: 10.5
   previous_composite: 29.5
   provenance:
     agentic_access: derived
@@ -264,9 +283,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

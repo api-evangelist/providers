@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - baseURL: https://infer.flow7.org/v1
@@ -62,6 +62,16 @@ collections:
   name: Infer by Flow7 Public API
   slug: open-infer-by-flow7-public-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/infer-by-flow7/refs/heads/main/plans/infer-by-flow7-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/infer-by-flow7-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/infer-by-flow7/refs/heads/main/rate-limits/infer-by-flow7-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/infer-by-flow7-rate-limits.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/infer-by-flow7/refs/heads/main/capabilities/infer-by-flow7-capability-edges.yml
   title: ''
@@ -186,10 +196,10 @@ modified: '2026-08-11'
 name: Infer by Flow7
 nav: Providers
 network: true
-overview: 'Infer by Flow7 publishes 3 APIs on the [APIs.io](https://apis.io/) network: Catalog API, Inference API, and Status API. Tagged areas include AI/ML inference, LLM API gateway, Responses-compatible API, Coding-agent tooling, and Developer Tools.
+overview: 'Infer by Flow7 publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Catalog API, Inference API, and Status API. Tagged areas include AI/ML inference, LLM API gateway, Responses-compatible API, Coding-agent tooling, and Developer Tools.
 
 
-  Infer by Flow7''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, changelog, and 19 more developer resources.'
+  Infer by Flow7''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, changelog, and 21 more developer resources.'
 plans:
 - name: Infer By Flow7 Plans Pricing
   plan_count: 4
@@ -238,8 +248,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

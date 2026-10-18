@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Baxter's DeviceBridge is a cloud-based platform that enables secure data transfer from Baxter medical devices to hospital IT systems including electronic medical records (EMRs). It supports clinical d
@@ -165,9 +165,13 @@ features:
 - description: Uses AWS IoT Core for secure device-to-cloud communication and data processing.
   name: AWS IoT Core Integration
 finops:
-- name: Baxter International Finops
+- has_sources: true
+  method: generated
+  name: Baxter International Finops
+  primary_unit: ''
   service_category: Healthcare / Medical Device Connectivity
   slug: baxter-international-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/baxter-international.png
 integrations:
 - description: Integration with Epic electronic medical records for automated clinical documentation.
@@ -188,7 +192,7 @@ modified: '2026-09-04'
 name: Baxter International
 nav: Providers
 network: true
-overview: 'Baxter International publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Healthcare, Medical Devices, Infusion Pumps, Patient Monitoring, and Connected Health.
+overview: 'Baxter International is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Healthcare, Medical Devices, Infusion Pumps, Patient Monitoring, and Connected Health.
 
 
   The Baxter International catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -221,9 +225,10 @@ rate_limits:
   name: Baxter International Rate Limits
   slug: baxter-international-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: unmarked
+  effective_rule_count: 5
   extends: []
-  name: Baxter International API Rules
+  name: Baxter International — baxter rules
   rule_count: 5
   severity_counts:
     error: 3
@@ -233,18 +238,18 @@ rules:
   slug: baxter-spectral-rules
 score:
   band: thin
-  composite: 33.0
+  composite: 29.1
   coverage:
     artifact_dirs: 20
-    catalog_earned: 56.5
+    catalog_earned: 47.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 58.5
+    catalog_gap: 68.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.9
   facets:
-    access_clarity: 47.4
-    contract_governance: 59.1
+    access_clarity: 39.5
+    contract_governance: 39.4
     contract_quality: 10.7
     developer_ergonomics: 23.8
     discoverability: 64.3
@@ -259,8 +264,8 @@ score:
     regime: Health
     regime_id: health
     score: 20.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

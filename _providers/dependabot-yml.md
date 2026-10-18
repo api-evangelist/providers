@@ -16,6 +16,21 @@ apis:
   slug: dependabot-config
 artifact_total: 8
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/dependabot-yml/refs/heads/main/plans/dependabot-yml-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/dependabot-yml-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/dependabot-yml/refs/heads/main/rate-limits/dependabot-yml-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/dependabot-yml-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/dependabot-yml/refs/heads/main/finops/dependabot-yml-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/dependabot-yml-finops.yml
 - group: docs
   title: ''
   type: Documentation
@@ -27,9 +42,13 @@ common:
 created: '2025-01-01'
 description: GitHub Dependabot configuration file defining automated dependency update schedules, package ecosystems to monitor, grouping, cooldown, and review assignment rules.
 finops:
-- name: Dependabot Yml Finops
+- has_sources: false
+  method: generated
+  name: Dependabot Yml Finops
+  primary_unit: ''
   service_category: API
   slug: dependabot-yml-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dependabot-yml.png
 json_schemas:
 - name: Dependabot Configuration
@@ -45,13 +64,13 @@ modified: '2026-04-28'
 name: Dependabot.yml
 nav: Providers
 network: true
-overview: 'Dependabot.yml publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Automation, CI/CD, Dependency Management, GitHub, and Security.
+overview: 'Dependabot.yml is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Automation, CI/CD, Dependency Management, GitHub, and Security.
 
 
   The Dependabot.yml catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Dependabot.yml''s developer surface includes documentation and 1 more developer resources.'
+  Dependabot.yml''s developer surface includes documentation and 4 more developer resources.'
 plans:
 - name: Dependabot Yml Plans Pricing
   plan_count: 3
@@ -62,9 +81,10 @@ rate_limits:
   name: Dependabot Yml Rate Limits
   slug: dependabot-yml-rate-limits
 rules:
-- effective_rule_count: 0
+- authorship: unmarked
+  effective_rule_count: 0
   extends: []
-  name: Dependabot.yml API Rules
+  name: Dependabot.yml — dependabot config rules
   rule_count: 0
   severity_counts:
     error: 0
@@ -72,9 +92,10 @@ rules:
     info: 0
     warn: 0
   slug: dependabot-config-rules
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Dependabot.yml API Rules
+  name: Dependabot.yml — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0

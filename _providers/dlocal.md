@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: verified
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 38.4
-  scored_at: '2026-10-04'
+  score: 36.5
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -503,9 +503,13 @@ examples:
   name: Create Payout
   slug: create-payout
 finops:
-- name: Dlocal Finops
+- has_sources: false
+  method: generated
+  name: Dlocal Finops
+  primary_unit: ''
   service_category: ''
   slug: dlocal-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dlocal.png
 json_schemas:
 - name: dLocal Payment
@@ -528,7 +532,7 @@ modified: 2026-06-13
 name: dLocal
 nav: Providers
 network: true
-overview: 'dLocal publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Payouts API, Accounts API, Balance API, and 14 more. Tagged areas include Payments, Emerging Markets, Pay-In, Payouts, and Fintech.
+overview: 'dLocal publishes 17 API contracts indexed on the [APIs.io](https://apis.io/) network, including Payouts API, Accounts API, Balance API, and 14 more. Tagged areas include Payments, Emerging Markets, Pay-In, Payouts, and Fintech.
 
 
   The dLocal catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -545,9 +549,10 @@ rate_limits:
   name: Dlocal Rate Limits
   slug: dlocal-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: dLocal API Rules
+  name: dLocal — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -555,7 +560,8 @@ rules:
     info: 1
     warn: 5
   slug: dlocal-jsonschema-spectral-rules
-- effective_rule_count: 47
+- authorship: unmarked
+  effective_rule_count: 47
   extends:
   - spectral:oas
   name: dLocal API Rules
@@ -568,17 +574,17 @@ rules:
   slug: dlocal-rules
 score:
   band: developing
-  composite: 49.0
+  composite: 44.8
   coverage:
     artifact_dirs: 18
-    catalog_earned: 62.7
+    catalog_earned: 54.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 52.3
+    catalog_gap: 60.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -4.2
   facets:
-    access_clarity: 58.4
+    access_clarity: 36.8
     contract_governance: 13.6
     contract_quality: 57.4
     developer_ergonomics: 61.9
@@ -605,8 +611,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 19.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

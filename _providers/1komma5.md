@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 0
@@ -416,7 +416,7 @@ modified: '2026-08-02'
 name: 1KOMMA5°
 nav: Providers
 network: true
-overview: '1KOMMA5° publishes 28 APIs on the [APIs.io](https://apis.io/) network, including Admin - Audit Logs API, Admin - Branches API, Admin - Concepts API, and 25 more. Tagged areas include Company, Energy, Solar, Renewable Energy, and Smart Home.
+overview: '1KOMMA5° publishes 28 API contracts indexed on the [APIs.io](https://apis.io/) network, including Admin - Audit Logs API, Admin - Branches API, Admin - Concepts API, and 25 more. Tagged areas include Company, Energy, Solar, Renewable Energy, and Smart Home.
 
 
   1KOMMA5°''s developer surface includes support, engineering blog, authentication, and 26 more developer resources.'
@@ -430,7 +430,7 @@ score:
   band: thin
   composite: 29.0
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -469,8 +469,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 39.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

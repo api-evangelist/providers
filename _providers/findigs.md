@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -236,7 +236,7 @@ modified: '2026-09-16'
 name: Findigs
 nav: Providers
 network: true
-overview: 'Findigs publishes 3 APIs on the [APIs.io](https://apis.io/) network: Applications API, Groups API, and Listings API. Tagged areas include rental-screening, Tenant Screening, resident-screening, rental-application, and Underwriting.
+overview: 'Findigs publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Applications API, Groups API, and Listings API. Tagged areas include rental-screening, Tenant Screening, resident-screening, rental-application, and Underwriting.
 
 
   The Findigs catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -256,7 +256,7 @@ score:
   band: developing
   composite: 52.9
   coverage:
-    artifact_dirs: 25
+    artifact_dirs: 26
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -287,8 +287,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 31.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

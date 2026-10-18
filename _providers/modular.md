@@ -34,14 +34,23 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: OpenAI-compatible inference API served by MAX. Exposes /v1/chat/completions, /v1/completions, /v1/embeddings, /v1/responses (image and video generation), and /v1/models. Hosted at api.modular.com with
   name: MAX Inference REST API
   slug: max-inference-rest-api
-artifact_total: 4
+artifact_total: 5
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/modular/refs/heads/main/plans/modular-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/modular-plans-pricing.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.modular.com/blog/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/modular/refs/heads/main/security/modular-domain-security.yml
   title: ''
@@ -162,28 +171,32 @@ created: '2026-07-17'
 description: Modular is an AI infrastructure company building a unified inference stack that runs GenAI models from custom GPU kernels up to production cloud serving. Its open-source MAX framework (Modular Accelerated Xecution) and the Mojo systems programming language let teams serve frontier open models on NVIDIA, AMD, and Apple Silicon hardware. Modular exposes an OpenAI-compatible inference REST API (chat completions, completions, embeddings, and image/video responses) available as self-hosted containers, shared per-token endpoints, dedicated per-minute endpoints, and bring-your-own-cloud deployments through the Modular Console.
 image: https://docs.modular.com/images/modular-metadata.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Modular
 nav: Providers
 network: true
-overview: 'Modular publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, Inference, and LLM.
+overview: 'Modular is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, Inference, and LLM.
 
 
-  Modular''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 19 more developer resources.'
+  Modular''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 21 more developer resources.'
+plans:
+- name: Modular Plans Pricing
+  plan_count: 7
+  slug: modular-plans-pricing
 random_paper: 8
 score:
-  band: thin
-  composite: 36.5
+  band: developing
+  composite: 42.9
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 15
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.4
   facets:
-    access_clarity: 47.4
+    access_clarity: 78.9
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 61.9
@@ -198,9 +211,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

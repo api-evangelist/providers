@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 39
+- acting_count: 37
   human_in_the_loop: 0
   name: Fintary Agentic Access
   operation_count: 81
   slug: fintary-agentic-access
-  summary_line: 81 operations · 39 acting
+  summary_line: 81 operations · 37 acting
 api_count: 4
 apis:
 - baseURL: https://api.fintary.com
@@ -230,7 +230,7 @@ modified: '2026-08-14'
 name: Fintary
 nav: Providers
 network: true
-overview: 'Fintary publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Agents API, AMS - Agents API, AMS - Configs API, and 7 more. Tagged areas include Company, Fintech, Insurance, Insurtech, and Commissions.
+overview: 'Fintary publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agents API, AMS - Agents API, AMS - Configs API, and 7 more. Tagged areas include Company, Fintech, Insurance, Insurtech, and Commissions.
 
 
   Fintary''s developer surface includes support, engineering blog, documentation, API reference, authentication, and 22 more developer resources.'
@@ -278,8 +278,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 26.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

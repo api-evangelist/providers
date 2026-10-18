@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 5.0
-  scored_at: '2026-10-04'
+  score: 3.1
+  scored_at: '2026-10-17'
 api_count: 7
 apis:
 - description: OAI-PMH 2.0 metadata harvesting interface for the Vrije Universiteit Amsterdam Repository, served from the institution's own domain and administered by the VU University Library (adminEmail pure.ub@vu
@@ -187,16 +187,20 @@ created: '2026-06-03'
 description: 'Vrije Universiteit Amsterdam (VU Amsterdam) is a public research university in the Netherlands, founded in 1880 and ranked #221 in the QS World University Rankings 2025. It operates no public developer program, no API portal, and no first-party API contract: every OpenAPI previously attributed to VU in this repository was Elsevier''s Pure API v5.34.3 (contact pure-support@elsevier.com), the same product contract at least nine other universities ship, and it has been removed. What VU genuinely operates and publishes machine-readably is two protocol surfaces on its own domain — a live OAI-PMH 2.0 repository interface at research.vu.nl/ws/oai serving OpenAIRE CERIF and Dublin Core, administered by the University Library, and a signed SAML 2.0 identity-provider metadata document at stsfed.login.vu.nl published into the SURFconext national federation and onward to eduGAIN. Everything else programmable under a vu.nl subdomain is a vendor product VU is the tenant of: the Elsevier
   Pure REST web service, VU Yoda (Utrecht University software maintained by SURF for VU), Instructure Canvas, and Semestry MyTimetable — all credential-gated. Research data is also published to the national DataverseNL service. The University Library GitHub organisation (ubvu) is the institution''s active open-source presence with 90 public repositories; the official VU GitHub organisation has none.'
 finops:
-- name: Vrije Universiteit Amsterdam Finops
+- has_sources: true
+  method: generated
+  name: Vrije Universiteit Amsterdam Finops
+  primary_unit: ''
   service_category: Education
   slug: vrije-universiteit-amsterdam-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vrije-universiteit-amsterdam.png
 layout: provider
 modified: '2026-08-30'
 name: Vrije Universiteit Amsterdam
 nav: Providers
 network: true
-overview: 'Vrije Universiteit Amsterdam publishes 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include University, Higher Education, Education, Netherlands, and Europe.
+overview: 'Vrije Universiteit Amsterdam is listed with 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include University, Higher Education, Education, Netherlands, and Europe.
 
 
   Vrije Universiteit Amsterdam''s developer surface includes documentation, support, engineering blog, and 18 more developer resources.'
@@ -210,23 +214,23 @@ rate_limits:
   name: Vrije Universiteit Amsterdam Rate Limits
   slug: vrije-universiteit-amsterdam-rate-limits
 score:
-  band: thin
-  composite: 27.2
+  band: emerging
+  composite: 21.2
   coverage:
-    artifact_dirs: 9
-    catalog_earned: 57.4
+    artifact_dirs: 10
+    catalog_earned: 44.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.6
+    catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -2.9
+  delta: -6.0
   facets:
-    access_clarity: 47.9
+    access_clarity: 26.3
     contract_governance: 0.0
     contract_quality: 4.4
     developer_ergonomics: 28.6
     discoverability: 71.4
-    operational_transparency: 21.6
+    operational_transparency: 7.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -235,7 +239,7 @@ score:
     regions:
     - benelux
     - europe
-  previous_composite: 30.1
+  previous_composite: 27.2
   provenance:
     conformance: first-party
   regulatory:
@@ -244,9 +248,9 @@ score:
     regime: Education & Research
     regime_id: education
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

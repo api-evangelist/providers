@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.6
-  scored_at: '2026-10-04'
+  score: 28.7
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 9
+- acting_count: 8
   human_in_the_loop: 0
   name: Amazon Entity Resolution Agentic Access
   operation_count: 16
   slug: amazon-entity-resolution-agentic-access
-  summary_line: 16 operations · 9 acting
+  summary_line: 16 operations · 8 acting
 api_count: 1
 apis:
 - baseURL: https://entityresolution.amazonaws.com
@@ -109,6 +109,25 @@ collections:
   name: AWS EntityResolution
   slug: open-amazon-entity-resolution
 common:
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://aws.amazon.com/entity-resolution/pricing/
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-entity-resolution/refs/heads/main/rate-limits/amazon-entity-resolution-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/amazon-entity-resolution-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-entity-resolution/refs/heads/main/finops/amazon-entity-resolution-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/amazon-entity-resolution-finops.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-entity-resolution/refs/heads/main/plans/amazon-entity-resolution-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/amazon-entity-resolution-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/amazon-entity-resolution/refs/heads/main/capabilities/amazon-entity-resolution-capability-edges.yml
   title: ''
@@ -440,9 +459,13 @@ features:
 - description: Enrich records with data from LiveRamp, Unified ID 2.0, and others
   name: Third-Party Data Providers
 finops:
-- name: Amazon Entity Resolution Finops
+- has_sources: false
+  method: generated
+  name: Amazon Entity Resolution Finops
+  primary_unit: ''
   service_category: API
   slug: amazon-entity-resolution-finops
+  template: true
 image: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png
 json_schemas:
 - name: AccessDeniedException
@@ -1008,16 +1031,16 @@ modified: '2026-09-16'
 name: Amazon Entity Resolution
 nav: Providers
 network: true
-overview: 'Amazon Entity Resolution publishes 3 APIs on the [APIs.io](https://apis.io/) network: Matchingworkflows API, Schemas API, and Tags API. Tagged areas include Amazon Web Services, Data Integration, Data Matching, Entity Resolution, and Machine Learning.
+overview: 'Amazon Entity Resolution publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Matchingworkflows API, Schemas API, and Tags API. Tagged areas include Amazon Web Services, Data Integration, Data Matching, Entity Resolution, and Machine Learning.
 
 
   The Amazon Entity Resolution catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Entity Resolution''s developer surface includes authentication, developer portal, documentation, engineering blog, developer console, signup flow, support, and 28 more developer resources.'
+  Amazon Entity Resolution''s developer surface includes pricing, authentication, developer portal, documentation, engineering blog, developer console, signup flow, and 32 more developer resources.'
 plans:
 - name: Amazon Entity Resolution Plans Pricing
-  plan_count: 3
+  plan_count: 2
   slug: amazon-entity-resolution-plans-pricing
 random_paper: 5
 rate_limits:
@@ -1025,9 +1048,10 @@ rate_limits:
   name: Amazon Entity Resolution Rate Limits
   slug: amazon-entity-resolution-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Amazon Entity Resolution API Rules
+  name: Amazon Entity Resolution — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1035,7 +1059,8 @@ rules:
     info: 2
     warn: 3
   slug: amazon-entity-resolution-jsonschema-spectral-rules
-- effective_rule_count: 66
+- authorship: generated
+  effective_rule_count: 66
   extends:
   - spectral:oas
   name: Amazon Entity Resolution API Rules
@@ -1048,17 +1073,17 @@ rules:
   slug: amazon-entity-resolution-spectral-rules
 score:
   band: strong
-  composite: 60.9
+  composite: 62.0
   coverage:
     artifact_dirs: 20
-    catalog_earned: 75.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 40.0
+    catalog_earned: 77.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 38.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.1
   facets:
-    access_clarity: 69.7
+    access_clarity: 75.0
     contract_governance: 27.3
     contract_quality: 71.5
     developer_ergonomics: 53.6
@@ -1078,8 +1103,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

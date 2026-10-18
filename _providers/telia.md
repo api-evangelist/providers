@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 44.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -346,7 +346,7 @@ modified: '2026-07-25'
 name: Telia Company
 nav: Providers
 network: true
-overview: 'Telia Company publishes 25 APIs on the [APIs.io](https://apis.io/) network, including List Geographic Site API, Retrieve Geographic Site API, and 23 more. Tagged areas include Telecommunications, Sweden, Nordic, Baltics, and Mobile Network Operator.
+overview: 'Telia Company publishes 25 API contracts indexed on the [APIs.io](https://apis.io/) network, including List Geographic Site API, Retrieve Geographic Site API, and 23 more. Tagged areas include Telecommunications, Sweden, Nordic, Baltics, and Mobile Network Operator.
 
 
   The Telia Company catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -363,7 +363,7 @@ score:
   band: developing
   composite: 46.8
   coverage:
-    artifact_dirs: 26
+    artifact_dirs: 27
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -402,8 +402,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 49.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

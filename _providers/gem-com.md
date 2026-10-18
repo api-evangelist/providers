@@ -26,14 +26,14 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: false
-    rate_limit_signal: documented
+    protected_resource_metadata: verified
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 11.2
-  scored_at: '2026-10-04'
+  score: 12.9
+  scored_at: '2026-10-17'
 api_count: 11
 apis:
 - description: Gem's public REST API (v0) for customer and partner integrations against the Gem recruiting platform. Reference documentation is published at api.gem.com/v0/reference; access is provisioned for Gem cu
@@ -71,6 +71,25 @@ apis:
   slug: integrations-marketplace
 artifact_total: 18
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/gem-com/refs/heads/main/plans/gem-com-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/gem-com-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/gem-com/refs/heads/main/rate-limits/gem-com-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/gem-com-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/gem-com/refs/heads/main/finops/gem-com-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/gem-com-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.gem.com/blog
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/gem-com/refs/heads/main/security/gem-com-trust-center.yml
   title: ''
@@ -113,23 +132,27 @@ common:
 created: '2026-05-23'
 description: Gem is an AI-first recruiting platform that bundles a next-generation ATS, recruiting CRM, AI outbound sourcing, scheduling, talent marketing, application review, and talent rediscovery into a single agentic AI hiring system used by more than 1,200 talent acquisition teams. Gem ships a Chrome extension for sourcing, a public REST API (v0) documented at api.gem.com/v0/reference, an integrations marketplace at integrations.gem.com/gem covering ATS, HRIS, scheduling, assessments, background checks, and job distribution, plus a status page and academy.
 finops:
-- name: Gem Com Finops
+- has_sources: false
+  method: generated
+  name: Gem Com Finops
+  primary_unit: ''
   service_category: API
   slug: gem-com-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/gem-com.png
 layout: provider
 mcp_servers:
 - description: Remote MCP server at mcp.gem.com over HTTP.
   name: Gem MCP Server
   slug: gem-com
-modified: '2026-05-23'
+modified: '2026-10-06'
 name: Gem
 nav: Providers
 network: true
-overview: 'Gem publishes 11 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Recruiting CRM, Applicant Tracking, Sourcing, Talent Marketing, and AI Agents.
+overview: 'Gem is listed with 11 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Recruiting CRM, Applicant Tracking, Sourcing, Talent Marketing, and AI Agents.
 
 
-  Gem''s developer surface includes documentation, academy / training, status page, and 6 more developer resources.'
+  Gem''s developer surface includes engineering blog, documentation, academy / training, status page, and 9 more developer resources.'
 plans:
 - name: Gem Com Plans Pricing
   plan_count: 1
@@ -141,22 +164,22 @@ rate_limits:
   slug: gem-com-rate-limits
 score:
   band: emerging
-  composite: 18.3
+  composite: 12.7
   coverage:
-    artifact_dirs: 8
-    catalog_earned: 57.4
+    artifact_dirs: 9
+    catalog_earned: 44.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.6
+    catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.6
   facets:
-    access_clarity: 34.7
+    access_clarity: 13.2
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 9.5
+    developer_ergonomics: 11.9
     discoverability: 73.3
-    operational_transparency: 18.9
+    operational_transparency: 5.3
   previous_composite: 18.3
   provenance:
     mcp: first-party
@@ -166,9 +189,9 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -182,7 +205,7 @@ security:
 - kind: vulnerability-disclosure
   name: Gem Com Vulnerability Disclosure
   slug: gem-com-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 - kind: trust-center
   name: Gem Com Trust Center
   slug: gem-com-trust-center

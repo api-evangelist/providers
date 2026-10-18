@@ -34,10 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 4.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 4
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://jerry.ai/feed/
 - group: company
   title: ''
   type: Website
@@ -167,14 +171,14 @@ description: Jerry (Jerry Services, Inc. / Jerry Insurance Agency, LLC) is a Pal
   document, a published llms.txt, a Content Signals declaration in robots.txt, an Upptime-backed status page and a Vanta trust center.
 image: https://jerry.ai/imgs/icon-app.png
 layout: provider
-modified: '2026-08-04'
+modified: '2026-10-06'
 name: Jerry
 nav: Providers
 network: true
 overview: 'Jerry is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, Insurtech, Auto Insurance, and Insurance Broker.
 
 
-  Jerry''s developer surface includes support, engineering blog, product news, signup flow, authentication, and 24 more developer resources.'
+  Jerry''s developer surface includes support, engineering blog, product news, signup flow, authentication, and 25 more developer resources.'
 random_paper: 6
 score:
   band: thin
@@ -203,8 +207,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 35.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: REST API for the VOS360 media processing platform — manage assets, channels, services, live events, storage and packaging, DRM/encryption, graphics and jobs. Secured with OAuth 2.0 (Bearer access toke
@@ -41,6 +41,14 @@ apis:
   slug: vos-360-rest-api
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.harmonicinc.com/insights/blog
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.harmonicinc.com/insights/blog/rss.xml
 - group: company
   title: ''
   type: Website
@@ -109,26 +117,26 @@ created: '2026-07-17'
 description: 'Harmonic Inc. (NASDAQ: HLIT) is a video streaming and virtualized broadband technology company. Its VOS®360 Media SaaS orchestrates the entire live and on-demand video pipeline — ingest, transcoding, packaging, encryption, playout and delivery — while its cOS platform delivers virtualized DOCSIS 4.0 and fiber broadband access via Distributed Access Architecture (DAA) and Remote PHY. Harmonic serves 150+ operators worldwide including Comcast, Charter and Vodafone. The VOS 360 platform exposes a public REST API secured with OAuth 2.0 for managing assets, channels, services, live events, storage, DRM and jobs, enabling integration with third-party CMS and media workflows. This profile was surfaced as a portfolio company of Norwest Venture Partners and enriched from Harmonic''s public developer surface.'
 image: https://www.harmonicinc.com/hubfs/Harmonic_Overview_VideoThumbnail.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Harmonic
 nav: Providers
 network: true
-overview: 'Harmonic publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Video, Video Streaming, Broadband, and Media.
+overview: 'Harmonic is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Video, Video Streaming, Broadband, and Media.
 
 
-  Harmonic''s developer surface includes documentation, API reference, support, engineering blog, changelog, authentication, and 9 more developer resources.'
+  Harmonic''s developer surface includes engineering blog, documentation, API reference, support, changelog, authentication, and 11 more developer resources.'
 random_paper: 19
 score:
   band: emerging
-  composite: 19.1
+  composite: 19.0
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.2
+  delta: -0.1
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
@@ -136,15 +144,15 @@ score:
     developer_ergonomics: 31.0
     discoverability: 64.3
     operational_transparency: 21.1
-  previous_composite: 18.9
+  previous_composite: 19.1
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

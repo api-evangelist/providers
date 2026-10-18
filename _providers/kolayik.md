@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 26.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 27
+- acting_count: 23
   human_in_the_loop: 1
   name: Kolayik Agentic Access
   operation_count: 46
   slug: kolayik-agentic-access
-  summary_line: 46 operations · 27 acting · 1 human-in-the-loop
+  summary_line: 46 operations · 23 acting · 1 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://api.kolayik.com
@@ -339,7 +339,7 @@ modified: '2026-07-19'
 name: KolayIK
 nav: Providers
 network: true
-overview: 'KolayIK publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Approval Process API, Calendar API, Expense API, and 8 more. Tagged areas include Company, Human Resources, Payroll, HCM, and Employee Management.
+overview: 'KolayIK publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Approval Process API, Calendar API, Expense API, and 8 more. Tagged areas include Company, Human Resources, Payroll, HCM, and Employee Management.
 
 
   KolayIK''s developer surface includes documentation, API reference, signup flow, pricing, support, engineering blog, changelog, and 35 more developer resources.'
@@ -348,7 +348,7 @@ score:
   band: developing
   composite: 48.3
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -368,6 +368,7 @@ score:
     - turkey
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
+    - mena
     - middle-east
   previous_composite: 48.3
   provenance:
@@ -386,8 +387,8 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

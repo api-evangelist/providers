@@ -1,0 +1,164 @@
+---
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 0.0
+  scored_at: '2026-10-17'
+api_count: 1
+apis:
+- description: Identity Resolution API documented at the developer tools page.
+  name: Customers.ai API
+  slug: customers-ai-api
+artifact_total: 3
+common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/customers-ai/refs/heads/main/plans/customers-ai-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/customers-ai-plans-pricing.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/customers-ai/refs/heads/main/conformance/customers-ai-conformance.yml
+  title: ''
+  type: Conformance
+  url: conformance/customers-ai-conformance.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/customers-ai/refs/heads/main/hosts/customers-ai-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/customers-ai-hosts.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/customers-ai/refs/heads/main/vendors/customers-ai-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/customers-ai-vendors.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: https://trust.customers.ai/
+- group: operate
+  title: ''
+  type: Support
+  url: https://customers.ai/help
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://customers.ai/privacy-policy
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://customers.ai/pricing
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://customers.ai/guides
+- group: company
+  title: ''
+  type: Blog
+  url: https://customers.ai/blog
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/customers-ai/refs/heads/main/security/customers-ai-domain-security.yml
+  title: ''
+  type: DomainSecurity
+  url: security/customers-ai-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://customers.ai
+coverage:
+  detail: the company publishes no developer documentation host and no machine-readable contract on its own domain
+  evidence:
+  - status: 403
+    url: https://customers.ai/mcp
+  - status: 200
+    url: https://customers.ai
+  - status: 200
+    url: https://www.nasdaqprivatemarket.com/
+  reason: no-developer-program
+  state: none
+created: '2026-10-12'
+description: Customers.ai provides an identity resolution platform that captures website visitors, enriches their data, and enables remarketing through email and ads. It integrates with Shopify, Klaviyo, and other marketing tools to turn anonymous traffic into actionable leads, offering features like visitor ID, audience recovery, and automated outreach.
+image: https://customers.ai/wp-content/uploads/2026/03/customersai-logo.jpg
+layout: provider
+modified: '2026-10-12'
+name: Customers.ai
+nav: Providers
+network: true
+overview: 'Customers.ai is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Marketing, IdentityResolution, Data Enrichment, Software-as-a-Service, and B2B.
+
+
+  Customers.ai''s developer surface includes support, pricing, documentation, engineering blog, and 8 more developer resources.'
+plans:
+- name: Customers Ai Plans Pricing
+  plan_count: 1
+  slug: customers-ai-plans-pricing
+random_paper: 12
+score:
+  band: emerging
+  composite: 21.9
+  coverage:
+    artifact_dirs: 8
+    catalog_earned: 40.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  facets:
+    access_clarity: 50.0
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 16.7
+    discoverability: 57.1
+    operational_transparency: 0.0
+  provenance:
+    conformance: first-party
+    mcp: unknown
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    jurisdictions_satisfied: 1
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 19.6
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+security:
+- kind: domain-security
+  name: Customers Ai Domain Security
+  slug: customers-ai-domain-security
+  summary_line: TLSv1.3 · DMARC
+slug: customers-ai
+tags:
+- Marketing
+- IdentityResolution
+- Data Enrichment
+- Software-as-a-Service
+- B2B
+website: https://customers.ai
+---

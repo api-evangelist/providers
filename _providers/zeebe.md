@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.5
-  scored_at: '2026-10-04'
+  score: 24.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -153,6 +153,21 @@ collections:
   name: Zeebe REST Cluster User Tasks API
   slug: open-zeebe-user-tasks-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/zeebe/refs/heads/main/plans/zeebe-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/zeebe-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/zeebe/refs/heads/main/rate-limits/zeebe-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/zeebe-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/zeebe/refs/heads/main/finops/zeebe-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/zeebe-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/zeebe/refs/heads/main/capabilities/zeebe-capability-edges.yml
   title: ''
@@ -287,9 +302,13 @@ examples:
   name: Zeebe Publishmessage Example
   slug: zeebe-publishMessage-example
 finops:
-- name: Zeebe Finops
+- has_sources: false
+  method: generated
+  name: Zeebe Finops
+  primary_unit: ''
   service_category: API
   slug: zeebe-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zeebe.png
 json_schemas:
 - name: ActivateJobsRequest
@@ -345,13 +364,13 @@ modified: '2026-05-19'
 name: Zeebe
 nav: Providers
 network: true
-overview: 'Zeebe publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Cluster API, Deployments API, Incidents API, and 6 more. Tagged areas include BPMN, Camunda, Cloud-Native, Distributed Systems, and Java.
+overview: 'Zeebe publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Cluster API, Deployments API, Incidents API, and 6 more. Tagged areas include BPMN, Camunda, Cloud-Native, Distributed Systems, and Java.
 
 
   The Zeebe catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Zeebe''s developer surface includes authentication, documentation, getting-started guide, GitHub presence, pricing, engineering blog, changelog, and 15 more developer resources.'
+  Zeebe''s developer surface includes authentication, documentation, getting-started guide, GitHub presence, pricing, engineering blog, changelog, and 18 more developer resources.'
 plans:
 - name: Zeebe Plans Pricing
   plan_count: 3
@@ -362,9 +381,10 @@ rate_limits:
   name: Zeebe Rate Limits
   slug: zeebe-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Zeebe API Rules
+  name: Zeebe — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -372,7 +392,8 @@ rules:
     info: 2
     warn: 3
   slug: zeebe-jsonschema-spectral-rules
-- effective_rule_count: 18
+- authorship: unmarked
+  effective_rule_count: 18
   extends: []
   name: Zeebe API Rules
   rule_count: 18
@@ -384,17 +405,17 @@ rules:
   slug: zeebe-rules
 score:
   band: developing
-  composite: 48.6
+  composite: 47.1
   coverage:
     artifact_dirs: 19
-    catalog_earned: 70.2
+    catalog_earned: 67.2
     catalog_earned_first_party: 0.0
-    catalog_gap: 44.9
+    catalog_gap: 47.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 34.2
+    access_clarity: 26.3
     contract_governance: 23.5
     contract_quality: 62.2
     developer_ergonomics: 59.5
@@ -414,8 +435,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -433,7 +454,7 @@ security:
 - kind: vulnerability-disclosure
   name: Zeebe Vulnerability Disclosure
   slug: zeebe-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 - kind: trust-center
   name: Zeebe Trust Center
   slug: zeebe-trust-center

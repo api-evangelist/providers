@@ -16,7 +16,7 @@ agent_readiness:
   dimensions:
     agent_card: false
     agent_skills: false
-    agentic_access: derived
+    agentic_access: true
     agentic_commerce: false
     auth_clarity: served
     consent_identity: false
@@ -27,48 +27,53 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: verified
-    openapi_examples: false
+    openapi_examples: verified
     protected_resource_metadata: verified
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: '0.2'
-  score: 44.6
-  scored_at: '2026-10-04'
+  score: 56.0
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 3
+- acting_count: 5
   human_in_the_loop: 0
   name: Audd Agentic Access
-  operation_count: 3
+  operation_count: 11
   slug: audd-agentic-access
-  summary_line: 3 operations · 3 acting
-api_count: 1
+  summary_line: 11 operations · 5 acting
+api_count: 2
 apis:
 - baseURL: https://api.audd.io
   baseurl_source: declared
-  description: The Lyrics API from AudD — 1 operation(s) for lyrics.
-  name: AudD Lyrics API
-  slug: audd-lyrics-api
-- baseURL: https://api.audd.io
-  baseurl_source: declared
-  description: The Recognition API from AudD — 2 operation(s) for recognition.
+  description: Music recognition from a short clip, file or URL (api.audd.io), and the enterprise endpoint for audio and video files of any length (enterprise.audd.io).
   name: AudD Recognition API
   slug: audd-recognition-api
-artifact_total: 13
+- baseURL: https://api.audd.io
+  baseurl_source: declared
+  description: Add your own tracks to a custom recognition catalog (special access).
+  name: AudD Custom Catalog API
+  slug: audd-custom-catalog-api
+- baseURL: https://api.audd.io
+  baseurl_source: declared
+  description: Live audio stream monitoring - add and manage streams, with recognition results delivered by callback URL or longpoll.
+  name: AudD Streams API
+  slug: audd-streams-api
+artifact_total: 14
 collections:
 - collection_type: open
   name: API Collection
   slug: open-.refine-report
 - collection_type: open
-  name: AudD Music Recognition Lyrics API
-  slug: open-audd-lyrics-api
-- collection_type: open
-  name: AudD Music Lyrics Recognition API
-  slug: open-audd-recognition-api
+  name: AudD Music Recognition Custom catalog API
+  slug: open-audd-custom-catalog-api
 - collection_type: open
   name: AudD Music Recognition API
-  slug: open-audd
+  slug: open-audd-recognition-api
+- collection_type: open
+  name: AudD Music Recognition Streams API
+  slug: open-audd-streams-api
 common:
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/audd/refs/heads/main/agentic-access/audd-agentic-access.yml
@@ -101,6 +106,15 @@ common:
   title: ''
   type: Documentation
   url: https://docs.audd.io/
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/audd/refs/heads/main/well-known/audd-well-known.yml
+  title: ''
+  type: WellKnown
+  url: well-known/audd-well-known.yml
+- group: other
+  title: ''
+  type: APICatalog
+  url: https://audd.io/.well-known/api-catalog
 - group: commercial
   href: https://raw.githubusercontent.com/api-evangelist/audd/refs/heads/main/plans/audd-plans-pricing.yml
   title: ''
@@ -117,25 +131,29 @@ common:
   type: FinOps
   url: finops/audd-finops.yml
 created: '2026-06-21'
-description: AudD is a music recognition service that identifies songs from audio files, URLs, or microphone input via a simple REST API. The api.audd.io API returns rich track metadata (artist, title, album, ISRC, links to Apple Music, Spotify, Deezer and more), supports recognition by humming/singing, lyrics search, and an enterprise endpoint for scanning long audio and video files.
+description: AudD is a music recognition service. Its REST API identifies songs from short audio clips, uploaded files or URLs on api.audd.io, scans audio and video files of any length on the enterprise endpoint (enterprise.audd.io), monitors live audio streams with results delivered by callback or longpoll, and adds an account's own tracks to a custom catalog (special access). Matches return track metadata (artist, title, album, ISRC) with optional Apple Music, Spotify, Deezer and MusicBrainz data.
 finops:
-- name: Audd Finops
+- has_sources: true
+  method: generated
+  name: Audd Finops
+  primary_unit: ''
   service_category: AI and Machine Learning
   slug: audd-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/audd.png
 layout: provider
 mcp_servers:
 - description: Remote MCP server at mcp.audd.io over HTTP.
   name: AudD MCP Server
   slug: audd
-modified: '2026-06-21'
+modified: '2026-10-08'
 name: AudD
 nav: Providers
 network: true
-overview: 'AudD publishes 2 APIs on the [APIs.io](https://apis.io/) network: Lyrics API and Recognition API. Tagged areas include Music, Music Recognition, Audio, Fingerprinting, and Lyrics.
+overview: 'AudD publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Recognition API, Custom Catalog API, and Streams API. Tagged areas include Music, Music Recognition, Audio, and Fingerprinting.
 
 
-  AudD''s developer surface includes authentication, documentation, and 8 more developer resources.'
+  AudD''s developer surface includes authentication, documentation, and 10 more developer resources.'
 plans:
 - name: Audd Plans Pricing
   plan_count: 4
@@ -147,30 +165,30 @@ rate_limits:
   slug: audd-rate-limits
 score:
   band: thin
-  composite: 33.6
+  composite: 26.4
   coverage:
     artifact_dirs: 12
-    catalog_earned: 61.6
+    catalog_earned: 38.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.4
+    catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.8
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 0.0
-    contract_quality: 45.9
+    contract_quality: 49.6
     developer_ergonomics: 26.2
-    discoverability: 68.3
-    operational_transparency: 31.1
-  previous_composite: 33.6
+    discoverability: 70.0
+    operational_transparency: 10.5
+  previous_composite: 34.2
   provenance:
-    agentic_access: derived
+    agentic_access: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 2
+      total: 3
     mcp: first-party
   regulatory:
     applies: true
@@ -178,9 +196,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0
@@ -200,6 +218,5 @@ tags:
 - Music Recognition
 - Audio
 - Fingerprinting
-- Lyrics
 website: https://audd.io/
 ---

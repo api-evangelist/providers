@@ -23,10 +23,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://ebury.com/resources/blog/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/ebury/refs/heads/main/well-known/ebury-online-security.txt
   title: ''
@@ -88,20 +92,20 @@ created: '2026-09-21'
 description: Ebury is a global fintech providing international business accounts, multi‑currency payments, FX hedging, trade finance, and business APIs to over 25,000 businesses in more than 160 countries, supporting 140+ currencies. It helps companies manage cross‑border payments, mitigate foreign‑exchange risk, and scale globally through its digital platform.
 image: https://cdn.prod.website-files.com/6911cdf6e0645000756617a4/698614febcc9cdb7dfeedd6d_Ebury%20Open%20Graph.jpg
 layout: provider
-modified: '2026-09-21'
+modified: '2026-10-06'
 name: Ebury
 nav: Providers
 network: true
 overview: 'Ebury is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Payments, and Internationalapis: [].
 
 
-  Ebury''s developer surface includes support, engineering blog, documentation, and 8 more developer resources.'
+  Ebury''s developer surface includes support, engineering blog, documentation, and 9 more developer resources.'
 random_paper: 1
 score:
   band: minimal
   composite: 10.7
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 22.0
     catalog_earned_first_party: 0.0
     catalog_gap: 93.0
@@ -124,13 +128,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 9.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/ebury/refs/heads/main/screenshots/ebury-2026-10-11T104008.png
 security:
 - kind: domain-security
   name: Ebury Domain Security

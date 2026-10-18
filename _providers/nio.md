@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 0
 common:
@@ -48,7 +48,7 @@ modified: '2026-04-28'
 name: NIO
 nav: Providers
 network: true
-overview: 'NIO is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Automotive, Connected Car, Electric Vehicles, and NIO.
+overview: 'NIO is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Automotive, Connected Vehicles, Electric Vehicles, and NIO.
 
 
   NIO''s developer surface includes engineering blog.'
@@ -91,8 +91,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 0.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -102,7 +102,7 @@ screenshot: https://raw.githubusercontent.com/api-evangelist/nio/refs/heads/main
 slug: nio
 tags:
 - Automotive
-- Connected Car
+- Connected Vehicles
 - Electric Vehicles
 - NIO
 ---

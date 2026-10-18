@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://ejara.io/blog/
 - group: company
   title: ''
   type: Website
@@ -69,31 +73,31 @@ created: '2026-07-17'
 description: Ejara is a Cameroon-based, regulated fintech platform giving people across Francophone Africa and its diaspora access to digital savings and investment products through a mobile app. Founded in 2020 in Douala by Nelly Chatue-Diop, Baptiste Andrieux, and Tierno Tall, Ejara lets users save from as little as 1,000 CFA francs in BEAC-guaranteed savings plans earning up to 5% annual interest, and buy, sell, and self-custody cryptocurrencies such as Bitcoin, Ethereum, and stablecoins using blockchain-based non-custodial wallets. The company is licensed by COSUMAF in the CEMAC zone (SGP-06/2021) and registered with France's Autorite des marches financiers (AMF-E2022-056), and raised an $8M Series A led by Anthemis and Dragonfly. Ejara operates as a consumer mobile application on iOS and Android rather than a public API provider; this profile tracks its developer surface, including open-source blockchain libraries on GitHub, for the API Evangelist network.
 image: https://www.ejara.io/favicon.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Ejara
 nav: Providers
 network: true
 overview: 'Ejara is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Cryptocurrency, Savings, and Investing.
 
 
-  Ejara''s developer surface includes support, signup flow, and 5 more developer resources.'
+  Ejara''s developer surface includes engineering blog, support, signup flow, and 5 more developer resources.'
 random_paper: 9
 score:
   band: minimal
-  composite: 2.8
+  composite: 3.3
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 48.2
     operational_transparency: 2.6
   jurisdiction:
@@ -108,8 +112,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 4.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 36
+- acting_count: 40
   human_in_the_loop: 1
   name: Bigtincan Agentic Access
-  operation_count: 69
+  operation_count: 78
   slug: bigtincan-agentic-access
-  summary_line: 69 operations · 36 acting · 1 human-in-the-loop
+  summary_line: 78 operations · 40 acting · 1 human-in-the-loop
 api_count: 2
 apis:
 - baseURL: https://pubapi.bigtincan.com
@@ -309,16 +309,20 @@ common:
 created: '2026-06-13'
 description: Bigtincan is an industry-leading sales enablement automation platform providing a REST API for managing sales content, training and coaching programs, buyer engagement analytics, digital sales rooms, and CRM content sync. The platform combines AI-powered content management, sales readiness tools, and buyer engagement capabilities to help revenue teams close deals faster.
 finops:
-- name: Bigtincan Finops
+- has_sources: false
+  method: generated
+  name: Bigtincan Finops
+  primary_unit: ''
   service_category: ''
   slug: bigtincan-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bigtincan.png
 layout: provider
 modified: '2026-09-16'
 name: Bigtincan
 nav: Providers
 network: true
-overview: 'Bigtincan publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Bookmark API, Channel API, and 15 more. Tagged areas include Sales Enablement, Content Management, Training, Coaching, and Buyer Engagement.
+overview: 'Bigtincan publishes 18 API contracts indexed on the [APIs.io](https://apis.io/) network, including Admin API, Bookmark API, Channel API, and 15 more. Tagged areas include Sales Enablement, Content Management, Training, Coaching, and Buyer Engagement.
 
 
   Bigtincan''s developer surface includes authentication, documentation, API reference, changelog, engineering blog, pricing, signup flow, and 30 more developer resources.'
@@ -338,17 +342,17 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 56.6
+  composite: 55.1
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 52.0
+    artifact_dirs: 26
+    catalog_earned: 49.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 100.0
+    access_clarity: 92.1
     contract_governance: 4.5
     contract_quality: 43.4
     developer_ergonomics: 44.6
@@ -371,8 +375,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

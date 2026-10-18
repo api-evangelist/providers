@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 25.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: RESTful JSON API for identity verification, background checks, public-data consultation, document (CNH) validation, verification reports (relatorios) built from configurable matrices (matrizes), peopl
@@ -46,6 +46,10 @@ asyncapis:
   name: Idwall Webhooks
   slug: idwall-webhooks
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.idwall.co/feed/
 - group: company
   title: ''
   type: Website
@@ -136,21 +140,21 @@ created: '2026-07-17'
 description: IDwall (idwall.co) is a Brazilian identity verification, KYC, and anti-fraud platform. Its REST API lets companies run background checks and consult public data sources, validate documents such as the CNH (Brazilian driver's license), assemble verification reports (relatorios) from configurable matrices (matrizes), retrieve previously queried people (pessoas), and receive webhook notifications when a report's status changes. Authentication is a per-account API token passed in the Authorization header; the production base URL is https://api-v2.idwall.co and all responses are JSON. There is no sandbox - contracted tokens run against production. IDwall was backed by 500 Global and GGV Capital.
 image: https://idwall.co/static/favicon.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: IDwall
 nav: Providers
 network: true
-overview: 'IDwall publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Identity Verification, KYC, Fraud Prevention, and Background Checks.
+overview: 'IDwall is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Identity Verification, KYC, Fraud Prevention, and Background Checks.
 
 
   The IDwall catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  IDwall''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, authentication, and 12 more developer resources.'
+  IDwall''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, authentication, and 13 more developer resources.'
 random_paper: 21
 score:
   band: thin
-  composite: 30.9
+  composite: 31.0
   coverage:
     artifact_dirs: 13
     catalog_earned: 37.0
@@ -158,7 +162,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 6.6
     contract_governance: 0.0
@@ -180,8 +184,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

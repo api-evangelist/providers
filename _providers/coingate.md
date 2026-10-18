@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.3
-  scored_at: '2026-10-04'
+  score: 25.4
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -91,6 +91,21 @@ collections:
   name: CoinGate Payment Gateway Conversions Send Requests API
   slug: open-coingate-send-requests-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/coingate/refs/heads/main/plans/plans.yml
+  title: ''
+  type: Plans
+  url: plans/plans.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/coingate/refs/heads/main/rate-limits/rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/coingate/refs/heads/main/finops/finops.yml
+  title: ''
+  type: FinOps
+  url: finops/finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/coingate/refs/heads/main/agentic-access/coingate-agentic-access.yml
   title: ''
@@ -186,19 +201,23 @@ common:
 created: '2026-06-13'
 description: CoinGate is a cryptocurrency payment gateway providing REST APIs for creating and managing payment orders, processing crypto-to-fiat conversions, automating payouts, managing merchant ledger accounts, and accessing billing and reporting data. Merchants can accept 70+ cryptocurrencies and settle in fiat or crypto, with integrations available via hosted checkout, plugins, and direct API.
 finops:
-- name: Finops
+- has_sources: false
+  method: generated
+  name: Finops
+  primary_unit: ''
   service_category: ''
   slug: finops
+  template: true
 image: https://coingate.com/images/coingate-logo.png
 layout: provider
 modified: '2026-06-13'
 name: CoinGate
 nav: Providers
 network: true
-overview: 'CoinGate publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Conversions API, Currencies API, Orders API, and 2 more. Tagged areas include Cryptocurrency, Payments, Payment Gateway, Crypto, and Fintech.
+overview: 'CoinGate publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Conversions API, Currencies API, Orders API, and 2 more. Tagged areas include Cryptocurrency, Payments, Payment Gateway, Fintech, and Bitcoin.
 
 
-  CoinGate''s developer surface includes authentication, API reference, documentation, pricing, engineering blog, GitHub presence, signup flow, and 15 more developer resources.'
+  CoinGate''s developer surface includes authentication, API reference, documentation, pricing, engineering blog, GitHub presence, signup flow, and 18 more developer resources.'
 plans:
 - name: Plans
   plan_count: 2
@@ -210,17 +229,17 @@ rate_limits:
   slug: rate-limits
 score:
   band: developing
-  composite: 44.6
+  composite: 40.3
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 47.2
+    artifact_dirs: 13
+    catalog_earned: 39.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 67.8
+    catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -4.3
   facets:
-    access_clarity: 54.5
+    access_clarity: 32.9
     contract_governance: 0.0
     contract_quality: 50.9
     developer_ergonomics: 42.9
@@ -240,8 +259,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 19.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -265,7 +284,6 @@ tags:
 - Cryptocurrency
 - Payments
 - Payment Gateway
-- Crypto
 - Fintech
 - Bitcoin
 - Ethereum

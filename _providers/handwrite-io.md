@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -219,16 +219,20 @@ created: '2024-11-14'
 description: 'Handwrite is a South Carolina based direct-mail service that writes and mails real handwritten cards on demand, and exposes that fulfillment as a small REST API at https://api.handwrite.io/v1. Four operations cover the whole surface: list the handwriting styles on the account, list the stationery and card options, send a card to between one and ten US recipients (or up to 1,000 orders in a single batch request), and fetch an order to follow it from processing through written to complete and retrieve proof images of the finished card and envelope. Authentication is a single static API key sent raw in the Authorization header, prefixed test_hw for unbilled test-mode calls or live_hw for calls that actually mail and bill. Pricing is per mailed card rather than per API call, from $2.99 down to $2.45 by volume, with the card, envelope, handwriting and postage included. The API is rate limited to 60 requests per minute per key. Handwrite also ships a Zapier integration for teams
   that do not want to write code.'
 finops:
-- name: Handwrite Io Finops
+- has_sources: false
+  method: generated
+  name: Handwrite Io Finops
+  primary_unit: ''
   service_category: API
   slug: handwrite-io-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/handwrite-io.png
 layout: provider
 modified: '2026-08-13'
 name: Handwrite IO
 nav: Providers
 network: true
-overview: 'Handwrite IO publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Handwriting API, Orders API, Send API, and 1 more. Tagged areas include Direct Mail, Handwritten, Handwritten Notes, Cards, and Marketing.
+overview: 'Handwrite IO publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Handwriting API, Orders API, Send API, and 1 more. Tagged areas include Direct Mail, Handwritten, Handwritten Notes, Cards, and Marketing.
 
 
   The Handwrite IO catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -245,7 +249,8 @@ rate_limits:
   name: Handwrite Io Rate Limits
   slug: handwrite-io-rate-limits
 rules:
-- effective_rule_count: 41
+- authorship: unmarked
+  effective_rule_count: 41
   extends:
   - spectral:oas
   name: Handwrite IO API Rules
@@ -258,18 +263,18 @@ rules:
   slug: handwrite-io-rules
 score:
   band: developing
-  composite: 47.7
+  composite: 45.0
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 64.5
+    artifact_dirs: 26
+    catalog_earned: 58.3
     catalog_earned_first_party: 20.0
-    catalog_gap: 50.5
+    catalog_gap: 56.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.7
   facets:
-    access_clarity: 63.2
-    contract_governance: 31.8
+    access_clarity: 55.3
+    contract_governance: 22.0
     contract_quality: 50.2
     developer_ergonomics: 51.8
     discoverability: 66.1
@@ -291,8 +296,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 15.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

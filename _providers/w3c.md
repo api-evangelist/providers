@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.0
-  scored_at: '2026-10-04'
+  score: 17.8
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -122,6 +122,21 @@ collections:
   name: W3C API
   slug: open-w3c
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/w3c/refs/heads/main/plans/w3c-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/w3c-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/w3c/refs/heads/main/rate-limits/w3c-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/w3c-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/w3c/refs/heads/main/finops/w3c-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/w3c-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/w3c/refs/heads/main/agentic-access/w3c-agentic-access.yml
   title: ''
@@ -198,9 +213,13 @@ common:
 created: '2025-08-25'
 description: The World Wide Web Consortium (W3C) is the main international standards body for the World Wide Web, founded by Tim Berners-Lee in 1994. W3C develops web standards and guidelines to ensure the long-term growth of the Web, focusing on accessibility, internationalization, privacy, and security. W3C specifications include HTML, CSS, XML, SVG, WebAssembly, ARIA, WCAG, JSON-LD, Verifiable Credentials, and hundreds of other foundational web technologies. W3C operates through Working Groups, Interest Groups, and Community Groups that develop specifications through a consensus-based process, resulting in W3C Recommendations.
 finops:
-- name: W3C Finops
+- has_sources: false
+  method: generated
+  name: W3C Finops
+  primary_unit: ''
   service_category: API
   slug: w3c-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/w3c.png
 json_schemas:
 - name: W3C Technical Report
@@ -220,13 +239,13 @@ modified: '2026-05-03'
 name: W3C
 nav: Providers
 network: true
-overview: 'W3C publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Affiliations API, Ecosystems API, Groups API, and 12 more. Tagged areas include Accessibility, Standards, Web, Web Standards, and W3C.
+overview: 'W3C publishes 15 API contracts indexed on the [APIs.io](https://apis.io/) network, including Affiliations API, Ecosystems API, Groups API, and 12 more. Tagged areas include Accessibility, Standards, Web, Web Standards, and W3C.
 
 
   The W3C catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  W3C''s developer surface includes product news, engineering blog, YouTube channel, and 14 more developer resources.'
+  W3C''s developer surface includes product news, engineering blog, YouTube channel, and 17 more developer resources.'
 plans:
 - name: W3C Plans Pricing
   plan_count: 3
@@ -237,9 +256,10 @@ rate_limits:
   name: W3C Rate Limits
   slug: w3c-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: W3C API Rules
+  name: W3C — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -247,7 +267,8 @@ rules:
     info: 2
     warn: 3
   slug: w3c-jsonschema-spectral-rules
-- effective_rule_count: 48
+- authorship: unmarked
+  effective_rule_count: 48
   extends:
   - spectral:oas
   name: W3C API Rules
@@ -259,18 +280,18 @@ rules:
     warn: 3
   slug: w3c-rules
 score:
-  band: emerging
-  composite: 26.0
+  band: thin
+  composite: 27.7
   coverage:
-    artifact_dirs: 15
-    catalog_earned: 52.0
+    artifact_dirs: 16
+    catalog_earned: 55.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 48.0
-    catalog_max: 100.0
+    catalog_gap: 60.0
+    catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.7
   facets:
-    access_clarity: 0.0
+    access_clarity: 7.9
     contract_governance: 27.3
     contract_quality: 48.2
     developer_ergonomics: 19.0
@@ -290,8 +311,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

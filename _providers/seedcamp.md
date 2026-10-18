@@ -17,7 +17,7 @@ description: Seedcamp is Europe's original first-cheque seed fund, founded in Ma
   and regulated by the UK Financial Conduct Authority.
 image: https://seedcamp.com/favicon.ico
 layout: provider
-modified: '2026-07-17'
+modified: '2026-10-06'
 name: Seedcamp
 nav: Providers
 network: true

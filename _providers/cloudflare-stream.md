@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -169,16 +169,20 @@ common:
 created: '2026-07-11'
 description: Cloudflare Stream is the video streaming, hosting, and live-video product from Cloudflare - a single REST API for uploading, storing, encoding, and delivering on-demand and live video across Cloudflare's global network. It handles direct and TUS resumable uploads, copy-from-URL ingest, live inputs over RTMPS and SRT (with simulcast outputs and WebRTC/WHIP/WHEP beta), a built-in adaptive-bitrate player and HLS/DASH manifests, AI-generated and uploaded captions, signed-URL access control, per-account webhooks, and viewing analytics. This entry documents the Cloudflare Stream product specifically, not the broader Cloudflare platform. The API is served under https://api.cloudflare.com/client/v4/accounts/{account_id}/stream and authenticates with a Bearer API token. Billed at $5 per 1,000 minutes of video stored and $1 per 1,000 minutes delivered.
 finops:
-- name: Cloudflare Stream Finops
+- has_sources: true
+  method: generated
+  name: Cloudflare Stream Finops
+  primary_unit: ''
   service_category: Media and Video Streaming
   slug: cloudflare-stream-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cloudflare-stream.png
 layout: provider
 modified: '2026-07-11'
 name: Cloudflare Stream
 nav: Providers
 network: true
-overview: 'Cloudflare Stream publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Captions API, Live Inputs API, and 3 more. Tagged areas include Video, Streaming, Live Streaming, Media, and Video Hosting.
+overview: 'Cloudflare Stream publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Analytics API, Captions API, Live Inputs API, and 3 more. Tagged areas include Video, Streaming, Live Streaming, Media, and Video Hosting.
 
 
   Cloudflare Stream''s developer surface includes authentication, documentation, pricing, engineering blog, and 10 more developer resources.'
@@ -192,23 +196,23 @@ rate_limits:
   name: Cloudflare Stream Rate Limits
   slug: cloudflare-stream-rate-limits
 score:
-  band: developing
-  composite: 42.6
+  band: thin
+  composite: 34.3
   coverage:
     artifact_dirs: 12
-    catalog_earned: 61.6
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.4
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 46.8
+    access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 47.8
     developer_ergonomics: 44.0
     discoverability: 66.1
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   previous_composite: 42.6
   provenance:
     agentic_access: derived
@@ -223,9 +227,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 17.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 22.2

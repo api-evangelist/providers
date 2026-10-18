@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://percent.com/blog/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/percent/refs/heads/main/security/percent-domain-security.yml
   title: ''
@@ -82,18 +86,18 @@ created: '2026-07-17'
 description: Percent is a private credit platform that opens privately negotiated loans and debt financing from non-bank lenders to accredited and institutional investors, specialty-finance borrowers, and debt underwriters. The marketplace lets individual accredited investors access institutional-grade private credit deals (asset-backed securities and corporate loans) with entry points from $500 for direct deals, $5,000 for diversified Blended Notes, and $50,000 for Separately Managed Accounts, alongside a secondary market for eligible positions. Percent Securities, LLC is a U.S. registered broker-dealer and member of FINRA and SIPC; Percent Advisors LLC provides advisory services. Investor, borrower, and manager workflows run through authenticated portals; the public percent.com surface is marketing, education, performance, and regulatory disclosure. Percent has no public developer API — programmatic/deal-level access is not published.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/percent.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Percent
 nav: Providers
 network: true
 overview: 'Percent is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Private Credit, Investing, and Debt Capital Markets.
 
 
-  Percent''s developer surface includes developer portal, engineering blog, signup flow, support, and 6 more developer resources.'
+  Percent''s developer surface includes developer portal, engineering blog, signup flow, support, and 7 more developer resources.'
 random_paper: 5
 score:
   band: emerging
-  composite: 14.5
+  composite: 14.6
   coverage:
     artifact_dirs: 5
     catalog_earned: 27.0
@@ -101,7 +105,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 34.2
     contract_governance: 0.0
@@ -116,8 +120,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 13.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

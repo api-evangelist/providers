@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.8
-  scored_at: '2026-10-04'
+  score: 22.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -86,6 +86,21 @@ collections:
   name: Google Cloud KMS API
   slug: open-openapi
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-kms/refs/heads/main/plans/google-cloud-kms-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/google-cloud-kms-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-kms/refs/heads/main/rate-limits/google-cloud-kms-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/google-cloud-kms-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-kms/refs/heads/main/finops/google-cloud-kms-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/google-cloud-kms-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/google-cloud-kms/refs/heads/main/capabilities/google-cloud-kms-capability-edges.yml
   title: ''
@@ -172,9 +187,13 @@ common:
 created: '2026-03-13'
 description: Google Cloud Key Management Service (KMS) allows you to create, import, and manage cryptographic keys and perform cryptographic operations in a central cloud service. It supports encryption, decryption, signing, and verification using symmetric and asymmetric keys for securing data and workloads.
 finops:
-- name: Google Cloud Kms Finops
+- has_sources: false
+  method: generated
+  name: Google Cloud Kms Finops
+  primary_unit: ''
   service_category: API
   slug: google-cloud-kms-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/google-cloud-kms.png
 json_schemas:
 - name: CryptoKey
@@ -190,13 +209,13 @@ modified: '2026-05-19'
 name: Google Cloud KMS
 nav: Providers
 network: true
-overview: 'Google Cloud KMS publishes 3 APIs on the [APIs.io](https://apis.io/) network: Crypto Keys API, Crypto Operations API, and Key Rings API. Tagged areas include Cryptography, Encryption, Google Cloud, Key Management, and KMS.
+overview: 'Google Cloud KMS publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Crypto Keys API, Crypto Operations API, and Key Rings API. Tagged areas include Cryptography, Encryption, Google Cloud, Key Management, and KMS.
 
 
   The Google Cloud KMS catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Google Cloud KMS''s developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, support, and 13 more developer resources.'
+  Google Cloud KMS''s developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, support, and 16 more developer resources.'
 plans:
 - name: Google Cloud Kms Plans Pricing
   plan_count: 3
@@ -207,9 +226,10 @@ rate_limits:
   name: Google Cloud Kms Rate Limits
   slug: google-cloud-kms-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Google Cloud KMS API Rules
+  name: Google Cloud KMS — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -224,17 +244,17 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: developing
-  composite: 47.0
+  composite: 45.5
   coverage:
     artifact_dirs: 16
-    catalog_earned: 59.7
+    catalog_earned: 56.7
     catalog_earned_first_party: 0.0
-    catalog_gap: 55.4
+    catalog_gap: 58.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 47.4
+    access_clarity: 39.5
     contract_governance: 9.8
     contract_quality: 54.2
     developer_ergonomics: 48.8
@@ -254,8 +274,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

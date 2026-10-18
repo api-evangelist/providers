@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The Warrior Met Coal API provides access to platform services and data for enterprise integration and automation.
@@ -41,6 +41,21 @@ apis:
   slug: warrior-met-coal-api
 artifact_total: 5
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/warrior-met-coal/refs/heads/main/plans/warrior-met-coal-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/warrior-met-coal-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/warrior-met-coal/refs/heads/main/rate-limits/warrior-met-coal-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/warrior-met-coal-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/warrior-met-coal/refs/heads/main/finops/warrior-met-coal-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/warrior-met-coal-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/warrior-met-coal/refs/heads/main/security/warrior-met-coal-domain-security.yml
   title: ''
@@ -57,16 +72,20 @@ common:
 created: '2026-04-19'
 description: Warrior Met Coal is a major US corporation and Fortune 1000 company. The Warrior Met Coal API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.
 finops:
-- name: Warrior Met Coal Finops
+- has_sources: true
+  method: generated
+  name: Warrior Met Coal Finops
+  primary_unit: ''
   service_category: Mining / Metallurgical Coal
   slug: warrior-met-coal-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/warrior-met-coal.png
 layout: provider
 modified: '2026-04-19'
 name: Warrior Met Coal
 nav: Providers
 network: true
-overview: Warrior Met Coal publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Coal, Mining, and Steel.
+overview: Warrior Met Coal is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Coal, Mining, and Steel.
 plans:
 - name: Warrior Met Coal Plans Pricing
   plan_count: 1
@@ -78,17 +97,17 @@ rate_limits:
   slug: warrior-met-coal-rate-limits
 score:
   band: minimal
-  composite: 9.5
+  composite: 8.0
   coverage:
     artifact_dirs: 7
-    catalog_earned: 39.0
+    catalog_earned: 36.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 76.0
+    catalog_gap: 79.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 13.2
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 9.5
@@ -101,8 +120,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

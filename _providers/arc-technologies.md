@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Arc provides a unified financial operating platform for technology companies, combining cash management, treasury, debt capital, and AI-powered financial services. The platform is primarily accessed t
@@ -41,6 +41,21 @@ apis:
   slug: arc-platform
 artifact_total: 5
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/arc-technologies/refs/heads/main/plans/arc-technologies-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/arc-technologies-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/arc-technologies/refs/heads/main/rate-limits/arc-technologies-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/arc-technologies-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/arc-technologies/refs/heads/main/finops/arc-technologies-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/arc-technologies-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/arc-technologies/refs/heads/main/security/arc-technologies-domain-security.yml
   title: ''
@@ -65,19 +80,23 @@ common:
 created: '2026-05-23'
 description: Arc is an intelligent cash management platform for technology companies that consolidates business banking, treasury, debt capital, and AI-powered financial services into a single dashboard. Customers can sweep idle cash into yield-bearing accounts, manage liquidity across multiple accounts, raise debt capital, and access AI tooling for financial operations. Arc also offers a Global Treasury product that lets qualifying startups invest in US Treasury Bills as non-US entities while safeguarding funds in US brokerage accounts. The platform is primarily delivered through a hosted web application rather than a public REST API, and integrations are coordinated through Arc's solutions and customer success teams. Arc is positioned as a unified financial operating system for venture-backed and growth-stage technology businesses.
 finops:
-- name: Arc Technologies Finops
+- has_sources: false
+  method: generated
+  name: Arc Technologies Finops
+  primary_unit: ''
   service_category: API
   slug: arc-technologies-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/arc-technologies.png
 layout: provider
 modified: '2026-05-23'
 name: Arc
 nav: Providers
 network: true
-overview: 'Arc publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Arc, Treasury, Cash Management, Business Banking, and Yield.
+overview: 'Arc is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Arc, Treasury, Cash Management, Business Banking, and Yield.
 
 
-  Arc''s developer surface includes pricing, signup flow, engineering blog, and 2 more developer resources.'
+  Arc''s developer surface includes pricing, signup flow, engineering blog, and 5 more developer resources.'
 plans:
 - name: Arc Technologies Plans Pricing
   plan_count: 1
@@ -88,23 +107,23 @@ rate_limits:
   name: Arc Technologies Rate Limits
   slug: arc-technologies-rate-limits
 score:
-  band: emerging
-  composite: 16.4
+  band: minimal
+  composite: 10.3
   coverage:
-    artifact_dirs: 7
-    catalog_earned: 49.4
+    artifact_dirs: 8
+    catalog_earned: 36.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 65.6
+    catalog_gap: 79.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.1
   facets:
-    access_clarity: 50.5
+    access_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 2.4
     discoverability: 57.1
-    operational_transparency: 18.9
+    operational_transparency: 5.3
   previous_composite: 16.4
   regulatory:
     applies: true
@@ -112,9 +131,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 4.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

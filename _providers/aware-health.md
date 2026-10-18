@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.awarehealth.io/rss.xml
 - group: company
   title: ''
   type: Website
@@ -82,14 +86,14 @@ created: '2026-07-17'
 description: Aware Health is an AI-powered musculoskeletal (MSK) care platform that helps employers, health plans, and brokers reduce MSK spend while preventing orthopedic surgeries and chronic pain. The company pairs licensed clinicians (physical therapists and health coaches) with an AI "Predict" engine to triage, navigate, and manage musculoskeletal conditions virtually, and reports reducing MSK costs by roughly 30%. Its platform spans MSK care, chronic care, surgery decision support, member navigation, analytics, and an employer dashboard, delivered via web and an iOS app. Aware Health is a Techstars portfolio company and has raised seed funding (including a $3M round led by Boomerang VC with Bright Ventures). This profile was enriched from the company's public web surface; Aware Health does not currently publish a public developer API, SDKs, or API documentation.
 image: https://www.awarehealth.io/img/aware-health-logo-og.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Aware Health
 nav: Providers
 network: true
 overview: 'Aware Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Healthcare, Digital Health, and Musculoskeletal.
 
 
-  Aware Health''s developer surface includes engineering blog, support, and 8 more developer resources.'
+  Aware Health''s developer surface includes engineering blog, support, and 9 more developer resources.'
 random_paper: 15
 score:
   band: minimal
@@ -116,8 +120,8 @@ score:
     regime: Health
     regime_id: health
     score: 8.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 27
 apis:
 - description: Live market data API providing OHLCV candles, real‑time order‑book data, symbol search and analytics.
@@ -109,6 +109,10 @@ apis:
   slug: owlchart-wlfi-api
 artifact_total: 36
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://owlchart.com/feed.xml
 - group: design
   href: https://raw.githubusercontent.com/api-evangelist/owlchart/refs/heads/main/rules/owlchart-rules.yml
   title: ''
@@ -211,20 +215,21 @@ jsonld:
   property_count: 53
   slug: owlchart-context
 layout: provider
-modified: '2026-10-02'
+modified: '2026-10-06'
 name: OwlChart
 nav: Providers
 network: true
-overview: 'OwlChart publishes 27 APIs on the [APIs.io](https://apis.io/) network, including Console API, Cycle API, Etf API, and 24 more. Tagged areas include Finance, Crypto, Stock Market, Data API, and Charts.
+overview: 'OwlChart is listed with 27 APIs on the [APIs.io](https://apis.io/) network, including Console API, Cycle API, Etf API, and 24 more. Tagged areas include Finance, Cryptocurrency, Stock Market, Data API, and Charts.
 
 
   The OwlChart catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  OwlChart''s developer surface includes documentation, API reference, and 12 more developer resources.'
+  OwlChart''s developer surface includes documentation, API reference, and 13 more developer resources.'
 random_paper: 10
 rules:
-- effective_rule_count: 52
+- authorship: generated
+  effective_rule_count: 52
   extends:
   - spectral:oas
   name: OwlChart API Rules
@@ -239,12 +244,13 @@ score:
   band: emerging
   composite: 20.9
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 17
     catalog_earned: 60.8
     catalog_earned_first_party: 0.0
     catalog_gap: 54.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 10.5
     contract_governance: 22.0
@@ -252,6 +258,7 @@ score:
     developer_ergonomics: 16.7
     discoverability: 69.6
     operational_transparency: 0.0
+  previous_composite: 20.9
   provenance:
     conformance: derived
     contracts:
@@ -266,11 +273,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: flat
   upsert:
     applies: true
     score: 0.0
+screenshot: https://raw.githubusercontent.com/api-evangelist/owlchart/refs/heads/main/screenshots/owlchart-2026-10-11T112231.png
 security:
 - kind: domain-security
   name: Owlchart Domain Security
@@ -279,7 +288,7 @@ security:
 slug: owlchart
 tags:
 - Finance
-- Crypto
+- Cryptocurrency
 - Stock Market
 - Data API
 - Charts

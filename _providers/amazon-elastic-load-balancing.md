@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.7
-  scored_at: '2026-10-04'
+  score: 26.6
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -131,6 +131,20 @@ collections:
   name: Amazon Elastic Load Balancing v2 API
   slug: open-amazon-elastic-load-balancing
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-elastic-load-balancing/refs/heads/main/rate-limits/amazon-elastic-load-balancing-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/amazon-elastic-load-balancing-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-elastic-load-balancing/refs/heads/main/finops/amazon-elastic-load-balancing-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/amazon-elastic-load-balancing-finops.yml
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://aws.amazon.com/elasticloadbalancing/pricing/
 - group: commercial
   href: https://raw.githubusercontent.com/api-evangelist/amazon-elastic-load-balancing/refs/heads/main/plans/amazon-elastic-load-balancing-plans-pricing.yml
   title: ''
@@ -378,9 +392,13 @@ features:
 - description: Offload SSL/TLS decryption from application servers
   name: SSL/TLS Termination
 finops:
-- name: Amazon Elastic Load Balancing Finops
+- has_sources: false
+  method: generated
+  name: Amazon Elastic Load Balancing Finops
+  primary_unit: ''
   service_category: API
   slug: amazon-elastic-load-balancing-finops
+  template: true
 image: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png
 json_schemas:
 - name: Action
@@ -490,13 +508,13 @@ modified: '2026-09-16'
 name: Amazon Elastic Load Balancing
 nav: Providers
 network: true
-overview: 'Amazon Elastic Load Balancing publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Listeners API, Load Balancers API, Rules API, and 2 more. Tagged areas include Amazon Web Services, High Availability, Load Balancing, Networking, and Scalability.
+overview: 'Amazon Elastic Load Balancing publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Listeners API, Load Balancers API, Rules API, and 2 more. Tagged areas include Amazon Web Services, High Availability, Load Balancing, Networking, and Scalability.
 
 
   The Amazon Elastic Load Balancing catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Elastic Load Balancing''s developer surface includes authentication, developer portal, documentation, engineering blog, developer console, signup flow, support, and 34 more developer resources.'
+  Amazon Elastic Load Balancing''s developer surface includes pricing, authentication, developer portal, documentation, engineering blog, developer console, signup flow, and 37 more developer resources.'
 plans:
 - name: Amazon Elastic Load Balancing Plans Pricing
   plan_count: 9
@@ -507,9 +525,10 @@ rate_limits:
   name: Amazon Elastic Load Balancing Rate Limits
   slug: amazon-elastic-load-balancing-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: Amazon Elastic Load Balancing API Rules
+  name: Amazon Elastic Load Balancing — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -517,7 +536,8 @@ rules:
     info: 2
     warn: 4
   slug: amazon-elastic-load-balancing-jsonschema-spectral-rules
-- effective_rule_count: 67
+- authorship: generated
+  effective_rule_count: 67
   extends:
   - spectral:oas
   name: Amazon Elastic Load Balancing API Rules
@@ -530,17 +550,17 @@ rules:
   slug: amazon-elastic-load-balancing-spectral-rules
 score:
   band: strong
-  composite: 65.8
+  composite: 64.3
   coverage:
     artifact_dirs: 20
-    catalog_earned: 78.0
+    catalog_earned: 75.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 37.0
+    catalog_gap: 40.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 93.4
+    access_clarity: 85.5
     contract_governance: 27.3
     contract_quality: 62.8
     developer_ergonomics: 65.5
@@ -560,8 +580,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

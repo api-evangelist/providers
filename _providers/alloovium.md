@@ -33,14 +33,23 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Alloovium's public REST API v2 for document intelligence over construction projects — vault (projects, documents, hybrid search), chat (grounded, cited answers), workflows (automation runs), and templ
   name: Alloovium API
   slug: alloovium-api
-artifact_total: 8
+artifact_total: 9
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/alloovium/refs/heads/main/plans/alloovium-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/alloovium-plans-pricing.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.alloovium.com/en/blogs
 - group: company
   title: ''
   type: Website
@@ -179,14 +188,18 @@ mcp_servers:
 - description: Hosted Streamable-HTTP MCP server at https://api.alloovium.com/api/v1/mcp/ exposing 15 tools over the vault, chat, workflows, and templates; authenticated with an Alloovium API key (Bearer ak_live_).
   name: Alloovium MCP Server
   slug: alloovium
-modified: '2026-07-17'
+modified: '2026-10-06'
 name: Alloovium
 nav: Providers
 network: true
-overview: 'Alloovium publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Construction, Document Intelligence, Compliance, and Artificial Intelligence.
+overview: 'Alloovium is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Construction, Document Intelligence, Compliance, and Artificial Intelligence.
 
 
-  Alloovium''s developer surface includes documentation, API reference, getting-started guide, changelog, pricing, support, authentication, and 21 more developer resources.'
+  Alloovium''s developer surface includes engineering blog, documentation, API reference, getting-started guide, changelog, pricing, support, and 23 more developer resources.'
+plans:
+- name: Alloovium Plans Pricing
+  plan_count: 3
+  slug: alloovium-plans-pricing
 random_paper: 16
 rate_limits:
 - limit_count: 0
@@ -199,20 +212,20 @@ scopes:
   summary_line: 9 scopes · authorizationCode
 score:
   band: thin
-  composite: 31.9
+  composite: 38.7
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 20
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.8
   facets:
-    access_clarity: 7.9
+    access_clarity: 39.5
     contract_governance: 18.2
     contract_quality: 24.0
-    developer_ergonomics: 49.4
+    developer_ergonomics: 51.8
     discoverability: 73.2
     operational_transparency: 15.8
   jurisdiction:
@@ -233,9 +246,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

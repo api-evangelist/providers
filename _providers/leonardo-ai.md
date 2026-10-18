@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -486,9 +486,13 @@ features:
 - NSFW handling controls and per-model safety guardrails
 - Acquired by Canva July 2024; tech being integrated into Canva Magic Studio while the API remains independent
 finops:
-- name: Leonardo Ai Finops
+- has_sources: true
+  method: generated
+  name: Leonardo Ai Finops
+  primary_unit: usd
   service_category: AI and Machine Learning
   slug: leonardo-ai-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/leonardo-ai.png
 json_schemas:
 - name: Leonardo.AI Generation
@@ -511,7 +515,7 @@ modified: '2026-09-16'
 name: Leonardo.AI
 nav: Providers
 network: true
-overview: 'Leonardo.AI publishes 14 APIs on the [APIs.io](https://apis.io/) network, including 3D Model Assets API, Blueprints API, Dataset API, and 11 more. Tagged areas include Artificial Intelligence, Image Generation, Video Generation, Generative AI, and Creative.
+overview: 'Leonardo.AI publishes 14 API contracts indexed on the [APIs.io](https://apis.io/) network, including 3D Model Assets API, Blueprints API, Dataset API, and 11 more. Tagged areas include Artificial Intelligence, Image Generation, Video Generation, Generative AI, and Creative.
 
 
   The Leonardo.AI catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -528,10 +532,11 @@ rate_limits:
   name: Leonardo Ai Rate Limits
   slug: leonardo-ai-rate-limits
 rules:
-- effective_rule_count: 32
+- authorship: generated
+  effective_rule_count: 32
   extends:
   - spectral:asyncapi
-  name: Leonardo.AI API Rules
+  name: Leonardo.AI — asyncapi rules
   rule_count: 5
   severity_counts:
     error: 1
@@ -539,9 +544,10 @@ rules:
     info: 1
     warn: 3
   slug: leonardo-ai-asyncapi-spectral-rules
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: Leonardo.AI API Rules
+  name: Leonardo.AI — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -549,7 +555,8 @@ rules:
     info: 2
     warn: 4
   slug: leonardo-ai-jsonschema-spectral-rules
-- effective_rule_count: 50
+- authorship: unmarked
+  effective_rule_count: 50
   extends:
   - spectral:oas
   name: Leonardo.AI API Rules
@@ -561,29 +568,29 @@ rules:
     warn: 4
   slug: leonardo-ai-rules
 score:
-  band: strong
-  composite: 56.9
+  band: developing
+  composite: 50.6
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 74.5
+    artifact_dirs: 21
+    catalog_earned: 61.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 40.5
+    catalog_gap: 53.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: -6.3
   facets:
-    access_clarity: 81.1
+    access_clarity: 60.5
     contract_governance: 13.6
     contract_quality: 66.5
     developer_ergonomics: 57.1
     discoverability: 64.3
-    operational_transparency: 32.1
+    operational_transparency: 18.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - australia
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 56.3
+  previous_composite: 56.9
   provenance:
     agentic_access: derived
     contracts:
@@ -593,13 +600,13 @@ score:
       total: 14
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 22.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

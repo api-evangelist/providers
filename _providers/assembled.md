@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.0
-  scored_at: '2026-10-04'
+  score: 22.1
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 3
@@ -657,9 +657,13 @@ features:
 - SOC 2, GDPR, and HIPAA compliance with enterprise-grade security and policy guardrails
 - Scheduling 4.5+ billion events per year for ~100,000 agents across 50+ countries (2025)
 finops:
-- name: Assembled Finops
+- has_sources: true
+  method: generated
+  name: Assembled Finops
+  primary_unit: agent
   service_category: Customer Support and Workforce Management
   slug: assembled-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/assembled.png
 json_schemas:
 - name: AssembledActivity
@@ -684,7 +688,7 @@ modified: '2026-05-24'
 name: Assembled
 nav: Providers
 network: true
-overview: 'Assembled publishes 27 APIs on the [APIs.io](https://apis.io/) network, including People API, Agent State API, Activities API, and 24 more. Tagged areas include Customer Support, Workforce Management, WFM, AI Agents, and AI Copilot.
+overview: 'Assembled publishes 27 API contracts indexed on the [APIs.io](https://apis.io/) network, including People API, Agent State API, Activities API, and 24 more. Tagged areas include Customer Service, Workforce Management, WFM, AI Agents, and AI Copilot.
 
 
   The Assembled catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -701,9 +705,10 @@ rate_limits:
   name: Assembled Rate Limits
   slug: assembled-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Assembled API Rules
+  name: Assembled — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -711,7 +716,8 @@ rules:
     info: 1
     warn: 4
   slug: assembled-jsonschema-spectral-rules
-- effective_rule_count: 49
+- authorship: unmarked
+  effective_rule_count: 49
   extends:
   - spectral:oas
   name: Assembled API Rules
@@ -723,23 +729,23 @@ rules:
     warn: 4
   slug: assembled-rules
 score:
-  band: strong
-  composite: 57.5
+  band: developing
+  composite: 51.7
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 75.4
+    artifact_dirs: 20
+    catalog_earned: 62.4
     catalog_earned_first_party: 0.0
-    catalog_gap: 39.6
+    catalog_gap: 52.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.8
   facets:
-    access_clarity: 53.4
+    access_clarity: 32.9
     contract_governance: 27.3
     contract_quality: 56.3
     developer_ergonomics: 58.3
     discoverability: 62.5
-    operational_transparency: 47.9
+    operational_transparency: 34.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -761,9 +767,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 50.0
@@ -780,14 +786,14 @@ security:
 - kind: vulnerability-disclosure
   name: Assembled Vulnerability Disclosure
   slug: assembled-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 - kind: trust-center
   name: Assembled Trust Center
   slug: assembled-trust-center
   summary_line: SOC 2, GDPR
 slug: assembled
 tags:
-- Customer Support
+- Customer Service
 - Workforce Management
 - WFM
 - AI Agents

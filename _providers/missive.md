@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -186,9 +186,13 @@ common:
 created: '2026-06-12'
 description: Missive is a team inbox and collaboration platform that brings email, SMS, WhatsApp, Instagram, Facebook Messenger, and live chat into one unified workspace. It provides a REST API for managing conversations, messages, contacts, labels, drafts, analytics, and automation rules, enabling teams to integrate Missive into business workflows. The API supports webhooks for real-time event notifications, custom channels for integrating external communication sources, and UI/iFrame integrations via JavaScript. Developers can automate drafts, sync contacts, generate analytics reports, and build custom integrations with the platform.
 finops:
-- name: Missive Finops
+- has_sources: false
+  method: generated
+  name: Missive Finops
+  primary_unit: ''
   service_category: ''
   slug: missive-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/missive.png
 jsonld:
 - class_count: 77
@@ -200,7 +204,7 @@ modified: '2026-06-12'
 name: Missive
 nav: Providers
 network: true
-overview: 'Missive publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Contact Books API, Contact Groups API, and 4 more. Tagged areas include Team Inbox, Collaboration, Email, Messaging, and Conversations.
+overview: 'Missive publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Analytics API, Contact Books API, Contact Groups API, and 4 more. Tagged areas include Team Inbox, Collaboration, Email, Messaging, and Conversations.
 
 
   The Missive catalog on APIs.io includes 1 JSON-LD context.
@@ -221,17 +225,17 @@ rate_limits:
   slug: missive-rate-limits
 score:
   band: developing
-  composite: 46.5
+  composite: 45.0
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 72.0
+    artifact_dirs: 14
+    catalog_earned: 69.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 43.0
+    catalog_gap: 46.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 57.9
+    access_clarity: 50.0
     contract_governance: 0.0
     contract_quality: 55.6
     developer_ergonomics: 23.8
@@ -251,8 +255,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

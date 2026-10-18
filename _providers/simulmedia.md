@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: In-game rewarded-video ad API. A game server exchanges client credentials for a Bearer token, then requests ad opportunities for a player and reports the playback lifecycle (start, progress, complete,
@@ -41,6 +41,11 @@ apis:
   slug: playerwon-api
 artifact_total: 5
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/simulmedia/refs/heads/main/rate-limits/simulmedia-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/simulmedia-rate-limits.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -113,10 +118,10 @@ modified: '2026-08-13'
 name: Simulmedia
 nav: Providers
 network: true
-overview: 'Simulmedia publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, Television, Connected TV, and Games.
+overview: 'Simulmedia is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, Television, Connected TV, and Games.
 
 
-  Simulmedia''s developer surface includes engineering blog, signup flow, support, changelog, and 11 more developer resources.'
+  Simulmedia''s developer surface includes engineering blog, signup flow, support, changelog, and 12 more developer resources.'
 plans:
 - name: Simulmedia Plans Pricing
   plan_count: 0
@@ -159,8 +164,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

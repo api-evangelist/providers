@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: 'The SoftwareSuggest software catalog is a browsable and searchable index of over 50,000 B2B software products across 800+ categories. Users can filter by category, features, pricing model, deployment '
@@ -48,6 +48,21 @@ apis:
   slug: data-marketplace
 artifact_total: 14
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/softwaresuggest/refs/heads/main/plans/softwaresuggest-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/softwaresuggest-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/softwaresuggest/refs/heads/main/rate-limits/softwaresuggest-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/softwaresuggest-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/softwaresuggest/refs/heads/main/finops/softwaresuggest-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/softwaresuggest-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/softwaresuggest/refs/heads/main/security/softwaresuggest-domain-security.yml
   title: ''
@@ -111,9 +126,13 @@ examples:
   name: Softwaresuggest Review Example
   slug: softwaresuggest-review-example
 finops:
-- name: Softwaresuggest Finops
+- has_sources: false
+  method: generated
+  name: Softwaresuggest Finops
+  primary_unit: ''
   service_category: API
   slug: softwaresuggest-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/softwaresuggest.png
 json_schemas:
 - name: Product Listing
@@ -136,13 +155,13 @@ modified: '2026-07-25'
 name: SoftwareSuggest
 nav: Providers
 network: true
-overview: 'SoftwareSuggest publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Software Discovery, Business Software, Software-as-a-Service, Software Reviews, and B2B.
+overview: 'SoftwareSuggest is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Software Discovery, Business Software, Software-as-a-Service, Software Reviews, and B2B.
 
 
   The SoftwareSuggest catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  SoftwareSuggest''s developer surface includes documentation, developer portal, engineering blog, and 10 more developer resources.'
+  SoftwareSuggest''s developer surface includes documentation, developer portal, engineering blog, and 13 more developer resources.'
 plans:
 - name: Softwaresuggest Plans Pricing
   plan_count: 3
@@ -153,9 +172,10 @@ rate_limits:
   name: Softwaresuggest Rate Limits
   slug: softwaresuggest-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: SoftwareSuggest API Rules
+  name: SoftwareSuggest — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -165,17 +185,17 @@ rules:
   slug: softwaresuggest-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 23.2
+  composite: 21.7
   coverage:
     artifact_dirs: 13
-    catalog_earned: 55.3
+    catalog_earned: 52.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 59.8
+    catalog_gap: 62.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 36.8
+    access_clarity: 28.9
     contract_governance: 9.8
     contract_quality: 10.7
     developer_ergonomics: 21.4
@@ -195,13 +215,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/softwaresuggest/refs/heads/main/screenshots/softwaresuggest-2026-10-11T192605.png
 security:
 - kind: domain-security
   name: Softwaresuggest Domain Security

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The Wikimapia REST API provides access to crowdsourced geographic data including places, categories, streets, and languages. Supports place search by bounding box, coordinates, or full-text query; pla
@@ -85,16 +85,20 @@ common:
 created: '2026-06-13'
 description: Wikimapia is a collaborative geographic wiki that layers crowdsourced place information onto satellite imagery. Launched in 2006, the platform covers over 32 million geographic objects contributed by its community. The REST API provides programmatic access to places, categories, streets, and geographic searches using API-key authentication. Responses are available in JSON and KML formats. The API supports bounding-box queries, coordinate-based nearest-place lookups, full-text search, and detailed place retrieval including geometry, photos, comments, and community-tagged categories.
 finops:
-- name: Wikimapia Finops
+- has_sources: true
+  method: generated
+  name: Wikimapia Finops
+  primary_unit: ''
   service_category: Geospatial / Crowdsourced Mapping Data
   slug: wikimapia-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wikimapia.png
 layout: provider
 modified: '2026-06-13'
 name: Wikimapia
 nav: Providers
 network: true
-overview: 'Wikimapia publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Geospatial, Mapping, Crowdsourced, Places, and Geographic Data.
+overview: 'Wikimapia is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Geospatial, Mapping, Crowdsourced, Places, and Geographic Data.
 
 
   Wikimapia''s developer surface includes documentation, engineering blog, pricing, and 7 more developer resources.'
@@ -108,23 +112,23 @@ rate_limits:
   name: Wikimapia Rate Limits
   slug: wikimapia-rate-limits
 score:
-  band: emerging
-  composite: 13.7
+  band: minimal
+  composite: 7.7
   coverage:
     artifact_dirs: 8
-    catalog_earned: 54.4
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 60.6
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.0
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
     discoverability: 66.1
-    operational_transparency: 24.2
+    operational_transparency: 10.5
   previous_composite: 13.7
   regulatory:
     applies: true
@@ -132,9 +136,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

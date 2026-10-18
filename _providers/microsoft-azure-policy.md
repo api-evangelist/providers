@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -69,6 +69,21 @@ collections:
   name: Azure Policy REST API
   slug: open-microsoft-azure-policy
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-policy/refs/heads/main/plans/microsoft-azure-policy-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/microsoft-azure-policy-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-policy/refs/heads/main/rate-limits/microsoft-azure-policy-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/microsoft-azure-policy-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-policy/refs/heads/main/finops/microsoft-azure-policy-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/microsoft-azure-policy-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-policy/refs/heads/main/agentic-access/microsoft-azure-policy-agentic-access.yml
   title: ''
@@ -136,19 +151,23 @@ common:
 created: '2026-03-13'
 description: Azure Policy is a service that enables you to create, assign, and manage policies that enforce rules and effects over your Azure resources. It helps with compliance, governance, and consistency by evaluating resources against business standards and reporting on their state.
 finops:
-- name: Microsoft Azure Policy Finops
+- has_sources: false
+  method: generated
+  name: Microsoft Azure Policy Finops
+  primary_unit: ''
   service_category: API
   slug: microsoft-azure-policy-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/microsoft-azure-policy.png
 layout: provider
 modified: '2026-09-16'
 name: Azure Policy
 nav: Providers
 network: true
-overview: 'Azure Policy publishes 2 APIs on the [APIs.io](https://apis.io/) network: Operations API and Definitions API. Tagged areas include Compliance, Governance, Policy, and Resource Management.
+overview: 'Azure Policy is listed with 2 APIs on the [APIs.io](https://apis.io/) network: Operations API and Definitions API. Tagged areas include Compliance, Governance, Policy, and Resource Management.
 
 
-  Azure Policy''s developer surface includes authentication, developer portal, pricing, documentation, signup flow, support, and 9 more developer resources.'
+  Azure Policy''s developer surface includes authentication, developer portal, pricing, documentation, signup flow, support, and 12 more developer resources.'
 plans:
 - name: Microsoft Azure Policy Plans Pricing
   plan_count: 3
@@ -165,17 +184,17 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: developing
-  composite: 42.4
+  composite: 40.8
   coverage:
     artifact_dirs: 12
-    catalog_earned: 41.0
+    catalog_earned: 38.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 60.5
+    access_clarity: 52.6
     contract_governance: 0.0
     contract_quality: 44.1
     developer_ergonomics: 35.7
@@ -195,8 +214,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -27,16 +27,35 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 20
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/arkema/refs/heads/main/plans/arkema-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/arkema-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/arkema/refs/heads/main/rate-limits/arkema-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/arkema-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/arkema/refs/heads/main/finops/arkema-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/arkema-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.arkema.com/global/en/media/newsroom/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/arkema/refs/heads/main/security/arkema-domain-security.yml
   title: ''
@@ -103,9 +122,13 @@ features:
 - description: Annual disclosure of Scope 1/2/3 emissions, SBTi-validated 1.5 degree trajectory, Net-Zero by 2050 ambition and Sustainable Solutions portfolio metrics in the Universal Registration Document.
   name: Sustainability Reporting
 finops:
-- name: Arkema Finops
+- has_sources: true
+  method: generated
+  name: Arkema Finops
+  primary_unit: ''
   service_category: Industrial / Chemicals
   slug: arkema-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/arkema.png
 integrations:
 - description: Adhesive Solutions products distributed through construction merchants, industrial distributors and direct OEM contracts globally.
@@ -117,14 +140,14 @@ integrations:
 - description: Alignment with the Science Based Targets initiative (SBTi), Responsible Care, EcoVadis and CDP for emissions, water and supply-chain disclosure.
   name: Sustainability Frameworks
 layout: provider
-modified: '2026-07-25'
+modified: '2026-10-06'
 name: Arkema
 nav: Providers
 network: true
 overview: 'Arkema is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Chemicals, Specialty Materials, Adhesives, Polymers, and Coatings.
 
 
-  Arkema''s developer surface includes developer portal, product news, GitHub presence, and 7 more developer resources.'
+  Arkema''s developer surface includes engineering blog, developer portal, product news, GitHub presence, and 10 more developer resources.'
 plans:
 - name: Arkema Plans Pricing
   plan_count: 1
@@ -135,23 +158,23 @@ rate_limits:
   name: Arkema Rate Limits
   slug: arkema-rate-limits
 score:
-  band: emerging
-  composite: 13.9
+  band: minimal
+  composite: 8.3
   coverage:
-    artifact_dirs: 6
-    catalog_earned: 44.4
+    artifact_dirs: 7
+    catalog_earned: 31.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 70.6
+    catalog_gap: 84.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.6
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 9.5
+    developer_ergonomics: 11.9
     discoverability: 49.1
-    operational_transparency: 24.2
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -167,9 +190,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

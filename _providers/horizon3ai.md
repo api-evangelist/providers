@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 48.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'The NodeZero API is a publicly accessible GraphQL API that exposes a subset of the Horizon3.ai Portal: schedule and control autonomous pentest operations, and read pentests, ops, weaknesses, attack pa'
@@ -46,6 +46,14 @@ asyncapis:
   name: Horizon3Ai Webhooks
   slug: horizon3ai-webhooks
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://horizon3.ai/resource-center/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://horizon3.ai/feed/
 - group: company
   title: ''
   type: Website
@@ -211,17 +219,17 @@ mcp_servers:
 - description: Horizon3.ai-hosted Model Context Protocol server exposing NodeZero data and actions to MCP-compliant agents. Backs onto the same NodeZero platform as the GraphQL API. Secured with OAuth 2.1 (PKCE) via
   name: Horizon3.ai MCP Server
   slug: horizon3ai
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Horizon3.ai
 nav: Providers
 network: true
-overview: 'Horizon3.ai publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Cybersecurity, Penetration Testing, and Autonomous Pentesting.
+overview: 'Horizon3.ai is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Cybersecurity, Penetration Testing, and Autonomous Pentesting.
 
 
   The Horizon3.ai catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Horizon3.ai''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, CLI, and 28 more developer resources.'
+  Horizon3.ai''s developer surface includes engineering blog, documentation, API reference, getting-started guide, pricing, signup flow, CLI, and 30 more developer resources.'
 random_paper: 18
 scopes:
 - name: Horizon3Ai Scopes
@@ -230,15 +238,15 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: developing
-  composite: 49.7
+  composite: 49.8
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 47.4
     contract_governance: 18.2
@@ -261,8 +269,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

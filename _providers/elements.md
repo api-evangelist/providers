@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.0
-  scored_at: '2026-10-04'
+  score: 17.8
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -68,6 +68,21 @@ collections:
   name: Stoplight Elements Configuration Integration API
   slug: open-elements-integration-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/elements/refs/heads/main/plans/elements-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/elements-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/elements/refs/heads/main/rate-limits/elements-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/elements-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/elements/refs/heads/main/finops/elements-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/elements-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/elements/refs/heads/main/agentic-access/elements-agentic-access.yml
   title: ''
@@ -139,9 +154,13 @@ common:
 created: '2026-03-18'
 description: Stoplight Elements is an open-source API documentation component library for rendering OpenAPI specifications interactively. It provides embeddable React and Web Components that produce beautiful, interactive API reference documentation from any OpenAPI 2.0, 3.0, or 3.1 document, with support for a Try It console, code sample generation, sidebar and stacked layouts, and internal operation filtering.
 finops:
-- name: Elements Finops
+- has_sources: false
+  method: generated
+  name: Elements Finops
+  primary_unit: ''
   service_category: API
   slug: elements-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/elements.png
 json_schemas:
 - name: Stoplight Elements Configuration
@@ -157,13 +176,13 @@ modified: '2026-05-19'
 name: Stoplight Elements
 nav: Providers
 network: true
-overview: 'Stoplight Elements publishes 2 APIs on the [APIs.io](https://apis.io/) network: Configuration API and Integration API. Tagged areas include API Documentation, Developer Tools, Documentation, Interactive Docs, and OpenAPI.
+overview: 'Stoplight Elements publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Configuration API and Integration API. Tagged areas include API Documentation, Developer Tools, Documentation, Interactive Docs, and OpenAPI.
 
 
   The Stoplight Elements catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Stoplight Elements'' developer surface includes documentation, GitHub presence, getting-started guide, changelog, and 12 more developer resources.'
+  Stoplight Elements'' developer surface includes documentation, GitHub presence, getting-started guide, changelog, and 15 more developer resources.'
 plans:
 - name: Elements Plans Pricing
   plan_count: 3
@@ -174,9 +193,10 @@ rate_limits:
   name: Elements Rate Limits
   slug: elements-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Stoplight Elements API Rules
+  name: Stoplight Elements — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -186,17 +206,17 @@ rules:
   slug: elements-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 26.7
+  composite: 28.3
   coverage:
     artifact_dirs: 13
-    catalog_earned: 48.7
+    catalog_earned: 51.7
     catalog_earned_first_party: 0.0
-    catalog_gap: 51.4
-    catalog_max: 100.0
+    catalog_gap: 63.4
+    catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.6
   facets:
-    access_clarity: 0.0
+    access_clarity: 7.9
     contract_governance: 9.8
     contract_quality: 51.8
     developer_ergonomics: 19.0
@@ -216,8 +236,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

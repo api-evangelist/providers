@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.3
-  scored_at: '2026-10-04'
+  score: 20.4
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -60,6 +60,10 @@ collections:
   name: ZeroDev Bundler & Paymaster RPC
   slug: open-zerodev
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.zerodev.app/blog
 - group: operate
   title: ''
   type: IssueTracker
@@ -112,19 +116,23 @@ common:
 created: '2026-06-20'
 description: ZeroDev is account-abstraction / smart-wallet infrastructure for EVM chains. It runs an ERC-4337 (and EIP-7702) bundler RPC and a paymaster RPC, both exposed as JSON-RPC over HTTPS, plus the Kernel smart-account SDK and a meta-aggregator (Smart Routing). Apps sponsor gas, let users pay gas in ERC-20s, and submit UserOperations through a single project-scoped RPC endpoint.
 finops:
-- name: Zerodev Finops
+- has_sources: true
+  method: generated
+  name: Zerodev Finops
+  primary_unit: ''
   service_category: Web3 Infrastructure
   slug: zerodev-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zerodev.png
 layout: provider
-modified: '2026-06-20'
+modified: '2026-10-06'
 name: ZeroDev
 nav: Providers
 network: true
-overview: 'ZeroDev publishes 1 API on the [APIs.io](https://apis.io/) network: JSON-RPC API. Tagged areas include Account Abstraction, Smart Wallets, ERC-4337, EIP-7702, and Paymaster.
+overview: 'ZeroDev publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: JSON-RPC API. Tagged areas include Account Abstraction, Smart Wallets, ERC-4337, EIP-7702, and Paymaster.
 
 
-  ZeroDev''s developer surface includes documentation and 10 more developer resources.'
+  ZeroDev''s developer surface includes engineering blog, documentation, and 10 more developer resources.'
 plans:
 - name: Zerodev Plans Pricing
   plan_count: 4
@@ -135,23 +143,23 @@ rate_limits:
   name: Zerodev Rate Limits
   slug: zerodev-rate-limits
 score:
-  band: thin
-  composite: 26.8
+  band: emerging
+  composite: 19.7
   coverage:
-    artifact_dirs: 9
-    catalog_earned: 61.6
+    artifact_dirs: 10
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.4
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.1
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 45.9
-    developer_ergonomics: 17.9
+    developer_ergonomics: 20.2
     discoverability: 66.1
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   open_source:
     applies: true
     score: 0.0
@@ -169,9 +177,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 5.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

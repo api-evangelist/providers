@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The Databricks Asset Bundles API provides CLI-driven endpoints for initializing, validating, deploying, running, and destroying bundles of Databricks resources. Bundles define infrastructure and works
@@ -41,6 +41,11 @@ apis:
   slug: databricks-asset-bundles-api
 artifact_total: 15
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/databricks-asset-bundles/refs/heads/main/finops/databricks-asset-bundles-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/databricks-asset-bundles-finops.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -335,9 +340,13 @@ common:
 created: '2024-01-01'
 description: Databricks Asset Bundles (DABs) provide an infrastructure-as-code approach to managing Databricks data and AI projects. Bundles enable version control, CI/CD, deployment, and management of Databricks resources such as jobs, pipelines, apps, schemas, experiments, and model serving endpoints across workspaces using the Databricks CLI. Databricks renamed the product to Declarative Automation Bundles on 2026-03-16; the DABs acronym, the databricks.yml configuration file and the `databricks bundle` command surface are unchanged. The contract is a first-party JSON Schema for databricks.yml published in the databricks/cli repository and readable at runtime with `databricks bundle schema` — there is no OpenAPI, because bundles are driven by the CLI rather than by an HTTP API of their own.
 finops:
-- name: Databricks Asset Bundles Finops
+- has_sources: false
+  method: generated
+  name: Databricks Asset Bundles Finops
+  primary_unit: ''
   service_category: API
   slug: databricks-asset-bundles-finops
+  template: true
 image: https://www.databricks.com/sites/default/files/2023-05/databricks-logo.png
 json_schemas:
 - name: Databricks Asset Bundle
@@ -360,13 +369,13 @@ modified: '2026-09-05'
 name: Databricks Asset Bundles
 nav: Providers
 network: true
-overview: 'Databricks Asset Bundles publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include CI/CD, Data Engineering, Databricks, Deployment, and Infrastructure as Code.
+overview: 'Databricks Asset Bundles is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include CI/CD, Data Engineering, Databricks, Deployment, and Infrastructure as Code.
 
 
   The Databricks Asset Bundles catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Databricks Asset Bundles'' developer surface includes developer portal, getting-started guide, documentation, authentication, FAQ, changelog, pricing, and 59 more developer resources.'
+  Databricks Asset Bundles'' developer surface includes developer portal, getting-started guide, documentation, authentication, FAQ, changelog, pricing, and 60 more developer resources.'
 plans:
 - name: Databricks Asset Bundles Plans Pricing
   plan_count: 4
@@ -377,9 +386,10 @@ rate_limits:
   name: Databricks Asset Bundles Rate Limits
   slug: databricks-asset-bundles-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Databricks Asset Bundles API Rules
+  name: Databricks Asset Bundles — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -387,7 +397,8 @@ rules:
     info: 1
     warn: 4
   slug: databricks-asset-bundles-jsonschema-spectral-rules
-- effective_rule_count: 46
+- authorship: unmarked
+  effective_rule_count: 46
   extends:
   - spectral:oas
   name: Databricks Asset Bundles API Rules
@@ -404,18 +415,18 @@ scopes:
   slug: databricks-asset-bundles-scopes
   summary_line: 9 scopes
 score:
-  band: exemplar
-  composite: 66.5
+  band: strong
+  composite: 65.0
   coverage:
     artifact_dirs: 25
-    catalog_earned: 83.4
+    catalog_earned: 80.4
     catalog_earned_first_party: 24.0
-    catalog_gap: 31.6
+    catalog_gap: 34.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 93.4
+    access_clarity: 85.5
     contract_governance: 45.5
     contract_quality: 13.9
     developer_ergonomics: 85.7
@@ -432,8 +443,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 41.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

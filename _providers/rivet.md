@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -66,6 +66,14 @@ collections:
   name: RivetKit Actors Gateway API
   slug: open-rivet-gateway-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://rivet.dev/blog/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://rivet.dev/rss/feed.xml
 - group: company
   title: ''
   type: Website
@@ -198,26 +206,26 @@ created: '2026-07-17'
 description: Rivet is infrastructure for the agentic era, providing durable, stateful compute for AI agents and realtime applications. Its core primitive, Rivet Actors (RivetKit), is a runtime for long-lived processes that co-locate in-memory state with compute, support built-in WebSockets, workflows, queues, scheduling and cron, hibernate when idle, and scale from zero to thousands of instances across a global edge network. Rivet also ships agentOS, a lightweight WebAssembly-powered alternative to sandboxes for running coding agents, and Rivet Cloud, a managed serverless platform. RivetKit is open source (Apache-2.0), self-hostable on Postgres, the file system, or FoundationDB, with client SDKs for JavaScript, React, Rust, Swift and SwiftUI, a CLI, an OpenAPI-described gateway/inspector HTTP API and an AsyncAPI WebSocket protocol. Rivet is backed by Y Combinator and a16z Speedrun.
 image: https://rivet.dev/favicon.ico
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Rivet
 nav: Providers
 network: true
-overview: 'Rivet publishes 2 APIs on the [APIs.io](https://apis.io/) network: Actors API and Gateway API. Tagged areas include Company, Infrastructure, Actors, Stateful Compute, and AI Agents.
+overview: 'Rivet publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Actors API and Gateway API. Tagged areas include Company, Infrastructure, Actors, Stateful Compute, and AI Agents.
 
 
-  Rivet''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, pricing, signup flow, and 21 more developer resources.'
+  Rivet''s developer surface includes engineering blog, documentation, API reference, getting-started guide, changelog, pricing, signup flow, and 23 more developer resources.'
 random_paper: 4
 score:
   band: developing
-  composite: 40.0
+  composite: 40.1
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 10.5
     contract_governance: 4.5
@@ -242,8 +250,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

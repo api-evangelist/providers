@@ -34,10 +34,20 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 4
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/more-health/refs/heads/main/plans/more-health-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/more-health-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/more-health/refs/heads/main/rate-limits/more-health-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/more-health-rate-limits.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/more-health/refs/heads/main/security/more-health-trust-center.yml
   title: ''
@@ -122,7 +132,7 @@ network: true
 overview: 'MORE Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Healthcare, Digital Health, and Telehealth.
 
 
-  MORE Health''s developer surface includes support, FAQ, and 11 more developer resources.'
+  MORE Health''s developer surface includes support, FAQ, and 13 more developer resources.'
 plans:
 - name: More Health Plans Pricing
   plan_count: 0
@@ -166,8 +176,8 @@ score:
     regime: Health
     regime_id: health
     score: 23.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

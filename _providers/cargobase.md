@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.cargobase.com/rss.xml
 - group: company
   title: ''
   type: Website
@@ -106,18 +110,18 @@ created: '2026-07-17'
 description: Cargobase is a cloud-based Transportation Management System (TMS) for enterprise shippers that automates spot-buy and contract freight procurement across air, ocean, road, and courier modes. Shippers request quotes, compare carrier and forwarder rates apples-to-apples, award and execute shipments, track them in real time, audit freight invoices, and report on carbon emissions and logistics-provider performance from a single platform. Founded in 2013, Cargobase serves automotive, aviation, semiconductor, machinery, energy, and oil-and-gas shippers worldwide, is ISO/IEC 27001 certified and SOC 2 compliant, and is backed by 500 Global.
 image: https://assets.cargobase.com/fav_icon_50ebea0818.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Cargobase
 nav: Providers
 network: true
 overview: 'Cargobase is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Logistics, Transportation Management System, Freight, and Supply Chain.
 
 
-  Cargobase''s developer surface includes getting-started guide, support, engineering blog, signup flow, and 11 more developer resources.'
+  Cargobase''s developer surface includes getting-started guide, support, engineering blog, signup flow, and 12 more developer resources.'
 random_paper: 11
 score:
   band: emerging
-  composite: 20.7
+  composite: 20.8
   coverage:
     artifact_dirs: 7
     catalog_earned: 27.0
@@ -125,7 +129,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 28.9
     contract_governance: 18.2
@@ -146,8 +150,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

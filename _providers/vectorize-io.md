@@ -28,20 +28,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 22
+- acting_count: 21
   human_in_the_loop: 1
   name: Vectorize Io Agentic Access
   operation_count: 37
   slug: vectorize-io-agentic-access
-  summary_line: 37 operations · 22 acting · 1 human-in-the-loop
+  summary_line: 37 operations · 21 acting · 1 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://api.vectorize.io/v1
@@ -117,6 +117,14 @@ collections:
   name: Vectorize API
   slug: open-vectorize-io
 common:
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://vectorize.io/pricing
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://vectorize.io/feed.xml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/vectorize-io/refs/heads/main/agentic-access/vectorize-io-agentic-access.yml
   title: ''
@@ -170,22 +178,26 @@ common:
 created: '2026-06-20'
 description: Vectorize is a RAG (retrieval-augmented generation) pipeline platform that ingests unstructured data, chunks and embeds it, and serves low-latency retrieval against a managed vector database. The Vectorize API lets developers create, start, and stop RAG pipelines, run retrieval, manage source / destination / AI-platform connectors, upload files, extract documents with Iris, and run deep research.
 finops:
-- name: Vectorize Io Finops
+- has_sources: true
+  method: generated
+  name: Vectorize Io Finops
+  primary_unit: ''
   service_category: AI and Machine Learning
   slug: vectorize-io-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vectorize-io.png
 layout: provider
-modified: '2026-06-20'
+modified: '2026-10-06'
 name: Vectorize
 nav: Providers
 network: true
-overview: 'Vectorize publishes 8 APIs on the [APIs.io](https://apis.io/) network, including AI Platform Connectors API, Destination Connectors API, Extraction API, and 5 more. Tagged areas include Artificial Intelligence, RAG, Vectorization, Embeddings, and Retrieval.
+overview: 'Vectorize publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including AI Platform Connectors API, Destination Connectors API, Extraction API, and 5 more. Tagged areas include Artificial Intelligence, RAG, Vectorization, Embeddings, and Retrieval.
 
 
-  Vectorize''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
+  Vectorize''s developer surface includes pricing, authentication, documentation, engineering blog, and 9 more developer resources.'
 plans:
 - name: Vectorize Io Plans Pricing
-  plan_count: 4
+  plan_count: 10
   slug: vectorize-io-plans-pricing
 random_paper: 16
 rate_limits:
@@ -194,22 +206,22 @@ rate_limits:
   slug: vectorize-io-rate-limits
 score:
   band: thin
-  composite: 34.5
+  composite: 33.0
   coverage:
     artifact_dirs: 11
-    catalog_earned: 61.6
-    catalog_earned_first_party: 0.0
-    catalog_gap: 53.4
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 36.3
+    access_clarity: 42.1
     contract_governance: 0.0
     contract_quality: 46.2
     developer_ergonomics: 32.1
     discoverability: 66.1
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   previous_composite: 34.5
   provenance:
     agentic_access: derived
@@ -224,8 +236,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

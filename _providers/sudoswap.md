@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: On-chain smart contract interface for the Sudoswap AMM protocol. Developers interact with LSSVMPairFactory to create pools, with LSSVMPair contracts to deposit/withdraw assets, and with VeryFastRouter
@@ -47,6 +47,21 @@ apis:
   slug: sudoswap-sdk-sudo-defined-quoter
 artifact_total: 8
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sudoswap/refs/heads/main/plans/plans.yml
+  title: ''
+  type: Plans
+  url: plans/plans.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/sudoswap/refs/heads/main/rate-limits/rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sudoswap/refs/heads/main/finops/finops.yml
+  title: ''
+  type: FinOps
+  url: finops/finops.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -106,9 +121,13 @@ common:
   url: https://github.com/sudoswap/upptime
 description: Sudoswap is a minimal, gas-efficient automated market maker (AMM) protocol for NFTs that facilitates NFT-to-token swaps using customizable bonding curves. It supports ERC-721 and ERC-1155 NFTs alongside ETH and ERC-20 tokens. Liquidity providers can create single-sided buy/sell pools or dual-sided trade pools to earn fees. Developers interact with the protocol through smart contracts (LSSVMPair, VeryFastRouter, bonding curve contracts) and off-chain indexing services such as The Graph subgraph and the Defined/Codex data API. Sudoswap v2 is deployed on Ethereum mainnet, Arbitrum, Base, Berachain, Sanko, and other EVM-compatible networks.
 finops:
-- name: Finops
+- has_sources: false
+  method: generated
+  name: Finops
+  primary_unit: ''
   service_category: ''
   slug: finops
+  template: true
 image: https://sudoswap.xyz/favicon.ico
 jsonld:
 - class_count: 0
@@ -120,13 +139,13 @@ modified: '2026-06-14'
 name: Sudoswap
 nav: Providers
 network: true
-overview: 'Sudoswap publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include NFT, AMM, DeFi, Liquidity, and Bonding Curves.
+overview: 'Sudoswap is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include NFT, AMM, DeFi, Liquidity, and Bonding Curves.
 
 
   The Sudoswap catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Sudoswap''s developer surface includes documentation, engineering blog, GitHub presence, FAQ, status page, and 9 more developer resources.'
+  Sudoswap''s developer surface includes documentation, engineering blog, GitHub presence, FAQ, status page, and 12 more developer resources.'
 plans:
 - name: Plans
   plan_count: 3
@@ -138,17 +157,17 @@ rate_limits:
   slug: rate-limits
 score:
   band: emerging
-  composite: 22.4
+  composite: 17.3
   coverage:
     artifact_dirs: 8
-    catalog_earned: 58.8
+    catalog_earned: 48.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 56.2
+    catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.1
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 6.7
     developer_ergonomics: 16.7
@@ -164,9 +183,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

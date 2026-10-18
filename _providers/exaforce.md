@@ -32,10 +32,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.exaforce.com/blogs
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.exaforce.com/blogs/rss.xml
 - group: company
   title: ''
   type: Website
@@ -77,26 +85,26 @@ created: '2026-07-17'
 description: Exaforce is a security operations platform that pairs AI agents with a unified data layer to help teams detect, triage, investigate, and respond to threats faster. Its four autonomous "Exabot" agents (Detect, Triage, Investigate, and Respond) automate SOC workflows across 100+ data sources spanning cloud, identity, endpoint, SaaS, and code repositories, and can run as a self-operated platform or as a managed detection and response (MDR) service staffed by expert analysts working alongside the AI 24/7. Exaforce positions itself as an agentic-SOC alternative to traditional SIEM tooling while retaining integration compatibility. The company is backed by Mayfield and profiled in the API Evangelist network. No public developer API or reference documentation is currently published; this profile captures the company's public web, security, and trust surface.
 image: https://cdn.prod.website-files.com/67d895a4a98745273854676e/6903c255b37fa747f21907e0_Exaforce-Logo.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Exaforce
 nav: Providers
 network: true
 overview: 'Exaforce is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Cybersecurity, Security Operations, and SOC.
 
 
-  Exaforce''s developer surface includes engineering blog, support, and 7 more developer resources.'
+  Exaforce''s developer surface includes engineering blog, support, and 9 more developer resources.'
 random_paper: 9
 score:
   band: emerging
-  composite: 13.6
+  composite: 13.7
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 35.5
     contract_governance: 0.0
@@ -111,8 +119,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 17.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

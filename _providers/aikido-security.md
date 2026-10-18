@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 24
+- acting_count: 23
   human_in_the_loop: 0
   name: Aikido Security Agentic Access
   operation_count: 50
   slug: aikido-security-agentic-access
-  summary_line: 50 operations · 24 acting
+  summary_line: 50 operations · 23 acting
 api_count: 1
 apis:
 - baseURL: https://app.aikido.dev/api/public/v1
@@ -150,6 +150,21 @@ collections:
   name: Aikido Security Public REST API
   slug: open-aikido-security
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/aikido-security/refs/heads/main/plans/aikido-security-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/aikido-security-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/aikido-security/refs/heads/main/rate-limits/aikido-security-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/aikido-security-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/aikido-security/refs/heads/main/finops/aikido-security-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/aikido-security-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/aikido-security/refs/heads/main/capabilities/aikido-security-capability-edges.yml
   title: ''
@@ -239,19 +254,23 @@ common:
 created: '2026-05-23'
 description: Aikido Security is a developer-first all-in-one application security platform that consolidates SAST, SCA, secret detection, container scanning, IaC scanning, CSPM, DAST, API security, malware detection, cloud posture, and AI pentesting into a single product designed for engineering teams. Aikido exposes a public REST API at apidocs.aikido.dev covering issues, code repositories, cloud resources, containers, domains and APIs, compliance (SOC2, ISO 27001, NIS2, CIS), custom SAST rules, AI pentesting, task tracking, webhooks, user and team management, Zen app-protection configuration, and activity logging.
 finops:
-- name: Aikido Security Finops
+- has_sources: false
+  method: generated
+  name: Aikido Security Finops
+  primary_unit: ''
   service_category: API
   slug: aikido-security-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aikido-security.png
 layout: provider
 modified: '2026-05-23'
 name: Aikido Security
 nav: Providers
 network: true
-overview: 'Aikido Security publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Clouds API, Code Repositories API, Compliance API, and 9 more. Tagged areas include AI Pentesting, API Security, Application Security, Cloud Security, and Compliance.
+overview: 'Aikido Security publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including Clouds API, Code Repositories API, Compliance API, and 9 more. Tagged areas include AI Pentesting, API Security, Application Security, Cloud Security, and Compliance.
 
 
-  Aikido Security''s developer surface includes authentication, documentation, signup flow, pricing, engineering blog, and 15 more developer resources.'
+  Aikido Security''s developer surface includes authentication, documentation, signup flow, pricing, engineering blog, and 18 more developer resources.'
 plans:
 - name: Aikido Security Plans Pricing
   plan_count: 1
@@ -263,22 +282,22 @@ rate_limits:
   slug: aikido-security-rate-limits
 score:
   band: thin
-  composite: 35.7
+  composite: 29.6
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 49.4
+    artifact_dirs: 14
+    catalog_earned: 36.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 65.6
+    catalog_gap: 79.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.1
   facets:
-    access_clarity: 47.9
+    access_clarity: 26.3
     contract_governance: 0.0
     contract_quality: 46.3
     developer_ergonomics: 21.4
     discoverability: 64.3
-    operational_transparency: 29.5
+    operational_transparency: 15.8
   previous_composite: 35.7
   provenance:
     agentic_access: derived
@@ -293,9 +312,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0
@@ -328,7 +347,7 @@ tags:
 - Developer-First
 - IaC Scanning
 - SAST
-- SCA
+- Software Composition Analysis
 - Secret Detection
 website: https://www.aikido.dev/
 ---

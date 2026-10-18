@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 16.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: 'REST API behind the AI Connect SDK: application users, connector connections, write-only credentials, connection tokens, catalog and marketplace search, plus the execution plane for capabilities. Auth'
@@ -34,6 +34,19 @@ apis:
   slug: vinkius-edge-mcp
 artifact_total: 9
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/vinkius-com/refs/heads/main/rate-limits/vinkius-com-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/vinkius-com-rate-limits.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://vinkius.com/blog
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://vinkius.com/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/vinkius-com/refs/heads/main/security/vinkius-com-domain-security.yml
   title: ''
@@ -158,14 +171,14 @@ mcp_servers:
 - description: 'Vinkius IS an MCP platform - every Connector in its catalog (9,258 connectors / 63,093 capabilities per llms.txt on 2026-09-20) is a hosted remote MCP server on the Vinkius Edge, addressed by one URL '
   name: Vinkius MCP Server
   slug: vinkius-edge
-modified: '2026-09-20'
+modified: '2026-10-06'
 name: Vinkius
 nav: Providers
 network: true
-overview: 'Vinkius publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, MCP, AI Agents, Integration, and Connectors.
+overview: 'Vinkius is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, MCP, AI Agents, Integration, and Connectors.
 
 
-  Vinkius'' developer surface includes documentation, pricing, signup flow, support, CLI, and 21 more developer resources.'
+  Vinkius'' developer surface includes engineering blog, documentation, pricing, signup flow, support, CLI, and 23 more developer resources.'
 plans:
 - name: Vinkius Com Plans Pricing
   plan_count: 5
@@ -182,20 +195,20 @@ scopes:
   summary_line: 2 scopes
 score:
   band: developing
-  composite: 48.2
+  composite: 48.8
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 19
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 76.3
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 69.0
+    developer_ergonomics: 71.4
     discoverability: 68.3
     operational_transparency: 31.6
   previous_composite: 48.2
@@ -208,13 +221,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 55.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/vinkius-com/refs/heads/main/screenshots/vinkius-com-2026-10-11T133008.png
 security:
 - kind: authentication
   name: Vinkius Com Authentication

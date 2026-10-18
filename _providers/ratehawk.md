@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.5
-  scored_at: '2026-10-04'
+  score: 19.6
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 12
+- acting_count: 8
   human_in_the_loop: 0
   name: Ratehawk Agentic Access
   operation_count: 13
   slug: ratehawk-agentic-access
-  summary_line: 13 operations · 12 acting
+  summary_line: 13 operations · 8 acting
 api_count: 1
 apis:
 - baseURL: https://api.worldota.net/api/b2b/v3
@@ -155,16 +155,20 @@ common:
 created: '2026-06-25'
 description: RateHawk is the B2B hotel and travel booking brand of Emerging Travel Group (ETG). Its Partner API (pAPI v3, served from api.worldota.net) gives OTAs, travel platforms, and agencies programmatic access to 2.5M+ properties with net rates, covering hotel search, prebook, the asynchronous order booking flow, static hotel content, and cancellation over a JSON REST interface secured with HTTP Basic auth.
 finops:
-- name: Ratehawk Finops
+- has_sources: true
+  method: generated
+  name: Ratehawk Finops
+  primary_unit: ''
   service_category: Travel and Booking
   slug: ratehawk-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ratehawk.png
 layout: provider
 modified: '2026-06-25'
 name: RateHawk
 nav: Providers
 network: true
-overview: 'RateHawk publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Booking API, Cancellation API, Hotel Content API, and 3 more. Tagged areas include Travel, Hotels, Booking, B2B, and Reservations.
+overview: 'RateHawk publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Booking API, Cancellation API, Hotel Content API, and 3 more. Tagged areas include Travel, Hotels, Booking, B2B, and Reservations.
 
 
   RateHawk''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
@@ -179,22 +183,22 @@ rate_limits:
   slug: ratehawk-rate-limits
 score:
   band: thin
-  composite: 35.2
+  composite: 26.9
   coverage:
     artifact_dirs: 11
-    catalog_earned: 61.6
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.4
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 48.4
     developer_ergonomics: 32.1
     discoverability: 66.1
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   previous_composite: 35.2
   provenance:
     agentic_access: derived
@@ -209,9 +213,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

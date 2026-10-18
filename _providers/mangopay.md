@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 116
   human_in_the_loop: 0
@@ -338,9 +338,13 @@ examples:
   name: Request Examples
   slug: request-examples
 finops:
-- name: Finops
+- has_sources: false
+  method: generated
+  name: Finops
+  primary_unit: ''
   service_category: ''
   slug: finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mangopay.png
 json_schemas:
 - name: Mangopay Schemas
@@ -356,7 +360,7 @@ modified: '2026-06-13'
 name: Mangopay
 nav: Providers
 network: true
-overview: 'Mangopay publishes 24 APIs on the [APIs.io](https://apis.io/) network, including Bank Accounts API, Client (Platform) API, Client Wallets API, and 21 more. Tagged areas include Payments, Marketplace Payments, Digital Wallet, KYC, and KYB.
+overview: 'Mangopay publishes 24 API contracts indexed on the [APIs.io](https://apis.io/) network, including Bank Accounts API, Client (Platform) API, Client Wallets API, and 21 more. Tagged areas include Payments, Marketplace Payments, Digital Wallet, KYC, and KYB.
 
 
   The Mangopay catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -373,9 +377,10 @@ rate_limits:
   name: Rate Limits
   slug: rate-limits
 rules:
-- effective_rule_count: 2
+- authorship: generated
+  effective_rule_count: 2
   extends: []
-  name: Mangopay API Rules
+  name: Mangopay — jsonschema rules
   rule_count: 2
   severity_counts:
     error: 0
@@ -389,18 +394,18 @@ scopes:
   slug: mangopay-scopes
   summary_line: 20 scopes · clientCredentials
 score:
-  band: developing
-  composite: 41.8
+  band: thin
+  composite: 37.5
   coverage:
-    artifact_dirs: 16
-    catalog_earned: 57.7
+    artifact_dirs: 18
+    catalog_earned: 49.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.3
+    catalog_gap: 65.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: -4.3
   facets:
-    access_clarity: 37.4
+    access_clarity: 15.8
     contract_governance: 7.6
     contract_quality: 51.6
     developer_ergonomics: 52.4
@@ -411,7 +416,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - europe
-  previous_composite: 41.2
+  previous_composite: 41.8
   provenance:
     agentic_access: derived
     contracts:
@@ -425,8 +430,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 24.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

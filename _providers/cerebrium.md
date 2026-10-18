@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -73,6 +73,14 @@ collections:
   name: Cerebrium Cortex Inference API
   slug: open-cerebrium
 common:
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://cerebrium.ai/pricing
+- group: company
+  title: ''
+  type: Blog
+  url: https://cerebrium.ai/blog
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/cerebrium/refs/heads/main/agentic-access/cerebrium-agentic-access.yml
   title: ''
@@ -122,22 +130,26 @@ common:
 created: '2026-06-20'
 description: Cerebrium is a serverless GPU infrastructure platform for real-time AI and ML workloads. Developers package code with the Cortex framework and Cerebrium CLI, then deploy each function as an authenticated REST endpoint on autoscaling GPU/CPU compute billed per second, with streaming, WebSocket, async, and OpenAI-compatible invocation patterns.
 finops:
-- name: Cerebrium Finops
+- has_sources: true
+  method: generated
+  name: Cerebrium Finops
+  primary_unit: ''
   service_category: AI and Machine Learning
   slug: cerebrium-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cerebrium.png
 layout: provider
-modified: '2026-06-20'
+modified: '2026-10-06'
 name: Cerebrium
 nav: Providers
 network: true
-overview: 'Cerebrium publishes 3 APIs on the [APIs.io](https://apis.io/) network, including Inference API, OpenAI Compatible API, and 1 more. Tagged areas include Artificial Intelligence, GPU, Serverless, Inference, and ML Infrastructure.
+overview: 'Cerebrium publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network, including Inference API, OpenAI Compatible API, and 1 more. Tagged areas include Artificial Intelligence, GPU, Serverless, Inference, and ML Infrastructure.
 
 
-  Cerebrium''s developer surface includes authentication, documentation, and 8 more developer resources.'
+  Cerebrium''s developer surface includes pricing, engineering blog, authentication, documentation, and 8 more developer resources.'
 plans:
 - name: Cerebrium Plans Pricing
-  plan_count: 4
+  plan_count: 16
   slug: cerebrium-plans-pricing
 random_paper: 12
 rate_limits:
@@ -146,22 +158,22 @@ rate_limits:
   slug: cerebrium-rate-limits
 score:
   band: thin
-  composite: 37.1
+  composite: 36.1
   coverage:
-    artifact_dirs: 10
-    catalog_earned: 61.6
-    catalog_earned_first_party: 0.0
-    catalog_gap: 53.4
+    artifact_dirs: 12
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.0
   facets:
-    access_clarity: 36.3
+    access_clarity: 42.1
     contract_governance: 0.0
     contract_quality: 50.2
-    developer_ergonomics: 29.8
+    developer_ergonomics: 32.1
     discoverability: 66.1
-    operational_transparency: 46.8
+    operational_transparency: 26.3
   previous_composite: 37.1
   provenance:
     agentic_access: derived
@@ -176,12 +188,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
     score: 0.0
+screenshot: https://raw.githubusercontent.com/api-evangelist/cerebrium/refs/heads/main/screenshots/cerebrium-2026-10-11T184148.png
 security:
 - kind: authentication
   name: Cerebrium Authentication

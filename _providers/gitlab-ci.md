@@ -36,15 +36,15 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 54.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 627
-  human_in_the_loop: 22
+- acting_count: 633
+  human_in_the_loop: 25
   name: Gitlab Ci Agentic Access
-  operation_count: 1125
+  operation_count: 1140
   slug: gitlab-ci-agentic-access
-  summary_line: 1125 operations · 627 acting · 22 human-in-the-loop
-api_count: 1
+  summary_line: 1140 operations · 633 acting · 25 human-in-the-loop
+api_count: 2
 apis:
 - description: GitLab's GraphQL API at /api/graphql. Many CI/CD entities (Pipeline, CiJob, CiRunner, MergeRequest pipelines) are exposed via GraphQL queries and mutations.
   name: GitLab GraphQL API
@@ -910,9 +910,13 @@ common:
 created: '2026-05-08'
 description: GitLab CI/CD is the built-in continuous integration, delivery and deployment platform for GitLab. The CI/CD surface area within GitLab's REST API v4 covers pipelines, jobs, pipeline schedules, pipeline triggers, runners, agents, releases, environments, deployments, package and container registries, and the security/dependency scanners. GitLab also exposes a GraphQL API.
 finops:
-- name: Gitlab Ci Finops
+- has_sources: true
+  method: generated
+  name: Gitlab Ci Finops
+  primary_unit: ''
   service_category: DevOps / CI/CD
   slug: gitlab-ci-finops
+  template: false
 graphqls:
 - description: GitLab's GraphQL API at /api/graphql. Many CI/CD entities (Pipeline, CiJob, CiRunner, MergeRequest pipelines) are exposed via GraphQL queries and mutations.
   name: GitLab CI/CD GraphQL API
@@ -931,7 +935,7 @@ modified: '2026-05-19'
 name: GitLab CI/CD
 nav: Providers
 network: true
-overview: 'GitLab CI/CD publishes 98 APIs on the [APIs.io](https://apis.io/) network, including access_requests API, access_tokens API, Agents API, and 95 more. Tagged areas include DevOps, CI/CD, Pipelines, GitLab, and DevSecOps.
+overview: 'GitLab CI/CD publishes 98 API contracts indexed on the [APIs.io](https://apis.io/) network, including access_requests API, access_tokens API, Agents API, and 95 more. Tagged areas include DevOps, CI/CD, Pipelines, GitLab, and DevSecOps.
 
 
   GitLab CI/CD''s developer surface includes authentication, documentation, pricing, GitHub presence, engineering blog, and 11 more developer resources.'
@@ -949,23 +953,23 @@ rate_limits:
   slug: gitlab-ci-rate-limits
 score:
   band: developing
-  composite: 45.6
+  composite: 44.1
   coverage:
     artifact_dirs: 20
-    catalog_earned: 60.0
+    catalog_earned: 57.0
     catalog_earned_first_party: 20.0
     catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -1.5
   facets:
-    access_clarity: 57.9
+    access_clarity: 50.0
     contract_governance: 0.0
     contract_quality: 44.6
     developer_ergonomics: 31.0
     discoverability: 75.0
     operational_transparency: 42.1
-  previous_composite: 45.1
+  previous_composite: 45.6
   provenance:
     agentic_access: derived
     contracts:
@@ -980,8 +984,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The ISNetworld API is a RESTful, bearer-token authenticated HTTP API that lets ISN subscribers download their own ISNetworld data — company profile scorecards, connected contractor lists and related c
@@ -44,6 +44,11 @@ apis:
   slug: isnetworld-api
 artifact_total: 7
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/isn/refs/heads/main/rate-limits/isn-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/isn-rate-limits.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/isn/refs/heads/main/security/isn-domain-security.yml
   title: ''
@@ -127,10 +132,10 @@ modified: '2026-08-23'
 name: ISN
 nav: Providers
 network: true
-overview: 'ISN publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Contractor Management, Supplier Management, Health Safety and Environment, and Risk Management.
+overview: 'ISN is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Contractor Management, Supplier Management, Health Safety and Environment, and Risk Management.
 
 
-  ISN''s developer surface includes support, engineering blog, signup flow, and 11 more developer resources.'
+  ISN''s developer surface includes support, engineering blog, signup flow, and 12 more developer resources.'
 plans:
 - name: Isn Plans Pricing
   plan_count: 0
@@ -168,8 +173,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 26.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

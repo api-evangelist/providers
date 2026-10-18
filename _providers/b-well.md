@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 57.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -89,6 +89,14 @@ collections:
   name: Client Webhook API
   slug: open-b-well-webhook-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://resources.icanbwell.com/resource-type/blog/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://resources.icanbwell.com/feed/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/b-well/refs/heads/main/overlays/b-well-client-webhook-api-overlay.yaml
   title: ''
@@ -297,17 +305,17 @@ mcp_servers:
 - description: Remote MCP server at api.client-sandbox.icanbwell.com over HTTP; 31 tools listed.
   name: b.well MCP Server
   slug: bwell-mcp-fhir-agent
-modified: '2026-08-15'
+modified: '2026-10-06'
 name: b.well
 nav: Providers
 network: true
-overview: 'b.well publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Users API, Webhook API, and 3 more. Tagged areas include Company, Health, Healthcare, Digital Health, and FHIR.
+overview: 'b.well publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Users API, Webhook API, and 3 more. Tagged areas include Company, Health, Healthcare, Digital Health, and FHIR.
 
 
   The b.well catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  b.well''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, changelog, and 36 more developer resources.'
+  b.well''s developer surface includes engineering blog, documentation, API reference, getting-started guide, authentication, support, changelog, and 38 more developer resources.'
 plans:
 - name: B Well Plans Pricing
   plan_count: 0
@@ -324,15 +332,15 @@ scopes:
   summary_line: 4 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 52.2
+  composite: 52.3
   coverage:
-    artifact_dirs: 25
+    artifact_dirs: 27
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 43.4
     contract_governance: 18.2
@@ -367,8 +375,8 @@ score:
     regime: Health
     regime_id: health
     score: 46.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

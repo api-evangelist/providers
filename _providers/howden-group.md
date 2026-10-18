@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: low
+  gated: partner
+  gated_source:
+  - tag:Partner Gated
   label: Unknown
   onboarding: unknown
   pricing: unknown
@@ -33,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
@@ -129,7 +132,7 @@ modified: '2026-07-25'
 name: Howden Group
 nav: Providers
 network: true
-overview: 'Howden Group is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, United Kingdom, Brokers, Insurance Broking, and Reinsurance.
+overview: 'Howden Group is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, United Kingdom, Brokerage, Insurance Broking, and Reinsurance.
 
 
   Howden Group''s developer surface includes developer portal, engineering blog, support, and 16 more developer resources.'
@@ -169,8 +172,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 21.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -190,7 +193,7 @@ slug: howden-group
 tags:
 - Insurance
 - United Kingdom
-- Brokers
+- Brokerage
 - Insurance Broking
 - Reinsurance
 - Specialty Insurance
@@ -199,6 +202,5 @@ tags:
 - Credit Insurance
 - London Market
 - ACORD
-- Partner Gated
 website: https://www.howdengroup.com/uk-en
 ---

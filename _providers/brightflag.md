@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: OAuth 2.0 secured REST API (OpenAPI 3.1) for Brightflag's enterprise legal management platform. Includes a Reporting API to extract key datasets and a Matter Budget API, plus operations to search invo
@@ -41,6 +41,10 @@ apis:
   slug: brightflag-api
 artifact_total: 5
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://brightflag.com/press/
 - group: company
   title: ''
   type: Website
@@ -134,31 +138,31 @@ created: '2026-07-17'
 description: Brightflag is an AI-first enterprise legal management (ELM) platform that helps corporate legal teams control legal spend, manage matters, benchmark outside counsel, and automate invoice review. Founded in 2014 and headquartered in Dublin with a New York presence, Brightflag combines patented AI for invoice review and spend classification with e-billing, matter management, vendor management, and reporting. For developers Brightflag exposes an OAuth 2.0 secured REST API (OpenAPI 3.1) — including a Reporting API for extracting key datasets and a Matter Budget API — to integrate legal operations data with ERP, payment, and enterprise systems. This profile was enriched from Brightflag's public developer documentation and help center.
 image: https://brightflag.com/favicon.ico
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Brightflag
 nav: Providers
 network: true
-overview: 'Brightflag publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Legal, Legal Operations, Legal Spend Management, and Enterprise Legal Management.
+overview: 'Brightflag is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Legal, Legal Operations, Legal Spend Management, and Enterprise Legal Management.
 
 
-  Brightflag''s developer surface includes documentation, API reference, getting-started guide, support, authentication, and 15 more developer resources.'
+  Brightflag''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, authentication, and 15 more developer resources.'
 random_paper: 16
 score:
   band: thin
-  composite: 29.2
+  composite: 29.7
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 13
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 22.4
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 54.8
+    developer_ergonomics: 57.1
     discoverability: 73.2
     operational_transparency: 21.1
   jurisdiction:
@@ -183,8 +187,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 25.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -203,7 +207,7 @@ security:
 - kind: vulnerability-disclosure
   name: Brightflag Vulnerability Disclosure
   slug: brightflag-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 - kind: trust-center
   name: Brightflag Trust Center
   slug: brightflag-trust-center

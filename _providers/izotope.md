@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -243,7 +243,7 @@ modified: '2026-08-12'
 name: iZotope
 nav: Providers
 network: true
-overview: 'iZotope publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Audio, Audio Software, Music Production, Mixing, and Mastering.
+overview: 'iZotope is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Audio, Audio Software, Music Production, Mixing, and Mastering.
 
 
   iZotope''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, support, YouTube channel, and 33 more developer resources.'
@@ -265,7 +265,7 @@ score:
   band: thin
   composite: 29.8
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 40.0
     catalog_earned_first_party: 8.0
     catalog_gap: 75.0
@@ -291,8 +291,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -317,7 +317,7 @@ tags:
 - Mastering
 - Audio Restoration
 - Audio Repair
-- Post-Production
+- Post Production
 - Plugins
 - VST
 - AudioUnit

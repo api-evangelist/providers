@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 3.8
-  scored_at: '2026-10-04'
+  score: 1.9
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: The Weis Markets Vendor Integration API enables supplier and vendor partners to exchange purchase orders, invoices, item management data, and vendor contact information electronically. The platform us
@@ -44,6 +44,21 @@ apis:
   slug: loyalty-rewards-api
 artifact_total: 8
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/weis-markets/refs/heads/main/plans/weis-markets-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/weis-markets-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/weis-markets/refs/heads/main/rate-limits/weis-markets-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/weis-markets-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/weis-markets/refs/heads/main/finops/weis-markets-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/weis-markets-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/weis-markets/refs/heads/main/security/weis-markets-domain-security.yml
   title: ''
@@ -85,9 +100,13 @@ examples:
   name: Weis Markets Vendor Purchase Order Example
   slug: weis-markets-vendor-purchase-order-example
 finops:
-- name: Weis Markets Finops
+- has_sources: false
+  method: generated
+  name: Weis Markets Finops
+  primary_unit: ''
   service_category: API
   slug: weis-markets-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/weis-markets.png
 jsonld:
 - class_count: 6
@@ -99,7 +118,7 @@ modified: '2026-05-03'
 name: Weis Markets
 nav: Providers
 network: true
-overview: 'Weis Markets publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 1000.
+overview: 'Weis Markets is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 1000.
 
 
   The Weis Markets catalog on APIs.io includes 1 JSON-LD context.'
@@ -130,17 +149,17 @@ rate_limits:
   slug: weis-markets-rate-limits
 score:
   band: emerging
-  composite: 19.2
+  composite: 17.7
   coverage:
     artifact_dirs: 12
-    catalog_earned: 48.5
+    catalog_earned: 45.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 66.5
+    catalog_gap: 69.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 13.6
     contract_quality: 21.2
     developer_ergonomics: 19.0
@@ -153,13 +172,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/weis-markets/refs/heads/main/screenshots/weis-markets-2026-10-11T194631.png
 security:
 - kind: domain-security
   name: Weis Markets Domain Security

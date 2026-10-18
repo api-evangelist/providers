@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - baseURL: https://location-api.insights.telus.com/product/insightsRequest/v1
@@ -205,7 +205,7 @@ modified: '2026-07-25'
 name: TELUS
 nav: Providers
 network: true
-overview: 'TELUS publishes 2 APIs on the [APIs.io](https://apis.io/) network, including Insights Location API, and 1 more. Tagged areas include Telecommunications, Canada, Mobile Network Operator, Broadband, and Network APIs.
+overview: 'TELUS is listed with 2 APIs on the [APIs.io](https://apis.io/) network, including Insights Location API, and 1 more. Tagged areas include Telecommunications, Canada, Mobile Network Operator, Broadband, and Network APIs.
 
 
   The TELUS catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -226,7 +226,7 @@ score:
   band: developing
   composite: 50.4
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -257,8 +257,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 45.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -292,7 +292,7 @@ tags:
 - IoT
 - 5G
 - Healthcare
-- Electronic Medical Records
+- Electronic Health Records
 - GraphQL
 - Webhook
 - Geospatial

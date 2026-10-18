@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 19
+- acting_count: 18
   human_in_the_loop: 0
   name: Newforma Agentic Access
   operation_count: 39
   slug: newforma-agentic-access
-  summary_line: 39 operations · 19 acting
+  summary_line: 39 operations · 18 acting
 api_count: 1
 apis:
 - description: buildingSMART BIM Collaboration Format (BCF) REST API for exchanging coordination issues and topics between Newforma Konekt and third-party BIM authoring/coordination tools, plus a BCF Server.
@@ -76,6 +76,10 @@ collections:
   name: Newforma Konekt Hub Project API
   slug: open-newforma-project-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.newforma.com/feed/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/newforma/refs/heads/main/capabilities/newforma-capability-edges.yml
   title: ''
@@ -205,14 +209,14 @@ created: '2026-07-17'
 description: Newforma builds project information management software for the architecture, engineering, and construction (AEC) industry. Its cloud platform Newforma Konekt (formerly BIM Track by BIM One) exposes a REST API and a buildingSMART BCF REST API for BIM coordination — managing hubs, projects, and issues along with their viewpoints, attachments, comments, history, sheets, models, and users. Integrations authenticate with OAuth 2.0 / OpenID Connect (PKCE) or a Hub-owner API access token. Newforma also ships the on-premises Project Center and the cloud ConstructEx products.
 image: https://www.newforma.com/favicon.ico
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Newforma
 nav: Providers
 network: true
-overview: 'Newforma publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Hub API, Issue API, Project API, and 1 more. Tagged areas include Company, AEC, Construction, Architecture, and Engineering.
+overview: 'Newforma publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Hub API, Issue API, Project API, and 1 more. Tagged areas include Company, AEC, Construction, Architecture, and Engineering.
 
 
-  Newforma''s developer surface includes documentation, API reference, getting-started guide, support, changelog, authentication, sandbox, and 20 more developer resources.'
+  Newforma''s developer surface includes documentation, API reference, getting-started guide, support, changelog, authentication, sandbox, and 21 more developer resources.'
 random_paper: 5
 scopes:
 - name: Newforma Scopes
@@ -223,7 +227,7 @@ score:
   band: thin
   composite: 36.8
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 23
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -254,8 +258,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

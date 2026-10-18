@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.0
-  scored_at: '2026-10-04'
+  score: 17.8
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -234,9 +234,13 @@ examples:
   name: Imperial College London Searchobjects Example
   slug: imperial-college-london-searchObjects-example
 finops:
-- name: Imperial College London Finops
+- has_sources: true
+  method: generated
+  name: Imperial College London Finops
+  primary_unit: ''
   service_category: Education
   slug: imperial-college-london-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/imperial-college-london.png
 json_schemas:
 - name: Spiral DSpace Community
@@ -262,7 +266,7 @@ modified: '2026-08-19'
 name: Imperial College London
 nav: Providers
 network: true
-overview: 'Imperial College London publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Spiral Open Access Repository (DSpace 7 REST API), and 4 more. Tagged areas include University, Higher Education, Education, Russell Group, and United Kingdom.
+overview: 'Imperial College London publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Spiral Open Access Repository (DSpace 7 REST API), and 4 more. Tagged areas include University, Higher Education, Education, Russell Group, and United Kingdom.
 
 
   The Imperial College London catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -279,9 +283,10 @@ rate_limits:
   name: Imperial College London Rate Limits
   slug: imperial-college-london-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Imperial College London API Rules
+  name: Imperial College London — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -289,7 +294,8 @@ rules:
     info: 2
     warn: 3
   slug: imperial-college-london-jsonschema-spectral-rules
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
   name: Imperial College London API Rules
   rule_count: 6
@@ -301,22 +307,22 @@ rules:
   slug: imperial-college-london-rules
 score:
   band: thin
-  composite: 34.5
+  composite: 28.5
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 60.7
+    artifact_dirs: 19
+    catalog_earned: 47.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 54.4
+    catalog_gap: 67.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -2.8
+  delta: -6.0
   facets:
-    access_clarity: 37.4
+    access_clarity: 15.8
     contract_governance: 9.8
     contract_quality: 49.9
     developer_ergonomics: 23.8
     discoverability: 64.3
-    operational_transparency: 21.6
+    operational_transparency: 7.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -325,7 +331,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 37.3
+  previous_composite: 34.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -340,9 +346,9 @@ score:
     regime: Education & Research
     regime_id: education
     score: 14.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
@@ -365,7 +371,7 @@ tags:
 - Institutional Repository
 - Open Access
 - Identity Federation
-- Learning Management
+- LMS
 - Library
 website: https://www.imperial.ac.uk/
 ---

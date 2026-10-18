@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -183,9 +183,13 @@ common:
 created: '2026-05-08'
 description: Curve Finance is a DeFi automated market maker (AMM) optimized for low-slippage swaps among stablecoins and pegged assets across multiple chains. Curve maintains a public read-only REST API at api.curve.finance providing pool, gauge, factory, governance, lending, crvUSD, and TVL data. Smart-contract entry points are the primary write path; the REST API is for indexing and analytics.
 finops:
-- name: Curve Finance Finops
+- has_sources: true
+  method: generated
+  name: Curve Finance Finops
+  primary_unit: ''
   service_category: DeFi Protocol
   slug: curve-finance-finops
+  template: false
 graphqls:
 - description: Curve Finance exposes on-chain data through The Graph Protocol subgraphs. The primary production subgraph is maintained by Messari and follows the DEX AMM schema standard (version 1.3.0). It indexes p
   name: Curve Finance GraphQL
@@ -196,7 +200,7 @@ modified: '2026-05-08'
 name: Curve Finance
 nav: Providers
 network: true
-overview: 'Curve Finance publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Crv USD API, Deprecated API, Gauges API, and 7 more. Tagged areas include Web3, DeFi, DEX, AMM, and Stablecoins.
+overview: 'Curve Finance publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Crv USD API, Deprecated API, Gauges API, and 7 more. Tagged areas include Web3, DeFi, Decentralized Exchange, AMM, and Stablecoins.
 
 
   Curve Finance''s developer surface includes developer portal, documentation, GitHub presence, engineering blog, and 9 more developer resources.'
@@ -211,17 +215,17 @@ rate_limits:
   slug: curve-finance-rate-limits
 score:
   band: thin
-  composite: 28.1
+  composite: 26.5
   coverage:
     artifact_dirs: 12
-    catalog_earned: 44.0
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 71.0
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 13.2
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 48.6
     developer_ergonomics: 26.2
@@ -237,12 +241,12 @@ score:
       total: 8
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
-    score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+    matched_via: tags
+    regime: Securities & Market Data
+    regime_id: securities_market_data
+    score: 16.7
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -262,7 +266,7 @@ slug: curve-finance
 tags:
 - Web3
 - DeFi
-- DEX
+- Decentralized Exchange
 - AMM
 - Stablecoins
 - Pegged Assets

@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 45.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -372,9 +372,13 @@ common:
 created: '2025-03-05'
 description: Neo4j is the leading graph database platform, enabling developers to build applications powered by connected data. Their developer platform provides HTTP, Query, and Aura cloud APIs alongside official drivers for Python, Java, and JavaScript, as well as a GraphQL library for rapid API development backed by the Neo4j graph database.
 finops:
-- name: Neo4J Finops
+- has_sources: true
+  method: generated
+  name: Neo4J Finops
+  primary_unit: ''
   service_category: Database
   slug: neo4j-finops
+  template: false
 graphqls:
 - description: The Neo4j GraphQL Library is an open source JavaScript library that enables rapid development of GraphQL APIs backed by a Neo4j graph database. It automatically generates a single optimized Cypher que
   name: Neo4j GraphQL API
@@ -442,7 +446,7 @@ modified: '2026-05-19'
 name: Neo4j
 nav: Providers
 network: true
-overview: 'Neo4j publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Query API, Authentication API, Discovery API, and 9 more. Tagged areas include Neo4j, Graph Database, Cypher, Cloud, and GraphQL.
+overview: 'Neo4j publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including Query API, Authentication API, Discovery API, and 9 more. Tagged areas include Neo4j, Graph Database, Cypher, Cloud, and GraphQL.
 
 
   The Neo4j catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -459,9 +463,10 @@ rate_limits:
   name: Neo4J Rate Limits
   slug: neo4j-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: Neo4j API Rules
+  name: Neo4j — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -469,7 +474,8 @@ rules:
     info: 2
     warn: 4
   slug: neo4j-jsonschema-spectral-rules
-- effective_rule_count: 57
+- authorship: generated
+  effective_rule_count: 57
   extends:
   - spectral:oas
   name: Neo4j API Rules
@@ -482,23 +488,23 @@ rules:
   slug: neo4j-rules
 score:
   band: strong
-  composite: 61.3
+  composite: 59.8
   coverage:
-    artifact_dirs: 31
-    catalog_earned: 60.8
+    artifact_dirs: 32
+    catalog_earned: 57.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 54.3
+    catalog_gap: 57.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 17.4
+  delta: -5.0
   facets:
-    access_clarity: 69.7
+    access_clarity: 61.8
     contract_governance: 22.0
     contract_quality: 64.0
     developer_ergonomics: 74.4
     discoverability: 67.9
     operational_transparency: 36.8
-  previous_composite: 43.9
+  previous_composite: 64.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -515,9 +521,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: rising
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

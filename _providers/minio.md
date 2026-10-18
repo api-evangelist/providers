@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: S3-compatible object storage REST API implementing Amazon S3 bucket and object operations (put/get/list/delete objects, multipart uploads, versioning, object locking, lifecycle, replication), authenti
@@ -50,6 +50,10 @@ asyncapis:
   name: Minio Bucket Notifications Webhooks
   slug: minio-bucket-notifications-webhooks
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.min.io/blog
 - group: company
   title: ''
   type: Website
@@ -205,29 +209,29 @@ mcp_servers:
 - description: Official Model Context Protocol server for interacting with MinIO / AIStor object stores. Ships as a container image; runs read-only by default and gates write, delete, and admin operations behind exp
   name: MinIO MCP Server
   slug: aistor
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: MinIO
 nav: Providers
 network: true
-overview: 'MinIO publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Object Storage, Storage, S3 Compatible, Cloud-Native, and Kubernetes.
+overview: 'MinIO is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Object Storage, Storage, S3 Compatible, Cloud-Native, and Kubernetes.
 
 
   The MinIO catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  MinIO''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, support, signup flow, and 25 more developer resources.'
+  MinIO''s developer surface includes engineering blog, documentation, API reference, getting-started guide, pricing, support, signup flow, and 26 more developer resources.'
 random_paper: 12
 score:
   band: developing
-  composite: 50.9
+  composite: 51.0
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 19
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 47.4
     contract_governance: 18.2
@@ -245,8 +249,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

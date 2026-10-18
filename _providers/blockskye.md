@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'Live production API host operated by Blockskye, discovered by probe. The host answers as a Fastify service behind AWS API Gateway: GET /health returns 200 with a JSON status/bootId payload, every othe'
@@ -42,6 +42,15 @@ apis:
   slug: blockskye-api
 artifact_total: 3
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/blockskye/refs/heads/main/rate-limits/blockskye-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/blockskye-rate-limits.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.blockskye.com/latestnews?format=rss
 - group: company
   title: ''
   type: Website
@@ -127,14 +136,14 @@ description: 'Blockskye is an enterprise travel management and payments platform
   at api.blockskye.com but publishes no public developer portal, API reference, or machine-readable API contract.'
 image: https://static1.squarespace.com/static/68efa9e7e26dde07bc4331ce/t/690a135f62cc1b156338a90e/1778097079157/SEOblockskye.jpg?format=1500w
 layout: provider
-modified: '2026-08-07'
+modified: '2026-10-06'
 name: Blockskye
 nav: Providers
 network: true
-overview: 'Blockskye publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Travel, Corporate Travel, Travel Management, Payments, and Settlement.
+overview: 'Blockskye is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Travel, Corporate Travel, Travel Management, Payments, and Settlement.
 
 
-  Blockskye''s developer surface includes engineering blog, support, and 12 more developer resources.'
+  Blockskye''s developer surface includes engineering blog, support, and 14 more developer resources.'
 random_paper: 21
 rate_limits:
 - limit_count: 1
@@ -170,8 +179,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 12.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

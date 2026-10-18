@@ -33,14 +33,19 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Hosted MCP server that lets AI assistants query a manufacturer's Prox workspace (products, knowledge trees, wiki nodes) grounded in their manuals and make attributed, version-controlled edits. OAuth 2
   name: Prox MCP Connector
   slug: prox-mcp-connector
-artifact_total: 6
+artifact_total: 7
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/prox/refs/heads/main/plans/prox-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/prox-plans-pricing.yml
 - group: company
   title: ''
   type: Website
@@ -129,10 +134,14 @@ modified: '2026-07-20'
 name: Prox
 nav: Providers
 network: true
-overview: 'Prox publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, MCP, Manufacturing, and Product Support.
+overview: 'Prox is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, MCP, Manufacturing, and Product Support.
 
 
-  Prox''s developer surface includes documentation, authentication, pricing, signup flow, support, and 12 more developer resources.'
+  Prox''s developer surface includes documentation, authentication, pricing, signup flow, support, and 13 more developer resources.'
+plans:
+- name: Prox Plans Pricing
+  plan_count: 0
+  slug: prox-plans-pricing
 random_paper: 17
 scopes:
 - name: Prox Scopes
@@ -143,7 +152,7 @@ score:
   band: thin
   composite: 26.6
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -173,8 +182,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 31.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

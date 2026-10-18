@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 15.5
-  scored_at: '2026-10-04'
+  score: 13.6
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: CDN-backed hosted basemap tile API serving OpenStreetMap-derived vector tiles in MVT format. Provides Style JSON, TileJSON, and ZXY tile endpoints. Free for non-commercial use; commercial use requires
@@ -106,9 +106,13 @@ common:
 created: 2026-06-13
 description: Protomaps is an open-source map system that delivers an interactive map of the world as a single PMTiles file hosted on cloud storage. It provides a hosted vector tile API powered by Cloudflare CDN, plus tools for converting, serving, and delivering map tiles without servers using HTTP range requests. The PMTiles format enables self-hosting on S3, Cloudflare R2, Azure Blob, and Google Cloud Storage at a fraction of the cost of commercial map APIs.
 finops:
-- name: Protomaps Finops
+- has_sources: false
+  method: generated
+  name: Protomaps Finops
+  primary_unit: ''
   service_category: ''
   slug: protomaps-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/protomaps.png
 jsonld:
 - class_count: 10
@@ -120,7 +124,7 @@ modified: 2026-06-13
 name: Protomaps
 nav: Providers
 network: true
-overview: 'Protomaps publishes 3 APIs on the [APIs.io](https://apis.io/) network, including Hosted Tile API, and 2 more. Tagged areas include Maps, Tiles, Geospatial, PMTiles, and Vector Tiles.
+overview: 'Protomaps is listed with 3 APIs on the [APIs.io](https://apis.io/) network, including Hosted Tile API, and 2 more. Tagged areas include Maps, Tiles, Geospatial, PMTiles, and Vector Tiles.
 
 
   The Protomaps catalog on APIs.io includes 1 JSON-LD context.
@@ -137,23 +141,23 @@ rate_limits:
   name: Protomaps Rate Limits
   slug: protomaps-rate-limits
 score:
-  band: thin
-  composite: 32.4
+  band: emerging
+  composite: 24.9
   coverage:
     artifact_dirs: 8
-    catalog_earned: 72.6
+    catalog_earned: 54.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 42.4
+    catalog_gap: 61.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.5
   facets:
-    access_clarity: 46.8
+    access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 34.7
     developer_ergonomics: 11.9
     discoverability: 71.4
-    operational_transparency: 49.5
+    operational_transparency: 28.9
   open_source:
     applies: true
     score: 25.0
@@ -164,9 +168,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

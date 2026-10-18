@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 46.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 8
+- acting_count: 7
   human_in_the_loop: 1
   name: Healthsherpa Agentic Access
   operation_count: 15
   slug: healthsherpa-agentic-access
-  summary_line: 15 operations · 8 acting · 1 human-in-the-loop
+  summary_line: 15 operations · 7 acting · 1 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://api.one.healthsherpa.com
@@ -218,7 +218,7 @@ modified: '2026-07-19'
 name: HealthSherpa
 nav: Providers
 network: true
-overview: 'HealthSherpa publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Enrollment Sessions API, Enrollments API, Quotes API, and 2 more. Tagged areas include Company, Health Insurance, Healthcare, ACA, and Enrollment.
+overview: 'HealthSherpa publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Enrollment Sessions API, Enrollments API, Quotes API, and 2 more. Tagged areas include Company, Health Insurance, Healthcare, ACA, and Enrollment.
 
 
   The HealthSherpa catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -261,8 +261,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 19.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

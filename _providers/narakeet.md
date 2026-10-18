@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.3
-  scored_at: '2026-10-04'
+  score: 20.4
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -86,6 +86,10 @@ collections:
   name: Narakeet API
   slug: open-narakeet
 common:
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.narakeet.com/docs/pricing/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/narakeet/refs/heads/main/capabilities/narakeet-capability-edges.yml
   title: ''
@@ -140,19 +144,23 @@ common:
 created: '2026-07-11'
 description: Narakeet turns text and Markdown scripts into realistic narrated audio and video using AI text-to-speech voices - 900 voices across 100 languages. Beyond its web app, Narakeet exposes a documented REST API (base https://api.narakeet.com) for building speech audio (MP3, M4A, WAV) from text, building video from Markdown scripts and assets, listing available voices, and checking account credits. Audio builds run either as a short-content streaming call that returns bytes directly or as a long-content asynchronous build that returns a status URL to poll; video builds always upload a zip, trigger a build, and poll for the finished MP4. All build requests authenticate with an x-api-key header, and API access requires a top-up or metered commercial account.
 finops:
-- name: Narakeet Finops
+- has_sources: true
+  method: generated
+  name: Narakeet Finops
+  primary_unit: ''
   service_category: AI and Machine Learning
   slug: narakeet-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/narakeet.png
 layout: provider
 modified: '2026-07-11'
 name: Narakeet
 nav: Providers
 network: true
-overview: 'Narakeet publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Account API, Text to Speech API, Video API, and 1 more. Tagged areas include Text-to-Speech, TTS, Voice, Audio, and Video.
+overview: 'Narakeet publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Text to Speech API, Video API, and 1 more. Tagged areas include Text-to-Speech, TTS, Voice, Audio, and Video.
 
 
-  Narakeet''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
+  Narakeet''s developer surface includes pricing, authentication, documentation, engineering blog, and 8 more developer resources.'
 plans:
 - name: Narakeet Plans Pricing
   plan_count: 5
@@ -164,22 +172,22 @@ rate_limits:
   slug: narakeet-rate-limits
 score:
   band: thin
-  composite: 35.2
+  composite: 33.3
   coverage:
     artifact_dirs: 12
-    catalog_earned: 61.6
-    catalog_earned_first_party: 0.0
-    catalog_gap: 53.4
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.9
   facets:
-    access_clarity: 36.3
+    access_clarity: 42.1
     contract_governance: 0.0
     contract_quality: 50.5
     developer_ergonomics: 32.1
     discoverability: 66.1
-    operational_transparency: 28.4
+    operational_transparency: 7.9
   previous_composite: 35.2
   provenance:
     agentic_access: derived
@@ -190,12 +198,12 @@ score:
       total: 4
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 10.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

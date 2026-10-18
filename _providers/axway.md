@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 42.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 83
   human_in_the_loop: 2
@@ -1325,9 +1325,13 @@ features:
 - description: Visual orchestration with out-of-the-box connectors and templates for business users.
   name: No-Code Integration
 finops:
-- name: Axway Finops
+- has_sources: true
+  method: generated
+  name: Axway Finops
+  primary_unit: ''
   service_category: Developer Tools / API
   slug: axway-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/axway.png
 json_schemas:
 - name: Activation
@@ -3016,7 +3020,7 @@ modified: '2026-05-30'
 name: Axway
 nav: Providers
 network: true
-overview: 'Axway publishes 33 APIs on the [APIs.io](https://apis.io/) network, including Aca API, Activity API, Analytics API, and 30 more. Tagged areas include API Management, Enterprise, Integration, Security, and Managed File Transfer.
+overview: 'Axway publishes 33 API contracts indexed on the [APIs.io](https://apis.io/) network, including Aca API, Activity API, Analytics API, and 30 more. Tagged areas include API Management, Enterprise, Integration, Security, and Managed File Transfer.
 
 
   The Axway catalog on APIs.io includes 2 JSON-LD contexts and 3 Spectral governance rulesets.
@@ -3033,9 +3037,10 @@ rate_limits:
   name: Axway Rate Limits
   slug: axway-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Axway API Rules
+  name: Axway — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -3043,7 +3048,8 @@ rules:
     info: 2
     warn: 3
   slug: axway-jsonschema-spectral-rules
-- effective_rule_count: 56
+- authorship: generated
+  effective_rule_count: 56
   extends:
   - spectral:oas
   name: Axway API Rules
@@ -3054,7 +3060,8 @@ rules:
     info: 1
     warn: 2
   slug: axway-rules
-- effective_rule_count: 81
+- authorship: generated
+  effective_rule_count: 81
   extends:
   - spectral:oas
   name: Axway API Rules
@@ -3072,23 +3079,23 @@ scopes:
   summary_line: 1 scope · clientCredentials/authorizationCode/implicit
 score:
   band: strong
-  composite: 56.1
+  composite: 54.6
   coverage:
-    artifact_dirs: 32
-    catalog_earned: 69.0
+    artifact_dirs: 34
+    catalog_earned: 66.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 46.0
+    catalog_gap: 49.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 6.7
+  delta: -3.9
   facets:
-    access_clarity: 36.8
+    access_clarity: 28.9
     contract_governance: 31.8
     contract_quality: 68.6
     developer_ergonomics: 72.0
     discoverability: 66.1
     operational_transparency: 39.5
-  previous_composite: 49.4
+  previous_composite: 58.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -3105,9 +3112,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 31.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: rising
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: flat
   upsert:
     applies: true
     score: 0.0

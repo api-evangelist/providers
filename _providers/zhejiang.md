@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.7
-  scored_at: '2026-10-04'
+  score: 24.5
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Zhejiang University operates a Shibboleth SAML 2.0 Identity Provider, entityID https://idp.zju.edu.cn/idp/shibboleth, registered in CARSI (the CERNET Authentication and Resource Sharing Infrastructure
@@ -182,9 +182,13 @@ examples:
   name: Zhejiang Mirrorz Example
   slug: zhejiang-mirrorz-example
 finops:
-- name: Zhejiang Finops
+- has_sources: true
+  method: generated
+  name: Zhejiang Finops
+  primary_unit: ''
   service_category: Education
   slug: zhejiang-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zhejiang.png
 json_schemas:
 - name: Zhejiang University MirrorZ catalog document
@@ -200,7 +204,7 @@ modified: '2026-08-19'
 name: Zhejiang University
 nav: Providers
 network: true
-overview: 'Zhejiang University publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Catalog API, Repositories API, and 2 more. Tagged areas include University, Higher Education, Education, Research, and China.
+overview: 'Zhejiang University publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Catalog API and Repositories API. Tagged areas include University, Higher Education, Education, Research, and China.
 
 
   The Zhejiang University catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -217,7 +221,8 @@ rate_limits:
   name: Zhejiang Rate Limits
   slug: zhejiang-rate-limits
 rules:
-- effective_rule_count: 0
+- authorship: unmarked
+  effective_rule_count: 0
   extends: []
   name: Zhejiang University API Rules
   rule_count: 0
@@ -233,23 +238,23 @@ scopes:
   slug: zhejiang-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: thin
-  composite: 31.1
+  band: emerging
+  composite: 24.4
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 69.1
+    artifact_dirs: 20
+    catalog_earned: 51.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 45.9
+    catalog_gap: 63.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -4.0
+  delta: -6.7
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 3.8
-    contract_quality: 28.5
+    contract_quality: 26.0
     developer_ergonomics: 33.3
     discoverability: 66.1
-    operational_transparency: 21.6
+    operational_transparency: 7.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -257,7 +262,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - greater-china
-  previous_composite: 35.1
+  previous_composite: 31.1
   provenance:
     conformance: first-party
     contracts:
@@ -271,9 +276,9 @@ score:
     regime: Education & Research
     regime_id: education
     score: 32.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
@@ -291,7 +296,7 @@ security:
 - kind: vulnerability-disclosure
   name: Zhejiang Vulnerability Disclosure
   slug: zhejiang-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 slug: zhejiang
 tags:
 - University

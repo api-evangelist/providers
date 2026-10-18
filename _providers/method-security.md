@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 34.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 10
-  human_in_the_loop: 3
+- acting_count: 7
+  human_in_the_loop: 2
   name: Method Security Agentic Access
   operation_count: 18
   slug: method-security-agentic-access
-  summary_line: 18 operations · 10 acting · 3 human-in-the-loop
+  summary_line: 18 operations · 7 acting · 2 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://your-instance.method.delivery/method-api-gateway/api
@@ -297,7 +297,7 @@ modified: '2026-07-20'
 name: Method Security
 nav: Providers
 network: true
-overview: 'Method Security publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Audit API, Auth API, Blueprints API, and 7 more. Tagged areas include Company, Security, Cybersecurity, Offensive Security, and Exposure Management.
+overview: 'Method Security publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Audit API, Auth API, Blueprints API, and 7 more. Tagged areas include Company, Security, Cybersecurity, Offensive Security, and Exposure Management.
 
 
   The Method Security catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -309,7 +309,7 @@ score:
   band: developing
   composite: 49.9
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -340,8 +340,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

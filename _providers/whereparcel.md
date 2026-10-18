@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Unified parcel tracking API across 60+ carriers worldwide (USPS, FedEx, UPS, DHL, etc.)
@@ -65,7 +65,7 @@ modified: '2026-05-28'
 name: WhereParcel
 nav: Providers
 network: true
-overview: 'WhereParcel publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Tracking, Public APIs, Shipping, Package Tracking, and Parcel.
+overview: 'WhereParcel is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Tracking, Public APIs, Shipping, Package Tracking, and Parcel.
 
 
   WhereParcel''s developer surface includes engineering blog and 3 more developer resources.'
@@ -95,8 +95,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 5.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

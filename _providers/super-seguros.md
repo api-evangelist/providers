@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://app.super.mx
@@ -52,6 +52,10 @@ collections:
   name: Super Seguros Quotes API
   slug: open-super-seguros-quotes-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.super.mx/blog/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/super-seguros/refs/heads/main/capabilities/super-seguros-capability-edges.yml
   title: ''
@@ -141,31 +145,31 @@ created: '2026-07-17'
 description: Super Seguros (super.mx) is a Mexican insurtech that lets people quote, buy, and manage insurance entirely online. Its developer product, Super Studio, is a set of REST APIs partners use to generate insurance quotes and sell policies — covering life insurance (12-month term and 5-year plans with savings), home, renters, and landlord products. Quoting endpoints are broadly available and return prefilled purchase links to super.mx; purchase endpoints let approved partners sell insurance directly via API. Authentication is via an X-Api-Key header, with separate sandbox and production hosts. Super Seguros is backed by Anthemis.
 image: https://www.super.mx/src/assets/super_midoconline_fav.ico
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Super Seguros
 nav: Providers
 network: true
-overview: 'Super Seguros publishes 1 API on the [APIs.io](https://apis.io/) network: Quotes API. Tagged areas include Company, Insurance, Insurtech, Life Insurance, and Quotes.
+overview: 'Super Seguros publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Quotes API. Tagged areas include Company, Insurance, Insurtech, Life Insurance, and Quotes.
 
 
-  Super Seguros'' developer surface includes authentication, documentation, getting-started guide, API reference, sandbox, and 13 more developer resources.'
+  Super Seguros'' developer surface includes engineering blog, authentication, documentation, getting-started guide, API reference, sandbox, and 13 more developer resources.'
 random_paper: 16
 score:
   band: thin
-  composite: 27.3
+  composite: 27.8
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 0.0
     contract_governance: 4.5
     contract_quality: 49.6
-    developer_ergonomics: 39.9
+    developer_ergonomics: 42.3
     discoverability: 73.2
     operational_transparency: 0.0
   jurisdiction:
@@ -191,8 +195,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 14.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

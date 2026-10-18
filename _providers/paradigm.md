@@ -25,7 +25,7 @@ random_paper: 1
 slug: paradigm
 tags:
 - Venture Capital
-- Crypto
+- Cryptocurrency
 - Blockchain
 - Web3
 - DeFi

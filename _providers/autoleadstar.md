@@ -36,8 +36,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.6
-  scored_at: '2026-10-04'
-api_count: 2
+  scored_at: '2026-10-17'
+api_count: 4
 apis:
 - description: A first-party Model Context Protocol tool manifest published by Fullpath for AI assistants. Thirteen tools with real JSON Schema inputSchemas covering consent management, shoppers, audiences, tasks, l
   name: Fullpath MCP Tools
@@ -104,6 +104,15 @@ collections:
   name: Autoleadstar Tasks API
   slug: open-autoleadstar-tasks-api
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/autoleadstar/refs/heads/main/rate-limits/autoleadstar-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/autoleadstar-rate-limits.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.fullpath.com/feed/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/autoleadstar/refs/heads/main/capabilities/autoleadstar-capability-edges.yml
   title: ''
@@ -236,14 +245,14 @@ mcp_servers:
 - description: Fullpath publishes a first-party Model Context Protocol tool manifest at developers.fullpath.com/mcp-tools.json — thirteen tools with real JSON Schema inputSchemas, saved verbatim here as autoleadstar
   name: Fullpath MCP Tools
   slug: fullpath-mcp-tools
-modified: '2026-08-14'
+modified: '2026-10-06'
 name: AutoLeadStar
 nav: Providers
 network: true
-overview: 'AutoLeadStar publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Activities API, Appointments API, Audiences API, and 5 more. Tagged areas include Company, Automotive, Customer Data Platform, Marketing Automation, and Dealership.
+overview: 'AutoLeadStar publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Activities API, Appointments API, Audiences API, and 5 more. Tagged areas include Company, Automotive, Customer Data Platform, Marketing Automation, and Dealership.
 
 
-  AutoLeadStar''s developer surface includes documentation, API reference, engineering blog, support, signup flow, changelog, and 21 more developer resources.'
+  AutoLeadStar''s developer surface includes documentation, API reference, engineering blog, support, signup flow, changelog, and 23 more developer resources.'
 plans:
 - name: Autoleadstar Plans Pricing
   plan_count: 0
@@ -255,21 +264,21 @@ rate_limits:
   slug: autoleadstar-rate-limits
 score:
   band: developing
-  composite: 51.9
+  composite: 52.5
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 45.0
+    artifact_dirs: 24
+    catalog_earned: 48.0
     catalog_earned_first_party: 8.0
-    catalog_gap: 70.0
+    catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 52.5
     developer_ergonomics: 55.4
-    discoverability: 75.0
+    discoverability: 80.0
     operational_transparency: 47.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -277,6 +286,7 @@ score:
     - israel
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
+    - mena
     - middle-east
   previous_composite: 51.9
   provenance:
@@ -298,8 +308,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

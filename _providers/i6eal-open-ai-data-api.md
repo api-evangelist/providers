@@ -34,8 +34,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.3
-  scored_at: '2026-10-04'
-api_count: 1
+  scored_at: '2026-10-17'
+api_count: 2
 apis:
 - baseURL: https://i6eal.de
   baseurl_source: spec
@@ -179,6 +179,10 @@ collections:
   name: i6eal Open AI Data Public AI System Evidence Pass API
   slug: open-i6eal-open-ai-data-api-public-ai-system-evidence-pass-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://i6eal.de/newsroom/rss.xml
 - group: other
   title: ''
   type: APIsJSON
@@ -308,17 +312,17 @@ jsonld:
   property_count: 0
   slug: i6eal-open-ai-data-api-dcat
 layout: provider
-modified: '2026-08-09'
+modified: '2026-10-06'
 name: i6eal Open AI Data API
 nav: Providers
 network: true
-overview: 'i6eal Open AI Data API publishes 17 APIs on the [APIs.io](https://apis.io/) network, including AI Enforcement Monitor Germany & EU API, AI Parliamentary Accountability Monitor API, Catalogue API, and 14 more. Tagged areas include Artificial Intelligence, Open Data, Public Policy, Regulations, and Compliance.
+overview: 'i6eal Open AI Data API publishes 17 API contracts indexed on the [APIs.io](https://apis.io/) network, including AI Enforcement Monitor Germany & EU API, AI Parliamentary Accountability Monitor API, Catalogue API, and 14 more. Tagged areas include Artificial Intelligence, Open Data, Public Policy, Regulations, and Compliance.
 
 
   The i6eal Open AI Data API catalog on APIs.io includes 1 JSON-LD context.
 
 
-  i6eal Open AI Data API''s developer surface includes documentation, API reference, support, engineering blog, authentication, code examples, and 19 more developer resources.'
+  i6eal Open AI Data API''s developer surface includes documentation, API reference, support, engineering blog, authentication, code examples, and 20 more developer resources.'
 random_paper: 3
 score:
   band: developing
@@ -362,8 +366,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 22.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

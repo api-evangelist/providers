@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: verified
     openapi_examples: false
     protected_resource_metadata: verified
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 44.6
-  scored_at: '2026-10-04'
+  score: 42.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -102,6 +102,14 @@ collections:
   name: Apicbase API
   slug: open-apicbase
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://get.apicbase.com/blog/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://get.apicbase.com/feed/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/apicbase/refs/heads/main/capabilities/apicbase-capability-edges.yml
   title: ''
@@ -161,23 +169,27 @@ common:
 created: '2026-06-21'
 description: Apicbase is a cloud-based food & beverage back-of-house management platform for restaurants, hotels, and catering groups, covering recipes and menu engineering, ingredient libraries, inventory and stock, procurement, suppliers, and multi-outlet operations. The Apicbase REST API exposes these entities over HTTPS with OAuth 2.0 authentication, plus webhooks for integrated supplier ordering.
 finops:
-- name: Apicbase Finops
+- has_sources: true
+  method: generated
+  name: Apicbase Finops
+  primary_unit: ''
   service_category: Management and Governance
   slug: apicbase-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/apicbase.png
 layout: provider
 mcp_servers:
 - description: Remote MCP server at mcp.apicbase.com over HTTP.
   name: Apicbase MCP Server
   slug: apicbase
-modified: '2026-06-21'
+modified: '2026-10-06'
 name: Apicbase
 nav: Providers
 network: true
-overview: 'Apicbase publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Ingredients API, Outlets API, Procurement API, and 3 more. Tagged areas include Food and Beverage, Restaurant, Back Of House, Inventory, and Procurement.
+overview: 'Apicbase publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Ingredients API, Outlets API, Procurement API, and 3 more. Tagged areas include Food and Beverage, Restaurant, Back Of House, Inventory, and Procurement.
 
 
-  Apicbase''s developer surface includes authentication, documentation, and 10 more developer resources.'
+  Apicbase''s developer surface includes engineering blog, authentication, documentation, and 11 more developer resources.'
 plans:
 - name: Apicbase Plans Pricing
   plan_count: 4
@@ -194,22 +206,22 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: thin
-  composite: 34.9
+  composite: 27.1
   coverage:
-    artifact_dirs: 14
-    catalog_earned: 61.6
+    artifact_dirs: 16
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.4
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.8
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 49.3
-    developer_ergonomics: 21.4
+    developer_ergonomics: 23.8
     discoverability: 68.3
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   previous_composite: 34.9
   provenance:
     agentic_access: derived
@@ -225,9 +237,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

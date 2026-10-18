@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - baseURL: http://api.amp.active.com
@@ -60,6 +60,10 @@ collections:
   name: ACTIVE Network Activity Search API v2 Activities Camping API
   slug: open-active-network-camping-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.activenetwork.com/blog/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/active-network/refs/heads/main/security/active-network-domain-security.yml
   title: ''
@@ -168,14 +172,14 @@ created: '2026-07-17'
 description: 'ACTIVE Network provides intelligent activity and event management software for communities and organizations, powering registration, payments, marketing, and attendance for recreation departments, YMCAs, camps, schools, event organizers, and municipalities, and is trusted by over 6,300 organizations worldwide. For developers, ACTIVE Network publishes a set of read-only public data APIs on its AMP platform (api.amp.active.com): the Activity Search API v2 surfaces searchable activities and events from ACTIVE.com and ACTIVEkids.com, and the Campground / Campsite Search APIs surface campgrounds and campsites. All APIs are authenticated with a simple api_key query parameter and are rate limited.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/active-network.png
 layout: provider
-modified: '2026-07-17'
+modified: '2026-10-06'
 name: Active Network
 nav: Providers
 network: true
-overview: 'Active Network publishes 2 APIs on the [APIs.io](https://apis.io/) network: Activities API and Camping API. Tagged areas include Company, Event, Registration, Recreation, and Activities.
+overview: 'Active Network publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Activities API and Camping API. Tagged areas include Company, Event, Registration, Recreation, and Activities.
 
 
-  Active Network''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, authentication, and 16 more developer resources.'
+  Active Network''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, authentication, and 17 more developer resources.'
 random_paper: 7
 rate_limits:
 - limit_count: 2
@@ -185,7 +189,7 @@ score:
   band: developing
   composite: 43.0
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
@@ -215,8 +219,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

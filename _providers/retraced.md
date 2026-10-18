@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -311,7 +311,7 @@ modified: '2026-07-20'
 name: Retraced
 nav: Providers
 network: true
-overview: 'Retraced publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Certificates API, Companies API, Files API, and 14 more. Tagged areas include Company, Applicative Saas, Supply Chain, Sustainability, and Compliance.
+overview: 'Retraced publishes 17 API contracts indexed on the [APIs.io](https://apis.io/) network, including Certificates API, Companies API, Files API, and 14 more. Tagged areas include Company, Applicative Saas, Supply Chain, Sustainability, and Compliance.
 
 
   Retraced''s developer surface includes documentation, API reference, getting-started guide, changelog, support, authentication, sandbox, and 18 more developer resources.'
@@ -351,8 +351,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

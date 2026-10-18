@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 5.0
-  scored_at: '2026-10-04'
+  score: 3.1
+  scored_at: '2026-10-17'
 api_count: 7
 apis:
 - description: OAI-PMH 2.0 metadata-harvesting provider for IRIS, Sapienza's institutional research information system and repository, served from the university's own host iris.uniroma1.it. Verified live 2026-09-01
@@ -142,9 +142,13 @@ created: '2026-06-03'
 description: 'Sapienza University of Rome (Sapienza Università di Roma) is Italy''s largest university, a public research institution founded in 1303 and ranked #132 in the QS World University Rankings 2025. It runs no public developer portal, no API gateway and publishes no OpenAPI, and this profile does not pretend otherwise. What it does operate, on its own uniroma1.it hosts, are three genuinely institution-run machine surfaces: an OAI-PMH 2.0 provider on the IRIS institutional research catalogue (iris.uniroma1.it, DSpace-CRIS supplied by CINECA) whose underlying DSpace REST API is closed behind HTTP basic auth; a second, site-wide OAI-PMH 2.0 provider over the 100 open-access journals of Riviste Online SApienza (rosa.uniroma1.it, Open Journal Systems 3.3.0.13), whose OJS REST API v1 answers 403 to anonymous callers; and a Shibboleth SAML 2.0 identity provider, entityID https://idp.uniroma1.it/idp/shibboleth, published as machine-readable metadata in the IDEM GARR AAI federation aggregate.
   Its DataCite registration (provider ROMAUNO, repository CRUI.UNIROMA1, prefix 10.13133, 8,051 DOIs), its Crossref membership (member 13551, prefix 10.53131) and its ROR identifier 02be6w209 are verifiable from public registry endpoints. The Sapienza Library System open-data project at sbs.uniroma1.it documents a 5-star / DCAT-AP_IT dataset catalogue, but its one dataset download link is a hard 404 and its linked-data service still says "this website is still under development" — the project has not been updated since 2017 and it is recorded here honestly rather than credited as a live open-data API. The library OPAC runs vendor Sebina software on an institution host with no public API, the course catalogue is a Drupal site with no data interface, and there is no official institutional GitHub organization: the Sapienza-named org on GitHub carries student coursework, not platform code.'
 finops:
-- name: Sapienza University Of Rome Finops
+- has_sources: true
+  method: generated
+  name: Sapienza University Of Rome Finops
+  primary_unit: ''
   service_category: Education
   slug: sapienza-university-of-rome-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sapienza-university-of-rome.png
 jsonld:
 - class_count: 17
@@ -156,7 +160,7 @@ modified: '2026-09-01'
 name: Sapienza University of Rome
 nav: Providers
 network: true
-overview: 'Sapienza University of Rome publishes 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Higher Education, University, Italy, and Research.
+overview: 'Sapienza University of Rome is listed with 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Higher Education, University, Italy, and Research.
 
 
   The Sapienza University of Rome catalog on APIs.io includes 1 JSON-LD context.
@@ -173,23 +177,23 @@ rate_limits:
   name: Sapienza University Of Rome Rate Limits
   slug: sapienza-university-of-rome-rate-limits
 score:
-  band: thin
-  composite: 29.1
+  band: emerging
+  composite: 23.1
   coverage:
-    artifact_dirs: 10
-    catalog_earned: 60.4
+    artifact_dirs: 11
+    catalog_earned: 47.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 54.6
+    catalog_gap: 68.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -3.4
+  delta: -6.0
   facets:
-    access_clarity: 37.4
+    access_clarity: 15.8
     contract_governance: 18.2
     contract_quality: 17.3
     developer_ergonomics: 21.4
     discoverability: 62.5
-    operational_transparency: 24.2
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -198,7 +202,7 @@ score:
     regions:
     - europe
     - italy-southern-europe
-  previous_composite: 32.5
+  previous_composite: 29.1
   provenance:
     conformance: first-party
   regulatory:
@@ -207,9 +211,9 @@ score:
     regime: Education & Research
     regime_id: education
     score: 28.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

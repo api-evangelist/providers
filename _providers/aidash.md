@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The only public, unauthenticated, machine-readable API surface AiDASH exposes. It is the standard Atlassian Statuspage Status API v2 served from the AiDASH status page, returning JSON for overall stat
@@ -164,7 +164,7 @@ modified: '2026-08-02'
 name: AiDASH
 nav: Providers
 network: true
-overview: 'AiDASH publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Satellite, Artificial Intelligence, Geospatial, and Utilities.
+overview: 'AiDASH is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Satellite, Artificial Intelligence, Geospatial, and Utilities.
 
 
   AiDASH''s developer surface includes signup flow, support, engineering blog, product news, YouTube channel, and 22 more developer resources.'
@@ -173,7 +173,7 @@ score:
   band: emerging
   composite: 24.2
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -203,8 +203,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 18.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

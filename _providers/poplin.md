@@ -27,16 +27,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 4
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://poplin.co/press
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/poplin/refs/heads/main/security/poplin-domain-security.yml
   title: ''
@@ -84,16 +88,23 @@ common:
 created: '2026-07-03'
 description: Poplin (formerly SudShare) is a nationwide on-demand laundry pickup and delivery marketplace connecting customers with independent, work-from-home "Laundry Pros" who wash, dry, and fold laundry, serving 500+ cities and 150,000+ customers. Poplin operates two consumer-facing mobile apps - the customer app and the Laundry Pro app - plus a Laundry Pro web portal (laundry-pro.poplin.co), but it does not expose a public or partner developer API. No developer portal or API reference was found at poplin.co, and the api.poplin.co subdomain resolves but returns a bare 404 with no documentation, indicating internal-only use. Business/SMB accounts (property managers, hospitality) are onboarded through sales and an account manager rather than through self-service API keys.
 finops:
-- name: Poplin Finops
+- has_sources: true
+  method: generated
+  name: Poplin Finops
+  primary_unit: ''
   service_category: Laundry / Gig Marketplace
   slug: poplin-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/poplin.png
 layout: provider
-modified: '2026-07-25'
+modified: '2026-10-06'
 name: Poplin
 nav: Providers
 network: true
-overview: Poplin is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Laundry, On-Demand, Gig Economy, Marketplace, and Delivery.
+overview: 'Poplin is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Laundry, On-Demand, Gig Economy, Marketplace, and Delivery.
+
+
+  Poplin''s developer surface includes engineering blog and 10 more developer resources.'
 plans:
 - name: Poplin Plans Pricing
   plan_count: 4
@@ -104,23 +115,23 @@ rate_limits:
   name: Poplin Rate Limits
   slug: poplin-rate-limits
 score:
-  band: emerging
-  composite: 14.0
+  band: minimal
+  composite: 7.1
   coverage:
-    artifact_dirs: 6
-    catalog_earned: 48.0
+    artifact_dirs: 7
+    catalog_earned: 32.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 67.0
+    catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.9
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 4.8
+    developer_ergonomics: 7.1
     discoverability: 48.2
-    operational_transparency: 18.9
+    operational_transparency: 5.3
   previous_composite: 14.0
   regulatory:
     applies: true
@@ -128,9 +139,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

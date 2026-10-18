@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -70,7 +70,7 @@ modified: '2026-07-20'
 name: MasterClass
 nav: Providers
 network: true
-overview: 'MasterClass is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, EdTech, Education, Online Learning, and Streaming.
+overview: 'MasterClass is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, EdTech, Education, E-Learning, and Streaming.
 
 
   MasterClass'' developer surface includes support, pricing, engineering blog, and 3 more developer resources.'
@@ -100,8 +100,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -118,10 +118,9 @@ tags:
 - Company
 - EdTech
 - Education
-- Online Learning
+- E-Learning
 - Streaming
 - Video
-- E-Learning
 - Professional Development
 website: https://www.masterclass.com
 ---

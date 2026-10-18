@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 3
+- acting_count: 0
   human_in_the_loop: 0
   name: Anz Agentic Access
   operation_count: 19
   slug: anz-agentic-access
-  summary_line: 19 operations · 3 acting
+  summary_line: 19 operations
 api_count: 1
 apis:
 - description: ANZ's first-party Payments API suite on the ANZ Developer Portal, letting business and institutional customers automate and optimise payment workflows across domestic payment rails (NPP / direct entry
@@ -263,7 +263,7 @@ modified: '2026-07-21'
 name: Australia and New Zealand Banking Group (ANZ)
 nav: Providers
 network: true
-overview: 'Australia and New Zealand Banking Group (ANZ) publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Banking Account Balances API, Banking Account Direct Debits API, Banking Account Scheduled Payments API, and 13 more. Tagged areas include Finance, Banks, Open Banking, CDR, and Consumer Banking.
+overview: 'Australia and New Zealand Banking Group (ANZ) publishes 16 API contracts indexed on the [APIs.io](https://apis.io/) network, including Banking Account Balances API, Banking Account Direct Debits API, Banking Account Scheduled Payments API, and 13 more. Tagged areas include Finance, Banks, Open Banking, CDR, and Consumer Banking.
 
 
   Australia and New Zealand Banking Group (ANZ)''s developer surface includes authentication, API reference, support, documentation, and 23 more developer resources.'
@@ -277,7 +277,7 @@ score:
   band: developing
   composite: 39.5
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -319,8 +319,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 48.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

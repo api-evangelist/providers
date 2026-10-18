@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: REST API (v1) for programmatic access to Wunderite risk data and related resources — risk profiles, buildings, vehicles, drivers, contacts, premises, equipment, homes, legal entities, liabilities, sub
@@ -185,7 +185,7 @@ modified: '2026-07-21'
 name: Wunderite
 nav: Providers
 network: true
-overview: 'Wunderite publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, Insurtech, ACORD Forms, and Risk Data.
+overview: 'Wunderite is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, Insurtech, ACORD Forms, and Risk Data.
 
 
   The Wunderite catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -197,7 +197,7 @@ score:
   band: thin
   composite: 37.2
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -220,8 +220,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 20.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

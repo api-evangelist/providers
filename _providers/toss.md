@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 15.5
-  scored_at: '2026-10-04'
+  score: 13.6
+  scored_at: '2026-10-17'
 api_count: 4
 apis:
 - description: REST API for processing payments, authorizations, cancellations, and refunds through the Toss Payments platform. Supports card, virtual account, mobile phone, bank transfer, and digital wallet payment
@@ -109,16 +109,20 @@ common:
 created: 2026-06-13
 description: Toss is a Korean financial super-app operated by Viva Republica that provides REST APIs for payments, banking, credit scoring, identity verification, and financial services across the Toss ecosystem. The Toss Payments platform supports card payments, virtual accounts, mobile phone billing, bank transfers, and digital wallets including TossPay, KakaoPay, NaverPay, and SamsungPay, serving over 30 million registered users across South Korea.
 finops:
-- name: Toss Finops
+- has_sources: false
+  method: generated
+  name: Toss Finops
+  primary_unit: ''
   service_category: ''
   slug: toss-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/toss.png
 layout: provider
 modified: 2026-06-13
 name: Toss
 nav: Providers
 network: true
-overview: 'Toss publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Payments API, and 3 more. Tagged areas include Payments, Fintech, Banking, South Korea, and Digital Wallet.
+overview: 'Toss is listed with 4 APIs on the [APIs.io](https://apis.io/) network, including Payments API, and 3 more. Tagged areas include Payments, Fintech, Banking, South Korea, and Digital Wallet.
 
 
   Toss'' developer surface includes documentation, engineering blog, pricing, and 10 more developer resources.'
@@ -133,17 +137,17 @@ rate_limits:
   slug: toss-rate-limits
 score:
   band: emerging
-  composite: 25.5
+  composite: 19.8
   coverage:
     artifact_dirs: 8
-    catalog_earned: 53.8
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 61.2
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.7
   facets:
-    access_clarity: 46.8
+    access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 24.0
     developer_ergonomics: 11.9
@@ -163,9 +167,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 5.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

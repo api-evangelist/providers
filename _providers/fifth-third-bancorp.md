@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 43.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -44,7 +44,7 @@ agentic_access:
   operation_count: 53
   slug: fifth-third-bancorp-agentic-access
   summary_line: 53 operations · 19 acting
-api_count: 1
+api_count: 2
 apis:
 - baseURL: https://sandbox.newline53.com/api/v1
   baseurl_source: declared
@@ -121,6 +121,10 @@ collections:
   name: Newline Platform API
   slug: open-newline-platform-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.53.com/blog/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/fifth-third-bancorp/refs/heads/main/capabilities/fifth-third-bancorp-capability-edges.yml
   title: ''
@@ -289,17 +293,17 @@ mcp_servers:
 - description: Local (stdio) MCP server; 34 tools listed.
   name: Fifth Third Bancorp MCP Server
   slug: newline
-modified: '2026-07-23'
+modified: '2026-10-06'
 name: Fifth Third Bancorp
 nav: Providers
 network: true
-overview: 'Fifth Third Bancorp publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Combined Transfers API, Custodial Accounts API, and 10 more. Tagged areas include Banking, United States, Embedded Finance, Banking as a Service, and Payments.
+overview: 'Fifth Third Bancorp publishes 13 API contracts indexed on the [APIs.io](https://apis.io/) network, including Auth API, Combined Transfers API, Custodial Accounts API, and 10 more. Tagged areas include Banking, United States, Embedded Finance, Banking as a Service, and Payments.
 
 
   The Fifth Third Bancorp catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Fifth Third Bancorp''s developer surface includes authentication, documentation, changelog, sandbox, getting-started guide, and 30 more developer resources.'
+  Fifth Third Bancorp''s developer surface includes engineering blog, authentication, documentation, changelog, sandbox, getting-started guide, and 30 more developer resources.'
 press:
 - date: ''
   title: Fifth Third Bancorp Investor Meetings
@@ -319,9 +323,9 @@ press:
 random_paper: 7
 score:
   band: developing
-  composite: 40.5
+  composite: 41.0
   coverage:
-    artifact_dirs: 25
+    artifact_dirs: 26
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -332,7 +336,7 @@ score:
     access_clarity: 5.3
     contract_governance: 4.5
     contract_quality: 58.5
-    developer_ergonomics: 61.9
+    developer_ergonomics: 64.3
     discoverability: 75.0
     operational_transparency: 42.1
   jurisdiction:
@@ -342,7 +346,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 40.0
+  previous_composite: 40.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -359,8 +363,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 17.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

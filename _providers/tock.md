@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - baseURL: https://api.exploretock.com
@@ -288,9 +288,13 @@ features:
 - description: Table management, host and server tooling, prep sheets, and shift-level reporting for in-venue operations.
   name: Operations and Floor Management
 finops:
-- name: Tock Finops
+- has_sources: true
+  method: generated
+  name: Tock Finops
+  primary_unit: ''
   service_category: Hospitality
   slug: tock-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tock.png
 integrations:
 - description: Bi-directional sync with restaurant POS systems for checks, payments, and guest spend; delivered through the contractual Partner API.
@@ -625,7 +629,7 @@ modified: '2026-06-03'
 name: Tock
 nav: Providers
 network: true
-overview: 'Tock publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Reservation API, Guest API, and 4 more. Tagged areas include Hospitality, Reservations, Restaurant, Wineries, and Ticketed Events.
+overview: 'Tock publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Reservation API, Guest API, and 4 more. Tagged areas include Hospitality, Reservations, Restaurant, Wineries, and Ticketed Events.
 
 
   The Tock catalog on APIs.io includes 2 JSON-LD contexts and 1 Spectral governance ruleset.
@@ -642,9 +646,10 @@ rate_limits:
   name: Tock Rate Limits
   slug: tock-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Tock API Rules
+  name: Tock — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -654,17 +659,17 @@ rules:
   slug: tock-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 37.0
+  composite: 35.5
   coverage:
-    artifact_dirs: 16
-    catalog_earned: 64.2
+    artifact_dirs: 17
+    catalog_earned: 61.2
     catalog_earned_first_party: 0.0
-    catalog_gap: 50.9
+    catalog_gap: 53.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 40.8
+    access_clarity: 32.9
     contract_governance: 23.5
     contract_quality: 43.9
     developer_ergonomics: 33.3
@@ -677,8 +682,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

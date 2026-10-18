@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.0
-  scored_at: '2026-10-04'
+  score: 17.8
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -60,6 +60,21 @@ collections:
   name: Horoscope API
   slug: open-horoscope-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/horoscope-api/refs/heads/main/plans/horoscope-api-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/horoscope-api-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/horoscope-api/refs/heads/main/rate-limits/horoscope-api-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/horoscope-api-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/horoscope-api/refs/heads/main/finops/horoscope-api-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/horoscope-api-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/horoscope-api/refs/heads/main/agentic-access/horoscope-api-agentic-access.yml
   title: ''
@@ -77,16 +92,20 @@ common:
 created: '2025-01-07'
 description: The Horoscope API offers a versatile solution for accessing daily, weekly, and monthly horoscope predictions tailored to each zodiac sign. With intuitive endpoints, developers can seamlessly integrate astrological insights into their applications, delivering accurate and personalized horoscope data in JSON format.
 finops:
-- name: Horoscope Api Finops
+- has_sources: false
+  method: generated
+  name: Horoscope Api Finops
+  primary_unit: ''
   service_category: API
   slug: horoscope-api-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/horoscope-api.png
 layout: provider
 modified: '2026-05-19'
 name: Horoscope API
 nav: Providers
 network: true
-overview: 'Horoscope API publishes 1 API on the [APIs.io](https://apis.io/) network: Horoscope API. Tagged areas include Astrology, Content, Horoscope, and Zodiac.
+overview: 'Horoscope API publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Horoscope API. Tagged areas include Astrology, Content, Horoscope, and Zodiac.
 
 
   The Horoscope API catalog on APIs.io includes 1 Spectral governance ruleset.'
@@ -100,7 +119,8 @@ rate_limits:
   name: Horoscope Api Rate Limits
   slug: horoscope-api-rate-limits
 rules:
-- effective_rule_count: 0
+- authorship: unmarked
+  effective_rule_count: 0
   extends: []
   name: Horoscope API API Rules
   rule_count: 0
@@ -112,17 +132,17 @@ rules:
   slug: horoscope-api-rules
 score:
   band: emerging
-  composite: 18.7
+  composite: 20.3
   coverage:
     artifact_dirs: 10
-    catalog_earned: 35.0
+    catalog_earned: 38.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 65.0
-    catalog_max: 100.0
+    catalog_gap: 77.0
+    catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.6
   facets:
-    access_clarity: 0.0
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 45.9
     developer_ergonomics: 9.5
@@ -142,8 +162,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

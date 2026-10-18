@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Lens is Tempus' real-world multimodal data and agentic AI platform for life sciences and oncology drug development, providing exploration of one of the world's largest de-identified clinical and molec
@@ -117,16 +117,20 @@ common:
 created: '2026-06-20'
 description: 'Tempus AI (NASDAQ: TEM) is a precision medicine company that has built one of the world''s largest libraries of de-identified clinical and molecular data, paired with an operating system to make that data accessible for diagnostics and research, starting with cancer. Its products span genomic profiling (xT / xR), AI-enabled clinical tools (Hub, One, Next), the Lens real-world data and agentic AI platform for life sciences, cardiology and radiology AI (ECG-AI, Pixel), and a consumer health app (Olivia). Tempus does not currently publish a self-serve, documented public developer API; integrations are delivered through enterprise and EHR channels (HL7 / FHIR, e.g. Epic) under partner agreements.'
 finops:
-- name: Tempus Ai Finops
+- has_sources: true
+  method: generated
+  name: Tempus Ai Finops
+  primary_unit: ''
   service_category: Healthcare and Life Sciences
   slug: tempus-ai-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tempus-ai.png
 layout: provider
 modified: '2026-08-08'
 name: Tempus AI
 nav: Providers
 network: true
-overview: 'Tempus AI publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Precision Medicine, Genomics, Healthcare, Molecular Diagnostics, and Oncology.
+overview: 'Tempus AI publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network. Tagged areas include Precision Medicine, Genomics, Healthcare, Molecular Diagnostics, and Oncology.
 
 
   Tempus AI''s developer surface includes documentation, getting-started guide, engineering blog, and 10 more developer resources.'
@@ -140,23 +144,23 @@ rate_limits:
   name: Tempus Ai Rate Limits
   slug: tempus-ai-rate-limits
 score:
-  band: emerging
-  composite: 15.8
+  band: minimal
+  composite: 9.7
   coverage:
     artifact_dirs: 10
-    catalog_earned: 49.4
+    catalog_earned: 36.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 65.6
+    catalog_gap: 79.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.1
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
     discoverability: 64.3
-    operational_transparency: 21.6
+    operational_transparency: 7.9
   previous_composite: 15.8
   regulatory:
     applies: true
@@ -164,13 +168,14 @@ score:
     regime: Health
     regime_id: health
     score: 4.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
     reason: read_only
+screenshot: https://raw.githubusercontent.com/api-evangelist/tempus-ai/refs/heads/main/screenshots/tempus-ai-2026-10-11T193014.png
 security:
 - kind: domain-security
   name: Tempus Ai Domain Security

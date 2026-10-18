@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 1
@@ -31,7 +31,7 @@ agentic_access:
   operation_count: 56
   slug: asapp3-agentic-access
   summary_line: 56 operations · 26 acting · 1 human-in-the-loop
-api_count: 1
+api_count: 2
 apis:
 - baseURL: https://api.sandbox.asapp.com
   baseurl_source: declared
@@ -269,7 +269,7 @@ modified: '2026-09-26'
 name: Asapp3
 nav: Providers
 network: true
-overview: 'Asapp3 publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Auto Compose API, Auto Summary API, Auto Transcribe API, and 7 more. Tagged areas include Artificial Intelligence, Customer Experience, Enterprise, Contact Center, and Platform.
+overview: 'Asapp3 publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Auto Compose API, Auto Summary API, Auto Transcribe API, and 7 more. Tagged areas include Artificial Intelligence, Customer Experience, Enterprise, Contact Center, and Platform.
 
 
   The Asapp3 catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
@@ -282,7 +282,8 @@ rate_limits:
   name: Asapp3 Rate Limits
   slug: asapp3-rate-limits
 rules:
-- effective_rule_count: 58
+- authorship: generated
+  effective_rule_count: 58
   extends:
   - spectral:oas
   name: Asapp3 API Rules
@@ -297,12 +298,13 @@ score:
   band: strong
   composite: 58.8
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 24
     catalog_earned: 70.8
     catalog_earned_first_party: 8.0
     catalog_gap: 44.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 26.3
     contract_governance: 35.6
@@ -310,6 +312,7 @@ score:
     developer_ergonomics: 49.4
     discoverability: 75.0
     operational_transparency: 65.8
+  previous_composite: 58.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -326,11 +329,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 23.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: flat
   upsert:
     applies: true
     score: 50.0
+screenshot: https://raw.githubusercontent.com/api-evangelist/asapp3/refs/heads/main/screenshots/asapp3-2026-10-11T100458.png
 security:
 - kind: authentication
   name: Asapp3 Authentication

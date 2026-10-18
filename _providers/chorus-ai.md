@@ -35,8 +35,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.2
-  scored_at: '2026-10-04'
-api_count: 2
+  scored_at: '2026-10-17'
+api_count: 4
 apis:
 - baseURL: https://chorus.ai/api/v1
   baseurl_source: declared
@@ -306,16 +306,20 @@ common:
 created: '2026-05-08'
 description: Chorus.ai is a conversation intelligence platform, acquired by ZoomInfo in 2021 and sold as "Chorus by ZoomInfo", that records, transcribes and analyzes customer-facing calls, meetings and emails to surface deal insights and coach sales reps. It publishes a single public REST contract — the Chorus API, an OpenAPI 3.0.3 document with 81 operations served unauthenticated at https://chorus.ai/api/openapi.json — covering engagement search, recording upload and media retrieval, coaching moments and playlists, scorecards, AI sales-qualification analysis with CRM writeback, and webhook registration. The API is JSON:API shaped on its /api/v1 surface with an older flat /v3 surface alongside it. Notably, the chorus.ai marketing site has been retired to a redirect shell pointing at zoominfo.com, but the API and both of its documentation surfaces remain live on the original domain.
 finops:
-- name: Chorus Ai Finops
+- has_sources: true
+  method: generated
+  name: Chorus Ai Finops
+  primary_unit: ''
   service_category: Sales
   slug: chorus-ai-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/chorus-ai.png
 layout: provider
 modified: '2026-09-16'
 name: Chorus.ai
 nav: Providers
 network: true
-overview: 'Chorus.ai publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Conversations API, Emails API, and 19 more. Tagged areas include Sales, Revenue Intelligence, Conversations, Analytics, and ZoomInfo.
+overview: 'Chorus.ai publishes 22 API contracts indexed on the [APIs.io](https://apis.io/) network, including Auth API, Conversations API, Emails API, and 19 more. Tagged areas include Sales, Revenue Intelligence, Conversations, Analytics, and ZoomInfo.
 
 
   The Chorus.ai catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -332,22 +336,22 @@ rate_limits:
   name: Chorus Ai Rate Limits
   slug: chorus-ai-rate-limits
 score:
-  band: strong
-  composite: 54.6
+  band: developing
+  composite: 53.6
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.0
   facets:
-    access_clarity: 55.3
+    access_clarity: 47.4
     contract_governance: 18.2
     contract_quality: 58.3
     developer_ergonomics: 33.9
-    discoverability: 66.1
+    discoverability: 71.4
     operational_transparency: 34.2
   previous_composite: 54.6
   provenance:
@@ -365,8 +369,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

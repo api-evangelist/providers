@@ -1,0 +1,105 @@
+---
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 0.0
+  scored_at: '2026-10-17'
+api_count: 0
+artifact_total: 1
+common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ben-ki/refs/heads/main/hosts/ben-ki-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/ben-ki-hosts.yml
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ben-ki/refs/heads/main/security/ben-ki-domain-security.yml
+  title: ''
+  type: DomainSecurity
+  url: security/ben-ki-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.benkitechnologies.com/
+coverage:
+  checked: '2026-10-16'
+  detail: No OpenAPI, AsyncAPI, GraphQL, or other machine-readable contract was found at the API host.
+  evidence:
+  - status: connection_error
+    url: https://api.benkitechnologies.com/openapi.json
+  reason: no-machine-readable-spec
+  state: unreadable
+created: '2026-10-16'
+description: Benki Technologies Private Limited is a software development and IT consulting firm offering services such as application development, mobile apps, DevOps, cloud solutions, and ERP systems. It serves industries including manufacturing, banking, finance, travel, and retail, and operates a chain of computer distribution. The company also provides AI-driven GIS data analytics for strategic insights.
+layout: provider
+modified: '2026-10-16'
+name: Benki
+nav: Providers
+network: true
+overview: Benki is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Software, IT Consulting, Artificial Intelligence, GIS, and Services.
+random_paper: 16
+score:
+  band: minimal
+  composite: 3.0
+  coverage:
+    artifact_dirs: 6
+    catalog_earned: 25.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 90.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  facets:
+    access_clarity: 0.0
+    contract_governance: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 44.6
+    operational_transparency: 0.0
+  provenance:
+    mcp: derived
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 5.5
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+security:
+- kind: domain-security
+  name: Ben Ki Domain Security
+  slug: ben-ki-domain-security
+  summary_line: TLSv1.3
+slug: ben-ki
+tags:
+- Software
+- IT Consulting
+- Artificial Intelligence
+- GIS
+- Services
+website: https://www.benkitechnologies.com/
+---

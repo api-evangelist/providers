@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.4
-  scored_at: '2026-10-04'
+  score: 33.2
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -110,16 +110,20 @@ common:
 created: '2026-07-12'
 description: Abstract API's Phone Number Validation & Verification API validates and verifies a phone number in a single REST request. Given a number (ideally in E.164 format) it returns whether the number is valid, its local and international formats, the country, the registered location, the line type (mobile, landline, VoIP, and more), and the carrier - useful for form validation, lead scoring, fraud prevention, and cleaning phone data. The endpoint is a single authenticated GET call with the API key passed as a query parameter, and Abstract offers a free tier alongside paid plans. Phone Validation is one product in the broader Abstract API suite, which also includes email validation, IP geolocation, company enrichment, and other data APIs; each product has its own host and its own API key.
 finops:
-- name: Abstractapi Phone Finops
+- has_sources: true
+  method: generated
+  name: Abstractapi Phone Finops
+  primary_unit: ''
   service_category: Data Validation and Enrichment
   slug: abstractapi-phone-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/abstractapi-phone.png
 layout: provider
 modified: '2026-07-12'
 name: Abstract API Phone Validation
 nav: Providers
 network: true
-overview: 'Abstract API Phone Validation publishes 1 API on the [APIs.io](https://apis.io/) network: Phone Validation API. Tagged areas include Number Verification, Phone Validation, Phone Numbers, Phone Number Lookup, and Verification.
+overview: 'Abstract API Phone Validation publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Phone Validation API. Tagged areas include Number Verification, Phone Validation, Phone Numbers, Phone Number Lookup, and Verification.
 
 
   Abstract API Phone Validation''s developer surface includes authentication, documentation, and 8 more developer resources.'
@@ -133,23 +137,23 @@ rate_limits:
   name: Abstractapi Phone Rate Limits
   slug: abstractapi-phone-rate-limits
 score:
-  band: thin
-  composite: 33.6
+  band: emerging
+  composite: 26.1
   coverage:
-    artifact_dirs: 10
-    catalog_earned: 58.0
+    artifact_dirs: 11
+    catalog_earned: 42.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.0
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.5
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 50.8
     developer_ergonomics: 28.6
     discoverability: 66.1
-    operational_transparency: 21.6
+    operational_transparency: 7.9
   previous_composite: 33.6
   provenance:
     agentic_access: derived
@@ -164,9 +168,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 10.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

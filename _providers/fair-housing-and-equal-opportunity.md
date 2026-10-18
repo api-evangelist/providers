@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 5
 apis:
 - description: The Office of Fair Housing and Equal Opportunity (FHEO) administers and enforces federal laws that prohibit discrimination in housing based on race, color, national origin, religion, sex, familial sta
@@ -53,6 +53,11 @@ apis:
   slug: affh-t
 artifact_total: 11
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/fair-housing-and-equal-opportunity/refs/heads/main/finops/fair-housing-and-equal-opportunity-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/fair-housing-and-equal-opportunity-finops.yml
 - group: company
   title: ''
   type: Website
@@ -178,19 +183,23 @@ common:
 created: '2024-12-03'
 description: The mission of the Office of Fair Housing and Equal Opportunity (FHEO) is to eliminate housing discrimination, promote economic opportunity, and achieve diverse, inclusive communities by leading the nation in the enforcement, administration, development, and public understanding of federal fair housing policies and laws. FHEO administers the Fair Housing Assistance Program (FHAP) and the Fair Housing Initiatives Program (FHIP), enforces Title VIII of the Civil Rights Act, and owns the Affirmatively Furthering Fair Housing (AFFH) rule and its Data and Mapping Tool. FHEO does not run a developer portal of its own; its program data is published as anonymously callable ArcGIS REST feature services inside HUD's ArcGIS Online organization and through the HUD Open Data site, and its AFFH-T map and report services run on HUD's eGIS ArcGIS Server.
 finops:
-- name: Fair Housing And Equal Opportunity Finops
+- has_sources: false
+  method: generated
+  name: Fair Housing And Equal Opportunity Finops
+  primary_unit: ''
   service_category: API
   slug: fair-housing-and-equal-opportunity-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fair-housing-and-equal-opportunity.png
 layout: provider
 modified: '2026-09-07'
 name: Fair Housing and Equal Opportunity
 nav: Providers
 network: true
-overview: 'Fair Housing and Equal Opportunity publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include AFFH, ArcGIS, Equal Opportunity, Fair Housing, and Federal Government.
+overview: 'Fair Housing and Equal Opportunity is listed with 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include AFFH, ArcGIS, Equal Opportunity, Fair Housing, and Federal Government.
 
 
-  Fair Housing and Equal Opportunity''s developer surface includes documentation, support, engineering blog, authentication, and 23 more developer resources.'
+  Fair Housing and Equal Opportunity''s developer surface includes documentation, support, engineering blog, authentication, and 24 more developer resources.'
 plans:
 - name: Fair Housing And Equal Opportunity Plans Pricing
   plan_count: 0
@@ -202,17 +211,17 @@ rate_limits:
   slug: fair-housing-and-equal-opportunity-rate-limits
 score:
   band: emerging
-  composite: 22.3
+  composite: 20.7
   coverage:
     artifact_dirs: 18
-    catalog_earned: 38.0
+    catalog_earned: 35.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 77.0
+    catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 18.4
+    access_clarity: 10.5
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 28.6
@@ -233,8 +242,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 26.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -253,7 +262,7 @@ security:
 - kind: vulnerability-disclosure
   name: Fair Housing And Equal Opportunity Vulnerability Disclosure
   slug: fair-housing-and-equal-opportunity-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 slug: fair-housing-and-equal-opportunity
 tags:
 - AFFH

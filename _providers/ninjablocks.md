@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Historical RESTful API for the Ninja Blocks IoT platform, used to read device/sensor data and actuate devices. No longer operational; documented here from surviving first-party client libraries.
@@ -83,7 +83,7 @@ modified: '2026-07-20'
 name: NinjaBlocks
 nav: Providers
 network: true
-overview: 'NinjaBlocks publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, IoT, Home Automation, Smart Home, and Sensors.
+overview: 'NinjaBlocks is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, IoT, Home Automation, Smart Home, and Sensors.
 
 
   NinjaBlocks'' developer surface includes CLI and 7 more developer resources.'
@@ -125,8 +125,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 0.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -60,7 +60,7 @@ apis:
   description: Create and retrieve datasets.
   name: Tenyks Datasets API
   slug: tenyks-datasets-api
-artifact_total: 11
+artifact_total: 12
 collections:
 - collection_type: open
   name: API Collection
@@ -75,6 +75,11 @@ collections:
   name: Tenyks Auth Datasets API
   slug: open-tenyks-datasets-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/tenyks/refs/heads/main/plans/tenyks-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/tenyks-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/tenyks/refs/heads/main/capabilities/tenyks-capability-edges.yml
   title: ''
@@ -219,24 +224,28 @@ modified: '2026-07-21'
 name: Tenyks
 nav: Providers
 network: true
-overview: 'Tenyks publishes 3 APIs on the [APIs.io](https://apis.io/) network: Auth API, Data Upload API, and Datasets API. Tagged areas include Company, Computer Vision, Machine Learning, MLOps, and Data Quality.
+overview: 'Tenyks publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Auth API, Data Upload API, and Datasets API. Tagged areas include Company, Computer Vision, Machine Learning, MLOps, and Data Quality.
 
 
-  Tenyks'' developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 22 more developer resources.'
+  Tenyks'' developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 23 more developer resources.'
+plans:
+- name: Tenyks Plans Pricing
+  plan_count: 5
+  slug: tenyks-plans-pricing
 random_paper: 10
 score:
   band: developing
-  composite: 39.7
+  composite: 46.1
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 23
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.4
   facets:
-    access_clarity: 32.9
+    access_clarity: 64.5
     contract_governance: 18.2
     contract_quality: 49.3
     developer_ergonomics: 56.5
@@ -265,9 +274,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 37
+- acting_count: 35
   human_in_the_loop: 0
   name: Citrix Agentic Access
   operation_count: 69
   slug: citrix-agentic-access
-  summary_line: 69 operations · 37 acting
+  summary_line: 69 operations · 35 acting
 api_count: 6
 apis:
 - description: Integrate and customize Citrix Workspace for end users.
@@ -326,6 +326,21 @@ collections:
   name: Citrix ADC (NetScaler) NITRO Access Policies Users API
   slug: open-citrix-users-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/citrix/refs/heads/main/plans/citrix-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/citrix-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/citrix/refs/heads/main/rate-limits/citrix-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/citrix-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/citrix/refs/heads/main/finops/citrix-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/citrix-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/citrix/refs/heads/main/capabilities/citrix-capability-edges.yml
   title: ''
@@ -429,9 +444,13 @@ common:
 created: '2024-01-01'
 description: Citrix is a global software company providing virtualization, networking, workspace, and digital experience products that allow organizations to deliver applications and desktops securely from data centers and clouds to any device. Citrix exposes its programmable surface through the Citrix Cloud platform and developer.citrix.com / developer-docs.citrix.com, with REST APIs spanning Virtual Apps and Desktops, DaaS, Workspace, Citrix Cloud, ADC (NetScaler) NITRO, Endpoint Management, Secure Private Access, and Analytics. Authentication uses OAuth 2.0 bearer tokens issued through Citrix Cloud customer-id-scoped credentials.
 finops:
-- name: Citrix Finops
+- has_sources: true
+  method: generated
+  name: Citrix Finops
+  primary_unit: ''
   service_category: End-User Computing
   slug: citrix-finops
+  template: false
 image: https://www.citrix.com/content/dam/citrix/en_us/images/logos/citrix-logo.png
 json_schemas:
 - name: AccessPolicy
@@ -583,13 +602,13 @@ modified: '2026-05-19'
 name: Citrix
 nav: Providers
 network: true
-overview: 'Citrix publishes 27 APIs on the [APIs.io](https://apis.io/) network, including Access Policies API, Application Domains API, Applications API, and 24 more. Tagged areas include Application Delivery, Desktop as a Service, Networking, Virtualization, and Workspace.
+overview: 'Citrix publishes 27 API contracts indexed on the [APIs.io](https://apis.io/) network, including Access Policies API, Application Domains API, Applications API, and 24 more. Tagged areas include Application Delivery, Desktop as a Service, Networking, Virtualization, and Workspace.
 
 
   The Citrix catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Citrix''s developer surface includes authentication, developer portal, getting-started guide, engineering blog, support, and 18 more developer resources.'
+  Citrix''s developer surface includes authentication, developer portal, getting-started guide, engineering blog, support, and 21 more developer resources.'
 plans:
 - name: Citrix Plans Pricing
   plan_count: 3
@@ -616,9 +635,10 @@ rate_limits:
   name: Citrix Rate Limits
   slug: citrix-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Citrix API Rules
+  name: Citrix — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -626,7 +646,8 @@ rules:
     info: 2
     warn: 3
   slug: citrix-jsonschema-spectral-rules
-- effective_rule_count: 48
+- authorship: unmarked
+  effective_rule_count: 48
   extends:
   - spectral:oas
   name: Citrix API Rules
@@ -639,23 +660,23 @@ rules:
   slug: citrix-rules
 score:
   band: developing
-  composite: 41.3
+  composite: 40.3
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 58.5
+    artifact_dirs: 22
+    catalog_earned: 55.5
     catalog_earned_first_party: 0.0
     catalog_gap: 59.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.4
+  delta: -1.5
   facets:
-    access_clarity: 22.4
+    access_clarity: 14.5
     contract_governance: 13.6
     contract_quality: 56.4
     developer_ergonomics: 63.1
-    discoverability: 66.1
+    discoverability: 71.4
     operational_transparency: 18.4
-  previous_composite: 42.7
+  previous_composite: 41.8
   provenance:
     agentic_access: derived
     contracts:
@@ -669,8 +690,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

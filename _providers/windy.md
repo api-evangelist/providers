@@ -28,20 +28,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 1
+- acting_count: 0
   human_in_the_loop: 0
   name: Windy Agentic Access
   operation_count: 3
   slug: windy-agentic-access
-  summary_line: 3 operations · 1 acting
+  summary_line: 3 operations
 api_count: 1
 apis:
 - baseURL: https://api.windy.com/api/point-forecast/v2
@@ -69,6 +69,10 @@ collections:
   name: Windy API
   slug: open-windy
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.windy.com/blog/
 - group: operate
   title: ''
   type: IssueTracker
@@ -127,19 +131,23 @@ common:
 created: '2026-06-21'
 description: Windy.com is a weather visualization platform serving high-resolution forecast models, animated weather maps, and a global webcam network. The Windy API exposes three developer products - a Point Forecast API for multi-model numerical weather data at a coordinate, an embeddable Map Forecast API based on Leaflet, and a Webcams API for the world's largest webcam repository.
 finops:
-- name: Windy Finops
+- has_sources: true
+  method: generated
+  name: Windy Finops
+  primary_unit: ''
   service_category: Analytics
   slug: windy-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/windy.png
 layout: provider
-modified: '2026-06-21'
+modified: '2026-10-06'
 name: Windy
 nav: Providers
 network: true
-overview: 'Windy publishes 2 APIs on the [APIs.io](https://apis.io/) network: Point Forecast API and Webcams API. Tagged areas include Weather, Forecast, Maps, Webcams, and Visualization.
+overview: 'Windy publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Point Forecast API and Webcams API. Tagged areas include Weather, Forecast, Maps, Webcams, and Visualization.
 
 
-  Windy''s developer surface includes authentication, documentation, and 10 more developer resources.'
+  Windy''s developer surface includes engineering blog, authentication, documentation, and 10 more developer resources.'
 plans:
 - name: Windy Plans Pricing
   plan_count: 6
@@ -151,22 +159,22 @@ rate_limits:
   slug: windy-rate-limits
 score:
   band: thin
-  composite: 34.4
+  composite: 26.5
   coverage:
-    artifact_dirs: 10
-    catalog_earned: 61.6
+    artifact_dirs: 11
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.4
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.9
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 49.3
-    developer_ergonomics: 22.6
+    developer_ergonomics: 25.0
     discoverability: 66.1
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   previous_composite: 34.4
   provenance:
     agentic_access: derived
@@ -181,9 +189,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 17.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

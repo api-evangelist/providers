@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Tattle describes an open, REST-based API and an API-first design ("Modern REST APIs with comprehensive documentation for custom integrations") enabling two-way data synchronization with restaurant POS
@@ -101,16 +101,20 @@ created: '2026-06-02'
 description: Tattle is an AI-powered Customer Experience Improvement (CXI) platform built for hospitality, supporting 220+ restaurant and hospitality brands across 11,000+ locations globally — including Chili's, MOD Pizza, Hooters, Freddy's, Mellow Mushroom, and The Halal Guys. It collects real-time guest feedback at the point of transaction across ordering channels, then turns it into actionable insights with smart analytics, an AI Coach that delivers each general manager monthly action plans tied to their own guest feedback and SOPs, guest-recovery tools, cross-platform review management, and item-level menu performance tracking. Pricing is per location per month, starting at $59/location. Tattle markets an open, REST-based, API-first design and integrates with 34+ restaurant technology platforms across POS, online ordering, loyalty/CRM, and kiosk categories — such as Olo, Toast, PAR Brink, Square, Punchh, Paytronix, Revel, Thanx, and Checkmate. Public, self-service API reference documentation
   is not published; the open API and custom integrations are coordinated through Tattle's integrations team (customersuccess@gettattle.com).
 finops:
-- name: Tattle Finops
+- has_sources: true
+  method: generated
+  name: Tattle Finops
+  primary_unit: ''
   service_category: Customer Experience / Guest Feedback (SaaS)
   slug: tattle-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tattle.png
 layout: provider
 modified: '2026-06-03'
 name: Tattle
 nav: Providers
 network: true
-overview: 'Tattle publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Restaurant, Guest Feedback, Customer Experience, Review Management, and Analytics.
+overview: 'Tattle is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Restaurant, Guest Feedback, Customer Experience, Review Management, and Analytics.
 
 
   Tattle''s developer surface includes documentation, pricing, GitHub presence, support, engineering blog, and 8 more developer resources.'
@@ -125,22 +129,22 @@ rate_limits:
   slug: tattle-rate-limits
 score:
   band: emerging
-  composite: 21.4
+  composite: 14.0
   coverage:
     artifact_dirs: 7
-    catalog_earned: 53.0
+    catalog_earned: 37.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 62.0
+    catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.4
   facets:
-    access_clarity: 53.4
+    access_clarity: 25.0
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 16.7
     discoverability: 57.1
-    operational_transparency: 24.2
+    operational_transparency: 10.5
   previous_composite: 21.4
   regulatory:
     applies: true
@@ -148,9 +152,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

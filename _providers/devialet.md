@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 6
@@ -228,7 +228,7 @@ modified: '2026-08-04'
 name: Devialet
 nav: Providers
 network: true
-overview: 'Devialet publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Audio Settings API, Devices API, Groups API, and 3 more. Tagged areas include Audio, Consumer Electronics, Smart Speakers, Home Automation, and Custom Installation.
+overview: 'Devialet publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Audio Settings API, Devices API, Groups API, and 3 more. Tagged areas include Audio, Consumer Electronics, Smart Speakers, Home Automation, and Custom Installation.
 
 
   Devialet''s developer surface includes documentation, API reference, support, authentication, changelog, code examples, and 20 more developer resources.'
@@ -276,8 +276,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

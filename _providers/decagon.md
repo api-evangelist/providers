@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Decagon AI Agents Studio is the enterprise platform for authoring, deploying, testing, and operating AI agents using Agent Operating Procedures (AOPs) - natural-language workflows that drive agent beh
@@ -41,6 +41,21 @@ apis:
   slug: ai-agents-studio
 artifact_total: 16
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/decagon/refs/heads/main/plans/decagon-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/decagon-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/decagon/refs/heads/main/rate-limits/decagon-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/decagon-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/decagon/refs/heads/main/finops/decagon-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/decagon-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/decagon/refs/heads/main/security/decagon-vulnerability-disclosure.yml
   title: ''
@@ -229,19 +244,23 @@ features:
 - description: Integrations to back-office systems and knowledge bases for agent grounding.
   name: Tool Connectors
 finops:
-- name: Decagon Finops
+- has_sources: false
+  method: generated
+  name: Decagon Finops
+  primary_unit: ''
   service_category: API
   slug: decagon-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/decagon.png
 layout: provider
 modified: '2026-08-08'
 name: Decagon
 nav: Providers
 network: true
-overview: 'Decagon publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Agents, Artificial Intelligence, Chat, Conversational AI, and Customer Experience.
+overview: 'Decagon is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Agents, Artificial Intelligence, Chat, Conversational AI, and Customer Experience.
 
 
-  Decagon''s developer surface includes documentation, engineering blog, support, training material, privacy policy, and 36 more developer resources.'
+  Decagon''s developer surface includes documentation, engineering blog, support, training material, privacy policy, and 39 more developer resources.'
 plans:
 - name: Decagon Plans Pricing
   plan_count: 1
@@ -253,32 +272,32 @@ rate_limits:
   slug: decagon-rate-limits
 score:
   band: emerging
-  composite: 20.0
+  composite: 13.6
   coverage:
-    artifact_dirs: 8
-    catalog_earned: 49.4
+    artifact_dirs: 9
+    catalog_earned: 36.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 65.6
+    catalog_gap: 79.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.4
   facets:
-    access_clarity: 33.4
+    access_clarity: 11.8
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 19.0
     discoverability: 64.3
-    operational_transparency: 29.5
+    operational_transparency: 15.8
   previous_composite: 20.0
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 10.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

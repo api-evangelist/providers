@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 4.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: A live, unauthenticated Model Context Protocol endpoint served from the www.adordx.com host and advertised in the company's own llms.txt. It is provided by the Wix site platform rather than authored b
@@ -106,7 +106,7 @@ modified: '2026-09-07'
 name: ADOR Diagnostics
 nav: Providers
 network: true
-overview: 'ADOR Diagnostics publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Medical Devices, In Vitro Diagnostics, and Molecular Diagnostics.
+overview: 'ADOR Diagnostics is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Medical Devices, In Vitro Diagnostics, and Molecular Diagnostics.
 
 
   ADOR Diagnostics'' developer surface includes authentication, engineering blog, and 12 more developer resources.'
@@ -119,7 +119,7 @@ score:
   band: emerging
   composite: 16.2
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 11
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -148,13 +148,14 @@ score:
     regime: Health
     regime_id: health
     score: 19.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/adordiagnostics/refs/heads/main/screenshots/adordiagnostics-2026-10-11T092834.png
 security:
 - kind: authentication
   name: Adordiagnostics Authentication

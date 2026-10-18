@@ -28,20 +28,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.3
-  scored_at: '2026-10-04'
+  score: 30.4
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 30
+- acting_count: 29
   human_in_the_loop: 0
   name: Payu Agentic Access
   operation_count: 47
   slug: payu-agentic-access
-  summary_line: 47 operations · 30 acting
+  summary_line: 47 operations · 29 acting
 api_count: 1
 apis:
 - description: REST API for payment processing in India. Supports hosted checkout, payment links, recurring payments, subscription management, save cards / vault, split settlements, wallet operations, cross-border p
@@ -259,9 +259,13 @@ common:
 created: '2026-06-13'
 description: PayU is a global payment platform operating in 50+ emerging markets across Central & Eastern Europe, Latin America, the Middle East, and Africa. It provides REST APIs for payment processing, order management, refunds, payouts, subscriptions, fraud detection, checkout optimization, marketplace operations, tokenization, and financial services. PayU processes 4 million transactions daily for 450,000+ merchants through 450+ local payment methods.
 finops:
-- name: Payu Finops
+- has_sources: false
+  method: generated
+  name: Payu Finops
+  primary_unit: ''
   service_category: ''
   slug: payu-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/payu.png
 json_schemas:
 - name: PayU GPO Europe REST API - JSON Schemas
@@ -277,7 +281,7 @@ modified: '2026-06-13'
 name: PayU
 nav: Providers
 network: true
-overview: 'PayU publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Authorize API, Card Installments API, FX-Reference API, and 15 more. Tagged areas include Payments, Payment Processing, Fintech, Financial Services, and Subscription.
+overview: 'PayU publishes 18 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authorize API, Card Installments API, FX-Reference API, and 15 more. Tagged areas include Payments, Payment Processing, Fintech, Financial Services, and Subscription.
 
 
   The PayU catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -294,9 +298,10 @@ rate_limits:
   name: Payu Rate Limits
   slug: payu-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: PayU API Rules
+  name: PayU — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -306,17 +311,17 @@ rules:
   slug: payu-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 45.8
+  composite: 40.2
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 69.0
+    artifact_dirs: 18
+    catalog_earned: 58.2
     catalog_earned_first_party: 0.0
-    catalog_gap: 46.1
+    catalog_gap: 56.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.6
   facets:
-    access_clarity: 54.7
+    access_clarity: 26.3
     contract_governance: 23.5
     contract_quality: 60.4
     developer_ergonomics: 23.8
@@ -336,9 +341,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 25.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 27.8

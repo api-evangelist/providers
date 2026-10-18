@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://api.gradium.ai/api
@@ -95,6 +95,10 @@ collections:
   name: Gradium metering Voices API
   slug: open-gradium-voices-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://gradium.ai/blog/feed.xml
 - group: company
   title: ''
   type: Website
@@ -261,29 +265,29 @@ created: '2026-07-17'
 description: Gradium is a voice AI lab (Paris and Silicon Valley) building audio language models for real-time, low-latency Text-to-Speech, Speech-to-Text, and Speech-to-Speech translation. Founded in 2025 by ex-DeepMind / Meta / Kyutai researchers (Neil Zeghidour, Olivier Teboul, Laurent Mazaré, Alexandre Défossez), Gradium exposes a developer API over REST and WebSocket featuring instant voice cloning from a 10-second sample, custom pronunciation dictionaries, sub-300ms time-to-first-token streaming, and multilingual support (English, French, German, Spanish, Portuguese). It ships first-party Python and Rust SDKs, a `gradium` CLI, and the open-source gradbot voice-agent framework, and is available on AWS Marketplace / SageMaker. Backed by a $70M seed round with participation from Amplify Partners, Eric Schmidt, and Xavier Niel.
 image: https://gradium.ai/assets/dots_1200.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Gradium
 nav: Providers
 network: true
-overview: 'Gradium publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Metering API, Pronunciations API, S2S API, and 3 more. Tagged areas include Company, Ai Ml, Voice AI, Text-to-Speech, and Speech-to-Text.
+overview: 'Gradium publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Metering API, Pronunciations API, S2S API, and 3 more. Tagged areas include Company, Artificial Intelligence, Voice AI, Text-to-Speech, and Speech-to-Text.
 
 
   The Gradium catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Gradium''s developer surface includes documentation, API reference, getting-started guide, CLI, authentication, changelog, sandbox, and 29 more developer resources.'
+  Gradium''s developer surface includes documentation, API reference, getting-started guide, CLI, authentication, changelog, sandbox, and 30 more developer resources.'
 random_paper: 19
 score:
   band: developing
-  composite: 47.7
+  composite: 47.0
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 31.6
     contract_governance: 4.5
@@ -303,12 +307,12 @@ score:
     skills: derived
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
-    score: 21.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
+    score: 19.3
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -326,7 +330,7 @@ security:
 slug: gradium
 tags:
 - Company
-- Ai Ml
+- Artificial Intelligence
 - Voice AI
 - Text-to-Speech
 - Speech-to-Text

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 1
@@ -373,9 +373,13 @@ features:
 - name: Streaming Responses (Text + NDJSON)
 - name: Free Unlimited Tokens On All Plans
 finops:
-- name: Toolhouse Finops
+- has_sources: false
+  method: generated
+  name: Toolhouse Finops
+  primary_unit: ''
   service_category: API
   slug: toolhouse-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/toolhouse.png
 integrations:
 - name: OpenAI
@@ -427,7 +431,7 @@ modified: '2026-09-16'
 name: Toolhouse
 nav: Providers
 network: true
-overview: 'Toolhouse publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Agent Runs API, API Keys API, Backoffice API, and 5 more. Tagged areas include Agent Infrastructure, AI Agents, AI Workers, Backend-as-a-Service, and MCP.
+overview: 'Toolhouse publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agent Runs API, API Keys API, Backoffice API, and 5 more. Tagged areas include Agent Infrastructure, AI Agents, AI Workers, Backend-as-a-Service, and MCP.
 
 
   The Toolhouse catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -440,9 +444,10 @@ rate_limits:
   name: Toolhouse Rate Limits
   slug: toolhouse-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: Toolhouse API Rules
+  name: Toolhouse — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -450,7 +455,8 @@ rules:
     info: 2
     warn: 4
   slug: toolhouse-jsonschema-spectral-rules
-- effective_rule_count: 51
+- authorship: unmarked
+  effective_rule_count: 51
   extends:
   - spectral:oas
   name: Toolhouse API Rules
@@ -463,17 +469,17 @@ rules:
   slug: toolhouse-rules
 score:
   band: developing
-  composite: 51.8
+  composite: 50.3
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 60.0
+    artifact_dirs: 21
+    catalog_earned: 57.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 55.0
+    catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 52.6
+    access_clarity: 44.7
     contract_governance: 27.3
     contract_quality: 51.7
     developer_ergonomics: 46.4
@@ -493,8 +499,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 1
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 33
   slug: nomos-agentic-access
   summary_line: 33 operations · 11 acting · 1 human-in-the-loop
-api_count: 1
+api_count: 2
 apis:
 - baseURL: https://api.nomos.energy
   baseurl_source: declared
@@ -149,6 +149,10 @@ collections:
   name: Nomos Authentication Usage API
   slug: open-nomos-usage-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.nomos.energy/blog
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/nomos/refs/heads/main/capabilities/nomos-capability-edges.yml
   title: ''
@@ -279,17 +283,17 @@ created: '2026-07-17'
 description: 'Nomos runs a whitelabel (embedded) energy platform for the German market: partners sell dynamic, EPEX-spot electricity plans under their own brand while Nomos, a licensed and regulated electricity retailer, handles customer onboarding, supplier switching, smart-meter (iMSys) orders, §14a EnWG grid-fee reductions, dynamic pricing, metering, billing and solar feed-in compensation behind a single REST API. The API (api.nomos.energy) uses OAuth 2.0 with read:*/write:* scopes, dated X-API-Version releases, cursor pagination, bracket-notation filtering, a structured error envelope and signed webhooks, plus hosted checkout and customer-portal surfaces.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nomos.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Nomos
 nav: Providers
 network: true
-overview: 'Nomos publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Customers API, Events API, and 9 more. Tagged areas include Company, Energy, Electricity, Utilities, and Embedded Finance.
+overview: 'Nomos publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authentication API, Customers API, Events API, and 9 more. Tagged areas include Company, Energy, Electricity, Utilities, and Embedded Finance.
 
 
   The Nomos catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Nomos'' developer surface includes documentation, API reference, getting-started guide, signup flow, authentication, changelog, and 21 more developer resources.'
+  Nomos'' developer surface includes engineering blog, documentation, API reference, getting-started guide, signup flow, authentication, changelog, and 21 more developer resources.'
 random_paper: 6
 scopes:
 - name: Nomos Scopes
@@ -298,20 +302,20 @@ scopes:
   summary_line: 2 scopes
 score:
   band: developing
-  composite: 43.5
+  composite: 44.0
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 10.5
     contract_governance: 18.2
     contract_quality: 57.5
-    developer_ergonomics: 57.1
+    developer_ergonomics: 59.5
     discoverability: 73.2
     operational_transparency: 31.6
   jurisdiction:
@@ -339,8 +343,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 31.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

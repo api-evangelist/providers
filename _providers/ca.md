@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 6
 apis:
 - description: Enterprise API management platform (formerly CA API Management / Layer 7) that provides API gateways, developer portals, policy enforcement, and identity integration for hybrid and multi-cloud deploym
@@ -56,6 +56,21 @@ apis:
   slug: broadcom-dx-apm
 artifact_total: 10
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/ca/refs/heads/main/plans/ca-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/ca-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/ca/refs/heads/main/rate-limits/ca-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/ca-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/ca/refs/heads/main/finops/ca-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/ca-finops.yml
 - group: other
   title: ''
   type: ParentCompany
@@ -148,19 +163,23 @@ common:
 created: '2026-03-23'
 description: CA Technologies (originally Computer Associates) was a major enterprise software vendor focused on infrastructure management, DevOps, security, and mainframe software. It was acquired by Broadcom in November 2018 and its products are now part of Broadcom's Enterprise Software Division, including Layer 7 API Management, AppDynamics (later spun out to Cisco), DX Application Performance Management, Rally / Agile Central, Clarity PPM, BlazeMeter, AutoSys workload automation, and mainframe management suites. The primary developer portal is developer.broadcom.com.
 finops:
-- name: Ca Finops
+- has_sources: false
+  method: generated
+  name: Ca Finops
+  primary_unit: ''
   service_category: API
   slug: ca-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ca.png
 layout: provider
 modified: '2026-08-21'
 name: CA Technologies (Broadcom)
 nav: Providers
 network: true
-overview: 'CA Technologies (Broadcom) publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include API Management, Application Performance, DevOps, Enterprise Software, and Infrastructure.
+overview: 'CA Technologies (Broadcom) is listed with 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include API Management, Application Performance, DevOps, Enterprise Software, and Infrastructure.
 
 
-  CA Technologies (Broadcom)''s developer surface includes developer portal, documentation, support, and 19 more developer resources.'
+  CA Technologies (Broadcom)''s developer surface includes developer portal, documentation, support, and 22 more developer resources.'
 plans:
 - name: Ca Plans Pricing
   plan_count: 3
@@ -188,17 +207,17 @@ rate_limits:
   slug: ca-rate-limits
 score:
   band: emerging
-  composite: 20.9
+  composite: 19.4
   coverage:
     artifact_dirs: 9
-    catalog_earned: 44.0
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 71.0
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 36.8
+    access_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 23.8
@@ -211,8 +230,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

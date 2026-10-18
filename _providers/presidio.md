@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The Presidio Inc API provides access to platform services and data for enterprise integration and automation.
@@ -41,6 +41,21 @@ apis:
   slug: presidio-api
 artifact_total: 5
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/presidio/refs/heads/main/plans/presidio-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/presidio-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/presidio/refs/heads/main/rate-limits/presidio-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/presidio-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/presidio/refs/heads/main/finops/presidio-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/presidio-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/presidio/refs/heads/main/security/presidio-domain-security.yml
   title: ''
@@ -61,19 +76,23 @@ common:
 created: '2026-04-19'
 description: Presidio Inc is a major US corporation and Fortune 1000 company. The Presidio Inc API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.
 finops:
-- name: Presidio Finops
+- has_sources: true
+  method: generated
+  name: Presidio Finops
+  primary_unit: ''
   service_category: IT Services
   slug: presidio-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/presidio.png
 layout: provider
 modified: '2026-04-19'
 name: Presidio
 nav: Providers
 network: true
-overview: 'Presidio publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include IT Solutions, Cloud, and Security.
+overview: 'Presidio is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include IT Solutions, Cloud, and Security.
 
 
-  Presidio''s developer surface includes engineering blog and 3 more developer resources.'
+  Presidio''s developer surface includes engineering blog and 6 more developer resources.'
 plans:
 - name: Presidio Plans Pricing
   plan_count: 1
@@ -85,17 +104,17 @@ rate_limits:
   slug: presidio-rate-limits
 score:
   band: minimal
-  composite: 10.0
+  composite: 8.5
   coverage:
-    artifact_dirs: 7
-    catalog_earned: 39.0
+    artifact_dirs: 8
+    catalog_earned: 36.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 76.0
+    catalog_gap: 79.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 13.2
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
@@ -108,8 +127,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

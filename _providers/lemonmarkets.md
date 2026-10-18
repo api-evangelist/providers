@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 41.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -354,7 +354,7 @@ modified: '2026-08-08'
 name: lemon.markets
 nav: Providers
 network: true
-overview: 'lemon.markets publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Accounts: General API, Accounts: ID+V API, Batch Orders API, and 14 more. Tagged areas include Company, Fintech, Brokerage, Investing, and Trading.
+overview: 'lemon.markets publishes 17 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts: General API, Accounts: ID+V API, Batch Orders API, and 14 more. Tagged areas include Company, Fintech, Brokerage, Investing, and Trading.
 
 
   The lemon.markets catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -405,8 +405,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 23.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

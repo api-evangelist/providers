@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.blockrenovation.com/guides/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/block-renovation/refs/heads/main/security/block-renovation-domain-security.yml
   title: ''
@@ -69,18 +73,18 @@ created: '2026-07-17'
 description: Block Renovation is a home renovation and construction platform that connects homeowners with vetted, local contractors and provides free design, cost-estimation, and project-planning tools for kitchen and bathroom remodels, home additions, basement renovations, ADUs, new construction, and commercial projects. It operates across all 50 US states and layers on a protection program covering price assurance, progress-based payments, a workmanship warranty, and dedicated Project Planner support. Backed by Obvious Ventures and the SoftBank Vision Fund, it was added to the API Evangelist network as a company profile; as of this enrichment pass Block Renovation publishes a consumer-facing marketplace but no public developer API, documentation, or machine-readable specification.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/block-renovation.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Block Renovation
 nav: Providers
 network: true
 overview: 'Block Renovation is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Home Renovation, Construction, Home Improvement, and Contractor Marketplace.
 
 
-  Block Renovation''s developer surface includes engineering blog, signup flow, support, and 4 more developer resources.'
+  Block Renovation''s developer surface includes engineering blog, signup flow, support, and 5 more developer resources.'
 random_paper: 11
 score:
   band: emerging
-  composite: 12.8
+  composite: 12.9
   coverage:
     artifact_dirs: 4
     catalog_earned: 27.0
@@ -88,7 +92,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 34.2
     contract_governance: 0.0
@@ -103,8 +107,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

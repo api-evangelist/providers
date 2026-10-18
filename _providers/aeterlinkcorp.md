@@ -23,10 +23,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://aeterlink.com/en/news/feed/
 - group: company
   title: ''
   type: Website
@@ -103,14 +107,14 @@ created: '2026-09-12'
 description: Aeterlink Corp. is a Tokyo-headquartered deep-tech company, originating from Stanford University research, that develops, manufactures and sells spatial (microwave) wireless power transfer systems under the AirPlug brand. AirPlug delivers power to battery-free IoT sensors and devices at distances of roughly 15-20 meters with bidirectional data communication, and is sold into factory automation, building management and medical implant applications. Founded in August 2020, the company operates offices in Tokyo, Indianapolis and Bangkok, and is active in the international standardization of spatial wireless power transfer. Aeterlink publishes no public developer program, API reference or machine-readable API contract; its product materials are distributed by request form.
 image: https://aeterlink.com/wp-content/uploads/ogp/ogp_new_en.png
 layout: provider
-modified: '2026-09-12'
+modified: '2026-10-06'
 name: Aeterlink
 nav: Providers
 network: true
 overview: 'Aeterlink is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Wireless Power, IoT, Hardware, and Industrial Automation.
 
 
-  Aeterlink''s developer surface includes product news, engineering blog, and 11 more developer resources.'
+  Aeterlink''s developer surface includes product news, engineering blog, and 12 more developer resources.'
 plans:
 - name: Aeterlinkcorp Plans Pricing
   plan_count: 0
@@ -124,7 +128,7 @@ score:
   band: minimal
   composite: 10.1
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 9
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -152,13 +156,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 11.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/aeterlinkcorp/refs/heads/main/screenshots/aeterlinkcorp-2026-10-11T093119.png
 security:
 - kind: domain-security
   name: Aeterlinkcorp Domain Security

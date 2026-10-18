@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 1.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 9
 apis:
 - description: Nexus is Quantinuum's all-in-one quantum computing cloud platform. It brokers access to Quantinuum H-Series hardware (H1, H2, Helios) and to partner backends including IBM Quantum and Amazon Braket, m
@@ -64,6 +64,10 @@ apis:
   slug: qermit
 artifact_total: 30
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.quantinuum.com/blog/rss.xml
 - group: company
   title: ''
   type: Website
@@ -206,20 +210,20 @@ features:
 - Apache 2.0 open-source licensing for pytket, qnexus, lambeq, Guppy, Selene, Qermit
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/quantinuum.png
 layout: provider
-modified: '2026-05-24'
+modified: '2026-10-06'
 name: Quantinuum
 nav: Providers
 network: true
-overview: 'Quantinuum publishes 9 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Quantum Computing, Trapped Ion, Quantum Hardware, Quantum Software, and Quantum Compiler.
+overview: 'Quantinuum is listed with 9 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Quantum Computing, Trapped Ion, Quantum Hardware, Quantum Software, and Quantum Compiler.
 
 
-  Quantinuum''s developer surface includes developer portal, documentation, signup flow, getting-started guide, support, engineering blog, tooling, and 22 more developer resources.'
+  Quantinuum''s developer surface includes developer portal, documentation, signup flow, getting-started guide, support, engineering blog, tooling, and 23 more developer resources.'
 random_paper: 11
 score:
   band: emerging
   composite: 20.4
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -240,8 +244,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

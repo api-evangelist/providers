@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 132
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 255
   slug: front-agentic-access
   summary_line: 255 operations · 132 acting
-api_count: 2
+api_count: 4
 apis:
 - description: Build embedded UI applications that render inside the Front sidebar to surface third-party context alongside the conversation.
   name: Front Plugin SDK
@@ -483,16 +483,20 @@ features:
 - Connectors for low-code external HTTP integrations
 - HMAC-signed webhook deliveries
 finops:
-- name: Front Finops
+- has_sources: true
+  method: generated
+  name: Front Finops
+  primary_unit: ''
   service_category: Customer Support
   slug: front-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/front.png
 layout: provider
 modified: '2026-05-30'
 name: Front
 nav: Providers
 network: true
-overview: 'Front publishes 39 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Analytics API, Application Message Templates API, and 36 more. Tagged areas include Customer Support, Email, Inbox, Customer Operations, and Collaboration.
+overview: 'Front publishes 39 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, Analytics API, Application Message Templates API, and 36 more. Tagged areas include Customer Service, Email, Inbox, Customer Operations, and Collaboration.
 
 
   Front''s developer surface includes authentication, documentation, API reference, pricing, engineering blog, support, and 20 more developer resources.'
@@ -510,23 +514,23 @@ rate_limits:
   slug: front-rate-limits
 score:
   band: developing
-  composite: 49.9
+  composite: 48.9
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 54.0
     catalog_earned_first_party: 24.0
     catalog_gap: 61.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: -1.0
   facets:
-    access_clarity: 75.0
+    access_clarity: 67.1
     contract_governance: 0.0
     contract_quality: 50.6
     developer_ergonomics: 29.8
-    discoverability: 55.4
+    discoverability: 60.7
     operational_transparency: 53.9
-  previous_composite: 49.3
+  previous_composite: 49.9
   provenance:
     agentic_access: derived
     contracts:
@@ -540,8 +544,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -566,7 +570,7 @@ security:
   summary_line: SOC 2, ISO 27001, GDPR
 slug: front
 tags:
-- Customer Support
+- Customer Service
 - Email
 - Inbox
 - Customer Operations

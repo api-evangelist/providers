@@ -28,20 +28,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 5
+- acting_count: 1
   human_in_the_loop: 0
   name: Datafiniti Agentic Access
   operation_count: 5
   slug: datafiniti-agentic-access
-  summary_line: 5 operations · 5 acting
+  summary_line: 5 operations · 1 acting
 api_count: 1
 apis:
 - description: Access a large catalog of business listings aggregated from hundreds of online directories and review websites, integrated with firmographics and reviews. Over 131 million business records available.
@@ -105,6 +105,25 @@ collections:
   name: Datafiniti Authentication Properties API
   slug: open-datafiniti-properties-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/datafiniti/refs/heads/main/plans/datafiniti-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/datafiniti-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/datafiniti/refs/heads/main/rate-limits/datafiniti-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/datafiniti-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/datafiniti/refs/heads/main/finops/datafiniti-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/datafiniti-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.datafiniti.co/blog
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/datafiniti/refs/heads/main/agentic-access/datafiniti-agentic-access.yml
   title: ''
@@ -174,9 +193,13 @@ common:
 created: '2026-03-26'
 description: Datafiniti is a Data as a Service (DaaS) provider that collects, organizes, and standardizes large-scale data from the public web, delivering ready-to-use datasets for property, people, business, and product data through their API, web portal, and bulk downloads.
 finops:
-- name: Datafiniti Finops
+- has_sources: true
+  method: generated
+  name: Datafiniti Finops
+  primary_unit: ''
   service_category: Data as a Service
   slug: datafiniti-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/datafiniti.png
 json_schemas:
 - name: AuthRequest
@@ -204,17 +227,17 @@ jsonld:
   property_count: 5
   slug: datafiniti-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-10-06'
 name: Datafiniti
 nav: Providers
 network: true
-overview: 'Datafiniti publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Businesses API, People API, and 6 more. Tagged areas include Business Data, Data Aggregation, Data as a Service, People Data, and Product Data.
+overview: 'Datafiniti publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authentication API, Businesses API, People API, and 6 more. Tagged areas include Business Data, Data Aggregation, Data as a Service, People Data, and Product Data.
 
 
   The Datafiniti catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Datafiniti''s developer surface includes authentication, documentation, signup flow, engineering blog, and 11 more developer resources.'
+  Datafiniti''s developer surface includes engineering blog, authentication, documentation, signup flow, and 15 more developer resources.'
 plans:
 - name: Datafiniti Plans Pricing
   plan_count: 3
@@ -225,9 +248,10 @@ rate_limits:
   name: Datafiniti Rate Limits
   slug: datafiniti-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Datafiniti API Rules
+  name: Datafiniti — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -235,7 +259,8 @@ rules:
     info: 1
     warn: 4
   slug: datafiniti-jsonschema-spectral-rules
-- effective_rule_count: 46
+- authorship: unmarked
+  effective_rule_count: 46
   extends:
   - spectral:oas
   name: Datafiniti API Rules
@@ -248,17 +273,17 @@ rules:
   slug: datafiniti-rules
 score:
   band: thin
-  composite: 33.6
+  composite: 32.1
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 59.4
+    artifact_dirs: 19
+    catalog_earned: 56.4
     catalog_earned_first_party: 0.0
-    catalog_gap: 55.6
+    catalog_gap: 58.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 22.4
+    access_clarity: 14.5
     contract_governance: 27.3
     contract_quality: 53.9
     developer_ergonomics: 27.4
@@ -278,8 +303,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

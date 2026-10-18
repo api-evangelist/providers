@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://51talk.ph/stories
 - group: company
   title: ''
   type: Website
@@ -53,28 +57,31 @@ created: '2026-07-17'
 description: 51Talk is an online English-language education platform that connects learners with certified teachers through one-on-one live video lessons. Founded in 2011 and listed on the NYSE, the company operates across 90+ countries with a large base of accredited teachers, delivering a structured curriculum and ready-made teaching materials for both children and adult learners. Following a strategic shift, 51Talk focuses on international markets outside mainland China, including the Philippines and the broader Southeast Asia region, and recruits teachers globally. It is a consumer education company backed by DCM Ventures; as of this profile it publishes no public developer API, SDK, or documentation surface, so this repo carries only identity and domain-security signals.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/51talk.png
 layout: provider
-modified: '2026-07-17'
+modified: '2026-10-06'
 name: 51Talk
 nav: Providers
 network: true
-overview: 51Talk is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Education, EdTech, and Online Learning.
+overview: '51Talk is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Education, EdTech, and E-Learning.
+
+
+  51Talk''s developer surface includes engineering blog and 3 more developer resources.'
 random_paper: 2
 score:
   band: minimal
-  composite: 5.6
+  composite: 6.1
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 10.5
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 48.2
     operational_transparency: 0.0
   previous_composite: 5.6
@@ -84,8 +91,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 9.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -103,9 +110,8 @@ tags:
 - Consumer
 - Education
 - EdTech
-- Online Learning
-- English Language
 - E-Learning
+- English Language
 - Tutoring
 website: https://51talk.ph/
 ---

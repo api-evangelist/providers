@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.6
-  scored_at: '2026-10-04'
+  score: 28.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 2
@@ -392,9 +392,13 @@ features:
 - description: Per-employer feedback submission for data corrections.
   name: Feedback Submission
 finops:
-- name: Fastdol Finops
+- has_sources: true
+  method: generated
+  name: Fastdol Finops
+  primary_unit: ''
   service_category: Public Records / Compliance Data
   slug: fastdol-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fastdol.png
 integrations:
 - description: Inspections, violations, penalties, fatalities, and severity classifications.
@@ -523,7 +527,7 @@ modified: '2026-05-19'
 name: FastDOL
 nav: Providers
 network: true
-overview: 'FastDOL publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Dashboard API, Employers API, and 8 more. Tagged areas include OSHA, Compliance, Workplace Safety, Public Records, and Federal Enforcement.
+overview: 'FastDOL publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Auth API, Dashboard API, Employers API, and 8 more. Tagged areas include OSHA, Compliance, Workplace Safety, Public Records, and Federal Enforcement.
 
 
   The FastDOL catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -540,9 +544,10 @@ rate_limits:
   name: Fastdol Rate Limits
   slug: fastdol-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: FastDOL API Rules
+  name: FastDOL — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -550,7 +555,8 @@ rules:
     info: 1
     warn: 4
   slug: fastdol-jsonschema-spectral-rules
-- effective_rule_count: 73
+- authorship: unmarked
+  effective_rule_count: 73
   extends:
   - spectral:oas
   name: FastDOL API Rules
@@ -562,23 +568,23 @@ rules:
     warn: 18
   slug: fastdol-rules
 score:
-  band: developing
-  composite: 44.3
+  band: thin
+  composite: 37.3
   coverage:
     artifact_dirs: 17
-    catalog_earned: 83.4
+    catalog_earned: 67.4
     catalog_earned_first_party: 0.0
-    catalog_gap: 31.6
+    catalog_gap: 47.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.0
   facets:
-    access_clarity: 49.2
+    access_clarity: 27.6
     contract_governance: 27.3
     contract_quality: 61.9
     developer_ergonomics: 25.0
     discoverability: 66.1
-    operational_transparency: 28.4
+    operational_transparency: 7.9
   previous_composite: 44.3
   provenance:
     agentic_access: derived
@@ -593,9 +599,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

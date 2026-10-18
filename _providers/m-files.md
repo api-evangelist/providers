@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: JSON over HTTPS REST API for the M-Files information management platform. Served per M-Files Server / Cloud vault under a /REST/ base path; supports objects, files, vaults, views, value lists, and sea
@@ -41,6 +41,14 @@ apis:
   slug: m-files-web-service-mfws-rest-api
 artifact_total: 5
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.m-files.com/solutions-by-industry/construction-and-engineering/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.m-files.com/feed/
 - group: company
   title: ''
   type: Website
@@ -156,20 +164,20 @@ created: '2026-07-17'
 description: M-Files is a metadata-driven document and information management platform that connects documents to their business context, turning disconnected files into connected, trusted information. It provides AI-powered document management with built-in governance, workflow and document automation, and compliance, and integrates deeply with Microsoft 365. Trusted by 6,000+ organizations, M-Files exposes developer access through the M-Files Web Service (MFWS) REST API, a COM/.NET API, and the UIX and Vault Application Framework (VAF) extensibility frameworks. It was surfaced as a portfolio company of Partech.
 image: https://www.m-files.com/favicon.ico
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: M-Files
 nav: Providers
 network: true
-overview: 'M-Files publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Infrastructure Saas, Document Management, Information Management, and Content Services.
+overview: 'M-Files is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Infrastructure Saas, Document Management, Information Management, and Content Services.
 
 
-  M-Files'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 18 more developer resources.'
+  M-Files'' developer surface includes engineering blog, documentation, API reference, getting-started guide, support, pricing, signup flow, and 20 more developer resources.'
 random_paper: 3
 score:
   band: thin
   composite: 35.6
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -196,8 +204,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 31.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

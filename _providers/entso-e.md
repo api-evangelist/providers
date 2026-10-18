@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.6
-  scored_at: '2026-10-04'
+  score: 28.7
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 1
+- acting_count: 0
   human_in_the_loop: 0
   name: Entso E Agentic Access
   operation_count: 2
   slug: entso-e-agentic-access
-  summary_line: 2 operations · 1 acting
+  summary_line: 2 operations
 api_count: 1
 apis:
 - baseURL: https://web-api.tp.entsoe.eu/api
@@ -151,19 +151,27 @@ common:
 created: '2026-07-11'
 description: ENTSO-E, the European Network of Transmission System Operators for Electricity, operates the Transparency Platform - the central publication point for pan-European electricity market data under EU Regulation 543/2013. Its free RESTful API returns day-ahead prices, system load, generation, balancing, and cross-border transmission data for every European bidding zone and control area as IEC 62325 XML market documents, selected by coded documentType and processType parameters against a single endpoint.
 finops:
-- name: Entso E Finops
+- has_sources: true
+  method: generated
+  name: Entso E Finops
+  primary_unit: ''
   service_category: Analytics and Data
   slug: entso-e-finops
-- name: Finops
+  template: false
+- has_sources: false
+  method: generated
+  name: Finops
+  primary_unit: ''
   service_category: ''
   slug: finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/entso-e.png
 layout: provider
 modified: '2026-08-08'
 name: ENTSO-E
 nav: Providers
 network: true
-overview: 'ENTSO-E publishes 1 API on the [APIs.io](https://apis.io/) network: Market Data Query API. Tagged areas include Electricity, Energy, Energy Markets, Day-Ahead Prices, and Balancing.
+overview: 'ENTSO-E publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Market Data Query API. Tagged areas include Electricity, Energy, Energy Markets, Day-Ahead Prices, and Balancing.
 
 
   ENTSO-E''s developer surface includes authentication, developer portal, documentation, engineering blog, and 16 more developer resources.'
@@ -183,23 +191,23 @@ rate_limits:
   name: Rate Limits
   slug: rate-limits
 score:
-  band: developing
-  composite: 39.5
+  band: thin
+  composite: 32.5
   coverage:
     artifact_dirs: 12
-    catalog_earned: 58.0
+    catalog_earned: 42.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.0
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.0
   facets:
-    access_clarity: 45.3
+    access_clarity: 23.7
     contract_governance: 0.0
     contract_quality: 49.6
     developer_ergonomics: 41.7
     discoverability: 66.1
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
@@ -219,9 +227,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 11.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

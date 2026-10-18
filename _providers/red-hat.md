@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 49.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -532,125 +532,16 @@ collections:
   name: Red Hat Ansible Automation Platform Add-Ons Workflow Job Templates API
   slug: open-red-hat-workflow-job-templates-api
 common:
-- group: start
-  title: ''
-  type: GettingStarted
-  url: https://apis.io/developer/onboarding
-- group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/finops/red-hat-finops.yml
-  title: ''
-  type: FinOps
-  url: finops/red-hat-finops.yml
 - group: operate
   href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/rate-limits/red-hat-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/red-hat-rate-limits.yml
-- group: design
-  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/rules/red-hat-spectral-rules.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/finops/red-hat-finops.yml
   title: ''
-  type: Spectral
-  url: rules/red-hat-spectral-rules.yml
-- group: design
-  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/rules/red-hat-rules.yml
-  title: ''
-  type: Spectral
-  url: rules/red-hat-rules.yml
-- group: design
-  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/rules/red-hat-jsonschema-spectral-rules.yml
-  title: ''
-  type: Spectral
-  url: rules/red-hat-jsonschema-spectral-rules.yml
-- group: design
-  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/rules/red-hat-asyncapi-spectral-rules.yml
-  title: ''
-  type: Spectral
-  url: rules/red-hat-asyncapi-spectral-rules.yml
-- group: design
-  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/json-ld/red-hat-satellite-context.jsonld
-  title: ''
-  type: JSONLD
-  url: json-ld/red-hat-satellite-context.jsonld
-- group: design
-  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/json-ld/red-hat-quay-context.jsonld
-  title: ''
-  type: JSONLD
-  url: json-ld/red-hat-quay-context.jsonld
-- group: design
-  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/json-ld/red-hat-openshift-cluster-manager-context.jsonld
-  title: ''
-  type: JSONLD
-  url: json-ld/red-hat-openshift-cluster-manager-context.jsonld
-- group: design
-  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/json-ld/red-hat-keycloak-admin-context.jsonld
-  title: ''
-  type: JSONLD
-  url: json-ld/red-hat-keycloak-admin-context.jsonld
-- group: design
-  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/json-ld/red-hat-insights-context.jsonld
-  title: ''
-  type: JSONLD
-  url: json-ld/red-hat-insights-context.jsonld
-- group: design
-  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/json-ld/red-hat-ansible-automation-platform-context.jsonld
-  title: ''
-  type: JSONLD
-  url: json-ld/red-hat-ansible-automation-platform-context.jsonld
-- group: design
-  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/vocabulary/red-hat-vocabulary.yml
-  title: ''
-  type: Vocabulary
-  url: vocabulary/red-hat-vocabulary.yml
-- group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/skills/_index.yml
-  title: ''
-  type: AgentSkill
-  url: skills/_index.yml
-- group: design
-  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/asyncapi/red-hat-notifications-webhooks-asyncapi.yml
-  title: ''
-  type: Webhooks
-  url: asyncapi/red-hat-notifications-webhooks-asyncapi.yml
-- group: auth
-  title: ''
-  type: Compliance
-  url: https://www.redhat.com/en/trust
-- group: operate
-  title: ''
-  type: Deprecation
-  url: https://access.redhat.com/support/policy/updates/errata
-- group: other
-  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/a2a/red-hat-a2a.yml
-  title: ''
-  type: AgentCard
-  url: a2a/red-hat-a2a.yml
-- group: build
-  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/mcp/red-hat-tool-crosswalk.yml
-  title: ''
-  type: ToolCrosswalk
-  url: mcp/red-hat-tool-crosswalk.yml
-- group: other
-  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/hosts/red-hat-hosts.yml
-  title: ''
-  type: Hosts
-  url: hosts/red-hat-hosts.yml
-- group: other
-  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/vendors/red-hat-vendors.yml
-  title: ''
-  type: Vendors
-  url: vendors/red-hat-vendors.yml
-- group: company
-  title: ''
-  type: Newsroom
-  url: https://www.redhat.com/en/about/newsroom
-- group: other
-  title: ''
-  type: Leadership
-  url: https://access.redhat.com/management
-- group: docs
-  title: ''
-  type: APIReference
-  url: https://developers.redhat.com/api-catalog
+  type: FinOps
+  url: finops/red-hat-finops.yml
 - group: commercial
   href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/plans/red-hat-plans-pricing.yml
   title: ''
@@ -905,6 +796,10 @@ common:
   title: ''
   type: Portal
   url: https://developers.redhat.com
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://developers.redhat.com/get-started
 - group: docs
   title: ''
   type: Documentation
@@ -1038,7 +933,7 @@ common:
   type: Pricing
   url: https://www.redhat.com/en/store
 created: '2024-01-15'
-description: Red Hat provides a comprehensive suite of enterprise open source solutions, offering APIs and developer resources across Linux operating systems, cloud platforms, container technologies, and Kubernetes orchestration. Their offerings enable organizations to manage subscriptions, advanced cluster management, security, cost management, image building, vulnerability assessment, and more, facilitating hybrid cloud deployments and enterprise-grade automation.
+description: APIs and developer resources from Red Hat, a leading provider of enterprise open source solutions including Linux, cloud, container, and Kubernetes technologies.
 examples:
 - key_count: 1
   name: Red Hat Ansible Automation Platform Error Example
@@ -1197,9 +1092,13 @@ examples:
   name: Red Hat Satellite Paginated Repository List Example
   slug: red-hat-satellite-paginated-repository-list-example
 finops:
-- name: Red Hat Finops
+- has_sources: true
+  method: generated
+  name: Red Hat Finops
+  primary_unit: ''
   service_category: Enterprise Software Subscription
   slug: red-hat-finops
+  template: false
 image: https://www.redhat.com/cms/managed-files/Logo-Red_Hat-A-Standard-RGB.svg
 json_schemas:
 - name: AddonList
@@ -1706,13 +1605,13 @@ modified: '2026-08-21'
 name: Red Hat
 nav: Providers
 network: true
-overview: 'Red Hat publishes 75 APIs on the [APIs.io](https://apis.io/) network, including Streams for Apache Kafka Bridge API, Notifications API, Add-Ons API, and 72 more. Tagged areas include Red Hat, Cloud, Containers, Enterprise, and Hybrid Cloud.
+overview: 'Red Hat publishes 75 API contracts indexed on the [APIs.io](https://apis.io/) network, including Streams for Apache Kafka Bridge API, Notifications API, Add-Ons API, and 72 more. Tagged areas include Red Hat, Cloud, Containers, Enterprise, and Hybrid Cloud.
 
 
   The Red Hat catalog on APIs.io includes 2 event-driven AsyncAPI specifications, 7 JSON-LD contexts, and 4 Spectral governance rulesets.
 
 
-  Red Hat''s developer surface includes getting-started guide, API reference, authentication, changelog, CLI, sandbox, developer portal, and 103 more developer resources.'
+  Red Hat''s developer surface includes authentication, changelog, CLI, sandbox, developer portal, getting-started guide, documentation, and 81 more developer resources.'
 plans:
 - name: Red Hat Plans Pricing
   plan_count: 3
@@ -1723,10 +1622,11 @@ rate_limits:
   name: Red Hat Rate Limits
   slug: red-hat-rate-limits
 rules:
-- effective_rule_count: 36
+- authorship: generated
+  effective_rule_count: 36
   extends:
   - spectral:asyncapi
-  name: Red Hat API Rules
+  name: Red Hat — asyncapi rules
   rule_count: 9
   severity_counts:
     error: 1
@@ -1734,9 +1634,10 @@ rules:
     info: 0
     warn: 8
   slug: red-hat-asyncapi-spectral-rules
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Red Hat API Rules
+  name: Red Hat — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1744,7 +1645,8 @@ rules:
     info: 1
     warn: 4
   slug: red-hat-jsonschema-spectral-rules
-- effective_rule_count: 57
+- authorship: generated
+  effective_rule_count: 57
   extends:
   - spectral:oas
   name: Red Hat API Rules
@@ -1755,7 +1657,8 @@ rules:
     info: 2
     warn: 1
   slug: red-hat-rules
-- effective_rule_count: 57
+- authorship: generated
+  effective_rule_count: 57
   extends:
   - spectral:oas
   name: Red Hat API Rules
@@ -1767,24 +1670,24 @@ rules:
     warn: 8
   slug: red-hat-spectral-rules
 score:
-  band: exemplar
-  composite: 70.6
+  band: strong
+  composite: 62.6
   coverage:
-    artifact_dirs: 39
-    catalog_earned: 64.0
+    artifact_dirs: 40
+    catalog_earned: 51.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 51.0
+    catalog_gap: 63.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 7.8
+  delta: -8.9
   facets:
-    access_clarity: 93.4
-    contract_governance: 31.8
+    access_clarity: 77.6
+    contract_governance: 18.2
     contract_quality: 67.9
     developer_ergonomics: 67.3
-    discoverability: 66.7
-    operational_transparency: 50.0
-  previous_composite: 62.8
+    discoverability: 55.0
+    operational_transparency: 34.2
+  previous_composite: 71.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1801,9 +1704,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: rising
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 22.2

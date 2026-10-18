@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.3
-  scored_at: '2026-10-04'
+  score: 30.4
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 8
+- acting_count: 5
   human_in_the_loop: 0
   name: Arlula Agentic Access
   operation_count: 16
   slug: arlula-agentic-access
-  summary_line: 16 operations · 8 acting
+  summary_line: 16 operations · 5 acting
 api_count: 4
 apis:
 - baseURL: https://api.arlula.com
@@ -98,6 +98,21 @@ collections:
   name: API Collection
   slug: open-arlula
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/arlula/refs/heads/main/plans/arlula-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/arlula-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/arlula/refs/heads/main/rate-limits/arlula-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/arlula-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/arlula/refs/heads/main/finops/arlula-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/arlula-finops.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -229,9 +244,13 @@ features:
 - description: Place multiple archive or tasking orders in a single batch API request to efficiently process large-scale imagery acquisitions.
   name: Batch Ordering
 finops:
-- name: Arlula Finops
+- has_sources: false
+  method: generated
+  name: Arlula Finops
+  primary_unit: ''
   service_category: API
   slug: arlula-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/arlula.png
 json_schemas:
 - name: ArchiveOrderRequest
@@ -359,13 +378,13 @@ modified: '2026-05-19'
 name: Arlula
 nav: Providers
 network: true
-overview: 'Arlula publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Archive API, Connection API, Orders API, and 1 more. Tagged areas include Earth Observation, Geospatial, Imagery, Remote Sensing, and Satellite.
+overview: 'Arlula is listed with 4 APIs on the [APIs.io](https://apis.io/) network, including Archive API, Connection API, Orders API, and 1 more. Tagged areas include Earth Observation, Geospatial, Imagery, Remote Sensing, and Satellite.
 
 
   The Arlula catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Arlula''s developer surface includes authentication, documentation, getting-started guide, developer portal, engineering blog, and 8 more developer resources.'
+  Arlula''s developer surface includes authentication, documentation, getting-started guide, developer portal, engineering blog, and 11 more developer resources.'
 plans:
 - name: Arlula Plans Pricing
   plan_count: 3
@@ -376,9 +395,10 @@ rate_limits:
   name: Arlula Rate Limits
   slug: arlula-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Arlula API Rules
+  name: Arlula — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -386,7 +406,8 @@ rules:
     info: 2
     warn: 3
   slug: arlula-jsonschema-spectral-rules
-- effective_rule_count: 79
+- authorship: generated
+  effective_rule_count: 79
   extends:
   - spectral:oas
   name: Arlula API Rules
@@ -399,17 +420,17 @@ rules:
   slug: arlula-spectral-rules
 score:
   band: thin
-  composite: 30.9
+  composite: 29.4
   coverage:
     artifact_dirs: 18
-    catalog_earned: 78.0
+    catalog_earned: 75.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 37.0
+    catalog_gap: 40.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 27.3
     contract_quality: 29.0
     developer_ergonomics: 46.4
@@ -429,8 +450,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -30,13 +30,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.3
-  scored_at: '2026-10-04'
+  score: 20.4
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -106,6 +106,21 @@ collections:
   name: Sandbox Banking Glyue Integration Gateway Adapters Value Mappings API
   slug: open-sandbox-banking-value-mappings-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sandbox-banking/refs/heads/main/plans/sandbox-banking-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/sandbox-banking-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/sandbox-banking/refs/heads/main/rate-limits/sandbox-banking-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/sandbox-banking-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sandbox-banking/refs/heads/main/finops/sandbox-banking-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/sandbox-banking-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/sandbox-banking/refs/heads/main/agentic-access/sandbox-banking-agentic-access.yml
   title: ''
@@ -190,9 +205,13 @@ examples:
   name: Sandbox Banking Run Integration Example
   slug: sandbox-banking-run-integration-example
 finops:
-- name: Sandbox Banking Finops
+- has_sources: false
+  method: generated
+  name: Sandbox Banking Finops
+  primary_unit: ''
   service_category: API
   slug: sandbox-banking-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sandbox-banking.png
 json_schemas:
 - name: Sandbox Banking Integration
@@ -212,13 +231,13 @@ modified: '2026-05-19'
 name: Sandbox Banking
 nav: Providers
 network: true
-overview: 'Sandbox Banking publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Adapters API, Field Mappings API, Integrations API, and 4 more. Tagged areas include API Integration, Banking, Core Banking, Credit Union, and Financial Services.
+overview: 'Sandbox Banking publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Adapters API, Field Mappings API, Integrations API, and 4 more. Tagged areas include API Integration, Banking, Core Banking, Credit Union, and Financial Services.
 
 
   The Sandbox Banking catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Sandbox Banking''s developer surface includes authentication, documentation, code examples, and 13 more developer resources.'
+  Sandbox Banking''s developer surface includes authentication, documentation, code examples, and 16 more developer resources.'
 plans:
 - name: Sandbox Banking Plans Pricing
   plan_count: 3
@@ -229,9 +248,10 @@ rate_limits:
   name: Sandbox Banking Rate Limits
   slug: sandbox-banking-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Sandbox Banking API Rules
+  name: Sandbox Banking — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -239,7 +259,8 @@ rules:
     info: 2
     warn: 3
   slug: sandbox-banking-jsonschema-spectral-rules
-- effective_rule_count: 54
+- authorship: unmarked
+  effective_rule_count: 54
   extends:
   - spectral:oas
   name: Sandbox Banking API Rules
@@ -252,17 +273,17 @@ rules:
   slug: sandbox-banking-rules
 score:
   band: thin
-  composite: 32.8
+  composite: 31.2
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 58.0
+    artifact_dirs: 19
+    catalog_earned: 55.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.0
+    catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 27.3
     contract_quality: 62.7
     developer_ergonomics: 21.4
@@ -282,8 +303,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 13.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

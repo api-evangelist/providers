@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -281,7 +281,7 @@ modified: '2026-08-17'
 name: Fipto
 nav: Providers
 network: true
-overview: 'Fipto publishes 12 APIs on the [APIs.io](https://apis.io/) network, including AISP/PISP API, Assets API, Automations API, and 9 more. Tagged areas include Company, Blockchain, Payments, Stablecoins, and Banking.
+overview: 'Fipto publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including AISP/PISP API, Assets API, Automations API, and 9 more. Tagged areas include Company, Blockchain, Payments, Stablecoins, and Banking.
 
 
   The Fipto catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -301,7 +301,7 @@ score:
   band: developing
   composite: 48.6
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -348,8 +348,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

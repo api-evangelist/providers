@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 49
+- acting_count: 45
   human_in_the_loop: 1
   name: Retell Ai Agentic Access
   operation_count: 86
   slug: retell-ai-agentic-access
-  summary_line: 86 operations · 49 acting · 1 human-in-the-loop
+  summary_line: 86 operations · 45 acting · 1 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://api.retellai.com
@@ -682,6 +682,10 @@ collections:
   name: Retell SDK
   slug: open-retell-ai
 common:
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.retellai.com/pricing
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/retell-ai/refs/heads/main/capabilities/retell-ai-capability-edges.yml
   title: ''
@@ -749,9 +753,13 @@ common:
 created: '2026-05-08'
 description: Retell AI provides voice AI infrastructure for building conversational agents with low-latency turn detection, interruption handling, tool calling, knowledge bases, and conversation flows. The Retell SDK exposes a published OpenAPI spec covering agents, calls, voices, knowledge bases, conversation flows, batches, and chat agents.
 finops:
-- name: Retell Ai Finops
+- has_sources: true
+  method: generated
+  name: Retell Ai Finops
+  primary_unit: ''
   service_category: AI
   slug: retell-ai-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/retell-ai.png
 layout: provider
 mcp_servers:
@@ -762,13 +770,13 @@ modified: '2026-05-29'
 name: Retell AI
 nav: Providers
 network: true
-overview: 'Retell AI publishes 78 APIs on the [APIs.io](https://apis.io/) network, including Add Community Voice API, Add Knowledge Base Sources API, Agent Playground Completion API, and 75 more. Tagged areas include Artificial Intelligence, Voice, Agents, Real-Time, and Conversational AI.
+overview: 'Retell AI publishes 78 API contracts indexed on the [APIs.io](https://apis.io/) network, including Add Community Voice API, Add Knowledge Base Sources API, Agent Playground Completion API, and 75 more. Tagged areas include Artificial Intelligence, Voice, Agents, Real-Time, and Conversational AI.
 
 
   The Retell AI catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Retell AI''s developer surface includes authentication, documentation, engineering blog, and 11 more developer resources.'
+  Retell AI''s developer surface includes pricing, authentication, documentation, engineering blog, and 11 more developer resources.'
 plans:
 - name: Retell Ai Plans Pricing
   plan_count: 20
@@ -782,10 +790,11 @@ rate_limits:
   name: Retell Ai Rate Limits
   slug: retell-ai-rate-limits
 rules:
-- effective_rule_count: 34
+- authorship: generated
+  effective_rule_count: 34
   extends:
   - spectral:asyncapi
-  name: Retell AI API Rules
+  name: Retell AI — asyncapi rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -794,24 +803,24 @@ rules:
     warn: 6
   slug: retell-ai-asyncapi-spectral-rules
 score:
-  band: developing
-  composite: 40.4
+  band: thin
+  composite: 38.5
   coverage:
-    artifact_dirs: 16
-    catalog_earned: 58.8
+    artifact_dirs: 17
+    catalog_earned: 55.8
     catalog_earned_first_party: 12.0
-    catalog_gap: 56.3
+    catalog_gap: 59.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -1.9
   facets:
-    access_clarity: 63.2
+    access_clarity: 55.3
     contract_governance: 11.4
     contract_quality: 56.8
     developer_ergonomics: 23.8
     discoverability: 75.0
     operational_transparency: 10.5
-  previous_composite: 39.9
+  previous_composite: 40.4
   provenance:
     agentic_access: derived
     contracts:
@@ -822,12 +831,12 @@ score:
     mcp: first-party
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 10.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

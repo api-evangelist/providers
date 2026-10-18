@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: verified
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.1
-  scored_at: '2026-10-04'
+  score: 22.2
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The Roadmunk (Strategic Roadmaps) GraphQL API provides programmatic access to roadmaps, items, milestones, key dates, portfolios, feedback, ideas, customers, contacts, accounts, and user management. T
@@ -102,9 +102,13 @@ common:
 created: 2026-06-13
 description: Roadmunk (now Strategic Roadmaps by Tempo) is a product roadmapping tool with a GraphQL API for managing roadmaps, items, milestones, swimlanes, feedback, and ideas. The API enables programmatic access to nearly all platform functions across regional gateways covering North America, Europe, and Asia-Pacific, using Bearer token authentication.
 finops:
-- name: Roadmunk Finops
+- has_sources: false
+  method: generated
+  name: Roadmunk Finops
+  primary_unit: ''
   service_category: Product Roadmapping / SaaS
   slug: roadmunk-finops
+  template: true
 graphqls:
 - description: Roadmunk (now Strategic Roadmaps by Tempo) provides a GraphQL API for programmatic access to roadmaps, items, milestones, key dates, fields, notifications, users, and account management. The API suppo
   name: Roadmunk GraphQL API
@@ -124,7 +128,7 @@ modified: 2026-06-13
 name: Roadmunk
 nav: Providers
 network: true
-overview: 'Roadmunk publishes 1 API on the [APIs.io](https://apis.io/) network: GraphQL API. Tagged areas include Product Roadmapping, GraphQL, Roadmaps, Project Management, and Product Management.
+overview: 'Roadmunk is listed with 1 API on the [APIs.io](https://apis.io/) network: GraphQL API. Tagged areas include Product Roadmapping, GraphQL, Roadmaps, Project Management, and Product Management.
 
 
   The Roadmunk catalog on APIs.io includes 1 JSON-LD context.
@@ -142,22 +146,22 @@ rate_limits:
   slug: roadmunk-rate-limits
 score:
   band: thin
-  composite: 37.1
+  composite: 29.7
   coverage:
-    artifact_dirs: 10
-    catalog_earned: 69.0
+    artifact_dirs: 11
+    catalog_earned: 53.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 46.0
+    catalog_gap: 62.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.4
   facets:
-    access_clarity: 54.7
+    access_clarity: 26.3
     contract_governance: 0.0
     contract_quality: 46.8
     developer_ergonomics: 11.9
     discoverability: 68.3
-    operational_transparency: 40.0
+    operational_transparency: 26.3
   previous_composite: 37.1
   provenance:
     mcp: first-party
@@ -167,9 +171,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

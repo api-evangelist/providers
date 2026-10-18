@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -70,6 +70,10 @@ collections:
   name: PHP-FPM Status and Ping Endpoints
   slug: open-php-fpm
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.php.net/feed.atom
 - group: operate
   title: ''
   type: IssueTracker
@@ -129,18 +133,18 @@ created: '2026-05-11'
 description: PHP-FPM (FastCGI Process Manager) is the primary PHP FastCGI implementation bundled with PHP for handling heavy-loaded sites, providing advanced process management with multiple worker pools, graceful start/stop, adaptive process spawning (static, dynamic, ondemand), slowlog tracking, and accelerated upload support. It is configured via php.ini-style pool files and is typically deployed behind a web server such as Nginx, Apache, Caddy, or LiteSpeed via FastCGI. PHP-FPM exposes operational status pages (in plain, JSON, XML, OpenMetrics, and HTML formats) but does not provide a public HTTP API; it runs only on POSIX systems that support fork().
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/php-fpm.png
 layout: provider
-modified: '2026-07-25'
+modified: '2026-10-06'
 name: PHP-FPM
 nav: Providers
 network: true
-overview: 'PHP-FPM publishes 3 APIs on the [APIs.io](https://apis.io/) network, including Ping API, Status API, and 1 more. Tagged areas include PHP, FastCGI, Process Manager, Web Server, and Application Server.
+overview: 'PHP-FPM publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network, including Ping API, Status API, and 1 more. Tagged areas include PHP, FastCGI, Process Manager, Web Server, and Application Server.
 
 
-  PHP-FPM''s developer surface includes documentation and 12 more developer resources.'
+  PHP-FPM''s developer surface includes documentation and 13 more developer resources.'
 random_paper: 14
 score:
   band: thin
-  composite: 28.1
+  composite: 28.2
   coverage:
     artifact_dirs: 7
     catalog_earned: 32.0
@@ -148,7 +152,7 @@ score:
     catalog_gap: 68.0
     catalog_max: 100.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
@@ -173,8 +177,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

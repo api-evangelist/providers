@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -334,7 +334,7 @@ modified: '2026-07-25'
 name: Optus
 nav: Providers
 network: true
-overview: 'Optus publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Delete Multiple Lists API, Documentation API, Lists API, and 12 more. Tagged areas include Telecommunications, Australia, Mobile Network Operator, Messaging, and SMS.
+overview: 'Optus publishes 15 API contracts indexed on the [APIs.io](https://apis.io/) network, including Delete Multiple Lists API, Documentation API, Lists API, and 12 more. Tagged areas include Telecommunications, Australia, Mobile Network Operator, Messaging, and SMS.
 
 
   The Optus catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -346,7 +346,7 @@ score:
   band: developing
   composite: 50.1
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -384,8 +384,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 37.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

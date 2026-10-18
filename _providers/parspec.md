@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.parspec.io/resources/rss.xml
 - group: company
   title: ''
   type: Website
@@ -90,18 +94,18 @@ created: '2026-07-17'
 description: Parspec is an AI-native platform for electrical, lighting, and MEP (mechanical, electrical, plumbing) distributors and manufacturer rep agencies in the construction supply chain. It consolidates fragmented, manual workflows into one system covering quoting for complex projects, automated submittal and O&M document creation, project management (orders, fulfillment, billing), and sales management, with ERP integrations (Epicor Eclipse, Epicor Prophet 21, SAP). Parspec is SOC 2 Type II attested and markets itself to help distributors and rep agencies bid more, win more, and improve profitability. Backed by Threshold Ventures.
 image: https://www.parspec.io/hubfs/parspec-icon.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Parspec
 nav: Providers
 network: true
 overview: 'Parspec is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Software-as-a-Service, Construction, MEP, and Electrical.
 
 
-  Parspec''s developer surface includes signup flow, documentation, support, engineering blog, and 8 more developer resources.'
+  Parspec''s developer surface includes signup flow, documentation, support, engineering blog, and 9 more developer resources.'
 random_paper: 2
 score:
   band: emerging
-  composite: 13.1
+  composite: 13.2
   coverage:
     artifact_dirs: 4
     catalog_earned: 27.0
@@ -109,7 +113,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 36.8
     contract_governance: 0.0
@@ -124,8 +128,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

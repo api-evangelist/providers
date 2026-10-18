@@ -19,7 +19,7 @@ agent_readiness:
   dimensions:
     agent_card: false
     agent_skills: derived
-    agentic_access: false
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: served
     consent_identity: false
@@ -37,8 +37,15 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 50.5
-  scored_at: '2026-10-04'
+  score: 52.3
+  scored_at: '2026-10-17'
+agentic_access:
+- acting_count: 42
+  human_in_the_loop: 3
+  name: Kontaktio Agentic Access
+  operation_count: 96
+  slug: kontaktio-agentic-access
+  summary_line: 96 operations · 42 acting · 3 human-in-the-loop
 api_count: 8
 apis:
 - baseURL: https://dm-api.cloud.us.kontakt.io
@@ -191,12 +198,66 @@ apis:
   description: The Telemetry API from Kontakt.io — 1 operation(s) for telemetry.
   name: Kontakt.io Telemetry API
   slug: kontaktio-telemetry-api
-artifact_total: 38
+artifact_total: 95
 asyncapis:
 - description: ''
   name: Kontaktio Streams Events
   slug: kontaktio-streams-events
 common:
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/kontaktio/refs/heads/main/agentic-access/kontaktio-agentic-access.yml
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/kontaktio-agentic-access.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kontaktio/refs/heads/main/rules/kontaktio-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/kontaktio-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kontaktio/refs/heads/main/json-ld/kontaktio-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/kontaktio-context.jsonld
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kontaktio/refs/heads/main/vocabulary/kontaktio-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/kontaktio-vocabulary.yml
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/kontaktio/refs/heads/main/security/kontaktio-trust-center.yml
+  title: ''
+  type: TrustCenter
+  url: security/kontaktio-trust-center.yml
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/kontaktio/refs/heads/main/security/kontaktio-vulnerability-disclosure.yml
+  title: ''
+  type: Security
+  url: security/kontaktio-vulnerability-disclosure.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/kontaktio/refs/heads/main/lifecycle/kontaktio-lifecycle.yml
+  title: ''
+  type: Deprecation
+  url: lifecycle/kontaktio-lifecycle.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/kontaktio/refs/heads/main/hosts/kontaktio-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/kontaktio-hosts.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/kontaktio/refs/heads/main/vendors/kontaktio-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/kontaktio-vendors.yml
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://kontakt.io/why-kontakt-io/newsroom/
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/kontaktio/refs/heads/main/security/kontaktio-vulnerability-disclosure.yml
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/kontaktio-vulnerability-disclosure.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/kontaktio/refs/heads/main/capabilities/kontaktio-capability-edges.yml
   title: ''
@@ -288,11 +349,6 @@ common:
   title: ''
   type: MCPServer
   url: mcp/kontaktio-mcp.yml
-- group: build
-  href: https://raw.githubusercontent.com/api-evangelist/kontaktio/refs/heads/main/mcp/kontaktio-tool-crosswalk.yml
-  title: ''
-  type: ToolCrosswalk
-  url: mcp/kontaktio-tool-crosswalk.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/kontaktio/refs/heads/main/llms/kontaktio-llms.txt
   title: ''
@@ -366,6 +422,171 @@ common:
 created: '2026-08-23'
 description: 'Kontakt.io is an AI-powered real-time location system (RTLS) and IoT platform for healthcare operations, founded in 2013 with offices in New York and Krakow. Its Kio Cloud platform combines BLE/UWB tags, badges, gateways and sensors with software for asset tracking, staff safety, patient flow, room and seat occupancy, and environmental telemetry. Developers integrate through the Kontakt.io Developer Center, which publishes four OpenAPI contracts: a Device Management API for provisioning, configuring and firmware-upgrading devices, a Location & Occupancy API for real-time and historical positions, presences, occupancy and telemetry plus a Streams API for event subscriptions, a Spaces API, and an Entity Management Integration API for batch import of staff and asset entities. Kio Cloud runs in US and UK regions and ships iOS and Android SDKs.'
 image: https://kontakt.io/app/uploads/2025/06/why-kontakt-hero-image-scaled-1.jpg
+json_schemas:
+- name: Building
+  property_count: 1
+  slug: kontaktio-building
+- name: Campus-List
+  property_count: 1
+  slug: kontaktio-campus-list
+- name: Campus
+  property_count: 8
+  slug: kontaktio-campus
+- name: Colocated devices
+  property_count: 1
+  slug: kontaktio-colocated-devices-list
+- name: Company
+  property_count: 4
+  slug: kontaktio-company
+- name: DeviceAccessBulkJobResponse
+  property_count: 5
+  slug: kontaktio-device-access-bulk-job-response
+- name: DeviceAccessResponse
+  property_count: 6
+  slug: kontaktio-device-access-response
+- name: Device
+  property_count: 0
+  slug: kontaktio-device
+- name: Decrypted Eddystone-TLM packet
+  property_count: 5
+  slug: kontaktio-eddystone-decrypted
+- name: Encrypted Config/Command
+  property_count: 2
+  slug: kontaktio-encrypted-config
+- name: EntityCreateDto
+  property_count: 7
+  slug: kontaktio-entity-create-update-dto
+- name: EntityCreateUpdateResult
+  property_count: 3
+  slug: kontaktio-entity-create-update-result
+- name: EntityDetails
+  property_count: 5
+  slug: kontaktio-entity-details
+- name: ExternalDeviceImportJobResetResponse
+  property_count: 2
+  slug: kontaktio-external-device-import-job-reset-response
+- name: ExternalDeviceImportResponse
+  property_count: 3
+  slug: kontaktio-external-device-import-response
+- name: Firmware (Core Parameters)
+  property_count: 7
+  slug: kontaktio-firmware-core
+- name: Firmware
+  property_count: 12
+  slug: kontaktio-firmware
+- name: Floor-Gateways
+  property_count: 1
+  slug: kontaktio-floor-gateways
+- name: Floors
+  property_count: 1
+  slug: kontaktio-floors
+- name: New Beacon Config
+  property_count: 0
+  slug: kontaktio-new-beacon-config
+- name: NewExternalDevice
+  property_count: 12
+  slug: kontaktio-new-external-device
+- name: New Gateway Config
+  property_count: 0
+  slug: kontaktio-new-gateway-config
+- name: Occupancy-Footfall-Current
+  property_count: 1
+  slug: kontaktio-occupancy-footfall-current
+- name: Occupancy-Footfall-History
+  property_count: 1
+  slug: kontaktio-occupancy-footfall-history
+- name: OccupancyImage
+  property_count: 5
+  slug: kontaktio-occupancy-image
+- name: Occupancy-Room-Attributes-Current
+  property_count: 1
+  slug: kontaktio-occupancy-room-attributes-current
+- name: Occupancy-Room-Attributes-History
+  property_count: 1
+  slug: kontaktio-occupancy-room-attributes-history
+- name: Occupancy-Room-Current
+  property_count: 2
+  slug: kontaktio-occupancy-room-current
+- name: Occupancy-Room-History
+  property_count: 1
+  slug: kontaktio-occupancy-room-history
+- name: OrderManagementResponse
+  property_count: 1
+  slug: kontaktio-order-management-response
+- name: Page
+  property_count: 0
+  slug: kontaktio-page
+- name: PendingBeaconConfig
+  property_count: 0
+  slug: kontaktio-pending-beacon-config
+- name: PendingGatewayConfig
+  property_count: 0
+  slug: kontaktio-pending-gateway-config
+- name: Position Device History
+  property_count: 1
+  slug: kontaktio-position-device-history
+- name: Position Device
+  property_count: 1
+  slug: kontaktio-position-device
+- name: Presence-Device
+  property_count: 1
+  slug: kontaktio-presence-device
+- name: Presence-History-Devices
+  property_count: 1
+  slug: kontaktio-presence-history-devices
+- name: Room-Sensors
+  property_count: 1
+  slug: kontaktio-room-sensors
+- name: Rooms
+  property_count: 1
+  slug: kontaktio-rooms
+- name: Search Metadata
+  property_count: 9
+  slug: kontaktio-search-meta
+- name: Space
+  property_count: 4
+  slug: kontaktio-space
+- name: StitchingConfig
+  property_count: 2
+  slug: kontaktio-stitching-config
+- name: StitchingPair
+  property_count: 2
+  slug: kontaktio-stitching-pair
+- name: Stream eventHub GET
+  property_count: 7
+  slug: kontaktio-stream-channel-event-hub
+- name: Stream kinesis GET
+  property_count: 7
+  slug: kontaktio-stream-channel-kinesis
+- name: Stream watson GET
+  property_count: 7
+  slug: kontaktio-stream-channel-watson
+- name: Event Hub channel PATCH
+  property_count: 3
+  slug: kontaktio-stream-patch-eventhub-channel
+- name: Kinesis channel PATCH
+  property_count: 3
+  slug: kontaktio-stream-patch-kinesis-channel
+- name: Watson channel PATCH
+  property_count: 3
+  slug: kontaktio-stream-patch-watson-channel
+- name: Telemetry Data Model
+  property_count: 1
+  slug: kontaktio-telemetry
+- name: UniqueId
+  property_count: 0
+  slug: kontaktio-unique-id
+- name: Device Update via Secure Response
+  property_count: 3
+  slug: kontaktio-update-device-secure-response-request
+- name: Update Device Virtual Attributes
+  property_count: 0
+  slug: kontaktio-update-device-virtual-attributes-request
+jsonld:
+- class_count: 104
+  name: Kontaktio Context
+  property_count: 201
+  slug: kontaktio-context
 layout: provider
 mcp_servers:
 - description: Remote MCP server at kontakt.io over HTTP requiring OAuth.
@@ -375,13 +596,13 @@ modified: '2026-08-23'
 name: Kontakt.io
 nav: Providers
 network: true
-overview: 'Kontakt.io publishes 30 APIs on the [APIs.io](https://apis.io/) network, including Buildings API, Campuses API, Colocations API, and 27 more. Tagged areas include Company, IoT, RTLS, Healthcare, and Asset Tracking.
+overview: 'Kontakt.io publishes 30 API contracts indexed on the [APIs.io](https://apis.io/) network, including Buildings API, Campuses API, Colocations API, and 27 more. Tagged areas include Company, IoT, RTLS, Healthcare, and Asset Tracking.
 
 
-  The Kontakt.io catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Kontakt.io catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Kontakt.io''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 29 more developer resources.'
+  Kontakt.io''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 39 more developer resources.'
 plans:
 - name: Kontaktio Plans Pricing
   plan_count: 0
@@ -391,31 +612,45 @@ rate_limits:
 - limit_count: 4
   name: Kontaktio Rate Limits
   slug: kontaktio-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 55
+  extends:
+  - spectral:oas
+  name: Kontakt.io API Rules
+  rule_count: 14
+  severity_counts:
+    error: 10
+    hint: 0
+    info: 1
+    warn: 3
+  slug: kontaktio-rules
 scopes:
 - name: Kontaktio Scopes
   scope_count: 4
   slug: kontaktio-scopes
   summary_line: 4 scopes · clientCredentials
 score:
-  band: strong
-  composite: 61.9
+  band: exemplar
+  composite: 71.4
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 52.0
+    artifact_dirs: 33
+    catalog_earned: 77.8
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 37.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 9.5
   facets:
     access_clarity: 36.8
-    contract_governance: 4.5
-    contract_quality: 62.0
+    contract_governance: 22.0
+    contract_quality: 75.5
     developer_ergonomics: 73.2
-    discoverability: 68.3
-    operational_transparency: 73.7
-  previous_composite: 61.4
+    discoverability: 81.7
+    operational_transparency: 92.1
+  previous_composite: 61.9
   provenance:
+    agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
@@ -429,10 +664,10 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 41.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+    score: 46.1
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: true
     score: 33.3
@@ -446,10 +681,14 @@ security:
   name: Kontaktio Domain Security
   slug: kontaktio-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Kontaktio Vulnerability Disclosure
+  slug: kontaktio-vulnerability-disclosure
+  summary_line: security.txt · contact published
 - kind: trust-center
   name: Kontaktio Trust Center
   slug: kontaktio-trust-center
-  summary_line: SOC 2 Type II, HIPAA Security Rule / HITECH, GDPR, ISO 27001
+  summary_line: SOC 2 Type II, HIPAA Security Rule / HITECH, GDPR
 slug: kontaktio
 tags:
 - Company

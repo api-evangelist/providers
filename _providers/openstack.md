@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -193,6 +193,21 @@ collections:
   name: OpenStack Identity (Keystone) API v3 Domains Versions API
   slug: open-openstack-versions-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/openstack/refs/heads/main/plans/openstack-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/openstack-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/openstack/refs/heads/main/rate-limits/openstack-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/openstack-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/openstack/refs/heads/main/finops/openstack-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/openstack-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/openstack/refs/heads/main/capabilities/openstack-capability-edges.yml
   title: ''
@@ -264,9 +279,13 @@ common:
 created: '2025-01-01'
 description: Open source cloud computing platform for building and managing public and private clouds, providing infrastructure as a service (IaaS) through a set of interrelated services including Compute (Nova), Object Storage (Swift), Block Storage (Cinder), Networking (Neutron), Identity (Keystone), Image (Glance), Orchestration (Heat), Database (Trove), DNS (Designate), and Load Balancer (Octavia). Each service exposes its own REST API; clients authenticate against Keystone and use the returned service catalog to discover per-region endpoints for the remaining services.
 finops:
-- name: Openstack Finops
+- has_sources: true
+  method: generated
+  name: Openstack Finops
+  primary_unit: ''
   service_category: Infrastructure / IaaS
   slug: openstack-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/openstack.png
 json_schemas:
 - name: OpenStack Nova Server
@@ -282,13 +301,13 @@ modified: '2026-05-19'
 name: OpenStack
 nav: Providers
 network: true
-overview: 'OpenStack publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Domains API, Endpoints API, Flavors API, and 19 more. Tagged areas include OpenStack, Cloud Platform, Infrastructure-as-a-Service, Open Source, and Virtualization.
+overview: 'OpenStack publishes 22 API contracts indexed on the [APIs.io](https://apis.io/) network, including Domains API, Endpoints API, Flavors API, and 19 more. Tagged areas include OpenStack, Cloud Platform, Infrastructure-as-a-Service, Open Source, and Virtualization.
 
 
   The OpenStack catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  OpenStack''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, and 11 more developer resources.'
+  OpenStack''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, and 14 more developer resources.'
 plans:
 - name: Openstack Plans Pricing
   plan_count: 1
@@ -299,9 +318,10 @@ rate_limits:
   name: Openstack Rate Limits
   slug: openstack-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: OpenStack API Rules
+  name: OpenStack — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -311,17 +331,17 @@ rules:
   slug: openstack-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 37.6
+  composite: 36.1
   coverage:
-    artifact_dirs: 14
-    catalog_earned: 60.7
+    artifact_dirs: 16
+    catalog_earned: 57.7
     catalog_earned_first_party: 0.0
-    catalog_gap: 54.4
+    catalog_gap: 57.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 23.7
+    access_clarity: 15.8
     contract_governance: 9.8
     contract_quality: 54.7
     developer_ergonomics: 50.0
@@ -341,8 +361,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

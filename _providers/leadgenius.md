@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 33.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -257,7 +257,7 @@ modified: '2026-09-16'
 name: LeadGenius
 nav: Providers
 network: true
-overview: 'LeadGenius publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Campaigns API, Exclusion API, Rapid Enrichment API, and 3 more. Tagged areas include Company, Data Enrichment, Lead Generation, Sales, and Marketing.
+overview: 'LeadGenius publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Campaigns API, Exclusion API, Rapid Enrichment API, and 3 more. Tagged areas include Company, Data Enrichment, Lead Generation, Sales, and Marketing.
 
 
   The LeadGenius catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -314,8 +314,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

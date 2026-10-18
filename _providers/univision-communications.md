@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: ViX is the world's largest Spanish-language streaming service offering over 65,000 hours of content across free (ad-supported) and premium subscription tiers. ViX provides programmatic advertising acc
@@ -47,6 +47,21 @@ apis:
   slug: uforia-audio
 artifact_total: 8
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/univision-communications/refs/heads/main/plans/univision-communications-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/univision-communications-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/univision-communications/refs/heads/main/rate-limits/univision-communications-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/univision-communications-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/univision-communications/refs/heads/main/finops/univision-communications-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/univision-communications-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/univision-communications/refs/heads/main/security/univision-communications-domain-security.yml
   title: ''
@@ -83,9 +98,13 @@ common:
 created: '2026-03-24'
 description: TelevisaUnivision (formerly Univision Communications) is the world's leading Spanish-language media company, operating television networks (Univision, UniMás, TUDN, Galavisión), the ViX streaming platform, Uforia audio platform, and a suite of advanced advertising technology solutions. The company serves advertisers and media partners through programmatic ad platforms, first-party audience data, and content partnerships rather than a public developer API.
 finops:
-- name: Univision Communications Finops
+- has_sources: true
+  method: generated
+  name: Univision Communications Finops
+  primary_unit: ''
   service_category: Media and Advertising
   slug: univision-communications-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/univision-communications.png
 jsonld:
 - class_count: 24
@@ -97,13 +116,13 @@ modified: '2026-05-03'
 name: TelevisaUnivision (Univision Communications)
 nav: Providers
 network: true
-overview: 'TelevisaUnivision (Univision Communications) publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Media, Streaming, Hispanic, Advertising, and Television.
+overview: 'TelevisaUnivision (Univision Communications) is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Media, Streaming, Hispanic, Advertising, and Television.
 
 
   The TelevisaUnivision (Univision Communications) catalog on APIs.io includes 1 JSON-LD context.
 
 
-  TelevisaUnivision (Univision Communications)''s developer surface includes engineering blog, GitHub presence, and 6 more developer resources.'
+  TelevisaUnivision (Univision Communications)''s developer surface includes engineering blog, GitHub presence, and 9 more developer resources.'
 plans:
 - name: Univision Communications Plans Pricing
   plan_count: 1
@@ -131,17 +150,17 @@ rate_limits:
   slug: univision-communications-rate-limits
 score:
   band: emerging
-  composite: 17.2
+  composite: 15.7
   coverage:
     artifact_dirs: 11
-    catalog_earned: 57.5
+    catalog_earned: 54.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.5
+    catalog_gap: 60.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 13.2
+    access_clarity: 5.3
     contract_governance: 13.6
     contract_quality: 14.7
     developer_ergonomics: 11.9
@@ -154,8 +173,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

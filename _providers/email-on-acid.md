@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.3
-  scored_at: '2026-10-04'
+  score: 20.4
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -166,9 +166,13 @@ examples:
   name: Email Test Results
   slug: email-test-results
 finops:
-- name: Email On Acid Finops
+- has_sources: false
+  method: generated
+  name: Email On Acid Finops
+  primary_unit: ''
   service_category: ''
   slug: email-on-acid-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/email-on-acid.png
 json_schemas:
 - name: CreateEmailTestRequest
@@ -190,7 +194,7 @@ modified: '2026-06-13'
 name: Email on Acid
 nav: Providers
 network: true
-overview: 'Email on Acid publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Email Clients API, Email Testing API, and 1 more. Tagged areas include Email Testing, Email Previews, Email Client, Spam Testing, and Accessibility.
+overview: 'Email on Acid publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authentication API, Email Clients API, Email Testing API, and 1 more. Tagged areas include Email Testing, Email Previews, Email Client, Spam Testing, and Accessibility.
 
 
   The Email on Acid catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -207,9 +211,10 @@ rate_limits:
   name: Email On Acid Rate Limits
   slug: email-on-acid-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Email on Acid API Rules
+  name: Email on Acid — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -218,23 +223,23 @@ rules:
     warn: 4
   slug: email-on-acid-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 45.0
+  band: thin
+  composite: 36.7
   coverage:
     artifact_dirs: 16
-    catalog_earned: 75.9
+    catalog_earned: 57.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 39.1
+    catalog_gap: 57.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 54.7
+    access_clarity: 26.3
     contract_governance: 9.8
     contract_quality: 59.5
     developer_ergonomics: 23.8
     discoverability: 66.1
-    operational_transparency: 49.5
+    operational_transparency: 28.9
   previous_composite: 45.0
   provenance:
     agentic_access: derived
@@ -249,9 +254,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

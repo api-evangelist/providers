@@ -19,7 +19,7 @@ agent_readiness:
   dimensions:
     agent_card: false
     agent_skills: derived
-    agentic_access: false
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: served
     consent_identity: false
@@ -37,8 +37,15 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 62.1
-  scored_at: '2026-10-04'
+  score: 63.8
+  scored_at: '2026-10-17'
+agentic_access:
+- acting_count: 30
+  human_in_the_loop: 0
+  name: Resolve Agentic Access
+  operation_count: 52
+  slug: resolve-agentic-access
+  summary_line: 52 operations · 30 acting
 api_count: 2
 apis:
 - baseURL: https://app.resolvepay.com/api
@@ -101,7 +108,7 @@ apis:
   description: Webhooks allow you to receive real-time notifications about events in your Resolve account. When an event occurs, Resolve sends an HTTP POST request to your configured webhook endpoint with details ab
   name: Resolve Webhooks API
   slug: resolve-webhooks-api
-artifact_total: 44
+artifact_total: 47
 asyncapis:
 - description: ''
   name: Resolve Webhooks
@@ -183,6 +190,50 @@ collections:
   name: Resolve API Reference Access Keys Webhooks API
   slug: open-resolve-webhooks-api
 common:
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/resolve/refs/heads/main/agentic-access/resolve-agentic-access.yml
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/resolve-agentic-access.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/resolve/refs/heads/main/rules/resolve-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/resolve-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/resolve/refs/heads/main/json-ld/resolve-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/resolve-context.jsonld
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/resolve/refs/heads/main/vocabulary/resolve-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/resolve-vocabulary.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/resolve/refs/heads/main/well-known/resolve-well-known.yml
+  title: ''
+  type: WellKnown
+  url: well-known/resolve-well-known.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/resolve/refs/heads/main/hosts/resolve-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/resolve-hosts.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/resolve/refs/heads/main/integrations/resolve-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/resolve-integration-edges.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/resolve/refs/heads/main/vendors/resolve-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/resolve-vendors.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://resolvepay.com/blog/rss.xml
 - group: commercial
   href: https://raw.githubusercontent.com/api-evangelist/resolve/refs/heads/main/plans/resolve-plans-pricing.yml
   title: ''
@@ -349,22 +400,27 @@ common:
 created: '2026-07-17'
 description: 'Resolve is a B2B commerce and payments platform that lets businesses offer flexible net terms (typically NET 30-60) to their buyers without carrying the credit risk or waiting on cash. It combines automated credit underwriting, invoicing, agentic collections, and payment processing: sellers are paid upfront while customers pay on terms. Resolve exposes a Merchant API (V5) for direct integrations (customers, credit checks, invoices, orders, charges, shipments, payments, payouts), a Partners API for platform/marketplace sub-merchant management, a browser Checkout SDK, and an official MCP server with full Merchant-API parity for AI assistants. Backed by Insight Partners, QED Investors, and Y Combinator.'
 image: https://resolvepay.com/favicon-32x32.png
+jsonld:
+- class_count: 77
+  name: Resolve Context
+  property_count: 245
+  slug: resolve-context
 layout: provider
 mcp_servers:
 - description: Official Resolve MCP server with full parity to the Merchant API. Manage a Resolve account (customers, credit checks, invoices, orders, charges, shipments, payments, payouts) from AI assistants like C
   name: Resolve MCP Server
   slug: resolve
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Resolve
 nav: Providers
 network: true
-overview: 'Resolve publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Access Keys API, Charges API, Credit Notes API, and 9 more. Tagged areas include Company, Payments, B2B, Net Terms, and Credit.
+overview: 'Resolve publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including Access Keys API, Charges API, Credit Notes API, and 9 more. Tagged areas include Company, Payments, B2B, Net Terms, and Credit.
 
 
-  The Resolve catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Resolve catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Resolve''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
+  Resolve''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 38 more developer resources.'
 plans:
 - name: Resolve Plans Pricing
   plan_count: 1
@@ -374,31 +430,45 @@ rate_limits:
 - limit_count: 1
   name: Resolve Rate Limits
   slug: resolve-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 57
+  extends:
+  - spectral:oas
+  name: Resolve API Rules
+  rule_count: 16
+  severity_counts:
+    error: 12
+    hint: 0
+    info: 2
+    warn: 2
+  slug: resolve-rules
 scopes:
 - name: Resolve Scopes
   scope_count: 2
   slug: resolve-scopes
   summary_line: 2 scopes
 score:
-  band: strong
-  composite: 63.7
+  band: exemplar
+  composite: 67.6
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 53.0
+    artifact_dirs: 32
+    catalog_earned: 69.8
     catalog_earned_first_party: 16.0
-    catalog_gap: 62.0
+    catalog_gap: 45.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 3.9
   facets:
     access_clarity: 65.8
-    contract_governance: 4.5
-    contract_quality: 58.7
+    contract_governance: 22.0
+    contract_quality: 66.1
     developer_ergonomics: 67.3
     discoverability: 75.0
     operational_transparency: 55.3
   previous_composite: 63.7
   provenance:
+    agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
@@ -413,8 +483,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 31.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

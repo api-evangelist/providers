@@ -38,8 +38,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 52.2
-  scored_at: '2026-10-04'
-api_count: 1
+  scored_at: '2026-10-17'
+api_count: 2
 apis:
 - description: Managed Cloud REST surface covering OAuth auth, a Proxy API to a Core instance, Data API, Filters API, Alerts API, and the MCP endpoint. Auth via API keys or OAuth.
   name: Blnk Cloud API
@@ -157,7 +157,7 @@ apis:
     question: How do I commit a transaction that is still on hold as inflight?
   phrasing_ops: 2
   slug: blnkfinance-transactions-api
-artifact_total: 20
+artifact_total: 19
 asyncapis:
 - description: ''
   name: Blnkfinance Webhooks
@@ -372,14 +372,11 @@ mcp_servers:
 - description: 'Open, no-auth Mintlify DOCUMENTATION-SEARCH MCP on a first-party host. Probed live 2026-08-27: initialize + tools/list returned 200, serverInfo "Blnk Finance", protocolVersion 2025-11-25, 3 tools. It '
   name: Blnk Finance MCP Server
   slug: mcp
-- description: 'Cloud ledger MCP: https://api.cloud.blnkfinance.com/mcp/{instance_id}, 33 tools, Bearer + mcp:read/mcp:write.'
-  name: Blnk Finance MCP Server
-  slug: blnkfinance-mcp-yml
 modified: '2026-08-27'
 name: Blnk Finance
 nav: Providers
 network: true
-overview: 'Blnk Finance publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Backup API, Balance Monitors API, and 7 more. Tagged areas include Fintech, Financial Services, Ledger, double-entry-accounting, and Payments.
+overview: 'Blnk Finance publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, Backup API, Balance Monitors API, and 7 more. Tagged areas include Fintech, Financial Services, Ledger, double-entry-accounting, and Payments.
 
 
   The Blnk Finance catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -404,7 +401,7 @@ score:
   band: exemplar
   composite: 67.4
   coverage:
-    artifact_dirs: 25
+    artifact_dirs: 26
     catalog_earned: 52.0
     catalog_earned_first_party: 20.0
     catalog_gap: 63.0
@@ -438,8 +435,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 41.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -457,7 +454,7 @@ security:
 - kind: vulnerability-disclosure
   name: Blnkfinance Vulnerability Disclosure
   slug: blnkfinance-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 - kind: trust-center
   name: Blnkfinance Trust Center
   slug: blnkfinance-trust-center
@@ -476,5 +473,6 @@ tags:
 - MCP
 - AI Agents
 - Developer Tools
+- A2A
 website: https://www.blnkfinance.com/
 ---

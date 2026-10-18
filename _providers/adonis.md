@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Adonis platform API for revenue cycle management, including real-time patient eligibility and benefits verification, patient and appointment data retrieval from partner EHR/PM systems, claims, and pay
@@ -41,6 +41,14 @@ apis:
   slug: adonis-api
 artifact_total: 4
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://adonis.io/resources
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://adonis.io/resources/rss.xml
 - group: company
   title: ''
   type: Website
@@ -108,14 +116,14 @@ description: Adonis is a healthcare Revenue Cycle Management (RCM) technology co
   A through Series C from General Catalyst, Quadrille Capital, Bling Capital, Max Ventures, and Homebrew.
 image: https://adonis.io/favicon.ico
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Adonis
 nav: Providers
 network: true
-overview: 'Adonis publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Revenue Cycle Management, RCM, and Medical Billing.
+overview: 'Adonis is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Revenue Cycle Management, RCM, and Medical Billing.
 
 
-  Adonis'' developer surface includes signup flow, engineering blog, support, authentication, and 10 more developer resources.'
+  Adonis'' developer surface includes engineering blog, signup flow, support, authentication, and 12 more developer resources.'
 random_paper: 0
 scopes:
 - name: Adonis Scopes
@@ -126,7 +134,7 @@ score:
   band: emerging
   composite: 21.8
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -153,8 +161,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

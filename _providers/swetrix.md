@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -645,9 +645,13 @@ examples:
   name: Swetrix Record Pageview Example
   slug: swetrix-record-pageview-example
 finops:
-- name: Swetrix Finops
+- has_sources: true
+  method: generated
+  name: Swetrix Finops
+  primary_unit: ''
   service_category: Web Analytics
   slug: swetrix-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/swetrix.png
 json_schemas:
 - name: Swetrix Project
@@ -670,7 +674,7 @@ modified: '2026-08-13'
 name: Swetrix
 nav: Providers
 network: true
-overview: 'Swetrix publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Events API, Annotations API, Custom Events API, and 10 more. Tagged areas include Analytics, Cookieless Tracking, GDPR Compliant, Open Source, and Privacy.
+overview: 'Swetrix publishes 13 API contracts indexed on the [APIs.io](https://apis.io/) network, including Events API, Annotations API, Custom Events API, and 10 more. Tagged areas include Analytics, Cookieless Tracking, GDPR Compliant, Open Source, and Privacy.
 
 
   The Swetrix catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
@@ -687,9 +691,10 @@ rate_limits:
   name: Swetrix Rate Limits
   slug: swetrix-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Swetrix API Rules
+  name: Swetrix — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -697,7 +702,8 @@ rules:
     info: 2
     warn: 3
   slug: swetrix-jsonschema-spectral-rules
-- effective_rule_count: 50
+- authorship: unmarked
+  effective_rule_count: 50
   extends:
   - spectral:oas
   name: Swetrix API Rules
@@ -710,17 +716,17 @@ rules:
   slug: swetrix-rules
 score:
   band: exemplar
-  composite: 77.0
+  composite: 75.5
   coverage:
     artifact_dirs: 34
-    catalog_earned: 81.0
+    catalog_earned: 78.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 34.0
+    catalog_gap: 37.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 85.5
+    access_clarity: 77.6
     contract_governance: 45.5
     contract_quality: 69.8
     developer_ergonomics: 83.9
@@ -747,8 +753,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -245,6 +245,21 @@ collections:
   name: Adobe Creative Cloud Creative Cloud Libraries Assets Utilities API
   slug: open-adobe-creative-cloud-utilities-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-cloud/refs/heads/main/plans/adobe-creative-cloud-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/adobe-creative-cloud-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-cloud/refs/heads/main/rate-limits/adobe-creative-cloud-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/adobe-creative-cloud-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-cloud/refs/heads/main/finops/adobe-creative-cloud-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/adobe-creative-cloud-finops.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -552,9 +567,13 @@ features:
 - description: Generate PDFs and Word documents by merging JSON data into templates.
   name: Document Generation
 finops:
-- name: Adobe Creative Cloud Finops
+- has_sources: true
+  method: generated
+  name: Adobe Creative Cloud Finops
+  primary_unit: ''
   service_category: Creative SaaS
   slug: adobe-creative-cloud-finops
+  template: false
 image: /assets/icons/adobe-creative-cloud.png
 integrations:
 - description: PDF Services integration with Word, Excel, and PowerPoint for document conversion.
@@ -689,13 +708,13 @@ modified: '2026-05-19'
 name: Adobe Creative Cloud
 nav: Providers
 network: true
-overview: 'Adobe Creative Cloud publishes 24 APIs on the [APIs.io](https://apis.io/) network, including Adobe I/O Events, Assets API, Elements API, and 21 more. Tagged areas include Ai Ml, Cloud, Creative, Design, and Documents.
+overview: 'Adobe Creative Cloud publishes 24 API contracts indexed on the [APIs.io](https://apis.io/) network, including Adobe I/O Events, Assets API, Elements API, and 21 more. Tagged areas include Artificial Intelligence, Cloud, Creative, Design, and Documents.
 
 
   The Adobe Creative Cloud catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Adobe Creative Cloud''s developer surface includes authentication, developer portal, documentation, engineering blog, support, pricing, YouTube channel, and 44 more developer resources.'
+  Adobe Creative Cloud''s developer surface includes authentication, developer portal, documentation, engineering blog, support, pricing, YouTube channel, and 47 more developer resources.'
 plans:
 - name: Adobe Creative Cloud Plans Pricing
   plan_count: 5
@@ -706,10 +725,11 @@ rate_limits:
   name: Adobe Creative Cloud Rate Limits
   slug: adobe-creative-cloud-rate-limits
 rules:
-- effective_rule_count: 34
+- authorship: generated
+  effective_rule_count: 34
   extends:
   - spectral:asyncapi
-  name: Adobe Creative Cloud API Rules
+  name: Adobe Creative Cloud — asyncapi rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -717,9 +737,10 @@ rules:
     info: 0
     warn: 6
   slug: adobe-creative-cloud-asyncapi-spectral-rules
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: Adobe Creative Cloud API Rules
+  name: Adobe Creative Cloud — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -727,7 +748,8 @@ rules:
     info: 2
     warn: 4
   slug: adobe-creative-cloud-jsonschema-spectral-rules
-- effective_rule_count: 64
+- authorship: generated
+  effective_rule_count: 64
   extends:
   - spectral:oas
   name: Adobe Creative Cloud API Rules
@@ -740,17 +762,17 @@ rules:
   slug: adobe-creative-cloud-spectral-rules
 score:
   band: developing
-  composite: 53.4
+  composite: 51.1
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 69.9
+    artifact_dirs: 21
+    catalog_earned: 66.9
     catalog_earned_first_party: 0.0
-    catalog_gap: 45.1
+    catalog_gap: 48.1
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.3
   facets:
-    access_clarity: 47.4
+    access_clarity: 39.5
     contract_governance: 13.6
     contract_quality: 67.3
     developer_ergonomics: 58.3
@@ -766,12 +788,12 @@ score:
       total: 11
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
-    score: 30.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
+    score: 28.2
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -801,7 +823,7 @@ solutions:
 - description: Full-stack application framework for building custom enterprise extensions on Adobe infrastructure.
   name: Adobe App Builder
 tags:
-- Ai Ml
+- Artificial Intelligence
 - Cloud
 - Creative
 - Design

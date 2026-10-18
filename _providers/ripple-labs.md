@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 51.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 109
+- acting_count: 96
   human_in_the_loop: 0
   name: Ripple Labs Agentic Access
   operation_count: 201
   slug: ripple-labs-agentic-access
-  summary_line: 201 operations · 109 acting
+  summary_line: 201 operations · 96 acting
 api_count: 5
 apis:
 - baseURL: https://api.ripple.com
@@ -531,7 +531,7 @@ modified: '2026-07-21'
 name: Ripple Labs
 nav: Providers
 network: true
-overview: 'Ripple Labs publishes 36 APIs on the [APIs.io](https://apis.io/) network, including Addresses API, API Credentials API, Auditing API, and 33 more. Tagged areas include Company, Financial Services, Payments, Cross-Border Payments, and Blockchain.
+overview: 'Ripple Labs publishes 36 API contracts indexed on the [APIs.io](https://apis.io/) network, including Addresses API, API Credentials API, Auditing API, and 33 more. Tagged areas include Company, Financial Services, Payments, Cross-Border Payments, and Blockchain.
 
 
   The Ripple Labs catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -548,7 +548,7 @@ score:
   band: strong
   composite: 55.6
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -579,8 +579,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 35.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

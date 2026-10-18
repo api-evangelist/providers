@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 2
+- acting_count: 1
   human_in_the_loop: 0
   name: Blissfully Agentic Access
   operation_count: 6
   slug: blissfully-agentic-access
-  summary_line: 6 operations · 2 acting
+  summary_line: 6 operations · 1 acting
 api_count: 7
 apis:
 - description: Delivers actionable pricing insights including fair price predictions and negotiation guidance tailored to the buyer's specific requirements, contract size, and vendor relationship. Powered by Vendr's
@@ -92,6 +92,16 @@ collections:
   name: Vendr Catalog Pricing Webhooks API
   slug: open-blissfully-webhooks-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/blissfully/refs/heads/main/plans/blissfully-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/blissfully-plans-pricing.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/blissfully/refs/heads/main/finops/blissfully-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/blissfully-finops.yml
 - group: other
   title: ''
   type: ParentCompany
@@ -185,9 +195,13 @@ features:
 - description: Pricing benchmarks powered by Vendr's database of real software purchases across thousands of companies and vendors.
   name: SaaS Benchmarking
 finops:
-- name: Blissfully Finops
+- has_sources: true
+  method: generated
+  name: Blissfully Finops
+  primary_unit: ''
   service_category: SaaS Management / Procurement
   slug: blissfully-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/blissfully.png
 json_schemas:
 - name: PricingResponse
@@ -225,13 +239,13 @@ modified: '2026-05-19'
 name: Blissfully
 nav: Providers
 network: true
-overview: 'Blissfully publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Pricing API, Products API, Vendors API, and 4 more. Tagged areas include Procurement, SaaS Discovery, SaaS Management, Software Procurement, and Spend Optimization.
+overview: 'Blissfully is listed with 7 APIs on the [APIs.io](https://apis.io/) network, including Pricing API, Products API, Vendors API, and 4 more. Tagged areas include Procurement, SaaS Discovery, SaaS Management, Software Procurement, and Spend Optimization.
 
 
   The Blissfully catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Blissfully''s developer surface includes authentication, documentation, signup flow, engineering blog, and 10 more developer resources.'
+  Blissfully''s developer surface includes authentication, documentation, signup flow, engineering blog, and 12 more developer resources.'
 plans:
 - name: Blissfully Plans Pricing
   plan_count: 2
@@ -242,9 +256,10 @@ rate_limits:
   name: Blissfully Rate Limits
   slug: blissfully-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Blissfully API Rules
+  name: Blissfully — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -252,7 +267,8 @@ rules:
     info: 1
     warn: 4
   slug: blissfully-jsonschema-spectral-rules
-- effective_rule_count: 73
+- authorship: generated
+  effective_rule_count: 73
   extends:
   - spectral:oas
   name: Blissfully API Rules
@@ -265,17 +281,17 @@ rules:
   slug: blissfully-spectral-rules
 score:
   band: thin
-  composite: 29.0
+  composite: 27.5
   coverage:
     artifact_dirs: 17
-    catalog_earned: 57.5
+    catalog_earned: 54.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.5
+    catalog_gap: 60.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 44.7
+    access_clarity: 36.8
     contract_governance: 13.6
     contract_quality: 22.4
     developer_ergonomics: 23.8
@@ -295,8 +311,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 25.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

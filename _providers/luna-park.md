@@ -33,10 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://meetquinn.ai/blog
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/luna-park/refs/heads/main/security/luna-park-domain-security.yml
   title: ''
@@ -50,28 +54,31 @@ created: '2026-07-17'
 description: 'Luna Park is a consumer-sector company surfaced as a portfolio company of GV (Google Ventures) and added to the API Evangelist network. Its registered domain lunapark.com now redirects (HTTP 301) to meetquinn.ai — Quinn, described on-site as an AI training platform focused on "operational readiness for the trades." As of this enrichment pass the company publishes a minimal marketing landing page with no public developer portal, API documentation, OpenAPI specification, or other machine-readable API surface. Domain-security posture was probed live: TLS 1.3 with SPF and DMARC (quarantine) present; no HSTS, DNSSEC, or CAA records.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/luna-park.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Luna Park
 nav: Providers
 network: true
-overview: Luna Park is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, GV, Portfolio, and Artificial Intelligence.
+overview: 'Luna Park is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, GV, Portfolio, and Artificial Intelligence.
+
+
+  Luna Park''s developer surface includes engineering blog and 2 more developer resources.'
 random_paper: 5
 score:
   band: minimal
-  composite: 3.3
+  composite: 3.9
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 48.2
     operational_transparency: 0.0
   previous_composite: 3.3
@@ -81,8 +88,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

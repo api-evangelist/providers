@@ -34,15 +34,15 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 255
+- acting_count: 244
   human_in_the_loop: 14
   name: Aiven Agentic Access
   operation_count: 457
   slug: aiven-agentic-access
-  summary_line: 457 operations · 255 acting · 14 human-in-the-loop
-api_count: 1
+  summary_line: 457 operations · 244 acting · 14 human-in-the-loop
+api_count: 2
 apis:
 - baseURL: https://api.aiven.io/v1
   baseurl_source: declared
@@ -433,9 +433,13 @@ examples:
   name: Aiven List Services
   slug: aiven-list-services
 finops:
-- name: Aiven Finops
+- has_sources: false
+  method: generated
+  name: Aiven Finops
+  primary_unit: ''
   service_category: ''
   slug: aiven-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aiven.png
 json_schemas:
 - name: AccountAuthenticationMethodCreateRequestBody
@@ -476,7 +480,7 @@ modified: '2026-07-12'
 name: Aiven
 nav: Providers
 network: true
-overview: 'Aiven publishes 34 APIs on the [APIs.io](https://apis.io/) network, including Account API, Application_Users API, Authentication_Methods API, and 31 more. Tagged areas include Managed Data Infrastructure, Apache Kafka, PostgreSQL, OpenSearch, and ClickHouse.
+overview: 'Aiven publishes 34 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Application_Users API, Authentication_Methods API, and 31 more. Tagged areas include Managed Data Infrastructure, Apache Kafka, PostgreSQL, OpenSearch, and ClickHouse.
 
 
   The Aiven catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -496,9 +500,10 @@ rate_limits:
   name: Aiven Rate Limits
   slug: aiven-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Aiven API Rules
+  name: Aiven — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -513,23 +518,23 @@ scopes:
   summary_line: 34 scopes · authorizationCode
 score:
   band: developing
-  composite: 45.3
+  composite: 43.8
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 76.8
+    artifact_dirs: 20
+    catalog_earned: 73.8
     catalog_earned_first_party: 12.0
-    catalog_gap: 38.3
+    catalog_gap: 41.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -1.5
   facets:
-    access_clarity: 50.0
+    access_clarity: 42.1
     contract_governance: 23.5
     contract_quality: 66.6
     developer_ergonomics: 23.8
     discoverability: 65.0
     operational_transparency: 21.1
-  previous_composite: 44.8
+  previous_composite: 45.3
   provenance:
     agentic_access: derived
     contracts:
@@ -543,8 +548,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

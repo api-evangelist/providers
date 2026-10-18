@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.3
-  scored_at: '2026-10-04'
+  score: 15.4
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -79,6 +79,21 @@ collections:
   name: Administrative Office of the U.S. Courts PACER Case Locator API
   slug: open-pacer-case-locator-pcl-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/administrative-office-of-the-u-s-courts/refs/heads/main/plans/administrative-office-of-the-u-s-courts-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/administrative-office-of-the-u-s-courts-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/administrative-office-of-the-u-s-courts/refs/heads/main/rate-limits/administrative-office-of-the-u-s-courts-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/administrative-office-of-the-u-s-courts-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/administrative-office-of-the-u-s-courts/refs/heads/main/finops/administrative-office-of-the-u-s-courts-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/administrative-office-of-the-u-s-courts-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/administrative-office-of-the-u-s-courts/refs/heads/main/capabilities/administrative-office-of-the-u-s-courts-capability-edges.yml
   title: ''
@@ -138,9 +153,13 @@ features:
 - description: Commercial users can run large batch data pulls via the PCL API, with recommended off-peak hours (6 p.m. to 6 a.m. Central Time) to minimize system impact.
   name: Bulk Data Access
 finops:
-- name: Administrative Office Of The U S Courts Finops
+- has_sources: false
+  method: generated
+  name: Administrative Office Of The U S Courts Finops
+  primary_unit: ''
   service_category: API
   slug: administrative-office-of-the-u-s-courts-finops
+  template: true
 image: /assets/icons/administrative-office-of-the-u-s-courts.png
 integrations:
 - description: Case Management and Electronic Case Filing system for all federal courts.
@@ -154,10 +173,10 @@ modified: '2026-05-19'
 name: Administrative Office of the U.S. Courts
 nav: Providers
 network: true
-overview: 'Administrative Office of the U.S. Courts publishes 3 APIs on the [APIs.io](https://apis.io/) network: Cases API, Parties API, and Services API. Tagged areas include Courts, Federal Government, Legal, PACER, and Case Records.
+overview: 'Administrative Office of the U.S. Courts publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Cases API, Parties API, and Services API. Tagged areas include Courts, Federal Government, Legal, PACER, and Case Records.
 
 
-  Administrative Office of the U.S. Courts'' developer surface includes engineering blog, developer portal, signup flow, and 7 more developer resources.'
+  Administrative Office of the U.S. Courts'' developer surface includes engineering blog, developer portal, signup flow, and 10 more developer resources.'
 plans:
 - name: Administrative Office Of The U S Courts Plans Pricing
   plan_count: 3
@@ -169,17 +188,17 @@ rate_limits:
   slug: administrative-office-of-the-u-s-courts-rate-limits
 score:
   band: thin
-  composite: 29.4
+  composite: 27.8
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 41.0
+    artifact_dirs: 12
+    catalog_earned: 38.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 28.9
+    access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 42.2
     developer_ergonomics: 40.5
@@ -204,8 +223,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

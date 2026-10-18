@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://secure.splitwise.com/api/v3.0
@@ -98,6 +98,10 @@ collections:
   name: Splitwise comments users API
   slug: open-splitwise-users-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.splitwise.com/feed/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/splitwise/refs/heads/main/overlays/splitwise-api-overlay.yaml
   title: ''
@@ -223,14 +227,14 @@ created: '2026-07-17'
 description: Splitwise is an expense-sharing and bill-splitting service that helps roommates, travel groups, couples, and friends track shared costs and settle up fairly. Its public Self-Serve REST API (v3.0) lets third-party applications read and manage a user's groups, friends, expenses, comments, and notifications on that user's behalf, authenticating with OAuth 2.0 or a personal API key. Splitwise was added to the API Evangelist network from a venture-capital portfolio lead and has been enriched from its public developer documentation and OpenAPI specification.
 image: https://www.splitwise.com/assets/press/logos/sw.svg
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Splitwise
 nav: Providers
 network: true
-overview: 'Splitwise publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Comments API, Expenses API, Friends API, and 4 more. Tagged areas include Company, Consumer, Expense Management, Personal Finance, and Bill Splitting.
+overview: 'Splitwise publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Comments API, Expenses API, Friends API, and 4 more. Tagged areas include Company, Consumer, Expense Management, Personal Finance, and Bill Splitting.
 
 
-  Splitwise''s developer surface includes authentication, documentation, API reference, signup flow, engineering blog, and 21 more developer resources.'
+  Splitwise''s developer surface includes authentication, documentation, API reference, signup flow, engineering blog, and 22 more developer resources.'
 random_paper: 6
 scopes:
 - name: Splitwise Scopes
@@ -241,7 +245,7 @@ score:
   band: thin
   composite: 38.8
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -271,8 +275,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 36.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

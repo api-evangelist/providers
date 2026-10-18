@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://meqsolutions.com/insights
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/meq-solutions/refs/heads/main/security/meq-solutions-domain-security.yml
   title: ''
@@ -65,31 +69,31 @@ created: '2026-07-17'
 description: MEQ Solutions is an Australian agrifood technology company delivering what it calls the world's only end-to-end measurement of red meat quality and yield. Its integrated hardware-and-software suite — MEQ Probe, MEQ Camera, MEQ Live, and MEQ Insights — gives producers, feedlots, processors, brands, retailers, and food-service operators objective, real-time carcass and eating-quality data. Deployed across Australia, New Zealand, the United States, and Brazil, MEQ has completed over 10 million scans across 60+ deployments and reports a demonstrated 10x ROI. The company is backed by Insight Partners. No public developer API surface is currently published; the meqinsights.com portal is a customer login.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/meq-solutions.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: MEQ Solutions
 nav: Providers
 network: true
 overview: 'MEQ Solutions is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Agriculture, Agrifood, Food, and Meat.
 
 
-  MEQ Solutions'' developer surface includes support and 5 more developer resources.'
+  MEQ Solutions'' developer surface includes engineering blog, support, and 5 more developer resources.'
 random_paper: 12
 score:
   band: minimal
-  composite: 8.3
+  composite: 8.9
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 17.1
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 4.8
+    developer_ergonomics: 7.1
     discoverability: 48.2
     operational_transparency: 0.0
   jurisdiction:
@@ -104,8 +108,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 9.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

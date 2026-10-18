@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -26,14 +26,14 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: false
-    rate_limit_signal: documented
+    protected_resource_metadata: verified
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.0
-  scored_at: '2026-10-04'
+  score: 29.7
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: ShipHero's primary public API built on GraphQL, providing programmatic access to warehouse management data and operations including inventory, orders, shipments, purchase orders, returns, wholesale or
@@ -101,9 +101,13 @@ common:
 created: '2026-06-12'
 description: ShipHero is a warehouse management system (WMS) and fulfillment platform designed for brands and third-party logistics (3PL) providers operating eCommerce direct-to-consumer fulfillment. The platform exposes a GraphQL public API with 69 queries, 120 mutations, and 599 types covering inventory, orders, shipments, purchase orders, returns, and warehouse operations. Authentication uses JWT bearer tokens obtained via username and password credentials, with access tokens valid for 28 days and refresh-token-based renewal. ShipHero enforces a credit-based rate limit system and supports 18 webhook event types for real-time integration with fulfillment workflows.
 finops:
-- name: Shiphero Finops
+- has_sources: false
+  method: generated
+  name: Shiphero Finops
+  primary_unit: ''
   service_category: ''
   slug: shiphero-finops
+  template: true
 graphqls:
 - description: 'ShipHero exposes a single GraphQL endpoint that provides programmatic access to warehouse management and fulfillment operations. The API covers inventory, orders, shipments, purchase orders, returns, '
   name: ShipHero GraphQL API
@@ -123,7 +127,7 @@ modified: '2026-06-12'
 name: ShipHero
 nav: Providers
 network: true
-overview: 'ShipHero publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Warehouse Management, Fulfillment, E-Commerce, GraphQL, and Inventory.
+overview: 'ShipHero is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Warehouse Management, Fulfillment, E-Commerce, GraphQL, and Inventory.
 
 
   The ShipHero catalog on APIs.io includes 1 JSON-LD context.
@@ -141,22 +145,22 @@ rate_limits:
   slug: shiphero-rate-limits
 score:
   band: thin
-  composite: 39.0
+  composite: 30.7
   coverage:
-    artifact_dirs: 10
-    catalog_earned: 72.6
+    artifact_dirs: 11
+    catalog_earned: 54.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 42.4
+    catalog_gap: 61.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 44.2
+    access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 45.8
     developer_ergonomics: 23.8
     discoverability: 68.3
-    operational_transparency: 54.7
+    operational_transparency: 34.2
   previous_composite: 39.0
   provenance:
     mcp: first-party
@@ -166,9 +170,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.0
-  scored_at: '2026-10-04'
+  score: 17.8
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -195,9 +195,13 @@ examples:
   name: Purchase Quote Response
   slug: purchase-quote-response
 finops:
-- name: Finops
+- has_sources: false
+  method: generated
+  name: Finops
+  primary_unit: ''
   service_category: ''
   slug: finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dopex.png
 json_schemas:
 - name: OptionMarketsResponseDtoV2
@@ -229,7 +233,7 @@ modified: '2026-06-14'
 name: Dopex
 nav: Providers
 network: true
-overview: 'Dopex publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Deposit API, Exercise API, Option Markets API, and 7 more. Tagged areas include DeFi, Decentralized Options, SSOV, Options Exchange, and Arbitrum.
+overview: 'Dopex publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Deposit API, Exercise API, Option Markets API, and 7 more. Tagged areas include DeFi, Decentralized Options, SSOV, Options Exchange, and Arbitrum.
 
 
   The Dopex catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -246,9 +250,10 @@ rate_limits:
   name: Rate Limits
   slug: rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Dopex API Rules
+  name: Dopex — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -257,18 +262,18 @@ rules:
     warn: 3
   slug: dopex-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 26.9
+  band: emerging
+  composite: 22.7
   coverage:
     artifact_dirs: 15
-    catalog_earned: 47.5
+    catalog_earned: 39.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 67.6
+    catalog_gap: 75.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -4.2
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 9.8
     contract_quality: 38.6
     developer_ergonomics: 16.7
@@ -288,8 +293,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

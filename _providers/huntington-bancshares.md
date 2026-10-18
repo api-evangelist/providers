@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.7
-  scored_at: '2026-10-04'
+  score: 20.8
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -77,6 +77,21 @@ collections:
   name: Huntington Bank Treasury Management API
   slug: open-huntington-bank-treasury-management-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/huntington-bancshares/refs/heads/main/plans/huntington-bancshares-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/huntington-bancshares-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/huntington-bancshares/refs/heads/main/rate-limits/huntington-bancshares-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/huntington-bancshares-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/huntington-bancshares/refs/heads/main/finops/huntington-bancshares-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/huntington-bancshares-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/huntington-bancshares/refs/heads/main/capabilities/huntington-bancshares-capability-edges.yml
   title: ''
@@ -121,19 +136,23 @@ common:
 created: '2026-03-21'
 description: Huntington Bancshares is a regional bank holding company that provides full-service consumer and business banking, insurance, investment, mortgage, equipment leasing, and commercial banking services. Huntington operates a developer portal at hnbdevportal.huntington.com built on Apigee X, offering API-first treasury management solutions with over 500 interfaces that process more than 10 million transaction events daily.
 finops:
-- name: Huntington Bancshares Finops
+- has_sources: true
+  method: generated
+  name: Huntington Bancshares Finops
+  primary_unit: ''
   service_category: Banking & Treasury Management
   slug: huntington-bancshares-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/huntington-bancshares.png
 layout: provider
 modified: '2026-05-19'
 name: Huntington Bancshares
 nav: Providers
 network: true
-overview: 'Huntington Bancshares publishes 3 APIs on the [APIs.io](https://apis.io/) network: Accounts API, Payments API, and Transactions API. Tagged areas include Banking, ERP Integration, Open Banking, Payments, and Treasury.
+overview: 'Huntington Bancshares publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Accounts API, Payments API, and Transactions API. Tagged areas include Banking, ERP Integration, Open Banking, Payments, and Treasury.
 
 
-  Huntington Bancshares'' developer surface includes authentication, developer portal, and 7 more developer resources.'
+  Huntington Bancshares'' developer surface includes authentication, developer portal, and 10 more developer resources.'
 plans:
 - name: Huntington Bancshares Plans Pricing
   plan_count: 2
@@ -166,17 +185,17 @@ scopes:
   summary_line: 3 scopes · clientCredentials
 score:
   band: thin
-  composite: 29.1
+  composite: 27.5
   coverage:
-    artifact_dirs: 15
-    catalog_earned: 44.0
+    artifact_dirs: 16
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 71.0
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 23.7
+    access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 50.6
     developer_ergonomics: 21.4
@@ -196,8 +215,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 26.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

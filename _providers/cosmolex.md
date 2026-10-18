@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'Web services API for CosmoLex legal practice management. Enables programmatic access to matters, time entries, billing, trust accounting, documents, and client data. Access is subject to a maximum of '
@@ -89,9 +89,13 @@ common:
 created: '2026-06-13'
 description: CosmoLex is a cloud-based legal practice management platform that combines matter management, time tracking, billing, trust accounting, and client engagement in a single system. It provides a web services API for integrating matters, time entries, billing, trust accounting, and compliance workflows, subject to a per-user-license monthly call quota. CosmoLex serves solo practitioners and law firms up to 100 users and is designed to satisfy state bar trust accounting compliance requirements.
 finops:
-- name: Cosmolex Finops
+- has_sources: false
+  method: generated
+  name: Cosmolex Finops
+  primary_unit: ''
   service_category: ''
   slug: cosmolex-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cosmolex.png
 jsonld:
 - class_count: 11
@@ -103,7 +107,7 @@ modified: '2026-06-13'
 name: CosmoLex
 nav: Providers
 network: true
-overview: 'CosmoLex publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Legal, Law Practice Management, Matter Management, Billing, and Trust Accounting.
+overview: 'CosmoLex is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Legal, Law Practice Management, Matter Management, Billing, and Trust Accounting.
 
 
   The CosmoLex catalog on APIs.io includes 1 JSON-LD context.
@@ -120,23 +124,23 @@ rate_limits:
   name: Cosmolex Rate Limits
   slug: cosmolex-rate-limits
 score:
-  band: thin
-  composite: 32.7
+  band: emerging
+  composite: 24.4
   coverage:
-    artifact_dirs: 8
-    catalog_earned: 72.6
+    artifact_dirs: 9
+    catalog_earned: 54.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 42.4
+    catalog_gap: 61.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 74.5
+    access_clarity: 46.1
     contract_governance: 0.0
     contract_quality: 14.7
     developer_ergonomics: 16.7
     discoverability: 66.1
-    operational_transparency: 28.4
+    operational_transparency: 7.9
   previous_composite: 32.7
   regulatory:
     applies: true
@@ -144,9 +148,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

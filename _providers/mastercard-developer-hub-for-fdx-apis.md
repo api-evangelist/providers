@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.2
-  scored_at: '2026-10-04'
+  score: 23.3
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -131,6 +131,21 @@ collections:
   name: Mastercard Developer Hub for FDX APIs FDX Authorization Server Application Check Controller User APIs API
   slug: open-mastercard-developer-hub-for-fdx-apis-user-apis-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/mastercard-developer-hub-for-fdx-apis/refs/heads/main/plans/mastercard-developer-hub-for-fdx-apis-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/mastercard-developer-hub-for-fdx-apis-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/mastercard-developer-hub-for-fdx-apis/refs/heads/main/rate-limits/mastercard-developer-hub-for-fdx-apis-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/mastercard-developer-hub-for-fdx-apis-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/mastercard-developer-hub-for-fdx-apis/refs/heads/main/finops/mastercard-developer-hub-for-fdx-apis-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/mastercard-developer-hub-for-fdx-apis-finops.yml
 - group: company
   title: ''
   type: Website
@@ -310,19 +325,23 @@ common:
 created: 2024-10-25 00:00:00+00:00
 description: The Financial Data Exchange (FDX) is a nonprofit industry standards body that created the FDX API, a technical standard for user-permissioned financial data sharing. The FDX API standard, like other data sharing methods used in open banking, gives consumers more control over who can access their financial data. The open banking industry is founded on the principles of interoperability, which are being advanced by forthcoming rulemaking from the The Consumer Financial Protection Bureau (CFPB).
 finops:
-- name: Mastercard Developer Hub For Fdx Apis Finops
+- has_sources: false
+  method: generated
+  name: Mastercard Developer Hub For Fdx Apis Finops
+  primary_unit: ''
   service_category: API
   slug: mastercard-developer-hub-for-fdx-apis-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mastercard-developer-hub-for-fdx-apis.png
 layout: provider
 modified: '2026-09-16'
 name: Mastercard Developer Hub for FDX APIs
 nav: Providers
 network: true
-overview: 'Mastercard Developer Hub for FDX APIs publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Application Check Controller API, Consent API, Data Resource APIs API, and 7 more. Tagged areas include Banking, FDX, and Open Banking.
+overview: 'Mastercard Developer Hub for FDX APIs publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Application Check Controller API, Consent API, Data Resource APIs API, and 7 more. Tagged areas include Banking, FDX, and Open Banking.
 
 
-  Mastercard Developer Hub for FDX APIs'' developer surface includes authentication, developer portal, signup flow, FAQ, support, engineering blog, and 37 more developer resources.'
+  Mastercard Developer Hub for FDX APIs'' developer surface includes authentication, developer portal, signup flow, FAQ, support, engineering blog, and 40 more developer resources.'
 plans:
 - name: Mastercard Developer Hub For Fdx Apis Plans Pricing
   plan_count: 3
@@ -334,17 +353,17 @@ rate_limits:
   slug: mastercard-developer-hub-for-fdx-apis-rate-limits
 score:
   band: thin
-  composite: 38.2
+  composite: 36.7
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 41.0
+    artifact_dirs: 14
+    catalog_earned: 38.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 43.4
+    access_clarity: 35.5
     contract_governance: 0.0
     contract_quality: 46.0
     developer_ergonomics: 42.9
@@ -364,8 +383,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 20.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

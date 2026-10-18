@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://developer.bitpanda.com
@@ -227,7 +227,7 @@ modified: '2026-07-18'
 name: Bitpanda
 nav: Providers
 network: true
-overview: 'Bitpanda publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Assets API, Market Data API, Transactions API, and 1 more. Tagged areas include Company, Cryptocurrency, Fintech, Trading, and Investing.
+overview: 'Bitpanda publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Assets API, Market Data API, Transactions API, and 1 more. Tagged areas include Company, Cryptocurrency, Fintech, Trading, and Investing.
 
 
   Bitpanda''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 24 more developer resources.'
@@ -236,7 +236,7 @@ score:
   band: developing
   composite: 45.6
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -270,8 +270,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 27.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

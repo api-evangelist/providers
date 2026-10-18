@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 16.5
-  scored_at: '2026-10-04'
+  score: 14.7
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Outbound webhook that Ko-fi HTTP POSTs to a URL you configure whenever a payment happens on your Ko-fi page. The single POST body is form-encoded with a "data" field containing a JSON payload; a "type
@@ -84,16 +84,20 @@ common:
 created: '2026-07-05'
 description: 'Ko-fi is a creator monetization platform where fans support creators through one-off tips ("buy me a coffee"), recurring memberships, digital and physical shop products, and paid commissions. Ko-fi charges 0% platform fee on tips and donations. Its developer surface is intentionally narrow and integration-only: Ko-fi does not publish a public REST API. Instead it offers an outbound WEBHOOK that HTTP POSTs payment notifications (donations, subscription / membership payments, shop orders, and commissions) to a URL you configure on your Ko-fi webhooks page. Each POST is application/x-www-form-urlencoded with a single "data" field carrying a JSON payload, and includes a verification_token so you can confirm the request originated from Ko-fi. The webhook is one-way (Ko-fi to your endpoint) and fires only when a payment happens - there is no request/response API to read, create, or manage donations, members, or orders.'
 finops:
-- name: Ko Fi Finops
+- has_sources: true
+  method: generated
+  name: Ko Fi Finops
+  primary_unit: ''
   service_category: Creator Monetization and Payments
   slug: ko-fi-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ko-fi.png
 layout: provider
 modified: '2026-07-05'
 name: Ko-fi
 nav: Providers
 network: true
-overview: 'Ko-fi publishes 1 API on the [APIs.io](https://apis.io/) network: Webhook. Tagged areas include Creator Economy, Donations, Tips, Membership, and Shop.
+overview: 'Ko-fi is listed with 1 API on the [APIs.io](https://apis.io/) network: Webhook. Tagged areas include Creator Economy, Donations, Tips, Membership, and Shop.
 
 
   The Ko-fi catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -110,10 +114,11 @@ rate_limits:
   name: Ko Fi Rate Limits
   slug: ko-fi-rate-limits
 rules:
-- effective_rule_count: 33
+- authorship: generated
+  effective_rule_count: 33
   extends:
   - spectral:asyncapi
-  name: Ko-fi API Rules
+  name: Ko-fi — asyncapi rules
   rule_count: 6
   severity_counts:
     error: 1
@@ -122,23 +127,23 @@ rules:
     warn: 5
   slug: ko-fi-asyncapi-spectral-rules
 score:
-  band: thin
-  composite: 26.7
+  band: emerging
+  composite: 20.7
   coverage:
-    artifact_dirs: 9
-    catalog_earned: 53.2
+    artifact_dirs: 10
+    catalog_earned: 39.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 61.9
+    catalog_gap: 75.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.0
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 11.4
     contract_quality: 40.6
     developer_ergonomics: 19.0
     discoverability: 57.1
-    operational_transparency: 18.9
+    operational_transparency: 5.3
   previous_composite: 26.7
   regulatory:
     applies: true
@@ -146,9 +151,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 5.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

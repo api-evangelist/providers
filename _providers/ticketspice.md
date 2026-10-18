@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -134,6 +134,14 @@ collections:
   name: TicketSpice API (Webconnex v2 Public)
   slug: open-ticketspice
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.ticketspice.com/blog
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.ticketspice.com/blog/rss.xml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/ticketspice/refs/heads/main/capabilities/ticketspice-capability-edges.yml
   title: ''
@@ -188,19 +196,23 @@ common:
 created: '2026-07-05'
 description: TicketSpice is an online event ticketing platform built by Webconnex that lets organizers design fully customizable ticketing pages and sell tickets for events, festivals, tours, and immersive experiences at a flat 99-cent per-ticket fee. TicketSpice is powered by the shared Webconnex REST API (base https://api.webconnex.com/v2/public), the same read-and-manage API surface behind Webconnex products RegFox, RedPodium, and GivingFuel. Callers pass a product parameter of ticketspice and authenticate with an apiKey header to search and view orders, registrants, tickets, transactions, customers, forms, and inventory, manage coupons and webhooks, and check registrants in and out. API access is provisioned per account with an API key and is gated to higher-tier plans.
 finops:
-- name: Ticketspice Finops
+- has_sources: true
+  method: generated
+  name: Ticketspice Finops
+  primary_unit: ''
   service_category: Event Ticketing and Registration
   slug: ticketspice-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ticketspice.png
 layout: provider
-modified: '2026-07-05'
+modified: '2026-10-06'
 name: TicketSpice
 nav: Providers
 network: true
-overview: 'TicketSpice publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Coupons API, Customers API, Forms API, and 7 more. Tagged areas include Event Ticketing, Ticketing, Event, Registration, and Payments.
+overview: 'TicketSpice publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Coupons API, Customers API, Forms API, and 7 more. Tagged areas include Event Ticketing, Ticketing, Event, Registration, and Payments.
 
 
-  TicketSpice''s developer surface includes authentication, documentation, and 9 more developer resources.'
+  TicketSpice''s developer surface includes engineering blog, authentication, documentation, and 10 more developer resources.'
 plans:
 - name: Ticketspice Plans Pricing
   plan_count: 3
@@ -211,23 +223,23 @@ rate_limits:
   name: Ticketspice Rate Limits
   slug: ticketspice-rate-limits
 score:
-  band: thin
-  composite: 33.5
+  band: emerging
+  composite: 25.6
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 61.6
+    artifact_dirs: 13
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.4
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.9
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 47.5
-    developer_ergonomics: 28.6
+    developer_ergonomics: 31.0
     discoverability: 66.1
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   previous_composite: 33.5
   provenance:
     agentic_access: derived
@@ -242,9 +254,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 10.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

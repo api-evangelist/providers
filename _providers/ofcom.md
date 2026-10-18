@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -227,7 +227,7 @@ modified: '2026-07-25'
 name: Ofcom
 nav: Providers
 network: true
-overview: 'Ofcom publishes 1 API on the [APIs.io](https://apis.io/) network: Coverage API. Tagged areas include Telecommunications, United Kingdom, Regulator, Broadband, and Mobile Network Coverage.
+overview: 'Ofcom publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Coverage API. Tagged areas include Telecommunications, United Kingdom, Regulator, Broadband, and Mobile Network Coverage.
 
 
   Ofcom''s developer surface includes sandbox, authentication, documentation, signup flow, API reference, developer console, support, and 26 more developer resources.'
@@ -283,8 +283,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 22.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

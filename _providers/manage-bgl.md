@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 13
+- acting_count: 12
   human_in_the_loop: 0
   name: Manage Bgl Agentic Access
   operation_count: 20
   slug: manage-bgl-agentic-access
-  summary_line: 20 operations · 13 acting
+  summary_line: 20 operations · 12 acting
 api_count: 1
 apis:
 - baseURL: https://app.jadediabetes.com/api/1.0
@@ -90,6 +90,10 @@ collections:
   name: Jade Diabetes REST Authentication System API
   slug: open-manage-bgl-system-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://jadediabetes.com/blog/
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/manage-bgl/refs/heads/main/agentic-access/manage-bgl-agentic-access.yml
   title: ''
@@ -203,31 +207,31 @@ created: '2026-07-17'
 description: Manage BGL is the diabetes-management platform from Jade Diabetes, a Melbourne, Australia company whose iOS and Android app helps people with Type 1, Type 1.5, Type 2, gestational, and LADA diabetes track blood glucose levels and calculate insulin doses. Jade tracks 64 types of diabetes data, calculates doses from carbohydrates, protein, fat, fiber, insulin-on-board and personalized factors, and offers a prediction engine that forecasts blood sugar hours ahead. It integrates with Dexcom, FreeStyle Libre, NightScout, fitness and food apps, and more than 60 diabetic devices, and supports live data sharing with care teams for remote patient monitoring. Jade exposes a public REST API (v1.0) so developers and partners can read and write diabetes data securely.
 image: https://jadediabetes.com/favicon.ico
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Manage BGL
 nav: Providers
 network: true
-overview: 'Manage BGL publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Logs API, Predictions API, and 2 more. Tagged areas include Company, Diabetes, Health, Healthcare, and Digital Health.
+overview: 'Manage BGL publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authentication API, Logs API, Predictions API, and 2 more. Tagged areas include Company, Diabetes, Health, Healthcare, and Digital Health.
 
 
-  Manage BGL''s developer surface includes API reference, documentation, sandbox, pricing, signup flow, support, authentication, and 17 more developer resources.'
+  Manage BGL''s developer surface includes engineering blog, API reference, documentation, sandbox, pricing, signup flow, support, and 18 more developer resources.'
 random_paper: 3
 score:
   band: thin
-  composite: 28.8
+  composite: 29.3
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 42.1
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 51.8
+    developer_ergonomics: 54.2
     discoverability: 73.2
     operational_transparency: 0.0
   previous_composite: 28.8
@@ -251,8 +255,8 @@ score:
     regime: Health
     regime_id: health
     score: 20.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

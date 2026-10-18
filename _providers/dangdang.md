@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: http://blog.dangdang.com/?feed=rss2
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/dangdang/refs/heads/main/security/dangdang-domain-security.yml
   title: ''
@@ -49,7 +53,7 @@ created: '2026-07-17'
 description: Dangdang (当当, dangdang.com) is a Chinese business-to-consumer e-commerce company founded in 1999 and headquartered in Beijing. It began as one of China's largest online booksellers and expanded into a broad general-merchandise marketplace spanning books, e-books and e-readers, digital reading, consumer electronics, apparel, home goods, and maternal and baby products. Once listed on the New York Stock Exchange (ticker DANG) before being taken private, Dangdang was surfaced as a portfolio company of DCM Ventures and added to the API Evangelist network. No active public developer program, open platform, or machine-readable API surface was reachable during enrichment (the site is geo-restricted); this profile carries a probed domain-security posture and awaits any discoverable API artifacts.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dangdang.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Dangdang
 nav: Providers
 network: true
@@ -59,7 +63,7 @@ score:
   band: minimal
   composite: 3.4
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -87,8 +91,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

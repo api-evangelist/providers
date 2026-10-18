@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: REST API for querying biomedical and genomic datasets (now the QuartzBio EDP REST API). Served per-customer on instance hosts; requires authentication.
@@ -102,7 +102,7 @@ modified: '2026-09-16'
 name: SolveBio
 nav: Providers
 network: true
-overview: 'SolveBio publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Genomics, Bioinformatics, Life Sciences, and Precision Medicine.
+overview: 'SolveBio is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Genomics, Bioinformatics, Life Sciences, and Precision Medicine.
 
 
   SolveBio''s developer surface includes CLI, authentication, and 9 more developer resources.'
@@ -111,7 +111,7 @@ score:
   band: emerging
   composite: 13.5
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -132,13 +132,14 @@ score:
     regime: Health
     regime_id: health
     score: 9.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/solvebio/refs/heads/main/screenshots/solvebio-2026-10-11T130105.png
 security:
 - kind: authentication
   name: Solvebio Authentication

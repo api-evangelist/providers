@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 17
 apis:
 - baseURL: https://api.toq.io/wallet/api
@@ -584,7 +584,7 @@ modified: '2026-07-21'
 name: Toqio
 nav: Providers
 network: true
-overview: 'Toqio publishes 49 APIs on the [APIs.io](https://apis.io/) network, including Account API, Account information API, API Endpoints API, and 46 more. Tagged areas include Embedded Finance, Fintech, Banking as a Service, Payments, and Cards.
+overview: 'Toqio publishes 49 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Account information API, API Endpoints API, and 46 more. Tagged areas include Embedded Finance, Fintech, Banking as a Service, Payments, and Cards.
 
 
   The Toqio catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -601,7 +601,7 @@ score:
   band: developing
   composite: 47.2
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -635,8 +635,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 40.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

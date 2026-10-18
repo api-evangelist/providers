@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.7
-  scored_at: '2026-10-04'
+  score: 24.5
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: The HAL+JSON REST API of ANU's self-hosted DSpace 7.6.7 repository, reachable anonymously at /server/api for the root and discovery resources; /server/api/core/items returns 401, so the surface is gen
@@ -225,9 +225,13 @@ examples:
   name: Anu Quantum Numbers Hex16 Example
   slug: anu-quantum-numbers-hex16-example
 finops:
-- name: Anu Finops
+- has_sources: true
+  method: generated
+  name: Anu Finops
+  primary_unit: ''
   service_category: Education
   slug: anu-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/anu.png
 json_schemas:
 - name: ANU Quantum Numbers request parameters
@@ -246,7 +250,7 @@ modified: '2026-09-16'
 name: Australian National University
 nav: Providers
 network: true
-overview: 'Australian National University publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Harvesting API, Random Numbers API, and 3 more. Tagged areas include University, Higher Education, Education, Research, and Australia.
+overview: 'Australian National University publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Harvesting API, Random Numbers API, and 3 more. Tagged areas include University, Higher Education, Education, Research, and Australia.
 
 
   The Australian National University catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -263,7 +267,8 @@ rate_limits:
   name: Anu Rate Limits
   slug: anu-rate-limits
 rules:
-- effective_rule_count: 13
+- authorship: generated
+  effective_rule_count: 13
   extends: []
   name: Australian National University API Rules
   rule_count: 13
@@ -279,23 +284,23 @@ scopes:
   slug: anu-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 47.9
+  band: thin
+  composite: 39.0
   coverage:
     artifact_dirs: 18
-    catalog_earned: 81.7
+    catalog_earned: 59.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 33.3
+    catalog_gap: 55.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.4
+  delta: -8.9
   facets:
-    access_clarity: 70.5
+    access_clarity: 42.1
     contract_governance: 11.4
-    contract_quality: 44.0
+    contract_quality: 41.4
     developer_ergonomics: 28.6
     discoverability: 71.4
-    operational_transparency: 38.9
+    operational_transparency: 18.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -303,7 +308,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 54.3
+  previous_composite: 47.9
   provenance:
     conformance: first-party
     contracts:
@@ -317,8 +322,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 42.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: falling
   upsert:
     applies: false

@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: SkyWest Airlines flight data including flight status, schedules, and routes is accessible through third-party aviation APIs such as AirLabs. SkyWest operates under IATA code OO / ICAO code SKW and ser
@@ -41,6 +41,25 @@ apis:
   slug: flight-data
 artifact_total: 6
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/skywest/refs/heads/main/plans/skywest-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/skywest-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/skywest/refs/heads/main/rate-limits/skywest-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/skywest-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/skywest/refs/heads/main/finops/skywest-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/skywest-finops.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.skywest.com/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/skywest/refs/heads/main/security/skywest-domain-security.yml
   title: ''
@@ -103,9 +122,13 @@ common:
 created: '2026-05-02'
 description: SkyWest Airlines is the largest regional airline in North America, headquartered in St. George, Utah. Operating under partnership agreements with United Airlines, Delta Air Lines, American Airlines, and Alaska Airlines, SkyWest serves over 256 destinations across the United States, Canada, and Mexico with a fleet of 500+ Bombardier regional jets (CRJ200, CRJ550, CRJ900). Founded in 1972, SkyWest carries over 46 million passengers annually operating as United Express, Delta Connection, American Eagle, and Alaska SkyWest. The company does not offer a public developer API; flight data is accessible through third-party aviation data providers.
 finops:
-- name: Skywest Finops
+- has_sources: false
+  method: generated
+  name: Skywest Finops
+  primary_unit: ''
   service_category: API
   slug: skywest-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/skywest.png
 jsonld:
 - class_count: 0
@@ -113,11 +136,11 @@ jsonld:
   property_count: 6
   slug: skywest-context
 layout: provider
-modified: '2026-05-02'
+modified: '2026-10-06'
 name: SkyWest Airlines
 nav: Providers
 network: true
-overview: 'SkyWest Airlines publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Airlines, Aviation, Regional Airline, Transportation, and Fortune 1000.
+overview: 'SkyWest Airlines is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Airlines, Aviation, Regional Airline, Transportation, and Fortune 1000.
 
 
   The SkyWest Airlines catalog on APIs.io includes 1 JSON-LD context.'
@@ -148,17 +171,17 @@ rate_limits:
   slug: skywest-rate-limits
 score:
   band: emerging
-  composite: 12.9
+  composite: 11.4
   coverage:
     artifact_dirs: 11
-    catalog_earned: 50.5
+    catalog_earned: 47.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 64.5
+    catalog_gap: 67.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 13.6
     contract_quality: 6.7
     developer_ergonomics: 0.0
@@ -171,8 +194,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

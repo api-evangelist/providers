@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.5
-  scored_at: '2026-10-04'
+  score: 19.6
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 77
+- acting_count: 72
   human_in_the_loop: 0
   name: Neonone Agentic Access
   operation_count: 137
   slug: neonone-agentic-access
-  summary_line: 137 operations · 77 acting
+  summary_line: 137 operations · 72 acting
 api_count: 1
 apis:
 - baseURL: https://api.neoncrm.com/v2
@@ -150,6 +150,14 @@ collections:
   name: Neon CRM API v2
   slug: open-neonone
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://neonone.com/resources/blog/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://neonone.com/feed/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/neonone/refs/heads/main/capabilities/neonone-capability-edges.yml
   title: ''
@@ -209,19 +217,23 @@ common:
 created: '2026-07-03'
 description: Neon One is a nonprofit technology company whose flagship product, Neon CRM, is a donor management and fundraising platform used by nonprofits and membership associations to manage constituents, donations, memberships, events, campaigns, and volunteers. Neon CRM API v2 is a RESTful, JSON-based rebuild of the legacy v1 API, authenticated with HTTP Basic Auth (org ID + API key) against a base URL of https://api.neoncrm.com/v2. Neon has scheduled the retirement of API v1 and its legacy webhook structure for July 11, 2026.
 finops:
-- name: Neonone Finops
+- has_sources: true
+  method: generated
+  name: Neonone Finops
+  primary_unit: ''
   service_category: SaaS - Nonprofit CRM and Fundraising
   slug: neonone-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/neonone.png
 layout: provider
-modified: '2026-07-03'
+modified: '2026-10-06'
 name: Neon One
 nav: Providers
 network: true
-overview: 'Neon One publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Campaigns API, Custom Fields API, and 9 more. Tagged areas include Non-Profit, CRM, Fundraising, Donor Management, and Membership Management.
+overview: 'Neon One publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, Campaigns API, Custom Fields API, and 9 more. Tagged areas include Non-Profit, CRM, Fundraising, Donor Management, and Membership Management.
 
 
-  Neon One''s developer surface includes authentication, documentation, and 10 more developer resources.'
+  Neon One''s developer surface includes engineering blog, authentication, documentation, and 11 more developer resources.'
 plans:
 - name: Neonone Plans Pricing
   plan_count: 4
@@ -233,22 +245,22 @@ rate_limits:
   slug: neonone-rate-limits
 score:
   band: thin
-  composite: 37.3
+  composite: 29.5
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 61.6
+    artifact_dirs: 13
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.4
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.8
   facets:
-    access_clarity: 44.2
+    access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 50.5
-    developer_ergonomics: 28.6
+    developer_ergonomics: 31.0
     discoverability: 66.1
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   previous_composite: 37.3
   provenance:
     agentic_access: derived
@@ -263,9 +275,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

@@ -30,21 +30,21 @@ agent_readiness:
     mcp_server: verified
     openapi_examples: verified
     protected_resource_metadata: verified
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 57.1
-  scored_at: '2026-10-04'
+  score: 55.2
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 36
+- acting_count: 34
   human_in_the_loop: 1
   name: Exa Ai Agentic Access
   operation_count: 66
   slug: exa-ai-agentic-access
-  summary_line: 66 operations · 36 acting · 1 human-in-the-loop
-api_count: 7
+  summary_line: 66 operations · 34 acting · 1 human-in-the-loop
+api_count: 8
 apis:
 - baseURL: https://api.exa.ai
   baseurl_source: declared
@@ -620,9 +620,13 @@ features:
 - Pay-as-you-go from $7 per 1,000 search requests; $1 per 1,000 content pages
 - $1,000 startup/education grant program
 finops:
-- name: Exa Ai Finops
+- has_sources: true
+  method: generated
+  name: Exa Ai Finops
+  primary_unit: request
   service_category: AI and Machine Learning
   slug: exa-ai-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/exa-ai.png
 json_schemas:
 - name: Exa Search Result
@@ -645,7 +649,7 @@ modified: '2026-06-20'
 name: Exa
 nav: Providers
 network: true
-overview: 'Exa publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Agent API, Answer API, Contents API, and 16 more. Tagged areas include Artificial Intelligence, Search, Web Search, Neural Search, and LLM.
+overview: 'Exa publishes 19 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agent API, Answer API, Contents API, and 16 more. Tagged areas include Artificial Intelligence, Search, Web Search, Neural Search, and LLM.
 
 
   The Exa catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -662,9 +666,10 @@ rate_limits:
   name: Exa Ai Rate Limits
   slug: exa-ai-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Exa API Rules
+  name: Exa — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -673,24 +678,24 @@ rules:
     warn: 3
   slug: exa-ai-jsonschema-spectral-rules
 score:
-  band: strong
-  composite: 59.0
+  band: developing
+  composite: 52.3
   coverage:
-    artifact_dirs: 27
-    catalog_earned: 84.9
+    artifact_dirs: 28
+    catalog_earned: 69.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 30.2
+    catalog_gap: 45.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -6.7
   facets:
-    access_clarity: 78.4
+    access_clarity: 57.9
     contract_governance: 14.4
     contract_quality: 67.3
     developer_ergonomics: 38.1
     discoverability: 80.0
-    operational_transparency: 38.9
-  previous_composite: 58.5
+    operational_transparency: 18.4
+  previous_composite: 59.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -706,9 +711,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 27.8
@@ -725,7 +730,7 @@ security:
 - kind: vulnerability-disclosure
   name: Exa Ai Vulnerability Disclosure
   slug: exa-ai-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 - kind: trust-center
   name: Exa Ai Trust Center
   slug: exa-ai-trust-center

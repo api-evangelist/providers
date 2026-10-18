@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 14
 apis:
 - description: A remote Model Context Protocol server served from the elementalmachines.com WordPress host via the WordPress MCP Adapter, advertised by /.well-known/oauth-protected-resource and /.well-known/oauth-au
@@ -102,12 +102,22 @@ apis:
   description: The Users API from Elemental Machines — 2 operation(s) for users.
   name: Elemental Machines Users API
   slug: elemental-machines-users-api
-artifact_total: 21
+artifact_total: 20
 collections:
 - collection_type: open
   name: Elemental Machines API
   slug: open-elemental-machines-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/elemental-machines/refs/heads/main/plans/elemental-machines-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/elemental-machines-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/elemental-machines/refs/heads/main/rate-limits/elemental-machines-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/elemental-machines-rate-limits.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/elemental-machines/refs/heads/main/capabilities/elemental-machines-capability-edges.yml
   title: ''
@@ -239,17 +249,14 @@ mcp_servers:
 - description: Elemental Machines serves a remote Model Context Protocol server from its WordPress marketing host via the WordPress MCP Adapter. It was discovered from /.well-known/oauth-protected-resource, not from
   name: Elemental Machines MCP Server
   slug: elemental-machines-mcp-yml
-- description: ''
-  name: Elemental Machines MCP Server
-  slug: mcp-oauth-server
 modified: '2026-09-16'
 name: Elemental Machines
 nav: Providers
 network: true
-overview: 'Elemental Machines publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Alert Logs API, Alert Rules API, Authentication API, and 10 more. Tagged areas include lab-operations, laboratory-monitoring, IoT, Sensors, and Life Sciences.
+overview: 'Elemental Machines publishes 13 API contracts indexed on the [APIs.io](https://apis.io/) network, including Alert Logs API, Alert Rules API, Authentication API, and 10 more. Tagged areas include lab-operations, laboratory-monitoring, IoT, Sensors, and Life Sciences.
 
 
-  Elemental Machines'' developer surface includes documentation, API reference, support, engineering blog, signup flow, changelog, authentication, and 20 more developer resources.'
+  Elemental Machines'' developer surface includes documentation, API reference, support, engineering blog, signup flow, changelog, authentication, and 22 more developer resources.'
 plans:
 - name: Elemental Machines Plans Pricing
   plan_count: 0
@@ -298,8 +305,8 @@ score:
     regime: Health
     regime_id: health
     score: 40.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

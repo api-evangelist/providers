@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 18.0
-  scored_at: '2026-10-04'
+  score: 16.1
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Reranking endpoint that scores a list of candidate documents against a query and returns relevance scores. Powered by the voyage-rerank-2 model family, used downstream of vector search to improve retr
@@ -157,16 +157,20 @@ common:
 created: '2026-05-23'
 description: Voyage AI builds state-of-the-art embedding and reranker models for retrieval-augmented generation (RAG) and semantic search. The platform exposes an OpenAI-style REST API at api.voyageai.com/v1 for text embeddings, multimodal embeddings, contextualized embeddings, and reranking, with Python and TypeScript SDKs. Model families include voyage-3.x and voyage-4.x text embeddings, voyage-code-3, domain-specialised models (voyage-finance-2, voyage-law-2), voyage-multimodal-3, and the voyage-rerank-2 reranker family. Voyage AI was acquired by MongoDB in February 2024 and is integrated into MongoDB Atlas Vector Search; models are also distributed via AWS Marketplace, Azure Marketplace, and Snowflake.
 finops:
-- name: Voyage Ai Finops
+- has_sources: false
+  method: generated
+  name: Voyage Ai Finops
+  primary_unit: ''
   service_category: API
   slug: voyage-ai-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/voyage-ai.png
 layout: provider
 modified: '2026-05-23'
 name: Voyage AI
 nav: Providers
 network: true
-overview: 'Voyage AI publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Contextualized API, Embeddings API, Multimodal API, and 6 more. Tagged areas include Embeddings, Rerankers, RAG, Semantic Search, and AI Models.
+overview: 'Voyage AI publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Contextualized API, Embeddings API, Multimodal API, and 6 more. Tagged areas include Embeddings, Rerankers, RAG, Semantic Search, and AI Models.
 
 
   Voyage AI''s developer surface includes documentation, GitHub presence, pricing, engineering blog, and 11 more developer resources.'
@@ -180,23 +184,23 @@ rate_limits:
   name: Voyage Ai Rate Limits
   slug: voyage-ai-rate-limits
 score:
-  band: thin
-  composite: 29.4
+  band: emerging
+  composite: 23.5
   coverage:
-    artifact_dirs: 10
-    catalog_earned: 54.4
+    artifact_dirs: 11
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 60.6
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.9
   facets:
-    access_clarity: 37.4
+    access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 46.5
     developer_ergonomics: 7.1
     discoverability: 66.1
-    operational_transparency: 40.0
+    operational_transparency: 26.3
   open_source:
     applies: true
     score: 25.0
@@ -209,13 +213,13 @@ score:
       total: 4
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 5.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

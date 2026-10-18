@@ -33,10 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://affiliate.fantasyakhada.com/blog/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/fantasy-akhada/refs/heads/main/security/fantasy-akhada-domain-security.yml
   title: ''
@@ -99,31 +103,31 @@ created: '2026-08-12'
 description: 'Fantasy Akhada is an Indian daily-fantasy-sports platform operated by Super Six Sports Gaming Private Limited (CIN U72900HR2019PTC083570) of Gurugram, Haryana, founded in 2020 by Amit Purohit, Sumit Kumar Jha, Sahil Ahuja, Amit Bhardwaj and Ankit Upreti, with cricket commentator Harsha Bhogle as brand ambassador. Users build virtual teams for real cricket, football, kabaddi, basketball and hockey fixtures and enter free and cash contests, with the platform taking a commission on entry fees; it marketed itself on the lowest commission rates in the category and claimed 3.5 to 4 million registered users. The product shipped only as a consumer iOS app and a sideloaded Android APK plus a React single-page web lobby - there is no developer program, public API, SDK, webhook surface or developer portal of any kind, and none has ever been published. As of the August 2026 probe the brand''s own web presence is broken: www.fantasyakhada.com is a dangling CNAME to a deleted AWS ap-south-1
   load balancer, the apex carries no address record, every backend service host referenced by the company''s own JavaScript bundles has been withdrawn from DNS, and only stale static CloudFront/S3 builds remain. India''s Promotion and Regulation of Online Gaming Act 2025 banned real-money online games nationwide in August 2025.'
 layout: provider
-modified: '2026-08-12'
+modified: '2026-10-06'
 name: Fantasy Akhada
 nav: Providers
 network: true
 overview: 'Fantasy Akhada is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fantasy Sports, Sports, Online Gaming, and Consumer Mobile.
 
 
-  Fantasy Akhada''s developer surface includes YouTube channel and 7 more developer resources.'
+  Fantasy Akhada''s developer surface includes engineering blog, YouTube channel, and 7 more developer resources.'
 random_paper: 19
 score:
   band: minimal
-  composite: 3.0
+  composite: 3.6
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 25.0
     catalog_earned_first_party: 0.0
     catalog_gap: 90.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 44.6
     operational_transparency: 0.0
   jurisdiction:
@@ -140,8 +144,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

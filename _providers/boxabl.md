@@ -33,10 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.boxabl.com/blog
 - group: company
   title: ''
   type: Website
@@ -126,31 +130,31 @@ created: '2026-07-31'
 description: BOXABL Inc. is a Las Vegas, Nevada manufacturer of factory-built, foldable homes, founded in 2017 and trading on Nasdaq under the ticker BXBL. Its homes are assembled on a production line in a climate-controlled factory rather than on site, then folded to 8.5 by 20 feet for shipment by truck, rail, sea or air and unfolded on the pad in about two hours. The Casita is the current production model, sold as a studio, one-bedroom and two-bedroom in unit-only or turnkey configurations, with a Baby Box travel trailer and a multi-unit Developer Series catalog alongside it. BOXABL publishes no public API, developer portal or machine-readable API contract; its machine-readable surface is an agent-facing llms.txt, a permissive AI-crawler robots.txt, and an RFC 9116 security.txt pointing at a real responsible-disclosure and bug bounty policy.
 image: https://www.boxabl.com/preview1.jpg
 layout: provider
-modified: '2026-07-31'
+modified: '2026-10-06'
 name: Boxabl
 nav: Providers
 network: true
 overview: 'Boxabl is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Construction, Manufacturing, Housing, and Real Estate.
 
 
-  Boxabl''s developer surface includes support, FAQ, pricing, YouTube channel, and 16 more developer resources.'
+  Boxabl''s developer surface includes engineering blog, support, FAQ, pricing, YouTube channel, and 16 more developer resources.'
 random_paper: 16
 score:
   band: emerging
-  composite: 14.8
+  composite: 15.3
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 31.6
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 4.8
+    developer_ergonomics: 7.1
     discoverability: 55.4
     operational_transparency: 10.5
   previous_composite: 14.8
@@ -160,8 +164,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

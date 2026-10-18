@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 4
 apis:
 - description: A web service that allows certified third-party applications to query Electronic Export Information (EEI) filings previously submitted to AESDirect via HTTP POST. Returns shipment status and filing da
@@ -50,6 +50,10 @@ apis:
   slug: eapis-advance-passenger-information
 artifact_total: 9
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.cbp.gov/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/cbp/refs/heads/main/security/cbp-domain-security.yml
   title: ''
@@ -109,9 +113,13 @@ common:
 created: '2026-06-13'
 description: U.S. Customs and Border Protection (CBP) is the nation's largest law enforcement agency and a major revenue-collecting authority, responsible for facilitating legitimate international trade and travel while enforcing trade laws, collecting duties, and securing the border. CBP provides REST APIs and EDI-based interfaces for trade data, import statistics, tariff schedules, ACE reporting, and automated import/export manifests through the Automated Commercial Environment (ACE), the Automated Export System (AES / AESDirect), and the Advance Passenger Information System (APIS/eAPIS).
 finops:
-- name: Cbp Finops
+- has_sources: false
+  method: generated
+  name: Cbp Finops
+  primary_unit: ''
   service_category: ''
   slug: cbp-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cbp.png
 jsonld:
 - class_count: 24
@@ -119,17 +127,17 @@ jsonld:
   property_count: 0
   slug: cbp-context
 layout: provider
-modified: '2026-07-25'
+modified: '2026-10-06'
 name: CBP
 nav: Providers
 network: true
-overview: 'CBP publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include US Government, Trade, Customs, Import, and Export.
+overview: 'CBP is listed with 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include US Government, Trade, Customs, Import, and Export.
 
 
   The CBP catalog on APIs.io includes 1 JSON-LD context.
 
 
-  CBP''s developer surface includes documentation, engineering blog, pricing, product news, and 9 more developer resources.'
+  CBP''s developer surface includes documentation, engineering blog, pricing, product news, and 10 more developer resources.'
 plans:
 - name: Cbp Plans Pricing
   plan_count: 4
@@ -140,18 +148,18 @@ rate_limits:
   name: Cbp Rate Limits
   slug: cbp-rate-limits
 score:
-  band: thin
-  composite: 26.7
+  band: emerging
+  composite: 21.0
   coverage:
     artifact_dirs: 8
-    catalog_earned: 61.8
+    catalog_earned: 51.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.2
+    catalog_gap: 64.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.7
   facets:
-    access_clarity: 46.8
+    access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 10.7
     developer_ergonomics: 25.0
@@ -164,9 +172,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

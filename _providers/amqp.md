@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 16.5
-  scored_at: '2026-10-04'
+  score: 14.7
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: AsyncAPI specification for AMQP messaging patterns including publish/subscribe, request/reply, and point-to-point messaging via exchanges, queues, and bindings.
@@ -45,6 +45,21 @@ asyncapis:
   name: AMQP Messaging API
   slug: amqp-messaging
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/amqp/refs/heads/main/plans/amqp-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/amqp-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/amqp/refs/heads/main/rate-limits/amqp-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/amqp-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/amqp/refs/heads/main/finops/amqp-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/amqp-finops.yml
 - group: company
   title: ''
   type: Website
@@ -161,9 +176,13 @@ features:
 - description: Wire-level protocol interoperability across different broker implementations.
   name: Multi-Vendor Interoperability
 finops:
-- name: Amqp Finops
+- has_sources: false
+  method: generated
+  name: Amqp Finops
+  primary_unit: ''
   service_category: API
   slug: amqp-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amqp.png
 integrations:
 - description: Popular AMQP 0-9-1 compliant broker with extensive plugin ecosystem.
@@ -240,13 +259,13 @@ modified: '2026-04-19'
 name: AMQP
 nav: Providers
 network: true
-overview: 'AMQP publishes 1 API on the [APIs.io](https://apis.io/) network: Messaging API. Tagged areas include AMQP, Asynchronous, Message Queue, Messaging, and Middleware.
+overview: 'AMQP is listed with 1 API on the [APIs.io](https://apis.io/) network: Messaging API. Tagged areas include AMQP, Asynchronous, Message Queue, Messaging, and Middleware.
 
 
   The AMQP catalog on APIs.io includes 1 event-driven AsyncAPI specification, 6 JSON-LD contexts, and 3 Spectral governance rulesets.
 
 
-  AMQP''s developer surface includes developer portal, documentation, and 15 more developer resources.'
+  AMQP''s developer surface includes developer portal, documentation, and 18 more developer resources.'
 plans:
 - name: Amqp Plans Pricing
   plan_count: 3
@@ -257,10 +276,11 @@ rate_limits:
   name: Amqp Rate Limits
   slug: amqp-rate-limits
 rules:
-- effective_rule_count: 35
+- authorship: generated
+  effective_rule_count: 35
   extends:
   - spectral:asyncapi
-  name: AMQP API Rules
+  name: AMQP — asyncapi rules
   rule_count: 8
   severity_counts:
     error: 0
@@ -268,9 +288,10 @@ rules:
     info: 1
     warn: 7
   slug: amqp-asyncapi-spectral-rules
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: AMQP API Rules
+  name: AMQP — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -278,7 +299,8 @@ rules:
     info: 2
     warn: 3
   slug: amqp-jsonschema-spectral-rules
-- effective_rule_count: 9
+- authorship: unmarked
+  effective_rule_count: 9
   extends: []
   name: AMQP API Rules
   rule_count: 9
@@ -289,18 +311,18 @@ rules:
     warn: 5
   slug: amqp-spectral-rules
 score:
-  band: thin
-  composite: 27.4
+  band: emerging
+  composite: 25.9
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 58.0
+    artifact_dirs: 14
+    catalog_earned: 55.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.0
+    catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 27.3
     contract_quality: 47.9
     developer_ergonomics: 9.5
@@ -313,8 +335,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

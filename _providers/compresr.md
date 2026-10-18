@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 63
   human_in_the_loop: 1
@@ -268,6 +268,10 @@ collections:
 common:
 - group: company
   title: ''
+  type: BlogRSS
+  url: https://compresr.ai/changelog/feed.xml
+- group: company
+  title: ''
   type: Website
   url: https://www.compresr.ai/
 - group: other
@@ -432,19 +436,23 @@ common:
 created: '2026-07-17'
 description: Compresr is an LLM context-compression API. You send the long context you would otherwise pass to a model plus the query you want answered, and Compresr returns a shorter context that keeps the answer-bearing spans and drops the rest — fewer input tokens, lower cost, a longer effective context window, and faster inference. It sits in front of whatever LLM stack you already use and replaces nothing. The public API exposes query-specific compression models (latte_v1 and the faster latte_v2) plus tool-output, conversation-history, and tool-discovery variants, over a hosted HTTP API with Python and TypeScript SDKs, first-party framework integrations (LangChain, LangGraph, LlamaIndex, LiteLLM), and per-key tiered rate limits. Compresr Inc. is a Y Combinator W26 company built by four EPFL-trained researchers in San Francisco, California and Switzerland.
 finops:
-- name: Compresr Finops
+- has_sources: true
+  method: searched
+  name: Compresr Finops
+  primary_unit: ''
   service_category: ''
   slug: compresr-finops
+  template: false
 image: https://compresr.ai/logo.png
 layout: provider
-modified: '2026-09-16'
+modified: '2026-10-06'
 name: Compresr
 nav: Providers
 network: true
-overview: 'Compresr publishes 27 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Admin - Whitelist API, API Keys API, and 24 more. Tagged areas include LLM, Context Compression, Prompt Engineering, RAG, and AI Infrastructure.
+overview: 'Compresr publishes 27 API contracts indexed on the [APIs.io](https://apis.io/) network, including Admin API, Admin - Whitelist API, API Keys API, and 24 more. Tagged areas include LLM, Context Compression, Prompt Engineering, RAG, and AI Infrastructure.
 
 
-  Compresr''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, changelog, and 28 more developer resources.'
+  Compresr''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, changelog, and 29 more developer resources.'
 plans:
 - name: Compresr Plans
   plan_count: 2
@@ -456,17 +464,17 @@ rate_limits:
   slug: compresr-rate-limits
 score:
   band: strong
-  composite: 61.0
+  composite: 59.5
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 60.0
+    artifact_dirs: 28
+    catalog_earned: 57.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 55.0
+    catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 73.7
+    access_clarity: 65.8
     contract_governance: 4.5
     contract_quality: 44.4
     developer_ergonomics: 83.3
@@ -489,8 +497,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

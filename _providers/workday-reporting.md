@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -91,6 +91,16 @@ collections:
   name: Workday Reporting Workday Report-as-a-Service (RaaS) Report Metadata Reports API
   slug: open-workday-reporting-reports-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/workday-reporting/refs/heads/main/plans/workday-reporting-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/workday-reporting-plans-pricing.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/workday-reporting/refs/heads/main/finops/workday-reporting-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/workday-reporting-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/workday-reporting/refs/heads/main/capabilities/workday-reporting-capability-edges.yml
   title: ''
@@ -191,9 +201,13 @@ common:
 created: '2024-01-01'
 description: APIs for accessing Workday reporting functionality including custom reports, report data extraction, and report management.
 finops:
-- name: Workday Reporting Finops
+- has_sources: true
+  method: generated
+  name: Workday Reporting Finops
+  primary_unit: ''
   service_category: HR / Finance / Analytics SaaS
   slug: workday-reporting-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/workday-reporting.png
 json_schemas:
 - name: Error
@@ -220,13 +234,13 @@ modified: '2026-05-19'
 name: Workday Reporting
 nav: Providers
 network: true
-overview: 'Workday Reporting publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Report Metadata API, Reports API, and 5 more. Tagged areas include Analytics, Business Intelligence, Financial Reporting, HR Data, and Reporting.
+overview: 'Workday Reporting publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Report Metadata API, Reports API, and 5 more. Tagged areas include Analytics, Business Intelligence, Financial Reporting, HR Data, and Reporting.
 
 
   The Workday Reporting catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Workday Reporting''s developer surface includes authentication, getting-started guide, documentation, support, engineering blog, signup flow, and 17 more developer resources.'
+  Workday Reporting''s developer surface includes authentication, getting-started guide, documentation, support, engineering blog, signup flow, and 19 more developer resources.'
 plans:
 - name: Workday Reporting Plans Pricing
   plan_count: 1
@@ -237,9 +251,10 @@ rate_limits:
   name: Workday Reporting Rate Limits
   slug: workday-reporting-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Workday Reporting API Rules
+  name: Workday Reporting — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -248,18 +263,18 @@ rules:
     warn: 3
   slug: workday-reporting-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 40.6
+  band: thin
+  composite: 39.0
   coverage:
     artifact_dirs: 18
-    catalog_earned: 42.3
+    catalog_earned: 39.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 72.8
+    catalog_gap: 75.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 55.3
+    access_clarity: 47.4
     contract_governance: 9.8
     contract_quality: 51.4
     developer_ergonomics: 25.0
@@ -279,8 +294,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

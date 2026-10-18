@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Authenticated, read-only REST/JSON API for company search and lookup, typeahead suggestions, single-company retrieval (by id or tax number), and domain WHOIS/RDAP lookups. Static bearer API-key auth (
@@ -31,6 +31,16 @@ apis:
   slug: felhő-rest-api-v1
 artifact_total: 6
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/felh-magyar-zleti-infrastrukt-ra/refs/heads/main/plans/felh-magyar-zleti-infrastrukt-ra-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/felh-magyar-zleti-infrastrukt-ra-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/felh-magyar-zleti-infrastrukt-ra/refs/heads/main/rate-limits/felh-magyar-zleti-infrastrukt-ra-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/felh-magyar-zleti-infrastrukt-ra-rate-limits.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/felh-magyar-zleti-infrastrukt-ra/refs/heads/main/security/felh-magyar-zleti-infrastrukt-ra-domain-security.yml
   title: ''
@@ -76,10 +86,10 @@ modified: '2026-09-18'
 name: Felhő — Magyar üzleti infrastruktúra
 nav: Providers
 network: true
-overview: 'Felhő — Magyar üzleti infrastruktúra publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company Data, Business Verification, Domains, WHOIS/RDAP, and Hungary.
+overview: 'Felhő — Magyar üzleti infrastruktúra is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company Data, Business Verification, Domains, WHOIS/RDAP, and Hungary.
 
 
-  Felhő — Magyar üzleti infrastruktúra''s developer surface includes documentation, pricing, signup flow, and 5 more developer resources.'
+  Felhő — Magyar üzleti infrastruktúra''s developer surface includes documentation, pricing, signup flow, and 7 more developer resources.'
 plans:
 - name: Felh Magyar Zleti Infrastrukt Ra Plans Pricing
   plan_count: 3
@@ -93,7 +103,7 @@ score:
   band: thin
   composite: 37.5
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 14
     catalog_earned: 58.0
     catalog_earned_first_party: 24.0
     catalog_gap: 57.0
@@ -123,13 +133,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/felh-magyar-zleti-infrastrukt-ra/refs/heads/main/screenshots/felh-magyar-zleti-infrastrukt-ra-2026-10-11T104439.png
 security:
 - kind: authentication
   name: Felh Magyar Zleti Infrastrukt Ra Authentication

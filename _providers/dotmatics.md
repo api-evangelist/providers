@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 15.5
-  scored_at: '2026-10-04'
+  score: 13.6
+  scored_at: '2026-10-17'
 api_count: 4
 apis:
 - description: REST, GraphQL, and JDBC APIs for the Luma Scientific Intelligence Platform, enabling data access, workflow automation, instrument integration, and scientific data management for pharma and biotech R&D
@@ -105,9 +105,13 @@ common:
 created: '2026-06-13'
 description: Dotmatics is a scientific informatics platform for R&D organizations in pharma and biotech, offering REST, GraphQL, and JDBC APIs for managing experimental data, compound and sample registrations, study definitions, screening workflows, ELN data, and instrument integration through its Luma scientific intelligence platform.
 finops:
-- name: Dotmatics Finops
+- has_sources: false
+  method: generated
+  name: Dotmatics Finops
+  primary_unit: ''
   service_category: ''
   slug: dotmatics-finops
+  template: true
 graphqls:
 - description: Dotmatics provides a GraphQL API as part of its Luma Scientific Intelligence Platform, alongside REST and JDBC interfaces. The GraphQL layer enables flexible, query-driven access to scientific data ma
   name: Dotmatics GraphQL API
@@ -118,7 +122,7 @@ modified: '2026-06-13'
 name: Dotmatics
 nav: Providers
 network: true
-overview: 'Dotmatics publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Luma API, and 3 more. Tagged areas include Scientific Informatics, Pharma, Biotechnology, Drug Discovery, and ELN.
+overview: 'Dotmatics is listed with 4 APIs on the [APIs.io](https://apis.io/) network, including Luma API, and 3 more. Tagged areas include Scientific Informatics, Pharma, Biotechnology, Drug Discovery, and ELN.
 
 
   Dotmatics'' developer surface includes documentation, engineering blog, pricing, and 9 more developer resources.'
@@ -133,32 +137,32 @@ rate_limits:
   slug: dotmatics-rate-limits
 score:
   band: emerging
-  composite: 25.4
+  composite: 19.8
   coverage:
     artifact_dirs: 9
-    catalog_earned: 53.8
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 61.2
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -3.7
+  delta: -5.6
   facets:
-    access_clarity: 46.8
+    access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 24.0
     developer_ergonomics: 11.9
     discoverability: 71.4
     operational_transparency: 13.2
-  previous_composite: 29.1
+  previous_composite: 25.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 4.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

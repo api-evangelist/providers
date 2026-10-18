@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://montopay.com/feed/
 - group: company
   title: ''
   type: Website
@@ -62,7 +66,7 @@ created: '2026-07-17'
 description: Monto is a B2B payments platform that automates supplier-side billing and collection across customer accounts-payable (AP) portals. It connects suppliers to 500+ AP platforms, using AI to deliver and format invoices per portal, verify data, match invoices to purchase orders, track invoice and payment status in real time, and retrieve remittance details end to end. Integrations include a NetSuite bundle (Send to Monto), generic ERP integration, and email or web upload. Monto reports $10B+ collected across 67 countries. The company is SOC 2 Type II audited. Monto is backed by Scale Venture Partners. This profile has no public developer API or documentation surface as of enrichment.
 image: https://montopay.com/wp-content/uploads/2025/03/imagine_LOGO_R_BLK.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Monto
 nav: Providers
 network: true
@@ -72,7 +76,7 @@ score:
   band: minimal
   composite: 4.3
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -93,8 +97,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 5.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

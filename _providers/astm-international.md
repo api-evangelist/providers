@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: ASTM Compass is the subscription digital library and workflow platform that delivers ASTM standards alongside third-party publisher content (AASHTO, API, BSI, etc.), books, journals, papers, and video
@@ -217,7 +217,7 @@ modified: '2026-07-25'
 name: ASTM International
 nav: Providers
 network: true
-overview: 'ASTM International publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Standards, Standards Development Organization, Consensus Standards, Technical Committees, and Materials Testing.
+overview: 'ASTM International is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Standards, Standards Development Organization, Consensus Standards, Technical Committees, and Materials Testing.
 
 
   The ASTM International catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -226,9 +226,10 @@ overview: 'ASTM International publishes 2 APIs on the [APIs.io](https://apis.io/
   ASTM International''s developer surface includes product news, YouTube channel, and 20 more developer resources.'
 random_paper: 12
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: ASTM International API Rules
+  name: ASTM International — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -240,7 +241,7 @@ score:
   band: emerging
   composite: 13.2
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 46.3
     catalog_earned_first_party: 0.0
     catalog_gap: 68.8
@@ -266,13 +267,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/astm-international/refs/heads/main/screenshots/astm-international-2026-10-11T180721.png
 security:
 - kind: domain-security
   name: Astm International Domain Security

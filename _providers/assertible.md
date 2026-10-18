@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -67,6 +67,16 @@ collections:
   name: Assertible API
   slug: open-assertible
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/assertible/refs/heads/main/rate-limits/assertible-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/assertible-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/assertible/refs/heads/main/finops/assertible-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/assertible-finops.yml
 - group: company
   title: ''
   type: Website
@@ -207,9 +217,13 @@ features:
 - description: Share test suites and API monitoring configurations across teams with role-based access and shared notification channels.
   name: Team Collaboration
 finops:
-- name: Assertible Finops
+- has_sources: false
+  method: generated
+  name: Assertible Finops
+  primary_unit: ''
   service_category: API
   slug: assertible-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/assertible.png
 integrations:
 - description: Integration with GitHub for triggering tests on pull requests and deployment events through GitHub Actions and webhooks.
@@ -225,10 +239,10 @@ modified: '2026-09-04'
 name: Assertible
 nav: Providers
 network: true
-overview: 'Assertible publishes 2 APIs on the [APIs.io](https://apis.io/) network, including Deployments API, and 1 more. Tagged areas include API Testing, Monitoring, Quality Assurance, Testing, and CI/CD.
+overview: 'Assertible publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network, including Deployments API, and 1 more. Tagged areas include API Testing, Monitoring, Quality Assurance, Testing, and CI/CD.
 
 
-  Assertible''s developer surface includes authentication, pricing, support, developer portal, documentation, engineering blog, signup flow, and 21 more developer resources.'
+  Assertible''s developer surface includes authentication, pricing, support, developer portal, documentation, engineering blog, signup flow, and 23 more developer resources.'
 plans:
 - name: Assertible Plans Pricing
   plan_count: 4
@@ -240,17 +254,17 @@ rate_limits:
   slug: assertible-rate-limits
 score:
   band: developing
-  composite: 48.2
+  composite: 46.7
   coverage:
     artifact_dirs: 23
-    catalog_earned: 47.0
+    catalog_earned: 44.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 68.0
+    catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 84.2
+    access_clarity: 76.3
     contract_governance: 18.2
     contract_quality: 27.3
     developer_ergonomics: 58.9
@@ -273,8 +287,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

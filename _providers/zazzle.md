@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -75,6 +75,10 @@ collections:
   name: Zazzle (Maker) API v100 Vendor API
   slug: open-zazzle-vendor-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.zazzle.com/feed
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/zazzle/refs/heads/main/mcp/zazzle-mcp.yml
   title: ''
@@ -220,26 +224,26 @@ description: 'Zazzle is an online marketplace and on-demand manufacturing platfo
   Associates/Ambassador program, with partners setting their own royalty and earning a referral share on each sale.'
 image: https://asset.zcache.com/assets/graphics/z5/global/zazzle_white.svg
 layout: provider
-modified: '2026-08-05'
+modified: '2026-10-06'
 name: Zazzle
 nav: Providers
 network: true
-overview: 'Zazzle publishes 3 APIs on the [APIs.io](https://apis.io/) network: Create a Product API, Real View API, and Vendor API. Tagged areas include Company, E-Commerce, Marketplace, Print on Demand, and Manufacturing.
+overview: 'Zazzle publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Create a Product API, Real View API, and Vendor API. Tagged areas include Company, E-Commerce, Marketplace, Print on Demand, and Manufacturing.
 
 
-  Zazzle''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, pricing, authentication, and 24 more developer resources.'
+  Zazzle''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, pricing, authentication, and 25 more developer resources.'
 random_paper: 12
 score:
   band: thin
-  composite: 27.1
+  composite: 27.2
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 21
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 6.6
     contract_governance: 4.5
@@ -264,8 +268,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -32,10 +32,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://blog.heva.co/en/posts
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.heva.co/en/rss.xml
 - group: company
   title: ''
   type: Website
@@ -74,14 +82,14 @@ created: '2026-07-17'
 description: heva is an AI-native healthcare and medical-tourism platform that connects patients with vetted medical practices, specialists, and providers across borders, with an initial focus on Spanish-speaking markets. The platform offers practice discovery by specialty and location, deposit-based online appointment booking, a conversational AI booking assistant (Heva AI), an online store for purchasing procedures and services, and secure payments via Stripe. Provider-facing tools cover practice management, patient acquisition, communications, and appointment coordination, delivered through the web and native iOS and Android provider apps. heva is a Techstars-backed company building "care without borders."
 image: https://heva.co/android-chrome-512x512.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: heva
 nav: Providers
 network: true
 overview: 'heva is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Medical Tourism, Practice Management, and Appointment Booking.
 
 
-  heva''s developer surface includes engineering blog, support, and 6 more developer resources.'
+  heva''s developer surface includes engineering blog, support, and 8 more developer resources.'
 random_paper: 2
 score:
   band: emerging
@@ -108,8 +116,8 @@ score:
     regime: Health
     regime_id: health
     score: 10.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

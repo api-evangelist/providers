@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.bloomnation.com/join/feed/podcast/bloomnation/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/bloomnation/refs/heads/main/security/bloomnation-domain-security.yml
   title: ''
@@ -73,20 +77,20 @@ created: '2026-07-17'
 description: BloomNation is a flower-delivery marketplace that connects consumers with independent local florists for same-day and next-day delivery of handcrafted floral arrangements across 40+ U.S. cities and the UK. Customers shop florist-designed bouquets for occasions such as birthdays, anniversaries, sympathy, and get-well, then pay with credit cards, Apple Pay, Google Pay, Amazon Pay, or Afterpay. Distinctive features include BloomSnap photo delivery confirmation and video message cards. BloomNation also runs a florist-facing SaaS side (point-of-sale, website, and order management, now part of Promenade) that powers member shops. This profile was surfaced as an a16z portfolio company; no public developer API or documentation program was found during enrichment.
 image: https://www.bloomnation.com/favicon.ico
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: BloomNation
 nav: Providers
 network: true
 overview: 'BloomNation is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Flowers, Floral Delivery, Marketplace, and E-Commerce.
 
 
-  BloomNation''s developer surface includes support, engineering blog, signup flow, and 5 more developer resources.'
+  BloomNation''s developer surface includes support, engineering blog, signup flow, and 6 more developer resources.'
 random_paper: 20
 score:
   band: emerging
   composite: 12.0
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -107,13 +111,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 12.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/bloomnation/refs/heads/main/screenshots/bloomnation-2026-10-11T183833.png
 security:
 - kind: domain-security
   name: Bloomnation Domain Security

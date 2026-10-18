@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.unshackledvc.com/blog/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/unshackled-ventures-i/refs/heads/main/security/unshackled-ventures-i-domain-security.yml
   title: ''
@@ -58,14 +62,14 @@ created: '2026-07-17'
 description: Unshackled Ventures is an inception-stage venture capital firm that writes the first check for founders before they have products, traction, or revenue, with a focus on immigrant and international founders. Beyond capital the firm provides an immigration platform that handles founder visas at no cost, a mentorship network of founders and operators, and a fundraising engine for follow-on rounds. It was surfaced in the API Evangelist network as a portfolio entry of 500 Global; it is a venture firm and publishes no public API or developer program.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/unshackled-ventures-i.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Unshackled Ventures I
 nav: Providers
 network: true
 overview: 'Unshackled Ventures I is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Venture Capital, Pre-Seed, Immigrant Founders, and Startups.
 
 
-  Unshackled Ventures I''s developer surface includes engineering blog and 3 more developer resources.'
+  Unshackled Ventures I''s developer surface includes engineering blog and 4 more developer resources.'
 random_paper: 11
 score:
   band: minimal
@@ -92,8 +96,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

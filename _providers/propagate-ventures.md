@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.propagateag.com/blog?format=rss
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/propagate-ventures/refs/heads/main/security/propagate-ventures-domain-security.yml
   title: ''
@@ -69,18 +73,18 @@ created: '2026-07-17'
 description: Propagate (formerly Propagate Ventures) is a regenerative-agriculture company founded in 2017 that helps farmland owners, farmers, and investors design, plant, finance, and manage agroforestry and tree-crop systems. Its flagship SaaS product, Overyield, lets farmers, developers, and investors model tree-crop economics, choose crops, and design tree-crop systems that work alongside existing farm operations. Propagate pairs the software with technical assessments, site prep and planting services, improved tree genetics, and ongoing project monitoring, and is a partner in the USDA Partnerships for Climate-Smart Commodities. The company advises 30,000+ acres of agroforestry supporting over 760,000 trees and shrubs. Propagate publishes no public API or developer platform at this time.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/propagate-ventures.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Propagate Ventures
 nav: Providers
 network: true
 overview: 'Propagate Ventures is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Agriculture, Agroforestry, Regenerative Agriculture, and Climate.
 
 
-  Propagate Ventures'' developer surface includes engineering blog, support, signup flow, and 4 more developer resources.'
+  Propagate Ventures'' developer surface includes engineering blog, support, signup flow, and 5 more developer resources.'
 random_paper: 8
 score:
   band: minimal
-  composite: 7.4
+  composite: 7.5
   coverage:
     artifact_dirs: 4
     catalog_earned: 27.0
@@ -88,7 +92,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 13.2
     contract_governance: 0.0
@@ -103,8 +107,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

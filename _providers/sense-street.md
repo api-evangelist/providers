@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 10.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: The enterprise REST API. Callers upload files of broker conversations for asynchronous processing and retrieve the extracted RFQs once parsing completes, or call the prediction operations synchronousl
@@ -164,7 +164,7 @@ modified: '2026-08-14'
 name: Sense Street
 nav: Providers
 network: true
-overview: 'Sense Street publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Capital Markets, Trading, Artificial Intelligence, and Fintech.
+overview: 'Sense Street is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Capital Markets, Trading, Artificial Intelligence, and Fintech.
 
 
   Sense Street''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 18 more developer resources.'
@@ -213,8 +213,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 27.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

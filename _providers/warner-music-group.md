@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.8
-  scored_at: '2026-10-04'
+  score: 22.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -85,6 +85,21 @@ collections:
   name: Warner Music Group Licensing Artists Tracks API
   slug: open-warner-music-group-tracks-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/warner-music-group/refs/heads/main/plans/warner-music-group-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/warner-music-group-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/warner-music-group/refs/heads/main/rate-limits/warner-music-group-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/warner-music-group-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/warner-music-group/refs/heads/main/finops/warner-music-group-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/warner-music-group-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/warner-music-group/refs/heads/main/capabilities/warner-music-group-capability-edges.yml
   title: ''
@@ -153,9 +168,13 @@ examples:
   name: Warner Music Group Searchcatalog Example
   slug: warner-music-group-searchCatalog-example
 finops:
-- name: Warner Music Group Finops
+- has_sources: false
+  method: generated
+  name: Warner Music Group Finops
+  primary_unit: ''
   service_category: API
   slug: warner-music-group-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/warner-music-group.png
 json_schemas:
 - name: Warner Music Group License
@@ -175,13 +194,13 @@ modified: '2026-05-19'
 name: Warner Music Group
 nav: Providers
 network: true
-overview: 'Warner Music Group publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Artists API, Catalog API, Licenses API, and 1 more. Tagged areas include Music, Entertainment, Streaming, Licensing, and Publishing.
+overview: 'Warner Music Group publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Artists API, Catalog API, Licenses API, and 1 more. Tagged areas include Music, Entertainment, Streaming, Licensing, and Publishing.
 
 
   The Warner Music Group catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Warner Music Group''s developer surface includes authentication, developer portal, documentation, engineering blog, and 10 more developer resources.'
+  Warner Music Group''s developer surface includes authentication, developer portal, documentation, engineering blog, and 13 more developer resources.'
 plans:
 - name: Warner Music Group Plans Pricing
   plan_count: 3
@@ -208,9 +227,10 @@ rate_limits:
   name: Warner Music Group Rate Limits
   slug: warner-music-group-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Warner Music Group API Rules
+  name: Warner Music Group — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -218,7 +238,8 @@ rules:
     info: 2
     warn: 3
   slug: warner-music-group-jsonschema-spectral-rules
-- effective_rule_count: 51
+- authorship: unmarked
+  effective_rule_count: 51
   extends:
   - spectral:oas
   name: Warner Music Group API Rules
@@ -236,17 +257,17 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: thin
-  composite: 36.9
+  composite: 35.4
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 71.4
+    artifact_dirs: 22
+    catalog_earned: 68.4
     catalog_earned_first_party: 0.0
-    catalog_gap: 43.6
+    catalog_gap: 46.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 27.3
     contract_quality: 58.3
     developer_ergonomics: 33.3
@@ -266,8 +287,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

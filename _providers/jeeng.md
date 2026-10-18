@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 6
 apis:
 - baseURL: https://powerinbox.azure-api.net/
@@ -216,7 +216,7 @@ modified: '2026-08-12'
 name: Jeeng
 nav: Providers
 network: true
-overview: 'Jeeng publishes 3 APIs on the [APIs.io](https://apis.io/) network: Management API, Reporting API, and Revenuestripe.onmicrosoft.com API. Tagged areas include Company, Advertising, Publishing, Email, and Push Notifications.
+overview: 'Jeeng publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Management API, Reporting API, and Revenuestripe.onmicrosoft.com API. Tagged areas include Company, Advertising, Publishing, Email, and Push Notifications.
 
 
   Jeeng''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 24 more developer resources.'
@@ -268,8 +268,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

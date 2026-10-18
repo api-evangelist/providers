@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 3
 common:
@@ -164,7 +164,7 @@ modified: '2026-07-25'
 name: Trufla
 nav: Providers
 network: true
-overview: 'Trufla is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Canada, Property and Casualty, Insurtech, and Brokers.
+overview: 'Trufla is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Canada, Property and Casualty, Insurtech, and Brokerage.
 
 
   Trufla''s developer surface includes changelog, engineering blog, support, signup flow, and 23 more developer resources.'
@@ -203,8 +203,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 21.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -230,7 +230,7 @@ tags:
 - Canada
 - Property and Casualty
 - Insurtech
-- Brokers
+- Brokerage
 - Agency Management
 - CSIO
 - Policy Administration

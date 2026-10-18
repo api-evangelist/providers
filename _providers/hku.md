@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -291,9 +291,13 @@ created: '2026-06-03'
 description: 'The University of Hong Kong (HKU) is a public research university in Hong Kong SAR, founded in 1911 and ranked in the top 30 of the QS World University Rankings. It operates no public, self-serve API programme. The machine-readable surfaces HKU genuinely runs on its own hosts are identity infrastructure: a Shibboleth SAML 2.0 identity provider at hkafidp.hku.hk, registered with the Hong Kong Access Federation in 2016 and exported to eduGAIN with REFEDS Research and Scholarship and SIRTFI declarations, and an AD FS OAuth 2.0 / OpenID Connect issuer at adfs.hku.hk publishing a live discovery document and JWKS. HKU ITS also runs an Azure API Management gateway (api.hku.hk) and developer portal (developer.hku.hk) that opened GenAI chat-completion, embedding and image-generation APIs to students in March 2026 — but every portal route redirects to institutional sign-in, so no specification, scope or endpoint list is publicly readable. Its research repository is a Figshare tenancy
   and its library discovery is an Ex Libris Primo tenancy: real institutional facts, vendor-operated contracts, recorded here as tenant relationships rather than credited to HKU. HKU publishes no OpenAPI, no robots.txt on its main host, no llms.txt, no status page and no API changelog.'
 finops:
-- name: Hku Finops
+- has_sources: true
+  method: generated
+  name: Hku Finops
+  primary_unit: ''
   service_category: Education
   slug: hku-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hku.png
 json_schemas:
 - name: HKU AD FS OpenID Provider Metadata
@@ -309,7 +313,7 @@ modified: '2026-09-16'
 name: University of Hong Kong
 nav: Providers
 network: true
-overview: 'University of Hong Kong publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Discovery API, O Auth API, and 6 more. Tagged areas include Education, Higher Education, University, Hong Kong, and Identity Federation.
+overview: 'University of Hong Kong publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Discovery API, O Auth API, and 6 more. Tagged areas include Education, Higher Education, University, Hong Kong, and Identity Federation.
 
 
   The University of Hong Kong catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -326,9 +330,10 @@ rate_limits:
   name: Hku Rate Limits
   slug: hku-rate-limits
 rules:
-- effective_rule_count: 11
+- authorship: generated
+  effective_rule_count: 11
   extends: []
-  name: University of Hong Kong API Rules
+  name: University of Hong Kong — identity rules
   rule_count: 11
   severity_counts:
     error: 6
@@ -343,19 +348,19 @@ scopes:
   summary_line: 9 scopes · authorizationCode/clientCredentials/deviceCode
 score:
   band: developing
-  composite: 44.0
+  composite: 39.5
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 84.4
+    artifact_dirs: 22
+    catalog_earned: 71.0
     catalog_earned_first_party: 25.0
-    catalog_gap: 30.6
+    catalog_gap: 44.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -4.9
+  delta: -4.5
   facets:
-    access_clarity: 52.6
-    contract_governance: 60.6
-    contract_quality: 24.9
+    access_clarity: 44.7
+    contract_governance: 40.9
+    contract_quality: 22.4
     developer_ergonomics: 28.6
     discoverability: 76.8
     operational_transparency: 36.8
@@ -364,7 +369,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - greater-china
-  previous_composite: 48.9
+  previous_composite: 44.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -379,8 +384,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 35.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

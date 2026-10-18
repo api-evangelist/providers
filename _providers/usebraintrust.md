@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://dashboard.app.usebraintrust.com
@@ -146,7 +146,7 @@ modified: '2026-07-21'
 name: Braintrust (Talent Network)
 nav: Providers
 network: true
-overview: 'Braintrust (Talent Network) publishes 1 API on the [APIs.io](https://apis.io/) network: dashboard API. Tagged areas include Company, Talent Marketplace, AI Recruiting, Hiring, and Freelancing.
+overview: 'Braintrust (Talent Network) publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: dashboard API. Tagged areas include Company, Talent Marketplace, AI Recruiting, Hiring, and Freelancing.
 
 
   Braintrust (Talent Network)''s developer surface includes documentation, engineering blog, pricing, support, signup flow, changelog, and 13 more developer resources.'
@@ -189,8 +189,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 23.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

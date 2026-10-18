@@ -27,20 +27,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.3
-  scored_at: '2026-10-04'
+  score: 20.4
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 1
+- acting_count: 0
   human_in_the_loop: 0
   name: Ncua Agentic Access
   operation_count: 2
   slug: ncua-agentic-access
-  summary_line: 2 operations · 1 acting
+  summary_line: 2 operations
 api_count: 1
 apis:
 - description: Quarterly publicly available financial performance data for all federally insured credit unions based on their quarterly Call Report (Form 5300) filings. Data is available as bulk ZIP downloads in com
@@ -143,9 +143,13 @@ common:
 created: '2026-06-13'
 description: The National Credit Union Administration (NCUA) is the independent federal agency that regulates, charters, and supervises federal credit unions. NCUA provides public REST APIs and data services for accessing credit union call report data, financial performance metrics, membership statistics, credit union locator information, and NCUA examination and enforcement findings.
 finops:
-- name: Ncua Finops
+- has_sources: false
+  method: generated
+  name: Ncua Finops
+  primary_unit: ''
   service_category: ''
   slug: ncua-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ncua.png
 json_schemas:
 - name: NCUA Credit Union Office
@@ -161,7 +165,7 @@ modified: '2026-06-13'
 name: National Credit Union Administration (NCUA)
 nav: Providers
 network: true
-overview: 'National Credit Union Administration (NCUA) publishes 6 APIs on the [APIs.io](https://apis.io/) network, including FindCUByRadius.aspx API, SingleResult.aspx API, and 4 more. Tagged areas include Federal Government, Credit Union, Financial Data, Call Reports, and Banking.
+overview: 'National Credit Union Administration (NCUA) publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including FindCUByRadius.aspx API, SingleResult.aspx API, and 4 more. Tagged areas include Federal Government, Credit Union, Financial Data, Call Reports, and Banking.
 
 
   The National Credit Union Administration (NCUA) catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -178,9 +182,10 @@ rate_limits:
   name: Ncua Rate Limits
   slug: ncua-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: National Credit Union Administration (NCUA) API Rules
+  name: National Credit Union Administration (NCUA) — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -189,18 +194,18 @@ rules:
     warn: 3
   slug: ncua-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 29.4
+  band: emerging
+  composite: 25.1
   coverage:
-    artifact_dirs: 15
-    catalog_earned: 58.5
+    artifact_dirs: 16
+    catalog_earned: 50.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 56.6
+    catalog_gap: 64.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -4.3
   facets:
-    access_clarity: 37.4
+    access_clarity: 15.8
     contract_governance: 9.8
     contract_quality: 51.4
     developer_ergonomics: 11.9
@@ -225,8 +230,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 13.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

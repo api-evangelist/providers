@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 880
   human_in_the_loop: 1
@@ -161,6 +161,16 @@ collections:
   name: NetBox REST API
   slug: open-netbox
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/netbox/refs/heads/main/rate-limits/netbox-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/netbox-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/netbox/refs/heads/main/finops/netbox-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/netbox-finops.yml
 - group: commercial
   title: ''
   type: Pricing
@@ -225,9 +235,13 @@ common:
 created: '2024-01-15'
 description: NetBox is the leading solution for modeling and documenting modern networks. By combining the traditional disciplines of IP address management (IPAM) and datacenter infrastructure management (DCIM) with powerful APIs and extensions, NetBox provides the ideal "source of truth" to power network automation.
 finops:
-- name: Netbox Finops
+- has_sources: false
+  method: generated
+  name: Netbox Finops
+  primary_unit: ''
   service_category: API
   slug: netbox-finops
+  template: true
 graphqls:
 - description: A GraphQL API providing flexible querying capabilities for NetBox data with support for nested queries and custom field selection.
   name: NetBox GraphQL API
@@ -238,10 +252,10 @@ modified: '2026-09-16'
 name: NetBox
 nav: Providers
 network: true
-overview: 'NetBox publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Authentication Check API, Circuits API, Core API, and 11 more. Tagged areas include Data Center, DCIM, Infrastructure as Code, IPAM, and Network Automation.
+overview: 'NetBox publishes 14 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authentication Check API, Circuits API, Core API, and 11 more. Tagged areas include Data Center, DCIM, Infrastructure as Code, IPAM, and Network Automation.
 
 
-  NetBox''s developer surface includes pricing, authentication, engineering blog, getting-started guide, and 10 more developer resources.'
+  NetBox''s developer surface includes pricing, authentication, engineering blog, getting-started guide, and 12 more developer resources.'
 plans:
 - name: Netbox Plans Pricing
   plan_count: 3
@@ -253,17 +267,17 @@ rate_limits:
   slug: netbox-rate-limits
 score:
   band: thin
-  composite: 35.6
+  composite: 34.1
   coverage:
     artifact_dirs: 13
-    catalog_earned: 55.0
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 60.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 50.0
+    access_clarity: 42.1
     contract_governance: 0.0
     contract_quality: 47.1
     developer_ergonomics: 35.7
@@ -283,8 +297,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

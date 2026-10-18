@@ -35,8 +35,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 39.7
-  scored_at: '2026-10-04'
-api_count: 1
+  scored_at: '2026-10-17'
+api_count: 2
 apis:
 - baseURL: https://api.mystars.tg
   baseurl_source: declared
@@ -240,7 +240,7 @@ modified: '2026-08-27'
 name: MyStars FaaS
 nav: Providers
 network: true
-overview: 'MyStars FaaS publishes 4 APIs on the [APIs.io](https://apis.io/) network, including MyStars FaaS — Fulfilment API, Orders API, Pricing API, and 1 more. Tagged areas include Telegram, telegram-stars, telegram-premium, Payments, and Crypto.
+overview: 'MyStars FaaS publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including MyStars FaaS — Fulfilment API, Orders API, Pricing API, and 1 more. Tagged areas include Telegram, telegram-stars, telegram-premium, Payments, and Cryptocurrency.
 
 
   The MyStars FaaS catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -290,8 +290,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 27.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -316,7 +316,7 @@ tags:
 - telegram-stars
 - telegram-premium
 - Payments
-- Crypto
+- Cryptocurrency
 - TON
 - fulfilment
 - Blockchain

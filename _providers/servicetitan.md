@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 38
+- acting_count: 37
   human_in_the_loop: 0
   name: Servicetitan Agentic Access
   operation_count: 90
   slug: servicetitan-agentic-access
-  summary_line: 90 operations · 38 acting
+  summary_line: 90 operations · 37 acting
 api_count: 8
 apis:
 - description: Manage marketing campaigns, campaign categories, suppression lists, and attribution data that powers cost-per-lead and cost-per-booked-job reporting. Underpins Marketing Pro email and SMS campaigns.
@@ -289,7 +289,7 @@ apis:
   description: The Zones API from ServiceTitan — 1 operation(s) for zones.
   name: ServiceTitan Zones API
   slug: servicetitan-zones-api
-artifact_total: 176
+artifact_total: 177
 collections:
 - collection_type: postman
   name: ServiceTitan Accounting Adjustments API
@@ -795,9 +795,13 @@ features:
 - Supply chain partner integrations through the open-source request-middleware-templates Liquid framework
 - Sister platforms — FieldRoutes (pest), Aspire (landscape), Convex (commercial sales) — share the ServiceTitan account but have separate API surfaces not yet documented in the public developer portal
 finops:
-- name: Servicetitan Finops
+- has_sources: true
+  method: generated
+  name: Servicetitan Finops
+  primary_unit: technician_seat
   service_category: SaaS — Field Service Management
   slug: servicetitan-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/servicetitan.png
 json_schemas:
 - name: ServiceTitan Appointment
@@ -837,22 +841,27 @@ modified: '2026-05-25'
 name: ServiceTitan
 nav: Providers
 network: true
-overview: 'ServiceTitan publishes 55 APIs on the [APIs.io](https://apis.io/) network, including Adjustments API, Appointment Assignments API, Appointments API, and 52 more. Tagged areas include Field Service Management, Trade, HVAC, Plumbing, and Electrical.
+overview: 'ServiceTitan publishes 55 API contracts indexed on the [APIs.io](https://apis.io/) network, including Adjustments API, Appointment Assignments API, Appointments API, and 52 more. Tagged areas include Field Service, Trade, HVAC, Plumbing, and Electrical.
 
 
   The ServiceTitan catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
   ServiceTitan''s developer surface includes authentication, developer portal, getting-started guide, documentation, engineering blog, pricing, tooling, and 41 more developer resources.'
+plans:
+- name: Servicetitan Plans Pricing
+  plan_count: 9
+  slug: servicetitan-plans-pricing
 random_paper: 21
 rate_limits:
 - limit_count: 2
   name: Servicetitan Rate Limits
   slug: servicetitan-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: ServiceTitan API Rules
+  name: ServiceTitan — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -867,23 +876,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 54.1
+  composite: 54.0
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 75.0
+    artifact_dirs: 20
+    catalog_earned: 72.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 40.1
+    catalog_gap: 42.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -0.1
   facets:
-    access_clarity: 60.5
+    access_clarity: 68.4
     contract_governance: 23.5
     contract_quality: 55.1
     developer_ergonomics: 51.2
     discoverability: 71.4
-    operational_transparency: 40.0
-  previous_composite: 53.6
+    operational_transparency: 26.3
+  previous_composite: 54.1
   provenance:
     agentic_access: derived
     contracts:
@@ -897,8 +906,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -915,7 +924,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: servicetitan
 tags:
-- Field Service Management
+- Field Service
 - Trade
 - HVAC
 - Plumbing

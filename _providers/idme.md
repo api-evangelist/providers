@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: ID.me's OpenID Connect and OAuth 2.0 identity provider. Supports the authorization code flow (with PKCE), refresh tokens, encrypted ID tokens and userinfo, and returns verified identity attributes and
@@ -48,6 +48,14 @@ asyncapis:
   name: Idme Services Webhooks
   slug: idme-services-webhooks
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://network.id.me/insights-home/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://network.id.me/feed/
 - group: company
   title: ''
   type: Website
@@ -190,17 +198,17 @@ mcp_servers:
 - description: Official hosted MCP server for the ID.me developer documentation, advertised in docs.id.me/llms.txt for AI client integration (Claude Code, Cursor, etc.). Surfaces the ID.me integration docs — OIDC/OA
   name: ID.me Developer Docs
   slug: id-me-developer-docs
-modified: '2026-09-16'
+modified: '2026-10-06'
 name: ID.me
 nav: Providers
 network: true
-overview: 'ID.me publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Identity, Identity Verification, Authentication, and OpenID Connect.
+overview: 'ID.me is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Identity, Identity Verification, Authentication, and OpenID Connect.
 
 
   The ID.me catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  ID.me''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, sandbox, and 22 more developer resources.'
+  ID.me''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, signup flow, authentication, and 24 more developer resources.'
 random_paper: 19
 scopes:
 - name: Idme Scopes
@@ -209,20 +217,20 @@ scopes:
   summary_line: 11 scopes · authorizationCode
 score:
   band: developing
-  composite: 45.5
+  composite: 46.0
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 18
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 21.1
     contract_governance: 18.2
     contract_quality: 39.0
-    developer_ergonomics: 69.0
+    developer_ergonomics: 71.4
     discoverability: 71.7
     operational_transparency: 36.8
   previous_composite: 45.5
@@ -235,8 +243,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 37.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

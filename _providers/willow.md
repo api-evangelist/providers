@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Willow's storefront agent surface — a JSON-RPC 2.0 Model Context Protocol endpoint implementing the Universal Commerce Protocol 2026-08-25 shopping service. tools/list answers unauthenticated and retu
@@ -31,6 +31,10 @@ apis:
   slug: willow-pump-ucp-commerce-mcp
 artifact_total: 7
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://onewillow.com/blogs/all.atom
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/willow/refs/heads/main/security/willow-domain-security.yml
   title: ''
@@ -146,14 +150,14 @@ mcp_servers:
 - description: Willow's online store at onewillow.com exposes a live, anonymous Model Context Protocol endpoint implementing the Universal Commerce Protocol (UCP) shopping service. An MCP client POSTs JSON-RPC to ht
   name: Willow Pump UCP Commerce MCP Server
   slug: willow-pump-ucp-commerce-mcp-server
-modified: '2026-09-04'
+modified: '2026-10-06'
 name: Willow
 nav: Providers
 network: true
-overview: 'Willow publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer Health, Breast Pumps, Maternal Health, and Medical Devices.
+overview: 'Willow is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer Health, Breast Pumps, Maternal Health, and Medical Devices.
 
 
-  Willow''s developer surface includes documentation, authentication, support, engineering blog, signup flow, and 18 more developer resources.'
+  Willow''s developer surface includes documentation, authentication, support, engineering blog, signup flow, and 19 more developer resources.'
 plans:
 - name: Willow Plans Pricing
   plan_count: 0
@@ -172,7 +176,7 @@ score:
   band: emerging
   composite: 25.7
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 19
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -197,13 +201,14 @@ score:
     regime: Health
     regime_id: health
     score: 32.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/willow/refs/heads/main/screenshots/willow-2026-10-11T194505.png
 security:
 - kind: authentication
   name: Willow Authentication

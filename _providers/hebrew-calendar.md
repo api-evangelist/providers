@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Convert between Gregorian and Hebrew, fetch Shabbat and Holiday times, etc
@@ -40,6 +40,10 @@ apis:
   slug: hebrew-calendar
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.hebcal.com/home/feed
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/hebrew-calendar/refs/heads/main/security/hebrew-calendar-vulnerability-disclosure.yml
   title: ''
@@ -62,17 +66,17 @@ created: '2026-05-28'
 description: Convert between Gregorian and Hebrew, fetch Shabbat and Holiday times, etc
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hebrew-calendar.png
 layout: provider
-modified: '2026-05-28'
+modified: '2026-10-06'
 name: Hebrew Calendar
 nav: Providers
 network: true
-overview: Hebrew Calendar publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Calendar and Public APIs.
+overview: Hebrew Calendar is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Calendar and Public APIs.
 random_paper: 12
 score:
   band: minimal
   composite: 6.0
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 5
     catalog_earned: 22.0
     catalog_earned_first_party: 0.0
     catalog_gap: 93.0
@@ -93,8 +97,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.subvysion.com/rss/index.html
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/subvysion/refs/heads/main/security/subvysion-domain-security.yml
   title: ''
@@ -53,7 +57,7 @@ created: '2026-07-17'
 description: SubVysion is a subsurface mapping intelligence company that delivers 3D maps of hidden underground infrastructure for construction crews, utility locators, and contractors. It combines multi-sensor ground-penetrating radar (GPR) with 3D mapping to visualize buried utilities, pipes, and conduits so teams can see what is below before they dig or break ground — reducing strikes, rework, and safety incidents. Backed by Y Combinator, SubVysion is an early-stage company that currently publishes a marketing website only; as of this enrichment pass it exposes no public API, developer portal, SDKs, or documentation surface.
 image: https://subvysion.com/SubVysionLogoFullWhite.webp
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: SubVysion
 nav: Providers
 network: true
@@ -63,7 +67,7 @@ score:
   band: minimal
   composite: 3.9
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -84,8 +88,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 4.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

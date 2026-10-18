@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.5
-  scored_at: '2026-10-04'
+  score: 19.6
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -137,6 +137,25 @@ collections:
   name: TSYS Payment Gateway
   slug: open-tsys-payment-gateway
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/total-system-services/refs/heads/main/plans/total-system-services-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/total-system-services-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/total-system-services/refs/heads/main/rate-limits/total-system-services-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/total-system-services-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/total-system-services/refs/heads/main/finops/total-system-services-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/total-system-services-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.fisglobal.com/insights
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/total-system-services/refs/heads/main/capabilities/total-system-services-capability-edges.yml
   title: ''
@@ -199,9 +218,13 @@ examples:
   name: Tsys Process Sale Example
   slug: tsys-process-sale-example
 finops:
-- name: Total System Services Finops
+- has_sources: true
+  method: generated
+  name: Total System Services Finops
+  primary_unit: ''
   service_category: Payments Processing
   slug: total-system-services-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/total-system-services.png
 json_schemas:
 - name: Transaction
@@ -217,17 +240,17 @@ jsonld:
   property_count: 0
   slug: total-system-services-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-10-06'
 name: Total System Services
 nav: Providers
 network: true
-overview: 'Total System Services publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Authorization API, Capture API, and 7 more. Tagged areas include Payments, Payment Processing, Card Issuing, Merchant Services, and Fintech.
+overview: 'Total System Services publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, Authorization API, Capture API, and 7 more. Tagged areas include Payments, Payment Processing, Card Issuing, Merchant Services, and Fintech.
 
 
   The Total System Services catalog on APIs.io includes 1 JSON-LD context and 3 Spectral governance rulesets.
 
 
-  Total System Services'' developer surface includes authentication, documentation, and 10 more developer resources.'
+  Total System Services'' developer surface includes engineering blog, authentication, documentation, and 13 more developer resources.'
 plans:
 - name: Total System Services Plans Pricing
   plan_count: 1
@@ -254,9 +277,10 @@ rate_limits:
   name: Total System Services Rate Limits
   slug: total-system-services-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Total System Services API Rules
+  name: Total System Services — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -264,7 +288,8 @@ rules:
     info: 2
     warn: 3
   slug: total-system-services-jsonschema-spectral-rules
-- effective_rule_count: 51
+- authorship: generated
+  effective_rule_count: 51
   extends:
   - spectral:oas
   name: Total System Services API Rules
@@ -275,9 +300,10 @@ rules:
     info: 1
     warn: 8
   slug: total-system-services-spectral-rules
-- effective_rule_count: 10
+- authorship: unmarked
+  effective_rule_count: 10
   extends: []
-  name: Total System Services API Rules
+  name: Total System Services — tsys rules
   rule_count: 10
   severity_counts:
     error: 4
@@ -287,20 +313,20 @@ rules:
   slug: tsys-spectral-rules
 score:
   band: thin
-  composite: 28.5
+  composite: 27.5
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 56.0
+    artifact_dirs: 21
+    catalog_earned: 53.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 59.0
+    catalog_gap: 62.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.0
   facets:
-    access_clarity: 13.2
+    access_clarity: 5.3
     contract_governance: 27.3
     contract_quality: 51.9
-    developer_ergonomics: 21.4
+    developer_ergonomics: 23.8
     discoverability: 57.1
     operational_transparency: 7.9
   previous_composite: 28.5
@@ -317,12 +343,13 @@ score:
     regime: Payments
     regime_id: payments
     score: 15.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
     score: 0.0
+screenshot: https://raw.githubusercontent.com/api-evangelist/total-system-services/refs/heads/main/screenshots/total-system-services-2026-10-11T194546.png
 security:
 - kind: authentication
   name: Total System Services Authentication

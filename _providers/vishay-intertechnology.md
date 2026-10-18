@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: Access Vishay component data programmatically through the Octopart/Nexar API. Search for Vishay parts by part number or category, retrieve datasheets, specifications, pricing, and distributor inventor
@@ -47,6 +47,25 @@ apis:
   slug: vishay-parts-library
 artifact_total: 13
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/vishay-intertechnology/refs/heads/main/plans/vishay-intertechnology-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/vishay-intertechnology-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/vishay-intertechnology/refs/heads/main/rate-limits/vishay-intertechnology-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/vishay-intertechnology-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/vishay-intertechnology/refs/heads/main/finops/vishay-intertechnology-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/vishay-intertechnology-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.vishay.com/en/company/press/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/vishay-intertechnology/refs/heads/main/security/vishay-intertechnology-domain-security.yml
   title: ''
@@ -93,9 +112,13 @@ examples:
   name: Vishay Resistor Component Example
   slug: vishay-resistor-component-example
 finops:
-- name: Vishay Intertechnology Finops
+- has_sources: false
+  method: generated
+  name: Vishay Intertechnology Finops
+  primary_unit: ''
   service_category: API
   slug: vishay-intertechnology-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vishay-intertechnology.png
 json_schemas:
 - name: Vishay Electronic Component
@@ -111,17 +134,17 @@ jsonld:
   property_count: 22
   slug: vishay-intertechnology-context
 layout: provider
-modified: '2026-05-03'
+modified: '2026-10-06'
 name: Vishay Intertechnology
 nav: Providers
 network: true
-overview: 'Vishay Intertechnology publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Automotive, Capacitors, Diodes, Electronics, and Industrial.
+overview: 'Vishay Intertechnology is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Automotive, Capacitors, Diodes, Electronics, and Industrial.
 
 
   The Vishay Intertechnology catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Vishay Intertechnology''s developer surface includes documentation and 7 more developer resources.'
+  Vishay Intertechnology''s developer surface includes engineering blog, documentation, and 10 more developer resources.'
 plans:
 - name: Vishay Intertechnology Plans Pricing
   plan_count: 3
@@ -148,9 +171,10 @@ rate_limits:
   name: Vishay Intertechnology Rate Limits
   slug: vishay-intertechnology-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Vishay Intertechnology API Rules
+  name: Vishay Intertechnology — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -160,20 +184,20 @@ rules:
   slug: vishay-intertechnology-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 17.3
+  composite: 16.2
   coverage:
     artifact_dirs: 16
-    catalog_earned: 59.8
+    catalog_earned: 56.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 55.3
+    catalog_gap: 58.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.1
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 23.5
     contract_quality: 10.7
-    developer_ergonomics: 9.5
+    developer_ergonomics: 11.9
     discoverability: 62.5
     operational_transparency: 7.9
   previous_composite: 17.3
@@ -183,8 +207,8 @@ score:
     regime: Health
     regime_id: health
     score: 8.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 1
@@ -193,16 +193,20 @@ common:
 created: '2026-07-03'
 description: Storable is the leading technology provider for the self-storage industry, serving 33,000+ facilities through a family of brands - SiteLink (legacy Web Edition property management, sold with a partner/NDA-gated SOAP API), storEDGE (modern cloud property management with a documented REST API at api.storedgefms.com), and the SpareFoot storage-unit listing marketplace. This entry models the storEDGE REST API, whose endpoint reference is genuinely publicly documented (no NDA to read the docs), while call access itself requires being a storEDGE customer and generating one-legged OAuth 1.0 credentials (API access key/secret) tied to a facility ID.
 finops:
-- name: Storable Finops
+- has_sources: true
+  method: generated
+  name: Storable Finops
+  primary_unit: ''
   service_category: Vertical SaaS - Property Management
   slug: storable-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/storable.png
 layout: provider
 modified: '2026-07-03'
 name: Storable
 nav: Providers
 network: true
-overview: 'Storable publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Delinquency & Auctions API, Documents & eSign API, Gate Access API, and 8 more. Tagged areas include Self Storage, Property Management, Facility Management, Tenants, and Reservations.
+overview: 'Storable publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Delinquency & Auctions API, Documents & eSign API, Gate Access API, and 8 more. Tagged areas include Self Storage, Property Management, Facility Management, Tenants, and Reservations.
 
 
   Storable''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
@@ -216,23 +220,23 @@ rate_limits:
   name: Storable Rate Limits
   slug: storable-rate-limits
 score:
-  band: thin
-  composite: 32.7
+  band: emerging
+  composite: 24.4
   coverage:
     artifact_dirs: 12
-    catalog_earned: 61.6
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.4
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 44.1
     developer_ergonomics: 31.0
     discoverability: 66.1
-    operational_transparency: 28.4
+    operational_transparency: 7.9
   previous_composite: 32.7
   provenance:
     agentic_access: derived
@@ -247,9 +251,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 10.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Ann Taylor's affiliate program enables publishers and content creators to earn commissions on sales generated through affiliate links to anntaylor.com. Available through affiliate networks including F
@@ -41,6 +41,21 @@ apis:
   slug: ann-taylor-affiliate-api
 artifact_total: 5
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/ann/refs/heads/main/plans/ann-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/ann-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/ann/refs/heads/main/rate-limits/ann-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/ann-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/ann/refs/heads/main/finops/ann-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/ann-finops.yml
 - group: other
   title: ''
   type: ParentCompany
@@ -114,19 +129,23 @@ coverage:
 created: '2026-03-23'
 description: ANN Inc. is the former parent company of Ann Taylor and LOFT, specialty retailers of women's apparel, shoes, and accessories. ANN Inc. was acquired by Ascena Retail Group in 2015 and subsequently sold to Sycamore Partners in December 2020 for $540 million, alongside Lane Bryant and Lou & Grey brands. The brands now operate under KnitWell Group (formerly Premium Apparel LLC), a Sycamore Partners holding company that also owns Talbots. Ann Taylor and LOFT offer affiliate programs for digital publishers.
 finops:
-- name: Ann Finops
+- has_sources: true
+  method: generated
+  name: Ann Finops
+  primary_unit: ''
   service_category: Affiliate Marketing
   slug: ann-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ann.png
 layout: provider
 modified: '2026-09-02'
 name: ANN Inc.
 nav: Providers
 network: true
-overview: 'ANN Inc. publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Ann Taylor, Fashion, KnitWell, LOFT, and Lou And Grey.
+overview: 'ANN Inc. is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Ann Taylor, Fashion, KnitWell, LOFT, and Lou And Grey.
 
 
-  ANN Inc.''s developer surface includes support and 11 more developer resources.'
+  ANN Inc.''s developer surface includes support and 14 more developer resources.'
 plans:
 - name: Ann Plans Pricing
   plan_count: 1
@@ -154,17 +173,17 @@ rate_limits:
   slug: ann-rate-limits
 score:
   band: emerging
-  composite: 15.8
+  composite: 14.3
   coverage:
-    artifact_dirs: 10
-    catalog_earned: 39.0
+    artifact_dirs: 11
+    catalog_earned: 36.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 76.0
+    catalog_gap: 79.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 34.2
+    access_clarity: 26.3
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 14.3
@@ -177,8 +196,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -32,10 +32,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://adonis.io/resources
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://adonis.io/resources/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/tryadonis/refs/heads/main/security/tryadonis-domain-security.yml
   title: ''
@@ -70,14 +78,14 @@ created: '2026-07-17'
 description: Adonis (Adonis Technology, Inc., tryadonis.com redirects to adonis.io) is a healthcare revenue cycle management (RCM) software company that applies AI to medical billing. Its platform connects in real time with a practice's existing EHR, practice-management, billing, and patient-portal systems to surface revenue-related insights, automate claims and billing workflows, and reduce manual work for revenue teams. The company is backed by Homebrew. This is a B2B SaaS product with a private, authenticated product API (api.adonis.io) and a customer app (app.adonis.io); it does not currently operate a public developer program, OpenAPI documentation, or API portal.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tryadonis.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Tryadonis
 nav: Providers
 network: true
 overview: 'Tryadonis is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Healthcare, Revenue Cycle Management, and Medical Billing.
 
 
-  Tryadonis'' developer surface includes engineering blog, signup flow, support, and 4 more developer resources.'
+  Tryadonis'' developer surface includes engineering blog, signup flow, support, and 6 more developer resources.'
 random_paper: 21
 score:
   band: emerging
@@ -104,8 +112,8 @@ score:
     regime: Health
     regime_id: health
     score: 11.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

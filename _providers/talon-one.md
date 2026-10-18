@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 46.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 142
+- acting_count: 133
   human_in_the_loop: 3
   name: Talon One Agentic Access
   operation_count: 271
   slug: talon-one-agentic-access
-  summary_line: 271 operations · 142 acting · 3 human-in-the-loop
+  summary_line: 271 operations · 133 acting · 3 human-in-the-loop
 api_count: 5
 apis:
 - baseURL: https://yourbaseurl.talon.one
@@ -1105,9 +1105,13 @@ common:
 created: '2026-07-10'
 description: Talon.One is an enterprise promotion, loyalty, and incentives engine that lets teams build and run coupons, discounts, referrals, bundles, giveaways, and multi-tier loyalty programs from a single rules-based platform. It exposes two primary REST APIs. The Integration API pushes real-time customer sessions, profiles, and events into the rules engine and returns the effects (discounts, awarded loyalty points, accepted coupons) to apply in the calling application. The Management API programmatically administers applications, campaigns, rulesets, coupons, loyalty programs, audiences, custom attributes, collections, and analytics exports that back the Campaign Manager. Talon.One is delivered as a managed, per-customer deployment; each account calls its own base URL (https://yourbaseurl.talon.one) and authenticates with an API key whose prefix distinguishes the Integration key (ApiKey-v1) from the Management key (ManagementKey-v1).
 finops:
-- name: Talon One Finops
+- has_sources: true
+  method: generated
+  name: Talon One Finops
+  primary_unit: ''
   service_category: Marketing and Promotions
   slug: talon-one-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/talon-one.png
 layout: provider
 mcp_servers:
@@ -1118,7 +1122,7 @@ modified: '2026-08-13'
 name: Talon.One
 nav: Providers
 network: true
-overview: 'Talon.One publishes 42 APIs on the [APIs.io](https://apis.io/) network, including Accounts and users API, Achievements API, Additional costs API, and 39 more. Tagged areas include Promotions, Loyalty, Coupons, Incentives, and Campaigns.
+overview: 'Talon.One publishes 42 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts and users API, Achievements API, Additional costs API, and 39 more. Tagged areas include Promotions, Loyalty, Coupons, Incentives, and Campaigns.
 
 
   The Talon.One catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -1136,23 +1140,23 @@ rate_limits:
   slug: talon-one-rate-limits
 score:
   band: exemplar
-  composite: 74.8
+  composite: 73.3
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 67.0
+    artifact_dirs: 27
+    catalog_earned: 64.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 48.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -1.5
   facets:
-    access_clarity: 100.0
+    access_clarity: 92.1
     contract_governance: 4.5
     contract_quality: 61.8
     developer_ergonomics: 81.0
     discoverability: 73.3
     operational_transparency: 81.6
-  previous_composite: 74.3
+  previous_composite: 74.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1173,8 +1177,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

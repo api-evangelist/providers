@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The first-party GraphQL API behind the flytedesk application — the campus advertising marketplace covering suppliers (campus media organizations), campuses, buyers, audiences, ad shops, campaigns, ads
@@ -42,6 +42,11 @@ apis:
   slug: flytedesk-graphql-api
 artifact_total: 5
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/flytedesk/refs/heads/main/rate-limits/flytedesk-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/flytedesk-rate-limits.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/flytedesk/refs/heads/main/security/flytedesk-domain-security.yml
   title: ''
@@ -112,10 +117,10 @@ modified: '2026-08-12'
 name: FlyteDesk
 nav: Providers
 network: true
-overview: 'FlyteDesk publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, Media, Campus Media, and College Advertising.
+overview: 'FlyteDesk is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, Media, Campus Media, and College Advertising.
 
 
-  FlyteDesk''s developer surface includes engineering blog, support, and 12 more developer resources.'
+  FlyteDesk''s developer surface includes engineering blog, support, and 13 more developer resources.'
 plans:
 - name: Flytedesk Plans Pricing
   plan_count: 0
@@ -129,7 +134,7 @@ score:
   band: thin
   composite: 28.6
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -154,8 +159,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

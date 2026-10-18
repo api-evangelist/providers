@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 0
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.mobike.com/blog/
 - group: other
   title: ''
   type: ParentCompany
@@ -48,28 +52,31 @@ created: '2026-07-17'
 description: Mobike (Chinese 摩拜单车 / 摩拜科技, "Mobike Technology") was a Beijing-based dockless bicycle-sharing company founded in 2015. Riders located, unlocked, and paid for GPS smart-lock bikes through a mobile app and QR codes. Mobike was acquired by Meituan in 2018 and its standalone brand was subsequently folded into Meituan Bike; the public site (www.mobike.com) is now a bare ICP-filing landing page with no developer API, SDK, documentation, or portal surface. It is tracked in the API Evangelist network as a portfolio company of Qiming Venture Partners.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mobike.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: mobike
 nav: Providers
 network: true
-overview: mobike is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Transportation, Mobility, Bike Sharing, and Micromobility.
+overview: 'mobike is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Transportation, Mobility, Bike Sharing, and Micromobility.
+
+
+  mobike''s developer surface includes engineering blog and 2 more developer resources.'
 random_paper: 15
 score:
   band: minimal
-  composite: 2.5
+  composite: 3.0
   coverage:
-    artifact_dirs: 1
+    artifact_dirs: 3
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 48.2
     operational_transparency: 0.0
   jurisdiction:
@@ -92,13 +99,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 0.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/mobike/refs/heads/main/screenshots/mobike-2026-10-11T111148.png
 slug: mobike
 tags:
 - Company

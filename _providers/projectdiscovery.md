@@ -34,8 +34,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.6
-  scored_at: '2026-10-04'
-api_count: 1
+  scored_at: '2026-10-17'
+api_count: 2
 apis:
 - baseURL: https://api.projectdiscovery.io
   baseurl_source: declared
@@ -203,6 +203,10 @@ collections:
   name: PDCP Asset Vulnerability API
   slug: open-projectdiscovery-vulnerability-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://projectdiscovery.io/rss.xml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/projectdiscovery/refs/heads/main/capabilities/projectdiscovery-capability-edges.yml
   title: ''
@@ -354,26 +358,26 @@ created: '2026-07-17'
 description: ProjectDiscovery builds the open-source security toolchain trusted across offensive security and attack-surface management -- Nuclei, Subfinder, httpx, Katana, Naabu, dnsx and more -- and the ProjectDiscovery Cloud Platform (PDCP) that operationalizes them for continuous exposure management. Its REST API at api.projectdiscovery.io exposes asset discovery and enumeration, template-driven vulnerability scanning, credential-leak monitoring, scan scheduling, configuration, and template management, authenticated with a single X-API-Key header over HTTPS. Founded by the creators of Nuclei and backed by Accel, ProjectDiscovery serves security teams automating attack-surface discovery and vulnerability detection at scale.
 image: https://projectdiscovery.io/images/ProjectDiscovery_share.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: ProjectDiscovery
 nav: Providers
 network: true
-overview: 'ProjectDiscovery publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Asset API, Assets API, Chaos API, and 17 more. Tagged areas include Company, Cybersecurity, Security, Vulnerability Scanning, and Attack Surface Management.
+overview: 'ProjectDiscovery publishes 20 API contracts indexed on the [APIs.io](https://apis.io/) network, including Asset API, Assets API, Chaos API, and 17 more. Tagged areas include Company, Cybersecurity, Security, Vulnerability Scanning, and Attack Surface Management.
 
 
-  ProjectDiscovery''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 25 more developer resources.'
+  ProjectDiscovery''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 26 more developer resources.'
 random_paper: 5
 score:
   band: developing
-  composite: 53.4
+  composite: 53.5
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 47.4
     contract_governance: 4.5
@@ -397,8 +401,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

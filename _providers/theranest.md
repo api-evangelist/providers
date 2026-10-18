@@ -34,10 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://ensorahealth.com/news/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/theranest/refs/heads/main/security/theranest-domain-security.yml
   title: ''
@@ -72,19 +76,23 @@ common:
 created: '2026-07-10'
 description: TheraNest (now marketed as Ensora Mental Health) is a behavioral and mental health practice management and EHR platform for therapists, counselors, psychologists, and social workers. It covers client intake, scheduling, telehealth, clinical documentation and notes, treatment plans, client portals, insurance billing and claims, and reporting. TheraNest is the flagship mental health product of Ensora Health (formerly Therapy Brands). As of this review, Ensora does not publish a documented, self-serve public developer API for TheraNest - integration is via partnerships, HIPAA-gated interoperability, and contact-sales arrangements rather than an open developer portal. The API entries below are logical resource groupings modeled from the product surface; their endpoints are NOT documented public endpoints (endpointsModeled true).
 finops:
-- name: Theranest Finops
+- has_sources: true
+  method: generated
+  name: Theranest Finops
+  primary_unit: ''
   service_category: Healthcare Practice Management and EHR
   slug: theranest-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/theranest.png
 layout: provider
-modified: '2026-07-25'
+modified: '2026-10-06'
 name: TheraNest
 nav: Providers
 network: true
-overview: 'TheraNest is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Behavioral Health, Mental Health, EHR, Practice Management, and Healthcare.
+overview: 'TheraNest is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Behavioral Health, Mental Health, Electronic Health Records, Practice Management, and Healthcare.
 
 
-  TheraNest''s developer surface includes documentation and 6 more developer resources.'
+  TheraNest''s developer surface includes engineering blog, documentation, and 6 more developer resources.'
 plans:
 - name: Theranest Plans Pricing
   plan_count: 5
@@ -92,20 +100,20 @@ plans:
 random_paper: 6
 score:
   band: minimal
-  composite: 10.9
+  composite: 5.8
   coverage:
-    artifact_dirs: 5
-    catalog_earned: 40.8
+    artifact_dirs: 6
+    catalog_earned: 30.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 74.2
+    catalog_gap: 85.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.1
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 48.2
     operational_transparency: 0.0
   previous_composite: 10.9
@@ -115,9 +123,9 @@ score:
     regime: Health
     regime_id: health
     score: 4.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -132,7 +140,7 @@ slug: theranest
 tags:
 - Behavioral Health
 - Mental Health
-- EHR
+- Electronic Health Records
 - Practice Management
 - Healthcare
 - HIPAA

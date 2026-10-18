@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -28,20 +28,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.9
-  scored_at: '2026-10-04'
+  score: 28.0
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 28
+- acting_count: 27
   human_in_the_loop: 0
   name: Shutterstock Agentic Access
   operation_count: 95
   slug: shutterstock-agentic-access
-  summary_line: 95 operations · 28 acting
+  summary_line: 95 operations · 27 acting
 api_count: 1
 apis:
 - baseURL: https://api.shutterstock.com
@@ -133,6 +133,21 @@ collections:
   name: Shutterstock API Reference
   slug: open-shutterstock
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/shutterstock/refs/heads/main/plans/shutterstock-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/shutterstock-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/shutterstock/refs/heads/main/rate-limits/shutterstock-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/shutterstock-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/shutterstock/refs/heads/main/finops/shutterstock-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/shutterstock-finops.yml
 - group: company
   title: ''
   type: Website
@@ -181,9 +196,13 @@ examples:
   name: Shutterstock Search Images Example
   slug: shutterstock-search-images-example
 finops:
-- name: Shutterstock Finops
+- has_sources: false
+  method: generated
+  name: Shutterstock Finops
+  primary_unit: ''
   service_category: API
   slug: shutterstock-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/shutterstock.png
 json_schemas:
 - name: Shutterstock Image
@@ -206,13 +225,13 @@ modified: '2026-09-16'
 name: Shutterstock
 nav: Providers
 network: true
-overview: 'Shutterstock publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Audio API, Computer Vision API, Contributors API, and 7 more. Tagged areas include Image, Media, Photos, Stock Images, and Video.
+overview: 'Shutterstock publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Audio API, Computer Vision API, Contributors API, and 7 more. Tagged areas include Image, Media, Photos, Stock Images, and Video.
 
 
   The Shutterstock catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Shutterstock''s developer surface includes authentication and 7 more developer resources.'
+  Shutterstock''s developer surface includes authentication and 10 more developer resources.'
 plans:
 - name: Shutterstock Plans Pricing
   plan_count: 3
@@ -223,9 +242,10 @@ rate_limits:
   name: Shutterstock Rate Limits
   slug: shutterstock-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: Shutterstock API Rules
+  name: Shutterstock — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -233,7 +253,8 @@ rules:
     info: 1
     warn: 5
   slug: shutterstock-jsonschema-spectral-rules
-- effective_rule_count: 51
+- authorship: unmarked
+  effective_rule_count: 51
   extends:
   - spectral:oas
   name: Shutterstock API Rules
@@ -251,17 +272,17 @@ scopes:
   summary_line: 6 scopes · authorizationCode
 score:
   band: developing
-  composite: 43.0
+  composite: 41.5
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 75.0
+    artifact_dirs: 19
+    catalog_earned: 72.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 40.0
+    catalog_gap: 43.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 27.3
     contract_quality: 69.0
     developer_ergonomics: 47.6
@@ -281,8 +302,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

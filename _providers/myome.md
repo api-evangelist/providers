@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - baseURL: https://api.myome.com/0/
@@ -153,7 +153,7 @@ modified: '2026-08-26'
 name: MyOme
 nav: Providers
 network: true
-overview: 'MyOme publishes 3 APIs on the [APIs.io](https://apis.io/) network: Institutional Interface API, Requisitions and Orders API, and Resources API. Tagged areas include Company, Genomics, Healthcare, Clinical Laboratory, and Whole Genome Sequencing.
+overview: 'MyOme publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Institutional Interface API, Requisitions and Orders API, and Resources API. Tagged areas include Company, Genomics, Healthcare, Clinical Laboratory, and Whole Genome Sequencing.
 
 
   MyOme''s developer surface includes documentation, API reference, support, engineering blog, signup flow, and 15 more developer resources.'
@@ -200,8 +200,8 @@ score:
     regime: Health
     regime_id: health
     score: 39.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

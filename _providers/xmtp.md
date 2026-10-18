@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 7
 apis:
 - description: Core gRPC-based API for the XMTP decentralized messaging network. Provides operations for sending and retrieving encrypted group messages, managing MLS key packages, publishing identity updates, and s
@@ -59,6 +59,21 @@ apis:
   slug: xmtp-app-chain-rpc-api
 artifact_total: 11
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/xmtp/refs/heads/main/plans/plans.yml
+  title: ''
+  type: Plans
+  url: plans/plans.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/xmtp/refs/heads/main/rate-limits/rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/xmtp/refs/heads/main/finops/finops.yml
+  title: ''
+  type: FinOps
+  url: finops/finops.yml
 - group: company
   title: ''
   type: Website
@@ -127,19 +142,23 @@ common:
 created: '2026-06-13'
 description: XMTP (Extensible Message Transport Protocol) is a decentralized, open messaging protocol that enables end-to-end encrypted communication between Ethereum wallet addresses and other decentralized identifiers. Built on MLS (Messaging Layer Security), XMTP provides developer SDKs and a gRPC-based network API for sending encrypted messages in decentralized applications, AI agents, and Web3 wallets without relying on centralized servers.
 finops:
-- name: Finops
+- has_sources: false
+  method: generated
+  name: Finops
+  primary_unit: ''
   service_category: ''
   slug: finops
+  template: true
 image: https://xmtp.org/img/xmtp-icon.png
 layout: provider
 modified: '2026-06-13'
 name: XMTP
 nav: Providers
 network: true
-overview: 'XMTP publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Network gRPC API, and 6 more. Tagged areas include Web3, Messaging, Encryption, Decentralized, and Ethereum.
+overview: 'XMTP is listed with 7 APIs on the [APIs.io](https://apis.io/) network, including Network gRPC API, and 6 more. Tagged areas include Web3, Messaging, Encryption, Decentralized, and Ethereum.
 
 
-  XMTP''s developer surface includes GitHub presence, engineering blog, status page, and 13 more developer resources.'
+  XMTP''s developer surface includes GitHub presence, engineering blog, status page, and 16 more developer resources.'
 plans:
 - name: Plans
   plan_count: 3
@@ -151,22 +170,22 @@ rate_limits:
   slug: rate-limits
 score:
   band: thin
-  composite: 34.7
+  composite: 27.2
   coverage:
     artifact_dirs: 8
-    catalog_earned: 61.0
+    catalog_earned: 45.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 54.0
+    catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.5
   facets:
-    access_clarity: 57.4
+    access_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 24.0
     developer_ergonomics: 26.2
     discoverability: 78.6
-    operational_transparency: 40.0
+    operational_transparency: 26.3
   previous_composite: 34.7
   regulatory:
     applies: true
@@ -174,9 +193,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 12.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

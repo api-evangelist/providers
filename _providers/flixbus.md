@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 13.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: 'The partner-facing Flix API, published through the Flix Developer Portal. Documentation covers API references, getting-started guides, changelogs and example Postman collections for Flix distribution '
@@ -139,7 +139,7 @@ modified: '2026-08-04'
 name: FlixBus
 nav: Providers
 network: true
-overview: 'FlixBus publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Transportation, Travel, Mobility, and Bus.
+overview: 'FlixBus is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Transportation, Travel, Mobility, and Bus.
 
 
   FlixBus'' developer surface includes authentication, documentation, signup flow, support, engineering blog, and 14 more developer resources.'
@@ -177,8 +177,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 30.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

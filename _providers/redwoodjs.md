@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: RedwoodJS exposes a schema-first GraphQL API via GraphQL Yoga at the /graphql endpoint. SDL files define queries and mutations while service functions act as resolvers; Redwood combines them automatic
@@ -92,7 +92,7 @@ modified: 2026-06-14
 name: RedwoodJS
 nav: Providers
 network: true
-overview: 'RedwoodJS publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include GraphQL, Full-Stack, JavaScript, Prisma, and React.
+overview: 'RedwoodJS is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include GraphQL, Full-Stack, JavaScript, Prisma, and React.
 
 
   RedwoodJS''s developer surface includes documentation, pricing, and 7 more developer resources.'
@@ -101,7 +101,7 @@ score:
   band: emerging
   composite: 18.2
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -122,8 +122,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

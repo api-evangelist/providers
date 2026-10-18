@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 16.5
-  scored_at: '2026-10-04'
+  score: 14.7
+  scored_at: '2026-10-17'
 api_count: 7
 apis:
 - description: Solidity smart contracts that implement the EigenLayer restaking protocol - StrategyManager, DelegationManager, EigenPodManager, AVSDirectory, and the slasher. Operators register, stakers delegate, an
@@ -66,6 +66,21 @@ asyncapis:
   name: EigenDA Streaming Surface
   slug: eigenlayer-streaming-asyncapi
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/eigenlayer/refs/heads/main/plans/eigenlayer-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/eigenlayer-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/eigenlayer/refs/heads/main/rate-limits/eigenlayer-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/eigenlayer-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/eigenlayer/refs/heads/main/finops/eigenlayer-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/eigenlayer-finops.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -110,22 +125,26 @@ common:
 created: '2026-05-23'
 description: EigenLayer is a restaking protocol on Ethereum operated by Layr Labs that lets stakers re-use staked ETH (or liquid-staking tokens) to secure additional off-chain services called Actively Validated Services (AVSs). The team has since unified the restaking layer with EigenDA (data availability), EigenCompute (verifiable off-chain compute), and EigenAI (deterministic inference) under the EigenCloud brand. Developer surface includes the EigenLayer core smart contracts, AVS framework, EigenSDK in Go and TypeScript, EigenCloud CLI, and language SDKs for EigenCompute / EigenDA / EigenAI.
 finops:
-- name: Eigenlayer Finops
+- has_sources: false
+  method: generated
+  name: Eigenlayer Finops
+  primary_unit: ''
   service_category: API
   slug: eigenlayer-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/eigenlayer.png
 layout: provider
 modified: '2026-05-30'
 name: EigenLayer
 nav: Providers
 network: true
-overview: 'EigenLayer publishes 7 APIs on the [APIs.io](https://apis.io/) network, including EigenDA, and 6 more. Tagged areas include Restaking, AVS, Ethereum, Data Availability, and Verifiable Compute.
+overview: 'EigenLayer is listed with 7 APIs on the [APIs.io](https://apis.io/) network, including EigenDA, and 6 more. Tagged areas include Restaking, AVS, Ethereum, Data Availability, and Verifiable Compute.
 
 
   The EigenLayer catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  EigenLayer''s developer surface includes documentation, GitHub presence, and 8 more developer resources.'
+  EigenLayer''s developer surface includes documentation, GitHub presence, and 11 more developer resources.'
 plans:
 - name: Eigenlayer Plans Pricing
   plan_count: 1
@@ -136,10 +155,11 @@ rate_limits:
   name: Eigenlayer Rate Limits
   slug: eigenlayer-rate-limits
 rules:
-- effective_rule_count: 29
+- authorship: generated
+  effective_rule_count: 29
   extends:
   - spectral:asyncapi
-  name: EigenLayer API Rules
+  name: EigenLayer — asyncapi rules
   rule_count: 2
   severity_counts:
     error: 0
@@ -148,23 +168,23 @@ rules:
     warn: 2
   slug: eigenlayer-asyncapi-spectral-rules
 score:
-  band: thin
-  composite: 30.4
+  band: emerging
+  composite: 24.4
   coverage:
     artifact_dirs: 8
-    catalog_earned: 61.2
+    catalog_earned: 47.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.9
+    catalog_gap: 67.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.0
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 11.4
     contract_quality: 39.6
     developer_ergonomics: 14.3
     discoverability: 71.4
-    operational_transparency: 40.0
+    operational_transparency: 26.3
   previous_composite: 30.4
   regulatory:
     applies: true
@@ -172,9 +192,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -192,7 +212,7 @@ tags:
 - Ethereum
 - Data Availability
 - Verifiable Compute
-- Crypto
+- Cryptocurrency
 - Web3
 website: https://www.eigenlayer.xyz/
 ---

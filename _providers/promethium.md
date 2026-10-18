@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: REST API for Promethium's agentic data platform — tenant-scoped OAuth2 authentication, datamap search and creation, bulk metadata import, audit logs, and federated SQL execution via the Trino Stream U
@@ -41,6 +41,10 @@ apis:
   slug: promethium-api
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://promethium.ai/feed/
 - group: company
   title: ''
   type: Website
@@ -123,14 +127,14 @@ created: '2026-07-17'
 description: Promethium is an open agentic data platform that gives analysts, business users, and AI agents trusted access to all enterprise data through a single governed layer without moving, copying, or consolidating data. Its AI Insights Fabric combines a zero-copy federated Universal Query Engine (Trino) across cloud warehouses, relational databases, SaaS apps and on-prem systems, an Insights Context Graph that assembles business definitions and semantic models, and a Trust Harness that validates answers before delivery. Promethium exposes governed data to any agent, copilot, or application through a single MCP server or REST API, with its Mantra engine powering plain-English agentic analytics. Backed by Insight Partners; led by CEO Prat Moghe.
 image: https://promethium.ai/wp-content/themes/promethium/assets/images/src/favicon.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Promethium
 nav: Providers
 network: true
-overview: 'Promethium publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data Fabric, Agentic Analytics, Semantic Layer, and Enterprise Data.
+overview: 'Promethium is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data Fabric, Agentic Analytics, Semantic Layer, and Enterprise Data.
 
 
-  Promethium''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 11 more developer resources.'
+  Promethium''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 12 more developer resources.'
 random_paper: 20
 score:
   band: thin
@@ -161,8 +165,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

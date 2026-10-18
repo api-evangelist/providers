@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 5.0
-  scored_at: '2026-10-04'
+  score: 3.1
+  scored_at: '2026-10-17'
 api_count: 5
 apis:
 - description: The TriNet Company API provides access to company-level HR data including organizational structure, departments, holiday schedules, workers compensation codes, and company configuration. Used by HR ad
@@ -53,6 +53,21 @@ apis:
   slug: manage-employee-api
 artifact_total: 37
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/trinet-group/refs/heads/main/plans/trinet-group-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/trinet-group-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/trinet-group/refs/heads/main/rate-limits/trinet-group-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/trinet-group-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/trinet-group/refs/heads/main/finops/trinet-group-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/trinet-group-finops.yml
 - group: company
   title: ''
   type: About
@@ -178,9 +193,13 @@ features:
 - name: Learning and Development
 - name: QuickBooks Online Integration
 finops:
-- name: Trinet Group Finops
+- has_sources: true
+  method: generated
+  name: Trinet Group Finops
+  primary_unit: ''
   service_category: HR / PEO
   slug: trinet-group-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/trinet-group.png
 integrations:
 - name: QuickBooks Online
@@ -197,10 +216,10 @@ modified: '2026-05-03'
 name: TriNet Group
 nav: Providers
 network: true
-overview: 'TriNet Group publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Benefits, Compliance, Human Resources, Payroll, and Professional Employer Organization.
+overview: 'TriNet Group is listed with 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Benefits, Compliance, Human Resources, Payroll, and Professional Employer Organization.
 
 
-  TriNet Group''s developer surface includes developer portal, YouTube channel, engineering blog, documentation, authentication, and 22 more developer resources.'
+  TriNet Group''s developer surface includes developer portal, YouTube channel, engineering blog, documentation, authentication, and 25 more developer resources.'
 plans:
 - name: Trinet Group Plans Pricing
   plan_count: 1
@@ -228,17 +247,17 @@ rate_limits:
   slug: trinet-group-rate-limits
 score:
   band: emerging
-  composite: 18.5
+  composite: 16.9
   coverage:
     artifact_dirs: 10
-    catalog_earned: 47.0
+    catalog_earned: 44.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 68.0
+    catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 34.2
+    access_clarity: 26.3
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 17.9
@@ -251,8 +270,8 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 19.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

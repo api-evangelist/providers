@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: 'The core Ximalaya Open Platform HTTP+JSON API on api.ximalaya.com: free on-demand content (albums, tracks, categories, tags), paid on-demand content metadata, content search with hot/suggest words, re'
@@ -38,6 +38,10 @@ asyncapis:
   name: Ximalaya Callbacks Webhooks
   slug: ximalaya-callbacks-webhooks
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.ximalaya.com/blog/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/ximalaya/refs/heads/main/security/ximalaya-domain-security.yml
   title: ''
@@ -167,17 +171,17 @@ created: '2026-09-04'
 description: Ximalaya (喜马拉雅) is China's largest online audio and podcast platform, distributing audiobooks, radio dramas, children's content, courses, news and live broadcast radio. Its developer surface is the Ximalaya Open Platform (open.ximalaya.com), a partner-oriented program that lets mobile apps, smart speakers, in-car head units, H5 sub-sites and WeChat mini-programs embed Ximalaya audio. The platform publishes a documented HTTP+JSON API across two hosts — api.ximalaya.com for content, search, recommendation, OAuth2 accounts, user data and analytics callbacks, and mpay.ximalaya.com for paid-content distribution, pricing and orders — secured by an app_key plus an HMAC-SHA1/MD5 request signature, with OAuth 2.0 access tokens for user-private data.
 image: https://s1.xmcdn.com/yx/open-website/last/build/favicon.ico
 layout: provider
-modified: '2026-09-04'
+modified: '2026-10-06'
 name: Ximalaya
 nav: Providers
 network: true
-overview: 'Ximalaya publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Audio, Podcasts, Audiobooks, and Media.
+overview: 'Ximalaya is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Audio, Podcasts, Audiobooks, and Media.
 
 
   The Ximalaya catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Ximalaya''s developer surface includes documentation, API reference, getting-started guide, signup flow, sandbox, developer console, authentication, and 20 more developer resources.'
+  Ximalaya''s developer surface includes engineering blog, documentation, API reference, getting-started guide, signup flow, sandbox, developer console, and 21 more developer resources.'
 plans:
 - name: Ximalaya Plans Pricing
   plan_count: 0
@@ -194,20 +198,20 @@ scopes:
   summary_line: 6 scopes
 score:
   band: thin
-  composite: 29.5
+  composite: 30.0
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 20
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 0.0
     contract_governance: 18.2
     contract_quality: 39.0
-    developer_ergonomics: 19.0
+    developer_ergonomics: 21.4
     discoverability: 66.1
     operational_transparency: 42.1
   jurisdiction:
@@ -227,13 +231,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/ximalaya/refs/heads/main/screenshots/ximalaya-2026-10-11T195255.png
 security:
 - kind: authentication
   name: Ximalaya Authentication

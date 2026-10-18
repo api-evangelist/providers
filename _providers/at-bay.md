@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.3
-  scored_at: '2026-10-04'
+  score: 20.4
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -94,6 +94,10 @@ collections:
   name: At-Bay Partner Documents Webhooks API
   slug: open-at-bay-webhooks-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.at-bay.com/about/newsroom/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/at-bay/refs/heads/main/capabilities/at-bay-capability-edges.yml
   title: ''
@@ -239,9 +243,13 @@ examples:
   name: At Bay Register Webhook Example
   slug: at-bay-register-webhook-example
 finops:
-- name: At Bay Finops
+- has_sources: true
+  method: generated
+  name: At Bay Finops
+  primary_unit: ''
   service_category: ''
   slug: at-bay-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/at-bay.png
 json_schemas:
 - name: At-Bay Policy
@@ -260,17 +268,17 @@ jsonld:
   property_count: 0
   slug: at-bay-context
 layout: provider
-modified: '2026-05-25'
+modified: '2026-10-06'
 name: At-Bay
 nav: Providers
 network: true
-overview: 'At-Bay publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Documents API, Health API, Policies API, and 2 more. Tagged areas include Insurance, Cyber Insurance, InsurSec, Insurtech, and Tech E&O.
+overview: 'At-Bay publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Documents API, Health API, Policies API, and 2 more. Tagged areas include Insurance, Cyber Insurance, InsurSec, Insurtech, and Tech E&O.
 
 
   The At-Bay catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  At-Bay''s developer surface includes authentication, documentation, GitHub presence, and 28 more developer resources.'
+  At-Bay''s developer surface includes engineering blog, authentication, documentation, GitHub presence, and 28 more developer resources.'
 plans:
 - name: At Bay Plans Pricing
   plan_count: 4
@@ -281,9 +289,10 @@ rate_limits:
   name: At Bay Rate Limits
   slug: at-bay-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: At-Bay API Rules
+  name: At-Bay — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -291,7 +300,8 @@ rules:
     info: 1
     warn: 4
   slug: at-bay-jsonschema-spectral-rules
-- effective_rule_count: 46
+- authorship: unmarked
+  effective_rule_count: 46
   extends:
   - spectral:oas
   name: At-Bay API Rules
@@ -304,20 +314,20 @@ rules:
   slug: at-bay-rules
 score:
   band: thin
-  composite: 39.2
+  composite: 34.0
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 76.8
+    artifact_dirs: 19
+    catalog_earned: 66.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 38.2
+    catalog_gap: 49.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.2
   facets:
-    access_clarity: 42.9
+    access_clarity: 14.5
     contract_governance: 27.3
     contract_quality: 60.7
-    developer_ergonomics: 28.6
+    developer_ergonomics: 31.0
     discoverability: 67.0
     operational_transparency: 5.3
   jurisdiction:
@@ -341,9 +351,9 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 14.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0
@@ -372,7 +382,7 @@ tags:
 - Email Security
 - Endpoint Security
 - Incident Response
-- Brokers
+- Brokerage
 - Quoting
 - Bindings
 - Policy Lifecycle

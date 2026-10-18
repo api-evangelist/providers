@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 6.8
-  scored_at: '2026-10-03'
+  score: 4.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -69,6 +69,21 @@ apis:
   slug: postman
 artifact_total: 14
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/crossriver/refs/heads/main/plans/cross-river-bank-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/cross-river-bank-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/crossriver/refs/heads/main/rate-limits/cross-river-bank-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/cross-river-bank-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/crossriver/refs/heads/main/finops/cross-river-bank-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/cross-river-bank-finops.yml
 - group: operate
   title: ''
   type: Support
@@ -139,19 +154,23 @@ common:
 created: '2026-05-23'
 description: Cross River Bank is an FDIC-insured chartered bank that operates as a sponsor bank and banking-as-a-service (BaaS) provider for fintech companies, embedded-finance platforms, and crypto / stablecoin issuers. The product surface is delivered through the Cross River Operating System (COS) - a proprietary API-driven banking core with real-time subledger generation - and includes accounts, ACH and Same-Day ACH, RTP and FedNow instant payments, wires, card issuing and processing (Visa / Mastercard), merchant acquiring, stablecoin rails, consumer and SMB lending, and capital markets / loan participation services. API access is gated behind a partner onboarding process; documentation and sandbox are at docs.crossriver.com.
 finops:
-- name: Cross River Bank Finops
+- has_sources: false
+  method: generated
+  name: Cross River Bank Finops
+  primary_unit: ''
   service_category: API
   slug: cross-river-bank-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cross-river-bank.png
 layout: provider
 modified: '2026-05-23'
 name: Cross River Bank
 nav: Providers
 network: true
-overview: 'Cross River Bank publishes 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Banking, Banking as a Service, Sponsor Bank, Embedded Finance, and Payments.
+overview: 'Cross River Bank is listed with 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Banking, Banking as a Service, Sponsor Bank, Embedded Finance, and Payments.
 
 
-  Cross River Bank''s developer surface includes support, getting-started guide, authentication, signup flow, documentation, engineering blog, and 10 more developer resources.'
+  Cross River Bank''s developer surface includes support, getting-started guide, authentication, signup flow, documentation, engineering blog, and 13 more developer resources.'
 plans:
 - name: Cross River Bank Plans Pricing
   plan_count: 1
@@ -162,23 +181,23 @@ rate_limits:
   name: Cross River Bank Rate Limits
   slug: cross-river-bank-rate-limits
 score:
-  band: thin
-  composite: 29.6
+  band: emerging
+  composite: 23.5
   coverage:
     artifact_dirs: 10
-    catalog_earned: 57.4
+    catalog_earned: 44.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.6
+    catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.1
   facets:
-    access_clarity: 50.5
+    access_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 50.0
     discoverability: 78.6
-    operational_transparency: 18.9
+    operational_transparency: 5.3
   previous_composite: 29.6
   provenance:
     agentic_access: derived
@@ -188,9 +207,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 14.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-03'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 7
 apis:
 - description: Manage accounting periods (open/close, list periods) in BlackLine.
@@ -128,7 +128,7 @@ modified: '2026-07-18'
 name: BlackLine
 nav: Providers
 network: true
-overview: 'BlackLine publishes 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, FinOps, Accounting, and Financial Close.
+overview: 'BlackLine is listed with 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, FinOps, Accounting, and Financial Close.
 
 
   BlackLine''s developer surface includes documentation, API reference, authentication, engineering blog, and 10 more developer resources.'
@@ -137,7 +137,7 @@ score:
   band: emerging
   composite: 23.7
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 8
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -164,8 +164,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

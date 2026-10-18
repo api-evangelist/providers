@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 9.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: Insert, retrieve, tokenize/detokenize, query, and manage records and files in a Skyflow data privacy vault. Authenticated with a JWT bearer token or API key (RFC 6750). Base URLs are per-vault under t
@@ -197,7 +197,7 @@ modified: '2026-07-21'
 name: Skyflow
 nav: Providers
 network: true
-overview: 'Skyflow publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Privacy, PII, Tokenization, and Data Security.
+overview: 'Skyflow is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Privacy, PII, Tokenization, and Data Security.
 
 
   Skyflow''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 24 more developer resources.'
@@ -236,8 +236,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 32.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -256,7 +256,7 @@ security:
 - kind: vulnerability-disclosure
   name: Skyflow Vulnerability Disclosure
   slug: skyflow-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 - kind: trust-center
   name: Skyflow Trust Center
   slug: skyflow-trust-center

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -776,7 +776,7 @@ modified: '2026-09-16'
 name: PokéAPI
 nav: Providers
 network: true
-overview: 'PokéAPI publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Berries API, Contests API, Encounters API, and 9 more. Tagged areas include Pokémon, Open Source, Open Data, REST, and GraphQL.
+overview: 'PokéAPI publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including Berries API, Contests API, Encounters API, and 9 more. Tagged areas include Pokémon, Open Source, Open Data, REST, and GraphQL.
 
 
   The PokéAPI catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -785,9 +785,10 @@ overview: 'PokéAPI publishes 12 APIs on the [APIs.io](https://apis.io/) network
   PokéAPI''s developer surface includes developer portal, getting-started guide, pricing, support, Stack Overflow tag, changelog, tooling, and 14 more developer resources.'
 random_paper: 19
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: PokéAPI API Rules
+  name: PokéAPI — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -795,7 +796,8 @@ rules:
     info: 1
     warn: 4
   slug: pokeapi-jsonschema-spectral-rules
-- effective_rule_count: 27
+- authorship: unmarked
+  effective_rule_count: 27
   extends: []
   name: PokéAPI API Rules
   rule_count: 27
@@ -837,8 +839,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 14.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

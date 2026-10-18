@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 1
+- acting_count: 0
   human_in_the_loop: 0
   name: Open Insurance Agentic Access
   operation_count: 1
   slug: open-insurance-agentic-access
-  summary_line: 1 operation · 1 acting
+  summary_line: 1 operation
 api_count: 1
 apis:
 - description: Open's browser JavaScript library for embedding insurance into a partner's web app. Documented methods are opensdk.quote.load, opensdk.quote.prepare, opensdk.quote.portal, opensdk.quote.status, opensd
@@ -244,7 +244,7 @@ modified: '2026-07-25'
 name: Open
 nav: Providers
 network: true
-overview: 'Open publishes 2 APIs on the [APIs.io](https://apis.io/) network, including Policy API, and 1 more. Tagged areas include Insurance, Australia, Insurtech, Embedded Insurance, and Property and Casualty.
+overview: 'Open publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network, including Policy API, and 1 more. Tagged areas include Insurance, Australia, Insurtech, Embedded Insurance, and Property and Casualty.
 
 
   Open''s developer surface includes documentation, API reference, authentication, status page, developer portal, getting-started guide, support, and 32 more developer resources.'
@@ -291,8 +291,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 26.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

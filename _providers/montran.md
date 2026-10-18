@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.3
-  scored_at: '2026-10-04'
+  score: 30.4
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 1
@@ -342,6 +342,21 @@ collections:
   name: Montran Corporate Payments Portal Account Information Virtual IBANs API
   slug: open-montran-virtual-ibans-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/montran/refs/heads/main/plans/montran-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/montran-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/montran/refs/heads/main/rate-limits/montran-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/montran-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/montran/refs/heads/main/finops/montran-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/montran-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/montran/refs/heads/main/capabilities/montran-capability-edges.yml
   title: ''
@@ -414,9 +429,13 @@ common:
 created: '2025'
 description: Montran Corporation provides technologically advanced critical payments, cash management, and securities solutions to commercial banks, corporates, central banks, and clearing institutions in over 90 countries. With more than 45 years of innovation, Montran offers market infrastructure solutions including RTGS, ACH, instant payments, and central securities depository systems.
 finops:
-- name: Montran Finops
+- has_sources: true
+  method: generated
+  name: Montran Finops
+  primary_unit: ''
   service_category: Payments / Capital Markets Software
   slug: montran-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/montran.png
 json_schemas:
 - name: Montran Account
@@ -721,13 +740,13 @@ modified: '2026-05-19'
 name: Montran
 nav: Providers
 network: true
-overview: 'Montran publishes 43 APIs on the [APIs.io](https://apis.io/) network, including Account Information API, Account Structures API, Accounts API, and 40 more. Tagged areas include Banking, Central Banking, Financial Services, ISO 20022, and Market Infrastructure.
+overview: 'Montran publishes 43 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account Information API, Account Structures API, Accounts API, and 40 more. Tagged areas include Banking, Central Banking, Financial Services, ISO 20022, and Market Infrastructure.
 
 
   The Montran catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Montran''s developer surface includes authentication, developer portal, documentation, engineering blog, support, and 11 more developer resources.'
+  Montran''s developer surface includes authentication, developer portal, documentation, engineering blog, support, and 14 more developer resources.'
 plans:
 - name: Montran Plans Pricing
   plan_count: 1
@@ -738,9 +757,10 @@ rate_limits:
   name: Montran Rate Limits
   slug: montran-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Montran API Rules
+  name: Montran — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -755,23 +775,23 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: thin
-  composite: 39.2
+  composite: 38.1
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 59.3
+    artifact_dirs: 20
+    catalog_earned: 56.3
     catalog_earned_first_party: 0.0
     catalog_gap: 58.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -1.6
   facets:
-    access_clarity: 34.2
+    access_clarity: 26.3
     contract_governance: 9.8
     contract_quality: 59.1
     developer_ergonomics: 38.1
     discoverability: 69.6
     operational_transparency: 5.3
-  previous_composite: 39.2
+  previous_composite: 39.7
   provenance:
     agentic_access: derived
     contracts:
@@ -785,8 +805,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 36.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

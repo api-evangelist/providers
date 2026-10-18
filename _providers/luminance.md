@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - baseURL: https://your-instance.app.luminance.com/api2
@@ -342,7 +342,7 @@ modified: '2026-08-04'
 name: Luminance
 nav: Providers
 network: true
-overview: 'Luminance publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Annotation Source Relations API, Annotation Sources API, and 18 more. Tagged areas include Company, Legal, Artificial Intelligence, Contracts, and Contract Lifecycle Management.
+overview: 'Luminance publishes 21 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, Annotation Source Relations API, Annotation Sources API, and 18 more. Tagged areas include Company, Legal, Artificial Intelligence, Contracts, and Contract Lifecycle Management.
 
 
   Luminance''s developer surface includes documentation, API reference, support, engineering blog, signup flow, authentication, and 21 more developer resources.'
@@ -395,8 +395,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 36.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

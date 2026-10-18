@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 11
+- acting_count: 10
   human_in_the_loop: 0
   name: Kairos Ar Agentic Access
   operation_count: 13
   slug: kairos-ar-agentic-access
-  summary_line: 13 operations · 11 acting
+  summary_line: 13 operations · 10 acting
 api_count: 1
 apis:
 - baseURL: https://api.kairos.com
@@ -60,7 +60,7 @@ apis:
   description: Manage galleries and the subjects/face templates enrolled in them.
   name: Kairos AR Galleries API
   slug: kairos-ar-galleries-api
-artifact_total: 10
+artifact_total: 11
 collections:
 - collection_type: open
   name: API Collection
@@ -75,6 +75,11 @@ collections:
   name: Kairos Face Recognition & Emotion Analysis Galleries API
   slug: open-kairos-ar-galleries-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/kairos-ar/refs/heads/main/plans/kairos-ar-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/kairos-ar-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/kairos-ar/refs/heads/main/overlays/kairos-ar-openapi-overlay.yaml
   title: ''
@@ -193,24 +198,28 @@ modified: '2026-07-19'
 name: Kairos AR
 nav: Providers
 network: true
-overview: 'Kairos AR publishes 3 APIs on the [APIs.io](https://apis.io/) network: Emotion Analysis API, Face Recognition API, and Galleries API. Tagged areas include Company, Face Recognition, Facial Recognition, Biometrics, and Emotion Analysis.
+overview: 'Kairos AR publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Emotion Analysis API, Face Recognition API, and Galleries API. Tagged areas include Company, Face Recognition, Facial Recognition, Biometrics, and Emotion Analysis.
 
 
-  Kairos AR''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 18 more developer resources.'
+  Kairos AR''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 19 more developer resources.'
+plans:
+- name: Kairos Ar Plans Pricing
+  plan_count: 4
+  slug: kairos-ar-plans-pricing
 random_paper: 3
 score:
-  band: thin
-  composite: 37.6
+  band: developing
+  composite: 43.4
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 22
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 5.8
   facets:
-    access_clarity: 44.7
+    access_clarity: 76.3
     contract_governance: 4.5
     contract_quality: 13.6
     developer_ergonomics: 73.2
@@ -236,13 +245,13 @@ score:
     skills: derived
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
-    score: 22.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
+    score: 21.9
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

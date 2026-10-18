@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Per-customer JSON REST API over each Uptycs stack covering alerts and alert rules, events and event rules, assets and asset groups/tags, ad-hoc and saved SQL (osquery) queries, threat indicators/sourc
@@ -42,6 +42,10 @@ apis:
   slug: uptycs-platform-api
 artifact_total: 5
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.uptycs.com/blog/rss.xml
 - group: company
   title: ''
   type: Website
@@ -132,20 +136,20 @@ created: '2026-07-17'
 description: Uptycs is a unified cloud-native application protection platform (CNAPP) and extended detection and response (XDR) company. Built on osquery — which its founders helped commercialize at scale — the Uptycs platform streams structured telemetry from endpoints, cloud workloads, containers, and Kubernetes into a SQL-queryable security data lake, powering CSPM, CWPP, CIEM, vulnerability management, compliance, threat hunting, and detection and response from a single console. Each customer runs on a dedicated stack ({stack}.uptycs.io) whose JSON REST API covers alerts, events, assets, ad-hoc SQL queries, threat intelligence, lookup tables, and users. Uptycs is backed by investors including Norwest Venture Partners and Sapphire Ventures and maintains active SOC 2 Type II compliance.
 image: https://www.uptycs.com/hubfs/About%20Us%20Page%20SPI-2.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Uptycs
 nav: Providers
 network: true
-overview: 'Uptycs publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Security, Cybersecurity, CNAPP, XDR, and Cloud Security.
+overview: 'Uptycs is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Security, Cybersecurity, CNAPP, XDR, and Cloud Security.
 
 
-  Uptycs'' developer surface includes pricing, support, engineering blog, authentication, and 15 more developer resources.'
+  Uptycs'' developer surface includes pricing, support, engineering blog, authentication, and 16 more developer resources.'
 random_paper: 20
 score:
   band: thin
   composite: 29.4
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -173,8 +177,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

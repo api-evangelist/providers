@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 39.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 30
+- acting_count: 28
   human_in_the_loop: 0
   name: Bakkt Agentic Access
   operation_count: 54
   slug: bakkt-agentic-access
-  summary_line: 54 operations · 30 acting
+  summary_line: 54 operations · 28 acting
 api_count: 1
 apis:
 - baseURL: https://api.bakkt.com
@@ -334,7 +334,7 @@ modified: '2026-07-18'
 name: Bakkt
 nav: Providers
 network: true
-overview: 'Bakkt publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Authorization API, Block Trade & Allocate API, and 14 more. Tagged areas include Company, Crypto Web3, Cryptocurrency, Digital Assets, and Trading.
+overview: 'Bakkt publishes 17 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, Authorization API, Block Trade & Allocate API, and 14 more. Tagged areas include Company, Web3, Cryptocurrency, Digital Assets, and Trading.
 
 
   The Bakkt catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -346,7 +346,7 @@ score:
   band: thin
   composite: 39.2
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -377,8 +377,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 22.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -396,7 +396,7 @@ security:
 slug: bakkt
 tags:
 - Company
-- Crypto Web3
+- Web3
 - Cryptocurrency
 - Digital Assets
 - Trading
@@ -405,6 +405,5 @@ tags:
 - Custody
 - Webhook
 - FIX Protocol
-- Web3
 website: https://bakkt.com
 ---

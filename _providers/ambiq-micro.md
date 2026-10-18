@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://ambiq.com/blog/feed/
 - group: company
   title: ''
   type: Website
@@ -87,14 +91,14 @@ created: '2026-07-17'
 description: Ambiq Micro is a semiconductor company that designs ultra-low-power System-on-Chip (SoC) solutions for battery-powered and endpoint-AI devices. Its proprietary Subthreshold Power Optimized Technology (SPOT) platform lets its Apollo family of Arm Cortex-M microcontrollers and Artasie real-time clocks run at extremely low energy, powering wearables, hearables, healthcare, smart-home, industrial and gaming devices. Ambiq's developer surface is an embedded C/C++ toolchain - the AmbiqSuite SDK and the open-source neuralSPOT AI SDK/Toolkit - plus a set of first-party Python AI toolkits (heartKIT, sleepKIT, physioKIT, neuralspotx) published on PyPI and GitHub (AmbiqAI, AmbiqMicro). This is not a web/REST API provider; it is profiled here for its open-source developer and AI SDK footprint.
 image: https://ambiq.com/wp-content/uploads/2023/09/ambiq-visual.jpg
 layout: provider
-modified: '2026-07-17'
+modified: '2026-10-06'
 name: Ambiq Micro
 nav: Providers
 network: true
 overview: 'Ambiq Micro is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Hardtech, Semiconductors, Microcontrollers, and Edge AI.
 
 
-  Ambiq Micro''s developer surface includes documentation, engineering blog, support, and 8 more developer resources.'
+  Ambiq Micro''s developer surface includes documentation, engineering blog, support, and 9 more developer resources.'
 random_paper: 5
 score:
   band: emerging
@@ -121,8 +125,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 11.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

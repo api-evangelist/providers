@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 9
 apis:
 - description: GraphQL surface for quotes - the pre-invoice document in Printavo. Query a single quote or a paginated quotes connection, and create, update, delete, or duplicate quotes via the quoteCreate, quoteUpda
@@ -65,6 +65,10 @@ apis:
   slug: printavo-merch-api
 artifact_total: 14
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.printavo.com/blog/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/printavo/refs/heads/main/security/printavo-domain-security.yml
   title: ''
@@ -104,23 +108,27 @@ common:
 created: '2026-07-11'
 description: Printavo is print shop management software for screen printers, embroiderers, and other decorated-apparel businesses, covering quotes, invoices, orders, customers, line items, production statuses, tasks, payments, and merch stores. Printavo exposes a public GraphQL API (API v2) at www.printavo.com/api/v2 that supersedes its legacy REST API. The GraphQL API is authenticated with an account email plus an API token and is gated to Printavo's Premium subscription tier; the API reference and GraphQL schema are publicly documented at www.printavo.com/docs/api/v2.
 finops:
-- name: Printavo Finops
+- has_sources: true
+  method: generated
+  name: Printavo Finops
+  primary_unit: ''
   service_category: Business Application Software
   slug: printavo-finops
+  template: false
 graphqls:
 - description: Printavo API v2 is a **native GraphQL API** for print shop management - quotes,
   name: Printavo API v2 (GraphQL)
   slug: printavo-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/printavo.png
 layout: provider
-modified: '2026-07-11'
+modified: '2026-10-06'
 name: Printavo
 nav: Providers
 network: true
-overview: 'Printavo publishes 9 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Print Shop Management, Screen Printing, Embroidery, Quotes, and Invoices.
+overview: 'Printavo is listed with 9 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Print Shop Management, Screen Printing, Embroidery, Quotes, and Invoices.
 
 
-  Printavo''s developer surface includes documentation, engineering blog, and 6 more developer resources.'
+  Printavo''s developer surface includes documentation, engineering blog, and 7 more developer resources.'
 plans:
 - name: Printavo Plans Pricing
   plan_count: 5
@@ -132,31 +140,31 @@ rate_limits:
   slug: printavo-rate-limits
 score:
   band: emerging
-  composite: 20.4
+  composite: 12.2
   coverage:
-    artifact_dirs: 7
-    catalog_earned: 64.6
+    artifact_dirs: 9
+    catalog_earned: 46.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 50.4
+    catalog_gap: 69.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -12.1
+  delta: -8.2
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 19.0
     discoverability: 71.4
-    operational_transparency: 28.4
-  previous_composite: 32.5
+    operational_transparency: 7.9
+  previous_composite: 20.4
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: falling
   upsert:
     applies: false

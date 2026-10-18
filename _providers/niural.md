@@ -37,14 +37,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 8
+- acting_count: 7
   human_in_the_loop: 0
   name: Niural Agentic Access
   operation_count: 15
   slug: niural-agentic-access
-  summary_line: 15 operations · 8 acting
+  summary_line: 15 operations · 7 acting
 api_count: 1
 apis:
 - baseURL: https://api-live.niural.com
@@ -258,7 +258,7 @@ modified: '2026-08-04'
 name: Niural
 nav: Providers
 network: true
-overview: 'Niural publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Contracts API, Invoices API, and 1 more. Tagged areas include Company, Payroll, Human Resources, Employer of Record, and Contractor Management.
+overview: 'Niural publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authentication API, Contracts API, Invoices API, and 1 more. Tagged areas include Company, Payroll, Human Resources, Employer of Record, and Contractor Management.
 
 
   The Niural catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -309,8 +309,8 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 30.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

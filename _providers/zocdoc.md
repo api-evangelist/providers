@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 49.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -354,9 +354,13 @@ examples:
   name: Book Appointment Response
   slug: book-appointment-response
 finops:
-- name: Zocdoc Finops
+- has_sources: false
+  method: generated
+  name: Zocdoc Finops
+  primary_unit: ''
   service_category: ''
   slug: zocdoc-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zocdoc.png
 json_schemas:
 - name: Appointment
@@ -378,7 +382,7 @@ modified: '2026-08-15'
 name: Zocdoc
 nav: Providers
 network: true
-overview: 'Zocdoc publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Appointments API, Calendar Integration Timeslots API, Credentials API, and 10 more. Tagged areas include Healthcare, Appointments, Booking, Providers, and Insurance.
+overview: 'Zocdoc publishes 13 API contracts indexed on the [APIs.io](https://apis.io/) network, including Appointments API, Calendar Integration Timeslots API, Credentials API, and 10 more. Tagged areas include Healthcare, Appointments, Booking, Providers, and Insurance.
 
 
   The Zocdoc catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
@@ -395,9 +399,10 @@ rate_limits:
   name: Zocdoc Rate Limits
   slug: zocdoc-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: Zocdoc API Rules
+  name: Zocdoc — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -412,17 +417,17 @@ scopes:
   summary_line: 10 scopes · clientCredentials/authorizationCode
 score:
   band: strong
-  composite: 59.9
+  composite: 58.3
   coverage:
-    artifact_dirs: 32
-    catalog_earned: 63.8
+    artifact_dirs: 33
+    catalog_earned: 60.8
     catalog_earned_first_party: 8.0
-    catalog_gap: 51.3
+    catalog_gap: 54.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 67.1
+    access_clarity: 59.2
     contract_governance: 28.0
     contract_quality: 64.4
     developer_ergonomics: 64.3
@@ -445,8 +450,8 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

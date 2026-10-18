@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: The Ubidots Data API v1.6 provides REST endpoints for sending and retrieving time-series data (dots) from IoT devices. Supports device and variable creation, data ingestion via HTTP POST, and historic
@@ -119,9 +119,13 @@ common:
 created: '2026-06-12'
 description: Ubidots is an Industrial AIoT platform designed for OEMs, system integrators, and engineering firms that need to ingest, visualize, and act on device telemetry at scale. The platform exposes a REST API (v1.6 and v2) and an MQTT API for sending and retrieving time-series data from IoT sensors and devices. Developers can manage devices, variables, dashboards, organizations, and event-triggered alerts programmatically, while serverless UbiFunctions enable custom processing logic without managing infrastructure. Authentication uses short-lived or persistent tokens passed via the X-Auth-Token header or URL parameter, and throughput is gated per plan from 6 dots per second (Professional) up to 1,000 dots per second on private Enterprise deployments.
 finops:
-- name: Ubidots Finops
+- has_sources: false
+  method: generated
+  name: Ubidots Finops
+  primary_unit: ''
   service_category: ''
   slug: ubidots-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ubidots.png
 jsonld:
 - class_count: 12
@@ -133,7 +137,7 @@ modified: '2026-06-12'
 name: Ubidots
 nav: Providers
 network: true
-overview: 'Ubidots publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include IoT, Telemetry, Time Series, MQTT, and REST.
+overview: 'Ubidots is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include IoT, Telemetry, Time Series, MQTT, and REST.
 
 
   The Ubidots catalog on APIs.io includes 1 JSON-LD context.
@@ -150,23 +154,23 @@ rate_limits:
   name: Ubidots Rate Limits
   slug: ubidots-rate-limits
 score:
-  band: thin
-  composite: 28.9
+  band: emerging
+  composite: 20.6
   coverage:
-    artifact_dirs: 8
-    catalog_earned: 72.6
+    artifact_dirs: 9
+    catalog_earned: 54.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 42.4
+    catalog_gap: 61.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 46.8
+    access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 10.7
     developer_ergonomics: 16.7
     discoverability: 71.4
-    operational_transparency: 54.7
+    operational_transparency: 34.2
   previous_composite: 28.9
   regulatory:
     applies: true
@@ -174,9 +178,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 1
@@ -1242,9 +1242,13 @@ examples:
   name: Remote Oauth Token Exchange Example
   slug: remote-oauth-token-exchange-example
 finops:
-- name: Remote Com Finops
+- has_sources: true
+  method: generated
+  name: Remote Com Finops
+  primary_unit: ''
   service_category: ''
   slug: remote-com-finops
+  template: true
 image: https://remote.com/favicon.ico
 json_schemas:
 - name: BillingDocument
@@ -1273,7 +1277,7 @@ modified: '2026-06-20'
 name: Remote
 nav: Providers
 network: true
-overview: 'Remote publishes 40 APIs on the [APIs.io](https://apis.io/) network, including Webhooks, Benefit Offers API, Benefit Renewals API, and 37 more. Tagged areas include Global Payroll, Employer of Record, Contractor Management, Contractor of Record, and PEO.
+overview: 'Remote publishes 40 API contracts indexed on the [APIs.io](https://apis.io/) network, including Webhooks, Benefit Offers API, Benefit Renewals API, and 37 more. Tagged areas include Global Payroll, Employer of Record, Contractor Management, Contractor of Record, and PEO.
 
 
   The Remote catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -1290,10 +1294,11 @@ rate_limits:
   name: Remote Com Rate Limits
   slug: remote-com-rate-limits
 rules:
-- effective_rule_count: 32
+- authorship: generated
+  effective_rule_count: 32
   extends:
   - spectral:asyncapi
-  name: Remote API Rules
+  name: Remote — asyncapi rules
   rule_count: 5
   severity_counts:
     error: 1
@@ -1301,9 +1306,10 @@ rules:
     info: 0
     warn: 4
   slug: remote-com-asyncapi-spectral-rules
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Remote API Rules
+  name: Remote — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1311,7 +1317,8 @@ rules:
     info: 1
     warn: 4
   slug: remote-com-jsonschema-spectral-rules
-- effective_rule_count: 51
+- authorship: unmarked
+  effective_rule_count: 51
   extends:
   - spectral:oas
   name: Remote API Rules
@@ -1328,23 +1335,23 @@ scopes:
   slug: remote-com-scopes
   summary_line: 74 scopes · authorizationCode/clientCredentials/urn:ietf:params:oauth:grant-type:jwt-bearer
 score:
-  band: exemplar
-  composite: 73.7
+  band: strong
+  composite: 66.3
   coverage:
-    artifact_dirs: 34
-    catalog_earned: 84.0
+    artifact_dirs: 36
+    catalog_earned: 68.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 31.0
+    catalog_gap: 47.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.4
   facets:
-    access_clarity: 75.8
+    access_clarity: 47.4
     contract_governance: 31.8
     contract_quality: 66.7
     developer_ergonomics: 70.2
     discoverability: 71.7
-    operational_transparency: 66.3
+    operational_transparency: 52.6
   previous_composite: 73.7
   provenance:
     agentic_access: derived
@@ -1365,9 +1372,9 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 45.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 50.0
@@ -1384,7 +1391,7 @@ security:
 - kind: vulnerability-disclosure
   name: Remote Com Vulnerability Disclosure
   slug: remote-com-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 - kind: trust-center
   name: Remote Com Trust Center
   slug: remote-com-trust-center

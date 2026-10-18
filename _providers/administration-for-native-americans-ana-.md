@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: The ANA Projects Report dataset provides results and impact analysis for ANA-funded projects in Native American communities. Available through the data.gov and healthdata.gov catalogs, the dataset inc
@@ -45,6 +45,11 @@ apis:
   slug: ana-fy2013-congressional-report
 artifact_total: 17
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/administration-for-native-americans-ana-/refs/heads/main/finops/administration-for-native-americans-ana--finops.yml
+  title: ''
+  type: FinOps
+  url: finops/administration-for-native-americans-ana--finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/administration-for-native-americans-ana-/refs/heads/main/security/administration-for-native-americans-ana--domain-security.yml
   title: ''
@@ -135,19 +140,23 @@ features:
 - description: ANA publishes grant outcome data and project reports as open data through data.gov and healthdata.gov under open licenses for public access and research use.
   name: Open Data Publication
 finops:
-- name: Administration For Native Americans Ana  Finops
+- has_sources: false
+  method: generated
+  name: Administration For Native Americans Ana  Finops
+  primary_unit: ''
   service_category: API
   slug: administration-for-native-americans-ana--finops
+  template: true
 image: /assets/icons/administration-for-native-americans-ana-.png
 layout: provider
 modified: '2026-08-30'
 name: Administration for Native Americans (ANA)
 nav: Providers
 network: true
-overview: 'Administration for Native Americans (ANA) publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Federal Government, Indigenous, Native Americans, Grants, and Social Services.
+overview: 'Administration for Native Americans (ANA) is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Federal Government, Indigenous, Native Americans, Grants, and Social Services.
 
 
-  Administration for Native Americans (ANA)''s developer surface includes engineering blog, developer portal, and 11 more developer resources.'
+  Administration for Native Americans (ANA)''s developer surface includes engineering blog, developer portal, and 12 more developer resources.'
 plans:
 - name: Administration For Native Americans Ana  Plans Pricing
   plan_count: 0
@@ -159,17 +168,17 @@ rate_limits:
   slug: administration-for-native-americans-ana--rate-limits
 score:
   band: emerging
-  composite: 14.5
+  composite: 12.9
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 40.0
+    artifact_dirs: 13
+    catalog_earned: 37.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 7.9
+    access_clarity: 0.0
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
@@ -189,8 +198,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

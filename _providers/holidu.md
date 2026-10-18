@@ -33,15 +33,15 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 40.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 29
+- acting_count: 25
   human_in_the_loop: 0
   name: Holidu Agentic Access
-  operation_count: 58
+  operation_count: 57
   slug: holidu-agentic-access
-  summary_line: 58 operations · 29 acting
-api_count: 5
+  summary_line: 57 operations · 25 acting
+api_count: 6
 apis:
 - baseURL: https://external-api.holidu.com
   baseurl_source: declared
@@ -405,7 +405,7 @@ modified: '2026-09-16'
 name: Holidu
 nav: Providers
 network: true
-overview: 'Holidu publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Apartment API, Availabilities API, Availability API, and 20 more. Tagged areas include Company, Travel And Leisure, Vacation Rentals, Short-Term Rental, and Hospitality.
+overview: 'Holidu publishes 23 API contracts indexed on the [APIs.io](https://apis.io/) network, including Apartment API, Availabilities API, Availability API, and 20 more. Tagged areas include Company, Travel And Leisure, Vacation Rentals, Short-Term Rental, and Hospitality.
 
 
   The Holidu catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -461,8 +461,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

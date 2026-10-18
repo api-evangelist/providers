@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.0
-  scored_at: '2026-10-04'
+  score: 17.1
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -133,6 +133,21 @@ collections:
   name: Jupyter Server REST API
   slug: open-jupyter
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/jupyter/refs/heads/main/plans/jupyter-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/jupyter-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/jupyter/refs/heads/main/rate-limits/jupyter-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/jupyter-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/jupyter/refs/heads/main/finops/jupyter-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/jupyter-finops.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -207,19 +222,23 @@ common:
 created: '2024-01-01'
 description: Project Jupyter is an open-source initiative that develops the software, open standards, and services for interactive computing across dozens of programming languages. The Jupyter ecosystem includes Jupyter Notebook, JupyterLab, Jupyter Server, JupyterHub, the Jupyter messaging protocol, and supporting client libraries.
 finops:
-- name: Jupyter Finops
+- has_sources: false
+  method: generated
+  name: Jupyter Finops
+  primary_unit: ''
   service_category: API
   slug: jupyter-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/jupyter.png
 layout: provider
 modified: '2026-09-16'
 name: Jupyter
 nav: Providers
 network: true
-overview: 'Jupyter publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Config API, Contents API, Server REST API, and 9 more. Tagged areas include Data Science, Education, Interactive Computing, Notebooks, and Python.
+overview: 'Jupyter is listed with 12 APIs on the [APIs.io](https://apis.io/) network, including Config API, Contents API, Server REST API, and 9 more. Tagged areas include Data Science, Education, Interactive Computing, Notebooks, and Python.
 
 
-  Jupyter''s developer surface includes documentation, engineering blog, support, YouTube channel, and 13 more developer resources.'
+  Jupyter''s developer surface includes documentation, engineering blog, support, YouTube channel, and 16 more developer resources.'
 plans:
 - name: Jupyter Plans Pricing
   plan_count: 3
@@ -231,17 +250,17 @@ rate_limits:
   slug: jupyter-rate-limits
 score:
   band: thin
-  composite: 28.9
+  composite: 27.5
   coverage:
-    artifact_dirs: 10
-    catalog_earned: 44.0
+    artifact_dirs: 11
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 71.0
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.4
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 37.1
     developer_ergonomics: 16.7
@@ -264,8 +283,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

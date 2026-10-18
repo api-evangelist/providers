@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://status.utilita.co.uk/api/v2
@@ -238,7 +238,7 @@ modified: '2026-09-16'
 name: Utilita
 nav: Providers
 network: true
-overview: 'Utilita publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Components API, Incidents API, Scheduled Maintenance API, and 1 more. Tagged areas include Energy, United Kingdom, Utilities, Electricity, and Gas.
+overview: 'Utilita publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Components API, Incidents API, Scheduled Maintenance API, and 1 more. Tagged areas include Energy, United Kingdom, Utilities, Electricity, and Gas.
 
 
   The Utilita catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -291,8 +291,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 37.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

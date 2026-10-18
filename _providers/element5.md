@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 8
   slug: element5-agentic-access
   summary_line: 8 operations · 4 acting
-api_count: 1
+api_count: 2
 apis:
 - baseURL: https://api.e5.ai
   baseurl_source: declared
@@ -91,6 +91,10 @@ collections:
   name: Element5 Authorization Object Store API
   slug: open-element5-object-store-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.e5.ai/news
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/element5/refs/heads/main/capabilities/element5-capability-edges.yml
   title: ''
@@ -212,34 +216,34 @@ created: '2026-07-17'
 description: Element5 is a post-acute healthcare workflow automation platform that uses coordinated AI agents (Neos) to automate revenue cycle management (RCM) and back-office operations for home health, hospice, and palliative care providers. Its platform automates eligibility and benefit verification, prior authorization submission, claims processing, denials management, remittance and collections, and audit/compliance workflows, escalating only exceptions to human agents. Element5 exposes a public workflow API (Element5 API v2.2.0) protected by API keys that lets clients submit authorization and eligibility requests, process X12 270/271 eligibility transactions, upload and fetch file objects, and monitor long-running tasks via polling or webhook callbacks. The company is backed by Insight Partners and serves the post-acute care sector.
 image: https://cdn.prod.website-files.com/658c60c4ff902effa2174f77/668c43e2bfb9956a2995b419_e5-logo-gradient.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Element5
 nav: Providers
 network: true
-overview: 'Element5 publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Authorization API, Eligibility API, Object Store API, and 1 more. Tagged areas include Company, Healthcare, Revenue Cycle Management, Post-Acute Care, and Workflow Automation.
+overview: 'Element5 publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authorization API, Eligibility API, Object Store API, and 1 more. Tagged areas include Company, Healthcare, Revenue Cycle Management, Post-Acute Care, and Workflow Automation.
 
 
   The Element5 catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Element5''s developer surface includes authentication, sandbox, documentation, API reference, support, and 20 more developer resources.'
+  Element5''s developer surface includes engineering blog, authentication, sandbox, documentation, API reference, support, and 20 more developer resources.'
 random_paper: 7
 score:
   band: developing
-  composite: 40.4
+  composite: 40.9
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 25.0
     contract_governance: 18.2
     contract_quality: 56.8
-    developer_ergonomics: 51.8
+    developer_ergonomics: 54.2
     discoverability: 73.2
     operational_transparency: 7.9
   previous_composite: 40.4
@@ -263,8 +267,8 @@ score:
     regime: Health
     regime_id: health
     score: 19.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

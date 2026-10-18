@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 2
@@ -77,6 +77,21 @@ collections:
   name: NPR Identity Service Authorization Stationfinder API
   slug: open-npr-stationfinder-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/npr/refs/heads/main/plans/npr-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/npr-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/npr/refs/heads/main/rate-limits/npr-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/npr-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/npr/refs/heads/main/finops/npr-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/npr-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/npr/refs/heads/main/capabilities/npr-capability-edges.yml
   title: ''
@@ -121,19 +136,23 @@ common:
 created: '2024-04-14'
 description: National Public Radio (NPR) APIs. The APIs support station finding, authentication, user management, and listening with audio recommendations tailored to a user's preferences.
 finops:
-- name: Npr Finops
+- has_sources: true
+  method: generated
+  name: Npr Finops
+  primary_unit: ''
   service_category: Media / Public Broadcasting
   slug: npr-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/npr.png
 layout: provider
 modified: '2026-05-19'
 name: NPR
 nav: Providers
 network: true
-overview: 'NPR publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Listening, Authorization API, Identity API, and 1 more. Tagged areas include Media, News, and Radio.
+overview: 'NPR publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Listening, Authorization API, Identity API, and 1 more. Tagged areas include Media, News, and Radio.
 
 
-  NPR''s developer surface includes authentication, documentation, and 7 more developer resources.'
+  NPR''s developer surface includes authentication, documentation, and 10 more developer resources.'
 plans:
 - name: Npr Plans Pricing
   plan_count: 1
@@ -150,17 +169,17 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: emerging
-  composite: 24.5
+  composite: 23.0
   coverage:
     artifact_dirs: 12
-    catalog_earned: 37.0
+    catalog_earned: 34.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 81.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 13.2
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 47.6
     developer_ergonomics: 16.7
@@ -180,8 +199,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -32,10 +32,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://marathon.health/resources/blog
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://marathon.health/resources/blog/rss.xml
 - group: company
   title: ''
   type: Website
@@ -65,26 +73,26 @@ created: '2026-07-17'
 description: Marathon Health is a healthcare services company delivering advanced primary care and occupational health to employers, labor unions, health plans, and brokers/consultants. It operates onsite, nearsite, and network health centers plus virtual primary care, spanning preventive care, mental health, musculoskeletal treatment, lifestyle and medication management, value-driven referrals, and population health management to improve employee health outcomes while lowering total healthcare cost. Backed by NEA. As of this enrichment pass Marathon Health publishes no public developer API, developer portal, or event/webhook surface.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/marathon-health.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Marathon Health
 nav: Providers
 network: true
 overview: 'Marathon Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Digital Health, Primary Care, Occupational Health, and Employer Health.
 
 
-  Marathon Health''s developer surface includes engineering blog, support, and 4 more developer resources.'
+  Marathon Health''s developer surface includes engineering blog, support, and 6 more developer resources.'
 random_paper: 15
 score:
   band: minimal
-  composite: 10.2
+  composite: 10.3
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
@@ -99,8 +107,8 @@ score:
     regime: Health
     regime_id: health
     score: 10.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

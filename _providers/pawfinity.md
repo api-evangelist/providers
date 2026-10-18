@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: private
+  gated_source:
+  - tag:No Public API
   label: Paid
   onboarding: unknown
   pricing: paid
@@ -33,10 +36,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.pawfinity.com/articles/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/pawfinity/refs/heads/main/security/pawfinity-domain-security.yml
   title: ''
@@ -55,11 +62,14 @@ created: '2026-07-04'
 description: Pawfinity is pet service business management software for grooming salons, mobile groomers, kennels, dog daycares, pet sitting, training, and pet therapy businesses - handling online booking, client and pet records, scheduling, point of sale, and staff management. Pawfinity does not publish a public or partner developer API or developer portal. The product is a closed, single-tenant SaaS web application; the only outbound data integration is a built-in, one-way nightly QuickBooks Online sync bundled with the subscription, not a documented API a third party can call.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pawfinity.png
 layout: provider
-modified: '2026-07-04'
+modified: '2026-10-06'
 name: Pawfinity
 nav: Providers
 network: true
-overview: Pawfinity is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Pet Care, Grooming Software, Boarding Software, Daycare Software, and Business Management.
+overview: 'Pawfinity is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Pet Care, Grooming Software, Boarding Software, Daycare Software, and Business Management.
+
+
+  Pawfinity''s developer surface includes engineering blog and 3 more developer resources.'
 plans:
 - name: Pawfinity Plans Pricing
   plan_count: 4
@@ -67,20 +77,20 @@ plans:
 random_paper: 19
 score:
   band: minimal
-  composite: 9.0
+  composite: 5.5
   coverage:
-    artifact_dirs: 4
-    catalog_earned: 37.8
+    artifact_dirs: 5
+    catalog_earned: 30.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 77.2
+    catalog_gap: 85.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.5
   facets:
-    access_clarity: 28.4
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 48.2
     operational_transparency: 0.0
   previous_composite: 9.0
@@ -90,8 +100,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -110,6 +120,5 @@ tags:
 - Boarding Software
 - Daycare Software
 - Business Management
-- No Public API
 website: https://www.pawfinity.com/
 ---

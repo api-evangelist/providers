@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.boldmetrics.com/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/bold-metrics/refs/heads/main/security/bold-metrics-domain-security.yml
   title: ''
@@ -65,26 +69,26 @@ created: '2026-07-17'
 description: Bold Metrics is an AI body data platform for the apparel and fashion industry that uses digital-twin technology to power apparel fit and sizing. From just 4-6 simple body-data inputs it predicts 50+ individual body measurements with tailor-level accuracy, without photos, scanning, or measuring tapes. Its products - Smart Size Chart, Virtual Sizer, Virtual Tailor, Apparel Insights, and the Agentic Sizing Protocol - help brands reduce returns, lift conversion, and increase average order value with personalized size recommendations. The Agentic Sizing Protocol exposes this capability to AI shopping agents while keeping retailer API credentials off the agent and out of any LLM. Bold Metrics has processed 250M+ digital twins and 12B+ body-data points. Backed by Bessemer Venture Partners and Techstars. This profile is maintained in the API Evangelist network; Bold Metrics publishes no public API documentation - integration is gated behind a demo/partner engagement.
 image: https://boldmetrics.com/hubfs/Bold%20Metrics%20Logo%202025/logo-stacked-secondary.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Bold Metrics
 nav: Providers
 network: true
 overview: 'Bold Metrics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Vertical Software, Apparel, Fashion, and Sizing.
 
 
-  Bold Metrics'' developer surface includes engineering blog, support, and 4 more developer resources.'
+  Bold Metrics'' developer surface includes engineering blog, support, and 5 more developer resources.'
 random_paper: 11
 score:
   band: minimal
-  composite: 7.7
+  composite: 7.8
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 10.5
     contract_governance: 0.0
@@ -99,8 +103,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 9.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

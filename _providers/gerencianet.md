@@ -11,10 +11,10 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: negotiable
@@ -24,8 +24,8 @@ agent_readiness:
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: false
-    mcp_server: false
+    idempotency: documented
+    mcp_server: documented
     openapi_examples: documented
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -33,15 +33,15 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.6
-  scored_at: '2026-10-04'
+  score: 33.2
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 112
+- acting_count: 107
   human_in_the_loop: 1
   name: Gerencianet Agentic Access
-  operation_count: 173
+  operation_count: 169
   slug: gerencianet-agentic-access
-  summary_line: 173 operations · 112 acting · 1 human-in-the-loop
+  summary_line: 169 operations · 107 acting · 1 human-in-the-loop
 api_count: 6
 apis:
 - baseURL: https://pix.api.efipay.com.br
@@ -762,7 +762,7 @@ arazzos:
 - description: Schedule a recurring CNAB statement job and confirm it is registered.
   name: Efí CNAB Statement Schedule
   slug: gerencianet-statement-schedule-workflow
-artifact_total: 146
+artifact_total: 149
 collections:
 - collection_type: postman
   name: Efí Pay Cobranças API
@@ -912,6 +912,101 @@ collections:
   name: Efí Pay Cobranças Account Webhooks API
   slug: open-gerencianet-webhooks-api
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/rate-limits/gerencianet-cobrancas-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/gerencianet-cobrancas-rate-limits.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/rules/gerencianet-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/gerencianet-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/rules/gerencianet-jsonschema-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/gerencianet-jsonschema-spectral-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/rules/efi-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/efi-rules.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/skills/_index.yml
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/conventions/gerencianet-conventions.yml
+  title: ''
+  type: Idempotency
+  url: conventions/gerencianet-conventions.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/conventions/gerencianet-conventions.yml
+  title: ''
+  type: Conventions
+  url: conventions/gerencianet-conventions.yml
+- group: start
+  href: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/sandbox/gerencianet-sandbox.yml
+  title: ''
+  type: Sandbox
+  url: sandbox/gerencianet-sandbox.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/lifecycle/gerencianet-lifecycle.yml
+  title: ''
+  type: Lifecycle
+  url: lifecycle/gerencianet-lifecycle.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/conformance/gerencianet-conformance.yml
+  title: ''
+  type: Conformance
+  url: conformance/gerencianet-conformance.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/overlays/gerencianet-account-api-phrasing-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/gerencianet-account-api-phrasing-overlay.yaml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/mcp/gerencianet-tool-crosswalk.yml
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/gerencianet-tool-crosswalk.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/mcp/gerencianet-mcp.yml
+  title: ''
+  type: MCPServer
+  url: mcp/gerencianet-mcp.yml
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/well-known/gerencianet-status-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/gerencianet-status-security.txt
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/well-known/gerencianet-well-known.yml
+  title: ''
+  type: WellKnown
+  url: well-known/gerencianet-well-known.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/hosts/gerencianet-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/gerencianet-hosts.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/integrations/gerencianet-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/gerencianet-integration-edges.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/vendors/gerencianet-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/gerencianet-vendors.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/packages/gerencianet-packages.yml
+  title: ''
+  type: Packages
+  url: packages/gerencianet-packages.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/capabilities/gerencianet-capability-edges.yml
   title: ''
@@ -1001,22 +1096,30 @@ common:
   title: ''
   type: Arazzo
   url: arazzo/gerencianet-statement-schedule-workflow.yml
-- group: start
+- group: company
   title: ''
-  type: Portal
+  type: Website
   url: https://sejaefi.com.br
 - group: start
   title: ''
-  type: GettingStarted
+  type: DeveloperPortal
   url: https://dev.efipay.com.br
 - group: start
   title: ''
-  type: Console
-  url: https://app.efipay.com.br
+  type: GettingStarted
+  url: https://dev.efipay.com.br/docs/api-pix/credenciais
+- group: start
+  title: ''
+  type: Login
+  url: https://app.sejaefi.com.br
 - group: start
   title: ''
   type: Signup
-  url: https://sejaefi.com.br/cadastro
+  url: https://sejaefi.com.br/abrir-conta
+- group: build
+  title: ''
+  type: SourceCode
+  url: https://github.com/efipay/mcp-server-efi
 - group: commercial
   title: ''
   type: Pricing
@@ -1203,9 +1306,13 @@ features:
 - description: Configurable Pix, recurring, and automatic-charge webhook delivery with replay endpoint.
   name: Webhooks With Optional mTLS Skip
 finops:
-- name: Gerencianet Finops
+- has_sources: true
+  method: generated
+  name: Gerencianet Finops
+  primary_unit: ''
   service_category: Payments
   slug: gerencianet-finops
+  template: false
 image: https://efipay.com.br/efi-logo.png
 integrations:
 - description: Official plugin for WooCommerce checkout.
@@ -1247,31 +1354,39 @@ jsonld:
   property_count: 15
   slug: gerencianet-context
 layout: provider
+mcp_servers:
+- description: MCP server requiring an API key; 173 tools listed.
+  name: Efí MCP Server
+  slug: ef-mcp-server
 modified: '2026-05-24'
 name: Efí Pay (Gerencianet)
 nav: Providers
 network: true
-overview: 'Efí Pay (Gerencianet) publishes 36 APIs on the [APIs.io](https://apis.io/) network, including Account API, Accounts API, Authorization API, and 33 more. Tagged areas include Payments, Pix, Boleto, Subscription, and Recurring Billing.
+overview: 'Efí Pay (Gerencianet) publishes 36 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Accounts API, Authorization API, and 33 more. Tagged areas include Payments, Pix, Boleto, Subscription, and Recurring Billing.
 
 
-  The Efí Pay (Gerencianet) catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+  The Efí Pay (Gerencianet) catalog on APIs.io includes 1 JSON-LD context and 3 Spectral governance rulesets.
 
 
-  Efí Pay (Gerencianet)''s developer surface includes authentication, developer portal, getting-started guide, developer console, signup flow, pricing, engineering blog, and 50 more developer resources.'
+  Efí Pay (Gerencianet)''s developer surface includes sandbox, authentication, getting-started guide, signup flow, pricing, engineering blog, support, and 71 more developer resources.'
 plans:
 - name: Gerencianet Plans Pricing
-  plan_count: 5
+  plan_count: 12
   slug: gerencianet-plans-pricing
 random_paper: 13
 rate_limits:
-- limit_count: 5
+- limit_count: 39
+  name: Gerencianet Cobrancas Rate Limits
+  slug: gerencianet-cobrancas-rate-limits
+- limit_count: 24
   name: Gerencianet Rate Limits
   slug: gerencianet-rate-limits
 rules:
-- effective_rule_count: 47
+- authorship: unmarked
+  effective_rule_count: 47
   extends:
   - spectral:oas
-  name: Efí Pay (Gerencianet) API Rules
+  name: Efí Pay (Gerencianet) — efi rules
   rule_count: 6
   severity_counts:
     error: 2
@@ -1279,9 +1394,10 @@ rules:
     info: 1
     warn: 3
   slug: efi-rules
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Efí Pay (Gerencianet) API Rules
+  name: Efí Pay (Gerencianet) — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1289,29 +1405,41 @@ rules:
     info: 2
     warn: 3
   slug: gerencianet-jsonschema-spectral-rules
+- authorship: generated
+  effective_rule_count: 53
+  extends:
+  - spectral:oas
+  name: Efí Pay (Gerencianet) API Rules
+  rule_count: 12
+  severity_counts:
+    error: 10
+    hint: 0
+    info: 1
+    warn: 1
+  slug: gerencianet-rules
 scopes:
 - name: Gerencianet Scopes
-  scope_count: 12
+  scope_count: 40
   slug: gerencianet-scopes
-  summary_line: 12 scopes · clientCredentials
+  summary_line: 40 scopes · clientCredentials
 score:
-  band: exemplar
-  composite: 67.1
+  band: strong
+  composite: 62.1
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 95.3
-    catalog_earned_first_party: 0.0
-    catalog_gap: 19.7
+    artifact_dirs: 32
+    catalog_earned: 79.8
+    catalog_earned_first_party: 24.0
+    catalog_gap: 35.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.0
   facets:
-    access_clarity: 81.1
-    contract_governance: 62.7
+    access_clarity: 76.3
+    contract_governance: 22.0
     contract_quality: 59.9
-    developer_ergonomics: 75.0
-    discoverability: 53.6
-    operational_transparency: 49.5
+    developer_ergonomics: 76.8
+    discoverability: 53.3
+    operational_transparency: 52.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -1322,20 +1450,23 @@ score:
   previous_composite: 67.1
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 36
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 36.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

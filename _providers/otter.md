@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.5
-  scored_at: '2026-10-04'
+  score: 33.6
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 0
@@ -1234,9 +1234,13 @@ features:
 - description: Subscribe to order, menu, delivery, storefront, reports, and account-pairing events signed with HMAC-SHA256.
   name: Webhooks
 finops:
-- name: Otter Finops
+- has_sources: true
+  method: generated
+  name: Otter Finops
+  primary_unit: ''
   service_category: Restaurant Operations & Commerce
   slug: otter-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/otter.png
 integrations:
 - description: Third-party delivery marketplaces and on-demand courier networks.
@@ -3171,7 +3175,7 @@ modified: '2026-06-03'
 name: Otter
 nav: Providers
 network: true
-overview: 'Otter publishes 27 APIs on the [APIs.io](https://apis.io/) network, including Account Pairing Endpoints API, Auth Endpoints API, Callback Endpoints API, and 24 more. Tagged areas include Restaurant, Order Management, Delivery, Online Ordering, and Menu Management.
+overview: 'Otter is listed with 27 APIs on the [APIs.io](https://apis.io/) network, including Account Pairing Endpoints API, Auth Endpoints API, Callback Endpoints API, and 24 more. Tagged areas include Restaurant, Order Management, Delivery, Online Ordering, and Menu Management.
 
 
   The Otter catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -3188,9 +3192,10 @@ rate_limits:
   name: Otter Rate Limits
   slug: otter-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Otter API Rules
+  name: Otter — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -3198,9 +3203,10 @@ rules:
     info: 2
     warn: 3
   slug: otter-jsonschema-spectral-rules
-- effective_rule_count: 29
+- authorship: generated
+  effective_rule_count: 29
   extends: []
-  name: Otter API Rules
+  name: Otter — public api rules
   rule_count: 29
   severity_counts:
     error: 6
@@ -3214,23 +3220,23 @@ scopes:
   slug: otter-scopes
   summary_line: 31 scopes · clientCredentials/authorizationCode
 score:
-  band: developing
-  composite: 41.6
+  band: thin
+  composite: 33.3
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 90.0
+    artifact_dirs: 19
+    catalog_earned: 71.4
     catalog_earned_first_party: 0.0
-    catalog_gap: 25.0
+    catalog_gap: 43.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 46.8
+    access_clarity: 18.4
     contract_governance: 27.3
     contract_quality: 26.4
     developer_ergonomics: 7.1
     discoverability: 71.4
-    operational_transparency: 52.1
+    operational_transparency: 31.6
   previous_composite: 41.6
   provenance:
     agentic_access: derived
@@ -3245,9 +3251,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 61.1

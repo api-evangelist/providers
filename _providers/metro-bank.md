@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -205,7 +205,7 @@ modified: '2026-07-23'
 name: Metro Bank
 nav: Providers
 network: true
-overview: 'Metro Bank publishes 10 APIs on the [APIs.io](https://apis.io/) network, including ATM API, BCA API, Branch API, and 7 more. Tagged areas include Financial Services, Banking, Open Banking, PSD2, and OBIE.
+overview: 'Metro Bank publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including ATM API, BCA API, Branch API, and 7 more. Tagged areas include Financial Services, Banking, Open Banking, PSD2, and OBIE.
 
 
   Metro Bank''s developer surface includes authentication, documentation, engineering blog, support, and 18 more developer resources.'
@@ -219,7 +219,7 @@ score:
   band: thin
   composite: 35.6
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 63.0
@@ -262,8 +262,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 40.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

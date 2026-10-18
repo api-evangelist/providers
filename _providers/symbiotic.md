@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -55,6 +55,10 @@ collections:
   name: v1/api.proto SymbioticAPIService API
   slug: open-symbiotic-symbioticapiservice-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://resources.symbiotic.fi/rss.xml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/symbiotic/refs/heads/main/skills/symbiotic-query-validator-set.md
   title: ''
@@ -82,23 +86,23 @@ common:
 created: '2026-07-17'
 description: 'Symbiotic is a company surfaced as a portfolio company of paradigm and added to the API Evangelist network as a stub for enrichment. Sector: crypto-defi. This profile is a lead awaiting the enrichment pipeline.'
 layout: provider
-modified: '2026-07-17'
+modified: '2026-10-06'
 name: Symbiotic
 nav: Providers
 network: true
-overview: 'Symbiotic publishes 1 API on the [APIs.io](https://apis.io/) network: SymbioticAPIService API. Tagged areas include Company, Crypto Defi, and A2A.'
+overview: 'Symbiotic publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: SymbioticAPIService API. Tagged areas include Company, Crypto Defi, and A2A.'
 random_paper: 11
 score:
   band: minimal
-  composite: 10.2
+  composite: 10.3
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 20.0
     catalog_earned_first_party: 0.0
     catalog_gap: 95.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 0.0
     contract_governance: 4.5
@@ -123,8 +127,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 0.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

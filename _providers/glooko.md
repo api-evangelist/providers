@@ -33,10 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 4
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://glooko.com/feed/
 - group: company
   title: ''
   type: Website
@@ -115,20 +119,20 @@ created: '2026-07-17'
 description: Glooko is a diabetes and cardiometabolic data management platform that unifies data from more than 200 diabetes and health monitoring devices (blood glucose meters, continuous glucose monitors, insulin pumps and pens, and connected health devices) into a single view for people with diabetes and their care teams. The platform streamlines clinical workflows, surfaces actionable insights and population-level analytics for healthcare providers, and supports remote patient monitoring, virtual care, and life-sciences research using real-world device data. Glooko integrates with major electronic health record (EHR) systems via SMART on FHIR and offers an API and EHR integration program for device manufacturers, pharmaceutical companies, health systems, and digital health partners. Glooko also delivers EndoTool, an inpatient glucose management system, through its acquisition of Monarch Medical Technologies.
 image: https://glooko.com/wp-content/uploads/2025/08/Glooko-Home-Featured-Image.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Glooko
 nav: Providers
 network: true
 overview: 'Glooko is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Diabetes, Diabetes Management, Healthcare, and Digital Health.
 
 
-  Glooko''s developer surface includes documentation, support, engineering blog, authentication, and 13 more developer resources.'
+  Glooko''s developer surface includes documentation, support, engineering blog, authentication, and 14 more developer resources.'
 random_paper: 13
 score:
   band: emerging
   composite: 24.3
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -161,8 +165,8 @@ score:
     regime: Health
     regime_id: health
     score: 39.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

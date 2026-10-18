@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.carmoola.co.uk/blog/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/carmoola/refs/heads/main/security/carmoola-domain-security.yml
   title: ''
@@ -81,18 +85,18 @@ created: '2026-07-17'
 description: Carmoola is a UK-based, mobile-first car finance platform that lets consumers get a pre-approved budget in minutes through its app, then pay dealers or private sellers directly with a virtual card. It offers Hire Purchase (HP) and Personal Contract Purchase (PCP) financing, soft credit checks that do not affect the applicant's score, flexible repayment terms, and the ability to refinance an existing car loan. Carmoola is authorised and regulated by the UK Financial Conduct Authority (FCA) and is backed by investors including QED Investors. This profile was surfaced as a QED Investors portfolio company and enriched by the API Evangelist pipeline; Carmoola operates a consumer app rather than a public developer API.
 image: https://www.carmoola.co.uk/hubfs/carmoola-logo.svg
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Carmoola
 nav: Providers
 network: true
 overview: 'Carmoola is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Automotive, Car Finance, and Lending.
 
 
-  Carmoola''s developer surface includes engineering blog, support, signup flow, and 7 more developer resources.'
+  Carmoola''s developer surface includes engineering blog, support, signup flow, and 8 more developer resources.'
 random_paper: 10
 score:
   band: minimal
-  composite: 10.2
+  composite: 10.3
   coverage:
     artifact_dirs: 4
     catalog_earned: 27.0
@@ -100,7 +104,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
@@ -123,8 +127,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://backend.openenvoy.io/public/api/v1
@@ -46,6 +46,11 @@ apis:
   slug: openenvoy-job-api
 artifact_total: 5
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/openenvoy/refs/heads/main/rate-limits/openenvoy-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/openenvoy-rate-limits.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/openenvoy/refs/heads/main/overlays/openenvoy-openapi-overlay.yaml
   title: ''
@@ -136,10 +141,10 @@ modified: '2026-08-26'
 name: OpenEnvoy
 nav: Providers
 network: true
-overview: 'OpenEnvoy publishes 1 API on the [APIs.io](https://apis.io/) network: Job API. Tagged areas include Accounts Payable, Accounts Receivable, Invoice Processing, Finance Automation, and Accounting.
+overview: 'OpenEnvoy publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Job API. Tagged areas include Accounts Payable, Accounts Receivable, Invoice Processing, Finance Automation, and Accounting.
 
 
-  OpenEnvoy''s developer surface includes documentation, API reference, support, engineering blog, pricing, getting-started guide, changelog, and 12 more developer resources.'
+  OpenEnvoy''s developer surface includes documentation, API reference, support, engineering blog, pricing, getting-started guide, changelog, and 13 more developer resources.'
 plans:
 - name: Openenvoy Plans Pricing
   plan_count: 3
@@ -153,7 +158,7 @@ score:
   band: developing
   composite: 48.1
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -183,8 +188,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

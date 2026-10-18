@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 15.5
-  scored_at: '2026-10-04'
+  score: 13.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Manage charging stations and charge points (EVSE) - registration, status, health, and availability - within the EV Connect charge point management platform. Endpoints and base URL are not publicly doc
@@ -111,16 +111,20 @@ common:
 created: '2026-06-21'
 description: EV Connect is an EV charging network and charge-station management platform (a CPMS / charge point management system) now part of Schneider Electric. Its API Platform exposes open, standards-based APIs through an API Gateway so operators can white-label driver apps and integrate charging into commerce, loyalty, fleet, and energy systems, backed by OCPP station certification and OCPI roaming. Developer documentation and credentials are partner/sales-gated; no public base URL, endpoints, or authentication details are published.
 finops:
-- name: Ev Connect Finops
+- has_sources: true
+  method: generated
+  name: Ev Connect Finops
+  primary_unit: ''
   service_category: EV Charging and Energy Management
   slug: ev-connect-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ev-connect.png
 layout: provider
 modified: '2026-06-21'
 name: EV Connect
 nav: Providers
 network: true
-overview: 'EV Connect publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Stations / Charge Points API, Sessions API, Connectors API, and 3 more. Tagged areas include EV Charging, Charge Point Management, CPMS, Mobility, and Energy.
+overview: 'EV Connect publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Stations / Charge Points API, Sessions API, Connectors API, and 3 more. Tagged areas include EV Charging, Charge Point Management, CPMS, Mobility, and Energy.
 
 
   EV Connect''s developer surface includes documentation, engineering blog, and 8 more developer resources.'
@@ -135,22 +139,22 @@ rate_limits:
   slug: ev-connect-rate-limits
 score:
   band: emerging
-  composite: 22.4
+  composite: 16.4
   coverage:
-    artifact_dirs: 9
-    catalog_earned: 49.4
+    artifact_dirs: 10
+    catalog_earned: 36.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 65.6
+    catalog_gap: 79.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.0
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 23.3
     developer_ergonomics: 16.2
     discoverability: 57.1
-    operational_transparency: 21.6
+    operational_transparency: 7.9
   previous_composite: 22.4
   regulatory:
     applies: true
@@ -158,9 +162,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 9.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

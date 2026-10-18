@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The agent-callable commerce surface of the PBS Biotech online store. Implemented by Shopify on the company's own shoppbsbiotech.com host and advertised by the store's own /llms.txt, /agents.md and /ro
@@ -169,7 +169,7 @@ modified: '2026-08-26'
 name: PBS Biotech
 nav: Providers
 network: true
-overview: 'PBS Biotech publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Life Sciences, Biotechnology, Bioprocessing, and Cell Therapy.
+overview: 'PBS Biotech is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Life Sciences, Biotechnology, Bioprocessing, and Cell Therapy.
 
 
   PBS Biotech''s developer surface includes support, pricing, authentication, changelog, and 20 more developer resources.'
@@ -191,7 +191,7 @@ score:
   band: thin
   composite: 29.4
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -216,8 +216,8 @@ score:
     regime: Health
     regime_id: health
     score: 36.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

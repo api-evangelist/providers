@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.finleycms.com/blog
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/finley-concord/refs/heads/main/security/finley-concord-domain-security.yml
   title: ''
@@ -69,31 +73,31 @@ created: '2026-07-17'
 description: Finley (Concord) is Finley Technologies, a cloud-based loan administration and debt-capital-management platform for credit funds, banks, and private credit operators. The software digitizes 200+ credit-agreement fields and covers loan servicing (KYC, money movement, notice delivery), portfolio and borrowing-base monitoring, syndicated-loan management, and backup / credit administration, plus Finley AI for automating calculations, compliance checks, and notices. Finley is backed by Bain Capital Ventures and is delivered as a hosted web application at app.finleycms.com with product documentation at docs.finleycms.com. No public developer API, OpenAPI specification, or SDK is published at this time.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/finley-concord.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Finley (Concord)
 nav: Providers
 network: true
 overview: 'Finley (Concord) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Apps, Fintech, Loan Servicing, and Loan Administration.
 
 
-  Finley (Concord)''s developer surface includes documentation, support, and 5 more developer resources.'
+  Finley (Concord)''s developer surface includes engineering blog, documentation, support, and 5 more developer resources.'
 random_paper: 6
 score:
   band: emerging
-  composite: 12.9
+  composite: 13.5
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 27.6
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 14.3
+    developer_ergonomics: 16.7
     discoverability: 48.2
     operational_transparency: 0.0
   previous_composite: 12.9
@@ -103,8 +107,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

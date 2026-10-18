@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -75,6 +75,10 @@ collections:
   name: Hedra Web Public API
   slug: open-hedra-public-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.hedra.com/blog/feed.xml
 - group: company
   title: ''
   type: Website
@@ -240,21 +244,21 @@ created: '2026-07-17'
 description: Hedra is a generative-media AI lab and creative platform that lets you produce image, video, and audio content through a web studio and a developer API. Its proprietary Character-3 model powers expressive talking-head and character video, and the platform brokers access to leading partner models (Veo, Kling, Grok, Nano Banana Pro, Flux, Sana) behind one credit-based account. The Hedra Web API exposes a small, uniform surface — list models and voices, upload assets, submit generations (image, video, avatar, text-to-speech, voice clone, upscale, video-to-video), poll generation status, and check billing credits — authenticated with an X-API-Key header. Hedra ships first-party Python, Node/TypeScript, and Rust CLI clients. Backed by a16z.
 image: https://www.hedra.com/assets/logo/light.svg
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Hedra
 nav: Providers
 network: true
-overview: 'Hedra publishes 1 API on the [APIs.io](https://apis.io/) network: Public API. Tagged areas include Company, Artificial Intelligence, Generative AI, Video Generation, and Image Generation.
+overview: 'Hedra publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Public API. Tagged areas include Company, Artificial Intelligence, Generative AI, Video Generation, and Image Generation.
 
 
   The Hedra catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Hedra''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, engineering blog, and 28 more developer resources.'
+  Hedra''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, engineering blog, and 29 more developer resources.'
 random_paper: 10
 score:
   band: developing
-  composite: 48.1
+  composite: 47.7
   coverage:
     artifact_dirs: 22
     catalog_earned: 37.0
@@ -262,7 +266,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.4
   facets:
     access_clarity: 44.7
     contract_governance: 4.5
@@ -283,12 +287,12 @@ score:
     skills: derived
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 22.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

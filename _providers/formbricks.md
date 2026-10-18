@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -80,7 +80,7 @@ apis:
   description: Real-time HTTP notifications for response events.
   name: Formbricks Webhooks API
   slug: formbricks-webhooks-api
-artifact_total: 22
+artifact_total: 23
 collections:
 - collection_type: open
   name: API Collection
@@ -165,22 +165,33 @@ common:
   title: ''
   type: Blog
   url: https://formbricks.com/blog
+- group: design
+  title: ''
+  type: SpectralRules
+  url: https://github.com/formbricks/hub/blob/200c1ac9a0d67e7f5333cd8ad702d6dde1ed5305/.spectral.yaml
 created: '2026-06-20'
 description: Formbricks is an open-source experience management and survey platform (a privacy-first Typeform / Qualtrics alternative). Its REST API lets you create and manage surveys, collect and query responses, manage contacts and their attributes, and wire up webhooks, with a Public Client API (no auth) for survey delivery and a Management API authenticated with an x-api-key header.
 finops:
-- name: Formbricks Finops
+- has_sources: true
+  method: generated
+  name: Formbricks Finops
+  primary_unit: ''
   service_category: Analytics and Experience Management
   slug: formbricks-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/formbricks.png
 layout: provider
 modified: '2026-06-20'
 name: Formbricks
 nav: Providers
 network: true
-overview: 'Formbricks publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Action Classes API, Client API, Contacts API, and 4 more. Tagged areas include Surveys, Experience Management, Feedback, Forms, and Open Source.
+overview: 'Formbricks publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Action Classes API, Client API, Contacts API, and 4 more. Tagged areas include Surveys, Experience Management, Feedback, Forms, and Open Source.
 
 
-  Formbricks'' developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
+  The Formbricks catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
+  Formbricks'' developer surface includes authentication, documentation, engineering blog, and 10 more developer resources.'
 plans:
 - name: Formbricks Plans Pricing
   plan_count: 5
@@ -190,24 +201,37 @@ rate_limits:
 - limit_count: 5
   name: Formbricks Rate Limits
   slug: formbricks-rate-limits
+rules:
+- authorship: provider
+  effective_rule_count: 41
+  extends:
+  - spectral:oas
+  name: Formbricks — hub rules
+  rule_count: 0
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 0
+    warn: 0
+  slug: formbricks-hub-spectral-rules
 score:
   band: thin
-  composite: 38.8
+  composite: 32.4
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 61.6
-    catalog_earned_first_party: 0.0
-    catalog_gap: 53.4
+    artifact_dirs: 14
+    catalog_earned: 48.0
+    catalog_earned_first_party: 5.0
+    catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.4
   facets:
-    access_clarity: 36.3
-    contract_governance: 0.0
+    access_clarity: 7.9
+    contract_governance: 15.2
     contract_quality: 49.7
     developer_ergonomics: 32.1
     discoverability: 66.1
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   previous_composite: 38.8
   provenance:
     agentic_access: derived
@@ -222,9 +246,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 33.3

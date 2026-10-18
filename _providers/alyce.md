@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: REST API for the Alyce corporate gifting platform enabling programmatic gift sending, recipient tracking, budget management, marketplace configuration, and CRM workflow automation. Supports integratio
@@ -101,9 +101,13 @@ coverage:
 created: '2026-06-13'
 description: Alyce is an AI-powered corporate gifting platform that enables B2B sales, marketing, and customer success teams to send hyper-personalized gifts at scale. The platform provides a REST API for sending personalized gifts, tracking gift acceptance and engagement, managing budgets and marketplaces, and integrating with CRM and marketing automation tools including Salesforce, HubSpot, Marketo, Eloqua, Outreach, and Salesloft. Alyce, Inc. was acquired by Sendoso in February 2024 and operated as "Alyce by Sendoso"; the standalone Alyce product surface has since been decommissioned — as of August 2026 the alyce.com apex and every product subdomain (www, app, api, docs, dashboard, recipient) no longer resolve, the documentation host returns a Cloudflare origin error, and the status page is inactive. This profile is retained as a historical record.
 finops:
-- name: Alyce Finops
+- has_sources: false
+  method: generated
+  name: Alyce Finops
+  primary_unit: ''
   service_category: ''
   slug: alyce-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/alyce.png
 jsonld:
 - class_count: 11
@@ -115,7 +119,7 @@ modified: '2026-08-13'
 name: Alyce
 nav: Providers
 network: true
-overview: 'Alyce publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Gifting, Corporate Gifting, B2B, Marketing Automation, and CRM Integration.
+overview: 'Alyce is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Gifting, Corporate Gifting, B2B, Marketing Automation, and CRM Integration.
 
 
   The Alyce catalog on APIs.io includes 1 JSON-LD context.'
@@ -130,17 +134,17 @@ rate_limits:
   slug: alyce-rate-limits
 score:
   band: emerging
-  composite: 21.1
+  composite: 19.6
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 72.0
+    artifact_dirs: 12
+    catalog_earned: 69.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 43.0
+    catalog_gap: 46.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 39.5
+    access_clarity: 31.6
     contract_governance: 0.0
     contract_quality: 10.7
     developer_ergonomics: 0.0
@@ -153,8 +157,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

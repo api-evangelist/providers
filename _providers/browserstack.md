@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 44.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -217,6 +217,11 @@ collections:
   name: BrowserStack Automate REST API
   slug: open-browserstack
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/browserstack/refs/heads/main/finops/browserstack-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/browserstack-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/browserstack/refs/heads/main/capabilities/browserstack-capability-edges.yml
   title: ''
@@ -419,9 +424,13 @@ common:
 created: '2025-02-17'
 description: BrowserStack provides instant access to 3,500+ real desktop browsers and 30,000+ real mobile device units for manual and automated software testing. Its products span cross-browser testing (Live, Automate), mobile app testing (App Live, App Automate), visual regression testing (Percy, App Percy), accessibility testing, test management, test reporting and analytics, and low-code automation. Each product exposes its own REST API on its own host, and BrowserStack ships an official Model Context Protocol server — hosted at mcp.browserstack.com and distributed as an npm package — carrying 44 tools across those products.
 finops:
-- name: Browserstack Finops
+- has_sources: false
+  method: generated
+  name: Browserstack Finops
+  primary_unit: ''
   service_category: API
   slug: browserstack-finops
+  template: true
 image: https://www.browserstack.com/images/browserstack-logo.svg
 layout: provider
 mcp_servers:
@@ -432,10 +441,10 @@ modified: '2026-09-04'
 name: BrowserStack
 nav: Providers
 network: true
-overview: 'BrowserStack publishes 22 APIs on the [APIs.io](https://apis.io/) network, including AccessKey API, Browsers API, Builds API, and 19 more. Tagged areas include Accessibility, Appium, Application, Automation, and CI/CD.
+overview: 'BrowserStack publishes 22 API contracts indexed on the [APIs.io](https://apis.io/) network, including AccessKey API, Browsers API, Builds API, and 19 more. Tagged areas include Accessibility, Appium, Application, Automation, and CI/CD.
 
 
-  BrowserStack''s developer surface includes authentication, developer portal, getting-started guide, engineering blog, pricing, signup flow, support, and 37 more developer resources.'
+  BrowserStack''s developer surface includes authentication, developer portal, getting-started guide, engineering blog, pricing, signup flow, support, and 38 more developer resources.'
 plans:
 - name: Browserstack Plans Pricing
   plan_count: 17
@@ -446,18 +455,18 @@ rate_limits:
   name: Browserstack Rate Limits
   slug: browserstack-rate-limits
 score:
-  band: exemplar
-  composite: 67.8
+  band: strong
+  composite: 66.3
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 59.0
+    artifact_dirs: 26
+    catalog_earned: 56.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 56.0
+    catalog_gap: 59.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 100.0
+    access_clarity: 92.1
     contract_governance: 18.2
     contract_quality: 47.1
     developer_ergonomics: 73.2
@@ -480,8 +489,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -499,7 +508,7 @@ security:
 - kind: vulnerability-disclosure
   name: Browserstack Vulnerability Disclosure
   slug: browserstack-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 - kind: trust-center
   name: Browserstack Trust Center
   slug: browserstack-trust-center

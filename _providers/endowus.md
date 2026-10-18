@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://endowus.com/insights/rss.xml
 - group: company
   title: ''
   type: Website
@@ -78,14 +82,14 @@ created: '2026-07-17'
 description: Endowus is a Singapore- and Hong Kong-based digital wealth management platform founded in 2017 by Gregory Van and Samuel Rhee. It gives retail, accredited, and private-wealth clients access to low-fee institutional share-class funds, advised and self-directed portfolios, and private-market and alternatives strategies across Cash, CPF (Central Provident Fund), and SRS (Supplementary Retirement Scheme) accounts. Its conflict-free model rebates 100% of trailer fees and fund-manager commissions to clients. Endowus is licensed by the Monetary Authority of Singapore (CMS License 101051), serves 300,000+ clients, and manages over US$10 billion in assets. It was added to the API Evangelist network as a portfolio-company lead; the company operates consumer apps but publishes no public developer API or documentation at this time.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/endowus.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Endowus
 nav: Providers
 network: true
 overview: 'Endowus is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Wealth Management, Fintech, Investing, and Robo-Advisor.
 
 
-  Endowus'' developer surface includes engineering blog, support, signup flow, and 6 more developer resources.'
+  Endowus'' developer surface includes engineering blog, support, signup flow, and 7 more developer resources.'
 random_paper: 3
 score:
   band: emerging
@@ -120,8 +124,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -136,7 +140,7 @@ security:
 - kind: vulnerability-disclosure
   name: Endowus Vulnerability Disclosure
   slug: endowus-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 slug: endowus
 tags:
 - Company

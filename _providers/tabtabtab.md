@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Control plane (api.tabtabtab.ai) plus per-environment agent/webhook surface (<env>.tabtabtab.app). Driven via the tabtabtab CLI and inbound webhooks; no public OpenAPI is published.
@@ -45,6 +45,10 @@ asyncapis:
   name: Tabtabtab Webhooks
   slug: tabtabtab-webhooks
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://tabtabtab.ai/blog/
 - group: company
   title: ''
   type: Website
@@ -142,34 +146,34 @@ created: '2026-07-17'
 description: 'TabTabTab runs coding agents in the background, triggered by webhooks, schedules, Slack, or direct requests. You wire up a trigger once and work comes back to you: code changes arrive as pull requests you can verify before you merge, while ops and data-analysis jobs skip the PR and report back when done. Agents run on a persistent cloud VM ("environment") on your own Codex or Claude Code accounts, coordinated by an always-on meta agent that routes work across projects and dispatches isolated worker sessions. Every pull request ships with receipts — a browser test video, a password-protected preview URL, and a trace of what triggered the run — so verification is a two-minute review instead of a re-investigation. Drive it from the dashboard, from Slack, or with the official tabtabtab CLI and the published tabtabtab agent skill.'
 image: https://tabtabtab.ai/og-image.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: TabTabTab
 nav: Providers
 network: true
-overview: 'TabTabTab publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Agents, Artificial Intelligence, Coding Agents, and Developer Tools.
+overview: 'TabTabTab is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Agents, Artificial Intelligence, Coding Agents, and Developer Tools.
 
 
   The TabTabTab catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  TabTabTab''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, changelog, and 14 more developer resources.'
+  TabTabTab''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, pricing, signup flow, and 15 more developer resources.'
 random_paper: 9
 score:
   band: thin
-  composite: 28.5
+  composite: 29.0
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 13.2
     contract_governance: 0.0
     contract_quality: 39.0
-    developer_ergonomics: 40.5
+    developer_ergonomics: 42.9
     discoverability: 73.2
     operational_transparency: 10.5
   previous_composite: 28.5
@@ -181,8 +185,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

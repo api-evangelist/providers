@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://rivosinc.com/blog/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/rivos/refs/heads/main/security/rivos-domain-security.yml
   title: ''
@@ -93,28 +97,31 @@ created: '2026-05-23'
 description: Rivos is a Santa Clara-based silicon startup founded in 2021 that designs data-center class GPUs and AI accelerators around the open RISC-V instruction set architecture, fabricated on TSMC's 3nm process. The company is also developing a CUDA-to-RISC-V translation layer to ease migration of Nvidia-based AI workloads onto its silicon. Rivos raised a 250 million dollar Series A in 2024 led by Matrix Capital Management with Walden Catalyst and Dell Capital Partners, followed by additional rounds bringing total funding above 370 million dollars at a valuation north of 2 billion dollars. In October 2025 Meta announced an agreement to acquire Rivos to bolster its in-house custom silicon program. The company has operated in near-stealth mode and currently exposes no public website content, SDKs, or APIs, so this profile is intentionally an empty apis list with external press and acquisition references.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rivos.png
 layout: provider
-modified: '2026-05-23'
+modified: '2026-10-06'
 name: Rivos
 nav: Providers
 network: true
-overview: Rivos is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include AI Hardware, RISC-V, GPU, Accelerator, and Silicon.
+overview: 'Rivos is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include AI Hardware, RISC-V, GPU, Accelerator, and Silicon.
+
+
+  Rivos'' developer surface includes engineering blog and 13 more developer resources.'
 random_paper: 13
 score:
   band: minimal
-  composite: 4.2
+  composite: 4.7
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 56.3
     operational_transparency: 0.0
   jurisdiction:
@@ -131,8 +138,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

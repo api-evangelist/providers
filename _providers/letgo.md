@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 2.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.letgo.com/blog/
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/letgo/refs/heads/main/llms/letgo-llms.txt
   title: ''
@@ -54,28 +58,31 @@ created: '2026-07-17'
 description: letgo is a mobile-first classifieds and secondhand marketplace where individuals list, browse, and negotiate on used goods — vehicles, electronics, furniture, and household items — with chat-based buyer/seller messaging and location-based discovery. Launched in 2015 and backed by Naspers/OLX, letgo grew into one of the largest peer-to-peer resale apps in the United States before combining its US operation with OfferUp in 2020. The letgo brand and letgo.com continue to operate as a regional classifieds marketplace; the live site currently serves a Turkish-language catalog (category browsing, search, and an otoplus vehicles section per its robots.txt). letgo publishes no public developer program, API documentation, or SDKs. The application-internal API under /api/ is explicitly disallowed in robots.txt, and the entire site sits behind an Akamai bot-mitigation challenge, so no developer surface could be verified.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/letgo.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: LetGo
 nav: Providers
 network: true
-overview: LetGo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Classifieds, Marketplace, Secondhand, and Peer to Peer Commerce.
+overview: 'LetGo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Classifieds, Marketplace, Secondhand, and Peer to Peer Commerce.
+
+
+  LetGo''s developer surface includes engineering blog and 3 more developer resources.'
 random_paper: 11
 score:
   band: minimal
-  composite: 4.1
+  composite: 4.6
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 6
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 55.4
     operational_transparency: 0.0
   previous_composite: 4.1
@@ -85,13 +92,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/letgo/refs/heads/main/screenshots/letgo-2026-10-11T190929.png
 security:
 - kind: domain-security
   name: Letgo Domain Security

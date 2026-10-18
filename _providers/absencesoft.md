@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: API-first REST API powering leave and accommodations case management, employee data, employer configuration, and communications. OpenAPI 3.1, OAuth2 (password and client credentials flows), HTTPS-only
@@ -45,6 +45,10 @@ asyncapis:
   name: Absencesoft Webhooks
   slug: absencesoft-webhooks
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://absencesoft.com/resources-category/blog/feed/
 - group: company
   title: ''
   type: Website
@@ -125,23 +129,23 @@ created: '2026-07-17'
 description: 'AbsenceSoft is a leave and accommodations management SaaS platform that automates and streamlines the administration of employee absences and workplace accommodations. Its Compliance Engine calculates employee eligibility across 200+ federal, state, and territorial leave laws including FMLA, ADA, and PWFA, with intelligent workflow automation, ACE communication packet generation, interactive accommodations tracking, dashboards, and an employee self-service portal. AbsenceSoft is API-first: it exposes an open, system-agnostic REST API (OpenAPI 3.1, OAuth2) plus webhooks and file-based batch sync so HR, payroll, and HRIS teams can build integrations independently. It serves 400+ large enterprises across healthcare, higher education, K-12, banking and finance, TPAs, and PEOs, supporting more than 7 million lives.'
 image: https://absencesoft.com/wp-content/uploads/2023/01/absencesoft-logo.png
 layout: provider
-modified: '2026-07-17'
+modified: '2026-10-06'
 name: AbsenceSoft
 nav: Providers
 network: true
-overview: 'AbsenceSoft publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Leave Management, Absence Management, Accommodation, and Human Resources.
+overview: 'AbsenceSoft is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Leave Management, Absence Management, Human Resources, and Compliance.
 
 
   The AbsenceSoft catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  AbsenceSoft''s developer surface includes documentation, API reference, engineering blog, support, signup flow, authentication, and 11 more developer resources.'
+  AbsenceSoft''s developer surface includes documentation, API reference, engineering blog, support, signup flow, authentication, and 12 more developer resources.'
 random_paper: 21
 score:
   band: thin
   composite: 38.2
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -164,8 +168,8 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 25.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -190,10 +194,10 @@ tags:
 - Company
 - Leave Management
 - Absence Management
-- Accommodation
 - Human Resources
 - Compliance
 - FMLA
-- ADAS
+- ADA Compliance
+- Workplace Accommodations
 website: https://absencesoft.com
 ---

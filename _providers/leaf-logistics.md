@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The API behind the Leaf Logistics platform. api.leaflogistics.com runs Hasura GraphQL Engine v2.35.1 (community edition, pro-lite console) and exposes a GraphQL endpoint at /v1/graphql plus a Hasura R
@@ -150,7 +150,7 @@ modified: '2026-08-25'
 name: Leaf Logistics
 nav: Providers
 network: true
-overview: 'Leaf Logistics publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Logistics, Freight, Transportation, Supply Chain, and Shipping.
+overview: 'Leaf Logistics is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Logistics, Freight, Transportation, Supply Chain, and Shipping.
 
 
   Leaf Logistics'' developer surface includes engineering blog, support, signup flow, YouTube channel, and 15 more developer resources.'
@@ -197,8 +197,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

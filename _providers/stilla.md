@@ -33,14 +33,19 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Programmatic access to Stilla's capabilities. The REST API and the remote MCP server are protected by OAuth 2.0 / OIDC (WorkOS AuthKit). The OpenAPI document is served at api.stilla.ai/openapi.json bu
   name: Stilla API
   slug: stilla-api
-artifact_total: 6
+artifact_total: 7
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/stilla/refs/heads/main/plans/stilla-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/stilla-plans-pricing.yml
 - group: company
   title: ''
   type: Website
@@ -181,10 +186,14 @@ modified: '2026-07-21'
 name: Stilla
 nav: Providers
 network: true
-overview: 'Stilla publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, Productivity, and Collaboration.
+overview: 'Stilla is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, Productivity, and Collaboration.
 
 
-  Stilla''s developer surface includes documentation, getting-started guide, support, engineering blog, changelog, pricing, signup flow, and 22 more developer resources.'
+  Stilla''s developer surface includes documentation, getting-started guide, support, engineering blog, changelog, pricing, signup flow, and 23 more developer resources.'
+plans:
+- name: Stilla Plans Pricing
+  plan_count: 2
+  slug: stilla-plans-pricing
 random_paper: 11
 scopes:
 - name: Stilla Scopes
@@ -192,18 +201,18 @@ scopes:
   slug: stilla-scopes
   summary_line: 4 scopes · authorizationCode/deviceCode
 score:
-  band: thin
-  composite: 35.7
+  band: developing
+  composite: 40.0
   coverage:
-    artifact_dirs: 14
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 15
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 4.3
   facets:
-    access_clarity: 42.1
+    access_clarity: 63.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 50.0
@@ -219,8 +228,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 36.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://forus.com/stories
 - group: company
   title: ''
   type: Website
@@ -100,14 +104,14 @@ created: '2026-07-17'
 description: 'Forus (formerly Tandem) is an AI-powered healthcare technology company operating a network that connects physicians, pharmacies, payers, and biopharmaceutical companies to accelerate patient access to prescribed medicines. Its platform automates the administrative work between a clinical decision and treatment initiation: insurance prior authorization, AI-generated denial appeals, financial-assistance enrollment, benefit verification, and pharmacy fulfillment routing. Forus is embedded in physician workflows across most U.S. zip codes and is SOC 2 Type II and HIPAA compliant. It offers no public developer API, OpenAPI spec, or SDKs; this profile captures the company''s public web, trust, and security surface.'
 image: https://cdn.sanity.io/images/t4ez5tge/production/556e864feed2af4c4e4bcc871f82e58386a30ecb-1200x630.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Forus
 nav: Providers
 network: true
 overview: 'Forus is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Health IT, Prior Authorization, and Patient Access.
 
 
-  Forus'' developer surface includes engineering blog, signup flow, and 12 more developer resources.'
+  Forus'' developer surface includes engineering blog, signup flow, and 13 more developer resources.'
 random_paper: 9
 score:
   band: emerging
@@ -134,8 +138,8 @@ score:
     regime: Health
     regime_id: health
     score: 18.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

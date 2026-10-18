@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: documented
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 5.6
-  scored_at: '2026-10-04'
+  score: 3.7
+  scored_at: '2026-10-17'
 api_count: 6
 apis:
 - description: The TypeSpec compiler processes `.tsp` TypeSpec files and emits output for configured emitters (OpenAPI, JSON Schema, Protobuf, etc.). It provides a programmatic Node.js/TypeScript API for building Ty
@@ -56,6 +56,21 @@ apis:
   slug: typespec-rest-library
 artifact_total: 15
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/typespec/refs/heads/main/plans/typespec-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/typespec-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/typespec/refs/heads/main/rate-limits/typespec-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/typespec-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/typespec/refs/heads/main/finops/typespec-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/typespec-finops.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -135,9 +150,13 @@ common:
 created: '2026-03-25'
 description: TypeSpec is an API description language developed by Microsoft for defining API shapes that compile to OpenAPI, JSON Schema, Protobuf, and other output formats. It provides a language and toolchain for describing REST APIs, gRPC services, and data schemas in a type-safe, composable way with built-in support for versioning, metadata, and extensibility via decorators and libraries.
 finops:
-- name: Typespec Finops
+- has_sources: false
+  method: generated
+  name: Typespec Finops
+  primary_unit: ''
   service_category: API
   slug: typespec-finops
+  template: true
 image: https://typespec.io/img/favicon.svg
 json_schemas:
 - name: TypeSpec Program
@@ -161,13 +180,13 @@ modified: '2026-05-19'
 name: TypeSpec
 nav: Providers
 network: true
-overview: 'TypeSpec publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include API Design, Code Generation, Developer Tools, OpenAPI, and Protocol Buffers.
+overview: 'TypeSpec is listed with 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include API Design, Code Generation, Developer Tools, OpenAPI, and Protocol Buffers.
 
 
   The TypeSpec catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  TypeSpec''s developer surface includes documentation, engineering blog, release notes, and 15 more developer resources.'
+  TypeSpec''s developer surface includes documentation, engineering blog, release notes, and 18 more developer resources.'
 plans:
 - name: Typespec Plans Pricing
   plan_count: 3
@@ -178,9 +197,10 @@ rate_limits:
   name: Typespec Rate Limits
   slug: typespec-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: TypeSpec API Rules
+  name: TypeSpec — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -190,17 +210,17 @@ rules:
   slug: typespec-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 31.1
+  composite: 29.7
   coverage:
     artifact_dirs: 12
-    catalog_earned: 62.8
+    catalog_earned: 59.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 52.3
+    catalog_gap: 55.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.4
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 23.5
     contract_quality: 14.7
     developer_ergonomics: 17.9
@@ -216,8 +236,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

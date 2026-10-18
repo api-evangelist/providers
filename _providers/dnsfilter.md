@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 111
   human_in_the_loop: 4
@@ -407,6 +407,14 @@ collections:
   name: DNSFilter Agent Local User Bulk Deletes Users API
   slug: open-dnsfilter-users-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.dnsfilter.com/blog
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.dnsfilter.com/blog/rss.xml
 - group: operate
   href: https://raw.githubusercontent.com/api-evangelist/dnsfilter/refs/heads/main/rate-limits/dnsfilter-rate-limits.yml
   title: ''
@@ -552,14 +560,14 @@ created: '2026-07-17'
 description: DNSFilter is an AI-powered DNS security and content-filtering platform that protects organizations from cyber threats and unwanted content at the DNS layer. Its machine-learning engine blocks malicious domains — phishing, malware, ransomware, and botnet command-and-control — often before they appear in third-party threat feeds, and enforces content policies across 40+ categories with application-level (AppAware) controls, roaming clients for off-network devices, and user-behavior analytics (CyberSight). DNSFilter serves SMBs, enterprises, MSPs, schools, healthcare, and government over a dual Anycast network with DNSSEC validation. The DNSFilter management REST API (api.dnsfilter.com) programmatically manages organizations, networks/sites, filtering policies, block pages, applications, categories, API keys, and traffic/threat reporting — authenticated with an API key in the Authorization header.
 image: https://www.dnsfilter.com/hubfs/dnsfilterfeaturedimages1.webp
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: DNSFilter
 nav: Providers
 network: true
-overview: 'DNSFilter publishes 45 APIs on the [APIs.io](https://apis.io/) network, including Agent Local User Bulk Deletes API, Agent Local Users API, Agent Local Users CSV Export API, and 42 more. Tagged areas include Company, DNS, Security, Content Filtering, and Threat Protection.
+overview: 'DNSFilter publishes 45 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agent Local User Bulk Deletes API, Agent Local Users API, Agent Local Users CSV Export API, and 42 more. Tagged areas include Company, DNS, Security, Content Filtering, and Threat Protection.
 
 
-  DNSFilter''s developer surface includes authentication, documentation, API reference, support, engineering blog, pricing, signup flow, and 24 more developer resources.'
+  DNSFilter''s developer surface includes engineering blog, authentication, documentation, API reference, support, pricing, signup flow, and 26 more developer resources.'
 plans:
 - name: Dnsfilter Plans Pricing
   plan_count: 7
@@ -574,15 +582,15 @@ rate_limits:
   slug: dnsfilter-rate-limits
 score:
   band: developing
-  composite: 51.1
+  composite: 51.2
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 57.0
     catalog_earned_first_party: 20.0
     catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 76.3
     contract_governance: 4.5
@@ -607,8 +615,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

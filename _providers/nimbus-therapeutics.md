@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.nimbustx.com/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/nimbus-therapeutics/refs/heads/main/security/nimbus-therapeutics-domain-security.yml
   title: ''
@@ -49,7 +53,7 @@ created: '2026-07-17'
 description: Nimbus Therapeutics is a Boston-based biotechnology company, founded in 2009, that designs and develops small molecule medicines with exquisite selectivity across oncology, immunology, and metabolic indications. Its approach integrates structure-based and computational drug design (including cloud-based molecular simulation) with target selection, translational medicine, and clinical development. Nimbus is a private, VC-backed drug-discovery company and does not publish a public developer API, developer portal, or API documentation; this profile is maintained in the API Evangelist network as a company record.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nimbus-therapeutics.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Nimbus Therapeutics
 nav: Providers
 network: true
@@ -59,7 +63,7 @@ score:
   band: minimal
   composite: 3.7
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -87,8 +91,8 @@ score:
     regime: Health
     regime_id: health
     score: 4.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

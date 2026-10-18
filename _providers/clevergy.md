@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 0
@@ -44,7 +44,7 @@ agentic_access:
   operation_count: 83
   slug: clevergy-agentic-access
   summary_line: 83 operations · 43 acting
-api_count: 1
+api_count: 2
 apis:
 - description: Outbound HTTP callbacks that notify an integrator in real time when a Clevergy lifecycle entity changes. Three event surfaces are documented — User, SalesOpportunity and Ticket — with CREATE, UPDATE a
   name: Clevergy Webhooks
@@ -335,7 +335,7 @@ modified: '2026-08-17'
 name: Clevergy
 nav: Providers
 network: true
-overview: 'Clevergy publishes 25 APIs on the [APIs.io](https://apis.io/) network, including Access control API, Connections API, Contracts API, and 22 more. Tagged areas include Company, Climate Tech, Energy, Energy Management, and Utilities.
+overview: 'Clevergy publishes 25 API contracts indexed on the [APIs.io](https://apis.io/) network, including Access control API, Connections API, Contracts API, and 22 more. Tagged areas include Company, Climate Tech, Energy, Energy Management, and Utilities.
 
 
   The Clevergy catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -394,8 +394,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 26.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
@@ -67,7 +67,7 @@ modified: '2026-07-21'
 name: Temple
 nav: Providers
 network: true
-overview: Temple is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto, Cryptocurrency, Digital Assets, and Hedge Funds.
+overview: Temple is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cryptocurrency, Digital Assets, Hedge Funds, and Algorithmic Trading.
 random_paper: 9
 score:
   band: minimal
@@ -96,8 +96,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 5.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -112,7 +112,6 @@ security:
 slug: temple
 tags:
 - Company
-- Crypto
 - Cryptocurrency
 - Digital Assets
 - Hedge Funds

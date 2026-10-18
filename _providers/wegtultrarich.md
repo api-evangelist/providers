@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 46.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 6
   slug: wegtultrarich-agentic-access
   summary_line: 6 operations
-api_count: 1
+api_count: 2
 apis:
 - description: Hosted, no-auth Model Context Protocol server (Streamable HTTP) exposing the same five wealth computations as agent tools with published JSON Schema inputs. Answers protocol revisions 2025-03-26 throu
   name: We > Ultrarich MCP Server
@@ -308,7 +308,7 @@ modified: '2026-08-09'
 name: We > Ultrarich
 nav: Providers
 network: true
-overview: 'We > Ultrarich publishes 4 APIs on the [APIs.io](https://apis.io/) network, including MCP Server, Comparison API, Discovery API, and 1 more. Tagged areas include wealth inequality, economic inequality, Economics, Education, and Journalism.
+overview: 'We > Ultrarich publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including MCP Server, Comparison API, Discovery API, and 1 more. Tagged areas include wealth inequality, economic inequality, Economics, Education, and Journalism.
 
 
   The We > Ultrarich catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -321,10 +321,11 @@ rate_limits:
   name: Wegtultrarich Rate Limits
   slug: wegtultrarich-rate-limits
 rules:
-- effective_rule_count: 50
+- authorship: unmarked
+  effective_rule_count: 50
   extends:
   - spectral:oas
-  name: We > Ultrarich API Rules
+  name: We > Ultrarich — spectral rules
   rule_count: 9
   severity_counts:
     error: 7
@@ -333,19 +334,19 @@ rules:
     warn: 2
   slug: wegtultrarich-spectral
 score:
-  band: strong
-  composite: 55.0
+  band: developing
+  composite: 51.5
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 63.8
+    artifact_dirs: 25
+    catalog_earned: 54.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 51.3
+    catalog_gap: 61.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.5
   facets:
     access_clarity: 31.6
-    contract_governance: 49.2
+    contract_governance: 19.7
     contract_quality: 51.1
     developer_ergonomics: 61.3
     discoverability: 91.7
@@ -367,8 +368,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 30.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

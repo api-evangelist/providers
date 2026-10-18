@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 47
   slug: got-its-agentic-access
   summary_line: 47 operations · 23 acting
-api_count: 2
+api_count: 3
 apis:
 - baseURL: https://api.reelables.com/v1
   baseurl_source: declared
@@ -364,7 +364,7 @@ modified: '2026-07-19'
 name: Reelables
 nav: Providers
 network: true
-overview: 'Reelables publishes 24 APIs on the [APIs.io](https://apis.io/) network, including Asset Facilities API, Asset Labels API, Asset Locations API, and 21 more. Tagged areas include Company, Supply Chain, Logistics, Asset Tracking, and IoT.
+overview: 'Reelables publishes 24 API contracts indexed on the [APIs.io](https://apis.io/) network, including Asset Facilities API, Asset Labels API, Asset Locations API, and 21 more. Tagged areas include Company, Supply Chain, Logistics, Asset Tracking, and IoT.
 
 
   Reelables'' developer surface includes authentication, documentation, API reference, getting-started guide, support, signup flow, changelog, and 17 more developer resources.'
@@ -376,21 +376,21 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: thin
-  composite: 33.8
+  composite: 34.4
   coverage:
     artifact_dirs: 19
-    catalog_earned: 37.0
+    catalog_earned: 40.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 0.0
     contract_governance: 4.5
     contract_quality: 47.3
     developer_ergonomics: 56.5
-    discoverability: 71.7
+    discoverability: 76.7
     operational_transparency: 15.8
   previous_composite: 33.8
   provenance:
@@ -409,8 +409,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

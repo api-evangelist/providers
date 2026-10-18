@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 11
 apis:
 - description: Open dataset of global address points and ranges, released as cloud-native GeoParquet alongside the other Overture themes.
@@ -138,16 +138,20 @@ common:
 created: '2026-05-23'
 description: Overture Maps Foundation is a Linux Foundation collaborative project that produces free, open, and interoperable map data. Overture publishes cloud-native GeoParquet datasets, on a regular release cadence, across six themes - Addresses, Base, Buildings, Divisions, Places, and Transportation - governed by a common conflation pipeline and an open schema. Rather than a hosted REST API, Overture distributes data through Amazon S3 and Microsoft Azure (and via partner mirrors on BigQuery, Snowflake, Databricks, Fused, Wherobots), and provides an open Python CLI, a tile generator, and an Explorer site for developers. Founding members include Amazon, Meta, Microsoft, and TomTom.
 finops:
-- name: Overture Maps Finops
+- has_sources: false
+  method: generated
+  name: Overture Maps Finops
+  primary_unit: ''
   service_category: API
   slug: overture-maps-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/overture-maps.png
 layout: provider
 modified: '2026-05-23'
 name: Overture Maps Foundation
 nav: Providers
 network: true
-overview: 'Overture Maps Foundation publishes 11 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Maps, Geospatial, Open Data, GeoParquet, and Open Source.
+overview: 'Overture Maps Foundation is listed with 11 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Maps, Geospatial, Open Data, GeoParquet, and Open Source.
 
 
   Overture Maps Foundation''s developer surface includes documentation, GitHub presence, engineering blog, and 12 more developer resources.'
@@ -162,22 +166,22 @@ rate_limits:
   slug: overture-maps-rate-limits
 score:
   band: emerging
-  composite: 19.7
+  composite: 13.6
   coverage:
     artifact_dirs: 8
-    catalog_earned: 57.4
+    catalog_earned: 44.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.6
+    catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.1
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
     discoverability: 78.6
-    operational_transparency: 40.0
+    operational_transparency: 26.3
   previous_composite: 19.7
   regulatory:
     applies: true
@@ -185,9 +189,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

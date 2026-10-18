@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -326,7 +326,7 @@ modified: '2026-09-16'
 name: Amazon Aurora DSQL
 nav: Providers
 network: true
-overview: 'Amazon Aurora DSQL publishes 2 APIs on the [APIs.io](https://apis.io/) network: Clusters API and Multi-Region Clusters API. Tagged areas include Amazon Aurora DSQL, Distributed SQL, PostgreSQL, and Serverless.
+overview: 'Amazon Aurora DSQL publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Clusters API and Multi-Region Clusters API. Tagged areas include Amazon Aurora DSQL, Distributed SQL, PostgreSQL, and Serverless.
 
 
   The Amazon Aurora DSQL catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -335,9 +335,10 @@ overview: 'Amazon Aurora DSQL publishes 2 APIs on the [APIs.io](https://apis.io/
   Amazon Aurora DSQL''s developer surface includes authentication and 9 more developer resources.'
 random_paper: 18
 rules:
-- effective_rule_count: 4
+- authorship: generated
+  effective_rule_count: 4
   extends: []
-  name: Amazon Aurora DSQL API Rules
+  name: Amazon Aurora DSQL — jsonschema rules
   rule_count: 4
   severity_counts:
     error: 0
@@ -345,7 +346,8 @@ rules:
     info: 1
     warn: 3
   slug: amazon-aurora-dsql-jsonschema-spectral-rules
-- effective_rule_count: 58
+- authorship: generated
+  effective_rule_count: 58
   extends:
   - spectral:oas
   name: Amazon Aurora DSQL API Rules
@@ -360,7 +362,7 @@ score:
   band: thin
   composite: 30.0
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 24
     catalog_earned: 55.0
     catalog_earned_first_party: 0.0
     catalog_gap: 60.0
@@ -390,8 +392,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

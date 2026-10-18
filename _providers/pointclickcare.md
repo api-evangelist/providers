@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.7
-  scored_at: '2026-10-04'
+  score: 26.6
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -122,6 +122,21 @@ collections:
   name: PointClickCare Long-Term Care EHR Assessments Vitals API
   slug: open-pointclickcare-vitals-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/pointclickcare/refs/heads/main/plans/pointclickcare-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/pointclickcare-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/pointclickcare/refs/heads/main/rate-limits/pointclickcare-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/pointclickcare-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/pointclickcare/refs/heads/main/finops/pointclickcare-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/pointclickcare-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/pointclickcare/refs/heads/main/capabilities/pointclickcare-capability-edges.yml
   title: ''
@@ -199,9 +214,13 @@ common:
 created: '2026-03-18'
 description: PointClickCare is the leading cloud-based software platform for the senior care and post-acute care industry, providing electronic health records (EHR), care coordination, financial management, and clinical decision support to skilled nursing facilities, senior living communities, and home health agencies. PointClickCare publishes both a partner EHR API and a HL7 FHIR API for clinical interoperability across the long-term and post-acute care (LTPAC) ecosystem.
 finops:
-- name: Pointclickcare Finops
+- has_sources: false
+  method: generated
+  name: Pointclickcare Finops
+  primary_unit: ''
   service_category: API
   slug: pointclickcare-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pointclickcare.png
 json_schemas:
 - name: PointClickCare Patient
@@ -217,13 +236,13 @@ modified: '2026-05-19'
 name: PointClickCare
 nav: Providers
 network: true
-overview: 'PointClickCare publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Assessments API, Diagnoses API, Facilities API, and 4 more. Tagged areas include Healthcare, Long-Term Care, Post-Acute Care, EHR, and FHIR.
+overview: 'PointClickCare publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Assessments API, Diagnoses API, Facilities API, and 4 more. Tagged areas include Healthcare, Long-Term Care, Post-Acute Care, Electronic Health Records, and FHIR.
 
 
   The PointClickCare catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  PointClickCare''s developer surface includes authentication, developer portal, documentation, support, engineering blog, and 12 more developer resources.'
+  PointClickCare''s developer surface includes authentication, developer portal, documentation, support, engineering blog, and 15 more developer resources.'
 plans:
 - name: Pointclickcare Plans Pricing
   plan_count: 3
@@ -234,9 +253,10 @@ rate_limits:
   name: Pointclickcare Rate Limits
   slug: pointclickcare-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: PointClickCare API Rules
+  name: PointClickCare — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -251,17 +271,17 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: developing
-  composite: 45.1
+  composite: 43.6
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 57.7
+    artifact_dirs: 18
+    catalog_earned: 54.7
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.4
+    catalog_gap: 60.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 44.7
+    access_clarity: 36.8
     contract_governance: 9.8
     contract_quality: 57.5
     developer_ergonomics: 39.3
@@ -281,8 +301,8 @@ score:
     regime: Health
     regime_id: health
     score: 36.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -307,7 +327,7 @@ tags:
 - Healthcare
 - Long-Term Care
 - Post-Acute Care
-- EHR
+- Electronic Health Records
 - FHIR
 - Senior Care
 - Interoperability

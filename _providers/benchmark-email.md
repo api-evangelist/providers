@@ -38,15 +38,15 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 130
+- acting_count: 146
   human_in_the_loop: 3
   name: Benchmark Email Agentic Access
-  operation_count: 296
+  operation_count: 336
   slug: benchmark-email-agentic-access
-  summary_line: 296 operations · 130 acting · 3 human-in-the-loop
-api_count: 2
+  summary_line: 336 operations · 146 acting · 3 human-in-the-loop
+api_count: 3
 apis:
 - baseURL: https://clientapi.benchmarkemail.com
   baseurl_source: declared
@@ -499,9 +499,13 @@ examples:
   name: Send Campaign
   slug: send-campaign
 finops:
-- name: Benchmark Email Finops
+- has_sources: false
+  method: generated
+  name: Benchmark Email Finops
+  primary_unit: ''
   service_category: ''
   slug: benchmark-email-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/benchmark-email.png
 json_schemas:
 - name: CampaignReport
@@ -533,7 +537,7 @@ modified: '2026-09-16'
 name: Benchmark Email
 nav: Providers
 network: true
-overview: 'Benchmark Email publishes 35 APIs on the [APIs.io](https://apis.io/) network, including ABTest Creation API, Account Settings API, Add Contacts API, and 32 more. Tagged areas include Email Marketing, Campaigns, Contacts, Automation, and Transactional Email.
+overview: 'Benchmark Email publishes 35 API contracts indexed on the [APIs.io](https://apis.io/) network, including ABTest Creation API, Account Settings API, Add Contacts API, and 32 more. Tagged areas include Email Marketing, Campaigns, Contacts, Automation, and Transactional Email.
 
 
   The Benchmark Email catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
@@ -550,9 +554,10 @@ rate_limits:
   name: Benchmark Email Rate Limits
   slug: benchmark-email-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Benchmark Email API Rules
+  name: Benchmark Email — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -567,21 +572,21 @@ scopes:
   summary_line: 6 scopes
 score:
   band: strong
-  composite: 65.0
+  composite: 64.0
   coverage:
-    artifact_dirs: 33
+    artifact_dirs: 34
     catalog_earned: 66.3
     catalog_earned_first_party: 12.0
     catalog_gap: 48.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.0
   facets:
-    access_clarity: 85.5
+    access_clarity: 77.6
     contract_governance: 14.4
     contract_quality: 67.3
     developer_ergonomics: 76.2
-    discoverability: 75.0
+    discoverability: 80.0
     operational_transparency: 28.9
   previous_composite: 65.0
   provenance:
@@ -600,8 +605,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

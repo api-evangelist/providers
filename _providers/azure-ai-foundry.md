@@ -25,22 +25,22 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
-    openapi_examples: false
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.4
-  scored_at: '2026-10-04'
+  score: 22.9
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 6
+- acting_count: 10
   human_in_the_loop: 0
   name: Azure Ai Foundry Agentic Access
-  operation_count: 7
+  operation_count: 15
   slug: azure-ai-foundry-agentic-access
-  summary_line: 7 operations · 6 acting
+  summary_line: 15 operations · 10 acting
 api_count: 1
 apis:
 - description: REST API for managing Foundry projects, hubs, model deployments, agents, threads, runs, and evaluations. Authentication uses Microsoft Entra ID OAuth 2.0 bearer tokens (or API keys for inference endpo
@@ -81,7 +81,12 @@ apis:
   description: Workspaces operations
   name: Microsoft Azure AI Foundry Workspaces API
   slug: microsoft-azure-ai-foundry-workspaces-api
-artifact_total: 21
+- baseURL: https://{your-resource-name}.services.ai.azure.com
+  baseurl_source: declared
+  description: Typed decisions over one state with Microsoft-Decision-1.
+  name: Microsoft Azure AI Foundry Decisions API
+  slug: azure-ai-foundry-decisions-api
+artifact_total: 23
 collections:
 - collection_type: open
   name: API Collection
@@ -105,6 +110,11 @@ collections:
   name: Azure AI Foundry Model Inference REST API
   slug: open-azure-ai-foundry
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/azure-ai-foundry/refs/heads/main/plans/azure-ai-foundry-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/azure-ai-foundry-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/azure-ai-foundry/refs/heads/main/capabilities/azure-ai-foundry-capability-edges.yml
   title: ''
@@ -199,10 +209,14 @@ modified: '2026-05-11'
 name: Microsoft Azure AI Foundry
 nav: Providers
 network: true
-overview: 'Microsoft Azure AI Foundry publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Chat Completions API, Completions API, Embeddings API, and 5 more. Tagged areas include Artificial Intelligence, Generative AI, AI Agents, Foundation Models, and Machine Learning.
+overview: 'Microsoft Azure AI Foundry publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Chat Completions API, Completions API, Embeddings API, and 6 more. Tagged areas include Artificial Intelligence, Generative AI, AI Agents, Foundation Models, and Machine Learning.
 
 
-  Microsoft Azure AI Foundry''s developer surface includes developer portal, support, authentication, documentation, pricing, signup flow, engineering blog, and 12 more developer resources.'
+  Microsoft Azure AI Foundry''s developer surface includes developer portal, support, authentication, documentation, pricing, signup flow, engineering blog, and 13 more developer resources.'
+plans:
+- name: Azure Ai Foundry Plans Pricing
+  plan_count: 0
+  slug: azure-ai-foundry-plans-pricing
 random_paper: 12
 scopes:
 - name: Azure Ai Foundry Scopes
@@ -211,19 +225,19 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: developing
-  composite: 45.0
+  composite: 43.0
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 14
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.0
   facets:
     access_clarity: 44.7
     contract_governance: 0.0
-    contract_quality: 45.0
+    contract_quality: 38.4
     developer_ergonomics: 52.4
     discoverability: 78.3
     operational_transparency: 18.4
@@ -232,17 +246,17 @@ score:
     agentic_access: derived
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 7
+      derived: 2
+      marker_coverage: 22.2
+      total: 9
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 32.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -269,7 +283,7 @@ tags:
 - Foundation Models
 - Machine Learning
 - Cloud
-- Azure
+- Microsoft Azure
 - A2A
 website: https://azure.microsoft.com/en-us/products/ai-foundry/
 ---

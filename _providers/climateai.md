@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 49
+- acting_count: 46
   human_in_the_loop: 4
   name: Climateai Agentic Access
   operation_count: 89
   slug: climateai-agentic-access
-  summary_line: 89 operations · 49 acting · 4 human-in-the-loop
+  summary_line: 89 operations · 46 acting · 4 human-in-the-loop
 api_count: 2
 apis:
 - baseURL: https://api-prod.climate.ai
@@ -297,14 +297,14 @@ modified: '2026-08-04'
 name: ClimateAI
 nav: Providers
 network: true
-overview: 'ClimateAI publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Platform API, Account API, Account Config API, and 12 more. Tagged areas include Company, Weather, Climate, Climate Intelligence, and Forecasting.
+overview: 'ClimateAI publishes 15 API contracts indexed on the [APIs.io](https://apis.io/) network, including Platform API, Account API, Account Config API, and 12 more. Tagged areas include Company, Weather, Climate, Climate Intelligence, and Forecasting.
 
 
   ClimateAI''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 20 more developer resources.'
 random_paper: 13
 score:
   band: developing
-  composite: 42.8
+  composite: 42.9
   coverage:
     artifact_dirs: 21
     catalog_earned: 42.0
@@ -312,7 +312,7 @@ score:
     catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 34.2
     contract_governance: 19.7
@@ -337,8 +337,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

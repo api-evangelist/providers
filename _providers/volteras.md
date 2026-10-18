@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 33.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 1
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 50
   slug: volteras-agentic-access
   summary_line: 50 operations · 24 acting · 1 human-in-the-loop
-api_count: 1
+api_count: 2
 apis:
 - baseURL: https://api.volteras.com
   baseurl_source: declared
@@ -350,7 +350,7 @@ modified: '2026-07-21'
 name: Volteras
 nav: Providers
 network: true
-overview: 'Volteras publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Authentication API, Rate Limit API, and 16 more. Tagged areas include Company, Electric Vehicles, Connected Vehicles, Automotive, and Vehicle Telemetry.
+overview: 'Volteras publishes 19 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, Authentication API, Rate Limit API, and 16 more. Tagged areas include Company, Electric Vehicles, Connected Vehicles, Automotive, and Vehicle Telemetry.
 
 
   The Volteras catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -402,8 +402,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 38.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 5.0
-  scored_at: '2026-10-04'
+  score: 3.1
+  scored_at: '2026-10-17'
 api_count: 7
 apis:
 - description: Retrieve detailed information about ChargePoint charging stations, including location, address, GPS coordinates, power specifications, port counts, pricing, and station model details. Supports filteri
@@ -59,6 +59,21 @@ apis:
   slug: chargepoint-fleet-management-api
 artifact_total: 24
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/chargepoint/refs/heads/main/plans/chargepoint-plans.yml
+  title: ''
+  type: Plans
+  url: plans/chargepoint-plans.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/chargepoint/refs/heads/main/rate-limits/chargepoint-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/chargepoint-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/chargepoint/refs/heads/main/finops/chargepoint-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/chargepoint-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/chargepoint/refs/heads/main/security/chargepoint-trust-center.yml
   title: ''
@@ -157,19 +172,23 @@ features:
 - Dynamic pricing controls by driver type, session length, and time-of-use
 - 385,000+ activated ports across the ChargePoint network
 finops:
-- name: Chargepoint Finops
+- has_sources: true
+  method: generated
+  name: Chargepoint Finops
+  primary_unit: ''
   service_category: Transportation / Energy Infrastructure
   slug: chargepoint-finops
+  template: false
 image: https://www.chargepoint.com/themes/chargepoint/images/chargepoint-logo.svg
 layout: provider
 modified: '2026-06-13'
 name: ChargePoint
 nav: Providers
 network: true
-overview: 'ChargePoint publishes 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include EV Charging, Electric Vehicles, Fleet Management, Energy Management, and Transportation.
+overview: 'ChargePoint is listed with 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include EV Charging, Electric Vehicles, Fleet Management, Energy Management, and Transportation.
 
 
-  ChargePoint''s developer surface includes documentation, API reference, getting-started guide, engineering blog, developer portal, authentication, support, and 13 more developer resources.'
+  ChargePoint''s developer surface includes documentation, API reference, getting-started guide, engineering blog, developer portal, authentication, support, and 16 more developer resources.'
 plans:
 - name: Chargepoint Plans
   plan_count: 3
@@ -181,22 +200,22 @@ rate_limits:
   slug: chargepoint-rate-limits
 score:
   band: thin
-  composite: 34.9
+  composite: 27.5
   coverage:
-    artifact_dirs: 7
-    catalog_earned: 51.0
+    artifact_dirs: 9
+    catalog_earned: 35.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 64.0
+    catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.4
   facets:
-    access_clarity: 54.7
+    access_clarity: 26.3
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 64.3
     discoverability: 53.6
-    operational_transparency: 40.0
+    operational_transparency: 26.3
   previous_composite: 34.9
   regulatory:
     applies: true
@@ -204,9 +223,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 17.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 6
 apis:
 - description: The university's own SAML 2.0 identity provider metadata document, served from its own domain. It declares entityID https://login.ualberta.ca/saml2/idp/metadata.php, an IDPSSODescriptor with SingleSig
@@ -188,16 +188,20 @@ created: '2026-06-03'
 description: 'The University of Alberta is a public research university in Edmonton, Alberta, Canada, and a member of the U15 Group of Canadian Research Universities. It operates no public API product. Its central developer site, api.ualberta.ca, is a live placeholder that says only that the university "is currently working to improve the way data is cataloged, shared, and governed" and gives an email address; there is no portal, no key issuance and no catalog behind it. The one machine-readable contract the institution itself publishes and runs is its SAML 2.0 identity provider metadata at login.ualberta.ca, which is institution-operated by definition and is the only surface in this profile whose operator is the university. Everything else that looks like a University of Alberta API is a tenancy on someone else''s platform: ERA, the institutional repository, migrated off the library''s own Jupiter application at era.library.ualberta.ca onto Scholaris, the OCUL/Scholars Portal national DSpace
   service, and now answers as ualberta.scholaris.ca with a DSpace REST API and an OAI-PMH endpoint; research data lives in the university''s collection on Borealis, the Canadian Dataverse Repository run by the same consortium; the library catalogue is Ex Libris Alma and Primo VE, whose Z39.50 server the library documents in its own words; and its 90,338 DOIs are registered through DataCite. The course catalogue and Bear Tracks are HTML only — every JSON path probed on apps.ualberta.ca returns 404 or 410, which is why the third-party UAlberta course APIs that exist are HTML scrapers. The university''s real engineering output is open source rather than hosted: the University of Alberta Library GitHub organization is active and substantial, and includes its own OAI-PMH implementation and DSpace and DataCite client tooling.'
 finops:
-- name: University Of Alberta Finops
+- has_sources: true
+  method: generated
+  name: University Of Alberta Finops
+  primary_unit: ''
   service_category: Education
   slug: university-of-alberta-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/university-of-alberta.png
 layout: provider
 modified: '2026-08-30'
 name: University of Alberta
 nav: Providers
 network: true
-overview: 'University of Alberta publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Higher Education, University, Canada, and U15 Group of Canadian Research Universities.
+overview: 'University of Alberta is listed with 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Higher Education, University, Canada, and U15 Group of Canadian Research Universities.
 
 
   University of Alberta''s developer surface includes documentation, engineering blog, and 19 more developer resources.'
@@ -212,17 +216,17 @@ rate_limits:
   slug: university-of-alberta-rate-limits
 score:
   band: emerging
-  composite: 26.1
+  composite: 24.6
   coverage:
-    artifact_dirs: 8
-    catalog_earned: 42.0
+    artifact_dirs: 9
+    catalog_earned: 39.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 73.0
+    catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -3.2
+  delta: -1.5
   facets:
-    access_clarity: 34.2
+    access_clarity: 26.3
     contract_governance: 18.2
     contract_quality: 4.4
     developer_ergonomics: 33.3
@@ -235,7 +239,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 29.3
+  previous_composite: 26.1
   provenance:
     conformance: first-party
   regulatory:
@@ -244,13 +248,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 32.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-alberta/refs/heads/main/screenshots/university-of-alberta-2026-10-11T131440.png
 security:
 - kind: domain-security
   name: University Of Alberta Domain Security

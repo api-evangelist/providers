@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: 'Request-only REST API for searching and retrieving current and historical crypto news coverage from The Block, returned as JSON filtered by keyword, topic, article length, and publication date (up to '
@@ -46,6 +46,14 @@ apis:
   slug: the-block-ecosystems-api
 artifact_total: 4
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.theblock.co/news
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.theblock.co/rss.xml
 - group: company
   title: ''
   type: Website
@@ -87,18 +95,18 @@ created: '2026-07-17'
 description: The Block is a New York-based digital-assets research, analysis, and news brand founded in 2018, covering cryptocurrency, blockchain, and Web3 markets. Its subscription platform, The Block Pro, packages breaking news, in-depth research, proprietary datasets, and venture-funding intelligence for professional investors, funds, and enterprises. The Block Pro also exposes a set of license-gated APIs - a real-time News API (REST, request-only, JSON), a Deals/Funding API, an Ecosystems/Data API, and a WebSocket news stream - available only to organizations holding a Block Pro subscription. The APIs have no public developer portal or OpenAPI definition; access and technical documentation are arranged through The Block's client-services team.
 image: https://avatars.githubusercontent.com/u/44381976?v=4
 layout: provider
-modified: '2026-07-25'
+modified: '2026-10-06'
 name: The Block
 nav: Providers
 network: true
-overview: 'The Block publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cryptocurrency, Digital Assets, News, and Market Data.
+overview: 'The Block is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cryptocurrency, Digital Assets, News, and Market Data.
 
 
-  The Block''s developer surface includes developer portal, engineering blog, signup flow, and 6 more developer resources.'
+  The Block''s developer surface includes engineering blog, developer portal, signup flow, and 8 more developer resources.'
 random_paper: 9
 score:
   band: emerging
-  composite: 14.6
+  composite: 14.7
   coverage:
     artifact_dirs: 4
     catalog_earned: 35.0
@@ -106,7 +114,7 @@ score:
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 34.2
     contract_governance: 0.0
@@ -128,8 +136,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 13.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

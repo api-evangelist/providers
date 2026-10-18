@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 5
 apis:
 - description: 'Franchise Sales / Development module (path segment "fs"). Import and export franchise development leads, prospects, and the franchise sales pipeline used to recruit and qualify new franchisees. Exact '
@@ -53,6 +53,10 @@ apis:
   slug: franconnect-admin-api
 artifact_total: 9
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.franconnect.com/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/franconnect/refs/heads/main/security/franconnect-trust-center.yml
   title: ''
@@ -93,14 +97,14 @@ created: '2026-07-04'
 description: FranConnect is a franchise and multi-location management platform used by 1,500+ brands across roughly one million locations, covering franchise development and sales, franchisee/unit information management, field operations and audits, financials and royalties, and CRM. Its FranConnect Sky product exposes a RESTful API - organized by module (Franchise Sales "fs", CRM "cm", Info Manager "fim", Finance "manage-finance", and Admin "admin") - that lets customers import and export data between FranConnect Sky and third-party applications. All API calls are made over HTTPS and authenticated with an Authorization-Token header. API access is not open/self-serve - it is gated behind a FranConnect Sky customer or partner account, with credentials provisioned by FranConnect, and the reference documentation portal (docs.franconnect.net) requires a signed-in account.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/franconnect.png
 layout: provider
-modified: '2026-07-04'
+modified: '2026-10-06'
 name: FranConnect
 nav: Providers
 network: true
-overview: 'FranConnect publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Franchise Management, Franchise Development, Franchise Operations, Field Operations, and Multi-Location.
+overview: 'FranConnect is listed with 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Franchise Management, Franchise Development, Franchise Operations, Field Operations, and Multi-Location.
 
 
-  FranConnect''s developer surface includes documentation and 7 more developer resources.'
+  FranConnect''s developer surface includes documentation and 8 more developer resources.'
 plans:
 - name: Franconnect Plans Pricing
   plan_count: 1
@@ -108,17 +112,17 @@ plans:
 random_paper: 3
 score:
   band: emerging
-  composite: 16.0
+  composite: 13.4
   coverage:
-    artifact_dirs: 4
-    catalog_earned: 47.2
+    artifact_dirs: 6
+    catalog_earned: 42.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 67.8
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.6
   facets:
-    access_clarity: 26.8
+    access_clarity: 13.2
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 16.7
@@ -131,8 +135,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -147,7 +151,7 @@ security:
 - kind: vulnerability-disclosure
   name: Franconnect Vulnerability Disclosure
   slug: franconnect-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 - kind: trust-center
   name: Franconnect Trust Center
   slug: franconnect-trust-center

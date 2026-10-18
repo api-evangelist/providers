@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: The BSEE Well API provides multiregional offshore well information retrieval across Alaska, Atlantic, Gulf of America, and Pacific regions. Query by API well number, company name, well status, field n
@@ -47,6 +47,11 @@ apis:
   slug: tims-eplanning
 artifact_total: 8
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/bureau-of-safety-and-environmental-enforcement/refs/heads/main/finops/bureau-of-safety-and-environmental-enforcement-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/bureau-of-safety-and-environmental-enforcement-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/bureau-of-safety-and-environmental-enforcement/refs/heads/main/security/bureau-of-safety-and-environmental-enforcement-vulnerability-disclosure.yml
   title: ''
@@ -178,19 +183,23 @@ coverage:
 created: '2024-11-30'
 description: The Bureau of Safety and Environmental Enforcement (BSEE) is the U.S. Department of the Interior bureau that promotes safety, protects the environment and conserves resources offshore through regulatory oversight and enforcement of oil, gas and mineral operations on the Outer Continental Shelf. BSEE publishes the authoritative public record of offshore wells, leases, pipelines, platforms, production, exploration and development plans and incidents of non-compliance through the BSEE Data Center, as HTML online-query applications and zipped delimited-ASCII bulk downloads, and operates the eWell/TIMS permitting system that offshore operators use to file permits and activity reports. BSEE publishes no OpenAPI, GraphQL, AsyncAPI, SOAP or MCP contract; note that "API" in BSEE's own vocabulary means the American Petroleum Institute well number, not an application programming interface.
 finops:
-- name: Bureau Of Safety And Environmental Enforcement Finops
+- has_sources: false
+  method: generated
+  name: Bureau Of Safety And Environmental Enforcement Finops
+  primary_unit: ''
   service_category: API
   slug: bureau-of-safety-and-environmental-enforcement-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bureau-of-safety-and-environmental-enforcement.png
 layout: provider
 modified: '2026-09-05'
 name: Bureau of Safety and Environmental Enforcement
 nav: Providers
 network: true
-overview: 'Bureau of Safety and Environmental Enforcement publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Enforcement, Environment, Federal Government, Safety, and Offshore.
+overview: 'Bureau of Safety and Environmental Enforcement is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Enforcement, Environment, Federal Government, Safety, and Offshore.
 
 
-  Bureau of Safety and Environmental Enforcement''s developer surface includes developer portal, engineering blog, documentation, getting-started guide, support, pricing, and 19 more developer resources.'
+  Bureau of Safety and Environmental Enforcement''s developer surface includes developer portal, engineering blog, documentation, getting-started guide, support, pricing, and 20 more developer resources.'
 plans:
 - name: Bureau Of Safety And Environmental Enforcement Plans Pricing
   plan_count: 0
@@ -201,18 +210,18 @@ rate_limits:
   name: Bureau Of Safety And Environmental Enforcement Rate Limits
   slug: bureau-of-safety-and-environmental-enforcement-rate-limits
 score:
-  band: thin
-  composite: 27.0
+  band: emerging
+  composite: 25.4
   coverage:
     artifact_dirs: 14
-    catalog_earned: 43.0
+    catalog_earned: 40.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 72.0
+    catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 46.1
+    access_clarity: 38.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 21.4
@@ -233,8 +242,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

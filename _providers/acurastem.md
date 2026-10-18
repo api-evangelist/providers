@@ -23,10 +23,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://acurastem.com/rss/blog
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/acurastem/refs/heads/main/security/acurastem-domain-security.yml
   title: ''
@@ -91,20 +95,20 @@ created: '2026-09-06'
 description: 'AcuraStem, Inc. is a privately held, patient-based biotechnology company headquartered in Monrovia, California, developing therapeutics for neurodegenerative diseases including sporadic ALS (amyotrophic lateral sclerosis) and frontotemporal dementia (FTD). The company''s proprietary iNeuroRx drug-discovery platform builds disease models from induced pluripotent stem cells (iPSC) taken from individual patients, in place of animal models, and pairs them with machine-learning analysis to identify and validate targets. Its lead antisense oligonucleotide candidate, AS-241 (PIKFYVE), is advancing toward first-in-human testing with California Institute for Regenerative Medicine (CIRM) grant support. AcuraStem is a therapeutics developer rather than a software vendor: it publishes no public API, developer portal, SDK, or machine-readable contract of any kind. This profile records that absence with the probe evidence behind it.'
 image: https://acurastem.com/application/files/7516/7235/4056/acs_logo_notag.png
 layout: provider
-modified: '2026-09-06'
+modified: '2026-10-06'
 name: AcuraStem
 nav: Providers
 network: true
 overview: 'AcuraStem is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Therapeutics, Life Sciences, and Drug Discovery.
 
 
-  AcuraStem''s developer surface includes engineering blog and 9 more developer resources.'
+  AcuraStem''s developer surface includes engineering blog and 10 more developer resources.'
 random_paper: 19
 score:
   band: minimal
   composite: 7.5
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 7
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -132,13 +136,14 @@ score:
     regime: Health
     regime_id: health
     score: 7.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/acurastem/refs/heads/main/screenshots/acurastem-2026-10-11T092731.png
 security:
 - kind: domain-security
   name: Acurastem Domain Security

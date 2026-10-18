@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 2
+- acting_count: 1
   human_in_the_loop: 0
   name: Datanomik Agentic Access
   operation_count: 21
   slug: datanomik-agentic-access
-  summary_line: 21 operations · 2 acting
+  summary_line: 21 operations · 1 acting
 api_count: 2
 apis:
 - baseURL: https://api.datanomik.com
@@ -287,7 +287,7 @@ modified: '2026-07-18'
 name: Datanomik
 nav: Providers
 network: true
-overview: 'Datanomik publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Applications API, Balances API, and 7 more. Tagged areas include Company, Open Finance, Open Banking, Treasury Management, and Cash Management.
+overview: 'Datanomik publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, Applications API, Balances API, and 7 more. Tagged areas include Company, Open Finance, Open Banking, Treasury Management, and Cash Management.
 
 
   Datanomik''s developer surface includes documentation, API reference, getting-started guide, quickstart, signup flow, support, engineering blog, and 26 more developer resources.'
@@ -296,7 +296,7 @@ score:
   band: developing
   composite: 44.9
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 22
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -338,8 +338,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 23.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

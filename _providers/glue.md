@@ -34,13 +34,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 45.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Public GraphQL API for the Glue workspace — send messages (sendMessage), read workspaces, threads, and groups, with Relay cursor-connection pagination and OAuth2 bearer auth.
   name: Glue GraphQL API
   slug: glue-graphql-api
-artifact_total: 6
+artifact_total: 7
 asyncapis:
 - description: Faithful AsyncAPI rendering of Glue's documented outbound webhook catalog. Webhooks are configured per OAuth Application; when a workspace authorizes the app, Glue creates a webhook posting to the app
   name: Glue Outbound Webhooks
@@ -167,6 +167,10 @@ common:
   title: ''
   type: AgentSkill
   url: skills/_index.yml
+- group: design
+  title: ''
+  type: SpectralRules
+  url: https://github.com/apiglue/talks/blob/3b4fb169d32eac883f17ae215a73995488750eb4/api-design/rulesets/api-design-standards-ruleset-extended.json
 created: '2026-07-17'
 description: Glue is a team communication platform that replaces channel-based chat with structured, named threads so decisions stay organized and don't get lost, with AI agents (@Glue, @Cursor) that can be mentioned inside threads to summarize, add context, and generate work. For developers, Glue exposes a public GraphQL API at api.gluegroups.com for sending messages and reading workspaces, threads, and groups; OAuth 2.0 authentication (client-credentials for the GraphQL API, plus an authorization-code flow with dynamic client registration and PKCE for a hosted remote MCP server at mcp.glue.ai); outbound webhooks (message.created, thread.created) signed with HMAC-SHA256; and idempotent upsert keys on message and thread creation. Glue is SOC 2 compliant, supports SSO (Google, Okta), and is backed by Craft Ventures and Y Combinator.
 image: https://glue.ai/images/opengraph.jpg
@@ -179,14 +183,27 @@ modified: '2026-07-19'
 name: Glue
 nav: Providers
 network: true
-overview: 'Glue publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Software-as-a-Service, Team Communication, Messaging, and Collaboration.
+overview: 'Glue is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Software-as-a-Service, Team Communication, Messaging, and Collaboration.
 
 
-  The Glue catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Glue catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Glue''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 20 more developer resources.'
+  Glue''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 21 more developer resources.'
 random_paper: 11
+rules:
+- authorship: provider
+  effective_rule_count: 56
+  extends:
+  - spectral:oas
+  name: Glue — talks rules
+  rule_count: 15
+  severity_counts:
+    error: 14
+    hint: 1
+    info: 0
+    warn: 0
+  slug: glue-talks-spectral-rules
 scopes:
 - name: Glue Scopes
   scope_count: 6
@@ -194,18 +211,18 @@ scopes:
   summary_line: 6 scopes
 score:
   band: developing
-  composite: 47.1
+  composite: 52.6
   coverage:
-    artifact_dirs: 14
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 16
+    catalog_earned: 52.0
+    catalog_earned_first_party: 15.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 5.5
   facets:
     access_clarity: 46.1
-    contract_governance: 18.2
+    contract_governance: 63.6
     contract_quality: 39.0
     developer_ergonomics: 58.9
     discoverability: 75.0
@@ -221,9 +238,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

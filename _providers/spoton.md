@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.8
-  scored_at: '2026-10-04'
+  score: 22.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -417,9 +417,13 @@ features:
 - description: Location-centric REST API exporting orders, menu, payments, and labor data.
   name: Data Export API
 finops:
-- name: Spoton Finops
+- has_sources: true
+  method: generated
+  name: Spoton Finops
+  primary_unit: ''
   service_category: Restaurant Technology + Payments
   slug: spoton-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/spoton.png
 integrations:
 - description: Feed exported sales, cash, and tip data into accounting and bookkeeping platforms.
@@ -632,7 +636,7 @@ modified: '2026-06-03'
 name: SpotOn
 nav: Providers
 network: true
-overview: 'SpotOn publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Availability API, Cash Deposits API, Employees API, and 12 more. Tagged areas include Restaurant, Point-of-Sale, Payments, Online Ordering, and Reservations.
+overview: 'SpotOn is listed with 15 APIs on the [APIs.io](https://apis.io/) network, including Availability API, Cash Deposits API, Employees API, and 12 more. Tagged areas include Restaurant, Point-of-Sale, Payments, Online Ordering, and Reservations.
 
 
   The SpotOn catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -649,9 +653,10 @@ rate_limits:
   name: Spoton Rate Limits
   slug: spoton-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: SpotOn API Rules
+  name: SpotOn — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -659,7 +664,8 @@ rules:
     info: 2
     warn: 3
   slug: spoton-jsonschema-spectral-rules
-- effective_rule_count: 76
+- authorship: unmarked
+  effective_rule_count: 76
   extends:
   - spectral:oas
   name: SpotOn API Rules
@@ -671,24 +677,24 @@ rules:
     warn: 20
   slug: spoton-rules
 score:
-  band: developing
-  composite: 43.6
+  band: thin
+  composite: 35.3
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 93.6
+    artifact_dirs: 19
+    catalog_earned: 75.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 21.4
+    catalog_gap: 40.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -8.3
   facets:
-    access_clarity: 54.7
+    access_clarity: 26.3
     contract_governance: 27.3
     contract_quality: 31.3
     developer_ergonomics: 45.2
     discoverability: 71.4
-    operational_transparency: 46.8
-  previous_composite: 43.1
+    operational_transparency: 26.3
+  previous_composite: 43.6
   provenance:
     agentic_access: derived
     contracts:
@@ -702,9 +708,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 19.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

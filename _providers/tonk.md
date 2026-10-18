@@ -32,10 +32,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://tonk.xyz/updates
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://tonk.xyz/rss.xml
 - group: company
   title: ''
   type: Website
@@ -98,31 +106,31 @@ mcp_servers:
 - description: First-party Model Context Protocol (MCP) worker service published by Tonk Labs under the @tonk npm scope. It provides MCP support for the Tonk + Obsidian integration (exposing Tonk-managed knowledge/d
   name: Tonk MCP Server
   slug: tonk-mcp
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Tonk
 nav: Providers
 network: true
 overview: 'Tonk is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Developer Tools, Local-First, CRDT, and Collaboration.
 
 
-  Tonk''s developer surface includes documentation, getting-started guide, support, CLI, and 8 more developer resources.'
+  Tonk''s developer surface includes engineering blog, documentation, getting-started guide, support, CLI, and 9 more developer resources.'
 random_paper: 4
 score:
   band: emerging
-  composite: 13.4
+  composite: 14.0
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 45.2
+    developer_ergonomics: 47.6
     discoverability: 55.0
     operational_transparency: 2.6
   previous_composite: 13.4
@@ -134,8 +142,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

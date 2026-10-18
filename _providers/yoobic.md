@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.6
-  scored_at: '2026-10-04'
-api_count: 1
+  scored_at: '2026-10-17'
+api_count: 2
 apis:
 - baseURL: https://api.yoobic.com/public/api
   baseurl_source: declared
@@ -374,6 +374,10 @@ collections:
   name: YOOBIC Public Answers Webhooks API
   slug: open-yoobic-webhooks-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://yoobic.com/feed/
 - group: commercial
   href: https://raw.githubusercontent.com/api-evangelist/yoobic/refs/heads/main/plans/yoobic-plans-pricing.yml
   title: ''
@@ -473,17 +477,17 @@ created: '2026-07-17'
 description: YOOBIC is an AI-powered frontline employee experience and retail operations platform that unifies task management, internal communications, and mobile microlearning, giving headquarters real-time visibility and frontline teams the tools to execute in-store. It serves retail, grocery, fashion and luxury, convenience, pharmacy, restaurant/QSR, and fitness brands. The YOOBIC Public API is a RESTful JSON API (OpenAPI 3.0, 230 paths / 265 operations across 41 resource groups) for programmatically managing users, stores, missions, campaigns, learning, communities, and webhooks, secured with JWT bearer tokens.
 image: https://yoobic.com/wp-content/uploads/2025/11/cropped-favicon-1-1-270x270.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Yoobic
 nav: Providers
 network: true
-overview: 'Yoobic publishes 41 APIs on the [APIs.io](https://apis.io/) network, including Answers API, Badges API, Bot Messages API, and 38 more. Tagged areas include Company, Retail, Frontline Operations, Task Management, and Workforce.
+overview: 'Yoobic publishes 41 API contracts indexed on the [APIs.io](https://apis.io/) network, including Answers API, Badges API, Bot Messages API, and 38 more. Tagged areas include Company, Retail, Frontline Operations, Task Management, and Workforce.
 
 
   The Yoobic catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Yoobic''s developer surface includes documentation, engineering blog, pricing, signup flow, support, authentication, and 15 more developer resources.'
+  Yoobic''s developer surface includes documentation, engineering blog, pricing, signup flow, support, authentication, and 16 more developer resources.'
 plans:
 - name: Yoobic Plans Pricing
   plan_count: 0
@@ -491,7 +495,7 @@ plans:
 random_paper: 7
 score:
   band: developing
-  composite: 51.2
+  composite: 51.3
   coverage:
     artifact_dirs: 21
     catalog_earned: 37.0
@@ -499,15 +503,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: 0.1
   facets:
     access_clarity: 50.0
     contract_governance: 4.5
     contract_quality: 56.7
     developer_ergonomics: 58.9
-    discoverability: 67.9
+    discoverability: 73.2
     operational_transparency: 42.1
-  previous_composite: 50.6
+  previous_composite: 51.2
   provenance:
     conformance: derived
     contracts:
@@ -523,8 +527,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 25.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

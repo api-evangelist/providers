@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.3
-  scored_at: '2026-10-04'
+  score: 20.4
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -137,6 +137,29 @@ collections:
   name: RouterOS REST Bridge Wireless API
   slug: open-routeros-wireless-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/routeros/refs/heads/main/plans/routeros-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/routeros-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/routeros/refs/heads/main/rate-limits/routeros-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/routeros-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/routeros/refs/heads/main/finops/routeros-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/routeros-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://mikrotik.com/supportsec
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://cdn.mikrotik.com/web-assets/supportsec/rss.xml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/routeros/refs/heads/main/capabilities/routeros-capability-edges.yml
   title: ''
@@ -203,9 +226,13 @@ examples:
   name: Routeros List Ip Addresses Example
   slug: routeros-list-ip-addresses-example
 finops:
-- name: Routeros Finops
+- has_sources: false
+  method: generated
+  name: Routeros Finops
+  primary_unit: ''
   service_category: API
   slug: routeros-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/routeros.png
 json_schemas:
 - name: RouterOS Firewall Filter Rule
@@ -227,17 +254,17 @@ jsonld:
   property_count: 24
   slug: routeros-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-10-06'
 name: RouterOS
 nav: Providers
 network: true
-overview: 'RouterOS publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Bridge API, DHCP API, DNS API, and 8 more. Tagged areas include Networking, Router, Network Management, Firewall, and MikroTik.
+overview: 'RouterOS publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Bridge API, DHCP API, DNS API, and 8 more. Tagged areas include Networking, Router, Network Management, Firewall, and MikroTik.
 
 
   The RouterOS catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  RouterOS''s developer surface includes authentication, documentation, and 10 more developer resources.'
+  RouterOS''s developer surface includes engineering blog, authentication, documentation, and 14 more developer resources.'
 plans:
 - name: Routeros Plans Pricing
   plan_count: 3
@@ -248,9 +275,10 @@ rate_limits:
   name: Routeros Rate Limits
   slug: routeros-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: RouterOS API Rules
+  name: RouterOS — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -258,7 +286,8 @@ rules:
     info: 2
     warn: 3
   slug: routeros-jsonschema-spectral-rules
-- effective_rule_count: 51
+- authorship: unmarked
+  effective_rule_count: 51
   extends:
   - spectral:oas
   name: RouterOS API Rules
@@ -271,20 +300,20 @@ rules:
   slug: routeros-rules
 score:
   band: thin
-  composite: 35.6
+  composite: 34.6
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 72.0
+    artifact_dirs: 19
+    catalog_earned: 69.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 43.0
+    catalog_gap: 46.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.0
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 27.3
     contract_quality: 61.2
-    developer_ergonomics: 26.2
+    developer_ergonomics: 28.6
     discoverability: 66.1
     operational_transparency: 13.2
   previous_composite: 35.6
@@ -301,8 +330,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

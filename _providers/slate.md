@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 3.8
-  scored_at: '2026-10-04'
+  score: 1.9
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Slate is an open-source static site generator for creating beautiful, three-panel API documentation from Markdown files. Originally created by Robert Lord in 2013 at TripIt and later maintained by the
@@ -41,6 +41,21 @@ apis:
   slug: slate
 artifact_total: 9
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/slate/refs/heads/main/plans/slate-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/slate-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/slate/refs/heads/main/rate-limits/slate-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/slate-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/slate/refs/heads/main/finops/slate-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/slate-finops.yml
 - group: company
   title: ''
   type: Website
@@ -133,9 +148,13 @@ examples:
   name: Slate Frontmatter Example
   slug: slate-frontmatter-example
 finops:
-- name: Slate Finops
+- has_sources: false
+  method: generated
+  name: Slate Finops
+  primary_unit: ''
   service_category: API
   slug: slate-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/slate.png
 json_schemas:
 - name: Slate Frontmatter Configuration
@@ -155,13 +174,13 @@ modified: '2026-09-16'
 name: Slate
 nav: Providers
 network: true
-overview: 'Slate publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include API Documentation, Developer Tools, Documentation, Markdown, and Ruby.
+overview: 'Slate is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include API Documentation, Developer Tools, Documentation, Markdown, and Ruby.
 
 
   The Slate catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Slate''s developer surface includes GitHub presence, getting-started guide, documentation, changelog, code examples, and 15 more developer resources.'
+  Slate''s developer surface includes GitHub presence, getting-started guide, documentation, changelog, code examples, and 18 more developer resources.'
 plans:
 - name: Slate Plans Pricing
   plan_count: 3
@@ -172,9 +191,10 @@ rate_limits:
   name: Slate Rate Limits
   slug: slate-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Slate API Rules
+  name: Slate — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -184,17 +204,17 @@ rules:
   slug: slate-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 25.6
+  composite: 24.1
   coverage:
     artifact_dirs: 12
-    catalog_earned: 59.2
+    catalog_earned: 56.2
     catalog_earned_first_party: 0.0
-    catalog_gap: 55.9
+    catalog_gap: 58.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 23.5
     contract_quality: 20.4
     developer_ergonomics: 33.3
@@ -207,8 +227,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 4.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

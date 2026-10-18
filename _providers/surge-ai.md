@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.5
-  scored_at: '2026-10-04'
+  score: 19.6
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -111,6 +111,21 @@ collections:
   name: Surge AI API
   slug: open-surge-ai
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/surge-ai/refs/heads/main/plans/surge-ai-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/surge-ai-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/surge-ai/refs/heads/main/rate-limits/surge-ai-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/surge-ai-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/surge-ai/refs/heads/main/finops/surge-ai-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/surge-ai-finops.yml
 - group: company
   title: ''
   type: Website
@@ -216,9 +231,13 @@ features:
 - description: Public releases including the world's largest social-media toxicity dataset.
   name: Open Datasets
 finops:
-- name: Surge Ai Finops
+- has_sources: false
+  method: generated
+  name: Surge Ai Finops
+  primary_unit: ''
   service_category: API
   slug: surge-ai-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/surge-ai.png
 integrations:
 - description: Programmatic integration via the official surge-python SDK.
@@ -232,10 +251,10 @@ modified: '2026-05-23'
 name: Surge AI
 nav: Providers
 network: true
-overview: 'Surge AI publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Projects API, Tasks API, Teams API, and 11 more. Tagged areas include Human Data, RLHF, SFT, Rubrics, and Verifiers.
+overview: 'Surge AI publishes 14 API contracts indexed on the [APIs.io](https://apis.io/) network, including Projects API, Tasks API, Teams API, and 11 more. Tagged areas include Human Data, RLHF, SFT, Rubrics, and Verifiers.
 
 
-  Surge AI''s developer surface includes authentication, developer portal, documentation, API reference, signup flow, developer console, engineering blog, and 12 more developer resources.'
+  Surge AI''s developer surface includes authentication, developer portal, documentation, API reference, signup flow, developer console, engineering blog, and 15 more developer resources.'
 plans:
 - name: Surge Ai Plans Pricing
   plan_count: 1
@@ -247,22 +266,22 @@ rate_limits:
   slug: surge-ai-rate-limits
 score:
   band: thin
-  composite: 34.5
+  composite: 28.7
   coverage:
     artifact_dirs: 11
-    catalog_earned: 49.4
+    catalog_earned: 36.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 65.6
+    catalog_gap: 79.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.8
   facets:
-    access_clarity: 40.0
+    access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 45.3
     developer_ergonomics: 59.5
     discoverability: 57.1
-    operational_transparency: 21.6
+    operational_transparency: 7.9
   open_source:
     applies: true
     score: 0.0
@@ -276,13 +295,13 @@ score:
       total: 3
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

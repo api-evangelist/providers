@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 89
+- acting_count: 76
   human_in_the_loop: 6
   name: Opkey Agentic Access
   operation_count: 90
   slug: opkey-agentic-access
-  summary_line: 90 operations · 89 acting · 6 human-in-the-loop
+  summary_line: 90 operations · 76 acting · 6 human-in-the-loop
 api_count: 1
 apis:
 - description: The official pCloudy MCP server, published by pCloudy as the Python package pcloudy-mcp and run over stdio with uvx. It exposes 36 tools across four groups — device booking, browser booking, app manag
@@ -123,7 +123,7 @@ apis:
   description: The Xctest Automation API from Opkey — 6 operation(s) for xctest automation.
   name: Opkey Xctest Automation API
   slug: opkey-xctest-automation-api
-artifact_total: 36
+artifact_total: 37
 collections:
 - collection_type: open
   name: API Collection
@@ -174,6 +174,19 @@ collections:
   name: pCloudy Device Cloud Xctest Automation API
   slug: open-opkey-xctest-automation-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/opkey/refs/heads/main/plans/opkey-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/opkey-plans-pricing.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.opkey.com/news
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.opkey.com/news/feed
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/opkey/refs/heads/main/capabilities/opkey-capability-edges.yml
   title: ''
@@ -306,28 +319,32 @@ mcp_servers:
 - description: Local (stdio) MCP server; 36 tools listed.
   name: pCloudy-mcp-tool
   slug: pcloudy-mcp-tool
-modified: '2026-09-16'
+modified: '2026-10-06'
 name: Opkey
 nav: Providers
 network: true
-overview: 'Opkey publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Apk Instrumentation API, Apk Instrumentation Apis API, App Center Api, and 13 more. Tagged areas include Company, Testing, Test Automation, Quality Assurance, and DevOps.
+overview: 'Opkey publishes 16 API contracts indexed on the [APIs.io](https://apis.io/) network, including Apk Instrumentation API, Apk Instrumentation Apis API, App Center Api, and 13 more. Tagged areas include Company, Testing, Test Automation, Quality Assurance, and DevOps.
 
 
-  Opkey''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, pricing, and 20 more developer resources.'
+  Opkey''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, signup flow, pricing, and 23 more developer resources.'
+plans:
+- name: Opkey Plans Pricing
+  plan_count: 6
+  slug: opkey-plans-pricing
 random_paper: 2
 score:
-  band: developing
-  composite: 48.9
+  band: strong
+  composite: 55.3
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 26
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.4
   facets:
-    access_clarity: 42.1
+    access_clarity: 73.7
     contract_governance: 18.2
     contract_quality: 55.4
     developer_ergonomics: 68.5
@@ -350,9 +367,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

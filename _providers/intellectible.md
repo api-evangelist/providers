@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: RESTful API for programmatic access to Intellectible projects - list and run workflows synchronously, and manage Library files (create signed upload URLs, upload bytes, finalize, retrieve, list, and d
@@ -108,7 +108,7 @@ modified: '2026-07-19'
 name: Intellectible
 nav: Providers
 network: true
-overview: 'Intellectible publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Government, GovCon, and Proposals.
+overview: 'Intellectible is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Government, GovCon, and Proposals.
 
 
   Intellectible''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, and 8 more developer resources.'
@@ -117,7 +117,7 @@ score:
   band: emerging
   composite: 20.2
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -140,8 +140,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 10.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

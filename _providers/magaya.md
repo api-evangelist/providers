@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -94,6 +94,14 @@ collections:
   name: Magaya API (Modeled)
   slug: open-magaya
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.magaya.com/insights-by-magaya/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.magaya.com/feed/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/magaya/refs/heads/main/capabilities/magaya-capability-edges.yml
   title: ''
@@ -156,19 +164,23 @@ common:
 created: '2026-07-05'
 description: Magaya is a logistics and supply chain software company whose cloud Digital Freight Platform runs freight forwarding, warehouse management, customs compliance, rate management, and a digital customer experience portal. Magaya exposes programmatic access to the logistics objects inside a customer's system - Shipments, Warehouse Receipts, Invoices, Items, and financial Transactions - through the Magaya API (a SOAP/XML Web Service) and the newer Magaya Open API collection of web services, plus a REST Digital Freight Portal API inherited from the Qwyk acquisition. API access is gated behind a Magaya subscription and a dedicated API user configured in the customer's own tenant (base URL of the form https://SYSTEMID.magayacloud.com/api); the reference documentation is public but runtime access requires a licensed system, so the resource paths below are honestly modeled from Magaya's published object model rather than confirmed against an open self-serve reference.
 finops:
-- name: Magaya Finops
+- has_sources: true
+  method: generated
+  name: Magaya Finops
+  primary_unit: ''
   service_category: Logistics and Supply Chain Software
   slug: magaya-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/magaya.png
 layout: provider
-modified: '2026-07-05'
+modified: '2026-10-06'
 name: Magaya
 nav: Providers
 network: true
-overview: 'Magaya publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Invoices API, Items API, Shipments API, and 2 more. Tagged areas include Logistics, Supply Chain, Freight Forwarding, Warehouse Management, and Shipping.
+overview: 'Magaya publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Invoices API, Items API, Shipments API, and 2 more. Tagged areas include Logistics, Supply Chain, Freight Forwarding, Warehouse Management, and Shipping.
 
 
-  Magaya''s developer surface includes authentication, documentation, API reference, signup flow, and 9 more developer resources.'
+  Magaya''s developer surface includes engineering blog, authentication, documentation, API reference, signup flow, and 10 more developer resources.'
 plans:
 - name: Magaya Plans Pricing
   plan_count: 2
@@ -180,22 +192,22 @@ rate_limits:
   slug: magaya-rate-limits
 score:
   band: thin
-  composite: 34.2
+  composite: 27.7
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 58.0
+    artifact_dirs: 12
+    catalog_earned: 42.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.0
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.5
   facets:
-    access_clarity: 40.0
+    access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 43.5
-    developer_ergonomics: 29.8
+    developer_ergonomics: 32.1
     discoverability: 66.1
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   previous_composite: 34.2
   provenance:
     agentic_access: derived
@@ -210,9 +222,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

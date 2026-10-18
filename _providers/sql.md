@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: Open Database Connectivity (ODBC) is a standard C-language API for accessing database management systems. ODBC allows applications to connect to any ODBC-compliant database using a unified programming
@@ -44,6 +44,21 @@ apis:
   slug: jdbc-api
 artifact_total: 11
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sql/refs/heads/main/plans/sql-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/sql-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/sql/refs/heads/main/rate-limits/sql-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/sql-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sql/refs/heads/main/finops/sql-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/sql-finops.yml
 - group: docs
   href: https://raw.githubusercontent.com/api-evangelist/sql/refs/heads/main/json-schema/sql-query-schema.json
   title: ''
@@ -91,9 +106,13 @@ examples:
   name: Sql Select Query Example
   slug: sql-select-query-example
 finops:
-- name: Sql Finops
+- has_sources: false
+  method: generated
+  name: Sql Finops
+  primary_unit: ''
   service_category: API
   slug: sql-finops
+  template: true
 image: https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png
 json_schemas:
 - name: SQL Query
@@ -116,7 +135,7 @@ modified: '2026-05-02'
 name: SQL
 nav: Providers
 network: true
-overview: 'SQL publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include ANSI Standard, Data Management, Database, ISO Standard, and Query Language.
+overview: 'SQL is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include ANSI Standard, Data Management, Database, ISO Standard, and Query Language.
 
 
   The SQL catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.'
@@ -130,9 +149,10 @@ rate_limits:
   name: Sql Rate Limits
   slug: sql-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: SQL API Rules
+  name: SQL — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -142,17 +162,17 @@ rules:
   slug: sql-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 15.0
+  composite: 13.5
   coverage:
     artifact_dirs: 10
-    catalog_earned: 48.8
+    catalog_earned: 45.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 66.3
+    catalog_gap: 69.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 23.5
     contract_quality: 10.7
     developer_ergonomics: 9.5
@@ -165,8 +185,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 4.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

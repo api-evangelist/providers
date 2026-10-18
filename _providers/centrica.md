@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://api.dev.fieldops.centrica.com/api/v1/identity
@@ -197,7 +197,7 @@ modified: '2026-07-27'
 name: Centrica
 nav: Providers
 network: true
-overview: 'Centrica publishes 1 API on the [APIs.io](https://apis.io/) network: Oauth2 API. Tagged areas include Energy, United Kingdom, Utilities, Electricity, and Gas.
+overview: 'Centrica publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Oauth2 API. Tagged areas include Energy, United Kingdom, Utilities, Electricity, and Gas.
 
 
   Centrica''s developer surface includes authentication, sandbox, documentation, signup flow, API reference, engineering blog, and 24 more developer resources.'
@@ -253,8 +253,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 32.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

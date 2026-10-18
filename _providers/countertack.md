@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: A customer-only HTTP API host operated by GoSecure (formerly CounterTack) behind the GoSecure Titan platform. The host answers HTTP 401 on every path probed — including /robots.txt and every /.well-kn
@@ -44,6 +44,10 @@ apis:
   slug: gosecure-titan-platform-api
 artifact_total: 7
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.gosecure.ai/blog/
 - group: company
   title: ''
   type: Website
@@ -148,14 +152,14 @@ created: '2026-08-11'
 description: 'CounterTack, Inc. was a Waltham, Massachusetts endpoint detection and response (EDR) vendor whose Sentinel and Endpoint Threat Platform products applied behavioral analysis, memory forensics and machine learning to detect zero-days, rootkits and advanced persistent threats. In June 2018 CounterTack acquired its channel partner GoSecure, a managed detection and response (MDR) provider, and in March 2019 rebranded the combined company as "GoSecure powered by CounterTack"; the CounterTack name has since been retired in favour of GoSecure, which today markets a managed extended detection and response (MXDR) service and the GoSecure Titan platform covering EDR, IDR, NGAV, SIEM and professional services. The CounterTack surface is therefore historical: countertack.com still resolves to GoSecure infrastructure but serves no valid certificate, and the living platform is customer-only behind a Keycloak single sign-on at titan.gosecure.net.'
 image: https://www.gosecure.ai/images/sharing/gosecure-facebook.jpg
 layout: provider
-modified: '2026-08-11'
+modified: '2026-10-06'
 name: CounterTack
 nav: Providers
 network: true
-overview: 'CounterTack publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Cybersecurity, Endpoint Security, and Endpoint Detection and Response.
+overview: 'CounterTack is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Cybersecurity, Endpoint Security, and Endpoint Detection and Response.
 
 
-  CounterTack''s developer surface includes support, authentication, and 16 more developer resources.'
+  CounterTack''s developer surface includes engineering blog, support, authentication, and 16 more developer resources.'
 plans:
 - name: Countertack Plans Pricing
   plan_count: 0
@@ -172,20 +176,20 @@ scopes:
   summary_line: 13 scopes · authorizationCode/clientCredentials/deviceCode/implicit/password
 score:
   band: emerging
-  composite: 16.0
+  composite: 16.6
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 6.6
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 11.9
+    developer_ergonomics: 14.3
     discoverability: 66.1
     operational_transparency: 7.9
   previous_composite: 16.0
@@ -197,8 +201,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: GSMA Mobile Money API profile for account validation, FX quotations, and multi-rail money movement (wallet/bank/card) across international corridors.
@@ -135,7 +135,7 @@ modified: '2026-07-21'
 name: TerraPay
 nav: Providers
 network: true
-overview: 'TerraPay publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Payments, Cross-Border Payments, and Remittances.
+overview: 'TerraPay is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Payments, Cross-Border Payments, and Remittances.
 
 
   The TerraPay catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -171,8 +171,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 15.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

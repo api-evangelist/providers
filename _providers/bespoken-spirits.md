@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -203,7 +203,7 @@ modified: '2026-08-07'
 name: Bespoken Spirits
 nav: Providers
 network: true
-overview: 'Bespoken Spirits publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Spirits, Beverage Alcohol, E-Commerce, and Agentic Commerce.
+overview: 'Bespoken Spirits is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Spirits, Beverage Alcohol, E-Commerce, and Agentic Commerce.
 
 
   Bespoken Spirits'' developer surface includes documentation, authentication, code examples, engineering blog, support, pricing, and 23 more developer resources.'
@@ -217,7 +217,7 @@ score:
   band: thin
   composite: 28.2
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -243,8 +243,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

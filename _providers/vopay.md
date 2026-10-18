@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -26,7 +26,7 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: verified
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: false
@@ -34,16 +34,16 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 38.6
-  scored_at: '2026-10-04'
+  score: 42.1
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 258
+- acting_count: 257
   human_in_the_loop: 0
   name: Vopay Agentic Access
   operation_count: 404
   slug: vopay-agentic-access
-  summary_line: 404 operations · 258 acting
-api_count: 23
+  summary_line: 404 operations · 257 acting
+api_count: 25
 apis:
 - baseURL: https://earthnode-dev.vopay.com/api/v2
   baseurl_source: declared
@@ -350,7 +350,7 @@ apis:
   description: The Zelle Endpoints API from VoPay — 6 operation(s) for zelle endpoints.
   name: VoPay Zelle Endpoints API
   slug: vopay-zelle-endpoints-api
-artifact_total: 90
+artifact_total: 96
 asyncapis:
 - description: VoPay webhook (event notification) surface. VoPay delivers 24 event types via HTTP POST to the URL configured with account/webhook-url or partner/webhook-url. Every payload carries a ValidationKey = s
   name: VoPay Webhooks
@@ -426,6 +426,45 @@ collections:
   name: Virtual Accounts
   slug: open-vopay-virtual-account-api-reference
 common:
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vopay/refs/heads/main/rules/vopay-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/vopay-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vopay/refs/heads/main/json-ld/vopay-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/vopay-context.jsonld
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vopay/refs/heads/main/vocabulary/vopay-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/vopay-vocabulary.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/vopay/refs/heads/main/mcp/vopay-mcp.yml
+  title: ''
+  type: MCPServer
+  url: mcp/vopay-mcp.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/vopay/refs/heads/main/hosts/vopay-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/vopay-hosts.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/vopay/refs/heads/main/integrations/vopay-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/vopay-integration-edges.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/vopay/refs/heads/main/vendors/vopay-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/vopay-vendors.yml
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://vopay.com/newsroom/
 - group: commercial
   href: https://raw.githubusercontent.com/api-evangelist/vopay/refs/heads/main/plans/vopay-plans-pricing.yml
   title: ''
@@ -558,11 +597,6 @@ common:
   title: ''
   type: DataModel
   url: data-model/vopay-data-model.yml
-- group: build
-  href: https://raw.githubusercontent.com/api-evangelist/vopay/refs/heads/main/packages/vopay-packages.yml
-  title: ''
-  type: Packages
-  url: packages/vopay-packages.yml
 - group: design
   href: https://raw.githubusercontent.com/api-evangelist/vopay/refs/heads/main/components/vopay-components.yml
   title: ''
@@ -625,40 +659,72 @@ common:
 created: '2026-07-24'
 description: VoPay is a Vancouver, Canada based fintech offering an API-first embedded finance and payments-as-a-service platform that lets software companies, marketplaces, lenders, and enterprises move money across Canadian and North American bank rails from a single set of REST endpoints. Its Fintech-as-a-Service suite spans EFT, Interac e-Transfer, ACH, RTP/FedNow/FedWire, VoPay Instant, card and digital-wallet payments, cross-border and global cash management, virtual accounts, ledgering, scheduled and recurring payments, bank-account verification (IQ11), KYC/AML onboarding, and dispute management. VoPay ships a genuine public developer portal (docs.vopay.com) with a sandbox, an OpenAPI-backed API reference segmented by product, webhooks for transaction and account events, and API-key-plus-shared-secret signature authentication with IP whitelisting. Its home market is Canada, where it operates as an API-native money-movement layer over Interac and Payments Canada rails.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+json_schemas:
+- name: Rail_Default
+  property_count: 0
+  slug: vopay-rail-default
+- name: Rail_EFT
+  property_count: 2
+  slug: vopay-rail-eft
+- name: Rail_SEPAInstant
+  property_count: 2
+  slug: vopay-rail-sepainstant
+jsonld:
+- class_count: 2
+  name: Vopay Context
+  property_count: 4
+  slug: vopay-context
 layout: provider
+mcp_servers:
+- description: 'VoPay''s hosted docs MCP server on its ReadMe developer portal: five meta tools that list, search and describe the OpenAPI specs behind docs.vopay.com and execute a request (HAR) against the API. Not o'
+  name: VoPay API
+  slug: vopay-api
 modified: '2026-09-16'
 name: VoPay
 nav: Providers
 network: true
-overview: 'VoPay publishes 61 APIs on the [APIs.io](https://apis.io/) network, including Account Endpoints API, Account Onboarding Endpoints API, Account Verification Endpoints API, and 58 more. Tagged areas include Payments, Canada, Embedded Finance, Payments-as-a-Service, and Account-to-Account.
+overview: 'VoPay publishes 61 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account Endpoints API, Account Onboarding Endpoints API, Account Verification Endpoints API, and 58 more. Tagged areas include Payments, Canada, Embedded Finance, Payments-as-a-Service, and Account-to-Account.
 
 
-  The VoPay catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The VoPay catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  VoPay''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, support, and 35 more developer resources.'
+  VoPay''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, support, and 42 more developer resources.'
 plans:
 - name: Vopay Plans Pricing
   plan_count: 3
   slug: vopay-plans-pricing
 random_paper: 9
+rules:
+- authorship: generated
+  effective_rule_count: 54
+  extends:
+  - spectral:oas
+  name: VoPay API Rules
+  rule_count: 13
+  severity_counts:
+    error: 9
+    hint: 0
+    info: 1
+    warn: 3
+  slug: vopay-rules
 score:
   band: strong
-  composite: 57.5
+  composite: 62.3
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 52.0
+    artifact_dirs: 32
+    catalog_earned: 71.8
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 43.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 4.8
   facets:
     access_clarity: 76.3
-    contract_governance: 4.5
-    contract_quality: 53.3
+    contract_governance: 22.0
+    contract_quality: 62.7
     developer_ergonomics: 57.7
-    discoverability: 78.6
+    discoverability: 81.7
     operational_transparency: 44.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -667,7 +733,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 57.0
+  previous_composite: 57.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -676,7 +742,7 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 61
-    mcp: derived
+    mcp: first-party
     skills: derived
   regulatory:
     applies: true
@@ -684,8 +750,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 24.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

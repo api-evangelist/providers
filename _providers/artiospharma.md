@@ -23,10 +23,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.artios.com/feed/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/artiospharma/refs/heads/main/hosts/artiospharma-hosts.yml
   title: ''
@@ -65,7 +69,7 @@ created: '2026-09-26'
 description: Artios Pharma is a clinical‑stage oncology company focused on DNA Damage Response (DDR) medicines. It develops novel cancer therapies targeting DDR pathways, aiming to deliver meaningful survival benefits to patients with limited treatment options. The company’s pipeline includes ATR inhibitor alnodesertib, Pol Theta inhibitor ART6043, and DDR‑i‑ADC ART21934, supported by a strong scientific team and investors.
 image: https://www.artios.com/wp-content/uploads/2022/03/artios-banner.jpg
 layout: provider
-modified: '2026-09-26'
+modified: '2026-10-06'
 name: Artiospharma
 nav: Providers
 network: true
@@ -73,14 +77,15 @@ overview: Artiospharma is profiled on the [APIs.io](https://apis.io/) network. T
 random_paper: 15
 score:
   band: minimal
-  composite: 8.8
+  composite: 8.9
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 8
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.1
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
@@ -88,6 +93,7 @@ score:
     developer_ergonomics: 0.0
     discoverability: 48.2
     operational_transparency: 0.0
+  previous_composite: 8.8
   provenance:
     mcp: derived
   regulatory:
@@ -96,12 +102,14 @@ score:
     regime: Health
     regime_id: health
     score: 10.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/artiospharma/refs/heads/main/screenshots/artiospharma-2026-10-11T100430.png
 security:
 - kind: domain-security
   name: Artiospharma Domain Security

@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -17,19 +17,49 @@ agent_readiness:
     mcp_server: documented
     openapi_examples: false
     protected_resource_metadata: verified
-    rate_limit_signal: false
+    rate_limit_signal: documented
     reversibility_documented: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.8
-  scored_at: '2026-10-04'
+  score: 37.3
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
-- description: Machine‑Control‑Protocol API providing access to Deeplead's lead generation functions.
-  name: Deeplead MCP API
-  slug: deeplead-mcp-api
-artifact_total: 4
+- description: 'Remote Model Context Protocol server exposing the Deeplead API as tools to Claude, ChatGPT, Cursor and other agents. Sign in with OAuth (dynamic client registration supported) or pass an API key as a '
+  name: Deeplead MCP Server
+  slug: deeplead-mcp-server
+- baseURL: https://www.deeplead.io/api/v1
+  baseurl_source: declared
+  description: The Account API from Deeplead — 1 operation(s) for account.
+  name: Deeplead Account API
+  slug: deeplead-account-api
+- baseURL: https://www.deeplead.io/api/v1
+  baseurl_source: declared
+  description: The Businesses API from Deeplead — 1 operation(s) for businesses.
+  name: Deeplead Businesses API
+  slug: deeplead-businesses-api
+- baseURL: https://www.deeplead.io/api/v1
+  baseurl_source: declared
+  description: The Contacts API from Deeplead — 1 operation(s) for contacts.
+  name: Deeplead Contacts API
+  slug: deeplead-contacts-api
+- baseURL: https://www.deeplead.io/api/v1
+  baseurl_source: declared
+  description: The Deliverability API from Deeplead — 2 operation(s) for deliverability.
+  name: Deeplead Deliverability API
+  slug: deeplead-deliverability-api
+- baseURL: https://www.deeplead.io/api/v1
+  baseurl_source: declared
+  description: The Organizations API from Deeplead — 3 operation(s) for organizations.
+  name: Deeplead Organizations API
+  slug: deeplead-organizations-api
+- baseURL: https://www.deeplead.io/api/v1
+  baseurl_source: declared
+  description: The Persons API from Deeplead — 5 operation(s) for persons.
+  name: Deeplead Persons API
+  slug: deeplead-persons-api
+artifact_total: 10
 common:
 - group: commercial
   href: https://raw.githubusercontent.com/api-evangelist/deeplead/refs/heads/main/plans/deeplead-plans-pricing.yml
@@ -72,15 +102,36 @@ common:
 - group: docs
   title: ''
   type: Documentation
-  url: https://www.deeplead.io/info/about
+  url: https://www.deeplead.io/developers
 - group: docs
   title: ''
   type: APIReference
-  url: https://www.deeplead.io/mcp
+  url: https://www.deeplead.io/api/v1/docs
 - group: start
   title: ''
   type: GettingStarted
-  url: https://www.deelead.io/
+  url: https://www.deeplead.io/developers
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.deeplead.io/login
+- group: other
+  title: ''
+  type: APICatalog
+  url: https://www.deeplead.io/.well-known/api-catalog
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/deeplead/refs/heads/main/llms/deeplead-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/deeplead-llms.txt
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: https://www.deeplead.io/.well-known/security.txt
+- group: operate
+  title: ''
+  type: RateLimits
+  url: https://www.deeplead.io/api/v1/docs
 - group: company
   title: ''
   type: Blog
@@ -97,16 +148,8 @@ common:
   title: ''
   type: PrivacyPolicy
   url: https://www.deeplead.io/privacy-policy
-coverage:
-  checked: '2026-09-27'
-  detail: Deeplead's MCP API page provides only HTML documentation without a machine‑readable OpenAPI or other contract.
-  evidence:
-  - status: 200
-    url: https://www.deeplead.io/mcp
-  reason: no-machine-readable-spec
-  state: unreadable
 created: '2026-09-27'
-description: Deeplead provides an automated cold‑email outreach platform that helps businesses generate qualified leads by analyzing prospect websites, LinkedIn, and other data sources. The service combines AI‑generated email copy, inbox warm‑up, deliverability testing, and multi‑channel follow‑ups to accelerate the sales pipeline. Users input their target market and receive personalized outreach campaigns that aim to secure replies within days, backed by analytics on open rates, response rates, and ROI.
+description: Deeplead finds B2B customers and runs cold email outreach to them. It searches local businesses, companies and people, finds decision makers with verified work emails and phone numbers, and sends personalized campaigns from warmed-up inboxes with one inbox for every reply. The same data is available to developers and AI agents through a REST API with an OpenAPI 3.1 contract and a remote MCP server, both authenticated with an API key or OAuth.
 image: https://deeplead.io/opengraph-image
 layout: provider
 mcp_servers:
@@ -117,33 +160,40 @@ modified: '2026-09-27'
 name: Deeplead
 nav: Providers
 network: true
-overview: 'Deeplead publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Lead Generation, Cold Email, Artificial Intelligence, and Sales Automation.
+overview: 'Deeplead publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Businesses API, Contacts API, and 4 more. Tagged areas include Company, Lead Generation, Cold Email, Artificial Intelligence, and Sales Automation.
 
 
-  Deeplead''s developer surface includes support, documentation, API reference, getting-started guide, engineering blog, pricing, and 9 more developer resources.'
+  Deeplead''s developer surface includes support, documentation, API reference, getting-started guide, signup flow, engineering blog, pricing, and 13 more developer resources.'
 plans:
 - name: Deeplead Plans Pricing
   plan_count: 1
   slug: deeplead-plans-pricing
 random_paper: 6
 score:
-  band: emerging
-  composite: 24.1
+  band: developing
+  composite: 40.5
   coverage:
-    artifact_dirs: 8
-    catalog_earned: 40.0
+    artifact_dirs: 12
+    catalog_earned: 45.0
     catalog_earned_first_party: 8.0
-    catalog_gap: 75.0
+    catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 16.4
   facets:
-    access_clarity: 52.6
+    access_clarity: 65.8
     contract_governance: 0.0
-    contract_quality: 0.0
+    contract_quality: 47.8
     developer_ergonomics: 35.7
-    discoverability: 60.0
+    discoverability: 85.0
     operational_transparency: 0.0
+  previous_composite: 24.1
   provenance:
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
     mcp: unknown
   regulatory:
     applies: true
@@ -151,12 +201,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
+screenshot: https://raw.githubusercontent.com/api-evangelist/deeplead/refs/heads/main/screenshots/deeplead-2026-10-11T103638.png
 security:
 - kind: domain-security
   name: Deeplead Domain Security

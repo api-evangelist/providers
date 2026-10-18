@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -247,7 +247,7 @@ modified: '2026-05-23'
 name: Children's Hospital of Philadelphia
 nav: Providers
 network: true
-overview: 'Children''s Hospital of Philadelphia publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Bulk Data API, Patient Access API, Provider Directory API, and 5 more. Tagged areas include Healthcare, Pediatrics, FHIR, SMART on FHIR, and Patient Access.
+overview: 'Children''s Hospital of Philadelphia publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Bulk Data API, Patient Access API, Provider Directory API, and 5 more. Tagged areas include Healthcare, Pediatrics, FHIR, SMART on FHIR, and Patient Access.
 
 
   The Children''s Hospital of Philadelphia catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -256,9 +256,10 @@ overview: 'Children''s Hospital of Philadelphia publishes 8 APIs on the [APIs.io
   Children''s Hospital of Philadelphia''s developer surface includes authentication, developer portal, engineering blog, support, and 14 more developer resources.'
 random_paper: 15
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Children's Hospital of Philadelphia API Rules
+  name: Children's Hospital of Philadelphia — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -266,10 +267,11 @@ rules:
     info: 2
     warn: 3
   slug: childrens-hospital-of-philadelphia-jsonschema-spectral-rules
-- effective_rule_count: 45
+- authorship: unmarked
+  effective_rule_count: 45
   extends:
   - spectral:oas
-  name: Children's Hospital of Philadelphia API Rules
+  name: Children's Hospital of Philadelphia — chop fhir rules
   rule_count: 4
   severity_counts:
     error: 2
@@ -284,15 +286,15 @@ scopes:
   summary_line: 6 scopes · authorizationCode/clientCredentials
 score:
   band: thin
-  composite: 39.0
+  composite: 39.1
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 58.0
     catalog_earned_first_party: 0.0
     catalog_gap: 57.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 10.5
     contract_governance: 27.3
@@ -314,8 +316,8 @@ score:
     regime: Health
     regime_id: health
     score: 29.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

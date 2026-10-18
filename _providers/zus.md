@@ -30,13 +30,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.5
-  scored_at: '2026-10-04'
+  score: 29.6
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -365,16 +365,20 @@ common:
 created: '2026-06-21'
 description: Zus Health is a shared health-data platform that aggregates a patient's clinical history from external networks into the Zus Aggregated Profile (ZAP). It exposes a FHIR R4 (v4.0.1) REST API secured with OAuth2 Bearer tokens, Patient History APIs, document ingestion and retrieval, Zushooks webhooks, a GraphQL FHIR Query Service, and embeddable open-source React components.
 finops:
-- name: Zus Finops
+- has_sources: true
+  method: generated
+  name: Zus Finops
+  primary_unit: ''
   service_category: Healthcare
   slug: zus-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zus.png
 layout: provider
 modified: '2026-06-21'
 name: Zus Health
 nav: Providers
 network: true
-overview: 'Zus Health publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Documents API, FHIR API, and 4 more. Tagged areas include Health, FHIR, Interoperability, Patient Data, and Healthcare.
+overview: 'Zus Health publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Auth API, Documents API, FHIR API, and 4 more. Tagged areas include Health, FHIR, Interoperability, Patient Data, and Healthcare.
 
 
   The Zus Health catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -391,23 +395,23 @@ rate_limits:
   name: Zus Rate Limits
   slug: zus-rate-limits
 score:
-  band: strong
-  composite: 57.8
+  band: developing
+  composite: 50.8
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 58.0
+    artifact_dirs: 25
+    catalog_earned: 42.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.0
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.0
   facets:
-    access_clarity: 62.4
+    access_clarity: 40.8
     contract_governance: 18.2
     contract_quality: 57.3
     developer_ergonomics: 47.0
     discoverability: 73.2
-    operational_transparency: 78.4
+    operational_transparency: 57.9
   previous_composite: 57.8
   provenance:
     agentic_access: derived
@@ -425,9 +429,9 @@ score:
     regime: Health
     regime_id: health
     score: 29.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 49.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: The Grafana Loki HTTP API — 40 documented endpoints for pushing logs (native and OTLP), querying with LogQL over instants and ranges, discovering labels, series, patterns and detected fields, streamin
@@ -52,6 +52,10 @@ apis:
   slug: grafana-mcp-loki-tools
 artifact_total: 11
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://grafana.com/blog/index.xml
 - group: commercial
   title: ''
   type: License
@@ -263,14 +267,14 @@ mcp_servers:
 - description: 'Grafana Loki does not itself ship an MCP server. The Loki query surface reaches MCP clients through the Grafana Labs MCP servers, which expose Loki as a datasource: the open-source grafana/mcp-grafana'
   name: Grafana MCP server (Loki tools)
   slug: grafana-mcp-server-loki-tools
-modified: '2026-08-27'
+modified: '2026-10-06'
 name: Grafana Loki
 nav: Providers
 network: true
-overview: 'Grafana Loki publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Logs, Logging, Log Aggregation, and Observability.
+overview: 'Grafana Loki is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Logs, Logging, Log Aggregation, and Observability.
 
 
-  Grafana Loki''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 37 more developer resources.'
+  Grafana Loki''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 38 more developer resources.'
 plans:
 - name: Grafana Loki Plans Pricing
   plan_count: 3
@@ -289,7 +293,7 @@ score:
   band: strong
   composite: 66.1
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 64.0
     catalog_earned_first_party: 24.0
     catalog_gap: 51.0
@@ -314,8 +318,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -28,20 +28,20 @@ agent_readiness:
     mcp_server: documented
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.8
-  scored_at: '2026-10-04'
+  score: 29.9
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 127
+- acting_count: 96
   human_in_the_loop: 1
   name: Microsoft Purview Agentic Access
-  operation_count: 214
+  operation_count: 174
   slug: microsoft-purview-agentic-access
-  summary_line: 214 operations · 127 acting · 1 human-in-the-loop
+  summary_line: 174 operations · 96 acting · 1 human-in-the-loop
 api_count: 12
 apis:
 - baseURL: https://{account-name}.purview.azure.com
@@ -1058,6 +1058,20 @@ collections:
   name: Microsoft Purview Account Accounts Workflows API
   slug: open-microsoft-purview-workflows-api
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-purview/refs/heads/main/rate-limits/microsoft-purview-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/microsoft-purview-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-purview/refs/heads/main/finops/microsoft-purview-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/microsoft-purview-finops.yml
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://azure.microsoft.com/en-us/pricing/details/purview/
 - group: commercial
   href: https://raw.githubusercontent.com/api-evangelist/microsoft-purview/refs/heads/main/plans/microsoft-purview-plans-pricing.yml
   title: ''
@@ -1377,9 +1391,13 @@ common:
 created: 2024-01-15 00:00:00+00:00
 description: Microsoft Purview is a comprehensive data governance service that helps organizations discover, catalog, classify, and manage their data estate across on-premises, multi-cloud, and SaaS environments.
 finops:
-- name: Microsoft Purview Finops
+- has_sources: true
+  method: generated
+  name: Microsoft Purview Finops
+  primary_unit: ''
   service_category: Compliance / Data Governance
   slug: microsoft-purview-finops
+  template: false
 image: https://www.microsoft.com/en-us/microsoft-365/blog/wp-content/uploads/sites/2/2021/04/Microsoft-Purview-logo.png
 json_schemas:
 - name: AccessKeys
@@ -1814,13 +1832,13 @@ modified: '2026-06-20'
 name: Microsoft Purview
 nav: Providers
 network: true
-overview: 'Microsoft Purview publishes 44 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Approval API, Business Domains API, and 41 more. Tagged areas include Compliance, Data Catalog, Data Classification, Data Governance, and Data Loss Prevention.
+overview: 'Microsoft Purview publishes 44 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, Approval API, Business Domains API, and 41 more. Tagged areas include Compliance, Data Catalog, Data Classification, Data Governance, and Data Loss Prevention.
 
 
   The Microsoft Purview catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Microsoft Purview''s developer surface includes authentication, CLI, changelog, developer portal, documentation, getting-started guide, engineering blog, and 60 more developer resources.'
+  Microsoft Purview''s developer surface includes pricing, authentication, CLI, changelog, developer portal, documentation, getting-started guide, and 63 more developer resources.'
 plans:
 - name: Microsoft Purview Plans Pricing
   plan_count: 10
@@ -1831,9 +1849,10 @@ rate_limits:
   name: Microsoft Purview Rate Limits
   slug: microsoft-purview-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Microsoft Purview API Rules
+  name: Microsoft Purview — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1847,24 +1866,24 @@ scopes:
   slug: microsoft-purview-scopes
   summary_line: 8 scopes · clientCredentials/authorizationCode
 score:
-  band: exemplar
-  composite: 67.3
+  band: strong
+  composite: 65.8
   coverage:
     artifact_dirs: 33
-    catalog_earned: 64.3
+    catalog_earned: 61.3
     catalog_earned_first_party: 12.0
     catalog_gap: 53.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -1.5
   facets:
-    access_clarity: 71.1
+    access_clarity: 63.2
     contract_governance: 14.4
     contract_quality: 63.4
     developer_ergonomics: 72.6
     discoverability: 75.0
     operational_transparency: 42.1
-  previous_composite: 66.8
+  previous_composite: 67.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1886,8 +1905,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 5
 apis:
 - description: Bot Defender (formerly PerimeterX Bot Defender) is HUMAN's flagship product for stopping automated traffic against web and mobile properties. A JavaScript sensor and mobile SDKs collect signals from t
@@ -53,6 +53,21 @@ apis:
   slug: scraper-protection
 artifact_total: 11
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/human-security/refs/heads/main/plans/human-security-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/human-security-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/human-security/refs/heads/main/rate-limits/human-security-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/human-security-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/human-security/refs/heads/main/finops/human-security-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/human-security-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/human-security/refs/heads/main/security/human-security-trust-center.yml
   title: ''
@@ -111,19 +126,23 @@ common:
 created: '2026-05-23'
 description: 'HUMAN Security (formerly PerimeterX) is an application security company focused on stopping automated abuse: sophisticated bots, account takeover, fake account creation, scraping, ad fraud, client-side supply-chain attacks, and transaction fraud. HUMAN operates the Human Defense Platform, which combines a JavaScript sensor and mobile SDKs running on the client with risk decisioning services on the server side. Products in the platform include Bot Defender (formerly PerimeterX Bot Defender), Account Defender, Credential Intelligence, Transaction Abuse Defense, Ad Fraud Sensor / MediaGuard, Code Defender (client-side script and supply-chain protection), and Scraper Protection. HUMAN is primarily an enterprise vendor — onboarding, sensor configuration, and policy tuning go through the HUMAN portal and a customer success team — but the platform exposes REST APIs and SDKs that engineering teams integrate into web apps, mobile apps, edge workers, and back-end services.'
 finops:
-- name: Human Security Finops
+- has_sources: false
+  method: generated
+  name: Human Security Finops
+  primary_unit: ''
   service_category: API
   slug: human-security-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/human-security.png
 layout: provider
 modified: '2026-07-25'
 name: HUMAN Security
 nav: Providers
 network: true
-overview: 'HUMAN Security publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Bot Mitigation, Account Takeover, Ad Fraud, Client-Side Security, and Application Security.
+overview: 'HUMAN Security is listed with 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Bot Mitigation, Account Takeover, Ad Fraud, Client-Side Security, and Application Security.
 
 
-  HUMAN Security''s developer surface includes documentation, engineering blog, product news, and 10 more developer resources.'
+  HUMAN Security''s developer surface includes documentation, engineering blog, product news, and 13 more developer resources.'
 plans:
 - name: Human Security Plans Pricing
   plan_count: 1
@@ -135,22 +154,22 @@ rate_limits:
   slug: human-security-rate-limits
 score:
   band: emerging
-  composite: 18.3
+  composite: 12.3
   coverage:
     artifact_dirs: 7
-    catalog_earned: 52.4
+    catalog_earned: 39.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 62.6
+    catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.0
   facets:
-    access_clarity: 34.7
+    access_clarity: 13.2
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
     discoverability: 63.4
-    operational_transparency: 18.9
+    operational_transparency: 5.3
   previous_composite: 18.3
   regulatory:
     applies: true
@@ -158,9 +177,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

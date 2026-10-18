@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://missionbarns.com/press/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/missionbarns/refs/heads/main/security/missionbarns-domain-security.yml
   title: ''
@@ -61,31 +65,31 @@ created: '2026-07-17'
 description: Mission Barns is a Berkeley, California cultivated-meat company founded in 2018 that grows real animal fat from cells to make animal-friendly pork products — including meatballs, bacon, pepperoni, chorizo, and sausage — built on Mission Fat, its proprietary cultivated pork fat. It is the first company to receive both FDA and USDA clearance for cultivated fat and operates a dual B2C consumer-brand and B2B ingredient / co-development model across foodservice and CPG partners. This API Evangelist profile is a portfolio-company lead (backed by Point Nine); the company runs a consumer marketing site and publishes no public API, developer portal, or technical documentation as of this enrichment pass.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/missionbarns.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Mission Barns
 nav: Providers
 network: true
 overview: 'Mission Barns is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food Technology, Cultivated Meat, Cellular Agriculture, and Biotechnology.
 
 
-  Mission Barns'' developer surface includes support and 4 more developer resources.'
+  Mission Barns'' developer surface includes engineering blog, support, and 4 more developer resources.'
 random_paper: 6
 score:
   band: minimal
-  composite: 9.7
+  composite: 10.3
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 4.8
+    developer_ergonomics: 7.1
     discoverability: 48.2
     operational_transparency: 0.0
   previous_composite: 9.7
@@ -95,8 +99,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

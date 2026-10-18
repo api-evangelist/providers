@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.claroty.com/team82/disclosure-dashboard/feed/atom
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/claroty/refs/heads/main/security/claroty-trust-center.yml
   title: ''
@@ -82,20 +86,20 @@ created: '2026-07-17'
 description: Claroty is a cybersecurity company that protects cyber-physical systems (CPS) across industrial, healthcare, commercial, and public-sector environments. Its AI-powered platform delivers asset discovery, exposure and vulnerability management, threat detection, and secure remote access for operational technology (OT), IoT, and the extended internet of things (XIoT) that traditional IT security tools cannot adequately protect. Claroty serves more than 1,300 customers across 60+ countries, including 24 of the Fortune 100, and its Team82 research group publishes original vulnerability research and open-source ICS security tooling. This profile was seeded as a venture-portfolio lead and enriched by the API Evangelist pipeline; Claroty publishes no public product API or developer portal, so enrichment is limited to company identity, GitHub open-source presence, and security/compliance posture.
 image: https://web-assets.claroty.com/seo/og-default-2.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Claroty
 nav: Providers
 network: true
 overview: 'Claroty is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cybersecurity, OT Security, Cyber-Physical Systems, and IoT Security.
 
 
-  Claroty''s developer surface includes engineering blog, support, and 8 more developer resources.'
+  Claroty''s developer surface includes engineering blog, support, and 9 more developer resources.'
 random_paper: 18
 score:
   band: emerging
   composite: 17.3
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -116,8 +120,8 @@ score:
     regime: Health
     regime_id: health
     score: 14.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

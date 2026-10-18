@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 7
 apis:
 - description: List, create, update, and fetch-by-RO-number repair orders (the estimate/invoice unit of work in a shop). Supports bulk create/update with a partial-success model, date-range filters on invoice/finali
@@ -98,16 +98,20 @@ common:
 created: '2026-07-04'
 description: AutoLeap is cloud-based shop management software for independent auto repair shops, covering repair orders, digital vehicle inspections, scheduling, parts ordering, invoicing, and reporting. Standard subscription plans (Essentials, Pro, Elite) are software-only and expose no public API. A separate, gated AutoLeap Partner API exists at developers.myautoleap.com - documented, versioned (v2), token-authenticated REST covering repair orders, customers, vehicles, appointments, inventory, items, payments, purchase orders, suppliers, and partner/company settings - but credentials (Partner ID and Auth Key) are only issued to approved integration partners on request, not to individual shop subscribers.
 finops:
-- name: Autoleap Finops
+- has_sources: true
+  method: generated
+  name: Autoleap Finops
+  primary_unit: ''
   service_category: Vertical SaaS - Auto Repair Shop Management
   slug: autoleap-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/autoleap.png
 layout: provider
 modified: '2026-07-04'
 name: AutoLeap
 nav: Providers
 network: true
-overview: 'AutoLeap publishes 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Auto Repair, Shop Management, Automotive, Partner API, and Vertical SaaS.
+overview: 'AutoLeap is listed with 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Auto Repair, Shop Management, Automotive, Partner API, and Vertical SaaS.
 
 
   AutoLeap''s developer surface includes engineering blog, documentation, and 6 more developer resources.'
@@ -122,22 +126,22 @@ rate_limits:
   slug: autoleap-rate-limits
 score:
   band: emerging
-  composite: 20.4
+  composite: 12.2
   coverage:
     artifact_dirs: 7
-    catalog_earned: 64.6
+    catalog_earned: 46.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 50.4
+    catalog_gap: 69.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.2
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 19.0
     discoverability: 71.4
-    operational_transparency: 28.4
+    operational_transparency: 7.9
   previous_composite: 20.4
   regulatory:
     applies: true
@@ -145,9 +149,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

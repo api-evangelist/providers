@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 86
+- acting_count: 109
   human_in_the_loop: 1
   name: Activiti Agentic Access
-  operation_count: 171
+  operation_count: 240
   slug: activiti-agentic-access
-  summary_line: 171 operations · 86 acting · 1 human-in-the-loop
+  summary_line: 240 operations · 109 acting · 1 human-in-the-loop
 api_count: 1
 apis:
 - description: The Activiti Cloud Runtime Bundle provides a cloud-native REST API for executing BPMN 2.0 processes in a distributed, scalable environment. It exposes endpoints for process instances, tasks, variables
@@ -508,9 +508,13 @@ examples:
   name: Activiti User Example
   slug: activiti-user-example
 finops:
-- name: Activiti Finops
+- has_sources: false
+  method: generated
+  name: Activiti Finops
+  primary_unit: ''
   service_category: ''
   slug: activiti-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/activiti.png
 json_schemas:
 - name: AppDefinitionRepresentation
@@ -553,7 +557,7 @@ modified: 2026-06-13
 name: Activiti
 nav: Providers
 network: true
-overview: 'Activiti publishes 43 APIs on the [APIs.io](https://apis.io/) network, including About API, Admin Endpoints API, Admin Groups API, and 40 more. Tagged areas include Business Process Management, Workflows, BPMN, Open Source, and Process Automation.
+overview: 'Activiti publishes 43 API contracts indexed on the [APIs.io](https://apis.io/) network, including About API, Admin Endpoints API, Admin Groups API, and 40 more. Tagged areas include Business Process Management, Workflows, BPMN, Open Source, and Process Automation.
 
 
   The Activiti catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -570,9 +574,10 @@ rate_limits:
   name: Activiti Rate Limits
   slug: activiti-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Activiti API Rules
+  name: Activiti — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -582,17 +587,17 @@ rules:
   slug: activiti-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 43.3
+  composite: 39.4
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 61.5
+    artifact_dirs: 18
+    catalog_earned: 53.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.6
+    catalog_gap: 61.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.9
   facets:
-    access_clarity: 37.4
+    access_clarity: 15.8
     contract_governance: 9.8
     contract_quality: 55.8
     developer_ergonomics: 28.6
@@ -615,8 +620,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

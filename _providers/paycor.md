@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: REST API for accessing Paycor employees, payroll, benefits, time, and organizational data. Uses OAuth 2.0 authorization code flow with authorization at secure.paycor.com/connect/authorize and tokens i
@@ -40,6 +40,10 @@ apis:
   slug: public-api
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.paycor.com/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/paycor/refs/heads/main/security/paycor-domain-security.yml
   title: ''
@@ -77,20 +81,20 @@ created: '2026-05-11'
 description: Paycor is a cloud-based human capital management (HCM) platform that provides payroll, HR, benefits administration, talent management, time and attendance, and workforce analytics for small and mid-sized businesses. The platform serves HR and finance teams with a unified system of record for employees, pay, time, and benefits data. Paycor exposes a Public REST API authenticated via OAuth 2.0 with authorization at secure.paycor.com and resource endpoints at apis.paycor.com (production) and apis-sandbox.paycor.com (sandbox).
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/paycor.png
 layout: provider
-modified: '2026-05-11'
+modified: '2026-10-06'
 name: Paycor
 nav: Providers
 network: true
-overview: 'Paycor publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include HCM, Payroll, Human Resources, Benefits Administration, and Time and Attendance.
+overview: 'Paycor is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include HCM, Payroll, Human Resources, Benefits Administration, and Time and Attendance.
 
 
-  Paycor''s developer surface includes documentation, pricing, signup flow, and 5 more developer resources.'
+  Paycor''s developer surface includes documentation, pricing, signup flow, and 6 more developer resources.'
 random_paper: 16
 score:
   band: emerging
   composite: 11.3
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -111,8 +115,8 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

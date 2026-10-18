@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: CyberConnect is CyberCube's API layer for integrating its cyber risk models, analytics and signals into a customer's own systems. CyberCube advertises API capabilities across catastrophe risk manageme
@@ -43,6 +43,10 @@ apis:
   slug: cyberconnect
 artifact_total: 4
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.cybcube.com/news/rss.xml
 - group: company
   title: ''
   type: Website
@@ -111,14 +115,14 @@ description: CyberCube is a cyber risk analytics provider for the insurance indu
   authentication challenge.
 image: https://www.cybcube.com/hubfs/cybercube-logo-white.svg
 layout: provider
-modified: '2026-08-11'
+modified: '2026-10-06'
 name: CyberCube
 nav: Providers
 network: true
-overview: 'CyberCube publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cyber Risk, Insurance, Analytics, and Risk Modeling.
+overview: 'CyberCube is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cyber Risk, Insurance, Analytics, and Risk Modeling.
 
 
-  CyberCube''s developer surface includes support and 10 more developer resources.'
+  CyberCube''s developer surface includes support and 11 more developer resources.'
 plans:
 - name: Cybercube Plans Pricing
   plan_count: 0
@@ -132,7 +136,7 @@ score:
   band: emerging
   composite: 17.5
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 10
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -155,8 +159,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 21.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

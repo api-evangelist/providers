@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 5
 apis:
 - description: Comprehensive financial planning and advisory services from Thrivent Financial, offering personalized advice across investments, insurance, estate planning, and retirement. Services include free Money
@@ -53,6 +53,29 @@ apis:
   slug: thrivent-charitable
 artifact_total: 10
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/thrivent-financial-for-lutherans/refs/heads/main/plans/thrivent-financial-for-lutherans-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/thrivent-financial-for-lutherans-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/thrivent-financial-for-lutherans/refs/heads/main/rate-limits/thrivent-financial-for-lutherans-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/thrivent-financial-for-lutherans-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/thrivent-financial-for-lutherans/refs/heads/main/finops/thrivent-financial-for-lutherans-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/thrivent-financial-for-lutherans-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.thrivent.com/insights
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.thrivent.com/insights.rss
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/thrivent-financial-for-lutherans/refs/heads/main/security/thrivent-financial-for-lutherans-domain-security.yml
   title: ''
@@ -101,9 +124,13 @@ common:
 created: '2026-03-21'
 description: Thrivent Financial is a not-for-profit, membership-owned Fortune 500 financial services organization headquartered in Minneapolis, Minnesota, that helps Christians be wise with money and live generously. With more than $212 billion in assets under management and advisement, over 4,500 employees, and 2.4 million members and clients, Thrivent provides comprehensive financial advice, insurance, investments, banking, and generosity programs. The organization is distinguished by connecting financial planning with charitable giving, community impact, and values-based decision making.
 finops:
-- name: Thrivent Financial For Lutherans Finops
+- has_sources: false
+  method: generated
+  name: Thrivent Financial For Lutherans Finops
+  primary_unit: ''
   service_category: API
   slug: thrivent-financial-for-lutherans-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/thrivent-financial-for-lutherans.png
 jsonld:
 - class_count: 20
@@ -111,14 +138,17 @@ jsonld:
   property_count: 21
   slug: thrivent-financial-for-lutherans-context
 layout: provider
-modified: '2026-05-03'
+modified: '2026-10-06'
 name: Thrivent Financial
 nav: Providers
 network: true
-overview: 'Thrivent Financial publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Annuities, Banking, ETFs, Financial Advice, and Financial Planning.
+overview: 'Thrivent Financial is listed with 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Annuities, Banking, ETFs, Financial Advice, and Financial Planning.
 
 
-  The Thrivent Financial catalog on APIs.io includes 1 JSON-LD context.'
+  The Thrivent Financial catalog on APIs.io includes 1 JSON-LD context.
+
+
+  Thrivent Financial''s developer surface includes engineering blog and 15 more developer resources.'
 plans:
 - name: Thrivent Financial For Lutherans Plans Pricing
   plan_count: 3
@@ -146,20 +176,20 @@ rate_limits:
   slug: thrivent-financial-for-lutherans-rate-limits
 score:
   band: emerging
-  composite: 20.3
+  composite: 19.2
   coverage:
     artifact_dirs: 11
-    catalog_earned: 59.5
+    catalog_earned: 56.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 55.5
+    catalog_gap: 58.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.1
   facets:
-    access_clarity: 22.4
+    access_clarity: 14.5
     contract_governance: 13.6
     contract_quality: 14.7
-    developer_ergonomics: 21.4
+    developer_ergonomics: 23.8
     discoverability: 62.5
     operational_transparency: 7.9
   jurisdiction:
@@ -176,8 +206,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 9.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 1
@@ -146,6 +146,10 @@ collections:
   name: REST Auth User API
   slug: open-primis-user-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://primis.cx/feed/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/primis/refs/heads/main/capabilities/primis-capability-edges.yml
   title: ''
@@ -221,20 +225,20 @@ created: '2026-07-17'
 description: Primis (Primis CX) is a post-purchase customer experience platform for eCommerce retailers, headquartered in the UK and backed by 500 Global. Its products — Primis Track (branded order tracking), Primis Ship (discounted multi-carrier shipping), Primis Returns (label-less returns processing), and Primis International (cross-border logistics across 120+ carriers) — reduce "where is my order?" support volume and drive repeat purchases. Primis exposes a REST API (OpenAPI 3.0.0, 42 operations) over HTTPS with bearer-token authentication, covering retailers, orders, shipments, products, campaigns, billing, users, tracking pages, FAQs, and documents, and integrates with Shopify, BigCommerce, Adobe Commerce/Magento, WooCommerce, and carriers such as DPD, DHL, USPS, Evri, UPS, and FedEx.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/primis.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: PRIMIS
 nav: Providers
 network: true
-overview: 'PRIMIS publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Billing API, Campaign API, and 9 more. Tagged areas include Company, E-Commerce, Logistics, Shipping, and Returns.
+overview: 'PRIMIS publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including Auth API, Billing API, Campaign API, and 9 more. Tagged areas include Company, E-Commerce, Logistics, Shipping, and Returns.
 
 
-  PRIMIS''s developer surface includes authentication, documentation, API reference, pricing, signup flow, support, and 10 more developer resources.'
+  PRIMIS''s developer surface includes authentication, documentation, API reference, pricing, signup flow, support, and 11 more developer resources.'
 random_paper: 0
 score:
   band: thin
   composite: 35.1
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 19
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -264,8 +268,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

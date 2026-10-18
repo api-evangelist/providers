@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: verified
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.4
-  scored_at: '2026-10-04'
+  score: 26.5
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -100,6 +100,25 @@ collections:
   name: Context7 REST API
   slug: open-context7
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/context7/refs/heads/main/plans/context7-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/context7-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/context7/refs/heads/main/rate-limits/context7-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/context7-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/context7/refs/heads/main/finops/context7-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/context7-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://context7.com/blog
 - group: operate
   title: ''
   type: IssueTracker
@@ -163,23 +182,27 @@ common:
 created: '2026-03-16'
 description: Context7 is an Upstash service providing up-to-date, version-specific documentation and code examples for libraries and frameworks, exposed as both a REST API and a Model Context Protocol (MCP) server so AI coding assistants can fetch authoritative reference material at prompt time.
 finops:
-- name: Context7 Finops
+- has_sources: false
+  method: generated
+  name: Context7 Finops
+  primary_unit: ''
   service_category: API
   slug: context7-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/context7.png
 layout: provider
 mcp_servers:
 - description: Remote MCP server at mcp.context7.com over HTTP; 2 tools listed.
   name: Context7 MCP Server
   slug: context7
-modified: '2026-05-19'
+modified: '2026-10-06'
 name: Context7
 nav: Providers
 network: true
-overview: 'Context7 publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Add API, Context API, Libs API, and 4 more. Tagged areas include Artificial Intelligence, Context, Documentation, LLM, and MCP.
+overview: 'Context7 is listed with 7 APIs on the [APIs.io](https://apis.io/) network, including Add API, Context API, Libs API, and 4 more. Tagged areas include Artificial Intelligence, Context, Documentation, LLM, and MCP.
 
 
-  Context7''s developer surface includes authentication, documentation, pricing, and 11 more developer resources.'
+  Context7''s developer surface includes engineering blog, authentication, documentation, pricing, and 14 more developer resources.'
 plans:
 - name: Context7 Plans Pricing
   plan_count: 3
@@ -191,20 +214,20 @@ rate_limits:
   slug: context7-rate-limits
 score:
   band: thin
-  composite: 32.5
+  composite: 31.6
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 44.0
+    artifact_dirs: 14
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 71.0
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.9
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 42.9
-    developer_ergonomics: 21.4
+    developer_ergonomics: 23.8
     discoverability: 71.7
     operational_transparency: 36.8
   open_source:
@@ -225,8 +248,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -244,7 +267,7 @@ security:
 - kind: vulnerability-disclosure
   name: Context7 Vulnerability Disclosure
   slug: context7-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 slug: context7
 tags:
 - Artificial Intelligence

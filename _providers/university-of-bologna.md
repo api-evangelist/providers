@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 5.0
-  scored_at: '2026-10-04'
+  score: 3.1
+  scored_at: '2026-10-17'
 api_count: 12
 apis:
 - description: Institution-operated CKAN open data portal serving the standard CKAN Action API over University of Bologna datasets. Verified live 2026-09-01 — https://dati.unibo.it/api/3/action/package_list returned
@@ -74,6 +74,10 @@ apis:
   slug: ror-registration
 artifact_total: 18
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.unibo.it/atom.xml
 - group: company
   title: ''
   type: Website
@@ -163,9 +167,13 @@ description: 'The University of Bologna (Alma Mater Studiorum - Università di B
   https://shib.unibo.it/idp/shibboleth, published as machine-readable metadata both on its own host and in the IDEM GARR AAI federation aggregate; and a self-hosted Moodle at virtuale.unibo.it exposing a live LTI 1.3 platform surface (JWKS plus an OAuth2 token endpoint) alongside a token-gated Moodle Web Services REST API. Its DataCite registration (provider UYEY, five prefixes, 32,291 DOIs), its Crossref membership (member 32492, prefix 10.60923, 1,170 DOIs) and its ROR identifier 01111rn36 are verifiable from public registry endpoints. Two further surfaces are the university''s data on someone else''s platform and are recorded as tenancies, not as its contracts: the IRIS research information system at cris.unibo.it CNAMEs to unibo.prod.iris.cineca.it (CINECA), and the AlmaStart library discovery layer at almastart.unibo.it CNAMEs to unibo.primo.exlibrisgroup.com (Ex Libris Primo VE). The university''s generative-AI policy is a real governance artifact but exists only on the Italian surface.
   Administrative, student-record and course-catalogue systems are behind institutional SSO and are not openly documented.'
 finops:
-- name: University Of Bologna Finops
+- has_sources: true
+  method: generated
+  name: University Of Bologna Finops
+  primary_unit: ''
   service_category: Education
   slug: university-of-bologna-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/university-of-bologna.png
 jsonld:
 - class_count: 18
@@ -173,17 +181,17 @@ jsonld:
   property_count: 7
   slug: university-of-bologna-context
 layout: provider
-modified: '2026-09-01'
+modified: '2026-10-06'
 name: University of Bologna
 nav: Providers
 network: true
-overview: 'University of Bologna publishes 12 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Higher Education, University, Italy, and Europe.
+overview: 'University of Bologna is listed with 12 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Higher Education, University, Italy, and Europe.
 
 
   The University of Bologna catalog on APIs.io includes 1 JSON-LD context.
 
 
-  University of Bologna''s developer surface includes documentation, authentication, and 17 more developer resources.'
+  University of Bologna''s developer surface includes documentation, authentication, and 18 more developer resources.'
 plans:
 - name: University Of Bologna Plans Pricing
   plan_count: 2
@@ -195,22 +203,22 @@ rate_limits:
   slug: university-of-bologna-rate-limits
 score:
   band: emerging
-  composite: 24.7
+  composite: 18.6
   coverage:
-    artifact_dirs: 10
-    catalog_earned: 60.4
+    artifact_dirs: 11
+    catalog_earned: 47.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 54.6
+    catalog_gap: 68.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -2.3
+  delta: -6.1
   facets:
-    access_clarity: 37.4
+    access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 14.3
     developer_ergonomics: 21.4
     discoverability: 62.5
-    operational_transparency: 21.6
+    operational_transparency: 7.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -219,7 +227,7 @@ score:
     regions:
     - europe
     - italy-southern-europe
-  previous_composite: 27.0
+  previous_composite: 24.7
   provenance:
     conformance: first-party
   regulatory:
@@ -228,9 +236,9 @@ score:
     regime: Education & Research
     regime_id: education
     score: 20.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -260,6 +268,6 @@ tags:
 - OAI-PMH
 - Identity Federation
 - Scholarly Publishing
-- Learning Management
+- LMS
 website: https://www.unibo.it/en
 ---

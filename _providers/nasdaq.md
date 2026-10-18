@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 14.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'Real-time Nasdaq market data delivered over Apache Kafka (TLS) with SASL/OAUTHBEARER authentication against a Keycloak pro-realm token endpoint. Topics documented in the NCDS Java and Python SDKs: GID'
@@ -69,16 +69,17 @@ modified: '2026-09-16'
 name: Nasdaq
 nav: Providers
 network: true
-overview: 'Nasdaq publishes 1 API on the [APIs.io](https://apis.io/) network: Cloud Data Service (NCDS) — Kafka Streams. Tagged areas include Fortune 1000.
+overview: 'Nasdaq is listed with 1 API on the [APIs.io](https://apis.io/) network: Cloud Data Service (NCDS) — Kafka Streams. Tagged areas include Fortune 1000.
 
 
   The Nasdaq catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.'
 random_paper: 16
 rules:
-- effective_rule_count: 33
+- authorship: generated
+  effective_rule_count: 33
   extends:
   - spectral:asyncapi
-  name: Nasdaq API Rules
+  name: Nasdaq — asyncapi rules
   rule_count: 6
   severity_counts:
     error: 1
@@ -90,7 +91,7 @@ score:
   band: emerging
   composite: 18.0
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 28.5
     catalog_earned_first_party: 0.0
     catalog_gap: 86.5
@@ -111,8 +112,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

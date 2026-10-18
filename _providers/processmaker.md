@@ -30,13 +30,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.0
-  scored_at: '2026-10-04'
+  score: 22.1
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -236,9 +236,13 @@ examples:
   name: Processmaker Start Process Example
   slug: processmaker-start-process-example
 finops:
-- name: Processmaker Finops
+- has_sources: false
+  method: generated
+  name: Processmaker Finops
+  primary_unit: ''
   service_category: ''
   slug: processmaker-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/processmaker.png
 json_schemas:
 - name: ProcessMaker Process
@@ -260,7 +264,7 @@ modified: '2026-06-13'
 name: ProcessMaker
 nav: Providers
 network: true
-overview: 'ProcessMaker publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Environment Variables API, Files API, Groups API, and 7 more. Tagged areas include Business Process Management, Workflow Automation, BPMN 2.0, Low-Code, and Intelligent Automation.
+overview: 'ProcessMaker publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Environment Variables API, Files API, Groups API, and 7 more. Tagged areas include Business Process Management, Workflow Automation, BPMN 2.0, Low-Code, and Intelligent Automation.
 
 
   The ProcessMaker catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -277,9 +281,10 @@ rate_limits:
   name: Processmaker Rate Limits
   slug: processmaker-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: ProcessMaker API Rules
+  name: ProcessMaker — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -289,17 +294,17 @@ rules:
   slug: processmaker-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 35.4
+  composite: 30.3
   coverage:
     artifact_dirs: 17
-    catalog_earned: 65.1
+    catalog_earned: 54.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 49.9
+    catalog_gap: 60.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.1
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 9.8
     contract_quality: 56.4
     developer_ergonomics: 26.2
@@ -322,9 +327,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

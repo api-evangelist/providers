@@ -1,6 +1,10 @@
 ---
 access_model:
   confidence: medium
+  gated: partner
+  gated_source:
+  - tag:No Public API
+  - description
   label: No fee at present, but access is granted only after a named individual at a named organization accepts the API Terms and Conditions Agreement and Cincinnati responds.
   onboarding: unknown
   pricing: free
@@ -34,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 4
 common:
@@ -201,7 +205,7 @@ score:
   band: emerging
   composite: 14.8
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -224,8 +228,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 21.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -250,8 +254,7 @@ tags:
 - Independent Agency
 - Insurance
 - Life Insurance
-- No Public API
-- Property Casualty
+- Property and Casualty
 - Fortune 1000
 website: https://www.cinfin.com/
 ---

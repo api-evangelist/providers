@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -187,16 +187,20 @@ common:
 created: '2026-07-03'
 description: Classy is an online fundraising platform for nonprofits - donation forms, peer-to-peer campaigns, crowdfunding, and event/ticketing pages - built around Organizations, Campaigns, Fundraising Pages, Fundraising Teams, Transactions, Recurring Donation Plans, Members, Supporters, and Designations. GoFundMe acquired Classy in 2022 and announced in 2025 that the Classy product and brand are being folded into GoFundMe Pro; the Classy name is being retired through 2026 while the underlying software, the api.classy.org/2.0 REST API, and the developer docs (developers.classy.org, now redirecting to developers.gofundme.com/pro) continue to operate under the GoFundMe Pro banner.
 finops:
-- name: Classy Org Finops
+- has_sources: true
+  method: generated
+  name: Classy Org Finops
+  primary_unit: ''
   service_category: Nonprofit Fundraising Software
   slug: classy-org-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/classy-org.png
 layout: provider
 modified: '2026-07-03'
 name: Classy
 nav: Providers
 network: true
-overview: 'Classy publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Campaigns API, Designations API, and 7 more. Tagged areas include Non-Profit, Fundraising, Donations, Peer-to-Peer, and Philanthropy.
+overview: 'Classy publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authentication API, Campaigns API, Designations API, and 7 more. Tagged areas include Non-Profit, Fundraising, Donations, Peer-to-Peer, and Philanthropy.
 
 
   Classy''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
@@ -210,23 +214,23 @@ rate_limits:
   name: Classy Org Rate Limits
   slug: classy-org-rate-limits
 score:
-  band: thin
-  composite: 32.6
+  band: emerging
+  composite: 24.3
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 61.6
+    artifact_dirs: 12
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.4
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 48.0
     developer_ergonomics: 23.8
     discoverability: 66.1
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   previous_composite: 32.6
   provenance:
     agentic_access: derived
@@ -241,9 +245,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 10.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

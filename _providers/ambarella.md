@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.ambarella.com/blog/feed/
 - group: company
   title: ''
   type: Website
@@ -102,14 +106,14 @@ created: '2026-07-17'
 description: 'Ambarella (NASDAQ: AMBA) is a fabless semiconductor company designing low-power system-on-chip (SoC) processors for edge AI and computer vision. Its CVflow architecture accelerates deep neural networks on-device for intelligent cameras, automotive ADAS and autonomous driving, robotics, security, and industrial applications. Ambarella does not publish a public HTTP/REST API; developers engage through the Cooper Developer Platform, the CVflow SDK and toolchain (compiler, debugger, Caffe/TensorFlow support), the Model Garden on HuggingFace, Agentic Blueprints, and an Apache-2.0 set of on-device Agent Skills for Cooper Foundry. This profile was surfaced as a portfolio company of Matrix Partners and enriched with the provider''s real public developer, security, and agent surfaces.'
 image: https://www.ambarella.com/wp-content/uploads/amba.jpg
 layout: provider
-modified: '2026-07-17'
+modified: '2026-10-06'
 name: Ambarella
 nav: Providers
 network: true
 overview: 'Ambarella is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductors, Edge AI, Computer Vision, and Artificial Intelligence.
 
 
-  Ambarella''s developer surface includes documentation, support, engineering blog, and 11 more developer resources.'
+  Ambarella''s developer surface includes documentation, support, engineering blog, and 12 more developer resources.'
 random_paper: 5
 score:
   band: emerging
@@ -138,8 +142,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 14.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

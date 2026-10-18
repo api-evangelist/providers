@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.azuria.com/news
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/azuria/refs/heads/main/security/azuria-domain-security.yml
   title: ''
@@ -49,28 +53,31 @@ created: '2026-07-17'
 description: 'The website wired to this profile (azuria.com) resolves to Azuria Water Solutions, an infrastructure-rehabilitation company that has operated for over 50 years in the water, wastewater, and stormwater sector. It renews aging pipeline infrastructure through cured-in-place pipe (CIPP) technology, water main renewal, cathodic protection, and spray-on lining, operating through brands including Insituform, Underground Solutions, MTC, and Corrpro. Enrichment found no public API, developer portal, or programmatic surface: it is not an API provider. NOTE: this stub was surfaced as a norwest-venture-partners portfolio lead, but that linkage is unverified — Norwest''s public portfolio does not list an "Azuria", and this water-infrastructure company may be a different entity than the intended Norwest-backed one.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/azuria.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Azuria
 nav: Providers
 network: true
-overview: Azuria is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Water, Infrastructure, Utilities, and Pipeline Rehabilitation.
+overview: 'Azuria is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Water, Infrastructure, Utilities, and Pipeline Rehabilitation.
+
+
+  Azuria''s developer surface includes engineering blog and 2 more developer resources.'
 random_paper: 14
 score:
   band: minimal
-  composite: 3.6
+  composite: 4.1
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 48.2
     operational_transparency: 0.0
   previous_composite: 3.6
@@ -80,8 +87,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 4.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

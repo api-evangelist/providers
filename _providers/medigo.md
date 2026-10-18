@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -47,32 +47,32 @@ apis:
 - baseURL: https://api.medigo.com/v2
   baseurl_source: declared
   description: File that contains content relevant to a medical inquiry
-  name: Medigo attachments API
+  name: Medigo Attachments API
   slug: medigo-attachments-api
 - baseURL: https://api.medigo.com/v2
   baseurl_source: declared
   description: The inquiries API from Medigo — 1 operation(s) for inquiries.
-  name: Medigo inquiries API
+  name: Medigo Inquiries API
   slug: medigo-inquiries-api
 - baseURL: https://api.medigo.com/v2
   baseurl_source: declared
   description: Search endpoints
-  name: Medigo search API
+  name: Medigo Search API
   slug: medigo-search-api
 - baseURL: https://api.medigo.com/v2
   baseurl_source: declared
   description: Professional review of a diagnosis or treatment already suggested by a doctor
-  name: Medigo second-opinions API
+  name: Medigo Second Opinions API
   slug: medigo-second-opinions-api
 - baseURL: https://api.medigo.com/v2
   baseurl_source: declared
   description: Insurance TPA service APIs
-  name: Medigo tpa API
+  name: Medigo Tpa API
   slug: medigo-tpa-api
 - baseURL: https://api.medigo.com/v2
   baseurl_source: declared
   description: Push notification related to events in MEDIGO's system
-  name: Medigo webhooks API
+  name: Medigo Webhooks API
   slug: medigo-webhooks-api
 artifact_total: 17
 asyncapis:
@@ -200,7 +200,7 @@ modified: '2026-07-20'
 name: Medigo
 nav: Providers
 network: true
-overview: 'Medigo publishes 6 APIs on the [APIs.io](https://apis.io/) network, including attachments API, inquiries API, search API, and 3 more. Tagged areas include Company, Consumer, Healthcare, Insurance, and Third-Party Administrator.
+overview: 'Medigo publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Attachments API, Inquiries API, Search API, and 3 more. Tagged areas include Company, Consumer, Healthcare, Insurance, and Third-Party Administrator.
 
 
   The Medigo catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -251,8 +251,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 21.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

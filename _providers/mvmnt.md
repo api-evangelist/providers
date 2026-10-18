@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.3
-  scored_at: '2026-10-04'
-api_count: 1
+  scored_at: '2026-10-17'
+api_count: 2
 apis:
 - baseURL: https://api.mvmnt.io/v1
   baseurl_source: declared
@@ -420,7 +420,7 @@ modified: '2026-07-20'
 name: MVMNT
 nav: Providers
 network: true
-overview: 'MVMNT publishes 28 APIs on the [APIs.io](https://apis.io/) network, including Bill Payments API, Bills API, Carrier Contacts API, and 25 more. Tagged areas include Freight, Logistics, Transportation Management System, Supply Chain, and Shipping.
+overview: 'MVMNT publishes 28 API contracts indexed on the [APIs.io](https://apis.io/) network, including Bill Payments API, Bills API, Carrier Contacts API, and 25 more. Tagged areas include Freight, Logistics, Transportation Management System, Supply Chain, and Shipping.
 
 
   The MVMNT catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
@@ -448,7 +448,7 @@ score:
   band: strong
   composite: 59.9
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -478,8 +478,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 31.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

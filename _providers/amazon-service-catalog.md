@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.3
-  scored_at: '2026-10-04'
+  score: 29.4
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 1
@@ -87,6 +87,21 @@ collections:
   name: Amazon Service Catalog API
   slug: open-amazon-service-catalog
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-service-catalog/refs/heads/main/plans/amazon-service-catalog-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/amazon-service-catalog-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-service-catalog/refs/heads/main/rate-limits/amazon-service-catalog-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/amazon-service-catalog-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-service-catalog/refs/heads/main/finops/amazon-service-catalog-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/amazon-service-catalog-finops.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -236,9 +251,13 @@ examples:
   name: Amazon Service Catalog Provisioned Product Example
   slug: amazon-service-catalog-provisioned-product-example
 finops:
-- name: Amazon Service Catalog Finops
+- has_sources: false
+  method: generated
+  name: Amazon Service Catalog Finops
+  primary_unit: ''
   service_category: API
   slug: amazon-service-catalog-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amazon-service-catalog.png
 json_schemas:
 - name: Portfolio
@@ -270,13 +289,13 @@ modified: '2026-05-19'
 name: Amazon Service Catalog
 nav: Providers
 network: true
-overview: 'Amazon Service Catalog publishes 3 APIs on the [APIs.io](https://apis.io/) network: Portfolios API, Products API, and Provisioned Products API. Tagged areas include Cloud Governance, Compliance, IT Governance, and Service Catalog.
+overview: 'Amazon Service Catalog is listed with 3 APIs on the [APIs.io](https://apis.io/) network: Portfolios API, Products API, and Provisioned Products API. Tagged areas include Cloud Governance, Compliance, IT Governance, and Service Catalog.
 
 
   The Amazon Service Catalog catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Service Catalog''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 23 more developer resources.'
+  Amazon Service Catalog''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 26 more developer resources.'
 plans:
 - name: Amazon Service Catalog Plans Pricing
   plan_count: 3
@@ -287,9 +306,10 @@ rate_limits:
   name: Amazon Service Catalog Rate Limits
   slug: amazon-service-catalog-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Amazon Service Catalog API Rules
+  name: Amazon Service Catalog — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -297,7 +317,8 @@ rules:
     info: 1
     warn: 4
   slug: amazon-service-catalog-jsonschema-spectral-rules
-- effective_rule_count: 67
+- authorship: generated
+  effective_rule_count: 67
   extends:
   - spectral:oas
   name: Amazon Service Catalog API Rules
@@ -310,17 +331,17 @@ rules:
   slug: amazon-service-catalog-spectral-rules
 score:
   band: developing
-  composite: 43.1
+  composite: 41.6
   coverage:
     artifact_dirs: 17
-    catalog_earned: 56.5
+    catalog_earned: 53.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 58.5
+    catalog_gap: 61.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 61.8
+    access_clarity: 53.9
     contract_governance: 13.6
     contract_quality: 22.3
     developer_ergonomics: 58.3
@@ -340,8 +361,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

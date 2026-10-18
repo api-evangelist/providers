@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.0
-  scored_at: '2026-10-04'
+  score: 17.8
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -84,6 +84,25 @@ collections:
   name: OpenFEMA API
   slug: open-openfema
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/federal-emergency-management-agency/refs/heads/main/plans/federal-emergency-management-agency-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/federal-emergency-management-agency-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/federal-emergency-management-agency/refs/heads/main/rate-limits/federal-emergency-management-agency-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/federal-emergency-management-agency-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/federal-emergency-management-agency/refs/heads/main/finops/federal-emergency-management-agency-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/federal-emergency-management-agency-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.fema.gov/about/news-multimedia/blog
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/federal-emergency-management-agency/refs/heads/main/capabilities/federal-emergency-management-agency-capability-edges.yml
   title: ''
@@ -122,22 +141,26 @@ examples:
   name: Disaster Declaration
   slug: disaster-declaration
 finops:
-- name: Federal Emergency Management Agency Finops
+- has_sources: false
+  method: generated
+  name: Federal Emergency Management Agency Finops
+  primary_unit: ''
   service_category: API
   slug: federal-emergency-management-agency-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/federal-emergency-management-agency.png
 layout: provider
-modified: '2026-05-19'
+modified: '2026-10-06'
 name: Federal Emergency Management Agency
 nav: Providers
 network: true
-overview: 'Federal Emergency Management Agency publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Assistance API, Disasters API, Metadata API, and 1 more. Tagged areas include Disasters, Emergencies, Federal Government, Flood Insurance, and Hazard Mitigation.
+overview: 'Federal Emergency Management Agency publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Assistance API, Disasters API, Metadata API, and 1 more. Tagged areas include Disasters, Emergencies, Federal Government, Flood Insurance, and Hazard Mitigation.
 
 
   The Federal Emergency Management Agency catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Federal Emergency Management Agency''s developer surface includes documentation and 6 more developer resources.'
+  Federal Emergency Management Agency''s developer surface includes engineering blog, documentation, and 9 more developer resources.'
 plans:
 - name: Federal Emergency Management Agency Plans Pricing
   plan_count: 3
@@ -148,9 +171,10 @@ rate_limits:
   name: Federal Emergency Management Agency Rate Limits
   slug: federal-emergency-management-agency-rate-limits
 rules:
-- effective_rule_count: 0
+- authorship: unmarked
+  effective_rule_count: 0
   extends: []
-  name: Federal Emergency Management Agency API Rules
+  name: Federal Emergency Management Agency — openfema rules
   rule_count: 0
   severity_counts:
     error: 0
@@ -160,20 +184,20 @@ rules:
   slug: openfema-rules
 score:
   band: emerging
-  composite: 19.7
+  composite: 21.7
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 40.0
+    artifact_dirs: 13
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 60.0
-    catalog_max: 100.0
+    catalog_gap: 72.0
+    catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.0
   facets:
-    access_clarity: 0.0
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 43.5
-    developer_ergonomics: 9.5
+    developer_ergonomics: 11.9
     discoverability: 66.1
     operational_transparency: 10.5
   jurisdiction:
@@ -195,13 +219,14 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
     reason: read_only
+screenshot: https://raw.githubusercontent.com/api-evangelist/federal-emergency-management-agency/refs/heads/main/screenshots/federal-emergency-management-agency-2026-10-11T185033.png
 security:
 - kind: domain-security
   name: Federal Emergency Management Agency Domain Security

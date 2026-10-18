@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -54,13 +54,13 @@ modified: '2026-07-19'
 name: Identify3D
 nav: Providers
 network: true
-overview: Identify3D is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Additive Manufacturing, 3D Printing, Digital Manufacturing, and Supply Chain Security.
+overview: Identify3D is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, 3D Printing, Digital Manufacturing, Supply Chain Security, and Digital Rights Management.
 random_paper: 21
 score:
   band: minimal
   composite: 3.4
   coverage:
-    artifact_dirs: 2
+    artifact_dirs: 3
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -81,13 +81,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/identify3d/refs/heads/main/screenshots/identify3d-2026-10-11T105631.png
 security:
 - kind: domain-security
   name: Identify3D Domain Security
@@ -96,7 +97,6 @@ security:
 slug: identify3d
 tags:
 - Company
-- Additive Manufacturing
 - 3D Printing
 - Digital Manufacturing
 - Supply Chain Security

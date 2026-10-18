@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 5.0
-  scored_at: '2026-10-04'
+  score: 3.1
+  scored_at: '2026-10-17'
 api_count: 6
 apis:
 - description: Create and update projects and organize their contents in folders - the top-level container that takeoffs, plans, and estimates hang off of. Modeled from STACK's developer tutorials (POST/PUT /Project
@@ -103,16 +103,20 @@ common:
 created: '2026-07-04'
 description: STACK Construction Technologies makes cloud-based preconstruction software for on-screen takeoff and estimating used by contractors across most trades. STACK does expose a real, documented REST API (v2), but access is gated - you must be a STACK customer on an API-Enabled Subscription (or an approved partner) to obtain credentials. Authentication is OAuth 2.0, offered as two-legged (client-credentials, server-to-server) and three-legged (authorization-code, on behalf of a user) flows. Tokens are issued by a per-tenant authorization server (base pattern https://{server}/api/v2). The full endpoint reference sits behind an access request; the API surface catalogued here is modeled from STACK's public developer overview, authentication guide, and tutorials - it is not sourced from an official machine-readable OpenAPI document.
 finops:
-- name: Stack Takeoff Finops
+- has_sources: true
+  method: generated
+  name: Stack Takeoff Finops
+  primary_unit: ''
   service_category: Construction Software (SaaS)
   slug: stack-takeoff-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/stack-takeoff.png
 layout: provider
 modified: '2026-07-04'
 name: STACK
 nav: Providers
 network: true
-overview: 'STACK publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Construction, Preconstruction, Takeoff, Estimating, and Construction Technology.
+overview: 'STACK is listed with 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Construction, Preconstruction, Takeoff, Estimating, and Construction Technology.
 
 
   STACK''s developer surface includes documentation, authentication, signup flow, engineering blog, and 6 more developer resources.'
@@ -126,23 +130,23 @@ rate_limits:
   name: Stack Takeoff Rate Limits
   slug: stack-takeoff-rate-limits
 score:
-  band: thin
-  composite: 26.4
+  band: emerging
+  composite: 18.1
   coverage:
-    artifact_dirs: 8
-    catalog_earned: 64.6
+    artifact_dirs: 9
+    catalog_earned: 46.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 50.4
+    catalog_gap: 69.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 49.5
+    access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 31.0
     discoverability: 71.4
-    operational_transparency: 28.4
+    operational_transparency: 7.9
   previous_composite: 26.4
   regulatory:
     applies: true
@@ -150,9 +154,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

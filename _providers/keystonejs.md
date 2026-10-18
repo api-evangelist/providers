@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 15.5
-  scored_at: '2026-10-04'
+  score: 13.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Auto-generated GraphQL API served at /api/graphql that provides full CRUD operations for every list in the schema. Includes single-item queries, list queries with filtering and pagination, count queri
@@ -88,9 +88,13 @@ common:
 created: '2026-06-13'
 description: KeystoneJS is an open-source headless CMS and GraphQL API platform for Node.js. It auto-generates a powerful GraphQL API and a beautiful management UI from schema definitions, enabling developers to manage content and user data without boilerplate. Built on TypeScript with Prisma for database migrations, it supports PostgreSQL, MySQL, and SQLite and includes access control, session management, hooks, and rich document editing out of the box.
 finops:
-- name: Keystonejs Finops
+- has_sources: false
+  method: generated
+  name: Keystonejs Finops
+  primary_unit: ''
   service_category: ''
   slug: keystonejs-finops
+  template: true
 graphqls:
 - description: KeystoneJS auto-generates a fully typed GraphQL API from its schema definition — every list defined in `keystone.ts` produces a standard set of queries and mutations without any manual resolver writin
   name: KeystoneJS GraphQL API
@@ -101,7 +105,7 @@ modified: '2026-06-13'
 name: KeystoneJS
 nav: Providers
 network: true
-overview: 'KeystoneJS publishes 1 API on the [APIs.io](https://apis.io/) network: GraphQL API. Tagged areas include Headless CMS, GraphQL, Node.js, Content Management, and Open Source.
+overview: 'KeystoneJS is listed with 1 API on the [APIs.io](https://apis.io/) network: GraphQL API. Tagged areas include Headless CMS, GraphQL, Node.js, Content Management, and Open Source.
 
 
   KeystoneJS''s developer surface includes documentation, engineering blog, pricing, and 7 more developer resources.'
@@ -115,18 +119,18 @@ rate_limits:
   name: Keystonejs Rate Limits
   slug: keystonejs-rate-limits
 score:
-  band: thin
-  composite: 26.4
+  band: emerging
+  composite: 20.8
   coverage:
     artifact_dirs: 9
-    catalog_earned: 50.8
+    catalog_earned: 40.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 64.2
+    catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.6
   facets:
-    access_clarity: 46.8
+    access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 35.1
     developer_ergonomics: 11.9
@@ -139,9 +143,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -74,6 +74,10 @@ collections:
   name: CTP Switch Service
   slug: open-qbe-ctp-switch-service
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.qbe.com/newsroom
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/qbe/refs/heads/main/overlays/qbe-anzo-digital-brokers-overlay.yaml
   title: ''
@@ -232,31 +236,31 @@ description: 'QBE Insurance Group Limited is a Sydney-headquartered, ASX-listed 
   exposes genuine quote, bind, endorse, renew, cancel and refer operations for the commercial policy lifecycle — the four real insurance verbs, minus claims/FNOL, which QBE does not expose publicly. A separate QBE North America partner API hub at partnerportal-api.qbena.com serves an empty Azure APIM catalogue to anonymous callers but does publish seven named API products in its own content pages — Quote, Bind, Master Liability, Property Inquiry, Zip Code Validate and Reconciliation and Cancellation for Renters, plus Quote for Homeowners — behind a documented client-id/secret to JWT token exchange; no endpoints or specs are exposed. QBE Hong Kong documents a partner API behind qbe.com pages that are bot-blocked to anonymous fetchers. Australia is the home market; the Consumer Data Right was designated for general insurance and then deferred, so nothing here is compelled by regulation.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-modified: '2026-07-25'
+modified: '2026-10-06'
 name: QBE Insurance
 nav: Providers
 network: true
-overview: 'QBE Insurance publishes 2 APIs on the [APIs.io](https://apis.io/) network: CTP Switch API and Digital Brokers API. Tagged areas include Insurance, Australia, Property and Casualty, Commercial Insurance, and Underwriting.
+overview: 'QBE Insurance publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: CTP Switch API and Digital Brokers API. Tagged areas include Insurance, Australia, Property and Casualty, Commercial Insurance, and Underwriting.
 
 
-  QBE Insurance''s developer surface includes authentication, documentation, API reference, getting-started guide, support, sandbox, and 27 more developer resources.'
+  QBE Insurance''s developer surface includes engineering blog, authentication, documentation, API reference, getting-started guide, support, sandbox, and 27 more developer resources.'
 random_paper: 4
 score:
   band: thin
-  composite: 32.3
+  composite: 32.7
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 24
     catalog_earned: 38.3
     catalog_earned_first_party: 0.0
     catalog_gap: 76.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.4
   facets:
     access_clarity: 27.6
     contract_governance: 8.3
     contract_quality: 15.2
-    developer_ergonomics: 63.7
+    developer_ergonomics: 66.1
     discoverability: 66.1
     operational_transparency: 13.2
   jurisdiction:
@@ -283,8 +287,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 27.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

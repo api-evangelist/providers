@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.0
-  scored_at: '2026-10-04'
+  score: 19.2
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -113,6 +113,21 @@ collections:
   name: UnitedHealthcare Interoperability Claims Providers API
   slug: open-unitedhealthcare-providers-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/unitedhealthcare/refs/heads/main/plans/unitedhealthcare-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/unitedhealthcare-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/unitedhealthcare/refs/heads/main/rate-limits/unitedhealthcare-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/unitedhealthcare-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/unitedhealthcare/refs/heads/main/finops/unitedhealthcare-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/unitedhealthcare-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/unitedhealthcare/refs/heads/main/capabilities/unitedhealthcare-capability-edges.yml
   title: ''
@@ -169,9 +184,13 @@ examples:
   name: Provider Provider Demographics Example
   slug: provider-provider-demographics-example
 finops:
-- name: Unitedhealthcare Finops
+- has_sources: false
+  method: generated
+  name: Unitedhealthcare Finops
+  primary_unit: ''
   service_category: API
   slug: unitedhealthcare-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/unitedhealthcare.png
 json_schemas:
 - name: UnitedHealthcare FHIR Bundle
@@ -267,13 +286,13 @@ modified: '2026-05-19'
 name: UnitedHealthcare
 nav: Providers
 network: true
-overview: 'UnitedHealthcare publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Claims API, Eligibility API, Formulary API, and 4 more. Tagged areas include Health Insurance, Healthcare, FHIR, Claims, and Eligibility.
+overview: 'UnitedHealthcare publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Claims API, Eligibility API, Formulary API, and 4 more. Tagged areas include Health Insurance, Healthcare, FHIR, Claims, and Eligibility.
 
 
   The UnitedHealthcare catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  UnitedHealthcare''s developer surface includes authentication and 5 more developer resources.'
+  UnitedHealthcare''s developer surface includes authentication and 8 more developer resources.'
 plans:
 - name: Unitedhealthcare Plans Pricing
   plan_count: 3
@@ -284,9 +303,10 @@ rate_limits:
   name: Unitedhealthcare Rate Limits
   slug: unitedhealthcare-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: UnitedHealthcare API Rules
+  name: UnitedHealthcare — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -294,7 +314,8 @@ rules:
     info: 2
     warn: 3
   slug: unitedhealthcare-jsonschema-spectral-rules
-- effective_rule_count: 73
+- authorship: generated
+  effective_rule_count: 73
   extends:
   - spectral:oas
   name: UnitedHealthcare API Rules
@@ -307,17 +328,17 @@ rules:
   slug: unitedhealthcare-spectral-rules
 score:
   band: thin
-  composite: 30.9
+  composite: 29.3
   coverage:
     artifact_dirs: 16
-    catalog_earned: 61.5
+    catalog_earned: 58.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.5
+    catalog_gap: 56.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 13.6
     contract_quality: 59.2
     developer_ergonomics: 21.4
@@ -337,8 +358,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 14.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

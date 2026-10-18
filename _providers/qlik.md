@@ -10,10 +10,10 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: derived
+    agent_skills: false
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
@@ -32,8 +32,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.0
-  scored_at: '2026-10-04'
+  score: 28.1
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -80,95 +80,16 @@ apis:
   slug: qlik-insight-analyses-api
 artifact_total: 18
 common:
-- group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/qlik/refs/heads/main/agentic-access/qlik-agentic-access.yml
-  title: ''
-  type: AgenticAccess
-  url: agentic-access/qlik-agentic-access.yml
-- group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/qlik/refs/heads/main/finops/qlik-finops.yml
-  title: ''
-  type: FinOps
-  url: finops/qlik-finops.yml
-- group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/qlik/refs/heads/main/rate-limits/qlik-rate-limits.yml
-  title: ''
-  type: RateLimits
-  url: rate-limits/qlik-rate-limits.yml
 - group: commercial
   href: https://raw.githubusercontent.com/api-evangelist/qlik/refs/heads/main/plans/qlik-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/qlik-plans-pricing.yml
-- group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qlik/refs/heads/main/rules/qlik-rules.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/qlik/refs/heads/main/finops/qlik-finops.yml
   title: ''
-  type: Spectral
-  url: rules/qlik-rules.yml
-- group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qlik/refs/heads/main/json-ld/qlik-context.jsonld
-  title: ''
-  type: JSONLD
-  url: json-ld/qlik-context.jsonld
-- group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qlik/refs/heads/main/vocabulary/qlik-vocabulary.yml
-  title: ''
-  type: Vocabulary
-  url: vocabulary/qlik-vocabulary.yml
-- group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/qlik/refs/heads/main/skills/_index.yml
-  title: ''
-  type: AgentSkill
-  url: skills/_index.yml
-- group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qlik/refs/heads/main/data-model/qlik-data-model.yml
-  title: ''
-  type: DataModel
-  url: data-model/qlik-data-model.yml
-- group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/qlik/refs/heads/main/changelog/qlik-changelog.yml
-  title: ''
-  type: ChangeLog
-  url: changelog/qlik-changelog.yml
-- group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qlik/refs/heads/main/conventions/qlik-conventions.yml
-  title: ''
-  type: Conventions
-  url: conventions/qlik-conventions.yml
-- group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/qlik/refs/heads/main/authentication/qlik-authentication.yml
-  title: ''
-  type: Authentication
-  url: authentication/qlik-authentication.yml
-- group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qlik/refs/heads/main/errors/qlik-problem-types.yml
-  title: ''
-  type: ErrorCatalog
-  url: errors/qlik-problem-types.yml
-- group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qlik/refs/heads/main/conformance/qlik-conformance.yml
-  title: ''
-  type: Conformance
-  url: conformance/qlik-conformance.yml
-- group: other
-  href: https://raw.githubusercontent.com/api-evangelist/qlik/refs/heads/main/hosts/qlik-hosts.yml
-  title: ''
-  type: Hosts
-  url: hosts/qlik-hosts.yml
-- group: other
-  href: https://raw.githubusercontent.com/api-evangelist/qlik/refs/heads/main/vendors/qlik-vendors.yml
-  title: ''
-  type: Vendors
-  url: vendors/qlik-vendors.yml
-- group: build
-  href: https://raw.githubusercontent.com/api-evangelist/qlik/refs/heads/main/packages/qlik-packages.yml
-  title: ''
-  type: Packages
-  url: packages/qlik-packages.yml
-- group: start
-  title: ''
-  type: DeveloperPortal
-  url: https://portal.qlik.dev/
+  type: FinOps
+  url: finops/qlik-finops.yml
 - group: company
   title: ''
   type: Website
@@ -250,19 +171,16 @@ common:
   title: ''
   type: MCPServer
   url: https://github.com/qlik-oss/qlik-mcp-registry
-coverage:
-  detail: the company publishes developer documentation but serves no machine-readable contract from it
-  evidence:
-  - status: 200
-    url: https://qlik.dev
-  reason: no-machine-readable-spec
-  state: unreadable
 created: '2025-02-24'
 description: APIs for Qlik's analytics and data integration platform.
 finops:
-- name: Qlik Finops
+- has_sources: false
+  method: generated
+  name: Qlik Finops
+  primary_unit: ''
   service_category: API
   slug: qlik-finops
+  template: true
 image: https://www.qlik.com/us/-/media/images/qlik/global/qlik-logo.png
 jsonld:
 - class_count: 96
@@ -278,13 +196,13 @@ modified: '2026-09-16'
 name: Qlik
 nav: Providers
 network: true
-overview: 'Qlik publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Apps API, Evaluation API, Filters API, and 6 more. Tagged areas include Security, Access Control, Machine Learning, Artificial Intelligence, and Analytics.
+overview: 'Qlik publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Apps API, Evaluation API, Filters API, and 6 more. Tagged areas include Security, Access Control, Machine Learning, and Artificial Intelligence.
 
 
   The Qlik catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Qlik''s developer surface includes changelog, authentication, getting-started guide, CLI, documentation, code examples, engineering blog, and 31 more developer resources.'
+  Qlik''s developer surface includes authentication, getting-started guide, CLI, documentation, code examples, changelog, engineering blog, and 15 more developer resources.'
 plans:
 - name: Qlik Plans Pricing
   plan_count: 3
@@ -295,7 +213,8 @@ rate_limits:
   name: Qlik Rate Limits
   slug: qlik-rate-limits
 rules:
-- effective_rule_count: 50
+- authorship: generated
+  effective_rule_count: 50
   extends:
   - spectral:oas
   name: Qlik API Rules
@@ -308,23 +227,23 @@ rules:
   slug: qlik-rules
 score:
   band: developing
-  composite: 46.4
+  composite: 43.2
   coverage:
     artifact_dirs: 25
-    catalog_earned: 52.8
+    catalog_earned: 43.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 62.3
+    catalog_gap: 71.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 9.8
+  delta: -10.2
   facets:
-    access_clarity: 36.8
-    contract_governance: 22.0
+    access_clarity: 28.9
+    contract_governance: 18.2
     contract_quality: 58.4
-    developer_ergonomics: 54.2
-    discoverability: 48.2
+    developer_ergonomics: 52.4
+    discoverability: 39.3
     operational_transparency: 44.7
-  previous_composite: 36.6
+  previous_composite: 53.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -341,9 +260,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: rising
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0
@@ -363,8 +282,5 @@ tags:
 - Access Control
 - Machine Learning
 - Artificial Intelligence
-- Analytics
-- Data Integration
-- Cloud
 website: https://qlik.dev
 ---

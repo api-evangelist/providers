@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: RightRev's REST (and GraphQL) API for revenue recognition — transaction ingestion (orders, invoices, events, bulk uploads), policy-set and company configuration, Revenue Desk 360 contract search and d
@@ -41,6 +41,10 @@ apis:
   slug: rightrev-rest-api
 artifact_total: 4
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.rightrev.com/feed/
 - group: company
   title: ''
   type: Website
@@ -119,14 +123,14 @@ created: '2026-07-17'
 description: RightRev is an AI-powered revenue recognition platform that automates ASC 606 and IFRS 15 compliant accounting for subscription, usage-based, and hybrid revenue models. Its API-first architecture ingests orders, invoices, and usage events, applies configurable Standalone Selling Price (SSP) and revenue policies, and produces revenue contracts, revenue and cost schedules, journal entries, and period-close outputs. RightRev exposes REST and GraphQL APIs secured with OAuth 2.0 / OpenID Connect, alongside a Salesforce-native application and ERP integrations for finance teams.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rightrev.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Rightrev
 nav: Providers
 network: true
-overview: 'Rightrev publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Revenue Recognition, Accounting, Finance, and Billing.
+overview: 'Rightrev is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Revenue Recognition, Accounting, Finance, and Billing.
 
 
-  Rightrev''s developer surface includes documentation, API reference, getting-started guide, support, authentication, and 11 more developer resources.'
+  Rightrev''s developer surface includes documentation, API reference, getting-started guide, support, authentication, and 12 more developer resources.'
 random_paper: 17
 scopes:
 - name: Rightrev Scopes
@@ -137,7 +141,7 @@ score:
   band: emerging
   composite: 22.9
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -161,8 +165,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

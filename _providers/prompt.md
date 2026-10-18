@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 5
 common:
@@ -168,7 +168,7 @@ modified: '2026-08-26'
 name: Prompt
 nav: Providers
 network: true
-overview: 'Prompt is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Electronic Medical Records, Practice Management, and Physical Therapy.
+overview: 'Prompt is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Electronic Health Records, Practice Management, and Physical Therapy.
 
 
   Prompt''s developer surface includes support, engineering blog, changelog, FAQ, authentication, and 18 more developer resources.'
@@ -213,8 +213,8 @@ score:
     regime: Health
     regime_id: health
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -234,7 +234,7 @@ slug: prompt
 tags:
 - Company
 - Healthcare
-- Electronic Medical Records
+- Electronic Health Records
 - Practice Management
 - Physical Therapy
 - Rehabilitation Therapy

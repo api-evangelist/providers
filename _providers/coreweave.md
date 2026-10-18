@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.0
-  scored_at: '2026-10-04'
+  score: 19.2
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -77,6 +77,16 @@ collections:
   name: CoreWeave Kubernetes Service (CKS) API
   slug: open-coreweave
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/coreweave/refs/heads/main/rate-limits/coreweave-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/coreweave-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/coreweave/refs/heads/main/finops/coreweave-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/coreweave-finops.yml
 - group: commercial
   href: https://raw.githubusercontent.com/api-evangelist/coreweave/refs/heads/main/plans/coreweave-plans-pricing.yml
   title: ''
@@ -189,9 +199,13 @@ features:
 - description: Ephemeral compute sandboxes for short-lived, isolated workloads.
   name: CoreWeave Sandbox
 finops:
-- name: Coreweave Finops
+- has_sources: false
+  method: generated
+  name: Coreweave Finops
+  primary_unit: ''
   service_category: API
   slug: coreweave-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/coreweave.png
 integrations:
 - description: Native Kubernetes API surface across CKS clusters with standard kubectl and Helm workflows.
@@ -207,10 +221,10 @@ modified: '2026-05-23'
 name: CoreWeave
 nav: Providers
 network: true
-overview: 'CoreWeave publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Clusters API, and 5 more. Tagged areas include Artificial Intelligence, Cloud, GPU, HPC, and Inference.
+overview: 'CoreWeave publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Clusters API, and 5 more. Tagged areas include Artificial Intelligence, Cloud, GPU, HPC, and Inference.
 
 
-  CoreWeave''s developer surface includes authentication, documentation, developer portal, pricing, engineering blog, support, code examples, and 15 more developer resources.'
+  CoreWeave''s developer surface includes authentication, documentation, developer portal, pricing, engineering blog, support, code examples, and 17 more developer resources.'
 plans:
 - name: Coreweave Plans Pricing
   plan_count: 25
@@ -225,22 +239,22 @@ rate_limits:
   slug: coreweave-rate-limits
 score:
   band: developing
-  composite: 44.7
+  composite: 41.4
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 54.2
+    artifact_dirs: 15
+    catalog_earned: 46.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 60.8
+    catalog_gap: 69.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.3
   facets:
-    access_clarity: 57.9
+    access_clarity: 50.0
     contract_governance: 0.0
     contract_quality: 52.0
     developer_ergonomics: 47.6
     discoverability: 64.3
-    operational_transparency: 37.4
+    operational_transparency: 23.7
   previous_composite: 44.7
   provenance:
     agentic_access: derived
@@ -255,8 +269,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

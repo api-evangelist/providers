@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 1
@@ -107,6 +107,10 @@ collections:
   name: Riak KV HTTP API
   slug: open-riak
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://riak.com/blog/
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/riak/refs/heads/main/agentic-access/riak-agentic-access.yml
   title: ''
@@ -166,18 +170,18 @@ created: '2026-05-11'
 description: 'Riak KV is a distributed NoSQL key-value database originally developed by Basho Technologies, designed for high availability, fault tolerance, and horizontal scalability across commodity hardware. Riak exposes two client-facing APIs: a RESTful HTTP API for basic GET, PUT, POST, and DELETE operations, and a higher-performance Protocol Buffers (PBC) API spoken over TCP. Both APIs support buckets, objects, secondary indexes, search, MapReduce, and CRDT data types.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/riak.png
 layout: provider
-modified: '2026-09-16'
+modified: '2026-10-06'
 name: Riak KV
 nav: Providers
 network: true
-overview: 'Riak KV publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Mapred API, Ping API, Riak KV HTTP API, and 5 more. Tagged areas include Database, NoSQL, Key-Value Store, Distributed Systems, and Open Source.
+overview: 'Riak KV publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Mapred API, Ping API, Riak KV HTTP API, and 5 more. Tagged areas include Database, NoSQL, Key-Value Store, Distributed Systems, and Open Source.
 
 
-  Riak KV''s developer surface includes authentication, documentation, and 11 more developer resources.'
+  Riak KV''s developer surface includes engineering blog, authentication, documentation, and 11 more developer resources.'
 random_paper: 5
 score:
   band: emerging
-  composite: 24.4
+  composite: 25.0
   coverage:
     artifact_dirs: 9
     catalog_earned: 37.0
@@ -185,12 +189,12 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 40.4
-    developer_ergonomics: 28.6
+    developer_ergonomics: 31.0
     discoverability: 73.2
     operational_transparency: 2.6
   previous_composite: 24.4
@@ -207,8 +211,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

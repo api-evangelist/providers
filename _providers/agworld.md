@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: Cloud farm-management platform for growers, agronomists, and ag retailers. Covers the Agworld Basics core, Planning, Scheduling, Precision (spray records), Insights (financial and agronomic), and Comp
@@ -47,6 +47,21 @@ apis:
   slug: integrations
 artifact_total: 7
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/agworld/refs/heads/main/plans/agworld-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/agworld-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/agworld/refs/heads/main/rate-limits/agworld-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/agworld-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/agworld/refs/heads/main/finops/agworld-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/agworld-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/agworld/refs/heads/main/security/agworld-domain-security.yml
   title: ''
@@ -75,19 +90,23 @@ common:
 created: '2026-05-23'
 description: Agworld is a collaborative farm-management platform - now part of the Semios Group and majority-owned by Telus Agriculture & Consumer Goods - used by growers, agronomists, and ag retailers to plan, schedule, record, and report on field activities. The product surface covers planning, scheduling, precision spray records, agronomic and financial insights, and compliance reporting. Agworld integrates with John Deere, Climate-style monitor data via Agworld DBX, plus Figured, PowerBI, Shed, CalAg, Frames, CART by FarmReady, and Mobble. The companion DBX product is a label, manufacturer, ingredient, and pest database (Greenbook). Agworld does not publish an open public developer portal; partner integrations are arranged through their team.
 finops:
-- name: Agworld Finops
+- has_sources: false
+  method: generated
+  name: Agworld Finops
+  primary_unit: ''
   service_category: API
   slug: agworld-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/agworld.png
 layout: provider
 modified: '2026-05-23'
 name: Agworld
 nav: Providers
 network: true
-overview: 'Agworld publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Agriculture, AgTech, Farm Management, Compliance, and Agronomy.
+overview: 'Agworld is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Agriculture, AgTech, Farm Management, Compliance, and Agronomy.
 
 
-  Agworld''s developer surface includes engineering blog and 5 more developer resources.'
+  Agworld''s developer surface includes engineering blog and 8 more developer resources.'
 plans:
 - name: Agworld Plans Pricing
   plan_count: 1
@@ -98,23 +117,23 @@ rate_limits:
   name: Agworld Rate Limits
   slug: agworld-rate-limits
 score:
-  band: emerging
-  composite: 14.9
+  band: minimal
+  composite: 8.9
   coverage:
-    artifact_dirs: 7
-    catalog_earned: 57.4
+    artifact_dirs: 8
+    catalog_earned: 44.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.6
+    catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.0
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
     discoverability: 71.4
-    operational_transparency: 18.9
+    operational_transparency: 5.3
   previous_composite: 14.9
   regulatory:
     applies: true
@@ -122,9 +141,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

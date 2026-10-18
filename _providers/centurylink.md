@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 5
 apis:
 - description: The Lumen Developer Center publishes Lumen's enterprise API catalog, including Location, Quoting, Ordering, Service Inventory, Billing, Outbound Notification, and Trouble Ticket APIs. All APIs use OAu
@@ -53,6 +53,11 @@ apis:
   slug: quantum-fiber
 artifact_total: 10
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/centurylink/refs/heads/main/finops/centurylink-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/centurylink-finops.yml
 - group: company
   title: ''
   type: Website
@@ -172,19 +177,23 @@ common:
 created: '2026-03-23'
 description: 'CenturyLink is the residential broadband and home services brand of Lumen Technologies, a Fortune 500 telecommunications provider operating one of the largest fiber networks in North America. Following the Level 3 acquisition and rebrand to Lumen, CenturyLink''s developer surface is exposed through the Lumen Developer Center, which publishes REST APIs secured by OAuth 2.0 for enterprise location qualification, quote-to-order, provisioning, billing, notifications, CDN and edge compute, DDoS mitigation, and Public Sector networking products. The production API gateway answers at api.lumen.com, but no OpenAPI, AsyncAPI or GraphQL contract is published anonymously: the Developer Center is a module-federation single-page app that returns the same HTML shell for every path and loads its specifications from a sign-in-gated service.'
 finops:
-- name: Centurylink Finops
+- has_sources: true
+  method: generated
+  name: Centurylink Finops
+  primary_unit: ''
   service_category: Telecommunications / Network
   slug: centurylink-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/centurylink.png
 layout: provider
 modified: '2026-09-05'
 name: CenturyLink (Lumen Technologies)
 nav: Providers
 network: true
-overview: 'CenturyLink (Lumen Technologies) publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Broadband, Connectivity, Edge, Fiber, and Lumen.
+overview: 'CenturyLink (Lumen Technologies) is listed with 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Broadband, Connectivity, Edge, Fiber, and Lumen.
 
 
-  CenturyLink (Lumen Technologies)''s developer surface includes API reference, documentation, getting-started guide, support, engineering blog, authentication, and 20 more developer resources.'
+  CenturyLink (Lumen Technologies)''s developer surface includes API reference, documentation, getting-started guide, support, engineering blog, authentication, and 21 more developer resources.'
 plans:
 - name: Centurylink Plans Pricing
   plan_count: 2
@@ -212,17 +221,17 @@ rate_limits:
   slug: centurylink-rate-limits
 score:
   band: thin
-  composite: 29.3
+  composite: 27.7
   coverage:
     artifact_dirs: 19
-    catalog_earned: 54.0
+    catalog_earned: 51.0
     catalog_earned_first_party: 16.0
-    catalog_gap: 61.0
+    catalog_gap: 64.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 50.0
+    access_clarity: 42.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 31.0
@@ -238,8 +247,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 25.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

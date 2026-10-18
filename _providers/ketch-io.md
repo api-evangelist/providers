@@ -27,20 +27,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.3
-  scored_at: '2026-10-04'
+  score: 15.4
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 3
+- acting_count: 2
   human_in_the_loop: 0
   name: Ketch Io Agentic Access
   operation_count: 6
   slug: ketch-io-agentic-access
-  summary_line: 6 operations · 3 acting
+  summary_line: 6 operations · 2 acting
 api_count: 1
 apis:
 - description: REST API for the Ketch platform that powers consent collection and enforcement, data subject rights workflows, data mapping, preference management, and risk reporting. Endpoints are served from global
@@ -93,6 +93,21 @@ collections:
   name: Ketch Web API
   slug: open-ketch-io
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/ketch-io/refs/heads/main/plans/ketch-io-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/ketch-io-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/ketch-io/refs/heads/main/rate-limits/ketch-io-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/ketch-io-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/ketch-io/refs/heads/main/finops/ketch-io-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/ketch-io-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/ketch-io/refs/heads/main/capabilities/ketch-io-capability-edges.yml
   title: ''
@@ -159,19 +174,23 @@ common:
 created: '2026-05-23'
 description: Ketch is a data permissioning and consent platform that helps enterprises keep customer data clean, permissioned, and AI-ready across web, mobile, and backend systems. Its products span consent management, data subject rights automation, AI-powered data mapping, marketing preference management, risk and reporting, a Data Sentry privacy pentest, and an AI governance layer. The Ketch Agent Network turns privacy program insights into agent-driven actions. Builders use a public REST API hosted at global.ketchapi.com, web and mobile SDKs published on GitHub, and Google Tag Manager templates to enforce consent at the source. Ketch advertises more than 1,000 pre-built API integrations with systems, apps, and AI models, with a free tier alongside enterprise and mid-market editions.
 finops:
-- name: Ketch Io Finops
+- has_sources: false
+  method: generated
+  name: Ketch Io Finops
+  primary_unit: ''
   service_category: API
   slug: ketch-io-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ketch-io.png
 layout: provider
 modified: '2026-05-23'
 name: Ketch
 nav: Providers
 network: true
-overview: 'Ketch publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Configuration API, Consent API, Preferences API, and 4 more. Tagged areas include Ketch, Privacy, Consent, Preference Management, and DSR.
+overview: 'Ketch publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Configuration API, Consent API, Preferences API, and 4 more. Tagged areas include Ketch, Privacy, Consent, Preference Management, and DSR.
 
 
-  Ketch''s developer surface includes documentation, pricing, engineering blog, and 12 more developer resources.'
+  Ketch''s developer surface includes documentation, pricing, engineering blog, and 15 more developer resources.'
 plans:
 - name: Ketch Io Plans Pricing
   plan_count: 1
@@ -182,23 +201,23 @@ rate_limits:
   name: Ketch Io Rate Limits
   slug: ketch-io-rate-limits
 score:
-  band: developing
-  composite: 39.3
+  band: thin
+  composite: 33.9
   coverage:
-    artifact_dirs: 10
-    catalog_earned: 49.4
+    artifact_dirs: 11
+    catalog_earned: 36.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 65.6
+    catalog_gap: 79.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.4
   facets:
-    access_clarity: 50.5
+    access_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 41.9
     developer_ergonomics: 10.7
     discoverability: 57.1
-    operational_transparency: 50.5
+    operational_transparency: 36.8
   open_source:
     applies: true
     score: 100.0
@@ -216,9 +235,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

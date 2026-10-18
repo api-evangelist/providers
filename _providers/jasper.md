@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 56.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 30
+- acting_count: 29
   human_in_the_loop: 0
   name: Jasper Agentic Access
   operation_count: 50
   slug: jasper-agentic-access
-  summary_line: 50 operations · 30 acting
+  summary_line: 50 operations · 29 acting
 api_count: 2
 apis:
 - baseURL: https://api.jasper.ai/v1
@@ -314,7 +314,7 @@ modified: '2026-09-16'
 name: Jasper
 nav: Providers
 network: true
-overview: 'Jasper publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Attachments API, Audiences API, Command API, and 11 more. Tagged areas include Company, Ai Ml, Artificial Intelligence, Content Generation, and Marketing.
+overview: 'Jasper publishes 14 API contracts indexed on the [APIs.io](https://apis.io/) network, including Attachments API, Audiences API, Command API, and 11 more. Tagged areas include Company, Artificial Intelligence, Content Generation, Marketing, and Generative AI.
 
 
   Jasper''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 34 more developer resources.'
@@ -334,15 +334,15 @@ scopes:
   summary_line: 6 scopes · authorizationCode
 score:
   band: strong
-  composite: 59.3
+  composite: 59.0
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 57.0
     catalog_earned_first_party: 20.0
     catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 81.6
     contract_governance: 18.2
@@ -369,12 +369,12 @@ score:
     - jurisdiction: US
       standard: ccpa
     jurisdictions_satisfied: 2
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 41.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -392,7 +392,7 @@ security:
 - kind: vulnerability-disclosure
   name: Jasper Vulnerability Disclosure
   slug: jasper-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 - kind: trust-center
   name: Jasper Trust Center
   slug: jasper-trust-center
@@ -400,7 +400,6 @@ security:
 slug: jasper
 tags:
 - Company
-- Ai Ml
 - Artificial Intelligence
 - Content Generation
 - Marketing

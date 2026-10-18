@@ -27,21 +27,21 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.3
-  scored_at: '2026-10-04'
+  score: 15.4
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 29
-  human_in_the_loop: 29
+- acting_count: 27
+  human_in_the_loop: 27
   name: Predictive Oncology Model And Data Clearinghouse Agentic Access
   operation_count: 37
   slug: predictive-oncology-model-and-data-clearinghouse-agentic-access
-  summary_line: 37 operations · 29 acting · 29 human-in-the-loop
-api_count: 1
+  summary_line: 37 operations · 27 acting · 27 human-in-the-loop
+api_count: 2
 apis:
 - baseURL: http://localhost:8080
   baseurl_source: spec
@@ -188,6 +188,16 @@ collections:
   name: MoDaC API
   slug: open-predictive-oncology-model-and-data-clearinghouse
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/predictive-oncology-model-and-data-clearinghouse/refs/heads/main/rate-limits/predictive-oncology-model-and-data-clearinghouse-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/predictive-oncology-model-and-data-clearinghouse-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/predictive-oncology-model-and-data-clearinghouse/refs/heads/main/finops/predictive-oncology-model-and-data-clearinghouse-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/predictive-oncology-model-and-data-clearinghouse-finops.yml
 - group: commercial
   title: ''
   type: Pricing
@@ -239,19 +249,23 @@ common:
 created: '2024-11-07'
 description: The Predictive Oncology Model and Data Clearinghouse (MoDaC) is a National Cancer Institute platform that supports cancer research through advanced algorithms and machine learning techniques to analyze complex datasets, including genetic information, clinical data, and imaging studies. MoDaC serves as a centralized hub for storing, sharing, and discovering cancer research datasets and trained models, fostering collaboration among researchers and accelerating the advancement of cancer therapies.
 finops:
-- name: Predictive Oncology Model And Data Clearinghouse Finops
+- has_sources: false
+  method: generated
+  name: Predictive Oncology Model And Data Clearinghouse Finops
+  primary_unit: ''
   service_category: API
   slug: predictive-oncology-model-and-data-clearinghouse-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/predictive-oncology-model-and-data-clearinghouse.png
 layout: provider
 modified: '2026-05-19'
 name: Predictive Oncology Model and Data Clearinghouse
 nav: Providers
 network: true
-overview: 'Predictive Oncology Model and Data Clearinghouse publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Asset Details Controller API, Delete Collection Controller API, Delete Data File Controller API, and 14 more. Tagged areas include Cancer Research, Clinical Data, Datasets, Machine Learning, and Oncology.
+overview: 'Predictive Oncology Model and Data Clearinghouse publishes 17 API contracts indexed on the [APIs.io](https://apis.io/) network, including Asset Details Controller API, Delete Collection Controller API, Delete Data File Controller API, and 14 more. Tagged areas include Cancer Research, Clinical Data, Datasets, Machine Learning, and Oncology.
 
 
-  Predictive Oncology Model and Data Clearinghouse''s developer surface includes pricing, developer portal, and 9 more developer resources.'
+  Predictive Oncology Model and Data Clearinghouse''s developer surface includes pricing, developer portal, and 11 more developer resources.'
 plans:
 - name: Predictive Oncology Model And Data Clearinghouse Plans Pricing
   plan_count: 26
@@ -263,17 +277,17 @@ rate_limits:
   slug: predictive-oncology-model-and-data-clearinghouse-rate-limits
 score:
   band: thin
-  composite: 28.2
+  composite: 26.6
   coverage:
     artifact_dirs: 10
-    catalog_earned: 50.0
+    catalog_earned: 47.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 65.0
+    catalog_gap: 68.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 56.6
+    access_clarity: 48.7
     contract_governance: 0.0
     contract_quality: 32.8
     developer_ergonomics: 19.0
@@ -293,8 +307,8 @@ score:
     regime: Health
     regime_id: health
     score: 4.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

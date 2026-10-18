@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: verified
     openapi_examples: partial
     protected_resource_metadata: verified
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 42.8
-  scored_at: '2026-10-04'
+  score: 40.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -110,6 +110,21 @@ collections:
   name: Unsplash API
   slug: open-unsplash
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/unsplash/refs/heads/main/plans/unsplash-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/unsplash-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/unsplash/refs/heads/main/rate-limits/unsplash-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/unsplash-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/unsplash/refs/heads/main/finops/unsplash-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/unsplash-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/unsplash/refs/heads/main/agentic-access/unsplash-agentic-access.yml
   title: ''
@@ -185,9 +200,13 @@ examples:
   name: Unsplash Search Photos Example
   slug: unsplash-search-photos-example
 finops:
-- name: Unsplash Finops
+- has_sources: false
+  method: generated
+  name: Unsplash Finops
+  primary_unit: ''
   service_category: API
   slug: unsplash-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/unsplash.png
 json_schemas:
 - name: Unsplash Photo
@@ -211,13 +230,13 @@ modified: '2026-05-19'
 name: Unsplash
 nav: Providers
 network: true
-overview: 'Unsplash publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Collections API, Current User API, Photos API, and 4 more. Tagged areas include Photos, Image, Photography, Stock Photos, and Creative.
+overview: 'Unsplash publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Collections API, Current User API, Photos API, and 4 more. Tagged areas include Photos, Image, Photography, Stock Photos, and Creative.
 
 
   The Unsplash catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Unsplash''s developer surface includes authentication, documentation, GitHub presence, changelog, engineering blog, and 10 more developer resources.'
+  Unsplash''s developer surface includes authentication, documentation, GitHub presence, changelog, engineering blog, and 13 more developer resources.'
 plans:
 - name: Unsplash Plans Pricing
   plan_count: 3
@@ -228,9 +247,10 @@ rate_limits:
   name: Unsplash Rate Limits
   slug: unsplash-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Unsplash API Rules
+  name: Unsplash — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -238,7 +258,8 @@ rules:
     info: 1
     warn: 4
   slug: unsplash-jsonschema-spectral-rules
-- effective_rule_count: 49
+- authorship: unmarked
+  effective_rule_count: 49
   extends:
   - spectral:oas
   name: Unsplash API Rules
@@ -255,18 +276,18 @@ scopes:
   slug: unsplash-scopes
   summary_line: 8 scopes · authorizationCode
 score:
-  band: developing
-  composite: 40.1
+  band: thin
+  composite: 38.6
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 71.4
+    artifact_dirs: 21
+    catalog_earned: 68.4
     catalog_earned_first_party: 0.0
-    catalog_gap: 43.6
+    catalog_gap: 46.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 27.3
     contract_quality: 65.9
     developer_ergonomics: 23.8
@@ -287,8 +308,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

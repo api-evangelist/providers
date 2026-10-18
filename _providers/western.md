@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 6.3
-  scored_at: '2026-10-04'
+  score: 4.4
+  scored_at: '2026-10-17'
 api_count: 6
 apis:
 - description: Western's institutional identity provider, publishing machine-readable SAML 2.0 metadata through the Canadian Access Federation. entityID https://shibidp.uwo.ca/idp/shibboleth, mdui:DisplayName "Unive
@@ -162,9 +162,13 @@ description: 'Western University is a public research university in London, Onta
   whose entityID is still the stock Apereo placeholder. Both are end-user login federations, not developer authorization surfaces; OIDC is advertised by WTS but its discovery document returns 403. Western''s two readable data surfaces are tenancies, not engineering: Scholarship@Western moved in 2025 to Scholaris, the national shared DSpace 8.4 service run by Scholars Portal (OCUL), exposing a HAL REST API and a conformant OAI-PMH 2.0 provider across thirteen metadata formats at uwo.scholaris.ca; and Western''s research data lives in a 1,504-dataset collection on Borealis, the Canadian Dataverse Repository, minting DataCite DOIs on Scholars Portal''s 10.5683 prefix. Library discovery is an Ex Libris Primo VE view on OCUL''s shared platform. All four are recorded here as tenant relationships and deliberately not credited as Western engineering. There is no official course, timetable or open-data API: the academic calendar at westerncalendar.uwo.ca blocks every AI and search crawler in robots.txt,
   the undergraduate timetable is scrape-only, and the only APIs over that data are unofficial student projects on GitHub that Western does not endorse.'
 finops:
-- name: Western Finops
+- has_sources: true
+  method: generated
+  name: Western Finops
+  primary_unit: ''
   service_category: Education
   slug: western-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/western.png
 jsonld:
 - class_count: 7
@@ -176,7 +180,7 @@ modified: '2026-08-30'
 name: Western University
 nav: Providers
 network: true
-overview: 'Western University publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include University, Higher Education, Education, Research, and Canada.
+overview: 'Western University is listed with 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include University, Higher Education, Education, Research, and Canada.
 
 
   The Western University catalog on APIs.io includes 1 JSON-LD context.
@@ -193,23 +197,23 @@ rate_limits:
   name: Western Rate Limits
   slug: western-rate-limits
 score:
-  band: thin
-  composite: 29.9
+  band: emerging
+  composite: 23.8
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 60.4
+    artifact_dirs: 12
+    catalog_earned: 47.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 54.6
+    catalog_gap: 68.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -3.4
+  delta: -6.1
   facets:
-    access_clarity: 37.4
+    access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 20.4
     developer_ergonomics: 35.7
     discoverability: 62.5
-    operational_transparency: 18.9
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -217,7 +221,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 33.3
+  previous_composite: 29.9
   provenance:
     conformance: first-party
   regulatory:
@@ -226,9 +230,9 @@ score:
     regime: Education & Research
     regime_id: education
     score: 28.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

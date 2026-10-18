@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'The hosted Crawl4AI API. One key, plain JSON, one fast endpoint per job: POST /scrape turns a URL into clean Markdown or HTML, GET /search runs a browser-free multi-engine web search, GET /answer retu'
@@ -261,9 +261,13 @@ common:
 created: '2026-03-27'
 description: Crawl4AI is an open-source, Apache-2.0 web crawler and scraper built to turn any URL into clean, LLM-ready data — Markdown, typed JSON, screenshots, PDFs, or a map of every URL on a domain. Operated by CONTEXT4AI PTE LTD of Singapore and created by Hossein Tohidi (@unclecode), the project pairs a 79,000-star Python library and self-hostable Docker API server with a hosted Cloud API at gate.crawl4ai.com that serves scrape, search, answer, extract and bulk-job endpoints from three regions, plus a live remote MCP server that exposes the same capabilities to agents as five native tools. Self-hosting is free and unmetered; the hosted tier is free at 5,000 searches and 1,000 scrapes a month.
 finops:
-- name: Crawl4Ai Finops
+- has_sources: false
+  method: generated
+  name: Crawl4Ai Finops
+  primary_unit: ''
   service_category: API
   slug: crawl4ai-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/crawl4ai.png
 layout: provider
 mcp_servers:
@@ -274,7 +278,7 @@ modified: '2026-09-16'
 name: Crawl4AI
 nav: Providers
 network: true
-overview: 'Crawl4AI publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Crawl API, and 3 more. Tagged areas include AI Automation, Web Crawling, Web Scraping, Data Extraction, and Search.
+overview: 'Crawl4AI publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Crawl API, and 3 more. Tagged areas include AI Automation, Web Crawling, Web Scraping, Data Extraction, and Search.
 
 
   The Crawl4AI catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -292,17 +296,17 @@ rate_limits:
   slug: crawl4ai-rate-limits
 score:
   band: exemplar
-  composite: 68.6
+  composite: 67.1
   coverage:
     artifact_dirs: 24
-    catalog_earned: 64.0
+    catalog_earned: 61.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 51.0
+    catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 78.9
+    access_clarity: 71.1
     contract_governance: 18.2
     contract_quality: 47.3
     developer_ergonomics: 85.7
@@ -324,8 +328,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -343,7 +347,7 @@ security:
 - kind: vulnerability-disclosure
   name: Crawl4Ai Vulnerability Disclosure
   slug: crawl4ai-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 slug: crawl4ai
 tags:
 - AI Automation

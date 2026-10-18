@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: REST API over the Bullhorn Staffing Object Model — CRUD, query, Lucene search, mass update, resume parsing, and file attachments across Candidate, JobOrder, Placement, ClientCorporation, ClientContact
@@ -170,7 +170,7 @@ modified: '2026-07-18'
 name: Bullhorn
 nav: Providers
 network: true
-overview: 'Bullhorn publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Staffing, Recruiting, Applicant Tracking, and CRM.
+overview: 'Bullhorn is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Staffing, Recruiting, Applicant Tracking, and CRM.
 
 
   Bullhorn''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 20 more developer resources.'
@@ -179,7 +179,7 @@ score:
   band: thin
   composite: 39.2
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -206,8 +206,8 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 37.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

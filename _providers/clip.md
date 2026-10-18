@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 6
 apis:
 - description: Hosted checkout flow that redirects shoppers to a Clip-hosted payment page to capture card data and complete the charge. Returns the authorized payment back to the merchant via redirect plus a postbac
@@ -209,7 +209,7 @@ modified: '2026-05-24'
 name: Clip
 nav: Providers
 network: true
-overview: 'Clip publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Payments, Acquiring, SMB Payments, Point-of-Sale, and mPOS.
+overview: 'Clip is listed with 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Payments, Acquiring, SMB Payments, Point-of-Sale, and mPOS.
 
 
   Clip''s developer surface includes developer portal, getting-started guide, documentation, FAQ, support, engineering blog, YouTube channel, and 29 more developer resources.'
@@ -246,8 +246,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 17.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

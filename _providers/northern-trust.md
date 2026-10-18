@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 7
 apis:
 - description: The Custody API in the Northern Trust API Store gives institutional clients programmatic access to global custody data — holdings, positions, safekept assets, settlements, and account-level custody in
@@ -156,7 +156,7 @@ modified: '2026-07-23'
 name: Northern Trust
 nav: Providers
 network: true
-overview: 'Northern Trust publishes 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500, Banking, Wealth Management, Asset Servicing, and Asset Management.
+overview: 'Northern Trust is listed with 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500, Banking, Wealth Management, Asset Servicing, and Asset Management.
 
 
   The Northern Trust catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -189,7 +189,7 @@ score:
   band: emerging
   composite: 25.4
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -219,8 +219,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 31.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

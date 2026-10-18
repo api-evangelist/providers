@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -93,7 +93,7 @@ modified: '2026-07-18'
 name: BrightGo
 nav: Providers
 network: true
-overview: 'BrightGo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Business Applications, ERP, Janitorial Services, and Field Service Management.
+overview: 'BrightGo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Business Applications, ERP, Janitorial Services, and Field Service.
 
 
   BrightGo''s developer surface includes engineering blog, signup flow, and 10 more developer resources.'
@@ -123,8 +123,8 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 9.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -142,7 +142,7 @@ tags:
 - Business Applications
 - ERP
 - Janitorial Services
-- Field Service Management
+- Field Service
 - Workforce Management
 - Facilities Maintenance
 - Payroll

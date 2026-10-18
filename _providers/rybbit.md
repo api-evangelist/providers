@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 43.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -342,9 +342,13 @@ common:
 created: '2026-06-21'
 description: Rybbit is an open-source, privacy-friendly web and product analytics platform positioned as a cookieless alternative to Google Analytics and Plausible. It ingests pageviews, custom events, autocaptured interactions, performance samples and JavaScript errors through a lightweight tracking script and an HTTP /api/track endpoint, and exposes a Bearer-key-authenticated Stats and Management API covering sites, sessions, users, goals, funnels, web vitals, session replays, organizations and teams. Since v2.8.0 Rybbit also runs a first-party hosted Model Context Protocol server at https://app.rybbit.io/api/mcp — 38 tools behind an OAuth 2.1 authorization server with PKCE, dynamic client registration and a 29-scope resource:action permission model — making it directly callable by AI agents. Rybbit publishes no OpenAPI. It can be self-hosted under AGPL-3.0, which ships the identical REST and MCP surface, or consumed as a managed cloud service.
 finops:
-- name: Rybbit Finops
+- has_sources: true
+  method: generated
+  name: Rybbit Finops
+  primary_unit: ''
   service_category: Analytics
   slug: rybbit-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rybbit.png
 layout: provider
 mcp_servers:
@@ -355,7 +359,7 @@ modified: '2026-08-13'
 name: Rybbit
 nav: Providers
 network: true
-overview: 'Rybbit publishes 3 APIs on the [APIs.io](https://apis.io/) network: Analytics API, Event Tracking API, and Sessions API. Tagged areas include Analytics, Web Analytics, Product Analytics, Privacy, and Open Source.
+overview: 'Rybbit publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Analytics API, Event Tracking API, and Sessions API. Tagged areas include Analytics, Web Analytics, Product Analytics, Privacy, and Open Source.
 
 
   Rybbit''s developer surface includes authentication, engineering blog, documentation, changelog, sandbox, API reference, getting-started guide, and 42 more developer resources.'
@@ -375,17 +379,17 @@ scopes:
   summary_line: 29 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 68.2
+  composite: 66.7
   coverage:
     artifact_dirs: 27
-    catalog_earned: 64.0
+    catalog_earned: 61.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 51.0
+    catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 100.0
+    access_clarity: 92.1
     contract_governance: 18.2
     contract_quality: 48.2
     developer_ergonomics: 74.4
@@ -414,8 +418,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

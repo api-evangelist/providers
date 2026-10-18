@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: ShopSimon is Simon's e-commerce platform integrating online and offline retail. The ShopSimon Retailer Hub provides APIs for sellers to integrate product listings, inventory data, and order management
@@ -41,6 +41,21 @@ apis:
   slug: shopsimon
 artifact_total: 7
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/simon-property-group/refs/heads/main/plans/simon-property-group-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/simon-property-group-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/simon-property-group/refs/heads/main/rate-limits/simon-property-group-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/simon-property-group-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/simon-property-group/refs/heads/main/finops/simon-property-group-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/simon-property-group-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/simon-property-group/refs/heads/main/security/simon-property-group-vulnerability-disclosure.yml
   title: ''
@@ -98,9 +113,13 @@ common:
 created: '2026-03-24'
 description: 'Simon Property Group is the largest retail real estate investment trust (REIT) in the United States, owning, developing, and managing premier shopping, dining, entertainment, and mixed-use destinations. Simon''s portfolio includes an interest in 254 properties: traditional malls, premium outlets, Mills centers, lifestyle centers, and other retail properties in North America, Europe, and Asia. The company operates ShopSimon, an e-commerce platform, and Simon Innovation Group to advance retail technology innovation. Simon had trailing twelve-month revenue of approximately $6.36 billion as of 2025 and a market capitalization of approximately $67 billion.'
 finops:
-- name: Simon Property Group Finops
+- has_sources: true
+  method: generated
+  name: Simon Property Group Finops
+  primary_unit: ''
   service_category: Commercial Real Estate
   slug: simon-property-group-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/simon-property-group.png
 jsonld:
 - class_count: 43
@@ -112,13 +131,13 @@ modified: '2026-05-02'
 name: Simon Property Group
 nav: Providers
 network: true
-overview: 'Simon Property Group publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Commercial Real Estate, E-Commerce, Fortune 500, Malls, and Outlet Centers.
+overview: 'Simon Property Group is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Commercial Real Estate, E-Commerce, Fortune 500, Malls, and Outlet Centers.
 
 
   The Simon Property Group catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Simon Property Group''s developer surface includes product news and 12 more developer resources.'
+  Simon Property Group''s developer surface includes product news and 15 more developer resources.'
 plans:
 - name: Simon Property Group Plans Pricing
   plan_count: 1
@@ -146,17 +165,17 @@ rate_limits:
   slug: simon-property-group-rate-limits
 score:
   band: emerging
-  composite: 16.2
+  composite: 14.7
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 47.0
+    artifact_dirs: 12
+    catalog_earned: 44.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 68.0
+    catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 13.2
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 10.7
     developer_ergonomics: 21.4
@@ -169,8 +188,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

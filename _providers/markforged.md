@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 30
   slug: markforged-agentic-access
   summary_line: 30 operations · 9 acting · 1 human-in-the-loop
-api_count: 1
+api_count: 2
 apis:
 - description: Secure, licensed distribution of manufacturer-certified parts for distributed (point-of-need) manufacturing. Built on the Markforged platform (ISO 27001 certified); no separate public developer API is
   name: Markforged Digital Source
@@ -163,16 +163,20 @@ common:
 created: '2026-06-20'
 description: Markforged builds industrial additive manufacturing systems - composite (FX, Onyx, X-series) and metal (Metal X, PX100) 3D printers - managed through the Eiger cloud software platform. The Eiger API (V3) exposes a REST interface over HTTP Basic Auth for managing devices, builds, print jobs, and parts, letting customers integrate Markforged additive workflows into ERP, MES, PLM, and other factory systems. Digital Source extends the platform with secure, licensed distribution of manufacturer-certified parts for distributed manufacturing.
 finops:
-- name: Markforged Finops
+- has_sources: true
+  method: generated
+  name: Markforged Finops
+  primary_unit: ''
   service_category: Manufacturing and Additive Manufacturing
   slug: markforged-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/markforged.png
 layout: provider
 modified: '2026-06-20'
 name: Markforged
 nav: Providers
 network: true
-overview: 'Markforged publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Builds API, Devices API, Organizations API, and 4 more. Tagged areas include 3D Printing, Additive Manufacturing, Industrial, Eiger, and Fleet Management.
+overview: 'Markforged publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Builds API, Devices API, Organizations API, and 4 more. Tagged areas include 3D Printing, Industrial, Eiger, and Fleet Management.
 
 
   Markforged''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
@@ -186,23 +190,23 @@ rate_limits:
   name: Markforged Rate Limits
   slug: markforged-rate-limits
 score:
-  band: thin
-  composite: 31.9
+  band: emerging
+  composite: 23.7
   coverage:
     artifact_dirs: 12
-    catalog_earned: 53.0
+    catalog_earned: 32.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 62.0
+    catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.2
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 44.1
     developer_ergonomics: 32.1
-    discoverability: 57.1
-    operational_transparency: 21.6
+    discoverability: 48.2
+    operational_transparency: 7.9
   previous_composite: 31.9
   provenance:
     agentic_access: derived
@@ -217,9 +221,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0
@@ -236,7 +240,6 @@ security:
 slug: markforged
 tags:
 - 3D Printing
-- Additive Manufacturing
 - Industrial
 - Eiger
 - Fleet Management

@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 40.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -132,6 +132,10 @@ collections:
   name: Flynet App Users API
   slug: open-blackbird-users-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.blackbird.xyz/blog
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/blackbird/refs/heads/main/capabilities/blackbird-capability-edges.yml
   title: ''
@@ -288,14 +292,14 @@ mcp_servers:
 - description: Flynet (Blackbird) ships two official MCP servers. The Docs MCP is a hosted, remote HTTP server (Mintlify-hosted, no credentials) that lets any MCP-aware agent search the live Flynet docs. The API MCP
   name: Blackbird MCP Server
   slug: blackbird-mcp-yml
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Blackbird
 nav: Providers
 network: true
-overview: 'Blackbird publishes 10 APIs on the [APIs.io](https://apis.io/) network, including App API, Challenges API, Check-ins API, and 7 more. Tagged areas include Company, Restaurant, Loyalty, Payments, and Dining.
+overview: 'Blackbird publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including App API, Challenges API, Check-ins API, and 7 more. Tagged areas include Company, Restaurant, Loyalty, Payments, and Dining.
 
 
-  Blackbird''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 25 more developer resources.'
+  Blackbird''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, signup flow, authentication, and 26 more developer resources.'
 random_paper: 2
 scopes:
 - name: Blackbird Scopes
@@ -337,8 +341,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 24.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -361,7 +365,7 @@ tags:
 - Payments
 - Dining
 - Membership
-- Crypto
+- Cryptocurrency
 - Blockchain
 - Web3
 website: https://blackbird.xyz

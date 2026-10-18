@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 39.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 12
   slug: savvly-agentic-access
   summary_line: 12 operations
-api_count: 1
+api_count: 2
 apis:
 - baseURL: https://api.savvly.com
   baseurl_source: spec
@@ -108,13 +108,13 @@ modified: '2026-07-17'
 name: Savvly
 nav: Providers
 network: true
-overview: 'Savvly publishes 3 APIs on the [APIs.io](https://apis.io/) network: Comparisons API, Product API, and Projections API. Tagged areas include Company and A2A.'
+overview: 'Savvly publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Comparisons API, Product API, and Projections API. Tagged areas include Company and A2A.'
 random_paper: 17
 score:
   band: emerging
   composite: 13.4
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 15.0
     catalog_earned_first_party: 0.0
     catalog_gap: 85.0
@@ -145,8 +145,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 0.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -35,8 +35,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.1
-  scored_at: '2026-10-04'
-api_count: 1
+  scored_at: '2026-10-17'
+api_count: 2
 apis:
 - baseURL: https://sandbox.nory.ai/app/v1
   baseurl_source: declared
@@ -201,7 +201,7 @@ modified: '2026-07-20'
 name: Nory
 nav: Providers
 network: true
-overview: 'Nory publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Authorization API, Branch API, Brands API, and 7 more. Tagged areas include Company, Restaurant, Hospitality, Inventory, and Workforce.
+overview: 'Nory publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authorization API, Branch API, Brands API, and 7 more. Tagged areas include Company, Restaurant, Hospitality, Inventory, and Workforce.
 
 
   Nory''s developer surface includes engineering blog, support, authentication, sandbox, and 17 more developer resources.'
@@ -210,7 +210,7 @@ score:
   band: thin
   composite: 30.1
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -240,8 +240,8 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 22.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

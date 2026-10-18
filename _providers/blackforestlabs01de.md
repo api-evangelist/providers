@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: API for Black Forest Labs FLUX models
@@ -72,7 +72,7 @@ modified: '2026-09-29'
 name: Blackforestlabs01de
 nav: Providers
 network: true
-overview: Blackforestlabs01de publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Technology, Data, Artificial Intelligence, and Research.
+overview: Blackforestlabs01de is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Technology, Data, Artificial Intelligence, and Research.
 random_paper: 14
 score:
   band: minimal
@@ -84,6 +84,7 @@ score:
     catalog_gap: 85.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.6
   facets:
     access_clarity: 0.0
     contract_governance: 4.5
@@ -97,6 +98,7 @@ score:
     reasons:
     - owner: catalog
       reason: venue_as_website
+  previous_composite: 4.5
   provenance:
     conformance: derived
   regulatory:
@@ -105,8 +107,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

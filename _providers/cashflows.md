@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 4
 apis:
 - description: REST API for creating and managing payment jobs and payments — create, retrieve, and cancel payment jobs; capture, refund, and cancel individual payments; card tokenisation; and recurring payments. Pa
@@ -56,6 +56,10 @@ asyncapis:
   name: Cashflows Gateway Webhooks
   slug: cashflows-gateway-webhooks
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.cashflows.com/blog/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/cashflows/refs/heads/main/security/cashflows-domain-security.yml
   title: ''
@@ -193,17 +197,17 @@ description: Cashflows is a United Kingdom payment gateway and card acquirer, he
   plus a SHA-512 request hash for the Gateway, and auth_id/auth_pass for Remote Authentication) rather than OAuth.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-modified: '2026-07-24T12:00:00Z'
+modified: '2026-10-06'
 name: Cashflows
 nav: Providers
 network: true
-overview: 'Cashflows publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Payments, United Kingdom, Payment Gateway, Payment Processing, and Acquiring.
+overview: 'Cashflows is listed with 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Payments, United Kingdom, Payment Gateway, Payment Processing, and Acquiring.
 
 
   The Cashflows catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Cashflows'' developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, support, authentication, and 22 more developer resources.'
+  Cashflows'' developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, support, authentication, and 23 more developer resources.'
 random_paper: 2
 score:
   band: developing
@@ -245,8 +249,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 34.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

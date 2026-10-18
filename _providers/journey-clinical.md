@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.journeyclinical.com/resources/rss.xml
 - group: company
   title: ''
   type: Website
@@ -91,18 +95,18 @@ created: '2026-07-17'
 description: Journey Clinical is a telehealth platform for ketamine-assisted psychotherapy (KAP). It pairs licensed medical prescribers who manage patient eligibility, prescribing, and clinical monitoring with a member network of independent licensed psychotherapists who deliver the preparation, dosing, and integration therapy sessions. Alongside KAP the company offers standalone medication management and Spravato (esketamine) treatment, operates across 25+ US states, and accepts major insurance plans as well as HSA/FSA payment. Journey Clinical is a HIPAA-covered telehealth provider (publishing a Notice of Privacy Practices) and, as surfaced through the API Evangelist network, does not currently publish a public developer API, OpenAPI specification, SDKs, or developer portal. This profile captures its public identity, compliance posture, and domain security as a company record.
 image: https://cdn.prod.website-files.com/659e8f3e14dbb0d3a318012a/66010f2c07fad7c7a17d5b81_fav-256.svg
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Journey Clinical
 nav: Providers
 network: true
 overview: 'Journey Clinical is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Telehealth, Mental Health, Healthcare, and Ketamine-Assisted Psychotherapy.
 
 
-  Journey Clinical''s developer surface includes pricing, signup flow, engineering blog, support, and 8 more developer resources.'
+  Journey Clinical''s developer surface includes pricing, signup flow, engineering blog, support, and 9 more developer resources.'
 random_paper: 6
 score:
   band: emerging
-  composite: 20.6
+  composite: 20.7
   coverage:
     artifact_dirs: 6
     catalog_earned: 27.0
@@ -110,7 +114,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 52.6
     contract_governance: 18.2
@@ -131,8 +135,8 @@ score:
     regime: Health
     regime_id: health
     score: 18.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

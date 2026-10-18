@@ -23,10 +23,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 5
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.voltaiq.com/blog/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/voltaiq/refs/heads/main/security/voltaiq-trust-center.yml
   title: ''
@@ -123,14 +127,14 @@ created: '2026-09-04'
 description: 'Voltaiq is an enterprise battery intelligence (EBI) software company that automatically collects, cleans and harmonizes data from battery test equipment, production lines and fielded systems into a single searchable data core, then extracts electrochemical quality indicators, KPIs and traceability for battery R&D, product development, manufacturing and in-field applications. The platform ships no-code dashboards, an Analytics Studio Python data-science environment, and pre-built integrations with industry-standard cyclers (NOVONIX, MACCOR, Arbin, Biologic, Bitrode, Digatron, Neware, Gamry, Chroma, Keysight) alongside LIMS, MES and BI tools. Voltaiq states it offers "an API that enables flexible custom integrations", but every customer system is deployed into its own single-tenant AWS VPC and the company publishes no public developer portal, API reference or machine-readable contract: its security page says "Full technical documentation is available upon request."'
 image: https://www.voltaiq.com/hubfs/Featured%20Images/Voltaiq%20Featured%20Image%20%5BFeatured%20Image%5D.png
 layout: provider
-modified: '2026-09-04'
+modified: '2026-10-06'
 name: Voltaiq
 nav: Providers
 network: true
 overview: 'Voltaiq is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Batteries, Energy Storage, Manufacturing, and Analytics.
 
 
-  Voltaiq''s developer surface includes engineering blog, pricing, support, authentication, and 13 more developer resources.'
+  Voltaiq''s developer surface includes engineering blog, pricing, support, authentication, and 14 more developer resources.'
 plans:
 - name: Voltaiq Plans Pricing
   plan_count: 3
@@ -144,7 +148,7 @@ score:
   band: thin
   composite: 28.2
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 39.0
     catalog_earned_first_party: 12.0
     catalog_gap: 76.0
@@ -171,13 +175,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 21.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/voltaiq/refs/heads/main/screenshots/voltaiq-2026-10-11T133112.png
 security:
 - kind: authentication
   name: Voltaiq Authentication

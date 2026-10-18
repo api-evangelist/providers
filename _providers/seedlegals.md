@@ -33,10 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 4
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://seedlegals.com/feed/
 - group: company
   title: ''
   type: Website
@@ -112,14 +116,14 @@ mcp_servers:
 - description: Hosted Model Context Protocol server operated by SeedLegals at https://api.seedlegals.com/mcp. Discovered via RFC 8414 OAuth Authorization Server Metadata and RFC 9728 OAuth Protected Resource Metadat
   name: SeedLegals MCP Server
   slug: seedlegals
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: SeedLegals
 nav: Providers
 network: true
 overview: 'SeedLegals is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Business Applications, Legal Tech, Startups, and Fundraising.
 
 
-  SeedLegals'' developer surface includes pricing, engineering blog, support, signup flow, authentication, and 10 more developer resources.'
+  SeedLegals'' developer surface includes pricing, engineering blog, support, signup flow, authentication, and 11 more developer resources.'
 random_paper: 15
 scopes:
 - name: Seedlegals Scopes
@@ -154,8 +158,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

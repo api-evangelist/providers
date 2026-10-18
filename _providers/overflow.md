@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 8
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 38
   slug: overflow-agentic-access
   summary_line: 38 operations · 8 acting · 8 human-in-the-loop
-api_count: 1
+api_count: 2
 apis:
 - baseURL: https://server.overflow.co
   baseurl_source: declared
@@ -294,7 +294,7 @@ modified: '2026-07-20'
 name: Overflow
 nav: Providers
 network: true
-overview: 'Overflow publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Campaigns API, Chargebacks API, Contributions API, and 10 more. Tagged areas include Company, Fintech, Payments, Donations, and Fundraising.
+overview: 'Overflow publishes 13 API contracts indexed on the [APIs.io](https://apis.io/) network, including Campaigns API, Chargebacks API, Contributions API, and 10 more. Tagged areas include Company, Fintech, Payments, Donations, and Fundraising.
 
 
   The Overflow catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -306,7 +306,7 @@ score:
   band: developing
   composite: 43.9
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -337,8 +337,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 22.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

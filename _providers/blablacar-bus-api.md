@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.5
-  scored_at: '2026-10-04'
+  score: 24.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -91,6 +91,21 @@ collections:
   name: BlaBlaCar Bus Bookings Trips API
   slug: open-blablacar-bus-api-trips-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/blablacar-bus-api/refs/heads/main/plans/blablacar-bus-api-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/blablacar-bus-api-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/blablacar-bus-api/refs/heads/main/rate-limits/blablacar-bus-api-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/blablacar-bus-api-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/blablacar-bus-api/refs/heads/main/finops/blablacar-bus-api-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/blablacar-bus-api-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/blablacar-bus-api/refs/heads/main/agentic-access/blablacar-bus-api-agentic-access.yml
   title: ''
@@ -177,9 +192,13 @@ features:
 - description: Single API integration covering coach routes across France, Germany, Poland, Spain, Italy, Ukraine, and other European markets.
   name: Multi-Market Coverage
 finops:
-- name: Blablacar Bus Api Finops
+- has_sources: false
+  method: generated
+  name: Blablacar Bus Api Finops
+  primary_unit: ''
   service_category: API
   slug: blablacar-bus-api-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/blablacar-bus-api.png
 integrations:
 - description: BlaBlaCar Bus complements the carpooling marketplace, enabling multimodal journey planning combining bus and ridesharing.
@@ -228,13 +247,13 @@ modified: '2026-05-19'
 name: BlaBlaCar Bus API
 nav: Providers
 network: true
-overview: 'BlaBlaCar Bus API publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Bookings API, Routes API, Stations API, and 2 more. Tagged areas include Booking, Bus, Coach, Europe, and Mobility.
+overview: 'BlaBlaCar Bus API is listed with 5 APIs on the [APIs.io](https://apis.io/) network, including Bookings API, Routes API, Stations API, and 2 more. Tagged areas include Booking, Bus, Coach, Europe, and Mobility.
 
 
   The BlaBlaCar Bus API catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  BlaBlaCar Bus API''s developer surface includes authentication, documentation, and 10 more developer resources.'
+  BlaBlaCar Bus API''s developer surface includes authentication, documentation, and 13 more developer resources.'
 plans:
 - name: Blablacar Bus Api Plans Pricing
   plan_count: 3
@@ -245,9 +264,10 @@ rate_limits:
   name: Blablacar Bus Api Rate Limits
   slug: blablacar-bus-api-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: BlaBlaCar Bus API API Rules
+  name: BlaBlaCar Bus API — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -255,7 +275,8 @@ rules:
     info: 1
     warn: 4
   slug: blablacar-bus-api-jsonschema-spectral-rules
-- effective_rule_count: 82
+- authorship: generated
+  effective_rule_count: 82
   extends:
   - spectral:oas
   name: BlaBlaCar Bus API API Rules
@@ -268,17 +289,17 @@ rules:
   slug: blablacar-bus-api-spectral-rules
 score:
   band: thin
-  composite: 28.5
+  composite: 27.0
   coverage:
     artifact_dirs: 16
-    catalog_earned: 64.0
+    catalog_earned: 61.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 51.0
+    catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 36.8
+    access_clarity: 28.9
     contract_governance: 27.3
     contract_quality: 21.7
     developer_ergonomics: 16.7
@@ -303,8 +324,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

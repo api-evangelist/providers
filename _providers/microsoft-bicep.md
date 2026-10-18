@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.3
-  scored_at: '2026-10-04'
+  score: 25.4
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -86,6 +86,21 @@ collections:
   name: Microsoft Bicep Template Specs API
   slug: open-microsoft-bicep-template-specs
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-bicep/refs/heads/main/plans/microsoft-bicep-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/microsoft-bicep-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-bicep/refs/heads/main/rate-limits/microsoft-bicep-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/microsoft-bicep-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-bicep/refs/heads/main/finops/microsoft-bicep-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/microsoft-bicep-finops.yml
 - group: company
   title: ''
   type: Website
@@ -173,9 +188,13 @@ common:
 created: '2024-01-15'
 description: Microsoft Bicep is a domain-specific language (DSL) that uses declarative syntax to deploy Azure resources. It provides a transparent abstraction over ARM templates and offers a more concise syntax, improved type safety, and better support for modularity and code reuse.
 finops:
-- name: Microsoft Bicep Finops
+- has_sources: true
+  method: generated
+  name: Microsoft Bicep Finops
+  primary_unit: ''
   service_category: Developer Tools / Infrastructure as Code
   slug: microsoft-bicep-finops
+  template: false
 image: https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/media/bicep-logo.png
 json_schemas:
 - name: Microsoft Bicep Deployment
@@ -194,13 +213,13 @@ modified: '2026-05-19'
 name: Microsoft Bicep
 nav: Providers
 network: true
-overview: 'Microsoft Bicep publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Deployments API, Template Spec Versions API, Template Specs API, and 2 more. Tagged areas include ArmTemplates, Azure, Cloud, Deployment, and DevOps.
+overview: 'Microsoft Bicep publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Deployments API, Template Spec Versions API, Template Specs API, and 2 more. Tagged areas include ArmTemplates, Microsoft Azure, Cloud, Deployment, and DevOps.
 
 
   The Microsoft Bicep catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Microsoft Bicep''s developer surface includes authentication, engineering blog, support, release notes, and 15 more developer resources.'
+  Microsoft Bicep''s developer surface includes authentication, engineering blog, support, release notes, and 18 more developer resources.'
 plans:
 - name: Microsoft Bicep Plans Pricing
   plan_count: 3
@@ -211,9 +230,10 @@ rate_limits:
   name: Microsoft Bicep Rate Limits
   slug: microsoft-bicep-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: Microsoft Bicep API Rules
+  name: Microsoft Bicep — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -228,17 +248,17 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: thin
-  composite: 38.4
+  composite: 36.9
   coverage:
     artifact_dirs: 15
-    catalog_earned: 54.3
+    catalog_earned: 51.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 60.8
+    catalog_gap: 63.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 9.8
     contract_quality: 51.8
     developer_ergonomics: 28.6
@@ -258,8 +278,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -281,7 +301,7 @@ security:
 slug: microsoft-bicep
 tags:
 - ArmTemplates
-- Azure
+- Microsoft Azure
 - Cloud
 - Deployment
 - DevOps

@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 87
+- acting_count: 69
   human_in_the_loop: 0
   name: Etoro Agentic Access
-  operation_count: 160
+  operation_count: 146
   slug: etoro-agentic-access
-  summary_line: 160 operations · 87 acting
+  summary_line: 146 operations · 69 acting
 api_count: 2
 apis:
 - description: Provides REST endpoints for executing and managing trades on eToro for both real and demo (paper trading) accounts. Supports creating market and limit orders, canceling pending orders, closing open po
@@ -825,9 +825,13 @@ examples:
   name: Updateagentportfoliousertokenv2 Response 500
   slug: updateAgentPortfolioUserTokenV2-response-500
 finops:
-- name: Finops
+- has_sources: false
+  method: generated
+  name: Finops
+  primary_unit: ''
   service_category: ''
   slug: finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/etoro.png
 json_schemas:
 - name: AccountBalanceData
@@ -1325,7 +1329,7 @@ modified: '2026-06-13'
 name: eToro
 nav: Providers
 network: true
-overview: 'eToro publishes 29 APIs on the [APIs.io](https://apis.io/) network, including Agent Portfolios API, Asset Explorer API, Attachments API, and 26 more. Tagged areas include Social Trading, Copy Trading, Investing, Market Data, and Portfolio Management.
+overview: 'eToro publishes 29 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agent Portfolios API, Asset Explorer API, Attachments API, and 26 more. Tagged areas include Social Trading, Copy Trading, Investing, Market Data, and Portfolio Management.
 
 
   The eToro catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -1342,9 +1346,10 @@ rate_limits:
   name: Rate Limits
   slug: rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: eToro API Rules
+  name: eToro — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1354,17 +1359,17 @@ rules:
   slug: etoro-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 32.0
+  composite: 27.7
   coverage:
-    artifact_dirs: 16
-    catalog_earned: 55.0
+    artifact_dirs: 17
+    catalog_earned: 46.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 60.1
+    catalog_gap: 68.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -4.3
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 23.5
     contract_quality: 47.1
     developer_ergonomics: 33.3
@@ -1385,8 +1390,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 15.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

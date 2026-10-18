@@ -23,10 +23,19 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 3
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/aiguang/refs/heads/main/rate-limits/aiguang-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/aiguang-rate-limits.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.guang.com/blog/
 - group: company
   title: ''
   type: Website
@@ -100,14 +109,14 @@ created: '2026-09-14'
 description: Aiguang (爱逛) is a Hangzhou, China live-streaming and short-video commerce platform built on the WeChat ecosystem. Consumers enter live rooms through the Aiguang WeChat mini-program and the Aiguang mobile app to take part in limited-time discounts, group buys and live-stream giveaways, while merchants and MCN hosts run their broadcasts from the Aiguang seller app and a PC live-broadcast console carrying interaction, marketing, promotion and analytics tooling. The platform is wired into the Youzan (有赞) CPS product pool so viewers can resell what they watch. Per its own user agreement and privacy statement (effective 2025-01-17) the platform is operated by 杭州杨杨得翼文化有限公司 (Hangzhou Yangyang Deyi Culture Co., Ltd.). Aiguang publishes no public developer program, API reference or machine-readable contract; its merchant, supplier and MCN surfaces are reached through account logins and a merchant community forum.
 image: https://img.yzcdn.cn/guang/intro/20200410/logo@3x.png
 layout: provider
-modified: '2026-09-14'
+modified: '2026-10-06'
 name: Aiguang
 nav: Providers
 network: true
 overview: 'Aiguang is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Live Commerce, Live Streaming, and Social Commerce.
 
 
-  Aiguang''s developer surface includes support, changelog, pricing, and 9 more developer resources.'
+  Aiguang''s developer surface includes engineering blog, support, changelog, pricing, and 10 more developer resources.'
 plans:
 - name: Aiguang Plans Pricing
   plan_count: 0
@@ -119,20 +128,20 @@ rate_limits:
   slug: aiguang-rate-limits
 score:
   band: emerging
-  composite: 15.9
+  composite: 16.4
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 11
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 38.2
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 4.8
+    developer_ergonomics: 7.1
     discoverability: 55.4
     operational_transparency: 15.8
   jurisdiction:
@@ -149,13 +158,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/aiguang/refs/heads/main/screenshots/aiguang-2026-10-11T093303.png
 security:
 - kind: domain-security
   name: Aiguang Domain Security

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -351,7 +351,7 @@ modified: '2026-05-30'
 name: IKEA
 nav: Providers
 network: true
-overview: 'IKEA publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Availability API, Categories API, Parts API, and 3 more. Tagged areas include Retail, Home Furnishings, Consumer Products, Open Source, and Community.
+overview: 'IKEA publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Availability API, Categories API, Parts API, and 3 more. Tagged areas include Retail, Home Furnishings, Consumer Products, Open Source, and Community.
 
 
   The IKEA catalog on APIs.io includes 4 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -360,9 +360,10 @@ overview: 'IKEA publishes 6 APIs on the [APIs.io](https://apis.io/) network, inc
   IKEA''s developer surface includes authentication, engineering blog, code examples, and 15 more developer resources.'
 random_paper: 14
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: IKEA API Rules
+  name: IKEA — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -370,7 +371,8 @@ rules:
     info: 2
     warn: 3
   slug: ikea-jsonschema-spectral-rules
-- effective_rule_count: 75
+- authorship: unmarked
+  effective_rule_count: 75
   extends:
   - spectral:oas
   name: IKEA API Rules
@@ -383,15 +385,15 @@ rules:
   slug: ikea-rules
 score:
   band: thin
-  composite: 32.7
+  composite: 32.8
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 50.5
     catalog_earned_first_party: 0.0
     catalog_gap: 64.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 0.0
     contract_governance: 13.6
@@ -413,13 +415,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
     reason: read_only
+screenshot: https://raw.githubusercontent.com/api-evangelist/ikea/refs/heads/main/screenshots/ikea-2026-10-11T105636.png
 security:
 - kind: authentication
   name: Ikea Authentication

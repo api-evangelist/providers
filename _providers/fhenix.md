@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.fhenix.io/blog/rss.xml
 - group: company
   title: ''
   type: Website
@@ -97,18 +101,18 @@ created: '2026-07-17'
 description: 'Fhenix is a blockchain R&D company building confidential computing for EVM-compatible chains using Fully Homomorphic Encryption (FHE). Its CoFHE (FHE Coprocessor) lets Solidity smart contracts compute directly on encrypted data — encrypt inputs client-side, operate on ciphertexts on-chain via the FHE.sol Solidity libraries, and unseal results through a threshold decryption network, so sensitive state stays private without ever being decrypted on-chain. The developer stack is a smart-contract-plus-client-library surface (not a REST API): the cofhejs TypeScript SDK, Hardhat/Foundry plugins and starters, the fhenix-contracts Solidity libraries, and mock contracts for local testing. CoFHE is live on public testnets (Ethereum Sepolia, Arbitrum Sepolia, Base Sepolia) with mainnet planned. Fhenix is backed by Multicoin Capital.'
 image: https://cdn.prod.website-files.com/6864e9aed9e0a3fac7810db8/68ad4072103ad564b44f3854_Slide%2016_9%20-%20145.jpg
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Fhenix
 nav: Providers
 network: true
-overview: 'Fhenix is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto Web3, Blockchain, Fully Homomorphic Encryption, and Confidential Computing.
+overview: 'Fhenix is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Web3, Blockchain, Fully Homomorphic Encryption, and Confidential Computing.
 
 
-  Fhenix''s developer surface includes documentation, getting-started guide, engineering blog, support, and 9 more developer resources.'
+  Fhenix''s developer surface includes documentation, getting-started guide, engineering blog, support, and 10 more developer resources.'
 random_paper: 4
 score:
   band: emerging
-  composite: 13.1
+  composite: 13.2
   coverage:
     artifact_dirs: 8
     catalog_earned: 27.0
@@ -116,7 +120,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
@@ -131,8 +135,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -147,14 +151,13 @@ security:
 slug: fhenix
 tags:
 - Company
-- Crypto Web3
+- Web3
 - Blockchain
 - Fully Homomorphic Encryption
 - Confidential Computing
 - Ethereum
 - Privacy
 - Smart Contracts
-- Web3
 - DeFi
 website: https://fhenix.io
 ---

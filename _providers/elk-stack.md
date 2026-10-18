@@ -38,14 +38,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 46.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 1137
+- acting_count: 1104
   human_in_the_loop: 57
   name: Elk Stack Agentic Access
-  operation_count: 1873
+  operation_count: 1923
   slug: elk-stack-agentic-access
-  summary_line: 1873 operations · 1137 acting · 57 human-in-the-loop
+  summary_line: 1923 operations · 1104 acting · 57 human-in-the-loop
 api_count: 19
 apis:
 - baseURL: https://api.elastic-cloud.com/api/v1
@@ -3278,6 +3278,20 @@ apis:
   baseurl_source: declared
   description: The Index API from Elastic Stack — 3 operation(s) for index.
   name: Elastic Stack Index API
+  phrasing_intents:
+  - id: createIndex
+    intent: Create an index
+    question: How do I create a new Elasticsearch index?
+  - id: deleteIndex
+    intent: Delete an index
+    question: What removes an index along with all its documents?
+  - id: getIndexMapping
+    intent: Get an index's field mappings
+    question: What fields and types are mapped in an index?
+  - id: updateIndexSettings
+    intent: Update an index's settings
+    question: Can I change settings like the replica count on an existing index?
+  phrasing_ops: 4
   slug: elk-stack-index-api
 artifact_total: 152
 asyncapis:
@@ -3545,9 +3559,13 @@ common:
 created: '2024-01-01'
 description: 'The Elastic Stack (formerly known as the ELK Stack) is the collection of open-source products from Elastic — Elasticsearch, Logstash, Kibana, and Beats/Elastic Agent — designed for taking data from any source, in any format, and searching, analyzing, and visualizing it in real time. It is widely used for log management, observability, security analytics (SIEM), and increasingly as a vector database and retrieval layer for RAG and agentic AI applications. Elastic publishes machine-readable OpenAPI descriptions for all three of its programmable surfaces: the Elasticsearch REST API, the Kibana APIs, and the Elastic Cloud control-plane API. The stack is deployment-hosted — self-managed, Elastic Cloud Hosted, or Elastic Cloud Serverless — so the Elasticsearch and Kibana base URLs are always specific to the customer''s own cluster or project.'
 finops:
-- name: Elk Stack Finops
+- has_sources: false
+  method: generated
+  name: Elk Stack Finops
+  primary_unit: ''
   service_category: API
   slug: elk-stack-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/elk-stack.png
 layout: provider
 mcp_servers:
@@ -3558,7 +3576,7 @@ modified: '2026-08-27'
 name: Elastic Stack
 nav: Providers
 network: true
-overview: 'Elastic Stack publishes 133 APIs on the [APIs.io](https://apis.io/) network, including Elastic Cloud API, (ELK Stack) Accounts API, (ELK Stack) Actions API, and 130 more. Tagged areas include Analytics, Logging, Monitoring, Observability, and Search.
+overview: 'Elastic Stack publishes 133 API contracts indexed on the [APIs.io](https://apis.io/) network, including Elastic Cloud API, (ELK Stack) Accounts API, (ELK Stack) Actions API, and 130 more. Tagged areas include Analytics, Logging, Monitoring, Observability, and Search.
 
 
   The Elastic Stack catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -3576,23 +3594,23 @@ rate_limits:
   slug: elk-stack-rate-limits
 score:
   band: exemplar
-  composite: 78.0
+  composite: 77.0
   coverage:
     artifact_dirs: 29
-    catalog_earned: 55.0
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 60.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.3
+  delta: -1.5
   facets:
-    access_clarity: 100.0
+    access_clarity: 92.1
     contract_governance: 4.5
     contract_quality: 56.6
     developer_ergonomics: 80.4
-    discoverability: 75.0
+    discoverability: 80.0
     operational_transparency: 60.5
-  previous_composite: 76.7
+  previous_composite: 78.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -3609,8 +3627,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

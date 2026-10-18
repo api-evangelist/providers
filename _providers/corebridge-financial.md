@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 1
 artifact_total: 6
 collections:
@@ -44,6 +44,25 @@ collections:
   name: Corebridge Financial API
   slug: open-corebridgefinancial
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/corebridge-financial/refs/heads/main/plans/corebridge-financial-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/corebridge-financial-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/corebridge-financial/refs/heads/main/rate-limits/corebridge-financial-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/corebridge-financial-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/corebridge-financial/refs/heads/main/finops/corebridge-financial-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/corebridge-financial-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.corebridgefinancial.com/newsroom
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/corebridge-financial/refs/heads/main/security/corebridge-financial-domain-security.yml
   title: ''
@@ -100,19 +119,23 @@ common:
 created: '2026-03-21'
 description: Corebridge Financial (formerly AIG Life and Retirement) is one of the largest and most established retirement and insurance solutions providers in the United States. Spun off from AIG in September 2022 in the largest IPO of that year, Corebridge provides retirement solutions, life insurance, fixed and variable annuities, and institutional products. The company is a leading retirement plan provider for K-12 schools, healthcare, government, higher education, and other not-for-profit institutions. Corebridge Financial does not currently publish a public developer API; participant and plan sponsor access is provided through dedicated portals.
 finops:
-- name: Corebridge Financial Finops
+- has_sources: false
+  method: generated
+  name: Corebridge Financial Finops
+  primary_unit: ''
   service_category: API
   slug: corebridge-financial-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/corebridge-financial.png
 layout: provider
-modified: '2026-07-25'
+modified: '2026-10-06'
 name: Corebridge Financial
 nav: Providers
 network: true
-overview: 'Corebridge Financial publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include AIG, Annuities, Financial Services, Fortune 500, and Insurance.
+overview: 'Corebridge Financial publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network. Tagged areas include AIG, Annuities, Financial Services, Fortune 500, and Insurance.
 
 
-  Corebridge Financial''s developer surface includes product news and 12 more developer resources.'
+  Corebridge Financial''s developer surface includes engineering blog, product news, and 15 more developer resources.'
 plans:
 - name: Corebridge Financial Plans Pricing
   plan_count: 3
@@ -124,20 +147,20 @@ rate_limits:
   slug: corebridge-financial-rate-limits
 score:
   band: minimal
-  composite: 10.0
+  composite: 8.9
   coverage:
-    artifact_dirs: 8
-    catalog_earned: 36.0
+    artifact_dirs: 9
+    catalog_earned: 33.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 79.0
+    catalog_gap: 82.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.1
   facets:
-    access_clarity: 26.3
+    access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 49.1
     operational_transparency: 7.9
   previous_composite: 10.0
@@ -147,8 +170,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 8.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

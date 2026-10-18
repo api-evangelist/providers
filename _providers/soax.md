@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.3
-  scored_at: '2026-10-04'
+  score: 20.4
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 5
+- acting_count: 2
   human_in_the_loop: 0
   name: Soax Agentic Access
   operation_count: 10
   slug: soax-agentic-access
-  summary_line: 10 operations · 5 acting
+  summary_line: 10 operations · 2 acting
 api_count: 1
 apis:
 - baseURL: https://partner.api.soax.com
@@ -94,6 +94,21 @@ collections:
   name: SOAX Proxy Management Ecommerce Data Web Data API
   slug: open-soax-web-data-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/soax/refs/heads/main/plans/soax-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/soax-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/soax/refs/heads/main/rate-limits/soax-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/soax-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/soax/refs/heads/main/finops/soax-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/soax-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/soax/refs/heads/main/agentic-access/soax-agentic-access.yml
   title: ''
@@ -169,9 +184,13 @@ examples:
   name: Soax Fetch Content Example
   slug: soax-fetch-content-example
 finops:
-- name: Soax Finops
+- has_sources: false
+  method: generated
+  name: Soax Finops
+  primary_unit: ''
   service_category: API
   slug: soax-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/soax.png
 json_schemas:
 - name: SOAX Fetch Content Request
@@ -191,13 +210,13 @@ modified: '2026-05-19'
 name: SOAX
 nav: Providers
 network: true
-overview: 'SOAX publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Web Data API, Ecommerce Data API, Geo Targeting API, and 2 more. Tagged areas include Proxy, Web Scraping, Residential Proxies, Mobile Proxies, and Datacenter Proxies.
+overview: 'SOAX publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Web Data API, Ecommerce Data API, Geo Targeting API, and 2 more. Tagged areas include Proxy, Web Scraping, Residential Proxies, Mobile Proxies, and Datacenter Proxies.
 
 
   The SOAX catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  SOAX''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, code examples, and 9 more developer resources.'
+  SOAX''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, code examples, and 12 more developer resources.'
 plans:
 - name: Soax Plans Pricing
   plan_count: 3
@@ -208,9 +227,10 @@ rate_limits:
   name: Soax Rate Limits
   slug: soax-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: SOAX API Rules
+  name: SOAX — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -218,7 +238,8 @@ rules:
     info: 1
     warn: 4
   slug: soax-jsonschema-spectral-rules
-- effective_rule_count: 50
+- authorship: unmarked
+  effective_rule_count: 50
   extends:
   - spectral:oas
   name: SOAX API Rules
@@ -231,17 +252,17 @@ rules:
   slug: soax-rules
 score:
   band: developing
-  composite: 41.2
+  composite: 39.7
   coverage:
     artifact_dirs: 17
-    catalog_earned: 63.4
+    catalog_earned: 60.4
     catalog_earned_first_party: 0.0
-    catalog_gap: 51.6
+    catalog_gap: 54.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 47.4
+    access_clarity: 39.5
     contract_governance: 27.3
     contract_quality: 63.1
     developer_ergonomics: 28.6
@@ -261,8 +282,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

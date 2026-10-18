@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.3
-  scored_at: '2026-10-04'
+  score: 30.4
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 146
   human_in_the_loop: 3
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 258
   slug: permit-io-agentic-access
   summary_line: 258 operations · 146 acting · 3 human-in-the-loop
-api_count: 1
+api_count: 2
 apis:
 - baseURL: https://api.permit.io
   baseurl_source: declared
@@ -398,6 +398,16 @@ collections:
   name: Permit.io API
   slug: open-permit-io
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/permit-io/refs/heads/main/rate-limits/permit-io-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/permit-io-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/permit-io/refs/heads/main/finops/permit-io-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/permit-io-finops.yml
 - group: commercial
   href: https://raw.githubusercontent.com/api-evangelist/permit-io/refs/heads/main/plans/permit-io-plans-pricing.yml
   title: ''
@@ -472,19 +482,23 @@ common:
 created: '2025-02-08'
 description: Permit.io is an authorization-as-a-service platform that helps developers build, manage, and enforce fine-grained access control in their applications. It provides a Policy Decision Point (PDP), management API, REST API, and permission query APIs for role-based, attribute-based, and relationship-based access control with support for bulk checks, data filtering, and URL-based enforcement.
 finops:
-- name: Permit Io Finops
+- has_sources: false
+  method: generated
+  name: Permit Io Finops
+  primary_unit: ''
   service_category: API
   slug: permit-io-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/permit-io.png
 layout: provider
 modified: '2026-05-19'
 name: Permit.io
 nav: Providers
 network: true
-overview: 'Permit.io publishes 43 APIs on the [APIs.io](https://apis.io/) network, including Access Requests (EAP) API, Activity Log API, API History API, and 40 more. Tagged areas include Access Control, Authorization, Identity, Policy, and Security.
+overview: 'Permit.io publishes 43 API contracts indexed on the [APIs.io](https://apis.io/) network, including Access Requests (EAP) API, Activity Log API, API History API, and 40 more. Tagged areas include Access Control, Authorization, Identity, Policy, and Security.
 
 
-  Permit.io''s developer surface includes authentication, documentation, API reference, signup flow, engineering blog, pricing, and 10 more developer resources.'
+  Permit.io''s developer surface includes authentication, documentation, API reference, signup flow, engineering blog, pricing, and 12 more developer resources.'
 plans:
 - name: Permit Io Plans Pricing
   plan_count: 2
@@ -496,17 +510,17 @@ rate_limits:
   slug: permit-io-rate-limits
 score:
   band: developing
-  composite: 43.8
+  composite: 42.3
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 51.0
+    artifact_dirs: 13
+    catalog_earned: 48.0
     catalog_earned_first_party: 8.0
-    catalog_gap: 64.0
+    catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 60.5
+    access_clarity: 52.6
     contract_governance: 0.0
     contract_quality: 50.1
     developer_ergonomics: 31.0
@@ -526,8 +540,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -545,7 +559,7 @@ security:
 - kind: vulnerability-disclosure
   name: Permit Io Vulnerability Disclosure
   slug: permit-io-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 - kind: trust-center
   name: Permit Io Trust Center
   slug: permit-io-trust-center

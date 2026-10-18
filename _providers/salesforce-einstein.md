@@ -28,20 +28,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.3
-  scored_at: '2026-10-04'
+  score: 25.4
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 35
+- acting_count: 28
   human_in_the_loop: 0
   name: Salesforce Einstein Agentic Access
-  operation_count: 70
+  operation_count: 58
   slug: salesforce-einstein-agentic-access
-  summary_line: 70 operations · 35 acting
+  summary_line: 58 operations · 28 acting
 api_count: 6
 apis:
 - baseURL: https://api.einstein.ai/v2/vision
@@ -204,6 +204,21 @@ collections:
   name: Salesforce Einstein Vision API
   slug: open-salesforce-einstein-vision
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-einstein/refs/heads/main/plans/salesforce-einstein-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/salesforce-einstein-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-einstein/refs/heads/main/rate-limits/salesforce-einstein-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/salesforce-einstein-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-einstein/refs/heads/main/finops/salesforce-einstein-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/salesforce-einstein-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/salesforce-einstein/refs/heads/main/capabilities/salesforce-einstein-capability-edges.yml
   title: ''
@@ -332,9 +347,13 @@ examples:
   name: Salesforce Einstein Generate Content Example
   slug: salesforce-einstein-generate-content-example
 finops:
-- name: Salesforce Einstein Finops
+- has_sources: true
+  method: generated
+  name: Salesforce Einstein Finops
+  primary_unit: ''
   service_category: AI / CRM
   slug: salesforce-einstein-finops
+  template: false
 image: https://www.salesforce.com/content/dam/web/en_us/www/images/einstein/einstein-logo.png
 json_schemas:
 - name: AIRecordInsightsResponse
@@ -531,13 +550,13 @@ modified: '2026-05-19'
 name: Salesforce Einstein
 nav: Providers
 network: true
-overview: 'Salesforce Einstein publishes 17 APIs on the [APIs.io](https://apis.io/) network, including AI Record Insights API, API Usage API, Bot Definitions API, and 14 more. Tagged areas include Artificial Intelligence, Computer Vision, CRM, Machine Learning, and Natural Language Processing.
+overview: 'Salesforce Einstein publishes 17 API contracts indexed on the [APIs.io](https://apis.io/) network, including AI Record Insights API, API Usage API, Bot Definitions API, and 14 more. Tagged areas include Artificial Intelligence, Computer Vision, CRM, Machine Learning, and Natural Language Processing.
 
 
   The Salesforce Einstein catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Salesforce Einstein''s developer surface includes authentication, developer portal, getting-started guide, support, engineering blog, and 21 more developer resources.'
+  Salesforce Einstein''s developer surface includes authentication, developer portal, getting-started guide, support, engineering blog, and 24 more developer resources.'
 plans:
 - name: Salesforce Einstein Plans Pricing
   plan_count: 1
@@ -548,9 +567,10 @@ rate_limits:
   name: Salesforce Einstein Rate Limits
   slug: salesforce-einstein-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: Salesforce Einstein API Rules
+  name: Salesforce Einstein — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -558,7 +578,8 @@ rules:
     info: 2
     warn: 4
   slug: salesforce-einstein-jsonschema-spectral-rules
-- effective_rule_count: 50
+- authorship: unmarked
+  effective_rule_count: 50
   extends:
   - spectral:oas
   name: Salesforce Einstein API Rules
@@ -576,23 +597,23 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: developing
-  composite: 49.1
+  composite: 47.6
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 60.0
+    artifact_dirs: 20
+    catalog_earned: 57.0
     catalog_earned_first_party: 0.0
     catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -1.5
   facets:
-    access_clarity: 47.4
+    access_clarity: 39.5
     contract_governance: 27.3
     contract_quality: 59.7
     developer_ergonomics: 57.1
-    discoverability: 57.1
+    discoverability: 62.5
     operational_transparency: 15.8
-  previous_composite: 48.6
+  previous_composite: 49.1
   provenance:
     agentic_access: derived
     contracts:
@@ -606,8 +627,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 31.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: apps.health is WELL Health's digital health marketplace through which third-party apps and services integrate with WELL's network of EMRs (OSCAR Pro, Profile), which support HL7 FHIR and other interop
@@ -97,7 +97,7 @@ modified: '2026-07-24'
 name: WELL Health Technologies
 nav: Providers
 network: true
-overview: 'WELL Health Technologies publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Healthcare, Canada, EMR, EHR, and FHIR.
+overview: 'WELL Health Technologies is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Healthcare, Canada, Electronic Health Records, FHIR, and HL7.
 
 
   WELL Health Technologies'' developer surface includes documentation, getting-started guide, engineering blog, support, and 7 more developer resources.'
@@ -106,7 +106,7 @@ score:
   band: emerging
   composite: 22.5
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -136,8 +136,8 @@ score:
     regime: Health
     regime_id: health
     score: 25.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -153,8 +153,7 @@ slug: well-health
 tags:
 - Healthcare
 - Canada
-- EMR
-- EHR
+- Electronic Health Records
 - FHIR
 - HL7
 - Interoperability

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 4
 apis:
 - description: Coralogix is an observability platform providing log analytics, metrics, tracing, and AI-powered insights.
@@ -223,9 +223,13 @@ common:
 created: '2026-03-27'
 description: Coralogix is a comprehensive observability platform that delivers real‑time log analytics, metrics, tracing, and AI‑driven insights. It enables developers, DevOps, and SRE teams to monitor applications, infrastructure, and services across cloud, on‑premise, and hybrid environments. Features include infinite data retention, customizable dashboards, alerting, OpenTelemetry support, and integrations with major cloud providers and third‑party tools, helping organizations ensure performance, reliability, and security at scale.
 finops:
-- name: Coralogix Finops
+- has_sources: false
+  method: generated
+  name: Coralogix Finops
+  primary_unit: ''
   service_category: API
   slug: coralogix-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/coralogix.png
 json_schemas:
 - name: GetDashboardsDashboardsV1DashboardidResponse
@@ -256,7 +260,7 @@ modified: '2026-05-29'
 name: Coralogix
 nav: Providers
 network: true
-overview: 'Coralogix publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Coralogix, Dashboards API, Dataprime API, and 1 more. Tagged areas include AIOps, Observability, Monitoring, Cloud, and DevOps.
+overview: 'Coralogix is listed with 4 APIs on the [APIs.io](https://apis.io/) network, including Coralogix, Dashboards API, Dataprime API, and 1 more. Tagged areas include AIOps, Observability, Monitoring, Cloud, and DevOps.
 
 
   The Coralogix catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
@@ -273,10 +277,11 @@ rate_limits:
   name: Coralogix Rate Limits
   slug: coralogix-rate-limits
 rules:
-- effective_rule_count: 33
+- authorship: generated
+  effective_rule_count: 33
   extends:
   - spectral:asyncapi
-  name: Coralogix API Rules
+  name: Coralogix — asyncapi rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -284,7 +289,8 @@ rules:
     info: 0
     warn: 6
   slug: coralogix-asyncapi-spectral-rules
-- effective_rule_count: 52
+- authorship: generated
+  effective_rule_count: 52
   extends:
   - spectral:oas
   name: Coralogix API Rules
@@ -297,23 +303,23 @@ rules:
   slug: coralogix-rules
 score:
   band: developing
-  composite: 50.7
+  composite: 49.2
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 69.8
+    artifact_dirs: 24
+    catalog_earned: 66.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 45.3
+    catalog_gap: 48.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 27.7
+  delta: -8.8
   facets:
-    access_clarity: 76.3
+    access_clarity: 68.4
     contract_governance: 35.6
     contract_quality: 35.1
     developer_ergonomics: 52.4
     discoverability: 71.4
     operational_transparency: 26.3
-  previous_composite: 23.0
+  previous_composite: 58.0
   provenance:
     conformance: first-party
     contracts:
@@ -328,9 +334,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: rising
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -196,7 +196,7 @@ modified: '2026-07-21'
 name: Z League
 nav: Providers
 network: true
-overview: 'Z League publishes 2 APIs on the [APIs.io](https://apis.io/) network: Leads API and Webhooks API. Tagged areas include Company, CRM, Leads, Marketing, and AI Agents.
+overview: 'Z League publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Leads API and Webhooks API. Tagged areas include Company, CRM, Leads, Marketing, and AI Agents.
 
 
   The Z League catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
@@ -212,7 +212,7 @@ score:
   band: developing
   composite: 40.2
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -243,8 +243,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

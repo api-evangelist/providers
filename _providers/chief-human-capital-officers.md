@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The CHCO Council publishes its charter, leadership roster, working group output, policy memoranda, and federal human capital guidance through chcoc.gov (now hosted under opm.gov). The Council does not
@@ -41,6 +41,15 @@ apis:
   slug: chcoc-resources
 artifact_total: 21
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/chief-human-capital-officers/refs/heads/main/finops/chief-human-capital-officers-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/chief-human-capital-officers-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.opm.gov/news/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/chief-human-capital-officers/refs/heads/main/security/chief-human-capital-officers-domain-security.yml
   title: ''
@@ -144,19 +153,23 @@ features:
 - name: Employee Engagement Surveys (FEVS)
 - name: Learning and Development Standards
 finops:
-- name: Chief Human Capital Officers Finops
+- has_sources: false
+  method: generated
+  name: Chief Human Capital Officers Finops
+  primary_unit: ''
   service_category: API
   slug: chief-human-capital-officers-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/chief-human-capital-officers.png
 layout: provider
-modified: '2026-09-05'
+modified: '2026-10-06'
 name: Chief Human Capital Officers Council
 nav: Providers
 network: true
-overview: 'Chief Human Capital Officers Council publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include CHCO, Federal Government, HR Policy, Human Capital, and Human Resources.
+overview: 'Chief Human Capital Officers Council is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include CHCO, Federal Government, HR Policy, Human Capital, and Human Resources.
 
 
-  Chief Human Capital Officers Council''s developer surface includes support and 14 more developer resources.'
+  Chief Human Capital Officers Council''s developer surface includes engineering blog, support, and 15 more developer resources.'
 plans:
 - name: Chief Human Capital Officers Plans Pricing
   plan_count: 0
@@ -168,20 +181,20 @@ rate_limits:
   slug: chief-human-capital-officers-rate-limits
 score:
   band: emerging
-  composite: 14.9
+  composite: 13.8
   coverage:
-    artifact_dirs: 8
-    catalog_earned: 35.0
+    artifact_dirs: 9
+    catalog_earned: 32.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 80.0
+    catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.1
   facets:
-    access_clarity: 18.4
+    access_clarity: 10.5
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 14.3
+    developer_ergonomics: 16.7
     discoverability: 66.1
     operational_transparency: 10.5
   jurisdiction:
@@ -196,8 +209,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 15.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

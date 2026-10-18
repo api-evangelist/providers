@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 13
 apis:
 - description: 'Token-authenticated REST endpoints under https://api.webz.io covering seven products: News, Blogs and Forums (/api/news, /api/blogs, /api/forums plus /seg_api/* segmentation), Reviews (/reviewFilter, '
@@ -79,7 +79,7 @@ apis:
 - description: Legacy unified `/filterWebContent` endpoint (GET or POST) that returned any open-web content type in one call. Deprecated in favor of the split News, Blogs & Forums APIs but still documented.
   name: Webz.io Web Content API (deprecated)
   slug: webzio-web-content-api-deprecated
-artifact_total: 21
+artifact_total: 20
 common:
 - group: operate
   title: ''
@@ -244,14 +244,11 @@ mcp_servers:
 - description: A first-party remote MCP server that exposes Webz.io semantic news search to any MCP client. It ships exactly one tool, news_search_by_webz, and every call runs a regular News Search API request again
   name: Webz.io News Search MCP
   slug: webz-io-news-search-mcp
-- description: ''
-  name: Webz.io MCP Server
-  slug: mcp
 modified: '2026-08-27'
 name: Webz.io
 nav: Providers
 network: true
-overview: 'Webz.io publishes 13 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include News Data, Web Data, Web Scraping, Dark Web, and deep-web.
+overview: 'Webz.io is listed with 13 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include News Data, Web Data, Web Scraping, Dark Web, and deep-web.
 
 
   Webz.io''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 27 more developer resources.'
@@ -273,7 +270,7 @@ score:
   band: developing
   composite: 54.0
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 64.0
     catalog_earned_first_party: 24.0
     catalog_gap: 51.0
@@ -304,8 +301,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

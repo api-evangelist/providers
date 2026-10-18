@@ -32,7 +32,7 @@ tags:
 - Insurtech
 - Embedded Finance
 - WealthTech
-- Crypto
+- Cryptocurrency
 - Climate
 - Artificial Intelligence
 - Europe

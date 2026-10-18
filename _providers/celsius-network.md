@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -220,7 +220,7 @@ modified: '2026-08-02'
 name: Celsius Network
 nav: Providers
 network: true
-overview: 'Celsius Network publishes 4 APIs on the [APIs.io](https://apis.io/) network, including KYC API, Users API, Utility API, and 1 more. Tagged areas include Company, Cryptocurrency, Digital Assets, Financial Services, and Lending.
+overview: 'Celsius Network publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including KYC API, Users API, Utility API, and 1 more. Tagged areas include Company, Cryptocurrency, Digital Assets, Financial Services, and Lending.
 
 
   Celsius Network''s developer surface includes documentation, API reference, support, authentication, changelog, sandbox, and 21 more developer resources.'
@@ -260,8 +260,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: KubeEdge extends the Kubernetes API to manage edge nodes and devices. It includes custom resources for device management, edge application deployment, and node grouping. The EdgeController and DeviceC
@@ -41,6 +41,21 @@ apis:
   slug: kubeedge-api
 artifact_total: 5
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/kubeedge/refs/heads/main/plans/kubeedge-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/kubeedge-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/kubeedge/refs/heads/main/rate-limits/kubeedge-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/kubeedge-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/kubeedge/refs/heads/main/finops/kubeedge-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/kubeedge-finops.yml
 - group: company
   title: ''
   type: Website
@@ -65,19 +80,23 @@ common:
 created: '2026-03-16'
 description: KubeEdge is a CNCF graduated project that extends Kubernetes to edge computing. It provides infrastructure support for networking, application deployment, and metadata synchronization between cloud and edge. KubeEdge enables containerized application orchestration at the edge with offline autonomy, ensuring edge nodes continue functioning when disconnected from the cloud.
 finops:
-- name: Kubeedge Finops
+- has_sources: false
+  method: generated
+  name: Kubeedge Finops
+  primary_unit: ''
   service_category: API
   slug: kubeedge-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kubeedge.png
 layout: provider
 modified: '2026-04-28'
 name: KubeEdge
 nav: Providers
 network: true
-overview: 'KubeEdge publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Cloud-Native, Edge Computing, Graduated, IoT, and Kubernetes.
+overview: 'KubeEdge is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Cloud-Native, Edge Computing, Graduated, IoT, and Kubernetes.
 
 
-  KubeEdge''s developer surface includes documentation, engineering blog, and 3 more developer resources.'
+  KubeEdge''s developer surface includes documentation, engineering blog, and 6 more developer resources.'
 plans:
 - name: Kubeedge Plans Pricing
   plan_count: 3
@@ -88,18 +107,18 @@ rate_limits:
   name: Kubeedge Rate Limits
   slug: kubeedge-rate-limits
 score:
-  band: emerging
-  composite: 12.2
+  band: minimal
+  composite: 10.7
   coverage:
-    artifact_dirs: 7
-    catalog_earned: 41.0
+    artifact_dirs: 8
+    catalog_earned: 38.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
@@ -112,8 +131,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

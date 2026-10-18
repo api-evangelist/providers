@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.midas.app/rss/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/midas/refs/heads/main/security/midas-domain-security.yml
   title: ''
@@ -57,20 +61,20 @@ created: '2026-07-17'
 description: Midas is an onchain asset-management protocol that brings institutional-grade investment strategies onchain as tokenized real-world assets (RWAs). It issues permissionless, fully-backed tokenized products — including tokenized US Treasury bills (mTBILL), yield and basis strategies (mBASIS) and other onchain investment products — that offer full transparency, instant liquidity and native composability across DeFi. Investors mint and redeem Midas tokens directly against the underlying assets, and the resulting ERC-20 tokens can be used as collateral and as building blocks throughout the onchain economy. Positioned as "the standard for onchain investment products," Midas surfaced in the API Evangelist network as a fintech portfolio company for enrichment.
 image: https://midas.app/graph.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Midas
 nav: Providers
 network: true
 overview: 'Midas is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, RWA, Tokenization, and DeFi.
 
 
-  Midas'' developer surface includes documentation and 3 more developer resources.'
+  Midas'' developer surface includes documentation and 4 more developer resources.'
 random_paper: 20
 score:
   band: minimal
   composite: 5.3
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -91,8 +95,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

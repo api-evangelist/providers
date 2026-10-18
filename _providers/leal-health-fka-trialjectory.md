@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'Private platform API host backing the Leal Health patient-matching web application and the Patient Match Optimizer dashboard. Verified live on 2026-07-19: the root path returns HTTP 200 with a {"succe'
@@ -104,7 +104,7 @@ modified: '2026-07-19'
 name: Leal Health (fka TrialJectory)
 nav: Providers
 network: true
-overview: 'Leal Health (fka TrialJectory) publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Oncology, Clinical Trials, and Patient Matching.
+overview: 'Leal Health (fka TrialJectory) is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Oncology, Clinical Trials, and Patient Matching.
 
 
   Leal Health (fka TrialJectory)''s developer surface includes signup flow, support, FAQ, and 10 more developer resources.'
@@ -140,8 +140,8 @@ score:
     regime: Health
     regime_id: health
     score: 14.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

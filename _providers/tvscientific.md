@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The REST API behind the tvScientific Campaign Management UI, named by tvScientific's own status page as the "Campaign Management API" component running at api.tvscientific.app. Two major versions serv
@@ -42,6 +42,15 @@ apis:
   slug: tvscientific-campaign-management-api
 artifact_total: 6
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/tvscientific/refs/heads/main/rate-limits/tvscientific-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/tvscientific-rate-limits.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.tvscientific.com/insight/rss.xml
 - group: company
   title: ''
   type: Website
@@ -126,14 +135,14 @@ description: 'tvScientific is a connected-TV (CTV) advertising platform for perf
   and accounts. It publishes no developer program around it: no portal, no API reference, no OpenAPI or GraphQL contract, no SDK, no CLI, and no MCP or agent surface. Every collection but one is credentialed, both documentation hosts sit behind a customer login, and the machine-readable operational signal is limited to an Atlassian Statuspage API and a first-party Google Tag Manager measurement pixel.'
 image: https://www.tvscientific.com/hubfs/Opengraph.jpg
 layout: provider
-modified: '2026-08-12'
+modified: '2026-10-06'
 name: Tvscientific
 nav: Providers
 network: true
-overview: 'Tvscientific publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, Connected TV, CTV, and Streaming.
+overview: 'Tvscientific is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, Connected TV, CTV, and Streaming.
 
 
-  Tvscientific''s developer surface includes engineering blog, getting-started guide, support, and 15 more developer resources.'
+  Tvscientific''s developer surface includes engineering blog, getting-started guide, support, and 17 more developer resources.'
 plans:
 - name: Tvscientific Plans Pricing
   plan_count: 0
@@ -145,7 +154,7 @@ rate_limits:
   slug: tvscientific-rate-limits
 score:
   band: emerging
-  composite: 22.3
+  composite: 22.4
   coverage:
     artifact_dirs: 17
     catalog_earned: 37.0
@@ -153,7 +162,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 34.2
     contract_governance: 18.2
@@ -170,8 +179,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

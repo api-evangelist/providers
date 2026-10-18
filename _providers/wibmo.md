@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Documented product APIs across Token Hub tokenization, the Areion Payment Gateway (3-D Secure authentication and authorization), Prepaid card issuance/lifecycle/transaction management, Fraud Risk Mana
@@ -115,7 +115,7 @@ modified: '2026-07-21'
 name: WIBMO
 nav: Providers
 network: true
-overview: 'WIBMO publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Payments, Fintech, and Payment Gateway.
+overview: 'WIBMO is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Payments, Fintech, and Payment Gateway.
 
 
   WIBMO''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, and 9 more developer resources.'
@@ -124,7 +124,7 @@ score:
   band: emerging
   composite: 25.3
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -158,13 +158,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 31.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/wibmo/refs/heads/main/screenshots/wibmo-2026-10-11T195725.png
 security:
 - kind: authentication
   name: Wibmo Authentication

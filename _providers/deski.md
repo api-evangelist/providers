@@ -35,10 +35,15 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 4
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/deski/refs/heads/main/rate-limits/deski-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/deski-rate-limits.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/deski/refs/heads/main/security/deski-domain-security.yml
   title: ''
@@ -199,7 +204,7 @@ network: true
 overview: 'DESKi is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health Tech, Medical Imaging, Cardiology, and Ultrasound.
 
 
-  DESKi''s developer surface includes documentation, FAQ, training material, pricing, signup flow, support, engineering blog, and 22 more developer resources.'
+  DESKi''s developer surface includes documentation, FAQ, training material, pricing, signup flow, support, engineering blog, and 23 more developer resources.'
 plans:
 - name: Deski Plans Pricing
   plan_count: 3
@@ -244,8 +249,8 @@ score:
     regime: Health
     regime_id: health
     score: 22.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

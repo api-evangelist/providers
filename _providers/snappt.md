@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 3
@@ -111,6 +111,10 @@ collections:
   name: Snappt Webhooks API
   slug: open-snappt-webhooks-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://snappt.com/blog/feed/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/snappt/refs/heads/main/capabilities/snappt-capability-edges.yml
   title: ''
@@ -276,21 +280,21 @@ created: '2026-08-05'
 description: Snappt is a Los Angeles-based applicant-screening and document-fraud-detection company serving the multifamily rental and property-management industry. Its Applicant Trust Platform combines proprietary AI document forensics with human review to detect edited pay stubs and bank statements, verify applicant income from traditional and connected payroll sources, verify identity with biometric and document checks, and confirm rental payment history. Snappt exposes this to property-management systems and partners through the Snappt Enterprise API — a partner API-key-authenticated REST API covering properties, applicant sessions, document upload, fraud and income reports, ID-verification sessions and outbound webhooks — plus an embeddable browser SDK that launches the applicant verification flow as a modal inside a partner's own leasing flow.
 image: https://snappt.com/wp-content/uploads/2023/05/snappt-sharing-fallback.png
 layout: provider
-modified: '2026-08-05'
+modified: '2026-10-06'
 name: Snappt
 nav: Providers
 network: true
-overview: 'Snappt publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Account API, Applicant Sessions API, Applicants API, and 4 more. Tagged areas include Company, Fraud Prevention, Document Verification, Identity Verification, and Income Verification.
+overview: 'Snappt publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Applicant Sessions API, Applicants API, and 4 more. Tagged areas include Company, Fraud Prevention, Document Verification, Identity Verification, and Income Verification.
 
 
   The Snappt catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Snappt''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
+  Snappt''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
 random_paper: 2
 score:
-  band: developing
-  composite: 54.2
+  band: strong
+  composite: 54.3
   coverage:
     artifact_dirs: 24
     catalog_earned: 37.0
@@ -298,7 +302,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 47.4
     contract_governance: 18.2
@@ -330,8 +334,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

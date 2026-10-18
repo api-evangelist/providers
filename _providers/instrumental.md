@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The Instrumental Data Read API provides programmatic access to retrieve unit and inspection test data and metadata from Instrumental projects. It enables software to access manufacturing data for anal
@@ -41,6 +41,21 @@ apis:
   slug: instrumental-api
 artifact_total: 5
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/instrumental/refs/heads/main/plans/instrumental-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/instrumental-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/instrumental/refs/heads/main/rate-limits/instrumental-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/instrumental-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/instrumental/refs/heads/main/finops/instrumental-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/instrumental-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/instrumental/refs/heads/main/security/instrumental-domain-security.yml
   title: ''
@@ -61,19 +76,23 @@ common:
 created: '2025-02-06'
 description: Instrumental is a platform for manufacturing intelligence that helps companies detect and prevent product failures during the manufacturing process. The Instrumental API enables programmatic access to retrieve unit and inspection test data and metadata from Instrumental projects.
 finops:
-- name: Instrumental Finops
+- has_sources: false
+  method: generated
+  name: Instrumental Finops
+  primary_unit: ''
   service_category: API
   slug: instrumental-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/instrumental.png
 layout: provider
 modified: '2026-04-28'
 name: Instrumental
 nav: Providers
 network: true
-overview: 'Instrumental publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Data Analytics, IoT, Manufacturing, and Quality Control.
+overview: 'Instrumental is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Data Analytics, IoT, Manufacturing, and Quality Control.
 
 
-  Instrumental''s developer surface includes engineering blog and 3 more developer resources.'
+  Instrumental''s developer surface includes engineering blog and 6 more developer resources.'
 plans:
 - name: Instrumental Plans Pricing
   plan_count: 3
@@ -85,17 +104,17 @@ rate_limits:
   slug: instrumental-rate-limits
 score:
   band: minimal
-  composite: 10.3
+  composite: 8.8
   coverage:
     artifact_dirs: 7
-    catalog_earned: 36.0
+    catalog_earned: 33.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 79.0
+    catalog_gap: 82.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
@@ -108,8 +127,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 9
 apis:
 - description: 'Public register of the federally regulated financial institutions OSFI supervises, including every federally regulated insurer with its Authorized Insurance Classes, FI industry group, trade name and '
@@ -396,7 +396,7 @@ modified: '2026-07-25'
 name: OSFI
 nav: Providers
 network: true
-overview: 'OSFI publishes 9 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Canada, Regulator, Life Insurance, and Property and Casualty.
+overview: 'OSFI is listed with 9 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Canada, Regulator, Life Insurance, and Property and Casualty.
 
 
   The OSFI catalog on APIs.io includes 9 JSON-LD contexts.
@@ -448,8 +448,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 21.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

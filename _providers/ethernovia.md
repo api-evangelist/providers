@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - baseURL: https://portal-admin.ethernovia.com/api
@@ -290,7 +290,7 @@ modified: '2026-08-04'
 name: Ethernovia
 nav: Providers
 network: true
-overview: 'Ethernovia publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Audit User Trail API, Ec Document API, Ec Document Type API, and 12 more. Tagged areas include Company, Semiconductors, Automotive, Ethernet, and Networking.
+overview: 'Ethernovia publishes 15 API contracts indexed on the [APIs.io](https://apis.io/) network, including Audit User Trail API, Ec Document API, Ec Document Type API, and 12 more. Tagged areas include Company, Semiconductors, Automotive, Ethernet, and Networking.
 
 
   Ethernovia''s developer surface includes developer portal, support, signup flow, engineering blog, product news, authentication, and 21 more developer resources.'
@@ -328,8 +328,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

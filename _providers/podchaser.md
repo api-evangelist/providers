@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: verified
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 11.2
-  scored_at: '2026-10-04'
+  score: 9.3
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Podchaser's GraphQL API provides programmatic access to podcasts, episodes, creators, credits, reviews, and lists across the Podchaser database. Authentication is handled via OAuth-style API tokens an
@@ -41,6 +41,25 @@ apis:
   slug: podchaser
 artifact_total: 7
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/podchaser/refs/heads/main/plans/podchaser-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/podchaser-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/podchaser/refs/heads/main/rate-limits/podchaser-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/podchaser-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/podchaser/refs/heads/main/finops/podchaser-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/podchaser-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.podchaser.com/blog/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/podchaser/refs/heads/main/security/podchaser-domain-security.yml
   title: ''
@@ -65,9 +84,13 @@ common:
 created: '2025-05-02'
 description: Podchaser provides one of the most comprehensive podcast databases, exposed through a GraphQL API designed to drive podcast discovery for listeners, podcasters, brands, and platform partners. The API surface is GraphQL-only and is therefore not represented as an OpenAPI specification in this index.
 finops:
-- name: Podchaser Finops
+- has_sources: false
+  method: generated
+  name: Podchaser Finops
+  primary_unit: ''
   service_category: API
   slug: podchaser-finops
+  template: true
 graphqls:
 - description: Podchaser's GraphQL API provides programmatic access to podcasts, episodes, creators, credits, reviews, and lists across the Podchaser database. Authentication is handled via OAuth-style API tokens an
   name: Podchaser GraphQL API
@@ -78,14 +101,14 @@ mcp_servers:
 - description: Remote MCP server at api.podchaser.com over HTTP; 2 tools listed.
   name: Podchaser MCP Server
   slug: podchaser
-modified: '2026-04-28'
+modified: '2026-10-06'
 name: Podchaser
 nav: Providers
 network: true
-overview: 'Podchaser publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Podcasting, Discovery, GraphQL, and Database.
+overview: 'Podchaser is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Podcasts, Discovery, GraphQL, and Database.
 
 
-  Podchaser''s developer surface includes documentation and 4 more developer resources.'
+  Podchaser''s developer surface includes engineering blog, documentation, and 7 more developer resources.'
 plans:
 - name: Podchaser Plans Pricing
   plan_count: 3
@@ -97,20 +120,20 @@ rate_limits:
   slug: podchaser-rate-limits
 score:
   band: minimal
-  composite: 10.6
+  composite: 9.6
   coverage:
-    artifact_dirs: 8
-    catalog_earned: 41.0
+    artifact_dirs: 9
+    catalog_earned: 38.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.0
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 9.5
+    developer_ergonomics: 11.9
     discoverability: 60.0
     operational_transparency: 7.9
   previous_composite: 10.6
@@ -122,13 +145,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/podchaser/refs/heads/main/screenshots/podchaser-2026-10-11T192203.png
 security:
 - kind: domain-security
   name: Podchaser Domain Security
@@ -136,7 +160,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: podchaser
 tags:
-- Podcasting
+- Podcasts
 - Discovery
 - GraphQL
 - Database

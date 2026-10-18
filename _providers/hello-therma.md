@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: First-party remote Model Context Protocol server exposing read-only GlacierGrid facility monitoring data — HVAC, refrigeration, energy and savings, sensor readings, issues, notifications, device conne
@@ -44,6 +44,14 @@ apis:
   slug: glaciergrid-mcp-server
 artifact_total: 7
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.glaciergrid.com/company/newsroom
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.glaciergrid.com/company/newsroom/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/hello-therma/refs/heads/main/security/hello-therma-domain-security.yml
   title: ''
@@ -168,14 +176,14 @@ mcp_servers:
 - description: GlacierGrid (formerly Therma / Hello Therma) operates a first-party remote MCP server that exposes read-only facility monitoring data — HVAC, refrigeration, energy and savings, sensor readings, issues
   name: GlacierGrid MCP Server
   slug: glaciergrid-mcp-server
-modified: '2026-08-22'
+modified: '2026-10-06'
 name: Hello Therma
 nav: Providers
 network: true
-overview: 'Hello Therma publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, IoT, Energy, Sustainability, and Cold Chain.
+overview: 'Hello Therma is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, IoT, Energy, Sustainability, and Cold Chain.
 
 
-  Hello Therma''s developer surface includes documentation, support, engineering blog, signup flow, changelog, authentication, and 19 more developer resources.'
+  Hello Therma''s developer surface includes engineering blog, documentation, support, signup flow, changelog, authentication, and 21 more developer resources.'
 plans:
 - name: Hello Therma Plans Pricing
   plan_count: 0
@@ -218,8 +226,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 38.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

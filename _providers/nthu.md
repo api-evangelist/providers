@@ -28,20 +28,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.8
-  scored_at: '2026-10-04'
+  score: 22.9
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 1
+- acting_count: 2
   human_in_the_loop: 0
   name: Nthu Agentic Access
-  operation_count: 23
+  operation_count: 27
   slug: nthu-agentic-access
-  summary_line: 23 operations · 1 acting
+  summary_line: 27 operations · 2 acting
 api_count: 1
 apis:
 - baseURL: https://api.nthusa.tw
@@ -232,9 +232,13 @@ examples:
   name: Nthu Searchcoursesbycondition_Request Example
   slug: nthu-searchCoursesByCondition_request-example
 finops:
-- name: Nthu Finops
+- has_sources: true
+  method: generated
+  name: Nthu Finops
+  primary_unit: ''
   service_category: Education
   slug: nthu-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nthu.png
 json_schemas:
 - name: AnnouncementDetail
@@ -287,7 +291,7 @@ modified: '2026-09-16'
 name: National Tsing Hua University
 nav: Providers
 network: true
-overview: 'National Tsing Hua University publishes 4 APIs on the [APIs.io](https://apis.io/) network, including NTHU Data API, O Auth API, and 2 more. Tagged areas include Education, Higher Education, University, Taiwan, and Public Research University.
+overview: 'National Tsing Hua University publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including NTHU Data API, O Auth API, and 2 more. Tagged areas include Education, Higher Education, University, Taiwan, and Public Research University.
 
 
   The National Tsing Hua University catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -304,9 +308,10 @@ rate_limits:
   name: Nthu Rate Limits
   slug: nthu-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: derived
+  effective_rule_count: 5
   extends: []
-  name: National Tsing Hua University API Rules
+  name: National Tsing Hua University — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -314,7 +319,8 @@ rules:
     info: 1
     warn: 4
   slug: nthu-jsonschema-spectral-rules
-- effective_rule_count: 5
+- authorship: derived
+  effective_rule_count: 5
   extends: []
   name: National Tsing Hua University API Rules
   rule_count: 5
@@ -330,23 +336,23 @@ scopes:
   slug: nthu-scopes
   summary_line: 6 scopes · authorizationCode
 score:
-  band: developing
-  composite: 39.8
+  band: thin
+  composite: 33.7
   coverage:
     artifact_dirs: 21
-    catalog_earned: 73.2
+    catalog_earned: 59.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 41.8
+    catalog_gap: 55.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -4.9
+  delta: -6.1
   facets:
-    access_clarity: 37.4
+    access_clarity: 15.8
     contract_governance: 28.0
     contract_quality: 49.6
     developer_ergonomics: 28.6
     discoverability: 66.1
-    operational_transparency: 24.2
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -354,7 +360,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - greater-china
-  previous_composite: 44.7
+  previous_composite: 39.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -369,9 +375,9 @@ score:
     regime: Education & Research
     regime_id: education
     score: 30.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: REST-like API for managing contacts, jobs, tasks, files, and workflow automation in JobNimbus. Supports GET, PUT, and POST methods with JSON payloads. Authentication uses an API key generated from the
@@ -85,7 +85,7 @@ modified: '2026-05-11'
 name: JobNimbus
 nav: Providers
 network: true
-overview: 'JobNimbus publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include CRM, Project Management, Contractors, Roofing, and Construction.
+overview: 'JobNimbus is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include CRM, Project Management, Contractors, Roofing, and Construction.
 
 
   JobNimbus'' developer surface includes documentation, pricing, signup flow, support, engineering blog, and 4 more developer resources.'
@@ -94,7 +94,7 @@ score:
   band: emerging
   composite: 16.0
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -115,8 +115,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

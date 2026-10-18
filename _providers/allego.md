@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: 'REST API for the Allego sales enablement platform enabling programmatic access to video coaching sessions, content libraries, learning modules, certifications, rep readiness assessments, conversation '
@@ -169,9 +169,13 @@ common:
 created: '2026-06-13'
 description: Allego is an AI-powered sales enablement and revenue training platform providing a REST API for managing video coaching, content libraries, certifications, rep readiness assessments, conversation intelligence, and deal intelligence to help revenue teams improve performance.
 finops:
-- name: Allego Finops
+- has_sources: false
+  method: generated
+  name: Allego Finops
+  primary_unit: ''
   service_category: ''
   slug: allego-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/allego.png
 layout: provider
 mcp_servers:
@@ -182,7 +186,7 @@ modified: '2026-08-14'
 name: Allego
 nav: Providers
 network: true
-overview: 'Allego publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Sales Enablement, Sales Training, Video Coaching, Content Management, and Conversation Intelligence.
+overview: 'Allego is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Sales Enablement, Sales Training, Video Coaching, Content Management, and Conversation Intelligence.
 
 
   Allego''s developer surface includes documentation, engineering blog, pricing, support, authentication, and 22 more developer resources.'
@@ -197,17 +201,17 @@ rate_limits:
   slug: allego-rate-limits
 score:
   band: thin
-  composite: 27.8
+  composite: 26.3
   coverage:
     artifact_dirs: 17
-    catalog_earned: 52.0
+    catalog_earned: 49.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 61.8
+    access_clarity: 53.9
     contract_governance: 18.2
     contract_quality: 5.3
     developer_ergonomics: 11.9
@@ -223,8 +227,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

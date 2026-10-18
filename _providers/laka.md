@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - baseURL: https://api-gb.app.laka.co
@@ -247,7 +247,7 @@ modified: '2026-07-19'
 name: Laka
 nav: Providers
 network: true
-overview: 'Laka publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Claims API, Deeplinks API, and 6 more. Tagged areas include Company, Insurance, Insurtech, Cycling, and Micromobility.
+overview: 'Laka publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, Claims API, Deeplinks API, and 6 more. Tagged areas include Company, Insurance, Insurtech, Cycling, and Micromobility.
 
 
   Laka''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, support, engineering blog, and 20 more developer resources.'
@@ -256,7 +256,7 @@ score:
   band: thin
   composite: 38.8
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -291,8 +291,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 21.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

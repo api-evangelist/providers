@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: REST-ish reporting API enabling publishers to pull programmatic performance data for their Sharethrough inventory. A single POST /v2/programmatic endpoint takes a query object (startDate, endDate, gro
@@ -167,9 +167,13 @@ common:
 created: '2026-06-13'
 description: 'Sharethrough is an omnichannel programmatic advertising exchange (SSP) for native, display, video and CTV inventory, and one of the largest independent ad marketplaces. Publishers monetise through the Prebid.js header-bidding adapter and server-to-server OpenRTB; demand partners buy through the exchange. Two API surfaces exist: a bearer-token Publisher Reporting API at publisher-api.sharethrough.com/v2 whose public reference is now behind a support-site sign-in, and the unauthenticated OpenRTB bid endpoint at btlr.sharethrough.com/universal/v1 used by the Prebid adapter. The company''s richest machine-readable artifact is its IAB sellers.json (5,189 sellers). Sharethrough merged with Equativ in 2024 and has operated under the Equativ brand since June 2025; the Sharethrough exchange and its endpoints continue to run.'
 finops:
-- name: Sharethrough Finops
+- has_sources: false
+  method: generated
+  name: Sharethrough Finops
+  primary_unit: ''
   service_category: ''
   slug: sharethrough-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sharethrough.png
 jsonld:
 - class_count: 7
@@ -181,7 +185,7 @@ modified: '2026-08-12'
 name: Sharethrough
 nav: Providers
 network: true
-overview: 'Sharethrough publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Native Advertising, Programmatic Advertising, Supply Side Platform, DSP, and OpenRTB.
+overview: 'Sharethrough is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Native Advertising, Programmatic Advertising, Supply Side Platform, DSP, and OpenRTB.
 
 
   The Sharethrough catalog on APIs.io includes 1 JSON-LD context.
@@ -199,17 +203,17 @@ rate_limits:
   slug: sharethrough-rate-limits
 score:
   band: thin
-  composite: 32.2
+  composite: 30.7
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 59.0
+    artifact_dirs: 19
+    catalog_earned: 56.0
     catalog_earned_first_party: 8.0
-    catalog_gap: 56.0
+    catalog_gap: 59.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 57.9
+    access_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 14.7
     developer_ergonomics: 28.6
@@ -224,8 +228,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

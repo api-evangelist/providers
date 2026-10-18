@@ -27,14 +27,14 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: false
+    protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 11.2
-  scored_at: '2026-10-04'
+  score: 14.7
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Token-authenticated HTTP API behind the Charles conversational commerce platform. Clients authenticate against a per-tenant "universe" host and the central api.hello-charles.com service, then work wit
@@ -42,6 +42,10 @@ apis:
   slug: charles-api
 artifact_total: 4
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.hello-charles.com/blog/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/charles-co/refs/heads/main/security/charles-co-domain-security.yml
   title: ''
@@ -141,20 +145,20 @@ mcp_servers:
 - description: Remote MCP server at mcp.hello-charles.com over HTTP.
   name: Charles Co MCP Server
   slug: charles-co
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Charles Co
 nav: Providers
 network: true
-overview: 'Charles Co publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Conversational Commerce, Messaging, WhatsApp, and CRM.
+overview: 'Charles Co is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Conversational Commerce, Messaging, WhatsApp, and CRM.
 
 
-  Charles Co''s developer surface includes authentication, documentation, API reference, engineering blog, support, signup flow, and 15 more developer resources.'
+  Charles Co''s developer surface includes authentication, documentation, API reference, engineering blog, support, signup flow, and 16 more developer resources.'
 random_paper: 3
 score:
   band: emerging
   composite: 20.4
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -185,8 +189,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -209,7 +213,7 @@ tags:
 - Messaging
 - WhatsApp
 - CRM
-- Customer Support
+- Customer Service
 - E-Commerce
 - AI Agents
 website: https://www.hello-charles.com/

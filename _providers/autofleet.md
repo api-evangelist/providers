@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'Autofleet''s public REST API and webhook surface for its fleet and mobility optimization platform — vehicles, drivers, tasks, rides, bookings, routes and dispatch — marketed on the integration page as '
@@ -122,7 +122,7 @@ modified: '2026-08-06'
 name: Autofleet
 nav: Providers
 network: true
-overview: 'Autofleet publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Fleet Management, Mobility, Transportation, Logistics, and Route Optimization.
+overview: 'Autofleet is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Fleet Management, Mobility, Transportation, Logistics, and Route Optimization.
 
 
   Autofleet''s developer surface includes engineering blog, support, and 10 more developer resources.'
@@ -131,7 +131,7 @@ score:
   band: emerging
   composite: 18.0
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -160,8 +160,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

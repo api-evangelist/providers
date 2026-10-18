@@ -23,10 +23,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.acacusgroup.com/news
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/acacusgroup/refs/heads/main/security/acacusgroup-domain-security.yml
   title: ''
@@ -98,14 +102,14 @@ created: '2026-09-06'
 description: Acacus Group (Acacus Technologies) is a Dubai-headquartered mobility technology company founded in 2013 that builds artificial-intelligence and machine-learning software for the transportation and airline industries. Its Lynx product family — Lynx, Lynx Pro and Lynx Vision — provides intelligent fleet management, optimized dispatch built on mathematical combinatorics, disruption management, telematics and vehicle diagnostics, and deep-learning video analytics from in-vehicle cameras covering driver fatigue, lane departure, tailgating and passenger counting. Acacus also develops autonomous vehicle technology and Peregrine, an optimization solution for airline crew and airport operations. It won Best Global Startup at GITEX 2016 in Dubai and signed an MOU with Dubai Police for driverless patrol vehicles. Lynx sells as an enterprise SaaS subscription through a demo request; Acacus publishes no public developer program or machine-readable API contract.
 image: https://static1.squarespace.com/static/5438b714e4b075b9ee96a464/t/694a21920a2f3425959c63b6/1766465938951/2.png?format=1500w
 layout: provider
-modified: '2026-09-06'
+modified: '2026-10-06'
 name: Acacus Group
 nav: Providers
 network: true
 overview: 'Acacus Group is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fleet Management, Transportation, Logistics, and Mobility.
 
 
-  Acacus Group''s developer surface includes support and 11 more developer resources.'
+  Acacus Group''s developer surface includes engineering blog, support, and 11 more developer resources.'
 plans:
 - name: Acacusgroup Plans Pricing
   plan_count: 0
@@ -113,20 +117,20 @@ plans:
 random_paper: 15
 score:
   band: minimal
-  composite: 7.3
+  composite: 7.9
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 8
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 10.5
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 4.8
+    developer_ergonomics: 7.1
     discoverability: 49.1
     operational_transparency: 2.6
   jurisdiction:
@@ -135,6 +139,7 @@ score:
     - united-arab-emirates
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
+    - mena
     - middle-east
   previous_composite: 7.3
   regulatory:
@@ -143,13 +148,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 9.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/acacusgroup/refs/heads/main/screenshots/acacusgroup-2026-10-11T092450.png
 security:
 - kind: domain-security
   name: Acacusgroup Domain Security

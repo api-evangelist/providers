@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 44.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 259
+- acting_count: 255
   human_in_the_loop: 15
   name: H2O Ai Agentic Access
   operation_count: 429
   slug: h2o-ai-agentic-access
-  summary_line: 429 operations · 259 acting · 15 human-in-the-loop
+  summary_line: 429 operations · 255 acting · 15 human-in-the-loop
 api_count: 2
 apis:
 - description: H2OGPTe MCP Server is H2O.ai's first-party Model Context Protocol server for Enterprise h2oGPTe. It runs locally over stdio and proxies traffic to the h2oGPTe REST API, generating one MCP tool per RES
@@ -747,7 +747,7 @@ modified: '2026-08-04'
 name: H2O.ai
 nav: Providers
 network: true
-overview: 'H2O.ai publishes 26 APIs on the [APIs.io](https://apis.io/) network, including Admin Sessions API, Agents API, AI Assistants API, and 23 more. Tagged areas include Company, Artificial Intelligence, Machine Learning, MLOps, and Generative AI.
+overview: 'H2O.ai publishes 26 API contracts indexed on the [APIs.io](https://apis.io/) network, including Admin Sessions API, Agents API, AI Assistants API, and 23 more. Tagged areas include Company, Artificial Intelligence, Machine Learning, MLOps, and Generative AI.
 
 
   The H2O.ai catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -756,7 +756,8 @@ overview: 'H2O.ai publishes 26 APIs on the [APIs.io](https://apis.io/) network, 
   H2O.ai''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 28 more developer resources.'
 random_paper: 6
 rules:
-- effective_rule_count: 55
+- authorship: generated
+  effective_rule_count: 55
   extends:
   - spectral:oas
   name: H2O.ai API Rules
@@ -769,23 +770,23 @@ rules:
   slug: h2o-ai-rules
 score:
   band: strong
-  composite: 56.3
+  composite: 56.5
   coverage:
-    artifact_dirs: 30
-    catalog_earned: 58.5
+    artifact_dirs: 31
+    catalog_earned: 61.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 56.5
+    catalog_gap: 53.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 5.4
+  delta: -4.6
   facets:
     access_clarity: 36.8
     contract_governance: 18.2
     contract_quality: 64.5
     developer_ergonomics: 70.8
-    discoverability: 60.7
+    discoverability: 66.1
     operational_transparency: 44.7
-  previous_composite: 50.9
+  previous_composite: 61.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -802,13 +803,13 @@ score:
     - jurisdiction: US
       standard: hitech
     jurisdictions_satisfied: 1
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 32.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: rising
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: flat
   upsert:
     applies: true
     score: 27.8

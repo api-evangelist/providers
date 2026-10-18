@@ -32,10 +32,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://panoply.io/blog/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://panoply.io/blog/feed/
 - group: company
   title: ''
   type: Website
@@ -114,18 +122,18 @@ created: '2026-07-17'
 description: Panoply is a managed cloud data warehouse and ELT (Extract, Load, Transform) platform that centralizes data from 100+ sources into a BigQuery- or Redshift-backed warehouse. It pairs pre-built SaaS connectors and a customizable Flex Connector with a SQL workbench, a code-free Query Builder, and in-platform dashboards, so startups and data teams get analytics-ready data without managing infrastructure. Panoply is a SQream company, backed by 500 Global, offering SOC 2 Type 2, HIPAA, GDPR, and FINRA compliance postures. Its programmable surface is the Flex Connector for ingesting external REST APIs; Panoply does not publish a first-party public REST management API or OpenAPI specification.
 image: https://www.google.com/s2/favicons?domain=panoply.io&sz=128
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Panoply
 nav: Providers
 network: true
 overview: 'Panoply is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data Warehouse, ELT, Data Integration, and Analytics.
 
 
-  Panoply''s developer surface includes documentation, getting-started guide, pricing, signup flow, support, engineering blog, changelog, and 10 more developer resources.'
+  Panoply''s developer surface includes engineering blog, documentation, getting-started guide, pricing, signup flow, support, changelog, and 12 more developer resources.'
 random_paper: 1
 score:
   band: thin
-  composite: 27.4
+  composite: 27.5
   coverage:
     artifact_dirs: 9
     catalog_earned: 27.0
@@ -133,7 +141,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 53.9
     contract_governance: 18.2
@@ -156,8 +164,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 23.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

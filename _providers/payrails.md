@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Payrails' REST API for payment orchestration — executions and payment actions (authorize, confirm, capture, cancel, refund, payout), instruments and tokens, the PCI vault, providers and workflow confi
@@ -213,7 +213,7 @@ modified: '2026-07-20'
 name: Payrails
 nav: Providers
 network: true
-overview: 'Payrails publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Payment Orchestration, Fintech, and Tokenization.
+overview: 'Payrails is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Payment Orchestration, Fintech, and Tokenization.
 
 
   The Payrails catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -254,8 +254,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 44.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -274,7 +274,7 @@ security:
 - kind: vulnerability-disclosure
   name: Payrails Vulnerability Disclosure
   slug: payrails-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 - kind: trust-center
   name: Payrails Trust Center
   slug: payrails-trust-center

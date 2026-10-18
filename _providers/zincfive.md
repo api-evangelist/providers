@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://zincfive.com/feed/
 - group: company
   title: ''
   type: Website
@@ -65,14 +69,14 @@ created: '2026-07-17'
 description: ZincFive is a power solutions company that manufactures nickel-zinc (NiZn) battery technology for mission-critical and backup power applications, including data center UPS systems, AI dynamic power, and grid storage. Its product line covers BC Series UPS battery cabinets, NiZn retrofit kits, monobloc batteries, and cylindrical cells, positioned as non-flammable, high-power-density, and highly recyclable alternatives to lead-acid batteries. ZincFive publishes technical documents, papers, and industry insights reports, but does not expose a public developer API or SDK surface.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zincfive.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: zincfive
 nav: Providers
 network: true
 overview: 'zincfive is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Energy Storage, Batteries, Data Center, and Power.
 
 
-  zincfive''s developer surface includes documentation, engineering blog, support, and 3 more developer resources.'
+  zincfive''s developer surface includes documentation, engineering blog, support, and 4 more developer resources.'
 random_paper: 4
 score:
   band: minimal
@@ -99,8 +103,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 8.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.7
-  scored_at: '2026-10-04'
+  score: 20.8
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -65,6 +65,21 @@ collections:
   name: Nightfall AI
   slug: open-nightfall-ai
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/nightfall-ai/refs/heads/main/plans/nightfall-ai-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/nightfall-ai-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/nightfall-ai/refs/heads/main/rate-limits/nightfall-ai-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/nightfall-ai-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/nightfall-ai/refs/heads/main/finops/nightfall-ai-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/nightfall-ai-finops.yml
 - group: company
   title: ''
   type: Website
@@ -181,19 +196,23 @@ common:
 created: '2024-07-02T00:00:00.000Z'
 description: Nightfall AI is a data security platform that specializes in identifying and protecting sensitive information within an organization. By utilizing machine learning technology, Nightfall AI can automatically scan files, emails, and messages to detect and classify sensitive data such as credit card numbers, social security numbers, and personal addresses.
 finops:
-- name: Nightfall Ai Finops
+- has_sources: false
+  method: generated
+  name: Nightfall Ai Finops
+  primary_unit: ''
   service_category: API
   slug: nightfall-ai-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nightfall-ai.png
 layout: provider
 modified: '2026-05-19'
 name: Nightfall AI
 nav: Providers
 network: true
-overview: 'Nightfall AI publishes 1 API on the [APIs.io](https://apis.io/) network: Scan API. Tagged areas include Artificial Intelligence, Privacy, and Sensitive Data.
+overview: 'Nightfall AI publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Scan API. Tagged areas include Artificial Intelligence, Privacy, and Sensitive Data.
 
 
-  Nightfall AI''s developer surface includes authentication, getting-started guide, pricing, FAQ, engineering blog, and 22 more developer resources.'
+  Nightfall AI''s developer surface includes authentication, getting-started guide, pricing, FAQ, engineering blog, and 25 more developer resources.'
 plans:
 - name: Nightfall Ai Plans Pricing
   plan_count: 3
@@ -205,17 +224,17 @@ rate_limits:
   slug: nightfall-ai-rate-limits
 score:
   band: thin
-  composite: 38.1
+  composite: 36.6
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 36.0
+    artifact_dirs: 12
+    catalog_earned: 33.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 79.0
+    catalog_gap: 82.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 68.4
+    access_clarity: 60.5
     contract_governance: 0.0
     contract_quality: 47.1
     developer_ergonomics: 26.2
@@ -235,8 +254,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 28.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -254,7 +273,7 @@ security:
 - kind: vulnerability-disclosure
   name: Nightfall Ai Vulnerability Disclosure
   slug: nightfall-ai-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 - kind: trust-center
   name: Nightfall Ai Trust Center
   slug: nightfall-ai-trust-center

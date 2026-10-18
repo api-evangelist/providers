@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 5.0
-  scored_at: '2026-10-04'
+  score: 3.1
+  scored_at: '2026-10-17'
 api_count: 9
 apis:
 - description: OAI-PMH 2.0 metadata harvesting endpoint for Leiden University Scholarly Publications, the Islandora-based institutional repository holding PhD theses, articles, journals, book series and conference p
@@ -150,9 +150,13 @@ common:
 created: '2026-06-03'
 description: 'Leiden University (Universiteit Leiden), founded 1575, is the oldest university in the Netherlands and a founding member of LERU. It operates a federation of bought systems, not a developer program: it publishes no public REST API and no developer portal, api.universiteitleiden.nl, api.leidenuniv.nl, developer.universiteitleiden.nl and data.universiteitleiden.nl do not resolve, and neither of its GitHub organisations holds a single OpenAPI or Swagger file. What it does operate, on its own infrastructure, are three verified machine-readable surfaces: an OAI-PMH 2.0 endpoint for the Scholarly Publications repository, a signed SAML 2.0 identity-provider metadata document registered in the SURFconext national federation, and a PGP-signed RFC 9116 security.txt. Everything else that looks programmable belongs to a vendor Leiden buys from — Ex Libris Primo, D2L Brightspace, SURF Yoda — and is recorded below as a tenancy, never as Leiden''s engineering.'
 finops:
-- name: Leiden Finops
+- has_sources: true
+  method: generated
+  name: Leiden Finops
+  primary_unit: ''
   service_category: Education
   slug: leiden-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/leiden.png
 jsonld:
 - class_count: 22
@@ -164,7 +168,7 @@ modified: '2026-09-01'
 name: Leiden University
 nav: Providers
 network: true
-overview: 'Leiden University publishes 9 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include University, Higher Education, Education, Netherlands, and LERU.
+overview: 'Leiden University is listed with 9 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include University, Higher Education, Education, Netherlands, and LERU.
 
 
   The Leiden University catalog on APIs.io includes 1 JSON-LD context.'
@@ -178,23 +182,23 @@ rate_limits:
   name: Leiden Rate Limits
   slug: leiden-rate-limits
 score:
-  band: thin
-  composite: 30.2
+  band: emerging
+  composite: 24.2
   coverage:
     artifact_dirs: 10
-    catalog_earned: 65.4
+    catalog_earned: 52.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 49.6
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -3.7
+  delta: -6.0
   facets:
-    access_clarity: 47.9
+    access_clarity: 26.3
     contract_governance: 0.0
     contract_quality: 14.3
     developer_ergonomics: 21.4
     discoverability: 82.1
-    operational_transparency: 21.6
+    operational_transparency: 7.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -203,7 +207,7 @@ score:
     regions:
     - benelux
     - europe
-  previous_composite: 33.9
+  previous_composite: 30.2
   provenance:
     conformance: derived
   regulatory:
@@ -212,9 +216,9 @@ score:
     regime: Education & Research
     regime_id: education
     score: 30.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

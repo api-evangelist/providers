@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -170,7 +170,7 @@ modified: '2026-05-11'
 name: UKG Pro
 nav: Providers
 network: true
-overview: 'UKG Pro publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Benefits API, Employment API, Pay API, and 5 more. Tagged areas include HCM, Human Resources, Payroll, Benefits Administration, and Talent Management.
+overview: 'UKG Pro publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Benefits API, Employment API, Pay API, and 5 more. Tagged areas include HCM, Human Resources, Payroll, Benefits Administration, and Talent Management.
 
 
   UKG Pro''s developer surface includes authentication, documentation, pricing, support, and 10 more developer resources.'
@@ -207,8 +207,8 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

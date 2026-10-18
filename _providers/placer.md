@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -115,6 +115,10 @@ collections:
   name: papi Account Info Visits Reports API
   slug: open-placer-visits-reports-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.placer.ai/anchor/articles/rss.xml
 - group: company
   title: ''
   type: Website
@@ -241,14 +245,14 @@ created: '2026-07-17'
 description: Placer.ai is a location analytics and foot-traffic intelligence platform that measures visits, trade areas, demographics, and consumer behavior for physical points of interest across retail, CPG, commercial real estate, hospitality, and the public sector. Its public developer surface, the Placer API (PAPI, base https://papi.placer.ai), lets developers and data analysts extract Placer's location analytics programmatically to enrich, filter, or combine it with other data sources for custom dashboards, internal reporting, and competitive analysis. The v1 REST API covers entity/POI search, custom POI and tag management, and a suite of report endpoints spanning visit metrics and trends, trade area (true trade area, drive-time, demographics), ranking, loyalty, and retail sales. Authentication is a static API key sent in the x-api-key header.
 image: https://files.readme.io/338fd63-small-Placer_logo_ai_308px2x.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Placer
 nav: Providers
 network: true
-overview: 'Placer publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Account Info API, Loyalty Reports API, Manage POIs API, and 5 more. Tagged areas include Company, Location Analytics, Foot Traffic, Geospatial, and Retail Analytics.
+overview: 'Placer publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account Info API, Loyalty Reports API, Manage POIs API, and 5 more. Tagged areas include Company, Location Analytics, Foot Traffic, Geospatial, and Retail Analytics.
 
 
-  Placer''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 20 more developer resources.'
+  Placer''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 21 more developer resources.'
 random_paper: 15
 rate_limits:
 - limit_count: 7
@@ -289,8 +293,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: platform
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 4.7
-  scored_at: '2026-10-04'
+  score: 2.8
+  scored_at: '2026-10-17'
 api_count: 8
 apis:
 - description: Managed subgraph hosting compatible with The Graph - deploy subgraph definitions and get a hosted GraphQL endpoint per subgraph for querying indexed onchain data. Includes sync acceleration and direct
@@ -62,6 +62,21 @@ apis:
   slug: dashboard
 artifact_total: 14
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/goldsky/refs/heads/main/plans/goldsky-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/goldsky-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/goldsky/refs/heads/main/rate-limits/goldsky-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/goldsky-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/goldsky/refs/heads/main/finops/goldsky-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/goldsky-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/goldsky/refs/heads/main/security/goldsky-domain-security.yml
   title: ''
@@ -103,9 +118,13 @@ common:
 created: '2026-05-23'
 description: Goldsky is a blockchain data platform that provides managed indexing, streaming, and RPC infrastructure for EVM and non-EVM chains. Core products are Subgraphs (hosted GraphQL indexers compatible with The Graph), Mirror (change-data-capture streaming of onchain data into customer databases and data warehouses), Turbo (vectorized real-time data pipelines with SQL transforms), Compose (orchestration of onchain-x-offchain workflows), and Edge RPC (high-performance EVM RPC with debug and trace). Developers interact via a CLI, a web dashboard, and REST + GraphQL APIs. Sinks supported include PostgreSQL, ClickHouse, Kafka, MySQL, Webhooks, S3, AWS SQS, Elasticsearch, S2, and Parquet.
 finops:
-- name: Goldsky Finops
+- has_sources: false
+  method: generated
+  name: Goldsky Finops
+  primary_unit: ''
   service_category: API
   slug: goldsky-finops
+  template: true
 graphqls:
 - description: Managed subgraph hosting compatible with The Graph - deploy subgraph definitions and get a hosted GraphQL endpoint per subgraph for querying indexed onchain data. Includes sync acceleration and direct
   name: Goldsky GraphQL API
@@ -120,10 +139,10 @@ modified: '2026-05-23'
 name: Goldsky
 nav: Providers
 network: true
-overview: 'Goldsky publishes 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Blockchain Data, Indexer, Subgraph, Change Data Capture, and Streaming.
+overview: 'Goldsky is listed with 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Blockchain Data, Indexer, Subgraph, Change Data Capture, and Streaming.
 
 
-  Goldsky''s developer surface includes documentation, GitHub presence, engineering blog, and 6 more developer resources.'
+  Goldsky''s developer surface includes documentation, GitHub presence, engineering blog, and 9 more developer resources.'
 plans:
 - name: Goldsky Plans Pricing
   plan_count: 1
@@ -135,22 +154,22 @@ rate_limits:
   slug: goldsky-rate-limits
 score:
   band: emerging
-  composite: 17.4
+  composite: 11.4
   coverage:
     artifact_dirs: 10
-    catalog_earned: 57.4
+    catalog_earned: 44.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.6
+    catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.0
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
     discoverability: 80.0
-    operational_transparency: 24.2
+    operational_transparency: 10.5
   previous_composite: 17.4
   provenance:
     mcp: first-party
@@ -160,9 +179,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -181,7 +200,7 @@ tags:
 - Change Data Capture
 - Streaming
 - RPC
-- Crypto
+- Cryptocurrency
 - Web3
 website: https://goldsky.com/
 ---

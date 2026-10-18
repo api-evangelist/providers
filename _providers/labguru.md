@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.8
-  scored_at: '2026-10-04'
+  score: 27.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 143
   human_in_the_loop: 0
@@ -666,9 +666,13 @@ examples:
   name: Labguru Api Examples
   slug: labguru-api-examples
 finops:
-- name: Labguru Finops
+- has_sources: false
+  method: generated
+  name: Labguru Finops
+  primary_unit: ''
   service_category: ''
   slug: labguru-finops
+  template: true
 graphqls:
 - description: Labguru is an electronic laboratory notebook (ELN) and biotech data management platform for life sciences organizations including biotech, pharma, CRO, food tech, and academic institutions. The platfo
   name: Labguru GraphQL API
@@ -1229,7 +1233,7 @@ modified: '2026-06-13'
 name: Labguru
 nav: Providers
 network: true
-overview: 'Labguru publishes 69 APIs on the [APIs.io](https://apis.io/) network, including Antibodies API, Attachments API, Authentication API, and 66 more. Tagged areas include Electronic Lab Notebook, ELN, LIMS, Laboratory Information Management, and Biotechnology.
+overview: 'Labguru publishes 69 API contracts indexed on the [APIs.io](https://apis.io/) network, including Antibodies API, Attachments API, Authentication API, and 66 more. Tagged areas include Electronic Lab Notebook, ELN, LIMS, Laboratory Information Management, and Biotechnology.
 
 
   The Labguru catalog on APIs.io includes 2 JSON-LD contexts and 1 Spectral governance ruleset.
@@ -1246,9 +1250,10 @@ rate_limits:
   name: Labguru Rate Limits
   slug: labguru-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: Labguru API Rules
+  name: Labguru — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -1258,23 +1263,23 @@ rules:
   slug: labguru-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 39.1
+  composite: 30.8
   coverage:
     artifact_dirs: 17
-    catalog_earned: 75.9
+    catalog_earned: 57.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 39.1
+    catalog_gap: 57.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -4.0
+  delta: -8.3
   facets:
-    access_clarity: 46.8
+    access_clarity: 18.4
     contract_governance: 9.8
     contract_quality: 45.2
     developer_ergonomics: 23.8
     discoverability: 66.1
-    operational_transparency: 49.5
-  previous_composite: 42.5
+    operational_transparency: 28.9
+  previous_composite: 39.1
   provenance:
     agentic_access: derived
     contracts:
@@ -1288,9 +1293,9 @@ score:
     regime: Health
     regime_id: health
     score: 13.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

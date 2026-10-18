@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: documented
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.6
-  scored_at: '2026-10-04'
+  score: 22.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -117,7 +117,7 @@ apis:
   description: The Workflow Jobs API from Ansible — 1 operation(s) for workflow jobs.
   name: Ansible Workflow Jobs API
   slug: ansible-workflow-jobs-api
-artifact_total: 71
+artifact_total: 72
 collections:
 - collection_type: postman
   name: Ansible Automation Controller Auth API
@@ -198,6 +198,21 @@ collections:
   name: Ansible Automation Controller API
   slug: open-ansible
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/ansible/refs/heads/main/plans/ansible-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/ansible-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/ansible/refs/heads/main/rate-limits/ansible-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/ansible-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/ansible/refs/heads/main/finops/ansible-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/ansible-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/ansible/refs/heads/main/capabilities/ansible-capability-edges.yml
   title: ''
@@ -315,6 +330,10 @@ common:
   title: ''
   type: MCPServer
   url: https://github.com/ansible/aap-mcp-server
+- group: design
+  title: ''
+  type: SpectralRules
+  url: https://github.com/ansible/ansible-backstage-plugins/blob/ac1d3fc3500137b6a88fcd43eaa53c6b1363407d/api/.spectral.yaml
 created: '2024-01-01'
 description: Ansible is an open-source IT automation platform developed by Red Hat that provides agentless configuration management, application deployment, cloud provisioning, and orchestration. Using YAML-based playbooks and an SSH-native architecture, Ansible automates infrastructure at scale without requiring agents or custom security infrastructure on managed nodes.
 examples:
@@ -335,9 +354,13 @@ features:
 - description: Query cloud providers, CMDBs, and external systems dynamically to build host inventories at execution time rather than static files.
   name: Dynamic Inventory
 finops:
-- name: Ansible Finops
+- has_sources: false
+  method: generated
+  name: Ansible Finops
+  primary_unit: ''
   service_category: API
   slug: ansible-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ansible.png
 integrations:
 - description: Ansible is the primary configuration management tool for Red Hat Enterprise Linux systems with deep integration into the RHEL platform.
@@ -372,13 +395,13 @@ modified: '2026-09-16'
 name: Ansible
 nav: Providers
 network: true
-overview: 'Ansible publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Credentials API, Hosts API, and 13 more. Tagged areas include Ansible, Automation, Configuration Management, DevOps, and Infrastructure as Code.
+overview: 'Ansible publishes 16 API contracts indexed on the [APIs.io](https://apis.io/) network, including Auth API, Credentials API, Hosts API, and 13 more. Tagged areas include Ansible, Automation, Configuration Management, DevOps, and Infrastructure as Code.
 
 
-  The Ansible catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+  The Ansible catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Ansible''s developer surface includes authentication, developer portal, getting-started guide, documentation, engineering blog, support, training material, and 21 more developer resources.'
+  Ansible''s developer surface includes authentication, developer portal, getting-started guide, documentation, engineering blog, support, training material, and 25 more developer resources.'
 plans:
 - name: Ansible Plans Pricing
   plan_count: 3
@@ -389,9 +412,22 @@ rate_limits:
   name: Ansible Rate Limits
   slug: ansible-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: provider
+  effective_rule_count: 41
+  extends:
+  - spectral:oas
+  name: Ansible — ansible backstage plugins rules
+  rule_count: 0
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 0
+    warn: 0
+  slug: ansible-ansible-backstage-plugins-spectral-rules
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Ansible API Rules
+  name: Ansible — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -401,18 +437,18 @@ rules:
   slug: ansible-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 47.8
+  composite: 48.1
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 61.8
-    catalog_earned_first_party: 0.0
-    catalog_gap: 53.3
+    artifact_dirs: 20
+    catalog_earned: 63.5
+    catalog_earned_first_party: 8.0
+    catalog_gap: 51.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.3
   facets:
-    access_clarity: 36.8
-    contract_governance: 23.5
+    access_clarity: 28.9
+    contract_governance: 37.9
     contract_quality: 49.0
     developer_ergonomics: 63.1
     discoverability: 65.0
@@ -431,8 +467,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -450,7 +486,7 @@ security:
 - kind: vulnerability-disclosure
   name: Ansible Vulnerability Disclosure
   slug: ansible-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 slug: ansible
 tags:
 - Ansible

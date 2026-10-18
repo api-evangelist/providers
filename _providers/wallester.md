@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Wallester provides card issuing and payment APIs as described on their pricing page.
@@ -31,6 +31,10 @@ apis:
   slug: wallester-api
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://wallester.com/blog
 - group: commercial
   title: ''
   type: TermsOfService
@@ -80,31 +84,31 @@ coverage:
 created: '2026-09-20'
 description: Wallester provides a modern card issuing platform that enables businesses to embed financial services directly into their products. Through a robust set of APIs, Wallester offers virtual and physical card issuance, transaction processing, compliance, and risk management tools. Their solution targets fintechs, marketplaces, and SaaS platforms seeking to integrate payment capabilities without building banking infrastructure from scratch. With global coverage and customizable workflows, Wallester aims to simplify the complexities of card issuance and payments for developers and enterprises alike.
 layout: provider
-modified: '2026-09-20'
+modified: '2026-10-06'
 name: Wallester
 nav: Providers
 network: true
-overview: 'Wallester publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Card Issuing, Fintech, and API Platform.
+overview: 'Wallester is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Card Issuing, Fintech, and API Platform.
 
 
-  Wallester''s developer surface includes pricing and 8 more developer resources.'
+  Wallester''s developer surface includes engineering blog, pricing, and 8 more developer resources.'
 random_paper: 11
 score:
   band: emerging
-  composite: 17.1
+  composite: 17.6
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 7
     catalog_earned: 30.0
     catalog_earned_first_party: 0.0
     catalog_gap: 85.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 44.7
     contract_governance: 0.0
     contract_quality: 6.7
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 55.4
     operational_transparency: 15.8
   previous_composite: 17.1
@@ -116,13 +120,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 12.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/wallester/refs/heads/main/screenshots/wallester-2026-10-11T133238.png
 security:
 - kind: domain-security
   name: Wallester Domain Security

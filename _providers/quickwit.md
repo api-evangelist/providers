@@ -27,20 +27,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 15
+- acting_count: 14
   human_in_the_loop: 1
   name: Quickwit Agentic Access
   operation_count: 26
   slug: quickwit-agentic-access
-  summary_line: 26 operations · 15 acting · 1 human-in-the-loop
+  summary_line: 26 operations · 14 acting · 1 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://your-quickwit-node/api/v1
@@ -197,16 +197,20 @@ common:
 created: '2026-06-13'
 description: Cloud-native search engine for log management and full-text search with a REST API for indexing documents, running queries, and managing search indexes at petabyte scale. Quickwit decouples compute from storage, enabling sub-second search and analytics directly on cloud object storage (S3, GCS, Azure Blob). It is open-source (Apache 2.0), written in Rust, and supports OpenTelemetry, Jaeger tracing, and an Elasticsearch-compatible API. Quickwit joined Datadog in January 2025.
 finops:
-- name: Quickwit Finops
+- has_sources: false
+  method: generated
+  name: Quickwit Finops
+  primary_unit: ''
   service_category: ''
   slug: quickwit-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/quickwit.png
 layout: provider
 modified: '2026-06-13'
 name: Quickwit
 nav: Providers
 network: true
-overview: 'Quickwit publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Cluster API, Delete Tasks API, Index Templates API, and 4 more. Tagged areas include Search, Log Management, Observability, Full-Text Search, and Cloud-Native.
+overview: 'Quickwit publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Cluster API, Delete Tasks API, Index Templates API, and 4 more. Tagged areas include Search, Log Management, Observability, Full-Text Search, and Cloud-Native.
 
 
   Quickwit''s developer surface includes documentation, engineering blog, YouTube channel, pricing, and 17 more developer resources.'
@@ -220,23 +224,23 @@ rate_limits:
   name: Quickwit Rate Limits
   slug: quickwit-rate-limits
 score:
-  band: developing
-  composite: 42.1
+  band: thin
+  composite: 35.8
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 58.0
+    artifact_dirs: 13
+    catalog_earned: 42.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.0
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.3
   facets:
-    access_clarity: 37.4
+    access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 46.2
     developer_ergonomics: 16.7
     discoverability: 66.1
-    operational_transparency: 60.0
+    operational_transparency: 39.5
   open_source:
     applies: true
     score: 100.0
@@ -254,9 +258,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 11.1

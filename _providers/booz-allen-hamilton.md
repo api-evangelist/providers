@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The HTTP and A2A surface of Booz Allen's Agent Foundry agent baseline, an Apache-2.0 composition root that teams fork and deploy in their own environment. It serves three REST groups — /api/v1/query (
@@ -226,7 +226,7 @@ modified: '2026-09-14'
 name: Booz Allen Hamilton
 nav: Providers
 network: true
-overview: 'Booz Allen Hamilton publishes 2 APIs on the [APIs.io](https://apis.io/) network, including Agile API, and 1 more. Tagged areas include Artificial Intelligence, Consulting, Cybersecurity, Defense, and Federal Government.
+overview: 'Booz Allen Hamilton publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agile API, and 1 more. Tagged areas include Artificial Intelligence, Consulting, Cybersecurity, Defense, and Federal Government.
 
 
   Booz Allen Hamilton''s developer surface includes GitHub presence, engineering blog, changelog, and 29 more developer resources.'
@@ -259,7 +259,7 @@ score:
   band: thin
   composite: 38.4
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -294,8 +294,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 27.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

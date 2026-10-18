@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 46.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -145,6 +145,16 @@ collections:
   name: GitHub Copilot REST API
   slug: open-github-copilot
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/github-copilot/refs/heads/main/finops/github-copilot-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/github-copilot-finops.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/github-copilot/refs/heads/main/plans/github-copilot-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/github-copilot-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/github-copilot/refs/heads/main/capabilities/github-copilot-capability-edges.yml
   title: ''
@@ -546,9 +556,13 @@ features:
 - description: Programmatic management of Copilot seat assignments, billing, and subscription details for organizations and teams.
   name: Seat Management
 finops:
-- name: Github Copilot Finops
+- has_sources: true
+  method: generated
+  name: Github Copilot Finops
+  primary_unit: ''
   service_category: Developer Tools / AI
   slug: github-copilot-finops
+  template: false
 image: https://github.githubassets.com/images/modules/site/copilot/copilot-logo.png
 integrations:
 - description: Full Copilot integration in VS Code including code completion, chat, code review, and MCP support.
@@ -832,16 +846,16 @@ modified: '2026-09-16'
 name: GitHub Copilot
 nav: Providers
 network: true
-overview: 'GitHub Copilot publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Billing API, Content Exclusion API, Metrics API, and 9 more. Tagged areas include Agents, Artificial Intelligence, Code Generation, Code Review, and Coding Agents.
+overview: 'GitHub Copilot publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including Billing API, Content Exclusion API, Metrics API, and 9 more. Tagged areas include Agents, Artificial Intelligence, Code Generation, Code Review, and Coding Agents.
 
 
   The GitHub Copilot catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  GitHub Copilot''s developer surface includes authentication, changelog, CLI, developer portal, getting-started guide, engineering blog, signup flow, and 45 more developer resources.'
+  GitHub Copilot''s developer surface includes authentication, changelog, CLI, developer portal, getting-started guide, engineering blog, signup flow, and 47 more developer resources.'
 plans:
 - name: Github Copilot Plans Pricing
-  plan_count: 5
+  plan_count: 4
   slug: github-copilot-plans-pricing
 random_paper: 20
 rate_limits:
@@ -849,9 +863,10 @@ rate_limits:
   name: Github Copilot Rate Limits
   slug: github-copilot-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: GitHub Copilot API Rules
+  name: GitHub Copilot — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -859,7 +874,8 @@ rules:
     info: 1
     warn: 5
   slug: github-copilot-jsonschema-spectral-rules
-- effective_rule_count: 61
+- authorship: generated
+  effective_rule_count: 61
   extends:
   - spectral:oas
   name: GitHub Copilot API Rules
@@ -876,18 +892,18 @@ scopes:
   slug: github-copilot-scopes
   summary_line: 5 scopes · authorizationCode
 score:
-  band: strong
-  composite: 65.8
+  band: exemplar
+  composite: 68.7
   coverage:
-    artifact_dirs: 32
-    catalog_earned: 54.5
-    catalog_earned_first_party: 0.0
-    catalog_gap: 60.5
+    artifact_dirs: 33
+    catalog_earned: 60.5
+    catalog_earned_first_party: 12.0
+    catalog_gap: 54.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.9
   facets:
-    access_clarity: 68.4
+    access_clarity: 84.2
     contract_governance: 18.2
     contract_quality: 67.0
     developer_ergonomics: 65.5
@@ -912,8 +928,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 41.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

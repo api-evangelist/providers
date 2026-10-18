@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -31,7 +31,7 @@ agentic_access:
   operation_count: 19
   slug: indexed-vc-agentic-access
   summary_line: 19 operations · 8 acting
-api_count: 1
+api_count: 2
 apis:
 - baseURL: https://indexed.vc/api/v1
   baseurl_source: declared
@@ -206,7 +206,7 @@ modified: '2026-10-02'
 name: Indexed
 nav: Providers
 network: true
-overview: 'Indexed publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Companies API, Enrich API, Industries API, and 5 more. Tagged areas include Company, Data, Private Company, and Funding.
+overview: 'Indexed publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Companies API, Enrich API, Industries API, and 5 more. Tagged areas include Company, Data, Private Company, and Funding.
 
 
   The Indexed catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -219,7 +219,8 @@ plans:
   slug: indexed-vc-plans-pricing
 random_paper: 9
 rules:
-- effective_rule_count: 55
+- authorship: generated
+  effective_rule_count: 55
   extends:
   - spectral:oas
   name: Indexed API Rules
@@ -232,14 +233,15 @@ rules:
   slug: indexed-vc-rules
 score:
   band: developing
-  composite: 44.7
+  composite: 44.8
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 20
     catalog_earned: 69.8
     catalog_earned_first_party: 12.0
     catalog_gap: 45.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.1
   facets:
     access_clarity: 63.2
     contract_governance: 22.0
@@ -247,6 +249,7 @@ score:
     developer_ergonomics: 28.0
     discoverability: 64.3
     operational_transparency: 0.0
+  previous_composite: 44.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -263,11 +266,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: flat
   upsert:
     applies: true
     score: 0.0
+screenshot: https://raw.githubusercontent.com/api-evangelist/indexed-vc/refs/heads/main/screenshots/indexed-vc-2026-10-11T105655.png
 security:
 - kind: authentication
   name: Indexed Vc Authentication

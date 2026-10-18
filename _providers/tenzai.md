@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.tenzai.com/blog
 - group: company
   title: ''
   type: Website
@@ -65,26 +69,26 @@ created: '2026-07-17'
 description: Tenzai is an AI-native cybersecurity company building an autonomous, agentic AI "hacker" for the enterprise. Its AI agents continuously discover, chain, and exploit hard-to-find vulnerabilities across enterprise software and validate them in production the way a human red team would, aiming to bring nation-grade offensive security to every engineering organization. Founded in 2025 by Guardicore founders Pavel Gurvich and Ariel Zeitlin together with Ofri Ziv, Itamar Tal, and Aner Mazur, the Tel Aviv-based company launched out of stealth in November 2025 with a $75M seed round (one of the largest in cybersecurity) led by Greylock Partners, Battery Ventures, and Lux Capital at a reported $330M valuation. Tenzai targets the penetration-testing market with continuous, AI-driven offensive validation. As of this profile the company exposes a marketing site, a research blog, careers, and a SOC 2 Type 1 trust center, but no public developer or API surface.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tenzai.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Tenzai
 nav: Providers
 network: true
 overview: 'Tenzai is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cybersecurity, Security, Artificial Intelligence, and Penetration Testing.
 
 
-  Tenzai''s developer surface includes engineering blog and 5 more developer resources.'
+  Tenzai''s developer surface includes engineering blog and 6 more developer resources.'
 random_paper: 13
 score:
   band: minimal
-  composite: 7.1
+  composite: 7.2
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 15.8
     contract_governance: 0.0
@@ -96,6 +100,7 @@ score:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
+    - mena
     - middle-east
   previous_composite: 7.1
   regulatory:
@@ -104,8 +109,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

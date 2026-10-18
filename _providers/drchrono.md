@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 163
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 327
   slug: drchrono-agentic-access
   summary_line: 327 operations · 163 acting
-api_count: 2
+api_count: 4
 apis:
 - baseURL: https://app.drchrono.com/api
   baseurl_source: declared
@@ -207,7 +207,7 @@ arazzos:
 - description: Search for an existing patient by name and update it if found, otherwise create a new patient record.
   name: drChrono Patient Registration (Upsert)
   slug: drchrono-patient-registration-workflow
-artifact_total: 177
+artifact_total: 201
 asyncapis:
 - description: 'AsyncAPI description of the DrChrono EHR webhook surface, generated faithfully from the webhook reference DrChrono publishes at https://app.drchrono.com/api-docs/. Every event name, header, body key, '
   name: DrChrono EHR Webhooks
@@ -235,6 +235,49 @@ collections:
   name: DrChrono EHR REST Administrative Practice Management API
   slug: open-drchrono-practice-management-api
 common:
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/drchrono/refs/heads/main/rules/drchrono-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/drchrono-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/drchrono/refs/heads/main/rules/drchrono-jsonschema-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/drchrono-jsonschema-spectral-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/drchrono/refs/heads/main/json-ld/drchrono-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/drchrono-context.jsonld
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/drchrono/refs/heads/main/vocabulary/drchrono-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/drchrono-vocabulary.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/drchrono/refs/heads/main/hosts/drchrono-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/drchrono-hosts.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/drchrono/refs/heads/main/integrations/drchrono-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/drchrono-integration-edges.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/drchrono/refs/heads/main/vendors/drchrono-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/drchrono-vendors.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.drchrono.com/resources/blog/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.drchrono.com/feed/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/drchrono/refs/heads/main/capabilities/drchrono-capability-edges.yml
   title: ''
@@ -280,11 +323,6 @@ common:
   title: ''
   type: DataModel
   url: data-model/drchrono-data-model.yml
-- group: build
-  href: https://raw.githubusercontent.com/api-evangelist/drchrono/refs/heads/main/packages/drchrono-packages.yml
-  title: ''
-  type: Packages
-  url: packages/drchrono-packages.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/drchrono/refs/heads/main/well-known/drchrono-well-known.yml
   title: ''
@@ -675,9 +713,13 @@ examples:
   name: Yellownotepad Example
   slug: yellownotepad-example
 finops:
-- name: Drchrono Finops
+- has_sources: false
+  method: generated
+  name: Drchrono Finops
+  primary_unit: ''
   service_category: ''
   slug: drchrono-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/drchrono.png
 json_schemas:
 - name: Appointment
@@ -752,6 +794,75 @@ json_schemas:
 - name: DoctorOptions
   property_count: 13
   slug: doctoroptions
+- name: Appointment
+  property_count: 57
+  slug: drchrono-appointment
+- name: AuditLog
+  property_count: 13
+  slug: drchrono-audit-log
+- name: BillingLineItem
+  property_count: 31
+  slug: drchrono-billing-line-item
+- name: BillingProfile
+  property_count: 11
+  slug: drchrono-billing-profile
+- name: CashPayment
+  property_count: 15
+  slug: drchrono-cash-payment
+- name: Coverage
+  property_count: 12
+  slug: drchrono-coverage
+- name: DoctorFeeSchedule
+  property_count: 24
+  slug: drchrono-doctor-fee-schedule
+- name: DoctorMessage
+  property_count: 28
+  slug: drchrono-doctor-message
+- name: DoctorMessageThread
+  property_count: 18
+  slug: drchrono-doctor-message-thread
+- name: DoctorOptions
+  property_count: 13
+  slug: drchrono-doctor-options
+- name: Doctor
+  property_count: 20
+  slug: drchrono-doctor
+- name: InventoryVaccine
+  property_count: 20
+  slug: drchrono-inventory-vaccine
+- name: LineItemTransaction
+  property_count: 17
+  slug: drchrono-line-item-transaction
+- name: Office
+  property_count: 18
+  slug: drchrono-office
+- name: PatientAuthorization
+  property_count: 17
+  slug: drchrono-patient-authorization
+- name: PatientDrug
+  property_count: 24
+  slug: drchrono-patient-drug
+- name: Patient
+  property_count: 65
+  slug: drchrono-patient
+- name: PatientVaccineRecord
+  property_count: 28
+  slug: drchrono-patient-vaccine-record
+- name: SoapNoteCustomReport
+  property_count: 10
+  slug: drchrono-soap-note-custom-report
+- name: Task
+  property_count: 15
+  slug: drchrono-task
+- name: TaskTemplate
+  property_count: 14
+  slug: drchrono-task-template
+- name: UserProfile
+  property_count: 8
+  slug: drchrono-user-profile
+- name: UserProfilesGroup
+  property_count: 7
+  slug: drchrono-user-profiles-group
 - name: EOBObject
   property_count: 12
   slug: eobobject
@@ -917,17 +1028,17 @@ jsonld:
   property_count: 4
   slug: drchrono-context
 layout: provider
-modified: '2026-08-14'
+modified: '2026-10-06'
 name: drchrono
 nav: Providers
 network: true
-overview: 'drchrono publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Administrative API, Audit API, Availability API, and 4 more. Tagged areas include EHR, Electronic Health Records, Healthcare, Medical Records, and Practice Management.
+overview: 'drchrono publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Administrative API, Audit API, Availability API, and 4 more. Tagged areas include Electronic Health Records, Healthcare, Medical Records, Practice Management, and HIPAA.
 
 
-  The drchrono catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
+  The drchrono catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  drchrono''s developer surface includes changelog, sandbox, API reference, getting-started guide, support, signup flow, authentication, and 42 more developer resources.'
+  drchrono''s developer surface includes engineering blog, changelog, sandbox, API reference, getting-started guide, support, signup flow, and 50 more developer resources.'
 plans:
 - name: Drchrono Plans Pricing
   plan_count: 5
@@ -938,9 +1049,10 @@ rate_limits:
   name: Drchrono Rate Limits
   slug: drchrono-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: drchrono API Rules
+  name: drchrono — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -948,6 +1060,18 @@ rules:
     info: 1
     warn: 4
   slug: drchrono-jsonschema-spectral-rules
+- authorship: generated
+  effective_rule_count: 54
+  extends:
+  - spectral:oas
+  name: drchrono API Rules
+  rule_count: 13
+  severity_counts:
+    error: 7
+    hint: 0
+    info: 1
+    warn: 5
+  slug: drchrono-rules
 scopes:
 - name: Drchrono Fhir Smart Scopes
   scope_count: 233
@@ -959,21 +1083,21 @@ scopes:
   summary_line: 23 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 76.3
+  composite: 77.5
   coverage:
-    artifact_dirs: 34
-    catalog_earned: 71.3
+    artifact_dirs: 37
+    catalog_earned: 82.8
     catalog_earned_first_party: 20.0
-    catalog_gap: 43.8
+    catalog_gap: 32.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.2
   facets:
-    access_clarity: 92.1
-    contract_governance: 28.0
-    contract_quality: 64.7
+    access_clarity: 84.2
+    contract_governance: 35.6
+    contract_quality: 70.1
     developer_ergonomics: 70.8
-    discoverability: 73.2
+    discoverability: 78.6
     operational_transparency: 84.2
   previous_composite: 76.3
   provenance:
@@ -992,8 +1116,8 @@ score:
     regime: Health
     regime_id: health
     score: 56.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -1014,7 +1138,6 @@ security:
   summary_line: Hackerone
 slug: drchrono
 tags:
-- EHR
 - Electronic Health Records
 - Healthcare
 - Medical Records

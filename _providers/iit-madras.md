@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 5.0
-  scored_at: '2026-10-04'
+  score: 3.1
+  scored_at: '2026-10-17'
 api_count: 7
 apis:
 - description: IIT Madras's own SAML 2.0 identity provider, entityID https://idp.iitm.ac.in/idp/shibboleth, registered by INFED (the INFLIBNET Access Management Federation) and published into eduGAIN as entity 67269
@@ -214,9 +214,13 @@ created: '2026-06-03'
 description: 'Indian Institute of Technology Madras is a public institute of technology in Chennai, India, founded in 1959 and consistently ranked first in India''s NIRF engineering rankings. It publishes no developer portal, no open data portal and no OpenAPI, AsyncAPI or other open specification of its own — api.iitm.ac.in does not resolve — but it is not empty, and the June 2026 profile that recorded "no APIs" missed the surfaces it does operate. Three are institution-run and machine readable: a Shibboleth SAML identity provider at idp.iitm.ac.in, registered in the INFLIBNET Access Management Federation (INFED) and flowing into eduGAIN since 2018; a self-hosted Moodle at courses.iitm.ac.in that serves a live, unauthenticated LTI 1.3 JWKS and an LTI Advantage token endpoint alongside the standard Moodle web-services REST server; and the Shoonya annotation platform API run by AI4Bharat, the institute''s language-AI centre, which ships a live drf-yasg documentation surface over a credentialed
   Django REST API. IIT Madras is also a Crossref member (49493, prefix 10.70002) and holds ROR 03v0r5n49. Two further surfaces are real institutional facts running on someone else''s platform and are recorded as tenancies, not as IIT Madras contracts: the online-degree Discourse forum, which CNAMEs to iitm.hosted-by-discourse.com, and the institute''s IRINS research-profile instance at iitm.irins.org, operated by INFLIBNET. Everything callable here is credentialed; the institute''s own institutional repository host, irepose.iitm.ac.in, no longer resolves at all.'
 finops:
-- name: Iit Madras Finops
+- has_sources: true
+  method: generated
+  name: Iit Madras Finops
+  primary_unit: ''
   service_category: Education
   slug: iit-madras-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/iit-madras.png
 jsonld:
 - class_count: 15
@@ -228,7 +232,7 @@ modified: '2026-09-01'
 name: Indian Institute of Technology Madras
 nav: Providers
 network: true
-overview: 'Indian Institute of Technology Madras publishes 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Higher Education, University, Institute of Technology, and Research.
+overview: 'Indian Institute of Technology Madras is listed with 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Higher Education, University, Institute of Technology, and Research.
 
 
   The Indian Institute of Technology Madras catalog on APIs.io includes 1 JSON-LD context.
@@ -246,22 +250,22 @@ rate_limits:
   slug: iit-madras-rate-limits
 score:
   band: emerging
-  composite: 25.7
+  composite: 19.6
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 65.4
+    artifact_dirs: 12
+    catalog_earned: 52.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 49.6
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -2.6
+  delta: -6.1
   facets:
-    access_clarity: 37.4
+    access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 14.3
     developer_ergonomics: 21.4
     discoverability: 71.4
-    operational_transparency: 24.2
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -269,7 +273,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - india-south-asia
-  previous_composite: 28.3
+  previous_composite: 25.7
   provenance:
     conformance: first-party
   regulatory:
@@ -278,9 +282,9 @@ score:
     regime: Education & Research
     regime_id: education
     score: 19.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -301,7 +305,7 @@ tags:
 - India
 - IIT
 - Identity Federation
-- Learning Management
+- LMS
 - Artificial Intelligence
 website: https://www.iitm.ac.in/
 ---

@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.noetik.ai/news
 - group: company
   title: ''
   type: Website
@@ -61,14 +65,14 @@ created: '2026-07-17'
 description: Noetik is an AI-native biotechnology company headquartered in South San Francisco, California, focused on discovering and developing cancer therapies with machine learning. The company has assembled one of the largest multimodal tumor datasets and trained foundation models (including its OCTO world model for cancer biology) to represent tumor microenvironments and simulate spatial biology with virtual cells. Its platform spans human data generation, foundation models, and therapeutic applications aimed at enriching clinical trials, repositioning drugs to the right patient populations, and discovering novel oncology targets. Noetik is backed by DCVC. As of this profile the company publishes no public API, developer portal, SDKs, or API documentation; this record captures its public web and organizational surface for the API Evangelist network.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/noetik.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Noetik
 nav: Providers
 network: true
 overview: 'Noetik is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, Biotechnology, and Healthcare.
 
 
-  Noetik''s developer surface includes engineering blog and 4 more developer resources.'
+  Noetik''s developer surface includes engineering blog and 5 more developer resources.'
 random_paper: 12
 score:
   band: minimal
@@ -102,8 +106,8 @@ score:
     regime: Health
     regime_id: health
     score: 7.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -58,6 +58,10 @@ collections:
   name: MirrorTab Sessions API
   slug: open-mirrortab-sessions-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.mirrortab.com/press
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/mirrortab/refs/heads/main/overlays/mirrortab-api-overlay.yaml
   title: ''
@@ -135,31 +139,31 @@ created: '2026-07-17'
 description: MirrorTab is a cybersecurity company that stops automated attacks against web applications and APIs by serving the application through an isolated, server-side rendered browser session so the DOM, code, and data are never exposed to the end browser. Rather than detecting bots, it removes the surface they operate on, blocking credential stuffing, agentic-AI automation, man-in-the-browser attacks, malicious extensions, XSS, formjacking, clickjacking, and CSRF without endpoint agents or application code changes. MirrorTab is edge-driven and integrates alongside existing CDNs, WAFs, and fraud platforms. Founded by the CTO and co-founder of Honey (acquired by PayPal), the company also publishes a public v1 REST API to programmatically create, list, and remove MirrorTab browser sessions.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mirrortab.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: MirrorTab
 nav: Providers
 network: true
-overview: 'MirrorTab publishes 1 API on the [APIs.io](https://apis.io/) network: Sessions API. Tagged areas include Company, Enterprise, Security, Cybersecurity, and Bot Mitigation.
+overview: 'MirrorTab publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Sessions API. Tagged areas include Company, Enterprise, Security, Cybersecurity, and Bot Mitigation.
 
 
-  MirrorTab''s developer surface includes documentation, API reference, authentication, and 13 more developer resources.'
+  MirrorTab''s developer surface includes engineering blog, documentation, API reference, authentication, and 13 more developer resources.'
 random_paper: 10
 score:
   band: thin
-  composite: 32.2
+  composite: 32.7
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 27.6
     contract_governance: 4.5
     contract_quality: 47.1
-    developer_ergonomics: 30.4
+    developer_ergonomics: 32.7
     discoverability: 73.2
     operational_transparency: 2.6
   previous_composite: 32.2
@@ -179,8 +183,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

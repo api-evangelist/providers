@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.9
-  scored_at: '2026-10-04'
+  score: 28.0
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 165
   human_in_the_loop: 8
@@ -382,9 +382,13 @@ examples:
   name: Coder List Workspaces Example
   slug: coder-list-workspaces-example
 finops:
-- name: Coder Finops
+- has_sources: true
+  method: generated
+  name: Coder Finops
+  primary_unit: ''
   service_category: Developer Tools
   slug: coder-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/coder.png
 json_schemas:
 - name: AuditLog
@@ -421,7 +425,7 @@ modified: '2026-06-12'
 name: Coder
 nav: Providers
 network: true
-overview: 'Coder publishes 32 APIs on the [APIs.io](https://apis.io/) network, including Agents API, AI Bridge API, AI Providers API, and 29 more. Tagged areas include Developer Tools, Remote Development, Cloud Development Environments, AI Agents, and Infrastructure.
+overview: 'Coder publishes 32 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agents API, AI Bridge API, AI Providers API, and 29 more. Tagged areas include Developer Tools, Remote Development, Cloud Development Environments, AI Agents, and Infrastructure.
 
 
   The Coder catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -438,9 +442,10 @@ rate_limits:
   name: Coder Rate Limits
   slug: coder-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Coder API Rules
+  name: Coder — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -449,23 +454,23 @@ rules:
     warn: 4
   slug: coder-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 44.1
+  band: thin
+  composite: 37.2
   coverage:
-    artifact_dirs: 16
-    catalog_earned: 67.3
+    artifact_dirs: 18
+    catalog_earned: 51.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 47.7
+    catalog_gap: 63.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.9
   facets:
-    access_clarity: 45.3
+    access_clarity: 23.7
     contract_governance: 9.8
     contract_quality: 50.3
     developer_ergonomics: 31.0
     discoverability: 57.1
-    operational_transparency: 46.8
+    operational_transparency: 26.3
   previous_composite: 44.1
   provenance:
     agentic_access: derived
@@ -480,9 +485,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 22.2

@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 37.1
-  scored_at: '2026-10-04'
+  score: 35.2
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 2
@@ -127,6 +127,21 @@ collections:
   name: AWS Fault Injection Simulator API
   slug: open-amazon-fis
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-fault-injection-simulator/refs/heads/main/plans/amazon-fault-injection-simulator-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/amazon-fault-injection-simulator-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-fault-injection-simulator/refs/heads/main/rate-limits/amazon-fault-injection-simulator-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/amazon-fault-injection-simulator-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-fault-injection-simulator/refs/heads/main/finops/amazon-fault-injection-simulator-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/amazon-fault-injection-simulator-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/amazon-fault-injection-simulator/refs/heads/main/agentic-access/amazon-fault-injection-simulator-agentic-access.yml
   title: ''
@@ -309,9 +324,13 @@ features:
 - description: Fine-grained IAM controls restrict which users can create, run, or view experiments and affected resources.
   name: IAM Security
 finops:
-- name: Amazon Fault Injection Simulator Finops
+- has_sources: false
+  method: generated
+  name: Amazon Fault Injection Simulator Finops
+  primary_unit: ''
   service_category: API
   slug: amazon-fault-injection-simulator-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amazon-fault-injection-simulator.png
 json_schemas:
 - name: Action
@@ -385,13 +404,13 @@ modified: '2026-05-19'
 name: Amazon Fault Injection Simulator
 nav: Providers
 network: true
-overview: 'Amazon Fault Injection Simulator publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Actions API, Experiment Templates API, Experiments API, and 3 more. Tagged areas include Chaos Engineering, DevOps, Fault Injection, and Resilience Testing.
+overview: 'Amazon Fault Injection Simulator is listed with 6 APIs on the [APIs.io](https://apis.io/) network, including Actions API, Experiment Templates API, Experiments API, and 3 more. Tagged areas include Chaos Engineering, DevOps, Fault Injection, and Resilience Testing.
 
 
   The Amazon Fault Injection Simulator catalog on APIs.io includes 1 JSON-LD context and 3 Spectral governance rulesets.
 
 
-  Amazon Fault Injection Simulator''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 22 more developer resources.'
+  Amazon Fault Injection Simulator''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 25 more developer resources.'
 plans:
 - name: Amazon Fault Injection Simulator Plans Pricing
   plan_count: 3
@@ -402,9 +421,10 @@ rate_limits:
   name: Amazon Fault Injection Simulator Rate Limits
   slug: amazon-fault-injection-simulator-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Amazon Fault Injection Simulator API Rules
+  name: Amazon Fault Injection Simulator — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -412,7 +432,8 @@ rules:
     info: 2
     warn: 3
   slug: amazon-fault-injection-simulator-jsonschema-spectral-rules
-- effective_rule_count: 52
+- authorship: generated
+  effective_rule_count: 52
   extends:
   - spectral:oas
   name: Amazon Fault Injection Simulator API Rules
@@ -423,9 +444,10 @@ rules:
     info: 1
     warn: 9
   slug: amazon-fault-injection-simulator-spectral-rules
-- effective_rule_count: 28
+- authorship: unmarked
+  effective_rule_count: 28
   extends: []
-  name: Amazon Fault Injection Simulator API Rules
+  name: Amazon Fault Injection Simulator — amazon fis rules
   rule_count: 28
   severity_counts:
     error: 10
@@ -435,17 +457,17 @@ rules:
   slug: amazon-fis-spectral-rules
 score:
   band: developing
-  composite: 48.3
+  composite: 46.8
   coverage:
     artifact_dirs: 19
-    catalog_earned: 73.0
+    catalog_earned: 70.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 42.0
+    catalog_gap: 45.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 68.4
+    access_clarity: 60.5
     contract_governance: 27.3
     contract_quality: 34.9
     developer_ergonomics: 53.6
@@ -465,8 +487,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

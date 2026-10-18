@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 101
   slug: open-banking-uk-agentic-access
   summary_line: 101 operations · 31 acting
-api_count: 7
+api_count: 12
 apis:
 - description: Public-facing APIs enabling third-party developers to access standardized open data published by Account Servicing Payment Service Providers, including ATM locations, branch locations, personal curren
   name: UK Open Banking Open Data API
@@ -470,9 +470,13 @@ examples:
   name: Vrp Examples
   slug: vrp-examples
 finops:
-- name: Finops
+- has_sources: false
+  method: generated
+  name: Finops
+  primary_unit: ''
   service_category: ''
   slug: finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/open-banking-uk.png
 json_schemas:
 - name: Account and Transaction API Specification
@@ -503,7 +507,7 @@ modified: '2026-06-13'
 name: UK Open Banking
 nav: Providers
 network: true
-overview: 'UK Open Banking publishes 42 APIs on the [APIs.io](https://apis.io/) network, including Account Access Consents API, Accounts API, ATM API, and 39 more. Tagged areas include Open Banking, Financial Services, Payments, Account Information, and PSD2.
+overview: 'UK Open Banking publishes 42 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account Access Consents API, Accounts API, ATM API, and 39 more. Tagged areas include Open Banking, Financial Services, Payments, Account Information, and PSD2.
 
 
   The UK Open Banking catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -520,9 +524,10 @@ rate_limits:
   name: Rate Limits
   slug: rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: UK Open Banking API Rules
+  name: UK Open Banking — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -537,17 +542,17 @@ scopes:
   summary_line: 3 scopes · clientCredentials/authorizationCode
 score:
   band: thin
-  composite: 39.2
+  composite: 34.1
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 62.1
+    artifact_dirs: 19
+    catalog_earned: 51.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.0
+    catalog_gap: 63.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -5.6
   facets:
-    access_clarity: 46.8
+    access_clarity: 18.4
     contract_governance: 9.8
     contract_quality: 51.4
     developer_ergonomics: 38.1
@@ -561,7 +566,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 39.2
+  previous_composite: 39.7
   provenance:
     agentic_access: derived
     contracts:
@@ -575,9 +580,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 33.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

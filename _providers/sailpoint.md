@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -106,6 +106,21 @@ collections:
   name: Identity Security Cloud V3 Access Profiles Roles API
   slug: open-sailpoint-roles-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sailpoint/refs/heads/main/plans/sailpoint-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/sailpoint-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/sailpoint/refs/heads/main/rate-limits/sailpoint-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/sailpoint-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sailpoint/refs/heads/main/finops/sailpoint-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/sailpoint-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/sailpoint/refs/heads/main/capabilities/sailpoint-capability-edges.yml
   title: ''
@@ -320,9 +335,13 @@ examples:
   name: Sailpoint List Identities Example
   slug: sailpoint-list-identities-example
 finops:
-- name: Sailpoint Finops
+- has_sources: true
+  method: generated
+  name: Sailpoint Finops
+  primary_unit: ''
   service_category: Identity Security / IGA
   slug: sailpoint-finops
+  template: false
 image: https://www.sailpoint.com/wp-content/uploads/2021/02/sailpoint-logo.svg
 json_schemas:
 - name: AccessProfile
@@ -474,13 +493,13 @@ modified: '2026-05-19'
 name: SailPoint
 nav: Providers
 network: true
-overview: 'SailPoint publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Access Profiles API, Certifications API, Identities API, and 4 more. Tagged areas include Access Governance, Compliance, Identity and Access Management, Identity Management, and Identity Security.
+overview: 'SailPoint publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Access Profiles API, Certifications API, Identities API, and 4 more. Tagged areas include Access Governance, Compliance, Identity and Access Management, Identity Security, and Security.
 
 
   The SailPoint catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  SailPoint''s developer surface includes authentication, getting-started guide, engineering blog, support, CLI, tooling, and 43 more developer resources.'
+  SailPoint''s developer surface includes authentication, getting-started guide, engineering blog, support, CLI, tooling, and 46 more developer resources.'
 plans:
 - name: Sailpoint Plans Pricing
   plan_count: 1
@@ -491,9 +510,10 @@ rate_limits:
   name: Sailpoint Rate Limits
   slug: sailpoint-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: SailPoint API Rules
+  name: SailPoint — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -501,7 +521,8 @@ rules:
     info: 2
     warn: 4
   slug: sailpoint-jsonschema-spectral-rules
-- effective_rule_count: 51
+- authorship: unmarked
+  effective_rule_count: 51
   extends:
   - spectral:oas
   name: SailPoint API Rules
@@ -519,17 +540,17 @@ scopes:
   summary_line: 11 scopes · clientCredentials/authorizationCode
 score:
   band: strong
-  composite: 56.1
+  composite: 54.6
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 61.4
+    artifact_dirs: 21
+    catalog_earned: 58.4
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.6
+    catalog_gap: 56.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 34.2
+    access_clarity: 26.3
     contract_governance: 27.3
     contract_quality: 67.8
     developer_ergonomics: 78.6
@@ -549,8 +570,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -570,7 +591,6 @@ tags:
 - Access Governance
 - Compliance
 - Identity and Access Management
-- Identity Management
 - Identity Security
 - Security
 website: https://www.sailpoint.com/

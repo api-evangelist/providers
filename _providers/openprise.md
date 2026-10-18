@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: API Factory turns any Openprise Job or Bot into a REST endpoint with a single "Enable API" action. The caller sends an HTTP POST carrying a JSON array of records and receives a JSON array of processed
@@ -42,6 +42,11 @@ apis:
   slug: openprise-api
 artifact_total: 7
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/openprise/refs/heads/main/finops/openprise-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/openprise-finops.yml
 - group: company
   title: ''
   type: Website
@@ -165,19 +170,23 @@ common:
 created: '2025-02-08'
 description: Openprise is an AI and data orchestration platform built for enterprise go-to-market teams — RevOps, marketing operations and sales operations. It cleans, unifies and activates GTM data across CRM, marketing automation and data warehouse systems through no-code Jobs and Bots, with 400+ pre-built connectors, multi-vendor enrichment waterfalls, deduplication, lead-to-account matching, routing, scoring and segmentation. Its developer-facing surface is API Factory, a licensed feature that turns any configured Job or Bot into a per-tenant REST endpoint callable from Marketo webhooks, Salesforce triggers, web forms or any system that can issue an HTTP POST. Openprise coined the term "data orchestration" in 2017 and is headquartered in San Mateo, California.
 finops:
-- name: Openprise Finops
+- has_sources: false
+  method: generated
+  name: Openprise Finops
+  primary_unit: ''
   service_category: API
   slug: openprise-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/openprise.png
 layout: provider
 modified: '2026-08-14'
 name: Openprise
 nav: Providers
 network: true
-overview: 'Openprise publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Data Automation, Data Quality, Data Orchestration, AI Orchestration, and Data Enrichment.
+overview: 'Openprise is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Data Automation, Data Quality, Data Orchestration, AI Orchestration, and Data Enrichment.
 
 
-  Openprise''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 20 more developer resources.'
+  Openprise''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 21 more developer resources.'
 plans:
 - name: Openprise Plans Pricing
   plan_count: 2
@@ -188,18 +197,18 @@ rate_limits:
   name: Openprise Rate Limits
   slug: openprise-rate-limits
 score:
-  band: developing
-  composite: 40.6
+  band: thin
+  composite: 39.1
   coverage:
     artifact_dirs: 17
-    catalog_earned: 55.0
+    catalog_earned: 52.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 60.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 72.4
+    access_clarity: 64.5
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 47.6
@@ -222,8 +231,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 25.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

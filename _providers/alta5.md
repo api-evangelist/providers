@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 asyncapis:
@@ -40,6 +40,10 @@ asyncapis:
   name: Alta5 Webhooks
   slug: alta5-webhooks
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://optionalpha.com/blog/rss.xml
 - group: company
   title: ''
   type: Website
@@ -122,7 +126,7 @@ created: '2026-07-17'
 description: Alta5 is the technology brand of Option Alpha, LLC, a St. Petersburg, Florida company (founded 2010) that operates optionalpha.com, a no-code automated options-and-stock trading platform for retail traders. Users build "bots" from natural-language recipes that discover, backtest, and automate trading strategies, then connect a brokerage account (TradeStation, Tradier, Charles Schwab, tastytrade) so bots submit trades through the broker's API. Option Alpha does not publish a general-purpose public REST API; its only programmatic integration surface is inbound trigger Webhooks, which let external platforms such as TradingView, TrendSpider, and Zapier fire bot automations from custom signals and indicators. Alta5 was added to the API Evangelist network as a 500 Global portfolio company.
 image: https://cdn.prod.website-files.com/5fba23ebc651c6d16f446fc4/62388f2777982d6b8344216a_oa%20logo.svg
 layout: provider
-modified: '2026-07-17'
+modified: '2026-10-06'
 name: Alta5
 nav: Providers
 network: true
@@ -132,11 +136,11 @@ overview: 'Alta5 is profiled on the [APIs.io](https://apis.io/) network. Tagged 
   The Alta5 catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Alta5''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, signup flow, changelog, and 11 more developer resources.'
+  Alta5''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, signup flow, changelog, and 12 more developer resources.'
 random_paper: 9
 score:
   band: thin
-  composite: 34.2
+  composite: 34.3
   coverage:
     artifact_dirs: 10
     catalog_earned: 27.0
@@ -144,7 +148,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 44.7
     contract_governance: 0.0
@@ -159,8 +163,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 13.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

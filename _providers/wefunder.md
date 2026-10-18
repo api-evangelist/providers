@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 55.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 3
@@ -309,7 +309,7 @@ modified: '2026-07-21'
 name: Wefunder
 nav: Providers
 network: true
-overview: 'Wefunder publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Activity API, Attribution API, Attribution Partners API, and 10 more. Tagged areas include Company, Crowdfunding, Equity Crowdfunding, Investing, and Fintech.
+overview: 'Wefunder publishes 13 API contracts indexed on the [APIs.io](https://apis.io/) network, including Activity API, Attribution API, Attribution Partners API, and 10 more. Tagged areas include Company, Crowdfunding, Equity Crowdfunding, Investing, and Fintech.
 
 
   The Wefunder catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -326,7 +326,7 @@ score:
   band: developing
   composite: 50.7
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -357,8 +357,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 36.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

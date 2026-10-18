@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: REST API for accepting and managing card and BNPL payments — create and pay orders, capture or void authorised (pre-auth) transactions, issue refunds, save cards as payment sources, and run 3-D Secure
@@ -119,7 +119,7 @@ modified: '2026-07-24'
 name: Limepay
 nav: Providers
 network: true
-overview: 'Limepay publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Payments, Australia, Buy Now Pay Later, Payment Gateway, and Checkout.
+overview: 'Limepay is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Payments, Australia, Buy Now Pay Later, Payment Gateway, and Checkout.
 
 
   Limepay''s developer surface includes authentication, documentation, API reference, and 10 more developer resources.'
@@ -128,7 +128,7 @@ score:
   band: emerging
   composite: 11.1
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -159,8 +159,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 20.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

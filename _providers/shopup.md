@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -190,7 +190,7 @@ modified: '2026-07-21'
 name: ShopUp
 nav: Providers
 network: true
-overview: 'ShopUp publishes 3 APIs on the [APIs.io](https://apis.io/) network: Areas API, Parcels API, and Pickup Stores API. Tagged areas include Company, Marketplace, Logistics, Couriers, and Last Mile Delivery.
+overview: 'ShopUp publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Areas API, Parcels API, and Pickup Stores API. Tagged areas include Company, Marketplace, Logistics, Couriers, and Last Mile Delivery.
 
 
   ShopUp''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 16 more developer resources.'
@@ -199,7 +199,7 @@ score:
   band: thin
   composite: 35.8
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -235,8 +235,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.helloheart.com/post/rss.xml
 - group: company
   title: ''
   type: Website
@@ -86,14 +90,14 @@ created: '2026-07-17'
 description: Hello Heart is a digital health company that combines a mobile app, connected blood-pressure monitors, a smart pill box, and the Nia AI assistant (trained on ACC/AHA guidelines) to help people proactively manage cardiovascular health. Sold primarily to employers, health plans, unions, and public-sector benefits programs as a covered heart-health benefit, the platform pairs self-monitoring with clinically-grounded, "safe AI" coaching to lower blood pressure and reduce cardiac risk. Hello Heart is HITRUST CSF certified, SOC 2 Type 2 audited, NIST CSF aligned, and HIPAA compliant, with data encrypted in transit and at rest and stored within U.S. borders. It exposes no public developer API; this profile captures the company's public identity, security, and compliance posture.
 image: https://cdn.prod.website-files.com/64cad0eb87ec6044a0027bf1/65c518db03b5cb5358f0883d_HH-HeartSymbol-red-webclip.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Hello Heart
 nav: Providers
 network: true
 overview: 'Hello Heart is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Digital Health, Cardiovascular, and Blood Pressure.
 
 
-  Hello Heart''s developer surface includes engineering blog, support, signup flow, and 8 more developer resources.'
+  Hello Heart''s developer surface includes engineering blog, support, signup flow, and 9 more developer resources.'
 random_paper: 9
 score:
   band: emerging
@@ -120,8 +124,8 @@ score:
     regime: Health
     regime_id: health
     score: 14.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

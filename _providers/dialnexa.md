@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 61.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - baseURL: https://api.dialnexa.com
@@ -98,6 +98,10 @@ asyncapis:
   name: Dialnexa Webhooks
   slug: dialnexa-webhooks
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://dialnexa.com/blogs/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/dialnexa/refs/heads/main/security/dialnexa-domain-security.yml
   title: ''
@@ -263,17 +267,17 @@ mcp_servers:
 - description: Official hosted remote MCP server for the DialNexa Voice AI platform. Implements stateless MCP Streamable HTTP at https://api.dialnexa.com/v1/mcp with OAuth 2.1 (authorization-code + PKCE, workspace s
   name: DialNexa MCP Server
   slug: dialnexa-mcp-server
-modified: '2026-09-03'
+modified: '2026-10-06'
 name: DialNexa
 nav: Providers
 network: true
-overview: 'DialNexa publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Batch Calls API, Calls API, and 10 more. Tagged areas include Voice AI, AI Agents, Telephony, Lead Qualification, and Multilingual.
+overview: 'DialNexa publishes 13 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agents API, Batch Calls API, Calls API, and 10 more. Tagged areas include Voice AI, AI Agents, Telephony, Lead Qualification, and Multilingual.
 
 
   The DialNexa catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  DialNexa''s developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, engineering blog, signup flow, and 27 more developer resources.'
+  DialNexa''s developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, engineering blog, signup flow, and 28 more developer resources.'
 plans:
 - name: Dialnexa Plans Pricing
   plan_count: 3
@@ -290,15 +294,15 @@ scopes:
   summary_line: 4 scopes
 score:
   band: strong
-  composite: 61.2
+  composite: 60.8
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 55.0
     catalog_earned_first_party: 20.0
     catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.4
   facets:
     access_clarity: 76.3
     contract_governance: 4.5
@@ -318,12 +322,12 @@ score:
     skills: first-party
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 34.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

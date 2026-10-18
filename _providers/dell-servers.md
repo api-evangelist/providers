@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 8
+- acting_count: 6
   human_in_the_loop: 1
   name: Dell Servers Agentic Access
-  operation_count: 47
+  operation_count: 46
   slug: dell-servers-agentic-access
-  summary_line: 47 operations · 8 acting · 1 human-in-the-loop
+  summary_line: 46 operations · 6 acting · 1 human-in-the-loop
 api_count: 2
 apis:
 - description: RESTful API for managing Dell PowerEdge MX7000 modular chassis and its components including compute sleds, network devices, IOMs, and storage. OME-Modular shares a common codebase with OpenManage Ente
@@ -288,6 +288,29 @@ collections:
   name: Dell Servers Dell iDRAC Redfish REST Accounts Update Service API
   slug: open-dell-servers-update-service-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/dell-servers/refs/heads/main/plans/dell-servers-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/dell-servers-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/dell-servers/refs/heads/main/rate-limits/dell-servers-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/dell-servers-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/dell-servers/refs/heads/main/finops/dell-servers-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/dell-servers-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.dell.com/en-us/blog/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.dell.com/en-us/blog/feed/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/dell-servers/refs/heads/main/capabilities/dell-servers-capability-edges.yml
   title: ''
@@ -474,9 +497,13 @@ common:
 created: '2024-01-01'
 description: APIs for managing and monitoring Dell PowerEdge servers and infrastructure, including the iDRAC Redfish out-of-band management interface, OpenManage Enterprise centralized console and its modular, power, support, and VMware integrations, telemetry streaming, the Lifecycle Controller, RACADM, and the legacy WSMan interface.
 finops:
-- name: Dell Servers Finops
+- has_sources: true
+  method: generated
+  name: Dell Servers Finops
+  primary_unit: ''
   service_category: Hardware Infrastructure
   slug: dell-servers-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dell-servers.png
 json_schemas:
 - name: Alert
@@ -561,17 +588,17 @@ jsonld:
   property_count: 12
   slug: dell-servers-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-10-06'
 name: Dell Servers
 nav: Providers
 network: true
-overview: 'Dell Servers publishes 27 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Alerts API, Application Settings API, and 24 more. Tagged areas include Hardware, Infrastructure, Management, Monitoring, and Servers.
+overview: 'Dell Servers publishes 27 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, Alerts API, Application Settings API, and 24 more. Tagged areas include Hardware, Infrastructure, Management, Monitoring, and Servers.
 
 
   The Dell Servers catalog on APIs.io includes 1 JSON-LD context and 3 Spectral governance rulesets.
 
 
-  Dell Servers'' developer surface includes authentication, developer portal, getting-started guide, documentation, support, engineering blog, GitHub presence, and 33 more developer resources.'
+  Dell Servers'' developer surface includes engineering blog, authentication, developer portal, getting-started guide, documentation, support, GitHub presence, and 38 more developer resources.'
 plans:
 - name: Dell Servers Plans Pricing
   plan_count: 3
@@ -582,10 +609,11 @@ rate_limits:
   name: Dell Servers Rate Limits
   slug: dell-servers-rate-limits
 rules:
-- effective_rule_count: 46
+- authorship: unmarked
+  effective_rule_count: 46
   extends:
   - spectral:oas
-  name: Dell Servers API Rules
+  name: Dell Servers — idrac redfish rules
   rule_count: 5
   severity_counts:
     error: 1
@@ -593,9 +621,10 @@ rules:
     info: 0
     warn: 4
   slug: dell-servers-idrac-redfish-rules
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Dell Servers API Rules
+  name: Dell Servers — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -603,10 +632,11 @@ rules:
     info: 1
     warn: 4
   slug: dell-servers-jsonschema-spectral-rules
-- effective_rule_count: 46
+- authorship: unmarked
+  effective_rule_count: 46
   extends:
   - spectral:oas
-  name: Dell Servers API Rules
+  name: Dell Servers — openmanage enterprise rules
   rule_count: 5
   severity_counts:
     error: 1
@@ -616,18 +646,18 @@ rules:
   slug: dell-servers-openmanage-enterprise-rules
 score:
   band: developing
-  composite: 46.9
+  composite: 41.7
   coverage:
     artifact_dirs: 20
-    catalog_earned: 72.7
+    catalog_earned: 58.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 45.3
+    catalog_gap: 57.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -5.2
   facets:
-    access_clarity: 39.5
-    contract_governance: 62.7
+    access_clarity: 31.6
+    contract_governance: 27.3
     contract_quality: 58.8
     developer_ergonomics: 53.6
     discoverability: 57.1
@@ -635,7 +665,7 @@ score:
   open_source:
     applies: true
     score: 25.0
-  previous_composite: 46.4
+  previous_composite: 46.9
   provenance:
     agentic_access: derived
     contracts:
@@ -649,9 +679,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

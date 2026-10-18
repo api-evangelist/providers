@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 2
@@ -561,9 +561,13 @@ features:
 - Terraform provider, GitHub Action for deployments, Paperspace CLI, and a Gradient Python CLI
 - DigitalOcean acquisition — Paperspace billing is consolidated into the DigitalOcean account billing surface
 finops:
-- name: Paperspace Finops
+- has_sources: true
+  method: generated
+  name: Paperspace Finops
+  primary_unit: ''
   service_category: ''
   slug: paperspace-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/paperspace.png
 json_schemas:
 - name: Paperspace Deployment
@@ -586,7 +590,7 @@ modified: '2026-05-25'
 name: Paperspace
 nav: Providers
 network: true
-overview: 'Paperspace publishes 25 APIs on the [APIs.io](https://apis.io/) network, including Machines API, Deployments API, Projects API, and 22 more. Tagged areas include GPU, Cloud, Artificial Intelligence, Machine Learning, and Deep Learning.
+overview: 'Paperspace publishes 25 API contracts indexed on the [APIs.io](https://apis.io/) network, including Machines API, Deployments API, Projects API, and 22 more. Tagged areas include GPU, Cloud, Artificial Intelligence, Machine Learning, and Deep Learning.
 
 
   The Paperspace catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -606,9 +610,10 @@ rate_limits:
   name: Paperspace Rate Limits
   slug: paperspace-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Paperspace API Rules
+  name: Paperspace — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -616,7 +621,8 @@ rules:
     info: 2
     warn: 3
   slug: paperspace-jsonschema-spectral-rules
-- effective_rule_count: 46
+- authorship: unmarked
+  effective_rule_count: 46
   extends:
   - spectral:oas
   name: Paperspace API Rules
@@ -629,23 +635,23 @@ rules:
   slug: paperspace-rules
 score:
   band: strong
-  composite: 65.7
+  composite: 64.2
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 84.4
+    artifact_dirs: 20
+    catalog_earned: 81.4
     catalog_earned_first_party: 24.0
-    catalog_gap: 30.6
+    catalog_gap: 33.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: -1.5
   facets:
-    access_clarity: 92.1
+    access_clarity: 84.2
     contract_governance: 27.3
     contract_quality: 61.3
     developer_ergonomics: 63.1
     discoverability: 62.5
     operational_transparency: 50.0
-  previous_composite: 65.1
+  previous_composite: 65.7
   provenance:
     agentic_access: derived
     contracts:
@@ -659,8 +665,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

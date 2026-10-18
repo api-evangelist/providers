@@ -16,6 +16,21 @@ apis:
   slug: aiignore-cli
 artifact_total: 40
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/aiignore/refs/heads/main/plans/aiignore-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/aiignore-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/aiignore/refs/heads/main/rate-limits/aiignore-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/aiignore-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/aiignore/refs/heads/main/finops/aiignore-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/aiignore-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/aiignore/refs/heads/main/security/aiignore-vulnerability-disclosure.yml
   title: ''
@@ -79,9 +94,13 @@ features:
 - description: aiignore-cli generates boilerplate .aiignore files with one command, covering common secrets patterns automatically.
   name: CLI Generation Tool
 finops:
-- name: Aiignore Finops
+- has_sources: false
+  method: generated
+  name: Aiignore Finops
+  primary_unit: ''
   service_category: API
   slug: aiignore-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aiignore.png
 integrations:
 - description: JetBrains IDEs (IntelliJ, PyCharm, WebStorm, etc.) AI Assistant respects .aiignore in project root.
@@ -134,13 +153,13 @@ modified: '2026-04-19'
 name: .AIIgnore
 nav: Providers
 network: true
-overview: '.AIIgnore publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include AI Agents, Configuration, Developer Workflow, Security, and Privacy.
+overview: '.AIIgnore is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include AI Agents, Configuration, Developer Workflow, Security, and Privacy.
 
 
   The .AIIgnore catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  .AIIgnore''s developer surface includes developer portal, documentation, and 5 more developer resources.'
+  .AIIgnore''s developer surface includes developer portal, documentation, and 8 more developer resources.'
 plans:
 - name: Aiignore Plans Pricing
   plan_count: 3
@@ -151,9 +170,10 @@ rate_limits:
   name: Aiignore Rate Limits
   slug: aiignore-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: .AIIgnore API Rules
+  name: .AIIgnore — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0

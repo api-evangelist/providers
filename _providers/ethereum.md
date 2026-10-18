@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.3
-  scored_at: '2026-10-04'
+  score: 20.4
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -48,7 +48,7 @@ apis:
   description: The Ethereum JSON RPC API API from Ethereum — 1 operation(s) for ethereum json rpc api.
   name: Ethereum JSON RPC API
   slug: ethereum-ethereum-json-rpc-api-api
-artifact_total: 13
+artifact_total: 14
 collections:
 - collection_type: open
   name: API Collection
@@ -60,6 +60,21 @@ collections:
   name: Ethereum JSON-RPC API
   slug: open-ethereum-json-rpc
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/ethereum/refs/heads/main/plans/ethereum-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/ethereum-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/ethereum/refs/heads/main/rate-limits/ethereum-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/ethereum-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/ethereum/refs/heads/main/finops/ethereum-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/ethereum-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/ethereum/refs/heads/main/agentic-access/ethereum-agentic-access.yml
   title: ''
@@ -113,12 +128,20 @@ common:
   title: ''
   type: Blog
   url: https://blog.ethereum.org/feed.xml
+- group: design
+  title: ''
+  type: SpectralRules
+  url: https://github.com/ethereum/remote-signing-api/blob/44e9e0dcc115c91f8b739684f4789a8310476bd9/.spectral.yml
 created: '2025-01-01'
 description: Ethereum is a decentralized, open-source blockchain platform that supports smart contracts - self-executing programs that run on its distributed network. It is the foundation for a vast ecosystem of decentralized applications (dApps), tokens, DeFi protocols, and NFTs, and uses a proof-of-stake consensus mechanism.
 finops:
-- name: Ethereum Finops
+- has_sources: false
+  method: generated
+  name: Ethereum Finops
+  primary_unit: ''
   service_category: API
   slug: ethereum-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ethereum.png
 json_schemas:
 - name: Ethereum Data Models
@@ -134,13 +157,13 @@ modified: '2026-09-16'
 name: Ethereum
 nav: Providers
 network: true
-overview: 'Ethereum publishes 1 API on the [APIs.io](https://apis.io/) network: JSON RPC API. Tagged areas include Blockchain, DeFi, Ethereum, JSON-RPC, and Smart Contracts.
+overview: 'Ethereum publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: JSON RPC API. Tagged areas include Blockchain, DeFi, Ethereum, JSON-RPC, and Smart Contracts.
 
 
-  The Ethereum catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+  The Ethereum catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Ethereum''s developer surface includes documentation, getting-started guide, engineering blog, and 9 more developer resources.'
+  Ethereum''s developer surface includes documentation, getting-started guide, engineering blog, and 13 more developer resources.'
 plans:
 - name: Ethereum Plans Pricing
   plan_count: 3
@@ -151,9 +174,10 @@ rate_limits:
   name: Ethereum Rate Limits
   slug: ethereum-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: Ethereum API Rules
+  name: Ethereum — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -161,20 +185,32 @@ rules:
     info: 2
     warn: 4
   slug: ethereum-jsonschema-spectral-rules
+- authorship: provider
+  effective_rule_count: 44
+  extends:
+  - spectral:oas
+  name: Ethereum — remote signing api rules
+  rule_count: 3
+  severity_counts:
+    error: 2
+    hint: 0
+    info: 0
+    warn: 1
+  slug: ethereum-remote-signing-api-spectral-rules
 score:
   band: thin
-  composite: 28.9
+  composite: 32.8
   coverage:
     artifact_dirs: 14
-    catalog_earned: 49.3
-    catalog_earned_first_party: 0.0
-    catalog_gap: 65.8
+    catalog_earned: 61.0
+    catalog_earned_first_party: 18.0
+    catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 3.9
   facets:
-    access_clarity: 15.8
-    contract_governance: 9.8
+    access_clarity: 7.9
+    contract_governance: 54.5
     contract_quality: 47.5
     developer_ergonomics: 23.8
     discoverability: 71.4
@@ -193,8 +229,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

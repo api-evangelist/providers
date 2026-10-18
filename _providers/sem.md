@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Xiaoe's Open API (开放API) for integrating store data and operations — users, products, orders, refunds, live broadcasts, learning/course data, marketing (coupons, group-buy, promoters) and points — int
@@ -122,7 +122,7 @@ modified: '2026-07-21'
 name: Xiaoe (小鹅通)
 nav: Providers
 network: true
-overview: 'Xiaoe (小鹅通) publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Software-as-a-Service, Private Domain, Content Commerce, and Live Streaming.
+overview: 'Xiaoe (小鹅通) is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Software-as-a-Service, Private Domain, Content Commerce, and Live Streaming.
 
 
   The Xiaoe (小鹅通) catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -138,7 +138,7 @@ score:
   band: thin
   composite: 32.6
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
@@ -166,8 +166,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

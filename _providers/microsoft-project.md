@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.1
-  scored_at: '2026-10-04'
+  score: 24.2
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -217,6 +217,21 @@ collections:
   name: Microsoft Project Online REST Assignments Workflow Activities API
   slug: open-microsoft-project-workflow-activities-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-project/refs/heads/main/plans/microsoft-project-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/microsoft-project-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-project/refs/heads/main/rate-limits/microsoft-project-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/microsoft-project-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-project/refs/heads/main/finops/microsoft-project-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/microsoft-project-finops.yml
 - group: start
   title: ''
   type: X-portal
@@ -394,9 +409,13 @@ features:
 - description: Integration with Power BI, Power Automate, and Power Apps for extended project management scenarios.
   name: Power Platform Integration
 finops:
-- name: Microsoft Project Finops
+- has_sources: true
+  method: generated
+  name: Microsoft Project Finops
+  primary_unit: ''
   service_category: Project Management
   slug: microsoft-project-finops
+  template: false
 image: /assets/icons/microsoft-project.png
 integrations:
 - description: View and manage project tasks directly within Microsoft Teams channels and tabs.
@@ -473,13 +492,13 @@ modified: '2026-05-19'
 name: Microsoft Project
 nav: Providers
 network: true
-overview: 'Microsoft Project publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Assignments API, Calendars API, Custom Fields API, and 18 more. Tagged areas include Budgeting, Gantt Charts, Microsoft, Project Management, and Resource Management.
+overview: 'Microsoft Project is listed with 21 APIs on the [APIs.io](https://apis.io/) network, including Assignments API, Calendars API, Custom Fields API, and 18 more. Tagged areas include Budgeting, Gantt Charts, Microsoft, Project Management, and Resource Management.
 
 
   The Microsoft Project catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Microsoft Project''s developer surface includes authentication, developer portal, engineering blog, pricing, support, Stack Overflow tag, training material, and 23 more developer resources.'
+  Microsoft Project''s developer surface includes authentication, developer portal, engineering blog, pricing, support, Stack Overflow tag, training material, and 26 more developer resources.'
 plans:
 - name: Microsoft Project Plans Pricing
   plan_count: 6
@@ -490,9 +509,10 @@ rate_limits:
   name: Microsoft Project Rate Limits
   slug: microsoft-project-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Microsoft Project API Rules
+  name: Microsoft Project — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -500,7 +520,8 @@ rules:
     info: 1
     warn: 4
   slug: microsoft-project-jsonschema-spectral-rules
-- effective_rule_count: 83
+- authorship: generated
+  effective_rule_count: 83
   extends:
   - spectral:oas
   name: Microsoft Project API Rules
@@ -518,23 +539,23 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: developing
-  composite: 45.6
+  composite: 44.1
   coverage:
     artifact_dirs: 19
-    catalog_earned: 78.0
+    catalog_earned: 75.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 37.0
+    catalog_gap: 40.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -1.5
   facets:
-    access_clarity: 42.1
+    access_clarity: 34.2
     contract_governance: 27.3
     contract_quality: 30.4
     developer_ergonomics: 65.5
     discoverability: 78.6
     operational_transparency: 18.4
-  previous_composite: 45.1
+  previous_composite: 45.6
   provenance:
     agentic_access: derived
     contracts:
@@ -548,8 +569,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

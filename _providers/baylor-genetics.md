@@ -23,10 +23,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.baylorgenetics.com/feed/
 - group: design
   href: https://raw.githubusercontent.com/api-evangelist/baylor-genetics/refs/heads/main/conformance/baylor-genetics-conformance.yml
   title: ''
@@ -86,25 +90,26 @@ coverage:
 created: '2026-09-27'
 description: Baylor Genetics provides precision diagnostic testing and genomic sequencing services, leveraging nearly 50 years of experience in clinical genomics. The company offers whole genome, exome, RNA sequencing, and specialized assays, supporting clinicians with actionable insights and comprehensive reports. It serves healthcare providers, researchers, and patients worldwide, emphasizing innovation and data-driven care.
 layout: provider
-modified: '2026-09-27'
+modified: '2026-10-06'
 name: Baylor Genetics
 nav: Providers
 network: true
 overview: 'Baylor Genetics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Genetic Testing, Whole Genome Sequencing, Precision Diagnostics, and Clinical Genomics.
 
 
-  Baylor Genetics'' developer surface includes pricing, engineering blog, and 9 more developer resources.'
+  Baylor Genetics'' developer surface includes pricing, engineering blog, and 10 more developer resources.'
 random_paper: 4
 score:
   band: emerging
   composite: 13.1
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 20.0
     catalog_earned_first_party: 0.0
     catalog_gap: 95.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 31.6
     contract_governance: 18.2
@@ -112,6 +117,7 @@ score:
     developer_ergonomics: 2.4
     discoverability: 37.5
     operational_transparency: 0.0
+  previous_composite: 13.1
   provenance:
     conformance: first-party
     mcp: unknown
@@ -125,12 +131,14 @@ score:
     regime: Health
     regime_id: health
     score: 14.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/baylor-genetics/refs/heads/main/screenshots/baylor-genetics-2026-10-11T101630.png
 security:
 - kind: domain-security
   name: Baylor Genetics Domain Security

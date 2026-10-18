@@ -32,10 +32,19 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
-artifact_total: 3
+artifact_total: 4
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/elementl/refs/heads/main/plans/elementl-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/elementl-plans-pricing.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://dagster.io/blog/rss.xml
 - group: company
   title: ''
   type: Website
@@ -124,28 +133,32 @@ description: Elementl, Inc. is the company behind Dagster, rebranded as Dagster 
   profile.
 image: https://cdn.prod.website-files.com/681399f654933b29e12fb8bd/681cb5f07ccf87ece14559ef_OG%20-%20v2FIX.jpg
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Elementl
 nav: Providers
 network: true
 overview: 'Elementl is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Open Source, Data Orchestration, Data Engineering, and Data Pipeline.
 
 
-  Elementl''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, support, and 13 more developer resources.'
+  Elementl''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, support, and 15 more developer resources.'
+plans:
+- name: Elementl Plans Pricing
+  plan_count: 3
+  slug: elementl-plans-pricing
 random_paper: 18
 score:
   band: thin
-  composite: 30.8
+  composite: 37.2
   coverage:
-    artifact_dirs: 4
-    catalog_earned: 27.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 88.0
+    artifact_dirs: 5
+    catalog_earned: 39.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.4
   facets:
-    access_clarity: 60.5
+    access_clarity: 92.1
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 45.2
@@ -158,9 +171,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

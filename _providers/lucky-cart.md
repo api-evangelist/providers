@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 6
 apis:
 - description: 'The core Lucky Cart API. POST /cart/ticket submits a validated shopping cart — cart identifier, shopper identifier, gross and net amounts, and product lines — and Lucky Cart determines whether a game '
@@ -156,7 +156,7 @@ modified: '2026-08-12'
 name: Lucky Cart
 nav: Providers
 network: true
-overview: 'Lucky Cart publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Retail Media, MarTech, E-Commerce, and Advertising.
+overview: 'Lucky Cart is listed with 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Retail Media, MarTech, E-Commerce, and Advertising.
 
 
   Lucky Cart''s developer surface includes support, engineering blog, documentation, authentication, and 16 more developer resources.'
@@ -173,7 +173,7 @@ score:
   band: emerging
   composite: 26.0
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -204,8 +204,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -27,20 +27,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.3
-  scored_at: '2026-10-04'
+  score: 15.4
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 7
+- acting_count: 1
   human_in_the_loop: 0
   name: Chief Financial Officers Council Agentic Access
-  operation_count: 14
+  operation_count: 15
   slug: chief-financial-officers-council-agentic-access
-  summary_line: 14 operations · 7 acting
+  summary_line: 15 operations · 1 acting
 api_count: 1
 apis:
 - description: The cfo.gov public website is the official portal for the federal CFO Council, hosting member rosters, council news, working-group outputs, financial-management policy guidance, and links to companion
@@ -125,6 +125,21 @@ collections:
   name: USAspending.gov API (CFO Council context)
   slug: open-chief-financial-officers-council
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/chief-financial-officers-council/refs/heads/main/plans/chief-financial-officers-council-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/chief-financial-officers-council-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/chief-financial-officers-council/refs/heads/main/rate-limits/chief-financial-officers-council-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/chief-financial-officers-council-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/chief-financial-officers-council/refs/heads/main/finops/chief-financial-officers-council-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/chief-financial-officers-council-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/chief-financial-officers-council/refs/heads/main/agentic-access/chief-financial-officers-council-agentic-access.yml
   title: ''
@@ -210,19 +225,23 @@ common:
 created: '2024-12-03'
 description: The Chief Financial Officers Council (CFOC) was established by the Chief Financial Officers (CFO) Act of 1990 (Public Law 101-576) and is composed of the CFOs and Deputy CFOs of the 24 largest federal departments and agencies, along with senior officials from the Office of Management and Budget (OMB) and the Department of the Treasury. The Council works collaboratively to improve federal financial management through shared guidance, working groups, and inter-agency standards. While the CFO Council itself does not operate a developer API program, its remit is closely tied to the larger ecosystem of federal financial management data and APIs administered by Treasury (USAspending.gov, Fiscal Service), OMB (PaymentAccuracy.gov, MAX.gov), and GSA (Performance.gov, SAM.gov).
 finops:
-- name: Chief Financial Officers Council Finops
+- has_sources: false
+  method: generated
+  name: Chief Financial Officers Council Finops
+  primary_unit: ''
   service_category: API
   slug: chief-financial-officers-council-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/chief-financial-officers-council.png
 layout: provider
 modified: '2026-07-25'
 name: Chief Financial Officers Council
 nav: Providers
 network: true
-overview: 'Chief Financial Officers Council publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Agencies API, Awards API, Downloads API, and 8 more. Tagged areas include Federal Financial Management, Federal Government, Finance, Government, and OMB.
+overview: 'Chief Financial Officers Council publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agencies API, Awards API, Downloads API, and 8 more. Tagged areas include Federal Financial Management, Federal Government, Finance, Government, and OMB.
 
 
-  Chief Financial Officers Council''s developer surface includes product news and 17 more developer resources.'
+  Chief Financial Officers Council''s developer surface includes product news and 20 more developer resources.'
 plans:
 - name: Chief Financial Officers Council Plans Pricing
   plan_count: 3
@@ -234,17 +253,17 @@ rate_limits:
   slug: chief-financial-officers-council-rate-limits
 score:
   band: emerging
-  composite: 21.7
+  composite: 20.1
   coverage:
     artifact_dirs: 9
-    catalog_earned: 41.0
+    catalog_earned: 38.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 21.1
+    access_clarity: 13.2
     contract_governance: 0.0
     contract_quality: 41.0
     developer_ergonomics: 9.5
@@ -269,8 +288,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 7.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

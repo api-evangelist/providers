@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 12.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: 'REST API for LunarCrush social and market intelligence. Endpoints cover trending topics, categories, creators, posts, coins, stocks, and NFTs, including summary snapshots, historical time series, top '
@@ -156,7 +156,7 @@ modified: '2026-07-20'
 name: LunarCrush
 nav: Providers
 network: true
-overview: 'LunarCrush publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Social Intelligence, Cryptocurrency, Stocks, and Sentiment Analysis.
+overview: 'LunarCrush is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Social Intelligence, Cryptocurrency, Stocks, and Sentiment Analysis.
 
 
   LunarCrush''s developer surface includes documentation, API reference, authentication, CLI, pricing, signup flow, engineering blog, and 15 more developer resources.'
@@ -190,8 +190,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 23.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

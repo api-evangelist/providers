@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://seer.bio/feed/
 - group: company
   title: ''
   type: Website
@@ -73,18 +77,18 @@ created: '2026-07-17'
 description: 'Seer, Inc. (NASDAQ: SEER) is a Redwood City, California life-sciences company pioneering proteomics, the large-scale study of proteins. Its Proteograph Product Suite pairs engineered nanoparticles with automated sample preparation and mass spectrometry to profile tens of thousands of proteins across biological samples at scale, and its cloud-based Proteograph Analysis System (PAS) software processes and interprets the resulting proteomic data for pharmaceutical, biopharma, and academic research. Seer exposes no public developer API; its software surface is the login-gated PAS platform delivered to customers of the Proteograph suite.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/seer.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Seer
 nav: Providers
 network: true
 overview: 'Seer is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health Tech, Proteomics, Life Sciences, and Biotechnology.
 
 
-  Seer''s developer surface includes getting-started guide, support, engineering blog, and 5 more developer resources.'
+  Seer''s developer surface includes getting-started guide, support, engineering blog, and 6 more developer resources.'
 random_paper: 13
 score:
   band: emerging
-  composite: 13.9
+  composite: 14.0
   coverage:
     artifact_dirs: 4
     catalog_earned: 27.0
@@ -92,7 +96,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 27.6
     contract_governance: 0.0
@@ -107,8 +111,8 @@ score:
     regime: Health
     regime_id: health
     score: 10.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -165,6 +165,29 @@ collections:
   name: dbt Cloud Administrative Accounts Runs API
   slug: open-dbt-runs-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/dbt/refs/heads/main/plans/dbt-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/dbt-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/dbt/refs/heads/main/rate-limits/dbt-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/dbt-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/dbt/refs/heads/main/finops/dbt-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/dbt-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://docs.getdbt.com/blog
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://docs.getdbt.com/blog/rss.xml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/dbt/refs/heads/main/capabilities/dbt-capability-edges.yml
   title: ''
@@ -312,9 +335,13 @@ common:
 created: '2025-01-08'
 description: dbt Labs operates dbt Cloud, the managed platform for the open-source dbt (data build tool) used to transform data inside cloud warehouses. dbt Cloud exposes a set of APIs for managing accounts, projects, jobs, and runs programmatically (Administrative API), inspecting project metadata (Discovery API), and querying governed metrics (Semantic Layer API).
 finops:
-- name: Dbt Finops
+- has_sources: false
+  method: generated
+  name: Dbt Finops
+  primary_unit: ''
   service_category: API
   slug: dbt-finops
+  template: true
 graphqls:
 - description: Every time dbt Cloud runs a project, it generates and stores information about the project. The Discovery API exposes that metadata including details about models, sources, exposures, and execution re
   name: dbt GraphQL API
@@ -333,17 +360,17 @@ jsonld:
   property_count: 10
   slug: dbt-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-10-06'
 name: dbt
 nav: Providers
 network: true
-overview: 'dbt publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Environments API, Jobs API, and 4 more. Tagged areas include Analytics Engineering, Data, ELT, Metrics, and Project.
+overview: 'dbt publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, Environments API, Jobs API, and 4 more. Tagged areas include Analytics Engineering, Data, ELT, Metrics, and Project.
 
 
   The dbt catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  dbt''s developer surface includes authentication, documentation, developer portal, pricing, GitHub presence, and 26 more developer resources.'
+  dbt''s developer surface includes engineering blog, authentication, documentation, developer portal, pricing, GitHub presence, and 30 more developer resources.'
 plans:
 - name: Dbt Plans Pricing
   plan_count: 3
@@ -354,10 +381,11 @@ rate_limits:
   name: Dbt Rate Limits
   slug: dbt-rate-limits
 rules:
-- effective_rule_count: 46
+- authorship: unmarked
+  effective_rule_count: 46
   extends:
   - spectral:oas
-  name: dbt API Rules
+  name: dbt — cloud administrative api rules
   rule_count: 5
   severity_counts:
     error: 1
@@ -365,9 +393,10 @@ rules:
     info: 0
     warn: 4
   slug: dbt-cloud-administrative-api-rules
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: dbt API Rules
+  name: dbt — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -377,20 +406,20 @@ rules:
   slug: dbt-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 51.2
+  composite: 45.9
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 89.7
+    artifact_dirs: 20
+    catalog_earned: 75.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 25.3
+    catalog_gap: 40.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.3
   facets:
-    access_clarity: 55.3
-    contract_governance: 62.7
+    access_clarity: 47.4
+    contract_governance: 27.3
     contract_quality: 58.2
-    developer_ergonomics: 39.3
+    developer_ergonomics: 41.7
     discoverability: 71.4
     operational_transparency: 13.2
   previous_composite: 51.2
@@ -407,9 +436,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

@@ -13,6 +13,10 @@ artifact_total: 1
 common:
 - group: company
   title: ''
+  type: Blog
+  url: https://claude.com/resources/articles
+- group: company
+  title: ''
   type: Website
   url: https://www.claude.com/
 - group: docs
@@ -57,7 +61,7 @@ jsonld:
   property_count: 0
   slug: claude-md-context
 layout: provider
-modified: '2026-04-23'
+modified: '2026-10-06'
 name: CLAUDE.md
 nav: Providers
 network: true
@@ -67,7 +71,7 @@ overview: 'CLAUDE.md is profiled on the [APIs.io](https://apis.io/) network. Tag
   The CLAUDE.md catalog on APIs.io includes 1 JSON-LD context.
 
 
-  CLAUDE.md''s developer surface includes documentation, tooling, and 7 more developer resources.'
+  CLAUDE.md''s developer surface includes engineering blog, documentation, tooling, and 7 more developer resources.'
 random_paper: 18
 screenshot: https://raw.githubusercontent.com/api-evangelist/claude-md/refs/heads/main/screenshots/claude-md-2026-06-20T174448.png
 slug: claude-md

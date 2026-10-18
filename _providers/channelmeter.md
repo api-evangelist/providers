@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://channelmeter.com/blog/
 - group: company
   title: ''
   type: Website
@@ -83,31 +87,31 @@ created: '2026-07-17'
 description: ChannelMeter is a creator management and payments platform for multi-channel networks, agencies, and brands. Founded in 2012 and headquartered in San Francisco, it provides an all-in-one suite for creator discovery, onboarding, contract management, analytics, and automated global payouts. Its Creator Pay product moves money to creators across 21+ currencies and 50+ countries, and Creator Cash offers cash advances to creators. ChannelMeter reports having processed over $1B in payments to more than one million creators, working with Stripe and Fifth Third Bank for financial services. The company is backed by 500 Global.
 image: https://channelmeter.com/img/logo-color-25ccee0e11d204599c7ae19d4572abff.svg
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: ChannelMeter
 nav: Providers
 network: true
 overview: 'ChannelMeter is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Creator Economy, Creator Management, Payments, and Payouts.
 
 
-  ChannelMeter''s developer surface includes signup flow, support, and 8 more developer resources.'
+  ChannelMeter''s developer surface includes engineering blog, signup flow, support, and 8 more developer resources.'
 random_paper: 16
 score:
   band: emerging
-  composite: 12.6
+  composite: 13.1
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 34.2
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 4.8
+    developer_ergonomics: 7.1
     discoverability: 55.4
     operational_transparency: 2.6
   jurisdiction:
@@ -124,8 +128,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 12.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.8
-  scored_at: '2026-10-04'
+  score: 23.6
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -95,6 +95,21 @@ collections:
   name: Apache ZooKeeper Admin Server API
   slug: open-zookeeper-admin-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/apache-zookeeper/refs/heads/main/plans/apache-zookeeper-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/apache-zookeeper-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/apache-zookeeper/refs/heads/main/rate-limits/apache-zookeeper-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/apache-zookeeper-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/apache-zookeeper/refs/heads/main/finops/apache-zookeeper-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/apache-zookeeper-finops.yml
 - group: company
   title: ''
   type: Website
@@ -181,9 +196,13 @@ features:
 - description: Read-only observer servers for scaling read throughput without affecting write quorum.
   name: Observer Mode
 finops:
-- name: Apache Zookeeper Finops
+- has_sources: false
+  method: generated
+  name: Apache Zookeeper Finops
+  primary_unit: ''
   service_category: API
   slug: apache-zookeeper-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/apache-zookeeper.png
 integrations:
 - description: ZooKeeper (legacy) for Kafka broker metadata and controller election (replaced by KRaft).
@@ -203,13 +222,13 @@ modified: '2026-05-19'
 name: Apache ZooKeeper
 nav: Providers
 network: true
-overview: 'Apache ZooKeeper publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Cluster API, Configuration API, Health API, and 3 more. Tagged areas include Configuration Management, Distributed Coordination, Leader Election, Service Discovery, and Open Source.
+overview: 'Apache ZooKeeper publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Cluster API, Configuration API, Health API, and 3 more. Tagged areas include Configuration Management, Distributed Coordination, Leader Election, Service Discovery, and Open Source.
 
 
   The Apache ZooKeeper catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Apache ZooKeeper''s developer surface includes documentation, developer portal, getting-started guide, release notes, support, and 11 more developer resources.'
+  Apache ZooKeeper''s developer surface includes documentation, developer portal, getting-started guide, release notes, support, and 14 more developer resources.'
 plans:
 - name: Apache Zookeeper Plans Pricing
   plan_count: 3
@@ -220,7 +239,8 @@ rate_limits:
   name: Apache Zookeeper Rate Limits
   slug: apache-zookeeper-rate-limits
 rules:
-- effective_rule_count: 53
+- authorship: generated
+  effective_rule_count: 53
   extends:
   - spectral:oas
   name: Apache ZooKeeper API Rules
@@ -232,18 +252,18 @@ rules:
     warn: 3
   slug: apache-zookeeper-spectral-rules
 score:
-  band: developing
-  composite: 39.3
+  band: thin
+  composite: 37.3
   coverage:
     artifact_dirs: 10
-    catalog_earned: 39.5
+    catalog_earned: 42.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 60.5
-    catalog_max: 100.0
+    catalog_gap: 72.5
+    catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.0
   facets:
-    access_clarity: 28.6
+    access_clarity: 18.4
     contract_governance: 13.6
     contract_quality: 42.2
     developer_ergonomics: 59.5
@@ -263,8 +283,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

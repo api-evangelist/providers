@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - baseURL: https://api.bevz.com/integrator-service
@@ -88,6 +88,11 @@ asyncapis:
   name: Bevz Webhooks
   slug: bevz-webhooks
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/bevz/refs/heads/main/rate-limits/bevz-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/bevz-rate-limits.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/bevz/refs/heads/main/capabilities/bevz-capability-edges.yml
   title: ''
@@ -194,13 +199,13 @@ modified: '2026-08-13'
 name: Bevz
 nav: Providers
 network: true
-overview: 'Bevz publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Integrator Users API, Integrators API, Lotto Scratcher Games API, and 6 more. Tagged areas include Company, Delivery Management, Liquor Retail, Convenience Stores, and Point-of-Sale.
+overview: 'Bevz publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Integrator Users API, Integrators API, Lotto Scratcher Games API, and 6 more. Tagged areas include Company, Delivery Management, Liquor Retail, Convenience Stores, and Point-of-Sale.
 
 
   The Bevz catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Bevz''s developer surface includes documentation, API reference, getting-started guide, changelog, pricing, signup flow, engineering blog, and 14 more developer resources.'
+  Bevz''s developer surface includes documentation, API reference, getting-started guide, changelog, pricing, signup flow, engineering blog, and 15 more developer resources.'
 plans:
 - name: Bevz Plans Pricing
   plan_count: 3
@@ -244,8 +249,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

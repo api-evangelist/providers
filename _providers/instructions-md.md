@@ -41,9 +41,10 @@ overview: 'Instructions.md is profiled on the [APIs.io](https://apis.io/) networ
   Instructions.md''s developer surface includes documentation and 1 more developer resources.'
 random_paper: 3
 rules:
-- effective_rule_count: 4
+- authorship: generated
+  effective_rule_count: 4
   extends: []
-  name: Instructions.md API Rules
+  name: Instructions.md — jsonschema rules
   rule_count: 4
   severity_counts:
     error: 0

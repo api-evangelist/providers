@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -68,7 +68,7 @@ apis:
   description: The Run Flow API from Stacks Ai — 1 operation(s) for run flow.
   name: Stacks Ai Run Flow API
   slug: stacks-ai-run-flow-api
-artifact_total: 16
+artifact_total: 17
 collections:
 - collection_type: open
   name: API Collection
@@ -89,6 +89,11 @@ collections:
   name: StackAI analytics Run Flow API
   slug: open-stacks-ai-run-flow-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/stacks-ai/refs/heads/main/plans/stacks-ai-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/stacks-ai-plans-pricing.yml
 - group: company
   title: ''
   type: Website
@@ -189,10 +194,14 @@ modified: '2026-07-21'
 name: Stacks Ai
 nav: Providers
 network: true
-overview: 'Stacks Ai publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Knowledge Base Resources API, Knowledge Base Sync API, and 2 more. Tagged areas include Company, Artificial Intelligence, Agents, LLM, and No-Code.
+overview: 'Stacks Ai publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Analytics API, Knowledge Base Resources API, Knowledge Base Sync API, and 2 more. Tagged areas include Company, Artificial Intelligence, Agents, LLM, and No-Code.
 
 
-  Stacks Ai''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, and 15 more developer resources.'
+  Stacks Ai''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, and 16 more developer resources.'
+plans:
+- name: Stacks Ai Plans Pricing
+  plan_count: 2
+  slug: stacks-ai-plans-pricing
 random_paper: 16
 scopes:
 - name: Stacks Ai Scopes
@@ -201,17 +210,17 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 46.3
+  composite: 50.5
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 23
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 4.2
   facets:
-    access_clarity: 52.6
+    access_clarity: 73.7
     contract_governance: 18.2
     contract_quality: 49.2
     developer_ergonomics: 54.2
@@ -234,8 +243,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 31.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://personifyhealth.com/press-room/feed/
 - group: company
   title: ''
   type: Website
@@ -86,18 +90,18 @@ created: '2026-07-17'
 description: Virgin Pulse is a corporate health and employee wellbeing platform that in 2024 merged with HealthComp and rebranded as Personify Health, operating today at personifyhealth.com. The company delivers a personalized health platform that unites wellbeing, healthcare navigation and advocacy, benefits administration, third-party administration (TPA), and rewards into a single employee experience for enterprises, health plans, and health systems. Integration with Personify Health is handled through an authentication-gated developer portal (developer.personifyhealth.com) and a partner marketplace (marketplace.personifyhealth.com); there is no publicly documented, open API specification. This profile was seeded as an Insight Partners portfolio lead and enriched from the company's live public surface (llms.txt, status page, developer portal, and DNS/TLS probes).
 image: https://personifyhealth.com/wp-content/uploads/2024/05/personify_health_logo-1.webp
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Virgin Pulse
 nav: Providers
 network: true
 overview: 'Virgin Pulse is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Wellbeing, Employee Wellness, and Health Navigation.
 
 
-  Virgin Pulse''s developer surface includes engineering blog, support, and 9 more developer resources.'
+  Virgin Pulse''s developer surface includes engineering blog, support, and 10 more developer resources.'
 random_paper: 21
 score:
   band: emerging
-  composite: 12.9
+  composite: 13.0
   coverage:
     artifact_dirs: 6
     catalog_earned: 27.0
@@ -105,7 +109,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
@@ -120,8 +124,8 @@ score:
     regime: Health
     regime_id: health
     score: 10.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

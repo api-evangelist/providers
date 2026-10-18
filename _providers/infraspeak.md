@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Infraspeak's public REST API (v3) for programmatic access to facilities and maintenance management resources — assets, work orders, failures, preventive maintenance, stock, suppliers, and more. Docume
@@ -40,6 +40,10 @@ apis:
   slug: infraspeak-rest-api
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://infraspeak.com/en/blog
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/infraspeak/refs/heads/main/security/infraspeak-domain-security.yml
   title: ''
@@ -129,20 +133,20 @@ created: '2026-07-17'
 description: Infraspeak is an intelligent facilities and maintenance management platform (CMMS/IWMS/IFM) founded in Porto, Portugal, that connects an entire operation with end-to-end collaboration, complete asset visibility, and intelligent automation. Facility and maintenance teams use Infraspeak to manage assets, work orders, preventive maintenance schedules, failures, stock, suppliers, and contracts across buildings and sites. The platform exposes a public REST API (currently v3) hosted at api.infraspeak.com and documented on Stoplight, plus a growing integrations layer ("Infraspeak Hub") with connectors for ERP, PMS, BMS, energy, and collaboration systems such as SAP, Xero, and Opera. Infraspeak is backed by 500 Global and other investors.
 image: https://a.storyblok.com/f/166232/1920x1080/a21027f7df/thumb-infraspeak.jpg
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Infraspeak
 nav: Providers
 network: true
-overview: 'Infraspeak publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Facilities Management, Maintenance, CMMS, and IWMS.
+overview: 'Infraspeak is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Facilities Management, Maintenance, CMMS, and IWMS.
 
 
-  Infraspeak''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 13 more developer resources.'
+  Infraspeak''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, pricing, signup flow, and 14 more developer resources.'
 random_paper: 4
 score:
   band: emerging
   composite: 25.7
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -169,8 +173,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

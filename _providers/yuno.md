@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://api.y.uno
@@ -230,7 +230,7 @@ modified: '2026-07-21'
 name: Yuno
 nav: Providers
 network: true
-overview: 'Yuno publishes 1 API on the [APIs.io](https://apis.io/) network: Payments API. Tagged areas include Company, Payments, Payment Orchestration, Fintech, and Checkout.
+overview: 'Yuno publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Payments API. Tagged areas include Company, Payments, Payment Orchestration, Fintech, and Checkout.
 
 
   The Yuno catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -242,7 +242,7 @@ score:
   band: developing
   composite: 49.7
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -267,8 +267,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 37.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

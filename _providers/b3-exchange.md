@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 10
 apis:
 - baseURL: https://developers.b3.com.br:8065
@@ -263,7 +263,7 @@ modified: '2026-07-22'
 name: B3 (Brasil Bolsa Balcão)
 nav: Providers
 network: true
-overview: 'B3 (Brasil Bolsa Balcão) publishes 10 APIs on the [APIs.io](https://apis.io/) network, including B3 Investor Area (Área do Investidor) APIs, B3 Tesouro Direto APIs, B3 OTC (Balcão) APIs, and 7 more. Tagged areas include Finance, Market Data, Stocks, Trading, and Exchange.
+overview: 'B3 (Brasil Bolsa Balcão) is listed with 10 APIs on the [APIs.io](https://apis.io/) network, including B3 Investor Area (Área do Investidor) APIs, B3 Tesouro Direto APIs, B3 OTC (Balcão) APIs, and 7 more. Tagged areas include Finance, Market Data, Stocks, Trading, and Exchange.
 
 
   B3 (Brasil Bolsa Balcão)''s developer surface includes developer portal, documentation, support, authentication, sandbox, changelog, API reference, and 21 more developer resources.'
@@ -277,7 +277,7 @@ score:
   band: thin
   composite: 38.7
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -309,8 +309,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 38.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

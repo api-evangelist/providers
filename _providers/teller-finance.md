@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.teller.org/rss/
 - group: operate
   title: ''
   type: IssueTracker
@@ -93,14 +97,14 @@ created: '2026-07-17'
 description: Teller Finance (Teller Protocol) is a decentralized, multi-chain lending and borrowing protocol on Ethereum, Base, Arbitrum, Polygon, and BNB Chain. Borrowers take fixed-APR, time-based loans from isolated lending pools using their tokens as collateral, with no oracle-driven margin-call liquidations, through an open order-book of markets governed by the TellerV2 smart contract. The developer surface is on-chain (Solidity smart contracts) plus a GraphQL subgraph for read-side data and an embeddable Cash Advance widget (npm) that any dapp can drop into its front end - there is no hosted REST API, OAuth server, or API-key program; authentication is wallet-based. Teller was surfaced as a portfolio company of Bessemer Venture Partners and enriched here from its public developer surface.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/teller-finance.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Teller Finance
 nav: Providers
 network: true
 overview: 'Teller Finance is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, DeFi, Lending, and Blockchain.
 
 
-  Teller Finance''s developer surface includes documentation, engineering blog, and 10 more developer resources.'
+  Teller Finance''s developer surface includes documentation, engineering blog, and 11 more developer resources.'
 random_paper: 9
 score:
   band: minimal
@@ -130,8 +134,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

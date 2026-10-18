@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: Agent2Agent 1.0 surface of Co-Legal's public legal/fiscal assistant. The agent card at https://agent.co-legal.be/.well-known/agent-card.json (version 1.27.9, JWS ES256-signed, verified against /.well-
@@ -227,7 +227,7 @@ modified: '2026-09-19'
 name: Co-Legal
 nav: Providers
 network: true
-overview: 'Co-Legal publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Legal, Legal Research, Tax, Case Law, and Legislation.
+overview: 'Co-Legal is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Legal, Legal Research, Tax, Case Law, and Legislation.
 
 
   Co-Legal''s developer surface includes documentation, API reference, getting-started guide, FAQ, support, engineering blog, pricing, and 33 more developer resources.'
@@ -242,15 +242,15 @@ rate_limits:
   slug: co-legal-be-rate-limits
 score:
   band: developing
-  composite: 42.3
+  composite: 42.4
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 19
     catalog_earned: 53.0
     catalog_earned_first_party: 16.0
     catalog_gap: 62.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 52.6
     contract_governance: 18.2
@@ -278,13 +278,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 57.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/co-legal-be/refs/heads/main/screenshots/co-legal-be-2026-10-11T103104.png
 security:
 - kind: authentication
   name: Co Legal Be Authentication

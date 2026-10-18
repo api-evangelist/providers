@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: REST API for managing Sketch workspaces, members, and documents in the Sketch cloud collaboration platform. Supports Personal Access Token and OAuth 2.0 authentication with scopes for reading and writ
@@ -103,16 +103,20 @@ common:
 created: '2026-06-13'
 description: Sketch is a digital design tool for Mac providing a REST API for managing workspaces, documents, libraries, components, prototypes, and share links in the Sketch cloud collaboration environment. The Cloud REST API (api.sketch.cloud/v1) supports Personal Access Token and OAuth 2.0 authentication, enabling workspace member management, document access, and SCIM provisioning for enterprise identity workflows.
 finops:
-- name: Sketch Finops
+- has_sources: false
+  method: generated
+  name: Sketch Finops
+  primary_unit: ''
   service_category: ''
   slug: sketch-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sketch.png
 layout: provider
 modified: '2026-06-13'
 name: Sketch
 nav: Providers
 network: true
-overview: 'Sketch publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Design, Collaboration, Prototyping, Workspace, and Documents.
+overview: 'Sketch is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Design, Collaboration, Prototyping, Workspace, and Documents.
 
 
   Sketch''s developer surface includes documentation, engineering blog, pricing, and 11 more developer resources.'
@@ -127,17 +131,17 @@ rate_limits:
   slug: sketch-rate-limits
 score:
   band: emerging
-  composite: 21.4
+  composite: 15.7
   coverage:
-    artifact_dirs: 8
-    catalog_earned: 50.8
+    artifact_dirs: 9
+    catalog_earned: 40.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 64.2
+    catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.7
   facets:
-    access_clarity: 54.7
+    access_clarity: 26.3
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
@@ -150,9 +154,9 @@ score:
     regime: Education & Research
     regime_id: education
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -166,7 +170,7 @@ security:
 - kind: vulnerability-disclosure
   name: Sketch Vulnerability Disclosure
   slug: sketch-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 - kind: trust-center
   name: Sketch Trust Center
   slug: sketch-trust-center

@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.9
-  scored_at: '2026-10-04'
+  score: 19.0
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -111,6 +111,25 @@ collections:
   name: Polymarket APIs (CLOB and Gamma)
   slug: open-polymarket
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/polymarket/refs/heads/main/plans/polymarket-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/polymarket-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/polymarket/refs/heads/main/rate-limits/polymarket-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/polymarket-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/polymarket/refs/heads/main/finops/polymarket-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/polymarket-finops.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://news.polymarket.com/feed
 - group: operate
   title: ''
   type: IssueTracker
@@ -189,22 +208,26 @@ common:
 created: '2026-05-23'
 description: Polymarket is a decentralized prediction-market platform built on Polygon where users buy and sell binary outcome shares in real-world events. Settlement is on-chain via the UMA optimistic oracle, while order matching runs through a hybrid central-limit order book (CLOB). Developer surface includes the CLOB API for order placement and market data, the Gamma API for market and event metadata, a Data API for historical and analytical reads, a WebSocket stream, and official CLOB client SDKs in TypeScript, Python, and Rust.
 finops:
-- name: Polymarket Finops
+- has_sources: false
+  method: generated
+  name: Polymarket Finops
+  primary_unit: ''
   service_category: API
   slug: polymarket-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/polymarket.png
 layout: provider
-modified: '2026-05-29'
+modified: '2026-10-06'
 name: Polymarket
 nav: Providers
 network: true
-overview: 'Polymarket publishes 11 APIs on the [APIs.io](https://apis.io/) network, including WebSocket, CLOB Market Data API, CLOB Trade API, and 8 more. Tagged areas include Prediction Markets, DeFi, Polygon, Order Book, and Crypto.
+overview: 'Polymarket publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including WebSocket, CLOB Market Data API, CLOB Trade API, and 8 more. Tagged areas include Prediction Markets, DeFi, Polygon, Order Book, and Cryptocurrency.
 
 
   The Polymarket catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Polymarket''s developer surface includes authentication, documentation, GitHub presence, support, status page, and 13 more developer resources.'
+  Polymarket''s developer surface includes authentication, documentation, GitHub presence, support, status page, and 17 more developer resources.'
 plans:
 - name: Polymarket Plans Pricing
   plan_count: 1
@@ -215,10 +238,11 @@ rate_limits:
   name: Polymarket Rate Limits
   slug: polymarket-rate-limits
 rules:
-- effective_rule_count: 33
+- authorship: generated
+  effective_rule_count: 33
   extends:
   - spectral:asyncapi
-  name: Polymarket API Rules
+  name: Polymarket — asyncapi rules
   rule_count: 6
   severity_counts:
     error: 1
@@ -227,23 +251,23 @@ rules:
     warn: 5
   slug: polymarket-asyncapi-spectral-rules
 score:
-  band: developing
-  composite: 44.2
+  band: thin
+  composite: 38.8
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 58.2
+    artifact_dirs: 14
+    catalog_earned: 44.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 56.9
+    catalog_gap: 70.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.4
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 11.4
     contract_quality: 54.7
     developer_ergonomics: 26.2
     discoverability: 73.2
-    operational_transparency: 50.5
+    operational_transparency: 36.8
   open_source:
     applies: true
     score: 100.0
@@ -261,9 +285,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0
@@ -283,7 +307,7 @@ tags:
 - DeFi
 - Polygon
 - Order Book
-- Crypto
+- Cryptocurrency
 - Markets
 - Polymarket
 - Real-Time

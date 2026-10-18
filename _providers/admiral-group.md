@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
@@ -161,7 +161,7 @@ modified: '2026-07-25'
 name: Admiral Group
 nav: Providers
 network: true
-overview: 'Admiral Group is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, United Kingdom, Property and Casualty, Motor Insurance, and Home Insurance.
+overview: 'Admiral Group is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, United Kingdom, Property and Casualty, Auto Insurance, and Home Insurance.
 
 
   Admiral Group''s developer surface includes support, engineering blog, and 25 more developer resources.'
@@ -170,7 +170,7 @@ score:
   band: emerging
   composite: 15.4
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -199,8 +199,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 17.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -221,7 +221,7 @@ tags:
 - Insurance
 - United Kingdom
 - Property and Casualty
-- Motor Insurance
+- Auto Insurance
 - Home Insurance
 - Pet Insurance
 - Travel Insurance

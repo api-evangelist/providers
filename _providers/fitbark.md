@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 7
+- acting_count: 3
   human_in_the_loop: 0
   name: Fitbark Agentic Access
   operation_count: 18
   slug: fitbark-agentic-access
-  summary_line: 18 operations · 7 acting
+  summary_line: 18 operations · 3 acting
 api_count: 1
 apis:
 - baseURL: https://app.fitbark.com/api/v2
@@ -89,6 +89,10 @@ collections:
   name: FitBark Activity User API
   slug: open-fitbark-user-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.fitbark.com/blog/
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/fitbark/refs/heads/main/mcp/fitbark-mcp.yml
   title: ''
@@ -175,14 +179,14 @@ created: '2026-07-17'
 description: FitBark makes GPS and health-monitoring wearables for dogs and offers the FitBark Public API (v2), an OAuth 2.0 REST API that lets developers integrate FitBark activity and health data into third-party mobile and web applications. The API exposes a dog's activity series and totals, time-at-activity-level breakdowns, daily activity-point goals, similar-dog statistics, related users and dogs, and Base64/JPEG profile pictures. Approved developers receive a client_id and client_secret and authenticate with the OAuth 2.0 authorization_code and client_credentials grants (base host https://app.fitbark.com). FitBark was a Techstars portfolio company; this profile was enriched by API Evangelist from FitBark's official published developer documentation and Postman collection.
 image: https://www.fitbark.com/favicon.ico
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: FitBark
 nav: Providers
 network: true
-overview: 'FitBark publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Activity API, Dog API, Goals API, and 2 more. Tagged areas include Company, Dogs, Pets, Wearables, and Activity Tracking.
+overview: 'FitBark publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Activity API, Dog API, Goals API, and 2 more. Tagged areas include Company, Dogs, Pets, Wearables, and Activity Tracking.
 
 
-  FitBark''s developer surface includes authentication, documentation, API reference, support, signup flow, and 13 more developer resources.'
+  FitBark''s developer surface includes engineering blog, authentication, documentation, API reference, support, signup flow, and 13 more developer resources.'
 random_paper: 13
 scopes:
 - name: Fitbark Scopes
@@ -191,20 +195,20 @@ scopes:
   summary_line: 1 scope · authorizationCode/clientCredentials
 score:
   band: thin
-  composite: 36.5
+  composite: 37.0
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 23.7
     contract_governance: 4.5
     contract_quality: 48.6
-    developer_ergonomics: 49.4
+    developer_ergonomics: 51.8
     discoverability: 73.2
     operational_transparency: 0.0
   previous_composite: 36.5
@@ -224,8 +228,8 @@ score:
     regime: Health
     regime_id: health
     score: 29.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

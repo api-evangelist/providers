@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'REST API for managing Estimote devices (beacons): list and configure devices, associate cloud Attachments (custom key/value data) with a device, and read events reported by LTE beacons. Authenticated '
@@ -169,7 +169,7 @@ modified: '2026-08-08'
 name: Estimote
 nav: Providers
 network: true
-overview: 'Estimote publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Location, Proximity, Beacons, and Bluetooth.
+overview: 'Estimote is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Location, Proximity, Beacons, and Bluetooth.
 
 
   The Estimote catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -205,8 +205,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

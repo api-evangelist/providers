@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -220,6 +220,10 @@ collections:
   name: Open Data API
   slug: open-uk-open-banking-open-data-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.gbbank.co.uk/feed/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/gb-bank/refs/heads/main/capabilities/gb-bank-capability-edges.yml
   title: ''
@@ -320,14 +324,14 @@ description: GB Bank Limited is a UK challenger bank headquartered in Middlesbro
   surface; the Open Banking API families listed here are represented as the shared industry standard the bank would conform to as an FCA-authorised ASPSP, and are unverified for GB Bank pending a confirmed developer portal or Open Data endpoint.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-modified: '2026-07-23'
+modified: '2026-10-06'
 name: GB Bank
 nav: Providers
 network: true
-overview: 'GB Bank publishes 34 APIs on the [APIs.io](https://apis.io/) network, including Account Access Consents API, Accounts API, ATM API, and 31 more. Tagged areas include Financial Services, Banking, Open Banking, PSD2, and OBIE.
+overview: 'GB Bank publishes 34 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account Access Consents API, Accounts API, ATM API, and 31 more. Tagged areas include Financial Services, Banking, Open Banking, PSD2, and OBIE.
 
 
-  GB Bank''s developer surface includes authentication, support, engineering blog, and 18 more developer resources.'
+  GB Bank''s developer surface includes authentication, support, engineering blog, and 19 more developer resources.'
 random_paper: 20
 scopes:
 - name: Gb Bank Scopes
@@ -338,7 +342,7 @@ score:
   band: thin
   composite: 33.4
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -379,8 +383,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 44.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

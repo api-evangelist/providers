@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 1
@@ -328,7 +328,7 @@ modified: '2026-08-14'
 name: Fasten Health
 nav: Providers
 network: true
-overview: 'Fasten Health publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Bridge API, and 10 more. Tagged areas include Healthcare, FHIR, Personal Health Record, Electronic Medical Record, and Health Data Interoperability.
+overview: 'Fasten Health publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Bridge API, and 10 more. Tagged areas include Healthcare, FHIR, Personal Health Record, Electronic Medical Record, and Health Data Interoperability.
 
 
   The Fasten Health catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -389,8 +389,8 @@ score:
     regime: Health
     regime_id: health
     score: 41.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 6
   slug: discgolfapi-agentic-access
   summary_line: 6 operations
-api_count: 1
+api_count: 2
 apis:
 - baseURL: https://io.discgolfapi.com/v1
   baseurl_source: declared
@@ -92,6 +92,21 @@ collections:
   name: DiscGolfAPI
   slug: open-discgolfapi
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/discgolfapi/refs/heads/main/plans/discgolfapi-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/discgolfapi-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/discgolfapi/refs/heads/main/rate-limits/discgolfapi-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/discgolfapi-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/discgolfapi/refs/heads/main/finops/discgolfapi-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/discgolfapi-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/discgolfapi/refs/heads/main/agentic-access/discgolfapi-agentic-access.yml
   title: ''
@@ -172,9 +187,13 @@ examples:
   name: Discgolfapi Manifest Example
   slug: discgolfapi-manifest-example
 finops:
-- name: Discgolfapi Finops
+- has_sources: false
+  method: generated
+  name: Discgolfapi Finops
+  primary_unit: ''
   service_category: Open Data API
   slug: discgolfapi-finops
+  template: true
 image: https://discgolfapi.com/wp-content/themes/blocksy-child/assets/blue.png
 json_schemas:
 - name: DiscGolfAPI Course
@@ -197,13 +216,13 @@ modified: '2026-05-19'
 name: DiscGolfAPI
 nav: Providers
 network: true
-overview: 'DiscGolfAPI publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Countries API, Courses API, Metadata API, and 2 more. Tagged areas include Disc Golf, Sports, Courses, Open Data, and Recreation.
+overview: 'DiscGolfAPI publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Countries API, Courses API, Metadata API, and 2 more. Tagged areas include Disc Golf, Sports, Courses, Open Data, and Recreation.
 
 
   The DiscGolfAPI catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  DiscGolfAPI''s developer surface includes documentation, changelog, and 14 more developer resources.'
+  DiscGolfAPI''s developer surface includes documentation, changelog, and 17 more developer resources.'
 plans:
 - name: Discgolfapi Plans Pricing
   plan_count: 2
@@ -214,9 +233,10 @@ rate_limits:
   name: Discgolfapi Rate Limits
   slug: discgolfapi-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: DiscGolfAPI API Rules
+  name: DiscGolfAPI — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -224,7 +244,8 @@ rules:
     info: 1
     warn: 4
   slug: discgolfapi-jsonschema-spectral-rules
-- effective_rule_count: 56
+- authorship: unmarked
+  effective_rule_count: 56
   extends:
   - spectral:oas
   name: DiscGolfAPI API Rules
@@ -236,23 +257,23 @@ rules:
     warn: 8
   slug: discgolfapi-rules
 score:
-  band: developing
-  composite: 40.2
+  band: thin
+  composite: 34.1
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 77.4
+    artifact_dirs: 18
+    catalog_earned: 64.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 37.6
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.1
   facets:
-    access_clarity: 37.4
+    access_clarity: 15.8
     contract_governance: 27.3
     contract_quality: 60.4
     developer_ergonomics: 9.5
     discoverability: 67.9
-    operational_transparency: 34.7
+    operational_transparency: 21.1
   previous_composite: 40.2
   provenance:
     agentic_access: derived
@@ -267,9 +288,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

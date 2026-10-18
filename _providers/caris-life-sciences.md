@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.0
-  scored_at: '2026-10-04'
+  score: 17.8
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -68,6 +68,10 @@ collections:
   name: Caris Life Sciences (Public Surface)
   slug: open-caris-life-sciences
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.carislifesciences.com/news-and-events/news/
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/caris-life-sciences/refs/heads/main/agentic-access/caris-life-sciences-agentic-access.yml
   title: ''
@@ -108,19 +112,23 @@ common:
 created: '2026-06-20'
 description: Caris Life Sciences is a molecular science and precision oncology company that delivers comprehensive tumor profiling (Caris Molecular Intelligence / MI Profiling) and a clinico-genomic real-world data platform (CODEai). Clinician access is through the Caris+Portal and partner-provisioned EHR integrations (Epic Orders and Results Anywhere, OncoEMR/Flatiron, iKnowMed, and other CMS-certified systems). Caris does not publish a public, self-serve developer API; integration is partner- and contract-based.
 finops:
-- name: Caris Life Sciences Finops
+- has_sources: true
+  method: generated
+  name: Caris Life Sciences Finops
+  primary_unit: ''
   service_category: Healthcare and Life Sciences
   slug: caris-life-sciences-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/caris-life-sciences.png
 layout: provider
-modified: '2026-06-20'
+modified: '2026-10-06'
 name: Caris Life Sciences
 nav: Providers
 network: true
-overview: 'Caris Life Sciences publishes 2 APIs on the [APIs.io](https://apis.io/) network: Information API and Portal API. Tagged areas include Precision Oncology, Molecular Profiling, Genomics, Healthcare, and EHR Integration.
+overview: 'Caris Life Sciences publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Information API and Portal API. Tagged areas include Precision Oncology, Molecular Profiling, Genomics, Healthcare, and EHR Integration.
 
 
-  Caris Life Sciences'' developer surface includes documentation and 7 more developer resources.'
+  Caris Life Sciences'' developer surface includes engineering blog, documentation, and 7 more developer resources.'
 plans:
 - name: Caris Life Sciences Plans Pricing
   plan_count: 2
@@ -131,23 +139,23 @@ rate_limits:
   name: Caris Life Sciences Rate Limits
   slug: caris-life-sciences-rate-limits
 score:
-  band: thin
-  composite: 27.3
+  band: emerging
+  composite: 20.8
   coverage:
-    artifact_dirs: 9
-    catalog_earned: 58.0
+    artifact_dirs: 10
+    catalog_earned: 42.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.0
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.5
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 43.5
-    developer_ergonomics: 9.5
+    developer_ergonomics: 11.9
     discoverability: 66.1
-    operational_transparency: 28.4
+    operational_transparency: 7.9
   previous_composite: 27.3
   provenance:
     agentic_access: derived
@@ -162,9 +170,9 @@ score:
     regime: Health
     regime_id: health
     score: 4.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

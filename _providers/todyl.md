@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Todyl's External API is a path-versioned REST API served from https://api.todyl.com. Probing it unauthenticated returns Todyl's own JSON error envelope ({"error":{"code":"auth_missing_token","message"
@@ -44,6 +44,11 @@ apis:
   slug: todyl-external-api
 artifact_total: 5
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/todyl/refs/heads/main/rate-limits/todyl-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/todyl-rate-limits.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/todyl/refs/heads/main/security/todyl-domain-security.yml
   title: ''
@@ -135,10 +140,10 @@ modified: '2026-08-30'
 name: Todyl
 nav: Providers
 network: true
-overview: 'Todyl publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cybersecurity, Security, Managed Service Providers, and SASE.
+overview: 'Todyl is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cybersecurity, Security, Managed Service Providers, and SASE.
 
 
-  Todyl''s developer surface includes engineering blog, support, pricing, signup flow, and 12 more developer resources.'
+  Todyl''s developer surface includes engineering blog, support, pricing, signup flow, and 13 more developer resources.'
 plans:
 - name: Todyl Plans Pricing
   plan_count: 0
@@ -176,8 +181,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

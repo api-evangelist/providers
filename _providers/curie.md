@@ -34,8 +34,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 45.6
-  scored_at: '2026-10-04'
-api_count: 1
+  scored_at: '2026-10-17'
+api_count: 2
 apis:
 - baseURL: https://chat.curie.app
   baseurl_source: declared
@@ -59,6 +59,10 @@ collections:
   name: Curie 3D Product Commerce Catalog Products API
   slug: open-curie-products-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://curie.co/blog/
 - group: company
   title: ''
   type: Website
@@ -161,14 +165,14 @@ mcp_servers:
 - description: AI commerce layer for Shopify — search, compare, view 3D models, and buy products from 5.6M+ stores. Free public tier (matches Shopify Storefront MCP behaviour); Pro Bearer required only for premium t
   name: Curie Commerce
   slug: curie-commerce
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Curie
 nav: Providers
 network: true
-overview: 'Curie publishes 2 APIs on the [APIs.io](https://apis.io/) network: Catalog API and Products API. Tagged areas include Company, Commerce, E-Commerce, Shopify, and Artificial Intelligence.
+overview: 'Curie publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Catalog API and Products API. Tagged areas include Company, Commerce, E-Commerce, Shopify, and Artificial Intelligence.
 
 
-  Curie''s developer surface includes documentation, pricing, authentication, and 17 more developer resources.'
+  Curie''s developer surface includes engineering blog, documentation, pricing, authentication, and 17 more developer resources.'
 random_paper: 8
 scopes:
 - name: Curie Scopes
@@ -177,20 +181,20 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 39.4
+  composite: 40.0
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 20
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 31.6
     contract_governance: 18.2
     contract_quality: 52.0
-    developer_ergonomics: 39.9
+    developer_ergonomics: 42.3
     discoverability: 75.0
     operational_transparency: 0.0
   previous_composite: 39.4
@@ -209,8 +213,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 31.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

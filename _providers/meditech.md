@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -385,7 +385,7 @@ modified: '2026-08-14'
 name: MEDITECH
 nav: Providers
 network: true
-overview: 'MEDITECH publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Allergy API, Capability API, Condition API, and 6 more. Tagged areas include Company, EHR, Healthcare, FHIR, and HL7.
+overview: 'MEDITECH publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Allergy API, Capability API, Condition API, and 6 more. Tagged areas include Company, Electronic Health Records, Healthcare, FHIR, and HL7.
 
 
   The MEDITECH catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -402,9 +402,10 @@ rate_limits:
   name: Meditech Rate Limits
   slug: meditech-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: MEDITECH API Rules
+  name: MEDITECH — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -421,7 +422,7 @@ score:
   band: developing
   composite: 43.6
   coverage:
-    artifact_dirs: 27
+    artifact_dirs: 29
     catalog_earned: 53.7
     catalog_earned_first_party: 0.0
     catalog_gap: 61.4
@@ -452,8 +453,8 @@ score:
     regime: Health
     regime_id: health
     score: 47.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -480,7 +481,7 @@ security:
 slug: meditech
 tags:
 - Company
-- EHR
+- Electronic Health Records
 - Healthcare
 - FHIR
 - HL7

@@ -32,10 +32,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.inkitt.com/writersblog/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.inkitt.com/writersblog/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/inkitt/refs/heads/main/security/inkitt-domain-security.yml
   title: ''
@@ -53,28 +61,31 @@ created: '2026-07-17'
 description: Inkitt is a data-driven storytelling and self-publishing technology company that runs a reading and writing community (inkitt.com) and the paid serialized-fiction reading app Galatea. It uses reader-engagement analytics and algorithms to discover promising manuscripts from independent authors and develop the most popular into commercial fiction and adaptations across its Inkitt and Galatea platforms. Founded in 2013 and backed by Earlybird, HV Capital, Khosla Ventures, Kleiner Perkins and Speedinvest, Inkitt operates consumer mobile and web reading products rather than a public developer API; this profile tracks its public web, domain-security, and GitHub surface.
 image: https://avatars.githubusercontent.com/u/1595808?v=4
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Inkitt
 nav: Providers
 network: true
-overview: Inkitt is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Storytelling, Self-Publishing, Fiction, and Reading Apps.
+overview: 'Inkitt is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Storytelling, Self-Publishing, Fiction, and Reading Apps.
+
+
+  Inkitt''s developer surface includes engineering blog and 4 more developer resources.'
 random_paper: 21
 score:
   band: minimal
-  composite: 3.7
+  composite: 4.3
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 48.2
     operational_transparency: 2.6
   previous_composite: 3.7
@@ -84,8 +95,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

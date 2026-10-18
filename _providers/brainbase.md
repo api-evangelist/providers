@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 2
-  human_in_the_loop: 2
+- acting_count: 1
+  human_in_the_loop: 1
   name: Brainbase Agentic Access
   operation_count: 4
   slug: brainbase-agentic-access
-  summary_line: 4 operations · 2 acting · 2 human-in-the-loop
+  summary_line: 4 operations · 1 acting · 1 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://api.brainbase.com
@@ -133,7 +133,7 @@ modified: '2026-07-18'
 name: Brainbase
 nav: Providers
 network: true
-overview: 'Brainbase publishes 2 APIs on the [APIs.io](https://apis.io/) network: ApiContract API and General API. Tagged areas include Company, Cloud, Intellectual Property, Brand Licensing, and Licensing Management.
+overview: 'Brainbase publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: ApiContract API and General API. Tagged areas include Company, Cloud, Intellectual Property, Brand Licensing, and Licensing Management.
 
 
   Brainbase''s developer surface includes authentication and 11 more developer resources.'
@@ -172,8 +172,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 4
 apis:
 - description: Meta's hosted REST API providing access to Llama large language models for chat completions, text generation, and embeddings. Authentication is via API key issued through llama.developer.meta.com.
@@ -51,6 +51,25 @@ apis:
   slug: purple-llama
 artifact_total: 8
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/llama/refs/heads/main/plans/llama-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/llama-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/llama/refs/heads/main/rate-limits/llama-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/llama-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/llama/refs/heads/main/finops/llama-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/llama-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://dev.meta.ai/resources/blog
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/llama/refs/heads/main/security/llama-domain-security.yml
   title: ''
@@ -87,19 +106,23 @@ common:
 created: '2024-01-15'
 description: Llama is Meta's family of open-weight large language models, available for download, self-hosting, and via Meta's hosted Llama API for chat completions, text generation, and embeddings. The ecosystem also includes the open-source llama-models, llama-stack, and PurpleLlama safety projects on GitHub.
 finops:
-- name: Llama Finops
+- has_sources: false
+  method: generated
+  name: Llama Finops
+  primary_unit: ''
   service_category: API
   slug: llama-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/llama.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-10-06'
 name: Llama
 nav: Providers
 network: true
-overview: 'Llama publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, LLM, Machine Learning, Meta, and Open Source.
+overview: 'Llama is listed with 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, LLM, Machine Learning, Meta, and Open Source.
 
 
-  Llama''s developer surface includes documentation, developer portal, and 6 more developer resources.'
+  Llama''s developer surface includes engineering blog, documentation, developer portal, and 9 more developer resources.'
 plans:
 - name: Llama Plans Pricing
   plan_count: 3
@@ -111,31 +134,31 @@ rate_limits:
   slug: llama-rate-limits
 score:
   band: emerging
-  composite: 14.5
+  composite: 13.1
   coverage:
-    artifact_dirs: 6
-    catalog_earned: 44.0
+    artifact_dirs: 8
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 71.0
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.4
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 26.2
+    developer_ergonomics: 28.6
     discoverability: 62.5
     operational_transparency: 10.5
   previous_composite: 14.5
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 5.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

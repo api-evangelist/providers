@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: Wintrust's commercial "API banking" for treasury clients. Rather than a documented REST API, Wintrust connects business customers directly to its secure file transfer protocol (SFTP) for account balan
@@ -44,6 +44,21 @@ apis:
   slug: wintrust-open-banking-aggregator-access
 artifact_total: 6
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/wintrust-financial/refs/heads/main/plans/wintrust-financial-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/wintrust-financial-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/wintrust-financial/refs/heads/main/rate-limits/wintrust-financial-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/wintrust-financial-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/wintrust-financial/refs/heads/main/finops/wintrust-financial-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/wintrust-financial-finops.yml
 - group: commercial
   title: ''
   type: PrivacyPolicy
@@ -82,19 +97,23 @@ common:
 created: '2026-04-19'
 description: Wintrust Financial Corporation is a Rosemont, Illinois-based financial holding company operating a network of chartered community banks (Wintrust Bank, N.A. and its affiliates) primarily across Illinois, Wisconsin, Indiana and Florida, plus specialty lending, wealth management and mortgage businesses. Wintrust does not publish a first-party public developer portal or downloadable API specifications; its programmatic surface is delivered through commercial treasury management. Wintrust describes "API banking" that connects businesses directly to its secure file transfer protocol (SFTP) for account balance and activity reporting, payment files (Positive Pay, ACH, wires, EDI, lockbox) and data-format translation (NACHA, EDI 820, BAI2). Consumer and small-business account data is reachable to third parties through open-banking aggregators — Plaid is the confirmed aggregator supporting Wintrust / iBusinessBanking access.
 finops:
-- name: Wintrust Financial Finops
+- has_sources: true
+  method: generated
+  name: Wintrust Financial Finops
+  primary_unit: ''
   service_category: Banking
   slug: wintrust-financial-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wintrust-financial.png
 layout: provider
 modified: '2026-07-25'
 name: Wintrust Financial
 nav: Providers
 network: true
-overview: 'Wintrust Financial publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Banking, Financial Services, Treasury Management, Commercial Banking, and Open Banking.
+overview: 'Wintrust Financial is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Banking, Financial Services, Treasury Management, Commercial Banking, and Open Banking.
 
 
-  Wintrust Financial''s developer surface includes documentation, engineering blog, and 6 more developer resources.'
+  Wintrust Financial''s developer surface includes documentation, engineering blog, and 9 more developer resources.'
 plans:
 - name: Wintrust Financial Plans Pricing
   plan_count: 1
@@ -105,18 +124,18 @@ rate_limits:
   name: Wintrust Financial Rate Limits
   slug: wintrust-financial-rate-limits
 score:
-  band: emerging
-  composite: 11.9
+  band: minimal
+  composite: 10.4
   coverage:
-    artifact_dirs: 9
-    catalog_earned: 39.0
+    artifact_dirs: 10
+    catalog_earned: 36.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 76.0
+    catalog_gap: 79.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 18.4
+    access_clarity: 10.5
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 10.7
@@ -138,8 +157,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 10.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

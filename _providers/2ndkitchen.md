@@ -35,8 +35,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.0
-  scored_at: '2026-10-04'
-api_count: 9
+  scored_at: '2026-10-17'
+api_count: 18
 apis:
 - baseURL: https://auth-staging.2ndkitchen.com
   baseurl_source: declared
@@ -180,7 +180,7 @@ modified: '2026-07-17'
 name: 2ndKitchen
 nav: Providers
 network: true
-overview: '2ndKitchen publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Brand API, Business API, and 9 more. Tagged areas include Company, Food Technology, Ghost Kitchen, Restaurant, and Food Delivery.
+overview: '2ndKitchen publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authentication API, Brand API, Business API, and 9 more. Tagged areas include Company, Food Technology, Ghost Kitchen, Restaurant, and Food Delivery.
 
 
   2ndKitchen''s developer surface includes authentication, documentation, API reference, and 4 more developer resources.'
@@ -189,7 +189,7 @@ score:
   band: emerging
   composite: 24.2
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -223,8 +223,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 10.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - baseURL: https://api.bokio.se/v1
@@ -389,7 +389,7 @@ modified: '2026-07-18'
 name: Bokio
 nav: Providers
 network: true
-overview: 'Bokio publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Authorization API, Bank Payments API, Chart Of Accounts API, and 13 more. Tagged areas include Company, Fintech, Accounting, Bookkeeping, and Invoicing.
+overview: 'Bokio publishes 16 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authorization API, Bank Payments API, Chart Of Accounts API, and 13 more. Tagged areas include Company, Fintech, Accounting, Bookkeeping, and Invoicing.
 
 
   Bokio''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
@@ -403,7 +403,7 @@ score:
   band: developing
   composite: 45.7
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 24
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -441,8 +441,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

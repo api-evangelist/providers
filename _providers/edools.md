@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Token-authenticated REST API for managing an Edools school — team and role administration, content (courses, learning paths, lessons, media), student management and engagement triggers, and school pro
@@ -148,7 +148,7 @@ modified: '2026-07-19'
 name: Edools
 nav: Providers
 network: true
-overview: 'Edools publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, E-Learning, LMS, and Online Courses.
+overview: 'Edools is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, E-Learning, LMS, and Online Courses.
 
 
   Edools'' developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, authentication, and 15 more developer resources.'
@@ -185,8 +185,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 19.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

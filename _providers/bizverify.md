@@ -23,8 +23,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.8
-  scored_at: '2026-10-04'
-api_count: 1
+  scored_at: '2026-10-17'
+api_count: 2
 apis:
 - description: Hosted MCP server over Streamable HTTP exposing nine tools — get_config, list_jurisdictions, verify_business, search_entities, check_job_status, get_entity, get_entity_history, get_account and purchas
   name: BizVerify MCP Server
@@ -176,7 +176,7 @@ modified: '2026-08-02'
 name: BizVerify
 nav: Providers
 network: true
-overview: 'BizVerify publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Account API, Auth API, Billing API, and 7 more. Tagged areas include Business Verification, KYB, Entity Verification, Compliance, and MCP.
+overview: 'BizVerify publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Auth API, Billing API, and 7 more. Tagged areas include Business Verification, KYB, Entity Verification, Compliance, and MCP.
 
 
   BizVerify''s developer surface includes documentation and 12 more developer resources.'
@@ -185,7 +185,7 @@ score:
   band: thin
   composite: 26.9
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -213,8 +213,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 7.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

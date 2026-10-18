@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 28.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Commercial REST API over the Tastewise food and beverage intelligence graph. Publicly documented operations span recipes (popular/trending), ingredients, dishes and side dishes, restaurants (search, d
@@ -48,6 +48,10 @@ asyncapis:
   name: Tastewise Webhooks
   slug: tastewise-webhooks
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://tastewise.io/blog/feed
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/tastewise/refs/heads/main/security/tastewise-trust-center.yml
   title: ''
@@ -156,17 +160,17 @@ created: '2026-08-29'
 description: 'Tastewise is a food and beverage consumer-intelligence platform that reads live demand across social posts, recipes, restaurant menus and retail data, and exposes it to product-innovation, marketing, foodservice and retail-sales teams at CPG brands. The platform is built on menus from 1.4M+ restaurants, 12K+ retail brands, social signals from 90M+ consumers and a proprietary consumer panel. Tastewise sells a commercial REST API — documented publicly at docs.tastewise.io and served from api.tastewise.io — covering recipes, ingredients, dishes, restaurants, menus, consumer motivations, content discovery, trend validation and trend performance, plus an embedded widgets surface and bulk product-list operations with webhook callbacks. Access is per-customer: a bearer API key plus an X-Customer-Id header, with per-route permissions granted per contract. Customers include Nestle and Mars.'
 image: https://tastewise.io/wp-content/uploads/2024/01/favicon-150x150.png
 layout: provider
-modified: '2026-08-29'
+modified: '2026-10-06'
 name: Tastewise
 nav: Providers
 network: true
-overview: 'Tastewise publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food and Beverage, Consumer Insights, Market Intelligence, and Restaurant.
+overview: 'Tastewise is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food and Beverage, Consumer Insights, Market Intelligence, and Restaurant.
 
 
   The Tastewise catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Tastewise''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, authentication, and 16 more developer resources.'
+  Tastewise''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, authentication, and 17 more developer resources.'
 plans:
 - name: Tastewise Plans Pricing
   plan_count: 0
@@ -178,7 +182,7 @@ rate_limits:
   slug: tastewise-rate-limits
 score:
   band: developing
-  composite: 43.1
+  composite: 43.2
   coverage:
     artifact_dirs: 16
     catalog_earned: 49.0
@@ -186,7 +190,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 47.4
     contract_governance: 18.2
@@ -208,8 +212,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

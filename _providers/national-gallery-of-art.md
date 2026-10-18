@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.nga.gov/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/national-gallery-of-art/refs/heads/main/security/national-gallery-of-art-domain-security.yml
   title: ''
@@ -73,20 +77,20 @@ created: '2024-12-25'
 description: The National Gallery of Art is a national art museum in Washington, D.C., located on the National Mall. The Gallery provides open access to images and data about its art collection through its Open Access program. While the Gallery does not publish a documented public REST API, it releases a comprehensive open dataset of more than 130,000 artworks and associated creators in CSV format under Creative Commons Zero licensing through its GitHub repository, with reconciled Wikidata Q-item identifiers for research interoperability.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/national-gallery-of-art.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-10-06'
 name: National Gallery of Art
 nav: Providers
 network: true
 overview: 'National Gallery of Art is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Art, Federal Government, Museums, Open Data, and Cultural Heritage.
 
 
-  National Gallery of Art''s developer surface includes developer portal and 7 more developer resources.'
+  National Gallery of Art''s developer surface includes developer portal and 8 more developer resources.'
 random_paper: 15
 score:
   band: minimal
   composite: 5.6
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -112,8 +116,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

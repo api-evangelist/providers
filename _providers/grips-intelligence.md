@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: REST data API exposing Grips Intelligence e-commerce analytics. Requests are HTTPS POSTs carrying a GraphQL-style query envelope (query + variables), scoped by domain, date range, and country. Endpoin
@@ -41,6 +41,10 @@ apis:
   slug: grips-data-api
 artifact_total: 5
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://gripsintelligence.com/feed
 - group: company
   title: ''
   type: Website
@@ -136,14 +140,14 @@ mcp_servers:
 - description: Remote MCP server at app.gripsintelligence.com over HTTP.
   name: Peekd Data MCP
   slug: peekd-data-mcp
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Grips Intelligence
 nav: Providers
 network: true
-overview: 'Grips Intelligence publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-commerce Intelligence, Competitive Intelligence, Market Research, and Analytics.
+overview: 'Grips Intelligence is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-commerce Intelligence, Competitive Intelligence, Market Research, and Analytics.
 
 
-  Grips Intelligence''s developer surface includes documentation, API reference, engineering blog, pricing, signup flow, support, authentication, and 13 more developer resources.'
+  Grips Intelligence''s developer surface includes documentation, API reference, engineering blog, pricing, signup flow, support, authentication, and 14 more developer resources.'
 random_paper: 13
 scopes:
 - name: Grips Intelligence Scopes
@@ -152,7 +156,7 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: thin
-  composite: 27.9
+  composite: 28.0
   coverage:
     artifact_dirs: 10
     catalog_earned: 37.0
@@ -160,7 +164,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 44.7
     contract_governance: 0.0
@@ -177,8 +181,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

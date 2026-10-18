@@ -12,7 +12,6 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -29,13 +28,13 @@ agent_readiness:
     mcp_server: verified
     openapi_examples: false
     protected_resource_metadata: verified
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 40.3
-  scored_at: '2026-10-04'
+  score: 38.4
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -277,9 +276,13 @@ common:
 created: '2026-07-11'
 description: Hubstaff is a time tracking and workforce analytics platform for remote, hybrid, and field teams. The Hubstaff API v2 provides read and write access to tracked time (10-minute activity blocks and daily aggregates), time entries, timesheets and approvals, time off, attendance schedules and shifts, organizations, members, teams, projects, tasks, clients, invoices, team payments, screenshots, app and URL usage, and webhooks - authenticated with OAuth 2.0 / OpenID Connect or personal access tokens.
 finops:
-- name: Hubstaff Finops
+- has_sources: true
+  method: generated
+  name: Hubstaff Finops
+  primary_unit: ''
   service_category: Business Applications
   slug: hubstaff-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hubstaff.png
 layout: provider
 mcp_servers:
@@ -290,7 +293,7 @@ modified: '2026-07-11'
 name: Hubstaff
 nav: Providers
 network: true
-overview: 'Hubstaff publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Activities API, App & URL Tracking API, Attendance API, and 16 more. Tagged areas include Time Tracking, Timesheets, Workforce Management, Productivity, and Employee Monitoring.
+overview: 'Hubstaff publishes 19 API contracts indexed on the [APIs.io](https://apis.io/) network, including Activities API, App & URL Tracking API, Attendance API, and 16 more. Tagged areas include Time Tracking, Timesheets, Workforce Management, Productivity, and Employee Monitoring.
 
 
   Hubstaff''s developer surface includes authentication, documentation, pricing, support, engineering blog, and 10 more developer resources.'
@@ -305,22 +308,22 @@ rate_limits:
   slug: hubstaff-rate-limits
 score:
   band: thin
-  composite: 39.0
+  composite: 30.7
   coverage:
-    artifact_dirs: 14
-    catalog_earned: 61.6
+    artifact_dirs: 15
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.4
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 46.8
+    access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 50.2
     developer_ergonomics: 35.7
     discoverability: 68.3
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   previous_composite: 39.0
   provenance:
     agentic_access: derived
@@ -336,9 +339,9 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 17.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

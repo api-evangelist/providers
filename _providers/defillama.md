@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 49.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 31
   slug: defillama-agentic-access
   summary_line: 31 operations
-api_count: 1
+api_count: 2
 apis:
 - description: Free, no-auth REST API exposing 31+ endpoints for protocol TVL, chain TVL, coin prices, stablecoin metrics, yield pools, DEX volumes, and fees. Underpins thousands of dashboards and integrations.
   name: DefiLlama Public API
@@ -110,6 +110,10 @@ collections:
 common:
 - group: company
   title: ''
+  type: Blog
+  url: https://defillama.com/press
+- group: company
+  title: ''
   type: Website
   url: https://www.defillama.com/
 - group: agent
@@ -165,23 +169,27 @@ common:
 created: '2026-05-08'
 description: DefiLlama is the largest open-source DeFi TVL and yield aggregator. It publishes a free public REST API (api.llama.fi) and a Pro API (pro-api.llama.fi) that adds higher rate limits and exclusive endpoints for token unlocks, bridges, digital-asset treasuries, and other advanced datasets. Free API requires no authentication; Pro is $300/month.
 finops:
-- name: Defillama Finops
+- has_sources: true
+  method: generated
+  name: Defillama Finops
+  primary_unit: ''
   service_category: Crypto Analytics
   slug: defillama-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/defillama.png
 layout: provider
 mcp_servers:
 - description: Remote MCP server at mcp.defillama.com over HTTP.
   name: DefiLlama MCP Server
   slug: defillama
-modified: '2026-05-08'
+modified: '2026-10-06'
 name: DefiLlama
 nav: Providers
 network: true
-overview: 'DefiLlama publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Coins API, Fees API, Stablecoins API, and 5 more. Tagged areas include Web3, DeFi, TVL, Crypto, and Stablecoins.
+overview: 'DefiLlama publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Coins API, Fees API, Stablecoins API, and 5 more. Tagged areas include Web3, DeFi, TVL, Cryptocurrency, and Stablecoins.
 
 
-  DefiLlama''s developer surface includes authentication, developer portal, documentation, pricing, GitHub presence, and 7 more developer resources.'
+  DefiLlama''s developer surface includes engineering blog, authentication, developer portal, documentation, pricing, GitHub presence, and 7 more developer resources.'
 plans:
 - name: Defillama Plans Pricing
   plan_count: 2
@@ -193,20 +201,20 @@ rate_limits:
   slug: defillama-rate-limits
 score:
   band: thin
-  composite: 29.0
+  composite: 27.9
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 44.0
+    artifact_dirs: 13
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 71.0
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.1
   facets:
-    access_clarity: 23.7
+    access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 41.6
-    developer_ergonomics: 31.0
+    developer_ergonomics: 33.3
     discoverability: 68.3
     operational_transparency: 10.5
   previous_composite: 29.0
@@ -224,8 +232,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -246,7 +254,7 @@ tags:
 - Web3
 - DeFi
 - TVL
-- Crypto
+- Cryptocurrency
 - Stablecoins
 - Yield
 - Bridge

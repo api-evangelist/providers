@@ -34,14 +34,23 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: REST + WebSocket API for driving real-time photorealistic AI avatars. Create meeting bots that join Google Meet or LiveKit rooms and stream a talking avatar rendered from an avatar_id, wiring audio in
   name: DigiSelf Realtime API
   slug: digiself-realtime-api
-artifact_total: 3
+artifact_total: 4
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/embodyme/refs/heads/main/plans/embodyme-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/embodyme-plans-pricing.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://company.embodyme.com/press/
 - group: company
   title: ''
   type: Website
@@ -117,31 +126,35 @@ created: '2026-07-17'
 description: EmbodyMe, Inc. is a Tokyo-based AI company building real-time neural rendering and 3D dense face-tracking technology for photorealistic digital humans. Its flagship developer product, DigiSelf, turns a single photo into a lifelike AI avatar that speaks from text or audio in dozens of languages, in both pre-recorded video and sub-second real-time interactive modes. The DigiSelf Realtime API (api.digiself.tech) and Stream API (WebSocket) let developers drive avatars into LiveKit rooms, Google Meet meeting bots, chatbots, live streaming, gaming, and advertising via an x-api-key protected REST + WebSocket surface. EmbodyMe also ships the xpression camera, xpression chat, and xpression avatar consumer apps and a cross-platform Real-time AI Video Generation SDK for iOS, Android, Windows, and Mac. Backed by Techstars, with recognition from NVIDIA, Microsoft, Product Hunt, and SIGGRAPH ASIA.
 image: https://digiself.tech/assets/images/logo/logo_text.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: EmbodyMe
 nav: Providers
 network: true
-overview: 'EmbodyMe publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Avatars, Digital Humans, and Neural Rendering.
+overview: 'EmbodyMe is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Avatars, Digital Humans, and Neural Rendering.
 
 
-  EmbodyMe''s developer surface includes developer portal, documentation, getting-started guide, signup flow, pricing, authentication, and 10 more developer resources.'
+  EmbodyMe''s developer surface includes engineering blog, developer portal, documentation, getting-started guide, signup flow, pricing, authentication, and 11 more developer resources.'
+plans:
+- name: Embodyme Plans Pricing
+  plan_count: 3
+  slug: embodyme-plans-pricing
 random_paper: 14
 score:
-  band: emerging
-  composite: 21.6
+  band: thin
+  composite: 28.0
   coverage:
-    artifact_dirs: 9
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 11
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.4
   facets:
-    access_clarity: 27.6
+    access_clarity: 59.2
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 42.9
+    developer_ergonomics: 45.2
     discoverability: 73.2
     operational_transparency: 2.6
   jurisdiction:
@@ -156,13 +169,13 @@ score:
     mcp: derived
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 14.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

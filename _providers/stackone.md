@@ -30,13 +30,13 @@ agent_readiness:
     mcp_server: verified
     openapi_examples: verified
     protected_resource_metadata: verified
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 49.6
-  scored_at: '2026-10-04'
+  score: 47.8
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -46,35 +46,35 @@ agentic_access:
   summary_line: 78 operations · 23 acting
 api_count: 1
 apis:
-- description: StackOne Unified HRIS API provides a single, standardized interface to interact with multiple HR information system providers, normalizing data models for employee data, shifts, time-off, documents, a
-  name: StackOne Unified HRIS API
+- description: 'Legacy (no longer in active development; existing functionality remains supported). StackOne Unified HRIS API provides a single, standardized interface to interact with multiple HR information system '
+  name: StackOne Unified HRIS API (Legacy)
   slug: hris-api
-- description: StackOne Unified ATS API standardizes recruitment workflows across applicant tracking system providers, providing consistent data models for candidates, job postings, applications, and hiring pipeline
-  name: StackOne Unified ATS API
+- description: Legacy (no longer in active development; existing functionality remains supported). StackOne Unified ATS API standardizes recruitment workflows across applicant tracking system providers, providing co
+  name: StackOne Unified ATS API (Legacy)
   slug: ats-api
-- description: StackOne Unified CRM API provides a standardized interface for managing customer contacts, accounts, and opportunities across multiple CRM platforms, ensuring a consistent view of customer data.
-  name: StackOne Unified CRM API
+- description: Legacy (no longer in active development; existing functionality remains supported). StackOne Unified CRM API provides a standardized interface for managing customer contacts, accounts, and opportuniti
+  name: StackOne Unified CRM API (Legacy)
   slug: crm-api
-- description: StackOne Unified LMS API standardizes learning management across platforms, streamlining course delivery, user progress tracking, content management, and assignments with consistent data models across
-  name: StackOne Unified LMS API
+- description: Legacy (no longer in active development; existing functionality remains supported). StackOne Unified LMS API standardizes learning management across platforms, streamlining course delivery, user progr
+  name: StackOne Unified LMS API (Legacy)
   slug: lms-api
-- description: StackOne Unified IAM API provides a standardized interface for identity and access management across providers, with comprehensive user management, role and permission mapping, group management, and r
-  name: StackOne Unified IAM API
+- description: Legacy (no longer in active development; existing functionality remains supported). StackOne Unified IAM API provides a standardized interface for identity and access management across providers, with
+  name: StackOne Unified IAM API (Legacy)
   slug: iam-api
-- description: StackOne Unified Documents API provides a standardized interface for file and knowledge management across platforms like Google Drive, SharePoint, Dropbox, and Box, with consistent data models for dri
-  name: StackOne Unified Documents API
+- description: 'Legacy (no longer in active development; existing functionality remains supported). StackOne Unified Documents API provides a standardized interface for file and knowledge management across platforms '
+  name: StackOne Unified Documents API (Legacy)
   slug: documents-api
-- description: StackOne Unified Marketing API standardizes campaign management across platforms, streamlining messages (SMS, Email, Push), campaigns, templates, and more with consistent endpoints across marketing au
-  name: StackOne Unified Marketing API
+- description: Legacy (no longer in active development; existing functionality remains supported). StackOne Unified Marketing API standardizes campaign management across platforms, streamlining messages (SMS, Email,
+  name: StackOne Unified Marketing API (Legacy)
   slug: marketing-api
-- description: StackOne Unified Ticketing API standardizes support workflows across helpdesk platforms, with consistent data models for ticket management, comments, and status tracking.
-  name: StackOne Unified Ticketing API
+- description: Legacy (no longer in active development; existing functionality remains supported). StackOne Unified Ticketing API standardizes support workflows across helpdesk platforms, with consistent data models
+  name: StackOne Unified Ticketing API (Legacy)
   slug: ticketing-api
-- description: StackOne Unified Messaging API standardizes communication workflows across platforms, with consistent data models for conversations, message delivery, and participant management.
-  name: StackOne Unified Messaging API
+- description: Legacy (no longer in active development; existing functionality remains supported). StackOne Unified Messaging API standardizes communication workflows across platforms, with consistent data models fo
+  name: StackOne Unified Messaging API (Legacy)
   slug: messaging-api
-- description: StackOne Unified Screening API standardizes candidate verification across platforms, streamlining background checks, assessments, and screening workflows with consistent data models.
-  name: StackOne Unified Screening API
+- description: Legacy (no longer in active development; existing functionality remains supported). StackOne Unified Screening API standardizes candidate verification across platforms, streamlining background checks,
+  name: StackOne Unified Screening API (Legacy)
   slug: screening-api
 - description: StackOne Platform API serves as the control plane for managing accounts, executing actions, controlling integrations, discovering connectors, monitoring and debugging via logs, and proxy requests acro
   name: StackOne Platform API
@@ -189,7 +189,7 @@ apis:
   description: The Users API from StackOne — 2 operation(s) for users.
   name: StackOne Users API
   slug: stackone-users-api
-artifact_total: 275
+artifact_total: 246
 collections:
 - collection_type: postman
   name: Marketing Accounts API
@@ -330,6 +330,21 @@ collections:
   name: Marketing
   slug: open-stackone
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/stackone/refs/heads/main/plans/stackone-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/stackone-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/stackone/refs/heads/main/rate-limits/stackone-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/stackone-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/stackone/refs/heads/main/finops/stackone-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/stackone-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/stackone/refs/heads/main/capabilities/stackone-capability-edges.yml
   title: ''
@@ -469,8 +484,12 @@ common:
   url: https://github.com/StackOneHQ/stackone-client-postman
 - group: agent
   title: ''
-  type: MCPServers
+  type: MCPServer
   url: https://docs.stackone.com/mcp/quickstart
+- group: agent
+  title: ''
+  type: MCPGateway
+  url: https://www.stackone.com/platform/mcp/
 - group: other
   title: ''
   type: A2AProtocol
@@ -492,50 +511,24 @@ common:
   type: LlmsText
   url: https://docs.stackone.com/llms.txt
 created: '2025-06-05'
-description: StackOne is an AI-powered embedded integration platform as a service (iPaaS) designed to simplify and accelerate how SaaS vendors and AI agents connect with enterprise software. It combines a proprietary LLM-based agent with a real-time execution engine to automate and manage integrations no need for manual API wiring or data syncing.
+description: 'StackOne is a Tool Gateway that connects AI agents to business applications (550+ connectors and 34,000+ actions), exposed through an MCP gateway, A2A agents and a Platform API, with agent authentication, tool discovery, tool policies, prompt-injection defense (StackOne Defender), an agent execution engine, observability and an AI integration builder. Its earlier Unified APIs (HRIS, ATS, CRM, LMS, IAM, Documents, Marketing, Ticketing, Messaging, Screening) are legacy: no longer in active development, with existing functionality still supported.'
 examples:
 - key_count: 4
   name: Stackone List Employees Example
   slug: stackone-list-employees-example
 features:
 - name: Unified APIs
-- name: Platform APIs
+- name: Custom Unified Fields
 - name: Integration Hub
 - name: Authentication Links
-- name: API Keys
-- name: Request Logs
-- name: Webhooks
-- name: Manage Integrations
-- name: Manage Projects
-- name: Manage Organizations
-- name: Custom Unified Fields
-- name: Liberaries
-- name: SDKs
-- name: Advanced Parameters
-- name: Pagination
-- name: StackOne Identifiers
-- name: Rate Limiting
-- name: OpenAPI Tools
-- name: Tool Filtering
-- name: Artificial Intelligence
-- name: RAG
-- name: SLA Guaranteed Integrations
-- name: Native Webhooks
-- name: Synthetic Webhooks
-- name: Authentication UI
-- name: Multi-Region
-- name: Hybrid Deployment
-- name: No PII Stored
-- name: MCP Server
-- name: A2A Protocol
-- name: Actions API
-- name: Connector Builder
-- name: Proxy Requests
-- name: Sandbox Environments
 finops:
-- name: Stackone Finops
+- has_sources: true
+  method: generated
+  name: Stackone Finops
+  primary_unit: ''
   service_category: Integration Platform
   slug: stackone-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/stackone.png
 json_schemas:
 - name: Account
@@ -969,20 +962,23 @@ jsonld:
   slug: stackone-context
 layout: provider
 mcp_servers:
+- description: Endpoints https://api.stackone.com/mcp and https://mcp.stackone.com/mcp (both answer 401 without credentials, probed 2026-10-14).
+  name: StackOne MCP Server Quickstart
+  slug: stackone-mcp-server-quickstart
 - description: Remote MCP server at mcp.stackone.com over HTTP.
   name: StackOne MCP Server
   slug: stackone
-modified: '2026-05-19'
+modified: '2026-10-14'
 name: StackOne
 nav: Providers
 network: true
-overview: 'StackOne publishes 33 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Applications API, Campaigns API, and 30 more. Tagged areas include Integration and iPaaS.
+overview: 'StackOne publishes 33 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, Applications API, Campaigns API, and 30 more. Tagged areas include AI Agents, MCP, and AI Agent Infrastructure.
 
 
   The StackOne catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  StackOne''s developer surface includes authentication, engineering blog, changelog, documentation, getting-started guide, pricing, and 33 more developer resources.'
+  StackOne''s developer surface includes authentication, engineering blog, changelog, documentation, getting-started guide, pricing, and 37 more developer resources.'
 plans:
 - name: Stackone Plans Pricing
   plan_count: 3
@@ -993,9 +989,10 @@ rate_limits:
   name: Stackone Rate Limits
   slug: stackone-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: StackOne API Rules
+  name: StackOne — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1003,7 +1000,8 @@ rules:
     info: 1
     warn: 4
   slug: stackone-jsonschema-spectral-rules
-- effective_rule_count: 7
+- authorship: unmarked
+  effective_rule_count: 7
   extends: []
   name: StackOne API Rules
   rule_count: 7
@@ -1015,17 +1013,17 @@ rules:
   slug: stackone-rules
 score:
   band: developing
-  composite: 46.6
+  composite: 45.0
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 47.3
+    artifact_dirs: 22
+    catalog_earned: 44.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 67.8
+    catalog_gap: 70.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 47.4
+    access_clarity: 39.5
     contract_governance: 9.8
     contract_quality: 52.4
     developer_ergonomics: 54.8
@@ -1046,8 +1044,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -1068,8 +1066,9 @@ security:
   summary_line: SOC 2, ISO 27001
 slug: stackone
 tags:
-- Integration
-- iPaaS
+- AI Agents
+- MCP
+- AI Agent Infrastructure
 use_cases:
 - name: AI Agents
 - name: People Tech

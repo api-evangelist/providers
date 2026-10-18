@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: The Alaris Infusion Interoperability solution connects the Alaris System (large-volume pump modules and syringe modules) to hospital EMR platforms so that physician infusion orders flow wirelessly int
@@ -44,6 +44,21 @@ apis:
   slug: pyxis-automated-dispensing
 artifact_total: 8
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/carefusion/refs/heads/main/plans/carefusion-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/carefusion-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/carefusion/refs/heads/main/rate-limits/carefusion-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/carefusion-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/carefusion/refs/heads/main/finops/carefusion-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/carefusion-finops.yml
 - group: company
   title: ''
   type: Website
@@ -114,19 +129,23 @@ common:
 created: '2026-03-23'
 description: CareFusion is a medical technology brand, acquired by BD (Becton, Dickinson and Company) in 2015, best known for the Alaris infusion system and the Pyxis automated dispensing product line. CareFusion does not expose a public developer API; instead, its devices and dispensing systems interoperate with hospital EMRs and pharmacy systems over HL7 v2 messaging, smart-pump interoperability middleware, and vendor-managed integration services. The Alaris Infusion Interoperability program wirelessly transmits orders from EMRs (such as Epic and Cerner) into Alaris large-volume and syringe modules and returns infusion status back to the EMR in near real time, using the Alaris Guardrails drug library as a safety layer.
 finops:
-- name: Carefusion Finops
+- has_sources: false
+  method: generated
+  name: Carefusion Finops
+  primary_unit: ''
   service_category: API
   slug: carefusion-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/carefusion.png
 layout: provider
 modified: '2026-09-06'
 name: CareFusion (BD)
 nav: Providers
 network: true
-overview: 'CareFusion (BD) publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Automated Dispensing, BD, CareFusion, Connected Devices, and EMR Integration.
+overview: 'CareFusion (BD) is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Automated Dispensing, BD, CareFusion, Connected Devices, and EMR Integration.
 
 
-  CareFusion (BD)''s developer surface includes support and 14 more developer resources.'
+  CareFusion (BD)''s developer surface includes support and 17 more developer resources.'
 plans:
 - name: Carefusion Plans Pricing
   plan_count: 0
@@ -154,17 +173,17 @@ rate_limits:
   slug: carefusion-rate-limits
 score:
   band: emerging
-  composite: 24.1
+  composite: 22.6
   coverage:
     artifact_dirs: 14
-    catalog_earned: 35.0
+    catalog_earned: 32.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 80.0
+    catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 44.7
+    access_clarity: 36.8
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 14.3
@@ -179,8 +198,8 @@ score:
     regime: Health
     regime_id: health
     score: 28.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

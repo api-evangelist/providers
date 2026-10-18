@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Aramis Group publishes the machine-readable contracts behind the Aramisauto vehicle catalog as ten JSON Schema 2020-12 documents at https://schemas.aramis.group/ — a search request envelope (criteria/
@@ -210,7 +210,7 @@ modified: '2026-08-17'
 name: AramisAuto
 nav: Providers
 network: true
-overview: 'AramisAuto publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Automotive, E-Commerce, and Used Cars.
+overview: 'AramisAuto is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Automotive, E-Commerce, and Used Cars.
 
 
   AramisAuto''s developer surface includes code examples, support, engineering blog, YouTube channel, and 21 more developer resources.'
@@ -227,7 +227,7 @@ score:
   band: emerging
   composite: 18.4
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 44.3
     catalog_earned_first_party: 6.0
     catalog_gap: 70.8
@@ -258,8 +258,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 9
+- acting_count: 7
   human_in_the_loop: 0
   name: Halliday Agentic Access
   operation_count: 16
   slug: halliday-agentic-access
-  summary_line: 16 operations · 9 acting
+  summary_line: 16 operations · 7 acting
 api_count: 1
 apis:
 - baseURL: https://v2.prod.halliday.xyz
@@ -86,6 +86,10 @@ collections:
   name: Halliday API V2 Assets Webhooks API
   slug: open-halliday-webhooks-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.halliday.xyz/rss/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/halliday/refs/heads/main/capabilities/halliday-capability-edges.yml
   title: ''
@@ -232,23 +236,23 @@ created: '2026-07-17'
 description: Halliday is a web3 payments and agentic-workflow company (a16z crypto Series A) building the end-to-end onchain deposit platform. Its Agentic Workflow Protocol (AWP) lets developers compose high-level, AI-executable workflows behind immutable guardrails without writing smart-contract code. The flagship product, Halliday Payments, is a unified cross-chain payments API and drop-in widget that lets users onramp from fiat, bridge, and swap to acquire any asset on any chain in a fully self-custodial way, routing intelligently across onramps (MoonPay, Transak, Stripe), swaps, and bridges. The Halliday API V2 (https://v2.prod.halliday.xyz) exposes chains, assets, quotes, payments, balances, withdrawals, and signed workflow webhooks, authenticated with publishable API keys, alongside JS/React/React Native SDKs and a published Claude Code integration skill.
 image: https://halliday.xyz/opengraph-image
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Halliday
 nav: Providers
 network: true
-overview: 'Halliday publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Assets API, Chains API, Payments API, and 1 more. Tagged areas include Company, Payments, Cryptocurrency, Blockchain, and Web3.
+overview: 'Halliday publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Assets API, Chains API, Payments API, and 1 more. Tagged areas include Company, Payments, Cryptocurrency, Blockchain, and Web3.
 
 
   The Halliday catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Halliday''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, sandbox, and 24 more developer resources.'
+  Halliday''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, sandbox, and 25 more developer resources.'
 random_paper: 4
 score:
   band: developing
   composite: 48.0
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -279,8 +283,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

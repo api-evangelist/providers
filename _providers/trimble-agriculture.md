@@ -30,13 +30,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -138,6 +138,21 @@ collections:
   name: Trimble Agriculture Data API
   slug: open-trimble-agriculture
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/trimble-agriculture/refs/heads/main/plans/trimble-agriculture-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/trimble-agriculture-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/trimble-agriculture/refs/heads/main/rate-limits/trimble-agriculture-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/trimble-agriculture-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/trimble-agriculture/refs/heads/main/finops/trimble-agriculture-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/trimble-agriculture-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/trimble-agriculture/refs/heads/main/capabilities/trimble-agriculture-capability-edges.yml
   title: ''
@@ -204,9 +219,13 @@ examples:
   name: Trimble Agriculture List Farms Example
   slug: trimble-agriculture-list-farms-example
 finops:
-- name: Trimble Agriculture Finops
+- has_sources: false
+  method: generated
+  name: Trimble Agriculture Finops
+  primary_unit: ''
   service_category: API
   slug: trimble-agriculture-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/trimble-agriculture.png
 json_schemas:
 - name: Trimble Agriculture Equipment Activity
@@ -229,13 +248,13 @@ modified: '2026-05-19'
 name: Trimble Agriculture
 nav: Providers
 network: true
-overview: 'Trimble Agriculture publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Boundaries API, Crop Zones API, Equipment Activities API, and 8 more. Tagged areas include Agriculture, Farming, IoT, Precision Agriculture, and Field Management.
+overview: 'Trimble Agriculture publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Boundaries API, Crop Zones API, Equipment Activities API, and 8 more. Tagged areas include Agriculture, Farming, IoT, Precision Agriculture, and Field Management.
 
 
   The Trimble Agriculture catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Trimble Agriculture''s developer surface includes authentication, documentation, signup flow, and 9 more developer resources.'
+  Trimble Agriculture''s developer surface includes authentication, documentation, signup flow, and 12 more developer resources.'
 plans:
 - name: Trimble Agriculture Plans Pricing
   plan_count: 3
@@ -246,9 +265,10 @@ rate_limits:
   name: Trimble Agriculture Rate Limits
   slug: trimble-agriculture-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Trimble Agriculture API Rules
+  name: Trimble Agriculture — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -256,7 +276,8 @@ rules:
     info: 2
     warn: 3
   slug: trimble-agriculture-jsonschema-spectral-rules
-- effective_rule_count: 52
+- authorship: unmarked
+  effective_rule_count: 52
   extends:
   - spectral:oas
   name: Trimble Agriculture API Rules
@@ -269,17 +290,17 @@ rules:
   slug: trimble-agriculture-rules
 score:
   band: thin
-  composite: 34.4
+  composite: 32.9
   coverage:
     artifact_dirs: 17
-    catalog_earned: 56.5
+    catalog_earned: 53.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 58.5
+    catalog_gap: 61.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 36.8
+    access_clarity: 28.9
     contract_governance: 13.6
     contract_quality: 55.5
     developer_ergonomics: 21.4
@@ -299,8 +320,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

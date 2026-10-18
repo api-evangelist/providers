@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-04'
+  score: 20.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -154,16 +154,20 @@ common:
 created: '2026-06-21'
 description: Ambee is an environmental-intelligence company that aggregates satellite, sensor, and ground-station data into a unified REST API. The Ambee API delivers hyperlocal air quality, pollen, weather, wildfire, soil, and NDVI/vegetation data worldwide via simple lat/lng, postal-code, and place lookups secured with an x-api-key header.
 finops:
-- name: Ambee Finops
+- has_sources: true
+  method: generated
+  name: Ambee Finops
+  primary_unit: ''
   service_category: Analytics and Data
   slug: ambee-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ambee.png
 layout: provider
 modified: '2026-06-21'
 name: Ambee
 nav: Providers
 network: true
-overview: 'Ambee publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Air Quality API, Fire API, NDVI API, and 3 more. Tagged areas include Environmental Intelligence, Air Quality, Weather, Pollen, and Geospatial.
+overview: 'Ambee publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Air Quality API, Fire API, NDVI API, and 3 more. Tagged areas include Environmental Intelligence, Air Quality, Weather, Pollen, and Geospatial.
 
 
   Ambee''s developer surface includes authentication, engineering blog, documentation, and 8 more developer resources.'
@@ -178,22 +182,22 @@ rate_limits:
   slug: ambee-rate-limits
 score:
   band: thin
-  composite: 33.6
+  composite: 26.7
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 58.0
+    artifact_dirs: 12
+    catalog_earned: 42.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.0
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.9
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 46.8
     developer_ergonomics: 32.1
     discoverability: 66.1
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   previous_composite: 33.6
   provenance:
     agentic_access: derived
@@ -208,9 +212,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

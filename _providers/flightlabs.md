@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 46.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -108,6 +108,21 @@ collections:
   name: FlightLabs Aircraft Routes API
   slug: open-flightlabs-routes-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/flightlabs/refs/heads/main/plans/plans.yml
+  title: ''
+  type: Plans
+  url: plans/plans.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/flightlabs/refs/heads/main/rate-limits/rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/flightlabs/refs/heads/main/finops/finops.yml
+  title: ''
+  type: FinOps
+  url: finops/finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/flightlabs/refs/heads/main/agentic-access/flightlabs-agentic-access.yml
   title: ''
@@ -139,9 +154,13 @@ examples:
   name: Routes
   slug: routes
 finops:
-- name: Finops
+- has_sources: false
+  method: generated
+  name: Finops
+  primary_unit: ''
   service_category: ''
   slug: finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/flightlabs.png
 json_schemas:
 - name: AirlineData
@@ -167,13 +186,13 @@ modified: '2026-06-13'
 name: FlightLabs
 nav: Providers
 network: true
-overview: 'FlightLabs publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Aircraft API, Airlines API, Airports API, and 4 more. Tagged areas include Aviation, Flights, Airlines, Airports, and Flight Tracking.
+overview: 'FlightLabs publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Aircraft API, Airlines API, Airports API, and 4 more. Tagged areas include Aviation, Flights, Airlines, Airports, and Flight Tracking.
 
 
   The FlightLabs catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  FlightLabs'' developer surface includes authentication and 2 more developer resources.'
+  FlightLabs'' developer surface includes authentication and 5 more developer resources.'
 plans:
 - name: Plans
   plan_count: 7
@@ -184,9 +203,10 @@ rate_limits:
   name: Rate Limits
   slug: rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: FlightLabs API Rules
+  name: FlightLabs — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -196,17 +216,17 @@ rules:
   slug: flightlabs-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 35.2
+  composite: 29.6
   coverage:
     artifact_dirs: 16
-    catalog_earned: 62.1
+    catalog_earned: 51.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.0
+    catalog_gap: 63.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.6
   facets:
-    access_clarity: 42.9
+    access_clarity: 14.5
     contract_governance: 9.8
     contract_quality: 54.9
     developer_ergonomics: 23.8
@@ -227,9 +247,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

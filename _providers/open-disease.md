@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: API for Current cases and more stuff about COVID-19 and Influenza
@@ -61,7 +61,7 @@ modified: '2026-05-28'
 name: Open Disease
 nav: Providers
 network: true
-overview: Open Disease publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Health and Public APIs.
+overview: Open Disease is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Health and Public APIs.
 random_paper: 3
 score:
   band: minimal
@@ -88,8 +88,8 @@ score:
     regime: Health
     regime_id: health
     score: 4.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

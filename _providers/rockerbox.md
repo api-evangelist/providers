@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: 'Rockerbox''s server-side integration. A documented HTTP POST endpoint that accepts one conversion or marketing event per request as JSON, authenticated by a Rockerbox Advertiser ID passed in the query '
@@ -210,9 +210,13 @@ common:
 created: 2026-06-13
 description: 'Rockerbox is a New York-based unified marketing measurement platform that combines multi-touch attribution (MTA), marketing mix modeling (MMM) and incrementality testing on a single first-party data foundation spanning 100+ advertising integrations. Its developer surface is deliberately narrow and unusual: there is no public REST API and no OpenAPI. Data goes IN through a documented server-side conversion webhook, onsite tracking pixels, and batch files; results come OUT as warehouse shares into Snowflake, BigQuery or Redshift against published schemas, plus scheduled and ad hoc exports. Rockerbox does, however, run a genuinely modern agent surface on its Data Foundation documentation host — an anonymous remote MCP server, an A2A agent card, a provider-published Agent Skill, an llms.txt, and an explicit robots.txt Content-Signal grant.'
 finops:
-- name: Rockerbox Finops
+- has_sources: false
+  method: generated
+  name: Rockerbox Finops
+  primary_unit: ''
   service_category: ''
   slug: rockerbox-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rockerbox.png
 jsonld:
 - class_count: 7
@@ -228,7 +232,7 @@ modified: 2026-08-13
 name: Rockerbox
 nav: Providers
 network: true
-overview: 'Rockerbox publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Marketing Attribution, Multi-Touch Attribution, Marketing Mix Modeling, Incrementality Testing, and Media Spend.
+overview: 'Rockerbox is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Marketing Attribution, Multi-Touch Attribution, Marketing Mix Modeling, Incrementality Testing, and Media Spend.
 
 
   The Rockerbox catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 JSON-LD context.
@@ -245,18 +249,18 @@ rate_limits:
   name: Rockerbox Rate Limits
   slug: rockerbox-rate-limits
 score:
-  band: strong
-  composite: 54.4
+  band: developing
+  composite: 52.9
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 56.0
+    artifact_dirs: 21
+    catalog_earned: 53.0
     catalog_earned_first_party: 8.0
-    catalog_gap: 59.0
+    catalog_gap: 62.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 75.0
+    access_clarity: 67.1
     contract_governance: 18.2
     contract_quality: 49.4
     developer_ergonomics: 64.3
@@ -286,8 +290,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

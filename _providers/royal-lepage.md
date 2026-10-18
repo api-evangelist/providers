@@ -34,10 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.royallepage.ca/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/royal-lepage/refs/heads/main/security/royal-lepage-domain-security.yml
   title: ''
@@ -145,7 +149,7 @@ jsonld:
   property_count: 0
   slug: royal-lepage-organization
 layout: provider
-modified: '2026-07-26'
+modified: '2026-10-06'
 name: Royal LePage
 nav: Providers
 network: true
@@ -155,13 +159,13 @@ overview: 'Royal LePage is profiled on the [APIs.io](https://apis.io/) network. 
   The Royal LePage catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Royal LePage''s developer surface includes developer portal, support, YouTube channel, and 20 more developer resources.'
+  Royal LePage''s developer surface includes developer portal, support, YouTube channel, and 21 more developer resources.'
 random_paper: 8
 score:
   band: emerging
   composite: 15.4
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -191,8 +195,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 17.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

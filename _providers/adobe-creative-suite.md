@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.1
-  scored_at: '2026-10-04'
+  score: 26.2
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 30
+- acting_count: 29
   human_in_the_loop: 0
   name: Adobe Creative Suite Agentic Access
   operation_count: 39
   slug: adobe-creative-suite-agentic-access
-  summary_line: 39 operations · 30 acting
+  summary_line: 39 operations · 29 acting
 api_count: 4
 apis:
 - description: 'The Adobe Illustrator API enables programmatic creation and manipulation of vector graphics through scripting and plugin interfaces. It exposes the Illustrator object model so developers can automate '
@@ -391,6 +391,21 @@ collections:
   name: Adobe Creative Suite Adobe Firefly Accessibility Video Generation API
   slug: open-adobe-creative-suite-video-generation-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/plans/adobe-creative-suite-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/adobe-creative-suite-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/rate-limits/adobe-creative-suite-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/adobe-creative-suite-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/finops/adobe-creative-suite-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/adobe-creative-suite-finops.yml
 - group: company
   title: ''
   type: Website
@@ -814,9 +829,13 @@ features:
 - description: UXP framework for building modern plugins across Creative Cloud apps.
   name: Plugin Development
 finops:
-- name: Adobe Creative Suite Finops
+- has_sources: true
+  method: generated
+  name: Adobe Creative Suite Finops
+  primary_unit: ''
   service_category: Creative SaaS (Discontinued)
   slug: adobe-creative-suite-finops
+  template: false
 image: /assets/icons/adobe-creative-suite.png
 json_schemas:
 - name: ArtboardRequest
@@ -1346,13 +1365,13 @@ modified: '2026-05-19'
 name: Adobe Creative Suite
 nav: Providers
 network: true
-overview: 'Adobe Creative Suite publishes 38 APIs on the [APIs.io](https://apis.io/) network, including Accessibility API, Artboard API, Assets API, and 35 more. Tagged areas include Creative, Design, Graphics, Photography, and Video.
+overview: 'Adobe Creative Suite publishes 38 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accessibility API, Artboard API, Assets API, and 35 more. Tagged areas include Creative, Design, Graphics, Photography, and Video.
 
 
   The Adobe Creative Suite catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Adobe Creative Suite''s developer surface includes authentication, developer portal, signup flow, getting-started guide, documentation, engineering blog, Stack Overflow tag, and 41 more developer resources.'
+  Adobe Creative Suite''s developer surface includes authentication, developer portal, signup flow, getting-started guide, documentation, engineering blog, Stack Overflow tag, and 44 more developer resources.'
 plans:
 - name: Adobe Creative Suite Plans Pricing
   plan_count: 1
@@ -1363,9 +1382,10 @@ rate_limits:
   name: Adobe Creative Suite Rate Limits
   slug: adobe-creative-suite-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Adobe Creative Suite API Rules
+  name: Adobe Creative Suite — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1373,7 +1393,8 @@ rules:
     info: 2
     warn: 3
   slug: adobe-creative-suite-jsonschema-spectral-rules
-- effective_rule_count: 63
+- authorship: generated
+  effective_rule_count: 63
   extends:
   - spectral:oas
   name: Adobe Creative Suite API Rules
@@ -1386,23 +1407,23 @@ rules:
   slug: adobe-creative-suite-spectral-rules
 score:
   band: developing
-  composite: 51.7
+  composite: 50.2
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 66.5
+    artifact_dirs: 21
+    catalog_earned: 63.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 48.5
+    catalog_gap: 51.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -1.5
   facets:
-    access_clarity: 47.4
+    access_clarity: 39.5
     contract_governance: 13.6
     contract_quality: 66.4
     developer_ergonomics: 65.5
     discoverability: 62.5
     operational_transparency: 15.8
-  previous_composite: 51.2
+  previous_composite: 51.7
   provenance:
     agentic_access: derived
     contracts:
@@ -1416,8 +1437,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

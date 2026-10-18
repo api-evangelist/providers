@@ -27,16 +27,31 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 5
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sustaira/refs/heads/main/plans/sustaira-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/sustaira-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/sustaira/refs/heads/main/rate-limits/sustaira-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/sustaira-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sustaira/refs/heads/main/finops/sustaira-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/sustaira-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/sustaira/refs/heads/main/security/sustaira-domain-security.yml
   title: ''
@@ -85,9 +100,13 @@ common:
 created: '2026-05-23'
 description: Sustaira is a modular, AI-powered sustainability and ESG application platform built on a low-code architecture in partnership with Mendix. Customers use Sustaira to run carbon accounting (Scope 1, 2, and 3), ESG disclosure and reporting aligned to CSRD, CDP, PCAF, and SASB, sustainability project and KPI tracking, supply chain data collection, and industry-specific sustainability workflows across construction, finance, logistics, healthcare, and other sectors. Integration into customer systems is handled through web services and APIs on the underlying Mendix platform, plus a marketplace of 150+ sustainability accelerators. Sustaira does not publish a public, self-service developer API portal; integration access is delivered through customer enterprise contracts and partner programs.
 finops:
-- name: Sustaira Finops
+- has_sources: false
+  method: generated
+  name: Sustaira Finops
+  primary_unit: ''
   service_category: API
   slug: sustaira-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sustaira.png
 jsonld:
 - class_count: 24
@@ -105,7 +124,7 @@ overview: 'Sustaira is profiled on the [APIs.io](https://apis.io/) network. Tagg
   The Sustaira catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Sustaira''s developer surface includes pricing, engineering blog, product news, and 8 more developer resources.'
+  Sustaira''s developer surface includes pricing, engineering blog, product news, and 11 more developer resources.'
 plans:
 - name: Sustaira Plans Pricing
   plan_count: 1
@@ -117,22 +136,22 @@ rate_limits:
   slug: sustaira-rate-limits
 score:
   band: emerging
-  composite: 18.3
+  composite: 12.3
   coverage:
     artifact_dirs: 9
-    catalog_earned: 55.4
+    catalog_earned: 42.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 59.6
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.0
   facets:
-    access_clarity: 37.4
+    access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 14.7
     developer_ergonomics: 2.4
     discoverability: 49.1
-    operational_transparency: 18.9
+    operational_transparency: 5.3
   previous_composite: 18.3
   regulatory:
     applies: true
@@ -140,9 +159,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

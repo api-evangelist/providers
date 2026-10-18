@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: REST API for patient outreach, consent checking and auditing, record-location search, test-patient creation, and usage reporting, plus a FHIR R4 server ($everything) for standards-based access to a co
@@ -41,6 +41,10 @@ apis:
   slug: healthex-api
 artifact_total: 6
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.healthex.io/press
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/healthex/refs/heads/main/security/healthex-domain-security.yml
   title: ''
@@ -173,14 +177,14 @@ mcp_servers:
 - description: 'Hosted Model Context Protocol server exposing a consented patient''s FHIR-based health record to AI agents through standardized tools, with per-patient data isolation and natural-language search. Also '
   name: HealthEx MCP Server
   slug: healthex
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: HealthEx
 nav: Providers
 network: true
-overview: 'HealthEx publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Health Records, FHIR, and Patient Consent.
+overview: 'HealthEx is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Health Records, FHIR, and Patient Consent.
 
 
-  HealthEx''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, changelog, and 20 more developer resources.'
+  HealthEx''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, signup flow, authentication, and 21 more developer resources.'
 random_paper: 15
 scopes:
 - name: Healthex Scopes
@@ -189,20 +193,20 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: thin
-  composite: 36.7
+  composite: 37.2
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 18
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 28.9
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 63.7
+    developer_ergonomics: 66.1
     discoverability: 75.0
     operational_transparency: 31.6
   previous_composite: 36.7
@@ -220,8 +224,8 @@ score:
     regime: Health
     regime_id: health
     score: 41.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

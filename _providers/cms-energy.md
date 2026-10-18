@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 1
@@ -115,6 +115,10 @@ collections:
   name: Consumers Energy Green Button Connect My Data API (UtilityAPI)
   slug: open-cms-energy
 common:
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://greenbutton.consumersenergy.com/
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/cms-energy/refs/heads/main/agentic-access/cms-energy-agentic-access.yml
   title: ''
@@ -293,9 +297,13 @@ common:
 created: '2026-03-21'
 description: CMS Energy is an energy holding company whose primary subsidiary is Consumers Energy, an electric and natural gas utility serving customers in Michigan. Consumers Energy participates in the Green Button Connect My Data (GBCMD) program, exposing customer-authorized energy usage data to third parties via OAuth 2.0 - typically brokered through UtilityAPI - for use in energy management, demand response, EV charging, solar, and sustainability applications.
 finops:
-- name: Cms Energy Finops
+- has_sources: true
+  method: generated
+  name: Cms Energy Finops
+  primary_unit: ''
   service_category: Energy / Utility
   slug: cms-energy-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cms-energy.png
 layout: provider
 mcp_servers:
@@ -306,13 +314,13 @@ modified: '2026-09-06'
 name: CMS Energy
 nav: Providers
 network: true
-overview: 'CMS Energy publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Authorizations API, Bills API, GreenButton API, and 6 more. Tagged areas include Electric, Energy, Green Button, Michigan, and Natural Gas.
+overview: 'CMS Energy publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authorizations API, Bills API, GreenButton API, and 6 more. Tagged areas include Electric, Energy, Green Button, Michigan, and Natural Gas.
 
 
   The CMS Energy catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  CMS Energy''s developer surface includes authentication, documentation, support, sandbox, API reference, getting-started guide, signup flow, and 31 more developer resources.'
+  CMS Energy''s developer surface includes pricing, authentication, documentation, support, sandbox, API reference, getting-started guide, and 32 more developer resources.'
 plans:
 - name: Cms Energy Plans Pricing
   plan_count: 2
@@ -345,17 +353,17 @@ scopes:
   summary_line: 10 scopes
 score:
   band: strong
-  composite: 54.8
+  composite: 55.3
   coverage:
-    artifact_dirs: 28
-    catalog_earned: 60.0
+    artifact_dirs: 29
+    catalog_earned: 57.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 55.0
+    catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
-    access_clarity: 64.5
+    access_clarity: 67.1
     contract_governance: 0.0
     contract_quality: 40.6
     developer_ergonomics: 58.9
@@ -378,8 +386,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 54.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

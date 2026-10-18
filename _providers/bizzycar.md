@@ -33,10 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.bizzycar.com/blog/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/bizzycar/refs/heads/main/security/bizzycar-domain-security.yml
   title: ''
@@ -93,18 +97,18 @@ created: '2026-08-07'
 description: 'BizzyCar is a B2B SaaS platform for automotive dealerships that automates service recall management, customer outreach and mobile service. Founded in 2018 and headquartered in Saint Peters, Missouri, the company ingests VIN-level open-recall data from OEM partners, matches it against a dealer''s market area and DMS records, then uses AI-driven outreach (SMS, email, voice) to book service appointments and dispatch mobile service vans. Products include Recall Outreach, Recall Scout, Recall Radar, Service Engine, Mobile Service and Fleet IQ. BizzyCar is primarily an API *consumer* rather than an API producer: it ships pre-built connectors into dealer management systems (Dealertrack, DMS Plus, Open/Mate, Asbury, PBS, Tekion, Fortellis, Reynolds & Reynolds) and service schedulers (Xtime, TCC, DealerFX, Affinitiv, Update Promise), but publishes no public developer program, API reference or machine-readable contract of its own.'
 image: https://www.bizzycar.com/hubfs/1.%201200x630.png
 layout: provider
-modified: '2026-08-07'
+modified: '2026-10-06'
 name: BizzyCar
 nav: Providers
 network: true
 overview: 'BizzyCar is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Automotive, Recall Management, Dealership, and Mobile Service.
 
 
-  BizzyCar''s developer surface includes engineering blog, support, and 7 more developer resources.'
+  BizzyCar''s developer surface includes engineering blog, support, and 8 more developer resources.'
 random_paper: 20
 score:
   band: emerging
-  composite: 12.2
+  composite: 12.3
   coverage:
     artifact_dirs: 6
     catalog_earned: 27.0
@@ -112,7 +116,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 27.6
     contract_governance: 0.0
@@ -134,8 +138,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

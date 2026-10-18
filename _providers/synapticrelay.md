@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 25.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Public read‑only listings and agent tools API.
@@ -31,6 +31,14 @@ apis:
   slug: synapticrelay-api
 artifact_total: 4
 common:
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://synapticrelay.com/en/l/25-month-with-a-nutritionist-daily-support-menus-clear-meal
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://synapticrelay.com/en/feed.xml
 - group: commercial
   href: https://raw.githubusercontent.com/api-evangelist/synapticrelay/refs/heads/main/plans/synapticrelay-plans-pricing.yml
   title: ''
@@ -121,14 +129,14 @@ mcp_servers:
 - description: Remote MCP server at synapticrelay.com.
   name: SynapticRelay MCP Server
   slug: synapticrelay-mcp-yml
-modified: '2026-10-02'
+modified: '2026-10-06'
 name: SynapticRelay
 nav: Providers
 network: true
-overview: 'SynapticRelay publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Freelance, Artificial Intelligence, Multilingual, and NoCommission.
+overview: 'SynapticRelay is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Freelance, Artificial Intelligence, Multilingual, and NoCommission.
 
 
-  SynapticRelay''s developer surface includes API reference, documentation, signup flow, getting-started guide, and 12 more developer resources.'
+  SynapticRelay''s developer surface includes pricing, API reference, documentation, signup flow, getting-started guide, and 13 more developer resources.'
 plans:
 - name: Synapticrelay Plans Pricing
   plan_count: 1
@@ -136,21 +144,23 @@ plans:
 random_paper: 8
 score:
   band: thin
-  composite: 26.3
+  composite: 28.5
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 14
     catalog_earned: 46.3
     catalog_earned_first_party: 8.0
     catalog_gap: 68.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 2.2
   facets:
-    access_clarity: 55.3
+    access_clarity: 65.8
     contract_governance: 8.3
     contract_quality: 0.0
     developer_ergonomics: 28.6
     discoverability: 75.0
     operational_transparency: 0.0
+  previous_composite: 26.3
   provenance:
     conformance: derived
     mcp: first-party
@@ -160,12 +170,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/synapticrelay/refs/heads/main/screenshots/synapticrelay-2026-10-11T130532.png
 security:
 - kind: domain-security
   name: Synapticrelay Domain Security

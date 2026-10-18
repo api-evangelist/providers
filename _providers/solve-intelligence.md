@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Solve Intelligence's first-party remote Model Context Protocol server. A streamable-HTTP MCP endpoint, authorized with OAuth against the company's own authorization server, that exposes patent and non
@@ -45,6 +45,11 @@ apis:
   slug: solve-mcp
 artifact_total: 8
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/solve-intelligence/refs/heads/main/rate-limits/solve-intelligence-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/solve-intelligence-rate-limits.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/solve-intelligence/refs/heads/main/security/solve-intelligence-trust-center.yml
   title: ''
@@ -130,10 +135,10 @@ modified: '2026-08-28'
 name: Solve Intelligence
 nav: Providers
 network: true
-overview: 'Solve Intelligence publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Legal, Legal Tech, Intellectual Property, and Patents.
+overview: 'Solve Intelligence is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Legal, Legal Tech, Intellectual Property, and Patents.
 
 
-  Solve Intelligence''s developer surface includes documentation, engineering blog, support, and 13 more developer resources.'
+  Solve Intelligence''s developer surface includes documentation, engineering blog, support, and 14 more developer resources.'
 plans:
 - name: Solve Intelligence Plans Pricing
   plan_count: 0
@@ -176,8 +181,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 36.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 24.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://api.hackmd.io/v1
@@ -259,7 +259,7 @@ modified: '2026-07-19'
 name: HackMD
 nav: Providers
 network: true
-overview: 'HackMD publishes 8 APIs on the [APIs.io](https://apis.io/) network, including History API, Profile API, Team Folders API, and 5 more. Tagged areas include Company, Markdown, Collaboration, Documentation, and Note Taking.
+overview: 'HackMD publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including History API, Profile API, Team Folders API, and 5 more. Tagged areas include Company, Markdown, Collaboration, Documentation, and Note Taking.
 
 
   HackMD''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 24 more developer resources.'
@@ -272,7 +272,7 @@ score:
   band: developing
   composite: 50.0
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
@@ -302,8 +302,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

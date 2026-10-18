@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 8
 apis:
 - description: Consumer-facing web application for conversational AI trip planning, itinerary building, collaboration, and booking of flights, hotels, restaurants, experiences, and events.
@@ -62,6 +62,10 @@ apis:
   slug: partner-integrations
 artifact_total: 13
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://mindtrip.ai/press
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/mindtrip/refs/heads/main/security/mindtrip-vulnerability-disclosure.yml
   title: ''
@@ -114,19 +118,23 @@ common:
 created: '2026-05-23'
 description: Mindtrip is an AI-powered travel planning platform that lets travelers discover destinations, build itineraries, and book flights, hotels, restaurants, experiences, and events through a conversational interface and collaborative trip workspace. Mindtrip Flights launched in May 2026 as the industry's first end-to-end agentic AI flight booking experience, powered by partnership with Sabre (travel content / GDS APIs) and PayPal (payments). Mindtrip is primarily a consumer product; it does not currently expose a general-purpose public REST API, but participates in partner integrations (Sabre Mosaic, PayPal, Ripe ITA, GuideGeek) and runs a Creator and Business program for destinations and hotels.
 finops:
-- name: Mindtrip Finops
+- has_sources: true
+  method: generated
+  name: Mindtrip Finops
+  primary_unit: ''
   service_category: Travel
   slug: mindtrip-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mindtrip.png
 layout: provider
-modified: '2026-06-02'
+modified: '2026-10-06'
 name: Mindtrip
 nav: Providers
 network: true
-overview: 'Mindtrip publishes 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Travel, Artificial Intelligence, AI Agents, Itinerary Planning, and Booking.
+overview: 'Mindtrip is listed with 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Travel, Artificial Intelligence, AI Agents, Itinerary Planning, and Booking.
 
 
-  Mindtrip''s developer surface includes documentation, GitHub presence, pricing, and 8 more developer resources.'
+  Mindtrip''s developer surface includes engineering blog, documentation, GitHub presence, pricing, and 8 more developer resources.'
 plans:
 - name: Mindtrip Plans Pricing
   plan_count: 3
@@ -138,22 +146,22 @@ rate_limits:
   slug: mindtrip-rate-limits
 score:
   band: emerging
-  composite: 20.1
+  composite: 13.2
   coverage:
-    artifact_dirs: 6
-    catalog_earned: 56.0
+    artifact_dirs: 7
+    catalog_earned: 40.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 59.0
+    catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.9
   facets:
-    access_clarity: 46.8
+    access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 9.5
+    developer_ergonomics: 11.9
     discoverability: 64.3
-    operational_transparency: 24.2
+    operational_transparency: 10.5
   previous_composite: 20.1
   regulatory:
     applies: true
@@ -161,13 +169,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/mindtrip/refs/heads/main/screenshots/mindtrip-2026-10-11T191015.png
 security:
 - kind: domain-security
   name: Mindtrip Domain Security

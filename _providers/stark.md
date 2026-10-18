@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.getstark.co/blog-rss.xml
 - group: company
   title: ''
   type: Website
@@ -112,18 +116,18 @@ created: '2026-07-17'
 description: Stark is a digital accessibility compliance platform used by more than 50,000 companies as their accessibility infrastructure across the entire software product lifecycle, from issue detection and remediation to insights and governance. Stark ships design-tool plug-ins for Figma, Sketch, and Adobe XD, browser extensions for Chrome, Firefox, Edge, Safari, Arc, and Brave, a web dashboard for project management and real-time reporting, and a Compliance Center for managing accessibility posture against regulatory frameworks such as WCAG, ADA, and the European Accessibility Act. Stark does not currently publish a public developer API; this profile captures its identity and the security, trust, and operational-transparency surfaces it publishes.
 image: https://res.cloudinary.com/stark-lab/image/upload/v1761273066/marketing/meta/homepage_fzpkxd.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Stark
 nav: Providers
 network: true
 overview: 'Stark is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Accessibility, Compliance, Design Tools, and Developer Tools.
 
 
-  Stark''s developer surface includes engineering blog, support, pricing, signup flow, and 13 more developer resources.'
+  Stark''s developer surface includes engineering blog, support, pricing, signup flow, and 14 more developer resources.'
 random_paper: 21
 score:
   band: emerging
-  composite: 20.7
+  composite: 20.8
   coverage:
     artifact_dirs: 5
     catalog_earned: 27.0
@@ -131,7 +135,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 53.9
     contract_governance: 0.0
@@ -146,8 +150,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

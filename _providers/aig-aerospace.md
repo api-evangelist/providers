@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 10
 common:
@@ -150,7 +150,7 @@ modified: '2026-09-14'
 name: AIG Aerospace
 nav: Providers
 network: true
-overview: 'AIG Aerospace is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Aviation, Aerospace, Specialty Insurance, and Property Casualty.
+overview: 'AIG Aerospace is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Aviation, Aerospace, Specialty Insurance, and Property and Casualty.
 
 
   AIG Aerospace''s developer surface includes documentation, support, developer portal, engineering blog, and 16 more developer resources.'
@@ -167,7 +167,7 @@ score:
   band: emerging
   composite: 15.8
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 10
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -188,13 +188,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 17.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/aig-aerospace/refs/heads/main/screenshots/aig-aerospace-2026-10-11T093258.png
 security:
 - kind: domain-security
   name: Aig Aerospace Domain Security
@@ -210,7 +211,7 @@ tags:
 - Aviation
 - Aerospace
 - Specialty Insurance
-- Property Casualty
+- Property and Casualty
 - Claims
 - Unmanned Aircraft
 - Enterprise

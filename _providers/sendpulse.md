@@ -35,15 +35,15 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 53.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 382
-  human_in_the_loop: 7
+- acting_count: 232
+  human_in_the_loop: 1
   name: Sendpulse Agentic Access
-  operation_count: 635
+  operation_count: 411
   slug: sendpulse-agentic-access
-  summary_line: 635 operations · 382 acting · 7 human-in-the-loop
-api_count: 20
+  summary_line: 411 operations · 232 acting · 1 human-in-the-loop
+api_count: 35
 apis:
 - baseURL: https://api.sendpulse.com
   baseurl_source: declared
@@ -1609,7 +1609,7 @@ apis:
     question: What details are stored for a specific web push website?
   phrasing_ops: 4
   slug: sendpulse-websites-api
-artifact_total: 108
+artifact_total: 107
 asyncapis:
 - description: ''
   name: Sendpulse Webhooks
@@ -1962,23 +1962,24 @@ common:
 created: '2026-06-25'
 description: SendPulse is a multichannel marketing automation platform covering bulk email, SMTP transactional email, SMS, web push, website pop-ups, a CRM, an online course builder, and chatbots across WhatsApp, Telegram, Facebook Messenger, Instagram, Viber, TikTok and its own live chat widget. It publishes nineteen first-party OpenAPI 3.1 specifications totalling 635 operations from https://api.sendpulse.com/.well-known/openapi/, indexed by a master index.yaml and mirrored by an llms.txt, an llms-full.txt, a service-directory.json and an ai-plugin.json. Authentication is OAuth 2.0 client_credentials against POST /oauth/access_token (one-hour Bearer tokens) or a static account API key in the same Authorization header. SendPulse also operates a first-party remote MCP server at https://mcp.sendpulse.com/mcp with 147 published tools covering chatbots, CRM, courses, email and SMTP.
 finops:
-- name: Sendpulse Finops
+- has_sources: true
+  method: generated
+  name: Sendpulse Finops
+  primary_unit: ''
   service_category: Marketing and Communications
   slug: sendpulse-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sendpulse.png
 layout: provider
 mcp_servers:
 - description: First-party remote MCP server operated by SendPulse over Streamable HTTP. It fronts the SendPulse REST API so an AI client can read statistics, manage contacts and deals, run campaigns and send messag
   name: SendPulse MCP Server
   slug: sendpulse-mcp-server
-- description: ''
-  name: SendPulse MCP Server
-  slug: mcp
 modified: '2026-08-13'
 name: SendPulse
 nav: Providers
 network: true
-overview: 'SendPulse publishes 85 APIs on the [APIs.io](https://apis.io/) network, including Account API, Attachments API, Automation Flows API, and 82 more. Tagged areas include Marketing, Marketing Automation, Email, Transactional Email, and SMS.
+overview: 'SendPulse publishes 85 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Attachments API, Automation Flows API, and 82 more. Tagged areas include Marketing, Marketing Automation, Email, Transactional Email, and SMS.
 
 
   The SendPulse catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -2001,23 +2002,23 @@ scopes:
   summary_line: 1 scope
 score:
   band: exemplar
-  composite: 70.0
+  composite: 68.4
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 65.8
+    artifact_dirs: 27
+    catalog_earned: 62.8
     catalog_earned_first_party: 12.0
-    catalog_gap: 49.2
+    catalog_gap: 52.2
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -1.6
   facets:
-    access_clarity: 96.8
+    access_clarity: 88.9
     contract_governance: 4.5
     contract_quality: 52.7
     developer_ergonomics: 66.1
-    discoverability: 75.0
+    discoverability: 80.0
     operational_transparency: 81.6
-  previous_composite: 69.5
+  previous_composite: 70.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -2038,8 +2039,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 44.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

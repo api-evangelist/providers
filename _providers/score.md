@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: The Score Specification (score.yaml) is a declarative, platform-agnostic workload definition format that captures containers, service ports, and resource dependencies in a single file. Reference CLI i
@@ -47,6 +47,21 @@ apis:
   slug: score-k8s
 artifact_total: 10
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/score/refs/heads/main/plans/score-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/score-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/score/refs/heads/main/rate-limits/score-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/score-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/score/refs/heads/main/finops/score-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/score-finops.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -114,9 +129,13 @@ examples:
   name: Score Compose Output Example
   slug: score-compose-output-example
 finops:
-- name: Score Finops
+- has_sources: false
+  method: generated
+  name: Score Finops
+  primary_unit: ''
   service_category: API
   slug: score-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/score.png
 jsonld:
 - class_count: 44
@@ -128,13 +147,13 @@ modified: '2026-05-02'
 name: Score
 nav: Providers
 network: true
-overview: 'Score publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Platform Engineering, Cloud-Native, CNCF, Workload Specification, and Kubernetes.
+overview: 'Score is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Platform Engineering, Cloud-Native, CNCF, Workload Specification, and Kubernetes.
 
 
   The Score catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Score''s developer surface includes documentation, engineering blog, and 12 more developer resources.'
+  Score''s developer surface includes documentation, engineering blog, and 15 more developer resources.'
 plans:
 - name: Score Plans Pricing
   plan_count: 3
@@ -146,17 +165,17 @@ rate_limits:
   slug: score-rate-limits
 score:
   band: thin
-  composite: 28.1
+  composite: 26.7
   coverage:
-    artifact_dirs: 10
-    catalog_earned: 56.5
+    artifact_dirs: 11
+    catalog_earned: 53.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 58.5
+    catalog_gap: 61.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.4
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 13.6
     contract_quality: 10.7
     developer_ergonomics: 11.9
@@ -172,8 +191,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

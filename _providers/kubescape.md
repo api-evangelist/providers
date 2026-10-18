@@ -28,20 +28,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 18
-  human_in_the_loop: 4
+- acting_count: 8
+  human_in_the_loop: 2
   name: Kubescape Agentic Access
   operation_count: 23
   slug: kubescape-agentic-access
-  summary_line: 23 operations · 18 acting · 4 human-in-the-loop
+  summary_line: 23 operations · 8 acting · 2 human-in-the-loop
 api_count: 1
 apis:
 - description: The open-source Kubescape Operator's in-cluster components (storage, kubevuln, gateway, operator, node-agent) each expose an OpenAPI/Swagger-documented HTTP API reachable inside the cluster at /openap
@@ -162,16 +162,20 @@ common:
 created: '2026-07-11'
 description: Kubescape is an open-source (Apache 2.0) Kubernetes security platform and CNCF incubating project, originally contributed by ARMO. It provides risk analysis, security and compliance posture scanning, misconfiguration detection, image and runtime vulnerability scanning, and eBPF-based runtime threat detection across the IDE, CI/CD pipelines, and live clusters. The core Kubescape is a CLI and an in-cluster Operator whose components expose OpenAPI/Swagger-documented HTTP APIs in-cluster (there is no single hosted public REST endpoint for the open-source tool). ARMO Platform is the commercial multi-cluster, multi-cloud SaaS built on Kubescape and exposes a documented hosted Customer API (base https://api.armosec.io) for posture, compliance, vulnerabilities, runtime incidents, attack paths, network policies, and registry/repository scanning, authenticated with an X-API-KEY access key.
 finops:
-- name: Kubescape Finops
+- has_sources: true
+  method: generated
+  name: Kubescape Finops
+  primary_unit: ''
   service_category: Security and Compliance
   slug: kubescape-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kubescape.png
 layout: provider
 modified: '2026-07-11'
 name: Kubescape
 nav: Providers
 network: true
-overview: 'Kubescape publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Access Keys API, Network Policies API, Posture & Compliance API, and 4 more. Tagged areas include Kubernetes Security, Cloud Native Security, Container Security, DevSecOps, and Kubernetes.
+overview: 'Kubescape publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Access Keys API, Network Policies API, Posture & Compliance API, and 4 more. Tagged areas include Kubernetes Security, Cloud Native Security, Container Security, DevSecOps, and Kubernetes.
 
 
   Kubescape''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
@@ -185,23 +189,23 @@ rate_limits:
   name: Kubescape Rate Limits
   slug: kubescape-rate-limits
 score:
-  band: thin
-  composite: 34.3
+  band: emerging
+  composite: 26.0
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 61.6
+    artifact_dirs: 13
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.4
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 47.8
     developer_ergonomics: 28.6
     discoverability: 66.1
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   previous_composite: 34.3
   provenance:
     agentic_access: derived
@@ -216,9 +220,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

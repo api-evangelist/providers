@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The F6S API provides programmatic access to the F6S platform, the world's largest startup and founder community. It enables developers to integrate with F6S's core capabilities including application m
@@ -41,6 +41,21 @@ apis:
   slug: f6s-api
 artifact_total: 5
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/f6s/refs/heads/main/plans/f6s-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/f6s-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/f6s/refs/heads/main/rate-limits/f6s-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/f6s-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/f6s/refs/heads/main/finops/f6s-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/f6s-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/f6s/refs/heads/main/security/f6s-domain-security.yml
   title: ''
@@ -109,19 +124,23 @@ common:
 created: '2026-03-24'
 description: The API Design Management Platform powering the world's leading API first companies.
 finops:
-- name: F6S Finops
+- has_sources: false
+  method: generated
+  name: F6S Finops
+  primary_unit: ''
   service_category: API
   slug: f6s-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/f6s.png
 layout: provider
 modified: '2026-04-28'
 name: F6S
 nav: Providers
 network: true
-overview: 'F6S publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Accelerators, Funding, Job, and Startups.
+overview: 'F6S is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Accelerator, Funding, Job, and Startups.
 
 
-  F6S''s developer surface includes documentation, developer portal, signup flow, engineering blog, and 12 more developer resources.'
+  F6S''s developer surface includes documentation, developer portal, signup flow, engineering blog, and 15 more developer resources.'
 plans:
 - name: F6S Plans Pricing
   plan_count: 3
@@ -133,17 +152,17 @@ rate_limits:
   slug: f6s-rate-limits
 score:
   band: emerging
-  composite: 18.8
+  composite: 17.2
   coverage:
-    artifact_dirs: 6
-    catalog_earned: 28.0
+    artifact_dirs: 8
+    catalog_earned: 25.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 87.0
+    catalog_gap: 90.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 50.0
+    access_clarity: 42.1
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 21.4
@@ -156,8 +175,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -171,7 +190,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: f6s
 tags:
-- Accelerators
+- Accelerator
 - Funding
 - Job
 - Startups

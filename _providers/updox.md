@@ -27,20 +27,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.3
-  scored_at: '2026-10-04'
+  score: 15.4
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 10
+- acting_count: 6
   human_in_the_loop: 0
   name: Updox Agentic Access
   operation_count: 10
   slug: updox-agentic-access
-  summary_line: 10 operations · 10 acting
+  summary_line: 10 operations · 6 acting
 api_count: 1
 apis:
 - description: Send and receive HISP Direct secure messages between providers, with Direct Messaging webhooks for delivery/receipt events. Endpoints modeled from Updox's documented Direct Messaging functional area a
@@ -105,6 +105,14 @@ collections:
   name: Updox IO API (Modeled) Address Book Video Chat API
   slug: open-updox-video-chat-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.updox.com/blog/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.updox.com/blog/feed/
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/updox/refs/heads/main/agentic-access/updox-agentic-access.yml
   title: ''
@@ -157,19 +165,23 @@ common:
 created: '2026-07-04'
 description: Updox is a healthcare communication and patient engagement platform for in-person and virtual care, offering a single inbox for secure/direct messaging, electronic fax, document management, patient reminders, forms, and telehealth video chat, integrated with 100+ EHR and pharmacy management systems. Updox has been a part of EverCommerce (NASDAQ - EVCM) since its December 2020 acquisition. Updox exposes a documented public/partner API (an IO Docs explorer plus a knowledge-base API reference) used mainly by EHR, pharmacy, and integration partners; API access is granted via application credentials rather than open self-serve signup, and much of the endpoint surface below is modeled from Updox's documented functional areas and webhook catalog.
 finops:
-- name: Updox Finops
+- has_sources: true
+  method: generated
+  name: Updox Finops
+  primary_unit: ''
   service_category: Healthcare Communication and Patient Engagement
   slug: updox-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/updox.png
 layout: provider
-modified: '2026-07-04'
+modified: '2026-10-06'
 name: Updox
 nav: Providers
 network: true
-overview: 'Updox publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Address Book API, Faxing API, Ping API, and 9 more. Tagged areas include Healthcare, Patient Engagement, Secure Messaging, Electronic Fax, and Telehealth.
+overview: 'Updox publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including Address Book API, Faxing API, Ping API, and 9 more. Tagged areas include Healthcare, Patient Engagement, Secure Messaging, Electronic Fax, and Telehealth.
 
 
-  Updox''s developer surface includes documentation, API reference, support, engineering blog, and 7 more developer resources.'
+  Updox''s developer surface includes engineering blog, documentation, API reference, support, and 9 more developer resources.'
 plans:
 - name: Updox Plans Pricing
   plan_count: 4
@@ -180,23 +192,23 @@ rate_limits:
   name: Updox Rate Limits
   slug: updox-rate-limits
 score:
-  band: thin
-  composite: 30.9
+  band: emerging
+  composite: 22.6
   coverage:
-    artifact_dirs: 9
-    catalog_earned: 61.6
+    artifact_dirs: 10
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.4
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 42.6
     developer_ergonomics: 22.6
     discoverability: 66.1
-    operational_transparency: 28.4
+    operational_transparency: 7.9
   previous_composite: 30.9
   provenance:
     agentic_access: derived
@@ -211,9 +223,9 @@ score:
     regime: Health
     regime_id: health
     score: 4.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

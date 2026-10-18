@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Tridge advertises a commercial API for integrating its global agri-food price and trade data into a customer's own systems ("the most comprehensive and powerful API to allow you to integrate our globa
@@ -43,6 +43,10 @@ apis:
   slug: tridge-data-analytics-api
 artifact_total: 5
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.tridge.com/news
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/tridge/refs/heads/main/security/tridge-domain-security.yml
   title: ''
@@ -116,14 +120,14 @@ created: '2026-08-30'
 description: Tridge is a South Korea-headquartered global agri-food trade intelligence and sourcing platform. It combines a data layer of structured cross-border trade, price, production, seasonality and weather data (the company cites 682M+ trade data points and 65M+ price records across 200+ markets), a network layer of verified buyers and suppliers in 190+ countries, and an AI layer that runs trade workflows from discovery through deal closure. Products include Market Curations, Sourcing Hub, Data & Analytics, Tridge Eye (market intelligence) and Tridge Ark (AI-driven export sales outreach). Tridge advertises an API for integrating its global price and trade data into customer systems, but publishes no public developer portal, reference documentation or machine-readable contract — access is arranged through a sales conversation.
 image: https://cdn-new.tridge.com/assets/SWDU73HM.jpg
 layout: provider
-modified: '2026-08-30'
+modified: '2026-10-06'
 name: Tridge
 nav: Providers
 network: true
-overview: 'Tridge publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Agriculture, Food, Trade, and Commodities.
+overview: 'Tridge is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Agriculture, Food, Trade, and Commodities.
 
 
-  Tridge''s developer surface includes support, engineering blog, pricing, authentication, and 8 more developer resources.'
+  Tridge''s developer surface includes engineering blog, support, pricing, authentication, and 9 more developer resources.'
 plans:
 - name: Tridge Plans Pricing
   plan_count: 0
@@ -163,8 +167,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 22.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

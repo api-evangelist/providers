@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: High-performance plastic compounds, composites, masterbatches, and specialty powders for automotive, packaging, electronics, agriculture, and consumer goods applications. Products include engineered c
@@ -44,6 +44,21 @@ apis:
   slug: a-schulman-technical-services
 artifact_total: 19
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/a-schulman/refs/heads/main/plans/a-schulman-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/a-schulman-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/a-schulman/refs/heads/main/rate-limits/a-schulman-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/a-schulman-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/a-schulman/refs/heads/main/finops/a-schulman-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/a-schulman-finops.yml
 - group: other
   title: ''
   type: ParentCompany
@@ -92,9 +107,13 @@ features:
 - description: Manufacturing facilities across North America, Europe, and Asia providing global supply chain coverage for multinational customers.
   name: Global Manufacturing
 finops:
-- name: A Schulman Finops
+- has_sources: true
+  method: generated
+  name: A Schulman Finops
+  primary_unit: ''
   service_category: Industrial / Chemicals
   slug: a-schulman-finops
+  template: false
 image: /assets/icons/a-schulman.png
 integrations:
 - description: A. Schulman operations now integrated into LyondellBasell's Advanced Polymer Solutions division following the 2018 acquisition.
@@ -106,7 +125,7 @@ modified: '2026-09-15'
 name: A. Schulman
 nav: Providers
 network: true
-overview: A. Schulman publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Plastics, Polymers, Manufacturing, Chemicals, and Automotive.
+overview: A. Schulman is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Plastics, Polymers, Manufacturing, Chemicals, and Automotive.
 plans:
 - name: A Schulman Plans Pricing
   plan_count: 1
@@ -136,10 +155,10 @@ score:
   band: minimal
   composite: 0.0
   coverage:
-    artifact_dirs: 10
-    catalog_earned: 39.0
+    artifact_dirs: 12
+    catalog_earned: 36.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 76.0
+    catalog_gap: 79.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
@@ -158,13 +177,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/a-schulman/refs/heads/main/screenshots/a-schulman-2026-10-11T134835.png
 security:
 - kind: domain-security
   name: A Schulman Domain Security

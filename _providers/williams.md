@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: The Transco Nominations API enables natural gas shippers to submit, modify, and track pipeline transportation nominations on the Transco pipeline system via the 1Line electronic bulletin board portal.
@@ -44,6 +44,21 @@ apis:
   slug: northwest-pipeline
 artifact_total: 7
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/williams/refs/heads/main/plans/williams-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/williams-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/williams/refs/heads/main/rate-limits/williams-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/williams-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/williams/refs/heads/main/finops/williams-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/williams-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/williams/refs/heads/main/security/williams-domain-security.yml
   title: ''
@@ -112,9 +127,13 @@ common:
 created: '2026-05-03'
 description: Williams Companies is a Fortune 500 energy infrastructure company that operates approximately 33,000 miles of natural gas pipeline infrastructure, moving roughly one-third of the nation's natural gas. The company's flagship Transco pipeline system spans 10,000 miles from south Texas to New York City and is the nation's largest-volume natural gas pipeline. Williams provides pipeline transportation, gathering, processing, and storage services across key natural gas supply basins and serves utilities, power generators, industrial customers, and local distribution companies across the United States.
 finops:
-- name: Williams Finops
+- has_sources: true
+  method: generated
+  name: Williams Finops
+  primary_unit: ''
   service_category: Energy Infrastructure
   slug: williams-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/williams.png
 jsonld:
 - class_count: 14
@@ -126,13 +145,13 @@ modified: '2026-05-03'
 name: Williams Companies
 nav: Providers
 network: true
-overview: 'Williams Companies publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Natural Gas, Pipelines, Infrastructure, and Fortune 500.
+overview: 'Williams Companies is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Natural Gas, Pipelines, Infrastructure, and Fortune 500.
 
 
   The Williams Companies catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Williams Companies'' developer surface includes developer portal, documentation, engineering blog, and 13 more developer resources.'
+  Williams Companies'' developer surface includes developer portal, documentation, engineering blog, and 16 more developer resources.'
 plans:
 - name: Williams Plans Pricing
   plan_count: 1
@@ -160,17 +179,17 @@ rate_limits:
   slug: williams-rate-limits
 score:
   band: emerging
-  composite: 21.5
+  composite: 19.9
   coverage:
     artifact_dirs: 11
-    catalog_earned: 59.5
+    catalog_earned: 56.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 55.5
+    catalog_gap: 58.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 23.7
+    access_clarity: 15.8
     contract_governance: 13.6
     contract_quality: 14.7
     developer_ergonomics: 21.4
@@ -183,8 +202,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 12.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

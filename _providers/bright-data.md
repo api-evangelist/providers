@@ -25,18 +25,18 @@ agent_readiness:
     dry_run_mode: false
     dynamic_client_registration: true
     error_semantics: false
-    event_surface_described: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: verified
     openapi_examples: documented
     protected_resource_metadata: verified
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 47.6
-  scored_at: '2026-10-04'
+  score: 46.8
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 1
@@ -44,7 +44,7 @@ agentic_access:
   operation_count: 56
   slug: bright-data-agentic-access
   summary_line: 56 operations · 27 acting · 1 human-in-the-loop
-api_count: 10
+api_count: 11
 apis:
 - description: Bright Data's Model Context Protocol server exposes 60+ web-access tools (search, scrape, structured extraction, browser automation, datasets) to MCP-compatible clients including Claude Desktop, Claud
   name: Bright Data MCP Server
@@ -124,6 +124,11 @@ apis:
   description: The IPs API from Bright Data — 2 operation(s) for ips.
   name: Bright Data I Ps API
   slug: bright-data-ips-api
+- baseURL: wss://brd.superproxy.io:9222
+  baseurl_source: declared
+  description: 'Bright Data''s Scraping Browser / Browser API: a cloud headless-browser fleet that speaks the Chrome DevTools Protocol (CDP) over a secure WebSocket, described as AsyncAPI.'
+  name: Bright Data Scraping Browser (Browser API) CDP WebSocket
+  slug: bright-data-scraping-browser-cdp
 arazzos:
 - description: Inspect a marketplace dataset's metadata, read a snapshot, and deliver it to cloud.
   name: Bright Data Marketplace Dataset Snapshot and Deliver
@@ -164,7 +169,11 @@ arazzos:
 - description: Submit an asynchronous Web Unlocker request and poll for the unlocked response.
   name: Bright Data Submit Async Unlock and Retrieve Result
   slug: bright-data-web-unlocker-async-workflow
-artifact_total: 99
+artifact_total: 101
+asyncapis:
+- description: 'AsyncAPI 2.6 description of Bright Data''s **Scraping Browser / Browser API** WebSocket surface. Bright Data DOES publish a public WebSocket API. The Scraping Browser is a cloud headless-browser fleet '
+  name: Bright Data Scraping Browser (Browser API) - CDP over WebSocket
+  slug: bright-data-scraping-browser-asyncapi
 collections:
 - collection_type: postman
   name: Bright Data Account Management API
@@ -278,6 +287,51 @@ collections:
   name: Bright Data API (Index)
   slug: open-bright-data
 common:
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bright-data/refs/heads/main/rules/bright-data-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/bright-data-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bright-data/refs/heads/main/rules/bright-data-jsonschema-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/bright-data-jsonschema-spectral-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bright-data/refs/heads/main/json-ld/bright-data-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/bright-data-context.jsonld
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bright-data/refs/heads/main/vocabulary/bright-data-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/bright-data-vocabulary.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bright-data/refs/heads/main/data-model/bright-data-data-model.yml
+  title: ''
+  type: DataModel
+  url: data-model/bright-data-data-model.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bright-data/refs/heads/main/conformance/bright-data-conformance.yml
+  title: ''
+  type: Conformance
+  url: conformance/bright-data-conformance.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bright-data/refs/heads/main/llms/bright-data-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/bright-data-llms.txt
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bright-data/refs/heads/main/mcp/bright-data-mcp.yml
+  title: ''
+  type: MCPServer
+  url: mcp/bright-data-mcp.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bright-data/refs/heads/main/well-known/bright-data-well-known.yml
+  title: ''
+  type: WellKnown
+  url: well-known/bright-data-well-known.yml
 - group: company
   title: ''
   type: Website
@@ -513,9 +567,13 @@ features:
 - SOC 2 Type II, ISO 27001, GDPR, and CCPA compliant
 - Open MCP integrations with Claude Desktop, Claude Code, ChatGPT, Cursor, LangChain, LangGraph, LlamaIndex, CrewAI, n8n, Google ADK, NVIDIA NeMo, Cloudflare Agents, Snowflake Cortex, and Vapi
 finops:
-- name: Bright Data Finops
+- has_sources: true
+  method: generated
+  name: Bright Data Finops
+  primary_unit: ''
   service_category: WebData
   slug: bright-data-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bright-data.png
 json_schemas:
 - name: Bright Data Proxy Port
@@ -541,13 +599,13 @@ modified: '2026-05-25'
 name: Bright Data
 nav: Providers
 network: true
-overview: 'Bright Data publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Access API, Archive API, Billing API, and 13 more. Tagged areas include Web Data, Web Scraping, Proxy, Residential Proxy, and Datacenter Proxy.
+overview: 'Bright Data publishes 17 API contracts indexed on the [APIs.io](https://apis.io/) network, including Access API, Archive API, Billing API, and 14 more. Tagged areas include Web Data, Web Scraping, Proxy, Residential Proxy, and Datacenter Proxy.
 
 
-  The Bright Data catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+  The Bright Data catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Bright Data''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, pricing, engineering blog, and 41 more developer resources.'
+  Bright Data''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, pricing, engineering blog, and 50 more developer resources.'
 plans:
 - name: Bright Data Plans Pricing
   plan_count: 17
@@ -558,9 +616,10 @@ rate_limits:
   name: Bright Data Rate Limits
   slug: bright-data-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Bright Data API Rules
+  name: Bright Data — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -568,7 +627,8 @@ rules:
     info: 1
     warn: 4
   slug: bright-data-jsonschema-spectral-rules
-- effective_rule_count: 49
+- authorship: unmarked
+  effective_rule_count: 49
   extends:
   - spectral:oas
   name: Bright Data API Rules
@@ -581,30 +641,31 @@ rules:
   slug: bright-data-rules
 score:
   band: developing
-  composite: 50.1
+  composite: 45.8
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 81.1
+    artifact_dirs: 24
+    catalog_earned: 67.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 33.9
+    catalog_gap: 48.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -4.3
   facets:
-    access_clarity: 53.4
-    contract_governance: 13.6
-    contract_quality: 59.7
+    access_clarity: 25.0
+    contract_governance: 31.8
+    contract_quality: 66.6
     developer_ergonomics: 56.0
     discoverability: 71.7
-    operational_transparency: 38.9
+    operational_transparency: 18.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - israel
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 49.6
+  previous_composite: 50.1
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
@@ -617,8 +678,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

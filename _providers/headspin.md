@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: HeadSpin's v0 REST API for authentication, real-device management, capture sessions, app (APK/IPA) instrumentation, biometrics, and audio/video capture. Authenticates with a HeadSpin API token as an H
@@ -42,6 +42,10 @@ apis:
   slug: headspin-rest-api-v0
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.headspin.io/blog/rss.xml
 - group: company
   title: ''
   type: Website
@@ -136,18 +140,18 @@ created: '2026-07-17'
 description: HeadSpin is a real-device digital-experience, functional, and performance testing platform for mobile, web, and OTT applications. Teams test, monitor, and optimize app behavior on real devices and real SIMs across 60+ locations in 50+ countries, running manual and automated tests through frameworks such as Appium and Selenium while capturing 130+ performance KPIs across app, device, browser, audio-video, and network layers. HeadSpin exposes a v0 REST API (Bearer API-token auth) for authentication, device management, capture sessions, app instrumentation, biometrics, and audio/video capture, plus an official `hs` command-line interface and a family of open-source Appium drivers for Roku, LG WebOS, and Samsung Tizen TV.
 image: https://cdn.prod.website-files.com/619e15d781b212391a206fb2/67c6baa984aae71625255247_home-headspin.jpg
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: HeadSpin
 nav: Providers
 network: true
-overview: 'HeadSpin publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Testing, Mobile, Performance, and Real Device Testing.
+overview: 'HeadSpin is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Testing, Mobile, Performance, and Real Device Testing.
 
 
-  HeadSpin''s developer surface includes documentation, API reference, engineering blog, pricing, authentication, CLI, and 14 more developer resources.'
+  HeadSpin''s developer surface includes documentation, API reference, engineering blog, pricing, authentication, CLI, and 15 more developer resources.'
 random_paper: 8
 score:
   band: emerging
-  composite: 22.9
+  composite: 23.0
   coverage:
     artifact_dirs: 12
     catalog_earned: 37.0
@@ -155,7 +159,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 38.2
     contract_governance: 4.5
@@ -173,8 +177,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

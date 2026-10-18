@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 15
 apis:
 - description: Charge one-off or recurring purchases directly to a verified end user's BT or EE mobile bill or pre-pay credit, enabling carrier-billed payments without re-collecting card or bank credentials.
@@ -209,7 +209,7 @@ modified: '2026-05-25'
 name: BT Group
 nav: Providers
 network: true
-overview: 'BT Group publishes 15 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Telecommunications, Mobile Network, Broadband, Fibre, and Wholesale.
+overview: 'BT Group is listed with 15 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Telecommunications, Mobile Network, Broadband, Fibre, and Wholesale.
 
 
   BT Group''s developer surface includes documentation, signup flow, GitHub presence, YouTube channel, and 25 more developer resources.'
@@ -218,7 +218,7 @@ score:
   band: minimal
   composite: 8.7
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -247,8 +247,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 10.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

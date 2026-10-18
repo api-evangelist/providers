@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The Prestige Consumer Healthcare API provides access to platform services and data for enterprise integration and automation.
@@ -42,6 +42,21 @@ apis:
   slug: prestige-consumer-healthcare-api
 artifact_total: 5
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/prestige-consumer-healthcare/refs/heads/main/plans/prestige-consumer-healthcare-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/prestige-consumer-healthcare-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/prestige-consumer-healthcare/refs/heads/main/rate-limits/prestige-consumer-healthcare-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/prestige-consumer-healthcare-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/prestige-consumer-healthcare/refs/heads/main/finops/prestige-consumer-healthcare-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/prestige-consumer-healthcare-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/prestige-consumer-healthcare/refs/heads/main/security/prestige-consumer-healthcare-domain-security.yml
   title: ''
@@ -58,16 +73,20 @@ common:
 created: '2026-04-19'
 description: Prestige Consumer Healthcare is a major US corporation and Fortune 1000 company. The Prestige Consumer Healthcare API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.
 finops:
-- name: Prestige Consumer Healthcare Finops
+- has_sources: true
+  method: generated
+  name: Prestige Consumer Healthcare Finops
+  primary_unit: ''
   service_category: Consumer Healthcare
   slug: prestige-consumer-healthcare-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/prestige-consumer-healthcare.png
 layout: provider
 modified: '2026-04-19'
 name: Prestige Consumer Healthcare
 nav: Providers
 network: true
-overview: Prestige Consumer Healthcare publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Consumer Healthcare and OTC.
+overview: Prestige Consumer Healthcare is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Consumer Healthcare and OTC.
 plans:
 - name: Prestige Consumer Healthcare Plans Pricing
   plan_count: 1
@@ -79,17 +98,17 @@ rate_limits:
   slug: prestige-consumer-healthcare-rate-limits
 score:
   band: minimal
-  composite: 9.5
+  composite: 7.9
   coverage:
     artifact_dirs: 6
-    catalog_earned: 39.0
+    catalog_earned: 36.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 76.0
+    catalog_gap: 79.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 13.2
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 9.5
@@ -102,8 +121,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 11.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

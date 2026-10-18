@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'tekton.dev/v1 kind=Task — defines a series of steps that launch specific build or delivery tools, ingest specific inputs (params, workspaces, resources), and produce specific outputs (results). Tasks '
@@ -215,16 +215,20 @@ common:
 created: '2026-05-08'
 description: Tekton is a cloud-native CI/CD framework implemented as a set of Kubernetes Custom Resource Definitions and controllers under the tekton.dev API group. Tekton is a CNCF Incubating project. Its primary API surface is Kubernetes-native — Tasks, Pipelines, PipelineRuns, TaskRuns, EventListeners, Triggers, etc. — accessed through the Kubernetes API server (kubectl, client-go, the tkn CLI, and the Tekton Dashboard). Tekton itself is open-source under Apache 2.0; commercial offerings layered on Tekton (Red Hat OpenShift Pipelines, Jenkins X, Google Cloud Build private preview integrations, IBM Cloud Continuous Delivery, Pipelines-as-Code on GitOps platforms) are out of scope of the upstream project.
 finops:
-- name: Tekton Finops
+- has_sources: true
+  method: generated
+  name: Tekton Finops
+  primary_unit: ''
   service_category: DevOps / CI/CD
   slug: tekton-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tekton.png
 layout: provider
 modified: '2026-05-08'
 name: Tekton
 nav: Providers
 network: true
-overview: 'Tekton publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Task CRD, and 20 more. Tagged areas include DevOps, CI/CD, Kubernetes, CNCF, and Pipelines.
+overview: 'Tekton publishes 21 API contracts indexed on the [APIs.io](https://apis.io/) network, including Task CRD, and 20 more. Tagged areas include DevOps, CI/CD, Kubernetes, CNCF, and Pipelines.
 
 
   Tekton''s developer surface includes documentation, getting-started guide, CLI, engineering blog, YouTube channel, release notes, and 19 more developer resources.'
@@ -239,17 +243,17 @@ rate_limits:
   slug: tekton-rate-limits
 score:
   band: emerging
-  composite: 22.3
+  composite: 20.8
   coverage:
-    artifact_dirs: 9
-    catalog_earned: 35.0
+    artifact_dirs: 10
+    catalog_earned: 32.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 80.0
+    catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 13.2
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 24.0
     developer_ergonomics: 31.0
@@ -262,8 +266,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

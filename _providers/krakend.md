@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: documented
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.4
-  scored_at: '2026-10-04'
+  score: 18.5
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -82,6 +82,21 @@ collections:
   name: KrakenD Service API
   slug: open-krakend-service-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/krakend/refs/heads/main/plans/krakend-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/krakend-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/krakend/refs/heads/main/rate-limits/krakend-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/krakend-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/krakend/refs/heads/main/finops/krakend-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/krakend-finops.yml
 - group: auth
   title: ''
   type: SecurityPolicy
@@ -173,9 +188,13 @@ common:
 created: '2026-03-18'
 description: KrakenD is a stateless, distributed, high-performance open-source API gateway written in Go, focused on API aggregation, transformation, and security with a declarative configuration approach.
 finops:
-- name: Krakend Finops
+- has_sources: true
+  method: generated
+  name: Krakend Finops
+  primary_unit: ''
   service_category: API Management
   slug: krakend-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/krakend.png
 json_schemas:
 - name: KrakenD Async Agent
@@ -210,13 +229,13 @@ modified: '2026-05-19'
 name: KrakenD
 nav: Providers
 network: true
-overview: 'KrakenD publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Debug API, Health API, Metrics API, and 2 more. Tagged areas include Aggregation, API Gateway, Go, and Open Source.
+overview: 'KrakenD publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Debug API, Health API, Metrics API, and 2 more. Tagged areas include Aggregation, API Gateway, Go, and Open Source.
 
 
   The KrakenD catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  KrakenD''s developer surface includes documentation, getting-started guide, engineering blog, changelog, Stack Overflow tag, and 16 more developer resources.'
+  KrakenD''s developer surface includes documentation, getting-started guide, engineering blog, changelog, Stack Overflow tag, and 19 more developer resources.'
 plans:
 - name: Krakend Plans Pricing
   plan_count: 2
@@ -227,9 +246,10 @@ rate_limits:
   name: Krakend Rate Limits
   slug: krakend-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: KrakenD API Rules
+  name: KrakenD — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -239,17 +259,17 @@ rules:
   slug: krakend-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 37.1
+  composite: 35.7
   coverage:
     artifact_dirs: 15
-    catalog_earned: 43.7
+    catalog_earned: 40.7
     catalog_earned_first_party: 0.0
-    catalog_gap: 71.4
+    catalog_gap: 74.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.4
   facets:
-    access_clarity: 13.2
+    access_clarity: 5.3
     contract_governance: 9.8
     contract_quality: 46.9
     developer_ergonomics: 33.3
@@ -272,8 +292,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

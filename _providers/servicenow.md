@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 39.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 1
@@ -1154,9 +1154,13 @@ features:
 - description: ML-powered APIs for automated classification, assignment, and prioritization of records.
   name: Predictive Intelligence
 finops:
-- name: Servicenow Finops
+- has_sources: true
+  method: generated
+  name: Servicenow Finops
+  primary_unit: ''
   service_category: Enterprise Workflow / Now Platform
   slug: servicenow-finops
+  template: false
 graphqls:
 - description: The ServiceNow GraphQL API framework allows developers to create custom GraphQL API schemas on the Now Platform for querying record data from components or external systems. It supports defining resol
   name: ServiceNow GraphQL API
@@ -1576,7 +1580,7 @@ modified: '2026-06-20'
 name: ServiceNow
 nav: Providers
 network: true
-overview: 'ServiceNow publishes 63 APIs on the [APIs.io](https://apis.io/) network, including Event Management Topic Open API, Aggregate Statistics API, Attachments API, and 60 more. Tagged areas include ServiceNow, Automation, Cloud Services, Digital Workflows, and Enterprise Platform.
+overview: 'ServiceNow publishes 63 API contracts indexed on the [APIs.io](https://apis.io/) network, including Event Management Topic Open API, Aggregate Statistics API, Attachments API, and 60 more. Tagged areas include ServiceNow, Automation, Cloud Services, Digital Workflows, and Enterprise Platform.
 
 
   The ServiceNow catalog on APIs.io includes 1 event-driven AsyncAPI specification, 10 JSON-LD contexts, and 4 Spectral governance rulesets.
@@ -1593,10 +1597,11 @@ rate_limits:
   name: Servicenow Rate Limits
   slug: servicenow-rate-limits
 rules:
-- effective_rule_count: 36
+- authorship: generated
+  effective_rule_count: 36
   extends:
   - spectral:asyncapi
-  name: ServiceNow API Rules
+  name: ServiceNow — asyncapi rules
   rule_count: 9
   severity_counts:
     error: 1
@@ -1604,9 +1609,10 @@ rules:
     info: 0
     warn: 8
   slug: servicenow-asyncapi-spectral-rules
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: ServiceNow API Rules
+  name: ServiceNow — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -1614,7 +1620,8 @@ rules:
     info: 1
     warn: 5
   slug: servicenow-jsonschema-spectral-rules
-- effective_rule_count: 57
+- authorship: generated
+  effective_rule_count: 57
   extends:
   - spectral:oas
   name: ServiceNow API Rules
@@ -1625,7 +1632,8 @@ rules:
     info: 1
     warn: 2
   slug: servicenow-rules
-- effective_rule_count: 68
+- authorship: generated
+  effective_rule_count: 68
   extends:
   - spectral:oas
   name: ServiceNow API Rules
@@ -1642,24 +1650,24 @@ scopes:
   slug: servicenow-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: exemplar
-  composite: 67.5
+  band: strong
+  composite: 66.0
   coverage:
-    artifact_dirs: 39
-    catalog_earned: 62.0
+    artifact_dirs: 41
+    catalog_earned: 59.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.0
+    catalog_gap: 56.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 5.0
+  delta: -1.5
   facets:
-    access_clarity: 73.7
+    access_clarity: 65.8
     contract_governance: 31.8
     contract_quality: 61.5
     developer_ergonomics: 86.2
     discoverability: 69.6
     operational_transparency: 50.0
-  previous_composite: 62.5
+  previous_composite: 67.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1675,9 +1683,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: rising
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: flat
   upsert:
     applies: true
     score: 0.0

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'The Equifax API platform provides programmatic access to Equifax''s consumer credit information, including credit reports, credit scores, identity verification, and fraud detection. APIs are organized '
@@ -41,6 +41,11 @@ apis:
   slug: equifax
 artifact_total: 9
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/equifax/refs/heads/main/rate-limits/equifax-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/equifax-rate-limits.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/equifax/refs/heads/main/security/equifax-domain-security.yml
   title: ''
@@ -149,19 +154,23 @@ common:
 created: '2025-02-24'
 description: Equifax is a consumer credit reporting agency that collects and aggregates information on individuals' credit history, including borrowing and repayment habits. This information is used by lenders and creditors to assess creditworthiness and make decisions about extending credit. Equifax also offers identity theft protection, credit monitoring, and fraud detection services, plus analytics and consulting offerings to help businesses manage risk.
 finops:
-- name: Equifax Finops
+- has_sources: true
+  method: generated
+  name: Equifax Finops
+  primary_unit: ''
   service_category: Credit Bureau / Identity Data
   slug: equifax-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/equifax.png
 layout: provider
 modified: '2026-09-06'
 name: Equifax
 nav: Providers
 network: true
-overview: 'Equifax publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Credit, Credit History, Credit Reporting, Identity, and Fraud Prevention.
+overview: 'Equifax is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Credit, Credit History, Credit Reporting, Identity, and Fraud Prevention.
 
 
-  Equifax''s developer surface includes engineering blog, signup flow, support, changelog, and 19 more developer resources.'
+  Equifax''s developer surface includes engineering blog, signup flow, support, changelog, and 20 more developer resources.'
 plans:
 - name: Equifax Plans Pricing
   plan_count: 0
@@ -194,17 +203,17 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 47.3
+  composite: 45.8
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 52.0
+    artifact_dirs: 22
+    catalog_earned: 49.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 57.9
+    access_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 64.3
@@ -220,8 +229,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

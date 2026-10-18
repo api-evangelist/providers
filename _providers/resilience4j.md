@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'Resilience4j is a lightweight fault tolerance library for Java 17+ using functional programming patterns. It provides six core resilience patterns: Circuit Breaker (prevents cascading failures), Rate '
@@ -41,6 +41,21 @@ apis:
   slug: resilience4j
 artifact_total: 15
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/resilience4j/refs/heads/main/plans/resilience4j-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/resilience4j-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/resilience4j/refs/heads/main/rate-limits/resilience4j-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/resilience4j-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/resilience4j/refs/heads/main/finops/resilience4j-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/resilience4j-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/resilience4j/refs/heads/main/security/resilience4j-domain-security.yml
   title: ''
@@ -101,9 +116,13 @@ examples:
   name: Resilience4J Circuit Breaker Config Example
   slug: resilience4j-circuit-breaker-config-example
 finops:
-- name: Resilience4J Finops
+- has_sources: false
+  method: generated
+  name: Resilience4J Finops
+  primary_unit: ''
   service_category: API
   slug: resilience4j-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/resilience4j.png
 json_schemas:
 - name: Resilience4j Bulkhead Configuration
@@ -138,13 +157,13 @@ modified: '2026-05-02'
 name: Resilience4j
 nav: Providers
 network: true
-overview: 'Resilience4j publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Bulkhead, Circuit Breaker, Fault Tolerance, Java, and Microservices.
+overview: 'Resilience4j is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Bulkhead, Circuit Breaker, Fault Tolerance, Java, and Microservices.
 
 
   The Resilience4j catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Resilience4j''s developer surface includes documentation, getting-started guide, GitHub presence, release notes, and 9 more developer resources.'
+  Resilience4j''s developer surface includes documentation, getting-started guide, GitHub presence, release notes, and 12 more developer resources.'
 plans:
 - name: Resilience4J Plans Pricing
   plan_count: 3
@@ -155,9 +174,10 @@ rate_limits:
   name: Resilience4J Rate Limits
   slug: resilience4j-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: Resilience4j API Rules
+  name: Resilience4j — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -167,17 +187,17 @@ rules:
   slug: resilience4j-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 22.2
+  composite: 20.7
   coverage:
     artifact_dirs: 12
-    catalog_earned: 65.8
+    catalog_earned: 62.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 49.3
+    catalog_gap: 52.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 23.5
     contract_quality: 22.7
     developer_ergonomics: 10.7
@@ -190,8 +210,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

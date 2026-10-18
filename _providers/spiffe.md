@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.9
-  scored_at: '2026-10-04'
+  score: 25.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -73,6 +73,21 @@ collections:
   name: SPIFFE Federation Bundle Endpoint API
   slug: open-spiffe-federation
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/spiffe/refs/heads/main/plans/spiffe-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/spiffe-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/spiffe/refs/heads/main/rate-limits/spiffe-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/spiffe-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/spiffe/refs/heads/main/finops/spiffe-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/spiffe-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/spiffe/refs/heads/main/capabilities/spiffe-capability-edges.yml
   title: ''
@@ -175,9 +190,13 @@ examples:
   name: Spiffe Get Trust Bundle Example
   slug: spiffe-get-trust-bundle-example
 finops:
-- name: Spiffe Finops
+- has_sources: false
+  method: generated
+  name: Spiffe Finops
+  primary_unit: ''
   service_category: API
   slug: spiffe-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/spiffe.png
 json_schemas:
 - name: SPIFFE Identity Documents
@@ -197,13 +216,13 @@ modified: '2026-05-19'
 name: SPIFFE
 nav: Providers
 network: true
-overview: 'SPIFFE publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Workload API, Bundle API, and 2 more. Tagged areas include Authentication, Cloud-Native, Graduated, Identity, and Security.
+overview: 'SPIFFE publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Workload API, Bundle API, and 2 more. Tagged areas include Authentication, Cloud-Native, Graduated, Identity, and Security.
 
 
   The SPIFFE catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  SPIFFE''s developer surface includes documentation, getting-started guide, engineering blog, Stack Overflow tag, and 18 more developer resources.'
+  SPIFFE''s developer surface includes documentation, getting-started guide, engineering blog, Stack Overflow tag, and 21 more developer resources.'
 plans:
 - name: Spiffe Plans Pricing
   plan_count: 3
@@ -214,10 +233,11 @@ rate_limits:
   name: Spiffe Rate Limits
   slug: spiffe-rate-limits
 rules:
-- effective_rule_count: 33
+- authorship: generated
+  effective_rule_count: 33
   extends:
   - spectral:asyncapi
-  name: SPIFFE API Rules
+  name: SPIFFE — asyncapi rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -225,9 +245,10 @@ rules:
     info: 0
     warn: 6
   slug: spiffe-asyncapi-spectral-rules
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: SPIFFE API Rules
+  name: SPIFFE — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -235,7 +256,8 @@ rules:
     info: 1
     warn: 5
   slug: spiffe-jsonschema-spectral-rules
-- effective_rule_count: 48
+- authorship: unmarked
+  effective_rule_count: 48
   extends:
   - spectral:oas
   name: SPIFFE API Rules
@@ -248,17 +270,17 @@ rules:
   slug: spiffe-rules
 score:
   band: thin
-  composite: 31.4
+  composite: 32.9
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 49.0
+    artifact_dirs: 19
+    catalog_earned: 52.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 51.0
-    catalog_max: 100.0
+    catalog_gap: 63.0
+    catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.5
   facets:
-    access_clarity: 0.0
+    access_clarity: 7.9
     contract_governance: 27.3
     contract_quality: 54.0
     developer_ergonomics: 33.3
@@ -281,8 +303,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

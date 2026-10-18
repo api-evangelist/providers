@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: Community-maintained, reverse-engineered Python library for communicating with Lennox S30, S40, E30, and M30 climate controls via the Lennox cloud or local LAN. Powers the popular Home Assistant integ
@@ -47,6 +47,21 @@ apis:
   slug: lennox-icomfort-smart-home-integrations
 artifact_total: 7
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/lennox-international/refs/heads/main/plans/lennox-international-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/lennox-international-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/lennox-international/refs/heads/main/rate-limits/lennox-international-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/lennox-international-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/lennox-international/refs/heads/main/finops/lennox-international-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/lennox-international-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/lennox-international/refs/heads/main/security/lennox-international-domain-security.yml
   title: ''
@@ -75,19 +90,23 @@ common:
 created: '2026-03-24'
 description: Lennox International is a global leader in the heating, air conditioning, and refrigeration markets, providing climate control solutions for residential and commercial applications. Lennox does not publish a general developer portal for HVAC system access. Smart-home integrations with the iComfort S30, E30, and M30 thermostat product lines are delivered through partnerships (Control4, Amazon Alexa, Apple HomeKit, Google Assistant, IFTTT) and through community-maintained, reverse-engineered Python and TypeScript libraries.
 finops:
-- name: Lennox International Finops
+- has_sources: false
+  method: generated
+  name: Lennox International Finops
+  primary_unit: ''
   service_category: API
   slug: lennox-international-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lennox-international.png
 layout: provider
 modified: '2026-07-25'
 name: Lennox International
 nav: Providers
 network: true
-overview: 'Lennox International publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include HVAC, Smart Home, Thermostat, IoT, and Climate Control.
+overview: 'Lennox International is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include HVAC, Smart Home, Thermostat, IoT, and Climate Control.
 
 
-  Lennox International''s developer surface includes support and 5 more developer resources.'
+  Lennox International''s developer surface includes support and 8 more developer resources.'
 plans:
 - name: Lennox International Plans Pricing
   plan_count: 3
@@ -115,17 +134,17 @@ rate_limits:
   slug: lennox-international-rate-limits
 score:
   band: emerging
-  composite: 12.5
+  composite: 11.0
   coverage:
-    artifact_dirs: 8
-    catalog_earned: 44.0
+    artifact_dirs: 10
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 71.0
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 14.3
@@ -138,8 +157,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

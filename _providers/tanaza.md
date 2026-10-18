@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Programmatic access to the Tanaza Cloud dashboard data set across three documented API families — Network Management, Network Monitoring, and Application — plus Push Contact Notifications webhooks. Re
@@ -111,7 +111,7 @@ modified: '2026-07-21'
 name: Tanaza
 nav: Providers
 network: true
-overview: 'Tanaza publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Wi-Fi, Networking, Cloud Management, and Access Points.
+overview: 'Tanaza is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Wi-Fi, Networking, Cloud Management, and Access Points.
 
 
   The Tanaza catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -152,8 +152,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 5.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

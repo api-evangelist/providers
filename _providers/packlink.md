@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 9
+- acting_count: 7
   human_in_the_loop: 0
   name: Packlink Agentic Access
   operation_count: 24
   slug: packlink-agentic-access
-  summary_line: 24 operations · 9 acting
+  summary_line: 24 operations · 7 acting
 api_count: 6
 apis:
 - baseURL: https://api.packlink.com
@@ -222,7 +222,7 @@ modified: '2026-07-20'
 name: Packlink
 nav: Providers
 network: true
-overview: 'Packlink publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Clients API, Customs API, Integrations API, and 3 more. Tagged areas include Company, E-Commerce, Shipping, Logistics, and Parcel Delivery.
+overview: 'Packlink is listed with 6 APIs on the [APIs.io](https://apis.io/) network, including Clients API, Customs API, Integrations API, and 3 more. Tagged areas include Company, E-Commerce, Shipping, Logistics, and Parcel Delivery.
 
 
   The Packlink catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -234,7 +234,7 @@ score:
   band: emerging
   composite: 26.1
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -265,8 +265,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 20.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

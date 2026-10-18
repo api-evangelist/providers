@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 61.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 77
   slug: beehiiv-agentic-access
   summary_line: 77 operations · 32 acting
-api_count: 5
+api_count: 7
 apis:
 - baseURL: https://api.beehiiv.com/v2
   baseurl_source: declared
@@ -555,7 +555,7 @@ apis:
     question: Which of my newsletters is a given email subscribed to?
   phrasing_ops: 3
   slug: beehiiv-workspaces-api
-artifact_total: 97
+artifact_total: 96
 asyncapis:
 - description: 'AsyncAPI 2.6 description of the beehiiv outbound webhook surface. beehiiv posts JSON event payloads to a customer-configured endpoint URL when selected events occur on a publication. The set of event '
   name: beehiiv Webhooks
@@ -947,9 +947,13 @@ common:
 created: '2026-05-08'
 description: beehiiv is a newsletter publishing platform offering email publishing, subscriber management, paid subscriptions, an ad network, referrals, polls, automations, segments, webhooks, and analytics for creators and media companies. Founded in 2021 by former Morning Brew operators and headquartered in New York City.
 finops:
-- name: Beehiiv Finops
+- has_sources: true
+  method: generated
+  name: Beehiiv Finops
+  primary_unit: ''
   service_category: Newsletter Publishing
   slug: beehiiv-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/beehiiv.png
 json_schemas:
 - name: beehiiv Post
@@ -970,15 +974,12 @@ mcp_servers:
   slug: beehiiv-mcp-yml
 - description: ''
   name: beehiiv MCP Server
-  slug: mcp
-- description: ''
-  name: beehiiv MCP Server
   slug: server
 modified: '2026-08-13'
 name: beehiiv
 nav: Providers
 network: true
-overview: 'beehiiv publishes 30 APIs on the [APIs.io](https://apis.io/) network, including Authorizations API, Tokens API, Webhooks API, and 27 more. Tagged areas include Newsletters, Creators, Email, Subscription, and Publishing.
+overview: 'beehiiv publishes 30 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authorizations API, Tokens API, Webhooks API, and 27 more. Tagged areas include Newsletters, Creators, Email, Subscription, and Publishing.
 
 
   The beehiiv catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
@@ -995,10 +996,11 @@ rate_limits:
   name: Beehiiv Rate Limits
   slug: beehiiv-rate-limits
 rules:
-- effective_rule_count: 34
+- authorship: generated
+  effective_rule_count: 34
   extends:
   - spectral:asyncapi
-  name: beehiiv API Rules
+  name: beehiiv — asyncapi rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -1006,9 +1008,10 @@ rules:
     info: 0
     warn: 6
   slug: beehiiv-asyncapi-spectral-rules
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: beehiiv API Rules
+  name: beehiiv — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1023,17 +1026,17 @@ scopes:
   summary_line: 30 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 73.6
+  composite: 72.1
   coverage:
-    artifact_dirs: 30
-    catalog_earned: 81.5
+    artifact_dirs: 31
+    catalog_earned: 78.5
     catalog_earned_first_party: 20.0
-    catalog_gap: 33.5
+    catalog_gap: 36.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -1.5
   facets:
-    access_clarity: 100.0
+    access_clarity: 92.1
     contract_governance: 31.8
     contract_quality: 65.4
     developer_ergonomics: 72.0
@@ -1046,7 +1049,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 73.1
+  previous_composite: 73.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -1063,8 +1066,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

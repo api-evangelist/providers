@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 1
@@ -110,6 +110,10 @@ collections:
   name: Alice API Documentation Wonder Fence API
   slug: open-activefence-wonderfence-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://alice.io/blog/rss.xml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/activefence/refs/heads/main/capabilities/activefence-capability-edges.yml
   title: ''
@@ -258,23 +262,23 @@ description: 'ActiveFence — now operating as Alice — is an AI security, safe
   ActiveOS moderation view or an automated workflow. Authentication is a single af-api-key header issued from the platform console; the default rate limit is 50 requests per second. First-party SDKs ship for Python (wonderfence-sdk) and TypeScript (@alice-io/wonderfence-ts-sdk), with a Parlant integration and the open-source Caterpillar agent-skill security scanner. Alice is SOC 2 and ISO 27001 certified.'
 image: https://cdn.prod.website-files.com/69005ca0f0832195cbc1370c/6966208e49b12596bab0f42e_Group%201707480796.png
 layout: provider
-modified: '2026-08-06'
+modified: '2026-10-06'
 name: ActiveFence
 nav: Providers
 network: true
-overview: 'ActiveFence publishes 7 APIs on the [APIs.io](https://apis.io/) network, including api keys API, Collection API, Content API, and 4 more. Tagged areas include AI Safety, AI Security, Trust and Safety, Content Moderation, and Guardrails.
+overview: 'ActiveFence publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including api keys API, Collection API, Content API, and 4 more. Tagged areas include AI Safety, AI Security, Trust and Safety, Content Moderation, and Guardrails.
 
 
   The ActiveFence catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  ActiveFence''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, CLI, authentication, and 24 more developer resources.'
+  ActiveFence''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, CLI, authentication, and 25 more developer resources.'
 random_paper: 5
 score:
   band: developing
   composite: 51.7
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -312,8 +316,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

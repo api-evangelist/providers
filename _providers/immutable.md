@@ -38,8 +38,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 58.9
-  scored_at: '2026-10-04'
-api_count: 2
+  scored_at: '2026-10-17'
+api_count: 4
 apis:
 - description: Passport is Immutable's authentication and embedded-wallet product. Its OpenID Connect provider publishes anonymous discovery documents at auth.immutable.com, exposing the authorization, token, device
   name: Immutable Passport Authentication
@@ -130,6 +130,10 @@ asyncapis:
   name: Immutable Webhooks
   slug: immutable-webhooks
 common:
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://docs.immutable.com/docs/products/asset-contracts/minting-api
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/immutable/refs/heads/main/overlays/immutable-zkevm-overlay.yaml
   title: ''
@@ -339,13 +343,13 @@ modified: '2026-08-23'
 name: Immutable
 nav: Providers
 network: true
-overview: 'Immutable publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Activities API, Chains API, Collections API, and 14 more. Tagged areas include Company, Gaming, Blockchain, NFT, and Web3.
+overview: 'Immutable publishes 17 API contracts indexed on the [APIs.io](https://apis.io/) network, including Activities API, Chains API, Collections API, and 14 more. Tagged areas include Company, Gaming, Blockchain, NFT, and Web3.
 
 
   The Immutable catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Immutable''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 35 more developer resources.'
+  Immutable''s developer surface includes pricing, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 36 more developer resources.'
 plans:
 - name: Immutable Plans Pricing
   plan_count: 3
@@ -361,22 +365,22 @@ scopes:
   slug: immutable-scopes
   summary_line: 14 scopes
 score:
-  band: strong
-  composite: 64.4
+  band: exemplar
+  composite: 67.0
   coverage:
     artifact_dirs: 25
-    catalog_earned: 61.0
+    catalog_earned: 64.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 54.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.6
   facets:
-    access_clarity: 68.4
+    access_clarity: 78.9
     contract_governance: 18.2
     contract_quality: 54.7
     developer_ergonomics: 64.3
-    discoverability: 75.0
+    discoverability: 80.0
     operational_transparency: 92.1
   previous_composite: 64.4
   provenance:
@@ -394,8 +398,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 41.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

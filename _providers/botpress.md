@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 19
+- acting_count: 18
   human_in_the_loop: 0
   name: Botpress Agentic Access
   operation_count: 31
   slug: botpress-agentic-access
-  summary_line: 31 operations · 19 acting
+  summary_line: 31 operations · 18 acting
 api_count: 1
 apis:
 - description: Webhook-based REST API for sending and receiving chat messages with deployed Botpress bots. Endpoint pattern is https://chat.botpress.cloud/{webhookUrl}/messages.
@@ -108,6 +108,10 @@ collections:
   name: Botpress Cloud API
   slug: open-botpress
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://botpress.com/blog
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/botpress/refs/heads/main/agentic-access/botpress-agentic-access.yml
   title: ''
@@ -166,19 +170,23 @@ common:
 created: '2026-05-08'
 description: Botpress is an open-source conversational AI platform for building, deploying, and managing chatbots with a visual flow editor and cloud hosting. Botpress Cloud exposes a REST API plus a Chat API for sending messages to deployed bots. Self-hosted Botpress remains open-source.
 finops:
-- name: Botpress Finops
+- has_sources: true
+  method: generated
+  name: Botpress Finops
+  primary_unit: ''
   service_category: AI
   slug: botpress-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/botpress.png
 layout: provider
-modified: '2026-07-25'
+modified: '2026-10-06'
 name: Botpress
 nav: Providers
 network: true
-overview: 'Botpress publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Conversations API, Files API, and 5 more. Tagged areas include Artificial Intelligence, Conversational AI, Chat, Open Source, and Bot Builder.
+overview: 'Botpress publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Admin API, Conversations API, Files API, and 5 more. Tagged areas include Artificial Intelligence, Conversational AI, Chat, Open Source, and Bot Builder.
 
 
-  Botpress'' developer surface includes authentication, documentation, GitHub presence, and 9 more developer resources.'
+  Botpress'' developer surface includes engineering blog, authentication, documentation, GitHub presence, and 9 more developer resources.'
 plans:
 - name: Botpress Plans Pricing
   plan_count: 6
@@ -190,20 +198,20 @@ rate_limits:
   slug: botpress-rate-limits
 score:
   band: thin
-  composite: 35.7
+  composite: 34.3
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 46.0
+    artifact_dirs: 13
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 69.0
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.4
   facets:
-    access_clarity: 47.4
+    access_clarity: 39.5
     contract_governance: 0.0
     contract_quality: 45.6
-    developer_ergonomics: 21.4
+    developer_ergonomics: 23.8
     discoverability: 73.2
     operational_transparency: 13.2
   previous_composite: 35.7
@@ -216,12 +224,12 @@ score:
       total: 6
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 15.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

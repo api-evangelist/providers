@@ -28,20 +28,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.5
-  scored_at: '2026-10-04'
+  score: 19.6
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 7
+- acting_count: 4
   human_in_the_loop: 0
   name: Scansource Agentic Access
   operation_count: 18
   slug: scansource-agentic-access
-  summary_line: 18 operations · 7 acting
+  summary_line: 18 operations · 4 acting
 api_count: 3
 apis:
 - baseURL: https://services.scansource.com/api
@@ -115,6 +115,25 @@ collections:
   name: ScanSource Invoice Availability Tracking API
   slug: open-scansource-tracking-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/scansource/refs/heads/main/plans/scansource-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/scansource-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/scansource/refs/heads/main/rate-limits/scansource-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/scansource-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/scansource/refs/heads/main/finops/scansource-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/scansource-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.scansource.com/blogs
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/scansource/refs/heads/main/agentic-access/scansource-agentic-access.yml
   title: ''
@@ -184,9 +203,13 @@ examples:
   name: Scansource Product Availability Example
   slug: scansource-product-availability-example
 finops:
-- name: Scansource Finops
+- has_sources: true
+  method: generated
+  name: Scansource Finops
+  primary_unit: ''
   service_category: B2B Distribution
   slug: scansource-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/scansource.png
 json_schemas:
 - name: ScanSource Sales Order
@@ -205,17 +228,17 @@ jsonld:
   property_count: 27
   slug: scansource-context
 layout: provider
-modified: '2026-05-02'
+modified: '2026-10-06'
 name: ScanSource
 nav: Providers
 network: true
-overview: 'ScanSource publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Availability API, Invoices API, Orders API, and 4 more. Tagged areas include ScanSource, Distribution, Barcodes, Point-of-Sale, and AIDC.
+overview: 'ScanSource publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Availability API, Invoices API, Orders API, and 4 more. Tagged areas include ScanSource, Distribution, Barcodes, Point-of-Sale, and AIDC.
 
 
   The ScanSource catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  ScanSource''s developer surface includes authentication, documentation, getting-started guide, and 10 more developer resources.'
+  ScanSource''s developer surface includes engineering blog, authentication, documentation, getting-started guide, and 13 more developer resources.'
 plans:
 - name: Scansource Plans Pricing
   plan_count: 1
@@ -242,9 +265,10 @@ rate_limits:
   name: Scansource Rate Limits
   slug: scansource-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: ScanSource API Rules
+  name: ScanSource — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -252,7 +276,8 @@ rules:
     info: 2
     warn: 3
   slug: scansource-jsonschema-spectral-rules
-- effective_rule_count: 10
+- authorship: unmarked
+  effective_rule_count: 10
   extends: []
   name: ScanSource API Rules
   rule_count: 10
@@ -264,20 +289,20 @@ rules:
   slug: scansource-rules
 score:
   band: thin
-  composite: 37.4
+  composite: 36.3
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 74.8
+    artifact_dirs: 20
+    catalog_earned: 71.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 40.3
+    catalog_gap: 43.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.1
   facets:
-    access_clarity: 13.2
+    access_clarity: 5.3
     contract_governance: 23.5
     contract_quality: 64.1
-    developer_ergonomics: 42.9
+    developer_ergonomics: 45.2
     discoverability: 71.4
     operational_transparency: 5.3
   previous_composite: 37.4
@@ -294,8 +319,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

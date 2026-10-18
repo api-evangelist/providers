@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.3
-  scored_at: '2026-10-04'
+  score: 25.4
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 4
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 34
   slug: pendle-agentic-access
   summary_line: 34 operations · 4 acting · 4 human-in-the-loop
-api_count: 1
+api_count: 2
 apis:
 - baseURL: https://api-v2.pendle.finance/core
   baseurl_source: declared
@@ -209,9 +209,13 @@ examples:
   name: Statisticscontroller_Getdistinctuserfromtoken Response 200
   slug: StatisticsController_getDistinctUserFromToken-response-200
 finops:
-- name: Pendle Finops
+- has_sources: true
+  method: generated
+  name: Pendle Finops
+  primary_unit: ''
   service_category: DeFi Protocol API
   slug: pendle-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pendle.png
 json_schemas:
 - name: AddLiquidityData
@@ -906,7 +910,7 @@ modified: '2026-09-16'
 name: Pendle
 nav: Providers
 network: true
-overview: 'Pendle publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Assets API, Chains API, Dashboard API, and 7 more. Tagged areas include Web3, DeFi, Yield Tokenization, Crypto, and Principal Tokens.
+overview: 'Pendle publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Assets API, Chains API, Dashboard API, and 7 more. Tagged areas include Web3, DeFi, Yield Tokenization, Cryptocurrency, and Principal Tokens.
 
 
   The Pendle catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -923,9 +927,10 @@ rate_limits:
   name: Pendle Rate Limits
   slug: pendle-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Pendle API Rules
+  name: Pendle — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -935,22 +940,22 @@ rules:
   slug: pendle-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 36.7
+  composite: 28.4
   coverage:
     artifact_dirs: 15
-    catalog_earned: 64.9
+    catalog_earned: 46.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 50.1
+    catalog_gap: 68.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 46.8
+    access_clarity: 18.4
     contract_governance: 9.8
     contract_quality: 39.2
     developer_ergonomics: 33.3
     discoverability: 66.1
-    operational_transparency: 33.7
+    operational_transparency: 13.2
   previous_composite: 36.7
   provenance:
     agentic_access: derived
@@ -965,9 +970,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0
@@ -986,7 +991,7 @@ tags:
 - Web3
 - DeFi
 - Yield Tokenization
-- Crypto
+- Cryptocurrency
 - Principal Tokens
 - Yield Tokens
 - AMM

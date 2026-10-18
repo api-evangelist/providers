@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 7
 apis:
 - description: FMX Futures Exchange launched September 23, 2024, initially listing SOFR futures (the largest notional futures contract in the world) and adding U.S. Treasury futures in Q1 2025. Equity partners inclu
@@ -59,6 +59,10 @@ apis:
   slug: gfi-group
 artifact_total: 13
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.fmxfutures.com/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/bgc-partners/refs/heads/main/security/bgc-partners-vulnerability-disclosure.yml
   title: ''
@@ -157,9 +161,13 @@ common:
 created: '2026-05-05'
 description: 'BGC Group, Inc. (NASDAQ: BGC), formerly BGC Partners, is a global brokerage and financial technology firm. Headquartered in New York and London, BGC operates electronic and voice broking across foreign exchange, interest rate derivatives, fixed income, energy and commodities, equity derivatives, credit, and futures. Its technology portfolio includes the FMX division (FMX UST, FMX FX, and FMX Futures Exchange — launched September 23, 2024 for SOFR futures), Fenics Market Data (the exclusive data distributor for BGC and its affiliates), Capitalab (post-trade optimization), Lucera (LumeMarkets cross-asset trading platform and Lucera Connect/Compute infrastructure), and GFI Group. BGC spun off Newmark Group (NASDAQ: NMRK) on November 30, 2018. Public developer documentation is generally gated behind sales engagement; protocol specifications (FIX, ITCH/SoupBinTCP, BIMP, BOP) exist for institutional clients.'
 finops:
-- name: Bgc Partners Finops
+- has_sources: false
+  method: generated
+  name: Bgc Partners Finops
+  primary_unit: ''
   service_category: ''
   slug: bgc-partners-finops
+  template: true
 image: https://www.bgcg.com/wp-content/uploads/2023/06/BGC-Group-Logo.svg
 jsonld:
 - class_count: 42
@@ -167,17 +175,17 @@ jsonld:
   property_count: 0
   slug: bgc-partners-context
 layout: provider
-modified: '2026-05-23'
+modified: '2026-10-06'
 name: BGC Group
 nav: Providers
 network: true
-overview: 'BGC Group publishes 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Brokerage, Inter-Dealer Broker, Financial Services, Capital Markets, and Market Data.
+overview: 'BGC Group is listed with 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Brokerage, Inter-Dealer Broker, Financial Services, Capital Markets, and Market Data.
 
 
   The BGC Group catalog on APIs.io includes 1 JSON-LD context.
 
 
-  BGC Group''s developer surface includes developer portal, product news, and 20 more developer resources.'
+  BGC Group''s developer surface includes developer portal, product news, and 21 more developer resources.'
 plans:
 - name: Bgc Partners Plans Pricing
   plan_count: 6
@@ -189,17 +197,17 @@ rate_limits:
   slug: bgc-partners-rate-limits
 score:
   band: emerging
-  composite: 23.4
+  composite: 17.7
   coverage:
-    artifact_dirs: 7
-    catalog_earned: 66.3
+    artifact_dirs: 9
+    catalog_earned: 55.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 48.7
+    catalog_gap: 59.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.7
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 13.6
     contract_quality: 10.7
     developer_ergonomics: 19.0
@@ -219,13 +227,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 21.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/bgc-partners/refs/heads/main/screenshots/bgc-partners-2026-10-11T182918.png
 security:
 - kind: domain-security
   name: Bgc Partners Domain Security

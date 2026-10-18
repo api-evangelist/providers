@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 118
-  human_in_the_loop: 77
+- acting_count: 117
+  human_in_the_loop: 76
   name: Emburse Agentic Access
   operation_count: 213
   slug: emburse-agentic-access
-  summary_line: 213 operations · 118 acting · 77 human-in-the-loop
+  summary_line: 213 operations · 117 acting · 76 human-in-the-loop
 api_count: 13
 apis:
 - description: REST API for Emburse Professional (formerly Certify) supporting push/pull of users, departments, categories, expense reports, expense lines, receipt data, and invoices. Base URL is https://api.certify
@@ -494,6 +494,10 @@ common:
   title: ''
   type: JSONLDContext
   url: https://raw.githubusercontent.com/api-evangelist/emburse/refs/heads/main/json-ld/emburse-context.jsonld
+- group: company
+  title: ''
+  type: Website
+  url: https://www.emburse.com/enterprise/
 created: 2026-06-12
 description: Emburse is an expense management and accounts payable automation platform serving over 4 million finance leaders and business travelers worldwide. The company offers REST APIs across its product lines including Emburse Professional (formerly Certify), Emburse Spend (formerly Abacus), and Emburse Enterprise (Chrome River), enabling integrations for expense reports, corporate card management, invoice processing, receipt capture, and reimbursement workflows. The Virtual Cards API provides OAuth2-secured endpoints for creating and managing virtual and physical cards, transactions, members, and accounting data. Emburse Enterprise exposes Swagger-documented APIs for Expense, Invoice, Person, PreApproval, Purchase Order, Vendor, and Allocation resources. API access for the Spend product is available to Partners and customers on the Plus plan or higher.
 examples:
@@ -510,9 +514,13 @@ examples:
   name: Emburse Transaction Example
   slug: emburse-transaction-example
 finops:
-- name: Emburse Finops
+- has_sources: false
+  method: generated
+  name: Emburse Finops
+  primary_unit: ''
   service_category: ''
   slug: emburse-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/emburse.png
 json_schemas:
 - name: APIAccount
@@ -543,13 +551,13 @@ modified: '2026-09-16'
 name: Emburse
 nav: Providers
 network: true
-overview: 'Emburse publishes 48 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Allocation API Controller V 1 API, Allocation API Controller V 2 API, and 45 more. Tagged areas include Expense Management, AP Automation, Corporate Cards, Virtual Cards, and Receipt Capture.
+overview: 'Emburse publishes 48 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, Allocation API Controller V 1 API, Allocation API Controller V 2 API, and 45 more. Tagged areas include Expense Management, AP Automation, Corporate Cards, Virtual Cards, and Receipt Capture.
 
 
   The Emburse catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Emburse''s developer surface includes authentication, documentation, engineering blog, and 13 more developer resources.'
+  Emburse''s developer surface includes authentication, documentation, engineering blog, and 14 more developer resources.'
 plans:
 - name: Emburse Plans Pricing
   plan_count: 7
@@ -560,9 +568,10 @@ rate_limits:
   name: Emburse Rate Limits
   slug: emburse-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Emburse API Rules
+  name: Emburse — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -571,23 +580,23 @@ rules:
     warn: 4
   slug: emburse-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 43.1
+  band: thin
+  composite: 34.8
   coverage:
     artifact_dirs: 17
-    catalog_earned: 83.4
+    catalog_earned: 64.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 31.7
+    catalog_gap: 50.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 23.5
     contract_quality: 57.5
     developer_ergonomics: 23.8
     discoverability: 71.4
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   previous_composite: 43.1
   provenance:
     agentic_access: derived
@@ -602,9 +611,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 20.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 33.3
@@ -633,5 +642,10 @@ tags:
 - Invoice Processing
 - Finance
 - Fintech
+- Ai Apps
+- Travel And Expense
+- Invoice Management
+- Spend Management
+- Enterprise Software
 website: https://www.emburse.com/
 ---

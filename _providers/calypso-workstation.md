@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'Calypso Workstation is the end-user desktop application for the Nasdaq Calypso platform. It delivers real-time market data, trade entry, order management, risk monitoring, P&L, scenario analysis, and '
@@ -41,6 +41,21 @@ apis:
   slug: calypso-workstation
 artifact_total: 7
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/calypso-workstation/refs/heads/main/plans/calypso-workstation-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/calypso-workstation-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/calypso-workstation/refs/heads/main/rate-limits/calypso-workstation-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/calypso-workstation-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/calypso-workstation/refs/heads/main/finops/calypso-workstation-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/calypso-workstation-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/calypso-workstation/refs/heads/main/security/calypso-workstation-domain-security.yml
   title: ''
@@ -107,19 +122,23 @@ coverage:
 created: '2024-01-15'
 description: Nasdaq Calypso Workstation is the user-facing desktop component of the Nasdaq Calypso (formerly Adenza / Calypso Technology) capital markets platform. It gives capital markets professionals access to market data, trading operations, risk management, and portfolio analytics across asset classes. The Workstation is an integrated client application rather than a publicly documented REST API; programmatic integration is delivered through the broader Calypso platform interfaces used by banks, asset managers, central banks, and clearing houses.
 finops:
-- name: Calypso Workstation Finops
+- has_sources: false
+  method: generated
+  name: Calypso Workstation Finops
+  primary_unit: ''
   service_category: API
   slug: calypso-workstation-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/calypso-workstation.png
 layout: provider
 modified: '2026-04-23'
 name: Calypso Workstation
 nav: Providers
 network: true
-overview: 'Calypso Workstation publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Capital Markets, Financial Technology, Market Data, Portfolio Management, and Risk Management.
+overview: 'Calypso Workstation is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Capital Markets, Financial Technology, Market Data, Portfolio Management, and Risk Management.
 
 
-  Calypso Workstation''s developer surface includes support and 10 more developer resources.'
+  Calypso Workstation''s developer surface includes support and 13 more developer resources.'
 plans:
 - name: Calypso Workstation Plans Pricing
   plan_count: 0
@@ -131,17 +150,17 @@ rate_limits:
   slug: calypso-workstation-rate-limits
 score:
   band: emerging
-  composite: 15.4
+  composite: 13.9
   coverage:
     artifact_dirs: 8
-    catalog_earned: 35.0
+    catalog_earned: 32.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 80.0
+    catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 30.3
+    access_clarity: 22.4
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 2.4
@@ -154,8 +173,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

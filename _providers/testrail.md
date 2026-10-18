@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -141,6 +141,14 @@ collections:
   name: TestRail API (v2)
   slug: open-testrail
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.testrail.com/blog/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.testrail.com/blog/feed/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/testrail/refs/heads/main/capabilities/testrail-capability-edges.yml
   title: ''
@@ -190,19 +198,23 @@ common:
 created: '2026-07-11'
 description: TestRail is a web-based test case management and QA platform (originally by Gurock, now part of IDERA) for organizing test cases, running test runs and test plans, and recording test results across manual and automated testing. Its HTTP API (v2) exposes projects, suites, sections, cases, runs, plans, tests, results, milestones, configurations, and users so teams can push automated results, create and close test runs, and sync test cases programmatically. The API is available on TestRail Cloud (per-instance host, e.g. https://{instance}.testrail.io) and on self-hosted TestRail Server/Enterprise, and uses the distinctive index.php?/api/v2/ URL style with HTTP Basic authentication (email plus password or API key).
 finops:
-- name: Testrail Finops
+- has_sources: true
+  method: generated
+  name: Testrail Finops
+  primary_unit: ''
   service_category: Software and Development Tools
   slug: testrail-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/testrail.png
 layout: provider
-modified: '2026-07-11'
+modified: '2026-10-06'
 name: TestRail
 nav: Providers
 network: true
-overview: 'TestRail publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Cases API, Configurations API, Milestones API, and 8 more. Tagged areas include Test Runs, Test Management, QA, Test Cases, and Test Results.
+overview: 'TestRail publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Cases API, Configurations API, Milestones API, and 8 more. Tagged areas include Test Runs, Test Management, QA, Test Cases, and Test Results.
 
 
-  TestRail''s developer surface includes authentication, documentation, pricing, and 7 more developer resources.'
+  TestRail''s developer surface includes engineering blog, authentication, documentation, pricing, and 8 more developer resources.'
 plans:
 - name: Testrail Plans Pricing
   plan_count: 4
@@ -214,22 +226,22 @@ rate_limits:
   slug: testrail-rate-limits
 score:
   band: thin
-  composite: 35.5
+  composite: 27.7
   coverage:
-    artifact_dirs: 10
-    catalog_earned: 61.6
+    artifact_dirs: 11
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.4
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.8
   facets:
-    access_clarity: 46.8
+    access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 48.0
-    developer_ergonomics: 29.8
+    developer_ergonomics: 32.1
     discoverability: 66.1
-    operational_transparency: 28.4
+    operational_transparency: 7.9
   previous_composite: 35.5
   provenance:
     agentic_access: derived
@@ -244,9 +256,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -68,6 +68,21 @@ collections:
   name: iCIMS Workflows API
   slug: open-icims
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/icims/refs/heads/main/plans/icims-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/icims-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/icims/refs/heads/main/rate-limits/icims-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/icims-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/icims/refs/heads/main/finops/icims-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/icims-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/icims/refs/heads/main/capabilities/icims-capability-edges.yml
   title: ''
@@ -124,19 +139,23 @@ common:
 created: '2025-01-08'
 description: iCIMS is a leading talent cloud company providing applicant tracking and talent acquisition software. The iCIMS developer platform provides APIs for integrating with iCIMS Talent Cloud, enabling access to job postings, applicant workflows, candidate management, and hiring processes.
 finops:
-- name: Icims Finops
+- has_sources: false
+  method: generated
+  name: Icims Finops
+  primary_unit: ''
   service_category: API
   slug: icims-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/icims.png
 layout: provider
 modified: '2026-05-19'
 name: iCIMS
 nav: Providers
 network: true
-overview: 'iCIMS publishes 3 APIs on the [APIs.io](https://apis.io/) network, including Workflows API, and 2 more. Tagged areas include Applicant Tracking, Human Resources, Recruiting, and Talent Acquisition.
+overview: 'iCIMS is listed with 3 APIs on the [APIs.io](https://apis.io/) network, including Workflows API, and 2 more. Tagged areas include Applicant Tracking, Human Resources, Recruiting, and Talent Acquisition.
 
 
-  iCIMS''s developer surface includes authentication, developer portal, documentation, support, engineering blog, and 7 more developer resources.'
+  iCIMS''s developer surface includes authentication, developer portal, documentation, support, engineering blog, and 10 more developer resources.'
 plans:
 - name: Icims Plans Pricing
   plan_count: 3
@@ -148,17 +167,17 @@ rate_limits:
   slug: icims-rate-limits
 score:
   band: thin
-  composite: 28.4
+  composite: 26.8
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 39.0
+    artifact_dirs: 13
+    catalog_earned: 36.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 76.0
+    catalog_gap: 79.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 23.7
+    access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 45.3
     developer_ergonomics: 33.3
@@ -178,8 +197,8 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

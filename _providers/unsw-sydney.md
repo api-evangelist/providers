@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.3
-  scored_at: '2026-10-04'
+  score: 31.1
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: UNSW's own SAML 2.0 identity provider — a Shibboleth IdP whose entity metadata is published as a machine-readable XML document at the entityID URL and is carried in the AAF federation aggregate, which
@@ -284,9 +284,13 @@ examples:
   name: Unsw Sydney Unsworks Dspace Example
   slug: unsw-sydney-unsworks-dspace-example
 finops:
-- name: Unsw Sydney Finops
+- has_sources: true
+  method: generated
+  name: Unsw Sydney Finops
+  primary_unit: ''
   service_category: Education
   slug: unsw-sydney-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/unsw-sydney.png
 json_schemas:
 - name: UNSWorks Repository DSpace 7.0 REST payloads
@@ -302,7 +306,7 @@ modified: '2026-09-16'
 name: University of New South Wales
 nav: Providers
 network: true
-overview: 'University of New South Wales publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Core API, Discover API, Oai Pmh API, and 8 more. Tagged areas include University, Higher Education, Education, Research, and Australia.
+overview: 'University of New South Wales publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Core API, Discover API, Oai Pmh API, and 8 more. Tagged areas include University, Higher Education, Education, Research, and Australia.
 
 
   The University of New South Wales catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -319,7 +323,8 @@ rate_limits:
   name: Unsw Sydney Rate Limits
   slug: unsw-sydney-rate-limits
 rules:
-- effective_rule_count: 0
+- authorship: generated
+  effective_rule_count: 0
   extends: []
   name: University of New South Wales API Rules
   rule_count: 0
@@ -336,22 +341,22 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 47.1
+  composite: 40.4
   coverage:
     artifact_dirs: 18
-    catalog_earned: 67.8
+    catalog_earned: 50.5
     catalog_earned_first_party: 5.0
-    catalog_gap: 47.2
+    catalog_gap: 64.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.5
+  delta: -6.7
   facets:
-    access_clarity: 61.1
+    access_clarity: 39.5
     contract_governance: 15.2
-    contract_quality: 58.4
+    contract_quality: 55.8
     developer_ergonomics: 38.1
     discoverability: 57.1
-    operational_transparency: 21.6
+    operational_transparency: 7.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -359,7 +364,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 52.6
+  previous_composite: 47.1
   provenance:
     conformance: first-party
     contracts:
@@ -373,8 +378,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 34.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: falling
   upsert:
     applies: false

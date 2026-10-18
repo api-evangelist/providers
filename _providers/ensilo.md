@@ -18,7 +18,7 @@ modified: '2026-07-19'
 name: Ensilo
 nav: Providers
 network: true
-overview: Ensilo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Cybersecurity, Endpoint Security, and EDR.
+overview: Ensilo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Cybersecurity, Endpoint Security, and Endpoint Detection and Response.
 random_paper: 12
 slug: ensilo
 tags:
@@ -26,7 +26,7 @@ tags:
 - Security
 - Cybersecurity
 - Endpoint Security
-- EDR
+- Endpoint Detection and Response
 - Threat Detection
 - Acquired
 ---

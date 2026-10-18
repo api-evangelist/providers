@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: Mosaic is an AI-powered intelligent bidding application developed by Fluence (an AES and Siemens company) for optimizing energy market participation. Mosaic automates bidding strategies for battery en
@@ -44,6 +44,21 @@ apis:
   slug: fluence-nispera-api
 artifact_total: 29
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/aes/refs/heads/main/plans/aes-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/aes-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/aes/refs/heads/main/rate-limits/aes-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/aes-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/aes/refs/heads/main/finops/aes-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/aes-finops.yml
 - group: company
   title: ''
   type: Website
@@ -167,9 +182,13 @@ features:
 - description: AES Indiana and AES Ohio provide regulated electric service to over 2.7 million customers with digital customer portals for account management.
   name: Regulated Utilities
 finops:
-- name: Aes Finops
+- has_sources: true
+  method: generated
+  name: Aes Finops
+  primary_unit: ''
   service_category: Energy / Asset Management Software
   slug: aes-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aes.png
 integrations:
 - description: AES co-founded Fluence Energy with Siemens to provide leading energy storage products and software platforms including Mosaic and Nispera.
@@ -185,10 +204,10 @@ modified: '2026-08-30'
 name: AES
 nav: Providers
 network: true
-overview: 'AES publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Power Generation, Renewable Energy, Battery Storage, and Utility.
+overview: 'AES is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Power Generation, Renewable Energy, Battery Storage, and Utility.
 
 
-  AES''s developer surface includes support, documentation, developer portal, engineering blog, and 15 more developer resources.'
+  AES''s developer surface includes support, documentation, developer portal, engineering blog, and 18 more developer resources.'
 plans:
 - name: Aes Plans Pricing
   plan_count: 0
@@ -216,17 +235,17 @@ rate_limits:
   slug: aes-rate-limits
 score:
   band: emerging
-  composite: 20.9
+  composite: 19.3
   coverage:
-    artifact_dirs: 16
-    catalog_earned: 40.0
+    artifact_dirs: 17
+    catalog_earned: 37.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 36.8
+    access_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 26.2
@@ -242,8 +261,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 19.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

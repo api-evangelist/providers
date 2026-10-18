@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: verified
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.9
-  scored_at: '2026-10-04'
+  score: 34.0
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -112,6 +112,21 @@ collections:
   name: SpotHero Parking Availability Search API
   slug: open-spothero-search-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/spothero/refs/heads/main/plans/spothero-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/spothero-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/spothero/refs/heads/main/rate-limits/spothero-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/spothero-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/spothero/refs/heads/main/finops/spothero-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/spothero-finops.yml
 - group: other
   title: ''
   type: ParentCompany
@@ -217,9 +232,13 @@ examples:
   name: Spothero Search Parking Example
   slug: spothero-search-parking-example
 finops:
-- name: Spothero Finops
+- has_sources: false
+  method: generated
+  name: Spothero Finops
+  primary_unit: ''
   service_category: API
   slug: spothero-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/spothero.png
 json_schemas:
 - name: SpotHero Facility
@@ -249,13 +268,13 @@ modified: '2026-05-19'
 name: SpotHero
 nav: Providers
 network: true
-overview: 'SpotHero publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Availability API, Facilities API, Rates API, and 3 more. Tagged areas include Parking, Mobility, Transportation, Navigation, and Reservations.
+overview: 'SpotHero publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Availability API, Facilities API, Rates API, and 3 more. Tagged areas include Parking, Mobility, Transportation, Navigation, and Reservations.
 
 
   The SpotHero catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  SpotHero''s developer surface includes authentication, documentation, engineering blog, and 18 more developer resources.'
+  SpotHero''s developer surface includes authentication, documentation, engineering blog, and 21 more developer resources.'
 plans:
 - name: Spothero Plans Pricing
   plan_count: 3
@@ -266,9 +285,10 @@ rate_limits:
   name: Spothero Rate Limits
   slug: spothero-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: SpotHero API Rules
+  name: SpotHero — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -276,7 +296,8 @@ rules:
     info: 1
     warn: 4
   slug: spothero-jsonschema-spectral-rules
-- effective_rule_count: 55
+- authorship: unmarked
+  effective_rule_count: 55
   extends:
   - spectral:oas
   name: SpotHero API Rules
@@ -289,17 +310,17 @@ rules:
   slug: spothero-rules
 score:
   band: thin
-  composite: 33.6
+  composite: 32.1
   coverage:
     artifact_dirs: 20
-    catalog_earned: 63.0
+    catalog_earned: 60.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 52.0
+    catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 27.3
     contract_quality: 56.7
     developer_ergonomics: 25.0
@@ -320,8 +341,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

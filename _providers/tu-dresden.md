@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 5.0
-  scored_at: '2026-10-04'
+  score: 3.1
+  scored_at: '2026-10-17'
 api_count: 7
 apis:
 - description: An OpenAI-compatible LLM inference API operated by ZIH and ScaDS.AI Dresden/Leipzig for TU Dresden staff, students and ScaDS.AI affiliates, served from a LiteLLM proxy on the university's own network.
@@ -264,16 +264,20 @@ description: 'Technische Universität Dresden (TUD) is a German public technical
   and agentic-access artifacts derived from them have been removed. What is left is what TU Dresden actually runs, and it is more than the old profile showed. The headline find is TUD:AI at llm.scads.ai/v1 — an OpenAI-compatible LLM inference API operated by ZIH and ScaDS.AI Dresden/Leipzig on TU Dresden''s own network, keyed from the university''s Self-Service Portal, serving nine open-weight chat models plus embedding, audio and image endpoints. Alongside it: OPARA, the DSpace 7.6.2 research-data repository TU Dresden operates for four Saxon institutions, with an open REST API and an OAI-PMH interface; the university''s own Shibboleth identity provider, registered in DFN-AAI and exported to eduGAIN, which now also serves OpenID Connect discovery and a JWKS; and the gated lecture-directory JSON API of the Faculty of Arts. Two surfaces are real institutional facts running on somebody else''s engineering: the Pure-based research information system at fis.tu-dresden.de and the TU Dresden view
   of the SLUB-operated Qucosa document server. TU Dresden publishes no OpenAPI of its own, no developer portal, no open data portal and no llms.txt — but it does publish a security.txt, and it holds its own DataCite membership and DOI prefix.'
 finops:
-- name: Tu Dresden Finops
+- has_sources: true
+  method: generated
+  name: Tu Dresden Finops
+  primary_unit: ''
   service_category: Education
   slug: tu-dresden-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tu-dresden.png
 layout: provider
 modified: '2026-08-30'
 name: TU Dresden
 nav: Providers
 network: true
-overview: 'TU Dresden publishes 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include University, Higher Education, Education, Germany, and Saxony.
+overview: 'TU Dresden is listed with 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include University, Higher Education, Education, Germany, and Saxony.
 
 
   TU Dresden''s developer surface includes engineering blog, documentation, API reference, status page, support, authentication, and 20 more developer resources.'
@@ -287,23 +291,23 @@ rate_limits:
   name: Tu Dresden Rate Limits
   slug: tu-dresden-rate-limits
 score:
-  band: thin
-  composite: 32.6
+  band: emerging
+  composite: 25.7
   coverage:
-    artifact_dirs: 10
-    catalog_earned: 61.0
+    artifact_dirs: 11
+    catalog_earned: 45.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 54.0
+    catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -4.2
+  delta: -6.9
   facets:
-    access_clarity: 47.9
+    access_clarity: 26.3
     contract_governance: 18.2
     contract_quality: 4.4
     developer_ergonomics: 35.7
     discoverability: 71.4
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -312,7 +316,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 36.8
+  previous_composite: 32.6
   provenance:
     conformance: first-party
   regulatory:
@@ -321,9 +325,9 @@ score:
     regime: Education & Research
     regime_id: education
     score: 28.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

@@ -28,20 +28,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.7
-  scored_at: '2026-10-04'
+  score: 20.8
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 4
+- acting_count: 2
   human_in_the_loop: 0
   name: Who Agentic Access
   operation_count: 25
   slug: who-agentic-access
-  summary_line: 25 operations · 4 acting
+  summary_line: 25 operations · 2 acting
 api_count: 1
 apis:
 - baseURL: https://ghoapi.azureedge.net/api
@@ -140,9 +140,13 @@ common:
 created: '2026-06-13'
 description: The World Health Organization (WHO) is the United Nations specialized agency for international public health. WHO provides free public REST APIs giving programmatic access to global health statistics, disease surveillance data, immunization coverage, health indicators by country, and the International Classification of Diseases (ICD). The GHO OData API exposes hundreds of health indicators across all WHO member states with no authentication required, while the ICD API provides structured access to ICD-11 and ICD-10 clinical classifications via OAuth 2 credentials obtained through free registration.
 finops:
-- name: Who Finops
+- has_sources: false
+  method: generated
+  name: Who Finops
+  primary_unit: ''
   service_category: ''
   slug: who-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/who.png
 json_schemas:
 - name: AutoCodingSearchResult
@@ -230,7 +234,7 @@ modified: '2026-06-13'
 name: World Health Organization (WHO)
 nav: Providers
 network: true
-overview: 'World Health Organization (WHO) publishes 3 APIs on the [APIs.io](https://apis.io/) network: Foundation API, ICD10 API, and Linearization (classification endpoints) API. Tagged areas include Health, Global Health, Disease Surveillance, Immunization, and Health Statistics.
+overview: 'World Health Organization (WHO) publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Foundation API, ICD10 API, and Linearization (classification endpoints) API. Tagged areas include Health, Global Health, Disease Surveillance, Immunization, and Health Statistics.
 
 
   The World Health Organization (WHO) catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -247,9 +251,10 @@ rate_limits:
   name: Who Rate Limits
   slug: who-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: World Health Organization (WHO) API Rules
+  name: World Health Organization (WHO) — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -264,23 +269,23 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: thin
-  composite: 32.6
+  composite: 28.3
   coverage:
     artifact_dirs: 15
-    catalog_earned: 58.5
+    catalog_earned: 50.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 56.6
+    catalog_gap: 64.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -2.8
+  delta: -4.3
   facets:
-    access_clarity: 37.4
+    access_clarity: 15.8
     contract_governance: 9.8
     contract_quality: 46.5
     developer_ergonomics: 17.9
     discoverability: 66.1
     operational_transparency: 5.3
-  previous_composite: 35.4
+  previous_composite: 32.6
   provenance:
     agentic_access: derived
     contracts:
@@ -294,8 +299,8 @@ score:
     regime: Health
     regime_id: health
     score: 26.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

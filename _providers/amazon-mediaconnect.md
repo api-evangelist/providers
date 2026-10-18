@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.6
-  scored_at: '2026-10-04'
+  score: 28.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 2
@@ -139,6 +139,21 @@ collections:
   name: AWS MediaConnect Bridges Tags API
   slug: open-amazon-mediaconnect-tags-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconnect/refs/heads/main/plans/amazon-mediaconnect-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/amazon-mediaconnect-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconnect/refs/heads/main/rate-limits/amazon-mediaconnect-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/amazon-mediaconnect-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconnect/refs/heads/main/finops/amazon-mediaconnect-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/amazon-mediaconnect-finops.yml
 - group: company
   title: ''
   type: Website
@@ -880,9 +895,13 @@ features:
 - description: Visualize relationships between resources in live video workflows across connected AWS services.
   name: Workflow Monitor
 finops:
-- name: Amazon Mediaconnect Finops
+- has_sources: false
+  method: generated
+  name: Amazon Mediaconnect Finops
+  primary_unit: ''
   service_category: API
   slug: amazon-mediaconnect-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amazon-mediaconnect.png
 json_schemas:
 - name: __boolean
@@ -2354,13 +2373,13 @@ modified: '2026-09-16'
 name: Amazon MediaConnect
 nav: Providers
 network: true
-overview: 'Amazon MediaConnect publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Bridges API, Entitlements API, Flows API, and 5 more. Tagged areas include Broadcasting, Live Video, Media, and Media Transport.
+overview: 'Amazon MediaConnect publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Bridges API, Entitlements API, Flows API, and 5 more. Tagged areas include Broadcasting, Live Streaming, Media, and Media Transport.
 
 
   The Amazon MediaConnect catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon MediaConnect''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 14 more developer resources.'
+  Amazon MediaConnect''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 17 more developer resources.'
 plans:
 - name: Amazon Mediaconnect Plans Pricing
   plan_count: 3
@@ -2371,9 +2390,10 @@ rate_limits:
   name: Amazon Mediaconnect Rate Limits
   slug: amazon-mediaconnect-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Amazon MediaConnect API Rules
+  name: Amazon MediaConnect — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -2381,7 +2401,8 @@ rules:
     info: 1
     warn: 4
   slug: amazon-mediaconnect-jsonschema-spectral-rules
-- effective_rule_count: 68
+- authorship: generated
+  effective_rule_count: 68
   extends:
   - spectral:oas
   name: Amazon MediaConnect API Rules
@@ -2393,18 +2414,18 @@ rules:
     warn: 15
   slug: amazon-mediaconnect-spectral-rules
 score:
-  band: strong
-  composite: 55.7
+  band: developing
+  composite: 54.2
   coverage:
     artifact_dirs: 19
-    catalog_earned: 61.0
+    catalog_earned: 58.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 54.0
+    catalog_gap: 57.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 68.4
+    access_clarity: 60.5
     contract_governance: 27.3
     contract_quality: 62.9
     developer_ergonomics: 58.3
@@ -2424,8 +2445,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -2451,7 +2472,7 @@ security:
 slug: amazon-mediaconnect
 tags:
 - Broadcasting
-- Live Video
+- Live Streaming
 - Media
 - Media Transport
 use_cases:

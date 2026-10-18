@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 9
+- acting_count: 8
   human_in_the_loop: 0
   name: Rsc Agentic Access
   operation_count: 16
   slug: rsc-agentic-access
-  summary_line: 16 operations · 9 acting
+  summary_line: 16 operations · 8 acting
 api_count: 1
 apis:
 - baseURL: https://api.rsc.org/compounds/v1
@@ -86,6 +86,25 @@ collections:
   name: RSC ChemSpider Compounds Filter Tools API
   slug: open-rsc-tools-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/rsc/refs/heads/main/plans/rsc-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/rsc-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/rsc/refs/heads/main/rate-limits/rsc-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/rsc-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/rsc/refs/heads/main/finops/rsc-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/rsc-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.rsc.org/news
 - group: company
   title: ''
   type: Website
@@ -142,9 +161,13 @@ examples:
   name: Rsc Get Record Details Example
   slug: rsc-get-record-details-example
 finops:
-- name: Rsc Finops
+- has_sources: false
+  method: generated
+  name: Rsc Finops
+  primary_unit: ''
   service_category: API
   slug: rsc-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rsc.png
 json_schemas:
 - name: ChemSpider Compound
@@ -160,17 +183,17 @@ jsonld:
   property_count: 15
   slug: rsc-context
 layout: provider
-modified: '2026-09-16'
+modified: '2026-10-06'
 name: RSC
 nav: Providers
 network: true
-overview: 'RSC publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Filter API, Lookups API, Records API, and 1 more. Tagged areas include Chemistry, Cheminformatics, Chemical Data, and Science.
+overview: 'RSC publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Filter API, Lookups API, Records API, and 1 more. Tagged areas include Chemistry, Cheminformatics, Chemical Data, and Science.
 
 
   The RSC catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  RSC''s developer surface includes authentication, developer portal, signup flow, and 7 more developer resources.'
+  RSC''s developer surface includes engineering blog, authentication, developer portal, signup flow, and 10 more developer resources.'
 plans:
 - name: Rsc Plans Pricing
   plan_count: 3
@@ -181,9 +204,10 @@ rate_limits:
   name: Rsc Rate Limits
   slug: rsc-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: RSC API Rules
+  name: RSC — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -191,7 +215,8 @@ rules:
     info: 2
     warn: 3
   slug: rsc-jsonschema-spectral-rules
-- effective_rule_count: 59
+- authorship: generated
+  effective_rule_count: 59
   extends:
   - spectral:oas
   name: RSC API Rules
@@ -204,20 +229,20 @@ rules:
   slug: rsc-spectral-rules
 score:
   band: thin
-  composite: 32.9
+  composite: 31.9
   coverage:
-    artifact_dirs: 16
-    catalog_earned: 56.5
+    artifact_dirs: 18
+    catalog_earned: 53.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 58.5
+    catalog_gap: 61.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.0
   facets:
-    access_clarity: 39.5
+    access_clarity: 31.6
     contract_governance: 13.6
     contract_quality: 58.9
-    developer_ergonomics: 9.5
+    developer_ergonomics: 11.9
     discoverability: 57.1
     operational_transparency: 7.9
   previous_composite: 32.9
@@ -234,8 +259,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

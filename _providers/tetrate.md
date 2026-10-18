@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -149,6 +149,21 @@ collections:
   name: Tetrate Service Bridge REST APIs Workspaces API
   slug: open-tetrate-workspaces-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/tetrate/refs/heads/main/plans/tetrate-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/tetrate-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/tetrate/refs/heads/main/rate-limits/tetrate-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/tetrate-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/tetrate/refs/heads/main/finops/tetrate-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/tetrate-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/tetrate/refs/heads/main/capabilities/tetrate-capability-edges.yml
   title: ''
@@ -251,9 +266,13 @@ examples:
   name: Tetrate Service Bridge List Tenants Example
   slug: tetrate-service-bridge-list-tenants-example
 finops:
-- name: Tetrate Finops
+- has_sources: true
+  method: generated
+  name: Tetrate Finops
+  primary_unit: ''
   service_category: AI Gateway / Governance
   slug: tetrate-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tetrate.png
 json_schemas:
 - name: API
@@ -351,13 +370,13 @@ modified: '2026-05-19'
 name: Tetrate
 nav: Providers
 network: true
-overview: 'Tetrate publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Clusters API, Gateway Groups API, and 12 more. Tagged areas include Enterprise, Envoy, Istio, Kubernetes, and Service Mesh.
+overview: 'Tetrate publishes 15 API contracts indexed on the [APIs.io](https://apis.io/) network, including Applications API, Clusters API, Gateway Groups API, and 12 more. Tagged areas include Enterprise, Envoy, Istio, Kubernetes, and Service Mesh.
 
 
   The Tetrate catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Tetrate''s developer surface includes authentication, documentation, getting-started guide, engineering blog, changelog, support, pricing, and 13 more developer resources.'
+  Tetrate''s developer surface includes authentication, documentation, getting-started guide, engineering blog, changelog, support, pricing, and 16 more developer resources.'
 plans:
 - name: Tetrate Plans Pricing
   plan_count: 2
@@ -368,9 +387,10 @@ rate_limits:
   name: Tetrate Rate Limits
   slug: tetrate-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: Tetrate API Rules
+  name: Tetrate — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -378,10 +398,11 @@ rules:
     info: 2
     warn: 4
   slug: tetrate-jsonschema-spectral-rules
-- effective_rule_count: 50
+- authorship: unmarked
+  effective_rule_count: 50
   extends:
   - spectral:oas
-  name: Tetrate API Rules
+  name: Tetrate — service bridge rules
   rule_count: 9
   severity_counts:
     error: 2
@@ -391,17 +412,17 @@ rules:
   slug: tetrate-service-bridge-rules
 score:
   band: thin
-  composite: 39.2
+  composite: 37.7
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 69.4
+    artifact_dirs: 19
+    catalog_earned: 66.4
     catalog_earned_first_party: 0.0
-    catalog_gap: 45.6
+    catalog_gap: 48.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 23.7
+    access_clarity: 15.8
     contract_governance: 27.3
     contract_quality: 59.5
     developer_ergonomics: 35.7
@@ -421,8 +442,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

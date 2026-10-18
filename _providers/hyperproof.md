@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: 'REST API exposing 20+ resources for compliance management: Controls, Policies, Policy Versions, Programs, Risks, Proof, Test Results, Issues, Tasks, Task Statuses, Questionnaires, Custom Apps, Labels,'
@@ -91,16 +91,20 @@ common:
 created: '2026-05-08'
 description: Hyperproof is a continuous compliance and risk management platform that automates evidence collection, control management, and audit workflows. It exposes a public REST API covering 20+ resources (Controls, Policies, Programs, Risks, Proof, Tasks, Issues, Vendors, Users, Groups, Roles, Scopes, Questionnaires, Custom Apps, Labels, and more) plus the Hypersync SDK for custom integrations.
 finops:
-- name: Hyperproof Finops
+- has_sources: true
+  method: generated
+  name: Hyperproof Finops
+  primary_unit: ''
   service_category: Compliance & Governance
   slug: hyperproof-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hyperproof.png
 layout: provider
 modified: '2026-05-08'
 name: Hyperproof
 nav: Providers
 network: true
-overview: 'Hyperproof publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include GRC, Compliance, Risk Management, Audit, and SOC 2.
+overview: 'Hyperproof is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include GRC, Compliance, Risk Management, Audit, and SOC 2.
 
 
   Hyperproof''s developer surface includes engineering blog and 9 more developer resources.'
@@ -115,17 +119,17 @@ rate_limits:
   slug: hyperproof-rate-limits
 score:
   band: minimal
-  composite: 10.1
+  composite: 8.6
   coverage:
-    artifact_dirs: 8
-    catalog_earned: 39.0
+    artifact_dirs: 9
+    catalog_earned: 36.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 76.0
+    catalog_gap: 79.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 13.2
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
@@ -138,8 +142,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

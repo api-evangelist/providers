@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Reform's public integration surface. It is not a REST management API — no endpoint exists to create, read or update forms and submissions. What Reform publishes is the hosted form host (forms.reform.a
@@ -172,9 +172,13 @@ common:
 created: '2026-06-13'
 description: Reform is a conversion-focused, no-code form builder for B2B and SaaS teams, acquired by conversion-rate-optimization agency FunnelEnvy. It builds multi-step forms with conditional logic, lead qualification and enrichment, and syncs submissions to CRMs and marketing platforms. Reform publishes no REST API, SDK or OpenAPI definition; its integration surface is three published pieces — a signed outbound webhook (form.submitted, HMAC-SHA256), a CDN-hosted browser embed loader with a parent-page event API, and a headless mode that posts your own HTML form to Reform using answers[block-id] field naming.
 finops:
-- name: Reform Finops
+- has_sources: true
+  method: derived
+  name: Reform Finops
+  primary_unit: ''
   service_category: ''
   slug: reform-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/reform.png
 jsonld:
 - class_count: 16
@@ -186,7 +190,7 @@ modified: '2026-08-14'
 name: Reform
 nav: Providers
 network: true
-overview: 'Reform publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Forms, Form Builder, Lead Generation, Headless Forms, and Webhook.
+overview: 'Reform is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Forms, Form Builder, Lead Generation, Headless Forms, and Webhook.
 
 
   The Reform catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 JSON-LD context.
@@ -204,17 +208,17 @@ rate_limits:
   slug: reform-rate-limits
 score:
   band: developing
-  composite: 50.4
+  composite: 48.9
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 60.0
+    artifact_dirs: 19
+    catalog_earned: 57.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 55.0
+    catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 89.5
+    access_clarity: 81.6
     contract_governance: 18.2
     contract_quality: 49.4
     developer_ergonomics: 40.5
@@ -233,8 +237,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 25.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

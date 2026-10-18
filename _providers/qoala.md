@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -236,7 +236,7 @@ modified: '2026-08-05'
 name: Qoala
 nav: Providers
 network: true
-overview: 'Qoala publishes 2 APIs on the [APIs.io](https://apis.io/) network: Authentication API and API Specification API. Tagged areas include Insurance, Insurtech, Embedded Insurance, Policies, and Claims.
+overview: 'Qoala publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Authentication API and API Specification API. Tagged areas include Insurance, Insurtech, Embedded Insurance, Policies, and Claims.
 
 
   The Qoala catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -286,8 +286,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 18.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

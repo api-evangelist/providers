@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: 'The TuneIn Platform API is a partner-facing REST API (OAuth 2.0) for embedding TuneIn''s full audio service into third-party devices and ecosystems. It exposes endpoints for categories, user profiles, '
@@ -85,6 +85,10 @@ collections:
   name: TuneIn Streaming API (OPML/RadioTime) Tune.ashx API
   slug: open-tunein-tune-ashx-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://tunein.com/press/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/tunein/refs/heads/main/security/tunein-domain-security.yml
   title: ''
@@ -125,9 +129,13 @@ common:
 created: '2026-06-13'
 description: TuneIn is an internet radio and podcast platform providing REST and OPML-based APIs for accessing live radio stations, sports audio, news, podcasts, and searching audio content worldwide. The platform offers two primary API surfaces — the public OPML/RadioTime streaming API for browsing and tuning stations, and the AIR (Broadcaster) API for submitting real-time now-playing metadata.
 finops:
-- name: Finops
+- has_sources: false
+  method: generated
+  name: Finops
+  primary_unit: ''
   service_category: ''
   slug: finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tunein.png
 jsonld:
 - class_count: 0
@@ -135,17 +143,17 @@ jsonld:
   property_count: 0
   slug: tunein
 layout: provider
-modified: '2026-06-13'
+modified: '2026-10-06'
 name: TuneIn
 nav: Providers
 network: true
-overview: 'TuneIn publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Browse.ashx API, Describe.ashx API, Playing.ashx API, and 3 more. Tagged areas include Radio, Internet Radio, Podcasts, Streaming Audio, and Sports Audio.
+overview: 'TuneIn publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Browse.ashx API, Describe.ashx API, Playing.ashx API, and 3 more. Tagged areas include Radio, Internet Radio, Podcasts, Streaming Audio, and Sports Audio.
 
 
   The TuneIn catalog on APIs.io includes 1 JSON-LD context.
 
 
-  TuneIn''s developer surface includes status page and 8 more developer resources.'
+  TuneIn''s developer surface includes engineering blog, status page, and 8 more developer resources.'
 plans:
 - name: Plans
   plan_count: 4
@@ -156,21 +164,21 @@ rate_limits:
   name: Rate Limits
   slug: rate-limits
 score:
-  band: thin
-  composite: 29.7
+  band: emerging
+  composite: 24.6
   coverage:
-    artifact_dirs: 9
-    catalog_earned: 55.8
+    artifact_dirs: 10
+    catalog_earned: 45.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 59.2
+    catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.1
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 49.8
-    developer_ergonomics: 19.0
+    developer_ergonomics: 21.4
     discoverability: 66.1
     operational_transparency: 2.6
   previous_composite: 29.7
@@ -186,9 +194,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

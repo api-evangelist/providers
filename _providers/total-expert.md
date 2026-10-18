@@ -10,7 +10,8 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 41.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 0
@@ -128,7 +129,7 @@ apis:
   description: The Webhooks API from Total Expert — 3 operation(s) for webhooks.
   name: Total Expert Webhooks API
   slug: total-expert-webhooks-api
-artifact_total: 61
+artifact_total: 62
 asyncapis:
 - description: ''
   name: Total Expert Webhooks
@@ -243,6 +244,38 @@ collections:
   name: Total Expert Public Account Endpoints Webhooks API
   slug: open-total-expert-webhooks-api
 common:
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/total-expert/refs/heads/main/rules/total-expert-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/total-expert-rules.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/total-expert/refs/heads/main/hosts/total-expert-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/total-expert-hosts.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/total-expert/refs/heads/main/integrations/total-expert-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/total-expert-integration-edges.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/total-expert/refs/heads/main/vendors/total-expert-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/total-expert-vendors.yml
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://www.totalexpert.com/resources/news
+- group: other
+  title: ''
+  type: Leadership
+  url: https://www.totalexpert.com/leadership
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.totalexpert.com/blog/rss.xml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/total-expert/refs/heads/main/capabilities/total-expert-capability-edges.yml
   title: ''
@@ -329,21 +362,11 @@ common:
   title: ''
   type: DomainSecurity
   url: security/total-expert-domain-security.yml
-- group: build
-  href: https://raw.githubusercontent.com/api-evangelist/total-expert/refs/heads/main/packages/total-expert-packages.yml
-  title: ''
-  type: Packages
-  url: packages/total-expert-packages.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/total-expert/refs/heads/main/mcp/total-expert-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/total-expert-mcp.yml
-- group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/total-expert/refs/heads/main/llms/total-expert-llms.txt
-  title: ''
-  type: LLMsTxt
-  url: llms/total-expert-llms.txt
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/total-expert/refs/heads/main/overlays/total-expert-openapi-overlay.yaml
   title: ''
@@ -435,17 +458,17 @@ created: '2026-07-17'
 description: Total Expert is a fintech CRM and customer-engagement platform built for banks, credit unions, lenders, and mortgage companies. Its Public API is a REST/JSON surface at public.totalexpert.net/v1, secured with OAuth 2.0 (client-credentials for admin integrations, authorization-code for user-level access), covering contacts, leads, loans, insights, surveys, campaigns, users, teams, accounts, and webhook subscriptions, with documented deduplication, pagination, and rate-limit contracts and an isolated sandbox environment for integration partners.
 image: https://developer.totalexpert.net/img/Total-Expert-Logo-Color.png
 layout: provider
-modified: '2026-08-13'
+modified: '2026-10-06'
 name: Total Expert
 nav: Providers
 network: true
-overview: 'Total Expert publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Account Endpoints API, Activity Endpoints API, ALM Leads (formerly Lead Opportunities) API, and 14 more. Tagged areas include Company, Fintech, CRM, Marketing Automation, and Mortgage.
+overview: 'Total Expert publishes 17 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account Endpoints API, Activity Endpoints API, ALM Leads (formerly Lead Opportunities) API, and 14 more. Tagged areas include Company, Fintech, CRM, Marketing Automation, and Mortgage.
 
 
-  The Total Expert catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Total Expert catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Total Expert''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 34 more developer resources.'
+  Total Expert''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 39 more developer resources.'
 plans:
 - name: Total Expert Plans Pricing
   plan_count: 0
@@ -455,6 +478,19 @@ rate_limits:
 - limit_count: 2
   name: Total Expert Rate Limits
   slug: total-expert-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 54
+  extends:
+  - spectral:oas
+  name: Total Expert API Rules
+  rule_count: 13
+  severity_counts:
+    error: 10
+    hint: 0
+    info: 1
+    warn: 2
+  slug: total-expert-rules
 scopes:
 - name: Total Expert Scopes
   scope_count: 5
@@ -462,21 +498,21 @@ scopes:
   summary_line: 5 scopes · clientCredentials/authorizationCode
 score:
   band: strong
-  composite: 58.1
+  composite: 60.1
   coverage:
-    artifact_dirs: 29
-    catalog_earned: 49.5
+    artifact_dirs: 32
+    catalog_earned: 54.0
     catalog_earned_first_party: 8.0
-    catalog_gap: 65.5
+    catalog_gap: 61.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.0
   facets:
     access_clarity: 43.4
-    contract_governance: 31.8
+    contract_governance: 45.5
     contract_quality: 59.5
     developer_ergonomics: 70.8
-    discoverability: 66.1
+    discoverability: 69.6
     operational_transparency: 63.2
   previous_composite: 58.1
   provenance:
@@ -495,8 +531,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 37.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

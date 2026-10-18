@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: HIPAA-compliant REST API providing cloud access to patient ECG data via KardiaPro — account management, patient provisioning, and webhook notifications for new ECG availability. Access is gated behind
@@ -144,7 +144,7 @@ modified: '2026-07-17'
 name: Alivecor
 nav: Providers
 network: true
-overview: 'Alivecor publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Digital Health, ECG, Cardiology, and Medical Devices.
+overview: 'Alivecor is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Digital Health, ECG, Cardiology, and Medical Devices.
 
 
   The Alivecor catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -154,7 +154,7 @@ overview: 'Alivecor publishes 1 API on the [APIs.io](https://apis.io/) network. 
 random_paper: 17
 score:
   band: thin
-  composite: 26.7
+  composite: 26.8
   coverage:
     artifact_dirs: 11
     catalog_earned: 32.0
@@ -162,7 +162,7 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 7.9
     contract_governance: 18.2
@@ -185,8 +185,8 @@ score:
     regime: Health
     regime_id: health
     score: 16.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -205,7 +205,7 @@ security:
 - kind: vulnerability-disclosure
   name: Alivecor Vulnerability Disclosure
   slug: alivecor-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 - kind: trust-center
   name: Alivecor Trust Center
   slug: alivecor-trust-center

@@ -33,14 +33,19 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 14.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The developer surface of the Toucan AI cloud - server-side token generation (POST /embed/generate-token with an x-api-key header), embed delivery via web components loaded from /embed/embed.js, and an
   name: Toucan AI Platform API
   slug: toucan-ai-platform-api
-artifact_total: 4
+artifact_total: 5
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/toucantoco/refs/heads/main/plans/toucantoco-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/toucantoco-plans-pricing.yml
 - group: company
   title: ''
   type: Website
@@ -182,24 +187,28 @@ modified: '2026-07-21'
 name: Toucan Toco
 nav: Providers
 network: true
-overview: 'Toucan Toco publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Analytics, Business Intelligence, Embedded Analytics, Data Visualization, and Data Storytelling.
+overview: 'Toucan Toco is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Analytics, Business Intelligence, Embedded Analytics, Data Visualization, and Data Storytelling.
 
 
-  Toucan Toco''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
+  Toucan Toco''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
+plans:
+- name: Toucantoco Plans Pricing
+  plan_count: 7
+  slug: toucantoco-plans-pricing
 random_paper: 9
 score:
-  band: thin
-  composite: 37.0
+  band: developing
+  composite: 43.4
   coverage:
-    artifact_dirs: 15
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 16
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.4
   facets:
-    access_clarity: 39.5
+    access_clarity: 71.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 71.4
@@ -219,9 +228,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

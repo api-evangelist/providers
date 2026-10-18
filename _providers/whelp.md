@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://whelp.co/blog/rss/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/whelp/refs/heads/main/security/whelp-domain-security.yml
   title: ''
@@ -81,26 +85,26 @@ created: '2026-07-17'
 description: Whelp is an omnichannel customer messaging and support platform that unifies Live Chat, WhatsApp, SMS, Email, Telegram, Facebook Messenger, Instagram, and Viber into a single shared team inbox. It pairs a built-in CRM and unified customer view with a drag-and-drop AI chatbot builder, outbound bulk-messaging campaigns, and reporting and analytics for sales, marketing, and support teams. Whelp is backed by 500 Global. No public developer API or documentation surface was found during enrichment.
 image: https://web.whelp.co/assets/img/og.jpg
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Whelp
 nav: Providers
 network: true
-overview: 'Whelp is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Customer Support, Omnichannel, Messaging, and Live Chat.
+overview: 'Whelp is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Customer Service, Omnichannel, Messaging, and Live Chat.
 
 
-  Whelp''s developer surface includes engineering blog, pricing, signup flow, and 7 more developer resources.'
+  Whelp''s developer surface includes engineering blog, pricing, signup flow, and 8 more developer resources.'
 random_paper: 16
 score:
   band: emerging
-  composite: 15.0
+  composite: 14.6
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.4
   facets:
     access_clarity: 44.7
     contract_governance: 0.0
@@ -111,12 +115,12 @@ score:
   previous_composite: 15.0
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -131,7 +135,7 @@ security:
 slug: whelp
 tags:
 - Company
-- Customer Support
+- Customer Service
 - Omnichannel
 - Messaging
 - Live Chat

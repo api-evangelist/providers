@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -140,6 +140,21 @@ collections:
   name: Camtasia Asset Library Assets Tracks API
   slug: open-camtasia-tracks-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/camtasia/refs/heads/main/plans/camtasia-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/camtasia-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/camtasia/refs/heads/main/rate-limits/camtasia-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/camtasia-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/camtasia/refs/heads/main/finops/camtasia-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/camtasia-finops.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -208,9 +223,13 @@ common:
 created: '2024-01-15'
 description: Camtasia is a screen recording and video editing software by TechSmith that allows users to create professional videos, tutorials, and presentations with built-in editing tools, effects, and media assets. Camtasia itself does not publish a public REST API, but it integrates tightly with TechSmith Screencast for sharing, and TechSmith publishes a public Screencast oEmbed API plus the Camtasia Screen Recorder SDK for embedding recording capabilities into third-party applications.
 finops:
-- name: Camtasia Finops
+- has_sources: false
+  method: generated
+  name: Camtasia Finops
+  primary_unit: ''
   service_category: API
   slug: camtasia-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/camtasia.png
 json_schemas:
 - name: Camtasia Asset
@@ -229,13 +248,13 @@ modified: '2026-07-25'
 name: Camtasia
 nav: Providers
 network: true
-overview: 'Camtasia publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Assets API, Categories API, Downloads API, and 8 more. Tagged areas include Screen Recording, Video Editing, Tutorial Creation, E-Learning, and Screencast.
+overview: 'Camtasia publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Assets API, Categories API, Downloads API, and 8 more. Tagged areas include Screen Recording, Video Editing, Tutorial Creation, E-Learning, and Screencast.
 
 
   The Camtasia catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Camtasia''s developer surface includes authentication, getting-started guide, engineering blog, support, and 11 more developer resources.'
+  Camtasia''s developer surface includes authentication, getting-started guide, engineering blog, support, and 14 more developer resources.'
 plans:
 - name: Camtasia Plans Pricing
   plan_count: 3
@@ -246,9 +265,10 @@ rate_limits:
   name: Camtasia Rate Limits
   slug: camtasia-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Camtasia API Rules
+  name: Camtasia — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -258,17 +278,17 @@ rules:
   slug: camtasia-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 37.9
+  composite: 36.4
   coverage:
     artifact_dirs: 14
-    catalog_earned: 54.3
+    catalog_earned: 51.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 60.8
+    catalog_gap: 63.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 26.3
+    access_clarity: 18.4
     contract_governance: 9.8
     contract_quality: 58.4
     developer_ergonomics: 38.1
@@ -288,8 +308,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

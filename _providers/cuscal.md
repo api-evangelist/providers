@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: Part of Cuscal's CMS REST API family for card issuers. Enables instant digital card issuance and provisioning of cards into mobile and digital wallets (the 'Pays') for online and in-store transactions
@@ -51,6 +51,10 @@ asyncapis:
   name: Cuscal Webhooks
   slug: cuscal-webhooks
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.cuscal.com/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/cuscal/refs/heads/main/security/cuscal-domain-security.yml
   title: ''
@@ -126,17 +130,17 @@ description: 'Cuscal Limited is Australia''s largest independent provider of pay
   but the full reference and any machine-readable OpenAPI definitions sit behind client onboarding rather than open self-serve signup.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-modified: '2026-07-24'
+modified: '2026-10-06'
 name: Cuscal
 nav: Providers
 network: true
-overview: 'Cuscal publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Payments, Australia, Card Issuing, Issuer Processor, and Real-Time Payments.
+overview: 'Cuscal is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Payments, Australia, Card Issuing, Issuer Processor, and Real-Time Payments.
 
 
   The Cuscal catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Cuscal''s developer surface includes documentation, developer portal, engineering blog, support, and 12 more developer resources.'
+  Cuscal''s developer surface includes documentation, developer portal, engineering blog, support, and 13 more developer resources.'
 random_paper: 19
 score:
   band: thin
@@ -172,8 +176,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 17.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

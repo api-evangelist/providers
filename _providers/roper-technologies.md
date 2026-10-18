@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 9
 apis:
 - description: Aderant provides comprehensive business management software for law firms and professional services organizations. Its API surfaces support matter management, time and billing, financial reporting, bu
@@ -65,6 +65,21 @@ apis:
   slug: intellitrans-api
 artifact_total: 17
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/roper-technologies/refs/heads/main/plans/roper-technologies-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/roper-technologies-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/roper-technologies/refs/heads/main/rate-limits/roper-technologies-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/roper-technologies-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/roper-technologies/refs/heads/main/finops/roper-technologies-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/roper-technologies-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/roper-technologies/refs/heads/main/security/roper-technologies-domain-security.yml
   title: ''
@@ -105,9 +120,13 @@ common:
 created: '2025-01-01'
 description: 'Roper Technologies is a diversified technology holding company (NASDAQ: ROP) that acquires, manages, and develops niche market-leading software and technology-enabled businesses. Over three-quarters of revenue comes from software products across three segments: Application Software (legal, healthcare, government, education, and insurance vertical SaaS), Network Software (construction, transportation, and insurance network platforms), and Technology Enabled Products (medical devices, industrial, and RF identification). Key subsidiaries include Aderant (legal software), Clinisys (laboratory informatics), Deltek (project-based business ERP), Frontline Education (K-12 HR software), Vertafore (insurance technology), IntelliTrans (supply chain visibility), ConstructConnect (construction information), DAT Solutions (freight matching), and iPipeline (life insurance SaaS).'
 finops:
-- name: Roper Technologies Finops
+- has_sources: true
+  method: generated
+  name: Roper Technologies Finops
+  primary_unit: ''
   service_category: Vertical SaaS Holding
   slug: roper-technologies-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/roper-technologies.png
 json_schemas:
 - name: Roper Technologies Company Profile
@@ -127,7 +146,7 @@ modified: '2026-05-02'
 name: Roper Technologies
 nav: Providers
 network: true
-overview: 'Roper Technologies publishes 9 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include B2B Software, Enterprise Software, Fortune 500, Healthcare IT, and Insurance Technology.
+overview: 'Roper Technologies is listed with 9 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include B2B Software, Enterprise Software, Fortune 500, Healthcare IT, and Insurance Technology.
 
 
   The Roper Technologies catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.'
@@ -157,9 +176,10 @@ rate_limits:
   name: Roper Technologies Rate Limits
   slug: roper-technologies-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Roper Technologies API Rules
+  name: Roper Technologies — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -169,17 +189,17 @@ rules:
   slug: roper-technologies-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 14.9
+  composite: 13.3
   coverage:
     artifact_dirs: 14
-    catalog_earned: 54.8
+    catalog_earned: 51.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 60.3
+    catalog_gap: 63.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 13.2
+    access_clarity: 5.3
     contract_governance: 23.5
     contract_quality: 6.7
     developer_ergonomics: 9.5
@@ -192,8 +212,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 9.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

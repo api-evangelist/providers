@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 1
@@ -99,6 +99,10 @@ collections:
   name: SynFutures RWA Trading Cash Stock API
   slug: open-synfutures-stock-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.synfutures.com/rss/
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/synfutures/refs/heads/main/agentic-access/synfutures-agentic-access.yml
   title: ''
@@ -206,14 +210,14 @@ created: '2026-07-17'
 description: SynFutures is an on-chain derivatives and real-world-asset (RWA) trading protocol that brings crypto perpetuals, tokenized stocks, and ETFs on-chain across Base, Ethereum, and Monad. For developers it exposes a RESTful RWA Trading API (market data, portfolio, order placement, cash and stock operations, and One Click delegated trading) secured with HMAC-SHA256 signed, IP-whitelisted API keys, plus TypeScript SDKs (@synfutures/sdks-perp and oyster-sdk) and on-chain smart contracts for the Oyster (V3) protocol. Backed by Pantera Capital and Polychain.
 image: https://www.synfutures.com/assets/trade_every_asset.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: SynFutures
 nav: Providers
 network: true
-overview: 'SynFutures publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Cash API, Market Data API, One Click API, and 3 more. Tagged areas include Company, Crypto, DeFi, Trading, and Derivatives.
+overview: 'SynFutures publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Cash API, Market Data API, One Click API, and 3 more. Tagged areas include Company, Cryptocurrency, DeFi, Trading, and Derivatives.
 
 
-  SynFutures'' developer surface includes documentation, API reference, getting-started guide, signup flow, authentication, and 17 more developer resources.'
+  SynFutures'' developer surface includes documentation, API reference, getting-started guide, signup flow, authentication, and 18 more developer resources.'
 random_paper: 6
 rate_limits:
 - limit_count: 1
@@ -223,7 +227,7 @@ score:
   band: thin
   composite: 32.9
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
@@ -254,8 +258,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 15.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -273,7 +277,7 @@ security:
 slug: synfutures
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - DeFi
 - Trading
 - Derivatives

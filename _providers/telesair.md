@@ -35,10 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 5
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.telesair.com/blog-feed.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/telesair/refs/heads/main/security/telesair-domain-security.yml
   title: ''
@@ -128,14 +132,14 @@ mcp_servers:
 - description: Telesair serves a live, unauthenticated remote MCP endpoint from its own marketing host at https://www.telesair.com/_api/mcp. It is the Wix platform's "Site Visitor Assistant" server, provisioned by W
   name: Telesair Site Visitor Assistant (Wix Site MCP)
   slug: telesair-site-visitor-assistant-wix-site-mcp
-modified: '2026-08-30'
+modified: '2026-10-06'
 name: Telesair
 nav: Providers
 network: true
-overview: 'Telesair is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, Healthcare, Respiratory Care, and MedTech.
+overview: 'Telesair is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, Healthcare, Respiratory Care, and Medical Technology.
 
 
-  Telesair''s developer surface includes support, engineering blog, FAQ, authentication, and 10 more developer resources.'
+  Telesair''s developer surface includes support, engineering blog, FAQ, authentication, and 11 more developer resources.'
 plans:
 - name: Telesair Plans Pricing
   plan_count: 0
@@ -147,7 +151,7 @@ rate_limits:
   slug: telesair-rate-limits
 score:
   band: emerging
-  composite: 14.5
+  composite: 14.6
   coverage:
     artifact_dirs: 12
     catalog_earned: 27.0
@@ -155,7 +159,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 10.5
     contract_governance: 18.2
@@ -180,8 +184,8 @@ score:
     regime: Health
     regime_id: health
     score: 16.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -203,7 +207,7 @@ tags:
 - Medical Devices
 - Healthcare
 - Respiratory Care
-- MedTech
+- Medical Technology
 - Hardware
 - Oxygen Therapy
 - Hospitals

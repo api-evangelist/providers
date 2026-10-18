@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.7
-  scored_at: '2026-10-04'
+  score: 22.9
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL_template: https://{unit}-{tenant}.instana.io
@@ -541,6 +541,16 @@ collections:
   name: Instana REST API documentation
   slug: open-instana
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/instana/refs/heads/main/rate-limits/instana-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/instana-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/instana/refs/heads/main/finops/instana-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/instana-finops.yml
 - group: commercial
   title: ''
   type: Pricing
@@ -588,19 +598,23 @@ common:
 created: '2024-07-02'
 description: Instana is an enterprise observability and application performance monitoring platform that provides automated full-stack visibility and AI-powered APM. Instana offers a public REST API for programmatic access to monitoring data, configurations, and integrations.
 finops:
-- name: Instana Finops
+- has_sources: false
+  method: generated
+  name: Instana Finops
+  primary_unit: ''
   service_category: API
   slug: instana-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/instana.png
 layout: provider
 modified: '2026-08-21'
 name: Instana
 nav: Providers
 network: true
-overview: 'Instana publishes 62 APIs on the [APIs.io](https://apis.io/) network, including Action Catalog API, Action History API, AI Management API, and 59 more. Tagged areas include APM, Infrastructure, Monitoring, and Observability.
+overview: 'Instana publishes 62 API contracts indexed on the [APIs.io](https://apis.io/) network, including Action Catalog API, Action History API, AI Management API, and 59 more. Tagged areas include APM, Infrastructure, Monitoring, and Observability.
 
 
-  Instana''s developer surface includes pricing, documentation, support, and 7 more developer resources.'
+  Instana''s developer surface includes pricing, documentation, support, and 9 more developer resources.'
 plans:
 - name: Instana Plans Pricing
   plan_count: 7
@@ -612,23 +626,23 @@ rate_limits:
   slug: instana-rate-limits
 score:
   band: thin
-  composite: 32.8
+  composite: 31.3
   coverage:
-    artifact_dirs: 9
-    catalog_earned: 45.0
+    artifact_dirs: 10
+    catalog_earned: 42.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 70.0
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -1.5
   facets:
-    access_clarity: 50.0
+    access_clarity: 42.1
     contract_governance: 0.0
     contract_quality: 51.2
     developer_ergonomics: 14.3
     discoverability: 48.2
     operational_transparency: 10.5
-  previous_composite: 32.3
+  previous_composite: 32.8
   provenance:
     contracts:
       callable: 100.0
@@ -641,8 +655,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 3
@@ -298,7 +298,7 @@ modified: '2026-07-20'
 name: Nevercode
 nav: Providers
 network: true
-overview: 'Nevercode publishes 13 APIs on the [APIs.io](https://apis.io/) network, including App Previews API, Applications API, Billing API, and 10 more. Tagged areas include Company, Continuous Integration, Continuous Delivery, CI/CD, and DevOps.
+overview: 'Nevercode publishes 13 API contracts indexed on the [APIs.io](https://apis.io/) network, including App Previews API, Applications API, Billing API, and 10 more. Tagged areas include Company, Continuous Integration, Continuous Delivery, CI/CD, and DevOps.
 
 
   Nevercode''s developer surface includes CLI, authentication, documentation, API reference, getting-started guide, engineering blog, support, and 24 more developer resources.'
@@ -344,8 +344,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

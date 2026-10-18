@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: API for managing Google Optimize experiments, variants, and accessing optimization data. Sunset on September 30, 2023. Migrate to Google Analytics 4 experiments or third-party A/B testing tools.
@@ -41,6 +41,21 @@ apis:
   slug: optimize-api
 artifact_total: 19
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/google-optimize/refs/heads/main/plans/google-optimize-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/google-optimize-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/google-optimize/refs/heads/main/rate-limits/google-optimize-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/google-optimize-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/google-optimize/refs/heads/main/finops/google-optimize-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/google-optimize-finops.yml
 - group: company
   title: ''
   type: Website
@@ -136,22 +151,26 @@ features:
 - description: WYSIWYG editor for creating test variants without code changes. Service sunset September 30, 2023.
   name: Visual Editor (Sunset)
 finops:
-- name: Google Optimize Finops
+- has_sources: false
+  method: generated
+  name: Google Optimize Finops
+  primary_unit: ''
   service_category: API
   slug: google-optimize-finops
+  template: true
 image: https://www.gstatic.com/images/branding/product/1x/optimize_48dp.png
 layout: provider
 modified: '2026-09-12'
 name: Google Optimize
 nav: Providers
 network: true
-overview: 'Google Optimize publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include A/B Testing, Analytics, Deprecated, Experimentation, and Google.
+overview: 'Google Optimize is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include A/B Testing, Analytics, Deprecated, Experimentation, and Google.
 
 
   The Google Optimize catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Google Optimize''s developer surface includes documentation, engineering blog, and 12 more developer resources.'
+  Google Optimize''s developer surface includes documentation, engineering blog, and 15 more developer resources.'
 plans:
 - name: Google Optimize Plans Pricing
   plan_count: 0
@@ -162,7 +181,8 @@ rate_limits:
   name: Google Optimize Rate Limits
   slug: google-optimize-rate-limits
 rules:
-- effective_rule_count: 13
+- authorship: unmarked
+  effective_rule_count: 13
   extends: []
   name: Google Optimize API Rules
   rule_count: 13
@@ -177,12 +197,12 @@ score:
   composite: 0.0
   coverage:
     artifact_dirs: 13
-    catalog_earned: 51.7
+    catalog_earned: 40.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 63.3
+    catalog_gap: 74.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -19.9
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
@@ -191,16 +211,16 @@ score:
     discoverability: 0.0
     operational_transparency: 0.0
   lifecycle: defunct
-  previous_composite: 19.9
+  previous_composite: 0.0
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: falling
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

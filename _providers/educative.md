@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Educative API is a platform that provides developers with access to a wide range of educational materials and resources through an easy-to-use interface. With Educative API, developers can access tuto
@@ -41,6 +41,21 @@ apis:
   slug: educative
 artifact_total: 5
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/educative/refs/heads/main/plans/educative-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/educative-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/educative/refs/heads/main/rate-limits/educative-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/educative-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/educative/refs/heads/main/finops/educative-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/educative-finops.yml
 - group: company
   title: ''
   type: Website
@@ -105,19 +120,23 @@ coverage:
 created: '2025-03-01'
 description: Educative is an online learning platform that provides high-quality, interactive courses for developers of all skill levels. With a focus on practical, hands-on learning, Educative offers courses on a wide range of topics, from programming languages like Python and JavaScript to data structures and algorithms. Each course is created by expert instructors and includes quizzes, coding challenges, and real-world projects to help learners apply their knowledge.
 finops:
-- name: Educative Finops
+- has_sources: false
+  method: generated
+  name: Educative Finops
+  primary_unit: ''
   service_category: API
   slug: educative-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/educative.png
 layout: provider
 modified: '2026-09-06'
 name: Educative
 nav: Providers
 network: true
-overview: 'Educative publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Courses, Education, Learning, Online Learning, and Developer Training.
+overview: 'Educative is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Courses, Education, Learning, E-Learning, and Developer Training.
 
 
-  Educative''s developer surface includes engineering blog, pricing, signup flow, support, and 7 more developer resources.'
+  Educative''s developer surface includes engineering blog, pricing, signup flow, support, and 10 more developer resources.'
 plans:
 - name: Educative Plans Pricing
   plan_count: 0
@@ -129,17 +148,17 @@ rate_limits:
   slug: educative-rate-limits
 score:
   band: emerging
-  composite: 18.0
+  composite: 16.4
   coverage:
     artifact_dirs: 10
-    catalog_earned: 35.0
+    catalog_earned: 32.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 80.0
+    catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 52.6
+    access_clarity: 44.7
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
@@ -152,8 +171,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -170,7 +189,7 @@ tags:
 - Courses
 - Education
 - Learning
-- Online Learning
+- E-Learning
 - Developer Training
 - Interview Preparation
 - EdTech

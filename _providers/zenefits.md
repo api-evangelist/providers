@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: REST API providing programmatic access to people, companies, locations, employments, compensation, time-off, paystubs, and journal data inside a Zenefits account. Authentication uses OAuth 2.0 with sc
@@ -93,7 +93,7 @@ modified: '2026-05-11'
 name: TriNet Zenefits
 nav: Providers
 network: true
-overview: 'TriNet Zenefits publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Human Resources, HRIS, Payroll, Benefits Administration, and Onboarding.
+overview: 'TriNet Zenefits is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Human Resources, HRIS, Payroll, Benefits Administration, and Onboarding.
 
 
   TriNet Zenefits'' developer surface includes documentation, pricing, signup flow, support, and 7 more developer resources.'
@@ -123,8 +123,8 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

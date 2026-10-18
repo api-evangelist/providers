@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 2
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 9
   slug: nerdio-agentic-access
   summary_line: 9 operations · 4 acting · 2 human-in-the-loop
-api_count: 1
+api_count: 2
 apis:
 - description: REST API for Nerdio Manager for Enterprise. The API is disabled by default and is enabled per install from System > Settings > Integrations, which provisions an Entra ID application under the nerdio-n
   name: Nerdio Manager for Enterprise REST API
@@ -80,6 +80,14 @@ collections:
   name: NMM Distributor API
   slug: open-nerdio-distributor-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://getnerdio.com/resources/?types[]=blog
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://getnerdio.com/resources/feed/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/nerdio/refs/heads/main/capabilities/nerdio-capability-edges.yml
   title: ''
@@ -235,23 +243,23 @@ description: Nerdio (Nerdio, Inc., founded 2017, Chicago) builds automation and 
   a first-party PowerShell module generated from the NME API specification with AutoRest.
 image: https://getnerdio.com/wp-content/themes/nrd/assets/images/logo.svg
 layout: provider
-modified: '2026-08-01'
+modified: '2026-10-06'
 name: Nerdio
 nav: Providers
 network: true
-overview: 'Nerdio publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Health API, Install API, Invoices API, and 3 more. Tagged areas include Company, Azure Virtual Desktop, Windows 365, Virtual Desktop Infrastructure, and Cloud Desktop Management.
+overview: 'Nerdio publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Health API, Install API, Invoices API, and 3 more. Tagged areas include Company, Azure Virtual Desktop, Windows 365, Virtual Desktop Infrastructure, and Cloud Desktop Management.
 
 
   The Nerdio catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Nerdio''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
+  Nerdio''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, pricing, signup flow, and 28 more developer resources.'
 random_paper: 3
 score:
   band: developing
   composite: 50.0
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -282,8 +290,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

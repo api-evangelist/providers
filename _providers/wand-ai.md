@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: A public, unauthenticated JSON API served by the Wand platform status page. It reports overall platform health, the four Wand products and the twenty-two production services behind them, plus thirty-d
@@ -37,6 +37,10 @@ apis:
   slug: ai-workforce-api
 artifact_total: 9
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://wand.ai/blog/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/wand-ai/refs/heads/main/security/wand-ai-domain-security.yml
   title: ''
@@ -142,14 +146,14 @@ created: '2026-09-04'
 description: Wand (Wand Synthesis AI, Inc.) is a Palo Alto, California enterprise software company, founded in 2022 by Rotem Alaluf, that builds what it calls agentic labor infrastructure — an operating system for hybrid workforces in which AI agents are managed, executed and created as trusted team members alongside human employees. Its four published product areas are Process Agentizer (workforce automation, messaging and task orchestration), Collab (collaboration, chat and content ingestion), Governance (organization management and metrics) and Integration Hub (economy, billing and knowledge-vault integrations), offered on-premise, in a private cloud, or hosted. Wand publishes no developer portal, API reference or machine-readable contract; its platform API — named "AI Workforce API" in its own status feed — sits behind an enterprise sales gate at api.wand.ai. The public surfaces reached here are a JSON status API, a Keycloak OpenID Connect discovery document, a security.txt, and an llms.txt.
 image: https://wand.ai/hubfs/logo.png
 layout: provider
-modified: '2026-09-04'
+modified: '2026-10-06'
 name: Wand
 nav: Providers
 network: true
-overview: 'Wand publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, Enterprise Software, and Workforce Automation.
+overview: 'Wand is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, Enterprise Software, and Workforce Automation.
 
 
-  Wand''s developer surface includes engineering blog, authentication, and 20 more developer resources.'
+  Wand''s developer surface includes engineering blog, authentication, and 21 more developer resources.'
 plans:
 - name: Wand Ai Plans Pricing
   plan_count: 0
@@ -166,15 +170,15 @@ scopes:
   summary_line: 11 scopes
 score:
   band: emerging
-  composite: 24.1
+  composite: 24.2
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 21.1
     contract_governance: 18.2
@@ -192,13 +196,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 37.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/wand-ai/refs/heads/main/screenshots/wand-ai-2026-10-11T133245.png
 security:
 - kind: authentication
   name: Wand Ai Authentication

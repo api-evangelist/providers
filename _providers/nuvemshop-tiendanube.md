@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://api.tiendanube.com/2025-03/
@@ -148,7 +148,7 @@ modified: '2026-07-20'
 name: Nuvemshop Tiendanube
 nav: Providers
 network: true
-overview: 'Nuvemshop Tiendanube publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Retail, Online Store, and Payments.
+overview: 'Nuvemshop Tiendanube is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Retail, Online Store, and Payments.
 
 
   The Nuvemshop Tiendanube catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
@@ -165,7 +165,7 @@ score:
   band: developing
   composite: 39.3
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -194,8 +194,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 33.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

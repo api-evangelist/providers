@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.wooga.com/press
 - group: company
   title: ''
   type: Website
@@ -80,31 +84,31 @@ created: '2026-07-17'
 description: Wooga is a Berlin-based mobile game developer founded in 2009 and a subsidiary of Playtika, specializing in story-driven casual games such as June's Journey, Ghost Detective and Pearl's Peril. Wooga publishes no public API or developer portal, but maintains an active open-source GitHub organization with its atlas Gradle plugin suite for Unity and mobile build automation, published to the Gradle Plugin Portal and RubyGems. Surfaced in the API Evangelist network as a portfolio company of balderton-capital and hv-capital.
 image: https://avatars.githubusercontent.com/u/684356?v=4
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Wooga
 nav: Providers
 network: true
 overview: 'Wooga is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Gaming, Mobile Games, Casual Games, and Game Development.
 
 
-  Wooga''s developer surface includes support and 8 more developer resources.'
+  Wooga''s developer surface includes engineering blog, support, and 8 more developer resources.'
 random_paper: 13
 score:
-  band: minimal
-  composite: 10.8
+  band: emerging
+  composite: 11.3
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 4.8
+    developer_ergonomics: 7.1
     discoverability: 55.4
     operational_transparency: 2.6
   jurisdiction:
@@ -122,8 +126,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

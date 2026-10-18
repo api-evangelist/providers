@@ -34,14 +34,23 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: S3-compatible REST API exposed by every Alluxio worker (HTTP port 29998, HTTPS 29996) that lets applications built for Amazon S3 read and write cached data without code changes. Path-style requests on
   name: Alluxio S3 API
   slug: alluxio-s3-api
-artifact_total: 3
+artifact_total: 4
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/alluxio/refs/heads/main/plans/alluxio-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/alluxio-plans-pricing.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.alluxio.io/blog/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/alluxio/refs/heads/main/security/alluxio-domain-security.yml
   title: ''
@@ -126,28 +135,32 @@ created: '2026-07-17'
 description: Alluxio is a data platform company providing a distributed caching and data-orchestration layer that sits between compute engines and persistent storage to accelerate I/O-intensive AI/ML and analytics workloads. Its high-throughput, low-latency cache serves data to PyTorch, TensorFlow, Spark, Ray and other frameworks across AWS, GCP, Azure and Oracle Cloud, mounting underlying object and file stores (S3, GCS, Azure Blob, HDFS, OSS, COS, TOS) and exposing them through an S3-compatible REST API, a FUSE-based POSIX API, and a Python FSSpec client. The Apache-2.0 open-source project (github.com/Alluxio/alluxio) underpins the commercial Alluxio Enterprise AI product. Alluxio is a portfolio company of a16z.
 image: https://avatars.githubusercontent.com/u/16203694?v=4
 layout: provider
-modified: '2026-07-17'
+modified: '2026-10-06'
 name: Alluxio
 nav: Providers
 network: true
-overview: 'Alluxio publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data Orchestration, Data Caching, AI Infrastructure, and Machine Learning.
+overview: 'Alluxio is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data Orchestration, Data Caching, AI Infrastructure, and Machine Learning.
 
 
-  Alluxio''s developer surface includes documentation, getting-started guide, API reference, engineering blog, support, pricing, signup flow, and 11 more developer resources.'
+  Alluxio''s developer surface includes documentation, getting-started guide, API reference, engineering blog, support, pricing, signup flow, and 13 more developer resources.'
+plans:
+- name: Alluxio Plans Pricing
+  plan_count: 2
+  slug: alluxio-plans-pricing
 random_paper: 18
 score:
-  band: emerging
-  composite: 25.7
+  band: thin
+  composite: 30.0
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 32.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 83.0
+    artifact_dirs: 13
+    catalog_earned: 40.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 4.3
   facets:
-    access_clarity: 23.7
+    access_clarity: 44.7
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 64.3
@@ -160,8 +173,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

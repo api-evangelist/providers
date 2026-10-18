@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 3.8
-  scored_at: '2026-10-04'
+  score: 1.9
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Savvas Learning Company (formerly Pearson K12 Learning) is the successor brand to Scott Foresman and over 100 other Pearson K-12 imprints. Savvas provides digital learning platforms, curriculum conten
@@ -41,6 +41,25 @@ apis:
   slug: savvas-learning
 artifact_total: 10
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/scott-foresman/refs/heads/main/plans/scott-foresman-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/scott-foresman-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/scott-foresman/refs/heads/main/rate-limits/scott-foresman-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/scott-foresman-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/scott-foresman/refs/heads/main/finops/scott-foresman-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/scott-foresman-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.savvas.com/company/learn-about-savvas/newsroom
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/scott-foresman/refs/heads/main/security/scott-foresman-domain-security.yml
   title: ''
@@ -57,9 +76,13 @@ examples:
   name: Scott Foresman Educational Content Example
   slug: scott-foresman-educational-content-example
 finops:
-- name: Scott Foresman Finops
+- has_sources: false
+  method: generated
+  name: Scott Foresman Finops
+  primary_unit: ''
   service_category: API
   slug: scott-foresman-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/scott-foresman.png
 json_schemas:
 - name: Scott Foresman Educational Content
@@ -75,14 +98,17 @@ jsonld:
   property_count: 11
   slug: scott-foresman-context
 layout: provider
-modified: '2026-05-02'
+modified: '2026-10-06'
 name: Scott Foresman
 nav: Providers
 network: true
-overview: 'Scott Foresman publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Publishing, K-12, E-Learning, and Textbooks.
+overview: 'Scott Foresman is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Publishing, K-12, E-Learning, and Textbooks.
 
 
-  The Scott Foresman catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.'
+  The Scott Foresman catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+
+
+  Scott Foresman''s developer surface includes engineering blog and 5 more developer resources.'
 plans:
 - name: Scott Foresman Plans Pricing
   plan_count: 3
@@ -93,9 +119,10 @@ rate_limits:
   name: Scott Foresman Rate Limits
   slug: scott-foresman-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Scott Foresman API Rules
+  name: Scott Foresman — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -105,20 +132,20 @@ rules:
   slug: scott-foresman-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 17.9
+  composite: 16.8
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 57.7
+    artifact_dirs: 13
+    catalog_earned: 54.7
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.4
+    catalog_gap: 60.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.1
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 9.8
     contract_quality: 24.4
-    developer_ergonomics: 9.5
+    developer_ergonomics: 11.9
     discoverability: 57.1
     operational_transparency: 7.9
   previous_composite: 17.9
@@ -128,8 +155,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

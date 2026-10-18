@@ -27,21 +27,21 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 4
+- acting_count: 10
   human_in_the_loop: 0
   name: Tum Agentic Access
-  operation_count: 19
+  operation_count: 38
   slug: tum-agentic-access
-  summary_line: 19 operations · 4 acting
-api_count: 4
+  summary_line: 38 operations · 10 acting
+api_count: 5
 apis:
 - baseURL: https://nav.tum.de/api
   baseurl_source: declared
@@ -242,9 +242,13 @@ examples:
   name: Tum Search Example
   slug: tum-search-example
 finops:
-- name: Tum Finops
+- has_sources: true
+  method: generated
+  name: Tum Finops
+  primary_unit: ''
   service_category: Education
   slug: tum-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tum.png
 json_schemas:
 - name: eat-api CanteenMenu
@@ -270,7 +274,7 @@ modified: '2026-08-19'
 name: Technical University of Munich
 nav: Providers
 network: true
-overview: 'Technical University of Munich publishes 6 APIs on the [APIs.io](https://apis.io/) network, including NavigaTUM, eat-api — Munich Student Canteen Menus, Campus API, and 3 more. Tagged areas include University, Higher Education, Education, Germany, and Technical University.
+overview: 'Technical University of Munich publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including NavigaTUM, eat-api — Munich Student Canteen Menus, Campus API, and 3 more. Tagged areas include University, Higher Education, Education, Germany, and Technical University.
 
 
   The Technical University of Munich catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -287,9 +291,10 @@ rate_limits:
   name: Tum Rate Limits
   slug: tum-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: Technical University of Munich API Rules
+  name: Technical University of Munich — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -297,7 +302,8 @@ rules:
     info: 1
     warn: 5
   slug: tum-jsonschema-spectral-rules
-- effective_rule_count: 5
+- authorship: unmarked
+  effective_rule_count: 5
   extends: []
   name: Technical University of Munich API Rules
   rule_count: 5
@@ -313,23 +319,23 @@ scopes:
   slug: tum-scopes
   summary_line: 108 scopes
 score:
-  band: developing
-  composite: 39.7
+  band: thin
+  composite: 33.6
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 68.7
+    artifact_dirs: 22
+    catalog_earned: 55.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 46.3
+    catalog_gap: 59.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.4
+  delta: -6.1
   facets:
-    access_clarity: 47.9
+    access_clarity: 26.3
     contract_governance: 9.8
     contract_quality: 50.3
     developer_ergonomics: 23.8
     discoverability: 71.4
-    operational_transparency: 21.6
+    operational_transparency: 7.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -338,7 +344,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 45.1
+  previous_composite: 39.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -353,8 +359,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 34.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: falling
   upsert:
     applies: true

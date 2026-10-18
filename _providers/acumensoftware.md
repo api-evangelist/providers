@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 4.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: Authenticated REST surface behind the Forcelink mobile field-service ERP, served from the vendor-hosted za2.forcelink.net tenant alongside the Forcelink web login and the Forcelink Android/iOS apps. E
@@ -37,6 +37,14 @@ apis:
   slug: acumen-software-site-mcp
 artifact_total: 7
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.acumensoft.net/newsroom
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.acumensoft.net/blog-feed.xml
 - group: company
   title: ''
   type: Website
@@ -109,14 +117,14 @@ mcp_servers:
 - description: Remote MCP server at www.acumensoft.net over streamable HTTP; 9 tools listed.
   name: Acumen Software Site MCP
   slug: acumen-software-site-mcp
-modified: '2026-09-06'
+modified: '2026-10-06'
 name: Acumen Software
 nav: Providers
 network: true
-overview: 'Acumen Software publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Field Service Management, Workforce Management, Asset Management, ERP, and Smart Cities.
+overview: 'Acumen Software is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Field Service, Workforce Management, Asset Management, ERP, and Smart Cities.
 
 
-  Acumen Software''s developer surface includes support, engineering blog, and 12 more developer resources.'
+  Acumen Software''s developer surface includes engineering blog, support, and 14 more developer resources.'
 plans:
 - name: Acumensoftware Plans Pricing
   plan_count: 0
@@ -130,7 +138,7 @@ score:
   band: emerging
   composite: 19.7
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 12
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -161,13 +169,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 19.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/acumensoftware/refs/heads/main/screenshots/acumensoftware-2026-10-11T092729.png
 security:
 - kind: domain-security
   name: Acumensoftware Domain Security
@@ -175,7 +184,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: acumensoftware
 tags:
-- Field Service Management
+- Field Service
 - Workforce Management
 - Asset Management
 - ERP

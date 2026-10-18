@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 11
+- acting_count: 10
   human_in_the_loop: 0
   name: Firstrade Agentic Access
   operation_count: 24
   slug: firstrade-agentic-access
-  summary_line: 24 operations · 11 acting
+  summary_line: 24 operations · 10 acting
 api_count: 1
 apis:
 - description: 'Access to Firstrade account data is available through the Plaid financial data aggregation platform. Plaid supports four product categories for Firstrade: Assets (consolidated balance summaries and as'
@@ -93,6 +93,21 @@ collections:
   name: Firstrade Unofficial Account Watchlist API
   slug: open-firstrade-watchlist-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/firstrade/refs/heads/main/plans/plans.yml
+  title: ''
+  type: Plans
+  url: plans/plans.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/firstrade/refs/heads/main/rate-limits/rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/firstrade/refs/heads/main/finops/finops.yml
+  title: ''
+  type: FinOps
+  url: finops/finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/firstrade/refs/heads/main/capabilities/firstrade-capability-edges.yml
   title: ''
@@ -156,19 +171,23 @@ common:
 created: '2026-06-13'
 description: Firstrade Securities is a commission-free online brokerage offering trading in stocks, ETFs, options, mutual funds, and fixed income securities with no account minimums and no inactivity fees. Firstrade does not publish an official public REST API; programmatic account access is available through the Plaid financial data aggregator, which supports account balance retrieval, transaction history, investment holdings, and asset reports for Firstrade accounts. Community-developed unofficial Python SDKs also exist for session- based automation but are not affiliated with or endorsed by Firstrade.
 finops:
-- name: Finops
+- has_sources: false
+  method: generated
+  name: Finops
+  primary_unit: ''
   service_category: ''
   slug: finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/firstrade.png
 layout: provider
 modified: '2026-06-13'
 name: Firstrade
 nav: Providers
 network: true
-overview: 'Firstrade publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Account API, Authentication API, Market Data API, and 3 more. Tagged areas include Brokerage, Commission-Free Trading, Stocks, ETFs, and Options.
+overview: 'Firstrade publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Authentication API, Market Data API, and 3 more. Tagged areas include Brokerage, Commission-Free Trading, Stocks, ETFs, and Options.
 
 
-  Firstrade''s developer surface includes authentication, pricing, and 12 more developer resources.'
+  Firstrade''s developer surface includes authentication, pricing, and 15 more developer resources.'
 plans:
 - name: Plans
   plan_count: 2
@@ -180,17 +199,17 @@ rate_limits:
   slug: rate-limits
 score:
   band: thin
-  composite: 34.4
+  composite: 30.1
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 47.2
+    artifact_dirs: 13
+    catalog_earned: 39.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 67.8
+    catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -4.3
   facets:
-    access_clarity: 58.4
+    access_clarity: 36.8
     contract_governance: 0.0
     contract_quality: 47.4
     developer_ergonomics: 28.6
@@ -210,8 +229,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 15.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -227,6 +227,14 @@ collections:
   name: XigniteBonds CloudAlerts XigniteNAVs API
   slug: open-xignite-xignitenavs-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.quodd.com/insights
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.quodd.com/insights/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/xignite/refs/heads/main/security/xignite-domain-security.yml
   title: ''
@@ -349,14 +357,14 @@ created: '2026-07-21'
 description: Xignite pioneered cloud-based financial market data APIs, offering a catalog of 40+ REST web services covering equities, forex, crypto, indices, options, futures, fixed income, mutual funds, corporate actions, news, ESG, and reference data. Each API lives on its own subdomain (for example globalquotes.xignite.com) and returns JSON, XML, or CSV, with bulk datasets delivered as files via CloudFiles and streaming quotes via its CloudStreaming product. Founded in 2000, Xignite was acquired by QUODD (a NewSpring Holdings company) in February 2023; the xignite.com developer catalog remains live while corporate pages redirect to quodd.com, and QUODD runs a newer developer platform at developer.quodd.com.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/xignite.png
 layout: provider
-modified: '2026-07-22'
+modified: '2026-10-06'
 name: Xignite
 nav: Providers
 network: true
-overview: 'Xignite publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Global Quotes API, Global Real-Time API, Global Historical API, and 20 more. Tagged areas include Finance, Market Data, Stocks, Real-Time, and Forex.
+overview: 'Xignite publishes 23 API contracts indexed on the [APIs.io](https://apis.io/) network, including Global Quotes API, Global Real-Time API, Global Historical API, and 20 more. Tagged areas include Finance, Market Data, Stocks, Real-Time, and Foreign Exchange.
 
 
-  Xignite''s developer surface includes authentication, developer portal, documentation, engineering blog, signup flow, support, API reference, and 19 more developer resources.'
+  Xignite''s developer surface includes engineering blog, authentication, developer portal, documentation, signup flow, support, API reference, and 21 more developer resources.'
 random_paper: 12
 score:
   band: thin
@@ -393,8 +401,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 23.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -416,7 +424,7 @@ tags:
 - Market Data
 - Stocks
 - Real-Time
-- Forex
+- Foreign Exchange
 - Cryptocurrency
 - Options
 - Futures

@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 50.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -394,7 +394,7 @@ modified: '2026-08-08'
 name: BVNK
 nav: Providers
 network: true
-overview: 'BVNK publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Address API, Asset Pool API, Channels API, and 14 more. Tagged areas include Company, Payments, Stablecoins, Cryptocurrency, and Wallets.
+overview: 'BVNK publishes 17 API contracts indexed on the [APIs.io](https://apis.io/) network, including Address API, Asset Pool API, Channels API, and 14 more. Tagged areas include Company, Payments, Stablecoins, Cryptocurrency, and Wallets.
 
 
   The BVNK catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -411,7 +411,7 @@ score:
   band: strong
   composite: 54.3
   coverage:
-    artifact_dirs: 26
+    artifact_dirs: 27
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -448,8 +448,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 35.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

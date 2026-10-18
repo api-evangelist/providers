@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 5
 apis:
 - description: The core RESTful payment API of the ACI Open Payment Platform (PAY.ON gateway). Server-to-Server integration lets merchants and PSPs run end-to-end payment workflows — preauthorization, debit, capture
@@ -59,6 +59,10 @@ asyncapis:
   name: Aci Worldwide Webhooks
   slug: aci-worldwide-webhooks
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.aciworldwide.com/feed
 - group: agent
   title: ''
   type: MCPServer
@@ -187,23 +191,23 @@ mcp_servers:
 - description: ''
   name: ACI Worldwide MCP Server
   slug: mcp-server
-modified: '2026-07-24'
+modified: '2026-10-06'
 name: ACI Worldwide
 nav: Providers
 network: true
-overview: 'ACI Worldwide publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Payments, United States, Payment Gateway, Payment Processing, and Acquiring.
+overview: 'ACI Worldwide is listed with 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Payments, United States, Payment Gateway, Payment Processing, and Acquiring.
 
 
   The ACI Worldwide catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  ACI Worldwide''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 19 more developer resources.'
+  ACI Worldwide''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 20 more developer resources.'
 random_paper: 3
 score:
   band: developing
   composite: 45.7
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -237,8 +241,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

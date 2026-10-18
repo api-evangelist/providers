@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.3
-  scored_at: '2026-10-04'
+  score: 20.4
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 20
+- acting_count: 11
   human_in_the_loop: 0
   name: Zabbix Agentic Access
   operation_count: 20
   slug: zabbix-agentic-access
-  summary_line: 20 operations · 20 acting
+  summary_line: 20 operations · 11 acting
 api_count: 1
 apis:
 - baseURL: https://{host}/zabbix/api_jsonrpc.php
@@ -134,6 +134,21 @@ collections:
   name: Zabbix API
   slug: open-zabbix
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/zabbix/refs/heads/main/plans/zabbix-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/zabbix-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/zabbix/refs/heads/main/rate-limits/zabbix-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/zabbix-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/zabbix/refs/heads/main/finops/zabbix-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/zabbix-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/zabbix/refs/heads/main/capabilities/zabbix-capability-edges.yml
   title: ''
@@ -228,22 +243,26 @@ features:
 - name: Auto Discovery
 - name: API Automation
 finops:
-- name: Zabbix Finops
+- has_sources: false
+  method: generated
+  name: Zabbix Finops
+  primary_unit: ''
   service_category: API
   slug: zabbix-finops
+  template: true
 image: https://www.zabbix.com/assets/img/logo/zabbix_logo.png
 layout: provider
 modified: '2026-05-19'
 name: Zabbix
 nav: Providers
 network: true
-overview: 'Zabbix publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Actions API, Authentication API, Events API, and 7 more. Tagged areas include Monitoring, Infrastructure, Networks, Alerting, and Open Source.
+overview: 'Zabbix publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Actions API, Authentication API, Events API, and 7 more. Tagged areas include Monitoring, Infrastructure, Networks, Alerting, and Open Source.
 
 
   The Zabbix catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Zabbix''s developer surface includes authentication, developer portal, engineering blog, GitHub presence, and 12 more developer resources.'
+  Zabbix''s developer surface includes authentication, developer portal, engineering blog, GitHub presence, and 15 more developer resources.'
 plans:
 - name: Zabbix Plans Pricing
   plan_count: 3
@@ -254,7 +273,8 @@ rate_limits:
   name: Zabbix Rate Limits
   slug: zabbix-rate-limits
 rules:
-- effective_rule_count: 11
+- authorship: unmarked
+  effective_rule_count: 11
   extends: []
   name: Zabbix API Rules
   rule_count: 11
@@ -266,18 +286,18 @@ rules:
   slug: zabbix-rules
 score:
   band: thin
-  composite: 38.9
+  composite: 35.1
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 55.0
+    artifact_dirs: 19
+    catalog_earned: 45.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 60.0
+    catalog_gap: 69.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.8
   facets:
-    access_clarity: 26.3
-    contract_governance: 27.3
+    access_clarity: 18.4
+    contract_governance: 7.6
     contract_quality: 46.7
     developer_ergonomics: 45.2
     discoverability: 66.1
@@ -296,8 +316,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

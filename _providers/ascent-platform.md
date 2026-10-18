@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Unified data foundation for financial institutions, enabling integration and automation of onboarding, lending, servicing, and AI-driven insights.
@@ -31,6 +31,10 @@ apis:
   slug: ascent-platform-api
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://ascentplatform.io/articles
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/ascent-platform/refs/heads/main/llms/ascent-platform-llms.txt
   title: ''
@@ -100,32 +104,34 @@ mcp_servers:
 - description: Remote MCP server at api.ascentplatform.io.
   name: Ascent Platform MCP Server
   slug: ascent-platform-mcp-yml
-modified: '2026-09-26'
+modified: '2026-10-06'
 name: Ascent Platform
 nav: Providers
 network: true
-overview: 'Ascent Platform publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Banking, Data Integration, and Artificial Intelligence.
+overview: 'Ascent Platform is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Banking, Data Integration, and Artificial Intelligence.
 
 
-  Ascent Platform''s developer surface includes getting-started guide, documentation, and 10 more developer resources.'
+  Ascent Platform''s developer surface includes engineering blog, getting-started guide, documentation, and 10 more developer resources.'
 random_paper: 12
 score:
   band: emerging
-  composite: 14.2
+  composite: 14.7
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 9
     catalog_earned: 30.0
     catalog_earned_first_party: 0.0
     catalog_gap: 85.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.5
   facets:
     access_clarity: 13.2
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 21.4
+    developer_ergonomics: 23.8
     discoverability: 63.3
     operational_transparency: 21.1
+  previous_composite: 14.2
   provenance:
     mcp: first-party
   regulatory:
@@ -134,12 +140,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 8.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/ascent-platform/refs/heads/main/screenshots/ascent-platform-2026-10-11T100608.png
 security:
 - kind: domain-security
   name: Ascent Platform Domain Security

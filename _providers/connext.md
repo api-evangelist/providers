@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://api.everclear.org
@@ -218,7 +218,7 @@ modified: '2026-09-15'
 name: Everclear
 nav: Providers
 network: true
-overview: 'Everclear publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Batched Intents API, Configs API, History API, and 5 more. Tagged areas include Company, Blockchain, Cryptocurrency, Web3, and Interoperability.
+overview: 'Everclear publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Batched Intents API, Configs API, History API, and 5 more. Tagged areas include Company, Blockchain, Cryptocurrency, Web3, and Interoperability.
 
 
   Everclear''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 16 more developer resources.'
@@ -256,8 +256,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

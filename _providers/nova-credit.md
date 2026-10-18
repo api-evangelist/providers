@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Unified REST API surface across Nova Credit's products (Credit Passport v4, Cash Atlas v2, Income Navigator v2, Eligibility Compass v1). Server-side clients authenticate with HTTP Basic to mint a shor
@@ -164,7 +164,7 @@ modified: '2026-07-20'
 name: Nova Credit
 nav: Providers
 network: true
-overview: 'Nova Credit publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Credit Data, Consumer Credit, Credit Bureau, and Income Verification.
+overview: 'Nova Credit is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Credit Data, Consumer Credit, Credit Bureau, and Income Verification.
 
 
   The Nova Credit catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -176,7 +176,7 @@ score:
   band: developing
   composite: 39.3
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -200,8 +200,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 26.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

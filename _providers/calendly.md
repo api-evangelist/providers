@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: verified
     openapi_examples: false
     protected_resource_metadata: verified
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 43.1
-  scored_at: '2026-10-04'
+  score: 41.2
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 1
@@ -162,6 +162,21 @@ collections:
   name: Calendly Scheduling Activity Log Webhook Subscriptions API
   slug: open-calendly-webhook-subscriptions-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/calendly/refs/heads/main/plans/calendly-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/calendly-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/calendly/refs/heads/main/rate-limits/calendly-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/calendly-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/calendly/refs/heads/main/finops/calendly-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/calendly-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/calendly/refs/heads/main/capabilities/calendly-capability-edges.yml
   title: ''
@@ -250,9 +265,13 @@ common:
 created: '2026-03-20'
 description: Calendly is a scheduling automation platform that helps individuals, teams, and organizations automate the meeting lifecycle by removing the back-and-forth of scheduling. Their developer platform provides APIs for programmatically managing scheduling workflows, receiving real-time event notifications via webhooks, and embedding scheduling interfaces directly into third-party applications.
 finops:
-- name: Calendly Finops
+- has_sources: true
+  method: generated
+  name: Calendly Finops
+  primary_unit: ''
   service_category: Productivity / Scheduling SaaS
   slug: calendly-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/calendly.png
 json_schemas:
 - name: Calendly Event Type
@@ -278,13 +297,13 @@ modified: '2026-05-19'
 name: Calendly
 nav: Providers
 network: true
-overview: 'Calendly publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Webhook API, Activity Log API, Availability API, and 11 more. Tagged areas include Appointments, Automation, Booking, Calendar, and Meetings.
+overview: 'Calendly publishes 14 API contracts indexed on the [APIs.io](https://apis.io/) network, including Webhook API, Activity Log API, Availability API, and 11 more. Tagged areas include Appointments, Automation, Booking, Calendar, and Meetings.
 
 
   The Calendly catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Calendly''s developer surface includes authentication, developer portal, documentation, engineering blog, and 15 more developer resources.'
+  Calendly''s developer surface includes authentication, developer portal, documentation, engineering blog, and 18 more developer resources.'
 plans:
 - name: Calendly Plans Pricing
   plan_count: 4
@@ -295,10 +314,11 @@ rate_limits:
   name: Calendly Rate Limits
   slug: calendly-rate-limits
 rules:
-- effective_rule_count: 36
+- authorship: generated
+  effective_rule_count: 36
   extends:
   - spectral:asyncapi
-  name: Calendly API Rules
+  name: Calendly — asyncapi rules
   rule_count: 9
   severity_counts:
     error: 1
@@ -306,9 +326,10 @@ rules:
     info: 0
     warn: 8
   slug: calendly-asyncapi-spectral-rules
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: Calendly API Rules
+  name: Calendly — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -317,18 +338,18 @@ rules:
     warn: 5
   slug: calendly-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 40.7
+  band: thin
+  composite: 39.2
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 54.5
+    artifact_dirs: 20
+    catalog_earned: 51.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 60.5
+    catalog_gap: 63.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 43.4
+    access_clarity: 35.5
     contract_governance: 13.6
     contract_quality: 62.5
     developer_ergonomics: 23.8
@@ -349,8 +370,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Lizee's production operations API powering its rental, resale, and logistics platforms. Confirmed live via the company status page (components "API v1" and "e-commerce API & Admin") and the production
@@ -40,6 +40,10 @@ apis:
   slug: lizee-api-v1
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://rms.lizee.io/blog/
 - group: company
   title: ''
   type: Website
@@ -57,28 +61,31 @@ created: '2026-07-17'
 description: Lizee is a Paris-based Retail-as-a-Service platform that helps brands and retailers launch and operate circular commerce programs — rental, resale, and second-hand — end to end. Its stack pairs a rental platform, a resale/e-commerce platform, and a logistics platform (returns, refurbishment, reverse logistics) behind an operations API so a brand can offer rent or buy-back experiences on top of its existing catalog. Lizee runs a production API (api.lizee.io) and publishes a public Atlassian Statuspage, though it does not expose a public developer portal, OpenAPI definition, or SDKs — the API surface is partner and integration facing. Lizee was added to the API Evangelist network as a portfolio company of Speedinvest.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lizee.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Lizee
 nav: Providers
 network: true
-overview: Lizee publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Retail, Rentals, Resale, and Secondhand.
+overview: 'Lizee is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Retail, Rentals, Resale, and Secondhand.
+
+
+  Lizee''s developer surface includes engineering blog and 3 more developer resources.'
 random_paper: 9
 score:
   band: minimal
-  composite: 6.3
+  composite: 6.9
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 5
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 66.1
     operational_transparency: 15.8
   jurisdiction:
@@ -102,8 +109,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 0.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

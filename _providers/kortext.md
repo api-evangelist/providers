@@ -35,8 +35,8 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 30.0
-  scored_at: '2026-10-04'
-api_count: 1
+  scored_at: '2026-10-17'
+api_count: 2
 apis:
 - description: The institution-facing integration surface behind vle.kortext.com — 1EdTech LTI 1.1 launch and LTI 1.3 Deep Linking endpoints that place Kortext content and KeyLinks reading lists inside Blackboard, M
   name: Kortext VLE / LTI Integration API
@@ -86,6 +86,10 @@ apis:
   slug: kortext-test-api
 artifact_total: 14
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://kortext.com/us/feed/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/kortext/refs/heads/main/capabilities/kortext-capability-edges.yml
   title: ''
@@ -230,14 +234,14 @@ description: Kortext is a UK-headquartered digital learning and student engageme
   and API integration with library management systems such as Ex Libris Alma. Kortext does not operate a public developer portal; its production APIs are authenticated and undocumented publicly, and the only openly published machine-readable contract is the OpenAPI 3.1 description of its AI "labs" study-tools API.
 image: https://kortext.com/us/wp-content/uploads/2024/07/Kortext-White-EST-logo-transparent-980x255.png
 layout: provider
-modified: '2026-08-23'
+modified: '2026-10-06'
 name: Kortext
 nav: Providers
 network: true
-overview: 'Kortext publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Chat API, Content API, Health Checks API, and 7 more. Tagged areas include Education, EdTech, Higher Education, Digital Textbooks, and Learning Analytics.
+overview: 'Kortext publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Chat API, Content API, Health Checks API, and 7 more. Tagged areas include Education, EdTech, Higher Education, Digital Textbooks, and Learning Analytics.
 
 
-  Kortext''s developer surface includes documentation, API reference, support, engineering blog, signup flow, getting-started guide, authentication, and 24 more developer resources.'
+  Kortext''s developer surface includes documentation, API reference, support, engineering blog, signup flow, getting-started guide, authentication, and 25 more developer resources.'
 plans:
 - name: Kortext Plans Pricing
   plan_count: 0
@@ -251,7 +255,7 @@ score:
   band: developing
   composite: 40.1
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -286,8 +290,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 22.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

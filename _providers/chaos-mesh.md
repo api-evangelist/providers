@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 40
+- acting_count: 37
   human_in_the_loop: 0
   name: Chaos Mesh Agentic Access
   operation_count: 75
   slug: chaos-mesh-agentic-access
-  summary_line: 75 operations · 40 acting
+  summary_line: 75 operations · 37 acting
 api_count: 2
 apis:
 - baseURL: http://localhost:2333/api
@@ -113,6 +113,21 @@ collections:
   name: Chaos Mesh Dashboard Archives Workflows API
   slug: open-chaos-mesh-workflows-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/chaos-mesh/refs/heads/main/plans/chaos-mesh-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/chaos-mesh-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/chaos-mesh/refs/heads/main/rate-limits/chaos-mesh-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/chaos-mesh-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/chaos-mesh/refs/heads/main/finops/chaos-mesh-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/chaos-mesh-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/chaos-mesh/refs/heads/main/capabilities/chaos-mesh-capability-edges.yml
   title: ''
@@ -242,9 +257,13 @@ features:
 - name: Safe Mode
 - name: Status Monitoring
 finops:
-- name: Chaos Mesh Finops
+- has_sources: false
+  method: generated
+  name: Chaos Mesh Finops
+  primary_unit: ''
   service_category: API
   slug: chaos-mesh-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/chaos-mesh.png
 integrations:
 - name: Kubernetes
@@ -283,13 +302,13 @@ modified: '2026-05-19'
 name: Chaos Mesh
 nav: Providers
 network: true
-overview: 'Chaos Mesh publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Archives API, Common API, Events API, and 4 more. Tagged areas include Chaos Engineering, Cloud-Native, CNCF, Fault Injection, and Kubernetes.
+overview: 'Chaos Mesh publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Archives API, Common API, Events API, and 4 more. Tagged areas include Chaos Engineering, Cloud-Native, CNCF, Fault Injection, and Kubernetes.
 
 
   The Chaos Mesh catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Chaos Mesh''s developer surface includes authentication, documentation, getting-started guide, engineering blog, changelog, GitHub presence, and 17 more developer resources.'
+  Chaos Mesh''s developer surface includes authentication, documentation, getting-started guide, engineering blog, changelog, GitHub presence, and 20 more developer resources.'
 plans:
 - name: Chaos Mesh Plans Pricing
   plan_count: 3
@@ -300,9 +319,10 @@ rate_limits:
   name: Chaos Mesh Rate Limits
   slug: chaos-mesh-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: Chaos Mesh API Rules
+  name: Chaos Mesh — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -312,17 +332,17 @@ rules:
   slug: chaos-mesh-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 43.5
+  composite: 42.2
   coverage:
-    artifact_dirs: 15
-    catalog_earned: 60.7
+    artifact_dirs: 16
+    catalog_earned: 57.7
     catalog_earned_first_party: 0.0
-    catalog_gap: 54.4
+    catalog_gap: 57.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 5.2
+  delta: -1.3
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 9.8
     contract_quality: 60.2
     developer_ergonomics: 38.1
@@ -331,7 +351,7 @@ score:
   open_source:
     applies: true
     score: 100.0
-  previous_composite: 38.3
+  previous_composite: 43.5
   provenance:
     agentic_access: derived
     contracts:
@@ -345,9 +365,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: rising
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: flat
   upsert:
     applies: true
     score: 0.0

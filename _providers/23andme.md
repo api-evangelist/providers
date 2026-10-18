@@ -34,10 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 5
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.23andme.org/blog/feed/
 - group: company
   title: ''
   type: Website
@@ -124,14 +128,14 @@ description: 23andMe is a consumer genetics company founded in 2006 that sells s
   limits are published publicly, and the developer portal host answers a Cloudflare bot challenge to anonymous requests.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/23andme.png
 layout: provider
-modified: '2026-08-15'
+modified: '2026-10-06'
 name: 23andMe
 nav: Providers
 network: true
 overview: '23andMe is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health Tech, Genetics, Genomics, and DNA Testing.
 
 
-  23andMe''s developer surface includes engineering blog, support, pricing, and 15 more developer resources.'
+  23andMe''s developer surface includes engineering blog, support, pricing, and 16 more developer resources.'
 plans:
 - name: 23Andme Plans Pricing
   plan_count: 4
@@ -145,7 +149,7 @@ score:
   band: thin
   composite: 28.3
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 13
     catalog_earned: 39.0
     catalog_earned_first_party: 12.0
     catalog_gap: 76.0
@@ -175,13 +179,14 @@ score:
     regime: Health
     regime_id: health
     score: 23.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/23andme/refs/heads/main/screenshots/23andme-2026-10-11T134420.png
 security:
 - kind: domain-security
   name: 23Andme Domain Security

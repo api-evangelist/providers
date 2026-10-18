@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: Remote Model Context Protocol server exposing 74 tools across six categories (plan and operate, build and ship, Company Brain, audience growth, sell and support, run the company) — the same tools Resu
@@ -191,7 +191,7 @@ modified: '2026-08-13'
 name: Result
 nav: Providers
 network: true
-overview: 'Result publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Business Operations, Software-as-a-Service, Entrepreneurship, and Payments.
+overview: 'Result is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Business Operations, Software-as-a-Service, Entrepreneurship, and Payments.
 
 
   Result''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, CLI, authentication, and 21 more developer resources.'
@@ -237,8 +237,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 29.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

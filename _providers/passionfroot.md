@@ -32,10 +32,15 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 9.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 4
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/passionfroot/refs/heads/main/rate-limits/passionfroot-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/passionfroot-rate-limits.yml
 - group: company
   title: ''
   type: Website
@@ -159,7 +164,7 @@ network: true
 overview: 'Passionfroot is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Software-as-a-Service, Creator Economy, Marketplace, and Sponsorships.
 
 
-  Passionfroot''s developer surface includes support, engineering blog, pricing, signup flow, changelog, and 16 more developer resources.'
+  Passionfroot''s developer surface includes support, engineering blog, pricing, signup flow, changelog, and 17 more developer resources.'
 plans:
 - name: Passionfroot Plans Pricing
   plan_count: 1
@@ -210,8 +215,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 21.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

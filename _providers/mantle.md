@@ -32,10 +32,19 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
-artifact_total: 1
+artifact_total: 2
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/mantle/refs/heads/main/plans/mantle-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/mantle-plans-pricing.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.withmantle.com/feed/
 - group: company
   title: ''
   type: Website
@@ -82,28 +91,32 @@ created: '2026-07-17'
 description: 'Mantle is an AI-powered data platform for alternative assets management, positioning itself as "alternative assets data, structured for the agentic era." It offers two products: Mantle Equity, a cap table management platform for founders and CFOs covering fundraising, SAFEs, stock options, 409A valuations, and QSBS attestation; and Mantle Portal, a portfolio management and insights product for institutional investors such as endowments and family offices. Mantle converts fragmented documents into structured, trustworthy data and layers AI workflows on top. The company is SOC 2 Type II compliant and is backed by Sierra Ventures. As of this enrichment pass no public developer API or API documentation was found; the product is delivered as a hosted SaaS application with an end-user help center.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mantle.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Mantle
 nav: Providers
 network: true
 overview: 'Mantle is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Cap Table, Equity Management, and Portfolio Management.
 
 
-  Mantle''s developer surface includes documentation, engineering blog, pricing, support, and 6 more developer resources.'
+  Mantle''s developer surface includes documentation, engineering blog, pricing, support, and 8 more developer resources.'
+plans:
+- name: Mantle Plans Pricing
+  plan_count: 4
+  slug: mantle-plans-pricing
 random_paper: 3
 score:
   band: emerging
-  composite: 19.2
+  composite: 25.6
   coverage:
-    artifact_dirs: 6
-    catalog_earned: 27.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 88.0
+    artifact_dirs: 7
+    catalog_earned: 39.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.4
   facets:
-    access_clarity: 39.5
+    access_clarity: 71.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 16.7
@@ -118,9 +131,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

@@ -34,10 +34,20 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 3
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/vida-health/refs/heads/main/plans/vida-health-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/vida-health-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/vida-health/refs/heads/main/rate-limits/vida-health-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/vida-health-rate-limits.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/vida-health/refs/heads/main/security/vida-health-domain-security.yml
   title: ''
@@ -144,7 +154,7 @@ network: true
 overview: 'Vida Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Healthcare, Digital Health, and Virtual Care.
 
 
-  Vida Health''s developer surface includes engineering blog, support, signup flow, and 14 more developer resources.'
+  Vida Health''s developer surface includes engineering blog, support, signup flow, and 16 more developer resources.'
 plans:
 - name: Vida Health Plans Pricing
   plan_count: 0
@@ -188,8 +198,8 @@ score:
     regime: Health
     regime_id: health
     score: 28.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

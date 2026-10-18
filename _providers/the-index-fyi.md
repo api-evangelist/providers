@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -105,16 +105,20 @@ common:
 created: '2026-05-23'
 description: theindex.fyi is a maintained meta-index of indie web and small web index sites — a curated catalog of curated catalogs. It tracks ~40 indexes spanning six categories (curated directories, RSS / feed aggregators, search engines, random-discovery tools, constraint-based clubs, and IndieWeb infrastructure), and exposes the catalog through a public, read-only JSON:API.
 finops:
-- name: The Index Fyi Finops
+- has_sources: false
+  method: generated
+  name: The Index Fyi Finops
+  primary_unit: ''
   service_category: API
   slug: the-index-fyi-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/the-index-fyi.png
 layout: provider
 modified: '2026-05-23'
 name: The Index
 nav: Providers
 network: true
-overview: 'The Index publishes 1 API on the [APIs.io](https://apis.io/) network: Indexes API. Tagged areas include Indie Web, Small Web, Directories, Search, and RSS.
+overview: 'The Index publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Indexes API. Tagged areas include Indie Web, Small Web, Directories, Search, and RSS.
 
 
   The Index''s developer surface includes documentation and 8 more developer resources.'
@@ -128,23 +132,23 @@ rate_limits:
   name: The Index Fyi Rate Limits
   slug: the-index-fyi-rate-limits
 score:
-  band: thin
-  composite: 28.1
+  band: emerging
+  composite: 22.0
   coverage:
     artifact_dirs: 9
-    catalog_earned: 54.4
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 60.6
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.1
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 51.4
     developer_ergonomics: 9.5
     discoverability: 66.1
-    operational_transparency: 18.9
+    operational_transparency: 5.3
   previous_composite: 28.1
   provenance:
     agentic_access: derived
@@ -159,9 +163,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.seeing-systems.com/feed
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/seeing-systems/refs/heads/main/security/seeing-systems-domain-security.yml
   title: ''
@@ -53,20 +57,20 @@ created: '2026-07-17'
 description: Seeing Systems is a Y Combinator (Winter 2026) defense technology company building autonomous, modular strike drones and AI-powered swarm coordination software at the intersection of artificial intelligence and robotics. Its product line includes Bandit, a cost-effective FPV drone for training and expendable missions with 30+ km of range; Banshee, an autonomous modular platform built for contested, jamming-resistant environments with 40+ km of range; and Aerie AI, swarm coordination software for multi-platform operations that lowers operator cognitive load. The company works directly with military and defense partners — including UK Royal Marine Commandos and NATO forces — rather than publishing a public developer platform. This profile is maintained in the API Evangelist network; as of the latest enrichment pass Seeing Systems exposes no public API, SDK, developer portal, or documentation surface.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/seeing-systems.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Seeing Systems
 nav: Providers
 network: true
 overview: 'Seeing Systems is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defense, Drones, Robotics, and Artificial Intelligence.
 
 
-  Seeing Systems'' developer surface includes support and 2 more developer resources.'
+  Seeing Systems'' developer surface includes support and 3 more developer resources.'
 random_paper: 20
 score:
   band: minimal
   composite: 4.3
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -87,8 +91,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

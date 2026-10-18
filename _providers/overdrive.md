@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: Discovery APIs to search and find information about titles in a library's OverDrive collection — Library Account, Search, Metadata, and Library Availability.
@@ -47,6 +47,14 @@ apis:
   slug: overdrive-reporting-api
 artifact_total: 6
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://company.overdrive.com/company-profile/news/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://company.overdrive.com/feed/
 - group: company
   title: ''
   type: Website
@@ -137,31 +145,31 @@ created: '2026-07-17'
 description: 'OverDrive is a digital reading platform that distributes ebooks, audiobooks, and magazines to public libraries and schools worldwide, best known for its Libby and Sora reading apps. OverDrive publishes a set of REST APIs that let library systems, integrators, and partners work against a library''s OverDrive collection: Discovery APIs (Library Account, Search, Metadata, and Library Availability), Circulation APIs (patron information, checkouts, and holds), Reporting APIs (checkouts report), and a Title Link API. Access is authorized with OAuth 2.0 client-credentials (client authentication) for discovery and patron authentication (including QR-code sign-in) for borrowing and holds, with a dedicated integration environment for testing against real titles before going live.'
 image: https://developer.overdrive.com/img/overdrive-logo.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: OverDrive
 nav: Providers
 network: true
-overview: 'OverDrive publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Books, Library, Ebooks, and Audiobooks.
+overview: 'OverDrive is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Books, Library, Ebooks, and Audiobooks.
 
 
-  OverDrive''s developer surface includes documentation, API reference, getting-started guide, authentication, support, signup flow, and 13 more developer resources.'
+  OverDrive''s developer surface includes engineering blog, documentation, API reference, getting-started guide, authentication, support, signup flow, and 14 more developer resources.'
 random_paper: 14
 score:
   band: emerging
-  composite: 25.3
+  composite: 25.8
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 12
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 13.2
     contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 54.8
+    developer_ergonomics: 57.1
     discoverability: 78.6
     operational_transparency: 21.1
   previous_composite: 25.3
@@ -174,8 +182,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 22.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

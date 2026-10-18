@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The AWS CLI v2 is the official command-line interface for Amazon Web Services, providing unified access to all AWS services from the terminal with auto-completion, AWS SSO support, and improved perfor
@@ -41,6 +41,21 @@ apis:
   slug: aws-cli
 artifact_total: 22
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/aws-cli/refs/heads/main/plans/aws-cli-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/aws-cli-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/aws-cli/refs/heads/main/rate-limits/aws-cli-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/aws-cli-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/aws-cli/refs/heads/main/finops/aws-cli-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/aws-cli-finops.yml
 - group: operate
   title: ''
   type: Releases
@@ -132,19 +147,23 @@ features:
 - description: Extensible plugin architecture for adding custom commands and credential providers.
   name: Plugin System
 finops:
-- name: Aws Cli Finops
+- has_sources: false
+  method: generated
+  name: Aws Cli Finops
+  primary_unit: ''
   service_category: API
   slug: aws-cli-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aws-cli.png
 layout: provider
 modified: '2026-04-19'
 name: AWS CLI
 nav: Providers
 network: true
-overview: 'AWS CLI publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include CLI, Cloud Computing, Command Line Interface, DevOps, and Open Source.
+overview: 'AWS CLI is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include CLI, Cloud Computing, Command Line Interface, DevOps, and Open Source.
 
 
-  AWS CLI''s developer surface includes documentation, getting-started guide, release notes, support, Stack Overflow tag, and 11 more developer resources.'
+  AWS CLI''s developer surface includes documentation, getting-started guide, release notes, support, Stack Overflow tag, and 14 more developer resources.'
 plans:
 - name: Aws Cli Plans Pricing
   plan_count: 3
@@ -156,17 +175,17 @@ rate_limits:
   slug: aws-cli-rate-limits
 score:
   band: emerging
-  composite: 26.1
+  composite: 24.6
   coverage:
     artifact_dirs: 7
-    catalog_earned: 41.0
+    catalog_earned: 38.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 44.7
+    access_clarity: 36.8
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 33.3
@@ -179,8 +198,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

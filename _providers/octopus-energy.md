@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.4
-  scored_at: '2026-10-04'
+  score: 22.2
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -357,9 +357,13 @@ features:
 - Domain coverage for electricity and gas retail, electric vehicles via Octopus Electroverse, heat pumps via Cosy Octopus, solar, batteries, and tariff-aware smart device control
 - UK-first API surface with parallel Octopus Energy Japan, Australia, New Zealand, Germany, France, Italy, Spain, and United States deployments via the same Kraken platform
 finops:
-- name: Octopus Energy Finops
+- has_sources: false
+  method: generated
+  name: Octopus Energy Finops
+  primary_unit: ''
   service_category: ''
   slug: octopus-energy-finops
+  template: true
 graphqls:
 - description: The Octopus Energy GraphQL API is the primary Kraken interface for partner and customer-facing integrations. A single /v1/graphql/ endpoint exposes queries and mutations grouped into API Collections b
   name: Octopus Energy GraphQL API
@@ -382,7 +386,7 @@ modified: '2026-09-16'
 name: Octopus Energy
 nav: Providers
 network: true
-overview: 'Octopus Energy publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Consumption API, ElectricityMeterPoints API, ElectricityTariffs API, and 6 more. Tagged areas include Energy, Electricity, Gas, Renewable Energy, and Smart Meter.
+overview: 'Octopus Energy publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Consumption API, ElectricityMeterPoints API, ElectricityTariffs API, and 6 more. Tagged areas include Energy, Electricity, Gas, Renewable Energy, and Smart Meter.
 
 
   The Octopus Energy catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -399,9 +403,10 @@ rate_limits:
   name: Octopus Energy Rate Limits
   slug: octopus-energy-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Octopus Energy API Rules
+  name: Octopus Energy — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -409,7 +414,8 @@ rules:
     info: 1
     warn: 4
   slug: octopus-energy-jsonschema-spectral-rules
-- effective_rule_count: 45
+- authorship: unmarked
+  effective_rule_count: 45
   extends:
   - spectral:oas
   name: Octopus Energy API Rules
@@ -422,22 +428,22 @@ rules:
   slug: octopus-energy-rules
 score:
   band: developing
-  composite: 51.6
+  composite: 44.6
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 74.5
+    artifact_dirs: 19
+    catalog_earned: 58.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 40.5
+    catalog_gap: 56.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.0
   facets:
-    access_clarity: 50.5
+    access_clarity: 28.9
     contract_governance: 13.6
     contract_quality: 61.3
     developer_ergonomics: 47.6
     discoverability: 58.9
-    operational_transparency: 60.0
+    operational_transparency: 39.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -460,9 +466,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 22.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

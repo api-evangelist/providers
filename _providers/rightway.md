@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'Undocumented private HTTP/JSON API at api.rightwayhealthcare.com that backs the Rightway member mobile apps (iOS/Android) and the member web app at member.rightwayhealthcare.com. The host is publicly '
@@ -125,7 +125,7 @@ modified: '2026-08-02'
 name: Rightway
 nav: Providers
 network: true
-overview: 'Rightway publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Pharmacy Benefits, PBM, and Care Navigation.
+overview: 'Rightway is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Pharmacy Benefits, PBM, and Care Navigation.
 
 
   Rightway''s developer surface includes engineering blog, support, and 16 more developer resources.'
@@ -168,8 +168,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 27.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

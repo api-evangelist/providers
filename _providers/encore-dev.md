@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: verified
     openapi_examples: false
     protected_resource_metadata: verified
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 50.4
-  scored_at: '2026-10-04'
+  score: 48.5
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -303,9 +303,13 @@ features:
 - Open-source MPL-2.0 framework with ~12,000 GitHub stars and active v1.57.x release cadence
 - Python support on the roadmap
 finops:
-- name: Encore Dev Finops
+- has_sources: true
+  method: generated
+  name: Encore Dev Finops
+  primary_unit: ''
   service_category: ''
   slug: encore-dev-finops
+  template: true
 image: https://encore.dev/assets/branding/icon.svg
 json_schemas:
 - name: Encore API Endpoint
@@ -334,7 +338,7 @@ modified: '2026-09-16'
 name: Encore
 nav: Providers
 network: true
-overview: 'Encore publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Apps API, Framework API, and 4 more. Tagged areas include Backend, Framework, Cloud, TypeScript, and Go.
+overview: 'Encore publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Apps API, Framework API, and 4 more. Tagged areas include Backend, Framework, Cloud, TypeScript, and Go.
 
 
   The Encore catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -351,9 +355,10 @@ rate_limits:
   name: Encore Dev Rate Limits
   slug: encore-dev-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Encore API Rules
+  name: Encore — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -361,7 +366,8 @@ rules:
     info: 1
     warn: 4
   slug: encore-dev-jsonschema-spectral-rules
-- effective_rule_count: 48
+- authorship: unmarked
+  effective_rule_count: 48
   extends:
   - spectral:oas
   name: Encore API Rules
@@ -374,22 +380,22 @@ rules:
   slug: encore-dev-rules
 score:
   band: developing
-  composite: 52.5
+  composite: 44.2
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 82.6
+    artifact_dirs: 19
+    catalog_earned: 64.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 32.4
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 46.8
+    access_clarity: 18.4
     contract_governance: 27.3
     contract_quality: 55.2
     developer_ergonomics: 56.0
     discoverability: 60.0
-    operational_transparency: 65.3
+    operational_transparency: 44.7
   previous_composite: 52.5
   provenance:
     agentic_access: derived
@@ -405,9 +411,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

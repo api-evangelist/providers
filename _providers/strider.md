@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: Strider's hosted Model Context Protocol server, published at app.striderintel.com/app-api/mcp. It advertises itself by name ("Strider MCP") in an RFC 9728 protected-resource metadata document and is p
@@ -45,6 +45,14 @@ apis:
   slug: strider-shield-api
 artifact_total: 6
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://striderintel.com/blog/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://striderintel.com/blog/feed/
 - group: company
   title: ''
   type: Website
@@ -149,14 +157,14 @@ mcp_servers:
 - description: Remote MCP server at app.striderintel.com over HTTP.
   name: Strider MCP
   slug: strider-mcp
-modified: '2026-08-05'
+modified: '2026-10-06'
 name: Strider
 nav: Providers
 network: true
-overview: 'Strider publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Strategic Intelligence, Threat Intelligence, Risk Management, and Security.
+overview: 'Strider is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Strategic Intelligence, Threat Intelligence, Risk Management, and Security.
 
 
-  Strider''s developer surface includes documentation, signup flow, support, engineering blog, authentication, and 17 more developer resources.'
+  Strider''s developer surface includes engineering blog, documentation, signup flow, support, authentication, and 19 more developer resources.'
 random_paper: 17
 score:
   band: emerging
@@ -186,8 +194,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: SOAP-based web services for enterprise integration with Siebel CRM, supporting complex business operations and workflows. Siebel provides both inbound web services for external clients to access Siebe
@@ -505,9 +505,13 @@ common:
 created: '2024-01-01'
 description: Oracle Siebel CRM APIs provide programmatic access to customer relationship management functionality including sales, marketing, and service automation capabilities. Siebel CRM offers REST, SOAP, scripting, and event-driven integration interfaces for building integrations with enterprise systems.
 finops:
-- name: Oracle Siebel Finops
+- has_sources: true
+  method: generated
+  name: Oracle Siebel Finops
+  primary_unit: ''
   service_category: CRM
   slug: oracle-siebel-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/oracle-siebel.png
 json_schemas:
 - name: Oracle Siebel CRM Account
@@ -525,7 +529,7 @@ modified: '2026-08-21'
 name: Oracle Siebel
 nav: Providers
 network: true
-overview: 'Oracle Siebel publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Event Pub/Sub API, Accounts API, Activities API, and 13 more. Tagged areas include CRM, Customer Management, Enterprise Software, Marketing Automation, and Oracle.
+overview: 'Oracle Siebel publishes 16 API contracts indexed on the [APIs.io](https://apis.io/) network, including Event Pub/Sub API, Accounts API, Activities API, and 13 more. Tagged areas include CRM, Customer Management, Enterprise Software, Marketing Automation, and Oracle.
 
 
   The Oracle Siebel catalog on APIs.io includes 1 event-driven AsyncAPI specification and 2 Spectral governance rulesets.
@@ -542,10 +546,11 @@ rate_limits:
   name: Oracle Siebel Rate Limits
   slug: oracle-siebel-rate-limits
 rules:
-- effective_rule_count: 36
+- authorship: generated
+  effective_rule_count: 36
   extends:
   - spectral:asyncapi
-  name: Oracle Siebel API Rules
+  name: Oracle Siebel — asyncapi rules
   rule_count: 9
   severity_counts:
     error: 0
@@ -553,9 +558,10 @@ rules:
     info: 0
     warn: 9
   slug: oracle-siebel-asyncapi-spectral-rules
-- effective_rule_count: 4
+- authorship: generated
+  effective_rule_count: 4
   extends: []
-  name: Oracle Siebel API Rules
+  name: Oracle Siebel — jsonschema rules
   rule_count: 4
   severity_counts:
     error: 0
@@ -570,17 +576,17 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 70.4
+  composite: 68.9
   coverage:
-    artifact_dirs: 30
-    catalog_earned: 59.9
+    artifact_dirs: 31
+    catalog_earned: 56.9
     catalog_earned_first_party: 12.0
-    catalog_gap: 55.1
+    catalog_gap: 58.1
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 76.3
+    access_clarity: 68.4
     contract_governance: 18.2
     contract_quality: 60.8
     developer_ergonomics: 67.3
@@ -602,8 +608,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

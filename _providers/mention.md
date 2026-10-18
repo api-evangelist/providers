@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -122,6 +122,11 @@ collections:
   name: Mention API
   slug: open-mention
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mention/refs/heads/main/capabilities/mention-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/mention-capability-edges.yml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -282,19 +287,23 @@ common:
 created: '2026-03-16'
 description: Mention is a media monitoring and social listening platform that watches over one billion sources in real time across 42 languages, covering social networks, news, blogs, forums, video and 75+ review sites. Its JSON-based RESTful API, documented at dev.mention.com, gives developers programmatic access to alerts (the standing keyword queries Mention crawls for), the mentions those alerts collect, curation by folder/tone/tag, mention tasks assigned to team mates, alert sharing and permissions, authors and influencer scoring, aggregate statistics, and a long-lived streaming endpoint for real-time delivery. Authentication is a bearer token obtained from a registered app or through an OAuth2 authorization-code flow, and the API version is selected per request with an Accept-Version header. Mention is sold by Agorapulse SAS; API access is a paid add-on rather than an included capability of the published plan.
 finops:
-- name: Mention Finops
+- has_sources: false
+  method: generated
+  name: Mention Finops
+  primary_unit: ''
   service_category: API
   slug: mention-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mention.png
 layout: provider
 modified: '2026-08-13'
 name: Mention
 nav: Providers
 network: true
-overview: 'Mention publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Alerts API, Authors API, and 6 more. Tagged areas include Alerts, Brand Monitoring, Media Monitoring, Social Listening, and Social Media.
+overview: 'Mention is listed with 9 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Alerts API, Authors API, and 6 more. Tagged areas include Alerts, Brand Monitoring, Media Monitoring, Social Listening, and Social Media.
 
 
-  Mention''s developer surface includes documentation, API reference, getting-started guide, developer portal, support, engineering blog, pricing, and 28 more developer resources.'
+  Mention''s developer surface includes documentation, API reference, getting-started guide, developer portal, support, engineering blog, pricing, and 29 more developer resources.'
 plans:
 - name: Mention Plans Pricing
   plan_count: 1
@@ -311,17 +320,17 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 61.9
+  composite: 60.4
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 59.0
+    artifact_dirs: 25
+    catalog_earned: 56.0
     catalog_earned_first_party: 16.0
-    catalog_gap: 56.0
+    catalog_gap: 59.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 81.6
+    access_clarity: 73.7
     contract_governance: 18.2
     contract_quality: 48.8
     developer_ergonomics: 58.9
@@ -344,8 +353,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

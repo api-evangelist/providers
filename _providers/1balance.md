@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 0
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://1balance.com/blogs/well-true.atom
 - group: company
   title: ''
   type: Website
@@ -56,20 +60,20 @@ created: '2026-07-17'
 description: 1Balance (1Balance Living) is a personalized herbal-wellness and tea brand offering curated caffeinated and caffeine-free tisane blends formulated for different times of day — spanning gut health, energy, metabolism, adaptogenic immune support, relaxation, and menopause support. The company blends traditional herbal science and personalization (drawing on Ayurveda and naturopathy) with modern subscription commerce, selling whole-herb capsule and loose-leaf tea blends directly to consumers through a Shopify-powered storefront with free shipping over $30 and a 30-day money-back guarantee. Backed by an Accel-led seed round, 1Balance operates as a US/India direct-to-consumer consumer-wellness company. This API Evangelist profile tracks 1Balance as a consumer brand; it runs a retail e-commerce experience and does not publish a public developer API, SDKs, or developer portal.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/1balance.png
 layout: provider
-modified: '2026-07-17'
+modified: '2026-10-06'
 name: 1Balance
 nav: Providers
 network: true
 overview: '1Balance is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Wellness, Herbal Tea, and Nutrition.
 
 
-  1Balance''s developer surface includes engineering blog and 3 more developer resources.'
+  1Balance''s developer surface includes engineering blog and 4 more developer resources.'
 random_paper: 11
 score:
   band: minimal
   composite: 8.4
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -96,8 +100,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 7.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 45.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://prod-api.greencheckverified.com
@@ -133,6 +133,10 @@ apis:
   slug: green-check-verified-trace-api
 artifact_total: 24
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://greencheckverified.com/feed/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/green-check-verified/refs/heads/main/capabilities/green-check-verified-capability-edges.yml
   title: ''
@@ -280,14 +284,14 @@ mcp_servers:
 - description: 'Green Check runs a live, anonymously reachable remote MCP server on its developer-portal host. It is the Redocly-portal documentation MCP: six tools that let an agent enumerate the APIs, list endpoint'
   name: Green Check Verified MCP Server
   slug: green-check-verified-mcp-yml
-modified: '2026-08-22'
+modified: '2026-10-06'
 name: Green Check Verified
 nav: Providers
 network: true
-overview: 'Green Check Verified publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, CRB API, CRB Customers API, and 15 more. Tagged areas include Company, Cannabis, Compliance, Banking, and Financial Services.
+overview: 'Green Check Verified publishes 18 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authentication API, CRB API, CRB Customers API, and 15 more. Tagged areas include Company, Cannabis, Compliance, Banking, and Financial Services.
 
 
-  Green Check Verified''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 23 more developer resources.'
+  Green Check Verified''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 24 more developer resources.'
 plans:
 - name: Green Check Verified Plans Pricing
   plan_count: 0
@@ -306,7 +310,7 @@ score:
   band: developing
   composite: 42.4
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -336,8 +340,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 33.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

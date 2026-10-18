@@ -32,10 +32,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.astronauts.id/blog/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.astronauts.id/blog/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/astro-sea/refs/heads/main/security/astro-sea-vulnerability-disclosure.yml
   title: ''
@@ -89,26 +97,26 @@ created: '2026-07-17'
 description: Astro (PT Astro Technologies Indonesia), operating at astronauts.id, is an Indonesian quick-commerce platform that delivers groceries and everyday essentials in as little as 15 minutes. Its consumer mobile apps (iOS and Android) offer more than 3,000 curated products spanning fresh produce, frozen goods, groceries, beauty, household items, and electronics, with 24/7 service across the Greater Jakarta (JADETABEK) region. Astro is backed by Lightspeed Venture Partners and was surfaced through that portfolio into the API Evangelist network. Astro is a business-to-consumer application company; it publishes a consumer app, a corporate site, and an RFC 9116 security contact, but does not currently expose a public developer API, OpenAPI definition, SDKs, or developer portal.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/astro-sea.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Astro Sea
 nav: Providers
 network: true
 overview: 'Astro Sea is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Quick Commerce, E-Commerce, Grocery Delivery, and Retail.
 
 
-  Astro Sea''s developer surface includes support, engineering blog, and 9 more developer resources.'
+  Astro Sea''s developer surface includes engineering blog, support, and 11 more developer resources.'
 random_paper: 9
 score:
   band: emerging
-  composite: 12.4
+  composite: 12.5
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
@@ -130,8 +138,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

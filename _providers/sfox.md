@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: REST API for trading, order management, RFQ, account balances and transactions, transfers/deposits/withdrawals, custody (sFOX SAFE), staking, post-trade settlement, market data, and reporting. Bearer-
@@ -183,7 +183,7 @@ modified: '2026-07-21'
 name: Sfox
 nav: Providers
 network: true
-overview: 'Sfox publishes 3 APIs on the [APIs.io](https://apis.io/) network, including REST API, WebSocket API, and 1 more. Tagged areas include Company, Cryptocurrency, Prime Brokerage, Trading, and Digital Asset Custody.
+overview: 'Sfox is listed with 3 APIs on the [APIs.io](https://apis.io/) network, including REST API, WebSocket API, and 1 more. Tagged areas include Company, Cryptocurrency, Prime Brokerage, Trading, and Digital Asset Custody.
 
 
   The Sfox catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -199,7 +199,7 @@ score:
   band: developing
   composite: 41.7
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 48.0
     catalog_earned_first_party: 8.0
     catalog_gap: 67.0
@@ -223,8 +223,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 30.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

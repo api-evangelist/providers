@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 4
 common:
@@ -104,9 +104,10 @@ press:
   url: https://www.voya.com/news/2022/11/voya-celebrates-success-247-chatbot-and-emerging-artificial-intelligence-capabilities
 random_paper: 17
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Voya Financial API Rules
+  name: Voya Financial — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -118,7 +119,7 @@ score:
   band: minimal
   composite: 7.8
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 35.3
     catalog_earned_first_party: 0.0
     catalog_gap: 79.8
@@ -139,8 +140,8 @@ score:
     regime: Health
     regime_id: health
     score: 8.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

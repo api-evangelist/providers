@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 41.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -681,9 +681,13 @@ features:
 - description: Real-time events for purchases, reward issuance, reward batch completion, SMS subscriptions, and communication settings.
   name: Webhooks
 finops:
-- name: Thanx Finops
+- has_sources: true
+  method: generated
+  name: Thanx Finops
+  primary_unit: ''
   service_category: Customer Engagement + Loyalty
   slug: thanx-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/thanx.png
 integrations:
 - description: Online ordering provider referenced in purchase order providers.
@@ -874,7 +878,7 @@ modified: '2026-08-13'
 name: Thanx
 nav: Providers
 network: true
-overview: 'Thanx publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Account API, Auth API, Baskets API, and 11 more. Tagged areas include Restaurant, Loyalty, Guest Engagement, Marketing, and CRM.
+overview: 'Thanx publishes 14 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Auth API, Baskets API, and 11 more. Tagged areas include Restaurant, Loyalty, Guest Engagement, Marketing, and CRM.
 
 
   The Thanx catalog on APIs.io includes 1 event-driven AsyncAPI specification, 3 JSON-LD contexts, and 2 Spectral governance rulesets.
@@ -891,9 +895,10 @@ rate_limits:
   name: Thanx Rate Limits
   slug: thanx-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Thanx API Rules
+  name: Thanx — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -901,7 +906,8 @@ rules:
     info: 1
     warn: 4
   slug: thanx-jsonschema-spectral-rules
-- effective_rule_count: 81
+- authorship: generated
+  effective_rule_count: 81
   extends:
   - spectral:oas
   name: Thanx API Rules
@@ -919,23 +925,23 @@ scopes:
   summary_line: 12 scopes
 score:
   band: exemplar
-  composite: 75.9
+  composite: 74.4
   coverage:
-    artifact_dirs: 35
-    catalog_earned: 92.0
+    artifact_dirs: 36
+    catalog_earned: 89.0
     catalog_earned_first_party: 20.0
     catalog_gap: 26.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -1.5
   facets:
-    access_clarity: 68.4
+    access_clarity: 60.5
     contract_governance: 45.5
     contract_quality: 75.8
     developer_ergonomics: 84.5
     discoverability: 80.0
     operational_transparency: 86.8
-  previous_composite: 75.4
+  previous_composite: 75.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -952,8 +958,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 31.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -30,13 +30,13 @@ agent_readiness:
     mcp_server: verified
     openapi_examples: false
     protected_resource_metadata: verified
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 44.6
-  scored_at: '2026-10-04'
+  score: 42.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -147,6 +147,21 @@ collections:
   name: Kevel APIs
   slug: open-kevel
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/kevel/refs/heads/main/plans/kevel-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/kevel-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/kevel/refs/heads/main/rate-limits/kevel-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/kevel-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/kevel/refs/heads/main/finops/kevel-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/kevel-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/kevel/refs/heads/main/capabilities/kevel-capability-edges.yml
   title: ''
@@ -215,9 +230,13 @@ common:
 created: '2026-03-16'
 description: Kevel is an API-first ad serving platform that lets brands and publishers build unified, fully customized ad systems supporting any ad format, any creative, and multiple demand sources. Kevel exposes a Decision API for ad requests, a Management API for campaign and creative operations, a Reporting API for performance analytics, and a UserDB API for first-party audience and user data.
 finops:
-- name: Kevel Finops
+- has_sources: false
+  method: generated
+  name: Kevel Finops
+  primary_unit: ''
   service_category: API
   slug: kevel-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kevel.png
 layout: provider
 mcp_servers:
@@ -228,10 +247,10 @@ modified: '2026-04-28'
 name: Kevel
 nav: Providers
 network: true
-overview: 'Kevel publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Ads API, Advertisers API, Campaigns API, and 11 more. Tagged areas include Ad Serving, Advertising, API-First, Audiences, and Monetization.
+overview: 'Kevel publishes 14 API contracts indexed on the [APIs.io](https://apis.io/) network, including Ads API, Advertisers API, Campaigns API, and 11 more. Tagged areas include Ad Serving, Advertising, API-First, Audiences, and Monetization.
 
 
-  Kevel''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, pricing, and 9 more developer resources.'
+  Kevel''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, pricing, and 12 more developer resources.'
 plans:
 - name: Kevel Plans Pricing
   plan_count: 3
@@ -243,17 +262,17 @@ rate_limits:
   slug: kevel-rate-limits
 score:
   band: thin
-  composite: 35.4
+  composite: 33.9
   coverage:
-    artifact_dirs: 14
-    catalog_earned: 41.0
+    artifact_dirs: 16
+    catalog_earned: 38.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 23.7
+    access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 46.5
     developer_ergonomics: 59.5
@@ -274,8 +293,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

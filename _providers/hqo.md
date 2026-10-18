@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.hqo.com/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/hqo/refs/heads/main/security/hqo-vulnerability-disclosure.yml
   title: ''
@@ -123,14 +127,14 @@ created: '2026-07-17'
 description: HqO is a Boston-based proptech company whose Real Estate Experience (REX) Platform helps commercial real estate owners, operators, and asset managers bridge the "experience gap" for the tenants and employees who occupy their buildings. The platform spans six integrated suites — Intelligence, Experience, Tenant, Operations, Leasing, and Vendor — covering AI-powered portfolio analytics, mobile tenant apps, amenity and space booking, access control, a cloud building management system, leasing engagement, and vendor management. HqO manages more than 150 million square feet of real estate for landlords such as JLL, Hines, Vornado, Gecina, and Alexandria Real Estate. Programmatic integration is available through APIs and SDKs offered under an Enterprise Development engagement rather than a self-serve public developer portal; the platform also supports SSO (SAML), webview, deep-link, and native integrations.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hqo.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: HqO
 nav: Providers
 network: true
 overview: 'HqO is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, PropTech, Commercial Real Estate, Workplace Experience, and Tenant Experience.
 
 
-  HqO''s developer surface includes support, documentation, engineering blog, signup flow, and 15 more developer resources.'
+  HqO''s developer surface includes support, documentation, engineering blog, signup flow, and 16 more developer resources.'
 random_paper: 20
 score:
   band: emerging
@@ -174,8 +178,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

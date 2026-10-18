@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://router-gateway-v3-production.up.railway.app
@@ -66,6 +66,10 @@ collections:
   name: Rift Router Orders Status API
   slug: open-rift-status-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.rift.trade/articles
 - group: company
   title: ''
   type: Website
@@ -159,31 +163,31 @@ created: '2026-07-17'
 description: Rift is a decentralized exchange (DEX) aggregator that routes swap orders across 20+ trading venues and cross-chain bridges to guarantee best-price execution with zero added fees. Its Router API (v3, currently in beta) lets developers request a best-price market quote for an asset swap, create a market order against that quote with an idempotency key, and check the online status of both the Rift service and each downstream execution provider (Across, CCTP, Hyperliquid, KyberSwap, and more). Rift is backed by Paradigm, WTG Ventures, Edge Capital, and 20+ angel investors.
 image: https://www.rift.trade/images/logos/rift_logo_new_glow.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Rift
 nav: Providers
 network: true
-overview: 'Rift publishes 3 APIs on the [APIs.io](https://apis.io/) network: Orders API, Quotes API, and Status API. Tagged areas include Company, Crypto Defi, DEX Aggregator, Cross-Chain, and Trading.
+overview: 'Rift publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Orders API, Quotes API, and Status API. Tagged areas include Company, Crypto Defi, DEX Aggregator, Cross-Chain, and Trading.
 
 
-  Rift''s developer surface includes documentation, API reference, getting-started guide, authentication, and 15 more developer resources.'
+  Rift''s developer surface includes engineering blog, documentation, API reference, getting-started guide, authentication, and 15 more developer resources.'
 random_paper: 19
 score:
   band: thin
-  composite: 28.3
+  composite: 28.8
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 0.0
     contract_governance: 4.5
     contract_quality: 46.3
-    developer_ergonomics: 51.8
+    developer_ergonomics: 54.2
     discoverability: 73.2
     operational_transparency: 0.0
   previous_composite: 28.3
@@ -202,8 +206,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 15.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

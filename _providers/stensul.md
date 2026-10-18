@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: Enterprise API for retrieving finalized Stensul email content and distributing it to any platform in a customer's ecosystem, removing the manual export step between Stensul and the downstream ESP/MAP.
@@ -165,7 +165,7 @@ modified: '2026-08-29'
 name: Stensul
 nav: Providers
 network: true
-overview: 'Stensul publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Email, Email Marketing, Marketing, and Marketing Automation.
+overview: 'Stensul is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Email, Email Marketing, Marketing, and Marketing Automation.
 
 
   Stensul''s developer surface includes documentation, support, engineering blog, pricing, authentication, and 15 more developer resources.'
@@ -213,8 +213,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 25.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

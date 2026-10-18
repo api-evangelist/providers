@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: http://<robot-ip>:9090/v1
@@ -168,7 +168,7 @@ modified: '2026-07-21'
 name: UBTech
 nav: Providers
 network: true
-overview: 'UBTech publishes 1 API on the [APIs.io](https://apis.io/) network: Subscriptions API. Tagged areas include Company, Robotics, Humanoid Robots, Education Technology, and Artificial Intelligence.
+overview: 'UBTech publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Subscriptions API. Tagged areas include Company, Robotics, Humanoid Robots, Education Technology, and Artificial Intelligence.
 
 
   The UBTech catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -217,8 +217,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 28.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

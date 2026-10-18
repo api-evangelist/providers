@@ -33,15 +33,15 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 141
+- acting_count: 138
   human_in_the_loop: 25
   name: Kisi Agentic Access
   operation_count: 227
   slug: kisi-agentic-access
-  summary_line: 227 operations · 141 acting · 25 human-in-the-loop
-api_count: 1
+  summary_line: 227 operations · 138 acting · 25 human-in-the-loop
+api_count: 2
 apis:
 - baseURL: https://api.kisi.io
   baseurl_source: declared
@@ -586,7 +586,7 @@ modified: '2026-07-20'
 name: KISI
 nav: Providers
 network: true
-overview: 'KISI publishes 48 APIs on the [APIs.io](https://apis.io/) network, including Calendars API, Cameras API, Card assignments API, and 45 more. Tagged areas include Company, Physical Access Control, Security, Identity, and IoT.
+overview: 'KISI publishes 48 API contracts indexed on the [APIs.io](https://apis.io/) network, including Calendars API, Cameras API, Card assignments API, and 45 more. Tagged areas include Company, Physical Access Control, Security, Identity, and IoT.
 
 
   KISI''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 25 more developer resources.'
@@ -611,7 +611,7 @@ score:
   band: strong
   composite: 54.8
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -642,8 +642,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

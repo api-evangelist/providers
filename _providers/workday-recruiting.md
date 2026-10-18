@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -180,6 +180,16 @@ collections:
   name: Workday Recruiting REST API
   slug: open-workday-recruiting-rest-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/workday-recruiting/refs/heads/main/plans/workday-recruiting-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/workday-recruiting-plans-pricing.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/workday-recruiting/refs/heads/main/finops/workday-recruiting-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/workday-recruiting-finops.yml
 - group: company
   title: ''
   type: Website
@@ -454,9 +464,13 @@ features:
 - description: Comprehensive SOAP web services with over 120 recruiting operations for deep enterprise integration.
   name: SOAP Web Services
 finops:
-- name: Workday Recruiting Finops
+- has_sources: false
+  method: generated
+  name: Workday Recruiting Finops
+  primary_unit: ''
   service_category: API
   slug: workday-recruiting-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/workday-recruiting.png
 integrations:
 - description: Native integration with Workday Human Capital Management for seamless transition from candidate to employee.
@@ -661,13 +675,13 @@ modified: '2026-09-16'
 name: Workday Recruiting
 nav: Providers
 network: true
-overview: 'Workday Recruiting publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Agent Definition API, Applicants API, Background Checks API, and 10 more. Tagged areas include HCM, Human Resources, Recruiting, Software-as-a-Service, and Talent Acquisition.
+overview: 'Workday Recruiting publishes 13 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agent Definition API, Applicants API, Background Checks API, and 10 more. Tagged areas include HCM, Human Resources, Recruiting, Software-as-a-Service, and Talent Acquisition.
 
 
   The Workday Recruiting catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Workday Recruiting''s developer surface includes authentication, developer portal, getting-started guide, documentation, developer console, engineering blog, support, and 29 more developer resources.'
+  Workday Recruiting''s developer surface includes authentication, developer portal, getting-started guide, documentation, developer console, engineering blog, support, and 31 more developer resources.'
 plans:
 - name: Workday Recruiting Plans Pricing
   plan_count: 3
@@ -678,9 +692,10 @@ rate_limits:
   name: Workday Recruiting Rate Limits
   slug: workday-recruiting-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Workday Recruiting API Rules
+  name: Workday Recruiting — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -688,7 +703,8 @@ rules:
     info: 2
     warn: 3
   slug: workday-recruiting-jsonschema-spectral-rules
-- effective_rule_count: 114
+- authorship: generated
+  effective_rule_count: 114
   extends:
   - spectral:oas
   name: Workday Recruiting API Rules
@@ -706,23 +722,23 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: developing
-  composite: 44.6
+  composite: 43.0
   coverage:
     artifact_dirs: 23
-    catalog_earned: 75.0
+    catalog_earned: 72.0
     catalog_earned_first_party: 0.0
     catalog_gap: 43.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: -1.6
   facets:
-    access_clarity: 57.9
+    access_clarity: 50.0
     contract_governance: 27.3
     contract_quality: 30.9
     developer_ergonomics: 46.4
     discoverability: 66.1
     operational_transparency: 28.9
-  previous_composite: 44.0
+  previous_composite: 44.6
   provenance:
     agentic_access: derived
     contracts:
@@ -736,8 +752,8 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 39.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

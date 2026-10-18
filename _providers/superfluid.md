@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Public GraphQL Subgraph API (served via The Graph) for querying Superfluid protocol state — streams/flows, distribution pools, accounts, SuperTokens, token statistics, and events — across supported EV
@@ -122,7 +122,7 @@ modified: '2026-07-21'
 name: Superfluid
 nav: Providers
 network: true
-overview: 'Superfluid publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto Web3, Blockchain, DeFi, and Payments.
+overview: 'Superfluid is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Web3, Blockchain, DeFi, and Payments.
 
 
   Superfluid''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, and 12 more developer resources.'
@@ -152,8 +152,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 12.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -168,7 +168,7 @@ security:
 slug: superfluid
 tags:
 - Company
-- Crypto Web3
+- Web3
 - Blockchain
 - DeFi
 - Payments
@@ -176,7 +176,6 @@ tags:
 - Ethereum
 - GraphQL
 - Smart Contracts
-- Web3
 - Cryptocurrency
 website: https://www.superfluid.org
 ---

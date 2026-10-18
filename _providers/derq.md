@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://en.derq.com/blog?format=rss
 - group: company
   title: ''
   type: Website
@@ -69,14 +73,14 @@ created: '2026-07-17'
 description: Derq is an MIT spinoff (founded 2016, with operations in Dubai and Detroit) building AI-powered intelligent transportation systems that help cities, departments of transportation, and infrastructure operators prevent crashes and improve traffic flow. Its hardware-agnostic platform ingests data from video cameras, radar, LiDAR, signal controllers, and connected/V2X infrastructure, then runs real-time edge computer vision and machine learning to detect, track, and predict the movement of vehicles, pedestrians, and cyclists. Derq surfaces safety and traffic intelligence — crashes, near misses, violations, conflicts, counts, and ATSPMs — through its dashboard and via APIs to third-party systems. Flagship products include Derq SENSE (real-time traffic detection and V2X perception) and Derq INSIGHT (road safety and traffic management analytics).
 image: https://static1.squarespace.com/static/587b7fc9a5790ab82b96b1eb/t/587b84959f745611b9fd789c/1484489879754/light-blue---dark-blue.png?format=1500w
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Derq
 nav: Providers
 network: true
 overview: 'Derq is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Intelligent Transportation, Road Safety, Traffic Analytics, and Computer Vision.
 
 
-  Derq''s developer surface includes engineering blog, support, YouTube channel, and 4 more developer resources.'
+  Derq''s developer surface includes engineering blog, support, YouTube channel, and 5 more developer resources.'
 random_paper: 10
 score:
   band: minimal
@@ -103,8 +107,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 9.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

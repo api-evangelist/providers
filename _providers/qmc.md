@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.qmctelecom.com/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/qmc/refs/heads/main/security/qmc-domain-security.yml
   title: ''
@@ -65,20 +69,20 @@ created: '2026-07-17'
 description: QMC Telecom is a provider of shared telecommunications infrastructure for mobile networks, operating across Brazil, Mexico, Colombia, Peru, and Chile. The company develops, owns, operates, and leases indoor connectivity solutions, street-level solutions (SLS), and towers, rooftops, and special sites, positioning itself as a partner in 5G network densification. Originally surfaced as a portfolio company of Accel and added to the API Evangelist network as a stub, this is a hardware and telecommunications-infrastructure company that publishes no public developer or API surface.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/qmc.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: QMC
 nav: Providers
 network: true
 overview: 'QMC is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Hardware, Telecommunications, Infrastructure, and Mobile Network.
 
 
-  QMC''s developer surface includes support and 5 more developer resources.'
+  QMC''s developer surface includes support and 6 more developer resources.'
 random_paper: 13
 score:
   band: minimal
   composite: 6.1
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -104,8 +108,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 8.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

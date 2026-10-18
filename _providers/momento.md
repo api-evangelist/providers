@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Region-scoped HTTP API for reading, writing, and deleting cache items in a Momento cache without a gRPC client. Supports GET, PUT (set with TTL), and DELETE against a named cache, authenticated with a
@@ -46,6 +46,14 @@ asyncapis:
   name: Momento Webhooks
   slug: momento-webhooks
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.gomomento.com/blog/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.gomomento.com/feed
 - group: company
   title: ''
   type: Website
@@ -173,21 +181,21 @@ created: '2026-07-17'
 description: Momento is a serverless data platform that provides low-latency, pay-as-you-go infrastructure without servers to provision, tune, or scale. Its core services are Momento Cache (an ephemeral serverless cache and drop-in Redis replacement), Momento Topics (a serverless publish/subscribe event bus), and Momento Leaderboards (massive, durable sorted sets). The platform is accessed over gRPC and a region-scoped HTTP API, with official SDKs for 15+ languages spanning browsers, mobile (iOS/Android/Flutter/Unity/Unreal), and 10+ server-side runtimes, plus a CLI and a Terraform provider. Authentication uses Momento API keys and short-lived disposable tokens with fine-grained permissions. Momento is backed by Bain Capital Ventures.
 image: https://github.com/momentohq.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Momento
 nav: Providers
 network: true
-overview: 'Momento publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI Infrastructure, Caching, Serverless, and Cache.
+overview: 'Momento is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI Infrastructure, Caching, Serverless, and Cache.
 
 
   The Momento catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Momento''s developer surface includes documentation, API reference, getting-started guide, CLI, authentication, engineering blog, pricing, and 20 more developer resources.'
+  Momento''s developer surface includes engineering blog, documentation, API reference, getting-started guide, CLI, authentication, pricing, and 22 more developer resources.'
 random_paper: 19
 score:
   band: developing
-  composite: 40.8
+  composite: 40.9
   coverage:
     artifact_dirs: 18
     catalog_earned: 37.0
@@ -195,7 +203,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 31.6
     contract_governance: 4.5
@@ -214,8 +222,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -238,7 +246,7 @@ tags:
 - Caching
 - Serverless
 - Cache
-- Pub-Sub
+- Pub/Sub
 - Messaging
 - Event Bus
 - Leaderboards

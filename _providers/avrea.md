@@ -34,10 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://avrea.com/blog/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/avrea/refs/heads/main/security/avrea-domain-security.yml
   title: ''
@@ -146,14 +150,14 @@ created: '2026-07-17'
 description: 'Avrea is CI/CD infrastructure for GitHub Actions: high-performance managed runners (AMD EPYC and Apple M-series), smart multi-system caching, and full build observability with flaky-test detection and live SSH debugging into running jobs. A one-line change to a GitHub Actions workflow migrates jobs onto Avrea''s runners across Linux, macOS, and Windows, with isolated per-job VMs, encrypted caching, and SOC 2 Type II, ISO 27001, and GDPR compliance. The platform is operated through the web console at console.avrea.com and the avr command-line client, and is backed by earlybird.'
 image: https://cdn.prod.website-files.com/69a56a230e454c0d5521fb42/6a06fe2a6b17351ed77a83f6_8f394a43deca8d5b2b86e31d993164bd_Avrea_OpenGraph.jpg
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Avrea
 nav: Providers
 network: true
 overview: 'Avrea is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, CI/CD, Continuous Integration, GitHub Actions, and Build Infrastructure.
 
 
-  Avrea''s developer surface includes documentation, getting-started guide, developer console, pricing, engineering blog, signup flow, support, and 17 more developer resources.'
+  Avrea''s developer surface includes documentation, getting-started guide, developer console, pricing, engineering blog, signup flow, support, and 18 more developer resources.'
 random_paper: 21
 score:
   band: thin
@@ -186,8 +190,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

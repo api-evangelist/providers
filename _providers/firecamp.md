@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Firecamp is an open-source API development platform for designing, testing, and documenting REST, GraphQL, and WebSocket APIs. The product itself does not publish a consumer-facing HTTP API; it is a d
@@ -41,6 +41,21 @@ apis:
   slug: firecamp
 artifact_total: 5
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/firecamp/refs/heads/main/plans/firecamp-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/firecamp-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/firecamp/refs/heads/main/rate-limits/firecamp-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/firecamp-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/firecamp/refs/heads/main/finops/firecamp-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/firecamp-finops.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -141,19 +156,23 @@ common:
 created: '2026-03-27'
 description: Firecamp is an open-source API development platform for designing, testing, and documenting REST, GraphQL, and WebSocket APIs. It provides multi-protocol playgrounds (REST, GraphQL, WebSocket, SocketIO), team collaboration in shared workspaces, API collection management, a test runner, and CLI/CI-CD integration. Firecamp does not expose a public consumer API; it is a tooling product for working with other APIs.
 finops:
-- name: Firecamp Finops
+- has_sources: false
+  method: generated
+  name: Firecamp Finops
+  primary_unit: ''
   service_category: API
   slug: firecamp-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/firecamp.png
 layout: provider
 modified: '2026-09-13'
 name: Firecamp
 nav: Providers
 network: true
-overview: 'Firecamp publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include API Client, Clients, GraphQL, GUI, and REST.
+overview: 'Firecamp is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include API Client, Clients, GraphQL, GUI, and REST.
 
 
-  Firecamp''s developer surface includes documentation, pricing, engineering blog, changelog, support, and 18 more developer resources.'
+  Firecamp''s developer surface includes documentation, pricing, engineering blog, changelog, support, and 21 more developer resources.'
 plans:
 - name: Firecamp Plans Pricing
   plan_count: 3
@@ -165,17 +184,17 @@ rate_limits:
   slug: firecamp-rate-limits
 score:
   band: thin
-  composite: 31.1
+  composite: 29.8
   coverage:
     artifact_dirs: 13
-    catalog_earned: 47.0
+    catalog_earned: 44.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 68.0
+    catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.3
   facets:
-    access_clarity: 77.6
+    access_clarity: 69.7
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 28.6
@@ -191,8 +210,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

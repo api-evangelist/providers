@@ -23,10 +23,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.accuvein.com/news/feed/
 - group: company
   title: ''
   type: Website
@@ -85,20 +89,20 @@ created: '2026-09-06'
 description: 'AccuVein, Inc. is a Medford, New York medical device manufacturer that builds handheld, near-infrared (NIR) vein visualization systems used by clinicians for peripheral vascular access. Its AV500 and AV600 devices project a real-time green image of superficial vasculature onto the surface of the skin, letting nurses and phlebotomists see veins, valves and bifurcations that are not visible to the naked eye before a needle stick. The company sells into acute care, non-acute care and aesthetics, and supports the product line with published instructions for use, product manuals, troubleshooting guidance and a knowledge center. AccuVein is a hardware business: as of this profile it publishes no developer program, no public API, no SDK and no machine-readable API description.'
 image: https://www.accuvein.com/wp-content/uploads/2022/05/AccuVein-Two-Color-Logo-954x160.png
 layout: provider
-modified: '2026-09-06'
+modified: '2026-10-06'
 name: AccuVein
 nav: Providers
 network: true
 overview: 'AccuVein is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, Healthcare, Vein Visualization, and Vascular Access.
 
 
-  AccuVein''s developer surface includes support, engineering blog, and 6 more developer resources.'
+  AccuVein''s developer surface includes support, engineering blog, and 7 more developer resources.'
 random_paper: 10
 score:
   band: emerging
   composite: 11.0
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 7
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -119,13 +123,14 @@ score:
     regime: Health
     regime_id: health
     score: 10.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/accuvein/refs/heads/main/screenshots/accuvein-2026-10-11T092605.png
 security:
 - kind: domain-security
   name: Accuvein Domain Security

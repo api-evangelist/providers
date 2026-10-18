@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.6
-  scored_at: '2026-10-04'
+  score: 28.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -181,9 +181,13 @@ examples:
   name: Token Price Response
   slug: token-price-response
 finops:
-- name: Finops
+- has_sources: false
+  method: generated
+  name: Finops
+  primary_unit: ''
   service_category: ''
   slug: finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/transpose.png
 json_schemas:
 - name: NFT Transfer
@@ -208,7 +212,7 @@ modified: '2026-09-16'
 name: Transpose
 nav: Providers
 network: true
-overview: 'Transpose publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Block API, ENS API, NFT API, and 3 more. Tagged areas include Blockchain, NFT, Cryptocurrency, Web3, and Ethereum.
+overview: 'Transpose publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Block API, ENS API, NFT API, and 3 more. Tagged areas include Blockchain, NFT, Cryptocurrency, Web3, and Ethereum.
 
 
   The Transpose catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -225,9 +229,10 @@ rate_limits:
   name: Rate Limits
   slug: rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Transpose API Rules
+  name: Transpose — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -236,23 +241,23 @@ rules:
     warn: 4
   slug: transpose-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 41.3
+  band: thin
+  composite: 34.2
   coverage:
     artifact_dirs: 15
-    catalog_earned: 66.3
+    catalog_earned: 50.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 48.7
+    catalog_gap: 64.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.1
   facets:
-    access_clarity: 32.1
+    access_clarity: 10.5
     contract_governance: 9.8
     contract_quality: 57.0
     developer_ergonomics: 44.0
     discoverability: 66.1
-    operational_transparency: 28.4
+    operational_transparency: 7.9
   previous_composite: 41.3
   provenance:
     agentic_access: derived
@@ -263,13 +268,13 @@ score:
       total: 6
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
-    score: 22.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+    matched_via: tags
+    regime: Securities & Market Data
+    regime_id: securities_market_data
+    score: 26.9
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0
@@ -286,7 +291,7 @@ security:
 - kind: vulnerability-disclosure
   name: Transpose Vulnerability Disclosure
   slug: transpose-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 slug: transpose
 tags:
 - Blockchain
@@ -298,6 +303,6 @@ tags:
 - Smart Contracts
 - Historical Data
 - DeFi
-- DEX
+- Decentralized Exchange
 website: https://transpose.io
 ---

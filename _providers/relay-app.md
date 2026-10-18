@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: verified
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.1
-  scored_at: '2026-10-04'
+  score: 28.3
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -78,6 +78,21 @@ collections:
   name: Relay App Automation API
   slug: open-relay-app
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/relay-app/refs/heads/main/plans/relay-app-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/relay-app-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/relay-app/refs/heads/main/rate-limits/relay-app-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/relay-app-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/relay-app/refs/heads/main/finops/relay-app-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/relay-app-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/relay-app/refs/heads/main/agentic-access/relay-app-agentic-access.yml
   title: ''
@@ -135,9 +150,13 @@ examples:
   name: Relay App Trigger Webhook Example
   slug: relay-app-trigger-webhook-example
 finops:
-- name: Relay App Finops
+- has_sources: false
+  method: generated
+  name: Relay App Finops
+  primary_unit: ''
   service_category: API
   slug: relay-app-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/relay-app.png
 json_schemas:
 - name: Relay App Workflow Run
@@ -164,13 +183,13 @@ modified: '2026-05-19'
 name: Relay App
 nav: Providers
 network: true
-overview: 'Relay App publishes 3 APIs on the [APIs.io](https://apis.io/) network: Runs API, Webhooks API, and Workflows API. Tagged areas include Automation, Workflows, Integration, No-Code, and Artificial Intelligence.
+overview: 'Relay App publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Runs API, Webhooks API, and Workflows API. Tagged areas include Automation, Workflows, Integration, No-Code, and Artificial Intelligence.
 
 
   The Relay App catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Relay App''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
+  Relay App''s developer surface includes authentication, documentation, engineering blog, and 11 more developer resources.'
 plans:
 - name: Relay App Plans Pricing
   plan_count: 3
@@ -181,9 +200,10 @@ rate_limits:
   name: Relay App Rate Limits
   slug: relay-app-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Relay App API Rules
+  name: Relay App — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -191,7 +211,8 @@ rules:
     info: 2
     warn: 3
   slug: relay-app-jsonschema-spectral-rules
-- effective_rule_count: 51
+- authorship: unmarked
+  effective_rule_count: 51
   extends:
   - spectral:oas
   name: Relay App API Rules
@@ -204,17 +225,17 @@ rules:
   slug: relay-app-rules
 score:
   band: thin
-  composite: 33.5
+  composite: 32.0
   coverage:
     artifact_dirs: 19
-    catalog_earned: 72.0
+    catalog_earned: 69.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 43.0
+    catalog_gap: 46.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 27.3
     contract_quality: 59.9
     developer_ergonomics: 21.4
@@ -235,8 +256,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

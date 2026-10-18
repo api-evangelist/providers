@@ -23,10 +23,20 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 4.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 4
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/activeon8016/refs/heads/main/plans/activeon8016-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/activeon8016-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/activeon8016/refs/heads/main/rate-limits/activeon8016-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/activeon8016-rate-limits.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/activeon8016/refs/heads/main/security/activeon8016-domain-security.yml
   title: ''
@@ -74,7 +84,7 @@ network: true
 overview: 'ACTIVON Co., Ltd. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cosmetics, Chemicals, Ingredients, and Materials.
 
 
-  ACTIVON Co., Ltd.''s developer surface includes engineering blog and 6 more developer resources.'
+  ACTIVON Co., Ltd.''s developer surface includes engineering blog and 8 more developer resources.'
 plans:
 - name: Activeon8016 Plans Pricing
   plan_count: 0
@@ -88,7 +98,7 @@ score:
   band: minimal
   composite: 7.8
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 11
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -119,13 +129,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/activeon8016/refs/heads/main/screenshots/activeon8016-2026-10-11T092720.png
 security:
 - kind: domain-security
   name: Activeon8016 Domain Security

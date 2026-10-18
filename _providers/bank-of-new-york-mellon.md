@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.4
-  scored_at: '2026-10-04'
+  score: 26.5
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -94,6 +94,21 @@ collections:
   name: BNY Mellon Treasury Services API
   slug: open-bny-mellon-treasury-services-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/bank-of-new-york-mellon/refs/heads/main/plans/bank-of-new-york-mellon-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/bank-of-new-york-mellon-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/bank-of-new-york-mellon/refs/heads/main/rate-limits/bank-of-new-york-mellon-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/bank-of-new-york-mellon-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/bank-of-new-york-mellon/refs/heads/main/finops/bank-of-new-york-mellon-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/bank-of-new-york-mellon-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/bank-of-new-york-mellon/refs/heads/main/capabilities/bank-of-new-york-mellon-capability-edges.yml
   title: ''
@@ -219,9 +234,13 @@ features:
 - description: Support for payments and balances across multiple currencies.
   name: Multi-Currency
 finops:
-- name: Bank Of New York Mellon Finops
+- has_sources: false
+  method: generated
+  name: Bank Of New York Mellon Finops
+  primary_unit: ''
   service_category: API
   slug: bank-of-new-york-mellon-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bank-of-new-york-mellon.png
 integrations:
 - name: SAP
@@ -315,13 +334,13 @@ modified: '2026-05-19'
 name: BNY Mellon
 nav: Providers
 network: true
-overview: 'BNY Mellon publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Balances API, Funds Transfers API, and 2 more. Tagged areas include Asset Servicing, Banking, Institutional Banking, Payments, and Treasury.
+overview: 'BNY Mellon publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, Balances API, Funds Transfers API, and 2 more. Tagged areas include Asset Servicing, Banking, Institutional Banking, Payments, and Treasury.
 
 
   The BNY Mellon catalog on APIs.io includes 1 JSON-LD context and 3 Spectral governance rulesets.
 
 
-  BNY Mellon''s developer surface includes authentication, engineering blog, documentation, and 12 more developer resources.'
+  BNY Mellon''s developer surface includes authentication, engineering blog, documentation, and 15 more developer resources.'
 plans:
 - name: Bank Of New York Mellon Plans Pricing
   plan_count: 3
@@ -348,9 +367,10 @@ rate_limits:
   name: Bank Of New York Mellon Rate Limits
   slug: bank-of-new-york-mellon-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: BNY Mellon API Rules
+  name: BNY Mellon — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -358,7 +378,8 @@ rules:
     info: 2
     warn: 3
   slug: bank-of-new-york-mellon-jsonschema-spectral-rules
-- effective_rule_count: 52
+- authorship: generated
+  effective_rule_count: 52
   extends:
   - spectral:oas
   name: BNY Mellon API Rules
@@ -369,9 +390,10 @@ rules:
     info: 1
     warn: 9
   slug: bank-of-new-york-mellon-spectral-rules
-- effective_rule_count: 16
+- authorship: unmarked
+  effective_rule_count: 16
   extends: []
-  name: BNY Mellon API Rules
+  name: BNY Mellon — bny mellon rules
   rule_count: 16
   severity_counts:
     error: 10
@@ -386,17 +408,17 @@ scopes:
   summary_line: 5 scopes · clientCredentials
 score:
   band: thin
-  composite: 33.0
+  composite: 31.5
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 63.0
+    artifact_dirs: 22
+    catalog_earned: 60.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 52.0
+    catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 27.3
     contract_quality: 52.6
     developer_ergonomics: 23.8
@@ -416,8 +438,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 29.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

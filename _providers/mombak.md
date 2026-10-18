@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://mombak.com/feed/
 - group: company
   title: ''
   type: Website
@@ -61,20 +65,20 @@ created: '2026-07-17'
 description: Mombak is a Brazilian nature-based carbon removal company that acquires degraded and deforested land in the Amazon and restores it through large-scale, biodiverse reforestation with native species, generating high-integrity, high-quality carbon removal credits for corporate buyers. Founded by former Nubank executives and backed by investors including Union Square Ventures, the company combines science, technology, forestry, and carbon-market expertise to remove carbon at scale while restoring native ecosystems. Mombak operates as a corporate and carbon-markets business and publishes a public marketing and news presence; it does not currently expose a public developer API, SDK, or API documentation. This profile was surfaced as a portfolio company of Union Square Ventures and enriched by the API Evangelist pipeline.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mombak.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Mombak
 nav: Providers
 network: true
 overview: 'Mombak is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Carbon Removal, Climate, Reforestation, and Carbon Credits.
 
 
-  Mombak''s developer surface includes engineering blog, support, and 3 more developer resources.'
+  Mombak''s developer surface includes engineering blog, support, and 4 more developer resources.'
 random_paper: 15
 score:
   band: minimal
   composite: 7.5
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -102,13 +106,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 9.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/mombak/refs/heads/main/screenshots/mombak-2026-10-11T191437.png
 security:
 - kind: domain-security
   name: Mombak Domain Security

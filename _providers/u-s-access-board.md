@@ -27,16 +27,31 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 20
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/u-s-access-board/refs/heads/main/plans/u-s-access-board-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/u-s-access-board-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/u-s-access-board/refs/heads/main/rate-limits/u-s-access-board-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/u-s-access-board-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/u-s-access-board/refs/heads/main/finops/u-s-access-board-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/u-s-access-board-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/u-s-access-board/refs/heads/main/security/u-s-access-board-domain-security.yml
   title: ''
@@ -94,9 +109,13 @@ features:
 - description: Comprehensive guidance documents, animations, and technical aids explaining how to apply accessibility standards in practice.
   name: Guidance Documents
 finops:
-- name: U S Access Board Finops
+- has_sources: false
+  method: generated
+  name: U S Access Board Finops
+  primary_unit: ''
   service_category: API
   slug: u-s-access-board-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/u-s-access-board.png
 integrations:
 - description: GSA-administered government-wide IT accessibility program that implements Section 508 Standards and provides guidance and tools for federal agencies.
@@ -123,7 +142,7 @@ overview: 'U.S. Access Board is profiled on the [APIs.io](https://apis.io/) netw
   The U.S. Access Board catalog on APIs.io includes 1 JSON-LD context.
 
 
-  U.S. Access Board''s developer surface includes getting-started guide, engineering blog, and 8 more developer resources.'
+  U.S. Access Board''s developer surface includes getting-started guide, engineering blog, and 11 more developer resources.'
 plans:
 - name: U S Access Board Plans Pricing
   plan_count: 3
@@ -135,17 +154,17 @@ rate_limits:
   slug: u-s-access-board-rate-limits
 score:
   band: emerging
-  composite: 19.9
+  composite: 18.2
   coverage:
     artifact_dirs: 9
-    catalog_earned: 51.5
+    catalog_earned: 48.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 63.5
+    catalog_gap: 66.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.7
   facets:
-    access_clarity: 26.3
+    access_clarity: 18.4
     contract_governance: 13.6
     contract_quality: 14.7
     developer_ergonomics: 14.3
@@ -163,8 +182,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 14.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

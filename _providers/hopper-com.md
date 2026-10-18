@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -211,7 +211,7 @@ modified: '2026-05-25'
 name: Hopper
 nav: Providers
 network: true
-overview: 'Hopper publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Authentication API, Cancel For Any Reason (CFAR) API, and 9 more. Tagged areas include Travel, Travel Fintech, Price Prediction, Cancel For Any Reason, and Disruption Guarantee.
+overview: 'Hopper publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Analytics API, Authentication API, and Cancel For Any Reason (CFAR) API. Tagged areas include Travel, Travel Fintech, Price Prediction, Cancel For Any Reason, and Disruption Guarantee.
 
 
   Hopper''s developer surface includes authentication, GitHub presence, engineering blog, and 18 more developer resources.'
@@ -220,7 +220,7 @@ score:
   band: thin
   composite: 28.5
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -255,8 +255,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

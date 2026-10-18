@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Version 1 of the HockeyStack Revenue Agents API. Attaches AI agents to companies and deals from the connected CRM, holds conversations with those agents, manages the tasks they generate, and reads the
@@ -206,7 +206,7 @@ modified: '2026-08-13'
 name: HockeyStack
 nav: Providers
 network: true
-overview: 'HockeyStack publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data, Marketing Analytics, Attribution, and Revenue Intelligence.
+overview: 'HockeyStack is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data, Marketing Analytics, Attribution, and Revenue Intelligence.
 
 
   The HockeyStack catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -255,8 +255,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

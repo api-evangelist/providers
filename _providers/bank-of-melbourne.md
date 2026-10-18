@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 3
+- acting_count: 0
   human_in_the_loop: 0
   name: Bank Of Melbourne Agentic Access
   operation_count: 19
   slug: bank-of-melbourne-agentic-access
-  summary_line: 19 operations · 3 acting
+  summary_line: 19 operations
 api_count: 5
 apis:
 - baseURL: https://digital-api.bankofmelbourne.com.au/cds-au/v1/banking/products
@@ -172,7 +172,7 @@ modified: '2026-07-21'
 name: Bank of Melbourne
 nav: Providers
 network: true
-overview: 'Bank of Melbourne publishes 5 APIs on the [APIs.io](https://apis.io/) network, including CDR Product Reference Data API, CDR Accounts & Balances API, CDR Transactions API, and 2 more. Tagged areas include Finance, Banks, Open Banking, CDR, and Consumer Banking.
+overview: 'Bank of Melbourne is listed with 5 APIs on the [APIs.io](https://apis.io/) network, including CDR Product Reference Data API, CDR Accounts & Balances API, CDR Transactions API, and 2 more. Tagged areas include Finance, Banks, Open Banking, CDR, and Consumer Banking.
 
 
   Bank of Melbourne''s developer surface includes documentation, authentication, and 17 more developer resources.'
@@ -181,7 +181,7 @@ score:
   band: thin
   composite: 27.8
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -214,8 +214,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 29.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -233,7 +233,7 @@ security:
 - kind: vulnerability-disclosure
   name: Bank Of Melbourne Vulnerability Disclosure
   slug: bank-of-melbourne-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 slug: bank-of-melbourne
 tags:
 - Finance

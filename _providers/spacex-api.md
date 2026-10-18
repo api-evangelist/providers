@@ -27,20 +27,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.3
-  scored_at: '2026-10-04'
+  score: 15.4
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 1
+- acting_count: 0
   human_in_the_loop: 0
   name: Spacex Api Agentic Access
   operation_count: 26
   slug: spacex-api-agentic-access
-  summary_line: 26 operations · 1 acting
+  summary_line: 26 operations
 api_count: 1
 apis:
 - baseURL: https://api.spacexdata.com/v5
@@ -140,6 +140,25 @@ collections:
   name: SpaceX API
   slug: open-spacex-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/spacex-api/refs/heads/main/plans/spacex-api-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/spacex-api-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/spacex-api/refs/heads/main/rate-limits/spacex-api-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/spacex-api-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/spacex-api/refs/heads/main/finops/spacex-api-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/spacex-api-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.spacex.com/blog/
 - group: operate
   title: ''
   type: IssueTracker
@@ -190,9 +209,13 @@ examples:
   name: Spacex Api List Launches Example
   slug: spacex-api-list-launches-example
 finops:
-- name: Spacex Api Finops
+- has_sources: false
+  method: generated
+  name: Spacex Api Finops
+  primary_unit: ''
   service_category: API
   slug: spacex-api-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/spacex-api.png
 json_schemas:
 - name: SpaceX Launch
@@ -208,17 +231,17 @@ jsonld:
   property_count: 15
   slug: spacex-api-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-10-06'
 name: SpaceX API
 nav: Providers
 network: true
-overview: 'SpaceX API publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Capsules API, Cores API, Crew API, and 8 more. Tagged areas include Space, Aerospace, Launches, and SpaceX.
+overview: 'SpaceX API publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Capsules API, Cores API, Crew API, and 8 more. Tagged areas include Space, Aerospace, Launches, and SpaceX.
 
 
   The SpaceX API catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  SpaceX API''s developer surface includes GitHub presence, documentation, and 8 more developer resources.'
+  SpaceX API''s developer surface includes engineering blog, GitHub presence, documentation, and 11 more developer resources.'
 plans:
 - name: Spacex Api Plans Pricing
   plan_count: 3
@@ -229,9 +252,10 @@ rate_limits:
   name: Spacex Api Rate Limits
   slug: spacex-api-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: SpaceX API API Rules
+  name: SpaceX API — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -239,7 +263,8 @@ rules:
     info: 1
     warn: 4
   slug: spacex-api-jsonschema-spectral-rules
-- effective_rule_count: 8
+- authorship: unmarked
+  effective_rule_count: 8
   extends: []
   name: SpaceX API API Rules
   rule_count: 8
@@ -251,20 +276,20 @@ rules:
   slug: spacex-api-rules
 score:
   band: thin
-  composite: 28.9
+  composite: 28.0
   coverage:
-    artifact_dirs: 15
-    catalog_earned: 65.2
+    artifact_dirs: 16
+    catalog_earned: 62.2
     catalog_earned_first_party: 0.0
-    catalog_gap: 49.9
+    catalog_gap: 52.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.9
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 23.5
     contract_quality: 55.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 57.1
     operational_transparency: 28.9
   open_source:
@@ -284,8 +309,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

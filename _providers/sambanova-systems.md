@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 21
   slug: sambanova-systems-agentic-access
   summary_line: 21 operations · 18 acting
-api_count: 2
+api_count: 4
 apis:
 - baseURL: https://api.sambanova.ai/v1
   baseurl_source: declared
@@ -105,7 +105,7 @@ apis:
   description: The Subagents Interactive API from SambaNova Systems — 4 operation(s) for subagents interactive.
   name: SambaNova Systems Subagents Interactive API
   slug: sambanova-systems-subagents-interactive-api
-artifact_total: 30
+artifact_total: 31
 collections:
 - collection_type: open
   name: API Collection
@@ -147,6 +147,15 @@ collections:
   name: Sambanova Agents Service Audio Subagents Interactive API
   slug: open-sambanova-systems-subagents-interactive-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sambanova-systems/refs/heads/main/plans/sambanova-systems-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/sambanova-systems-plans-pricing.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://sambanova.ai/blog/rss.xml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/sambanova-systems/refs/heads/main/capabilities/sambanova-systems-capability-edges.yml
   title: ''
@@ -323,36 +332,40 @@ created: '2026-07-17'
 description: SambaNova Systems is an AI infrastructure company that builds custom Reconfigurable Dataflow Unit (RDU) chips and the SambaCloud, SambaStack, and SambaRack platforms for fast, energy-efficient AI inference. Its developer-facing product, SambaNova Cloud, exposes an OpenAI- and Anthropic-compatible inference API (chat completions, completions, the Responses API, the Messages API, embeddings, and audio transcription/translation) serving open models such as Meta Llama, DeepSeek, MiniMax, gpt-oss, Gemma, and Mistral. A companion Agents Service provides coordinated coding, data-science, deep-research, and financial-analysis agents. Official Python and TypeScript SDKs, tiered rate limits, prompt caching, and dozens of framework integrations round out the platform.
 image: https://github.com/sambanova.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: SambaNova Systems
 nav: Providers
 network: true
-overview: 'SambaNova Systems publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Audio API, Chat completions API, Completions API, and 9 more. Tagged areas include Company, Artificial Intelligence, Machine Learning, LLM, and Inference.
+overview: 'SambaNova Systems publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including Audio API, Chat completions API, Completions API, and 9 more. Tagged areas include Company, Artificial Intelligence, Machine Learning, LLM, and Inference.
 
 
-  SambaNova Systems'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 31 more developer resources.'
+  SambaNova Systems'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 33 more developer resources.'
+plans:
+- name: Sambanova Systems Plans Pricing
+  plan_count: 13
+  slug: sambanova-systems-plans-pricing
 random_paper: 7
 rate_limits:
 - limit_count: 11
   name: Sambanova Systems Rate Limits
   slug: sambanova-systems-rate-limits
 score:
-  band: developing
-  composite: 52.7
+  band: strong
+  composite: 59.3
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 49.0
-    catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    artifact_dirs: 24
+    catalog_earned: 64.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.6
   facets:
-    access_clarity: 52.6
+    access_clarity: 84.2
     contract_governance: 4.5
     contract_quality: 49.7
     developer_ergonomics: 56.5
-    discoverability: 73.2
+    discoverability: 78.6
     operational_transparency: 73.7
   previous_composite: 52.7
   provenance:
@@ -367,13 +380,13 @@ score:
     skills: derived
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 27.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

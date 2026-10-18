@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 64
   slug: band-ai-agentic-access
   summary_line: 64 operations · 36 acting
-api_count: 1
+api_count: 2
 apis:
 - baseURL: https://app.band.ai
   baseurl_source: declared
@@ -139,7 +139,7 @@ apis:
   description: The humanApiProfile API from Band AI — 1 operation(s) for humanapiprofile.
   name: Band AI Human API Profile API
   slug: band-ai-humanapiprofile-api
-artifact_total: 44
+artifact_total: 45
 asyncapis:
 - description: ''
   name: Band Ai Websocket Events
@@ -206,6 +206,11 @@ collections:
   name: Request agentApiActivity humanApiProfile API
   slug: open-band-ai-humanapiprofile-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/band-ai/refs/heads/main/plans/band-ai-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/band-ai-plans-pricing.yml
 - group: company
   title: ''
   type: Website
@@ -354,27 +359,31 @@ modified: '2026-07-18'
 name: Band AI
 nav: Providers
 network: true
-overview: 'Band AI publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Agent API Activity API, Agent API Chats API, Agent API Chat Tasks API, and 16 more. Tagged areas include Company, Artificial Intelligence, AI Agents, Multi-Agent, and Agent Infrastructure.
+overview: 'Band AI publishes 19 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agent API Activity API, Agent API Chats API, Agent API Chat Tasks API, and 16 more. Tagged areas include Company, Artificial Intelligence, AI Agents, Multi-Agent, and Agent Infrastructure.
 
 
   The Band AI catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Band AI''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 23 more developer resources.'
+  Band AI''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 24 more developer resources.'
+plans:
+- name: Band Ai Plans Pricing
+  plan_count: 3
+  slug: band-ai-plans-pricing
 random_paper: 14
 score:
-  band: developing
-  composite: 51.5
+  band: strong
+  composite: 57.9
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 22
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.4
   facets:
-    access_clarity: 44.7
+    access_clarity: 76.3
     contract_governance: 4.5
     contract_quality: 56.4
     developer_ergonomics: 73.2
@@ -397,9 +406,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: true
     score: 11.1

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The University of Toronto's Shibboleth identity provider, entityID https://idpz.utorauth.utoronto.ca/shibboleth, serving signed SAML 2.0 metadata from the University's own utorauth.utoronto.ca host. R
@@ -60,6 +60,10 @@ apis:
   slug: university-of-toronto-reference-data-api
 artifact_total: 26
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.utoronto.ca/rss.xml
 - group: company
   title: ''
   type: Website
@@ -223,9 +227,13 @@ examples:
   name: Ttb Reference Data Response
   slug: ttb-reference-data-response
 finops:
-- name: University Of Toronto Finops
+- has_sources: true
+  method: generated
+  name: University Of Toronto Finops
+  primary_unit: ''
   service_category: Education
   slug: university-of-toronto-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/university-of-toronto.png
 json_schemas:
 - name: University of Toronto Timetable Builder — Course Search Request
@@ -250,17 +258,17 @@ jsonld:
   property_count: 8
   slug: university-of-toronto-timetable-context
 layout: provider
-modified: '2026-08-19'
+modified: '2026-10-06'
 name: University of Toronto
 nav: Providers
 network: true
-overview: 'University of Toronto publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Courses API, Reference Data API, and 4 more. Tagged areas include University, Higher Education, Education, Canada, and U15.
+overview: 'University of Toronto publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Courses API, Reference Data API, and 4 more. Tagged areas include University, Higher Education, Education, Canada, and U15.
 
 
   The University of Toronto catalog on APIs.io includes 2 JSON-LD contexts and 1 Spectral governance ruleset.
 
 
-  University of Toronto''s developer surface includes documentation, status page, engineering blog, support, code examples, and 26 more developer resources.'
+  University of Toronto''s developer surface includes documentation, status page, engineering blog, support, code examples, and 27 more developer resources.'
 plans:
 - name: University Of Toronto Plans Pricing
   plan_count: 2
@@ -271,7 +279,8 @@ rate_limits:
   name: University Of Toronto Rate Limits
   slug: university-of-toronto-rate-limits
 rules:
-- effective_rule_count: 1
+- authorship: derived
+  effective_rule_count: 1
   extends: []
   name: University of Toronto API Rules
   rule_count: 1
@@ -288,17 +297,17 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 31.5
+  composite: 30.0
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 62.8
+    artifact_dirs: 19
+    catalog_earned: 59.8
     catalog_earned_first_party: 16.0
-    catalog_gap: 52.3
+    catalog_gap: 55.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -3.0
+  delta: -1.5
   facets:
-    access_clarity: 39.5
+    access_clarity: 31.6
     contract_governance: 11.4
     contract_quality: 23.8
     developer_ergonomics: 28.6
@@ -311,7 +320,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 34.5
+  previous_composite: 31.5
   provenance:
     conformance: first-party
     contracts:
@@ -325,8 +334,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 30.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

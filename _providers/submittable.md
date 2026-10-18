@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -133,6 +133,10 @@ collections:
   name: Submittable API (v4)
   slug: open-submittable
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.submittable.com/blog
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/submittable/refs/heads/main/agentic-access/submittable-agentic-access.yml
   title: ''
@@ -191,19 +195,23 @@ common:
 created: '2026-07-05'
 description: Submittable is a submission management, grants, and applications platform used by foundations, nonprofits, corporations, and governments to collect, review, and manage forms, applications, submissions, and awards. Its public REST API (v4, base https://submittable-api.submittable.com) provides read-and-write, programmatic access to account data - submissions and their form-field entries, projects and forms, submitters (users), labels, review team members and assignments, funds and payment distributions, and message attachments. The API uses HTTP Basic Authentication (an account access token sent as the password) and is throttled at roughly 10 transactions per second and 10,000 transactions per hour. API access is enabled per account under More > Integrations > API Access, and Submittable pricing is quote-based (bundled Grant/Application Management and Corporate Social Responsibility products, plus Enterprise) via contact-sales.
 finops:
-- name: Submittable Finops
+- has_sources: true
+  method: generated
+  name: Submittable Finops
+  primary_unit: ''
   service_category: Business Applications
   slug: submittable-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/submittable.png
 layout: provider
-modified: '2026-07-05'
+modified: '2026-10-06'
 name: Submittable
 nav: Providers
 network: true
-overview: 'Submittable publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Assignments API, Entries API, Funds API, and 7 more. Tagged areas include Submission Management, Grants Management, Application, Forms, and Non-Profit.
+overview: 'Submittable publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Assignments API, Entries API, Funds API, and 7 more. Tagged areas include Submission Management, Grants Management, Application, Forms, and Non-Profit.
 
 
-  Submittable''s developer surface includes authentication, documentation, pricing, and 9 more developer resources.'
+  Submittable''s developer surface includes engineering blog, authentication, documentation, pricing, and 9 more developer resources.'
 plans:
 - name: Submittable Plans Pricing
   plan_count: 3
@@ -215,22 +223,22 @@ rate_limits:
   slug: submittable-rate-limits
 score:
   band: thin
-  composite: 38.1
+  composite: 31.2
   coverage:
-    artifact_dirs: 10
-    catalog_earned: 58.0
+    artifact_dirs: 12
+    catalog_earned: 42.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.0
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.9
   facets:
-    access_clarity: 54.7
+    access_clarity: 26.3
     contract_governance: 0.0
     contract_quality: 50.8
-    developer_ergonomics: 29.8
+    developer_ergonomics: 32.1
     discoverability: 66.1
-    operational_transparency: 18.9
+    operational_transparency: 5.3
   previous_composite: 38.1
   provenance:
     agentic_access: derived
@@ -245,9 +253,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

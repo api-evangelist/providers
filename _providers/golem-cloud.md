@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.3
-  scored_at: '2026-10-04'
+  score: 25.4
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -143,16 +143,20 @@ common:
 created: '2026-06-20'
 description: Golem is an open-source durable computing platform for building agents and distributed applications that never lose state. You deploy WebAssembly components and invoke durable serverless workers through a REST API; the runtime transparently persists every worker's execution so it survives crashes, restarts, and redeploys. Golem ships as open source you self-host and as the managed Golem Cloud hosted service.
 finops:
-- name: Golem Cloud Finops
+- has_sources: true
+  method: generated
+  name: Golem Cloud Finops
+  primary_unit: ''
   service_category: Compute
   slug: golem-cloud-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/golem-cloud.png
 layout: provider
 modified: '2026-06-20'
 name: Golem
 nav: Providers
 network: true
-overview: 'Golem publishes 4 APIs on the [APIs.io](https://apis.io/) network, including ApiDefinition API, Component API, Plugin API, and 1 more. Tagged areas include Durable Computing, Serverless, WebAssembly, Workers, and Agents.
+overview: 'Golem publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including ApiDefinition API, Component API, Plugin API, and 1 more. Tagged areas include Durable Computing, Serverless, WebAssembly, Workers, and Agents.
 
 
   The Golem catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -169,10 +173,11 @@ rate_limits:
   name: Golem Cloud Rate Limits
   slug: golem-cloud-rate-limits
 rules:
-- effective_rule_count: 29
+- authorship: generated
+  effective_rule_count: 29
   extends:
   - spectral:asyncapi
-  name: Golem API Rules
+  name: Golem — asyncapi rules
   rule_count: 2
   severity_counts:
     error: 0
@@ -182,22 +187,22 @@ rules:
   slug: golem-cloud-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 37.6
+  composite: 29.3
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 65.4
+    artifact_dirs: 14
+    catalog_earned: 46.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 49.6
+    catalog_gap: 68.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 11.4
     contract_quality: 52.8
     developer_ergonomics: 32.1
     discoverability: 66.1
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   previous_composite: 37.6
   provenance:
     agentic_access: derived
@@ -212,9 +217,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

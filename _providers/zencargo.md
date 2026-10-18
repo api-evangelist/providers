@@ -27,14 +27,14 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: false
-    rate_limit_signal: documented
+    protected_resource_metadata: verified
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.6
-  scored_at: '2026-10-04'
+  score: 28.3
+  scored_at: '2026-10-17'
 api_count: 7
 apis:
 - description: 'Query bookings by Zencargo reference and retrieve booking details: cargo, consignor/consignee, forwarder, incoterms, load type, mode of transport, bills of lading, required delivery date, and attached'
@@ -112,9 +112,13 @@ common:
 created: '2026-07-12'
 description: Zencargo is a digital freight forwarder and supply-chain visibility platform for ocean, air, road, and rail shipments. Its GraphQL API gives enterprise customers programmatic access to bookings, shipment tracking and voyage milestones, purchase orders, products, packing lists, and accounts, plus HTTP webhooks for booking and purchase-order events. The API is customer-provisioned - each account is issued a dedicated staging and production endpoint and API-key credentials by their Zencargo account manager.
 finops:
-- name: Zencargo Finops
+- has_sources: true
+  method: generated
+  name: Zencargo Finops
+  primary_unit: ''
   service_category: Logistics and Supply Chain
   slug: zencargo-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zencargo.png
 layout: provider
 mcp_servers:
@@ -125,7 +129,7 @@ modified: '2026-07-12'
 name: Zencargo
 nav: Providers
 network: true
-overview: 'Zencargo publishes 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Freight Forwarding, Supply Chain, Logistics, Ocean Freight, and Shipment Tracking.
+overview: 'Zencargo is listed with 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Freight Forwarding, Supply Chain, Logistics, Ocean Freight, and Shipment Tracking.
 
 
   Zencargo''s developer surface includes authentication, documentation, engineering blog, and 7 more developer resources.'
@@ -139,23 +143,23 @@ rate_limits:
   name: Zencargo Rate Limits
   slug: zencargo-rate-limits
 score:
-  band: thin
-  composite: 30.3
+  band: emerging
+  composite: 23.4
   coverage:
     artifact_dirs: 11
-    catalog_earned: 56.0
+    catalog_earned: 40.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 59.0
+    catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.9
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 35.1
     developer_ergonomics: 31.0
     discoverability: 65.0
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   previous_composite: 30.3
   provenance:
     mcp: first-party
@@ -165,9 +169,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

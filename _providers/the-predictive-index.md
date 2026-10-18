@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://integrations.predictiveindex.com
@@ -79,6 +79,10 @@ collections:
   name: The Predictive Index Integration Behavioral Assessments Jobs API
   slug: open-the-predictive-index-jobs-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.predictiveindex.com/blog/feed/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/the-predictive-index/refs/heads/main/capabilities/the-predictive-index-capability-edges.yml
   title: ''
@@ -194,23 +198,23 @@ created: '2026-07-17'
 description: The Predictive Index (PI) is a talent optimization platform that pairs 70+ years of behavioral science with software to help organizations hire, engage, and develop teams — behavioral and cognitive assessments, hiring and candidate screening, leadership development, employee engagement, and performance management. PI publishes a RESTful Integration API (on Azure API Management) that lets external systems such as ATS/HRIS platforms programmatically create candidates, send behavioral and cognitive assessments, retrieve jobs and results, and generate insight and coaching-guide reports — the same data that appears in the PI Portal software. Status-change notification webhooks push assessment completion events to listening systems. Backed by a $50M investment from General Catalyst.
 image: https://media.predictiveindex.com/wp-content/uploads/2025/02/25165442/ThePredictiveIndex_Thumbnail-1.jpg
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: The Predictive Index
 nav: Providers
 network: true
-overview: 'The Predictive Index publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Behavioral Assessments API, Candidates API, Employees API, and 1 more. Tagged areas include Company, Talent Optimization, Human Resources, Assessment, and Behavioral Science.
+overview: 'The Predictive Index publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Behavioral Assessments API, Candidates API, Employees API, and 1 more. Tagged areas include Company, Talent Optimization, Human Resources, Assessment, and Behavioral Science.
 
 
   The The Predictive Index catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  The Predictive Index''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, pricing, and 18 more developer resources.'
+  The Predictive Index''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, pricing, and 19 more developer resources.'
 random_paper: 16
 score:
   band: developing
   composite: 43.6
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -239,8 +243,8 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 25.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

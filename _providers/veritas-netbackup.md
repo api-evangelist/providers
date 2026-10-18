@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -154,6 +154,16 @@ collections:
   name: Veritas NetBackup REST API
   slug: open-veritas-netbackup-rest-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/veritas-netbackup/refs/heads/main/plans/veritas-netbackup-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/veritas-netbackup-plans-pricing.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/veritas-netbackup/refs/heads/main/finops/veritas-netbackup-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/veritas-netbackup-finops.yml
 - group: company
   title: ''
   type: Website
@@ -478,9 +488,13 @@ features:
 - description: Manage NetBackup Flex Scale appliance infrastructure including nodes, storage, users, and patch upgrades.
   name: Flex Scale Infrastructure
 finops:
-- name: Veritas Netbackup Finops
+- has_sources: true
+  method: generated
+  name: Veritas Netbackup Finops
+  primary_unit: ''
   service_category: Backup / Data Protection
   slug: veritas-netbackup-finops
+  template: false
 integrations:
 - description: Native integration for backup and instant recovery of VMware virtual machines and vSphere environments.
   name: VMware vSphere
@@ -757,13 +771,13 @@ modified: '2026-09-16'
 name: Veritas NetBackup
 nav: Providers
 network: true
-overview: 'Veritas NetBackup publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Clients API, Images API, Jobs API, and 17 more. Tagged areas include Backup, Data Protection, Disaster Recovery, Enterprise, and Recovery.
+overview: 'Veritas NetBackup publishes 20 API contracts indexed on the [APIs.io](https://apis.io/) network, including Clients API, Images API, Jobs API, and 17 more. Tagged areas include Backup, Data Protection, Disaster Recovery, Enterprise, and Recovery.
 
 
   The Veritas NetBackup catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Veritas NetBackup''s developer surface includes authentication, support, documentation, API reference, getting-started guide, pricing, engineering blog, and 27 more developer resources.'
+  Veritas NetBackup''s developer surface includes authentication, support, documentation, API reference, getting-started guide, pricing, engineering blog, and 29 more developer resources.'
 plans:
 - name: Veritas Netbackup Plans Pricing
   plan_count: 1
@@ -774,9 +788,10 @@ rate_limits:
   name: Veritas Netbackup Rate Limits
   slug: veritas-netbackup-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Veritas NetBackup API Rules
+  name: Veritas NetBackup — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -784,7 +799,8 @@ rules:
     info: 2
     warn: 3
   slug: veritas-netbackup-jsonschema-spectral-rules
-- effective_rule_count: 56
+- authorship: generated
+  effective_rule_count: 56
   extends:
   - spectral:oas
   name: Veritas NetBackup API Rules
@@ -797,17 +813,17 @@ rules:
   slug: veritas-netbackup-spectral-rules
 score:
   band: developing
-  composite: 52.8
+  composite: 51.3
   coverage:
     artifact_dirs: 19
-    catalog_earned: 51.9
+    catalog_earned: 48.9
     catalog_earned_first_party: 0.0
-    catalog_gap: 63.1
+    catalog_gap: 66.1
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 44.7
+    access_clarity: 36.8
     contract_governance: 13.6
     contract_quality: 65.5
     developer_ergonomics: 59.5
@@ -827,8 +843,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -846,7 +862,7 @@ security:
 - kind: vulnerability-disclosure
   name: Veritas Netbackup Vulnerability Disclosure
   slug: veritas-netbackup-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 slug: veritas-netbackup
 tags:
 - Backup

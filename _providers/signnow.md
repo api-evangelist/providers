@@ -28,14 +28,14 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: false
-    rate_limit_signal: documented
+    protected_resource_metadata: verified
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.9
-  scored_at: '2026-10-04'
+  score: 37.6
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -131,6 +131,21 @@ collections:
   name: SignNow REST API
   slug: open-signnow
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/signnow/refs/heads/main/plans/signnow-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/signnow-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/signnow/refs/heads/main/rate-limits/signnow-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/signnow-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/signnow/refs/heads/main/finops/signnow-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/signnow-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/signnow/refs/heads/main/capabilities/signnow-capability-edges.yml
   title: ''
@@ -213,9 +228,13 @@ examples:
   name: Signnow Upload Document Example
   slug: signnow-upload-document-example
 finops:
-- name: Signnow Finops
+- has_sources: false
+  method: generated
+  name: Signnow Finops
+  primary_unit: ''
   service_category: API
   slug: signnow-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/signnow.png
 json_schemas:
 - name: SignNow Document
@@ -242,13 +261,13 @@ modified: '2026-05-19'
 name: SignNow
 nav: Providers
 network: true
-overview: 'SignNow publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Documents API, Envelopes API, and 4 more. Tagged areas include E-Signature, Document Management, Electronic Signature, and Workflow Automation.
+overview: 'SignNow publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authentication API, Documents API, Envelopes API, and 4 more. Tagged areas include E-Signature, Document Management, and Workflow Automation.
 
 
   The SignNow catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  SignNow''s developer surface includes authentication, documentation, release notes, pricing, engineering blog, and 12 more developer resources.'
+  SignNow''s developer surface includes authentication, documentation, release notes, pricing, engineering blog, and 15 more developer resources.'
 plans:
 - name: Signnow Plans Pricing
   plan_count: 3
@@ -259,9 +278,10 @@ rate_limits:
   name: Signnow Rate Limits
   slug: signnow-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: SignNow API Rules
+  name: SignNow — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -269,7 +289,8 @@ rules:
     info: 1
     warn: 4
   slug: signnow-jsonschema-spectral-rules
-- effective_rule_count: 50
+- authorship: unmarked
+  effective_rule_count: 50
   extends:
   - spectral:oas
   name: SignNow API Rules
@@ -282,17 +303,17 @@ rules:
   slug: signnow-rules
 score:
   band: developing
-  composite: 42.5
+  composite: 41.0
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 53.5
+    artifact_dirs: 21
+    catalog_earned: 50.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 61.5
+    catalog_gap: 64.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 36.8
+    access_clarity: 28.9
     contract_governance: 13.6
     contract_quality: 54.6
     developer_ergonomics: 45.2
@@ -313,8 +334,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -333,7 +354,6 @@ slug: signnow
 tags:
 - E-Signature
 - Document Management
-- Electronic Signature
 - Workflow Automation
 website: https://www.signnow.com/
 ---

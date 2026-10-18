@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: The Opus REST API. Generate a workflow from a natural-language prompt, run a workflow as a "case" with populated inputs, upload files as case inputs through a presigned-URL flow, poll or receive a cal
@@ -180,7 +180,7 @@ modified: '2026-09-05'
 name: AppliedAI (AAICO)
 nav: Providers
 network: true
-overview: 'AppliedAI (AAICO) publishes 2 APIs on the [APIs.io](https://apis.io/) network, including Opus Platform API, and 1 more. Tagged areas include Company, Artificial Intelligence, Workflow Automation, Agents, and Enterprise.
+overview: 'AppliedAI (AAICO) is listed with 2 APIs on the [APIs.io](https://apis.io/) network, including Opus Platform API, and 1 more. Tagged areas include Company, Artificial Intelligence, Workflow Automation, Agents, and Enterprise.
 
 
   AppliedAI (AAICO)''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, authentication, and 22 more developer resources.'
@@ -197,7 +197,7 @@ score:
   band: thin
   composite: 38.1
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 19
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -222,13 +222,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 20.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/aaico/refs/heads/main/screenshots/aaico-2026-10-11T092340.png
 security:
 - kind: authentication
   name: Aaico Authentication

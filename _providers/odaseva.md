@@ -32,10 +32,20 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 6
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/odaseva/refs/heads/main/plans/odaseva-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/odaseva-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/odaseva/refs/heads/main/rate-limits/odaseva-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/odaseva-rate-limits.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/odaseva/refs/heads/main/security/odaseva-trust-center.yml
   title: ''
@@ -158,7 +168,7 @@ network: true
 overview: 'Odaseva is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Infrastructure Saas, Salesforce, Data Protection, and Backup.
 
 
-  Odaseva''s developer surface includes engineering blog, support, CLI, and 18 more developer resources.'
+  Odaseva''s developer surface includes engineering blog, support, CLI, and 20 more developer resources.'
 plans:
 - name: Odaseva Plans Pricing
   plan_count: 0
@@ -172,7 +182,7 @@ score:
   band: emerging
   composite: 25.3
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 15
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -196,8 +206,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

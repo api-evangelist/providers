@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 6
 apis:
 - description: Public marketplace quote endpoint returning freight price ranges (min/max), transit-time ranges, and shipping mode (air, LCL, FCL, trucking) for a given origin, destination, weight, and load type. Sup
@@ -99,16 +99,20 @@ common:
 created: '2026-07-05'
 description: Freightos (NASDAQ CRGO) operates a global freight booking marketplace and, through WebCargo by Freightos, a rate-management and eBooking platform used by freight forwarders and carriers to price and book air, ocean, and trucking shipments in real time across 55+ carriers. Freightos publishes a developer portal (developers.freightos.com / developer.freightos.com) with freight-rate estimation, HS-code duties classification, and CO2 emissions APIs, plus the public Shipping Calculator on the marketplace. Bookable live rates, eBooking, and shipment tracking are offered to forwarder, carrier, and TMS/ERP partners under commercial agreements. Most developer-portal APIs are documented as beta and provided as-is, and full access is provisioned per partner rather than via open self-service signup.
 finops:
-- name: Freightos Finops
+- has_sources: true
+  method: generated
+  name: Freightos Finops
+  primary_unit: ''
   service_category: Logistics and Freight
   slug: freightos-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/freightos.png
 layout: provider
 modified: '2026-07-05'
 name: Freightos
 nav: Providers
 network: true
-overview: 'Freightos publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Freight, Logistics, Shipping, Freight Marketplace, and Air Cargo.
+overview: 'Freightos is listed with 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Freight, Logistics, Shipping, Freight Marketplace, and Air Cargo.
 
 
   Freightos'' developer surface includes documentation, engineering blog, and 7 more developer resources.'
@@ -122,23 +126,23 @@ rate_limits:
   name: Freightos Rate Limits
   slug: freightos-rate-limits
 score:
-  band: emerging
-  composite: 18.0
+  band: minimal
+  composite: 9.7
   coverage:
     artifact_dirs: 7
-    catalog_earned: 59.6
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 55.4
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 9.5
     discoverability: 62.5
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   previous_composite: 18.0
   regulatory:
     applies: true
@@ -146,9 +150,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 8
+- acting_count: 5
   human_in_the_loop: 0
   name: Superform Agentic Access
   operation_count: 66
   slug: superform-agentic-access
-  summary_line: 66 operations · 8 acting
+  summary_line: 66 operations · 5 acting
 api_count: 1
 apis:
 - baseURL: https://api.superform.xyz
@@ -170,6 +170,10 @@ collections:
   name: Superform Auxiliary Vault API
   slug: open-superform-vault-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.superform.xyz/feed/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/superform/refs/heads/main/overlays/superform-api-overlay.yaml
   title: ''
@@ -261,18 +265,18 @@ created: '2026-07-17'
 description: Superform is a user-owned onchain neobank and the operating system for programmable DeFi vaults. The protocol enables single-signature execution of arbitrary actions across chains and optimized yield vaults, built on ERC-4626 / ERC-7540 tokenized vaults and ERC-7579 smart accounts. Its public API (api.superform.xyz) exposes vault and protocol data, cross-chain deposit/withdraw/rebalance transaction routing, user portfolios and balances, superpositions, and protocol rewards. A separate SuperformOS "operate" API (Erebor, Strategy Engine, and OMS) lets vault managers create, configure, and automate SuperVaults. Originally added as a Polychain portfolio lead, this profile has been enriched from Superform's real developer surface.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/superform.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Superform
 nav: Providers
 network: true
-overview: 'Superform publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Auxiliary API, Balances API, Contract Checker API, and 12 more. Tagged areas include Company, Defi Yield, DeFi, Vault, and Yield Aggregation.
+overview: 'Superform publishes 15 API contracts indexed on the [APIs.io](https://apis.io/) network, including Auxiliary API, Balances API, Contract Checker API, and 12 more. Tagged areas include Company, Defi Yield, DeFi, Vault, and Yield Aggregation.
 
 
-  Superform''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 13 more developer resources.'
+  Superform''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 14 more developer resources.'
 random_paper: 5
 score:
   band: thin
-  composite: 31.1
+  composite: 31.2
   coverage:
     artifact_dirs: 17
     catalog_earned: 37.0
@@ -280,7 +284,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 0.0
     contract_governance: 4.5
@@ -305,8 +309,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

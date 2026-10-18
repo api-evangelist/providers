@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: 'REST API for programmatic, end-to-end video creation and automated delivery. OAuth 2.0 client-credentials + bearer auth. Resources: TemplateStyleVersion, Mapping, RenderSession.'
@@ -145,7 +145,7 @@ modified: '2026-07-21'
 name: Shakr Media
 nav: Providers
 network: true
-overview: 'Shakr Media publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Video, Video Creation, Video Editing, and Video API.
+overview: 'Shakr Media is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Video, Video Creation, Video Editing, and Video API.
 
 
   The Shakr Media catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -162,7 +162,7 @@ score:
   band: emerging
   composite: 25.1
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -185,13 +185,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/shakr-media/refs/heads/main/screenshots/shakr-media-2026-10-11T125748.png
 security:
 - kind: authentication
   name: Shakr Media Authentication

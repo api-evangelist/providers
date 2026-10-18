@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The authenticated API behind the LevelTen Energy Marketplace. The host at api.levelten.energy self-identifies as "the API for LevelTen Energy" and directs callers to log in at marketplace.levelten.ene
@@ -82,7 +82,7 @@ modified: '2026-07-19'
 name: LevelTen Energy
 nav: Providers
 network: true
-overview: 'LevelTen Energy publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Energy, Renewable Energy, Power Purchase Agreements, and Marketplace.
+overview: 'LevelTen Energy is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Energy, Renewable Energy, Power Purchase Agreements, and Marketplace.
 
 
   LevelTen Energy''s developer surface includes engineering blog, support, and 6 more developer resources.'
@@ -112,8 +112,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 11.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

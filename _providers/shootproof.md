@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.8
-  scored_at: '2026-10-04'
+  score: 22.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 0
@@ -176,16 +176,20 @@ common:
 created: '2026-07-04'
 description: ShootProof is a SaaS platform for professional photographers that handles client galleries, proofing, digital download rules, watermarking, contracts, invoicing, and print/product e-commerce fulfilled through partner labs. The ShootProof Studio API is a RESTful, hypermedia (HAL-style links) API secured with three-legged OAuth 2.0, published with a downloadable OpenAPI 3.0 document (oas/studio.json) at developer.shootproof.com. It exposes a studio's Brands, Events (client galleries) and Albums, Photos, Contacts (clients), Contracts, Orders, Invoices, Price Sheets, and Email automation as linked resources under a single https://api.shootproof.com/studio base URL. API access is included free with a ShootProof account; a client ID is issued by ShootProof support on request. A separate legacy REST API also remains documented for older integrations.
 finops:
-- name: Shootproof Finops
+- has_sources: true
+  method: generated
+  name: Shootproof Finops
+  primary_unit: ''
   service_category: Photography SaaS and E-Commerce
   slug: shootproof-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/shootproof.png
 layout: provider
 modified: '2026-07-04'
 name: ShootProof
 nav: Providers
 network: true
-overview: 'ShootProof publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Clients API, Contracts API, Events & Galleries API, and 4 more. Tagged areas include Photography, Client Galleries, Proofing, Digital Downloads, and Photo Studio Management.
+overview: 'ShootProof publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Clients API, Contracts API, Events & Galleries API, and 4 more. Tagged areas include Photography, Client Galleries, Proofing, Digital Downloads, and Photo Studio Management.
 
 
   ShootProof''s developer surface includes pricing, authentication, documentation, engineering blog, and 10 more developer resources.'
@@ -208,22 +212,22 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: thin
-  composite: 39.0
+  composite: 34.8
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 62.8
+    artifact_dirs: 14
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 52.2
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -4.2
   facets:
-    access_clarity: 50.0
+    access_clarity: 42.1
     contract_governance: 0.0
     contract_quality: 47.8
     developer_ergonomics: 31.0
     discoverability: 66.1
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   previous_composite: 39.0
   provenance:
     agentic_access: derived
@@ -238,8 +242,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

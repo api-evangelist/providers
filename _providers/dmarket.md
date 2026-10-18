@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://api.dmarket.com
@@ -91,6 +91,10 @@ collections:
   name: DMarket trading Account Sold user items API
   slug: open-dmarket-sold-user-items-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://dmarket.com/blog/index.xml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/dmarket/refs/heads/main/overlays/dmarket-trading-overlay.yaml
   title: ''
@@ -183,18 +187,18 @@ created: '2026-07-17'
 description: 'DMarket is a marketplace for trading in-game items and skins across titles like CS2 (CS:GO), Dota 2, Team Fortress 2, and Rust. It offers a public JSON-based Trading API that lets developers programmatically manage their DMarket inventory: read account balance, sync and deposit items from linked game inventories, create and manage sell offers, place standing buy orders (targets), buy and withdraw assets, read aggregated market prices, and pull sales history. Requests authenticate with a public API key plus a per-request Ed25519 signature. DMarket was surfaced as a portfolio company of Pantera Capital. Sector: crypto / gaming.'
 image: https://dmarket.com/apple-touch-icon.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: DMarket
 nav: Providers
 network: true
-overview: 'DMarket publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Account API, Aggregator API, Buy items API, and 3 more. Tagged areas include Company, Crypto, Gaming, Marketplace, and Trading.
+overview: 'DMarket publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Aggregator API, Buy items API, and 3 more. Tagged areas include Company, Cryptocurrency, Gaming, Marketplace, and Trading.
 
 
-  DMarket''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 13 more developer resources.'
+  DMarket''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 14 more developer resources.'
 random_paper: 18
 score:
   band: thin
-  composite: 35.3
+  composite: 35.4
   coverage:
     artifact_dirs: 19
     catalog_earned: 37.0
@@ -202,7 +206,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
@@ -226,8 +230,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 23.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -245,7 +249,7 @@ security:
 slug: dmarket
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Gaming
 - Marketplace
 - Trading

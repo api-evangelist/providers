@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.8
-  scored_at: '2026-10-04'
+  score: 22.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -108,6 +108,21 @@ collections:
   name: Climate FieldView Platform Application Soil Sampling API
   slug: open-climate-fieldview-soil-sampling-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/climate-fieldview/refs/heads/main/plans/climate-fieldview-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/climate-fieldview-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/climate-fieldview/refs/heads/main/rate-limits/climate-fieldview-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/climate-fieldview-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/climate-fieldview/refs/heads/main/finops/climate-fieldview-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/climate-fieldview-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/climate-fieldview/refs/heads/main/capabilities/climate-fieldview-capability-edges.yml
   title: ''
@@ -204,9 +219,13 @@ common:
 created: '2025-03-05'
 description: Climate FieldView is a digital agriculture platform from Bayer (originally developed by The Climate Corporation) that gives growers, agronomists, and agribusiness partners a single view of field-level operations. The platform ingests as-planted, as-applied, and as-harvested data from field equipment, combines it with imagery, weather, and soil layers, and exposes those agronomic datasets through a REST API at api.climate.com. Authentication is via OAuth 2.0 authorization-code grant, and resources include fields, planting and harvest activities, application records, and soil samples.
 finops:
-- name: Climate Fieldview Finops
+- has_sources: false
+  method: generated
+  name: Climate Fieldview Finops
+  primary_unit: ''
   service_category: API
   slug: climate-fieldview-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/climate-fieldview.png
 json_schemas:
 - name: Climate FieldView Field
@@ -222,13 +241,13 @@ modified: '2026-05-19'
 name: Climate FieldView
 nav: Providers
 network: true
-overview: 'Climate FieldView publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Application API, Fields API, Harvest API, and 2 more. Tagged areas include Agriculture, Bayer, Crop Data, Field Boundaries, and Harvest.
+overview: 'Climate FieldView publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Application API, Fields API, Harvest API, and 2 more. Tagged areas include Agriculture, Bayer, Crop Data, Field Boundaries, and Harvest.
 
 
   The Climate FieldView catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Climate FieldView''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, and 16 more developer resources.'
+  Climate FieldView''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, and 19 more developer resources.'
 plans:
 - name: Climate Fieldview Plans Pricing
   plan_count: 3
@@ -239,9 +258,10 @@ rate_limits:
   name: Climate Fieldview Rate Limits
   slug: climate-fieldview-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: Climate FieldView API Rules
+  name: Climate FieldView — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -249,7 +269,8 @@ rules:
     info: 2
     warn: 4
   slug: climate-fieldview-jsonschema-spectral-rules
-- effective_rule_count: 47
+- authorship: unmarked
+  effective_rule_count: 47
   extends:
   - spectral:oas
   name: Climate FieldView API Rules
@@ -267,17 +288,17 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: developing
-  composite: 46.0
+  composite: 44.5
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 58.5
+    artifact_dirs: 18
+    catalog_earned: 55.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 56.5
+    catalog_gap: 59.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 36.8
+    access_clarity: 28.9
     contract_governance: 13.6
     contract_quality: 55.3
     developer_ergonomics: 53.6
@@ -297,8 +318,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

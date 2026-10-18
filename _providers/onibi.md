@@ -33,10 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.onibi.gg/blog/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/onibi/refs/heads/main/security/onibi-domain-security.yml
   title: ''
@@ -113,28 +117,31 @@ created: '2026-08-17'
 description: 'Onibi (Onibi inc.) is a video game studio founded in 2023 by Benjamin Devienne, with a distributed team in San Francisco, London and Bordeaux drawn from Blizzard, Riot, Ubisoft, EA and Rockstar. Its first title is Tomo: Endless Blue, a procedurally generated monster-taming voxel sandbox open world announced for Steam and funded through a Kickstarter campaign plus roughly $6.5M in seed capital from SeaX Ventures, Serena, Octopus Ventures and Pix Capital. Onibi is a consumer game studio, not an API provider: as of August 2026 the game is unreleased and the studio publishes no developer portal, API reference, SDK or machine-readable specification. The Steam page states an intent to keep the game moddable, but no modding API, tooling or documentation has been published yet, so there is nothing machine-readable to catalog.'
 image: https://onibi.gg/unfurl/onibi_studio.png
 layout: provider
-modified: '2026-08-17'
+modified: '2026-10-06'
 name: Onibi
 nav: Providers
 network: true
-overview: Onibi is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Video Games, Game Development, Game Studio, and Sandbox MMO.
+overview: 'Onibi is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Video Games, Game Development, Game Studio, and Sandbox MMO.
+
+
+  Onibi''s developer surface includes engineering blog and 14 more developer resources.'
 random_paper: 1
 score:
   band: minimal
-  composite: 9.7
+  composite: 10.3
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 4.8
+    developer_ergonomics: 7.1
     discoverability: 48.2
     operational_transparency: 0.0
   previous_composite: 9.7
@@ -144,8 +151,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

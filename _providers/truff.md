@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'The agent-facing commerce surface for TRUFF''s online store. A Model Context Protocol endpoint at https://shop.truff.com/api/ucp/mcp implements the Universal Commerce Protocol dev.ucp.shopping service '
@@ -153,7 +153,7 @@ modified: '2026-08-30'
 name: TRUFF
 nav: Providers
 network: true
-overview: 'TRUFF publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer Packaged Goods, Food and Beverage, Condiments, and Direct to Consumer.
+overview: 'TRUFF is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer Packaged Goods, Food and Beverage, Condiments, and Direct to Consumer.
 
 
   TRUFF''s developer surface includes engineering blog, support, documentation, authentication, and 17 more developer resources.'
@@ -170,7 +170,7 @@ score:
   band: emerging
   composite: 21.0
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -201,8 +201,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

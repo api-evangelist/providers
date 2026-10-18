@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.8
-  scored_at: '2026-10-04'
+  score: 20.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -204,6 +204,21 @@ collections:
   name: Shift4 Payments Blacklist Webhook Endpoints API
   slug: open-shift4-payments-webhook-endpoints-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/shift4-payments/refs/heads/main/plans/shift4-payments-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/shift4-payments-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/shift4-payments/refs/heads/main/rate-limits/shift4-payments-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/shift4-payments-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/shift4-payments/refs/heads/main/finops/shift4-payments-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/shift4-payments-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/shift4-payments/refs/heads/main/capabilities/shift4-payments-capability-edges.yml
   title: ''
@@ -285,9 +300,13 @@ examples:
   name: Shift4 Api List Events Example
   slug: shift4-api-list-events-example
 finops:
-- name: Shift4 Payments Finops
+- has_sources: false
+  method: generated
+  name: Shift4 Payments Finops
+  primary_unit: ''
   service_category: API
   slug: shift4-payments-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/shift4-payments.png
 json_schemas:
 - name: Shift4 Card
@@ -337,13 +356,13 @@ modified: '2026-05-19'
 name: Shift4 Payments
 nav: Providers
 network: true
-overview: 'Shift4 Payments publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Blacklist API, Cards API, Charges API, and 17 more. Tagged areas include Payments, Fintech, Commerce, and Checkout.
+overview: 'Shift4 Payments publishes 20 API contracts indexed on the [APIs.io](https://apis.io/) network, including Blacklist API, Cards API, Charges API, and 17 more. Tagged areas include Payments, Fintech, Commerce, and Checkout.
 
 
   The Shift4 Payments catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Shift4 Payments'' developer surface includes authentication, documentation, API reference, code examples, support, and 8 more developer resources.'
+  Shift4 Payments'' developer surface includes authentication, documentation, API reference, code examples, support, and 11 more developer resources.'
 plans:
 - name: Shift4 Payments Plans Pricing
   plan_count: 1
@@ -354,10 +373,11 @@ rate_limits:
   name: Shift4 Payments Rate Limits
   slug: shift4-payments-rate-limits
 rules:
-- effective_rule_count: 56
+- authorship: unmarked
+  effective_rule_count: 56
   extends:
   - spectral:oas
-  name: Shift4 Payments API Rules
+  name: Shift4 Payments — shift4 api rules
   rule_count: 15
   severity_counts:
     error: 3
@@ -365,9 +385,10 @@ rules:
     info: 0
     warn: 9
   slug: shift4-api-rules
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Shift4 Payments API Rules
+  name: Shift4 Payments — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -376,23 +397,23 @@ rules:
     warn: 3
   slug: shift4-payments-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 46.8
+  band: thin
+  composite: 36.5
   coverage:
     artifact_dirs: 18
-    catalog_earned: 76.1
+    catalog_earned: 51.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 38.9
+    catalog_gap: 64.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -10.3
   facets:
-    access_clarity: 26.8
-    contract_governance: 62.7
+    access_clarity: 5.3
+    contract_governance: 27.3
     contract_quality: 59.3
     developer_ergonomics: 66.7
     discoverability: 42.9
-    operational_transparency: 21.6
+    operational_transparency: 7.9
   previous_composite: 46.8
   provenance:
     agentic_access: derived
@@ -407,9 +428,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 15.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

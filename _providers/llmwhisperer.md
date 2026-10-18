@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -93,6 +93,10 @@ collections:
   name: LLMWhisperer API
   slug: open-llmwhisperer
 common:
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://unstract.com/pricing/
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/llmwhisperer/refs/heads/main/agentic-access/llmwhisperer-agentic-access.yml
   title: ''
@@ -146,46 +150,50 @@ common:
 created: '2026-06-20'
 description: LLMWhisperer is a document-to-text extraction API from Unstract (Zipstack) that turns complex PDFs, scanned documents, and images into clean, layout-preserving text ready for large language models. It exposes an asynchronous REST API (v2) - submit a document to /whisper, poll /whisper-status, then retrieve the extracted text via /whisper-retrieve - plus line-level highlight coordinates and webhook callbacks. Authentication is via the unstract-key header.
 finops:
-- name: Llmwhisperer Finops
+- has_sources: true
+  method: generated
+  name: Llmwhisperer Finops
+  primary_unit: ''
   service_category: AI and Machine Learning
   slug: llmwhisperer-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/llmwhisperer.png
 layout: provider
 modified: '2026-06-20'
 name: LLMWhisperer
 nav: Providers
 network: true
-overview: 'LLMWhisperer publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Extraction API, Highlights API, Retrieve API, and 2 more. Tagged areas include Artificial Intelligence, LLM, Document Extraction, OCR, and Text Extraction.
+overview: 'LLMWhisperer publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Extraction API, Highlights API, Retrieve API, and 2 more. Tagged areas include Artificial Intelligence, LLM, Document Extraction, OCR, and Text Extraction.
 
 
-  LLMWhisperer''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
+  LLMWhisperer''s developer surface includes pricing, authentication, documentation, engineering blog, and 8 more developer resources.'
 plans:
 - name: Llmwhisperer Plans Pricing
-  plan_count: 3
+  plan_count: 12
   slug: llmwhisperer-plans-pricing
 random_paper: 12
 rate_limits:
-- limit_count: 3
+- limit_count: 0
   name: Llmwhisperer Rate Limits
   slug: llmwhisperer-rate-limits
 score:
   band: thin
-  composite: 35.8
+  composite: 33.4
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 61.6
-    catalog_earned_first_party: 0.0
-    catalog_gap: 53.4
+    artifact_dirs: 12
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.4
   facets:
-    access_clarity: 36.3
+    access_clarity: 42.1
     contract_governance: 0.0
     contract_quality: 51.6
     developer_ergonomics: 32.1
     discoverability: 66.1
-    operational_transparency: 31.1
+    operational_transparency: 2.6
   previous_composite: 35.8
   provenance:
     agentic_access: derived
@@ -200,8 +208,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

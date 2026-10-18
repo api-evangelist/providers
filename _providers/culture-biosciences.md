@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.culturebiosciences.com/resources/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/culture-biosciences/refs/heads/main/security/culture-biosciences-domain-security.yml
   title: ''
@@ -79,14 +83,14 @@ description: Culture Biosciences is a South San Francisco TechBio company that b
   does not currently publish a public developer API, OpenAPI, SDKs, or developer documentation.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/culture-biosciences.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Culture Biosciences
 nav: Providers
 network: true
 overview: 'Culture Biosciences is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, TechBio, Bioprocessing, and Bioreactors.
 
 
-  Culture Biosciences'' developer surface includes engineering blog, signup flow, and 7 more developer resources.'
+  Culture Biosciences'' developer surface includes engineering blog, signup flow, and 8 more developer resources.'
 random_paper: 18
 score:
   band: emerging
@@ -113,8 +117,8 @@ score:
     regime: Health
     regime_id: health
     score: 10.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

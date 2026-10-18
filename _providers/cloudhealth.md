@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -106,6 +106,11 @@ collections:
   name: CloudHealth REST API
   slug: open-cloudhealth
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/cloudhealth/refs/heads/main/finops/cloudhealth-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/cloudhealth-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/cloudhealth/refs/heads/main/capabilities/cloudhealth-capability-edges.yml
   title: ''
@@ -259,9 +264,13 @@ common:
 created: '2026-03-16'
 description: CloudHealth (now VMware Tanzu CloudHealth, owned by Broadcom) is a multi-cloud financial and operational management platform. It provides cost visibility, optimization recommendations, asset inventory, custom perspectives (groupings), policies, governance, and partner/MSP billing workflows across AWS, Azure, GCP, Oracle, and data center environments. The platform exposes both a REST API and a GraphQL API for programmatic access to reports, assets, accounts, perspectives, tags, metrics, and partner customer provisioning.
 finops:
-- name: Cloudhealth Finops
+- has_sources: false
+  method: generated
+  name: Cloudhealth Finops
+  primary_unit: ''
   service_category: API
   slug: cloudhealth-finops
+  template: true
 graphqls:
 - description: GraphQL API exposed in the CloudHealth UI under Setup > Admin > GraphQL Explorer for programmatic interaction with the platform's reporting and asset data model.
   name: CloudHealth GraphQL API
@@ -281,13 +290,13 @@ modified: '2026-09-16'
 name: CloudHealth
 nav: Providers
 network: true
-overview: 'CloudHealth publishes 8 APIs on the [APIs.io](https://apis.io/) network, including AWS Accounts API, Perspectives API, Reports API, and 5 more. Tagged areas include Cloud Cost, Cloud Governance, Cloud Management, Cost Optimization, and FinOps.
+overview: 'CloudHealth is listed with 8 APIs on the [APIs.io](https://apis.io/) network, including AWS Accounts API, Perspectives API, Reports API, and 5 more. Tagged areas include Cloud Cost, Cloud Governance, Cloud Management, Cost Optimization, and FinOps.
 
 
   The CloudHealth catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  CloudHealth''s developer surface includes authentication, documentation, engineering blog, API reference, support, pricing, and 27 more developer resources.'
+  CloudHealth''s developer surface includes authentication, documentation, engineering blog, API reference, support, pricing, and 28 more developer resources.'
 plans:
 - name: Cloudhealth Plans Pricing
   plan_count: 3
@@ -298,7 +307,8 @@ rate_limits:
   name: Cloudhealth Rate Limits
   slug: cloudhealth-rate-limits
 rules:
-- effective_rule_count: 51
+- authorship: unmarked
+  effective_rule_count: 51
   extends:
   - spectral:oas
   name: CloudHealth API Rules
@@ -315,19 +325,19 @@ scopes:
   slug: cloudhealth-scopes
   summary_line: 4 scopes · authorizationCode/clientCredentials
 score:
-  band: strong
-  composite: 57.2
+  band: developing
+  composite: 52.2
   coverage:
     artifact_dirs: 26
-    catalog_earned: 85.5
+    catalog_earned: 72.8
     catalog_earned_first_party: 24.0
-    catalog_gap: 29.5
+    catalog_gap: 42.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.0
   facets:
-    access_clarity: 77.6
-    contract_governance: 59.1
+    access_clarity: 69.7
+    contract_governance: 29.5
     contract_quality: 57.8
     developer_ergonomics: 31.5
     discoverability: 73.3
@@ -349,9 +359,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

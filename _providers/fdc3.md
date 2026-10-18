@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.1
-  scored_at: '2026-10-04'
+  score: 26.2
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -74,6 +74,21 @@ collections:
   name: FDC3 Directory Application API
   slug: open-fdc3-application-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/fdc3/refs/heads/main/plans/fdc3-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/fdc3-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/fdc3/refs/heads/main/rate-limits/fdc3-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/fdc3-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/fdc3/refs/heads/main/finops/fdc3-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/fdc3-finops.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -160,9 +175,13 @@ examples:
   name: Fdc3 Workbench App
   slug: fdc3-workbench-app
 finops:
-- name: Fdc3 Finops
+- has_sources: true
+  method: generated
+  name: Fdc3 Finops
+  primary_unit: ''
   service_category: Open Standard / Specification
   slug: fdc3-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fdc3.png
 json_schemas:
 - name: Appd.Schema
@@ -178,13 +197,13 @@ modified: '2026-06-13'
 name: FDC3
 nav: Providers
 network: true
-overview: 'FDC3 publishes 6 APIs on the [APIs.io](https://apis.io/) network, including App Directory API, Application API, and 4 more. Tagged areas include Financial Services, Fintech, Desktop Interoperability, Open Standard, and FINOS.
+overview: 'FDC3 publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including App Directory API, Application API, and 4 more. Tagged areas include Financial Services, Fintech, Desktop Interoperability, Open Standard, and FINOS.
 
 
   The FDC3 catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  FDC3''s developer surface includes authentication, documentation, engineering blog, changelog, status page, and 14 more developer resources.'
+  FDC3''s developer surface includes authentication, documentation, engineering blog, changelog, status page, and 17 more developer resources.'
 plans:
 - name: Fdc3 Plans Pricing
   plan_count: 5
@@ -195,9 +214,10 @@ rate_limits:
   name: Fdc3 Rate Limits
   slug: fdc3-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: FDC3 API Rules
+  name: FDC3 — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -206,23 +226,23 @@ rules:
     warn: 3
   slug: fdc3-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 45.0
+  band: thin
+  composite: 36.8
   coverage:
     artifact_dirs: 15
-    catalog_earned: 79.3
+    catalog_earned: 60.7
     catalog_earned_first_party: 0.0
-    catalog_gap: 35.7
+    catalog_gap: 54.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.2
   facets:
-    access_clarity: 46.8
+    access_clarity: 18.4
     contract_governance: 9.8
     contract_quality: 55.0
     developer_ergonomics: 33.3
     discoverability: 62.5
-    operational_transparency: 60.0
+    operational_transparency: 39.5
   previous_composite: 45.0
   provenance:
     agentic_access: derived
@@ -237,9 +257,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

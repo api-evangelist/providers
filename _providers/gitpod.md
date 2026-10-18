@@ -30,20 +30,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.6
-  scored_at: '2026-10-04'
+  score: 33.7
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 388
+- acting_count: 236
   human_in_the_loop: 5
   name: Gitpod Agentic Access
   operation_count: 388
   slug: gitpod-agentic-access
-  summary_line: 388 operations · 388 acting · 5 human-in-the-loop
+  summary_line: 388 operations · 236 acting · 5 human-in-the-loop
 api_count: 1
 apis:
 - description: REST API for managing organizations, groups, members, role assignments, permissions, and organization-level policies. Supports SSO login providers, secrets scoped to organizations, and audit trails fo
@@ -426,9 +426,13 @@ examples:
   name: Gitpod List Organizations Example
   slug: gitpod-list-organizations-example
 finops:
-- name: Gitpod Finops
+- has_sources: true
+  method: generated
+  name: Gitpod Finops
+  primary_unit: ''
   service_category: Developer Tools
   slug: gitpod-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/gitpod.png
 json_schemas:
 - name: Account
@@ -453,7 +457,7 @@ modified: '2026-09-16'
 name: Gitpod
 nav: Providers
 network: true
-overview: 'Gitpod publishes 34 APIs on the [APIs.io](https://apis.io/) network, including Gitpod.v1.AccountService API, Gitpod.v1.AgentSecurityService API, Gitpod.v1.AgentService API, and 31 more. Tagged areas include Developer Tools, Cloud Development Environments, Workspace, AI Agents, and DevOps.
+overview: 'Gitpod publishes 34 API contracts indexed on the [APIs.io](https://apis.io/) network, including Gitpod.v1.AccountService API, Gitpod.v1.AgentSecurityService API, Gitpod.v1.AgentService API, and 31 more. Tagged areas include Developer Tools, Cloud Development Environments, Workspace, AI Agents, and DevOps.
 
 
   The Gitpod catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -470,9 +474,10 @@ rate_limits:
   name: Gitpod Rate Limits
   slug: gitpod-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Gitpod API Rules
+  name: Gitpod — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -481,23 +486,23 @@ rules:
     warn: 3
   slug: gitpod-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 43.8
+  band: thin
+  composite: 37.8
   coverage:
-    artifact_dirs: 16
-    catalog_earned: 70.2
+    artifact_dirs: 18
+    catalog_earned: 56.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 44.8
+    catalog_gap: 58.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.0
   facets:
-    access_clarity: 45.3
+    access_clarity: 23.7
     contract_governance: 23.5
     contract_quality: 53.6
     developer_ergonomics: 23.8
     discoverability: 66.1
-    operational_transparency: 45.3
+    operational_transparency: 31.6
   previous_composite: 43.8
   provenance:
     agentic_access: derived
@@ -512,9 +517,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 11.1

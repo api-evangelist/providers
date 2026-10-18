@@ -27,20 +27,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.5
-  scored_at: '2026-10-04'
+  score: 19.6
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 4
+- acting_count: 3
   human_in_the_loop: 0
   name: Wmo Agentic Access
   operation_count: 21
   slug: wmo-agentic-access
-  summary_line: 21 operations · 4 acting
+  summary_line: 21 operations · 3 acting
 api_count: 1
 apis:
 - description: The WMO World Weather Information Service (WWIS) provides public JSON endpoints delivering official city weather forecasts and climatological data contributed by WMO member national meteorological and
@@ -101,6 +101,25 @@ collections:
   name: Meteorological Service of Canada Global Discovery Catalogue (GDC) jobs wis2-discovery-metadata API
   slug: open-wmo-wis2-discovery-metadata-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/wmo/refs/heads/main/plans/plans.yml
+  title: ''
+  type: Plans
+  url: plans/plans.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/wmo/refs/heads/main/rate-limits/rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/wmo/refs/heads/main/finops/finops.yml
+  title: ''
+  type: FinOps
+  url: finops/finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://wmo.int/news
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/wmo/refs/heads/main/agentic-access/wmo-agentic-access.yml
   title: ''
@@ -154,9 +173,13 @@ common:
 created: '2024-01-01'
 description: The World Meteorological Organization (WMO) is a specialized agency of the United Nations that coordinates global meteorological, climatological, hydrological, and related geophysical sciences. WMO provides public REST APIs for weather data, climate observation metadata, hydrological monitoring, severe weather alerts, and the WIS2 global meteorological information exchange system enabling real-time access to earth system data from member nations worldwide.
 finops:
-- name: Finops
+- has_sources: false
+  method: generated
+  name: Finops
+  primary_unit: ''
   service_category: ''
   slug: finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wmo.png
 jsonld:
 - class_count: 0
@@ -164,17 +187,17 @@ jsonld:
   property_count: 0
   slug: apis
 layout: provider
-modified: '2026-06-13'
+modified: '2026-10-06'
 name: World Meteorological Organization
 nav: Providers
 network: true
-overview: 'World Meteorological Organization publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Jobs API, Pywcmp Wis2 Wcmp2 Ets API, Pywcmp Wis2 Wcmp2 Kpi API, and 6 more. Tagged areas include Weather, Climate, Hydrology, Meteorology, and International Organization.
+overview: 'World Meteorological Organization publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Jobs API, Pywcmp Wis2 Wcmp2 Ets API, Pywcmp Wis2 Wcmp2 Kpi API, and 6 more. Tagged areas include Weather, Climate, Hydrology, Meteorology, and International Organization.
 
 
   The World Meteorological Organization catalog on APIs.io includes 1 JSON-LD context.
 
 
-  World Meteorological Organization''s developer surface includes developer portal, documentation, and 10 more developer resources.'
+  World Meteorological Organization''s developer surface includes engineering blog, developer portal, documentation, and 13 more developer resources.'
 plans:
 - name: Plans
   plan_count: 4
@@ -186,20 +209,20 @@ rate_limits:
   slug: rate-limits
 score:
   band: thin
-  composite: 34.9
+  composite: 29.7
   coverage:
-    artifact_dirs: 10
-    catalog_earned: 55.8
+    artifact_dirs: 11
+    catalog_earned: 45.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 59.2
+    catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.2
   facets:
-    access_clarity: 46.8
+    access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 49.6
-    developer_ergonomics: 33.3
+    developer_ergonomics: 35.7
     discoverability: 66.1
     operational_transparency: 2.6
   previous_composite: 34.9
@@ -216,9 +239,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 14.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

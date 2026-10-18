@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: A write-only HTTP collector that ingests customer behavioral events in real time so Movable Ink Studio can use them for targeting and content generation. Callers POST Segment-shaped JSON events (type,
@@ -51,6 +51,10 @@ asyncapis:
   name: Movable Ink Webhooks
   slug: movable-ink-webhooks
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://movableink.com/blog/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/movable-ink/refs/heads/main/security/movable-ink-trust-center.yml
   title: ''
@@ -211,17 +215,17 @@ created: '2026-08-04'
 description: Movable Ink is a New York-headquartered marketing technology company that turns customer data into personalized content across email, mobile and web. Its two products are Studio, which generates composite images and interactive content at the moment a message is opened, and Da Vinci, an AI decisioning layer that chooses what content each customer sees. The integration surface is a write-only Customer Data API that streams behavioral events into Studio, a family of native and wrapper mobile SDKs (iOS, Android, React Native, Cordova, Flutter, Expo), a Studio app toolchain built around the `movable` CLI and the cropduster library, and dozens of ESP/CDP connectors. API reference material is customer-gated; no OpenAPI is published.
 image: https://cdn.prod.website-files.com/6601ecc67f6256b863e8143f/6655e1590788a6b11d9441a3_MovableInk-Share.jpeg
 layout: provider
-modified: '2026-08-12'
+modified: '2026-10-06'
 name: Movable Ink
 nav: Providers
 network: true
-overview: 'Movable Ink publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketing, Personalization, Email, and Customer Data.
+overview: 'Movable Ink is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketing, Personalization, Email, and Customer Data.
 
 
   The Movable Ink catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Movable Ink''s developer surface includes documentation, getting-started guide, support, engineering blog, signup flow, changelog, CLI, and 27 more developer resources.'
+  Movable Ink''s developer surface includes documentation, getting-started guide, support, engineering blog, signup flow, changelog, CLI, and 28 more developer resources.'
 plans:
 - name: Movable Ink Plans Pricing
   plan_count: 0
@@ -240,7 +244,7 @@ score:
   band: developing
   composite: 51.6
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -270,8 +274,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 41.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -290,7 +294,7 @@ security:
 - kind: vulnerability-disclosure
   name: Movable Ink Vulnerability Disclosure
   slug: movable-ink-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 - kind: trust-center
   name: Movable Ink Trust Center
   slug: movable-ink-trust-center

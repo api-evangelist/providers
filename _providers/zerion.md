@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -44,7 +44,7 @@ agentic_access:
   operation_count: 39
   slug: zerion-agentic-access
   summary_line: 39 operations · 8 acting · 1 human-in-the-loop
-api_count: 1
+api_count: 2
 apis:
 - baseURL: https://api.zerion.io
   baseurl_source: declared
@@ -341,7 +341,7 @@ modified: '2026-07-21'
 name: Zerion
 nav: Providers
 network: true
-overview: 'Zerion publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Chains API, Dapps API, Fungibles API, and 6 more. Tagged areas include Company, Web3, Blockchain, Cryptocurrency, and DeFi.
+overview: 'Zerion publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Chains API, Dapps API, Fungibles API, and 6 more. Tagged areas include Company, Web3, Blockchain, Cryptocurrency, and DeFi.
 
 
   The Zerion catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -392,8 +392,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 22.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

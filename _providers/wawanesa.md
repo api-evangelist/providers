@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: partner
+  gated_source:
+  - tag:Partner Gated
   label: Self-serve signup
   onboarding: self-serve
   pricing: unknown
@@ -35,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Broker-facing commercial small business API announced by Wawanesa on 2022-03-30, built with HUB International and described by Wawanesa as "fully aligned with CSIO data standards". Per the company ann
@@ -151,7 +154,7 @@ modified: '2026-07-25'
 name: Wawanesa Insurance
 nav: Providers
 network: true
-overview: 'Wawanesa Insurance publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Canada, Property and Casualty, Carrier, and Mutual Insurer.
+overview: 'Wawanesa Insurance is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Canada, Property and Casualty, Carrier, and Mutual Insurer.
 
 
   Wawanesa Insurance''s developer surface includes authentication, engineering blog, product news, support, YouTube channel, and 18 more developer resources.'
@@ -195,8 +198,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 41.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -225,6 +228,5 @@ tags:
 - Claims
 - Policy Administration
 - CSIO
-- Partner Gated
 website: https://www.wawanesa.com/canada/
 ---

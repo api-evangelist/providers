@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -295,7 +295,7 @@ modified: '2026-09-16'
 name: Abound
 nav: Providers
 network: true
-overview: 'Abound publishes 14 APIs on the [APIs.io](https://apis.io/) network, including 1099-INT API, 1099-K API, 1099-MISC API, and 11 more. Tagged areas include Company, Tax, Tax Compliance, Regulatory Compliance, and Financial Services.
+overview: 'Abound publishes 14 API contracts indexed on the [APIs.io](https://apis.io/) network, including 1099-INT API, 1099-K API, 1099-MISC API, and 11 more. Tagged areas include Company, Tax, Tax Compliance, Regulatory Compliance, and Financial Services.
 
 
   The Abound catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -307,7 +307,7 @@ score:
   band: minimal
   composite: 0.0
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -339,8 +339,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

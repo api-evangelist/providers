@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -293,9 +293,13 @@ features:
 - Instinct — Continue's open Next Edit model
 - Bearer auth with API keys prefixed con_
 finops:
-- name: Continue Dev Finops
+- has_sources: true
+  method: generated
+  name: Continue Dev Finops
+  primary_unit: ''
   service_category: AI and Machine Learning
   slug: continue-dev-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/continue-dev.png
 integrations:
 - description: Use Claude Opus, Sonnet, and Haiku as the chat/edit/apply/autocomplete model inside Continue. Anthropic-continue-hub publishes ready-to-use blocks.
@@ -346,7 +350,7 @@ modified: '2026-05-25'
 name: Continue
 nav: Providers
 network: true
-overview: 'Continue publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Ide API, and 4 more. Tagged areas include Artificial Intelligence, Developer Tools, Code Assistant, Open Source, and VS Code.
+overview: 'Continue publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Ide API, and 4 more. Tagged areas include Artificial Intelligence, Developer Tools, Code Assistant, Open Source, and VS Code.
 
 
   The Continue catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -363,9 +367,10 @@ rate_limits:
   name: Continue Dev Rate Limits
   slug: continue-dev-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Continue API Rules
+  name: Continue — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -373,7 +378,8 @@ rules:
     info: 2
     warn: 3
   slug: continue-dev-jsonschema-spectral-rules
-- effective_rule_count: 46
+- authorship: unmarked
+  effective_rule_count: 46
   extends:
   - spectral:oas
   name: Continue API Rules
@@ -386,17 +392,17 @@ rules:
   slug: continue-dev-rules
 score:
   band: developing
-  composite: 47.2
+  composite: 45.7
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 64.0
+    artifact_dirs: 20
+    catalog_earned: 61.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 51.0
+    catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 28.9
+    access_clarity: 21.1
     contract_governance: 27.3
     contract_quality: 60.0
     developer_ergonomics: 63.1
@@ -416,8 +422,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

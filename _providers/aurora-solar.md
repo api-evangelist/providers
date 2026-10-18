@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -118,6 +118,10 @@ collections:
   name: Aurora Solar API
   slug: open-aurora-solar
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://aurorasolar.com/blog/feed/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/aurora-solar/refs/heads/main/capabilities/aurora-solar-capability-edges.yml
   title: ''
@@ -176,19 +180,23 @@ common:
 created: '2026-07-04'
 description: Aurora Solar is a cloud platform for solar sales and design. It provides remote shading analysis, LIDAR and satellite-based roof modeling, PV system design, performance simulation, financing, and proposal generation so installers can design and sell solar projects without a site visit. The Aurora API (v2024.05) is a tenant-scoped REST API secured with API-key bearer tokens that lets integrations manage projects, request and retrieve designs, generate proposals, pull consumption profiles, manage users and webhooks, and push financings and agreements.
 finops:
-- name: Aurora Solar Finops
+- has_sources: true
+  method: generated
+  name: Aurora Solar Finops
+  primary_unit: ''
   service_category: Software as a Service
   slug: aurora-solar-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aurora-solar.png
 layout: provider
-modified: '2026-07-04'
+modified: '2026-10-06'
 name: Aurora Solar
 nav: Providers
 network: true
-overview: 'Aurora Solar publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Agreements API, Consumption Profiles API, Designs API, and 5 more. Tagged areas include Solar, Solar Design, PV, Proposals, and Cleantech.
+overview: 'Aurora Solar publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agreements API, Consumption Profiles API, Designs API, and 5 more. Tagged areas include Solar, Solar Design, PV, Proposals, and Cleantech.
 
 
-  Aurora Solar''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
+  Aurora Solar''s developer surface includes authentication, documentation, engineering blog, and 10 more developer resources.'
 plans:
 - name: Aurora Solar Plans Pricing
   plan_count: 5
@@ -199,23 +207,23 @@ rate_limits:
   name: Aurora Solar Rate Limits
   slug: aurora-solar-rate-limits
 score:
-  band: thin
-  composite: 34.0
+  band: emerging
+  composite: 25.7
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 61.6
+    artifact_dirs: 12
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.4
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 50.4
     developer_ergonomics: 23.8
     discoverability: 66.1
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   previous_composite: 34.0
   provenance:
     agentic_access: derived
@@ -230,9 +238,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 9.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

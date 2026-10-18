@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - baseURL: https://api.optimyzee.com
@@ -242,6 +242,19 @@ collections:
   name: Optimyzee Application API
   slug: open-optimyzee
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/optimyzee/refs/heads/main/rate-limits/optimyzee-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/optimyzee-rate-limits.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://optimyzee.com/blog/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://optimyzee.com/blog/feed/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/optimyzee/refs/heads/main/capabilities/optimyzee-capability-edges.yml
   title: ''
@@ -348,14 +361,14 @@ description: Optimyzee is an AI-powered ad management platform that structures a
   Optimyzee publishes no developer portal, API reference, SDK, or public API program around it.
 image: https://optimyzee.com/og-image.png
 layout: provider
-modified: '2026-09-16'
+modified: '2026-10-06'
 name: Optimyzee
 nav: Providers
 network: true
-overview: 'Optimyzee publishes 40 APIs on the [APIs.io](https://apis.io/) network, including App/Analyze/Google Ads/Audit API, App/Analyze/Google Ads/Health API, App/Analyze/Google Ads/Optimization API, and 37 more. Tagged areas include Company, Advertising, Google Ads, PPC, and Marketing.
+overview: 'Optimyzee publishes 40 API contracts indexed on the [APIs.io](https://apis.io/) network, including App/Analyze/Google Ads/Audit API, App/Analyze/Google Ads/Health API, App/Analyze/Google Ads/Optimization API, and 37 more. Tagged areas include Company, Advertising, Google Ads, PPC, and Marketing.
 
 
-  Optimyzee''s developer surface includes pricing, engineering blog, signup flow, support, authentication, and 17 more developer resources.'
+  Optimyzee''s developer surface includes engineering blog, pricing, signup flow, support, authentication, and 20 more developer resources.'
 plans:
 - name: Optimyzee Plans Pricing
   plan_count: 3
@@ -367,7 +380,7 @@ rate_limits:
   slug: optimyzee-rate-limits
 score:
   band: thin
-  composite: 38.7
+  composite: 38.8
   coverage:
     artifact_dirs: 21
     catalog_earned: 49.0
@@ -375,7 +388,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 69.7
     contract_governance: 4.5
@@ -399,8 +412,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

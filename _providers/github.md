@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 59.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 1203
-  human_in_the_loop: 31
+- acting_count: 1717
+  human_in_the_loop: 47
   name: Github Agentic Access
-  operation_count: 2431
+  operation_count: 3388
   slug: github-agentic-access
-  summary_line: 2431 operations · 1203 acting · 31 human-in-the-loop
+  summary_line: 3388 operations · 1717 acting · 47 human-in-the-loop
 api_count: 38
 apis:
 - baseURL: https://api.github.com/
@@ -3358,9 +3358,13 @@ features:
 - SAML SSO, SCIM, and SSH certificate authority on Enterprise Cloud
 - GitHub Marketplace for app distribution and billing
 finops:
-- name: Github Finops
+- has_sources: true
+  method: generated
+  name: Github Finops
+  primary_unit: ''
   service_category: Developer Platform
   slug: github-finops
+  template: false
 graphqls:
 - description: The GitHub GraphQL API provides a flexible query language for accessing GitHub data, allowing clients to request exactly the fields they need in a single request. It supports queries, mutations, and s
   name: GitHub GraphQL API
@@ -5236,7 +5240,7 @@ modified: '2026-09-16'
 name: GitHub
 nav: Providers
 network: true
-overview: 'GitHub publishes 56 APIs on the [APIs.io](https://apis.io/) network, including Gists API, Issues API, Licenses API, and 53 more. Tagged areas include Code, Developer Tools, Pipelines, Platform, and Software Development.
+overview: 'GitHub publishes 56 API contracts indexed on the [APIs.io](https://apis.io/) network, including Gists API, Issues API, Licenses API, and 53 more. Tagged areas include Code, Developer Tools, Pipelines, Platform, and Software Development.
 
 
   The GitHub catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 4 Spectral governance rulesets.
@@ -5256,10 +5260,11 @@ rate_limits:
   name: Github Rate Limits
   slug: github-rate-limits
 rules:
-- effective_rule_count: 34
+- authorship: generated
+  effective_rule_count: 34
   extends:
   - spectral:asyncapi
-  name: GitHub API Rules
+  name: GitHub — asyncapi rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -5267,9 +5272,10 @@ rules:
     info: 0
     warn: 6
   slug: github-asyncapi-spectral-rules
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: GitHub API Rules
+  name: GitHub — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -5277,7 +5283,8 @@ rules:
     info: 1
     warn: 5
   slug: github-jsonschema-spectral-rules
-- effective_rule_count: 53
+- authorship: generated
+  effective_rule_count: 53
   extends:
   - spectral:oas
   name: GitHub API Rules
@@ -5288,7 +5295,8 @@ rules:
     info: 1
     warn: 3
   slug: github-rules
-- effective_rule_count: 20
+- authorship: unmarked
+  effective_rule_count: 20
   extends: []
   name: GitHub API Rules
   rule_count: 20
@@ -5300,23 +5308,23 @@ rules:
   slug: github-spectral-rules
 score:
   band: exemplar
-  composite: 80.3
+  composite: 78.8
   coverage:
-    artifact_dirs: 35
-    catalog_earned: 91.0
+    artifact_dirs: 37
+    catalog_earned: 88.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 24.0
+    catalog_gap: 27.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 3.1
+  delta: -3.9
   facets:
-    access_clarity: 84.2
+    access_clarity: 76.3
     contract_governance: 31.8
     contract_quality: 75.6
     developer_ergonomics: 74.4
     discoverability: 71.7
     operational_transparency: 92.1
-  previous_composite: 77.2
+  previous_composite: 82.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -5333,8 +5341,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -5361,7 +5369,7 @@ tags:
 - Pipelines
 - Platform
 - Software Development
-- Source Control
+- Version Control
 - T1
 - GitHub
 - Git

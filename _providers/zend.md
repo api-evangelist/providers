@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.zend.com/rss.xml
 - group: company
   title: ''
   type: Website
@@ -86,14 +90,14 @@ created: '2026-07-17'
 description: Zend is the enterprise PHP platform business of Perforce Software, providing production-grade PHP runtimes, tooling, and long-term support for mission-critical applications. Its portfolio spans ZendPHP (a hardened, enterprise-supported PHP runtime with LTS builds for end-of-life PHP versions), ZendHQ (PHP application observability and monitoring), Zend Server, Zend Studio, and Zend Guard, along with migration, modernization, performance auditing, and Black Belt support services for Laravel, Symfony, CodeIgniter, and CakePHP teams. Zend ships product tooling and a documentation surface rather than a public REST API.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zend.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Zend
 nav: Providers
 network: true
 overview: 'Zend is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Infrastructure, PHP, Developer Tools, and Runtime.
 
 
-  Zend''s developer surface includes documentation, support, engineering blog, pricing, signup flow, and 6 more developer resources.'
+  Zend''s developer surface includes documentation, support, engineering blog, pricing, signup flow, and 7 more developer resources.'
 random_paper: 15
 score:
   band: emerging
@@ -120,8 +124,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

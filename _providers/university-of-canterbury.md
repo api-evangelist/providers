@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 5.0
-  scored_at: '2026-10-04'
+  score: 3.1
+  scored_at: '2026-10-17'
 api_count: 8
 apis:
 - description: 'OAI-PMH 2.0 metadata harvesting interface for the UC Research Repository, a self-hosted DSpace 7 institutional repository of theses, dissertations and research outputs. Verified live 2026-08-30: verb='
@@ -133,16 +133,20 @@ created: '2026-06-03'
 description: 'University of Canterbury (Te Whare Wananga o Waitaha) is a public research university in Christchurch, Aotearoa New Zealand. It operates no public developer programme, no developer portal and no published, self-serve API: everything machine-readable it runs is infrastructure for a purpose other than being an API product. What is genuinely institution-operated and genuinely readable is narrow — the UC Research Repository (a self-hosted DSpace 7 on ir.canterbury.ac.nz) serves a live OAI-PMH 2.0 interface with thirteen metadata formats, and three Shibboleth Service Providers on canterbury.ac.nz hosts publish valid SAML 2.0 metadata as members of Tuakiri, the New Zealand Access Federation. The rest is gated rather than absent: a CA API Gateway 9.0 answers on api.canterbury.ac.nz with no routed public service, a self-hosted GitLab serves an authenticated v4 API to the College of Engineering, and the DSpace REST API sits behind a Cloudflare bot challenge. The institution''s research
   data repository and its identity provider are both tenancies on other people''s platforms — Figshare and REANNZ''s Tuakiri Hosted IdP respectively — and are recorded here as relationships, not as University of Canterbury contracts. This profile was corrected on 2026-08-30: eleven entries previously listed under this institution were a single Figshare API v2 contract, split by tag, and have been removed.'
 finops:
-- name: University Of Canterbury Finops
+- has_sources: true
+  method: generated
+  name: University Of Canterbury Finops
+  primary_unit: ''
   service_category: Education
   slug: university-of-canterbury-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/university-of-canterbury.png
 layout: provider
 modified: '2026-08-30'
 name: University of Canterbury
 nav: Providers
 network: true
-overview: University of Canterbury publishes 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Higher Education, University, New Zealand, and Research.
+overview: University of Canterbury is listed with 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Higher Education, University, New Zealand, and Research.
 plans:
 - name: University Of Canterbury Plans Pricing
   plan_count: 2
@@ -154,22 +158,22 @@ rate_limits:
   slug: university-of-canterbury-rate-limits
 score:
   band: emerging
-  composite: 22.4
+  composite: 16.3
   coverage:
-    artifact_dirs: 8
-    catalog_earned: 57.4
+    artifact_dirs: 9
+    catalog_earned: 44.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.6
+    catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.7
+  delta: -6.1
   facets:
-    access_clarity: 37.4
+    access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 4.4
     developer_ergonomics: 21.4
     discoverability: 71.4
-    operational_transparency: 21.6
+    operational_transparency: 7.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -177,7 +181,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 24.1
+  previous_composite: 22.4
   provenance:
     conformance: first-party
   regulatory:
@@ -186,9 +190,9 @@ score:
     regime: Education & Research
     regime_id: education
     score: 15.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -211,6 +215,6 @@ tags:
 - OAI-PMH
 - Identity Federation
 - SAML
-- Learning Management
+- LMS
 website: https://www.canterbury.ac.nz/
 ---

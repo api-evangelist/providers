@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: Predictive price-assurance API that optimizes fares across EDIFACT, NDC, GDS, aggregators, and low-cost carriers, applying margin protection at both the search and post-booking stages.
@@ -46,6 +46,10 @@ apis:
   slug: wenrix-deepflow-api
 artifact_total: 5
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.wenrix.com/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/wenrix/refs/heads/main/security/wenrix-domain-security.yml
   title: ''
@@ -97,14 +101,14 @@ mcp_servers:
 - description: ''
   name: Wenrix MCP Server
   slug: wenrix-deepflow
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Wenrix
 nav: Providers
 network: true
-overview: 'Wenrix publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Travel, Airlines, Booking, and Artificial Intelligence.
+overview: 'Wenrix is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Travel, Airlines, Booking, and Artificial Intelligence.
 
 
-  Wenrix''s developer surface includes documentation, engineering blog, signup flow, and 7 more developer resources.'
+  Wenrix''s developer surface includes documentation, engineering blog, signup flow, and 8 more developer resources.'
 random_paper: 9
 score:
   band: emerging
@@ -133,8 +137,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 12.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

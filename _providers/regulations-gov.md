@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.5
-  scored_at: '2026-10-04'
+  score: 30.3
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -158,9 +158,13 @@ examples:
   name: Document List Response
   slug: document-list-response
 finops:
-- name: Regulations Gov Finops
+- has_sources: false
+  method: generated
+  name: Regulations Gov Finops
+  primary_unit: ''
   service_category: ''
   slug: regulations-gov-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/regulations-gov.png
 json_schemas:
 - name: Comment
@@ -182,7 +186,7 @@ modified: '2026-06-13'
 name: Regulations.gov
 nav: Providers
 network: true
-overview: 'Regulations.gov publishes 4 APIs on the [APIs.io](https://apis.io/) network, including comment submission utilities API, Comments API, Dockets API, and 1 more. Tagged areas include Government, Federal Rulemaking, Public Comments, Regulatory, and Dockets.
+overview: 'Regulations.gov publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including comment submission utilities API, Comments API, Dockets API, and 1 more. Tagged areas include Government, Federal Rulemaking, Public Comments, Regulatory, and Dockets.
 
 
   The Regulations.gov catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -199,9 +203,10 @@ rate_limits:
   name: Regulations Gov Rate Limits
   slug: regulations-gov-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Regulations.gov API Rules
+  name: Regulations.gov — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -211,17 +216,17 @@ rules:
   slug: regulations-gov-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 36.1
+  composite: 31.7
   coverage:
     artifact_dirs: 17
-    catalog_earned: 61.5
+    catalog_earned: 53.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.6
+    catalog_gap: 61.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -4.4
   facets:
-    access_clarity: 32.1
+    access_clarity: 10.5
     contract_governance: 9.8
     contract_quality: 59.7
     developer_ergonomics: 28.6
@@ -241,8 +246,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

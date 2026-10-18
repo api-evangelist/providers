@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 8.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: 'Akita Software provided an API observability platform that used passive traffic monitoring to automatically discover, map, and model APIs without requiring code changes or proxying. It could generate '
@@ -44,6 +44,11 @@ apis:
   slug: postman-live-insights
 artifact_total: 21
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/akita-software/refs/heads/main/finops/akita-software-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/akita-software-finops.yml
 - group: operate
   title: ''
   type: Releases
@@ -145,9 +150,13 @@ features:
 - description: Integrates with Docker, Kubernetes, NGINX, Rails, Django, Flask, FastAPI, and Heroku for broad platform coverage.
   name: Multi-Platform Integration
 finops:
-- name: Akita Software Finops
+- has_sources: false
+  method: generated
+  name: Akita Software Finops
+  primary_unit: ''
   service_category: API
   slug: akita-software-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/akita-software.png
 integrations:
 - description: Docker extension and container integration for traffic monitoring
@@ -165,10 +174,10 @@ modified: '2026-08-30'
 name: Akita Software
 nav: Providers
 network: true
-overview: 'Akita Software publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Acquired, API Discovery, API Mapping, API Observability, and Traffic Analysis.
+overview: 'Akita Software is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Acquired, API Discovery, API Mapping, API Observability, and Traffic Analysis.
 
 
-  Akita Software''s developer surface includes documentation, CLI, changelog, authentication, and 15 more developer resources.'
+  Akita Software''s developer surface includes documentation, CLI, changelog, authentication, and 16 more developer resources.'
 plans:
 - name: Akita Software Plans Pricing
   plan_count: 0
@@ -180,17 +189,17 @@ rate_limits:
   slug: akita-software-rate-limits
 score:
   band: thin
-  composite: 27.5
+  composite: 26.2
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 35.0
+    artifact_dirs: 18
+    catalog_earned: 32.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 80.0
+    catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.3
   facets:
-    access_clarity: 34.2
+    access_clarity: 26.3
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 45.2
@@ -208,13 +217,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 17.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/akita-software/refs/heads/main/screenshots/akita-software-2026-10-11T093534.png
 security:
 - kind: authentication
   name: Akita Software Authentication

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -227,7 +227,7 @@ modified: '2026-05-30'
 name: BILL
 nav: Providers
 network: true
-overview: 'BILL publishes 11 APIs on the [APIs.io](https://apis.io/) network, including v3 API, Authentication API, Bills API, and 8 more. Tagged areas include Accounts Payable, Accounts Receivable, Spend Management, Expense Management, and Payments.
+overview: 'BILL publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including v3 API, Authentication API, Bills API, and 8 more. Tagged areas include Accounts Payable, Accounts Receivable, Spend Management, Expense Management, and Payments.
 
 
   The BILL catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -236,10 +236,11 @@ overview: 'BILL publishes 11 APIs on the [APIs.io](https://apis.io/) network, in
   BILL''s developer surface includes engineering blog, sandbox, changelog, getting-started guide, authentication, documentation, API reference, and 13 more developer resources.'
 random_paper: 1
 rules:
-- effective_rule_count: 35
+- authorship: generated
+  effective_rule_count: 35
   extends:
   - spectral:asyncapi
-  name: BILL API Rules
+  name: BILL — asyncapi rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -251,7 +252,7 @@ score:
   band: developing
   composite: 39.9
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 36.5
     catalog_earned_first_party: 0.0
     catalog_gap: 78.5
@@ -279,8 +280,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 17.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

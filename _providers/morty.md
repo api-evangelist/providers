@@ -34,10 +34,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.morty.com/resources/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.morty.com/resources/feed
 - group: company
   title: ''
   type: Website
@@ -103,14 +111,14 @@ created: '2026-07-17'
 description: 'Morty is a digital mortgage platform and modular, embeddable mortgage infrastructure company (a Techstars-backed fintech). It gives loan officers, brokers, realtors, and fintech partners an all-in-one, compliance-ready stack to launch and scale a mortgage business without building from scratch: a Loan Origination System (LOS), Point-of-Sale (POS), a real-time Product & Pricing Engine (PPE), a lender network (25+ lenders), processing and fulfillment, and Rosey AI automation. Partners can embed mortgage into their own product via Morty''s embeddable widgets and "real-time pricing, eligibility, and overlays via API," with an API key provisioned through a partnership (Contact Sales). Morty publishes no public OpenAPI, developer portal, or /.well-known API surface today — the API is partner-gated.'
 image: https://morty-cms.s3.us-east-2.amazonaws.com/public/Morty_Logo_Square.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Morty
 nav: Providers
 network: true
 overview: 'Morty is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Mortgage, Lending, Fintech, and Mortgage Infrastructure.
 
 
-  Morty''s developer surface includes documentation, support, signup flow, pricing, engineering blog, authentication, changelog, and 7 more developer resources.'
+  Morty''s developer surface includes engineering blog, documentation, support, signup flow, pricing, authentication, changelog, and 9 more developer resources.'
 random_paper: 21
 score:
   band: emerging
@@ -137,8 +145,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

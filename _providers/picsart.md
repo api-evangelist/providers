@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 69
+- acting_count: 63
   human_in_the_loop: 0
   name: Picsart Agentic Access
-  operation_count: 91
+  operation_count: 84
   slug: picsart-agentic-access
-  summary_line: 91 operations · 69 acting
+  summary_line: 84 operations · 63 acting
 api_count: 4
 apis:
 - baseURL: https://api.picsart.io/tools/1.0
@@ -161,7 +161,7 @@ apis:
   description: The Watermark API from Picsart — 1 operation(s) for watermark.
   name: Picsart Watermark API
   slug: picsart-watermark-api
-artifact_total: 52
+artifact_total: 53
 collections:
 - collection_type: open
   name: API Collection
@@ -236,6 +236,11 @@ collections:
   name: Picsart GenAI Ads Watermark API
   slug: open-picsart-watermark-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/picsart/refs/heads/main/plans/picsart-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/picsart-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/picsart/refs/heads/main/capabilities/picsart-capability-edges.yml
   title: ''
@@ -409,28 +414,32 @@ modified: '2026-07-20'
 name: Picsart
 nav: Providers
 network: true
-overview: 'Picsart publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Ads API, Audio API, Classification API, and 20 more. Tagged areas include Company, Consumer, Image, Image Processing, and Video.
+overview: 'Picsart publishes 23 API contracts indexed on the [APIs.io](https://apis.io/) network, including Ads API, Audio API, Classification API, and 20 more. Tagged areas include Company, Consumer, Image, Image Processing, and Video.
 
 
-  Picsart''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
+  Picsart''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
+plans:
+- name: Picsart Plans Pricing
+  plan_count: 4
+  slug: picsart-plans-pricing
 random_paper: 10
 rate_limits:
 - limit_count: 1
   name: Picsart Rate Limits
   slug: picsart-rate-limits
 score:
-  band: developing
-  composite: 52.4
+  band: strong
+  composite: 58.3
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 48.0
-    catalog_earned_first_party: 8.0
-    catalog_gap: 67.0
+    artifact_dirs: 27
+    catalog_earned: 60.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 5.9
   facets:
-    access_clarity: 44.7
+    access_clarity: 76.3
     contract_governance: 4.5
     contract_quality: 52.3
     developer_ergonomics: 66.1
@@ -449,13 +458,13 @@ score:
     skills: derived
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 22.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

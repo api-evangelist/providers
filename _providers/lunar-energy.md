@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.8
-  scored_at: '2026-10-04'
+  score: 22.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 1
@@ -328,9 +328,13 @@ features:
 - Octopus Energy partnership — battery electricity plans in Texas
 - Sunrun and SunPower installer Okta SSO
 finops:
-- name: Lunar Energy Finops
+- has_sources: true
+  method: generated
+  name: Lunar Energy Finops
+  primary_unit: project
   service_category: Energy and Distributed Resources
   slug: lunar-energy-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lunar-energy.png
 json_schemas:
 - name: Gridshare Device
@@ -352,7 +356,7 @@ modified: '2026-05-25'
 name: Lunar Energy
 nav: Providers
 network: true
-overview: 'Lunar Energy publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Devices API, Diff Requests API, Dynamic Tariffs API, and 11 more. Tagged areas include Energy, Home Battery, Solar, Virtual Power Plant, and DERMS.
+overview: 'Lunar Energy publishes 14 API contracts indexed on the [APIs.io](https://apis.io/) network, including Devices API, Diff Requests API, Dynamic Tariffs API, and 11 more. Tagged areas include Energy, Home Battery, Solar, Virtual Power Plant, and DERMS.
 
 
   The Lunar Energy catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -369,10 +373,11 @@ rate_limits:
   name: Lunar Energy Rate Limits
   slug: lunar-energy-rate-limits
 rules:
-- effective_rule_count: 49
+- authorship: unmarked
+  effective_rule_count: 49
   extends:
   - spectral:oas
-  name: Lunar Energy API Rules
+  name: Lunar Energy — gridshare rules
   rule_count: 8
   severity_counts:
     error: 4
@@ -380,9 +385,10 @@ rules:
     info: 0
     warn: 4
   slug: gridshare-rules
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Lunar Energy API Rules
+  name: Lunar Energy — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -396,23 +402,23 @@ scopes:
   slug: lunar-energy-scopes
   summary_line: 4 scopes · authorizationCode
 score:
-  band: developing
-  composite: 48.3
+  band: thin
+  composite: 37.3
   coverage:
     artifact_dirs: 16
-    catalog_earned: 77.8
+    catalog_earned: 50.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 37.2
+    catalog_gap: 64.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.2
+  delta: -11.0
   facets:
-    access_clarity: 44.2
-    contract_governance: 49.1
+    access_clarity: 23.7
+    contract_governance: 13.6
     contract_quality: 51.8
     developer_ergonomics: 44.0
     discoverability: 57.1
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -420,7 +426,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 53.5
+  previous_composite: 48.3
   provenance:
     agentic_access: derived
     contracts:
@@ -434,8 +440,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 32.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: falling
   upsert:
     applies: true

@@ -33,10 +33,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 4
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.aninebing.com/collections/new-in
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.aninebing.com/collections/new-in.atom
 - group: company
   title: ''
   type: Website
@@ -105,14 +113,14 @@ mcp_servers:
 - description: Live Universal Commerce Protocol (UCP, ucp.dev) shopping MCP endpoint for the Anine Bing Shopify storefront. Enables agent-driven catalog search, cart, and buyer-approved checkout. This is Shopify's n
   name: Anine Bing UCP shopping MCP
   slug: anine-bing-ucp-shopping
-modified: '2026-07-17'
+modified: '2026-10-06'
 name: Anine Bing
 nav: Providers
 network: true
 overview: 'Anine Bing is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Retail, Fashion, Apparel, and E-Commerce.
 
 
-  Anine Bing''s developer surface includes authentication, engineering blog, support, and 10 more developer resources.'
+  Anine Bing''s developer surface includes engineering blog, authentication, support, and 12 more developer resources.'
 random_paper: 16
 scopes:
 - name: Anine Bing Scopes
@@ -123,7 +131,7 @@ score:
   band: emerging
   composite: 17.4
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -154,8 +162,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

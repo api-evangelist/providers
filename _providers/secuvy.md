@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: AI-driven data security and privacy platform delivering data discovery, classification, DSPM, privacy automation, and AI governance through more than 250 connectors. The platform offers an open API fr
@@ -41,6 +41,21 @@ apis:
   slug: secuvy-platform
 artifact_total: 5
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/secuvy/refs/heads/main/plans/secuvy-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/secuvy-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/secuvy/refs/heads/main/rate-limits/secuvy-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/secuvy-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/secuvy/refs/heads/main/finops/secuvy-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/secuvy-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/secuvy/refs/heads/main/security/secuvy-domain-security.yml
   title: ''
@@ -65,19 +80,23 @@ common:
 created: '2026-05-23'
 description: Secuvy is an AI data filtering and data security platform that combines data discovery, classification, data security posture management, privacy automation, and AI governance into a single product. The platform automates detection and classification of sensitive data across hybrid and multi-cloud environments and prevents regulated data from leaking into AI tools, assistants, and inference pipelines. Secuvy offers more than 250 connectors covering AWS, Azure, GCP, Microsoft 365, Salesforce, Slack, Jira, ServiceNow, Snowflake, Databricks, BigQuery, MongoDB, and on-premise systems like Windows File Servers, SharePoint, and NFS. Authentication options include OAuth, SAML, and API key based integration, and developers can build custom connectors against any system with a public API. Public API reference documentation was not located during research; technical detail is provided through Secuvy's sales and onboarding teams.
 finops:
-- name: Secuvy Finops
+- has_sources: false
+  method: generated
+  name: Secuvy Finops
+  primary_unit: ''
   service_category: API
   slug: secuvy-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/secuvy.png
 layout: provider
 modified: '2026-05-23'
 name: Secuvy
 nav: Providers
 network: true
-overview: 'Secuvy publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Secuvy, Data Security, Privacy, PII Discovery, and DSPM.
+overview: 'Secuvy is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Secuvy, Data Security, Privacy, PII Discovery, and DSPM.
 
 
-  Secuvy''s developer surface includes engineering blog and 4 more developer resources.'
+  Secuvy''s developer surface includes engineering blog and 7 more developer resources.'
 plans:
 - name: Secuvy Plans Pricing
   plan_count: 1
@@ -88,23 +107,23 @@ rate_limits:
   name: Secuvy Rate Limits
   slug: secuvy-rate-limits
 score:
-  band: emerging
-  composite: 12.1
+  band: minimal
+  composite: 6.1
   coverage:
     artifact_dirs: 7
-    catalog_earned: 49.4
+    catalog_earned: 36.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 65.6
+    catalog_gap: 79.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.0
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
     discoverability: 57.1
-    operational_transparency: 18.9
+    operational_transparency: 5.3
   previous_composite: 12.1
   regulatory:
     applies: true
@@ -112,9 +131,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

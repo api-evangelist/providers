@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: The Copernicus Marine Toolbox provides the officially supported programmatic interface to the Copernicus Marine Data Store, available as both a Python library and CLI. Core operations include describe
@@ -114,9 +114,13 @@ common:
 created: '2026-06-13'
 description: The EU Copernicus Marine Environment Monitoring Service (CMEMS), operated by Mercator Ocean International, provides free and open access to authoritative information on the state of the global ocean and European regional seas. The service delivers ocean physical and biogeochemical data through multiple APIs covering temperature, salinity, sea level, currents, sea ice, and marine ecosystem variables from satellite observations, in situ measurements, and numerical model reanalysis and forecast products. Data can be accessed programmatically via the Copernicus Marine Toolbox (Python API and CLI), the OGC-compliant Web Map Tile Service (WMTS) for visualization, and the Catalogue Service for the Web (CSW) for product discovery. All services require a free Copernicus Marine account, except the CSW which is fully open, and there are no data volume quotas or download limits.
 finops:
-- name: Copernicus Marine Finops
+- has_sources: false
+  method: generated
+  name: Copernicus Marine Finops
+  primary_unit: ''
   service_category: ''
   slug: copernicus-marine-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/copernicus-marine.png
 jsonld:
 - class_count: 0
@@ -128,7 +132,7 @@ modified: '2026-06-13'
 name: Copernicus Marine
 nav: Providers
 network: true
-overview: 'Copernicus Marine publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Ocean, Marine, Oceanography, Sea Level, and Temperature.
+overview: 'Copernicus Marine is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Ocean, Marine, Oceanography, Sea Level, and Temperature.
 
 
   The Copernicus Marine catalog on APIs.io includes 1 JSON-LD context.
@@ -146,17 +150,17 @@ rate_limits:
   slug: copernicus-marine-rate-limits
 score:
   band: emerging
-  composite: 24.7
+  composite: 20.7
   coverage:
     artifact_dirs: 8
-    catalog_earned: 55.2
+    catalog_earned: 47.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 59.8
+    catalog_gap: 68.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -4.0
   facets:
-    access_clarity: 50.5
+    access_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 6.7
     developer_ergonomics: 16.7
@@ -177,8 +181,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

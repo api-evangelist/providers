@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 15.5
-  scored_at: '2026-10-04'
+  score: 13.6
+  scored_at: '2026-10-17'
 api_count: 6
 apis:
 - description: Public and authenticated REST endpoints for spot and margin trading, including order placement, cancellation, order-book queries, trade history, and account balance management.
@@ -119,9 +119,13 @@ common:
 created: '2026-06-13'
 description: Gate.io is a pioneering cryptocurrency exchange serving over 23 million users globally since 2013. Its Gate API v4 provides REST and WebSocket interfaces for spot, margin, futures, options, and perpetual contract trading, as well as wallet management, earn products, sub-account operations, and comprehensive market data. SDKs are available in Python, Node.js, Java, Go, PHP, C#, and JavaScript, all generated from an OpenAPI specification.
 finops:
-- name: Gate Io Finops
+- has_sources: false
+  method: generated
+  name: Gate Io Finops
+  primary_unit: ''
   service_category: ''
   slug: gate-io-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/gate-io.png
 jsonld:
 - class_count: 0
@@ -133,7 +137,7 @@ modified: '2026-06-13'
 name: Gate.io
 nav: Providers
 network: true
-overview: 'Gate.io publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Gate API v4 — Spot & Margin, and 5 more. Tagged areas include Cryptocurrency, Exchange, Trading, Spot Trading, and Margin Trading.
+overview: 'Gate.io is listed with 6 APIs on the [APIs.io](https://apis.io/) network, including Gate API v4 — Spot & Margin, and 5 more. Tagged areas include Cryptocurrency, Exchange, Trading, Spot Trading, and Margin Trading.
 
 
   The Gate.io catalog on APIs.io includes 1 JSON-LD context.
@@ -151,22 +155,22 @@ rate_limits:
   slug: gate-io-rate-limits
 score:
   band: thin
-  composite: 34.8
+  composite: 26.5
   coverage:
-    artifact_dirs: 8
-    catalog_earned: 72.6
+    artifact_dirs: 9
+    catalog_earned: 54.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 42.4
+    catalog_gap: 61.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 46.8
+    access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 34.7
     developer_ergonomics: 9.5
     discoverability: 71.4
-    operational_transparency: 65.3
+    operational_transparency: 44.7
   previous_composite: 34.8
   regulatory:
     applies: true
@@ -174,9 +178,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 15.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

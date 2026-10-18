@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.7
-  scored_at: '2026-10-04'
+  score: 26.6
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -126,6 +126,29 @@ collections:
   name: Xweather Weather API
   slug: open-xweather-weather-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/xweather/refs/heads/main/plans/xweather-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/xweather-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/xweather/refs/heads/main/rate-limits/xweather-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/xweather-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/xweather/refs/heads/main/finops/xweather-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/xweather-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.xweather.com/blog/category/news
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.xweather.com/feed.xml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/xweather/refs/heads/main/agentic-access/xweather-agentic-access.yml
   title: ''
@@ -293,9 +316,13 @@ features:
 - description: Active tropical cyclone tracks, intensity, and forecast cones.
   name: Tropical Cyclones
 finops:
-- name: Xweather Finops
+- has_sources: false
+  method: generated
+  name: Xweather Finops
+  primary_unit: ''
   service_category: API
   slug: xweather-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/xweather.png
 integrations:
 - description: Tile and overlay services for visualizing Xweather data on web and mobile maps.
@@ -368,17 +395,17 @@ jsonld:
   property_count: 66
   slug: xweather-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-10-06'
 name: Xweather
 nav: Providers
 network: true
-overview: 'Xweather publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Air Quality API, Alerts API, Conditions API, and 6 more. Tagged areas include Air Quality, Company, Data, Forecast, and Lightning.
+overview: 'Xweather publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Air Quality API, Alerts API, Conditions API, and 6 more. Tagged areas include Air Quality, Company, Data, Forecast, and Lightning.
 
 
   The Xweather catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Xweather''s developer surface includes authentication, documentation, API reference, signup flow, pricing, code examples, engineering blog, and 23 more developer resources.'
+  Xweather''s developer surface includes engineering blog, authentication, documentation, API reference, signup flow, pricing, code examples, and 28 more developer resources.'
 plans:
 - name: Xweather Plans Pricing
   plan_count: 3
@@ -389,9 +416,10 @@ rate_limits:
   name: Xweather Rate Limits
   slug: xweather-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Xweather API Rules
+  name: Xweather — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -399,7 +427,8 @@ rules:
     info: 2
     warn: 3
   slug: xweather-jsonschema-spectral-rules
-- effective_rule_count: 52
+- authorship: unmarked
+  effective_rule_count: 52
   extends:
   - spectral:oas
   name: Xweather API Rules
@@ -412,23 +441,23 @@ rules:
   slug: xweather-rules
 score:
   band: developing
-  composite: 43.2
+  composite: 41.7
   coverage:
-    artifact_dirs: 16
-    catalog_earned: 63.0
+    artifact_dirs: 18
+    catalog_earned: 60.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 52.0
+    catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.2
+  delta: -1.5
   facets:
-    access_clarity: 39.5
+    access_clarity: 31.6
     contract_governance: 27.3
     contract_quality: 61.2
     developer_ergonomics: 42.9
     discoverability: 66.1
     operational_transparency: 10.5
-  previous_composite: 44.4
+  previous_composite: 43.2
   provenance:
     agentic_access: derived
     contracts:
@@ -442,8 +471,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

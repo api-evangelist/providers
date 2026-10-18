@@ -33,10 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://sonothera.com/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/sonothera/refs/heads/main/security/sonothera-domain-security.yml
   title: ''
@@ -105,20 +109,20 @@ created: '2026-08-28'
 description: 'SonoThera, Inc. is a privately held, clinical-stage biotechnology company headquartered at 201 Haskins Way in South San Francisco, California, founded in 2022 to make genetic medicine deliverable without a viral vector. Its RIPPLE platform pairs an intravenously administered lipid-and-microbubble formulation with an externally applied diagnostic ultrasound probe: the acoustic energy transiently permeabilizes cell membranes in the targeted organ so a nucleic-acid payload enters only where the probe is pointed, an approach built on the roughly 35 million ultrasound contrast-agent doses given safely each year in cardiac imaging. A companion payload engineering platform, PORE, carries DNA and RNA constructs, gene editing and gene silencing cargo of varied size and format. The company holds an exclusive license to GE HealthCare''s Optison and Sonazoid microbubble products for use with the platform, and has raised approximately $186 million — a $60.75 million Series A and an oversubscribed
   $125 million Series B — from ARCH Venture Partners, Johnson & Johnson, Illumina Ventures and Eli Lilly, to push lead programs in Duchenne muscular dystrophy and autosomal dominant polycystic kidney disease into the clinic, with preclinical work in Alport syndrome and hemophilia A. It was co-founded by Kenneth Greenberg (CEO), Steve Feinstein (Chief Scientific Officer) and Michael H. Davidson (Executive Chairman). SonoThera sells therapeutics, not software: it runs no developer program, publishes no API, SDK or machine-readable specification, and maintains no public source-code organization.'
 layout: provider
-modified: '2026-08-28'
+modified: '2026-10-06'
 name: SonoThera
 nav: Providers
 network: true
 overview: 'SonoThera is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Pharmaceuticals, Gene Therapy, and Genetic Medicine.
 
 
-  SonoThera''s developer surface includes product news, support, and 8 more developer resources.'
+  SonoThera''s developer surface includes product news, support, and 9 more developer resources.'
 random_paper: 11
 score:
   band: minimal
   composite: 5.1
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 25.0
     catalog_earned_first_party: 0.0
     catalog_gap: 90.0
@@ -139,8 +143,8 @@ score:
     regime: Health
     regime_id: health
     score: 4.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

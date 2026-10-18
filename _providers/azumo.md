@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 1.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -38,6 +38,18 @@ apis:
   slug: azumo-api
 artifact_total: 5
 common:
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://azumo.com/get-pricing
+- group: company
+  title: ''
+  type: Blog
+  url: https://azumo.com/insights
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://azumo.com/insights/rss.xml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/azumo/refs/heads/main/agentic-access/azumo-agentic-access.yml
   title: ''
@@ -102,24 +114,25 @@ created: '2026-09-27'
 description: Azumo is a top‑rated software development company specializing in AI services, including machine‑learning, large language model integration, computer vision, and generative AI solutions. They offer custom software development, cloud and DevOps, mobile app creation, and dedicated development teams, serving businesses of all sizes with end‑to‑end technology consulting and implementation.
 image: https://cdn.prod.website-files.com/60bf1f474febc8bc145ee778/67d1f3dad4e66412b55757d8_Azumo%20%20Software%20Development%20Company.png
 layout: provider
-modified: '2026-09-27'
+modified: '2026-10-06'
 name: Azumo
 nav: Providers
 network: true
-overview: 'Azumo publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Software Development, Artificial Intelligence, Custom Solutions, and Cloud Services.
+overview: 'Azumo is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Software Development, Artificial Intelligence, Custom Solutions, and Cloud Services.
 
 
   The Azumo catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Azumo''s developer surface includes documentation, getting-started guide, and 11 more developer resources.'
+  Azumo''s developer surface includes pricing, engineering blog, documentation, getting-started guide, and 12 more developer resources.'
 plans:
 - name: Azumo Plans Pricing
   plan_count: 3
   slug: azumo-plans-pricing
 random_paper: 6
 rules:
-- effective_rule_count: 48
+- authorship: generated
+  effective_rule_count: 48
   extends:
   - spectral:oas
   name: Azumo API Rules
@@ -131,22 +144,24 @@ rules:
     warn: 1
   slug: azumo-rules
 score:
-  band: emerging
-  composite: 24.0
+  band: thin
+  composite: 26.7
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 12
     catalog_earned: 48.5
     catalog_earned_first_party: 12.0
     catalog_gap: 66.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 2.7
   facets:
-    access_clarity: 42.1
+    access_clarity: 52.6
     contract_governance: 31.8
     contract_quality: 0.0
-    developer_ergonomics: 21.4
+    developer_ergonomics: 23.8
     discoverability: 64.3
     operational_transparency: 10.5
+  previous_composite: 24.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -157,12 +172,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/azumo/refs/heads/main/screenshots/azumo-2026-10-11T101336.png
 security:
 - kind: domain-security
   name: Azumo Domain Security

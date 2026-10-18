@@ -23,10 +23,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 0
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://axyomcore.ai/en/news-insights/tag/news
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://axyomcore.ai/en/news-insights/rss.xml
 - group: company
   title: ''
   type: Website
@@ -46,14 +54,14 @@ common:
 created: '2026-08-17'
 description: 'Telecom infrastructure software vendor, styled Axyom.Core, supplying cloud-native 4G and 5G mobile core and RAN network functions (CNFs) that run inside communications service provider networks. Product lines cover 4G core, Femto core, security gateway, RAN and full-MVNO deployments, with Red Hat OpenShift support. Part of Lumine Group following a carve-out from Casa Systems. NO PUBLIC API SURFACE: the company sells into operator networks through RFP and direct engagement, and publishes no developer portal, API documentation, or machine-readable contract. That is an absence of a PUBLIC interface, not an absence of APIs — mobile core network functions are API-driven by construction, but those interfaces reach customers under operator contracts rather than a public developer program.'
 layout: provider
-modified: '2026-08-17'
+modified: '2026-10-06'
 name: AxyomCore
 nav: Providers
 network: true
 overview: 'AxyomCore is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Telecommunications, 5G Core, 4G/LTE Core, RAN, and Mobile Network Functions.
 
 
-  AxyomCore''s developer surface includes support, engineering blog, and 2 more developer resources.'
+  AxyomCore''s developer surface includes engineering blog, support, and 4 more developer resources.'
 random_paper: 15
 score:
   band: minimal
@@ -86,8 +94,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 0.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.pfct.co.kr/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/peoplefund-perfect-technologies/refs/heads/main/security/peoplefund-perfect-technologies-domain-security.yml
   title: ''
@@ -53,14 +57,14 @@ created: '2026-07-17'
 description: 'PFC Technologies (formerly PeopleFund) is a Seoul, South Korea fintech company operating at the intersection of direct online lending and AI lending infrastructure. It runs two platforms: CPLE (Crople), an online investment-linked finance (온라인투자연계금융) service that matches retail investors with consumer and small-business loans, and AIRPACK, an AI-powered, no-code underwriting and loan operations infrastructure (AIRPACK-Lab for data analysis, model development and approval-rule tuning, and AIRPACK-Studio for model deployment, rule-set operation and performance monitoring) sold to savings banks and other lending institutions. As of this profile the company publishes no public developer portal, OpenAPI, SDK, or partner API surface; AIRPACK integrations are handled through a direct sales/contact process. This record was surfaced as a 500 Global portfolio company and enriched as an API Evangelist network company profile.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/peoplefund-perfect-technologies.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: PeopleFund, Perfect Technologies
 nav: Providers
 network: true
 overview: 'PeopleFund, Perfect Technologies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Lending, Investing, and Artificial Intelligence.
 
 
-  PeopleFund, Perfect Technologies'' developer surface includes engineering blog and 2 more developer resources.'
+  PeopleFund, Perfect Technologies'' developer surface includes engineering blog and 3 more developer resources.'
 random_paper: 3
 score:
   band: minimal
@@ -94,8 +98,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 4.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

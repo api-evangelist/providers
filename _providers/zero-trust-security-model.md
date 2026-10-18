@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 3.8
-  scored_at: '2026-10-04'
+  score: 1.9
+  scored_at: '2026-10-17'
 api_count: 5
 apis:
 - description: The foundational specification of the Zero Trust security model. Defines the seven tenets, the PDP/PEP/PA logical components, and the deployment variants (enhanced identity governance, microsegmentati
@@ -53,6 +53,21 @@ apis:
   slug: ncsc-zero-trust-principles
 artifact_total: 30
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/zero-trust-security-model/refs/heads/main/plans/zero-trust-security-model-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/zero-trust-security-model-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/zero-trust-security-model/refs/heads/main/rate-limits/zero-trust-security-model-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/zero-trust-security-model-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/zero-trust-security-model/refs/heads/main/finops/zero-trust-security-model-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/zero-trust-security-model-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/zero-trust-security-model/refs/heads/main/security/zero-trust-security-model-vulnerability-disclosure.yml
   title: ''
@@ -169,9 +184,13 @@ features:
 - description: User and workload identity replaces network location as the primary trust boundary.
   name: Identity as the Perimeter
 finops:
-- name: Zero Trust Security Model Finops
+- has_sources: false
+  method: generated
+  name: Zero Trust Security Model Finops
+  primary_unit: ''
   service_category: API
   slug: zero-trust-security-model-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zero-trust-security-model.png
 json_schemas:
 - name: Zero Trust Maturity Assessment
@@ -194,13 +213,13 @@ modified: '2026-05-03'
 name: Zero-Trust Security Model
 nav: Providers
 network: true
-overview: 'Zero-Trust Security Model publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Access Control, Cybersecurity, Federal, Identity Management, and Network Security.
+overview: 'Zero-Trust Security Model is listed with 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Access Control, Cybersecurity, Federal, Identity and Access Management, and Network Security.
 
 
   The Zero-Trust Security Model catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Zero-Trust Security Model''s developer surface includes documentation, developer portal, code examples, and 18 more developer resources.'
+  Zero-Trust Security Model''s developer surface includes documentation, developer portal, code examples, and 21 more developer resources.'
 plans:
 - name: Zero Trust Security Model Plans Pricing
   plan_count: 3
@@ -211,9 +230,10 @@ rate_limits:
   name: Zero Trust Security Model Rate Limits
   slug: zero-trust-security-model-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Zero-Trust Security Model API Rules
+  name: Zero-Trust Security Model — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -223,17 +243,17 @@ rules:
   slug: zero-trust-security-model-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 25.4
+  composite: 23.8
   coverage:
     artifact_dirs: 11
-    catalog_earned: 55.3
+    catalog_earned: 52.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 59.8
+    catalog_gap: 62.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 23.7
+    access_clarity: 15.8
     contract_governance: 9.8
     contract_quality: 17.2
     developer_ergonomics: 26.2
@@ -246,8 +266,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 21.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -268,7 +288,7 @@ tags:
 - Access Control
 - Cybersecurity
 - Federal
-- Identity Management
+- Identity and Access Management
 - Network Security
 - NIST
 - Security

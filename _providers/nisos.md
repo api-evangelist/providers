@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'Credential-gated HTTPS API behind the Nisos Ascend human risk management platform. Its existence and base URL are established from Nisos''s own production build: the Ascend console''s configuration modu'
@@ -127,7 +127,7 @@ modified: '2026-08-26'
 name: Nisos
 nav: Providers
 network: true
-overview: 'Nisos publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Threat Intelligence, Human Risk Management, Insider Threat, Executive Protection, and OSINT.
+overview: 'Nisos is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Threat Intelligence, Human Risk Management, Insider Threat, Executive Protection, and OSINT.
 
 
   Nisos'' developer surface includes engineering blog, support, and 11 more developer resources.'
@@ -175,8 +175,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 23.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

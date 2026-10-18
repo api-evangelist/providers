@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: documented
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.7
-  scored_at: '2026-10-04'
+  score: 27.8
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 2
@@ -101,6 +101,18 @@ apis:
   description: The Topic API from Apache Kafka — 2 operation(s) for topic.
   name: Apache Kafka Topic API
   slug: apache-kafka-topic-api
+- description: API for publishing streams of records to Kafka topics.
+  name: Apache Kafka Producer API
+  slug: apache-kafka-producer-api
+- description: API for subscribing to topics and processing streams of records.
+  name: Apache Kafka Consumer API
+  slug: apache-kafka-consumer-api
+- description: API for building stream processing applications and microservices on top of Kafka.
+  name: Apache Kafka Streams API
+  slug: apache-kafka-streams-api
+- description: API for managing and inspecting topics, brokers, configurations, and ACLs.
+  name: Apache Kafka Admin API
+  slug: apache-kafka-admin-api
 arazzos:
 - description: Read the current config, validate the replacement, apply it, restart, and confirm.
   name: Apache Kafka Update a Connector Configuration
@@ -138,8 +150,11 @@ arazzos:
 - description: Resolve the cluster, create a topic with explicit partitioning, read it back, and produce a first record.
   name: Apache Kafka Provision a Topic and Produce a Record
   slug: apache-kafka-topic-provision-produce-workflow
-artifact_total: 125
+artifact_total: 149
 asyncapis:
+- description: 'Generic AsyncAPI 2.6 reference template for Apache Kafka. Apache Kafka is a distributed event streaming platform where producers publish records to topics partitioned across a cluster of brokers, and '
+  name: Apache Kafka
+  slug: apache-kafka-asyncapi
 - description: 'Apache Kafka is a distributed event streaming platform capable of handling trillions of events a day. This spec describes the core messaging protocol for producing and consuming records to/from Kafka '
   name: Apache Kafka Messaging API
   slug: kafka-messaging
@@ -187,10 +202,100 @@ collections:
   name: Confluent Kafka REST Proxy API
   slug: open-kafka-rest-proxy
 common:
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/rules/apache-kafka-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/apache-kafka-spectral-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/rules/apache-kafka-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/apache-kafka-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/rules/apache-kafka-jsonschema-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/apache-kafka-jsonschema-spectral-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/rules/apache-kafka-asyncapi-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/apache-kafka-asyncapi-spectral-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/json-ld/apache-kafka-kafka-rest-proxy-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/apache-kafka-kafka-rest-proxy-context.jsonld
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/json-ld/apache-kafka-kafka-connect-task-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/apache-kafka-kafka-connect-task-context.jsonld
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/json-ld/apache-kafka-kafka-connect-create-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/apache-kafka-kafka-connect-create-context.jsonld
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/json-ld/apache-kafka-kafka-connect-connector-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/apache-kafka-kafka-connect-connector-context.jsonld
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/json-ld/apache-kafka-kafka-connect-config-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/apache-kafka-kafka-connect-config-context.jsonld
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/json-ld/apache-kafka-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/apache-kafka-context.jsonld
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/vocabulary/apache-kafka-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/apache-kafka-vocabulary.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/lifecycle/apache-kafka-lifecycle.yml
+  title: ''
+  type: Deprecation
+  url: lifecycle/apache-kafka-lifecycle.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/errors/apache-kafka-problem-types.yml
+  title: ''
+  type: ErrorCatalog
+  url: errors/apache-kafka-problem-types.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/integrations/apache-kafka-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/apache-kafka-integration-edges.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/packages/apache-kafka-packages.yml
+  title: ''
+  type: SDKs
+  url: packages/apache-kafka-packages.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/plans/apache-kafka-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/apache-kafka-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/rate-limits/apache-kafka-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/apache-kafka-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/finops/apache-kafka-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/apache-kafka-finops.yml
 - group: company
   title: ''
   type: Website
-  url: https://www.apache.org/
+  url: https://kafka.apache.org/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/overlays/apache-kafka-kafka-connect-overlay.yaml
   title: ''
@@ -459,9 +564,13 @@ features:
 - description: Horizontally scalable consumers with automatic partition rebalancing.
   name: Consumer Groups
 finops:
-- name: Apache Kafka Finops
+- has_sources: false
+  method: generated
+  name: Apache Kafka Finops
+  primary_unit: ''
   service_category: API
   slug: apache-kafka-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/apache-kafka.png
 integrations:
 - description: Spark Structured Streaming integration for batch and streaming analytics.
@@ -477,6 +586,57 @@ integrations:
 - description: HDFS sink connector for streaming data into Hadoop data lake.
   name: Apache Hadoop
 json_schemas:
+- name: Acl
+  property_count: 10
+  slug: apache-kafka-acl
+- name: Broker
+  property_count: 6
+  slug: apache-kafka-broker
+- name: Cluster
+  property_count: 6
+  slug: apache-kafka-cluster
+- name: ConfigValidationResult
+  property_count: 4
+  slug: apache-kafka-config-validation-result
+- name: ConnectorInfo
+  property_count: 4
+  slug: apache-kafka-connector-info
+- name: ConnectorPlugin
+  property_count: 3
+  slug: apache-kafka-connector-plugin
+- name: ConnectorStatus
+  property_count: 4
+  slug: apache-kafka-connector-status
+- name: ConsumerGroup
+  property_count: 10
+  slug: apache-kafka-consumer-group
+- name: CreateAclRequest
+  property_count: 7
+  slug: apache-kafka-create-acl-request
+- name: CreateConnectorRequest
+  property_count: 2
+  slug: apache-kafka-create-connector-request
+- name: CreateTopicRequest
+  property_count: 4
+  slug: apache-kafka-create-topic-request
+- name: Partition
+  property_count: 7
+  slug: apache-kafka-partition
+- name: ProduceRequest
+  property_count: 4
+  slug: apache-kafka-produce-request
+- name: ProduceResponse
+  property_count: 6
+  slug: apache-kafka-produce-response
+- name: TaskInfo
+  property_count: 2
+  slug: apache-kafka-task-info
+- name: TaskStatus
+  property_count: 4
+  slug: apache-kafka-task-status
+- name: Topic
+  property_count: 9
+  slug: apache-kafka-topic
 - name: ConfigValidationResult
   property_count: 4
   slug: kafka-connect-config-validation-result
@@ -587,6 +747,10 @@ json_structures:
   property_count: 9
   slug: kafka-rest-proxy-topic-structure
 jsonld:
+- class_count: 17
+  name: Apache Kafka Context
+  property_count: 49
+  slug: apache-kafka-context
 - class_count: 2
   name: Apache Kafka Kafka Connect Config Context
   property_count: 3
@@ -616,13 +780,13 @@ modified: '2026-06-20'
 name: Apache Kafka
 nav: Providers
 network: true
-overview: 'Apache Kafka publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Messaging API, ACL API, Broker API, and 9 more. Tagged areas include Apache Kafka, Distributed Systems, Event Streaming, Messaging, and Open Source.
+overview: 'Apache Kafka publishes 16 API contracts indexed on the [APIs.io](https://apis.io/) network, including Messaging API, ACL API, Broker API, and 13 more. Tagged areas include Apache Kafka, Distributed Systems, Event Streaming, Messaging, and Open Source.
 
 
-  The Apache Kafka catalog on APIs.io includes 1 event-driven AsyncAPI specification, 5 JSON-LD contexts, and 3 Spectral governance rulesets.
+  The Apache Kafka catalog on APIs.io includes 2 event-driven AsyncAPI specifications, 6 JSON-LD contexts, and 4 Spectral governance rulesets.
 
 
-  Apache Kafka''s developer surface includes CLI, changelog, documentation, getting-started guide, engineering blog, and 38 more developer resources.'
+  Apache Kafka''s developer surface includes CLI, changelog, documentation, getting-started guide, engineering blog, and 56 more developer resources.'
 plans:
 - name: Apache Kafka Plans Pricing
   plan_count: 3
@@ -633,10 +797,11 @@ rate_limits:
   name: Apache Kafka Rate Limits
   slug: apache-kafka-rate-limits
 rules:
-- effective_rule_count: 29
+- authorship: generated
+  effective_rule_count: 29
   extends:
   - spectral:asyncapi
-  name: Apache Kafka API Rules
+  name: Apache Kafka — asyncapi rules
   rule_count: 2
   severity_counts:
     error: 0
@@ -644,9 +809,10 @@ rules:
     info: 1
     warn: 1
   slug: apache-kafka-asyncapi-spectral-rules
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Apache Kafka API Rules
+  name: Apache Kafka — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -654,7 +820,20 @@ rules:
     info: 1
     warn: 4
   slug: apache-kafka-jsonschema-spectral-rules
-- effective_rule_count: 61
+- authorship: generated
+  effective_rule_count: 51
+  extends:
+  - spectral:oas
+  name: Apache Kafka API Rules
+  rule_count: 10
+  severity_counts:
+    error: 9
+    hint: 0
+    info: 1
+    warn: 0
+  slug: apache-kafka-rules
+- authorship: generated
+  effective_rule_count: 61
   extends:
   - spectral:oas
   name: Apache Kafka API Rules
@@ -667,22 +846,22 @@ rules:
   slug: apache-kafka-spectral-rules
 score:
   band: developing
-  composite: 45.4
+  composite: 47.7
   coverage:
-    artifact_dirs: 30
-    catalog_earned: 61.0
+    artifact_dirs: 31
+    catalog_earned: 67.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 54.0
+    catalog_gap: 48.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.3
   facets:
-    access_clarity: 26.3
+    access_clarity: 18.4
     contract_governance: 31.8
-    contract_quality: 52.8
-    developer_ergonomics: 31.0
+    contract_quality: 59.3
+    developer_ergonomics: 38.1
     discoverability: 63.3
-    operational_transparency: 36.8
+    operational_transparency: 44.7
   open_source:
     applies: true
     score: 75.0
@@ -702,8 +881,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -725,7 +904,7 @@ tags:
 - Event Streaming
 - Messaging
 - Open Source
-- Pub-Sub
+- Pub/Sub
 - Real-Time
 use_cases:
 - description: Build event-driven microservices with reliable message delivery.
@@ -738,5 +917,5 @@ use_cases:
   name: Log Aggregation
 - description: Capture database changes and stream them to data warehouses and caches.
   name: CDC (Change Data Capture)
-website: https://www.apache.org/
+website: https://kafka.apache.org/
 ---

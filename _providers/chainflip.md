@@ -33,10 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://chainflip.io/blog
 - group: company
   title: ''
   type: Website
@@ -135,20 +139,20 @@ created: '2026-07-17'
 description: Chainflip is a decentralised, permissionless cross-chain protocol for native asset swaps and cross-chain lending. It lets users and integrators swap and borrow against native assets such as BTC, ETH, SOL, USDC, USDT, TRX, and DOT across chains without wrapped assets, traditional bridges, or centralised custody. The protocol runs as a Proof-of-Stake MPC network of roughly 150 validators securing a fully on-chain trading system built on an application-specific State Chain and a just-in-time (JIT) AMM liquidity design. Developers integrate via the typed @chainflip/sdk JavaScript SDK and the Broker / State Chain JSON-RPC interfaces to fetch quotes, request deposit addresses, encode vault swaps, and route swaps for broker commission.
 image: https://framerusercontent.com/assets/hsh8gyx07K6ClX1WDNl5EG8C9s.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Chainflip
 nav: Providers
 network: true
-overview: 'Chainflip is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto, Blockchain, DeFi, and Cross-Chain.
+overview: 'Chainflip is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cryptocurrency, Blockchain, DeFi, and Cross-Chain.
 
 
-  Chainflip''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, CLI, sandbox, and 14 more developer resources.'
+  Chainflip''s developer surface includes engineering blog, documentation, API reference, getting-started guide, changelog, CLI, sandbox, and 15 more developer resources.'
 random_paper: 18
 score:
   band: emerging
   composite: 22.7
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -169,8 +173,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 17.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -193,7 +197,7 @@ security:
 slug: chainflip
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Blockchain
 - DeFi
 - Cross-Chain

@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: verified
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.3
-  scored_at: '2026-10-04'
+  score: 25.4
+  scored_at: '2026-10-17'
 api_count: 11
 apis:
 - description: Whether your team is new to GraphQL, or seasoned experts, learn why Apollo is the fastest and safest way to build and scale your APIs.
@@ -71,6 +71,21 @@ apis:
   slug: apollo-mcp-server
 artifact_total: 62
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/apollo-graphql/refs/heads/main/plans/apollo-graphql-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/apollo-graphql-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/apollo-graphql/refs/heads/main/rate-limits/apollo-graphql-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/apollo-graphql-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/apollo-graphql/refs/heads/main/finops/apollo-graphql-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/apollo-graphql-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/apollo-graphql/refs/heads/main/security/apollo-graphql-domain-security.yml
   title: ''
@@ -284,9 +299,13 @@ features:
 - name: IDE Support
 - name: Kubernetes Operator
 finops:
-- name: Apollo Graphql Finops
+- has_sources: false
+  method: generated
+  name: Apollo Graphql Finops
+  primary_unit: ''
   service_category: API
   slug: apollo-graphql-finops
+  template: true
 graphqls:
 - description: Whether your team is new to GraphQL, or seasoned experts, learn why Apollo is the fastest and safest way to build and scale your APIs.
   name: Apollo GraphQL GraphQL API
@@ -319,13 +338,13 @@ modified: '2026-05-19'
 name: Apollo GraphQL
 nav: Providers
 network: true
-overview: 'Apollo GraphQL publishes 11 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include API Orchestration, Clients, Connectors, Federation, and Graph.
+overview: 'Apollo GraphQL is listed with 11 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include API Orchestration, Clients, Connectors, Federation, and Graph.
 
 
   The Apollo GraphQL catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Apollo GraphQL''s developer surface includes pricing, documentation, engineering blog, support, signup flow, product news, legal docs, and 40 more developer resources.'
+  Apollo GraphQL''s developer surface includes pricing, documentation, engineering blog, support, signup flow, product news, legal docs, and 43 more developer resources.'
 plans:
 - name: Apollo Graphql Plans Pricing
   plan_count: 3
@@ -336,9 +355,10 @@ rate_limits:
   name: Apollo Graphql Rate Limits
   slug: apollo-graphql-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Apollo GraphQL API Rules
+  name: Apollo GraphQL — apollo federation jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -348,17 +368,17 @@ rules:
   slug: apollo-federation-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 50.5
+  composite: 49.0
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 56.3
+    artifact_dirs: 15
+    catalog_earned: 53.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 58.8
+    catalog_gap: 61.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 68.4
+    access_clarity: 60.5
     contract_governance: 9.8
     contract_quality: 48.9
     developer_ergonomics: 42.1
@@ -373,8 +393,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

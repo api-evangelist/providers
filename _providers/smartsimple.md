@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 7
 apis:
 - description: 'Get, list, and update (create) records stored in SmartSimple''s Universal Tracking Application (UTA) at Level 1, Level 2, and Level 3 - the grant applications, reviews, and sub-records at the heart of '
@@ -107,16 +107,20 @@ common:
 created: '2026-07-05'
 description: SmartSimple Software builds SmartSimple Cloud, a configurable cloud platform for grants management, research and government funding administration, corporate social responsibility (CSR), scholarships, and case management. The platform exposes three documented programmatic interfaces on each client instance - SmartConnect (a JSON-based RESTful API), an OData reporting API, and a legacy SOAP Web Services API - covering records (UTA Level 1/2/3), users, organizations, transactions, custom fields, and files. Access is instance-scoped - every customer runs on their own alias.smartsimple.com tenant and provisions an API user account or access token, so the documented endpoints are modeled against a customer instance rather than a single public gateway.
 finops:
-- name: Smartsimple Finops
+- has_sources: true
+  method: generated
+  name: Smartsimple Finops
+  primary_unit: ''
   service_category: Grants and Funding Management
   slug: smartsimple-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/smartsimple.png
 layout: provider
 modified: '2026-07-05'
 name: SmartSimple
 nav: Providers
 network: true
-overview: 'SmartSimple publishes 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Grants Management, Research Administration, CSR, Funding, and Case Management.
+overview: 'SmartSimple is listed with 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Grants Management, Research Administration, CSR, Funding, and Case Management.
 
 
   SmartSimple''s developer surface includes documentation, pricing, and 8 more developer resources.'
@@ -131,22 +135,22 @@ rate_limits:
   slug: smartsimple-rate-limits
 score:
   band: emerging
-  composite: 24.4
+  composite: 16.1
   coverage:
-    artifact_dirs: 6
-    catalog_earned: 64.6
+    artifact_dirs: 7
+    catalog_earned: 46.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 50.4
+    catalog_gap: 69.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 54.7
+    access_clarity: 26.3
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 16.7
     discoverability: 71.4
-    operational_transparency: 28.4
+    operational_transparency: 7.9
   previous_composite: 24.4
   regulatory:
     applies: true
@@ -154,9 +158,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

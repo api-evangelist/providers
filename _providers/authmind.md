@@ -23,10 +23,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.authmind.com/blog-feed.xml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/authmind/refs/heads/main/llms/authmind-llms.txt
   title: ''
@@ -82,25 +86,26 @@ coverage:
 created: '2026-09-26'
 description: AuthMind provides identity observability solutions for agentic AI, focusing on protecting AI agents, NHI workloads, and preventing unauthorized access. Their platform offers runtime identity security enforcement, advanced threat detection, and compliance tools for modern AI-driven environments.
 layout: provider
-modified: '2026-09-26'
+modified: '2026-10-06'
 name: AuthMind
 nav: Providers
 network: true
 overview: 'AuthMind is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Identity, Artificial Intelligence, Security, Observability, and Platform.
 
 
-  AuthMind''s developer surface includes engineering blog, documentation, and 8 more developer resources.'
+  AuthMind''s developer surface includes engineering blog, documentation, and 9 more developer resources.'
 random_paper: 0
 score:
   band: emerging
-  composite: 12.0
+  composite: 12.1
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 25.0
     catalog_earned_first_party: 0.0
     catalog_gap: 90.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.1
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
@@ -108,6 +113,7 @@ score:
     developer_ergonomics: 11.9
     discoverability: 51.8
     operational_transparency: 5.3
+  previous_composite: 12.0
   provenance:
     mcp: unknown
   regulatory:
@@ -116,12 +122,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 12.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/authmind/refs/heads/main/screenshots/authmind-2026-10-11T100903.png
 security:
 - kind: domain-security
   name: Authmind Domain Security

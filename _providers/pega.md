@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 9.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The Constellation Digital Experience (DX) API — REST endpoints external systems use to create Launchpad/Platform cases and data objects, read them, and advance them by running assignment actions. Auth
@@ -214,7 +214,7 @@ modified: '2026-07-20'
 name: Pega
 nav: Providers
 network: true
-overview: 'Pega publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Low-Code, Business Process Management, Workflow Automation, and CRM.
+overview: 'Pega is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Low-Code, Business Process Management, Workflow Automation, and CRM.
 
 
   Pega''s developer surface includes changelog, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 28 more developer resources.'
@@ -225,15 +225,15 @@ plans:
 random_paper: 17
 score:
   band: developing
-  composite: 46.8
+  composite: 46.9
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 18
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 4.5
+  delta: 0.1
   facets:
     access_clarity: 84.2
     contract_governance: 18.2
@@ -241,7 +241,7 @@ score:
     developer_ergonomics: 71.4
     discoverability: 76.8
     operational_transparency: 36.8
-  previous_composite: 42.3
+  previous_composite: 46.8
   provenance:
     conformance: first-party
     skills: first-party
@@ -259,13 +259,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/pega/refs/heads/main/screenshots/pega-2026-10-11T192133.png
 security:
 - kind: authentication
   name: Pega Authentication

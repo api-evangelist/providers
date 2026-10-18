@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 5.0
-  scored_at: '2026-10-04'
+  score: 3.1
+  scored_at: '2026-10-17'
 api_count: 8
 apis:
 - description: 'Berkeley IT''s centralized API management developer portal, operated by the Engineering and Integration Services (EIS) team. The catalog itself is public: an anonymous client can read all roughly 28 pu'
@@ -63,6 +63,10 @@ apis:
   slug: library-search
 artifact_total: 14
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://news.berkeley.edu/feed/
 - group: company
   title: ''
   type: Website
@@ -224,9 +228,13 @@ created: '2026-06-03'
 description: 'The University of California, Berkeley is a public land-grant research university and the founding campus of the University of California system. Berkeley is one of the few universities in this cohort that genuinely operates its own API program rather than merely appearing to: Berkeley IT''s Engineering and Integration Services team runs an API Central developer portal and a shared API Gateway on Berkeley''s own infrastructure, publishing a public catalog of roughly 28 campus APIs across Student Information, HR, finance and identity, each listed with its UC data classification (P1/P2/P3) and a named Data Owner. That program is real, but it is internal-first: the catalog is public and the contracts are not. No OpenAPI definition is retrievable without a CalNet identity and Data Owner approval, so this profile holds ZERO OpenAPI documents and that is the accurate measurement, not a gap in the research. What Berkeley does publish without credentials is narrower and mostly overlooked:
   a complete Shibboleth/SAML 2.0 identity provider metadata document at shib.berkeley.edu (InCommon entity urn:mace:incommon:berkeley.edu), a live GeoBlacklight JSON catalog of 5,156 geospatial datasets at geodata.lib.berkeley.edu, and a gated but well-formed research-computing API for the Savio cluster''s access management system. Its research repositories are not its engineering: the Digital Collections OAI-PMH endpoint runs on TIND, and eScholarship is a California Digital Library service for the entire UC system. Both are recorded here as tenant relationships, not as Berkeley contracts.'
 finops:
-- name: Ucb Finops
+- has_sources: true
+  method: generated
+  name: Ucb Finops
+  primary_unit: ''
   service_category: Education
   slug: ucb-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ucb.png
 jsonld:
 - class_count: 6
@@ -234,17 +242,17 @@ jsonld:
   property_count: 4
   slug: ucb-context
 layout: provider
-modified: '2026-08-19'
+modified: '2026-10-06'
 name: University of California, Berkeley
 nav: Providers
 network: true
-overview: 'University of California, Berkeley publishes 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include University, Higher Education, Education, Public Research University, and United States.
+overview: 'University of California, Berkeley is listed with 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include University, Higher Education, Education, Public Research University, and United States.
 
 
   The University of California, Berkeley catalog on APIs.io includes 1 JSON-LD context.
 
 
-  University of California, Berkeley''s developer surface includes API reference, documentation, support, status page, authentication, and 24 more developer resources.'
+  University of California, Berkeley''s developer surface includes API reference, documentation, support, status page, authentication, and 25 more developer resources.'
 plans:
 - name: Ucb Plans Pricing
   plan_count: 2
@@ -256,22 +264,22 @@ rate_limits:
   slug: ucb-rate-limits
 score:
   band: thin
-  composite: 33.0
+  composite: 27.0
   coverage:
-    artifact_dirs: 10
-    catalog_earned: 60.4
+    artifact_dirs: 11
+    catalog_earned: 47.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 54.6
+    catalog_gap: 68.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -2.9
+  delta: -6.0
   facets:
-    access_clarity: 47.9
+    access_clarity: 26.3
     contract_governance: 0.0
     contract_quality: 14.3
     developer_ergonomics: 42.9
     discoverability: 62.5
-    operational_transparency: 32.1
+    operational_transparency: 18.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -279,7 +287,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 35.9
+  previous_composite: 33.0
   provenance:
     conformance: first-party
   regulatory:
@@ -288,9 +296,9 @@ score:
     regime: Education & Research
     regime_id: education
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

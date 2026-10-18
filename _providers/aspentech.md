@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.3
-  scored_at: '2026-10-04'
+  score: 20.4
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 5
+- acting_count: 4
   human_in_the_loop: 0
   name: Aspentech Agentic Access
   operation_count: 6
   slug: aspentech-agentic-access
-  summary_line: 6 operations · 5 acting
+  summary_line: 6 operations · 4 acting
 api_count: 1
 apis:
 - description: 'AspenTech provides process optimization and simulation software for energy, chemicals, and manufacturing industries. The aspenONE platform APIs enable access to process simulation models, performance '
@@ -92,6 +92,25 @@ collections:
   name: AspenTech Inmation Web Data System API
   slug: open-aspentech-system-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/aspentech/refs/heads/main/plans/aspentech-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/aspentech-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/aspentech/refs/heads/main/rate-limits/aspentech-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/aspentech-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/aspentech/refs/heads/main/finops/aspentech-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/aspentech-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.aspentech.com/en/newsroom
 - group: company
   title: ''
   type: Website
@@ -164,9 +183,13 @@ features:
 - description: APIs for integrating AI and machine learning models with process data to enable predictive analytics and autonomous optimization.
   name: AI/ML Integration
 finops:
-- name: Aspentech Finops
+- has_sources: true
+  method: generated
+  name: Aspentech Finops
+  primary_unit: ''
   service_category: Industrial Software / Process Optimization
   slug: aspentech-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aspentech.png
 json_schemas:
 - name: AspenTech Inmation Data Item
@@ -178,17 +201,17 @@ jsonld:
   property_count: 3
   slug: aspentech-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-10-06'
 name: AspenTech
 nav: Providers
 network: true
-overview: 'AspenTech publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Data API, Historical API, Items API, and 3 more. Tagged areas include Industrial IoT, Process Optimization, Manufacturing, Energy, and Chemicals.
+overview: 'AspenTech publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Data API, Historical API, Items API, and 3 more. Tagged areas include Industrial IoT, Process Optimization, Manufacturing, Energy, and Chemicals.
 
 
   The AspenTech catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  AspenTech''s developer surface includes authentication, developer portal, documentation, getting-started guide, support, and 8 more developer resources.'
+  AspenTech''s developer surface includes engineering blog, authentication, developer portal, documentation, getting-started guide, support, and 11 more developer resources.'
 plans:
 - name: Aspentech Plans Pricing
   plan_count: 1
@@ -199,9 +222,10 @@ rate_limits:
   name: Aspentech Rate Limits
   slug: aspentech-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: AspenTech API Rules
+  name: AspenTech — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -211,20 +235,20 @@ rules:
   slug: aspentech-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 32.6
+  composite: 31.4
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 57.7
+    artifact_dirs: 15
+    catalog_earned: 54.7
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.4
+    catalog_gap: 60.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.2
   facets:
-    access_clarity: 13.2
+    access_clarity: 5.3
     contract_governance: 9.8
     contract_quality: 53.9
-    developer_ergonomics: 42.9
+    developer_ergonomics: 45.2
     discoverability: 66.1
     operational_transparency: 5.3
   previous_composite: 32.6
@@ -241,8 +265,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 13.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -34,10 +34,28 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 4.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 3
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/seed-health/refs/heads/main/plans/seed-health-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/seed-health-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/seed-health/refs/heads/main/rate-limits/seed-health-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/seed-health-rate-limits.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://seed.com/press/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://seed.com/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/seed-health/refs/heads/main/security/seed-health-domain-security.yml
   title: ''
@@ -111,14 +129,14 @@ created: '2026-08-26'
 description: 'Seed Health is a microbiome science company founded in 2017 by Ara Katz and Raja Dhir, headquartered in Los Angeles County, California. It develops and sells clinically studied probiotic, prebiotic and synbiotic consumer products — most notably the DS-01 Daily Synbiotic, the PDS-08 Pediatric Daily Synbiotic and the VS-01 Vaginal Synbiotic — direct to consumers via a subscription commerce site at seed.com, alongside SeedLabs, its environmental and applied-microbiology research arm. Seed publishes a substantial public science, editorial (Cultured) and help-center surface, and maintains a small public GitHub organization, but it operates no public developer program: there is no developer portal, no published API reference, no OpenAPI, GraphQL, AsyncAPI or MCP contract, and its internal storefront API paths are explicitly disallowed in robots.txt. Its practitioner program is fulfilled through Fullscript and email rather than through any integration surface.'
 image: https://avatars.githubusercontent.com/u/63071534?v=4
 layout: provider
-modified: '2026-08-26'
+modified: '2026-10-06'
 name: Seed Health
 nav: Providers
 network: true
 overview: 'Seed Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Consumer Products, Life Sciences, and Microbiome.
 
 
-  Seed Health''s developer surface includes support, engineering blog, and 10 more developer resources.'
+  Seed Health''s developer surface includes engineering blog, support, and 14 more developer resources.'
 plans:
 - name: Seed Health Plans Pricing
   plan_count: 0
@@ -130,7 +148,7 @@ rate_limits:
   slug: seed-health-rate-limits
 score:
   band: emerging
-  composite: 13.1
+  composite: 13.2
   coverage:
     artifact_dirs: 10
     catalog_earned: 27.0
@@ -138,7 +156,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 21.1
     contract_governance: 18.2
@@ -160,8 +178,8 @@ score:
     regime: Health
     regime_id: health
     score: 14.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

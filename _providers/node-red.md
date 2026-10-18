@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 3
@@ -102,6 +102,21 @@ collections:
   name: Node-RED Admin Auth Settings API
   slug: open-node-red-settings-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/node-red/refs/heads/main/plans/node-red-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/node-red-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/node-red/refs/heads/main/rate-limits/node-red-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/node-red-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/node-red/refs/heads/main/finops/node-red-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/node-red-finops.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -172,9 +187,13 @@ common:
 created: '2026-03-27'
 description: Node-RED is an open source flow-based programming tool for wiring together hardware devices, APIs, and online services. The runtime exposes an Admin HTTP API used by the Node-RED Editor and the command-line admin tool to manage flows, nodes, settings, diagnostics, and authentication.
 finops:
-- name: Node Red Finops
+- has_sources: false
+  method: generated
+  name: Node Red Finops
+  primary_unit: ''
   service_category: API
   slug: node-red-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/node-red.png
 json_schemas:
 - name: Node-RED Flow
@@ -190,13 +209,13 @@ modified: '2026-05-19'
 name: Node-RED
 nav: Providers
 network: true
-overview: 'Node-RED publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Diagnostics API, Flow API, and 3 more. Tagged areas include Self-Hosted, Workflow Automation, Flow-Based Programming, and IoT.
+overview: 'Node-RED publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Auth API, Diagnostics API, Flow API, and 3 more. Tagged areas include Self-Hosted, Workflow Automation, Flow-Based Programming, and IoT.
 
 
   The Node-RED catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Node-RED''s developer surface includes authentication, documentation, engineering blog, and 13 more developer resources.'
+  Node-RED''s developer surface includes authentication, documentation, engineering blog, and 16 more developer resources.'
 plans:
 - name: Node Red Plans Pricing
   plan_count: 3
@@ -207,9 +226,10 @@ rate_limits:
   name: Node Red Rate Limits
   slug: node-red-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Node-RED API Rules
+  name: Node-RED — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -218,18 +238,18 @@ rules:
     warn: 4
   slug: node-red-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 40.2
+  band: thin
+  composite: 38.9
   coverage:
     artifact_dirs: 14
-    catalog_earned: 52.7
+    catalog_earned: 49.7
     catalog_earned_first_party: 0.0
-    catalog_gap: 62.4
+    catalog_gap: 65.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.3
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 9.8
     contract_quality: 54.8
     developer_ergonomics: 31.0
@@ -252,8 +272,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

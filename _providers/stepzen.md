@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -84,6 +84,21 @@ collections:
   name: StepZen Admin Account Endpoints API
   slug: open-stepzen-endpoints-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/stepzen/refs/heads/main/plans/stepzen-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/stepzen-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/stepzen/refs/heads/main/rate-limits/stepzen-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/stepzen-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/stepzen/refs/heads/main/finops/stepzen-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/stepzen-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/stepzen/refs/heads/main/capabilities/stepzen-capability-edges.yml
   title: ''
@@ -139,9 +154,13 @@ examples:
   name: Stepzen List Endpoints Example
   slug: stepzen-list-endpoints-example
 finops:
-- name: Stepzen Finops
+- has_sources: false
+  method: generated
+  name: Stepzen Finops
+  primary_unit: ''
   service_category: API
   slug: stepzen-finops
+  template: true
 graphqls:
 - description: 'GraphQL API platform for connecting to REST, databases, and other backends, automatically generating a GraphQL schema and resolvers from your data sources. Supports authentication via API key, OAuth, '
   name: StepZen GraphQL API
@@ -165,13 +184,13 @@ modified: '2026-05-19'
 name: StepZen
 nav: Providers
 network: true
-overview: 'StepZen publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Account API, API Keys API, Endpoints API, and 2 more. Tagged areas include Backend Integration, GraphQL, API Gateway, REST to GraphQL, and IBM.
+overview: 'StepZen publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, API Keys API, Endpoints API, and 2 more. Tagged areas include Backend Integration, GraphQL, API Gateway, REST to GraphQL, and IBM.
 
 
   The StepZen catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  StepZen''s developer surface includes authentication, developer portal, documentation, and 8 more developer resources.'
+  StepZen''s developer surface includes authentication, developer portal, documentation, and 11 more developer resources.'
 plans:
 - name: Stepzen Plans Pricing
   plan_count: 3
@@ -182,9 +201,10 @@ rate_limits:
   name: Stepzen Rate Limits
   slug: stepzen-rate-limits
 rules:
-- effective_rule_count: 4
+- authorship: generated
+  effective_rule_count: 4
   extends: []
-  name: StepZen API Rules
+  name: StepZen — jsonschema rules
   rule_count: 4
   severity_counts:
     error: 0
@@ -192,7 +212,8 @@ rules:
     info: 1
     warn: 3
   slug: stepzen-jsonschema-spectral-rules
-- effective_rule_count: 49
+- authorship: unmarked
+  effective_rule_count: 49
   extends:
   - spectral:oas
   name: StepZen API Rules
@@ -205,17 +226,17 @@ rules:
   slug: stepzen-rules
 score:
   band: thin
-  composite: 31.6
+  composite: 30.1
   coverage:
     artifact_dirs: 18
-    catalog_earned: 53.5
+    catalog_earned: 50.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 61.5
+    catalog_gap: 64.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 13.6
     contract_quality: 55.6
     developer_ergonomics: 32.1
@@ -235,8 +256,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: RESTful API surface for CareStack dental practice management, covering patient resources (patient information, health conditions, payment summaries, communications, treatment codes, documents) and pra
@@ -108,7 +108,7 @@ modified: '2026-07-18'
 name: CareStack
 nav: Providers
 network: true
-overview: 'CareStack publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Dental, Practice Management, and Electronic Health Records.
+overview: 'CareStack is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Dental, Practice Management, and Electronic Health Records.
 
 
   The CareStack catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -149,8 +149,8 @@ score:
     regime: Health
     regime_id: health
     score: 18.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Inbound custom webhook triggers that start Rewst workflows. An external system sends an HTTP request (method configured per trigger) to a per-trigger URL; the normalized payload ({body, headers, metho
@@ -47,6 +47,14 @@ asyncapis:
   name: Rewst Webhooks
   slug: rewst-webhooks
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://rewst.io/resources/blog
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://rewst.io/resources/blog/rss.xml
 - group: company
   title: ''
   type: Website
@@ -177,17 +185,17 @@ created: '2026-07-17'
 description: Rewst is a workflow automation and integration (iPaaS/RPA) platform built specifically for managed service providers (MSPs). It combines a visual workflow builder, a form builder, an app builder, 90+ managed MSP integrations (PSA, RMM, Microsoft 365, security tools), reusable automation packages called Crates, and RoboRewsty, an AI assistant, so MSP teams can automate repetitive operational tasks. Rewst's primary programmatic surface is inbound custom webhook triggers that start workflows, authenticated with an optional x-rewst-secret header and rate limited per trigger; it also offers a Generic GraphQL request action for calling external APIs from within workflows. Rewst is SOC 2 Type 2 compliant, publishes a live status page, and runs a Bugcrowd vulnerability-disclosure program. Backed by Sapphire Ventures.
 image: https://avatars.githubusercontent.com/u/75550907?v=4
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Rewst
 nav: Providers
 network: true
-overview: 'Rewst publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, DevOps, Automation, iPaaS, and RPA.
+overview: 'Rewst is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, DevOps, Automation, iPaaS, and RPA.
 
 
   The Rewst catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Rewst''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, authentication, and 22 more developer resources.'
+  Rewst''s developer surface includes engineering blog, documentation, getting-started guide, support, pricing, authentication, and 24 more developer resources.'
 random_paper: 15
 rate_limits:
 - limit_count: 2
@@ -195,7 +203,7 @@ rate_limits:
   slug: rewst-rate-limits
 score:
   band: developing
-  composite: 49.5
+  composite: 49.6
   coverage:
     artifact_dirs: 15
     catalog_earned: 45.0
@@ -203,7 +211,7 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 53.9
     contract_governance: 18.2
@@ -224,8 +232,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

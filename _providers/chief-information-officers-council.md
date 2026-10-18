@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The CIOC publishes its charter, leadership roster, committee output, playbooks (e.g., Cloud Smart, Modular Contracting, IT Modernization), and federal IT guidance through cio.gov and councils.gov. The
@@ -41,6 +41,11 @@ apis:
   slug: cioc-resources
 artifact_total: 21
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/chief-information-officers-council/refs/heads/main/rate-limits/chief-information-officers-council-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/chief-information-officers-council-rate-limits.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/chief-information-officers-council/refs/heads/main/security/chief-information-officers-council-domain-security.yml
   title: ''
@@ -175,16 +180,20 @@ features:
 - name: Federal Identity, Credential, and Access Management (FICAM)
 - name: Open Government and Data Sharing
 finops:
-- name: Chief Information Officers Council Finops
+- has_sources: true
+  method: searched
+  name: Chief Information Officers Council Finops
+  primary_unit: ''
   service_category: ''
   slug: chief-information-officers-council-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/chief-information-officers-council.png
 layout: provider
 modified: '2026-09-05'
 name: Chief Information Officers Council
 nav: Providers
 network: true
-overview: Chief Information Officers Council publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include CIO, Cloud, Cybersecurity, E-Government, and Federal Government.
+overview: Chief Information Officers Council is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include CIO, Cloud, Cybersecurity, E-Government, and Federal Government.
 plans:
 - name: Chief Information Officers Council Plans Pricing
   plan_count: 0
@@ -195,18 +204,18 @@ rate_limits:
   name: Chief Information Officers Council Rate Limits
   slug: chief-information-officers-council-rate-limits
 score:
-  band: emerging
-  composite: 11.7
+  band: minimal
+  composite: 10.1
   coverage:
     artifact_dirs: 9
-    catalog_earned: 35.0
+    catalog_earned: 32.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 80.0
+    catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 18.4
+    access_clarity: 10.5
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 9.5
@@ -224,8 +233,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 9.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

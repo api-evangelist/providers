@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 5.0
-  scored_at: '2026-10-04'
+  score: 3.1
+  scored_at: '2026-10-17'
 api_count: 5
 apis:
 - description: The Zurich Open Repository and Archive (ZORA) is UZH's institutional repository for the peer-reviewed research output of the university. Its OAI-PMH 2.0 interface serves metadata for harvesting with n
@@ -156,16 +156,20 @@ created: '2026-06-03'
 description: 'The University of Zurich (UZH) is Switzerland''s largest university, founded in 1833, with roughly 28,000 students across seven faculties. UZH operates no central developer portal, publishes no OpenAPI description of its own, and offers no API key or self-service onboarding of any kind. Its real programmable footprint is four institution-run endpoints that speak someone else''s contract: the ZORA repository''s OAI-PMH 2.0 interface and DSpace 8 REST API at www.zora.uzh.ch, the KlickerUZH audience-response GraphQL API at api.klicker.uzh.ch built and run by the Department of Banking and Finance, and a self-hosted GitLab at gitlab.uzh.ch whose v4 REST API answers unauthenticated reads of public projects. Federated identity is a tenancy, not an operation: the UZH SAML entity aai-idp.uzh.ch is UZH''s namespace but its SSO endpoints run on SWITCH''s hosted edu-ID platform at uzh.login.eduid.ch. The course catalogue, the OLAT learning platform and swisscovery library discovery are
   web and SSO surfaces with no documented public API.'
 finops:
-- name: University Of Zurich Finops
+- has_sources: true
+  method: generated
+  name: University Of Zurich Finops
+  primary_unit: ''
   service_category: Education
   slug: university-of-zurich-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/university-of-zurich.png
 layout: provider
 modified: '2026-08-30'
 name: University of Zurich
 nav: Providers
 network: true
-overview: 'University of Zurich publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Higher Education, University, Public Research University, and Switzerland.
+overview: 'University of Zurich is listed with 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Higher Education, University, Public Research University, and Switzerland.
 
 
   University of Zurich''s developer surface includes engineering blog, support, GitHub presence, authentication, and 19 more developer resources.'
@@ -179,23 +183,23 @@ rate_limits:
   name: University Of Zurich Rate Limits
   slug: university-of-zurich-rate-limits
 score:
-  band: thin
-  composite: 27.2
+  band: emerging
+  composite: 21.2
   coverage:
-    artifact_dirs: 9
-    catalog_earned: 57.4
+    artifact_dirs: 10
+    catalog_earned: 44.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.6
+    catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -2.9
+  delta: -6.0
   facets:
-    access_clarity: 47.9
+    access_clarity: 26.3
     contract_governance: 0.0
     contract_quality: 4.4
     developer_ergonomics: 28.6
     discoverability: 71.4
-    operational_transparency: 21.6
+    operational_transparency: 7.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -204,7 +208,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 30.1
+  previous_composite: 27.2
   provenance:
     conformance: first-party
   regulatory:
@@ -213,9 +217,9 @@ score:
     regime: Education & Research
     regime_id: education
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

@@ -11,7 +11,8 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -22,7 +23,7 @@ agent_readiness:
     delegated_identity: served
     dry_run_mode: false
     dynamic_client_registration: true
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: true
     idempotency: documented
     mcp_server: documented
@@ -33,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 52.0
-  scored_at: '2026-10-04'
+  score: 54.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -42,7 +43,7 @@ agentic_access:
   operation_count: 8
   slug: medplum-agentic-access
   summary_line: 8 operations · 4 acting
-api_count: 1
+api_count: 2
 apis:
 - description: FHIR-aware GraphQL endpoint at https://api.medplum.com/fhir/R4/$graphql. Supports typed nested queries, reverse-reference traversal (_reference), FHIRPath-style array filtering, and access-policy enfo
   name: Medplum GraphQL API
@@ -55,7 +56,7 @@ apis:
   slug: medplum-subscriptions
 - baseURL: https://api.medplum.com/fhir/R4
   baseurl_source: declared
-  description: The Fhir API from Medplum — 4 operation(s) for fhir.
+  description: 'Medplum''s FHIR R4 REST API, as described by its own OpenAPI (https://api.medplum.com/openapi.json): batch/transaction, search, create (incl. conditional create via If-None-Exist), conditional update ('
   name: Medplum Fhir API
   phrasing_intents:
   - id: search
@@ -115,7 +116,7 @@ arazzos:
 - description: Create a Practitioner, create an Encounter linking the patient and practitioner, then read it back.
   name: Medplum Schedule Encounter
   slug: medplum-schedule-encounter-workflow
-- description: Search for a Patient by identifier and update it if found, otherwise create it.
+- description: Update a Patient matched by identifier, or create it, in one FHIR conditional update.
   name: Medplum Upsert Patient
   slug: medplum-upsert-patient-workflow
 artifact_total: 78
@@ -134,6 +135,31 @@ collections:
   name: Medplum - OpenAPI 3.0 Fhir API
   slug: open-medplum-fhir-api
 common:
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/medplum/refs/heads/main/integrations/medplum-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/medplum-integration-edges.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/medplum/refs/heads/main/rules/medplum-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/medplum-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/medplum/refs/heads/main/rules/medplum-jsonschema-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/medplum-jsonschema-spectral-rules.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/medplum/refs/heads/main/hosts/medplum-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/medplum-hosts.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/medplum/refs/heads/main/vendors/medplum-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/medplum-vendors.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/medplum/refs/heads/main/capabilities/medplum-capability-edges.yml
   title: ''
@@ -352,6 +378,21 @@ common:
   type: LLMsTxt
   url: llms/medplum-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/medplum/refs/heads/main/well-known/medplum-api-catalog.json
+  title: ''
+  type: APICatalog
+  url: well-known/medplum-api-catalog.json
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/medplum/refs/heads/main/fhir/medplum-fhir-r4-capabilitystatement.json
+  title: ''
+  type: CapabilityStatement
+  url: fhir/medplum-fhir-r4-capabilitystatement.json
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/medplum/refs/heads/main/fhir/medplum-smart-configuration.json
+  title: ''
+  type: SMARTConfiguration
+  url: fhir/medplum-smart-configuration.json
+- group: other
   href: https://raw.githubusercontent.com/api-evangelist/medplum/refs/heads/main/overlays/medplum-fhir-api-overlay.yaml
   title: ''
   type: Overlay
@@ -474,9 +515,13 @@ features:
 - description: First-class CDK constructs for self-hosting Medplum on AWS.
   name: AWS CDK Deployment
 finops:
-- name: Medplum Finops
+- has_sources: false
+  method: generated
+  name: Medplum Finops
+  primary_unit: ''
   service_category: API / Developer Platform
   slug: medplum-finops
+  template: true
 graphqls:
 - description: FHIR-aware GraphQL endpoint at https://api.medplum.com/fhir/R4/$graphql. Supports typed nested queries, reverse-reference traversal (_reference), FHIRPath-style array filtering, and access-policy enfo
   name: Medplum GraphQL API
@@ -541,17 +586,17 @@ mcp_servers:
 - description: Official hosted Medplum MCP server. Exposes the Medplum FHIR API to AI clients through a single general-purpose FHIR request tool plus two client-compatibility shims, authenticated with OAuth 2.0 agai
   name: Medplum MCP Server
   slug: medplum-mcp-server
-modified: '2026-08-17'
+modified: '2026-10-11'
 name: Medplum
 nav: Providers
 network: true
-overview: 'Medplum publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Fhir API, and 3 more. Tagged areas include Healthcare, FHIR, Open Source, Developer Platform, and HIPAA.
+overview: 'Medplum publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Fhir API, and 3 more. Tagged areas include Healthcare, FHIR, Open Source, Developer Platform, and HIPAA.
 
 
   The Medplum catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Medplum''s developer surface includes authentication, documentation, getting-started guide, API reference, CLI, developer console, pricing, and 58 more developer resources.'
+  Medplum''s developer surface includes authentication, documentation, getting-started guide, API reference, CLI, developer console, pricing, and 66 more developer resources.'
 plans:
 - name: Medplum Plans Pricing
   plan_count: 6
@@ -562,9 +607,10 @@ rate_limits:
   name: Medplum Rate Limits
   slug: medplum-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Medplum API Rules
+  name: Medplum — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -572,7 +618,8 @@ rules:
     info: 2
     warn: 3
   slug: medplum-jsonschema-spectral-rules
-- effective_rule_count: 46
+- authorship: unmarked
+  effective_rule_count: 46
   extends:
   - spectral:oas
   name: Medplum API Rules
@@ -590,23 +637,26 @@ scopes:
   summary_line: 12 scopes · authorizationCode/clientCredentials
 score:
   band: exemplar
-  composite: 79.1
+  composite: 71.7
   coverage:
-    artifact_dirs: 37
-    catalog_earned: 82.6
+    artifact_dirs: 42
+    catalog_earned: 60.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 32.4
+    catalog_gap: 54.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -7.3
+  delta: -7.8
   facets:
-    access_clarity: 83.7
-    contract_governance: 45.5
-    contract_quality: 69.3
+    access_clarity: 55.3
+    contract_governance: 35.6
+    contract_quality: 74.1
     developer_ergonomics: 74.4
-    discoverability: 63.3
-    operational_transparency: 94.2
-  previous_composite: 86.4
+    discoverability: 66.7
+    operational_transparency: 73.7
+  open_source:
+    applies: true
+    score: 60.0
+  previous_composite: 79.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -623,12 +673,12 @@ score:
     regime: Health
     regime_id: health
     score: 57.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: falling
   upsert:
     applies: true
-    score: 0.0
+    score: 11.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/medplum/refs/heads/main/screenshots/medplum-2026-06-20T185123.png
 security:
 - kind: authentication
@@ -642,7 +692,7 @@ security:
 - kind: vulnerability-disclosure
   name: Medplum Vulnerability Disclosure
   slug: medplum-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 - kind: trust-center
   name: Medplum Trust Center
   slug: medplum-trust-center

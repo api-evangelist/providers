@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: REST API for triggering and executing BRYTER modules from external systems, returning module results. Authenticated with a bearer API key scoped to a tenant environment.
@@ -48,8 +48,17 @@ apis:
 - description: REST API for retrieving tenant audit-log events for monitoring and compliance. Authenticated with a bearer API key scoped to a tenant environment.
   name: BRYTER Audit Log API
   slug: bryter-audit-log-api
-artifact_total: 6
+artifact_total: 7
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/bryter/refs/heads/main/plans/bryter-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/bryter-plans-pricing.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://bryter.com/blog/feed/
 - group: company
   title: ''
   type: Website
@@ -148,32 +157,36 @@ created: '2026-07-17'
 description: 'BRYTER is a no-code service automation and AI productivity platform for legal and professional-services teams, used by law firms and corporate legal, compliance, and operations departments to build self-service applications, document automation, and rule-based workflows without writing code. Beyond the visual builder, BRYTER exposes a developer surface at developer.bryter.io: a REST Execution API for triggering modules from external systems, a REST Database API for synchronizing data across platforms, a REST Audit Log API for tracking tenant events, and Custom Actions for extending modules with custom nodes (published as the @bryter_io/custom-actions npm library). APIs use bearer API-key authentication scoped per environment (TEST, LIVE, or client), against a tenant-specific host such as app.bryter.io. The company was surfaced as an Accel portfolio company and enriched from its public developer and security documentation.'
 image: https://media.bryter.com/wp-content/uploads/2024/07/bryter-1200x627-1.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Bryter
 nav: Providers
 network: true
-overview: 'Bryter publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Automation, No-Code, Legal Tech, and Workflow Automation.
+overview: 'Bryter is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Automation, No-Code, Legal Tech, and Workflow Automation.
 
 
-  Bryter''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 14 more developer resources.'
+  Bryter''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 16 more developer resources.'
+plans:
+- name: Bryter Plans Pricing
+  plan_count: 2
+  slug: bryter-plans-pricing
 random_paper: 4
 rate_limits:
 - limit_count: 3
   name: Bryter Rate Limits
   slug: bryter-rate-limits
 score:
-  band: thin
-  composite: 38.1
+  band: developing
+  composite: 42.4
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 52.0
-    catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    artifact_dirs: 13
+    catalog_earned: 60.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 4.3
   facets:
-    access_clarity: 39.5
+    access_clarity: 60.5
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 71.4
@@ -192,8 +205,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

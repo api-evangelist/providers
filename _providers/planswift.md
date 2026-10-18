@@ -33,10 +33,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.planswift.com/blog/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.planswift.com/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/planswift/refs/heads/main/security/planswift-domain-security.yml
   title: ''
@@ -67,14 +75,14 @@ created: '2026-07-04'
 description: PlanSwift is Windows desktop takeoff and estimating software for construction estimators - turning digital plans (PDF/image/CAD) into measurable, countable, exportable material takeoffs and estimates across trades like roofing, concrete, earthwork, flooring, and electrical. PlanSwift is owned by ConstructConnect. IMPORTANT - PlanSwift does NOT publish a public web/REST API. Its developer surface is a desktop extensibility SDK embedded in the Windows application - OLE Automation (COM), an internal scripting engine, and a plugin/starter-pack model - exposed through a password-gated "Under-The-Hood" (U-T-H) tab enabled by contacting ConstructConnect (takeoff@constructconnect.com). The public SDK examples on GitHub target PlanSwift9 and are written in Pascal (2008) and Visual Basic (2010). There is no documented HTTPS base URL, no API keys/OAuth token surface, and no web endpoints to model - this entry is an honest stub reflecting a desktop-plugin/COM SDK, not a web API.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/planswift.png
 layout: provider
-modified: '2026-07-04'
+modified: '2026-10-06'
 name: PlanSwift
 nav: Providers
 network: true
 overview: 'PlanSwift is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Construction, Takeoff, Estimating, Desktop Software, and Plugin SDK.
 
 
-  PlanSwift''s developer surface includes documentation and 5 more developer resources.'
+  PlanSwift''s developer surface includes engineering blog, documentation, and 6 more developer resources.'
 plans:
 - name: Planswift Plans Pricing
   plan_count: 2
@@ -82,20 +90,20 @@ plans:
 random_paper: 16
 score:
   band: minimal
-  composite: 9.4
+  composite: 7.2
   coverage:
-    artifact_dirs: 4
-    catalog_earned: 34.2
+    artifact_dirs: 5
+    catalog_earned: 29.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 80.8
+    catalog_gap: 86.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.2
   facets:
-    access_clarity: 18.9
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 9.5
+    developer_ergonomics: 11.9
     discoverability: 48.2
     operational_transparency: 2.6
   previous_composite: 9.4
@@ -105,8 +113,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

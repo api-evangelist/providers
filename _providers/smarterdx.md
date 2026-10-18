@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.smarterdx.com/resources/articles
 - group: company
   title: ''
   type: Website
@@ -65,31 +69,31 @@ created: '2026-07-17'
 description: 'SmarterDx builds clinical AI software that hospitals and health systems use to analyze the complete record of every patient and fully capture the value of care delivered. Its products span the revenue cycle — SmarterPrebill, SmarterCharges, SmarterDenials, SmarterNotes, and SmarterUtilization — surfacing missing diagnoses, validating charges, defending against payer denials, improving clinical documentation, and supporting utilization management decisions. The company serves 85+ health systems and operates as an enterprise B2B vendor: it publishes no public developer portal, API documentation, or self-serve sign-up, and maintains HIPAA compliance to protect the privacy of its health-system partners.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/smarterdx.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: SmarterDx
 nav: Providers
 network: true
 overview: 'SmarterDx is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Clinical AI, Revenue Cycle Management, and Health Systems.
 
 
-  SmarterDx''s developer surface includes support and 5 more developer resources.'
+  SmarterDx''s developer surface includes engineering blog, support, and 5 more developer resources.'
 random_paper: 18
 score:
   band: minimal
-  composite: 10.0
+  composite: 10.5
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 4.8
+    developer_ergonomics: 7.1
     discoverability: 48.2
     operational_transparency: 2.6
   previous_composite: 10.0
@@ -99,8 +103,8 @@ score:
     regime: Health
     regime_id: health
     score: 10.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

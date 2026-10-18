@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 4
 apis:
 - description: URL-invocation API to open the Waze app from an external link to locate an address, drop a pin, or start navigation. Query params include ll (lat,lon), q (search), navigate, z (zoom), favorite, and av
@@ -139,7 +139,7 @@ modified: '2026-07-21'
 name: Waze
 nav: Providers
 network: true
-overview: 'Waze publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Mobility, Navigation, Maps, and Traffic.
+overview: 'Waze is listed with 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Mobility, Navigation, Maps, and Traffic.
 
 
   Waze''s developer surface includes documentation, getting-started guide, support, engineering blog, authentication, and 13 more developer resources.'
@@ -169,8 +169,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 25.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

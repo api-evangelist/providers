@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -180,7 +180,7 @@ modified: '2026-05-11'
 name: Airbrake
 nav: Providers
 network: true
-overview: 'Airbrake publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Activities API, Deploys API, Groups API, and 7 more. Tagged areas include Error Monitoring, Application Performance Monitoring, Observability, DevOps, and Logging.
+overview: 'Airbrake publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Activities API, Deploys API, Groups API, and 7 more. Tagged areas include Error Monitoring, Application Performance Monitoring, Observability, DevOps, and Logging.
 
 
   Airbrake''s developer surface includes authentication, documentation, pricing, signup flow, and 6 more developer resources.'
@@ -189,7 +189,7 @@ score:
   band: emerging
   composite: 25.6
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -217,8 +217,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

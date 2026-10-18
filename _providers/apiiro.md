@@ -25,16 +25,20 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: false
+    protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 8.6
-  scored_at: '2026-10-04'
-api_count: 0
-artifact_total: 4
+  score: 12.2
+  scored_at: '2026-10-17'
+api_count: 1
+apis:
+- description: Apiiro product API documented behind authentication.
+  name: Apiiro API
+  slug: apiiro-api
+artifact_total: 5
 common:
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/apiiro/refs/heads/main/mcp/apiiro-mcp.yml
@@ -78,6 +82,10 @@ common:
   title: ''
   type: Documentation
   url: https://docs.apiiro.com/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.apiiro.com/
 - group: start
   title: ''
   type: DeveloperPortal
@@ -86,6 +94,10 @@ common:
   title: ''
   type: Blog
   url: https://www.apiiro.com/blog
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://www.apiiro.com/getting-started
 - group: build
   title: ''
   type: GitHubOrganization
@@ -108,6 +120,10 @@ common:
   title: ''
   type: Signup
   url: https://www.apiiro.com/thank-you-demo
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.apiiro.com/pricing
 - group: commercial
   title: ''
   type: TermsOfService
@@ -154,14 +170,6 @@ common:
   title: ''
   type: Security
   url: security/apiiro-vulnerability-disclosure.yml
-coverage:
-  checked: '2026-10-05'
-  detail: Documentation redirects to login at identity.apiiro.com requiring authentication.
-  evidence:
-  - status: 307
-    url: https://docs.apiiro.com/openapi.json
-  reason: sales-gate
-  state: gated
 created: '2026-07-17'
 description: Apiiro is an Application Security Posture Management (ASPM) company that helps organizations secure modern and AI-assisted ("agentic") software development. Its AppSec Data Fabric ingests code, cloud, runtime, and pipeline signals to build a Risk Graph and Software Graph, and its Guardian Agent applies AI to triage and remediate risk across AI SAST, AI SCA, AI SPM, AI threat modeling, API security, secrets security, software supply chain security (SSCS), and autofix/prevention workflows. Apiiro is a cybersecurity portfolio company of Greylock. The product API and developer documentation are gated behind an Apiiro identity provider (identity.apiiro.com); this network profile is built from Apiiro's public marketing, security.txt, status, and trust surfaces.
 image: https://www.apiiro.com/
@@ -174,30 +182,30 @@ modified: '2026-07-17'
 name: Apiiro
 nav: Providers
 network: true
-overview: 'Apiiro is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cybersecurity, Application Security, ASPM, and DevSecOps.
+overview: 'Apiiro is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cybersecurity, Application Security, ASPM, and DevSecOps.
 
 
-  Apiiro''s developer surface includes support, documentation, engineering blog, CLI, signup flow, and 21 more developer resources.'
+  Apiiro''s developer surface includes support, documentation, API reference, engineering blog, getting-started guide, CLI, signup flow, and 22 more developer resources.'
 random_paper: 6
 score:
   band: emerging
-  composite: 18.0
+  composite: 24.9
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 27.0
+    artifact_dirs: 13
+    catalog_earned: 32.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 88.0
+    catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 2.6
+  delta: 6.9
   facets:
-    access_clarity: 22.4
+    access_clarity: 32.9
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 19.0
-    discoverability: 58.3
+    developer_ergonomics: 38.1
+    discoverability: 66.7
     operational_transparency: 28.9
-  previous_composite: 15.4
+  previous_composite: 18.0
   provenance:
     mcp: first-party
   regulatory:
@@ -206,9 +214,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

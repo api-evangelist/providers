@@ -32,10 +32,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://platogo.com/blog/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://platogo.com/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/platogo/refs/heads/main/security/platogo-domain-security.yml
   title: ''
@@ -49,28 +57,31 @@ created: '2026-07-17'
 description: Platogo Interactive Entertainment GmbH is a Vienna, Austria based social casino gaming studio that builds and operates free-to-play slot and casino apps for mobile and web. Its flagship titles are Slotpark, a premium Vegas-style social slots app used by millions daily, and Gaminator, one of the largest social casino gaming communities on the web. The company localizes its games into more than 13 languages and works alongside industry partners including Greentube and Novomatic. Platogo is backed by Seedcamp. No public developer API, SDK, or technical documentation is currently published; this profile captures the company identity and domain-security posture only.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/platogo.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Platogo
 nav: Providers
 network: true
-overview: Platogo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Gaming, Social Casino, Mobile Games, and Casino Games.
+overview: 'Platogo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Gaming, Social Casino, Mobile Games, and Casino Games.
+
+
+  Platogo''s developer surface includes engineering blog and 3 more developer resources.'
 random_paper: 10
 score:
   band: minimal
-  composite: 3.4
+  composite: 3.9
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 48.2
     operational_transparency: 0.0
   previous_composite: 3.4
@@ -80,8 +91,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.7ai.com/rss.xml
 - group: company
   title: ''
   type: Website
@@ -91,20 +95,20 @@ created: '2026-07-17'
 description: '7AI (Seven AI, Inc.) is a Boston-based cybersecurity company building an agentic security platform that offloads repetitive, non-human security-operations work to swarming AI agents. Founded in 2024 by Cybereason co-founders Lior Div and Yonatan Striem-Amit, 7AI delivers "Service as Software" for the SOC: autonomous agents ingest and triage alerts, enrich data, and run end-to-end investigations, response, threat hunting, and case management so human analysts focus on high-value work. The platform spans Cases, Investigations, Detection, Response, Hunting, and Enterprise Insights. 7AI is a Greylock-backed portfolio company and raised the largest cybersecurity Series A on record. This API Evangelist profile is a company/identity record; 7AI does not publish a public developer API, SDK, or developer portal at the time of enrichment.'
 image: https://47518862.fs1.hubspotusercontent-na1.net/hubfs/47518862/outline.png.webp
 layout: provider
-modified: '2026-07-17'
+modified: '2026-10-06'
 name: 7AI
 nav: Providers
 network: true
 overview: '7AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cybersecurity, Security, Artificial Intelligence, and AI Agents.
 
 
-  7AI''s developer surface includes engineering blog, getting-started guide, support, and 9 more developer resources.'
+  7AI''s developer surface includes engineering blog, getting-started guide, support, and 10 more developer resources.'
 random_paper: 15
 score:
   band: emerging
   composite: 20.5
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -134,8 +138,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 5.0
-  scored_at: '2026-10-04'
+  score: 3.1
+  scored_at: '2026-10-17'
 api_count: 9
 apis:
 - description: Comprehensive set of REST APIs for managing conversations across messaging channels, including agent operations, consumer messaging, conversation history, and engagement events.
@@ -65,6 +65,21 @@ apis:
   slug: functions
 artifact_total: 14
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/liveperson/refs/heads/main/plans/liveperson-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/liveperson-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/liveperson/refs/heads/main/rate-limits/liveperson-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/liveperson-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/liveperson/refs/heads/main/finops/liveperson-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/liveperson-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/liveperson/refs/heads/main/security/liveperson-trust-center.yml
   title: ''
@@ -114,19 +129,23 @@ common:
 created: '2025-01-14'
 description: LivePerson is a leading provider of conversational AI and digital customer engagement technology. Their platform enables enterprises to design, deploy, and manage AI-powered messaging, voice, and agent-assisted conversations across web, mobile, and social channels, with a comprehensive suite of REST APIs covering conversation orchestration, contact center management, reporting, messaging, and security.
 finops:
-- name: Liveperson Finops
+- has_sources: false
+  method: generated
+  name: Liveperson Finops
+  primary_unit: ''
   service_category: API
   slug: liveperson-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/liveperson.png
 layout: provider
 modified: '2026-04-28'
 name: LivePerson
 nav: Providers
 network: true
-overview: 'LivePerson publishes 9 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Conversational AI, Customer Engagement, Messaging, Contact Center, and Bots.
+overview: 'LivePerson is listed with 9 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Conversational AI, Customer Engagement, Messaging, Contact Center, and Bots.
 
 
-  LivePerson''s developer surface includes developer portal, documentation, getting-started guide, authentication, engineering blog, and 6 more developer resources.'
+  LivePerson''s developer surface includes developer portal, documentation, getting-started guide, authentication, engineering blog, and 9 more developer resources.'
 plans:
 - name: Liveperson Plans Pricing
   plan_count: 3
@@ -138,17 +157,17 @@ rate_limits:
   slug: liveperson-rate-limits
 score:
   band: emerging
-  composite: 19.7
+  composite: 17.8
   coverage:
     artifact_dirs: 7
-    catalog_earned: 44.0
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 71.0
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.9
   facets:
-    access_clarity: 23.7
+    access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 31.0
@@ -157,12 +176,12 @@ score:
   previous_composite: 19.7
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.5
-  scored_at: '2026-10-04'
+  score: 19.6
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -92,6 +92,25 @@ collections:
   name: INTTRA Ocean Execution API (e2open)
   slug: open-inttra-ocean-execution
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/e2open/refs/heads/main/plans/e2open-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/e2open-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/e2open/refs/heads/main/rate-limits/e2open-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/e2open-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/e2open/refs/heads/main/finops/e2open-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/e2open-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.e2open.com/blog/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/e2open/refs/heads/main/capabilities/e2open-capability-edges.yml
   title: ''
@@ -167,9 +186,13 @@ common:
   url: https://knowledge.e2open.com/knowledgecenter/inttra-resources/
 description: Supply chain software with a connected network and SaaS platform help you seize opportunities, predict disruptions, and drive efficiency and sustainability.
 finops:
-- name: E2Open Finops
+- has_sources: true
+  method: generated
+  name: E2Open Finops
+  primary_unit: ''
   service_category: Supply Chain
   slug: e2open-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/e2open.png
 json_schemas:
 - name: e2open / INTTRA Ocean Shipment
@@ -181,17 +204,17 @@ jsonld:
   property_count: 28
   slug: e2open-context
 layout: provider
-modified: '2026-09-16'
+modified: '2026-10-06'
 name: E2open
 nav: Providers
 network: true
-overview: 'E2open publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Bookings API, Schedules API, Shipping Instructions API, and 3 more. Tagged areas include Logistics, Supply Chain, Transportation, and Booking.
+overview: 'E2open publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Bookings API, Schedules API, Shipping Instructions API, and 3 more. Tagged areas include Logistics, Supply Chain, Transportation, and Booking.
 
 
   The E2open catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  E2open''s developer surface includes authentication, developer portal, documentation, getting-started guide, support, and 12 more developer resources.'
+  E2open''s developer surface includes engineering blog, authentication, developer portal, documentation, getting-started guide, support, and 15 more developer resources.'
 plans:
 - name: E2Open Plans Pricing
   plan_count: 3
@@ -202,9 +225,10 @@ rate_limits:
   name: E2Open Rate Limits
   slug: e2open-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: E2open API Rules
+  name: E2open — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -214,20 +238,20 @@ rules:
   slug: e2open-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 41.3
+  composite: 40.3
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 47.3
+    artifact_dirs: 15
+    catalog_earned: 44.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 67.8
+    catalog_gap: 70.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.0
   facets:
-    access_clarity: 36.8
+    access_clarity: 28.9
     contract_governance: 9.8
     contract_quality: 56.6
-    developer_ergonomics: 54.8
+    developer_ergonomics: 57.1
     discoverability: 48.2
     operational_transparency: 10.5
   previous_composite: 41.3
@@ -244,8 +268,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

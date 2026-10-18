@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 7
 common:
@@ -134,9 +134,10 @@ press:
   url: https://www.firstonline.info/en/rcs-capital-increase-from-27-June-to-5-July/
 random_paper: 7
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: RCS Capital API Rules
+  name: RCS Capital — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -170,8 +171,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 10.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

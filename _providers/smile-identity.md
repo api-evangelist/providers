@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -106,7 +106,7 @@ apis:
   description: The Verification Status API from Smile Identity — 1 operation(s) for verification status.
   name: Smile Identity Verification Status API
   slug: smile-identity-verification-status-api
-artifact_total: 29
+artifact_total: 30
 asyncapis:
 - description: ''
   name: Smile Identity Verification Webhooks
@@ -294,6 +294,10 @@ common:
   title: ''
   type: AgentSkill
   url: skills/_index.yml
+- group: design
+  title: ''
+  type: SpectralRules
+  url: https://github.com/smileidentity/api-reference/blob/ee22a25c4c7b9e433e4fb5422f305b30773a8c2b/.spectral.yaml
 created: '2026-07-17'
 description: Smile Identity (Smile ID) is Africa's leading digital identity verification, fraud detection, AML and KYC/KYB compliance platform. Its V3 REST API and v12 mobile/web SDKs let businesses onboard and authenticate users across all 54 African countries and beyond, covering thousands of ID types and documents. Products include Biometric KYC, Document Verification, Enhanced Document Verification, Basic and Enhanced KYC, Business Verification (KYB), SmartSelfie registration/authentication/compare, phone and address verification, and AML monitoring. Verifications run against government and institutional data sources, with passive/active liveness, and results delivered synchronously and via asynchronous callback webhooks.
 image: https://cdn.prod.website-files.com/69cecfcd51ce55fce000c092/6a198a55c9d40279f94b33a4_Smile-Favicon.png
@@ -302,28 +306,41 @@ modified: '2026-07-21'
 name: Smile Identity
 nav: Providers
 network: true
-overview: 'Smile Identity publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Biometric Authentication API, Biometric Enrollment API, and 9 more. Tagged areas include Company, Identity Verification, KYC, KYB, and Biometrics.
+overview: 'Smile Identity publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authentication API, Biometric Authentication API, Biometric Enrollment API, and 9 more. Tagged areas include Company, Identity Verification, KYC, KYB, and Biometrics.
 
 
-  The Smile Identity catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Smile Identity catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Smile Identity''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, pricing, changelog, and 24 more developer resources.'
+  Smile Identity''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, pricing, changelog, and 25 more developer resources.'
 random_paper: 5
+rules:
+- authorship: provider
+  effective_rule_count: 42
+  extends:
+  - spectral:oas
+  name: Smile Identity — api reference rules
+  rule_count: 1
+  severity_counts:
+    error: 1
+    hint: 0
+    info: 0
+    warn: 0
+  slug: smile-identity-api-reference-spectral-rules
 score:
   band: developing
-  composite: 44.8
+  composite: 49.8
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 24
+    catalog_earned: 52.0
+    catalog_earned_first_party: 15.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 5.0
   facets:
     access_clarity: 31.6
-    contract_governance: 4.5
+    contract_governance: 50.0
     contract_quality: 57.7
     developer_ergonomics: 47.0
     discoverability: 73.2
@@ -346,13 +363,13 @@ score:
     skills: derived
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
-    score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
+    score: 23.6
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: true
     score: 27.8

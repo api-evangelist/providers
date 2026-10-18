@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 69.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - baseURL: https://api.mollie.com
@@ -263,7 +263,7 @@ modified: '2026-08-01'
 name: Mollie
 nav: Providers
 network: true
-overview: 'Mollie publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Fintech, Financial Services, and Checkout.
+overview: 'Mollie is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Fintech, Financial Services, and Checkout.
 
 
   The Mollie catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -280,7 +280,7 @@ score:
   band: strong
   composite: 59.6
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -324,8 +324,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 53.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Developer portal for Avero providing API documentation and resources.
@@ -31,6 +31,10 @@ apis:
   slug: avero-api
 artifact_total: 3
 common:
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://averoinc.com/packages/
 - group: commercial
   href: https://raw.githubusercontent.com/api-evangelist/avero/refs/heads/main/plans/avero-plans-pricing.yml
   title: ''
@@ -104,10 +108,10 @@ modified: '2026-09-26'
 name: Avero
 nav: Providers
 network: true
-overview: 'Avero publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Hospitality, Restaurant, Software-as-a-Service, and Analytics.
+overview: 'Avero is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Hospitality, Restaurant, Software-as-a-Service, and Analytics.
 
 
-  Avero''s developer surface includes documentation and 11 more developer resources.'
+  Avero''s developer surface includes pricing, documentation, and 11 more developer resources.'
 plans:
 - name: Avero Plans Pricing
   plan_count: 3
@@ -115,33 +119,37 @@ plans:
 random_paper: 13
 score:
   band: emerging
-  composite: 21.3
+  composite: 23.5
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 37.0
     catalog_earned_first_party: 12.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 2.2
   facets:
-    access_clarity: 65.8
+    access_clarity: 76.3
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 9.5
     discoverability: 44.6
     operational_transparency: 15.8
+  previous_composite: 21.3
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/avero/refs/heads/main/screenshots/avero-2026-10-11T101155.png
 security:
 - kind: domain-security
   name: Avero Domain Security

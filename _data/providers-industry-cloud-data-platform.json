@@ -16,7 +16,7 @@
      "slug": "snowflake",
      "description": "Snowflake is a cloud-based data platform delivering data warehousing, data lakes, data engineering, data science and data application development as a single managed service across AWS, Azure and Google Cloud. Its developer surface is a 47-document OpenAPI corpus over /api/v2 covering databases, schemas, tables, Iceberg and dynamic tables, warehouses, tasks, pipes, streams, roles and grants, plus a SQL API for arbitrary statements and a Cortex family for AI inference, semantic analytics and retrieval. Snowflake also serves a SCIM 2.0 identity endpoint, an Apache Iceberg REST Catalog, and an account-hosted Model Context Protocol server that exposes Cortex tools to agents under Snowflake RBAC.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/screenshots/snowflake-2026-06-20T194110.png",
-     "score": 82.7,
+     "score": 81.2,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
@@ -25,10 +25,10 @@
       "contract_governance": 45.5,
       "operational_transparency": 60.5,
       "developer_ergonomics": 80.4,
-      "access_clarity": 100.0
+      "access_clarity": 92.1
      },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
+     "scored_at": "2026-10-17",
+     "schema_version": "0.24.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
@@ -66,19 +66,19 @@
      "slug": "clarivate",
      "description": "Clarivate is a global information services company providing data, insights and analytics across academia and government, life sciences and healthcare, and intellectual property. It publishes 26 machine-readable API contracts through one developer portal at developer.clarivate.com, each fetchable at developer.clarivate.com/apis/<api>/swagger, and serves them through a single gateway at api.clarivate.com. The estate spans Web of Science publication and citation data, Journal Citation Reports metrics, InCites benchmarking, Derwent patent and trademark intelligence, Converis research information management, Cortellis life sciences intelligence, and COUNTER R5 usage reporting over NISO SUSHI. Access is by API key or OAuth 2.0 client credentials, issued per registered application; every plan but the Web of Science Starter Free Trial is entitled from an institutional subscription and approved by Clarivate.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/clarivate/refs/heads/main/screenshots/clarivate-2026-06-20T174437.png",
-     "score": 75.2,
+     "score": 72.1,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
       "discoverability": 83.9,
-      "contract_quality": 56.2,
-      "contract_governance": 59.1,
+      "contract_quality": 62.3,
+      "contract_governance": 33.3,
       "operational_transparency": 84.2,
       "developer_ergonomics": 66.1,
-      "access_clarity": 89.5
+      "access_clarity": 81.6
      },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
+     "scored_at": "2026-10-17",
+     "schema_version": "0.24.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -127,7 +127,7 @@
      "slug": "dow-jones",
      "description": "Dow Jones is a financial news and information company, publisher of The Wall Street Journal, Barron's, MarketWatch, and Dow Jones Newswires, and operator of the Factiva news archive and the Risk & Compliance data business. Its Developer Platform (developer.dowjones.com) publishes REST APIs for entity screening and monitoring, third-party risk, due-diligence reports, risk profile search, and news content (Newswires real-time search, top stories, calendars, newsletters), secured by the Dow Jones Identity Service (OAuth 2.0 / OIDC) or Factiva user keys.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/dow-jones/refs/heads/main/screenshots/dow-jones-2026-06-20T180210.png",
-     "score": 61.8,
+     "score": 63.2,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
@@ -135,11 +135,11 @@
       "contract_quality": 58.4,
       "contract_governance": 18.2,
       "operational_transparency": 76.3,
-      "developer_ergonomics": 68.5,
+      "developer_ergonomics": 75.6,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
+     "scored_at": "2026-10-17",
+     "schema_version": "0.24.0",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -177,7 +177,7 @@
      "slug": "wherobots",
      "description": "Wherobots is a managed cloud platform for geospatial analytics and spatial AI at planetary scale, built by the creators of Apache Sedona. WherobotsDB is a distributed Spatial SQL engine with 300+ spatial functions, raster and vector processing (RasterFlow), Havasu (Apache Iceberg-compatible) tables, and data federation across AWS Glue, Databricks Unity Catalog and S3. Developers reach it through the Wherobots Cloud API and a Spatial SQL API, with Python (DB-API), JDBC and TypeScript SDKs, a CLI, an Apache Airflow provider, a hosted MCP server, and agent skills for AI-assisted geospatial development.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/wherobots/refs/heads/main/screenshots/wherobots-2026-08-17T082916.png",
-     "score": 61.0,
+     "score": 61.1,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
@@ -188,8 +188,8 @@
       "developer_ergonomics": 73.2,
       "access_clarity": 81.6
      },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
+     "scored_at": "2026-10-17",
+     "schema_version": "0.24.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
@@ -234,7 +234,7 @@
      "slug": "bloomberg",
      "description": "Bloomberg delivers business and markets news, data, analysis, and video to the world, featuring stories from Businessweek and Bloomberg News. Bloomberg provides a suite of developer APIs including BLPAPI, Server API, and the Hypermedia API for programmatic access to market data, analytics, and enterprise services.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/bloomberg/refs/heads/main/screenshots/bloomberg-2026-06-20T173403.png",
-     "score": 56.3,
+     "score": 54.8,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
@@ -243,10 +243,10 @@
       "contract_governance": 45.5,
       "operational_transparency": 36.8,
       "developer_ergonomics": 67.3,
-      "access_clarity": 44.7
+      "access_clarity": 36.8
      },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
+     "scored_at": "2026-10-17",
+     "schema_version": "0.24.0",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -254,7 +254,7 @@
       "score": 43.5,
       "matched_via": "tags"
      },
-     "agent_score": 30.8,
+     "agent_score": 28.9,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -265,7 +265,7 @@
       "idempotency": false,
       "error_semantics": "derived",
       "openapi_examples": false,
-      "rate_limit_signal": "documented",
+      "rate_limit_signal": "derived",
       "event_surface_described": "derived",
       "agent_skills": "derived",
       "well_known_catalog": false,
@@ -295,7 +295,7 @@
      "slug": "moodys",
      "description": "Moody's provides a comprehensive suite of APIs spanning KYC compliance, economic data and forecasting, credit risk analytics, insurance and catastrophe modeling, climate risk, commercial real estate, and news aggregation. With evolving regulatory pressures and increasingly complex risk landscapes, Moody's technology, data, and analytical capabilities power industry-leading solutions across financial services, insurance, and risk management.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/screenshots/moodys-2026-06-20T185751.png",
-     "score": 51.0,
+     "score": 49.4,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
@@ -304,10 +304,10 @@
       "contract_governance": 18.2,
       "operational_transparency": 34.2,
       "developer_ergonomics": 76.8,
-      "access_clarity": 34.2
+      "access_clarity": 26.3
      },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
+     "scored_at": "2026-10-17",
+     "schema_version": "0.24.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -315,7 +315,7 @@
       "score": 41.2,
       "matched_via": "tags"
      },
-     "agent_score": 37.8,
+     "agent_score": 35.9,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -326,7 +326,7 @@
       "idempotency": false,
       "error_semantics": "verified",
       "openapi_examples": false,
-      "rate_limit_signal": "documented",
+      "rate_limit_signal": "derived",
       "event_surface_described": "unknown",
       "agent_skills": "derived",
       "well_known_catalog": true,
@@ -355,7 +355,7 @@
      "slug": "panoply",
      "description": "Panoply is a managed cloud data warehouse and ELT (Extract, Load, Transform) platform that centralizes data from 100+ sources into a BigQuery- or Redshift-backed warehouse. It pairs pre-built SaaS connectors and a customizable Flex Connector with a SQL workbench, a code-free Query Builder, and in-platform dashboards, so startups and data teams get analytics-ready data without managing infrastructure. Panoply is a SQream company, backed by 500 Global, offering SOC 2 Type 2, HIPAA, GDPR, and FINRA compliance postures. Its programmable surface is the Flex Connector for ingesting external REST APIs; Panoply does not publish a first-party public REST management API or OpenAPI specification.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/panoply/refs/heads/main/screenshots/panoply-2026-08-07T191340.png",
-     "score": 27.4,
+     "score": 27.5,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
@@ -366,8 +366,8 @@
       "developer_ergonomics": 17.9,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
+     "scored_at": "2026-10-17",
+     "schema_version": "0.24.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
@@ -422,61 +422,11 @@
    "shown": 3,
    "providers": [
     {
-     "name": "Palantir",
-     "slug": "palantir",
-     "description": "Palantir is a data analytics company providing software platforms for organizations to integrate, analyze, and visualize data. Palantir Foundry and AIP provide REST APIs for data workflows, AI operations, ontology management, orchestration, and decision-making across enterprise and government use cases.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/palantir/refs/heads/main/screenshots/palantir-2026-06-20T191326.png",
-     "score": 23.8,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 48.2,
-      "contract_quality": 48.4,
-      "contract_governance": 0.0,
-      "operational_transparency": 10.5,
-      "developer_ergonomics": 11.9,
-      "access_clarity": 15.8
-     },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Government & Public Sector",
-      "regime_id": "government",
-      "score": 17.6,
-      "matched_via": "tags"
-     },
-     "agent_score": 19.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 8
-    },
-    {
      "name": "Netezza",
      "slug": "netezza",
      "description": "IBM Netezza Performance Server is a cloud-native data warehouse and analytics appliance for running large-scale SQL analytics and in-database machine learning on structured data. Originally a standalone data-warehouse appliance vendor acquired by IBM, Netezza is now delivered as Netezza Performance Server on IBM Cloud, AWS, and Microsoft Azure and as part of IBM Cloud Pak for Data. It is consumed primarily through SQL over standard database connectivity — the pure-Python nzpy DB-API 2.0 driver, JDBC (nzjdbc) and ODBC drivers, and the nzpyida in-database analytics library — rather than as a public REST API, with a REST interface for backup/restore administration and a web console for monitoring and administration.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/netezza/refs/heads/main/screenshots/netezza-2026-08-07T184931.png",
-     "score": 17.7,
+     "score": 24.1,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
@@ -485,10 +435,10 @@
       "contract_governance": 0.0,
       "operational_transparency": 13.2,
       "developer_ergonomics": 45.2,
-      "access_clarity": 10.5
+      "access_clarity": 42.1
      },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
+     "scored_at": "2026-10-17",
+     "schema_version": "0.24.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
@@ -519,6 +469,56 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 8
+    },
+    {
+     "name": "Palantir",
+     "slug": "palantir",
+     "description": "Palantir is a data analytics company providing software platforms for organizations to integrate, analyze, and visualize data. Palantir Foundry and AIP provide REST APIs for data workflows, AI operations, ontology management, orchestration, and decision-making across enterprise and government use cases.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/palantir/refs/heads/main/screenshots/palantir-2026-06-20T191326.png",
+     "score": 22.2,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 48.2,
+      "contract_quality": 48.4,
+      "contract_governance": 0.0,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 11.9,
+      "access_clarity": 7.9
+     },
+     "scored_at": "2026-10-17",
+     "schema_version": "0.24.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 17.6,
+      "matched_via": "tags"
+     },
+     "agent_score": 17.9,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "derived",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 9
     },
     {
@@ -526,7 +526,7 @@
      "slug": "thomson-reuters",
      "description": "Thomson Reuters provides over 137 APIs across legal, tax and accounting, risk and fraud, and trade and supply industries through their global developer portal. APIs cover Westlaw legal research, Checkpoint tax content, ONESOURCE tax software, HighQ document management, Legal Tracker matter management, and risk and fraud solutions including identity verification and adverse media screening.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/thomson-reuters/refs/heads/main/screenshots/thomson-reuters-2026-06-20T195310.png",
-     "score": 13.4,
+     "score": 11.9,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
@@ -535,10 +535,10 @@
       "contract_governance": 0.0,
       "operational_transparency": 10.5,
       "developer_ergonomics": 0.0,
-      "access_clarity": 15.8
+      "access_clarity": 7.9
      },
-     "scored_at": "2026-10-04",
-     "schema_version": "0.23.0",
+     "scored_at": "2026-10-17",
+     "schema_version": "0.24.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
@@ -546,7 +546,7 @@
       "score": 10.8,
       "matched_via": "fallback"
      },
-     "agent_score": 2.5,
+     "agent_score": 0.6,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -557,7 +557,7 @@
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": "documented",
+      "rate_limit_signal": "derived",
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,

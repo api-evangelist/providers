@@ -35,8 +35,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.7
-  scored_at: '2026-10-04'
-api_count: 1
+  scored_at: '2026-10-17'
+api_count: 2
 apis:
 - description: Public, load-balanced Lotus node endpoint hosted by Glif providing read-only access to the Filecoin mainnet JSON-RPC API, including all Filecoin and Ethereum-compatible RPC methods. Supports MPoolPush
   name: Filecoin Glif Lotus JSON-RPC API
@@ -139,9 +139,13 @@ common:
   url: https://status.filecoin.io/
 description: Filecoin is the world's largest decentralized storage network, providing cryptographically verifiable storage backed by a global network of storage providers. Developers can query storage deals, retrieval markets, miners, blocks, and Filecoin+ verified storage operations through the Glif-hosted Lotus JSON-RPC API and the Filecoin HTTP REST API. The network also exposes protocol-level actors (Miner, Market, Datacap, Verified Registry, Storage Power) through built-in actor methods, and offers high-level storage onramps such as Filecoin Onchain Cloud (Synapse SDK) and S3-compatible Fil One storage.
 finops:
-- name: Finops
+- has_sources: false
+  method: generated
+  name: Finops
+  primary_unit: ''
   service_category: ''
   slug: finops
+  template: true
 image: https://filecoin.io/favicon.ico
 jsonld:
 - class_count: 0
@@ -153,7 +157,7 @@ modified: '2026-06-13'
 name: Filecoin
 nav: Providers
 network: true
-overview: 'Filecoin publishes 6 APIs on the [APIs.io](https://apis.io/) network, including HTTP REST API, and 5 more. Tagged areas include Decentralized Storage, Web3, IPFS, Blockchain, and Storage Deals.
+overview: 'Filecoin publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including HTTP REST API, and 5 more. Tagged areas include Decentralized Storage, Web3, IPFS, Blockchain, and Storage Deals.
 
 
   The Filecoin catalog on APIs.io includes 1 JSON-LD context.
@@ -170,23 +174,23 @@ rate_limits:
   name: Rate Limits
   slug: rate-limits
 score:
-  band: thin
-  composite: 31.3
+  band: emerging
+  composite: 23.9
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 63.0
+    artifact_dirs: 12
+    catalog_earned: 47.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 52.0
+    catalog_gap: 68.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.4
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 32.2
     developer_ergonomics: 28.6
     discoverability: 73.2
-    operational_transparency: 21.6
+    operational_transparency: 7.9
   previous_composite: 31.3
   regulatory:
     applies: true
@@ -194,9 +198,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

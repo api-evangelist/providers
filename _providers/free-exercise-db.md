@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Read-only, unauthenticated dataset surface. The provider's own README documents consumption as an HTTPS GET of the combined exercises.json array (873 records) or of a single exercise document, with im
@@ -139,7 +139,7 @@ modified: '2026-08-27'
 name: Free Exercise DB
 nav: Providers
 network: true
-overview: 'Free Exercise DB publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Open Data, Fitness, Exercise, and Health.
+overview: 'Free Exercise DB is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Open Data, Fitness, Exercise, and Health.
 
 
   Free Exercise DB''s developer surface includes documentation, API reference, getting-started guide, support, authentication, and 13 more developer resources.'
@@ -180,8 +180,8 @@ score:
     regime: Health
     regime_id: health
     score: 11.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

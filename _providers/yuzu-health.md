@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 34
-  human_in_the_loop: 34
+- acting_count: 33
+  human_in_the_loop: 33
   name: Yuzu Health Agentic Access
   operation_count: 76
   slug: yuzu-health-agentic-access
-  summary_line: 76 operations · 34 acting · 34 human-in-the-loop
+  summary_line: 76 operations · 33 acting · 33 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://api.yuzu.health
@@ -270,7 +270,7 @@ modified: '2026-07-21'
 name: Yuzu Health
 nav: Providers
 network: true
-overview: 'Yuzu Health publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Accumulator (Experimental) API, Benefits API, Coverage API, and 7 more. Tagged areas include Company, Health, Healthcare, Insurance, and Health Plans.
+overview: 'Yuzu Health publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accumulator (Experimental) API, Benefits API, Coverage API, and 7 more. Tagged areas include Company, Health, Healthcare, Insurance, and Health Plans.
 
 
   Yuzu Health''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 22 more developer resources.'
@@ -310,8 +310,8 @@ score:
     regime: Health
     regime_id: health
     score: 19.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

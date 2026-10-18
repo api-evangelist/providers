@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-04'
+  score: 20.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -62,6 +62,21 @@ collections:
   name: Hilton Developer Hotels API
   slug: open-hilton-hotels-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/hilton/refs/heads/main/plans/hilton-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/hilton-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/hilton/refs/heads/main/rate-limits/hilton-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/hilton-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/hilton/refs/heads/main/finops/hilton-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/hilton-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/hilton/refs/heads/main/agentic-access/hilton-agentic-access.yml
   title: ''
@@ -96,19 +111,23 @@ common:
 created: '2026-03-21'
 description: Hilton is one of the largest and fastest-growing hospitality companies in the world, with a portfolio of hotel brands across luxury, full-service, focused-service, and timeshare segments. Hilton operates a developer program that exposes APIs for hotel search, availability, reservations, loyalty program integration, and partner distribution. Most Hilton APIs are partner-gated and require credentials issued through the Hilton developer program.
 finops:
-- name: Hilton Finops
+- has_sources: true
+  method: generated
+  name: Hilton Finops
+  primary_unit: ''
   service_category: Hospitality / Travel
   slug: hilton-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hilton.png
 layout: provider
 modified: '2026-05-19'
 name: Hilton
 nav: Providers
 network: true
-overview: 'Hilton publishes 1 API on the [APIs.io](https://apis.io/) network: Hotels API. Tagged areas include Hospitality, Hotels, Travel, Reservations, and Loyalty.
+overview: 'Hilton publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Hotels API. Tagged areas include Hospitality, Hotels, Travel, Reservations, and Loyalty.
 
 
-  Hilton''s developer surface includes authentication and 6 more developer resources.'
+  Hilton''s developer surface includes authentication and 9 more developer resources.'
 plans:
 - name: Hilton Plans Pricing
   plan_count: 1
@@ -135,18 +154,18 @@ rate_limits:
   name: Hilton Rate Limits
   slug: hilton-rate-limits
 score:
-  band: thin
-  composite: 26.5
+  band: emerging
+  composite: 25.0
   coverage:
     artifact_dirs: 13
-    catalog_earned: 44.0
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 71.0
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 13.2
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 51.4
     developer_ergonomics: 21.4
@@ -166,13 +185,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
     reason: read_only
+screenshot: https://raw.githubusercontent.com/api-evangelist/hilton/refs/heads/main/screenshots/hilton-2026-10-11T190201.png
 security:
 - kind: authentication
   name: Hilton Authentication

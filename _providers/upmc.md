@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The UPMC Health Plan Developer API is the payer-side FHIR API mandated by the ONC 21st Century Cures Act and the CMS Interoperability and Patient Access Final Rule. It allows registered third-party ap
@@ -91,14 +91,14 @@ modified: '2026-05-16'
 name: UPMC
 nav: Providers
 network: true
-overview: 'UPMC publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Healthcare, Health Insurance, Hospitals, Pennsylvania, and FHIR.
+overview: 'UPMC is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Healthcare, Health Insurance, Hospitals, Pennsylvania, and FHIR.
 
 
   UPMC''s developer surface includes engineering blog, documentation, and 5 more developer resources.'
 random_paper: 19
 score:
   band: minimal
-  composite: 6.7
+  composite: 6.8
   coverage:
     artifact_dirs: 4
     catalog_earned: 29.0
@@ -106,7 +106,7 @@ score:
     catalog_gap: 86.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
@@ -128,8 +128,8 @@ score:
     regime: Health
     regime_id: health
     score: 4.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

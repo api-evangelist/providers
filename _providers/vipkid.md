@@ -23,10 +23,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.vipkid.com/blog/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/vipkid/refs/heads/main/security/vipkid-domain-security.yml
   title: ''
@@ -116,14 +120,14 @@ created: '2026-09-04'
 description: VIPKid (Beijing Dami Technology Co., Ltd. / 北京大米科技有限公司) is an online language-education company founded in 2013 that connects children with English teachers over one-to-one live video lessons, and runs a global teacher-marketplace side (VIPTeacher) alongside consumer learning brands including Lingo Bus, VIPKID AI 双师智学, VIPKID 国际教育 and the Dino parent-child reading rooms. The product is delivered entirely as consumer web and mobile apps and a teacher portal; VIPKid publishes no public developer program, API reference, or machine-readable contract of any kind.
 image: https://img.vipkidstatic.com/teacher/FBShare_Image_1200x630.png
 layout: provider
-modified: '2026-09-04'
+modified: '2026-10-06'
 name: VIPKid
 nav: Providers
 network: true
-overview: 'VIPKid is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, EdTech, Online Learning, and Language Learning.
+overview: 'VIPKid is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, EdTech, E-Learning, and Language Learning.
 
 
-  VIPKid''s developer surface includes support, signup flow, and 13 more developer resources.'
+  VIPKid''s developer surface includes engineering blog, support, signup flow, and 13 more developer resources.'
 plans:
 - name: Vipkid Plans Pricing
   plan_count: 0
@@ -135,20 +139,20 @@ rate_limits:
   slug: vipkid-rate-limits
 score:
   band: emerging
-  composite: 15.3
+  composite: 15.8
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 11
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 42.1
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 4.8
+    developer_ergonomics: 7.1
     discoverability: 48.2
     operational_transparency: 2.6
   jurisdiction:
@@ -168,13 +172,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 23.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/vipkid/refs/heads/main/screenshots/vipkid-2026-10-11T133013.png
 security:
 - kind: domain-security
   name: Vipkid Domain Security
@@ -185,7 +190,7 @@ tags:
 - Company
 - Education
 - EdTech
-- Online Learning
+- E-Learning
 - Language Learning
 - English Language Teaching
 - Tutoring

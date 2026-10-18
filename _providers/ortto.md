@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 11
+- acting_count: 6
   human_in_the_loop: 0
   name: Ortto Agentic Access
   operation_count: 11
   slug: ortto-agentic-access
-  summary_line: 11 operations · 11 acting
+  summary_line: 11 operations · 6 acting
 api_count: 1
 apis:
 - baseURL: https://api.ap3api.com/v1
@@ -358,9 +358,13 @@ common:
 created: '2026-06-25'
 description: Ortto (formerly Autopilot) is a marketing automation, customer data platform (CDP), and analytics product. Its REST API at https://api.ap3api.com/v1 lets applications create and update people/contacts and accounts, send custom activity events, manage tags, retrieve campaign reports, and send transactional email and SMS, all authenticated with a custom API key via the X-Api-Key header, with EU and AU service endpoints for accounts in those data-residency regions. Ortto also runs a first-party hosted MCP server, released in version 1.27 (December 2025), giving agents a read-heavy surface over campaigns, contacts, audiences, reports, schema and knowledge-base content. Ortto publishes no machine-readable OpenAPI; the specifications here are scaffolded from its help-center API reference. Ortto announced in April 2026 that it is joining Canva.
 finops:
-- name: Ortto Finops
+- has_sources: true
+  method: generated
+  name: Ortto Finops
+  primary_unit: ''
   service_category: Marketing and Customer Engagement
   slug: ortto-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ortto.png
 layout: provider
 mcp_servers:
@@ -371,7 +375,7 @@ modified: '2026-08-13'
 name: Ortto
 nav: Providers
 network: true
-overview: 'Ortto publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Activities API, Campaigns API, and 3 more. Tagged areas include Marketing Automation, CDP, Customer Data Platform, Analytics, and Email.
+overview: 'Ortto publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, Activities API, Campaigns API, and 3 more. Tagged areas include Marketing Automation, CDP, Customer Data Platform, Analytics, and Email.
 
 
   The Ortto catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -388,18 +392,18 @@ rate_limits:
   name: Ortto Rate Limits
   slug: ortto-rate-limits
 score:
-  band: exemplar
-  composite: 67.5
+  band: strong
+  composite: 65.9
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 64.0
+    artifact_dirs: 27
+    catalog_earned: 61.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 51.0
+    catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 89.5
+    access_clarity: 81.6
     contract_governance: 18.2
     contract_quality: 56.1
     developer_ergonomics: 67.3
@@ -428,8 +432,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 30.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

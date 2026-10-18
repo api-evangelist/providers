@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 1
@@ -260,6 +260,11 @@ collections:
   name: JFrog Artifactory Query Language (AQL) AQL Search Tags API
   slug: open-artifactory-tags-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/artifactory/refs/heads/main/finops/artifactory-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/artifactory-finops.yml
 - group: operate
   href: https://raw.githubusercontent.com/api-evangelist/artifactory/refs/heads/main/rate-limits/artifactory-rate-limits.yml
   title: ''
@@ -562,9 +567,13 @@ features:
 - description: Full Docker Registry v2 API compliance for pushing, pulling, and managing Docker images with automated vulnerability scanning.
   name: Docker Registry
 finops:
-- name: Artifactory Finops
+- has_sources: true
+  method: generated
+  name: Artifactory Finops
+  primary_unit: ''
   service_category: Developer Tools / Artifact Management
   slug: artifactory-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/artifactory.png
 json_schemas:
 - name: Artifactory Build Info
@@ -588,13 +597,13 @@ modified: '2026-09-16'
 name: JFrog Artifactory
 nav: Providers
 network: true
-overview: 'JFrog Artifactory publishes 17 APIs on the [APIs.io](https://apis.io/) network, including AQL Search API, Extensions API, Artifacts & Storage API, and 14 more. Tagged areas include Artifacts, DevOps, CI/CD, docker-registry, and Maven.
+overview: 'JFrog Artifactory publishes 17 API contracts indexed on the [APIs.io](https://apis.io/) network, including AQL Search API, Extensions API, Artifacts & Storage API, and 14 more. Tagged areas include Artifacts, DevOps, CI/CD, docker-registry, and Maven.
 
 
   The JFrog Artifactory catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  JFrog Artifactory''s developer surface includes authentication, changelog, CLI, pricing, engineering blog, support, developer portal, and 54 more developer resources.'
+  JFrog Artifactory''s developer surface includes authentication, changelog, CLI, pricing, engineering blog, support, developer portal, and 55 more developer resources.'
 plans:
 - name: Artifactory Plans Pricing
   plan_count: 3
@@ -608,9 +617,10 @@ rate_limits:
   name: Artifactory Rate Limits
   slug: artifactory-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: JFrog Artifactory API Rules
+  name: JFrog Artifactory — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -620,17 +630,17 @@ rules:
   slug: artifactory-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 57.9
+  composite: 56.4
   coverage:
-    artifact_dirs: 28
-    catalog_earned: 79.3
+    artifact_dirs: 29
+    catalog_earned: 76.3
     catalog_earned_first_party: 24.0
-    catalog_gap: 35.8
+    catalog_gap: 38.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 75.0
+    access_clarity: 67.1
     contract_governance: 14.4
     contract_quality: 58.1
     developer_ergonomics: 46.4
@@ -656,8 +666,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 31.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

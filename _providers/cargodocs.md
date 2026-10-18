@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -116,6 +116,21 @@ collections:
   name: CargoDocs Customer Data/Docs Common Transactions API
   slug: open-cargodocs-transactions-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/cargodocs/refs/heads/main/plans/cargodocs-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/cargodocs-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cargodocs/refs/heads/main/rate-limits/cargodocs-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/cargodocs-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/cargodocs/refs/heads/main/finops/cargodocs-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/cargodocs-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/cargodocs/refs/heads/main/capabilities/cargodocs-capability-edges.yml
   title: ''
@@ -184,9 +199,13 @@ common:
 created: '2025-01-08'
 description: CargoDocs, operated by EssDocs, is a digital trade documentation platform that eliminates paper-based shipping documents by letting carriers, shippers, banks, and partner platforms issue, sign, transfer, and surrender original electronic bills of lading (eBoL), sea waybills (SWB), warehouse warrants (eWW), and supporting trade documents. CargoDocs DocEx is used by container lines, NVOCCs, bulk/tanker carriers, commodity shippers, and trade finance banks to move documents in minutes rather than days while retaining negotiability and legal effect. Developers interact with CargoDocs through three OpenAPI-described REST APIs hosted on ReadMe - the Partner API (embed DocEx in third-party platforms), the Issuer API (carrier/NVOCC issuance and amendments), and the Customer Data/Docs API (exporter drafting and back-office integration).
 finops:
-- name: Cargodocs Finops
+- has_sources: true
+  method: generated
+  name: Cargodocs Finops
+  primary_unit: ''
   service_category: Trade Documentation Platform
   slug: cargodocs-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cargodocs.png
 json_schemas:
 - name: CargoDocs Bill of Lading
@@ -214,13 +233,13 @@ modified: '2026-05-19'
 name: CargoDocs
 nav: Providers
 network: true
-overview: 'CargoDocs publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Common API, Documents API, Exchange API, and 4 more. Tagged areas include Bills of Lading, eBoL, EssDocs, MLETR, and Shipping.
+overview: 'CargoDocs publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Common API, Documents API, Exchange API, and 4 more. Tagged areas include Bills of Lading, eBoL, EssDocs, MLETR, and Shipping.
 
 
   The CargoDocs catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  CargoDocs'' developer surface includes authentication, engineering blog, and 13 more developer resources.'
+  CargoDocs'' developer surface includes authentication, engineering blog, and 16 more developer resources.'
 plans:
 - name: Cargodocs Plans Pricing
   plan_count: 1
@@ -231,9 +250,10 @@ rate_limits:
   name: Cargodocs Rate Limits
   slug: cargodocs-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: CargoDocs API Rules
+  name: CargoDocs — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -243,17 +263,17 @@ rules:
   slug: cargodocs-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 31.4
+  composite: 29.9
   coverage:
     artifact_dirs: 15
-    catalog_earned: 64.3
+    catalog_earned: 61.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 50.8
+    catalog_gap: 53.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 13.2
+    access_clarity: 5.3
     contract_governance: 9.8
     contract_quality: 61.2
     developer_ergonomics: 25.0
@@ -273,8 +293,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

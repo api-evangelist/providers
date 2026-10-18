@@ -17,7 +17,7 @@ description: Kleiner Perkins is one of Silicon Valley's oldest and most storied 
   tools and infrastructure, healthcare and biotech, fintech, hardtech and autonomous systems, and cybersecurity, with a thesis that the right idea, team and partners can create an entirely new industry.
 image: https://www.kleinerperkins.com/brand-assets/
 layout: provider
-modified: '2026-07-17'
+modified: '2026-10-06'
 name: Kleiner Perkins
 nav: Providers
 network: true

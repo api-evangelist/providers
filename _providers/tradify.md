@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -83,6 +83,14 @@ collections:
   name: Tradify API (Modeled - Not an Official Public API)
   slug: open-tradify
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.tradifyhq.com/blog
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.tradifyhq.com/blog/rss.xml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/tradify/refs/heads/main/capabilities/tradify-capability-edges.yml
   title: ''
@@ -138,19 +146,23 @@ created: '2026-07-12'
 description: Tradify is all-in-one job management software for trade and service businesses (electricians, plumbers, HVAC, builders and other contractors), covering enquiries, quotes, jobs, scheduling and dispatch, timesheets, purchase orders, and invoicing from web and mobile apps. Tradify is an Access company. IMPORTANT ACCESS NOTE - as of this review Tradify does NOT publish an open, self-serve, documented public developer API, developer portal, API keys, or webhooks. Its supported programmatic surface is limited to pre-built accounting and payment partner integrations (Xero, MYOB Business, QuickBooks Online, Sage, and Stripe). A live application backend host (api.tradifyhq.com) exists but is undocumented, session-authenticated, and reserved for Tradify's own web and mobile clients; third parties reach Tradify data only through those partner integrations or through unofficial proxies that automate the authenticated session. The API entries below are MODELED from Tradify's product capabilities
   and are not confirmed against official public API documentation.
 finops:
-- name: Tradify Finops
+- has_sources: true
+  method: generated
+  name: Tradify Finops
+  primary_unit: ''
   service_category: Business Application Software
   slug: tradify-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tradify.png
 layout: provider
-modified: '2026-07-12'
+modified: '2026-10-06'
 name: Tradify
 nav: Providers
 network: true
-overview: 'Tradify publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Customers API, Invoices API, Jobs API, and 2 more. Tagged areas include Job Management, Trade, Field Service, Scheduling, and Quoting.
+overview: 'Tradify publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Customers API, Invoices API, Jobs API, and 2 more. Tagged areas include Job Management, Trade, Field Service, Scheduling, and Quoting.
 
 
-  Tradify''s developer surface includes authentication, documentation, and 9 more developer resources.'
+  Tradify''s developer surface includes engineering blog, authentication, documentation, and 10 more developer resources.'
 plans:
 - name: Tradify Plans Pricing
   plan_count: 5
@@ -161,23 +173,23 @@ rate_limits:
   name: Tradify Rate Limits
   slug: tradify-rate-limits
 score:
-  band: thin
-  composite: 30.3
+  band: emerging
+  composite: 22.5
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 56.6
+    artifact_dirs: 13
+    catalog_earned: 38.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 58.4
+    catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.8
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 41.0
-    developer_ergonomics: 21.4
+    developer_ergonomics: 23.8
     discoverability: 57.1
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   previous_composite: 30.3
   provenance:
     agentic_access: derived
@@ -192,9 +204,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

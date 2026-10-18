@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.8
-  scored_at: '2026-10-04'
+  score: 22.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -88,6 +88,21 @@ collections:
   name: Bluebeam Studio Documents Users API
   slug: open-bluebeam-users-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/bluebeam/refs/heads/main/plans/bluebeam-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/bluebeam-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/bluebeam/refs/heads/main/rate-limits/bluebeam-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/bluebeam-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/bluebeam/refs/heads/main/finops/bluebeam-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/bluebeam-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/bluebeam/refs/heads/main/agentic-access/bluebeam-agentic-access.yml
   title: ''
@@ -166,9 +181,13 @@ common:
   url: https://raw.githubusercontent.com/api-evangelist/bluebeam/refs/heads/main/json-ld/bluebeam-context.jsonld
 description: Bluebeam develops smart, simple project efficiency and collaboration software for design and construction professionals worldwide, with its flagship Bluebeam Revu PDF markup and collaboration tool.
 finops:
-- name: Bluebeam Finops
+- has_sources: false
+  method: generated
+  name: Bluebeam Finops
+  primary_unit: ''
   service_category: API
   slug: bluebeam-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bluebeam.png
 json_schemas:
 - name: Bluebeam Studio Session
@@ -184,13 +203,13 @@ modified: '2026-09-16'
 name: Bluebeam
 nav: Providers
 network: true
-overview: 'Bluebeam publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Documents API, Markups API, Sessions API, and 2 more. Tagged areas include Construction, PDF, Project Management, and Documents.
+overview: 'Bluebeam publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Documents API, Markups API, Sessions API, and 2 more. Tagged areas include Construction, PDF, Project Management, and Documents.
 
 
   The Bluebeam catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Bluebeam''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, support, and 12 more developer resources.'
+  Bluebeam''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, support, and 15 more developer resources.'
 plans:
 - name: Bluebeam Plans Pricing
   plan_count: 3
@@ -201,9 +220,10 @@ rate_limits:
   name: Bluebeam Rate Limits
   slug: bluebeam-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Bluebeam API Rules
+  name: Bluebeam — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -218,17 +238,17 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: thin
-  composite: 36.4
+  composite: 34.9
   coverage:
-    artifact_dirs: 14
-    catalog_earned: 44.3
+    artifact_dirs: 16
+    catalog_earned: 41.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 70.8
+    catalog_gap: 73.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 9.8
     contract_quality: 53.5
     developer_ergonomics: 47.6
@@ -248,8 +268,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

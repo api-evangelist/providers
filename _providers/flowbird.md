@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: low
+  gated: partner
+  gated_source:
+  - tag:Partner Gated
   label: Unknown
   onboarding: unknown
   pricing: unknown
@@ -32,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 4
 apis:
 - description: Start, stop, extend, and query active and historical parking sessions across pay-station, mobile-app, and permit channels, and expose real-time session state to enforcement and occupancy consumers. En
@@ -86,7 +89,7 @@ modified: '2026-07-03'
 name: Flowbird
 nav: Providers
 network: true
-overview: 'Flowbird publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Parking, Urban Mobility, Transit Ticketing, Payments, and Smart City.
+overview: 'Flowbird is listed with 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Parking, Urban Mobility, Transit Ticketing, Payments, and Smart City.
 
 
   Flowbird''s developer surface includes documentation, engineering blog, and 4 more developer resources.'
@@ -95,7 +98,7 @@ score:
   band: minimal
   composite: 7.4
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -116,8 +119,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 4.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -139,6 +142,5 @@ tags:
 - Pay Stations
 - EV Charging
 - Digital Permits
-- Partner Gated
 website: https://www.flowbird.group
 ---

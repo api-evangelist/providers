@@ -32,10 +32,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.zmanda.com/blog/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.zmanda.com/blog/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/zmanda/refs/heads/main/security/zmanda-trust-center.yml
   title: ''
@@ -70,31 +78,31 @@ created: '2026-07-17'
 description: Zmanda is an enterprise backup and recovery software provider and the commercial steward of the open-source Amanda (Advanced Maryland Automatic Network Disk Archiver) project. Its products protect Linux, Windows and macOS systems, databases, and application data with agent-based and agentless backups that write to local disk, tape, and public-cloud object storage. The company maintains an active GitHub organization (github.com/zmanda) around the Amanda backup engine and related tooling, operates a customer-facing management portal at the Zmanda Network (network.zmanda.com), and publishes API documentation for programmatic backup and recovery management at api.zmanda.com. Zmanda was an early portfolio company of Canaan Partners.
 image: https://14528274.fs1.hubspotusercontent-na1.net/hub/14528274/hubfs/Logos/Zmanda%20Logo%202022.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Zmanda
 nav: Providers
 network: true
 overview: 'Zmanda is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Backup, Recovery, Data Protection, and Disaster Recovery.
 
 
-  Zmanda''s developer surface includes API reference, documentation, and 5 more developer resources.'
+  Zmanda''s developer surface includes engineering blog, API reference, documentation, and 6 more developer resources.'
 random_paper: 19
 score:
-  band: minimal
-  composite: 10.7
+  band: emerging
+  composite: 11.2
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 14.5
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 16.7
+    developer_ergonomics: 19.0
     discoverability: 48.2
     operational_transparency: 2.6
   previous_composite: 10.7
@@ -104,8 +112,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

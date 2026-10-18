@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 43.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://api2.hiverhq.com/v1
@@ -55,6 +55,10 @@ asyncapis:
   name: Hiver Webhooks
   slug: hiver-webhooks
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://hiverhq.com/feed
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/hiver/refs/heads/main/capabilities/hiver-capability-edges.yml
   title: ''
@@ -201,17 +205,17 @@ created: '2026-08-22'
 description: 'Hiver (Hiver Inc., originally GrexIt) builds an AI-powered customer service platform for teams that run support out of shared email addresses. It ships in two forms: Hiver in Gmail, a Chrome-extension helpdesk that turns shared inboxes like support@ and billing@ into assignable, SLA-tracked queues without leaving Gmail; and Hiver Omni, a standalone omnichannel platform covering email, live chat, Slack, voice, WhatsApp, a help center and a customer portal. Hiver publishes a public REST API for Shared Inboxes, conversations, users, tags and internal notes, documented on a Theneo developer portal with a downloadable OpenAPI 3.0.2 contract, and gates API access to its Pro plan and above.'
 image: https://hiverhq.com/wp-content/uploads/2025/05/hiver-dark-logo@2x.png
 layout: provider
-modified: '2026-08-22'
+modified: '2026-10-06'
 name: Hiver
 nav: Providers
 network: true
-overview: 'Hiver publishes 2 APIs on the [APIs.io](https://apis.io/) network: Conversations API and Inbox API. Tagged areas include Company, Customer Service, Help Desk, Shared Inbox, and Email.
+overview: 'Hiver publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Conversations API and Inbox API. Tagged areas include Company, Customer Service, Help Desk, Shared Inbox, and Email.
 
 
   The Hiver catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Hiver''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, pricing, and 25 more developer resources.'
+  Hiver''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, pricing, and 26 more developer resources.'
 plans:
 - name: Hiver Plans Pricing
   plan_count: 0
@@ -223,15 +227,15 @@ rate_limits:
   slug: hiver-rate-limits
 score:
   band: developing
-  composite: 53.4
+  composite: 53.5
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 48.7
     contract_governance: 18.2
@@ -255,8 +259,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -287,7 +291,6 @@ tags:
 - Shared Inbox
 - Email
 - Ticketing
-- Customer Support
 - Collaboration
 - Gmail
 - Google Workspace

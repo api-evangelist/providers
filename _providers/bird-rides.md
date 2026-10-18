@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.5
-  scored_at: '2026-10-04'
+  score: 19.3
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -298,9 +298,13 @@ features:
 - 200,000+ vehicle fleet under Third Lane Mobility (Bird + Spin)
 - 350+ city footprint across North America, Europe, Middle East, and Asia
 finops:
-- name: Bird Rides Finops
+- has_sources: true
+  method: generated
+  name: Bird Rides Finops
+  primary_unit: ''
   service_category: ''
   slug: bird-rides-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bird-rides.png
 json_schemas:
 - name: Bird Geofencing Zone
@@ -322,7 +326,7 @@ modified: '2026-05-25'
 name: Bird
 nav: Providers
 network: true
-overview: 'Bird publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Discovery API, Geofencing API, Pricing API, and 7 more. Tagged areas include Micromobility, Shared Mobility, Electric Scooters, E-Scooter, and E-Bikes.
+overview: 'Bird publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Discovery API, Geofencing API, Pricing API, and 7 more. Tagged areas include Micromobility, Shared Mobility, Electric Scooters, E-Scooter, and E-Bikes.
 
 
   The Bird catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -339,9 +343,10 @@ rate_limits:
   name: Bird Rides Rate Limits
   slug: bird-rides-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Bird API Rules
+  name: Bird — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -351,17 +356,17 @@ rules:
   slug: bird-rides-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 38.2
+  composite: 32.6
   coverage:
     artifact_dirs: 16
-    catalog_earned: 70.6
+    catalog_earned: 59.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 44.4
+    catalog_gap: 55.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.6
   facets:
-    access_clarity: 46.8
+    access_clarity: 18.4
     contract_governance: 23.5
     contract_quality: 59.9
     developer_ergonomics: 25.0
@@ -388,9 +393,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 14.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

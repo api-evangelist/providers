@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: documented
     openapi_examples: documented
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.4
-  scored_at: '2026-10-04'
+  score: 20.5
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL_template: https://{sonarqubeHost}/api
@@ -98,6 +98,21 @@ collections:
   name: SonarQube Web Users API
   slug: open-sonarqube-users-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sonarqube/refs/heads/main/plans/sonarqube-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/sonarqube-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/sonarqube/refs/heads/main/rate-limits/sonarqube-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/sonarqube-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sonarqube/refs/heads/main/finops/sonarqube-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/sonarqube-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/sonarqube/refs/heads/main/capabilities/sonarqube-capability-edges.yml
   title: ''
@@ -182,9 +197,13 @@ examples:
   name: Sonarqube Search Issues Example
   slug: sonarqube-search-issues-example
 finops:
-- name: Sonarqube Finops
+- has_sources: false
+  method: generated
+  name: Sonarqube Finops
+  primary_unit: ''
   service_category: API
   slug: sonarqube-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sonarqube.png
 json_schemas:
 - name: Issue
@@ -214,13 +233,13 @@ modified: '2026-05-19'
 name: SonarQube
 nav: Providers
 network: true
-overview: 'SonarQube publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Issues API, Measures API, Projects API, and 4 more. Tagged areas include Code Quality, Developer Tools, DevOps, Security, and Static Analysis.
+overview: 'SonarQube publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Issues API, Measures API, Projects API, and 4 more. Tagged areas include Code Quality, Developer Tools, DevOps, Security, and Static Analysis.
 
 
   The SonarQube catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  SonarQube''s developer surface includes developer portal, documentation, engineering blog, support, pricing, and 12 more developer resources.'
+  SonarQube''s developer surface includes developer portal, documentation, engineering blog, support, pricing, and 15 more developer resources.'
 plans:
 - name: Sonarqube Plans Pricing
   plan_count: 3
@@ -231,9 +250,10 @@ rate_limits:
   name: Sonarqube Rate Limits
   slug: sonarqube-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: SonarQube API Rules
+  name: SonarQube — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -241,7 +261,8 @@ rules:
     info: 2
     warn: 3
   slug: sonarqube-jsonschema-spectral-rules
-- effective_rule_count: 9
+- authorship: unmarked
+  effective_rule_count: 9
   extends: []
   name: SonarQube API Rules
   rule_count: 9
@@ -253,17 +274,17 @@ rules:
   slug: sonarqube-rules
 score:
   band: thin
-  composite: 36.2
+  composite: 34.6
   coverage:
     artifact_dirs: 17
-    catalog_earned: 57.8
+    catalog_earned: 54.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.3
+    catalog_gap: 60.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 26.3
+    access_clarity: 18.4
     contract_governance: 23.5
     contract_quality: 61.5
     developer_ergonomics: 34.5
@@ -282,8 +303,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

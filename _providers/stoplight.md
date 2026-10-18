@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -83,8 +83,17 @@ apis:
     question: Can I take down the published documentation for one API version?
   phrasing_ops: 5
   slug: stoplight-versions-api
-artifact_total: 20
+artifact_total: 23
 common:
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/stoplight/refs/heads/main/llms/stoplight-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/stoplight-llms.txt
+- group: design
+  title: ''
+  type: SpectralRules
+  url: https://github.com/stoplightio/style-guides-rulebook-series/blob/454313097a63c60c1d5667923546e5d73d7b4568/.spectral.json
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/stoplight/refs/heads/main/agentic-access/stoplight-agentic-access.yml
   title: ''
@@ -391,9 +400,13 @@ common:
 created: '2026-03-03'
 description: Stoplight is a collaborative, design-first API platform providing a visual editor for OpenAPI specifications, interactive hosted documentation, automatic mock servers, API style guides and governance, and open-source tools including Prism (mock server), Spectral (JSON/YAML linter), and Elements (documentation components). Acquired by SmartBear in 2023, Stoplight is now positioned within SmartBear's API Hub solution group alongside SwaggerHub, with Spectral, Prism, and Elements progressively integrated into the unified API Hub experience. The platform supports OpenAPI v3.1, v3.0, v2.0, Arazzo v1.0, and AsyncAPI v2.x, with integrations for GitHub, GitLab, Bitbucket, and Azure DevOps. The Stoplight status page now redirects to stoplight.status.smartbear.com, confirming the operational consolidation under SmartBear.
 finops:
-- name: Stoplight Finops
+- has_sources: false
+  method: generated
+  name: Stoplight Finops
+  primary_unit: ''
   service_category: API
   slug: stoplight-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/stoplight.png
 json_schemas:
 - name: Spectral Ruleset
@@ -413,13 +426,13 @@ modified: '2026-09-16'
 name: Stoplight
 nav: Providers
 network: true
-overview: 'Stoplight publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Versions API, and 6 more. Tagged areas include API Design, API Documentation, API Governance, AsyncAPI, and Design-First.
+overview: 'Stoplight publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Versions API, and 6 more. Tagged areas include API Design, API Documentation, API Governance, AsyncAPI, and Design-First.
 
 
-  The Stoplight catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+  The Stoplight catalog on APIs.io includes 1 JSON-LD context and 5 Spectral governance rulesets.
 
 
-  Stoplight''s developer surface includes developer portal, documentation, pricing, engineering blog, support, signup flow, getting-started guide, and 60 more developer resources.'
+  Stoplight''s developer surface includes developer portal, documentation, pricing, engineering blog, support, signup flow, getting-started guide, and 62 more developer resources.'
 plans:
 - name: Stoplight Plans Pricing
   plan_count: 5
@@ -430,9 +443,10 @@ rate_limits:
   name: Stoplight Rate Limits
   slug: stoplight-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Stoplight API Rules
+  name: Stoplight — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -440,7 +454,8 @@ rules:
     info: 2
     warn: 3
   slug: stoplight-jsonschema-spectral-rules
-- effective_rule_count: 54
+- authorship: generated
+  effective_rule_count: 54
   extends:
   - spectral:oas
   name: Stoplight API Rules
@@ -451,20 +466,56 @@ rules:
     info: 1
     warn: 1
   slug: stoplight-rules
+- authorship: provider
+  effective_rule_count: 47
+  extends: []
+  name: Stoplight — spectral action rules
+  rule_count: 47
+  severity_counts:
+    error: 14
+    hint: 0
+    info: 0
+    'off': 1
+    warn: 32
+  slug: stoplight-spectral-action-spectral-rules
+- authorship: provider
+  effective_rule_count: 42
+  extends:
+  - spectral:oas
+  name: Stoplight — studiolab rules
+  rule_count: 1
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 0
+    warn: 1
+  slug: stoplight-studiolab-spectral-rules
+- authorship: provider
+  effective_rule_count: 18
+  extends: []
+  name: Stoplight — style guides rulebook series rules
+  rule_count: 18
+  severity_counts:
+    error: 10
+    hint: 0
+    info: 0
+    'off': 2
+    warn: 6
+  slug: stoplight-style-guides-rulebook-series-spectral-rules
 score:
   band: exemplar
-  composite: 71.8
+  composite: 74.8
   coverage:
-    artifact_dirs: 33
-    catalog_earned: 64.0
-    catalog_earned_first_party: 12.0
-    catalog_gap: 51.0
+    artifact_dirs: 34
+    catalog_earned: 74.5
+    catalog_earned_first_party: 30.0
+    catalog_gap: 40.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 2.8
+  delta: 3.0
   facets:
-    access_clarity: 100.0
-    contract_governance: 45.5
+    access_clarity: 92.1
+    contract_governance: 86.4
     contract_quality: 55.6
     developer_ergonomics: 80.4
     discoverability: 65.2
@@ -472,7 +523,7 @@ score:
   open_source:
     applies: true
     score: 65.0
-  previous_composite: 69.0
+  previous_composite: 71.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -493,8 +544,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

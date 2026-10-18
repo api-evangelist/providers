@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.guardsquare.com/blog/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/guardsquare/refs/heads/main/security/guardsquare-trust-center.yml
   title: ''
@@ -133,20 +137,20 @@ description: Guardsquare is a mobile application security company that protects 
   of Battery Ventures and enriched from its public developer surface.
 image: https://www.guardsquare.com/hubfs/gs-logo-2x.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: GuardSquare
 nav: Providers
 network: true
 overview: 'GuardSquare is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Mobile App Security, Application Security, Code Obfuscation, and Runtime Application Self-Protection.
 
 
-  GuardSquare''s developer surface includes developer portal, documentation, engineering blog, pricing, signup flow, support, and 15 more developer resources.'
+  GuardSquare''s developer surface includes developer portal, documentation, engineering blog, pricing, signup flow, support, and 16 more developer resources.'
 random_paper: 0
 score:
   band: emerging
   composite: 26.1
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -167,8 +171,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

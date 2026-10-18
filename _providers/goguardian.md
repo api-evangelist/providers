@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: Consumer-side roster synchronization. GoGuardian ingests organizations (OUs), students, teachers, guardians, classes, and enrollments from a district's Student Information System via the OneRoster 1.1
@@ -88,7 +88,7 @@ modified: '2026-07-04'
 name: GoGuardian
 nav: Providers
 network: true
-overview: 'GoGuardian publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Education, EdTech, K-12, Content Filtering, and Classroom Management.
+overview: 'GoGuardian is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Education, EdTech, K-12, Content Filtering, and Classroom Management.
 
 
   GoGuardian''s developer surface includes documentation, support, engineering blog, and 5 more developer resources.'
@@ -97,7 +97,7 @@ score:
   band: minimal
   composite: 5.2
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -118,8 +118,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

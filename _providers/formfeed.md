@@ -14,7 +14,7 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: verified
-    mcp_server: false
+    mcp_server: verified
     openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: verified
@@ -22,8 +22,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 44.0
-  scored_at: '2026-10-04'
+  score: 52.6
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 80
   human_in_the_loop: 0
@@ -31,7 +31,7 @@ agentic_access:
   operation_count: 122
   slug: formfeed-agentic-access
   summary_line: 122 operations · 80 acting
-api_count: 2
+api_count: 4
 apis:
 - baseURL: https://api.formfeed.dev/v1
   baseurl_source: declared
@@ -78,7 +78,7 @@ apis:
   description: Event delivery to your endpoints.
   name: Formfeed Webhooks API
   slug: formfeed-webhooks-api
-artifact_total: 25
+artifact_total: 26
 asyncapis:
 - description: ''
   name: Formfeed Webhooks
@@ -284,6 +284,51 @@ common:
   title: ''
   type: Login
   url: https://app.formfeed.dev/en/sign-in
+- group: other
+  title: ''
+  type: APIsJSON
+  url: https://formfeed.dev/apis.json
+- group: other
+  title: ''
+  type: APIsJSON
+  url: https://formfeed.dev/.well-known/apis.json
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/formfeed/refs/heads/main/mcp/formfeed-mcp.yml
+  title: ''
+  type: MCPServer
+  url: mcp/formfeed-mcp.yml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/formfeed-dev
+- group: build
+  title: ''
+  type: GitHubRepository
+  url: https://github.com/formfeed-dev/formfeed
+- group: build
+  title: ''
+  type: GitHubRepository
+  url: https://github.com/formfeed-dev/templates
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://formfeed.dev/rss.xml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: https://docs.formfeed.dev/llms-full.txt
+- group: commercial
+  title: ''
+  type: DataProcessingAgreement
+  url: https://formfeed.dev/legal/dpa
+- group: other
+  title: ''
+  type: Subprocessors
+  url: https://formfeed.dev/legal/subprocessors
+- group: other
+  title: ''
+  type: DataResidency
+  url: https://docs.formfeed.dev/api/data-residency
 created: '2026-09-28'
 description: Formfeed offers a PDF and image generation API that lets developers render templates written in Jinja2, Liquid, or Handlebars into PDFs, PNGs, and other formats. It can also convert Word and PowerPoint files. The service runs in Frankfurt with EU‑only data residency and provides a free tier of 100 units per month. SDKs are available for TypeScript and Python, a CLI exists, and there is MCP integration for AI agents. Features include batch rendering, webhook notifications, versioned templates, and a visual editor for designing documents.
 image: https://formfeed.dev/app-screenshots/en/editor.webp
@@ -312,17 +357,21 @@ jsonld:
   property_count: 140
   slug: formfeed-context
 layout: provider
-modified: '2026-09-28'
+mcp_servers:
+- description: Remote MCP server at mcp.formfeed.dev over streamable HTTP requiring an API key.
+  name: Formfeed MCP server (hosted https://mcp.formfeed.dev/mcp + local @formfeed/mcp)
+  slug: io-github-formfeed-dev-formfeed
+modified: '2026-10-06'
 name: Formfeed
 nav: Providers
 network: true
-overview: 'Formfeed publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Account API, Brand API, Compat API, and 6 more. Tagged areas include PDF, Image Generation, Templates, Developer Tools, and Software-as-a-Service.
+overview: 'Formfeed publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Brand API, Compat API, and 6 more. Tagged areas include PDF, Image Generation, Templates, Developer Tools, and Software-as-a-Service.
 
 
   The Formfeed catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Formfeed''s developer surface includes CLI, changelog, authentication, support, getting-started guide, API reference, documentation, and 36 more developer resources.'
+  Formfeed''s developer surface includes CLI, changelog, authentication, support, getting-started guide, API reference, documentation, and 47 more developer resources.'
 plans:
 - name: Formfeed Plans Pricing
   plan_count: 5
@@ -333,7 +382,8 @@ rate_limits:
   name: Formfeed Rate Limits
   slug: formfeed-rate-limits
 rules:
-- effective_rule_count: 54
+- authorship: generated
+  effective_rule_count: 54
   extends:
   - spectral:oas
   name: Formfeed API Rules
@@ -346,21 +396,23 @@ rules:
   slug: formfeed-rules
 score:
   band: exemplar
-  composite: 75.1
+  composite: 77.3
   coverage:
-    artifact_dirs: 27
-    catalog_earned: 86.8
+    artifact_dirs: 30
+    catalog_earned: 89.8
     catalog_earned_first_party: 24.0
-    catalog_gap: 28.3
+    catalog_gap: 25.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 2.2
   facets:
     access_clarity: 92.1
     contract_governance: 22.0
     contract_quality: 71.1
     developer_ergonomics: 63.7
-    discoverability: 73.2
-    operational_transparency: 81.6
+    discoverability: 80.0
+    operational_transparency: 86.8
+  previous_composite: 75.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -369,19 +421,21 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-    mcp: unknown
+    mcp: first-party
     skills: derived
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
-    score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
+    score: 43.1
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: flat
   upsert:
     applies: true
     score: 33.3
+screenshot: https://raw.githubusercontent.com/api-evangelist/formfeed/refs/heads/main/screenshots/formfeed-2026-10-11T104619.png
 security:
 - kind: authentication
   name: Formfeed Authentication

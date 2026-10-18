@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.harriscomputer.com/news
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/harris/refs/heads/main/security/harris-domain-security.yml
   title: ''
@@ -61,11 +65,14 @@ created: '2026-03-24'
 description: Harris Computer is a constellation of companies acquiring and operating vertical market software businesses across the public sector, healthcare, utilities, financial services, education, and insurance markets. Harris Computer itself does not publish a unified public developer portal; APIs and integrations are delivered through its individual portfolio companies (such as Harris Local Government, Harris Utilities, Harris Healthcare, and Harris School Solutions). Harris Computer is a subsidiary of Constellation Software Inc.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/harris.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-10-06'
 name: Harris Computer
 nav: Providers
 network: true
-overview: Harris Computer is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Financial Services, Healthcare, Insurance, and Public Sector.
+overview: 'Harris Computer is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Financial Services, Healthcare, Insurance, and Public Sector.
+
+
+  Harris Computer''s developer surface includes engineering blog and 5 more developer resources.'
 press:
 - date: ''
   title: Chairman Jordan Seeks Documents About Biden-Harris ...
@@ -85,7 +92,7 @@ press:
 random_paper: 11
 score:
   band: minimal
-  composite: 3.1
+  composite: 3.6
   coverage:
     artifact_dirs: 6
     catalog_earned: 27.0
@@ -93,12 +100,12 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 48.2
     operational_transparency: 0.0
   previous_composite: 3.1
@@ -108,8 +115,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 5.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

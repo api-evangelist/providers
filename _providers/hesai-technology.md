@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.hesaitech.com/feed/
 - group: company
   title: ''
   type: Website
@@ -88,14 +92,14 @@ created: '2026-07-17'
 description: Hesai Technology is a global leader in 3D LiDAR perception, designing and manufacturing high-performance lidar sensors for autonomous driving, advanced driver-assistance systems (ADAS), robotics, and industrial automation. Its sensors are deployed by major automotive OEMs and autonomous-vehicle companies across more than 40 countries. Hesai does not expose a public REST/HTTP API; its developer surface is source-distributed C++ SDKs, ROS and ROS2 drivers, and integration plugins (including an NVIDIA DriveWorks plugin) published on the HesaiTechnology GitHub organization, alongside a developer portal and downloadable firmware, manuals, and tools. This profile was surfaced as a portfolio company of Qiming and enriched by the API Evangelist pipeline from Hesai's public developer resources.
 image: https://www.hesaitech.com/wp-content/uploads/2023/03/hesai-logo.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Hesai Technology
 nav: Providers
 network: true
 overview: 'Hesai Technology is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Autonomous Driving, LiDAR, 3D Perception, and Sensors.
 
 
-  Hesai Technology''s developer surface includes support, engineering blog, and 9 more developer resources.'
+  Hesai Technology''s developer surface includes support, engineering blog, and 10 more developer resources.'
 random_paper: 1
 score:
   band: emerging
@@ -122,8 +126,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 9.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

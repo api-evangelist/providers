@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.7
-  scored_at: '2026-10-04'
+  score: 31.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -428,9 +428,13 @@ created: '2026-05-25'
 description: 'Prime Intellect is a San Francisco–based startup building an open and decentralized stack for developing and improving AI agents through reinforcement learning. The company combines a 50+ provider GPU compute marketplace (single-node and 1–256 GPU multi-node clusters across H100, H200, B200, and B300), a managed RL post-training service ("Lab") that fine-tunes Qwen3.5, Llama, NVIDIA Nemotron, and OpenAI gpt-oss base models against a 2,500+ environment library (the Environments Hub), secure remote Python sandboxes for agent code execution, OpenAI-compatible inference at api.pinference.ai with LoRA adapter deployments, and an evaluations service that runs against the same environments. Prime Intellect is also the publisher of INTELLECT-3 (100B+ MoE trained with RL), INTELLECT-2 (32B trained via distributed RL), and the SYNTHETIC-2 dataset of four million reasoning traces, and develops the open-source `verifiers` RL library and the `prime-rl` async RL training framework. Everything
   is exposed via a single bearer-token REST API at api.primeintellect.ai, a `prime` Python CLI/SDK (PyPI: `prime`, lightweight `prime-sandboxes`), and the OpenAI protocol on the inference plane.'
 finops:
-- name: Prime Intellect Finops
+- has_sources: true
+  method: generated
+  name: Prime Intellect Finops
+  primary_unit: token
   service_category: AI and Machine Learning
   slug: prime-intellect-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/prime-intellect.png
 json_schemas:
 - name: Prime Intellect Evaluation
@@ -455,7 +459,7 @@ modified: '2026-05-25'
 name: Prime Intellect
 nav: Providers
 network: true
-overview: 'Prime Intellect publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Sandbox API, Training API, Inference API, and 17 more. Tagged areas include Artificial Intelligence, Reinforcement Learning, GPU Compute, Decentralized Compute, and Foundation Models.
+overview: 'Prime Intellect publishes 20 API contracts indexed on the [APIs.io](https://apis.io/) network, including Sandbox API, Training API, Inference API, and 17 more. Tagged areas include Artificial Intelligence, Reinforcement Learning, GPU Compute, Decentralized Compute, and Foundation Models.
 
 
   The Prime Intellect catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -472,9 +476,10 @@ rate_limits:
   name: Prime Intellect Rate Limits
   slug: prime-intellect-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Prime Intellect API Rules
+  name: Prime Intellect — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -483,24 +488,24 @@ rules:
     warn: 4
   slug: prime-intellect-jsonschema-spectral-rules
 score:
-  band: strong
-  composite: 55.6
+  band: developing
+  composite: 52.5
   coverage:
-    artifact_dirs: 16
-    catalog_earned: 83.1
+    artifact_dirs: 17
+    catalog_earned: 75.3
     catalog_earned_first_party: 12.0
-    catalog_gap: 32.0
+    catalog_gap: 39.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: -3.1
   facets:
     access_clarity: 50.0
     contract_governance: 9.8
     contract_quality: 63.8
     developer_ergonomics: 70.2
     discoverability: 71.4
-    operational_transparency: 33.7
-  previous_composite: 55.0
+    operational_transparency: 13.2
+  previous_composite: 55.6
   provenance:
     agentic_access: derived
     contracts:
@@ -510,12 +515,12 @@ score:
       total: 20
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 20.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -533,7 +538,7 @@ security:
 - kind: vulnerability-disclosure
   name: Prime Intellect Vulnerability Disclosure
   slug: prime-intellect-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 slug: prime-intellect
 tags:
 - Artificial Intelligence

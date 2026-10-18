@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.0
-  scored_at: '2026-10-04'
+  score: 28.1
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 104
   slug: shop-ware-agentic-access
   summary_line: 104 operations · 41 acting
-api_count: 2
+api_count: 4
 apis:
 - baseURL: https://api.shop-ware.com
   baseurl_source: declared
@@ -297,6 +297,10 @@ collections:
   name: API V1 API Partners Webhooks API
   slug: open-shop-ware-webhooks-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://shop-ware.com/category/blog/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/shop-ware/refs/heads/main/security/shop-ware-vulnerability-disclosure.yml
   title: ''
@@ -480,9 +484,13 @@ common:
 created: '2026-07-17'
 description: 'Shop-Ware is cloud-based auto repair shop management software for independent automotive repair shops, backed by Insight Partners. It runs the digital workflow of a shop: digital vehicle inspections, repair orders, estimates, canned jobs and services, parts inventory and purchasing, customer and vehicle records, staff time clocks and pay rates, and integrated payments. Shop-Ware exposes a multi-tenant Partner API (V1 and V2, OpenAPI 3.0.1) that lets integrators read and manage these resources per shop (tenant) using two partner header credentials, plus an HTTPS webhook surface delivering object_type.event_action events (created / updated / deleted, and customer.merged) for near-real-time synchronization.'
 finops:
-- name: Shop Ware Finops
+- has_sources: true
+  method: generated
+  name: Shop Ware Finops
+  primary_unit: ''
   service_category: E-Commerce Platform
   slug: shop-ware-finops
+  template: false
 image: https://shop-ware.com/wp-content/uploads/Motor-logo.png
 json_schemas:
 - name: Shopware Cart
@@ -500,17 +508,17 @@ jsonld:
   property_count: 54
   slug: shop-ware-context
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Shop-Ware
 nav: Providers
 network: true
-overview: 'Shop-Ware publishes 30 APIs on the [APIs.io](https://apis.io/) network, including API Partners API, Appointments API, Assignments API, and 27 more. Tagged areas include Company, Automotive, Auto Repair, Shop Management, and Repair Orders.
+overview: 'Shop-Ware publishes 30 API contracts indexed on the [APIs.io](https://apis.io/) network, including API Partners API, Appointments API, Assignments API, and 27 more. Tagged areas include Company, Automotive, Auto Repair, Shop Management, and Repair Orders.
 
 
   The Shop-Ware catalog on APIs.io includes 2 event-driven AsyncAPI specifications and 1 JSON-LD context.
 
 
-  Shop-Ware''s developer surface includes pricing, documentation, API reference, support, engineering blog, signup flow, authentication, and 32 more developer resources.'
+  Shop-Ware''s developer surface includes pricing, documentation, API reference, support, engineering blog, signup flow, authentication, and 33 more developer resources.'
 plans:
 - name: Shop Ware Plans Pricing
   plan_count: 7
@@ -530,22 +538,22 @@ scopes:
   summary_line: 1 scope · clientCredentials/password
 score:
   band: strong
-  composite: 59.4
+  composite: 55.8
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 78.3
+    artifact_dirs: 27
+    catalog_earned: 70.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 36.7
+    catalog_gap: 44.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.6
   facets:
-    access_clarity: 84.2
+    access_clarity: 76.3
     contract_governance: 18.2
     contract_quality: 59.0
     developer_ergonomics: 47.0
-    discoverability: 73.2
-    operational_transparency: 54.7
+    discoverability: 78.6
+    operational_transparency: 34.2
   previous_composite: 59.4
   provenance:
     agentic_access: derived
@@ -563,8 +571,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 36.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

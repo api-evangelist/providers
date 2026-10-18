@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: SightCall's REST API is used by application back ends to request session tokens, manage users and sessions, provision providers and pull reporting. Authentication is by API key in the Authorization he
@@ -43,6 +43,15 @@ apis:
   slug: rest-api
 artifact_total: 7
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/sightcall/refs/heads/main/rate-limits/sightcall-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/sightcall-rate-limits.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://sightcall.com/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/sightcall/refs/heads/main/security/sightcall-trust-center.yml
   title: ''
@@ -155,14 +164,14 @@ mcp_servers:
 - description: Remote MCP server at mcp.sightcall.com over HTTP.
   name: SightCall MCP Server
   slug: sightcall
-modified: '2026-08-27'
+modified: '2026-10-06'
 name: SightCall
 nav: Providers
 network: true
-overview: 'SightCall publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Video, WebRTC, Remote Support, and Field Service.
+overview: 'SightCall is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Video, WebRTC, Remote Support, and Field Service.
 
 
-  SightCall''s developer surface includes support, engineering blog, pricing, signup flow, and 15 more developer resources.'
+  SightCall''s developer surface includes support, engineering blog, pricing, signup flow, and 17 more developer resources.'
 plans:
 - name: Sightcall Plans Pricing
   plan_count: 0
@@ -200,8 +209,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 24.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

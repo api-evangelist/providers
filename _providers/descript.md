@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -78,6 +78,11 @@ collections:
   name: Descript API
   slug: open-descript
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/descript/refs/heads/main/finops/descript-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/descript-finops.yml
 - group: company
   title: ''
   type: Website
@@ -219,19 +224,23 @@ features:
 - description: 429 responses include Retry-After, X-RateLimit-Remaining, and X-RateLimit-Consumed for client-side budgeting.
   name: Rate-Limit Headers
 finops:
-- name: Descript Finops
+- has_sources: true
+  method: generated
+  name: Descript Finops
+  primary_unit: ''
   service_category: Media Editing
   slug: descript-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/descript.png
 layout: provider
 modified: '2026-05-19'
 name: Descript
 nav: Providers
 network: true
-overview: 'Descript publishes 3 APIs on the [APIs.io](https://apis.io/) network: API Endpoints API, Edit in Descript API, and Export from Descript API. Tagged areas include Artificial Intelligence, Audio Editing, Captions, Media, and Podcasting.
+overview: 'Descript publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: API Endpoints API, Edit in Descript API, and Export from Descript API. Tagged areas include Artificial Intelligence, Audio Editing, Captions, Media, and Podcasts.
 
 
-  Descript''s developer surface includes authentication, developer portal, documentation, API reference, signup flow, pricing, CLI, and 19 more developer resources.'
+  Descript''s developer surface includes authentication, developer portal, documentation, API reference, signup flow, pricing, CLI, and 20 more developer resources.'
 plans:
 - name: Descript Plans Pricing
   plan_count: 5
@@ -243,22 +252,22 @@ rate_limits:
   slug: descript-rate-limits
 score:
   band: developing
-  composite: 54.2
+  composite: 45.9
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 61.6
+    artifact_dirs: 13
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.4
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 90.3
+    access_clarity: 61.8
     contract_governance: 0.0
     contract_quality: 49.7
     developer_ergonomics: 52.4
     discoverability: 66.1
-    operational_transparency: 41.6
+    operational_transparency: 21.1
   previous_composite: 54.2
   provenance:
     agentic_access: derived
@@ -273,9 +282,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 28.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0
@@ -292,7 +301,7 @@ security:
 - kind: vulnerability-disclosure
   name: Descript Vulnerability Disclosure
   slug: descript-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 - kind: trust-center
   name: Descript Trust Center
   slug: descript-trust-center
@@ -303,7 +312,7 @@ tags:
 - Audio Editing
 - Captions
 - Media
-- Podcasting
+- Podcasts
 - Transcription
 - Video Editing
 - Audio

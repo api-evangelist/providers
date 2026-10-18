@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 28
+- acting_count: 24
   human_in_the_loop: 0
   name: Testiny Agentic Access
   operation_count: 43
   slug: testiny-agentic-access
-  summary_line: 43 operations · 28 acting
+  summary_line: 43 operations · 24 acting
 api_count: 1
 apis:
 - baseURL: https://app.testiny.io/api/v1
@@ -152,16 +152,20 @@ common:
 created: '2026-07-11'
 description: Testiny is a modern test management platform for QA teams that keeps manual and automated test cases, test plans, test runs, and results in a single place, with reporting and integrations for Jira, GitLab, and GitHub. Everything in the product is backed by a documented REST API (base https://app.testiny.io/api/v1, authenticated with an X-Api-Key header) that exposes projects, test cases, test case folders, test plans, test runs, and automated test runs and results over a consistent CRUD/find/bulk/mapping pattern. Testiny publishes an OpenAPI schema at https://app.testiny.io/api/v1/swagger.json, ships a CLI and npm package (@testiny/cli), and offers an HTTP MCP server so AI assistants can manage test cases, runs, and results. Testiny is available as a hosted cloud service and, for Custom Enterprise, as self-hosted Testiny Server.
 finops:
-- name: Testiny Finops
+- has_sources: true
+  method: generated
+  name: Testiny Finops
+  primary_unit: ''
   service_category: Software Testing and Quality Assurance
   slug: testiny-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/testiny.png
 layout: provider
 modified: '2026-07-11'
 name: Testiny
 nav: Providers
 network: true
-overview: 'Testiny publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Automation API, Projects API, Test Cases API, and 2 more. Tagged areas include Test Runs, Test Management, QA, Test Cases, and Test Automation.
+overview: 'Testiny publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Automation API, Projects API, Test Cases API, and 2 more. Tagged areas include Test Runs, Test Management, QA, Test Cases, and Test Automation.
 
 
   Testiny''s developer surface includes authentication, documentation, signup flow, pricing, and 8 more developer resources.'
@@ -176,22 +180,22 @@ rate_limits:
   slug: testiny-rate-limits
 score:
   band: thin
-  composite: 36.2
+  composite: 28.0
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 61.6
+    artifact_dirs: 12
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.4
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.2
   facets:
-    access_clarity: 46.8
+    access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 47.5
     developer_ergonomics: 29.8
     discoverability: 66.1
-    operational_transparency: 28.4
+    operational_transparency: 7.9
   previous_composite: 36.2
   provenance:
     agentic_access: derived
@@ -206,9 +210,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

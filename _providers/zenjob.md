@@ -32,10 +32,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.zenjob.com/de/blog/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.zenjob.com/de/feed/
 - group: company
   title: ''
   type: Website
@@ -81,14 +89,14 @@ created: '2026-07-17'
 description: Zenjob is a Berlin-based staffing platform that connects businesses with vetted temporary workers (students and side-jobbers) through a mobile app and a self-service booking platform (Buchungsplattform). Companies create shifts, staff them in real time, track working hours, and handle invoicing in one place. Zenjob offers an integration layer (marketed as "Schnittstellen (API)") for personnel management, shift creation and staffing, time tracking, and billing, plus partner integrations with workforce and vendor-management systems including Quinyx, ATOSS, Ubeya, and compleet. The API is partner/consultation-led (arranged via a scheduled onboarding call) rather than a self-serve public developer program; there is no public developer portal, OpenAPI definition, or SDK. Backed by 500 Global, Zenjob was surfaced as a portfolio company and enriched into the API Evangelist network.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zenjob.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Zenjob
 nav: Providers
 network: true
 overview: 'Zenjob is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Staffing, Workforce, Human Resources, and Temporary Work.
 
 
-  Zenjob''s developer surface includes developer portal, documentation, signup flow, support, engineering blog, and 5 more developer resources.'
+  Zenjob''s developer surface includes engineering blog, developer portal, documentation, signup flow, support, and 7 more developer resources.'
 random_paper: 10
 score:
   band: emerging
@@ -123,8 +131,8 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

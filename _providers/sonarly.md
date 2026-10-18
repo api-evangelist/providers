@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://sonarly.com/api/v1/public
@@ -73,6 +73,10 @@ collections:
   name: Sonarly Bugs Setup API
   slug: open-sonarly-setup-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://sonarly.com/blog/
 - group: company
   title: ''
   type: Website
@@ -175,17 +179,17 @@ created: '2026-07-17'
 description: Sonarly is an AI production-reliability platform (Y Combinator W2026, Paris) that turns noisy production alerts into clear, deduplicated bug reports and ships ready-to-merge fix pull requests. It connects to a team's code (GitHub/GitLab) and their error and observability stack — Sentry, Datadog, Grafana, New Relic, SigNoz, CloudWatch, GCP, and many more — then triages every alert to remove noise and duplicates, investigates logs, traces and metrics to find the root cause, and generates a fix PR or alerting-rule recommendation. Sonarly exposes a read-only public REST API (v1) for pulling bugs, incidents and analysis runs into custom dashboards, signed outbound webhooks for live events, and a device-code style setup-session API that lets a coding agent (Claude Code, Cursor) onboard a tenant end-to-end. Onboarding is fully agent-native and documented at sonarly.com/llms.txt.
 image: https://sonarly.com/logo_sonarly.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Sonarly
 nav: Providers
 network: true
-overview: 'Sonarly publishes 3 APIs on the [APIs.io](https://apis.io/) network: Bugs API, Incidents API, and Setup API. Tagged areas include Company, Reliability, Observability, Monitoring, and Bug Detection.
+overview: 'Sonarly publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Bugs API, Incidents API, and Setup API. Tagged areas include Company, Reliability, Observability, Monitoring, and Bug Detection.
 
 
   The Sonarly catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Sonarly''s developer surface includes documentation, API reference, authentication, pricing, signup flow, and 16 more developer resources.'
+  Sonarly''s developer surface includes engineering blog, documentation, API reference, authentication, pricing, signup flow, and 16 more developer resources.'
 plans:
 - name: Sonarly Plans
   plan_count: 4
@@ -196,21 +200,21 @@ rate_limits:
   name: Sonarly Rate Limits
   slug: sonarly-rate-limits
 score:
-  band: emerging
-  composite: 25.8
+  band: thin
+  composite: 26.4
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 57.0
     catalog_earned_first_party: 20.0
     catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 31.6
     contract_governance: 4.5
     contract_quality: 21.3
-    developer_ergonomics: 13.7
+    developer_ergonomics: 16.1
     discoverability: 73.2
     operational_transparency: 31.6
   previous_composite: 25.8
@@ -229,8 +233,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

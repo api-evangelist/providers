@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -128,6 +128,10 @@ collections:
   name: Interest Report
   slug: open-rtr-interest-report-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.payments.ca/rss.xml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/payments-canada/refs/heads/main/capabilities/payments-canada-capability-edges.yml
   title: ''
@@ -301,14 +305,14 @@ description: Payments Canada (formerly the Canadian Payments Association) is the
   member/registered-user sandbox and data-extract APIs — including downloadable RTR sandbox OpenAPI specifications — secured with OAuth2 client-credentials (Consumer Key/Secret via Apigee); production access is license/agreement gated.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-modified: '2026-07-23'
+modified: '2026-10-06'
 name: Payments Canada
 nav: Providers
 network: true
-overview: 'Payments Canada publishes 12 APIs on the [APIs.io](https://apis.io/) network, including application level heartbeat API, Ccin Extract Resource API, Fif Branches Resource API, and 9 more. Tagged areas include Financial Services, Payments, Canada, Payment Infrastructure, and Clearing and Settlement.
+overview: 'Payments Canada publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including application level heartbeat API, Ccin Extract Resource API, Fif Branches Resource API, and 9 more. Tagged areas include Financial Services, Payments, Canada, Payment Infrastructure, and Clearing and Settlement.
 
 
-  Payments Canada''s developer surface includes authentication, sandbox, documentation, getting-started guide, support, and 31 more developer resources.'
+  Payments Canada''s developer surface includes authentication, sandbox, documentation, getting-started guide, support, and 32 more developer resources.'
 random_paper: 8
 scopes:
 - name: Payments Canada Scopes
@@ -319,7 +323,7 @@ score:
   band: developing
   composite: 40.7
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 22
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -357,8 +361,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 38.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

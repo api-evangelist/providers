@@ -34,14 +34,19 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Commercial sound-effects generation API exposing the OptimizerAI text-to-sfx v2 model. Access is contract-based (annual pre-payment) across Ultra-Fast/Fast (dedicated) and Slow (shared) tiers, each wi
   name: OptimizerAI Text-to-SFX API
   slug: optimizerai-text-to-sfx-api
-artifact_total: 3
+artifact_total: 4
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/optimizerai/refs/heads/main/plans/optimizerai-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/optimizerai-plans-pricing.yml
 - group: company
   title: ''
   type: Website
@@ -103,24 +108,28 @@ modified: '2026-07-20'
 name: OptimizerAI
 nav: Providers
 network: true
-overview: 'OptimizerAI publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Sound Effects, Audio, Generative AI, and Text to Audio.
+overview: 'OptimizerAI is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Sound Effects, Audio, Generative AI, and Text to Audio.
 
 
-  OptimizerAI''s developer surface includes documentation, pricing, engineering blog, authentication, and 8 more developer resources.'
+  OptimizerAI''s developer surface includes documentation, pricing, engineering blog, authentication, and 9 more developer resources.'
+plans:
+- name: Optimizerai Plans Pricing
+  plan_count: 3
+  slug: optimizerai-plans-pricing
 random_paper: 9
 score:
   band: emerging
-  composite: 17.9
+  composite: 23.9
   coverage:
-    artifact_dirs: 9
-    catalog_earned: 32.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 83.0
+    artifact_dirs: 10
+    catalog_earned: 44.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.0
   facets:
-    access_clarity: 31.6
+    access_clarity: 63.2
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 23.8
@@ -129,13 +138,13 @@ score:
   previous_composite: 17.9
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 18.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

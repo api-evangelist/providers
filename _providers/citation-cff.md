@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 6
 apis:
 - description: The CFF schema defines the structure of a CITATION.cff file in YAML, including required cff-version, message, and authors fields plus optional version, doi, license, repository-code, preferred-citatio
@@ -56,6 +56,21 @@ apis:
   slug: zenodo-integration
 artifact_total: 14
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/citation-cff/refs/heads/main/plans/citation-cff-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/citation-cff-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/citation-cff/refs/heads/main/rate-limits/citation-cff-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/citation-cff-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/citation-cff/refs/heads/main/finops/citation-cff-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/citation-cff-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/citation-cff/refs/heads/main/security/citation-cff-domain-security.yml
   title: ''
@@ -115,9 +130,13 @@ common:
 created: '2025-01-01'
 description: The Citation File Format (CFF) is a human- and machine-readable YAML schema for providing citation metadata for software and datasets in source code repositories. A CITATION.cff file at the root of a repository declares authors, version, DOI, release date, and reference metadata, enabling consistent academic attribution across publishing and discovery platforms. CFF is governed as an open community standard with a published JSON Schema, a guide, and a maintained schema repository on GitHub. Native integrations include GitHub citation display, Zenodo software publishing, and the Zotero browser plugin. Tooling includes cffinit for authoring, cffconvert for conversion to BibTeX/RIS/CodeMeta/EndNote formats, and the cff-validator GitHub Action for CI validation. The current schema version is 1.2.0.
 finops:
-- name: Citation Cff Finops
+- has_sources: false
+  method: generated
+  name: Citation Cff Finops
+  primary_unit: ''
   service_category: API
   slug: citation-cff-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/citation-cff.png
 json_schemas:
 - name: Citation File Format (CFF) - Subset Profile
@@ -133,13 +152,13 @@ modified: '2026-04-23'
 name: Citation File Format
 nav: Providers
 network: true
-overview: 'Citation File Format publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Academic, Citations, Metadata, Open Standard, and Repository.
+overview: 'Citation File Format is listed with 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Academic, Citations, Metadata, Open Standard, and Repository.
 
 
   The Citation File Format catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Citation File Format''s developer surface includes documentation, GitHub presence, and 11 more developer resources.'
+  Citation File Format''s developer surface includes documentation, GitHub presence, and 14 more developer resources.'
 plans:
 - name: Citation Cff Plans Pricing
   plan_count: 3
@@ -150,9 +169,10 @@ rate_limits:
   name: Citation Cff Rate Limits
   slug: citation-cff-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Citation File Format API Rules
+  name: Citation File Format — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -160,7 +180,8 @@ rules:
     info: 2
     warn: 3
   slug: citation-cff-jsonschema-spectral-rules
-- effective_rule_count: 10
+- authorship: unmarked
+  effective_rule_count: 10
   extends: []
   name: Citation File Format API Rules
   rule_count: 10
@@ -172,17 +193,17 @@ rules:
   slug: citation-cff-rules
 score:
   band: emerging
-  composite: 18.7
+  composite: 17.2
   coverage:
     artifact_dirs: 9
-    catalog_earned: 64.3
+    catalog_earned: 61.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 50.8
+    catalog_gap: 53.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 9.8
     contract_quality: 22.7
     developer_ergonomics: 9.5
@@ -195,8 +216,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

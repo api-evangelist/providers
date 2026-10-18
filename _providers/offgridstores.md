@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 4
 apis:
 - description: Universal Commerce Protocol (UCP) shopping service, exposed over MCP at https://offgridstores.com/api/ucp/mcp. The server identifies itself as "universal-commerce" 0.1.0 speaking MCP protocol 2025-06-
@@ -195,7 +195,7 @@ modified: '2026-08-26'
 name: Off Grid Stores - All Things Off-Grid Solar
 nav: Providers
 network: true
-overview: 'Off Grid Stores - All Things Off-Grid Solar publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Commerce, E-Commerce, Retail, and off-grid solar.
+overview: 'Off Grid Stores - All Things Off-Grid Solar is listed with 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Commerce, E-Commerce, Retail, and off-grid solar.
 
 
   Off Grid Stores - All Things Off-Grid Solar''s developer surface includes documentation, engineering blog, support, signup flow, authentication, and 23 more developer resources.'
@@ -217,7 +217,7 @@ score:
   band: thin
   composite: 27.8
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 19
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -242,8 +242,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 34.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

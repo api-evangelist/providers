@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: Software Engineering Daily provides RSS podcast feeds for its main episode stream as well as topic-specific feeds. These standard podcast RSS feeds are compatible with all major podcast clients includ
@@ -47,6 +47,21 @@ apis:
   slug: mobile-app
 artifact_total: 12
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/software-engineering-daily/refs/heads/main/plans/software-engineering-daily-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/software-engineering-daily-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/software-engineering-daily/refs/heads/main/rate-limits/software-engineering-daily-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/software-engineering-daily-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/software-engineering-daily/refs/heads/main/finops/software-engineering-daily-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/software-engineering-daily-finops.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -131,9 +146,13 @@ examples:
   name: Software Engineering Daily Episode Example
   slug: software-engineering-daily-episode-example
 finops:
-- name: Software Engineering Daily Finops
+- has_sources: false
+  method: generated
+  name: Software Engineering Daily Finops
+  primary_unit: ''
   service_category: API
   slug: software-engineering-daily-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/software-engineering-daily.png
 json_schemas:
 - name: Episode
@@ -153,13 +172,13 @@ modified: '2026-05-02'
 name: Software Engineering Daily
 nav: Providers
 network: true
-overview: 'Software Engineering Daily publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Media, Podcasts, Software Engineering, Technical Content, and Open Source.
+overview: 'Software Engineering Daily is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Media, Podcasts, Software Engineering, Technical Content, and Open Source.
 
 
   The Software Engineering Daily catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Software Engineering Daily''s developer surface includes pricing, documentation, and 17 more developer resources.'
+  Software Engineering Daily''s developer surface includes pricing, documentation, and 20 more developer resources.'
 plans:
 - name: Software Engineering Daily Plans Pricing
   plan_count: 3
@@ -170,9 +189,10 @@ rate_limits:
   name: Software Engineering Daily Rate Limits
   slug: software-engineering-daily-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Software Engineering Daily API Rules
+  name: Software Engineering Daily — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -182,17 +202,17 @@ rules:
   slug: software-engineering-daily-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 28.2
+  composite: 26.8
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 55.3
+    artifact_dirs: 13
+    catalog_earned: 52.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 59.8
+    catalog_gap: 62.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.4
   facets:
-    access_clarity: 47.4
+    access_clarity: 39.5
     contract_governance: 9.8
     contract_quality: 10.7
     developer_ergonomics: 9.5
@@ -208,8 +228,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

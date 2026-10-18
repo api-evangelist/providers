@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The Drillster REST API (v2.1.1) lets developers integrate Drillster's adaptive learning and training platform into external applications. Roughly 180 documented endpoints and 200 response objects cove
@@ -45,6 +45,11 @@ asyncapis:
   name: Drillster Push Webhooks
   slug: drillster-push-webhooks
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/drillster/refs/heads/main/finops/drillster-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/drillster-finops.yml
 - group: company
   title: ''
   type: Website
@@ -192,22 +197,26 @@ common:
 created: '2025-02-17'
 description: Drillster is a Utrecht-based adaptive learning platform for corporate and vocational training, built on repetition-based drills that schedule practice at the moment a learner is about to forget. Customers in aviation, healthcare, financial services, energy, railway and construction use it to keep safety- and compliance-critical knowledge reliable year-round. For developers, Drillster publishes a documented REST API (version 2.1.1, JSON over HTTPS, OAuth 2.0 with a JWT-bearer service-account grant) covering user provisioning, group and membership management, catalogs, drills, tests, objectives and results reporting; an outbound event notification service with seven webhook event types and a seven-day retry contract; an embeddable widget family with a JavaScript loader; and standards-based LMS integration through LTI 1.0/1.3, SCORM 1.2 and OpenID Connect single sign-on.
 finops:
-- name: Drillster Finops
+- has_sources: false
+  method: generated
+  name: Drillster Finops
+  primary_unit: ''
   service_category: API
   slug: drillster-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/drillster.png
 layout: provider
 modified: '2026-09-06'
 name: Drillster
 nav: Providers
 network: true
-overview: 'Drillster publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Assessment, Education, Learning, Quizzes, and Training.
+overview: 'Drillster is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Assessment, Education, Learning, Quizzes, and Training.
 
 
   The Drillster catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Drillster''s developer surface includes documentation, API reference, getting-started guide, authentication, pricing, signup flow, support, and 25 more developer resources.'
+  Drillster''s developer surface includes documentation, API reference, getting-started guide, authentication, pricing, signup flow, support, and 26 more developer resources.'
 plans:
 - name: Drillster Plans Pricing
   plan_count: 1
@@ -224,17 +233,17 @@ scopes:
   summary_line: 1 scope · authorizationCode/urn:ietf:params:oauth:grant-type:jwt-bearer
 score:
   band: developing
-  composite: 52.4
+  composite: 50.9
   coverage:
     artifact_dirs: 19
-    catalog_earned: 48.0
+    catalog_earned: 45.0
     catalog_earned_first_party: 8.0
-    catalog_gap: 67.0
+    catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 73.7
+    access_clarity: 65.8
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 57.1
@@ -258,8 +267,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 40.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

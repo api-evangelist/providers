@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 3
+- acting_count: 2
   human_in_the_loop: 0
   name: Yandex Translate Agentic Access
   operation_count: 3
   slug: yandex-translate-agentic-access
-  summary_line: 3 operations · 3 acting
+  summary_line: 3 operations · 2 acting
 api_count: 1
 apis:
 - description: REST API for translating text between 100+ languages, detecting the source language of text, and listing supported languages. Built on Yandex neural machine translation technology with support for glo
@@ -166,9 +166,13 @@ examples:
   name: Translate With Glossary Request
   slug: translate-with-glossary-request
 finops:
-- name: Yandex Translate Finops
+- has_sources: false
+  method: generated
+  name: Yandex Translate Finops
+  primary_unit: ''
   service_category: API
   slug: yandex-translate-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/yandex-translate.png
 json_schemas:
 - name: DetectLanguageRequest
@@ -196,7 +200,7 @@ modified: '2026-06-13'
 name: Yandex Translate API
 nav: Providers
 network: true
-overview: 'Yandex Translate API publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Language Detection API, Languages API, Translation API, and 1 more. Tagged areas include Machine Translation, Natural Language Processing, Language Detection, Translation Dictionary, and Multilingual.
+overview: 'Yandex Translate API publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Language Detection API, Languages API, Translation API, and 1 more. Tagged areas include Machine Translation, Natural Language Processing, Language Detection, Translation Dictionary, and Multilingual.
 
 
   The Yandex Translate API catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -213,9 +217,10 @@ rate_limits:
   name: Yandex Translate Rate Limits
   slug: yandex-translate-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: Yandex Translate API API Rules
+  name: Yandex Translate API — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -224,23 +229,23 @@ rules:
     warn: 4
   slug: yandex-translate-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 42.3
+  band: thin
+  composite: 35.4
   coverage:
     artifact_dirs: 16
-    catalog_earned: 66.3
+    catalog_earned: 50.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 48.7
+    catalog_gap: 64.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.9
   facets:
-    access_clarity: 37.4
+    access_clarity: 15.8
     contract_governance: 9.8
     contract_quality: 56.7
     developer_ergonomics: 35.7
     discoverability: 66.1
-    operational_transparency: 41.6
+    operational_transparency: 21.1
   previous_composite: 42.3
   provenance:
     agentic_access: derived
@@ -255,9 +260,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0
@@ -274,7 +279,7 @@ security:
 - kind: vulnerability-disclosure
   name: Yandex Translate Vulnerability Disclosure
   slug: yandex-translate-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 slug: yandex-translate
 tags:
 - Machine Translation

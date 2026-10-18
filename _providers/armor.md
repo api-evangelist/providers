@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 40.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 172
-  human_in_the_loop: 5
+- acting_count: 166
+  human_in_the_loop: 4
   name: Armor Agentic Access
-  operation_count: 427
+  operation_count: 426
   slug: armor-agentic-access
-  summary_line: 427 operations · 172 acting · 5 human-in-the-loop
+  summary_line: 426 operations · 166 acting · 4 human-in-the-loop
 api_count: 16
 apis:
 - baseURL: https://api.armor.com
@@ -767,7 +767,7 @@ modified: '2026-08-06'
 name: Armor
 nav: Providers
 network: true
-overview: 'Armor publishes 70 APIs on the [APIs.io](https://apis.io/) network, including Access Control Lists API, Account API, Account Management API, and 67 more. Tagged areas include Company, Cybersecurity, Managed Detection and Response, Cloud Security, and Compliance.
+overview: 'Armor publishes 70 API contracts indexed on the [APIs.io](https://apis.io/) network, including Access Control Lists API, Account API, Account Management API, and 67 more. Tagged areas include Company, Cybersecurity, Managed Detection and Response, Cloud Security, and Compliance.
 
 
   The Armor catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -789,15 +789,15 @@ scopes:
   summary_line: 4 scopes · clientCredentials/authorizationCode
 score:
   band: strong
-  composite: 59.9
+  composite: 60.0
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 52.0
     catalog_earned_first_party: 12.0
     catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.1
   facets:
     access_clarity: 71.1
     contract_governance: 18.2
@@ -812,7 +812,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 59.4
+  previous_composite: 59.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -829,8 +829,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

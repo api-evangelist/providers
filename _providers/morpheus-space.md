@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.morpheus.space/blog-feed.xml
 - group: company
   title: ''
   type: Website
@@ -96,14 +100,14 @@ mcp_servers:
 - description: Wix-provided Site MCP server for morpheus.space. This is a platform-hosted (Wix) MCP endpoint auto-exposed for the marketing site, not a first-party product API from Morpheus Space. It surfaces public
   name: Morpheus Space Site MCP
   slug: morpheus-space-site-mcp
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Morpheus Space
 nav: Providers
 network: true
 overview: 'Morpheus Space is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Space, Satellite, Propulsion, and Electric Propulsion.
 
 
-  Morpheus Space''s developer surface includes support, engineering blog, and 10 more developer resources.'
+  Morpheus Space''s developer surface includes support, engineering blog, and 11 more developer resources.'
 random_paper: 0
 score:
   band: minimal
@@ -132,8 +136,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 9.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

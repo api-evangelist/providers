@@ -30,13 +30,13 @@ agent_readiness:
     mcp_server: verified
     openapi_examples: false
     protected_resource_metadata: verified
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 44.6
-  scored_at: '2026-10-04'
+  score: 42.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -95,6 +95,10 @@ collections:
   name: Accelevents Open API
   slug: open-accelevents
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.accelevents.com/blog
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/accelevents/refs/heads/main/agentic-access/accelevents-agentic-access.yml
   title: ''
@@ -149,23 +153,27 @@ common:
 created: '2026-07-05'
 description: Accelevents is an all-in-one event management and ticketing platform for in-person, virtual, and hybrid events - covering registration, ticketing, agenda and sessions, speakers, exhibitors, networking, and engagement. The Accelevents Open API is a REST API (base https://api.accelevents.com/rest) authenticated with an organization API key generated from the account Integrations tab. It exposes event details, attendees, ticketing orders and sales, ticket holders, sessions, speakers, and attendee networking. API and webhook access is a paid-plan feature (Business tier and above), so many endpoints are documented publicly but require a provisioned key to exercise.
 finops:
-- name: Accelevents Finops
+- has_sources: true
+  method: generated
+  name: Accelevents Finops
+  primary_unit: ''
   service_category: Event Management and Ticketing
   slug: accelevents-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/accelevents.png
 layout: provider
 mcp_servers:
 - description: Remote MCP server at api.accelevents.com over HTTP.
   name: Accelevents MCP Server
   slug: accelevents
-modified: '2026-07-05'
+modified: '2026-10-06'
 name: Accelevents
 nav: Providers
 network: true
-overview: 'Accelevents publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Attendees API, Events API, Orders API, and 2 more. Tagged areas include Event Management, Ticketing, Event, Registration, and Virtual Events.
+overview: 'Accelevents publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Attendees API, Events API, Orders API, and 2 more. Tagged areas include Event Management, Ticketing, Event, Registration, and Virtual Events.
 
 
-  Accelevents'' developer surface includes authentication, documentation, API reference, and 8 more developer resources.'
+  Accelevents'' developer surface includes engineering blog, authentication, documentation, API reference, and 8 more developer resources.'
 plans:
 - name: Accelevents Plans Pricing
   plan_count: 4
@@ -177,22 +185,22 @@ rate_limits:
   slug: accelevents-rate-limits
 score:
   band: thin
-  composite: 36.4
+  composite: 28.6
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 61.6
+    artifact_dirs: 14
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.4
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.8
   facets:
-    access_clarity: 44.2
+    access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 50.2
-    developer_ergonomics: 25.0
+    developer_ergonomics: 27.4
     discoverability: 68.3
-    operational_transparency: 28.4
+    operational_transparency: 7.9
   previous_composite: 36.4
   provenance:
     agentic_access: derived
@@ -208,9 +216,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

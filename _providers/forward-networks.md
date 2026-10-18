@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 121
+- acting_count: 117
   human_in_the_loop: 2
   name: Forward Networks Agentic Access
   operation_count: 189
   slug: forward-networks-agentic-access
-  summary_line: 189 operations · 121 acting · 2 human-in-the-loop
+  summary_line: 189 operations · 117 acting · 2 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://fwd.app/api
@@ -210,6 +210,10 @@ collections:
   name: 'Forward Networks: Complete Aliases Vulnerability Analysis API'
   slug: open-forward-networks-vulnerability-analysis-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.forwardnetworks.com/feed/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/forward-networks/refs/heads/main/capabilities/forward-networks-capability-edges.yml
   title: ''
@@ -357,26 +361,26 @@ mcp_servers:
 - description: Open-source MCP server (Go, stdio transport) published in the Forward Networks GitHub org. Exposes 54 tools plus 6 workflow prompts and a network-context resource, validated against the official Forwa
   name: Forward Networks MCP Server
   slug: forward-mcp
-modified: '2026-09-16'
+modified: '2026-10-06'
 name: Forward Networks
 nav: Providers
 network: true
-overview: 'Forward Networks publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Aliases API, Checks API, Classic Devices API, and 17 more. Tagged areas include Company, Networks, Network Automation, Network Digital Twin, and Network Security.
+overview: 'Forward Networks publishes 20 API contracts indexed on the [APIs.io](https://apis.io/) network, including Aliases API, Checks API, Classic Devices API, and 17 more. Tagged areas include Company, Networks, Network Automation, Network Digital Twin, and Network Security.
 
 
-  Forward Networks'' developer surface includes documentation, authentication, engineering blog, pricing, signup flow, and 25 more developer resources.'
+  Forward Networks'' developer surface includes documentation, authentication, engineering blog, pricing, signup flow, and 26 more developer resources.'
 random_paper: 1
 score:
   band: developing
-  composite: 43.2
+  composite: 43.3
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 47.4
     contract_governance: 4.5
@@ -401,8 +405,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

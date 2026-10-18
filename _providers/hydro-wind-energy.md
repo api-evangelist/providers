@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://hw.energy/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/hydro-wind-energy/refs/heads/main/security/hydro-wind-energy-domain-security.yml
   title: ''
@@ -49,7 +53,7 @@ created: '2026-07-17'
 description: Hydro Wind Energy develops offshore renewable energy infrastructure at the convergence of dispatchable clean power, grid-scale energy storage, and freshwater production. Its OceanHydro Omni deep-sea offshore wind platform converts wind into mechanical lift with built-in storage; SubSea RO Wind couples wind energy directly to subsea reverse-osmosis desalination; and the Offshore AI Power Plant integrates both with floating data centres for off-grid AI infrastructure. The company also ships QuenchSea, a portable hand-powered desalination device deployed across 60+ countries. Backed by Techstars, Republic, and Shell StartUp Engine. The company publishes no public developer API, documentation, or SDK surface as of this enrichment pass.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hydro-wind-energy.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Hydro Wind Energy
 nav: Providers
 network: true
@@ -59,7 +63,7 @@ score:
   band: minimal
   composite: 3.6
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -80,8 +84,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 4.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

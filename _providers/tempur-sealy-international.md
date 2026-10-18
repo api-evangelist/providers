@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: E-commerce integration API for the Tempur-Pedic brand enabling retailers, affiliates, and platform partners to access product catalogs, check inventory, manage orders, and track shipments for Tempur-P
@@ -44,6 +44,21 @@ apis:
   slug: sealy-e-commerce-api
 artifact_total: 12
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/tempur-sealy-international/refs/heads/main/plans/tempur-sealy-international-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/tempur-sealy-international-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/tempur-sealy-international/refs/heads/main/rate-limits/tempur-sealy-international-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/tempur-sealy-international-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/tempur-sealy-international/refs/heads/main/finops/tempur-sealy-international-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/tempur-sealy-international-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/tempur-sealy-international/refs/heads/main/security/tempur-sealy-international-vulnerability-disclosure.yml
   title: ''
@@ -100,9 +115,13 @@ examples:
   name: Tempur Sealy International Product Example
   slug: tempur-sealy-international-product-example
 finops:
-- name: Tempur Sealy International Finops
+- has_sources: false
+  method: generated
+  name: Tempur Sealy International Finops
+  primary_unit: ''
   service_category: API
   slug: tempur-sealy-international-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tempur-sealy-international.png
 json_schemas:
 - name: Tempur Sealy International Product
@@ -122,13 +141,13 @@ modified: '2026-05-03'
 name: Tempur Sealy International
 nav: Providers
 network: true
-overview: 'Tempur Sealy International publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Bedding, Manufacturing, E-Commerce, Retail, and Fortune 500.
+overview: 'Tempur Sealy International is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Bedding, Manufacturing, E-Commerce, Retail, and Fortune 500.
 
 
   The Tempur Sealy International catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Tempur Sealy International''s developer surface includes engineering blog and 10 more developer resources.'
+  Tempur Sealy International''s developer surface includes engineering blog and 13 more developer resources.'
 plans:
 - name: Tempur Sealy International Plans Pricing
   plan_count: 3
@@ -155,9 +174,10 @@ rate_limits:
   name: Tempur Sealy International Rate Limits
   slug: tempur-sealy-international-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Tempur Sealy International API Rules
+  name: Tempur Sealy International — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -167,17 +187,17 @@ rules:
   slug: tempur-sealy-international-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 17.9
+  composite: 16.4
   coverage:
-    artifact_dirs: 15
-    catalog_earned: 64.8
+    artifact_dirs: 16
+    catalog_earned: 61.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 50.3
+    catalog_gap: 53.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 23.5
     contract_quality: 14.7
     developer_ergonomics: 2.4
@@ -190,8 +210,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

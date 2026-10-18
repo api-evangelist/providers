@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 0
 common:
@@ -48,13 +48,13 @@ modified: '2026-07-20'
 name: Babel Finance
 nav: Providers
 network: true
-overview: Babel Finance is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto Web3, Cryptocurrency, Lending, and Financial Services.
+overview: Babel Finance is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Web3, Cryptocurrency, Lending, and Financial Services.
 random_paper: 17
 score:
   band: minimal
   composite: 0.0
   coverage:
-    artifact_dirs: 1
+    artifact_dirs: 2
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -87,23 +87,23 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 0.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/babel-finance/refs/heads/main/screenshots/babel-finance-2026-10-11T101347.png
 slug: babel-finance
 tags:
 - Company
-- Crypto Web3
+- Web3
 - Cryptocurrency
 - Lending
 - Financial Services
 - Digital Assets
 - Institutional Trading
 - Defunct
-- Web3
 website: https://babel.finance
 ---

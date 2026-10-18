@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://pintarnya.com/blog/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/pintarnya/refs/heads/main/security/pintarnya-domain-security.yml
   title: ''
@@ -77,14 +81,14 @@ created: '2026-07-17'
 description: Pintarnya is an Indonesian technology startup, launched in May 2022, that operates an employment and financial-services super-app for the country's blue-collar and entry-level workforce (education levels from elementary school through bachelor's degree, "SD-S1"). The platform aggregates tens of thousands of daily-updated job listings across 300+ Indonesian cities and pairs job search with Cari Cuan side-income tasks, Siap Kerja skill-building video courses, a CV builder, and an employer/recruiter posting product used by tens of thousands of companies. Pintarnya reports more than 10 million registered job seekers and is registered with Indonesia's Ministry of Labor (KEMNAKER). It is a consumer web and mobile product; no public developer API, OpenAPI description, or developer portal is published as of this profile.
 image: https://pintarnya.com/landing/cover.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Pintarnya
 nav: Providers
 network: true
 overview: 'Pintarnya is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Job, Employment, Recruiting, and Financial Services.
 
 
-  Pintarnya''s developer surface includes engineering blog, support, signup flow, and 6 more developer resources.'
+  Pintarnya''s developer surface includes engineering blog, support, signup flow, and 7 more developer resources.'
 random_paper: 14
 score:
   band: emerging
@@ -118,8 +122,8 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

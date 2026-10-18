@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 34.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 1
@@ -111,6 +111,11 @@ collections:
   name: Academy Software Foundation - OpenCue Hosts Shows API
   slug: open-academy-software-foundation-shows-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/academy-software-foundation/refs/heads/main/finops/academy-software-foundation-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/academy-software-foundation-finops.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -364,9 +369,13 @@ features:
 - description: ASWF projects define and maintain industry standards used across the global VFX and animation pipeline
   name: Standards Development
 finops:
-- name: Academy Software Foundation Finops
+- has_sources: true
+  method: generated
+  name: Academy Software Foundation Finops
+  primary_unit: ''
   service_category: Open Source Software / Standards
   slug: academy-software-foundation-finops
+  template: false
 image: /assets/icons/academy-software-foundation.png
 integrations:
 - description: Integrates with OpenColorIO, OpenEXR, and other ASWF standards via native plug-ins
@@ -474,13 +483,13 @@ modified: '2026-08-29'
 name: Academy Software Foundation
 nav: Providers
 network: true
-overview: 'Academy Software Foundation publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Hosts API, Jobs API, Layers API, and 11 more. Tagged areas include Animation, Color Management, Film, Linux Foundation, and Open Source.
+overview: 'Academy Software Foundation is listed with 14 APIs on the [APIs.io](https://apis.io/) network, including Hosts API, Jobs API, Layers API, and 11 more. Tagged areas include Animation, Color Management, Film, Linux Foundation, and Open Source.
 
 
   The Academy Software Foundation catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Academy Software Foundation''s developer surface includes documentation, engineering blog, getting-started guide, CLI, authentication, changelog, sandbox, and 36 more developer resources.'
+  Academy Software Foundation''s developer surface includes documentation, engineering blog, getting-started guide, CLI, authentication, changelog, sandbox, and 37 more developer resources.'
 plans:
 - name: Academy Software Foundation Plans Pricing
   plan_count: 0
@@ -491,9 +500,10 @@ rate_limits:
   name: Academy Software Foundation Rate Limits
   slug: academy-software-foundation-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Academy Software Foundation API Rules
+  name: Academy Software Foundation — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -501,7 +511,8 @@ rules:
     info: 2
     warn: 3
   slug: academy-software-foundation-jsonschema-spectral-rules
-- effective_rule_count: 66
+- authorship: generated
+  effective_rule_count: 66
   extends:
   - spectral:oas
   name: Academy Software Foundation API Rules
@@ -514,17 +525,17 @@ rules:
   slug: academy-software-foundation-spectral-rules
 score:
   band: strong
-  composite: 56.8
+  composite: 55.4
   coverage:
-    artifact_dirs: 32
-    catalog_earned: 71.4
+    artifact_dirs: 33
+    catalog_earned: 68.4
     catalog_earned_first_party: 8.0
-    catalog_gap: 43.6
+    catalog_gap: 46.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.4
   facets:
-    access_clarity: 52.6
+    access_clarity: 44.7
     contract_governance: 31.8
     contract_quality: 26.0
     developer_ergonomics: 70.8
@@ -550,8 +561,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -570,7 +581,7 @@ security:
 - kind: vulnerability-disclosure
   name: Academy Software Foundation Vulnerability Disclosure
   slug: academy-software-foundation-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 slug: academy-software-foundation
 tags:
 - Animation

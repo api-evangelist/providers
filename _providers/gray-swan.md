@@ -35,8 +35,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.2
-  scored_at: '2026-10-04'
-api_count: 1
+  scored_at: '2026-10-17'
+api_count: 2
 apis:
 - baseURL: https://api.grayswan.ai
   baseurl_source: declared
@@ -205,7 +205,7 @@ modified: '2026-07-19'
 name: Gray Swan
 nav: Providers
 network: true
-overview: 'Gray Swan publishes 3 APIs on the [APIs.io](https://apis.io/) network: Activity API, Cygnal API, and Policies API. Tagged areas include Company, Artificial Intelligence, AI Security, LLM Security, and Guardrails.
+overview: 'Gray Swan publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Activity API, Cygnal API, and Policies API. Tagged areas include Company, Artificial Intelligence, AI Security, LLM Security, and Guardrails.
 
 
   Gray Swan''s developer surface includes documentation, API reference, quickstart, signup flow, engineering blog, authentication, and 22 more developer resources.'
@@ -218,7 +218,7 @@ score:
   band: developing
   composite: 41.8
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -248,8 +248,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

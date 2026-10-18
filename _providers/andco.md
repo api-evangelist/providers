@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.useandco.com/blog
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/andco/refs/heads/main/security/andco-domain-security.yml
   title: ''
@@ -58,28 +62,31 @@ created: '2026-07-17'
 description: Andco is a Y Combinator (Spring 2026) startup building an AI-agent platform that automates the pre-litigation case workup process for personal injury law firms. Its agents retrieve and synthesize case documents across fax, phone, email, mail, web portal, and SMS channels, including police and accident reports, insurance coverage verification, medical records, and medical bills, then draft demand letters and calculate damages. Andco covers auto accident, premises liability, medical malpractice, workplace injury, and mass tort practice areas, offering same-day go-live and a free trial on the first case. This profile was surfaced from Andco's Y Combinator portfolio listing and enriched by the API Evangelist pipeline; Andco publishes no public API, developer portal, or machine-readable specification at this time.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/andco.png
 layout: provider
-modified: '2026-07-17'
+modified: '2026-10-06'
 name: Andco
 nav: Providers
 network: true
-overview: Andco is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Legal Tech, Personal Injury, Legal, and AI Agents.
+overview: 'Andco is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Legal Tech, Personal Injury, Legal, and AI Agents.
+
+
+  Andco''s developer surface includes engineering blog and 4 more developer resources.'
 random_paper: 11
 score:
   band: minimal
-  composite: 5.4
+  composite: 6.0
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 6.6
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 55.4
     operational_transparency: 0.0
   previous_composite: 5.4
@@ -89,8 +96,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

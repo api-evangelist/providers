@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 4.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Authenticated flood forecasting and impact data delivered as GIS-native OGC WMS/WFS feeds, secured by AWS Cognito OAuth2/OIDC. Access is provisioned per customer; there is no public self-service devel
@@ -41,6 +41,14 @@ apis:
   slug: floodmapp-flood-intelligence-api
 artifact_total: 6
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.floodmapp.com/blog
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.floodmapp.com/blog-feed.xml
 - group: company
   title: ''
   type: Website
@@ -114,14 +122,14 @@ mcp_servers:
 - description: 'FloodMapp''s public website exposes a Model Context Protocol (MCP) endpoint via the Wix Site MCP platform. It provides live, up-to-date public site content and business-solution APIs to AI agents with '
   name: FloodMapp MCP Server
   slug: floodmapp-site
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: FloodMapp
 nav: Providers
 network: true
-overview: 'FloodMapp publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Flood Intelligence, Flood Forecasting, Geospatial, and GIS.
+overview: 'FloodMapp is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Flood Intelligence, Flood Forecasting, Geospatial, and GIS.
 
 
-  FloodMapp''s developer surface includes support, engineering blog, authentication, and 11 more developer resources.'
+  FloodMapp''s developer surface includes engineering blog, support, authentication, and 13 more developer resources.'
 random_paper: 16
 scopes:
 - name: Floodmapp Scopes
@@ -130,7 +138,7 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: emerging
-  composite: 22.6
+  composite: 22.7
   coverage:
     artifact_dirs: 10
     catalog_earned: 37.0
@@ -138,7 +146,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 32.9
     contract_governance: 18.2
@@ -156,8 +164,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

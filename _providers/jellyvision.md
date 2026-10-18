@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The ALEX Partner Integration API lets a Jellyvision partner — typically a benefits administration or enrollment platform — streamline and personalize the ALEX experience for its end users. Partners PO
@@ -45,6 +45,15 @@ apis:
   slug: alex-partner-integration-api
 artifact_total: 8
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/jellyvision/refs/heads/main/rate-limits/jellyvision-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/jellyvision-rate-limits.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.jellyvision.com/resources/blog/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/jellyvision/refs/heads/main/security/jellyvision-trust-center.yml
   title: ''
@@ -133,14 +142,14 @@ mcp_servers:
 - description: Jellyvision serves a live, OAuth-protected Model Context Protocol server from its own marketing host. It was found by following RFC 9728 protected-resource metadata at https://www.jellyvision.com/.wel
   name: Jellyvision MCP Server
   slug: jellyvision-mcp-yml
-modified: '2026-08-23'
+modified: '2026-10-06'
 name: Jellyvision
 nav: Providers
 network: true
-overview: 'Jellyvision publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Employee Benefits, Human Resources, Benefits Administration, and Benefits Enrollment.
+overview: 'Jellyvision is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Employee Benefits, Human Resources, Benefits Administration, and Benefits Enrollment.
 
 
-  Jellyvision''s developer surface includes documentation, API reference, engineering blog, support, signup flow, and 13 more developer resources.'
+  Jellyvision''s developer surface includes documentation, API reference, engineering blog, support, signup flow, and 15 more developer resources.'
 plans:
 - name: Jellyvision Plans Pricing
   plan_count: 0
@@ -190,8 +199,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 41.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

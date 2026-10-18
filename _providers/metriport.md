@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -95,7 +95,7 @@ arazzos:
 - description: Create a devices user, mint a Connect Widget session token, then pull the user's activity and biometrics data from connected wearables.
   name: Metriport Wearables Connect
   slug: metriport-wearables-connect-workflow
-artifact_total: 30
+artifact_total: 42
 asyncapis:
 - description: ''
   name: Metriport Webhooks
@@ -129,6 +129,35 @@ collections:
   name: Metriport API
   slug: open-metriport
 common:
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/metriport/refs/heads/main/rules/metriport-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/metriport-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/metriport/refs/heads/main/json-ld/metriport-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/metriport-context.jsonld
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/metriport/refs/heads/main/vocabulary/metriport-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/metriport-vocabulary.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/metriport/refs/heads/main/hosts/metriport-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/metriport-hosts.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/metriport/refs/heads/main/vendors/metriport-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/metriport-vendors.yml
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://www.metriport.com/news
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/metriport/refs/heads/main/capabilities/metriport-capability-edges.yml
   title: ''
@@ -165,11 +194,6 @@ common:
   title: ''
   type: Documentation
   url: https://docs.metriport.com
-- group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/metriport/refs/heads/main/plans/metriport-plans-pricing.yml
-  title: ''
-  type: Plans
-  url: plans/metriport-plans-pricing.yml
 - group: operate
   href: https://raw.githubusercontent.com/api-evangelist/metriport/refs/heads/main/rate-limits/metriport-rate-limits.yml
   title: ''
@@ -308,10 +332,6 @@ common:
   title: ''
   type: Support
   url: https://www.metriport.com/contact-us
-- group: commercial
-  title: ''
-  type: Pricing
-  url: https://www.metriport.com/pricing
 - group: start
   title: ''
   type: SignUp
@@ -335,10 +355,50 @@ common:
 created: '2026-06-21'
 description: Metriport is an open-source, universal API for healthcare data. The Medical API exchanges patient medical records across the CommonWell and Carequality networks and returns consolidated FHIR R4 data, while the Devices API hydrates activity, biometrics, nutrition, and sleep data from consumer wearables and mHealth apps. Companies can use the hosted Metriport cloud or self-host the open-source code to avoid vendor lock-in.
 finops:
-- name: Metriport Finops
+- has_sources: true
+  method: generated
+  name: Metriport Finops
+  primary_unit: ''
   service_category: Healthcare and Life Sciences
   slug: metriport-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/metriport.png
+json_schemas:
+- name: BaseFacility
+  property_count: 5
+  slug: metriport-base-facility
+- name: BasePatient
+  property_count: 7
+  slug: metriport-base-patient
+- name: ConsolidatedQuery
+  property_count: 4
+  slug: metriport-consolidated-query
+- name: DevicesData
+  property_count: 6
+  slug: metriport-devices-data
+- name: DevicesUser
+  property_count: 3
+  slug: metriport-devices-user
+- name: DocumentQuery
+  property_count: 2
+  slug: metriport-document-query
+- name: DocumentReference
+  property_count: 7
+  slug: metriport-document-reference
+- name: Facility
+  property_count: 0
+  slug: metriport-facility
+- name: Patient
+  property_count: 0
+  slug: metriport-patient
+- name: Settings
+  property_count: 4
+  slug: metriport-settings
+jsonld:
+- class_count: 11
+  name: Metriport Context
+  property_count: 46
+  slug: metriport-context
 layout: provider
 mcp_servers:
 - description: Metriport serves a remote MCP endpoint from its documentation host. A tools/list POST returns HTTP 200 anonymously with three real tools and their inputSchemas — captured verbatim in metriport-mcp-too
@@ -348,39 +408,52 @@ modified: '2026-08-14'
 name: Metriport
 nav: Providers
 network: true
-overview: 'Metriport publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Consolidated API, Devices Data API, Document API, and 4 more. Tagged areas include Healthcare, Medical Records, FHIR, Health Data, and Wearables.
+overview: 'Metriport publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Consolidated API, Devices Data API, Document API, and 4 more. Tagged areas include Healthcare, Medical Records, FHIR, Health Data, and Wearables.
 
 
-  The Metriport catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Metriport catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Metriport''s developer surface includes authentication, documentation, engineering blog, sandbox, getting-started guide, API reference, support, and 36 more developer resources.'
+  Metriport''s developer surface includes authentication, documentation, engineering blog, sandbox, getting-started guide, API reference, support, and 40 more developer resources.'
 plans:
 - name: Metriport Plans Pricing
-  plan_count: 4
+  plan_count: 0
   slug: metriport-plans-pricing
 random_paper: 8
 rate_limits:
 - limit_count: 10
   name: Metriport Rate Limits
   slug: metriport-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 56
+  extends:
+  - spectral:oas
+  name: Metriport API Rules
+  rule_count: 15
+  severity_counts:
+    error: 12
+    hint: 0
+    info: 2
+    warn: 1
+  slug: metriport-rules
 score:
   band: strong
-  composite: 66.2
+  composite: 64.0
   coverage:
-    artifact_dirs: 28
-    catalog_earned: 64.0
-    catalog_earned_first_party: 24.0
-    catalog_gap: 51.0
+    artifact_dirs: 36
+    catalog_earned: 74.8
+    catalog_earned_first_party: 12.0
+    catalog_gap: 40.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.2
   facets:
-    access_clarity: 76.3
-    contract_governance: 18.2
-    contract_quality: 56.5
+    access_clarity: 36.8
+    contract_governance: 35.6
+    contract_quality: 69.9
     developer_ergonomics: 71.4
-    discoverability: 75.0
+    discoverability: 76.7
     operational_transparency: 60.5
   previous_composite: 66.2
   provenance:
@@ -403,8 +476,8 @@ score:
     regime: Health
     regime_id: health
     score: 32.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

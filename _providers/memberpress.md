@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: WordPress MCP server shipped by the MemberPress AI Foundation add-on. It exposes membership, subscription, transaction, coupon, access-rule and reporting tools — MemberPress states 41 tools on a stand
@@ -269,7 +269,7 @@ modified: '2026-08-12'
 name: MemberPress
 nav: Providers
 network: true
-overview: 'MemberPress publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Coupons API, Events API, and 9 more. Tagged areas include Company, Membership, Subscription, WordPress, and Payments.
+overview: 'MemberPress publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authentication API, Coupons API, Events API, and 9 more. Tagged areas include Company, Membership, Subscription, WordPress, and Payments.
 
 
   The MemberPress catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -289,7 +289,7 @@ score:
   band: developing
   composite: 46.4
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -319,8 +319,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 22.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://api.escuelajs.co/api/v1
@@ -209,7 +209,7 @@ modified: '2026-07-20'
 name: Platzi
 nav: Providers
 network: true
-overview: 'Platzi publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Categories API, Files API, and 3 more. Tagged areas include Company, Education, E-Commerce, Product, and Mock API.
+overview: 'Platzi publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Auth API, Categories API, Files API, and 3 more. Tagged areas include Company, Education, E-Commerce, Product, and Mock API.
 
 
   Platzi''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, authentication, sandbox, and 17 more developer resources.'
@@ -218,7 +218,7 @@ score:
   band: thin
   composite: 38.0
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -248,8 +248,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

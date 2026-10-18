@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -81,6 +81,21 @@ collections:
   name: Odoo External API
   slug: open-odoo
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/odoo/refs/heads/main/plans/odoo-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/odoo-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/odoo/refs/heads/main/rate-limits/odoo-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/odoo-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/odoo/refs/heads/main/finops/odoo-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/odoo-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/odoo/refs/heads/main/agentic-access/odoo-agentic-access.yml
   title: ''
@@ -124,19 +139,23 @@ common:
 created: '2026-03-16'
 description: Odoo is an open-source suite of business applications covering ERP, CRM, eCommerce, accounting, inventory, and more. Odoo provides external APIs for integrating with the Odoo platform using JSON-RPC and XML-RPC protocols.
 finops:
-- name: Odoo Finops
+- has_sources: false
+  method: generated
+  name: Odoo Finops
+  primary_unit: ''
   service_category: API
   slug: odoo-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/odoo.png
 layout: provider
 modified: '2026-04-28'
 name: Odoo
 nav: Providers
 network: true
-overview: 'Odoo publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Common API, JSON-RPC API, Object API, and 1 more. Tagged areas include Business Applications, CRM, ERP, Open Source, and Accounting.
+overview: 'Odoo publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Common API, JSON-RPC API, Object API, and 1 more. Tagged areas include Business Applications, CRM, ERP, Open Source, and Accounting.
 
 
-  Odoo''s developer surface includes authentication, documentation, engineering blog, and 6 more developer resources.'
+  Odoo''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
 plans:
 - name: Odoo Plans Pricing
   plan_count: 3
@@ -147,24 +166,24 @@ rate_limits:
   name: Odoo Rate Limits
   slug: odoo-rate-limits
 score:
-  band: thin
-  composite: 26.4
+  band: emerging
+  composite: 24.9
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 41.0
+    artifact_dirs: 12
+    catalog_earned: 38.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.3
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 47.1
     developer_ergonomics: 23.8
     discoverability: 57.1
     operational_transparency: 10.5
-  previous_composite: 26.7
+  previous_composite: 26.4
   provenance:
     agentic_access: derived
     contracts:
@@ -178,8 +197,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 17.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Use this API to submit ambulance data to the NHS Data Processing Service (DPS) so that it can be made available for analysis and review by NHS England and ambulance trusts.
@@ -41,6 +41,21 @@ apis:
   slug: ambulance-data-submission-fhir
 artifact_total: 6
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/national-health-service/refs/heads/main/plans/national-health-service-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/national-health-service-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/national-health-service/refs/heads/main/rate-limits/national-health-service-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/national-health-service-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/national-health-service/refs/heads/main/finops/national-health-service-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/national-health-service-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/national-health-service/refs/heads/main/security/national-health-service-vulnerability-disclosure.yml
   title: ''
@@ -70,19 +85,23 @@ common:
 created: '2025-01-07'
 description: The National Health Service (NHS) of England publishes a catalogue of APIs for health and care providers, including the Ambulance Data Submission FHIR API used to submit ambulance data to the NHS Data Processing Service (DPS) for analysis and review by NHS England and ambulance trusts.
 finops:
-- name: National Health Service Finops
+- has_sources: false
+  method: generated
+  name: National Health Service Finops
+  primary_unit: ''
   service_category: API
   slug: national-health-service-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/national-health-service.png
 layout: provider
 modified: '2026-04-28'
 name: National Health Service
 nav: Providers
 network: true
-overview: 'National Health Service publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Ambulance, Health, Healthcare, and National Health Service.
+overview: 'National Health Service is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Ambulance, Health, Healthcare, and National Health Service.
 
 
-  National Health Service''s developer surface includes developer portal and 5 more developer resources.'
+  National Health Service''s developer surface includes developer portal and 8 more developer resources.'
 plans:
 - name: National Health Service Plans Pricing
   plan_count: 3
@@ -94,17 +113,17 @@ rate_limits:
   slug: national-health-service-rate-limits
 score:
   band: emerging
-  composite: 13.2
+  composite: 11.7
   coverage:
     artifact_dirs: 6
-    catalog_earned: 41.0
+    catalog_earned: 38.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 19.0
@@ -117,8 +136,8 @@ score:
     regime: Health
     regime_id: health
     score: 9.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

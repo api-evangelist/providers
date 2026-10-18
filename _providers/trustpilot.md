@@ -28,20 +28,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.9
-  scored_at: '2026-10-04'
+  score: 20.1
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 15
+- acting_count: 12
   human_in_the_loop: 0
   name: Trustpilot Agentic Access
   operation_count: 38
   slug: trustpilot-agentic-access
-  summary_line: 38 operations · 15 acting
+  summary_line: 38 operations · 12 acting
 api_count: 4
 apis:
 - description: The Trustpilot Consumer API provides access to reviews written by individual consumers. Developers can retrieve a consumer's review history with filtering by stars, language, location, and business un
@@ -135,6 +135,25 @@ collections:
   name: Trustpilot Business Units Invitations API
   slug: open-trustpilot-invitations-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/trustpilot/refs/heads/main/plans/trustpilot-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/trustpilot-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/trustpilot/refs/heads/main/rate-limits/trustpilot-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/trustpilot-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/trustpilot/refs/heads/main/finops/trustpilot-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/trustpilot-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://business.trustpilot.com/blog
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/trustpilot/refs/heads/main/capabilities/trustpilot-capability-edges.yml
   title: ''
@@ -261,9 +280,13 @@ examples:
   name: Trustpilot Send Email Invitations Example
   slug: trustpilot-send-email-invitations-example
 finops:
-- name: Trustpilot Finops
+- has_sources: true
+  method: generated
+  name: Trustpilot Finops
+  primary_unit: ''
   service_category: Reviews & Reputation SaaS
   slug: trustpilot-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/trustpilot.png
 json_schemas:
 - name: Trustpilot Business Unit
@@ -312,17 +335,17 @@ jsonld:
   property_count: 9
   slug: trustpilot-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-10-06'
 name: Trustpilot
 nav: Providers
 network: true
-overview: 'Trustpilot publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Business Units API, Conversations API, Images API, and 6 more. Tagged areas include Consumer Reviews, Reviews, Trust, Ratings, and Business Profiles.
+overview: 'Trustpilot publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Business Units API, Conversations API, Images API, and 6 more. Tagged areas include Consumer Reviews, Reviews, Trust, Ratings, and Business Profiles.
 
 
   The Trustpilot catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Trustpilot''s developer surface includes authentication, developer portal, documentation, signup flow, pricing, changelog, support, and 19 more developer resources.'
+  Trustpilot''s developer surface includes engineering blog, authentication, developer portal, documentation, signup flow, pricing, changelog, and 23 more developer resources.'
 plans:
 - name: Trustpilot Plans Pricing
   plan_count: 5
@@ -333,9 +356,10 @@ rate_limits:
   name: Trustpilot Rate Limits
   slug: trustpilot-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Trustpilot API Rules
+  name: Trustpilot — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -343,7 +367,8 @@ rules:
     info: 2
     warn: 3
   slug: trustpilot-jsonschema-spectral-rules
-- effective_rule_count: 52
+- authorship: unmarked
+  effective_rule_count: 52
   extends:
   - spectral:oas
   name: Trustpilot API Rules
@@ -361,17 +386,17 @@ scopes:
   summary_line: 4 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 51.0
+  composite: 49.5
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 60.5
+    artifact_dirs: 22
+    catalog_earned: 57.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 54.5
+    catalog_gap: 57.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 60.5
+    access_clarity: 52.6
     contract_governance: 13.6
     contract_quality: 52.4
     developer_ergonomics: 39.3
@@ -391,8 +416,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

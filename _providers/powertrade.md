@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: 'Public and private REST endpoints for market-data summaries, public trade history, positions, holdings, balances, reporting, and MFA. Private endpoints require an ES256 JWT access token. Versioned by '
@@ -47,6 +47,10 @@ apis:
   slug: powertrade-fix-api
 artifact_total: 6
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://power.trade/blog/
 - group: company
   title: ''
   type: Website
@@ -169,31 +173,31 @@ created: '2026-07-17'
 description: PowerTrade (power.trade) is a crypto derivatives exchange offering European-style, USDC-settled options on BTC, ETH and 80+ altcoins, plus perpetual futures, spot, and tokenized equity (xStocks) options. For programmatic traders it publishes a public REST API (market data, history, positions, balances), real-time WebSocket market-data and position feeds, and a FIX 4.4 order-entry / drop-copy gateway. Private endpoints authenticate with an ES256 JWT signed from an account API key and private key. The exchange runs production, test and dev environments and provides Go, Python and TypeScript example clients on GitHub. Backed by Pantera Capital.
 image: https://power.trade/assets/power-trade-og.jpg
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: PowerTrade
 nav: Providers
 network: true
-overview: 'PowerTrade publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto, Cryptocurrency, Derivatives, and Options.
+overview: 'PowerTrade is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cryptocurrency, Derivatives, Options, and Perpetual Futures.
 
 
-  PowerTrade''s developer surface includes documentation, API reference, getting-started guide, authentication, support, pricing, signup flow, and 19 more developer resources.'
+  PowerTrade''s developer surface includes engineering blog, documentation, API reference, getting-started guide, authentication, support, pricing, and 20 more developer resources.'
 random_paper: 7
 score:
   band: thin
-  composite: 33.1
+  composite: 33.6
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 31.6
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 69.0
+    developer_ergonomics: 71.4
     discoverability: 78.6
     operational_transparency: 13.2
   previous_composite: 33.1
@@ -206,8 +210,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -230,7 +234,6 @@ security:
 slug: powertrade
 tags:
 - Company
-- Crypto
 - Cryptocurrency
 - Derivatives
 - Options

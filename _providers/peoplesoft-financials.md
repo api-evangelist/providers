@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 5.0
-  scored_at: '2026-10-04'
+  score: 3.1
+  scored_at: '2026-10-17'
 api_count: 8
 apis:
 - description: REST API for managing general ledger operations including journals, chartfields, budgets, and financial reporting.
@@ -62,6 +62,21 @@ apis:
   slug: query
 artifact_total: 12
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/peoplesoft-financials/refs/heads/main/plans/peoplesoft-financials-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/peoplesoft-financials-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/peoplesoft-financials/refs/heads/main/rate-limits/peoplesoft-financials-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/peoplesoft-financials-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/peoplesoft-financials/refs/heads/main/finops/peoplesoft-financials-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/peoplesoft-financials-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/peoplesoft-financials/refs/heads/main/security/peoplesoft-financials-domain-security.yml
   title: ''
@@ -94,19 +109,23 @@ common:
 created: '2024-01-01'
 description: API collection for Oracle PeopleSoft Financials suite covering General Ledger, Accounts Payable, Accounts Receivable, Asset Management, and other financial modules.
 finops:
-- name: Peoplesoft Financials Finops
+- has_sources: false
+  method: generated
+  name: Peoplesoft Financials Finops
+  primary_unit: ''
   service_category: API
   slug: peoplesoft-financials-finops
+  template: true
 image: https://www.oracle.com/a/ocom/img/logo-peoplesoft.svg
 layout: provider
 modified: '2026-04-28'
 name: PeopleSoft Financials
 nav: Providers
 network: true
-overview: 'PeopleSoft Financials publishes 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Enterprise, ERP, Finance, Oracle, and PeopleSoft.
+overview: 'PeopleSoft Financials is listed with 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Enterprise, ERP, Finance, Oracle, and PeopleSoft.
 
 
-  PeopleSoft Financials'' developer surface includes authentication, developer portal, support, and 4 more developer resources.'
+  PeopleSoft Financials'' developer surface includes authentication, developer portal, support, and 7 more developer resources.'
 plans:
 - name: Peoplesoft Financials Plans Pricing
   plan_count: 3
@@ -118,17 +137,17 @@ rate_limits:
   slug: peoplesoft-financials-rate-limits
 score:
   band: emerging
-  composite: 18.1
+  composite: 16.6
   coverage:
     artifact_dirs: 5
-    catalog_earned: 44.0
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 71.0
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 36.8
+    access_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 14.3
@@ -141,8 +160,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

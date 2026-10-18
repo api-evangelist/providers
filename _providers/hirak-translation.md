@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Translate between 21 of most used languages, accurate, unlimited requests
@@ -66,7 +66,7 @@ modified: '2026-05-28'
 name: Hirak Translation
 nav: Providers
 network: true
-overview: Hirak Translation publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Text Analysis and Public APIs.
+overview: Hirak Translation is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Text Analysis and Public APIs.
 random_paper: 11
 score:
   band: minimal
@@ -93,8 +93,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -109,7 +109,7 @@ security:
 - kind: vulnerability-disclosure
   name: Hirak Translation Vulnerability Disclosure
   slug: hirak-translation-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 slug: hirak-translation
 tags:
 - Text Analysis

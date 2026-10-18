@@ -23,14 +23,19 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 14.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: GraphQL endpoint for Vtiger CRM
   name: Vtiger GraphQL API
   slug: vtiger-graphql-api
-artifact_total: 3
+artifact_total: 4
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/vtiger/refs/heads/main/plans/vtiger-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/vtiger-plans-pricing.yml
 - group: commercial
   title: ''
   type: TermsOfService
@@ -116,24 +121,28 @@ modified: '2026-09-21'
 name: Vtiger
 nav: Providers
 network: true
-overview: 'Vtiger publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, CRM, Artificial Intelligence, Sales, and Automation.
+overview: 'Vtiger is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, CRM, Artificial Intelligence, Sales, and Automation.
 
 
-  Vtiger''s developer surface includes support, changelog, getting-started guide, documentation, engineering blog, pricing, and 12 more developer resources.'
+  Vtiger''s developer surface includes support, changelog, getting-started guide, documentation, engineering blog, pricing, and 13 more developer resources.'
+plans:
+- name: Vtiger Plans Pricing
+  plan_count: 8
+  slug: vtiger-plans-pricing
 random_paper: 19
 score:
   band: thin
-  composite: 29.5
+  composite: 35.9
   coverage:
-    artifact_dirs: 6
-    catalog_earned: 35.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 80.0
+    artifact_dirs: 10
+    catalog_earned: 47.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 68.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.4
   facets:
-    access_clarity: 44.7
+    access_clarity: 76.3
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 45.2
@@ -148,13 +157,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 23.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/vtiger/refs/heads/main/screenshots/vtiger-2026-10-11T133204.png
 security:
 - kind: domain-security
   name: Vtiger Domain Security
@@ -163,7 +173,7 @@ security:
 - kind: vulnerability-disclosure
   name: Vtiger Vulnerability Disclosure
   slug: vtiger-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 slug: vtiger
 tags:
 - Company

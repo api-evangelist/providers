@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 3
+- acting_count: 0
   human_in_the_loop: 0
   name: Macquarie Bank Agentic Access
   operation_count: 19
   slug: macquarie-bank-agentic-access
-  summary_line: 19 operations · 3 acting
+  summary_line: 19 operations
 api_count: 1
 apis:
 - description: Macquarie's connectivity / data APIs for business, documented through the registered Macquarie developer portal, let approved businesses and software partners automate account information retrieval an
@@ -256,7 +256,7 @@ modified: '2026-07-21'
 name: Macquarie Bank
 nav: Providers
 network: true
-overview: 'Macquarie Bank publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Banking Account Balances API, Banking Account Direct Debits API, Banking Account Scheduled Payments API, and 6 more. Tagged areas include Finance, Banks, Open Banking, CDR, and Consumer Data Right.
+overview: 'Macquarie Bank publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Banking Account Balances API, Banking Account Direct Debits API, Banking Account Scheduled Payments API, and 6 more. Tagged areas include Finance, Banks, Open Banking, CDR, and Consumer Data Right.
 
 
   Macquarie Bank''s developer surface includes authentication, sandbox, documentation, support, API reference, signup flow, and 24 more developer resources.'
@@ -270,7 +270,7 @@ score:
   band: thin
   composite: 38.4
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -308,8 +308,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 40.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

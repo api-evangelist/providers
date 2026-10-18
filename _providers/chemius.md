@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 7
 apis:
 - description: Programmatic access to Chemius Safety Data Sheet (SDS) creation, retrieval, and version control. Supports multilingual SDS generation aligned with CLP 1272/2008, REACH 1907/2006, and GHS formats.
@@ -199,9 +199,13 @@ features:
 - name: Web Shop Product Feeds
 - name: PDF Rendering
 finops:
-- name: Chemius Finops
+- has_sources: false
+  method: generated
+  name: Chemius Finops
+  primary_unit: ''
   service_category: API
   slug: chemius-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/chemius.png
 jsonld:
 - class_count: 0
@@ -213,7 +217,7 @@ modified: '2026-09-05'
 name: Chemius
 nav: Providers
 network: true
-overview: 'Chemius publishes 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include ADR, Artificial Intelligence, Chemicals, Chemists, and Compliance.
+overview: 'Chemius is listed with 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include ADR, Artificial Intelligence, Chemicals, Chemists, and Compliance.
 
 
   The Chemius catalog on APIs.io includes 1 JSON-LD context.
@@ -231,17 +235,17 @@ rate_limits:
   slug: chemius-rate-limits
 score:
   band: thin
-  composite: 34.6
+  composite: 33.1
   coverage:
     artifact_dirs: 16
-    catalog_earned: 55.0
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 60.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 85.5
+    access_clarity: 77.6
     contract_governance: 18.2
     contract_quality: 6.7
     developer_ergonomics: 28.6
@@ -257,8 +261,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

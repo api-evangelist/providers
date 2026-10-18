@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: OAuth 2.0 / OpenID Connect storefront surface for the SAIB & Co. mall on the Cafe24 Unified Commerce Platform (UCP). Advertised via the mall's live OpenID Connect discovery document; supports authoriz
@@ -41,6 +41,10 @@ apis:
   slug: saib-co-cafe24-storefront-api
 artifact_total: 4
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://saibnco.com/rss.xml
 - group: company
   title: ''
   type: Website
@@ -81,14 +85,14 @@ created: '2026-07-17'
 description: SAIB (Save & Co.) is a Seoul-based Korean intimate cosmetics and wellness brand focused on female empowerment, offering premium condoms and solid feminine cleansing products made with proprietary, health-conscious ingredients such as CranProB. The brand donates 10% of sales revenue to campaigns supporting gender equality and women's rights. SAIB sells direct-to-consumer through a Cafe24-hosted storefront (saibnco.com); its only programmatic surface is the Cafe24 Unified Commerce Platform (UCP) storefront, which exposes an OpenID Connect discovery document and an OAuth 2.0 / OIDC storefront API for this mall. Surfaced as a portfolio company of 500 Global and enriched into the API Evangelist network.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/saib-and-co.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: SAIB & Co.
 nav: Providers
 network: true
-overview: 'SAIB & Co. publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cosmetics, Consumer Goods, E-Commerce, and Wellness.
+overview: 'SAIB & Co. is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cosmetics, Consumer Goods, E-Commerce, and Wellness.
 
 
-  SAIB & Co.''s developer surface includes support, authentication, and 6 more developer resources.'
+  SAIB & Co.''s developer surface includes support, authentication, and 7 more developer resources.'
 random_paper: 10
 scopes:
 - name: Saib And Co Scopes
@@ -97,15 +101,15 @@ scopes:
   summary_line: 6 scopes · authorizationCode
 score:
   band: emerging
-  composite: 16.2
+  composite: 16.3
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 8
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
@@ -127,8 +131,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

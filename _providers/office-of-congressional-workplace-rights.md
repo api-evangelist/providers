@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Office of Congressional Workplace Rights. The mission of the Office of Congressional Workplace Rights is to advance workplace rights, safety and health, and accessibility in the legislative branch. Su
@@ -41,6 +41,29 @@ apis:
   slug: office-of-congressional-workplace-rights
 artifact_total: 5
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/office-of-congressional-workplace-rights/refs/heads/main/plans/office-of-congressional-workplace-rights-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/office-of-congressional-workplace-rights-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/office-of-congressional-workplace-rights/refs/heads/main/rate-limits/office-of-congressional-workplace-rights-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/office-of-congressional-workplace-rights-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/office-of-congressional-workplace-rights/refs/heads/main/finops/office-of-congressional-workplace-rights-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/office-of-congressional-workplace-rights-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.ocwr.gov/news/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.ocwr.gov/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/office-of-congressional-workplace-rights/refs/heads/main/security/office-of-congressional-workplace-rights-domain-security.yml
   title: ''
@@ -53,16 +76,23 @@ common:
 created: '2024-12-03'
 description: The Office of Congressional Workplace Rights is responsible for enforcing workplace rights for employees of the United States Congress. This includes overseeing the administration of laws such as the Congressional Accountability Act, which guarantees certain rights and protections for congressional staff members.
 finops:
-- name: Office Of Congressional Workplace Rights Finops
+- has_sources: false
+  method: generated
+  name: Office Of Congressional Workplace Rights Finops
+  primary_unit: ''
   service_category: API
   slug: office-of-congressional-workplace-rights-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/office-of-congressional-workplace-rights.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-10-06'
 name: Office of Congressional Workplace Rights
 nav: Providers
 network: true
-overview: Office of Congressional Workplace Rights publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Federal Government.
+overview: 'Office of Congressional Workplace Rights is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Federal Government.
+
+
+  Office of Congressional Workplace Rights'' developer surface includes engineering blog and 6 more developer resources.'
 plans:
 - name: Office Of Congressional Workplace Rights Plans Pricing
   plan_count: 3
@@ -74,20 +104,20 @@ rate_limits:
   slug: office-of-congressional-workplace-rights-rate-limits
 score:
   band: minimal
-  composite: 9.8
+  composite: 8.7
   coverage:
-    artifact_dirs: 5
-    catalog_earned: 36.0
+    artifact_dirs: 6
+    catalog_earned: 33.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 79.0
+    catalog_gap: 82.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.1
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 9.5
+    developer_ergonomics: 11.9
     discoverability: 48.2
     operational_transparency: 7.9
   jurisdiction:
@@ -102,8 +132,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

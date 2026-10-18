@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.biocatch.com/blog/rss.xml
 - group: company
   title: ''
   type: Website
@@ -75,20 +79,20 @@ description: BioCatch is a financial-fraud and financial-crime prevention platfo
   protects over 680 million accounts, and analyzes roughly 18 billion sessions monthly.
 image: https://www.biocatch.com/hubfs/2020%20Rebrand/branding/favicon-color.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: BioCatch
 nav: Providers
 network: true
 overview: 'BioCatch is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Fraud Prevention, Behavioral Biometrics, and Financial Crime.
 
 
-  BioCatch''s developer surface includes engineering blog, support, and 6 more developer resources.'
+  BioCatch''s developer surface includes engineering blog, support, and 7 more developer resources.'
 random_paper: 15
 score:
   band: emerging
   composite: 13.9
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -114,9 +118,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 18.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+    score: 18.3
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

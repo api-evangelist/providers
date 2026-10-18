@@ -36,15 +36,15 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 56.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 75
+- acting_count: 70
   human_in_the_loop: 0
   name: Morningstar Agentic Access
   operation_count: 724
   slug: morningstar-agentic-access
-  summary_line: 724 operations · 75 acting
-api_count: 41
+  summary_line: 724 operations · 70 acting
+api_count: 42
 apis:
 - description: On-demand access to Morningstar's financial market data over HTTP in XML and JSON - real-time, delayed, and end-of-day pricing, price and quote, time and sales, price history, OHLCV, corporate actions
   name: Morningstar Market Data Web Services API
@@ -495,6 +495,10 @@ collections:
   name: Authorization Tokens Accounts x-rays API
   slug: open-morningstar-x-rays-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.morningstar.com/news
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/morningstar/refs/heads/main/agentic-access/morningstar-agentic-access.yml
   title: ''
@@ -679,14 +683,14 @@ mcp_servers:
 - description: Remote MCP server at mcp.morningstar.com over HTTP; 7 tools listed.
   name: Morningstar MCP Server
   slug: morningstar
-modified: '2026-07-22'
+modified: '2026-10-06'
 name: Morningstar
 nav: Providers
 network: true
-overview: 'Morningstar publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Time Series API, Screener APIs, and 17 more. Tagged areas include Finance, Market Data, Investing, Stocks, and Fund.
+overview: 'Morningstar publishes 20 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authentication API, Time Series API, Screener APIs, and 17 more. Tagged areas include Finance, Market Data, Investing, Stocks, and Fund.
 
 
-  Morningstar''s developer surface includes authentication, developer portal, documentation, support, sandbox, API reference, getting-started guide, and 31 more developer resources.'
+  Morningstar''s developer surface includes engineering blog, authentication, developer portal, documentation, support, sandbox, API reference, and 32 more developer resources.'
 random_paper: 16
 scopes:
 - name: Morningstar Scopes
@@ -697,7 +701,7 @@ score:
   band: developing
   composite: 44.5
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -735,8 +739,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 34.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

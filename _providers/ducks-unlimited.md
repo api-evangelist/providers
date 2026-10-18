@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: API explorer that gives a query URL with a JSON response of locations and cities
@@ -70,7 +70,7 @@ modified: '2026-05-28'
 name: Ducks Unlimited
 nav: Providers
 network: true
-overview: 'Ducks Unlimited publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Geocoding and Public APIs.
+overview: 'Ducks Unlimited is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Geocoding and Public APIs.
 
 
   Ducks Unlimited''s developer surface includes engineering blog and 4 more developer resources.'
@@ -100,8 +100,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -116,7 +116,7 @@ security:
 - kind: vulnerability-disclosure
   name: Ducks Unlimited Vulnerability Disclosure
   slug: ducks-unlimited-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 slug: ducks-unlimited
 tags:
 - Geocoding

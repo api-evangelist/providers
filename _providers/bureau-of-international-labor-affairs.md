@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 12.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: ILAB's datasets are served through the U.S. Department of Labor Open Data Portal API (https://apiprod.dol.gov/v4) under the agency segment 'ilab'. The catalogue route /v4/datasets answers anonymously;
@@ -45,6 +45,15 @@ apis:
   slug: ilab-sweat-and-toil-data
 artifact_total: 8
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/bureau-of-international-labor-affairs/refs/heads/main/finops/bureau-of-international-labor-affairs-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/bureau-of-international-labor-affairs-finops.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.dol.gov/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/bureau-of-international-labor-affairs/refs/heads/main/security/bureau-of-international-labor-affairs-domain-security.yml
   title: ''
@@ -166,19 +175,23 @@ common:
 created: '2024-11-25'
 description: 'ILAB is the U.S. Department of Labor bureau that strengthens global labor standards, enforces labor commitments in trade agreements, promotes equity, and combats child labor, forced labor and human trafficking. ILAB operates no API of its own: its seven public datasets — the Child Labor Report and the ImportWatch and LaborShield families, all derived from ILAB''s three flagship reports — are served through the department-wide DOL Open Data Portal API at apiprod.dol.gov/v4, under the agency segment ''ilab'', with a free X-API-KEY credential.'
 finops:
-- name: Bureau Of International Labor Affairs Finops
+- has_sources: false
+  method: generated
+  name: Bureau Of International Labor Affairs Finops
+  primary_unit: ''
   service_category: API
   slug: bureau-of-international-labor-affairs-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bureau-of-international-labor-affairs.png
 layout: provider
-modified: '2026-09-05'
+modified: '2026-10-06'
 name: Bureau of International Labor Affairs
 nav: Providers
 network: true
-overview: 'Bureau of International Labor Affairs publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Federal Government, International, Labor, Standards, and Child Labor.
+overview: 'Bureau of International Labor Affairs is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Federal Government, International, Labor, Standards, and Child Labor.
 
 
-  Bureau of International Labor Affairs'' developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, and 20 more developer resources.'
+  Bureau of International Labor Affairs'' developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, and 22 more developer resources.'
 plans:
 - name: Bureau Of International Labor Affairs Plans Pricing
   plan_count: 1
@@ -190,17 +203,17 @@ rate_limits:
   slug: bureau-of-international-labor-affairs-rate-limits
 score:
   band: thin
-  composite: 27.9
+  composite: 26.3
   coverage:
     artifact_dirs: 18
-    catalog_earned: 56.0
+    catalog_earned: 53.0
     catalog_earned_first_party: 16.0
-    catalog_gap: 59.0
+    catalog_gap: 62.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 39.5
+    access_clarity: 31.6
     contract_governance: 18.2
     contract_quality: 6.5
     developer_ergonomics: 11.9
@@ -222,8 +235,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 26.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

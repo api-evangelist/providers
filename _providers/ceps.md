@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: CEPS publishes roughly 150 working papers, policy insights, reports and commentaries a year across some 20 policy topics, listed on the public publications page and filterable by topic. This entry was
@@ -45,6 +45,21 @@ apis:
   slug: ceps-events
 artifact_total: 6
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/ceps/refs/heads/main/plans/ceps-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/ceps-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/ceps/refs/heads/main/rate-limits/ceps-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/ceps-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/ceps/refs/heads/main/finops/ceps-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/ceps-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/ceps/refs/heads/main/security/ceps-domain-security.yml
   title: ''
@@ -121,19 +136,23 @@ coverage:
 created: '2026-01-02'
 description: 'Founded in Brussels in 1983, the Centre for European Policy Studies (CEPS) is a leading independent think tank and forum for debate on EU affairs, with strong in-house research capacity and an extensive network of partner institutes. CEPS conducts evidence-based policy research on European and global issues (Data Governance Act, Data Act, AI Act, climate, energy, migration, trade, defence, financial markets) and disseminates it through publications, events, task forces and podcasts rather than through any programmatic interface. CEPS publishes no API, SDK or developer program, and as of 2026-09-05 has no working machine-readable surface: the RSS feed this record once pointed at returns HTTP 500 ("No feed available") and is robots-disallowed, and no OpenAPI, AsyncAPI, GraphQL SDL, MCP server, A2A agent card or /.well-known/ document exists on any ceps.eu host. Following CEPS now means the newsletter or the HTML listings on ceps.eu.'
 finops:
-- name: Ceps Finops
+- has_sources: false
+  method: generated
+  name: Ceps Finops
+  primary_unit: ''
   service_category: API
   slug: ceps-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ceps.png
 layout: provider
 modified: '2026-09-05'
 name: CEPS (Centre for European Policy Studies)
 nav: Providers
 network: true
-overview: 'CEPS (Centre for European Policy Studies) publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Brussels, Data Governance, EU Policy, European Union, and Policy Research.
+overview: 'CEPS (Centre for European Policy Studies) is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Brussels, Data Governance, EU Policy, European Union, and Policy Research.
 
 
-  CEPS (Centre for European Policy Studies)''s developer surface includes product news, engineering blog, support, and 11 more developer resources.'
+  CEPS (Centre for European Policy Studies)''s developer surface includes product news, engineering blog, support, and 14 more developer resources.'
 plans:
 - name: Ceps Plans Pricing
   plan_count: 0
@@ -145,17 +164,17 @@ rate_limits:
   slug: ceps-rate-limits
 score:
   band: minimal
-  composite: 10.0
+  composite: 8.5
   coverage:
     artifact_dirs: 11
-    catalog_earned: 35.0
+    catalog_earned: 32.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 80.0
+    catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 18.4
+    access_clarity: 10.5
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
@@ -173,8 +192,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 9.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

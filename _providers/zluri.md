@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.1
-  scored_at: '2026-10-04'
+  score: 26.2
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -98,6 +98,21 @@ collections:
   name: Zluri Data Upload Webhooks API
   slug: open-zluri-webhooks-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/zluri/refs/heads/main/plans/zluri-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/zluri-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/zluri/refs/heads/main/rate-limits/zluri-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/zluri-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/zluri/refs/heads/main/finops/zluri-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/zluri-finops.yml
 - group: company
   title: ''
   type: Website
@@ -242,9 +257,13 @@ features:
 - name: Deprovisioning
 - name: Time Bound Access Controls
 finops:
-- name: Zluri Finops
+- has_sources: false
+  method: generated
+  name: Zluri Finops
+  primary_unit: ''
   service_category: API
   slug: zluri-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zluri.png
 json_schemas:
 - name: Zluri API Error
@@ -294,13 +313,13 @@ modified: '2026-05-19'
 name: Zluri
 nav: Providers
 network: true
-overview: 'Zluri publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Data Upload API, Instances API, Syncs API, and 1 more. Tagged areas include Access Management and SaaS Management.
+overview: 'Zluri publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Data Upload API, Instances API, Syncs API, and 1 more. Tagged areas include Identity and Access Management and SaaS Management.
 
 
   The Zluri catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Zluri''s developer surface includes authentication, engineering blog, and 22 more developer resources.'
+  Zluri''s developer surface includes authentication, engineering blog, and 25 more developer resources.'
 plans:
 - name: Zluri Plans Pricing
   plan_count: 3
@@ -311,9 +330,10 @@ rate_limits:
   name: Zluri Rate Limits
   slug: zluri-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Zluri API Rules
+  name: Zluri — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -321,10 +341,11 @@ rules:
     info: 1
     warn: 4
   slug: zluri-jsonschema-spectral-rules
-- effective_rule_count: 48
+- authorship: unmarked
+  effective_rule_count: 48
   extends:
   - spectral:oas
-  name: Zluri API Rules
+  name: Zluri — spectral rules
   rule_count: 7
   severity_counts:
     error: 3
@@ -334,17 +355,17 @@ rules:
   slug: zluri-spectral
 score:
   band: developing
-  composite: 47.9
+  composite: 46.4
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 59.0
+    artifact_dirs: 20
+    catalog_earned: 56.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 56.0
+    catalog_gap: 59.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 51.3
+    access_clarity: 43.4
     contract_governance: 27.3
     contract_quality: 67.7
     developer_ergonomics: 34.5
@@ -364,8 +385,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -383,14 +404,14 @@ security:
 - kind: vulnerability-disclosure
   name: Zluri Vulnerability Disclosure
   slug: zluri-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 - kind: trust-center
   name: Zluri Trust Center
   slug: zluri-trust-center
   summary_line: SOC 2, ISO 27001, PCI DSS, HIPAA, GDPR
 slug: zluri
 tags:
-- Access Management
+- Identity and Access Management
 - SaaS Management
 use_cases:
 - name: Identity Visibility

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -81,6 +81,21 @@ collections:
   name: Idle Finance Pools TVL API
   slug: open-idle-tvl-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/idle/refs/heads/main/plans/plans.yml
+  title: ''
+  type: Plans
+  url: plans/plans.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/idle/refs/heads/main/rate-limits/rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/idle/refs/heads/main/finops/finops.yml
+  title: ''
+  type: FinOps
+  url: finops/finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/idle/refs/heads/main/agentic-access/idle-agentic-access.yml
   title: ''
@@ -161,9 +176,13 @@ examples:
   name: Get Tvls
   slug: get-tvls
 finops:
-- name: Finops
+- has_sources: false
+  method: generated
+  name: Finops
+  primary_unit: ''
   service_category: ''
   slug: finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/idle.png
 json_schemas:
 - name: Pool
@@ -185,13 +204,13 @@ modified: '2026-06-14'
 name: Idle Finance
 nav: Providers
 network: true
-overview: 'Idle Finance publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Pools API, Rates API, TVL API, and 2 more. Tagged areas include DeFi, Yield Optimization, Finance, Crypto, and Staking.
+overview: 'Idle Finance publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Pools API, Rates API, TVL API, and 2 more. Tagged areas include DeFi, Yield Optimization, Finance, Cryptocurrency, and Staking.
 
 
   The Idle Finance catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Idle Finance''s developer surface includes authentication, documentation, status page, engineering blog, and 12 more developer resources.'
+  Idle Finance''s developer surface includes authentication, documentation, status page, engineering blog, and 15 more developer resources.'
 plans:
 - name: Plans
   plan_count: 3
@@ -202,9 +221,10 @@ rate_limits:
   name: Rate Limits
   slug: rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Idle Finance API Rules
+  name: Idle Finance — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -214,17 +234,17 @@ rules:
   slug: idle-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 33.0
+  composite: 27.4
   coverage:
     artifact_dirs: 16
-    catalog_earned: 59.1
+    catalog_earned: 48.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 56.0
+    catalog_gap: 66.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.6
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 9.8
     contract_quality: 56.5
     developer_ergonomics: 16.7
@@ -244,9 +264,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
@@ -266,7 +286,7 @@ tags:
 - DeFi
 - Yield Optimization
 - Finance
-- Crypto
+- Cryptocurrency
 - Staking
 - Governance
 - TVL

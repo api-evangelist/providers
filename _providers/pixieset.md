@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: high
+  gated: private
+  gated_source:
+  - tag:No Public API
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -9,7 +12,7 @@ access_model:
   - plans
   - authentication
   trial: false
-  try_now: true
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -34,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -48,26 +51,31 @@ apis:
   baseurl_source: declared
   description: Client and lead CRM records.
   name: Pixieset Clients API
+  provenance: unpublished
   slug: pixieset-clients-api
 - baseURL: https://studio.pixieset.com/api/v1
   baseurl_source: declared
   description: Gallery collections, access, and downloads.
   name: Pixieset Collections API
+  provenance: unpublished
   slug: pixieset-collections-api
 - baseURL: https://studio.pixieset.com/api/v1
   baseurl_source: declared
   description: Contracts and contract templates.
   name: Pixieset Contracts API
+  provenance: unpublished
   slug: pixieset-contracts-api
 - baseURL: https://studio.pixieset.com/api/v1
   baseurl_source: declared
   description: Invoices and payments.
   name: Pixieset Invoices API
+  provenance: unpublished
   slug: pixieset-invoices-api
 - baseURL: https://studio.pixieset.com/api/v1
   baseurl_source: declared
   description: Bookable session types, scheduling, and availability.
   name: Pixieset Sessions API
+  provenance: unpublished
   slug: pixieset-sessions-api
 artifact_total: 15
 collections:
@@ -90,6 +98,10 @@ collections:
   name: Pixieset Studio & Gallery API (Modeled, Unofficial) Clients Sessions API
   slug: open-pixieset-sessions-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.pixieset.com/feed/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/pixieset/refs/heads/main/capabilities/pixieset-capability-edges.yml
   title: ''
@@ -132,14 +144,14 @@ description: Pixieset is an all-in-one photography business platform - client ga
   shapes below are modeled from that third-party reverse-engineering effort, not from any Pixieset-published reference - treat them as unverified and subject to change or removal without notice.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pixieset.png
 layout: provider
-modified: '2026-07-04'
+modified: '2026-10-06'
 name: Pixieset
 nav: Providers
 network: true
-overview: 'Pixieset publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Clients API, Collections API, Contracts API, and 2 more. Tagged areas include Photography, Client Galleries, Studio Management, CRM, and Booking.
+overview: 'Pixieset publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Clients API, Collections API, and Contracts API. Tagged areas include Photography, Client Galleries, Studio Management, CRM, and Booking.
 
 
-  Pixieset''s developer surface includes authentication, documentation, and 6 more developer resources.'
+  Pixieset''s developer surface includes authentication, documentation, and 7 more developer resources.'
 plans:
 - name: Pixieset Plans Pricing
   plan_count: 8
@@ -147,17 +159,17 @@ plans:
 random_paper: 17
 score:
   band: emerging
-  composite: 25.6
+  composite: 21.5
   coverage:
-    artifact_dirs: 9
-    catalog_earned: 47.8
+    artifact_dirs: 11
+    catalog_earned: 40.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 67.2
+    catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -4.1
   facets:
-    access_clarity: 28.4
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 35.3
     developer_ergonomics: 28.6
@@ -177,8 +189,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -202,6 +214,5 @@ tags:
 - Booking
 - Invoicing
 - Contracts
-- No Public API
 website: https://pixieset.com
 ---

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: G2 Track, the SaaS spend management product BetterCloud acquired from G2 on 2024-03-12 and now sells as BetterCloud Spend Optimization — spend monitoring, contract tracking, license reclamation and us
@@ -41,6 +41,11 @@ apis:
   slug: g2-track
 artifact_total: 9
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/g2-track/refs/heads/main/finops/g2-track-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/g2-track-finops.yml
 - group: company
   title: ''
   type: Website
@@ -174,9 +179,13 @@ common:
 created: '2026-03-27'
 description: 'G2 Track was G2''s SaaS spend management product — a single view of purchased applications, users, contracts and license utilization, used by IT and finance teams to find shadow IT, reclaim unused licenses and benchmark contracts ahead of renewal. BetterCloud acquired the G2 Track product line from G2 on 2024-03-12 and sells it today as the BetterCloud Spend Optimization module of the BetterCloud SaaS management platform, alongside User Automation, Workspace Management for Google and File Governance. The standalone product is gone: g2track.com is now a parked ad-redirect page, and the surviving surfaces — pricing, status, documentation, support and the platform API — are BetterCloud''s. There is no G2 Track-specific API; the module is reached through the BetterCloud platform API at api.bettercloud.com, which BetterCloud documents on developer.bettercloud.com.'
 finops:
-- name: G2 Track Finops
+- has_sources: false
+  method: generated
+  name: G2 Track Finops
+  primary_unit: ''
   service_category: API
   slug: g2-track-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/g2-track.png
 layout: provider
 mcp_servers:
@@ -187,10 +196,10 @@ modified: '2026-09-12'
 name: G2 Track
 nav: Providers
 network: true
-overview: 'G2 Track publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Contract Management, SaaS Management, Spend Optimization, Shadow IT, and License Management.
+overview: 'G2 Track is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Contract Management, SaaS Management, Spend Optimization, Shadow IT, and License Management.
 
 
-  G2 Track''s developer surface includes documentation, API reference, pricing, signup flow, support, engineering blog, changelog, and 22 more developer resources.'
+  G2 Track''s developer surface includes documentation, API reference, pricing, signup flow, support, engineering blog, changelog, and 23 more developer resources.'
 plans:
 - name: G2 Track Plans Pricing
   plan_count: 2
@@ -202,17 +211,17 @@ rate_limits:
   slug: g2-track-rate-limits
 score:
   band: developing
-  composite: 45.4
+  composite: 43.9
   coverage:
     artifact_dirs: 15
-    catalog_earned: 48.0
+    catalog_earned: 45.0
     catalog_earned_first_party: 8.0
-    catalog_gap: 67.0
+    catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 89.5
+    access_clarity: 81.6
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 45.2
@@ -228,8 +237,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

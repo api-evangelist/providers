@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 0
 common:
@@ -56,7 +56,7 @@ modified: '2026-07-21'
 name: Wave Therapeutics
 nav: Providers
 network: true
-overview: 'Wave Therapeutics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, MedTech, Digital Health, and Longevity.
+overview: 'Wave Therapeutics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, Medical Technology, Digital Health, and Longevity.
 
 
   Wave Therapeutics'' developer surface includes engineering blog and 2 more developer resources.'
@@ -99,8 +99,8 @@ score:
     regime: Health
     regime_id: health
     score: 0.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -111,7 +111,7 @@ slug: wave-therapeutics
 tags:
 - Company
 - Medical Devices
-- MedTech
+- Medical Technology
 - Digital Health
 - Longevity
 - Pressure Injury Prevention

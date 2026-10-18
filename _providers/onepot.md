@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Programmatic access to onepot CORE for make-on-demand molecule discovery and synthesis. Run similarity (Tanimoto) and substructure (SMILES/SMARTS) search, optional retrosynthetic decomposition with bu
@@ -118,7 +118,7 @@ modified: '2026-07-20'
 name: Onepot
 nav: Providers
 network: true
-overview: 'Onepot publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Chemistry, Cheminformatics, Drug Discovery, and Small Molecule Synthesis.
+overview: 'Onepot is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Chemistry, Cheminformatics, Drug Discovery, and Small Molecule Synthesis.
 
 
   Onepot''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, and 10 more developer resources.'
@@ -158,8 +158,8 @@ score:
     regime: Health
     regime_id: health
     score: 8.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

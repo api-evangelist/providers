@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -122,6 +122,10 @@ collections:
   name: Price Lab Authentication Users API
   slug: open-price-lab-users-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://pricelabsolutions.com/feed/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/price-lab/refs/heads/main/capabilities/price-lab-capability-edges.yml
   title: ''
@@ -232,26 +236,26 @@ created: '2026-07-17'
 description: Price Lab (Price Lab Solutions) is a Latin American retail pricing intelligence platform that helps retailers and e-commerce merchants monitor competitor prices, analyze pricing KPIs, and apply AI-driven price optimization across their catalog and store network. The platform pairs competitor price scraping and competitive pricing policies with a recommendation engine, bulk data ingestion (sales, stock, replenishment, offers, and competitor prices), and electronic shelf label (ESL) management with flash strategies. Its production REST API, documented at price-lab.readme.io and hosted at backend.pricelab.com.pe, exposes product and category master data, batch price and cost updates, competitor price exports, recommendation accept/reject flows, and store-level price management, all secured with JWT bearer authentication.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/price-lab.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Price Lab
 nav: Providers
 network: true
-overview: 'Price Lab publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Categories API, Competitor Pricing API, and 6 more. Tagged areas include Company, Pricing, Retail, E-Commerce, and Competitive Intelligence.
+overview: 'Price Lab publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authentication API, Categories API, Competitor Pricing API, and 6 more. Tagged areas include Company, Pricing, Retail, E-Commerce, and Competitive Intelligence.
 
 
-  Price Lab''s developer surface includes authentication, documentation, API reference, engineering blog, support, signup flow, and 17 more developer resources.'
+  Price Lab''s developer surface includes authentication, documentation, API reference, engineering blog, support, signup flow, and 18 more developer resources.'
 random_paper: 21
 score:
   band: thin
-  composite: 32.5
+  composite: 32.6
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 27.6
     contract_governance: 4.5
@@ -281,8 +285,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

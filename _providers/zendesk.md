@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 294
-  human_in_the_loop: 11
+- acting_count: 260
+  human_in_the_loop: 10
   name: Zendesk Agentic Access
-  operation_count: 595
+  operation_count: 521
   slug: zendesk-agentic-access
-  summary_line: 595 operations · 294 acting · 11 human-in-the-loop
+  summary_line: 521 operations · 260 acting · 10 human-in-the-loop
 api_count: 76
 apis:
 - description: The Zendesk Help Center Articles API lets you programmatically manage knowledge base articles in your Help Center. You can create, read, update, and delete articles, manage their translations, set use
@@ -2552,6 +2552,11 @@ collections:
   name: Zendesk Account Account Settings X Channel API
   slug: open-zendesk-x-channel-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/finops/zendesk-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/zendesk-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/vendor-facets/zendesk-vendor-facets.yml
   title: ''
@@ -2945,9 +2950,13 @@ features:
 - description: Event-driven webhooks and a marketplace of integrations for connecting Zendesk with third-party tools.
   name: Webhooks and Integrations
 finops:
-- name: Zendesk Finops
+- has_sources: true
+  method: generated
+  name: Zendesk Finops
+  primary_unit: ''
   service_category: Customer Service / Support
   slug: zendesk-finops
+  template: false
 graphqls:
 - description: The Zendesk Chat Conversations API lets your application act as a Zendesk Chat agent and interact with customers. It is a GraphQL API that supports WebSocket connections for real-time message exchange
   name: Zendesk GraphQL API
@@ -3070,13 +3079,13 @@ modified: '2026-06-20'
 name: Zendesk
 nav: Providers
 network: true
-overview: 'Zendesk publishes 150 APIs on the [APIs.io](https://apis.io/) network, including Webhooks API, Account Settings API, Activity Stream API, and 147 more. Tagged areas include Chat, CRM, Help Center, Sell, and Support.
+overview: 'Zendesk publishes 150 API contracts indexed on the [APIs.io](https://apis.io/) network, including Webhooks API, Account Settings API, Activity Stream API, and 147 more. Tagged areas include Chat, CRM, Help Center, Sell, and Support.
 
 
   The Zendesk catalog on APIs.io includes 1 event-driven AsyncAPI specification, 2 JSON-LD contexts, and 3 Spectral governance rulesets.
 
 
-  Zendesk''s developer surface includes pricing, authentication, changelog, CLI, engineering blog, signup flow, training material, and 65 more developer resources.'
+  Zendesk''s developer surface includes pricing, authentication, changelog, CLI, engineering blog, signup flow, training material, and 66 more developer resources.'
 plans:
 - name: Zendesk Plans Pricing
   plan_count: 7
@@ -3090,10 +3099,11 @@ rate_limits:
   name: Zendesk Rate Limits
   slug: zendesk-rate-limits
 rules:
-- effective_rule_count: 35
+- authorship: generated
+  effective_rule_count: 35
   extends:
   - spectral:asyncapi
-  name: Zendesk API Rules
+  name: Zendesk — asyncapi rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -3101,9 +3111,10 @@ rules:
     info: 0
     warn: 7
   slug: zendesk-asyncapi-spectral-rules
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Zendesk API Rules
+  name: Zendesk — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -3111,7 +3122,8 @@ rules:
     info: 1
     warn: 4
   slug: zendesk-jsonschema-spectral-rules
-- effective_rule_count: 57
+- authorship: generated
+  effective_rule_count: 57
   extends:
   - spectral:oas
   name: Zendesk API Rules
@@ -3129,23 +3141,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 72.7
+  composite: 71.2
   coverage:
-    artifact_dirs: 38
-    catalog_earned: 76.5
+    artifact_dirs: 39
+    catalog_earned: 73.5
     catalog_earned_first_party: 24.0
-    catalog_gap: 38.5
+    catalog_gap: 41.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -1.5
   facets:
-    access_clarity: 92.1
+    access_clarity: 84.2
     contract_governance: 18.2
     contract_quality: 53.0
     developer_ergonomics: 58.3
     discoverability: 71.4
     operational_transparency: 78.9
-  previous_composite: 72.2
+  previous_composite: 72.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -3161,8 +3173,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -35,10 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.concertai.com/blog/rss.xml
 - group: company
   title: ''
   type: Website
@@ -132,14 +136,14 @@ created: '2026-08-09'
 description: ConcertAI is a healthcare AI and real-world data company serving oncology and other complex disease areas. Founded in 2018 and headquartered in Boston and Plymouth Meeting, Pennsylvania, it combines curated real-world clinical, genomic and imaging data with applied AI for life sciences, biopharma and provider organizations. Its portfolio includes the CARA AI engine, the Precision Suite (Precision360, Precision Explorer, Translational360, Patient360), the CancerLinQ Suite acquired from ASCO, clinical trial products (ACT, TriaLinQ, Precision Trials), commercial products (Cadence Suite, Data Foundry, Precision GTM), and the TeraRecon enterprise imaging and Eureka Clinical AI platform. ConcertAI publishes no public developer portal, API reference or machine-readable specification; platform access is through the authenticated Precision application and integration is arranged through a partner/sales motion.
 image: https://www.concertai.com/hubfs/ConcertAI%20Cover%202%20(1).png
 layout: provider
-modified: '2026-08-09'
+modified: '2026-10-06'
 name: ConcertAI
 nav: Providers
 network: true
 overview: 'ConcertAI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Oncology, Artificial Intelligence, and Real-World Data.
 
 
-  ConcertAI''s developer surface includes engineering blog, support, product news, authentication, and 13 more developer resources.'
+  ConcertAI''s developer surface includes engineering blog, support, product news, authentication, and 14 more developer resources.'
 random_paper: 6
 scopes:
 - name: Concertai Scopes
@@ -184,8 +188,8 @@ score:
     regime: Health
     regime_id: health
     score: 30.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

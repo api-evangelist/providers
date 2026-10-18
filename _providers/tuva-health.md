@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: The core open-source Tuva dbt package that transforms healthcare data from the Tuva Input Layer into the Tuva Core Data Model and Data Marts, including data-quality tests, normalization, claims prepro
@@ -91,6 +91,15 @@ apis:
   slug: tuva-health-users-api
 artifact_total: 15
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/tuva-health/refs/heads/main/rate-limits/tuva-health-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/tuva-health-rate-limits.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.tuvahealth.com/news
 - group: commercial
   title: ''
   type: License
@@ -244,14 +253,14 @@ description: 'Tuva Health, Inc. is a United States healthcare data company behin
   documented OpenAPI 3.0.3 contract - but that too is customer-deployed from OCI images, so there is no Tuva-operated API host. The company pairs the open-source project with a commercial Core Platform and named services. Home market is the United States.'
 image: https://www.tuvahealth.com/img/TuvaHealthLogo-White@4x.png
 layout: provider
-modified: '2026-09-16'
+modified: '2026-10-06'
 name: Tuva Health
 nav: Providers
 network: true
-overview: 'Tuva Health publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Config API, Data Sources API, Check API, and 8 more. Tagged areas include Healthcare, United States, Health Data, FHIR, and Interoperability.
+overview: 'Tuva Health publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Config API, Data Sources API, Check API, and 8 more. Tagged areas include Healthcare, United States, Health Data, FHIR, and Interoperability.
 
 
-  Tuva Health''s developer surface includes documentation, getting-started guide, changelog, engineering blog, support, API reference, authentication, and 26 more developer resources.'
+  Tuva Health''s developer surface includes engineering blog, documentation, getting-started guide, changelog, support, API reference, authentication, and 28 more developer resources.'
 plans:
 - name: Tuva Health Plans Pricing
   plan_count: 0
@@ -263,15 +272,15 @@ rate_limits:
   slug: tuva-health-rate-limits
 score:
   band: developing
-  composite: 41.9
+  composite: 42.0
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 21.1
     contract_governance: 18.2
@@ -302,8 +311,8 @@ score:
     regime: Health
     regime_id: health
     score: 19.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -108,6 +108,21 @@ collections:
   name: Luma Dream Machine API
   slug: open-luma-labs
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/luma-labs/refs/heads/main/plans/luma-labs-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/luma-labs-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/luma-labs/refs/heads/main/rate-limits/luma-labs-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/luma-labs-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/luma-labs/refs/heads/main/finops/luma-labs-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/luma-labs-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/luma-labs/refs/heads/main/agentic-access/luma-labs-agentic-access.yml
   title: ''
@@ -170,19 +185,23 @@ common:
 created: '2026-05-23'
 description: Luma AI is a generative media company best known for Dream Machine, a family of image and video models including Ray (video), Photon and Photon Flash (image). The Dream Machine API gives developers access to text-to-video, image-to-video, image generation, upscaling, video modification with style transfer, reframing, audio attachment, and concept controls. Luma serves creators, agencies, and product teams building generative media features, and monetizes through consumer subscription tiers (Plus, Pro, Ultra), team and enterprise plans, and a credit-based developer API.
 finops:
-- name: Luma Labs Finops
+- has_sources: false
+  method: generated
+  name: Luma Labs Finops
+  primary_unit: ''
   service_category: API
   slug: luma-labs-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/luma-labs.png
 layout: provider
 modified: '2026-05-23'
 name: Luma AI
 nav: Providers
 network: true
-overview: 'Luma AI publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Concepts API, Credits API, Generations API, and 5 more. Tagged areas include Artificial Intelligence, Generative AI, Video, Image, and Text-to-Video.
+overview: 'Luma AI publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Concepts API, Credits API, Generations API, and 5 more. Tagged areas include Artificial Intelligence, Generative AI, Video, Image, and Video Generation.
 
 
-  Luma AI''s developer surface includes authentication, documentation, engineering blog, pricing, and 10 more developer resources.'
+  Luma AI''s developer surface includes authentication, documentation, engineering blog, pricing, and 13 more developer resources.'
 plans:
 - name: Luma Labs Plans Pricing
   plan_count: 1
@@ -193,23 +212,23 @@ rate_limits:
   name: Luma Labs Rate Limits
   slug: luma-labs-rate-limits
 score:
-  band: developing
-  composite: 43.8
+  band: thin
+  composite: 37.4
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 54.4
+    artifact_dirs: 13
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 60.6
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.4
   facets:
-    access_clarity: 71.6
+    access_clarity: 50.0
     contract_governance: 0.0
     contract_quality: 45.3
     developer_ergonomics: 41.7
     discoverability: 73.2
-    operational_transparency: 21.6
+    operational_transparency: 7.9
   previous_composite: 43.8
   provenance:
     agentic_access: derived
@@ -220,13 +239,13 @@ score:
       total: 6
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 18.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0
@@ -246,7 +265,7 @@ tags:
 - Generative AI
 - Video
 - Image
-- Text-to-Video
+- Video Generation
 - Image-to-Video
 - Upscaling
 - Reframing

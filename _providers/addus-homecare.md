@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 4
 common:
@@ -155,9 +155,13 @@ created: '2026-04-19'
 description: 'Addus HomeCare Corporation (NASDAQ: ADUS) is a US provider of personal care, home health and hospice services delivered in the home and community, headquartered at 6303 Cowboys Way, Frisco, Texas. It serves consumers across roughly three dozen states through a large field workforce of caregivers, nurses and therapists, with revenue coming predominantly from Medicaid and Medicaid-managed-care programs, Medicare and managed-care payers rather than from software. Addus is a care-delivery organization, not a software vendor: contract discovery on 2026-08-30 found no developer program, no public API, no SDK, no published package on any registry and no machine-readable contract of any kind. Its clinical and operational systems are supplied by partners — Homecare Homebase for the home-based care platform under a joint development agreement announced in April 2021, and CellTrak for Electronic Visit Verification — and any system-to-system exchange (HL7, payer X12 EDI, state EVV aggregators)
   is scoped by partner contract rather than by a public developer portal. Two earlier hosts on this profile, api.addus.com and developer.addus.com, were probed and do not resolve; they have been removed.'
 finops:
-- name: Addus Homecare Finops
+- has_sources: true
+  method: generated
+  name: Addus Homecare Finops
+  primary_unit: ''
   service_category: Home Care / Hospice / Home Health Services
   slug: addus-homecare-finops
+  template: false
 image: /assets/icons/addus-homecare.png
 layout: provider
 modified: '2026-08-30'
@@ -179,17 +183,17 @@ rate_limits:
   slug: addus-homecare-rate-limits
 score:
   band: emerging
-  composite: 15.4
+  composite: 13.8
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 30.0
+    artifact_dirs: 12
+    catalog_earned: 27.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 85.0
+    catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 28.9
+    access_clarity: 21.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 7.1
@@ -204,8 +208,8 @@ score:
     regime: Health
     regime_id: health
     score: 19.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

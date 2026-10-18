@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: Coated groundwood and coated freesheet paper grades used by magazine publishers, catalog retailers, and commercial printers. Legacy Verso brands and grades are now produced and sold through Billerud A
@@ -46,6 +46,10 @@ apis:
   slug: verso-pulp
 artifact_total: 17
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.billerud.com/press--news/news
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/verso/refs/heads/main/security/verso-vulnerability-disclosure.yml
   title: ''
@@ -84,15 +88,18 @@ integrations:
 - description: Former Verso mill network in Wisconsin, Michigan, and Minnesota now sits inside Billerud's global pulp and paper portfolio alongside European operations focused on primary fiber-based packaging materials.
   name: Billerud Global Operations
 layout: provider
-modified: '2026-05-22'
+modified: '2026-10-06'
 name: Verso Corporation
 nav: Providers
 network: true
-overview: Verso Corporation publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Paper, Coated Paper, Specialty Paper, Pulp, and Manufacturing.
+overview: 'Verso Corporation is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Paper, Coated Paper, Specialty Paper, Pulp, and Manufacturing.
+
+
+  Verso Corporation''s developer surface includes engineering blog and 4 more developer resources.'
 random_paper: 9
 score:
   band: minimal
-  composite: 7.6
+  composite: 8.1
   coverage:
     artifact_dirs: 4
     catalog_earned: 35.0
@@ -100,12 +107,12 @@ score:
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 9.5
+    developer_ergonomics: 11.9
     discoverability: 62.5
     operational_transparency: 0.0
   jurisdiction:
@@ -122,8 +129,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

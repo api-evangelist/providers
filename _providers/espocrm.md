@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: API reference for EspoCRM, providing CRUD operations for CRM entities.
@@ -31,6 +31,10 @@ apis:
   slug: espocrm-api
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.espocrm.com/feed/
 - group: commercial
   title: ''
   type: PrivacyPolicy
@@ -84,20 +88,20 @@ created: '2026-09-21'
 description: EspoCRM is an open-source Customer Relationship Management (CRM) platform that enables businesses to manage their sales, marketing, and customer support processes. It offers a flexible, customizable solution with features such as lead management, opportunity tracking, activity streams, and integration capabilities. EspoCRM provides a modern web interface, role-based access control, and extensible architecture through extensions and API access, allowing developers to build custom workflows and integrate with external services. The platform is designed for small to medium-sized enterprises seeking a cost-effective, self-hosted CRM solution.
 image: http://www.espocrm.com/images/free-crm-social.jpg
 layout: provider
-modified: '2026-09-21'
+modified: '2026-10-06'
 name: EspoCRM
 nav: Providers
 network: true
-overview: 'EspoCRM publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, CRM, Open Source, Sales, and Marketing.
+overview: 'EspoCRM is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, CRM, Open Source, Sales, and Marketing.
 
 
-  EspoCRM''s developer surface includes pricing, changelog, documentation, API reference, support, engineering blog, and 4 more developer resources.'
+  EspoCRM''s developer surface includes pricing, changelog, documentation, API reference, support, engineering blog, and 5 more developer resources.'
 random_paper: 13
 score:
   band: emerging
   composite: 18.6
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 8
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -120,13 +124,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/espocrm/refs/heads/main/screenshots/espocrm-2026-10-11T104301.png
 security:
 - kind: domain-security
   name: Espocrm Domain Security

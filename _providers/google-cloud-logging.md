@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 46.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 10
+- acting_count: 9
   human_in_the_loop: 0
   name: Google Cloud Logging Agentic Access
   operation_count: 15
   slug: google-cloud-logging-agentic-access
-  summary_line: 15 operations · 10 acting
+  summary_line: 15 operations · 9 acting
 api_count: 1
 apis:
 - baseURL: https://logging.googleapis.com
@@ -444,9 +444,13 @@ common:
 created: '2024-01-01'
 description: Google Cloud Logging is a fully managed, real-time log management service that ingests, stores, searches, analyzes, routes and alerts on application and system log data at scale across Google Cloud, AWS and on-premises environments. The v2 API writes log entries and manages the configuration surface behind them — log buckets and views, Log Router sinks and exclusions, logs-based metrics, log scopes, linked BigQuery datasets and CMEK settings. Google publishes it as a Discovery document with 254 methods, as first-party gRPC service definitions, through seven official client libraries and the gcloud logging command group, and — since April 2026 — through a fully managed remote MCP server at logging.googleapis.com/mcp that exposes six read-only tools to agents.
 finops:
-- name: Google Cloud Logging Finops
+- has_sources: false
+  method: generated
+  name: Google Cloud Logging Finops
+  primary_unit: ''
   service_category: API
   slug: google-cloud-logging-finops
+  template: true
 layout: provider
 mcp_servers:
 - description: Remote MCP server at logging.googleapis.com over HTTP requiring OAuth; 6 tools listed.
@@ -456,7 +460,7 @@ modified: '2026-09-16'
 name: Google Cloud Logging
 nav: Providers
 network: true
-overview: 'Google Cloud Logging publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Bucket API, Buckets API, Entries:copy API, and 6 more. Tagged areas include Cloud, Logging, Monitoring, Observability, and Telemetry.
+overview: 'Google Cloud Logging publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Bucket API, Buckets API, Entries:copy API, and 6 more. Tagged areas include Cloud, Logging, Monitoring, Observability, and Telemetry.
 
 
   Google Cloud Logging''s developer surface includes authentication, developer portal, getting-started guide, support, engineering blog, changelog, documentation, and 48 more developer resources.'
@@ -475,18 +479,18 @@ scopes:
   slug: google-cloud-logging-scopes
   summary_line: 5 scopes · authorizationCode
 score:
-  band: exemplar
-  composite: 67.4
+  band: strong
+  composite: 65.9
   coverage:
     artifact_dirs: 29
-    catalog_earned: 58.0
+    catalog_earned: 55.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 57.0
+    catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 76.3
+    access_clarity: 68.4
     contract_governance: 18.2
     contract_quality: 46.2
     developer_ergonomics: 82.7
@@ -509,8 +513,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

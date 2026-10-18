@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -97,6 +97,21 @@ collections:
   name: Helm Chart ChartMuseum Repository API
   slug: open-helm-repository-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/helm/refs/heads/main/plans/helm-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/helm-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/helm/refs/heads/main/rate-limits/helm-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/helm-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/helm/refs/heads/main/finops/helm-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/helm-finops.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -188,9 +203,13 @@ common:
 created: '2025'
 description: Package manager for Kubernetes that helps you define, install, and upgrade complex Kubernetes applications using charts. Helm uses a packaging format called charts, which are collections of files that describe a related set of Kubernetes resources. A chart repository is an HTTP server that houses an index.yaml file and packaged chart archives.
 finops:
-- name: Helm Finops
+- has_sources: true
+  method: generated
+  name: Helm Finops
+  primary_unit: ''
   service_category: Open Source / DevOps
   slug: helm-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/helm.png
 json_schemas:
 - name: Helm Chart.yaml
@@ -215,13 +234,13 @@ modified: '2026-05-19'
 name: Helm
 nav: Providers
 network: true
-overview: 'Helm publishes 10 APIs on the [APIs.io](https://apis.io/) network, including ChartMuseum API, Charts API, Repository API, and 7 more. Tagged areas include Helm, Charts, Cloud-Native, Container Orchestration, and DevOps.
+overview: 'Helm publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including ChartMuseum API, Charts API, Repository API, and 7 more. Tagged areas include Helm, Charts, Cloud-Native, Container Orchestration, and DevOps.
 
 
   The Helm catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Helm''s developer surface includes documentation, getting-started guide, engineering blog, changelog, and 17 more developer resources.'
+  Helm''s developer surface includes documentation, getting-started guide, engineering blog, changelog, and 20 more developer resources.'
 plans:
 - name: Helm Plans Pricing
   plan_count: 1
@@ -232,9 +251,10 @@ rate_limits:
   name: Helm Rate Limits
   slug: helm-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: Helm API Rules
+  name: Helm — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -244,17 +264,17 @@ rules:
   slug: helm-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 40.7
+  composite: 39.3
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 55.7
+    artifact_dirs: 14
+    catalog_earned: 52.7
     catalog_earned_first_party: 0.0
-    catalog_gap: 59.4
+    catalog_gap: 62.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.4
   facets:
-    access_clarity: 13.2
+    access_clarity: 5.3
     contract_governance: 9.8
     contract_quality: 54.0
     developer_ergonomics: 35.7
@@ -277,8 +297,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

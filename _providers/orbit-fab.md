@@ -33,10 +33,18 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 4.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.orbitfab.com/news/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.orbitfab.com/news/feed/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/orbit-fab/refs/heads/main/a2a/orbit-fab-a2a.yml
   title: ''
@@ -53,31 +61,31 @@ common:
 created: '2026-07-17'
 description: Orbit Fab is a company surfaced as a portfolio company of techstars and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
 layout: provider
-modified: '2026-07-17'
+modified: '2026-10-06'
 name: Orbit Fab
 nav: Providers
 network: true
 overview: 'Orbit Fab is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and A2A.
 
 
-  Orbit Fab''s developer surface includes support and 2 more developer resources.'
+  Orbit Fab''s developer surface includes engineering blog, support, and 3 more developer resources.'
 random_paper: 6
 score:
   band: minimal
-  composite: 1.3
+  composite: 1.8
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 15.0
     catalog_earned_first_party: 0.0
     catalog_gap: 100.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 4.8
+    developer_ergonomics: 7.1
     discoverability: 26.8
     operational_transparency: 0.0
   previous_composite: 1.3
@@ -87,8 +95,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 0.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 6
 apis:
 - description: VS Code, JetBrains (IntelliJ, PhpStorm, etc.), and Eclipse plugins surfacing autocomplete, chat, and agentic workflows. Communicates with Tabnine's hosted or self-hosted backend over a proprietary pro
@@ -217,9 +217,13 @@ coverage:
 created: '2026-05-08'
 description: Tabnine provides AI code completion, chat, and agentic workflows across IDEs and CLI, with strong support for SaaS, VPC, and air-gapped on-prem deployments. The Enterprise Context Engine indexes a customer's codebase, dependencies, and architecture. Tabnine's consumer surface is via IDE plugins (VS Code, JetBrains, Eclipse) and the Tabnine CLI; there is no general-purpose public REST inference API for end-developers.
 finops:
-- name: Tabnine Finops
+- has_sources: true
+  method: generated
+  name: Tabnine Finops
+  primary_unit: ''
   service_category: AI
   slug: tabnine-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tabnine.png
 json_schemas:
 - name: GetGroupsIdResponse
@@ -250,7 +254,7 @@ modified: '2026-05-08'
 name: Tabnine
 nav: Providers
 network: true
-overview: 'Tabnine publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Groups API, Main API, Schemas API, and 3 more. Tagged areas include Artificial Intelligence, Developer Tools, Code Completion, Self-Hosted, and Enterprise.
+overview: 'Tabnine is listed with 6 APIs on the [APIs.io](https://apis.io/) network, including Groups API, Main API, Schemas API, and 3 more. Tagged areas include Artificial Intelligence, Developer Tools, Code Completion, Self-Hosted, and Enterprise.
 
 
   The Tabnine catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
@@ -267,7 +271,8 @@ rate_limits:
   name: Tabnine Rate Limits
   slug: tabnine-rate-limits
 rules:
-- effective_rule_count: 51
+- authorship: generated
+  effective_rule_count: 51
   extends:
   - spectral:oas
   name: Tabnine API Rules
@@ -280,23 +285,23 @@ rules:
   slug: tabnine-rules
 score:
   band: developing
-  composite: 42.8
+  composite: 41.3
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 64.8
+    artifact_dirs: 23
+    catalog_earned: 61.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 50.3
+    catalog_gap: 53.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 28.3
+  delta: -15.2
   facets:
-    access_clarity: 50.0
+    access_clarity: 42.1
     contract_governance: 22.0
     contract_quality: 30.0
     developer_ergonomics: 40.5
     discoverability: 73.2
     operational_transparency: 47.4
-  previous_composite: 14.5
+  previous_composite: 56.5
   provenance:
     conformance: derived
     contracts:
@@ -311,9 +316,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: rising
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://bhub.com/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/bhub/refs/heads/main/security/bhub-domain-security.yml
   title: ''
@@ -74,26 +78,26 @@ created: '2026-07-17'
 description: BHub (bhub.com) is a Brazilian accounting and financial back-office company serving small and medium-sized businesses across Brazil. It combines bookkeeping and tax accounting (contabilidade), financial business-process outsourcing (BPO financeiro) covering accounts payable/receivable and reconciliation, tax consulting (consultoria tributaria), and corporate/legal structuring (societario), delivered through its online client hub at app.bhub.ai. Specialized divisions Agrocontar (agribusiness) and Quality Associados (nonprofit/third sector) extend its sector coverage. Backed by QED Investors, BHub reports processing tens of millions of invoices and reconciling billions of reais annually. This profile was added to the API Evangelist network as a fintech portfolio lead; BHub currently exposes an internal application backend (api.bhub.com) but publishes no public developer API, SDKs, or API documentation.
 image: https://app.bhub.ai/favicon.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Bhub
 nav: Providers
 network: true
 overview: 'Bhub is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Accounting, BPO, and Brazil.
 
 
-  Bhub''s developer surface includes engineering blog, support, and 6 more developer resources.'
+  Bhub''s developer surface includes engineering blog, support, and 7 more developer resources.'
 random_paper: 21
 score:
   band: emerging
-  composite: 12.2
+  composite: 12.3
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 27.6
     contract_governance: 0.0
@@ -115,8 +119,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

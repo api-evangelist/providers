@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -92,6 +92,21 @@ collections:
   name: Jupiter Swap API
   slug: open-jupiter-ag
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/jupiter-ag/refs/heads/main/plans/jupiter-ag-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/jupiter-ag-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/jupiter-ag/refs/heads/main/rate-limits/jupiter-ag-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/jupiter-ag-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/jupiter-ag/refs/heads/main/finops/jupiter-ag-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/jupiter-ag-finops.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -142,19 +157,23 @@ common:
 created: '2026-05-23'
 description: Jupiter is the liquidity infrastructure powering the majority of DeFi on Solana. It aggregates spot DEXes, runs leveraged perpetuals, supports limit orders, dollar cost averaging, lending and flash loans, prediction markets, and a token launchpad. Developers integrate via production-grade REST APIs at api.jup.ag (and the rate- limited lite-api.jup.ag) covering Swap, Tokens, Price, Lend, Trigger (limit orders), Recurring (DCA), Perps, and Prediction, all behind a single API key. Open-source SDKs and the Jupiter Terminal embed widget extend the platform to wallets, exchanges, and apps.
 finops:
-- name: Jupiter Ag Finops
+- has_sources: false
+  method: generated
+  name: Jupiter Ag Finops
+  primary_unit: ''
   service_category: API
   slug: jupiter-ag-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/jupiter-ag.png
 layout: provider
 modified: '2026-05-23'
 name: Jupiter
 nav: Providers
 network: true
-overview: 'Jupiter publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Swap API, and 10 more. Tagged areas include Solana, DeFi, DEX Aggregator, Swap, and Perpetuals.
+overview: 'Jupiter publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Swap API, and 10 more. Tagged areas include Solana, DeFi, DEX Aggregator, Swap, and Perpetuals.
 
 
-  Jupiter''s developer surface includes authentication, documentation, GitHub presence, engineering blog, and 7 more developer resources.'
+  Jupiter''s developer surface includes authentication, documentation, GitHub presence, engineering blog, and 10 more developer resources.'
 plans:
 - name: Jupiter Ag Plans Pricing
   plan_count: 1
@@ -165,23 +184,23 @@ rate_limits:
   name: Jupiter Ag Rate Limits
   slug: jupiter-ag-rate-limits
 score:
-  band: thin
-  composite: 31.3
+  band: emerging
+  composite: 25.3
   coverage:
     artifact_dirs: 11
-    catalog_earned: 54.4
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 60.6
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.0
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 49.0
     developer_ergonomics: 26.2
     discoverability: 66.1
-    operational_transparency: 24.2
+    operational_transparency: 10.5
   previous_composite: 31.3
   provenance:
     agentic_access: derived
@@ -196,9 +215,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.3
-  scored_at: '2026-10-04'
+  score: 15.4
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -84,6 +84,21 @@ collections:
   name: Zipkin API
   slug: open-apache-zipkin
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/apache-zipkin/refs/heads/main/plans/apache-zipkin-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/apache-zipkin-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/apache-zipkin/refs/heads/main/rate-limits/apache-zipkin-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/apache-zipkin-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/apache-zipkin/refs/heads/main/finops/apache-zipkin-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/apache-zipkin-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/apache-zipkin/refs/heads/main/capabilities/apache-zipkin-capability-edges.yml
   title: ''
@@ -167,9 +182,13 @@ features:
 - description: Standard B3 trace propagation headers for distributed context passing across services.
   name: B3 Propagation
 finops:
-- name: Apache Zipkin Finops
+- has_sources: false
+  method: generated
+  name: Apache Zipkin Finops
+  primary_unit: ''
   service_category: API
   slug: apache-zipkin-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/apache-zipkin.png
 integrations:
 - description: Spring Boot auto-instrumentation for trace propagation and Zipkin reporting.
@@ -189,10 +208,10 @@ modified: '2026-04-19'
 name: Apache Zipkin
 nav: Providers
 network: true
-overview: 'Apache Zipkin publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Autocomplete API, Services API, Spans API, and 1 more. Tagged areas include Distributed Tracing, Microservices, Monitoring, Observability, and Open Source.
+overview: 'Apache Zipkin publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Autocomplete API, Services API, Spans API, and 1 more. Tagged areas include Distributed Tracing, Microservices, Monitoring, Observability, and Open Source.
 
 
-  Apache Zipkin''s developer surface includes documentation, developer portal, getting-started guide, release notes, support, and 11 more developer resources.'
+  Apache Zipkin''s developer surface includes documentation, developer portal, getting-started guide, release notes, support, and 14 more developer resources.'
 plans:
 - name: Apache Zipkin Plans Pricing
   plan_count: 3
@@ -204,17 +223,17 @@ rate_limits:
   slug: apache-zipkin-rate-limits
 score:
   band: thin
-  composite: 37.1
+  composite: 35.7
   coverage:
     artifact_dirs: 9
-    catalog_earned: 41.0
+    catalog_earned: 38.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.4
   facets:
-    access_clarity: 26.3
+    access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 39.0
     developer_ergonomics: 38.1
@@ -237,8 +256,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 9.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

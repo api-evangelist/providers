@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 5
 apis:
 - description: 'Comprehensive list of DLA business applications used to work with the agency, including supply, contracting, distribution, disposition, fuel, and energy systems. The catalog provides links, contacts, '
@@ -53,6 +53,21 @@ apis:
   slug: defense-logistics-agency-energy
 artifact_total: 9
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/defense-logistics-agency/refs/heads/main/plans/defense-logistics-agency-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/defense-logistics-agency-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/defense-logistics-agency/refs/heads/main/rate-limits/defense-logistics-agency-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/defense-logistics-agency-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/defense-logistics-agency/refs/heads/main/finops/defense-logistics-agency-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/defense-logistics-agency-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/defense-logistics-agency/refs/heads/main/security/defense-logistics-agency-domain-security.yml
   title: ''
@@ -89,19 +104,23 @@ common:
 created: '2024-12-03'
 description: The Defense Logistics Agency (DLA) is the U.S. Department of Defense combat support agency that manages a global supply chain spanning roughly five million items in nine supply chains plus storage, distribution, fuel, construction, and disposition missions. DLA operates an extensive catalog of business applications used by suppliers, the military services, and federal partners. Most DLA applications require account registration and operate behind authentication; public-facing surfaces include the DLA Internet Bid Board System (DIBBS), the DLA Disposition Services storefront, the FedMall procurement marketplace, and federated logistics search tools.
 finops:
-- name: Defense Logistics Agency Finops
+- has_sources: false
+  method: generated
+  name: Defense Logistics Agency Finops
+  primary_unit: ''
   service_category: API
   slug: defense-logistics-agency-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/defense-logistics-agency.png
 layout: provider
 modified: '2026-04-28'
 name: Defense Logistics Agency
 nav: Providers
 network: true
-overview: 'Defense Logistics Agency publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Acquisition, Defense, Department of Defense, DLA, and Federal Government.
+overview: 'Defense Logistics Agency is listed with 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Acquisition, Defense, Department of Defense, DLA, and Federal Government.
 
 
-  Defense Logistics Agency''s developer surface includes documentation, product news, and 6 more developer resources.'
+  Defense Logistics Agency''s developer surface includes documentation, product news, and 9 more developer resources.'
 plans:
 - name: Defense Logistics Agency Plans Pricing
   plan_count: 3
@@ -113,17 +132,17 @@ rate_limits:
   slug: defense-logistics-agency-rate-limits
 score:
   band: emerging
-  composite: 14.0
+  composite: 12.4
   coverage:
     artifact_dirs: 6
-    catalog_earned: 44.0
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 71.0
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 26.3
+    access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 9.5
@@ -141,8 +160,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 9.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

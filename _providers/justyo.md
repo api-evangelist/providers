@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://api.justyo.co
@@ -60,6 +60,11 @@ collections:
   name: Account Yo API
   slug: open-justyo-yo-api
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/justyo/refs/heads/main/rate-limits/justyo-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/justyo-rate-limits.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/justyo/refs/heads/main/overlays/justyo-yo-overlay.yaml
   title: ''
@@ -143,10 +148,10 @@ modified: '2026-09-16'
 name: justyo
 nav: Providers
 network: true
-overview: 'justyo publishes 2 APIs on the [APIs.io](https://apis.io/) network: Account API and Yo API. Tagged areas include Company, Notification, Push Notifications, Messaging, and Mobile.
+overview: 'justyo publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Account API and Yo API. Tagged areas include Company, Notification, Push Notifications, Messaging, and Mobile.
 
 
-  justyo''s developer surface includes documentation, signup flow, authentication, and 13 more developer resources.'
+  justyo''s developer surface includes documentation, signup flow, authentication, and 14 more developer resources.'
 random_paper: 4
 rate_limits:
 - limit_count: 1
@@ -186,8 +191,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

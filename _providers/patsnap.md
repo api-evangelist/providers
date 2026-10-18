@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 246
+- acting_count: 245
   human_in_the_loop: 0
   name: Patsnap Agentic Access
   operation_count: 356
   slug: patsnap-agentic-access
-  summary_line: 356 operations · 246 acting
+  summary_line: 356 operations · 245 acting
 api_count: 1
 apis:
 - baseURL: https://connect.patsnap.com
@@ -280,7 +280,7 @@ apis:
   description: Trademark Data APIs.
   name: Patsnap Trademark Data API
   slug: patsnap-trademark-data-api
-artifact_total: 100
+artifact_total: 101
 collections:
 - collection_type: open
   name: API Collection
@@ -427,6 +427,23 @@ collections:
   name: Patsnap Open Platform AI Translation Trademark Data API
   slug: open-patsnap-trademark-data-api
 common:
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.patsnap.com/pricing
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/patsnap/refs/heads/main/plans/patsnap-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/patsnap-plans-pricing.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.patsnap.com/media/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.patsnap.com/feed/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/patsnap/refs/heads/main/capabilities/patsnap-capability-edges.yml
   title: ''
@@ -567,28 +584,32 @@ mcp_servers:
 - description: Patsnap operates a hosted (remote) MCP surface as part of the Eureka Open Platform. Each MCP server is a domain-scoped bundle of Patsnap tools (patent search, life-sciences, R&D intelligence) that age
   name: Patsnap MCP Server
   slug: patsnap-eureka
-modified: '2026-09-16'
+modified: '2026-10-06'
 name: Patsnap
 nav: Providers
 network: true
-overview: 'Patsnap publishes 47 APIs on the [APIs.io](https://apis.io/) network, including AI Translation API, Bio-Pharma Encyclopedia Q&A API, Biopharmaceutical Dictionary Data API, and 44 more. Tagged areas include Company, Technology, Patents, Intellectual Property, and Innovation Intelligence.
+overview: 'Patsnap publishes 47 API contracts indexed on the [APIs.io](https://apis.io/) network, including AI Translation API, Bio-Pharma Encyclopedia Q&A API, Biopharmaceutical Dictionary Data API, and 44 more. Tagged areas include Company, Technology, Patents, Intellectual Property, and Innovation Intelligence.
 
 
-  Patsnap''s developer surface includes documentation, API reference, getting-started guide, sandbox, support, engineering blog, signup flow, and 22 more developer resources.'
+  Patsnap''s developer surface includes pricing, engineering blog, documentation, API reference, getting-started guide, sandbox, support, and 26 more developer resources.'
+plans:
+- name: Patsnap Plans Pricing
+  plan_count: 8
+  slug: patsnap-plans-pricing
 random_paper: 11
 score:
   band: developing
-  composite: 44.9
+  composite: 53.4
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 23
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 8.5
   facets:
-    access_clarity: 42.1
+    access_clarity: 84.2
     contract_governance: 18.2
     contract_quality: 50.6
     developer_ergonomics: 63.7
@@ -616,9 +637,9 @@ score:
     regime: Health
     regime_id: health
     score: 26.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

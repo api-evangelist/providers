@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.streamloots.com/feed/
 - group: company
   title: ''
   type: Website
@@ -78,14 +82,14 @@ created: '2026-07-17'
 description: Streamloots is a monetization platform for live-streaming creators and their communities, originally surfaced as a portfolio company of Bessemer Venture Partners. It lets streamers turn viewers into paying supporters through interactive collectible Cards that trigger on-stream moments, plus Subscriptions, Auctions, a Marathon goal timer, and Tips. The platform works across Twitch, YouTube, Kick, Facebook, and Trovo, offers creator-favorable revenue splits and bi-monthly payouts, and provides fraud protection, a points store, and browser/OBS alert overlays. Streamloots runs a backend API at api.streamloots.com that powers its apps and Twitch Extension, but does not publish a public developer API, OpenAPI specification, or developer portal.
 image: https://static.streamloots.com/1ee0e8bc-5be9-4cd0-ae7f-f2ceb707ab44/favicons/apple-icon-57x57.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Streamloots
 nav: Providers
 network: true
 overview: 'Streamloots is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Vertical Software, Creator Economy, Live Streaming, and Monetization.
 
 
-  Streamloots'' developer surface includes support, engineering blog, signup flow, and 6 more developer resources.'
+  Streamloots'' developer surface includes support, engineering blog, signup flow, and 7 more developer resources.'
 random_paper: 3
 score:
   band: minimal
@@ -112,8 +116,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 10.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -128,7 +132,7 @@ security:
 - kind: vulnerability-disclosure
   name: Streamloots Vulnerability Disclosure
   slug: streamloots-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 slug: streamloots
 tags:
 - Company

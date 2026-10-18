@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.9
-  scored_at: '2026-10-04'
+  score: 24.0
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 1
@@ -144,6 +144,16 @@ collections:
   name: Lambda Cloud API
   slug: open-lambda-labs
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/lambda-labs/refs/heads/main/rate-limits/lambda-labs-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/lambda-labs-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/lambda-labs/refs/heads/main/finops/lambda-labs-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/lambda-labs-finops.yml
 - group: commercial
   href: https://raw.githubusercontent.com/api-evangelist/lambda-labs/refs/heads/main/plans/lambda-labs-plans-pricing.yml
   title: ''
@@ -253,9 +263,13 @@ features:
 - description: Persistent, sharable storage attached to on-demand instances for datasets and checkpoints.
   name: Filesystems
 finops:
-- name: Lambda Labs Finops
+- has_sources: false
+  method: generated
+  name: Lambda Labs Finops
+  primary_unit: ''
   service_category: API
   slug: lambda-labs-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lambda-labs.png
 integrations:
 - description: Reference workflows and templates for serving and training Hugging Face models on Lambda Cloud.
@@ -269,13 +283,13 @@ modified: '2026-05-29'
 name: Lambda
 nav: Providers
 network: true
-overview: 'Lambda publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Inference API, Audit Events API, Fabric API, and 10 more. Tagged areas include Artificial Intelligence, Cloud, Cluster, Compute, and GPU.
+overview: 'Lambda publishes 13 API contracts indexed on the [APIs.io](https://apis.io/) network, including Inference API, Audit Events API, Fabric API, and 10 more. Tagged areas include Artificial Intelligence, Cloud, Cluster, Compute, and GPU.
 
 
   The Lambda catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Lambda''s developer surface includes authentication, documentation, developer portal, signup flow, pricing, engineering blog, support, and 14 more developer resources.'
+  Lambda''s developer surface includes authentication, documentation, developer portal, signup flow, pricing, engineering blog, support, and 16 more developer resources.'
 plans:
 - name: Lambda Labs Plans Pricing
   plan_count: 16
@@ -286,10 +300,11 @@ rate_limits:
   name: Lambda Labs Rate Limits
   slug: lambda-labs-rate-limits
 rules:
-- effective_rule_count: 32
+- authorship: generated
+  effective_rule_count: 32
   extends:
   - spectral:asyncapi
-  name: Lambda API Rules
+  name: Lambda — asyncapi rules
   rule_count: 5
   severity_counts:
     error: 1
@@ -299,22 +314,22 @@ rules:
   slug: lambda-labs-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 51.7
+  composite: 48.4
   coverage:
-    artifact_dirs: 14
-    catalog_earned: 58.0
+    artifact_dirs: 15
+    catalog_earned: 49.8
     catalog_earned_first_party: 12.0
-    catalog_gap: 57.1
+    catalog_gap: 65.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.3
   facets:
-    access_clarity: 85.5
+    access_clarity: 77.6
     contract_governance: 11.4
     contract_quality: 58.1
     developer_ergonomics: 45.2
     discoverability: 57.1
-    operational_transparency: 21.6
+    operational_transparency: 7.9
   previous_composite: 51.7
   provenance:
     agentic_access: derived
@@ -329,8 +344,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 28.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

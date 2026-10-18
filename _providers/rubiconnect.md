@@ -24,8 +24,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 41.8
-  scored_at: '2026-10-04'
-api_count: 1
+  scored_at: '2026-10-17'
+api_count: 2
 apis:
 - description: Hosted MCP server exposing 18 tools for messaging, templates, campaigns, agents, analytics, and media. Auth via OAuth 2.0/PKCE or API key.
   name: RubiConnect MCP Server
@@ -166,7 +166,7 @@ modified: '2026-09-15'
 name: RubiConnect
 nav: Providers
 network: true
-overview: 'RubiConnect publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Campaigns API, Capabilities API, Messages API, and 2 more. Tagged areas include CPaaS, Communications APIs, Business Messaging, RCS, and WhatsApp Business.
+overview: 'RubiConnect publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Campaigns API, Capabilities API, Messages API, and 2 more. Tagged areas include CPaaS, Communications APIs, Business Messaging, RCS, and WhatsApp Business.
 
 
   The RubiConnect catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -191,7 +191,7 @@ score:
   band: thin
   composite: 36.5
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -221,12 +221,13 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 40.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
     score: 0.0
+screenshot: https://raw.githubusercontent.com/api-evangelist/rubiconnect/refs/heads/main/screenshots/rubiconnect-2026-10-11T125452.png
 security:
 - kind: authentication
   name: Rubiconnect Authentication

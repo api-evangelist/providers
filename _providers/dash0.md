@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 57.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 67
   human_in_the_loop: 1
@@ -402,7 +402,7 @@ modified: '2026-09-16'
 name: Dash0
 nav: Providers
 network: true
-overview: 'Dash0 publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Edge Collectors API, Manage Agent0 Automations API, Manage Alerting API, and 15 more. Tagged areas include Observability, OpenTelemetry, Monitoring, Logs, and Metrics.
+overview: 'Dash0 publishes 18 API contracts indexed on the [APIs.io](https://apis.io/) network, including Edge Collectors API, Manage Agent0 Automations API, Manage Alerting API, and 15 more. Tagged areas include Observability, OpenTelemetry, Monitoring, Logs, and Metrics.
 
 
   The Dash0 catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -419,7 +419,7 @@ score:
   band: strong
   composite: 63.1
   coverage:
-    artifact_dirs: 26
+    artifact_dirs: 27
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -454,8 +454,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

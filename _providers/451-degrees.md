@@ -34,10 +34,20 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 3
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/451-degrees/refs/heads/main/plans/451-degrees-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/451-degrees-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/451-degrees/refs/heads/main/rate-limits/451-degrees-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/451-degrees-rate-limits.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/451-degrees/refs/heads/main/security/451-degrees-domain-security.yml
   title: ''
@@ -102,7 +112,7 @@ network: true
 overview: '451 Degrees is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AdTech, Brand Safety, and Contextual Advertising.
 
 
-  451 Degrees'' developer surface includes support and 8 more developer resources.'
+  451 Degrees'' developer surface includes support and 10 more developer resources.'
 plans:
 - name: 451 Degrees Plans Pricing
   plan_count: 0
@@ -116,7 +126,7 @@ score:
   band: minimal
   composite: 5.7
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -139,8 +149,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

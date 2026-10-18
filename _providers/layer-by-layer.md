@@ -31,14 +31,13 @@ modified: '2026-07-19'
 name: Layer By Layer
 nav: Providers
 network: true
-overview: Layer By Layer is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, 3D Printing, Additive Manufacturing, Marketplace, and Digital Rights Management.
+overview: Layer By Layer is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, 3D Printing, Marketplace, Digital Rights Management, and Acquired.
 random_paper: 5
 screenshot: https://raw.githubusercontent.com/api-evangelist/layer-by-layer/refs/heads/main/screenshots/layer-by-layer-2026-07-25T224651.png
 slug: layer-by-layer
 tags:
 - Company
 - 3D Printing
-- Additive Manufacturing
 - Marketplace
 - Digital Rights Management
 - Acquired

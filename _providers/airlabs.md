@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.6
-  scored_at: '2026-10-04'
+  score: 27.4
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -180,6 +180,20 @@ collections:
   name: AirLabs Aviation Data Airlines Suggest API
   slug: open-airlabs-suggest-api
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/airlabs/refs/heads/main/rate-limits/rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/airlabs/refs/heads/main/finops/finops.yml
+  title: ''
+  type: FinOps
+  url: finops/finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.airlabs.co/blog/
 - group: company
   title: ''
   type: Website
@@ -242,9 +256,13 @@ examples:
   name: Schedules Response
   slug: schedules-response
 finops:
-- name: Finops
+- has_sources: false
+  method: generated
+  name: Finops
+  primary_unit: ''
   service_category: ''
   slug: finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/airlabs.png
 json_schemas:
 - name: Airline
@@ -271,17 +289,17 @@ jsonld:
   property_count: 36
   slug: context
 layout: provider
-modified: '2026-06-13'
+modified: '2026-10-06'
 name: Airlabs
 nav: Providers
 network: true
-overview: 'Airlabs publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Airlines API, Airports API, Alert API, and 20 more. Tagged areas include Aviation, Flights, Airlines, Airports, and Flight Tracking.
+overview: 'Airlabs publishes 23 API contracts indexed on the [APIs.io](https://apis.io/) network, including Airlines API, Airports API, Alert API, and 20 more. Tagged areas include Aviation, Flights, Airlines, Airports, and Flight Tracking.
 
 
   The Airlabs catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Airlabs'' developer surface includes authentication, documentation, status page, and 7 more developer resources.'
+  Airlabs'' developer surface includes engineering blog, authentication, documentation, status page, and 9 more developer resources.'
 plans:
 - name: Plans
   plan_count: 4
@@ -292,9 +310,10 @@ rate_limits:
   name: Rate Limits
   slug: rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Airlabs API Rules
+  name: Airlabs — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -304,20 +323,20 @@ rules:
   slug: airlabs-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 35.6
+  composite: 30.5
   coverage:
-    artifact_dirs: 15
-    catalog_earned: 62.1
+    artifact_dirs: 17
+    catalog_earned: 51.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.0
+    catalog_gap: 63.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.1
   facets:
-    access_clarity: 46.8
+    access_clarity: 18.4
     contract_governance: 9.8
     contract_quality: 53.8
-    developer_ergonomics: 21.4
+    developer_ergonomics: 23.8
     discoverability: 66.1
     operational_transparency: 0.0
   previous_composite: 35.6
@@ -334,9 +353,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

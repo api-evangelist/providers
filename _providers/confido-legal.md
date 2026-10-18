@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 36.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The Confido Legal GraphQL API is the unified developer interface for the Confido payments platform. Partners and law-firm developers use it to tokenize payment methods, accept ACH and card payments wi
@@ -48,6 +48,14 @@ asyncapis:
   name: Confido Legal Webhooks
   slug: confido-legal-webhooks
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://confidolegal.com/news
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://confidolegal.com/news/rss.xml
 - group: company
   title: ''
   type: Website
@@ -240,9 +248,13 @@ common:
 created: '2025-03-01'
 description: Confido Legal is a payment processing and disbursements platform purpose-built for the legal industry. It enables law firms and legal technology vendors to accept client payments with automated trust-account routing, send real-time digital disbursements for settlements, and embed compliant payment workflows through a unified GraphQL API. Confido integrates with leading legal practice management tools and accounting systems including Lawmatics, Litify, LeanLaw, Smart Advocate, QuickBooks, Salesforce, and Zapier.
 finops:
-- name: Confido Legal Finops
+- has_sources: false
+  method: generated
+  name: Confido Legal Finops
+  primary_unit: ''
   service_category: API
   slug: confido-legal-finops
+  template: true
 graphqls:
 - description: 'generated: ''2026-09-05'''
   name: Confido Legal GraphQL API
@@ -253,17 +265,17 @@ mcp_servers:
 - description: 'Confido Legal runs a live, anonymous-readable remote MCP server on its documentation host. It is a DOCUMENTATION server (Mintlify-shaped): the three tools search and read the docs corpus and file feed'
   name: Confido Legal Docs MCP Server
   slug: confido-legal-docs-mcp-server
-modified: '2026-09-05'
+modified: '2026-10-06'
 name: Confido Legal
 nav: Providers
 network: true
-overview: 'Confido Legal publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Compliance, Disbursements, GraphQL, IOLTA, and Law.
+overview: 'Confido Legal is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Compliance, Disbursements, GraphQL, IOLTA, and Law.
 
 
   The Confido Legal catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
 
 
-  Confido Legal''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, support, and 34 more developer resources.'
+  Confido Legal''s developer surface includes engineering blog, documentation, API reference, getting-started guide, pricing, signup flow, support, and 36 more developer resources.'
 plans:
 - name: Confido Legal Plans Pricing
   plan_count: 1
@@ -275,17 +287,17 @@ rate_limits:
   slug: confido-legal-rate-limits
 score:
   band: developing
-  composite: 51.0
+  composite: 49.5
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 56.0
+    artifact_dirs: 26
+    catalog_earned: 53.0
     catalog_earned_first_party: 16.0
-    catalog_gap: 59.0
+    catalog_gap: 62.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 46.1
+    access_clarity: 38.2
     contract_governance: 0.0
     contract_quality: 51.0
     developer_ergonomics: 66.0
@@ -302,8 +314,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 20.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'Parsyl offers custom API integration into the Parsyl Platform so customers and Data Partner Program vendors can push or pull shipment, sensor and condition data. Documentation is served from Parsyl''s '
@@ -123,7 +123,7 @@ modified: '2026-08-26'
 name: Parsyl
 nav: Providers
 network: true
-overview: 'Parsyl publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, Cargo Insurance, Supply Chain, and Cold Chain.
+overview: 'Parsyl is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, Cargo Insurance, Supply Chain, and Cold Chain.
 
 
   Parsyl''s developer surface includes documentation, engineering blog, support, and 10 more developer resources.'
@@ -164,8 +164,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 21.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

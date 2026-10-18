@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: partner
+  gated_source:
+  - tag:Partner Gated
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -10,7 +13,7 @@ access_model:
   - authentication
   - security
   trial: false
-  try_now: true
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -35,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -126,6 +129,10 @@ collections:
   name: ezyVet API
   slug: open-ezyvet
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.ezyvet.com/blog
 - group: commercial
   title: ''
   type: Pricing
@@ -185,19 +192,23 @@ common:
 created: '2026-07-04'
 description: ezyVet is cloud-based veterinary practice information management software (PIMS) for clinics, specialty, and emergency hospitals, covering patient records, scheduling, clinical workflows, billing, inventory, and diagnostics. Founded in New Zealand in 2006, ezyVet was acquired by IDEXX Laboratories in June 2021 and sits alongside IDEXX's Cornerstone and Neo PIMS offerings (the acquisition also included Vet Radar). ezyVet exposes a documented RESTful API of roughly 216 endpoints over animals/patients, contacts/clients, appointments, consultations, invoices, products, and diagnostics. The API is partner-gated - developer access requires an approved integration application and issued client credentials - but the endpoint catalog, best-practice guides, and a full Postman collection are publicly documented at developers.ezyvet.com. Authentication is OAuth 2.0 Client Credentials with 12-hour bearer tokens.
 finops:
-- name: Ezyvet Finops
+- has_sources: true
+  method: generated
+  name: Ezyvet Finops
+  primary_unit: ''
   service_category: Veterinary Practice Management Software
   slug: ezyvet-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ezyvet.png
 layout: provider
-modified: '2026-07-04'
+modified: '2026-10-06'
 name: ezyVet
 nav: Providers
 network: true
-overview: 'ezyVet publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Animals API, Appointments API, Authentication API, and 6 more. Tagged areas include Veterinary, Practice Management, PIMS, Healthcare, and Animal Health.
+overview: 'ezyVet publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Animals API, Appointments API, Authentication API, and 6 more. Tagged areas include Veterinary, Practice Management, PIMS, Healthcare, and Animal Health.
 
 
-  ezyVet''s developer surface includes pricing, authentication, documentation, and 9 more developer resources.'
+  ezyVet''s developer surface includes engineering blog, pricing, authentication, documentation, and 9 more developer resources.'
 plans:
 - name: Ezyvet Plans Pricing
   plan_count: 1
@@ -212,20 +223,20 @@ rate_limits:
   slug: ezyvet-rate-limits
 score:
   band: thin
-  composite: 34.0
+  composite: 33.0
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 56.0
+    artifact_dirs: 13
+    catalog_earned: 53.0
     catalog_earned_first_party: 16.0
-    catalog_gap: 59.0
+    catalog_gap: 62.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.0
   facets:
-    access_clarity: 39.5
+    access_clarity: 31.6
     contract_governance: 0.0
     contract_quality: 48.9
-    developer_ergonomics: 25.0
+    developer_ergonomics: 27.4
     discoverability: 66.1
     operational_transparency: 21.1
   previous_composite: 34.0
@@ -242,8 +253,8 @@ score:
     regime: Health
     regime_id: health
     score: 14.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -261,7 +272,7 @@ security:
 - kind: vulnerability-disclosure
   name: Ezyvet Vulnerability Disclosure
   slug: ezyvet-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 slug: ezyvet
 tags:
 - Veterinary
@@ -270,6 +281,5 @@ tags:
 - Healthcare
 - Animal Health
 - IDEXX
-- Partner Gated
 website: https://www.ezyvet.com
 ---

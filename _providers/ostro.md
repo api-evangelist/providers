@@ -33,10 +33,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://ostro.veeva.com/news/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://ostro.veeva.com/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/ostro/refs/heads/main/security/ostro-domain-security.yml
   title: ''
@@ -115,14 +123,14 @@ description: 'Ostro (Veeva Ostro) is an AI-powered brand engagement platform for
   surface is an llms.txt served at its own website root.'
 image: https://cdn.prod.website-files.com/634f008d7831c61867845aad/69dd6a20fe40f5dff2a56a40_Veeva-Ostro-Open-Graph.png
 layout: provider
-modified: '2026-08-26'
+modified: '2026-10-06'
 name: Ostro
 nav: Providers
 network: true
 overview: 'Ostro is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Life Sciences, Pharmaceuticals, Healthcare, and Artificial Intelligence.
 
 
-  Ostro''s developer surface includes engineering blog and 12 more developer resources.'
+  Ostro''s developer surface includes engineering blog and 14 more developer resources.'
 plans:
 - name: Ostro Plans Pricing
   plan_count: 0
@@ -132,7 +140,7 @@ score:
   band: minimal
   composite: 10.3
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -158,8 +166,8 @@ score:
     regime: Health
     regime_id: health
     score: 10.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

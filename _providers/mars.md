@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Mars exposes a public Azure-API-Management developer portal at developer.mars.com that hosts APIs and API Products for partners, suppliers, and B2B integrations. The catalog itself sits behind a regis
@@ -41,6 +41,21 @@ apis:
   slug: developer-portal
 artifact_total: 5
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/mars/refs/heads/main/plans/mars-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/mars-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/mars/refs/heads/main/rate-limits/mars-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/mars-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/mars/refs/heads/main/finops/mars-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/mars-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/mars/refs/heads/main/security/mars-domain-security.yml
   title: ''
@@ -105,19 +120,23 @@ common:
 created: '2026-05-05'
 description: Mars, Incorporated is one of the world's largest privately held companies, producing confectionery, pet food, food, and providing veterinary care. The company owns iconic brands including M&M's, Snickers, Twix, Milky Way, Skittles, Wrigley, Orbit, Extra, Pedigree, Whiskas, Royal Canin, IAMS, and Sheba, and operates Mars Petcare clinical brands including Banfield Pet Hospital, VCA Animal Hospitals, BluePearl, and Antech Diagnostics. Mars operates in over 80 countries. Mars operates a public Azure-API-Management developer portal at developer.mars.com for partner and B2B integrations, alongside closed channels such as the Mars Supplier Gateway.
 finops:
-- name: Mars Finops
+- has_sources: false
+  method: generated
+  name: Mars Finops
+  primary_unit: ''
   service_category: API
   slug: mars-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mars.png
 layout: provider
 modified: '2026-05-16'
 name: Mars
 nav: Providers
 network: true
-overview: 'Mars publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Confectionery, Consumer Packaged Goods, Food, Pet Care, and Pet Food.
+overview: 'Mars is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Confectionery, Consumer Packaged Goods, Food, Pet Care, and Pet Food.
 
 
-  Mars'' developer surface includes product news, engineering blog, and 13 more developer resources.'
+  Mars'' developer surface includes product news, engineering blog, and 16 more developer resources.'
 plans:
 - name: Mars Plans Pricing
   plan_count: 1
@@ -128,23 +147,23 @@ rate_limits:
   name: Mars Rate Limits
   slug: mars-rate-limits
 score:
-  band: emerging
-  composite: 14.0
+  band: minimal
+  composite: 7.9
   coverage:
     artifact_dirs: 7
-    catalog_earned: 49.4
+    catalog_earned: 36.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 65.6
+    catalog_gap: 79.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.1
   facets:
-    access_clarity: 33.4
+    access_clarity: 11.8
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 2.4
     discoverability: 58.0
-    operational_transparency: 18.9
+    operational_transparency: 5.3
   previous_composite: 14.0
   regulatory:
     applies: true
@@ -152,9 +171,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 51
+- acting_count: 27
   human_in_the_loop: 0
   name: Canny Agentic Access
   operation_count: 51
   slug: canny-agentic-access
-  summary_line: 51 operations · 51 acting
+  summary_line: 51 operations · 27 acting
 api_count: 1
 apis:
 - description: 'REST API for retrieving and managing Canny boards, posts, comments, votes, status changes, users, companies, categories, tags, and changelog entries. Requests authenticate using a secret API key sent '
@@ -244,7 +244,7 @@ modified: '2026-05-11'
 name: Canny
 nav: Providers
 network: true
-overview: 'Canny publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Autopilot API, Boards API, Categories API, and 13 more. Tagged areas include Customer Feedback, Product Management, Feature Requests, Roadmaps, and Changelog.
+overview: 'Canny publishes 16 API contracts indexed on the [APIs.io](https://apis.io/) network, including Autopilot API, Boards API, Categories API, and 13 more. Tagged areas include Customer Feedback, Product Management, Feature Requests, Roadmaps, and Changelog.
 
 
   Canny''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 9 more developer resources.'
@@ -253,7 +253,7 @@ score:
   band: thin
   composite: 33.3
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -281,8 +281,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

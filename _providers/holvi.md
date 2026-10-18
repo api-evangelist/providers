@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -82,6 +82,10 @@ collections:
   name: Holvi PSD2 Account Information Third Party Provider API
   slug: open-holvi-third-party-provider-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.holvi.com/rss.xml
 - group: commercial
   href: https://raw.githubusercontent.com/api-evangelist/holvi/refs/heads/main/plans/holvi-plans-pricing.yml
   title: ''
@@ -217,14 +221,14 @@ created: '2026-07-17'
 description: Holvi is a Finnish digital business-banking service for freelancers, founders and small businesses, founded in Helsinki in 2011 and operating as a regulated Authorised Payment Institution supervised by the Finnish Financial Supervisory Authority. It combines a business account with its own IBAN, a Holvi Business Mastercard, invoicing, expense tracking, VAT calculation and bookkeeping preparation in one dashboard, serving more than 150,000 businesses across Europe with a focus on Finland, Germany and Austria. For developers, Holvi publishes a PSD2 API v2.0 for licensed Third Party Providers, exposing account information (AISP) and payment initiation (PISP, SEPA / SEPA Instant / SWIFT) with Strong Customer Authentication and optional Verification of Payee.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/holvi.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Holvi
 nav: Providers
 network: true
-overview: 'Holvi publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Account Information API, Consent API, Payment Initiation API, and 1 more. Tagged areas include Company, Banking, Fintech, Payments, and Business Banking.
+overview: 'Holvi publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account Information API, Consent API, Payment Initiation API, and 1 more. Tagged areas include Company, Banking, Fintech, Payments, and Business Banking.
 
 
-  Holvi''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, support, engineering blog, and 22 more developer resources.'
+  Holvi''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, support, engineering blog, and 23 more developer resources.'
 plans:
 - name: Holvi Plans Pricing
   plan_count: 0
@@ -234,7 +238,7 @@ score:
   band: developing
   composite: 43.6
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -277,8 +281,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 22.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

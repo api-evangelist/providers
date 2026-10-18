@@ -28,14 +28,14 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: false
+    protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.7
-  scored_at: '2026-10-04'
+  score: 27.3
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 6
 common:
@@ -213,8 +213,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 46.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -248,7 +248,7 @@ tags:
 - Specialty Insurance
 - London Market
 - Lloyd's of London
-- Brokers
+- Brokerage
 - Policy Administration
 - ACORD
 - Algorithmic Underwriting

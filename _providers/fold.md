@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 0
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.foldapp.com/rss/
 - group: company
   title: ''
   type: Website
@@ -64,14 +68,14 @@ created: '2026-07-17'
 description: 'Fold (NASDAQ: FLD) is a bitcoin financial services company founded in 2014 and based in Atlanta, Georgia, billed as the first publicly traded bitcoin financial services company. Fold makes it easy for individuals and businesses to earn, save, and use bitcoin through consumer products including the Fold App, the Fold Bitcoin Rewards Credit Card, the Fold Debit Card, and the Fold Bitcoin Gift Card marketplace, paying real bitcoin rewards (not points or a proprietary token) on everyday purchases and bill payments. Bitcoin custody and Lightning Network payouts are powered by partners such as BitGo and OpenNode. Fold is a consumer-facing fintech application and does not publish a public developer API, OpenAPI specification, or developer portal; this profile is maintained as a company record in the API Evangelist network.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fold.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Fold
 nav: Providers
 network: true
 overview: 'Fold is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Bitcoin, Cryptocurrency, and Rewards.
 
 
-  Fold''s developer surface includes engineering blog, support, signup flow, and 3 more developer resources.'
+  Fold''s developer surface includes engineering blog, support, signup flow, and 4 more developer resources.'
 random_paper: 3
 score:
   band: minimal
@@ -109,8 +113,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 7.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

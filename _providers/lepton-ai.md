@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 1.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Managed AI platform API exposing model endpoints (HTTP server with OpenAI-compatible chat surface), dev sessions with managed GPUs, distributed training jobs, and batch processing. Endpoints are deplo
@@ -88,16 +88,20 @@ common:
 created: '2026-05-08'
 description: Lepton AI was acquired by NVIDIA in 2025 and the platform is now branded NVIDIA DGX Cloud Lepton. It is a fully managed AI platform that connects developers to global GPU compute across a federated network of cloud providers, with managed endpoints, dev sessions, distributed training, and batch processing.
 finops:
-- name: Lepton Ai Finops
+- has_sources: true
+  method: generated
+  name: Lepton Ai Finops
+  primary_unit: ''
   service_category: AI
   slug: lepton-ai-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lepton-ai.png
 layout: provider
 modified: '2026-08-21'
 name: Lepton AI
 nav: Providers
 network: true
-overview: 'Lepton AI publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Machine Learning, Inference, Cloud, and GPU.
+overview: 'Lepton AI is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Machine Learning, Inference, Cloud, and GPU.
 
 
   Lepton AI''s developer surface includes documentation and 9 more developer resources.'
@@ -111,18 +115,18 @@ rate_limits:
   name: Lepton Ai Rate Limits
   slug: lepton-ai-rate-limits
 score:
-  band: emerging
-  composite: 12.3
+  band: minimal
+  composite: 10.8
   coverage:
-    artifact_dirs: 6
-    catalog_earned: 44.0
+    artifact_dirs: 7
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 71.0
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 13.2
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 6.5
     developer_ergonomics: 9.5
@@ -135,8 +139,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

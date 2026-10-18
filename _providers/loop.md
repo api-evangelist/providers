@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -295,7 +295,7 @@ modified: '2026-07-20'
 name: Loop
 nav: Providers
 network: true
-overview: 'Loop publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Artifacts API, Artifacts Schema Validated API, Business Exceptions API, and 11 more. Tagged areas include Company, Logistics, Supply Chain, Freight, and Freight Audit.
+overview: 'Loop publishes 14 API contracts indexed on the [APIs.io](https://apis.io/) network, including Artifacts API, Artifacts Schema Validated API, Business Exceptions API, and 11 more. Tagged areas include Company, Logistics, Supply Chain, Freight, and Freight Audit.
 
 
   The Loop catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -338,8 +338,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 25.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -32,10 +32,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://mosaicmfg.com/resources/articles/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://mosaicmfg.com/feed/
 - group: company
   title: ''
   type: Website
@@ -78,31 +86,31 @@ created: '2026-07-17'
 description: Mosaic Manufacturing is a Toronto-based additive manufacturing company building automated, high-volume FFF 3D printing systems for factory-floor production of end-use polymer parts. Its flagship Array platform combines integrated robotics, intelligent scheduling software, and high-performance fused-filament-fabrication printers so manufacturers can cut part costs and run true production at scale. Mosaic also makes the Palette line of multi-material hardware and Canvas (canvas3d.io), a cloud/web software platform for file preparation, color/slice, print scheduling, and fleet management. As of this enrichment pass Mosaic publishes no public product API or OpenAPI-described developer surface; its developer-facing presence is the open-source MosaicManufacturing GitHub organization (3MF tooling, slicer post-processing, and firmware) plus a hosted support/knowledge-base portal.
 image: https://canvas3d.io/canvas-logo-square.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Mosaic Manufacturing
 nav: Providers
 network: true
-overview: 'Mosaic Manufacturing is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, 3D Printing, Additive Manufacturing, Manufacturing, and Hardware.
+overview: 'Mosaic Manufacturing is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, 3D Printing, Manufacturing, Hardware, and Software.
 
 
-  Mosaic Manufacturing''s developer surface includes documentation, support, signup flow, and 6 more developer resources.'
+  Mosaic Manufacturing''s developer surface includes engineering blog, documentation, support, signup flow, and 7 more developer resources.'
 random_paper: 9
 score:
   band: emerging
-  composite: 12.7
+  composite: 13.2
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 14.3
+    developer_ergonomics: 16.7
     discoverability: 55.4
     operational_transparency: 2.6
   jurisdiction:
@@ -119,8 +127,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -136,7 +144,6 @@ slug: mosaic-manufacturing
 tags:
 - Company
 - 3D Printing
-- Additive Manufacturing
 - Manufacturing
 - Hardware
 - Software

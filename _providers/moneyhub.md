@@ -17,7 +17,7 @@ agent_readiness:
   band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: served
@@ -31,13 +31,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 42.4
-  scored_at: '2026-10-04'
+  score: 45.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 0
@@ -45,7 +45,7 @@ agentic_access:
   operation_count: 77
   slug: moneyhub-agentic-access
   summary_line: 77 operations · 36 acting
-api_count: 1
+api_count: 2
 apis:
 - description: Moneyhub's Open Banking Payments API initiates account-to-account payments (Payment Initiation Service) over the UK Faster Payments rails as a cheaper, near-instant alternative to cards, direct debits
   name: Moneyhub Open Banking Payments API
@@ -150,7 +150,7 @@ apis:
   description: The transactions API from Moneyhub — 9 operation(s) for transactions.
   name: Moneyhub Transactions API
   slug: moneyhub-transactions-api
-artifact_total: 30
+artifact_total: 86
 asyncapis:
 - description: ''
   name: Moneyhub Webhooks
@@ -163,6 +163,53 @@ collections:
   name: Moneyhub Data API
   slug: open-moneyhub-data-api-swagger
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/moneyhub/refs/heads/main/rate-limits/moneyhub-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/moneyhub-rate-limits.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moneyhub/refs/heads/main/rules/moneyhub-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/moneyhub-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moneyhub/refs/heads/main/json-ld/moneyhub-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/moneyhub-context.jsonld
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moneyhub/refs/heads/main/vocabulary/moneyhub-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/moneyhub-vocabulary.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/moneyhub/refs/heads/main/skills/_index.yml
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/moneyhub/refs/heads/main/hosts/moneyhub-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/moneyhub-hosts.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/moneyhub/refs/heads/main/vendors/moneyhub-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/moneyhub-vendors.yml
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://moneyhub.com/articles/price-and-value-in-the-era-of-consumer-duty/
+- group: company
+  title: ''
+  type: Blog
+  url: https://moneyhub.com/articles/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://moneyhub.com/articles/feed/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/moneyhub/refs/heads/main/capabilities/moneyhub-capability-edges.yml
   title: ''
@@ -345,42 +392,225 @@ created: '2026-07-24'
 description: 'Moneyhub is a UK open banking and open finance platform, headquartered in London with offices in Bristol and Ljubljana, that lets banks, pension providers, wealth managers, insurers and fintechs embed account aggregation, transaction data enrichment, financial insight and account-to-account payment initiation into their own products. Regulated by the FCA as an Account Information Service Provider (AISP), Payment Initiation Service Provider (PISP) and Credit Information Services Provider (CISP), Moneyhub ships a genuinely API-first surface: a RESTful, Swagger/OpenAPI-documented Data & Intelligence API for AIS aggregation, enrichment and affordability, and an Open Banking Payments API that initiates instant Faster Payments over the UK''s Open Banking rails as a cheaper alternative to cards and direct debits. Authentication and payment consent run entirely through an OpenID Connect / OAuth2 identity layer at identity.moneyhub.co.uk, with client-credentials, authorization-code
   and jwt-bearer grants and fine-grained scopes for data and payment initiation.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+json_schemas:
+- name: AccountPatch
+  property_count: 3
+  slug: moneyhub-account-patch
+- name: AccountPost
+  property_count: 8
+  slug: moneyhub-account-post
+- name: Account
+  property_count: 24
+  slug: moneyhub-account
+- name: AffordabilityIncomeMetadata
+  property_count: 2
+  slug: moneyhub-affordability-income-metadata
+- name: AffordabilityIncomePost
+  property_count: 3
+  slug: moneyhub-affordability-income-post
+- name: AffordabilityIncome
+  property_count: 5
+  slug: moneyhub-affordability-income
+- name: AffordabilityPost
+  property_count: 3
+  slug: moneyhub-affordability-post
+- name: Affordability
+  property_count: 7
+  slug: moneyhub-affordability
+- name: BalancePost
+  property_count: 2
+  slug: moneyhub-balance-post
+- name: Balance
+  property_count: 3
+  slug: moneyhub-balance
+- name: Beneficiary
+  property_count: 14
+  slug: moneyhub-beneficiary
+- name: CategoriseTransactionsPost
+  property_count: 3
+  slug: moneyhub-categorise-transactions-post
+- name: CategoriseTransactions
+  property_count: 4
+  slug: moneyhub-categorise-transactions
+- name: CategoryGroup
+  property_count: 2
+  slug: moneyhub-category-group
+- name: CategoryPost
+  property_count: 2
+  slug: moneyhub-category-post
+- name: Category
+  property_count: 4
+  slug: moneyhub-category
+- name: Counterparty
+  property_count: 7
+  slug: moneyhub-counterparty
+- name: GlobalCounterpartyV3
+  property_count: 14
+  slug: moneyhub-global-counterparty-v3
+- name: HoldingWithMatchesAndHistory
+  property_count: 11
+  slug: moneyhub-holding-with-matches-and-history
+- name: HoldingWithMatches
+  property_count: 10
+  slug: moneyhub-holding-with-matches
+- name: HoldingsValuation
+  property_count: 2
+  slug: moneyhub-holdings-valuation
+- name: Links
+  property_count: 3
+  slug: moneyhub-links
+- name: NotificationThresholdPost
+  property_count: 2
+  slug: moneyhub-notification-threshold-post
+- name: NotificationThreshold
+  property_count: 3
+  slug: moneyhub-notification-threshold
+- name: ProjectPatch
+  property_count: 4
+  slug: moneyhub-project-patch
+- name: ProjectPost
+  property_count: 3
+  slug: moneyhub-project-post
+- name: Project
+  property_count: 6
+  slug: moneyhub-project
+- name: RecurringTransactionEstimate
+  property_count: 7
+  slug: moneyhub-recurring-transaction-estimate
+- name: RegularTransactions
+  property_count: 21
+  slug: moneyhub-regular-transactions
+- name: RentalRecordsPost
+  property_count: 13
+  slug: moneyhub-rental-records-post
+- name: RentalRecords
+  property_count: 19
+  slug: moneyhub-rental-records
+- name: SavingsGoalsPatch
+  property_count: 6
+  slug: moneyhub-savings-goals-patch
+- name: SavingsGoalsPost
+  property_count: 6
+  slug: moneyhub-savings-goals-post
+- name: SavingsGoals
+  property_count: 10
+  slug: moneyhub-savings-goals
+- name: SpendingAnalysisPost
+  property_count: 4
+  slug: moneyhub-spending-analysis-post
+- name: SpendingAnalysis
+  property_count: 2
+  slug: moneyhub-spending-analysis
+- name: SpendingGoalPatch
+  property_count: 2
+  slug: moneyhub-spending-goal-patch
+- name: SpendingGoalPost
+  property_count: 4
+  slug: moneyhub-spending-goal-post
+- name: SpendingGoal
+  property_count: 7
+  slug: moneyhub-spending-goal
+- name: StandardFinancialStatement
+  property_count: 5
+  slug: moneyhub-standard-financial-statement
+- name: StandardFinancialStatementsMetadata
+  property_count: 5
+  slug: moneyhub-standard-financial-statements-metadata
+- name: StandardFinancialStatementsPost
+  property_count: 3
+  slug: moneyhub-standard-financial-statements-post
+- name: StandingOrder
+  property_count: 13
+  slug: moneyhub-standing-order
+- name: Statement
+  property_count: 20
+  slug: moneyhub-statement
+- name: SyncPost
+  property_count: 3
+  slug: moneyhub-sync-post
+- name: Tax
+  property_count: 3
+  slug: moneyhub-tax
+- name: TransactionCollectionPost
+  property_count: 0
+  slug: moneyhub-transaction-collection-post
+- name: TransactionPatch
+  property_count: 11
+  slug: moneyhub-transaction-patch
+- name: TransactionPost
+  property_count: 11
+  slug: moneyhub-transaction-post
+- name: Transaction
+  property_count: 32
+  slug: moneyhub-transaction
+- name: TransactionSplit
+  property_count: 5
+  slug: moneyhub-transaction-split
+- name: TransactionUnenriched
+  property_count: 24
+  slug: moneyhub-transaction-unenriched
+jsonld:
+- class_count: 59
+  name: Moneyhub Context
+  property_count: 187
+  slug: moneyhub-context
 layout: provider
-modified: '2026-07-24'
+modified: '2026-10-06'
 name: Moneyhub
 nav: Providers
 network: true
-overview: 'Moneyhub publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Affordability API, Beneficiaries API, and 18 more. Tagged areas include Payments, United Kingdom, Open Banking, Open Finance, and Account-to-Account.
+overview: 'Moneyhub publishes 21 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, Affordability API, Beneficiaries API, and 18 more. Tagged areas include Payments, United Kingdom, Open Banking, Open Finance, and Account-to-Account.
 
 
-  The Moneyhub catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Moneyhub catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Moneyhub''s developer surface includes authentication, sandbox, changelog, documentation, API reference, getting-started guide, engineering blog, and 32 more developer resources.'
+  Moneyhub''s developer surface includes pricing, engineering blog, authentication, sandbox, changelog, documentation, API reference, and 42 more developer resources.'
+plans:
+- name: Moneyhub Plans Pricing
+  plan_count: 0
+  slug: moneyhub-plans-pricing
 random_paper: 13
+rate_limits:
+- limit_count: 2
+  name: Moneyhub Rate Limits
+  slug: moneyhub-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 57
+  extends:
+  - spectral:oas
+  name: Moneyhub API Rules
+  rule_count: 16
+  severity_counts:
+    error: 13
+    hint: 0
+    info: 1
+    warn: 2
+  slug: moneyhub-rules
 scopes:
 - name: Moneyhub Scopes
   scope_count: 108
   slug: moneyhub-scopes
   summary_line: 108 scopes
 score:
-  band: strong
-  composite: 57.1
+  band: exemplar
+  composite: 67.8
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 36
+    catalog_earned: 70.8
+    catalog_earned_first_party: 8.0
+    catalog_gap: 44.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 10.7
   facets:
-    access_clarity: 50.0
-    contract_governance: 18.2
-    contract_quality: 60.5
-    developer_ergonomics: 60.2
+    access_clarity: 60.5
+    contract_governance: 35.6
+    contract_quality: 74.0
+    developer_ergonomics: 62.0
     discoverability: 73.2
-    operational_transparency: 48.7
+    operational_transparency: 69.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -399,6 +629,7 @@ score:
       marker_coverage: 0.0
       total: 20
     mcp: derived
+    skills: derived
   regulatory:
     applies: true
     jurisdictions:
@@ -411,9 +642,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 52.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: true
     score: 0.0
@@ -430,7 +661,7 @@ security:
 - kind: vulnerability-disclosure
   name: Moneyhub Vulnerability Disclosure
   slug: moneyhub-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 - kind: trust-center
   name: Moneyhub Trust Center
   slug: moneyhub-trust-center

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'Model Context Protocol server for tday, and the agent-facing entry point to the platform. It ships in two deployments that front the same nine tools: a hosted remote endpoint at https://tday.com/api/m'
@@ -41,6 +41,10 @@ apis:
   slug: tday-mcp-server
 artifact_total: 7
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://tday.com/news
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/tdaycom/refs/heads/main/security/tdaycom-domain-security.yml
   title: ''
@@ -176,14 +180,14 @@ mcp_servers:
 - description: 'Official hosted Model Context Protocol server for tday, the agent-facing surface of the tday design/launch-content platform. tday.com/mcp documents two ways in: a local stdio server installed from npm'
   name: Tdaycom MCP Server
   slug: tday
-modified: '2026-08-13'
+modified: '2026-10-06'
 name: Tdaycom
 nav: Providers
 network: true
-overview: 'Tdaycom publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketing, Artificial Intelligence, Content Generation, and Design.
+overview: 'Tdaycom is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketing, Artificial Intelligence, Content Generation, and Design.
 
 
-  Tdaycom''s developer surface includes documentation, signup flow, support, pricing, changelog, authentication, CLI, and 20 more developer resources.'
+  Tdaycom''s developer surface includes engineering blog, documentation, signup flow, support, pricing, changelog, authentication, and 21 more developer resources.'
 plans:
 - name: Tdaycom Plans Pricing
   plan_count: 3
@@ -200,20 +204,20 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: thin
-  composite: 37.5
+  composite: 38.1
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 20
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 76.3
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 40.5
+    developer_ergonomics: 42.9
     discoverability: 75.0
     operational_transparency: 15.8
   previous_composite: 37.5
@@ -227,13 +231,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 31.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/tdaycom/refs/heads/main/screenshots/tdaycom-2026-10-11T130719.png
 security:
 - kind: authentication
   name: Tdaycom Authentication

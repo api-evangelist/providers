@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.phaidra.ai/blog/rss.xml
 - group: company
   title: ''
   type: Website
@@ -70,14 +74,14 @@ created: '2026-07-17'
 description: Phaidra builds AI agents for autonomous data center and industrial operations, using reinforcement learning to control cooling, power, and workloads in mission-critical facilities. Its products include Phaidra Prism, an LLM for data center operations that helps technicians identify, prioritize, and resolve infrastructure issues, and Phaidra Factory, self-learning AI agents that continuously monitor and optimize thermal reliability, energy efficiency, and IT capacity to maximize tokens per watt across AI factories. Phaidra is an enterprise vendor with no public API or developer program; this profile captures its public security, compliance, and web posture. Backed by Index Ventures.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/phaidra.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Phaidra
 nav: Providers
 network: true
-overview: 'Phaidra is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Ml, Data Center, Industrial Automation, and Reinforcement Learning.
+overview: 'Phaidra is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Data Center, Industrial Automation, and Reinforcement Learning.
 
 
-  Phaidra''s developer surface includes engineering blog and 6 more developer resources.'
+  Phaidra''s developer surface includes engineering blog and 7 more developer resources.'
 random_paper: 3
 score:
   band: emerging
@@ -104,8 +108,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 14.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -124,12 +128,11 @@ security:
 slug: phaidra
 tags:
 - Company
-- Ai Ml
+- Artificial Intelligence
 - Data Center
 - Industrial Automation
 - Reinforcement Learning
 - Energy Efficiency
 - Autonomous Control
-- Artificial Intelligence
 website: https://www.phaidra.ai/
 ---

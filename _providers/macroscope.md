@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://hooks.macroscope.com
@@ -55,6 +55,10 @@ collections:
   name: Macroscope Agent Webhook Workspaces API
   slug: open-macroscope-workspaces-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.macroscope.com/blog/
 - group: company
   title: ''
   type: Website
@@ -149,34 +153,34 @@ created: '2026-07-17'
 description: Macroscope is an AI code-intelligence platform (GitHub org prassoai) that connects to a team's codebase and workflow tools to review pull requests, answer questions, and take action. Its three surfaces are an Agent (query the codebase and trigger actions via Slack, GitHub, or an HTTP API), Code Review (automatic bug detection, PR descriptions, and fixes on every pull request), and Status (commit summaries, area classification, productivity insights, and sprint reports). Macroscope integrates with GitHub, Slack, Jira, Linear, BigQuery, PostHog, LaunchDarkly, and GCP Cloud Logging, ships a local CLI plus plugins for Claude Code, Codex, Cursor, and OpenCode, and exposes a public agent webhook API. Billing is usage-based (prepaid, Stripe-metered). Macroscope is backed by Lightspeed Venture Partners. Enriched into the API Evangelist network from its public developer documentation.
 image: https://macroscope.com/assets/macroscop-logo-black.svg
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Macroscope
 nav: Providers
 network: true
-overview: 'Macroscope publishes 1 API on the [APIs.io](https://apis.io/) network: Workspaces API. Tagged areas include Company, AI Code Review, Code Intelligence, Developer Tools, and Pull Requests.
+overview: 'Macroscope publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Workspaces API. Tagged areas include Company, AI Code Review, Code Intelligence, Developer Tools, and Pull Requests.
 
 
   The Macroscope catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Macroscope''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, changelog, and 13 more developer resources.'
+  Macroscope''s developer surface includes engineering blog, documentation, API reference, getting-started guide, pricing, signup flow, support, and 14 more developer resources.'
 random_paper: 12
 score:
   band: thin
-  composite: 33.7
+  composite: 34.3
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 23.7
     contract_governance: 4.5
     contract_quality: 22.1
-    developer_ergonomics: 63.7
+    developer_ergonomics: 66.1
     discoverability: 73.2
     operational_transparency: 26.3
   previous_composite: 33.7
@@ -195,8 +199,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: wss://highrise.game/web/botapi
@@ -45,27 +45,27 @@ apis:
 - description: Highrise Studio is the world-building toolset. Its Engine API and Cloud API let creators script custom worlds, games and experiences in Lua with deep customization of the Highrise runtime.
   name: Highrise Studio (Engine + Cloud API)
   slug: highrise-studio-engine-cloud-api
-- baseURL: wss://highrise.game/web/botapi
+- baseURL: https://webapi.highrise.game
   baseurl_source: declared
   description: The grabs API from Highrise — 2 operation(s) for grabs.
   name: Highrise Grabs API
   slug: highrise-grabs-api
-- baseURL: wss://highrise.game/web/botapi
+- baseURL: https://webapi.highrise.game
   baseurl_source: declared
   description: The items API from Highrise — 2 operation(s) for items.
   name: Highrise Items API
   slug: highrise-items-api
-- baseURL: wss://highrise.game/web/botapi
+- baseURL: https://webapi.highrise.game
   baseurl_source: declared
   description: The posts API from Highrise — 2 operation(s) for posts.
   name: Highrise Posts API
   slug: highrise-posts-api
-- baseURL: wss://highrise.game/web/botapi
+- baseURL: https://webapi.highrise.game
   baseurl_source: declared
   description: The rooms API from Highrise — 2 operation(s) for rooms.
   name: Highrise Rooms API
   slug: highrise-rooms-api
-- baseURL: wss://highrise.game/web/botapi
+- baseURL: https://webapi.highrise.game
   baseurl_source: declared
   description: The users API from Highrise — 2 operation(s) for users.
   name: Highrise Users API
@@ -95,6 +95,10 @@ collections:
   name: Highrise Web grabs users API
   slug: open-highrise-users-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://highrise.game/news
 - group: company
   title: ''
   type: Website
@@ -228,34 +232,34 @@ created: '2026-07-17'
 description: 'Highrise is a mobile-first virtual world by Pocket Worlds Inc where users create avatars, hang out in social rooms, design and trade fashion items, and build custom worlds. Alongside the consumer app, Highrise operates a developer platform for creators: a WebSocket Bot API for running programmable bots inside rooms (official Python and .NET SDKs), a read-only REST Web API exposing public users, rooms, posts, items and grabs data, and Highrise Studio with an Engine API and Cloud API for scripting worlds and games in Lua. Bots authenticate with an API token minted from the Highrise account settings and are bound to a room ID.'
 image: https://highrise.game/assets/images/highrise-meta.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Highrise
 nav: Providers
 network: true
-overview: 'Highrise publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Bot API, Grabs API, Items API, and 4 more. Tagged areas include Company, Virtual World, Metaverse, Social, and Gaming.
+overview: 'Highrise publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Bot API, Grabs API, Items API, and 4 more. Tagged areas include Company, Virtual World, Metaverse, Social, and Gaming.
 
 
   The Highrise catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Highrise''s developer surface includes documentation, API reference, getting-started guide, support, CLI, authentication, changelog, and 21 more developer resources.'
+  Highrise''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, CLI, authentication, and 22 more developer resources.'
 random_paper: 15
 score:
   band: developing
-  composite: 40.3
+  composite: 40.9
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 63.0
     catalog_max: 100.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 57.1
     contract_governance: 4.5
     contract_quality: 21.9
-    developer_ergonomics: 54.2
+    developer_ergonomics: 56.5
     discoverability: 73.2
     operational_transparency: 26.3
   previous_composite: 40.3
@@ -274,8 +278,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

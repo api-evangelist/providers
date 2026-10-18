@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 52.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://api.openworklabs.com
@@ -224,7 +224,7 @@ apis:
   description: Worker lifecycle, billing, and runtime routes.
   name: Openwork Workers API
   slug: openwork-workers-api
-artifact_total: 83
+artifact_total: 84
 asyncapis:
 - description: ''
   name: Openwork Webhooks
@@ -514,6 +514,10 @@ common:
   title: ''
   type: AgentSkill
   url: skills/_index.yml
+- group: design
+  title: ''
+  type: SpectralRules
+  url: https://github.com/different-ai/openwork/blob/70c948c2abfc9b875c2971c6306c1603ac62f587/.spectral.yaml
 created: '2026-07-17'
 description: OpenWork is an open-source, enterprise-ready alternative to Claude Cowork — a desktop application and agent runtime, built as a GUI for OpenCode, that lets people work on their local files with AI agents using any of 50+ model providers and their own keys. Teams package skills, MCP servers, plugins, and configs into shareable one-click setups, and administer rollout, SSO, audit, and policy through OpenWork Den, the cloud control plane. The Den API (OpenAPI 3.1, 214 operations) exposes organizations, members, roles, SSO and SCIM provisioning, connectors, capability sources, LLM providers, workers, marketplaces, plugins, and MCP connections, secured by session bearer tokens and organization API keys with an OAuth 2.0 / OIDC authorization server.
 image: https://openworklabs.com/og-image-clean.png
@@ -526,13 +530,13 @@ modified: '2026-07-20'
 name: Openwork
 nav: Providers
 network: true
-overview: 'Openwork publishes 37 APIs on the [APIs.io](https://apis.io/) network, including Admin API, API Keys API, Auth API, and 34 more. Tagged areas include Company, AI Agents, Open Source, Desktop, and Agent Runtime.
+overview: 'Openwork publishes 37 API contracts indexed on the [APIs.io](https://apis.io/) network, including Admin API, API Keys API, Auth API, and 34 more. Tagged areas include Company, AI Agents, Open Source, Desktop, and Agent Runtime.
 
 
-  The Openwork catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Openwork catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Openwork''s developer surface includes authentication, documentation, API reference, signup flow, pricing, changelog, and 31 more developer resources.'
+  Openwork''s developer surface includes authentication, documentation, API reference, signup flow, pricing, changelog, and 32 more developer resources.'
 plans:
 - name: Openwork Plans Pricing
   plan_count: 3
@@ -541,6 +545,19 @@ plans:
   plan_count: 0
   slug: openwork-price-estimates
 random_paper: 5
+rules:
+- authorship: provider
+  effective_rule_count: 46
+  extends:
+  - spectral:oas
+  name: Openwork — openwork rules
+  rule_count: 5
+  severity_counts:
+    error: 2
+    hint: 0
+    info: 0
+    warn: 3
+  slug: openwork-openwork-spectral-rules
 scopes:
 - name: Openwork Scopes
   scope_count: 6
@@ -548,18 +565,18 @@ scopes:
   summary_line: 6 scopes
 score:
   band: strong
-  composite: 58.5
+  composite: 64.1
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 49.0
-    catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    artifact_dirs: 24
+    catalog_earned: 64.0
+    catalog_earned_first_party: 27.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 5.6
   facets:
     access_clarity: 92.1
-    contract_governance: 4.5
+    contract_governance: 50.0
     contract_quality: 58.9
     developer_ergonomics: 37.5
     discoverability: 75.0
@@ -580,9 +597,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: true
     score: 22.2

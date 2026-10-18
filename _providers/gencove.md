@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 83
   human_in_the_loop: 7
@@ -374,7 +374,7 @@ modified: '2026-07-19'
 name: Gencove
 nav: Providers
 network: true
-overview: 'Gencove publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Array API, Basespace API, Batch API, and 17 more. Tagged areas include Company, Health, Genomics, Sequencing, and Bioinformatics.
+overview: 'Gencove publishes 20 API contracts indexed on the [APIs.io](https://apis.io/) network, including Array API, Basespace API, Batch API, and 17 more. Tagged areas include Company, Health, Genomics, Sequencing, and Bioinformatics.
 
 
   The Gencove catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -386,7 +386,7 @@ score:
   band: developing
   composite: 53.7
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -417,8 +417,8 @@ score:
     regime: Health
     regime_id: health
     score: 19.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

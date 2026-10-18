@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-04'
+  score: 20.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -78,6 +78,21 @@ collections:
   name: Lowe's Product Inventory Stores API
   slug: open-lowes-stores-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/lowes/refs/heads/main/plans/lowes-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/lowes-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/lowes/refs/heads/main/rate-limits/lowes-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/lowes-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/lowes/refs/heads/main/finops/lowes-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/lowes-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/lowes/refs/heads/main/capabilities/lowes-capability-edges.yml
   title: ''
@@ -125,19 +140,23 @@ common:
 created: '2026-03-21'
 description: Lowe's Companies, Inc. is an American retail company specializing in home improvement. Lowe's operates a developer portal built on Microsoft Azure API Management that provides partners and developers access to product, inventory, pricing, and store APIs for integration with Lowe's retail operations. Discover APIs, learn how to use them, try them out interactively, and sign up to acquire keys.
 finops:
-- name: Lowes Finops
+- has_sources: true
+  method: generated
+  name: Lowes Finops
+  primary_unit: ''
   service_category: Retail
   slug: lowes-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lowes.png
 layout: provider
 modified: '2026-05-19'
 name: Lowe's
 nav: Providers
 network: true
-overview: 'Lowe''s publishes 3 APIs on the [APIs.io](https://apis.io/) network: Inventory API, Products API, and Stores API. Tagged areas include E-Commerce, Home Improvement, Product, Retail, and Fortune 100.
+overview: 'Lowe''s publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Inventory API, Products API, and Stores API. Tagged areas include E-Commerce, Home Improvement, Product, Retail, and Fortune 100.
 
 
-  Lowe''s'' developer surface includes authentication, developer portal, signup flow, and 7 more developer resources.'
+  Lowe''s'' developer surface includes authentication, developer portal, signup flow, and 10 more developer resources.'
 plans:
 - name: Lowes Plans Pricing
   plan_count: 1
@@ -165,17 +184,17 @@ rate_limits:
   slug: lowes-rate-limits
 score:
   band: thin
-  composite: 28.4
+  composite: 26.9
   coverage:
-    artifact_dirs: 14
-    catalog_earned: 44.0
+    artifact_dirs: 15
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 71.0
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 19.7
+    access_clarity: 11.8
     contract_governance: 0.0
     contract_quality: 44.7
     developer_ergonomics: 31.0
@@ -200,8 +219,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

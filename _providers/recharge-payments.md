@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.5
-  scored_at: '2026-10-04'
+  score: 19.6
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 0
@@ -197,16 +197,20 @@ common:
 created: '2026-07-10'
 description: Recharge (Recharge Payments) is a subscription and recurring-billing platform for e-commerce, most widely used on Shopify. Its public REST API at https://api.rechargeapps.com lets developers manage the full subscription lifecycle - subscriptions, customers, addresses, charges, orders, products, payment methods, onetimes, discounts, and webhooks - programmatically. Requests are authenticated with a store API token in the X-Recharge-Access-Token header and versioned via the X-Recharge-Version header (supported versions 2021-11 and 2021-01). The API is resource-oriented JSON over HTTPS with cursor-based pagination and a leaky-bucket rate limiter.
 finops:
-- name: Recharge Payments Finops
+- has_sources: true
+  method: generated
+  name: Recharge Payments Finops
+  primary_unit: ''
   service_category: E-commerce and Subscription Billing
   slug: recharge-payments-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/recharge-payments.png
 layout: provider
 modified: '2026-07-10'
 name: Recharge
 nav: Providers
 network: true
-overview: 'Recharge publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Addresses API, Charges API, Customers API, and 7 more. Tagged areas include Subscription, Recurring Billing, E-Commerce, Payments, and Shopify.
+overview: 'Recharge publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Addresses API, Charges API, Customers API, and 7 more. Tagged areas include Subscription, Recurring Billing, E-Commerce, Payments, and Shopify.
 
 
   Recharge''s developer surface includes authentication, documentation, engineering blog, and 10 more developer resources.'
@@ -220,23 +224,23 @@ rate_limits:
   name: Recharge Payments Rate Limits
   slug: recharge-payments-rate-limits
 score:
-  band: thin
-  composite: 33.1
+  band: emerging
+  composite: 24.8
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 61.6
+    artifact_dirs: 13
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.4
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 44.2
+    access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 47.5
     developer_ergonomics: 15.5
     discoverability: 66.1
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   previous_composite: 33.1
   provenance:
     agentic_access: derived
@@ -251,9 +255,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 15.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

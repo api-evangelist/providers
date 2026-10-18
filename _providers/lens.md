@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 2
+- acting_count: 0
   human_in_the_loop: 0
   name: Lens Agentic Access
   operation_count: 6
   slug: lens-agentic-access
-  summary_line: 6 operations · 2 acting
+  summary_line: 6 operations
 api_count: 1
 apis:
 - baseURL: https://api.lens.org
@@ -70,6 +70,16 @@ collections:
   name: Lens API
   slug: open-lens
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/lens/refs/heads/main/rate-limits/lens-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/lens-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/lens/refs/heads/main/finops/lens-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/lens-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/lens/refs/heads/main/agentic-access/lens-agentic-access.yml
   title: ''
@@ -120,19 +130,23 @@ common:
 created: '2025-02-06'
 description: Lens is an open knowledge platform from Cambia that aggregates global scholarly works and patent records and exposes them through a REST API. The versioned API supports rich Elasticsearch-style queries, cursor pagination, and field projection across the full Lens scholarly and patent corpora, enabling research, science policy, technology landscape, and patent intelligence applications.
 finops:
-- name: Lens Finops
+- has_sources: false
+  method: generated
+  name: Lens Finops
+  primary_unit: ''
   service_category: API
   slug: lens-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lens.png
 layout: provider
 modified: '2026-05-19'
 name: Lens
 nav: Providers
 network: true
-overview: 'Lens publishes 2 APIs on the [APIs.io](https://apis.io/) network: Patents API and Scholarly API. Tagged areas include Scholarly, Patents, Research, Science, and Open Data.
+overview: 'Lens publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Patents API and Scholarly API. Tagged areas include Scholarly, Patents, Research, Science, and Open Data.
 
 
-  Lens'' developer surface includes authentication, documentation, and 9 more developer resources.'
+  Lens'' developer surface includes authentication, documentation, and 11 more developer resources.'
 plans:
 - name: Lens Plans Pricing
   plan_count: 3
@@ -144,17 +158,17 @@ rate_limits:
   slug: lens-rate-limits
 score:
   band: thin
-  composite: 32.8
+  composite: 31.2
   coverage:
-    artifact_dirs: 9
-    catalog_earned: 46.0
+    artifact_dirs: 10
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 69.0
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 36.8
+    access_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 52.0
     developer_ergonomics: 21.4
@@ -174,8 +188,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 19.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

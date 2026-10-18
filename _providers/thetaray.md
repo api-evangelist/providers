@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: ThetaRay publishes an API developer portal at api.thetaray.com, hosted on Redocly Cloud. The portal root redirects to /openapi and then to an OIDC login at auth.cloud.redocly.com, so the API reference
@@ -130,7 +130,7 @@ modified: '2026-08-05'
 name: ThetaRay
 nav: Providers
 network: true
-overview: 'ThetaRay publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include AML, Financial Crime, Transaction Monitoring, Sanctions Screening, and KYC.
+overview: 'ThetaRay is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include AML, Financial Crime, Transaction Monitoring, Sanctions Screening, and KYC.
 
 
   ThetaRay''s developer surface includes engineering blog, support, and 11 more developer resources.'
@@ -144,7 +144,7 @@ score:
   band: emerging
   composite: 22.2
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 41.5
     catalog_earned_first_party: 0.0
     catalog_gap: 73.5
@@ -168,8 +168,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 31.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

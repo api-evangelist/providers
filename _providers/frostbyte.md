@@ -28,21 +28,21 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.1
-  scored_at: '2026-10-04'
+  score: 26.2
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 102
+- acting_count: 93
   human_in_the_loop: 0
   name: Frostbyte Agentic Access
-  operation_count: 183
+  operation_count: 167
   slug: frostbyte-agentic-access
-  summary_line: 183 operations · 102 acting
-api_count: 7
+  summary_line: 167 operations · 93 acting
+api_count: 8
 apis:
 - baseURL: https://agent-gateway-kappa.vercel.app
   baseurl_source: declared
@@ -151,6 +151,21 @@ collections:
   name: Frostbyte Web Scraper API
   slug: open-frostbyte-web-scraper
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/frostbyte/refs/heads/main/plans/frostbyte-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/frostbyte-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/frostbyte/refs/heads/main/rate-limits/frostbyte-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/frostbyte-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/frostbyte/refs/heads/main/finops/frostbyte-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/frostbyte-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/frostbyte/refs/heads/main/agentic-access/frostbyte-agentic-access.yml
   title: ''
@@ -275,9 +290,13 @@ examples:
   name: Frostbyte Web Scraper Agent Scraper Post Api Scrape Example
   slug: frostbyte-web-scraper-agent-scraper-post-api-scrape-example
 finops:
-- name: Frostbyte Finops
+- has_sources: false
+  method: generated
+  name: Frostbyte Finops
+  primary_unit: ''
   service_category: ''
   slug: frostbyte-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/frostbyte.png
 json_schemas:
 - name: FrostbyteCreditBalance
@@ -303,13 +322,13 @@ modified: '2026-05-19'
 name: Frostbyte
 nav: Providers
 network: true
-overview: 'Frostbyte publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Agent Infrastructure API, Communication API, Crypto Prices API, and 7 more. Tagged areas include Developer Tools, Utility APIs, Geolocation, Cryptocurrency, and Screenshots.
+overview: 'Frostbyte publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agent Infrastructure API, Communication API, Crypto Prices API, and 7 more. Tagged areas include Developer Tools, Utility APIs, Geolocation, Cryptocurrency, and Screenshots.
 
 
   The Frostbyte catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Frostbyte''s developer surface includes authentication, documentation, getting-started guide, and 6 more developer resources.'
+  Frostbyte''s developer surface includes authentication, documentation, getting-started guide, and 9 more developer resources.'
 plans:
 - name: Frostbyte Plans Pricing
   plan_count: 2
@@ -320,9 +339,10 @@ rate_limits:
   name: Frostbyte Rate Limits
   slug: frostbyte-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Frostbyte API Rules
+  name: Frostbyte — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -330,7 +350,8 @@ rules:
     info: 1
     warn: 4
   slug: frostbyte-jsonschema-spectral-rules
-- effective_rule_count: 48
+- authorship: unmarked
+  effective_rule_count: 48
   extends:
   - spectral:oas
   name: Frostbyte API Rules
@@ -343,17 +364,17 @@ rules:
   slug: frostbyte-rules
 score:
   band: thin
-  composite: 34.0
+  composite: 29.7
   coverage:
-    artifact_dirs: 15
-    catalog_earned: 59.7
+    artifact_dirs: 16
+    catalog_earned: 51.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 55.3
+    catalog_gap: 63.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -4.3
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 13.6
     contract_quality: 53.5
     developer_ergonomics: 38.1
@@ -373,8 +394,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 13.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -397,7 +418,7 @@ tags:
 - Cryptocurrency
 - Screenshots
 - DNS
-- Scraping
+- Web Scraping
 - AI Agents
 website: https://api-catalog-three.vercel.app/
 ---

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'The gRPC interface to the Apparatus (Topl) blockchain: NodeRpc on the Bifrost full node for submitting transactions, reading blocks and following the chain tip, and the Genus indexer''s BlockService, T'
@@ -128,7 +128,7 @@ modified: '2026-09-16'
 name: Topl
 nav: Providers
 network: true
-overview: 'Topl publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Blockchain, Distributed Ledger, gRPC, and Protobuf.
+overview: 'Topl is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Blockchain, Distributed Ledger, gRPC, and Protobuf.
 
 
   Topl''s developer surface includes documentation, CLI, authentication, changelog, and 12 more developer resources.'
@@ -177,8 +177,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

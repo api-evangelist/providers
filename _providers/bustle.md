@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.bdg.com/news
 - group: company
   title: ''
   type: Website
@@ -65,31 +69,31 @@ created: '2026-07-17'
 description: Bustle is the flagship lifestyle and culture publication of Bustle Digital Group (BDG), a New York-based digital media company that moves culture forward through premium editorial content, social storytelling, and live experiences. BDG operates a portfolio of eight brands - Bustle, NYLON, Scary Mommy, W Magazine, Inverse, The Zoe Report, Romper, and Elite Daily - spanning lifestyle, fashion, parenting, entertainment, and luxury. The company produces award-winning branded content and campaigns through its BDG Studios and BDGx experiential arm. Bustle is a consumer media publisher rather than an API provider; this profile is maintained in the API Evangelist network as a company/portfolio lead, and no public developer API or specification has been identified on its properties.
 image: https://imgix.bustle.com/uploads/image/2026/3/12/1b21221c/bdg_2026_share.png?w=1200&h=630&fit=crop&fm=jpg
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Bustle
 nav: Providers
 network: true
 overview: 'Bustle is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Media, Digital Publishing, Content, and Lifestyle.
 
 
-  Bustle''s developer surface includes support and 5 more developer resources.'
+  Bustle''s developer surface includes engineering blog, support, and 5 more developer resources.'
 random_paper: 17
 score:
   band: minimal
-  composite: 9.7
+  composite: 10.3
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 4.8
+    developer_ergonomics: 7.1
     discoverability: 48.2
     operational_transparency: 0.0
   jurisdiction:
@@ -104,8 +108,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

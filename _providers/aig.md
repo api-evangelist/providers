@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: AIG offers commercial and personal insurance products globally including property casualty, cyber insurance, casualty, professional liability, financial lines, specialty risk, and reinsurance. AIG ser
@@ -45,6 +45,11 @@ apis:
   slug: aig-commercial-api-gateway
 artifact_total: 41
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/aig/refs/heads/main/finops/aig-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/aig-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/aig/refs/heads/main/security/aig-domain-security.yml
   title: ''
@@ -203,9 +208,13 @@ features:
 - description: Travel protection plans for trip cancellation, medical emergencies, and travel-related risks. Note that AIG's Travel Guard brand and travelguard.com now sit with Zurich; the site names American Zurich Insurance Company and Zurich American Insurance Company as underwriters and carries no AIG branding.
   name: Travel Insurance
 finops:
-- name: Aig Finops
+- has_sources: true
+  method: generated
+  name: Aig Finops
+  primary_unit: ''
   service_category: Insurance
   slug: aig-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aig.png
 integrations:
 - description: Integration with broker platforms for quoting, binding, and policy management via myAIG portal.
@@ -254,13 +263,13 @@ modified: '2026-08-30'
 name: AIG
 nav: Providers
 network: true
-overview: 'AIG publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Financial Services, Property Casualty, Cyber Insurance, and Enterprise.
+overview: 'AIG is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Financial Services, Property and Casualty, Cyber Insurance, and Enterprise.
 
 
   The AIG catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  AIG''s developer surface includes authentication, documentation, developer portal, support, legal docs, engineering blog, and 22 more developer resources.'
+  AIG''s developer surface includes authentication, documentation, developer portal, support, legal docs, engineering blog, and 23 more developer resources.'
 plans:
 - name: Aig Plans Pricing
   plan_count: 0
@@ -287,9 +296,10 @@ rate_limits:
   name: Aig Rate Limits
   slug: aig-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: AIG API Rules
+  name: AIG — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -304,17 +314,17 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 31.0
+  composite: 29.5
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 46.3
+    artifact_dirs: 26
+    catalog_earned: 43.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 68.8
+    catalog_gap: 71.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 28.9
+    access_clarity: 21.1
     contract_governance: 28.0
     contract_quality: 10.7
     developer_ergonomics: 38.1
@@ -330,8 +340,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 42.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -355,7 +365,7 @@ slug: aig
 tags:
 - Insurance
 - Financial Services
-- Property Casualty
+- Property and Casualty
 - Cyber Insurance
 - Enterprise
 - Fortune 100

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: REST API for subscription management and recurring billing — accounts, subscriptions, campaigns, tokens/virtual currency, and payment operations.
@@ -48,6 +48,10 @@ asyncapis:
   name: Vindicia Webhooks
   slug: vindicia-webhooks
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://vindicia.com/blog/
 - group: company
   title: ''
   type: Website
@@ -134,34 +138,34 @@ created: '2026-07-17'
 description: Vindicia (an Amdocs company) is a subscription-billing and payment-recovery platform for subscription businesses. Its flagship products are Vindicia Subscribe, a subscription-management and recurring-billing system, and Vindicia Retain, which uses payments intelligence and machine learning trained on billions of transactions to recover failed recurring payments and reduce involuntary churn. Vindicia Connect adds OAuth2/OpenID Connect identity for end-user authentication. The platform exposes REST APIs (Subscribe and Retain), a legacy CashBox SOAP API, documented webhooks, API-key and OAuth2 authentication, a React SDK, error-code references, dated per-product release notes, and an Atlassian status page. It integrates with major payment processors including Stripe, Adyen, Braintree, PayPal, Chase, CyberSource and ACI Worldwide.
 image: https://vindicia.com/sites/default/files/vindicia-default-og-image.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Vindicia
 nav: Providers
 network: true
-overview: 'Vindicia publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Subscription Billing, Recurring Payments, and Payment Recovery.
+overview: 'Vindicia is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Subscription Billing, Recurring Payments, and Payment Recovery.
 
 
   The Vindicia catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Vindicia''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, changelog, and 11 more developer resources.'
+  Vindicia''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, signup flow, authentication, and 12 more developer resources.'
 random_paper: 3
 score:
   band: thin
-  composite: 33.2
+  composite: 33.7
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 39.0
-    developer_ergonomics: 61.9
+    developer_ergonomics: 64.3
     discoverability: 73.2
     operational_transparency: 39.5
   previous_composite: 33.2
@@ -171,8 +175,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 10.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 5.0
-  scored_at: '2026-10-04'
+  score: 3.1
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: Queen's runs its own Shibboleth Identity Provider and publishes SAML 2.0 IdP metadata as application/xml at a stable, unauthenticated URL on its own registrable domain. The EntityDescriptor carries en
@@ -174,16 +174,20 @@ created: '2026-06-03'
 description: 'Queen''s University at Kingston is a public research university in Kingston, Ontario, Canada — a member of the U15 group of Canadian research universities, serving more than 25,000 students. Its machine-readable footprint is small, and stating it honestly matters more than inflating it: Queen''s operates no public developer portal, no institution-run open-data API, and no published course, timetable, or registrar contract. api.queensu.ca, developer.queensu.ca and data.queensu.ca do not resolve. What Queen''s genuinely operates and publishes on its own domain is federated identity — a Shibboleth Identity Provider serving SAML 2.0 metadata at login.queensu.ca — and an authored llms.txt directing AI agents to official sources. Its two research-data surfaces are real institutional facts but are tenant deployments, not Queen''s engineering: QSpace, the institutional repository, now runs as DSpace 8.4 on Scholaris, the shared service of the Ontario Council of University Libraries,
   and the Queen''s University Dataverse Collection lives inside Borealis, the national Dataverse operated by Scholars Portal. Both expose live REST and OAI-PMH interfaces, and both contracts belong to their platforms. An earlier profile of this repository carried 36 OpenAPI definitions titled after Queen''s; every one of them was the Dataverse product''s own contract, and they have been removed.'
 finops:
-- name: Queens University At Kingston Finops
+- has_sources: true
+  method: generated
+  name: Queens University At Kingston Finops
+  primary_unit: ''
   service_category: Education
   slug: queens-university-at-kingston-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/queens-university-at-kingston.png
 layout: provider
 modified: '2026-08-30'
 name: Queen's University at Kingston
 nav: Providers
 network: true
-overview: 'Queen''s University at Kingston publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include University, Higher Education, Education, Canada, and Ontario.
+overview: 'Queen''s University at Kingston is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include University, Higher Education, Education, Canada, and Ontario.
 
 
   Queen''s University at Kingston''s developer surface includes support, GitHub presence, engineering blog, authentication, and 18 more developer resources.'
@@ -198,22 +202,22 @@ rate_limits:
   slug: queens-university-at-kingston-rate-limits
 score:
   band: emerging
-  composite: 25.6
+  composite: 19.5
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 57.4
+    artifact_dirs: 12
+    catalog_earned: 44.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.6
+    catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -2.4
+  delta: -6.1
   facets:
-    access_clarity: 37.4
+    access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 4.4
     developer_ergonomics: 28.6
     discoverability: 78.6
-    operational_transparency: 24.2
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -221,7 +225,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 28.0
+  previous_composite: 25.6
   provenance:
     conformance: first-party
   regulatory:
@@ -230,9 +234,9 @@ score:
     regime: Education & Research
     regime_id: education
     score: 20.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: PitchMe advertises a "Custom Integration via API" for connecting any ATS or recruitment platform not covered by its native marketplace connectors. As of 2026-08-14 the company publishes no developer p
@@ -111,7 +111,7 @@ modified: '2026-08-14'
 name: PitchMe
 nav: Providers
 network: true
-overview: 'PitchMe publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Recruiting, Data Enrichment, Talent Intelligence, and Human Resources.
+overview: 'PitchMe is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Recruiting, Data Enrichment, Talent Intelligence, and Human Resources.
 
 
   PitchMe''s developer surface includes engineering blog, support, and 9 more developer resources.'
@@ -128,7 +128,7 @@ score:
   band: emerging
   composite: 15.2
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -158,8 +158,8 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 27.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

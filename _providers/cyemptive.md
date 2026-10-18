@@ -34,10 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.cyemptive.com/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/cyemptive/refs/heads/main/security/cyemptive-domain-security.yml
   title: ''
@@ -87,7 +91,7 @@ coverage:
 created: '2026-08-11'
 description: Cyemptive Technologies is a cybersecurity vendor founded in 2014 by Rob Pike, headquartered in Washington State with additional offices in North Carolina, the United Kingdom, France and India. It sells preemptive, detection-independent security to enterprise and government buyers under the Cyemptive ZeroStrike brand — built on its patented CyberSlice technology — alongside ZeroStrike Cloud Command, ZeroStrike Blueprint professional services, Compliancy Cloud and a cyber-insurance offering. Cyemptive is sold as a delivered end-user security product through a direct and partner motion; it publishes no public developer program, API reference or machine-readable contract of any kind.
 layout: provider
-modified: '2026-08-11'
+modified: '2026-10-06'
 name: Cyemptive
 nav: Providers
 network: true
@@ -105,7 +109,7 @@ score:
   band: minimal
   composite: 3.4
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 25.0
     catalog_earned_first_party: 0.0
     catalog_gap: 90.0
@@ -126,8 +130,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

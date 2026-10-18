@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 97
+- acting_count: 43
   human_in_the_loop: 0
   name: Bolt Eu Agentic Access
-  operation_count: 97
+  operation_count: 45
   slug: bolt-eu-agentic-access
-  summary_line: 97 operations · 97 acting
+  summary_line: 45 operations · 43 acting
 api_count: 3
 apis:
 - baseURL: https://node.bolt.eu/delivery-provider-pos
@@ -157,7 +157,7 @@ modified: '2026-09-16'
 name: Bolt
 nav: Providers
 network: true
-overview: 'Bolt publishes 6 APIs on the [APIs.io](https://apis.io/) network, including GenericClient API, Pim API, ValidateLoyaltyCard API, and 3 more. Tagged areas include Ride Booking, Ride Hailing, Mobility, Transportation, and Food Delivery.
+overview: 'Bolt publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including GenericClient API, Pim API, ValidateLoyaltyCard API, and 3 more. Tagged areas include Ride Booking, Ride Hailing, Mobility, Transportation, and Food Delivery.
 
 
   Bolt''s developer surface includes authentication, documentation, engineering blog, and 10 more developer resources.'
@@ -168,17 +168,17 @@ plans:
 random_paper: 14
 score:
   band: thin
-  composite: 30.9
+  composite: 26.8
   coverage:
-    artifact_dirs: 9
-    catalog_earned: 50.8
+    artifact_dirs: 11
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 64.2
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -4.1
   facets:
-    access_clarity: 36.3
+    access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 41.9
     developer_ergonomics: 15.5
@@ -203,8 +203,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

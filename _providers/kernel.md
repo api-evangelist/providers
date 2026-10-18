@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 81
-  human_in_the_loop: 15
+- acting_count: 80
+  human_in_the_loop: 14
   name: Kernel Agentic Access
   operation_count: 135
   slug: kernel-agentic-access
-  summary_line: 135 operations · 81 acting · 15 human-in-the-loop
+  summary_line: 135 operations · 80 acting · 14 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://api.onkernel.com
@@ -395,7 +395,7 @@ modified: '2026-07-19'
 name: Kernel
 nav: Providers
 network: true
-overview: 'Kernel publishes 22 APIs on the [APIs.io](https://apis.io/) network, including API Keys API, Apps API, Audit Logs API, and 19 more. Tagged areas include Company, Browser Automation, Web Agents, Browser Infrastructure, and AI Agents.
+overview: 'Kernel publishes 22 API contracts indexed on the [APIs.io](https://apis.io/) network, including API Keys API, Apps API, Audit Logs API, and 19 more. Tagged areas include Company, Browser Automation, Web Agents, Browser Infrastructure, and AI Agents.
 
 
   Kernel''s developer surface includes authentication, CLI, changelog, documentation, API reference, getting-started guide, support, and 26 more developer resources.'
@@ -407,15 +407,15 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: developing
-  composite: 49.5
+  composite: 49.6
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 18.4
     contract_governance: 18.2
@@ -440,8 +440,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 31.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

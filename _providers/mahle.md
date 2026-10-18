@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 4
 common:
@@ -68,9 +68,13 @@ common:
 created: '2026-05-06'
 description: MAHLE is a German global Tier 1 automotive supplier headquartered in Stuttgart. MAHLE designs and manufactures thermal management, electrification, engine systems and components, filtration, and mechatronics for passenger cars, commercial vehicles, and off-highway equipment.
 finops:
-- name: Mahle Finops
+- has_sources: true
+  method: generated
+  name: Mahle Finops
+  primary_unit: ''
   service_category: Industrial / Automotive
   slug: mahle-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mahle.png
 layout: provider
 modified: '2026-05-06'
@@ -88,23 +92,23 @@ rate_limits:
   name: Mahle Rate Limits
   slug: mahle-rate-limits
 score:
-  band: emerging
-  composite: 11.2
+  band: minimal
+  composite: 5.2
   coverage:
     artifact_dirs: 6
-    catalog_earned: 44.4
+    catalog_earned: 31.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 70.6
+    catalog_gap: 84.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.0
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
     discoverability: 48.2
-    operational_transparency: 18.9
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -117,9 +121,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

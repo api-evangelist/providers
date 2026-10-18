@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Public HTTP API for Antpool, Bitmain's Bitcoin mining pool. Account operators can read account balance, account and worker hashrate, worker lists, payment history, and pool statistics. All private int
@@ -43,6 +43,10 @@ apis:
   slug: antpool-api
 artifact_total: 4
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.bitmain.com/news/
 - group: company
   title: ''
   type: Website
@@ -92,14 +96,14 @@ created: '2026-07-17'
 description: Bitmain Technologies is a Beijing-based designer and manufacturer of ASIC cryptocurrency-mining hardware, best known for its Antminer line of Bitcoin (SHA-256) and other proof-of-work miners. Bitmain also operates Antpool, one of the world's largest Bitcoin mining pools, which exposes a public HTTP API that lets account operators programmatically read account balances, account and worker hashrate, worker lists, payment history, and pool-wide statistics. The Antpool API authenticates each request with an HMAC-SHA256 signature computed from the operator's user id, API key, and an incrementing nonce, and rate-limits clients to 600 requests per 10 minutes per IP. This company was surfaced as a portfolio company of Hongshan and enriched by the API Evangelist pipeline.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bitmain.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Bitmain
 nav: Providers
 network: true
-overview: 'Bitmain publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Technology, Cryptocurrency, Bitcoin, and Mining.
+overview: 'Bitmain is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Technology, Cryptocurrency, Bitcoin, and Mining.
 
 
-  Bitmain''s developer surface includes support, documentation, API reference, authentication, and 6 more developer resources.'
+  Bitmain''s developer surface includes engineering blog, support, documentation, API reference, authentication, and 6 more developer resources.'
 random_paper: 14
 rate_limits:
 - limit_count: 1
@@ -107,20 +111,20 @@ rate_limits:
   slug: bitmain-rate-limits
 score:
   band: emerging
-  composite: 13.2
+  composite: 13.7
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 16.7
+    developer_ergonomics: 19.0
     discoverability: 73.2
     operational_transparency: 23.7
   jurisdiction:
@@ -137,8 +141,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

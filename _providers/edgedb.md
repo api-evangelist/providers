@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 15.5
-  scored_at: '2026-10-04'
+  score: 13.6
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: Executes EdgeQL queries over HTTP against a Gel/EdgeDB instance. Supports GET and POST requests with query, variables, globals, and config fields. Authentication uses HTTP Basic (password), Bearer tok
@@ -102,9 +102,13 @@ common:
 created: '2026-06-12'
 description: EdgeDB (rebranded as Gel in 2025) is an open-source object-relational database built on top of PostgreSQL that combines a modern graph-relational data model with a powerful query language called EdgeQL. It provides an HTTP-based EdgeQL query API and a GraphQL API, allowing developers to query their database over standard HTTP using bearer token authentication. EdgeDB Cloud offers a fully managed hosting service with free and paid tiers, integrating with platforms such as Vercel, Netlify, Fly.io, and Railway. Client libraries are available for TypeScript, Python, Go, Dart, Rust, .NET, and Java.
 finops:
-- name: Edgedb Finops
+- has_sources: true
+  method: generated
+  name: Edgedb Finops
+  primary_unit: ''
   service_category: Database
   slug: edgedb-finops
+  template: false
 graphqls:
 - description: EdgeDB (rebranded as Gel in 2025) exposes a GraphQL API that automatically reflects your database schema as a full CRUD API. Every object type, computed property, link, and alias defined in your EdgeD
   name: EdgeDB GraphQL API
@@ -120,7 +124,7 @@ modified: '2026-06-12'
 name: EdgeDB
 nav: Providers
 network: true
-overview: 'EdgeDB publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Database, PostgreSQL, Graph Database, Object-Relational, and EdgeQL.
+overview: 'EdgeDB is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Database, PostgreSQL, Graph Database, Object-Relational, and EdgeQL.
 
 
   The EdgeDB catalog on APIs.io includes 1 JSON-LD context.
@@ -138,22 +142,22 @@ rate_limits:
   slug: edgedb-rate-limits
 score:
   band: thin
-  composite: 33.9
+  composite: 26.5
   coverage:
     artifact_dirs: 9
-    catalog_earned: 69.0
+    catalog_earned: 53.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 46.0
+    catalog_gap: 62.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.4
   facets:
-    access_clarity: 46.8
+    access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 43.6
     developer_ergonomics: 11.9
     discoverability: 71.4
-    operational_transparency: 37.4
+    operational_transparency: 23.7
   previous_composite: 33.9
   regulatory:
     applies: true
@@ -161,9 +165,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

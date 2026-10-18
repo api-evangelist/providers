@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.2
-  scored_at: '2026-10-04'
+  score: 19.3
+  scored_at: '2026-10-17'
 api_count: 15
 apis:
 - description: Returns optimal swap routes and ready-to-sign transaction calldata across aggregated DEX liquidity. Supports Classic Swap, intent-based Fusion, and cross-chain Fusion+ flows.
@@ -84,6 +84,21 @@ apis:
   slug: domains-api
 artifact_total: 21
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/1inch/refs/heads/main/plans/1inch-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/1inch-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/1inch/refs/heads/main/rate-limits/1inch-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/1inch-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/1inch/refs/heads/main/finops/1inch-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/1inch-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/1inch/refs/heads/main/a2a/1inch-a2a.yml
   title: ''
@@ -134,9 +149,13 @@ common:
 created: '2026-05-23'
 description: 1inch is a leading DeFi aggregator providing best-execution swaps across decentralized exchanges, an intent-based Fusion order flow, cross-chain Fusion+ swaps, limit orders, and rich market data. The 1inch Developer Portal (business.1inch.com/portal) exposes 13+ REST APIs covering Swap, Orderbook, Spot Price, Token, Token Details, Charts, Balance, Portfolio, Transaction Gateway, History, Traces, Gas Price, Web3 RPC, NFT, and Domains across 14+ EVM and non-EVM chains, distributed under a single API key.
 finops:
-- name: 1Inch Finops
+- has_sources: false
+  method: generated
+  name: 1Inch Finops
+  primary_unit: ''
   service_category: API
   slug: 1inch-finops
+  template: true
 graphqls:
 - description: 1inch exposes on-chain DeFi data through multiple subgraphs deployed on The Graph protocol. These GraphQL APIs index Ethereum mainnet events from 1inch's Mooniswap AMM, Limit Order Protocol, and Candl
   name: 1inch GraphQL (The Graph Subgraphs)
@@ -147,10 +166,10 @@ modified: '2026-05-23'
 name: 1inch
 nav: Providers
 network: true
-overview: '1inch publishes 15 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include DeFi, DEX Aggregator, Swap, Limit Orders, and Fusion.
+overview: '1inch is listed with 15 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include DeFi, DEX Aggregator, Swap, Limit Orders, and Fusion.
 
 
-  1inch''s developer surface includes developer portal, documentation, GitHub presence, engineering blog, support, and 6 more developer resources.'
+  1inch''s developer surface includes developer portal, documentation, GitHub presence, engineering blog, support, and 9 more developer resources.'
 plans:
 - name: 1Inch Plans Pricing
   plan_count: 1
@@ -161,23 +180,23 @@ rate_limits:
   name: 1Inch Rate Limits
   slug: 1inch-rate-limits
 score:
-  band: thin
-  composite: 27.0
+  band: emerging
+  composite: 21.0
   coverage:
-    artifact_dirs: 10
-    catalog_earned: 57.4
+    artifact_dirs: 11
+    catalog_earned: 44.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.6
+    catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.0
   facets:
-    access_clarity: 34.7
+    access_clarity: 13.2
     contract_governance: 0.0
     contract_quality: 29.8
     developer_ergonomics: 11.9
     discoverability: 78.6
-    operational_transparency: 24.2
+    operational_transparency: 10.5
   previous_composite: 27.0
   regulatory:
     applies: true
@@ -185,9 +204,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 15.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: OAuth2 / OpenID-Connect secured API to discover bookable resources and book and manage patient appointments for a clinic. Versioned in the URL path (booking v3, auth v2).
@@ -41,6 +41,14 @@ apis:
   slug: samedi-booking-api
 artifact_total: 4
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.samedi.com/blog
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.samedi.com/feed.rss
 - group: company
   title: ''
   type: Website
@@ -123,14 +131,14 @@ created: '2026-07-17'
 description: samedi is a Berlin-based healthcare software provider delivering smart scheduling and coordination software for medical practices, clinics and hospitals across the DACH region. Its platform covers online appointment booking, patient portals, video consultations, digital intake forms, AI phone assistance, resource and staff planning, and automated patient communication, serving thousands of healthcare institutions. For developers, samedi exposes an OAuth2 / OpenID-Connect Booking API and a Portal API, publishes open-source FHIR, HL7 and CalDAV integration gateways plus Ruby and PHP reference clients, and offers more than 40 interfaces to practice-management (PMS) and hospital-information (HIS) systems.
 image: https://www.samedi.com/en
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: samedi
 nav: Providers
 network: true
-overview: 'samedi publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Scheduling, Appointments, and Booking.
+overview: 'samedi is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Scheduling, Appointments, and Booking.
 
 
-  samedi''s developer surface includes signup flow, authentication, and 15 more developer resources.'
+  samedi''s developer surface includes engineering blog, signup flow, authentication, and 16 more developer resources.'
 random_paper: 11
 scopes:
 - name: Samedi Scopes
@@ -139,20 +147,20 @@ scopes:
   summary_line: 10 scopes · authorizationCode/clientCredentials
 score:
   band: thin
-  composite: 26.5
+  composite: 27.1
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 19.0
+    developer_ergonomics: 21.4
     discoverability: 73.2
     operational_transparency: 18.4
   jurisdiction:
@@ -172,8 +180,8 @@ score:
     regime: Health
     regime_id: health
     score: 39.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

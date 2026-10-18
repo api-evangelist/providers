@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 3
+- acting_count: 1
   human_in_the_loop: 0
   name: Linkup So Agentic Access
   operation_count: 5
   slug: linkup-so-agentic-access
-  summary_line: 5 operations · 3 acting
+  summary_line: 5 operations · 1 acting
 api_count: 1
 apis:
 - baseURL: https://api.linkup.so/v1
@@ -85,6 +85,10 @@ collections:
   name: Linkup API
   slug: open-linkup-so
 common:
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.linkup.so/pricing
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/linkup-so/refs/heads/main/agentic-access/linkup-so-agentic-access.yml
   title: ''
@@ -143,46 +147,50 @@ common:
 created: '2026-06-20'
 description: Linkup is a production-grade web search and answer API for AI agents and LLMs. Its /search endpoint grounds model responses in real-time web context, returning ranked results, sourced answers with citations, or structured output, plus /fetch for clean LLM-ready markdown, an async /research endpoint, and a credits balance endpoint - all authenticated with a Bearer API key.
 finops:
-- name: Linkup So Finops
+- has_sources: true
+  method: generated
+  name: Linkup So Finops
+  primary_unit: ''
   service_category: AI and Machine Learning
   slug: linkup-so-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/linkup-so.png
 layout: provider
 modified: '2026-06-20'
 name: Linkup
 nav: Providers
 network: true
-overview: 'Linkup publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Credits API, Fetch API, Research API, and 1 more. Tagged areas include Artificial Intelligence, LLM, Web Search, Grounding, and RAG.
+overview: 'Linkup publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Credits API, Fetch API, Research API, and 1 more. Tagged areas include Artificial Intelligence, LLM, Web Search, Grounding, and RAG.
 
 
-  Linkup''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
+  Linkup''s developer surface includes pricing, authentication, documentation, engineering blog, and 9 more developer resources.'
 plans:
 - name: Linkup So Plans Pricing
-  plan_count: 3
+  plan_count: 4
   slug: linkup-so-plans-pricing
 random_paper: 6
 rate_limits:
-- limit_count: 3
+- limit_count: 1
   name: Linkup So Rate Limits
   slug: linkup-so-rate-limits
 score:
   band: thin
-  composite: 37.1
+  composite: 37.3
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 61.6
-    catalog_earned_first_party: 0.0
-    catalog_gap: 53.4
+    artifact_dirs: 12
+    catalog_earned: 57.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.2
   facets:
-    access_clarity: 44.2
+    access_clarity: 50.0
     contract_governance: 0.0
     contract_quality: 48.4
     developer_ergonomics: 31.0
     discoverability: 66.1
-    operational_transparency: 31.1
+    operational_transparency: 23.7
   previous_composite: 37.1
   provenance:
     agentic_access: derived
@@ -197,8 +205,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

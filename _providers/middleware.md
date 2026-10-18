@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: verified
     openapi_examples: false
     protected_resource_metadata: verified
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.9
-  scored_at: '2026-10-04'
+  score: 28.0
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'The Middleware Public API provides programmatic access to observability data including metrics, logs, traces, events, alerts, and dashboards, enabling integration of monitoring and observability into '
@@ -41,6 +41,21 @@ apis:
   slug: middleware-api
 artifact_total: 9
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/middleware/refs/heads/main/plans/middleware-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/middleware-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/middleware/refs/heads/main/rate-limits/middleware-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/middleware-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/middleware/refs/heads/main/finops/middleware-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/middleware-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/middleware/refs/heads/main/security/middleware-trust-center.yml
   title: ''
@@ -104,9 +119,13 @@ common:
 created: '2026-03-26'
 description: Middleware is a cloud-native observability platform that provides full-stack monitoring including infrastructure, APM, log management, real user monitoring, database monitoring, container monitoring, synthetic monitoring, serverless monitoring, and LLM observability with AI-powered insights and auto-instrumentation across 200+ integrations.
 finops:
-- name: Middleware Finops
+- has_sources: false
+  method: generated
+  name: Middleware Finops
+  primary_unit: ''
   service_category: API
   slug: middleware-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/middleware.png
 jsonld:
 - class_count: 3
@@ -122,13 +141,13 @@ modified: '2026-04-28'
 name: Middleware
 nav: Providers
 network: true
-overview: 'Middleware publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include AI Operations, APM, API Monitoring, Container Monitoring, and Database Monitoring.
+overview: 'Middleware is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include AI Operations, APM, API Monitoring, Container Monitoring, and Database Monitoring.
 
 
   The Middleware catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Middleware''s developer surface includes documentation, engineering blog, pricing, GitHub presence, signup flow, support, and 8 more developer resources.'
+  Middleware''s developer surface includes documentation, engineering blog, pricing, GitHub presence, signup flow, support, and 11 more developer resources.'
 plans:
 - name: Middleware Plans Pricing
   plan_count: 3
@@ -139,18 +158,18 @@ rate_limits:
   name: Middleware Rate Limits
   slug: middleware-rate-limits
 score:
-  band: thin
-  composite: 27.0
+  band: emerging
+  composite: 25.5
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 51.0
+    artifact_dirs: 12
+    catalog_earned: 48.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 64.0
+    catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 40.8
+    access_clarity: 32.9
     contract_governance: 0.0
     contract_quality: 6.7
     developer_ergonomics: 31.0
@@ -165,8 +184,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -181,7 +200,7 @@ security:
 - kind: vulnerability-disclosure
   name: Middleware Vulnerability Disclosure
   slug: middleware-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 - kind: trust-center
   name: Middleware Trust Center
   slug: middleware-trust-center

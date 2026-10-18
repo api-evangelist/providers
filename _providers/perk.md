@@ -14,7 +14,7 @@ agent_readiness:
   dimensions:
     agent_card: false
     agent_skills: derived
-    agentic_access: false
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
     consent_identity: false
@@ -25,16 +25,23 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: documented
-    openapi_examples: false
+    openapi_examples: verified
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.6
-  scored_at: '2026-10-04'
-api_count: 2
+  score: 37.4
+  scored_at: '2026-10-17'
+agentic_access:
+- acting_count: 15
+  human_in_the_loop: 0
+  name: Perk Agentic Access
+  operation_count: 42
+  slug: perk-agentic-access
+  summary_line: 42 operations · 15 acting
+api_count: 8
 apis:
 - description: 'REST API for Perk travel, expense, invoice, trip, cost-center, event, and card data. Authenticate with an account API key (customers) or OAuth 2.0 (partners); send Api-Version: 1.'
   name: Perk Travel & Spend API
@@ -42,12 +49,114 @@ apis:
 - description: SCIM 2.0 user-provisioning API for creating, updating, and deactivating Perk users from identity providers (Okta, Microsoft Entra ID), including an expense extension schema.
   name: Perk SCIM API
   slug: perk-scim-api
-artifact_total: 8
+- baseURL: https://api.perk.com
+  baseurl_source: declared
+  description: Create, retrieve, modify, and archive cost objects (cost centers) in your Perk organization. For more information, see [Cost objects in Perk](https://support.perk.com/hc/en-us/articles/21926030522908-
+  name: Perk Cost centers API
+  slug: perk-cost-centers-api
+- baseURL: https://api.perk.com
+  baseurl_source: declared
+  description: Retrieve select options for custom fields in your Perk account.
+  name: Perk Custom fields API
+  slug: perk-custom-fields-api
+- baseURL: https://api.perk.com
+  baseurl_source: declared
+  description: The Bookings API from Perk — 1 operation(s) for bookings.
+  name: Perk Bookings API
+  slug: perk-bookings-api
+- baseURL: https://api.perk.com
+  baseurl_source: declared
+  description: The Companies API from Perk — 1 operation(s) for companies.
+  name: Perk Companies API
+  slug: perk-companies-api
+- baseURL: https://api.perk.com
+  baseurl_source: declared
+  description: The Invoices API from Perk — 4 operation(s) for invoices.
+  name: Perk Invoices API
+  slug: perk-invoices-api
+- baseURL: https://api.perk.com
+  baseurl_source: declared
+  description: The Profiles API from Perk — 1 operation(s) for profiles.
+  name: Perk Profiles API
+  slug: perk-profiles-api
+- baseURL: https://api.perk.com
+  baseurl_source: declared
+  description: The Schemas API from Perk — 5 operation(s) for schemas.
+  name: Perk Schemas API
+  slug: perk-schemas-api
+- baseURL: https://api.perk.com
+  baseurl_source: declared
+  description: The Suppliers API from Perk — 1 operation(s) for suppliers.
+  name: Perk Suppliers API
+  slug: perk-suppliers-api
+- baseURL: https://api.perk.com
+  baseurl_source: declared
+  description: The Trips API from Perk — 3 operation(s) for trips.
+  name: Perk Trips API
+  slug: perk-trips-api
+- baseURL: https://api.perk.com
+  baseurl_source: declared
+  description: The Users API from Perk — 3 operation(s) for users.
+  name: Perk Users API
+  slug: perk-users-api
+- baseURL: https://api.perk.com
+  baseurl_source: declared
+  description: The Webhooks API from Perk — 4 operation(s) for webhooks.
+  name: Perk Webhooks API
+  slug: perk-webhooks-api
+- baseURL: https://api.perk.com
+  baseurl_source: declared
+  description: The Resource Types API from Perk — 1 operation(s) for resource types.
+  name: Perk Resource Types API
+  slug: perk-resource-types-api
+- baseURL: https://api.perk.com
+  baseurl_source: declared
+  description: The Service Provider Config API from Perk — 1 operation(s) for service provider config.
+  name: Perk Service Provider Config API
+  slug: perk-service-provider-config-api
+artifact_total: 23
 asyncapis:
 - description: ''
   name: Perk Webhooks
   slug: perk-webhooks
 common:
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/perk/refs/heads/main/agentic-access/perk-agentic-access.yml
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/perk-agentic-access.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/perk/refs/heads/main/rules/perk-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/perk-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/perk/refs/heads/main/vocabulary/perk-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/perk-vocabulary.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/perk/refs/heads/main/hosts/perk-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/perk-hosts.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/perk/refs/heads/main/vendors/perk-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/perk-vendors.yml
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.perk.com/legal/privacy-policy/
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://www.perk.com/news/
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.perk.com/blog/
 - group: company
   title: ''
   type: Website
@@ -195,44 +304,63 @@ mcp_servers:
 - description: Perk's official hosted Model Context Protocol (MCP) server. Connects MCP-compatible AI clients (Claude Code, Cursor, Codex, MCP Inspector) to Perk travel, spend, invoice, event, policy, and card data.
   name: Perk MCP Server
   slug: perk-mcp-server
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Perk
 nav: Providers
 network: true
-overview: 'Perk publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Corporate Travel, Expense Management, Spend Management, and Travel.
+overview: 'Perk publishes 15 API contracts indexed on the [APIs.io](https://apis.io/) network, including Cost centers API, Custom fields API, Bookings API, and 12 more. Tagged areas include Company, Corporate Travel, Expense Management, Spend Management, and Travel.
 
 
-  The Perk catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Perk catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Perk''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 23 more developer resources.'
+  Perk''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, pricing, signup flow, and 31 more developer resources.'
 random_paper: 16
+rules:
+- authorship: generated
+  effective_rule_count: 51
+  extends:
+  - spectral:oas
+  name: Perk API Rules
+  rule_count: 10
+  severity_counts:
+    error: 6
+    hint: 0
+    info: 1
+    warn: 3
+  slug: perk-rules
 scopes:
 - name: Perk Scopes
   scope_count: 5
   slug: perk-scopes
   summary_line: 5 scopes
 score:
-  band: developing
-  composite: 45.1
+  band: strong
+  composite: 56.1
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 37.0
+    artifact_dirs: 26
+    catalog_earned: 45.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 69.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 11.0
   facets:
-    access_clarity: 28.9
-    contract_governance: 18.2
-    contract_quality: 39.0
-    developer_ergonomics: 49.4
-    discoverability: 71.7
+    access_clarity: 39.5
+    contract_governance: 35.6
+    contract_quality: 61.9
+    developer_ergonomics: 51.8
+    discoverability: 78.3
     operational_transparency: 57.9
   previous_composite: 45.1
   provenance:
+    agentic_access: derived
     conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 100.0
+      total: 13
     mcp: first-party
     skills: derived
   regulatory:
@@ -240,14 +368,13 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 34.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+    score: 38.2
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/perk/refs/heads/main/screenshots/perk-2026-08-17T081158.png
 security:
 - kind: authentication

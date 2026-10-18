@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 15.5
-  scored_at: '2026-10-04'
+  score: 13.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Matternet's proprietary cloud platform that receives customer delivery requests, generates routes, and commands, controls, and monitors all operating Matternet assets. A consistent internal Hasura-pow
@@ -51,6 +51,10 @@ collections:
   name: Matternet Cloud Platform API
   slug: open-matternet
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.matternet.com/newsroom?format=rss
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/matternet/refs/heads/main/security/matternet-domain-security.yml
   title: ''
@@ -94,19 +98,23 @@ common:
 created: '2026-06-20'
 description: Matternet designs, builds, and operates autonomous urban drone-logistics networks for healthcare and on-demand delivery. The integrated system pairs the FAA type-certified M2 aircraft with the Matternet Station and a proprietary cloud Software Platform that routes, commands, and monitors flights. Telemetry streams from drones and stations to the cloud over an MQTT broker (HiveMQ) as protobuf messages, and a consistent internal Hasura-powered GraphQL data layer serves Matternet's operator and client applications. As of this profile, Matternet does not publish a public or self-serve developer API; integrations are delivered through partner and operator engagements.
 finops:
-- name: Matternet Finops
+- has_sources: true
+  method: generated
+  name: Matternet Finops
+  primary_unit: ''
   service_category: Logistics and Delivery
   slug: matternet-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/matternet.png
 layout: provider
-modified: '2026-07-25'
+modified: '2026-10-06'
 name: Matternet
 nav: Providers
 network: true
-overview: 'Matternet publishes 2 APIs on the [APIs.io](https://apis.io/) network: Cloud Software Platform and Logistics Integration. Tagged areas include Drone Delivery, Logistics, Healthcare, Autonomous, and UAS.
+overview: 'Matternet publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Cloud Software Platform and Logistics Integration. Tagged areas include Drone Delivery, Logistics, Healthcare, Autonomous, and UAS.
 
 
-  Matternet''s developer surface includes documentation, engineering blog, and 7 more developer resources.'
+  Matternet''s developer surface includes documentation, engineering blog, and 8 more developer resources.'
 plans:
 - name: Matternet Plans Pricing
   plan_count: 1
@@ -118,22 +126,22 @@ rate_limits:
   slug: matternet-rate-limits
 score:
   band: emerging
-  composite: 21.8
+  composite: 14.9
   coverage:
     artifact_dirs: 9
-    catalog_earned: 53.0
+    catalog_earned: 37.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 62.0
+    catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.9
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 23.3
     developer_ergonomics: 11.9
     discoverability: 57.1
-    operational_transparency: 28.4
+    operational_transparency: 7.9
   previous_composite: 21.8
   regulatory:
     applies: true
@@ -141,9 +149,9 @@ score:
     regime: Health
     regime_id: health
     score: 4.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

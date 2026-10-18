@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -155,15 +155,16 @@ modified: '2026-05-30'
 name: jService
 nav: Providers
 network: true
-overview: 'jService publishes 3 APIs on the [APIs.io](https://apis.io/) network: Categories API, Clues API, and Moderation API. Tagged areas include Trivia, Jeopardy, Open Source, Ruby, and Rails.
+overview: 'jService publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Categories API, Clues API, and Moderation API. Tagged areas include Trivia, Jeopardy, Open Source, Ruby, and Rails.
 
 
   The jService catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.'
 random_paper: 1
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: jService API Rules
+  name: jService — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -171,7 +172,8 @@ rules:
     info: 1
     warn: 4
   slug: jservice-jsonschema-spectral-rules
-- effective_rule_count: 52
+- authorship: unmarked
+  effective_rule_count: 52
   extends:
   - spectral:oas
   name: jService API Rules
@@ -214,8 +216,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

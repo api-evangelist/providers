@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Palm HR REST API surface (api.palm.hr). Customers create API keys with granular permissions to push HR, attendance, and payroll data to ERPs and external tools. No public OpenAPI specification or deve
@@ -97,7 +97,7 @@ modified: '2026-07-20'
 name: Palm HR
 nav: Providers
 network: true
-overview: 'Palm HR publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Human Resources, Payroll, Attendance, and Performance Management.
+overview: 'Palm HR is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Human Resources, Payroll, Attendance, and Performance Management.
 
 
   Palm HR''s developer surface includes pricing and 10 more developer resources.'
@@ -106,7 +106,7 @@ score:
   band: emerging
   composite: 16.0
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -126,6 +126,7 @@ score:
     - united-arab-emirates
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
+    - mena
     - middle-east
   previous_composite: 16.0
   regulatory:
@@ -134,8 +135,8 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 19.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

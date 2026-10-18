@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -205,16 +205,20 @@ common:
 created: '2026-06-13'
 description: Duda is a professional website builder platform for agencies, SaaS companies, and web professionals. It provides a REST API for creating and managing websites, pages, templates, sections, content, widgets, eCommerce stores, blog posts, dynamic collections, and white-label client portal access. The platform is designed for digital agencies to build and manage websites at scale.
 finops:
-- name: Duda Finops
+- has_sources: false
+  method: generated
+  name: Duda Finops
+  primary_unit: ''
   service_category: ''
   slug: duda-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/duda.png
 layout: provider
 modified: '2026-06-13'
 name: Duda
 nav: Providers
 network: true
-overview: 'Duda publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Authentication API, Blog API, and 7 more. Tagged areas include Website Builder, Agencies, White Label, Software-as-a-Service, and E-Commerce.
+overview: 'Duda publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, Authentication API, Blog API, and 7 more. Tagged areas include Website Builder, Agencies, White Label, Software-as-a-Service, and E-Commerce.
 
 
   Duda''s developer surface includes authentication, documentation, engineering blog, pricing, and 13 more developer resources.'
@@ -228,23 +232,23 @@ rate_limits:
   name: Duda Rate Limits
   slug: duda-rate-limits
 score:
-  band: developing
-  composite: 41.1
+  band: thin
+  composite: 34.5
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 58.0
+    artifact_dirs: 13
+    catalog_earned: 42.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.0
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.6
   facets:
-    access_clarity: 46.8
+    access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 51.2
     developer_ergonomics: 26.2
     discoverability: 66.1
-    operational_transparency: 55.8
+    operational_transparency: 42.1
   open_source:
     applies: true
     score: 25.0
@@ -262,9 +266,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 27.8

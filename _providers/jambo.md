@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 0
 common:
@@ -76,7 +76,7 @@ modified: '2026-07-19'
 name: Jambo
 nav: Providers
 network: true
-overview: 'Jambo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto, Web3, Blockchain, and Mobile.
+overview: 'Jambo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cryptocurrency, Web3, Blockchain, and Mobile.
 
 
   Jambo''s developer surface includes YouTube channel and 7 more developer resources.'
@@ -85,7 +85,7 @@ score:
   band: minimal
   composite: 1.9
   coverage:
-    artifact_dirs: 1
+    artifact_dirs: 2
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -112,22 +112,22 @@ score:
     regime: Payments
     regime_id: payments
     score: 0.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/jambo/refs/heads/main/screenshots/jambo-2026-10-11T190756.png
 slug: jambo
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Web3
 - Blockchain
 - Mobile
 - Wallets
-- Cryptocurrency
 - DeFi
 - Smartphone
 - Financial Inclusion

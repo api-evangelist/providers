@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -45,7 +45,7 @@ agentic_access:
   operation_count: 5
   slug: automation-preflight-api-agentic-access
   summary_line: 5 operations · 3 acting
-api_count: 2
+api_count: 4
 apis:
 - baseURL: https://preflight.tinyopsstudio.com
   baseurl_source: declared
@@ -258,7 +258,7 @@ modified: '2026-08-09'
 name: Automation Preflight API
 nav: Providers
 network: true
-overview: 'Automation Preflight API publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Acceptance Pack API, Analyze API, Direct API, and 1 more. Tagged areas include Automation, Integration, Developer Tools, Readiness, and Testing.
+overview: 'Automation Preflight API publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Acceptance Pack API, Analyze API, Direct API, and 1 more. Tagged areas include Automation, Integration, Developer Tools, Readiness, and Testing.
 
 
   The Automation Preflight API catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -275,7 +275,8 @@ rate_limits:
   name: Automation Preflight Api Rate Limits
   slug: automation-preflight-api-rate-limits
 rules:
-- effective_rule_count: 52
+- authorship: generated
+  effective_rule_count: 52
   extends:
   - spectral:oas
   name: Automation Preflight API API Rules
@@ -288,23 +289,23 @@ rules:
   slug: automation-preflight-api-rules
 score:
   band: developing
-  composite: 49.2
+  composite: 49.8
   coverage:
     artifact_dirs: 26
-    catalog_earned: 61.5
+    catalog_earned: 64.5
     catalog_earned_first_party: 20.0
-    catalog_gap: 53.5
+    catalog_gap: 50.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.5
+  delta: 0.6
   facets:
     access_clarity: 76.3
     contract_governance: 18.2
     contract_quality: 47.3
     developer_ergonomics: 44.6
-    discoverability: 73.2
+    discoverability: 78.6
     operational_transparency: 23.7
-  previous_composite: 47.7
+  previous_composite: 49.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -321,8 +322,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

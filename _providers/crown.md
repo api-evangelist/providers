@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.crowncork.com/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/crown/refs/heads/main/security/crown-domain-security.yml
   title: ''
@@ -93,20 +97,20 @@ created: '2025-03-01'
 description: Crown Holdings, Inc. is a global leader in the design, manufacture, and sale of rigid packaging products for consumer goods, including metal beverage cans and ends, food cans, aerosol cans, specialty closures and promotional tins, as well as transit and protective packaging products for industrial markets. The company operates in more than 40 countries and supports customers with design, decoration, reprographics, compound development, pilot facilities, and seaming training services. Crown Holdings does not publish a public developer API program; technical collaboration with customers happens through B2B and EDI channels.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/crown.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-10-06'
 name: Crown Holdings
 nav: Providers
 network: true
 overview: 'Crown Holdings is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Aerosol Cans, Beverage Cans, Closures, Consumer Goods, and Food Cans.
 
 
-  Crown Holdings'' developer surface includes product news and 12 more developer resources.'
+  Crown Holdings'' developer surface includes product news and 13 more developer resources.'
 random_paper: 3
 score:
   band: minimal
   composite: 6.9
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -127,8 +131,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 9.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

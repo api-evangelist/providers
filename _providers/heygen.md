@@ -30,13 +30,13 @@ agent_readiness:
     mcp_server: verified
     openapi_examples: verified
     protected_resource_metadata: verified
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 51.4
-  scored_at: '2026-10-04'
+  score: 49.5
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 1
@@ -44,7 +44,7 @@ agentic_access:
   operation_count: 53
   slug: heygen-agentic-access
   summary_line: 53 operations · 30 acting · 1 human-in-the-loop
-api_count: 1
+api_count: 2
 apis:
 - description: The HeyGen REST API exposes video generation, avatar management, text-to-speech (Starfish), video translation, and lipsync capabilities. It supports avatar videos generated from a single text prompt v
   name: HeyGen API
@@ -154,6 +154,21 @@ collections:
   name: HeyGen API
   slug: open-heygen
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/heygen/refs/heads/main/plans/heygen-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/heygen-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/heygen/refs/heads/main/rate-limits/heygen-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/heygen-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/heygen/refs/heads/main/finops/heygen-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/heygen-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/heygen/refs/heads/main/capabilities/heygen-capability-edges.yml
   title: ''
@@ -227,9 +242,13 @@ common:
 created: '2026-05-23'
 description: HeyGen is an AI video generation platform that creates studio-quality avatar videos, voice clones, and translated video content from simple text prompts. The product line includes Avatar V (digital twins), Photo Avatar, Avatar IV, the Starfish text-to-speech engine, the Video Agent API, Video Translation, and Lipsync. HeyGen serves sales, marketing, e-learning, and localization teams with both self-serve pay-as-you-go API access (starting at a $5 minimum) and enterprise contracts. The company is SOC 2 Type II and GDPR compliant and has powered 50M+ generated videos.
 finops:
-- name: Heygen Finops
+- has_sources: false
+  method: generated
+  name: Heygen Finops
+  primary_unit: ''
   service_category: API
   slug: heygen-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/heygen.png
 layout: provider
 mcp_servers:
@@ -240,10 +259,10 @@ modified: '2026-05-23'
 name: HeyGen
 nav: Providers
 network: true
-overview: 'HeyGen publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Account API, Assets API, Avatars API, and 10 more. Tagged areas include Artificial Intelligence, Generative AI, Video, Avatars, and Voice Cloning.
+overview: 'HeyGen publishes 13 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Assets API, Avatars API, and 10 more. Tagged areas include Artificial Intelligence, Generative AI, Video, Avatars, and Voice Cloning.
 
 
-  HeyGen''s developer surface includes authentication, documentation, engineering blog, pricing, changelog, and 11 more developer resources.'
+  HeyGen''s developer surface includes authentication, documentation, engineering blog, pricing, changelog, and 14 more developer resources.'
 plans:
 - name: Heygen Plans Pricing
   plan_count: 1
@@ -255,22 +274,22 @@ rate_limits:
   slug: heygen-rate-limits
 score:
   band: developing
-  composite: 46.3
+  composite: 39.7
   coverage:
-    artifact_dirs: 15
-    catalog_earned: 54.4
+    artifact_dirs: 16
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 60.6
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.6
   facets:
-    access_clarity: 79.5
+    access_clarity: 57.9
     contract_governance: 0.0
     contract_quality: 49.8
     developer_ergonomics: 23.8
     discoverability: 75.0
-    operational_transparency: 34.7
+    operational_transparency: 21.1
   previous_composite: 46.3
   provenance:
     agentic_access: derived
@@ -282,13 +301,13 @@ score:
     mcp: first-party
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
-    score: 28.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
+    score: 27.2
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

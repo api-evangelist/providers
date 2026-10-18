@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.huma.finance/rss.xml
 - group: company
   title: ''
   type: Website
@@ -97,20 +101,20 @@ created: '2026-07-17'
 description: 'Huma Technologies Inc. operates Huma Finance, described as the first PayFi network — on-chain payment-finance infrastructure that connects global capital to real-world payment assets such as cross-border settlements, card payments, and payroll advances with T+0 on-chain settlement. Huma is offered in two forms: Huma (Permissionless), a retail-open protocol launched April 2025, and Huma Institutional, a permissioned protocol for licensed financial institutions accessing curated payment-financing and RWA opportunities. The protocol runs as smart contracts across Solana, EVM chains, and Stellar (Soroban), has processed over $7 billion in on-chain transactions, and is backed by partners including Solana, Circle, the Stellar Development Foundation, and Galaxy Digital. Developers integrate through the first-party @huma-finance JavaScript SDK, Solana permissionless SDK, Soroban SDK, and embeddable React widgets published on npm.'
 image: https://huma.finance/favicon.ico
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Huma Technologies
 nav: Providers
 network: true
 overview: 'Huma Technologies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, PayFi, DeFi, Payments, and Lending.
 
 
-  Huma Technologies'' developer surface includes documentation, signup flow, support, and 10 more developer resources.'
+  Huma Technologies'' developer surface includes documentation, signup flow, support, and 11 more developer resources.'
 random_paper: 3
 score:
   band: minimal
   composite: 10.2
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -131,8 +135,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 10.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

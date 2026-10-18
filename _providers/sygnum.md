@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 10
 apis:
 - description: Real-time account and balance retrieval across fiat, digital assets and traditional securities held at Sygnum, with role-based permissions, exposed to B2B partners as REST.
@@ -76,6 +76,10 @@ asyncapis:
   name: Sygnum Webhooks
   slug: sygnum-webhooks
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.sygnum.com/feed/
 - group: company
   title: ''
   type: Website
@@ -243,17 +247,17 @@ created: '2026-08-29'
 description: Sygnum is a regulated digital asset banking group, headquartered in Zurich with a Singapore arm, that received a Swiss FINMA banking and securities dealer licence in August 2019. It provides institutional custody, spot and derivatives trading, staking, tokenisation, Lombard lending and 24/7 instant settlement for banks, asset managers, exchanges and corporates. Its B2B business is delivered through an API layer published at developer.sygnum.com — a catalogue covering Banking, Trading (REST and FIX), Custody, Staking, Wallet, Digital Transfer, Sygnum Protect (off-exchange custody), Sygnum Connect (instant settlement) and Market Data (REST and WebSocket) — served from the api.sygnum.com/b2b gateway and secured with OAuth 2.0 client credentials issued from the bank's Auth0 tenant at auth.sygnum.com. The specifications themselves are downloadable only to authenticated Sygnum clients from the developer portal.
 image: https://avatars.githubusercontent.com/sygnumbank
 layout: provider
-modified: '2026-08-29'
+modified: '2026-10-06'
 name: Sygnum
 nav: Providers
 network: true
-overview: 'Sygnum publishes 10 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Banking, Digital Assets, Cryptocurrency, and Custody.
+overview: 'Sygnum is listed with 10 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Banking, Digital Assets, Cryptocurrency, and Custody.
 
 
   The Sygnum catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Sygnum''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, pricing, and 26 more developer resources.'
+  Sygnum''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, pricing, and 27 more developer resources.'
 plans:
 - name: Sygnum Plans Pricing
   plan_count: 0
@@ -272,7 +276,7 @@ score:
   band: developing
   composite: 49.8
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -306,8 +310,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 46.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

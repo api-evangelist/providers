@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 41.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 1
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 82
   slug: rainforest-agentic-access
   summary_line: 82 operations · 53 acting · 1 human-in-the-loop
-api_count: 7
+api_count: 10
 apis:
 - baseURL: https://api.rainforestpay.com
   baseurl_source: declared
@@ -507,7 +507,7 @@ modified: '2026-07-20'
 name: Rainforest
 nav: Providers
 network: true
-overview: 'Rainforest publishes 23 APIs on the [APIs.io](https://apis.io/) network, including ACH Returns API, API Keys API, Billing Profiles API, and 20 more. Tagged areas include Company, Payments, Embedded Payments, Payment Facilitator, and Payment Processing.
+overview: 'Rainforest publishes 23 API contracts indexed on the [APIs.io](https://apis.io/) network, including ACH Returns API, API Keys API, Billing Profiles API, and 20 more. Tagged areas include Company, Payments, Embedded Payments, Payment Facilitator, and Payment Processing.
 
 
   The Rainforest catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -517,7 +517,7 @@ overview: 'Rainforest publishes 23 APIs on the [APIs.io](https://apis.io/) netwo
 random_paper: 7
 score:
   band: strong
-  composite: 54.3
+  composite: 54.4
   coverage:
     artifact_dirs: 26
     catalog_earned: 40.0
@@ -525,7 +525,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 47.4
     contract_governance: 18.2
@@ -550,8 +550,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 33.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

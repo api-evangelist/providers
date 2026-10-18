@@ -32,10 +32,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.explomar.tech/community/news/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.explomar.tech/community/news/feed/
 - group: company
   title: ''
   type: Website
@@ -65,14 +73,14 @@ created: '2026-07-17'
 description: 'ExploMar (Changshu, China) designs and manufactures high-power fully-electric outboard propulsion systems for boats, ranging from 70HP to 1200HP. Its product line spans lightweight axial-flux electric outboard motors, high-density marine batteries for long-range and wide-temperature operation, the Smart Captain integrated control system with 200+ diagnostic capabilities, and 5S energy/charging stations (7kW portable through 120kW dual-gun). ExploMar markets an eco-friendly, high-performance alternative to combustion marine propulsion and exhibits at international yachting festivals (Cannes, Monaco, Interboot, Polboat). Backed by DCM Ventures; surfaced in the API Evangelist network as a portfolio company. Note: ExploMar is a marine hardware manufacturer and publishes no public developer API, documentation, or SDKs at this time — this profile carries identity and web-property signals only.'
 image: https://www.explomar.tech/wp-content/uploads/2024/10/logo11.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Explomar
 nav: Providers
 network: true
 overview: 'Explomar is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Marine, Electric Propulsion, and Outboard Motors.
 
 
-  Explomar''s developer surface includes engineering blog, support, and 4 more developer resources.'
+  Explomar''s developer surface includes engineering blog, support, and 6 more developer resources.'
 random_paper: 14
 score:
   band: minimal
@@ -99,8 +107,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 11.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

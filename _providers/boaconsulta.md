@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.boaconsulta.com/feed/
 - group: company
   title: ''
   type: Website
@@ -87,14 +91,14 @@ created: '2026-07-17'
 description: BoaConsulta is a Brazilian digital-health platform, founded in 2012 and part of the Pixeon healthtech group, that connects patients, health professionals, and institutions. It pairs a free B2C marketplace for booking in-person consultations, teleconsultations, exams, and vaccinations with a full B2B/SaaS practice-management system (150+ integrated modules covering smart scheduling, electronic health records, telemedicine, financial management, TISS insurance billing, inventory, and automated reminders). The platform reports more than 58,000 health professionals, 1.7 million registered patients, and over 2 million appointments, with LGPD-compliant end-to-end encryption and daily automated backups. It has no public developer API; this profile is enriched from BoaConsulta's own public surfaces (llms.txt, status page, help center, blog, and legal pages).
 image: https://www.boaconsulta.com/img/logo-blue.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: BoaConsulta
 nav: Providers
 network: true
 overview: 'BoaConsulta is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Telehealth, Appointment Booking, and Marketplace.
 
 
-  BoaConsulta''s developer surface includes engineering blog, support, pricing, and 8 more developer resources.'
+  BoaConsulta''s developer surface includes engineering blog, support, pricing, and 9 more developer resources.'
 random_paper: 13
 score:
   band: emerging
@@ -128,8 +132,8 @@ score:
     regime: Health
     regime_id: health
     score: 4.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

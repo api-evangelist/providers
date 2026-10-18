@@ -35,8 +35,8 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 27.5
-  scored_at: '2026-10-04'
-api_count: 1
+  scored_at: '2026-10-17'
+api_count: 2
 apis:
 - baseURL: https://api.oneconcern.com
   baseurl_source: declared
@@ -45,6 +45,16 @@ apis:
   slug: one-concern-location-api
 artifact_total: 5
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/one-concern/refs/heads/main/plans/one-concern-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/one-concern-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/one-concern/refs/heads/main/rate-limits/one-concern-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/one-concern-rate-limits.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/one-concern/refs/heads/main/capabilities/one-concern-capability-edges.yml
   title: ''
@@ -145,10 +155,10 @@ modified: '2026-08-26'
 name: One Concern
 nav: Providers
 network: true
-overview: 'One Concern publishes 1 API on the [APIs.io](https://apis.io/) network: Location API. Tagged areas include Climate Risk, Catastrophe Modeling, Resilience, Insurance, and Reinsurance.
+overview: 'One Concern publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Location API. Tagged areas include Climate Risk, Catastrophe Modeling, Resilience, Insurance, and Reinsurance.
 
 
-  One Concern''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, and 16 more developer resources.'
+  One Concern''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, and 18 more developer resources.'
 plans:
 - name: One Concern Plans Pricing
   plan_count: 0
@@ -192,8 +202,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 20.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

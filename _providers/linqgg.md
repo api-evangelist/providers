@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: gRPC / Protocol Buffers API for integrating a game with LinQ Wallet services. Covers geo restriction checks by IP and coordinates, anonymous and wallet-linked user authentication, account balances, de
@@ -188,7 +188,7 @@ modified: '2026-07-19'
 name: Linq.gg
 nav: Providers
 network: true
-overview: 'Linq.gg publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Gaming, Payments, Wallets, and Loyalty.
+overview: 'Linq.gg is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Gaming, Payments, Wallets, and Loyalty.
 
 
   Linq.gg''s developer surface includes authentication, sandbox, changelog, documentation, API reference, getting-started guide, support, and 23 more developer resources.'
@@ -222,8 +222,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

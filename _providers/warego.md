@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: WareGo agent-native content surface. A live, well-formed llms.txt provides a curated sitemap of product, feature, industry and guide pages for LLM discovery, and is currently the only machine-readable
@@ -115,7 +115,7 @@ modified: '2026-09-02'
 name: WareGo
 nav: Providers
 network: true
-overview: 'WareGo publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Warehouse Management, WMS, Inventory, Order Management, and Fulfillment.
+overview: 'WareGo is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Warehouse Management, WMS, Inventory, Order Management, and Fulfillment.
 
 
   WareGo''s developer surface includes pricing, signup flow, support, engineering blog, and 9 more developer resources.'
@@ -132,7 +132,7 @@ score:
   band: emerging
   composite: 23.7
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 12
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -159,13 +159,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 23.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/warego/refs/heads/main/screenshots/warego-2026-10-11T193342.png
 security:
 - kind: domain-security
   name: Warego Domain Security

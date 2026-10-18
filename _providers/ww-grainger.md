@@ -34,10 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.grainger.com/blog/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/ww-grainger/refs/heads/main/security/ww-grainger-domain-security.yml
   title: ''
@@ -91,11 +95,14 @@ created: '2026-03-21'
 description: 'W. W. Grainger, Inc. (NYSE: GWW) is a Fortune 500 broad-line distributor of maintenance, repair and operating (MRO) products serving businesses and institutions across North America, Japan and the United Kingdom through roughly 331 branches, 34 distribution centers and its digital channels. Its system-to-system commerce runs through eProcurement rather than a public developer program: PunchOut catalogs into Ariba, Coupa, Jaggaer, SAP, Oracle and GHX, ANSI ASC X12 4010 EDI for purchase orders, acknowledgments, ship notices and invoices, and the KeepStock inventory-management program. Grainger operates an API gateway at api.grainger.com, but its Swagger surface answers anonymous callers with an ACCESS DENIED page requiring the Grainger corporate network, and integration credentials are issued only by a Grainger account representative, so no public API contract or reference is available to evaluate.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ww-grainger.png
 layout: provider
-modified: '2026-08-28'
+modified: '2026-10-06'
 name: W. W. Grainger
 nav: Providers
 network: true
-overview: W. W. Grainger is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500, Industrial Supply, MRO, Distribution, and B2B eCommerce.
+overview: 'W. W. Grainger is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500, Industrial Supply, MRO, Distribution, and B2B eCommerce.
+
+
+  W. W. Grainger''s developer surface includes engineering blog and 7 more developer resources.'
 plans:
 - name: Ww Grainger Plans Pricing
   plan_count: 0
@@ -123,7 +130,7 @@ rate_limits:
   slug: ww-grainger-rate-limits
 score:
   band: minimal
-  composite: 7.3
+  composite: 7.9
   coverage:
     artifact_dirs: 12
     catalog_earned: 27.0
@@ -131,12 +138,12 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 0.0
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 55.4
     operational_transparency: 2.6
   previous_composite: 7.3
@@ -148,8 +155,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

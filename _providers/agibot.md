@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: The AimDK protocol is AgiBot's first-party Protocol Buffers definition of its robots' interfaces, published as the aimrt_protocol repository of Link-U OS. It defines 33 gRPC services and 175 RPCs acro
@@ -49,8 +49,13 @@ apis:
 - description: The AGIBOT online store implements the Universal Commerce Protocol (UCP) for agent-driven commerce and exposes a live, anonymous, hosted Model Context Protocol endpoint. A JSON-RPC 2.0 tools/list call
   name: AGIBOT Store Agent Commerce API (UCP / MCP)
   slug: store-commerce
-artifact_total: 9
+artifact_total: 10
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/agibot/refs/heads/main/plans/agibot-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/agibot-plans-pricing.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -221,10 +226,14 @@ modified: '2026-08-06'
 name: AgiBot
 nav: Providers
 network: true
-overview: 'AgiBot publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Robotics, Humanoid Robots, Embodied AI, and Artificial Intelligence.
+overview: 'AgiBot is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Robotics, Humanoid Robots, Embodied AI, and Artificial Intelligence.
 
 
-  AgiBot''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, authentication, and 27 more developer resources.'
+  AgiBot''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, authentication, and 28 more developer resources.'
+plans:
+- name: Agibot Plans Pricing
+  plan_count: 7
+  slug: agibot-plans-pricing
 random_paper: 14
 rate_limits:
 - limit_count: 0
@@ -237,17 +246,17 @@ scopes:
   summary_line: 4 scopes · authorization_code/refresh_token/urn:ietf:params:oauth:grant-type:jwt-bearer
 score:
   band: developing
-  composite: 47.1
+  composite: 53.5
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 35.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 80.0
+    artifact_dirs: 22
+    catalog_earned: 47.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 68.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.4
   facets:
-    access_clarity: 38.2
+    access_clarity: 69.7
     contract_governance: 4.5
     contract_quality: 30.5
     developer_ergonomics: 80.4
@@ -271,9 +280,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 37.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

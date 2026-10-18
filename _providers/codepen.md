@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 4
 apis:
 - description: Standard oEmbed endpoint that returns a rich embed payload (iframe HTML, thumbnail URL, author metadata) for any public CodePen Pen URL. Supports JSON and JSONP response formats and an optional height
@@ -101,9 +101,13 @@ common:
 created: '2026-06-12'
 description: CodePen is a social development environment for front-end designers and developers, offering a browser-based playground for writing and sharing HTML, CSS, and JavaScript. The platform allows users to create "Pens" (interactive code snippets) and share them publicly or privately. CodePen provides developer-facing APIs including an Embed API for displaying Pens on external sites, a POST to Prefill API for programmatically opening the Pen editor with pre-populated code, Prefill Embeds for transforming existing code blocks into interactive sandboxes, and an oEmbed endpoint for standard embed discovery. The platform is widely used by educators, tutorial authors, and documentation teams who need live, interactive code examples embedded in external pages.
 finops:
-- name: Codepen Finops
+- has_sources: true
+  method: generated
+  name: Codepen Finops
+  primary_unit: ''
   service_category: Developer Tools
   slug: codepen-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/codepen.png
 jsonld:
 - class_count: 0
@@ -115,7 +119,7 @@ modified: '2026-06-12'
 name: CodePen
 nav: Providers
 network: true
-overview: 'CodePen publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Developer Tools, Front-End Development, Code Playground, Embed, and Education.
+overview: 'CodePen is listed with 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Developer Tools, Front-End Development, Code Playground, Embed, and Education.
 
 
   The CodePen catalog on APIs.io includes 1 JSON-LD context.
@@ -133,22 +137,22 @@ rate_limits:
   slug: codepen-rate-limits
 score:
   band: emerging
-  composite: 24.4
+  composite: 16.1
   coverage:
     artifact_dirs: 8
-    catalog_earned: 72.6
+    catalog_earned: 54.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 42.4
+    catalog_gap: 61.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 46.8
+    access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 10.7
     developer_ergonomics: 11.9
     discoverability: 71.4
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   previous_composite: 24.4
   regulatory:
     applies: true
@@ -156,9 +160,9 @@ score:
     regime: Education & Research
     regime_id: education
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

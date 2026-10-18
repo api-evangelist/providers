@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 47.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 48
+- acting_count: 47
   human_in_the_loop: 0
   name: Slash Agentic Access
   operation_count: 105
   slug: slash-agentic-access
-  summary_line: 105 operations · 48 acting
+  summary_line: 105 operations · 47 acting
 api_count: 1
 apis:
 - baseURL: https://api.slash.com
@@ -175,7 +175,7 @@ apis:
   description: The Oauth2 API from Slash — 2 operation(s) for oauth2.
   name: Slash Oauth2 API
   slug: slash-oauth2-api
-artifact_total: 89
+artifact_total: 142
 asyncapis:
 - description: ''
   name: Slash Webhooks
@@ -341,6 +341,64 @@ collections:
   name: Slash Public Account .well Known API
   slug: open-slash-well-known-api
 common:
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/slash/refs/heads/main/rules/slash-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/slash-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/slash/refs/heads/main/json-ld/slash-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/slash-context.jsonld
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/slash/refs/heads/main/vocabulary/slash-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/slash-vocabulary.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/slash/refs/heads/main/lifecycle/slash-lifecycle.yml
+  title: ''
+  type: Deprecation
+  url: lifecycle/slash-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://slash.statuspage.io
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/slash/refs/heads/main/errors/slash-decline-codes.yml
+  title: ''
+  type: DeclineCodes
+  url: errors/slash-decline-codes.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/slash/refs/heads/main/a2a/slash-a2a.yml
+  title: ''
+  type: AgentCard
+  url: a2a/slash-a2a.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/slash/refs/heads/main/mcp/slash-tool-crosswalk.yml
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/slash-tool-crosswalk.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/slash/refs/heads/main/hosts/slash-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/slash-hosts.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/slash/refs/heads/main/integrations/slash-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/slash-integration-edges.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/slash/refs/heads/main/vendors/slash-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/slash-vendors.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.slash.com/blog/rss.xml
 - group: operate
   href: https://raw.githubusercontent.com/api-evangelist/slash/refs/heads/main/rate-limits/slash-rate-limits.yml
   title: ''
@@ -532,22 +590,181 @@ common:
 created: '2026-07-17'
 description: Slash is a business banking and finance platform for modern companies — startups, agencies, e-commerce sellers, and enterprises — combining business checking, unlimited virtual and physical corporate cards, ACH/wire and real-time payments, global USD accounts, stablecoin on/off ramps, treasury, invoicing, expense management, and reporting on one platform. Founded in 2021 and valued at $1.4B after a 2026 Series C led by Ribbit Capital, Slash exposes a REST API (currently in Beta) covering accounts, virtual accounts, cards and card groups, transactions, transfers, invoices, contacts and customers, expense reports, webhooks, and FDX-compliant financial data access — plus an official hosted MCP server, Agent Requests with human-in-the-loop approval, and Python and Node.js SDKs for AI-agent and programmatic integration.
 image: https://www.slash.com/images/social-previews/index.jpg
+json_schemas:
+- name: Account
+  property_count: 8
+  slug: slash-account
+- name: AgentRequest
+  property_count: 5
+  slug: slash-agent-request
+- name: AuthorizationWebhookConfig
+  property_count: 0
+  slug: slash-authorization-webhook-config
+- name: AuthorizationWebhook
+  property_count: 7
+  slug: slash-authorization-webhook
+- name: Balance
+  property_count: 5
+  slug: slash-balance
+- name: CardGroup
+  property_count: 4
+  slug: slash-card-group
+- name: CardGroupUtilization
+  property_count: 3
+  slug: slash-card-group-utilization
+- name: CardModifier
+  property_count: 0
+  slug: slash-card-modifier
+- name: CardProduct
+  property_count: 3
+  slug: slash-card-product
+- name: Card
+  property_count: 19
+  slug: slash-card
+- name: Contact
+  property_count: 8
+  slug: slash-contact
+- name: Address
+  property_count: 9
+  slug: slash-crypto-address
+- name: Wallet
+  property_count: 6
+  slug: slash-crypto-wallet
+- name: Customer
+  property_count: 7
+  slug: slash-customer
+- name: DeveloperApplicationData
+  property_count: 9
+  slug: slash-developer-application-developer-application-data
+- name: DeveloperApplicationModel
+  property_count: 9
+  slug: slash-developer-application-developer-application-model
+- name: DeveloperApplicationType
+  property_count: 0
+  slug: slash-developer-application-developer-application-type
+- name: DeveloperApplicationScope
+  property_count: 0
+  slug: slash-developer-application-scope
+- name: FeeTransaction
+  property_count: 7
+  slug: slash-fee-transaction
+- name: LegalEntity
+  property_count: 3
+  slug: slash-legal-entity
+- name: MerchantCategory
+  property_count: 2
+  slug: slash-merchant-category
+- name: Merchant
+  property_count: 3
+  slug: slash-merchant
+- name: PaginationResponse
+  property_count: 2
+  slug: slash-pagination-pagination-response
+- name: PartialSpendingConstraint
+  property_count: 5
+  slug: slash-partial-spending-constraint
+- name: PostRequest
+  property_count: 1
+  slug: slash-paths-analytics-dto-post-request
+- name: PostResponse
+  property_count: 4
+  slug: slash-paths-analytics-dto-post-response
+- name: Account
+  property_count: 0
+  slug: slash-paths-fdx-accounts-dto-account
+- name: AccountWithBalance
+  property_count: 0
+  slug: slash-paths-fdx-accounts-dto-account-with-balance
+- name: DepositTransaction
+  property_count: 14
+  slug: slash-paths-fdx-accounts-param-account-id-transactions-dto-deposit-transaction
+- name: InvestmentTransaction
+  property_count: 23
+  slug: slash-paths-fdx-accounts-param-account-id-transactions-dto-investment-transaction
+- name: LineOfCreditTransaction
+  property_count: 14
+  slug: slash-paths-fdx-accounts-param-account-id-transactions-dto-line-of-credit-transaction
+- name: LoanTransaction
+  property_count: 13
+  slug: slash-paths-fdx-accounts-param-account-id-transactions-dto-loan-transaction
+- name: UserInfoResponse
+  property_count: 4
+  slug: slash-paths-oauth2-userinfo-dto-user-info-response
+- name: paths.task._dto.TaskResponse
+  property_count: 0
+  slug: slash-paths-task-dto-task-response
+- name: ParsedReceipt
+  property_count: 3
+  slug: slash-slashfi-models-entity-expense-report-parsed-receipt-yaml
+- name: PublicExpenseReportWithMetadata
+  property_count: 0
+  slug: slash-slashfi-models-entity-expense-report-public-expense-report-with-metadata-yaml
+- name: ReimbursementSource
+  property_count: 0
+  slug: slash-slashfi-models-entity-expense-report-reimbursement-source-yaml
+- name: IAddressModel
+  property_count: 6
+  slug: slash-slashfi-models-entity-iaddress-model-yaml
+- name: InvoiceAggregate
+  property_count: 3
+  slug: slash-slashfi-models-entity-invoice-invoice-aggregate-yaml
+- name: InvoiceDetailsInput
+  property_count: 8
+  slug: slash-slashfi-models-entity-invoice-invoice-details-input-yaml
+- name: InvoiceSeriesInput
+  property_count: 10
+  slug: slash-slashfi-models-entity-invoice-invoice-series-input-yaml
+- name: InvoiceSeries
+  property_count: 14
+  slug: slash-slashfi-models-entity-invoice-invoice-series-yaml
+- name: InvoiceSettingsData
+  property_count: 9
+  slug: slash-slashfi-models-entity-invoice-invoice-settings-data-yaml
+- name: InvoiceSlashPaymentMethodConfig
+  property_count: 0
+  slug: slash-slashfi-models-entity-invoice-invoice-slash-payment-method-config-yaml
+- name: SpendingConstraint
+  property_count: 5
+  slug: slash-spending-constraint
+- name: Transaction
+  property_count: 31
+  slug: slash-transaction
+- name: VirtualAccountCommissionDetails
+  property_count: 0
+  slug: slash-virtual-account-commission-details
+- name: VirtualAccountCommissionRule
+  property_count: 3
+  slug: slash-virtual-account-commission-rule
+- name: VirtualAccountModel
+  property_count: 7
+  slug: slash-virtual-account-model
+- name: VirtualAccount
+  property_count: 4
+  slug: slash-virtual-account
+- name: Webhook
+  property_count: 10
+  slug: slash-webhook
+jsonld:
+- class_count: 119
+  name: Slash Context
+  property_count: 307
+  slug: slash-context
 layout: provider
 mcp_servers:
-- description: Remote MCP server at mcp.slash.com over HTTP; 3 tools listed.
+- description: Remote MCP server at mcp.slash.com over HTTP requiring an API key; 3 tools listed.
   name: Slash MCP Server
   slug: slash
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Slash
 nav: Providers
 network: true
-overview: 'Slash publishes 26 APIs on the [APIs.io](https://apis.io/) network, including Account API, Agent Requests API, Analytics API, and 23 more. Tagged areas include Company, Banking, Payments, Financial Services, and Fintech.
+overview: 'Slash publishes 26 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Agent Requests API, Analytics API, and 23 more. Tagged areas include Company, Banking, Payments, Financial Services, and Fintech.
 
 
-  The Slash catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Slash catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Slash''s developer surface includes documentation, API reference, getting-started guide, changelog, engineering blog, support, pricing, and 34 more developer resources.'
+  Slash''s developer surface includes documentation, API reference, getting-started guide, changelog, engineering blog, support, pricing, and 46 more developer resources.'
 plans:
 - name: Slash Plans Pricing
   plan_count: 2
@@ -560,29 +777,42 @@ rate_limits:
 - limit_count: 0
   name: Slash Rate Limits
   slug: slash-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 59
+  extends:
+  - spectral:oas
+  name: Slash API Rules
+  rule_count: 18
+  severity_counts:
+    error: 13
+    hint: 0
+    info: 1
+    warn: 4
+  slug: slash-rules
 scopes:
 - name: Slash Scopes
-  scope_count: 0
+  scope_count: 52
   slug: slash-scopes
-  summary_line: OAuth 2.0 · no documented scopes
+  summary_line: 52 scopes
 score:
-  band: strong
-  composite: 61.0
+  band: exemplar
+  composite: 69.5
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 45.0
+    artifact_dirs: 34
+    catalog_earned: 70.8
     catalog_earned_first_party: 8.0
-    catalog_gap: 70.0
+    catalog_gap: 44.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 8.5
   facets:
     access_clarity: 67.1
-    contract_governance: 18.2
-    contract_quality: 56.6
+    contract_governance: 35.6
+    contract_quality: 70.0
     developer_ergonomics: 67.3
     discoverability: 75.0
-    operational_transparency: 36.8
+    operational_transparency: 60.5
   previous_composite: 61.0
   provenance:
     agentic_access: derived
@@ -604,9 +834,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 54.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: true
     score: 11.1

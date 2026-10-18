@@ -32,10 +32,20 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 3
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/accompany-health/refs/heads/main/plans/accompany-health-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/accompany-health-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/accompany-health/refs/heads/main/rate-limits/accompany-health-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/accompany-health-rate-limits.yml
 - group: company
   title: ''
   type: Website
@@ -110,7 +120,7 @@ network: true
 overview: 'Accompany Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Primary Care, Home Health, and Telehealth.
 
 
-  Accompany Health''s developer surface includes engineering blog, support, and 8 more developer resources.'
+  Accompany Health''s developer surface includes engineering blog, support, and 10 more developer resources.'
 plans:
 - name: Accompany Health Plans Pricing
   plan_count: 0
@@ -124,7 +134,7 @@ score:
   band: minimal
   composite: 9.9
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -151,8 +161,8 @@ score:
     regime: Health
     regime_id: health
     score: 12.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

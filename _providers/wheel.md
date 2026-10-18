@@ -35,10 +35,15 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 4
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/wheel/refs/heads/main/rate-limits/wheel-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/wheel-rate-limits.yml
 - group: company
   title: ''
   type: Website
@@ -141,7 +146,7 @@ network: true
 overview: 'Wheel is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Telehealth, Virtual Care, and Digital Health.
 
 
-  Wheel''s developer surface includes engineering blog, support, legal docs, and 14 more developer resources.'
+  Wheel''s developer surface includes engineering blog, support, legal docs, and 15 more developer resources.'
 plans:
 - name: Wheel Plans Pricing
   plan_count: 0
@@ -182,8 +187,8 @@ score:
     regime: Health
     regime_id: health
     score: 18.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

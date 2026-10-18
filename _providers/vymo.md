@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Vymo's enterprise platform API, used by banks, insurers and asset managers to push leads into Vymo, sync users and hierarchies, read activity and engagement records, and connect Vymo to CRM and core s
@@ -116,7 +116,7 @@ modified: '2026-08-13'
 name: Vymo
 nav: Providers
 network: true
-overview: 'Vymo publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Sales Tech, Sales Engagement, Financial Services, and Insurance.
+overview: 'Vymo is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Sales Tech, Sales Engagement, Financial Services, and Insurance.
 
 
   Vymo''s developer surface includes engineering blog, support, and 10 more developer resources.'
@@ -133,7 +133,7 @@ score:
   band: minimal
   composite: 6.2
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -161,8 +161,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 5.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

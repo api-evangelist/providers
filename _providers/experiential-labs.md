@@ -32,10 +32,23 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
-artifact_total: 1
+artifact_total: 2
 common:
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.experientiallabs.ai/pricing
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/experiential-labs/refs/heads/main/plans/experiential-labs-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/experiential-labs-plans-pricing.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.experientiallabs.ai/blog
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/experiential-labs/refs/heads/main/security/experiential-labs-domain-security.yml
   title: ''
@@ -53,28 +66,35 @@ created: '2026-07-17'
 description: Experiential Labs is an applied AI research laboratory (Y Combinator Summer 2026, San Francisco) building world models that let AI agents simulate reality with high fidelity. Founded by Kion Fallah (former staff research scientist at Waabi) and Silen Naihin (AutoGPT and agent-benchmark contributor, co-founder of Stackwise), the company adapts techniques from autonomous-vehicle development to reconstruct environments at high accuracy and pursue recursive self-improvement and continual learning across domains. Its public work is open source on GitHub, including the world-model-harness (world-model-as-a-harness for simulating AI agent environments), OpenCLaaS (Continual Learning as a Service), and autoresearch-distillation. The company does not yet publish a public API, developer portal, or SDKs.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/experiential-labs.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Experiential Labs
 nav: Providers
 network: true
-overview: Experiential Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, World Models, and AI Agents.
+overview: 'Experiential Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, World Models, and AI Agents.
+
+
+  Experiential Labs'' developer surface includes pricing, engineering blog, and 4 more developer resources.'
+plans:
+- name: Experiential Labs Plans Pricing
+  plan_count: 3
+  slug: experiential-labs-plans-pricing
 random_paper: 15
 score:
-  band: minimal
-  composite: 3.6
+  band: emerging
+  composite: 12.6
   coverage:
-    artifact_dirs: 3
-    catalog_earned: 27.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 88.0
+    artifact_dirs: 5
+    catalog_earned: 39.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 9.0
   facets:
-    access_clarity: 0.0
+    access_clarity: 42.1
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 48.2
     operational_transparency: 2.6
   previous_composite: 3.6
@@ -84,9 +104,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

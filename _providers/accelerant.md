@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The member-facing Accelerant Risk Exchange platform and its supporting API surface. Accelerant states that its risk indices plug directly into Member underwriting and policy administration systems via
@@ -43,6 +43,10 @@ apis:
   slug: risk-exchange-platform
 artifact_total: 5
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://accelerant.ai/resources/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/accelerant/refs/heads/main/security/accelerant-domain-security.yml
   title: ''
@@ -159,14 +163,14 @@ mcp_servers:
 - description: Remote MCP server at docs.accelerant.ai over HTTP.
   name: Accelerant MCP Server
   slug: accelerant
-modified: '2026-08-02'
+modified: '2026-10-06'
 name: Accelerant
 nav: Providers
 network: true
-overview: 'Accelerant publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Insurtech, Specialty Insurance, Underwriting, and Risk Management.
+overview: 'Accelerant is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Insurtech, Specialty Insurance, Underwriting, and Risk Management.
 
 
-  Accelerant''s developer surface includes documentation, support, engineering blog, product news, authentication, and 20 more developer resources.'
+  Accelerant''s developer surface includes documentation, support, engineering blog, product news, authentication, and 21 more developer resources.'
 random_paper: 8
 scopes:
 - name: Accelerant Scopes
@@ -177,7 +181,7 @@ score:
   band: emerging
   composite: 24.3
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -201,8 +205,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 38.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

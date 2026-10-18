@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 45.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -108,6 +108,14 @@ collections:
   name: Swisscom Sign Integration API
   slug: open-swisscom-sign-integration-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.swisscom.ch/de/privatkunden/blog/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.swisscom.ch/de/privatkunden/blog/feed/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/swisscom/refs/heads/main/overlays/swisscom-sign-integration-api-overlay.yaml
   title: ''
@@ -321,17 +329,17 @@ description: 'Swisscom is Switzerland''s largest telecommunications provider and
   is that every API reference, key and spec beyond Swisscom Sign sits behind a Swisscom login and, for several products, a signed service contract — the marketplace is a storefront, not open documentation. On network APIs Swisscom was one of the 21 founding signatories of the GSMA Open Gateway Memorandum of Understanding in February 2023, but it publishes no CAMARA API, no Open Gateway developer portal and no callable network-API endpoint; developers who want SIM-swap or phone-verification signals from the Swisscom network have historically reached them through third-party channels such as IPification rather than from Swisscom directly. Its legacy developer programme (developer.swisscom.com, the Cloud Foundry Application Cloud, the swisscom-developer GitHub SDKs) is dead or redirected, and the older Messaging and Voice APIs are still documented only as RAML-rendered HTML in a GitHub wiki.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-modified: '2026-07-25'
+modified: '2026-10-06'
 name: Swisscom
 nav: Providers
 network: true
-overview: 'Swisscom publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Process: create API, Process: read API, Signatures API, and 11 more. Tagged areas include Telecommunications, Switzerland, Mobile Network Operator, Broadband, and Network APIs.
+overview: 'Swisscom publishes 14 API contracts indexed on the [APIs.io](https://apis.io/) network, including Process: create API, Process: read API, Signatures API, and 11 more. Tagged areas include Telecommunications, Switzerland, Mobile Network Operator, Broadband, and Network APIs.
 
 
   The Swisscom catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Swisscom''s developer surface includes CLI, changelog, sandbox, API reference, getting-started guide, support, engineering blog, and 39 more developer resources.'
+  Swisscom''s developer surface includes engineering blog, CLI, changelog, sandbox, API reference, getting-started guide, support, and 41 more developer resources.'
 random_paper: 8
 scopes:
 - name: Swisscom Scopes
@@ -340,15 +348,15 @@ scopes:
   summary_line: 3 scopes · clientCredentials
 score:
   band: strong
-  composite: 59.1
+  composite: 59.0
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 39.5
     contract_governance: 18.2
@@ -385,8 +393,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 46.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

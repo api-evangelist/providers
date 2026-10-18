@@ -35,8 +35,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.1
-  scored_at: '2026-10-04'
-api_count: 1
+  scored_at: '2026-10-17'
+api_count: 2
 apis:
 - baseURL: https://paxcheck-app-dev.staging.zamna.com
   baseurl_source: declared
@@ -169,7 +169,7 @@ modified: '2026-07-21'
 name: Zamna
 nav: Providers
 network: true
-overview: 'Zamna publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Session API, Start API, Start With Booking Id And Surname API, and 1 more. Tagged areas include Company, Aviation, Travel, Identity Verification, and Digital Identity.
+overview: 'Zamna publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Session API, Start API, Start With Booking Id And Surname API, and 1 more. Tagged areas include Company, Aviation, Travel, Identity Verification, and Digital Identity.
 
 
   Zamna''s developer surface includes authentication, documentation, API reference, getting-started guide, sandbox, and 13 more developer resources.'
@@ -212,8 +212,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

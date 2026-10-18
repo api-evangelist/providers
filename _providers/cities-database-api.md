@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-04'
+  score: 20.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -65,6 +65,25 @@ collections:
   name: AirLabs Cities Database API
   slug: open-cities-database-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/cities-database-api/refs/heads/main/plans/cities-database-api-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/cities-database-api-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cities-database-api/refs/heads/main/rate-limits/cities-database-api-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/cities-database-api-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/cities-database-api/refs/heads/main/finops/cities-database-api-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/cities-database-api-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://airlabs.co/blog/
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -146,9 +165,13 @@ common:
 created: '2024-03-30'
 description: The Cities Database API by AirLabs provides a global reference dataset of cities keyed to IATA metropolitan area codes, ISO country codes, and geographic coordinates. The API is consumed alongside the AirLabs Airports, Airlines, and Flights APIs to power travel search, mapping, geocoding, and clustering experiences. Authentication uses an api_key query parameter obtained from the AirLabs account dashboard. All responses are JSON arrays of city objects.
 finops:
-- name: Cities Database Api Finops
+- has_sources: false
+  method: generated
+  name: Cities Database Api Finops
+  primary_unit: ''
   service_category: API
   slug: cities-database-api-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cities-database-api.png
 json_schemas:
 - name: AirLabs City
@@ -160,17 +183,17 @@ jsonld:
   property_count: 0
   slug: cities-database-api-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-10-06'
 name: Cities Database API
 nav: Providers
 network: true
-overview: 'Cities Database API publishes 1 API on the [APIs.io](https://apis.io/) network: Cities API. Tagged areas include Cities, Data, Geography, Location, and Reference Data.
+overview: 'Cities Database API publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Cities API. Tagged areas include Cities, Data, Geography, Location, and Reference Data.
 
 
   The Cities Database API catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Cities Database API''s developer surface includes authentication, documentation, pricing, signup flow, support, and 13 more developer resources.'
+  Cities Database API''s developer surface includes engineering blog, authentication, documentation, pricing, signup flow, support, and 16 more developer resources.'
 plans:
 - name: Cities Database Api Plans Pricing
   plan_count: 3
@@ -181,9 +204,10 @@ rate_limits:
   name: Cities Database Api Rate Limits
   slug: cities-database-api-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Cities Database API API Rules
+  name: Cities Database API — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -191,7 +215,8 @@ rules:
     info: 1
     warn: 4
   slug: cities-database-api-jsonschema-spectral-rules
-- effective_rule_count: 46
+- authorship: unmarked
+  effective_rule_count: 46
   extends:
   - spectral:oas
   name: Cities Database API API Rules
@@ -204,20 +229,20 @@ rules:
   slug: cities-database-api-rules
 score:
   band: thin
-  composite: 31.2
+  composite: 30.2
   coverage:
-    artifact_dirs: 14
-    catalog_earned: 58.5
+    artifact_dirs: 15
+    catalog_earned: 55.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 56.5
+    catalog_gap: 59.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.0
   facets:
-    access_clarity: 22.4
+    access_clarity: 14.5
     contract_governance: 13.6
     contract_quality: 55.0
-    developer_ergonomics: 17.9
+    developer_ergonomics: 20.2
     discoverability: 66.1
     operational_transparency: 7.9
   previous_composite: 31.2
@@ -234,8 +259,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

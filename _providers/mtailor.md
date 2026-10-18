@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 0
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.mtailor.com/blog
 - group: company
   title: ''
   type: Website
@@ -56,31 +60,31 @@ created: '2026-07-17'
 description: MTailor is a Y Combinator-backed custom-clothing company that measures your body with your phone's camera and manufactures made-to-order apparel on demand. Its mobile apps capture a short video or 360-degree turn and use machine-learning models to compute roughly 60 body measurements, which the company claims are about 20 percent more accurate than a professional tailor. MTailor produces custom shirts, polos, tees, pants, jeans, blazers and suits for men and jeans for women, each cut to the customer's unique measurement pattern. The business is a direct-to-consumer mobile app and e-commerce brand; as of this profile it publishes no public developer API, developer portal, OpenAPI definition, or first-party SDK. This APIs.json profile captures the company's identity and public web properties for the API Evangelist network.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mtailor.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Mtailor
 nav: Providers
 network: true
 overview: 'Mtailor is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Custom Clothing, Apparel, E-Commerce, and Body Measurement.
 
 
-  Mtailor''s developer surface includes getting-started guide, support, and 2 more developer resources.'
+  Mtailor''s developer surface includes engineering blog, getting-started guide, support, and 2 more developer resources.'
 random_paper: 12
 score:
   band: minimal
-  composite: 6.2
+  composite: 6.7
   coverage:
-    artifact_dirs: 2
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 16.7
+    developer_ergonomics: 19.0
     discoverability: 48.2
     operational_transparency: 2.6
   needs_work:
@@ -96,8 +100,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 0.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

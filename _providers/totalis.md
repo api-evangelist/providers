@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://api.totalis.trade
@@ -107,6 +107,14 @@ collections:
   name: Totalis RFQ API Keys Webhooks API
   slug: open-totalis-webhooks-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.totalis.trade/blogs
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.totalis.trade/blogs/rss.xml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/totalis/refs/heads/main/capabilities/totalis-capability-edges.yml
   title: ''
@@ -230,17 +238,17 @@ created: '2026-07-17'
 description: Totalis (totalis.trade), operated by UCALLEDIT, Inc., is a Y Combinator-backed (Spring 2026) derivatives layer for prediction markets. Users pick two to five outcomes across underlying venues like Kalshi and Polymarket and combine them into a single parlay; market makers compete to price the trade through a request-for-quote (RFQ) system, and positions settle in non-custodial Solana vaults with USDC collateral. The Totalis RFQ API is a documented REST + SSE surface with scoped API keys, a WebSocket for post-trade events, and HMAC-signed webhooks — covering markets, quote requests, parlays, portfolio, funds, and market-maker flows.
 image: https://www.totalis.trade/favicon.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Totalis
 nav: Providers
 network: true
-overview: 'Totalis publishes 7 APIs on the [APIs.io](https://apis.io/) network, including API Keys API, Markets API, Portfolio API, and 4 more. Tagged areas include Company, Prediction Markets, Derivatives, Parlays, and Trading.
+overview: 'Totalis publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including API Keys API, Markets API, Portfolio API, and 4 more. Tagged areas include Company, Prediction Markets, Derivatives, Parlays, and Trading.
 
 
   The Totalis catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
 
 
-  Totalis'' developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, FAQ, authentication, and 19 more developer resources.'
+  Totalis'' developer surface includes engineering blog, documentation, API reference, getting-started guide, signup flow, pricing, FAQ, and 21 more developer resources.'
 random_paper: 20
 rate_limits:
 - limit_count: 3
@@ -248,20 +256,20 @@ rate_limits:
   slug: totalis-rate-limits
 score:
   band: developing
-  composite: 45.9
+  composite: 46.4
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 44.7
     contract_governance: 4.5
     contract_quality: 55.9
-    developer_ergonomics: 51.8
+    developer_ergonomics: 54.2
     discoverability: 73.2
     operational_transparency: 39.5
   previous_composite: 45.9
@@ -280,8 +288,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 23.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -305,11 +313,10 @@ tags:
 - Trading
 - RFQ
 - Solana
-- Crypto Web3
+- Web3
 - Market Data
 - Webhook
 - Real-Time
-- Web3
 - Cryptocurrency
 website: https://www.totalis.trade
 ---

@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 42.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -32,7 +32,7 @@ agentic_access:
   operation_count: 59
   slug: avoma-agentic-access
   summary_line: 59 operations · 23 acting
-api_count: 1
+api_count: 2
 apis:
 - baseURL: https://api.avoma.com
   baseurl_source: declared
@@ -126,6 +126,10 @@ apis:
   slug: avoma-webhooks-api
 artifact_total: 25
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.avoma.com/blog/rss.xml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/avoma/refs/heads/main/capabilities/avoma-capability-edges.yml
   title: ''
@@ -264,24 +268,25 @@ created: '2026-09-27'
 description: Avoma is an AI-powered meeting assistant platform that automates note‑taking, scheduling, and coaching for sales and revenue teams. It records and transcribes meetings in real time, generates structured summaries, pushes data to CRMs, and provides AI‑driven sales coaching and guidance. The platform also offers lead routing, meeting reminders, and revenue intelligence tools to help organizations improve productivity and close deals faster.
 image: https://cdn.prod.website-files.com/5de236b4d41434460ade73ac/675b1cc5e923eddc26d5aa07_Og%20Image.webp
 layout: provider
-modified: '2026-09-27'
+modified: '2026-10-06'
 name: Avoma
 nav: Providers
 network: true
-overview: 'Avoma publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Calls API, Custom Category API, Engagement Analytics API, and 15 more. Tagged areas include Artificial Intelligence, Meeting Assistant, Sales Enablement, Automation, and Productivity.
+overview: 'Avoma publishes 18 API contracts indexed on the [APIs.io](https://apis.io/) network, including Calls API, Custom Category API, Engagement Analytics API, and 15 more. Tagged areas include Artificial Intelligence, Meeting Assistant, Sales Enablement, Automation, and Productivity.
 
 
   The Avoma catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Avoma''s developer surface includes support, changelog, authentication, documentation, API reference, engineering blog, pricing, and 21 more developer resources.'
+  Avoma''s developer surface includes support, changelog, authentication, documentation, API reference, engineering blog, pricing, and 22 more developer resources.'
 plans:
 - name: Avoma Plans Pricing
   plan_count: 5
   slug: avoma-plans-pricing
 random_paper: 4
 rules:
-- effective_rule_count: 53
+- authorship: generated
+  effective_rule_count: 53
   extends:
   - spectral:oas
   name: Avoma API Rules
@@ -294,14 +299,15 @@ rules:
   slug: avoma-rules
 score:
   band: strong
-  composite: 55.9
+  composite: 56.0
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 19
     catalog_earned: 54.8
     catalog_earned_first_party: 12.0
     catalog_gap: 60.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.1
   facets:
     access_clarity: 78.9
     contract_governance: 22.0
@@ -309,6 +315,7 @@ score:
     developer_ergonomics: 45.2
     discoverability: 75.0
     operational_transparency: 26.3
+  previous_composite: 55.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -324,11 +331,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: flat
   upsert:
     applies: true
     score: 27.8
+screenshot: https://raw.githubusercontent.com/api-evangelist/avoma/refs/heads/main/screenshots/avoma-2026-10-11T101202.png
 security:
 - kind: authentication
   name: Avoma Authentication
@@ -341,7 +350,7 @@ security:
 - kind: vulnerability-disclosure
   name: Avoma Vulnerability Disclosure
   slug: avoma-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 - kind: trust-center
   name: Avoma Trust Center
   slug: avoma-trust-center

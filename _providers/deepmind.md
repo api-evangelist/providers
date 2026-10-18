@@ -32,10 +32,19 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
-artifact_total: 1
+artifact_total: 2
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/deepmind/refs/heads/main/plans/deepmind-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/deepmind-plans-pricing.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://deepmind.google/blog/rss.xml
 - group: company
   title: ''
   type: Website
@@ -103,28 +112,32 @@ created: '2026-07-17'
 description: Google DeepMind is an artificial intelligence research laboratory and product organization behind the Gemini and Gemma foundation model families, the AlphaFold protein-structure prediction system, WeatherNext atmospheric forecasting, and Gemini Robotics. Founded in London and now part of Google, DeepMind combines frontier AI research with public and developer-facing model deployment. Its models are exposed to developers through the Google AI / Gemini API and Google AI Studio, while its research tooling ships as first-party open-source JAX libraries (Haiku, Optax, Chex, dm-control, and more) on GitHub and PyPI. Originally an independent startup backed by early investors including Founders Fund before its acquisition by Google.
 image: https://lh3.googleusercontent.com/BJIjbCcZWJxE1GFvgIXWdWFXW0ECXBzsBe-JHx95GSuDVFKdli-cocBQRXll_xaipD6bNQ0B_Wz7JI2Ken5TFjrfUuSlv0hgq2qjgirOMK2eirjLXA8=w1200-h630-n-nu-rw
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: DeepMind
 nav: Providers
 network: true
 overview: 'DeepMind is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, Foundation Models, and LLM.
 
 
-  DeepMind''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, pricing, and 9 more developer resources.'
+  DeepMind''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, pricing, and 11 more developer resources.'
+plans:
+- name: Deepmind Plans Pricing
+  plan_count: 21
+  slug: deepmind-plans-pricing
 random_paper: 2
 score:
-  band: emerging
-  composite: 22.5
+  band: thin
+  composite: 28.5
   coverage:
-    artifact_dirs: 6
-    catalog_earned: 27.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 88.0
+    artifact_dirs: 7
+    catalog_earned: 39.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.0
   facets:
-    access_clarity: 44.7
+    access_clarity: 76.3
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 40.5
@@ -133,13 +146,13 @@ score:
   previous_composite: 22.5
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 12.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

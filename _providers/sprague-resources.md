@@ -27,16 +27,31 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 8
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sprague-resources/refs/heads/main/plans/sprague-resources-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/sprague-resources-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/sprague-resources/refs/heads/main/rate-limits/sprague-resources-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/sprague-resources-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sprague-resources/refs/heads/main/finops/sprague-resources-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/sprague-resources-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/sprague-resources/refs/heads/main/security/sprague-resources-domain-security.yml
   title: ''
@@ -93,9 +108,13 @@ common:
 created: '2023-01-01'
 description: Sprague Resources (operating as Sprague Energy) is one of the largest independent suppliers of energy products and related services in the northeastern United States and Quebec, founded in 1870. The company distributes refined fuel products (heating oil, diesel, gasoline, kerosene, biofuels), natural gas, and electricity to commercial and industrial customers, and operates 20+ port terminal facilities for materials handling. Sprague was acquired by Hartree Partners in 2024 and continues to expand through strategic acquisitions. While Sprague does not publish a public developer API, the company operates SpraguePORT, a digital customer portal for account management, pricing, and order history, and Sprague Real-time for market pricing.
 finops:
-- name: Sprague Resources Finops
+- has_sources: false
+  method: generated
+  name: Sprague Resources Finops
+  primary_unit: ''
   service_category: API
   slug: sprague-resources-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sprague-resources.png
 json_schemas:
 - name: Sprague Fuel Order
@@ -121,7 +140,7 @@ overview: 'Sprague Resources is profiled on the [APIs.io](https://apis.io/) netw
   The Sprague Resources catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Sprague Resources'' developer surface includes engineering blog and 11 more developer resources.'
+  Sprague Resources'' developer surface includes engineering blog and 14 more developer resources.'
 plans:
 - name: Sprague Resources Plans Pricing
   plan_count: 3
@@ -148,9 +167,10 @@ rate_limits:
   name: Sprague Resources Rate Limits
   slug: sprague-resources-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Sprague Resources API Rules
+  name: Sprague Resources — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -160,17 +180,17 @@ rules:
   slug: sprague-resources-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 14.3
+  composite: 12.8
   coverage:
     artifact_dirs: 14
-    catalog_earned: 51.8
+    catalog_earned: 48.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 63.3
+    catalog_gap: 66.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 23.5
     contract_quality: 10.7
     developer_ergonomics: 2.4
@@ -183,8 +203,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 9.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

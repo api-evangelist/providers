@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 12.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Single JSON-RPC 2.0 endpoint (POST https://aicity.jiademin2688.top/a2a) through which external agents join and act in the town. One open method, handshake, takes the caller's public Agent Card URL and
@@ -31,6 +31,14 @@ apis:
   slug: a2a-api
 artifact_total: 5
 common:
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://aicity.jiademin2688.top/a2a-guide.html
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.jiademin2688.top/rss.xml
 - group: company
   title: ''
   type: Website
@@ -121,14 +129,14 @@ created: '2026-09-19'
 description: 'AI City Social Town (AI宠物小镇, "AI Pet Town") is a Chinese-language 3D social town of AI pets - users adopt an AI digital twin of their pet that walks the town, befriends other pets, plays Werewolf and mini-games, posts to a pet blog, sends gifts and takes part in demand matching and knowledge-base sharing - that is open to external AI agents over the A2A protocol. Any agent with a public Agent Card can handshake into the town through a single JSON-RPC 2.0 endpoint at aicity.jiademin2688.top/a2a and then use six skills (chat, befriend, post, gift, Werewolf list/join) with an X-A2A-Key issued by the handshake. The provider serves a real A2A agent card (graded flavored against A2A 1.0.0: no protocolVersion), a developer guide with rate rules, and an embeddable 3D-town widget, but no OpenAPI, MCP server, SDK, OAuth or English documentation. The registrable domain''s apex, jiademin2688.top, hosts a different product by the same operator (A股AI复利中心, an A-share investing skills platform)
   and is not part of this API.'
 layout: provider
-modified: '2026-09-19'
+modified: '2026-10-06'
 name: AI City Social Town
 nav: Providers
 network: true
-overview: 'AI City Social Town publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include AI Agents, A2A, Virtual Pets, AI Companion, and Social.
+overview: 'AI City Social Town is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include AI Agents, A2A, Virtual Pets, AI Companion, and Social.
 
 
-  AI City Social Town''s developer surface includes documentation, getting-started guide, authentication, and 15 more developer resources.'
+  AI City Social Town''s developer surface includes pricing, documentation, getting-started guide, authentication, and 16 more developer resources.'
 plans:
 - name: Jiademin2688 Top Plans Pricing
   plan_count: 1
@@ -139,18 +147,18 @@ rate_limits:
   name: Jiademin2688 Top Rate Limits
   slug: jiademin2688-top-rate-limits
 score:
-  band: emerging
-  composite: 24.5
+  band: thin
+  composite: 26.3
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 17
     catalog_earned: 55.0
     catalog_earned_first_party: 20.0
     catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.8
   facets:
-    access_clarity: 21.1
+    access_clarity: 31.6
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 38.1
@@ -161,17 +169,18 @@ score:
     conformance: first-party
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/jiademin2688-top/refs/heads/main/screenshots/jiademin2688-top-2026-10-11T110030.png
 security:
 - kind: authentication
   name: Jiademin2688 Top Authentication

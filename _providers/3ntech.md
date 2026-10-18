@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The Universal Commerce Protocol shopping service 3N Eyecare exposes on its own storefront host. An anonymous JSON-RPC 2.0 MCP endpoint serves 13 tools for catalog search and lookup, cart create/update
@@ -31,6 +31,10 @@ apis:
   slug: 3n-eyecare-agentic-commerce-ucp-mcp
 artifact_total: 7
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.3neyecare.com/blogs/news.atom
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/3ntech/refs/heads/main/security/3ntech-domain-security.yml
   title: ''
@@ -138,14 +142,14 @@ mcp_servers:
 - description: Remote MCP server at www.3neyecare.com over HTTP; 13 tools listed.
   name: 3N TECH MCP Server
   slug: universal-commerce
-modified: '2026-09-05'
+modified: '2026-10-06'
 name: 3N TECH
 nav: Providers
 network: true
-overview: '3N TECH publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Eye Care, Medical Devices, Consumer Health, and Contact Lenses.
+overview: '3N TECH is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Eye Care, Medical Devices, Consumer Health, and Contact Lenses.
 
 
-  3N TECH''s developer surface includes documentation, engineering blog, support, signup flow, authentication, and 16 more developer resources.'
+  3N TECH''s developer surface includes documentation, engineering blog, support, signup flow, authentication, and 17 more developer resources.'
 plans:
 - name: 3Ntech Plans Pricing
   plan_count: 0
@@ -164,7 +168,7 @@ score:
   band: emerging
   composite: 25.7
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 18
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -194,13 +198,14 @@ score:
     regime: Health
     regime_id: health
     score: 32.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/3ntech/refs/heads/main/screenshots/3ntech-2026-10-11T092052.png
 security:
 - kind: authentication
   name: 3Ntech Authentication

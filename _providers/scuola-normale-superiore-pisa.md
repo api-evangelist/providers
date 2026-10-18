@@ -23,10 +23,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 0
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.sns.it/it/rss.xml
 - group: company
   title: ''
   type: Website
@@ -38,7 +42,7 @@ coverage:
 created: '2026-08-19'
 description: 'Scuola Normale Superiore di Pisa is a higher-education institution in Italy. This profile is a STUB: it records the institution''s identity only. No claim is made about its programmable surface -- what it operates, what a vendor operates on its behalf, and what it publishes have not yet been established. Run the university pipeline (all/0-working/pipeline-university.md) to profile it.'
 layout: provider
-modified: '2026-08-19'
+modified: '2026-10-06'
 name: Scuola Normale Superiore di Pisa
 nav: Providers
 network: true
@@ -48,7 +52,7 @@ score:
   band: minimal
   composite: 1.7
   coverage:
-    artifact_dirs: 2
+    artifact_dirs: 4
     catalog_earned: 25.0
     catalog_earned_first_party: 0.0
     catalog_gap: 90.0
@@ -83,8 +87,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 0.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

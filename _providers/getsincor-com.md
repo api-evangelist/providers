@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'A2A 1.0.1 agent surface over JSON-RPC 2.0 exposing sixteen skills. Discover via the agent card, quote a skill (price, fee split, free-quota state, input/output JSON Schema) without side effects, then '
@@ -173,7 +173,7 @@ modified: '2026-09-19'
 name: SINCOR
 nav: Providers
 network: true
-overview: 'SINCOR publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI Agents, A2A, Agentic Commerce, and Agentic Payments.
+overview: 'SINCOR is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI Agents, A2A, Agentic Commerce, and Agentic Payments.
 
 
   SINCOR''s developer surface includes authentication, changelog, pricing, sandbox, signup flow, and 24 more developer resources.'
@@ -190,7 +190,7 @@ score:
   band: thin
   composite: 37.4
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 18
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -214,8 +214,8 @@ score:
     regime: Health
     regime_id: health
     score: 18.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -243,7 +243,7 @@ tags:
 - Agentic Payments
 - x402
 - Base
-- Crypto
+- Cryptocurrency
 - Lead Generation
 - Healthcare
 - Compliance

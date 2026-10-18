@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -65,6 +65,10 @@ collections:
   name: Proctorio Launch API (v2)
   slug: open-proctorio
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://proctorio.com/blog
 - group: operate
   title: ''
   type: IssueTracker
@@ -141,19 +145,23 @@ created: '2026-07-05'
 description: Proctorio is a remote proctoring and learning-integrity platform that secures online exams with automated recording (video, audio, screen, web traffic), identity verification, lockdown-browser behavior controls, and post-exam suspicion scoring with behavioral flags. Proctorio is delivered primarily as an LMS-embedded integration - LTI 1.1 and LTI 1.3 for Canvas, Blackboard, Brightspace (D2L), Moodle, and ILIAS - so most institutions never touch a REST API directly. For assessment platforms that are not LMS-native, Proctorio also exposes a partner/integration REST API (v2) that generates signed exam launch URLs for candidates, reviewers, and live proctors, plus HMAC-signed result webhooks (v2/v3) that deliver the exam suspicion score and behavioral flags back to the integrating platform. API access is gated - the consumer key, secret key, and region-specific API endpoint are provisioned by a Proctorio representative per institution or partner - but the endpoint paths, request
   bodies, and webhook payloads are documented publicly in Proctorio's official Apache-2.0 .NET client (github.com/proctorio/API).
 finops:
-- name: Proctorio Finops
+- has_sources: true
+  method: generated
+  name: Proctorio Finops
+  primary_unit: ''
   service_category: Education and Assessment
   slug: proctorio-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/proctorio.png
 layout: provider
-modified: '2026-07-05'
+modified: '2026-10-06'
 name: Proctorio
 nav: Providers
 network: true
-overview: 'Proctorio publishes 2 APIs on the [APIs.io](https://apis.io/) network, including Launch API, and 1 more. Tagged areas include Online Proctoring, Remote Proctoring, Exam Integrity, Assessment, and EdTech.
+overview: 'Proctorio publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network, including Launch API, and 1 more. Tagged areas include Online Proctoring, Remote Proctoring, Exam Integrity, Assessment, and EdTech.
 
 
-  Proctorio''s developer surface includes authentication, documentation, changelog, and 13 more developer resources.'
+  Proctorio''s developer surface includes engineering blog, authentication, documentation, changelog, and 13 more developer resources.'
 plans:
 - name: Proctorio Plans Pricing
   plan_count: 3
@@ -164,23 +172,23 @@ rate_limits:
   name: Proctorio Rate Limits
   slug: proctorio-rate-limits
 score:
-  band: thin
-  composite: 32.5
+  band: emerging
+  composite: 25.5
   coverage:
-    artifact_dirs: 9
-    catalog_earned: 61.6
+    artifact_dirs: 12
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.4
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.0
   facets:
-    access_clarity: 44.2
+    access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 49.0
-    developer_ergonomics: 22.6
+    developer_ergonomics: 25.0
     discoverability: 66.1
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   open_source:
     applies: true
     score: 0.0
@@ -198,12 +206,13 @@ score:
     regime: Education & Research
     regime_id: education
     score: 22.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0
+screenshot: https://raw.githubusercontent.com/api-evangelist/proctorio/refs/heads/main/screenshots/proctorio-2026-10-11T192824.png
 security:
 - kind: authentication
   name: Proctorio Authentication
@@ -216,7 +225,7 @@ security:
 - kind: vulnerability-disclosure
   name: Proctorio Vulnerability Disclosure
   slug: proctorio-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 - kind: trust-center
   name: Proctorio Trust Center
   slug: proctorio-trust-center

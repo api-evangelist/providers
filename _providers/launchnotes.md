@@ -26,14 +26,14 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: false
-    rate_limit_signal: documented
+    protected_resource_metadata: verified
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 11.2
-  scored_at: '2026-10-04'
+  score: 12.9
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: LaunchNotes is a release communication platform for sharing changelogs, roadmaps, and deprecation notices. The platform exposes an extensible API documented through its Help Center for integrating rel
@@ -41,6 +41,21 @@ apis:
   slug: launchnotes
 artifact_total: 7
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/launchnotes/refs/heads/main/plans/launchnotes-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/launchnotes-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/launchnotes/refs/heads/main/rate-limits/launchnotes-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/launchnotes-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/launchnotes/refs/heads/main/finops/launchnotes-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/launchnotes-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/launchnotes/refs/heads/main/security/launchnotes-trust-center.yml
   title: ''
@@ -82,9 +97,13 @@ common:
 created: '2026-03-29'
 description: LaunchNotes is a release communication platform for sharing changelogs, roadmaps, and deprecation notices. The platform helps product, engineering, and customer-facing teams coordinate launches, communicate releases, and notify customers about deprecations through a structured publishing workflow and an extensible API.
 finops:
-- name: Launchnotes Finops
+- has_sources: false
+  method: generated
+  name: Launchnotes Finops
+  primary_unit: ''
   service_category: API
   slug: launchnotes-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/launchnotes.png
 layout: provider
 mcp_servers:
@@ -95,10 +114,10 @@ modified: '2026-04-28'
 name: LaunchNotes
 nav: Providers
 network: true
-overview: 'LaunchNotes publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Changelog, Communications, Deprecation, Product, and Release Notes.
+overview: 'LaunchNotes is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Changelog, Communications, Deprecation, Product, and Release Notes.
 
 
-  LaunchNotes'' developer surface includes documentation, pricing, engineering blog, and 6 more developer resources.'
+  LaunchNotes'' developer surface includes documentation, pricing, engineering blog, and 9 more developer resources.'
 plans:
 - name: Launchnotes Plans Pricing
   plan_count: 3
@@ -110,17 +129,17 @@ rate_limits:
   slug: launchnotes-rate-limits
 score:
   band: emerging
-  composite: 18.5
+  composite: 17.0
   coverage:
-    artifact_dirs: 8
-    catalog_earned: 41.0
+    artifact_dirs: 9
+    catalog_earned: 38.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 47.4
+    access_clarity: 39.5
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
@@ -135,8 +154,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

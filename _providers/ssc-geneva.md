@@ -1,24 +1,22 @@
 ---
 access_model:
   confidence: medium
-  label: Freemium · Self-serve signup
-  onboarding: self-serve
-  pricing: freemium
+  label: Pricing unknown · Enterprise, client-only (on request)
+  onboarding: unknown
+  pricing: unknown
   public: false
   source:
-  - plans
-  - authentication
-  - security
+  - website
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
-    agentic_access: derived
+    agentic_access: false
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: false
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
@@ -27,107 +25,43 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: verified
+    openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: false
     reversibility_documented: false
-    spec_presence: true
+    spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.8
-  scored_at: '2026-10-04'
-agentic_access:
-- acting_count: 1
-  human_in_the_loop: 0
-  name: Ssc Geneva Agentic Access
-  operation_count: 7
-  slug: ssc-geneva-agentic-access
-  summary_line: 7 operations · 1 acting
-api_count: 1
+  score: 0.0
+  scored_at: '2026-10-17'
+api_count: 5
 apis:
-- baseURL: https://api.ssctech.example.com/geneva/v1
-  baseurl_source: declared
-  description: Investor accounts and capital activity
+- description: Investor accounts and capital activity
   name: SS&C Geneva Investors API
   slug: ssc-geneva-investors-api
-- baseURL: https://api.ssctech.example.com/geneva/v1
-  baseurl_source: declared
-  description: Net Asset Value calculation and reporting
+- description: Net Asset Value calculation and reporting
   name: SS&C Geneva NAV API
   slug: ssc-geneva-nav-api
-- baseURL: https://api.ssctech.example.com/geneva/v1
-  baseurl_source: declared
-  description: Portfolio and fund management
+- description: Portfolio and fund management
   name: SS&C Geneva Portfolios API
   slug: ssc-geneva-portfolios-api
-- baseURL: https://api.ssctech.example.com/geneva/v1
-  baseurl_source: declared
-  description: Portfolio positions and holdings
+- description: Portfolio positions and holdings
   name: SS&C Geneva Positions API
   slug: ssc-geneva-positions-api
-- baseURL: https://api.ssctech.example.com/geneva/v1
-  baseurl_source: declared
-  description: Trade capture and processing
+- description: Trade capture and processing
   name: SS&C Geneva Trades API
   slug: ssc-geneva-trades-api
-artifact_total: 30
-collections:
-- collection_type: postman
-  name: SS&C Geneva Fund Accounting Investors API
-  slug: postman-ssc-geneva-investors-api
-- collection_type: postman
-  name: SS&C Geneva Fund Accounting Investors NAV API
-  slug: postman-ssc-geneva-nav-api
-- collection_type: postman
-  name: SS&C Geneva Fund Accounting Investors Portfolios API
-  slug: postman-ssc-geneva-portfolios-api
-- collection_type: postman
-  name: SS&C Geneva Fund Accounting Investors Positions API
-  slug: postman-ssc-geneva-positions-api
-- collection_type: postman
-  name: SS&C Geneva Fund Accounting Investors Trades API
-  slug: postman-ssc-geneva-trades-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
-  name: SS&C Geneva Fund Accounting API
-  slug: open-ssc-geneva-fund-accounting
-- collection_type: open
-  name: SS&C Geneva Fund Accounting Investors API
-  slug: open-ssc-geneva-investors-api
-- collection_type: open
-  name: SS&C Geneva Fund Accounting Investors NAV API
-  slug: open-ssc-geneva-nav-api
-- collection_type: open
-  name: SS&C Geneva Fund Accounting Investors Portfolios API
-  slug: open-ssc-geneva-portfolios-api
-- collection_type: open
-  name: SS&C Geneva Fund Accounting Investors Positions API
-  slug: open-ssc-geneva-positions-api
-- collection_type: open
-  name: SS&C Geneva Fund Accounting Investors Trades API
-  slug: open-ssc-geneva-trades-api
+artifact_total: 6
 common:
 - group: build
   title: ''
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/ssc-geneva/overview
-- group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ssc-geneva/refs/heads/main/agentic-access/ssc-geneva-agentic-access.yml
-  title: ''
-  type: AgenticAccess
-  url: agentic-access/ssc-geneva-agentic-access.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/ssc-geneva/refs/heads/main/security/ssc-geneva-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ssc-geneva-domain-security.yml
-- group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ssc-geneva/refs/heads/main/authentication/ssc-geneva-authentication.yml
-  title: ''
-  type: Authentication
-  url: authentication/ssc-geneva-authentication.yml
 - group: company
   title: ''
   type: LinkedIn
@@ -156,144 +90,57 @@ common:
   title: ''
   type: Documentation
   url: https://www.ssctech.com/resources
-- group: docs
-  title: ''
-  type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ssc-geneva/refs/heads/main/openapi/ssc-geneva-fund-accounting-openapi.yml
-- group: docs
-  title: ''
-  type: JSONSchema
-  url: https://raw.githubusercontent.com/api-evangelist/ssc-geneva/refs/heads/main/json-schema/ssc-geneva-portfolio-schema.json
-- group: design
-  title: ''
-  type: JSONStructure
-  url: https://raw.githubusercontent.com/api-evangelist/ssc-geneva/refs/heads/main/json-structure/ssc-geneva-fund-structure.json
-- group: design
-  title: ''
-  type: JSONLDContext
-  url: https://raw.githubusercontent.com/api-evangelist/ssc-geneva/refs/heads/main/json-ld/ssc-geneva-context.jsonld
-- group: design
-  title: ''
-  type: SpectralRules
-  url: https://raw.githubusercontent.com/api-evangelist/ssc-geneva/refs/heads/main/rules/ssc-geneva-rules.yml
-- group: design
-  title: ''
-  type: Vocabulary
-  url: https://raw.githubusercontent.com/api-evangelist/ssc-geneva/refs/heads/main/vocabulary/ssc-geneva-vocabulary.yml
+coverage:
+  detail: SS&C publishes no public API reference or machine-readable specification for Geneva. Integration documentation is provided to licensed clients through SS&C's client portals. A placeholder OpenAPI (placeholder server on a reserved example domain) and everything derived from it were quarantined to _scaffold/ on 2026-10-17.
+  reason: no-machine-readable-spec
+  state: unreadable
 created: '2026-03-18'
-description: SS&C Geneva is an enterprise-grade fund accounting and portfolio management platform for asset managers, hedge funds, and fund administrators. Geneva provides APIs for NAV calculation, trade processing, investor accounting, position management, and regulatory reporting across multi-asset portfolios including equities, fixed income, derivatives, and alternative investments.
-examples:
-- key_count: 4
-  name: Ssc Geneva Get Nav Example
-  slug: ssc-geneva-get-nav-example
-- key_count: 4
-  name: Ssc Geneva List Portfolios Example
-  slug: ssc-geneva-list-portfolios-example
-finops:
-- name: Ssc Geneva Finops
-  service_category: API
-  slug: ssc-geneva-finops
+description: SS&C Geneva is an enterprise-grade fund accounting and portfolio management platform for asset managers, hedge funds, and fund administrators. Geneva supports NAV calculation, trade processing, investor accounting, position management, and regulatory reporting across multi-asset portfolios including equities, fixed income, derivatives, and alternative investments.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ssc-geneva.png
-json_schemas:
-- name: SS&C Geneva Portfolio
-  property_count: 16
-  slug: ssc-geneva-portfolio
-json_structures:
-- name: Ssc Geneva Fund Structure
-  property_count: 0
-  slug: ssc-geneva-fund-structure
-jsonld:
-- class_count: 23
-  name: Ssc Geneva Context
-  property_count: 12
-  slug: ssc-geneva-context
 layout: provider
 modified: '2026-05-19'
 name: SS&C Geneva
 nav: Providers
 network: true
-overview: 'SS&C Geneva publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Investors API, NAV API, Portfolios API, and 2 more. Tagged areas include Fund Accounting, Asset Management, Portfolio Management, Financial Services, and Hedge Funds.
+overview: 'SS&C Geneva is listed with 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Fund Accounting, Asset Management, Portfolio Management, Financial Services, and Hedge Funds.
 
 
-  The SS&C Geneva catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
-
-
-  SS&C Geneva''s developer surface includes authentication, developer portal, engineering blog, support, documentation, and 12 more developer resources.'
-plans:
-- name: Ssc Geneva Plans Pricing
-  plan_count: 3
-  slug: ssc-geneva-plans-pricing
+  SS&C Geneva''s developer surface includes developer portal, engineering blog, support, documentation, and 5 more developer resources.'
 random_paper: 14
-rate_limits:
-- limit_count: 5
-  name: Ssc Geneva Rate Limits
-  slug: ssc-geneva-rate-limits
-rules:
-- effective_rule_count: 5
-  extends: []
-  name: SS&C Geneva API Rules
-  rule_count: 5
-  severity_counts:
-    error: 0
-    hint: 0
-    info: 2
-    warn: 3
-  slug: ssc-geneva-jsonschema-spectral-rules
-- effective_rule_count: 49
-  extends:
-  - spectral:oas
-  name: SS&C Geneva API Rules
-  rule_count: 8
-  severity_counts:
-    error: 2
-    hint: 1
-    info: 0
-    warn: 5
-  slug: ssc-geneva-rules
 score:
-  band: thin
-  composite: 39.0
+  band: emerging
+  composite: 13.7
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 71.4
+    artifact_dirs: 5
+    catalog_earned: 35.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 43.6
+    catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -25.3
   facets:
-    access_clarity: 26.3
-    contract_governance: 27.3
-    contract_quality: 59.8
-    developer_ergonomics: 39.3
-    discoverability: 66.1
-    operational_transparency: 7.9
+    access_clarity: 10.5
+    contract_governance: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 30.5
+    discoverability: 62.5
+    operational_transparency: 0.0
   previous_composite: 39.0
-  provenance:
-    agentic_access: derived
-    contracts:
-      callable: 0.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 5
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 20.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+    score: 9.8
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
-    applies: true
-    score: 0.0
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/ssc-geneva/refs/heads/main/screenshots/ssc-geneva-2026-06-20T194436.png
 security:
-- kind: authentication
-  name: Ssc Geneva Authentication
-  slug: ssc-geneva-authentication
-  summary_line: http · 2 schemes
 - kind: domain-security
   name: Ssc Geneva Domain Security
   slug: ssc-geneva-domain-security

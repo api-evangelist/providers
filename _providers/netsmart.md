@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 5
 apis:
 - description: FHIR R4 API enabling patients and authorized applications to access clinical health records from Netsmart provider EHR systems including myAvatar, myEvolv, myUnity, GEHRIMED, and TheraOffice. Implemen
@@ -125,9 +125,13 @@ common:
 created: '2026-06-13'
 description: Netsmart is a healthcare IT platform provider serving behavioral health, post-acute care, and human services organizations. Its CareConnect integration platform exposes FHIR R4 REST APIs for EHR data access, care coordination, analytics, and interoperability across care settings. APIs support Patient Access, System Access (bulk data), Provider Directory, and General Purpose FHIR R4/STU3 resources across Netsmart EHR products including myAvatar, myEvolv, myUnity, GEHRIMED, and TheraOffice.
 finops:
-- name: Netsmart Finops
+- has_sources: false
+  method: generated
+  name: Netsmart Finops
+  primary_unit: ''
   service_category: ''
   slug: netsmart-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/netsmart.png
 jsonld:
 - class_count: 36
@@ -139,7 +143,7 @@ modified: '2026-06-13'
 name: Netsmart
 nav: Providers
 network: true
-overview: 'Netsmart publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Healthcare IT, EHR, FHIR, Behavioral Health, and Post-Acute Care.
+overview: 'Netsmart is listed with 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Healthcare IT, Electronic Health Records, FHIR, Behavioral Health, and Post-Acute Care.
 
 
   The Netsmart catalog on APIs.io includes 1 JSON-LD context.
@@ -157,22 +161,22 @@ rate_limits:
   slug: netsmart-rate-limits
 score:
   band: thin
-  composite: 35.7
+  composite: 28.7
   coverage:
-    artifact_dirs: 7
-    catalog_earned: 72.0
+    artifact_dirs: 8
+    catalog_earned: 56.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 43.0
+    catalog_gap: 59.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.0
   facets:
-    access_clarity: 50.5
+    access_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 14.7
     developer_ergonomics: 52.4
     discoverability: 71.4
-    operational_transparency: 28.4
+    operational_transparency: 7.9
   previous_composite: 35.7
   regulatory:
     applies: true
@@ -180,9 +184,9 @@ score:
     regime: Health
     regime_id: health
     score: 16.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -196,7 +200,7 @@ security:
 slug: netsmart
 tags:
 - Healthcare IT
-- EHR
+- Electronic Health Records
 - FHIR
 - Behavioral Health
 - Post-Acute Care

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: RESTful backend API for the Sigfox 0G network — manage devices, device types, contracts, groups, users and base stations; retrieve device messages; predict coverage; and configure callbacks that deliv
@@ -139,7 +139,7 @@ modified: '2026-07-21'
 name: Sigfox
 nav: Providers
 network: true
-overview: 'Sigfox publishes 1 API on the [APIs.io](https://apis.io/) network: Cloud API. Tagged areas include Company, Industrial, Energy & Iot, IoT, LPWAN, and Connectivity.
+overview: 'Sigfox is listed with 1 API on the [APIs.io](https://apis.io/) network: Cloud API. Tagged areas include Company, Industrial, Energy & Iot, IoT, LPWAN, and Connectivity.
 
 
   Sigfox''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, and 14 more developer resources.'
@@ -175,8 +175,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 20.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

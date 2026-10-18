@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Artificial Labs provides an AI coding platform with autonomous agents.
@@ -31,6 +31,10 @@ apis:
   slug: artificial-labs-api
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.artificiallabs.ai/news/
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/artificiallabs/refs/heads/main/well-known/artificiallabs-well-known.yml
   title: ''
@@ -86,32 +90,34 @@ coverage:
 created: '2026-09-26'
 description: Artificiallabs is an AI‑powered coding platform that automates software development. It provides an autonomous AI engineer named Lloyd that writes, runs, tests, and validates code in real cloud VMs, delivering live proof of functionality. Users interact via a chat‑like interface to describe features, bugs, or refactors, and watch the AI build and verify the solution, with support for web‑based IDE, LLM Lab, and integration tools.
 layout: provider
-modified: '2026-09-26'
+modified: '2026-10-06'
 name: Artificiallabs
 nav: Providers
 network: true
-overview: 'Artificiallabs publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Coding Platform, Automation, Developer Tools, and Software-as-a-Service.
+overview: 'Artificiallabs is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Coding Platform, Automation, Developer Tools, and Software-as-a-Service.
 
 
-  Artificiallabs'' developer surface includes documentation, getting-started guide, pricing, and 7 more developer resources.'
+  Artificiallabs'' developer surface includes engineering blog, documentation, getting-started guide, pricing, and 7 more developer resources.'
 random_paper: 14
 score:
   band: emerging
-  composite: 16.4
+  composite: 16.9
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 8
     catalog_earned: 30.0
     catalog_earned_first_party: 0.0
     catalog_gap: 85.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.5
   facets:
     access_clarity: 31.6
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 21.4
+    developer_ergonomics: 23.8
     discoverability: 53.6
     operational_transparency: 0.0
+  previous_composite: 16.4
   provenance:
     mcp: derived
   regulatory:
@@ -120,12 +126,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/artificiallabs/refs/heads/main/screenshots/artificiallabs-2026-10-11T100422.png
 security:
 - kind: domain-security
   name: Artificiallabs Domain Security

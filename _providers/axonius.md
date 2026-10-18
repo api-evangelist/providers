@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Axonius is a cybersecurity asset management platform providing SaaS management, device discovery, and security policy enforcement across IT environments.
@@ -58,6 +58,11 @@ collections:
   name: Devices
   slug: postman-axonius-devices
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/axonius/refs/heads/main/finops/axonius-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/axonius-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/axonius/refs/heads/main/security/axonius-trust-center.yml
   title: ''
@@ -234,9 +239,13 @@ features:
 - description: Track asset lifecycle from procurement to decommission with full audit trail.
   name: Lifecycle Management
 finops:
-- name: Axonius Finops
+- has_sources: false
+  method: generated
+  name: Axonius Finops
+  primary_unit: ''
   service_category: API
   slug: axonius-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/axonius.png
 integrations:
 - description: Pull endpoint data from CrowdStrike Falcon to enrich asset inventory.
@@ -258,13 +267,13 @@ modified: '2026-09-18'
 name: Axonius
 nav: Providers
 network: true
-overview: 'Axonius publishes 1 API on the [APIs.io](https://apis.io/) network: Axonius. Tagged areas include Asset Management, Cybersecurity, SaaS Management, SaaS Security, and Vulnerability Management.
+overview: 'Axonius is listed with 1 API on the [APIs.io](https://apis.io/) network: Axonius. Tagged areas include Asset Management, Cybersecurity, SaaS Management, SaaS Security, and Vulnerability Management.
 
 
   The Axonius catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Axonius'' developer surface includes documentation, engineering blog, pricing, getting-started guide, API reference, support, CLI, and 27 more developer resources.'
+  Axonius'' developer surface includes documentation, engineering blog, pricing, getting-started guide, API reference, support, CLI, and 28 more developer resources.'
 plans:
 - name: Axonius Plans Pricing
   plan_count: 2
@@ -276,17 +285,17 @@ rate_limits:
   slug: axonius-rate-limits
 score:
   band: developing
-  composite: 51.4
+  composite: 49.9
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 48.0
+    artifact_dirs: 21
+    catalog_earned: 45.0
     catalog_earned_first_party: 8.0
-    catalog_gap: 67.0
+    catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 65.8
+    access_clarity: 57.9
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 58.3
@@ -302,8 +311,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 31.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

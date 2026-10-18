@@ -38,8 +38,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 61.5
-  scored_at: '2026-10-04'
-api_count: 4
+  scored_at: '2026-10-17'
+api_count: 8
 apis:
 - baseURL: https://app.daloopa.com/api/v3
   baseurl_source: declared
@@ -295,7 +295,7 @@ modified: '2026-09-16'
 name: Daloopa
 nav: Providers
 network: true
-overview: 'Daloopa publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Companies API, Consumption API, and 16 more. Tagged areas include Financial Data, Fundamental Data, Market Data, Investment Research, and Equity Research.
+overview: 'Daloopa publishes 19 API contracts indexed on the [APIs.io](https://apis.io/) network, including Auth API, Companies API, Consumption API, and 16 more. Tagged areas include Financial Data, Fundamental Data, Market Data, Investment Research, and Equity Research.
 
 
   The Daloopa catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -315,7 +315,7 @@ score:
   band: developing
   composite: 51.2
   coverage:
-    artifact_dirs: 25
+    artifact_dirs: 26
     catalog_earned: 48.0
     catalog_earned_first_party: 8.0
     catalog_gap: 67.0
@@ -345,8 +345,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 33.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

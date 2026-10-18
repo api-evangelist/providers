@@ -32,10 +32,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.hims.com/blog
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.hims.com/blog/feed
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/hims-and-hers/refs/heads/main/security/hims-and-hers-vulnerability-disclosure.yml
   title: ''
@@ -82,31 +90,31 @@ created: '2026-05-23'
 description: 'Hims & Hers Health, Inc. (NYSE: HIMS) is a direct-to-consumer telehealth platform headquartered in San Francisco that connects consumers with licensed providers and ships personalized treatments across men''s and women''s health categories. Hims serves men with offerings spanning sexual health, hair loss, mental health, dermatology, and weight loss; Hers serves women with birth control, hair, skin, mental health, and weight management; both brands include compounded GLP-1 weight-loss programs. International expansion has been driven by the acquisitions of ZAVA (Europe, 2025) and Eucalyptus Health (Australia, 2026). Hims & Hers is primarily a consumer D2C product; no public developer API has been identified, and B2B and partner integrations are gated. This entry catalogs the company surface for the API Evangelist index.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hims-and-hers.png
 layout: provider
-modified: '2026-05-23'
+modified: '2026-10-06'
 name: Hims & Hers Health
 nav: Providers
 network: true
 overview: 'Hims & Hers Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Telehealth, Direct to Consumer, GLP-1, Weight Loss, and Mental Health.
 
 
-  Hims & Hers Health''s developer surface includes terms of service and 9 more developer resources.'
+  Hims & Hers Health''s developer surface includes engineering blog, terms of service, and 10 more developer resources.'
 random_paper: 10
 score:
   band: minimal
-  composite: 3.9
+  composite: 4.5
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 24.0
     catalog_earned_first_party: 0.0
     catalog_gap: 91.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 43.8
     operational_transparency: 0.0
   jurisdiction:
@@ -123,8 +131,8 @@ score:
     regime: Health
     regime_id: health
     score: 9.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

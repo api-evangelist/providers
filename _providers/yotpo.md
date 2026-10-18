@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -145,16 +145,20 @@ common:
 created: '2026-06-25'
 description: Yotpo is an eCommerce retention marketing platform offering Reviews & Ratings, Loyalty & Referrals, Subscriptions, and visual UGC. Each product exposes a documented REST API - the UGC/Reviews and Core APIs under api.yotpo.com (app key plus OAuth utoken) and the Loyalty & Referrals API under loyalty.yotpo.com (program GUID plus API key) - so merchants can sync orders, products, and customers and drive reviews, points, and redemptions programmatically. Yotpo's SMS & Email (SMSBump) products were discontinued on December 31, 2025.
 finops:
-- name: Yotpo Finops
+- has_sources: true
+  method: generated
+  name: Yotpo Finops
+  primary_unit: ''
   service_category: Marketing and Commerce
   slug: yotpo-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/yotpo.png
 layout: provider
 modified: '2026-06-25'
 name: Yotpo
 nav: Providers
 network: true
-overview: 'Yotpo publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Loyalty API, Reviews API, and 1 more. Tagged areas include E-Commerce, Reviews, Loyalty, Retention Marketing, and UGC.
+overview: 'Yotpo publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authentication API, Loyalty API, Reviews API, and 1 more. Tagged areas include E-Commerce, Reviews, Loyalty, Retention Marketing, and UGC.
 
 
   Yotpo''s developer surface includes authentication, engineering blog, documentation, and 10 more developer resources.'
@@ -169,22 +173,22 @@ rate_limits:
   slug: yotpo-rate-limits
 score:
   band: thin
-  composite: 39.0
+  composite: 30.7
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 61.6
+    artifact_dirs: 13
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.4
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 44.2
+    access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 44.1
     developer_ergonomics: 20.2
     discoverability: 66.1
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   previous_composite: 39.0
   provenance:
     agentic_access: derived
@@ -199,9 +203,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 50.0

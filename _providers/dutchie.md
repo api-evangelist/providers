@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 15.5
-  scored_at: '2026-10-04'
+  score: 13.6
+  scored_at: '2026-10-17'
 api_count: 4
 apis:
 - description: GraphQL queries for the dispensaries/retailers connected to your Dutchie Plus account - retailer metadata, address, hours, accepted order types (pickup/delivery), and pricing types (recreational/medic
@@ -54,6 +54,10 @@ collections:
   name: Dutchie Plus GraphQL API
   slug: open-dutchie
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://dutchie.com/business/blog
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/dutchie/refs/heads/main/security/dutchie-vulnerability-disclosure.yml
   title: ''
@@ -98,23 +102,27 @@ common:
 created: '2026-07-03'
 description: Dutchie is a cannabis retail technology platform providing point of sale, ecommerce, and payments for dispensaries. Its headless commerce product, Dutchie Plus, exposes a GraphQL API (endpoint https://plus.dutchie.com/plus/2021-07/graphql) that lets developers build fully custom, branded dispensary storefronts against Dutchie's ecommerce backend - querying retailer menus, products, variants, potency, and specials, and driving a stateful cart/checkout that respects cannabis compliance, inventory, taxes, and per-state rules. Requests are GraphQL POST operations authenticated with a per-retailer Bearer API key. Note - Dutchie has announced a 2026 sunset/deprecation of the Plus headless commerce API.
 finops:
-- name: Dutchie Finops
+- has_sources: true
+  method: generated
+  name: Dutchie Finops
+  primary_unit: ''
   service_category: Commerce and Retail
   slug: dutchie-finops
+  template: false
 graphqls:
 - description: Dutchie Plus is Dutchie's headless cannabis-commerce API. It lets developers build
   name: Dutchie Plus GraphQL API
   slug: dutchie-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dutchie.png
 layout: provider
-modified: '2026-07-03'
+modified: '2026-10-06'
 name: Dutchie
 nav: Providers
 network: true
-overview: 'Dutchie publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Cannabis, Dispensary, Retail, E-Commerce, and Point-of-Sale.
+overview: 'Dutchie is listed with 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Cannabis, Dispensary, Retail, E-Commerce, and Point-of-Sale.
 
 
-  Dutchie''s developer surface includes documentation and 8 more developer resources.'
+  Dutchie''s developer surface includes engineering blog, documentation, and 8 more developer resources.'
 plans:
 - name: Dutchie Plans Pricing
   plan_count: 2
@@ -126,22 +134,22 @@ rate_limits:
   slug: dutchie-rate-limits
 score:
   band: emerging
-  composite: 22.7
+  composite: 17.2
   coverage:
-    artifact_dirs: 7
-    catalog_earned: 57.4
+    artifact_dirs: 9
+    catalog_earned: 44.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.6
+    catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.5
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 35.1
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 71.4
-    operational_transparency: 21.6
+    operational_transparency: 7.9
   previous_composite: 22.7
   regulatory:
     applies: true
@@ -149,9 +157,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 10.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

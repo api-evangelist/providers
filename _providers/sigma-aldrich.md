@@ -29,20 +29,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 1
+- acting_count: 0
   human_in_the_loop: 0
   name: Sigma Aldrich Agentic Access
   operation_count: 6
   slug: sigma-aldrich-agentic-access
-  summary_line: 6 operations · 1 acting
+  summary_line: 6 operations
 api_count: 1
 apis:
 - description: The Sigma-Aldrich Chemical Structure Search API enables substructure, exact structure, and similarity searches against the Sigma-Aldrich chemical catalog using SMILES, InChI, or molecular formula nota
@@ -92,6 +92,21 @@ collections:
   name: Sigma-Aldrich Product Search Pricing and Availability Structures API
   slug: open-sigma-aldrich-structures-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sigma-aldrich/refs/heads/main/plans/sigma-aldrich-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/sigma-aldrich-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/sigma-aldrich/refs/heads/main/rate-limits/sigma-aldrich-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/sigma-aldrich-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sigma-aldrich/refs/heads/main/finops/sigma-aldrich-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/sigma-aldrich-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/sigma-aldrich/refs/heads/main/agentic-access/sigma-aldrich-agentic-access.yml
   title: ''
@@ -138,9 +153,13 @@ examples:
   name: Sigma Aldrich Search Products Example
   slug: sigma-aldrich-search-products-example
 finops:
-- name: Sigma Aldrich Finops
+- has_sources: true
+  method: generated
+  name: Sigma Aldrich Finops
+  primary_unit: ''
   service_category: Life Science Procurement
   slug: sigma-aldrich-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sigma-aldrich.png
 json_schemas:
 - name: SigmaAldrichProduct
@@ -160,13 +179,13 @@ modified: '2026-05-19'
 name: Sigma-Aldrich
 nav: Providers
 network: true
-overview: 'Sigma-Aldrich publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Pricing and Availability API, Products API, Safety Data Sheets API, and 3 more. Tagged areas include Life Sciences, Chemistry, Biochemistry, Laboratory, and Research.
+overview: 'Sigma-Aldrich publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Pricing and Availability API, Products API, Safety Data Sheets API, and 3 more. Tagged areas include Life Sciences, Chemistry, Biochemistry, Laboratory, and Research.
 
 
   The Sigma-Aldrich catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Sigma-Aldrich''s developer surface includes authentication and 8 more developer resources.'
+  Sigma-Aldrich''s developer surface includes authentication and 11 more developer resources.'
 plans:
 - name: Sigma Aldrich Plans Pricing
   plan_count: 1
@@ -193,9 +212,10 @@ rate_limits:
   name: Sigma Aldrich Rate Limits
   slug: sigma-aldrich-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Sigma-Aldrich API Rules
+  name: Sigma-Aldrich — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -203,7 +223,8 @@ rules:
     info: 2
     warn: 3
   slug: sigma-aldrich-jsonschema-spectral-rules
-- effective_rule_count: 49
+- authorship: unmarked
+  effective_rule_count: 49
   extends:
   - spectral:oas
   name: Sigma-Aldrich API Rules
@@ -216,17 +237,17 @@ rules:
   slug: sigma-aldrich-rules
 score:
   band: thin
-  composite: 33.8
+  composite: 32.2
   coverage:
     artifact_dirs: 19
-    catalog_earned: 61.4
+    catalog_earned: 58.4
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.6
+    catalog_gap: 56.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 13.2
+    access_clarity: 5.3
     contract_governance: 27.3
     contract_quality: 60.5
     developer_ergonomics: 31.0
@@ -246,8 +267,8 @@ score:
     regime: Health
     regime_id: health
     score: 13.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

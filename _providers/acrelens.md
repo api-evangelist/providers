@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'Land suitability scoring API for any US property: off-grid, rural, recreational, investment'
@@ -65,13 +65,13 @@ modified: '2026-05-28'
 name: AcreLens
 nav: Providers
 network: true
-overview: AcreLens publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Open Data and Public APIs.
+overview: AcreLens is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Open Data and Public APIs.
 random_paper: 9
 score:
   band: minimal
   composite: 5.8
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 22.0
     catalog_earned_first_party: 0.0
     catalog_gap: 93.0
@@ -94,8 +94,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

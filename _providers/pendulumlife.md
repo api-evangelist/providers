@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://pendulumlife.com/blogs/news.atom
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/pendulumlife/refs/heads/main/security/pendulumlife-domain-security.yml
   title: ''
@@ -78,20 +82,20 @@ created: '2026-07-17'
 description: 'Pendulum (pendulumlife.com) is a direct-to-consumer probiotics and metabolic-health company founded by PhD scientists from Johns Hopkins, Harvard, Berkeley and Stanford. It sells next-generation probiotic supplements such as Metabolic Daily, Akkermansia, Glucose Control (a medical probiotic clinically shown to improve A1C in type 2 diabetes) and Polyphenol Booster. Surfaced as a portfolio company of felicis and added to the API Evangelist network for enrichment. Enrichment finding: the site is a Shopify-hosted storefront and Pendulum publishes no first-party developer API, SDKs, or documentation; the only machine surface is Shopify''s platform customer-account OIDC discovery endpoint.'
 image: https://pendulumlife.com/cdn/shop/files/Pendulum_Logo_Registered_Petal_8e91b0c1-3451-4839-871e-b0b2612e30f3.png?v=1621028826
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Pendulumlife
 nav: Providers
 network: true
 overview: 'Pendulumlife is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Probiotics, Consumer, and Supplements.
 
 
-  Pendulumlife''s developer surface includes engineering blog, support, pricing, signup flow, and 5 more developer resources.'
+  Pendulumlife''s developer surface includes engineering blog, support, pricing, signup flow, and 6 more developer resources.'
 random_paper: 14
 score:
   band: emerging
   composite: 15.7
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -112,8 +116,8 @@ score:
     regime: Health
     regime_id: health
     score: 15.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

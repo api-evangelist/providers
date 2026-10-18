@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://oklo.com/newsroom/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/oklo/refs/heads/main/security/oklo-domain-security.yml
   title: ''
@@ -106,20 +110,20 @@ description: 'Oklo Inc. is a Santa Clara, California advanced fission company de
   completed an NRC Phase 1 pre-application assessment. Oklo went public in May 2024 via merger with AltC Acquisition Corp (a SPAC co-founded by Sam Altman, who serves as chairman) and trades on the NYSE under ticker OKLO. Oklo''s commercial posture is utility-scale and industrial — selling power, fuel cycle services, and isotopes to data center operators, defense customers, and industrial offtakers — and the company exposes no public developer API, SDK, or open source software.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/oklo.png
 layout: provider
-modified: '2026-05-24'
+modified: '2026-10-06'
 name: Oklo
 nav: Providers
 network: true
 overview: 'Oklo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Nuclear, Advanced Fission, Small Modular Reactor, and Fast Reactor.
 
 
-  Oklo''s developer surface includes YouTube channel and 15 more developer resources.'
+  Oklo''s developer surface includes YouTube channel and 16 more developer resources.'
 random_paper: 19
 score:
   band: minimal
   composite: 3.7
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -140,13 +144,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 4.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/oklo/refs/heads/main/screenshots/oklo-2026-10-11T111822.png
 security:
 - kind: domain-security
   name: Oklo Domain Security

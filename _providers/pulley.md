@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: REST API for programmatic management of cap table data including stakeholders, equity grants, option pools, convertible instruments, vesting schedules, and investor reporting. Used by integrations wit
@@ -101,9 +101,13 @@ common:
 created: '2026-06-13'
 description: Cap table management platform for startups and finance leaders, providing a REST API for managing equity, modeling dilution, issuing options and RSUs, tracking SAFEs and convertible instruments, and generating investor and compliance reports. Pulley supports both equity and token cap tables with integrations to leading HRIS platforms, custodians, and legal tools.
 finops:
-- name: Pulley Finops
+- has_sources: false
+  method: generated
+  name: Pulley Finops
+  primary_unit: ''
   service_category: ''
   slug: pulley-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pulley.png
 jsonld:
 - class_count: 22
@@ -115,7 +119,7 @@ modified: '2026-06-13'
 name: Pulley
 nav: Providers
 network: true
-overview: 'Pulley publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Cap Table, Equity Management, Startups, Options, and RSUs.
+overview: 'Pulley is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Cap Table, Equity Management, Startups, Options, and RSUs.
 
 
   The Pulley catalog on APIs.io includes 1 JSON-LD context.
@@ -132,23 +136,23 @@ rate_limits:
   name: Pulley Rate Limits
   slug: pulley-rate-limits
 score:
-  band: thin
-  composite: 28.0
+  band: emerging
+  composite: 19.8
   coverage:
     artifact_dirs: 8
-    catalog_earned: 69.6
+    catalog_earned: 51.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 45.4
+    catalog_gap: 64.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.2
   facets:
-    access_clarity: 54.7
+    access_clarity: 26.3
     contract_governance: 0.0
     contract_quality: 10.7
     developer_ergonomics: 11.9
     discoverability: 66.1
-    operational_transparency: 41.6
+    operational_transparency: 21.1
   previous_composite: 28.0
   regulatory:
     applies: true
@@ -156,9 +160,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

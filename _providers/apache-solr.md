@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -103,6 +103,21 @@ collections:
   name: Apache Solr HTTP API
   slug: open-apache-solr
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/apache-solr/refs/heads/main/plans/apache-solr-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/apache-solr-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/apache-solr/refs/heads/main/rate-limits/apache-solr-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/apache-solr-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/apache-solr/refs/heads/main/finops/apache-solr-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/apache-solr-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/apache-solr/refs/heads/main/capabilities/apache-solr-capability-edges.yml
   title: ''
@@ -210,9 +225,13 @@ features:
 - description: SQL query language with JDBC support for analytics tools like Zeppelin and R.
   name: SQL Interface
 finops:
-- name: Apache Solr Finops
+- has_sources: false
+  method: generated
+  name: Apache Solr Finops
+  primary_unit: ''
   service_category: API
   slug: apache-solr-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/apache-solr.png
 integrations:
 - description: Distributed coordination service for SolrCloud cluster management and configuration.
@@ -234,10 +253,10 @@ modified: '2026-04-19'
 name: Apache Solr
 nav: Providers
 network: true
-overview: 'Apache Solr publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Cluster API, Collections API, Query API, and 5 more. Tagged areas include Enterprise Search, Full-Text Search, Lucene, Search, and SolrCloud.
+overview: 'Apache Solr publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Cluster API, Collections API, Query API, and 5 more. Tagged areas include Enterprise Search, Full-Text Search, Lucene, Search, and SolrCloud.
 
 
-  Apache Solr''s developer surface includes authentication, documentation, developer portal, getting-started guide, release notes, support, engineering blog, and 13 more developer resources.'
+  Apache Solr''s developer surface includes authentication, documentation, developer portal, getting-started guide, release notes, support, engineering blog, and 16 more developer resources.'
 plans:
 - name: Apache Solr Plans Pricing
   plan_count: 3
@@ -249,17 +268,17 @@ rate_limits:
   slug: apache-solr-rate-limits
 score:
   band: developing
-  composite: 41.6
+  composite: 40.2
   coverage:
     artifact_dirs: 12
-    catalog_earned: 41.0
+    catalog_earned: 38.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.4
   facets:
-    access_clarity: 26.3
+    access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 40.4
     developer_ergonomics: 57.1
@@ -282,8 +301,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

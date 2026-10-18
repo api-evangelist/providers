@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'Public REST API for accessing restaurant analytics data — locations, areas, sales, and forecast data — secured with OAuth 2.0 Bearer tokens. Partners integrate via the Authorization Code flow to pull '
@@ -41,6 +41,14 @@ apis:
   slug: tenzo-api
 artifact_total: 5
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.gotenzo.com/resources/insights-tenzo/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.gotenzo.com/feed/
 - group: company
   title: ''
   type: Website
@@ -133,14 +141,14 @@ mcp_servers:
 - description: The Tenzo MCP server gives AI assistants read-only access to restaurant analytics, reviews, and manager logs through natural language. Users authorize with their Tenzo account via OAuth on first conne
   name: Tenzo MCP Server
   slug: tenzo
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Tenzo
 nav: Providers
 network: true
-overview: 'Tenzo publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Restaurant, Analytics, Business Intelligence, and Reporting.
+overview: 'Tenzo is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Restaurant, Analytics, Business Intelligence, and Reporting.
 
 
-  Tenzo''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, engineering blog, support, and 12 more developer resources.'
+  Tenzo''s developer surface includes engineering blog, documentation, API reference, getting-started guide, authentication, changelog, support, and 14 more developer resources.'
 random_paper: 10
 scopes:
 - name: Tenzo Scopes
@@ -151,7 +159,7 @@ score:
   band: thin
   composite: 29.6
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 14
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -179,8 +187,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

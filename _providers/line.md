@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 44.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 4
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 111
   slug: line-agentic-access
   summary_line: 111 operations · 59 acting · 4 human-in-the-loop
-api_count: 9
+api_count: 10
 apis:
 - description: End-user authentication and authorization over OAuth 2.0 authorization code grant and OpenID Connect. Authorization runs at access.line.me; token, userinfo, revocation and JWKS endpoints are on api.li
   name: LINE Login v2.1
@@ -271,7 +271,7 @@ apis:
     question: How do I send a mission sticker to a LINE user?
   phrasing_ops: 1
   slug: line-shop-api
-artifact_total: 28
+artifact_total: 29
 asyncapis:
 - description: 'AsyncAPI description of the webhook event surface published by the LINE Messaging API to bot servers. The Messaging API delivers webhook events as HTTPS POST requests to the configured webhook URL of '
   name: LINE Messaging Webhook Event Surface
@@ -549,6 +549,10 @@ common:
   title: ''
   type: PrivacyPolicy
   url: https://www.lycorp.co.jp/en/company/privacypolicy/
+- group: design
+  title: ''
+  type: SpectralRules
+  url: https://github.com/line/line-openapi/blob/fa5577c9ea874d2dbd8fadc85a4cb3a1b29d8cbe/.spectral.yaml
 created: '2026-05-11'
 description: LINE is a Japan-based messaging platform operated by LY Corporation, with over 200 million monthly active users across Japan, Taiwan, Thailand and Indonesia, offering messaging, payments, news and a broad ecosystem of services. The LINE Developers platform exposes public APIs for building chatbots and Official Accounts (Messaging API), issuing and rotating credentials (Channel Access Token API), reading delivery and audience analytics (Insight API), building marketing audiences (Manage Audience API), running web apps inside the LINE client (LIFF), and social login via LINE Login v2.1 over OAuth 2.0 and OpenID Connect. LINE publishes nine first-party OpenAPI documents covering 111 operations at github.com/line/line-openapi and generates all six official server SDKs from them. Server API calls authenticate with a channel access token presented as an HTTP Bearer credential and scoped to a single LINE channel.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/line.png
@@ -561,13 +565,13 @@ modified: '2026-09-16'
 name: LINE
 nav: Providers
 network: true
-overview: 'LINE publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Channel Access Token API, Dummy API, Insight API, and 9 more. Tagged areas include Messaging, Chatbots, Social Login, Mini Apps, and Marketing.
+overview: 'LINE publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including Channel Access Token API, Dummy API, Insight API, and 9 more. Tagged areas include Messaging, Chatbots, Social Login, Mini Apps, and Marketing.
 
 
-  The LINE catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
+  The LINE catalog on APIs.io includes 1 event-driven AsyncAPI specification and 2 Spectral governance rulesets.
 
 
-  LINE''s developer surface includes authentication, CLI, sandbox, changelog, documentation, API reference, getting-started guide, and 47 more developer resources.'
+  LINE''s developer surface includes authentication, CLI, sandbox, changelog, documentation, API reference, getting-started guide, and 48 more developer resources.'
 plans:
 - name: Line Plans Pricing
   plan_count: 3
@@ -578,10 +582,11 @@ rate_limits:
   name: Line Rate Limits
   slug: line-rate-limits
 rules:
-- effective_rule_count: 31
+- authorship: generated
+  effective_rule_count: 31
   extends:
   - spectral:asyncapi
-  name: LINE API Rules
+  name: LINE — asyncapi rules
   rule_count: 4
   severity_counts:
     error: 1
@@ -589,6 +594,19 @@ rules:
     info: 1
     warn: 2
   slug: line-asyncapi-spectral-rules
+- authorship: provider
+  effective_rule_count: 41
+  extends:
+  - '@ibm-cloud/openapi-ruleset'
+  - spectral:oas
+  name: LINE — line openapi rules
+  rule_count: 0
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 0
+    warn: 0
+  slug: line-line-openapi-spectral-rules
 scopes:
 - name: Line Scopes
   scope_count: 3
@@ -596,18 +614,18 @@ scopes:
   summary_line: 3 scopes · authorization_code
 score:
   band: exemplar
-  composite: 71.8
+  composite: 72.7
   coverage:
-    artifact_dirs: 29
-    catalog_earned: 68.5
-    catalog_earned_first_party: 24.0
-    catalog_gap: 46.5
+    artifact_dirs: 30
+    catalog_earned: 72.0
+    catalog_earned_first_party: 32.0
+    catalog_gap: 43.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.9
   facets:
     access_clarity: 76.3
-    contract_governance: 31.8
+    contract_governance: 42.4
     contract_quality: 56.0
     developer_ergonomics: 80.4
     discoverability: 76.7
@@ -632,12 +650,12 @@ score:
     skills: derived
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 40.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

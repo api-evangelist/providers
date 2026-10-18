@@ -28,20 +28,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.5
-  scored_at: '2026-10-04'
+  score: 24.7
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 14
+- acting_count: 13
   human_in_the_loop: 0
   name: Thumbtack Agentic Access
   operation_count: 21
   slug: thumbtack-agentic-access
-  summary_line: 21 operations · 14 acting
+  summary_line: 21 operations · 13 acting
 api_count: 2
 apis:
 - baseURL: https://api.thumbtack.com
@@ -191,16 +191,20 @@ common:
 created: '2026-07-03'
 description: Thumbtack is a local services marketplace connecting homeowners with local service professionals (cleaning, home improvement, events, wellness, and more). There is no self-serve public API - Thumbtack operates an approval-gated Partner Platform (developers.thumbtack.com) with two documented API surfaces - a Demand API for marketplace integrations (pro search, categories, autocomplete, requests) and a Pro API for supply-side integrations (leads, messages, pro profiles, reviews) - plus low-code embeddable widgets. Access requires Thumbtack to approve a partner and issue OAuth 2.0 credentials; there is no public signup or API key self-service.
 finops:
-- name: Thumbtack Finops
+- has_sources: true
+  method: generated
+  name: Thumbtack Finops
+  primary_unit: ''
   service_category: Local Services Marketplace
   slug: thumbtack-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/thumbtack.png
 layout: provider
 modified: '2026-07-03'
 name: Thumbtack
 nav: Providers
 network: true
-overview: 'Thumbtack publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Autocomplete API, Categories API, and 7 more. Tagged areas include Local Services, Marketplace, Home Services, Leads, and Partner API.
+overview: 'Thumbtack publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authentication API, Autocomplete API, Categories API, and 7 more. Tagged areas include Local Services, Marketplace, Home Services, Leads, and Partner API.
 
 
   Thumbtack''s developer surface includes authentication, documentation, engineering blog, and 10 more developer resources.'
@@ -220,22 +224,22 @@ scopes:
   summary_line: 21 scopes · authorizationCode/clientCredentials
 score:
   band: thin
-  composite: 35.6
+  composite: 27.3
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 61.6
+    artifact_dirs: 14
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.4
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 42.9
     developer_ergonomics: 31.0
     discoverability: 66.1
-    operational_transparency: 28.4
+    operational_transparency: 7.9
   previous_composite: 35.6
   provenance:
     agentic_access: derived
@@ -250,9 +254,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

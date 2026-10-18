@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 39.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -66,6 +66,11 @@ collections:
   name: Crimeometer Sex Offenders API
   slug: open-sex-offenders-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sex-offenders-api/refs/heads/main/finops/sex-offenders-api-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/sex-offenders-api-finops.yml
 - group: company
   title: ''
   type: Website
@@ -192,9 +197,13 @@ common:
 created: '2024-11-13'
 description: The Sex Offenders API from CrimeoMeter (CityCop Corporation dba CrimeoMeter, San Francisco) returns registered sex offender records from US state registries, searchable by zip code, first/last name, alias, birthdate, a last-updated window, or a latitude/longitude radius. Records carry identity, physical description, charges, registry status (predator, absconder) and geocoded address, plus created/last-updated/last-synced timestamps that expose how fresh each record is against its source registry. Access is a private x-api-key issued by hand through the Contact Us form; there is no self-service signup. CrimeoMeter publishes no OpenAPI, but does publish a public Postman collection covering v5 of this API.
 finops:
-- name: Sex Offenders Api Finops
+- has_sources: false
+  method: generated
+  name: Sex Offenders Api Finops
+  primary_unit: ''
   service_category: API
   slug: sex-offenders-api-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sex-offenders-api.png
 layout: provider
 mcp_servers:
@@ -205,10 +214,10 @@ modified: '2026-08-28'
 name: Sex Offenders API
 nav: Providers
 network: true
-overview: 'Sex Offenders API publishes 2 APIs on the [APIs.io](https://apis.io/) network, including Sex Offenders API, and 1 more. Tagged areas include Sex Offenders, Public Safety, Crime Data, Background Checks, and Criminal Justice.
+overview: 'Sex Offenders API publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network, including Sex Offenders API, and 1 more. Tagged areas include Sex Offenders, Public Safety, Crime Data, Background Checks, and Criminal Justice.
 
 
-  Sex Offenders API''s developer surface includes authentication, documentation, API reference, pricing, engineering blog, support, signup flow, and 20 more developer resources.'
+  Sex Offenders API''s developer surface includes authentication, documentation, API reference, pricing, engineering blog, support, signup flow, and 21 more developer resources.'
 plans:
 - name: Sex Offenders Api Plans Pricing
   plan_count: 2
@@ -220,17 +229,17 @@ rate_limits:
   slug: sex-offenders-api-rate-limits
 score:
   band: developing
-  composite: 46.5
+  composite: 44.9
   coverage:
     artifact_dirs: 22
-    catalog_earned: 48.0
+    catalog_earned: 45.0
     catalog_earned_first_party: 8.0
-    catalog_gap: 67.0
+    catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 67.1
+    access_clarity: 59.2
     contract_governance: 4.5
     contract_quality: 53.9
     developer_ergonomics: 49.4
@@ -253,8 +262,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

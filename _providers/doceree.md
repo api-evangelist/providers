@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: The ad-request surface Doceree publisher partners call to fetch an HCP-targeted advertisement. It is the endpoint behind the Doceree Publisher Tag, the first-party Prebid.js header-bidding adapter (bi
@@ -50,6 +50,10 @@ apis:
   slug: dai
 artifact_total: 8
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.doceree.com/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/doceree/refs/heads/main/security/doceree-trust-center.yml
   title: ''
@@ -199,14 +203,14 @@ description: 'Doceree Inc. is a US healthcare marketing technology company (Shor
   on dai.doceree.com (POST /drs/* and /dop/*, unversioned) and is used by the iOS SDK 6.x; it carries clinical session, patient, prescription and action-event attributes onto the ad request itself. Doceree publishes no OpenAPI, AsyncAPI, GraphQL schema, MCP server or A2A agent card at any probed host as of August 2026, and no /.well-known/ document on any host.'
 image: https://doceree.com/images/doceree-logo.svg
 layout: provider
-modified: '2026-08-12'
+modified: '2026-10-06'
 name: Doceree
 nav: Providers
 network: true
-overview: 'Doceree publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Advertising, Healthcare, Marketing, AdTech, and Programmatic.
+overview: 'Doceree is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Advertising, Healthcare, Marketing, AdTech, and Programmatic.
 
 
-  Doceree''s developer surface includes documentation, API reference, support, engineering blog, authentication, changelog, sandbox, and 25 more developer resources.'
+  Doceree''s developer surface includes documentation, API reference, support, engineering blog, authentication, changelog, sandbox, and 26 more developer resources.'
 plans:
 - name: Doceree Plans Pricing
   plan_count: 0
@@ -218,15 +222,15 @@ rate_limits:
   slug: doceree-rate-limits
 score:
   band: thin
-  composite: 36.5
+  composite: 36.6
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 43.4
     contract_governance: 18.2
@@ -252,8 +256,8 @@ score:
     regime: Health
     regime_id: health
     score: 28.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

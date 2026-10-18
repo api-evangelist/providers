@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 15.5
-  scored_at: '2026-10-04'
+  score: 13.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'Gutendex is a JSON web API for Project Gutenberg ebook metadata. It provides access to the catalog of 75,000+ public domain books with filtering by language, copyright status, topic, author lifespan, '
@@ -92,16 +92,20 @@ common:
 created: '2026-06-13'
 description: Project Gutenberg is a free ebook library providing access to over 75,000 public domain books via the Gutendex REST API. The API enables developers to search and retrieve bibliographic metadata for books and authors, filter by language, copyright status, topic, and MIME type, and access download links for multiple formats including EPUB, Kindle, HTML, and plain text. Project Gutenberg has pioneered free ebooks since 1971 and the Gutendex API makes its catalog programmatically accessible via a simple JSON REST interface with no authentication required.
 finops:
-- name: Gutenberg Finops
+- has_sources: false
+  method: generated
+  name: Gutenberg Finops
+  primary_unit: ''
   service_category: ''
   slug: gutenberg-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/gutenberg.png
 layout: provider
 modified: '2026-06-13'
 name: Project Gutenberg
 nav: Providers
 network: true
-overview: 'Project Gutenberg publishes 1 API on the [APIs.io](https://apis.io/) network: Gutendex API. Tagged areas include Books, Ebooks, Public Domain, Literature, and Library.
+overview: 'Project Gutenberg is listed with 1 API on the [APIs.io](https://apis.io/) network: Gutendex API. Tagged areas include Books, Ebooks, Public Domain, Literature, and Library.
 
 
   Project Gutenberg''s developer surface includes documentation, engineering blog, pricing, and 8 more developer resources.'
@@ -115,23 +119,23 @@ rate_limits:
   name: Gutenberg Rate Limits
   slug: gutenberg-rate-limits
 score:
-  band: thin
-  composite: 27.0
+  band: emerging
+  composite: 20.0
   coverage:
     artifact_dirs: 8
-    catalog_earned: 58.0
+    catalog_earned: 42.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.0
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.0
   facets:
-    access_clarity: 37.4
+    access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 24.0
     developer_ergonomics: 11.9
     discoverability: 66.1
-    operational_transparency: 49.5
+    operational_transparency: 28.9
   previous_composite: 27.0
   regulatory:
     applies: true
@@ -139,9 +143,9 @@ score:
     regime: Education & Research
     regime_id: education
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

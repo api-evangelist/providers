@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 28.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 4
 apis:
 - description: HTTP and WebSocket speech synthesis. A non-streaming POST /api/v1/tts/generate returns a complete wav/mp3 for up to 300 characters; a WebSocket /api/v2/tts/stream_generate streams base64 PCM chunks wi
@@ -58,6 +58,10 @@ asyncapis:
   name: Moore Threads Webhooks
   slug: moore-threads-webhooks
 common:
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://docs.mthreads.com/kuaecloud/kuaecloud-doc-online/coding_plan/plan_overview
 - group: company
   title: ''
   type: Website
@@ -186,13 +190,13 @@ modified: '2026-08-26'
 name: Moore Threads
 nav: Providers
 network: true
-overview: 'Moore Threads publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, GPU, Artificial Intelligence, Machine Learning, and Semiconductors.
+overview: 'Moore Threads is listed with 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, GPU, Artificial Intelligence, Machine Learning, and Semiconductors.
 
 
   The Moore Threads catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Moore Threads'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 19 more developer resources.'
+  Moore Threads'' developer surface includes pricing, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 20 more developer resources.'
 plans:
 - name: Moore Threads Plans Pricing
   plan_count: 4
@@ -204,7 +208,7 @@ rate_limits:
   slug: moore-threads-rate-limits
 score:
   band: developing
-  composite: 46.3
+  composite: 48.1
   coverage:
     artifact_dirs: 19
     catalog_earned: 64.0
@@ -212,9 +216,9 @@ score:
     catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.8
   facets:
-    access_clarity: 48.7
+    access_clarity: 59.2
     contract_governance: 0.0
     contract_quality: 39.0
     developer_ergonomics: 58.3
@@ -233,12 +237,12 @@ score:
     mcp: derived
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 19.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -34,15 +34,15 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 54.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 40
+- acting_count: 38
   human_in_the_loop: 1
   name: Lev Agentic Access
   operation_count: 81
   slug: lev-agentic-access
-  summary_line: 81 operations · 40 acting · 1 human-in-the-loop
-api_count: 1
+  summary_line: 81 operations · 38 acting · 1 human-in-the-loop
+api_count: 2
 apis:
 - baseURL: https://api.lev.com/api/external/v2
   baseurl_source: declared
@@ -418,7 +418,7 @@ modified: '2026-09-16'
 name: Lev
 nav: Providers
 network: true
-overview: 'Lev publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Account & Team API, API Keys API, Billing API, and 13 more. Tagged areas include Company, Commercial Real Estate, Real Estate, PropTech, and CRE Financing.
+overview: 'Lev publishes 16 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account & Team API, API Keys API, Billing API, and 13 more. Tagged areas include Company, Commercial Real Estate, Real Estate, PropTech, and CRE Financing.
 
 
   Lev''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 32 more developer resources.'
@@ -440,7 +440,7 @@ score:
   band: strong
   composite: 63.0
   coverage:
-    artifact_dirs: 26
+    artifact_dirs: 27
     catalog_earned: 61.0
     catalog_earned_first_party: 24.0
     catalog_gap: 54.0
@@ -471,8 +471,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 39.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

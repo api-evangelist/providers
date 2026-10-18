@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 24
 apis:
 - description: Worldwide end-of-day equity pricing (open, high, low, close, bid, ask, last trade, volume) queried by MIC, LocalCode, or ISIN via the GetLatestEODPrices endpoint, returned as JSON or pipe-separated va
@@ -111,6 +111,10 @@ apis:
   slug: foreign-exchange-rates-api
 artifact_total: 26
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.exchange-data.com/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/exchange-data-international/refs/heads/main/security/exchange-data-international-domain-security.yml
   title: ''
@@ -195,14 +199,14 @@ created: '2026-07-21'
 description: 'Exchange Data International (EDI) is an independent, privately held financial data vendor founded in 1994 by Jonathan Bloch and headquartered in London, with operations in the USA, India, and Morocco serving 450+ institutional clients. EDI sells securities reference data, worldwide equity and fixed income corporate actions, end-of-day pricing, adjustment factors, shares outstanding, derivatives reference and pricing, economic indicators and calendars, fund NAVs, and FX rates. Data is delivered as SFTP flat-file feeds and through a self-serve REST API: the EDI Developer portal (developer.exchange-data.com) documents 24 API products on a shared base at api3.exchange-data.com, with account registration, an API Playground, per-product subscriptions, and JSON or pipe-separated responses. No public OpenAPI or AsyncAPI specification is published.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/exchange-data-international.png
 layout: provider
-modified: '2026-07-22'
+modified: '2026-10-06'
 name: Exchange Data International
 nav: Providers
 network: true
-overview: 'Exchange Data International publishes 24 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Finance, Market Data, Corporate Actions, Reference Data, and End of Day Pricing.
+overview: 'Exchange Data International is listed with 24 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Finance, Market Data, Corporate Actions, Reference Data, and End of Day Pricing.
 
 
-  Exchange Data International''s developer surface includes authentication, sandbox, API reference, developer portal, documentation, signup flow, engineering blog, and 11 more developer resources.'
+  Exchange Data International''s developer surface includes authentication, sandbox, API reference, developer portal, documentation, signup flow, engineering blog, and 12 more developer resources.'
 random_paper: 7
 score:
   band: emerging
@@ -239,8 +243,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 23.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

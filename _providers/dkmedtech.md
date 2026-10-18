@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.dkmedtech.com/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/dkmedtech/refs/heads/main/security/dkmedtech-domain-security.yml
   title: ''
@@ -53,17 +57,17 @@ created: '2026-07-17'
 description: 'dkmedtech (Suzhou Dingke Medical Technology Co., Ltd.) is a medical device manufacturer founded in 2010 in Suzhou, Jiangsu Province, China, developing interventional vascular devices across three areas: peripheral vascular intervention, cardiovascular intervention, and neurovascular intervention. With a team of 100+ and a global manufacturing center launched in December 2025, its products carry NMPA (China), CE (Europe), and FDA (United States) regulatory clearances. Backed by Qiming Venture Partners, the company was added to the API Evangelist network as a portfolio-lead stub; it publishes a corporate website but no developer API, documentation, or machine-readable API surface at this time.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dkmedtech.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: dkmedtech
 nav: Providers
 network: true
-overview: dkmedtech is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, MedTech, Healthcare, and Cardiovascular.
+overview: dkmedtech is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, Medical Technology, Healthcare, and Cardiovascular.
 random_paper: 13
 score:
   band: minimal
   composite: 3.7
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -91,8 +95,8 @@ score:
     regime: Health
     regime_id: health
     score: 4.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -108,7 +112,7 @@ slug: dkmedtech
 tags:
 - Company
 - Medical Devices
-- MedTech
+- Medical Technology
 - Healthcare
 - Cardiovascular
 - Interventional Devices

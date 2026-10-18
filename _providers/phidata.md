@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 3.8
-  scored_at: '2026-10-04'
+  score: 1.9
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: Open-source Python framework for building agents with memory, knowledge, and tools. Provides Agent, Team, Workflow, Tools, Memory, Knowledge, and Storage primitives. Multi-modal and type-safe; support
@@ -47,6 +47,21 @@ apis:
   slug: agentos-control-plane
 artifact_total: 7
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/phidata/refs/heads/main/plans/phidata-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/phidata-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/phidata/refs/heads/main/rate-limits/phidata-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/phidata-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/phidata/refs/heads/main/finops/phidata-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/phidata-finops.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -127,19 +142,23 @@ common:
 created: '2026-05-23'
 description: Agno (formerly Phidata) is a Python framework, runtime, and control plane for building, running, and managing fleets of AI agents. The core agno library provides Agent, Team, Workflow, Tools, Memory, and Knowledge primitives across many LLM providers. AgentOS adds a FastAPI runtime with 50+ REST/SSE/WebSocket endpoints, plus a hosted control plane UI at os.agno.com for tracing, scheduling, RBAC, audit, and human approval - while user data stays inside the customer's own cloud.
 finops:
-- name: Phidata Finops
+- has_sources: false
+  method: generated
+  name: Phidata Finops
+  primary_unit: ''
   service_category: API
   slug: phidata-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/phidata.png
 layout: provider
 modified: '2026-05-23'
 name: Phidata / Agno
 nav: Providers
 network: true
-overview: 'Phidata / Agno publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include AI Agents, Agno, Phidata, Python, and Framework.
+overview: 'Phidata / Agno is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include AI Agents, Agno, Phidata, Python, and Framework.
 
 
-  Phidata / Agno''s developer surface includes developer portal, documentation, GitHub presence, code examples, engineering blog, and 14 more developer resources.'
+  Phidata / Agno''s developer surface includes developer portal, documentation, GitHub presence, code examples, engineering blog, and 17 more developer resources.'
 plans:
 - name: Phidata Plans Pricing
   plan_count: 1
@@ -150,23 +169,23 @@ rate_limits:
   name: Phidata Rate Limits
   slug: phidata-rate-limits
 score:
-  band: thin
-  composite: 29.2
+  band: emerging
+  composite: 23.8
   coverage:
     artifact_dirs: 7
-    catalog_earned: 57.4
+    catalog_earned: 44.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.6
+    catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.4
   facets:
-    access_clarity: 33.4
+    access_clarity: 11.8
     contract_governance: 0.0
     contract_quality: 6.5
     developer_ergonomics: 31.0
     discoverability: 71.4
-    operational_transparency: 40.0
+    operational_transparency: 26.3
   open_source:
     applies: true
     score: 65.0
@@ -177,9 +196,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

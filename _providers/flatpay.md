@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 4
 common:
@@ -154,7 +154,7 @@ modified: '2026-08-16'
 name: Flatpay
 nav: Providers
 network: true
-overview: 'Flatpay is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Point-of-Sale, Card Terminals, and Merchant Acquiring.
+overview: 'Flatpay is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Point-of-Sale, Payment Terminals, and Merchant Acquiring.
 
 
   Flatpay''s developer surface includes support, engineering blog, pricing, and 17 more developer resources.'
@@ -200,8 +200,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 17.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -222,7 +222,7 @@ tags:
 - Company
 - Payments
 - Point-of-Sale
-- Card Terminals
+- Payment Terminals
 - Merchant Acquiring
 - Fintech
 - Online Payments

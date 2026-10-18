@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: 'The Postmates Fleet API (also referred to as the Postmates On-Demand Delivery API and Postmates Anywhere API) was a REST API that let merchants programmatically create delivery jobs, quote pickup and '
@@ -44,6 +44,21 @@ apis:
   slug: uber-direct-successor
 artifact_total: 6
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/postmates/refs/heads/main/plans/postmates-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/postmates-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/postmates/refs/heads/main/rate-limits/postmates-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/postmates-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/postmates/refs/heads/main/finops/postmates-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/postmates-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/postmates/refs/heads/main/security/postmates-domain-security.yml
   title: ''
@@ -96,19 +111,23 @@ common:
 created: '2024-01-01'
 description: Postmates was an on-demand delivery platform founded in 2011 that pioneered urban courier-style delivery of food, groceries, alcohol, and convenience goods across the United States. Uber acquired Postmates in December 2020 for approximately $2.65 billion, and by 2023 the Postmates merchant, courier, and consumer experiences were fully absorbed into the Uber Eats and Uber Direct product lines. The historical Postmates Fleet API (courier dispatch) and Postmates Customer API (anonymous delivery) have been retired and replaced by Uber Direct as the supported on-demand delivery API surface. The Postmates consumer brand still operates as a front door that funnels orders into the Uber Eats marketplace. This profile is maintained as a historical record and redirect pointer to the successor Uber developer APIs.
 finops:
-- name: Postmates Finops
+- has_sources: false
+  method: generated
+  name: Postmates Finops
+  primary_unit: ''
   service_category: API
   slug: postmates-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/postmates.png
 layout: provider
 modified: '2026-05-23'
 name: Postmates
 nav: Providers
 network: true
-overview: 'Postmates publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Acquired, Couriers, Delivery, Food Delivery, and Historical.
+overview: 'Postmates is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Acquired, Couriers, Delivery, Food Delivery, and Historical.
 
 
-  Postmates'' developer surface includes support, developer portal, documentation, and 9 more developer resources.'
+  Postmates'' developer surface includes support, developer portal, documentation, and 12 more developer resources.'
 plans:
 - name: Postmates Plans Pricing
   plan_count: 1
@@ -119,23 +138,23 @@ rate_limits:
   name: Postmates Rate Limits
   slug: postmates-rate-limits
 score:
-  band: thin
-  composite: 26.2
+  band: emerging
+  composite: 20.2
   coverage:
-    artifact_dirs: 5
-    catalog_earned: 54.4
+    artifact_dirs: 6
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 60.6
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.0
   facets:
-    access_clarity: 47.9
+    access_clarity: 26.3
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 35.7
     discoverability: 73.2
-    operational_transparency: 18.9
+    operational_transparency: 5.3
   previous_composite: 26.2
   regulatory:
     applies: true
@@ -143,9 +162,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

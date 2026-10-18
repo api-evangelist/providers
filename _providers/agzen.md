@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://agzen.com/newsroom/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/agzen/refs/heads/main/security/agzen-domain-security.yml
   title: ''
@@ -66,28 +70,31 @@ created: '2026-07-17'
 description: AgZen is an MIT spinout building RealCoverage, a sensor- and AI-based system that measures and controls how many droplets of crop-protection product land on every leaf during agricultural spraying. A boom-mounted computer-vision sensor analyzes spray coverage and droplet quality in real time and displays actionable data on an in-cab tablet, automatically optimizing foliar sprays on any sprayer as the operator drives. Growers use RealCoverage to cut chemical and water use by up to 50% while maintaining or improving efficacy and yield, with a typical payback in under a year. RealCoverage retrofits onto any generation of sprayer and won Crop Protection Solution of the Year in 2025. AgZen is headquartered at Greentown Labs in Somerville, Massachusetts and is backed by DCVC Bio, Material Impact, Astanor Ventures, and Syngenta Group Ventures.
 image: https://static1.squarespace.com/static/617e036e63df88442ad668e1/t/65ee6c4abd6631610ac8b07e/1710124106538/AgZen_logoGRADIENT.png?format=1500w
 layout: provider
-modified: '2026-07-17'
+modified: '2026-10-06'
 name: AgZen
 nav: Providers
 network: true
-overview: AgZen is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Agriculture, AgTech, Precision Agriculture, and Computer Vision.
+overview: 'AgZen is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Agriculture, AgTech, Precision Agriculture, and Computer Vision.
+
+
+  AgZen''s developer surface includes engineering blog and 6 more developer resources.'
 random_paper: 5
 score:
   band: minimal
-  composite: 4.0
+  composite: 4.6
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 7
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 55.4
     operational_transparency: 0.0
   previous_composite: 4.0
@@ -97,8 +104,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

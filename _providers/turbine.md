@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.turbine.ai/feed
 - group: company
   title: ''
   type: Website
@@ -61,14 +65,14 @@ created: '2026-07-17'
 description: Turbine (Turbine Ltd) is a Budapest-based AI biotechnology company that virtualizes biological experiments to accelerate and de-risk drug discovery. Its Simulated Cell platform trains virtual cells on genomic, transcriptomic, and perturbation-response data, then runs millions of in silico experiments per day to predict therapy response across cell lines, patient-derived organoids and xenografts, and patient samples. Turbine offers partner-facing products for target discovery and de-risking, combination design, and ADC (antibody-drug conjugate) intelligence, and works with pharmaceutical partners including AstraZeneca and MSD. The company publishes research code and benchmarks on GitHub but exposes no public developer API; this profile captures its identity, security posture, and web properties for the API Evangelist network.
 image: https://turbine.ai/wp-content/uploads/2024/12/cropped-cropped-favicon-192x192.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Turbine
 nav: Providers
 network: true
 overview: 'Turbine is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Biotechnology, Drug Discovery, and Artificial Intelligence.
 
 
-  Turbine''s developer surface includes engineering blog and 4 more developer resources.'
+  Turbine''s developer surface includes engineering blog and 5 more developer resources.'
 random_paper: 13
 score:
   band: minimal
@@ -101,8 +105,8 @@ score:
     regime: Health
     regime_id: health
     score: 7.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

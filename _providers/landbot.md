@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 15.5
-  scored_at: '2026-10-04'
+  score: 13.6
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: REST API for managing Landbot resources including channels, customers, customer fields, message hooks, webhooks, and WhatsApp templates. Token-based authentication using an agent token from account se
@@ -105,9 +105,13 @@ common:
 created: 2026-06-12
 description: Landbot is a no-code conversational AI platform that enables businesses to build, deploy, and manage chatbots across web, WhatsApp, and messenger channels without requiring programming skills. The platform provides a REST API at api.landbot.io/v1 for programmatic control of channels, customers, customer fields, message hooks, and webhooks. Developers can use token-based authentication to integrate Landbot bots into external systems and retrieve conversation data in real time. Landbot also offers an APIchat interface for embedding chat interactions directly into custom applications. The platform supports webhooks for event-driven automation and provides SDKs and code samples for Shell, Ruby, Node.js, PHP, and Python.
 finops:
-- name: Landbot Finops
+- has_sources: false
+  method: generated
+  name: Landbot Finops
+  primary_unit: ''
   service_category: ''
   slug: landbot-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/landbot.png
 jsonld:
 - class_count: 11
@@ -119,7 +123,7 @@ modified: 2026-06-12
 name: Landbot
 nav: Providers
 network: true
-overview: 'Landbot publishes 2 APIs on the [APIs.io](https://apis.io/) network, including Platform API, and 1 more. Tagged areas include Chatbots, Conversational AI, No-Code, WhatsApp, and Webhook.
+overview: 'Landbot is listed with 2 APIs on the [APIs.io](https://apis.io/) network, including Platform API, and 1 more. Tagged areas include Chatbots, Conversational AI, No-Code, WhatsApp, and Webhook.
 
 
   The Landbot catalog on APIs.io includes 1 JSON-LD context.
@@ -136,18 +140,18 @@ rate_limits:
   name: Landbot Rate Limits
   slug: landbot-rate-limits
 score:
-  band: thin
-  composite: 28.4
+  band: emerging
+  composite: 22.3
   coverage:
-    artifact_dirs: 8
-    catalog_earned: 58.8
+    artifact_dirs: 9
+    catalog_earned: 48.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 56.2
+    catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.1
   facets:
-    access_clarity: 46.8
+    access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 34.7
     developer_ergonomics: 11.9
@@ -156,13 +160,13 @@ score:
   previous_composite: 28.4
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

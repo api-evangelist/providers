@@ -26,14 +26,14 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: false
-    rate_limit_signal: documented
+    protected_resource_metadata: verified
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.1
-  scored_at: '2026-10-04'
+  score: 25.8
+  scored_at: '2026-10-17'
 api_count: 4
 apis:
 - description: Query and manage recurring subscriptions - list and fetch subscriptions and their lines, then create, cancel, pause, unpause, reactivate, skip, ship now, swap product variants, edit interval, apply di
@@ -50,6 +50,10 @@ apis:
   slug: skio-products-selling-plans-api
 artifact_total: 10
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://skio.com/blog
 - group: other
   title: ''
   type: ParentCompany
@@ -89,9 +93,13 @@ common:
 created: '2026-07-10'
 description: Skio is a subscription-management platform for Shopify DTC brands (acquired by Recharge in 2026), powering recurring orders, passwordless subscriber portals, and one-click Shop Pay checkout. Its public developer API is GraphQL-first, served from https://graphql.skio.com/v1/graphql, with a data model that mirrors Shopify GraphQL objects - most entities carry a platformId holding the corresponding Shopify GID. Read queries use Hasura-style where/order_by/limit/offset arguments; writes are purpose-built mutations (createSubscription, cancelSubscription, pauseSubscription, applyDiscountCode). A newer public REST API has also been announced.
 finops:
-- name: Skio Finops
+- has_sources: true
+  method: generated
+  name: Skio Finops
+  primary_unit: ''
   service_category: Commerce and Subscriptions
   slug: skio-finops
+  template: false
 graphqls:
 - description: 'Skio is a subscription-management platform for Shopify DTC brands. Its public developer API is **GraphQL-first**, served from a single endpoint, and its data model mirrors Shopify''s GraphQL objects — '
   name: Skio GraphQL API
@@ -102,14 +110,14 @@ mcp_servers:
 - description: Remote MCP server at mcp.skio.com over HTTP.
   name: Skio MCP Server
   slug: skio
-modified: '2026-07-10'
+modified: '2026-10-06'
 name: Skio
 nav: Providers
 network: true
-overview: 'Skio publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Subscription, Shopify, E-Commerce, Direct to Consumer, and Recurring Billing.
+overview: 'Skio is listed with 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Subscription, Shopify, E-Commerce, Direct to Consumer, and Recurring Billing.
 
 
-  Skio''s developer surface includes documentation and 7 more developer resources.'
+  Skio''s developer surface includes engineering blog, documentation, and 7 more developer resources.'
 plans:
 - name: Skio Plans Pricing
   plan_count: 2
@@ -120,23 +128,23 @@ rate_limits:
   name: Skio Rate Limits
   slug: skio-rate-limits
 score:
-  band: thin
-  composite: 27.0
+  band: emerging
+  composite: 20.6
   coverage:
-    artifact_dirs: 8
-    catalog_earned: 61.0
+    artifact_dirs: 10
+    catalog_earned: 45.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 54.0
+    catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.4
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 35.1
-    developer_ergonomics: 16.7
+    developer_ergonomics: 19.0
     discoverability: 73.3
-    operational_transparency: 28.4
+    operational_transparency: 7.9
   previous_composite: 27.0
   provenance:
     mcp: first-party
@@ -146,9 +154,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

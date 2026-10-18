@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'The Raise Commerce API (business/v2) — browse gift card brands and categories, purchase fixed- and variable-load gift cards, retrieve and act on individual cards (balance check, mark redeemed, update '
@@ -41,6 +41,10 @@ apis:
   slug: raise-commerce-api
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.raise.com/press
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/raise/refs/heads/main/security/raise-domain-security.yml
   title: ''
@@ -88,31 +92,31 @@ created: '2026-07-17'
 description: Raise is a digital gift card marketplace and commerce platform. Raise for Business exposes the Raise Commerce API — a REST/JSON API that lets partners programmatically browse a catalog of retailer gift card brands, purchase fixed- and variable-load gift cards, check and manage card balances, and reconcile transactions and commissions across 180+ currencies and many countries. Authentication is OAuth 2.0 bearer tokens (server-to-server client credentials, plus app/web auth with SR25519/RSA key pairs, SMS, or TOTP). The API uses a JSON:API-style data envelope, page-based pagination, request metadata, and client_order_id idempotency. Prior investors include Accel, PayPal, and NEA.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/raise.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Raise
 nav: Providers
 network: true
-overview: 'Raise publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Gift Cards, Commerce, and Payments.
+overview: 'Raise is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Gift Cards, Commerce, and Payments.
 
 
-  Raise''s developer surface includes documentation, API reference, getting-started guide, support, and 6 more developer resources.'
+  Raise''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, and 6 more developer resources.'
 random_paper: 4
 score:
   band: emerging
-  composite: 17.7
+  composite: 18.2
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 0.0
     contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 52.4
+    developer_ergonomics: 54.8
     discoverability: 73.2
     operational_transparency: 0.0
   previous_composite: 17.7
@@ -125,8 +129,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 15.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

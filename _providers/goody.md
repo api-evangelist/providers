@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 63.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -185,6 +185,10 @@ collections:
   name: Goody Brands Workspaces API
   slug: open-goody-workspaces-api
 common:
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.ongoody.com/business/pricing
 - group: commercial
   href: https://raw.githubusercontent.com/api-evangelist/goody/refs/heads/main/plans/goody-plans-pricing.yml
   title: ''
@@ -362,13 +366,13 @@ modified: '2026-07-19'
 name: Goody
 nav: Providers
 network: true
-overview: 'Goody publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Brands API, Cards API, Collections API, and 9 more. Tagged areas include Company, Retail, Gifting, Gift Cards, and E-Commerce.
+overview: 'Goody publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including Brands API, Cards API, Collections API, and 9 more. Tagged areas include Company, Retail, Gifting, Gift Cards, and E-Commerce.
 
 
   The Goody catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Goody''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 29 more developer resources.'
+  Goody''s developer surface includes pricing, documentation, API reference, getting-started guide, engineering blog, support, signup flow, and 30 more developer resources.'
 plans:
 - name: Goody Plans Pricing
   plan_count: 3
@@ -386,7 +390,7 @@ score:
   band: strong
   composite: 60.2
   coverage:
-    artifact_dirs: 25
+    artifact_dirs: 26
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -417,8 +421,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 35.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

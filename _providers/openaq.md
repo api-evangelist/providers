@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.6
-  scored_at: '2026-10-04'
+  score: 27.4
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -253,6 +253,25 @@ collections:
   name: OpenAQ
   slug: open-openaq
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/openaq/refs/heads/main/plans/openaq-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/openaq-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/openaq/refs/heads/main/rate-limits/openaq-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/openaq-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/openaq/refs/heads/main/finops/openaq-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/openaq-finops.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://openaq.medium.com/feed
 - group: company
   title: ''
   type: Website
@@ -292,19 +311,23 @@ common:
 created: '2024-11-11'
 description: OpenAQ is a non-profit organization that focuses on collecting and sharing air quality data from around the world. By providing access to this information through their open-source platform, OpenAQ aims to empower individuals, communities, and organizations to take action towards improving air quality and public health.
 finops:
-- name: Openaq Finops
+- has_sources: false
+  method: generated
+  name: Openaq Finops
+  primary_unit: ''
   service_category: API
   slug: openaq-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/openaq.png
 layout: provider
-modified: '2026-05-19'
+modified: '2026-10-06'
 name: OpenAQ
 nav: Providers
 network: true
-overview: 'OpenAQ publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Averages API, Cities API, Countries API, and 20 more. Tagged areas include Data and Data Quality.
+overview: 'OpenAQ publishes 23 API contracts indexed on the [APIs.io](https://apis.io/) network, including Averages API, Cities API, Countries API, and 20 more. Tagged areas include Data and Data Quality.
 
 
-  OpenAQ''s developer surface includes authentication, developer portal, and 6 more developer resources.'
+  OpenAQ''s developer surface includes authentication, developer portal, and 10 more developer resources.'
 plans:
 - name: Openaq Plans Pricing
   plan_count: 3
@@ -316,17 +339,17 @@ rate_limits:
   slug: openaq-rate-limits
 score:
   band: thin
-  composite: 28.3
+  composite: 26.8
   coverage:
-    artifact_dirs: 10
-    catalog_earned: 41.0
+    artifact_dirs: 11
+    catalog_earned: 38.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 45.0
     developer_ergonomics: 31.0
@@ -346,8 +369,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 17.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

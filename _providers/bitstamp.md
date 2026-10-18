@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -62,6 +62,21 @@ collections:
   name: Bitstamp Market Data API
   slug: open-bitstamp-market-data-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/bitstamp/refs/heads/main/plans/plans.yml
+  title: ''
+  type: Plans
+  url: plans/plans.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/bitstamp/refs/heads/main/rate-limits/rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/bitstamp/refs/heads/main/finops/finops.yml
+  title: ''
+  type: FinOps
+  url: finops/finops.yml
 - group: company
   title: ''
   type: Website
@@ -159,9 +174,13 @@ examples:
   name: Gettransactions
   slug: gettransactions
 finops:
-- name: Finops
+- has_sources: false
+  method: generated
+  name: Finops
+  primary_unit: ''
   service_category: ''
   slug: finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bitstamp.png
 json_schemas:
 - name: ErrorResponse
@@ -190,13 +209,13 @@ modified: '2026-06-13'
 name: Bitstamp
 nav: Providers
 network: true
-overview: 'Bitstamp publishes 2 APIs on the [APIs.io](https://apis.io/) network, including Market Data API, and 1 more. Tagged areas include Cryptocurrency, Exchange, Trading, Bitcoin, and Ethereum.
+overview: 'Bitstamp publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network, including Market Data API, and 1 more. Tagged areas include Cryptocurrency, Exchange, Trading, Bitcoin, and Ethereum.
 
 
   The Bitstamp catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Bitstamp''s developer surface includes authentication, support, signup flow, engineering blog, and 13 more developer resources.'
+  Bitstamp''s developer surface includes authentication, support, signup flow, engineering blog, and 16 more developer resources.'
 plans:
 - name: Plans
   plan_count: 2
@@ -207,9 +226,10 @@ rate_limits:
   name: Rate Limits
   slug: rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Bitstamp API Rules
+  name: Bitstamp — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -219,22 +239,22 @@ rules:
   slug: bitstamp-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 35.0
+  composite: 28.9
   coverage:
-    artifact_dirs: 16
-    catalog_earned: 52.7
+    artifact_dirs: 17
+    catalog_earned: 39.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 62.4
+    catalog_gap: 75.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.1
   facets:
-    access_clarity: 33.4
+    access_clarity: 11.8
     contract_governance: 9.8
     contract_quality: 49.6
     developer_ergonomics: 21.4
     discoverability: 57.1
-    operational_transparency: 34.7
+    operational_transparency: 21.1
   previous_composite: 35.0
   provenance:
     agentic_access: derived
@@ -249,9 +269,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 22.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

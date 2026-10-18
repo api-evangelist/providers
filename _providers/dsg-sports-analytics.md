@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The DSG Sports Data API exposes live scores, statistics, historical data, player and team information, fixtures, results, and odds across 80-plus sports through a per-sport documentation tree at dsg-a
@@ -41,6 +41,11 @@ apis:
   slug: sports-data-api
 artifact_total: 6
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/dsg-sports-analytics/refs/heads/main/finops/dsg-sports-analytics-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/dsg-sports-analytics-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/dsg-sports-analytics/refs/heads/main/security/dsg-sports-analytics-domain-security.yml
   title: ''
@@ -149,19 +154,23 @@ common:
 created: '2025-03-01'
 description: DSG Sports Analytics, operated by Data Sports Group, is a sports data provider offering live scores, statistics, historical data, fixtures, player and team information, and odds across more than 80 sports including soccer, basketball, American football, cricket, tennis, ice hockey, e-sports, and Olympic disciplines. The DSG Sports Data API delivers this content in JSON and XML over HTTPS using credential-based authentication.
 finops:
-- name: Dsg Sports Analytics Finops
+- has_sources: false
+  method: generated
+  name: Dsg Sports Analytics Finops
+  primary_unit: ''
   service_category: API
   slug: dsg-sports-analytics-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dsg-sports-analytics.png
 layout: provider
 modified: '2026-09-06'
 name: DSG Sports Analytics
 nav: Providers
 network: true
-overview: 'DSG Sports Analytics publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Analysis, Insights, Sports, Sports Data, and Live Scores.
+overview: 'DSG Sports Analytics is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Analysis, Insights, Sports, Sports Data, and Live Scores.
 
 
-  DSG Sports Analytics'' developer surface includes API reference, engineering blog, support, authentication, and 19 more developer resources.'
+  DSG Sports Analytics'' developer surface includes API reference, engineering blog, support, authentication, and 20 more developer resources.'
 plans:
 - name: Dsg Sports Analytics Plans Pricing
   plan_count: 0
@@ -173,17 +182,17 @@ rate_limits:
   slug: dsg-sports-analytics-rate-limits
 score:
   band: emerging
-  composite: 24.0
+  composite: 22.5
   coverage:
     artifact_dirs: 18
-    catalog_earned: 48.0
+    catalog_earned: 45.0
     catalog_earned_first_party: 8.0
-    catalog_gap: 67.0
+    catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 35.5
+    access_clarity: 27.6
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 28.6
@@ -199,8 +208,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

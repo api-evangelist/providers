@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.edviroenergy.com/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/edviro/refs/heads/main/security/edviro-domain-security.yml
   title: ''
@@ -57,20 +61,20 @@ created: '2026-07-17'
 description: 'Edviro is an AI platform for building operations and energy optimization, aimed at facility managers and building operators of large commercial buildings. It pulls scattered building data - utility bills, smart meters, building management systems (BMS), submeters, sensors, and work-order platforms - into one place, then follows an Ingest, Detect, Act, and Verify workflow: it consolidates the data, catches energy waste and anomalies in real time, dispatches work orders and adjusts setpoints, and proves the resulting savings against meter data and utility bills. The platform also builds a digital twin of each building to simulate capital projects and forecast ROI before purchase, and produces audit-grade Measurement and Verification (M&V) reporting. Edviro is a Y Combinator (Summer 2026) company founded in 2025 and based in San Francisco.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/edviro.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Edviro
 nav: Providers
 network: true
 overview: 'Edviro is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Energy, Building Operations, Facilities Management, and HVAC.
 
 
-  Edviro''s developer surface includes FAQ and 3 more developer resources.'
+  Edviro''s developer surface includes FAQ and 4 more developer resources.'
 random_paper: 11
 score:
   band: minimal
   composite: 3.5
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -98,8 +102,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 4.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

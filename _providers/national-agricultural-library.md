@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.3
-  scored_at: '2026-10-04'
+  score: 20.4
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -62,6 +62,21 @@ collections:
   name: Food Data Central API
   slug: open-national-agricultural-library
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/national-agricultural-library/refs/heads/main/plans/national-agricultural-library-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/national-agricultural-library-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/national-agricultural-library/refs/heads/main/rate-limits/national-agricultural-library-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/national-agricultural-library-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/national-agricultural-library/refs/heads/main/finops/national-agricultural-library-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/national-agricultural-library-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/national-agricultural-library/refs/heads/main/agentic-access/national-agricultural-library-agentic-access.yml
   title: ''
@@ -92,19 +107,23 @@ common:
 created: '2024-11-21'
 description: The USDA National Agricultural Library houses one of the world's largest collections devoted to agriculture and its related sciences, and operates FoodData Central, an integrated data system providing nutrient profiles for foods.
 finops:
-- name: National Agricultural Library Finops
+- has_sources: false
+  method: generated
+  name: National Agricultural Library Finops
+  primary_unit: ''
   service_category: API
   slug: national-agricultural-library-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/national-agricultural-library.png
 layout: provider
 modified: '2026-05-19'
 name: National Agricultural Library
 nav: Providers
 network: true
-overview: 'National Agricultural Library publishes 1 API on the [APIs.io](https://apis.io/) network: FDC API. Tagged areas include Agriculture, Federal Government, Library, Food, and Nutrition.
+overview: 'National Agricultural Library publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: FDC API. Tagged areas include Agriculture, Federal Government, Library, Food, and Nutrition.
 
 
-  National Agricultural Library''s developer surface includes authentication, developer portal, and 4 more developer resources.'
+  National Agricultural Library''s developer surface includes authentication, developer portal, and 7 more developer resources.'
 plans:
 - name: National Agricultural Library Plans Pricing
   plan_count: 3
@@ -116,17 +135,17 @@ rate_limits:
   slug: national-agricultural-library-rate-limits
 score:
   band: thin
-  composite: 30.5
+  composite: 29.0
   coverage:
     artifact_dirs: 10
-    catalog_earned: 46.0
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 69.0
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 28.9
+    access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 47.7
     developer_ergonomics: 31.0
@@ -151,8 +170,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

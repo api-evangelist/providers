@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 3
@@ -92,6 +92,21 @@ collections:
   name: Apache NiFi REST API
   slug: open-apache-nifi
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/apache-nifi/refs/heads/main/plans/apache-nifi-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/apache-nifi-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/apache-nifi/refs/heads/main/rate-limits/apache-nifi-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/apache-nifi-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/apache-nifi/refs/heads/main/finops/apache-nifi-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/apache-nifi-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/apache-nifi/refs/heads/main/capabilities/apache-nifi-capability-edges.yml
   title: ''
@@ -209,9 +224,13 @@ features:
 - description: Lightweight MiNiFi agents for edge data collection at IoT endpoints, managed centrally from NiFi.
   name: MiNiFi Edge Agents
 finops:
-- name: Apache Nifi Finops
+- has_sources: false
+  method: generated
+  name: Apache Nifi Finops
+  primary_unit: ''
   service_category: API
   slug: apache-nifi-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/apache-nifi.png
 integrations:
 - description: Native ConsumeKafka and PublishKafka processors for streaming data between NiFi and Kafka topics.
@@ -235,10 +254,10 @@ modified: '2026-04-19'
 name: Apache NiFi
 nav: Providers
 network: true
-overview: 'Apache NiFi publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Access API, Connections API, Controller Services API, and 3 more. Tagged areas include Data Integration, Dataflows, ETL, IoT, and Streaming.
+overview: 'Apache NiFi publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Access API, Connections API, Controller Services API, and 3 more. Tagged areas include Data Integration, Dataflows, ETL, IoT, and Streaming.
 
 
-  Apache NiFi''s developer surface includes authentication, developer portal, engineering blog, and 19 more developer resources.'
+  Apache NiFi''s developer surface includes authentication, developer portal, engineering blog, and 22 more developer resources.'
 plans:
 - name: Apache Nifi Plans Pricing
   plan_count: 3
@@ -249,18 +268,18 @@ rate_limits:
   name: Apache Nifi Rate Limits
   slug: apache-nifi-rate-limits
 score:
-  band: developing
-  composite: 39.9
+  band: thin
+  composite: 38.6
   coverage:
     artifact_dirs: 12
-    catalog_earned: 41.0
+    catalog_earned: 38.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.3
   facets:
-    access_clarity: 26.3
+    access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 42.2
     developer_ergonomics: 47.6
@@ -283,8 +302,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

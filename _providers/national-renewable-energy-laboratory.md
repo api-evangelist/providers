@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-04'
+  score: 20.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -97,6 +97,21 @@ collections:
   name: NREL Developer Network APIs
   slug: open-national-renewable-energy-laboratory
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/national-renewable-energy-laboratory/refs/heads/main/plans/national-renewable-energy-laboratory-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/national-renewable-energy-laboratory-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/national-renewable-energy-laboratory/refs/heads/main/rate-limits/national-renewable-energy-laboratory-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/national-renewable-energy-laboratory-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/national-renewable-energy-laboratory/refs/heads/main/finops/national-renewable-energy-laboratory-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/national-renewable-energy-laboratory-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/national-renewable-energy-laboratory/refs/heads/main/agentic-access/national-renewable-energy-laboratory-agentic-access.yml
   title: ''
@@ -130,19 +145,23 @@ common:
 created: '2025-05-02'
 description: The National Renewable Energy Laboratory (NREL) developer network provides a catalog of public APIs that give developers access to renewable energy, alternative fuel, electricity, building, climate, solar, wind, and transportation data and analysis services produced by NREL.
 finops:
-- name: National Renewable Energy Laboratory Finops
+- has_sources: true
+  method: generated
+  name: National Renewable Energy Laboratory Finops
+  primary_unit: ''
   service_category: Open Data / Public Sector / Energy
   slug: national-renewable-energy-laboratory-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/national-renewable-energy-laboratory.png
 layout: provider
 modified: '2026-05-19'
 name: National Renewable Energy Laboratory
 nav: Providers
 network: true
-overview: 'National Renewable Energy Laboratory publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Alt Fuel Stations API, Pvwatts API, Solar API, and 5 more. Tagged areas include Energy, Renewable Energy, Federal Government, Climate, and Research.
+overview: 'National Renewable Energy Laboratory publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Alt Fuel Stations API, Pvwatts API, Solar API, and 5 more. Tagged areas include Energy, Renewable Energy, Federal Government, Climate, and Research.
 
 
-  National Renewable Energy Laboratory''s developer surface includes authentication, developer portal, signup flow, and 4 more developer resources.'
+  National Renewable Energy Laboratory''s developer surface includes authentication, developer portal, signup flow, and 7 more developer resources.'
 plans:
 - name: National Renewable Energy Laboratory Plans Pricing
   plan_count: 2
@@ -153,18 +172,18 @@ rate_limits:
   name: National Renewable Energy Laboratory Rate Limits
   slug: national-renewable-energy-laboratory-rate-limits
 score:
-  band: thin
-  composite: 27.7
+  band: emerging
+  composite: 26.1
   coverage:
     artifact_dirs: 9
-    catalog_earned: 45.0
+    catalog_earned: 42.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 70.0
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 26.3
+    access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 41.9
     developer_ergonomics: 26.2
@@ -189,8 +208,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 4.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

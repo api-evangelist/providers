@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 3.8
-  scored_at: '2026-10-04'
+  score: 1.9
+  scored_at: '2026-10-17'
 api_count: 3
 apis:
 - description: Core programmatic API for building message-driven microservice applications. Provides functional programming model with java.util.function.Function, Consumer and Supplier bindings, binding lifecycle m
@@ -47,6 +47,21 @@ apis:
   slug: spring-cloud-stream-rabbitmq-binder
 artifact_total: 14
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/spring-cloud-stream/refs/heads/main/plans/spring-cloud-stream-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/spring-cloud-stream-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/spring-cloud-stream/refs/heads/main/rate-limits/spring-cloud-stream-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/spring-cloud-stream-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/spring-cloud-stream/refs/heads/main/finops/spring-cloud-stream-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/spring-cloud-stream-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/spring-cloud-stream/refs/heads/main/security/spring-cloud-stream-vulnerability-disclosure.yml
   title: ''
@@ -100,9 +115,13 @@ examples:
   name: Spring Cloud Stream Rabbitmq Binding Example
   slug: spring-cloud-stream-rabbitmq-binding-example
 finops:
-- name: Spring Cloud Stream Finops
+- has_sources: false
+  method: generated
+  name: Spring Cloud Stream Finops
+  primary_unit: ''
   service_category: API
   slug: spring-cloud-stream-finops
+  template: true
 image: https://spring.io/img/projects/spring-cloud.svg
 json_schemas:
 - name: Spring Cloud Stream Binding Configuration
@@ -122,13 +141,13 @@ modified: '2026-05-02'
 name: Spring Cloud Stream
 nav: Providers
 network: true
-overview: 'Spring Cloud Stream publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Apache Kafka, AsyncAPI, Event-Driven, Java, and Messaging.
+overview: 'Spring Cloud Stream is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Apache Kafka, AsyncAPI, Event-Driven, Java, and Messaging.
 
 
   The Spring Cloud Stream catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Spring Cloud Stream''s developer surface includes documentation, GitHub presence, engineering blog, Stack Overflow tag, support, and 5 more developer resources.'
+  Spring Cloud Stream''s developer surface includes documentation, GitHub presence, engineering blog, Stack Overflow tag, support, and 8 more developer resources.'
 plans:
 - name: Spring Cloud Stream Plans Pricing
   plan_count: 3
@@ -139,9 +158,10 @@ rate_limits:
   name: Spring Cloud Stream Rate Limits
   slug: spring-cloud-stream-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: Spring Cloud Stream API Rules
+  name: Spring Cloud Stream — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -151,17 +171,17 @@ rules:
   slug: spring-cloud-stream-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 30.2
+  composite: 28.7
   coverage:
     artifact_dirs: 13
-    catalog_earned: 70.2
+    catalog_earned: 67.2
     catalog_earned_first_party: 0.0
-    catalog_gap: 44.9
+    catalog_gap: 47.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 23.5
     contract_quality: 24.4
     developer_ergonomics: 33.3
@@ -174,8 +194,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

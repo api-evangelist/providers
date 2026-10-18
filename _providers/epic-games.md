@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.7
-  scored_at: '2026-10-04'
+  score: 20.8
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 1
@@ -167,6 +167,21 @@ collections:
   name: Epic Online Services Web API
   slug: open-epic-games
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/epic-games/refs/heads/main/plans/epic-games-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/epic-games-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/epic-games/refs/heads/main/rate-limits/epic-games-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/epic-games-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/epic-games/refs/heads/main/finops/epic-games-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/epic-games-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/epic-games/refs/heads/main/agentic-access/epic-games-agentic-access.yml
   title: ''
@@ -279,9 +294,13 @@ common:
 created: '2024-01-01'
 description: Epic Games is the studio behind Fortnite, the Unreal Engine, the Epic Games Store, MetaHuman, RealityScan, Twinmotion, RAD Game Tools, and the Epic Online Services (EOS) backend. Epic operates a unified developer portal at dev.epicgames.com that hosts the EOS SDK and REST APIs (Auth, Connect, Friends, Presence, Lobby, Sessions, Achievements, Stats, Leaderboards, Player Data Storage, Title Storage, Voice, Sanctions, Anti-Cheat, Reports, P2P, Ecom, User Info), the Unreal Engine documentation, the Epic Games Store publishing tools, and the Kids Web Services (KWS) compliance platform. EOS is cross-platform and runs on Windows, macOS, Linux, PlayStation, Xbox, Switch, iOS, Android, and web. This profile rolls Epic's developer-facing surfaces into a single index; the Unreal Engine surface has its own dedicated profile.
 finops:
-- name: Epic Games Finops
+- has_sources: false
+  method: generated
+  name: Epic Games Finops
+  primary_unit: ''
   service_category: API
   slug: epic-games-finops
+  template: true
 graphqls:
 - description: Epic Games exposes GraphQL surfaces across several developer-facing products. The primary surface historically lived at `https://graphql.epicgames.com/graphql` and powered the Epic Games Store catalog
   name: Epic Games GraphQL
@@ -292,10 +311,10 @@ modified: '2026-05-23'
 name: Epic Games
 nav: Providers
 network: true
-overview: 'Epic Games publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Achievements API, Auth API, Connect API, and 20 more. Tagged areas include Achievements, Anti-Cheat, Cross-Platform, EOS, and Epic Online Services.
+overview: 'Epic Games publishes 23 API contracts indexed on the [APIs.io](https://apis.io/) network, including Achievements API, Auth API, Connect API, and 20 more. Tagged areas include Achievements, Anti-Cheat, Cross-Platform, EOS, and Epic Online Services.
 
 
-  Epic Games'' developer surface includes authentication, developer portal, documentation, API reference, getting-started guide, status page, support, and 19 more developer resources.'
+  Epic Games'' developer surface includes authentication, developer portal, documentation, API reference, getting-started guide, status page, support, and 22 more developer resources.'
 plans:
 - name: Epic Games Plans Pricing
   plan_count: 1
@@ -312,23 +331,23 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: developing
-  composite: 45.5
+  composite: 39.5
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 54.4
+    artifact_dirs: 13
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 60.6
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.7
+  delta: -6.0
   facets:
-    access_clarity: 47.9
+    access_clarity: 26.3
     contract_governance: 0.0
     contract_quality: 42.9
     developer_ergonomics: 64.3
     discoverability: 73.2
-    operational_transparency: 21.6
-  previous_composite: 46.2
+    operational_transparency: 7.9
+  previous_composite: 45.5
   provenance:
     agentic_access: derived
     contracts:
@@ -342,9 +361,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

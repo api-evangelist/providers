@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.3
-  scored_at: '2026-10-04'
+  score: 20.4
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -164,6 +164,10 @@ collections:
   name: SkySlope Partnership API Reference Agents, Listings Webhooks API
   slug: open-skyslope-webhooks-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://skyslope.com/feed/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/skyslope/refs/heads/main/capabilities/skyslope-capability-edges.yml
   title: ''
@@ -213,19 +217,23 @@ common:
 created: '2026-07-04'
 description: SkySlope is a real estate transaction management and digital forms platform used by brokerages, teams, and agents across the U.S. and Canada to store, manage, and audit transaction documents for compliance, prepare and e-sign forms, and manage offers. SkySlope exposes a partner-oriented public API program - a Partnership / Forms API (OAuth 2.0 authorization-code flow with PKCE) for creating and managing listing and transaction files, documents, contacts, envelopes, forms libraries, and templates; an Offers API (OAuth 2.0 client-credentials flow) for retrieving listings, offers, and offer/listing analytics from SkySlope Offers; and a broader Transaction Management API (BETA) positioned for brokerages to query and extract their SkySlope data for reporting and enterprise integration. API access is partner/brokerage-gated - reference documentation is public but obtaining OAuth client credentials requires working with SkySlope.
 finops:
-- name: Skyslope Finops
+- has_sources: true
+  method: generated
+  name: Skyslope Finops
+  primary_unit: ''
   service_category: Real Estate Transaction Management
   slug: skyslope-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/skyslope.png
 layout: provider
-modified: '2026-07-04'
+modified: '2026-10-06'
 name: SkySlope
 nav: Providers
 network: true
-overview: 'SkySlope publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Agents, Listings API, Auth API, Buyer Agreements API, and 12 more. Tagged areas include Real Estate, Transaction Management, Digital Forms, E-Signature, and Compliance.
+overview: 'SkySlope publishes 15 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agents, Listings API, Auth API, Buyer Agreements API, and 12 more. Tagged areas include Real Estate, Transaction Management, Digital Forms, E-Signature, and Compliance.
 
 
-  SkySlope''s developer surface includes documentation and 9 more developer resources.'
+  SkySlope''s developer surface includes documentation and 10 more developer resources.'
 plans:
 - name: Skyslope Plans Pricing
   plan_count: 3
@@ -236,23 +244,23 @@ rate_limits:
   name: Skyslope Rate Limits
   slug: skyslope-rate-limits
 score:
-  band: thin
-  composite: 30.8
+  band: emerging
+  composite: 22.6
   coverage:
-    artifact_dirs: 10
-    catalog_earned: 61.6
+    artifact_dirs: 12
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.4
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.2
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 48.4
     developer_ergonomics: 16.7
     discoverability: 66.1
-    operational_transparency: 28.4
+    operational_transparency: 7.9
   previous_composite: 30.8
   provenance:
     agentic_access: derived
@@ -267,9 +275,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

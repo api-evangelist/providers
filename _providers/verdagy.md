@@ -33,10 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://verdagy.com/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/verdagy/refs/heads/main/security/verdagy-domain-security.yml
   title: ''
@@ -111,14 +115,14 @@ created: '2026-08-05'
 description: Verdagy is a Moss Landing, California clean-energy hardware company that designs and manufactures dynamic alkaline water electrolysis systems for large-scale green hydrogen production. Its eDynamic platform runs very large-area membrane-based electrochemical cells at high current density with dynamic turndown, so electrolyzers can follow intermittent renewable power, targeting fossil-fuel cost parity for clean hydrogen by 2028 without subsidies. The company operates a 2 MW eDynamic demonstration plant at Moss Landing with more than 21,000 commercial cell hours, plus 500 kW and 100 kW test plants, and opened a DOE-supported gigawatt-scale manufacturing facility of more than 100,000 square feet in Newark, California. Verdagy sells electrolyzer hardware and project capacity to industrial hydrogen buyers — refining, ammonia, methanol, e-fuels and SAF — rather than software; it publishes no developer program, no public API, and no machine-readable API contract.
 image: https://verdagy.com/wp-content/themes/verdagy/img/logo.png
 layout: provider
-modified: '2026-08-05'
+modified: '2026-10-06'
 name: Verdagy
 nav: Providers
 network: true
 overview: 'Verdagy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Energy, Clean Energy, Green Hydrogen, and Hydrogen.
 
 
-  Verdagy''s developer surface includes engineering blog, product news, support, and 10 more developer resources.'
+  Verdagy''s developer surface includes engineering blog, product news, support, and 11 more developer resources.'
 random_paper: 6
 score:
   band: minimal
@@ -145,8 +149,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 8.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

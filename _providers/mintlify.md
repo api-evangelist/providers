@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 49.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 4
+- acting_count: 3
   human_in_the_loop: 0
   name: Mintlify Agentic Access
   operation_count: 8
   slug: mintlify-agentic-access
-  summary_line: 8 operations · 4 acting
+  summary_line: 8 operations · 3 acting
 api_count: 1
 apis:
 - description: Mintlify is a developer documentation platform that helps product and engineering teams create, maintain, and host modern docs. It uses a docs‑as‑code workflow (Markdown in your repo) with a rich comp
@@ -354,12 +354,24 @@ common:
   title: ''
   type: LlmsText
   url: https://www.mintlify.com/docs/llms.txt
+coverage:
+  checked: '2026-10-11'
+  detail: Access to the API specification requires authentication; the openapi.json endpoint redirects to a login page.
+  evidence:
+  - status: 307
+    url: https://app.mintlify.com/openapi.json
+  reason: sales-gate
+  state: gated
 created: '2026-01-05'
 description: Mintlify is an AI-native intelligent documentation platform designed for the next generation of technical documentation, combining beautiful out-of-the-box design with advanced collaboration and AI capabilities.
 finops:
-- name: Mintlify Finops
+- has_sources: true
+  method: generated
+  name: Mintlify Finops
+  primary_unit: ''
   service_category: Documentation / Developer Tools
   slug: mintlify-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mintlify.png
 json_schemas:
 - name: AgentJobRequest
@@ -416,7 +428,7 @@ modified: '2026-05-30'
 name: Mintlify
 nav: Providers
 network: true
-overview: 'Mintlify publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Agent API, Analytics API, Assistant API, and 2 more. Tagged areas include Documentation, API Documentation, Developer Portal, MCP, and AI Assistant.
+overview: 'Mintlify publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agent API, Analytics API, Assistant API, and 2 more. Tagged areas include Documentation, API Documentation, Developer Portal, MCP, and AI Assistant.
 
 
   The Mintlify catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -433,9 +445,10 @@ rate_limits:
   name: Mintlify Rate Limits
   slug: mintlify-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Mintlify API Rules
+  name: Mintlify — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -443,7 +456,8 @@ rules:
     info: 2
     warn: 3
   slug: mintlify-jsonschema-spectral-rules
-- effective_rule_count: 54
+- authorship: generated
+  effective_rule_count: 54
   extends:
   - spectral:oas
   name: Mintlify API Rules
@@ -456,23 +470,23 @@ rules:
   slug: mintlify-rules
 score:
   band: strong
-  composite: 61.8
+  composite: 59.9
   coverage:
-    artifact_dirs: 31
-    catalog_earned: 70.0
+    artifact_dirs: 32
+    catalog_earned: 67.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 45.0
+    catalog_gap: 48.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 12.7
+  delta: -0.9
   facets:
-    access_clarity: 76.3
+    access_clarity: 68.4
     contract_governance: 31.8
     contract_quality: 57.7
     developer_ergonomics: 57.7
     discoverability: 66.7
     operational_transparency: 60.5
-  previous_composite: 49.1
+  previous_composite: 60.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -485,13 +499,13 @@ score:
     skills: derived
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: rising
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: flat
   upsert:
     applies: true
     score: 0.0
@@ -508,7 +522,7 @@ security:
 - kind: vulnerability-disclosure
   name: Mintlify Vulnerability Disclosure
   slug: mintlify-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 - kind: trust-center
   name: Mintlify Trust Center
   slug: mintlify-trust-center

@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: medium
+  gated: partner
+  gated_source:
+  - tag:Partner Gated
   label: Self-serve signup
   onboarding: self-serve
   pricing: unknown
@@ -36,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 42.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -240,7 +243,7 @@ modified: '2026-07-25'
 name: Steadfast Group
 nav: Providers
 network: true
-overview: 'Steadfast Group publishes 3 APIs on the [APIs.io](https://apis.io/) network, including Address API, Risk API, and 1 more. Tagged areas include Insurance, Australia, Brokers, Insurance Broker Network, and General Insurance.
+overview: 'Steadfast Group publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network, including Address API, Risk API, and 1 more. Tagged areas include Insurance, Australia, Brokerage, Insurance Broker Network, and General Insurance.
 
 
   Steadfast Group''s developer surface includes engineering blog, legal docs, tooling, support, authentication, and 32 more developer resources.'
@@ -293,8 +296,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 36.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -314,14 +317,13 @@ slug: steadfast-group
 tags:
 - Insurance
 - Australia
-- Brokers
+- Brokerage
 - Insurance Broker Network
 - General Insurance
 - Property and Casualty
 - Underwriting Agency
 - Agency Management
 - ACORD
-- Partner Gated
 - New Zealand
 website: https://www.steadfast.com.au/
 ---

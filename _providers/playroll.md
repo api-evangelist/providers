@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 5
 apis:
 - description: Partner/enterprise integration surface for Playroll's Employer of Record product - hire, onboard, and manage full-time employees in 180+ countries through Playroll's owned entities without your busine
@@ -100,16 +100,20 @@ common:
 created: '2026-07-01'
 description: Playroll is a global HR platform providing Employer of Record (EOR), contractor management, and global payroll across 180+ countries. It runs local payroll, statutory benefits, and compliance for distributed teams, and offers a partner/enterprise integration surface - native HRIS connectors (HiBob, BambooHR), an "Open API" for bi-directional HR data sync, and custom/embedded integration builds. The developer API is partner- and enterprise-gated; sandbox access and documentation are provided to integration partners rather than published on a public developer portal.
 finops:
-- name: Playroll Finops
+- has_sources: true
+  method: generated
+  name: Playroll Finops
+  primary_unit: ''
   service_category: Business Application Services
   slug: playroll-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/playroll.png
 layout: provider
 modified: '2026-07-01'
 name: Playroll
 nav: Providers
 network: true
-overview: 'Playroll publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Human Resources, Employer of Record, Global Payroll, Contractor Management, and Global Employment.
+overview: 'Playroll is listed with 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Human Resources, Employer of Record, Global Payroll, Contractor Management, and Global Employment.
 
 
   Playroll''s developer surface includes documentation, engineering blog, and 7 more developer resources.'
@@ -123,23 +127,23 @@ rate_limits:
   name: Playroll Rate Limits
   slug: playroll-rate-limits
 score:
-  band: emerging
-  composite: 16.4
+  band: minimal
+  composite: 9.0
   coverage:
-    artifact_dirs: 8
-    catalog_earned: 56.0
+    artifact_dirs: 9
+    catalog_earned: 40.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 59.0
+    catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.4
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
     discoverability: 62.5
-    operational_transparency: 18.9
+    operational_transparency: 5.3
   previous_composite: 16.4
   regulatory:
     applies: true
@@ -147,9 +151,9 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

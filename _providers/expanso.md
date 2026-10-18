@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 1
@@ -52,7 +52,7 @@ apis:
   description: The Orchestrator API from Expanso — 11 operation(s) for orchestrator.
   name: Expanso Orchestrator API
   slug: expanso-orchestrator-api
-artifact_total: 7
+artifact_total: 8
 collections:
 - collection_type: open
   name: API Collection
@@ -64,6 +64,15 @@ collections:
   name: Bacalhau Ops Orchestrator API
   slug: open-expanso-orchestrator-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/expanso/refs/heads/main/plans/expanso-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/expanso-plans-pricing.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://expanso.io/blog/rss.xml
 - group: company
   title: ''
   type: Website
@@ -179,28 +188,32 @@ created: '2026-07-17'
 description: Expanso is the company behind Bacalhau, an open-source distributed compute orchestration framework that brings compute to the data by running jobs close to where data is generated across edge, on-premise, and cloud environments. Expanso Cloud is the managed platform for deploying intelligent data pipelines at the edge - filtering, transforming, and governing data (PII/GDPR compliance, lineage) before it reaches downstream platforms like Snowflake and Databricks. The Bacalhau Orchestrator API exposes job submission, execution history, results, log streaming, and node/agent management over a versioned REST interface. Expanso is backed by General Catalyst and was named Edge AI Startup of the Year 2026.
 image: https://expanso.io/favicon.ico
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Expanso
 nav: Providers
 network: true
-overview: 'Expanso publishes 2 APIs on the [APIs.io](https://apis.io/) network: Ops API and Orchestrator API. Tagged areas include Company, Distributed Computing, Edge Computing, Compute Orchestration, and Data Pipeline.
+overview: 'Expanso publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Ops API and Orchestrator API. Tagged areas include Company, Distributed Computing, Edge Computing, Compute Orchestration, and Data Pipeline.
 
 
-  Expanso''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 18 more developer resources.'
+  Expanso''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 20 more developer resources.'
+plans:
+- name: Expanso Plans Pricing
+  plan_count: 6
+  slug: expanso-plans-pricing
 random_paper: 18
 score:
   band: developing
-  composite: 40.1
+  composite: 46.5
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 20
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.4
   facets:
-    access_clarity: 44.7
+    access_clarity: 76.3
     contract_governance: 4.5
     contract_quality: 34.0
     developer_ergonomics: 54.2
@@ -223,9 +236,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 17.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

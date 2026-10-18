@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://optiwatt.com/news/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/optiwatt/refs/heads/main/security/optiwatt-domain-security.yml
   title: ''
@@ -73,31 +77,31 @@ created: '2026-07-17'
 description: Optiwatt is a consumer-centric energy management platform that helps electric-vehicle drivers and homeowners lower their electricity bills by automatically scheduling EV charging and smart-thermostat use for off-peak, low-cost, and low-carbon hours. Its consumer app (getoptiwatt.com) connects to vehicles, chargers, and thermostats via direct OEM integrations such as the Tesla Fleet API and aggregators like Smartcar, while its utility platform (optiwatt.com) orchestrates these distributed energy resources as virtual power plants across demand-response and load-shaping programs for utility partners. Backed by GV. Optiwatt is primarily a consumer of third-party APIs rather than a public API producer; no public developer API or OpenAPI has been found.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/optiwatt.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Optiwatt
 nav: Providers
 network: true
 overview: 'Optiwatt is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Frontier Tech, Energy, Energy Management, and Electric Vehicles.
 
 
-  Optiwatt''s developer surface includes signup flow, support, and 6 more developer resources.'
+  Optiwatt''s developer surface includes engineering blog, signup flow, support, and 6 more developer resources.'
 random_paper: 12
 score:
   band: minimal
-  composite: 9.7
+  composite: 10.2
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 4.8
+    developer_ergonomics: 7.1
     discoverability: 48.2
     operational_transparency: 0.0
   previous_composite: 9.7
@@ -107,8 +111,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 11.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

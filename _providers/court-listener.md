@@ -28,14 +28,14 @@ agent_readiness:
     idempotency: na
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: false
-    rate_limit_signal: documented
+    protected_resource_metadata: verified
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.9
-  scored_at: '2026-10-04'
+  score: 34.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -296,9 +296,13 @@ examples:
   name: Court Listener Search Example
   slug: court-listener-search-example
 finops:
-- name: Court Listener Finops
+- has_sources: false
+  method: generated
+  name: Court Listener Finops
+  primary_unit: ''
   service_category: ''
   slug: court-listener-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/court-listener.png
 json_schemas:
 - name: Audio
@@ -350,7 +354,7 @@ modified: '2026-06-13'
 name: CourtListener
 nav: Providers
 network: true
-overview: 'CourtListener publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Alerts API, Audio API, Citation API, and 18 more. Tagged areas include Legal, Court Data, Case Law, PACER, and Judicial.
+overview: 'CourtListener publishes 21 API contracts indexed on the [APIs.io](https://apis.io/) network, including Alerts API, Audio API, Citation API, and 18 more. Tagged areas include Legal, Court Data, Case Law, PACER, and Judicial.
 
 
   The CourtListener catalog on APIs.io includes 3 JSON-LD contexts and 1 Spectral governance ruleset.
@@ -367,9 +371,10 @@ rate_limits:
   name: Court Listener Rate Limits
   slug: court-listener-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: CourtListener API Rules
+  name: CourtListener — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -379,17 +384,17 @@ rules:
   slug: court-listener-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 37.3
+  composite: 31.5
   coverage:
     artifact_dirs: 17
-    catalog_earned: 62.1
+    catalog_earned: 51.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.0
+    catalog_gap: 63.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.8
   facets:
-    access_clarity: 46.8
+    access_clarity: 18.4
     contract_governance: 9.8
     contract_quality: 55.6
     developer_ergonomics: 23.8
@@ -410,9 +415,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

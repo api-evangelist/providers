@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 53.6
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 9
 apis:
 - description: Programmatic access to historical and real-time Conviva experience metrics by metric name, with optional group-by dimensions, saved or dimensional filters, KPI thresholds and sorting. Historical reque
@@ -226,7 +226,7 @@ modified: '2026-08-01'
 name: Conviva
 nav: Providers
 network: true
-overview: 'Conviva publishes 9 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Analytics, Streaming, Video, Observability, and Monitoring.
+overview: 'Conviva is listed with 9 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Analytics, Streaming, Video, Observability, and Monitoring.
 
 
   The Conviva catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -278,8 +278,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

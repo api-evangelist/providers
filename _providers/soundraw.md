@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: B2B HTTP API for generating royalty-free AI music at scale, supporting per-end-user music creation with style, mood, genre, length, and instrument customization. Generated tracks are cleared for perpe
@@ -41,6 +41,25 @@ apis:
   slug: music-api
 artifact_total: 8
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/soundraw/refs/heads/main/plans/soundraw-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/soundraw-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/soundraw/refs/heads/main/rate-limits/soundraw-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/soundraw-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/soundraw/refs/heads/main/finops/soundraw-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/soundraw-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://soundraw.io/press
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/soundraw/refs/heads/main/security/soundraw-domain-security.yml
   title: ''
@@ -73,9 +92,13 @@ common:
 created: '2026-05-23'
 description: SOUNDRAW is an AI music generation platform that produces royalty-free, copyright-cleared music customized by genre, mood, theme, length, and instrumentation. Beyond the soundraw.io consumer product, SOUNDRAW offers a B2B API for embedding music generation into video platforms, games, social tools, and ad tech, with Canva, Filmora, and Captions Mirage cited as integration partners.
 finops:
-- name: Soundraw Finops
+- has_sources: false
+  method: generated
+  name: Soundraw Finops
+  primary_unit: ''
   service_category: API
   slug: soundraw-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/soundraw.png
 integrations:
 - description: SOUNDRAW music generation embedded within the Canva creative suite.
@@ -85,11 +108,14 @@ integrations:
 - description: AI music for Captions' Mirage AI video tooling.
   name: Captions Mirage
 layout: provider
-modified: '2026-05-23'
+modified: '2026-10-06'
 name: SOUNDRAW
 nav: Providers
 network: true
-overview: SOUNDRAW publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include AI Music, Generative, Royalty-Free, B2B, and Music Generation.
+overview: 'SOUNDRAW is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include AI Music, Generative, Royalty-Free, B2B, and Music Generation.
+
+
+  SOUNDRAW''s developer surface includes engineering blog and 10 more developer resources.'
 plans:
 - name: Soundraw Plans Pricing
   plan_count: 1
@@ -100,33 +126,33 @@ rate_limits:
   name: Soundraw Rate Limits
   slug: soundraw-rate-limits
 score:
-  band: emerging
-  composite: 15.1
+  band: minimal
+  composite: 9.1
   coverage:
-    artifact_dirs: 6
-    catalog_earned: 54.4
+    artifact_dirs: 7
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 60.6
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.0
   facets:
-    access_clarity: 37.4
+    access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 66.1
-    operational_transparency: 18.9
+    operational_transparency: 5.3
   previous_composite: 15.1
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

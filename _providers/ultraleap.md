@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 4.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 4
 apis:
 - description: LeapC is the native C API of the Ultraleap Hand Tracking Software. A client opens a connection to the locally running tracking service and polls it for tracking frames (hands, palms, digits, bones), d
@@ -172,7 +172,7 @@ modified: '2026-09-18'
 name: Ultraleap
 nav: Providers
 network: true
-overview: 'Ultraleap publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Hand Tracking, Computer Vision, Spatial Computing, and Haptics.
+overview: 'Ultraleap is listed with 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Hand Tracking, Computer Vision, Spatial Computing, and Haptics.
 
 
   Ultraleap''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, and 22 more developer resources.'
@@ -181,7 +181,7 @@ score:
   band: thin
   composite: 30.4
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 14
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -204,13 +204,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/ultraleap/refs/heads/main/screenshots/ultraleap-2026-10-11T131400.png
 security:
 - kind: domain-security
   name: Ultraleap Domain Security
@@ -225,7 +226,7 @@ tags:
 - Haptics
 - Augmented Reality
 - Virtual Reality
-- XR
+- Extended Reality
 - Gesture Recognition
 - OpenXR
 - SDK

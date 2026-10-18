@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -146,9 +146,13 @@ examples:
   name: Equipment Example
   slug: equipment-example
 finops:
-- name: Applied Materials Finops
+- has_sources: true
+  method: generated
+  name: Applied Materials Finops
+  primary_unit: ''
   service_category: Industrial / Manufacturing
   slug: applied-materials-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/applied-materials.png
 json_schemas:
 - name: Equipment
@@ -168,7 +172,7 @@ modified: '2026-09-04'
 name: Applied Materials
 nav: Providers
 network: true
-overview: 'Applied Materials publishes 2 APIs on the [APIs.io](https://apis.io/) network: Equipment API and Maintenance API. Tagged areas include Semiconductors, Manufacturing, Equipment, Fab Operations, and Materials Engineering.
+overview: 'Applied Materials publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Equipment API and Maintenance API. Tagged areas include Semiconductors, Manufacturing, Equipment, Fab Operations, and Materials Engineering.
 
 
   The Applied Materials catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -201,9 +205,10 @@ rate_limits:
   name: Applied Materials Rate Limits
   slug: applied-materials-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Applied Materials API Rules
+  name: Applied Materials — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -211,7 +216,8 @@ rules:
     info: 2
     warn: 3
   slug: applied-materials-jsonschema-spectral-rules
-- effective_rule_count: 64
+- authorship: generated
+  effective_rule_count: 64
   extends:
   - spectral:oas
   name: Applied Materials API Rules
@@ -224,17 +230,17 @@ rules:
   slug: applied-materials-spectral-rules
 score:
   band: thin
-  composite: 28.1
+  composite: 26.6
   coverage:
     artifact_dirs: 21
-    catalog_earned: 73.4
+    catalog_earned: 70.4
     catalog_earned_first_party: 16.0
-    catalog_gap: 41.6
+    catalog_gap: 44.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 28.9
+    access_clarity: 21.1
     contract_governance: 27.3
     contract_quality: 26.5
     developer_ergonomics: 19.0
@@ -254,12 +260,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
     score: 0.0
+screenshot: https://raw.githubusercontent.com/api-evangelist/applied-materials/refs/heads/main/screenshots/applied-materials-2026-10-11T100010.png
 security:
 - kind: authentication
   name: Applied Materials Authentication

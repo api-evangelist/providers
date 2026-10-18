@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://api.vehicles.dev
@@ -222,7 +222,7 @@ modified: '2026-08-16'
 name: Vehicles.dev
 nav: Providers
 network: true
-overview: 'Vehicles.dev publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Control API, Employment API, Operations API, and 3 more. Tagged areas include Automotive, Vehicle Data, VIN Decoding, Vehicle Valuation, and Market Value.
+overview: 'Vehicles.dev publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Control API, Employment API, Operations API, and 3 more. Tagged areas include Automotive, Vehicle Data, VIN Decoding, Vehicle Valuation, and Market Value.
 
 
   Vehicles.dev''s developer surface includes authentication, documentation, API reference, getting-started guide, support, pricing, signup flow, and 23 more developer resources.'
@@ -269,8 +269,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

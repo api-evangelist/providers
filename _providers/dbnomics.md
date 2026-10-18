@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.0
-  scored_at: '2026-10-04'
+  score: 17.8
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 9
   slug: dbnomics-agentic-access
   summary_line: 9 operations
-api_count: 1
+api_count: 2
 apis:
 - baseURL: https://api.db.nomics.world/v22
   baseurl_source: declared
@@ -124,16 +124,20 @@ common:
 created: '2026-07-11'
 description: DBnomics is the world's economic database - a free, open-source aggregator run by Cepremap that harvests macroeconomic time series from more than 90 national and international providers (IMF, ECB, Eurostat, World Bank, OECD, BLS, BEA, Banque de France, Federal Statistical Office Germany, and many more) into one standardized format. Hundreds of millions of series covering economic indicators, government statistics, prices, employment, trade, and finance are refreshed daily and served through a documented public REST API (api.db.nomics.world/v22) that requires no API key, plus official Python and R clients and community clients for Julia, Matlab, Stata, EViews, and Gretl.
 finops:
-- name: Dbnomics Finops
+- has_sources: true
+  method: generated
+  name: Dbnomics Finops
+  primary_unit: ''
   service_category: Analytics and Open Data
   slug: dbnomics-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dbnomics.png
 layout: provider
 modified: '2026-07-11'
 name: DBnomics
 nav: Providers
 network: true
-overview: 'DBnomics publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Datasets API, Providers API, Search API, and 1 more. Tagged areas include Economic Indicators, Macroeconomics, Open Data, Statistics, and Time Series.
+overview: 'DBnomics publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Datasets API, Providers API, Search API, and 1 more. Tagged areas include Economic Indicators, Macroeconomics, Open Data, Statistics, and Time Series.
 
 
   DBnomics'' developer surface includes documentation and 7 more developer resources.'
@@ -147,23 +151,23 @@ rate_limits:
   name: Dbnomics Rate Limits
   slug: dbnomics-rate-limits
 score:
-  band: thin
-  composite: 29.8
+  band: emerging
+  composite: 22.8
   coverage:
     artifact_dirs: 9
-    catalog_earned: 58.0
+    catalog_earned: 42.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.0
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.0
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 46.2
     developer_ergonomics: 16.7
     discoverability: 66.1
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   previous_composite: 29.8
   provenance:
     agentic_access: derived
@@ -178,9 +182,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

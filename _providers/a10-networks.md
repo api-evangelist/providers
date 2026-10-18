@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 18.0
-  scored_at: '2026-10-04'
+  score: 16.1
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The Thunder Kubernetes Connector (TKC) runs inside Kubernetes and configures upstream Thunder ADC objects automatically as pods are created and scaled. It defines 24 CRDs covering VirtualServer, Virtu
@@ -85,6 +85,21 @@ collections:
   name: A10 Networks ACOS aXAPI v3 SLB Virtual Server API
   slug: open-a10-networks-slb-virtual-server-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/a10-networks/refs/heads/main/plans/a10-networks-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/a10-networks-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/a10-networks/refs/heads/main/rate-limits/a10-networks-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/a10-networks-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/a10-networks/refs/heads/main/finops/a10-networks-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/a10-networks-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/a10-networks/refs/heads/main/capabilities/a10-networks-capability-edges.yml
   title: ''
@@ -265,9 +280,13 @@ examples:
   name: A10 Networks Create Virtual Server Example
   slug: a10-networks-create-virtual-server-example
 finops:
-- name: A10 Networks Finops
+- has_sources: true
+  method: generated
+  name: A10 Networks Finops
+  primary_unit: capacity-unit
   service_category: Networking and Security
   slug: a10-networks-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/a10-networks.png
 json_schemas:
 - name: A10 ACOS Real Server
@@ -293,13 +312,13 @@ modified: '2026-05-25'
 name: A10 Networks
 nav: Providers
 network: true
-overview: 'A10 Networks publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, SLB Health Monitor API, SLB Server API, and 3 more. Tagged areas include Application Delivery, Load Balancing, DDoS Protection, Application Delivery Controller, and Network Security.
+overview: 'A10 Networks publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authentication API, SLB Health Monitor API, SLB Server API, and 3 more. Tagged areas include Application Delivery, Load Balancing, DDoS Protection, Application Delivery Controller, and Network Security.
 
 
   The A10 Networks catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  A10 Networks'' developer surface includes documentation, support, engineering blog, YouTube channel, GitHub presence, and 24 more developer resources.'
+  A10 Networks'' developer surface includes documentation, support, engineering blog, YouTube channel, GitHub presence, and 27 more developer resources.'
 plans:
 - name: A10 Networks Plans Pricing
   plan_count: 6
@@ -310,9 +329,10 @@ rate_limits:
   name: A10 Networks Rate Limits
   slug: a10-networks-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: A10 Networks API Rules
+  name: A10 Networks — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -320,7 +340,8 @@ rules:
     info: 2
     warn: 3
   slug: a10-networks-jsonschema-spectral-rules
-- effective_rule_count: 50
+- authorship: unmarked
+  effective_rule_count: 50
   extends:
   - spectral:oas
   name: A10 Networks API Rules
@@ -333,17 +354,17 @@ rules:
   slug: a10-networks-rules
 score:
   band: thin
-  composite: 31.4
+  composite: 27.4
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 64.3
+    artifact_dirs: 18
+    catalog_earned: 56.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 50.7
+    catalog_gap: 58.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -4.0
   facets:
-    access_clarity: 36.3
+    access_clarity: 15.8
     contract_governance: 13.6
     contract_quality: 56.4
     developer_ergonomics: 16.7
@@ -362,8 +383,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

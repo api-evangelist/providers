@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 27
-  human_in_the_loop: 27
+- acting_count: 25
+  human_in_the_loop: 25
   name: Veem Agentic Access
   operation_count: 50
   slug: veem-agentic-access
-  summary_line: 50 operations · 27 acting · 27 human-in-the-loop
+  summary_line: 50 operations · 25 acting · 25 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://api.veem.com
@@ -165,6 +165,14 @@ collections:
   name: Veem API v1.2 attachment-controller webhook-controller API
   slug: open-veem-webhook-controller-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.veem.com/library/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.veem.com/library/feed/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/veem/refs/heads/main/capabilities/veem-capability-edges.yml
   title: ''
@@ -310,17 +318,17 @@ created: '2026-07-17'
 description: Veem is a global payments network that lets businesses send, receive, and request payments domestically and across borders. Its Public API covers account creation and KYC (including beneficial ownership), bank accounts and funding methods, claimless payments, invoices, multi-currency wallets, virtual bank accounts, crypto wallets, exchange-rate quotes, and webhooks, with embeddable Web SDK plugins for collecting card, bank, and identity data inside partner apps.
 image: https://logo.clearbit.com/veem.com
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Veem
 nav: Providers
 network: true
-overview: 'Veem publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Attachment Controller API, Bank Account Controller API, Beneficial Owner Information Controller API, and 11 more. Tagged areas include Payments, B2B Payments, Cross-Border Payments, Invoicing, and Wallets.
+overview: 'Veem publishes 14 API contracts indexed on the [APIs.io](https://apis.io/) network, including Attachment Controller API, Bank Account Controller API, Beneficial Owner Information Controller API, and 11 more. Tagged areas include Payments, B2B Payments, Cross-Border Payments, Invoicing, and Wallets.
 
 
   The Veem catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Veem''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, and 25 more developer resources.'
+  Veem''s developer surface includes engineering blog, documentation, API reference, getting-started guide, authentication, sandbox, and 26 more developer resources.'
 random_paper: 11
 scopes:
 - name: Veem Scopes
@@ -329,20 +337,20 @@ scopes:
   summary_line: 1 scope · clientCredentials/authorizationCode
 score:
   band: thin
-  composite: 37.4
+  composite: 37.9
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 26
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 6.6
     contract_governance: 4.5
     contract_quality: 51.1
-    developer_ergonomics: 49.4
+    developer_ergonomics: 51.8
     discoverability: 73.2
     operational_transparency: 26.3
   previous_composite: 37.4
@@ -362,8 +370,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 24.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

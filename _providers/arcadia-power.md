@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.3
-  scored_at: '2026-10-04'
+  score: 20.4
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -187,6 +187,11 @@ collections:
   name: Arcadia Plug Accounts Webhooks API
   slug: open-arcadia-power-webhooks-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/arcadia-power/refs/heads/main/capabilities/arcadia-power-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/arcadia-power-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -328,9 +333,13 @@ features:
 - Manages nearly $100B in utility spend and 580 million MWh of annual electricity usage post-ENGIE Impact
 - Built for solar & storage, EV charging, energy management, property management, and carbon accounting integrators
 finops:
-- name: Arcadia Power Finops
+- has_sources: true
+  method: generated
+  name: Arcadia Power Finops
+  primary_unit: ''
   service_category: ''
   slug: arcadia-power-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/arcadia-power.png
 json_schemas:
 - name: Arcadia Interval Series
@@ -352,13 +361,13 @@ modified: '2026-05-25'
 name: Arcadia
 nav: Providers
 network: true
-overview: 'Arcadia publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Credentials API, Files API, and 12 more. Tagged areas include Energy, Clean Energy, Utility Data, Climate, and Sustainability.
+overview: 'Arcadia publishes 15 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, Credentials API, Files API, and 12 more. Tagged areas include Energy, Clean Energy, Utility Data, Climate, and Sustainability.
 
 
   The Arcadia catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Arcadia''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, engineering blog, changelog, and 21 more developer resources.'
+  Arcadia''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, engineering blog, changelog, and 22 more developer resources.'
 plans:
 - name: Arcadia Power Plans Pricing
   plan_count: 4
@@ -369,9 +378,10 @@ rate_limits:
   name: Arcadia Power Rate Limits
   slug: arcadia-power-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Arcadia API Rules
+  name: Arcadia — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -381,22 +391,22 @@ rules:
   slug: arcadia-power-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 47.6
+  composite: 39.3
   coverage:
-    artifact_dirs: 15
-    catalog_earned: 76.9
+    artifact_dirs: 17
+    catalog_earned: 58.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 38.1
+    catalog_gap: 56.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
-    access_clarity: 57.4
+    access_clarity: 28.9
     contract_governance: 9.8
     contract_quality: 56.9
     developer_ergonomics: 40.5
     discoverability: 58.0
-    operational_transparency: 46.8
+    operational_transparency: 26.3
   previous_composite: 47.6
   provenance:
     agentic_access: derived
@@ -411,9 +421,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 23.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0
@@ -430,7 +440,7 @@ security:
 - kind: vulnerability-disclosure
   name: Arcadia Power Vulnerability Disclosure
   slug: arcadia-power-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 - kind: trust-center
   name: Arcadia Power Trust Center
   slug: arcadia-power-trust-center

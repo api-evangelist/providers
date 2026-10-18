@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'REST API for administering a Hypori deployment — managing user accounts, virtual device lifecycles, client and virtual-device policy assignments, and virtual-device template assignments. Requests are '
@@ -147,7 +147,7 @@ modified: '2026-08-22'
 name: Hypori
 nav: Providers
 network: true
-overview: 'Hypori publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Mobile, Virtualization, and Zero Trust.
+overview: 'Hypori is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Mobile, Virtualization, and Zero Trust.
 
 
   Hypori''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 14 more developer resources.'
@@ -187,8 +187,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

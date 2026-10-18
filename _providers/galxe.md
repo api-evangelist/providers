@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 12.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Galxe's public GraphQL API for building web3 experiences — query credentials and eligibility, quests, spaces, loyalty-points leaderboards, and Starboard social/onchain influence metrics, and push cred
@@ -42,6 +42,19 @@ apis:
   slug: galxe-integration-api
 artifact_total: 6
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/galxe/refs/heads/main/plans/galxe-plans.yml
+  title: ''
+  type: Plans
+  url: plans/galxe-plans.yml
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://docs.galxe.com/galxe-integration/resources/rate-limits
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.galxe.com/press
 - group: company
   title: ''
   type: Website
@@ -170,14 +183,14 @@ created: '2026-07-17'
 description: Galxe is a decentralized super app and one of web3's largest onchain distribution platforms, serving 14M+ Galxe ID users across a product suite of Quest, Passport, Score, Compass, and the Galxe Identity Protocol. For developers, Galxe exposes a public Integration GraphQL API (https://graphigo-business.prd.galaxy.eco/query) to query credentials, quests, spaces, loyalty-points leaderboards, and Starboard social metrics, plus a Credential API for pushing eligibility data, "Sign in with Galxe" OAuth 2.0 for identity, and a TypeScript SDK for the zero-knowledge Galxe Identity Protocol. API access uses a dashboard-issued access-token header with per-second rate limits and monthly quotas. Originally surfaced as a portfolio company of Multicoin Capital and enriched from Galxe's public developer documentation.
 image: https://framerusercontent.com/assets/VIwrglmv5dnewbKhEV0KdBzBSAk.jpg
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Galxe
 nav: Providers
 network: true
-overview: 'Galxe publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto Web3, Digital Identity, Credentials, and Quests.
+overview: 'Galxe is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Web3, Digital Identity, Credentials, and Quests.
 
 
-  Galxe''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, changelog, authentication, and 20 more developer resources.'
+  Galxe''s developer surface includes pricing, engineering blog, documentation, API reference, getting-started guide, support, signup flow, and 23 more developer resources.'
 plans:
 - name: Galxe Plans
   plan_count: 2
@@ -193,21 +206,21 @@ scopes:
   slug: galxe-scopes
   summary_line: 12 scopes · authorizationCode
 score:
-  band: thin
-  composite: 38.6
+  band: developing
+  composite: 41.3
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 53.0
     catalog_earned_first_party: 16.0
     catalog_gap: 62.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.7
   facets:
-    access_clarity: 42.1
+    access_clarity: 52.6
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 63.7
+    developer_ergonomics: 66.1
     discoverability: 73.2
     operational_transparency: 39.5
   previous_composite: 38.6
@@ -221,8 +234,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -241,7 +254,7 @@ security:
 slug: galxe
 tags:
 - Company
-- Crypto Web3
+- Web3
 - Digital Identity
 - Credentials
 - Quests
@@ -249,6 +262,5 @@ tags:
 - GraphQL
 - Authentication
 - Blockchain
-- Web3
 website: https://galxe.com
 ---

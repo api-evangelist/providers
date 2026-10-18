@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Triumph Group developer portal providing digital integration capabilities for aircraft lifecycle partners and customers. Supports MRO (Maintenance, Repair and Overhaul) integrations and technical data
@@ -41,6 +41,25 @@ apis:
   slug: triumph-developer-portal
 artifact_total: 9
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/triumph-group/refs/heads/main/plans/triumph-group-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/triumph-group-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/triumph-group/refs/heads/main/rate-limits/triumph-group-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/triumph-group-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/triumph-group/refs/heads/main/finops/triumph-group-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/triumph-group-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.triumphgroup.com/news
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/triumph-group/refs/heads/main/security/triumph-group-domain-security.yml
   title: ''
@@ -91,9 +110,13 @@ common:
 created: '2026-03-24'
 description: Triumph Group designs, develops, manufactures, repairs, and overhauls a broad portfolio of aerospace structures, systems, and components for commercial and military aviation customers. A Fortune 1000 company headquartered in Berwyn, Pennsylvania, Triumph serves the full aircraft lifecycle across actuation products, geared solutions, interiors, systems, electronics, and controls. The company operates a developer portal and supplier portal for partners and customers.
 finops:
-- name: Triumph Group Finops
+- has_sources: true
+  method: generated
+  name: Triumph Group Finops
+  primary_unit: ''
   service_category: Aerospace / Defense
   slug: triumph-group-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/triumph-group.png
 json_schemas:
 - name: Triumph Group Aerospace Service
@@ -109,14 +132,17 @@ jsonld:
   property_count: 0
   slug: triumph-group-context
 layout: provider
-modified: '2026-07-25'
+modified: '2026-10-06'
 name: Triumph Group
 nav: Providers
 network: true
-overview: 'Triumph Group publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Aerospace, Defense, Manufacturing, Maintenance Repair Overhaul, and Aviation.
+overview: 'Triumph Group is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Aerospace, Defense, Manufacturing, Maintenance Repair Overhaul, and Aviation.
 
 
-  The Triumph Group catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.'
+  The Triumph Group catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+
+
+  Triumph Group''s developer surface includes engineering blog and 14 more developer resources.'
 plans:
 - name: Triumph Group Plans Pricing
   plan_count: 1
@@ -143,9 +169,10 @@ rate_limits:
   name: Triumph Group Rate Limits
   slug: triumph-group-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Triumph Group API Rules
+  name: Triumph Group — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -155,20 +182,20 @@ rules:
   slug: triumph-group-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 16.6
+  composite: 15.6
   coverage:
     artifact_dirs: 15
-    catalog_earned: 59.8
+    catalog_earned: 56.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 55.3
+    catalog_gap: 58.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.0
   facets:
-    access_clarity: 13.2
+    access_clarity: 5.3
     contract_governance: 23.5
     contract_quality: 10.7
-    developer_ergonomics: 9.5
+    developer_ergonomics: 11.9
     discoverability: 66.1
     operational_transparency: 5.3
   jurisdiction:
@@ -185,8 +212,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

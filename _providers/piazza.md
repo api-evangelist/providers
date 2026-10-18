@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://piazza.com/subjects/engineering
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/piazza/refs/heads/main/security/piazza-domain-security.yml
   title: ''
@@ -65,31 +69,31 @@ created: '2026-07-17'
 description: Piazza is an online question-and-answer platform for higher education that connects students, teaching assistants, and professors in a single wiki-style collaborative space for each class. Instructors run a Piazza for their course where students ask and answer questions, post anonymously, use a LaTeX and code editor for technical content, and receive instructor-endorsed answers. Piazza integrates with every major learning management system (Canvas, Blackboard, Moodle, Sakai, Desire2Learn, and others) via the LTI standard for single-click class creation, roster-based automatic enrollment, and automatic single sign-on. It is used across thousands of universities in more than 90 countries and is FERPA-compliant. Piazza does not publish an official public developer API; LMS connectivity is delivered through LTI, and only community projects wrap its internal endpoints.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/piazza.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Piazza
 nav: Providers
 network: true
 overview: 'Piazza is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Education, EdTech, and Q&A.
 
 
-  Piazza''s developer surface includes support and 5 more developer resources.'
+  Piazza''s developer surface includes engineering blog, support, and 5 more developer resources.'
 random_paper: 17
 score:
   band: emerging
-  composite: 11.6
+  composite: 12.0
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.4
   facets:
     access_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 4.8
+    developer_ergonomics: 7.1
     discoverability: 48.2
     operational_transparency: 0.0
   previous_composite: 11.6
@@ -99,8 +103,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 18.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -120,7 +124,7 @@ tags:
 - EdTech
 - Q&A
 - Collaboration
-- Learning Management
+- LMS
 - Higher Education
 - LTI
 website: https://www.piazza.com/

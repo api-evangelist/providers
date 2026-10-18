@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://api.bey.dev
@@ -72,7 +72,7 @@ apis:
   description: The Sessions API from Beyond Presence — 2 operation(s) for sessions.
   name: Beyond Presence Sessions API
   slug: beyond-presence-sessions-api
-artifact_total: 26
+artifact_total: 27
 asyncapis:
 - description: ''
   name: Beyond Presence Webhooks
@@ -124,6 +124,11 @@ collections:
   name: Fast Agents Sessions API
   slug: open-beyond-presence-sessions-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/beyond-presence/refs/heads/main/plans/beyond-presence-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/beyond-presence-plans-pricing.yml
 - group: company
   title: ''
   type: Website
@@ -285,27 +290,31 @@ modified: '2026-09-16'
 name: Beyond Presence
 nav: Providers
 network: true
-overview: 'Beyond Presence publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Authentication API, Avatars API, and 4 more. Tagged areas include Company, Ai Enterprise Software, Artificial Intelligence, Avatars, and Video.
+overview: 'Beyond Presence publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agents API, Authentication API, Avatars API, and 4 more. Tagged areas include Company, Ai Enterprise Software, Artificial Intelligence, Avatars, and Video.
 
 
   The Beyond Presence catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Beyond Presence''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 27 more developer resources.'
+  Beyond Presence''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 28 more developer resources.'
+plans:
+- name: Beyond Presence Plans Pricing
+  plan_count: 5
+  slug: beyond-presence-plans-pricing
 random_paper: 21
 score:
-  band: developing
-  composite: 53.6
+  band: strong
+  composite: 59.6
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 25
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.0
   facets:
-    access_clarity: 47.4
+    access_clarity: 78.9
     contract_governance: 18.2
     contract_quality: 60.0
     developer_ergonomics: 67.3
@@ -327,13 +336,13 @@ score:
     - jurisdiction: EU
       standard: gdpr
     jurisdictions_satisfied: 1
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 27.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

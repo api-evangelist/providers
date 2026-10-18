@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.3
-  scored_at: '2026-10-04'
+  score: 18.4
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -113,6 +113,29 @@ collections:
   name: Union Pacific Account Waybill API
   slug: open-union-pacific-waybill-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/union-pacific/refs/heads/main/plans/union-pacific-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/union-pacific-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/union-pacific/refs/heads/main/rate-limits/union-pacific-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/union-pacific-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/union-pacific/refs/heads/main/finops/union-pacific-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/union-pacific-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.up.com/news
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.up.com/news/rss.xml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/union-pacific/refs/heads/main/agentic-access/union-pacific-agentic-access.yml
   title: ''
@@ -137,9 +160,13 @@ examples:
   name: Union Pacific List Shipments Example
   slug: union-pacific-list-shipments-example
 finops:
-- name: Union Pacific Finops
+- has_sources: true
+  method: generated
+  name: Union Pacific Finops
+  primary_unit: ''
   service_category: Freight Rail
   slug: union-pacific-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/union-pacific.png
 json_schemas:
 - name: Account
@@ -209,14 +236,17 @@ jsonld:
   property_count: 18
   slug: union-pacific-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-10-06'
 name: Union Pacific
 nav: Providers
 network: true
-overview: 'Union Pacific publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Account API, Cases API, Equipment API, and 5 more. Tagged areas include Fortune 500, Freight, Railroads, Shipping, and Trains.
+overview: 'Union Pacific is listed with 8 APIs on the [APIs.io](https://apis.io/) network, including Account API, Cases API, Equipment API, and 5 more. Tagged areas include Fortune 500, Freight, Railroads, Shipping, and Trains.
 
 
-  The Union Pacific catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.'
+  The Union Pacific catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+
+
+  Union Pacific''s developer surface includes engineering blog and 7 more developer resources.'
 plans:
 - name: Union Pacific Plans Pricing
   plan_count: 1
@@ -246,9 +276,10 @@ rate_limits:
   name: Union Pacific Rate Limits
   slug: union-pacific-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Union Pacific API Rules
+  name: Union Pacific — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -256,7 +287,8 @@ rules:
     info: 2
     warn: 3
   slug: union-pacific-jsonschema-spectral-rules
-- effective_rule_count: 77
+- authorship: generated
+  effective_rule_count: 77
   extends:
   - spectral:oas
   name: Union Pacific API Rules
@@ -269,23 +301,23 @@ rules:
   slug: union-pacific-spectral-rules
 score:
   band: emerging
-  composite: 21.0
+  composite: 20.0
   coverage:
     artifact_dirs: 17
-    catalog_earned: 73.0
+    catalog_earned: 70.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 42.0
+    catalog_gap: 45.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -1.0
   facets:
-    access_clarity: 13.2
+    access_clarity: 5.3
     contract_governance: 27.3
     contract_quality: 27.2
-    developer_ergonomics: 9.5
+    developer_ergonomics: 11.9
     discoverability: 71.4
     operational_transparency: 5.3
-  previous_composite: 20.5
+  previous_composite: 21.0
   provenance:
     agentic_access: derived
     contracts:
@@ -299,8 +331,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

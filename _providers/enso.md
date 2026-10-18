@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://api.enso.finance
@@ -117,6 +117,10 @@ collections:
   name: Enso ccip wallet API
   slug: open-enso-wallet-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.enso.build/rss/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/enso/refs/heads/main/overlays/enso-openapi-overlay.yaml
   title: ''
@@ -240,14 +244,14 @@ created: '2026-07-17'
 description: Enso is onchain infrastructure that turns DeFi product intent into signer-ready transaction data. Its Route API finds the optimal path between any two tokens or positions across 250+ protocols and multiple chains, while the Bundle API composes ordered onchain Actions (deposit, swap, borrow, bridge, flashloan, transfer and more) into a single executable transaction. Enso also exposes protocol, token, price and balance data, a Quoter for a simulate-then-validate transaction-safety model, cross-chain routing over Stargate/LayerZero, Chainlink CCIP, Relay and Circle CCTP, and prebuilt React widgets (Checkout, cross-chain route). Developers authenticate with a Bearer API key and integrate via the @ensofinance/sdk TypeScript SDK. Backed by Multicoin Capital and Techstars; 100+ apps and 1,900+ developers build on Enso.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/enso.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-10-06'
 name: Enso
 nav: Providers
 network: true
-overview: 'Enso publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Ccip API, Cctp API, Layerzero API, and 6 more. Tagged areas include Company, Crypto Web3, DeFi, Blockchain, and Cross-Chain.
+overview: 'Enso publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Ccip API, Cctp API, Layerzero API, and 6 more. Tagged areas include Company, Web3, DeFi, Blockchain, and Cross-Chain.
 
 
-  Enso''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, changelog, and 19 more developer resources.'
+  Enso''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, changelog, and 20 more developer resources.'
 random_paper: 19
 rate_limits:
 - limit_count: 0
@@ -255,7 +259,7 @@ rate_limits:
   slug: enso-rate-limits
 score:
   band: developing
-  composite: 42.2
+  composite: 42.3
   coverage:
     artifact_dirs: 22
     catalog_earned: 37.0
@@ -263,7 +267,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 23.7
     contract_governance: 4.5
@@ -287,8 +291,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -306,7 +310,7 @@ security:
 slug: enso
 tags:
 - Company
-- Crypto Web3
+- Web3
 - DeFi
 - Blockchain
 - Cross-Chain
@@ -314,7 +318,6 @@ tags:
 - Transaction Routing
 - Web3 Infrastructure
 - Onchain
-- Web3
 - Cryptocurrency
 website: https://enso.build
 ---

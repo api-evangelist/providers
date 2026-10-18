@@ -37,14 +37,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 89
-  human_in_the_loop: 2
+- acting_count: 85
+  human_in_the_loop: 1
   name: Switstack Agentic Access
-  operation_count: 128
+  operation_count: 125
   slug: switstack-agentic-access
-  summary_line: 128 operations · 89 acting · 2 human-in-the-loop
+  summary_line: 125 operations · 85 acting · 1 human-in-the-loop
 api_count: 4
 apis:
 - baseURL: https://switcloud.switstack.io/
@@ -275,7 +275,7 @@ modified: '2026-08-17'
 name: Switstack
 nav: Providers
 network: true
-overview: 'Switstack publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Auth API, BOM API, Config API, and 5 more. Tagged areas include Company, Fintech Insurtech, Payments, EMV, and emv-level-2.
+overview: 'Switstack publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Auth API, BOM API, Config API, and 5 more. Tagged areas include Company, Fintech Insurtech, Payments, EMV, and emv-level-2.
 
 
   Switstack''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 29 more developer resources.'
@@ -328,8 +328,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 24.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -110,6 +110,10 @@ collections:
   name: Channex API
   slug: open-channex
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://channex.io/blog
 - group: commercial
   title: ''
   type: Pricing
@@ -168,19 +172,23 @@ common:
 created: '2026-06-25'
 description: Channex is a white-label hotel channel manager API that gives Property Management Systems and booking engines a single JSON-based REST integration to distribute availability, rates, and restrictions (ARI) to Booking.com, Airbnb, Expedia, and 50+ other OTAs, and to receive bookings back in real time via webhooks.
 finops:
-- name: Channex Finops
+- has_sources: true
+  method: generated
+  name: Channex Finops
+  primary_unit: ''
   service_category: Hospitality and Travel
   slug: channex-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/channex.png
 layout: provider
-modified: '2026-06-25'
+modified: '2026-10-06'
 name: Channex
 nav: Providers
 network: true
-overview: 'Channex publishes 7 APIs on the [APIs.io](https://apis.io/) network, including ARI API, Bookings API, Channels API, and 4 more. Tagged areas include Hospitality, Channel Manager, Hotel Distribution, OTA, and Booking.
+overview: 'Channex publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including ARI API, Bookings API, Channels API, and 4 more. Tagged areas include Hospitality, Channel Manager, Hotel Distribution, OTA, and Booking.
 
 
-  Channex''s developer surface includes pricing, authentication, documentation, and 9 more developer resources.'
+  Channex''s developer surface includes engineering blog, pricing, authentication, documentation, and 9 more developer resources.'
 plans:
 - name: Channex Plans Pricing
   plan_count: 15
@@ -195,20 +203,20 @@ rate_limits:
   slug: channex-rate-limits
 score:
   band: thin
-  composite: 36.8
+  composite: 35.7
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 64.0
+    artifact_dirs: 13
+    catalog_earned: 61.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 51.0
+    catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.1
   facets:
-    access_clarity: 50.0
+    access_clarity: 42.1
     contract_governance: 0.0
     contract_quality: 49.8
-    developer_ergonomics: 22.6
+    developer_ergonomics: 25.0
     discoverability: 66.1
     operational_transparency: 34.2
   previous_composite: 36.8
@@ -225,8 +233,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

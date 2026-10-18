@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 43.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 23
+- acting_count: 16
   human_in_the_loop: 1
   name: Ocean Io Agentic Access
   operation_count: 26
   slug: ocean-io-agentic-access
-  summary_line: 26 operations · 23 acting · 1 human-in-the-loop
+  summary_line: 26 operations · 16 acting · 1 human-in-the-loop
 api_count: 2
 apis:
 - baseURL: https://api.ocean.io
@@ -239,9 +239,13 @@ common:
 created: '2026-05-08'
 description: 'Ocean.io is a B2B go-to-market data platform built around lookalike intelligence: give it a domain or a set of closed-won customers and it returns the most similar companies from a database of 67M company profiles and 250M+ employee records, each carrying 100+ signals assembled from the open web. Alongside the web app it ships a public REST API at api.ocean.io covering company and people search (filter, Boolean and lookalike), company and person enrichment, domain and LinkedIn-handle lookup, verified email and phone reveal, autocomplete for filter values, and a stateful segmentation service that clusters a customer list into scored segments and attributes new domains to the closest one. The API is documented with a public OpenAPI 3.1 document, meters every call from a single credit pool, delivers batch and reveal results by webhook callback, and is also exposed to agents through a first-party hosted MCP server at api.ocean.io/mcp.'
 finops:
-- name: Ocean Io Finops
+- has_sources: true
+  method: derived
+  name: Ocean Io Finops
+  primary_unit: ''
   service_category: Sales Intelligence
   slug: ocean-io-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ocean-io.png
 layout: provider
 mcp_servers:
@@ -252,7 +256,7 @@ modified: '2026-09-16'
 name: Ocean.io
 nav: Providers
 network: true
-overview: 'Ocean.io publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Autocomplete API, Enrich API, Lookup API, and 5 more. Tagged areas include Sales Intelligence, B2B, Enrichment, Lookalike, and Account Based Marketing.
+overview: 'Ocean.io publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Autocomplete API, Enrich API, Lookup API, and 5 more. Tagged areas include Sales Intelligence, B2B, Data Enrichment, Lookalike, and Account Based Marketing.
 
 
   The Ocean.io catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -275,17 +279,17 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 41.2
+  composite: 39.7
   coverage:
     artifact_dirs: 25
-    catalog_earned: 52.0
+    catalog_earned: 49.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 34.2
+    access_clarity: 26.3
     contract_governance: 4.5
     contract_quality: 51.5
     developer_ergonomics: 23.2
@@ -308,8 +312,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 31.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -332,7 +336,7 @@ slug: ocean-io
 tags:
 - Sales Intelligence
 - B2B
-- Enrichment
+- Data Enrichment
 - Lookalike
 - Account Based Marketing
 - Prospecting

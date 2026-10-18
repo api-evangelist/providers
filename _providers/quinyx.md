@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 80
+- acting_count: 76
   human_in_the_loop: 0
   name: Quinyx Agentic Access
   operation_count: 143
   slug: quinyx-agentic-access
-  summary_line: 143 operations · 80 acting
+  summary_line: 143 operations · 76 acting
 api_count: 3
 apis:
 - baseURL: https://api.eu.quinyx.com
@@ -333,6 +333,10 @@ collections:
   name: Quinyx Absence Schedules Tags API
   slug: open-quinyx-tags-api
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.quinyx.com/blog/rss.xml
 - group: commercial
   href: https://raw.githubusercontent.com/api-evangelist/quinyx/refs/heads/main/plans/quinyx-plans-pricing.yml
   title: ''
@@ -478,14 +482,14 @@ created: '2026-07-17'
 description: 'Quinyx is an AI-powered workforce management (WFM) platform for frontline organizations, covering scheduling, demand forecasting, time tracking, labor law compliance, task management, and employee engagement across retail, warehousing and logistics, hospitality, facility management, and healthcare. Quinyx exposes a public developer platform with three APIs: the current REST API v3 (OAuth 2.0 client-credentials, RFC 9457 problem details, cursor pagination, regional EU/NA hosts), the earlier REST API v2, and a bearer-token User API v2, plus a legacy SOAP v1. This profile was enriched from Quinyx''s own developer portal, OpenAPI descriptions, and public documentation.'
 image: https://developer.quinyx.com/static/logo.svg
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-06'
 name: Quinyx
 nav: Providers
 network: true
-overview: 'Quinyx publishes 35 APIs on the [APIs.io](https://apis.io/) network, including Absence Schedules API, Absence Types API, Absences API, and 32 more. Tagged areas include Workforce Management, Scheduling, Human Resources, Time Tracking, and Forecasting.
+overview: 'Quinyx publishes 35 API contracts indexed on the [APIs.io](https://apis.io/) network, including Absence Schedules API, Absence Types API, Absences API, and 32 more. Tagged areas include Workforce Management, Scheduling, Human Resources, Time Tracking, and Forecasting.
 
 
-  Quinyx''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 24 more developer resources.'
+  Quinyx''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 25 more developer resources.'
 plans:
 - name: Quinyx Plans Pricing
   plan_count: 0
@@ -531,8 +535,8 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 39.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

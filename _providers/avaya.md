@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 41.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 240
-  human_in_the_loop: 10
+- acting_count: 191
+  human_in_the_loop: 8
   name: Avaya Agentic Access
-  operation_count: 367
+  operation_count: 336
   slug: avaya-agentic-access
-  summary_line: 367 operations · 240 acting · 10 human-in-the-loop
+  summary_line: 336 operations · 191 acting · 8 human-in-the-loop
 api_count: 80
 apis:
 - baseURL: https://{region}.api.avayacloud.com
@@ -1021,7 +1021,7 @@ modified: '2026-09-17'
 name: Avaya
 nav: Providers
 network: true
-overview: 'Avaya publishes 84 APIs on the [APIs.io](https://apis.io/) network, including Access Token API, Account API, Agent Location API, and 81 more. Tagged areas include Communications, Contact Center, Collaboration, Artificial Intelligence, and UCaaS.
+overview: 'Avaya publishes 84 API contracts indexed on the [APIs.io](https://apis.io/) network, including Access Token API, Account API, Agent Location API, and 81 more. Tagged areas include Communications, Contact Center, Collaboration, Artificial Intelligence, and UCaaS.
 
 
   The Avaya catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -1062,7 +1062,7 @@ score:
   band: developing
   composite: 52.5
   coverage:
-    artifact_dirs: 30
+    artifact_dirs: 31
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -1093,8 +1093,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 41.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

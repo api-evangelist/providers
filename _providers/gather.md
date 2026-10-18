@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://api.gather.town
@@ -202,7 +202,7 @@ modified: '2026-07-19'
 name: Gather
 nav: Providers
 network: true
-overview: 'Gather publishes 3 APIs on the [APIs.io](https://apis.io/) network: Guestlist API, Maps API, and Spaces API. Tagged areas include Company, Future Of Work, Virtual Office, Video Conferencing, and Collaboration.
+overview: 'Gather publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Guestlist API, Maps API, and Spaces API. Tagged areas include Company, Future Of Work, Virtual Office, Video Conferencing, and Collaboration.
 
 
   Gather''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 21 more developer resources.'
@@ -211,7 +211,7 @@ score:
   band: thin
   composite: 27.2
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -241,8 +241,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

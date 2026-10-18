@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.7
-  scored_at: '2026-10-04'
+  score: 31.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 1
@@ -106,6 +106,21 @@ collections:
   name: AWSMainframeModernization Applications Tags API
   slug: open-amazon-mainframe-modernization-tags-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-mainframe-modernization/refs/heads/main/plans/amazon-mainframe-modernization-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/amazon-mainframe-modernization-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-mainframe-modernization/refs/heads/main/rate-limits/amazon-mainframe-modernization-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/amazon-mainframe-modernization-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-mainframe-modernization/refs/heads/main/finops/amazon-mainframe-modernization-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/amazon-mainframe-modernization-finops.yml
 - group: company
   title: ''
   type: Website
@@ -716,9 +731,13 @@ features:
 - description: Import and manage mainframe data sets for use by modernized applications.
   name: Data Set Management
 finops:
-- name: Amazon Mainframe Modernization Finops
+- has_sources: false
+  method: generated
+  name: Amazon Mainframe Modernization Finops
+  primary_unit: ''
   service_category: API
   slug: amazon-mainframe-modernization-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amazon-mainframe-modernization.png
 json_schemas:
 - name: AccessDeniedException
@@ -1740,13 +1759,13 @@ modified: '2026-09-16'
 name: Amazon Mainframe Modernization
 nav: Providers
 network: true
-overview: 'Amazon Mainframe Modernization publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Engine Versions API, Environments API, and 2 more. Tagged areas include COBOL, Mainframe, Migration, Modernization, and Batch Processing.
+overview: 'Amazon Mainframe Modernization publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Applications API, Engine Versions API, Environments API, and 2 more. Tagged areas include COBOL, Mainframe, Migration, Modernization, and Batch Processing.
 
 
   The Amazon Mainframe Modernization catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Mainframe Modernization''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 14 more developer resources.'
+  Amazon Mainframe Modernization''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 17 more developer resources.'
 plans:
 - name: Amazon Mainframe Modernization Plans Pricing
   plan_count: 3
@@ -1757,9 +1776,10 @@ rate_limits:
   name: Amazon Mainframe Modernization Rate Limits
   slug: amazon-mainframe-modernization-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Amazon Mainframe Modernization API Rules
+  name: Amazon Mainframe Modernization — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -1767,7 +1787,8 @@ rules:
     info: 2
     warn: 3
   slug: amazon-mainframe-modernization-jsonschema-spectral-rules
-- effective_rule_count: 63
+- authorship: generated
+  effective_rule_count: 63
   extends:
   - spectral:oas
   name: Amazon Mainframe Modernization API Rules
@@ -1780,17 +1801,17 @@ rules:
   slug: amazon-mainframe-modernization-spectral-rules
 score:
   band: strong
-  composite: 56.2
+  composite: 54.7
   coverage:
     artifact_dirs: 18
-    catalog_earned: 71.4
+    catalog_earned: 68.4
     catalog_earned_first_party: 0.0
-    catalog_gap: 43.6
+    catalog_gap: 46.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 61.8
+    access_clarity: 53.9
     contract_governance: 27.3
     contract_quality: 66.6
     developer_ergonomics: 58.3
@@ -1810,8 +1831,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

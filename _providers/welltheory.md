@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.welltheory.com/resources/rss.xml
 - group: company
   title: ''
   type: Website
@@ -83,14 +87,14 @@ created: '2026-07-17'
 description: WellTheory is a virtual autoimmune care platform that provides whole-person support for people living with autoimmune and inflammatory conditions, pairing members with a dedicated care team for nutrition, lifestyle, and clinical guidance across more than 100 conditions. The company sells to employers and health plans as a covered benefit as well as direct to consumers, and is backed by Accel and General Catalyst. WellTheory publishes no public developer API surface today; its api.welltheory.com backend and docs are private/internal.
 image: https://cdn.prod.website-files.com/606b0c58344d153f2b31bfef/68a77b8abd91f6feb3dbaadb_c94534d424d4a74215953176bddc17bd_Global%20Meta%20Image.jpg
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: WellTheory
 nav: Providers
 network: true
 overview: 'WellTheory is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Healthcare, Autoimmune, and Telehealth.
 
 
-  WellTheory''s developer surface includes engineering blog, support, and 8 more developer resources.'
+  WellTheory''s developer surface includes engineering blog, support, and 9 more developer resources.'
 random_paper: 3
 score:
   band: emerging
@@ -117,8 +121,8 @@ score:
     regime: Health
     regime_id: health
     score: 10.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

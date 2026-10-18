@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Fiber is an Express-inspired web framework for Go built on Fasthttp for building fast and scalable microservices and APIs.
@@ -41,6 +41,21 @@ apis:
   slug: fiber
 artifact_total: 7
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/fiber/refs/heads/main/plans/fiber-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/fiber-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/fiber/refs/heads/main/rate-limits/fiber-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/fiber-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/fiber/refs/heads/main/finops/fiber-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/fiber-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/fiber/refs/heads/main/security/fiber-domain-security.yml
   title: ''
@@ -53,9 +68,13 @@ common:
 created: '2026-03-26'
 description: Fiber is an Express-inspired web framework for Go built on Fasthttp for building fast and scalable microservices and APIs.
 finops:
-- name: Fiber Finops
+- has_sources: false
+  method: generated
+  name: Fiber Finops
+  primary_unit: ''
   service_category: API
   slug: fiber-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fiber.png
 json_schemas:
 - name: Fiber App Configuration
@@ -66,7 +85,7 @@ modified: '2026-03-26'
 name: Fiber
 nav: Providers
 network: true
-overview: 'Fiber publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Microservices.
+overview: 'Fiber is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Microservices.
 
 
   The Fiber catalog on APIs.io includes 1 Spectral governance ruleset.'
@@ -80,9 +99,10 @@ rate_limits:
   name: Fiber Rate Limits
   slug: fiber-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Fiber API Rules
+  name: Fiber — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -92,17 +112,17 @@ rules:
   slug: fiber-jsonschema-spectral-rules
 score:
   band: minimal
-  composite: 9.6
+  composite: 8.1
   coverage:
     artifact_dirs: 8
-    catalog_earned: 39.7
+    catalog_earned: 36.7
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.4
+    catalog_gap: 78.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 9.8
     contract_quality: 7.2
     developer_ergonomics: 0.0
@@ -115,8 +135,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

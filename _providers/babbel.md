@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -122,7 +122,7 @@ modified: '2026-05-25'
 name: Babbel
 nav: Providers
 network: true
-overview: 'Babbel is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Language Learning, Education, EdTech, Online Learning, and Mobile Learning.
+overview: 'Babbel is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Language Learning, Education, EdTech, E-Learning, and Mobile Learning.
 
 
   Babbel''s developer surface includes GitHub presence, YouTube channel, privacy policy, terms of service, engineering blog, and 14 more developer resources.'
@@ -157,8 +157,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 9.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -175,7 +175,7 @@ tags:
 - Language Learning
 - Education
 - EdTech
-- Online Learning
+- E-Learning
 - Mobile Learning
 - Subscription
 - Consumer

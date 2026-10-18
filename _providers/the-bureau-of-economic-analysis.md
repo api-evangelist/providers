@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.7
-  scored_at: '2026-10-04'
+  score: 26.6
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -94,6 +94,21 @@ collections:
   name: Bureau of Economic Analysis API
   slug: open-the-bureau-of-economic-analysis
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/the-bureau-of-economic-analysis/refs/heads/main/plans/the-bureau-of-economic-analysis-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/the-bureau-of-economic-analysis-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/the-bureau-of-economic-analysis/refs/heads/main/rate-limits/the-bureau-of-economic-analysis-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/the-bureau-of-economic-analysis-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/the-bureau-of-economic-analysis/refs/heads/main/finops/the-bureau-of-economic-analysis-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/the-bureau-of-economic-analysis-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/the-bureau-of-economic-analysis/refs/heads/main/agentic-access/the-bureau-of-economic-analysis-agentic-access.yml
   title: ''
@@ -158,9 +173,13 @@ examples:
   name: The Bureau Of Economic Analysis Getregionaldata Example
   slug: the-bureau-of-economic-analysis-getRegionalData-example
 finops:
-- name: The Bureau Of Economic Analysis Finops
+- has_sources: false
+  method: generated
+  name: The Bureau Of Economic Analysis Finops
+  primary_unit: ''
   service_category: API
   slug: the-bureau-of-economic-analysis-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/the-bureau-of-economic-analysis.png
 json_schemas:
 - name: BEA Data Point
@@ -183,13 +202,13 @@ modified: '2026-05-19'
 name: The Bureau of Economic Analysis
 nav: Providers
 network: true
-overview: 'The Bureau of Economic Analysis publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Industry API, International API, Metadata API, and 2 more. Tagged areas include Economics, Federal Government, GDP, National Accounts, and Open Data.
+overview: 'The Bureau of Economic Analysis publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Industry API, International API, Metadata API, and 2 more. Tagged areas include Economics, Federal Government, GDP, National Accounts, and Open Data.
 
 
   The The Bureau of Economic Analysis catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  The Bureau of Economic Analysis'' developer surface includes authentication, documentation, signup flow, getting-started guide, and 8 more developer resources.'
+  The Bureau of Economic Analysis'' developer surface includes authentication, documentation, signup flow, getting-started guide, and 11 more developer resources.'
 plans:
 - name: The Bureau Of Economic Analysis Plans Pricing
   plan_count: 3
@@ -200,9 +219,10 @@ rate_limits:
   name: The Bureau Of Economic Analysis Rate Limits
   slug: the-bureau-of-economic-analysis-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: The Bureau of Economic Analysis API Rules
+  name: The Bureau of Economic Analysis — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -210,7 +230,8 @@ rules:
     info: 2
     warn: 3
   slug: the-bureau-of-economic-analysis-jsonschema-spectral-rules
-- effective_rule_count: 51
+- authorship: unmarked
+  effective_rule_count: 51
   extends:
   - spectral:oas
   name: The Bureau of Economic Analysis API Rules
@@ -223,17 +244,17 @@ rules:
   slug: the-bureau-of-economic-analysis-rules
 score:
   band: thin
-  composite: 36.6
+  composite: 35.0
   coverage:
     artifact_dirs: 17
-    catalog_earned: 61.5
+    catalog_earned: 58.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.5
+    catalog_gap: 56.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 28.9
+    access_clarity: 21.1
     contract_governance: 13.6
     contract_quality: 56.2
     developer_ergonomics: 33.3
@@ -258,8 +279,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

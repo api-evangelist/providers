@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-04'
+  score: 17.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -77,6 +77,21 @@ collections:
   name: hCaptcha API
   slug: open-hcaptcha
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/hcaptcha/refs/heads/main/plans/hcaptcha-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/hcaptcha-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/hcaptcha/refs/heads/main/rate-limits/hcaptcha-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/hcaptcha-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/hcaptcha/refs/heads/main/finops/hcaptcha-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/hcaptcha-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/hcaptcha/refs/heads/main/capabilities/hcaptcha-capability-edges.yml
   title: ''
@@ -136,19 +151,23 @@ common:
 created: '2026-05-23'
 description: hCaptcha, operated by Intuition Machines, is a privacy-focused CAPTCHA and bot-defense platform used as a drop-in replacement for Google reCAPTCHA. The free Publisher and Pro tiers offer a JavaScript widget and a server-side /siteverify endpoint that issue and verify single-use tokens. The Enterprise tier (hCaptcha Enterprise) adds advanced bot detection, account defense, MFA, machine-learning fraud signals, and management APIs. hCaptcha is broadly integrated into web frameworks and CMS platforms (React, Vue, Angular, Node/Express, WordPress, Magento) and ships first-party mobile SDKs for iOS and Android.
 finops:
-- name: Hcaptcha Finops
+- has_sources: false
+  method: generated
+  name: Hcaptcha Finops
+  primary_unit: ''
   service_category: API
   slug: hcaptcha-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hcaptcha.png
 layout: provider
 modified: '2026-05-23'
 name: hCaptcha
 nav: Providers
 network: true
-overview: 'hCaptcha publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Siteverify API, and 5 more. Tagged areas include CAPTCHA, Bot Defense, Privacy, hCaptcha, and Intuition Machines.
+overview: 'hCaptcha publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Siteverify API, and 5 more. Tagged areas include CAPTCHA, Bot Defense, Privacy, hCaptcha, and Intuition Machines.
 
 
-  hCaptcha''s developer surface includes authentication, documentation, signup flow, pricing, engineering blog, privacy policy, status page, and 6 more developer resources.'
+  hCaptcha''s developer surface includes authentication, documentation, signup flow, pricing, engineering blog, privacy policy, status page, and 9 more developer resources.'
 plans:
 - name: Hcaptcha Plans Pricing
   plan_count: 1
@@ -160,22 +179,22 @@ rate_limits:
   slug: hcaptcha-rate-limits
 score:
   band: thin
-  composite: 36.7
+  composite: 30.6
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 54.4
+    artifact_dirs: 13
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 60.6
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.1
   facets:
-    access_clarity: 55.8
+    access_clarity: 34.2
     contract_governance: 0.0
     contract_quality: 47.1
     developer_ergonomics: 25.0
     discoverability: 66.1
-    operational_transparency: 21.6
+    operational_transparency: 7.9
   previous_composite: 36.7
   provenance:
     agentic_access: derived
@@ -190,9 +209,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

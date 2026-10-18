@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The Shoreline cluster API — the backend that alarms, actions, bots, runbooks, notebooks, resources, files, integrations and principals are managed against. The endpoint was always customer-specific (t
@@ -41,6 +41,21 @@ apis:
   slug: shoreline
 artifact_total: 6
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/shoreline/refs/heads/main/plans/shoreline-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/shoreline-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/shoreline/refs/heads/main/rate-limits/shoreline-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/shoreline-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/shoreline/refs/heads/main/finops/shoreline-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/shoreline-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/shoreline/refs/heads/main/security/shoreline-domain-security.yml
   title: ''
@@ -88,16 +103,20 @@ coverage:
 created: '2026-03-27'
 description: 'Shoreline Software Inc. built an incident-automation platform for cloud operations, letting SRE and platform teams close the loop between detection and repair: an alarm defines when there is an issue, an action defines the command that fixes it, and a bot binds the two into an auto-remediation loop that runs without a human. The platform also shipped runbooks, notebooks, resource queries, file distribution and an Op query language, driven from a UI, a CLI, notebooks or Terraform. NVIDIA acquired Shoreline in July 2024 and the independent product surface has since been decommissioned — shoreline.io and docs.shoreline.io no longer resolve, and www.shoreline.io redirects in full to nvidia.com. The only first-party developer artifact still published is the Terraform provider, now archived.'
 finops:
-- name: Shoreline Finops
+- has_sources: false
+  method: generated
+  name: Shoreline Finops
+  primary_unit: ''
   service_category: API
   slug: shoreline-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/shoreline.png
 layout: provider
 modified: '2026-09-15'
 name: Shoreline
 nav: Providers
 network: true
-overview: Shoreline publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include AIOps, Automation, Incident Response, Site Reliability Engineering, and Cloud Operations.
+overview: Shoreline is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include AIOps, Automation, Incident Response, Site Reliability Engineering, and Cloud Operations.
 plans:
 - name: Shoreline Plans Pricing
   plan_count: 0
@@ -112,9 +131,9 @@ score:
   composite: 0.0
   coverage:
     artifact_dirs: 12
-    catalog_earned: 40.0
+    catalog_earned: 37.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
@@ -133,8 +152,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

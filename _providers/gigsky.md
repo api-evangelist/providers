@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 18.0
-  scored_at: '2026-10-04'
+  score: 16.1
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://api.gigsky.com
@@ -111,16 +111,20 @@ common:
 created: '2026-06-21'
 description: GigSky is a global eSIM and mobile-data roaming platform offering travel and enterprise/IoT cellular connectivity across 190+ destinations. For business, enterprise, and IoT customers it provides the GigSky Enterprise Manager (GEM) and IoT SIM Management portal with RESTful APIs for eSIM provisioning, plan/catalog and connectivity management, orders, and usage controls. The partner/reseller and enterprise API surface is account-gated rather than publicly documented.
 finops:
-- name: Gigsky Finops
+- has_sources: true
+  method: generated
+  name: Gigsky Finops
+  primary_unit: ''
   service_category: Telecommunications and Connectivity
   slug: gigsky-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/gigsky.png
 layout: provider
 modified: '2026-06-21'
 name: GigSky
 nav: Providers
 network: true
-overview: 'GigSky publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Plans & Catalog API, eSIM Provisioning API, Orders API, and 1 more. Tagged areas include eSIM, Mobile Data, Roaming, Connectivity, and IoT.
+overview: 'GigSky publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Plans & Catalog API, eSIM Provisioning API, Orders API, and 1 more. Tagged areas include eSIM, Mobile Data, Roaming, Connectivity, and IoT.
 
 
   GigSky''s developer surface includes authentication, documentation, engineering blog, and 6 more developer resources.'
@@ -134,23 +138,23 @@ rate_limits:
   name: Gigsky Rate Limits
   slug: gigsky-rate-limits
 score:
-  band: thin
-  composite: 26.5
+  band: emerging
+  composite: 19.0
   coverage:
     artifact_dirs: 10
-    catalog_earned: 58.0
+    catalog_earned: 42.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.0
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.5
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 27.6
     developer_ergonomics: 23.8
     discoverability: 66.1
-    operational_transparency: 18.9
+    operational_transparency: 5.3
   previous_composite: 26.5
   regulatory:
     applies: true
@@ -158,9 +162,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 10.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

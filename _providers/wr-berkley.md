@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.berkley.com/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/wr-berkley/refs/heads/main/security/wr-berkley-domain-security.yml
   title: ''
@@ -70,7 +74,7 @@ jsonld:
   property_count: 16
   slug: wr-berkley-context
 layout: provider
-modified: '2026-05-03'
+modified: '2026-10-06'
 name: W. R. Berkley
 nav: Providers
 network: true
@@ -80,7 +84,7 @@ overview: 'W. R. Berkley is profiled on the [APIs.io](https://apis.io/) network.
   The W. R. Berkley catalog on APIs.io includes 1 JSON-LD context.
 
 
-  W. R. Berkley''s developer surface includes developer portal and 5 more developer resources.'
+  W. R. Berkley''s developer surface includes developer portal and 6 more developer resources.'
 press:
 - date: ''
   title: Major insurers including AIG, Great American, and WR ...
@@ -123,8 +127,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 9.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

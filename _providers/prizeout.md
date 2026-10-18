@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The Prizeout partner integration surface. A partner loads the first-party JavaScript publisher SDK (prizeout-publisher-sdk.js), or the native iOS/Android SDK, and passes partner credentials plus a use
@@ -172,7 +172,7 @@ modified: '2026-08-26'
 name: Prizeout
 nav: Providers
 network: true
-overview: 'Prizeout publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, Rewards, Gift Cards, and Payouts.
+overview: 'Prizeout is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, Rewards, Gift Cards, and Payouts.
 
 
   The Prizeout catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -192,7 +192,7 @@ score:
   band: thin
   composite: 38.8
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -216,8 +216,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 29.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

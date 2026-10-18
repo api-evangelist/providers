@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Punchout / roundtrip integration that connects a customer's ERP or third-party procurement system to shop.dnow.com using cXML or OCI. DNOW configures the connection so buyers can browse the DNOW catal
@@ -40,6 +40,14 @@ apis:
   slug: digitalnow-erp-punchout
 artifact_total: 19
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.dnow.com/news
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.dnow.com/news/rss.xml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/now/refs/heads/main/security/now-domain-security.yml
   title: ''
@@ -110,31 +118,31 @@ integrations:
 - description: Pending all-stock merger announced June 26, 2025; once closed, MRC Global's PVF distribution and digital surfaces are expected to be combined with DNOW's DigitalNOW platform.
   name: MRC Global (Pending Merger)
 layout: provider
-modified: '2026-07-25'
+modified: '2026-10-06'
 name: DNOW
 nav: Providers
 network: true
-overview: 'DNOW publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Industrial Distribution, Pipe Valves And Fittings, PVF, and Supply Chain.
+overview: 'DNOW is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Industrial Distribution, Pipe Valves And Fittings, PVF, and Supply Chain.
 
 
-  DNOW''s developer surface includes developer portal and 8 more developer resources.'
+  DNOW''s developer surface includes engineering blog, developer portal, and 9 more developer resources.'
 random_paper: 10
 score:
   band: minimal
-  composite: 8.3
+  composite: 8.7
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 5
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.4
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 19.0
+    developer_ergonomics: 21.4
     discoverability: 57.1
     operational_transparency: 0.0
   jurisdiction:
@@ -151,8 +159,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 4.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

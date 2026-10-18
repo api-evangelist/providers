@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 4.5
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: GraphQL API for Anique services
@@ -31,6 +31,10 @@ apis:
   slug: anique-graphql-api
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://anique.jp/feed/
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/anique/refs/heads/main/llms/anique-llms.txt
   title: ''
@@ -80,25 +84,26 @@ created: '2026-09-24'
 description: Anique Inc. is a Japan‑based company that maximizes the value of intellectual property and brands through both real‑world and digital experiences. It operates Anique Shop, Anique Museum, AR and digital collection services, creating limited‑edition merchandise and virtual exhibitions that connect creators with global fans. The company emphasizes creative content, IP‑driven experiences, and supports creators in both physical and digital realms.
 image: https://anique.jp/wp-content/uploads/2024/08/IMG_20240809_1922477112.jpg
 layout: provider
-modified: '2026-09-24'
+modified: '2026-10-06'
 name: Anique
 nav: Providers
 network: true
-overview: 'Anique publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, IP, Digital, Merchandise, and Japan.
+overview: 'Anique is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, IP, Digital, Merchandise, and Japan.
 
 
-  Anique''s developer surface includes changelog, documentation, and 8 more developer resources.'
+  Anique''s developer surface includes changelog, documentation, and 9 more developer resources.'
 random_paper: 5
 score:
   band: minimal
-  composite: 9.8
+  composite: 9.9
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 8
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.1
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
@@ -113,6 +118,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - japan-korea
+  previous_composite: 9.8
   provenance:
     mcp: unknown
   regulatory:
@@ -121,12 +127,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/anique/refs/heads/main/screenshots/anique-2026-10-11T094108.png
 security:
 - kind: domain-security
   name: Anique Domain Security

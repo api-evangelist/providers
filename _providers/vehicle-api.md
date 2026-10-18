@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.7
-  scored_at: '2026-10-04'
+  score: 26.6
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -110,6 +110,21 @@ collections:
   name: Vehicle API (Edmunds)
   slug: open-vehicle-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/vehicle-api/refs/heads/main/plans/vehicle-api-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/vehicle-api-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/vehicle-api/refs/heads/main/rate-limits/vehicle-api-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/vehicle-api-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/vehicle-api/refs/heads/main/finops/vehicle-api-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/vehicle-api-finops.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/vehicle-api/refs/heads/main/agentic-access/vehicle-api-agentic-access.yml
   title: ''
@@ -200,9 +215,13 @@ features:
 - description: Edmunds editorial reviews and consumer ratings for vehicle models including performance, comfort, value, and reliability scores.
   name: Vehicle Reviews and Ratings
 finops:
-- name: Vehicle Api Finops
+- has_sources: false
+  method: generated
+  name: Vehicle Api Finops
+  primary_unit: ''
   service_category: API
   slug: vehicle-api-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vehicle-api.png
 integrations:
 - description: Cross-reference vehicle listings with AutoTrader inventory using Edmunds vehicle identifiers and specs for consistent data.
@@ -266,13 +285,13 @@ modified: '2026-05-19'
 name: Vehicle API
 nav: Providers
 network: true
-overview: 'Vehicle API publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Inventory API, Makes API, Media API, and 4 more. Tagged areas include Automotive, Cars, Edmunds, Pricing, and Vehicles.
+overview: 'Vehicle API is listed with 7 APIs on the [APIs.io](https://apis.io/) network, including Inventory API, Makes API, Media API, and 4 more. Tagged areas include Automotive, Cars, Edmunds, Pricing, and Vehicles.
 
 
   The Vehicle API catalog on APIs.io includes 2 Spectral governance rulesets.
 
 
-  Vehicle API''s developer surface includes authentication, developer portal, documentation, getting-started guide, support, and 6 more developer resources.'
+  Vehicle API''s developer surface includes authentication, developer portal, documentation, getting-started guide, support, and 9 more developer resources.'
 plans:
 - name: Vehicle Api Plans Pricing
   plan_count: 3
@@ -283,9 +302,10 @@ rate_limits:
   name: Vehicle Api Rate Limits
   slug: vehicle-api-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Vehicle API API Rules
+  name: Vehicle API — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -293,7 +313,8 @@ rules:
     info: 2
     warn: 3
   slug: vehicle-api-jsonschema-spectral-rules
-- effective_rule_count: 71
+- authorship: generated
+  effective_rule_count: 71
   extends:
   - spectral:oas
   name: Vehicle API API Rules
@@ -306,17 +327,17 @@ rules:
   slug: vehicle-api-spectral-rules
 score:
   band: thin
-  composite: 29.8
+  composite: 28.2
   coverage:
     artifact_dirs: 15
-    catalog_earned: 62.0
+    catalog_earned: 59.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.0
+    catalog_gap: 56.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 27.3
     contract_quality: 23.5
     developer_ergonomics: 50.0
@@ -336,8 +357,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

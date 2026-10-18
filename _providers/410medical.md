@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -136,7 +136,7 @@ modified: '2026-09-05'
 name: 410 Medical
 nav: Providers
 network: true
-overview: '410 Medical is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, Healthcare, MedTech, and Emergency Medicine.
+overview: '410 Medical is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, Healthcare, Medical Technology, and Emergency Medicine.
 
 
   410 Medical''s developer surface includes engineering blog, product news, training material, support, and 16 more developer resources.'
@@ -167,7 +167,7 @@ score:
   band: minimal
   composite: 8.5
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 8
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -195,13 +195,14 @@ score:
     regime: Health
     regime_id: health
     score: 7.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/410medical/refs/heads/main/screenshots/410medical-2026-10-11T092107.png
 security:
 - kind: domain-security
   name: 410Medical Domain Security
@@ -212,7 +213,7 @@ tags:
 - Company
 - Medical Devices
 - Healthcare
-- MedTech
+- Medical Technology
 - Emergency Medicine
 - Critical Care
 - Resuscitation

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Undocumented HTTPS API behind WaveBL's public Certificate of Authenticity tool — the free service at coa.wavebl.com that lets any party verify that a bill of lading or trade document was issued and tr
@@ -137,7 +137,7 @@ modified: '2026-09-04'
 name: WaveBL
 nav: Providers
 network: true
-overview: 'WaveBL publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Electronic Bill of Lading, Digital Trade, Trade Documents, Trade Finance, and Ocean Freight.
+overview: 'WaveBL is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Electronic Bill of Lading, Digital Trade, Trade Documents, Trade Finance, and Ocean Freight.
 
 
   WaveBL''s developer surface includes engineering blog, support, signup flow, pricing, authentication, and 12 more developer resources.'
@@ -154,7 +154,7 @@ score:
   band: thin
   composite: 30.6
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 14
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -183,13 +183,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 28.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/wavebl/refs/heads/main/screenshots/wavebl-2026-10-11T193347.png
 security:
 - kind: authentication
   name: Wavebl Authentication

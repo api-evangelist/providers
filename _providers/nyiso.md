@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 6
 apis:
 - description: NYISO's Market Information System public archive - the operator's flagship open data surface. Roughly sixty machine-readable report families are published as predictable daily CSV files and monthly ZI
@@ -191,7 +191,7 @@ modified: '2026-07-27'
 name: New York Independent System Operator (NYISO)
 nav: Providers
 network: true
-overview: 'New York Independent System Operator (NYISO) publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, United States, Electricity, Energy Markets, and Grid.
+overview: 'New York Independent System Operator (NYISO) is listed with 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, United States, Electricity, Energy Markets, and Grid.
 
 
   New York Independent System Operator (NYISO)''s developer surface includes developer portal, documentation, legal docs, support, engineering blog, authentication, sandbox, and 14 more developer resources.'
@@ -231,8 +231,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 17.2
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

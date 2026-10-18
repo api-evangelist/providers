@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 5
 apis:
 - description: The Go implementation of Connect. Provides server handlers and clients that speak the Connect, gRPC, and gRPC-Web protocols simultaneously. Generated from .proto files via the protoc-gen-connect-go pl
@@ -53,6 +53,21 @@ apis:
   slug: connect-python
 artifact_total: 9
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/connect-rpc/refs/heads/main/plans/connect-rpc-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/connect-rpc-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/connect-rpc/refs/heads/main/rate-limits/connect-rpc-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/connect-rpc-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/connect-rpc/refs/heads/main/finops/connect-rpc-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/connect-rpc-finops.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/connect-rpc/refs/heads/main/security/connect-rpc-domain-security.yml
   title: ''
@@ -97,19 +112,23 @@ common:
 created: '2026-03-25'
 description: Connect is a slim framework for building browser-friendly and gRPC-compatible HTTP APIs from Protocol Buffer schemas. Servers built with Connect speak the Connect protocol, gRPC, and gRPC-Web simultaneously, while clients can switch between protocols without changing code. Connect provides type-safe SDKs for Go, TypeScript/JavaScript, Swift, Kotlin, and Python, plus the Buf-generated `protoc-gen-connect-*` code generators. The project is open source under the Apache 2.0 license and is maintained by Buf.
 finops:
-- name: Connect Rpc Finops
+- has_sources: false
+  method: generated
+  name: Connect Rpc Finops
+  primary_unit: ''
   service_category: API
   slug: connect-rpc-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/connect-rpc.png
 layout: provider
 modified: '2026-04-28'
 name: Connect-RPC
 nav: Providers
 network: true
-overview: 'Connect-RPC publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Apache 2.0, Buf, Code Generation, Connect Protocol, and gRPC.
+overview: 'Connect-RPC is listed with 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Apache 2.0, Buf, Code Generation, Connect Protocol, and gRPC.
 
 
-  Connect-RPC''s developer surface includes documentation, engineering blog, and 8 more developer resources.'
+  Connect-RPC''s developer surface includes documentation, engineering blog, and 11 more developer resources.'
 plans:
 - name: Connect Rpc Plans Pricing
   plan_count: 3
@@ -121,17 +140,17 @@ rate_limits:
   slug: connect-rpc-rate-limits
 score:
   band: emerging
-  composite: 15.0
+  composite: 13.5
   coverage:
-    artifact_dirs: 7
-    catalog_earned: 44.0
+    artifact_dirs: 8
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 71.0
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 28.6
@@ -144,8 +163,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

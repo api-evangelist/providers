@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Unofficial Philippine Professional Regulation Commission's examination schedule
@@ -56,7 +56,7 @@ modified: '2026-05-28'
 name: PRC Exam Schedule
 nav: Providers
 network: true
-overview: PRC Exam Schedule publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Government and Public APIs.
+overview: PRC Exam Schedule is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Government and Public APIs.
 random_paper: 15
 score:
   band: minimal
@@ -89,13 +89,14 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 0.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/prc-exam-schedule/refs/heads/main/screenshots/prc-exam-schedule-2026-10-11T112735.png
 slug: prc-exam-schedule
 tags:
 - Government

@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: verified
     openapi_examples: false
     protected_resource_metadata: verified
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 44.6
-  scored_at: '2026-10-04'
+  score: 42.7
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -171,9 +171,13 @@ common:
 created: '2026-06-20'
 description: Bannerbear is an API-first platform for auto-generating images and videos from reusable templates. A single REST API call applies text, image, and color modifications to a template and renders branded marketing visuals, social media graphics, animated GIFs, screenshots, and videos at scale, with asynchronous webhook and polling delivery.
 finops:
-- name: Bannerbear Finops
+- has_sources: true
+  method: generated
+  name: Bannerbear Finops
+  primary_unit: ''
   service_category: Media and Content
   slug: bannerbear-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bannerbear.png
 layout: provider
 mcp_servers:
@@ -184,7 +188,7 @@ modified: '2026-06-20'
 name: Bannerbear
 nav: Providers
 network: true
-overview: 'Bannerbear publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Animated GIFs API, Auth API, Collections API, and 5 more. Tagged areas include Image Generation, Video Generation, Templates, Media, and Automation.
+overview: 'Bannerbear publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Animated GIFs API, Auth API, Collections API, and 5 more. Tagged areas include Image Generation, Video Generation, Templates, Media, and Automation.
 
 
   Bannerbear''s developer surface includes authentication, engineering blog, documentation, and 8 more developer resources.'
@@ -198,23 +202,23 @@ rate_limits:
   name: Bannerbear Rate Limits
   slug: bannerbear-rate-limits
 score:
-  band: thin
-  composite: 34.7
+  band: emerging
+  composite: 26.0
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 61.6
+    artifact_dirs: 14
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.4
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.7
   facets:
-    access_clarity: 36.3
+    access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 45.6
     developer_ergonomics: 32.1
     discoverability: 68.3
-    operational_transparency: 31.1
+    operational_transparency: 10.5
   previous_composite: 34.7
   provenance:
     agentic_access: derived
@@ -226,13 +230,13 @@ score:
     mcp: first-party
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

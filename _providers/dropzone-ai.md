@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Dropzone AI's primary "API surface" is its catalog of 90+ outbound integrations to SIEM, EDR/XDR, identity, cloud, and threat intel tools. The autonomous SOC analyst consumes alerts and enrichment dat
@@ -89,16 +89,20 @@ common:
 created: '2026-05-23'
 description: Dropzone AI delivers an Agentic SOC platform built around an autonomous AI SOC Analyst that handles tier-1 alert triage and threat hunting 24/7. The platform ships pre-trained, is coachable in natural language, and connects via secure APIs to 90+ existing security tools (SIEM, EDR/XDR, identity, cloud, threat intel). Dropzone does not publish a customer-facing REST API; integration is delivered through its outbound connectors and partner program.
 finops:
-- name: Dropzone Ai Finops
+- has_sources: false
+  method: generated
+  name: Dropzone Ai Finops
+  primary_unit: ''
   service_category: API
   slug: dropzone-ai-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dropzone-ai.png
 layout: provider
 modified: '2026-05-23'
 name: Dropzone AI
 nav: Providers
 network: true
-overview: 'Dropzone AI publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Security, SOC, AI Agents, Autonomous, and triage.
+overview: 'Dropzone AI is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Security, SOC, AI Agents, Autonomous, and triage.
 
 
   Dropzone AI''s developer surface includes documentation, engineering blog, and 8 more developer resources.'
@@ -112,23 +116,23 @@ rate_limits:
   name: Dropzone Ai Rate Limits
   slug: dropzone-ai-rate-limits
 score:
-  band: emerging
-  composite: 16.1
+  band: minimal
+  composite: 10.1
   coverage:
-    artifact_dirs: 8
-    catalog_earned: 49.4
+    artifact_dirs: 9
+    catalog_earned: 36.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 65.6
+    catalog_gap: 79.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.0
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
     discoverability: 64.3
-    operational_transparency: 18.9
+    operational_transparency: 5.3
   previous_composite: 16.1
   regulatory:
     applies: true
@@ -136,9 +140,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -152,7 +156,7 @@ security:
 - kind: vulnerability-disclosure
   name: Dropzone Ai Vulnerability Disclosure
   slug: dropzone-ai-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 slug: dropzone-ai
 tags:
 - Security
@@ -161,7 +165,7 @@ tags:
 - Autonomous
 - triage
 - SIEM
-- EDR
+- Endpoint Detection and Response
 - XDR
 - Gated
 website: https://www.dropzone.ai/

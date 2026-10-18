@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 16.5
-  scored_at: '2026-10-04'
+  score: 14.7
+  scored_at: '2026-10-17'
 api_count: 8
 apis:
 - description: Standard Ethereum JSON-RPC endpoint for Mantle mainnet (chain ID 5000). Used by wallets, dApps, indexers, and tooling to read chain state and submit transactions on the Mantle L2.
@@ -67,6 +67,21 @@ asyncapis:
   name: Mantle Network WebSocket JSON-RPC
   slug: mantle-network-asyncapi
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/mantle-network/refs/heads/main/plans/mantle-network-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/mantle-network-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/mantle-network/refs/heads/main/rate-limits/mantle-network-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/mantle-network-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/mantle-network/refs/heads/main/finops/mantle-network-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/mantle-network-finops.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -115,22 +130,26 @@ common:
 created: '2026-05-23'
 description: Mantle is a high-performance, EVM-compatible Ethereum Layer 2 network with a modular architecture that combines an optimistic rollup execution layer with EigenDA for data availability. The ecosystem also includes Mantle Liquid Staking Protocol (mETH) and Mantle Restaked ETH. Developer surface is built on standard Ethereum JSON-RPC endpoints (mainnet and Mantle Sepolia testnet), WebSocket subscriptions, the Mantle Explorer (Blockscout-based REST API), a canonical L1 <-> L2 bridge, and standard EVM SDKs (viem, ethers, Hardhat, Foundry, Thirdweb).
 finops:
-- name: Mantle Network Finops
+- has_sources: false
+  method: generated
+  name: Mantle Network Finops
+  primary_unit: ''
   service_category: API
   slug: mantle-network-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mantle-network.png
 layout: provider
 modified: '2026-05-29'
 name: Mantle Network
 nav: Providers
 network: true
-overview: 'Mantle Network publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Mantle WebSocket (Mainnet), and 7 more. Tagged areas include Layer 2, Ethereum, Rollup, EigenDA, and Liquid Staking.
+overview: 'Mantle Network is listed with 8 APIs on the [APIs.io](https://apis.io/) network, including Mantle WebSocket (Mainnet), and 7 more. Tagged areas include Layer 2, Ethereum, Rollup, EigenDA, and Liquid Staking.
 
 
   The Mantle Network catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Mantle Network''s developer surface includes documentation, GitHub presence, engineering blog, and 8 more developer resources.'
+  Mantle Network''s developer surface includes documentation, GitHub presence, engineering blog, and 11 more developer resources.'
 plans:
 - name: Mantle Network Plans Pricing
   plan_count: 1
@@ -141,10 +160,11 @@ rate_limits:
   name: Mantle Network Rate Limits
   slug: mantle-network-rate-limits
 rules:
-- effective_rule_count: 33
+- authorship: generated
+  effective_rule_count: 33
   extends:
   - spectral:asyncapi
-  name: Mantle Network API Rules
+  name: Mantle Network — asyncapi rules
   rule_count: 6
   severity_counts:
     error: 1
@@ -153,23 +173,23 @@ rules:
     warn: 5
   slug: mantle-network-asyncapi-spectral-rules
 score:
-  band: thin
-  composite: 29.0
+  band: emerging
+  composite: 23.0
   coverage:
     artifact_dirs: 9
-    catalog_earned: 61.2
+    catalog_earned: 47.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.9
+    catalog_gap: 67.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.0
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 11.4
     contract_quality: 40.6
     developer_ergonomics: 16.7
     discoverability: 71.4
-    operational_transparency: 24.2
+    operational_transparency: 10.5
   previous_composite: 29.0
   regulatory:
     applies: true
@@ -177,9 +197,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -198,7 +218,7 @@ tags:
 - EigenDA
 - Liquid Staking
 - JSON-RPC
-- Crypto
+- Cryptocurrency
 - Web3
 - Real-Time
 website: https://www.mantle.xyz/

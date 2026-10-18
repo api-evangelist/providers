@@ -32,10 +32,19 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
-artifact_total: 1
+artifact_total: 2
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/tasklet-2/refs/heads/main/plans/tasklet-2-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/tasklet-2-plans-pricing.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://tasklet.ai/blog.xml
 - group: company
   title: ''
   type: Website
@@ -120,28 +129,32 @@ created: '2026-07-17'
 description: Tasklet is a cloud AI agent operating system for knowledge work. Teams describe tasks in plain English and Tasklet builds autonomous agents that connect to thousands of apps, any HTTP API, or MCP servers, then take real actions on their behalf — pulling reports, updating CRMs, triaging email, processing data, running browser automation, executing code, and generating custom apps. Agents run in the cloud 24/7 on schedules or event triggers so they can own ongoing workflows. Founded in 2025 by Andrew Lee and Jonny Dimond (ex-Firebase / Shortwave), Tasklet is a Y Combinator company (S26) that has raised $20M from Union Square Ventures, Lightspeed, Jeff Dean, and the Collison brothers. Tasklet is a consumer of APIs and MCP servers rather than a public developer-API provider; it exposes no OpenAPI, SDKs, or REST reference of its own.
 image: https://tasklet.ai/og-image.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Tasklet
 nav: Providers
 network: true
 overview: 'Tasklet is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI Agents, Agent Platform, Workflow Automation, and Knowledge Work.
 
 
-  Tasklet''s developer surface includes documentation, getting-started guide, engineering blog, changelog, pricing, signup flow, support, and 12 more developer resources.'
+  Tasklet''s developer surface includes documentation, getting-started guide, engineering blog, changelog, pricing, signup flow, support, and 14 more developer resources.'
+plans:
+- name: Tasklet 2 Plans Pricing
+  plan_count: 4
+  slug: tasklet-2-plans-pricing
 random_paper: 19
 score:
-  band: emerging
-  composite: 23.2
+  band: thin
+  composite: 29.6
   coverage:
-    artifact_dirs: 6
-    catalog_earned: 27.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 88.0
+    artifact_dirs: 7
+    catalog_earned: 39.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.4
   facets:
-    access_clarity: 46.1
+    access_clarity: 77.6
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 38.1
@@ -154,9 +167,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 7.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

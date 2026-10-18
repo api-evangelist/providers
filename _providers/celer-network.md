@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: 'Public gRPC-Web / REST gateway (sgn.gateway.v1.Web) for the cBridge cross-chain bridge: chain and token discovery, transfer fee estimation, transfer status, transfer history, and signed liquidity with'
@@ -41,6 +41,10 @@ apis:
   slug: cbridge-gateway-api
 artifact_total: 4
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.celer.network/feed/
 - group: company
   title: ''
   type: Website
@@ -143,20 +147,20 @@ created: '2026-07-17'
 description: Celer Network is a blockchain interoperability protocol that enables seamless cross-chain experiences for dApps, assets, and users. Its flagship cBridge is a decentralized cross-chain asset bridge supporting 40+ blockchains with over $14B in cumulative transfer volume, and Celer IM (Inter-chain Messaging) is a framework for building multi-blockchain applications with efficient liquidity, coherent logic, and shared state. For developers, the cBridge gateway exposes a public gRPC-Web / REST API (sgn.gateway.v1.Web) for discovering supported chains and tokens, estimating cross-chain transfer fees, tracking transfer status, and withdrawing liquidity. Celer was surfaced as a portfolio company of Pantera Capital.
 image: https://www.celer.network/favicon.ico
 layout: provider
-modified: '2026-07-18'
+modified: '2026-10-06'
 name: Celer Network
 nav: Providers
 network: true
-overview: 'Celer Network publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto, Blockchain, Interoperability, and Cross-Chain.
+overview: 'Celer Network is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cryptocurrency, Blockchain, Interoperability, and Cross-Chain.
 
 
-  Celer Network''s developer surface includes documentation, API reference, support, authentication, and 17 more developer resources.'
+  Celer Network''s developer surface includes documentation, API reference, support, authentication, and 18 more developer resources.'
 random_paper: 4
 score:
   band: thin
   composite: 27.0
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -181,8 +185,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -205,7 +209,7 @@ security:
 slug: celer-network
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Blockchain
 - Interoperability
 - Cross-Chain

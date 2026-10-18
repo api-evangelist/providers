@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - baseURL: https://api.kaedim3d.com/api/v1
@@ -58,7 +58,7 @@ apis:
   description: Register a webhook endpoint and obtain a JWT
   name: Kaedim Webhooks API
   slug: kaedim-webhooks-api
-artifact_total: 12
+artifact_total: 13
 asyncapis:
 - description: Event surface for Kaedim 3D asset generation. After registering an HTTPS endpoint via the Web API (/registerHook), Kaedim POSTs a signed webhook to that endpoint whenever a generation stage changes st
   name: Kaedim Webhooks
@@ -80,6 +80,15 @@ collections:
   name: Kaedim Web Assets Webhooks API
   slug: open-kaedim-webhooks-api
 common:
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.kaedim3d.com/plans
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/kaedim/refs/heads/main/plans/kaedim-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/kaedim-plans-pricing.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/kaedim/refs/heads/main/security/kaedim-domain-security.yml
   title: ''
@@ -213,27 +222,31 @@ modified: '2026-07-19'
 name: Kaedim
 nav: Providers
 network: true
-overview: 'Kaedim publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Assets API, Auth API, Generation API, and 1 more. Tagged areas include Company, 3D, Artificial Intelligence, Generative AI, and Gaming.
+overview: 'Kaedim publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Assets API, Auth API, Generation API, and 1 more. Tagged areas include Company, 3D, Artificial Intelligence, Generative AI, and Gaming.
 
 
   The Kaedim catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Kaedim''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, signup flow, and 20 more developer resources.'
+  Kaedim''s developer surface includes pricing, authentication, changelog, sandbox, documentation, API reference, getting-started guide, and 22 more developer resources.'
+plans:
+- name: Kaedim Plans Pricing
+  plan_count: 4
+  slug: kaedim-plans-pricing
 random_paper: 3
 score:
   band: developing
-  composite: 40.5
+  composite: 48.6
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 21
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 8.1
   facets:
-    access_clarity: 31.6
+    access_clarity: 73.7
     contract_governance: 18.2
     contract_quality: 22.0
     developer_ergonomics: 66.1
@@ -255,13 +268,13 @@ score:
     - jurisdiction: EU
       standard: gdpr
     jurisdictions_satisfied: 1
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 23.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

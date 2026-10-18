@@ -1,6 +1,9 @@
 ---
 access_model:
   confidence: low
+  gated: partner
+  gated_source:
+  - tag:Partner Gated
   label: Unknown
   onboarding: unknown
   pricing: unknown
@@ -33,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The API layer of Open GI's cloud Mobius broking platform. Open GI's public Mobius release notes document real API capability — a Client Checks API whose sanctions-check endpoints include a POST to ini
@@ -41,6 +44,14 @@ apis:
   slug: mobius-apis
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.opengi.co.uk/news/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.opengi.co.uk/news/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/open-gi/refs/heads/main/security/open-gi-domain-security.yml
   title: ''
@@ -143,14 +154,14 @@ description: Open GI is a Worcester-headquartered insurance software house that 
   opengi.co.uk, every /developers, /developer, /api and /partners path on the marketing site returns 404, and even the company's own API Terms of Use page is password-protected. There is no public self-serve developer portal, no downloadable OpenAPI or Swagger, no public sandbox, no published auth model and no ACORD reference anywhere on the public site; insurer connectivity is delivered through UK-market EDI messaging inside the platform and through pre-agreed Partner Network integrations rather than through an open API programme.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-modified: '2026-07-25'
+modified: '2026-10-06'
 name: Open GI
 nav: Providers
 network: true
-overview: 'Open GI publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, United Kingdom, Ireland, Brokers, and Agency Management.
+overview: 'Open GI is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, United Kingdom, Ireland, Brokerage, and Agency Management.
 
 
-  Open GI''s developer surface includes engineering blog, changelog, release notes, documentation, FAQ, support, and 17 more developer resources.'
+  Open GI''s developer surface includes engineering blog, changelog, release notes, documentation, FAQ, support, and 19 more developer resources.'
 random_paper: 5
 score:
   band: emerging
@@ -188,8 +199,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 21.1
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -206,7 +217,7 @@ tags:
 - Insurance
 - United Kingdom
 - Ireland
-- Brokers
+- Brokerage
 - Agency Management
 - Policy Administration
 - Underwriting
@@ -214,6 +225,5 @@ tags:
 - Property and Casualty
 - MGA
 - Insurer Hosted Pricing
-- Partner Gated
 website: https://www.opengi.co.uk/
 ---

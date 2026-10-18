@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.8
-  scored_at: '2026-10-04'
+  score: 22.9
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 67
   slug: tvdb-agentic-access
   summary_line: 67 operations · 2 acting
-api_count: 1
+api_count: 2
 apis:
 - baseURL: https://api4.thetvdb.com/v4
   baseurl_source: declared
@@ -567,9 +567,13 @@ features:
 - Postman collection
 - GitHub-hosted Swagger documentation
 finops:
-- name: Tvdb Finops
+- has_sources: true
+  method: generated
+  name: Tvdb Finops
+  primary_unit: ''
   service_category: Media Metadata
   slug: tvdb-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tvdb.png
 json_schemas:
 - name: Alias
@@ -961,7 +965,7 @@ modified: '2026-05-30'
 name: TheTVDB
 nav: Providers
 network: true
-overview: 'TheTVDB publishes 29 APIs on the [APIs.io](https://apis.io/) network, including Artwork API, Artwork Statuses API, Artwork Types API, and 26 more. Tagged areas include Entertainment, Movies, Television, Media Metadata, and Public APIs.
+overview: 'TheTVDB publishes 29 API contracts indexed on the [APIs.io](https://apis.io/) network, including Artwork API, Artwork Statuses API, Artwork Types API, and 26 more. Tagged areas include Entertainment, Movies, Television, Media Metadata, and Public APIs.
 
 
   The TheTVDB catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -978,9 +982,10 @@ rate_limits:
   name: Tvdb Rate Limits
   slug: tvdb-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: TheTVDB API Rules
+  name: TheTVDB — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -988,7 +993,8 @@ rules:
     info: 2
     warn: 3
   slug: tvdb-jsonschema-spectral-rules
-- effective_rule_count: 77
+- authorship: unmarked
+  effective_rule_count: 77
   extends:
   - spectral:oas
   name: TheTVDB API Rules
@@ -1001,23 +1007,23 @@ rules:
   slug: tvdb-rules
 score:
   band: developing
-  composite: 50.9
+  composite: 42.7
   coverage:
     artifact_dirs: 18
-    catalog_earned: 81.6
+    catalog_earned: 63.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 33.4
+    catalog_gap: 52.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -8.2
   facets:
-    access_clarity: 60.0
+    access_clarity: 31.6
     contract_governance: 27.3
     contract_quality: 57.9
     developer_ergonomics: 45.2
     discoverability: 66.1
-    operational_transparency: 46.8
-  previous_composite: 50.4
+    operational_transparency: 26.3
+  previous_composite: 50.9
   provenance:
     agentic_access: derived
     contracts:
@@ -1031,9 +1037,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0

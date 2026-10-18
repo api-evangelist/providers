@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 6
 apis:
 - description: Rhapsody's flagship healthcare integration engine, connecting systems across FHIR, HL7 v2, REST, CDA, X12/EDI, SQL, DICOM, AMQP, and MCP from a single platform, with a REST administration/management A
@@ -57,6 +57,14 @@ apis:
   slug: rhapsody-axon-mcp
 artifact_total: 11
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://rhapsody.health/resources/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://rhapsody.health/resources/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/rhapsody/refs/heads/main/security/rhapsody-domain-security.yml
   title: ''
@@ -147,14 +155,14 @@ description: Rhapsody Health Solutions is a US-headquartered (Boston, Massachuse
   a healthcare-purpose-built API gateway (OAuth 2.0, SMART on FHIR, Basic Auth), in October 2025. Rhapsody's product REST/administration and FHIR APIs are documented in a developer documentation portal (docs.rhapsody.health) that sits behind an AWS Cognito single-sign-on gate; there is no public self-serve API host or downloadable specification. The one machine-readable document Rhapsody does publish is an authoritative llms.txt at rhapsody.health/llms.txt.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-modified: '2026-08-14T00:00:00Z'
+modified: '2026-10-06'
 name: Rhapsody
 nav: Providers
 network: true
-overview: 'Rhapsody publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Healthcare, United States, Interoperability, Integration Engine, and FHIR.
+overview: 'Rhapsody is listed with 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Healthcare, United States, Interoperability, Integration Engine, and FHIR.
 
 
-  Rhapsody''s developer surface includes authentication, changelog, documentation, engineering blog, support, and 14 more developer resources.'
+  Rhapsody''s developer surface includes engineering blog, authentication, changelog, documentation, support, and 16 more developer resources.'
 plans:
 - name: Rhapsody Plans Pricing
   plan_count: 0
@@ -166,15 +174,15 @@ rate_limits:
   slug: rhapsody-rate-limits
 score:
   band: thin
-  composite: 28.9
+  composite: 29.0
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 36.8
     contract_governance: 18.2
@@ -205,8 +213,8 @@ score:
     regime: Health
     regime_id: health
     score: 34.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 42.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -358,7 +358,7 @@ modified: '2026-05-25'
 name: Humaans
 nav: Providers
 network: true
-overview: 'Humaans publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Audit Events API, Bank Accounts API, Companies API, and 12 more. Tagged areas include Human Resources, HRIS, People Operations, People Analytics, and Onboarding.
+overview: 'Humaans publishes 15 API contracts indexed on the [APIs.io](https://apis.io/) network, including Audit Events API, Bank Accounts API, Companies API, and 12 more. Tagged areas include Human Resources, HRIS, People Operations, People Analytics, and Onboarding.
 
 
   Humaans'' developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, pricing, engineering blog, and 29 more developer resources.'
@@ -367,7 +367,7 @@ score:
   band: developing
   composite: 46.0
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 12
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -404,8 +404,8 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 30.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -423,7 +423,7 @@ security:
 - kind: vulnerability-disclosure
   name: Humaans Io Vulnerability Disclosure
   slug: humaans-io-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 - kind: trust-center
   name: Humaans Io Trust Center
   slug: humaans-io-trust-center

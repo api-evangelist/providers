@@ -26,16 +26,35 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: false
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-04'
-api_count: 0
-artifact_total: 2
+  score: 0.6
+  scored_at: '2026-10-17'
+api_count: 4
+apis:
+- description: Direct-to-consumer homeowners quote, bind, and policy management. Quotes delivered in under 60 seconds. No public API; carrier partnerships are managed via First Connect.
+  name: Hippo Consumer Quote & Bind
+  provenance: unpublished
+  slug: hippo-consumer
+- description: Hippo Home is the consumer smart-home companion app for iOS and Android. Provides DIY maintenance checklists, seasonal guidance, and a home health score. No public API; integrations are sales-led.
+  name: Hippo Home App
+  provenance: unpublished
+  slug: hippo-home
+- description: First Connect, a Hippo subsidiary, is an API-first digital platform giving independent agents one-stop access to 100+ home, auto, cyber, small business, life, and specialty carriers and MGAs. The port
+  name: First Connect (Independent Agent Platform)
+  slug: first-connect
+- description: Spinnaker is Hippo's affiliated specialty admitted carrier providing paper for MGAs and program administrators. Integrations are sales-led.
+  name: Spinnaker Insurance (MGA Carrier Paper)
+  slug: spinnaker
+artifact_total: 9
 common:
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://trust.hippo.com/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/hippo-com/refs/heads/main/security/hippo-com-trust-center.yml
   title: ''
@@ -154,38 +173,69 @@ common:
   title: ''
   type: Newsroom
   url: https://investors.hippo.com/news-releases
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/hippo-com/refs/heads/main/plans/hippo-com-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/hippo-com-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/hippo-com/refs/heads/main/rate-limits/hippo-com-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/hippo-com-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/hippo-com/refs/heads/main/finops/hippo-com-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/hippo-com-finops.yml
 created: '2026-05-25'
 description: 'Hippo is a US homeowners insurance carrier headquartered in Palo Alto, California, operating as the insurance subsidiary of Hippo Holdings Inc. (NYSE: HIPO). Founded in 2015, Hippo modernizes home insurance with instant online quotes — typically under sixty seconds — and a smart home oriented approach that pairs policies with proactive home maintenance guidance through the Hippo Home mobile app, DIY checklists, home health scoring, and partnerships with smart device makers. The company writes homeowners, condo, landlord, flood, auto, and pet policies and operates as both a direct-to-consumer brand and an MGA distributing through a network of 70+ carrier partners, including Bamboo, Stillwater, Nationwide, American Integrity, Liberty Mutual, and Progressive. Hippo''s underwriting capacity is anchored by its wholly-owned admitted carrier, Spinnaker Insurance Company, acquired in 2020. Hippo serves 500K+ homeowners across the United States, with concentrated presence in Texas,
   California, Arizona, Colorado, Missouri, Ohio, South Carolina, Tennessee, and Virginia. There is no publicly documented developer API, SDK, or open-source release for Hippo or Spinnaker; the GitHub organization hippoinsurance exists but has no public repositories, and the api.hippo.com hostname is not exposed to the public internet. Integrations with smart home device partners, agents, and MGA carriers are handled through private partner channels rather than an open developer program.'
+finops:
+- has_sources: false
+  method: generated
+  name: Hippo Com Finops
+  primary_unit: ''
+  service_category: API
+  slug: hippo-com-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hippo-com.png
 layout: provider
 modified: '2026-08-08'
 name: Hippo
 nav: Providers
 network: true
-overview: 'Hippo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Home Insurance, Homeowners Insurance, Smart Home, and Insurtech.
+overview: 'Hippo is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Home Insurance, Smart Home, Insurtech, and Property Insurance.
 
 
-  Hippo''s developer surface includes engineering blog, FAQ, legal docs, GitHub presence, and 25 more developer resources.'
+  Hippo''s developer surface includes engineering blog, FAQ, legal docs, GitHub presence, and 29 more developer resources.'
+plans:
+- name: Hippo Com Plans Pricing
+  plan_count: 1
+  slug: hippo-com-plans-pricing
 random_paper: 6
+rate_limits:
+- limit_count: 2
+  name: Hippo Com Rate Limits
+  slug: hippo-com-rate-limits
 score:
-  band: minimal
-  composite: 8.0
+  band: emerging
+  composite: 12.7
   coverage:
-    artifact_dirs: 4
-    catalog_earned: 27.0
+    artifact_dirs: 7
+    catalog_earned: 39.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 88.0
+    catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 4.7
   facets:
-    access_clarity: 7.9
+    access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 2.4
-    discoverability: 49.1
-    operational_transparency: 15.8
+    discoverability: 63.4
+    operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -200,8 +250,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 9.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -221,7 +271,6 @@ slug: hippo-com
 tags:
 - Insurance
 - Home Insurance
-- Homeowners Insurance
 - Smart Home
 - Insurtech
 - Property Insurance

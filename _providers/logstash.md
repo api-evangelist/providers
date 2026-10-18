@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: The Logstash Monitoring API exposes node info, plugin info, node stats, hot threads, and a health report endpoint over HTTP on port 9600 by default. There is no published OpenAPI specification; see El
@@ -41,6 +41,21 @@ apis:
   slug: logstash-monitoring-api
 artifact_total: 6
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/logstash/refs/heads/main/plans/logstash-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/logstash-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/logstash/refs/heads/main/rate-limits/logstash-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/logstash-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/logstash/refs/heads/main/finops/logstash-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/logstash-finops.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -82,19 +97,23 @@ common:
 created: '2025-01-01'
 description: Open source server-side data processing pipeline that ingests data from multiple sources, transforms it, and sends it to a specified destination. Part of the Elastic Stack.
 finops:
-- name: Logstash Finops
+- has_sources: false
+  method: generated
+  name: Logstash Finops
+  primary_unit: ''
   service_category: API
   slug: logstash-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/logstash.png
 layout: provider
 modified: '2026-04-28'
 name: Logstash
 nav: Providers
 network: true
-overview: 'Logstash publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Data Processing, ETL, Log Management, and Pipelines.
+overview: 'Logstash is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Data Processing, ETL, Log Management, and Pipelines.
 
 
-  Logstash''s developer surface includes documentation, engineering blog, and 7 more developer resources.'
+  Logstash''s developer surface includes documentation, engineering blog, and 10 more developer resources.'
 plans:
 - name: Logstash Plans Pricing
   plan_count: 3
@@ -106,17 +125,17 @@ rate_limits:
   slug: logstash-rate-limits
 score:
   band: emerging
-  composite: 14.1
+  composite: 12.6
   coverage:
-    artifact_dirs: 6
-    catalog_earned: 31.0
+    artifact_dirs: 8
+    catalog_earned: 28.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 84.0
+    catalog_gap: 87.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 23.7
+    access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
@@ -129,8 +148,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

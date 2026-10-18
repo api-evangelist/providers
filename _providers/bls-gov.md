@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 1
+- acting_count: 0
   human_in_the_loop: 0
   name: Bls Gov Agentic Access
   operation_count: 5
   slug: bls-gov-agentic-access
-  summary_line: 5 operations · 1 acting
+  summary_line: 5 operations
 api_count: 1
 apis:
 - baseURL: https://api.bls.gov/publicAPI/v2
@@ -77,6 +77,25 @@ collections:
   name: BLS Public Data API
   slug: open-bls-public-data-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/bls-gov/refs/heads/main/plans/bls-gov-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/bls-gov-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/bls-gov/refs/heads/main/rate-limits/bls-gov-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/bls-gov-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/bls-gov/refs/heads/main/finops/bls-gov-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/bls-gov-finops.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.bls.gov/feed/bls_latest.rss
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/bls-gov/refs/heads/main/agentic-access/bls-gov-agentic-access.yml
   title: ''
@@ -146,9 +165,13 @@ examples:
   name: Bls List Surveys Example
   slug: bls-list-surveys-example
 finops:
-- name: Bls Gov Finops
+- has_sources: false
+  method: generated
+  name: Bls Gov Finops
+  primary_unit: ''
   service_category: API
   slug: bls-gov-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bls-gov.png
 json_schemas:
 - name: BLS Time Series
@@ -164,17 +187,17 @@ jsonld:
   property_count: 30
   slug: bls-gov-context
 layout: provider
-modified: '2026-05-25'
+modified: '2026-10-06'
 name: Bureau of Labor Statistics
 nav: Providers
 network: true
-overview: 'Bureau of Labor Statistics publishes 3 APIs on the [APIs.io](https://apis.io/) network: Popular Series API, Surveys API, and Time Series API. Tagged areas include Federal Government, Labor Statistics, Economic Data, Consumer Price Index, and Producer Price Index.
+overview: 'Bureau of Labor Statistics publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Popular Series API, Surveys API, and Time Series API. Tagged areas include Federal Government, Labor Statistics, Economic Data, Consumer Price Index, and Producer Price Index.
 
 
   The Bureau of Labor Statistics catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Bureau of Labor Statistics'' developer surface includes authentication, documentation, YouTube channel, engineering blog, and 10 more developer resources.'
+  Bureau of Labor Statistics'' developer surface includes authentication, documentation, YouTube channel, engineering blog, and 14 more developer resources.'
 plans:
 - name: Bls Gov Plans Pricing
   plan_count: 3
@@ -185,9 +208,10 @@ rate_limits:
   name: Bls Gov Rate Limits
   slug: bls-gov-rate-limits
 rules:
-- effective_rule_count: 6
+- authorship: generated
+  effective_rule_count: 6
   extends: []
-  name: Bureau of Labor Statistics API Rules
+  name: Bureau of Labor Statistics — jsonschema rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -195,9 +219,10 @@ rules:
     info: 2
     warn: 4
   slug: bls-gov-jsonschema-spectral-rules
-- effective_rule_count: 10
+- authorship: unmarked
+  effective_rule_count: 10
   extends: []
-  name: Bureau of Labor Statistics API Rules
+  name: Bureau of Labor Statistics — bls public data api rules
   rule_count: 10
   severity_counts:
     error: 2
@@ -207,17 +232,17 @@ rules:
   slug: bls-public-data-api-rules
 score:
   band: developing
-  composite: 41.0
+  composite: 39.4
   coverage:
     artifact_dirs: 17
-    catalog_earned: 67.2
+    catalog_earned: 64.2
     catalog_earned_first_party: 0.0
-    catalog_gap: 47.9
+    catalog_gap: 50.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 39.5
+    access_clarity: 31.6
     contract_governance: 23.5
     contract_quality: 62.4
     developer_ergonomics: 33.3
@@ -242,8 +267,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: Successor API surface of the Ultimate.ai platform after the Zendesk acquisition - Chat, Ticket, and Widget Escalation APIs with matching webhooks, plus Data Export and Delete User Data. Requires the A
@@ -50,6 +50,10 @@ asyncapis:
   name: Ultimateai Ai Agents Webhooks
   slug: ultimateai-ai-agents-webhooks
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.zendesk.com/blog/
 - group: company
   title: ''
   type: Website
@@ -95,34 +99,34 @@ created: '2026-07-17'
 description: Ultimate.ai was a Helsinki- and Berlin-based customer support automation platform - virtual agents and chatbots with intent recognition and agent-assist - backed by HV Capital and Techstars. Zendesk acquired Ultimate.ai in 2024 and the product now ships as Zendesk AI agents (the "AI agents - Advanced" add-on); ultimate.ai redirects to zendesk.com and the successor AI Agents APIs (Chat, Ticket, Widget Escalation, Data Export, Delete User Data plus webhooks) are documented on developer.zendesk.com, with API keys still generated from the Ultimate.ai dashboard. The legacy Ultimate.ai Public API on chat.ultimate.ai is retired.
 image: https://avatars.githubusercontent.com/u/82862471?v=4
 layout: provider
-modified: '2026-07-21'
+modified: '2026-10-06'
 name: Ultimate.ai
 nav: Providers
 network: true
-overview: 'Ultimate.ai publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Enterprise Software, Customer Support, Conversational AI, and Chatbots.
+overview: 'Ultimate.ai is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Enterprise Software, Customer Service, Conversational AI, and Chatbots.
 
 
   The Ultimate.ai catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Ultimate.ai''s developer surface includes documentation, API reference, authentication, and 6 more developer resources.'
+  Ultimate.ai''s developer surface includes engineering blog, documentation, API reference, authentication, and 6 more developer resources.'
 random_paper: 15
 score:
   band: emerging
-  composite: 23.6
+  composite: 23.7
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 39.0
-    developer_ergonomics: 28.6
+    developer_ergonomics: 31.0
     discoverability: 73.2
     operational_transparency: 10.5
   jurisdiction:
@@ -136,12 +140,12 @@ score:
   previous_composite: 23.6
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
+    matched_via: residual_tags
+    regime: AI & Biometrics
+    regime_id: ai_biometrics
     score: 11.8
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
@@ -161,7 +165,7 @@ slug: ultimateai
 tags:
 - Company
 - Ai Enterprise Software
-- Customer Support
+- Customer Service
 - Conversational AI
 - Chatbots
 - AI Agents

@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.5
-  scored_at: '2026-10-04'
+  score: 26.6
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -131,6 +131,21 @@ collections:
   name: Absentify API
   slug: open-absentify
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/absentify/refs/heads/main/plans/absentify-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/absentify-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/absentify/refs/heads/main/rate-limits/absentify-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/absentify-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/absentify/refs/heads/main/finops/absentify-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/absentify-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/absentify/refs/heads/main/capabilities/absentify-capability-edges.yml
   title: ''
@@ -263,9 +278,13 @@ features:
 - description: Query absences broken down by individual day for reporting and payroll integration.
   name: Absence Per Day Reporting
 finops:
-- name: Absentify Finops
+- has_sources: false
+  method: generated
+  name: Absentify Finops
+  primary_unit: ''
   service_category: API
   slug: absentify-finops
+  template: true
 image: /assets/icons/absentify.png
 integrations:
 - description: Native Microsoft Teams app for submitting and approving absence requests without leaving Teams.
@@ -332,13 +351,13 @@ modified: '2026-05-19'
 name: Absentify
 nav: Providers
 network: true
-overview: 'Absentify publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Absences API, Departments API, Leave types API, and 4 more. Tagged areas include Absence Management, Human Resources, Leave Management, and Microsoft Teams.
+overview: 'Absentify publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Absences API, Departments API, Leave types API, and 4 more. Tagged areas include Absence Management, Human Resources, Leave Management, and Microsoft Teams.
 
 
   The Absentify catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Absentify''s developer surface includes authentication, developer portal, documentation, pricing, engineering blog, tooling, and 14 more developer resources.'
+  Absentify''s developer surface includes authentication, developer portal, documentation, pricing, engineering blog, tooling, and 17 more developer resources.'
 plans:
 - name: Absentify Plans Pricing
   plan_count: 3
@@ -349,9 +368,10 @@ rate_limits:
   name: Absentify Rate Limits
   slug: absentify-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Absentify API Rules
+  name: Absentify — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -359,7 +379,8 @@ rules:
     info: 2
     warn: 3
   slug: absentify-jsonschema-spectral-rules
-- effective_rule_count: 69
+- authorship: generated
+  effective_rule_count: 69
   extends:
   - spectral:oas
   name: Absentify API Rules
@@ -372,17 +393,17 @@ rules:
   slug: absentify-spectral-rules
 score:
   band: developing
-  composite: 50.5
+  composite: 49.0
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 70.0
+    artifact_dirs: 20
+    catalog_earned: 67.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 45.0
+    catalog_gap: 48.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 55.3
+    access_clarity: 47.4
     contract_governance: 27.3
     contract_quality: 73.6
     developer_ergonomics: 34.5
@@ -402,8 +423,8 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true
@@ -421,7 +442,7 @@ security:
 - kind: vulnerability-disclosure
   name: Absentify Vulnerability Disclosure
   slug: absentify-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: no policy recorded
 - kind: trust-center
   name: Absentify Trust Center
   slug: absentify-trust-center

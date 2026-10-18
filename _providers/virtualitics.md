@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 2
 apis:
 - description: The developer surface of the Virtualitics AI Platform. Developers author AI Apps in Python with the Virtualitics SDK (App, Step, Page, Section, Card, Elements, Assets, LLM/Iris, Store, Audit, Triggers
@@ -34,6 +34,10 @@ apis:
   slug: virtualitics-explore-python-api
 artifact_total: 8
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://virtualitics.com/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/virtualitics/refs/heads/main/security/virtualitics-trust-center.yml
   title: ''
@@ -172,14 +176,14 @@ created: '2026-09-04'
 description: Virtualitics, Inc. is a Pasadena, California AI software company founded in 2016 on more than a decade of research at Caltech and NASA's Jet Propulsion Laboratory. It builds the Virtualitics AI Platform (VAIP), a secure deployment target for mission-critical AI Apps; Virtualitics Explore, a 3D/immersive data exploration client; Virtualitics Predict; the Integrated Readiness Optimization (IRO) application suite; and Iris, a natural-language AI agent over platform data. Its developer surface is Python-first rather than HTTP-first — the Virtualitics SDK (virtualitics-sdk) for authoring multi-step Apps, the Virtualitics CLI (virtualitics-cli, the `vaip` command) for packaging and deploying them into a customer tenant, and pyVIP, a Python API that drives Virtualitics Explore over a WebSocket connection. Deployments run on customer-controlled hosts including NIPR, SIPR, JWICS, ADVANA and ODIN across the U.S. military services.
 image: https://virtualitics.com/wp-content/uploads/2026/06/Virtualitics_Logo_Black.png
 layout: provider
-modified: '2026-09-04'
+modified: '2026-10-06'
 name: Virtualitics
 nav: Providers
 network: true
-overview: 'Virtualitics publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Data Analytics, Data Visualization, and Machine Learning.
+overview: 'Virtualitics is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Data Analytics, Data Visualization, and Machine Learning.
 
 
-  Virtualitics'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, CLI, and 22 more developer resources.'
+  Virtualitics'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, CLI, and 23 more developer resources.'
 plans:
 - name: Virtualitics Plans Pricing
   plan_count: 0
@@ -193,7 +197,7 @@ score:
   band: thin
   composite: 36.4
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -217,13 +221,14 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 32.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
+screenshot: https://raw.githubusercontent.com/api-evangelist/virtualitics/refs/heads/main/screenshots/virtualitics-2026-10-11T133018.png
 security:
 - kind: authentication
   name: Virtualitics Authentication

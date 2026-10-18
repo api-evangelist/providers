@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 1
 apis:
 - description: Core JavaScript APIs for building Lightning Web Components including decorators, wire service, and component lifecycle methods.
@@ -41,6 +41,11 @@ apis:
   slug: lightning-web-components
 artifact_total: 8
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/lightning-web-components/refs/heads/main/finops/lightning-web-components-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/lightning-web-components-finops.yml
 - group: company
   title: ''
   type: Website
@@ -196,9 +201,13 @@ common:
 created: '2024-01-15'
 description: 'Lightning Web Components (LWC) is Salesforce''s MIT-licensed, open-source JavaScript UI framework, built directly on native web standards — custom elements, shadow DOM and ES modules — rather than on a proprietary component abstraction. It compiles components to native custom elements, renders in the browser and on the server, and is the component model for the Salesforce Platform as well as a standalone framework for any web app. LWC is distributed exclusively through npm: there is no hosted API, no API key, no pricing and no rate limit. Its contract surface is a JavaScript API — LightningElement, the @api, @track and @wire decorators, lifecycle hooks and wire adapters — accompanied by a published 109-code compiler diagnostic registry, a semver versioning and breaking-change policy, and a lightning-* base component library of 91 consumer-facing components.'
 finops:
-- name: Lightning Web Components Finops
+- has_sources: false
+  method: generated
+  name: Lightning Web Components Finops
+  primary_unit: ''
   service_category: API
   slug: lightning-web-components-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lightning-web-components.png
 layout: provider
 mcp_servers:
@@ -209,10 +218,10 @@ modified: '2026-08-27'
 name: Lightning Web Components
 nav: Providers
 network: true
-overview: 'Lightning Web Components publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Frontend, JavaScript, Lightning Web Components, Salesforce, and Web Components.
+overview: 'Lightning Web Components is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Frontend, JavaScript, Lightning Web Components, Salesforce, and Web Components.
 
 
-  Lightning Web Components'' developer surface includes documentation, getting-started guide, code examples, changelog, CLI, sandbox, API reference, and 26 more developer resources.'
+  Lightning Web Components'' developer surface includes documentation, getting-started guide, code examples, changelog, CLI, sandbox, API reference, and 27 more developer resources.'
 plans:
 - name: Lightning Web Components Plans Pricing
   plan_count: 0
@@ -224,17 +233,17 @@ rate_limits:
   slug: lightning-web-components-rate-limits
 score:
   band: thin
-  composite: 38.8
+  composite: 37.3
   coverage:
     artifact_dirs: 19
-    catalog_earned: 35.0
+    catalog_earned: 32.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 80.0
+    catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 44.7
+    access_clarity: 36.8
     contract_governance: 18.2
     contract_quality: 6.5
     developer_ergonomics: 66.7
@@ -250,8 +259,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

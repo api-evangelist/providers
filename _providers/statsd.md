@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.3
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -396,7 +396,7 @@ modified: '2026-05-23'
 name: StatsD
 nav: Providers
 network: true
-overview: 'StatsD publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Wire Protocol, DogStatsD Wire Protocol, Configuration API, and 5 more. Tagged areas include Aggregation, Daemon, DogStatsD, Line Protocol, and Metrics.
+overview: 'StatsD publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Wire Protocol, DogStatsD Wire Protocol, Configuration API, and 5 more. Tagged areas include Aggregation, Daemon, DogStatsD, Line Protocol, and Metrics.
 
 
   The StatsD catalog on APIs.io includes 2 event-driven AsyncAPI specifications, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -405,10 +405,11 @@ overview: 'StatsD publishes 8 APIs on the [APIs.io](https://apis.io/) network, i
   StatsD''s developer surface includes GitHub presence, changelog, and 51 more developer resources.'
 random_paper: 21
 rules:
-- effective_rule_count: 48
+- authorship: unmarked
+  effective_rule_count: 48
   extends:
   - spectral:oas
-  name: StatsD API Rules
+  name: StatsD — admin interface rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -416,10 +417,11 @@ rules:
     info: 2
     warn: 4
   slug: statsd-admin-interface-rules
-- effective_rule_count: 33
+- authorship: generated
+  effective_rule_count: 33
   extends:
   - spectral:asyncapi
-  name: StatsD API Rules
+  name: StatsD — asyncapi rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -427,9 +429,10 @@ rules:
     info: 0
     warn: 6
   slug: statsd-asyncapi-spectral-rules
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: StatsD API Rules
+  name: StatsD — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -439,18 +442,18 @@ rules:
   slug: statsd-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 31.6
+  composite: 27.9
   coverage:
     artifact_dirs: 12
-    catalog_earned: 63.7
+    catalog_earned: 52.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 51.3
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.7
   facets:
     access_clarity: 0.0
-    contract_governance: 62.7
+    contract_governance: 27.3
     contract_quality: 58.5
     developer_ergonomics: 26.2
     discoverability: 51.8
@@ -472,8 +475,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 4.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

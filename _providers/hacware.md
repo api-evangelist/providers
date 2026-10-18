@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.1
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
-- acting_count: 54
+- acting_count: 53
   human_in_the_loop: 3
   name: Hacware Agentic Access
   operation_count: 113
   slug: hacware-agentic-access
-  summary_line: 113 operations · 54 acting · 3 human-in-the-loop
+  summary_line: 113 operations · 53 acting · 3 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://app.hacware.com
@@ -99,7 +99,7 @@ apis:
   description: The User API from Hacware — 9 operation(s) for user.
   name: Hacware User API
   slug: hacware-user-api
-artifact_total: 26
+artifact_total: 27
 collections:
 - collection_type: open
   name: API Collection
@@ -138,6 +138,11 @@ collections:
   name: Security Awareness API Documentation Admin User API
   slug: open-hacware-user-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/hacware/refs/heads/main/plans/hacware-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/hacware-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/hacware/refs/heads/main/capabilities/hacware-capability-edges.yml
   title: ''
@@ -220,24 +225,28 @@ modified: '2026-07-19'
 name: Hacware
 nav: Providers
 network: true
-overview: 'Hacware publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Compliance API, Compliance-Tenant API, and 8 more. Tagged areas include Company, Security, Cybersecurity, Security Awareness, and Phishing.
+overview: 'Hacware publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Admin API, Compliance API, Compliance-Tenant API, and 8 more. Tagged areas include Company, Security, Cybersecurity, Security Awareness, and Phishing.
 
 
-  Hacware''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, engineering blog, and 10 more developer resources.'
+  Hacware''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, engineering blog, and 11 more developer resources.'
+plans:
+- name: Hacware Plans Pricing
+  plan_count: 3
+  slug: hacware-plans-pricing
 random_paper: 5
 score:
   band: developing
-  composite: 41.8
+  composite: 48.2
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 21
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.4
   facets:
-    access_clarity: 44.7
+    access_clarity: 76.3
     contract_governance: 4.5
     contract_quality: 47.2
     developer_ergonomics: 58.9
@@ -260,9 +269,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: rising
   upsert:
     applies: true
     score: 11.1

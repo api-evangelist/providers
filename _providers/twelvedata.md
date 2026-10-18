@@ -31,13 +31,13 @@ agent_readiness:
     mcp_server: verified
     openapi_examples: verified
     protected_resource_metadata: verified
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 62.0
-  scored_at: '2026-10-04'
+  score: 60.1
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -45,7 +45,7 @@ agentic_access:
   operation_count: 199
   slug: twelvedata-agentic-access
   summary_line: 199 operations · 1 acting
-api_count: 2
+api_count: 3
 apis:
 - baseURL: wss://ws.twelvedata.com/v1/quotes/price
   baseurl_source: declared
@@ -168,7 +168,7 @@ apis:
     question: Can I get a price history for an exotic currency pair that is not quoted directly?
   phrasing_ops: 2
   slug: twelvedata-time-series-api
-- baseURL: wss://ws.twelvedata.com/v1/quotes/price
+- baseURL: https://api.twelvedata.com
   baseurl_source: declared
   description: The advanced API from Twelve Data — 2 operation(s) for advanced.
   name: Twelve Data Advanced API
@@ -181,7 +181,7 @@ apis:
     question: Can I request quotes and time series for several symbols in a single call?
   phrasing_ops: 2
   slug: twelvedata-advanced-api
-- baseURL: wss://ws.twelvedata.com/v1/quotes/price
+- baseURL: https://api.twelvedata.com
   baseurl_source: declared
   description: The analysis API from Twelve Data — 9 operation(s) for analysis.
   name: Twelve Data Analysis API
@@ -212,7 +212,7 @@ apis:
     question: Is the overall analyst consensus on this stock a strong buy, buy, hold or sell?
   phrasing_ops: 9
   slug: twelvedata-analysis-api
-- baseURL: wss://ws.twelvedata.com/v1/quotes/price
+- baseURL: https://api.twelvedata.com
   baseurl_source: declared
   description: The currencies API from Twelve Data — 2 operation(s) for currencies.
   name: Twelve Data Currencies API
@@ -225,7 +225,7 @@ apis:
     question: What is the EUR/USD exchange rate right now?
   phrasing_ops: 2
   slug: twelvedata-currencies-api
-- baseURL: wss://ws.twelvedata.com/v1/quotes/price
+- baseURL: https://api.twelvedata.com
   baseurl_source: declared
   description: The market_data API from Twelve Data — 6 operation(s) for market_data.
   name: Twelve Data Market Data API
@@ -250,7 +250,7 @@ apis:
     question: What has Apple's price looked like in Indian rupees over time?
   phrasing_ops: 6
   slug: twelvedata-market-data-api
-- baseURL: wss://ws.twelvedata.com/v1/quotes/price
+- baseURL: https://api.twelvedata.com
   baseurl_source: declared
   description: The money_market_funds API from Twelve Data — 2 operation(s) for money_market_funds.
   name: Twelve Data Money Market Funds API
@@ -263,7 +263,7 @@ apis:
     question: What is a money market fund's yield, liquidity and weighted average maturity?
   phrasing_ops: 2
   slug: twelvedata-money-market-funds-api
-- baseURL: wss://ws.twelvedata.com/v1/quotes/price
+- baseURL: https://api.twelvedata.com
   baseurl_source: declared
   description: The mutual_funds API from Twelve Data — 11 operation(s) for mutual_funds.
   name: Twelve Data Mutual Funds API
@@ -294,7 +294,7 @@ apis:
     question: How is this mutual fund rated by Twelve Data and other institutions?
   phrasing_ops: 11
   slug: twelvedata-mutual-funds-api
-- baseURL: wss://ws.twelvedata.com/v1/quotes/price
+- baseURL: https://api.twelvedata.com
   baseurl_source: declared
   description: The regulatory API from Twelve Data — 7 operation(s) for regulatory.
   name: Twelve Data Regulatory API
@@ -322,7 +322,7 @@ apis:
     question: What taxes apply when trading this security?
   phrasing_ops: 7
   slug: twelvedata-regulatory-api
-- baseURL: wss://ws.twelvedata.com/v1/quotes/price
+- baseURL: https://api.twelvedata.com
   baseurl_source: declared
   description: The technical_indicator API from Twelve Data — 102 operation(s) for technical_indicator.
   name: Twelve Data Technical Indicator API
@@ -353,7 +353,7 @@ apis:
     question: What is the difference between Aroon up and Aroon down for this asset?
   phrasing_ops: 102
   slug: twelvedata-technical-indicator-api
-- baseURL: wss://ws.twelvedata.com/v1/quotes/price
+- baseURL: https://api.twelvedata.com
   baseurl_source: declared
   description: The etfs API from Twelve Data — 8 operation(s) for etfs.
   name: Twelve Data Etfs API
@@ -619,9 +619,13 @@ common:
 created: '2026-07-11'
 description: Twelve Data is a financial market data provider offering real-time and historical data for stocks, forex, cryptocurrencies, ETFs, indices, commodities, and funds through a single REST API and a real-time WebSocket. Coverage spans time series (OHLCV), quotes and prices, 100-plus technical indicators, reference and catalog data, and company fundamentals. Every request is authenticated with an apikey and metered as API credits; a free Basic plan grants 800 API credits per day. Real-time price streaming is delivered over a WebSocket at wss://ws.twelvedata.com/v1/quotes/price.
 finops:
-- name: Twelvedata Finops
+- has_sources: true
+  method: generated
+  name: Twelvedata Finops
+  primary_unit: ''
   service_category: Financial Market Data
   slug: twelvedata-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/twelvedata.png
 layout: provider
 mcp_servers:
@@ -632,7 +636,7 @@ modified: '2026-07-22'
 name: Twelve Data
 nav: Providers
 network: true
-overview: 'Twelve Data publishes 15 APIs on the [APIs.io](https://apis.io/) network, including WebSocket Streaming API, Core Data API, Fundamentals API, and 12 more. Tagged areas include Market Data, Financial Data, Stocks, Forex, and Crypto.
+overview: 'Twelve Data publishes 15 API contracts indexed on the [APIs.io](https://apis.io/) network, including WebSocket Streaming API, Core Data API, Fundamentals API, and 12 more. Tagged areas include Market Data, Financial Data, Stocks, Foreign Exchange, and Cryptocurrency.
 
 
   The Twelve Data catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -649,10 +653,11 @@ rate_limits:
   name: Twelvedata Rate Limits
   slug: twelvedata-rate-limits
 rules:
-- effective_rule_count: 35
+- authorship: generated
+  effective_rule_count: 35
   extends:
   - spectral:asyncapi
-  name: Twelve Data API Rules
+  name: Twelve Data — asyncapi rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -661,23 +666,23 @@ rules:
     warn: 7
   slug: twelvedata-asyncapi-spectral-rules
 score:
-  band: exemplar
-  composite: 69.0
+  band: strong
+  composite: 61.2
   coverage:
-    artifact_dirs: 29
-    catalog_earned: 65.4
+    artifact_dirs: 30
+    catalog_earned: 49.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 49.6
+    catalog_gap: 65.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -7.8
   facets:
-    access_clarity: 96.8
+    access_clarity: 68.4
     contract_governance: 15.9
     contract_quality: 57.3
     developer_ergonomics: 81.5
-    discoverability: 75.0
-    operational_transparency: 65.3
+    discoverability: 80.0
+    operational_transparency: 44.7
   previous_composite: 69.0
   provenance:
     agentic_access: derived
@@ -699,9 +704,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 33.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: true
     score: 0.0
@@ -724,8 +729,8 @@ tags:
 - Market Data
 - Financial Data
 - Stocks
-- Forex
-- Crypto
+- Foreign Exchange
+- Cryptocurrency
 - Real-Time Data
 - Technical Indicators
 - Fundamentals

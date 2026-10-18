@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: documented
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 6.3
-  scored_at: '2026-10-04'
+  score: 4.4
+  scored_at: '2026-10-17'
 api_count: 4
 apis:
 - description: The one machine-readable contract École des Ponts ParisTech operates on its own infrastructure. A live SAML 2.0 EntityDescriptor served as application/xml from idp.enpc.fr, declaring SingleSignOnServi
@@ -196,9 +196,13 @@ created: '2026-06-03'
 description: 'École des Ponts ParisTech (École nationale des ponts et chaussées, ENPC) is a public French grande école of engineering founded in 1747, based in Champs-sur-Marne and a founding member of ParisTech. Its programmable footprint is small and must be read honestly: ENPC operates no public API programme, no developer portal and no API key issuance — api.enpc.fr and api.ecoledesponts.fr do not resolve, and there is no developer section anywhere in the 1,910-URL sitemap of ecoledesponts.fr. The single machine-readable contract ENPC genuinely operates itself is its SAML 2.0 Identity Provider metadata at idp.enpc.fr, whose entityID is registered in the RENATER Fédération Éducation-Recherche and therefore reachable through eduGAIN. Everything else that looks like an ENPC API is a tenant relationship on someone else''s platform: the open-access repository is the ENPC collection inside the national HAL platform operated by CCSD; the research-data repository is the ecoledesponts collection
   inside the national Recherche Data Gouv Dataverse; and the heritage digital library, though served under heritage.ecoledesponts.fr, is a Gallica Marque Blanche deployment hosted on BnF infrastructure with BnF ARKs and BnF attribution. Those are real institutional facts and are recorded as tenant surfaces — the data is ENPC''s, the contract is not.'
 finops:
-- name: Ecole Des Ponts Paristech Finops
+- has_sources: true
+  method: generated
+  name: Ecole Des Ponts Paristech Finops
+  primary_unit: ''
   service_category: Education
   slug: ecole-des-ponts-paristech-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ecole-des-ponts-paristech.png
 jsonld:
 - class_count: 22
@@ -210,7 +214,7 @@ modified: '2026-08-30'
 name: École des Ponts ParisTech
 nav: Providers
 network: true
-overview: 'École des Ponts ParisTech publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include University, Higher Education, Education, Technical University, and Grande École.
+overview: 'École des Ponts ParisTech is listed with 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include University, Higher Education, Education, Technical University, and Grande École.
 
 
   The École des Ponts ParisTech catalog on APIs.io includes 1 JSON-LD context.
@@ -227,23 +231,23 @@ rate_limits:
   name: Ecole Des Ponts Paristech Rate Limits
   slug: ecole-des-ponts-paristech-rate-limits
 score:
-  band: thin
-  composite: 30.3
+  band: emerging
+  composite: 24.2
   coverage:
     artifact_dirs: 10
-    catalog_earned: 65.4
+    catalog_earned: 52.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 49.6
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -2.9
+  delta: -6.1
   facets:
-    access_clarity: 47.9
+    access_clarity: 26.3
     contract_governance: 0.0
     contract_quality: 20.4
     developer_ergonomics: 23.8
     discoverability: 71.4
-    operational_transparency: 21.6
+    operational_transparency: 7.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -252,7 +256,7 @@ score:
     regions:
     - europe
     - france-iberia
-  previous_composite: 33.2
+  previous_composite: 30.3
   provenance:
     conformance: first-party
   regulatory:
@@ -261,9 +265,9 @@ score:
     regime: Education & Research
     regime_id: education
     score: 24.5
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

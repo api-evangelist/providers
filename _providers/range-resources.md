@@ -32,10 +32,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.rangeresources.com/news/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.rangeresources.com/news/feed/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/range-resources/refs/heads/main/security/range-resources-domain-security.yml
   title: ''
@@ -82,14 +90,14 @@ created: '2026-03-24'
 description: Range Resources is an independent natural gas, natural gas liquids, and oil company engaged in the exploration, development, and acquisition of natural gas and oil properties primarily in the Appalachian region. Range does not publish a public developer API; this index tracks the company's public-facing digital properties for reference.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/range-resources.png
 layout: provider
-modified: '2026-05-02'
+modified: '2026-10-06'
 name: Range Resources
 nav: Providers
 network: true
 overview: 'Range Resources is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Natural Gas, Oil and Gas, Appalachian, and Exploration and Production.
 
 
-  Range Resources'' developer surface includes product news, engineering blog, and 8 more developer resources.'
+  Range Resources'' developer surface includes engineering blog, product news, and 10 more developer resources.'
 press:
 - date: ''
   title: Range Announces Third Quarter 2025 Conference Call
@@ -141,8 +149,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 9.0
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

@@ -34,10 +34,19 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/i2x/refs/heads/main/plans/i2x-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/i2x-plans-pricing.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://i2x.ai/blog/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/i2x/refs/heads/main/security/i2x-domain-security.yml
   title: ''
@@ -92,14 +101,14 @@ description: 'i2x is a German real-time AI platform for contact centers, built b
   — the only commercial entry point is a demo-request form. A private, login-gated API host does exist at api.eu.i2x.ai serving the customer web application at app.i2x.ai, but it is undocumented and is not offered as an integration surface. This profile was surfaced as a portfolio company of hv-capital.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/i2x.png
 layout: provider
-modified: '2026-08-14'
+modified: '2026-10-06'
 name: i2x
 nav: Providers
 network: true
 overview: 'i2x is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Enterprise Software, Conversation Intelligence, Contact Center, and Speech Recognition.
 
 
-  i2x''s developer surface includes support and 7 more developer resources.'
+  i2x''s developer surface includes engineering blog, support, and 8 more developer resources.'
 plans:
 - name: I2X Plans Pricing
   plan_count: 0
@@ -107,20 +116,20 @@ plans:
 random_paper: 11
 score:
   band: minimal
-  composite: 9.5
+  composite: 10.0
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 48.2
     operational_transparency: 0.0
   jurisdiction:
@@ -140,8 +149,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.6
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

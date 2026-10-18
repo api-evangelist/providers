@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-04'
+  score: 0.6
+  scored_at: '2026-10-17'
 api_count: 6
 apis:
 - description: Programmatic access to sales/fulfillment orders - create and manage orders that flow into Hopstack's omnichannel order management and picking, packing, and shipping workflows. Orders is one of the cor
@@ -56,6 +56,10 @@ apis:
   slug: hopstack-warehouses-api
 artifact_total: 10
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.hopstack.io/blogs
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/hopstack/refs/heads/main/security/hopstack-domain-security.yml
   title: ''
@@ -99,19 +103,23 @@ common:
 created: '2026-07-05'
 description: Hopstack is an AI-native, cloud-based warehouse management system (WMS) and fulfillment operations platform that helps warehouses, 3PLs, and e-commerce operators optimize inbound logistics, inventory, order processing, picking, packing, shipping, and returns across channels. Hopstack exposes a documented RESTful API (referenced at apidocs.hopstack.io) for programmatic access to core resources such as orders and consignments, secured with a per-user X-API-Key generated from the Hopstack Dashboard. API access is gated - a customer must contact Hopstack Support to enable API-key generation in the UI - and the full endpoint surface, base URL, and machine-readable specification are published behind that account/partner reference rather than as a fully open catalog.
 finops:
-- name: Hopstack Finops
+- has_sources: true
+  method: generated
+  name: Hopstack Finops
+  primary_unit: ''
   service_category: Warehouse Management and Fulfillment
   slug: hopstack-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hopstack.png
 layout: provider
-modified: '2026-07-05'
+modified: '2026-10-06'
 name: Hopstack
 nav: Providers
 network: true
-overview: 'Hopstack publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Warehouse Management, WMS, Fulfillment, Logistics, and Supply Chain.
+overview: 'Hopstack is listed with 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Warehouse Management, WMS, Fulfillment, Logistics, and Supply Chain.
 
 
-  Hopstack''s developer surface includes documentation, API reference, and 7 more developer resources.'
+  Hopstack''s developer surface includes engineering blog, documentation, API reference, and 7 more developer resources.'
 plans:
 - name: Hopstack Plans Pricing
   plan_count: 1
@@ -122,23 +130,23 @@ rate_limits:
   name: Hopstack Rate Limits
   slug: hopstack-rate-limits
 score:
-  band: emerging
-  composite: 16.0
+  band: minimal
+  composite: 10.4
   coverage:
-    artifact_dirs: 6
-    catalog_earned: 52.4
+    artifact_dirs: 8
+    catalog_earned: 39.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 62.6
+    catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.6
   facets:
-    access_clarity: 26.8
+    access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 16.7
+    developer_ergonomics: 19.0
     discoverability: 62.5
-    operational_transparency: 18.9
+    operational_transparency: 5.3
   previous_composite: 16.0
   regulatory:
     applies: true
@@ -146,9 +154,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
-  trend: flat
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

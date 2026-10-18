@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -91,6 +91,16 @@ collections:
   name: Azure REST Virtual Machines API
   slug: open-microsoft-azure-virtual-machines-virtual-machines-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-virtual-machines/refs/heads/main/plans/microsoft-azure-virtual-machines-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/microsoft-azure-virtual-machines-plans-pricing.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-virtual-machines/refs/heads/main/finops/microsoft-azure-virtual-machines-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/microsoft-azure-virtual-machines-finops.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-virtual-machines/refs/heads/main/capabilities/microsoft-azure-virtual-machines-capability-edges.yml
   title: ''
@@ -227,9 +237,13 @@ common:
 created: '2024-01-20'
 description: Azure Virtual Machines (VMs) is one of several types of on-demand, scalable computing resources that Azure offers. VMs give you the flexibility of virtualization without having to buy and maintain physical hardware.
 finops:
-- name: Microsoft Azure Virtual Machines Finops
+- has_sources: true
+  method: generated
+  name: Microsoft Azure Virtual Machines Finops
+  primary_unit: ''
   service_category: Cloud Compute / IaaS
   slug: microsoft-azure-virtual-machines-finops
+  template: false
 image: https://azure.microsoft.com/svghandler/virtual-machines/
 json_schemas:
 - name: ApiError
@@ -352,13 +366,13 @@ modified: '2026-05-19'
 name: Azure Virtual Machines
 nav: Providers
 network: true
-overview: 'Azure Virtual Machines publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Virtual Machines API, and 9 more. Tagged areas include Cloud Computing, Compute, Infrastructure-as-a-Service, Infrastructure, and Virtual Machines.
+overview: 'Azure Virtual Machines publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Virtual Machines API, and 9 more. Tagged areas include Cloud Computing, Compute, Infrastructure-as-a-Service, Infrastructure, and Virtual Machines.
 
 
   The Azure Virtual Machines catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Azure Virtual Machines'' developer surface includes authentication, developer portal, engineering blog, support, documentation, getting-started guide, pricing, and 25 more developer resources.'
+  Azure Virtual Machines'' developer surface includes authentication, developer portal, engineering blog, support, documentation, getting-started guide, pricing, and 27 more developer resources.'
 plans:
 - name: Microsoft Azure Virtual Machines Plans Pricing
   plan_count: 10
@@ -369,9 +383,10 @@ rate_limits:
   name: Microsoft Azure Virtual Machines Rate Limits
   slug: microsoft-azure-virtual-machines-rate-limits
 rules:
-- effective_rule_count: 5
+- authorship: generated
+  effective_rule_count: 5
   extends: []
-  name: Azure Virtual Machines API Rules
+  name: Azure Virtual Machines — jsonschema rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -385,18 +400,18 @@ scopes:
   slug: microsoft-azure-virtual-machines-scopes
   summary_line: 1 scope · implicit
 score:
-  band: strong
-  composite: 54.9
+  band: developing
+  composite: 53.3
   coverage:
     artifact_dirs: 19
-    catalog_earned: 49.3
+    catalog_earned: 46.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 65.8
+    catalog_gap: 68.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 60.5
+    access_clarity: 52.6
     contract_governance: 9.8
     contract_quality: 48.4
     developer_ergonomics: 65.5
@@ -416,8 +431,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: true

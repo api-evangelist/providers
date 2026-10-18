@@ -25,17 +25,21 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: false
+    protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 8.6
-  scored_at: '2026-10-04'
+  score: 12.2
+  scored_at: '2026-10-17'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.acclinate.com/rss.xml
 - group: company
   title: ''
   type: Website
@@ -69,20 +73,20 @@ mcp_servers:
 - description: Remote MCP server at mcp.acclinate.com over HTTP.
   name: Acclinate MCP Server
   slug: acclinate
-modified: '2026-07-17'
+modified: '2026-10-06'
 name: Acclinate
 nav: Providers
 network: true
 overview: 'Acclinate is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Clinical Trials, Health Equity, and Patient Recruitment.
 
 
-  Acclinate''s developer surface includes engineering blog, support, and 4 more developer resources.'
+  Acclinate''s developer surface includes engineering blog, support, and 5 more developer resources.'
 random_paper: 8
 score:
   band: minimal
   composite: 10.5
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -105,8 +109,8 @@ score:
     regime: Health
     regime_id: health
     score: 10.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false

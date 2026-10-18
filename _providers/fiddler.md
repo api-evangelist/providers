@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.4
-  scored_at: '2026-10-04'
+  scored_at: '2026-10-17'
 api_count: 5
 apis:
 - description: Fiddler Everywhere is a cross-platform web debugging proxy for macOS, Windows, and Linux. It captures HTTP and HTTPS traffic, provides API composition capabilities, and includes collaboration features
@@ -53,6 +53,11 @@ apis:
   slug: fiddler-jam
 artifact_total: 13
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/fiddler/refs/heads/main/finops/fiddler-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/fiddler-finops.yml
 - group: company
   title: ''
   type: Website
@@ -227,9 +232,13 @@ common:
 created: '2026-03-26'
 description: Fiddler by Telerik (Progress Software) is a family of HTTP debugging proxy tools for capturing, inspecting, modifying, and replaying HTTP and HTTPS traffic between a machine and the internet. The line comprises Fiddler Everywhere (the cross-platform flagship), Fiddler Classic (the original Windows proxy, licensed for non-commercial use only as of 2026-08-03), Fiddler Everywhere Reporter (a free capture-and-report companion) and FiddlerCore (an embeddable proxy engine for .NET). Fiddler publishes no hosted REST API; its programmatic surface is a first-party Model Context Protocol server hosted by the Fiddler Everywhere desktop app on the loopback interface, exposing 20 documented tools that let a coding agent start captures, read sessions and request/response details, apply filters, create traffic-rewriting rules, run a reverse proxy and cache LLM agent calls. Progress also publishes three official Agent Skills for it. Fiddler Jam was retired by Progress on 2024-07-01.
 finops:
-- name: Fiddler Finops
+- has_sources: false
+  method: generated
+  name: Fiddler Finops
+  primary_unit: ''
   service_category: API
   slug: fiddler-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fiddler.png
 layout: provider
 mcp_servers:
@@ -240,10 +249,10 @@ modified: '2026-08-29'
 name: Fiddler
 nav: Providers
 network: true
-overview: 'Fiddler publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include API Debugging, HTTP Debugging, HTTP Proxy, Performance Testing, and Traffic Inspection.
+overview: 'Fiddler is listed with 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include API Debugging, HTTP Debugging, HTTP Proxy, Performance Testing, and Traffic Inspection.
 
 
-  Fiddler''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 31 more developer resources.'
+  Fiddler''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 32 more developer resources.'
 plans:
 - name: Fiddler Plans Pricing
   plan_count: 3
@@ -255,17 +264,17 @@ rate_limits:
   slug: fiddler-rate-limits
 score:
   band: developing
-  composite: 49.7
+  composite: 48.2
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 50.0
+    artifact_dirs: 18
+    catalog_earned: 47.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 65.0
+    catalog_gap: 68.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 100.0
+    access_clarity: 92.1
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 61.9
@@ -282,8 +291,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.23.0
-  scored_at: '2026-10-04'
+  schema_version: 0.24.0
+  scored_at: '2026-10-17'
   trend: flat
   upsert:
     applies: false
